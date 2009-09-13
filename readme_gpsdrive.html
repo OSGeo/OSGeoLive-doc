@@ -1,0 +1,29 @@
+<html><body>
+
+<b>GpsDrive</b>: <a href="http://www.gpsdrive.de">http://www.gpsdrive.de</a>
+<P>
+Support pages: <a href="http://gpsdrive.sf.net">http://gpsdrive.sf.net</a>
+<P>
+<BR><BR>
+If you have a GPS connected you will want to start the gpsd service.
+To do that run:
+
+<pre>
+  sudo dpkg-reconfigure gpsd
+</pre>
+
+and
+
+<pre>
+  sudo /etc/init.d/gpsd start
+</pre>
+
+BlueTooth GPS users should take special care to read up about the no-probe
+option. (for this reason we have not started gpsd automatically)
+
+<BR><BR>
+
+'xgps' is a good program to check that it can see your GPS ok.
+
+
+</body></html>
