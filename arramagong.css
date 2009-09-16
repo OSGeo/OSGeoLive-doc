@@ -1,3 +1,22 @@
+.header, .contents, h1 {
+    margin-left:50px;
+    width:666px;
+}
+
+.header {
+    height:101px;
+    width:666px;
+}
+h1 {
+    padding:0;
+    font-weight:normal;
+    font-size:1.5em;
+}
+.contents {
+    font-size:0.9em;
+    line-height:1.4em;
+}
+/* Old CSS */
 .contentDivCenter {
 	position:absolute;
 	float:left;
