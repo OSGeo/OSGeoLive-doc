@@ -1,17 +1,27 @@
-<html><body>
+<h1><font color="#404098">GpsDrive 2.10pre7</font></h1>
+<h2>About</h2>
+<p>
+  <a href="http://www.gpsdrive.de">GpsDrive</a>
+ is a car (bike, ship, plane, foot) navigation system.
+ GpsDrive displays your position provided from a GPS on a zoomable map,
+ the map file is autoselected depending on your position and preferred
+ map scale.  All GPS receivers which support the NMEA protocol should
+ be usable, as well as many USB GPSs using a binary protocol known to
+ the <a href="http://gpsd.berlios.de">Gpsd</a> daemon.</p>
 
-<P>
-<BR><BR>
+<h2>Running</h2>
+ <p>You will most likely want to install the <tt>gpsd</tt> package so that
+ you can talk to your GPS; without that GpsDrive is just a nice map viewer.
 
-<b>GpsDrive</b>: <a href="http://www.gpsdrive.de">http://www.gpsdrive.de</a>
-<P>
-Help and support pages: <a href="http://gpsdrive.sf.net">http://gpsdrive.sf.net</a>
+ <p>Speech output is supported if the "espeak" software is installed.
+ To use live-maps from the OpenStreetMap project you need to install the
+ openstreetmap-* packages as well. Static map tiles may be downloaded
+ from the internet without any extra installation.
+<BR>
 
-<P>
-<BR><BR>
-
-&bull; If you have a GPS connected you will want to start the gpsd service.
-To do that run:
+ <h3>Setting up your GPS</h3>
+ <p>If you have a GPS connected you will want to start the gpsd service.
+  To do that run:
 
 <pre>
   sudo dpkg-reconfigure gpsd
@@ -27,22 +37,71 @@ BlueTooth GPS users should take special care to read up about the no-probe
 option. (for this reason we have not started gpsd automatically)
 
 <BR><BR>
+&bull; 'xgps' is a good program to check that Gpsd can see your GPS ok.
 
-'xgps' is a good program to check that it can see your GPS ok.
-
-<P>
-<BR><BR>
+<BR>
 
 
-&bull; If you don't have a GPS connected you can turn on Explore Mode
+<h3>Using without a GPS as a mapbook</h3>
+<p>If you don't have a GPS connected you can turn on Explore Mode
 with the 'e' key and then use the arrow keys to move around.
-
-<P>
-<BR><BR>
-
-&bull; For help type 'man gpsdrive' at a Terminal prompt.
+<br>
 
 
-</p>
+<h3>Quick help</h3>
+For help type '<tt>man gpsdrive</tt>' and '<tt>gpsdrive --help</tt>' at a Terminal prompt.
+<BR>
 
-</body></html>
+
+<h3>Customizing the display</h3>
+Besides the options given in the Preferences menu and the different 
+car/PDA/desktop modes offered from the command line, you can change the
+displayed dashboard meters. Just click on one of the three dashboard
+postions and select a new item.
+
+
+<h3>Downloading maps</h3>
+ Use the <tt>Options &rarr; Maps &rarr; Download</tt> tool to preview
+and download new map tiles. Currently the OpenStreetMap web-tiles and
+NASA OnEarth WMS server are available as sources. There are a few command
+line programs which come with GpsDrive which will let you bulk-download
+a set of tiles covering your local area.
+
+
+<h3>Mapnik rendering of OpenStreetMap data</h3>
+If you have a local PostGIS database running (for example the one that comes
+with the pgRouting software on this Live DVD) you can setup GpsDrive to
+render very pretty street maps on the fly from OpenStreetMap.org data
+using the Mapnik rendered. The PostgreSQL database it looks for by default
+should be named "gis". Bonus points go to PostGIS experts who manage to
+bend the pgRouting data thus enabling this option. (hint: comment out the
+world boundary shapefile references in the ~/.gpsdrive/osm.xml file)
+
+
+<h3>Keeping tabs on your friends</h3>
+In the Preferences menu you can turn on the Friendsd service. This
+transmits your position to a central server and lets your friends know
+where you are. It comes with a program to run a private server if you
+don't want the whole world seeing where you are. To enable this service
+go into the Preferences menu and select the Friends tab. Type in a name
+for yourself and click on the [Lookup] button to get the IP address of
+the default friendsd server. Finally tick the Enable friends service box
+and press [Close]. Icons showing where your friends are and where they are
+headed will be shown at scales less than 1:10 million. There seem to be
+a lot of friendly types in Europe.
+
+
+<h2>Further reading</h2>
+ <ul>
+  <li><b>GpsDrive</b>: <a href="http://www.gpsdrive.de">http://www.gpsdrive.de</a>
+  <li>Help and support pages: <a href="http://gpsdrive.sf.net">http://gpsdrive.sf.net</a>
+ </ul>
+
+
+<BR><BR><BR>
+<font color="#404098">&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="+2">&uarr;</font><font size="-1"><sub><em>N</em></sub></font>
+&nbsp;&nbsp;&nbsp; <b><em>Happy mapping!</em></b>&nbsp;&nbsp;&nbsp;&nbsp;
+<font size="-1"><sup><em>S</em></sup></font><font size="+3"><sub>&darr;</sub></font>
+</font>
+<BR><BR><BR>
