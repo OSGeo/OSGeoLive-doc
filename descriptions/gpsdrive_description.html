@@ -91,6 +91,17 @@ headed will be shown at scales less than 1:10 million. There seem to be
 a lot of friendly types in Europe.
 
 
+<h3>Verbal instructions</h3>
+GpsDrive can give you verbal warnings when you are nearing your
+destination, etc. To try this out you must start the eSpeak software
+which has been disabled by default on this Live-Disc to save memory.
+To switch it on you will have to edit (as root) the
+<tt>/etc/default/speech-dispatcher</tt> file and set <tt>RUN_SPEECHD=yes</tt>.
+Then launch the service with
+"<tt>sudo&nbsp;/etc/init.d/speech-dispatcher&nbsp;start</tt>".
+GpsDrive will automatically find it at run time if it is switched on.
+
+
 <h2>Further reading</h2>
  <ul>
   <li><b>GpsDrive</b>: <a href="http://www.gpsdrive.de">http://www.gpsdrive.de</a>
