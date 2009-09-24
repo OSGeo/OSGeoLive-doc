@@ -1,0 +1,69 @@
+<div id="mapnik">
+
+<h1 style="color:steelblue">About Mapnik</h1>
+
+<h2 style="color:darkblue">Welcome</h2>
+
+<p>This LiveDVD includes <b>Mapnik 0.5.1</b>, the packaged release for Ubuntu Jaunty, along with a demo web application using <a href="http://openlayers.org/">OpenLayers</a> and <a href="http://bitbucket.org/springmeyer/tilelite/">Tilelite<a/>. If you like what you see, we recommend running the Mapnik 0.6.x series which is available in the latest Ubuntu release known as <b>"Karmic"</b>. Intrepid users may want to try running through the excellent Mapnik, <a href="http://trac.mapnik.org/wiki/Nik2Img">Nik2img</a>, and <a href="http://mike.teczno.com/notes/cascadenik.html">Cascadenik</a> tutorial as part of the Amazon Image from <a href="http://mapsfromscratch.com/">http://mapsfromscratch.com/</a>.
+<p>
+
+<h2 style="color:darkblue">What is Mapnik?</h2>
+<p>
+<a href="http://mapnik.org">Mapnik</a> is an <a href="http://www.opensource.org">Open Source</a> Toolkit for developing mapping applications. Above all Mapnik is about making beautiful maps. It is easily extensible and suitable for both desktop and web development.
+</p>
+
+<p>
+Mapnik is written in C++ and there are Python bindings to facilitate fast-paced agile development within web frameworks such as Django, Pylons, or Turbogears.
+</p>
+
+<p>
+One of its many users is the <a href="http://openstreetmap.org/">OpenStreetMap project (OSM)</a> which uses it in combination with an Apache Web Server module (<a href="http://wiki.openstreetmap.org/index.php/Mod_tile">mod_tile</a>) to render tiles that make up the main <a href="http://wiki.openstreetmap.org/wiki/Mapnik">OSM 'Slippy Map' Layer</a>. An <a href="http://trac.mapnik.org/wiki/XMLConfigReference">XML file</a> can be used to define a collection of mapping objects that determine the appearance of a map, or objects can be constructed programatically in C++ or Python. <a href="http://mapnik-consulting.com/">Artem Pavlenko<a/>, the original developer of Mapnik, set out with the explicit goal of creating beautiful maps by employing the subpixel anti-aliasing of the Anti-Grain Geometry (AGG) library. Artem's work has attracted a large array of <a href="http://www.ohloh.net/p/mapnik/contributors">active contributers</a> that currently work on all aspects of <a href="https://trac.mapnik.org/roadmap">Mapnik development</a>. Mapnik now also has a powerful <a href="http://cairographics.org/">Cairo Graphics</a> rendering backend for vector output, a solid set of <a href="http://svn.mapnik.org/trunk/docs/api_docs/python/mapnik-module.html#Datasource">datasource plugins</a>, and a <a href="http://trac.mapnik.org/wiki/TextSymbolizer">wealth of parameters</a> to customize labeling output. When it comes to handling common software tasks such as memory management, filesystem access, regular expressions, and XML parsing, Mapnik utilizes the <a href="http://www.boost.org/">Boost C++ Libraries</a>.
+</p>
+
+<h2 style="color:darkblue"> Features of this LiveDVD</h2>
+
+<p>Mapnik and its python bindings are installed and ready to be used for scripting on this machine.</p>
+
+<p>In addition a basic demo application that hints at the rich features and rendering capabilities of Mapnik is pre-installed. To run the demo, which shows serving tiles into OpenLayers through Mapnik in the OSM/Google tile scheme, just follow these steps:</p>
+<ul>
+<li>Click on the Desktop Icon called <b>'Start Mapnik (TileLite Server)'</b></li>
+<li>The server should start in a terminal window and output basic debugging information</li>
+<li>Check to make sure the server is working by visiting the <a href="http://localhost:8000">TileLite Welcome Page</a> on port 8000</li>
+<li>Then visit the example <a href="file:///usr/local/share/mapnik/demo/openlayers">TileLite OpenLayers "World Population"</a> demo application page</li>
+
+</ul>
+
+Other things to do include:
+
+<ul>
+<li>Installing the <a href="http://bitbucket.org/springmeyer/quantumnik/">Quantumnik Plugin</a> for using Mapnik within QGIS</li>
+<li>Installing <a href="http://code.google.com/p/mapnik-utils/wiki/Cascadenik">Cascadenik</a> and following the basic tutorials</li>
+<li>Installing <a href="http://code.google.com/p/mapnik-utils/wiki/Nik2Img">Nik2img</a> and try rendering maps using the provided <a href="file:///usr/local/share/mapnik/demo/">example XML mapfile.</a></li>
+</ul>
+
+
+
+<p> The Mapnik team hopes that these will spark your interest to delve deeper into using the Mapnik library. If you are looking for a one-stop solution for serving your various formats of geodata via the web, look to MapServer or Geoserver. But, if you have the highest expectations for cartographic quality, enjoy working with OpenStreetMap data, or wish to develop an application in C++ or Python then Mapnik may be worth a closer look.</p>
+
+
+<h2 style="color:darkblue">How does it compare to GeoServer and MapServer?</h2>
+
+<p>As a rendering engine it has very similiar core functionality to MapServer and GeoServer. With enough effort you should be able to get nearly the same output out of each renderer as far as crisp antialiased lines, good text labeling, and speedy access to large datasets.</p>
+
+<p>Like GeoServer, Mapnik uses an XML format to store styles which is akin to the OGC Symbology Encoding spec, but Mapnik departs from the SE spec in some places using a more concise format and extends the spec by supporting inline XML layer definitions. Unlike Geoserver, Mapnik focuses purely on rendering and is most powerful when used programmatically (in C++ or Python) and does not provide a graphical administration panel for loading layers or styles.
+</p>
+
+<p>Like MapServer, Mapnik has fully-featured python language bindings that expose a large set of GIS features such as coordinate reprojection, data introspection, zooming and panning ability, and the loading of an array of datasources. Unlike MapServer, Mapnik does not feature a standard WMS CGI application like 'mapserv' cgi but is more commonly used to generate tile sets using either <a href="http://wiki.openstreetmap.org/index.php/Mod_tile">Mod_tile</a>, <a href="http://tilecache.org/">TileCache</a>, or <a href="http://bitbucket.org/springmeyer/tilelite/">TileLite</a>, or as a graphics engine in a standalone application written in python or C++ (Mapnik users are frequently seen rolling cross platform desktop and web applications using either <a href="http://qt.nokia.com/products">QT</a>, <a href="http://www.wxpython.org/">WXPython</a>, or <a href="http://www.djangoproject.com/">Django</a>).</p>
+</p>
+
+
+<h2 style="color:darkblue">Further Resources</h2>
+
+<ul>
+<li><a href="http://mapnik.org">Mapnik Main Site</a></li>
+<li><a href="http://trac.mapnik.org">Mapnik Documentation and Trac Wiki</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Mapnik">Mapnik on Wikipedia</a></li>
+<li><a href="http://mike.teczno.com/notes/mapnik.html">"Making Sense of Mapnik"</li>
+<li><a href="http://mike.teczno.com/notes/tile-drawer.html">TileDrawer</li>
+<li><a href="http://code.google.com/p/mapnik-utils/">Mapnik-utils</li>
+</ul>
