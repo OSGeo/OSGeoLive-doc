@@ -1,0 +1,74 @@
+<h1><font color="#c06f0a">Unofficial gvSIG Mobile for Linux devices v. 0.1.6</font></h1>
+
+<p>This is a brief description of the application. For more details, visit:<br><br>
+<a href="http://gvsigmobileonopenmoko.wordpress.com">http://gvsigmobileonopenmoko.wordpress.com</a>
+
+<h2>Starting the application</h2>
+<p>There should be an icon under <em>Applications - Education</em> to start this application.
+You can also start it by typing <em>ugvsigmo</em> in a Linux terminal.
+
+<h2>Features</h2>
+<p>gvSIG Mobile for Openmoko v. 0.1.6 is a GPS-enabled, projection-aware mapping application that also allows
+user to store waypoints with easily customizable attributes and perform remote vector synchronization
+(see <a href="http://gvsigmobileonopenmoko.wordpress.com/download">How-tos section</a> for details).
+Other features include:
+
+<ul>
+	<li>Browsing Spherical Mercator remote tile services (OpenStreetMap).</li>
+	<li>Easily configurable access to standard and tile WMS servers. If the WMS server
+	is not a tile server, the application applies a tile approach. This optimizes bandwidth
+	usage in all cases.</li>
+	<li>Easily configurable access to ESRI ArcIMS servers. The application applies a tile approach.
+	This optimizes bandwidth usage in all cases.</li>
+	<li>Support for the vector data file de facto standard (ESRI shapefile, *.shp).</li>
+	<li>Access to GPS device via Gpsd. A rotating arrow shows on the map indicating position and
+	heading. Coordinates are also shown.</li>
+	<li>Easily configurable waypoints dialog to store waypoints in a small embedded database which
+	can be synchronized with a remote PostGIS database.</li>
+	<li>Multi-language. Currently: English, Spanish, Romanian, Italian, French, German, Arabic,
+	Russian &amp; Hebrew. Special thanks to
+	the <a href="http://www.oadigital.net">OA Digital staff</a> and also to Evgeniy Ginzburg,
+	Michael Douchin and Nawfal Cherqui.</li>
+</ul>
+
+<h3>Projections</h3>
+
+If the user wishes to see the GPS arrow on their cartography, they must access WMS
+layers and add shapefiles using one of the coordinate systems known by the application.
+These can be seen in the SRS drop-down combo box (settings tab). Supported coordinate
+systems include:
+
+<ul>
+	<li><em>EPSG:4326:</em> Geographic coordinates for WGS84 datum.</li>
+	<li><em>EPSG:3857:</em> (aka EPSG:900913) Spherical Mercator projection for WGS84 datum,
+	used by OSM, Yahoo Satellites, Google Maps, etc.</li>
+	<li><em>EPSG:258XX:</em> UTM projection for the European zones (ETRS89 datum).</li>
+	<li><em>EPSG:27700:</em> British national grid.</li>
+</ul>
+
+<h3>Tiles</h3>
+
+Tiles and other data are cached in the user's home folder,
+usually <tt>/home/[user]/ugvsigmobile_session</tt>
+
+<h2>Special thanks</h2>
+
+<ul>
+<li>Manuel Gomez from <a href="http://www.ubikis.com">Ubikis</a> (Lyon, France)</li>
+<li>Joseph Reeves from <a href="http://www.oadigital.net">Oxford Archaeology</a> (Oxford, UK)</li>
+</ul>
+
+<h2>Background</h2>
+<p>The gvSIG and gvSIG Mobile projects are funded by the Conselleria d'Infraestructures i Transports
+(Generalitat Valenciana, Spain) and developed by Prodevelop SL,
+Iver and Instituto Robotica (UV):<br><br><a href="http://www.gvsig.gva.es">http://www.gvsig.gva.es</a>
+
+<p>gvSIG Mobile is a JME-CDC GIS application that runs on pocket PCs and smartphones. The official
+version runs so far only on Windows Mobile.
+
+<p>In summer 2008, Joseph Reeves from <a href="http://www.oadigital.net">Oxford Archaeology</a>
+showed great interest in using gvSIG Mobile
+on <a href="http://wiki.openmoko.org/wiki/Main_Page">Openmoko</a>, a Linux-based operating system used
+on a new phone called Neo Freerunner. So I started to create an unofficial version with a new GUI (simpler
+and more finger-oriented), based on the not-so-mature Java resources available on Openmoko. This software
+is now available in an initial beta version so that we can receive some feed-back from users.
