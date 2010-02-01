@@ -27,10 +27,37 @@ Current features:
 
 <h2>Running</h2>
 
+<h3>Setting up your charts</h3>
 Before running OpenCPN on the LiveDVD you should activate the sample data.
 To do this open a Terminal from the main Applications menu and run
 "<tt>opencpn_noaa_agreement.sh</tt>" at the command prompt.
+<p>
+You can download additional US nautical charts from NOAA at 
+ <a href="http://www.charts.noaa.gov/">http://www.charts.noaa.gov/</a>
+
+
+<h3>Setting up your GPS</h3>
+ <p>If you have a GPS connected you will want to start the gpsd service.
+  To do that run:
+
+<pre>
+  sudo dpkg-reconfigure gpsd
+</pre>
+and
+<pre>
+  sudo /etc/init.d/gpsd start
+</pre>
+
+BlueTooth GPS users should take special care to read up about the no-probe
+option. (for this reason we have not started gpsd automatically)
+
+<BR><BR>
+&bull; 'xgps' is a good program to check that Gpsd can see your GPS ok.
+
+<BR>
 
 <h4>Documentation</h4>
-Documentation is available from the Help menu, or online at
+Documentation is available from the
+ <a href="file:///usr/local/share/opencpn/doc/help.html">Help menu</a>,
+or online at
  <a href="http://www.opencpn.org/docwiki">http://www.opencpn.org/docwiki</a>.
