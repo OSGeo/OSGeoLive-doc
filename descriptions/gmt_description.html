@@ -39,3 +39,23 @@ The low resolution coastline can be found in /usr/share/gmt/coast/.
   gmt-examples 
   gmt-tutorial (and -pdf)
 -->
+
+<h3>Examples</h3>
+There are 29 example jobs built in, and a script to run them all:
+<p>
+&bull; Open a terminal 
+<pre>
+cp -r /usr/share/doc/gmt-examples/examples/ gmt-examples
+cd gmt-examples/
+./do_examples.sh
+</pre>
+
+[whiz .. bang .. whirl]
+<p>
+View results: (type 'q' to quit gv)
+<pre>
+for PLOT in `find . -name *.ps` ; do
+   echo "$PLOT"
+   gv "$PLOT"
+done
+</pre>
