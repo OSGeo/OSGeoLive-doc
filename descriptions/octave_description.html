@@ -1,7 +1,7 @@
 <h1>Octave Mapping Toolbox</h1>
 <h2>About</h2>
 <p>
-GNU Octave is a (mostly Matlab<sup>(R)</sup> compatible) high-level
+GNU Octave is a (mostly Matlab<sup>&reg;</sup> compatible) high-level
 language, primarily intended for numerical computations. It provides a
 convenient command-line interface for solving linear and nonlinear
 problems numerically.
@@ -26,3 +26,28 @@ azimuth. This Octave add-on package is part of the Octave-Forge project.
 * "<a href="http://www.gnu.org/software/octave/meetings/2006/octave_gis.pdf"><i>Bringing GIS to Octave</i>"</a> (PDF)
 <br>
 * Mapping toolbox <a href="http://octave.sourceforge.net/doc/funref_mapping.html">function reference</a>
+
+<h3>Quick example</h3>
+
+Open a terminal and start the program by typing "octave".
+<p>
+<b>&bull; Which way to Barcelona from Sydney?</b>
+<pre>
+   sydney = [-33.8750 151.2005]
+   barcelona = [41+23/60 2+11/60]
+
+   dirn = azimuth(sydney, barcelona)
+   deg_symb = 176;
+   disp(['Heading: ' num2str(dirn) deg_symb])
+</pre>
+
+<b>&bull; How far's the trip? (roughly)</b>
+<pre>
+   system('proj -le')
+   wgs84_a = 6378137.0  % major radius of the Earth, in meters
+   dist_deg = distance(sydney, barcelona)
+   dist_meters = pi * wgs84_a * (dist_deg / 360.0)
+   disp(['Distance: ' num2str(dist_meters / 1000) ' km'])
+</pre>
+
+Type "exit" to leave.
