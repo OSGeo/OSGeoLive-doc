@@ -29,7 +29,7 @@
   Tcl/Tk GUI is still available if you prefer to use that; you can start
   it by typing <em>g.gui --ui</em> on the command line.
 
-  <h3>Displaying maps</h3>
+ <h3>Displaying maps</h3>
   <p>Once inside add a raster map layer such as "elevation" from the PERMANENT
   mapset. To do this go into the GIS Layer Manager window and click on the
   checkerboard toolbar button with a "+" on it. Then select the map name
@@ -44,7 +44,7 @@
   render the view.<BR>
   You should now see the maps displayed.
 
-  <h3>Plot an elevation profile</h3>
+ <h3>Plot an elevation profile</h3>
   <p>Back in the GIS Layer Manager window click on the elevation raster
   map name to select it. Then in the Map Display window, to the right of the
   zooming buttons on the Map Display toolbar is an icon with a line graph
@@ -56,7 +56,7 @@
   eyeball button to create the plot. Click on the I/O button of the far
   right to close the profile window.
 
-  <h3>Create a random surface</h3>
+ <h3>Create a random surface</h3>
   <p>Now let's create a new map. Select <tt>Raster &rarr; Generate 
   surfaces &rarr; Fractal surface</tt> from the menu (near the bottom);
   give your new map a name; adjust any options you like in the Options
@@ -80,7 +80,7 @@
   refresh button next to the eyeball button to re-render all layers and you
   should see your map with its new colors.
   
-  <h3>Create a shaded relief map</h3>
+ <h3>Create a shaded relief map</h3>
   <p>Next we'll create a shaded relief map of the elevation layer we saw
   earlier. Start by selecting the elevation @PERMANENT map from before
   by clicking on its name. In the <tt>Raster</tt> menu select <tt>Terrain
@@ -128,23 +128,34 @@
   re-render to see the change so click on the re-render button next to the
   eyeball. The fonts will now be much prettier.
 
-  <h3>Vector modules</h3>
+ <h3>Vector modules</h3>
   <p>The above tasks have only covered a few raster modules. Don't let this
   give you the idea that GRASS is just for raster maps -- the vector engine
   and modules are every bit as full-featured as the raster ones. GRASS
   maintains a fully topological vector system which allows all sorts of
   very powerful analyses.
 
-  <h3>3D visualization</h3>
+ <h3>3D visualization</h3>
+  First verify that the computational region is set match the raster map
+  of interest, "<tt>elevation</tt>" in the PERMANENT mapset. To do this,
+  load it into the layer list of the main Layer Manager window, right click
+  on its name and select "Set computation region from selected map(s)".
   <p>Start the 3D visualization suite from the <tt>File &rarr; NVIZ</tt>
-  menu item and have fun exploring. You will have to select those raster
-  and vector maps again from the Raster and Vector tabs.
+  menu item. Select an <tt>elevation</tt> map as the raster elevation.
   <p>Once the 3D display interface loads, maximize the window.
-  <p>Next select <tt>Visualize&rarr;Raster Surfaces</tt> from the menu, and
+  <p>Next select <tt>Visualize&rarr;Raster Surfaces</tt> from the top menu, and
   set the fine resolution to "1", then move the positioning puck and height
   slider around to get different views.
+  <p>To drape satellite or aerial imagery over the top of the DEM, in the
+  <tt>Raster Surfaces</tt> controls click on the <tt>Surface Attributes</tt>
+  drop down menu and select "color". Select "New Map" to pick the overlay
+  image. In the Spearfish dataset "<tt>spot.image</tt>" in PERMANENT is a
+  good choice; in the North Carolina dataset "<tt>lsat7_2002_50</tt>"
+  in PERMANENT is a good choice. Finally, click "Accept" and then once
+  back at the main window click on the "Draw" button in the top-left, just 
+  under the File menu.
 
-  <h3>Shutdown and the command line</h3>
+ <h3>Shutdown and the command line</h3>
   <P>When finished, exit the GRASS GUI with <tt>File&rarr;Exit</tt>.
   Before you close the GRASS terminal session as well, try a GRASS
   module by typing "<tt>g.manual --help</tt>" which will give you a list
