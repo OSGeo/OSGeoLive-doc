@@ -1,20 +1,52 @@
-.header, .contents, h1 {
-    margin-left:50px;
-    width:666px;
-}
-
 .header {
     height:101px;
     width:666px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
 }
+
+.banner a{
+color:white;
+}
+
 h1 {
     padding:0;
     font-weight:normal;
     font-size:1.5em;
+    text-align: left;
 }
 .contents {
     font-size:0.9em;
     line-height:1.4em;
+}
+
+/*Package Names*/
+
+li {
+/*This needs a better tag to hang on so it doesn't clobber everyone*/
+list-style-type:none;
+}
+
+li a{
+background-color:#EBEBEB;
+color:black;
+text-decoration:none;
+font-size: 1.2em;
+padding: 0px 20px 0px 20px;
+}
+li a:hover{
+background-color:#666666;
+}
+
+p a{
+color:blue;
+background-color:white;
+padding: 0 0 0 0;
+font-size: 1em;
+}
+p a:hover{
+background-color:white;
 }
 
 /*Specific to sponsors page*/
@@ -22,8 +54,13 @@ h1 {
 	display:inline;
 }
 
-li a{
+.sponsortitle a{
+	background-color:white;
 	color:white;
+	padding: 0 10px 0 0;
+}
+.sponsortitle a:hover{
+	background-color:white;
 }
 
 #live img {
