@@ -1,5 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head></head><body>
+<html>
+<body>
+
 <h1>OpenStreetMap tools</h1>
 <h2>About</h2>
 <p>
@@ -10,14 +12,14 @@
   use, holding back people from using them in creative, productive or
   unexpected ways.
 
-</p><h4>Homepage</h4>
+<h4>Homepage</h4>
  <a href="http://www.openstreetmap.org">http://www.openstreetmap.org</a>
 
 <h4>License</h4>
- OpenStreetMap data: <a href="http://wiki.openstreetmap.org/index.php/OpenStreetMap_License">http://wiki.openstreetmap.org/index.php/OpenStreetMap_License</a><br>
- JOSM: GPLv2<br> <!-- see /usr/share/doc/josm/copyright -->
- JOSM plugins collection: Ranging from Public Domain to GPLv3<br>
- Gosmore: Public Domain and GPLv2<br> <!-- see /usr/share/doc/gosmore/copyright -->
+ OpenStreetMap data: <a href="http://wiki.openstreetmap.org/index.php/OpenStreetMap_License">http://wiki.openstreetmap.org/index.php/OpenStreetMap_License</a><BR>
+ JOSM: GPLv2<BR> <!-- see /usr/share/doc/josm/copyright -->
+ JOSM plugins collection: Ranging from Public Domain to GPLv3<BR>
+ Gosmore: Public Domain and GPLv2<BR> <!-- see /usr/share/doc/gosmore/copyright -->
 
 <h4>Software</h4>
 Two programs are installed: Josm and Gosmore. In addition Josm plugins
@@ -27,29 +29,42 @@ JOSM (Java OpenStreetMap Editor) is an editor for OpenStreetMap (OSM)
 written in Java. The current version supports stand alone GPX tracks,
 GPX track data from OSM database and existing nodes, line segments and
 metadata tags from the OSM database.
-<br>
+<BR>
 Homepage: <a href="http://josm.openstreetmap.de">http://josm.openstreetmap.de</a>
-</p><p>
+<p>
 The JOSM plugin collection contains the following plugins:
-</p><pre> * agpifoj            - Creates a new layer with geotagged pictures.<br> * colorscheme        - Allows to create different color schemes.<br> * livegps            - Supports live GPS input together with gpsd.<br> * measurement        - Adds a dialog and a layer to measure length<br>                        and angle of segments and create measurement paths.<br> * openvisible        - Allows opening gpx and osm files that intersect<br>                        the currently visible screen area.<br> * slippymap          - Displays a slippy map grid in JOSM.<br> * surveyor           - Allows adding markers/nodes on current gps positions.<br> * utilsplugin        - Several helper utilities.<br> * validator          - Data validator.<br> * wmsplugin          - Displays background images from any WMS source.<br></pre>
-<br>
+<pre>
+ * agpifoj            - Creates a new layer with geotagged pictures.
+ * colorscheme        - Allows to create different color schemes.
+ * livegps            - Supports live GPS input together with gpsd.
+ * measurement        - Adds a dialog and a layer to measure length
+                        and angle of segments and create measurement paths.
+ * openvisible        - Allows opening gpx and osm files that intersect
+                        the currently visible screen area.
+ * slippymap          - Displays a slippy map grid in JOSM.
+ * surveyor           - Allows adding markers/nodes on current gps positions.
+ * utilsplugin        - Several helper utilities.
+ * validator          - Data validator.
+ * wmsplugin          - Displays background images from any WMS source.
+</pre>
+<BR>
 
 <p>
  Gosmore is a OpenStreetMap viewer, wayfinder, and search client
  with support for speech synthesis and fetching the current user's
  current GPS location using gpsd.
-<br>
+<BR>
 Homepage: <a href="http://wiki.openstreetmap.org/index.php/Gosmore">http://wiki.openstreetmap.org/index.php/Gosmore</a>
 
 
-</p><h2>Documentation</h2>
+<h2>Documentation</h2>
 
 <h4>JOSM</h4>
-* Online tutorial: <a href="http://www.use-it.be/europe/docs/OSMmanual/">http://www.use-it.be/europe/docs/OSMmanual/</a><br>
-* User guide: <a href="http://wiki.openstreetmap.org/wiki/JOSM/Guide">http://wiki.openstreetmap.org/wiki/JOSM/Guide</a><br>
-* Video tutorial: <a href="http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180">http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180</a><br>
-* Open the sample data with <tt>File &#8594; Open... &#8594; /usr/local/share/osm/Barcelona.osm.bz2</tt><br>
-* Further instructions are given when you launch the application.<br>
+* Online tutorial: <a href="http://www.use-it.be/europe/docs/OSMmanual/">http://www.use-it.be/europe/docs/OSMmanual/</a><BR>
+* User guide: <a href="http://wiki.openstreetmap.org/wiki/JOSM/Guide">http://wiki.openstreetmap.org/wiki/JOSM/Guide</a><BR>
+* Video tutorial: <a href="http://showmedo.com/videotutorials/video?name=1800050&fromSeriesID=180">http://showmedo.com/videotutorials/video?name=1800050&fromSeriesID=180</a><BR>
+* Open the sample data with <tt>File &rarr; Open... &rarr; /usr/local/share/osm/Barcelona.osm.bz2</tt><BR>
+* Further instructions are given when you launch the application.<BR>
 
 
 <h4>Gosmore </h4>
@@ -58,9 +73,11 @@ Homepage: <a href="http://wiki.openstreetmap.org/index.php/Gosmore">http://wiki.
 * Before running Gosmore you will need to convert a <tt>planet-*.osm</tt> data
 file. Some data is provided in the <tt>/usr/local/share/osm/</tt> directory.
 Import it with:
-<pre>  bzip2 -dc /usr/local/share/osm/Barcelona.osm.bz2 | gosmore rebuild<br></pre>
+<pre>
+  bzip2 -dc /usr/local/share/osm/Barcelona.osm.bz2 | gosmore rebuild
+</pre>
 
 This will create gosmore.pak.
 
-
-</body></html>
+</body>
+</html>
