@@ -16,6 +16,20 @@ h1 {
     font-size:0.9em;
     line-height:1.4em;
 }
+
+/*Specific to sponsors page*/
+.sponsortitle ul li{
+	display:inline;
+}
+
+li a{
+	color:white;
+}
+
+#live img {
+height:64px;
+}
+
 /* Old CSS */
 .contentDivCenter {
 	position:absolute;
