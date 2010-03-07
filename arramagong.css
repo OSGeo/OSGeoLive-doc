@@ -1,13 +1,23 @@
 .header {
     height:101px;
-    width:666px;
+    width:100%;
     text-align: center;
     margin: auto;
     padding-bottom: 10px;
+    background-color: gray;
+}
+
+.header li{
+    display:inline;
+    list-style-type:none;
+}
+.banner {
+background-color:black;
+width: 100%;
 }
 
 .banner a{
-color:white;
+color:black;
 }
 
 h1 {
