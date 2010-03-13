@@ -23,9 +23,62 @@
     Application passwords are in the passwords.txt file on the desktop.
 
 </p>
+
+<h2>Windows and Mac Installation</h2>
 <p>Most of the Live DVD applications can be installed on Apple OSX and
     Microsoft Windows as well. The <a href="http://arramagong.com/">Arramagong</a> DVD also
-    comes with Macintosh Leopard/Snow Leopard and Windows XP/Vista
+    comes with Macintosh Leopard/Snow Leopard and Windows XP/Vista/7
     installers for these applications in the <a href="./WindowsInstallers/">WindowsInstallers</a> and
     <a href="./MacInstallers/">MacInstallers</a> folders.</p>
 
+<h2>Switching Language</h2>
+<p>We have installed many common languages. In order to switch the system you will need to:
+	<ol>
+		<li>Log out</li>
+		<li>On the user selection screen pick a user.</li>
+		<li>In the bottom panel you will now see a menu to select a different language</li>
+		<li>Select another language and enter the password and continue the login as usual</li>
+		<li>Repeat the process if wish to change languages again.</li>
+	</ol>
+	The system menus and many of the applications will now appear in the language choosen. 
+	If a specific program continues to display in english there is no translation available currently, please consider volunteering to write a translation.
+	Contact the program of interest directly for more information.
+	<br />
+	For additional languages see Application->System->Language Support (Requires an internet connection)
+
+<h3>Keyboard Support</h3>
+	International keyboard support is installed, but you will need to configure the system for your specific keyboard.
+</p>
+
+<h2>Virtual Machine Toolbox</h2>
+<p>
+	Many virtual machine managers (Like VMWare and VirtualBox) have additional tools that enable additional features when running guests. 
+	These include, higher screen resolution support, copy and past between guest and host, support for graphics acceleration, and more.
+	If you plan to run Arramagong as a virtual machine you will likely want to install these additional tools, read below for instructions on how to do this for your particular virtual machine manager.
+<br />
+	These methods require an internet connection.
+	Remember the password is: user
+	<h3>Using the package manager</h3>
+	<ol>
+		<li>Open Applications->System->Synaptic Package Manager</li>
+	</ol>
+	<h4>Virtual Box</h4>
+	<ol start="2">
+		<li>Search for open-vm-toolbox</li> 
+	</ol>
+	<h4>VMWare (Player or Server)</h4>
+	<ol start="2">
+		<li>Search for virtualbox-ose-guest-utils</li>
+	</ol>
+	<h4> Finish the installation</h4>
+	<ol start="3">
+		<li>Select the check box next to the package</li>
+		<li>Now choose apply from the toolbar at the top</li>
+	</ol>
+	<h3>In a Command Line Terminal</h3>
+	<h4>Virtual Box</h4>
+		<blockquote>sudo apt-get install virtualbox-ose-guest-utils</blockquote>
+	<h4>VMWare (Player or Server)</h4>
+		<blockquote>sudo apt-get install open-vm-tools open-vm-toolbox</blockquote>
+	A reboot will be required for the installation of the tools to take effect. Once rebooted look in the Display settings to change your screen resolution.
+</p>
