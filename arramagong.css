@@ -83,9 +83,20 @@ p a:hover{
 	background-color:white;
 }
 
-#live img {
+#live img{
 	height:64px;
 }
+
+.instruct li{
+	list-style-type:decimal;
+}
+
+.command {
+	margin-left:20px;
+	background-color:#ccea94;/*color from osgeo optional colors*/
+	padding:4px 0 4px 10px;
+}
+
 
 /* Old CSS TODO: is any of this still used?*/
 .contentDivCenter {
