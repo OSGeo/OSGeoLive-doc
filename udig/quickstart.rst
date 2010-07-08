@@ -1,10 +1,10 @@
-.. _udig-quickstart:
-
 :Author: Jody Garnett
 :Author: Micheal Bedward
 :Thanks: geotools-user list
 :Version: |release|
 :License: Create Commons with attribution
+
+.. _udig-quickstart:
 
 *******************
   uDig Quickstart 

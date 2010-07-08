@@ -79,7 +79,7 @@ pygments_style = 'sphinx'
 
 # Options for HTML output
 # -----------------------
-html_theme = 'howto'
+html_theme = 'overview'
 html_theme_path = ['../themes']
 
 if os.environ.get('HTML_THEME_PATH'):
