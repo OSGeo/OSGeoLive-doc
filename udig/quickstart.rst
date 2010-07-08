@@ -1,4 +1,4 @@
-.. _eclipse-quickstart:
+.. _udig-quickstart:
 
 :Author: Jody Garnett
 :Author: Micheal Bedward
