@@ -2,11 +2,12 @@
   Writing tips describe what content should be in the following section.
 
 :Author: OSGeo Live
-:Version: 
+:Version: osgeo-live4.0
 :License: Creative Commons
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
+
 .. _postigs-overview:
 
 .. Writing Tip: 
@@ -14,12 +15,14 @@
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
     images/project_logos/<filename>
+
 .. image:: images/project_logos/logo-PostGIS.png
-  :scale: 30 %
+  :scale: 50 %
   :alt: project logo
   :align: right
 
 .. Writing Tip: Name of application
+
 PostGIS
 =======
 
@@ -33,6 +36,7 @@ PostGIS
   * Business Intelligence
   * GIS Tools
   * ...
+
 Spatial Database
 ~~~~~~~~~~~~~~~~
 
@@ -56,7 +60,8 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
   Screenshots should be captured from a 1024x768 display.
   Don't include the desktop background as this changes with each release
   and will become dated.
-.. image:: image/pgAdmin.png
+
+.. image:: images/screenshots/800x600/pgadmin.gif
   :scale: 50%
   :alt: project logo
   :align: right
@@ -77,9 +82,19 @@ Core Features
 * Role-based security
 * Table-spaces, schemas
 
+.. Writing Tip:
+  Optional: A second screenshot can sometimes be added here
+  if there is sufficient room.
+  .. image:: images/screenshots/800x600/pgadmin.gif
+    :scale: 50%
+    :alt: project logo
+    :align: right
+
 Implemented Standards
 ---------------------
+
 .. Writing Tip: List OGC or related standards supported.
+
 * OGC standards compliant (SFSQL)
 
 Details
@@ -95,6 +110,7 @@ Details
 
 .. Writing Tip:
   Link to jump page which lists commercial support for the application.
+
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 **Maturity:**
@@ -119,8 +135,10 @@ Details
     Project has Beta software, which is feature complete, but has not been
     widely deployed or widely tested.
 
-.. image:: images/stars/3star.gif
+.. image:: images/logos/3star.gif
   :alt: project logo
   :align: left
-  :scale: 200%
+  :scale: 100%
+
 . (stable software)
+
