@@ -1,6 +1,9 @@
 .. Writing Tip:
   Writing tips describe what content should be in the following section.
 
+.. Writing Tip:
+  Metadata about this document
+
 :Author: OSGeo Live
 :Version: osgeo-live4.0
 :License: Creative Commons
@@ -17,7 +20,7 @@
     images/project_logos/<filename>
 
 .. image:: images/project_logos/logo-PostGIS.png
-  :scale: 50 %
+  :scale: 30 %
   :alt: project logo
   :align: right
 
@@ -103,6 +106,8 @@ Details
 **Website:** http://postgis.refractions.net/ 
 
 **Licence:** GPL
+
+**Software Version:** 1.5
 
 **Supported Platforms:** Windows, Linux, Mac
 
