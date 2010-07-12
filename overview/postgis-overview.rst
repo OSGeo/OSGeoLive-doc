@@ -118,32 +118,24 @@ Details
 
 **Commercial Support:** http://www.osgeo.org/search_profile
 
-**Maturity:**
-
 .. Writing Tip:
+  Set the appropriate rating to **bold** below.
   Maturity rating is defined at:
   http://wiki.osgeo.org/wiki/Marketing_Artefacts#Maturity_Rating
-  Add the correct image, and explaining text as described below:
-  "5 stars"
-    Not used yet.
-  "4 stars (mature software)" -
+  mature:
     Project has passed osgeo incubation as per:
     http://www.osgeo.org/incubator/process/project_graduation_checklist.html
-  "3 stars (established software)"
+  established:
     Project has Stable Software, a Stable community, is deployed in
     production systems, and is ready to pass criteria to enter incubation,
     as per: http://www.osgeo.org/incubator/process/evaluation.html
-  "2 stars (stable software)"
+  stable:
     Project has Stable Software. Project produces periodic releases of
     stable software which is used in production systems. 
-  "1 star (beta software)"
+  beta:
     Project has Beta software, which is feature complete, but has not been
     widely deployed or widely tested.
 
-.. image:: images/logos/3star.gif
-  :alt: project logo
-  :align: left
-  :scale: 100%
+**Maturity:** (*mature* | **established** | *stable* | *beta*)
 
-. (stable software)
 
