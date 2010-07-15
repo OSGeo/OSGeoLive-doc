@@ -119,23 +119,6 @@ Details
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 .. Writing Tip:
-  Set the appropriate rating to **bold** below.
-  Maturity rating is defined at:
+  Later, we may introduce a Maturity Rating, but currently the format, and
+  whether we go ahead with such a rating is still under discussion.
   http://wiki.osgeo.org/wiki/Marketing_Artefacts#Maturity_Rating
-  mature:
-    Project has passed osgeo incubation as per:
-    http://www.osgeo.org/incubator/process/project_graduation_checklist.html
-  established:
-    Project has Stable Software, a Stable community, is deployed in
-    production systems, and is ready to pass criteria to enter incubation,
-    as per: http://www.osgeo.org/incubator/process/evaluation.html
-  stable:
-    Project has Stable Software. Project produces periodic releases of
-    stable software which is used in production systems. 
-  beta:
-    Project has Beta software, which is feature complete, but has not been
-    widely deployed or widely tested.
-
-**Maturity:** (*mature* | **established** | *stable* | *beta*)
-
-
