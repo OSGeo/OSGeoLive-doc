@@ -1,38 +1,89 @@
+.. Writing Tip:
+  Writing tips describe what content should be in the following section.
+
+.. Writing Tip:
+  This Quick Start should describe how to run a simple example, which
+  covers one of the application's primary functions.
+  The Quick Start should be able to be executed in around 5 minutes.
+  The Quick Start may optionally include a few more sections
+  which describes how to run extra functions.
+  This document should describe every detailed step to get the application
+  to work, including every screen shot involved in the sequence.
+  Assume the user has very little domain expertise, so spell everything out.
+
+.. Writing Tip:
+  Metadata about this document
+
+:Author: OSGeo Live
 :Author: Jody Garnett
 :Author: Micheal Bedward
+:Version: osgeo-live4.0
+:License: Creative Commons
 :Thanks: geotools-user list
-:Version: |release|
-:License: Create Commons with attribution
+
+.. Writing Tip:
+  The following becomes a HTML anchor for hyperlinking to this page
 
 .. _udig-quickstart:
+ 
+.. Writing Tip: 
+  Project logos are stored here:
+    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+  and accessed here:
+    images/project_logos/logos-<application>.png
 
-*******************
-  uDig Quickstart 
-*******************
+.. image:: images/project_logos/logo-PostGIS.png
+  :scale: 30 %
+  :alt: project logo
+  :align: right
 
-This is a quick introduction to the uDig application included as part of OSGeo Live.
+***************
+uDig Quickstart 
+***************
 
-Sample Data
-===========
+.. Writing Tip:
+  First sentence defines what the application does.
+  You may also need to include a sentence of two describing the domain.
+  Eg: For a Business Intelligence applicaiton, you should describe what
+  Business Intelligence is.
 
-Before you start please take a moment locate the sample data included on OSGeo Live.
+uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for
+editing and viewing GeoSpatial data.
 
-* :file:`/usr/local/share/data/gisdata/natural_earth`
-* :file:`/usr/local/share/udig/udig-data/data-v1_2`
-* There is a short cut in your home directory
+.. Writing Tip:
+  Descriibe what will be covered in this Quick Start.
+This Quick Start describes how to:
+* load a map layers from a shapefile and Web Map Service (WMS)
+* use the standard map tools
+* apply colour to map features using styling
 
-If you have your own GIS data please feel free to experiment. Making use of the above sample data will enable you to follow along with this tutorial step by step.
+start uDig
+==========
 
-uDig Application
-================
+.. Writing Tip:
+  Describe steps to start the application
+  This should include a graphic of the pull-down list, with a red circle
+  around the applicaiton menu option.
+  #. A hash numbers instructions. There should be only one instruction per
+     hash.
+
+.. TBD: Add menu graphic to this uDig Quickstart
 
 #. Choose uDig 1.1 > uDig from the start menu
 #. The application will take a few moments to start up
 
-  .. image:: image/Quickstart1Splash.png
-     :scale: 80
+.. Writing Tip:
+  For images, use a scale of 50% from a 1024x768 display (prefered) or
+  70% from a 800x600 display.
+  Images should be stored here:
+    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
+  and accessed here:
+    images/screenshots/1024x768/<application>_<screen_description>.png
 
-The uDig application keeps a configuration folder in your home directory, the folder will be created the first time the application is launched. If you have any difficulties, or are running uDig on Linux or Mac please review the Running uDig reference page.
+  .. image:: images/screenshots/800x600/udig_Quickstart1Splash.png
+     :scale: 70
+
+If you have any difficulties, or are running uDig please review the Running uDig reference page.
 
 Welcome View
 ============
@@ -42,11 +93,9 @@ Welcome View
 
 #. Click the arrow labelled Workbench in the upper right corner, to reveal the contents of the uDig workbench.
   
-  .. image:: image/welcome.png
-
+  .. image:: images/screenshots/800x600/udig_welcome.png
 
 You can return to the Welcome view at any time by selecting the Help > Welcome from the menu bar.
-
 
 Workbench
 =========
@@ -54,7 +103,7 @@ Workbench
 The Workbench window offers multiple Editors (each showing a Map) and supporting Views (offering
 information about the current Map).
 
-.. image:: image/workbench.png
+  .. image:: images/screenshots/800x600/udig_workbench.png
 
 Shown above is a typical uDig session with the Map editor, Projects view, Layers view and Catalog
 view labelled . These views will be described further as we demonstrate their use.
@@ -97,7 +146,12 @@ To start out with we are going to load some of the sample data you downloaded ea
 
 #. Select the clouds.jpg layer in the catalog view and drag it to the bottom of the list
   
-   .. image:: image/QuickstartCountriesMap.jpg
+  .. image:: images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+
+.. Writing Tip:
+  Notes are used to provide descriptions and background information without
+  getting in the way of instructions. Notes will likely be rendered in
+  the margin in some printed formats.
 
 .. note::
    One of the most common questions asked when uDig is considered for an organization is how much memory
@@ -105,17 +159,21 @@ To start out with we are going to load some of the sample data you downloaded ea
    above shapefile is not loaded into memory, we have a policy of keeping data on disk and drawing data
    like this shapefile onto the screen as needed.
 
+.. Writing Tip:
+  Tips are used to provide extra useful information, and will 
+  likely be rendered in the margin in some printed formats.
+
 .. tip:: You can also drag and drop shapefiles directly into the uDig application!
 
 Map
-====
+===
 
 You can control where in the world the Map Editor is looking by using the navigation tools in the tool bar along the top of the screen.
 
 
 #. The |ZOOM| Zoom tool is available by default
    
-   .. |ZOOM| image:: image/zoom_mode.gif
+   .. |ZOOM| image:: images/screenshots/800x600/udig_zoom_mode.gif
    
    * Use the zoom tool by drawing a box using the left mouse button around the area of the wold you wish
      to see.
@@ -124,18 +182,18 @@ You can control where in the world the Map Editor is looking by using the naviga
 
 #. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
   
-   .. |PAN| image:: image/pan_mode.gif
+   .. |PAN| image:: images/screenshots/800x600/udig_pan_mode.gif
 
 #. There are also several navigation buttons that can be used at any time:
  
    * |SHOWALL| Show All, can be used to return to the full extents at any time
    
-     .. |SHOWALL| image:: image/zoom_extent_co.gif
+     .. |SHOWALL| image:: images/screenshots/800x600/udig_zoom_extent_co.gif
 
    * |ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by a fixed amount.
 
-     .. |ZOOM_IN| image:: image/zoom_in_co.gif
-     .. |ZOOM_OUT| image:: image/zoom_out_co.gif
+     .. |ZOOM_IN| image:: images/screenshots/800x600/udig_zoom_in_co.gif
+     .. |ZOOM_OUT| image:: images/screenshots/800x600/udig_zoom_out_co.gif
 
    * You can use Navigation > Back and Navigation > Forward in the menu bar to cycle though previously
      visited locations.
@@ -147,16 +205,15 @@ Web Map Server
 ==============
 One of the reasons to use an application like uDig is to access all the great free geospatial information available on the web. This section covers the use of Web Map Servers which make available layers of information that you can mix into your own maps.
 
-.. sidebar: WMS
-   
-   You can also connect to Web Map Servers using the Add Data Wizard for Drag and Drop.
+.. tip:: You can also connect to Web Map Servers using the Add Data Wizard
+  for Drag and Drop.
 
 #. Select :menuselection:`File --> New --> New Map` from the menu bar
 
 #. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
    
-   .. image:: image/WebViewClick.png
-      :scale: 70
+  .. image:: images/screenshots/800x600/udig_WebViewClick.png
+    :scale: 70
 
 #. Click on the link *WMS:dm solutions* link
 
@@ -166,23 +223,23 @@ One of the reasons to use an application like uDig is to access all the great fr
    * Parks
    * Cities
    
-   ..image:: image/AddWMSLayers.png
-     :scale: 70
+..image:: images/screenshots/800x600/udig_AddWMSLayers.png
+  :scale: 70
 
 #. Press :guilabel:`Finish` to add these layers to your map
    
-   ..image:: image/WMSMap.png
+..image:: images/screenshots/800x600/udig_WMSMap.png
   
 #. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
 #. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
    
-   .. |INFO| image:: image/info_mode.gif
+.. |INFO| image:: images/screenshots/800x600/udig_info_mode.gif
 
 Tip: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
 
 Style
-======
+=====
 
 #. Select the project > countries, you can double click to open this Map, or Right Click and choose Open Map
 
@@ -198,7 +255,7 @@ Style
    
    * Label: check the box, and choose CNTRY_NAME from the list of attributes
    
-   .. image:: image/StyleEditor.png
+   .. image:: images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70
 
 #. Press :guilabel:`Apply` to see what this looks like on your Map, the **Layer** view will also be updated
@@ -217,12 +274,33 @@ Style
 
 #. Using the *Layer* view select timezone, countries and clouds.jpg in turn to see the effect
   
-   .. image:: image/MapMylar.jpg
+.. image:: images/screenshots/800x600/udig_MapMylar.jpg
 
 #. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar
 
-What is Next
-============
+.. Writing tip
+  The final heading should provide pointers to further tutorials,
+  documentation or further things to try.
+  Present a list of ideas for people to try out. Start off very specific
+  with something most people can do based on the materials as presented.
+  Continue on with a challenge that involves a small bit of research (it
+  is recommended that research be limited to something that can be
+  found in documentation packaged on OSGeo Live, as users might not be
+  connected to the internet.
+
+Things to Try
+=============
+
+Here are some additional challenges for you to try:
+
+#. Try viewing your own GIS map layers, or try adding a layer from a Web Feature Service (WFS).
+#. Try styling the WFS layer.
+
+What Next?
+==========
+
+.. Writing tip
+  Provide links to further tutorials and other documentation.
 
 This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
 
