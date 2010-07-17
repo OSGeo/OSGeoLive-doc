@@ -9,6 +9,7 @@
   which describes how to run extra functions.
   This document should describe every detailed step to get the application
   to work, including every screen shot involved in the sequence.
+  Finish off with "Things to Try" and "What Next?" sections.
   Assume the user has very little domain expertise, so spell everything out.
 
 .. Writing Tip:
@@ -224,12 +225,12 @@ One of the reasons to use an application like uDig is to access all the great fr
    * Parks
    * Cities
    
-..image:: images/screenshots/800x600/udig_AddWMSLayers.png
+.. image:: images/screenshots/800x600/udig_AddWMSLayers.png
   :scale: 70
 
 #. Press :guilabel:`Finish` to add these layers to your map
    
-..image:: images/screenshots/800x600/udig_WMSMap.png
+.. image:: images/screenshots/800x600/udig_WMSMap.png
   
 #. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
