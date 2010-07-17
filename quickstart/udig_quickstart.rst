@@ -3,14 +3,31 @@
 
 .. Writing Tip:
   This Quick Start should describe how to run a simple example, which
-  covers one of the application's primary functions.
+    covers one of the application's primary functions.
   The Quick Start should be able to be executed in around 5 minutes.
   The Quick Start may optionally include a few more sections
-  which describes how to run extra functions.
+    which describes how to run extra functions.
   This document should describe every detailed step to get the application
-  to work, including every screen shot involved in the sequence.
+    to work, including every screen shot involved in the sequence.
   Finish off with "Things to Try" and "What Next?" sections.
   Assume the user has very little domain expertise, so spell everything out.
+  If using example data, please use the general layers from naturalearth
+   and Open Street Map. These layers are loaded by install_gisdata.sh into:
+   Open Street Map:
+     /home/user/data/osm/
+   Vector Data: Available as .shp files
+     /home/user/data/natural_earth/
+       cultural/10m-populated-places-simple
+       cultural/10m-admin-0-countries
+       cultural/10m-populated-places-simple
+       cultural/10m-urban-area
+       physical/10m-land
+       physical/10m-ocean
+       physical/10m-lakes
+       physical/10m-rivers-lake-centerlines
+   Raster Raster basemap Cross Blended Hypso with Shaded Relief and Water
+     1:50 million (40mb). Available as .tif
+     /home/user/data/natural_earth/HYP_50M_SR_W/
 
 .. Writing Tip:
   Metadata about this document
@@ -221,7 +238,7 @@ One of the reasons to use an application like uDig is to access all the great fr
 
 #. From the Resource Selection page we are going to choose the following layers:
 
-   * Elevation/Bathymetry*
+   * Elevation/Bathymetry
    * Parks
    * Cities
    
