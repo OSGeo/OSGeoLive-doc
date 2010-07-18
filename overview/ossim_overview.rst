@@ -55,3 +55,5 @@ Details
 **Supported Platforms:** Linux, Mac, Windows
 
 **API Interfaces:** C++
+
+**Commercial Support:** http://www.osgeo.org/search_profile

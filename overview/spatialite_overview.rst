@@ -59,5 +59,3 @@ Details
 **Supported Platforms:** Linux, Mac, Windows
 
 **API Interfaces:** C++
-
-**Maturity:** *stable*

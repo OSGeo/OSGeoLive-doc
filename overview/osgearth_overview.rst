@@ -76,5 +76,4 @@ Details
 
 **API Interfaces:** C++
 
-**Maturity:** *stable*
-
+**Commercial Support:** http://osgearth.org/#ProfessionalServices
