@@ -40,7 +40,7 @@ Core Features
 * Advanced Mosaicing, compositing and fusions
 * Elevation support
 * Vector and shapelib support
-* Projection and resultion independent
+* Projection and resolution independent
 * Equation editors
 
 Details
