@@ -17,10 +17,15 @@
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
     images/project_logos/<filename>
-  TBD: We should use add a general OGC logo here:
+  A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-PostGIS.png
-  :scale: 30 %
+.. image:: images/project_logos/logo-OGC-left.png
+  :scale: 100 %
+  :alt: project logo
+  :align: right
+
+.. image:: images/project_logos/logo-OGC-right.png
+  :scale: 100 %
   :alt: project logo
   :align: right
 
@@ -36,7 +41,8 @@ A Web Map Service (WMS) provides ...
 
 .. Writing Tip:
   If there is sufficient time, we should include a graphic which shows this
-  standard in contenxt with other standards.
+  standard in contenxt with other standards. Otherwise, remove the following
+  image.
 
 .. image:: images/screenshots/800x600/pgadmin.gif
   :scale: 50%
@@ -58,9 +64,8 @@ Versions
 .. Writing Tip:
   Discuss the differences between different versions
 
-**1.0** This provides ...
-
-**2.0** This additionally added ...
+* **1.0** This provides ...
+* **2.0** This additionally added ...
 
 See Also
 --------
@@ -68,4 +73,4 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-**Web Feature Service (WFS)** returns vector information (lines and polygons)
+* **Web Feature Service (WFS)** returns vector information (lines and polygons)
