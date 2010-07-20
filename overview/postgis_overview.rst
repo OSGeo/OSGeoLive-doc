@@ -114,9 +114,10 @@ Details
 **API Interfaces:** SQL
 
 .. Writing Tip:
-  Link to jump page which lists commercial support for the application.
+  Link to webpage which lists the primary support details for the application,
+  preferably this would list both community and commercial contacts.
 
-**Commercial Support:** http://www.osgeo.org/search_profile
+**Support:** http://www.osgeo.org/search_profile
 
 .. Writing Tip:
   Later, we may introduce a Maturity Rating, but currently the format, and
