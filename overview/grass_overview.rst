@@ -54,7 +54,7 @@ a handy desktop GIS for handheld PDAs or netbooks.
 Core Features
 -------------
 
-* You name it, we've got a tool for it.
+* You name it, there's a tool for it.
 
 Details
 -------
@@ -65,7 +65,7 @@ Details
 
 **Software Version:** 6.4.0RC6
 
-**Supported Platforms:** GNU/Linux, Mac OS-X, MS-Windows
+**Supported Platforms:** GNU/Linux, Mac OSX, MS-Windows
 
 **API Interfaces:** C, Python, Bourne Shell
 
