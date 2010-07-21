@@ -9,6 +9,9 @@ Welcome to the OSGeo Live GIS disc
 .. toctree::
    :hidden:
 
+   gmt_overview
+   grass_overview
+   gpsdrive_overview
    osgearth_overview
    ossim_overview
    postgis_overview
