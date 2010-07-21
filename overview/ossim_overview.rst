@@ -30,7 +30,7 @@ Many command line utilities, GUI applications, and integrated systems have been 
 .. image:: images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 80 %
   :alt: screenshot
-  :align: right
+  :align: center
 
 Core Features
 -------------
