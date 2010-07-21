@@ -27,6 +27,7 @@ conditions for program testing and refinement.
 Core Features
 -------------
 OpenCPN supports:
+
 * BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts
 * AIS input decoding
 * NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input

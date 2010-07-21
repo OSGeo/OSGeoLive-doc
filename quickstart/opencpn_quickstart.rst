@@ -49,7 +49,7 @@ Documentation
 =============
 
 * Documentation is available from
-the `Help menu <file:///usr/local/share/opencpn/doc/help.html>`_, or
-online at http://www.opencpn.org/docwiki
+  the `Help menu <file:///usr/local/share/opencpn/doc/help_en_US.html>`_, or
+  online at http://www.opencpn.org/docwiki
 
 *  `Getting started tips <file:///usr/local/share/opencpn/doc/tips.html>`_
