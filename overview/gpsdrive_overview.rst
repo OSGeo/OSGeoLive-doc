@@ -22,25 +22,25 @@ and preferred map scale.  All GPS receivers which support the NMEA protocol
 should be usable, as well as many USB GPSs using a binary protocol known to
 the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 
+Core Features
+-------------
+
 .. image:: images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50
   :alt: screenshot
   :align: right
 
-Core Features
--------------
-
 * Download LANDSAT or OpenStreetMap data from the Web, or register your own images
 * Live rendering of OpenStreetMap data stored in a PostGIS database using Mapnik
-* Kismet Wifi integration
-* Audio alerts
 * Live rendering from NASA's Blue Marble high-resolution mosaic
+* Verbal instructions using eSpeak
 * Highly customizable dashboard and GUI
-* Search for nearst POI waypoints within a given radius
-* Route planning
-* Included server to keep track of your friends' postions
 * GPX track and route support, a number of waypoint storage options including
   SQLite and GpsBabel-compatible plain text files
+* Search for nearest POI waypoints within a given radius
+* Route planning
+* Included server to keep track of your friends' postions
+* Kismet Wifi integration
 
 Details
 -------
