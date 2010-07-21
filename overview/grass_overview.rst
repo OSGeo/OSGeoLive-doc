@@ -61,11 +61,11 @@ Details
 
 **Website:** http://grass.osgeo.org
 
-**Licence:** GPL v2
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 6.4.0RC6
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS-Windows
+**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** C, Python, Bourne Shell
 

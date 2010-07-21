@@ -4,7 +4,7 @@
 
 .. _grass-quickstart:
  
-.. image:: images/project_logos/logo-GMT.png
+.. image:: images/project_logos/logo-GMT.gif
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -41,7 +41,7 @@ Examples
 
 There are 29 example jobs built in, and a script to run them all:
 
-* Open a terminal 
+Open a terminal, then
 ::
   cp -r /usr/share/doc/gmt-examples/examples/ gmt-examples
   cd gmt-examples/
