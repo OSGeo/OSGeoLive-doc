@@ -18,7 +18,7 @@ Sea floor mapping
 MB-System is an open source software package for the processing and
 display of bathymetry and backscatter imagery data derived from
 multibeam, interferometry, and sidescan sonars. It has close ties
-to the `GMT <gmt-overview.html>`_ software.
+to the `GMT <gmt_overview.html>`_ software.
 
 Core Features
 -------------
