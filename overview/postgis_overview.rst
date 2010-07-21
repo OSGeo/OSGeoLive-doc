@@ -24,6 +24,11 @@
   :alt: project logo
   :align: right
 
+.. image:: images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+
 .. Writing Tip: Name of application
 
 PostGIS
