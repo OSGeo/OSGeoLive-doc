@@ -13,6 +13,7 @@ Welcome to the OSGeo Live GIS disc
    gmt_overview
    grass_overview
    gpsdrive_overview
+   mb-system_overview
    opencpn_overview
    osgearth_overview
    ossim_overview

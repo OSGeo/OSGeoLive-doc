@@ -5,7 +5,7 @@
 .. _52nWPS-overview:
 
 .. image:: images/project_logos/logo_52North_160.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: project logo
   :align: right
 
@@ -48,11 +48,13 @@ Core Features
 
 Implemented Standards
 ---------------------
-OGC Web Processing Service Specification
-OGC GML2 and GML3 SimpleFeatures
+
+* OGC Web Processing Service Specification
+* OGC GML2 and GML3 SimpleFeatures
 
 Details
 -------
+
 **Website:** http://52north.org/wps
 
 **Licence:** GPL
@@ -62,4 +64,5 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 **Commercial Support:** http://www.52north.org
+
 **API Interfaces:** C++

@@ -5,7 +5,7 @@
 .. _mb-system-overview:
 
 .. image:: images/project_logos/logo-mb-system.gif
-  :scale: 50 %
+  :scale: 30 %
   :alt: project logo
   :align: right
 
@@ -20,14 +20,13 @@ display of bathymetry and backscatter imagery data derived from
 multibeam, interferometry, and sidescan sonars. It has close ties
 to the `GMT <gmt-overview.html>`_ software.
 
+Core Features
+-------------
 
 .. image:: images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
-
-Core Features
--------------
 
 * Read, list, and translate many swath data formats
 * Batch processing of large datasets

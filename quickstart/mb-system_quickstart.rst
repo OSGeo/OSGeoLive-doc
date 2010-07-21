@@ -5,7 +5,7 @@
 .. _grass-quickstart:
  
 .. image:: images/project_logos/logo-mb-system.gif
-  :scale: 50 %
+  :scale: 30 %
   :alt: project logo
   :align: right
 
@@ -31,5 +31,5 @@ The PDF version of the cookbook is included on this disc
 The data used in the cookbook examples can be found on this disc at
  `/usr/local/mbsystem/examples/ <file:///usr/local/mbsystem/examples/>`_
 
-See also the `MB-System entry in the GRASS GIS
- wiki <http://grass.osgeo.org/wiki/MB-System>`_.
+See also
+ the `MB-System entry in the GRASS GIS wiki <http://grass.osgeo.org/wiki/MB-System>`_
