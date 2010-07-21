@@ -56,4 +56,4 @@ Details
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows (with Cygwin)
 
-**API Interfaces:** Command prompt
+**API Interfaces:** Command line

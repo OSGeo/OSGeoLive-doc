@@ -32,19 +32,19 @@ Core Features
 
 The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
 
-* supports standard WKT and WKB formats
-* implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
-* the complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
-* supports full Spatial metadata along the OpenGis specifications
-* supports importing and exporting from / to shapefiles
-* supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
-* supports locale charsets via GNU libiconv
-* implements a true Spatial Index based on the SQLite's RTree extension
-* the VirtualShape extension enables SQLite to access shapefiles as VIRTUAL TABLEs 
-* you can then perform standard SQL queries on external shapefiles, with no need for importing or converting them
-* the VirtualText extension enables SQLite to access CSV/TxtTab files as VIRTUAL TABLEs 
-* you can then perform standard SQL queries on external CSV/TxtTab files, with no need for importing or converting them
-* the GUI tool supports all this, in an user friendly way
+* Supports standard WKT and WKB formats
+* Implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
+* The complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
+* Supports full Spatial metadata along the OpenGis specifications
+* Supports importing and exporting from / to shapefiles
+* Supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
+* Supports locale charsets via GNU libiconv
+* Implements a true Spatial Index based on the SQLite's RTree extension
+* The VirtualShape extension enables SQLite to access shapefiles as VIRTUAL TABLEs 
+* You can then perform standard SQL queries on external shapefiles, with no need for importing or converting them
+* The VirtualText extension enables SQLite to access CSV/TxtTab files as VIRTUAL TABLEs 
+* You can then perform standard SQL queries on external CSV/TxtTab files, with no need for importing or converting them
+* The GUI tool supports all this, in an user friendly way
 
 
 Details

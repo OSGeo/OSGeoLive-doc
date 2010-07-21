@@ -15,7 +15,8 @@
 Ossim Quickstart 
 ****************
 
-Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing, image processing, geographical information system and photogrammetry.
+Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing,
+image processing, geographical information system and photogrammetry.
 
 This Quick Start describes how to:
 
@@ -26,9 +27,9 @@ Imagelinker
 ===========
 
 * Start Imagelinker from its icon from the directory "Spatial Tools" on the desktop 
-* Select the project file, using File -> Open Project -> /home/user/data/ossim/ossim_data/landsatrgb.prj
-* Go to the menu bar -> window -> tile
-* Select an image window -> select the pan icon -> click on the image -> press the button "propagate"
+* Select the project file, using :menuselection:`File --> Open Project --> /home/user/data/ossim/ossim_data/landsatrgb.prj`
+* Go to the :menuselection:`menu bar --> window --> tile`
+* Select an :menuselection:`image window --> select the pan icon --> click on the image --> `press the button "propagate"
 * Verify you see a 3 gray satelite images. 
 
   .. image:: images/screenshots/800x600/ossim_imagelinker2.jpg
@@ -43,14 +44,14 @@ OssimPlanet
 ===========
 
 * Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
-* Select File -> Open Session -> /home/user/ossim/ossim_data/session.session 
+* Select :menuselection:`File --> Open Session --> /home/user/ossim/ossim_data/session.session`
 * Navigate the scene.
-* Go to menu -> Open kml -> /home/user/ossim/ossim_data/*.kml
-* Go on the legend tree -> location -> open the trees -> double click on the kml location 
+* Go to :menuselection:`menu --> Open kml --> /home/user/ossim/ossim_data/*.kml`
+* Go on the :menuselection:`legend tree --> location --> open the trees --> `double click on the kml location
 
 you should see the scene zoom to the location 
 
-`Note`: to turn off the daylight auto-shading, un-check Preferences -> Environment -> Enable Ephemeris   
+`Note`: to turn off the daylight auto-shading, un-check :menuselection:`Preferences --> Environment --> Enable Ephemeris`
 
 
 What Next?

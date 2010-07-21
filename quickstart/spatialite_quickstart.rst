@@ -31,7 +31,7 @@ Create a new database with spatialite-gui
 =========================================
 
 * Start spatialite-gui
-* Select File->Creating a new SQLite DB
+* Select :menuselection:`File --> Creating a new SQLite DB`
 
 
 Running spatialite-gis

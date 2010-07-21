@@ -31,10 +31,10 @@ OpenCPN supports:
 * BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts
 * AIS input decoding
 * NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input
-* Waypoint / Autopilot navigation
-* Unlimited Route/Mark creation
+* Waypoint / autopilot navigation
+* Unlimited route/mark creation
 * Quilted charts
-* International Language Support
+* International language support
 * Cross-platform support
 * GRIB weather data overlay
 
