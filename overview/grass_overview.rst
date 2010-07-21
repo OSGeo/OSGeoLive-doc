@@ -40,8 +40,8 @@ over 100 community supplied add-on modules and toolboxes are available for free
 download from our community wiki site. After 27 years of continuous
 development GRASS is both the oldest and largest Open Source GIS available.
 It is easily scriptable and versatile enough to be used both for batch data
-processing of huge datasets on massively-parallel supercomputers as well as
-a handy desktop GIS for handheld PDAs or netbooks.
+processing on massively-parallel supercomputers as well as a handy desktop
+GIS for handheld PDAs or netbooks.
 
 
 .. _GRASS: http://grass.osgeo.org
