@@ -27,7 +27,7 @@
 .. Writing Tip: Name of application
 
 QGIS mapserver
-=======
+==============
 
 .. Writing Tip:
   Application Category Description:
