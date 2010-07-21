@@ -28,7 +28,7 @@ political boundaries.
 
 
 .. image:: images/screenshots/800x600/gmt-example28.png
-  :scale: 50
+  :scale: 50 %
   :alt: screenshot
   :align: right
 

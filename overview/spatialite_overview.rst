@@ -23,7 +23,7 @@ They are also portables; the same database file will work on Windows, Linux, Mac
 .. _SQLite: http://www.sqlite.org/
 
 .. image:: images/screenshots/1024x768/spatialite.jpg
-  :scale: 50%
+  :scale: 50 %
   :alt: screenshot
   :align: right
 

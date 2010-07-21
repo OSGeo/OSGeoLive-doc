@@ -32,7 +32,7 @@ Imagelinker
 * Verify you see a 3 gray satelite images. 
 
   .. image:: images/screenshots/800x600/ossim_imagelinker2.jpg
-     :scale: 100
+     :scale: 100 %
 
 For the full tutorial see this `blog article`_.
 

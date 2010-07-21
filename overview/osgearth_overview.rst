@@ -22,7 +22,7 @@ osgEarth supports all kinds of data and comes with lots of examples to help you 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
 .. image:: images/screenshots/1024x768/osgearth.jpg
-  :scale: 50%
+  :scale: 50 %
   :alt: screenshot
   :align: right
 

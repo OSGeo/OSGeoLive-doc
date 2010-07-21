@@ -64,7 +64,7 @@ Although QGIS mapserver is not as widely used as other open source mapservers, t
   and will become dated.
 
  image:: images/screenshots/800x600/pgadmin.gif
-  :scale: 50%
+  :scale: 50 %
   :alt: project logo
   :align: right
 
@@ -82,7 +82,7 @@ Core Features
   Optional: A second screenshot can sometimes be added here
   if there is sufficient room.
   .. image:: images/screenshots/800x600/pgadmin.gif
-    :scale: 50%
+    :scale: 50 %
     :alt: project logo
     :align: right
 

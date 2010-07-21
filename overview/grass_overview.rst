@@ -5,12 +5,12 @@
 .. _grass-overview:
 
 .. image:: images/project_logos/logo-GRASS.png
-  :scale: 100
+  :scale: 100 %
   :alt: project logo
   :align: right
 
 .. image:: images/logos/OSGeo_project.png
-  :scale: 100
+  :scale: 100 %
   :alt: OSGeo Project
   :align: right
 
@@ -47,7 +47,7 @@ GIS for handheld PDAs or netbooks.
 .. _GRASS: http://grass.osgeo.org
 
 .. image:: images/screenshots/1024x768/grass-layerman.png
-  :scale: 50
+  :scale: 50 %
   :alt: screenshot
   :align: right
 

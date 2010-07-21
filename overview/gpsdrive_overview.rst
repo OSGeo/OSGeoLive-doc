@@ -5,7 +5,7 @@
 .. _gpsdrive-overview:
 
 .. image:: images/project_logos/logo-gpsdrive.png
-  :scale: 80
+  :scale: 80 %
   :alt: project logo
   :align: right
 
@@ -26,7 +26,7 @@ Core Features
 -------------
 
 .. image:: images/screenshots/1024x768/gpsdrive-cyclemap.png
-  :scale: 50
+  :scale: 50 %
   :alt: screenshot
   :align: right
 

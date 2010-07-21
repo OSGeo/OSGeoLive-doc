@@ -25,7 +25,7 @@
   :align: right
 
 .. image:: images/logos/OSGeo_incubation.png
-  :scale: 100
+  :scale: 100 %
   :alt: OSGeo Project
   :align: right
 
@@ -70,7 +70,7 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
   and will become dated.
 
 .. image:: images/screenshots/800x600/pgadmin.gif
-  :scale: 50%
+  :scale: 50 %
   :alt: project logo
   :align: right
 
@@ -94,7 +94,7 @@ Core Features
   Optional: A second screenshot can sometimes be added here
   if there is sufficient room.
   .. image:: images/screenshots/800x600/pgadmin.gif
-    :scale: 50%
+    :scale: 50 %
     :alt: project logo
     :align: right
 

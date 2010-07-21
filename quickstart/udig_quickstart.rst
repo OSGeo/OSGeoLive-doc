@@ -100,7 +100,7 @@ start uDig
     images/screenshots/1024x768/<application>_<screen_description>.png
 
   .. image:: images/screenshots/800x600/udig_Quickstart1Splash.png
-     :scale: 70
+     :scale: 70 %
 
 If you have any difficulties, or are running uDig please review the Running uDig reference page.
 
@@ -232,7 +232,7 @@ One of the reasons to use an application like uDig is to access all the great fr
 #. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
    
   .. image:: images/screenshots/800x600/udig_WebViewClick.png
-    :scale: 70
+    :scale: 70 %
 
 #. Click on the link *WMS:dm solutions* link
 
@@ -243,7 +243,7 @@ One of the reasons to use an application like uDig is to access all the great fr
    * Cities
    
 .. image:: images/screenshots/800x600/udig_AddWMSLayers.png
-  :scale: 70
+  :scale: 70 %
 
 #. Press :guilabel:`Finish` to add these layers to your map
    
@@ -275,7 +275,7 @@ Style
    * Label: check the box, and choose CNTRY_NAME from the list of attributes
    
    .. image:: images/screenshots/800x600/udig_StyleEditor.png
-      :scale: 70
+      :scale: 70 %
 
 #. Press :guilabel:`Apply` to see what this looks like on your Map, the **Layer** view will also be updated
    to reflect the current style
