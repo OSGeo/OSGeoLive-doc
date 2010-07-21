@@ -90,7 +90,7 @@ within 2 km of the conference hall*.
 
 Downloading maps
 ~~~~~~~~~~~~~~~~
-Use the **Options > Maps > Download** tool to preview
+Use the **Options --> Maps --> Download** tool to preview
 and download new map tiles. Currently the OpenStreetMap web-tiles and
 NASA OnEarth WMS servers are available as sources. There are a few command
 line programs which come with GpsDrive which will let you bulk-download

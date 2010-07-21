@@ -69,8 +69,8 @@ right to close the profile window.
 Create a random surface
 ~~~~~~~~~~~~~~~~~~~~~~~
  
-Now let's create a new map. Select **Raster  >  Generate 
-surfaces  >  Fractal surface** from the menu (near the bottom);
+Now let's create a new map. Select **Raster --> Generate 
+surfaces --> Fractal surface** from the menu (near the bottom);
 give your new map a name; adjust any options you like in the Options
 tab (the defaults are fine); and click [Run]. You can then [Close] the
 *r.surf.fractal* module's dialog window.
@@ -84,7 +84,7 @@ working mapset. You might un-tick the elevation layer check-box
 now so that the two don't draw over the top of each other. Click on the
 eyeball to view your new map.
 The colors might not be as you'd like so let's change them. In the
-**Raster** menu select **Manage colors  >  Color Tables**.
+**Raster** menu select **Manage colors --> Color Tables**.
 In the "Colors" tab click on the pull-down list for the "Type of color
 table" option, and pick one from the list. "srtm" is a nice choice. Once
 done click the [Run] button and close the *r.colors* dialog window.
@@ -100,7 +100,7 @@ Create a shaded relief map
 Next we'll create a shaded relief map of the elevation layer we saw
 earlier. Start by selecting the elevation @PERMANENT map from before
 by clicking on its name. In the **Raster** menu select **Terrain
-analysis  >  Shaded relief** (Terrain analysis is about half way
+analysis --> Shaded relief** (Terrain analysis is about half way
 down), and the module control dialog will appear. With the elevation
 map name selected as the input map click [Run]. Now add the new
 elevation.shade @user1 map into your layer list and un-tick the other
@@ -112,7 +112,7 @@ Watersheds and streams
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Once again select the elevation @PERMANENT map and in the Raster menu
-choose **Hydrologic modeling  >  Watershed analysis**. Set
+choose **Hydrologic modeling --> Watershed analysis**. Set
 the elevation layer as your input map, in the 'Input Options' tab
 set the sub-basin threshold to 10000 cells, then in the 'Output Options'
 tab enter "elev.basins" for the watershed basin option and "elev.streams"
@@ -140,7 +140,7 @@ and [Ok] again. Drag your new legend over to the right side of the map
 canvas.
 
 Now you may be thinking to yourself that these fonts are a bit bare.
-That's easily fixed in the GIS Layer Manager menus open **Config  > 
+That's easily fixed in the GIS Layer Manager menus open **Config  --> 
 Preferences** and in the Display tab click the [Set font] button and
 then [Apply] in the Preferences window. You will have to do a full
 re-render to see the change so click on the re-render button next to the
@@ -162,10 +162,10 @@ First verify that the computational region is set match the raster map
 of interest, "**elevation**" in the PERMANENT mapset. To do this,
 load it into the layer list of the main Layer Manager window, right click
 on its name and select "Set computation region from selected map(s)".
-Start the 3D visualization suite from the **File  >  NVIZ**
+Start the 3D visualization suite from the **File --> NVIZ**
 menu item. Select an **elevation** map as the raster elevation.
 Once the 3D display interface loads, maximize the window.
-Next select **Visualize > Raster Surfaces** from the top menu, and
+Next select **Visualize --> Raster Surfaces** from the top menu, and
 set the fine resolution to "1", then move the positioning puck and height
 slider around to get different views.
 
@@ -181,7 +181,7 @@ under the File menu.
 Shutdown and the command line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When finished, exit the GRASS GUI with **File > Exit**.
+When finished, exit the GRASS GUI with **File --> Exit**.
 Before you close the GRASS terminal session as well, try a GRASS
 module by typing "**g.manual --help**" which will give you a list
 of module options. The GRASS command line is where the true power of
