@@ -22,7 +22,7 @@ SAGA GIS was developed since 2001, and the centre of SAGA development is located
 SAGA comes with a comprehensive set of free modules, most of them published under the GPL (332 modules in 45 libraries).
 
 .. image:: images/screenshots/1024x768/saga_overview.png
-  :scale: 60%
+  :scale: 50%
   :alt: screenshot
   :align: right
 

@@ -19,20 +19,21 @@ Weather forecasting
 zyGrib is a program to download and visualize weather forecast data in
 the standard GRIB distribution format.
 
+Core Features
+-------------
+
 .. image:: images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
-
-Core Features
--------------
 
 * Visualization of meteorologic data from files in GRIB format
 * Automatic download of forecast model output directly from NOAA
 * Automatic download from IAC (fleetcode) data
 * Play animations of 5-day forecasts
 * Create your own regional weather maps (worldwide), or view a detailed
-(quantitative) forecast for a particular location.
+quantitative forecast for a particular location.
+
 * Plot wind, pressure, temperature, humidity, rain, snow, cloud cover,
 dew point, and high altitude data.
 

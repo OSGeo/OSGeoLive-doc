@@ -4,8 +4,8 @@
 
 .. _opencpn-quickstart:
  
-.. image:: images/project_logos/logo-opencpn.svg
-  :scale: 100 %
+.. image:: images/project_logos/logo-opencpn.png
+  :scale: 80 %
   :alt: project logo
   :align: right
 

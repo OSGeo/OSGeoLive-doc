@@ -5,7 +5,7 @@
 .. _marble-overview:
 
 .. image:: images/project_logos/logo-marble.png
-  :scale: 100 %
+  :scale: 75 %
   :alt: project logo
   :align: right
 
@@ -16,7 +16,7 @@ Marble
 ~~~~~~~~~~~~~~~~
 
 Marble is an open source KDE Education Project program similar
-to `NASA World Wind <a href="http://worldwind.arc.nasa.gov/java/>`_ or
+to `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ or
 Google Earth. Besides choosing any number of maps to view on your
 globe (including `OpenStreetMaps <http://www.osm.org>`_), you are
 encouraged to include a KDE Marble widget in your application.

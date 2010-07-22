@@ -5,7 +5,7 @@
 .. _deegree-overview:
 
 .. image:: images/project_logos/logo-deegree.png
-  :scale: 30 %
+  :scale: 100 %
   :alt: project logo
   :align: right
 

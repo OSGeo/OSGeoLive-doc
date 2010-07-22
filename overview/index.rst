@@ -8,8 +8,9 @@ Welcome to the OSGeo Live GIS disc
 
 .. toctree::
    :hidden:
-	
 
+
+   deegree_overview
    gmt_overview
    grass_overview
    gpsdrive_overview
