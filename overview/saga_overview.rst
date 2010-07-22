@@ -4,7 +4,7 @@
 
 .. _ossim-overview:
 
-.. image:: images/project_logos/logo_saga.png
+.. image:: images/project_logos/logo-saga.png
   :scale: 100 %
   :alt: project logo
   :align: right
