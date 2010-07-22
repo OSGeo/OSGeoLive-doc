@@ -19,6 +19,7 @@ Welcome to the OSGeo Live GIS disc
    ossim_overview
    postgis_overview
    qgis_mapserver_overview
+   saga_overview
    spatialite_overview
    52nWPS_overview
 
