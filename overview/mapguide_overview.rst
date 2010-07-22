@@ -10,6 +10,12 @@
   :align: right
   :target: http://mapguide.osgeo.org/
 
+.. image:: images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 MapGuide Open Source
 ====================
