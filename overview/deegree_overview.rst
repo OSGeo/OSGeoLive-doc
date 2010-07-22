@@ -8,7 +8,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: 
+  :target: http://deegree.org
 
 .. image:: images/logos/OSGeo_project.png
   :scale: 100
