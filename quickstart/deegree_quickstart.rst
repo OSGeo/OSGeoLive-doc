@@ -25,7 +25,7 @@
   and accessed here:
     images/project_logos/logos-<application>.png
 
-.. image:: images/project_logos/logo-PostGIS.png
+.. image:: images/project_logos/logo-deegree.png
   :scale: 30 %
   :alt: project logo
   :align: right
