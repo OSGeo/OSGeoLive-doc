@@ -14,6 +14,7 @@ Welcome to the OSGeo Live GIS disc
    gmt_overview
    grass_overview
    gpsdrive_overview
+   mapguide_overview
    marble_overview
    mb-system_overview
    opencpn_overview
