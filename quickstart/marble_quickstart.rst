@@ -8,6 +8,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
+  :target: http://edu.kde.org/marble/
 
 *************************
 KDE-edu Marble Quickstart 

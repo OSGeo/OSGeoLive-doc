@@ -8,6 +8,8 @@
   :scale: 100 %
   :alt: project logo
   :align: right
+  :target: http://grass.osgeo.org
+
 
 ********************
 GRASS GIS Quickstart 

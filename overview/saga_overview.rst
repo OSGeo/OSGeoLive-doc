@@ -8,6 +8,8 @@
   :scale: 100 %
   :alt: project logo
   :align: right
+  :target: http://www.saga-gis.org
+
 
 SAGA GIS
 ========

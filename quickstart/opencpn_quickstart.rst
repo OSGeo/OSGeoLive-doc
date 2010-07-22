@@ -8,6 +8,7 @@
   :scale: 75 %
   :alt: project logo
   :align: right
+  :target: http://www.opencpn.org
 
 ********************
 OpenCPN Quickstart 

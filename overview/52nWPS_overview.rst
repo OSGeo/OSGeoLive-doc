@@ -8,6 +8,8 @@
   :scale: 100 %
   :alt: project logo
   :align: right
+  :target: http://52north.org/wps
+
 
 52°North WPS
 ==========

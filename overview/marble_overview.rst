@@ -8,6 +8,8 @@
   :scale: 75 %
   :alt: project logo
   :align: right
+  :target: http://edu.kde.org/marble/
+
 
 Marble
 ======

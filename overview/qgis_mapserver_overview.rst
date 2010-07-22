@@ -23,6 +23,8 @@
   :scale: 50 %
   :alt: project logo
   :align: right
+  :target: http://karlinapp.ethz.ch/qgis_wms/
+
 
 .. Writing Tip: Name of application
 

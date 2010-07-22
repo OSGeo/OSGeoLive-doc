@@ -5,9 +5,10 @@
 .. _zygrib-overview:
 
 .. image:: images/project_logos/logo-zygrib.png
-  :scale: 200 %
+  :scale: 150 %
   :alt: project logo
   :align: right
+  :target: http://www.zygrib.org
 
 
 zyGrib
@@ -23,7 +24,7 @@ Core Features
 -------------
 
 .. image:: images/screenshots/1024x768/zygrib_xynthia_010b.jpg
-  :scale: 50 %
+  :scale: 40 %
   :alt: screenshot
   :align: right
 

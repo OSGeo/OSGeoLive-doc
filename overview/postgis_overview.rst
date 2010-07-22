@@ -23,11 +23,14 @@
   :scale: 30 %
   :alt: project logo
   :align: right
+  :target: http://postgis.refractions.net/
 
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
+  :target: http://www.osgeo.org/incubator/process/principles.html
+
 
 .. Writing Tip: Name of application
 
@@ -108,9 +111,9 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://postgis.refractions.net/ 
+**Website:** http://postgis.refractions.net/
 
-**Licence:** GPL
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 1.5
 

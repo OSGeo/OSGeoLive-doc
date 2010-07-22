@@ -8,6 +8,8 @@
   :scale: 100 %
   :alt: project logo
   :align: right
+  :target: http://osgearth.org/
+
 
 osgEarth
 ========
@@ -66,7 +68,7 @@ Things you can see:
 Details
 -------
 
-**Website:** http://osgearth.org/ 
+**Website:** http://osgearth.org/
 
 **Licence:** GNU Lesser General Public License (LGPL) 
 

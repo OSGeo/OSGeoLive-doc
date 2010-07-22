@@ -8,6 +8,8 @@
   :scale: 100 %
   :alt: project logo
   :align: right
+  :target: http://mapguide.osgeo.org/
+
 
 MapGuide Open Source
 ====================
@@ -84,7 +86,7 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://mapguide.osgeo.org/ 
+**Website:** http://mapguide.osgeo.org/
 
 **Licence:** GNU Lesser General Public License (LGPL) 
 
