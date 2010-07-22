@@ -19,18 +19,15 @@ Getting Started
 
 * Click on the desktop icon
 
-* If you have used Google Earth before you should be able to figure
-this program out without much difficulty.
+* If you have used Google Earth before you should be able to figure this program out without much difficulty.
 
 * In the Settings menu select full-screen mode
 
 * Explore ...
 
-* Click on a city name (cursor becomes a pointing hand), within the info
-center select the Wikipedia tab and read about the place
+* Click on a city name (cursor becomes a pointing hand), within the info center select the Wikipedia tab and read about the place
 
-* In the bottom-left corner of the program window there is a subtle
-tab called "Map View". Click on it.
+* In the bottom-left corner of the program window there is a subtle tab called "Map View". Click on it.
 
 * Select another map (e.g. 'Precipitation (July)')
 
