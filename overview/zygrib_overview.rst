@@ -5,7 +5,7 @@
 .. _zygrib-overview:
 
 .. image:: images/project_logos/logo-zygrib.png
-  :scale: 100 %
+  :scale: 200 %
   :alt: project logo
   :align: right
 
@@ -31,11 +31,8 @@ Core Features
 * Automatic download of forecast model output directly from NOAA
 * Automatic download from IAC (fleetcode) data
 * Play animations of 5-day forecasts
-* Create your own regional weather maps (worldwide), or view a detailed
-quantitative forecast for a particular location.
-
-* Plot wind, pressure, temperature, humidity, rain, snow, cloud cover,
-dew point, and high altitude data.
+* Create your own regional weather maps (worldwide), or view a detailed quantitative forecast for a particular location.
+* Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude data.
 
 Details
 -------

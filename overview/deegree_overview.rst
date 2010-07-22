@@ -5,11 +5,11 @@
 .. _deegree-overview:
 
 .. image:: images/project_logos/logo-deegree.png
-  :scale: 100 %
+  :scale: 80 %
   :alt: project logo
   :align: right
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right

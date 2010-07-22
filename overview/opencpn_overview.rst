@@ -5,7 +5,7 @@
 .. _opencpn-overview:
 
 .. image:: images/project_logos/logo-opencpn.png
-  :scale: 80 %
+  :scale: 75 %
   :alt: project logo
   :align: right
 
