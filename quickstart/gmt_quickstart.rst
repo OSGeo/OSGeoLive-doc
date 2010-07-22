@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _grass-quickstart:
+.. _gmt-quickstart:
  
 .. image:: images/project_logos/logo-GMT.gif
   :scale: 100 %

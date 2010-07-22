@@ -13,6 +13,7 @@ Welcome to the OSGeo Live GIS disc
    gmt_overview
    grass_overview
    gpsdrive_overview
+   marble_overview
    mb-system_overview
    opencpn_overview
    osgearth_overview
@@ -21,6 +22,7 @@ Welcome to the OSGeo Live GIS disc
    qgis_mapserver_overview
    saga_overview
    spatialite_overview
+   zygrib_overview
    52nWPS_overview
 
 The OSGeo `Live Disc <http://live.osgeo.org/>`_ is a self-contained live DVD and Virtual Machine based on `Xubuntu <http://www.xubuntu.org/>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around.
