@@ -29,7 +29,7 @@ Mapbender is the tip of the iceberg, a meta layer of software providing access t
 The end-user interfaces are highly focused, only showing the required functionality, making is easy to use. At the same time, it is possible to create full-fledged interfaces with security proxying, digitizing, auto snapping and more.
 
 
-Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. Adherence to standardized services, such as WMS and transactional WFS, allows them to take advantage of interoperable services from various server platforms.
+Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. Adherence to standardized services, such as OGC Web Map Services (WMS) and transactional OGC Web Feature Services (WFS), allows them to take advantage of interoperable services from various server platforms.
 
 .. image:: images/screenshots/800x600/mapbender_gui_digitize.png
   :scale: 50%
