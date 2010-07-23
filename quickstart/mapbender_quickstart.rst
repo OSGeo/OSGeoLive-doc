@@ -74,7 +74,14 @@ Mapbender Quickstart
    NOTE this quickstart is not finished yet - it is still in progress and we will work on it tomorrow
 
 
-Mapbender is a WebGIS Client for editing and viewing GeoSpatial data.
+Mapbender is a WebGIS Client for editing and viewing GeoSpatial data. Mapbender is the tip of the iceberg, a meta layer of software providing access to the OSGeo SDI stack.
+
+The end-user interfaces are highly focused, only showing the required functionality, making is easy to use. At the same time, it is possible to create full-fledged interfaces with security proxying, digitizing, auto snapping and more.
+
+Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. Adherence to standardized services, such as OGC Web Map Services (WMS) and transactional OGC Web Feature Services (WFS), allows them to take advantage of interoperable services from various server platforms.
+
+The Mapbender client side is based on HTML, JavaScript (jQuery and jQuery UI), the server side relies on PHP and PostgreSQL/PostGIS. 
+
 
 This Quick Start describes how to:
   * load a Web Map Service (WMS)
