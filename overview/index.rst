@@ -20,6 +20,7 @@ Welcome to the OSGeo Live GIS disc
    opencpn_overview
    osgearth_overview
    ossim_overview
+   pgrouting_overview
    postgis_overview
    qgis_mapserver_overview
    saga_overview
