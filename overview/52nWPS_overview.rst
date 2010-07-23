@@ -52,7 +52,8 @@ Implemented Standards
 ---------------------
 
 * OGC Web Processing Service Specification
-* OGC GML2 and GML3 SimpleFeatures
+* OGC GML2 SimpleFeatures
+* OGC GML3 SimpleFeatures
 
 Details
 -------
@@ -67,4 +68,4 @@ Details
 
 **Commercial Support:** http://www.52north.org
 
-**API Interfaces:** C++
+**programming language:** Java
