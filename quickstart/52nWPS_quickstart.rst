@@ -37,9 +37,9 @@ Running
   :align: right
   
 
-*	In Order to build your own requests you will need the capabilities of the 52°North WPS: 
-	* http://localhost:8083/wps/WebProcessingService?Request=GetCapabilities&Service=WPS
+*	In Order to build your own requests you will need the capabilities of the 52°North WPS:
+		http://localhost:8083/wps/WebProcessingService?Request=GetCapabilities&Service=WPS
 
 	
-* For further questions you can contact the 52°North WPS mailing list:
-	* geoprocessingservices@52north.org
+*	For further questions you can contact the 52°North WPS mailing list:
+	geoprocessingservices@52north.org
