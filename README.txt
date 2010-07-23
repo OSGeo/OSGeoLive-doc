@@ -8,7 +8,7 @@ We are moving towards generating the html pages using Sphinx:
 
 1. Install sphinx, Python as needed
 
-   sudo apt-get sphinx
+   sudo apt-get install sphinx
 
 2. The included make file will generate the documentation
 
