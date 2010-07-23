@@ -25,6 +25,12 @@
   :align: right
   :target: http://postgis.refractions.net/
 
+.. Writing Tip: 
+  Include an OSGeo logo if the project is an OSGeo project, or is in
+  incubation:
+  .. image:: images/logos/OSGeo_incubation.png
+  .. image:: images/logos/OSGeo_project.png
+
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project
