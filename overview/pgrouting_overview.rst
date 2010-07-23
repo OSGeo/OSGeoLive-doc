@@ -28,7 +28,7 @@
 .. Writing Tip: Name of application
 
 pgRouting
-=======
+=========
 
 .. Writing Tip:
   Application Category Description:
@@ -42,7 +42,7 @@ pgRouting
   * ...
 
 GIS Tools
-~~~~~~~~~~~~~~~~
+~~~~~~~~~
 
 .. Writing Tip:
   Address user questions of "What does the application do?",
