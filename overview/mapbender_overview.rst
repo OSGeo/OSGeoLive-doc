@@ -78,11 +78,11 @@ Details
 **Website:** http://www.mapbender.org/ 
 
 **Licence:** Mapbender is dual licensed under the GNU General Public License and Simplified BSD license
-  * http://svn.mapbender.org/trunk/mapbender/gpl.txt  
+  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Software Version:** 2.6.2, 2.7 is coming soon
+**Software Version:** 2.6.2, 2.7 coming soon
 
-**Supported Platforms:** Windows, Linux
+**Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://www.mapbender.org/Support
