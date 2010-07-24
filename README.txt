@@ -7,7 +7,8 @@ reStructured Text
 
 We are moving towards generating the html pages from reStructured text
 sources using Sphinx. reSt is similar to wiki markup, and readable in
-plain ascii.
+plain ascii. As a quick check, the Trac system viewer will (partially)
+render reSt documents as HTML from the online SVN browser.
 
 1. Install sphinx, Python as needed (install_main_docs.sh does this too)
 ::
