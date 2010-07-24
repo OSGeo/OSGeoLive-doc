@@ -68,4 +68,4 @@ Details
 
 **Commercial Support:** http://www.52north.org
 
-**programming language:** Java
+**Programming Language:** Java

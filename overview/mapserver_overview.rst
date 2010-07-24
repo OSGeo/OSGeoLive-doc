@@ -58,6 +58,7 @@ Core Features
 
 
 * Map projection support
+
   * On-the-fly map projection with 1000s of projections through the Proj.4 library
 
 Implemented Standards
