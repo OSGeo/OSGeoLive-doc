@@ -25,6 +25,8 @@ render reSt documents as HTML from the online SVN browser.
 References:
 ~~~~~~~~~~~
 
+* http://wiki.osgeo.org/wiki/Live_GIS_Add_Project#Application_Overview
+
 * http://sphinx.pocoo.org
 
 * http://docutils.sf.net/rst.html
