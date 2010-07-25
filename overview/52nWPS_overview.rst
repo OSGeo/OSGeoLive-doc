@@ -12,7 +12,7 @@
 
 
 52°North WPS
-==========
+============
 
 52°North Web Processing Service (WPS). This WPS provides basic GIS
 function via standardized OGC interfaces. A demo client is included

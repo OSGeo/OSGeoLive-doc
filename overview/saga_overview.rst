@@ -40,8 +40,10 @@ Core Features
  * Image analysis: filters, edge detection, cluster analysis, segmentation
  * Digital Terrain Analysis: generate geomorphometric indexes, channel networks, profiles, contour lines, ...
  * Geostatistics: modules for variogram fitting and kriging
+
 * Fast user interface for managing and visualising data
  * 3D visualisation
+
 * Straightforward C++ API for creating new modules
 * Scripting through command line, bindings for python
 * Access from R through RSAGA

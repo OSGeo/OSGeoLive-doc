@@ -21,7 +21,7 @@ deegree
 =======
 
 Web Services
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 deegree is an Java API (Application Programming Interface) for Geographic Informations Systems (GIS) which can be used for setting up web based spatial data infrastructures. It also includes a powerful and flexible web mapping tool for you to build your Spatial Data Infrastructure, the iGeoPortal.
 
@@ -35,7 +35,7 @@ With deegree you will be able to set up different web services for your usecase 
   :align: right
 
 Some example features
--------------
+---------------------
 
 * Web Map Service
   

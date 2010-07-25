@@ -42,7 +42,7 @@ You can use this software without the need to install anything. Simply reboot yo
 
 Application passwords are in the `passwords.txt <file:../passwords.txt>`_ file on the desktop. 
 
-.. todo:: link to passwords.txt here so the user is not hunting around
+.. todo: link to passwords.txt here so the user is not hunting around
 
 Windows and Mac Installation
 ----------------------------
