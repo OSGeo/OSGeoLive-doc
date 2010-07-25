@@ -75,6 +75,7 @@ picture was taken, to record where you were at that time.
 data several ways. The first is using gpspoint to download from a Garmin GPS:
 
 ::
+
   gpspoint -p /dev/ttyS0 -dw -dt -of 2004-04-02-trip1
 
 Where /dev/ttyS0 is the serial port the GPS is connected to. If you don't have a
@@ -85,6 +86,7 @@ directly from your GPS reciever. A typical command line would something like
 this:
 
 ::
+
   gpsbabel -i garmin -f /dev/ttyS0 -o gpspoint -F 2004-04-02-trip1
 
 5) Launch GPSPhoto.

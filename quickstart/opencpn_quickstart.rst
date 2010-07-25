@@ -34,11 +34,13 @@ If you have a GPS connected you will want to start the gpsd service.
 To do that run:
 
 ::
+
   sudo dpkg-reconfigure gpsd
 
 and
 
 ::
+
   sudo /etc/init.d/gpsd start
 
 BlueTooth GPS users should take special care to read up about the no-probe

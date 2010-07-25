@@ -45,6 +45,7 @@ editing and viewing GeoSpatial data.
 
 .. Writing Tip:
   Descriibe what will be covered in this Quick Start.
+
 This Quick Start describes how to:
 
   * load a map layers from a shapefile and Web Map Service (WMS)
