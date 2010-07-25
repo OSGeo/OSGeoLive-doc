@@ -24,13 +24,13 @@ globe (including `OpenStreetMaps <http://www.osm.org>`_), you are
 encouraged to include a KDE Marble widget in your application.
 
 
+Core Features
+-------------
+
 .. image:: images/screenshots/1024x768/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right
-
-Core Features
--------------
 
 * Virtual globe and world atlas
 * Navigate globe in 3D

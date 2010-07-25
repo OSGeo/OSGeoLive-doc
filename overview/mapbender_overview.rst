@@ -23,20 +23,28 @@ Mapbender
 About
 ~~~~~
 
-Mapbender is the tip of the iceberg, a meta layer of software providing access to the OSGeo SDI stack.
+Mapbender is the tip of the iceberg, a meta layer of software providing
+access to the OSGeo SDI stack.
 
+The end-user interfaces are highly focused, only showing the required
+functionality, making is easy to use. At the same time, it is possible to
+create full-fledged interfaces with security proxying, digitizing, auto
+snapping and more.
 
-The end-user interfaces are highly focused, only showing the required functionality, making is easy to use. At the same time, it is possible to create full-fledged interfaces with security proxying, digitizing, auto snapping and more.
+Management interfaces empower administrators who need to maintain and
+categorize map and feature services and grant access to individuals,
+groups and other services. Adherence to standardized services, such as
+OGC Web Map Services (WMS) and transactional OGC Web Feature Services
+(WFS), allows them to take advantage of interoperable services from
+various server platforms.
 
-
-Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. Adherence to standardized services, such as OGC Web Map Services (WMS) and transactional OGC Web Feature Services (WFS), allows them to take advantage of interoperable services from various server platforms.
+The Mapbender client side is based on HTML, JavaScript (jQuery and jQuery
+UI), the server side relies on PHP and PostgreSQL/PostGIS. 
 
 .. image:: images/screenshots/800x600/mapbender_gui_digitize.png
   :scale: 50%
   :alt: Mapbender application
   :align: right
-
-The Mapbender client side is based on HTML, JavaScript (jQuery and jQuery UI), the server side relies on PHP and PostgreSQL/PostGIS. 
 
 
 Core Features
@@ -46,7 +54,7 @@ Core Features
 
   * add/remove/customize jQuery widgets 
   * customize styling with the jQuery UI Themeroller) 
-* upload and share remote OGC WMS (Capabilities caching) 
+* Upload and share remote OGC WMS (Capabilities caching) 
 
   * arrange uploaded WMS for overlay
   * editing layer visibility
@@ -54,15 +62,15 @@ Core Features
   * format
   * caption edit 
   * extend service meta data (ISO profile) based on Capabilities document for catalog with CS-W interface
-* upload and configure WFS to search, find and highlight geo objects 
-* bind transactional WFS with WMS to enable online digitizing (with cross service snapping functionality, geometry manipulation like splitting, combining, cloning)
-* create users and groups, share and grant access to services and modules
+* Upload and configure WFS to search, find and highlight geo objects 
+* Bind transactional WFS with WMS to enable online digitizing (with cross service snapping functionality, geometry manipulation like splitting, combining, cloning)
+* Create users and groups, share and grant access to services and modules
 * WMC handling
-* connect remote catalogs, and optionally connect to GeoNetwork opensource
-* restrict user access with the OWS security proxy module via trusted servers
-* encrypted protocols monitoring and status notification and auto-update service for remote OGC services 
-* deploy OpenLayers clients from the Mapbender service repository
-* print high-quality maps using your own PDF templates.
+* Connect remote catalogs, and optionally connect to GeoNetwork opensource
+* Restrict user access with the OWS security proxy module via trusted servers
+* Encrypted protocols monitoring and status notification and auto-update service for remote OGC services 
+* Deploy OpenLayers clients from the Mapbender service repository
+* Print high-quality maps using your own PDF templates.
 * ... and more!
 
 Implemented Standards

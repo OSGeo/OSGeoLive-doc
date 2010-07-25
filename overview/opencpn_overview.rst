@@ -5,7 +5,7 @@
 .. _opencpn-overview:
 
 .. image:: images/project_logos/logo-opencpn.png
-  :scale: 75 %
+  :scale: 70 %
   :alt: project logo
   :align: right
   :target: http://www.opencpn.org
@@ -21,13 +21,15 @@ and navigation software for use as an underway or planning tool.
 OpenCPN is developed by a team of active sailors using real world
 conditions for program testing and refinement.
 
+
+Core Features
+-------------
+
 .. image:: images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Core Features
--------------
 OpenCPN supports:
 
 * BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts

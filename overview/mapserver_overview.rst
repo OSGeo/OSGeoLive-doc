@@ -92,5 +92,5 @@ Details
 
 **API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET
 
-**Support:** http://mapserver.org/community/index.html
+**Support:** http://mapserver.org/community/
 

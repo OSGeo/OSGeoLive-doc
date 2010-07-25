@@ -5,7 +5,7 @@
 .. _osm-overview:
 
 .. image:: images/project_logos/logo-osm.png
-  :scale: 100 %
+  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://wwww.openstreetmap.org
@@ -35,12 +35,11 @@ Details
 **Website:** http://www.openstreetmap.org
 
 **Licence:** (Various)
-GNU General Public License (GPL) version 2
 
-**Software Version:** 6.4.0RC6
+**Software Version:** (Various)
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
-**API Interfaces:** C, Python, Bourne Shell
+**API Interfaces:** REST (via Xapi), XML
 
-**Support:** 
+**Support:** http://wiki.openstreetmap.org/

@@ -8,13 +8,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://www.ushahidi.com/
-
-.. image:: images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org/
+  :target: http://www.ushahidi.com
 
 
 Ushahidi
@@ -28,6 +22,11 @@ platform that allows anyone to gather distributed data via SMS, email or
 web and visualize it on a map or timeline. Our goal is to create tools for 
 democratizing information, increasing transparency and lowering the barries 
 for individuals to share their stories.
+
+.. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
 
 Core Features
 -------------

@@ -31,6 +31,7 @@ Welcome to the OSGeo Live GIS disc
    saga_overview
    spatialite_overview
    ushahidi_overview
+   viking_overview
    zygrib_overview
    52nWPS_overview
 
