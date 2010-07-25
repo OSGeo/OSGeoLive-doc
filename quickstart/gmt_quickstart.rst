@@ -43,6 +43,7 @@ Examples
 There are 29 example jobs built in, and a script to run them all:
 
 Open a terminal, then
+
 ::
   cp -r /usr/share/doc/gmt-examples/examples/ gmt-examples
   cd gmt-examples/
@@ -51,6 +52,7 @@ Open a terminal, then
 [whiz .. bang .. whirl]
 
 View results: (type 'q' to quit gv)
+
 ::
   for PLOT in `find . -name *.ps` ; do
      echo "$PLOT"

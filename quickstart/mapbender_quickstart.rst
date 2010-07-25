@@ -56,9 +56,9 @@
   :alt: project logo
   :align: right
 
-***************
+********************
 Mapbender Quickstart 
-***************
+********************
 
 .. Writing Tip:
   First sentence defines what the application does.
