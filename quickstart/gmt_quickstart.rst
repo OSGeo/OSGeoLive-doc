@@ -58,3 +58,5 @@ View results: (type 'q' to quit gv)
      echo "$PLOT"
      gv "$PLOT"
   done
+
+
