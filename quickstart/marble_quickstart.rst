@@ -1,4 +1,4 @@
-:Author: H. Bowman
+:Author: Hamish Bowman
 :Version: osgeo-live4.0
 :License: Creative Commons
 

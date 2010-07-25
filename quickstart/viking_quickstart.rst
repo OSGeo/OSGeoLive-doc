@@ -1,4 +1,4 @@
-:Author: H. Bowman
+:Author: Hamish Bowman
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -29,18 +29,18 @@ You can use gpspoint or you can use another program and translate it with
 my version GPSBabel with gpspoint write support (or use the GPSBabel program
 itself to download and translate at once.)
 
-2) Open up viking and use File -> Open GPS Data to open the gpspoint file.
+2) Open up viking and use :menuselection:`File --> Open GPS Data` to open the gpspoint file.
 Viking will try to change its viewing area to the center of the layer (file)
 but sometimes if you have waypoints and tracks which are very far apart you 
 won't see anything. If this is the case, expand the layer (on the Layers 
 Panel to the left), then expand "Waypoints", find a waypoint and right-click 
 on it and click "Goto".
 
-3) Now add a map layer ( Layers -> New Map Layer ), choose a suitable cache 
+3) Now add a map layer (:menuselection:`Layers --> New Map Layer`), choose a suitable cache 
 directory where you would like to store your tracks and click OK. Zoom to a 
 comfortable level (I suggest 4 mpp) by clicking the left and right mouse 
 buttons on the gray area where your tracks are. Now from the menu choose 
-Tools -> Map Download, Click where you would like to download a map. 
+:menuselection:`Tools --> Map Download`, Click where you would like to download a map. 
 Regardless of what tool you are using, the middle mouse button always pans.
 
 4) You will notice the maps are being drawn on top of the tracks, which is 
@@ -73,6 +73,7 @@ picture was taken, to record where you were at that time.
 
 4) Get home and download your pictures and GPS data. You can download the GPS
 data several ways. The first is using gpspoint to download from a Garmin GPS:
+
 ::
   gpspoint -p /dev/ttyS0 -dw -dt -of 2004-04-02-trip1
 
@@ -82,6 +83,7 @@ of gpsbabel with support for gpspoint files. You can use gpsbabel to either
 translate the GPS data from a format you already have the data in or download it
 directly from your GPS reciever. A typical command line would something like
 this:
+
 ::
   gpsbabel -i garmin -f /dev/ttyS0 -o gpspoint -F 2004-04-02-trip1
 

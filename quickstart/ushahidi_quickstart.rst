@@ -22,6 +22,7 @@ Getting Ushahidi Up and Running
 1. Starting Ushahidi via the desktop icon or menu item opens the web 
    browser and brings you to the Installation page. An Ushahidi site is 
    pretty easy to set up
+
 .. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
@@ -45,7 +46,7 @@ Getting Ushahidi Up and Running
 3. After that is all done it should tell you that installation was
    successful and give you a link to 'View your website'.
 
-.. image:: images/screenshots/1024x768/ushahidi_installer_finish_screenshot.png
+.. image:: images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
