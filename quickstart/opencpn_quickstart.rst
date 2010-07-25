@@ -32,10 +32,12 @@ Setting up your GPS
 ~~~~~~~~~~~~~~~~~~~
 If you have a GPS connected you will want to start the gpsd service.
 To do that run:
+
 ::
   sudo dpkg-reconfigure gpsd
 
 and
+
 ::
   sudo /etc/init.d/gpsd start
 
