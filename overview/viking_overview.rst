@@ -37,25 +37,17 @@ Core Features
 
 * Realtime GPS tracking and track recording.
 
-* Preparing tracks and waypoints for trips using maps from services
-such as Googlemaps, Terrasever. You only need to upload the data
-to your GPS before you leave. The maps together with your tracks
-and waypoints can also be printed and used during the trip.
+* Preparing tracks and waypoints for trips using maps from services such as Googlemaps, Terrasever. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
 
-* After trips, tracks and waypoints from GPS can be downloaded,
-stored, managed and reused in later trips.
+* After trips, tracks and waypoints from GPS can be downloaded, stored, managed and reused in later trips.
 
-* Analyzing OHV and hiking trips, understanding where you went and
-how far you were from something.
+* Analyzing OHV and hiking trips, understanding where you went and how far you were from something.
 
-* Making waypoints and tracks to follow to easily get someplace
-you've never been before or don't have GPS data for but Terraserver
-maps exist for it.
+* Making waypoints and tracks to follow to easily get someplace you've never been before or don't have GPS data for but Terraserver maps exist for it.
 
 * Making maps with coordinate lines.
 
-* Analyzing speed at different places, adding waypoints where you forgot
-to mark one but did slow down or stop.
+* Analyzing speed at different places, adding waypoints where you forgot to mark one but did slow down or stop.
 
 Details
 -------
