@@ -12,19 +12,25 @@ Welcome to the OSGeo Live GIS disc
 
    deegree_overview
    gmt_overview
-   grass_overview
    gpsdrive_overview
+   grass_overview
+   kosmo_overview
+   mapbender_overview
    mapguide_overview
+   mapnik_overview
+   mapserver_overview
    marble_overview
    mb-system_overview
    opencpn_overview
    osgearth_overview
+   osm_overview
    ossim_overview
    pgrouting_overview
    postgis_overview
    qgis_mapserver_overview
    saga_overview
    spatialite_overview
+   ushahidi_overview
    zygrib_overview
    52nWPS_overview
 
