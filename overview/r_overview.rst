@@ -11,7 +11,7 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _qgis-overview:
+.. _r-overview:
 
 .. Writing Tip: 
   Project logos are stored here:
@@ -19,7 +19,7 @@
   and accessed here:
     images/project_logos/<filename>
 
-.. image:: images/project_logos/logo-QGIS.png
+.. image:: images/project_logos/logo-R.jpg
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -28,7 +28,7 @@
 
 .. Writing Tip: Name of application
 
-QGIS
+R Spatial Task View
 ==============
 
 .. Writing Tip:
@@ -42,7 +42,7 @@ QGIS
   * GIS Tools
   * ...
 
-Desktop GIS
+Statistical Programming
 ~~~~~~~~~~~~~~~~
 
 .. Writing Tip:
@@ -52,12 +52,9 @@ Desktop GIS
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
   
-Quantum GIS (QGIS) is a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation  (OSGeo). It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector, raster, and database formats and functionalities.
+R is a leading Open Source statistical program/programming language for computation and graphics.
 
-Quantum GIS provides a continously growing number of capabilities provided by core functions and plugins. You can visualize, manage, edit, analyse data, and compose printable maps. Get a first impression with some screenshots and a more detailed feature list.
-
-Quantum GIS is a volunteer driven project. We welcome contributions from in the form of code contributions, bug fixes, bug reports, contributed documentation, advocacy and supporting other users on our mailing lists and the QGIS Forum. If you are interested in actively supporting the project, you can find more information under the development menu and on the QGIS Wiki. We also welcome financial contributions in the form of sponsoring and funding.
-
+The Spatial Task View is a collection or R packages focused on handling, analysing and displaying geographic datasets. Many of the most commonly used Geospatial packages have been included on the live dvd to augement the default R installation.
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
@@ -75,15 +72,16 @@ Quantum GIS is a volunteer driven project. We welcome contributions from in the 
 Core Features
 -------------
 
-* Easy Viewing of many Vector and Raster Formats
-* Integration with online and database data sources
-* Digitizing, georeferencing, basic spatial processing and geospatial database querying
-* GPS upload/download
-* OpenStreetMap editing
-* Easily extendable via Python or C++ scripting
-* Completely customizable via C++ and Python API
-* Extensive plugin library downloadble within the QGIS
-* Advanced cartographic symbolisation and labelling
+* Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intesive applications
+* Hundreds of community contributed add-on packages for spatial statistics
+* Classes for spatial data
+* Handling spatial data
+* Reading and writing spatial data
+* Point pattern analysis
+* Geostatistics
+* Disease mapping and areal data analysis
+* Spatial regression
+* Ecological analysis
 
 .. Writing Tip:
   Optional: A second screenshot can sometimes be added here
@@ -98,12 +96,12 @@ Implemented Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards compliant (WMS,WFS(Plugin))
+* OGC standards compliant ()
 
 Details
 -------
 
-**Website:** http://www.qgis.org
+**Website:** http://cran.r-project.org
 
 **Licence:** GPL
 
@@ -112,9 +110,7 @@ Details
 .. Writing Tip:
   Link to jump page which lists commercial support for the application.
 
-**Community Support:** http://qgis.org/en/community.html
-
-**Commercial Support:** http://qgis.org/en/commercial-support.html
+**Community Support:** http://cran.r-project.org/web/views/Spatial.html
 
 .. Writing Tip:
   Later, we may introduce a Maturity Rating, but currently the format, and
