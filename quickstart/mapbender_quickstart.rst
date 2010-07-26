@@ -122,18 +122,17 @@ If you have any difficulties running Mapbender, please cgheck wheter your APache
 Welcome View
 ============
 
-#. When you start Mapbender you first have to log in to get access to your applications.
+#. When you start Mapbender you first have to login to get access to your applications.
 
-#. The welcome page provides links to the most imprtant pages related to Mapbender. 
+#. The welcome page provides links to the most important pages related to Mapbender. 
 
-#. Login Mapbender with user root password root (This is the user and password that you have after the installation of Mapbender. Please change the root password if you want to run a productive environment. Please do not delete the user root as this user has access to the template applications and is used on updates).
+#. You can login Mapbender with user root password root (This is the user and password that you have after the installation of Mapbender. Please change the root password if you want to run a productive environment. Please do not delete the user root as this user has access to the Mapbender template applications and is used on updates).
   
   .. image:: images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
-You can .....
+After successful login you are directed to the application overview.
 
-You get back to the list of the application .....
 
 
 Application overview
@@ -149,20 +148,27 @@ There are
    * map applications
    * container applications
 
-The applications are listed in categories. Later you can define your own categories and add your applications to the category you want.
+The applications are listed in categories. Later you can define your own category and add your applications to the category you want.
 
 
 Administrative applications
 ===========================
 
-The....
+Administrative applications allow you f. e. to load Services, create user, to set up new applications. 
+
+The possibities you have depend on the elements that are part of your administrative application.
+
+After installation you have access to:
+   * admin2_en - WMS, application, user/group handling
+   * admin_en_services - focus on WFS and metadata handling and owsproxy    
+   * admin1 - template with all administrative elements 
 
   .. image:: images/screenshots/800x600/mapbender_admin2_en.png
      :scale: 80
 
 Map Applications
 ================
-Map application contain WMS and provide ...
+Map applications contain OGC WMS, one ore more map frames, buttons, treefolder, a legend elements, your logo and more. 
 
 #. Choose :a map application:`by klick` from the **overview page**
    
@@ -180,70 +186,73 @@ Map application contain WMS and provide ...
 .. Writing Tip:
   Mapbender Tip
 
-.. tip:: You can also drag and drop shapefiles directly into the uDig application!
+.. tip:: If your browser supports tabs you can open the applications in tabs and easily switch between them.
 
 WMS Container Applications
 ==========================
-You can create a container application ....
+You can create a container application to store your WMS. WMS Container are not for display - only to store a WMS like it is in the getCapabilities-Document 
 
 #. The |ZOOM| ....
    
    .. |ZOOM| image:: images/screenshots/800x600/mapbender_container.png
      :scale: 80
-   
-   * Use the zoom tool by drawing a box using the left mouse button around the area of the wold you wish
-     to see.
 
-.. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
-   scroll wheel.
-
-Loading Web Map Services
-========================
-You can load OGC Web Map Services (WMS) to your application. 
-
-#. Here are some example WMS you can user to load to your appliction
-
-   * wms1
-   * wms2
-   * wms3
-   
-.. image:: images/screenshots/800x600/mapbender_wms_application_settings.png
-  :scale: 80
-
-Create an individual Applications
+Create an individual Application
 =================================
 
 #. go to the administation application **admin2_en** 
 
-#. choose **Create application**
+#. choose **Create new application**
 
-#. define a name and description for your application
+#. define a name and description for your application and hit the button **new** to create the application
 
-#. go to ** xxx ** and select the new application
+#. go to the link **Edit application elements** and select the new application
 
-#. add all elements
+#. in the selectbox at the top choose an application that you would like to take as template and hit the button **add all elements**. This process will take all elements from the application you selected to your new application.
+
+#. your application is now set up. Now you need a WMS to be displayed in your application. This will be described in the next section.
 
 .. Writing Tip:
-  You also can create a new application by copying an existing application. Go to copy/update application, choose the application you want to copy and define a name for the new application.
+  You also can create a new application by copying an existing application. Go to **Rename/copy application**, choose the application you want to copy and define a name for the new application.
+
+Loading Web Map Services
+========================
+You can load OGC Web Map Services (WMS) to your application. Go to admin2_en and choose **Load WMS**. Klick on the application to which you want to load the WMS. Link to WMS Capabilities URL in the text field and hit **Load**.
+
+#. Here are some example WMS you can use to load to your appliction
+
+   * http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS (Demis World Map)
+   * http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS (Bird Studies Canada)
+   * http://wms1.ccgis.de/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS (Germany demo map)
+   * http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1 (OSM WMS)
+   
+.. image:: images/screenshots/800x600/mapbender_wms_application_settings.png
+  :scale: 80
 
 User and Groups Management
 ==========================
-#. Create a user
+An access to Mapbender always requires an authenticate as a registered user. This user account has permissions to access a set of interfaces applications and services (WMS, WFS).
+
+There is no inherent difference between user type guest, operator or administrator. The **role** of a user depends on the authorization to access corresponding interfaces applications which implement administration or operator functionality.
+ 
+#. To create a user go to **admin2_en** User management to **Create and edit user**
+
+#. Choose a name and a password for your user. 
 
 .. image:: images/screenshots/800x600/mapbender_create_user.png
      :scale: 80
 
-#. Create a group
+#. Create a group by **Create and edit group**. Define a name and a description for your group.
 
-#. assign a user to a group
+#. Assign a user to a group by **Add one user to several groups** or by the link **Add several users to one group**
 
-#. assign an application to a user 
+#. Assign an application to a user by **Allow one user to access to access several applications**
 
-#. assign an application  to a group
+#. Assign an application to a group by **Allow one group to access to access several applications**
 
-#. login as the new user
+#. Logout Mapbender by the red cross button. Login as the new user
 
-#. what happens when the user has more than one appilcation
+#. What happens when the user has more than one application?
 
 
 WFS Digitizing Applications with Mapbender
