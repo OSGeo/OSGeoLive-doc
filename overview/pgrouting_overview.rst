@@ -51,11 +51,11 @@ GIS Tools
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
   
-pgRouting is an extension of PostGIS and adds routing functionality to PostGIS/PostgreSQL. Advantages of the database routing approach are:
+pgRouting is an extension of `PostGIS <postgis_overview.html>`_ and adds routing functionality to `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_. Advantages of the database routing approach are:
 
 * Accessible by multiple clients through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
 * Uses PostGIS for its geographic data format, which in turn uses OGC's data format Well Konwn Text (WKT) and Well Known Binary (WKB). 
-* Open Source software like qGIS and uDig can modify the data/attributes,
+* Open Source software like `Quantum GIS <qgis_overview.html>`_ and `uDig <udig_overview.html>`_ can modify the data/attributes,
 * Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
 * The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
 
