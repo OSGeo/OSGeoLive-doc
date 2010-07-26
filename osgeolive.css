@@ -1,0 +1,124 @@
+.header {
+	height:101px;
+	width:100%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 10px;
+	background-color: gray;
+}
+
+.header ul {
+	background-color: #1166ad;
+	padding:10px 0px 10px 0px;
+}
+/*Some list don't need bullets or numbers*/
+.header li a{
+	background-color:#EBEBEB;
+	color:black;
+	text-decoration:none;
+	font-size: 1.2em;
+	padding: 0px 20px 0px 20px;
+}
+.header li a:hover{
+	background-color:#ccea94;
+}
+.header li{
+	display:inline;
+	list-style-type:none;
+}
+
+.header a{
+	padding:0 10px 0 10px;
+}
+
+.banner {
+	background-color:white;
+	width: 100%;
+	margin-bottom:-20px;
+}
+
+.banner a{
+	color:white;
+}
+
+h1 {
+	padding-top:20px;
+	font-size:2em;
+	text-align: left;
+}
+
+h2 {
+	font-size:1.5em;	
+}
+
+.contents {
+	font-size:0.9em;
+	line-height:1.4em;
+}
+
+/*Specific to Contents/Package page*/
+.package li {
+	list-style-type:none;
+}
+.package p{
+	padding-left:40px;
+}
+
+/*p a{
+	color:blue;
+	background-color:white;
+	padding: 0 0 0 0;
+	font-size: 1em;
+}
+
+p a:hover{
+	background-color:white;
+}*/
+
+
+
+/*Specific to sponsors page*/
+.sponsortitle ul li{
+	display:inline;
+}
+
+.sponsortitle a{
+	background-color:white;
+	color:white;
+	padding: 0 10px 0 0;
+}
+.sponsortitle a:hover{
+	background-color:white;
+}
+
+#live img{
+	height:64px;
+}
+
+.instruct li{
+	list-style-type:decimal;
+}
+
+.command {
+	margin-left:20px;
+	background-color:#ccea94;/*color from osgeo optional colors*/
+	padding:4px 0 4px 10px;
+}
+
+
+
+
+.footerDiv {
+	position:relative;
+	top:7px;
+	border:3px solid #000000;
+	width:666px;
+}
+
+.copyright {
+	background:#000000;
+	color:#ccea94;
+	text-align:right;
+	font-size:10pt;
+	padding:6px 10px 10px 0px;
+}
