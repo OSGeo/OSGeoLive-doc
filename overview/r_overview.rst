@@ -23,7 +23,7 @@
   :scale: 50 %
   :alt: project logo
   :align: right
-  :target: http://www.qgis.org
+  :target: http://cran.r-project.org
 
 
 .. Writing Tip: Name of application
