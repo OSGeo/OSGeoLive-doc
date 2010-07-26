@@ -11,13 +11,6 @@
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: images/project_logos/logo-geomajas2.jpg
-  :width: 450px
-  :height: 100px
-  :alt: project logo
-  :align: right
-  :target: http://www.geomajas.org
-
 .. image:: images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
@@ -28,7 +21,10 @@
 Geomajas
 ========
 
-Geomajas is the extensible open source web mapping framework, enabling integrated GIS solutions for businesses and government. It has an integrated **client-server** architecture, with a high focus on **server-side integration** of your data (be it through GeoTools or Hibernate). This means that you apply your security and business logic on the server before anything gets send to the client, resulting in robust applications and a **real thin client**.
+Browser GIS Client
+~~~~~~~~~~~~~~~~~~
+
+Geomajas is an extensible open source web mapping framework, enabling integrated GIS solutions for businesses and government. It has an integrated **client-server** architecture, with a high focus on **server-side integration** of your data (be it through GeoTools or Hibernate). This means that you apply your security and business logic on the server before anything gets send to the client, resulting in robust applications and a **real thin client**.
 
 .. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
@@ -40,9 +36,10 @@ Description
 
 Geomajas is a free and open source GIS framework for building rich internet applications. It has sophisticated capabilities for displaying and managing geospatial information. Its modular design makes it easily extensible, while a client-server architecture guarantees endless scalability.
 
-The focus of Geomajas is to provide a platform for server-side integration of geospatial data, allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most complex GIS applications can easily be built.
+The focus of Geomajas is to provide a platform for server-side integration of geospatial data, allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most complex GIS applications can built easily.
 
-It's key features are:
+Core Features
+-------------
 
 * Integrated client-server architecture
 * Geometry and attribute editing
