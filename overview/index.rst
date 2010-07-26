@@ -27,7 +27,9 @@ Welcome to the OSGeo Live GIS disc
    ossim_overview
    pgrouting_overview
    postgis_overview
+   qgis_overview
    qgis_mapserver_overview
+   r_overview
    saga_overview
    spatialite_overview
    ushahidi_overview

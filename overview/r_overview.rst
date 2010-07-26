@@ -29,7 +29,7 @@
 .. Writing Tip: Name of application
 
 R Spatial Task View
-==============
+===================
 
 .. Writing Tip:
   Application Category Description:
@@ -43,7 +43,7 @@ R Spatial Task View
   * ...
 
 Statistical Programming
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Writing Tip:
   Address user questions of "What does the application do?",
