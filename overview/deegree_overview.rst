@@ -21,7 +21,7 @@ deegree
 =======
 
 Web Services
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 deegree is a solution for web- and desktop-based
 Geographic Information Systems (GIS) and Spatial Data Infrastructures
@@ -47,7 +47,7 @@ your requirements.
   :align: right
 
 Some example features
--------------
+---------------------
 
 * Web Map Service
 
@@ -106,7 +106,7 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://deegree.org/
+**Website:** http://deegree.org
 
 **Licence:** LGPL
 
@@ -116,4 +116,4 @@ Details
 
 **API Interfaces:** Java
 
-**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport> 
+**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
