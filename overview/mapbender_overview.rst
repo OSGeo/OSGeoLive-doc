@@ -11,7 +11,7 @@
   :target: http://www.mapbender.org
 
 .. image:: images/logos/OSGeo_project.png
-  :scale: 100
+  :scale: 90 %
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
@@ -23,23 +23,15 @@ Mapbender
 About
 ~~~~~
 
-Mapbender is the tip of the iceberg, a meta layer of software providing
-access to the OSGeo SDI stack.
+`Mapbender http://www.mapbender.org` is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
 
-The end-user interfaces are highly focused, only showing the required
-functionality, making is easy to use. At the same time, it is possible to
-create full-fledged interfaces with security proxying, digitizing, auto
-snapping and more.
+Mapbender is the tip of the iceberg, a meta layer of software providing access to SDI components adhering to international standards. Mapbender allows to create full-fledged web mapping interfaces using the power of `jQuery http://jquery.org/`. Mapbender applications offer dynamic map service binding, security proxying, metadata management, digitizing with auto snapping and a many more high-end operations. 
 
-Management interfaces empower administrators who need to maintain and
-categorize map and feature services and grant access to individuals,
-groups and other services. Adherence to standardized services, such as
-OGC Web Map Services (WMS) and transactional OGC Web Feature Services
-(WFS), allows them to take advantage of interoperable services from
-various server platforms.
+Mapbender management applications are straight forward and easy to use providing highly focused functionality for the operation of large scale distributed SDI components. It is the tool of choice for SDI administrators who need to maintain, categorize and monitor map and feature services. Mapbender grants access to individuals, groups and manages machine to machine access. Adherence to standardized services, such as OGC WMS and transactional WFS allows to take advantage of interoperable services from a multitude of server platforms.
 
-The Mapbender client side is based on HTML, JavaScript (jQuery and jQuery
-UI), the server side relies on PHP and PostgreSQL/PostGIS. 
+The Mapbender client side is based on HTML and JavaScript using the jQuery and jQuery UI libraries. The server side is implemented in PHP and PostgreSQL/PostGIS. 
+
+Mapbender gives a whole new perspective to SDI management using nothing but a standard web browser. 
 
 .. image:: images/screenshots/800x600/mapbender_gui_digitize.png
   :scale: 50%
