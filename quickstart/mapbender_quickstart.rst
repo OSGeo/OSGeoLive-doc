@@ -69,27 +69,16 @@ Mapbender Quickstart
 .. Writing Tip:
   Descriibe what will be covered in this Quick Start.
 
+Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services. 
 
-.. note::
-   NOTE this quickstart is not finished yet - it is still in progress and we will work on it tomorrow
+Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. 
 
-
-Mapbender is a WebGIS Client for editing and viewing GeoSpatial data. Mapbender is the tip of the iceberg, a meta layer of software providing access to the OSGeo SDI stack.
-
-The end-user interfaces are highly focused, only showing the required functionality, making is easy to use. At the same time, it is possible to create full-fledged interfaces with security proxying, digitizing, auto snapping and more.
-
-Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. Adherence to standardized services, such as OGC Web Map Services (WMS) and transactional OGC Web Feature Services (WFS), allows them to take advantage of interoperable services from various server platforms.
-
-The Mapbender client side is based on HTML, JavaScript (jQuery and jQuery UI), the server side relies on PHP and PostgreSQL/PostGIS. 
-
+You will nee nothing but a standard web browser for this quickstart.
 
 This Quick Start describes how to:
-  * load a Web Map Service (WMS)
   * create an application 
-  * change WMS settings
-  * create an indicidual application
+  * load a Web Map Service (OGC WMS)
   * create a user and a group and assign applications to them
-  * use WFS and Mapbender digitize application
 
 Start Mapbender
 ===============
@@ -103,7 +92,7 @@ Start Mapbender
 
 .. TBD: Add menu graphic to this uDig Quickstart
 
-#. Choose Mapbender  > Mapbender from the start menu
+#. Choose  :menuselection:`Mapbender` from the start menu
 #. The application will take a few moments to start up
 
 .. Writing Tip:
@@ -117,28 +106,28 @@ Start Mapbender
   .. image:: images/screenshots/800x600/udig_Quickstart1Splash.png
      :scale: 80
 
-If you have any difficulties running Mapbender, please cgheck wheter your APache WebServer is running and your PostgreSQL database too.
+If you have any difficulties running Mapbender, please check whether your Apache WebServer and your PostgreSQL database are running.
 
 Welcome View
 ============
 
-#. When you start Mapbender you first have to login to get access to your applications.
+#. Before you can work with Mapbender you have to login to get access to applications.
 
 #. The welcome page provides links to the most important pages related to Mapbender. 
 
-#. You can login Mapbender with user root password root (This is the user and password that you have after the installation of Mapbender. Please change the root password if you want to run a productive environment. Please do not delete the user root as this user has access to the Mapbender template applications and is used on updates).
+#. You can login with the user :guilabel:`root` password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root` as this user has access to the Mapbender template applications and is used on updates).
   
   .. image:: images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
-After successful login you are directed to the application overview.
+After successful login you are directed to the :guilabel:`application overview`.
 
 
 
 Application overview
 ====================
-After the login you are directed to the application overview with a list of applications you are allowed to access.
-In Mapbender you have template applications, that you can use to build up your own applications.
+After the login you are directed to the :guilabel:`application overview` with a list of applications you are allowed to access.
+In Mapbender you have template applications, that you can use to set up your own applications.
 
   .. image:: images/screenshots/800x600/mapbender_application_overview.png
      :scale: 80
@@ -148,17 +137,17 @@ There are
    * map applications
    * container applications
 
-The applications are listed in categories. Later you can define your own category and add your applications to the category you want.
+The applications are listed in :guilabel:`categories`. Later you can define your own category and add your applications to the category you want.
 
 
 Administrative applications
 ===========================
 
-Administrative applications allow you f. e. to load Services, create user, to set up new applications. 
+:guilabel:`Administrative applications` allow you f. e. to load services, create user, to set up new applications. 
 
-The possibities you have depend on the elements that are part of your administrative application.
+Each :guilabel:`administrative applications` provides different functionality. Later on your can set up your own :guilabel:`administrative applications` with the functionality you would like to provide.
 
-After installation you have access to:
+After installation user :guilabel:`root` has access to:
    * admin2_en - WMS, application, user/group handling
    * admin_en_services - focus on WFS and metadata handling and owsproxy    
    * admin1 - template with all administrative elements 
@@ -166,119 +155,117 @@ After installation you have access to:
   .. image:: images/screenshots/800x600/mapbender_admin2_en.png
      :scale: 80
 
+.. tip:: You get back to the application overview whith the |HOME| button.
+
+  .. |HOME| image:: images/screenshots/800x600/mapbender_home.png
+     :scale: 100
+
 Map Applications
 ================
-Map applications contain OGC WMS, one ore more map frames, buttons, treefolder, a legend elements, your logo and more. 
+Map applications contain OGC WMS, one ore more map frames, buttons, a treefolder, a legend element, your logo and more. 
 
-#. Choose :a map application:`by klick` from the **overview page**
+#. Choose a map application :guilabel:`by click` from the :guilabel:`application overview`
+
+#. Get to know Mapbender and try the funtionality the applications provide.
    
-   * for example gui1, gui
+   * choose for example gui, gui_digitize
      
   .. image:: images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
-
-.. Writing Tip:
-  Notes are ...
-
-.. note::
-   Mapbender note  
-
-.. Writing Tip:
-  Mapbender Tip
 
 .. tip:: If your browser supports tabs you can open the applications in tabs and easily switch between them.
 
 WMS Container Applications
 ==========================
-You can create a container application to store your WMS. WMS Container are not for display - only to store a WMS like it is in the getCapabilities-Document 
+You can create a container application to store your WMS. WMS Container are not for display - only to store a WMS like it comes from the getCapabilities-Document. 
 
-#. The |ZOOM| ....
-   
-   .. |ZOOM| image:: images/screenshots/800x600/mapbender_container.png
-     :scale: 80
+  .. image:: images/screenshots/800x600/mapbender_container.png
+     :scale: 60
 
 Create an individual Application
 =================================
 
-#. go to the administation application **admin2_en** 
+#. go to the administrative application :menuselection:`admin2_en` 
 
-#. choose **Create new application**
+#. choose :menuselection:`Application Management --> Create new application`
 
 #. define a name and description for your application and hit the button **new** to create the application
 
-#. go to the link **Edit application elements** and select the new application
+#. go to the link :menuselection:`Application Management --> Edit application elements` and select the new application
 
-#. in the selectbox at the top choose an application that you would like to take as template and hit the button **add all elements**. This process will take all elements from the application you selected to your new application.
+#. in the selectbox at the top choose an application that you would like to take as a template and hit the button **add all elements**. This process will take all elements from the application you selected to your new application.
 
-#. your application is now set up. Now you need a WMS to be displayed in your application. This will be described in the next section.
+#. you also can take a single element from another application to your new application. Choose the single element by activating the radiobutton at the element and hit the **save** Button to save this element in your new application.
 
-.. Writing Tip:
-  You also can create a new application by copying an existing application. Go to **Rename/copy application**, choose the application you want to copy and define a name for the new application.
+#. your application is set up. Now you need a WMS to be displayed in your application. This will be described in the next section.
+
+
+.. tip:: You also can create a new application by copying an existing application. Go to :menuselection:`Application Management --> Rename/copy application`, choose the application you want to copy and define a name for the new application.
 
 Loading Web Map Services
 ========================
-You can load OGC Web Map Services (WMS) to your application. Go to admin2_en and choose **Load WMS**. Klick on the application to which you want to load the WMS. Link to WMS Capabilities URL in the text field and hit **Load**.
+You can load OGC Web Map Services (WMS) to your application.
+
+#. Go to :guilabel:`admin2_en` and choose :menuselection:`WMS Management --> Load WMS`. Choose the application to which you want to load the WMS. Link to the WMS Capabilities URL in the text field and hit **Load**.
 
 #. Here are some example WMS you can use to load to your appliction
 
-   * http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS (Demis World Map)
-   * http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS (Bird Studies Canada)
-   * http://wms1.ccgis.de/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS (Germany demo map)
-   * http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1 (OSM WMS)
+   * Demis World Map http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
+   * Bird Studies Canada http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
+   * Germany demo http://wms1.ccgis.de/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+   * WhereGroup OSM WMS http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
    
 .. image:: images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
 User and Groups Management
 ==========================
-An access to Mapbender always requires an authenticate as a registered user. This user account has permissions to access a set of interfaces applications and services (WMS, WFS).
+An access to Mapbender always requires an authentication as a registered user. This user has permissions to access one or a set of applications and the services (WMS, WFS) which are assigned to these applications.
 
-There is no inherent difference between user type guest, operator or administrator. The **role** of a user depends on the authorization to access corresponding interfaces applications which implement administration or operator functionality.
- 
-#. To create a user go to **admin2_en** User management to **Create and edit user**
+There is no inherent difference between a user type :guilabel:`guest`, :guilabel:`operator` or :guilabel:`administrator`. The :guilabel:`role` of a user depends on the functionality and services the user has access through his applications.
+
+
+**Create a user**
+
+#. To create a user go to :guilabel:`admin2_en` and select :menuselection:`User Management --> Create and edit user`
 
 #. Choose a name and a password for your user. 
 
 .. image:: images/screenshots/800x600/mapbender_create_user.png
-     :scale: 80
-
-#. Create a group by **Create and edit group**. Define a name and a description for your group.
-
-#. Assign a user to a group by **Add one user to several groups** or by the link **Add several users to one group**
-
-#. Assign an application to a user by **Allow one user to access to access several applications**
-
-#. Assign an application to a group by **Allow one group to access to access several applications**
-
-#. Logout Mapbender by the red cross button. Login as the new user
-
-#. What happens when the user has more than one application?
+     :scale: 80 
 
 
-WFS Digitizing Applications with Mapbender
-==========================================
-#. WFS
-   
-   * Load a WFS
-   
-   * configure a wfs feature type
-   
-.. image:: images/screenshots/800x600/mapbender_gui_digitize.png
-      :scale: 80
+**Create a group**
 
-.. Writing tip
-  The final heading should provide pointers to further tutorials,
-  documentation or further things to try.
-  Present a list of ideas for people to try out. Start off very specific
-  with something most people
+#. Create a group by :menuselection:`User Management --> Create and edit group`. Define a name and a description for your group.
+
+
+**Assign applicatins to user/group**
+
+#. Assign a user to a group by :menuselection:`User Management --> Add one user to several groups` or by the link :menuselection:`User Management --> Add several users to one group`
+
+#. Assign an application to a user by :menuselection:`User Management --> Allow one user to access to access several applications`
+
+#. Assign an application to a group by :menuselection:`User Management --> Allow one group to access to access several applications`
+
+.. tip:: If you want to provide write access you have to use :menuselection:`User Management --> Assign to edit an application to a user`.
+
+#. Logout from Mapbender with the |LOGOUT| button.
+
+#. Login as the new user
+
+#. What happens when the user has access to one or more than one application ?
+  .. |LOGOUT| image:: images/screenshots/800x600/mapbender_logout.png
+     :scale: 100
 
 Things to Try
 =============
 
 Here are some additional challenges for you to try:
 
-#. Try viewing your own GIS map layers, or try adding a layer from a Web Feature Service (WFS).
-#. Try styling the WFS layer.
+#. Try to load some WMS in your application. Try to configure your WMS with :menuselection:`Configure WMS access --> WMS application settings`.
+#. Try to create an individual application - change the background-color, move the buttons, change the size of the mapframe. :menuselection:`Application Management --> Edit application elements`.
+
 
 What Next?
 ==========
@@ -288,18 +275,15 @@ What Next?
 
 This is only the first step on the road to using Mapbender. There is a lot more funtionality you can try.
 
-* Walkthrough 1
+* Mapbender Project home
 
-  Try out the use of WMC.
+  http://www.mapbender.org/
 
-  :file:`/usr/data/mapbender.pdf`
+* You find tutorials at
 
-* Walkthrough 2 - Learn how to handle your Metadata with Mapbender
+  http://www.mapbender.org/Tutorials
 
-  Available on http://www.mapbender.org
+* Try the tutorial in english language
 
-
-* Walkthrough 3 - get to know Mapbender 3.0
-
-  Available on http://www.mapbender.org
+  `Mapbender tutorial (english) <http://www.mapbender.org/Mapbender_Tutorial_en>`_
 
