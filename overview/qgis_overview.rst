@@ -86,7 +86,7 @@ sponsoring and funding.
   Don't include the desktop background as this changes with each release
   and will become dated.
 
- image:: images/screenshots/1024x768/qgis.png
+.. image:: images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right
