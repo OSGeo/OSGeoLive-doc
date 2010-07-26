@@ -20,7 +20,7 @@
     images/project_logos/<filename>
 
 .. image:: images/project_logos/logo-R.jpg
-  :scale: 50 %
+  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org

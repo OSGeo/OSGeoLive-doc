@@ -20,16 +20,22 @@
     images/project_logos/<filename>
 
 .. image:: images/project_logos/logo-QGIS.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
+.. image:: images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 .. Writing Tip: Name of application
 
-QGIS
-==============
+Quantum GIS
+===========
 
 .. Writing Tip:
   Application Category Description:
@@ -43,7 +49,7 @@ QGIS
   * ...
 
 Desktop GIS
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 .. Writing Tip:
   Address user questions of "What does the application do?",
@@ -52,11 +58,24 @@ Desktop GIS
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
   
-Quantum GIS (QGIS) is a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation  (OSGeo). It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector, raster, and database formats and functionalities.
+Quantum GIS (QGIS) is a user friendly Open Source Geographic Information
+System (GIS) licensed under the GNU General Public License. QGIS is an
+official project of the Open Source Geospatial Foundation  (OSGeo). It
+runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
+raster, and database formats and functionalities.
 
-Quantum GIS provides a continously growing number of capabilities provided by core functions and plugins. You can visualize, manage, edit, analyse data, and compose printable maps. Get a first impression with some screenshots and a more detailed feature list.
+Quantum GIS provides a continously growing number of capabilities provided
+by core functions and plugins. You can visualize, manage, edit, analyse
+data, and compose printable maps. Get a first impression with some
+screenshots and a more detailed feature list.
 
-Quantum GIS is a volunteer driven project. We welcome contributions from in the form of code contributions, bug fixes, bug reports, contributed documentation, advocacy and supporting other users on our mailing lists and the QGIS Forum. If you are interested in actively supporting the project, you can find more information under the development menu and on the QGIS Wiki. We also welcome financial contributions in the form of sponsoring and funding.
+Quantum GIS is a volunteer driven project. We welcome contributions from
+in the form of code contributions, bug fixes, bug reports, contributed
+documentation, advocacy and supporting other users on our mailing lists
+and the QGIS Forum. If you are interested in actively supporting the
+project, you can find more information under the development menu and on
+the QGIS Wiki. We also welcome financial contributions in the form of
+sponsoring and funding.
 
 
 .. Writing Tip:
