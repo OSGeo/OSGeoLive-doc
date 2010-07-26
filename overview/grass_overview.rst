@@ -33,14 +33,19 @@ to produce sophisticated presentation graphics and hardcopy maps. GRASS has
 now been translated into twenty languages and supports a huge array of data
 formats.
 
+.. image:: images/screenshots/1024x768/grass-layerman.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
+
 GRASS is currently used around the world in academic and commercial settings
 as well as by many governmental agencies and environmental consulting
 companies. It runs on a variety of popular hardware platforms and is Free
 open-source software released under the terms of the GNU General Public License.
 
-The GRASS software includes over 400 built-in analysis modules and in addition
-over 100 community supplied add-on modules and toolboxes are available for free
-download from our community wiki site. After 27 years of continuous
+The GRASS software includes over 400 built-in analysis modules. Additionally,
+over 100 community supplied modules and toolboxes are available for free
+from the community wiki site. After 27 years of continuous
 development GRASS is both the oldest and largest Open Source GIS available.
 It is easily scriptable and versatile enough to be used both for batch data
 processing on massively-parallel supercomputers as well as a handy desktop
@@ -48,11 +53,6 @@ GIS for handheld PDAs or netbooks.
 
 
 .. _GRASS: http://grass.osgeo.org
-
-.. image:: images/screenshots/1024x768/grass-layerman.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
 
 Core Features
 -------------
