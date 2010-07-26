@@ -72,7 +72,7 @@ The Spatial Task View is a collection or R packages focused on handling, analysi
 Core Features
 -------------
 
-* Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intesive applications
+* Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
 * Hundreds of community contributed add-on packages for spatial statistics
 * Classes for spatial data
 * Handling spatial data
