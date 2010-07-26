@@ -33,10 +33,8 @@ The JOSM plugin collection contains the following plugins:
 * agpifoj	     - Creates a new layer with geotagged pictures.
 * colorscheme	     - Allows to create different color schemes.
 * livegps	     - Supports live GPS input together with gpsd.
-* measurement	     - Adds a dialog and a layer to measure length
-		       and angle of segments and create measurement paths.
-* openvisible	     - Allows opening gpx and osm files that intersect
-		       the currently visible screen area.
+* measurement	     - Adds a dialog and a layer to measure length and angle of segments and create measurement paths.
+* openvisible	     - Allows opening gpx and osm files that intersect the currently visible screen area.
 * slippymap	     - Displays a slippy map grid in JOSM.
 * surveyor	     - Allows adding markers/nodes on current gps positions.
 * utilsplugin	     - Several helper utilities.
@@ -74,6 +72,7 @@ current GPS location using `gpsd <http://gpsd.berlios.de>`_.
 * Homepage: http://wiki.openstreetmap.org/index.php/Gosmore
 * Online wiki help: http://wiki.openstreetmap.org/wiki/Gosmore#User_Interface
 * Before running Gosmore you will need to convert a `planet-*.osm` data file. Some data is provided in the `/usr/local/share/osm/` directory.
+
 Import it with:
 
 ::
@@ -93,15 +92,20 @@ defined in the rule file.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osmarender
 
-Example: (requires ~ 600mb RAM)
+Example: (requires ~ 600mb RAM and takes some time to process)
 
 ::
 
   cp /usr/local/share/osm/Barcelona.osm.bz2 .
   bzip2 -d Barcelona.osm.bz2
   osmarender Barcelona.osm
-  
+
+You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
+
+::
+
   inkscape Barcelona.svg
+
 
 osm2pgsql
 ~~~~~~~~~
