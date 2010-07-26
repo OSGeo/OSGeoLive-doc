@@ -64,7 +64,7 @@ The Spatial Task View is a collection or R packages focused on handling, analysi
   Don't include the desktop background as this changes with each release
   and will become dated.
 
- image:: images/screenshots/1024x768/qgis.png
+.. image:: images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -86,7 +86,7 @@ Core Features
 .. Writing Tip:
   Optional: A second screenshot can sometimes be added here
   if there is sufficient room.
-  .. image:: images/screenshots/1024x768/qgis.png
+  .. image:: images/screenshots/1024x768/r-distance.png
     :scale: 50 %
     :alt: project logo
     :align: right
