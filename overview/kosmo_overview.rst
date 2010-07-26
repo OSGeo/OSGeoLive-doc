@@ -36,14 +36,14 @@ spatial data infrastructure that will be made available to the entire community.
 Core Features
 -------------
 
-The supported formats are:
+Supported formats:
 
 * Vectorial file formats: Shapefiles, GML, DXF, DWG, DGN, CSV (by an extension)
 * Vectorial databases: PostgreSQL + PostGIS, Oracle, MySQL
 * Raster file formats: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
 * OGC services: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
 
-Another key features present at the current version:
+Key features:
 
 * Advanced printing module based on OpenOffice offimatic suite (by an extension)
 * Topology consistency rules: pre/during/post edition
@@ -53,7 +53,8 @@ Another key features present at the current version:
 Implemented Standards
 ---------------------
 
-* OGC standards compliant (WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0)
+* Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
+* Web Feature Service (WFS) 1.0.0/1.1.0
 
 
 Details
