@@ -10,7 +10,10 @@ Welcome to the OSGeo Live GIS disc
    :hidden:
 
 
+   atlasstyler_overview
    deegree_overview
+   geomajas_overview
+   geopublisher_overview
    gmt_overview
    gpsdrive_overview
    grass_overview
@@ -31,6 +34,7 @@ Welcome to the OSGeo Live GIS disc
    qgis_mapserver_overview
    r_overview
    saga_overview
+   sahana_overview
    spatialite_overview
    ushahidi_overview
    viking_overview
