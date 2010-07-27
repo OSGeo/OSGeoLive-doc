@@ -5,7 +5,7 @@
 .. _sahana-overview:
 
 .. image:: images/project_logos/logo-sahana.png
-  :scale: 100 %
+  :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://www.sahanafoundation.org
@@ -33,7 +33,7 @@ the sponsorship of SIDA, IBM and NSF (US) and it has be used by
 dozens of Governments and NGOs since then.
 
 .. image:: images/screenshots/800x600/sahana-camp-dist_0.jpg
-  :scale: 50 %
+  :scale: 80 %
   :alt: screenshot
   :align: right
 
