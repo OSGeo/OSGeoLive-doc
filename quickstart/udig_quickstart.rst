@@ -50,8 +50,8 @@
   and accessed here:
     images/project_logos/logos-<application>.png
 
-.. image:: images/project_logos/logo-PostGIS.png
-  :scale: 30 %
+.. image:: images/project_logos/logo-uDig.png
+  :scale: 60 %
   :alt: project logo
   :align: right
 
