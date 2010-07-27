@@ -20,6 +20,7 @@ Welcome to the OSGeo Live GIS disc
    gvsig_overview
    kosmo_overview
    mapbender_overview
+   mapfish_overview
    mapguide_overview
    mapnik_overview
    mapserver_overview
