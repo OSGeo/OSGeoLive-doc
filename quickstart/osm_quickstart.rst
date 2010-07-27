@@ -92,7 +92,10 @@ defined in the rule file.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osmarender
 
-Example: (requires ~ 600mb RAM and takes some time to process)
+Example: (this requires approx. 1 GB free RAM and takes at least a day to process
+the full city. A single village or suburb extract should be much more manageable.
+See `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ in the OSM Wiki for
+details on how to download smaller chunks into an ``.osm`` file.)
 
 ::
 
