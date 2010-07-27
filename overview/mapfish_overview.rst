@@ -40,7 +40,7 @@ toolkits, and specific components for interacting with MapFish web services.
 
 .. image:: images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
-  :alt: project logo
+  :alt: screenshot
   :align: right
 
 Core Features
