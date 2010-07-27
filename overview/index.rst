@@ -17,6 +17,7 @@ Welcome to the OSGeo Live GIS disc
    gmt_overview
    gpsdrive_overview
    grass_overview
+   gvsig_overview
    kosmo_overview
    mapbender_overview
    mapguide_overview
