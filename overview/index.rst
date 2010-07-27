@@ -44,7 +44,7 @@ Welcome to the OSGeo Live GIS disc
    zygrib_overview
    52nWPS_overview
 
-The OSGeo `Live Disc <http://live.osgeo.org/>`_ is a self-contained live DVD and Virtual Machine based on `Xubuntu <http://www.xubuntu.org/>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around.
+The `OSGeo Live Disc <http://live.osgeo.org/>`_ is a self-contained live DVD and Virtual Machine based on `Xubuntu <http://www.xubuntu.org/>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around.
 
 The live disc provides effective tools for a range of geospatial use cases, including storage, publishing, viewing, analysis and manipulation of data. It also contains sample datasets and standard software products, including Apache Web Server, Apache Tomcat Application Server, Sun Java, PostgreSQL and PGAdmin.
 
