@@ -1,4 +1,4 @@
-:Author: Huawei Luo 
+:Author: Huawei Luo and Trevor Wekel
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -23,7 +23,7 @@ MapGuide Open Source
 Web Service
 -----------
 
-`MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure. MapGuide includes an XML database for managing content, and supports most popular geospatial file formats, databases, and standards.
+`MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure. MapGuide includes an XML database for managing content and Maestro allows users to build a website without writing a single line of code. MapGuide also supports most popular geospatial file formats, databases, and standards.
 
 MapGuide can be deployed on Linux or Windows, supports Apache and IIS web servers, and offers extensive PHP, .NET, Java, and JavaScript APIs for application development. MapGuide Open Source is licensed under the LGPL.
 
@@ -37,7 +37,7 @@ Core Features
 
 **Interactive Map Viewing**
 
-* Ajax viewer 
+* Dynamic browser-based viewer 
 * Feature selection and properties 
 * Buffering, querying 
 * Printing and Plotting
