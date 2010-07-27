@@ -5,8 +5,8 @@
 .. _geomajas-overview:
 
 .. image:: images/project_logos/logo-geomajas.png
-  :width: 50px
-  :height: 50px
+  :width: 100px
+  :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org

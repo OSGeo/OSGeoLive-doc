@@ -20,7 +20,7 @@
     images/project_logos/<filename>
 
 .. image:: images/project_logos/logo-GeoNetwork.png
-  :scale: 30 %
+  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/
@@ -34,7 +34,7 @@
 .. Writing Tip: Name of application
 
 GeoNetwork
-=======
+==========
 
 .. Writing Tip:
   Application Category Description:
@@ -43,6 +43,9 @@ GeoNetwork
   * Browser GIS client
   * GIS Tools
   * ...
+
+Metadata Catalog
+~~~~~~~~~~~~~~~~
 
 GeoNetwork opensource is a catalog application to manage spatially referenced resources. It provides powerful metadata editing and search functions as well as an embedded interactive web map viewer.
 
@@ -94,6 +97,7 @@ Implemented Standards
 * Z39.50 
 * OpenSearch-Geo
 * Metadata standards:
+
  * ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles
  * Dublin Core
  * FGDC
