@@ -14,7 +14,7 @@
 pgRouting Quickstart
 ********************
 
-pgRouting is an extension of PostGIS and adds routing functionality to PostGIS/PostgreSQL.
+pgRouting is an extension of `PostGIS <http://www.postgis.org>`_ and adds routing functionality to `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
 
 This Quick Start describes how to open a database with the command line and run a basic shortest path query with the sample test data.
 
