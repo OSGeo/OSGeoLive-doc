@@ -18,29 +18,28 @@
 
 
 gvSIG Desktop
-================
+==============
 
 Desktop GIS
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
-gvSIG_ is a Geographic Information System (GIS), that is, a desktop application
+gvSIG_ is a Geographic Information System (GIS) desktop application
 designed for capturing, storing, handling, analysing and deploying any kind of
 referenced geographic information in order to solve complex management and
-planning problems. gvSIG is known for having a user-friendly interface, being
-able to access the most common formats, both vector and raster ones. It features
-a wide range of tools for working with geographic-like information (query tools,
+planning problems. gvSIG is known for its user-friendly interface and being
+able to access all common vector and raster formats. It features
+a wide range of tools for working with geographic information (query,
 layout creation, geoprocessing, networks, etc.), which turns gvSIG into the
 ideal tool for users working in the land realm.
 
 gvSIG is known for:
 
 * integrating in the same view both local and remote data through OGC standards.
-* being designed to be easily extendible, allowing continuous application 
+* being easily extendible, allowing continuous application 
   enhancement, as well as enabling the development of tailor-made solutions.
-* being available in more than 20 languages (Spanish, English, German, French, 
+* being available in over 20 languages (Spanish, English, German, French, 
   Italian,...) .
-* being developed using Java, and being available for Linux, Windows and
-  Mac OS X platforms:
+* being available for Windws, Linux, and Mac OS X platforms:
 
 .. image:: images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -50,14 +49,14 @@ gvSIG is known for:
 Core Features
 -------------
 
-* Provides the most common GIS tools like data loading, map navigation, query 
+* Provides common GIS tools like data loading, map navigation, query 
   map information like alphanumeric information, distance measurement, thematic
-  cartography, legend edition using the most common legend types, labelling,
+  cartography, legend edition using common legend types, labelling,
   feature selection by many selection types, data tables with statistics,
   ordering, table relations, table linking, layout manager, geoprocessing tools,
   CAD, raster processing, etc.
 
-* Interoperable: able to work with most of the known data formats:
+* Interoperable: able to work with most known data formats:
 
   * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
   * vector & CAD: shapefile, GML, KML, DGN, DXF, DWG
@@ -65,19 +64,18 @@ Core Features
   * remote: ECWP, ArcIMS, OGC standards
 
 * Discovery services client to localize data resources within an
-  SDI (catalogue  and gazeteer services)
+  SDI (catalogue and gazeteer services)
   
   * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteers: ADL, WFS, WFS-G
   
-* More than 290 geoalgorithms thanks to SEXTANTE_ library (even with 
-  GRASS integration)
+* More than 290 geoalgorithms via SEXTANTE_ and GRASS integration
   
 * Integrated advanced CAD tools:
 
-  * functionality for vector data edition: modify, create and delete elements
+  * vector data: modify, create and delete elements
   * command console typical element in CAD software
-  * tools like help tools, grid tools, command stack, complex element selections
+  * tools like help, grid, command stack, complex element selections
   * tools for inserting elements like points, polygons, lines, ellipses, etc...
   * tools to modify its rotation, symmetry,...
   
@@ -90,7 +88,7 @@ Core Features
   * overviews and regions of interest management
 
 * Scripting support
-* Powerful reprojection engine (PROJ4 wrapper)
+* Powerful reprojection engine via PROJ4
 
 
 Implemented Standards
