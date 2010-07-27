@@ -22,13 +22,13 @@ This Quick Start describes how to open a database with the command line and run 
 Running pgRouting
 =================
 
-* Open a terminal window and login to the ``pgrouting`` database:
+* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``pgrouting`` database:
 
 .. code-block:: bash
 
 	psql -U user pgrouting
 
-* Type ``\d`` will list you all available tables:
+* Type :command:`\\d` will list you all available tables:
 
 .. code-block:: sql
 
@@ -84,7 +84,7 @@ Running pgRouting
        5575 | MULTILINESTRING((2.1436976 41.3897581,2.143876 41.3903893))
     (81 rows)
 
-* With ``\q`` command leave the PostgreSQL shell.
+* With :command:`\\q` command leave the PostgreSQL shell.
 
 
 What next?
@@ -92,7 +92,7 @@ What next?
 
 * **pgRouting Website** - Visit the project website http://www.pgrouting.org to learn more about pgRouting.
 
-* **Workshop on DVD** - Included on this LiveDVD is the FOSS4G 2010 pgRouting workshop "FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoEx", available in: file:///usr/share/pgrouting/workshop/
+* **Workshop on DVD** - Included on this LiveDVD is the FOSS4G 2010 pgRouting workshop `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoEx"`, available in: :file:`///usr/share/pgrouting/workshop/`
 
 .. note::
 
