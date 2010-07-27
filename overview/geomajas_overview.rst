@@ -26,9 +26,9 @@ Browser GIS Client
 
 Geomajas is an extensible web mapping framework which seamlessly integrates powerful server side algorithms into the web browser.
 
-The focus of Geomajas is to provide a platform for **server-side integration** of geospatial data (be it through GeoTools or Hibernate), allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most complex GIS applications can easily be built.
+The focus of Geomajas is to provide a platform for **server-side integration** of geospatial data (be it through GeoTools or Hibernate), allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most advanced GIS application can easily be built.
 
-What makes Geomajas unique is it's strong server side focus. The processing, styling, filtering, caching, etc. of geospatial data always happens within a secured context. This makes Geomajas applications incredibly scalable and performing, keeping the client a **real thin client**.
+What makes Geomajas unique is its strong server side focus. The processing, styling, filtering, caching, etc. of geospatial data always happens within a secured context. All this makes Geomajas applications incredibly scalable and performing, keeping the client a **real thin client**.
 
 .. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
