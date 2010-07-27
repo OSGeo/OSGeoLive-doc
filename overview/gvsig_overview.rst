@@ -4,7 +4,7 @@
 
 .. _gvsig-overview:
 
-.. image:: images/project_logos/logo-gvsig.png
+.. image:: images/project_logos/logo-gvSIG.png
   :scale: 30 %
   :alt: project logo
   :align: right

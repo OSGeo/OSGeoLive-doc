@@ -42,6 +42,7 @@ Core Features
 -------------
 
 * Access to a large number of scientific modules via the Graphical User Interface or the command line
+
  * Import/Export to different file formats
  * Reprojection/Resampling of data
  * Manipulation of vector data (merging/intersection/attributes)
@@ -52,6 +53,7 @@ Core Features
  * Geostatistics: modules for variogram fitting and kriging
 
 * Fast user interface for managing and visualising data
+
  * 3D visualisation
 
 * Straightforward C++ API for creating new modules
@@ -71,4 +73,4 @@ Details
 
 **API Interfaces:** C++
 
-**Support:** http://www.saga-gis.org/
+**Support:** http://www.saga-gis.org

@@ -33,7 +33,7 @@ Welcome to the OSGeo Live GIS disc
    postgis_overview
    qgis_overview
    qgis_mapserver_overview
-   r_overview
+   R_overview
    saga_overview
    sahana_overview
    spatialite_overview
