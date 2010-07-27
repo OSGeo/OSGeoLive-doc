@@ -58,6 +58,7 @@ Core Features
 -------------
 
 * You name it, there's a tool for it.
+* Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
 
 Details
 -------
