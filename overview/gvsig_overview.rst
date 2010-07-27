@@ -23,7 +23,6 @@ gvSIG Desktop
 Desktop GIS
 ~~~~~~~~~~~~~~~~
 
-
 gvSIG_ is a Geographic Information System (GIS), that is, a desktop application
 designed for capturing, storing, handling, analysing and deploying any kind of
 referenced geographic information in order to solve complex management and
@@ -43,7 +42,7 @@ gvSIG is known for:
 * being developed using Java, and being available for Linux, Windows and
   Mac OS X platforms:
 
-.. image:: images/screenshots/1024x768/gvsig.png
+.. image:: images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right
