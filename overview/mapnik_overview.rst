@@ -21,17 +21,16 @@ Mapnik is an OpenSource C++/Python toolkit for developing  mapping
 applications. At the core is a C++ shared library providing
 algorithms/patterns for spatial data access and visualization.
 
+.. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+  :scale: 40 %
+  :alt: screenshot
+  :align: right
+
 Essentially a collection of geographic objects (map, layer, datasource,
 feature, geometry),  the library doesn't rely on "windowing systems" and
 can be deployed in any server environment.  It is intended to play fair
 in a multi-threaded environment and is aimed primarily,  but not
 exclusively, at web-based development.
-
-
-.. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
-  :scale: 40 %
-  :alt: screenshot
-  :align: right
 
 High-level Python bindings (boost.python) facilitate rapid application
 development,  targeting zope3, django etc.
@@ -52,5 +51,4 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** C++, Python
-
 
