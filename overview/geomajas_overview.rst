@@ -5,8 +5,8 @@
 .. _geomajas-overview:
 
 .. image:: images/project_logos/logo-geomajas.png
-  :width: 100px
-  :height: 100px
+  :width: 50px
+  :height: 50px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
@@ -24,19 +24,16 @@ Geomajas
 Browser GIS Client
 ~~~~~~~~~~~~~~~~~~
 
-Geomajas is an extensible open source web mapping framework, enabling integrated GIS solutions for businesses and government. It has an integrated **client-server** architecture, with a high focus on **server-side integration** of your data (be it through GeoTools or Hibernate). This means that you apply your security and business logic on the server before anything gets send to the client, resulting in robust applications and a **real thin client**.
+Geomajas is an extensible web mapping framework which seamlessly integrates powerful server side algorithms into the web browser.
+
+The focus of Geomajas is to provide a platform for **server-side integration** of geospatial data (be it through GeoTools or Hibernate), allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most complex GIS applications can easily be built.
+
+What makes Geomajas unique is it's strong server side focus. The processing, styling, filtering, caching, etc. of geospatial data always happens within a secured context. This makes Geomajas applications incredibly scalable and performing, keeping the client a **real thin client**.
 
 .. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right
-
-Description
------------
-
-Geomajas is a free and open source GIS framework for building rich internet applications. It has sophisticated capabilities for displaying and managing geospatial information. Its modular design makes it easily extensible, while a client-server architecture guarantees endless scalability.
-
-The focus of Geomajas is to provide a platform for server-side integration of geospatial data, allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most complex GIS applications can built easily.
 
 Core Features
 -------------
@@ -49,6 +46,12 @@ Core Features
 * Extensible plug-in mechanism
 * Multiple front-end technologies
 * Cross browser support, without the need for browser plug-ins
+
+Implemented Standards
+---------------------
+
+* OGC Web Map Service (WMS) 1.1.0, 1.1.1
+* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
 Details
 -------
