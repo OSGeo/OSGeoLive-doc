@@ -23,6 +23,12 @@ deegree
 Web Services
 ~~~~~~~~~~~~
 
+deegree is free, stable, powerful and easy to use. deegree is
+the most comprehensive set of implementations of Open Geospatial
+Consortium (OGC) standards in free and open source software, ranging
+from a transactional Web Feature Service to three-dimensional data
+display through a Web Terrain Service and many more!
+
 deegree is a solution for web- and desktop-based
 Geographic Information Systems (GIS) and Spatial Data Infrastructures
 (SDI). It is comprised of a comprehensive yet powerful Java Application
@@ -30,12 +36,6 @@ Programming Interface (API) and a powerful object-relational mapping for
 simple and complex spatial schemas. deegree also provides a set of
 standards-compliant webservices for web mapping, feature and catalogue
 services as well as sensor and processing services.
-
-deegree is free, stable, powerful and easy to use. deegree is
-the most comprehensive set of implementations of Open Geospatial
-Consortium (OGC) standards in free and open source software, ranging
-from a transactional Web Feature Service to three-dimensional data
-display through a Web Terrain Service and many more!
 
 deegree gets your SDI up and running, using your own data and fulfilling
 your requirements.
@@ -51,12 +51,12 @@ Some example features
 
 * Web Map Service
 
-  * supports HTTP GET, HTTP POST and feature info requests
   * very flexible concerning layer contents
   * supports and uses style definitions (SLD 1.0)
   * thematic mapping capabilities through charts (pie, bar, line) as point symbolizers
   * datasources: all common OGC web services (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, any arbitrary SQL statements can be used to create the WMS layer content
   * very stable, even for large scales
+  * supports HTTP GET, HTTP POST and feature info requests
   * certified to be OGC compliant
 
 * Web Feature Service
