@@ -20,12 +20,12 @@
 OSSIM
 =====
 
-awesome image Processing
-~~~~~~~~~~~~~~~~~~~~~~~~
+Image Processing
+~~~~~~~~~~~~~~~~
 
-Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing, image processing, geographical information system and photogrammetry. It has been actively developed since 1996. 
+Open Source Software Image Map (OSSIM) is a high performance engine for remote sensing, image processing, geographical information system and photogrammetry.
 
-OSSIM has been funded by several US government agencies in the intelligence and defense community and the technology is currently deployed in research and operational sites.
+OSSIM has been funded by several US government agencies in the intelligence and defense community and the technology is currently deployed in research and operational sites. It has been actively developed since 1996. 
 
 Designed as a series of high performance software libraries, it is written in C++ employing the latest techniques in object-oriented software design.
 Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution.
