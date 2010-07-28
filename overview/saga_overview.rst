@@ -14,8 +14,8 @@
 SAGA GIS
 ========
 
-System for Automated Geoscientific Analyses
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Desktop GIS
+~~~~~~~~~~~
 
 SAGA GIS (System for Automated Geoscientific Analyses) is a free and
 open source geographic information system used for editing and analysing
@@ -26,7 +26,7 @@ classification, projections, simulation of dynamic processes (hydrology,
 landscape development) and terrain analysis. The functionality can be
 accessed through a GUI, the command line or by using the C++ API.
 
-SAGA GIS was developed since 2001, and the centre of SAGA development is
+SAGA GIS has been in development since 2001, and the centre of SAGA development is
 located in the Institute of Geography at the University of Hamburg, with
 contributions from the growing world wide community.
 
