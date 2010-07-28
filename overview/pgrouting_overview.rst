@@ -51,11 +51,11 @@ GIS Tools
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
   
-pgRouting is an extension of `PostGIS <postgis_overview.html>`_ and adds routing functionality to `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_. Advantages of the database routing approach are:
+pgRouting extends the `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
 
-* Accessible by multiple clients through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
-* Uses PostGIS for its geographic data format, which in turn uses OGC's data format Well Konwn Text (WKT) and Well Known Binary (WKB). 
-* Open Source software like `Quantum GIS <qgis_overview.html>`_ and uDig can modify the data/attributes,
+Advantages of the database routing approach are:
+
+* Data and attributes can be modified by many clients, like `Quantum GIS <qgis_overview.html>`_ and `uDig <udig_overview.html>`_ through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
 * Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
 * The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
 
@@ -68,7 +68,7 @@ pgRouting is an extension of `PostGIS <postgis_overview.html>`_ and adds routing
   and will become dated.
 
 .. image:: images/screenshots/800x600/pgrouting.png
-  :scale: 50 %
+  :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right
 
@@ -91,12 +91,11 @@ pgRouting provides functions for:
     :alt: project logo
     :align: right
 
-Implemented Standards
----------------------
+.. Implemented Standards
+   ---------------------
 
 .. Writing Tip: List OGC or related standards supported.
-
-* OGC standards compliant
+.. * OGC standards compliant
 
 Details
 -------
