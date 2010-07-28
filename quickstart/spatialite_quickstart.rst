@@ -23,7 +23,7 @@ Running spatialite
 
 * Open a console and open a sample database with spatialite::
 
-   spatialite /usr/local/share/spatialite/regions.sqlite
+   spatialite /home/user/data/spatialite/regions.sqlite
    select r.NOME_REG, a.Nome from Aeroporti a, reg2008_s r where CONTAINS( r.Geometry, a.Geometry ) order by r.NOME_REG;
 
 
@@ -38,7 +38,7 @@ Running spatialite-gis
 ======================
 
 * Run spatialite-gis 
-* Connect to /usr/local/share/spatialite/regions.sqlite
+* Connect to /home/user/data/spatialite/regions.sqlite
 
 You should see a set of Airports in Italy
 

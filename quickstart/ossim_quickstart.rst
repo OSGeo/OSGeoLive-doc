@@ -27,7 +27,7 @@ Imagelinker
 ===========
 
 * Start Imagelinker from its icon from the directory "Spatial Tools" on the desktop 
-* Select the project file, using :menuselection:`File --> Open Project --> /home/user/data/ossim/ossim_data/landsatrgb.prj`
+* Select the project file, using :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
 * Go to the :menuselection:`menu bar --> window --> tile`
 * Select an :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Verify you see a 3 gray satelite images. 
@@ -44,9 +44,9 @@ OssimPlanet
 ===========
 
 * Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
-* Select :menuselection:`File --> Open Session --> /home/user/ossim/ossim_data/session.session`
+* Select :menuselection:`File --> Open Session --> /home/user/ossim/session.session`
 * Navigate the scene.
-* Go to :menuselection:`menu --> Open kml --> /home/user/ossim/ossim_data/*.kml`
+* Go to :menuselection:`menu --> Open kml --> /home/user/data/kml/*.kml`
 * Go on the :menuselection:`legend tree --> location --> open the trees --> double click on the kml location`
 
 you should see the scene zoom to the location 
