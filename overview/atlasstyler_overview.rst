@@ -12,32 +12,34 @@
 
 
 AtlasStyler
-============
+===========
 
-About AtlasStyler
-~~~~~~~~~~~~~~~~~~
+Feature Style Editor
+~~~~~~~~~~~~~~~~~~~~
 
-`AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application to style geodata. The resulting styles can be saved to XML files that follow the OGC SLD/SE standard 1.0.
-The created SLD files are compatibel with GeoServer, uDig, Geotools-based applications and all other programs that use the OGC SLD standard. The application provides a multiplicity of intuitive dialogs that allow to create styles productively - without dealing with any XML. You can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally you have integrated access to an online symbol-database. You can create and save symbols in the SymbolEditor and reuse you symbols in classifications or other projects.
+`AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application for styling geodata. The resulting styles can be saved as OGC standards complient SLD/SE files.
+
+The created SLD files are compatible with all programs which support the OGC SLD standard, including GeoServer, uDig and others. The application provides a multitude of intuitive dialogs to simplify style creation. Users can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally users have integrated access to an online symbol-database. Users can create and save symbols in the SymbolEditor and reused in classifications or other projects.
 
 .. image:: images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right
 
+Core Features
+-------------
 
-Technical details:
-------------------
+* Build styles using dialogs.
+* Based on OGC SLD standard.
+* Run on Windows, Linux and Mac.
+* Import from ESRI Shapefiles and PostGIS databases.
+* Fully translated into German, English, Italian and French.
 
-* Platform independence: developed in Java, AtlasStyler and its atlases run on Mac OS, Windows and Linux.
-* Styling based on OGC SLD standard.
-* Import from ESRI Shapefiles and PostGIS databases
-* Fully translated into German, English, Italian and Frensh. Turkish coming soon.
+Implemented Standards
+---------------------
 
-Support:
---------
-All software is OpenSouce  and can be downloaded from the project web page. For special challenges, the Bonn-based company wikisquare is providing commercial support, including trainings and special feature development: `www.wikisquare.de <http://www.wikisquare.de>`_ .
-
+* OGC Style Layer Descriptor (SLD) 1.0
+* OGC Symbology Encoding (SE)
 
 Details
 -------
@@ -46,7 +48,9 @@ Details
 
 **Software Version:** 1.5
 
-**Supported Platforms:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
+**Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** Java, Swing, Geotools
+
+**Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
