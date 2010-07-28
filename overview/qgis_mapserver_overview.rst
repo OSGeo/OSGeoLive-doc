@@ -52,9 +52,8 @@ Web Service
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
   
-QGIS mapserver provides a web map service (WMS) based on the Quantum GIS (QGIS) libraries. One of the major advantages therefore is the close integration with the desktop application QGIS. Because QGIS mapserver uses the same code for data access and rendering, the web maps look exactly as in the desktop application. Furthermore, all the advanced features of QGIS (e.g. intelligent labelling, the new symbology engine, creating layer groups) are supported. The export of a desktop project to the web is straightforward. Just copy (or symlink) the QGIS project file (.qgs) into the server directory. 
-
-Although QGIS mapserver is not as widely used as other open source mapservers, the user base is growing. There is already a number of users, especially in the university and public administration domains.
+QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
+The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
 
 
 .. Writing Tip:
@@ -78,7 +77,6 @@ Core Features
 * Easy to use
 * Supports Styled Layer Descriptor (SLD)
 * Advanced cartographic symbolisation
-* Provides SOAP bindings
 
 .. Writing Tip:
   Optional: A second screenshot can sometimes be added here
