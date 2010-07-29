@@ -1,4 +1,4 @@
-:Author: Hamish Bowman
+:Author: OSGeo Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -37,32 +37,18 @@ toolbox is composed of the `ExtJS <http://extjs.com>`_, `OpenLayers
 <http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ JavaScript
 toolkits, and specific components for interacting with MapFish web services.
 
-
 .. image:: images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Core Features
--------------
-
-The MapFish framework is built around an open HTTP-based protocol, allowing
-various interoperable implementations. In addition to the reference
-implementation provided by the Python/Pylons-based framework, two other
-implementations are currently available:
-
-    * a Ruby/Rails plugin (GPLv3)
-    * a PHP/Symfony plugin (BSD)
-
-See the documentation for more information.
-
 Implemented Standards
 ---------------------
 
-MapFish is compliant with the `Open Geospatial Consortium <http://www.opengeospatial.org/>`_ standards.
-This is achieved through OpenLayers or GeoExt supporting several OGC norms, like
-WMS, WFS, WMC, KML, GML etc..
-
+MapFish is compliant with the `Open Geospatial Consortium
+<http://www.opengeospatial.org/>`_ standards.  This is achieved through
+OpenLayers or GeoExt supporting several OGC norms, like WMS, WFS, WMC, KML, GML
+etc.
 
 Details
 -------
@@ -74,7 +60,5 @@ Details
 **Software Version:** 1.2
 
 **Supported Platforms:** Windows, Linux, Mac
-
-**API Interfaces:** Python, Ruby, PHP
 
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
