@@ -1,4 +1,6 @@
 :Author: OSGeo Live
+:Author: Hamish Bowman
+:Author: Eric Lemoine
 :Version: osgeo-live4.0
 :License: Creative Commons
 
