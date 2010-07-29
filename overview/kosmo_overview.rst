@@ -16,17 +16,11 @@ Kosmo Desktop
 Desktop GIS
 ~~~~~~~~~~~
 
-Kosmo - Desktop is a general Desktop-GIS. Using extra extensions allows 
-customizing it for specific purposes. 
+Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
+and analyse spatial data from a variety of databases, vector and raster formats. 
 
-It's designed for the average GIS user, with special emphasis on user-friendly 
-interface (quite similar to the most famous and wide used commercial desktop GIS). 
-It's open source and provides users with the most useful tools to explore, 
-edit and analyze spatial data. All of it by observing the OpenGIS standards and 
-applying high efforts to maintain the data topology quality. 
-
-It's the first component of a series of developments oriented to be a complete 
-spatial data infrastructure that will be made available to the entire community.
+Kosmo - Desktop follows OGC standards and provides excellent topology integrity. 
+It's plug-in architecture enables it to be easily customised for specific purposes.
 
 .. image:: images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
@@ -45,16 +39,21 @@ Supported formats:
 
 Key features:
 
+* User friendly GUI, focused on an easy learning curve
+* Available in 11 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian portuguese)
 * Advanced printing module based on OpenOffice offimatic suite (by an extension)
 * Topology consistency rules: pre/during/post edition
-* Geoprocessing wizard extension: buffer/dissolve/merge/clip/intersection/spatial join/difference
-* Sextante 0.5
+* Topology validation and cleaning tools (intersect/eliminate/clean)
+* Geoprocessing wizard extension: buffer/dissolve/merge/clip/intersection/spatial join/difference (by an extension)
+* Raster georreferencing tool (by an extension)
+* Sextante 0.5 integrated (by an extension)
 
 Implemented Standards
 ---------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
+* Styled Layer Descriptor (SLD) (import/export)
 
 
 Details
