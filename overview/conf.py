@@ -32,7 +32,7 @@ extensions = []
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'overview'
 
 # General substitutions.
 project = u'OSGeo Live'
@@ -44,7 +44,7 @@ copyright = u'2010, OSGeo'
 # The short X.Y version.
 version = '4.0'
 # The full version, including alpha/beta/rc tags.
-release = '4.0.x'
+release = '4.0'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -147,7 +147,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OSGeoLiveProjects'
+htmlhelp_basename = 'OSGeo-Live'
 
 
 # Options for LaTeX output

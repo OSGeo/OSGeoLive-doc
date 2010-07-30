@@ -7,6 +7,7 @@ Welcome to the OSGeo Live GIS disc
 ==================================
 
 .. toctree::
+   :maxdepth: 1
    :hidden:
 
 
