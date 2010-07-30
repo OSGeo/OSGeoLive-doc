@@ -5,10 +5,10 @@
 .. _52nWPS-overview:
 
 
-52°North WPS
-============
+52Â°North WPS
+=============
 
-52°North Web Processing Service (WPS). 
+52Â°North Web Processing Service (WPS). 
 In general, a WPS defines a standardized interface that facilitates the publishing of
 geospatial processes, and the discovery of and binding to those processes by clients. 
 Processes include any algorithm, calculation or model that operates on spatially referenced 
@@ -25,36 +25,36 @@ at the server.
 Core Features
 -------------
 
-This 52°North WPS implementation comes with a set of basic GIS function. In detail, the following 
+This 52Â°North WPS implementation comes with a set of basic GIS function. In detail, the following 
 functions are provided as standardized WPS processes:
 
-	*SimpleBufferAlgorithm
-	*DouglasPeuckerAlgorithm
-	*IntersectionAlgorithm
+	* SimpleBufferAlgorithm
+	* DouglasPeuckerAlgorithm
+	* IntersectionAlgorithm
 	
 In addition, several extensions can be enabled for the WPS. These extensions connect different 
 backends and allow the leveraging of the provided GIS functions from these backends over the
 standardized WPS interface. 
 We currently support:
 
-	*Sextante
-	*ArcGIS Server
+	* Sextante
+	* ArcGIS Server
 
 The WPS understands several input formats and can also output data in different formats
 as listed below:
 
 Vector Data
 ~~~~~~~~~~~
-	*GML2
-	*GML3
-	*ESRI SHP files
-	*KML
-	*WKT (Well-known Text)
+	* GML2
+	* GML3
+	* ESRI SHP files
+	* KML
+	* WKT (Well-known Text)
 	
 Raster Data
 ~~~~~~~~~~~
-	*Geotiff
-	*AsciiGrid
+	* Geotiff
+	* AsciiGrid
 
 A browser based demo client is also included with test request.
 This democlient (see screenshot below) has a predefined request which can be easily send to the server.
