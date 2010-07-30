@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _ossim-overview:
+.. _saga-overview:
 
 .. image:: images/project_logos/logo-saga.png
   :scale: 100 %
@@ -55,7 +55,7 @@ Core Features
 
 * Straightforward C++ API for creating new modules
 * Scripting through command line, bindings for python
-* SAGA can be accessed from the `R R_overview.rst`_ statistical language through the RSAGA module
+* SAGA can be accessed from the R statistical language through the RSAGA module
 
 Details
 -------
