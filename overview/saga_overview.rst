@@ -18,7 +18,7 @@ Desktop GIS
 ~~~~~~~~~~~
 
 SAGA (System for Automated Geoscientific Analyses) is an
-open source geographic information system used for editing and analysing
+open source geographic information system (GIS) used for editing and analysing
 spatial data. It includes a large number of modules for the analysis of
 vector (point, line and polygon), table, grid and image data. Among
 others the package includes modules for geostatistics, image
