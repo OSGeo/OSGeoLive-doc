@@ -94,11 +94,11 @@ defined in the rule file.
 
 Example:
 
-.. note:: (this requires approx. 1 GB free RAM and takes a few days to process
-the full city. A single village or suburb extract should be much more manageable.
-See `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ in the OSM Wiki for
-details on how to download smaller chunks into an ``.osm`` file, or use
-*JOSM* or *Merkaartor* to download a smaller chunk.)
+.. note:: This requires approx. 1 GB free RAM and takes a few days to process
+   the full city. A single village or suburb extract should be much more manageable.
+   See `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ in the OSM Wiki for
+   details on how to download smaller chunks into an ``.osm`` file, or use
+   *JOSM* or *Merkaartor* to download a smaller chunk.
 
 ::
 
