@@ -13,20 +13,46 @@
 ZOO Project
 ===========
 
-ZOO Project provides an OGC WPS compliant developer-friendly framework supporting many programming languages. Two demo applications using simple spatialtools Services Providers (a C shared library and a Python module) based on the GEOS and OGR Libraries.
-
 WPS Server
 ~~~~~~~~~~
 
-ZOO is a WPS (Web Processing Service) open source project released under a MIT/X-11 style license . It provides an OGC WPS compliant developer-friendly framework to create and chain WPS Web services. ZOO is made of three parts:
- 
-ZOO Kernel : A powerful server-side C Kernel which makes it possible to manage and chain Web services coded in different programming languages. 
-ZOO Services : A growing suite of example Web services based on various Open Source libraries. (get inspired !) 
-ZOO API : A server-side JavaScript API able to call and chain the ZOO Services, which makes the development and chaining processes easier. 
+ZOO Project provides an OGC WPS compliant developer-friendly framework
+supporting many programming languages. Two demo applications using simple
+spatialtools Services Providers (a C shared library and a Python module)
+based on the GEOS and OGR Libraries.
 
-ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core system (aka ZOO Kernel). The latter is able to load dynamic libraries and to handle them as on-demand Web services. The ZOO Kernel is written in C language, but supports several common programming languages in order to connect to numerous libraries and above all to simplify the Web service end-developer's job.
+ZOO is a WPS (Web Processing Service) open source project released under a
+MIT/X-11 style license. It provides an OGC WPS compliant
+developer-friendly framework to create and chain WPS Web services. ZOO is
+made of three parts:
 
-A ZOO service is a link composed of a metadata file (.zcfg) and the code for the corresponding implementation. The metadata file describes all the available functions which can be called using a WPS Exec Request, as well as the desired input/output. Services contain the algorithms and functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP and JavaScript. 
+.. image:: images/screenshots/1024x768/zoo-project-demo-2.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
+
+*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to
+manage and chain Web services coded in different programming languages. 
+
+*ZOO Services* : A growing suite of example Web services based on various
+Open Source libraries. (get inspired !) 
+
+*ZOO API* : A server-side JavaScript API able to call and chain the ZOO
+Services, which makes the development and chaining processes easier. 
+
+ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core
+system (aka ZOO Kernel). The latter is able to load dynamic libraries and
+to handle them as on-demand Web services. The ZOO Kernel is written in C
+language, but supports several common programming languages in order to
+connect to numerous libraries and above all to simplify the Web service
+end-developer's job.
+
+A ZOO service is a link composed of a metadata file (.zcfg) and the code
+for the corresponding implementation. The metadata file describes all the
+available functions which can be called using a WPS Exec Request, as well
+as the desired input/output. Services contain the algorithms and
+functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP
+and JavaScript. 
 
 Core Features
 -------------
