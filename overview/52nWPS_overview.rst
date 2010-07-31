@@ -4,6 +4,12 @@
 
 .. _52nWPS-overview:
 
+.. image:: images/project_logos/logo_52North_160.png
+  :scale: 100 %
+  :alt: project logo
+  :align: right
+  :target: http://52north.org/wps
+
 
 52°North WPS
 =============
@@ -59,12 +65,6 @@ Raster Data
 A browser based demo client is also included with test request.
 This democlient (see screenshot below) has a predefined request which can be easily send to the server.
 
-.. image:: images/project_logos/logo_52North_160.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  
- 
 
 Implemented Standards
 ---------------------
