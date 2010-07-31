@@ -21,12 +21,12 @@
 
 .. image:: images/project_logos/logo-OGC-left.png
   :scale: 100 %
-  :alt: project logo
+  :alt: OGC logo
   :align: right
 
 .. image:: images/project_logos/logo-OGC-right.png
   :scale: 100 %
-  :alt: project logo
+  :alt: OGC logo
   :align: right
 
 .. Writing Tip: Name of application
@@ -37,35 +37,23 @@ Web Map Service (WMS)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-A Web Map Service (WMS) provides ...
+The (OGC®) Web Map Service Interface Standard (WMS) is a portrayal service. It provides a simple HTTP interface for requesting geo-registered map images from one or more distributed geospatial databases. The response to the request is one or more geo-registered map images (returned as JPEG, PNG, etc) that can be displayed in a browser application. (http://www.opengeospatial.org/standards/wms) 
 
-.. Writing Tip:
-  If there is sufficient time, we should include a graphic which shows this
-  standard in contenxt with other standards. Otherwise, remove the following
-  image.
+.. image:: images/standards/wms.jpg
+  :scale: 25%
+  :alt: WMS in Context
 
-.. image:: images/screenshots/800x600/pgadmin.gif
-  :scale: 50%
-  :alt: project logo
-  :align: right
+The WMS standard defines three operations: 
 
-Background
-----------
+* GetCapabilities (required): Obtain service-level metadata, which is a machine-readable (and human-readable) description of the WMS's information content and acceptable request parameters. 
 
-.. Writing Tip:
-  If there is sufficient time, we should include a graphic which shows this
-  standard in contenxt with other standards.
+* GetMap (required): Obtain a map image whose geospatial and dimensional parameters are well defined. 
 
-Background information ...
+* GetFeatureInfo (optional): Ask for information about particular features shown on a map. 
 
-Versions
---------
+This standard is now implemented in hundreds of products, many of which are registered at (http://www.opengeospatial.org/resource/products/compliant).
 
-.. Writing Tip:
-  Discuss the differences between different versions
-
-* **1.0** This provides ...
-* **2.0** This additionally added ...
+An excellent example of a portal that uses WMS is NC OneMap (http://www.nconemap.com/): “NC OneMap relies on Web Map Services (WMS) to bring data together from multiple hosts. NC OneMap partners establish a WMS from their servers. This OGC standard allows data to be created and stored in numerous proprietary software configurations (ESRI, MapInfo, Intergraph, etc), but is viewable by all.” 
 
 See Also
 --------
@@ -73,4 +61,11 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-* **Web Feature Service (WFS)** returns vector information (lines and polygons)
+An OGC WMS Cookbook and other materials for developers can be found at http://www.opengeospatial.org/resource/cookbooks. 
+
+Other OGC portrayal service standards: 
+ 
+ KML
+ Symbology Encoding
+ Web Map Tile Service
+
