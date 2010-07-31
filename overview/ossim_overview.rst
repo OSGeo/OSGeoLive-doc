@@ -31,9 +31,9 @@ Designed as a series of high performance software libraries, it is written in C+
 Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution.
 
 .. image:: images/screenshots/800x600/ossim-imagelinker.jpg
-  :scale: 80 %
+  :scale: 40 %
   :alt: screenshot
-  :align: center
+  :align: right
 
 Core Features
 -------------
