@@ -20,8 +20,8 @@
 Mapbender
 =========
 
-About
-~~~~~
+Spatial Data Infrastructure Framework
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Mapbender <http://www.mapbender.org>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
 
