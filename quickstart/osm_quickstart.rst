@@ -92,10 +92,13 @@ defined in the rule file.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osmarender
 
-Example: (this requires approx. 1 GB free RAM and takes at least a day to process
+Example:
+
+.. note:: (this requires approx. 1 GB free RAM and takes a few days to process
 the full city. A single village or suburb extract should be much more manageable.
 See `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ in the OSM Wiki for
-details on how to download smaller chunks into an ``.osm`` file.)
+details on how to download smaller chunks into an ``.osm`` file, or use
+*JOSM* or *Merkaartor* to download a smaller chunk.)
 
 ::
 
@@ -107,7 +110,7 @@ You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
 
 ::
 
-  inkscape Barcelona.svg
+  firefox Barcelona.svg
 
 
 osm2pgsql
