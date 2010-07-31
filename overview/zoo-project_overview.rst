@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _mapguide-overview:
+.. _zoo-overview:
 
 .. image:: images/project_logos/logo-ZOO-Project.png
   :scale: 100 %
@@ -11,12 +11,12 @@
   :target: http://zoo-project.org/
 
 ZOO Project
-=========
+===========
 
 ZOO Project provides an OGC WPS compliant developer-friendly framework supporting many programming languages. Two demo applications using simple spatialtools Services Providers (a C shared library and a Python module) based on the GEOS and OGR Libraries.
 
 WPS Server
-~~~~~~~~~~~
+~~~~~~~~~~
 
 ZOO is a WPS (Web Processing Service) open source project released under a MIT/X-11 style license . It provides an OGC WPS compliant developer-friendly framework to create and chain WPS Web services. ZOO is made of three parts:
  
@@ -51,7 +51,7 @@ Demo
 Details
 -------
 
-**Website:** http://zoo-project.org/
+**Website:** http://zoo-project.org
 
 **Licence:** MIT x/11
 
