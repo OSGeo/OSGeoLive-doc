@@ -13,6 +13,7 @@ Welcome to the OSGeo Live GIS disc
 
    atlasstyler_overview
    deegree_overview
+   geokettle_overview
    geomajas_overview
    geonetwork_overview
    geopublisher_overview
