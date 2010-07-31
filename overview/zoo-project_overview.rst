@@ -4,8 +4,8 @@
 
 .. _zoo-overview:
 
-.. image:: images/project_logos/logo-ZOO-Project.png
-  :scale: 150 %
+.. image:: images/project_logos/logo-Zoo.png
+  :scale: 50 %
   :alt: project logo
   :align: right
   :target: http://zoo-project.org/
@@ -27,7 +27,7 @@ developer-friendly framework to create and chain WPS Web services. ZOO is
 made of three parts:
 
 .. image:: images/screenshots/1024x768/zoo-project-demo-2.png
-  :scale: 50 %
+  :scale: 40 %
   :alt: screenshot
   :align: right
 
