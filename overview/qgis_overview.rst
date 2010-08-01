@@ -58,25 +58,11 @@ Desktop GIS
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
   
-Quantum GIS (QGIS) is a user friendly Open Source Geographic Information
-System (GIS) licensed under the GNU General Public License. QGIS is an
-official project of the Open Source Geospatial Foundation  (OSGeo). It
-runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
-raster, and database formats and functionalities.
-
-Quantum GIS provides a continously growing number of capabilities provided
-by core functions and plugins. You can visualize, manage, edit, analyse
-data, and compose printable maps. Get a first impression with some
-screenshots and a more detailed feature list.
-
-Quantum GIS is a volunteer driven project. We welcome contributions from
-in the form of code contributions, bug fixes, bug reports, contributed
-documentation, advocacy and supporting other users on our mailing lists
-and the QGIS Forum. If you are interested in actively supporting the
-project, you can find more information under the development menu and on
-the QGIS Wiki. We also welcome financial contributions in the form of
-sponsoring and funding.
-
+Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
+you can visualize, manage, edit, analyse data, and compose printable maps.
+It includes powerful analytical functionality through integration with GRASS.
+It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
+raster and database formats and functionality.
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
@@ -94,15 +80,41 @@ sponsoring and funding.
 Core Features
 -------------
 
+* Friendly graphical user interface.
+
+    * identify/select features,
+    * edit/view/search attributes,
+    * on the fly projection,
+    * print composer,
+    * feature labeling,
+    * change vector and raster symbology,
+    * add a graticule layer,
+    * and more ...
+
 * Easy Viewing of many Vector and Raster Formats
-* Integration with online and database data sources
-* Digitizing, georeferencing, basic spatial processing and geospatial database querying
-* GPS upload/download
-* OpenStreetMap editing
-* Easily extendable via Python or C++ scripting
-* Completely customizable via C++ and Python API
-* Extensive plugin library downloadble within the QGIS
-* Advanced cartographic symbolisation and labelling
+
+    * PostgreSQL Database tables
+    * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML.
+    * raster formats such as digital elevation models, aerial photography or landsat imagery,
+    * GRASS locations and mapsets,
+    * online spatial data served as OGC-compliant WMS or WFS;
+
+* Create, edit and export spatial data using:
+
+    * digitizing tools for GRASS and shapefile formats,
+    * the georeferencer plugin,
+    * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit
+
+* Perform spatial analysis using fTools or GRASS plugins
+
+    * map algebra,
+    * terrain analysis,
+    * hydrologic modeling,
+    * network analysis,
+    * and many others
+
+* Publish to the internet
+* Extensible plugin architecture.
 
 .. Writing Tip:
   Optional: A second screenshot can sometimes be added here
