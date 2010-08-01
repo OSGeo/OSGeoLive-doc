@@ -23,9 +23,7 @@ OpenLayers
 Browser GIS Client
 ~~~~~~~~~~~~~~~~~~
 
-OpenLayers makes it easy for web developers to embed dynamic maps, from a multitude of sources, in any web page. OpenLayers provides an extensive list of mapping tools and widgets, similar to Google Maps. All functionally runs inside the web browser, which makes OpenLayers easy to install, without any server side dependencies.
-
-OpenLayers is renownd for its comprehensive testing and release cycles, ensuring stability across the hundreds of different browser versions.
+OpenLayers makes it easy for web developers to embed dynamic maps, from a multitude of sources, in any web page. OpenLayers provides an extensive set of mapping tools and widgets, similar to the Google Maps API. All functionally runs inside the web browser, which makes OpenLayers easy to install, without any server side dependencies.
 
 .. image:: images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
