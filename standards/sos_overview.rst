@@ -67,14 +67,9 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-* `Web Map Service <wms_overview.html>`_
-
-Other OGC data service standards: 
- Grid Coverage Service
- Sensor Planning Service
- Simple Features
- Web Feature Service
- Web Coverage Service
- Web Feature Service
- Coordinate Transformation Service
+* :doc:`wcs_overview`
+* :doc:`wfs_overview`
+* Grid Coverage Service
+* Sensor Planning Service
+* Coordinate Transformation Service
 

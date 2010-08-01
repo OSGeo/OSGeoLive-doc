@@ -58,6 +58,5 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-Cat: ebRIM App Profile: Earth Observation Products
-
-ISO 23950 (2003). "Information Retrieval (Z39.50): Application Service Definition and Protocol Specification"
+* Cat: ebRIM App Profile: Earth Observation Products
+* ISO 23950 (2003). "Information Retrieval (Z39.50): Application Service Definition and Protocol Specification"

@@ -60,11 +60,12 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-* `Web Map Service <wms_overview.html>`_
 * :doc:`wms_overview`
+* :doc:`wcs_overview`
 * Grid Coverage Service
-* Sensor Observation Service
-* Sensor Planning Service
-* Simple Features
-* Web Coverage Processing Service
-* Web Coverage Service
+* :doc:`sos_overview`
+* :doc:`gml_overview`
+* :doc:`kml_overview`
+* Styled Layer Descriptor (SLD)
+* Symbology Encoding
+* Filter Encoding

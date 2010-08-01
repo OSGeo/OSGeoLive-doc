@@ -53,10 +53,7 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-* `Web Map Service <wms_overview.html>`_
 * :doc:`wms_overview`
+* :doc:`wfs_overview`
 * Grid Coverage Service
-* Sensor Observation Service
-* Sensor Planning Service
-* Simple Features
-* Web Feature Service
+* :doc:`sos_overview`

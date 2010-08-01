@@ -67,8 +67,8 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-CityGML
- GeosciML
- GML in JPEG 2000
- Web Feature Service
-
+* CityGML
+* GeosciML
+* GML in JPEG 2000
+* :doc:`wfs_overview`
+* :doc:`kml_overview`

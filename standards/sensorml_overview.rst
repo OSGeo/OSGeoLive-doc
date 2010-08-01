@@ -63,7 +63,7 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
-Observations and Measurements
- Sensor Observation Service
- Sensor Planning Service
- Transducer Markup Language
+* :doc:`sos_overview`
+* Sensor Planning Service
+* Observations and Measurements
+* Transducer Markup Language

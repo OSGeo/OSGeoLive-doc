@@ -37,7 +37,7 @@ Web Map Service (WMS)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-The (OGC®) Web Map Service Interface Standard (WMS) is a portrayal service. It provides a simple HTTP interface for requesting geo-registered map images from one or more distributed geospatial databases. The response to the request is one or more geo-registered map images (returned as JPEG, PNG, etc) that can be displayed in a browser application. (http://www.opengeospatial.org/standards/wms) 
+The (OGC®) Web Map Service Interface Standard (WMS) provides a simple HTTP interface for requesting geo-registered map images from one or more distributed geospatial databases. The response to the request is one or more map images (returned as JPEG, PNG, etc) that can be displayed a browser and desktop applications. (http://www.opengeospatial.org/standards/wms) 
 
 .. image:: images/standards/wms.jpg
   :scale: 25%
@@ -65,7 +65,13 @@ An OGC WMS Cookbook and other materials for developers can be found at http://ww
 
 Other OGC portrayal service standards: 
  
- KML
- Symbology Encoding
- Web Map Tile Service
+
+* :doc:`wfs_overview`
+* :doc:`wcs_overview`
+* Web Map Tile Service
+* :doc:`gml_overview`
+* :doc:`kml_overview`
+* Styled Layer Descriptor (SLD)
+* Symbology Encoding
+* Filter Encoding
 

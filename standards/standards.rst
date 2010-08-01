@@ -6,20 +6,6 @@
 Open GeoSpatial Consortium Standards
 ====================================
 
-
-.. toctree::
-    :maxdepth: 1
-
-    wms_overview.rst
-    wfs_overview.rst
-    wcs_overview.rst
-    csw_overview.rst
-    sos_overview.rst
-    wps_overview.rst
-    gml_overview.rst
-    kml_overview.rst
-    sensorml_overview.rst
-
 Introduction
 ------------
 The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic information an integral part of the world’s information infrastructure. OGC members – technology providers and technology users -- collaboratively develop open interface standards and associated encoding standards, and also best practices, that enable developers to create information systems that can easily exchange “geospatial” information and instructions with other information systems. Requirements range from complex scheduling and control of Earth observation satellites to displaying simple map images on the Web and encoding location in just a few bytes for geo-tagging and messaging. A look at the OGC Domain Working Groups (http://www.opengeospatial.org/projects/groups/wg) shows the wide scope of current activity in the OGC.
@@ -44,20 +30,67 @@ Most of the OGC standards developed in recent years are standards for the Web se
 
 Acronyms in the figure are defined below. Some of these are “OGC standards” and others are publicly available “Discussion Papers”, “Requests” and “Recommendation Papers”. (Note that some in work candidate standards are not yet public, but are accessible by OGC members.) 
 
-* GML – Geography Markup Language (http://www.opengeospatial.org/standards/gml) 
-* SensorML – Sensor Model Language (http://www.opengeospatial.org/standards/sensorml) 
-* SLD – Styled Layer Descriptor (http://www.opengeospatial.org/standards/sfc) 
-* SF – Simple Features (http://www.opengeospatial.org/standards/sfa) 
-* SWE – Sensor Web Enablement (http://www.opengeospatial.org/ogc/markets-technologies/swe)
-* WCS – Web Coverage Service (http://www.opengeospatial.org/standards/wcs)
-* WFS – Web Feature Service (http://www.opengeospatial.org/standards/wfs)
-* WPS – Web Processing Service (http://www.opengeospatial.org/standards/wps)
-* WMS – Web Map Service Interface (http://www.opengeospatial.org/standards/wms)
-* WTS – Web Terrain Service (http://portal.opengeospatial.org/files/?artifact_id=1072)
-* XIMA – XML for Image and Map Annotation (http://portal.opengeospatial.org/files/?artifact_id=1020) 
+* :doc:`wms_overview`
+* :doc:`wfs_overview`
+* :doc:`wcs_overview`
+* :doc:`wps_overview`
+* :doc:`csw_overview`
+* :doc:`sos_overview`
+* Sensor Model Language (SensorML)
+* Sensor Planning Service (SPS)
+* Web Terrain Service (WTS)
+* Grid Coverage Service
+* Coordinate Transformation Service
+* Web Coverage Processing Service (WCPS)
+* Web Map Tile Service (WMTS)
+* :doc:`gml_overview`
+* :doc:`kml_overview`
+* :doc:`sensorml_overview`
+* Styled Layer Descriptor (SLD)
+* Filter Encoding
+* Simple Features (SF)
+* Sensor Web Enablement (SWE)
+* XML for Image and Map Annotation (XIMA)
+* CityGML
+* GeosciML
+* GML in JPEG 2000
+* Observations and Measurements (O&M)
+* Symbology Encoding
+* Transducer Markup Language (TML)
+
+
+.. links to standards
+  * :doc:`wms_overview` (http://www.opengeospatial.org/standards/wms)
+  * :doc:`wfs_overview` (http://www.opengeospatial.org/standards/wfs)
+  * :doc:`wcs_overview` (http://www.opengeospatial.org/standards/wcs)
+  * :doc:`wps_overview` (http://www.opengeospatial.org/standards/wps)
+  * :doc:`csw_overview` (http://www.opengeospatial.org/standards/specifications/catalog)
+  * :doc:`sos_overview` (http://www.opengeospatial.org/standards/sos)
+  * Sensor Model Language (SensorML) (http://www.opengeospatial.org/standards/sensorml) 
+  * Sensor Planning Service (SPS) (http://www.opengeospatial.org/standards/sps)
+  * Web Terrain Service (WTS) (http://portal.opengeospatial.org/files/?artifact_id=1072)
+  * Grid Coverage Service (http://www.opengeospatial.org/standards/gc)
+  * Coordinate Transformation Service (http://www.opengeospatial.org/standards/ct)
+  * Web Coverage Processing Service (WCPS) (http://www.opengeospatial.org/standards/wcps)
+  * Web Map Tile Service (WMTS) (http://www.opengeospatial.org/standards/wmts)
+  * :doc:`gml_overview` (http://www.opengeospatial.org/standards/gml) 
+  * :doc:`kml_overview` (http://www.opengeospatial.org/standards/kml)
+  * :doc:`sensorml_overview` (http://www.opengeospatial.org/standards/sensorml)
+  * Styled Layer Descriptor (SLD) (http://www.opengeospatial.org/standards/sfc) 
+  * Filter Encoding (http://www.opengeospatial.org/standards/filter)
+  * Simple Features (SF) (http://www.opengeospatial.org/standards/sfa) 
+  * Sensor Web Enablement (SWE) (http://www.opengeospatial.org/ogc/markets-technologies/swe)
+  * XML for Image and Map Annotation (XIMA) (http://portal.opengeospatial.org/files/?artifact_id=1020) 
+  * CityGML (http://www.opengeospatial.org/standards/citygml)
+  * GeosciML (http://www.geosciml.org/)
+  * GML in JPEG 2000 (http://www.opengeospatial.org/standards/gmljp2)
+  * Observations and Measurements (O&M) (http://www.opengeospatial.org/standards/om)
+  * Symbology Encoding (http://www.opengeospatial.org/standards/symbol)
+  * Transducer Markup Language (TML) (http://www.opengeospatial.org/standards/tml)
 
 See Also:
 ---------
 
+* Comprehensive list of OGC standards: http://www.opengeospatial.org/standards/
 * OGC tutorials presented at IGARSS 2010: http://www.ogcnetwork.net/node/1481 
 * OGC Network Learn pages (http://www.ogcnetwork.net/learn).

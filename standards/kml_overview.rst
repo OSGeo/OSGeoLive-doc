@@ -60,3 +60,5 @@ See Also
 .. Writing Tip:
   Describe Similar standard
 
+* :doc:`gml_overview`
+* :doc:`wfs_overview`

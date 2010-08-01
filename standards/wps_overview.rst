@@ -53,11 +53,10 @@ See Also
 
 Other OGC data service standards: 
 
-Web Map Service
-Grid Coverage Service
-Sensor Observation Service
-Sensor Planning Service
-Simple Features
-Web Coverage Processing Service
-Web Coverage Service
-
+* Web Coverage Processing Service
+* Sensor Planning Service
+* :doc:`wcs_overview`
+* :doc:`wms_overview`
+* :doc:`wfs_overview`
+* Grid Coverage Service
+* :doc:`sos_overview`
