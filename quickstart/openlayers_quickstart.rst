@@ -60,10 +60,10 @@ an example provided by MetaCarta.
 
   var wms = new OpenLayers.Layer.WMS(
     "WMS",
-    "http://localhost/cgi-bin/mapserv", 
+    "http://localhost/cgi-bin/qgis_mapserv.fcgi", 
     {
-    'map': '/path/to/mapfile.map',
-    'layers':'basic'} );
+    'map': '/usr/local/share/qgis/QGIS-NaturalEarth-Example.qgs',
+    'layers':'HYP_50M_SR_W,10m_lakes,10m_rivers_lake_centerline'} );
   map.addLayer(wms);
 
 **Ex. 3:** Layer Constructor
@@ -97,10 +97,10 @@ OpenLayers viewer.
           var map = new OpenLayers.Map('map');
           var wms = new OpenLayers.Layer.WMS(
             "WMS",
-            "http://localhost/cgi-bin/mapserv", 
+            "http://localhost/cgi-bin/qgis_mapserv.fcgi", 
             {
-            'map': '/path/to/mapfile.map',
-            'layers':'basic'} );
+            'map': '/usr/local/share/qgis/QGIS-NaturalEarth-Example.qgs',
+            'layers':'HYP_50M_SR_W,10m_lakes,10m_rivers_lake_centerline'} );
           map.addLayer(wms);
           map.zoomToMaxExtent();
         </script>
