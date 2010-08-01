@@ -19,8 +19,9 @@ Spatial Database
 
 SpatiaLite is an SQLite_ database engine with spatial functions added. 
 
-SQLite is a popular DBMS, simple, robust, easy to use and really lightweight each SQLite database is simply a file; you can freely copy it, compress it, send it on a LAN or WEB with no complication at all.
-They are also portables; the same database file will work on Windows, Linux, MacOs etc.
+SQLite is a popular DBMS, simple, robust, easy to use and really lightweight. Each SQLite database is simply a file; you can freely copy it, compress it, send it on a LAN or WEB with no complication at all.
+
+The files are also portable; the same database file will work on Windows, Linux, MacOs etc.
 
 .. _SQLite: http://www.sqlite.org/
 
@@ -38,7 +39,7 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 * Implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
 * The complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
 * Supports full Spatial metadata along the OpenGis specifications
-* Supports importing and exporting from / to shapefiles
+* Supports importing and exporting to shapefiles
 * Supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
 * Supports locale charsets via GNU libiconv
 * Implements a true Spatial Index based on the SQLite's RTree extension
