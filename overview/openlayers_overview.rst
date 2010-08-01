@@ -45,40 +45,19 @@ Core Features
   
   * Commercial Layers:
     
-    * Google 
-    * Bing
-    * Yahoo
+    * Google, Bing, Yahoo
   
   * OGC Standards: 
     
-    * WMS
-    * WMTS
-    * WFS 
-    * WFS-T 
-    * GeoRSS
-    * GML
+    * WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
   * Others: 
     
-    * ArcGIS
-    * Images
-    * MapGuide
-    * MapServer
-    * TileCache
-
+    * ArcGI, Images, MapGuide, MapServer, TileCache
 
 * Ability to parse vector data and metadata in many formats:
   
-  * Atom
-  * ArcXML
-  * GeoJSON
-  * GeoRSS
-  * KML
-  * OSM
-  * SLD
-  * WMTS
-
-
+  * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
 Details
 -------
