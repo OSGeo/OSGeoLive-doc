@@ -17,8 +17,7 @@ osgEarth
 Terrain rendering toolkit
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_.
-Just create a simple XML file, point it at your imagery, elevation, and vector data, load it into your favorite OSG application, and go!
+osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_ (OSG), an open source, high performance, 3D graphics toolkit.  Just create a simple XML file, point it at your imagery, elevation, and vector data, load it into your favorite OSG application, and go!
 osgEarth supports all kinds of data and comes with lots of examples to help you get up and running quickly and easily. 
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
@@ -51,7 +50,7 @@ But osgEarth does more than just render terrain:
 
 Things you can see:
 
-* GeoTIFF imagery and DEM files (plus lots of other formats) 
+* GeoTIFF imagery and Digital Elevation Model (DEM) files (plus lots of other formats) 
 * Vector data like ESRI shapefiles 
 * OGC-compliant web mapping data (like WMS_) 
 * GIS layers published with MapServer_ or `ESRI ArcGIS Server`_
