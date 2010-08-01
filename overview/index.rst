@@ -43,6 +43,7 @@ Welcome to the OSGeo Live GIS disc
    sahana_overview
    spatialite_overview
    ushahidi_overview
+   udig_overview
    viking_overview
    zygrib_overview
    52nWPS_overview
