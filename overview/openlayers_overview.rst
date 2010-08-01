@@ -33,19 +33,47 @@ OpenLayers makes it easy for web developers to embed dynamic maps, from a multit
 Core Features
 -------------
 
-* Loads map layers from many sources:
+* Simple to use Javascript API, designed to make development easy
+* Support for standard and customized protocols for interacting with servers
+* Tools to create custom user interfaces simply
+* Ability to load map layers from many sources:
+  
+  * Commercial Layers:
+    
+    * Google 
+    * Bing
+    * Yahoo
+  
+  * OGC Standards: 
+    
+    * WMS
+    * WMTS
+    * WFS 
+    * WFS-T 
+    * GeoRSS
+    * GML
+  
+  * Others: 
+    
+    * ArcGIS
+    * Images
+    * MapGuide
+    * MapServer
+    * TileCache
 
-  * Google, Bing, Yahoo
-  * WMST, WFS, WFS-T WMS, GeoRSS, GML
-  * ArcGIS, Images, MapGuide, MapServer, TileCache, VirtualEarth, WorldWind,
 
-* Tools 
+* Ability to parse vector data and metadata in many formats:
+  
+  * Atom
+  * ArcXML
+  * GeoJSON
+  * GeoRSS
+  * KML
+  * OSM
+  * SLD
+  * WMTS
 
-  * Pan, Zoom, Draw, Edit, Save, ...
 
-* Popups
-* Markers
-* Reprojections
 
 Details
 -------
