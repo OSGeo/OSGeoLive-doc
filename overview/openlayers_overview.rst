@@ -43,17 +43,11 @@ Core Features
 * Support for in-browser data rendering (using SVG, VML, or Canvas technologies), supporting the development of advanced in-browser maps
 * Ability to load map layers from many sources:
   
-  * Commercial Layers:
-    
-    * Google, Bing, Yahoo
+  * Commercial Layers: Google, Bing, Yahoo
   
-  * OGC Standards: 
-    
-    * WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Others: 
-    
-    * ArcGI, Images, MapGuide, MapServer, TileCache
+  * Others: ArcGI, Images, MapGuide, MapServer, TileCache
 
 * Ability to parse vector data and metadata in many formats:
   
