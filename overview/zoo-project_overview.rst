@@ -16,15 +16,12 @@ ZOO Project
 WPS Server
 ~~~~~~~~~~
 
-ZOO Project provides an OGC WPS compliant developer-friendly framework
-supporting many programming languages. Two demo applications using simple
+ZOO Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
+It supports many programming languages and comes with two demo applications using simple
 spatialtools Services Providers (a C shared library and a Python module)
 based on the GEOS and OGR Libraries.
 
-ZOO is a WPS (Web Processing Service) open source project released under a
-MIT/X-11 style license. It provides an OGC WPS compliant
-developer-friendly framework to create and chain WPS Web services. ZOO is
-made of three parts:
+ZOO is made of three parts:
 
 .. image:: images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
@@ -35,7 +32,7 @@ made of three parts:
 manage and chain Web services coded in different programming languages. 
 
 *ZOO Services* : A growing suite of example Web services based on various
-Open Source libraries. (get inspired !) 
+Open Source libraries.
 
 *ZOO API* : A server-side JavaScript API able to call and chain the ZOO
 Services, which makes the development and chaining processes easier. 
