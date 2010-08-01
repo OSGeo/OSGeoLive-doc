@@ -51,13 +51,13 @@ Business Intelligence
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
 
-GeoKettle is a "spatially-enabled" version of Pentaho Data Integration (Kettle). It is then a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses.
+GeoKettle is a "spatially-enabled" version of `Pentaho Data Integration (Kettle)<http://www.pentaho.com/products/data_integration/>`_. It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses.
 
-GeoKettle enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, ... and the Loading of transformed data into a target DBMS, GIS file, geospatial web service.
+GeoKettle enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, and the Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service.
 
-GeoKettle is particularly useful when a user wants to automate complex and repetitive data processing without producing any specific code, to make some conversions between various data formats, to migrate data from a DBMS to another, to perform some data feeding tasks into various DBMS, to populate analytical data warehouses for decision support purposes, etc.
+GeoKettle is particularly useful when a user wants to automate complex and repetitive data processing without producing any specific code, to make conversions between various data formats, to migrate data from one DBMS to another, to perform some data feeding tasks into various DBMS, to populate analytical data warehouses for decision support purposes, etc.
 
-In the geospatial domain, Geokettle compares to FME a proprietary spatial ETL tool edited by Safe Software. GeoKettle is stable, fast, standards compliant, with hundreds of functions and the read/write support for many file formats, services and DBMS. GeoKettle is used by diverse organisations from around the world, including governmental agencies, banks, insurance and geospatial system integrators.
+In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL tool edited by Safe Software. GeoKettle is stable, fast, standards compliant, with hundreds of functions and read/write support for many file formats, services and DBMS. GeoKettle is used by diverse organisations from around the world, including governmental agencies, banks, insurance and geospatial system integrators.
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
