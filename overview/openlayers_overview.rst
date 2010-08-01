@@ -20,30 +20,34 @@
 OpenLayers
 ==========
 
-Web map engine
-~~~~~~~~~~~~~~
+Browser GIS Client
+~~~~~~~~~~~~~~~~~~
 
-OpenLayers makes it easy to put a dynamic map in any web page. It can display
-map tiles and markers loaded from any source. OpenLayers is a pure JavaScript
-library for displaying map data in most modern web browsers, with no
-server-side dependencies. OpenLayers implements a JavaScript API for building
-rich web-based geographic applications, similar to the Google Maps API.
+OpenLayers makes it easy for web developers to embed dynamic maps, from a multitue of sources, in any web page. OpenLayers provides an extensive list of mapping tools and widgets, similar to Google Maps. All functionaly runs inside the web browser, which makes OpenLayers easy to install, without any server side dependencies.
+
+OpenLayers is renound for its comprehensive testing and release cycles, ensuring stability across the hundreds of different browser versions.
 
 .. image:: images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
   :alt: screenshot
   :align: right
 
-Furthermore, OpenLayers implements industry-standard methods for geographic
-data access, such as the OpenGIS Consortium's Web Mapping Service (WMS) and Web
-Feature Service (WFS) protocols. Under the hood, OpenLayers is written in
-object-oriented JavaScript.
+Core Features
+-------------
 
-As a framework, OpenLayers is intended to separate map tools from map data so
-that all the tools can operate on all the data sources. This separation breaks
-the proprietary silos that earlier GIS revolutions have taught civilization to
-avoid. The mapping revolution on the public Web should benefit from the
-experience of history.
+* Loads map layers from many sources:
+
+  * Google, Bing, Yahoo
+  * WMST, WFS, WFS-T WMS, GeoRSS, GML
+  * ArcGIS, Images, MapGuide, MapServer, TileCache, VirtualEarth, WorldWind,
+
+* Tools 
+
+  * Pan, Zoom, Draw, Edit, Save, ...
+
+* Popups
+* Markers
+* Reprojections
 
 Details
 -------
