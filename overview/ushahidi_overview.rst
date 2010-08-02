@@ -20,7 +20,7 @@ Web Service
 The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
 platform that allows anyone to gather distributed data via SMS, email or 
 web and visualize it on a map or timeline. Our goal is to create tools for 
-democratizing information, increasing transparency and lowering the barries 
+democratizing information, increasing transparency and lowering the barriers 
 for individuals to share their stories.
 
 .. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
