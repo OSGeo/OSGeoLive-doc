@@ -19,7 +19,7 @@ GPS Navigation Software
 
 `GpsDrive <http://www.gpsdrive.de>`_ is a car (bike, ship, plane, foot)
 navigation system. GpsDrive displays your position provided from a GPS
-on a zoomable map, the map file is autoselected depending on your position
+on a zoomable map. The map file is auto-selected depending on your position
 and preferred map scale.  All GPS receivers which support the NMEA protocol
 should be usable, as well as many USB GPSs using a binary protocol known to
 the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
