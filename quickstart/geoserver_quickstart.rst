@@ -55,7 +55,6 @@
     images/project_logos/logos-<application>.png
 
 .. image:: images/project_logos/logo-GeoServer.png
-  :scale: 60 %
   :alt: project logo
   :align: right
 
@@ -107,7 +106,7 @@ Start |GS|
     images/screenshots/1024x768/<application>_<screen_description>.png
 
 .. image:: images/screenshots/800x600/GeoServer-login.png
-    :scale: 25 
+    :width: 90 %
     :align: left
 
 
@@ -116,244 +115,155 @@ First Views
 
 #. When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
 
-.. image:: images/screenshots/800x600/GeoServer-welcome.png
-    :scale: 25
-    :align: left
+    .. image:: images/screenshots/800x600/GeoServer-welcome.png
+        :width: 90%
+        :align: left
 
-#. The **Layer Preview** link at the bottom of the left hand menu
-    allows you to see a preview of the layers that are loaded on the
-    server. 
+#. The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
   
-.. image:: images/screenshots/800x600/GeoServer-layerpreview.png
-    :scale: 25
-    :align: left
+    .. image:: images/screenshots/800x600/GeoServer-layerpreview.png
+        :width: 90%
+        :align: left
 
-#. Scroll to the bottom of the page and click on the **OpenLayers**
-    link in the **tiger-ny** row, this will open a new window with a
-    preview of some of the sample data. 
+#. Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
-.. image:: images/screenshots/800x600/GeoServer-preview.png
-    :scale: 25
-    :align: left
+    .. image:: images/screenshots/800x600/GeoServer-preview.png
+        :width: 90%
+        :align: left
+    
+    You can zoom in to the map in three ways:
 
+        * by clicking on the zoom bar on the left, the higher you click on it the more zoomed in you will see.
 
-Workbench
-=========
+        * by using the mouse scroll wheel (if you have one), scrolling up will zoom in and down will zoom out.
 
-The Workbench window offers multiple Editors (each showing a Map) and supporting Views (offering
-information about the current Map).
+        * by dragging a box on the map while holding down the :kbd:`shift key` - this will zoom in to the box selected (or as near as will fit in the screen).
 
-  .. image:: images/screenshots/800x600/udig_workbench.png
+#. Experiment with this view and look at some of the other previews.  Once you are happy with looking at data you can move on to adding some new data.
 
-Shown above is a typical uDig session with the Map editor, Projects view, Layers view and Catalog
-view labelled . These views will be described further as we demonstrate their use.
+Loading Data
+============
+In this example we are going to use the `Natural Earth data set <http://naturalearthdata.com>`_ that is included on the Live-DVD (:file:`/usr/local/share/data/natural_earth/`).
 
-Files
-=====
+Styling
+-------
 
-To start out with we are going to load some of the sample data you downloaded earlier.
+To style a data set into a map layer |GS| uses an OGC standard called
+Styled Layer Descriptors (SLD). These are represented as XML files
+which describe the rules that are used to apply various symbolizers to
+the data.
 
-#. Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add Data** wizard
+To get started I styled the Land and Ocean datasets from the Natural Earth data (in :file:`/usr/local/share/data/natural_earth/`). 
+You can create SLD files using a simple text editor, but
+sometimes a graphical editor is better. There are several options here
+but I like to use |UG| (http://udig.refractions.net/) as it allows me
+to open the shapefiles directly and apply simple styles using a
+GUI, but also provides a simple editor to modify the XML if I need to. 
 
-#. Select **Files** from the list of data sources
+Using |UG| to create simple styles
+``````````````````````````````````
 
-#. Press :guilabel:`Next` to open up a file dialog
+Once I opened |UG| up and added the shapefiles (using the
+add data button in the top left hand corner). I dragged the 10m_land
+and 10m_ocean tables into the map window. |UG| automatically applies
+a style (so you can see the data).
 
-#. Select the following file from your data folder:
-   
-   * countries.shp
-   
-#. Press :guilabel:`Open`
-   
-   * A new Map editor will be opened based on the contents of your shapefile. The default name and
-     projection of the Map has been taken from your shapefile.
-   
-   * You can see the **Catalog view** has been updated with an entry for :file:`countries.shp`. This
-     view is used to track the use of resources by the uDig application.
-   
-   * The **Layers** view shows a single layer is displayed on this map. This view is used to change
-     the order and appearance of information in your Map.
-   
-   * The **Projects** view has been updated to show that your map is stored in projects > countries.
-     You can have multiple projects open at a time, each project can have several maps.
+.. figure:: images/screenshots/800x600/udig_startup.png
+   :align: center
+   :width: 90%
 
-#. Open up your data folder on the desktop
+   *Default Styling in UDig*
 
-#. Drag :file:`clouds.jpg` onto the Map Editor, a new layer is added to to the map.\
+Now obviously an orange ocean will not work (even if I could live
+with the green land). So in the `Layer list`_ select the style
+button (it looks like an artist's palette). 
 
-#. You can see the order the layers are drawn in the layer view. Right now the clouds.jpg layer is drawn
-   ontop of the countries layer.
+.. figure:: images/screenshots/800x600/layer-chooser.png
+   :align: center
 
-#. Select the clouds.jpg layer in the catalog view and drag it to the bottom of the list
-  
-  .. image:: images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+   The _`Layer list` window
 
-.. Writing Tip:
-  Notes are used to provide descriptions and background information without
-  getting in the way of instructions. Notes will likely be rendered in
-  the margin in some printed formats.
 
-.. note::
-   One of the most common questions asked when uDig is considered for an organization is how much memory
-   the application uses. Unlike most GIS applications uDig can get by with a fixed amount of memory. The
-   above shapefile is not loaded into memory, we have a policy of keeping data on disk and drawing data
-   like this shapefile onto the screen as needed.
+This will open the `Style Pane`_ - in the simple window I can easily
+select a nice blue for the oceans by clicking on the colored box by
+the fill label and choosing from the color picker it produces. I also
+increased the opacity of the fill to 100% to make the color look
+better. 
 
-.. Writing Tip:
-  Tips are used to provide extra useful information, and will 
-  likely be rendered in the margin in some printed formats.
+.. figure:: images/screenshots/800x600/style-pane.png
+   :align: center
 
-.. tip:: You can also drag and drop shapefiles directly into the uDig application!
+   The _`Style Pane` 
 
-Map
-===
 
-You can control where in the world the Map Editor is looking by using the navigation tools in the tool bar along the top of the screen.
+I also turned the line (or stroke) off by unchecking the box
+by ``line``. Once I was done I clicked ``OK`` and |UG| showed me the
+changes. 
 
 
-#. The |ZOOM| Zoom tool is available by default
-   
-   .. |ZOOM| image:: images/screenshots/800x600/udig_zoom_mode.gif
-   
-   * Use the zoom tool by drawing a box using the left mouse button around the area of the wold you wish
-     to see.
-   * To zoom out draw a box with the right mouse button. The current map extents will be located within
-     the box you draw.
+.. figure:: images/screenshots/800x600/blue-ocean.png
+   :align: center
+   :width: 90%
 
-#. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
-  
-   .. |PAN| image:: images/screenshots/800x600/udig_pan_mode.gif
+   *Blue Oceans*
 
-#. There are also several navigation buttons that can be used at any time:
- 
-   * |SHOWALL| Show All, can be used to return to the full extents at any time
-   
-     .. |SHOWALL| image:: images/screenshots/800x600/udig_zoom_extent_co.gif
+Finally I prefer a more understated land color than green [#fn1]_ so
+I repeated the steps above to change the color of the land layer.
+None of the default colors seemed right to me so I went into the
+``define custom colors`` section to create one I liked.
 
-   * |ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by a fixed amount.
+.. figure:: images/screenshots/800x600/custom-colour.png
+   :align: center
 
-     .. |ZOOM_IN| image:: images/screenshots/800x600/udig_zoom_in_co.gif
-     .. |ZOOM_OUT| image:: images/screenshots/800x600/udig_zoom_out_co.gif
+   *Defining a nicer land color*
 
-   * You can use Navigation > Back and Navigation > Forward in the menu bar to cycle though previously
-     visited locations.
+This gives me a nice looking basic world map
 
-.. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
-   scroll wheel.
-
-Web Map Server
-==============
-One of the reasons to use an application like uDig is to access all the great free geospatial information available on the web. This section covers the use of Web Map Servers which make available layers of information that you can mix into your own maps.
-
-.. tip:: You can also connect to Web Map Servers using the Add Data Wizard
-  for Drag and Drop.
-
-#. Select :menuselection:`File --> New --> New Map` from the menu bar
-
-#. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
-   
-  .. image:: images/screenshots/800x600/udig_WebViewClick.png
-    :scale: 70 %
-
-#. Click on the link *WMS:dm solutions* link
-
-#. From the Resource Selection page we are going to choose the following layers:
-
-   * Elevation/Bathymetry
-   * Parks
-   * Cities
-   
-.. image:: images/screenshots/800x600/udig_AddWMSLayers.png
-  :scale: 70 %
-
-#. Press :guilabel:`Finish` to add these layers to your map
-   
-.. image:: images/screenshots/800x600/udig_WMSMap.png
-  
-#. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
-
-#. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
-   
-.. |INFO| image:: images/screenshots/800x600/udig_info_mode.gif
-
-Tip: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
-
-Style
-=====
-
-#. Select the project > countries, you can double click to open this Map, or Right Click and choose Open Map
-
-#. Select the countries layer in the Layer view
-
-#. Open up the Style Editor by right clicking on countries layer and choosing Change Style
-
-#. We are going to change a few things about how countries are displayed
-   
-   * Line: Click on the Color and change the color to BLACK
-   
-   * Fill: uncheck the box to turn off fill
-   
-   * Label: check the box, and choose CNTRY_NAME from the list of attributes
-   
-   .. image:: images/screenshots/800x600/udig_StyleEditor.png
-      :scale: 70 %
-
-#. Press :guilabel:`Apply` to see what this looks like on your Map, the **Layer** view will also be updated
-   to reflect the current style
-
-#. When you are happy with the result you can press :guilabel:`Close` to dismiss the dialog
-
-#. Some files include style settings, Select :menuselection:`Layer --> Add` from the menu bar
-
-#. Select **Files** from the list of data sources and press :guilabel:`Next`
-
-#. Using the file chooser open up **timezone.shp** and press :guilabel:`Open`
-
-#. It is a bit hard to see what is going on with the clouds.jpg layer providing so much details.
-   Select :menuselection:`Map --> Mylar` from the menu bar to focus on the selected layer
-
-#. Using the *Layer* view select timezone, countries and clouds.jpg in turn to see the effect
-  
-.. image:: images/screenshots/800x600/udig_MapMylar.jpg
-
-#. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar
-
-.. Writing tip
-  The final heading should provide pointers to further tutorials,
-  documentation or further things to try.
-  Present a list of ideas for people to try out. Start off very specific
-  with something most people can do based on the materials as presented.
-  Continue on with a challenge that involves a small bit of research (it
-  is recommended that research be limited to something that can be
-  found in documentation packaged on OSGeo Live, as users might not be
-  connected to the internet.
-
-Things to Try
-=============
-
-Here are some additional challenges for you to try:
-
-#. Try viewing your own GIS map layers, or try adding a layer from a Web Feature Service (WFS).
-#. Try styling the WFS layer.
-
-What Next?
-==========
-
-.. Writing tip
-  Provide links to further tutorials and other documentation.
-
-This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
-
-* Walkthrough 1
-
-  Try out the use of PostGIS, extract data from a Web Feature Server and explore the
-  use of Themes with our powerful Color Brewer technology.
-
-  :file:`/usr/data/udig/udig-docs/uDigWalkthrough 1.pdf`
-
-* Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to manipulate
-  feature data, covers the installation of GeoServer and editing with a Web Feature
-  Server.
-
-  Available on http://udig.refractions.net/
+.. figure:: images/screenshots/800x600/basic-world.png
+   :align: center
+   :width: 90%
+
+   *A basic word map*
+
+Adding the Style to |GS|
+````````````````````````
+
+Now I need to transfer these styles to |GS| - on the style window
+there is an export button which allows me to save the SLD file that
+defines my style. Once I've saved the two styles I can go to the |GS|
+admin page again and select ``Styles`` (at the bottom of the ``Data``
+section). Then I select the ``Add New Style`` link, at the bottom of
+that page is a file upload box and a browse button. Clicking this
+allows me to hunt around on my hard drive to find the files I just
+saved. Once I've found one I want, I click the upload link (next to the browse
+button) and a copy of my file appears in the editor. 
+
+.. figure:: images/screenshots/800x600/add-style.png
+   :align: center
+   :width: 90%
+
+   *Adding a Style to GeoServer*
+
+
+Adding the data store to |GS|
+------------------------------
+
+Now that I have some styles available we can actually the shapefiles 
+to |GS|. Going to the :menuselection:`Data->Layers` page gives me the
+option to :menuselection:`add a new resource`. Selecting that presents a drop down
+list of data stores, select the store added above and it will show you
+a list of the available layers in that store. Click on the ``publish``
+link next to the one we want (``10m_oceans``). 
+
+|GS| will recognize the projection of the data but you
+need to click on the ``compute from data`` link under the bounding
+boxes [#fn3]_. Make sure to click on the ``publish`` tab to set the
+style to the one you have just uploaded.
+
+.. Rubric:: Footnotes
+.. [#fn1] If you lived in central Pennsylvania in the summer you
+   wouldn't expect green either.
+.. [#fn3] in this case the figures will be the same as our data is in
+   lat/lon anyway. If the data was projected then they would be
+   different.
 
