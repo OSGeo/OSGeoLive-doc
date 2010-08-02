@@ -9,12 +9,8 @@ Welcome to OSGeo-Live's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :glob:
+   :titlesonly:
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   *
 
