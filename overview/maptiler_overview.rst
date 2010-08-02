@@ -17,11 +17,11 @@ MapTiler
 User-friendly map publishing with tiles
 ---------------------------------------
 
-MapTiler is a desktop application for rapid raster map publishing in web 2.0 style. Your geodata are transformed to tiles compatible with Google Maps  and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
+MapTiler is a desktop application for the creation of fast raster map publishing. Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
 
-No extensive configuration on the server side is necessary, any simple hosting of files is fine. The dynamic interaction such as panning and zooming, overlay of markers and vector data and all functionality what JavaScript APIs offer is available.
+No extensive configuration on the server side is necessary, any simple file hosting is fine. Dynamic interaction such as panning and zooming, overlay of markers and vector data is provided by powerfuil browser functionality.
 
-The application directly generates a ready to use simple viewers based on OpenLayers and Google Maps API, which can be easily customized according the needs for the final web presentation.
+The application directly generates a ready to use simple viewer based on OpenLayers and Google Maps API and can be easily customized.
 
 MapTiler is a multi-platform desktop application. Installers are available for Windows, Mac OS X and packages for linux (Debian/Ubuntu).
 
