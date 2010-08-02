@@ -28,6 +28,17 @@ for individuals to share their stories.
   :alt: screenshot
   :align: right
 
+Ushahidi, which means "testimony" in Swahili, was initially developed to
+map reports of violence in Kenya after the post-election fallout at the
+beginning of 2008. Ushahidi's roots are in the collaboration of Kenyan
+citizen journalists during a time of crisis. The website was used to map
+incidents of violence and peace efforts throughout the country based on
+reports submitted via the web and mobile phone. This initial deployment of
+Ushahidi had 45,000 users in Kenya, and was the catalyst for us realizing
+there was a need for a platform based on it, which could be use by others
+around the world.
+
+
 Core Features
 -------------
 * Interactive map.
