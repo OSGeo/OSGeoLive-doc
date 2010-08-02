@@ -17,6 +17,7 @@ Welcome to the OSGeo Live GIS disc
    geomajas_overview
    geonetwork_overview
    geopublisher_overview
+   geoserver_overview
    gmt_overview
    gpsdrive_overview
    grass_overview
@@ -27,6 +28,7 @@ Welcome to the OSGeo Live GIS disc
    mapguide_overview
    mapnik_overview
    mapserver_overview
+   maptiler_overview
    marble_overview
    mb-system_overview
    opencpn_overview

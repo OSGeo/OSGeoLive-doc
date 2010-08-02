@@ -16,6 +16,7 @@ Welcome to OSGeo-Live
     geomajas_overview.rst
     geonetwork_overview.rst
     geopublisher_overview.rst
+    geoserver_overview.rst
     gmt_overview.rst
     gpsdrive_overview.rst
     grass_overview.rst
@@ -26,6 +27,7 @@ Welcome to OSGeo-Live
     mapguide_overview.rst
     mapnik_overview.rst
     mapserver_overview.rst
+    maptiler_overview.rst
     marble_overview.rst
     mb-system_overview.rst
     opencpn_overview.rst
