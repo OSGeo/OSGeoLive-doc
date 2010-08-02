@@ -14,8 +14,8 @@
 MapTiler
 ========
 
-User-friendly map publishing with tiles
----------------------------------------
+Map Publishing
+--------------
 
 MapTiler is a desktop application for the creation of fast raster map publishing. Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
 
