@@ -33,7 +33,7 @@ to produce sophisticated presentation graphics and hardcopy maps. GRASS has
 now been translated into twenty languages and supports a huge array of data
 formats.
 
-.. image:: images/screenshots/1024x768/grass-layerman.png
+.. image:: images/screenshots/1024x768/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right
