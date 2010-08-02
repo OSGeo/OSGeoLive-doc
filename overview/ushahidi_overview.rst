@@ -70,3 +70,11 @@ Details
 **Supported Platforms:** Linux, Mac, Windows
 
 **Support:** http://forums.ushahidi.com
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/ushahidi_quickstart.html>`_
+
+

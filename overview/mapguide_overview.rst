@@ -104,3 +104,11 @@ Details
 **Supported Platforms:** Linux, Windows
 
 **Commercial Support:** http://www.osgeo.org/search_profile
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/mapguide_quickstart.html>`_
+
+

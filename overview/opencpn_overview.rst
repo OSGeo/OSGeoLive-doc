@@ -54,3 +54,11 @@ Details
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://www.cruisersforum.com/forums/f134
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/opencpn_quickstart.html>`_
+
+

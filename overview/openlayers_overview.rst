@@ -65,3 +65,11 @@ Details
 **API Interface:** JavaScript
 
 **Support:** http://trac.openlayers.org 
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/openlayers_quickstart.html>`_
+
+

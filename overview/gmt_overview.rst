@@ -54,3 +54,11 @@ Details
 **API Interfaces:** Command line
 
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/gmt_quickstart.html>`_
+
+

@@ -85,3 +85,11 @@ Details
 **Programing language support:** C, Python, Java, PHP, Fortran, Javascript
 
 **Support:** http://zoo-project.org/trac
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/zoo-project_quickstart.html>`_
+
+

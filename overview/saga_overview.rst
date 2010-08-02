@@ -71,3 +71,11 @@ Details
 **API Interfaces:** C++
 
 **Support:** http://www.saga-gis.org
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/saga_quickstart.html>`_
+
+

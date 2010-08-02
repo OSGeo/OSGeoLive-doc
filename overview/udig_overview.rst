@@ -92,3 +92,11 @@ Details
 **Support:** http://udig.refractions.net/users/
 
 **Developers:** http://udig.refractions.net/developers/
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/udig_quickstart.html>`_
+
+

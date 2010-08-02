@@ -80,3 +80,11 @@ Details
 **API Interfaces (data):** REST (via Xapi), XML
 
 **Support:** http://wiki.openstreetmap.org/
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/osm_quickstart.html>`_
+
+

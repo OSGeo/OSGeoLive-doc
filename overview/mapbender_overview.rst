@@ -86,3 +86,11 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://www.mapbender.org/Support
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/mapbender_quickstart.html>`_
+
+

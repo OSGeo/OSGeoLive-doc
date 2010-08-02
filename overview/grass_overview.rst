@@ -74,3 +74,11 @@ Details
 **API Interfaces:** C, Python, Bourne Shell
 
 **Support:** http://grass.osgeo.org/community/
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/grass_quickstart.html>`_
+
+

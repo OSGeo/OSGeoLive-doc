@@ -64,3 +64,11 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/mapfish_quickstart.html>`_
+
+

@@ -68,3 +68,11 @@ Details
 **API Interfaces:** Web, PHP (Sahana Agasti), Python (Sahana Eden)
 
 **Support:** http://www.sahanafoundation.org/support
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/sahana_quickstart.html>`_
+
+

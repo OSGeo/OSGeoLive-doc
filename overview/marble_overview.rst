@@ -56,3 +56,11 @@ Details
 **API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
 
 **Support:** http://techbase.kde.org/Projects/Marble
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/marble_quickstart.html>`_
+
+

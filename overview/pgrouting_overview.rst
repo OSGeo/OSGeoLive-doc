@@ -120,3 +120,11 @@ Details
   Later, we may introduce a Maturity Rating, but currently the format, and
   whether we go ahead with such a rating is still under discussion.
   http://wiki.osgeo.org/wiki/Marketing_Artefacts#Maturity_Rating
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_
+
+

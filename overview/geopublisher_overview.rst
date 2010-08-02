@@ -59,3 +59,11 @@ Details
 **API Interfaces:** Java, Swing, Geotools
 
 **Support:** http://www.wikisquare.de
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/geopublisher_quickstart.html>`_
+
+

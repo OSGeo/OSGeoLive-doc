@@ -52,3 +52,11 @@ Details
 
 **API Interfaces:** C++, Python
 
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/mapnik_quickstart.html>`_
+
+

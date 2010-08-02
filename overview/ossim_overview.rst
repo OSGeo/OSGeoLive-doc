@@ -66,3 +66,11 @@ Details
 **API Interfaces:** C++
 
 **Commercial Support:** http://www.osgeo.org/search_profile
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/ossim_quickstart.html>`_
+
+

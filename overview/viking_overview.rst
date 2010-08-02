@@ -63,3 +63,11 @@ Details
 **API Interfaces:** C, GTK+ 2
 
 **Support:** https://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/viking_quickstart.html>`_
+
+

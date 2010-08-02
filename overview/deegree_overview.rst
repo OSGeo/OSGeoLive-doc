@@ -117,3 +117,11 @@ Details
 **API Interfaces:** Java
 
 **Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/deegree_quickstart.html>`_
+
+

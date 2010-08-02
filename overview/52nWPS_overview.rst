@@ -85,3 +85,11 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 **Commercial Support:** http://www.52north.org
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/52nWPS_quickstart.html>`_
+
+
