@@ -93,6 +93,7 @@ Start Mapbender
 .. TBD: Add menu graphic to this uDig Quickstart
 
 #. Choose  :menuselection:`Mapbender` from the start menu
+
 #. The application will take a few moments to start up
 
 .. Writing Tip:
@@ -264,6 +265,7 @@ Things to try
 Here are some additional challenges for you to try:
 
 #. Try to load some WMS in your application. Try to configure your WMS with :menuselection:`Configure WMS access --> WMS application settings`.
+
 #. Try to create an individual application - change the background-color, move the buttons, change the size of the map (element mapframe1). :menuselection:`Application Management --> Edit application elements`.
 
 
