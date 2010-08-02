@@ -26,12 +26,13 @@ When opening SAGA for the first time, you are presented with 3 subwindows: the W
 Opening Data
 ============
 
-Open the SAGA GUI and load the grid /usr/local/share/saga/DGM_30m_Mt.St.Helens_SRTM.grd via the File|Grid|Load Grid menu. You will 
+Open the SAGA GUI and load the grid `/usr/local/share/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the File|Grid|Load Grid menu. You will 
 get a message in the General tab of the Messages window regarding the success or 
 failure of this task. You should see something like Load Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay. 
 Once you loaded the dataset, it will show up in the Data tab of the Workspace window. 
-It will be listed under Grids and the grid system it belongs to. In this case, the grid 
-system information will look like 30;312x 458y; 557970x 5108130y. The first number is
+It will be listed under Grids and the grid system it belongs to. 
+
+In this case, the grid system information will look like 30;312x 458y; 557970x 5108130y. The first number is
 the cell size (30 meters), the next two numbers show the number of cells in x and y 
 direction respectively, and the last two numbers are the origin of the grid. SAGA's grid 
 systems are referenced by the bottom left corner. This, and some more useful information 
@@ -95,4 +96,15 @@ If you want to import or export data different modules are present. Most useful 
 .. tip:: SAGA GIS grid format is supported by GDAL since version 1.7.0. Files saved by SAGA can be opened by many other programs using GDAL. However, you must open the '\*.sdat' file and not the '\*.sgrd' file.
 
 .. tip:: If you have your own digital elevation model, you can repeat the steps in this Quickstart by importing the grid using the GDAL module.
+
+More Information
+================
+This live dvd contains the SAGA userguide:
+ * `SAGA userguide <file:///usr/local/share/saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
+More documentation can be found on the SAGA website:
+ * http://www.saga-gis.org
+and specifically in the documentation archive:
+ * http://www.saga-gis.org/en/about/references.html 
+ * http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/ 
+
 
