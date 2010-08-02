@@ -10,7 +10,7 @@
     images/project_logos/<filename>
 
 .. image:: images/project_logos/logo-uDig.png
-  :scale: 30 %
+  :scale: 30
   :alt: udig logo
   :align: right
   :target: http://udig.refractions.net/
@@ -29,7 +29,7 @@ Desktop GIS
   Target audience is a GIS practitioner or student who is new to Open Source.
 
 .. image:: images/screenshots/1024x768/udig-overview.png
-  :scale: 50 %
+  :scale: 50
   :alt: udig workshop
   :align: right
 
@@ -64,15 +64,6 @@ Core Features
   * Java Application built using the GeoTools, JTS Topology Suite and GeoAPI
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
   * Use of native widgets
-
-
-.. Writing Tip:
-  Optional: A second screenshot can sometimes be added here
-  if there is sufficient room.
-  .. image:: images/screenshots/800x600/pgadmin.gif
-    :scale: 50 %
-    :alt: project logo
-    :align: right
 
 Implemented Standards
 ---------------------
