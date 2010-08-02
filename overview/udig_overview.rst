@@ -34,13 +34,13 @@ Desktop GIS
   :alt: udig workshop
   :align: right
 
-User-friendly Desktop Internet GIS (uDig) is an open source spatial data viewer/editor, with special emphasis on the OpenGIS standards for internet GIS, the Web Map Server and Web Feature Server standards.
+User-friendly Desktop Internet GIS (uDig) is an open source spatial data viewer/editor, with special emphasis on the OpenGIS standards for internet GIS, the Web Map Server (WMS) and Web Feature Server (WFS) standards.
 
-uDig aims to be:
+uDig is:
 
 * **User-friendly**, providing a familiar graphical environment for GIS users;
-* **Desktop located**, running as a thick client, natively on Windows, Mac OS/X and Linux;
-* **Internet oriented**, consuming standardand de facto geospatial web services; and,
+* **Desktop located**, running natively on Windows, Mac OS/X and Linux;
+* **Internet oriented**, consuming standard and de facto geospatial web services; and,
 * **GIS ready**, providing the framework on which complex analytical capabilities can be built, and gradually subsuming those capabilities into the main application
 
 For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
