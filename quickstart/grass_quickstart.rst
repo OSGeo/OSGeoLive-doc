@@ -46,9 +46,9 @@ Displaying maps
 ~~~~~~~~~~~~~~~
 
 .. image:: images/screenshots/800x600/grass-layerman.png
-  :scale: 40 %
+  :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: left
 
 Once inside add a raster map layer such as "elevation" from the PERMANENT
 mapset. To do this go into the GIS Layer Manager window and click on the
@@ -156,7 +156,7 @@ Set it to about 50% then re-render the Map Display.
 .. image:: images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: left
 
 In the GIS Layer Manager window click on the third button in from the
 right to add a grid layer. For size of grid put 0:03 for 0 degrees and
