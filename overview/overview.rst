@@ -29,6 +29,7 @@ Welcome to OSGeo-Live
     marble_overview.rst
     mb-system_overview.rst
     opencpn_overview.rst
+    openjump_overview.rst
     openlayers_overview.rst
     osgearth_overview.rst
     osm_overview.rst
