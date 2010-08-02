@@ -24,7 +24,7 @@ Carolina (nc_spm_08) dataset for the location, and "user1" for the mapset,
 then click on [Start Grass].
 
 .. image:: images/screenshots/800x600/grass-startup.png
-  :scale: 50 %
+  :scale: 40 %
   :alt: screenshot
   :align: right
 
@@ -46,7 +46,7 @@ Displaying maps
 ~~~~~~~~~~~~~~~
 
 .. image:: images/screenshots/800x600/grass-layerman.png
-  :scale: 50 %
+  :scale: 40 %
   :alt: screenshot
   :align: right
 
