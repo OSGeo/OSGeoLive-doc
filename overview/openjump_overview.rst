@@ -11,7 +11,7 @@
   :target: http://www.openjump.org
 
 OpenJUMP GIS
-===========
+============
 
 Desktop GIS
 ~~~~~~~~~~~
