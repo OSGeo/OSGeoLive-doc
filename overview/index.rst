@@ -30,6 +30,7 @@ Welcome to the OSGeo Live GIS disc
    marble_overview
    mb-system_overview
    opencpn_overview
+   openjump_overview
    openlayers_overview
    osgearth_overview
    osm_overview
