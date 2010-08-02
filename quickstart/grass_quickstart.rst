@@ -23,6 +23,11 @@ From the "Welcome to GRASS" window select either the Spearfish or North
 Carolina (nc_spm_08) dataset for the location, and "user1" for the mapset,
 then click on [Start Grass].
 
+.. image:: images/screenshots/800x600/grass-startup.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
+
 This will launch GRASS with our brand new GUI written in wxPython. At
 the time of writing we have gotten just about all of the kinks out of
 it and are nearly ready to call it (and GRASS 6.4.0) complete. The old
@@ -39,7 +44,12 @@ window to move it).
 
 Displaying maps
 ~~~~~~~~~~~~~~~
- 
+
+.. image:: images/screenshots/800x600/grass-layerman.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
+
 Once inside add a raster map layer such as "elevation" from the PERMANENT
 mapset. To do this go into the GIS Layer Manager window and click on the
 checkerboard toolbar button with a "+" on it. Then select the map name
@@ -57,6 +67,12 @@ You should now see the maps displayed.
 
 Plot an elevation profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: images/screenshots/800x600/grass-profile.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
+
 Back in the GIS Layer Manager window click on the elevation raster
 map name to select it. Then in the Map Display window, to the right of the
 zooming buttons on the Map Display toolbar is an icon with a line graph
@@ -70,12 +86,17 @@ right to close the profile window.
 
 Create a random surface
 ~~~~~~~~~~~~~~~~~~~~~~~
- 
+
 Now let's create a new map. Select :menuselection:`Raster --> Generate 
 surfaces --> Fractal surface` from the menu (near the bottom);
 give your new map a name; adjust any options you like in the Options
 tab (the defaults are fine); and click [Run]. You can then [Close] the
 *r.surf.fractal* module's dialog window.
+
+.. image:: images/screenshots/800x600/grass-fractal.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
 
 Adjust colors
 ~~~~~~~~~~~~~
@@ -85,7 +106,8 @@ the elevation raster map, except this time it will be in your "user1"
 working mapset. You might un-tick the elevation layer check-box
 now so that the two don't draw over the top of each other. Click on the
 eyeball to view your new map.
-The colors might not be as you'd like so let's change them. In the
+The colors might not be as you'd like so let's change them. With the
+fractal DEM selected in the layer list, in the
 `Raster` menu select :menuselection:`Manage colors --> Color Tables`.
 In the "Colors" tab click on the pull-down list for the "Type of color
 table" option, and pick one from the list. "srtm" is a nice choice. Once
@@ -98,6 +120,11 @@ should see your map with its new colors.
   
 Create a shaded relief map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: images/screenshots/800x600/grass-shadedrelief.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
 
 Next we'll create a shaded relief map of the elevation layer we saw
 earlier. Start by selecting the elevation @PERMANENT map from before
@@ -115,8 +142,8 @@ Watersheds and streams
 
 Once again select the elevation @PERMANENT map and in the `Raster` menu
 choose :menuselection:`Hydrologic modeling --> Watershed analysis`. Set
-the elevation layer as your input map, in the 'Input Options' tab
-set the sub-basin threshold to 10000 cells, then in the 'Output Options'
+the ``elevation`` layer as your input map, in the 'Input Options' tab
+set the sub-basin *threshold* to 10000 cells, then in the 'Output Options'
 tab enter "elev.basins" for the watershed basin option and "elev.streams"
 for the stream segments option just below it. Then click [Run].
 
@@ -126,13 +153,18 @@ for display in the box to the left of the layer name. Right click on
 the elev.basins raster map layer name and select "Change opacity level".
 Set it to about 50% then re-render the Map Display.
 
+.. image:: images/screenshots/800x600/grass-watersheds.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
+
 In the GIS Layer Manager window click on the third button in from the
 right to add a grid layer. For size of grid put 0:03 for 0 degrees and
 3 minutes (format is D:M:S), then in the "Optional" tab tick Draw
 geographic grid and press [Run] and re-render.
 
 To add a scalebar go to the Map Display window and press the "Add
-Overlay" button to the right of where you selected the Profile tool
+map elements" button to the right of where you selected the Profile tool
 earlier and select "Add scalebar and north arrow". Read the instructions
 then click [Ok]. A scalebar will appear in the top left. Drag it down
 to the bottom left. From the same toolbar menu select "Add legend" and
@@ -159,7 +191,12 @@ very powerful analyses.
 
 3D visualization
 ~~~~~~~~~~~~~~~~
- 
+
+.. image:: images/screenshots/1024x768/grass-nviz.png
+  :scale: 30 %
+  :alt: screenshot
+  :align: right
+
 First verify that the computational region is set match the raster map
 of interest, "**elevation**" in the PERMANENT mapset. To do this,
 load it into the layer list of the main Layer Manager window, right click
