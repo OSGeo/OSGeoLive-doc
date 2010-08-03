@@ -6,7 +6,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.saga-gis
+  :target: http://www.saga-gis.org
 
 
 *******************
@@ -91,12 +91,22 @@ To save the work you have created you should open the data tab in the workspace,
 
 Importing/Exporting data
 ========================
-If you want to import or export data different modules are present. Most useful is the module: Import/Export GDAL/OGR, which can be found in the modules\file\GDAL/OGR menu. Using this module many raster formats can be imported, including geotiff. The same module can also be used to export data to these formats.
+If you want to import or export data different modules are present. Most useful is the module: Import/Export GDAL/OGR, which can be found in the modules|file|GDAL/OGR menu. Using this module many raster formats can be imported, including geotiff. The same module can also be used to export data to these formats.
 
 .. tip:: SAGA GIS grid format is supported by GDAL since version 1.7.0. Files saved by SAGA can be opened by many other programs using GDAL. However, you must open the '\*.sdat' file and not the '\*.sgrd' file.
 
-.. tip:: If you have your own digital elevation model, you can repeat the steps in this Quickstart by importing the grid using the GDAL module.
+In this example we will use the digital elevation (SRTM) data from the region around Barcelona as you would download it from the web.
 
+The data file we want to use is SRTM_u03_n041e002.tif and can be found 
+under `/usr/local/share/ossim/ossim_data` . You can import this using the Import/Export GDAL/OGR module, which can also be found in the modules|file|GDAL/OGR menu. 
+
+After importing this dataset and opening it in a new window, you will most likely be disappointed: It looks all gray! Let's check what might be the cause: Some pixels near the coast seem to have a very small value (-32768) (you can check the value of a pixel by checking the Z: value in the status bar while moving your mouse over the grid).
+
+ These pixels actually have no data, so we should adjust the nodata settings: in the object properties window, set the maximum no data value to -32768 and apply. 
+After doing that, we can reset our color scale to fit the range of the data. An easy method is right clicking on the grid in the workspace and choosing 'Classification|Set Range to minimum maximum'.
+
+You are now ready to repeat the first steps to create a hillshaded map or explore some of the other modules of SAGA.
+ 
 More Information
 ================
 This live dvd contains the SAGA userguide:
@@ -106,5 +116,3 @@ More documentation can be found on the SAGA website:
 and specifically in the documentation archive:
  * http://www.saga-gis.org/en/about/references.html 
  * http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/ 
-
-
