@@ -1,3 +1,5 @@
+.. _openlayers-quickstart:
+
 *********************
 OpenLayers Quickstart 
 *********************
