@@ -100,6 +100,8 @@ Details
 
 **Licence:** GPL
 
+**Software Version:** 2.11.1
+
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
 .. Writing Tip:
