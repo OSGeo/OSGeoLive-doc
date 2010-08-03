@@ -16,18 +16,14 @@ OpenJUMP GIS
 Desktop GIS
 ~~~~~~~~~~~
  
-OpenJUMP is a not just another free GIS Demo viewer but a deskstop GIS that
-allows to edit, save, analyse, conflate and display your geographic data.
-OpenJUMP was designed to create and analyse vector data, however with the
-powerful Sextante raster analysis library it is full-size desktop GIS. It
-has proven to be an (i) easy to use desktop GIS to learn all the GIS basic
-and advanced functions from data editing to conflation, and (ii) an excellent
-framework for rapid prototyping to develop custom GIS functions.
+OpenJUMP is an easy to use and powerful deskstop GIS that enables users
+to edit, analyse, conflate, save and display geographic data.
+It is also an excellent framework for rapid prototyping to develop custom GIS functions.
 
 .. image:: images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
-  :align: right
+  :align: center
 
 Core Features
 -------------
