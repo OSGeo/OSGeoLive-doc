@@ -85,7 +85,7 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
   and will become dated.
 
 .. image:: images/screenshots/800x600/pgadmin.gif
-  :scale: 50 %
+  :scale: 55 %
   :alt: project logo
   :align: right
 
