@@ -163,6 +163,10 @@ GUI, but also provides a simple editor to modify the XML if I need to.
 Using |UG| to create simple styles
 ``````````````````````````````````
 
+.. note::
+
+   For more details on how to use |UG| see `<udig_quickstart.html>`_
+
 Once I opened |UG| up and added the shapefiles (using the
 add data button in the top left hand corner). I dragged the 10m_land
 and 10m_ocean tables into the map window. |UG| automatically applies
@@ -259,6 +263,22 @@ link next to the one we want (``10m_oceans``).
 need to click on the ``compute from data`` link under the bounding
 boxes [#fn3]_. Make sure to click on the ``publish`` tab to set the
 style to the one you have just uploaded.
+
+
+Clients for WMS layers
+======================
+
+A large variety of clients exist to make use of the WMS layers you are serving
+from |GS|. This is a list of just some of them 
+
+    * `uDig <udig_quickstart.html>`_
+
+    * `OpenLayers <openlayers_quickstart.html>`_
+
+    * `Atlas Styler <atlasstyler_quickstart.html>`_
+
+    * `MapBender <mapbender_quickstart.html>`_
+
 
 .. Rubric:: Footnotes
 .. [#fn1] If you lived in central Pennsylvania in the summer you
