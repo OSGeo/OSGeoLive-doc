@@ -82,7 +82,7 @@ Where /dev/ttyS0 is the serial port the GPS is connected to. If you don't have a
 Garmin GPS, or if you don't feel like install gpspoint, you can use my version
 of gpsbabel with support for gpspoint files. You can use gpsbabel to either
 translate the GPS data from a format you already have the data in or download it
-directly from your GPS reciever. A typical command line would something like
+directly from your GPS receiver. A typical command line would something like
 this:
 
 ::

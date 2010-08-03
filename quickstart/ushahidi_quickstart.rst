@@ -34,7 +34,7 @@ Getting Ushahidi Up and Running
    **"localhost"**. Then continue. In the *General* setup page choose a
    site name (title) for your website such as **OSGeo demo** and if you like
    tag-line subheading as well. The email address it asks you for is used 
-   for recieving automatic submissions which it will process and add to the
+   for receiving automatic submissions which it will process and add to the
    database and maps, and send automated reports from. For now set it to 
    something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**. 
 

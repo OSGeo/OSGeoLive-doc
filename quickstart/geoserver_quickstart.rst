@@ -65,14 +65,14 @@ GeoServer Quickstart
 .. Writing Tip:
   First sentence defines what the application does.
   You may also need to include a sentence of two describing the domain.
-  Eg: For a Business Intelligence applicaiton, you should describe what
+  Eg: For a Business Intelligence application, you should describe what
   Business Intelligence is.
 
 GeoServer is a java application for serving maps (and data) for other
 clients to draw.
 
 .. Writing Tip:
-  Descriibe what will be covered in this Quick Start.
+  Describe what will be covered in this Quick Start.
 
 This Quick Start describes how to:
 
@@ -87,7 +87,7 @@ Start |GS|
 .. Writing Tip:
   Describe steps to start the application
   This should include a graphic of the pull-down list, with a red circle
-  around the applicaiton menu option.
+  around the application menu option.
   #. A hash numbers instructions. There should be only one instruction per
      hash.
 
@@ -98,7 +98,7 @@ Start |GS|
 #. Goto the GeoServer web page at http://localhost:8082/geoserver/web 
 
 .. Writing Tip:
-  For images, use a scale of 50% from a 1024x768 display (prefered) or
+  For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/

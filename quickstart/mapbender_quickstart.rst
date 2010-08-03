@@ -63,11 +63,11 @@ Mapbender Quickstart
 .. Writing Tip:
   First sentence defines what the application does.
   You may also need to include a sentence of two describing the domain.
-  Eg: For a Business Intelligence applicaiton, you should describe what
+  Eg: For a Business Intelligence application, you should describe what
   Business Intelligence is.
 
 .. Writing Tip:
-  Descriibe what will be covered in this Quick Start.
+  Describe what will be covered in this Quick Start.
 
 Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services. 
 
@@ -86,7 +86,7 @@ Start Mapbender
 .. Writing Tip:
   Describe steps to start the application
   This should include a graphic of the pull-down list, with a red circle
-  around the applicaiton menu option.
+  around the application menu option.
   #. A hash numbers instructions. There should be only one instruction per
      hash.
 
@@ -97,7 +97,7 @@ Start Mapbender
 #. The application will take a few moments to start up
 
 .. Writing Tip:
-  For images, use a scale of 50% from a 1024x768 display (prefered) or
+  For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
@@ -275,7 +275,7 @@ What next?
 .. Writing tip
   Provide links to further tutorials and other documentation.
 
-This is only the first step on the road to using Mapbender. There is a lot more funtionality you can try.
+This is only the first step on the road to using Mapbender. There is a lot more functionality you can try.
 
 * Mapbender Project home
 

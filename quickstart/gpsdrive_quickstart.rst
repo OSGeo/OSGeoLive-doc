@@ -69,7 +69,7 @@ Customizing the display
 Besides the options given in the Preferences menu and the different 
 car/PDA/desktop modes offered from the command line, you can change the
 displayed dashboard meters. Just click on one of the three dashboard
-postions and select a new item. You can toggle on and off the dashboard
+positions and select a new item. You can toggle on and off the dashboard
 and map controls with the '**d**' and '**m**' keys.
 
 

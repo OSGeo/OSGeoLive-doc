@@ -12,7 +12,7 @@ deegree Quickstart
 .. Writing Tip:
   First sentence defines what the application does.
   You may also need to include a sentence of two describing the domain.
-  Eg: For a Business Intelligence applicaiton, you should describe what
+  Eg: For a Business Intelligence application, you should describe what
   Business Intelligence is.
 
 deegree is a Java framework which can be used for setting up web based spatial

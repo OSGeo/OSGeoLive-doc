@@ -78,7 +78,7 @@ MapGuide Maestro
    :alt: mapguide maestro Save icon 
    :align: center
 
-6. to preview the change, open a browser to address http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php or click the Preview icon in the tool bar from Maestro main GUI), which will open a brower to the above address. In the browser map view, Zoom in to building level, the building color now is Green. 
+6. to preview the change, open a browser to address http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php or click the Preview icon in the tool bar from Maestro main GUI), which will open a browser to the above address. In the browser map view, Zoom in to building level, the building color now is Green. 
 
 .. image:: images/screenshots/1024x768/mapguide_buildingColorBeforeChanging.png
    :scale: 50%

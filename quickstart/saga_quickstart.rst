@@ -51,7 +51,7 @@ Now use the navigation tools to zoom and pan. The Zoom tool is selected by defau
 
 .. image:: images/screenshots/800x600/saga_fullextent.png
 
-.. tip:: Saga zooms very fast, if you are lost while browsing your data, click the 'Zoom to Full Extent'button in the toolbar
+.. tip:: Saga zooms very fast, if you are lost while browsing your data, click the 'Zoom to Full Extent' button in the toolbar
 
 Creating shaded relief map view
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -62,7 +62,7 @@ Have a look at the Data tab of the Workspace window - you will find the newly cr
 
 Now double click on the hillshade dataset again, but select the Map containing the elevation dataset in the dialog popping up (Add layer to selected map). This will place the hillshade on top of the elevation dataset.
 
-Now switch to the Maps tab of the Workspace window. You will see the entry of your map and the datasets the map is composed of. The drawing order is top to buttom. Now do a right click on the 'Analytical Hillshading' dataset and select Move To Buttom from the context menu popping up. This will change the drawing order, placing the hillshade beneath the elevation dataset (which now shows up again in the map view). Now select the elevation dataset (by left clicking) and have a look at the Settings tab of the Properties window. Find the Display section of the parameters and click in the right column of the Transparency option. Enter a value of 30 and press the Apply button. Now you will see your elevation values shaded by relief.
+Now switch to the Maps tab of the Workspace window. You will see the entry of your map and the datasets the map is composed of. The drawing order is top to bottom. Now do a right click on the 'Analytical Hillshading' dataset and select Move To Bottom from the context menu popping up. This will change the drawing order, placing the hillshade beneath the elevation dataset (which now shows up again in the map view). Now select the elevation dataset (by left clicking) and have a look at the Settings tab of the Properties window. Find the Display section of the parameters and click in the right column of the Transparency option. Enter a value of 30 and press the Apply button. Now you will see your elevation values shaded by relief.
 
 Feel free to try other Transparency settings or even try other Shading Methods in the Analytical Hillshading module (in case you do not change the output dataset parameter, the changes will be written to the grid already created, i.e. you will see the changes in the map view immediately).
 
