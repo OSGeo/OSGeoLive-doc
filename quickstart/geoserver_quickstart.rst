@@ -105,7 +105,7 @@ Start |GS|
   and accessed here:
     images/screenshots/1024x768/<application>_<screen_description>.png
 
-.. image:: images/screenshots/800x600/GeoServer-login.png
+.. image:: images/screenshots/800x600/geoserver-login.png
     :width: 90 %
     :align: left
 
@@ -115,19 +115,19 @@ First Views
 
 #. When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
 
-    .. image:: images/screenshots/800x600/GeoServer-welcome.png
+    .. image:: images/screenshots/800x600/geoserver-welcome.png
         :width: 90%
         :align: left
 
 #. The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
   
-    .. image:: images/screenshots/800x600/GeoServer-layerpreview.png
+    .. image:: images/screenshots/800x600/geoserver-layerpreview.png
         :width: 90%
         :align: left
 
 #. Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
-    .. image:: images/screenshots/800x600/GeoServer-preview.png
+    .. image:: images/screenshots/800x600/geoserver-preview.png
         :width: 90%
         :align: left
     
@@ -172,7 +172,7 @@ add data button in the top left hand corner). I dragged the 10m_land
 and 10m_ocean tables into the map window. |UG| automatically applies
 a style (so you can see the data).
 
-.. figure:: images/screenshots/800x600/udig_startup.png
+.. figure:: images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :width: 90%
 
@@ -182,7 +182,7 @@ Now obviously an orange ocean will not work (even if I could live
 with the green land). So in the `Layer list`_ select the style
 button (it looks like an artist's palette). 
 
-.. figure:: images/screenshots/800x600/layer-chooser.png
+.. figure:: images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
    The _`Layer list` window
@@ -194,7 +194,7 @@ the fill label and choosing from the color picker it produces. I also
 increased the opacity of the fill to 100% to make the color look
 better. 
 
-.. figure:: images/screenshots/800x600/style-pane.png
+.. figure:: images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
    The _`Style Pane` 
@@ -205,7 +205,7 @@ by ``line``. Once I was done I clicked ``OK`` and |UG| showed me the
 changes. 
 
 
-.. figure:: images/screenshots/800x600/blue-ocean.png
+.. figure:: images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :width: 90%
 
@@ -216,14 +216,14 @@ I repeated the steps above to change the color of the land layer.
 None of the default colors seemed right to me so I went into the
 ``define custom colors`` section to create one I liked.
 
-.. figure:: images/screenshots/800x600/custom-colour.png
+.. figure:: images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
 
    *Defining a nicer land color*
 
 This gives me a nice looking basic world map
 
-.. figure:: images/screenshots/800x600/basic-world.png
+.. figure:: images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :width: 90%
 
@@ -242,7 +242,7 @@ allows me to hunt around on my hard drive to find the files I just
 saved. Once I've found one I want, I click the upload link (next to the browse
 button) and a copy of my file appears in the editor. 
 
-.. figure:: images/screenshots/800x600/add-style.png
+.. figure:: images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :width: 90%
 
