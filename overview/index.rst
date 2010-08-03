@@ -78,7 +78,7 @@ We have installed many common languages. In order to switch the system you will 
 #. Select another language and enter the password and continue the login as usual
 #. Repeat the process if wish to change languages again.
 
-The system menus and many of the applications will now appear in the language choosen. If a specific program continues to display in english there is no translation available currently, please consider volunteering to write a translation. Contact the program of interest directly for more information.
+The system menus and many of the applications will now appear in the language chosen. If a specific program continues to display in english there is no translation available currently, please consider volunteering to write a translation. Contact the program of interest directly for more information.
 
 For additional languages see :menuselection:`Application --> System --> Language Support` (Requires an internet connection) 
 
@@ -98,7 +98,7 @@ Using the package manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Open :menuselection:`Applications --> System --> Synaptic Package Manager`
-2. Use the appropriate pacakge manager
+2. Use the appropriate package manager
  
    Virtual Box
        Search for open-vm-toolbox

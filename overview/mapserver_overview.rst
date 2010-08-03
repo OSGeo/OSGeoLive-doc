@@ -54,7 +54,7 @@ Core Features
 * A multitude of raster and vector data formats
 
   * TIFF/GeoTIFF, EPPL7, and many others via GDAL
-  * ESRI shapfiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL and OGR
+  * ESRI shapefiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL and OGR
 
 
 * Map projection support

@@ -106,15 +106,15 @@ Core Features
         - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
 
 **Data is served as safe and quick images using the WMS protocol:**
-    As the data is served up as an image your data is completly safe and secure. Unless they redigitise your data there is no way to steal your data.
-    The appearence of each map layer can be controlled using the SLD standard which allows features to be coloured and labeled. By combining these rules with OGC Filters scale dependant styling can be implemented allowing more detail to be added as a user zooms in. Label collision management, grouping and priorities are also implemented.
+    As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
+    The appearance of each map layer can be controlled using the SLD standard which allows features to be coloured and labeled. By combining these rules with OGC Filters scale dependent styling can be implemented allowing more detail to be added as a user zooms in. Label collision management, grouping and priorities are also implemented.
 
 **Full vector data can be sent to a client using the WFS protocol:**
-     A WFS client can download vector data and use it for mapping, spatial analysis and other opperations. Also if authorised the user can modify the data and send it back to the server to update the stored data using the WFS-T protocol.
+     A WFS client can download vector data and use it for mapping, spatial analysis and other operations. Also if authorised the user can modify the data and send it back to the server to update the stored data using the WFS-T protocol.
      The data can be transmitted using GML (compressed) as well as other standard data formats like shapefile and json.
 
 **Raster data values can be sent to a client using the WCS protocol:**
-     A GIS client can request the actual raster data for use in spatial analysis. This allows a user to create applications which can model the process describved by your data.
+     A GIS client can request the actual raster data for use in spatial analysis. This allows a user to create applications which can model the process described by your data.
 
 **On the fly reprojection:**
      GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server. 

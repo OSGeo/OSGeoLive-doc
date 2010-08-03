@@ -82,12 +82,12 @@ Some example features
   * supports different print formats (HTML, PDF, PNG)
   * long time running jobs
   * supports asynchronous requests to enable large-scale plots
-  * requests are stored within a database and will be available even if WMPS is stopped by an adminstrator or the machine fails
+  * requests are stored within a database and will be available even if WMPS is stopped by an administrator or the machine fails
 
 * Web Perspective View Service
 
    * datasources: remote/local-WMS, remote/local-WFS, local-WCS, Postgres/PostGIS, Oracle Spatial
-   * elevationmodels can be vector data or raster data
+   * elevation models can be vector data or raster data
    * requests: Get3DFeatureInfo, GetView
 
 

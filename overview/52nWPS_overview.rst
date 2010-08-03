@@ -76,7 +76,7 @@ Raster Data
 	* AsciiGrid
 
 A browser based demo client is also included with test request.
-This democlient (see screenshot below) has a predefined request which can be easily send to the server.
+This demo client (see screenshot below) has a predefined request which can be easily send to the server.
 
 .. image:: images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
