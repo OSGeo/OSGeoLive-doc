@@ -27,6 +27,19 @@ one set of spatially referenced numbers from another (e.g., determining the diff
 influenza cases between two different seasons), or as complicated as a global climate 
 change model. The data required by the WPS can be delivered across a network, or available
 at the server.
+A WPS is particularly useful for:
+
+	* Reducing complexity in data processing by providing plug & play
+  	  algorithms
+	* Enabling processes to be chained together
+	* Enabling processing to be deployed once then used everywhere
+	* Streamlined maintenance. Processes/models are maintained in a central
+	  place by the entities who created them
+	* Taking advantage of high-speed computational capabilities on a
+	  central server side-calculation won't block your machine again for
+	  hours/days.
+	* Easy and interoperable access to highly complex processes, such as
+	  climate change models 
 
 Core Features
 -------------
@@ -64,6 +77,11 @@ Raster Data
 
 A browser based demo client is also included with test request.
 This democlient (see screenshot below) has a predefined request which can be easily send to the server.
+
+.. image:: images/screenshots/1024x768/52n_test_client.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
 
 
 Implemented Standards
