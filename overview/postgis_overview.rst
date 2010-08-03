@@ -63,6 +63,12 @@ Spatial Database
   "How mature is the application and how widely deployed is it?".
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
+  * First sentence should explain the application.
+  * Usually the application domain will not be familiar to readers. So the
+    next line or two should explain the domain. Eg: For GeoKettle, the next
+    line or two should explain what GoeSpatial Business Intelligence is.
+  * Remaining paragraph or 2 in this overview section should provide a
+    wider description and advantages from a user perspective.
 
 PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
 
