@@ -138,6 +138,8 @@ Details
 
 **Licence:** GPL
 
+**Software Version:** 1.5.0
+
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
 .. Writing Tip:
