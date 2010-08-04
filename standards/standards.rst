@@ -46,8 +46,8 @@ Acronyms in the figure are defined below. Some of these are “OGC standards” 
 * :doc:`gml_overview`
 * :doc:`kml_overview`
 * :doc:`sensorml_overview`
-* Styled Layer Descriptor (SLD)
-* Filter Encoding
+* :doc:`sld_overview`
+* :doc:`fe_overview`
 * Simple Features (SF)
 * Sensor Web Enablement (SWE)
 * XML for Image and Map Annotation (XIMA)
