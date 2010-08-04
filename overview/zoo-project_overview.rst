@@ -17,7 +17,8 @@ WPS Server
 ~~~~~~~~~~
 
 ZOO Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
-It supports many programming languages and comes with two demo applications using simple
+A WPS provides web access to functions which run spatial algorithms.
+Zoo Project supports many programming languages and comes with two demo applications using simple
 spatialtools Services Providers (a C shared library and a Python module)
 based on the GEOS and OGR Libraries.
 
