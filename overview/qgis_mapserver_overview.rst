@@ -1,9 +1,3 @@
-.. Writing Tip:
-  Writing tips describe what content should be in the following section.
-
-.. Writing Tip:
-  Metadata about this document
-
 :Author: OSGeo Live
 :Version: osgeo-live4.0
 :License: Creative Commons
@@ -13,20 +7,12 @@
 
 .. _qgis_mapserver-overview:
 
-.. Writing Tip: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    images/project_logos/<filename>
-
 .. image:: images/project_logos/logo-qgis_mapserver.png
   :scale: 50 %
   :alt: project logo
   :align: right
   :target: http://karlinapp.ethz.ch/qgis_wms/
 
-
-.. Writing Tip: Name of application
 
 QGIS mapserver
 ==============
@@ -43,7 +29,7 @@ QGIS mapserver
   * ...
 
 Web Service
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 .. Writing Tip:
   Address user questions of "What does the application do?",
@@ -56,18 +42,11 @@ QGIS mapserver provides a web map service (WMS) based on libraries from the Quan
 The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
 
 
-.. Writing Tip:
-  Provide a image of the application which will typically be a screen shot
-  or a collage of screen shots.
-  Store image in image/<application>_<name>.gif . Eg: udig_main_page.gif
-  Screenshots should be captured from a 1024x768 display.
-  Don't include the desktop background as this changes with each release
-  and will become dated.
-
- image:: images/screenshots/800x600/pgadmin.gif
-  :scale: 50 %
+.. image:: images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+  :scale: 40 %
   :alt: project logo
   :align: right
+
 
 Core Features
 -------------
@@ -91,7 +70,8 @@ Implemented Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards compliant (WMS + SLD)
+* OGC Web Map Service (WMS) 1.3.0
+* OGC Styled Layer Descriptor (SLD) 1.0
 
 Details
 -------
