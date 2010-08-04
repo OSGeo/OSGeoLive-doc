@@ -37,9 +37,13 @@
 :License: Creative Commons
 :Thanks: geoserver-user list
 
+.. Writing Tip:
+    save typing with common program names
+
 .. |GS| replace:: GeoServer
 .. |PG| replace:: PostGIS
 .. |UG| replace:: uDig 
+.. |OL| replace:: OpenLayers
 
 
 
@@ -143,8 +147,53 @@ First Views
 
 Loading Data
 ============
-In this example we are going to use the `Natural Earth data set <http://naturalearthdata.com>`_ that is included on the Live-DVD (:file:`/usr/local/share/data/natural_earth/`).
 
+.. note::
+    You will not be able to carry out the following steps if you are
+    running with a **read only** file system (such as the DVD). You
+    will either need to install GeoServer from the DVD to your
+    harddrive or  create a USB stick based system.
+
+
+In this example we are going to use the `Natural Earth data set
+<http://naturalearthdata.com>`_ that is included on the Live-DVD
+(:file:`/usr/local/share/data/natural_earth/`). 
+
+#. First we need to copy the data to the GeoServer data directory
+    (:file:`/usr/local/lib/geotools-2.0.2/data_dir/data`). 
+#. Now we need to create a Store for our data. From the |GS| admin
+    page go to :guilabel:`Stores` and then click on :guilabel:`Add new
+    Store`. You will see this page:
+
+    .. figure:: images/screenshots/800x600/geoserver-newstore.png
+        :align: center
+        :width: 90%
+    
+        *The New Store page*
+
+#. Select the :guilabel:`Directory of spatial files`, you will see the
+    following: 
+
+    .. figure:: images/screenshots/800x600/geoserver-new-vector.png
+        :align: center
+    
+        *Filling in the New Store page*
+
+    Type in a name for the Data Store - I used *Natural Earth* and
+    fill in the URL to the data set - in this case
+    :file:`data/naturaleath`. The URL is relative to the |GS| data
+    directory. Press :guilabel:`save`.
+    
+    .. figure:: images/screenshots/800x600/geoserver-naturalearth.png
+        :align: center
+        :width: 100%
+
+        *The Natural Earth Datastore*
+
+#. Press :guilabel:`publish` next to one of the layers to finish up
+    adding the data. 
+
+    
 Styling
 -------
 
@@ -153,7 +202,7 @@ Styled Layer Descriptors (SLD). These are represented as XML files
 which describe the rules that are used to apply various symbolizers to
 the data.
 
-To get started I styled the Land and Ocean datasets from the Natural Earth data (in :file:`/usr/local/share/data/natural_earth/`). 
+To get started I styled the Land and Ocean datasets. 
 You can create SLD files using a simple text editor, but
 sometimes a graphical editor is better. There are several options here
 but I like to use |UG| (http://udig.refractions.net/) as it allows me
@@ -165,7 +214,7 @@ Using |UG| to create simple styles
 
 .. note::
 
-   For more details on how to use |UG| see `<udig_quickstart.html>`_
+   For more details on how to use |UG| see the :ref:`uDig quickstart <udig-quickstart>`
 
 Once I opened |UG| up and added the shapefiles (using the
 add data button in the top left hand corner). I dragged the 10m_land
@@ -271,13 +320,13 @@ Clients for WMS layers
 A large variety of clients exist to make use of the WMS layers you are serving
 from |GS|. This is a list of just some of them 
 
-    * `uDig <udig_quickstart.html>`_
+    * :ref:`uDig <udig-quickstart>`
 
-    * `OpenLayers <openlayers_quickstart.html>`_
+    * :ref:`OpenLayers <openlayers-quickstart>`
 
-    * `Atlas Styler <atlasstyler_quickstart.html>`_
+    * :ref:`Atlas Styler <atlasstyler-quickstart>` 
 
-    * `MapBender <mapbender_quickstart.html>`_
+    * :ref:`MapBender <mapbender-quickstart>`
 
 
 .. Rubric:: Footnotes
