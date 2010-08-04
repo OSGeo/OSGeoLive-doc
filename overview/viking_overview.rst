@@ -8,7 +8,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: https://sourceforge.net/apps/mediawiki/viking/
+  :target: http://sourceforge.net/apps/mediawiki/viking/
 
 
 Viking
@@ -17,7 +17,7 @@ Viking
 Manage and plot GPS data
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Viking <https://sourceforge.net/apps/mediawiki/viking/>`_ is a
+`Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ is a
 GPS data editor, analyzer and viewer. Viking aims to be easy to use,
 yet powerful in accomplishing a wide variety of GPS related tasks.
 It uses a hierarchical layering system to organize GPS data, maps,
@@ -52,7 +52,7 @@ Core Features
 Details
 -------
 
-**Website:** https://sourceforge.net/apps/mediawiki/viking/
+**Website:** http://sourceforge.net/apps/mediawiki/viking/
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -62,7 +62,7 @@ Details
 
 **API Interfaces:** C, GTK+ 2
 
-**Support:** https://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
+**Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
 Quickstart

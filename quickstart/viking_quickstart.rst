@@ -8,7 +8,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: https://sourceforge.net/apps/mediawiki/viking/
+  :target: http://sourceforge.net/apps/mediawiki/viking/
 
 *****************
 Viking Quickstart 
