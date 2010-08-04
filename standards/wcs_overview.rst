@@ -57,3 +57,4 @@ See Also
 * :doc:`wfs_overview`
 * Grid Coverage Service
 * :doc:`sos_overview`
+* :doc:`fe_overview`

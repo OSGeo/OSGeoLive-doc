@@ -72,3 +72,5 @@ See Also
 * GML in JPEG 2000
 * :doc:`wfs_overview`
 * :doc:`kml_overview`
+* :doc:`sld_overview`
+* :doc:`fe_overview`

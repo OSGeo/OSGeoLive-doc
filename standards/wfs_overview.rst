@@ -66,6 +66,6 @@ See Also
 * :doc:`sos_overview`
 * :doc:`gml_overview`
 * :doc:`kml_overview`
-* Styled Layer Descriptor (SLD)
+* :doc:`sld_overview`
 * Symbology Encoding
-* Filter Encoding
+* :doc:`fe_overview`

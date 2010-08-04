@@ -71,7 +71,7 @@ Other OGC portrayal service standards:
 * Web Map Tile Service
 * :doc:`gml_overview`
 * :doc:`kml_overview`
-* Styled Layer Descriptor (SLD)
+* :doc:`sld_overview`
 * Symbology Encoding
-* Filter Encoding
+* :doc:`fe_overview`
 
