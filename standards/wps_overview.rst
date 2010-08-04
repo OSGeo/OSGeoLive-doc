@@ -43,7 +43,17 @@ The WPS standard provides rules for standardizing inputs and outputs (requests a
   :scale: 25%
   :alt: WPS in Context
 
-The OGC® Web Processing Service (WPS) Interface Standard (http://www.opengeospatial.org/standards/wps) is a processing service. The standard defines an interface that facilitates the publishing of geospatial processes and clients’ discovery of and binding to those processes. Processes include any algorithm, calculation or model that operates on spatially referenced vector or raster data. A WPS may offer calculations as simple as subtracting one set of spatially referenced numbers from another (e.g., determining the difference in influenza cases between two different seasons), or as complicated as a global climate change model. 
+The OGC® Web Processing Service (WPS) Standard describes how to access geospatial processes from a web interface.
+Processes include any algorithm, calculation or model that operates on spatially referenced vector or raster data. A WPS may offer calculations as simple as subtracting one set of spatially referenced numbers from another (e.g., determining the difference in influenza cases between two different seasons), or as complicated as a global climate change model.  (http://www.opengeospatial.org/standards/wps) 
+
+A WPS is particularly useful for:
+
+* Reducing complexity in data processing by providing plug & play algorithms.
+* Enabling processes to be chained together.
+* Enabling processing to be deployed once then used everywhere.
+* Streamlined maintenance. Processes/models are maintained in a central place by the entities who created them.
+* Taking advantage of high-speed computational capabilities on a central server.
+* Easy and interoperable access to highly complex processes, such as climate change models.
 
 See Also
 --------
