@@ -41,7 +41,7 @@ Core Features
 
 * After trips, tracks and waypoints from GPS can be downloaded, stored, managed and reused in later trips.
 
-* Analyzing OHV and hiking trips, understanding where you went and how far you were from something.
+* Analyzing OHV and hiking trips, understanding where you went and how close you came to an object.
 
 * Making waypoints and tracks to follow to easily get someplace you've never been before or don't have GPS data for but Terraserver maps exist for it.
 
