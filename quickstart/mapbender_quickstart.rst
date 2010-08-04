@@ -256,6 +256,7 @@ There is no inherent difference between roles like :guilabel:`guest`, :guilabel:
 #. Login as the new user
 
 #. What happens when the user has access to one or more than one application?
+
   .. |LOGOUT| image:: images/screenshots/800x600/mapbender_logout.png
      :scale: 100
 
