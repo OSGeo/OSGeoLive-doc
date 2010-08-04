@@ -17,14 +17,14 @@
      /home/user/data/osm/
    Vector Data: Available as .shp files
      /home/user/data/natural_earth/
-       cultural/10m-populated-places-simple
-       cultural/10m-admin-0-countries
-       cultural/10m-populated-places-simple
-       cultural/10m-urban-area
-       physical/10m-land
-       physical/10m-ocean
-       physical/10m-lakes
-       physical/10m-rivers-lake-centerlines
+       10m-populated-places-simple
+       10m-admin-0-countries
+       10m-populated-places-simple
+       10m-urban-area
+       10m-land
+       10m-ocean
+       10m-lakes
+       10m-rivers-lake-centerlines
    Raster Raster basemap Cross Blended Hypso with Shaded Relief and Water
      1:50 million (40mb). Available as .tif
      /home/user/data/natural_earth/HYP_50M_SR_W/
@@ -159,11 +159,14 @@ In this example we are going to use the `Natural Earth data set
 <http://naturalearthdata.com>`_ that is included on the Live-DVD
 (:file:`/usr/local/share/data/natural_earth/`). 
 
-#. First we need to copy the data to the GeoServer data directory
-    (:file:`/usr/local/lib/geotools-2.0.2/data_dir/data`). 
-#. Now we need to create a Store for our data. From the |GS| admin
-    page go to :guilabel:`Stores` and then click on :guilabel:`Add new
-    Store`. You will see this page:
+#. First we need to copy the data to the GeoServer data directory (:file:`/usr/lib/geotools-2.0.2/data_dir/data`). I created a folder called :file:`naturalearth`. I used a terminal window, but I expect you can do the same thing in the file manager if you prefer.  ::
+
+        cd /usr/lib/geotools-2.0.2/data_dir/data
+        mkdir naturalearth
+        cp /usr/local/share/data/natural_earth/* naturalearth
+     
+
+#. Now we need to create a Store for our data. From the |GS| admin page go to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You will see this page:
 
     .. figure:: images/screenshots/800x600/geoserver-newstore.png
         :align: center
@@ -171,18 +174,14 @@ In this example we are going to use the `Natural Earth data set
     
         *The New Store page*
 
-#. Select the :guilabel:`Directory of spatial files`, you will see the
-    following: 
+#. Select the :guilabel:`Directory of spatial files`, you will see the following: 
 
     .. figure:: images/screenshots/800x600/geoserver-new-vector.png
         :align: center
     
         *Filling in the New Store page*
 
-    Type in a name for the Data Store - I used *Natural Earth* and
-    fill in the URL to the data set - in this case
-    :file:`data/naturaleath`. The URL is relative to the |GS| data
-    directory. Press :guilabel:`save`.
+    Type in a name for the Data Store - I used *Natural Earth* and fill in the URL to the data set - in this case :file:`data/naturaleath`. The URL is relative to the |GS| data directory. Press :guilabel:`save`.
     
     .. figure:: images/screenshots/800x600/geoserver-naturalearth.png
         :align: center
@@ -190,9 +189,20 @@ In this example we are going to use the `Natural Earth data set
 
         *The Natural Earth Datastore*
 
-#. Press :guilabel:`publish` next to one of the layers to finish up
-    adding the data. 
+#. Press :guilabel:`publish` next to one of the layers to finish up adding the data. This will take you to the *Layers* page:
 
+    .. figure:: images/screenshots/800x600/geoserver-publish.png
+        :align: center
+        :width: 90%
+
+        *The layer publishing page*
+
+As you scroll down the page you will see that |GS| has filled in many of the fields for you. When you reach :guilabel:`Coordinate Reference System` you will notice that under *Native SRS* that it says UNKNOWN [#esri]_ you will need to fill in the next box (*declared SRS*) to make sure |GS| knows where the data is. For the time being trust me and type epsg:4326 in the box, if you don't trust me then go to `http://prj2epsg.org/search` and paste in the string you see if you click on the link next to "UNKNOWN".  Then click on :guilabel:`Compute from data` and :guilabel:`Compute from native bounds` to fill in the Bounding Boxes. Finally hit :guilabel:`save` and you have published your first layer.
+
+.. note::
+    If you look at this layer in the layer preview it doesn't look
+    very good but that is just the default style. In the next section
+    we will look at producing a nicer style.
     
 Styling
 -------
@@ -228,25 +238,27 @@ a style (so you can see the data).
    *Default Styling in UDig*
 
 Now obviously an orange ocean will not work (even if I could live
-with the green land). So in the `Layer list`_ select the style
+with the green land). So in the :ref:`Layer list <Layer_list>` select the style
 button (it looks like an artist's palette). 
 
+.. _Layer_list:
 .. figure:: images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
-   The _`Layer list` window
+   *The Layer list window*
 
 
-This will open the `Style Pane`_ - in the simple window I can easily
+This will open the :ref:`Style Pane <Style_Pane>` - in the simple window I can easily
 select a nice blue for the oceans by clicking on the colored box by
 the fill label and choosing from the color picker it produces. I also
 increased the opacity of the fill to 100% to make the color look
 better. 
 
+.. _Style_Pane:
 .. figure:: images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
-   The _`Style Pane` 
+   *The Style Pane*
 
 
 I also turned the line (or stroke) off by unchecking the box
@@ -298,21 +310,10 @@ button) and a copy of my file appears in the editor.
    *Adding a Style to GeoServer*
 
 
-Adding the data store to |GS|
+Adding the Style to the Layer
 ------------------------------
 
-Now that I have some styles available we can actually the shapefiles 
-to |GS|. Going to the :menuselection:`Data->Layers` page gives me the
-option to :menuselection:`add a new resource`. Selecting that presents a drop down
-list of data stores, select the store added above and it will show you
-a list of the available layers in that store. Click on the ``publish``
-link next to the one we want (``10m_oceans``). 
-
-|GS| will recognize the projection of the data but you
-need to click on the ``compute from data`` link under the bounding
-boxes [#fn3]_. Make sure to click on the ``publish`` tab to set the
-style to the one you have just uploaded.
-
+#. Go to the 
 
 Clients for WMS layers
 ======================
@@ -332,7 +333,5 @@ from |GS|. This is a list of just some of them
 .. Rubric:: Footnotes
 .. [#fn1] If you lived in central Pennsylvania in the summer you
    wouldn't expect green either.
-.. [#fn3] in this case the figures will be the same as our data is in
-   lat/lon anyway. If the data was projected then they would be
-   different.
-
+.. [#esri] there is a perfectly good well known text (WKT) for
+    projections but ESRI don't use it.
