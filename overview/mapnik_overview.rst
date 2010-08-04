@@ -46,7 +46,7 @@ Details
 
 **Licence:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 0.7.1
+**Software Version:** 0.7.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
