@@ -32,7 +32,7 @@ This will launch GRASS with our brand new GUI written in wxPython. At
 the time of writing we have gotten just about all of the kinks out of
 it and are nearly ready to call it (and GRASS 6.4.0) complete. The old
 Tcl/Tk GUI is still available if you prefer to use that; you can start
-it by typing *g.gui --ui* on the command line.
+it by typing ``g.gui --ui`` on the command line.
 
 If you are on a netbook with a very small display (800x600 resolution)
 the startup screen might get a little scrunched and the [Start GRASS]
@@ -50,13 +50,13 @@ Displaying maps
   :alt: screenshot
   :align: left
 
-Once inside add a raster map layer such as "elevation" from the PERMANENT
+Once inside add a raster map layer such as "`elevation`" from the PERMANENT
 mapset. To do this go into the GIS Layer Manager window and click on the
 checkerboard toolbar button with a "+" on it. Then select the map name
 you want from the "*map to be displayed*" pull-down list, and
 click [Ok].
 
-In a similar fashion add the "roads" vector layer from the PERMANENT
+In a similar fashion add the "`roads`" vector layer from the PERMANENT
 mapset by clicking on the toolbar button with a "+" and a bent poly-line
 which looks a bit like a "V".
 
@@ -73,7 +73,7 @@ Plot an elevation profile
   :alt: screenshot
   :align: right
 
-Back in the GIS Layer Manager window click on the elevation raster
+Back in the GIS Layer Manager window click on the `elevation` raster
 map name to select it. Then in the Map Display window, to the right of the
 zooming buttons on the Map Display toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile Surface Map**.
@@ -127,8 +127,11 @@ Create a shaded relief map
   :align: right
 
 Next we'll create a shaded relief map of the elevation layer we saw
-earlier. Start by selecting the elevation @PERMANENT map from before
-by clicking on its name. In the `Raster` menu select :menuselection:`Terrain
+earlier. Start by verifying that the computational region is set match
+the raster map of interest, "`elevation`" in the PERMANENT mapset. To
+do this, make sure it is loaded into the layer list of the main Layer
+Manager window, right click on its name and select "Set computation region
+from selected map(s)". In the `Raster` menu select :menuselection:`Terrain
 analysis --> Shaded relief` (Terrain analysis is about half way
 down), and the module control dialog will appear. With the elevation
 map name selected as the input map click [Run]. Now add the new
@@ -140,12 +143,13 @@ bottom right of the Map Display window to have that happen automatically)
 Watersheds and streams
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Once again select the elevation @PERMANENT map and in the `Raster` menu
-choose :menuselection:`Hydrologic modeling --> Watershed analysis`. Set
-the ``elevation`` layer as your input map, in the 'Input Options' tab
-set the sub-basin *threshold* to 10000 cells, then in the 'Output Options'
-tab enter "elev.basins" for the watershed basin option and "elev.streams"
-for the stream segments option just below it. Then click [Run].
+Once again select the `elevation` @PERMANENT map and in the `Raster` menu
+choose :menuselection:`Hydrologic modeling --> Watershed analysis`. This
+will open the ``r.watershed`` module. Set the `elevation` layer as your
+input map, in the 'Input Options' tab set the sub-basin *threshold* to
+10000 cells, then in the 'Output Options' tab enter "elev.basins" for the
+watershed basin option and "elev.streams" for the stream segments option
+just below it. Then click [Run].
 
 Back in the Layer Manager window add those two new raster maps to the
 layer list and make sure that they are the only two which are ticked
@@ -197,22 +201,18 @@ very powerful analyses.
   :alt: screenshot
   :align: right
 
-First verify that the computational region is set match the raster map
-of interest, "**elevation**" in the PERMANENT mapset. To do this,
-load it into the layer list of the main Layer Manager window, right click
-on its name and select "Set computation region from selected map(s)".
 Start the 3D visualization suite from the :menuselection:`File --> NVIZ`
-menu item. Select an **elevation** map as the raster elevation.
+menu item. Select an `elevation` map as the raster elevation.
 Once the 3D display interface loads, maximize the window.
-Next select :menuselection:`Visualize --> Raster Surfaces` from the top menu, and
-set the fine resolution to "1", then move the positioning puck and height
+Next select :menuselection:`Visualize --> Raster Surfaces` from the top menu,
+and set the fine resolution to "1", then move the positioning puck and height
 slider around to get different views.
 
 To drape satellite or aerial imagery over the top of the DEM, in the
 **Raster Surfaces** controls click on the **Surface Attributes**
 drop down menu and select "color". Select "New Map" to pick the overlay
-image. In the Spearfish dataset "**spot.image**" in PERMANENT is a
-good choice; in the North Carolina dataset "**lsat7_2002_50**"
+image. In the Spearfish dataset "`spot.image`" in PERMANENT is a
+good choice; in the North Carolina dataset "`lsat7_2002_50`"
 in PERMANENT is a good choice. Finally, click "Accept" and then once
 back at the main window click on the "Draw" button in the top-left, just 
 under the File menu.
@@ -222,7 +222,7 @@ Shutdown and the command line
 
 When finished, exit the GRASS GUI with :menuselection:`File --> Exit`.
 Before you close the GRASS terminal session as well, try a GRASS
-module by typing "**g.manual --help**" which will give you a list
+module by typing "``g.manual --help``" which will give you a list
 of module options. The GRASS command line is where the true power of
 the GIS comes into its own. GRASS is designed to allow all commands
 to be tied together in scripts for large bulk processing jobs. Popular
@@ -231,7 +231,7 @@ for making scripting easier are included for both. With these tools
 you can make a new GRASS module with only about 5 minutes of coding,
 complete with powerful parser, GUI, and help page template.
 
-"**g.manual -i**" will launch a web browser
+"``g.manual -i``" will launch a web browser
 with the module help pages. When done close the browser and type "exit"
 at the GRASS terminal prompt to leave the GIS environment.
 
