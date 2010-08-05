@@ -37,7 +37,7 @@ Filter Encoding (FE)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-The OGC® Filter Encoding Standard (FE) defines an XML encoding for expressing filters in spatial queries in order to select a subset of features based upon specific attributes.
+The OGC® Filter Encoding Standard (FE) defines an XML encoding for expressing filters for spatial queries in order to select a subset of features based upon specific attributes.
 (http://www.opengeospatial.org/standards/filter)
 
 .. image:: images/standards/fe.jpg
