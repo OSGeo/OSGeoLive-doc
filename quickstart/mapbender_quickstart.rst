@@ -1,37 +1,3 @@
-.. Writing Tip:
-  Writing tips describe what content should be in the following section.
-
-.. Writing Tip:
-  This Quick Start should describe how to run a simple example, which
-    covers one of the application's primary functions.
-  The Quick Start should be able to be executed in around 5 minutes.
-  The Quick Start may optionally include a few more sections
-    which describes how to run extra functions.
-  This document should describe every detailed step to get the application
-    to work, including every screen shot involved in the sequence.
-  Finish off with "Things to Try" and "What Next?" sections.
-  Assume the user has very little domain expertise, so spell everything out.
-  If using example data, please use the general layers from naturalearth
-   and Open Street Map. These layers are loaded by install_gisdata.sh into:
-   Open Street Map:
-     /home/user/data/osm/
-   Vector Data: Available as .shp files
-     /home/user/data/natural_earth/
-       cultural/10m-populated-places-simple
-       cultural/10m-admin-0-countries
-       cultural/10m-populated-places-simple
-       cultural/10m-urban-area
-       physical/10m-land
-       physical/10m-ocean
-       physical/10m-lakes
-       physical/10m-rivers-lake-centerlines
-   Raster Raster basemap Cross Blended Hypso with Shaded Relief and Water
-     1:50 million (40mb). Available as .tif
-     /home/user/data/natural_earth/HYP_50M_SR_W/
-
-.. Writing Tip:
-  Metadata about this document
-
 :Author: OSGeo Live
 :Author: Astrid Emde
 :Author: Christoph Baudson
@@ -213,7 +179,7 @@ You can load OGC Web Map Services (WMS) to your application.
 
    * Demis World Map http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
    * Bird Studies Canada http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
-   * Germany demo http://wms1.ccgis.de/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+   * Germany demo http://wms.wheregroup.com/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
    * WhereGroup OSM WMS http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
    
 .. image:: images/screenshots/800x600/mapbender_wms_application_settings.png
