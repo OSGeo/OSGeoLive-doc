@@ -119,23 +119,23 @@ First Views
 
 #. When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
 
-    .. image:: images/screenshots/800x600/geoserver-welcome.png
-        :width: 90%
-        :align: left
+.. image:: images/screenshots/800x600/geoserver-welcome.png
+    :width: 90%
+    :align: left
 
 #. The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
   
-    .. image:: images/screenshots/800x600/geoserver-layerpreview.png
-        :width: 90%
-        :align: left
+.. image:: images/screenshots/800x600/geoserver-layerpreview.png
+    :width: 90%
+    :align: left
 
 #. Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
-    .. image:: images/screenshots/800x600/geoserver-preview.png
-        :width: 90%
-        :align: left
+.. image:: images/screenshots/800x600/geoserver-preview.png
+    :width: 90%
+    :align: left
     
-    You can zoom in to the map in three ways:
+You can zoom in to the map in three ways:
 
         * by clicking on the zoom bar on the left, the higher you click on it the more zoomed in you will see.
 
@@ -157,47 +157,63 @@ Loading Data
 
 In this example we are going to use the `Natural Earth data set
 <http://naturalearthdata.com>`_ that is included on the Live-DVD
-(:file:`/usr/local/share/data/natural_earth/`). 
+(:file:`/usr/local/share/data/natural_earth/`).
 
-#. First we need to copy the data to the GeoServer data directory (:file:`/usr/lib/geotools-2.0.2/data_dir/data`). I created a folder called :file:`naturalearth`. I used a terminal window, but I expect you can do the same thing in the file manager if you prefer.  ::
+First we need to copy the data to the GeoServer data directory
+(:file:`/usr/lib/geotools-2.0.2/data_dir/data`). I created a folder
+called :file:`naturalearth`. I used a terminal window, but I expect you
+can do the same thing in the file manager if you prefer.  ::
 
         cd /usr/lib/geotools-2.0.2/data_dir/data
         mkdir naturalearth
         cp /usr/local/share/data/natural_earth/* naturalearth
      
 
-#. Now we need to create a Store for our data. From the |GS| admin page go to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You will see this page:
+Now we need to create a Store for our data. From the |GS| admin page go
+to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
+will see this page:
 
-    .. figure:: images/screenshots/800x600/geoserver-newstore.png
-        :align: center
-        :width: 90%
+.. figure:: images/screenshots/800x600/geoserver-newstore.png
+    :align: center
+    :width: 90%
     
-        *The New Store page*
+    *The New Store page*
 
-#. Select the :guilabel:`Directory of spatial files`, you will see the following: 
+Select the :guilabel:`Directory of spatial files`, you will see the following: 
 
-    .. figure:: images/screenshots/800x600/geoserver-new-vector.png
-        :align: center
+.. figure:: images/screenshots/800x600/geoserver-new-vector.png
+    :align: center
     
-        *Filling in the New Store page*
+    *Filling in the New Store page*
 
-    Type in a name for the Data Store - I used *Natural Earth* and fill in the URL to the data set - in this case :file:`data/naturaleath`. The URL is relative to the |GS| data directory. Press :guilabel:`save`.
-    
-    .. figure:: images/screenshots/800x600/geoserver-naturalearth.png
-        :align: center
-        :width: 100%
+Type in a name for the Data Store - I used *Natural Earth* and fill in
+the URL to the data set - in this case :file:`data/naturaleath`. The
+URL is relative to the |GS| data directory. Press :guilabel:`save`.
 
-        *The Natural Earth Datastore*
+.. figure:: images/screenshots/800x600/geoserver-naturalearth.png
+    :align: center :width: 100%
 
-#. Press :guilabel:`publish` next to one of the layers to finish up adding the data. This will take you to the *Layers* page:
+    *The Natural Earth Datastore*
 
-    .. figure:: images/screenshots/800x600/geoserver-publish.png
-        :align: center
-        :width: 90%
+Press :guilabel:`publish` next to one of the layers to finish up adding
+the data. This will take you to the *Layers* page:
 
-        *The layer publishing page*
+.. figure:: images/screenshots/800x600/geoserver-publish.png
+    :align: center
+    :width: 90%
 
-As you scroll down the page you will see that |GS| has filled in many of the fields for you. When you reach :guilabel:`Coordinate Reference System` you will notice that under *Native SRS* that it says UNKNOWN [#esri]_ you will need to fill in the next box (*declared SRS*) to make sure |GS| knows where the data is. For the time being trust me and type epsg:4326 in the box, if you don't trust me then go to `http://prj2epsg.org/search` and paste in the string you see if you click on the link next to "UNKNOWN".  Then click on :guilabel:`Compute from data` and :guilabel:`Compute from native bounds` to fill in the Bounding Boxes. Finally hit :guilabel:`save` and you have published your first layer.
+    *The layer publishing page*
+
+As you scroll down the page you will see that |GS| has filled in many of
+the fields for you. When you reach :guilabel:`Coordinate Reference System`
+you will notice that under *Native SRS* that it says UNKNOWN [#esri]_
+you will need to fill in the next box (*declared SRS*) to make sure |GS|
+knows where the data is. For the time being trust me and type epsg:4326 in
+the box, if you don't trust me then go to `http://prj2epsg.org/search` and
+paste in the string you see if you click on the link next to "UNKNOWN".
+Then click on :guilabel:`Compute from data` and :guilabel:`Compute from
+native bounds` to fill in the Bounding Boxes. Finally hit :guilabel:`save`
+and you have published your first layer.
 
 .. note::
     If you look at this layer in the layer preview it doesn't look
@@ -261,8 +277,7 @@ better.
    *The Style Pane*
 
 
-I also turned the line (or stroke) off by unchecking the box
-by ``line``. Once I was done I clicked ``OK`` and |UG| showed me the
+Once I was done I clicked ``OK`` and |UG| showed me the
 changes. 
 
 
@@ -313,7 +328,10 @@ button) and a copy of my file appears in the editor.
 Adding the Style to the Layer
 ------------------------------
 
-#. Go to the 
+Click on the :guilabel:`Layers` link in the Menu on the left of the
+|GS| window. Click on the layer (e.g. *10m_land*), then select the 
+:guilabel:`Publishing` tab and change the :guilabel:`Default Style`
+box to the name of the style you uploaded in the previous section.
 
 Clients for WMS layers
 ======================
