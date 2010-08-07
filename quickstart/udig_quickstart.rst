@@ -131,7 +131,7 @@ view labelled . These views will be described further as we demonstrate their us
 Files
 =====
 
-To start out with we are going to load some of the sample data you downloaded earlier.
+To start out with we are going to load some of the sample data included on the DVD.
 
 #. Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add Data** wizard
 
@@ -139,9 +139,14 @@ To start out with we are going to load some of the sample data you downloaded ea
 
 #. Press :guilabel:`Next` to open up a file dialog
 
-#. Select the following file from your data folder:
+#. The OSGeo Live DVD contains sample data in:
    
-   * countries.shp
+   * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
+   * :file:`/usr/local/share/udig/udig/udig-data/`
+
+#. Select the following file from the udig-data folder:
+   
+   * :file:`countries.shp`
    
 #. Press :guilabel:`Open`
    
@@ -223,7 +228,15 @@ You can control where in the world the Map Editor is looking by using the naviga
 
 Web Map Server
 ==============
-One of the reasons to use an application like uDig is to access all the great free geospatial information available on the web. This section covers the use of Web Map Servers which make available layers of information that you can mix into your own maps.
+
+.. sidebar:: Offline
+
+   If you are not connected to the internet run **Start GeoServer** for a local WMS. The script
+   will open a page with a "wms capabilities" link you can drag into your empty map.
+   
+One of the reasons to use an application like uDig is to access all the great free geospatial
+information available on the web. This section covers the use of Web Map Servers which make
+available layers of information that you can mix into your own maps.
 
 .. tip:: You can also connect to Web Map Servers using the Add Data Wizard
   for Drag and Drop.
