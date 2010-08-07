@@ -70,3 +70,6 @@ Database
 * :doc:`spatialite_overview`- [`QuickStart <../quickstart/spatialite_quickstart.html>`_] Light Database
 * :doc:`pgrouting_overview` - [`QuickStart <../quickstart/pgrouting_quickstart.html>`_] - Routing for PostGIS
 
+Tests
+-----
+Results of developer testing of OSGeo-Live available at: [`Test Results <../tests.html>`_]
