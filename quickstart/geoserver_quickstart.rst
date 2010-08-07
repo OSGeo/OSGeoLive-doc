@@ -95,7 +95,6 @@ Start |GS|
   #. A hash numbers instructions. There should be only one instruction per
      hash.
 
-.. TBD: Add menu graphic to this uDig Quickstart
 
 #. Select the "Start GeoServer" icon.
 #. The application will take a few moments to start up
@@ -117,19 +116,19 @@ Start |GS|
 First Views
 ===========
 
-#. When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
+When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
 
 .. image:: images/screenshots/800x600/geoserver-welcome.png
     :width: 90%
     :align: left
 
-#. The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
+The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
   
 .. image:: images/screenshots/800x600/geoserver-layerpreview.png
     :width: 90%
     :align: left
 
-#. Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
+Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
 .. image:: images/screenshots/800x600/geoserver-preview.png
     :width: 90%
@@ -191,7 +190,8 @@ the URL to the data set - in this case :file:`data/naturaleath`. The
 URL is relative to the |GS| data directory. Press :guilabel:`save`.
 
 .. figure:: images/screenshots/800x600/geoserver-naturalearth.png
-    :align: center :width: 100%
+    :align: center 
+    :width: 100%
 
     *The Natural Earth Datastore*
 
@@ -332,6 +332,13 @@ Click on the :guilabel:`Layers` link in the Menu on the left of the
 |GS| window. Click on the layer (e.g. *10m_land*), then select the 
 :guilabel:`Publishing` tab and change the :guilabel:`Default Style`
 box to the name of the style you uploaded in the previous section.
+Now go to the Layer Preview page to check that it looks good.
+
+.. TBD check where app-data ends up
+
+There are example style files for all of the example Natural Earth
+layers in :file:`app-data/geoserver`. 
+
 
 Clients for WMS layers
 ======================
