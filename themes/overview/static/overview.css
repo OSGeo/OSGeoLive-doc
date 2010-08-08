@@ -28,7 +28,7 @@ body {
     background-color: white;
     margin-left: 0;
     margin-right: 0;
-    min-width: 900px;
+    min-width: 800px;
     padding: 0;
     line-height: 110%;
     font-family: 'Lucida Sans','Geneva','Verdana',sans-serif;
@@ -109,7 +109,6 @@ div.header div.wrap {
     height: 125px;
     overflow: hidden;
     text-indent: -9999em;
-    background: url(img/geotools-logo.png) no-repeat;
 }
 #logo_osgeo {
 	padding: 0;
@@ -123,37 +122,6 @@ div.header div.wrap {
     overflow: hidden;
     text-indent: -9999em;
     background: url(img/osgeo-logo.png) no-repeat;
-}
-
-#top-nav {
-    position: absolute;
-    bottom: 15px;
-    right: 90px;
-    list-style: none;
-    margin: 0;
-}
-
-#top-nav li {
-    display: inline;
-    margin: 0;
-    padding: 0 8px;
-/*    border-left: 1px solid #47aa42;*/
-    border-left: 1px solid #CA7900;
-}
-
-#top-nav li:first-child, #top-nav li.first {
-    border-left: 0;
-}
-
-#top-nav li a {
-/*    color: #47aa42;*/
-    font-weight: bold;
-    text-decoration: none;
-    font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-}
-
-#top-nav li a:hover {
-/*    color: #e0e0e0;*/
 }
 
 /* index page links */
@@ -342,7 +310,7 @@ text-decoration: none;
 }
 
 #breadcrumbs a:hover {
-color: #26b2dd;
+color: #1166ad;
 }
 
 div #body {
