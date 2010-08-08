@@ -81,7 +81,7 @@ clients to draw.
 This Quick Start describes how to:
 
   * add a vector and raster data source to GeoServer
-  * apply colour to map features using styling
+  * apply color to map features using styling
   * test the layers in a simple web map
   * learn about clients that can display your maps
 
@@ -98,7 +98,7 @@ Start |GS|
 
 #. Select the "Start GeoServer" icon.
 #. The application will take a few moments to start up
-#. Goto the GeoServer web page at http://localhost:8082/geoserver/web 
+#. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
 
 .. Writing Tip:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
@@ -151,7 +151,7 @@ Loading Data
     You will not be able to carry out the following steps if you are
     running with a **read only** file system (such as the DVD). You
     will either need to install GeoServer from the DVD to your
-    harddrive or  create a USB stick based system.
+    hard drive or  create a USB stick based system.
 
 
 In this example we are going to use the `Natural Earth data set
@@ -337,7 +337,30 @@ Now go to the Layer Preview page to check that it looks good.
 .. TBD check where app-data ends up
 
 There are example style files for all of the example Natural Earth
-layers in :file:`app-data/geoserver`. 
+layers in :file:`/usr/local/share/geoserver`. 
+
+.. TBD (needs more memory)
+    Adding a Raster
+    ===============
+
+    In the Natural Earth folder is a folder :file:`HYP_50M_SR_W` which
+    contains a raster image. You can serve this up in |GS| directly by
+    going to the stores page and selecting :guilabel:`New Stores->World
+    Image` and type
+    *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
+    into the :guilabel:`URL` box.
+
+    .. figure:: images/screenshots/800x600/geoserver-raster.png
+        :align: center
+        :width: 90%
+
+        *Adding a Raster*
+
+    The click :guilabel:`Save` this will take you to the *New Layers
+    Chooser* then click publish and :guilabel:`Save` to finish adding the
+    raster. If you go to the Layers Preview page you
+    can see the new image. 
+
 
 
 Clients for WMS layers
