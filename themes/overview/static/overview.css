@@ -293,8 +293,8 @@ display: block;
 
 #breadcrumbs {
 font-size: 0.85em;
-color: #c6e09b;
-border-bottom: 1px solid #c6e09b;
+color: #a0ce67;
+border-bottom: 1px solid #a0ce67;
 margin: 0.2em 0 1em;
 padding: 0 0 0.5em;
 }
@@ -305,7 +305,7 @@ display: inline;
 }
 
 #breadcrumbs a {
-color: #72a629;
+color: #49a942;
 text-decoration: none;
 }
 
