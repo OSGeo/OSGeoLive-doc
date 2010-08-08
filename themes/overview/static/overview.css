@@ -1,5 +1,5 @@
 /*@import url("http://extjs.cachefly.net/ext-2.2.1/resources/css/ext-all.css");*/
-
+@import url("../../osgeolive.css");
 @import url("sphinxdoc.css");
 
 /* override some of ext-all.css  */
@@ -90,13 +90,15 @@ div.footer {
 /* custom header */
 div.header {
     position: relative;
+    padding-bottom: 30px;
     overflow: hidden;
-    height: 30px;
-    background: #fff url(img/header-bg2.png) repeat-x;
 }
+/*    height: 30px;
+    background: #fff url(header-bg2.png) repeat-x;
 div.header div.wrap {
     margin: 0 80px;
-}
+}*/
+
 #logo {
     padding: 0;
     padding-top: 0.5em;
