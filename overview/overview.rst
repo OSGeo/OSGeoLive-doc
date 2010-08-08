@@ -36,7 +36,7 @@ Specific Desktop GIS
 * :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3 Dimention Terrain Rendering
 * :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Plot
 * :doc:`gpsdrive_overview` - [`QuickStart <../quickstart/gpsdrive_quickstart.html>`_] - GPS
-* :doc:`geokettle_overview` - Business Intelligence
+* :doc:`geokettle_overview` - Data Integration
 * :doc:`ossim_overview` - [`QuickStart <../quickstart/ossim_quickstart.html>`_] - Image Processing
 * :doc:`R_overview` Statistical Programming
 * :doc:`mb-system_overview` - [`QuickStart <../quickstart/mb-system_quickstart>`_] - Sea Floor Mapping
