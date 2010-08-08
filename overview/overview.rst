@@ -46,7 +46,7 @@ Specific Desktop GIS
 Tools
 -----
 * :doc:`gmt_overview` - GeoSpatial Alorithm Tools
-* :doc:`mapnik_overview` - Cartographic Rendering
+* :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Cartographic Rendering
 * :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - Open Street Map Tools
 
 Generic Web Services
