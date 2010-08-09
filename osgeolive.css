@@ -1,3 +1,9 @@
+body {
+    min-width: 800px;
+    font-family: 'Lucida Sans','Geneva','Verdana',sans-serif;
+}
+
+
 .header {
 	height:101px;
 	width:100%;
