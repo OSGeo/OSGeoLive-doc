@@ -26,7 +26,7 @@ When opening SAGA for the first time, you are presented with 3 subwindows: the W
 Opening Data
 ============
 
-Open the SAGA GUI and load the grid `/usr/local/share/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load Grid** menu. You will 
+Open the SAGA GUI and load the grid `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load Grid** menu. You will 
 get a message in the General tab of the Messages window regarding the success or 
 failure of this task. You should see something like `Load Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. 
 Once you loaded the dataset, it will show up in the Data tab of the Workspace window. 
