@@ -21,13 +21,13 @@ Manuals
 
 Tutorials
 =========
-More tutorials are posted as blog entries at `www.geopublishing.org <http://en.geopublishing.org>`_.
 
 AtlasStyler (Styling layers with SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `AtlasStyler Labelling tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
 * `AtlasStyler tutoriel d'étiquetage SLD, Frensh, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
 
+More tutorials are posted as blog entries at <a href="http://en.geopublishing.org">www.geopublishing.org</a> (you have to be online to visit this webpage).
 
 Running
 =======
@@ -37,7 +37,7 @@ Getting Started
 
 AtlasStyler is a GUI based application, that allows you to create .SLD files for your vectordata. 
 
-1) Go to :menuselection:`Applications --> Science --> AtlasStyler`. 
+1) Go to :menuselection:`Applications --> Education --> AtlasStyler`. 
  
 2) Use the import buttons to either add ESRI Shapefiles oder PostGIS datasources to your project.
 
