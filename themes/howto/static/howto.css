@@ -1,5 +1,5 @@
 /*@import url("http://extjs.cachefly.net/ext-2.2.1/resources/css/ext-all.css");*/
-
+@import url("../../osgeolive.css");
 @import url("sphinxdoc.css");
 
 /* override some of ext-all.css  */
@@ -28,7 +28,7 @@ body {
     background-color: white;
     margin-left: 0;
     margin-right: 0;
-    min-width: 900px;
+    min-width: 760px;
     padding: 0;
     line-height: 110%;
     font-family: 'Lucida Sans','Geneva','Verdana',sans-serif;
@@ -74,7 +74,7 @@ div.document {
     margin: 0 10px;
 }
 div.documentwrapper {
-    margin-left: 175px;
+    /*margin-left: 175px;*/
     margin-right: 10px;
     padding: 0;
 }
@@ -90,13 +90,14 @@ div.footer {
 /* custom header */
 div.header {
     position: relative;
+    padding-bottom: 30px;
     overflow: hidden;
-    height: 30px;
-    background: #fff url(img/header-bg2.png) repeat-x;
+/*    height: 30px;
+    background: #fff url(header-bg2.png) repeat-x;
 }
 div.header div.wrap {
     margin: 0 80px;
-}
+}*/
 #logo {
     padding: 0;
     padding-top: 0.5em;
@@ -107,7 +108,6 @@ div.header div.wrap {
     height: 125px;
     overflow: hidden;
     text-indent: -9999em;
-    background: url(img/geotools-logo.png) no-repeat;
 }
 #logo_osgeo {
 	padding: 0;
@@ -121,37 +121,6 @@ div.header div.wrap {
     overflow: hidden;
     text-indent: -9999em;
     background: url(img/osgeo-logo.png) no-repeat;
-}
-
-#top-nav {
-    position: absolute;
-    bottom: 15px;
-    right: 90px;
-    list-style: none;
-    margin: 0;
-}
-
-#top-nav li {
-    display: inline;
-    margin: 0;
-    padding: 0 8px;
-/*    border-left: 1px solid #47aa42;*/
-    border-left: 1px solid #CA7900;
-}
-
-#top-nav li:first-child, #top-nav li.first {
-    border-left: 0;
-}
-
-#top-nav li a {
-/*    color: #47aa42;*/
-    font-weight: bold;
-    text-decoration: none;
-    font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-}
-
-#top-nav li a:hover {
-/*    color: #e0e0e0;*/
 }
 
 /* index page links */
@@ -325,8 +294,8 @@ display: block;
 
 #breadcrumbs {
 font-size: 0.85em;
-color: #c6e09b;
-border-bottom: 1px solid #c6e09b;
+color: #a0ce67;
+border-bottom: 1px solid #a0ce67;
 margin: 0.2em 0 1em;
 padding: 0 0 0.5em;
 }
@@ -337,12 +306,12 @@ display: inline;
 }
 
 #breadcrumbs a {
-color: #72a629;
+color: #49a942;
 text-decoration: none;
 }
 
 #breadcrumbs a:hover {
-color: #26b2dd;
+color: #1166ad;
 }
 
 div #body {
