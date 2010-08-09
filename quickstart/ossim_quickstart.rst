@@ -12,7 +12,7 @@
   :align: right
 
 ****************
-Ossim Quickstart 
+Ossim 1.8.6 Quickstart 
 ****************
 
 Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing,
