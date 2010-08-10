@@ -59,7 +59,7 @@ Details
 
 **Licence:** GPL v3
 
-**Software Version:** 1.8.3
+**Software Version:** 1.8.6
 
 **Supported Platforms:** Linux, Mac, Windows
 
