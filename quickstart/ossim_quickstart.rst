@@ -44,12 +44,12 @@ OssimPlanet
 ===========
 
 * Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
-* Select :menuselection:`File --> Open Session --> /home/user/ossim/session.session`
+* Select :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
+* Go to :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
+* Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double click on the band1 image`
+you should see the scene zoom to the image's location 
 * Navigate the scene.
-* Go to :menuselection:`menu --> Open kml --> /home/user/data/kml/*.kml`
-* Go on the :menuselection:`legend tree --> location --> open the trees --> double click on the kml location`
 
-you should see the scene zoom to the location 
 
 `Note`: to turn off the daylight auto-shading, un-check :menuselection:`Preferences --> Environment --> Enable Ephemeris`
 
