@@ -50,7 +50,7 @@ The demo uses a tileserver designed for Mapnik called "TileLite"
 
 To run the demo just follow these steps:
 
-  #. Click :menuselection:`Desktop --> Servers --> Start Mapnik & TileLite`
+  #. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileLite`
 
     * The server should start in a terminal window (which stays open and outputs basic debugging information).
         
