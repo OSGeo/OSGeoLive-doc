@@ -125,6 +125,8 @@ To switch it on you will have to edit (as root) the
 **/etc/default/speech-dispatcher** file and set **RUN_SPEECHD=yes**.
 Then launch the service with "`sudo service speech-dispatcher start`".
 GpsDrive will automatically find it at run time if it is switched on.
+In the Speech tab of the Preferences menu you can enable/disable it,
+change the voice, and verbosity level.
 
 
 Further reading
