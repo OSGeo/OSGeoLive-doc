@@ -67,3 +67,10 @@ Details
 **API Interfaces:** Java
 
 **Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/geomajas_quickstart.html>`_
+
