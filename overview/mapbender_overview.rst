@@ -81,7 +81,7 @@ Details
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Software Version:** 2.6.2, 2.7 coming soon
+**Software Version:** 2.6.2
 
 **Supported Platforms:** Windows, Linux, Mac
 
