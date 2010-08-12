@@ -39,7 +39,11 @@ AtlasStyler is a GUI based application, that allows you to create .SLD files for
 
 1) Go to :menuselection:`Applications --> Education --> AtlasStyler`. 
  
-2) Use the import buttons to either add ESRI Shapefiles oder PostGIS datasources to your project.
+2) Use the import buttons to either add ESRI Shapefiles oder PostGIS datasources to your project. 
 
-3) Click the tool-icon in the layer legend and select style. The main AtlasStyler dialog will open. While you change the style, the 'automatic preview' option at the bottom will render your changes on the fly.
+2.1) If you select PostGIS, the correct database settings are already preset. Just enter password 'user' to add the '10m_land' layer.
+
+2.2) If you select Shapefile, choose '/usr/local/share/data/natural_earth/10m_land.shp' for example. 
+
+3) Click the tool-icon in the layer legend and select style. The main AtlasStyler dialog will open. While you change the style, the 'automatic preview' option at the bottom will allow to see your changes on the fly. If the data is too big (or the system too slow) deactivate the 'automatic preview' checkbox.
 
