@@ -39,7 +39,7 @@ AtlasStyler is an end-user based application, that allows you to create .SLD fil
 
 0) The OSGeo Live DVD uses the Xubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
 
-1) Go to :menuselection:`Applications --> Education --> AtlasStyler` to start the application.
+1) Go to :menuselection:`Geospatial --> Desktop GIS --> AtlasStyler` to start the application.
  
 2) Use the import buttons to either add ESRI Shapefiles oder PostGIS datasources to your project. 
 

@@ -66,7 +66,7 @@ Geopublisher is an end-user application, that allows you to compile and style yo
 
 1) Uncompress the demo atlas: Click on `this link <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ and select 'Open with Archive Manager (default)'. This will open the ZIP file. Next select the third icon in the toolbar to extract and choose 'Desktop' as the target folder. Now you should have a folder 'ChartDemoAtlas' on your desktop. You can close the Archive Manager application.
 
-3) Now start the Geopublisher application. :menuselection:`Applications --> Science --> Geopublisher`. Geopublisher starts and will ask you which atlas to open. Select 'atlas.gpa' from folder 'ChartDemoAtlas'. It now loads the atlas. You should see a triparted GUI with a map-pool, data-pool and menu area. This GUI allows you to create and organize multiple multi-language maps.
+3) Now start the Geopublisher application. :menuselection:`Geospatial --> Desktop GIS --> Geopublisher`. Geopublisher starts and will ask you which atlas to open. Select 'atlas.gpa' from folder 'ChartDemoAtlas'. It now loads the atlas. You should see a triparted GUI with a map-pool, data-pool and menu area. This GUI allows you to create and organize multiple multi-language maps.
 
 4) Add a Shapefile to the atlas: Select :menuselection:`File --> Import... --> Import files` and select '/home/user/data/natural_earth/10m_lakes.shp'. Geopublisher will ask you to describe that new layer with a title and a description. If that atlas would be configured to be multilingual, this information would be asked for every language. You will see the new layer appearing the DataPool section.
 
