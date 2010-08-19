@@ -9,7 +9,7 @@ OSGeo-Live Contents
 Browser Clients
 ---------------
 * :doc:`openlayers_overview` - [`QuickStart <../quickstart/openlayers_quickstart.html>`_]
-* :doc:`geomajas_overview`
+* :doc:`geomajas_overview` - [`QuickStart <../quickstart/geomajas_quickstart.html>`_]
 * :doc:`mapbender_overview`
 * :doc:`mapfish_overview` - [`QuickStart <../quickstart/mapfish_quickstart.html>`_]
 
