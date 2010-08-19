@@ -38,7 +38,7 @@ Desktop GIS
 * :doc:`geopublisher_overview`- [`QuickStart <../quickstart/geopublisher_quickstart.html>`_] - Catalogue
 * :doc:`atlasstyler_overview` - [`QuickStart <../quickstart/atlasstyler_quickstart.html>`_] - Style Editor
 * :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3 Dimention Terrain Rendering
-* :doc:`mb-system_overview` - [`QuickStart <../quickstart/mb-system_quickstart>`_] - Sea Floor Mapping
+* :doc:`mb-system_overview` - [`QuickStart <../quickstart/mb-system_quickstart.html>`_] - Sea Floor Mapping
 
 Navigation and Maps
 -------------------
