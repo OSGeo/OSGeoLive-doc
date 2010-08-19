@@ -44,10 +44,14 @@ OssimPlanet
 ===========
 
 * Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
+
 * Select :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
+
 * Go to :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
-* Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double click on the band1 image`
+
+* Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
 you should see the scene zoom to the image's location 
+
 * Navigate the scene.
 
 
@@ -68,3 +72,4 @@ What Next?
   See also the included documentation_ on this DVD.
 
 .. _documentation: file:///usr/local/share/ossim/
+
