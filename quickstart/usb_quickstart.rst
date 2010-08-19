@@ -111,4 +111,4 @@ See Also:
 
 * If you have issues, please report them on this wiki page: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB and discuss on our email list: http://lists.osgeo.org/mailman/listinfo/live-demo
 * For further USB boot options, see http://pendrivelinux.com 
-* :doc:`virtualbox-quickstart`
+* :doc:`virtualbox_quickstart`
