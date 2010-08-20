@@ -7,7 +7,7 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _udig-quickstart:
+.. _virtualbox-quickstart:
  
 .. Writing Tip: 
   Project logos are stored here:

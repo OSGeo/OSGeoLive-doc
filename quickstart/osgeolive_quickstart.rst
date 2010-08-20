@@ -7,7 +7,7 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _udig-quickstart:
+.. _osgeolive-install-quickstart:
  
 .. Writing Tip: 
   Project logos are stored here:
