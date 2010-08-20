@@ -19,7 +19,7 @@
 OSGeo-Live Quickstart for Virtual Box
 *************************************
 
-Here we describe a simple setup for running OSGeo-Live inside the `VirtualBox <http://www.virtualbox.org/>`_ Virtual Machine.
+Here we describe a simple setup for setting up OSGeo-Live from a simulated DVD in the `VirtualBox <http://www.virtualbox.org/>`_ Virtual Machine.
 
 VirtualBox is an Open Source Virtual Machine which is used by many of the OSGeo-Live developers and testers.
 
@@ -63,7 +63,9 @@ Set Base Memory to at least 512 MB.
   .. image:: images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %
 
-Deselect "Boot Hard Disk", as here we describe the light weight install where we simulate booting from a DVD.
+Simple install: Deselect "Boot Hard Disk", the Virtual Machine will always boot from an simulated DVD.
+
+If you wish a more robust virtual machine, which stores state between sessions and which can have improved screen resolution settings and tools set, then include the hard disk, and install later.
 
   .. image:: images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
