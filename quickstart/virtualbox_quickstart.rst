@@ -63,9 +63,12 @@ Set Base Memory to at least 512 MB.
   .. image:: images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %
 
-Simple install: Deselect "Boot Hard Disk", the Virtual Machine will always boot from an simulated DVD.
+Simple install: Deselect "Boot Hard Disk", the Virtual Machine will always
+boot from an simulated DVD.
 
-If you wish a more robust virtual machine, which stores state between sessions and which can have improved screen resolution settings and tools set, then include the hard disk, and install later.
+If you wish to have a persistent virtual machine, which stores state
+between sessions and which can have improved screen resolution settings
+and tools set, then include the hard disk, and install later.
 
   .. image:: images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
