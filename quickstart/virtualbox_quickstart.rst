@@ -19,7 +19,7 @@
 OSGeo-Live Quickstart for Virtual Box
 *************************************
 
-Here we describe a simple setup for setting up OSGeo-Live from a simulated DVD in the `VirtualBox <http://www.virtualbox.org/>`_ Virtual Machine.
+Here we describe a method for running an OSGeo-Live DVD or ISO in the `VirtualBox <http://www.virtualbox.org/>`_ Virtual Machine.
 
 VirtualBox is an Open Source Virtual Machine which is used by many of the OSGeo-Live developers and testers.
 
@@ -29,7 +29,6 @@ System Requirements
 * RAM: 1 Gig, preferably 2Gig if you plan to run other applications as well
 * Spare Hard Disk Space:
  * 5 Gig if running from ISO
- * 12 Gig if downloading just the Virtual Machine
  * 17 Gig if installing locally from an ISO
 
 Create a Virtual Machine
@@ -100,10 +99,46 @@ Select the OSGeo-Live image.
   .. image:: images/screenshots/800x600/virtualbox_start_vm.png
     :scale: 70 %
 
-Now you can start the virtual machine.
+Now you can start the virtual machine as per the :doc:`osgeolive_quickstart`
+
+Create permanent Virtual Machine
+--------------------------------
+If you plan to use the OSGeo-Live DVD a lot, you will likey want to create a permanent virtual machine, as per: :doc:`osgeolive_install_quickstart`.
+
+Increase Display Size
+---------------------
+You can then add the virtual boots tools which support higher screen
+resolution support, copy and past between guest and host, graphics
+acceleration, and more.
+
+Make sure you're computer is connected to the internet.
+
+  .. image:: images/screenshots/800x600/virtualbox_synaptic_menu.png
+    :scale: 70 %
+
+Select the synaptic package manager application.
+
+Enter password = "user"
+
+  .. image:: images/screenshots/800x600/virtualbox_synaptic_select_tools.png
+    :scale: 70 %
+
+Mark "virtualbox-ose-guest-utils" for installation.
+
+  .. image:: images/screenshots/800x600/virtualbox_synaptic_apply.png
+    :scale: 70 %
+
+Apply the changes.
+
+Reboot the virtual machine and the display settings should match your host
+computer's display settings. These can be changed via:
+
+Select: Applications -> Settings -> Xfce 4 Settings Manager -> Display
 
 See Also:
 ---------
 
  * :doc:`osgeolive_quickstart`
+ * :doc:`osgeolive_install_quickstart`
+ * :doc:`usb_quickstart`
 
