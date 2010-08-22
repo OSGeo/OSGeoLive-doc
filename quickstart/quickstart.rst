@@ -10,6 +10,7 @@ OSGeo-Live Quick Starts
   :maxdepth: 1
 
   osgeolive_quickstart
+  internationalisation_quickstart
   osgeolive_install_quickstart
   virtualbox_quickstart
   usb_quickstart
