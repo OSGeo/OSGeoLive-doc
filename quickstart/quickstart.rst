@@ -6,7 +6,16 @@
 OSGeo-Live Quick Starts
 =======================
 
+.. toctree::
+  :maxdepth: 1
 
+  osgeolive_quickstart
+  osgeolive_install_quickstart
+  virtualbox_quickstart
+  usb_quickstart
+
+Application Quick Starts
+========================
 .. toctree::
   :maxdepth: 1
 
