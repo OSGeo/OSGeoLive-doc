@@ -1,8 +1,7 @@
 body {
-    min-width: 800px;
+    min-width: 768px;
     font-family: 'Lucida Sans','Geneva','Verdana',sans-serif;
 }
-
 
 .header {
 	height:101px;
@@ -23,7 +22,7 @@ body {
 	color:black;
 	text-decoration:none;
 	font-size: 1.2em;
-	padding: 0px 20px 0px 20px;
+	padding:0 10px 0 10px;
 }
 .header li a:hover{
 	background-color:#ccea94;
@@ -31,10 +30,6 @@ body {
 .header li{
 	display:inline;
 	list-style-type:none;
-}
-
-.header a{
-	padding:0 10px 0 10px;
 }
 
 .banner {
