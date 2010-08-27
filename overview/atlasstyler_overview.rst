@@ -48,6 +48,8 @@ Details
 
 **Software Version:** 1.5
 
+**Licence:** GNU Lesser General Public License (LGPL) version 3.0
+
 **Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** Java, Swing, Geotools

@@ -23,14 +23,14 @@ Tutorials
 Geopublisher (Create and export atlases)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `First "Hands on Geopublisher" tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_EN.pdf>`_
-* `First "Hands on Geopublisher" tutorial, Frensh, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_FR.pdf>`_
+* `First "Hands on Geopublisher" tutorial, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_FR.pdf>`_
 * `Second "Hands on Geopublisher" tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_EN.pdf>`_
-* `Second "Hands on Geopublisher" tutorial, Frensh, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_FR.pdf>`_
+* `Second "Hands on Geopublisher" tutorial, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_FR.pdf>`_
 
 AtlasStyler (Styling layers with SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `AtlasStyler Labelling tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
-* `AtlasStyler tutoriel d'étiquetage SLD, Frensh, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
+* `AtlasStyler tutoriel d'étiquetage SLD, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
 
 More tutorials are posted as blog entries at `http://en.geopublishing.org <http://en.geopublishing.org">`_ (you have to be online to visit this webpage).
 
@@ -39,7 +39,7 @@ Manuals
 
 Geopublisher (Create and export atlases)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `Geopublisher manual, Frensh, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
+* `Geopublisher manual, French, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
 * `Geopublisher manual, German, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_    
 
 AtlasStyler (Styling layers with SLD)
@@ -49,7 +49,7 @@ AtlasStyler (Styling layers with SLD)
 AtlasViewer (How to use atlases created with Geopublisher)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `AtlasViewer manual, Frensh, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
+* `AtlasViewer manual, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
 * `AtlasViewer manual, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_ 
 * `AtlasViewer manual, German, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_  
 
