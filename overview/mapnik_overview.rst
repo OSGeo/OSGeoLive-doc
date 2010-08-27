@@ -17,9 +17,9 @@ Mapnik
 Cartographic rendering engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik is an OpenSource C++/Python toolkit for developing  mapping
-applications. At the core is a C++ shared library providing
-algorithms/patterns for spatial data access and visualization.
+Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges provided by quality anti-aliasing graphics, intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the Open Street Map main map layers.
+
+Mapnik has typically been embedded in python applications which deliver their maps over the internet although scaling improvements have meant that Mapnik has recently been getting used to create high resolution paper maps too.
 
 .. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
