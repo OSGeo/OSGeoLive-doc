@@ -17,7 +17,7 @@ MB-System
 Sea floor mapping
 ~~~~~~~~~~~~~~~~~
 
-MB-System is open source software used to process sonar data to visualise sea floor terains. It displays bathymetry and backscatter imagery data derived from
+MB-System is open source software used to process sonar data to visualise sea floor terrains. It displays bathymetry and backscatter imagery data derived from
 multibeam, interferometry, and sidescan sonars. It has close ties
 to the `GMT <gmt_overview.html>`_ software.
 
