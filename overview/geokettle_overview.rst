@@ -41,8 +41,8 @@ GeoKettle
   * GIS Tools
   * ...
 
-Business Intelligence
-~~~~~~~~~~~~~~~~~~~~~
+Data Integration
+~~~~~~~~~~~~~~~~
 
 .. Writing Tip:
   Address user questions of "What does the application do?",
@@ -51,7 +51,7 @@ Business Intelligence
   Don't mention licence or open source in this section.
   Target audience is a GIS practitioner or student who is new to Open Source.
 
-GeoKettle is a "spatially-enabled" version of `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_. It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses.
+GeoKettle is a "spatially-enabled" version of the `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_. It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses.
 
 GeoKettle enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, and the Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service.
 
