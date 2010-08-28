@@ -16,10 +16,11 @@ OpenCPN
 
 Marine GPS navigation software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenCPN is a free software project to create a concise chart plotter
-and navigation software for use as an underway or planning tool.
-OpenCPN is developed by a team of active sailors using real world
-conditions for program testing and refinement.
+OpenCPN provides free navigation software for use at the helm of vessels of all types and sizes, as well as offline for route planning. It has been developed by a team of active sailors using real world conditions for program testing and refinement.
+
+OpenCPN presents a user with the vessel's current position, speed and course superimposed upon accurate navigational chart images, tide and current predictions. Information received by standard radio links describing the position and intent of other vessels can also be shown.
+
+As the host vessel moves, new charts are selected and displayed at user specified resolution and detail. Further, the user may enter routes and waypoints allowing interface to an external autopilot for precise course following.
 
 
 Core Features
