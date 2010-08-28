@@ -21,7 +21,7 @@ MB-System is open source software used to process sonar data to visualise sea fl
 multibeam, interferometry, and sidescan sonars. It has close ties
 to the `GMT <gmt_overview.html>`_ software.
 
-MB-System has been under active development since 1993, with active support from a number of research and science organisations.
+MB-System has been under development since 1993, with active support from a number of research and science organisations.
 
 Core Features
 -------------
