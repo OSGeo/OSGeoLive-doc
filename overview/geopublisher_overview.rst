@@ -55,7 +55,7 @@ Details
 
 **Software Version:** 1.5
 
-**Licence:** GNU General Public License (LGPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
+**Licence:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
 
 **Supported Platforms:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
 
