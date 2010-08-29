@@ -14,8 +14,8 @@
 Ushahidi
 ========
 
-Web Service
-~~~~~~~~~~~
+Incident Timeline & Mapping
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
 platform that allows anyone to gather distributed data via SMS, email or 
