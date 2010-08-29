@@ -91,7 +91,6 @@ div.footer {
 div.header {
     position: relative;
     padding-bottom: 30px;
-    overflow: hidden;
 /*    height: 30px;
     background: #fff url(header-bg2.png) repeat-x;
 }
