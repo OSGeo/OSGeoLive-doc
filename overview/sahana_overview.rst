@@ -29,7 +29,7 @@ countrywomen affected during the 2004 Asian Tsunami in December 2004.
 The system was officially used by the Government of Sri Lanka and the
 system was released as Free and Open Source software. Subsequently a
 re-write as a generic disaster management tools was incubated with
-the sponsorship of SIDA, IBM and NSF (US) and it has be used by
+the sponsorship of the Swedish International Development Agency, IBM, the US National Science Foundation and it has been used by
 dozens of Governments and NGOs since then.
 
 .. image:: images/screenshots/800x600/sahana-camp-dist_0.jpg
