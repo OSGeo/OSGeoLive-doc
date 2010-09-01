@@ -72,6 +72,8 @@ Details
 
 **Licence:** GPL
 
+**Software Version:** 1.3
+
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://www.openjump.org/support.html
