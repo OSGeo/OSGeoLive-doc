@@ -55,7 +55,7 @@ Spatial Tools
 * :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Cartographic Rendering
 * :doc:`maptiler_overview` - Map Tiles
 * :doc:`R_overview` Statistical Programming
-* :doc:`gmt_overview` - GeoSpatial Algorithm Tools
+* :doc:`gmt_overview` - The Generic Mapping Tools
 
 Web Services
 ------------
