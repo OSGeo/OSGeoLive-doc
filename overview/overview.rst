@@ -47,7 +47,7 @@ Navigation and Maps
 * :doc:`marble_overview` - [`QuickStart <../quickstart/marble_quickstart.html>`_] - Spinning Globe
 * :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Plot
 * :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS
-* :doc:`zygrib_overview` - Weather Forcast Maps
+* :doc:`zygrib_overview` - Weather Forecast Maps
 
 Spatial Tools
 -------------
