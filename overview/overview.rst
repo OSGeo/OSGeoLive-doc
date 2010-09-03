@@ -35,7 +35,6 @@ Desktop GIS
 * :doc:`openjump_overview`
 * :doc:`saga_overview` - [`QuickStart <../quickstart/saga_quickstart.html>`_]
 * :doc:`ossim_overview` - [`QuickStart <../quickstart/ossim_quickstart.html>`_] - Image Processing
-* :doc:`zygrib_overview` - Weather Forcasting
 * :doc:`geopublisher_overview`- [`QuickStart <../quickstart/geopublisher_quickstart.html>`_] - Catalogue
 * :doc:`atlasstyler_overview` - [`QuickStart <../quickstart/atlasstyler_quickstart.html>`_] - Style Editor
 * :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3 Dimention Terrain Rendering
@@ -48,6 +47,7 @@ Navigation and Maps
 * :doc:`marble_overview` - [`QuickStart <../quickstart/marble_quickstart.html>`_] - Spinning Globe
 * :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Plot
 * :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS
+* :doc:`zygrib_overview` - Weather Forcasting
 
 Spatial Tools
 -------------
