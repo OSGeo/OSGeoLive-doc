@@ -11,7 +11,7 @@
   :target: http://cran.r-project.org
 
 
-R 空間解析機能
+R 遨ｺ髢楢ｧ｣譫先ｩ溯�ｽ
 ===================
 
 .. Writing Tip:
@@ -25,7 +25,7 @@ R 空間解析機能
   * GIS Tools
   * ...
 
-統計プログラミング
+邨ｱ險医�励Ο繧ｰ繝ｩ繝溘Φ繧ｰ
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 R is a powerful, widely used software environment for statistical computing and graphics which excels at analyzing and processing geographic data sets. Geospatial analysis capabilities within R are available in R packages (modules that extend the capabilities of R) that provide access to a large number of traditional and state of the art algorithms, often before they are available in other open source or proprietary software. R and it's packages are able to process point, line, polygon and grid data. Users can accomplish a broad array of tasks such as: image classification, statistical analysis to infer spatial relationships and patterns of features, and others listed in the core features below. The functions available via R compliment and advance capabilities found in GIS and image processing software.
@@ -53,7 +53,7 @@ R is an implementation of the S programming language and there is significant co
 * Spatial regression
 * Ecological analysis
 
-詳細
+隧ｳ邏ｰ
 -------
 
 **Website:** http://cran.r-project.org
