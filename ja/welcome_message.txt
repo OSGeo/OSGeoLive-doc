@@ -1,32 +1,64 @@
+.. Welcome to the OSGeo Live GIS DVD.
 OSGeo Live GIS DVD へようこそ！
 
 
-See the road-sign Help icon on the Desktop for information
-about the Live disc and virtual-machine, including a
-synopsis of bundled geospatial packages and a series of
-quick-start short tutorials.
+..
+  See the road-sign Help icon on the Desktop for information
+  about the Live disc and virtual-machine, including a
+  synopsis of bundled geospatial packages and a series of
+  quick-start short tutorials.
 
-To change the language, log out (Applications menu) and
-along the bottom of the login screen is the language menu. 
-Once you log back in (the password if you need it is
-"user"), there is a flag icon on the top menu bar that lets
-you pick the keyboard layout. You can also set it via the
-menus with Applications > System > Language Support.
+Liveディスクとバーチャルマシンの情報を知りたい方はデスクトップ
+の上のヘルプアイコンを見てください。バンドルされた地理空間パッ
+ケージの情報や一連のクィックスタート内の短いチュートリアルを見
+ることができます。
 
-Program installers for Macintosh OSX and Microsoft Windows
-can be found in the MacInstallers and WindowsInstallers
-directories.
+..
+  To change the language, log out (Applications menu) and
+  along the bottom of the login screen is the language menu. 
+  Once you log back in (the password if you need it is
+  "user"), there is a flag icon on the top menu bar that lets
+  you pick the keyboard layout. You can also set it via the
+  menus with Applications > System > Language Support.
 
-Passwords for various things can be found in the
-passwords.txt file on the Desktop.
+言語を変更するには、アプリケーションメニューからログアウトを
+してください。user を選択すると画面下部に言語の選択メニューが
+表示されますので、選択しなおして最ログインをしてください。
+（パスワードは user です）
+上部のメニューバーにある旗のアイコンから、キーボードレイアウト
+を変更することもできます。また、メニューから アプリケーション
+＞システム＞言語サポート　を選択することでも言語やキーボード
+レイアウトが変更できます。
 
-If you need to become "root" (the UNIX super-user) open a
-Terminal and type "sudo su", then enter "user" as the
-password.
+..
+  Program installers for Macintosh OSX and Microsoft Windows
+  can be found in the MacInstallers and WindowsInstallers
+  directories.
 
-The living FAQ can be found here:
+MacInstallers や WindowsInstallers フォルダ内には、Macintosh 
+OSX や Microsoft Windows の為のインストーラが存在しています。
+
+..
+  Passwords for various things can be found in the
+  passwords.txt file on the Desktop.
+
+パスワードやその他の情報は、デスクトップにある passwords.txt
+に書かれています。
+
+..
+  If you need to become "root" (the UNIX super-user) open a
+  Terminal and type "sudo su", then enter "user" as the
+  password.
+
+rootユーザ(UNIX のスーパーユーザ)になる必要がある場合は、
+ターミナルをオープンし、"sudo su" の後、パスワード"user" 
+をタイプしてください。
+
+.. The living FAQ can be found here:
+    http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
+
+最新のFAQは以下のURLから確認できます。
   http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
-
 
 
 Happy mapping!
