@@ -9,16 +9,18 @@ entirely of free software, allowing it to be freely distributed, duplicated
 and passed around.
 
 .. image:: quickstart/_images/osgeolive_menu.png
+  :width: 350
+  :height: 395
 It provides pre-configured applications for a range of geospatial use cases,
 including storage, publishing, viewing, analysis and manipulation of data. It
 also contains sample datasets and documentation.
 
-To try out the applications, simply:
+To try out the applications, simply::
 
-1.  Insert DVD or USB thumb drive in computer or virtual machine.
-2.  Reboot computer. (verify boot device order)
-3.  Press "Enter" to startup & login.
-4.  Trial applications from the "Geospatial" menu.
+#. Insert DVD or USB thumb drive in computer or virtual machine.
+#. Reboot computer. (verify boot device order)
+#. Press "Enter" to startup &amp; login.
+#. Trial applications from the "Geospatial" menu.
 
 Many applications are also provided with installers for `Apple OSX <../MacInstallers/>`_ and
 `Microsoft Windows <../WindowsInstallers/>`_.
