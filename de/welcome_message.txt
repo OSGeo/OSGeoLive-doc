@@ -1,33 +1,21 @@
-Welcome to the OSGeo Live GIS DVD.
+Willkommen auf der OSGeo Live GIS DVD.
 
 
-See the road-sign Help icon on the Desktop for information
-about the Live disc and virtual-machine, including a
-synopsis of bundled geospatial packages and a series of
-quick-start short tutorials.
+AUf dem Desktopo finden Sie einen Hilfe Button, über den Informationen über die Live DVD und virtuelle Maschine abgerufen werden können. Außerdem erhalten Sie hier Informationen zu den Softwareprojekten und eine Reihe an Tutorials.
 
-To change the language, log out (Applications menu) and
-along the bottom of the login screen is the language menu. 
-Once you log back in (the password if you need it is
-"user"), there is a flag icon on the top menu bar that lets
-you pick the keyboard layout. You can also set it via the
-menus with Applications > System > Language Support.
+Um die Sprache zu ändern müssen Sie sich abmelden. Unterhalb des Anmeldefensters finden Sie das Menü zur Sprachauswahl. 
+Nach dem erneuten Anmelden (das Paßwort ist "user") finden Sie ein Flaggensymbol im Menü, über das die Tastaturbelegung ausgewählt werden kann. Diese Tastaturbelegung kann auch über die Systemsteuerung über Anwendungen > System > Language Support erfolgen.
 
-Program installers for Macintosh OSX and Microsoft Windows
-can be found in the MacInstallers and WindowsInstallers
-directories.
+Installer für Macintosh OSX und Microsoft Windows finden sich in den Verzeichnissen MacInstallers und WindowsInstallers
 
-Passwords for various things can be found in the
-passwords.txt file on the Desktop.
+Verschiedene Paßworte finden sich auf dem Desktop in der Datei
+passwords.txt.
 
-If you need to become "root" (the UNIX super-user) open a
-Terminal and type "sudo su", then enter "user" as the
-password.
+Wenn Sie "root" (UNIX super-user) werden wollen, öffnen Sie einen Terminal und setzen Sie den Befehl "sudo su" ab. Geben Sie anschließend das Paßwort "user" ein.
 
-The living FAQ can be found here:
+Das FAQ finden Sie hier:
   http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
 
-
-
 Happy mapping!
-The OSGeo Live GIS Team
+
+Das OSGeo Live GIS Team
