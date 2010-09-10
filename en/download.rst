@@ -39,5 +39,5 @@ A .vmdk image ready to be loaded into a virtual machine like VirtualBox or VMWar
 
 For a full list of versions, download options and mirrors visit: http://download.osgeo.org/livedvd
 
-`Minimum suggested system resources: 512MB RAM, 1GHz i688 compatible
+[*] `Minimum suggested system resources: 512MB RAM, 1GHz i688 compatible
 CPU. No hard drive required. Mac users will benefit from a USB mouse.`
