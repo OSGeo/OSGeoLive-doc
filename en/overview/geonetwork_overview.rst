@@ -1,23 +1,8 @@
-.. Writing Tip:
-  Writing tips describe what content should be in the following section.
-
-.. Writing Tip:
-  Metadata about this document
-
 :Author: OSGeo Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _geonetwork-overview:
-
-.. Writing Tip: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    images/project_logos/<filename>
 
 .. image:: images/project_logos/logo-GeoNetwork.png
   :scale: 100 %
@@ -31,31 +16,13 @@
   :align: right
   :target: http://www.osgeo.org
 
-.. Writing Tip: Name of application
-
 GeoNetwork
 ==========
-
-.. Writing Tip:
-  Application Category Description:
-  * Metadata catalogue
-  * Web Service
-  * Browser GIS client
-  * GIS Tools
-  * ...
 
 Metadata Catalog
 ~~~~~~~~~~~~~~~~
 
 GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards.
-
-.. Writing Tip:
-  Provide a image of the application which will typically be a screen shot
-  or a collage of screen shots.
-  Store image in image/<application>_<name>.gif . Eg: udig_main_page.gif
-  Screenshots should be captured from a 1024x768 display.
-  Don't include the desktop background as this changes with each release
-  and will become dated.
 
 .. image:: images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
@@ -76,18 +43,8 @@ Core Features
 * Multi-lingual user interface
 * A randomly selected Featured Map
 
-.. Writing Tip:
-  Optional: A second screenshot can sometimes be added here
-  if there is sufficient room.
-  .. image:: images/screenshots/800x600/pgadmin.gif
-    :scale: 50 %
-    :alt: project logo
-    :align: right
-
 Implemented Standards
 ---------------------
-
-.. Writing Tip: List OGC or related standards supported.
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
@@ -112,13 +69,5 @@ Details
 
 **API Interfaces:** Java
 
-.. Writing Tip:
-  Link to webpage which lists the primary support details for the application,
-  preferably this would list both community and commercial contacts.
-
 **Support:** http://www.osgeo.org/search_profile
 
-.. Writing Tip:
-  Later, we may introduce a Maturity Rating, but currently the format, and
-  whether we go ahead with such a rating is still under discussion.
-  http://wiki.osgeo.org/wiki/Marketing_Artefacts#Maturity_Rating
