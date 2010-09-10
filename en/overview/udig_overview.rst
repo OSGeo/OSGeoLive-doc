@@ -4,12 +4,6 @@
 
 .. _udig_overview:
 
-.. Writing Tip: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    images/project_logos/<filename>
-
 .. image:: images/project_logos/logo-uDig.png
   :scale: 30
   :alt: udig logo
@@ -21,13 +15,6 @@ User-friendly Desktop Internet GIS (uDig)
 
 Desktop GIS
 ~~~~~~~~~~~
-
-.. Writing Tip:
-  Address user questions of "What does the application do?",
-  "When would I use it?", "Why would I use it over other applications?",
-  "How mature is the application and how widely deployed is it?".
-  Don't mention licence or open source in this section.
-  Target audience is a GIS practitioner or student who is new to Open Source.
 
 .. image:: images/screenshots/1024x768/udig-overview.png
   :scale: 50
