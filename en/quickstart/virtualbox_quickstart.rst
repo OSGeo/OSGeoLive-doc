@@ -1,20 +1,10 @@
-
 :Author: OSGeo Live
 :Author: Cameron Shorter
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _virtualbox-quickstart:
  
-.. Writing Tip: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    images/project_logos/logos-<application>.png
-
 *************************************
 OSGeo-Live Quickstart for Virtual Box
 *************************************

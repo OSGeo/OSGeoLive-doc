@@ -1,63 +1,15 @@
-.. Writing Tip:
-  Writing tips describe what content should be in the following section.
-
-.. Writing Tip:
-  This Quick Start should describe how to run a simple example, which
-    covers one of the application's primary functions.
-  The Quick Start should be able to be executed in around 5 minutes.
-  The Quick Start may optionally include a few more sections
-    which describes how to run extra functions.
-  This document should describe every detailed step to get the application
-    to work, including every screen shot involved in the sequence.
-  Finish off with "Things to Try" and "What Next?" sections.
-  Assume the user has very little domain expertise, so spell everything out.
-  If using example data, please use the general layers from naturalearth
-   and Open Street Map. These layers are loaded by install_gisdata.sh into:
-   Open Street Map:
-     /home/user/data/osm/
-   Vector Data: Available as .shp files
-     /home/user/data/natural_earth/
-       10m-populated-places-simple
-       10m-admin-0-countries
-       10m-populated-places-simple
-       10m-urban-area
-       10m-land
-       10m-ocean
-       10m-lakes
-       10m-rivers-lake-centerlines
-   Raster Raster basemap Cross Blended Hypso with Shaded Relief and Water
-     1:50 million (40mb). Available as .tif
-     /home/user/data/natural_earth/HYP_50M_SR_W/
-
-.. Writing Tip:
-  Metadata about this document
-
 :Author: Ian Turton
 :Version: osgeo-live4.0
 :License: Creative Commons
 :Thanks: geoserver-user list
-
-.. Writing Tip:
-    save typing with common program names
 
 .. |GS| replace:: GeoServer
 .. |PG| replace:: PostGIS
 .. |UG| replace:: uDig 
 .. |OL| replace:: OpenLayers
 
-
-
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _geoserver-quickstart:
  
-.. Writing Tip: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    images/project_logos/logos-<application>.png
-
 .. image:: images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
@@ -66,17 +18,8 @@
 GeoServer Quickstart 
 ********************
 
-.. Writing Tip:
-  First sentence defines what the application does.
-  You may also need to include a sentence of two describing the domain.
-  Eg: For a Business Intelligence application, you should describe what
-  Business Intelligence is.
-
 GeoServer is a java application for serving maps (and data) for other
 clients to draw.
-
-.. Writing Tip:
-  Describe what will be covered in this Quick Start.
 
 This Quick Start describes how to:
 
@@ -88,25 +31,9 @@ This Quick Start describes how to:
 Start |GS|
 ==========
 
-.. Writing Tip:
-  Describe steps to start the application
-  This should include a graphic of the pull-down list, with a red circle
-  around the application menu option.
-  #. A hash numbers instructions. There should be only one instruction per
-     hash.
-
-
 #. Select the "Start GeoServer" icon.
 #. The application will take a few moments to start up
 #. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
-
-.. Writing Tip:
-  For images, use a scale of 50% from a 1024x768 display (preferred) or
-  70% from a 800x600 display.
-  Images should be stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
-  and accessed here:
-    images/screenshots/1024x768/<application>_<screen_description>.png
 
 .. image:: images/screenshots/800x600/geoserver-login.png
     :width: 90 %

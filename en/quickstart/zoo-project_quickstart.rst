@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _ZOO-Project-quickstart:
- 
 .. image:: images/project_logos/logo-ZOO-Project.png
   :scale: 100 %
   :alt: project logo

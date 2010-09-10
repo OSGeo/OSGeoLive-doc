@@ -6,17 +6,8 @@
 :License: Creative Commons
 :Thanks: mapbender-user list
 
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _mapbender-quickstart:
  
-.. Writing Tip: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    images/project_logos/logos-<application>.png
-
 .. image:: images/project_logos/logo-Mapbender.png
   :scale: 100 %
   :alt: project logo
@@ -25,15 +16,6 @@
 ********************
 Mapbender Quickstart 
 ********************
-
-.. Writing Tip:
-  First sentence defines what the application does.
-  You may also need to include a sentence of two describing the domain.
-  Eg: For a Business Intelligence application, you should describe what
-  Business Intelligence is.
-
-.. Writing Tip:
-  Describe what will be covered in this Quick Start.
 
 Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services. 
 
@@ -49,29 +31,11 @@ This Quick Start describes how to:
 Start Mapbender
 ===============
 
-.. Writing Tip:
-  Describe steps to start the application
-  This should include a graphic of the pull-down list, with a red circle
-  around the application menu option.
-  #. A hash numbers instructions. There should be only one instruction per
-     hash.
-
 .. TBD: Add menu graphic to this uDig Quickstart
 
 #. Choose  :menuselection:`Mapbender` from the start menu
 
 #. The application will take a few moments to start up
-
-.. Writing Tip:
-  For images, use a scale of 50% from a 1024x768 display (preferred) or
-  70% from a 800x600 display.
-  Images should be stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
-  and accessed here:
-    images/screenshots/1024x768/<application>_<screen_description>.png
-
-  .. image:: images/screenshots/800x600/udig_Quickstart1Splash.png
-     :scale: 80
 
 If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running.
 
