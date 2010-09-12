@@ -3,6 +3,7 @@
 #  - remove punctuation from email addresses to stop harvesting for junk mail
 
 Language,i18n code, First Name, Last Name, Country, Email, Osgeo_id
+Spanish,es,Javier,Sanchez,Spain,jsgisdev [at] gmail [dot] com,
 Spanish,es,Jorge,Sanz,Spain,jsanz [at] osgeo [dot] org,
 Italian,it,Massimo,Di Stefano,Italy,massimodisashaATgmailDOTcom,
 Italian,it,Marco,Puppin,Italy,puppingeoATgmailDOTcom,
