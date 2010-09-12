@@ -1,13 +1,12 @@
 # please add the names of all translators
 #  - Order alphabetically by language, then by first name
 #  - remove punctuation from email addresses to stop harvesting for junk mail
-
 Language,i18n code, First Name, Last Name, Country, Email, Osgeo_id
-Spanish,es,Javier,Sanchez,Spain,jsgisdev [at] gmail [dot] com,
-Spanish,es,Jorge,Sanz,Spain,jsanz [at] osgeo [dot] org,
-Italian,it,Massimo,Di Stefano,Italy,massimodisashaATgmailDOTcom,
-Italian,it,Marco,Puppin,Italy,puppingeoATgmailDOTcom,
-German,de,Daniel,Kastl,Germany,daniel [at] georepublic [dot] de,
-Japanese,ja,Haruyuki,Seki,Japan,hal [at] georepublic [dot] co [dot] jp,
-Japanese,ja,Nobusuke,Iwasaki,Japan,wata909 [at] gmail [dot] com,
-Japanese,ja,Yoichi,Kayama,Japan,yoichi[dot]kayama[at]gmail[dot]com,
+Spanish,es,Javier,Sanchez,Spain,jsgisdev gmail com,jsanchez
+Spanish,es,Jorge,Sanz,Spain,jsanz osgeo org,
+Italian,it,Massimo,Di Stefano,Italy,massimodisasha gmail com,
+Italian,it,Marco,Puppin,Italy,puppingeo gmail com,
+German,de,Daniel,Kastl,Germany,daniel georepublic de,
+Japanese,ja,Haruyuki,Seki,Japan,hal georepublic.co jp,
+Japanese,ja,Nobusuke,Iwasaki,Japan,wata909 gmail com,
+Japanese,ja,Yoichi,Kayama,Japan,yoichi.kayama gmail com,
