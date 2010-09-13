@@ -1,0 +1,28 @@
+Bienvenido al DVD OSGeo Live GIS.
+
+
+Accede al icono de ayuda de la señal de carretera del escritorio, para información
+sobre el Live disc y la máquina virtual, incluyendo una
+sinopsis de paquetes geoespaciales agrupados y una serie de tutoriales de iniciación breves.
+
+Para cambiar el idioma, log out (menu Aplicaciones ) y a lo largo de abajo de la ventana de login se encuentra el menu de idiomas. 
+Una vez que vuelves a hacer log-in (si necesitas password es
+"user"), hay un icono con una bandera en la barra de herramientas superior que te permite seleccionar el tipo de teclado. También se puede establecer a través de la opción de menú Aplicaciones > Sistema > Soporte de idioma.
+
+Los instaladores de programa para Macintosh OSX y Microsoft Windows
+se pueden encontrar en los directorioes MacInstallers y WindowsInstallers
+respectivamente.
+
+Los diferentes passwords se pueden encontrar en el fichero
+passwords.txt que hay en el escritorio.
+
+Si necesitas pasar a "root" (super-usuario UNIX) escribe en un terminal "sudo su", y entra "user" como password.
+
+Puedes encontrar preguntas frequentes (FAQ) aquí:
+  http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
+
+
+
+Feliz Mapeo!
+El equipo OSGeo Live GIS
+ 
