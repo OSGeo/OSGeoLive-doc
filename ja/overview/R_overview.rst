@@ -14,62 +14,46 @@
 R 空間解析機能
 ===================
 
-.. Writing Tip:
-  Application Category Description:
-  * Spatial Database
-  * Web Service
-  * Metadata Web Service
-  * Desktop GIS
-  * Browser GIS client
-  * Business Intelligence
-  * GIS Tools
-  * ...
 
 統計プログラミング
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-R is a powerful, widely used software environment for statistical computing and graphics which excels at analyzing and processing geographic data sets. Geospatial analysis capabilities within R are available in R packages (modules that extend the capabilities of R) that provide access to a large number of traditional and state of the art algorithms, often before they are available in other open source or proprietary software. R and it's packages are able to process point, line, polygon and grid data. Users can accomplish a broad array of tasks such as: image classification, statistical analysis to infer spatial relationships and patterns of features, and others listed in the core features below. The functions available via R compliment and advance capabilities found in GIS and image processing software.
+Rは高性能で，広く使われている統計計算および図化環境で，地理的データセットの分析と演算に優れています。Rの地理空間分析はRパッケージ（Rの機能を拡張するモジュール）を使用すると可能になり，このモジュールにより伝統的なものから最新のものまで膨大な量のアルゴリズムの利用を提供しており，これらのアルゴリズムは，しばしば他のオープンソースまたはプロプライエタリ・ソフトウェアよりも早く利用可能になることがあります。Rとそのパッケージは点，線，ポリゴン，グリッドデータの処理が可能です。ユーザーは，例えば画像分類，空間的関係を推定するための統計解析，地物の分布パターン，そして以下の基本機能で列挙されるものなどの，大規模配列の処理を実行できます。Rによって利用可能になる機能は，GISや画像処理ソフトに使われている高性能で先進的なものです。
 
-The core R interface is a command line window which provides excellent flexibility and control but tends to lengthen the time required to become a proficient user when compared to software with a graphical user interface (GUI). Fortunately R is well documented on the web site which eases the learning process. Scripts are often used to automate processing steps and there are  projects that are developing open source GUIs for R (http://rwiki.sciviews.org/doku.php?id=guis:guis). 
+Rの基本インターフェイスは高い自由度と操作性を提供するコマンドライン型ですが，一方で，グラフィカル・ユーザー・インターフェイス（GUI）と比べて習熟した利用者になるまでに長い時間を必要とする傾向があります。幸いなことに，Rを学習プロセスを容易にするWebサイトがよく整備されています。スクリプトは処理過程を自動化するために頻繁に利用され，RのオープンソースGUIを開発するためのプロジェクトもあります（http://rwiki.sciviews.org/doku.php?id=guis:guis）。
 
-R is an implementation of the S programming language and there is significant compatibility between R and legacy S and S-Plus code as well as between R and the modern commercial version of S, TIBCO Spotfire S+. This comparability makes it possible to convert different versions of S code to run on R without major code modifications.  
+RはS言語を実装しており，Rと過去のS，S-Plusコード，同様に最近の商用バージョンのS，TIBCO Spotfire S+との高い互換性を有しています。この互換性により，大きくコードを変更することなく異なるバージョンのSをRで実行できるように変換することが出来ます。
+
 
 .. image:: images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right
 
-
+基本的機能
 -------------
 
-* Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
-* Hundreds of community contributed add-on packages for spatial statistics
-* Classes for spatial data
-* Handling spatial data
-* Reading and writing spatial data
-* Point pattern analysis
-* Geostatistics
-* Disease mapping and areal data analysis
-* Spatial regression
-* Ecological analysis
+* 統計そして同様に強度な数学的アプリケーションのための完全なオブジェクト指向プログラミング言語デザイン
+* 数百のコミュニティにより作成された空間統計のためのパッケージ
+* 空間データのためのクラス
+* 空間データの取り扱い
+* 空間データの読み込みと書き出し
+* 点パターン分析
+* 地球統計学
+* 疾病の地図化および地域データ分析
+* 空間回帰分析
+* 生態学的分析
 
 詳細
 -------
 
-**Website:** http://cran.r-project.org
+**Webサイト：** http://cran.r-project.org
 
-**Licence:** GPL
+**ライセンス：** GPL
 
-**Software Version:** 2.11.1
+**ソフトウェア・バージョン：** 2.11.1
 
-**Supported Platforms:** Windows, Linux, Mac, Unix
+**ソフトウェア・プラットフォーム：** Windows, Linux, Mac, Unix
 
-.. Writing Tip:
-  Link to jump page which lists commercial support for the application.
+**コミュニティのサポート：** http://cran.r-project.org/web/views/Spatial.html
 
-**Community Support:** http://cran.r-project.org/web/views/Spatial.html
-
-.. Writing Tip:
-  Later, we may introduce a Maturity Rating, but currently the format, and
-  whether we go ahead with such a rating is still under discussion.
-  http://wiki.osgeo.org/wiki/Marketing_Artefacts#Maturity_Rating
