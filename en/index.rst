@@ -15,7 +15,7 @@ It provides pre-configured applications for a range of geospatial use cases,
 including storage, publishing, viewing, analysis and manipulation of data. It
 also contains sample datasets and documentation.
 
-To try out the applications, simply::
+To try out the applications, simply:
 
 #. Insert DVD or USB thumb drive in computer or virtual machine.
 #. Reboot computer. (verify boot device order)
