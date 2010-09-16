@@ -1,41 +1,23 @@
 Download
 ========
 
-The latest stable release of OSGeo-Live contains::
+The latest stable release of OSGeo-Live contains:
 
 .. image:: images/download_buttons/download-dvd.png
-  :width: 144
-  :height: 38
   :alt: Download 4.4 Gigabyte DVD or USB iso file
-  :align: right
-  :target: 
+  :align: left
 
-`osgeo-live-4.0.iso, 4.3 Gig <>`_
+`osgeo-live-4.0.1.iso, 4.3 Gig <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso>`_
 
-An xubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 Gig bootable USB thumb drive.
+An xubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 Gig bootable USB thumb drive. Verify your download with its `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
 .. image:: images/download_buttons/download-mini.png
-  :width: 144
-  :height: 38
   :alt: Download 3.2 Gigabyte iso without Windows and Mac installers
-  :align: right
-  :target: 
+  :align: left
 
-`osgeo-live-mini-4.0.iso: 3.2 Gig <>`_
+`osgeo-live-mini-4.0.1.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1-mini.iso>`_
 
-Same as osgeo-live-4.0.iso, except it doesn't contain windows and mac installers and can be copied onto a 4 Gig bootable USB thumb drive.
-
-.. image:: images/download_buttons/download-vm.png
-  :width: 144
-  :height: 38
-  :alt: Dowload 4 plus Gigabyte 7 zip of a virtual machine image 
-  :align: right
-  :target: 
-
-`osgeo-live-mini-vm-4.0.tar.gz: 3.8 Gig <>`_
-
-A .vmdk image ready to be loaded into a virtual machine like VirtualBox or VMWare Player.
-
+Same as osgeo-live-4.0.iso, except it doesn't contain windows and mac installers and can be copied onto a 4 Gig bootable USB thumb drive. Verify your download with its `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
 For a full list of versions, download options and mirrors visit: http://download.osgeo.org/livedvd
 
