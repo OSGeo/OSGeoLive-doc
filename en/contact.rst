@@ -4,14 +4,14 @@ Contact Us
 
 OSGeo Live development is coordinated via email and internet chat
 (IRC) as detailed on the
-`OSGeo Wiki<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
+`OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
 
 Community Support
 =================
 
 If you have any questions, comments, or run into any problems, please drop us a
-note on `our mailing list<http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
+note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Searchable archives of the mailing list are hosted by
 `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and
@@ -39,7 +39,8 @@ Details at:
 http://www.lisasoft.com/LISAsoft/support.html
 
 Most packaged applications have both community and commercial support
-offerings for them. Refer to the package websites for details.
+offerings for them. Refer to the :doc:`content` for details.
+
 In addition, there are a large number of consultancy firms world wide
 who provide support for OSGeo member projects.
 See http://www.osgeo.org/search_profile for one that meets your needs.
