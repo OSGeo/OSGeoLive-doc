@@ -13,17 +13,6 @@
 pgRouting
 =========
 
-.. Writing Tip:
-  Application Category Description:
-  * Spatial Database
-  * Web Service
-  * Metadata Web Service
-  * Desktop GIS
-  * Browser GIS client
-  * Business Intelligence
-  * GIS Tools
-  * ...
-
 GIS Tools
 ~~~~~~~~~
 
