@@ -1,11 +1,9 @@
 Contact Us
 ==========
 
-
 OSGeo Live development is coordinated via email and internet chat
 (IRC) as detailed on the
 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
-
 
 Community Support
 =================
@@ -22,9 +20,8 @@ assistance.
 
 A wealth of information is available on our
  `Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a 
- `bug and wish tracking system <a href="https://trac.osgeo.org/osgeo/report/10>`_
+ `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_
 is also available.
-
 
 Commercial Support
 ==================
@@ -35,11 +32,10 @@ Commercial Support
 
 LISAsoft provide commercial support for the building of the
 Live DVD, as well as many of the applications packaged in it.
-Details at: 
-http://www.lisasoft.com/LISAsoft/support.html
+Details at: http://www.lisasoft.com
 
 Most packaged applications have both community and commercial support
-offerings for them. Refer to the :doc:`content` for details.
+offerings for them. Refer to specific application descriptions linked from the `Contents <overview/overview.html>`_ for details.
 
 In addition, there are a large number of consultancy firms world wide
 who provide support for OSGeo member projects.
