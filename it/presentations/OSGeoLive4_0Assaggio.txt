@@ -1,0 +1,248 @@
+﻿L'ultima versione di questo script, e le diapositive che lo accompagnano sono disponibili all'indirizzo:
+https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster
+
+Queste diapositive sono state registrate in un video all'indirizzo:
+http://cameronshorter.blip.tv/file/4078371/
+
+<x Diapositive introduttive> Ciao,
+
+Il mio nome e' <il Tuo nome e titolo qui>, e vi accompagnero` in questa illuminante presentazione del progetto OSGeo Live, originariamente compilato da Cameron Shorter, GeoSpatial Programs Manager presso LISAsoft, e uno dei coordinatori del progetto OSGeo-Live.
+
+<x OSGeoLive>
+
+OSGeo Live e` un DVD autosufficente e installabile, basato sulla distribuzione linux Xubuntu, che contiene pre-installati e pre-configurati 43 dei migliori programmi GeoSpaziali Open Source e relativi dati dimostrativi.
+
+Contiene inoltre varia documentazione circa gli standard spaziali delle direttive chiave OGC, materiale pubblicitario di tutti i progetti, e le guide all'uso di molti.
+
+Il DVD e` ideale per dimostrazioni presso conferenze, per un suo uso durante workshops, e per provare una moltitudine di programmi Open Source.
+
+In questa presentazione vi daro` un'illuminante assaggio di tutti i programmi di qualita` installati in questo DVD.
+
+<Pennetta esterna & Macchina Virtuale>
+
+OSGeo-Live puo` essere utilizzato da una pennetta USB esterna, installato in una Macchina Virtuale, o installato nel vostro disco fisso.
+
+Questa presentazione offre un'illuminante visione d'insieme di tutti i programmi installati in questo DVD, che davvero vi garantisce un colpo d'occhio dell'ampio respiro di programmi GeoSpaziali Open Source disponibili.
+
+Per testare i programmi di OSGeo-Live, semplicemente: <x OSGeoLive boot> Inserite il DVD o la pennetta USB nel vostro computer o macchina virtuale. Riavviate il computer.
+
+Premete qualche volta "Invio". <x OSGeoLive grub menu>
+
+<x OSGeoLive logon> 
+
+<x OSGeoLive main splash screen>
+
+Quindi selezionate Applicazioni dal menu` "GeoSpatial".
+
+<x Open Source GeoSpatial Foundation (OSGeo)>
+
+OSGeo-Live prende il nome dalla Open Source Geospatial Foundation, riferita come la Fondazione OSGeo.
+
+La Fondazione OSGeo e` stato fondata nel 2006 come un'organizzazione ombrello no-profit per supportare lo sviluppo e la promozione di programmi Geospaziali Open Source di qualita` e di Dati Aperti.
+
+<x OGC Standards>
+
+Le applicazioni Open Source si contraddistinguono per un'eccellente conformita` degli standard. Da notare, la OGC usa i progetti Open Source per definire le linee guida delle implementazioni degli standards.
+
+OSGeo-Live include una visione d'insieme di tutti gli standards chiave in un linguaggio semplice, in modo tale che possano essere intesi anche da utenti senza conoscenze tecniche.
+
+Costruire Infrastrutture di Dati Spaziali usando standards, facilita l'interoperabilita` tra programmi proprietari ed Open Source. Facilita anche la condivisione di dati tra entita`. Riduce i costi a lungo termine associati al mantenimento dei dati, e riduce il rischio a lungo termine del progetto annullando la dipendanza da formati o prodotti proprietari, annullando cosi` le limitazioni imposte dai rivenditori.
+
+<x Databases>
+
+Inizieremo la nostra carrellata delle applicazioni dalla base della pila con i databases.
+
+<x PostGIS>
+
+PostGIS dal punto di vista spaziale rende operativo il popolare database oggetto-relazionale PostgreSQL, permettendo cosi` un utilizzo come un database back-end per sistemi informativi geografici e per applicazioni di web-mapping nello stesso modo in cui Oracle Spatial utilizza il database Oracle. PostGIS e` stabile, veloce, allineato agli standards, ricco di centinaia di funzioni spaziali ed e` correntemente il piu` usato database spaziale Open Source. PostGIS e` utilizzato da numerose organizzazione di tutto il mondo, tra cui agenzie governative anti-rischio e organizzazioni che gestiscono terabyte di dati rispondendo ogni giorno a milioni di richieste via web. L'amministrazione del database e` disponibile attraverso
+pgAdmin e altri strumenti. L'importazione e l'esportazione dei dati e` garantita da numerosi strumenti di conversione ed esistono numerosi desktop e browser GIS clients per la visualizzazione di dati Post GIS.
+
+<x pgRouting>
+
+pgRouting amplia il database PostGIS al fine di offrire funzionalita` geospaziali ripetitive cosicche` si possano effettuare queries come il trovare la via piu` breve tra due punti del database, semplificando cosi` tanto le funzionalita` ripetitive quanto il mantenimento dei dati.
+
+<x SpatiaLite>
+
+SpatiaLite aggiunge funzionalita` spaziali al popolare database SQLite. E` un database relazionale autosufficente, che non necessita di amministrazione e che puo` essere implementato in applicazioni senza il bisogno di un server database.  Ogni ambiente di dati SQLite
+e` registrato in un unico file, il che lo rende facilmente copiabile tra diverse piattaforme e via web senza alcuna complicazione.
+
+<x Web Services>
+
+Muovendosi in alto nella pila troviamo i Servizi Web, accessibili attraverso un URL, e dati cartografici di ritorno in diversi formati. I dati sono principalmente resi accessibili attraverso interfacce basate sugli standards OGC, inclusi Servizi di Web Mapping per immagini, Servizi di Configurazione per dati vettoriali e Servizi di Catalogazione di Metadati per il Web.
+
+<x Mapserver>
+
+Mapserver e` uno dei primi Servizi di Web Mapping Open Source. Il codice base e` maturo e dispone di una grande comunita` di sviluppatori. MapServer distribuisce dati attraverso Servizi di Web Mapping di immagini, non-transactional Web Feature Service, Servizi Web di Topologia e Servizi di Osservazioni a mezzo di sensori. Si connette ad un'ampia gamma di databases e di ambienti per l'immagazzinamento dati. E` scritto in C ed e` provvisto di connessioni per un gran numero di altri linguaggi di programmazione.
+
+<x GeoServer>
+
+GeoServer ha funzionalita` similari a quelle di Mapserver. Oltre ad offrire un'interfaccia di Servizi per la Cartografia sul Web, ha il merito di essere il punto di riferimento OGC per ll'implementazione di Transactional Web Feature Service e gli standard dei Servizi Web di Topologia. Incluso in GeoServer c'e` GeoWebCache, il quale supporta la partizione di mappe di base per una veloce trasmissione delle mappe. GeoServer si presenta con una rimarchevole interfaccia di controllo in stile browser con il visualizzatore OpenLayers implementato. GeoServer e` costruito su molte delle stesse librerie java usate dalle applicazioni desktop java, e grazie a tali librerie accede ad una moltitudine di databases e di ambienti per l'immagazzinamento dati.
+
+<x Deegree> Degree e` un'altra solida applicazione che si puo` vantare di supportare la piu` ampia gamma di Servizi Web OGC dei programmi gratuiti ed Open Source, variando da un transactional Web Feature
+Service alla visualizzazione di dati 3D in un Servizio di Web Terrain e molto altro ancora!
+
+<x QGIS Mapserver>
+
+QGIS Mapserver offre un servizio di cartografia sul web basato sul popolare programma QGIS desktop L'ottima integrazione con QGIS permette una facile esportazione delle mappe dal desktop al web copiando il progetto QGIS nella cartella del server, e un punto di forza e` il fatto che le mappe si mostrano sul web cosi` come appaiono nel desktop.
+
+<x MapGuide>
+
+MapGuide riunisce in un'unica applicazione un Servizio di Cartografia sul Web e un client in stile browser.
+MapGuide implementa un visualizzatore interattivo che include il supporto per la selezione di elementi, ispezioni delle proprieta`, consigli di cartografia e operazioni come buffer, seleziona dentro e di misurazione. MapGuide e` costituito con Maestro, che permette agli utenti la costruzione di un sito web senza dover scrivere neppure una linea di codice. MapGuide supporta inoltre i piu` diffusi formati geospaziali, databases e standards.
+
+<x Zoo>
+
+Il progetto Zoo offre un ambiente di sviluppo facilitato di Servizio di Processamento Web al fine di creare e concatenere Servizi di Processamento Web. Un Servizio di Processamento Web offre accesso alla rete a funzioni che utilizzano funzioni spaziali. Il Progetto Zoo supporta svariati linguaggi e si presenta con esempi in C ed in Python.
+
+<x 52 Degrees North>
+
+52°North WPS e` un Servizio di Processamento Web basato in java che offre accesso alla rete ad algoritmi di processamento spaziale offerti da Sextane, ArcGIS Server, o funzioni sviluppate ad hoc. Gli algoritmi possono essere semplici come il determinare la differenza nei casi di influenza tra due stagioni differenti, o complicati come un modello globale per i cambiamenti climatici.
+
+<x GeoNetwork>
+
+GeoNetwork e` un catalogatore per il mantenimento e la ricerca di risorse spazialmente riferite.  GeoNetwork offre una potente editazione dei metadati e di ricerca delle funzioni, un integrato visualizzatore interattivo cartografico per web, ed e` l'implementazione di riferimento dell'OGC per i Servizi di Catalogazione per gli standards del Web.
+
+<x Web Clients>
+
+Ci spostiamo ora dai Servizi Web agli strumenti basati sul Browser. Browser clients vengono usati sempre piu` per utilizzare un'ampia gamma di strumenti e funzioni precedentemente disponibili solamente nelle applicazioni desktop.
+
+<x OpenLayers>
+
+OpenLayers e` una delle scelte piu` popolari per la cartografia sul web ed offre un'ampia gamma di strumenti di cartografia basati sui browser e widgets, simili alle API di Google Maps. Tutte le funzionalita` sono inserite nel web browser, il che rende OpenLayers di facile installazione, senza alcuna dipendenza dal lato server. Con
+OpenLayers e` facile per gli sviluppatori web creare mappe dinamiche, da una multitudine di sorgenti, in qualsiasi pagina web.
+
+<x MapFish>
+
+MapFish incorpora OpenLayers con i browser widgets offerti da 
+ExtJS and GeoExt, cosi` come dal contesto web Pylons, incorporando percio` gli strumenti browser con le funzionalita` del lato server.
+
+<x Mapbender>
+
+Mapbender e` un contesto geoportale basato sul web per pubblicare, registrare, visualizzare, navigare, monitorare e garantire un accesso sicuro a servizi di dati spaziali strutturati. Mapbender consente agli utenti di creare facilmente strumenti browser personalizzati partendo da un'ampia gamma di di widgets con minima necessita` di programmazione. I Widgets si integrano con le funzionalita` lato server al fine di offrire funzionalita` avanzate come reindirizzamento sicuro, digitalizzazione, auto-snapping ed altro ancora. Il client di Mapbender e` basato su JavaScript e i jQuery widgets. Il lato server e` implementato in PHP e PostGIS.
+
+<x GeoMajas> Geomajas offre un'ampia gamma di strumenti spaziali in un leggero browser client cartografico che integra nel potente lato server, basato in java, le librerie geografiche per il processamento.  Questo rende le applicazioni Geomajas incredibilmente adattabili e performanti.
+
+<x Desktop>
+
+Ci spostiamo ora dai browser ai desktop, dove troviamo le applicazioni maggiormente rifinite.
+
+<x GeoPublisher>
+
+Geopublisher e` un sistema atlante di autorizzazione che permette la facile pubblicazione di dati geografici, documenti, immagini, video, e statistiche nella forma di atlanti multimediali digitali. Questi atlanti sono effettivamente un minimale, pre-configurato, GIS per utenti finali che offre una selezione di funzionalita` solo laddove e` davvero utile. Geopublisher offre strumenti per la verifica di qualita` e la gestione di meta-dati multilingua. Gli atlanti possono essere pubblicati direttamente in locale, su un DVD o in Internet. Le sorprendenti funzionalita` di Geopublisher lo rendono utilizzabile specialmente nei campi degli studi ricerca internazionali, della partecipazione GIS, della capacita` di innovare e nella cooperazione allo sviluppo.
+
+<x Atlas Styler>
+
+Atlas Styler e` spesso accoppiato a Geopublisher. E` una applicazione desktop per la stilizzazione di dati geografici. Gli stili che ne derivano possone essere salvati in file compilativi standard Style Layer Descriptor che sono usati da applicazioni come  GeoServer, uDig, OpenLayers ed altri. Atlas Styler offre una multitudine di consigli intuitivi per semplificare la creazione degli stili. Gli utenti possono applicare classificazioni sommarie come valori unici, quantificazioni rappresentate in scale di colori od egualmente distanti. Inoltre, gli utenti hanno un accesso integrato ad un database di simboli on-line. Gli utenti possono creare e salvare i simboli nel SymbolEditor e riusarli in altri progetti.
+
+<x GRASS GIS>
+
+GRASS GIS offre un potente ambiente di processamento di dati raster, vettoriali e geospaziali. Include strumenti per il modellamento spaziale, la visualizzazione di dati raster e vettoriali, la gestione e l'analisi di dati geospaziali, e il processamento di immagini satellitari ed aeree. Offre inoltre la possibilita` di produrre sofisticate presentazioni grafiche e di mappe pubblicabili. GRASS e` usato in tutto il mondo in ambienti accademici e commerciali cosi` come da numerose agenzie governative e compagnie di consulenza ambientale. Il programma GRASS include piu` di 400 moduli d'analisi interni piu` altri 100 moduli e toolboxes resi disponibili dalla communita`. Dopo 27 anni di sviluppo continuativo GRASS e` allo stesso tempo il piu` vecchio e potente GIS Open Surce disponibile. E` capace di effettuari potenti analisi, ma puo` non essere semplice iniziare ad usarlo a differenza di altri programmi piu` focalizzati sulla visualizzazione dei geo-dati. Numerosi proggetti Open Source si servono degli algoritmi di GRASS.
+
+<x QGIS>
+
+Quantum GIS (QGIS) e` un popolare ed intuitivo client GIS che permette di visualizzare, gestire, editare, analizzare i dati e creare mappe pubblicabili.
+Supporta numerosi formati vettoriali, raster e database, e vanta numerose toolboxes gratuite, incluse molte interfacce intuitive degli avanzati moduli d'analisi di GRASS.
+
+<x gvSIG>
+
+Nel 2003, il Ministro dei Trasporti e delle Infrastrutture di  Valencia, Spagna, ha iniziato la migrazione di tutti i loro sistemi verso programmi Open Source. Parte di questa migrazione ha interessato lo sviluppo di gvSIG al fine di rimpiazzare il programma ESRI desktop precedentemente in uso. gvGIS e` un'applicazione desktop disegnata per inserire, salvare, maneggiare, analizzare e sviluppare ogni tipo di informazione geografica georeferenziata al fine di risolvere complesse problematiche gestionali e di pianificazione. gvSIG e` disponibile in oltre 20 lingue, ed ha un fortissimo seguito nella realta` spagnola. gvSIG e` inoltre disponibile in una versione mobile che si integra con l'applicazione desktop.
+
+<x uDig>
+
+uDig e` l'abbreviazione di User-frindly Desktop Internet GIS. uDig e` un visualizzatore ed editore di dati spaziali basato in java, che e` basato sulla libreria geotools e sul potente ambiente di sviluppo Eclipse, il che fa di uDig una scelta comune per gli sviluppatori che desiderano integrare la cartografia in applicazioni basate in java.
+
+<x OpenJump>
+
+OpenJump e` uno spin-off del progetto originale Jump, che era OpenSource ma che non ha accettato i miglioramenti e gli aggiornamenti della comunita`. Questo ha portato ad oltre 10 diramazioni dell'originale codice sorgente. OpenJump ha offerto una ricongiunzione di molte di queste diramazioni. OpenJUMP e` un potente e facile da usare desktop GIS che permette agli utenti di editare, analizzare e visualizzare dati geografici. OpenJUMP e` particolarmente performante nella conflazione, che implica l'allineamento di elementi che sono mostrati in differenti localita` su due differenti livelli cartografici.
+
+<x Kosmo>
+
+Kosmo e` un'altra diramazione di Jump che ha alle spalle un forte comunita` di utenti Spagnoli e offre eccellenti strumenti per l'integrita` topologica.
+
+<x SAGA>
+
+SAGA, altresi` System for Automated Geoscientific Analyses, e` un GIS usato per l'editazione e l'analisi di dati spaziali. Include un gran numero di moduli per l'analisi di dati vettoriali, tabellari, grid e immagini. Tra gli altri il pacchetto include moduli di geostatistica, classificazione di immagine, di proiezione, di simulazione di processi dinamici come analisi idrologiche, di panorami e di superficie. Le sue funzionalita` possono essere utilizzate attraverso l'interfaccia grafica, la linea di comando o usando l'interfaccia di programmazione C++.
+
+<x OSSIM>
+
+The Open Source Software Image Map, spesso riferito semplicemente OSSIM, or Awesome Image Processing, e` un performante motore per il telerilevamento, il processamento d'immagine, per i sistemi informativi geografici e la fotogrammetria. OSSIM e` stato finanziato da numerose agenzie governative degli Stati Uniti degli ambienti dell'intelligence e della difesa. E` stato attivamente sviluppato sin dal 1996 e la tecnologia e` sviluppata nella sfera della ricerca e delle operazioni sul campo. E` disegnato come una serie di altamente performanti librerie di programmazione scritte in C++. Include numerose funzioni eseguibili da linea di comando, dall'interfacce grafiche e da sistemi integrati.
+
+<x osgEarth>
+
+osgEarth e` un insieme di strumenti multiscala di rendering 3D di superfici per OpenSceneGraph, un Open Source, altamente performante, insieme di strumenti grafici tridimensionali. Crea semplicemente un basilare file XML, puntalo alla tua immagine, ai dati altimetrici e vettoriali, caricalo nella tua preferita applicazione Open Scene Graph, ed il gioco e` fatto! osgEarth supporta tutti i tipi di dati e si presenta con numerosi esempi per aiutarti ad iniziare a lavorare in maniera facile e veloce.
+
+<x MB-System>
+
+MB-System processa dati sonar per la visualizzazione di fondali marini. Visualizza la batimetria e il backscatter di immagini derivate da  sonar a multiraggi, interferometrici e sidescan. E` costruito partendo dal programma GMT di cui parlero` di seguito.
+MB-System e` stato sviluppato sin dal 1993, col supporto attivo di numerose organizzazioni di ricerca e scientifiche.
+
+<x Mapping Tools>
+
+La prossima categoria che abbiamo raggruppato sono gli strumenti cartografici.
+
+<x GMT>
+
+Iniziamo con il Generic Mapping Tools, o semplicemente GMT. GMT e` una collezione di strumenti che permette all'utente di manipolare (x,y) e (x,y,z) insiemi di dati per il filtraggio, il filtraggio direzionale, il gridding, la proiezione e via di seguito.  Supporta la creazione di illustrazioni cartografiche di qualita`, che variano da semplici plottaggi di coordinate x-y, passando a mappe topografiche fino a superfici artificialmente illuminate e viste prospettiche 3-D in bianco e nero, in scala di grigio, in pattern hachure e in scala di colori a 24-bit.
+
+<x Mapnik>
+
+Mapnike` un insieme di strumenti per il rendering di splendide mappe, con spigoli morbidi e puliti per elementi caratterizzati da una grafica anti-aliasing di qualita`, oltre al posizionamento intelligente delle annotazioni, e multiscalabile, simbolizzazione SVG. Mapnik e` usato soprattutto per renderizzare i livelli Open Street Map. Mapnik e` stato tipicamente inserito in applicazioni python che condividono le loro mappe in rete e recenti e sorprendendi miglioramenti fanno presupporre che Mapnik sara` usato anche per creare mappe pubblicabili in alta risoluzione.
+
+<x MapTiler>
+
+E` una applicazione desktop per la creazione di mattonelle (tiles) di mappe per la pubblicazione di mappe di tipo raster. I geodata sono transformati in mattonelle (tiles) compatibili con Google Maps and Google Earth - pronti per essere pubblicati via upload diretto a qualsiasi webserver o ambiente cloud. La visualizzazione su Browser e` garantita da OpenLayers
+e Google Maps e puo` essere facilmente personalizzata.
+
+<x R> R e` un potente e largamente adoperato programma di statistica computerizzata e grafica che eccelle nell'analizzare e processare insiemi di dati geografici. Le capacita` di analisi geospaziale permettono l'accesso a un largo numero di algoritmi tradizionali e dello stato dell'arte, spesso prima che gli stessi siano disponibili in altri programmi Open Source o proprietari. R e i suoi pacchetti sono in grado di processare dati puntuali, lineari, poligonali e di tipo grid. Gli utenti possono realizzare un'ampia gamma di compiti come: classificazione d'immagine e analisi statistiche per dedurre relazioni spaziali e modelli di configurazione. L'interfaccia centrale di R e` una finestra a linea di comando che offre eccellente flessibilita` e controllo ma, comparata ad una interfaccia grafica, tende ad allungare il tempo necessario a diventare un utente produttivo.
+Fortunatamente R e` provvisto di una buona documentazione nel sito web che facilita la curva di apprendimento.
+
+<x GeoKettle>
+
+GeoKettle e` una versione "spazialmente-abilitata" di Pentaho Data Integration, un potente strumento di Estrazione, Transformazione e Caricamento, altresi` conosciuto come strumento ETL.
+GeoKettle si pone sullo stesso piano del proprietario FME. GeoKettle e` particolarmente utile nell'automatizzare complessi e ripetitivi processamenti di dati tra differenti formati e databases, senza dover scrivere codice specifico. GeoKettle e` utilizzato da numerose organizzazione di tutto il mondo, tra cui agenzie governative, banche, integratori di sistemi geospaziali e di assicurazione.
+
+<x Navigation & Maps>
+
+La prossima categoria di cui ci occuperemo e` Navigation and Maps. <x Open Street
+Map Tools> OpenStreetMap e` un progetto per ricreare comunitariamente una mappa del mondo, usando gli stessi principi di collaborazione usati da Wikipedia. All'inizio del 2010 c'erano quasi 250,000 utenti di Open Street Map registrati, il 10% dei quali contribuisce regolarmente ogni mese alla compilazione della mappa base. Lo strumento Open Street Map inserito in OSGeo Live include visualizzatori, strumenti di editazione, un motere di routing, di rendering e uno strumento per caricare i dati di Open Street Map nel database Postgres.
+
+<x Marble>
+
+Marble e` un Globo rotante e Atlante Mondiale simile a Google Earth o a Nasa Worldwind. E` stato sviluppato come parte del progetto KDE. Puoi visualizzare diversi layers cartografici, spostarti e zummare, visualizzare strade e le descrizioni dei luoghi di Wikipedia, misurare distanze e molto altro ancora.
+
+<x GPS Drive>
+
+GpsDrive e` un sistema di navigazione GPS per automobili, biciclette, navi, aerei o semplicemente pedoni. Mostra la posizione ricavata da un GPS in una mappa zummabile.
+Il file della mappa e` auto-selezionato in base alla tua posizione e alla scala preferita. Puo` leggere la posizione di qualsisi GPS che supporti il protocollo NMEA cosi` come molti altri GPS USB.
+
+<x OpenCPN>
+
+OpenCPN e` un programma libero di navigazione da usare nelle timoniere delle navi di ogni tipo e stazza, cosi` come nelle pianifacazioni di percorsi fuori rotta. E` stato sviluppatto da un attivo team di navigatori usando quelle che sono le reali condizioni naturali. OpenCPN presenta un utente con la posizione corrente dell'imbarcazione, la velocita` e la rotta predefinita sovrapposte ad accurate carte nautiche, previsioni di maree e di correnti. Possono essere mostrate inoltre le informazioni ricevute da canali radio standard che descrivono la posizione e le intenzioni di altri navi. Inoltre, l'utente puo` inserire rotte e waypoints che permettono l'interfacciamento con un autopilota esterno.
+
+<x Viking>
+
+Viking e` un editatore, analizzatore e visualizzatore di dati GPS. E` facile da usare, ma allo stesso tempo potente nel realizzare un'ampia gamma di compiti relativi ai GPS. Viking permette d'importare e plottare percorsi e waypoints, mostrare le mappe di OpenStreetMap e Terraserver, di scaricare geochaches per una determinata area, realizzare nuovi percorsi e waypoints, visualizzare la tua posizione GPS in real-time e molto altro ancora.
+
+<x zygrib>
+
+zyGrib e` un programma per scaricare e visualizzare le previsioni del tempo da una sorgente di dati GRIB, il formato standard per l'archiviazione di previsioni metereologiche e di dati storici. Tra le altre cose, permette di realizzare previsioni animate, plottaggio dei venti, pressione, temperatura, umidita`, pioggia, neve, copertura nuvolosa, rugiada, e dati barometrici di alte elevazioni.
+
+<x Crisis Management> "Crowd sourcing" e Open Source hanno dimostrato di essere incredibilmente efficenti nelle situazioni di Gestione di Crisi, e qui mostriamo un paio di proggetti che sono regolarmente utilizzati.
+
+<x Sahana>
+
+Sahana e` uno strumento di collaborazione basato sul web indirizzato al coordinamento comune dei problemi durante un disastro naturale. Dal cercare persone scomparse, gestire gli aid, gestire i volontari, e tracciare effettivamente i centri di accoglienza tra gruppi governativi, NGO e le stesse vittime del disastro. Il progetto Sahana fu iniziato da alcuni volontari in Sri Lanka durante lo tsunami asiatico del 2004. Il sistema fu ufficialmente usato dal Governo e successivamente rilasciato come programma Free ed Open Source. 
+
+<x Ushahidi>
+
+Ushahidi e` una piattaforma Open Source che permette a chiunque di ricevere dati distribuiti via SMS, email o in rete e visualizzarli in una mappa o una linea temporale. Facilita la democratizzazione delle informazioni, migliorando la trasparenza e abbassando le barriere tra individui nel condividere le lore storie. Ushahidi, che significa "testimone" in Swahili, fu inizialmente sviluppato per localizzare i rapporti delle violenze in Kenya dopo i disordini post-elettorali all'inizio del 2008 e, nel suo primo spiegamento, fece avvicinare 45000 utenti.
+
+<x Credits>
+
+Come puoi leggere di seguito, molte persone si sono occupate di preparare i programmi Open Source per OSGeo-Live, e letteralmente migliaia di sviluppatori hanno aiutato nel costituire il sistema che abbiamo preparato Grazie. Vorrei ringraziare specialmente Cameron Shorter, Hamish Bowman and Alex Mandel che hanno guidato il coordinamento e il pacchettamento del progetto OSGeo-Live, e LISAsoft, l'Information Centre for the Environment at the University of California, Davis e l'ufficio australiano di Spatial Data Management per la messa a disposizione di risorse e sponsorizzazioni.
+
+<x Vuoi saperne di piu`>
+
+Questo e` stato solo un assaggio, vuoi saperne di piu? Puoi vedere la descrizione del progetto o scaricare il DVD di OSGeo-Live nel nostro sito web. La fondazione OSGeo offre links a tutto cio` che sia GeoSpaziale ed Open Source.  Ci sono molte conferenze a cui vale davvero la pena di partecipare, in particolare, la conferenza chiave FOSS4G. E in Australia e Nuova Zelanda LISAsoft fornisce supporto e corsi informativi sul GeoSpaziale Open Source.
+
+
