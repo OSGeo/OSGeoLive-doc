@@ -71,3 +71,5 @@ Web Services
 Tests
 -----
 Results of developer testing of OSGeo-Live available at: [`Test Results <../tests.html>`_]
+
+.. include :: ../disclaimer.rst
