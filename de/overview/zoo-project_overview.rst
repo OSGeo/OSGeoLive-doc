@@ -6,7 +6,7 @@
 
 .. image:: images/project_logos/logo-Zoo.png
   :scale: 50 %
-  :alt: Projekt logo
+  :alt: Projekt Logo
   :align: right
   :target: http://zoo-project.org/
 
@@ -40,7 +40,7 @@ oder JavaScript implementiert sein.
 
 
 Kernfunktionen
--------------
+--------------
 
 * WPS Server mit Unterstützung zahlreicher Programmiersprachen
 * Einfaches Erstellen und Einrichten von Webdiensten
