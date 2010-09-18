@@ -23,8 +23,8 @@ Eine Fülle von Informationen steht auf der
 steht ebenso zur Verfügung.
 
 
-Kommerzielle Support
-==================
+Kommerzieller Support
+=====================
 
 .. image:: images/logos/lisasoftlogo.jpg
   :scale: 100%
