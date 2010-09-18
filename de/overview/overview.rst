@@ -56,7 +56,7 @@ Internet Dienste
 Krisenmanagement
 -----------------
 * :doc:`sahana_overview` - [`QuickStart <../quickstart/sahana_quickstart.html>`_] - Katastrophenmanagement
-* :doc:`ushahidi_overview` - [`QuickStart <../quickstart/ushahidi_quickstart.html>`_] - Kartenerstellung und Zeitplan für Veranstaltungen
+* :doc:`ushahidi_overview` - [`QuickStart <../quickstart/ushahidi_quickstart.html>`_] - Kartenerstellung und Zeitachse für Ereignisse
 
 Navigation und Karten
 -------------------
