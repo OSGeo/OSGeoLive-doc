@@ -29,10 +29,11 @@ Commercial Support
 .. image:: images/logos/lisasoftlogo.jpg
   :scale: 100%
   :alt: LISAsoft
+  :target: http://lisasoft.com
 
 LISAsoft provide commercial support for the building of the
 Live DVD, as well as many of the applications packaged in it.
-Details at: http://www.lisasoft.com
+Details at: http://lisasoft.com
 
 Most packaged applications have both community and commercial support
 offerings for them. Refer to specific application descriptions linked from the `Contents <overview/overview.html>`_ for details.
