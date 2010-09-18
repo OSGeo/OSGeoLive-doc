@@ -19,3 +19,4 @@ Information Center for the Environment at the University of California, Davis pr
 
 The Australian Government's Office of Spatial Data Management sponsored LISAsoft's review of Application Overviews, to achieve consistent, quality project write ups.
 
+.. include :: sponsors_osgeo.rst
