@@ -70,3 +70,5 @@ Navigation und Karten
 Tests
 -----
 Die Testresultate der OSGeo-Live DVD sind zu finden unter: [`Testergebnisse <../tests.html>`_]
+
+.. include :: ../disclaimer.rst
