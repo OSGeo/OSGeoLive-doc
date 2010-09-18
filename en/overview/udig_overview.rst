@@ -68,7 +68,7 @@ Details
 
 **Website:** http://udig.refractions.net/
 
-**Licence:** GNU Lessar General Public License (LGPL) version 2
+**Licence:** GNU Lesser General Public License (LGPL) version 2
 
 **Software Version:** 1.2.0
 
