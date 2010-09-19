@@ -26,7 +26,7 @@ import sys, os
 extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['themes/templates']
+#templates_path = ['/themes/templates2']
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -80,7 +80,7 @@ pygments_style = 'sphinx'
 # Options for HTML output
 # -----------------------
 html_theme = 'overview'
-html_theme_path = ['themes']
+html_theme_path = ['../themes']
 
 if os.environ.get('HTML_THEME_PATH'):
   html_theme_path.append(os.environ.get('HTML_THEME_PATH'))
