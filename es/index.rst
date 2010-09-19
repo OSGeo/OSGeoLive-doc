@@ -8,9 +8,11 @@ variedad de *software* libre geoespacial sin instalar nada. Está compuesto
 enteramente por *software* libre, permitiendo ser distribuido libremente,
 duplicado, etc.
 
-.. image:: quickstart/_images/osgeolive_menu.png
-  :width: 350
-  :height: 395
+.. image:: images/screenshots/800x600/osgeolive_menu.png
+  :scale: 70 %
+  :alt: boot select
+  :align: right
+
 Proporciona un conjunto de aplicaciones preconfiguradas para un amplio conjunto
 de casos de uso, incluyendo almacenamiento, publicación, visualización, análisis
 y manipulación de datos. También contiene juegos de datos de prueba y

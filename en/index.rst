@@ -8,9 +8,11 @@ source geospatial software without installing anything. It is composed
 entirely of free software, allowing it to be freely distributed, duplicated
 and passed around.
 
-.. image:: quickstart/_images/osgeolive_menu.png
-  :width: 350
-  :height: 395
+.. image:: images/screenshots/800x600/osgeolive_menu.png
+  :scale: 70 %
+  :alt: boot select
+  :align: right
+
 It provides pre-configured applications for a range of geospatial use cases,
 including storage, publishing, viewing, analysis and manipulation of data. It
 also contains sample datasets and documentation.
