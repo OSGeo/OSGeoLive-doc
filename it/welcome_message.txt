@@ -1,16 +1,27 @@
 Benvenuto al Live GIS DVD di OSGeo.
 
 
-Cliccando l'icona Help presente sul desktop si accede alle informazioniriguardo il Live disc e la virtual machine, a un elenco dei pacchetti geospaziali presenti e auna serie di brevi tutorial.
+Cliccando l'icona Help presente sul desktop si accede alle
+informazioniriguardo il Live disc e la virtual machine, a un elenco
+dei pacchetti geospaziali presenti e auna serie di brevi tutorial.
 
-Per modificare la lingua, è necessario fare logout (dal menu Applications): la schermata di login permette di scegliere la lingua attraverso il menu lingua presente nella parte inferiore della schermata. 
-Una volta rientrati (la password è "user"), è inoltre possibile scegliere il layout della tastiera cliccando l'icona con la bandiera nella barra in alto. Un'alternativa è impostare la lingua dal menu: Applications > System > Language Support.
+Per modificare la lingua, è necessario fare logout (dal menu
+Applications): la schermata di login permette di scegliere la
+lingua attraverso il menu lingua presente nella parte inferiore
+della schermata.  Una volta rientrati (la password è "user"), è
+inoltre possibile scegliere il layout della tastiera cliccando
+l'icona con la bandiera nella barra in alto. Un'alternativa è
+impostare la lingua dal menu: Applications > System > Language
+Support.
 
-Gli installer per Macintosh OSX e Microsoft Windows si trovano nelle cartelle MacInstallers e WindowsInstallers.
+Gli installer per Macintosh OSX e Microsoft Windows si trovano
+nelle cartelle MacInstallers e WindowsInstallers.
 
-Tutte le password necessarie sono salvate nel file passwords.txt presente sul desktop.
+Tutte le password necessarie sono salvate nel file passwords.txt
+presente sul desktop.
 
-Se si ha bisogno di diventare "root" (il superutente UNIX), aprire un Terminale e scrivere "sudo su", la password è "user".
+Se si ha bisogno di diventare "root" (il superutente UNIX), aprire
+un Terminale e scrivere "sudo su", la password è "user".
 
 Le Domande Frequenti (FAQ) si trovano qui:
   http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
