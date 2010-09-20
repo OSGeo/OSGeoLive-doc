@@ -28,8 +28,8 @@ Die Anwendung bietet eine Vielzahl intuitiver Dialoge, die eine produktive Arbei
   :alt: Screenshot
   :align: right
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
 * Styles mittels Dialoge erstellen, keine Kenntnis von SLD oder XML benötigt
 * Basierend auf dem SLD Standard.

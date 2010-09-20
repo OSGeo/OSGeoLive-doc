@@ -23,8 +23,8 @@ Geopublisher beinhaltet Funktionalität zur Qualitätssicherung und zur mehrspra
 
 Geopublishers Alleinstellungsmerkmale machen die Software besonders Einsetzbar im Bereich Internationale Forschung, Participatory GIS, Capacity Building, und der Entwicklungszusammenarbeit.
 
-Core Features
--------------
+Kernfunktionen
+--------------
 .. image:: images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: Screenshot: Geopublisher mit geöffnetem Atlas
