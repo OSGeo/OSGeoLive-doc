@@ -36,7 +36,15 @@ images:
 	ln -s ../images standards
 	ln -s ../images quickstart
 
-html:   images
+../%.rst: ../%.csv
+	echo ".. csv-table::" > $@
+	echo "" >> $@
+	sed -e 's/^ *#.*//' \
+	  -e "s/^/  /" \
+	  $< \
+	  >> $@
+
+html:   images ../contributors.rst ../translators.rst
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
