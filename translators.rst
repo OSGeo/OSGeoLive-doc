@@ -2,28 +2,30 @@
   - Order alphabetically by language| then by first name|
   - remove punctuation from email addresses to stop harvesting for junk mail|
 
-+---------+----+--------------------+-------+---------------------------+--------+
-|Language |i18n|Name                |Country|Email                      |Osgeo_id|
-+=========+====+====================+=======+===========================+========+
-|Spanish  |es  |Javier Sanchez      |Spain  |jsgisdev gmail com         |jsanchez|
-+---------+----+--------------------+-------+---------------------------+--------+
-|Spanish  |es  |Jorge Sanz          |Spain  |jsanz osgeo org            |        |
-+---------+----+--------------------+-------+---------------------------+--------+
-|Italian  |it  |Massimo Di Stefano  |Italy  |massimodisasha gmail com   |        |
-+---------+----+--------------------+-------+---------------------------+--------+
-|Italian  |it  |Marco Puppin        |Italy  |puppingeo gmail com        |        |
-+---------+----+--------------------+-------+---------------------------+--------+
-|Italian  |it  |Anne Ghisla         |Italy  |a ghisla gmail com         |aghisla |
-+---------+----+--------------------+-------+---------------------------+--------+
-|German   |de  |Daniel Kastl        |Germany|daniel georepublic de      |        |
-+---------+----+--------------------+-------+---------------------------+--------+
-|German   |de  |Lars Lingner        |Germany|lars lingner eu|gislars    |        |
-+---------+----+--------------------+-------+---------------------------+--------+
-|German   |de  |Ruth Schoenbuchner  |Germany|ruth schoenbuchner csgis de|        |
-+---------+----+--------------------+-------+---------------------------+--------+
-|Japanese |ja  |Haruyuki Seki       |Japan  |hal georepublic.co jp      |        |
-+---------+----+----------+---------+-------+---------------------------+--------+
-|Japanese |ja  |Nobusuke Iwasaki    |Japan  |wata909 gmail com          |        |
-+---------+----+----------+---------+-------+---------------------------+--------+
-|Japanese |ja  |Yoichi Kayama       |Japan  |yoichi.kayama gmail com    |        |
-+---------+----+----------+---------+-------+---------------------------+--------+
++---------+----+--------------------+-------+---------------------------+------------+
+|Language |i18n|Name                |Country|Email                      |Osgeo_id    |
++=========+====+====================+=======+===========================+============+
+|Spanish  |es  |Javier Sanchez      |Spain  |jsgisdev gmail com         |jsanchez    |
++---------+----+--------------------+-------+---------------------------+------------+
+|Spanish  |es  |Jorge Sanz          |Spain  |jsanz osgeo org            |            |
++---------+----+--------------------+-------+---------------------------+------------+
+|Italian  |it  |Massimo Di Stefano  |Italy  |massimodisasha gmail com   |            |
++---------+----+--------------------+-------+---------------------------+------------+
+|Italian  |it  |Marco Puppin        |Italy  |puppingeo gmail com        |            |
++---------+----+--------------------+-------+---------------------------+------------+
+|Italian  |it  |Anne Ghisla         |Italy  |a ghisla gmail com         |aghisla     |
++---------+----+--------------------+-------+---------------------------+------------+
+|German   |de  |Astrid Emde         |Germany|astrid emde wheregroup com |astrid_emde |
++---------+----+--------------------+-------+---------------------------+------------+
+|German   |de  |Daniel Kastl        |Germany|daniel georepublic de      |            |
++---------+----+--------------------+-------+---------------------------+------------+
+|German   |de  |Lars Lingner        |Germany|lars lingner eu|gislars    |            |
++---------+----+--------------------+-------+---------------------------+------------+
+|German   |de  |Ruth Schoenbuchner  |Germany|ruth schoenbuchner csgis de|rscsgis     |
++---------+----+--------------------+-------+---------------------------+------------+
+|Japanese |ja  |Haruyuki Seki       |Japan  |hal georepublic.co jp      |            |
++---------+----+----------+---------+-------+---------------------------+------------+
+|Japanese |ja  |Nobusuke Iwasaki    |Japan  |wata909 gmail com          |            |
++---------+----+----------+---------+-------+---------------------------+------------+
+|Japanese |ja  |Yoichi Kayama       |Japan  |yoichi.kayama gmail com    |            |
++---------+----+----------+---------+-------+---------------------------+------------+
