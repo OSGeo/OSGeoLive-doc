@@ -24,18 +24,18 @@ Desktop GIS
 ~~~~~~~~~~~
 
 gvSIG_ ist ein Geographisches Informationssystem (GIS). Als Desktop-Anwendung bietet es Möglichkeiten 
-zur Erfassung, Speicherung, Handhabung, Analyse und Bereitstellung von geografischer Informationen,
-um damit komplexe Planungs-und Management-Probleme zu lösen. 
-gvSIG ist bekannt für seine benutzerfreundliche Benutzeroberfläche bekannt und bietet den Zugriff auf
-alle gängigen Vektor-und Raster-Formate. 
+zur Erfassung, Speicherung, Handhabung, Analyse und Bereitstellung geografischer Informationen,
+um damit komplexe Planungs- und Management-Probleme zu lösen. 
+gvSIG ist bekannt für seine benutzerfreundliche Benutzeroberfläche und bietet Zugriff auf
+alle gängigen Vektor- und Raster-Datenformate. 
 Für die Arbeit mit geografischer Information stehen in gvSIG eine breite Palette an Werkzeugen zur Verfügung (Abfrage, 
 Layout-Design, Geoprozessierung, Netzwerkanalyse, etc.).
-Damit ist gvSIG ein ideales Werkzeug für die Arbeit mit Geoinformation an.
+Damit ist gvSIG ein ideales Werkzeug für die Arbeit im Ungang mit Geoinformation.
 
 gvSIG ist bekannt für:
 
 * Integration und Kombination von lokalen und entfernten Daten nach OGC-Standards.
-* skalierbar und flexibel, damit kontinuierliche Verbesserung von Anwendungen
+* skalierbar und flexibel und bietet damit eine kontinuierliche Erweiterung
 * in über 20 Sprachen verfügbar (Spanisch, Englisch, Deutsch, Französisch, Italienisch,...)
 * plattformunabhängig (Windows, Linux, und Mac OS X)
 
@@ -47,10 +47,10 @@ gvSIG ist bekannt für:
 Kernelemente
 ------------
 
-* Bietet allgemeine GIS-Tools wie das Laden von Daten, Karten-Navigation, Abfrage von
+* Bietet allgemeine GIS-Funktionalität, wie das Laden von Daten, Karten-Navigation, Abfrage von
   alphanumerischer Karten-Informationen, Messen von Strecken und Flächen, thematische
   Kartographie, verschiedene Legendentypen, Beschriftungen, Objekt-Auswahl nach verschiedenen 
-  Methoden, Tabellenfunktionen zur Ermittlung von Statistiken, Verlinkungen, Layout-Manager, 
+  Methoden, Tabellenfunktionen zur Erstellung von Statistiken, Verlinkungen, Layout-Manager, 
   Geoprocessing Werkzeuge, CAD- und Raster-Verarbeitungswerkzeuge, etc.
 
 * Interoperabilität: Verarbeitung gängiger Datenformate:
@@ -70,10 +70,10 @@ Kernelemente
   
 * Fortschrittlich durch integrierte CAD Werkzeuge:
 
-  * Vektor: modifizieren, erstellen and löschen von Elementen
+  * Vektor: Modifizieren, Erstellen and Löschen von Elementen
   * Administration per Kommandozeile möglich, ähnlich handelsüblicher CAD-Software
   * Werkzeuge wie z.B. Hilfefunktion, Ausrichtung an Gitternetz, Befehlsliste (undo), komplexe Objekt-Selektion
-  * Werkzeuge zum Erzeugen von Geometrien, wie z.B. Punkt, Linie, Elipsen, etc.
+  * Werkzeuge zum Erzeugen von Geometrien, wie z.B. Punkt, Linie, Ellipsen, etc.
   * Werkzeuge zur Veränderung von Objekten, durch z.B. Rotationen, Symmetrie, etc.
   
 * Fortschrittlich durch integrierte Rasterwerkzeuge:
@@ -97,7 +97,7 @@ Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGI
 * Export/Import von SLD Legenden
 * Export/Import von Web Map Context (WMC)
 * Suchfunktion nach Catalog-Diensten durch CSW (ISO/19115 und ebRIM)
-* Suchfunktion von Gazetter, durch Verwendung von WFS-G 
+* Suchfunktion von Gazetteer, durch Verwendung von WFS-G 
 
 Details
 -------
