@@ -21,7 +21,7 @@ Um die Programme auszuprobieren, einfach:
 
 #. Die DVD oder den USB Stick in einem Computer laden oder in einer Virtuellen Maschine.
 #. Computer neustarten. (achten Sie auf die Boot-Reihenfolge)
-#. Drücken Sie "Enter" für Inbetriebnahme &amp; Login.
+#. Drücken Sie "Enter" für Inbetriebnahme & Login.
 #. Wählen Sie Anwendungen aus dem "Geospatial" Menü.
 
 Viele Anwendungen sind auch erhältlich als ausführbare Programme für 
