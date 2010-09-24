@@ -21,7 +21,7 @@ To try out the applications, simply:
 
 #. Insert DVD or USB thumb drive in computer or virtual machine.
 #. Reboot computer. (verify boot device order)
-#. Press "Enter" to startup &amp; login.
+#. Press "Enter" to startup and login.
 #. Trial applications from the "Geospatial" menu.
 
 Many applications are also provided with installers for `Apple OSX <../MacInstallers/>`_ and
