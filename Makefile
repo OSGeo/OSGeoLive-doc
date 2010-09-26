@@ -34,12 +34,36 @@ help:
 
 clean:
 	-rm -rf $(BUILDDIR)/*
+	rm */images
+	rm */*/images
+	rm contributors.rst translators.rst
+	for LANG in $(TRANSLATIONS) ; do \
+	  rm $$LANG/disclaimer.rst ;\
+	done
 
+%.rst: %.csv
+	echo ".. csv-table::" > $@
+	echo "" >> $@
+	sed -e 's/^ *#.*//' \
+	  -e "s/^/  /" \
+	  $< \
+	  >> $@
 
-html1:
+html1: contributors.rst translators.rst
 	# Link to the English disclaimer text
 	for LANG in $(TRANSLATIONS) ; do \
 	  ln -sf ../en/disclaimer.rst $$LANG/ ;\
+	done
+	# Link to the images directories
+	# We should update all images links in the rst pages to point to correct
+	# directory, and hence avoid copying duplicates of images
+	for LANG in $(LANGUAGES) ; do \
+	  cd $$LANG;\
+	  ln -sf ../images . ;\
+	  ln -sf ../images overview ;\
+	  ln -sf ../images standards ;\
+	  ln -sf ../images quickstart ;\
+	  cd .. ;\
 	done
 
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
@@ -61,12 +85,12 @@ fixlinks: html1
 	  done; \
 	done
 
-index: html1
+redirect_index: html1
 	# Redirect root index.html to english page
 	cp redirect.html $(BUILDDIR)/html/index.html
 	cp redirect.html $(BUILDDIR)/html/genindex.html
 	# Add an index.html file to subdirectories
-	ln -sf $(BUILDDIR)/html/$$LANG/index.html $(BUILDDIR)/html/$$LANG/$$PAGE_TYPE/genindex.html ;\
+	#ln -sf $(BUILDDIR)/html/$$LANG/index.html $(BUILDDIR)/html/$$LANG/$$PAGE_TYPE/genindex.html ;\
 
 #index2: html1
 #	# create an index.html file which links to the main directory pages
@@ -103,7 +127,7 @@ banner_links: html1
 	  mv $(TMP) $$FILE; \
 	done
 
-html: fixlinks index version banner_links
+html: fixlinks redirect_index version banner_links
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
