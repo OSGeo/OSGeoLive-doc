@@ -10,6 +10,7 @@ TMP	      = /tmp/osgeolive_make
 TRANSLATIONS  = de es it ja
 LANGUAGES     = en $(TRANSLATIONS)
 VERSION       = $(shell cat ../VERSION.txt)
+START_DIR     = $(shell pwd)
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -34,14 +35,15 @@ help:
 
 clean:
 	-rm -rf $(BUILDDIR)/*
-	rm */images
-	rm */*/images
-	rm contributors.rst translators.rst
+	rm -f */images
+	rm -f */*/images
+	rm -f contributors.rst translators.rst
 	for LANG in $(TRANSLATIONS) ; do \
-	  rm $$LANG/disclaimer.rst ;\
+	  rm -f $$LANG/disclaimer.rst ;\
 	done
 
 %.rst: %.csv
+	# create contributors.rst and translators.rst from csv files
 	echo ".. csv-table::" > $@
 	echo "" >> $@
 	sed -e 's/^ *#.*//' \
@@ -49,11 +51,13 @@ clean:
 	  $< \
 	  >> $@
 
-html1: contributors.rst translators.rst
+disclaimer:
 	# Link to the English disclaimer text
 	for LANG in $(TRANSLATIONS) ; do \
 	  ln -sf ../en/disclaimer.rst $$LANG/ ;\
 	done
+
+images1:
 	# Link to the images directories
 	# We should update all images links in the rst pages to point to correct
 	# directory, and hence avoid copying duplicates of images
@@ -66,11 +70,12 @@ html1: contributors.rst translators.rst
 	  cd .. ;\
 	done
 
+sphinxbuild: images1 disclaimer contributors.rst translators.rst
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
-fixlinks: html1
+fix_header_links: sphinxbuild
 	# Correct relative links for the headers for the top level directory
 	for FILE in $(BUILDDIR)/html/*/*.html ; do \
 	  for ITEM in \
@@ -85,14 +90,28 @@ fixlinks: html1
 	  done; \
 	done
 
-redirect_index: html1
+redirect_to_en: sphinxbuild
 	# Redirect root index.html to english page
 	cp redirect.html $(BUILDDIR)/html/index.html
 	cp redirect.html $(BUILDDIR)/html/genindex.html
 	# Add an index.html file to subdirectories
 	#ln -sf $(BUILDDIR)/html/$$LANG/index.html $(BUILDDIR)/html/$$LANG/$$PAGE_TYPE/genindex.html ;\
 
-#index2: html1
+index2: sphinxbuild
+	# Create links from index.html files to:
+	#   quickstart.html,
+	#   overview.html,
+	#   standards.html
+	for ITEM in quickstart overview standards ; do \
+	  for LANG in $(LANGUAGES) ; do \
+	    if [ -e $(BUILDDIR)/html/$$LANG/$$ITEM/$$ITEM.html ] ; then \
+	      cd $(BUILDDIR)/html/$$LANG/$$ITEM ; \
+	      ln -sf $$ITEM.html index.html ;\
+	      cd $(START_DIR) ; \
+	    fi; \
+	  done; \
+	done
+
 #	# create an index.html file which links to the main directory pages
 #	for FILE in \
 #	  $(BUILDDIR)/html/*/quickstart/quickstart.html \
@@ -107,7 +126,7 @@ redirect_index: html1
 #	  ln -sf $$FILE index.html ; \
 #	done
 
-version: html1
+version: sphinxbuild
 	# Insert version number after "OSGeo-Live" in <h1> headings
 	for FILE in \
 	  $(BUILDDIR)/html/*/*.html \
@@ -118,7 +137,7 @@ version: html1
 	  mv $(TMP) $$FILE ;\
 	done
 
-banner_links: html1
+banner_links: sphinxbuild images1
 	# Copy the banner to the _images directory
 	cp images/banner.png $(BUILDDIR)/html/_images/banner.png
 	# Correct relative links to banner in top pages
@@ -127,7 +146,7 @@ banner_links: html1
 	  mv $(TMP) $$FILE; \
 	done
 
-html: fixlinks redirect_index version banner_links
+html: sphinxbuild fix_header_links redirect_to_en version banner_links images1
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
