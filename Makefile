@@ -137,6 +137,25 @@ version: sphinxbuild
 	  mv $(TMP) $$FILE ;\
 	done
 
+win_installer_links: sphinxbuild 
+	# Create symbolic link to windows and mac installer directories,
+	# otherwise remove hyperlink to the directory in index.html
+	if [ -e /cdrom/WindowsInstallers ] ; then \
+	  cd $(BUILDDIR)/html/ ;\
+	  ln -s /cdrom/WindowsInstallers . ;\
+	  ln -s /cdrom/MacInstallers . ;\
+	  cd $(START_DIR) ;\
+	else \
+	  for FILE in $(BUILDDIR)/html/*/index.html ; do \
+	    if [ ! -e /cdrom/WindowsInstallers ] ; then \
+	      sed -e 's#<a .*href="../MacInstallers/">\(.*\)</a>#\1#' $$FILE > $(TMP);\
+	      mv $(TMP) $$FILE;\
+	      sed -e 's#<a .*href="../WindowsInstallers/">\(.*\)</a>#\1#' $$FILE > $(TMP);\
+	      mv $(TMP) $$FILE;\
+	    fi;\
+	  done;\
+	fi
+
 banner_links: sphinxbuild images1
 	# Copy the banner to the _images directory
 	cp images/banner.png $(BUILDDIR)/html/_images/banner.png
@@ -146,7 +165,7 @@ banner_links: sphinxbuild images1
 	  mv $(TMP) $$FILE; \
 	done
 
-html: sphinxbuild fix_header_links redirect_to_en version banner_links images1
+html: sphinxbuild fix_header_links redirect_to_en version banner_links images1 win_installer_links
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
