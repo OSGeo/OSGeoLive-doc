@@ -34,7 +34,7 @@ help:
 	@echo "  doctest   to run all doctests embedded in the documentation (if enabled)"
 
 clean:
-	-rm -rf $(BUILDDIR)/*
+	rm -rf $(BUILDDIR)
 	rm -f */images
 	rm -f */*/images
 	rm -f contributors.rst translators.rst
@@ -112,20 +112,6 @@ index2: sphinxbuild
 	  done; \
 	done
 
-#	# create an index.html file which links to the main directory pages
-#	for FILE in \
-#	  $(BUILDDIR)/html/*/quickstart/quickstart.html \
-#	  $(BUILDDIR)/html/*/overview/overview.html \
-#	  $(BUILDDIR)/html/en/stanards/stanards.html \
-#	; do \
-#	  echo $$FILE > $(TMP) ;\
-#	  SRC=`sed -e "s#/[a-z_]*.html#/index.html#" $(TMP)` ;\
-#	  TARGET=`sed -e "s#.*/\([a-z]*.html\)#\1#" $(TMP)` ;\
-#	  echo SRC= $$SRC ; \
-#	  echo TARGET= $$TARGET ; \
-#	  ln -sf $$FILE index.html ; \
-#	done
-
 version: sphinxbuild
 	# Insert version number after "OSGeo-Live" in <h1> headings
 	for FILE in \
@@ -165,7 +151,21 @@ banner_links: sphinxbuild images1
 	  mv $(TMP) $$FILE; \
 	done
 
-html: sphinxbuild fix_header_links redirect_to_en version banner_links images1 win_installer_links
+Live_GIS_Disc_Testing.html:
+	wget -nv -O Live_GIS_Disc_Testing.html http://wiki.osgeo.org/wiki/Live_GIS_Disc_Testing
+
+test_page: Live_GIS_Disc_Testing.html sphinxbuild 
+	# Insert the test page from wiki into the HTML test.html placeholder
+	sed -e '/<h1>Test/,100000d' $(BUILDDIR)/html/en/test.html > $(TMP)
+	sed \
+	  -e '1,/<body/d' \
+	  -e "/<\/body/,100000d" \
+	  -e 's/<div id="content">/<div>/' \
+	  Live_GIS_Disc_Testing.html >> $(TMP)
+	sed -e '1,/<h1>Test/d' $(BUILDDIR)/html/en/test.html >> $(TMP)
+	mv $(TMP) $(BUILDDIR)/html/en/test.html 
+	
+html: sphinxbuild fix_header_links redirect_to_en version banner_links images1 win_installer_links test_page
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
