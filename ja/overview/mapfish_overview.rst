@@ -22,52 +22,50 @@
 MapFish
 =======
 
-Web Mapping Framework
+ウェッブマッピングフレームワーク
 ~~~~~~~~~~~~~~~~~~~~~
 
-MapFishはリッチウェッブマッピングアプリケーションを作るための柔軟で完璧なフレームワークです. It emphasizes high productivity, and high-quality development. 
+MapFishはリッチウェッブマッピングアプリケーションを作るための柔軟で完璧なフレームワークです. これはマッピングアプリケーション開発の生産性と品質を向上させます 
 
-MapFish is based on the `Pylons <http://pylonshq.com>`_ Python web framework.
-MapFish extends Pylons with geospatial-specific functionality. For example
-MapFish provides specific tools for creating web services that allows querying
-and editing geographic objects.
+MapFishは `Pylons <http://pylonshq.com>`_というPython Webフレームワークを利用しています.
+MapFishはPylonsで地理空間情報機能を拡張します. たとえばMapFishでは地理情報オブジェクトを検索したり編集したりするWEBサービスを作成するためのツールを提供します。
 
-MapFish also provides a complete RIA-oriented JavaScript toolbox, a JavaScript
-testing environment, and tools for compressing JavaScript code. The JavaScript
-toolbox is composed of the `ExtJS <http://extjs.com>`_, `OpenLayers
-<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ JavaScript
-toolkits, and specific components for interacting with MapFish web services.
+MapFishは完ぺきなリッチインターネットアプリケーションを提供できるJavaScript
+ツールボックスを提供します, このツールボックスはJavaScriptのテスト環境と
+JavaScriptコードを圧縮するツールも含みます.このJavaScriptツールボックスは
+`ExtJS <http://extjs.com>`_, `OpenLayers<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ これらのモジュールとMapFishウェッブサービスと更新
+するためのコンポーネントで構成されています.
 
 .. image:: images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Implemented Standards
+準拠している標準
 ---------------------
 
-MapFish is compliant with the `Open Geospatial Consortium
-<http://www.opengeospatial.org/>`_ standards.  This is achieved through
-OpenLayers or GeoExt supporting several OGC norms, like WMS, WFS, WMC, KML, GML
-etc.
+MapFishは`Open Geospatial Consortium
+<http://www.opengeospatial.org/>`_ 標準に完全に準拠しています.
+ これは OpenLayersまたは GeoExtが WMS, WFS, WMC, KML, GML等の多くのOGC標準をサポートしていることによって実現されています.
 
-Details
+
+詳細
 -------
 
-**Website:** http://www.mapfish.org
+**ウェッブサイト:** http://www.mapfish.org
 
-**Licence:** GNU General Public License (GPL) version 3
+**ライセンス:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.2
+**ソフトウェアバージョン:** 1.2
 
-**Supported Platforms:** Windows, Linux, Mac
+**対応プラットフォーム:** Windows, Linux, Mac
 
-**Support:** http://trac.mapfish.org/trac/mapfish#Community
+**サポート:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Quickstart
+クイックスタート
 ----------
 
-* `Quickstart documentation <../quickstart/mapfish_quickstart.html>`_
+* `クイックスタート文章 <../quickstart/mapfish_quickstart.html>`_
 
 
