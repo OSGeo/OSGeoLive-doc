@@ -22,50 +22,50 @@
 MapFish
 =======
 
-ѓEѓFѓbѓuѓ}ѓbѓsѓ“ѓOѓtѓЊЃ[ѓЂѓЏЃ[ѓN
+г‚¦г‚§гѓѓгѓ–гѓћгѓѓгѓ”гѓіг‚°гѓ•гѓ¬гѓјгѓ гѓЇгѓјг‚Ї
 ~~~~~~~~~~~~~~~~~~~~~
 
-MapFish‚НѓЉѓbѓ`ѓEѓFѓbѓuѓ}ѓbѓsѓ“ѓOѓAѓvѓЉѓPЃ[ѓVѓ‡ѓ“‚рЌм‚й‚Ѕ‚Я‚МЏ_“о‚ЕЉ®аш‚ИѓtѓЊЃ[ѓЂѓЏЃ[ѓN‚Е‚·. ‚±‚к‚Нѓ}ѓbѓsѓ“ѓOѓAѓvѓЉѓPЃ[ѓVѓ‡ѓ“ЉJ”­‚Мђ¶ЋYђ«‚Ж•iЋї‚рЊьЏг‚і‚№‚Ь‚· 
+MapFishгЃЇгѓЄгѓѓгѓЃг‚¦г‚§гѓѓгѓ–гѓћгѓѓгѓ”гѓіг‚°г‚ўгѓ—гѓЄг‚±гѓјг‚·гѓ§гѓіг‚’дЅњг‚‹гЃџг‚ЃгЃ®жџ”и»џгЃ§е®Њз’§гЃЄгѓ•гѓ¬гѓјгѓ гѓЇгѓјг‚ЇгЃ§гЃ™. гЃ“г‚ЊгЃЇгѓћгѓѓгѓ”гѓіг‚°г‚ўгѓ—гѓЄг‚±гѓјг‚·гѓ§гѓій–‹з™єгЃ®з”џз”ЈжЂ§гЃЁе“ЃиіЄг‚’еђ‘дёЉгЃ•гЃ›гЃѕгЃ™ 
 
-MapFish‚Н `Pylons <http://pylonshq.com>`_‚Ж‚ў‚¤Python WebѓtѓЊЃ[ѓЂѓЏЃ[ѓN‚р——p‚µ‚Д‚ў‚Ь‚·.
-MapFish‚НPylons‚Е’n—ќ‹уЉФЏо•с‹@”\‚рЉg’Ј‚µ‚Ь‚·. ‚Ѕ‚Ж‚¦‚ОMapFish‚Е‚Н’n—ќЏо•сѓIѓuѓWѓFѓNѓg‚рЊџЌх‚µ‚Ѕ‚и•ТЏW‚µ‚Ѕ‚и‚·‚йWEBѓTЃ[ѓrѓX‚рЌмђ¬‚·‚й‚Ѕ‚Я‚МѓcЃ[ѓ‹‚р’с‹џ‚µ‚Ь‚·ЃB
+MapFishгЃЇ `Pylons <http://pylonshq.com>`_гЃЁгЃ„гЃ†Python Webгѓ•гѓ¬гѓјгѓ гѓЇгѓјг‚Їг‚’е€©з”ЁгЃ—гЃ¦гЃ„гЃѕгЃ™.
+MapFishгЃЇPylonsгЃ§ењ°зђ†з©єй–“жѓ…е ±ж©џиѓЅг‚’ж‹ЎејµгЃ—гЃѕгЃ™. гЃџгЃЁгЃ€гЃ°MapFishгЃ§гЃЇењ°зђ†жѓ…е ±г‚Єгѓ–г‚ёг‚§г‚Їгѓ€г‚’ж¤њзґўгЃ—гЃџг‚Љз·Ёй›†гЃ—гЃџг‚ЉгЃ™г‚‹WEBг‚µгѓјгѓ“г‚№г‚’дЅњж€ђгЃ™г‚‹гЃџг‚ЃгЃ®гѓ„гѓјгѓ«г‚’жЏђдѕ›гЃ—гЃѕгЃ™гЂ‚
 
-MapFish‚НЉ®‚Ш‚«‚ИѓЉѓbѓ`ѓCѓ“ѓ^Ѓ[ѓlѓbѓgѓAѓvѓЉѓPЃ[ѓVѓ‡ѓ“‚р’с‹џ‚Е‚«‚йJavaScript
-ѓcЃ[ѓ‹ѓ{ѓbѓNѓX‚р’с‹џ‚µ‚Ь‚·, ‚±‚МѓcЃ[ѓ‹ѓ{ѓbѓNѓX‚НJavaScript‚МѓeѓXѓgЉВ‹«‚Ж
-JavaScriptѓRЃ[ѓh‚р€іЏk‚·‚йѓcЃ[ѓ‹‚аЉЬ‚Э‚Ь‚·.‚±‚МJavaScriptѓcЃ[ѓ‹ѓ{ѓbѓNѓX‚Н
-`ExtJS <http://extjs.com>`_, `OpenLayers<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ ‚±‚к‚з‚Мѓ‚ѓWѓ…Ѓ[ѓ‹‚ЖMapFishѓEѓFѓbѓuѓTЃ[ѓrѓX‚ЖЌXђV
-‚·‚й‚Ѕ‚Я‚МѓRѓ“ѓ|Ѓ[ѓlѓ“ѓg‚ЕЌ\ђ¬‚і‚к‚Д‚ў‚Ь‚·.
+MapFishгЃЇе®ЊгЃєгЃЌгЃЄгѓЄгѓѓгѓЃг‚¤гѓіг‚їгѓјгѓЌгѓѓгѓ€г‚ўгѓ—гѓЄг‚±гѓјг‚·гѓ§гѓіг‚’жЏђдѕ›гЃ§гЃЌг‚‹JavaScript
+гѓ„гѓјгѓ«гѓњгѓѓг‚Їг‚№г‚’жЏђдѕ›гЃ—гЃѕгЃ™, гЃ“гЃ®гѓ„гѓјгѓ«гѓњгѓѓг‚Їг‚№гЃЇJavaScriptгЃ®гѓ†г‚№гѓ€з’°еўѓгЃЁ
+JavaScriptг‚ігѓјгѓ‰г‚’ењ§зё®гЃ™г‚‹гѓ„гѓјгѓ«г‚‚еђ«гЃїгЃѕгЃ™.гЃ“гЃ®JavaScriptгѓ„гѓјгѓ«гѓњгѓѓг‚Їг‚№гЃЇ
+`ExtJS <http://extjs.com>`_, `OpenLayers<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ гЃ“г‚Њг‚‰гЃ®гѓўг‚ёгѓҐгѓјгѓ«гЃЁMapFishг‚¦г‚§гѓѓгѓ–г‚µгѓјгѓ“г‚№гЃЁж›ґж–°
+гЃ™г‚‹гЃџг‚ЃгЃ®г‚ігѓігѓќгѓјгѓЌгѓігѓ€гЃ§ж§‹ж€ђгЃ•г‚ЊгЃ¦гЃ„гЃѕгЃ™.
 
 .. image:: images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-ЏЂ‹’‚µ‚Д‚ў‚й•WЏЂ
+жє–ж‹ гЃ—гЃ¦гЃ„г‚‹жЁ™жє–
 ---------------------
 
-MapFish‚Н`Open Geospatial Consortium
-<http://www.opengeospatial.org/>`_ •WЏЂ‚ЙЉ®‘S‚ЙЏЂ‹’‚µ‚Д‚ў‚Ь‚·.
- ‚±‚к‚Н OpenLayers‚Ь‚Ѕ‚Н GeoExt‚Є WMS, WFS, WMC, KML, GML“™‚М‘Ѕ‚­‚МOGC•WЏЂ‚рѓTѓ|Ѓ[ѓg‚µ‚Д‚ў‚й‚±‚Ж‚Й‚ж‚Б‚ДЋАЊ»‚і‚к‚Д‚ў‚Ь‚·.
+MapFishгЃЇ`Open Geospatial Consortium
+<http://www.opengeospatial.org/>`_ жЁ™жє–гЃ«е®Ње…ЁгЃ«жє–ж‹ гЃ—гЃ¦гЃ„гЃѕгЃ™.
+ гЃ“г‚ЊгЃЇ OpenLayersгЃѕгЃџгЃЇ GeoExtгЃЊ WMS, WFS, WMC, KML, GMLз­‰гЃ®е¤љгЃЏгЃ®OGCжЁ™жє–г‚’г‚µгѓќгѓјгѓ€гЃ—гЃ¦гЃ„г‚‹гЃ“гЃЁгЃ«г‚€гЃЈгЃ¦е®џзЏѕгЃ•г‚ЊгЃ¦гЃ„гЃѕгЃ™.
 
 
-ЏЪЌЧ
+и©ізґ°
 -------
 
-**ѓEѓFѓbѓuѓTѓCѓg:** http://www.mapfish.org
+**г‚¦г‚§гѓѓгѓ–г‚µг‚¤гѓ€:** http://www.mapfish.org
 
-**ѓ‰ѓCѓZѓ“ѓX:** GNU General Public License (GPL) version 3
+**гѓ©г‚¤г‚»гѓіг‚№:** GNU General Public License (GPL) version 3
 
-**ѓ\ѓtѓgѓEѓFѓAѓoЃ[ѓWѓ‡ѓ“:** 1.2
+**г‚Ѕгѓ•гѓ€г‚¦г‚§г‚ўгѓђгѓјг‚ёгѓ§гѓі:** 1.2
 
-**‘О‰ћѓvѓ‰ѓbѓgѓtѓHЃ[ѓЂ:** Windows, Linux, Mac
+**еЇѕеїњгѓ—гѓ©гѓѓгѓ€гѓ•г‚©гѓјгѓ :** Windows, Linux, Mac
 
-**ѓTѓ|Ѓ[ѓg:** http://trac.mapfish.org/trac/mapfish#Community
+**г‚µгѓќгѓјгѓ€:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-ѓNѓCѓbѓNѓXѓ^Ѓ[ѓg
+г‚Їг‚¤гѓѓг‚Їг‚№г‚їгѓјгѓ€
 ----------
 
-* `ѓNѓCѓbѓNѓXѓ^Ѓ[ѓg•¶ЏН <../quickstart/mapfish_quickstart.html>`_
+* `г‚Їг‚¤гѓѓг‚Їг‚№г‚їгѓјгѓ€ж–‡з«  <../quickstart/mapfish_quickstart.html>`_
 
 

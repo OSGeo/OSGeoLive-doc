@@ -14,28 +14,28 @@
 AtlasStyler
 ===========
 
-�n���X�^�C���G�f�B�^
+地物スタイルエディタ
 ~~~~~~~~~~~~~~~~~~~~
 
-`AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ �͗��p���₷���W�I�E�f�[�^�̃X�^�C���ҏW�̂��߂̃f�X�N�g�b�v�A�v���P�[�V�����ł��B�X�^�C���ҏW�̌��ʂ́AOGS�W���� SLD/SE�t�@�C���Ƃ��ĕۑ����邱�Ƃ��o���܂��B
+`AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ は利用しやすいジオ・データのスタイル編集のためのデスクトップアプリケーションです。スタイル編集の結果は、OGS標準の SLD/SEファイルとして保存することが出来ます。
 
-�쐬���ꂽSLD�t�@�C���́AGeoServer�AUgid�A�Ȃǂ�OGS SLD�W���ɏ����������ׂẴv���O�����Ƃ̌݊���������܂��B�A�v���P�[�V�����͊ȒP�ɃX�^�C�����쐬���邽�߂̑��l�Ȓ����I�_�C�A���O��񋟂��܂��B���p�҂́A�ʒl�A�����ʂ܂��͓��Ԋu�ɂ��ʐF�̂悤�ɗv�񂵂����ނ�K�p�ł��܂��B�����āA���p�҂̓I�����C���̃V���{��-�f�[�^�x�[�X�ւ̓������ꂽ�ڑ��������܂��B���p�҂̓V���{���G�f�B�^�𗘗p���ăV���{���̍쐬�ƕۑ��ł��A���ނ⑼�̃v���W�F�N�g�ł̍ė��p�ł��܂��B
+作成されたSLDファイルは、GeoServer、Ugid、などのOGS SLD標準に準拠したすべてのプログラムとの互換性があります。アプリケーションは簡単にスタイルを作成するための多様な直感的ダイアログを提供します。利用者は、個別値、等分位または等間隔による彩色のように要約した分類を適用できます。加えて、利用者はオンラインのシンボル-データベースへの統合された接続を持ちます。利用者はシンボルエディタを利用してシンボルの作成と保存でき、分類や他のプロジェクトでの再利用できます。
 
 .. image:: images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right
 
-��ȋ@�\
+主な機能
 -------------
 
-* �_�C�A���O�𗘗p�����X�^�C���쐬
-* OGC SLD�W���ւ̏���
-* Windows, Linux, Mac�ł̎��s
-* ESRI Shapefile��PostGIS database�̃C���|�[�g
-* �h�C�c��A�p��A�C�^���A��A�t�����X��ւ̊��S�Ȗ|��
+* ダイアログを利用したスタイル作成
+* OGC SLD標準への準拠
+* Windows, Linux, Macでの実行
+* ESRI ShapefileとPostGIS databaseのインポート
+* ドイツ語、英語、イタリア語、フランス語への完全な翻訳
 
-���������W��
+準拠した標準
 ---------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
@@ -44,23 +44,23 @@ AtlasStyler
 Details
 -------
 
-**�E�F�b�u�T�C�g:** http://en.geopublishing.org/AtlasStyler
+**ウェッブサイト:** http://en.geopublishing.org/AtlasStyler
 
-**�\�t�g�E�F�A�o�[�W����:** 1.5
+**ソフトウェアバージョン:** 1.5
 
-**���C�Z���X:** GNU Lesser General Public License (LGPL) version 3.0
+**ライセンス:** GNU Lesser General Public License (LGPL) version 3.0
 
-**���p�\�v���b�g�t�H�[��:** Windows, Linux, Mac
+**利用可能プラットフォーム:** Windows, Linux, Mac
 
-**API�C���^�[�t�F�C�X:** Java, Swing, Geotools
+**APIインターフェイス:** Java, Swing, Geotools
 
-**�T�|�[�g:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
+**サポート:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
 
 
-�N�C�b�N�X�^�[�g
+クイックスタート
 ----------
 
-* `�N�C�b�N�X�^�[�g���� <../quickstart/atlasstyler_quickstart.html>`_
+* `クイックスタート文章 <../quickstart/atlasstyler_quickstart.html>`_
 
 
