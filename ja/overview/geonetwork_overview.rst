@@ -29,45 +29,45 @@ GeoNetwork OpenSourceは空間的に参照されるリソースを管理する�
   :alt: project logo
   :align: right
 
-Core Features
+主な機能
 -------------
-*  Immediate search access to local and distributed geospatial catalogues
-* Up- and downloading of data, graphics, documents, pdf files and any other content type
-* An interactive Web Map Viewer to combine Web Map Services from distributed servers around the world
-* Recently updated entries are accessible as RSS news feeds and as GeoRSS.
-* Online editing of metadata with a powerful template system
-* Native support for ISO19115/ISO19119/ISO19139/ISO19110, FGDC and Dublin Core formatted metadata
-* Scheduled harvesting and synchronization of metadata between distributed catalogues (GeoNetwork, CSW, OGC WxS, Z39.50, WebDav, ArcSDE, Thredds)
-* Fine-grained access control
-* Group and user management
-* Multi-lingual user interface
-* A randomly selected Featured Map
+*  ローカルホストと分散空間カタログへのへの直接検索
+* データ、グラフィックス、文書、pdfファイルや他のコンテントタイプをアップロード、ダウンロードできます
+* 世界中の遠隔サーバのWEBマップサービスを混在して表示することができる対話型WEB地図ビューアがあります
+* 最近の更新内容をRSSニュースとGeoRSSで取得できます.
+* 強力なテンプレートシステムでオンラインメタデータ編集を行うことができます
+* メタデータの形式としてISO19115/ISO19119/ISO19139/ISO19110, FGDC と Dublin Core を利用できます
+* 遠隔地のカタログ間でメタデータの収集と同期をスケジュールできます(GeoNetwork, CSW, OGC WxS, Z39.50, WebDav, ArcSDE, Thredds)
+* 適切な単位でのアクセスコントロールができます
+* グループとユーザの管理ができます
+* マルチ言語ユーザーインターフェース
+* ランダムに選択された特集地図を表示する機能があります
 
-Implemented Standards
+準拠している標準
 ---------------------
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
 * Z39.50 
 * OpenSearch-Geo
-* Metadata standards:
+* メタデータの標準:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles
  * Dublin Core
  * FGDC
 
-Details
+詳細
 -------
 
-**Website:** http://geonetwork-opensource.org
+**ウェッブサイト:** http://geonetwork-opensource.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**ライセンス:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.4
+**ソフトウェアバージョン:** 2.4
 
-**Supported Platforms:** Windows, Linux, Mac
+**サポートされるプラットフォーム:** Windows, Linux, Mac
 
-**API Interfaces:** Java
+**APIインターフェース:** Java
 
-**Support:** http://www.osgeo.org/search_profile
+**サポート:** http://www.osgeo.org/search_profile
 
