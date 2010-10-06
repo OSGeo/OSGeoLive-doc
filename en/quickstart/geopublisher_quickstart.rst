@@ -30,7 +30,7 @@ Geopublisher (Create and export atlases)
 AtlasStyler (Styling layers with SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `AtlasStyler Labelling tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
-* `AtlasStyler tutoriel d'étiquetage SLD, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
+* `AtlasStyler tutoriel d'étiquetage SLD, French, Created for version 1.5 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.5_FR_Tutoriel_d_etiquetage_101006.pdf>`_
 
 More tutorials are posted as blog entries at `http://en.geopublishing.org <http://en.geopublishing.org">`_ (you have to be online to visit this webpage).
 
