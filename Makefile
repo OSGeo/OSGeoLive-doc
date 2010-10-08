@@ -81,12 +81,13 @@ fix_header_links: sphinxbuild
 	  for ITEM in \
 	    contact.html \
 	    index.html \
+	    ../index.html \
 	    download.html \
 	    sponsors.html \
 	    overview/overview.html \
 	    standards/standards.html \
 	  ; do \
-	    sed -e "s#\(../\)\($$ITEM\)#\2#" $$FILE > $(TMP) ; mv $(TMP) $$FILE ; \
+	    sed -e "s#\(\.\./\)\($$ITEM\)#\2#" $$FILE > $(TMP) ; mv $(TMP) $$FILE ; \
 	  done; \
 	done
 
