@@ -5,7 +5,7 @@ Explain here how the index.html is automatically constructed.
 reStructured Text
 =================
 
-We are moving towards generating the html pages from reStructured text
+The majority of our documentation is generated from reStructured text
 sources using Sphinx. reSt is similar to wiki markup, and readable in
 plain ascii. As a quick check, the Trac system viewer will (partially)
 render reSt documents as HTML from the online SVN browser.
@@ -16,10 +16,10 @@ render reSt documents as HTML from the online SVN browser.
 
 2. The included make file will generate the documentation
 ::
-   cd doc/overview/
+   cd trunk/doc
    make html
-   cd ../quickstart/
-   make html
+
+   View output in _build/html/en/index.html
 
 
 References:
