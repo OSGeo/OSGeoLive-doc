@@ -10,7 +10,7 @@ sources using Sphinx. reSt is similar to wiki markup, and readable in
 plain ascii. As a quick check, the Trac system viewer will (partially)
 render reSt documents as HTML from the online SVN browser.
 
-1. Install sphinx, Python as needed (install_main_docs.sh does this too)
+1. Install python and sphinx version 0.6.4 or greater (as provided with Ubuntu 10.04), (install_main_docs.sh does this too)
 ::
    sudo apt-get install python-sphinx
 
