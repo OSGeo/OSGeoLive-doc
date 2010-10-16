@@ -2,6 +2,7 @@
 #  - alphabetical by first name
 #  - remove punctuation from email addresses to stop harvesting for junk mail
 Name,Email,Country,Osgeo_id
+Activity Workshop,mail activityworkshop net,Germany,activityworkshop
 Alex Mandel, tech wildintellect com,USA,wildintellect
 Andrea Antonello,andrea.antonello gmail com,Italy,moovida
 Anton Patrushev,anton.patrushev gmail com,Japan,anton
