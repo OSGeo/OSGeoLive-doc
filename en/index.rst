@@ -20,7 +20,7 @@ also contains sample datasets and documentation.
 To try out the applications, simply:
 
 #. Insert DVD or USB thumb drive in computer or virtual machine.
-#. Reboot computer. (verify boot device order)
+#. Reboot computer. (verify boot device order if necessary)
 #. Press "Enter" to startup & login.
 #. Trial applications from the "Geospatial" menu.
 
@@ -40,5 +40,5 @@ Quick Starts
 
 Presentation
 ------------
-A 25 minute lightening presentation covering all OSGeoLive applications is available as a `Video <http://cameronshorter.blip.tv/file/4078371/>`_ and `Slides and Script <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
+A 25 minute lightning presentation covering all OSGeoLive applications is available as a `Video <http://cameronshorter.blip.tv/file/4078371/>`_ and `Slides and Script <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
 
