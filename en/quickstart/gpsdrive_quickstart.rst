@@ -78,7 +78,7 @@ Mapnik rendering of OpenStreetMap data
 If you have a local PostGIS database running (for example the one that comes
 with this Live DVD) you can setup GpsDrive to render very pretty street maps
 on the fly from OpenStreetMap.org data using the Mapnik renderer. The
-PostgreSQL database it looks for on this disc is called named "osm_local_smerc".
+PostgreSQL database it looks for on this disc is called "osm_local_smerc".
 As this OpenStreetMap extract has only been loaded for the city hosting
 the conference, you may wish to add your own Planet.osm data with the
 `osm2pgsql` program or switch off *Mapnik Mode* from the *Map Control*
