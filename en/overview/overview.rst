@@ -37,15 +37,15 @@ Desktop GIS
 * :doc:`ossim_overview` - [`QuickStart <../quickstart/ossim_quickstart.html>`_] - Image Processing
 * :doc:`geopublisher_overview`- [`QuickStart <../quickstart/geopublisher_quickstart.html>`_] - Catalogue
 * :doc:`atlasstyler_overview` - [`QuickStart <../quickstart/atlasstyler_quickstart.html>`_] - Style Editor
-* :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3 Dimention Terrain Rendering
+* :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3 Dimensional Terrain Rendering
 * :doc:`mb-system_overview` - [`QuickStart <../quickstart/mb-system_quickstart.html>`_] - Sea Floor Mapping
 
 Navigation and Maps
 -------------------
 * :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - Open Street Map Tools
-* :doc:`gpsdrive_overview` - [`QuickStart <../quickstart/gpsdrive_quickstart.html>`_] - GPS
+* :doc:`gpsdrive_overview` - [`QuickStart <../quickstart/gpsdrive_quickstart.html>`_] - GPS Navigation
 * :doc:`marble_overview` - [`QuickStart <../quickstart/marble_quickstart.html>`_] - Spinning Globe
-* :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Plot
+* :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Data Analysis and Viewer
 * :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS
 * :doc:`zygrib_overview` - Weather Forecast Maps
 
