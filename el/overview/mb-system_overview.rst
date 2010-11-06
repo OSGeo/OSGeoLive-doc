@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mb-system-overview:
 
@@ -55,7 +55,7 @@ from a number of research and science organisations.
 
 **Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
-**Licence:** GNU General Public License (GPL) version 3
+**Άδεια:** GNU General Public License (GPL) version 3
 
 **Software Version:** 5.1.2
 

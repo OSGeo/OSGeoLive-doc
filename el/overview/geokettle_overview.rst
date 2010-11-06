@@ -90,7 +90,7 @@ In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL t
 
 **Website:** http://www.geokettle.org/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2.1
+**Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
 **Software Version:** 3.2.0-20090609
 

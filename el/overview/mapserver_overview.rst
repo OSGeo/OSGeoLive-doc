@@ -73,7 +73,7 @@ MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained
 
   * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
-Demo
+Επίδειξη
 ----
 
 * `Itasca <http://localhost/mapserver_demos/itasca/>`_

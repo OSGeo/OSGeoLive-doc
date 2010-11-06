@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _marble-overview:
 
@@ -47,11 +47,11 @@ encouraged to include a KDE Marble widget in your application.
 
 **Website:** http://edu.kde.org/marble/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2.1
+**Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
 **Software Version:** 0.9.2
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
 

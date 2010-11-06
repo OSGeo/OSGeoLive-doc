@@ -1,6 +1,6 @@
-:Author: Gérald Fenoy
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Gérald Fenoy
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _zoo-overview:
 
@@ -13,84 +13,83 @@
 ZOO Project
 ===========
 
-WPS Server
+Εξυπηρετητής Διαδικτυακών Υπηρεσιών Επεξεργασίας (WPS)
 ~~~~~~~~~~
 
-ZOO Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
-A WPS provides web access to functions which run spatial algorithms.
-Zoo Project supports many programming languages and comes with two demo applications using simple
-spatialtools Services Providers (a C shared library and a Python module)
-based on the GEOS and OGR Libraries.
+Το πρόγραμμα ZOO  παρέχει ένα περιβάλλον φυλικό για τον προγραμματιστή για την υλοποίηση και την διασυνδεση διαδικτυακών υπηρεσιών με βάση το πρότυπο Web Processing Service (WPS) του OGC.
+Μια υπηρεσία WPS παρέχει διαδικτυακή πρόσβαση σε λειτουργίες που εκτελούν γεωχωρικούς αλγορίθμους.
+Το Zoo Project παρέχει υποστήριξη για μεγάλο πλήθος γλωσσών προγραμματισμού και παρέχεται με δοκιμαστικές εφαρμογές χρησιμοποιώντας απλούς
+παρόχους γεωχωρικών αλγορίθμων (μια βιβλιοθήκη σε C και ένα άρθρωμα Python)
+βασισμένους στις βιβλιοθήκες GEOS και OGR.
 
-ZOO is made of three parts:
+Το ZOO αποτελείται από τρία μέρη:
 
 .. image:: images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right
 
-*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to
-manage and chain Web services coded in different programming languages. 
+*Τον πυρήνα ZOO (ZOO Kernel)* : Ένα ισχυρό πυρήνα (στη μεριά του εξυπηρετητή) σε γλώσσα C που παρέχει τη δυνατότητα
+διαχείρησης και συνδιασμού δικτυακών υπηρεσιών WPS που είναι γραμμένα σε διαφορετικές γλώσσες. 
 
-*ZOO Services* : A growing suite of example Web services based on various
-Open Source libraries.
+*Τις υπηρεσίες ZOO* : Μια διαρκώς αναπτυσσόμενη σουίτα από παραδείγματα δικτυακών υπηρεσιών βασισμένα σε πολύ γνωστές βιβλιοθήκες ελεύθερου και ανοιχτού κώδικα.
 
-*ZOO API* : A server-side JavaScript API able to call and chain the ZOO
-Services, which makes the development and chaining processes easier. 
+*Το προγραμματιστικό περιβάλλον ZOO (API)* : Ένα περιβάλλον προγραμματισμού JavaScript στη μεριά του εξυπηρετηη που έχει τη δυνατότητα να καλέσει και να διασυνδέσει τις Υπηρεσίες ZOO,
+πράγμα το οποίο κάνει την διαδικασία πργραμματισμού και διασύνδεσης ευκολότερη. 
 
-ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core
-system (aka ZOO Kernel). The latter is able to load dynamic libraries and
-to handle them as on-demand Web services. The ZOO Kernel is written in C
-language, but supports several common programming languages in order to
-connect to numerous libraries and above all to simplify the Web service
-end-developer's job.
+Το ZOO βασίζεται σε ένα πυρήνα WPS ο οποίος αποτελεί το θεμέλιο λίθο του συστήματος ZOO
+(γνωστό και ώς ZOO Kernel). Το σύστημα έχει δυνατότητα να φορτώνει δυναμικές βιβλιοθήκες
+και να τις διαχειρίζεται σαν διαδικτυακές υπηρεσίες ανάλογα με τη ζήτηση. Ο πυρήνας ZOO είναι γραμμένος στη γλώσσα C,
+αλλά υποστηρίζονται πολλές γνωστες γλώσσες προγραμματισμού ώστε να διασυνδεθούν 
+πολλές εξωτερικές βιβλιοθήκες και πάνω από όλα να απλοποιηθεί η εργασία του
+προγραμματιστή.
 
-A ZOO service is a link composed of a metadata file (.zcfg) and the code
-for the corresponding implementation. The metadata file describes all the
-available functions which can be called using a WPS Exec Request, as well
-as the desired input/output. Services contain the algorithms and
-functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP
-and JavaScript. 
+Μια υπηρεσία ZOO αποτελείται από ένα σύνδεσμος σε ένα αρχείο μεταδεδομένων (.zcfg) και τον κώδικα
+της αντίστοιχης υλοποίησης. Το αρχείο μεταδεδομένων περιγράφει όλες τις
+διαθέσιμες συναρτήσεις που μπορούν να κληθούν από μια κλήση για εκτέλεσης, καθώς επίσης
+και τα επιθυμητά δεδομένα εισόδου / εξόδου. Οι υπηρεσίες περιλαμβάνουν αλγορίθμους και συναρτήσεις,
+και μπορούν να υλοποιηθούν σε C/C++, Fortran, Java, Python, PHP
+και JavaScript. 
 
 Βασικά Χαρακτηριστικά
 -------------
 
-* Multi language WPS server 
-* Simple Web Service creation and depoyment procedure
-* Simple WPS chaining with ZOO API
+* Εξυπηρετητής WPS σε διάφορες γλώσσες 
+* Απλή διαδικασία δημιουργίας υπηρεσιών διαδικτύου και διαδικασία εγκατάστασης
+* Απλή διασύνδεση του WPS μέσω του προγραμματιστικού περιβάλλοντος (ZOO API)
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
 * OGC WPS 1.0.0
 
-Demo
+Επίδειξη
 ----
 
-* `Demo using simple C Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/spatialtools.html>`_
-* `Demo using simple Python Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/spatialtools-py.html>`_
-* `Simple html form to process your request to the ZOO Kernel <http://localhost/zoo-demo/spatialtools.html>`_
+* `Δοκιμαστική εφαρμογή C βασισμένη στις βιβλιοθήκες GEOS και OGR <http://localhost/zoo-demo/spatialtools.html>`_
+* `Δοκιμαστική εφαρμογή σε Python βασισμένη στις βιβλιοθήκες GEOS και OGR <http://localhost/zoo-demo/spatialtools-py.html>`_
+* `Απλή φόρμα html για την εκτέλεση μιας διαδικασίας από τον πυρήνα ZOO (Kernel) <http://localhost/zoo-demo/spatialtools.html>`_
 
 
 Λεπτομέρειες
 -------
 
-**Website:** http://zoo-project.org
+**Κεντρική ιστοσελίδα:** http://zoo-project.org
 
-**Licence:** MIT x/11
+**Άδεια:** MIT x/11
 
-**Software Version:** 1.0
+**Έκδοση Λογισμικού:** 1.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**Programing language support:** C, Python, Java, PHP, Fortran, Javascript
+**Υποστήριξη γλωσσών προγραμματισμού:** C, Python, Java, PHP, Fortran, Javascript
 
-**Support:** http://zoo-project.org/trac
+**Υποστήριξη:** http://zoo-project.org/trac
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/zoo-project_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/zoo-project_quickstart.html>`_
 
 

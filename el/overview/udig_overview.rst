@@ -21,37 +21,37 @@ User-friendly Desktop Internet GIS (uDig)
   :alt: udig workshop
   :align: right
 
-User-friendly Desktop Internet GIS (uDig) is an open source spatial data viewer/editor, with special emphasis on the OpenGIS standards for internet GIS, the Web Map Server (WMS) and Web Feature Server (WFS) standards.
+Το uDig είναι ένα λογισμικό ανοιχτού κώδικα για την επεξεργασία / επισκόπηση χωρικών δεδομένων, με έμφαση στα πρότυπα του OpenGIS για το διαδικτυακό GIS, το πρότυπο Web Map Server (WMS) και το πρότυπο Web Feature Server (WFS).
 
-uDig is:
+Το uDig είναι:
 
-* **User-friendly**, providing a familiar graphical environment for GIS users;
-* **Desktop located**, running natively on Windows, Mac OS/X and Linux;
-* **Internet oriented**, consuming standard and de facto geospatial web services; and,
-* **GIS ready**, providing the framework on which complex analytical capabilities can be built, and gradually subsuming those capabilities into the main application
+* **Φιλικό πρός το χρήστη**, παρέχοντας ένα γνώριμο γραφικό περιβάλλον για τους χρήστες του GIS,
+* ** Λογισμικό που εκτελείται τοπικά**, εκτελείται εγγενώς στα Windows, Mac OS/X και Linux,
+* **Προσανατολισμένο στο διαδίκτυο**, και χρησιμοποιεί καθιερωμένα πρότυπα και διαδικτυακές υπηρεσίες, και
+* **Έτοιμο για GIS**, παρέχοντας το πλαίσιο στο οποίο μπορούν να υλοποιηθούν σύνθετες δυνατότητες ανάλυσης, και στη συνέχεια να ενσωματωθούν στην κύρια εφαρμογή
 
-For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
+Για τους προγραμματιστές, το uDig παρέχει μια πλατφόρμα Java για υλοποίηση γεωχωρικών εφαρμογών με εργαλεία ανοιχτού κώδικα. Η κεντρική ιστοσελίδα του παρέχει μια σειρά από εύκολους οδηγούς εκμάθησης που καλύπτουν από τη χρήση ενός απλού μέχρι την υλοποίηση μιας δικής σας ιδιοποιημένης εφαρμογής.
 
 Βασικά Χαρακτηριστικά
 -------------
 
-* Desktop Client with Drag and Drop integration for File explorer and Web Browser
-* Integrate with your existing infrastructure: ArcSDE, Oracle, DB2 and more
-* Work with local files: Shapefile, jpeg, png, tiff and more.
-* Work with advanced spatial raster formats: ECW, MrSID, JPEG 2000
-* Support for compliant Web Map Servers (GeoServer, MapServer tested)
-* Integrated Web experience with an embedded browser that recognises OGC web
-  services and smoothly adds links to the onscreen map
-* Style Layer Descriptor control of rendering allowing you to publish your Map using the same
-  settings in uDig as with popular Web Map Servers
-* Deep integration of standards allowing the application to swap between the appropriate service
-  as required for display, interaction and editing
-* Printing and PDF Generation
-* For Developers
+* Λογισμικό για σταθμό εργασίας με δυνατότητες Drag and Drop για τον διαχειρηστή αρχείων αλλά και τον περιηγητή διαδικτύου
+* Διασύνδέεται με την υπάρχουσα υποδομή: ArcSDE, Oracle, DB2 και περισσότερα
+* Εργασία σε τοπικά αρχεία: Shapefile, jpeg, png, tiff και περισσότερα.
+* Λειτουργεί με προχωρημένα πρότυπα εικόνων: ECW, MrSID, JPEG 2000
+* Παρέχει υποστήριξη για συμβατούς εξυπηρετητές χαρτών (δοκιμασμένο με GeoServer και MapServer)
+* Ενσωματώνει την διαδικτυακή εμπειρία με εσωτερικό περιηγητή που αναγνωρίζει τα πρότυπα OGC
+  Υπηρεσίες και ομαλή προσθήκη συνεσμων διαδικτύου στον χάρτη της οθόνης
+* Σύνθεση προτύπων χαρτοσύνθεσης Style Layer Descriptor και οπτικοποίηση τους ώστε να μπορείτε να δημοσιεύσετε τους δικούς σας χάρτες με αυτά
+  Ρυθμίσεις στο uDig όμοιες με αυτές των δημοφιλών εξυπηρετητών χαρτών
+* Βαθιά ενσωμάτωση προτύπων, επιτρέπει στην εφαρμογή να εναλλάσεται μεταξύ διαφορετικών προτύπων για την εύρεση του καταλληλότερου
+  Σχετικά με την απαραίτητη οπτικοποίηση, ολοκλήρωση και επεξεργασία
+* Εκτύπωση και δημιουργία PDF
+* Για προγραμματιστές
   
-  * Java Application built using the GeoTools, JTS Topology Suite and GeoAPI
-  * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
-  * Use of native widgets
+  * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες GeoTools, JTS Topology Suite και GeoAPI
+  * Επαγγελματικές δυνατότητες που παρέχονται από την πλατφόρμα Eclipse Rich Client Platform με τη δυνατότητα πρόσθετων λειτουργιών (add-ons) 
+  * Χρήση εγγενών παραθυρικών διεπαφών
 
 Υλοποιημένα Πρότυπα
 ---------------------
@@ -66,24 +66,24 @@ For developers uDig provides a common Java platform for building spatial applica
 Λεπτομέρειες
 -------
 
-**Website:** http://udig.refractions.net/
+**Κεντική ιστοσελίδα:** http://udig.refractions.net/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2
+**Άδεια:** GNU Lesser General Public License (LGPL) version 2
 
-**Software Version:** 1.2.0
+**Έκδοση Λογισμικού:** 1.2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
+**Προγραμματιστικές διεπαφές:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
-**Support:** http://udig.refractions.net/users/
+**Υποστήριξη:** http://udig.refractions.net/users/
 
-**Developers:** http://udig.refractions.net/developers/
+**Προγραμματιστές:** http://udig.refractions.net/developers/
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/udig_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/udig_quickstart.html>`_
 
 
