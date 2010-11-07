@@ -32,7 +32,7 @@ AtlasStyler
 * ダイアログを利用したスタイル作成
 * OGC SLD標準への準拠
 * Windows, Linux, Macでの実行
-* ESRI ShapefileとPostGIS databaseのインポート
+* ESRI ShapefileとPostGIS databaseのインポート and OGC WFS
 * ドイツ語、英語、イタリア語、フランス語への完全な翻訳
 
 準拠した標準
@@ -46,7 +46,7 @@ Details
 
 **ウェッブサイト:** http://en.geopublishing.org/AtlasStyler
 
-**ソフトウェアバージョン:** 1.5
+**ソフトウェアバージョン:** 1.6
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 3.0
 

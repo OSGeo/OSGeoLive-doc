@@ -53,7 +53,7 @@ Details
 
 **Website:** http://de.geopublishing.org/Geopublisher
 
-**Software Version:** 1.5
+**Software Version:** 1.6
 
 **Licence:** GNU General Public License (GPL) version 3.0; die Software der exportierten Atlanten steht unter GNU Lesser General Public License (LGPL) version 3.0
 
