@@ -61,7 +61,7 @@ Core Features
 
 **Website:** http://geonetwork-opensource.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.4
 
@@ -69,5 +69,5 @@ Core Features
 
 **Διεπαφές προγραμματισμού (API):** Java
 
-**Support:** http://www.osgeo.org/search_profile
+**Υποστήριξη:** http://www.osgeo.org/search_profile
 

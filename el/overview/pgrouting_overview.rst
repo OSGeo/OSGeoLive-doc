@@ -1,6 +1,6 @@
-:Author: Daniel Kastl
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Daniel Kastl
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _pgrouting-overview:
 
@@ -13,16 +13,16 @@
 pgRouting
 =========
 
-GIS Tools
+Εργαλεία GIS
 ~~~~~~~~~
 
-pgRouting extends the `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
+Το pgRouting επεκτείνει την γεωχωρική βάση δεδομένων `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_  προσθέτοντας δυνατότητες δρομολόγησης.
 
-Advantages of the database routing approach are:
+Τα πλεονεκτήματα στην προσέγγιση δρομολόγησης μέσα στη βάση δεδομένων είναι:
 
-* Data and attributes can be modified by many clients, like `Quantum GIS <qgis_overview.html>`_ and `uDig <udig_overview.html>`_ through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
-* Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
-* The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
+* Τα δεδομένα και τα περιγραφικά χαρακτηριστικά μπορούν να επεξεργαστούν από πολλά λογισμικά, όπως το `Quantum GIS <qgis_overview.html>`_ και το `uDig <udig_overview.html>`_ μέσω διεπαφές όπως το JDBC, ODBC, ή απευθείας με τη χρήση Pl/pgSQL. Το λογισμικά πελάτης (clients) μπορούν να είναι κανονικοί επιτραπέζιοι υπολογιστές ή κινητές συσκευές.
+* Οι αλλαγές στα δεδομένα μπορούν να αναπαρασταθούν άμεσα μέσω της μηχανής δρομολόγησης. Δεν χρειάζεται προυπολογισμός.
+* Η παράμετρος "κόστους" μπορεί να υπολογιστεί δυναμικά μέσω κώδικα SQL και η τιμή της μπορεί να προκύψει από πολλές εγγραφές ή πίνακες.
 
 .. image:: images/screenshots/800x600/pgrouting.png
   :scale: 60 %
@@ -32,37 +32,37 @@ Advantages of the database routing approach are:
 Βασικά Χαρακτηριστικά
 -------------
 
-pgRouting provides functions for:
+Το pgRouting παρέχει λειτουργίες όπως:
 
-* Shortest Path Dikstra: routing algorithm without heuristics
-* Shortest Path A-Star: routing for large datasets (with heuristics)
-* Shortest Path Shooting-Star: routing with turn restrictions (with heuristics)
-* Traveling Salesperson Problem (TSP)
-* Driving Distance calculation (Isolines)
+* Συντομότερη διαδρομή Dikstra: αλγόριθμος δρομολόγησης με ευρετικούς κανόνες
+* Συντομότερη διαδρομή A-Star: Δρομολόγηση για μεγάλες βάσεις δεδομένων (με ευρετικούς κανόνες)
+* Συντομότερη διαδρομή Shooting-Star: Δρομολόγηση με περιορισμούς σε στροφές (με ευρετικούς κανόνες)
+* Το πρόβλημα του περιπλανόμενου πωλητή (TSP)
+* Υπολογισμός απόστασης οδήγησης (Isolines)
 
-.. Implemented Standards
+.. Υλοποιημένα πρότυπα
    ---------------------
 
-.. * OGC standards compliant
+.. * Συμβατό με πρότυπα του OGC
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.pgrouting.org
+**Αρχική ιστοσελίδα:** http://www.pgrouting.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.03 (svn)
+**Έκδοση Λογισμικού:** 1.03 (svn)
 
-**Supported Platforms:** Linux, Windows, Mac
+**Υποστηριζόμενες πλατφόρμες:** Linux, Windows, Mac
 
-**API Interfaces:** SQL
+**Προγραμματιστικές διεπαφές:** SQL
 
-**Commercial Support:** http://www.pgrouting.org
+**Εμπορική υποστήριξη:** http://www.pgrouting.org
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/pgrouting_quickstart.html>`_
 
 

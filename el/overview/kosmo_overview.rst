@@ -61,7 +61,7 @@ Key features:
 
 **Website:** http://www.opengis.es
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.0
 

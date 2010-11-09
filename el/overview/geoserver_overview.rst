@@ -82,7 +82,7 @@ GeoServer forms a core component of the Geospatial Web.
 
 **Website:** http://geoserver.org/display/GEOS/Welcome
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.0.2
 

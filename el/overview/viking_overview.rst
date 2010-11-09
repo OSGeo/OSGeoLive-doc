@@ -54,7 +54,7 @@ It works with OpenStreetMap data and various online tile servers.
 
 **Website:** http://sourceforge.net/apps/mediawiki/viking/
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 0.9.9
 

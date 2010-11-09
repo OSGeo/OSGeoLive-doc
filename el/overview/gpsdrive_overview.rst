@@ -49,7 +49,7 @@ the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 
 **Website:** http://www.gpsdrive.de
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.11
 

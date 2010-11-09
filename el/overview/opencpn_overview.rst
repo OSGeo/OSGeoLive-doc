@@ -48,7 +48,7 @@ OpenCPN supports:
 
 **Website:** http://www.opencpn.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.1.624a
 

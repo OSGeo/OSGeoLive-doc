@@ -45,7 +45,7 @@ political boundaries.
 
 **Website:** http://gmt.soest.hawaii.edu
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 4.5.1
 

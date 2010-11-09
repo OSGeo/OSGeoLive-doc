@@ -19,14 +19,14 @@
 PostGIS
 =======
 
-Spatial Database
+Χωρική Βάση Δεδομένων
 ~~~~~~~~~~~~~~~~
 
-PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
+Η PostGIS ενεργοποιεί χωρικά την δημοφιλή αντικειμενοστρεφή-σχεσιακή βάση δεδομένων PostgreSQL, επιτρέποντάς της να χρησιμοποιηθεί σαν βάση δεδομένων σε Γεωγραφικά Συστήματα Πληροφοριών (GIS) και εφαρμογές διαδικτυακής χαρτογράφισης, με τον ίδιο τρόπο που η Oracle Spatial ενεργοποιεί χωρικά την βάση δεδομένων Oracle.
 
-PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk adverse government agencies and organisations storing terrabytes of data serving millions of web requests per day.
+Η PostGIS είναι σταθερή, γρήγορη, συμβατή με τα διεθνή πρότυπα, παρέχει εκατοντάδες χωρικές συναρτήσεις και είναι η πιο δημοφιλής αυτή τη στιγμή χωρική βάση δεδομένων ανοιχτού κώδικα. Η PostGIS χρησιμοποιείται από ποικίλους οργανισμούς ανα τον κόσμο, περιλαμβανομένων υψηλού ρίσκου κυβερνητικών υπηρεσιών και οργανισμών, αποθηκεύοντας terrabytes δεδομένων και εξυπηρετώντας εκατομύρια διαδικτυακές κλήσεις ανά ημέρα.
 
-Database administration is available via pgAdmin, phpPgAdmin, among others. Importing and exporting data is provided by various converter tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). And there are numerous desktop and browser GIS clients for viewing PostGIS data.
+Η διαχείριση της βάσης δεδομένων γίνεται μεταξύ άλλων μέσω των pgAdmin και phpPgAdmin. Η είσοδος και έξοδος δεδομένων παρέχεται από πληθώρα εργαλείων μετατροπής (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Και υπάρχουν πολλά λογισμικά GIS (desktop και διαδικτυακά) για επισκόπηση δεδομένων σε PostGIS.
 
 .. image:: images/screenshots/800x600/pgadmin.gif
   :scale: 55 %
@@ -36,36 +36,36 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
 Βασικά Χαρακτηριστικά
 -------------
 
-* Hundreds of spatial functions
+* Εκατοντάδες χωρικές λειτουργίες
   
-  * Buffers, unions, overlays, distance and more
+  * Εργαλεία χωρικής ανάλυσης όπως: Ζώνες επιρροής, ένωση, τομή, επίθεση, απόσταση και πολλά περισσότερα
 
-* ACID transactional integrity
-* R-Tree spatial index
-* Multi-user support
-* Row-level locking
-* Replication
-* Partitioning
-* Role-based security
-* Table-spaces, schemas
+* ολοκλήρωση συναλλαγών ACID
+* Χωρικοί κατάλογοι R-Tree
+* Υποστήριξη πολλών ταυτόχρονων χρηστών
+* Κλείδωμα σε επίπεδο γραμμής
+* Δυνατότητα αντιγραφής
+* Στεγανοποίηση
+* Ασφάλεια με βάση ρόλους
+* Χώροι πινάκων, σχήματα βάσης
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
-* OGC standards compliant (SFSQL)
+* Συμβατή με τα πρότυπα του OGC (SFSQL)
 
 Λεπτομέρειες
 -------
 
-**Website:** http://postgis.refractions.net/
+**Αρχική ιστοσελίδα:** http://postgis.refractions.net/
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.5
+**Έκδοση Λογισμικού:** 1.5
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** SQL
+**Προγραμματιστικές διεπαφές:** SQL
 
-**Support:** http://www.osgeo.org/search_profile
+**Υποστήριξη:** http://www.osgeo.org/search_profile
 

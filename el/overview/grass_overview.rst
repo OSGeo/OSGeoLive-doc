@@ -65,7 +65,7 @@ GIS for handheld PDAs or netbooks.
 
 **Website:** http://grass.osgeo.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
 **Software Version:** 6.4.0RC6
 

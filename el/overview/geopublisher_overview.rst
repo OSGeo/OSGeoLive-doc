@@ -53,7 +53,7 @@ Implemented Standards
 
 **Website:** http://en.geopublishing.org/Geopublisher
 
-**Software Version:** 1.6
+**Έκδοση Λογισμικού:** 1.5
 
 **Licence:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
 

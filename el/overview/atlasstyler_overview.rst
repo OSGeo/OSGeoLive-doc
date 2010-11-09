@@ -32,8 +32,8 @@ The created SLD files are compatible with all programs which support the OGC SLD
 * Build styles using dialogs.
 * Based on OGC SLD standard.
 * Run on Windows, Linux and Mac.
-* Import from ESRI Shapefiles, OGC WFS and PostGIS databases.
-* Fully translated into German, English, Russian, Turkish, Italian and French.
+* Import from ESRI Shapefiles and PostGIS databases.
+* Fully translated into German, English, Italian and French.
 
 Υλοποιημένα Πρότυπα
 ---------------------
@@ -46,7 +46,7 @@ The created SLD files are compatible with all programs which support the OGC SLD
 
 **Website:** http://en.geopublishing.org/AtlasStyler
 
-**Software Version:** 1.6
+**Έκδοση Λογισμικού:** 1.5
 
 **Licence:** GNU Lesser General Public License (LGPL) version 3.0
 

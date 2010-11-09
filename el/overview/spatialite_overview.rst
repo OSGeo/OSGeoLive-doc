@@ -14,7 +14,7 @@
 SpatiaLite
 ==========
 
-Spatial Database
+Χωρική Βάση Δεδομένων
 ~~~~~~~~~~~~~~~~
 
 SpatiaLite is an SQLite_ database engine with spatial functions added. 
