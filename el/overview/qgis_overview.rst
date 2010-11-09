@@ -20,25 +20,24 @@
 Quantum GIS
 ===========
 
-.. Writing Tip:
-  Application Category Description:
-  * Spatial Database
-  * Web Service
-  * Metadata Web Service
-  * Desktop GIS
-  * Browser GIS client
+.. Βοήθημα:
+  Περιγραφή κατηγορίας εφαρμογής:
+  * Χωρική Βάση Δεδομένων
+  * Διαδικτυακή Υπηρεσία
+  * Διαδικτυακή Υπηρεσία Μεταδεδομένων
+  * Λογισμικό GIS
+  * Λογισμικό Διαδικτυακού GIS
   * Business Intelligence
-  * GIS Tools
+  * Χωρικά Εργαλεία
   * ...
 
 Λογισμικό GIS
 ~~~~~~~~~~~
 
-Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
-you can visualize, manage, edit, analyse data, and compose printable maps.
-It includes powerful analytical functionality through integration with GRASS.
-It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
-raster and database formats and functionality.
+Το Quantum GIS (QGIS) είναι ένα λογισμικό GIS ανοιχτού κώδικα, φιλικό στο χρήστη, όπου μπορεί να γίνει απεικόνιση,
+διαχείρηση, επεξεργασία, ανάλυση και σύνθεση χαρτών.
+Ενσωματώνει ισχυρές αναλυτικές δυνατότητες μέσω της ολοκλήρωσής του με το GRASS.
+Μπορεί να εκτελεστεί σε Linux, Unix, Mac OSX, και Windows. Υποστηρίζει πολλαπλά διανυσματικά, εικονιστικά πρότυπα αρχείων, πολλαπλούς τύπους βάσεων δεδομένων και αντίστοιχη λειτουργικότητα γι αυτά.
 
 .. image:: images/screenshots/1024x768/qgis.png
   :scale: 50 %
@@ -48,59 +47,59 @@ raster and database formats and functionality.
 Βασικά Χαρακτηριστικά
 -------------
 
-* Friendly graphical user interface.
+* Γραφικό περιβάλλον διεπαφής.
 
-    * identify/select features,
-    * edit/view/search attributes,
-    * on the fly projection,
-    * print composer,
-    * feature labeling,
-    * change vector and raster symbology,
-    * add a graticule layer,
-    * and more ...
+    * Αναγνώριση και επιλογή χαρακτηριστικών,
+    * επεξεργασία/οπτικοποίηση/αναζήτηση περιγραφικών χαρακτηριστικών,
+    * Άμεση αλλαγή προβολικού συστήματος,
+    * συνθέτη εκτυπώσεων,
+    * σύμβολα χαρακτηριστικών,
+    * αλλαγές συμβόλων για διανυσματικά και εικονιστικά δεδομένα,
+    * προσθήκη νέων επιπέδων,
+    * και πολλά περισσότερα...
 
-* Easy Viewing of many Vector and Raster Formats
+* Εύκολη προεπισκόπηση πολλών διανυσματικών και εικονιστικών προτύπων ψηφιακών αρχείων
 
-    * PostgreSQL Database tables
-    * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML.
-    * raster formats such as digital elevation models, aerial photography or landsat imagery,
-    * GRASS locations and mapsets,
-    * online spatial data served as OGC-compliant WMS or WFS;
+    * Πίνακες της βάσης δεδομένων PostgreSQL
+    * Υποστήριξη για τα περισσότερα διανυσματικά πρότυπα: περιλαμβανομένου των ESRI shapefiles, MapInfo, SDTS και GML.
+    * Υποστήριξη για εικονιστικά δεδομένα όπως Ψηφιακά Μοντέλα Εδάφους, αεροφωτογραφίες και δορυφορικές εικόνες,
+    * Υποστήριξη προτύπων του GRASS,
+    * Υποστήριξη ανάγνωσης διαδικτυακών υπηρεσιών θέασης και μεταφόρτωσης του OGC (WMS ή WFS);
 
-* Create, edit and export spatial data using:
+* Δημιουργία, επεξεργασία και εξαγωγή χωρικών δεδομένων με τη χρήση:
 
-    * digitizing tools for GRASS and shapefile formats,
-    * the georeferencer plugin,
-    * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit
+    * Εργαλείων ψηφιοποίησης του GRASS και το πρότυπο shapefile,
+    * Του πρόσθετου γεωαναφοράς (plugin),
+    * Εργαλεία GPS για την εισαγωγή και εξαγωγή αρχείων GPX, τον μετασχηματισμό από άλλα πρότυπα GPS σε GPX , ή η μεταφόρτωση απευθείας αρχείων σε δέκτη GPS
 
-* Perform spatial analysis using fTools or GRASS plugins
+* Η εκτέλεση χωρικών αναλύσεων με τα πρόσθετα fTools και GRASS
 
-    * map algebra,
-    * terrain analysis,
-    * hydrologic modeling,
-    * network analysis,
-    * and many others
+    * Άλγεβρα χαρτών,
+    * Ανάλυση τοπίου,
+    * Υδρολογική μοντελοποίηση,
+    * Ανάλυση δικτύων,
+    * και πολλά περισσότερα
 
-* Publish to the internet
-* Extensible plugin architecture.
+* Δημοσιοποίηση στο διαδίκτυο
+* Αρχιτεκτονική με πρόσθετα (plugins).
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
-* OGC standards compliant (WMS,WFS(Plugin))
+* Συμβατό με τα πρότυπα του OGC (WMS,WFS)
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.qgis.org
+**Κεντρική ιστοσελίδα:** http://www.qgis.org
 
-**Licence:** GPL
+**Άδεια:** GPL
 
-**Software Version:** 1.5.0
+**Έκδοση Λογισμικού:** 1.5.0
 
-**Supported Platforms:** Windows, Linux, Mac, Unix
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://qgis.org/en/community.html
+**Υποστήριξη από την κοινότητα:** http://qgis.org/en/community.html
 
-**Commercial Support:** http://qgis.org/en/commercial-support.html
+**Εμπορική υποστήριξη:** http://qgis.org/en/commercial-support.html
 

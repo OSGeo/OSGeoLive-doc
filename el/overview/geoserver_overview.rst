@@ -19,7 +19,7 @@
 GeoServer
 =========
 
-Web Service
+Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~
 
 GeoServer is a web server that allows you to serve maps and data from
@@ -73,7 +73,7 @@ GeoServer forms a core component of the Geospatial Web.
 Υλοποιημένα Πρότυπα
 ---------------------
 
-* Support of numerous Open Geospatial Consortium  (OGC) standards
+* Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC)
 
 * WMS, transactional WFS, WCS, Filter Encoding, SLD, GML
 

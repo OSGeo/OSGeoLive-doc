@@ -14,7 +14,7 @@
 52°North WPS
 =============
 
-Web Service
+Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~
 
 The 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ enables web access to geospatial
@@ -60,7 +60,7 @@ A browser based client
 
 **Website:** http://52north.org/wps
 
-**Licence:** GPL
+**Άδεια:** GPL
 
 **Software Version:** WPS 2.0 RC5
 

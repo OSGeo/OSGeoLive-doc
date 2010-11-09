@@ -14,7 +14,7 @@
 QGIS mapserver
 ==============
 
-Web Service
+Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~
 
 QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
@@ -46,7 +46,7 @@ The close integration with QGIS means desktop maps can easily be exported to web
 
 **Website:** http://karlinapp.ethz.ch/qgis_wms/
 
-**Licence:** GPL
+**Άδεια:** GPL
 
 **Supported Platforms:** Windows, Linux
 

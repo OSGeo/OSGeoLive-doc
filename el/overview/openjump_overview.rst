@@ -70,11 +70,11 @@ It is also an excellent framework for rapid prototyping to develop custom GIS fu
 
 **Website:** http://www.openjump.org
 
-**Licence:** GPL
+**Άδεια:** GPL
 
 **Software Version:** 1.3
 
-**Supported Platforms:** Windows, Linux, Mac, Unix
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://www.openjump.org/support.html
 

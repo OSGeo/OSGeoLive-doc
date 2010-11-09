@@ -1,6 +1,6 @@
-:Author: Alan Boudreault
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Alan Boudreault
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mapguide-overview:
 
@@ -20,14 +20,14 @@
 MapServer
 =========
 
-Web Service
+Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~
 
-MapServer is an `Open Source <http://www.opensource.org>`_ geographic data rendering engine written in C.Beyond browsing GIS data, MapServer allows you create "geographic image maps", that is, maps that can direct users to content. For example, the Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more than 10,000 web pages, reports and maps via a single application. The same application serves as a "map engine" for other portions of the site, providing spatial context where needed.
+Ο MapServer είναι ένα λογισμικό `Ανοιχτού Κώδικα <http://www.opensource.org>`_ και αποτελεί μια μηχανή απεικόνισης γεωγραφικών δεδομένων γραμμένη σε γλώσσα προγραμματισμού. Πέρα από την περιήγηση σε δεδομένα Γεωγραφικών Συστημάτων Πληροφοριών (GIS), ο MapServer επιτρέπει τη δημιουργία "γεωγραφικών χαρτών εικόνων", το οποίο είναι χάρτες που καθοδηγούν τους χρήστες στο περιεχόμενό τους. Για παράδειγμα, ο δικτυακός χώρος Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ παρέχει στους χρήστες πάνω από 10,000 ιστοσελίδες, αναφορές και χάρτες μέσω μιας μοναδικής εφαρμογής. Η ίδια εφαρμογή εξυπηρετεί σαν "μηχανή χαρτών " άλλα σημεία της ιστοσελίδας, παρέχοντας χωρικό περιεχόμενο όπου χρειάζεται.
 
-MapServer was originally developed by the University of Minnesota (UMN) ForNet project in cooperation with NASA, and the Minnesota Department of Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a NASA sponsored project between the UMN and a consortium of land management interests.
+Ο MapServer αρχικά αναπτύχθηκε από το Πανεπιστήμιο της Μινεσότα (UMN) για το πρόγραμμα ForNet σε συνεργασία με τη NASA, και το Τμήμα Φυσικών Πόρων της Μινεσότα (MNDNR). Αργότερα φιλοξενήθηκε από το πρόγραμμα TerraSIP, ένα πρόγραμμα με χορηγό τη NASA και μια κοινοπραξία με συμφέροντα διαχείρισης γης.
 
-MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
+Ο MapServer είναι πλέον ένα λογισμικό του `OSGeo <http://www.osgeo.org>`_, και αναπτύσεται από έναν αυξανόμενο αριθμό προγραμματιστών (περίπου 20) από όλο τον κόσμο. Υποστηρίζεται από διάφορους οργανισμούς που παρέχουν πόρους για βελτιώσεις και συντήρηση, και κατευθύνεται εσωτερικά του OSGeo από την Επιτροπή Καθοδήγησης MapServer που αποτελείται από προγραμματιστές και άλλους συντελεστές.
 
 Βασικά Χαρακτηριστικά
 -------------
@@ -37,65 +37,65 @@ MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained
   :alt: screenshot
   :align: right
 
-* Advanced cartographic output
+* Προηγμένο χαρτογραφικό αποτέλεσμα
 
-  * Scale dependent feature drawing and application execution
-  * Feature labeling including label collision mediation
-  * Fully customizable, template driven output
+  * Οπτικοποίηση χαρακτηριστικών και εκτέλεση εφαρμογών σε συνάρτηση με την κλίμακα απεικόνισης
+  * Εμφάνιση συμβόλων συμπεριλαμβανομένης και διαχείρισης συγκρούσεων
+  * Πλήρως παραμετροποιήσιμη έξοδος με χρήση προτύπων
 
-* TrueType fonts
+* Γραμματοσειρές TrueType
 
-  * Map element automation (scalebar, reference map, and legend)
-  * Thematic mapping using logical- or regular expression-based classes
+  * Αυτοματοποίηση στοιχείων χάρτη (μπάρα κλίμακας, χάρτης αναφοράς και υπόμνημα)
+  * Θεμματική χαρτογραφία με τη χρήση λογικών ή κανονικοποιημένων κατηγοριών
 
-* Support for popular scripting and development environments
+* Υποστήριξη για δημοφιλή περιβάλλοντα ανάπτυξης
 
-  * PHP, Python, Perl, Ruby, Java, and .NET
+  * PHP, Python, Perl, Ruby, Java, και .NET
 
-* Cross-platform support
+* Υποστήριξη για όλες τις πλατφόρμες
 
-  * Linux, Windows, Mac OS X, Solaris, and more
+  * Linux, Windows, Mac OS X, Solaris, και περισσότερα
 
-* A multitude of raster and vector data formats
+* Πληθώρα διανυσματικών και εικονιστικών προτύπων δεδομένων
 
-  * TIFF/GeoTIFF, EPPL7, and many others via GDAL
-  * ESRI shapefiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL and OGR
+  * TIFF/GeoTIFF, EPPL7, και ακόμα περισσότερα μέσω της βιβλιοθήκης GDAL
+  * ESRI shapefiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL και OGR
 
 
-* Map projection support
+* Υποστήριξη για χαρτογραφικούς μετασχηματισμούς
 
-  * On-the-fly map projection with 1000s of projections through the Proj.4 library
+  * Άμεσος μετασχηματισμός προβολικών συστημάτων με υποστήριξη για χιλιάδες χαρτογραφικές προβολές μέσω της βιβλιοθήκης Proj.4
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
-* Support of numerous Open Geospatial Consortium  (OGC) standards
+* Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC)
 
-  * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
+  * WMS (πελάτης/εξυπηρετητής), WFS (πελάτης/εξυπηρετητής) με δυνατότητα ανάγνωσης μόνο, WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
 Επίδειξη
 ----
 
 * `Itasca <http://localhost/mapserver_demos/itasca/>`_
 
-Documentation
+Τεκμηρίωση
 -------------
 
-* `MapServer 5.6.5 Documentation <file:///usr/local/share/mapserver/doc/index.html>`_
+* `Τεκμηρίωση MapServer 5.6.5 <file:///usr/local/share/mapserver/doc/index.html>`_
 
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.mapserver.org/
+**Αρχική ιστοσελίδα:** http://www.mapserver.org/
 
-**Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
+**Άδεια:** `άδεια τύπου MIT <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 5.6.5
+**Έκδοση Λογισμικού:** 5.6.5
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET
+**Προγραμματιστικές διεπαφές (API):** C, PHP, Python, Perl, Ruby, Java, και .NET
 
-**Support:** http://mapserver.org/community/
+**Υποστήριξη:** http://mapserver.org/community/
 

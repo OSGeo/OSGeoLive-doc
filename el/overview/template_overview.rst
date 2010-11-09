@@ -4,7 +4,7 @@
 
 .. _udig_overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -22,7 +22,7 @@ User-friendly Desktop Internet GIS (uDig)
 Λογισμικό GIS
 ~~~~~~~~~~~
 
-.. Writing Tip:
+.. Βοήθημα:
   Address user questions of "What does the application do?",
   "When would I use it?", "Why would I use it over other applications?",
   "How mature is the application and how widely deployed is it?".

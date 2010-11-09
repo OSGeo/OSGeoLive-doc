@@ -46,11 +46,11 @@ R is an implementation of the S programming language and there is significant co
 
 **Website:** http://cran.r-project.org
 
-**Licence:** GPL
+**Άδεια:** GPL
 
 **Software Version:** 2.11.1
 
-**Supported Platforms:** Windows, Linux, Mac, Unix
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://cran.r-project.org/web/views/Spatial.html
 
