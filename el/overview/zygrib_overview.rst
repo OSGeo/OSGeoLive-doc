@@ -14,11 +14,10 @@
 zyGrib
 =========
 
-Weather forecasting 
+Πρόγνωση καιρού 
 ~~~~~~~~~~~~~~~~~~~
 
-zyGrib is a program to download and visualize weather forecast data in
-the standard GRIB distribution format.
+Το zyGrib είναι ένα λογισμικό για την μεταφόρτωση και οπτικοποίηση δεδομένων πρόγνωσης καιρού στο πρότυπο διανομής GRIB.
 
 Βασικά Χαρακτηριστικά
 -------------
@@ -28,22 +27,22 @@ the standard GRIB distribution format.
   :alt: screenshot
   :align: right
 
-* Visualization of meteorologic data from files in GRIB format
-* Automatic download of forecast model output directly from NOAA
-* Automatic download from IAC (fleetcode) data
-* Play animations of 5-day forecasts
-* Create your own regional weather maps (worldwide), or view a detailed quantitative forecast for a particular location.
-* Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude data.
+* Οπτικοποίηση μετεωρολογικών δεδομένων στο πρότυπο GRIB
+* Αυτόματη μεταφόρτωση μοντέλων πρόγνωσης από τη NOAA
+* Αυτόματη μεταφόρτωση δεδομένων από την IAC (fleetcode)
+* Παρουσίαση σε βίντεο προγνωστικών 5 ημερών
+* Δημιουργία τοπικών χαρτών πρόγνωσης, ή οπτικοποίηση εξειδικευμένων προγνωστικών σε τοπικό επίπεδο με μεγάλη λεπτομέρεια.
+* Παρουσίαση γραφιμάτων για δεδομένα ανέμου, ατμοσφαιρικής πίεσης, θερμοκρασίας, υγρασίας, βροχής, χιονιού, νεφοκάλυψης, σημείου κορεσμού και δεδομένων σε μεγάλο υψόμετρο.
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.zygrib.org
+**Κεντρική Ιστοσελίδα:** http://www.zygrib.org
 
 **Άδεια:** GNU General Public License (GPL) version 3
 
-**Software Version:** 3.9.2
+**Έκδοση Λογισμικού:** 3.9.2
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
-**Support:** http://zygrib.org/forum/
+**Υποστήριξη:** http://zygrib.org/forum/
