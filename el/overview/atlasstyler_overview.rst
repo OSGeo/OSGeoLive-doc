@@ -1,6 +1,6 @@
-:Author: Stefan Tzeggai
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Stefan Tzeggai
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _atlasstyler-overview:
 
@@ -14,12 +14,12 @@
 AtlasStyler
 ===========
 
-Feature Style Editor
+Επεξεργαστής Στύλ Χαρτοσυνθέσεων
 ~~~~~~~~~~~~~~~~~~~~
 
-`AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application for styling geodata. The resulting styles can be saved as OGC standards compliant SLD/SE files.
+Το `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ είναι ένα λογισμικό φιλικό στο χρήστη για την επεξεργασία του στυλ παρουσίασης των χωρικών δεδομένων. Τα παραγόμενα στύλ μπορούν να αποθηκευτούν σαν αρχεία SLD/SE συμβατά με τα πρότυπα του OGC.
 
-The created SLD files are compatible with all programs which support the OGC SLD standard, including GeoServer, uDig and others. The application provides a multitude of intuitive dialogs to simplify style creation. Users can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally users have integrated access to an online symbol-database. Users can create and save symbols in the SymbolEditor and reused in classifications or other projects.
+Τα δημιουργημένα αρχεία SLD είναι συμβατά με όλα τα προγράμματα που υποστηρίζουν το πρότυπο OGC SLD, συμπεριλαμβανομένων των GeoServer, uDig και άλλων. Η εφαρμογή περιλαμβάνει μια πληθώρα από παράθυρα για την απλοποίηση της δημιουργίας στύλ χαρτών. Οι χρήστες μπορούν να εφαρμόσουν γενικευμένες ταξινομήσεις βασισμένες σε μοναδικές τιμές, χρωματισμένες ποσότητες ή ίσες αποστάσεις. Επιπρόσθετα οι χρήστες έχουν πρόσβαση σε μια βάση δεδομένων συμβόλων. Οι χρήστες μπορούν να αποθηκεύσουν τα σύμβολα και τις ταξινομήσεις τους στον SymbolEditor και να ξαναχρησιμοποιήσουν τις επιλογές τους και σε άλλα έργα.
 
 .. image:: images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
@@ -29,11 +29,11 @@ The created SLD files are compatible with all programs which support the OGC SLD
 Βασικά Χαρακτηριστικά
 -------------
 
-* Build styles using dialogs.
-* Based on OGC SLD standard.
-* Run on Windows, Linux and Mac.
-* Import from ESRI Shapefiles and PostGIS databases.
-* Fully translated into German, English, Italian and French.
+* Δημιουργία Στύλ με τη χρήση παραθύρων.
+* Βασισμένο στο πρότυπο OGC SLD.
+* Εκτελείται σε Windows, Linux και Mac.
+* Εισαγωγή από αρχεία ESRI Shapefiles και βάσεις δεδομένων PostGIS.
+* Μεταγλωτισμένο πλήρως στα Γερμανικά, Αγγλικά, Ιταλικά και Γαλλικά.
 
 Υλοποιημένα Πρότυπα
 ---------------------
@@ -44,23 +44,23 @@ The created SLD files are compatible with all programs which support the OGC SLD
 Λεπτομέρειες
 -------
 
-**Website:** http://en.geopublishing.org/AtlasStyler
+**Κεντρική Ιστοσελίδα:** http://en.geopublishing.org/AtlasStyler
 
 **Έκδοση Λογισμικού:** 1.5
 
-**Licence:** GNU Lesser General Public License (LGPL) version 3.0
+**Άδεια:** GNU Lesser General Public License (LGPL) version 3.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** Java, Swing, Geotools
+**Προγραμματιστικές διεπαφές:** Java, Swing, Geotools
 
-**Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
+**Υποστήριξη:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/atlasstyler_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/atlasstyler_quickstart.html>`_
 
 

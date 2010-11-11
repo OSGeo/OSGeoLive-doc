@@ -19,29 +19,29 @@
 GeoNetwork
 ==========
 
-Metadata Catalog
+Κατάλογος Μεταδεδομένων
 ~~~~~~~~~~~~~~~~
 
-GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards.
+Το GeoNetwork OpenSource είναι μια εφαρμογή καταλόγου για τη διαχείριση χωρικά ορισμένων πηγών. Παρέχει ισχυρές δυνατότητες επεξεργασίας και αναζήτησης μεταδεδομένων, έναν ενσωματωμένο δυναμικό διαδικτυακό χάρτη, και είναι βασισμένο σε ανοιχτά πρότυπα.
 
 .. image:: images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
-*  Immediate search access to local and distributed geospatial catalogues
-* Up- and downloading of data, graphics, documents, pdf files and any other content type
-* An interactive Web Map Viewer to combine Web Map Services from distributed servers around the world
-* Recently updated entries are accessible as RSS news feeds and as GeoRSS.
-* Online editing of metadata with a powerful template system
-* Native support for ISO19115/ISO19119/ISO19139/ISO19110, FGDC and Dublin Core formatted metadata
-* Scheduled harvesting and synchronization of metadata between distributed catalogues (GeoNetwork, CSW, OGC WxS, Z39.50, WebDav, ArcSDE, Thredds)
-* Fine-grained access control
-* Group and user management
-* Multi-lingual user interface
-* A randomly selected Featured Map
+* Άμεση αναζήτηση σε τοπικούς και απομακρυσμένους χωρικούς καταλόγους
+* Δυνατότητα μεταφόρτωσης δεδομένων, γραφικών, κειμένων, αρχείων pdf, και κάθε είδους αρχείων και περιεχομένου
+* Διαθέτει ένα διαδραστικό διαδικτυακό χάρτη για συνδυασμό υπηρεσιών WMS από κατανεμημένους εξυπηρετητές σε όλο τον κόσμο
+* Οι πρόσφατα ενημερωμένες εγγραφές παρέχονται μέσω υπηρεσιών ειδήσεων RSS και σαν υπηρεσία GeoRSS.
+* Διαδικτυακή επεξεργασία μεταδεδομένων με ισχυρό σύστημα προτύπων
+* Εγγενής υποστήριξη για το πρότυπα μεταδεδομένων ISO19115/ISO19119/ISO19139/ISO19110, FGDC και Dublin Core
+* Προγραμματισμένη συγκομιδή και συγχρονισμός μεταδεδομένων μεταξύ κατανεμημένων καταλόγων (GeoNetwork, CSW, OGC WxS, Z39.50, WebDav, ArcSDE, Thredds)
+* Λεπτομερής διαχείρηση δικαιωμάτων πρόσβασης
+* Διαχείρηση χρηστών και ομάδων
+* Γραφικό περιβάλλον σε πολλές γλώσσες
+* Δυνατότητα επιλογής κεντρικού χάρτη
 
 Υλοποιημένα Πρότυπα
 ---------------------
@@ -50,20 +50,20 @@ Core Features
 * Open Archives Initiatives (OAI-PMH)
 * Z39.50 
 * OpenSearch-Geo
-* Metadata standards:
+* Πρότυπα μεταδεδομένων:
 
- * ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles
+ * ISO19115/ISO19119/ISO19139/ISO19110 και προφίλ ISO
  * Dublin Core
  * FGDC
 
 Λεπτομέρειες
 -------
 
-**Website:** http://geonetwork-opensource.org
+**Κεντρική Ιστοσελίδα:** http://geonetwork-opensource.org
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.4
+**Έκδοση Λογισμικού:** 2.4
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

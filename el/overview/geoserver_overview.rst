@@ -1,6 +1,6 @@
-:Author: Ian Turton
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Ian Turton
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _geoserver-overview:
 
@@ -22,21 +22,20 @@ GeoServer
 Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~
 
-GeoServer is a web server that allows you to serve maps and data from
-a variety of formats to standard clients such as web browsers and desk
-top GIS programs. This means that you can store your spatial data is
-almost any `format
-<http://docs.geoserver.org/stable/en/user/data/index.html>`_ you prefer but that your users do not need to know
-anything about GIS data. At the simplest level all they need is a web
-browser to see your maps exactly as you want. 
+Ο GeoServer είναι ένας διαδικτυακός εξυπηρετητής που επιτρέπει την δημοσίευση χαρτών και χωρικών δεδομένων από πληθώρα προτύπων
+σε λογισμικά πελάτες όπως οι περιηγητές διαδικυου και τα λογισμικά GIS. Αυτό σημαίνει ότι ο χρήστης μπορεί να αποθηκεύσει τα δεδομένα του σε οποιοδήποτε
+`πρότυπο
+<http://docs.geoserver.org/stable/en/user/data/index.html>`_ επιθυμεί και οι υπόλοιποι χρήστες δεν χρειάζεται να γνωρίζουν
+οτιδήποτε σχετικό με τα δεδομένα αυτά. Στην απλούστερη περίπτωση το μόνο που χρειάζονται είναι ένας περιηγητής (web
+browser) για να μπορούν να βλέπουν τους χάρτες όπως ακριβώς έχουν δημοσιοποιηθεί. 
 
-GeoServer is the reference implementation of the `Open Geospatial
+Ο GeoServer είναι η υλοποίηση αναφοράς του προτύπου`Open Geospatial
 Consortium <http://www.opengeospatial.org>`_ (OGC) `Web Feature
-Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) and `Web
-Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS)
-standards, as well as a high performance certified compliant `Web Map
+Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) και του `Web
+Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS),
+καθώς επίσης και ένας πιστοποιημένος εξυπηρετητής υψηλής απόδοσης του προτύπου `Web Map
 Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
-GeoServer forms a core component of the Geospatial Web. 
+Ο GeoServer αποτελεί ένα κεντρικό πυρήνα του Γεωχωρικού Διαδικτυόυ (Geospatial Web). 
 
 .. image:: images/screenshots/800x600/geoserver.gif
   :scale: 60 %
@@ -46,48 +45,48 @@ GeoServer forms a core component of the Geospatial Web.
 Βασικά Χαρακτηριστικά
 -------------
 
-**Serve data from a variety of data stores:**
-    * Vector
-        - Shapefiles, External WFS
+**Σερβίρει δεδομένα από πολλές πηγές δεδομένων:**
+    * Διανυσματικά
+        - Shapefiles, Εξωτερικά WFS
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
-    * Raster
-        - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
+    * Εικονιστικά
+        - GeoTiff, JPG και PNG (με το συνοδευτικό world file), πυραμίδες εικόνων, πρότυπα της βιβλιοθήκης GDAL, μωσαικά εικόνων, Oracle GeoRaster
 
-**Data is served as safe and quick images using the WMS protocol:**
-    As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
-    The appearance of each map layer can be controlled using the SLD standard which allows features to be coloured and labeled. By combining these rules with OGC Filters scale dependent styling can be implemented allowing more detail to be added as a user zooms in. Label collision management, grouping and priorities are also implemented.
+**Τα δεδομένα σερβίρονται με το ασφαλές και γρήγορο πρωτόκολο WMS:**
+    Όσο τα δεδομένα σερβίρονται προς τους χρήστες, είναι απολύτως ασφαλή. Με εξαίρεση την περίπτωση ψηφιοποίησης από την αρχή των δεδομένων, δεν υπάρχει τρόπος κάποιος να κλέψει τα δεδομένα που σερβίρονται.
+    Η παρουσίαση κάθε θεματικού επιπέδου του χάρτη ελέγχεται από το πρότυπο SLD που επιτρέπει στα χαρακτηριστικά του χάρτη να έχουν χρώμα και σύμβολα. Συνδυάζοντας τους κανόνες αυτούς με τα Φίλτρα του OGC, μπορούν να παραχθούν χάρτες που η παρουσίαση τους εξαρτάται από την κλίμακα θέασης, που επιτρέπει την προσθήκη λεπτομέρειας όσο ο χρήστης μεθενθύνει το χάρτη. Διαχείρηση συγκρούσεων συμβόλων, ομαδοποίηση και προτεραιότητες έχουν επίσης υλοποιηθεί στο λογισμικό αυτό.
 
-**Full vector data can be sent to a client using the WFS protocol:**
-     A WFS client can download vector data and use it for mapping, spatial analysis and other operations. Also if authorised the user can modify the data and send it back to the server to update the stored data using the WFS-T protocol.
-     The data can be transmitted using GML (compressed) as well as other standard data formats like shapefile and json.
+**Τα πλήρη διανυσματικά δεδομένα μπορούν να σταλούν στουσ χρήστες με τη χρήση του πρωτοκόλου WFS:**
+     Ένας πελάτης WFS μπορεί να κατεβάσει τα διανυσματικά δεδομένα και να τα χρησιμοποιήσει για χαρτοσύνθεση, χωρική ανάλυση και άλλες λειτουργίες. Επίσης, εφόσον ο χρήστης είναι πιστοποιημένος μπορεί να αλλάξει τα δεδομένα και να τα στείλει πίσω στον εξυπηρετητή για αποθήκευση μέσω του πρωτοκόλου WFS-T.
+     Τα δεδομένα μπορούν να σταλούν μέσω του προτύπου GML (συμπιεσμένα) καθώς επίσης και σαν άλλα δημοφιλή πρότυπα όπως τα shapefile και json.
 
-**Raster data values can be sent to a client using the WCS protocol:**
-     A GIS client can request the actual raster data for use in spatial analysis. This allows a user to create applications which can model the process described by your data.
+**Οι Τιμές των εικονιστικών δεδομένων μπορούν να σταλούν στον πελάτη με τη χρήση του πρωτοκόλου WCS:**
+     Ένα λογισμικό GIS μπορεί να ζητήσει από τον GeoServer τα πραγματικά εικονιστικά δεδομένα για τη χρήση σε χωρική ανάλυση. Αυτό επιτρέπει στον χρήστη να δημιουργήσει εφαρμογές που να μοντελοποιούν διαδικασίες που περιγράφουν τα δεδομένα.
 
-**On the fly reprojection:**
-     GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server. 
+**Άμεση αλλαγή συστηματων αναφοράς:**
+     Ο GeoServer υποστηρίζει τα περισσότερα συστήματα αναφοράς από τη βάση δεδομένων EPSG και επιτρέπει την αλλαγή προβολικού συστήματος ανάλογα με τη ζήτηση από τον πελάτη, επιτρέποντας έτσι σε χρήστες που δεν διαθέτουν λογισμικό αλλαγής χαρτογραφικών προβολών να εκτελούν τη διαδικασία απομακρυσμένα στον εξυπηρετητή. 
 
-**WMS Tiling Cache**
-    `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
+**WMS μέσω προυπολογισμένων και προαποθηκευμένων εικόνων (Tiling Cache)**
+    Ο`GeoWebCache <http://geowebcache.org/>`_ είναι ένας πελάτης αποθήκευσης κανονικοποιημένων εικόνων από WMS. Το λογισμικό αυτό παρεμβάλεται στην επικοινωνία του εξυπηρετητή με τον πελάτη, αποθηκεύει τα τμήματα εικόνων - χαρτών που έχουν ζητηθεί από τους πελάτες, και αναλαμβάνει να σερβίρει εκείνο τα τμήματα που έχουν ήδη δημιουργηθεί, εξοικονομώντας έτσι χρόνο και επεξεργαστική ισχύ για τον εξυπηρετητή. Ο GeoWebCache έχει ήδη ενσωματωθεί μέσα στον GeoServer.
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
 * Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC)
 
-* WMS, transactional WFS, WCS, Filter Encoding, SLD, GML
+* WMS, WFS-T, WCS, Filter Encoding, SLD, GML
 
 Λεπτομέρειες
 -------
 
-**Website:** http://geoserver.org/display/GEOS/Welcome
+**Αρχική Ιστοσελίδα:** http://geoserver.org/display/GEOS/Welcome
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0.2
+**Έκδοση Λογισμικού:** 2.0.2
 
-**Supported Platforms:** All Java 1.5 platforms: - Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Όλες οι πλατφόρμες Java 1.5: - Windows, Linux, Mac
 
-**API Interfaces:** WMS, WFS, WCS, REST
+**Προγραμματιστικές διεπαφές:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/display/GEOS/Commercial+Support
+**Υποστήριξη:** http://geoserver.org/display/GEOS/Commercial+Support
