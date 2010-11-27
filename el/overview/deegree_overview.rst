@@ -1,6 +1,6 @@
-:Author: Johannes Wilden
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Johannes Wilden
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _deegree-overview:
 
@@ -20,25 +20,21 @@
 deegree
 =======
 
-Web Services
+Διαδικτυακές Υπηρεσίες
 ~~~~~~~~~~~~
 
-deegree is free, stable, powerful and easy to use. deegree is
-the most comprehensive set of implementations of Open Geospatial
-Consortium (OGC) standards in free and open source software, ranging
-from a transactional Web Feature Service to three-dimensional data
-display through a Web Terrain Service and many more!
+Το deegree είναι ελεύθερο, σταθερό, ισχυρό και εύκολο στη χρήση του. Το deegree είναι το πιο
+εκτενές σύνολο από υλοποιήσεις προτύπων του 
+OGC στον κόσμο του Ελεύθερου λογισμικού. Περιλαμβάνει από διαδικτυακές υπηρεσίες ενημέρωσης δεδομένων (transactional Web Feature Service) ως και επισκόπηση δεδομένων 3D 
+μέσω της υπηρεσίαε Web Terrain Service, αλλά και πολλά περισσότερα!
 
-deegree is a solution for web- and desktop-based
-Geographic Information Systems (GIS) and Spatial Data Infrastructures
-(SDI). It is comprised of a comprehensive yet powerful Java Application
-Programming Interface (API) and a powerful object-relational mapping for
-simple and complex spatial schemas. deegree also provides a set of
-standards-compliant webservices for web mapping, feature and catalogue
-services as well as sensor and processing services.
+Το deegree είναι μια λύση για Γεωγραφικά Συστήματα Πληροφοριών (βασισμένα στο διαδίκτυο ή σε επίπεδο προσωπικού υπολογιστή) και για Υποδομές Χωρικών Πληροφοριών
+(SDI). Αποτελείται από περιεκτικές και ισχυρές προγραμματιστικε διεπαφές σε γλώσσα Java και από ένα ισχυρό σχεσιακό-αντικειμενοστρεφες μοντέλο χαρτογράφησης 
+απλών και σύνθετων χωρικών σχημάτων. Το deegree επιπλεόν παρέχει ένα σύνολο από διαδικτυακές υπηρεσίες, συμβατές με τα πρότυπα για διαδικτυακή απεικόνιση, υπηρεσίες μεταφόρτωσης και αναζήτησης (καταλόγου)
+καθώς και υπηρεσίες αισθητήρων και επεξεργασίας.
 
-deegree gets your SDI up and running, using your own data and fulfilling
-your requirements.
+Το deegree μπορεί γρήγορα να υλοποιήσει το δικό σας SDI, χρησιμοποιώντας τα δικά σας δεδομένα και ικανοποιώντας τις δικές σας απαιτήσεις.
+
 
 
 .. image:: images/screenshots/1024x768/deegree_mainpage.gif
@@ -46,58 +42,58 @@ your requirements.
   :alt: project logo
   :align: right
 
-Some example features
+Μερικά χαρακτηριστικά
 ---------------------
 
 * Web Map Service
 
-  * very flexible concerning layer contents
-  * supports and uses style definitions (SLD 1.0)
-  * thematic mapping capabilities through charts (pie, bar, line) as point symbolizers
-  * datasources: all common OGC web services (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, any arbitrary SQL statements can be used to create the WMS layer content
-  * very stable, even for large scales
-  * supports HTTP GET, HTTP POST and feature info requests
-  * certified to be OGC compliant
+  * πολύ ευέλικτο σχετικά με τα περιεχόμενα των θεματικών επιπέδων
+  * Υποστηρίζει και χρησιμοποιεί ορισμούς στύλ (SLD 1.0)
+  * Έχει δυνατότητες θεματικής χαρτογράφησης μέσω γραφιμάτων (πίτες, μπάρες και γραμμές) αντί συμβόλων σημείων
+  * Πηγές δεδομένων: Όλες οι κοινές υπηρεσίες OGC (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, οποιαδήποτε ερωτήματα SQL μπορούν να χρησιμοποιηθούν για τη δημιουργία νέου επιπέδου WMS
+  * Πολύ σταθερό, ακόμα και σε μεγάλες κλίμακες
+  * Υποστηρίζει HTTP GET, HTTP POST και αιτήματα για πληροφορίες χαρακτηριστικού (feature info)
+  * Πιστοποιημένα συμβατό με το OGC
 
 * Web Feature Service
 
-  * supports simple and complex features
-  * on the fly coordinate transformation for more than 3000 coordinate reference systems
-  * supports flexible output formats
-  * easily enhanced to support INSPIRE directive
+  * Υποστηρίζει απλούς και σύνθετους τύπους δεδομένων
+  * Άμεση μετατροπή συντεταγμένων σε περισσότερα από  3000 συστήματα αναφοράς
+  * Υποστηρίζει ευέλικτα πρότυπα εξόδου
+  * Εύκολα επεκτάσιμο για να υποστηρίζει την οδηγία INSPIRE
 
 * Web Coverage Service
 
-  * supports HTTP GET and HTTP POST requests
-  * datasources: images (tif, png, jpeg, gif, bmp); GeoTIFF; ECW files; Oracle GeoRaster
-  * high-speed access to large coverages
+  * Υποστηρίζει αιτήματα HTTP GET και HTTP POST
+  * Πηγές δεδομένων: εικόνες (tif, png, jpeg, gif, bmp); GeoTIFF; αρχεία ECW; Oracle GeoRaster
+  * Προσπέλαση υψηλής ταχύτητας σε μεγάλα αρχεία
 
 * Catalogue Service-Web
 
-  * datasources: PostgreSQL-Database; Oracle-Database
-  * supported requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
+  * Πηγές δεδομένων: βάσεις δεδομένων PostgreSQL και Oracle
+  * Υποστηρίζει αιτήματα: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
 
 * Web Map Print Service
 
-  * supports different print formats (HTML, PDF, PNG)
-  * long time running jobs
-  * supports asynchronous requests to enable large-scale plots
-  * requests are stored within a database and will be available even if WMPS is stopped by an administrator or the machine fails
+  * Υποστηρίζει πολλαπλά πρότυπα εκτύπωσης (HTML, PDF, PNG)
+  * Υποστηρίζει χρονοβόρες εργασίες
+  * Υποστηρίζει ασύγχρονα αιτήματα ώστε να πραγματοποιεί εκτυπώσεις μεγάλης κλίμακας
+  * Τα αιτήματα αποθηκεύονται σε βάση δεδομένων και θα είναι διαθέσιμα ακόμα και αν η υπηρεσία διακοπεί από έναν διαχειριστή ή αν το μηχάνημα αστοχήσει
 
 * Web Perspective View Service
 
-   * datasources: remote/local-WMS, remote/local-WFS, local-WCS, Postgres/PostGIS, Oracle Spatial
-   * elevation models can be vector data or raster data
-   * requests: Get3DFeatureInfo, GetView
+   * Πηγές δεδομένων: απομακρυσμένο ή τοπικό WMS, απομακρυσμένο ή τοπικό WFS, τοπικό WCS, Postgres/PostGIS, Oracle Spatial
+   * Τα υψομετρικά μοντέλα μπορεί να είναι διανυσματικά ή εικονιστικά δεδομένα
+   * Αιτήματα: Get3DFeatureInfo, GetView
 
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 in progress)
-* OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 in progress)
-* OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; including OGC ISOAP 1.0 and INSPIRE profile
+* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 σε εξέλιξη)
+* OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 σε εξέλιξη)
+* OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; συμπεριλαμβανομένου OGC ISOAP 1.0 και προφίλ INSPIRE
 * OGC Web Perspective View Service (WPVS) Draft 6
 * OGC Web Coordinate Transformation Service (WCTS) 0.4.0
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
@@ -106,22 +102,22 @@ Some example features
 Λεπτομέρειες
 -------
 
-**Website:** http://deegree.org
+**Κεντρική ιστοσελίδα:** http://deegree.org
 
-**Licence:** LGPL
+**Άδεια:** LGPL
 
-**Software Version:** 2.3
+**Έκδοση Λογισμικού:** 2.3
 
-**Supported Platforms:** Windows, Linux
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 
 **Διεπαφές προγραμματισμού (API):** Java
 
-**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
+**Υποστήριξη:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/deegree_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/deegree_quickstart.html>`_
 
 

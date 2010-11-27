@@ -1,6 +1,6 @@
-:Author: Stefan Tzeggai
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Stefan Tzeggai
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _geopublisher-overview:
 
@@ -14,59 +14,59 @@
 Geopublisher
 ============
 
-Electronic Library Manager
+Διαχείριση Ηλεκτρονικής Βιβλιοθήκης
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geopublisher is an atlas authoring system which enables easy publication of geo-data, documents, images, videos, and statistics in form of digital multimedia atlases. These atlases are effectively a minimal, pre-configured, end-user GIS which offers selected functionality only where its meaningful.
+Ο Geopublisher είναι ένα σύστημα δημιουργίας για χαρτογραφικούς άτλαντες το οποίο επιτρέπει εύκολη δημοσίευση χωρικών δεδομένων, κειμένων, εικόνων, βίντεο, και στατιστικών στη μορφή ψηφιακών βιβλιοθηκών πολυμέσων. Οι άτλαντες που παράγονται είναι υποτυπώδη, προδιαμορφωμένα GIS που παρέχουν επιλεγμένη λειτουργικότητα όταν είναι απαραίτητο.
 
-Geopublisher provides tools for quality assurance and multilingual meta-data management. No in-depth knowledge of HTML, SLD or XML is required to create an atlas. Atlases can be directly published on CD, DVD, memory stick, external hard-drive or the Internet. The software is platform-independent.
+Ο Geopublisher παρέχει εργαλεία για διασφάλιση ποιότητας και διαχείριση μεταδεδομένων σε πολλές γλώσσες. Δεν απαιτείται βαθειά γνώση HTML, SLD ή XML για τη δημιουργία ενός Άτλαντα. Οι Άτλαντες μπορούν να δημοσιευτούν απευθείας σε CD, DVD, USB, εξωτερικό δίσκο ή στο διαδίκτυο. Το λογισμικό είναι ανεξάρτητο πλατφόρμας.
 
-Geopublisher's unique features make it especially applicable in the fields of international research, participatory GIS, capacity building, and development cooperation.
+Τα μοναδικά χαρακτηριστικά του Geopublisher το καθιστούν ιδιαίτερα χρήσιμο στα πεδία της διεθνούς έρευνας, συμμετοχικών GIS, δημιουργία χωριτικότητας, και συνεργατικής ανάπτυξης.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 .. image:: images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
-  :alt: screenshot of Geopublisher editing an atlas
+  :alt: Εικόνα επεξεργασίας Άτλαντα με τον Geopublisher
   :align: right
 
-* Atlases created with Geopublisher are a simplified end-user GIS with selected functionality available only where its meaningful.
-* Hybrid online and offline atlases make geo-data accessible in areas beyond the digital divide.
-* Multilingual management of meta-data avoids redundancies and allows for the quick release of updated atlases.
-* Integrated WYSIWYG editors for SLD and HTML allow geopublishing without knowledge of SLD, XML or HTML.
-* All software is Free and Open-Source Software compliant with OGC standards.
-* Geopublisher + QuantumGIS + OpenOffice provide a free Open-Source Geopublishing desktop.
-* :doc:`AtlasStyler <atlasstyler_overview>` SLD editor is integrated into Geopublisher.
-* Runs on Mac OS, Windows and Linux.
-* Styling based on OGC SLD standard.
-* Offline atlases run directly from any media - Java does not have to be installed.
-* Supports tiled image pyramids for big raster data.
-* Fully translated into German, English, Italian and French.
+* οι Άτλαντες που δημιουργούνται με τον Geopublisher είναι απλοποιημένα GIS με επιλεγμένη λειτουργικότητα.
+* Υβριδικοί (online και offline) Άτλαντες καθιστούν τα γεωδεδομένα προσβάσιμα πέρα από το ψηφιακό χάσμα.
+* Διαχείριση μεταδεδομένων σε πολλές γλώσσες για την αποφυγή περιττών στοιχείων και επιτρέπει την γρήγορη διάθεση των δεδομένων.
+* Ενσωματωμένο περιβάλλον επεξεργασίας WYSIWYG για SLD και HTML, επιτρέπει την δημιουργία χαρτών χωρίς γνώση SLD, XML ή HTML.
+* Όλο το λογισμικό είναι Ελευθερο Λογισμικό και Λογισμικό Ανοιχτού Κώδικα, συμβατό με τα πρότυπα OGC.
+* Τα Geopublisher + QuantumGIS + OpenOffice παρέχουν ένα περιβάλλον εργασίας γεωδεδομένων ανοιχτού κώδικα.
+* :doc:Ο επεξεργαστης SLD `AtlasStyler <atlasstyler_overview>` είναι ενσωματωμένος στον Geopublisher.
+* Τρέχει σε Mac OS, Windows και Linux.
+* Το στύλ βασίζεται στο πρότυπο SLD του OGC.
+* Οι αποσυνδεδεμένοι Άτλαντες εκτελούνται από οποιοδήποτε μέσο - η Java δεν χρειάζεται να είναι εγκατεστημένη.
+* Υποστηρίζει πυραμίδες εικόνων και μεγάλων αρχείων εικόνων.
+* Μεταγλωτισμένο πλήρως στα Γερμανικά, Αγγλικά, Ιταλικά και Γαλλικά.
 
 
-Implemented Standards
+Υλοποιημένα πρότυπα
 ---------------------
 * OGC Style Layer Descriptor (SLD)
 
 Λεπτομέρειες
 -------
 
-**Website:** http://en.geopublishing.org/Geopublisher
+**Κεντρική ιστοσελίδα:** http://en.geopublishing.org/Geopublisher
 
 **Έκδοση Λογισμικού:** 1.5
 
-**Licence:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
+**Άδεια:** GNU General Public License (GPL) version 3.0; Οι δημοσιοποιημένοι  Άτλαντες είναι με άδεια GNU Lesser General Public License (LGPL) version 3.0
 
-**Supported Platforms:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
 
-**API Interfaces:** Java, Swing, Geotools
+**Προγραμματιστικές διεπαφές:** Java, Swing, Geotools
 
-**Support:** http://www.wikisquare.de
+**Υποστήριξη:** http://www.wikisquare.de
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/geopublisher_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geopublisher_quickstart.html>`_
 
 

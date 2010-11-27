@@ -13,16 +13,16 @@
 GeoKettle
 =========
 
-Data Integration
+Ενοποίηση Δεδομένων
 ~~~~~~~~~~~~~~~~
 
-GeoKettle is a "spatially-enabled" version of the `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_. It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses.
+Το GeoKettle είναι μια χωρική έκδοση του λογισμικού `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_. Είναι ένα ισχυρό εργαλείο βασισμένο σε μεταδεδομένα για εξαγωγή, μετασχηματισμό και ανάγνωση χωρικών δεδομένων, σχεδιασμένο για την ενοποίηση δεδομένων από πολλές και διαφορετικές πηγές με στόχο την υλοποίηση και ενημέρωση χωρικών βάσεων δεδομένων.
 
-GeoKettle enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, and the Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service.
+Το GeoKettle επιτρέπει την εξαγωγή δεδομένων από διάφορες πηγές, το μετασχηματισμό των δεδομένων για την διόρθωση σφαλμάτων, καθαρισμό των δεδομένων, αλλαγή της δομής των δεδομένων, συμμόρφωσης των δεδομένων με πρότυπα, και φόρτωσης των μετασχηματισμένων δεδομένων σε μια νέα βάση δεδομένων (DBMS), σε ένα αρχείο GIS, ή σε μια διαδικτυακή υπηρεσία.
 
-GeoKettle is particularly useful when a user wants to automate complex and repetitive data processing without producing any specific code, to make conversions between various data formats, to migrate data from one DBMS to another, to perform some data feeding tasks into various DBMS, to populate analytical data warehouses for decision support purposes, etc.
+Το GeoKettle είναι ιδιαιτέρως χρήσιμο όταν ένας χρήστης επιθυμεί να αυτοματοποιήσει σύνθετες και επαναλαμβανόμενες επεξεργασίες στα δεδομένα του χωρίς την ανάγκη να γράψει κώδικα, να πραγματοποιήσει μετατροπές μεταξύ διαφόρων προτύπων δεδομένων, να κάνει μετάπτωση από μια βάση σε μια άλλη, να πραγματοποιήσει φόρτωση δεδομένων σε κάποια βάση δεδομένων, να ενημερώσει αναλυτικά δεδομένα σε συστήματα υποστήριξης λήψης αποφάσεων κλπ.
 
-In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL tool edited by Safe Software. GeoKettle is stable, fast, standards compliant, with hundreds of functions and read/write support for many file formats, services and DBMS. GeoKettle is used by diverse organisations from around the world, including governmental agencies, banks, insurance and geospatial system integrators.
+Στο χώρο των χωρικών εφαρμογών, το Geokettle συγκρίνεται με το FME, ένα κλειστό εργαλείο χωρικής διαχείρησης και ενοποίησης δεδομένων που υποστηρίζεται από την Safe Software. Το GeoKettle είναι σταθερό, γρήγορο, συμβατό με πρότυπα, με εκατοντάδες λειτουργίες για είσοδο/έξοδο σε πολλά πρότυπα αρχείων, υπηρεσιών και βάσεων δεδομένων. Το GeoKettle χρησιμοποιείται από διάφορους οργανισμούς σε όλο τον κόσμο, περιλαμβανομένων κυβερνητικών οργανισμών, τραπεζών, και εταιρειών ασφάλειας και ενσωμάτωσης γεωχωρικών πληροφοριών.
 
 .. image:: images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
@@ -34,69 +34,69 @@ In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL t
 
 * Extract data from: 
 
-  * 35+ database types: MySQL, PostgreSQL, Oracle, ...
-  * XML files
-  * XLS files
-  * Xbase files (dBase, Foxpro, etc)
-  * File systems information
-  * Generated data
-  * MS Access files
+  * Περισσότεροι από 35 τύποι βάσεων δεδομένων: MySQL, PostgreSQL, Oracle, ...
+  * Αρχεία XML
+  * Αρχεία XLS
+  * Αρχεία Xbase (dBase, Foxpro, etc)
+  * Πληροφορίες Συστημάτων Αρχείων
+  * Παραγόμενα δεδομένα
+  * Αρχεία MS Access
   * LDAP
-  * Geospatial data formats: Shapefile, ...
+  * Γεωχωρικά πρότυπα δεδομένων: Shapefile, ...
 
-* Transformation of data:
+* Μετασχηματισμός δεδομένων:
 
-  * Engine based data transfer (no code generator) 
-  * Looking up data in databases, files or memory
-  * Calculating
-  * Scripting: Javascript, SQL, RegExp
-  * Splitting
-  * Mapping
-  * Selecting
-  * Partitioning
-  * Filtering
-  * Merging
-  * Joining
-  * Duplicating
-  * Clustering (MPP)
-  * Pivotting
-  * Geospatial data analysis and processing
+  * Μεταφορά δεδομένων με ειδικό μηχανισμό 
+  * Αναζήτηση δεδομένων σε βάσεις, σε αρχεία ή στη μνήμη
+  * Υπολογισμοί
+  * Προγραμματισμός με: Javascript, SQL, RegExp
+  * Διαχωρισμός δεδομένων
+  * Αντιστοίχηση
+  * Επιλογή
+  * Κατάτμηση
+  * Φιλτράρισμα
+  * Συγχώνευση
+  * Ένωση
+  * Αντιγραφή
+  * Δημιουργία συστάδων
+  * Περιστροφή
+  * Ανάλυση και επεξεργασία χωρικών δεδομένων
 
-* Load data into a target format:
+* Φόρτωση δεδομένων σε επιθυμητό πρότυπο:
 
-  * Database loads
-  * Data warehouse population
-  * Partitioned loading
-  * Bulk loading
-  * Parallel loading
-  * Clustering
+  * Σε βάση δεδομένων
+  * Συμπλήρωση σε αποθήκη δεδομένων
+  * Φόρτωση δεδομένων τμηματικά
+  * Φόρτωση όγκου δεδομένων
+  * Παράλληλη φόρτωση
+  * Συστοιχίες
 
-* Environment:
+* Περιβάλλον:
   
-  * Full GUI named "Spoon" to edit every transformation options
-  * Command line tools: execute jobs and transformations
-  * Web server: remote execution and clustering perfect in cloud
-    computing environment for very large datasets processing
-  * Programming API for Java
-  * Plugin eco-system
+  * Πλήρες γραφικό περιβάλλον με όνομα "Spoon" για την επεξεργασία κάθε διαδικασίας μετατροπής
+  * Εργαλεία τερματικού: εκτέλεση εργασιών και μετατροπών
+  * Εξυπηρετητής: απομακρυσμένη εκτέλεση και εκτέλεση σε συστοιχίες (cloud)
+    Περιβάλλον επεξεργασίας για μεγάλο όγκο δεδομένων
+  * Προγραμματιστική διεπαφή σε Java
+  * Οικοσύστημα με πρόσθετα
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
-* OGC standards compliant (SFS)
+* Συμβατό με πρότυπα OGC
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.geokettle.org/
+**Κεντρική ιστοσελίδα:** http://www.geokettle.org/
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 3.2.0-20090609
+**Έκδοση Λογισμικού:** 3.2.0-20090609
 
-**Supported Platforms:** Windows, Linux, Mac, Solaris
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Solaris
 
-**API Interfaces:** Java, Javascript
+**Προγραμματιστικές διεπαφές:** Java, Javascript
 
-**Support:** http://www.spatialytics.org & http://www.spatialytics.com
+**Υποστήριξη:** http://www.spatialytics.org & http://www.spatialytics.com
 
