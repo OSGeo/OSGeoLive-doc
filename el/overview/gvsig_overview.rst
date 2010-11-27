@@ -23,23 +23,16 @@ gvSIG Desktop
 Λογισμικό GIS
 ~~~~~~~~~~~
 
-gvSIG_ is a Geographic Information System (GIS) desktop application
-designed for capturing, storing, handling, analysing and deploying any kind of
-referenced geographic information in order to solve complex management and
-planning problems. gvSIG is known for its user-friendly interface and being
-able to access all common vector and raster formats. It features
-a wide range of tools for working with geographic information (query,
-layout creation, geoprocessing, networks, etc.), which turns gvSIG into the
-ideal tool for users working in the land realm.
+Το πρόγραμμα gvSIG_ είναι ένα Γεωγραφικό Σύστημα Πληροφοριών σχεδιασμένο για καταγραφή, αποθήκευση, διαχείριση, ανάλυση και διάχυση κάθε είδους αναφερμένων γεωγραφικών πληροφοριών για λύση σύνθετων προβλημάτων διαχείρισης και σχεδιασμού.  Το gvSIG είναι γνωστό για τη φιλική στο χρήστη οθόνη εργασίας και για το ότι έχει τη δυνατότητα πρόσβασης σε όλους τους κοινους διανυσματικούς και μωσαϊκού τύπου, τύπους αρχείων. Στα χαρακτηριστικά του περιλαμβάνεται ένα μεγάλο εύρος εργαλείων για εργασία με γεωγραφικές πληροφορίες (ερωτήματα, δημιουργία στύλ χαρτών, γεωεπεξεργασία, δίκτυα κλπ), γεγονός που το καθιστά ιδανικό εργαλείο για χρήστες που δουλεύουν στην γήινη επιφάνεια.
 
-gvSIG is known for:
+Το gvSIG είναι γνωστό για:
 
-* integrating in the same view both local and remote data through OGC standards.
-* being easily extendible, allowing continuous application 
-  enhancement, as well as enabling the development of tailor-made solutions.
-* being available in over 20 languages (Spanish, English, German, French, 
-  Italian,...) .
-* being available for Windws, Linux, and Mac OS X platforms:
+* Ενσωμάτωση δεδομένων στην ίδια οθόνη επισκόπησης τόσο τοπικών όσο και απομακρυσμένων δεδομένωνμέσω προτύπων OGC.
+* Είναι εύκολα επεκτάσιμο, επιτρέπωντας συνεχή ανάπτυξη 
+  καθώς και επιτρέπει ιδιοποιημένων εφαρμογών ανάλογα με τις ανάγκες του χρήστη.
+* Είναι διαθέσιμο σε πάνω από 20 γλώσσες (Ισπανικά, Αγγλικά, Γερμανικά, Γαλλικά, 
+  Ιταλικά,...) .
+* Είναι διαθέσιμο για Windws, Linux, και Mac OS X:
 
 .. image:: images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -49,71 +42,71 @@ gvSIG is known for:
 Βασικά Χαρακτηριστικά
 -------------
 
-* Provides common GIS tools like data loading, map navigation, query 
-  map information like alphanumeric information, distance measurement, thematic
-  cartography, legend edition using common legend types, labelling,
-  feature selection by many selection types, data tables with statistics,
-  ordering, table relations, table linking, layout manager, geoprocessing tools,
-  CAD, raster processing, etc.
+* Παρέχει κοινά εργαλεία GIS όπως φόρτωση δεδομένων, πλοήγηση χάρτη, ερωτήματα 
+  πληροφορίες χάρτη όπως αλφαριθμητική πληροφορία, μέτρηση αποστάσεων, θεματική
+  χαρτογραφία, διαχείρηση υπομνήματος με κοινούς τύπους υπομνημάτων, σύμβολα,
+  επιλογή χαρακτηριστικών με πολλούς τρόπους, πίνακες δεδομένων με στατιστικά,
+  στοίχηση, σχέσεις πινάκων, σύνδεση πινάκων, διαχείρηση εκτύπωσης, εργαλεία χωρικής ανάλυσης,
+  CAD, επεξεργασία εικόνων κλπ
 
-* Interoperable: able to work with most known data formats:
+* Διαλειτουργικό: μπορεί να δουλέψει σχεδόν με όλα τα γνωστά πρότυπα αρχείων:
 
-  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * vector & CAD: shapefile, GML, KML, DGN, DXF, DWG
-  * databases: PostGIS, MySQL, Oracle, ArcSDE
-  * remote: ECWP, ArcIMS, OGC standards
+  * Εικόνες: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
+  * Διανυσματικά και CAD: shapefile, GML, KML, DGN, DXF, DWG
+  * Βάσεις Δεδομένων: PostGIS, MySQL, Oracle, ArcSDE
+  * Απομακρυσμένα: ECWP, ArcIMS, πρότυπα OGC
 
-* Discovery services client to localize data resources within an
-  SDI (catalogue and gazeteer services)
+* Πελάτης υπηρεσιών καταλόγου για την τοπική χρήση των πηγών δεδομένων σε ένα
+  SDI (υπηρεσίες καταλόγου και τοπονυμίων)
   
-  * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
+  * Κατάλογοι: Z3950, SRW, CSW (ISO/19115 και ebRIM)
   * Gazetteers: ADL, WFS, WFS-G
   
-* More than 290 geoalgorithms via SEXTANTE_ and GRASS integration
+* Περισσότεροι από 290 αλγόριθμοι μέσω διασύνδεσης SEXTANTE_ και  GRASS
   
-* Integrated advanced CAD tools:
+* Ενσωματωμένα ισχυρά εργαλεία CAD:
 
-  * vector data: modify, create and delete elements
-  * command console typical element in CAD software
-  * tools like help, grid, command stack, complex element selections
-  * tools for inserting elements like points, polygons, lines, ellipses, etc...
-  * tools to modify its rotation, symmetry,...
+  * Διανυσματικά δεδομένα: επεξεργασία, δημιουργία και διαγραφή στοιχείων
+  * γραμμή εντολών τυπικό στοιχείο στα λογισμικά CAD
+  * Εργαλεία όπως Βοήθεια, κάναβος, στοίβα εντολών, περίπλοκες επιλογές στοιχείων
+  * Εργαλεία για την εισαγωγή στοιχείων όπως σημεία, γραμμές, πολύγωνα, ελλείψεις κλπ.
+  * Εργαλεία για επεξεργασία στροφής, συμμετρίας,...
   
-* Integrated advanced raster tools:
+* Ενσωματωμένα εργαλεία για εικονιστικά δεδομένα:
 
-  * georeferencing and reprojecting
-  * export, clipping
-  * look up tables, histogram
-  * filters, vectorization
-  * overviews and regions of interest management
+  * Γεωαναφορά και αναδόμηση
+  * Εξαγωγή, αποκοπή
+  * Πίνακες τιμών αντιστοίχησης, ιστογράμματα
+  * Φίλτρα, ψηφιοποίηση
+  * Συνόψεις δεδομένων και διαχείρηση περιοχών ενδιαφέροντος
 
-* Scripting support
-* Powerful reprojection engine via PROJ4
+* Υποστήριξη σειριακού προγραμματισμού
+* Ισχυρή μηχανή αλλαγής συστημάτων αναφοράς μέσω PROJ4
 
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
-Advanced client support of numerous Open Geospatial Consortium (OGC) standards
+Προχωρημένη υποστήριξη για πολλά πρότυπα του Open Geospatial Consortium (OGC)
 
-* Load WMS, WFS and WCS layers
-* Export/import of SLD legends
-* Export/import of Web Map Context (WMC)
-* Search on catalogues with  CSW (ISO/19115 and ebRIM)
-* Search on gazetteers using WFS-G recommendation
+* Φόρτωση WMS, WFS και επιπέδων WCS
+* Εξαγωγή/Εισαγωγή υπομνημάτων SLD
+* Εξαγωγή/Εισαγωγή Web Map Context (WMC)
+* Αναζήτηση σε καταλόγους με  CSW (ISO/19115 και ebRIM)
+* Αναζήτηση σε gazetteers μέσω της πρότασης WFS-G
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.gvsig.org/
+**Κεντρική ιστοσελίδα:** http://www.gvsig.org/
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.10 (beta)
+**Έκδοση Λογισμικού:** 1.10 (beta)
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**Support:** http://www.gvsig.org/web/organization/services
+**Υποστήριξη:** http://www.gvsig.org/web/organization/services
 
 
 .. _gvSIG: http://www.gvsig.org

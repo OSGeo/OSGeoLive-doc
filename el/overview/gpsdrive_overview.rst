@@ -14,15 +14,12 @@
 GpsDrive
 ========
 
-GPS Navigation Software 
+Λογισμικό Πλοήγησης GPS
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-`GpsDrive <http://www.gpsdrive.de>`_ is a car (bike, ship, plane, foot)
-navigation system. GpsDrive displays your position provided from a GPS
-on a zoomable map. The map file is auto-selected depending on your position
-and preferred map scale.  All GPS receivers which support the NMEA protocol
-should be usable, as well as many USB GPSs using a binary protocol known to
-the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
+Το `GpsDrive <http://www.gpsdrive.de>`_ είναι ένα σύστημα πλοήγησης αυτοκινήτου (ποδηλάτου, πλοίου, αεροπλάνου, πεζού). Το GpsDrive προβάλει την πληροφορία θέσης από έναν δέκτη GPS πάνω σε ένα χάρτη με δυνατότητα μεγέθυνσης. Ο χάρτης επιλέγεται αυτόματα σε συνάρτηση με τη θέση και την επιλεγμένη κλίμακα του χάρτη.  Όλοι οι δέκτες GPS που υποστηρίζουν το προτόκολο NMEA 
+μπορούν να χρησιμοποιηθούν , όπως επίσης και πολλοί δέκτες USB GPS που χρησιμοποιούν ψηφιακό προτόκολο που μπορεί να αναγνώσει 
+το `Gpsd <a href="http://gpsd.berlios.de>`_.
 
 Βασικά Χαρακτηριστικά
 -------------
@@ -32,35 +29,35 @@ the `Gpsd <a href="http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
   :alt: screenshot
   :align: right
 
-* Download LANDSAT or OpenStreetMap data from the Web, or register your own images
-* Live rendering of OpenStreetMap data stored in a PostGIS database using Mapnik
-* Live rendering from NASA's Blue Marble high-resolution mosaic
-* Verbal instructions using eSpeak
-* Highly customizable dashboard and GUI
-* GPX track and route support, a number of waypoint storage options including
-  SQLite and GpsBabel-compatible plain text files
-* Search for nearest POI waypoints within a given radius
-* Route planning
-* Included server to keep track of your friends' postions
-* Kismet Wifi integration
+* Μεταφορτωση εικόνων LANDSAT ή δεδομένων OpenStreetMap από το διαδίκτυο, ή ενσωμάτωση εικόνων του χρήστη
+* Ζωντανή απεικόνιση δεδομένων OpenStreetMap data που είναι αποθηκευμένα σε PostGIS με τη χρήση του Mapnik
+* Ζωντανή απεικόνιση από το μωσαικό της NASA Blue Marble
+* Φραστικές εντολές μέσω eSpeak
+* Πλήρως παραμετροποιήσιμο γραφικό περιβάλλον
+* Υποστήριξη γραμμών ανίχνευσης GPX και υποστήριξη δρομολόγησης, συμπεριλαμβανομένου και ενός αριθμού σημείων προορισμού
+  Συμβατό με SQLite και αρχεία κειμένου συμβατά με GpsBabel
+* Αναζήτηση για τα πλησιέστερα σημεία ενδιαφέροντος σε συγκεκριμένη ακτίνα
+* Σχεδιασμός δρομολογίου
+* Συμπεριλαμβανόμενος εξυπηρετητής για την ανίχνευση φίλων και γνωστών
+* Ενσωμάτωση Kismet Wifi
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.gpsdrive.de
+**Κεντρική ιστοσελίδα:** http://www.gpsdrive.de
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.11
+**Έκδοση Λογισμικού:** 2.11
 
-**Supported Platforms:** GNU/Linux, Mac OSX
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX
 
-**Support:** http://gpsdrive.de/support.shtml
+**Υποστήριξη:** http://gpsdrive.de/support.shtml
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/gpsdrive_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gpsdrive_quickstart.html>`_
 
 

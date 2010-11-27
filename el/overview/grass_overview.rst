@@ -20,36 +20,20 @@
 GRASS GIS
 =========
 
-Fully featured GIS
+Πλήρες λογισμικό GIS
 ~~~~~~~~~~~~~~~~~~
 
-The Geographic Resources Analysis Support System, commonly referred to as
-GRASS, is a Geographic Information System (GIS) providing powerful raster,
-vector, and geospatial processing engines in a single integrated software
-suite. GRASS includes tools for spatial modeling, visualization of raster
-and vector data, management and analysis of geospatial data, and the
-processing of satellite and aerial imagery. It also provides the capability
-to produce sophisticated presentation graphics and hardcopy maps. GRASS has
-now been translated into twenty languages and supports a huge array of data
-formats.
+Το λογισμικό GRASS (Geographic Resources Analysis Support System) είναι ένα Γεωγραφικό Σύστημα Πληροφοριών (GIS), το οποίο παρέχει ισχυρούς μηχανισμούς γεωχωρικής επεξεργασίας διανυσματικών δεδομένων και εικονιστικών δεδομένων σε μια ολοκληρωμένη σουίτα λογισμικού. Το λογισμικό GRASS περιλαμβάνει εργαλεία για χωρική μοντελοποίηση, οπτικοποίηση εικονιστικών δεδομένων και διανυσματικών δεδομένων, διαχείριση και ανάλυση γεωχωρικών δεδομένων και επεξεργασία δορυφορικών εικόνων και αεροφωτογραφιών. Επίσης, παρέχει τη δυνατότητα παραγωγής πολύπλοκων γραφικών για παρουσιάσεις και εκτυπώσεις χαρτών. Το πρόγραμμα GRASS έχει μεταφραστεί σε 20 γλώσσες και υποστηρίζει ένα ευρύ φάσμα προτύπων δεδομένων.
 
 .. image:: images/screenshots/1024x768/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-GRASS is currently used around the world in academic and commercial settings
-as well as by many governmental agencies and environmental consulting
-companies. It runs on a variety of popular hardware platforms and is Free
-open-source software released under the terms of the GNU General Public License.
+Το GRASS χρησιμοποιείται σε όλο τον κόσμο σε ακαδημαϊκές και εμπορικές εφαρμογές καθώς επίσης και σε πολλές κυβερνητικές υπηρεσίες και περιβαλλοντικές συμβουλευτικές εταιρείες. Το λογισμικό τρέχει σε μια πληθώρα δημοφιλών πλατφόρμων υλικού και είναι Ελευθερο Λογισμικό υπό τους όρους της άδειας GNU General Public License.
 
-The GRASS software includes over 400 built-in analysis modules. Additionally,
-over 100 community supplied modules and toolboxes are available for free
-from the community wiki site. After 27 years of continuous
-development GRASS is both the oldest and largest Open Source GIS available.
-It is easily scriptable and versatile enough to be used both for batch data
-processing on massively-parallel supercomputers as well as a handy desktop
-GIS for handheld PDAs or netbooks.
+Το πρόγραμμα GRASS περιλαμβάνει περισσότερες από 400 μονάδες λογισμικού ανάλυσης. Επιπροσθέτως, πάνω από 100 εφαρμογές και εργαλειοθήκεςπαρέχονται από την κοινότητα χωρίς κόστος από το wiki της κοινότητας. Μετά από 27 χρόνια συνεχούς ανάπτυξης, το λογισμικό GRASS είναι ταυτόχρονα το παλαιότερο και μεγαλύτερο διαθέσιμο Γεωγραφικό Σύστημα Πληροφοριών Ανοιχτού Κώδικα.
+Είναι έυκολα επεκτάσιμο και ευέλικτο για χρήση τόσο σε μαζικές διαδικασίες επεξεργασίας όσο και σε περιβάλλον παράλληλης εκτέλεσης σε υπερυπολογιστές καθώς επίσης και σε χρήση από προσωπικό υπολογιστή ή υπολογιστή χειρός.
 
 
 .. _GRASS: http://grass.osgeo.org
@@ -57,28 +41,28 @@ GIS for handheld PDAs or netbooks.
 Βασικά Χαρακτηριστικά
 -------------
 
-* You name it, there's a tool for it.
-* Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
+* Για όποια λειτουργία επιθυμείτε, θα βρείτε αντίστοιχο εργαλείο.
+* Μπορείτε να δείτε την `συλλογή εικόνων <http://grass.osgeo.org/screenshots/>`_.
 
 Λεπτομέρειες
 -------
 
-**Website:** http://grass.osgeo.org
+**Κεντρική ιστοσελίδα:** http://grass.osgeo.org
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 6.4.0RC6
+**Έκδοση Λογισμικού:** 6.4.0RC6
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
-**API Interfaces:** C, Python, Bourne Shell
+**Προγραμματιστικές διεπαφές:** C, Python, Bourne Shell
 
-**Support:** http://grass.osgeo.org/community/
+**Υποστήριξη:** http://grass.osgeo.org/community/
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/grass_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/grass_quickstart.html>`_
 
 

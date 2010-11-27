@@ -14,19 +14,16 @@
 GMT
 ===
 
-The Generic Mapping Tools
+Το Γενικό Χαρτογραφικό Εργαλείο (Generic Mapping Tools)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GMT is a collection of tools that allow users to manipulate (x,y) and
-(x,y,z) data sets (including filtering, trend fitting, gridding,
-projecting, etc.) and produce Encapsulated PostScript File (EPS)
-illustrations ranging from simple x-y plots through contour maps to
-artificially illuminated surfaces and 3-D perspective views in black and
-white, gray tone, hachure patterns, and 24-bit color.
+Το GMT είναι μια συλλογή από εργαλεία που επιτρέπουν στους χρήστες να διαχειρίζονται δεδομένα (x,y) και 
+(x,y,z) (συμπεριλαμβανομένων φιλτραρισμάτων, προσδιορισμό τάσεων, καναβοποίηση,
+προβολή, κλπ.) και να δημιουργούν αρχεία EPS
+με αναπαραστάσεις από απλά διαγράμματα x-y μεχρι διαγράμματα ισουψών καμπύλων, 
+τεχνιτά σκιασμένες επιφάνειες και αναπαραστάσεις 3-D σε ασπρόμαυρο, σε τόνους του γκρί, γραμμοσκιασμένα σχήματα ή και χρώματα 24 bit.
 
-GMT supports many common map projections plus linear, log, and power
-scaling, and comes with support data such as coastlines, rivers, and
-political boundaries.
+Το GMT υποστηρίζει πολλές κλασικές χαρτογραφικές προβολές με επιπλέον γραμμικές, λογαριθμικές και εκθετικές κλίμακες, και διατίθεται με υποστήριξη για δεδομένα όπως οι ακτογραμμές, τα ποτάμια και τα πολιτικά όρια.
 
 
 .. image:: images/screenshots/800x600/gmt-example28.png
@@ -37,28 +34,28 @@ political boundaries.
 Βασικά Χαρακτηριστικά
 -------------
 
-* Journal quality cartography.
-* Gridding and contouring functions.
+* Χαρτογραφία ποιότητας περιοδικού.
+* Λειτουργίες Κανάβου και ισουψών.
 
 Λεπτομέρειες
 -------
 
-**Website:** http://gmt.soest.hawaii.edu
+**Κεντική ιστοσελίδα:** http://gmt.soest.hawaii.edu
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 4.5.1
+**Έκδοση Λογισμικού:** 4.5.1
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
-**API Interfaces:** Command line
+**Προγραμματιστικές διεπαφές:** Γραμμή Τερματικού
 
-**Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**Υποστήριξη:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/gmt_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gmt_quickstart.html>`_
 
 
