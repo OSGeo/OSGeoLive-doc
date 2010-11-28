@@ -60,11 +60,12 @@ Krisenmanagement
 
 Navigation und Karten
 -------------------
-* :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - OpenStreetMap Werkzeuge
 * :doc:`gpsdrive_overview` - [`QuickStart <../quickstart/gpsdrive_quickstart.html>`_] - GPS
 * :doc:`marble_overview` - [`QuickStart <../quickstart/marble_quickstart.html>`_] - 3D Globus
-* :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Visualisierung
 * :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS
+* :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - OpenStreetMap Werkzeuge
+* :doc:`prune_overview` - [`QuickStart <../quickstart/prune_quickstart.html>`_] - Visualisierung und Editeren von GPS-Daten
+* :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Visualisierung
 * :doc:`zygrib_overview` - Karten zur Wettervorhersage
 
 Tests
