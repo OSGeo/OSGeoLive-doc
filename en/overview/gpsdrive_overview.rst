@@ -41,7 +41,7 @@ Core Features
   SQLite and GpsBabel-compatible plain text files
 * Search for nearest POI waypoints within a given radius
 * Route planning
-* Included server to keep track of your friends' postions
+* Included server to keep track of your friends' positions
 * Kismet Wifi integration
 
 Details

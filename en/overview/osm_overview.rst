@@ -36,7 +36,7 @@ Core Features
   :alt: screenshot
   :align: right
 
-* Global massively crowdsouced dataset
+* Global massively crowd-sourced dataset
 * A number of editors to choose from
 * A number of renderers to choose from (including online)
 * Free to use
