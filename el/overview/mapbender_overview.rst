@@ -1,6 +1,6 @@
-:Author: Astrid Emde
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Astrid Emde
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mapbender-overview:
 
@@ -20,18 +20,18 @@
 Mapbender
 =========
 
-Geoportal Framework
+Περιβάλλον Γεωχωρικών Ιστοσελίδων
 ~~~~~~~~~~~~~~~~~~~
 
-`Mapbender <http://www.mapbender.org>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
+Ο `Mapbender <http://www.mapbender.org>`_ είναι ένα λογισμικό μέλος του OSGeo. Είναι ένα διαδικτυακό περιβάλλον για την κατασκευή γεωχωρικών ιστοσελίδων για την δημοσίευση, επισκόπηση, πλοήγηση, παρακολούθηση και ασφαλή πρόσβαση σε γεωχωρικά δεδομένα και Υπηρεσίες Χωρικών Πληροφοριών.
 
-Mapbender is the tip of the iceberg, a meta layer of software providing access to SDI components adhering to international standards. Mapbender allows users to easily create customised browser clients from a wide range of widgets (without any/with minimal) programming required. Widgets integrate with server functionality to provide advanced functionality like security proxying, digitizing, auto snapping and more.
+Ο Mapbender είναι η αιχμή του παγόβουνου, το πάνω επίπεδο του λογισμικού που παρέχει πρόσβαση σε ένα SDI, σύμφωνα με τα διεθνή πρότυπα. Ο Mapbender επιτρέπει στους χρήστες να δημιουργήσουν εύκολα ιδιοποιημένες εφαρμογές-πελάτες στον περιηγητή από μεγάλη ποικιλία παραθυρικών εφαρμογών (χωρίς καθόλου ή ελλάχιστο απαιτούμενο προγραμματισμό). Οι παραθυρικές εφαρμογές ενσωματώνουν λειτουργικότητα του εξυπηρετητή όπως ασφαλή πρόσβαση στα δεδομένα, ψηφιοποίηση, αυτόματη επικόληση διανυσμάτων και περισσότερα.
 
-Mapbender management applications are straight forward and easy to use providing highly focused functionality for the operation of large scale distributed SDI components. It is the tool of choice for SDI administrators who need to maintain, categorize and monitor map and feature services. Mapbender grants access to individuals, groups and manages machine to machine access. Adherence to standardized services, such as OGC WMS and transactional WFS allows to take advantage of interoperable services from a multitude of server platforms.
+Οι εφαρμογές διαχείρισης του Mapbender είναι άμεσες και εύκολες στη χρήση, στοχευμένες στην λειτουργικότητα απαιτούμενη για τη λειτουργία μεγάλων κατανεμημένων SDI. Είναι το εργαλείο επιλογής για τους διαχειριστές SDI οι οποίοι χρειάζονται να συντηρήσουν, κατηγοριοποιήσουν και παρακολουθήσουν υπηρεσίες χαρτών και δεδομένων. Ο Mapbender παρέχει πρόσβαση σε άτομα, ομαδες και διαχειρίζεται πρόσβαση από μηχάνημα σε μηχάνημα. Η πρόσβαση σε καθιερωμένες υπηρεσίες, όπως οι υπηρεσίες WMS και WFS-T του OGC επιτρέπει τη χρήση διαλειτουργικών υπηρεσιών από πολλούς εξυπηρετητές.
 
-The Mapbender client side is based on HTML and JavaScript using the jQuery and jQuery UI libraries which provide lots of browser widgets. The server side is implemented in PHP and PostgreSQL/PostGIS. 
+Ο πελάτης Mapbender στον περιηγητή, είναι βασισμένος σε HTML και JavaScript με τη χρήση της βιβλιοθήκης jQuery και jQuery UI η οποία παρέχει πολλές παραθυρικές εφαρμογές. Το τμήμα του εξυπηρετητή είναι υλοποιημένο σε PHP και PostgreSQL/PostGIS. 
 
-Mapbender gives a whole new perspective to SDI management using nothing but a standard web browser. 
+Ο Mapbender παρέχει μια νέα προοπτική στη διαχείρηση ενός SDI με τη χρήση αποκλειστικά ενός περιηγητή. 
 
 .. image:: images/screenshots/800x600/mapbender_demo.png
   :scale: 50%
@@ -42,28 +42,28 @@ Mapbender gives a whole new perspective to SDI management using nothing but a st
 Βασικά Χαρακτηριστικά
 -------------
 
-* Easily create web mapping interfaces using template applications  
+* Ευκολία δημιουργίας χαρτογραφικών εφαρμογών με τη χρήση πρότυπων εφαρμογών  
 
-  * add/remove/customize jQuery widgets 
-  * customize styling with the jQuery UI Themeroller) 
-* Upload and share remote OGC WMS (Capabilities caching) 
+  * Προσθήκη/Διαγραφή/Παραμετροποίηση παραθύρων jQuery 
+  * Παραμετροποίηση στυλ με τη χρήση του  jQuery UI Themeroller 
+* Μεταφόρτωση και αποθήκευση απομακρυσμένων υπηρεσιών WMS (Capabilities caching) 
 
-  * arrange uploaded WMS for overlay
-  * editing layer visibility
-  * order
-  * format
-  * caption edit 
-  * extend service meta data (ISO profile) based on Capabilities document for catalog with CS-W interface
-* Upload and configure WFS to search, find and highlight geo objects 
-* Bind transactional WFS with WMS to enable online digitizing (with cross service snapping functionality, geometry manipulation like splitting, combining, cloning)
-* Create users and groups, share and grant access to services and modules
-* WMC handling
-* Connect remote catalogs, and optionally connect to GeoNetwork opensource
-* Restrict user access with the OWS security proxy module via trusted servers
-* Encrypted protocols monitoring and status notification and auto-update service for remote OGC services 
-* Deploy OpenLayers clients from the Mapbender service repository
-* Print high-quality maps using your own PDF templates.
-* ... and more!
+  * Διάταξη φορτωμένων WMS για επισκόπηση
+  * Επεξεργασία προβολής θεματικών επιπέδων
+  * Σειρά
+  * Πρότυπο
+  * Επεξεργασία λεζάντας 
+  * Επέκταση μεταδεδομένων υπηρεσιών βασισμένη στο κείμενο προδιαγραφών (Capabilities) για καταχώρηση σε κατάλογο με διεπαφή CS-W
+* Φόρτωση και παραμετροποίηση υπηρεσίας WFS για αναζήτηση και ανάδειξη γεωχωρικών αντικειμένων 
+* Διασύνδεση υπηρεσιών WFS-Τ με WMS  για ψηφιοποίηση (με λειτουργικότητα snapping και λειτουργίες επεξεργασίας γεωμετρίας όπως διάσπαση, συνδυασμός και κλωνοποίηση)
+* Δημιουργια χρηστών και ομάδων, για πρόσβαση σε υπηρεσίες και λειτουργίες
+* Διαχείρηση WMC
+* Σύνδεση σε απομακρυσμένους καταλόγους και διασύνδεση με το λογισμικό GeoNetwork opensource
+* Περιορισμός πρόσβασης σε χρήστες μέσω του πρόσθετου ασφαλείας OWS μέσω ασφαλών εξυπηρετητών
+* Προτόκολα κρυπτογράφησης, ειδοποίησης κατάστασης και αυτόματης ενημέρωσης για απομακρυσμένες υπηρεσίες OGC
+* Εφαρμογή πελατών OpenLayers από τα αποθετήρια υπηρεσιών του Mapbender
+* Εκτύπωση χαρτών υψηλής ποιότητας με τη χρήση προτύπων PDF ορισμένων από το χρήστη.
+* ... και πολλά περισσότερα!
 
 Υλοποιημένα Πρότυπα
 ---------------------
@@ -75,22 +75,22 @@ Mapbender gives a whole new perspective to SDI management using nothing but a st
 Λεπτομέρειες
 -------
 
-**Website:** http://www.mapbender.org/ 
+**Κεντρική ιστοσελίδα:** http://www.mapbender.org/ 
 
-**Licence:** Mapbender is dual licensed under the GNU General Public License and Simplified BSD license
+**Άδεια:** Ο Mapbender διανέμεται κάτω από διπλή άδεια, την GNU General Public License και την απλοποιημένη άδεια BSD
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Software Version:** 2.6.2
+**Έκδοση Λογισμικού:** 2.6.2
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**Support:** http://www.mapbender.org/Support
+**Υποστήριξη:** http://www.mapbender.org/Support
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/mapbender_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapbender_quickstart.html>`_
 
 

@@ -1,6 +1,6 @@
-:Author: Sergio Baños Calvo
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Sergio Baños Calvo
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _kosmo-overview:
 
@@ -16,11 +16,10 @@ Kosmo Desktop
 Λογισμικό GIS
 ~~~~~~~~~~~
 
-Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
-and analyse spatial data from a variety of databases, vector and raster formats. 
+Το Kosmo - Desktop είναι ένα φιλικό προς το χρήστη, λογισμικό GIS που επιτρέπει την αναζήτηση, επεξεργασία και ανάλυση χωρικών δεδομένων από μια πληθώρα βάσεων δεδομένων και από ψηφιακά αρχεία (διανυσματικά ή εικονιστικά). 
 
-Kosmo - Desktop follows OGC standards and provides excellent topology integrity. 
-It's plug-in architecture enables it to be easily customised for specific purposes.
+Το Kosmo - Desktop ακολουθεί τα πρότυπα του OGC και παρέχει άριστη τοπολογική ακεραιότητα. 
+Διαθέτει αρχιτεκτονική με πρόσθετα (plug-in) και είναι εύκολο να προσαρμοστεί σε συγκεκριμένες απαιτήσεις και σκοπούς.
 
 .. image:: images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
@@ -30,44 +29,44 @@ It's plug-in architecture enables it to be easily customised for specific purpos
 Βασικά Χαρακτηριστικά
 -------------
 
-Supported formats:
+Υποστηριζόμενα πρότυπα:
 
-* Vectorial file formats: Shapefiles, GML, DXF, DWG, DGN, CSV (by an extension)
-* Vectorial databases: PostgreSQL + PostGIS, Oracle, MySQL
-* Raster file formats: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
-* OGC services: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
+* Πρότυπα διανυσματικών δεδομένων: Shapefiles, GML, DXF, DWG, DGN, CSV
+* Βάσεις δεδομένων: PostgreSQL + PostGIS, Oracle, MySQL
+* Πρότυπα αρχείων εικόνων: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
+* Πρότυπα υπηρεσιών OGC: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
 
-Key features:
+Σημαντικά χαρακτηριστικά:
 
-* User friendly GUI, focused on an easy learning curve
-* Available in 11 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian portuguese)
-* Advanced printing module based on OpenOffice offimatic suite (by an extension)
-* Topology consistency rules: pre/during/post edition
-* Topology validation and cleaning tools (intersect/eliminate/clean)
-* Geoprocessing wizard extension: buffer/dissolve/merge/clip/intersection/spatial join/difference (by an extension)
-* Raster georreferencing tool (by an extension)
-* Sextante 0.5 integrated (by an extension)
+* Γραφικό περιβάλλον φιλικό προς το χρήστη, με στόχο την εύκολη καμπύλη εκμάθησης
+* Διαθέσιμο σε 11 γλώσσες (Αγγλικά, Ισπανικά, Ιταλικά, Γερμανικά, Κροατικά, Τσεχικά, Ρωσικά, Σλοβάκικα, Καταλανικά, Βασκικά, Βραζιλιάνικα και Πορτογαλικά)
+* Ισχυρή υποστήριξη εκτυπώσεων μέσω της σουίτας OpenOffice
+* Τοπολογικοί κανόνες ακεραιότητας: πριν/κατά/μετά την επεξεργασία
+* Τοπολογική επικαιροποίηση και εργαλεία καθαρισμού (intersect/eliminate/clean)
+* Πρόσθετο γεωχωρικών επεξεργασιών: buffer/dissolve/merge/clip/intersection/spatial join/difference
+* Γεωαναφορά εικόνων
+* Ενσωμάτωση Sextante 0.5
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
-* Styled Layer Descriptor (SLD) (import/export)
+* Styled Layer Descriptor (SLD) (εισαγωγή/εξαγωγή)
 
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.opengis.es
+**Κεντρική ιστοσελίδα:** http://www.opengis.es
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Έκδοση Λογισμικού:** 2.0
 
-**Supported Platforms:** Windows, Linux
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 
 **Διεπαφές προγραμματισμού (API):** Java
 
-**Commercial Support:** http://www.saig.es/index.php?lang=en
+**Εμπορική Υποστήριξη:** http://www.saig.es/index.php?lang=en
 

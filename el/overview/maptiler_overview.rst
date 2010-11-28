@@ -1,6 +1,6 @@
-:Author: Klokan Petr Pridal
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Klokan Petr Pridal
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _maptiler-overview:
 
@@ -14,39 +14,39 @@
 MapTiler
 ========
 
-Map Publishing
+Δημοσίευση Χαρτών
 --------------
 
-MapTiler is a desktop application for the creation of map tiles for rapid raster map publishing. Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
+Ο MapTiler είναι μια εφαρμογή για τη δημιουργία τετραγωνιδίων (tiles) για χάρτες με σκοπό την γρήγορη ανάκτηση των χαρτών μέσω διαδικτύου. Τα γεωδεδομένα μετασχηματίζονται σε τετραγωνίδια συμβατά με το Google Maps και Earth - και είναι έτοιμα για δημοσίευση με άμεση μεταφόρτωση σε κάποιον εξυπηρετητή ή σε κάποιο νέφος υπολογιστών (όπως το  Amazon S3).
 
-No extensive configuration on the server side is necessary, any simple file hosting is fine. Dynamic interaction such as panning and zooming, overlay of markers and vector data is provided by powerful browser functionality.
+Δεν απαιτείται επιπλέον ρύθμιση για τον εξυπηρετητή, απλή εξυπηρέτηση αρχείων αρκεί. Υποστηρίζεται δυναμική διάδραση όπως η μεγέθυνση και η μετάθεση, η επίθεση σημείων ενδιαφέροντος και διανυσματικών δεδομένων μπορεί να συμπληρωθεί από εφαρμογές στο επίπεδο του περιηγητή.
 
-The application directly generates a ready to use simple viewer based on OpenLayers and Google Maps API and can be easily customized.
+Η εφαρμογή δημιουργεί απευθείας χάρτες για χρήση στο OpenLayers και μέσω του Google Maps API και μπορεί να παραμετροποιηθεί εύκολα.
 
-MapTiler is a multi-platform desktop application. Installers are available for Windows, Mac OS X and packages for linux (Debian/Ubuntu).
+Ο MapTiler είναι μια εφαρμογή που υποστηρίζει πολλές πλατφόρμες. Εφαρμογές εγκατάσταση είναι διαθέσιμες για Windows, Mac OS X και πακέτα για Linux (Debian/Ubuntu).
 
 Βασικά Χαρακτηριστικά
 -------------
 
-* Well known Javascript APIs supported: OpenLayers, Google Maps API
-* No extra server software installation necessary
-* Hosting almost everywhere: cloud storage such as Amazon S3 or any cheap "unlimited" webhosting with FTP access
-* Easy mashup with commercial layers (Google, Bing, Yahoo) or OpenStreetMap
-* Tiles follow OSGEO TMS (Tile Map Service Specification)
-* Ability to process raster data in various formats: TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG and more...
-* Available commercial support and parallelized rendering on multi-core CPUs or on Amazon EC2 cluster
+* Ευρέως γνωστές προγραμματιστικές διεπαφές για Javascript υποστηρίζονται: OpenLayers, Google Maps API
+* Δεν απαιτείται επιπλέον λογισμικό στον εξυπηρετητή
+* Μπορεί να φιλοξενηθεί οπουδήποτε: σε συστήματα αποθήκευσης στο "νέφος" όπως το Amazon S3 ή οποιοσδήποτε χώρος με πρόσβαση μέσω FTP
+* Εύκολος συνδιασμός με εμπορικά δεδομένα (Google, Bing, Yahoo) ή με το OpenStreetMap
+* Τα τετραγωνίδια ακολουθούν το πρότυπο OSGEO TMS (Tile Map Service)
+* Δυνατότητα να επεξεργαστεί εικονιστικά δεδομένα σε πολλές μορφές: TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG και πολλά περισσότερα...
+* Διαθέσιμη εμπορική υποστήριξη και δυνατότητα για παράλληλη επεξεργασία σε υπολογιστές με πολούς πυρήνες ή σε συστοιχίες Amazon EC2
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.maptiler.org/
+**Κεντρική ιστοσελίδα:** http://www.maptiler.org/
 
-**Licence:** New BSD License
+**Άδεια:** New BSD
 
-**Software Version:** 1.0beta2
+**Έκδοση Λογισμικού:** 1.0beta2
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**Community:** http://groups.google.com/group/maptiler 
+**Κοινότητα:** http://groups.google.com/group/maptiler 
 
-**Commercial support and applications:** http://www.maptiler.com/
+**Εμπορική Υποστήριξη και εφαρμογές:** http://www.maptiler.com/
