@@ -14,13 +14,13 @@
 OpenCPN
 =======
 
-Marine GPS navigation software
+Λογισμικό Ναυτικής Πλοήγησης με GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenCPN provides free navigation software for use at the helm of vessels of all types and sizes, as well as offline for route planning. It has been developed by a team of active sailors using real world conditions for program testing and refinement.
+Το OpenCPN είναι ελεύθερο λογισμικό για την πλοήγηση πλοίων και σκαφών όλων των τύπων και των μεγεθών. Παρέχει επίσης και σχεδιασμό διαδρομής. Αναπτύσεται από μια ομάδα ενεργών ναυτικών που δοκιμάζουν και βελτιστοποιούν την εφαρμογή σε πραγματικές συνθήκες.
 
-OpenCPN presents a user with the vessel's current position, speed and course superimposed upon accurate navigational chart images, tide and current predictions. Information received by standard radio links describing the position and intent of other vessels can also be shown.
+Το OpenCPN παρουσιάζει στο χρήστη την παρούσα θέση του σκάφους, όπως επίσης την ταχύτητα και την πορεία, προβαλλόμενη πάνω σε ακριβή χάρτη πλοήγησης, χάρτες παλιροιών και προβλέψεών τους. Οι πληροφορίες που συλλέγονται από ραδιοσυνδέσεις και περιγράφουν τη θέση άλλων σκαφών μπορούν να απεικονιστούν.
 
-As the host vessel moves, new charts are selected and displayed at user specified resolution and detail. Further, the user may enter routes and waypoints allowing interface to an external autopilot for precise course following.
+Καθώς το σκάφος κινείται, νέοι χάρτες επιλέγονται και παρουσιάζονται στο χρήστη με την επιθυμούμενη ανάλυση και λεπτομέρεια. Επιπλέον, ο χρήσης μπορεί να εισάγει διαδρομές και σημεία προορισμού επιτρέποντας έτσι την διεπαφή με εξωτερικό αυτόματο πιλότο για την διατήρηση σταθερής πορείας.
 
 
 Βασικά Χαρακτηριστικά
@@ -31,35 +31,35 @@ As the host vessel moves, new charts are selected and displayed at user specifie
   :alt: screenshot
   :align: right
 
-OpenCPN supports:
+Το OpenCPN υποστηρίζει:
 
-* BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts
-* AIS input decoding
-* NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input
-* Waypoint / autopilot navigation
-* Unlimited route/mark creation
-* Quilted charts
-* International language support
-* Cross-platform support
-* GRIB weather data overlay
+* εικόνες BSB, C-MAP (CM93/2) και διανυσματικούς χάρτες S-57 ENC
+* Αποκωδικοποίηση AIS
+* Δεδομένα εισόδου NMEA GPS ή `Gpsd <http://gpsd.berlios.de>`_
+* Πλοήγηση αυτόματου πιλότου και πλοήγηση προς σημεία ενδιαφέροντος
+* Απεριόριστη δημιουργία δρομολόγησης
+* Γραφήματα καπιτονέ
+* Υποστήριξη διεθνών γλωσσών
+* Υποστήριξη για όλες τις πλατφόρμες
+* Επίθεση δεδομένων καιρού από GRIB
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.opencpn.org
+**Κεντρική Ιστοσελίδα:** http://www.opencpn.org
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1.624a
+**Έκδοση Λογισμικού:** 2.1.624a
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
-**Support:** http://www.cruisersforum.com/forums/f134
+**Υποστήριξη:** http://www.cruisersforum.com/forums/f134
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/opencpn_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/opencpn_quickstart.html>`_
 
 
