@@ -1,6 +1,6 @@
-:Author: Dane Springmeyer
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Dane Springmeyer
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mapnik-overview:
 
@@ -14,49 +14,47 @@
 Mapnik
 ======
 
-Cartographic rendering engine
+Λογισμικό Χαρτογραφικής Σύνθεσης
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges provided by quality anti-aliasing graphics, intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the Open Street Map main map layers.
+Το Mapnik είναι ένα σύνολο εργαλείων για την σύθεση καλαίσθητων χαρτών, με καθαρές και απαλές ακμές χαρακτηριστικών που παρέχονται από προχωρημένες τεχνικές γραφικών (anti-aliasing), από έξυπνη τοποθέτηση ετικετών, και συμβολισμούς μέσω SVG. To Mapnik είναι ιδιαιτέρως γνωστό για τη χρήση του στη σύνθεση των χαρτών του  Open Street Map.
 
-Mapnik has typically been embedded in python applications which deliver their maps over the internet although scaling improvements have meant that Mapnik has recently been getting used to create high resolution paper maps too.
+Το Mapnik έχει ενσωματωθεί σε εφαρμογές python οι οποίες σερβίρουν τους χάρτες τους μέσω διαδικτύου. Τελευταίες βελτιώσεις όμως επιτρέπουν τη χρήση του για τη δημιουργία εκτυπωμένων χαρτών πολύ υψηλής ανάλυσης.
 
 .. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right
 
-Essentially a collection of geographic objects (map, layer, datasource,
-feature, geometry),  the library doesn't rely on "windowing systems" and
-can be deployed in any server environment.  It is intended to play fair
-in a multi-threaded environment and is aimed primarily,  but not
-exclusively, at web-based development.
+Ουσιαστικά αποτελεί μια συλλογή από γεωγραφικά αντικείμενα (χάρτες, θεματικά επίπεδα, βάσεις δεδομένων,
+περιγραφικά χαρακτηριστικά, γεωμετρία),  και επομένως δεν εξαρτάται από κάποιο παραθυρικό περιβάλλον, οπότε μπορεί να χρησιμοποιηθεί σε οποιοδήποτε εξυπηρετητή.  Έχει σχεδιαστεί να δουλεύει καλά σε 
+περιβάλλον παράλληλης επεξεργασίας και στοχεύει κυρίως, αλλά όχι αποκλειστικά, στην ανάπτυξη διαδικτυακών εφαρμογών.
 
-High-level Python bindings (boost.python) facilitate rapid application
-development,  targeting zope3, django etc.
+Βιβλιοθήκες υψηού επιπέδου της Python βοηθούν στην γρήγορη ανάπτυξη εφαρμογών
+σε περιβάλλον zope3, django κλπ.
 
-Mapnik is cross platform. Packages are available for most linux
-distributions and installers are commonly used on Mac OS X and windows.
+Το Mapnik είναι ανεξάρτητο πλατφόρμας. Πακέτα εγκατάστασης είναι διαθέσιμα για τις περισσότερες διανομές Linux
+και εφαρμογές εγκατάστασης υπάρχουν για τα λειτουργικά συστήματα  Mac OS X και Windows.
 
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.mapnik.org/
+**Κεντρική Ιστοσελίδα:** http://www.mapnik.org/
 
-**Licence:** LGPL (GNU Lesser General Public Licence)
+**Άδεια:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 0.7.0
+**Έκδοση Λογισμικού:** 0.7.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**API Interfaces:** C++, Python
+**Προγραμματιστικές διεπαφές:** C++, Python
 
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/mapnik_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapnik_quickstart.html>`_
 
 

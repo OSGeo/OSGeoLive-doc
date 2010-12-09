@@ -1,6 +1,6 @@
-:Author: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Huawei Luo and Trevor Wekel
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mapguide-overview:
 
@@ -20,14 +20,14 @@
 MapGuide Open Source
 ====================
 
-Web Service
+Διαδικτυακή Υπηρεσία
 -----------
 
-`MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure.
+Το `MapGuide Open Source <http://mapguide.osgeo.org/>`_ είναι ένα διαδικτυακό λογισμικό που επιτρέπει στους χρήστες να αναπτύξουν και να παρουσιάσουν εφαρμογές χαρτογραφίας μέσω διαδικτύου και διαδικτυακές υπηρεσίες. Το MapGuide ενσωματώνει μια διαδραστική εφαρμογή οπτικοποίησης χαρτών που υποστηρίζει την επιλογή χαρακτηριστικών, την παρατήρηση περιγραφικών δεδομένων, εμφάνιση πληροφοριών στο χάρτη και διαδικασίες όπως δημιουργία ζώνης επιρροής (buffer), χωρικές επιλογές και μετρήσεις.
 
-MapGuide includes an XML database for managing content. Maestro allows users to edit the XML database and build a website without writing a single line of code. MapGuide also supports most popular geospatial file formats, databases, and standards.
+Το MapGuide περιλαμβάνει μια βάση δεδομένων XML για τη διαχείρηση περιεχομένου. Το λογισμικό Maestro επιτρέπει στους χρήστες να επεξεργάζονται την βάση  XML και να χτίζουν μια διαδικτυακή εφαρμοη χωρίς να γράψουν ούτε μια γραμμή κώδικα. Το MapGuide επίσης υποστηρίζει τα πιο δημοφιλή πρότυπα χωρικών δεδομένων, τις πιο διαδεδομένες βάσεις δεδομένων και τα ανοιχτά πρότυπα.
 
-MapGuide can be deployed on Linux or Windows, supports Apache and IIS web servers, and offers extensive PHP, .NET, Java, and JavaScript APIs for application development. MapGuide Open Source is licensed under the LGPL.
+Το MapGuide μπορεί να εγκατασταθεί σε περιβάλλον Linux ή Windows, υποστηρίζει τους εξυπηρετητές Apache και IIS, και παρέχει εκτεταμένη υποστήριξη για τις γλώσσες PHP, .NET, Java, και JavaScript για την ανάπτυξη εφαρμογών. Το MapGuide Open Source διατίθεται υπό την άδεια LGPL.
 
 .. image:: images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
@@ -37,55 +37,55 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
 Βασικά Χαρακτηριστικά
 -------------
 
-**Interactive Map Viewing**
+**Διαδραστική οπτικοποίηση χαρτών**
 
-* Dynamic browser-based viewer 
-* Feature selection and properties 
-* Buffering, querying 
-* Printing and Plotting
+* Δυναμικός χάρτης στον περιηγητή
+* Επιλογή γεωμετρικών και περιγραφικών χαρακτηριστικών
+* Χωρική ανάλυση και ερωτήματα
+* Εκτύπωση
 
-**Quality Cartographic Output**
+**Ποιοτικό Χαρτογραφικό αποτέλεσμα**
 
-* Scale-dependent detail
-* Rule-driven thematic stylization
-* Anti-aliased image rendering
-* True color support 
+* Λεπτομέρειες σε συνάρτηση με την κλίμακα
+* Εφαρμογή στύλ με τη χρήση κανόνων
+* Παρουσίαση εικόνων με φίλτρα για καθαρότερη οπτικοποίηση (anti-aliasing)
+* Υποσηριξη πραγματικού χρώματος 
 
-**Build-in Resource Database for Manageability**
+**Ενσωματωμένη βάση δεδομένων για διαχείριση**
 
-* Hierarchical storage of XML resource documents that define maps, layers, data connections
-* Define data sources and layers once and use them in multiple maps
-* Access-based security model with inheritable permissions
+* Ιεραρχική αποθήκευση αρχείων XML που ορίζουν χάρτες, θεματικά επίπεδα, συνδέσεις με δεδομένα
+* Ορισμός συνδεσεων δεδομένων και θεματικών επιπέδων μια φορά και επαναχρησιμοποίηση τους
+* Μοντέλο ασφάλειας βασισμένη στην πρόσβαση με κληρονομικότητα
 
-**Uniform Data Access**
+**Ομοιογεννής πρόσβαση σε δεδομένα**
 
-* Exclusive use of the Feature Data Objects (FDO) API for vector and raster data
-* Provides a standardized way to access a variety of data sources including SHP, SDF, Oracle, MySQL, and PostGIS.
+* Αποκλειστική χρήση της βιβλιοθήκης Feature Data Objects (FDO) για διανυσματικά και εικονιστικά δεδομένα
+* Παρέχει έναν προκαθορισμένο τρόπο για πρόσβαση σε πληθώρα πηγών δεδομένων περιλαμβανομένων των: SHP, SDF, Oracle, MySQL, και PostGIS.
 
-**Flexible Application Development**
+**Ευέλικτη ανάπτυξη εφαρμογών**
 
-* Develop your applications in PHP, .NET, or Java
+* Ανάπτυξη εφαρμογών σε PHP, .NET, ή Java
 
-**Extensive Server-Side APIs**
+**Εκτεταμένες προγραμματιστικές διεπαφές στον εξυπηρετητή**
 
-* Create, query, read, and write permanent and session based XML resource documents
-* Query and update feature data
-* Perform coordinate reprojection
-* Create, manipulate, and analyze geometry
-* Manipulate runtime maps and layers
+* Δημιουργία, αναζήτηση, ανάγνωση και αποθήκευση αρχείων XML με δεδομένα χρήσης
+* Αναζήτηση και επεξεργασία χωρικών δεδομένων
+* Δυναμική μετατροπή συστημάτων αναφοράς
+* Δημιουργία, επεξεργασία και ανάλυση γεωμετρίας
+* Επεξεργασία χαρτών και θεματικών επιπέδων την ώρα της εκτέλεσης (runtime)
 
-**Fast, Scalable, Secure Server Platform**
+**Γρήγορη, επεκτάσιμη και ασφαλής πλατφόρμα εξυπηρετητή**
 
-* Fully multi-threaded and takes advantage of multi-core servers
-* Load balancing among servers
-* Pooled database connections
-* Integrated tile caching
+* Χρησιμοποιεί τεχνικές παράλληλου προγραμματισμού για επεξεργαστές με πολλούς πυρήνες
+* Κατανομή εργασίας μεταξύ εξυπηρετητών
+* Συνδέσεις με βάσεις δεδομένων που βρίσκονται προσωρινά αποθηκευμένες στη μνήμη
+* Ενσωματωμένη υποστήριξη τετραγωνιδίων χαρτών (tiles)
 
-**Multiple Platform Support**
+**Υποστήριξη πολλαπλών πλατφόρμων**
 
-* Deploy on Microsoft Windows or Linux
-* Serve applications with Apache or Microsoft IIS
-* Browse with Microsoft Internet Explorer, Mozilla Firefox, and Safari and Chrome
+* Microsoft Windows ή Linux
+* Εξυπηρέτηση μέσω Apache ή Microsoft IIS
+* Υποστήριξη περιηγητών:Microsoft Internet Explorer, Mozilla Firefox, Safari και Chrome
 
 Υλοποιημένα Πρότυπα
 ---------------------
@@ -95,20 +95,20 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
 Λεπτομέρειες
 -------
 
-**Website:** http://mapguide.osgeo.org/
+**Κεντρική ιστοσελίδα:** http://mapguide.osgeo.org/
 
-**Licence:** GNU Lesser General Public License (LGPL) 
+**Άδεια:** GNU Lesser General Public License (LGPL) 
 
-**Software Version:** 2.2.0
+**Έκδοση Λογισμικού:** 2.2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows
 
-**Commercial Support:** http://www.osgeo.org/search_profile
+**Εμπορική Υποστήριξη:** http://www.osgeo.org/search_profile
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/mapguide_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapguide_quickstart.html>`_
 
 

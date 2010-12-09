@@ -14,16 +14,16 @@
 MB-System
 =========
 
-Sea floor mapping
+Χαρτογράφηση Βυθού
 ~~~~~~~~~~~~~~~~~
 
-MB-System is an open source software package for the processing and 
-display of bathymetry and backscatter imagery data derived from
-multibeam, interferometry, and sidescan sonars. It makes extensive
-use of the `GMT <gmt_overview.html>`_ software.
+Το MB-System είναι ένα λογισμικό ανοιχτού κώδικα για την επεξεργασία και 
+οπτικοποίηση εικονιστικών δεδομένων από βυθομετρήσεις και δεδομένα οπισθοσκέδασης από 
+διαφορικά, συμβολομετρικά και πλάγια ηχοβολιστικά συστήματα. Χρησιμοποιεί εκτανώς το λογισμικό 
+`GMT <gmt_overview.html>`_.
 
-MB-System has been under development since 1993, with active support
-from a number of research and science organisations.
+Το MB-System αναπτύσεται από το 1993, με ενεργή συμμετοχή από
+έναν αριθμό ερευνητικών και επιστημονικών οργανισμών.
 
 Βασικά Χαρακτηριστικά
 -------------
@@ -33,40 +33,40 @@ from a number of research and science organisations.
   :alt: screenshot
   :align: right
 
-* Read, list, and translate many swath data formats
-* Batch processing of large datasets
-* Calculate and compensate for sound velocity profile
-* Navigation and inertial systems data analysis and editor
-* Patch test analysis
-* Automatic or interactive bathymetry data cleaning
-* Interactive 3D visualization data cleaning tools
-* Gridding, statistical analysis, and extraction of cleaned bathymetric product
-* Map reprojection
-* Sidescan and amplitude data processing and mosaicking
-* Grid visualization
-* Survey planning
-* PostScript graphics
-* Exporting data products to GIS and visualization packages
-* Subbottom profiler data processing
-* Tide modeling and correction
+* Ανάγνωση, προβολή και μετατροπή πολλών προτύπων αρχείων σάρωσης
+* Σειριακή επεξεργασία μεγάλων αρχείων
+* Υπολογισμός και διόρθωση μηκοτομών ταχύτητας ήχου
+* Πλοήγηση και ανάλυση δεδομένων
+* Ανάλυση patch test
+* Αυτόματος ή ημιαυτόματος καθαρισμός δεδομένων βαθυμετρίας
+* Διαδραστική παρουσίαση και διόρθωση δεδομένων σε 3 διαστάσεις
+* Καναβοποίηση, στατιστική ανάλυση και παραγωγή βαθυμετρικών προιόντων
+* Αλλαγή προβολικών συστημάτων
+* Επεξεργασία και δημιουργία μοσαικών για δεδομενα από πλάγιες λήψεις και δεδομένα έντασης
+* Οπτικοποίηση σε κάναβο
+* Σχεδιασμός αποτύπωσης
+* Γραφικά PostScript
+* Εξαγωγή των δεδομένων σε λογισμικά GIS
+* Επεξεργασία δεδομένων με τη μέθοδο Subbottom profiler
+* Μοντελοποίηση και διόρθωση για κυμματισμούς
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
+**Κεντρική Ιστοσελίδα:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
 **Άδεια:** GNU General Public License (GPL) version 3
 
-**Software Version:** 5.1.2
+**Έκδοση Λογισμικού:** 5.1.2
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows (with Cygwin)
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows (με Cygwin)
 
-**API Interfaces:** Command line
+**Προγραμματιστικές διεπαφές:** Γραμμή Τερματικού
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/mb-system_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mb-system_quickstart.html>`_
 
 

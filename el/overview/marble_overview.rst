@@ -14,14 +14,13 @@
 Marble
 ======
 
-3D desktop globe
+3Υδρόγειος σφαίρα στο περιβάλλον εργασίας
 ~~~~~~~~~~~~~~~~
 
-Marble is an open source KDE Education Project program similar
-to `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ or
-Google Earth. Besides choosing any number of maps to view on your
-globe (including `OpenStreetMaps <http://www.osm.org>`_), you are
-encouraged to include a KDE Marble widget in your application.
+Το Marble είναι ένα λογισμικό ανοιχτού κώδικα, μέρος του KDE Education Project παρόμοιο με
+το λογισμικό `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ ή το
+Google Earth. Εκτός από τη δυνατότητα επισκόπησης μεγάλου αριθμού χαρτών στη σφαίρα (συμπεριλαμβανομένου του `OpenStreetMaps <http://www.osm.org>`_), υπάρχει η δυνατότητα
+χρήσης της σφαίρας σε ιδιοποιημένες εφαρμογές.
 
 
 Βασικά Χαρακτηριστικά
@@ -32,35 +31,35 @@ encouraged to include a KDE Marble widget in your application.
   :alt: screenshot
   :align: right
 
-* Virtual globe and world atlas
-* Navigate globe in 3D
-* Mouse-click reveals Wikipedia article for destination
-* Multiple maps (and planets, moons) to choose from
-* Solar day/night overlay
-* Measure distances
-* Switch between view-from-space and 2D projected map views
-* `OpenStreetMap <http://www.osm.org>`_ integration
+* Εικονική υδρόγειος σφαίρα και παγκόσμιος άτλαντας
+* Πλοήγηση στη σφαίρα σε 3 διαστάσεις
+* Με κλικ του ποντικιού, εμφανίζονται πληροφορίες από τη Wikipedia
+* Πολλαπλοί χάρτες (και πλανήτες και δορυφόροι) για επιλογή
+* Επίθεση επιπέδων μέρας και νύχτας
+* Μέτρηση αποστάσεων
+* Εναλλαγή μεταξύ θέασης από το διάστημα και θέασης χαρτών σε 2 διαστάσεις
+* Ενσωμάτωση `OpenStreetMap <http://www.osm.org>`_
 
 
 Λεπτομέρειες
 -------
 
-**Website:** http://edu.kde.org/marble/
+**Κεντρική Ιστοσελίδα:** http://edu.kde.org/marble/
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 0.9.2
+**Έκδοση Λογισμικού:** 0.9.2
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
-**API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
+**Προγραμματιστικές διεπαφές:** Qt designer, C++, Python, D-BUS, Shell script
 
-**Support:** http://techbase.kde.org/Projects/Marble
+**Υποστήριξη:** http://techbase.kde.org/Projects/Marble
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/marble_quickstart.html>`_
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/marble_quickstart.html>`_
 
 
