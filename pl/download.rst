@@ -1,0 +1,26 @@
+Pobierz
+========
+
+Najnowsza stabilna wersja OSGeo-Live zawiera:
+
+.. image:: images/download_buttons/download-dvd.png
+  :alt: Pobierz plik iso DVD lub USB 4.4 GB
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso
+
+`osgeo-live-4.0.1.iso, 4.3 Gig <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso>`_
+
+Rozruchowe DVD z xubuntu, zawierające również instalatory Windows i Mac. Może być również nagrane na rozruchowym ośmiogigowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
+
+.. image:: images/download_buttons/download-mini.png
+  :alt: Pobierz plik iso 3.2 GB bez instalatorów Windows i Mac
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1-mini.iso
+
+`osgeo-live-mini-4.0.1.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1-mini.iso>`_
+
+Podobny obraz płyty do osgeo-live-4.0.iso, ale bez instalatorów Windows i Mac, przez co może być zapisany na czterogigowym rozruchowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
+
+Aby zapoznać się z pełną listą wersji, opcji pobierania oraz adresami serwerów lustrzanych, idź do strony: http://download.osgeo.org/livedvd
+
+[*] `Sugerowane minimalne wymagania systemowe: 512MB RAM, CPU kompatybilne z 1GHz i688 CPU. Nie wymaga dostępu do twardego dysku. Użytkownikom Mac przyda się mysz na USB.`
