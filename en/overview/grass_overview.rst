@@ -34,9 +34,9 @@ now been translated into twenty languages and supports a huge array of data
 formats.
 
 .. image:: images/screenshots/1024x768/grass-vectattrib.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
+   :scale: 50 %
+   :alt: screenshot
+   :align: right
 
 GRASS is currently used around the world in academic and commercial settings
 as well as by many governmental agencies and environmental consulting
