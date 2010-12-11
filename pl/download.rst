@@ -1,4 +1,4 @@
-Pobierz
+Pobierz OSGeo-Live
 ========
 
 Najnowsza stabilna wersja OSGeo-Live zawiera:
@@ -10,7 +10,7 @@ Najnowsza stabilna wersja OSGeo-Live zawiera:
 
 `osgeo-live-4.0.1.iso, 4.3 Gig <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso>`_
 
-Rozruchowe DVD z xubuntu, zawierające również instalatory Windows i Mac. Może być również nagrane na rozruchowym ośmiogigowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
+Rozruchowe DVD z xubuntu, zawierające również instalatory na Windows i Mac. Może być nagrane na rozruchowym ośmiogigowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
 .. image:: images/download_buttons/download-mini.png
   :alt: Pobierz plik iso 3.2 GB bez instalatorów Windows i Mac
@@ -19,7 +19,7 @@ Rozruchowe DVD z xubuntu, zawierające również instalatory Windows i Mac. Moż
 
 `osgeo-live-mini-4.0.1.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1-mini.iso>`_
 
-Podobny obraz płyty do osgeo-live-4.0.iso, ale bez instalatorów Windows i Mac, przez co może być zapisany na czterogigowym rozruchowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
+Podobny obraz płyty do osgeo-live-4.0.iso, ale bez instalatorów na Windows i Mac, przez co może być zapisany na czterogigowym rozruchowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
 Aby zapoznać się z pełną listą wersji, opcji pobierania oraz adresami serwerów lustrzanych, idź do strony: http://download.osgeo.org/livedvd
 
