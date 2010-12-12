@@ -35,5 +35,5 @@ Szczegóły na: http://lisasoft.com
 
 Dla większości programów znajdujących się na płycie znajdą Państwo zarówno wsparcie społeczności jak i komercyjne. Szczegóły w opisach poszczególnych programów, które można przeglądać ze strony `Zawartość <overview/overview.html>`_.
 
-Ponadto, na całym świecie istnieją liczne firmy konsultingowe, zapewniające wsparcie dla projektów OSGeo.
+Ponadto, po całym świecie rozsiane są liczne firmy konsultingowe, zapewniające wsparcie dla projektów OSGeo.
 Można je wyszukać na stronie: http://www.osgeo.org/search_profile.

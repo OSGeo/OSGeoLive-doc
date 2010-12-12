@@ -1,7 +1,7 @@
 Pobierz OSGeo-Live
 ========
 
-Najnowsza stabilna wersja OSGeo-Live zawiera:
+Najnowszą stabilną wersję OSGeo-Live zawiera:
 
 .. image:: images/download_buttons/download-dvd.png
   :alt: Pobierz plik iso DVD lub USB 4.4 GB
