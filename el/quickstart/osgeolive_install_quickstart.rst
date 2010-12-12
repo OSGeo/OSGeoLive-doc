@@ -1,80 +1,79 @@
 
-:Author: OSGeo Live
-:Author: Cameron Shorter
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Cameron Shorter
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _osgeolive-install-quickstart:
  
 *******************************
-Install OSGeo-Live to Hard Disk
+Εγκατάσταση του OSGeo-Live στο σκληρό δίσκο
 *******************************
 
-OSGeo-Live can be installed onto your hard disk, the same way an Ubuntu
-distribution is installed.
+Το OSGeo-Live μπορεί να εγκατασταθεί στον σκληρό σας δίσκο, με τον ίδιο τρόπο που το κάνει το Ubuntu.
 
-This process can also be run inside a Virtual Machine to create a permanent
-OSGeo-Live Virtual Machine from a DVD or ISO image.
+Η διαδικασία επίσης μπορεί να εκτελεστεί μέσα σε μια εικονική μηχανή ώστε να δημιουργηθεί μια μόνιμη εγκατάσταση του
+OSGeo-Live από ένα DVD ή από ένα αρχείο ISO.
 
-System Requirements
+Απαιτήσεις συστήματος
 -------------------
 
-* 12 Gig of spare Hard Disk Space
+* 12 Gig χώρου στο σκληρό δίσκο
 
-Install OSGeo-Live
+Εγκατάσταση OSGeo-Live
 ------------------
 
   .. image:: images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
-Select "Install RELEASE"
+Επιλέξτε "Install RELEASE"
 
   .. image:: images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
 
-Enter password="user"
+Εισάγετε κωδικό "user"
 
   .. image:: images/screenshots/800x600/osgeolive_install1_language.png
     :scale: 70 %
 
-Select language
+Επιλέξτε γλώσσα
 
   .. image:: images/screenshots/800x600/osgeolive_install2_timezone.png
     :scale: 70 %
 
-Select timezone
+Επιλέξτε ζώνη ώρας
 
   .. image:: images/screenshots/800x600/osgeolive_install3_keyboard.png
     :scale: 70 %
 
-Select keyboard
+Επιλέξτε πληκτρολόγιο
 
   .. image:: images/screenshots/800x600/osgeolive_install4_disk.png
     :scale: 70 %
 
-Specify which disk to want to install on. (Beware, this may delete an existing
-  installed partition).
+Προσδιορίστε σε ποιόν σκληρό δίσκο θέλετε να γίνει η εγκατάσταση. (Προσοχή, αυτό μπορεί να διαγράψει μια υπάρχουσα εγκατάσταση
+  στον σκληρό σας δίσκο).
 
   .. image:: images/screenshots/800x600/osgeolive_install5_username.png
     :scale: 70 %
 
-Defaults for settings are:
-* Name = "user"
-* username = "user"
-* password = "user"
-* computer name = "osgeolive"
-* Log In automatically
+Οι προεπιλεγμένες ρυθμίσεις είναι:
+* Όνομα (Name)= "user"
+* Αναγνωριστικό χρήστη (username) = "user"
+* Κωδικός Πρόσβασης (password) = "user"
+* Όνομα υπολογιστή (computer name) = "osgeolive"
+* Συνδεθείτα αυτόματα
 
   .. image:: images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
-Select "Install"
+Επιλέξτε "Install"
 
-Go and get a cup of coffee while installation is in progress.
+Είναι ώρα για καφέ, όση ώρα γίνεται η εγκατάσταση.
 
-That is it.
+Αυτό είναι όλο.
 
-See Also:
+Δείτε ακόμα:
 ---------
 
  * :doc:`osgeolive_quickstart`
