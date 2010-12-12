@@ -1,107 +1,107 @@
 
-:Author: OSGeo Live
-:Author: Cameron Shorter
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Cameron Shorter
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _usb-quickstart:
  
 ***********************************************
-Creating an OSGeo-Live Bootable USB flash drive
+Δημιουργώντας ένα εκκινήσιμο USB με το OSGeo-Live
 ***********************************************
 
-Here we describe how to create a Bootable OSGeo-Live USB flash drive. Booting from a thumb drive is faster than from a DVD, and the USB drive can be configured to store data between sessions.
+Σε αυτό το κείμενο περιγράφουμε τον τρόπο με τον οποίο μπορείτε να δημιουργήσετε ένα εκκινήσιμο USB που να περιέχει το λειτουργικό σύστημα OSGeo-Live. Η εκκίνηση από ένα USB είναι γρηγορότερη από ότι με ένα DVD και επιπλέον το USB μπορεί να ρυθμιστεί να αποθηκεύει πληροφορίες μεταξύ διαφόρων χρήσεών του.
 
-We have only recently started testing USB drive Installers from OSGeo-Live 4.0. While we have received a lot of positive feedback, it has only had limited testing, and some people have reported not being able to boot from the USB drive.
+Μόλις πρόσφατα ξεκίκησε η υποστήριξη USB για το OSGeo-Live 4.0. Και ενώ έχουμε λάβει ιδιαιτ'ερως θετικά σχόλια και προτάσεις για βελτίωση, οι δοκιμές που έχουν πραγματοποιηθεί είναι λίγες, και ορισμένοι χρήστες έχουν παραπονεθεί ότι δεν μπορούν να εκκινήσουν από αυτό.
 
-Requirements
+Απαιτήσεις
 ------------
 
-* A 4 Gig USB flash drive, if using osgeo-live-mini
-* A 8 Gig USB flash drive, if using osgeo-live
-* An OSGeo-Live DVD or ISO image (downloaded from: http://live.osgeo.org/download.html)
+* Ένα δισκάκι USB 4 Gig εφόσον χρησιμοποιείτε την έκδοση osgeo-live-mini
+* Ένα δισκάκι USB 8 Gig εφόσον χρησιμοποιείτε την έκδοση osgeo-live
+* Το αρχείο ISO του OSGeo-Live ή το DVD (που μπορείτε να κατεβάσετε από: http://live.osgeo.org/download.html)
 
-Creating bootable USB drive from Ubuntu
+Δημιουργώντας το δισκάκι USB από το Ubuntu
 ---------------------------------------
 
-Insert the USB flash drive into your computer.
+Εισάγετε το USB στον υπολογιστή σας.
 
-If using a DVD, then put the DVD into the DVD drive.
+Εαν θα χρησιμοποιήσετε το DVD, τότε τοποθετήστε και το DVD στον υπολογιστή σας.
 
   .. image:: images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Select "System->Administration->Startup Disk Creator"
+Επιλέξτε "System->Administration->Startup Disk Creator"
 
   .. image:: images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
-Select the CD Drive or ISO Image.
+Επιλέξτε το αρχείο ISO ή το CD-ROM σας.
 
-Select the USB flash drive.
+Επιλέξτε το δισκάκι USB.
 
-Select "Make Startup Disk"
+Επιλέξτε "Make Startup Disk"
 
   .. image:: images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
-Wait 20 minutes or so for the USB flash drive to be created.
+Περιμένετε περίπου 20 λεπτά για τη δημιουργία του USB.
 
-Creating bootable USB flash drive from Windows
+Δημιουργώντας εκκινήσιμο USB από τα Windows
 ----------------------------------------------
 
-Insert the USB drive into your computer.
+Τοποθετήστε το USB στον υπολογιστή σας.
 
-Download and run the Universal USB Installer from: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+Κατεβάστε το λογισμικό Universal USB Installer από: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
   .. image:: images/screenshots/1024x768/usb_penlinux_licence.gif
 
-Accept the licence terms.
+Αποδεχθείτε την άδεια χρήσης.
 
   .. image:: images/screenshots/1024x768/usb_penlinux_selection.gif
 
-Step 1: Distribution: Select the xubuntu i386 distribution used for the osgeo-live image. (for osgeo-live-4.0, select xubuntu 10.04 Desktop i386)
+Βήμα 1: Διανομή: Επιλέξτε τη διανομή xubuntu i386 που χρησιμοποιεί το osgeo-live. (για το osgeo-live-4.0, επιλέξτε xubuntu 10.04 Desktop i386)
 
-Step 2: Select the latest osgeo-live iso which you should have downloaded locally. Note: You will need to manually enter the path to the ISO file, as the "Browse" button only finds xubuntu iso files.
+Βήμα 2: Επιλέξτε το αρχείο iso που κατεβάσατε τοπικά. Σημείωση: Θα χρειαστεί να πληκτρολογήσετε το σημείο που βρίσκεται το αρχείο ISO, καθώς το κουμπί "Browse" βρίσκει μόνο τα αρχεία iso του xubuntu.
 
-Step 3: Select your USB flash drive
+Βήμα 3: Επιλέξτε το δισκάκι USB
 
-Step 4: Select Persistence if you wish to remember state between sessions.
+Βήμα 4: Επιλέξτε Persistence εαν θέλετε να σώζονται πληροφορίες μεταξύ εκτελέσεων του OSGeoLive.
 
-Select "Create"
+Επιλέξτε "Create"
 
   .. image:: images/screenshots/1024x768/usb_penlinux_installing.gif
 
-Wait 20 minutes or so for the OSGeo-Live USB flash drive to be created.
+Περιμένετε 20 λεπτά για την δημιουργία του USB δίσκου.
 
-Set BIOS boot order:
+Ρυθμίστε την σειρά εκκίνησης του υπολογιστή σας από το BIOS:
 --------------------
 
-Most computers are not set to boot from a USB drive by default.
+Οι περισσότεροι σύγχρονοι υπολογιστές είναι ήδη ρυθμισμένοι να εκκινούν από εξωτερικό USB.
 
-To achieve this, boot your computer, and hit the appropriate key when prompted to go into the BIOS (usually by pressing the <Delete> key or a <Function Key> or similar).
+Για να πετύχετε αυτή τη ρύθμιση εκκινήστε τον υπολογιστή σας και όταν σας ζητηθεί πιέστε το κουμπί για να μπείτε στο περιβάλλον του BIOS (συνήθως με το πλήκτρο  <Delete> ή ένα πλήκτο <F> ή παρόμοιο).
 
-Select to boot from the USB device.
+Επιλέξτε να εκκινήσετε από το USB.
 
-Note, that for some computers you will need to have the USB drive inserted into the computer in order to select it.
+Να έχετε υπόψην, ότι για ορισμένους υπολογιστές θα πρέπει να έχετε ήδη το USB πάνω στον υπολογιστή για να μπορείτε να το επιλέξετε.
 
-Note also, the USB drive is often listed under hard drives rather than removable devices. 
+Επίσης το USB συνήθως εμφανίζεται κάτω από τους σκληρούς δίσκους του συστήματος. 
 
-Run:
+Εκτέλεση:
 ----
 
-Run as per: :doc:`osgeolive_quickstart`
+Εκτελέστε όπως στο: :doc:`osgeolive_quickstart`
 
-Known issues:
+Γνωστά προβλήματα:
 -------------
 
-* Mac computers will not boot from this USB flash drive, please use the LiveDVD 
+* Οι υπολογιστές Mac δεν μπορούν να ξεκινήσουν από αυτό το USB, παρακαλώ χρησιμοποιείστε το DVD 
 
-See Also:
+Δείτε ακόμα:
 ---------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`
- * If you have issues, please report them on this wiki page: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB and discuss on our email list: http://lists.osgeo.org/mailman/listinfo/live-demo
- * For further USB boot options, see http://pendrivelinux.com 
+ * Εαν εξακολουθείτε να έχετε προβλήματα, παρακαλούμε ενημερώστε μας μέσω της σελίδας wiki: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB και συζητήστε στην ηλεκτρονική μας λίστα: http://lists.osgeo.org/mailman/listinfo/live-demo
+ * Για επιπλέον επιλογές για την εκκίνηση από USB δείτε το http://pendrivelinux.com 

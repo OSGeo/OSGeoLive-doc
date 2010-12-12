@@ -1,31 +1,31 @@
 
-:Author: OSGeo Live
-:Author: Cameron Shorter
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Cameron Shorter
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _osgeolive-internationalisation-quickstart:
  
 ******************************************
-OSGeo-Live Internationalisation Quickstart
+Εγχειρίδιο Τοπικών Ρυθμίσεων OSGeo-Live
 ******************************************
 
-Switching Language
+Αλλαγή Γλώσσας
 ------------------
 
-We have installed many common languages. In order to switch the system you will need to:
+Το DVD περιλαμβάνει πολλές διαδεδομένες γλώσσες. Για να αλλάξετε το σύστημα σε μια από αυτές θα πρέπει:
 
-   1. Log out
-   2. On the user selection screen pick a user.
-   3. In the bottom panel you will now see a menu to select a different language
-   4. Select another language and enter the password and continue the login as usual
-   5. Repeat the process if wish to change languages again.
+   1. Να αποσυνδεθείτε (Log out)
+   2. Στην οθόνη επιλογής χρήστη να επιλέξετε έναν χρήστη.
+   3. Στο κάτω μέρος της οθόνης θα δείτε τώρα ένα μενού για να διαλέξετε κάποια γλώσσα
+   4. Επιλέξτε την επιθυμητή γλώσσα και εισάγετε τον κωδικό πρόσβασης για να συνδεθείτε στο σύστημα όπως συνήθως
+   5. Επαναλάβετε τη διαδικασία αν θέλετε να αλλάξετε πάλι τη γλώσσα του συστήματος.
 
-The system menus and many of the applications will now appear in the language choosen. If a specific program continues to display in english there is no translation available currently, please consider volunteering to write a translation. Contact the program of interest directly for more information.
+Τα μενού του συστήματος και πολλές από τις εφαρμογές θα εμφανιστούν στην εππιλεγμένη γλώσσα. Εαν ένα συγκεκριμένο πρόγραμμα εξακολουθεί να εμφανίζεται στα Αγγλικά, σημαίνει ότι δεν υπάρχει διαθέσιμη μετάφραση. Παρακαλούμε να σκεφθείτε το ενδεχόμενο να βοηθήσετε στη εθελοντική μετάφραση του λογισμικού αυτού. Επικοινωνήστε με τους προγραμματιστές του λογισμικού απευθείας για περισσότερες πληροφορίες.
 
-For additional languages see Application → System → Language Support (Requires an internet connection)
+Για επιπλέον γλώσσες δείτε στο Application → System → Language Support (Προυποθέτει ύπαρξη ενεργούς σύνδεσης στο διαδίκτυο)
 
-Keyboard Support
+Υποστήριξη Πληκτρολογίου
 ----------------
-International keyboard support is installed, but you will need to configure the system for your specific keyboard. 
+Είναι εγκατεστημένη η υποστήριξη διεθνών ρυθμίσεων πληκτρολογίου, αλλά θα πρέπει να ρυθμίσετε το σύστημα για τη συγκεκριμένη γλώσσα επιλογής σας. 
 

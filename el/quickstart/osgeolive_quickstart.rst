@@ -1,62 +1,62 @@
 
-:Author: OSGeo Live
-:Author: Cameron Shorter
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Cameron Shorter
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _osgeolive-install-quickstart:
  
 *********************
-OSGeo-Live Quickstart
+Γρήγορη Εκκίνηση του OSGeo-Live
 *********************
 
-This Quick Start describes how to start the OSGeo-Live DVD.
+Αυτό το εγχειρίδιο περιγράφει πως να ξεκινήσετε με το δοκιμαστικό OSGeo-Live DVD.
 
-System Requirements
+Απαιτήσεις συστήματος
 -------------------
 
-* RAM: 512 Meg, preferably 1 Gig.
-* CPU: 1 GHz i686 or compatible (Intel/AMD)
-* Hard Disk: 
+* Μνήμη RAM: 512 Meg, προτείνονται 1 Gig.
+* Επεξεργαστής: 1 GHz i686 ή συμβατό (Intel/AMD)
+* Σκληρός Δίσκος: 
 
- * None required if running directly from the DVD 
- * 5 Gig if you wish to install the operating system. 
+ * Δεν απαιτείται για εκτέλεση απευθείας από το DVD 
+ * 5 Gig σε περίπτωση που θελήσετε να εγκαταστήσετε το λειτουργικό σύστημα. 
 
-* Mouse: a 3-button mouse is useful, especially for Mac trackpad users. 
+* Ποντίκι: με 3-πλήκτρα, ειδικά για τους χρήστες Mac. 
 
-Run:
+Εκτέλεση:
 ----
 
-  Source an OSGeo-Live DVD, ISO available from: http://download.osgeo.org/livedvd 
-  Put the DVD into your computer's CD drive, then reboot your computer.
+  Το OSGeo-Live DVD, σε μορφή ISO είναι διαθέσιμο από: http://download.osgeo.org/livedvd 
+  Τοποθετήστε το DVD στον υπολογιστή σας, και επανεκκινήστε το σύστημά σας.
 
-  If your computer is set to boot from CD (as is often the case) you should boot up into an Xubuntu system, with Geospatial applications installed. Otherwise you'll have to adjust the BIOS boot settings or press the boot menu button just after powering-up.
+  Εαν ο υπολογιστής σας έχει ρυθμιστεί να ξεκινάει από το CD (το οποίο είναι και η πιο συνηθισμένη περίπτωση) θα μπορέσετε να ξεκινήσετε σε ένα περιβάλλον συστήματος Xubuntu, με προεγκατεστημένες Γεωχωρικές εφαρμογές. Σε αντίθετη περίπτωση θα χρειαστεί να ρυθμίσετε στο BIOS τις ρυθμίσεις εκκίνησης του υπολογιστή σας ή να πατήσετε κάποιο πλήκτρο κατά την εκκίνηση.
 
   .. image:: images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
-  Press ENTER to get to next screen.
+  Επιλέξτε ENTER για να πάτε στην επόμενη οθόνη.
 
   .. image:: images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
-  Select "live - boot the Live System"
+  Επιλέξτε "live - boot the Live System"
 
   .. image:: images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
-  At the login page, simply press ENTER or wait for the countdown to timeout.
+  Στην οθόνη εισαγωγής ονόματος χρήστη απλά επιλέξτε ENTER ή περιμένετε να σταματήσει η αντίστροφη μέτρηση.
 
   .. image:: images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 
-  Try the many applications from the "GeoSpatial" menu. 
+  Δοκιμάστε τις εφαρμογές από το μενού "GeoSpatial". 
 
-See Also:
+Δείτε ακόμα:
 ---------
 
  * :doc:`virtualbox_quickstart`
