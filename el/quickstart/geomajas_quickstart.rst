@@ -1,6 +1,6 @@
-:Συγγραφέας: Pieter De Graef
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Pieter De Graef
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _geomajas-quickstart:
  
@@ -12,26 +12,26 @@
   :target: http://www.geomajas.org
 
 *******************
-Geomajas Quickstart 
+Οδηγός γρήγορης εκκίνησης του Geomajas
 *******************
 
-Getting Started
-===============
+Ξεκινώντας
+============
 
-Geomajas is a development framework for creating GIS web applications. Therefore, what you see on this Live DVD is an example application built using the Geomajas technology.
+Το Geomajas είναι ένα προγραμματιστικό περιβάλλον για την δημιουργία δικτυακών εφαρμογών Γεωγραφικών Συστημάτων Πληροφοριών (ΓΣΠ).  Επομένως, σε αυτό το Live DVD θα βρείτε ένα παράδειγμα δημιουργίας μιας εφαρμογής κάνοντας χρήση του Geomajas.
 
 .. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
-  :alt: Παρουσίαση Geomajas
+  :alt: Geomajas Showcase
   :align: right
 
-* Go to the "Browser Clients" folder on the desktop.
+* Πηγαίνετε στο φάκελο "Περιηγητές" (Browser Clients) που βρίσκεται στην Επιφάνεια Εργασίας.
 
-* Click on the desktop icon "Start Geomajas". This will launch the FireFox browser which will navigate to the correct location automatically.
+* Κάντε κλικ στο εικονίδιο "Εκκίνηση Geomajas" (Start Geomajas) O FireFox θα ανοίξει αυτόματα με την σωστή τοποθεσία.
 
-* On the left side you will see a list of short examples of what functionalities Geomajas supports out-of-the-box. Clicking on these will open the associated examples.
+* Στην αριστερά πλευρά μπορείτε να δείτε μια σύντομη λίστα με παραδείγματα από λειτουργίες που υποστηρίζονται αυτόματα από το Geomajas. Μπορείτε να δείτε παραδείγματα για την κάθε μια κάνοντας κλικ επάνω τους.
 
-* For each example, you will find a short description/explanation on the right side. It is recommended to read these as they will clarify each example.
+* Στην δεξιά πλευρά βρίσκεται μια σύντομη περιγραφή/εξήγηση για το κάθε παράδειγμα. Συνίσταται η ανάγνωση αυτών των οδηγιών, καθώς παρέχουν διευκρινίσεις για κάθε παράδειγμα.
 
-See the `Geomajas homepage <http://www.geomajas.org/>`_ for more help.
+Για περισσότερες πληροφορίες/βοήθεια ανατρέξτε στην ιστοσελίδα του Geomajas 'Geomajas homepage <http://www.geomajas.org/>'
 

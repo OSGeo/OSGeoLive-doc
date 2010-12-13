@@ -1,8 +1,8 @@
-:Author: OSGeo Live
-:Author: Massimo Di Stefano
-:Author: Pirmin Kalberer
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Massimo Di Stefano
+:Συγγραφέας: Pirmin Kalberer
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _ossim-quickstart:
  
@@ -12,30 +12,30 @@
   :align: right
 
 ****************
-Ossim Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Ossim 
 ****************
 
-Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing,
-image processing, geographical information system and photogrammetry.
+Το λογισμικό Open Source Software Image Map (OOSIM) είναι μια ισχυρή μηχανή επεξεργασίας για τηλεπισκόπηση,
+επεξεργασία εικόνας, γεωγραφικό σύστημα πληροφοριών και φωτογραμμετρίας.
 
-This Quick Start describes how to:
+Ο οδηγός αυτός περιγράφει πως:
 
-  * View raster images with imagelinker
-  * Run ossimPlanet
+  * να δείτε αρχεία raster με τον imagelinker
+  * να εκτελέστε το ossimPlanet
 
 Imagelinker
 ===========
 
-* Start Imagelinker from its icon from the directory "Spatial Tools" on the desktop 
-* Select the project file, using :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
-* Go to the :menuselection:`menu bar --> window --> tile`
-* Select an :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
-* Verify you see a 3 gray satelite images. 
+* Εκκινείστε τον Imagelinker από το εικονξίδιό του στον φάκελο "Spatial Tools" της επιφάνειας εργασίας 
+* Επιλέξτε το αρχείο εργασίας, με χρήση :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
+* Επιλέξτε :menuselection:`menu bar --> window --> tile`
+* Επιλέξτε :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
+* Βεβαιωθείτε ότι βλέπετε τρεις μονόχρωμες δορυφορικές εικόνες. 
 
   .. image:: images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
-For the full tutorial see this `blog article`_.
+Για το πλήρες εγχειρίδιο δείτε το ακόλουθο `blog article`_.
 
 .. _`blog article`: http://www.geofemengineering.it/GeofemEngineering/Blog/Voci/2010/3/15_OSGEO_-_Live_-_DVD_-_%22running_imagelinker%22.html
 
@@ -43,33 +43,33 @@ For the full tutorial see this `blog article`_.
 OssimPlanet
 ===========
 
-* Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
+* Εκκινείστε το OssimPlanet από το εικονίδιό του στον φάκελο "Desktop-GIS" στην επιφάνεια εργασίας 
 
-* Select :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
+* Επιλέξτε :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
 
-* Go to :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
+* Επιλέξτε :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
 
-* Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
-you should see the scene zoom to the image's location 
+* Επιλέξτε :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
+και θα δείτε την σκηνή στην περιοχή της εικόνας
 
-* Navigate the scene.
-
-
-`Note`: to turn off the daylight auto-shading, un-check :menuselection:`Preferences --> Environment --> Enable Ephemeris`
+* Πλοηγηθείτε στην σκηνή αυτή.
 
 
-What Next?
+`Note`: Για να κλείσετε την λειτουργία daylight auto-shading, αποεπιλέξτε :menuselection:`Preferences --> Environment --> Enable Ephemeris`
+
+
+Τεκμηρίωση
 ==========
 
-* Ossim Tutorials
+* Εγχειρίδια Ossim
 
-  Follow the tutorials_ to learn more about Ossim.
+  Ακολουθείστε το σύνδεσμο tutorials_ για να μέθετε περισσότερα σχετικά με το Ossim.
 
 .. _tutorials: http://download.osgeo.org/ossim/tutorials/pdfs/
 
-* Documentation on DVD
+* Τεκμηρίωση στο DVD
 
-  See also the included documentation_ on this DVD.
+  Δείτε επίσης την ενσωματωμένη τεκμηρίωση documentation_ σε αυτό το DVD.
 
 .. _documentation: file:///usr/local/share/ossim/
 

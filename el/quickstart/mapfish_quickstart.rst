@@ -15,8 +15,8 @@
 MapFish Quickstart 
 ********************
 
-MapFish is a flexible and complete framework for building rich web-mapping
-applications. It emphasizes high productivity, and high-quality development. 
+Το MapFish είναι ένα ευέλικτο και ολοκληρωμένο περιβάλλον για την υλοποίηση πλούσιων διαδικτυακών
+χαρτογραφικών εφαρμογών. Δίνει έμφαση στην υψηλή παραγωγικότητα και στην ανάπτυξη λογισμικού υψηλής ποιότητας. 
 
 This Quickstart describes how to (a) run the minimal MapFish application
 installed on this live DVD, (b) create MapFish applications, and (b) install
