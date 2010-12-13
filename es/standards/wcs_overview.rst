@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadatos de este documento
+  Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
@@ -35,23 +35,23 @@ Web Coverage Service (WCS)
 ==========================
 
 .. Writing Tip:
-  1 parrafo o 2 definen lo que es el estandar.
+  1 paragraph or 2 defining what the standard is.
 
-El estandar OGC® Web Coverage Service (WCS) define un estandar de interface y operaciones que permiten el acceso interoperable a "coberturas" geoespaciales. El término "grid de coberturas" (en inglés * "grid coverages"*) se refiere típicamente a contenidos del tipo imágenes de satélite, fotos aéreas digitales, datos digitales de elevación, y cualquier otro fenómeno que se pueda representar en puntos de medida. (http://www.opengeospatial.org/standards/wcs)
+The OGC® Web Coverage Service Interface Standard (WCS) defines a standard interface and operations that enable interoperable access to geospatial "coverages". The term "grid coverages" typically refers to content such as satellite images, digital aerial photos, digital elevation data, and other phenomena represented by values at each measurement point. (http://www.opengeospatial.org/standards/wcs)
 
 .. image:: images/standards/wcs.jpg
   :scale: 25%
   :alt: WCS in Context
 
-El estandar de interface OGC Web Coverage Service (WCS) es un servicio de datos. El estandar WCS define un servicio de acceso a datos que proporciona coberturas, como por ejemplo modelos de elevación del terreno, que se pueden consultar a través del protocolo HTTP. La respuesta a una petición WCS incluye metadatos de la cobertura y la cobertura en sí, cuyos pixeles se codifican en un formato binario específico, como por ejemplo GeoTIFF o NetCDF. 
+The OGC Web Coverage Service (WCS) Interface Standard is a data service. The WCS standard defines a data access service that enables coverages, such as digital elevation models, to be queried using an HTTP based interface. The response to a WCS request includes coverage metadata and an output coverage whose pixels are encoded in a specified binary image format, such as GeoTIFF or NetCDF. 
 
-Al igual que ocurre con otros estándares OGC, existen numerosos y excelentes ejemplos de implementaciones WCS desplegadas. Un ejemplo es el Servicio de Cobertura (WCS) de Radar de alta frecuencia (en inglés *'HF'*) NDBC, desarrollado y desplegado por la *US National Ocean and Atmospheric Administration (NOAA)* (http://hfradar.ndbc.noaa.gov/). El radar de alta frecuencia (HF) se utiliza para la medición remota de las corrientes de la superficie de los océanos. Otro ejemplo es el servicio WCS de la NASA  (National Aeronautical and Space Administration) para el acceso de datos atmosféricos infrarojos (en inglés *Atmospheric Infrared Sounder (AIRS) Data*). (http://idn.ceos.org/KeywordSearch/Metadata.do?Portal=webservices&KeywordPath=[Project%3A+Short_Name%3D%27EOS%27]&EntryId=NASA_GES_DISC_AIRS_Atmosphere_Data_Web_Coverage_Service&MetadataView=Full&MetadataType=1&lbnode=mdlb1). Este es uno de los sistemas de datos de la tierra *Goddard* que constituye una instancia OGC WCS del Centro de Servicio de Información (*Information Service Center*) que proporciona productos de datos atmosféricos de nivel 3 derivados de datos AIRS data como se genera a bordo de la nave espacial *'Aqua'* de la NASA.
+As with other OGC standards, there are numerous excellent examples of deployed WCS implementations. One example is NDBC High Frequency (HF) Radar Web Coverage Service (WCS) developed and deployed by the US National Ocean and Atmospheric Administration (NOAA) (http://hfradar.ndbc.noaa.gov/). HF Radar is used to remotely measure ocean surface currents. Another is the National Aeronautical and Space Administration (NASA) WCS for accessing Atmospheric Infrared Sounder (AIRS) Data (http://idn.ceos.org/KeywordSearch/Metadata.do?Portal=webservices&KeywordPath=[Project%3A+Short_Name%3D%27EOS%27]&EntryId=NASA_GES_DISC_AIRS_Atmosphere_Data_Web_Coverage_Service&MetadataView=Full&MetadataType=1&lbnode=mdlb1). This is one of the Goddard Earth Systems Data and Information Service Center's OGC WCS instances that provides Level 3 Gridded atmospheric data products derived from AIRS data as generated on board NASA's Aqua spacecraft.
 
-Ver también
+See Also
 --------
 
 .. Writing Tip:
-  Describe estandar similar
+  Describe Similar standard
 
 * :doc:`wms_overview`
 * :doc:`wfs_overview`

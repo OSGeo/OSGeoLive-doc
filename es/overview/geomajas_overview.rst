@@ -1,6 +1,6 @@
-:Autor: Pieter De Graef
-:Versión: osgeo-live4.0
-:Licencia: Creative Commons
+:Author: Pieter De Graef
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _geomajas-overview:
 
@@ -21,56 +21,56 @@
 Geomajas
 ========
 
-Cliente ligero GIS
+Browser GIS Client
 ~~~~~~~~~~~~~~~~~~
 
-Geomajas es un entorno de desarrollo (en inglés *framework*) capaz de integrar algoritmos potentes a través de la parte servidora del sistema.
+Geomajas is an extensible web mapping framework which seamlessly integrates powerful server side algorithms into the web browser.
 
-El foco de Geomajas es proporcionar un plataforma para **integración de lado servidor** de datos geoespaciales (basado principalmente en GeoTools e Hibernate), permitiendo a múltiples usuarios el control y gestión de datos desde el navegador Web. En esencia, Geomajas proporciona unas potentes librerías para la construcción de las más avanzadas aplicaciones GIS fácilmente.
+The focus of Geomajas is to provide a platform for **server-side integration** of geospatial data (be it through GeoTools or Hibernate), allowing multiple users to control and manage the data from within their own browsers. In essence, Geomajas provides a set of powerful building blocks, from which the most advanced GIS application can easily be built.
 
-Lo que hace único a Geomajas es la potencia de la parte servidora. El procesado, generación de estilos, filtrado, cacheado, etc. de datos geoespaciales se gestiona dentro de un contexto securizado. Todo esto proporciona rendimiento y escalabilidad al proyecto Geomajas, manteniendo el cliente ligero como un **verdadero cliente ligero**.
+What makes Geomajas unique is its strong server side focus. The processing, styling, filtering, caching, etc. of geospatial data always happens within a secured context. All this makes Geomajas applications incredibly scalable and performing, keeping the client a **real thin client**.
 
 .. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
-  :alt: Caso Geomajas 
+  :alt: Geomajas Showcase
   :align: right
 
-Propiedades Fundamentales
+Core Features
 -------------
 
-* Arquitectura cliente-servidor integrada
-* Edición geométrica y de atributos
-* Definición de atributos a medida
-* Capacidades de consulta avanzada (CQL)
-* Seguridad *Out-of-the-box*
-* Mecanismo de extensión orientado a plugines
-* Tecnologías *front-end* múltiples
-* Soporte multi navegador, sin necesidad de plugines
+* Integrated client-server architecture
+* Geometry and attribute editing
+* Custom attribute definitions
+* Advanced querying capabilities (CQL)
+* Out-of-the-box security
+* Extensible plug-in mechanism
+* Multiple front-end technologies
+* Cross browser support, without the need for browser plug-ins
 
-Estándardes implementados
+Implemented Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
-Detalles
+Details
 -------
 
 **Website:** http://www.geomajas.org/
 
-**Licencia:** AGPL
+**Licence:** AGPL
 
-**Versión de Software:** 1.6
+**Software Version:** 1.6
 
-**Plataformas soportadas:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-**API de Interfaces:** Java
+**API Interfaces:** Java
 
-**Soporte:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
+**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-Guía de inicio rápido
+Quickstart
 ----------
 
-* `Guía de inicio rápido <../quickstart/geomajas_quickstart.html>`_
+* `Quickstart documentation <../quickstart/geomajas_quickstart.html>`_
 

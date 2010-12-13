@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadatos de este documento
+  Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
@@ -35,28 +35,28 @@ Catalogue Service for the Web (CS-W)
 ====================================
 
 .. Writing Tip:
-  1 parrafo o 2 definen lo que es el estandar.
+  1 paragraph or 2 defining what the standard is.
 
 
 .. image:: images/standards/csw.jpg
   :scale: 25%
   :alt: CS-W in Context
 
-El estandar de interface OGC Catalogue Service especifica un patrón de diseño para la definición de interfaces para la publicación y búsqueda de colecciones de información descriptiva (metadatos) sobre datos geoespaciales, servicios y objetos de informacion relacionada. Provedores de recursos, como por ejemplo los de contenidos, utilizan catálogos para registrar metadatos que se ajustan al modelo de información del proveedor; dichos modelos incluyen descripciones de referencias espaciales e información temática. De esta forma, las aplicaciones cliente puenden buscar datos y servicios geoespaciales de formas muy eficientes. 
+The OGC Catalogue Service interface standard specifies a design pattern for defining interfaces to publish and search collections of descriptive information (metadata) about geospatial data, services and related information objects. Providers of resources, such as content providers, use catalogues to register metadata that conform to the provider's choice of an information model; such models include descriptions of spatial references and thematic information. Client applications can then search for geospatial data and services in very efficient ways. 
 
-Existen varios perfiles del modelo actual OGC CS-W. Estos incluyen:
+There are several profiles of the current OGC CS-W model. These include:
 
-* Perfil de metadatos ISO 19115/19139 (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557). Este documento especifica un perfil de aplicación para metadatos ISO con soporte para codificación XML por ISO 19139 (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557) y el protocolo de enlace HTTP. Este perfil CS-W ha sido implementado de forma generalizada en Europa, como por ejempo en la Infraestructura de Datos Espaciales de North Rhine Westphalia (estado federal de Alemania).
-* Servicio de registro CSW-ebRIM. (http://portal.opengeospatial.org/files/?artifact_id=31137) Este perfil aplica la interface CSW al modelo de información de registro OASIS ebXML (ebRIM 3.0) proporcinando una forma general y flexible de Servicios Web de registro que permite a los usuarios —agentes software o humanos— localizar, acceder y hacer uso de recursos en un sistema abierto y distribuido; proporcionando todos los artefactos para la extracción, almacenamiento y gestión de muchos tipos de descripciones de recurso. Un mecanismo de extensión permite adaptar contenidos de registro de dominios de aplicación más especializados.
-* CSW 39.50: El protocolo de conexión Z39.50 utiliza una arquitectura cliente-servidor basada en mensajes implementada utilizando la Definición de Servicio de Aplicación y Especification3 de protocolo ANSI/NISO Z39.50. Este protocolo mapea cada una de las operaciones de modelo general con un servicio correspondiente especificado en el estandar ANSI/NISO/ISO http://lcweb.loc.gov/z3950/agency/document.html. 
+* ISO 19115/19139 Metadata profile (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557). This document specifies an application profile for ISO metadata with support for XML encoding per ISO 19139 (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557) and HTTP protocol binding. This CS-W profile is widely implemented in Europe, such as in the Spatial Data Infrastructure for North Rhine Westphalia (federal state of Germany).
+* CSW-ebRIM Registry Service. (http://portal.opengeospatial.org/files/?artifact_id=31137) This profile applies the CSW interfaces to the OASIS ebXML registry information model (ebRIM 3.0) so as to provide a general and flexible web-based registry service that enables users—human or software agents—to locate, access, and make use of resources in an open, distributed system; it provides facilities for retrieving, storing, and managing many kinds of resource descriptions. An extension mechanism permits registry content to be tailored for more specialized application domains.
+* CSW 39.50: The Z39.50 Protocol binding uses a message-based client server architecture implemented using the ANSI/NISO Z39.50 Application Service Definition and Protocol Specification3. This protocol binding maps each of the general model operations to a corresponding service specified in the ANSI/NISO/ISO standard http://lcweb.loc.gov/z3950/agency/document.html. 
 
-Mucho del trabajo actual en este estandar tiene que ver con la restructuración del estandar de catálogo, así que hay un núcleo bien definido y fácil de implementar acompañado de un mecanismo bien definido para expresar una variedad de extensiones (anteriormente conocidas como perfiles de aplicación).
+Much of the current work on this standard has to do with restructuring the catalogue standard so that there is a well defined, easy to implement core coupled with a well defined mechanism for expressing a variety of extensions (previously known as application profiles).
 
-Ver también
+See Also
 --------
 
 .. Writing Tip:
-  Describe estandar similar
+  Describe Similar standard
 
 * Cat: ebRIM App Profile: Earth Observation Products
 * ISO 23950 (2003). "Information Retrieval (Z39.50): Application Service Definition and Protocol Specification"

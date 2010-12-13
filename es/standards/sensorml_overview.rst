@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadatos de este documento
+  Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
@@ -35,34 +35,33 @@ Sensor Model Language (SensorML)
 ================================
 
 .. Writing Tip:
-  1 parrafo o 2 definen lo que es el estandar.
+  1 paragraph or 2 defining what the standard is.
 
-El estandar de codificación OGC Sensor Model Language (SensorML) describe un modelo de información y codificaciones XML que permiten el descubrimiento y la programación de sensores integrados en la Web ( en inglés *Web-resident sensors*), así como la explotación de observaciones de sensores. Dentro de este contexto, SensorML permite al desarrollador definir modelos y esquemas XML para describir cualquier proceso, incluyendo mediciones por un sistema sensor, así como procesamiento post-medición. (http://www.opengeospatial.org/standards/sensorml)
+The OGC Sensor Model Language (SensorML) Encoding Standard describes an information model and XML encodings that enable discovery and tasking of Web-resident sensors as well as exploitation of sensor observations. Within this context, SensorML allows the developer to define models and XML Schema for describing any process, including measurement by a sensor system, as well as post-measurement processing. (http://www.opengeospatial.org/standards/sensorml)
 
 .. image:: images/standards/sensorml.jpg
   :scale: 25%
   :alt: sensorML in Context
 
-Más especificamente, SensorML puede: 
+More specifically, SensorML can: 
 
-* Proporcionar descripciones de sensores y sistemas sensor para gestión de inventario;
-* Proporcionar información de proceso y sensor en apoyo al descubrimiento de recurso y observación;
-* Soporta procesado y análisis de observaciones del sensor;
-* Soporta la geolocalización de valores observados (datos medidos);
-* Proporciona características de rendimiento (p.e., precisión, umbral, etc.);
-* Proporciona una descripción explícita del proceso a través del cual se obtuvo la observación;
-* Proporciona una cadena de proceso ejecutable para generar nuevos resultados de datos bajo demanda (p.e., observación derivable);
-* Archiva propiedades fundamentales y asunciones relacionadas con el sistema sensor.
+* Provide descriptions of sensors and sensor systems for inventory management Provide sensor and process information in support of resource and observation discovery;
+* Support the processing and analysis of the sensor observations;
+* Support the geolocation of observed values (measured data);
+* Provide performance characteristics (e.g., accuracy, threshold, etc.);
+* Provide an explicit description of the process by which an observation was obtained (i.e., it's lineage);
+* Provide an executable process chain for deriving new data products on demand (i.e., derivable observation);
+* Archive fundamental properties and assumptions regarding sensor systems.
 
-El esquema individual SensorML describe un sensor específico o un conjunto de sensores y se puede almacenar en un registro. 
+Individual SensorML schema describe a specific sensor or an array of sensors and can be stored in a registry. 
 
-Existen multitud ejemplos de implementaciones SensorML , como por ejemplo la NASA MSFC SMART program (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). En este proyecto el equipo desarrolló un flujo (*workflow*) de proceso de sensores Web para asimilar inteligentemente los datos de temperatura satélite y humedad de la sonda infraroja atmosférica (*Atmospheric Infrared Sounder, AIRS*), en una configuración regional del modelo de investigación y observación climatológica sobre el sureste de Estados Unidos.
+There are numerous examples of SensorML implementations, such as the NASA MSFC SMART program (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). In this project the team developed a sensor web-enabled processing workflow to intelligently assimilate Atmospheric Infrared Sounder (AIRS) satellite temperature and moisture retrievals into a regional configuration of the Weather Research and Forecast model over the southeastern United States.
 
-Ver también
+See Also
 --------
 
 .. Writing Tip:
-  Describe estandar similar
+  Describe Similar standard
 
 * :doc:`sos_overview`
 * Sensor Planning Service

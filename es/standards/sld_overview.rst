@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadatos de este documento
+  Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
@@ -35,28 +35,28 @@ Style Layer Descriptor (SLD)
 ============================
 
 .. Writing Tip:
-  1 parrafo o 2 definen lo que es el estandar.
+  1 paragraph or 2 defining what the standard is.
 
-El estandar OGC® Styled Layer Descriptor (SLD)
-proporciona los artefactos para la simbolización y coloreado de coberturas y geometrías geográficas. Se utiliza generalmente para aplicar estilos a los Web Map Services, o los estilos de un GML proporcionado por Web Feature Services.  (http://www.opengeospatial.org/standards/sld) 
+The OGC® Styled Layer Descriptor (SLD)
+provides constructs for the symbolization and coloring of geographic features and coverages. It is typically used to apply styles to Web Map Services, or style GML from Web Feature Services.  (http://www.opengeospatial.org/standards/sld) 
 
 .. image:: images/standards/wms.jpg
   :scale: 25%
-  :alt: WMS en contexto
+  :alt: WMS in Context
 
-El control fino de la representación gráfica de datos es un requerimiento fundamental de muchas aplicaciones de mapas. La habilidad para definir reglas de definición de estilos requiere un lenguaje de estilos que tanto las parte cliente, como la parte servidora puedan entender. 
+Fine-grained control of the graphical representation of data is a fundamental requirement for  many mapping applications. The ability to define styling rules requires a styling language that the client and server can both understand. 
 
-El actual estandar OGC Web Map Service (WMS) expone un proveedor de información (en inglés *'information provider'*) para especificar opciones de estilo a través unas colecciones preestablecidas de plantillas visuales para cada conjunto disponible. Sin embargo, mientras que una implementación WMS actual puede proporcionar al usuario una serie de opciones de estilo a ejegir, la implementación WMS solo puede deicir al usuario el nombre de cada uno de ellos. No puede decir al usuario cómo quedará cada plantilla de estilos en el mapa. Y más importante aún, el usuario no tiene una manera de definir sus propias reglas de estilo. 
+The current OGC Web Map Service (WMS) Standard enables an information provider to specify styling options by advertising a preset collection of visual portrayals for each available data set. However, while a WMS implementation currently can provide the user with a choice of style options, the WMS implementation can only tell the user the name of each style. It cannot tell the user what portrayal will look like on the map. More importantly, the user has no way of defining their own styling rules. 
 
-La habilidad para un cliente de definir estas reglas requiere un lenguaje de estilos que tanto las parte cliente, como la parte servidora puedan entender. El estandar OGC Symbology  Encoding (SE) (http://www.opengeospatial.org/standards/symbol) especifica el formato para ese tipo de lenguaje de estilos de mapas. El perfil SLD del estandar WMS permite la aplicación de SE a capas WMS utilizando extensiones de operaciones WMS. Adicionalmente, SLD define una operación para el acceso estandarizado a símbolos de leyenda que se puede almacenar remotamente en un servidor para ser utilizado por múltiples operaciones. 
+The ability for a human or machine client to define these rules requires a styling language that client and server can both understand. The OGC Symbology  Encoding (SE) Standard  (http://www.opengeospatial.org/standards/symbol) specifies the format for such a map-styling language. The SLD profile of WMS enables application of SE to WMS layers using extensions of WMS operations. Additionally, SLD defines an operation for standardized access to legend symbols that may be stored remotely on a server for use in multiple applications. 
 
-Hay que notar que adicionalmente al diseño de la salida de una implementación WMS, SE también se puede utilizar para diseñar la salida de implementaciones WFS e implementaciones del standar de interface OGC Web Coverage Service (WCS) Interface Standard.
+Note that in addition to portraying the output of WMS implementations, SE can also be used to portray the output of WFS implementations and implementation of the OGC Web Coverage Service (WCS) Interface Standard.
 
-Ver también
+See Also
 --------
 
 .. Writing Tip:
-  Describe estandar similar
+  Describe Similar standard
 
 * :doc:`fe_overview`
 * :doc:`kml_overview`

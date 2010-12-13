@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadatos de este documento
+  Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
@@ -35,15 +35,15 @@ Geography Markup Language (GML)
 ===============================
 
 .. Writing Tip:
-  1 parrafo o 2 definen lo que es el estandar.
+  1 paragraph or 2 defining what the standard is.
 
-GML (http://www.opengeospatial.org/standards/gml) es una definición XML para expresar y comunicar *features* geográficas. GML constituye por tanto un lenguaje de modelado para sistemas geográficos, así como un formato de intercambio abierto para transacciones de información geográfica a través de Internet. Hay que considerar que el concepto de *feature* en GML es muy general, y no solo incluye objetos discretos o vectores convencionales, sino también coberturas y algunos elementos de datos de sensores. La capacidad de integrar todas las formas de información geográfica es la clave del formato GML.
+GML (http://www.opengeospatial.org/standards/gml) is an XML grammar defined to express and communicate geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. Note that the concept of feature in GML is a very general one and includes not only conventional "vector" or discrete objects, but also coverages and some elements of sensor data. The ability to integrate all forms of geographic information is key to the utility of GML.
 
 .. image:: images/standards/gml.jpg
   :scale: 25%
   :alt: GML in Context
 
-GML contiene un rico conjunto de primitivas que se utilizan para construir esquemas específicos de aplicación o lenguajes de aplicación. Estas primitivas incluyen:
+GML contains a rich set of primitives that are used to build application specific schemas or application languages. These primitives include:
 
 * Feature
 * Geometry
@@ -57,23 +57,15 @@ GML contiene un rico conjunto de primitivas que se utilizan para construir esque
 * Observations
 * Map presentation styling rules
 
-Entender el uso de “Feature”, “Geometry”, y “CRS” es crítico en el uso y desarrollo de cualquier codificación basada en GML.
+Understanding the use of “Feature”, “Geometry”, and “CRS” is critical in the use and development of any GML based encoding.
 
-En 1998 comenzó el trabajo del estandar OGC. 
+OGC work on the GML standard began in 1998. GML was first formally approved as an OGC standard in 2001. GML became an ISO standard in 2007. GML 3.2.16 is the most current revision of the joint OGC-ISO standard. Versions 3.2.2 and 4.0 are currently in progress.
 
-GML fue aprovado formalmente como estandar OGC en el año 2001.
-
-GML se convirtió en estandar ISO en el año 2007.
-
-GML 3.2.16 es la versión más reciente del estandar conjunto OGC-ISO.
-
-Actualemente se están generando las versiones 3.2.2 and 4.0.
-
-Ver también
+See Also
 --------
 
 .. Writing Tip:
-  Describe estandar similar
+  Describe Similar standard
 
 * CityGML
 * GeosciML

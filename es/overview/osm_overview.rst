@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
+:Autor: Hamish Bowman
 :Version: osgeo-live4.0
-:License: Creative Commons
+:Licencia: Creative Commons
 
 .. _osm-overview:
 
@@ -16,13 +16,19 @@ OpenStreetMap
 Tools for mapping the world
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`OpenStreetMap <http://www.openstreetmap.org>`_ es un proyecto cuyo objetivo es la creación y provisión de datos geográficos, como por ejemplo mapas de calles, a cualquiera que los quiera. El proyecto se empezó debido a que la mayoría de los mapas que se piensa que son libres, en realidad tienen restricciones de uso, técnicas y legales, no permitiendo su utilización en otras formas más creativas o productivas que no esten contempladas en las mismas.
+`OpenStreetMap <http://www.openstreetmap.org>`_ is a project aimed
+squarely at creating and providing free geographic data such as street
+maps to anyone who wants them. The project was started because most maps
+you think of as free actually have legal or technical restrictions on their
+use, holding back people from using them in creative, productive or
+unexpected ways.
 
-Se han incluido 5 programas: JOSM, Merkaartor, Gosmore, Osmarender y
-Osm2pgsql. Además, datos de ejemplo de la ciudad de Barcelona y numerosos plugins de JOSM.
+Five programs have been included: JOSM, Merkaartor, Gosmore, Osmarender, and
+Osm2pgsql. In addition recent sample data for the host city and a number
+of JOSM plugins have been included.
 
 
-Propiedades Fundamentales
+Core Features
 -------------
 
 .. image:: images/screenshots/1024x768/osm-screenshot.jpg
@@ -30,34 +36,34 @@ Propiedades Fundamentales
   :alt: screenshot
   :align: right
 
-* Base de Datos global construida masivamente por la comunidad
-* Disponibles numerosos editores entre los que elegir
-* Disponibles numerosos renderes a elegir (incluyendo *online*)
-* Libre uso
-* Inegración de extendidas aplicaciones geoespaciales
+* Global massively crowd-sourced dataset
+* A number of editors to choose from
+* A number of renderers to choose from (including online)
+* Free to use
+* Widespread geo-application integration
 
-Detalles
+Details
 -------
 
 **Website:** http://www.openstreetmap.org
 
-**Licencias:**
+**Licences:**
 
 * OpenStreetMap data: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
 
 * JOSM: GNU General Public License (GPL) version 2
-.. <!-- Ver /usr/share/doc/josm/copyright -->
+.. <!-- see /usr/share/doc/josm/copyright -->
 
-* Colección de plugines JOSM : Diversas entre Public Domain y GPLv3
+* JOSM plugins collection: Ranging from Public Domain to GPLv3
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
 * Gosmore: Public Domain and GPLv2
-.. <!-- Ver /usr/share/doc/gosmore/copyright -->
+.. <!-- see /usr/share/doc/gosmore/copyright -->
 
 * Osmarender: GNU General Public License (GPL) version 2
 
-**Versiones de Software:**
+**Software Versions:**
 
 * JOSM: Latest Testing (svn r3329)
 
@@ -76,9 +82,9 @@ Detalles
 **Support:** http://wiki.openstreetmap.org/
 
 
-Guía de inicio rápido
+Quickstart
 ----------
 
-* `Guía de inicio rápido <../quickstart/osm_quickstart.html>`_
+* `Quickstart documentation <../quickstart/osm_quickstart.html>`_
 
 

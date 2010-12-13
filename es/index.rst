@@ -1,50 +1,44 @@
 
-Bienvenido a  OSGeo-Live
-=============================
+Welcome to OSGeo-Live
+=====================
 
-`OSGeo-Live <http://live.osgeo.org>`_ es un DVD, disco USB o Máquina Virtual
-basada en `Xubuntu <http://www.xubuntu.org/>`_ que nos permite probar una amplia
-variedad de *software* libre geoespacial sin instalar nada. Está compuesto
-enteramente por *software* libre, permitiendo ser distribuido libremente,
-duplicado, etc.
+`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual
+Machine based on `Xubuntu <http://www.xubuntu.org/>`_, that allows you to try a wide variety of open
+source geospatial software without installing anything. It is composed
+entirely of free software, allowing it to be freely distributed, duplicated
+and passed around.
 
 .. image:: images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right
 
-Proporciona un conjunto de aplicaciones preconfiguradas para un amplio conjunto
-de casos de uso, incluyendo almacenamiento, publicación, visualización, análisis
-y manipulación de datos. También contiene juegos de datos de prueba y
-documentación.
+It provides pre-configured applications for a range of geospatial use cases,
+including storage, publishing, viewing, analysis and manipulation of data. It
+also contains sample datasets and documentation.
 
-Para probar las aplicaciones, simplemente debe:
+To try out the applications, simply:
 
-#. Insertar el DVD o disco USB en la computadora o máquina virtual
-#. Reiniciar la computadora (verificando el orden de arranque de dispositivos)
-#. Presionar "*Enter*" para acceder
-#. Probar aplicaciones desde el menú "*Geospatial*"
+#. Insert DVD or USB thumb drive in computer or virtual machine.
+#. Reboot computer. (verify boot device order if necessary)
+#. Press "Enter" to startup & login.
+#. Trial applications from the "Geospatial" menu.
 
-Muchas aplicaciones también son proporcionadas con instaladores para 
-`Apple OSX <../MacInstallers/>`_ y `Microsoft Windows <../WindowsInstallers/>`_.
+Many applications are also provided with installers for `Apple OSX <../MacInstallers/>`_ and
+`Microsoft Windows <../WindowsInstallers/>`_.
 
 
-Guías de inicio rápido
-------------------------------------	
+Quick Starts
+------------
 
--   `Empezando a conocer el OSGeo-Live DVD <quickstart/osgeolive_quickstart.html>`_
--   `Cambiar el idioma o tipo de teclado <quickstart/internationalisation_quickstart.html>`_
--   `Instalar OSGeo-Live en su disco duro <quickstart/osgeolive_install_quickstart.html>`_
--   `Ejecutar OSGeo-Live en una Máquina Virtual <quickstart/virtualbox_quickstart.html>`_
--   `Crear una unidad USB arrancable con OSGeo-Live <quickstart/usb_quickstart.html>`_
--   `Más guías de inicio rápido ... <quickstart/quickstart.html>`_
+-   `Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart.html>`_
+-   `Change language or keyboard type <quickstart/internationalisation_quickstart.html>`_
+-   `Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart.html>`_
+-   `Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart.html>`_
+-   `Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart.html>`_
+-   `More quickstarts ... <quickstart/quickstart.html>`_
 
-Presentación
-----------------
-En este `video <http://cameronshorter.blip.tv/file/4078371/>`_ (en inglés) se ha
-preparado una presentación rápida de 25 minutos que cubre todas las aplicaciones
-disponibles en OSGeo-Live. También se pueden descargar las `diapositivas y el
-guión
-<https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
-
+Presentation
+------------
+A 25 minute lightning presentation covering all OSGeoLive applications is available as a `Video <http://cameronshorter.blip.tv/file/4078371/>`_ and `Slides and Script <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
 

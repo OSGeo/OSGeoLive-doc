@@ -20,16 +20,25 @@
 deegree
 =======
 
-Servicios Web
+Web Services
 ~~~~~~~~~~~~
 
-deegree es libre, estable, potente y fácil de usar. deegree es
-el conjunto más completo de implementaciones de estándares del Open Geospatial
-Consortium (OGC) en software libre y abierto, abarcando desde Servicios Transaccionales *Web Feature Service* a la visualización de datos tridimensionales a través de Servicios *Web Terrain*, y muchos más!
+deegree is free, stable, powerful and easy to use. deegree is
+the most comprehensive set of implementations of Open Geospatial
+Consortium (OGC) standards in free and open source software, ranging
+from a transactional Web Feature Service to three-dimensional data
+display through a Web Terrain Service and many more!
 
-deegree es una solución de Sistemas de Información Geográfica e Infraestructuras de Datos Espaciales (IDE's) basada tanto en Web, como desktop. Está compuesto de un conjunto Interfaces de Aplicación (API's) Java y un potente mapeo objeto-relacional para esquemas espaciales simples y complejos. deegree también proporciona un conjunto de Web Services estándar de mapas, entidades (*features*) y servicios de catálogo, así como sensores y servicios de procesamiento.
+deegree is a solution for web- and desktop-based
+Geographic Information Systems (GIS) and Spatial Data Infrastructures
+(SDI). It is comprised of a comprehensive yet powerful Java Application
+Programming Interface (API) and a powerful object-relational mapping for
+simple and complex spatial schemas. deegree also provides a set of
+standards-compliant webservices for web mapping, feature and catalogue
+services as well as sensor and processing services.
 
-deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando desde el principo, utilizando tus datos y cumpliendo tus requerimientos.
+deegree gets your SDI up and running, using your own data and fulfilling
+your requirements.
 
 
 .. image:: images/screenshots/1024x768/deegree_mainpage.gif
@@ -37,82 +46,82 @@ deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando de
   :alt: project logo
   :align: right
 
-Algunas catacterísticas de ejemplo
+Some example features
 ---------------------
 
 * Web Map Service
 
-  * Contenidos de capas flexible
-  * Soporta y utiliza definición de estilos (SLD 1.0)
-  * Capacidad de generación de gráficos (tartas, barras, lineas) 
-  * Fuentes de datos: Todos los Servicios Web comunes OGC (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, y arbitrariamente sentencias SQL se pueden utlizar para crear contenidos de capas WMS
-  * Muy estable, incluso para grandes escalas
-  * Soporta HTTP GET, HTTP POST y peticiones de información de geometrías (*features*)
-  * Certificado de soporte OGC
+  * very flexible concerning layer contents
+  * supports and uses style definitions (SLD 1.0)
+  * thematic mapping capabilities through charts (pie, bar, line) as point symbolizers
+  * datasources: all common OGC web services (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, any arbitrary SQL statements can be used to create the WMS layer content
+  * very stable, even for large scales
+  * supports HTTP GET, HTTP POST and feature info requests
+  * certified to be OGC compliant
 
 * Web Feature Service
 
-  * Soporta entidades (*features*) simples y complejas
-  * Transformación de coordenadas al vuelo para más de 3000 Sistemas de Referencia de Coordenadas.
-  * Soporte de formatos de salidas flexibles
-  * Soporte de directiva INSPIRE
+  * supports simple and complex features
+  * on the fly coordinate transformation for more than 3000 coordinate reference systems
+  * supports flexible output formats
+  * easily enhanced to support INSPIRE directive
 
 * Web Coverage Service
 
-  * Soporta peticiones HTTP GET y HTTP POST
-  * Fuentes de datos: imágenes (tif, png, jpeg, gif, bmp); GeoTIFF; ECW files; Oracle GeoRaster
-  * Alta velocidad de acceso para coberturas grandes
+  * supports HTTP GET and HTTP POST requests
+  * datasources: images (tif, png, jpeg, gif, bmp); GeoTIFF; ECW files; Oracle GeoRaster
+  * high-speed access to large coverages
 
 * Catalogue Service-Web
 
-  * Fuentes de datos: PostgreSQL-Database; Oracle-Database
-  * Peticiones soportadas: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
+  * datasources: PostgreSQL-Database; Oracle-Database
+  * supported requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
 
 * Web Map Print Service
 
-  * Soporte de diferentes formatos de impresión (HTML, PDF, PNG)
-  * Procesamiento de trabajos de larga duración
-  * Soporta peticiones asíncronas para permitir ploteos de gran escala
-  * Las peticiones se almacenan dentro de la Base de Datos y se podrán procesar incluso si un administrador para el WMPS o si la máquina falla
+  * supports different print formats (HTML, PDF, PNG)
+  * long time running jobs
+  * supports asynchronous requests to enable large-scale plots
+  * requests are stored within a database and will be available even if WMPS is stopped by an administrator or the machine fails
 
 * Web Perspective View Service
 
-   * Fuentes de datos: remote/local-WMS, remote/local-WFS, local-WCS, Postgres/PostGIS, Oracle Spatial
-   * Modelos de elevación que pueden ser de datos vectoriales o raster
-   * peticiones: Get3DFeatureInfo, GetView
+   * datasources: remote/local-WMS, remote/local-WFS, local-WCS, Postgres/PostGIS, Oracle Spatial
+   * elevation models can be vector data or raster data
+   * requests: Get3DFeatureInfo, GetView
 
 
-Estándardes implementados
+Implemented Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 en progreso)
-* OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 en progreso)
-* OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; incluyendo OGC ISOAP 1.0 y perfil INSPIRE
+* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 in progress)
+* OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 in progress)
+* OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; including OGC ISOAP 1.0 and INSPIRE profile
 * OGC Web Perspective View Service (WPVS) Draft 6
 * OGC Web Coordinate Transformation Service (WCTS) 0.4.0
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
 * OGC Sensor Observation Service (SOS) 1.0.0
 
-Detalles
+Details
 -------
 
 **Website:** http://deegree.org
 
-**Licencia:** LGPL
+**Licence:** LGPL
 
-**Versión del Software:** 2.3
+**Software Version:** 2.3
 
-**Plataformas soportadas:** Windows, Linux
+**Supported Platforms:** Windows, Linux
 
-**API de Interfaces:** Java
+**API Interfaces:** Java
 
-**Soporte:** http://wiki.deegree.org/deegreeWiki/GettingSupport
+**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
-Guía de inicio rápido
+Quickstart
 ----------
 
-* `Guía de inicio rápido <../quickstart/deegree_quickstart.html>`_
+* `Quickstart documentation <../quickstart/deegree_quickstart.html>`_
 
 
