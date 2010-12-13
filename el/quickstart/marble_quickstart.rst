@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _marble-quickstart:
  
@@ -11,28 +11,28 @@
   :target: http://edu.kde.org/marble/
 
 *************************
-KDE-edu Marble Quickstart 
+Εγχείρίδιο Γρήγορης Εκκίνησης Marble 
 *************************
 
-Getting Started
+Ξεκινώντας
 ===============
 
-* Click on the desktop icon
+* Κλικ στο εικονίδιο της επιφάνειας εργασίας
 
-* If you have used Google Earth before you should be able to figure this program out without much difficulty.
+* Εάν έχετε χρησιμοποιήσει Google Earth σίγουρα θα καταλάβετε αυτό το πρόγραμμα χωρίς καμία δυσκολία.
 
-* In the Settings menu select full-screen mode
+* Στο μενού Settings επιλέξτε full-screen mode
 
-* Explore ...
+* Εξερευνείστε ...
 
-* Click on a city name (cursor becomes a pointing hand), within the info center select the Wikipedia tab and read about the place
+* Επιλέξτε το όνομα μιας πόλης (ο κέρσορας γίνεται χέρι/δείκτης), επιλέξτε Wikipedia tab από το info center και διαβάστε για αυτό
 
-* In the bottom-left corner of the program window there is a subtle tab called "Map View". Click on it.
+* Στην κάτω αριστερή γωνία του προγράμματος είναι ένα κουμπί με όνομα "Map View". Πατήστε το.
 
-* Select another map (e.g. 'Precipitation (July)')
+* Επιλέξτε έναν άλλο χάρτη (πχ 'Precipitation (July)')
 
-* Explore some more ... 
+* Εξερευνείστε περισσότερο ... 
 
 
-See the `Marble homepage <http://edu.kde.org/marble/>`_ for more help.
+Δείτε την ιστοσελίδα `Marble homepage <http://edu.kde.org/marble/>`_ για περισσότερη βοήθεια.
 

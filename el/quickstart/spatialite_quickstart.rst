@@ -10,50 +10,50 @@
   :align: right
 
 *********************
-SpatiaLite Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης SpatiaLite 
 *********************
 
-SpatiaLite is an SQLite database engine with spatial functions added. 
+Η SpatiaLite είναι μια SQLite βάση δεδομένων με πρόσθετες χωρικές λειτουργίες. 
 
-This Quick Start describes how to open a database with the command line and the GUI application.
+Αυτό το κείμενο περιγράφει πως να ανοίξετε μια βάση δεδομένων από την γραμμή εντολών (τερματικό) και από το γραφικό περιβάλλον.
 
 
-Running spatialite
+Εκτελώντας την spatialite
 ==================
 
-* Open a console and open a sample database with spatialite::
+* Ανοίξτε ένα τερματικό και μια βάση με την εντολή spatialite::
 
    spatialite /home/user/data/spatialite/regions.sqlite
    select r.NOME_REG, a.Nome from Aeroporti a, reg2008_s r where CONTAINS( r.Geometry, a.Geometry ) order by r.NOME_REG;
 
 
-Create a new database with spatialite-gui
+Δημιουργείστε μια νέα βάση με το γραφικό περιβάλλον spatialite-gui
 =========================================
 
-* Start spatialite-gui
-* Select :menuselection:`File --> Creating a new SQLite DB`
+* Εκκινείστε spatialite-gui
+* Επιλέξτε  :menuselection:`File --> Creating a new SQLite DB`
 
 
-Running spatialite-gis
+Εκτελώντας την spatialite-gis
 ======================
 
-* Run spatialite-gis 
-* Connect to /home/user/data/spatialite/regions.sqlite
+* Εκτελέστε spatialite-gis 
+* Συνδεθείτε με /home/user/data/spatialite/regions.sqlite
 
-You should see a set of Airports in Italy
+Θα δείτε μια ομάδα αεροδρομίων της Ιταλίας
 
 
-Things to Try
+Δοκιμάστε
 =============
 
-Here are some additional challenges for you to try:
+Ορίστε μερικές πρόσθετες προκλήσεις να τις δοκιμάσετε:
 
-* Inspect geometries with spatialite-gui
-* Open and edit SpatiaLite layers in QGIS
+* Παρατηρείστε την γεωμετρία με spatialite-gui
+* Ανοίξτε και διορθώστε επίπεδα SpatiaLite στο QGIS
 
-What Next?
+Τεκμηρίωση
 ==========
 
-To learn more about SpatiaLite, a starting point is the `Documentation and tutorials`_ page.
+Για να μάθετε περισσότερα για το SpatiaLite, μπορείτε να ξεκινήσετε απο την σελίδα: `Documentation and tutorials`_ .
 
 .. _`Documentation and tutorials`: http://www.gaia-gis.it/spatialite/docs.html

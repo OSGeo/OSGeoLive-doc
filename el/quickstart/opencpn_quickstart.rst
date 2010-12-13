@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Hamish Bowman
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _opencpn-quickstart:
  
@@ -11,50 +11,49 @@
   :target: http://www.opencpn.org
 
 ********************
-OpenCPN Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης OpenCPN 
 ********************
 
-Running
+Εκτέλεση
 =======
 
-Setting up your charts
+Ρυθμίστε τους χάρτες σας
 ~~~~~~~~~~~~~~~~~~~~~~
-Before running OpenCPN on the LiveDVD you should activate the sample data.
-To do this open a Terminal from the main Applications menu and run
-"`opencpn_noaa_agreement.sh`" at the command prompt. The user's
-password is given in the file on the main desktop.
+Πριν εκτελέσετε το OpenCPN από το LiveDVD πρέπει να ενεργοποιήσετε τα παραδείγματα.
+Για να το κάνετε ανοίξτε ένα τερματικό και εκτελέστε
+"`opencpn_noaa_agreement.sh`". Το συνθηματικό του χρήστη δίνεται στο αρχείο στην επιφάνεια εργασίας.
 
-You can download additional US nautical charts from NOAA
-at http://www.charts.noaa.gov
+Μπορείτε να κατεβάσετε πρόσθετους αμερικανικούς ναυτικούς χάρτες NOAA
+από την διεύθυνση http://www.charts.noaa.gov
 
 
-Setting up your GPS
+Ρυθμίστε το GPS σας
 ~~~~~~~~~~~~~~~~~~~
-If you have a GPS connected you will want to start the gpsd service.
-To do that run:
+Εάν έχετε ένα GPS συνδεδεμένο και θέλετε να εκινήσετε το gpsd
+εκτελέστε:
 
 ::
 
   sudo dpkg-reconfigure gpsd
 
-and
+και
 
 ::
 
   sudo /etc/init.d/gpsd start
 
-BlueTooth GPS users should take special care to read up about the no-probe
-option. (for this reason we have not started gpsd automatically)
+οι χρήστες GPS μέσω BlueTooth θα πρέπει επιπλεόν να διαβάσουν
+σχετικά με την επιλογή no-probe. (Αυτός είναι ο λόγος που η gpsd
+δεν ενεργοποιείται αυτόματα)
+
+* Το '`xgps`' είναι ένα καλό πρόγραμμα για τον έλεγχο της λειτουργίας GPS.
 
 
-* '`xgps`' is a good program to check that Gpsd can see your GPS ok.
-
-
-Documentation
+Τεκμηρίωση
 =============
 
-* Documentation is available from
-  the `Help menu <file:///usr/local/share/opencpn/doc/help_en_US.html>`_, or
-  online at http://www.opencpn.org/docwiki
+* Η τεκμηρίωση είναι διαθέσιμη
+  από `Help menu <file:///usr/local/share/opencpn/doc/help_en_US.html>`_, ή
+  online στην διεύθυνση http://www.opencpn.org/docwiki
 
-*  `Getting started tips <file:///usr/local/share/opencpn/doc/tips.html>`_
+* Επιπλέον `Getting started tips <file:///usr/local/share/opencpn/doc/tips.html>`_
