@@ -1,6 +1,6 @@
-:Author: Daniel Kastl
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Daniel Kastl
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _pgrouting-quickstart:
  
@@ -11,29 +11,29 @@
 	:target: http://www.pgrouting.org
 
 ********************
-pgRouting Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης pgRouting
 ********************
 
-pgRouting is an extension of `PostGIS <http://www.postgis.org>`_ and adds routing functionality to `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
+Το pgRouting είναι μια επέκταση στην `PostGIS <http://www.postgis.org>`_ στην οποία προσθέτει διαδικασίες δρομολόγησης στις `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
 
-This Quick Start describes how to open a database with the command line and run a basic shortest path query with the sample test data.
+Αυτό το κείμενο περιγραφεί πως να ανοίξετε μια βάση δεδομένων από την γραμμή εντολών και να εκτελέσετε μια απλή αναζήτηση ελάχιστης διαδρομής στα δεδομένα επίδειξης.
 
 
-Running pgRouting
+Εκτελώντας το pgRouting
 =================
 
-* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``pgrouting`` database:
+* Ανοίξτε ένα παράθυρο :menuselection:`Applications --> Accessories --> Terminal` και συνδεθείτε στην ``pgrouting`` βάση δεδομένων:
 
 .. code-block:: bash
 
 	psql -U user pgrouting
 
-* Type :command:`\\d` will list you all available tables:
+* Πληκτρολογείστε :command:`\\d` και θα δείτε όλους τους διαθέσιμους πίνακες:
 
 .. code-block:: sql
 
-			      List of relations
-	 Schema |        Name         |   Type   |  Owner   
+			      Πίνακας σχέσεων
+	 Σχήμα  |       Όνομα         |  Τύπος   | Χρήστης   
 	--------+---------------------+----------+----------
 	 public | geography_columns   | view     | postgres
 	 public | geometry_columns    | table    | postgres
@@ -41,9 +41,9 @@ Running pgRouting
 	 public | vertices_tmp        | table    | postgres
 	 public | vertices_tmp_id_seq | sequence | postgres
 	 public | ways                | table    | postgres
-	(6 rows)
+	(6 γραμμές)
 
-* Run the Dijkstra shortest path function:
+* Εκτελέστε στην συνάρτηση ελάχιστης διαδρομής Dijkstra:
 
 .. code-block:: sql
 
@@ -57,16 +57,16 @@ Running pgRouting
 
 .. code-block:: sql
 
-     vertex_id | edge_id |        cost         
+     vertex_id | edge_id |       Κόστος         
     -----------+---------+---------------------
     	   605 |    5575 |  0.0717467247513547
     	  1679 |    2095 |   0.148344716070272
     	   588 |    2094 |  0.0611856933258344
     	   ... |     ... |  ...
     	   359 |      -1 |                   0
-    (82 rows)
+    (82 γραμμές)
 
-* Try the wrapper function to get the routing result in a different format:
+* Δοκιμάστε την συνάρτηση μετατροπής (wrapper) ώστε να πάρετε το αποτέλεσμα σε μια άλλη μορφή:
 
 .. code-block:: sql
 
@@ -84,17 +84,17 @@ Running pgRouting
        5575 | MULTILINESTRING((2.1436976 41.3897581,2.143876 41.3903893))
     (81 rows)
 
-* With :command:`\\q` command leave the PostgreSQL shell.
+* Με την εντολή :command:`\\q` εγκαταλείπετε το κέλυφος της PostgreSQL.
 
 
-What next?
+Τεκμηρίωση
 ==========
 
-* **pgRouting Website** - Visit the project website http://www.pgrouting.org to learn more about pgRouting.
+* **pgRouting Website** - Επισκεφτείτε τον ιστοχώρο http://www.pgrouting.org για να μάθετε περισσότερα για το pgRouting.
 
-* **Workshop on DVD** - Included on this LiveDVD is the FOSS4G 2010 pgRouting workshop `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoEx"`, available in: :file:`/usr/share/pgrouting/workshop/`
+* **Workshop on DVD** - Σε αυτό το DVD περιλαμβάνονται τα αρχεία του FOSS4G 2010 pgRouting workshop `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoEx"`, διαθέσιμα στο: :file:`/usr/share/pgrouting/workshop/`
 
-.. note::
+.. σημείωση::
 
-	To update to the latest version of the tutorial, open a terminal window, then run ``sudo apt-get update && apt-get upgrade pgrouting-workshop``
+	Για να εγκαταστήσετε την τελευταία έκδοση από το εγχειρίδιο εκμάθησης ανοίξτε ένα τερματικό και εκτελέστε την ακόλουθη εντολή ``sudo apt-get update && apt-get upgrade pgrouting-workshop``
 

@@ -12,68 +12,70 @@
 
 
 *****************
-Sahana Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Sahana  
 *****************
 
-Running
+Εκτέλεση
 =======
 
-Installation
+Εγκατάσταση
 ~~~~~~~~~~~~
 
-When you first start Sahana you'll be taken to a web setup page.
-Most of this has been done for you, so on the first page you can
-just click "``Next >``" at the bottom, and on the second setup page 
-in the "`Create new database`" box you should keep the "`Database User`"
-as '`root`' and  fill in '`user`' for the password in the line directly
-below it. Then click on "``Setup Database >``" at the very bottom of the
-page without changing anything else.
+Με την πρώτη εκτέλεση του Sahana θα οδηγηθείτε σε μια ιστοσελίδα ρυθμίσεων.
+Τα περισσότερα έχουν ήδη ρυθμιστεί οπότε στην πρώτη σελίδα απλά επιλέξτε
+"``Next >``" κάτω και στην δεύτερη σελίδα στην επιλογή"`Create new database`"
+διατηρείστε την επιλογή στο "`Database User`" ως '`root`' και συμπληρώστε
+το συνθηματικό '`user`' στην γραμμή ακριβώς από κάτω του. Στην συνέχεια
+επιλέξτε "``Setup Database >``" κάτω κάτω χωρίς να αλλάξετε/ρυθμίσετε τίποτε
+άλλο.
 
-On the third setup page you'll be asked to set up some passwords, and
-it insists on strong ones, e.g. "`demo4osgeo`" for all of them. Also
-on this page you for the purposes of the demo should leave Access Control
-set as "`Disabled`". Finish by clicking the "``Write Configuration File >``"
-button at the bottom of the page. This will give you a security warning (only
-important if you intend to install from the live demo DVD), and a button
-to "``Start Sahana``" which you will want to click.
+Στην τρίτη σελίδα ρυθμίσεων θα ερωτηθείτε για μερικά συνθηματικά και συνιστάται
+να δώσετε σε όλα κάποιο ισχυρό συνθηματικό πχ "`demo4osgeo`". Επίσης σε αυτή
+την σελίδα και για λόγους επίδειξης αφήστε την ρύθμιση Access Control
+σε "`Disabled`". Ολοκληρώστε με την επιλογή "``Write Configuration File >``"
+στο κάτω μέρος της σελίδας. Αυτό θα σας δώσει μια προειδοποίηση ασφάλειας
+(σημάντική μόνο στην περίπτωση εγκατάστασης από το Live DVD) και ένα κουμπί
+"``Start Sahana``" το οποίο θέλετε να πατήσετε τελικά.
 
 
-Usage
+Χρήση
 ~~~~~
 
-.. This section is somewhat TODO.
+.. Αυτό το τμήμα ενημερώνεται...
 
-An easy way to get started is by adding a detail artifact. From the main
-menu on the left click on Situation Mapping, "`Add Situation Markers`", and
-add some information about a sample detail. You'll then be able to view
-and select this with the "`Situation Map`" link in the upper left corner
-of the page.
+Ένας εύκολος τρόπος να ξεκινήσετε είναι να προσθέσετε μία λεπτομέρεια (detail
+artifact).  Από το κεντρικό μενού στα αριστερά επιλέξτε στο Situation Mapping,
+"`Add Situation Markers`" και στην συνέχεια βάλτε μερικές πληροφορίες για μια
+απλή λεπτομέρεια. Στην συνέχεια θα μπορείτε να βλέπετε και να επιλέγετε τον 
+σύνδεσμο "`Situation Map`" από την άνω αριστερή γωνία της σελίδας.
 
-Development
+Ανάπτυξη
 ~~~~~~~~~~~
 
-Sahana is in active development and the spatial data tools are greatly
-improved in the yet-unreleased ("trunk") version. This includes support for:
+Το Sahana είναι σε διαρκεί ανάπτυξη και τα χωρικά του εργαλεία διαρκώς βελτιώνονται
+δραμματικά. Η έκδοση trunk υποστηρίζει:
 
-* GPS Interface module (waypoint and route upload/download via `GpsBabel`)
-* UMN Mapserver module (web admin front-end)
-* Extensive GIS configuration section in the Sahaha Administration module including support for external data sources from Google Maps, TMS, OpenStreetMap, KML OSM and GML geodata files, MS Virtual Earth, Yahoo Maps, WMS, GeoRSS, and Multimap.
+* Άρθρωμα διεπαφής με GPS (σημεία και διαδρομές για είσοδο και έξοδο μέσω `GpsBabel`)
+* Άρθρωμα UMN Mapserver (για διαχείρηση σχετικών ιστοχώρων)
+* Εκτεταμένες ρυθμίσεις για GIS στο άρθρωμα Sahaha Administration συμπεριλαμβανομένων και
+υποστήριξης άλλων πηγών δεδομένων όπως Google Maps, TMS, OpenStreetMap, KML OSM και GML
+αρχεία γεωδεδομένων, MS Virtual Earth, Yahoo Maps, WMS, GeoRSS και Multimap.
 
-The stable version used on this live disc only includes support for Google
-Maps. You can explore the new features in the "trunk" working demo linked
-below.
+Η σταθερή έκδοση η οποία χρησιμοποιείται σε αυτό το DVD περιλαμβάνει μόνο υποστήριξη
+για δεδομέμα Google Maps. Μπορείτε επίσης να εξερευνήσετε τα νέα χαρακτηριστικά στον
+"trunk" πρόγραμμα επίδειξης από τους ακόλουθους συνδέσμους.
 
-Samples
+Παραδείγματα
 =======
 
-A working demo of Sahana can be found at http://www.sahanafoundation.org/demo/
-  (see that page for username and password login credentials)
+Ένα πλήρες πακέτο επίδειξης του Sahana υπάρχει στην διεύθυνση http://www.sahanafoundation.org/demo/
+  (διαβάστε στην σελίδα για λογαριασμό χρήστη και συνθηματικό)
 
-A live example of Sahana in action (open to the public) can be found at http://haiti.sahanafoundation.org
+Ένα παράδειγμα χρήσης του Sahana (διαθέσιμο στο κοινό) υπάρχει στην διεύθυνση http://haiti.sahanafoundation.org
 
 
-Further reading
+Πρόσθετο διάβασμα
 ===============
 
-* `Online documentation <http://wiki.sahanafoundation.org/doku.php>`_
+* `Τεκμηρίωση στο δίκτυο <http://wiki.sahanafoundation.org/doku.php>`_
 

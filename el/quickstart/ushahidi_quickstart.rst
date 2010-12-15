@@ -1,6 +1,6 @@
-:Author: Henry Addo
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Henry Addo
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _ushahidi-quickstart:
 
@@ -9,58 +9,58 @@
   :alt: project logo
   :align: right 
 
-Ushahidi Quick Start 
+Εγχειρίδιο Γρήγορης Εκκίνησης Ushahidi 
 ====================
 
-This guide describes how to:
+Ο οδηγός αυτός περιγράφει:
 
-* Getting Ushahidi Up and Running 
+* Την εκτέλεση και ανάπτυξη Ushahidi 
 
-Getting Ushahidi Up and Running
+Εκτέλεση/Ανάπτυξη Ushahidi
 -------------------------------
 
-1. Starting Ushahidi via the desktop icon or menu item opens the web 
-   browser and brings you to the Installation page. An Ushahidi site is 
-   pretty easy to set up
+1. Εκτελέστε το Ushahidi από το εικονίδιο στην επιφάνεια εργασίας ή από την επιλογή στο μενού που ανοίγει τον διαδικτυακό περιηγητή
+   και σας παρουσιάζει την σελίδα εγκατάστασης. Είναι σχετικά εύκολο να αναπτύξετε έναν ιστοχώρο Ushahidite
 
 .. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
 
-2. Choose **"Basic Installation"**, **"Let's get started"**, and it will prompt 
-   you for a few details. The database name is **"ushahidi"**, database user 
-   name is **"user"**, the password is also **"user"**. The database host is 
-   **"localhost"**. Then continue. In the *General* setup page choose a
-   site name (title) for your website such as **OSGeo demo** and if you like
-   tag-line subheading as well. The email address it asks you for is used 
-   for receiving automatic submissions which it will process and add to the
-   database and maps, and send automated reports from. For now set it to 
-   something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**. 
+2. Επιλέξτε **"Basic Installation"**, **"Let's get started"**, και θα σας ρωτήσει
+   κάποιες λεπτομέρειες. Το όνομα της βάσης είναι **"ushahidi"**, το όνομα
+   χρήστη είναι **"user"** και το συνθηματικό **"user"**. Η βάση φιλοξενείται στον
+   **"localhost"**. Συνεχίστε. Στην σελίδα ρυθμίσεων *General* επιλέξτε ένα
+   όνομα για τον ιστοχώρο σας κάτι σαν **OSGeo demo** και αν θέλετε
+   επιπρόσθετα ταμπέλα επικεφαλίδας. Το email απαιτείται για την λήψη
+   αυτόματων καταχωρήσεων οι οποίες θα υποστούν επεξερργασία και αφού μπουν
+   στο χάρτη και την βάση θα αποστείλουν αυτόματα αναφορές. Προς το παρόν επιλέξτε
+   κάτι σαν το **"ushahidi@localhost.localdomain"** ή **"ushahidi@example.org"** και
+   στην συνέχεια **"Continue"**. 
 
 .. image:: images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
 
-3. After that is all done it should tell you that installation was
-   successful and give you a link to 'View your website'.
+3. Αφού γίνουν τα παραπάνω θα σας απαντήσει το σύστημα οτι η εγκατάσταση έγινε με
+   επιτυχία και θα σας δώσει έναν σύνδεσμο να δείτε τον ιστοχώρο σας 'View your website'.
 
 .. image:: images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
  
-4. To make changes in the `administration area <http://localhost/ushahidi/admin>`_, 
-   the login username is **"admin"** and the password is also **"admin"**. 
-   For example in the setup page you might want to select **"Settings"**
-   (top right) and then the **"Map"** tab, and change the 
-   **"Map provider"** to OpenStreetMaps (no API key 
-   necessary for OSM, as it's Open :-) ).
+4. Για να κάνετε αλλαγές στην `administration area <http://localhost/ushahidi/admin>`_, 
+   επιλέξτε ως χρήστη **"admin"** και συνθηματικό επίσης **"admin"**. 
+   Για παράδειγμα στην σελίδα ρυθμίσεων επιλέξτε **"Settings"**
+   (πάνψ δεξιά) και μετά την καρτέλα **"Map"** και αλλάξτε τον πάροχο 
+   **"Map provider"** σε OpenStreetMaps (προφανώς δεν απαιτείται κανένα κλειδί αφού είναι
+   Ανοιχτά δεδομένα :-) ).
 
 .. image:: images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center
 
-The setup up README page is available locally in the `/var/www/ushahidi/readme.html <file:///var/www/ushahidi/readme.html>`_ file.
+Η σελίδα ρυθμίσεων README είναι διαθέσιμη τοπικά στο αρχείο `/var/www/ushahidi/readme.html <file:///var/www/ushahidi/readme.html>`_ .

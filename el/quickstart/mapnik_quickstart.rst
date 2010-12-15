@@ -1,7 +1,7 @@
-:Author: OSGeo Live
-:Author: Dane Springmeyer
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Dane Springmeyer
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _mapnik-quickstart:
  
@@ -10,18 +10,18 @@
   :alt: project logo
   :align: right
 
-Mapnik Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης Mapnik
 ~~~~~~~~~~~~~~~~~
 
-Mapnik is an toolkit for developing mapping applications. Above all Mapnik is about making beautiful maps. It is easily extensible and suitable for both desktop and web development.
+Το Mapnik είναι ένα πακέτο για την ανάπτυξη χαρτογραφικών εφαρμογών. Πάνω απ'όλα με το Mapnik φτιάχνουμε όμορφους χάρτες. Είναι εύκολα επεκτάσιμο και κυρίως βολικό τόσο για απλή όσο και δικτυακή χρήση.
 
 
-Mapnik & Python
+Το Mapnik και η Python
 ---------------
 
-Mapnik and its python bindings are installed and ready to be used for scripting on this machine.
+Το Mapnik και τα εργαλεία python είναι εγκατεστημένα και έτοιμα να χρησιμοποιηθούν για προγραμματισμό.
 
-Creating maps in python is easy with Mapnik. Type `python` on the command line to enter a python interpreter and try this::
+Η δημιουργία χαρτών στην python με το Mapnik είναι πανεύκολη. Ενεργοποιείστε έναν μεταγλωτιστή της python και εκτελέστε τα ακόλουθα::
 
     >>> import mapnik, os
     >>> m = mapnik.Map(600,400)
@@ -34,50 +34,50 @@ Creating maps in python is easy with Mapnik. Type `python` on the command line t
 
 .. note::
     
-      The above code depends on having an XML stylesheet that Mapnik can read, defining the layers
-      to read data from and the styles to apply to those layers. You can create one of these inside QGIS
-      with the Quantumnik plugin: http://bitbucket.org/springmeyer/quantumnik/
+      Στον παραπάνω κώδικα προϋποθέτεθ ένα XML stylesheet το οποίο να είναι αναγνώσιμο από το Mapnik,
+      να ορίζει τα επίπεδα, να διαβάζει τα δεδομένα και επιπλέον να τα εφαρμόζει σε αυτά. Μπορείτε να
+      φτιάξετε ένα από το περιβάλλον QGIS με το πρόσθετο Quantumnik: http://bitbucket.org/springmeyer/quantumnik/
 
 
-Mapnik & OpenLayers
+Το Mapnik και τα OpenLayers
 -------------------
 
-In addition a basic demo application is available, which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
+Είναι επιπρόσθετα διαθέσιμη μία εφαρμογή επίδειξης, η οποία παρουσιάζει την χρήση του Mapnik στην ανάρτηση υποχαρτών(tiles) σε έναν διαδυκτιακό χάρτη OpenLayers στην μορφή OSM/Google.
 
-The demo uses a tileserver designed for Mapnik called "TileLite"
+Η εφαρμοφή αυτή χρησιμοποιεί την μηχανή "TileLite" η οποία είναι σχεδιασμένη για το Mapnik
 
-  * More information about TileLite: http://bitbucket.org/springmeyer/tilelite/
+  * Περισσότερα για το TileLite στην διεύθυνση: http://bitbucket.org/springmeyer/tilelite/
 
-To run the demo just follow these steps:
+Για να εκτελέσετε την επίδειξη ακολουθείστε τα ακόλουθα βήματα:
 
   #. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileLite`
 
-    * The server should start in a terminal window (which stays open and outputs basic debugging information).
+    * Ο server θα ξεκινήσει σε ένα τερματικό το οποίο παραμένει ανοιχτό και εμφανίζει τυχόν μηνύματα εκσφαλμάτωσης.
         
-    * If the terminal window does not open, then try to re-installing TileLite and starting the server from the command line::
+    * Αν δεν εμφανιστεί το τερματικό θα πρέπει να επαναεγκατασταθεί το TileLite και να εκκινηθεί ο sever από την γραμμή εντολών::
       
         $ sudo easy_install tilelite
         $ liteserv.py /usr/local/share/mapnik/demo/population.xml
 
 
-  #. Check to make sure the server is working by visiting the TileLite welcome page at http://localhost:8000
+  #. Βεβαιωθείτε οτι ο server λειτουργεί επισκοπτόμενοι την σελίδα του TileLite στην διεύθυνση http://localhost:8000
 
-  #. Then visit the example TileLite OpenLayers "World Population" demo application page:
+  #. Στην συνέχεια επικσεφτείτε το παράδειγμα του TileLite OpenLayers "World Population":
     
-    * This page is at file:///usr/local/share/mapnik/demo/openlayers.html
+    * στο αρχείο:///usr/local/share/mapnik/demo/openlayers.html
 
 
-What Next?
+Τεκμηρίωση
 ----------
 
-* Mapnik Tutorials
+* Εγχειρίδια Mapnik 
 
-  Follow the tutorials_ to learn more about Mapnik.
+  Ακολουθείστε τον σύνδεσμο tutorials_ για να μάθετε περισσότερα για το Mapnik.
 
 .. _tutorials: http://trac.mapnik.org/wiki/MapnikTutorials
 
-* Explore files on the DVD
+* Εξερευνήστε τα αρχεία στο DVD
 
-  See also the included files_ on this DVD.
+  Δείτε τα ακόλουθα αρχεία files_ σε αυτό το DVD.
 
 .. _files: file:///usr/local/share/mapnik/
