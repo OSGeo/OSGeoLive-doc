@@ -1,6 +1,6 @@
-:Author: Johan Van de Wauw
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Johan Van de Wauw
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. image:: images/project_logos/logo-saga.png
   :scale: 100 %
@@ -10,118 +10,105 @@
 
 
 *******************
-SAGA GIS Quickstart
+Εγχειρίδιο Γρήγορης Εκκίνησης SAGA GIS 
 *******************
 
-Running
+Εκτέλεση
 =======
 
-To run SAGA GIS on the Live DVD, click on the SAGA link on the Desktop.
+Για να εκτελέσετε το SAGA GIS σε αυτό το  Live DVD, επιλέξτε με κλίκ το σύνδεσμο SAGA στην επιφάνεια εργασίας.
 
-When opening SAGA for the first time, you are presented with 3 subwindows: the Workspace, the object properties and the messages window. The information in the object properties window will change depending on your selection in the workspace window.
+Όταν ανοίξετε το SAGA για πρώτη φορά, παρουσιάζονται 3 υπο-παράθυρα: το "Workspace, το "object properties" και το "messages Window". Οι πληροφορίες στο παράθυρο "object properties" θα μεταβάλλονται, συναρτήσει των επιλογών σας στο παράθυρο εργασίας.
 
   .. image:: images/screenshots/1024x768/saga_guioverview.png
      :scale: 80
 
-Opening Data
+Άνοιγμα Δεδομένων
 ============
 
-Open the SAGA GUI and load the grid `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load Grid** menu. You will 
-get a message in the General tab of the Messages window regarding the success or 
-failure of this task. You should see something like `Load Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. 
-Once you loaded the dataset, it will show up in the Data tab of the Workspace window. 
-It will be listed under Grids and the grid system it belongs to. 
+Ανοίξτε το γραφικό περιβάλλον εργασίας του SAGA και φορτώστε το grid `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` με χρήση του μενού **File|Grid|Load Grid** . Θα λάβετε ένα μήνυμα στην καρτέλα General σχετικά με την επιτυχία ή όχι της ενέργειας. Θα πρέπει να δείτε κάτι σαν το ακόλουθο: `Load Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. 
+Αφού φορτώσετε τo σύνολο δεδομένων, θα εμφανιστεί στην καρτέλα Data  του υποπαραθύρου Workspace. 
+Επίσης, θα βρίσκεται κάτω από τα Grids και το σύστημα αναφοράς στο οποίο ανήκει. 
 
-In this case, the grid system information will look like **30;312x 458y; 557970x 5108130y**. The first number is
-the cell size (30 meters), the next two numbers show the number of cells in x and y 
-direction respectively, and the last two numbers are the origin of the grid. SAGA's grid 
-systems are referenced by the bottom left corner. This, and some more useful information 
-on the dataset show up if you select the Description tab of the Properties window. Once 
-you click on the tab, you will see not only more detailed information on the grid system, 
-but also the Value Type of the grid (here FLOAT), the Value Range, some statistical measures 
-and the Memory Size.
+Σε αυτή την περίπτωση, οι πληροφορίες του συστήματος αναφοράς για τον κάναβο, θα είναι: **30;312x 458y; 557970x 5108130y**. Ο πρώτος αριθμός είναι το μέγεθος της ψηφίδας (30 μέτρα), οι επόμενοι δύο αριθμοί δείχνουν τον αριθμό των κελιών στις διευθύνσεις χ και y αντίστοιχα και οι τελευταίοι δύο αριθμοί είναι η προέλευση του grid. SAGA's grid 
+Τα συστήματα αναφέρονται στην κάτω αριστερά γωνία Αυτές και μερικές ακόμα χρήσιμες πληροφορίες που αφορούν το σύνολο δεδομένων θα εμφανιστούν εάν επιλέξετε την καρτέλα Description του παραθύρου Properties. Όταν κλικάρετε στην καρτέλα, θα δείτε όχι μόνο περισότερο λεπτομερείς πληροφορίες για το σύστημα αναφοράς του κανάβου, αλλά και τον τύπο των δεδομένων του grid (εδώ ο τύπος είναι FLOAT), το εύρος των τιμών, κάποια στατιστικά μεγέθη και το μέγεθος στη μνήμη.
 
 
-Displaying Data
+Προβολή Δεδομένων
 ===============
 
-To display the dataset in a map view, just double click on the dataset in the Data tab of the Workspace window. A new Map window will open up with the dataset displayed. The canvas is framed: top and left the x- and y-world coordinates are displayed. Bottom and right you see rulers in map units. Move the mouse pointer over the map and watch the x-, y- and z-coordinates displayed in the bottom bar of the SAGA GUI window. The z-coordinates displayed correspond to the elevation values of the dataset (be aware that the values displayed are always those of the dataset selected in the Data or Maps tab).
+Για να προβάλετε τo σύνολο των δεδομένων σε ένα χάρτη, απλώς κάντε διπλο κλίκ πάνω στα δεδομένα στην καρτέλα Data του παραθύρου Workspace. Ένα νέο παράθυρο Map θα ανοίξει το οποίο θα περιέχει το σύνολο δεδομένων που επιλέξατε. Η επιφάνεια σχεδίασης είναι πλαισιωμένη: Πάνω και αριστερά προβάλλονται οι x και y συντεταγμένες στο σύστημα αναφοράς των δεδομένων. Κάτω και δεξιά βλέπετε κανόνες (χάρακες) σε μονάδες του χάρτη. Κινήστε το δείχτη του ποντικιού πάνω από το χάρτη και παρατηρήστε τις x-, y- και z- συντεταγμένες να προβάλλονται στην κάτω μπάρα της διεπιφάνειας  του SAGA. Οι z-συντεταγμένες που προβάλλονται αφορούν τις τιμές του συνόλου δεδομένων (έχετε υπόψη σας πως οι τιμές που προβάλλονται είναι πάντα αυτές των δεδομένων που έχουν επιλεγεί  στην καρτέλα Data ή Maps).
 
-Now use the navigation tools to zoom and pan. The Zoom tool is selected by default. A left click on the map zooms in, a right click zooms out. Holding the left mouse button down, dragging to the opposite corner and letting the mouse button up allows you to zoom to an area of interest. If you zoom in quite a lot, you will see that the cell values are getting displayed. To pan, select the Pan tool and click and drag to move the map. Have a look at the other bottoms in the tool bar: these allow you to zoom e.g. to Full Extent.
+Τώρα χρησιμοποιείστε τα εργαλεία πλοήγησης zoom και pan. Το εργαλείο zoom είναι προεπιλεγμένο. Ένα αριστερό κλικ του ποντικιού πάνω στο χάρτη εστιάζει, ενώ ένα δεξί κλικ απομακρύνει από την περιοχή. Κρατώντας πατημένο το αριστερό πλήκτρο του ποντικιού, μετακινόντας το στην αντίθετη γωνία και απελευθερώντας το αριστερό πλήκτρο του ποντικιού (που ήταν δεσμευμένο τόσην ώρα) σας επιτρέπει να εστιάσετε σε μια συγκεκριμένη περιοχή ενδιαφέροντος. Εάν εστιάσετε πάρα πολύ, θα δείτε πως προβάλλονται οι τιμές των κελιών Για να κινηθείτε πάνω στο χάρτη, επιλέξτε το εργαλείο Pan και στη συνέχεια κλικάρετε και τραβήξτε με το ποντίκι. Παρατηρήστε τα υπόλοιπα εργαλεία στη γραμμή εργαλείων: σας επιτρέπουν να εστιάσετε πχ σε όλο το εύρος της περιοχής.
 
 .. image:: images/screenshots/800x600/saga_fullextent.png
 
-.. tip:: Saga zooms very fast, if you are lost while browsing your data, click the 'Zoom to Full Extent' button in the toolbar
+.. Παρατήρηση: Το Saga εστιάζει πολύ γρήγορα, έτσι αν χαθείτε καθώς παρατηρείτε τα δεδομένα σας, επιλέξτε το κουμπί 'Zoom to Full Extent' στη γραμμή εργαλείων
 
-Creating shaded relief map view
+Δημιουργία χάρτη σκίασης αναγλύφου
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's enhance the map display by calculating a shaded relief map. Switch to
-the Modules tab of the Workspace window and click on the plus sign left to 
-the **Terrain Analysis - Lightning, Visibility** module library: the list 
-with the modules of this library will show up. Now select the Analytical Hillshading module and then select the Settings tab of the Properties window. This will show up the module parameters (also have a look at the Description tab, which will display more information about the module and it's parameters). Click in the right column of the Grid system parameter (where [not set] is displayed) and select the grid system of the Mt. St. Helens dataset. Next click into the right column of the Elevation parameter and select the dataset. Click in the right column of the Shading Method option and select Standard. Now press the Apply and then the Execute button. A new dataset containing the hillshade will be calculated.
+Ας ενισχύσουμε την προβολή του χάρτη με τον υπολογισμό ενός χάρτη σκίασης αναγλύφου. Αλλάξτε στην καρτέλα Modules του παραθύρου workspace και επιλέξτε το "+" αριστερά από τη βιβλιοθήκη **Terrain Analysis - Lightning, Visibility**: Εμφανίζεται η λίστα με τα προγράμματα αυτής της βιβλιοθήκης Τώρα επιλέξτε το πρόγραμμα Analytical Hillshading και μετά επιλέξτε το Settings tab από το Properties window. Θα εμφανιστούν οι παράμετροι του προγράμματος (επίσης παρατηρήστε και στην καρτέλα Desctiption, στην οποία περιέχονται περισσότερες πληροφορίες για το πρόγραμμα και τις παραμέτρους του). Κάντε αριστερο κλικ στη δεξιά στήλη των παραμέτρων του συστήματος του κανάβου (όπου εμφανίζεται η επιλογή [not set]) και επιλέξτε το σύστημα αναφοράς κανάβου του συνόλου δεδομένων Mt. St. Helens. Στη συνέχεια επιλέξτε με κλίκ στη δεξιά στήλη της παραμέτρου υψομέτρου (Elevation) και επιλέξτε το σύνολο δεδομένων. Κάντε αριστερό κλικ στις επιλογές για τη μέθοδο σκίασης (Shading Method) και επιλέξτε Standard. Τώρα πιέστε με τη σειρά, τα κουμπιά Apply και Execute. Πρόκειται να υπολογιστεί ένα νέο σύνολο δεδομένων που θα περιέχει τη σκίαση αναγλύφου.
 
-Have a look at the Data tab of the Workspace window - you will find the newly created dataset. Double click on the 'Analytical Hillshading' dataset and select New in the dialog popping up. This will display the dataset in a new map view. After inspecting the dataset, close the Map window by selecting Close from the Window menu.
+Παρατηρώντας στην καρτέλα Data του παραθύρου Workspace θα βρείτε το σύνολο δεδομένων που μόλις δημιουργήθηκε. Κάντε διπλό κλικ στο σύνολο δεδομένων 'Analytical Hillshading' και επιλέξτε "New" στο παράθυρο διαλόγου που εμφανίζεται. Με αυτό τον τρόπο θα εμφανιστεί το σύνολο δεδομένων σε νέο χάρτη. Αφού παρατηρήστε το σύνολο δεδομένων, κλείστε το χάρτη επιλέγοντας Close από το μενού Window.
 
-Now double click on the hillshade dataset again, but select the Map containing the elevation dataset in the dialog popping up (Add layer to selected map). This will place the hillshade on top of the elevation dataset.
+Τώρα κάντε διπλό κλικ στα δεδομένα σκίασης αναγλύφου ξανά, αλλά επιλέξτε το χάρτη που περιέχει το σύνολο δεδομένων υψομέτρου στο παράθυρο διαλόγου που εμφανίζεται (Add layer to selected map). Αυτό θα τοποθετήσει τη σκίαση αναγλύφουν πάνω από το σύνολο δεδομένων υψομέτρου.
 
-Switch to the Maps tab of the Workspace window. You will see the entry of your map and the datasets the map is composed of. The drawing order is top to bottom. Now do a right click on the 'Analytical Hillshading' dataset and select Move To Bottom from the context menu popping up. This will change the drawing order, placing the hillshade beneath the elevation dataset (which now shows up again in the map view). Now select the elevation dataset (by left clicking) and have a look at the Settings tab of the Properties window. Find the Display section of the parameters and click in the right column of the Transparency option. Enter a value of 30 and press the Apply button. Now you will see your elevation values shaded by relief.
+Αλλάξτε στην καρτέλα Maps του παραθύρου Workspace. Θα δείτε την αναφορά του χάρτη σας και το σύνολο δεδομένων που τον συνθέτει. Η σειρά σχεδίασης είναι από πάνω προς τα κάτω. Τώρα κάντε δεξί λικ στο σύνολο δεδομένων 'Analytical Hillshading' και επιλέξτε Move to Bottom από το μενού επιλογών που παρουσιάζεται. Αυτό θα αλλάξει τη σειρά σχεδίασης, τοποθετώντας τη σκίαση αναγλύφου κάτω από το σύνολο δεδομένων υψομέτρου (τα οποία πλέον εμφανίζονται πάλι πάνω στο χάρτη). Τώρα επιλέξτε το σύνολο δεδομένων υψομέτρου (κάνοντας αριστερό κλικ) και παρατηρήστε στην καρτέλα Settings του παραθύρου Properties. Βρείτε τον τις ρυθμίσεις προβολείς των παραμέτρων (Display section) και κάντε κλικ στη δεξιά στήλη της επιλογής Transparency. Τώρα πιέστε με τη σειρά, τα κουμπιά Apply και Execute. Εισάγετε την τιμή 30 και πιέστε το κουμπί Apply. Tώρα θα δείτε τις τιμές του υψομέτρου να σκιάζονται από το ανάγλυφο.
 
-Feel free to try other Transparency settings or even try other Shading Methods in the Analytical Hillshading module (in case you do not change the output dataset parameter, the changes will be written to the grid already created, i.e. you will see the changes in the map view immediately).
+Δοκιμάστε ελεύθερα άλλες ρυθμίσεις διαφάνειας ή ακόμη δοκιμάστε και άλλες μεθόδου σκίασης από το πρόγραμμα "Analytical Hillshading" (στην περίπτωση που δεν μεταβάλετε την παράμετρο για το σύνολο δεδομένων εξόδου -output dataset parameter- οι αλλαγές θα εγγραφούν στο grid που έχει ήδη δημιουργηθεί, και έτσι θα δείτε τις αλλαγές στο χάρτη αμέσως).
 
 .. image:: images/screenshots/1024x768/saga_withhillshade.png
     :scale: 80
 
-3D visualization
+3D Οπτικοποίηση
 ~~~~~~~~~~~~~~~~
-In a next step, you might like to visualize your map in 3D. Be sure your Map window is selected and press the Show 3D-View button in the tool bar. In the dialog popping up, select the grid system containing your elevation dataset and set the Mt. St. Helens dataset as the Elevation parameter. Once you press the Okay button, the 3D view of your map will show up. Hold the left mouse button pressed and move the mouse to rotate and tilt the map. Use the right mouse button to zoom in/out and shift the map. Also have a look at the tool bar of the 3D View: the buttons replicate the mouse operations and offer further functionality. To close the 3D view select the Close option from the Window menu.
+Σε επόμενο βήμα πιθανότατα να θέλετε να οπτικοποιήσετε το χάρτη σας σε τρεις διαστάσεις (3D Visualization). Σιγουρευτείτε πως το παράθυρο Map είναι επιλεγμένο και πατήστε το κουμπί Show 3D-View στη γραμμή εργαλείων. Στον αναδυόμενο διάλογο, επιλέξτε το σύστημα αναφοράς του κανάβου που περιέχει το σύνολο δεδομένων σας και επιλέξτε  τα δεδομένα Mt. St. Helens ως παραμέτρους του υψομέτρου (Elevation parameter). Όταν πατήσετε το κουμπί Okay, θα εμφανιστεί η τρισδιάστατη αναπαράσταση του χάρτη σας. Κρατώντας πατημένο το αριστερό πλήκτρο του ποντικιού, μετακινόντας το στην αντίθετη γωνία και απελευθερώντας το αριστερό πλήκτρο του ποντικιού (που ήταν δεσμευμένο τόσην ώρα) σας επιτρέπει να εστιάσετε σε μια συγκεκριμένη περιοχή ενδιαφέροντος. Κρατήστε το αριστερό κουμπί του ποντικιού πατημένο και κουνήστε το ποντίκι για να περιστρέψετε το χάρτη και να αλλάξετε την κλίση του. Χρησιμοποιήστε το δεξί κουμπί του ποντικιού για να εστιάσετε και να απομακρυνθείτε από μια περιοχή ενδιαφέροντος και να μετακινήσετε το χάρτη. Επίσης παρατηρήστε λίγο στη γραμμή εργαλείων 3D View: Τα κουμπιά της αντιγράγουν τις λειτουργίες του ποντικιού και παράλληλα προσφέρουν περισσότερη λειτουργικότητα. Για να κλείσετε την τρισδιάστατη οπτικοποίηση (3D View) επιλέξτε την επιλογή Close από το μενού Window.
 
 .. image:: images/screenshots/1024x768/saga_3d.png
     :scale: 80
 
-Creating Contour Lines
+Δημιουργία ισοϋψών καμπυλών
 ======================
-As a short introduction to SAGA vector capabilities, we will now generate 
-Contour Lines from the digital elevation model. This can be done by using 
-the **Shapes - Grid | Contour Lines From Grid** if you open the modules tab in the workspace, or you can equally well open the module using the menu: **Modules|Shapes|Shapes from Grid**. Choose your grid system and grid 
-(this has to be the elevation). You can leave the options as they are, but perhaps it is better to choose an equidistance of 50m instead of the standard 10m. 
-A few seconds later your contour map has been generated and you should find it back under the data tab in the workspace. Try opening your contour map in a new map. All contour lines now have the same colour, which is not that attractive. If you select your data set (in the workspace, data tab) and check the Settings in the Object Properties window, you can find a section: Display: color classification. You can change the classification from 'Unique symbol' to graduated color. Then you should still adjust the attribute which is used for this graduated color to the elevation. Press apply, and you are presented with coloured contour lines.
+Ως μια μικρή εισαγωγή στις δυνατότητες διανυσματικής επεξεργασίας του SAGA, θα δημιουργήσουμε τώρα ισοϋψείς καμπύλες από το ψηφιακό μοντέλο εδάφους. Αυτό μπορεί να γίνει χρησιμοποιώντας
+το **Shapes - Grid | Contour Lines From Grid** εάν ανοόξετε την καρτέλα modules στο worskpace, ή ισοδύναμα μπορείτε να ανοίξετε το πρόγραμμα χρησιμοποιώντας το μενού: **Modules|Shapes|Shapes from Grid**. Επιλέξτε το σύστημα αναφοράς κανάβου και τον κάναβο 
+(Αυτό θα πρέπει να είναι το υψόμετρο). Μπορείτε να αφήσετε τις επιλογές ως έχουν, αλλά πιθανότατα είναι προτιμότερο να επιλέξετε μια ισοδιάσταση των 50m, αντί των προεπιλεγμένων 10m. 
+Μερικά δευτερόλεπτα αργότερα ο χάρτης ισοϋψών καμπυλών έχει δημιουργηθεί και θα πρέπει να τον βρείτε κάτω από την καρτέλα data στο workspace. Δοκιμάστε να ανοίξετε το χάρτη ισοϋψών καμπυλών σε νέο χάρτη. Όλες οι ισοϋψείς καμπύλες, έχουν το ίδιο χρώμα, το οποίο δεν είναι και τόσο εκλυστικό. Αν επιλέξετε το σύνολο δεδομένων σας (στο workspace, καρτέλα data)και ελέγξετε τα Settings στο παράθυρο Object Properties,θα βρείτε ένα τομέα: Display: color classification. Μπορείτε να αλλάξετε την ταξινόμηση από 'Unique symbol' σε graduated color. Τότε, θα πρέπει επίσης να αλλάξετε το χαρακτηριστικό το οποίο χρησιμοποιείται για αυτό το graduated color στο υψόμετρο. Πιέστε apply, και θα σας παρουσιαστούν έγχρωμες ισοϋψείς καμπύλες.
 
-Check your history
+Ελέξτε το ιστορικό σας
 ~~~~~~~~~~~~~~~~~~
-If you select a dataset (eg your contour lines) in the workspace tab, you can switch the object properties tab to 'history' to review which module and which options were used to create the dataset. This information is also kept when you save your files (in .hshp and .hgrd files).
+Εάν επιλέξετε ένα σύνολο δεδομένων (πχ τις ισοϋψείς γραμμές) στην καρτέλα workspace, μπορείτε να αλλάξετε την καρτέλα object properties στο  'history' για να δείτε ποιο πρόγραμμα και ποιες ρυθμίσεις επελέγησαν ώστε να δημιουργηθεί το σύνολο δεδομένων. Αυτή η πληροφορία επίσης κρατάται όταν σώζεται τα αρχεία σας (σε μορφή αρχείου .hshp και .hgrd).
 
 .. image:: images/screenshots/1024x768/saga_contour_history.png
     :scale: 80
 
-Saving data
+Αποθήκευση δεδομένων
 ===========
-To save the work you have created you should open the data tab in the workspace, and right click on the file you want to save. SAGA will save grid files to its own native format (\*.sgrd) and shapefiles to the standard ESRI shapefile format (\*.shp). It is also possible to save the project, by choosing **File|Project|Save Project**. This will save all the map views and data settings, as well as offering to save the data files.
+To save the work you have created you should open the data tab in the workspace, and right click on the file you want to save. Το SAGA θα σώσει αρχεία κανάβου στη δική του τυποποίηση αρχείου (\*.sgrd) και shapefiles στην τυποποιημένη μορφή αρχείου της ESRI (\*.shp). Παρέχεται επίσης η δυνατότητα αποθήκευσης όλης της μελέτης, επιλέγοντας **File|Project|Save Project**. Αυτό θα σώσει όλα τα map views και τις ρυθμίσεις των δεδομένων (data settings) ενώ θα προσφέρει αποθήκευση των αρχείων δεδομένων.
 
-Importing/Exporting data
+Είσοδος/Έξαγωγή δεδομένων
 ========================
-If you want to import or export data different modules are present. Most useful is the module: Import/Export GDAL/OGR, which can be found in the **modules|file|GDAL/OGR menu**. Using this module many raster formats can be imported, including geotiff. The same module can also be used to export data to these formats.
+If you want to import or export data different modules are present. Το πιο χρήσιμο σε αυτό το πρόγραμμα: Import/Export GDAL/OGR, που μπορεί να βρεθεί στο μενού **modules|file|GDAL/OGR**. Χρηριμοποιώντας αυτό το πρόγραμμα μπορούν να εισαχθούν πολλές μορφές ψηφιακών εικόνων (raster formats) συμπεριλαμβανομένου του geotiff. Το ίδιο πρόγραμμα μπορεί να χρησιμοποιηθεί για εξαγωγή δεδομένων σε αυτές τις τυποποιήσεις.
 
-.. tip:: SAGA GIS grid format is supported by GDAL since version 1.7.0. Grid Files saved by SAGA can be opened by many other programs using GDAL. However, you must open the '\*.sdat' file and not the '\*.sgrd' file.
+.. Συμβουλή:: η τυποποίηση κανάβου του SAGA GIS υποστηρίζεται από την GDAL από την έκδοση 1.7.0. Αρχεία κανάβου αποθηκευμένα από το SAGA μπορούν να ανοιχτούν από πολλά προγράμματα που χρησιμοποιούν GDAL. Παρόλα αυτά, θα πρέπει να ανοίξετε αρχεία της μορφής '\*.sdat' και όχι της μορφής '\*.sgrd'.
 
-In this example we will use the digital elevation (SRTM) data from the region around Barcelona as you would download it from the web.
+Σε αυτό το παράδειγμα θα χρησιμοποιήσουμε τα ψηφιακά δεδομένα υψομέτρου (SRTM) από την περιοχή στα περίχωρα της Βαρκελώνης εάν μπορείτε/επιθυμείτε να τα κατεβάσετε από το διαδίκτυο.
 
-The data file we want to use is `SRTM_u03_n041e002.tif` and can be found 
-under `/home/user/data/raster` . You can import this using the Import/Export GDAL/OGR module, which can also be found in the **modules|file|GDAL/OGR menu**. 
+Το αρχείο δεδομένων που θέλουμε να χρησιμοποιήσουμε είναι το `SRTM_u03_n041e002.tif`και μπορεί να βρεθεί στη διαδρομή `/home/user/data/raster` . Μπορείτε να το εισάγετε, χρησιμοποιώντας το πρόγραμμα Import/Export GDAL/OGR, το οποίο μπορεί να βρεθεί επίσης στο μενού **modules|file|GDAL/OGR **. 
 
-After importing this dataset and opening it in a new window, you will most likely be disappointed: It looks all gray! Let's check what might be the cause: Some pixels near the coast seem to have a very small value (-32768) (you can check the value of a pixel by checking the Z: value in the status bar while moving your mouse over the grid).
+Αφού εισάγετε το σύνολο δεδομένων και το ανοίξετε σε νέο παράθυρο, πιθανότατα θα απογοητευτείτε: το χρώμα του είναι μόνο γκρι! Ας δούμε τι πιθανώς μπορεί να το προκάλεσε: μερικά εικονοστοιχεία κοντά στην ακτή, φένεται να έχουν πολύ μικρές τιμές (-32768) (μπορείτε να ελέγξετε την τιμή ενός εικονοστοιχείου, επιλέγοντας το Z: value στη γραμμή εργαλείων status καθώς κινείτε το ποντίκι σας πάνω από τον κάναβο).
 
-These pixels actually have no data, so we should adjust the nodata settings: in the object properties window (after selecting the dataset in the workspace window), set the maximum no data value to -32768 and apply. 
-After doing that, we can reset our color scale to fit the range of the data. An easy method is right clicking on the grid in the workspace and choosing 'Classification|Set Range to minimum maximum'.
+Αυτά τα εικονοστοιχεία στην πραγματικότητα δεν έχουν δεδομένα, έτσι θα πρέπει να μεταβάλλουμε τις ρυθμίσεις nodata:στο παράθυρο object properties (αφού επιλέξετε το σύνολο δεδομένων στο παράθυρο workspace), ρυθμίστε τη μέγιστη τιμή no data σε -32768 και εφαρμόστε την. 
+Αφού γίνει αυτό, μπορούμε να ρυθμίσουμε από την αρχή την κλίμακα χρώματος για να ταιριάζει στο εύρος των δεδομένων. Μια εύκολη μέθοδος είναι κάνοντας δεξί κλικ στον κάναβο στο workspace και στη συνέχεια επιλέγετε 'Classification|Set Range to minimum maximum'.
 
-You are now ready to repeat the first steps to create a hillshaded map or explore some of the other modules of SAGA!
+Τώρα είστε έτοιμοι για να επαναλάβετε τα πρώτα βήματα δημιουργίας ενός χάρτη σκίασης αναγλύφου, ή να εξερευνήσετε μερικές από τις υπόλοιπες δυνατότητες του SAGA!
 
-More Information
+Περισσότερες πληροφορίες
 ================
-This live dvd contains the SAGA userguide:
+Αυτό το live dvd περιέχει τον οδηγό χρήστη του SAGA:
  * `SAGA userguide <file:///usr/local/share/saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
-More documentation can be found on the SAGA website:
+Περισσότερες αναφορές μπορούν να βρεθούν στην ιστοσελίδα του SAGA:
  * http://www.saga-gis.org
-and specifically in the documentation archive:
+και ειδικότερα στο αρχείο τεκμηρίωσης:
  * http://www.saga-gis.org/en/about/references.html 
  * http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/ 
