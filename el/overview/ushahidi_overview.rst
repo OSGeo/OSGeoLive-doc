@@ -1,6 +1,6 @@
-:Author: Henry Addo
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Henry Addo
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _ushahidi-overview:
 
@@ -14,67 +14,65 @@
 Ushahidi
 ========
 
-Incident Timeline & Mapping
+Χρονοσειρά Γεγονότων και Χαρτογράφηση
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
-platform that allows anyone to gather distributed data via SMS, email or 
-web and visualize it on a map or timeline. Our goal is to create tools for 
-democratizing information, increasing transparency and lowering the barriers 
-for individuals to share their stories.
+Το `Ushahidi <http://www.ushahidi.com/>`_ είναι μια ελευθερη και ανοιχτή πλατφόρμα
+που επιτρέπει στον καθένα να μαζέψει κατανεμημένα δεδομένα μέσω SMS, email ή 
+μέσω διαδικτύου και να τα απεικονίσει πάνω σε ένα χάρτη ή σε μια χρονοσειρά. Ο στόχος μας είναι να δημιουργήσουμε εργαλεία 
+για την δημοκρατικότητα της πληροφορίας, την αύξηση της διαφάνειας και την ελλάτωση των εμποδίων 
+για μεμονομένα άτομα να μοιραστούν τις πληροφορίες και τις ιστορίες τους.
 
 .. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Ushahidi, which means "testimony" in Swahili, was initially developed to
-map reports of violence in Kenya after the post-election fallout at the
-beginning of 2008. Ushahidi's roots are in the collaboration of Kenyan
-citizen journalists during a time of crisis. The website was used to map
-incidents of violence and peace efforts throughout the country based on
-reports submitted via the web and mobile phone. This initial deployment of
-Ushahidi had 45,000 users in Kenya, and was the catalyst for us realizing
-there was a need for a platform based on it, which could be use by others
-around the world.
+Το Ushahidi, που σημαίνει "μαρτυρία" στα Σουαχίλι, αρχικά αναπτύχθηκε
+για την χαρτογράφηση αναφορών βίας στην Κένυα μετά τα γεγονότα που ακολουθησαν τις εκλογές του 2008. Οι ρίζες του Ushahidi είναι στην συνεργασία πολιτών και δημοσιογράφων της Κένυας
+κατά τη διάρκεια στιγμών κρίσης. Η ιστοσελίδα χρησιμοποιήθηκε για τη χαρτογράφηση
+κρουσμάτων βίας και ειρηνευτικές ενέργειες σε όλη τη χώρα, βασισμένη σε αναφορές που στάλθηκαν
+μέσω διαδικτύου ή κινητών τηλεφώνων. Αυτή η αρχική χρήση του
+Ushahidi είχε συνολικά 45,000 χρήστες στην Κένυα, και αυτό ήταν καταλυτικό για την κατανόηση ότι υπήρχε η ανάγκη για μια τέτοια πλατφόρμα, την οποία θα μπορούσαν
+να χρησιμοποιήσουν και άλλοι στον κόσμο.
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
-* Interactive map.
-* Timeline.
-* Ability to subscribe to report alerts based on proximity.
-* CSS based theming.
-* 5 minute web installer.
-* Ability to upload and download mass reports.
-* Ability to layer KML/KMZ files on the map.
-* Supports custom pages and tabs.
-* Site statitics and analytics
+* Διαδραστικός χάρτης.
+* Χρονοσειρές.
+* Δυνατότητα εγγραφής για αναφορά ειδοποιήσεων βάσει εγγύτητας.
+* Στύλ βάσει CSS.
+* Εγκατάσταση σε 5 λεπτά.
+* Δυνατότητα μεταφόρτωσης μαζικών αναφορών.
+* Δυνατότητα χρήσης αρχείων KML/KMZ στον χάρτη.
+* Υποστήριξη ιδιοποιημένων σελίδων.
+* Στατιστικά ιστοσελίδας
 
 Επίδειξη
 ----
 
-* `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
+* `Δοκιμαστική εφαρμογή Ushahidi <http://demo.ushahidi.com/>`_
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.ushahidi.com
+**Κεντρική Ιστοσελίδα:** http://www.ushahidi.com
 
 **Άδεια:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.1.0
+**Έκδοση Λογισμικού:** 1.1.0
 
-**API Interfaces:** PHP
+**Προγραμματιστικές διεπαφές:** PHP
 
-**Supported Platforms:** Linux, Mac, Windows
+**Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 
-**Support:** http://forums.ushahidi.com
+**Υποστήριξη:** http://forums.ushahidi.com
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/ushahidi_quickstart.html>`_
+* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/ushahidi_quickstart.html>`_
 
 

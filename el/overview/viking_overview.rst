@@ -14,15 +14,15 @@
 Viking
 ======
 
-Manage and plot GPS data
+Διαχείριση και οπτικοποίηση δεδομένων GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ is a
-GPS data editor, analyzer and viewer. Viking aims to be easy to use,
-yet powerful in accomplishing a wide variety of GPS related tasks.
-It uses a hierarchical layering system to organize GPS data, maps,
-and other layer types with spatial data, such as coordinate lines.
-It works with OpenStreetMap data and various online tile servers.
+Το `Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ είναι ένα λογισμικό
+επεξεργασίας, ανάλυσης και οπτικοποίησης δεδομένων GPS. Το Viking σκοπεύει να είναι εύχρηστο,
+αλλά ταυτόχρονα ισχυρό στο να επιτυγχάνει πληθώρα από επεξεργασίες σχετικές με GPS.
+Χρησιμοποιεί ένα ιεραρχικό σύστημα επιπέδων για την οργάνωση δεδομένων GPS, χαρτών,
+και άλλυς τύπους επιπέδων χωρικών δεδομένων, όπως οι γραμμές συντεταγμένων.
+Λειτουργεί με δεδομένα OpenStreetMap και με άλλους εξυπηρετητές τετραγωνιδίων στο διαδίκτυο.
 
 
 Βασικά Χαρακτηριστικά
@@ -33,41 +33,41 @@ It works with OpenStreetMap data and various online tile servers.
   :alt: screenshot
   :align: right
 
-* Uploading and downloading waypoints, tracks to/from GPS.
+* Μεταφόρτωση σημείων προορισμού, από και προς το GPS.
 
-* Realtime GPS tracking and track recording.
+* Καταγραφή σημείων GPS σε πραγματικό χρόνο.
 
-* Preparing tracks and waypoints for trips using maps from services such as Googlemaps, Terrasever. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
+* Προετοιμασία διαδρομών και σημείων προορισμού για ταξίδια με τη χρήση υπηρεσιών όπως τα Googlemaps, Terrasever. Χρειάζεται να μεταφορτώσετε τα δεδομένα στο GPS σας πριν ξεκινήσετε. Οι χαρτες σε συνδιασμό με τα σημεία και τη διαδρομή μπορούν να τυπωθούν.
 
-* After trips, tracks and waypoints from GPS can be downloaded, stored, managed and reused in later trips.
+* Μετά τα ταξίδια, οι διαδρομές και τα σημεία μπορούν να κατέβουν από το GPS, να αποθηκευτούν, να διαχειριστούν και να επαναχρησιμοποιηθούν σε μελλοντικά ταξίδια.
 
-* Analyzing OHV and hiking trips, understanding where you went and how close you came to an object.
+* Ανάλυση διαδρομών OHV και ορειβασίας, με δυνατότητα ανάλυσης για το πόσο κοντά σε καποιο σημείο φτάσατε.
 
-* Making waypoints and tracks to follow to easily get someplace you've never been before or don't have GPS data for but Terraserver maps exist for it.
+* Η δημιουργία σημείων και διαδρομών για να πάτε κάπου είναι εύκολη ακόμα και αν δεν έχετε δεδομένα GPS ή δεν έχετε ξαναπάει στην περιοχή αυτή, αρκεί να υπάρχουν χάρτες Terraserver.
 
-* Making maps with coordinate lines.
+* Δημιουργία χαρτών με γραμμές συντεταγμένων.
 
-* Analyzing speed at different places, adding waypoints where you forgot to mark one but did slow down or stop.
+* Ανάλυση ταχύτητας σε διαφορετικά μέρη, προσθήκη σημείων που ξεχάσατε να προσθέσετε κατά τη διάρκεια του ταξιδιού.
 
 Λεπτομέρειες
 -------
 
-**Website:** http://sourceforge.net/apps/mediawiki/viking/
+**Κεντρική Ιστοσελίδα:** http://sourceforge.net/apps/mediawiki/viking/
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 0.9.9
+**Έκδοση Λογισμικού:** 0.9.9
 
-**Supported Platforms:** GNU/Linux, MS Windows
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, MS Windows
 
-**API Interfaces:** C, GTK+ 2
+**Προγραμματιστικές διεπαφές:** C, GTK+ 2
 
-**Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
+**Υποστήριξη:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/viking_quickstart.html>`_
+* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/viking_quickstart.html>`_
 
 
