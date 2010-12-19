@@ -35,7 +35,7 @@ What makes Geomajas unique is its strong server side focus. The processing, styl
   :alt: Geomajas Showcase
   :align: right
 
-Core Features
+Características clave
 -------------
 
 * Integrated client-server architecture
@@ -47,29 +47,29 @@ Core Features
 * Multiple front-end technologies
 * Cross browser support, without the need for browser plug-ins
 
-Implemented Standards
+Standars Implementados
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
-Details
+Detalles
 -------
 
 **Website:** http://www.geomajas.org/
 
 **Licence:** AGPL
 
-**Software Version:** 1.6
+**Versión Software:** 1.6
 
-**Supported Platforms:** Windows, Linux, Mac
+**Plataformas soportadas:** Windows, Linux, Mac
 
-**API Interfaces:** Java
+**Interfaces API:** Java
 
 **Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-Quickstart
+Guía rápida
 ----------
 
 * `Quickstart documentation <../quickstart/geomajas_quickstart.html>`_

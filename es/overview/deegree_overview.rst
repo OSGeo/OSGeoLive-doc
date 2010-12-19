@@ -91,7 +91,7 @@ Some example features
    * requests: Get3DFeatureInfo, GetView
 
 
-Implemented Standards
+Standars Implementados
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
@@ -103,7 +103,7 @@ Implemented Standards
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
 * OGC Sensor Observation Service (SOS) 1.0.0
 
-Details
+Detalles
 -------
 
 **Website:** http://deegree.org
@@ -112,14 +112,14 @@ Details
 
 **Software Version:** 2.3
 
-**Supported Platforms:** Windows, Linux
+**Platformas soportadas:** Windows, Linux
 
-**API Interfaces:** Java
+**Interfaces API:** Java
 
 **Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
-Quickstart
+Guía rápida
 ----------
 
 * `Quickstart documentation <../quickstart/deegree_quickstart.html>`_

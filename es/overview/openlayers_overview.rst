@@ -1,6 +1,6 @@
-:Author: OSGeo Live
+:Autor: OSGeo Live
 :Version: osgeo-live4.0
-:License: Creative Commons
+:Licencia: Creative Commons
 
 .. _openlayers-overview:
 
@@ -34,7 +34,7 @@ mapping tools and widgets, similar to the Google Maps API. All functionally
 runs inside the web browser, which makes OpenLayers easy to install, without
 any server side dependencies.
 
-Core Features
+Características clave
 -------------
 
 * Simple to use Javascript API, designed to make development easy
@@ -53,7 +53,7 @@ Core Features
   
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
-Details
+Detalles
 -------
 
 **Website:** http://openlayers.org
@@ -67,7 +67,7 @@ Details
 **Support:** http://trac.openlayers.org 
 
 
-Quickstart
+Guía rápida
 ----------
 
 * `Quickstart documentation <../quickstart/openlayers_quickstart.html>`_
