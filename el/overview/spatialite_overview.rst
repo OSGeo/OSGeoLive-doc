@@ -1,6 +1,6 @@
-:Author: Pirmin Kalberer
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: Pirmin Kalberer
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
 .. _spatialite-overview:
 
@@ -17,11 +17,11 @@ SpatiaLite
 Χωρική Βάση Δεδομένων
 ~~~~~~~~~~~~~~~~
 
-SpatiaLite is an SQLite_ database engine with spatial functions added. 
+Η SpatiaLite είναι βασισμένη στην βάση δεδομένων SQLite_ με την προσθήκη χωρικών λειτουργιών. 
 
-SQLite is a popular DBMS, simple, robust, easy to use and really lightweight. Each SQLite database is simply a file; you can freely copy it, compress it, send it on a LAN or WEB with no complication at all.
+Η SQLite είναι μια δημοφιλής βάση δεδομένων, απλή, δυνατή, εύκολη στη χρήση και πραγματικά ελαφριά (από πλευράς απαιτήσεων υπολογιστικών πόρων). Κάθε βάση δεδομένων SQLite είναι απλά ένα αρχείο; μπορείτε να το αντιγράψετε, να το συμπιέσετε, να το μεταφέρετε μέσω δικτύου χωρίς κανένα πρόβλημα.
 
-The files are also portable; the same database file will work on Windows, Linux, MacOs etc.
+Τα αρχεία είναι φορητά, η ίδια βάση δεδομένων θα λειτουργήσει σε Windows, Linux, MacOs κλπ.
 
 .. _SQLite: http://www.sqlite.org/
 
@@ -33,33 +33,33 @@ The files are also portable; the same database file will work on Windows, Linux,
 Βασικά Χαρακτηριστικά
 -------------
 
-The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
+Η SpatiaLite ενεργοποιεί χωρικά την SQLite ώστε να υποστηρίζει χωρικά δεδομένα συμβατά με τις προδιαγραφές του OGC.
 
-* Supports standard WKT and WKB formats
-* Implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
-* The complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
-* Supports full Spatial metadata along the OpenGis specifications
-* Supports importing and exporting to shapefiles
-* Supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
-* Supports locale charsets via GNU libiconv
-* Implements a true Spatial Index based on the SQLite's RTree extension
-* The VirtualShape extension enables SQLite to access shapefiles as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external shapefiles, with no need for importing or converting them
-* The VirtualText extension enables SQLite to access CSV/TxtTab files as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external CSV/TxtTab files, with no need for importing or converting them
-* The GUI tool supports all this, in an user friendly way
+* Υποστηρίζει τα πρότυπα WKT and WKB
+* Υλοποιεί χωρικές συναρτήσεις SQL όπως οι AsText(), GeomFromText(), Area(), PointN() και παρόμοιες
+* Το πλήρες σύνολο των χωρικών συναρτήσεων OpenGis υποστηρίζεται μέσω GEOS, με συναρτήσεις όπως Overlaps(), Touches(), Union(), Buffer() ..
+* Υποστηρίζει πλήρως τα χωρικά μεταδεδομένα από τις προδιαγραφές OpenGis
+* Υποστηρίζει εισαγωγή και εξαγωγή, από και πρός shapefiles
+* Υποστηρίζει αλλαγή προβολικού συστήματος μέσω PROJ.4 και των κωδικών EPSG
+* Υποστηρίζει τοπικά συστήματα κωδικοποίησης χαρακτήρων μέσω του GNU libiconv
+* Υποστηρίζει χωρικα ευρετήρια βασισμένα στην επέκταση της SQLite με το RTree
+* Η επέκταση VirtualShape δίνει τη δυνατότητα στην SQLite να έχει πρόσβαση σε αρχεία shapefile σαν εικονικούς πίνακες 
+* Μπορούν οι χρήστες να εκτελούν ερωτήματα SQL σε εξωτερικά αρχεία shapefile, χωρίς την ανάγκη εισαγωγής ή μετατροπής τους
+* Η επέκταση VirtualText δίνει τη δυνατότητα στην SQLite να έχει πρόσβαση σε αρχεία CSV/TxtTab σαν εικονικούς πίνακες 
+* Μπορούν οι χρήστες να εκτελούν ερωτήματα SQL σε εξωτερικά αρχεία CSV/TxtTab, χωρίς την ανάγκη εισαγωγής ή μετατροπής τους
+* Το γραφικό περιβάλλον υποστηρίζει τις παραπάνω λειτουργίες με φιλικό προς τον χρήστη τρόπο
 
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.gaia-gis.it/spatialite/
+**Κεντρική Ιστοσελίδα:** http://www.gaia-gis.it/spatialite/
 
-**Licence:** MPL v1.1 and GPL v3
+**Άδεια:** MPL v1.1 και GPL v3
 
-**Software Version:** 2.3.1 / 2.4 beta
+**Έκδοση Λογισμικού:** 2.3.1 / 2.4 beta
 
-**Supported Platforms:** Linux, Mac, Windows
+**Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 
 **Προγραμματιστική διεπαφή (API):** C++
 
@@ -67,6 +67,6 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/spatialite_quickstart.html>`_
+* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/spatialite_quickstart.html>`_
 
 

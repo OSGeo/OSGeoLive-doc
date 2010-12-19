@@ -17,8 +17,8 @@ QGIS mapserver
 Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~
 
-QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
-The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
+Ο QGIS mapserver παρέχει μια υπηρεσία web map service (WMS) βασισμένη σε βιβλιοθήκες από το λογισμικό Quantum GIS (QGIS).
+Η στενή συσχέτιση με το QGIS σημαίνει ότι οι χάρτες που δημιουργούνται από λογισμικό  μπορούν εύκολα να δημοσιευθούν στο διαδίκτυο με μια απλή αντιγραφή του αρχείου έργου του QGIS στον φάκελο του εξυπηρετητή, και οι διαδικτυακοί χάρτες μοιάζουν ίδιοι με αυτούς που δημιουργήθηκαν στην επιφάνεια εργασίας.
 
 .. image:: images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
@@ -29,11 +29,11 @@ The close integration with QGIS means desktop maps can easily be exported to web
 Βασικά Χαρακτηριστικά
 -------------
 
-* Web Map Service (WMS) implementation
-* Good integration with desktop GIS (QGIS)
-* Easy to use
-* Supports Styled Layer Descriptor (SLD)
-* Advanced cartographic symbolisation
+* Υλοποίηση Web Map Service (WMS)
+* Διασύνδεση με το λογισμικό GIS (QGIS)
+* Εύκολο στη χρήση
+* Υποστηρίζει το πρότυπο Styled Layer Descriptor (SLD)
+* Σύνθετοι χαρτογραφικοί συμβολισμοί
 
 Υλοποιημένα Πρότυπα
 ---------------------
@@ -44,10 +44,10 @@ The close integration with QGIS means desktop maps can easily be exported to web
 Λεπτομέρειες
 -------
 
-**Website:** http://karlinapp.ethz.ch/qgis_wms/
+**Κεντρική Ιστοσελίδα:** http://karlinapp.ethz.ch/qgis_wms/
 
 **Άδεια:** GPL
 
-**Supported Platforms:** Windows, Linux
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 
-**Commercial Support:** http://www.sourcepole.com/
+**Εμπορική Υποστήριξη:** http://www.sourcepole.com/

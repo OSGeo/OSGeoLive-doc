@@ -13,14 +13,14 @@
 R Spatial Task View
 ===================
 
-Statistical Programming
+Στατιστικός Προγραμματισμός
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-R is a powerful, widely used software environment for statistical computing and graphics which excels at analyzing and processing geographic data sets. Geospatial analysis capabilities within R are available in R packages (modules that extend the capabilities of R) that provide access to a large number of traditional and state of the art algorithms, often before they are available in other open source or proprietary software. R and it's packages are able to process point, line, polygon and grid data. Users can accomplish a broad array of tasks such as: image classification, statistical analysis to infer spatial relationships and patterns of features, and others listed in the core features below. The functions available via R compliment and advance capabilities found in GIS and image processing software.
+Το περιβάλλον R είναι ένα εξαιρετικά ισχυρό περιβάλλον για υπολογισμό στατιστικών και γραφημάτων το οποίο καλύπτει την ανάλυση και επεξεργασία και γεωγραφικών δεδομένων. Η γεωανάλυση με το R είναι διαθέσιμη μέσω πακέτων R (αρθρώματα (modules) τα οποία επεκτείνουν το υπάρχον περιβάλλον R) και παρέχουν πρόσβασή τόσο σε παραδοσιακές όσο και σε τεχνολογίες/αλγόριθμους αιχμής: συνήθως δε προηγούνται και αυτών των άλλων ανοιχτών ή εμπορικών πακέτων. Το R με τα πακέτα του είναι ικανό να επεξεργαστεί σημειακά, γραμμικά επιφανειακά ή δεδομένα κανάβου. Οι χρήστες του μπορούν να εκτελέσουν μια πληθώρα επεξεργασιών όπως: ταξινόμηση εικόνων, στατιστική ανάλυση σε δια-χωρικές συσχετίσεις ή/και χαρακτηριστικά προτύπων και πολλές άλλες οι οποίες αναφέρονται στα χαρακτηριστικά του: οι διαθέσιμες μέσω R συναρτήσεις και πρόσθετες τεχνικές οι οποίες περιλαμβάνονται στα πακέτα λογισμικών για Γεωγραφικά Συστήματα Πληροφορικών και επεξεργασίας εικόνας. 
 
-The core R interface is a command line window which provides excellent flexibility and control but tends to lengthen the time required to become a proficient user when compared to software with a graphical user interface (GUI). Fortunately R is well documented on the web site which eases the learning process. Scripts are often used to automate processing steps and there are  projects that are developing open source GUIs for R (http://rwiki.sciviews.org/doku.php?id=guis:guis). 
+Ο πυρήνας του R είναι ένα παράθυρο με μια γραμμή εντολών η οποία παρέχει εξαίρετη ευελιξία και έλεγχο. Αυτό όμως έχει σαν συνέπεια τον αυξημένο χρόνο που χρειάζεται κάποιος ώστε να καλύψει το αρχάριο επίπεδο χρήσης σε σύγκριση πάντα με ανάλογα πακέτα με γραφικό περιβάλλον διεπαφής (GUI). Ευτυχώς το R είναι εξαιρετικά τεκμηριωμένο στον ιστοχώρο του και έτσι διευκολύνει πολύ την εκμάθηση. Παράλληλα ομαδικές εντολές (scripts) χρησιμοποιούνται συχνά και έτσι αυτοματοποιούνται πολλά βήματα. Παράλληλα υπάρχουν εργασίες (project) τα οποία αναπτύσσουν ελεύθερα λογισμικά, φιλικά εργαλεία χρήσης με γραφική διεπαφή(http://rwiki.sciviews.org/doku.php?id=guis:guis). 
 
-R is an implementation of the S programming language and there is significant compatibility between R and legacy S and S-Plus code as well as between R and the modern commercial version of S, TIBCO Spotfire S+. This comparability makes it possible to convert different versions of S code to run on R without major code modifications.  
+Το περιβάλλον R είναι μια υλοποίηση της γλώσσας προγραμματισμού S και υπάρχει σημαντική συμβατότητα του R με την S και την S-Plus καθώς και με νέες εμπορικές υλοποιήσεις της όπως S, TIBCO Spotfire S+. Αυτή η συμβατότητα μας επιτρέπει να μετατρέψουμε διάφορες εκδόσεις της S σε R χωρίς μεγάλες διαφοροποιήσεις στον κώδικα.  
 
 .. image:: images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
@@ -30,27 +30,27 @@ R is an implementation of the S programming language and there is significant co
 Βασικά Χαρακτηριστικά
 -------------
 
-* Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
-* Hundreds of community contributed add-on packages for spatial statistics
-* Classes for spatial data
-* Handling spatial data
-* Reading and writing spatial data
-* Point pattern analysis
-* Geostatistics
-* Disease mapping and areal data analysis
-* Spatial regression
-* Ecological analysis
+* Πλήρης γλώσσα αντικειμενοστραφούς προγραμματισμού σχεδιασμένη για στατιστική και παρόμοιες/σχετικές μαθηματικές εφαρμογές.
+* Εκατοντάδες κοινοτήτων οι οποίες συνεισφέρουν διαρκώς πρόσθετες εφαρμογές χωρικών στατιστικών επεξεργασιών
+* Κατηγορίες/Κλάσεις/Δομές για χωρικά δεδομένα
+* Διαχείριση χωρικών δεδομένων
+* Είσοδος και έξοδος χωρικών δεδομένων
+* Σημειακή ανάλυση προτύπων
+* Γεωστατιστική
+* Χαρτογράφηση ασθενειών/φαινομένων διασποράς και περιφερειακή ανάλυση δεδομένων
+* Χωρική παλινδρόμηση
+* Οικολογική ανάλυση
 
 Λεπτομέρειες
 -------
 
-**Website:** http://cran.r-project.org
+**Κεντρική Ιστοσελίδα:** http://cran.r-project.org
 
 **Άδεια:** GPL
 
-**Software Version:** 2.11.1
+**Έκδοση Λογισμικού:** 2.11.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://cran.r-project.org/web/views/Spatial.html
+**Υποστήριξη από την κοινότητα:** http://cran.r-project.org/web/views/Spatial.html
 

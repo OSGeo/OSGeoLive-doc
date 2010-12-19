@@ -16,9 +16,8 @@ OpenJUMP GIS
 Λογισμικό GIS
 ~~~~~~~~~~~
  
-OpenJUMP is an easy to use and powerful deskstop GIS that enables users
-to edit, analyse, conflate, save and display geographic data.
-It is also an excellent framework for rapid prototyping to develop custom GIS functions.
+Το OpenJUMP είναι ένα λογισμικό GIS, ευκολο στη χρήση που επιτρέπει στους χρήστες του την επεξεργασία, ανάλυση, αποθήκευση και οπτικοποίηση γεωγραφικών δεδομένων.
+Είναι επιπλέον ένα εξαιρετικό περιβάλλον για την ανάπτυξη νέων αλγορίθμων σε περιβάλλον GIS.
 
 .. image:: images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
@@ -28,54 +27,54 @@ It is also an excellent framework for rapid prototyping to develop custom GIS fu
 Βασικά Χαρακτηριστικά
 -------------
 
-* Data Formats
+* Πρότυπα δεδομένων
 
-    * reads (files): GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
-    * reads (DB): PostGIS, ArcSDE*, Oracle* and MySQL*
-    * writes: GML, SHP, DXF*, PostGIS*, JML & JPG
-    * supports: OGC WMS & WFS (-T), GML 2, SLD
-    * note that formats marked with a (*) come with an extra plugin
+    * Ανάγνωση αρχείων: GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
+    * Ανάγνωση βάσεων δεδομένων: PostGIS, ArcSDE*, Oracle* και MySQL*
+    * Εγγραφή: GML, SHP, DXF*, PostGIS*, JML & JPG
+    * Υποστήριξη: OGC WMS & WFS (-T), GML 2, SLD
+    * Τα πρότυπα που σημειώνονται με (*) παρέχονται με κάποιο πρόσθετο
 
-* Editing & Conflation
+* Επεξεργασία και Συγκερασμός δεδομένων
 
-    * drawing points, lines, polygons, circles
-    * adding, moving, deleting vertices
-    * rotating, scaling, auto-complete polygon
-    * cut, merge, simplify polygons and lines
-    * warping, quality assurance tools*
+    * σχεδιασμός σημείων, γραμμών, πολυγώνων και κύκλων
+    * Προσθήκη, μετακίνηση και διαγραφή κόμβων
+    * Περιστροφή, κλίμακα, και αυτόματη συμπλήρωση πολυγώνων
+    * αποκοπή, συνένωση, γενίκευση πολυγώνων και γραμμών
+    * μετασχηματισμός και εργαλεία ελέγχου ποιότητηας*
 
-* (Vector) Analysis & Query
+* Ανάλυση και Ερωτήματα
 
-    * spatial and attribute query functions
-    * calculating length, area, centroid, buffer, convex hull,...
-    * topology tools: line noder, polygonizer, planar graph,...
-    * attribute transfer tools (1:1 transfer, or n:1 transfer)
-    * raster analysis via SEXTANTE connector
+    * Συναρτήσεις περιγραφικών και χωρικών ερωτημάτων
+    * Υπολογισμός μηκών, εμβαδών, κεντροειδούς, ζώνης επιροής...
+    * Εργαλεία τοπολογίας: line noder, polygonizer, planar graph,...
+    * Εργαλεία μεταφοράς περιγραφικών χαρακτηριστικών (μεταφορά 1:1, ή n:1)
+    * Ανάλυση εικονιστικών δεδομένων μέσω της σύνδεσης με SEXTANTE
 
-* Customization
+* Ανάπτυξη
 
-    * provides an API, scripting via BeanShell and Java Python
-    * (Java) plugin-system
+    * Παρέχει προγραμματιστική διεπαφή, δυνατότητα scripting μέσω BeanShell και Java Python
+    * Σύστημα προσθέτων Java
    
 
 Υλοποιημένα Πρότυπα
 ---------------------
 
-.. Writing Tip: List OGC or related standards supported.
+.. Συμβουλή: Δημιουργία λίστας σχετικά με τα υποστηριζόμενα πρότυπα.
 
-* OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
+* Υποστήριξη προτύπων OGC: GML 2, SFS, WMS, WFS, WFS-T, SLD
 
 Λεπτομέρειες
 -------
 
-**Website:** http://www.openjump.org
+**Κεντρική Ιστοσελίδα:** http://www.openjump.org
 
 **Άδεια:** GPL
 
-**Software Version:** 1.3
+**Έκδοση Λογισμικού:** 1.3
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://www.openjump.org/support.html
+**Υποστήριξη από την κοινότητα:** http://www.openjump.org/support.html
 
-**Commercial Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+**Εμπορική Υποστήριξη:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
