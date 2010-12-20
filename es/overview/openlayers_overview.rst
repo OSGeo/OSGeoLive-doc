@@ -20,7 +20,7 @@
 OpenLayers
 ==========
 
-Browser GIS Client
+Cliente ligero GIS
 ~~~~~~~~~~~~~~~~~~
 
 .. image:: images/screenshots/800x600/openlayers-basic.png
@@ -28,32 +28,28 @@ Browser GIS Client
   :alt: screenshot
   :align: right
 
-OpenLayers makes it easy for web developers to embed dynamic maps, from a
-multitude of sources, in any web page. OpenLayers provides an extensive set of
-mapping tools and widgets, similar to the Google Maps API. All functionally
-runs inside the web browser, which makes OpenLayers easy to install, without
-any server side dependencies.
+OpenLayers permite a los desarrolladores Web integrar componente de mapas dinámicos fácilmente, desde multitud de fuentes de información, en una página Web. OpenLayers proporciona un conjunto de componentes y herramientas de desarrollo de funcionalidades de *mapping* similara al API de Google Maps. Toda la funcionalidad corre en el navegador Web, lo que hace fácil la instalación de OpenLayers sin ningún tipo de dependencia de la parte servidora.
 
-Core Features
+Propiedades Fundamentales
 -------------
 
-* Simple to use Javascript API, designed to make development easy
-* Support for standard and customized protocols for interacting with servers
-* Tools to create custom user interfaces simply
-* Support for in-browser data rendering (using SVG, VML, or Canvas technologies), supporting the development of advanced in-browser maps
-* Ability to load map layers from many sources:
+* Uso simple de un API Javascript, diseñado para el desarrollo fácil de aplicaciones
+* Soporte de protocolos estandar y customizados para interactuar con los servidores
+* Herramientas para crear interfaces de usuario a medida
+* Soporta renderización de datos en el navegador (utilizando tecnologías tipo SVG, VML, o Canvas), permitiendo el desarrollo de mapas avanzados en navegador Web.
+* Carga de fuentes de mapas de diversas fuentes:
   
-  * Commercial Layers: Google, Bing, Yahoo
+  * Capas comerciales: Google, Bing, Yahoo
   
-  * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  * Estándares OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Others: ArcGI, Images, MapGuide, MapServer, TileCache
+  * Otros: ArcGIS Images, MapGuide, MapServer, TileCache
 
-* Ability to parse vector data and metadata in many formats:
+* Capacidad de parseo de datos vectoriales y metadatos en muchos formatos:
   
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
-Details
+Detalles
 -------
 
 **Website:** http://openlayers.org
@@ -67,9 +63,9 @@ Details
 **Support:** http://trac.openlayers.org 
 
 
-Quickstart
+Guía de inicio rápido
 ----------
 
-* `Quickstart documentation <../quickstart/openlayers_quickstart.html>`_
+* `Guia de inicio rápido <../quickstart/openlayers_quickstart.html>`_
 
 

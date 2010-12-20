@@ -1,44 +1,46 @@
-Contact Us
-==========
+Contactar con nosotros
+============================
 
-OSGeo Live development is coordinated via email and internet chat
-(IRC) as detailed on the
-`OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
+El desarrollo de OSGeo Live se coordina a través de correo electrónico y *chat*
+(IRC) tal y como se detalla en `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
-Community Support
-=================
 
-If you have any questions, comments, or run into any problems, please drop us a
-note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
+Soporte de comunidad
+=======================
 
-Searchable archives of the mailing list are hosted by
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+Si usted tiene alguna pregunta, comentario o le surge algún problema, por favor
+déjenos una nota en nuestra `lista de correo <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ 
+(en inglés preferentemente).
 
-IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
-assistance.
+En `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ y en
+`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_
+existen archivos en los que es posible realizar búsquedas.
 
-A wealth of information is available on our
- `Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a 
- `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_
-is also available.
+Los usuarios de IRC tal vez prefieran entrar en los canales #osgeolive y #osgeo
+en el servidor ``freenode.net`` para asistencia en tiempo real.
 
-Commercial Support
-==================
+Existe bastante información en nuestra página en el 
+`wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_
+de OSGeo, y también hay disponible un sistema de
+`gestión de peticiones y errores <https://trac.osgeo.org/osgeo/report/10>`_.
+
+
+Soporte comercial
+=====================
 
 .. image:: images/logos/lisasoftlogo.jpg
   :scale: 100%
   :alt: LISAsoft
-  :target: http://lisasoft.com
 
-LISAsoft provide commercial support for the building of the
-Live DVD, as well as many of the applications packaged in it.
-Details at: http://lisasoft.com
+LISAsoft proporciona soporte comercial para la construcción del Live DVD, así
+como muchas de las aplicaciones empaquetadas en él. Más detalles en
+http://www.lisasoft.com/LISAsoft/support.html
 
-Most packaged applications have both community and commercial support
-offerings for them. Refer to specific application descriptions linked from the `Contents <overview/overview.html>`_ for details.
+Muchas de las aplicaciones empaquetadas tienen tanto soporte de la comunidad
+como soporte comercial. Puede visitar las páginas de los proyectos para ver más
+detalles.
 
-In addition, there are a large number of consultancy firms world wide
-who provide support for OSGeo member projects.
-See http://www.osgeo.org/search_profile for one that meets your needs.
+Además, existe un amplio número de empresas de consultoría en todo el mundo que
+proporcionan soporte a los proyectos que forman parte de OSGeo. Puede buscar en
+http://www.osgeo.org/search_profile aquel que cubra sus necesidades.
 

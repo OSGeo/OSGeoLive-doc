@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadata about this document
+  Metadatos de este documento
 
 :Author: OGC
 :License: Creative Commons
@@ -35,24 +35,24 @@ Filter Encoding (FE)
 ====================
 
 .. Writing Tip:
-  1 paragraph or 2 defining what the standard is.
+  1 parrafo o 2 definen lo que es el estandar.
 
-The OGC® Filter Encoding Standard (FE) defines an XML encoding for expressing filters for spatial queries in order to select a subset of features based upon specific attributes.
+El estandar OGC® Filter Encoding (FE) define una codificación XML para expresar consultas y filtros espaciales con objeto de seleccionar un subconjunto de geometrías (*features*)  en base a unos atributos específicos.
 (http://www.opengeospatial.org/standards/filter)
 
 .. image:: images/standards/fe.jpg
   :scale: 25%
-  :alt: FE in Context
+  :alt: Contexto de FE
 
-A subset of features might be identified to render them in a particular color or convert them into a user-specified format. The neutral XML filter encoding allows easy parsing and validation by a server implementing the OGC WFS standard before the filter expression is transformed into the targeted language of the data store that is being queried. This standard is used by a number of OGC Web Services, including the Web Feature Service, the Catalogue Service and the Styled Layer Descriptor Standard.
+Se puede identificar un subconjunto de geometrías (*features*) para renderizarlas en un color determinado o para transformarlas en un formato especificado por el usuario. El XML *filter encoding* neutral permite validación y parseo fácilmente a través de una implementación de servidor del estandar OGC WFS, antes de que la expresión de filtrado se transforme en el lenguaje objetivo del almacen de datos que se esté consultando. El estandar es utilizado por numerosos Servicios Web OGC, incluyendo el *Web Feature Service*, el *Catalogue Service* y el estandar *Styled Layer Descriptor*.
 
-Filter constraints can be specified on values of spatial, temporal and scalar properties. An example of a spatial filter is: “Find all the properties in Omstead County owned by Peter Vretanos.” An example of a temporal filter is: “Find all the dams in Massachusetts that were built before 1900.” An example of a scalar filter is: “Find all the temperature sensors in Paris that are reporting temperature between 20 degrees C. and 24 degrees C.” 
+Los criterios de filtro se pueden especificar sobre propiedades espaciales, temporales o escalares. Un ejemplo de filtro espacial es: “Encontrar todas las propiedades en el condado de *Omstead* pertencientes a *Peter Vretanos*.” Un ejemplo de filtro temporal es: “Buscar todas las presas en *Massachusetts* que se construyeron antes de 1900.” Un ejemplo de filtro escalar es: “Encuentra todos los sensores de temperatura en París que esten notificando temperaturas entre los 20 grados C. y los 24 grados C.” 
 
-See Also
+Ver también
 --------
 
 .. Writing Tip:
-  Describe Similar standard
+  Describe estandar similar
 
 * :doc:`sld_overview`
 * :doc:`csw_overview`

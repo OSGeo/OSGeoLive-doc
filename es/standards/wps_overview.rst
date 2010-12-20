@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadata about this document
+  Metadatos de este documento
 
 :Author: OGC
 :License: Creative Commons
@@ -35,33 +35,33 @@ Web Processing Service (WPS)
 ============================
 
 .. Writing Tip:
-  1 paragraph or 2 defining what the standard is.
+  1 párrafo o 2 definen lo que es el estandar.
 
-The WPS standard provides rules for standardizing inputs and outputs (requests and responses) for geospatial processing services, such as polygon overlays and their inputs and outputs.
+El estandar WPS proporciona unas reglas para la estandarización de la entrada y salida (peticiones y respuestas) para servicios de procesamiento geoespacial, como por ejemplo, operaciones con polígonos y sus entradas y salidas.
 
 .. image:: images/standards/wps.jpg
   :scale: 25%
   :alt: WPS in Context
 
-The OGC® Web Processing Service (WPS) Standard describes how to access geospatial processes from a web interface.
-Processes include any algorithm, calculation or model that operates on spatially referenced vector or raster data. A WPS may offer calculations as simple as subtracting one set of spatially referenced numbers from another (e.g., determining the difference in influenza cases between two different seasons), or as complicated as a global climate change model.  (http://www.opengeospatial.org/standards/wps) 
+El estandar OGC® Web Processing Service (WPS) describe cómo acceder a procesos geoespaciales desde un interface Web.
+Los procesos abarcan cualquier algoritmo, cálculo o modelo que operen sobre datos raster o vectoriales georeferenciados. Un WPS puede exponer cálculos tan simples como una sustración entre dos conjuntos de números georeferenciados, restando uno de otro (p.e., determinar la diferencia en casos de gripe entre dos estaciones diferentes), o tan complicados como un modelo de cambio climático global.  (http://www.opengeospatial.org/standards/wps) 
 
-A WPS is particularly useful for:
+Los servicios WPS son particularmente útiles para lo siguiente:
 
-* Reducing complexity in data processing by providing plug & play algorithms.
-* Enabling processes to be chained together.
-* Enabling processing to be deployed once then used everywhere.
-* Streamlined maintenance. Processes/models are maintained in a central place by the entities who created them.
-* Taking advantage of high-speed computational capabilities on a central server.
-* Easy and interoperable access to highly complex processes, such as climate change models.
+* Reducir la complejidad de un conjunto de datos proporcionando algoritmos de aplicación directa (plug & play).
+* Proporcionar encadenamiento de procesos en cadena.
+* Proporcionar procesos que se despliegan una vez y pueden ser utilizados desde cualquier sitio.
+* Mantenimiento simplificado. Los procesos/modelos se mantienen de forma centralizada por parte de quién los implementa.
+* Las ventajas del procesamiento de alta velocidad a través de servidores centralizados.
+* Acceso fácil e interoperable a procesos de alta complejidad, como por ejemplo modelos de cambio climático.
 
-See Also
+Ver también
 --------
 
 .. Writing Tip:
-  Describe Similar standard
+  Describe estandar similar
 
-Other OGC data service standards: 
+Otros estándares de sercicios de datos OGC : 
 
 * Web Coverage Processing Service
 * Sensor Planning Service

@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadata about this document
+  Metadatos de este documento
 
 :Author: OGC
 :License: Creative Commons
@@ -35,37 +35,37 @@ Sensor Observation Service (SOS)
 ================================
 
 .. Writing Tip:
-  1 paragraph or 2 defining what the standard is.
+  1 parrafo o 2 definen lo que es el estandar.
 
-The OGC Sensor Observation Service (SOS) Interface Standard is a data service. The OGC SOS standard defines a standardized interface and operations for access to observations from sensors and sensor systems that is consistent for all sensor systems including remote, in-situ, fixed and mobile sensors. SOS provides query results in the Observation and Measurements (O&M) standard format for modeling sensor observations and the SensorML specification for modeling sensors and sensor systems. (http://www.opengeospatial.org/standards/sos)
+El estandar OGC Sensor Observation Service (SOS) es un servicio de datos. El estandar OGC SOS define un interface estandarizado y operaciones para el acceso a observaciones desde sensores y sistemas de sensores que es consistente con todos los sistemas, incluyendo remoto, in-situ, fijos y sensores móviles. SOS proporciona resultados de consultas en el formato estandar de observación y medida ( en inglés Observation and Mesurements, O&M)  para modelizar observaciones de sensores y la especificación SensorML para modelizar sensores y sistemas sensor. (http://www.opengeospatial.org/standards/sos)
 
 .. image:: images/standards/sos.jpg
   :scale: 25%
   :alt: SOS in Context
 
-The SOS standard defines a common model for sensors and sensor systems that is not domain-specific and can be used without a-priori knowledge of domain-specific application schemas.
+El estandar SOS define un modelo común para sensores y sistemas sensor que no son de un dominio específico y que se pueden utilizar sin un conocimiento a-priori de esquemas de aplicación de dominio específico.
 
-An observation is an event whose result is an estimate of the value of some property of the feature-of-interest, obtained using a specified procedure. Observations are defined by
+Una observación es un evento cuyo resultado es una estimación del valor de alguna propiedad de la característica de interés, obtenida usando un procedimiento específico. Las observaciones se definen por
 
-eventTime – when was the measurement made
-featureOfInterest – what entity is being measured
-observedProperty - what characteristic was measured
-procedure  - how was it measured
+eventTime – Cuando se tomó la medida
+featureOfInterest – La entidad que se mide
+observedProperty - La característica que se midió
+procedure  - cómo se midió
 
-Mandatory SOS operations include:
-GetObservation - access to sensor observations and measurement data via a spatio-temporal query that can be filtered by phenomena 
-GetCapabilities - SOS service metadata
-DescribeSensor - information about the sensors, their processes and platforms in SensorML
+Operaciones SOS requeridas incluyen:
+GetObservation - acceso a datos de observación y medida del sensor a través de una consulta espacio-temporal que se puede filtrar por un fenómeno 
+GetCapabilities - Metadatos del servicio SOS
+DescribeSensor - información sobre los sensores, sus procesos y plataformas en SensorML
 
-Optional operations include: GetResult, GetFeatureOfInterest, GetFeatureOfInterestTime, DescribeFeatureofInterest, DescribeObservationType, DescribeResultModel, Register Sensor, and InsertObservation.
+Operaciones opcionales incluyen: GetResult, GetFeatureOfInterest, GetFeatureOfInterestTime, DescribeFeatureofInterest, DescribeObservationType, DescribeResultModel, Register Sensor, y InsertObservation.
 
-There are numerous excellent implementations of SOS. The OpenIOOS.org has thirteen organizations providing SOS service instances providing access to over 1400 oceans sensors (http://www.openioos.org/real_time_data/gm_sos.html). This operational demonstration “represents an effort to develop a Web Services Architecture for Ocean Observing”.
+Hay numerosas y excelentes implementaciones de SOS. El OpenIOOS.org tiene trece organizaciones que proveen instancias de servicios SOS que proporcionan acceso a más de 1400 sensores de oceanos (http://www.openioos.org/real_time_data/gm_sos.html). Esta demostración operacional “representa una iniciativa para el desarrollo de una arquitectura de Servicios Web para la observación de los oceanos”.
 
-See Also
+Ver también
 --------
 
 .. Writing Tip:
-  Describe Similar standard
+  Describe estandar similar
 
 * :doc:`wcs_overview`
 * :doc:`wfs_overview`

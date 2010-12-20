@@ -2,7 +2,7 @@
   Writing tips describe what content should be in the following section.
 
 .. Writing Tip:
-  Metadata about this document
+  Metadatos de este documento
 
 :Author: OGC
 :License: Creative Commons
@@ -35,30 +35,30 @@ Web Feature Service (WFS)
 =========================
 
 .. Writing Tip:
-  1 paragraph or 2 defining what the standard is.
+  1 párrafo o 2 definen lo que es el estandar.
 
-The OGC® Web Feature Service Interface Standard (WFS) defines  web interface operations for querying and editing vector geographic features, such as roads or lake outlines.  (http://www.opengeospatial.org/standards/wfs)
+El estandar de interface OGC® Web Feature Service (WFS)  define operaciones Web de interface para la consulta y edición de entidades geográficas (en inglés *features*) vectoriales, como por ejemplo carreteras o líneas de contorno de lagos.  (http://www.opengeospatial.org/standards/wfs)
 
 .. image:: images/standards/wfs.jpg
   :scale: 25%
-  :alt: WFS in Context
+  :alt: WFS en contexto
 
-The WFS standard defines operations that enable clients to:
+El estandar WFS permite lo siguiente a los clientes:
 
-* Discover which feature collections are available (GetCapabilities)
-* Describe the attribute fields available for  features (DescribeFeatureType)
-* Query a collection for a subset of features based on a provided filter (GetFeature)
-* Add, edit or delete features (Transaction)
+* Descubrir las colecciones de entidades disponibles (GetCapabilities)
+* Describir los campos de atributos disponibles por entidades (DescribeFeatureType)
+* Consultar una colección para un subconjunto de entidades basado en un filtro proporcionado (GetFeature)
+* Añadir, editar o borrar entidades (Transaction)
 
-All WFSs support input and output data using Geography Markup Language (GML). Some WFSs also support other encodings, such as GeoRSS or shapefiles.
+Todoas losl WFSs soportan entrada y salida de datos utilizando lenguaje *Geography Markup Language (GML)*. Algunos WFSs también soportan otras codificaciones, como por ejemplo GeoRSS o ficheros *shape*.
 
-Users typically interact with WFSs through browser based or desktop geospatial clients, which allows them to access vector map layers from external agencies, over the Internet. An excellent example of using a WFS service to provide open and interoperable access to large amounts of geospatial content via a government portal is the USGS Framework Web Feature Services offered in support of the development of the National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.gov/). Selected US Framework map layers are available as WFS layers and also available through a browser interface provided by the USGS.
+Normalmente los usuarios interactúan con WFSs a través de clientes geoespaciales Web o Desktop, que permiten acceder a capas de mapas vectoriales desde agencias externas, sobre Internet. Un ejemplo excelente de utilización de un Servicio WFS para proprcionar acceso abierto e interoperable a una gran cantidad de datos espaciales a trvés de un portal gubernamental es el Servicio WFS del *Framwork USGS* ofrecido como soporte al desarrollo de las Infraestructura de Datos Espaciels Nacional de Estados Unidos (NSDI) (http://frameworkwfs.usgs.gov/). Las capas de mapas seleccionadas a través de este framework estadounidense estan disponibles como capas WFS y también a través de un interface de búsqueda proporcionado por el USGS.
 
-See Also
+Ver también
 --------
 
 .. Writing Tip:
-  Describe Similar standard
+  Describe estandar similar
 
 * :doc:`wms_overview`
 * :doc:`wcs_overview`
