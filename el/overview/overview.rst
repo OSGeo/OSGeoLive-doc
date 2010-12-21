@@ -72,4 +72,4 @@
 -----
 Αποτελέσματα των δοκιμών ανάπτυξης του OSGeo-Live είναι διαθέσιμα στο: [:doc:`../../en/test`]
 
-.. include :: ../disclaimer.rst
+.. include :: ../../el/disclaimer.rst
