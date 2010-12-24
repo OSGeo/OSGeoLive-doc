@@ -1,29 +1,21 @@
 .. _openlayers-quickstart:
 
 *********************
-OpenLayers Quickstart 
+*******************
+Εγχειρίδιο Γρήγορης Εκκίνησης OpenLayers
+*******************
 *********************
 
-Creating Your First Map
+Δημιουργώντας τον πρώτο σας Χάρτη
 -----------------------
-The OpenLayers API has two concepts which are important to understand in
-order to build your first map: 'Map', and 'Layer'. An OpenLayers Map
-stores information about the default projection, extents, units, and so
-on of the map. Inside the map, data is displayed via 'Layer's. A Layer
-is a data source -- information about how OpenLayers should request data
-and display it.
+Tο OpenLayers API έχει δύο θεματικές ενότητες τις οποίες είναι απαραίτητο να κατανοήσετε για να μπορέσετε να δημιουργήσετε τον πρώτο σας χάρτη:το 'Map' (Χάρτης) και το 'Layer' (θεματικό επίπεδο). Σε ένα στοιχείο 'Map' του OpenLayers αποθηκεύονται πληροφορίες αναφορικά με το προκαθορισμένο σύστημα αναφοράς, τα όρια της περιοχής, τις μονάδες κτλ. Μέσα στο χάρτη, τα δεδομένα προβάλονται μέσω 'Layers'. Ένα Layer είναι μια πηγή δεδομένων -- πληροφορίων για το πώς το OpenLayers θα πρέπει να ζητήσει τα δεδομένα και να τα προβάλει.
 
-Crafting HTML
+Δημιουργώντας HTML
 +++++++++++++
 
-Building an OpenLayers viewer requires crafting HTML in which your
-viewer will be seen. OpenLayers supports putting a map inside of any
-block level element -- this means that it can be used to put a map in
-almost any HTML element on your page.
+Σχεδιάζοντας έναν προβολέα χαρτών σε OpenLayers απαιτείται η δημιουργία ενός HTML εγγράφου στο οποίο και θα εμφανίζεται . Το OpenLayers υποστηρίζει την τοποθέτηση ενός χάρτη μέσα σε σχεδόν οποιοδήποτε στοιχείο HTML της σελίδας σας.
 
-In addition to a single block level element, it is also required to
-include a script tag which includes the OpenLayers library to the
-page. 
+Επιπρόσθετα ενός μοναδικού HTML στοιχείου, απαιτείται να περιληφθεί ένα script tag το οποίο θα περικλείει τη βιβλιοθήκη του OpenLayers στη σελίδα. 
 
 .. code-block:: html
   
@@ -37,26 +29,23 @@ page.
       </body>
   </html>
     
-**Ex. 1**: Creating your first HTML Page   
+**Παράδειγμα 1**: Δημιουργώντας την πρώτη σας HTML σελίδα   
 
-Creating the Map Viewer
+Δημιουργώντας τον Προβολέα Χαρτών
 +++++++++++++++++++++++
 
-In order to create the viewer, you must first create a map. The
-OpenLayers.Map constructor requires one argument: This argument must
-either be an HTML Element, or the ID of an HTML element. This is the
-element in which the map will be placed.
+Για να δημιουργήσετε το viewer, θα πρέπει πρώτα να δημιουργήσετε ένα χάρτη. Ο κατασκευαστής
+OpenLayers.Map απαιτεί μια είσοδο: Η είσοδος αυτή πρέπει να είναι είτε ένα HTML στοιχείο είτε ο κωδικός (ID) του. Αυτό είναι το στοιχείο μέσα στο οποίο θα τοποθετηθεί ο χάρτης.
 
 .. code-block:: javascript
 
   var map = new OpenLayers.Map('map');
   
-**Ex. 2:** Map Constructor
+**Παράδειγμα 2:** Κατασκευαστής Χάρτη
 
-The next step to creating a viewer is to add a layer to the Map.
-OpenLayers supports many different data sources, from WMS to Yahoo! Maps
-to WorldWind. In this example, the WMS layer is used. The WMS layer is
-an example provided by MetaCarta.
+Το επόμενο βήμα στη δημιουργία ενός διαδικτυακού προβολέα χαρτών είναι η προσθήκη ενός Layer στο χάρτη.
+Το OpenLayers υποστηρίζει διάφορες πηγές δεδομένων, από το WMS μέχρι το Yahoo! Χάρτες
+στο WorldWind. Σε αυτό το παράδειγμα, χρησιμοποιείται ένα επίπεδο WMS. Το επίπεδο WMS είναι ένα παράδειγμα που το παρέχει η MetaCarta.
 
 .. code-block:: javascript
 
@@ -68,23 +57,17 @@ an example provided by MetaCarta.
     'layers':'HYP_50M_SR_W,10m_lakes,10m_rivers_lake_centerline'} );
   map.addLayer(wms);
 
-**Ex. 3:** Layer Constructor
+**Παράδειγμα 3:** Κατασκευαστής Επιπέδου
 
-The first parameter in this constructor is the name of the layer,
-which is used for some display purposes. The second 
-argument is the URL of the WMS server.
-The third argument is an object containing the parameters to be 
-appended to the WMS request.
+Η πρώτη παράμετρος σε αυτό τον κατασκευαστή είναι το όνομα του Layer,
+το οποίο χρησιμοποιείται για μερικούς σκοπούς προβολής. Η δεύτερη παράμετρος είναι το URL του εξυπηρετητή WMS.
+Η τρίτη παράμετρος είναι ένα αντικείμενο που περιέχει τις παραμέτρους που θα επισυναπτούν στην αίτηση για WMS.
 
-Finally, in order to display the map, you must set a center and zoom
-level. In order to zoom to fit the map into the window, you can use the
-zoomToMaxExtent function, which will zoom as close as possible while
-still fitting the full extents within the window.
+Τέλος, για να μπορέσετε να προβάλετε το χάρτη σας, πρέπει να ορίσετε ένα κέντρο και ένα επίπεδο εστίασης. Για να μπορέσετε να εστιάσετε το χάρτη ώστε να ταιριάζει στο παράθυρο, μπορείτε να χρησιμοποιήσετε τη συνάρτηση zoomToMaxExtent, η οποία πρόκειται να εστιάσει κατά το δυνατόν πλησιέστερα, ενώ παράλληλα "ταιριάζει" τα πλήρη όρια στα πλαίσια του παραθύρου.
 
-Putting it All Together
+Τοποθετώντας τα όλα μαζί
 +++++++++++++++++++++++
-The following code block puts all the pieces together to create an 
-OpenLayers viewer.
+Το ακόλουθο τμήμα κώδικα τοποθετεί όλα τα τμήματα μαζί για να δημιουργήσει έναν προβολέα χαρτών OpenLayers.
 
 .. code-block:: html
 
@@ -110,16 +93,12 @@ OpenLayers viewer.
   </body>
   </html>
 
-**Ex. 4:** Full HTML and Javascript for simple WMS browser
+**Παράδειγμα 4:** Πλήρης HTML και Javascript για έναν απλό περιηγητή WMS
 
-Adding an Overlay WMS
+Προσθέτοντας ένα επίπεδο WMS
 ---------------------
 
-WMS layers have the capability to be overlaid on top of other WMS layers in
-the same projection. There are several ways to mark a layer as an overlay,
-rather than a base layer. With WMS, the best way to do this is by setting the
-'transparent' parameter to 'true'. The example here uses a political borders
-WMS to demonstrate overlaying a transparent WMS.
+Τα επίπεδα WMS έχουν τη δυνατότητα να επικαλύπτονται από άλλα  επίπεδα WMS που βρίσκονται στην ίδια προβολή. Υπάρχουν διάφοροι τρόποι για να επισημανθεί ένα επίπεδο: ως επίθεμα (overlay), αντί ως βάση (base). Με το WMS, ο καλύτερος τρόπος να γίνει αυτό, είναι θέτοντας στην παράμετρο transparent' (διαφάνεια) την τιμή 'true'. Το παράδειγμα εδώ χρησιμοποιεί ένα WMS που αναπαριστά τα σύνορα των κρατών,για να επιδείξει την επιθεση ενός διαφανούς WMS.
 
 .. code-block:: javascript
 
@@ -130,25 +109,24 @@ WMS to demonstrate overlaying a transparent WMS.
         );
     map.addLayer(twms);
 
-**Ex. 5:** How to add a transparent WMS overlay to your map.
+**Παράδειγμα 5:** Πώς να προσθέσετε ένα διαφανές επίθεμα WMS στο χάρτη σας.
 
-Using the transparent: 'true' parameter sets two flags automatically:
+Χρησιμοποιώντας την παράμετρο transparent: 'true' θέτει δύο flags αυτόματα:
  
- * format parameter. The format option of the WMS layer is set to image/png if
-   the browser supports transparent PNG images. (This is all browsers except
-   for Internet Explorer 6.) In Internet Explorer 6, this will instead be set
-   to image/gif.
+ * Παράμετρος format. Η παράμετρος format του WMS layer είναι ρυθμισμένη σε image/png εάν
+   ο περιηγητής υποστηρίζει διαφανείς PNG εικόνες. (Αυτοί είναι όλοι οι περιηγητές εκτός του
+   Internet Explorer 6.) Στον Internet Explorer 6, αυτό αντίστοιχα θα είναι ρυθμισμένο σε
+   image/gif.
    
- * isBaseLayer option. The isBaseLayer option controls whether the layer
-   can be displayed at the same time as other layers. This option defaults
-   to false for the WMS layer, but setting transparent to true changes
-   it to true by default.
+ *Η επιλογή isBaseLayer. Η επιλογή isBaseLayer ελέγχει εάν το θεματικό επίπεδο
+   μπορεί να προβληθεί την ίδια στιγμή παράλληλα με άλλα. Αυτή η επιλογή έχει προκαθορισμένα την τιμή false
+   για το θεματικό επίπεδο WMS, αλλά θέτοντας την επιλογή transparent σε true αλλάζει αυτόματα
+   και αυτή σε true.
 
-Adding a Vector Marker to the Map
+Προσθέτοντας διανυσματικές επισημάνσεις στο Χάρτη
 ---------------------------------
 
-To add a single marker at a latitude and longitude to the map, you can use
-a Vector Layer to add an overlay.
+Για να προσθέσετε μια μοναδική επισήμανση σε ένα μήκος και πλάτος του χάρτη,μπορείτε να χρησιμοποιείσετε ένα Vector Layer(διανυσματικό θεματικό επίπεδο) για να προθέσετε ένα επίθεμα.
 
 .. code-block:: html  
    
@@ -160,6 +138,4 @@ a Vector Layer to add an overlay.
    vectorLayer.addFeatures(feature);
    map.addLayer(vectorLayer);
 
-This is a simple demonstration -- more information is available on overlays,
-how to interact with them, and how to control and style them via the
-OpenLayers documentation on openlayers.org.
+Αυτό είναι μια απλή επίδειξη -- περισσότερες πληροφορίες είναι διαθέσιμες για επιθέματα, πως μπορείτε να αλληλεπιδράσετε με αυτά και πώς να τα ελέγξετε το και να τα μορφοποιήσετε, στην τεκμηρίωση του OpenLayers στο openlayers.org.
