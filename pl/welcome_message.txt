@@ -1,0 +1,29 @@
+Witaj w OSGeo Live GIS DVD.
+
+
+Odnajdź na pulpicie ikonę znaku drogowego pomocy (Help). Znajdują się tam
+informacje na temat dysku Live i wirtualnej maszyny, zawierające
+opisy zawartych tu pakietów GIS oraz wiele wprowadzeń i samouczków.
+
+Aby zmienić język, wyloguj się (Applications menu) i
+odnajdź menu językowe na dole ekranu logowania. 
+Kiedy zalogujesz się ponownie(jeśli potrzebujesz hasła, brzmi ono
+"user"), na górnym pasku menu znajdziesz flagę, która pozwoli Ci 
+na wybór odpowiedniego układu klawiatury. Możesz to również ustawić z
+menu: Applications > System > Language Support.
+
+Instalatory oprogramowania dla Macintosh OSX i Microsoft Windows
+znajdują się w katalogach MacInstallers oraz WindowsInstallers.
+
+Potrzebne hasła znajdują się w pliku passwords.txt na pulpicie.
+
+Jeśli musisz uzyskać uprawnienia "root" (the UNIX super-user) otwórz
+Terminal i wpisz "sudo su", potem wprowadź "user" jako hasło.
+
+Listę najczęściej zadawanych pytań FAQ znajdziesz tu:
+  http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
+
+
+
+Happy mapping!
+Zespół OSGeo Live GIS
