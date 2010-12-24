@@ -98,7 +98,7 @@ If you plan to use the OSGeo-Live DVD a lot, you will likey want to create a per
 Increase Display Size
 ---------------------
 You can then add the virtual boots tools which support higher screen
-resolution support, copy and past between guest and host, graphics
+resolution support, copy and paste between guest and host, graphics
 acceleration, and more.
 
 Make sure you're computer is connected to the internet.
