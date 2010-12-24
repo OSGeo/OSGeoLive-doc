@@ -10,7 +10,7 @@
 Wprowadzenie do OSGeo-Live
 *********************
 
-Poniżej znajduje się wprowadzenie jak zacząć pracę z OSGeo-Live DVD.
+Poniższe wprowadzenie opisuje jak uruchomić OSGeo-Live DVD.
 
 Wymagania systemowe
 -------------------
@@ -30,7 +30,7 @@ Uruchomienie:
   Weź OSGeo-Live DVD, obraz ISO znajduje się na stronie: http://download.osgeo.org/livedvd.
   Umieść DVD w napędzie CD i zrestartuj komputer.
 
-  Jeśli ustawienia Twojego komputera pozwalają na uruchamianie systemu z CD (a tak jest zazwyczaj) powinien uruchomić się system Xubuntu, z zainstalowanymi aplikacjami Geoprzestrzennymi. Jeśli tak się nie stało, należy dostosować ustawienia BIOS-a lub zaraz po uruchomieniu komputera wcisnąć klawisz wyświetlający menu bootowania.
+  Jeśli ustawienia Twojego komputera pozwalają na uruchamianie systemu z napędu CD (a tak jest zazwyczaj) powinien uruchomić się system Xubuntu, z zainstalowanymi aplikacjami Geoprzestrzennymi. Jeśli tak się nie stało, należy dostosować ustawienia BIOS-u lub zaraz po uruchomieniu komputera wcisnąć klawisz wyświetlający menu bootowania.
 
   .. image:: images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
