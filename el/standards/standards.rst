@@ -3,32 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Open GeoSpatial Consortium Standards
+Πρότυπα Open GeoSpatial Consortium
 ====================================
 
-Introduction
+Εισαγωγή
 ------------
-The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic information an integral part of the world’s information infrastructure. OGC members – technology providers and technology users -- collaboratively develop open interface standards and associated encoding standards, and also best practices, that enable developers to create information systems that can easily exchange “geospatial” information and instructions with other information systems. Requirements range from complex scheduling and control of Earth observation satellites to displaying simple map images on the Web and encoding location in just a few bytes for geo-tagging and messaging. A look at the OGC Domain Working Groups (http://www.opengeospatial.org/projects/groups/wg) shows the wide scope of current activity in the OGC.
+Το Open Geospatial Consortium (OGC) ιδρύθηκε το 1994 με στόχο να κάνει τη γεωγραφική πληροφορία ένα βασικό στοιχείο της παγκόσμιας υποδομής πληροφοριών. Τα μέλη του OGC – πάροχοι και χρήστες της τεχνολογίας -- αναπτύσουν μέσα από συνεργασία ανοιχτά πρότυπα διεπαφής και κωδικοποίησης , καθώς επίσης και βέλτιστες τεχνικές, που επιτρέπουν στους προγραμματιστές να δημιουργούν πληροφοριακά συστήματα τα οποία μπορούν εύκολα να ανταλλάσουν χωρική πληροφορία και να αλληλεπιδρούν με άλλα πληροφοριακά συστήματα. Οι απαιτήσεις κυμαίνονται από σύνθετο προγραμματισμό και έλεγχο δορυφόρων παρακολούθησης της Γής, μέχρι την απεικόνιση απλών χαρτών στο διαδίκτυο και κωδικοποίηση της πληροφορίας θέσης σε λίγα bytes πληροφορίας για σύνθεση μηνυμάτων και μαρκάρισμα πληροφορίας θέσης (geo-tagging). Μια γρήγορη ματιά στην λίστα των ομάδων εργασίας του OGC (http://www.opengeospatial.org/projects/groups/wg) φανερώνει το μεγάλο εύρος της παρούσας δραστηριότητας του OGC.
 
-The OGC Baseline and OGC Reference Model
+Η βασική γραμμή προτύπων του OGC και το μοντέλο αναφοράς του OGC
 ----------------------------------------
 
-The OGC Standards Baseline consists of the OGC standards (http://www.opengeospatial.org/standards) for interfaces, encodings, profiles, application schemas, and best practice documents. The OGC Reference Model (ORM) (http://www.opengeospatial.org/standards/orm) describes these standards and the relationships between them and related ISO standards. The ORM provides an overview of OGC standards and serves as a useful resource for defining architectures for specific applications.
+Η βασική γραμμή προτύπων του OGC περιλαμβάνει τα πρότυπα του OGC (http://www.opengeospatial.org/standards) σχετικά με διεπαφές, κωδικοποίηση, προφίλ, σχήματα εφαρμογών, και κείμενα τεχνικών προδιαγραφών για βελτιστοποίηση εργασιών. Το μοντέλο αναφοράς του OGC (ORM) (http://www.opengeospatial.org/standards/orm) περιγράφει αυτά τα πρότυπα και τη σχέση τους με τα αντίστοιχα πρότυπα ISO. Το μοντέλο αναφοράς ORM παρέχει μια σύνοψη των προτύπων του OGC και είναι μια πολύτιμη πηγή για ορισμό αρχιτεκτονικών συγκεκριμένων εφαρμογών.
 
-In developing a Web services application using OGC standards (and in learning about the relationships between OGC standards) it helps to think of publish, find and bind as the key functions for applications in a Web services environment.
+Κατά την ανάπτυξη εφαρμογών με διαδικτές υπηρεσίες με τη χρήση των προτύπων OGC (και κατά την εκμάθηση των σχέσεων μεταξύ των προτύπων) βοηθά η σκέψη της δημοσίευσης, αναζήτησης και διασύνδεσης σαν βασικές λειτουργίες που πρέπει να εκτελούντα σε ένα περιβάλλον με διαδικτυακές υπηρεσίες.
 
-* Publish: Resource providers advertise their resources.
-* Find: End users and their applications can discover resources that they need at run-time.
-* Bind: End users and their applications can access and exercise resources at run-time.
+* Δημοσίευση: Οι πάροχοι πόρων δηαφημίζουν τους πόρους τους.
+* Αναζήτηση: Οι τελικοί χρήστες και οι εφαρμογές τους μπορούν να ανακαλύψουν τους πόρους κατά την διάρκεια της εκτέλεσης των εφαρμογών.
+* Διασνδεση: Οι τελικοί χρήστες και οι εφαρμογές τους μπορούν να έχουν πρόσβαση και να εκτελέσουν λειτουργίες σε πόρους κατά τη διάρκεια της εκτελεσης των εφαρμογών.
 
-Most of the OGC standards developed in recent years are standards for the Web services environment, and these standards are collectively referred to as OGC Web Services (OWS). The figure below provides a general architectural schema for OGC Web Services. This schema identifies the generic classes of services that participate in various geoprocessing and location activities.
+Τα περισσότερα πρότυπα OGC αναπτύχθηκαν τα τελευταία χρόνια μέσα στο περιβάλλον των διαδικτυακών υπηρεσιών, και αυτά τα πρότυπα συνολικά αναφέρονται και ως Διαδικτυακές Υπηρεσίες OGC (OGC Web Services - OWS). Το σχήμα παρέχει μια γενική εικόνα της αρχιτεκτονικής για τις Διαδικτυακές Υπηρεσίες OGC. Αυτό το σχήμα αναγνωρίζει τις γενικές κατηγορίες των υπηρεσιών οι οποίες συμμετέχουν σε διάφορες επεξεργασίες και δραστηριότητες τοποθεσίας.
 
 
 .. figure:: images/standards/publish_find_bind.jpg
   :scale: 25%
-  :alt: Web services framework of OGC geoprocessing standards
+  :alt: Περιβάλλον Προτύπων Χωρικών Διαδικτυακών Υπηρεσιών OGC
 
-Acronyms in the figure are defined below. Some of these are “OGC standards” and others are publicly available “Discussion Papers”, “Requests” and “Recommendation Papers”. (Note that some in work candidate standards are not yet public, but are accessible by OGC members.) 
+Τα ακρόνυμα στο σχήμα ορίζονται παρακάτω. Ορισμένα από αυτά τα πρότυπα OGC και ακόμα περισσότερα είναι δημοσιευμένα ως “Κείμενα υπο Διαβούλευση”, “Απαιτήσεις” και “Κείμενα Αναφοράς”. (Σημειώστε ότι κάποια από τα κείμενα αυτά είναι υποψήφια πρότυπα και δεν είναι ακόμα διαθέσιμα προς όλους παρά μόνο στα μέλη του OGC.) 
 
 * :doc:`wms_overview`
 * :doc:`wfs_overview`
@@ -59,7 +59,7 @@ Acronyms in the figure are defined below. Some of these are “OGC standards” 
 * Transducer Markup Language (TML)
 
 
-.. links to standards
+.. Χρήσιμοι σύνδεσμοι για τα πρότυπα
   * :doc:`wms_overview` (http://www.opengeospatial.org/standards/wms)
   * :doc:`wfs_overview` (http://www.opengeospatial.org/standards/wfs)
   * :doc:`wcs_overview` (http://www.opengeospatial.org/standards/wcs)
@@ -88,9 +88,9 @@ Acronyms in the figure are defined below. Some of these are “OGC standards” 
   * Symbology Encoding (http://www.opengeospatial.org/standards/symbol)
   * Transducer Markup Language (TML) (http://www.opengeospatial.org/standards/tml)
 
-See Also:
+Δείτε ακόμα:
 ---------
 
-* Comprehensive list of OGC standards: http://www.opengeospatial.org/standards/
-* OGC tutorials presented at IGARSS 2010: http://www.ogcnetwork.net/node/1481 
-* OGC Network Learn pages (http://www.ogcnetwork.net/learn).
+* Περιεκτική λίστα των προτύπων OGC: http://www.opengeospatial.org/standards/
+* Εγχειρίδια OGC που παρουσιάστηκαν στο συνέδρειο IGARSS 2010: http://www.ogcnetwork.net/node/1481 
+* Εκπαιδευτικές σελίδες από το OGC (http://www.ogcnetwork.net/learn).

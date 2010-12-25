@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _wfs-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,30 +34,30 @@
 Web Feature Service (WFS)
 =========================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The OGC® Web Feature Service Interface Standard (WFS) defines  web interface operations for querying and editing vector geographic features, such as roads or lake outlines.  (http://www.opengeospatial.org/standards/wfs)
+Το πρότυπο Web Feature Service του OGC® ορίζει διαδικτυακές λειτουργίες για ανάκτηση και επεξεργασία διανυσματικών γεωγραφικών χαρακτηριστικών, όπως δρόμοι ή όρια λιμνών.  (http://www.opengeospatial.org/standards/wfs)
 
 .. image:: images/standards/wfs.jpg
   :scale: 25%
   :alt: WFS in Context
 
-The WFS standard defines operations that enable clients to:
+Το πρότυπο WFS ορίζει διαδικασίες που επιτρέπουν τους χρήστες του να:
 
-* Discover which feature collections are available (GetCapabilities)
-* Describe the attribute fields available for  features (DescribeFeatureType)
-* Query a collection for a subset of features based on a provided filter (GetFeature)
-* Add, edit or delete features (Transaction)
+* Ανακαλύψουν ποιά σύνολα χαρακτηριστικών είναι διαθέσιμα (GetCapabilities)
+* Περιγράψουν τα περιγραφικά πεδία για τα χαρακτηριστικά (DescribeFeatureType)
+* Ανακτήσουν μια συλλογή ή κομμάτι των δεδομένων μέσω κάποιου φίλτρου (GetFeature)
+* Να προσθέσουν, διορθώσουν ή διαγράψουν χαρακτηριστικά (Transaction)
 
-All WFSs support input and output data using Geography Markup Language (GML). Some WFSs also support other encodings, such as GeoRSS or shapefiles.
+Όλες οι υπηρεσίες WFS υποστηρίζουν είσοδο και έξοδο δεδομένων με τη χρήση του προτύπου Geography Markup Language (GML). Κάποιες υπηρεσίες WFS επιπλέον υποστηρίζουν άλλες κωδικοποιήσεις, όπως το GeoRSS ή τα αρχεία shapefiles.
 
-Users typically interact with WFSs through browser based or desktop geospatial clients, which allows them to access vector map layers from external agencies, over the Internet. An excellent example of using a WFS service to provide open and interoperable access to large amounts of geospatial content via a government portal is the USGS Framework Web Feature Services offered in support of the development of the National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.gov/). Selected US Framework map layers are available as WFS layers and also available through a browser interface provided by the USGS.
+Οι χρήστες τυπικά αλληλεπιδρούν με τις υπηρεσίες WFS μέσω περιηγητών ή μέσω λογισμικών GIS, τα οποία τους επιτρέπουν να έχουν πρόσβαση σε επίπεδα δεδομένων από εξωτερικές πηγές μέσω διαδικτύου. Ένα εξαιρετικό παράδειγμα χρήσης μιας υπηρεσίας WFS για την παροχή ανοιχτής και διαλειτουργικής πρόσβασης σε τεράστια ποσά χωρικής πληροφορίας μέσω ενός κυβερνητικού ιστοχώρου είναι η υπηρεσία WFS της USGS που παρέχεται στα πλαίσια της ανάπτυξης της Εθνικής Υποδομής Χωρικών Δεδομένων των ΗΠΑ (NSDI) (http://frameworkwfs.usgs.gov/). Επιλεγμένα επίπεδα χωρικής πληροφορίας προσφέρονται σαν επίπεδα πληροφορίας της υπηρεσίας WFS και μέσω διεπαφής με περιηγητή που προσφέρει η USGS.
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`wms_overview`

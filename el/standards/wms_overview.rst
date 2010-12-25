@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _wms-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,36 +34,36 @@
 Web Map Service (WMS)
 =====================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The (OGC®) Web Map Service Interface Standard (WMS) provides a simple HTTP interface for requesting geo-registered map images from one or more distributed geospatial databases. The response to the request is one or more map images (returned as JPEG, PNG, etc) that can be displayed a browser and desktop applications. (http://www.opengeospatial.org/standards/wms) 
+Το πρότυπο Web Map Service του OGC παρέχει μια απλή διεπαφή προτοκόλου HTTP για την αίτηση και λήψη γεωαναφερμένων εικόνων χαρτών από μια ή περισσότερες κατανεμημένες βάσεις χωρικών δεδομένων. Η απάντηση του εξυπηρετητή στο αίτημα από τον εκάστοτε χρήστη είναι μια ή περισσότερες εικόνες (στη μορφή JPEG, PNG, κλπ) που μπορούν να απεικονιστούν εύκολα σε κάποιο περιηγητή αλλά και σε τοπικές εφαρμογές στην επιφάνεια εργασίας. (http://www.opengeospatial.org/standards/wms) 
 
 .. image:: images/standards/wms.jpg
   :scale: 25%
   :alt: WMS in Context
 
-The WMS standard defines three operations: 
+Το πρότυπο WMS ορίζει τρείς λειτουργίες: 
 
-* GetCapabilities (required): Obtain service-level metadata, which is a machine-readable (and human-readable) description of the WMS's information content and acceptable request parameters. 
+* GetCapabilities (υποχρεωτική): Λήψη μεταδεδομένων σχετικά με την υπηρεσία, σε αναγνώσιμη μορφή από υπολογιστή (και από ανθρώπους), περιγραφή πληροφοριών σχετικά με την υπηρεσία WMS και αποδεκτές παράμετροι κατά την κλήση της υπηρεσίας. 
 
-* GetMap (required): Obtain a map image whose geospatial and dimensional parameters are well defined. 
+* GetMap (υποχρεωτική): Λήψη εικόνας χάρτη της οποίας οι χωρικές και γεωμετρικές διαστάσεις είναι πλήρως ορισμένες. 
 
-* GetFeatureInfo (optional): Ask for information about particular features shown on a map. 
+* GetFeatureInfo (προαιρετική): Ερώτημα για λήψη πληροφοριών που αφορούν ένα συγκεκριμένο χαρακτηριστικό που απεικονίζεται στο χάρτη. 
 
-This standard is now implemented in hundreds of products, many of which are registered at (http://www.opengeospatial.org/resource/products/compliant).
+Το πρότυπο αυτό έχει υλοποιηθεί σε εκατοντάδες λογισμικά, πολλά από τα οποία καταγράφονται στο (http://www.opengeospatial.org/resource/products/compliant).
 
-An excellent example of a portal that uses WMS is NC OneMap (http://www.nconemap.com/): “NC OneMap relies on Web Map Services (WMS) to bring data together from multiple hosts. NC OneMap partners establish a WMS from their servers. This OGC standard allows data to be created and stored in numerous proprietary software configurations (ESRI, MapInfo, Intergraph, etc), but is viewable by all.” 
+Ένα άριστο παράδειγμα χρήσης του προτύπου WMS από ένα διαδικτυακό χώρο είναι το NC OneMap (http://www.nconemap.com/): “Το NC OneMap βασίζεται στις υπηρεσίες WMS για τη συλλογή δεδομένων από πολλαπλές πηγές. Οι χρήστες και τα μέλη του NC OneMap συνδέονται με πρότυπο WMS από τους εξυπηρετητές τους. Αυτό το πρότυπο του OGC επιτρέπει στα δεδομένα να δημιουργούνται και να αποθηκεύονται σε διάφορες κλειστές βάσεις δεδομένων (ESRI, MapInfo, Intergraph, etc), αλλά τα δεδομένα να είναι ανοιχτά για θέαση από όλους.” 
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
-An OGC WMS Cookbook and other materials for developers can be found at http://www.opengeospatial.org/resource/cookbooks. 
+Ένα εγχειρίδιο σχετικό με το OGC WMS αλλά και άλλο υλικό για τους προγραμματιστές μπορεί να βρεθεί στο http://www.opengeospatial.org/resource/cookbooks. 
 
-Other OGC portrayal service standards: 
+Άλλα πρότυπα OGC σχετικά με διαδικτυακές υπηρεσίες: 
  
 
 * :doc:`wfs_overview`
