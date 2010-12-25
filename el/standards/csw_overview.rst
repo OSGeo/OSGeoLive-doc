@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _csw-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,7 +34,7 @@
 Catalogue Service for the Web (CS-W)
 ====================================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
 
@@ -42,21 +42,21 @@ Catalogue Service for the Web (CS-W)
   :scale: 25%
   :alt: CS-W in Context
 
-The OGC Catalogue Service interface standard specifies a design pattern for defining interfaces to publish and search collections of descriptive information (metadata) about geospatial data, services and related information objects. Providers of resources, such as content providers, use catalogues to register metadata that conform to the provider's choice of an information model; such models include descriptions of spatial references and thematic information. Client applications can then search for geospatial data and services in very efficient ways. 
+Το πρότυπο υπηρεσίας καταλόγου (CS-W) του OGC προσδιορίζει έναν τρόπο ορισμού διεπαφών για την δημοσίευση και αναζήτηση συλογών περιγραφικών πληροφοριών (μεταδεδομένα) για χωρικά δεδομένα, υπηρεσίες και αντικείμενα σχετιζόμενης πληροφορίας. Οι πάροχοι πηγών, όπως οι πάροχοι περιεχομένου, χρησιμοποιούν καταλόγους για να καταγράψουν μεταδεδομένα τα οποία είναι συμβατά με το μοντέλο επιλογής του παρόχου. Τέτοια μοντέλα περιλαμβάνουν περιγραφές χωρικών αναφορών και θεματικής πληροφορίας. Οι εφαρμογές που χρησιμοποιούν την υπηρεσία καταλόγου στη συνέχεια μπορούν να αναζητήσουν χωρικά δεδομένα και υπηρεσίες με μεγάλη αποτελεσματικότητα. 
 
-There are several profiles of the current OGC CS-W model. These include:
+Υπάρχουν πολλά προφίλ του σημερινού μοντέλου της υπηρεσίας καταλόγου CS-W του OGC. Αυτά περιλαμβάνουν:
 
-* ISO 19115/19139 Metadata profile (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557). This document specifies an application profile for ISO metadata with support for XML encoding per ISO 19139 (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557) and HTTP protocol binding. This CS-W profile is widely implemented in Europe, such as in the Spatial Data Infrastructure for North Rhine Westphalia (federal state of Germany).
-* CSW-ebRIM Registry Service. (http://portal.opengeospatial.org/files/?artifact_id=31137) This profile applies the CSW interfaces to the OASIS ebXML registry information model (ebRIM 3.0) so as to provide a general and flexible web-based registry service that enables users—human or software agents—to locate, access, and make use of resources in an open, distributed system; it provides facilities for retrieving, storing, and managing many kinds of resource descriptions. An extension mechanism permits registry content to be tailored for more specialized application domains.
-* CSW 39.50: The Z39.50 Protocol binding uses a message-based client server architecture implemented using the ANSI/NISO Z39.50 Application Service Definition and Protocol Specification3. This protocol binding maps each of the general model operations to a corresponding service specified in the ANSI/NISO/ISO standard http://lcweb.loc.gov/z3950/agency/document.html. 
+* Το προφίλ μεταδεδομένων ISO 19115/19139 (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557). Αυτό το κείμενο προσδιορίζει ένα προφίλ εφαρμογής για μεταδεδομένα ISO με την υποστήριξη κωδικοποίησης XML σύμφωνα με το ISO 19139 (http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557) και τη χρήση του προτοκόλου HTTP. Αυτό το προφίλ της υπηρεσίας CS-W είναι πολύ διαδεδομένο στην Ευρώπη, όπως στην Υποδομή Χωρικών Δεδομένων της περιοχής North Rhine Westphalia (διοικητικής μονάδας της Γερμανίας).
+* Υπηρεσία καταλόγου CSW-ebRIM. (http://portal.opengeospatial.org/files/?artifact_id=31137) Αυτό το προφίλ εφαρμόζει τις διεπαφές του προτύπου CSW στο μοντέλο καταλόγου OASIS ebXML (ebRIM 3.0) με στόχο να παρέχει μια γενική και ευέλικτη διαδικτυακή υπηρεσία που να επιτρέπει στους χρήστες —ανθρώπους ή μηχανές—να εντοπίζουν, να έχουν πρόσβαση και να χρησιμοποιούν τους πόρους σε ένα ανοιχτό και κατανεμημένο σύστημα. Παρέχει ευκολίες για την ανάκτηση, αποθήκευση και διαχείριση πολλών ειδών περιγραφών πόρων. Ένας μηχανισμός επέκτασης επιτρέπει τα δεδομένα καταλόγου να μετατραπούν για εφαρμογές πιο εξεδικευμένες.
+* CSW 39.50: Η διεπαφή του προτοκόλου Z39.50 χρησιμοποιεί μια αρχιτεκτονική εξυπηρετητή-πελάτη βασισμένη σε μυνήματα και υλοποιημένη με τη χρήση του προτύπου ANSI/NISO Z39.50 (Application Service Definition and Protocol Specification 3). Αυτή η διεπαφή χαρτογραφεί κάθε ένα από τα στοιχεία του γενικευμένου μοντέλου στην αντίστοιχη υπηρεσία που περιγράφει το πρότυπο ANSI/NISO/ISO http://lcweb.loc.gov/z3950/agency/document.html. 
 
-Much of the current work on this standard has to do with restructuring the catalogue standard so that there is a well defined, easy to implement core coupled with a well defined mechanism for expressing a variety of extensions (previously known as application profiles).
+Η περισσότερη από την τρέχουσα εργασία σε αυτό το πρότυπο έχει να κάνει με την αναδόμηση του προτύπου καταλόγου ώστε να υπάρχει ένας πυρήνας καλά ορισμένος και εύκολος στην υλοποίηση σε συνδιασμό με έναν καλά ορισμένο μηχανισμό για έκφραση πληθώρας επεκτάσεων (παλιότερα γνωστών και ως προφίλ εφαρμογών).
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
-* Cat: ebRIM App Profile: Earth Observation Products
-* ISO 23950 (2003). "Information Retrieval (Z39.50): Application Service Definition and Protocol Specification"
+* Cat: ebRIM App Profile: Προιόντα Παρατήρηση της Γης
+* ISO 23950 (2003). "Ανάκτηση πληροφοριών (Z39.50): Ορισμός Υπηρεσίας Εφαρμογών και Προδιαγραφή Προτοκόλου"

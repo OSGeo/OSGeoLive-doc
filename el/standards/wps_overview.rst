@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _wps-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,34 +34,34 @@
 Web Processing Service (WPS)
 ============================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The WPS standard provides rules for standardizing inputs and outputs (requests and responses) for geospatial processing services, such as polygon overlays and their inputs and outputs.
+Το πρότυπο WPS παρέχει κανόνες για την προτυποποίηση δεδομένων εισόδου και εξόδου (αιτήματα και απαντήσεις) για υπηρεσίες χωρικής επεξεργασίας, όπως την επίθεση πολυγώνων και τα δεδομένα εισόδου και εξόδου της.
 
 .. image:: images/standards/wps.jpg
   :scale: 25%
   :alt: WPS in Context
 
-The OGC® Web Processing Service (WPS) Standard describes how to access geospatial processes from a web interface.
-Processes include any algorithm, calculation or model that operates on spatially referenced vector or raster data. A WPS may offer calculations as simple as subtracting one set of spatially referenced numbers from another (e.g., determining the difference in influenza cases between two different seasons), or as complicated as a global climate change model.  (http://www.opengeospatial.org/standards/wps) 
+Το πρότυπο Web Processing Service (WPS) του OGC® περιγράφει την πρόσβαση σε χωρικές λειτουργίες επεξεργασίας μέσω διαδικτύου.
+Οι επεξεργασίες αυτές περιλαμβάνουν κάθε αλγόριθμο, υπολογισμό ή μοντέλο που λειτουργεί πάνω σε χωρικά δεδομένα (διανυσματικά ή εικονιστικά). Μια υπηρεσία WPS μπορεί να προσφέρει υπολογισμούς απλούς όσο η αφαίρεση ενός συνόλου χωρικά κατανεμημένων αριθμών από άλλους (π.χ., ο προσδιορισμός της διαφοράς των κρουσμάτων γρίπης μεταξύ δύο χρονικών στιγμών), ή τόσο πολύπλοκους όσο ένα μοντέλο παγκόσμιας αλλαγής κλίματος.  (http://www.opengeospatial.org/standards/wps) 
 
-A WPS is particularly useful for:
+Μια υπηρεσία WPS είναι ιδιαιτέρως χρήσιμη για:
 
-* Reducing complexity in data processing by providing plug & play algorithms.
-* Enabling processes to be chained together.
-* Enabling processing to be deployed once then used everywhere.
-* Streamlined maintenance. Processes/models are maintained in a central place by the entities who created them.
-* Taking advantage of high-speed computational capabilities on a central server.
-* Easy and interoperable access to highly complex processes, such as climate change models.
+* Μείωση πολυπλοκότητας στην επεξεργασία δεδομένων παρέχοντας αλγορίθμους σε αρθρώματα (plug & play).
+* Επιτρέπει την δημιουργία αλυσίδων από επεξεργασίες.
+* Επιτρέπει μια επεξεργασία να υλοποιηθεί μια φορά και να μπορεί να χρησιμοποιηθεί στη συνέχεια παντού.
+* Κεντρική διαχείριση. Επεξεργασίες/μοντέλα συντηρούνται σε κεντρικό σημείο από αυτούς που τις δημιούργησαν.
+* Την αξιοποίηση ισχυρών υπολογιστικών συστημάτων σε κεντρικούς εξυπηρετητές.
+* Εύκολη και διαλειτουργική πρόσβαση σε επεξεργασίες μεγάλης πολυπλοκότητας, όπως μοντέλα παγκόσμιας κλιματικής αλλαγής.
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
-Other OGC data service standards: 
+Άλλα πρότυπα υπηρεσιών δεδομένων OGC: 
 
 * Web Coverage Processing Service
 * Sensor Planning Service
