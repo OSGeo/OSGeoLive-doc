@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _sld-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,28 +34,28 @@
 Style Layer Descriptor (SLD)
 ============================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The OGC® Styled Layer Descriptor (SLD)
-provides constructs for the symbolization and coloring of geographic features and coverages. It is typically used to apply styles to Web Map Services, or style GML from Web Feature Services.  (http://www.opengeospatial.org/standards/sld) 
+Το πρότυπο Styled Layer Descriptor (SLD) του OGC® 
+παρέχει δομές για συμβολισμούς και χρώματα γεωγραφικών χαρακτηριστικών και εικόνων. Χρησιμοποιείται ευρύτατα για την εφαρμογή στυλ σε διαδικτυακές υπηρεσίες WMS, ή σε αρχεία GML που προέρχονται από υπηρεσίες WFS.  (http://www.opengeospatial.org/standards/sld) 
 
 .. image:: images/standards/wms.jpg
   :scale: 25%
   :alt: WMS in Context
 
-Fine-grained control of the graphical representation of data is a fundamental requirement for  many mapping applications. The ability to define styling rules requires a styling language that the client and server can both understand. 
+Ο λεπτομερής έλεγχος των γραφικών αναπαραστάσεων των χωρικών δεδομένων είναι μια θεμελιώδης απαίτηση για πολλές εφαρμογές χαρτογραφίας. Για τη δυνατότητα ορισμού κανόνων στυλ απαιτείται μια γλώσσα αναπαράστασης που τόσο ο εξυπηρετητής όσο και η εφαρμογή πελάτης μπορούν να καταλαβαίνουν. 
 
-The current OGC Web Map Service (WMS) Standard enables an information provider to specify styling options by advertising a preset collection of visual portrayals for each available data set. However, while a WMS implementation currently can provide the user with a choice of style options, the WMS implementation can only tell the user the name of each style. It cannot tell the user what portrayal will look like on the map. More importantly, the user has no way of defining their own styling rules. 
+Το παρόν πρότυπο Web Map Service (WMS) του OGC επιτρέπει σε έναν πάροχο πληροφορίας να προσδιορίζει το στύλ των χαρτών του, μέσω προκαθορισμένων ρυθμίσεων αναπαράστασης για καθένα από τα διαθέσιμα δεδομένα. Όμως, ενώ μια υλοποιημένη υπηρεσία WMS μπορεί να παρέχει στον χρήστη ένα σύνολο επιλογών για στυλ, το πρότυπο WMS μπορεί να παρέχει στο χρήστη μόνο το όνομα για κάθε τέτοια ρύθμιση. Δεν μπορεί να δώσει την πληροφορία στον χρήστη για το πως αυτό το στυλ θα φαίνεται στο χάρτη. Και επιπλέον, ο χρήστης δεν έχει τρόπο να προσδιορίσει τους δικούς του στυλιστικούς κανόνες. 
 
-The ability for a human or machine client to define these rules requires a styling language that client and server can both understand. The OGC Symbology  Encoding (SE) Standard  (http://www.opengeospatial.org/standards/symbol) specifies the format for such a map-styling language. The SLD profile of WMS enables application of SE to WMS layers using extensions of WMS operations. Additionally, SLD defines an operation for standardized access to legend symbols that may be stored remotely on a server for use in multiple applications. 
+Η δυνατότητα για έναν άνθρωπο ή μια μηχανή να προσδιορίσει αυτούς τους κανόνες απαιτεί μια στυλιστική γλώσσα που μπορεί να καταλάβει τόσο ο εξυπηρετητής όσο και η εφαρμογή πελάτης. Το πρότυπο Symbology  Encoding (SE) του OGC (http://www.opengeospatial.org/standards/symbol) προσδιορίζει το πρότυπο μιας τέτοιας γλώσσας για την οπτικοποίηση στύλ χαρτών. Το προφίλ SLD μιας υπηρεσίας WMS επιτρέπει την εφαρμογή του προτύπου SE σε επίπεδα του WMS με τη χρήση προσθέτων στις λειτουργίες της υπηρεσίας WMS. Επιπρόσθετα, το SLD ορίζει τρόπους πρόσβασης σε σύμβολα υπομνημάτων τα οποία μπορούν να αποθηκεύονται απομακρυσμένα σε κάποιον εξυπηρετητή για χρήση σε πολλές εφαρμογές. 
 
-Note that in addition to portraying the output of WMS implementations, SE can also be used to portray the output of WFS implementations and implementation of the OGC Web Coverage Service (WCS) Interface Standard.
+Σημειώνεται πως εκτός τη χρήση του προτύπου αυτού για την βελτίωση των υλοποιήσεων του προτύπου WMS, το SE μπορεί να χρησιμοποιηθεί για να προσδιορίσει το στύλ σε δεδομένα που προέρχονται από μια υπηρεσία WFS ή ακόμα και σε δεδομένα που προέρχονται από μια υπηρεσία WCS του OGC.
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`fe_overview`

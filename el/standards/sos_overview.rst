@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _sos-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,37 +34,37 @@
 Sensor Observation Service (SOS)
 ================================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The OGC Sensor Observation Service (SOS) Interface Standard is a data service. The OGC SOS standard defines a standardized interface and operations for access to observations from sensors and sensor systems that is consistent for all sensor systems including remote, in-situ, fixed and mobile sensors. SOS provides query results in the Observation and Measurements (O&M) standard format for modeling sensor observations and the SensorML specification for modeling sensors and sensor systems. (http://www.opengeospatial.org/standards/sos)
+Το πρότυπο Sensor Observation Service (SOS) του OGC αφορά μια διαδικτυακή υπηρεσία δεδομένων. Το πρότυπο SOS του OGC ορίζει μια τυποποιημένη διεπαφή και λειτουργίες για πρόσβαση σε παρατηρήσεις από αισθητήρες και συστήματα αισθητήρων που ομοιογενείς για όλα τα συστήματα αισθητήρων (περιλαμβανομένων τηλεπισκοπικών, επίγειων, ακίνητων και κινητών αισθητήρων). Το πρότυπο SOS παρέχει αποτελέσματα ερωτημάτων στο πρότυπο Observation and Measurements (O&M) για τη μοντελοποίηση παρατηρήσεων από δέκτες αλλά και με τη χρήση της γλώσσας SensorML για τη μοντελοποίηση των συστημάτων αισθητήρων και δεκτών. (http://www.opengeospatial.org/standards/sos)
 
 .. image:: images/standards/sos.jpg
   :scale: 25%
   :alt: SOS in Context
 
-The SOS standard defines a common model for sensors and sensor systems that is not domain-specific and can be used without a-priori knowledge of domain-specific application schemas.
+Το πρότυπο SOS ορίζει ένα κοινό μοντέλο για αισθητήρες αλλά και συστήματα αισθητήρων το οποίο δεν είναι συγκεκριμένο σχετικά με ένα πεδίο εφαρμογών αλλά μπορεί να χρησιμοποιηθεί χωρίς την εκ των προτέρων γνώση του πεδίου εφαρμογής.
 
-An observation is an event whose result is an estimate of the value of some property of the feature-of-interest, obtained using a specified procedure. Observations are defined by
+Μια παρατήρηση είναι ένα γεγονός του οποίου το αποτέλεσμα είναι μια εκτίμηση της τιμής μιας ιδιότητας στο πεδίο ενδιαφέροντος, και λαμβάνεται με συγκεκριμένη διαδικασία. Οι παρατηρήσεις ορίζονται από 
 
-eventTime – when was the measurement made
-featureOfInterest – what entity is being measured
-observedProperty - what characteristic was measured
-procedure  - how was it measured
+eventTime – τον χρόνο του γεγονότος, πότε δηλαδή η παρατήρηση συνέβει
+featureOfInterest – το χαρακτηριστικό ενδιαφέροντος, ποιά οντότητα μετρήθηκε
+observedProperty - την παρατηρούμενη ιδιότητα, δηλαδή το ποιά ιδιότητα μετρήθηκε
+procedure  - τη διαδικασία, πως δηλαδή αυτή η ιδιότητα μετρήθηκε
 
-Mandatory SOS operations include:
-GetObservation - access to sensor observations and measurement data via a spatio-temporal query that can be filtered by phenomena 
-GetCapabilities - SOS service metadata
-DescribeSensor - information about the sensors, their processes and platforms in SensorML
+Οι υποχρεωτικές διαδικασίες μιας υπηρεσίας SOS περιλαμβάνουν:
+GetObservation - πρόσβαση στις παρατηρήσεις και στα δεδομένα μετρήσεων μέσω χωρο-χρονικών ερωτημάτων που μπορούν να φιλτραριστούν με βάση γεγονότα 
+GetCapabilities - Τα μεταδεδομένα της υπηρεσίας SOS
+DescribeSensor - Πληροφορίες σχετικές με τους αισθητήρες και τους δέκτες, τις λειτουργίες τους και τις πλατφόρμες τους μοντελοποιημένες σε γλώσσα SensorML
 
-Optional operations include: GetResult, GetFeatureOfInterest, GetFeatureOfInterestTime, DescribeFeatureofInterest, DescribeObservationType, DescribeResultModel, Register Sensor, and InsertObservation.
+Προαιρετικές λειτουργίες μιας τέτοιας υπηρεσίας περιλαμβάνουν τις: GetResult, GetFeatureOfInterest, GetFeatureOfInterestTime, DescribeFeatureofInterest, DescribeObservationType, DescribeResultModel, Register Sensor, και InsertObservation.
 
-There are numerous excellent implementations of SOS. The OpenIOOS.org has thirteen organizations providing SOS service instances providing access to over 1400 oceans sensors (http://www.openioos.org/real_time_data/gm_sos.html). This operational demonstration “represents an effort to develop a Web Services Architecture for Ocean Observing”.
+Υπάρχουν πολλές εξαιρετικές υλοποιήσεις υπηρεσιών SOS. Το OpenIOOS.org περιλαμβάνει δεκατρείς οργανισμούς που παρέχουν υπηρεσίες SOS με πρόσβαση σε πάνω από 1400 αισθητήρες ωκεανών (http://www.openioos.org/real_time_data/gm_sos.html). Αυτή η επιχειρισιακή επίδειξη αποτελεί μια προσπάθεια να δημιουργηθεί μια αρχιτεκτονική διαδικτυακών υπηρεσιών για την παρακολούθηση των ωκεανών.
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`wcs_overview`
