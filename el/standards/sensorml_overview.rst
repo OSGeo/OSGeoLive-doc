@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _sensorml-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,33 +34,33 @@
 Sensor Model Language (SensorML)
 ================================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The OGC Sensor Model Language (SensorML) Encoding Standard describes an information model and XML encodings that enable discovery and tasking of Web-resident sensors as well as exploitation of sensor observations. Within this context, SensorML allows the developer to define models and XML Schema for describing any process, including measurement by a sensor system, as well as post-measurement processing. (http://www.opengeospatial.org/standards/sensorml)
+Το πρότυπο κωδικοποίησης Sensor Model Language (SensorML) του OGC περιγράφει ένα πληροφοριακό μοντέλο και κωδικοποιήσεις XML που επιτρέπουν την αναζήτηση και χρήση αισθητήρων που συνδέονται με το διαδίκτυο καθώς επίσης και την περαιτέρω χρήση των παρατηρήσεων αυτών των δεκτών. Σε αυτή την κατέυθυνση, η SensorML επιτρέπει στους προγραμματιστές να ορίσουν μοντέλα και σχήματα XML για να εκφράσουν κάθε διαδικασία, περιλαμβανομένων και μετρήσεων από ένα σύστημα δεκτών,  καθώς και διαδικασίες επεξεργασίας μετά τις μετρήσεις. (http://www.opengeospatial.org/standards/sensorml)
 
 .. image:: images/standards/sensorml.jpg
   :scale: 25%
   :alt: sensorML in Context
 
-More specifically, SensorML can: 
+Πιο συγκεκριμένα, η SensorML μπορεί: 
 
-* Provide descriptions of sensors and sensor systems for inventory management Provide sensor and process information in support of resource and observation discovery;
-* Support the processing and analysis of the sensor observations;
-* Support the geolocation of observed values (measured data);
-* Provide performance characteristics (e.g., accuracy, threshold, etc.);
-* Provide an explicit description of the process by which an observation was obtained (i.e., it's lineage);
-* Provide an executable process chain for deriving new data products on demand (i.e., derivable observation);
-* Archive fundamental properties and assumptions regarding sensor systems.
+* Να παρέχει περιγραφές αισθητήρων και συστημάτων δεκτών για διαχείρηση καταλόγου. Να παρέχει πληροφορίες για δέκτες και διαδικασίες με στόχο την υποστήριξη αναζήτησης πόρων και παρατηρήσεων.
+* Να παρέχει υποστήριξη για την επεξεργασία και ανάλυση των παρατηρήσεων δεκτών,
+* Να παρέχει υποστήριξη για συμπερίληψη γεωγραφικής τοποθεσίας των παρατηρούμενων μετρήσεων,
+* Να παρέχει χαρακτηριστικά σχετικά με επιδόσεις (π.χ. ακρίβειες, όρια κλπ),
+* Να παρέχει περιγραφή της διαδικασίας με την οποία μια παρατήρηση/μέτρηση έχει ληφθεί (π.χ. την ιστορικότητά της),
+* ΝΑ παρέχει μια εκτελέσιμη διαδικασία για αλυσίδες επεξεργασιών και παραγωγή νέων δεδομένων κατά απαίτηση,
+* Καταγραφή βασικών ιδιοτήτων και υποθέσεων σχετικα'με συστήματα αισθητήρων και δεκτών.
 
-Individual SensorML schema describe a specific sensor or an array of sensors and can be stored in a registry. 
+Μεμονομένα σχήματα SensorML περιγράφουν ένα συγκεκριμένο αισθητήρα ή μια συστοιχία από αισθητήρες και μπορούν να αποθηκευτούν σε ένα κατάλογο. 
 
-There are numerous examples of SensorML implementations, such as the NASA MSFC SMART program (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). In this project the team developed a sensor web-enabled processing workflow to intelligently assimilate Atmospheric Infrared Sounder (AIRS) satellite temperature and moisture retrievals into a regional configuration of the Weather Research and Forecast model over the southeastern United States.
+Υπάρχουν πολλά παραδείγματα υλοποίησης SensorML, όπως το πρόγραμμα MSFC SMART της NASA (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). Σε αυτό το πρόγραμμα, η ομάδα ανάπτυξης υλοποίησε μια ροή εργασίας επεξεργασιών ασθητήρων μέσω διαδικτύου με στόχο την ενσωμάτωση των μετρήσεων θερμοκρασίας και υγρασίας του δορυφόρου Atmospheric Infrared Sounder (AIRS) σε μια τοπική έκδοση του μοντέλου Weather Research and Forecast  στις νοτιοανατολικές ΗΠΑ.
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`sos_overview`

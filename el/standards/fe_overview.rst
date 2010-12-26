@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _fe-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,24 +34,24 @@
 Filter Encoding (FE)
 ====================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The OGC® Filter Encoding Standard (FE) defines an XML encoding for expressing filters for spatial queries in order to select a subset of features based upon specific attributes.
+Το πρότυπο Filter Encoding (FE) του OGC® ορίζει την κωδικοποίηση XML για την έκφραση φίλτρων για χωρικά ερωτήματα με στόχο την επιλογή μέρους από γεωγραφικά χαρακτηριστικά με βάση συγκεκριμένες τους ιδιότητες.
 (http://www.opengeospatial.org/standards/filter)
 
 .. image:: images/standards/fe.jpg
   :scale: 25%
   :alt: FE in Context
 
-A subset of features might be identified to render them in a particular color or convert them into a user-specified format. The neutral XML filter encoding allows easy parsing and validation by a server implementing the OGC WFS standard before the filter expression is transformed into the targeted language of the data store that is being queried. This standard is used by a number of OGC Web Services, including the Web Feature Service, the Catalogue Service and the Styled Layer Descriptor Standard.
+Ένα υποσύνολο χαρακτηριστικών μπορεί να αναγνωριστεί και να οπτικοποιηθεί με συγκεκριμένο χρώμα ή να μετατραπεί σε συγκεκριμένο ψηφιακό πρότυπο που επιλέγει ο χρήστης. Μια γενικευμένη κωδικοποίηση φίλτρων XML επιτρέπει την εύκολη ανάγνωση και επικαιροποίηση από έναν εξυπηρετητή που υλοποιεί το πρότυπο WFS πρωτού η έκφραση του φίλτρου μετατραπεί στην εγγενή γλώσσα της βάσης δεδομένων στην οποία είναι αποθηκευμένα τα δεδομένα και η οποία καλείται να απαντήσει στο ερώτημα. Αυτό το πρότυπο χρησιμοποιείται από ένα πλήθος διαδικτυακών υπηρεσιών του OGC, περιλαμβανομένου του WFS, της υπηρεσίας καταλόγου (CS-W) και του προτύπου SLD.
 
-Filter constraints can be specified on values of spatial, temporal and scalar properties. An example of a spatial filter is: “Find all the properties in Omstead County owned by Peter Vretanos.” An example of a temporal filter is: “Find all the dams in Massachusetts that were built before 1900.” An example of a scalar filter is: “Find all the temperature sensors in Paris that are reporting temperature between 20 degrees C. and 24 degrees C.” 
+Οι εκφράσεις περιορισμού μπορούν να οριστούν σαν τιμές σε χωρικές, χρονικές και περιγραφικές ιδιότητες. Ένα παράδειγμα χωρικού φίλτρου είναι: “Βρές όλες τα χαρακτηριστικά στην περιοχή Omstead County που ιδιοκτήτης είναι ο Peter Vretanos.” Ένα παράδειγμα χρονικού φίλτρου είναι: “Βρές όλα τα φράγματα στην Μασαχουσέτη που χτίστηκαν πριν το 1900.” Ένα παράδειγμα περιγραφικού φίλτρου είναι: “Βρές όλους τους αισθητήρες θερμοκρασίας στο Παρίσι που αναφέρουν μέτρηση θερμοκρασίας μεταξύ 20 και 40 βαθμών C.” 
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`sld_overview`

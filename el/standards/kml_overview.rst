@@ -1,18 +1,18 @@
-.. Writing Tip:
+.. Βοήθημα:
   Writing tips describe what content should be in the following section.
 
-.. Writing Tip:
+.. Βοήθημα:
   Metadata about this document
 
-:Author: OGC
-:License: Creative Commons
+:Συγγραφέας: OGC
+:Άδεια: Creative Commons
 
-.. Writing Tip:
+.. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page
 
 .. _kml-overview:
 
-.. Writing Tip: 
+.. Βοήθημα: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,30 +34,30 @@
 KML Encoding Standard (KML)
 ===========================
 
-.. Writing Tip:
+.. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
 
-The OGC KML Encoding Standard is an XML language focused on geographic visualization, including annotation of maps and images. Geographic visualization includes not only the presentation of graphical data on the globe, but also the control of the user’s navigation in the sense of where to go and where to look. (http://www.opengeospatial.org/standards/KML)
+Το πρότυπο κωδικοποίησης KML του OGC είναι μια γλώσσα XML που επικεντρώνεται στην οπτικοποίηση γεωγραφικής πληροφορίας, συμπεριλαμβανομένων σημειώσεων πάνω στους χάρτες και τις εικόνες. Η γεωγραφική οπτικοποίηση περιλαμβάνει όχι μόνο την παρουσίαση γραφικών δεδομένων πάνω στην υδρόγειο, αλλά επίσης τον έλεγχο της πλοήγησης του χρήστη με την έννοια του που να πάει και που να κοιτάξει για ότι ψάχνει. (http://www.opengeospatial.org/standards/KML)
 
 .. image:: images/standards/kml.jpg
   :scale: 25%
   :alt: KML in Context
 
-In 2006, Google submitted KML (formerly Keyhole Markup Language) to the OGC for consideration as a standard. KML was the first instance of a de-facto standard being submitted into the OGC standards process and as such the OGC modified our standards approval process to accommodate standards that have been developed externally from the OGC and then submitted into the OGC process. There were four objectives for this standards work:
+Το 2006, η Google κατέθεσε την KML (παλιότερα γνωστή και ώς Keyhole Markup Language) στο OGC με την προοπτική να γίνει επίσημο πρότυπο. Η KML ήταν το πρώτο παράδειγμα ενός προτύπου που ήταν ήδη ολοκληρωμένο πριν κατατεθεί στην διαδικασία προτυποποίησης του OGC και γι αυτό το λόγο το OGC μετέτρεψε τους κανόνες έγκρισης προτύπων ώστε να μπορεί να στεγάσει και πρότυπα τα οποία έχουν δημιουργηθεί εξωτερικά του OGC και στη συνέχεια στέλνονται στο OGC για έγκριση. Για αυτό το πρότυπο υπήρχαν 4 στόχοι:
 
-That there be one international standard language for expressing geographic annotation and visualization on existing or future web-based online maps (2d) and earth browsers (3d).
-That KML be aligned with international best practices and standards, thereby enabling greater uptake and interoperability of earth browser implementations.
-That the OGC and KML community will work collaboratively to insure that the KML implementer community is properly engaged in the process and that the KML community is kept informed of progress and issues.
-That the OGC process will be used to insure proper life-cycle management of the KML candidate specification, including such issues as backwards compatibility.
+Να υπάρχει ένα διεθνές πρότυπο γλώσσας για έκφραση γεωγραφικών σημειώσεων και οπτικοποίησης σε μελλοντικούς διαδικτυακούς χάρτες (2D) και περιηγητές της γης (3D).
+Η KML να εναρμονιστεί με τις καλύτερες διεθνείς πρακτικές και πρότυπα, και κατά συνέπεια να τύχει μεγαλύτερης αποδοχής και χρήσης σε διαδικτυακές εφαρμογές με στόχο τη διαλειτουργικότητα.
+Οτι η κοινότητα του OGC και της KML θα συνεργαστούν για να διασφαλίσουν οτι η κοινότητα ανάπτυξης της KML συμμετέχει ενεργά στη διαδικασία προτυποποίησης αλλά και ότι η κοινότητα της  KML θα ενημερώνεται για εξελήξεις και προβλήματα που προκύπτουν.
+Ότι οι διαδικασίες του OGC θα χρησιμοποιηθούν για να παρέχουν στη διαχείρηση κύκλου ζωής των μελοντικών προτύπων KML, εξασφαλίζοντας θέματα όπως η συμβατότητα με παλιότερες εκδόσεις.
 
-KML was approved as an OGC standard in 2008 because the Membership believed that having KML as an OGC standard would encourage broader implementation and greater interoperability and sharing of earth browser content and context.
+Η KML εγκριθηκε σαν πρότυπο του OGC το 2008 επειδή η επιτροπή πίστευε πως το πρότυπο αυτό θα βοηθούσε στην περαιτέρω βελτίωση της διαλειτουργικότητας και ανταλαγής πληροφορίας μέσω διαδικτυακών εφαρμογών σε περιηγητές γης και χάρτες.
  
-KML is complementary to most of the existing OGC specifications including key standards such as GML (Geography Markup Language), WFS (Web Feature Service) and WMS (Web Map Service). Currently, KML (v2.1) utilizes certain geometry elements derived from GML (version 2.1.2). These elements include point, line-string, linear-ring, and polygon.
+Η KML είναι συμπληρωματική στα περισσότερα πρότυπα του OGC συμπεριλαμβανομένης της GML (Geography Markup Language), του WFS (Web Feature Service) και του WMS (Web Map Service). Σήμερα, η KML (v2.1) ενσωματώνει στοιχεία γεωμετρίας της GML (έκδοση 2.1.2). Αυτά τα στοιχεία περιλαμβάνουν τα σημεία, τις σειρές γραμμών, τους γραμμικούς δακτυλίους και τα πολύγωνα.
 
-See Also
+Δείτε επίσης
 --------
 
-.. Writing Tip:
+.. Βοήθημα:
   Describe Similar standard
 
 * :doc:`gml_overview`
