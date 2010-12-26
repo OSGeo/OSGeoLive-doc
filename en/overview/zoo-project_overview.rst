@@ -56,7 +56,7 @@ Core Features
 -------------
 
 * Multi language WPS server 
-* Simple Web Service creation and depoyment procedure
+* Simple Web Service creation and deployment procedure
 * Simple WPS chaining with ZOO API
 
 Implemented Standards
