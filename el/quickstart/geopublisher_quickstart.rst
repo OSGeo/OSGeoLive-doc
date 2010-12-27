@@ -1,81 +1,78 @@
-:Author: Stefan Tzeggai
-:Version: osgeo-live4.0
-:License: Creative Commons
+Συγγραφέας: Stefan Tzeggai
+:Έκδοση: osgeo-live4.0
+:Άδεια : Creative Commons
 
 .. _geopublisher-quickstart:
  
 .. image:: images/project_logos/logo-Geopublisher.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+  :scale: 100 %Κλίμακα:100%
+  :alt: project logoalt:
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://en.geopublishing.org/Geopublisher
 
 ***********************
-Geopublisher Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Geopublisher
 ***********************
 
-Demo-Atlas
+Δοκιμαστική εφαρμογή άτλαντα
 ==========
-* `Tiny demo atlas with an interactive diagram and a world map on socio-economic data, English, Created for version 1.5 <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_
+* `Μικρή δοκιμαστική εφαρμογή άτλαντα με ένα διαδραστικό διάγραμμα και παγκόσμιο χάρτη που αφορά σε κοινωνικο-οικονομικά δεδομένα. Αγγλικά, δημιουργήθηκε για την έκδοση 1.5. <file :///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>
 
-Tutorials
+Βοηθήματα
 =========
-Geopublisher (Create and export atlases)
+Geopublisher (Δημιουργία και εξαγωγή άτλαντα)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `First "Hands on Geopublisher" tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_EN.pdf>`_
-* `First "Hands on Geopublisher" tutorial, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_FR.pdf>`_
-* `Second "Hands on Geopublisher" tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_EN.pdf>`_
-* `Second "Hands on Geopublisher" tutorial, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_FR.pdf>`_
+* `Πρώτη "Πρακτική εφαρμογή στον Geopublisher", Αγγλικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_EN.pdf>`_
+* `Πρώτη "Πρακτική εφαρμογή στον Geopublisher", Γαλλικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_FR.pdf>`_
+* `Δεύτερη "Πρακτική εφαρμογή στον Geopublisher", Αγγλικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_EN.pdf>`_
+* `Δεύτερη "Πρακτική εφαρμογή στον Geopublisher", Γαλλικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_FR.pdf>`_
 
-AtlasStyler (Styling layers with SLD)
+AtlasStyler (Διαμορφώνοντας στύλ επιπέδων με το πρότυπο SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `AtlasStyler Labelling tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
-* `AtlasStyler tutoriel d'étiquetage SLD, French, Created for version 1.5 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.5_FR_Tutoriel_d_etiquetage_101006.pdf>`_
+* `Βοήθημα δημιουργίας ετικετών με τον AtlasStyler , Αγγλικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
+* `Βοήθημα δημιουργίας ετικετών με τον AtlasStyler και SLD, Γαλλικά, δημιουργήθηκε για την έκδοση 1.5 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.5_FR_Tutoriel_d_etiquetage_101006.pdf>`_
 
-More tutorials are posted as blog entries at `http://en.geopublishing.org <http://en.geopublishing.org">`_ (you have to be online to visit this webpage).
+Περισσότερα βοηθήματα βρίσκονται στα blog`http://en.geopublishing.org <http://en.geopublishing.org">`(πρέπει κανείς να είναι συνδεδεμένος στο διαδίκτυο για να μπορεί να επισκευθεί αυτή τη σελίδα). 
 
-Manuals
+Εγχειρίδια χρήσης
 =======
 
-Geopublisher (Create and export atlases)
+Geopublisher (Δημιουργία και εξαγωγή άτλαντα)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `Geopublisher manual, French, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
-* `Geopublisher manual, German, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_    
+* `Geopublisher εγχειρίδιο χρήσης, Γαλλικά, δημιουργήθηκε για την έκδοση 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
+* `Geopublisher εγχειρίδιο χρήσης, Γερμανικά, δημιουργήθηκε για την έκδοση 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_    
 
-AtlasStyler (Styling layers with SLD)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `AtlasStyler manual, German, Created for version 1.2 <file:///usr/share/doc/geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
+AtlasStyler (Διαμορφώνοντας στύλ επιπέδων με το πρότυπο SLD)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* `AtlasStyler εγχειρίδιο χρήσης, Γερμανικά, δημιουργήθηκε για την έκδοση 1.2 <file:///usr/share/doc/geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
 
-AtlasViewer (How to use atlases created with Geopublisher)
+ AtlasViewer  (Πώς να χρησιμοποιούνται οι άτλαντες που δημιουργούνται με το Geopublisher)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `AtlasViewer manual, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
-* `AtlasViewer manual, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_ 
-* `AtlasViewer manual, German, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_  
+* `AtlasViewer εγχειρίδιο χρήσης, Γαλλικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
+* `AtlasViewer εγχειρίδιο χρήσης, Αγγλικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_ 
+* `AtlasViewer εγχειρίδιο χρήσης, Γερμανικά, δημιουργήθηκε για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_  
 
 
-Running
-=======
+=======Τρέχοντας το πρόγραμμα
 
-Getting Started
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~Ξεκινώντας το πρόγραμμα
 
-Geopublisher is an end-user application, that allows you to compile and style your geodata and publish it to the world quickly. This DVD contains a small demo atlas, that you can use as a base before adding you own data.
+Το πρόγραμμα Geopublisher αφορά σε μια εφαρμογή η οποία επιτρέπει στο χρήστη να συλλέγει, να διαμορφώνει τα γεωδεδομένα του και να τα δημοσιεύει γρήγορα σε όλους. Το DVD αυτό περιλαμβάνει ένα μικρό άτλαντα δοκιμαστικής λειτουργίας, το οποίο μπορεί να χρησιμοποιηθεί σαν βάση για να προσθέσει κανείς τα δικά του δεδομένα.
 
-0) The OSGeo Live DVD uses the Xubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
+0) Το OSGeo Live DVD χρησιμοποιεί το λειτουργικό σύστημα Xubuntu το οποίο έχει ένα μικρό πρόβλημα με τις εφαρμογές βασιζόμενες στη Java: Σαν λύση παρακαλώ κάνετε δεξί κλικ στην μπάρα μενού (Όπου βρίσκονται τα 'Applications' και  'Places') και επιλέξτε  'Customize Panel'. Εκεί, τσεκάρετε την επιλογή Autohide' . Η μπάρα με τα μενού κρύβεται τώρα, εκτός και αν το ποντίκι φτάσει την κορυφή της οθόνης. 
 
-1) Uncompress the demo atlas: Click on `this link <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ and select 'Open with Archive Manager (default)'. This will open the ZIP file. Next select the third icon in the toolbar to extract and choose 'Desktop' as the target folder. Now you should have a folder 'ChartDemoAtlas' on your desktop. You can close the Archive Manager application.
+1)Αποσυμπιέζετε τον demo άτλαντα ώς εξής: Κάνετε κλικ στο εξής link <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ και επιλέγετε 'Open with Archive Manager (default)'. Αυτό θα ανοίξει το  ZIP αρχείο. Στη συνέχεια επιλέγετε το τρίτο εικονίδιο στην μπάρα εργαλείων που αφορά στην εξαγωγή του αρχείου και επιλέγετε το 'Desktop' σαν target folder. Μετά από αυτό θα πρέπει να έχετε ένα φάκελο 'ChartDemoAtlas'  στην επιφάνεια εργασίας σας. Μπορείτε να επιλέξετε το Archive Manager application.
 
-3) Now start the Geopublisher application. :menuselection:`Geospatial --> Desktop GIS --> Geopublisher`. Geopublisher starts and will ask you which atlas to open. Select 'atlas.gpa' from folder 'ChartDemoAtlas'. It now loads the atlas. You should see a triparted GUI with a map-pool, data-pool and menu area. This GUI allows you to create and organize multiple multi-language maps.
+3) Τώρα ξεκινήστε την εφαρμογή Geopublisher. Επιλέγουμε από το μενού τα εξής:`Geospatial --> Desktop GIS --> Geopublisher`. Το Geopublisher ξεκινά και μπορεί να σας ρωτήσει ποιόν άτλαντα να ανοίξει. Επιλέξτε 'atlas.gpa' από το φάκελο 'ChartDemoAtlas'. Αυτό φορτώνει τώρα τον άτλαντα. Θα πρέπει να βλέπετε ένα τριμερές GUI με μια περιοχή χάρτη, μια περιοχή δεδομένων και μια περιοχή μενου. Το γραφικό περιβάλλον επιτρέπει τη δημιουργία και οργάνωση πολλαπλών πολύγλωσσων χαρτών.
 
-4) Add a Shapefile to the atlas: Select :menuselection:`File --> Import... --> Import files` and select '/home/user/data/natural_earth/10m_lakes.shp'. Geopublisher will ask you to describe that new layer with a title and a description. If that atlas would be configured to be multilingual, this information would be asked for every language. You will see the new layer appearing the DataPool section.
+4) Προσθέστε ένα Shapefile στον άτλαντα ως εξής: Επιλέξτε από τα μενού τα εξής:`File --> Import... --> Import files` και επιλέξτε '/home/user/data/natural_earth/10m_lakes.shp'. Το Geopublisher θα σας ζητήσει να περιγράψετε αυτό το νέο επίπεδο με έναν τίτλο και μια περιγραφή. Εάν αυτός ο άτλαντας πρόκειται να είναι σε πολλές γλώσσες, η πληροφορία αυτή θα ρωτηθεί για κάθε γλώσσα. Θα δείτε το νέο επίπεδο να εμφανίζεται στην περιοχή των δεδομένων.
 
-5) Open the map 'The digital divide' by double-clicking it in the map-pool (top right area). A second window opens. To add the layer to the may, use drag'n'drop: Position the 'Map Composer' windows so that you can still see the DataPool. Click the new layer and hold the left mouse-button. Move the layer into the legend area of the Map Composer window and release it there. Using drag'n'drop you can also change the order of layers in the map. Try out styling the layer with AtlasStyler (tool-icon -> style) and finally close the window.
+5) Ανοίξτε το χάρτη 'The digital divide' κάνοντας διπλό κλικ στην περιοχή του χάρτη (πάνω δεξιά περιοχή). Ένα δεύτερο παράθυρο ανοίγει. Για να προσθέσετε ένα επίπεδο στο χάρτη, χρησιμοποιείστε λειτουργία drag'n'drop: Τοποθετήστε τα παράθυρα σχεδίασης χάρτη 'Map Composer' κατά τέτοιο τρόπο ώστε να μπορείτε ακόμα να βλέπετε την περιοχή των δεδομένων. Κάντε κλικ στο νέο επίπεδο και κρατήστε πατημένο το αριστερό πλήκτρο στο ποντίκι. Μετακινήστε το επίπεδο στη περιοχή υπομνήματος του παραθύρου σχεδίασης χάρτη και αφήστε το εκεί. Χρησιμοποιώντας λειτουργία drag'n'drop μπορείτε επίσης να αλλάξετε τη σειρά των επιπέδων σε ένα χάρτη. Δοκιμάστε να αλλάξετε τη μορφοποίηση του επιπέδου με το AtlasStyler (tool-icon -> style) και στο τέλος κλείστε το παράθυρο.
 
-5) Export the atlas: :menuselection:`File --> Export` and follow the wizard: Export online and offline version of the atlas to a new directory 'Desktop/ChartAtlasExported'. When the export finished, click the "open folder" button. You see the exported and stand-alone versions of the atlas, that you were just editing.
+5) Για την εξαγωγή του άτλαντα κάνετε τα εξής: Επιλέξτε από τα μενού τα εξής:`File --> Export` και ακολουθήστε τον οδηγό: Κάνετε εξαγωγή online και offline έκδοση του άτλαντα στο φάκελο 'Desktop/ChartAtlasExported'. Όταν η εξαγωγή ολοκληρωθεί, κάντε κλικ στο κουμπί "open folder". Μπορείτε να δείτε τις εκδόσεις του άτλαντα που έχετε εξάγει αλλά και τις αυτόνομες, τις οποίες ακόμη δουλεύετε.
 
-6) Try the exported atlas: Go into the `Desktop/ChartAtlasExported/DISK` folder and run `start.sh`. 
+6) Δοκιμάστε τον εξαγόμενο άτλαντα: Πηγαίνετε στον εξής `Desktop/ChartAtlasExported/DISK` φάκελο και τρέχετε το `start.sh`. 
 
-7) Geopublisher has many more possibilities of course. Go to :menuselection:`Applications --> Education --> Geopublishing documentation` and look at all the documentation provided.
+7) Ο Geopublisher έχει πολλές ακόμη δυνατότητες. Επιλέξτε από τα μενού τα εξής:`Applications --> Education --> Geopublishing documentation` και κοιτάξτε τα έγγραφα που παρέχονται.
 
-8) Have fun and/or please give feedback to tzeggai@wikisquare.de
+8) Διασκεδάστε το και / ή δώστε παρακαλώ ανταπόκριση στο tzeggai@wikisquare.de
