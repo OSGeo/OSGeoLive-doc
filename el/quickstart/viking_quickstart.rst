@@ -11,96 +11,83 @@
   :target: http://sourceforge.net/apps/mediawiki/viking/
 
 *****************
-Viking Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Viking 
 *****************
 
-Running
+Εκτέλεση
 =======
 
-Getting Started
+Ξεκινώντας
 ~~~~~~~~~~~~~~~
 
-.. from /usr/share/doc/viking/GETTING_STARTED
+.. από το /usr/share/doc/viking/GETTING_STARTED
 
-To quickly get started using Viking, follow these instructions.
+Για να ξεκινήσετε γρήγορα τη χρήση του Viking, ακολουθήστε αυτές τις οδηγίες.
 
-1) Get some data from your GPS device. There are a couple ways to do this.
-You can use gpspoint or you can use another program and translate it with
-my version GPSBabel with gpspoint write support (or use the GPSBabel program
-itself to download and translate at once.)
+1) Συλλέξτε μερικά δεδομένα από τη συσκευή GPS σας. Υπάρχουν τρόποι να το κάνετε αυτό.
+Μπορείτε να χρησιμοποιήσετε το gpspoint ή κάποιο λογισμικό και να τα μεταφράσετε με μια έκδοση
+του GPSBabel με τη δυνατότητα εγγραφής gpspoint (ή χρησιμοποιήστε το λογισμικό GPSBabel για κατέβασμα και μετάφραση απευθείας.)
 
-2) Open up viking and use :menuselection:`File --> Open GPS Data` to open the gpspoint file.
-Viking will try to change its viewing area to the center of the layer (file)
-but sometimes if you have waypoints and tracks which are very far apart you 
-won't see anything. If this is the case, expand the layer (on the Layers 
-Panel to the left), then expand "Waypoints", find a waypoint and right-click 
-on it and click "Goto".
+2) Ανοίξτε το viking και επιλέξτε:menuselection:`File --> Open GPS Data` για να ανοίξετε ένα αρχείο gpspoint.
+Το Viking θα προσπαθήσει να αλλάξει την περιοχή οπτικοποίησης ώστε να κεντράρει τα δεδομένα στην οθόνη 
+αλλά ορισμένες φορές αν έχετε σημεία προορισμού και γραμμές πορείας που είναι απομακρυσμένα, δεν θα βλέπετε τίποτα. Σε αυτή την περίπτωση, επεκτείνετε το επίπεδο (από το παράθυρο Layers 
+στα αριστερά), στη συνέχεια επεκτείνετε το "Waypoints", βρείτε ένα σημείο προορισμού και με δεξί κλίκ επιλέξτε "Goto".
 
-3) Now add a map layer (:menuselection:`Layers --> New Map Layer`), choose a suitable cache 
-directory where you would like to store your tracks and click OK. Zoom to a 
-comfortable level (I suggest 4 mpp) by clicking the left and right mouse 
-buttons on the gray area where your tracks are. Now from the menu choose 
-:menuselection:`Tools --> Map Download`, Click where you would like to download a map. 
-Regardless of what tool you are using, the middle mouse button always pans.
+3) Τώρα προσθέστε ένα επίπεδο χάρτη (:menuselection:`Layers --> New Map Layer`), επιλέξτε ένα φάκελο για προσωρινή αποθήκευση 
+των δεδομένων και επιλέξτε OK. Κάντε μεγέθυνση σε ένα βολικό επίπεδο 
+(προτείνουμε 4 mpp) με αριστερό και δεξί κλίκ του ποντικιού σας στην γκρί περιοχή που είναι οι γραμμές σας. Από το μενού επιλέξτε 
+:menuselection:`Tools --> Map Download`, κάντε κλίκ για το που θέλετε να αποθηκεύσετε το χάρτη. 
+Ανεξάρτητα του ποιου εργαλείου χρησιμοποιείτε, το μεσαίο πλήκτρο του ποντικιού πάντα κάνει μετάθεση του χάρτη.
 
-4) You will notice the maps are being drawn on top of the tracks, which is 
-probably not what you want. Look at the Layers Panel to the left. Notice how 
-the layer named "Map" is ABOVE your TrackWaypoint layer that your GPS data is 
-in. This means that it will be drawn last, or on top of the other layers. 
-Select the Map layer from the list and click the down arrow button beneath 
-the list. Your tracks will now be drawn over the map.
+4) Θα παρατηρήσετε πως οι χάρτες εμφανίζονται πάνω από τις γραμμές πλοήγησης, πράγμα που δεν το θέλουμε. Δείτε αριστερά στο παράθυρο επιπέδων. Παρατηρήστε πως το επίπεδο  "Map" είναι πάνω από το επίπεδο με τα σημεία προορισμού σας στο οποίο βρίσκονται τα δεδομένα σας. Αυτό σημαίνει οτι θα εμφανίζεται πάντα τελευταίο πάνω από όλα τα υπόλοιπα δεδομένα. 
+Επιλέξτε το επίπεδο από τη λίστα και κάντε κλίκ στο βελάκι που δείχνει προς τα κάτω και βρίσκεται κάτω από τη λίστα. Τα δεδομένα σας θα εμφανίζονται τώρα πάνω από το χάρτη.
 
 .. TODO: some explanation of the layers, etc. is required.
 
 
-Geocoding
+Γεωκωδικοποίηση
 ~~~~~~~~~
-.. from /usr/share/doc/viking/GEOCODED-PHOTOS
+.. από το /usr/share/doc/viking/GEOCODED-PHOTOS
 
-How to geocode your photos and see them in Viking:
+Πως να γεωκωδικοποιήσετε τις εικόνες σας και να τις δείτε στο Viking:
 
-1) Synchronize your camera's clock with your GPS clock. If your camera's clock
-doesn't have a seconds value you can change, you might try setting the minute
-value just when the minute changes.
+1) Συγχρονίστε το ρολόι της κάμερας σας με το ρολόι του GPS. Αν το ρολόι της κάμερας σας δεν έχει δείκτη δευτερολέπτων, δοκιμάστε να αλλάξετε 
+την τιμή του λεπτού της την ώρα που αλλάζει το λεπτό.
 
-2) Activate the track log on your GPS.
+2) Ενεργοποιήστε τη διαδικασία συνεχούς καταγραφής του GPS σας.
 
-3) Get outside and take some pictures with your camera while making sure your
-GPS has reception. If you forgot to turn your GPS on or forgot to bring it when
-you took a picture but you know where you took the picture, you can make a
-waypoint with a name of the format "YYMMDDhhmm", representing the time the
-picture was taken, to record where you were at that time.
+3) Βγείτε έξω και πάρτε μερικές φωτογραφίες ενώ είστε σίγουροι ότι το GPS σας καταγράφει και έχει σήμα. Αν ξεχάσατε να ενεργοποιήσετε το GPSσας ή ξεχάσατε να το φέρετε όταν τραβήξατε τη φωτογραφία
+αλλά γνωρίζετε που την τραβήξατε, μπορείτε να δημιουργήσετε έναν προορισμό 
+με το πρότυπο "YYMMDDhhmm", με αναπαράσταση του χρόνου τον οποίο πήρατε τη φωτογραφία,
+για να καταγράψετε την περιοχή που είσασταν εκείνο το χρονικό σημείο.
 
-4) Get home and download your pictures and GPS data. You can download the GPS
-data several ways. The first is using gpspoint to download from a Garmin GPS:
+4) Επιστρέψτε στο σπίτι και κατεβάστε τις εικόνες και τα δεδομένα GPS. Μπορείτε να κατεβάσετε τα δεδομένα του GPS
+με πολλούς τρόπους. Ο πρώτος είναι να χρησιμοποιήσετε το gpspoint για να κτεβάσετε από ένα Garmin GPS:
 
 ::
 
   gpspoint -p /dev/ttyS0 -dw -dt -of 2004-04-02-trip1
 
-Where /dev/ttyS0 is the serial port the GPS is connected to. If you don't have a
-Garmin GPS, or if you don't feel like install gpspoint, you can use my version
-of gpsbabel with support for gpspoint files. You can use gpsbabel to either
-translate the GPS data from a format you already have the data in or download it
-directly from your GPS receiver. A typical command line would something like
-this:
+Όπου /dev/ttyS0 είναι η σειριακή θύρα που το GPS είναι συνδεδεμένο. Αν δεν έχετε ένα 
+Garmin GPS, ή αν δεν θέλετε να εγκαταστήσετε το gpspoint, μπορείτε να χρησιμοποιήσετε 
+μια έκδοση του gpsbabel με υποστήριξη αρχείων gpspoint. Μπορείτε να χρησιμοποιήσετε το gpsbabel για να μεταφράσετε
+τα δεδομένα GPS από το πρότυπο που έχετε ήδη  ή να τα κατεβάσετε απευθείας από
+τον δέκτη GPS. Σε περιβάλλον τερματικού θα είναι κάπως έτσι:
 
 ::
 
   gpsbabel -i garmin -f /dev/ttyS0 -o gpspoint -F 2004-04-02-trip1
 
-5) Launch GPSPhoto.
+5) Ξεκινήστε το GPSPhoto.
 
-6) You must now bring your photos into GPSPhoto. Either drag them (or the
-directory containing them) from your favorite file manager to the list on the
-left of the GPSPhoto window, or use the buttons below the list to find them.
+6) Εισάγετε τις εικόνες σας στο GPSPhoto. Μπορείτε να τις σύρετε (ή τον φάκελο που τις περιέχει) με τη χρήση ενός γραφικού διαχειριστή αρχείων
+στο αριστερό μέρος του παραθύρου του GPSPhoto, ή χρησιμοποιήστε τα κουμπιά κάτω από τη λίστα να να τις βρείτε.
 
-7) Do the same for your GPS data file(s), dragging them to the list on the right
-of the GPSPhoto Window.
+7) Κάντε το ίδιο με τα αρχεία δεδομένων από το GPS, βάζοντάς τες στη λίστα δεξιάτου παραθύρου GPSPhoto.
 
-8) Click the "Execute" button, and choose a location to save the gpspoint file
-containing the waypoints for your photos. Then click OK to write the waypoints
-to this file.
+8) Κάντε κλίκ στο κουμπί "Execute", και επιλέξτε το σημείο στο σύστημα αρχείων για να σώσετε το παραγόμενο αρχείο gpspoint
+που περιλαμβάνει τους προορισμούς των φωτογραφιών σας. Τότε πιέστε το OK για να γράψετε τα σημεία προορισμού
+σε αυτό το αρχείο.
 
-9) Open Viking and open both your original GPS data file and your image waypoint
-file just created.
+9) Ανοίξτε το Viking και ανοίξτε τα αρχικά δεδομένα GPS data και τα σημεία προορισμού των εικόνων
+που μόλις δημιουργήσατε.

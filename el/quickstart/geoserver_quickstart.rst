@@ -15,251 +15,234 @@
   :align: right
 
 ********************
-GeoServer Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης GeoServer
 ********************
 
-GeoServer is a java application for serving maps (and data) for other
-clients to draw.
+Ο GeoServer είναι μια εφαρμογή Java. Είναι ένας εξυπηρετητής χαρτών και δεδομένων ώστε αυτά να οπτικοποιούνται σε λογισμικά πελάτες.
 
-This Quick Start describes how to:
+Οι συγκεκριμένες οδηγίες περιγράφουν πώς:
 
-  * add a vector and raster data source to GeoServer
-  * apply color to map features using styling
-  * test the layers in a simple web map
-  * learn about clients that can display your maps
+  * Προσθέτουμε μια πηγή δεδομένων (διανυσματικών ή εικονιστικών) στον GeoServer
+  * Εφαρμόζουμε χρώμα στα χαρακτηριστικά του χάρτη με τη χρήση στύλ
+  * Δοκιμάζουμε τα επίπεδα πληροφορίας σε μια δοκιμαστική διαδικτυακή εφαρμογή
+  * Μαθαίνουμε σχετικά με τους πελάτες που μπορούν να απεικονίσουν τους χάρτες που δημιουργούνται
 
-Start |GS|
+Εκκίνηση |GS|
 ==========
 
-#. Select the "Start GeoServer" icon.
-#. The application will take a few moments to start up
-#. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
+#. Επιλέξτε το εικονίδιο "Start GeoServer".
+#. Η εφαρμογή θα ξεκινήσει σε λίγες στιγμές Πηγαίνετε στην κεντρική ιστοσελίδα του GeoServer στο http://localhost:8082/geoserver/web 
 
 .. image:: images/screenshots/800x600/geoserver-login.png
     :width: 90 %
     :align: left
 
 
-First Views
+Πρώτες οθόνες
 ===========
 
-When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
+Όταν ξεκινήσετε την σελίδα του GeoServer θα δείτε την παραπάνω οθόνη, το πρώτο πράγμα που χρειάζεται να κάνετε είναι να για εισάγετε τα στοιχεία του χρήστη σας με τη χρήση του ονόματος χρήστη και κωδικού πρόσβασης. Θα δείτε στη συνέχεια την *σελίδα διαχείρησης* 
 
 .. image:: images/screenshots/800x600/geoserver-welcome.png
     :width: 90%
     :align: left
 
-The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
+Ο σύνδεσμος **Layer Preview** στο κάνω αριστερό μενού σας επιτρέπει να δείτε μια προεπισκόπηση των επιπέδων των δεδομένων που είναι φορτωμένα στον εξυπηρετητή. 
   
 .. image:: images/screenshots/800x600/geoserver-layerpreview.png
     :width: 90%
     :align: left
 
-Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
+Κυλίστε στο κάτω μέρος της οθόνης και κάντε κλικ στον σύνδεσμο **OpenLayers** στην γραμμή **tiger-ny**, αυτό θα ανοίξει ένα νέο παράθυρο με μερικά δοκιμαστικά δεδομένα μέσα του. 
 
 .. image:: images/screenshots/800x600/geoserver-preview.png
     :width: 90%
     :align: left
     
-You can zoom in to the map in three ways:
+Μπορείτε να μεγενθύνετε στον χάρτη με τρείς τρόπους:
 
-        * by clicking on the zoom bar on the left, the higher you click on it the more zoomed in you will see.
+        * Με κλικ στη μπάρα μεγέθυνσης αριστερά, όσο ψηλότερα κάνετε κλίκ σε αυτή τόσο μεγαλύτερη μεγέθυνση πετυχαίνετε.
 
-        * by using the mouse scroll wheel (if you have one), scrolling up will zoom in and down will zoom out.
+        * Με τη χρήση της ρόδας του ποντικιού σας, η κίνηση πρός τα πάνω κάνει μεγέθυνση και η κίνηση προς τα κάτω κάνει σμίκρυνση.
 
-        * by dragging a box on the map while holding down the :kbd:`shift key` - this will zoom in to the box selected (or as near as will fit in the screen).
+        * Ζωγραφίζοντας ένα πολύγωνο στο χάρτη ενώ ταυτόχρονα κρατάτε πατημένο το κουμπί  :kbd:`shift key` - αυτό θα σας μεγενθύνει στην περιοχή που επιλέξατε με το πολύγωνο (ή όσο κοντά γίνεται με βάση την οθόνη σας).
 
-#. Experiment with this view and look at some of the other previews.  Once you are happy with looking at data you can move on to adding some new data.
+#. Πειραματιστείτε με αυτή την απεικόνιση σε μερικές άλλες δοκιμαστικές εφαρμογές.  Όταν τελειώσετε με αυτή την εκμάθηση, μπορείτε να συνεχίσετε στο πως θα προσθέσετε νέα δεδομένα.
 
-Loading Data
+Φόρτωση δεδομένων
 ============
 
 .. note::
-    You will not be able to carry out the following steps if you are
-    running with a **read only** file system (such as the DVD). You
-    will either need to install GeoServer from the DVD to your
-    hard drive or  create a USB stick based system.
+    Δεν θα μπορέσετε να εκτελέσετε τα επόμενα βήματα εαν
+    εργάζεστε σε σύστημα αρχείων με δυνατότητα μόνο ανάγνωσης (όπως στο live DVD). Θα χρειαστεί
+    είτε να εγκαταστήσετε το GeoServer από το DVD στον
+    σκληρό σας δίσκο ή να δημιουργήσετε ένα σύστημα βασισμένο σε στίκ USB.
 
 
-In this example we are going to use the `Natural Earth data set
-<http://naturalearthdata.com>`_ that is included on the Live-DVD
+Σε αυτό το παράδειγμα θα χρησιμοποιήσουμε τα δεδομένα `Natural Earth
+<http://naturalearthdata.com>`_ τα οποία περιλαμβάνονται στο DVD
 (:file:`/usr/local/share/data/natural_earth/`).
 
-First we need to copy the data to the GeoServer data directory
-(:file:`/usr/lib/geotools-2.0.2/data_dir/data`). I created a folder
-called :file:`naturalearth`. I used a terminal window, but I expect you
-can do the same thing in the file manager if you prefer.  ::
+Αρχικά χρειάζεται να αντιγράψουμε τα δεδομένα στο φάκελο δεδομένων του GeoServer
+(:file:`/usr/lib/geotools-2.0.2/data_dir/data`). Δημιουργήσαμε ένα φάκελο 
+με όνομα :file:`naturalearth`. Χρησιμοποιήσαμε ένα παράθυρο τερματικού, αλλά εσείς μπορείτε να επιλέξετε
+και μια εφαρμογή διαχείρισης αρχείων αν το προτιμάτε.  ::
 
         cd /usr/lib/geotools-2.0.2/data_dir/data
         mkdir naturalearth
         cp /usr/local/share/data/natural_earth/* naturalearth
      
 
-Now we need to create a Store for our data. From the |GS| admin page go
-to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
-will see this page:
+Τώρα χρειαζόμαστε να δημιουργήσουμε μια αποθήκη (Store) για τα δεδομένα μας. Από τη σελίδα διαχείρισης |GS| πηγαίνετε στο 
+:guilabel:`Stores` και επιλέξτε :guilabel:`Add new Store`. Θα δείτε αυτή την σελίδα:
 
 .. figure:: images/screenshots/800x600/geoserver-newstore.png
     :align: center
     :width: 90%
     
-    *The New Store page*
+    *Η σελίδα της νέας αποθήκης δεδομένων*
 
-Select the :guilabel:`Directory of spatial files`, you will see the following: 
+Επιλέξτε το :guilabel:`Directory of spatial files`, και θα δείτε το επόμενο: 
 
 .. figure:: images/screenshots/800x600/geoserver-new-vector.png
     :align: center
     
-    *Filling in the New Store page*
+    *Συμπληρώνοντας την σελίδα νέας αποθήκης δεδομένων*
 
-Type in a name for the Data Store - I used *Natural Earth* and fill in
-the URL to the data set - in this case :file:`data/naturaleath`. The
-URL is relative to the |GS| data directory. Press :guilabel:`save`.
+Πληκτρολογήστε ένα όνομα για την νέα αποθήκη - χρησιμοποιήσαμε το *Natural Earth* και συμπληρώστε την διεύθυνση 
+για τα δεδομένα - σε αυτή την περίπτωση :file:`data/naturaleath`. Η διεύθυνση
+των δεδομένων πρέπει να είναι σχετική με την θέση του φακέλου δεδομένων του |GS|. Πιέστε :guilabel:`save`.
 
 .. figure:: images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :width: 100%
 
-    *The Natural Earth Datastore*
+    *Η αποθήκη δεδομένων Natural Earth*
 
-Press :guilabel:`publish` next to one of the layers to finish up adding
-the data. This will take you to the *Layers* page:
+Πιέστε :guilabel:`publish` δίπλα από το επίπεδο που επιθυμείτε για να ολοκληρώσετε την προσθήκη των δεδομένων. Αυτό θα σας οδηγήσει στην σελίδα των επιπέδων (*Layers*):
 
 .. figure:: images/screenshots/800x600/geoserver-publish.png
     :align: center
     :width: 90%
 
-    *The layer publishing page*
+    *Η σελίδα επιλογής επιπέδων*
 
-As you scroll down the page you will see that |GS| has filled in many of
-the fields for you. When you reach :guilabel:`Coordinate Reference System`
-you will notice that under *Native SRS* that it says UNKNOWN [#esri]_
-you will need to fill in the next box (*declared SRS*) to make sure |GS|
-knows where the data is. For the time being trust me and type epsg:4326 in
-the box, if you don't trust me then go to `http://prj2epsg.org/search` and
-paste in the string you see if you click on the link next to "UNKNOWN".
-Then click on :guilabel:`Compute from data` and :guilabel:`Compute from
-native bounds` to fill in the Bounding Boxes. Finally hit :guilabel:`save`
-and you have published your first layer.
+Εαν κυλήσετε τη σελίδα θα προσέξετε ότι ο |GS| έχει συμπληρώσει πολλά πεδία για εσάς. Όταν φτάσετε το  :guilabel:`Coordinate Reference System`
+θα παρατηρήσετε ότι κάτω από το *Native SRS* έχει την ένδειξη UNKNOWN [#esri]_
+και θα χρειαστεί να συμπληρώσετε το επόμενο πεδίο (*declared SRS*) για να σιγουρευτήτε πως ο |GS|
+γνωρίζει που βρίσκονται τα δεδομένα. Για την ώρα εμπιστευθείτε μας και πληκτρολογήστε epsg:4326 στο πεδίο,
+ ή πηγαίνετε στο `http://prj2epsg.org/search` και συμπληρώστε το κείμενο που βλέπετε 
+αν κάνετε κλικ δίπλα στην ένδειξη "UNKNOWN".
+Στη συνέχεια πιέστε το :guilabel:`Compute from data` και :guilabel:`Compute from
+native bounds` ώστε να συμπληρωθούν αυτόματα τα όρια της έκτασης των δεδομένων. Στο τέλος επιλέξτε :guilabel:`save`
+και έχετε δημοσιεύσει το πρώτο σας επίπεδο.
 
 .. note::
-    If you look at this layer in the layer preview it doesn't look
-    very good but that is just the default style. In the next section
-    we will look at producing a nicer style.
+    Εαν δείτε το επίπεδο αυτό στην προεπισκόπηση δεν εμφανίζεται πολύ ωραία
+    γιατί χρησιμοποιεί το προεπιλεγμένο στύλ. Στη επόμενη παράγραφο
+    θα δούμε πως να παράγουμε πιο ωραίο αισθητικό αποτέλεσμα.
     
-Styling
+Δημιουργία στύλ
 -------
 
-To style a data set into a map layer |GS| uses an OGC standard called
-Styled Layer Descriptors (SLD). These are represented as XML files
-which describe the rules that are used to apply various symbolizers to
-the data.
+Για τη διαμόρφωση στύλ ενός επιπέδου χάρτη στον |GS| χρησιμοποιείται ένα πρότυπο του OGC που ονομάζεται
+Styled Layer Descriptors (SLD). Αυτό αναπαρίσταται σε αρχεία XML
+τα οποία περιγράφουν τους κανόνες που χρησιμοποιούνται για να εφαρμοστούν συμβολισμοί στα δεδομένα.
 
-To get started I styled the Land and Ocean datasets. 
-You can create SLD files using a simple text editor, but
-sometimes a graphical editor is better. There are several options here
-but I like to use |UG| (http://udig.refractions.net/) as it allows me
-to open the shapefiles directly and apply simple styles using a
-GUI, but also provides a simple editor to modify the XML if I need to. 
+Για αρχή δημιουργήθηκε το σύνολο δεδομένων Γης και Ωκεανών. 
+Μπορείτε να δημιουργήσετε SLD αρχεία με τη χρήση ενός επεξεργαστή κειμένου, αλλά ορισμένες φορές
+ένα γραφικό περιβάλλον είναι καλύτερο. Υπάρχουν πολλές εναλλακτικές γι αυτό. Επιλέξαμε να χρησιμοποιήσουμε το 
+ |UG| (http://udig.refractions.net/) το οποίο μας επιτρέπει 
+να ανοίγουμε τα shapefiles κατευθείαν και να δημιουργούμε απλά στύλ
+με τη χρήση γραφικού περιβάλλοντος, αλλά επίσης και με έναν απλό επεξεργαστή κειμένου αν χρειαστεί. 
 
-Using |UG| to create simple styles
+Χρησιμοποιώντας το |UG| για τη δημιουργία απλών στύλ
 ``````````````````````````````````
 
 .. note::
 
-   For more details on how to use |UG| see the :ref:`uDig quickstart <udig-quickstart>`
+   Για περισσότερες λεπτομέρειες για τη χρήση του |UG| δείτε το :ref:`uDig quickstart <udig-quickstart>`
 
-Once I opened |UG| up and added the shapefiles (using the
-add data button in the top left hand corner). I dragged the 10m_land
-and 10m_ocean tables into the map window. |UG| automatically applies
-a style (so you can see the data).
+Ανοίγουμε το |UG| και προσθέτουμε τα shapefiles (με τη χρήση του κουμπιού
+add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 10m_land
+και 10m_ocean στο παράθυρο του χάρτη. Το |UG| αυτόματα εφαρμόζει ένα απλό στύλ
+για να μπορείτε να δείτε τα δεδομένα.
 
 .. figure:: images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :width: 90%
 
-   *Default Styling in UDig*
+   *Βασικό στύλ στο UDig*
 
-Now obviously an orange ocean will not work (even if I could live
-with the green land). So in the :ref:`Layer list <Layer_list>` select the style
-button (it looks like an artist's palette). 
+Προφανώς δεν θέλουμε να κρατήσουμε πορτοκαλί χρώμα στον ωκεανό. Επομένως στην  :ref:`λίστα επιπέδων <Layer_list>` επιλέξτε το κουμπί στύλ (μοιάζει με παλέτα ζωγράφου). 
 
 .. _Layer_list:
 .. figure:: images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
-   *The Layer list window*
+   *Το παράθυρο λίστας επιπέδων*
 
 
-This will open the :ref:`Style Pane <Style_Pane>` - in the simple window I can easily
-select a nice blue for the oceans by clicking on the colored box by
-the fill label and choosing from the color picker it produces. I also
-increased the opacity of the fill to 100% to make the color look
-better. 
+Αυτό θα ανοίξει το :ref:`παράθυρο στύλ <Style_Pane>` - και σε αυτό το παράθυρο μπορείτε να επιλέξετε ένα
+ωραίο μπλέ για τους ωκεανούς κάνοντας κλίκ στο χρωματιστό κουτί
+επιλέγοντας το χρώμα με το κατάλληλο εργαλείο που εμφανίζεται. Επιπλέον
+μπορείτε να αυξήσετε την αδιαφάνεια στο 100% για να εμφανίζεται καλύτερα το χρώμα. 
 
 .. _Style_Pane:
 .. figure:: images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
-   *The Style Pane*
+   *Το παράθυρο στύλ*
 
 
-Once I was done I clicked ``OK`` and |UG| showed me the
-changes. 
+Με το τέλος της διαδικασίας επιλέξτε ``OK`` και το |UG| εμφανίζει τις αλλαγές. 
 
 
 .. figure:: images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :width: 90%
 
-   *Blue Oceans*
+   *Μπλέ Ωκεανοί*
 
-Finally I prefer a more understated land color than green [#fn1]_ so
-I repeated the steps above to change the color of the land layer.
-None of the default colors seemed right to me so I went into the
-``define custom colors`` section to create one I liked.
+Τελικά, μπορείτε να επαναλάβετε τα παραπάνω βήματα για να αλλάξετε το χρώμα για το επίπεδο της ξηράς.
+Επιπλέον μπορείτε να ορίσετε δική σας απόχρωση αν τα βασικά χρώματα δεν σας ικανοποιούν από το ``define custom colors``.
 
 .. figure:: images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
 
-   *Defining a nicer land color*
+   *Ορίζοντας καλύτερο χρώμα για την ξηρά*
 
-This gives me a nice looking basic world map
+Με αυτές τις αλλαγές έχουμε καλύτερο αποτέλεσμα στο χάρτη
 
 .. figure:: images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :width: 90%
 
-   *A basic word map*
+   *Ένας βασικός χάρτης της Γής*
 
-Adding the Style to |GS|
+Μεταφέροντας το στύλ στον |GS|
 ````````````````````````
 
-Now I need to transfer these styles to |GS| - on the style window
-there is an export button which allows me to save the SLD file that
-defines my style. Once I've saved the two styles I can go to the |GS|
-admin page again and select ``Styles`` (at the bottom of the ``Data``
-section). Then I select the ``Add New Style`` link, at the bottom of
-that page is a file upload box and a browse button. Clicking this
-allows me to hunt around on my hard drive to find the files I just
-saved. Once I've found one I want, I click the upload link (next to the browse
-button) and a copy of my file appears in the editor. 
+Τώρα χρειάζεται να μεταφέρουμε τα στύλ στον |GS| - στο παράθυρο στύλ
+υπάρχει κουμπί εξαγωγής (export) το οποίο μας επιτρέπει να σώσουμε το στύλ σε αρχείο SLD. Σώζουμε και τα 2 στύλ μπορούμε να μεταφερθούμε στον |GS|
+στη σελίδα διαχείρισης και επιλέγοντας το κουμπί ``Styles`` (στο τέλος της περιοχής ``Data``). Επιλέγουμε τον σύνδεσμο ``Add New Style``, στο κάτω μέρος αυτής της σελίδας
+και υπάρχει ένα πλαίσιο μεταφόρτωσης και ενα κουμπί περιήγησης. Πιέζοντας το κουμπί εντοπίζουμε τα αρχεία SLD που σώσαμε προηγουμένως. Όταν τα εντοπίσουμε, κάνουμε κλικ στο σύνδεσμο μεταφόρτωσης (δίπλα στο κουμπί περιήγησης) και το αρχείο εμφανίζεται τον επεξεργαστή. 
 
 .. figure:: images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :width: 90%
 
-   *Adding a Style to GeoServer*
+   *Προσθέτοντας ένα στύλ στον GeoServer*
 
 
-Adding the Style to the Layer
+Προσθέτοντας το στύλ στο επίπεδο
 ------------------------------
 
-Click on the :guilabel:`Layers` link in the Menu on the left of the
-|GS| window. Click on the layer (e.g. *10m_land*), then select the 
-:guilabel:`Publishing` tab and change the :guilabel:`Default Style`
-box to the name of the style you uploaded in the previous section.
-Now go to the Layer Preview page to check that it looks good.
+Κάνουμε κλικ στο σύνδεσμο :guilabel:`Layers` στο μενού στα σριστερά του παραθύρου του 
+|GS|. Κάνουμε κλίκ στο επίπεδο (π.χ. *10m_land*), και έπειτα επιλέγουμε τη σελίδα
+:guilabel:`Publishing` και αλάζουμε το πλαίσιο :guilabel:`Default Style`
+ στο όνομα του στύλ σε αυτό που μεταφορτώσαμε προηγουμένως.
+Στη συνέχεια πηγαίνοντας στη σελίδα προεπισκόπησης ελέγχουμε αν ο χάρτης μας δείχνει ωραίος.
 
 .. TBD check where app-data ends up
 
@@ -267,34 +250,34 @@ There are example style files for all of the example Natural Earth
 layers in :file:`/usr/local/share/geoserver`. 
 
 .. TBD (needs more memory)
-    Adding a Raster
+    Προσθέτοντας μια εικόνα
     ===============
 
-    In the Natural Earth folder is a folder :file:`HYP_50M_SR_W` which
-    contains a raster image. You can serve this up in |GS| directly by
-    going to the stores page and selecting :guilabel:`New Stores->World
-    Image` and type
+    Στο φάκελο Natural Earth υπάρχει ένας φάκελος με όνομα :file:`HYP_50M_SR_W` το οποίο
+    περιλαμβάνει μια εικόνα. Μπορούμε να σερβίρουμε αυτή την εικόνα στον |GS| εφόσον
+    πάμε στην σελίδα αποθηκών δεδομένων και επιλέξουμε :guilabel:`New Stores->World
+    Image` και πληκτρολογήσουμε
     *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
-    into the :guilabel:`URL` box.
+    στο πλαίσιο :guilabel:`URL`.
 
     .. figure:: images/screenshots/800x600/geoserver-raster.png
         :align: center
         :width: 90%
 
-        *Adding a Raster*
+        *Προσθέτοντας μια εικόνα*
 
-    The click :guilabel:`Save` this will take you to the *New Layers
-    Chooser* then click publish and :guilabel:`Save` to finish adding the
-    raster. If you go to the Layers Preview page you
-    can see the new image. 
+    Κάνοντας κλίκ στο σύνδεσμο :guilabel:`Save` θα μεταφερθούμε στην επιλογή *New Layers
+    Chooser* και στη συνέχεια επιλέγουμε publish και :guilabel:`Save` για να ολοκληρώσουμε την προσθήκη
+    της εικόνας. Εαν επιστρέψουμε στην σελίδα προεπισκόπησης
+    μπορούμε να δούμε την νέα εικόνα. 
 
 
 
-Clients for WMS layers
+Εφαρμογές πελάτες για επίπεδα WMS
 ======================
 
-A large variety of clients exist to make use of the WMS layers you are serving
-from |GS|. This is a list of just some of them 
+Υπάρχουν πολλές εφαρμογές που μπορούν να εμφανίσουν τα επίπεδα WMS που σερβίρει ο 
+|GS|. Αυτή είναι μια μικρή λίστα με μερικά από αυτά 
 
     * :ref:`uDig <udig-quickstart>`
 
@@ -304,9 +287,3 @@ from |GS|. This is a list of just some of them
 
     * :ref:`MapBender <mapbender-quickstart>`
 
-
-.. Rubric:: Footnotes
-.. [#fn1] If you lived in central Pennsylvania in the summer you
-   wouldn't expect green either.
-.. [#esri] there is a perfectly good well known text (WKT) for
-    projections but ESRI don't use it.
