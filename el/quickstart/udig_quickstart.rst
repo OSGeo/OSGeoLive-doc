@@ -1,9 +1,9 @@
-:Author: OSGeo Live
-:Author: Jody Garnett
-:Author: Micheal Bedward
-:Version: osgeo-live4.0
-:License: Creative Commons
-:Thanks: geotools-user list
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Jody Garnett
+:Συγγραφέας: Micheal Bedward
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
+:Ευχαριστείες: geotools-user list
 
 .. _udig-quickstart:
  
@@ -13,248 +13,246 @@
   :align: right
 
 ***************
-uDig Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης uDig 
 ***************
 
-uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for
-editing and viewing GeoSpatial data.
+Το uDig (User Friendly Internet Desktop GIS), είναι ένα λογισμικό GIS για
+επεξεργασία και θέαση χωρικών δεδομένων.
 
-This Quick Start describes how to:
+Οι συγκεκριμένες οδηγίες περιγράφουν πώς:
 
-  * load a map layers from a shapefile and Web Map Service (WMS)
-  * use the standard map tools
-  * apply colour to map features using styling
+  * Φορτώνουμε επίπεδα χαρτών από αρχεία shapefile και υπηρεσίες Web Map Service (WMS)
+  * Χρησιμοποιούμε βασικά εργαλεία χαρτογραφίας
+  * Εφαρμόζουμε στύλ σε χάρτες δίνοντάς τους χρώμα
 
-start uDig
+Εκκίνηση uDig
 ==========
 
-.. TBD: Add menu graphic to this uDig Quickstart
+.. TBD: Προσθήκη γραφικών μενού στο εγχειρίδιο
 
-#. Choose uDig 1.1 > uDig from the start menu
-#. The application will take a few moments to start up
+#. Επιλέξτε uDig 1.1 > uDig από το μενού των εφαρμογών
+#. Η εφαρμογή χρειάζεται λίγο χρόνο για να ξεκινήσει
 
-If you have any difficulties, or are running uDig please review the Running uDig reference page.
+Εαν αντιμετωπίσετε δυσκολίες, ή αν εκτελείτε ήδη το uDig, παρακαλούμε ανατρέξτε στην σελίδα αναφοράς Running uDig.
 
-Welcome View
+Εικόνα καλωσορίσματος
 ============
 
-#. When you start up uDig for the first time the Welcome view takes up the entire display. This screen
-   has links to tutorials, documentation and the project website.
+#. Όταν ξεκινάτε το uDig για πρώτη φορά, η εικόνα καλωσορίσματος καταλαμβάνει ολόκληρη την οθόνη. Η οθόνη αυτή
+   έχει συνδέσεις με βοηθήματα, έγγραφα και την ιστοσελίδα του έργου.
 
-#. Click the arrow labelled Workbench in the upper right corner, to reveal the contents of the uDig workbench.
+#. Κάντε κλίκ στο βέλος που έχει τίτλο Workbench στο πάνω δεξί άκρο της οθόνης, για να φανερωθούν τα περιεχόμενα της επιφάνειας εργασίας του uDig.
   
   .. image:: images/screenshots/800x600/udig_welcome.png
 
-You can return to the Welcome view at any time by selecting the Help > Welcome from the menu bar.
+Μπορείτε να επιστρέψετε στην αρχική οθόνη όποια στιγμή επιλέξετε από το μενού Help > Welcome.
 
-Workbench
+Επιφάνεια Εργασίας
 =========
 
-The Workbench window offers multiple Editors (each showing a Map) and supporting Views (offering
-information about the current Map).
+Το παράθυρο της επιφάνειας εργασίας προσφέρει πολλούς επεξεργαστές (ο καθένας δείχνει έναν χάρτη) και υποστηρίζει Όψεις (προσφέροντας πληροφορίες για τον εκάστωτε ενεργό χάρτη).
 
   .. image:: images/screenshots/800x600/udig_workbench.png
 
-Shown above is a typical uDig session with the Map editor, Projects view, Layers view and Catalog
-view labelled . These views will be described further as we demonstrate their use.
+Παραπάνω φαίνεται μια τυπική συνεδρεία uDig με τον επεξεργαστή χάρτη, την όψη εργασιών (Projects view), τα θεματικά επίπεδα (Layers view) και τον κατάλογο (Catalog
+view). Αυτές οι όψεις περιγράφονται στη συνέχεια όπου και αναφέρουμε την λειτουργία τους.
 
-Files
+Αρχεία
 =====
 
-To start out with we are going to load some of the sample data included on the DVD.
+Ξεκινώντας θα φορτώσουμε μερικά από τα δοκιμαστικά δεδομένα που περιλαμβάνονται στο DVD.
 
-#. Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add Data** wizard
+#. Επιλέξτε :menuselection:`Layer --> Add` από το μενού για να ανοίξετε τον βοηθό **Add Data**
 
-#. Select **Files** from the list of data sources
+#. Επιλέξτε **Files** από τη λίστα των πηγών δεδομένων
 
-#. Press :guilabel:`Next` to open up a file dialog
+#. Επιλέξτε :guilabel:`Next` για να ανοίξει το παράθυρο επιλογής αρχείου
 
-#. The OSGeo Live DVD contains sample data in:
+#. Το OSGeo Live DVD περιλαμβάνει δοκιμαστικά δεδομένα στο:
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
    * :file:`/usr/local/share/udig/udig/udig-data/`
 
-#. Select the following file from the udig-data folder:
+#. Επιλέξτε το παρακάτω αρχείο από τον φάκελο δεδομένων του udig:
    
    * :file:`countries.shp`
    
-#. Press :guilabel:`Open`
+#. Επιλέξτε :guilabel:`Open`
    
-   * A new Map editor will be opened based on the contents of your shapefile. The default name and
-     projection of the Map has been taken from your shapefile.
+   * Ένας νέος επεξεργαστής χάρτη θα ανοίξει με βάση τα περιεχόμενα του αρχείου shapefile. Το βασικό όνομα και
+     το σύστημα προβολής του χάρτη επιλέχθηκε με βάση τα περιεχόμενα του shapefile.
    
-   * You can see the **Catalog view** has been updated with an entry for :file:`countries.shp`. This
-     view is used to track the use of resources by the uDig application.
+   * Στο παράθυρο  **Καταλόγου** έχει προστεθεί μια εγγραφή για το  :file:`countries.shp`. Αυτό 
+     το παράθυρο χρησιμοποιείται για να καταγράψει το ιστορικό δεδομένων του χρήστη στο uDig.
    
-   * The **Layers** view shows a single layer is displayed on this map. This view is used to change
-     the order and appearance of information in your Map.
+   * Το παράθυρο **Επιπέδων (Layers)** δείχνει ενα μοναδικό επίπεδο που φαίνεται στον χάρτη. Αυτό το παράθυρο χρησιμοποιείται για να αλλάξει 
+     τη σειρά και εμφάνιση των επιπέδων πληροφορίας του χάρτη.
    
-   * The **Projects** view has been updated to show that your map is stored in projects > countries.
-     You can have multiple projects open at a time, each project can have several maps.
+   * Η όψη **Εργασιών (Projects)** έχει ενημερωθεί δείχνοντας ότι ο χάρτης σας είναι αποθηκευμένος στο projects > countries.
+     Μπορούμε να έχουμε πολλές εργασίες (projects) ανοιχτές ταυτόχρονα και κάθε εργασία πολλούς χάρτες.
 
-#. Open up your data folder on the desktop
+#. Ανοίγουμε τον φάκελο δεδομένων στην επιφάνεια εργασίας
 
-#. Drag :file:`clouds.jpg` onto the Map Editor, a new layer is added to to the map.\
+#. Σέρνουμε το αρχείο :file:`clouds.jpg` στον επεξεργαστή χάρτη (Map Editor), και ένα νέο επίπεδο προστίθεται στο χάρτη.\
 
-#. You can see the order the layers are drawn in the layer view. Right now the clouds.jpg layer is drawn
-   ontop of the countries layer.
+#. Μπορούμε να δούμε τη σειρά με την οποία εμφανίζονται τα επίπεδα στη όψη επιπέδων. Αυτή τη στιγμή το αρχείο clouds.jpg εμφανίζεται
+   πάνω από το επίπεδο των χωρών.
 
-#. Select the clouds.jpg layer in the catalog view and drag it to the bottom of the list
+#. Επιλέγουμε το επίπεδο clouds.jpg στον κατάλογο και στο σέρνουμε στο τέλος της λίστας
   
   .. image:: images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
 
 .. note::
-   One of the most common questions asked when uDig is considered for an organization is how much memory
-   the application uses. Unlike most GIS applications uDig can get by with a fixed amount of memory. The
-   above shapefile is not loaded into memory, we have a policy of keeping data on disk and drawing data
-   like this shapefile onto the screen as needed.
+   Ένα από τα πρώτα ερωτήματα που συναντάμε όταν το uDig είναι υποψήφιο για χρήση από κάποιον οργανισμό είναι πόση μνήμη
+   χρησιμοποιεί η εφαρμογή. Σε αντίθεση με άλλες εφαρμογές GIS το uDig μπορεί να χρησιμοποιήσει συγκεκριμένη ποσότητα μνήμης. Το 
+   παραπάνω shapefile δεν φορτώνεται στη μνήμη, έχουμε πολιτική να κρατάμε τα δεδομένα στο δίσκο και να εμφανίζουμε δεδομένα 
+   όπως αυτό το shapefile στην οθόνη όταν αυτό χρειάζεται.
 
-.. tip:: You can also drag and drop shapefiles directly into the uDig application!
+.. tip:: Μπορείτε επίσης να σύρετε αρχεία shapefile απευθείας στην εφαρμογή uDig!
 
-Map
+Χάρτης
 ===
 
-You can control where in the world the Map Editor is looking by using the navigation tools in the tool bar along the top of the screen.
+Μπορείτε να ελέγξετε σε ποιό μέρος του κόσμου δείχνει ο επεξεργαστής χάρτη με τη χρήση των εργαλείων πλοήγησης στη μπάρα εργαλείων στο πάνω μέρος της οθόνης.
 
 
-#. The |ZOOM| Zoom tool is available by default
+#. Το |ZOOM| εργαλείο μεγέθυνσης (Zoom tool) είναι διαθέσιμο σαν προεπιλογή
    
    .. |ZOOM| image:: images/screenshots/800x600/udig_zoom_mode.gif
    
-   * Use the zoom tool by drawing a box using the left mouse button around the area of the wold you wish
-     to see.
-   * To zoom out draw a box with the right mouse button. The current map extents will be located within
-     the box you draw.
+   * Χρησιμοποιούμε το εργαλείο μεγέθυνσης σχεδιάζοντας ένα παραλληλόγραμμο στο χάρτη με τη χρήση του αριστερού πλήκτρου του ποντικιούγύρω από την περιοχή που μας ενδιαφέρει
+     να δούμε.
+   * Για να απομακρυνθούμε σχεδιάζουμε παραλληλόγραμμο με το δεξί κουμπί του ποντικιού. Τα όρια του χάρτη θα τοποθετηθούν
+     στο παραλληλόγραμμο που σχεδιάζουμε.
 
-#. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
+#. Το |PAN| εργαλείο μετάθεσης (Pan) μπορεί να χρησιμοποιηθεί για να μετακινηθούμε γύρω στο χάρτη μας χωρίς να αλλάξουμε την κλίμακα εμφάνισης.
   
    .. |PAN| image:: images/screenshots/800x600/udig_pan_mode.gif
 
-#. There are also several navigation buttons that can be used at any time:
+#. Επιπλέον υπάρχουν διάφορα διαθέσιμα κουμπιά που μπορούν να χρησιμοποιηθούν ανα πάσα στιγμή:
  
-   * |SHOWALL| Show All, can be used to return to the full extents at any time
+   * |SHOWALL| Εμφάνιση όλων (Show All), μπορεί να επαναφέρει το χάρτη σε πλήρη έκταση οποιαδήποτε στιγμή
    
      .. |SHOWALL| image:: images/screenshots/800x600/udig_zoom_extent_co.gif
 
-   * |ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by a fixed amount.
+   * |ZOOM_IN| Μεγέθυνση (Zoom In) και |ZOOM_OUT| σμίκρυνση (Zoom Out) μπορούν να χρησιμοποιηθούν για να αλλάξουν την κλίμακα κατά ένα προκαθορισμένο ποσό.
 
      .. |ZOOM_IN| image:: images/screenshots/800x600/udig_zoom_in_co.gif
      .. |ZOOM_OUT| image:: images/screenshots/800x600/udig_zoom_out_co.gif
 
-   * You can use Navigation > Back and Navigation > Forward in the menu bar to cycle though previously
-     visited locations.
+   * Μπορούμε να χρησιμοποιήσουμε τα Navigation > Back και Navigation > Forward από το μενού εντολών για να επισκεφθούμε 
+     σημεία που είχαμε δει προηγουμένως.
 
-.. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
-   scroll wheel.
+.. tip:: Τα περισσότερα εργαλεία επιτρέπουν τη μετάθεση κρατώντας το κεντρικό πλήκτρο του ποντικιού και τον ελέγχο της κλίμακας με 
+   τη ροδέλα του ποντικιού.
 
 Web Map Server
 ==============
 
 .. sidebar:: Offline
 
-   If you are not connected to the internet run **Start GeoServer** for a local WMS. The script
-   will open a page with a "wms capabilities" link you can drag into your empty map.
+   Εαν δεν υπάρχει σύνδεση στο διαδίκτυο, εκτελέστε **Start GeoServer** για ένα τοπικό WMS. Το script
+   θα ανοίξει μια σελίδα με ένα σύνδεσμο "wms capabilities" το οποίο μπορούμε να σύρουμε στον άδειο μας χάρτη.
    
-One of the reasons to use an application like uDig is to access all the great free geospatial
-information available on the web. This section covers the use of Web Map Servers which make
-available layers of information that you can mix into your own maps.
+Ένας από τους λόγους να χρησιμοποιούμε την εφαρμογή uDig είναι να έχουμε πρόσβαση σε όλα τα δωρεάν και ελεύθερα χωρικά δεδομένα που είναι διαθέσιμα στο διαδίκτυο. Αυτό το κεφάλαιο καλύπτει τη χρήση του προτύπου WMS το οποίο καθιστά διαθέσιμα
+επίπεδα πληροφορίας που μπορούμε να προσθέσουμε στους χάρτες μας.
 
-.. tip:: You can also connect to Web Map Servers using the Add Data Wizard
-  for Drag and Drop.
+.. tip:: Μπορούμε να συνδεθούμε σε εξυπηρετητές WMS με τη χρήση του βοηθού εισαγωγής δεδομένων (Add Data Wizard)
+  με λειτουργία συρσίματος.
 
-#. Select :menuselection:`File --> New --> New Map` from the menu bar
+#. Επιλέξτε :menuselection:`File --> New --> New Map` από το μενού εντολών
 
-#. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
+#. Εναλλάξτε την όψη **Web**, κάνοντας κλίκ στη σελίδα δίπλα από τον **Κατάλογο** για να ενεργοποιηθεί η όψη *Web*.
    
   .. image:: images/screenshots/800x600/udig_WebViewClick.png
     :scale: 70 %
 
-#. Click on the link *WMS:dm solutions* link
+#. Κάντε κλίκ στο σύνδεσμο *WMS:dm solutions*
 
-#. From the Resource Selection page we are going to choose the following layers:
+#. Από την σελίδα πηγών δεδομένων επιλέγουμε τα παρακάτω επίπεδα:
 
-   * Elevation/Bathymetry
-   * Parks
-   * Cities
+   * Υψομετρία/Βαθυμετρία (Elevation/Bathymetry)
+   * Πάρκα (Parks)
+   * Πόλεις (Cities)
    
 .. image:: images/screenshots/800x600/udig_AddWMSLayers.png
   :scale: 70 %
 
-#. Press :guilabel:`Finish` to add these layers to your map
+#. Επιλέξτε :guilabel:`Finish` για να προσθέσετε αυτά τα επίπεδα στο χάρτη
    
 .. image:: images/screenshots/800x600/udig_WMSMap.png
   
-#. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
+#. Χρησιμοποιείστε το |ZOOM| εργαλείο μεγέθυνσης για να μετακινηθείτε πιο κοντά σε ένα από τα πάρκα
 
-#. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
+#. Αλλάξτε το ποντίκι στο |INFO| εργαλείο πληροφοριών (Info Tool) και κάντε κλίκ σε ένα πάρκο για να μάθετε περισσότερα για αυτό
    
 .. |INFO| image:: images/screenshots/800x600/udig_info_mode.gif
 
-Tip: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
+Tip: Μπορείτε να εναλλάξετε τα προηγούμενα εργαλεία (zoom και info) με την χρήση των πλήκτρων Z και I στο πληκτρολόγιο.
 
-Style
+Στύλ
 =====
 
-#. Select the project > countries, you can double click to open this Map, or Right Click and choose Open Map
+#. Επιλέξτε το project > countries, μπορείτε να κάνετε διπλό κλίκ για να ανοίξετε το χάρτη, ή δεξί κλίκ και επιλογή Open Map
 
-#. Select the countries layer in the Layer view
+#. Επιλέξτε το επίπεδο των χωρών στην όψη επιπέδων
 
-#. Open up the Style Editor by right clicking on countries layer and choosing Change Style
+#. Ανοίξτε τον επεξεργαστή στύλ (Style Editor) με δεξί κλίκ στο επίπεδο των χωρών και την επιλογή Change Style
 
-#. We are going to change a few things about how countries are displayed
+#. Θα κάνουμε ορισμένες αλλαγές στο πως εμφανίζονται οι χώρες
    
-   * Line: Click on the Color and change the color to BLACK
+   * Γραμμή (Line): Κάντε κλίκ στο Color και αλλατε την τιμή σε BLACK
    
-   * Fill: uncheck the box to turn off fill
+   * Γέμισμα (Fill): απενεργοποιήστε το πλαίσιο για να απενεργοποιηθεί το γέμισμα με χρώμα
    
-   * Label: check the box, and choose CNTRY_NAME from the list of attributes
+   * Λεζάντα (Label): ενεργοποιήστε το πλαίσιο, και επιλέξτε CNTRY_NAME από τη λίστα των περιγραφικών χαρακτηριστικών
    
    .. image:: images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
-#. Press :guilabel:`Apply` to see what this looks like on your Map, the **Layer** view will also be updated
-   to reflect the current style
+#. Πιέστε :guilabel:`Apply` για να δείτε πως φαίνονται οι αλλαγές στο χάρτη. Η όψη επιπέδων επίσης θα αλλάξει
+   για να αντιστοιχεί στο νέο στύλ
 
-#. When you are happy with the result you can press :guilabel:`Close` to dismiss the dialog
+#. Όταν είστε ευχαριστιμένοι με το αποτέλεσμα μπορείτε να επιλέξετε :guilabel:`Close` για να κλείσει το παράθυρο
 
-#. Some files include style settings, Select :menuselection:`Layer --> Add` from the menu bar
+#. Ορισμένα αρχεία περιλαμβάνουν ρυθμίσεις στύλ, επιλέξτε :menuselection:`Layer --> Add` από το μενού εντολών
 
-#. Select **Files** from the list of data sources and press :guilabel:`Next`
+#. Επιλέξτε **Files** από τη λίστα πηγών δεδομένων και στη συνέχεια επιλέξτε :guilabel:`Next`
 
-#. Using the file chooser open up **timezone.shp** and press :guilabel:`Open`
+#. Χρησιμοποιώντας το παράθυρο επιλογής αρχείων ανοίξτε το **timezone.shp** και πιέστε :guilabel:`Open`
 
-#. It is a bit hard to see what is going on with the clouds.jpg layer providing so much details.
-   Select :menuselection:`Map --> Mylar` from the menu bar to focus on the selected layer
+#. Είναι δύσκολο να διακρίνουμε τι συμβαίνει με το επίπεδο clouds.jpg που παρέχει τόσες λεπτομέρειες.
+   Επιλέξτε :menuselection:`Map --> Mylar` από το μενού εντολών για να επικεντρωθούμε στο επιλεγμένο επίπεδο
 
-#. Using the *Layer* view select timezone, countries and clouds.jpg in turn to see the effect
+#. Χρησιμοποιώντας την όψη  *επιπέδων (Layer)* επιλέξτε ζώνη ώρας, χώρες και το clouds.jpg με τη σειρά για να παρατηρήσετε το αποτέλεσμα
   
 .. image:: images/screenshots/800x600/udig_MapMylar.jpg
 
-#. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar
+#. Μπορείτε να απενεργοποιήσετε αυτό το εφέ αναπάσα στιγμή επιλέγοντας :menuselection:`Map --> Mylar` από το μενού εντολών
 
-Things to Try
+Πράγματα για δοκιμή
 =============
 
-Here are some additional challenges for you to try:
+Μπορείτε να δοκιμάσετε τα παρακάτω:
 
-#. Try viewing your own GIS map layers, or try adding a layer from a Web Feature Service (WFS).
-#. Try styling the WFS layer.
+#. Δοκιμάστε να δείτε τα δικά σας επίπεδα GIS, ή δοκιμάστε να εισάγετε ένα επίεδο δεδομένων από μια υπηρεσία Web Feature Service (WFS).
+#. Δοκιμάστε να αλλάξετε το στύλ σε ένα επίπεδο WFS.
 
-What Next?
+Τί αναμένεται στη συνέχεια?
 ==========
 
-This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
+Αυτό είναι το πρώτο βήμα στο δρόμο για τη χρήση του uDig. Υπάρχει πολύ καλό υλικό ακόμα να ανακαλύψετε στις οδηγίες εκμάθησης του λογισμικού.
 
-* Walkthrough 1
+* Οδηγίες εκμάθησης 1
 
-  Try out the use of PostGIS, extract data from a Web Feature Server and explore the
-  use of Themes with our powerful Color Brewer technology.
+  Δοκιμάστε τη χρήση βάσης δεδομένων PostGIS, εξάγοντας δεδομένα από μια υπηρεσία WFS και εξερευνήστε
+  τη χρήση θεμάτων (Themes) με την ανεπτυγμένη τεχνολογία σύνθεσης χρωμάτων.
 
   :file:`/usr/data/udig/udig-docs/uDigWalkthrough 1.pdf`
 
-* Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to manipulate
-  feature data, covers the installation of GeoServer and editing with a Web Feature
-  Server.
+* Οδηγίες εκμάθησης 2 - Μάθετε πως να δημιουργέιτε shapefiles και να χρησιμοποιείτε τα εργαλεία επεξεργασίας (Edit tools) για να αλλάζετε
+  τα δεδομένα. Καλύπτει οδηγίες για εγκατάσταση του GeoServer και επεξεργασίας με χρήση υπηρεσιών WFS
+  Εξυπηρετητής.
 
-  Available on http://udig.refractions.net/
+  Διαθέσιμο στο http://udig.refractions.net/
 
