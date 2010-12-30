@@ -53,7 +53,7 @@ Geopublisher
 
 **Κεντρική ιστοσελίδα:** http://en.geopublishing.org/Geopublisher
 
-**Έκδοση Λογισμικού:** 1.5
+**Έκδοση Λογισμικού:** 1.6
 
 **Άδεια:** GNU General Public License (GPL) version 3.0; Οι δημοσιοποιημένοι  Άτλαντες είναι με άδεια GNU Lesser General Public License (LGPL) version 3.0
 

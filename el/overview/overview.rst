@@ -42,11 +42,12 @@
 
 ΠΛοήγηση και Χάρτες
 -------------------
-* :doc:`osm_overview` - [`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart.html>`_] - Εργαλεία Open Street Map
-* :doc:`gpsdrive_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart.html>`_] - GPS
-* :doc:`marble_overview` - [`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart.html>`_] - Υδρόγειος
-* :doc:`viking_overview` - [`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart.html>`_] - Οπτικοποίηση σημείων GPS
+* :doc:`gpsdrive_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart.html>`_] - Πλοήγηση GPS
+* :doc:`marble_overview` - [`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart.html>`_] - Περιστρεφόμενη Υδρόγειος
 * :doc:`opencpn_overview` - [`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart.html>`_] - Ναυτικό GPS
+* :doc:`osm_overview` - [`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart.html>`_] - Εργαλεία Open Street Map
+* :doc:`prune_overview` - [`Γρήγορη Εκκίνηση <../quickstart/prune_quickstart.html>`_] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
+* :doc:`viking_overview` - [`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart.html>`_] - Οπτικοποίηση σημείων GPS
 * :doc:`zygrib_overview` - Χάρτες πρόγνωσης καιρού
 
 Χωρικά Εργαλεία
