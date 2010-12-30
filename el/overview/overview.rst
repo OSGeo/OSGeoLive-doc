@@ -40,7 +40,7 @@
 * :doc:`osgearth_overview` - [`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart.html>`_] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
 * :doc:`mb-system_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart.html>`_] - Χαρτογράφηση πυθμένα θάλασσας
 
-ΠΛοήγηση και Χάρτες
+Πλοήγηση και Χάρτες
 -------------------
 * :doc:`gpsdrive_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart.html>`_] - Πλοήγηση GPS
 * :doc:`marble_overview` - [`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart.html>`_] - Περιστρεφόμενη Υδρόγειος

@@ -1,6 +1,6 @@
-:Author: activityworkshop
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Συγγραφέας: activityworkshop
+:Έκδοση: osgeo-live4.5
+:Άδεια: Creative Commons
 
 .. _prune-quickstart:
  
@@ -10,61 +10,59 @@
   :target: http://activityworkshop.net/software/prune/
 
 ****************
-Prune Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Prune 
 ****************
 
-Running
+Εκτέλεση
 =======
 
-To run Prune on the live DVD, select the icon "GpsPrune" in the Navigation and Maps menu.
-To work with data, you will then either load a recorded track from a file, load data from
-a GPS receiver using *Gpsbabel*, or enter your own coordinates by hand.  The easiest way to
-start is to load any gpx file, kml or kmz file using the menu command
-:menuselection:`File --> Open file` and selecting the file you wish to load.
+Για να τρέξετε το πρόγραμμα Prune από αυτό το DVD απλά επιλέξτε το εικονίδιο GpsPrune στο μενού επιλογών Navigation and Maps.
+Για να χρησιμοποιείσετε δεδομένα μπορείτε είτε να φορτώσετε δεδομένα από ένα αρχείο είτε από ένα GPS με χρήση του *Gpsbabel*
+είτε εισάγωντας συντεταγμένες με το χέρι. Ο ευκολότερος τρόπος να ξεκινήσετε είναι να φορτώσετε οποιοδήποτε gpx, kml ή kmz
+αρχείο από το μενού :menuselection:`File --> Open file`.
 
-Now you should see your track marked in blue, and waypoints (if any) marked with their names.
-If you have a network connection, it's recommended to activate the maps by clicking the globe
-icon at the top of the main map display, or with the menu option :menuselection:`View --> Show Map`.
+Τώρα βλέπετε τα ίχνη σας σε μπλε χρώμμα και τις επιλογές σας αν υπάρχουν με τα ονόματά τους.
+Εαν έχετε δίκτυο συνιστάται η ενεργοποίηση των χαρων με κλικ στο εικονίδιο με την υδρόγειο
+στην κορυφή του κύριου παράθυρου ή από το μενού :menuselection:`View --> Show Map`.
 
-You can now drag the map around with the mouse, and zoom in and out to see greater details.
-Clicking on a point will show the details including altitude and timestamp if available.
-Below the main map display is an altitude chart, which will show the profile of the track
-if it contains altitudes.  Clicking on this display will select the corresponding point.
+Τώρα μπορείτε επίσης να κινηθείτε με το ποντίκι και να κάνετε μεγέθυνση ή σμίκρυνση ώστε να δείτε διαφορετικές λεπτομέρειες.
+Με κλικ σε ένα σημείο θα δείτε τις λεπτομέρειες όπως υψόμετρο και χρόνος αν είναι διαθέσιμες.
+Κάτω από τον χάρτη βρίσκεται ένα διάγραμμα μηκοτομής (υψόμετρα κατα μήκος της τροχιάς) και με κλικ και σε αυτό επιλέγετε σημείο.
 
-Customizing the display
+Ρυθμίζοντας την απεικόνιση
 ~~~~~~~~~~~~~~~~~~~~~~~
-You can change the map with the menu option :menuselection:`Settings --> Set map background`.
-You can select one of the maps already defined, or you can add your own custom server if you
-know the URL.  You can also add a Cloudmade map if you know the style number.
+Μπορείτε να αλλάξετε τον χάρτη από την επιλογή :menuselection:`Settings --> Set map background`.
+Επίσης μπορείτε να διαλέξετε κάποιον απ' τους προκαθορισμένους ή να προσθέσετε τον δικόσας server αν ξέρετε την διεύθυνσή του.
+Μπορείτε να προσθέσετε έναν χάρτη Cloudmade αν γνωρίζετε τον αριθμό του.
 
-The default colours can be changed with the menu option :menuselection:`Settings --> Set colours`.
+Τα χρώμματα αλλάζουν με την επιλογή :menuselection:`Settings --> Set colours`.
 
-If you save your settings with the menu option :menuselection:`Settings --> Save settings`, they
-will be remembered for the next time you run Prune.  However, note that when using this live DVD,
-all files that you save in the regular file system are lost when you shut down the computer.
+Αν θέλετε να αποθηκεύσετε τις ρυθμίσεις σας επιλέξτε :menuselection:`Settings --> Save settings`,
+και αυτές θα είναι αποθηκευμένες μέχρι την επόμενη εκτέλεση του Prune. Όπως ίσως γνωρίζετε,
+με την χρήση του Live DVD, ότι αρχεία αποθηκεύετε στο απλό σύστημα αρχείων (home) απλά χάνονται μετά την 
+επανεκκίνηση του H/Y.
 
-Downloading maps
+Κατεβάζοντας Χάρτες
 ~~~~~~~~~~~~~~~~
-To save the downloaded map tiles to disk, you can select the menu option
-:menuselection:`Settings --> Save maps to disk` and select a directory in which to save the images.
-This helps to speed up the display as it doesn't have to download the images again.  Again, this
-makes more sense on an installed system than on a live DVD.
+Για να αποθηκεύσετε έναν κατεβασμένο χάρτη στον δίσκο, μπορείτε να επιλέξετε 
+:menuselection:`Settings --> Save maps to disk` και στην συνέχεια έναν φάκελο στον οποίο να σώσει τις εικόνες.
+Αυτή η λειτουργία επιταχύνει την απεικόνιση εικόνων εφόσον δεν απαιτείται να κατέβουν από το δίκτυο ξανά.
+Φυσικά αυτό έχει ουσιαστική χρήση σε μία κανονική εγκατάσταση και όχι σε εκτέλεση από Live DVD.
 
-Using Prune on other systems
+Σε άλλα συστήματα
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-After trying out Prune on this live DVD, you may want to use it on another system, whether
-it's another Linux system or Mac OSX or Windows.  Some linux distributions include Prune in their
-normal software libraries (just search for "Prune" or "GpsPrune"), or you can just download the
-latest copy from the home page.
+Αφού δοκιμάσατε το Prune με αυτό το live DVD ίσως θέλετε να το χρησιμοποιείσετε σε ένα άλλο σύστημα
+είτε είναι GNU/Linux είτε MacOSX είτε Win. Κάποιες διανομές GNU/Linux το περιλαμβάνουν στα αποθετήριά τους
+(αναζητήστε το ως "Prune" ή "GpsPrune"), αλλά μπορείτε και να το κατεβάσετε μέσα από την ιστοσελίδα του.  
 
-It doesn't need to be installed, but it does need a java runtime to be installed, version
-1.5 or higher.  You can extend Prune's functionalities by installing other free software, such as
-*Gpsbabel*, *Gnuplot*, *Exiftool* or *Java3d*.
+Δεν χρειάζεται να εγκατασταθεί, αλλά απαιτεί μια μηχανή εκτέλεσης java εγκατεστημένη: έκδοση 1.5 ή μεγαλύτερη.
+Μπορείτε να επεκτείνετε τις δυνατότητες του Prune εγκαθιστώντας πρόσθετο ελεύθερο λογισμικό όπως
+*Gpsbabel*, *Gnuplot*, *Exiftool* ή *Java3d*.
 
-Further reading
+Περισσότερες πηγές
 ===============
 
-* Prune home page: http://activityworkshop.net/software/prune/
-* Screenshots: http://activityworkshop.net/software/prune/screenshots.html
-* How-tos and instructions: http://activityworkshop.net/software/prune/how-tos.html
+* Ιστοχώρος Prune: http://activityworkshop.net/software/prune/
+* Αποσπάσματα οθόνης: http://activityworkshop.net/software/prune/screenshots.html
+* Εγχειρίδια / Οδηγίες : http://activityworkshop.net/software/prune/how-tos.html
 

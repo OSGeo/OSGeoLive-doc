@@ -1,6 +1,6 @@
-:Author: activityworkshop
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Συγγραφέας: activityworkshop
+:Έκδοση: osgeo-live4.5
+:Άδεια: Creative Commons
 
 .. _prune-overview:
 
@@ -13,22 +13,22 @@
 Prune
 =====
 
-GPS Track-Editing Software 
+Λογισμικό Καταγραφής και Επεξεργασίας GPS 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Prune <http://activityworkshop.net/software/prune/>`_ is a tool for viewing,
-editing and converting coordinate data from GPS systems.  It uses OpenStreetMap
-imagery to show recorded tracks and waypoints, and provides a variety of tools
-to let you edit, crop and prune the data points.  It also has functions for
-correlating photos to the coordinates using the photo timestamps.
+Το `Prune <http://activityworkshop.net/software/prune/>`_ είναι ένα εργαλείο για οπτικοποίηση,
+επεξεργασία και μετατροπή δεδομένων συντεταγμένων από συστήματα GPS.  Χρησιμοποιεί εικόνες από το OpenStreetMap
+για να οπτικοποιήσει καταγεγραμμένες πορείες και σημεία προορισμού, και παρέχει πληθώρα από εργαλεία για 
+επεξεργασία, αποκοπή και περικοπή σημείων στα δεδομένα.  Επιπλέον έχει λειτουργίες συσχέτισης των συντεταγμένων φωτογραφιών
+με τον χρόνο λήψης τους.
 
-Prune uses Gpsbabel, if available, to read data directly from a GPS receiver,
-and can send the edited data back to the receiver too.
+Το Prune χρησιμοποιεί το Gpsbabel, αν είναι διαθέσιμο, για ανάγνωση δεδομένων από ένα δέκτη GPS,
+και επίσης μπορεί να στείλει τα διορθωμένα δεδομένα πίσω στον δέκτη.
 
-Prune runs on Mac OSX, Windows and Linux, and is available
-in over ten different languages.
+Το Prune τρέχει σε Mac OSX, Windows και Linux, και είναι διαθέσιμο
+σε πάνω από δέκα γλώσσες.
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: images/screenshots/1024x768/prune_barcelona.png
@@ -36,29 +36,29 @@ Core Features
   :alt: screenshot
   :align: right
 
-* Load data from text files, gpx files, kml/kmz files, or directly from a GPS receiver
-* Zoomable map imagery from OpenStreetMap or any compatible server (OpenCycleMap, CloudMade etc)
-* Altitude or speed profile view
-* Editing tools for deleting, reversing and compressing tracks
-* Interactive 3d view of the data, or export to POV format for 3D rendering
-* Save data to text files, gpx files, kml/kmz files, or directly to a GPS receiver
-* Automatic correlation of photographs with the loaded data using timestamps
-* Creation of charts such as altitude against distance, speed against time
+* Φόρτωση δεδομένων από αρχεία κειμένου, αρχεία gpx, αρχεία kml/kmz, ή απευθείας από τον δέκτη GPS
+* Χάρτη με δυνατότητα πλοήγησης από το OpenStreetMap ή από συμβατό εξυπηρετητή (OpenCycleMap, CloudMade κλπ)
+* Άποψη υψομέτρων και ταχύτητας
+* Εργαλεία επεξεργασίας για διαγραφή, αναστροφή και συμπίεση πορείας 
+* Διαδραστική οπτική 3d των δεδομένων, ή εξαγωγή σε πρότυπο POV για οπτικοποίηση 3D
+* Αποθήκευση δεδομένων σε αρχεία κειμένου, σε αρχεία gpx, σε αρχεία kml/kmz, ή απευθείας σε δέκτη GPS
+* Αυτόματη συσχέτιση φωτογραφιών και των δεδομένων με χρήση χρονικής πληροφορίας
+* Δημιουργία γραφημάτων υψομέτρου σε σχέση με απόσταση, ταχύτητας σε σχέση με το χρόνο κλπ
 
-Details
+Λεπτομέρειες
 -------
 
-**Website:** http://activityworkshop.net/software/prune/
+**Κεντρική Ιστοσελίδα:** http://activityworkshop.net/software/prune/
 
-**Licence:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 2
 
-**Software Version:** 10
+**Έκδοση Λογισμικού:** 10
 
-**Supported Platforms:** GNU/Linux, Mac OSX, Windows
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, Windows
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/prune_quickstart.html>`_
+* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/prune_quickstart.html>`_
 
