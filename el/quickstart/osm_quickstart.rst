@@ -1,104 +1,101 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+Συγγραφεας: Hamish Bowman
+Έκδοση: osgeo-live4.0
+ Άδεια: Creative Commons
 
 .. _osm-quickstart:
  
 .. image:: images/project_logos/logo-osm.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+  :scale: 100 %Κλίμακα:100%
+  :alt: project logoalt:Λογότυπο του τμήματος
+  :align: rightΣτοίχιση: Δεξιά
   :target: http://www.osm.org
 
 
 ************************
-OpenStreetMap Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης OpenStreetMap 
 ************************
 
-Programs
+Προγράμματα
 ========
 
 JOSM
 ~~~~
 
-**JOSM** (Java OpenStreetMap Editor) is an editor for OpenStreetMap (OSM)
-written in Java. The current version supports stand alone GPX tracks,
-GPX track data from OSM database and existing nodes, line segments and
-metadata tags from the OSM database.
+Το **JOSM** (Java OpenStreetMap Editor) είναι ένας επεξεργαστής για το OpenStreetMap (OSM)
+γραμμένος σε Java. Η τρέχουσα έκδοση υποστηρίζει αυτόνομα πορείες GPX,
+πορείες GPX με δεδομένα από τη βάση δεδομένων OSM και υπάρχοντες κόμβους, γραμμικά στοιχεία και καρτέλες μεταδεδομένων από την βάση δεδομένων OSM.
 
-* Homepage: http://josm.openstreetmap.de
+* Αρχική σελίδα: http://josm.openstreetmap.de
 
-The JOSM plugin collection contains the following plugins:
+Η συλλογή JOSM περιλαμβάνει τα ακόλουθα πρόσθετα στοιχεία:
 
-* agpifoj	     - Creates a new layer with geotagged pictures.
-* colorscheme	     - Allows to create different color schemes.
-* livegps	     - Supports live GPS input together with gpsd.
-* measurement	     - Adds a dialog and a layer to measure length and angle of segments and create measurement paths.
-* openvisible	     - Allows opening gpx and osm files that intersect the currently visible screen area.
-* slippymap	     - Displays a slippy map grid in JOSM.
-* surveyor	     - Allows adding markers/nodes on current gps positions.
-* utilsplugin	     - Several helper utilities.
-* validator	     - Data validator.
-* wmsplugin	     - Displays background images from any WMS source.
+* agpifoj	     - Δημιουργεί ένα νέο επίπεδο με γεοαναφερμένες εικόνες.
+* colorscheme	     - Επιτρέπει τη δημιουργία διαφορετικών χρωματικών συνδυασμών.
+* livegps	     - Υποστήρίζει δεδομένα εισόδου από live GPS παράλληλα με δεδομένα gpsd.
+* measurement	     - Προσθέτει παράθυρο διαλόγου και επίπεδο για τη μέτρηση μήκους και γωνίας τμημάτων και δημιουργεί διαδρομές μέτρησης.
+* openvisible	     - Επιτρέπει το άνοιγμα αρχείων gpx και osm τα οποία τέμνουν την τρέχουσα ορατή περιοχή οθόνης.
+* slippymap	     - Παρουσιάζουν ένα ολισθαίνοντα κάνναβο χάρτη στο JOSM.
+* surveyor	     - Επιτρέπει την προσθήκη σημαδιών/κόμβων σε τρέχουσες θέσεις gps.
+* utilsplugin	     - Διάφορες βοηθητικές λειτουργίες.
+* validator	     - Επαληθευτής δεδομένων.
+* wmsplugin	     - Παρουσιάζει εικόνες φόντου απο οποίαδήποτε πηγή WMS.
 
 
-Further reading
+Περαιτέρω μελέτη
 ---------------
 
-* Online tutorial: http://www.use-it.be/europe/docs/OSMmanual/
-* User guide: http://wiki.openstreetmap.org/wiki/JOSM/Guide
-* `Video tutorial <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
-* Open the sample data with :menuselection:`File --> Open... --> /usr/local/share/osm/Barcelona.osm.bz2`
-* Further instructions are given when you launch the application.
+* Διαδικτυακό εγχειρίδιο χρήσης: http://www.use-it.be/europe/docs/OSMmanual/
+* Οδηγός χρήστη: http://wiki.openstreetmap.org/wiki/JOSM/Guide
+* Eκπαιδευτικό βίντεο <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
+* Ανοίξτε κάποια δείγματα δεδομένων ως εξής:Μενού:`File --> Open... --> /usr/local/share/osm/Barcelona.osm.bz2`
+* Περαιτέρω οδηγίες δίνονται όταν τρέξετε την εφαρμογή.
 
 
 Merkaartor
 ~~~~~~~~~~
 
-**Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit.
-It's a bit more user friendly than JOSM, but has a few less features.
+Το **Merkaartor** είναι ένα εργαλείο σύνταξης χάρτη για το OpenStreetMap το οποίο χρησιμοποιεί το περιβάλλον προγραμματισμού Qt.
+Είναι λίγο πιο φιλικό στο χρήστη από το JOSM, αλλά έχει λιγότερα χαρακτηριστικά.
 
-* Homepage: http://merkaartor.be
-* Online help: http://www.merkaartor.org/Documentation/
+* Αρχική σελίδα: http://merkaartor.be
+* Διαδικτυακή βοήθεια: http://www.merkaartor.org/Documentation/
 
 
 Gosmore
 ~~~~~~~
 
-**Gosmore** is a OpenStreetMap viewer, wayfinder, and search client
-with support for speech synthesis and fetching the current user's
-current GPS location using `gpsd <http://gpsd.berlios.de>`_.
+Το **Gosmore** είναι ένα πρόγραμμα επισκόπησης του OpenStreetMap, εργαλείο εύρεσης διαδρομής, και αναζήτησης
+με υποστήριξη για σύνθεση φωνής και ανάγνωσης της θέσης GPS του χρήστη με τη χρήση του
+λογισμικού `gpsd <http://gpsd.berlios.de>`_.
 
-* Homepage: http://wiki.openstreetmap.org/index.php/Gosmore
-* Online wiki help: http://wiki.openstreetmap.org/wiki/Gosmore#User_Interface
-* Before running Gosmore you will need to convert a `planet-*.osm` data file. Some data is provided in the `/usr/local/share/osm/` directory.
+* Αρχική σελίδα: http://wiki.openstreetmap.org/index.php/Gosmore
+* Διαδικτυακή βοήθεια wiki : http://wiki.openstreetmap.org/wiki/Gosmore#User_Interface
+* Πριν τρέξετε το Gosmore θα πρέπει να μετατρέψετε ένα αρχείο δεδομένων `planet-*.osm`. Κάποια δεδομένα παρέχονται στον κατάλογο `/usr/local/share/osm/` .
 
-Import it with:
+Μπορείτε να τα εισάγετε με:
 
 ::
 
   bzip2 -dc /usr/local/share/osm/Barcelona.osm.bz2 | gosmore rebuild
 
-This will create gosmore.pak.
+Αυτό θα δημιουργήσει το gosmore.pak.
 
 
 Osmarender
 ~~~~~~~~~~
 
-**Osmarender** is a rule-based rendering tool for generating SVG images of
-OSM data. It takes as its input an OpenStreetMap dataset and a rules file.
-It outputs an SVG image that is marked up in accordance with the styles
-defined in the rule file.
+Το **Osmarender** είναι ένα εργαλείο φωτορεαλισμού βασισμένο σε κανόνες για τη δημιουργία SVG εικόνων από δεδομένα OSM. Χρειάζεται σαν στοιχεία εισόδου ένα αρχείο δεδομένων OpenStreetMap και ένα αρχείο κανόνων.
+Εισάγει μια SVG εικόνα η οποία είναι κωδικοποιημένη σε συμφωνία με τα στυλ που καθορίζονται στο αρχείο κανόνων.
 
-* Homepage: http://wiki.openstreetmap.org/wiki/Osmarender
+* Αρχική σελίδα: http://wiki.openstreetmap.org/wiki/Osmarender
 
-Example:
+Παράδειγμα:
 
-.. note:: This requires approx. 1 GB free RAM and takes a few days to process
-   the full city. A single village or suburb extract should be much more manageable.
-   See `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ in the OSM Wiki for
-   details on how to download smaller chunks into an ``.osm`` file, or use
-   *JOSM* or *Merkaartor* to download a smaller chunk.
+.. Σημείωση: Αυτό απαιτεί περίπου 1 GB ελεύθερη μνήμη RAM και παίρνει μερικές ημέρες για να επεξεργασθεί ολόκληρη πόλη.
+   Ένα μόνο χωριό ή προάστιο θα ήταν περισσότερο διαχειρίσιμο.
+   Δείτε το `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ στο OSM Wiki για
+   λεπτομέρειες σχετικά με το πώς θα κατεβάσετε μικρότερα κομμάτια σε ένα αρχείο ``.osm``, ή πώς θα χρησιμοποιήσετε το 
+   *JOSM* ή το *Merkaartor* για να κατεβάσετε μικρότερα κομμάτια.
 
 ::
 
@@ -106,7 +103,7 @@ Example:
   bzip2 -d Barcelona.osm.bz2
   osmarender Barcelona.osm
 
-You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
+Μπορείτε να δείτε τα αποτελέσματα σε ένα λογισμικό οπτικοποίησης SVG όπως το `Inkscape` η το `Firefox`:
 
 ::
 
@@ -116,10 +113,7 @@ You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
 osm2pgsql
 ~~~~~~~~~
 
-**osm2pgsql** is a utility program that converts OpenStreetMap (.OSM) data
-into a format that can be loaded into PostgreSQL (PostGIS). It is often
-used to render OSM data visually using Mapnik, as Mapnik can query
-PostgreSQL for map data, but does not work directly with OSM files.
+Το **osm2pgsql**είναι ένα βοηθητικό πρόγραμμα το οποίο μετατρέπει δεδομένα OpenStreetMap (.OSM) σε κατάλληλο τύπο ώστε να μπορούν να "¨φορτωθούν" στην βάση δεδομένων (PostGIS). Χρησιμοποιείται συχνά για την οπτικοποίηση των OSM δεδομένων με χρήση του Mapnik, καθώς το Mapnik υποστηρίζει ερωτήματα προς PostgreSQL για χαρτογραφικά δεδομένα, αλλά δεν δουλεύει απ'ευθείας με αρχεία OSM.
 
-* Homepage: http://wiki.openstreetmap.org/wiki/Osm2pgsql
+* Αρχική σελίδα: http://wiki.openstreetmap.org/wiki/Osm2pgsql
 

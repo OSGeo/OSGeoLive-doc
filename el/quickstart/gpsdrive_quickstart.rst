@@ -11,126 +11,114 @@
   :target: http://www.gpsdrive.de
 
 *******************
-GpsDrive Quickstart 
+Εχγειρίδιο Γρήγορηε Εκκίνησης GpsDrive 
 *******************
 
-Running
+Εκτέλεση
 =======
 
-You will most likely want to install
-the `gpsd <http://gpsd.berlios.de>`_ package so that you can talk to
-your GPS; without that GpsDrive is just a nice map viewer.
+Πιθανόν θα θέλετε να εγκαταστήσετε το πακέτο
+`gpsd <http://gpsd.berlios.de>`_ ώστε να επικοινωνείτε με το GPS' χωρίς αυτό το GPS σας απλά θα απεικονίζει χάρτες.
 
-Speech output is supported if the "espeak" software is installed.
-To use live-maps from the OpenStreetMap project you need to install the
-openstreetmap-* packages as well. Static map tiles may be downloaded
-from the internet without any extra installation.
+Φωνητική ειδοποίηση υποστηρίζει το λογισμικό "espeak" εφόσον εγκατασταθεί. Για να χρησιμοποιείσετε χάρτες από το OpenStreetMap θα πρέπει να εγκαταστήσετε επιπλέον όλα τα πακέτα openstreetmap-*. Έτσι επιπλέον αποσπάσματα χαρτών θα είναι διαθέσιμα μέσω διαδικτύου χωρίς επιπλέον εγκατάσταση.
 
 
-Setting up your GPS
+Εγκαθιστόντας το GPS
 ~~~~~~~~~~~~~~~~~~~
 
-If you have a GPS connected you will want to start the gpsd service.
-To do that run:
+Συνδέστε το GPS. Εκκινείστε την λειτουργία του gpsd με την εντολή:
 
 ::
 
   sudo dpkg-reconfigure gpsd
 
-and
+και
 
 ::
 
   sudo /etc/init.d/gpsd start
 
-BlueTooth GPS users should take special care to read up about the no-probe
-option. (for this reason we have not started gpsd automatically)
+Οι χρήστες GPS με επικοινωνία BlueTooth ας μελετήσουν σχετικά με την επιλογή no-probe.
+(γιαυτό τον λόγο δεν ενεργοποιείται αυτόματα το gpsd)
 
-* 'xgps' is a good program to check that Gpsd can see your GPS ok.
+* Το 'xgps' είναι ένα καλό πρόγραμμα για να ελέγξετε ότι το gpsd βλέπει τον δέκτη GPS.
 
 
-Using without a GPS as a mapbook
+Χρήση χωρίς GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you don't have a GPS connected you can turn on Explore Mode
-with the 'e' key and then use the arrow keys to move around.
-Right-click to set the destination target.
+Εαν δεν έχετε συνδεδεμένο κάποιο δέκτη gps μπορείτε να ενεργοποιείσετε την λειτουργία 
+Explore Mode με το πλήκτρο 'e' και στην συνέχεια να χρησιμοποιείσετε τα πλήκτρα κατεύθυνσης για μετακίνηση.
+Με δεξί κλικ μπορείτε να εισάγετε τον στόχο προορισμού.
 
-
-Quick help
+Ταχεία Βοήθεια
 ~~~~~~~~~~
-For help type '**man gpsdrive**' and '**gpsdrive --help**' at
-a Terminal prompt. This will show how to switch to Car or PDA
-mode which may be useful if you are working with a small screen
-like on a netbook.
+Για βοήθεια πατήστε '**man gpsdrive**' και '**gpsdrive --help**' σε ένα τερματικό.
+Αυτό θα εμφανίσει πως να μεταβείτε σε κατάσταση λειτουργίας Car ή PDA
+η οποία μπορεί να φανεί χρήσιμη αν χρησιμοποιείτε μικρή οθόνη όπως σε ένα netbook.
 
 
-Customizing the display
+Ρυθμίζοντας την απεικόνιση
 ~~~~~~~~~~~~~~~~~~~~~~~
-Besides the options given in the Preferences menu and the different 
-car/PDA/desktop modes offered from the command line, you can change the
-displayed dashboard meters. Just click on one of the three dashboard
-positions and select a new item. You can toggle on and off the dashboard
-and map controls with the '**d**' and '**m**' keys.
+Πέρα απ' τις επιλογές στο μενού Preferences και τις διαφορετικές καταστάσεις λειτουργίας
+Car/PDA/desktop οι οποίες παρέχονται, μπορείτε να αλλάξετε τις εμφανιζόμενες ενδείξεις.
+Κάντε κλικ σε μία απ' τις τρεις θέσεις επιλογής και επιλέξτε ένα νέο στοιχείο.
+Μπορείτε να ανοιγοκλείνετε τα χειριστήρια με τα πλήκτρα '**d**' και '**m**'.
 
 
-Mapnik rendering of OpenStreetMap data
+Οπτικοποίηση δεδομένων OpenStreetMap μέσω Mapnik
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you have a local PostGIS database running (for example the one that comes
-with this Live DVD) you can setup GpsDrive to render very pretty street maps
-on the fly from OpenStreetMap.org data using the Mapnik renderer. The
-PostgreSQL database it looks for on this disc is called named "osm_local_smerc".
-As this OpenStreetMap extract has only been loaded for the city hosting
-the conference, you may wish to add your own Planet.osm data with the
-`osm2pgsql` program or switch off *Mapnik Mode* from the *Map Control*
-window and use the built-in or downloaded static map tiles.
+Εαν έχετε εκτελέσει μια τοπική βάση δεδομένων PostGIS (για παράδειγμα μία σαν αυτή που
+παρέχεται με αυτό το Live DVD) μπορείτε να ενεργοποιήσετε την οπτικοποίηση δεδομένων από το 
+OpenStreetMap.org σε πραγματικό χρόνο με χρήση του λογισμικού Mapnik. Η βάση αναζητά στον δίσκο
+ένα αρχείο με το όνομα "osm_local_smerc". Προς το παρόν έχει αποθηκευτεί μόνο η πόλη στην οποία
+γίνεται το συνέδριο. Μπορείτε να εισάγετε τα δικά σας Planet.osm δεδομένα με το πρόγραμμα
+`osm2pgsql` ή να κλείσετε την λειτουργία *Mapnik Mode* από το παράθυρο *Map Control*
+και να χρησιμοποιείσετε τους προκαθορισμένους ή ήδη τοπικά διαθέσιμους χάρτες.
 
 
-Finding amenities
+Ερευνώντας σημεία ενδιαφέροντος 
 ~~~~~~~~~~~~~~~~~
-With the *Find* tool you can search out for the nearest points of interest
-loaded into your SQLite waypoint database. To get you started OpenStreetMap
-data for the conference's host country has been loaded. e.g. *Find all pubs
+Με το εργαλείο *Find* μπορείτε να αναζητήσετε τα πλησιέστερα σημεία
+ενδιαφέροντος εντός της βάσης. Για να ξεκινήσετε με δεδομένα απ'την χώρα
+που φιλοξενεί το συνέδριο κάντε μια αναζήτηση για παράδειγμα *Find all pubs
 within 2 km of the conference hall*.
 
 
-Downloading maps
+Αποθηκεύοντας χάρτες
 ~~~~~~~~~~~~~~~~
-Use the :menuselection:`Options --> Maps --> Download` tool to preview
-and download new map tiles. Currently the OpenStreetMap web-tiles and
-NASA OnEarth WMS servers are available as sources. There are a few command
-line programs which come with GpsDrive which will let you bulk-download
-a set of tiles covering your local area.
+Χρησιμοποιείστε την επιλογή :menuselection:`Options --> Maps --> Download` ώστε να
+δείτε και να κατεβάσετε νέους χάρτες. Προς το παρόν είναι διαθέσιμοι χάρτες OpenStreetMap
+και NASA OnEarth WMS. Υπάρχουν μερικά προγράμματα τα οποία παρέχονται με το GpsDrive
+και επιτρέπουν την ομαδική αποθήκευση χαρτών στην περιοχή σας.
 
 
-Keeping tabs on your friends
+Εμφάνιση της θέσης φίλων
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In the Preferences menu you can turn on the Friendsd service. This
-transmits your position to a central server and lets your friends know
-where you are. It comes with a program to run a private server if you
-don't want the whole world seeing where you are. To enable this service
-go into the Preferences menu and select the Friends tab. Type in a name
-for yourself and click on the [Lookup] button to get the IP address of
-the default friendsd server. Finally tick the Enable friends service box
-and press [Close]. Icons showing where your friends are and where they are
-headed will be shown at scales less than 1:10 million. There seem to be
-a lot of friendly types in Europe.
+Στο μενού επιλογών Preferences μπορείτε να ενεργοποιήσετε την λειτουργία Friendsd.
+Η υπηρεσία αυτή μεταδίδει την θέση σας σε έναν κεντρικό εξυπηρετητή και επιτρέπει στους
+φίλους σας να ξέρουν που είστε. Παρέχεται επίσης ένα πρόγραμμα το οποίο λειτουργεί σαν
+τοπικός εξυπηρετητής αν δεν θέλετε να ξέρει όλος ο κόσμος που είστε. Για να ενεργοποιήσετε
+την λειτουργία Friendsd γράψτε ένα όνομα για εσάς και κάντε κλικ στο κουμπί [Lookup]
+για να δείτε την διεύθυνση του εξυπηρετητή. Τέλος κάντε κλικ στο κουμπί Enable και πατήστε Close.
+Εικονίδια θα εμφανίζουν εσάς και τους φίλους σας καθώς και τις κατευθύνσεις σας σε
+κλίμακα μικρότερη από 1:10 εκατομύρια. Απ'ότι παρατηρείτε υπάρχουν πολλοί φίλοι στην Ευρώπη.
 
 
-Verbal instructions
+Φωνητικές Οδηγίες
 ~~~~~~~~~~~~~~~~~~~
-GpsDrive can give you verbal warnings when you are nearing your
-destination, etc. To try this out you must start the eSpeak software
-which has been disabled by default on this Live-Disc to save memory.
-To switch it on you will have to edit (as root) the
-**/etc/default/speech-dispatcher** file and set **RUN_SPEECHD=yes**.
-Then launch the service with "`sudo service speech-dispatcher start`".
-GpsDrive will automatically find it at run time if it is switched on.
-In the Speech tab of the Preferences menu you can enable/disable it,
-change the voice, and verbosity level.
+Το GpsDrive μπορεί να σας δώσει οδηγίες όταν είστε κοντά σε προορισμούς κ.α.
+Για να το δοκιμάστε ενεργοποιείστε το λογισμικό eSpeak το οποίο για λόγους
+οικονομίας μνήμης είναι απενεργοποιημένο.
+Για να το ανοίξετε πρέπει να ανοίξετε σαν διαχειριστής(root) το αρχείο
+**/etc/default/speech-dispatcher** και να βάλετε **RUN_SPEECHD=yes**.
+Στην συνέχεια εκτελέστε την εντολή "`sudo service speech-dispatcher start`".
+Το GpsDrive θα το χρησιμοποιήσει αυτόματα αν κατα την εκτέλεσή του είναι ενεργό.
+Στην καρτέλα Speech στο μενού επιλογών Preferences μπορείτε να το ενεργοποιείτε/
+απενεργοποιείτε ή/και να ρυθμίσετε την φωνή ή το επίπεδο πληροφοριών.
 
-
-Further reading
+Επιπλέον βοήθεια
 ===============
 
 * *GpsDrive*: http://www.gpsdrive.de
-* Help and support pages: http://gpsdrive.sf.net
+* Σελίδες υποστήριξης: http://gpsdrive.sf.net
+
