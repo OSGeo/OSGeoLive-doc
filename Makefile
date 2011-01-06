@@ -152,6 +152,10 @@ banner_links: sphinxbuild images1
 	  mv $(TMP) $$FILE; \
 	done
 
+css:
+	# Copy css file
+	cp osgeolive.css $(BUILDDIR)/html/
+
 Live_GIS_Disc_Testing.html:
 	wget -nv -O Live_GIS_Disc_Testing.html http://wiki.osgeo.org/wiki/Live_GIS_Disc_Testing
 
@@ -166,7 +170,7 @@ test_page: Live_GIS_Disc_Testing.html sphinxbuild
 	sed -e '1,/<h1>Test/d' $(BUILDDIR)/html/en/test.html >> $(TMP)
 	mv $(TMP) $(BUILDDIR)/html/en/test.html 
 	
-html: sphinxbuild fix_header_links redirect_to_en version banner_links images1 win_installer_links test_page
+html: sphinxbuild fix_header_links redirect_to_en version banner_links images1 win_installer_links test_page css
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
