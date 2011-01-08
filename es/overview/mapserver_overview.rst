@@ -1,6 +1,6 @@
-:Author: Alan Boudreault
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Autor: Alan Boudreault
+:Versión: osgeo-live4.0
+:Licencia: Creative Commons
 
 .. _mapguide-overview:
 
@@ -20,16 +20,16 @@
 MapServer
 =========
 
-Web Service
+Servicio Web
 ~~~~~~~~~~~
 
-MapServer is an `Open Source <http://www.opensource.org>`_ geographic data rendering engine written in C.Beyond browsing GIS data, MapServer allows you create "geographic image maps", that is, maps that can direct users to content. For example, the Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more than 10,000 web pages, reports and maps via a single application. The same application serves as a "map engine" for other portions of the site, providing spatial context where needed.
+MapServer es un motor de renderización de datos geográficos `Open Source <http://www.opensource.org>`_ escrito en C. Más allá de la navegación por datos GIS, MapServer permite crear "mapas de imágenes geográficas", es decir, mapas de contenidos para los usuarios. Por ejemplo, en Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ se proporciona a los usuarios más de 10.000 páginas Web, informes y mapas, a través de una única aplicación. La misma aplicación hace de "motor de mapas", proporcionando los contenidos spaciales a otras partes del sitio Web que las necesitan.
 
-MapServer was originally developed by the University of Minnesota (UMN) ForNet project in cooperation with NASA, and the Minnesota Department of Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a NASA sponsored project between the UMN and a consortium of land management interests.
+MapServer fué desarrollado inicialmente por el proyecto *ForNet* de la Universidad de Minnesota (UMN) en cooperación con la NASA, y el Departamento de Recursos Naturales de Minnesota, el MNDR (Minnesota Department of Natural Resources). Más tarde, se hosteó en el proyecto TerraSIP project, un proyecto esponsorizado por la NASA, entre la UMN y un consorcio de actores con intereses en gestión del territorio.
 
-MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
+MapServer es ahora un proyecto de `OSGeo <http://www.osgeo.org>`_, y lo mantiene un grupo creciente de desarrolladores (cerca de 20) distribuidos por todo el mundo. Un diverso grupo de organizaciones dan soporte al proyecto, proporcionando mejoras y mantenimiento, y se administra dentro de OSGeo por el *MapServer Project Steering Committee*, formado por desarrolladores y otros contribuidores.
 
-Core Features
+Características clave
 -------------
 
 .. image:: ../../images/screenshots/1024x768/mapserver.png
@@ -39,63 +39,63 @@ Core Features
 
 * Advanced cartographic output
 
-  * Scale dependent feature drawing and application execution
-  * Feature labeling including label collision mediation
-  * Fully customizable, template driven output
+  * Dibujado de *features* dependientes de la escala y ejecución de aplicación
+  * Etiquetación de *Features*,  incluyendo mediación de colisión de etiquetas
+  * Salida conducida por plantillas totalment customizables
 
-* TrueType fonts
+* Fuentes TrueType
 
-  * Map element automation (scalebar, reference map, and legend)
-  * Thematic mapping using logical- or regular expression-based classes
+  * Automatización de elementos de mapa (scalebar, reference map, and legend)
+  * Mapas temáticos utilizano clases basadas en lógica de programación o en expresiones regulares 
 
-* Support for popular scripting and development environments
+* Soporte para lenguajes de *scripting* y entornos de desarrollo populares
 
-  * PHP, Python, Perl, Ruby, Java, and .NET
+  * PHP, Python, Perl, Ruby, Java, y .NET
 
-* Cross-platform support
+* Soporte Multi-plataforma
 
-  * Linux, Windows, Mac OS X, Solaris, and more
+  * Linux, Windows, Mac OS X, Solaris, y mas
 
-* A multitude of raster and vector data formats
+* Multitud de formatos raster y vectoriales
 
-  * TIFF/GeoTIFF, EPPL7, and many others via GDAL
-  * ESRI shapefiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL and OGR
+  * TIFF/GeoTIFF, EPPL7, y muchos otros vía GDAL
+  * ESRI shapefiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL y OGR
 
 
-* Map projection support
+* Soporte de proyecciones de Mapa
 
-  * On-the-fly map projection with 1000s of projections through the Proj.4 library
+  * Proyecciones 'al vuelo' con capacidad para más de 1000 proyecciones proporcionadas por la librería Proj.4
 
-Implemented Standards
+Standares Implementados
 ---------------------
 
-* Support of numerous Open Geospatial Consortium  (OGC) standards
+* Soporta numerosos estándares  (OGC)
 
-  * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
+  * WMS (cliente/servidor), WFS no-transaccional (cliente/servidor), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
 Demo
 ----
 
 * `Itasca <http://localhost/mapserver_demos/itasca/>`_
 
-Documentation
+Documentación
 -------------
 
-* `MapServer 5.6.5 Documentation <file:///usr/local/share/mapserver/doc/index.html>`_
+* `Documentación MapServer 5.6.5  <file:///usr/local/share/mapserver/doc/index.html>`_
 
 
-Details
+Detalles
 -------
 
-**Website:** http://www.mapserver.org/
+**Sitio Web:** http://www.mapserver.org/
 
-**Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
+**Licencia:** `licencia estilo MIT <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 5.6.5
+**Versión Software:** 5.6.5
 
-**Supported Platforms:** Windows, Linux, Mac
+**Plataformas soportadas:** Windows, Linux, Mac
 
-**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET
+**Interfaces API:** C, PHP, Python, Perl, Ruby, Java y .NET
 
-**Support:** http://mapserver.org/community/
+**Soporte:** http://mapserver.org/community/
 
