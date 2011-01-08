@@ -3,7 +3,7 @@ Download
 
 The latest stable release of OSGeo-Live contains:
 
-.. image:: images/download_buttons/download-dvd.png
+.. image:: ../images/download_buttons/download-dvd.png
   :alt: Download 4.4 Gigabyte DVD or USB iso file
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso
@@ -12,7 +12,7 @@ The latest stable release of OSGeo-Live contains:
 
 An xubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 Gig bootable USB thumb drive. Verify your download with its `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
-.. image:: images/download_buttons/download-mini.png
+.. image:: ../images/download_buttons/download-mini.png
   :alt: Download 3.2 Gigabyte iso without Windows and Mac installers
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1-mini.iso

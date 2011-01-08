@@ -4,14 +4,14 @@
 
 .. _geomajas-overview:
 
-.. image:: images/project_logos/logo-geomajas.png
+.. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
   :align: right
@@ -30,7 +30,7 @@ The focus of Geomajas is to provide a platform for **server-side integration** o
 
 What makes Geomajas unique is its strong server side focus. The processing, styling, filtering, caching, etc. of geospatial data always happens within a secured context. All this makes Geomajas applications incredibly scalable and performing, keeping the client a **real thin client**.
 
-.. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

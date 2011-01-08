@@ -4,13 +4,13 @@
 
 .. _gvsig-overview:
 
-.. image:: images/project_logos/logo-gvSIG.png
+.. image:: ../../images/project_logos/logo-gvSIG.png
   :scale: 75 %
   :alt: project logo
   :align: right
   :target: http://www.gvsig.org/
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -34,7 +34,7 @@ gvSIG Desktop
   Ιταλικά,...) .
 * Είναι διαθέσιμο για Windws, Linux, και Mac OS X:
 
-.. image:: images/screenshots/1024x768/gvsig_desktop.png
+.. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

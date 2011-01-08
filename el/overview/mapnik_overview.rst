@@ -4,7 +4,7 @@
 
 .. _mapnik-overview:
 
-.. image:: images/project_logos/logo-mapnik.png
+.. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ Mapnik
 
 Το Mapnik έχει ενσωματωθεί σε εφαρμογές python οι οποίες σερβίρουν τους χάρτες τους μέσω διαδικτύου. Τελευταίες βελτιώσεις όμως επιτρέπουν τη χρήση του για τη δημιουργία εκτυπωμένων χαρτών πολύ υψηλής ανάλυσης.
 
-.. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

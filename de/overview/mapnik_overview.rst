@@ -4,7 +4,7 @@
 
 .. _mapnik-overview:
 
-.. image:: images/project_logos/logo-mapnik.png
+.. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: Projekt Logo
   :align: right
@@ -28,7 +28,7 @@ Internet bereitstellen. Trotzdem wird Mapnik, dank Verbesserungen im Bereich der
 Skalierbarkeit, seit kurzem auch zur Erstellung hochauflösender Landkarten in 
 Papierform verwendet.
 
-.. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

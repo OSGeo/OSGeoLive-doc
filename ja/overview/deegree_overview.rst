@@ -4,13 +4,13 @@
 
 .. _deegree-overview:
 
-.. image:: images/project_logos/logo-deegree.png
+.. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://deegree.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -29,7 +29,7 @@ deegreeはウェブおよびデスクトップの地理情報システム（GIS�
 
 deegreeは貴方のSDIの価値を高め、貴方自身のデータを実行、利用させ、要求を十分に満たします。
 
-.. image:: images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
   :scale: 50%
   :alt: project logo
   :align: right

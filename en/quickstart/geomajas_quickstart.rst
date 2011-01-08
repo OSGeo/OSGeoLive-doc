@@ -4,7 +4,7 @@
 
 .. _geomajas-quickstart:
  
-.. image:: images/project_logos/logo-geomajas.png
+.. image:: ../../images/project_logos/logo-geomajas.png
   :width: 50px
   :height: 50px
   :alt: project logo
@@ -20,7 +20,7 @@ Getting Started
 
 Geomajas is a development framework for creating GIS web applications. Therefore, what you see on this Live DVD is an example application built using the Geomajas technology.
 
-.. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

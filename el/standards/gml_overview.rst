@@ -16,15 +16,15 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: images/project_logos/logo-OGC-right.png
+.. image:: ../../images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -39,7 +39,7 @@ Geography Markup Language (GML)
 
 Η GML (http://www.opengeospatial.org/standards/gml) είναι μια γραμματική της γλώσσας XML που έχει οριστεί για να εκφράζει και να μεταφέρει γεωγραφικά χαρακτηριστικά. Η GML είναι μια γλώσσα μοντελοποίηση για γεωγραφικά συστήματα καθώς και ένα διαλειτουργικό πρότυπο ψηφιακής γεωγραφικής πληροφορίας για συναλλαγές μέσω διαδικτύου. Σημειώεται πως η έννοια ενός χαρακτηριστικού στην GML είναι πολύ γενική και ενσωματώνει όχι μόνο διανυσματικά χαρακτηριστικά αλλά επιπλέον εικονιστικά δεδομένα και δεδομένα από αισθητήρες. Η δυνατότητα ενσωμάτωσης όλων των ειδών δεδομένων στη GML είναι κλειδί για τη χρηστικότητά της.
 
-.. image:: images/standards/gml.jpg
+.. image:: ../../images/standards/gml.jpg
   :scale: 25%
   :alt: GML in Context
 

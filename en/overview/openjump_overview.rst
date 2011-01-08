@@ -4,7 +4,7 @@
 
 .. _openjump-overview:
 
-.. image:: images/project_logos/logo-openjump.png
+.. image:: ../../images/project_logos/logo-openjump.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -20,7 +20,7 @@ OpenJUMP is an easy to use and powerful deskstop GIS that enables users
 to edit, analyse, conflate, save and display geographic data.
 It is also an excellent framework for rapid prototyping to develop custom GIS functions.
 
-.. image:: images/screenshots/1024x768/openjump-screenshot.png
+.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: center

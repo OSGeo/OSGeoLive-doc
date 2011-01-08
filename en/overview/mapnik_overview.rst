@@ -4,7 +4,7 @@
 
 .. _mapnik-overview:
 
-.. image:: images/project_logos/logo-mapnik.png
+.. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges
 
 Mapnik has typically been embedded in python applications which deliver their maps over the internet although scaling improvements have meant that Mapnik has recently been getting used to create high resolution paper maps too.
 
-.. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

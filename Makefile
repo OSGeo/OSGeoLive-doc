@@ -57,20 +57,8 @@ disclaimer:
 	  ln -sf ../en/disclaimer.rst $$LANG/ ;\
 	done
 
-images1:
-	# Link to the images directories
-	# We should update all images links in the rst pages to point to correct
-	# directory, and hence avoid copying duplicates of images
-	for LANG in $(LANGUAGES) ; do \
-	  cd $$LANG;\
-	  ln -sf ../images . ;\
-	  ln -sf ../images overview ;\
-	  ln -sf ../images standards ;\
-	  ln -sf ../images quickstart ;\
-	  cd .. ;\
-	done
-
-sphinxbuild: images1 disclaimer contributors.rst translators.rst
+#sphinxbuild: disclaimer contributors.rst translators.rst
+sphinxbuild: disclaimer contributors.rst translators.rst
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
@@ -143,7 +131,7 @@ win_installer_links: sphinxbuild
 	  done;\
 	fi
 
-banner_links: sphinxbuild images1
+banner_links: sphinxbuild
 	# Copy the banner to the _images directory
 	cp images/banner.png $(BUILDDIR)/html/_images/banner.png
 	# Correct relative links to banner in top pages
@@ -170,7 +158,7 @@ test_page: Live_GIS_Disc_Testing.html sphinxbuild
 	sed -e '1,/<h1>Test/d' $(BUILDDIR)/html/en/test.html >> $(TMP)
 	mv $(TMP) $(BUILDDIR)/html/en/test.html 
 	
-html: sphinxbuild fix_header_links redirect_to_en version banner_links images1 win_installer_links test_page css
+html: sphinxbuild fix_header_links redirect_to_en version banner_links win_installer_links test_page css
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml

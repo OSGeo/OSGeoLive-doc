@@ -4,13 +4,13 @@
 
 .. _qgis-overview:
 
-.. image:: images/project_logos/logo-QGIS.png
+.. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -27,7 +27,7 @@ Quantum GIS (QGIS) はユーザーフレンドリーなGISクライアントで�
 GRASSを利用した強力な分析機能を含んでいます。
 Linux，Unix，Mac OSX，Windowsで動作し，多くのベクタ，ラスタ，データベースのフォーマットと機能に対応しています。
 
-.. image:: images/screenshots/1024x768/qgis.png
+.. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

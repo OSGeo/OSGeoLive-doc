@@ -3,7 +3,7 @@
 
 Η τελευταία σταθερή έκδοση του OSGeo-Live περιλαμβάνει:
 
-.. image:: images/download_buttons/download-dvd.png
+.. image:: ../images/download_buttons/download-dvd.png
   :alt: Κατεβάστε το DVD μεγέθους 4.4 Gigabyte ή το αρχείο iso για δημιουργία USB
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso
@@ -12,7 +12,7 @@
 
 Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Xubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 Gig. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
-.. image:: images/download_buttons/download-mini.png
+.. image:: ../images/download_buttons/download-mini.png
   :alt: Κατεβάστε το αρχείο μεγέθους 3.2 Gigabyte χωρίς τα αρχεία για Windows και Mac
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1-mini.iso

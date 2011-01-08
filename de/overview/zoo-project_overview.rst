@@ -4,7 +4,7 @@
 
 .. _zoo-overview:
 
-.. image:: images/project_logos/logo-Zoo.png
+.. image:: ../../images/project_logos/logo-Zoo.png
   :scale: 50 %
   :alt: Projekt Logo
   :align: right
@@ -22,7 +22,7 @@ Das ZOO Projekt unterstützt zahlreiche Programmiersprachen und enthält zwei Be
 
 ZOO besteht aus drei Komponenten:
 
-.. image:: images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

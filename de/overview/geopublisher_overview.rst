@@ -4,7 +4,7 @@
 
 .. _geopublisher-overview:
 
-.. image:: images/project_logos/logo-Geopublisher.png
+.. image:: ../../images/project_logos/logo-Geopublisher.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -25,7 +25,7 @@ Geopublishers Alleinstellungsmerkmale machen die Software besonders Einsetzbar i
 
 Kernfunktionen
 --------------
-.. image:: images/screenshots/1024x768/geopublisher-overview.png
+.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: Screenshot: Geopublisher mit geöffnetem Atlas
   :align: right

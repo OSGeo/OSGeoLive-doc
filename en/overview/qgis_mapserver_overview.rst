@@ -4,7 +4,7 @@
 
 .. _qgis_mapserver-overview:
 
-.. image:: images/project_logos/logo-qgis_mapserver.png
+.. image:: ../../images/project_logos/logo-qgis_mapserver.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -20,7 +20,7 @@ Web Service
 QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
 The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
 
-.. image:: images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

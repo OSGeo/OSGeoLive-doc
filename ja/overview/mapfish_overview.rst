@@ -6,13 +6,13 @@
 
 .. _mapfish-overview:
 
-.. image:: images/project_logos/logo-mapfish.png
+.. image:: ../../images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://postgis.refractions.net/
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -36,7 +36,7 @@ JavaScriptコードを圧縮するツールも含みます.このJavaScriptツ�
 `ExtJS <http://extjs.com>`_, `OpenLayers<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ これらのモジュールとMapFishウェッブサービスと更新
 するためのコンポーネントで構成されています.
 
-.. image:: images/screenshots/800x600/mapfish-screenshot.png
+.. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

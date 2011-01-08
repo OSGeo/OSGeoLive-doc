@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. image:: images/project_logos/logo-saga.png
+.. image:: ../../images/project_logos/logo-saga.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -20,7 +20,7 @@ To run SAGA GIS on the Live DVD, click on the SAGA link on the Desktop.
 
 When opening SAGA for the first time, you are presented with 3 subwindows: the Workspace, the object properties and the messages window. The information in the object properties window will change depending on your selection in the workspace window.
 
-  .. image:: images/screenshots/1024x768/saga_guioverview.png
+  .. image:: ../../images/screenshots/1024x768/saga_guioverview.png
      :scale: 80
 
 Opening Data
@@ -49,7 +49,7 @@ To display the dataset in a map view, just double click on the dataset in the Da
 
 Now use the navigation tools to zoom and pan. The Zoom tool is selected by default. A left click on the map zooms in, a right click zooms out. Holding the left mouse button down, dragging to the opposite corner and letting the mouse button up allows you to zoom to an area of interest. If you zoom in quite a lot, you will see that the cell values are getting displayed. To pan, select the Pan tool and click and drag to move the map. Have a look at the other bottoms in the tool bar: these allow you to zoom e.g. to Full Extent.
 
-.. image:: images/screenshots/800x600/saga_fullextent.png
+.. image:: ../../images/screenshots/800x600/saga_fullextent.png
 
 .. tip:: Saga zooms very fast, if you are lost while browsing your data, click the 'Zoom to Full Extent' button in the toolbar
 
@@ -69,14 +69,14 @@ Switch to the Maps tab of the Workspace window. You will see the entry of your m
 
 Feel free to try other Transparency settings or even try other Shading Methods in the Analytical Hillshading module (in case you do not change the output dataset parameter, the changes will be written to the grid already created, i.e. you will see the changes in the map view immediately).
 
-.. image:: images/screenshots/1024x768/saga_withhillshade.png
+.. image:: ../../images/screenshots/1024x768/saga_withhillshade.png
     :scale: 80
 
 3D visualization
 ~~~~~~~~~~~~~~~~
 In a next step, you might like to visualize your map in 3D. Be sure your Map window is selected and press the Show 3D-View button in the tool bar. In the dialog popping up, select the grid system containing your elevation dataset and set the Mt. St. Helens dataset as the Elevation parameter. Once you press the Okay button, the 3D view of your map will show up. Hold the left mouse button pressed and move the mouse to rotate and tilt the map. Use the right mouse button to zoom in/out and shift the map. Also have a look at the tool bar of the 3D View: the buttons replicate the mouse operations and offer further functionality. To close the 3D view select the Close option from the Window menu.
 
-.. image:: images/screenshots/1024x768/saga_3d.png
+.. image:: ../../images/screenshots/1024x768/saga_3d.png
     :scale: 80
 
 Creating Contour Lines
@@ -91,7 +91,7 @@ Check your history
 ~~~~~~~~~~~~~~~~~~
 If you select a dataset (eg your contour lines) in the workspace tab, you can switch the object properties tab to 'history' to review which module and which options were used to create the dataset. This information is also kept when you save your files (in .hshp and .hgrd files).
 
-.. image:: images/screenshots/1024x768/saga_contour_history.png
+.. image:: ../../images/screenshots/1024x768/saga_contour_history.png
     :scale: 80
 
 Saving data

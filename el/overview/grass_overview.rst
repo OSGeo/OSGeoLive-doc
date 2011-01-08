@@ -4,13 +4,13 @@
 
 .. _grass-overview:
 
-.. image:: images/project_logos/logo-GRASS.png
+.. image:: ../../images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -25,7 +25,7 @@ GRASS GIS
 
 Το λογισμικό GRASS (Geographic Resources Analysis Support System) είναι ένα Γεωγραφικό Σύστημα Πληροφοριών (GIS), το οποίο παρέχει ισχυρούς μηχανισμούς γεωχωρικής επεξεργασίας διανυσματικών δεδομένων και εικονιστικών δεδομένων σε μια ολοκληρωμένη σουίτα λογισμικού. Το λογισμικό GRASS περιλαμβάνει εργαλεία για χωρική μοντελοποίηση, οπτικοποίηση εικονιστικών δεδομένων και διανυσματικών δεδομένων, διαχείριση και ανάλυση γεωχωρικών δεδομένων και επεξεργασία δορυφορικών εικόνων και αεροφωτογραφιών. Επίσης, παρέχει τη δυνατότητα παραγωγής πολύπλοκων γραφικών για παρουσιάσεις και εκτυπώσεις χαρτών. Το πρόγραμμα GRASS έχει μεταφραστεί σε 20 γλώσσες και υποστηρίζει ένα ευρύ φάσμα προτύπων δεδομένων.
 
-.. image:: images/screenshots/1024x768/grass-vectattrib.png
+.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right

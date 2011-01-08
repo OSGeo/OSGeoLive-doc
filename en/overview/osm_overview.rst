@@ -4,7 +4,7 @@
 
 .. _osm-overview:
 
-.. image:: images/project_logos/logo-osm.png
+.. image:: ../../images/project_logos/logo-osm.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -31,7 +31,7 @@ of JOSM plugins have been included.
 Core Features
 -------------
 
-.. image:: images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

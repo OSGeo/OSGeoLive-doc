@@ -4,13 +4,13 @@
 
 .. _postgis-overview:
 
-.. image:: images/project_logos/logo-PostGIS.png
+.. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.refractions.net/
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -28,7 +28,7 @@ PostGIS
 
 Η διαχείριση της βάσης δεδομένων γίνεται μεταξύ άλλων μέσω των pgAdmin και phpPgAdmin. Η είσοδος και έξοδος δεδομένων παρέχεται από πληθώρα εργαλείων μετατροπής (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Και υπάρχουν πολλά λογισμικά GIS (desktop και διαδικτυακά) για επισκόπηση δεδομένων σε PostGIS.
 
-.. image:: images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/800x600/pgadmin.gif
   :scale: 55 %
   :alt: project logo
   :align: right

@@ -4,7 +4,7 @@
 
 .. _mb-system-overview:
 
-.. image:: images/project_logos/logo-mb-system.gif
+.. image:: ../../images/project_logos/logo-mb-system.gif
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -28,7 +28,7 @@ MB-System
 Βασικά Χαρακτηριστικά
 -------------
 
-.. image:: images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

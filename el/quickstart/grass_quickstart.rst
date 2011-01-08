@@ -4,7 +4,7 @@
 
 .. _grass-quickstart:
  
-.. image:: images/project_logos/logo-GRASS.png
+.. image:: ../../images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@
 Carolina (nc_spm_08) για την τοποθεσία, και "user1" για το αρχείο χάρτη mapset,
 και κάντε κλικ στο [Start Grass].
 
-.. image:: images/screenshots/800x600/grass-startup.png
+.. image:: ../../images/screenshots/800x600/grass-startup.png
   :scale: 40 %
   :alt: screenshot
   :align: right
@@ -37,7 +37,7 @@ Tcl/Tk γραφικό περιβάλλον είναι ακόμα διαθέσι�
 Παρουσιάζοντας χάρτες
 ~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/800x600/grass-layerman.png
+.. image:: ../../images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -55,7 +55,7 @@ mapset κάνοντας κλικ στο κουμπί της μπάρας εργ�
 
 Εκτύπωση προφίλ υψομέτρου                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/800x600/grass-profile.png
+.. image:: ../../images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -73,7 +73,7 @@ surfaces --> Fractal surface` από το μενού (κοντά στο κάτω
 δώστε στο νέο σας χάρτη ένα όνομα, προσαρμόστε τις επιλογές σας στη σελίδα Options
 (τα προεπιλεγμένα είναι μια χαρά); και κάντε κλικ στο [Run]. Τότε μπορείτε να κλείσετε  [Close] το παράθυρο διαλόγου του module *r.surf.fractal*.
 
-.. image:: images/screenshots/800x600/grass-fractal.png
+.. image:: ../../images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -92,7 +92,7 @@ table" option, και πάρτε ένα από τη λίστα. "srtm" είνα�
 Δημιουργία "σκιασμένου" ανάγλυφου χάρτη
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/800x600/grass-shadedrelief.png
+.. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -110,7 +110,7 @@ analysis --> Shaded relief` (Η ανάλυση εδάφους Terrain analysis �
 Πηγαίνετε πίσω στο παράθυρο διαχείρισης επιπέδων (Layer Manager window ) προσθέστε αυτούς τους δύο χάρτες σε μορφή εικόνας στη λίστα απιπέδων και βεβαιωθείτε ότι είναι οι μόνοι δύο που είναι επιλεγμένοι για προβολή στο κουτί αριστερά του ονόματος του επιπέδου. Κάντε δεξί κλικ στο όνομα επιπέδου του χάρτη σε μορφή εικόνας  elev.basins και επιλέξτε "Change opacity level".
 Βάλτε το περίπου στο 50% και ξαναδημιουργήστε την νέα επισκόπηση του χάρτη.
 
-.. image:: images/screenshots/800x600/grass-watersheds.png
+.. image:: ../../images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -134,7 +134,7 @@ Preferences` και στην καρτέλα επισκόπησης (Display tab)
 3D οπτικοποίηση
 ~~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/1024x768/grass-nviz.png
+.. image:: ../../images/screenshots/1024x768/grass-nviz.png
   :scale: 30 %
   :alt: screenshot
   :align: right

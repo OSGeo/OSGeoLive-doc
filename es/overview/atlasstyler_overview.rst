@@ -4,7 +4,7 @@
 
 .. _atlasstyler-overview:
 
-.. image:: images/project_logos/logo-AtlasStyler.png
+.. image:: ../../images/project_logos/logo-AtlasStyler.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ Editor de Estilos de Geometrías
 
 Los ficheros SLD resultantes son compatibles con todos los programas que soporten el estandar OGC SLD, incluyendo GeoServer, uDig y otros. La aplicación proporciona una multitud de diálogos intuitivos para simplificar la creación de estilos. Los usuarios pueden aplicar clasificaciones abstractas como valores únicos, quantiles por color o equidistancias. Adicionalmente, los usuarios han integrado acceso a una base de datos de simbologías on-line. Los usuarios pueden crear y salvar simbologías en el Editor de Simbología (SymbolEditor) y reutilizarlas en clasificaciones o otros proyectos.
 
-.. image:: images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

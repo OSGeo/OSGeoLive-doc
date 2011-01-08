@@ -4,7 +4,7 @@
 
 .. _kosmo-overview:
 
-.. image:: images/project_logos/logo-Kosmo.png
+.. image:: ../../images/project_logos/logo-Kosmo.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@ and analyse spatial data from a variety of databases, vector and raster formats.
 Kosmo - Desktop follows OGC standards and provides excellent topology integrity. 
 It's plug-in architecture enables it to be easily customised for specific purposes.
 
-.. image:: images/screenshots/1024x768/kosmo.jpg
+.. image:: ../../images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -4,7 +4,7 @@
 
 .. _zoo-overview:
 
-.. image:: images/project_logos/logo-Zoo.png
+.. image:: ../../images/project_logos/logo-Zoo.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -24,7 +24,7 @@ based on the GEOS and OGR Libraries.
 
 ZOO is made of three parts:
 
-.. image:: images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

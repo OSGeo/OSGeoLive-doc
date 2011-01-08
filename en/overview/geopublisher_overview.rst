@@ -4,7 +4,7 @@
 
 .. _geopublisher-overview:
 
-.. image:: images/project_logos/logo-Geopublisher.png
+.. image:: ../../images/project_logos/logo-Geopublisher.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -25,7 +25,7 @@ Geopublisher's unique features make it especially applicable in the fields of in
 
 Core Features
 -------------
-.. image:: images/screenshots/1024x768/geopublisher-overview.png
+.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right

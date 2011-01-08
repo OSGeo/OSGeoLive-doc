@@ -10,7 +10,7 @@
 
 .. _geoserver-quickstart:
  
-.. image:: images/project_logos/logo-GeoServer.png
+.. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
 
@@ -33,7 +33,7 @@
 #. Επιλέξτε το εικονίδιο "Start GeoServer".
 #. Η εφαρμογή θα ξεκινήσει σε λίγες στιγμές Πηγαίνετε στην κεντρική ιστοσελίδα του GeoServer στο http://localhost:8082/geoserver/web 
 
-.. image:: images/screenshots/800x600/geoserver-login.png
+.. image:: ../../images/screenshots/800x600/geoserver-login.png
     :width: 90 %
     :align: left
 
@@ -43,19 +43,19 @@
 
 Όταν ξεκινήσετε την σελίδα του GeoServer θα δείτε την παραπάνω οθόνη, το πρώτο πράγμα που χρειάζεται να κάνετε είναι να για εισάγετε τα στοιχεία του χρήστη σας με τη χρήση του ονόματος χρήστη και κωδικού πρόσβασης. Θα δείτε στη συνέχεια την *σελίδα διαχείρησης* 
 
-.. image:: images/screenshots/800x600/geoserver-welcome.png
+.. image:: ../../images/screenshots/800x600/geoserver-welcome.png
     :width: 90%
     :align: left
 
 Ο σύνδεσμος **Layer Preview** στο κάνω αριστερό μενού σας επιτρέπει να δείτε μια προεπισκόπηση των επιπέδων των δεδομένων που είναι φορτωμένα στον εξυπηρετητή. 
   
-.. image:: images/screenshots/800x600/geoserver-layerpreview.png
+.. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
     :width: 90%
     :align: left
 
 Κυλίστε στο κάτω μέρος της οθόνης και κάντε κλικ στον σύνδεσμο **OpenLayers** στην γραμμή **tiger-ny**, αυτό θα ανοίξει ένα νέο παράθυρο με μερικά δοκιμαστικά δεδομένα μέσα του. 
 
-.. image:: images/screenshots/800x600/geoserver-preview.png
+.. image:: ../../images/screenshots/800x600/geoserver-preview.png
     :width: 90%
     :align: left
     
@@ -96,7 +96,7 @@
 Τώρα χρειαζόμαστε να δημιουργήσουμε μια αποθήκη (Store) για τα δεδομένα μας. Από τη σελίδα διαχείρισης |GS| πηγαίνετε στο 
 :guilabel:`Stores` και επιλέξτε :guilabel:`Add new Store`. Θα δείτε αυτή την σελίδα:
 
-.. figure:: images/screenshots/800x600/geoserver-newstore.png
+.. figure:: ../../images/screenshots/800x600/geoserver-newstore.png
     :align: center
     :width: 90%
     
@@ -104,7 +104,7 @@
 
 Επιλέξτε το :guilabel:`Directory of spatial files`, και θα δείτε το επόμενο: 
 
-.. figure:: images/screenshots/800x600/geoserver-new-vector.png
+.. figure:: ../../images/screenshots/800x600/geoserver-new-vector.png
     :align: center
     
     *Συμπληρώνοντας την σελίδα νέας αποθήκης δεδομένων*
@@ -113,7 +113,7 @@
 για τα δεδομένα - σε αυτή την περίπτωση :file:`data/naturaleath`. Η διεύθυνση
 των δεδομένων πρέπει να είναι σχετική με την θέση του φακέλου δεδομένων του |GS|. Πιέστε :guilabel:`save`.
 
-.. figure:: images/screenshots/800x600/geoserver-naturalearth.png
+.. figure:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :width: 100%
 
@@ -121,7 +121,7 @@
 
 Πιέστε :guilabel:`publish` δίπλα από το επίπεδο που επιθυμείτε για να ολοκληρώσετε την προσθήκη των δεδομένων. Αυτό θα σας οδηγήσει στην σελίδα των επιπέδων (*Layers*):
 
-.. figure:: images/screenshots/800x600/geoserver-publish.png
+.. figure:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
     :width: 90%
 
@@ -168,7 +168,7 @@ add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 
 και 10m_ocean στο παράθυρο του χάρτη. Το |UG| αυτόματα εφαρμόζει ένα απλό στύλ
 για να μπορείτε να δείτε τα δεδομένα.
 
-.. figure:: images/screenshots/800x600/geoserver-udig_startup.png
+.. figure:: ../../images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :width: 90%
 
@@ -177,7 +177,7 @@ add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 
 Προφανώς δεν θέλουμε να κρατήσουμε πορτοκαλί χρώμα στον ωκεανό. Επομένως στην  :ref:`λίστα επιπέδων <Layer_list>` επιλέξτε το κουμπί στύλ (μοιάζει με παλέτα ζωγράφου). 
 
 .. _Layer_list:
-.. figure:: images/screenshots/800x600/geoserver-layer-chooser.png
+.. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
    *Το παράθυρο λίστας επιπέδων*
@@ -189,7 +189,7 @@ add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 
 μπορείτε να αυξήσετε την αδιαφάνεια στο 100% για να εμφανίζεται καλύτερα το χρώμα. 
 
 .. _Style_Pane:
-.. figure:: images/screenshots/800x600/geoserver-style-pane.png
+.. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
    *Το παράθυρο στύλ*
@@ -198,7 +198,7 @@ add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 
 Με το τέλος της διαδικασίας επιλέξτε ``OK`` και το |UG| εμφανίζει τις αλλαγές. 
 
 
-.. figure:: images/screenshots/800x600/geoserver-blue-ocean.png
+.. figure:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :width: 90%
 
@@ -207,14 +207,14 @@ add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 
 Τελικά, μπορείτε να επαναλάβετε τα παραπάνω βήματα για να αλλάξετε το χρώμα για το επίπεδο της ξηράς.
 Επιπλέον μπορείτε να ορίσετε δική σας απόχρωση αν τα βασικά χρώματα δεν σας ικανοποιούν από το ``define custom colors``.
 
-.. figure:: images/screenshots/800x600/geoserver-custom-colour.png
+.. figure:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
 
    *Ορίζοντας καλύτερο χρώμα για την ξηρά*
 
 Με αυτές τις αλλαγές έχουμε καλύτερο αποτέλεσμα στο χάρτη
 
-.. figure:: images/screenshots/800x600/geoserver-basic-world.png
+.. figure:: ../../images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :width: 90%
 
@@ -228,7 +228,7 @@ add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 
 στη σελίδα διαχείρισης και επιλέγοντας το κουμπί ``Styles`` (στο τέλος της περιοχής ``Data``). Επιλέγουμε τον σύνδεσμο ``Add New Style``, στο κάτω μέρος αυτής της σελίδας
 και υπάρχει ένα πλαίσιο μεταφόρτωσης και ενα κουμπί περιήγησης. Πιέζοντας το κουμπί εντοπίζουμε τα αρχεία SLD που σώσαμε προηγουμένως. Όταν τα εντοπίσουμε, κάνουμε κλικ στο σύνδεσμο μεταφόρτωσης (δίπλα στο κουμπί περιήγησης) και το αρχείο εμφανίζεται τον επεξεργαστή. 
 
-.. figure:: images/screenshots/800x600/geoserver-add-style.png
+.. figure:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :width: 90%
 
@@ -260,7 +260,7 @@ layers in :file:`/usr/local/share/geoserver`.
     *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
     στο πλαίσιο :guilabel:`URL`.
 
-    .. figure:: images/screenshots/800x600/geoserver-raster.png
+    .. figure:: ../../images/screenshots/800x600/geoserver-raster.png
         :align: center
         :width: 90%
 

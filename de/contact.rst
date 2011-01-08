@@ -26,7 +26,7 @@ steht ebenso zur Verfügung.
 Kommerzieller Support
 =====================
 
-.. image:: images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/lisasoftlogo.jpg
   :scale: 100%
   :alt: LISAsoft
 

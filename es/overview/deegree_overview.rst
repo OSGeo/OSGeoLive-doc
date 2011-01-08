@@ -4,13 +4,13 @@
 
 .. _deegree-overview:
 
-.. image:: images/project_logos/logo-deegree.png
+.. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://deegree.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -32,7 +32,7 @@ deegree es una solución de Sistemas de Información Geográfica e Infraestructu
 deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando desde el principo, utilizando tus datos y cumpliendo tus requerimientos.
 
 
-.. image:: images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
   :scale: 50%
   :alt: project logo
   :align: right

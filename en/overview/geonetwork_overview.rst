@@ -4,13 +4,13 @@
 
 .. _geonetwork-overview:
 
-.. image:: images/project_logos/logo-GeoNetwork.png
+.. image:: ../../images/project_logos/logo-GeoNetwork.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -24,7 +24,7 @@ Metadata Catalog
 
 GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards.
 
-.. image:: images/screenshots/1024x768/geonetwork-overview.png
+.. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

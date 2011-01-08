@@ -4,7 +4,7 @@
 
 .. _kosmo-overview:
 
-.. image:: images/project_logos/logo-Kosmo.png
+.. image:: ../../images/project_logos/logo-Kosmo.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ Kosmo - Es una aplicación GIS de escritorio, amigable, que permite explorar, ed
 Kosmo - Desktop sigue estándares OGC y proporciona una excelente integridad topológica. 
 Su arquitectura orientada a plug-ins permite la customización fácil para propósitos específicos.
 
-.. image:: images/screenshots/1024x768/kosmo.jpg
+.. image:: ../../images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

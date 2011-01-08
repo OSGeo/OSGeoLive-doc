@@ -24,7 +24,7 @@ Molte informazioni sono disponibili sul nostro
 Supporto commerciale
 ==================
 
-.. image:: images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/lisasoftlogo.jpg
   :scale: 100%
   :alt: LISAsoft
 

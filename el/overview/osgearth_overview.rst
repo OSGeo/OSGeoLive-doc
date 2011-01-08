@@ -4,7 +4,7 @@
 
 .. _osgearth-overview:
 
-.. image:: images/project_logos/logo-osgearth.gif
+.. image:: ../../images/project_logos/logo-osgearth.gif
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@ osgEarth
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: images/screenshots/1024x768/osgearth.jpg
+.. image:: ../../images/screenshots/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

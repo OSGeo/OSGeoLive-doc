@@ -4,7 +4,7 @@
 
 .. _viking-overview:
 
-.. image:: images/project_logos/logo-viking.png
+.. image:: ../../images/project_logos/logo-viking.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -28,7 +28,7 @@ It works with OpenStreetMap data and various online tile servers.
 Core Features
 -------------
 
-.. image:: images/screenshots/1024x768/viking-0.9.8-europe.jpg
+.. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

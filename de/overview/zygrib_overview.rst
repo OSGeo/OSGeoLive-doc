@@ -4,7 +4,7 @@
 
 .. _zygrib-overview:
 
-.. image:: images/project_logos/logo-zygrib.png
+.. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %
   :alt: Projekt Logo
   :align: right
@@ -22,7 +22,7 @@ zyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen GRIB
 Kernfunktionen
 --------------
 
-.. image:: images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

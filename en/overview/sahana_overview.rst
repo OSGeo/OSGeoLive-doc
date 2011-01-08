@@ -4,7 +4,7 @@
 
 .. _sahana-overview:
 
-.. image:: images/project_logos/logo-sahana.png
+.. image:: ../../images/project_logos/logo-sahana.png
   :scale: 60 %
   :alt: project logo
   :align: right
@@ -32,7 +32,7 @@ re-write as a generic disaster management tools was incubated with
 the sponsorship of the Swedish International Development Agency, IBM, the US National Science Foundation and it has been used by
 dozens of Governments and NGOs since then.
 
-.. image:: images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

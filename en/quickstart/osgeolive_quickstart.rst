@@ -32,25 +32,25 @@ Run:
 
   If your computer is set to boot from CD (as is often the case) you should boot up into an Xubuntu system, with Geospatial applications installed. Otherwise you'll have to adjust the BIOS boot settings or press the boot menu button just after powering-up.
 
-  .. image:: images/screenshots/800x600/osgeolive_boot.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
   Press ENTER to get to next screen.
 
-  .. image:: images/screenshots/800x600/osgeolive_boot_select.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
   Select "live - boot the Live System"
 
-  .. image:: images/screenshots/800x600/osgeolive_login.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
   At the login page, simply press ENTER or wait for the countdown to timeout.
 
-  .. image:: images/screenshots/800x600/osgeolive_menu.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 

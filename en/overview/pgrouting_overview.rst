@@ -4,7 +4,7 @@
 
 .. _pgrouting-overview:
 
-.. image:: images/project_logos/logo-pgRouting.png
+.. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
   :alt: pgRouting logo
   :align: right
@@ -24,7 +24,7 @@ Advantages of the database routing approach are:
 * Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
 * The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
 
-.. image:: images/screenshots/800x600/pgrouting.png
+.. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right

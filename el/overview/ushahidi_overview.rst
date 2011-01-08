@@ -4,7 +4,7 @@
 
 .. _ushahidi-overview:
 
-.. image:: images/project_logos/logo-ushahidi.png
+.. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -23,7 +23,7 @@ Ushahidi
 για την δημοκρατικότητα της πληροφορίας, την αύξηση της διαφάνειας και την ελλάτωση των εμποδίων 
 για μεμονομένα άτομα να μοιραστούν τις πληροφορίες και τις ιστορίες τους.
 
-.. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -4,7 +4,7 @@
 
 .. _viking-overview:
 
-.. image:: images/project_logos/logo-viking.png
+.. image:: ../../images/project_logos/logo-viking.png
   :scale: 100 %
   :alt: Project Logo
   :align: right
@@ -25,7 +25,7 @@ Es macht Gebrauch von einem hierarchisch aufgebauten System von Ebenen, um GPS D
 Kernfunktionen
 --------------
 
-.. image:: images/screenshots/1024x768/viking-0.9.8-europe.jpg
+.. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

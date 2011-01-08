@@ -4,7 +4,7 @@
 
 .. _gpsdrive-quickstart:
  
-.. image:: images/project_logos/logo-gpsdrive.png
+.. image:: ../../images/project_logos/logo-gpsdrive.png
   :scale: 100 %
   :alt: project logo
   :align: right

@@ -4,7 +4,7 @@
 
 .. _mapnik-overview:
 
-.. image:: images/project_logos/logo-mapnik.png
+.. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ Mapnik es una herramienta para el renderizado de bonitos mapas, con bordes de ge
 
 Mapnik se suele embeber típicamente en aplicaciones python que publican mapas en Internet, aunque las últimas mejoras incorporadas han permitido que Mapnik también se utilice para crear mapas de alta resolución en papel.
 
-.. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

@@ -4,7 +4,7 @@
 
 .. _opencpn-overview:
 
-.. image:: images/project_logos/logo-opencpn.png
+.. image:: ../../images/project_logos/logo-opencpn.png
   :scale: 70 %
   :alt: project logo
   :align: right
@@ -26,7 +26,7 @@ As the host vessel moves, new charts are selected and displayed at user specifie
 Core Features
 -------------
 
-.. image:: images/screenshots/1024x768/opencpn_screenshot.png
+.. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

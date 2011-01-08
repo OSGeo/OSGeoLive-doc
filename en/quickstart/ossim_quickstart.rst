@@ -6,7 +6,7 @@
 
 .. _ossim-quickstart:
  
-.. image:: images/project_logos/logo-ossim.gif
+.. image:: ../../images/project_logos/logo-ossim.gif
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -32,7 +32,7 @@ Imagelinker
 * Select an :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Verify you see a 3 gray satelite images. 
 
-  .. image:: images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
 For the full tutorial see this `blog article`_.

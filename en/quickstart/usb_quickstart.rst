@@ -28,12 +28,12 @@ Insert the USB flash drive into your computer.
 
 If using a DVD, then put the DVD into the DVD drive.
 
-  .. image:: images/screenshots/800x600/usb_select.png
+  .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Select "System->Administration->Startup Disk Creator"
 
-  .. image:: images/screenshots/800x600/usb_set_params.png
+  .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Select the CD Drive or ISO Image.
@@ -42,7 +42,7 @@ Select the USB flash drive.
 
 Select "Make Startup Disk"
 
-  .. image:: images/screenshots/800x600/usb_installing.png
+  .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Wait 20 minutes or so for the USB flash drive to be created.
@@ -54,11 +54,11 @@ Insert the USB drive into your computer.
 
 Download and run the Universal USB Installer from: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
 
 Accept the licence terms.
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
 
 Step 1: Distribution: Select the xubuntu i386 distribution used for the osgeo-live image. (for osgeo-live-4.0, select xubuntu 10.04 Desktop i386)
 
@@ -70,7 +70,7 @@ Step 4: Select Persistence if you wish to remember state between sessions.
 
 Select "Create"
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
 
 Wait 20 minutes or so for the OSGeo-Live USB flash drive to be created.
 

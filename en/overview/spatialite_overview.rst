@@ -4,7 +4,7 @@
 
 .. _spatialite-overview:
 
-.. image:: images/project_logos/logo-spatialite.png
+.. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -25,7 +25,7 @@ The files are also portable; the same database file will work on Windows, Linux,
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: images/screenshots/1024x768/spatialite.jpg
+.. image:: ../../images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

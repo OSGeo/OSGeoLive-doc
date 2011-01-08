@@ -4,7 +4,7 @@
 
 .. _geokettle-overview:
 
-.. image:: images/project_logos/logo-geokettle.png
+.. image:: ../../images/project_logos/logo-geokettle.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -24,7 +24,7 @@ GeoKettle is particularly useful when a user wants to automate complex and repet
 
 In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL tool edited by Safe Software. GeoKettle is stable, fast, standards compliant, with hundreds of functions and read/write support for many file formats, services and DBMS. GeoKettle is used by diverse organisations from around the world, including governmental agencies, banks, insurance and geospatial system integrators.
 
-.. image:: images/screenshots/1024x768/geokettle-overview.png
+.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

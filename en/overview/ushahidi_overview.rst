@@ -4,7 +4,7 @@
 
 .. _ushahidi-overview:
 
-.. image:: images/project_logos/logo-ushahidi.png
+.. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -23,7 +23,7 @@ web and visualize it on a map or a timeline. Our goal is to create tools for
 democratizing information, increasing transparency and lowering the barriers 
 for individuals to share their stories.
 
-.. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

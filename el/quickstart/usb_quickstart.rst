@@ -28,12 +28,12 @@
 
 Εαν θα χρησιμοποιήσετε το DVD, τότε τοποθετήστε και το DVD στον υπολογιστή σας.
 
-  .. image:: images/screenshots/800x600/usb_select.png
+  .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Επιλέξτε "System->Administration->Startup Disk Creator"
 
-  .. image:: images/screenshots/800x600/usb_set_params.png
+  .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Επιλέξτε το αρχείο ISO ή το CD-ROM σας.
@@ -42,7 +42,7 @@
 
 Επιλέξτε "Make Startup Disk"
 
-  .. image:: images/screenshots/800x600/usb_installing.png
+  .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Περιμένετε περίπου 20 λεπτά για τη δημιουργία του USB.
@@ -54,11 +54,11 @@
 
 Κατεβάστε το λογισμικό Universal USB Installer από: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
 
 Αποδεχθείτε την άδεια χρήσης.
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
 
 Βήμα 1: Διανομή: Επιλέξτε τη διανομή xubuntu i386 που χρησιμοποιεί το osgeo-live. (για το osgeo-live-4.0, επιλέξτε xubuntu 10.04 Desktop i386)
 
@@ -70,7 +70,7 @@
 
 Επιλέξτε "Create"
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
 
 Περιμένετε 20 λεπτά για την δημιουργία του USB δίσκου.
 

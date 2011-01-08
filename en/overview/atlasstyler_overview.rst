@@ -4,7 +4,7 @@
 
 .. _atlasstyler-overview:
 
-.. image:: images/project_logos/logo-AtlasStyler.png
+.. image:: ../../images/project_logos/logo-AtlasStyler.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ Feature Style Editor
 
 The created SLD files are compatible with all programs which support the OGC SLD standard, including GeoServer, uDig and others. The application provides a multitude of intuitive dialogs to simplify style creation. Users can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally users have integrated access to an online symbol-database. Users can create and save symbols in the SymbolEditor and reused in classifications or other projects.
 
-.. image:: images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

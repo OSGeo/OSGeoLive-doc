@@ -29,27 +29,27 @@ Download and install `Virtual Box <http://www.virtualbox.org/>`_. On linux do th
 
 Open Virtual Box 
 
-  .. image:: images/screenshots/800x600/virtualbox.png
+  .. image:: ../../images/screenshots/800x600/virtualbox.png
     :scale: 70 %
 
 Select "New" to create a new Virtual Machine.
 
-  .. image:: images/screenshots/800x600/virtualbox_create_vm.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_create_vm.png
     :scale: 70 %
 
 Select "Next"
 
-  .. image:: images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
     :scale: 70 %
 
 Set a name for the image, and select "Linux", "Ubuntu".
 
-  .. image:: images/screenshots/800x600/virtualbox_memory.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_memory.png
     :scale: 70 %
 
 Set Base Memory to at least 512 MB.
 
-  .. image:: images/screenshots/800x600/virtualbox_no_hard_disk.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 Simple install: Deselect "Boot Hard Disk", the Virtual Machine will always
@@ -59,34 +59,34 @@ If you wish to have a persistent virtual machine, which stores state
 between sessions and which can have improved screen resolution settings
 and tools set, then include the hard disk, and install later.
 
-  .. image:: images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 Select "Continue"
 
-  .. image:: images/screenshots/800x600/virtualbox_final_check.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_final_check.png
     :scale: 70 %
 
 Select "Finish"
 
-  .. image:: images/screenshots/800x600/virtualbox_select_settings.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_select_settings.png
     :scale: 70 %
 
 The image is now created, but we now need to simulate having an OSGeo-Live DVD in the CD drive.
 
 Right click on the "osgeo-live" image, and select "Settings".
 
-  .. image:: images/screenshots/800x600/virtualbox_set_cd.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_set_cd.png
     :scale: 70 %
 
 Select "Storage", CD/DVD Device, ...
 
-  .. image:: images/screenshots/800x600/virtualbox_add_dvd.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_add_dvd.png
     :scale: 70 %
 
 Select the OSGeo-Live image.
 
-  .. image:: images/screenshots/800x600/virtualbox_start_vm.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_start_vm.png
     :scale: 70 %
 
 Now you can start the virtual machine as per the :doc:`osgeolive_quickstart`
@@ -103,19 +103,19 @@ acceleration, and more.
 
 Make sure you're computer is connected to the internet.
 
-  .. image:: images/screenshots/800x600/virtualbox_synaptic_menu.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 Select the synaptic package manager application.
 
 Enter password = "user"
 
-  .. image:: images/screenshots/800x600/virtualbox_synaptic_select_tools.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 Mark "virtualbox-ose-guest-utils" for installation.
 
-  .. image:: images/screenshots/800x600/virtualbox_synaptic_apply.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 Apply the changes.

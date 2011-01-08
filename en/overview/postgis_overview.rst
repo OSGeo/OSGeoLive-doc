@@ -4,13 +4,13 @@
 
 .. _postgis-overview:
 
-.. image:: images/project_logos/logo-PostGIS.png
+.. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.refractions.net/
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ PostGIS is stable, fast, standards compliant, with hundreds of spatial functions
 
 Database administration is available via pgAdmin, phpPgAdmin, among others. Importing and exporting data is provided by various converter tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). And there are numerous desktop and browser GIS clients for viewing PostGIS data.
 
-.. image:: images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/800x600/pgadmin.gif
   :scale: 55 %
   :alt: project logo
   :align: right

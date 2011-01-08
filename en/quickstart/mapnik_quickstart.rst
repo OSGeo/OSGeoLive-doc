@@ -5,7 +5,7 @@
 
 .. _mapnik-quickstart:
  
-.. image:: images/project_logos/logo-mapnik.png
+.. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right

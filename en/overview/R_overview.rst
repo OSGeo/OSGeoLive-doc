@@ -4,7 +4,7 @@
 
 .. _r-overview:
 
-.. image:: images/project_logos/logo-R.jpg
+.. image:: ../../images/project_logos/logo-R.jpg
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@ The core R interface is a command line window which provides excellent flexibili
 
 R is an implementation of the S programming language and there is significant compatibility between R and legacy S and S-Plus code as well as between R and the modern commercial version of S, TIBCO Spotfire S+. This comparability makes it possible to convert different versions of S code to run on R without major code modifications.  
 
-.. image:: images/screenshots/1024x768/r-perspective.png
+.. image:: ../../images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right

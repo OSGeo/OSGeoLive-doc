@@ -4,7 +4,7 @@
 
 .. _52nWPS-quickstart:
  
-.. image:: images/project_logos/logo_52North_160.png
+.. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@
 *	Ο περιηγητής Firefox θα ανοίξει το 52WPS-TestClient.
 
 
-.. image:: images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -31,7 +31,7 @@
 *	Πατήστε το Send-Button και το 52°North WPS το οποίο θα
         δημιουργήσει μία αναπαράσταση σε μορφή xml ενός buffer πλάτους 20 γύρω από τους παιδότοπους.
 
-.. image:: images/screenshots/1024x768/52n_wps_response.png
+.. image:: ../../images/screenshots/1024x768/52n_wps_response.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -4,13 +4,13 @@
 
 .. _ossim-overview:
 
-.. image:: images/project_logos/logo-ossim.gif
+.. image:: ../../images/project_logos/logo-ossim.gif
   :scale: 100 %
   :alt: Projekt Logo
   :align: right
   :target: http://www.ossim.org/
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -41,7 +41,7 @@ wurden entwickelt - von denen mehrere in dem Softwarepaket enthalten sind.
 Kernfunktionen
 --------------
 
-.. image:: images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

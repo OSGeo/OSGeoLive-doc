@@ -4,7 +4,7 @@
 
 .. _geopublisher-quickstart:
  
-.. image:: images/project_logos/logo-Geopublisher.png
+.. image:: ../../images/project_logos/logo-Geopublisher.png
   :scale: 100 %
   :alt: project logo
   :align: right

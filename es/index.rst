@@ -8,7 +8,7 @@ variedad de *software* libre geoespacial sin instalar nada. Está compuesto
 enteramente por *software* libre, permitiendo ser distribuido libremente,
 duplicado, etc.
 
-.. image:: images/screenshots/800x600/osgeolive_menu.png
+.. image:: ../images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

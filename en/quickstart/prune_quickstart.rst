@@ -4,7 +4,7 @@
 
 .. _prune-quickstart:
  
-.. image:: images/project_logos/logo-prune.png
+.. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
   :target: http://activityworkshop.net/software/prune/

@@ -4,7 +4,7 @@
 
 .. _gmt-overview:
 
-.. image:: images/project_logos/logo-GMT.gif
+.. image:: ../../images/project_logos/logo-GMT.gif
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -26,7 +26,7 @@ GMT
 Το GMT υποστηρίζει πολλές κλασικές χαρτογραφικές προβολές με επιπλέον γραμμικές, λογαριθμικές και εκθετικές κλίμακες, και διατίθεται με υποστήριξη για δεδομένα όπως οι ακτογραμμές, τα ποτάμια και τα πολιτικά όρια.
 
 
-.. image:: images/screenshots/800x600/gmt-example28.png
+.. image:: ../../images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

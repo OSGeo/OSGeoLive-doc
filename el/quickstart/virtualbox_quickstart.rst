@@ -29,27 +29,27 @@
 
 Ανοίξτε το Virtual Box 
 
-  .. image:: images/screenshots/800x600/virtualbox.png
+  .. image:: ../../images/screenshots/800x600/virtualbox.png
     :scale: 70 %
 
 Επιλέξτε "New" για να δημιουργήσετε μια νέα εικονική μηχανή.
 
-  .. image:: images/screenshots/800x600/virtualbox_create_vm.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_create_vm.png
     :scale: 70 %
 
 Επιλέξτε "Next"
 
-  .. image:: images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
     :scale: 70 %
 
 Δώστε ένα όνομα στη μηχανή σας, και επιλέξτε "Linux", "Ubuntu".
 
-  .. image:: images/screenshots/800x600/virtualbox_memory.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_memory.png
     :scale: 70 %
 
 Δώστε σαν ποσό μνήμης τουλάχιστο 512 MB.
 
-  .. image:: images/screenshots/800x600/virtualbox_no_hard_disk.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 Απλή εγκατάσταση: Απενεργοποιήστε την επιλογή "Boot Hard Disk", και η εικονική μηχανή θα ξεκινά συνέχεια από το DVD.
@@ -58,34 +58,34 @@
 και στην οποία μπορείτε να βελτιώσετε τις ρυθμίσεις ανάλυσης της οθόνης
 τότε αφήστε ενεργοποιημένο την παραπάνω επιλογή σκληρού δίσκου και εγκαταστήστε αργότερα.
 
-  .. image:: images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 Επιλέξτε "Continue"
 
-  .. image:: images/screenshots/800x600/virtualbox_final_check.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_final_check.png
     :scale: 70 %
 
 Επιλέξτε "Finish"
 
-  .. image:: images/screenshots/800x600/virtualbox_select_settings.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_select_settings.png
     :scale: 70 %
 
 Η εικονική μηχανή έχει δημιουργηθεί, αλλά τώρα χρειαζόμαστε την εξομοίωση ενός DVD OSGeo-Live στο CD-ROM της εικονικής μηχανής.
 
 Κάντε δεξί κλίκ στην εικόνα "osgeo-live", και επιλέξτε "Settings".
 
-  .. image:: images/screenshots/800x600/virtualbox_set_cd.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_set_cd.png
     :scale: 70 %
 
 Επιλέξτε "Storage", CD/DVD Device, ...
 
-  .. image:: images/screenshots/800x600/virtualbox_add_dvd.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_add_dvd.png
     :scale: 70 %
 
 Επιλέξτε το αρχείο του OSGeo-Live.
 
-  .. image:: images/screenshots/800x600/virtualbox_start_vm.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_start_vm.png
     :scale: 70 %
 
 Τώρα μπορείτε να ξεκινήσετε την μηχανή όπως περιγράφεται στο :doc:`osgeolive_quickstart`
@@ -101,19 +101,19 @@
 
 Σιγουρευτείτε ότι ο υπολογιστής σας είναι συνδεδεμένος με το διαδίκτυο.
 
-  .. image:: images/screenshots/800x600/virtualbox_synaptic_menu.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 Επιλέξτε την εφαρμογή synaptic package manager.
 
 Εισάγετε κωδικό "user"
 
-  .. image:: images/screenshots/800x600/virtualbox_synaptic_select_tools.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 Επιλέξτε το "virtualbox-ose-guest-utils" για εγκατάσταση.
 
-  .. image:: images/screenshots/800x600/virtualbox_synaptic_apply.png
+  .. image:: ../../images/screenshots/800x600/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 Εφαρμοστε τις αλλαγές.

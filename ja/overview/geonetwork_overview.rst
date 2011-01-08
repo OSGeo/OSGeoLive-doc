@@ -4,13 +4,13 @@
 
 .. _geonetwork-overview:
 
-.. image:: images/project_logos/logo-GeoNetwork.png
+.. image:: ../../images/project_logos/logo-GeoNetwork.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -24,7 +24,7 @@ GeoNetwork
 
 GeoNetwork OpenSourceは空間的に参照されるリソースを管理するためのカタログアプリケーションです.このソフトウェアは強力なメタデータ編集機能と検索機能、組み込みインタラクティブウェッブ地図ビューアーを提供し、それらはオープンスタンダードに準拠しています. 
 
-.. image:: images/screenshots/1024x768/geonetwork-overview.png
+.. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

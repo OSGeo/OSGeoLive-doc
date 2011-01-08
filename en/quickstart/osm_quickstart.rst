@@ -4,7 +4,7 @@
 
 .. _osm-quickstart:
  
-.. image:: images/project_logos/logo-osm.png
+.. image:: ../../images/project_logos/logo-osm.png
   :scale: 100 %
   :alt: project logo
   :align: right

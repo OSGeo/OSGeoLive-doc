@@ -4,7 +4,7 @@
 
 .. _zoo-overview:
 
-.. image:: images/project_logos/logo-Zoo.png
+.. image:: ../../images/project_logos/logo-Zoo.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -23,7 +23,7 @@ Projekt Zoo obsługuje wiele języków programowania i wydany jest z dwiema apli
 
 ZOO składa się z trzech komponentów:
 
-.. image:: images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

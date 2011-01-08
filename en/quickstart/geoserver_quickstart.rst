@@ -10,7 +10,7 @@
 
 .. _geoserver-quickstart:
  
-.. image:: images/project_logos/logo-GeoServer.png
+.. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
 
@@ -35,7 +35,7 @@ Start |GS|
 #. The application will take a few moments to start up
 #. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
 
-.. image:: images/screenshots/800x600/geoserver-login.png
+.. image:: ../../images/screenshots/800x600/geoserver-login.png
     :width: 90 %
     :align: left
 
@@ -45,19 +45,19 @@ First Views
 
 When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
 
-.. image:: images/screenshots/800x600/geoserver-welcome.png
+.. image:: ../../images/screenshots/800x600/geoserver-welcome.png
     :width: 90%
     :align: left
 
 The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
   
-.. image:: images/screenshots/800x600/geoserver-layerpreview.png
+.. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
     :width: 90%
     :align: left
 
 Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
-.. image:: images/screenshots/800x600/geoserver-preview.png
+.. image:: ../../images/screenshots/800x600/geoserver-preview.png
     :width: 90%
     :align: left
     
@@ -99,7 +99,7 @@ Now we need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
 will see this page:
 
-.. figure:: images/screenshots/800x600/geoserver-newstore.png
+.. figure:: ../../images/screenshots/800x600/geoserver-newstore.png
     :align: center
     :width: 90%
     
@@ -107,7 +107,7 @@ will see this page:
 
 Select the :guilabel:`Directory of spatial files`, you will see the following: 
 
-.. figure:: images/screenshots/800x600/geoserver-new-vector.png
+.. figure:: ../../images/screenshots/800x600/geoserver-new-vector.png
     :align: center
     
     *Filling in the New Store page*
@@ -116,7 +116,7 @@ Type in a name for the Data Store - I used *Natural Earth* and fill in
 the URL to the data set - in this case :file:`data/naturaleath`. The
 URL is relative to the |GS| data directory. Press :guilabel:`save`.
 
-.. figure:: images/screenshots/800x600/geoserver-naturalearth.png
+.. figure:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :width: 100%
 
@@ -125,7 +125,7 @@ URL is relative to the |GS| data directory. Press :guilabel:`save`.
 Press :guilabel:`publish` next to one of the layers to finish up adding
 the data. This will take you to the *Layers* page:
 
-.. figure:: images/screenshots/800x600/geoserver-publish.png
+.. figure:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
     :width: 90%
 
@@ -174,7 +174,7 @@ add data button in the top left hand corner). I dragged the 10m_land
 and 10m_ocean tables into the map window. |UG| automatically applies
 a style (so you can see the data).
 
-.. figure:: images/screenshots/800x600/geoserver-udig_startup.png
+.. figure:: ../../images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :width: 90%
 
@@ -185,7 +185,7 @@ with the green land). So in the :ref:`Layer list <Layer_list>` select the style
 button (it looks like an artist's palette). 
 
 .. _Layer_list:
-.. figure:: images/screenshots/800x600/geoserver-layer-chooser.png
+.. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
    *The Layer list window*
@@ -198,7 +198,7 @@ increased the opacity of the fill to 100% to make the color look
 better. 
 
 .. _Style_Pane:
-.. figure:: images/screenshots/800x600/geoserver-style-pane.png
+.. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
    *The Style Pane*
@@ -208,7 +208,7 @@ Once I was done I clicked ``OK`` and |UG| showed me the
 changes. 
 
 
-.. figure:: images/screenshots/800x600/geoserver-blue-ocean.png
+.. figure:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :width: 90%
 
@@ -219,14 +219,14 @@ I repeated the steps above to change the color of the land layer.
 None of the default colors seemed right to me so I went into the
 ``define custom colors`` section to create one I liked.
 
-.. figure:: images/screenshots/800x600/geoserver-custom-colour.png
+.. figure:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
 
    *Defining a nicer land color*
 
 This gives me a nice looking basic world map
 
-.. figure:: images/screenshots/800x600/geoserver-basic-world.png
+.. figure:: ../../images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :width: 90%
 
@@ -245,7 +245,7 @@ allows me to hunt around on my hard drive to find the files I just
 saved. Once I've found one I want, I click the upload link (next to the browse
 button) and a copy of my file appears in the editor. 
 
-.. figure:: images/screenshots/800x600/geoserver-add-style.png
+.. figure:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :width: 90%
 
@@ -277,7 +277,7 @@ layers in :file:`/usr/local/share/geoserver`.
     *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
     into the :guilabel:`URL` box.
 
-    .. figure:: images/screenshots/800x600/geoserver-raster.png
+    .. figure:: ../../images/screenshots/800x600/geoserver-raster.png
         :align: center
         :width: 90%
 

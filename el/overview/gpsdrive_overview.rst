@@ -4,7 +4,7 @@
 
 .. _gpsdrive-overview:
 
-.. image:: images/project_logos/logo-gpsdrive.png
+.. image:: ../../images/project_logos/logo-gpsdrive.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -24,7 +24,7 @@ GpsDrive
 Βασικά Χαρακτηριστικά
 -------------
 
-.. image:: images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: screenshot
   :align: right

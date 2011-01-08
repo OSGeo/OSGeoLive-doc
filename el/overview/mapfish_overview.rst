@@ -6,13 +6,13 @@
 
 .. _mapfish-overview:
 
-.. image:: images/project_logos/logo-mapfish.png
+.. image:: ../../images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://postgis.refractions.net/
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -39,7 +39,7 @@ MapFish παρέχει συγκεκριμένα εργαλεία για την �
 <http://www.openlayers.org>`_ , το `GeoExt <http://www.geoext.org>`_ 
 και συγκεκριμένα εργαλεία για την διάδραση με τις υπηρεσίες (web services) του MapFish.
 
-.. image:: images/screenshots/800x600/mapfish-screenshot.png
+.. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -4,14 +4,14 @@
 
 .. _geomajas-overview:
 
-.. image:: images/project_logos/logo-geomajas.png
+.. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: Λογισμικό υπό ενσωμάτωση του OSGeo
   :align: right
@@ -30,7 +30,7 @@ Geomajas
 
 Αυτό που κάνει το Geomajas ξεχωριστό είναι η εστίασή του στον εξυπηρετητή. Η επεξεργασία, η χαρτοσύνθεση, το φιλτράρισμα, η προσωρινή αποθήκευση, κλπ. των χωρικών δεδομένων πραγματοποιείται πάντοτε με ασφαλή τρόπο. Όλα τα παραπάνω καθιστούν το Geomajas σαν μια εφαρμογή εξαιρετικά κλιμακούμενη και ταχύτατη, καθιστώντας τον πελάτη (client) πραγματικά ευέλικτο.
 
-.. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Παρουσίαση Geomajas
   :align: right

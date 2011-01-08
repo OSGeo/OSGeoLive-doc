@@ -7,7 +7,7 @@
 
 .. _udig-quickstart:
  
-.. image:: images/project_logos/logo-uDig.png
+.. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %
   :alt: project logo
   :align: right
@@ -43,7 +43,7 @@
 
 #. Κάντε κλίκ στο βέλος που έχει τίτλο Workbench στο πάνω δεξί άκρο της οθόνης, για να φανερωθούν τα περιεχόμενα της επιφάνειας εργασίας του uDig.
   
-  .. image:: images/screenshots/800x600/udig_welcome.png
+  .. image:: ../../images/screenshots/800x600/udig_welcome.png
 
 Μπορείτε να επιστρέψετε στην αρχική οθόνη όποια στιγμή επιλέξετε από το μενού Help > Welcome.
 
@@ -52,7 +52,7 @@
 
 Το παράθυρο της επιφάνειας εργασίας προσφέρει πολλούς επεξεργαστές (ο καθένας δείχνει έναν χάρτη) και υποστηρίζει Όψεις (προσφέροντας πληροφορίες για τον εκάστωτε ενεργό χάρτη).
 
-  .. image:: images/screenshots/800x600/udig_workbench.png
+  .. image:: ../../images/screenshots/800x600/udig_workbench.png
 
 Παραπάνω φαίνεται μια τυπική συνεδρεία uDig με τον επεξεργαστή χάρτη, την όψη εργασιών (Projects view), τα θεματικά επίπεδα (Layers view) και τον κατάλογο (Catalog
 view). Αυτές οι όψεις περιγράφονται στη συνέχεια όπου και αναφέρουμε την λειτουργία τους.
@@ -100,7 +100,7 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 
 #. Επιλέγουμε το επίπεδο clouds.jpg στον κατάλογο και στο σέρνουμε στο τέλος της λίστας
   
-  .. image:: images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
 
 .. note::
    Ένα από τα πρώτα ερωτήματα που συναντάμε όταν το uDig είναι υποψήφιο για χρήση από κάποιον οργανισμό είναι πόση μνήμη
@@ -118,7 +118,7 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 
 #. Το |ZOOM| εργαλείο μεγέθυνσης (Zoom tool) είναι διαθέσιμο σαν προεπιλογή
    
-   .. |ZOOM| image:: images/screenshots/800x600/udig_zoom_mode.gif
+   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
    
    * Χρησιμοποιούμε το εργαλείο μεγέθυνσης σχεδιάζοντας ένα παραλληλόγραμμο στο χάρτη με τη χρήση του αριστερού πλήκτρου του ποντικιούγύρω από την περιοχή που μας ενδιαφέρει
      να δούμε.
@@ -127,18 +127,18 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 
 #. Το |PAN| εργαλείο μετάθεσης (Pan) μπορεί να χρησιμοποιηθεί για να μετακινηθούμε γύρω στο χάρτη μας χωρίς να αλλάξουμε την κλίμακα εμφάνισης.
   
-   .. |PAN| image:: images/screenshots/800x600/udig_pan_mode.gif
+   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
 
 #. Επιπλέον υπάρχουν διάφορα διαθέσιμα κουμπιά που μπορούν να χρησιμοποιηθούν ανα πάσα στιγμή:
  
    * |SHOWALL| Εμφάνιση όλων (Show All), μπορεί να επαναφέρει το χάρτη σε πλήρη έκταση οποιαδήποτε στιγμή
    
-     .. |SHOWALL| image:: images/screenshots/800x600/udig_zoom_extent_co.gif
+     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
 
    * |ZOOM_IN| Μεγέθυνση (Zoom In) και |ZOOM_OUT| σμίκρυνση (Zoom Out) μπορούν να χρησιμοποιηθούν για να αλλάξουν την κλίμακα κατά ένα προκαθορισμένο ποσό.
 
-     .. |ZOOM_IN| image:: images/screenshots/800x600/udig_zoom_in_co.gif
-     .. |ZOOM_OUT| image:: images/screenshots/800x600/udig_zoom_out_co.gif
+     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
+     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
 
    * Μπορούμε να χρησιμοποιήσουμε τα Navigation > Back και Navigation > Forward από το μενού εντολών για να επισκεφθούμε 
      σημεία που είχαμε δει προηγουμένως.
@@ -164,7 +164,7 @@ Web Map Server
 
 #. Εναλλάξτε την όψη **Web**, κάνοντας κλίκ στη σελίδα δίπλα από τον **Κατάλογο** για να ενεργοποιηθεί η όψη *Web*.
    
-  .. image:: images/screenshots/800x600/udig_WebViewClick.png
+  .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
     :scale: 70 %
 
 #. Κάντε κλίκ στο σύνδεσμο *WMS:dm solutions*
@@ -175,18 +175,18 @@ Web Map Server
    * Πάρκα (Parks)
    * Πόλεις (Cities)
    
-.. image:: images/screenshots/800x600/udig_AddWMSLayers.png
+.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
   :scale: 70 %
 
 #. Επιλέξτε :guilabel:`Finish` για να προσθέσετε αυτά τα επίπεδα στο χάρτη
    
-.. image:: images/screenshots/800x600/udig_WMSMap.png
+.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
   
 #. Χρησιμοποιείστε το |ZOOM| εργαλείο μεγέθυνσης για να μετακινηθείτε πιο κοντά σε ένα από τα πάρκα
 
 #. Αλλάξτε το ποντίκι στο |INFO| εργαλείο πληροφοριών (Info Tool) και κάντε κλίκ σε ένα πάρκο για να μάθετε περισσότερα για αυτό
    
-.. |INFO| image:: images/screenshots/800x600/udig_info_mode.gif
+.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
 Tip: Μπορείτε να εναλλάξετε τα προηγούμενα εργαλεία (zoom και info) με την χρήση των πλήκτρων Z και I στο πληκτρολόγιο.
 
@@ -207,7 +207,7 @@ Tip: Μπορείτε να εναλλάξετε τα προηγούμενα ερ
    
    * Λεζάντα (Label): ενεργοποιήστε το πλαίσιο, και επιλέξτε CNTRY_NAME από τη λίστα των περιγραφικών χαρακτηριστικών
    
-   .. image:: images/screenshots/800x600/udig_StyleEditor.png
+   .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
 #. Πιέστε :guilabel:`Apply` για να δείτε πως φαίνονται οι αλλαγές στο χάρτη. Η όψη επιπέδων επίσης θα αλλάξει
@@ -226,7 +226,7 @@ Tip: Μπορείτε να εναλλάξετε τα προηγούμενα ερ
 
 #. Χρησιμοποιώντας την όψη  *επιπέδων (Layer)* επιλέξτε ζώνη ώρας, χώρες και το clouds.jpg με τη σειρά για να παρατηρήσετε το αποτέλεσμα
   
-.. image:: images/screenshots/800x600/udig_MapMylar.jpg
+.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
 
 #. Μπορείτε να απενεργοποιήσετε αυτό το εφέ αναπάσα στιγμή επιλέγοντας :menuselection:`Map --> Mylar` από το μενού εντολών
 

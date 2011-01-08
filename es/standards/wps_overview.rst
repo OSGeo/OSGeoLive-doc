@@ -16,15 +16,15 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: images/project_logos/logo-OGC-right.png
+.. image:: ../../images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -39,7 +39,7 @@ Web Processing Service (WPS)
 
 El estandar WPS proporciona unas reglas para la estandarización de la entrada y salida (peticiones y respuestas) para servicios de procesamiento geoespacial, como por ejemplo, operaciones con polígonos y sus entradas y salidas.
 
-.. image:: images/standards/wps.jpg
+.. image:: ../../images/standards/wps.jpg
   :scale: 25%
   :alt: WPS in Context
 

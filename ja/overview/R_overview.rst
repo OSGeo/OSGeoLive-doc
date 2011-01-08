@@ -4,7 +4,7 @@
 
 .. _r-overview:
 
-.. image:: images/project_logos/logo-R.jpg
+.. image:: ../../images/project_logos/logo-R.jpg
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -25,7 +25,7 @@ Rの基本インターフェイスは高い自由度と操作性を提供する�
 RはS言語を実装しており，Rと過去のS，S-Plusコード，同様に最近の商用バージョンのS，TIBCO Spotfire S+との高い互換性を有しています。この互換性により，大きくコードを変更することなく異なるバージョンのSをRで実行できるように変換することが出来ます。
 
 
-.. image:: images/screenshots/1024x768/r-perspective.png
+.. image:: ../../images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right

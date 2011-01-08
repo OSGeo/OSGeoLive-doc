@@ -4,7 +4,7 @@
 
 .. _r-overview:
 
-.. image:: images/project_logos/logo-R.jpg
+.. image:: ../../images/project_logos/logo-R.jpg
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@ R Spatial Task View
 
 Το περιβάλλον R είναι μια υλοποίηση της γλώσσας προγραμματισμού S και υπάρχει σημαντική συμβατότητα του R με την S και την S-Plus καθώς και με νέες εμπορικές υλοποιήσεις της όπως S, TIBCO Spotfire S+. Αυτή η συμβατότητα μας επιτρέπει να μετατρέψουμε διάφορες εκδόσεις της S σε R χωρίς μεγάλες διαφοροποιήσεις στον κώδικα.  
 
-.. image:: images/screenshots/1024x768/r-perspective.png
+.. image:: ../../images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right

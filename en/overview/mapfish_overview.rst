@@ -6,13 +6,13 @@
 
 .. _mapfish-overview:
 
-.. image:: images/project_logos/logo-mapfish.png
+.. image:: ../../images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://postgis.refractions.net/
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -39,7 +39,7 @@ toolbox is composed of the `ExtJS <http://extjs.com>`_, `OpenLayers
 <http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ JavaScript
 toolkits, and specific components for interacting with MapFish web services.
 
-.. image:: images/screenshots/800x600/mapfish-screenshot.png
+.. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

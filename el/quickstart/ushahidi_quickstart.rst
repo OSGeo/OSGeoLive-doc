@@ -4,7 +4,7 @@
 
 .. _ushahidi-quickstart:
 
-.. image:: images/project_logos/logo-ushahidi.png
+.. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 100 %
   :alt: project logo
   :align: right 
@@ -22,7 +22,7 @@
 1. Εκτελέστε το Ushahidi από το εικονίδιο στην επιφάνεια εργασίας ή από την επιλογή στο μενού που ανοίγει τον διαδικτυακό περιηγητή
    και σας παρουσιάζει την σελίδα εγκατάστασης. Είναι σχετικά εύκολο να αναπτύξετε έναν ιστοχώρο Ushahidite
 
-.. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -38,7 +38,7 @@
    κάτι σαν το **"ushahidi@localhost.localdomain"** ή **"ushahidi@example.org"** και
    στην συνέχεια **"Continue"**. 
 
-.. image:: images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
@@ -46,7 +46,7 @@
 3. Αφού γίνουν τα παραπάνω θα σας απαντήσει το σύστημα οτι η εγκατάσταση έγινε με
    επιτυχία και θα σας δώσει έναν σύνδεσμο να δείτε τον ιστοχώρο σας 'View your website'.
 
-.. image:: images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
@@ -58,7 +58,7 @@
    **"Map provider"** σε OpenStreetMaps (προφανώς δεν απαιτείται κανένα κλειδί αφού είναι
    Ανοιχτά δεδομένα :-) ).
 
-.. image:: images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center

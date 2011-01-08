@@ -4,13 +4,13 @@
 
 .. _mapguide-overview:
 
-.. image:: images/project_logos/logo-mapserver-new.png
+.. image:: ../../images/project_logos/logo-mapserver-new.png
   :scale: 65 %
   :alt: project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -32,7 +32,7 @@ MapServer
 Βασικά Χαρακτηριστικά
 -------------
 
-.. image:: images/screenshots/1024x768/mapserver.png
+.. image:: ../../images/screenshots/1024x768/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

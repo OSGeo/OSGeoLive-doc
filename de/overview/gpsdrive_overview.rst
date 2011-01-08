@@ -4,7 +4,7 @@
 
 .. _gpsdrive-overview:
 
-.. image:: images/project_logos/logo-gpsdrive.png
+.. image:: ../../images/project_logos/logo-gpsdrive.png
   :scale: 80 %
   :alt: Projekt Logo
   :align: right
@@ -29,7 +29,7 @@ sein, ebenso wie viele USB GPS-Empfänger, die das von `Gpsd <a href="http://gps
 Kernfunktionen
 --------------
 
-.. image:: images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

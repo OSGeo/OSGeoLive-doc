@@ -4,13 +4,13 @@
 
 .. _deegree-overview:
 
-.. image:: images/project_logos/logo-deegree.png
+.. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://deegree.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -37,7 +37,7 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
 
 
 
-.. image:: images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
   :scale: 50%
   :alt: project logo
   :align: right

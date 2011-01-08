@@ -4,7 +4,7 @@
 
 .. _geokettle-overview:
 
-.. image:: images/project_logos/logo-geokettle.png
+.. image:: ../../images/project_logos/logo-geokettle.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -24,7 +24,7 @@ GeoKettle
 
 Στο χώρο των χωρικών εφαρμογών, το Geokettle συγκρίνεται με το FME, ένα κλειστό εργαλείο χωρικής διαχείρησης και ενοποίησης δεδομένων που υποστηρίζεται από την Safe Software. Το GeoKettle είναι σταθερό, γρήγορο, συμβατό με πρότυπα, με εκατοντάδες λειτουργίες για είσοδο/έξοδο σε πολλά πρότυπα αρχείων, υπηρεσιών και βάσεων δεδομένων. Το GeoKettle χρησιμοποιείται από διάφορους οργανισμούς σε όλο τον κόσμο, περιλαμβανομένων κυβερνητικών οργανισμών, τραπεζών, και εταιρειών ασφάλειας και ενσωμάτωσης γεωχωρικών πληροφοριών.
 
-.. image:: images/screenshots/1024x768/geokettle-overview.png
+.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

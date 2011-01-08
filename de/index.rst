@@ -8,7 +8,7 @@ ermöglicht, eine Vielzahl von Open Source GIS Software auszuprobieren, ohne
 etwas installieren zu müssen. Sie besteht ausschließlich aus Freier Software, die
 Sie beliebig weitergeben, verteilen und vervielfältigen dürfen.
 
-.. image:: images/screenshots/800x600/osgeolive_menu.png
+.. image:: ../images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

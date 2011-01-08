@@ -4,7 +4,7 @@
 
 .. _osm-overview:
 
-.. image:: images/project_logos/logo-osm.png
+.. image:: ../../images/project_logos/logo-osm.png
   :scale: 80 %
   :alt: Projekt Logo
   :align: right
@@ -30,7 +30,7 @@ Osm2pgsql. Darüber hinaus sind Beispieldaten und eine Reihe von JOSM Plugins en
 Kernfunktionen
 --------------
 
-.. image:: images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

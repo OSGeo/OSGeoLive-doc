@@ -16,15 +16,15 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: images/project_logos/logo-OGC-right.png
+.. image:: ../../images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -39,7 +39,7 @@ KML Encoding Standard (KML)
 
 El estandar OGC KML es un formato XML orientado a la visualización geográfica, que incluye anotaciones de mapas e imágenes. La visualización geográfica no incluye solo la presentación de datos geográficos sobre el globo, sino también el control de navegación de usuario en el sentido de donde ir y donde mirar. (http://www.opengeospatial.org/standards/KML)
 
-.. image:: images/standards/kml.jpg
+.. image:: ../../images/standards/kml.jpg
   :scale: 25%
   :alt: KML en contexto
 

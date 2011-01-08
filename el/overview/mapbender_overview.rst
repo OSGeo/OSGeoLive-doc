@@ -4,13 +4,13 @@
 
 .. _mapbender-overview:
 
-.. image:: images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.mapbender.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 90 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -33,7 +33,7 @@ Mapbender
 
 Ο Mapbender παρέχει μια νέα προοπτική στη διαχείρηση ενός SDI με τη χρήση αποκλειστικά ενός περιηγητή. 
 
-.. image:: images/screenshots/800x600/mapbender_demo.png
+.. image:: ../../images/screenshots/800x600/mapbender_demo.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

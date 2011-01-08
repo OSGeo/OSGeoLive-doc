@@ -30,12 +30,12 @@ Wsuń PenDrive do napędu USB komputera.
 
 Jeśli używasz DVD, włóż płytę DVD do napędu DVD.
 
-  .. image:: images/screenshots/800x600/usb_select.png
+  .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Wybierz "System->Administration->Startup Disk Creator"
 
-  .. image:: images/screenshots/800x600/usb_set_params.png
+  .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Wybierz CD Drive lub ISO Image.
@@ -44,7 +44,7 @@ Wskaż PenDrive USB.
 
 Wybierz "Make Startup Disk"
 
-  .. image:: images/screenshots/800x600/usb_installing.png
+  .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Poczekaj około 20 minut na stworzenie PenDrive USB.
@@ -56,11 +56,11 @@ Wsuń PenDrive do napędu USB komputera.
 
 Pobierz i uruchom Universal USB Installer z: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
 
 Zaakceptuj postanowienia licencji.
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
 
 Krok 1: Distrybucja: Wybierz dystrybucję xubuntu i386, która jest użyta w obrazie
 OSGeo-Live (dla osgeo-live-4.0, wybierz xubuntu 10.04 Desktop i386).
@@ -73,7 +73,7 @@ Krok 4: Wybierz "Persistence" jeśli chcesz zapamiętać stan pomiędzy sesjami.
 
 Wybierz "Create"
 
-  .. image:: images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
 
 Poczekaj około 20 minut na stworzenie PenDrive USB.
 

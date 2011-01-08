@@ -4,13 +4,13 @@
 
 .. _mapbender-overview:
 
-.. image:: images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.mapbender.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 90 %
   :alt: OSGeo Project
   :align: right
@@ -33,7 +33,7 @@ The Mapbender client side is based on HTML and JavaScript using the jQuery and j
 
 Mapbender gives a whole new perspective to SDI management using nothing but a standard web browser. 
 
-.. image:: images/screenshots/800x600/mapbender_demo.png
+.. image:: ../../images/screenshots/800x600/mapbender_demo.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

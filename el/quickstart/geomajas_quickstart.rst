@@ -4,7 +4,7 @@
 
 .. _geomajas-quickstart:
  
-.. image:: images/project_logos/logo-geomajas.png
+.. image:: ../../images/project_logos/logo-geomajas.png
   :width: 50px
   :height: 50px
   :alt: project logo
@@ -20,7 +20,7 @@
 
 Το Geomajas είναι ένα προγραμματιστικό περιβάλλον για την δημιουργία δικτυακών εφαρμογών Γεωγραφικών Συστημάτων Πληροφοριών (ΓΣΠ).  Επομένως, σε αυτό το Live DVD θα βρείτε ένα παράδειγμα δημιουργίας μιας εφαρμογής κάνοντας χρήση του Geomajas.
 
-.. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

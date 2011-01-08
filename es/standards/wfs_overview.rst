@@ -16,15 +16,15 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: images/project_logos/logo-OGC-right.png
+.. image:: ../../images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -39,7 +39,7 @@ Web Feature Service (WFS)
 
 El estandar de interface OGC® Web Feature Service (WFS)  define operaciones Web de interface para la consulta y edición de entidades geográficas (en inglés *features*) vectoriales, como por ejemplo carreteras o líneas de contorno de lagos.  (http://www.opengeospatial.org/standards/wfs)
 
-.. image:: images/standards/wfs.jpg
+.. image:: ../../images/standards/wfs.jpg
   :scale: 25%
   :alt: WFS en contexto
 

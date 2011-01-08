@@ -4,7 +4,7 @@
 
 .. _mapfish-quickstart:
  
-.. image:: images/project_logos/logo-mapfish.png
+.. image:: ../../images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo
   :align: right

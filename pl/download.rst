@@ -3,7 +3,7 @@ Pobierz OSGeo-Live
 
 Najnowszą stabilną wersję OSGeo-Live zawiera:
 
-.. image:: images/download_buttons/download-dvd.png
+.. image:: ../images/download_buttons/download-dvd.png
   :alt: Pobierz plik iso DVD lub USB 4.4 GB
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso
@@ -12,7 +12,7 @@ Najnowszą stabilną wersję OSGeo-Live zawiera:
 
 Rozruchowe DVD z xubuntu, zawierające również instalatory na Windows i Mac. Może być nagrane na rozruchowym ośmiogigowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
-.. image:: images/download_buttons/download-mini.png
+.. image:: ../images/download_buttons/download-mini.png
   :alt: Pobierz plik iso 3.2 GB bez instalatorów Windows i Mac
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1-mini.iso

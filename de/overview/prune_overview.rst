@@ -4,7 +4,7 @@
 
 .. _prune-overview:
 
-.. image:: images/project_logos/logo-prune.png
+.. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
   :target: http://activityworkshop.net/software/prune/
@@ -31,7 +31,7 @@ verschiedenen Sprachen verfügbar.
 Kernfunktionen
 --------------
 
-.. image:: images/screenshots/1024x768/prune_barcelona_de.png
+.. image:: ../../images/screenshots/1024x768/prune_barcelona_de.png
   :scale: 50 %
   :alt: screenshot
   :align: right

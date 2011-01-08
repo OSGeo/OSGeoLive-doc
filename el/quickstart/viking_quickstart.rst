@@ -4,7 +4,7 @@
 
 .. _viking-quickstart:
  
-.. image:: images/project_logos/logo-viking.png
+.. image:: ../../images/project_logos/logo-viking.png
   :scale: 100 %
   :alt: project logo
   :align: right

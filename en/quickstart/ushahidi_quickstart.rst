@@ -4,7 +4,7 @@
 
 .. _ushahidi-quickstart:
 
-.. image:: images/project_logos/logo-ushahidi.png
+.. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 100 %
   :alt: project logo
   :align: right 
@@ -23,7 +23,7 @@ Getting Ushahidi Up and Running
    browser and brings you to the Installation page. An Ushahidi site is 
    pretty easy to set up
 
-.. image:: images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -38,7 +38,7 @@ Getting Ushahidi Up and Running
    database and maps, and send automated reports from. For now set it to 
    something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**. 
 
-.. image:: images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
@@ -46,7 +46,7 @@ Getting Ushahidi Up and Running
 3. After that is all done it should tell you that installation was
    successful and give you a link to 'View your website'.
 
-.. image:: images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
@@ -58,7 +58,7 @@ Getting Ushahidi Up and Running
    **"Map provider"** to OpenStreetMaps (no API key 
    necessary for OSM, as it's Open :-) ).
 
-.. image:: images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+.. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center

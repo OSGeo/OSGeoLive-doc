@@ -24,7 +24,7 @@ Wiele informacji znajdą Państwo na naszej stronie
 Wsparcie komercyjne
 ==================
 
-.. image:: images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/lisasoftlogo.jpg
  :scale: 100%
  :alt: LISAsoft
  :target: http://lisasoft.com

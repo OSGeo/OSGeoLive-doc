@@ -4,13 +4,13 @@
 
 .. _qgis-overview:
 
-.. image:: images/project_logos/logo-QGIS.png
+.. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -40,7 +40,7 @@ It includes powerful analytical functionality through integration with GRASS.
 It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
 raster and database formats and functionality.
 
-.. image:: images/screenshots/1024x768/qgis.png
+.. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

@@ -4,7 +4,7 @@
 
 .. _pgrouting-overview:
 
-.. image:: images/project_logos/logo-pgRouting.png
+.. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
   :alt: pgRouting Logo
   :align: right
@@ -25,7 +25,7 @@ Vorteile des Datenbank-Routing Konzepts sind:
 * Der "Kosten" Parameter kann dynamisch mittels SQL berechnet werden und aus verschiedenen Attributen aus unterschiedlichen Tabellen zusammengesetzt sein.
 
 
-.. image:: images/screenshots/800x600/pgrouting.png
+.. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: pgRouting Abfrage in pgAdmin III
   :align: right

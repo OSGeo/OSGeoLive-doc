@@ -4,7 +4,7 @@
 
 .. _osm-overview:
 
-.. image:: images/project_logos/logo-osm.png
+.. image:: ../../images/project_logos/logo-osm.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -25,7 +25,7 @@ Osm2pgsql. Además, datos de ejemplo de la ciudad de Barcelona y numerosos plugi
 Propiedades Fundamentales
 -------------
 
-.. image:: images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

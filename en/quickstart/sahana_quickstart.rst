@@ -4,7 +4,7 @@
 
 .. _sahana-quickstart:
  
-.. image:: images/project_logos/logo-sahana.png
+.. image:: ../../images/project_logos/logo-sahana.png
   :scale: 100 %
   :alt: project logo
   :align: right

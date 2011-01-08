@@ -4,7 +4,7 @@
 
 .. _zygrib-overview:
 
-.. image:: images/project_logos/logo-zygrib.png
+.. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@ zyGrib
 Βασικά Χαρακτηριστικά
 -------------
 
-.. image:: images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

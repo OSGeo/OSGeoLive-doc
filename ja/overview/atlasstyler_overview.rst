@@ -4,7 +4,7 @@
 
 .. _atlasstyler-overview:
 
-.. image:: images/project_logos/logo-AtlasStyler.png
+.. image:: ../../images/project_logos/logo-AtlasStyler.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ AtlasStyler
 
 作成されたSLDファイルは、GeoServer、Ugid、などのOGS SLD標準に準拠したすべてのプログラムとの互換性があります。アプリケーションは簡単にスタイルを作成するための多様な直感的ダイアログを提供します。利用者は、個別値、等分位または等間隔による彩色のように要約した分類を適用できます。加えて、利用者はオンラインのシンボル-データベースへの統合された接続を持ちます。利用者はシンボルエディタを利用してシンボルの作成と保存でき、分類や他のプロジェクトでの再利用できます。
 
-.. image:: images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

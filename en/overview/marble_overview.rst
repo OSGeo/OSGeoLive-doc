@@ -4,7 +4,7 @@
 
 .. _marble-overview:
 
-.. image:: images/project_logos/logo-marble.png
+.. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
   :alt: project logo
   :align: right
@@ -27,7 +27,7 @@ encouraged to include a KDE Marble widget in your application.
 Core Features
 -------------
 
-.. image:: images/screenshots/1024x768/marble-history.png
+.. image:: ../../images/screenshots/1024x768/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

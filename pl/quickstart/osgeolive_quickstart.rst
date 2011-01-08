@@ -32,25 +32,25 @@ Uruchomienie:
 
   Jeśli ustawienia Twojego komputera pozwalają na uruchamianie systemu z napędu CD (a tak jest zazwyczaj) powinien uruchomić się system Xubuntu, z zainstalowanymi aplikacjami Geoprzestrzennymi. Jeśli tak się nie stało, należy dostosować ustawienia BIOS-u lub zaraz po uruchomieniu komputera wcisnąć klawisz wyświetlający menu bootowania.
 
-  .. image:: images/screenshots/800x600/osgeolive_boot.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
   Naciśnij ENTER aby przejść do następnego ekranu.
 
-  .. image:: images/screenshots/800x600/osgeolive_boot_select.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
   Wybierz "live - boot the Live System"
 
-  .. image:: images/screenshots/800x600/osgeolive_login.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
   Na stronie logowania po prostu naciśnij ENTER lub zaczekaj do końca odliczania.
 
-  .. image:: images/screenshots/800x600/osgeolive_menu.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 

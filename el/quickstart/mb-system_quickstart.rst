@@ -4,7 +4,7 @@
 
 .. _mb-system-quickstart:
  
-.. image:: images/project_logos/logo-mb-system.gif
+.. image:: ../../images/project_logos/logo-mb-system.gif
   :scale: 30 %
   :alt: project logo
   :align: right

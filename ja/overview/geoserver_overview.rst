@@ -17,9 +17,9 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
 
-.. image:: images/project_logos/logo-GeoServer.png
+.. image:: ../../images/project_logos/logo-GeoServer.png
   :scale: 100%
   :alt: project logo
   :align: right
@@ -28,10 +28,10 @@
 .. Writing Tip: 
   Include an OSGeo logo if the project is an OSGeo project, or is in
   incubation:
-  .. image:: images/logos/OSGeo_incubation.png
-  .. image:: images/logos/OSGeo_project.png
+  .. image:: ../../images/logos/OSGeo_incubation.png
+  .. image:: ../../images/logos/OSGeo_project.png
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -66,7 +66,7 @@ GeoServerは`Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC)�
 GeoServerは空間情報webの中心部分を形成します. 
 
 
-.. image:: images/screenshots/800x600/geoserver.gif
+.. image:: ../../images/screenshots/800x600/geoserver.gif
   :scale: 60 %
   :alt: GeoServerのスクリーンショット
   :align: right

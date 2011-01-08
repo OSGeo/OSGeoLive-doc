@@ -3,7 +3,7 @@ Download
 
 Die aktuelle stabile Version von OSGeo-Live enthält::
 
-.. image:: images/download_buttons/download-dvd.png
+.. image:: ../images/download_buttons/download-dvd.png
   :width: 144
   :height: 38
   :alt: 4.4 Gigabyte DVD oder USB iso Datei heruntreladen
@@ -14,7 +14,7 @@ Die aktuelle stabile Version von OSGeo-Live enthält::
 
 Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden.
 
-.. image:: images/download_buttons/download-mini.png
+.. image:: ../images/download_buttons/download-mini.png
   :width: 144
   :height: 38
   :alt: 3.2 Gigabyte ISO Datei ohne Windows und MacOS Installationsprogramme herunterladen.
@@ -25,7 +25,7 @@ Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme fü
 
 Der gleiche Inhalt wie osgeo-live-4.0.iso,  mit Ausnahme der Windows- und MacOS-Installationsprogramme. Außerdem kann es auf ein bootfähiges USB-Laufwerk kopiert werden.
 
-.. image:: images/download_buttons/download-vm.png
+.. image:: ../images/download_buttons/download-vm.png
   :width: 144
   :height: 38
   :alt: 7zip Archivdatei einer virtuellen Maschine herunterladen (4GB). 

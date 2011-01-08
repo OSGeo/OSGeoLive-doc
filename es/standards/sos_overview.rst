@@ -16,15 +16,15 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: images/project_logos/logo-OGC-right.png
+.. image:: ../../images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -39,7 +39,7 @@ Sensor Observation Service (SOS)
 
 El estandar OGC Sensor Observation Service (SOS) es un servicio de datos. El estandar OGC SOS define un interface estandarizado y operaciones para el acceso a observaciones desde sensores y sistemas de sensores que es consistente con todos los sistemas, incluyendo remoto, in-situ, fijos y sensores móviles. SOS proporciona resultados de consultas en el formato estandar de observación y medida ( en inglés Observation and Mesurements, O&M)  para modelizar observaciones de sensores y la especificación SensorML para modelizar sensores y sistemas sensor. (http://www.opengeospatial.org/standards/sos)
 
-.. image:: images/standards/sos.jpg
+.. image:: ../../images/standards/sos.jpg
   :scale: 25%
   :alt: SOS in Context
 

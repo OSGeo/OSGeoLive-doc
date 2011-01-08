@@ -16,15 +16,15 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: images/project_logos/logo-OGC-right.png
+.. image:: ../../images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -39,7 +39,7 @@ Web Coverage Service (WCS)
 
 Το πρότυπο Web Coverage Service (WCS) του OGC® ορίζει μια πρότυπη διεπαφή και λειτουργίες που επιτρέπουν διαλειτουργική πρόσβαση σε χωρικά δεδομένα κανάβου (grid coverages). Ο όρος αυτός τυπικά περιγράφει δεδομένα όπως τηλεπισκοπικές απεικονίσεις, δορυφορικές εικόνες, ψηφιακές αεροφωτογραφίες, ψηφιακά μοντέλα εδάφους και άλλα φαινόμενα που μπορούν να αναπαρασταθούν από τιμές σε κάθε σημείο μέτρησης. (http://www.opengeospatial.org/standards/wcs)
 
-.. image:: images/standards/wcs.jpg
+.. image:: ../../images/standards/wcs.jpg
   :scale: 25%
   :alt: WCS in Context
 

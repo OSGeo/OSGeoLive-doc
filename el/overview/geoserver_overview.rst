@@ -4,13 +4,13 @@
 
 .. _geoserver-overview:
 
-.. image:: images/project_logos/logo-GeoServer.png
+.. image:: ../../images/project_logos/logo-GeoServer.png
   :scale: 100%
   :alt: project logo
   :align: right
   :target: http://geoserver.org/display/GEOS/Welcome
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -37,7 +37,7 @@ Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS),
 Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
 Ο GeoServer αποτελεί ένα κεντρικό πυρήνα του Γεωχωρικού Διαδικτυόυ (Geospatial Web). 
 
-.. image:: images/screenshots/800x600/geoserver.gif
+.. image:: ../../images/screenshots/800x600/geoserver.gif
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

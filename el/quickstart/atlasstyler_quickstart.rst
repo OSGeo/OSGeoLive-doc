@@ -3,7 +3,7 @@
 :License: Creative Commons
 
  
-.. image:: images/project_logos/logo-AtlasStyler.png
+.. image:: ../../images/project_logos/logo-AtlasStyler.png
   :scale: 100 %
   :alt: project logo
   :align: right

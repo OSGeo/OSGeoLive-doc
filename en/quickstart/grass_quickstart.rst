@@ -4,7 +4,7 @@
 
 .. _grass-quickstart:
  
-.. image:: images/project_logos/logo-GRASS.png
+.. image:: ../../images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -23,7 +23,7 @@ From the "Welcome to GRASS" window select either the Spearfish or North
 Carolina (nc_spm_08) dataset for the location, and "user1" for the mapset,
 then click on [Start Grass].
 
-.. image:: images/screenshots/800x600/grass-startup.png
+.. image:: ../../images/screenshots/800x600/grass-startup.png
   :scale: 40 %
   :alt: screenshot
   :align: right
@@ -45,7 +45,7 @@ window to move it).
 Displaying maps
 ~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/800x600/grass-layerman.png
+.. image:: ../../images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -68,7 +68,7 @@ You should now see the maps displayed.
 Plot an elevation profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/800x600/grass-profile.png
+.. image:: ../../images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -93,7 +93,7 @@ give your new map a name; adjust any options you like in the Options
 tab (the defaults are fine); and click [Run]. You can then [Close] the
 *r.surf.fractal* module's dialog window.
 
-.. image:: images/screenshots/800x600/grass-fractal.png
+.. image:: ../../images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -121,7 +121,7 @@ should see your map with its new colors.
 Create a shaded relief map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/800x600/grass-shadedrelief.png
+.. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -157,7 +157,7 @@ for display in the box to the left of the layer name. Right click on
 the elev.basins raster map layer name and select "Change opacity level".
 Set it to about 50% then re-render the Map Display.
 
-.. image:: images/screenshots/800x600/grass-watersheds.png
+.. image:: ../../images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -196,7 +196,7 @@ very powerful analyses.
 3D visualization
 ~~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/1024x768/grass-nviz.png
+.. image:: ../../images/screenshots/1024x768/grass-nviz.png
   :scale: 30 %
   :alt: screenshot
   :align: right

@@ -3,7 +3,7 @@ Descarga
 
 La última versión estable de OSGeo Live contiene:
 
-.. image:: images/download_buttons/download-dvd.png
+.. image:: ../images/download_buttons/download-dvd.png
   :alt: Descarga el fichero iso de 4.4GB para USB o DVD
   :align: left
 
@@ -14,7 +14,7 @@ Windows y MacOS. También se puede copiar a una unidad USB de 8GB. Es convenient
 verificar la descarga con la
 `suma MD5 <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
-.. image:: images/download_buttons/download-mini.png
+.. image:: ../images/download_buttons/download-mini.png
   :alt: Descarga el fichero iso de 3.2GB sin instalables para Windows y MacOS
   :align: left
 

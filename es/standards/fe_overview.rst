@@ -16,15 +16,15 @@
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
-    images/project_logos/<filename>
+    ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: images/project_logos/logo-OGC-right.png
+.. image:: ../../images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -40,7 +40,7 @@ Filter Encoding (FE)
 El estandar OGC® Filter Encoding (FE) define una codificación XML para expresar consultas y filtros espaciales con objeto de seleccionar un subconjunto de geometrías (*features*)  en base a unos atributos específicos.
 (http://www.opengeospatial.org/standards/filter)
 
-.. image:: images/standards/fe.jpg
+.. image:: ../../images/standards/fe.jpg
   :scale: 25%
   :alt: Contexto de FE
 

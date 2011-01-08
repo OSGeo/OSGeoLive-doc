@@ -4,14 +4,14 @@
 
 .. _geomajas-overview:
 
-.. image:: images/project_logos/logo-geomajas.png
+.. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
   :align: right
@@ -30,7 +30,7 @@ El foco de Geomajas es proporcionar un plataforma para **integración de lado se
 
 Lo que hace único a Geomajas es la potencia de la parte servidora. El procesado, generación de estilos, filtrado, cacheado, etc. de datos geoespaciales se gestiona dentro de un contexto securizado. Todo esto proporciona rendimiento y escalabilidad al proyecto Geomajas, manteniendo el cliente ligero como un **verdadero cliente ligero**.
 
-.. image:: images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Caso Geomajas 
   :align: right

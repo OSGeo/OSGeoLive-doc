@@ -6,7 +6,7 @@
 
 .. _ossim-quickstart:
  
-.. image:: images/project_logos/logo-ossim.gif
+.. image:: ../../images/project_logos/logo-ossim.gif
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -32,7 +32,7 @@ Imagelinker
 * Επιλέξτε :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Βεβαιωθείτε ότι βλέπετε τρεις μονόχρωμες δορυφορικές εικόνες. 
 
-  .. image:: images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Για το πλήρες εγχειρίδιο δείτε το ακόλουθο `blog article`_.

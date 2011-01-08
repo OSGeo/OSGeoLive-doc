@@ -8,7 +8,7 @@
 
 .. _mapbender-quickstart:
  
-.. image:: images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender.png
   :scale: 100 %Κλίμακα:100%
   :alt: project logoalt:Λογότυπο του τμήματος
   :align: rightΣτοίχιση: Δεξιά
@@ -49,7 +49,7 @@
 
 #. Μπορείτε να συνδεθείτε χρησιμοποιώντας ως user :guilabel:`root` και password :guilabel:`root` (Αυτά είναι τα προεπιλεγμένα user και password τα οποία παίρνει κάποιος μετά την εγκατάσταση τουMapbender. Παρακαλώ αλλάξτε το root password εφόσον επιθυμείτε να τρέξετε ένα παραγωγικό περιβαλλον. Παρακάλώ μην διαγράψετε το χρήστη user :guilabel:`root` καθώς ο χρήστης αυτός έχει πρόσβαση στις εφαρμογές προτύπων του Mapbender και χρησιμοποιείται στις αναβαθμίσεις.
   
-  .. image:: images/screenshots/800x600/mapbender_welcome.png
+  .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
 Μετά από την επιτυχημάνη σύνδεση κατευθύνστε στο :guilabel:`application overview (επισκόπηση εφαρμογών)`.
@@ -61,7 +61,7 @@
 Μετά από την επιτυχημένη σύνδεση κατευθύνστε στην :guilabel:`επισκόπηση εφαρμογών`(application overview) με μια λίστα από εφαρμογές στις οποίες σας επιτρέπεται η πρόσβαση.
 Στο Mapbender  υπάρχουν οι εφαρμογές προτύπων, οι οποίες μπορούν να χρησιμοποιηθούν για το στήσιμο των προσωπικών εφαρμογών.
 
-  .. image:: images/screenshots/800x600/mapbender_application_overview.png
+  .. image:: ../../images/screenshots/800x600/mapbender_application_overview.png
      :scale: 80
 
 Υπάρχουν
@@ -84,12 +84,12 @@
    * admin_en_services - Εστίαση σε διαχείριση WFS και μεταδεδομένων και owsproxy    
    * admin1 - Πρότυπο με όλα τα στοιχεία του διαχειριστή 
 
-  .. image:: images/screenshots/800x600/mapbender_admin2_en.png
+  .. image:: ../../images/screenshots/800x600/mapbender_admin2_en.png
      :scale: 80
 
 .. Χρήσιμη συμβουλή: Μπορείτε να επιστρέψετε στην επισκόπηση της εφαρμογής πατώντας το κουμπί |HOME|.
 
-  .. |HOME| image:: images/screenshots/800x600/mapbender_home.png
+  .. |HOME| image:: ../../images/screenshots/800x600/mapbender_home.png
      :scale: 100Κλίμακα:100%
 
 Χαρτογραφικές εφαρμογές
@@ -102,7 +102,7 @@
    
    *Για παράδειγμα επιλέξτε gui, gui_digitize
      
-  .. image:: images/screenshots/800x600/mapbender_gui_digitize.png
+  .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
 
 .. Χρήσιμη συμβουλή: Άν ο περιηγητής σας υποστηρίζει καρτέλες, τότε μπορείτε να ανοίξετε τις εφαρμογές σε καρτέλες και εύκολα να μεταφέρεστε από τη μία στην άλλη.
@@ -111,7 +111,7 @@ WMS εφαρμογές
 ==========================
 Μπορείτε να δημιουργήσετε μια εφαρμογή που να λειτουργεί ως αποθετήριο για τις υπηρεσίες WMS. WMS οι οποίες δεν είναι για παρουσίαση. Με τα αποθετήρια μπορείτε να δημιουργήσετε ενδιαφέρουσες/ εκλεπτυσμένες υπηρεσίες.
 
-  .. image:: images/screenshots/800x600/mapbender_container.png
+  .. image:: ../../images/screenshots/800x600/mapbender_container.png
      :scale: 60
 
 Δημιουργία προσωπικής εφαρμογής
@@ -147,7 +147,7 @@ WMS εφαρμογές
    * Germany demo http://wms.wheregroup.com/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
    * WhereGroup OSM WMS http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
    
-.. image:: images/screenshots/800x600/mapbender_wms_application_settings.png
+.. image:: ../../images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
 Διαχείριση χρήστη και ομάδας
@@ -163,7 +163,7 @@ WMS εφαρμογές
 
 #. Επιλέξτε ένα όνομα και ένα κωδικό πρόσβασης για το χρήστη σας. 
 
-.. image:: images/screenshots/800x600/mapbender_create_user.png
+.. image:: ../../images/screenshots/800x600/mapbender_create_user.png
      :scale: 80 
 
 
@@ -188,7 +188,7 @@ WMS εφαρμογές
 
 #. Τί συμβαίνει εάν ο χρήστης έχει πρόσβαση σε μία ή περισσότερες εφαρμογές
 
-  .. |LOGOUT| image:: images/screenshots/800x600/mapbender_logout.png
+  .. |LOGOUT| image:: ../../images/screenshots/800x600/mapbender_logout.png
      :scale: 100Κλίμακα:100%
 
 Θέματα προς περαιτέρω μελέτη

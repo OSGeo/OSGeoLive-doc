@@ -8,7 +8,7 @@
 
 .. _mapbender-quickstart:
  
-.. image:: images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -48,7 +48,7 @@ Welcome page
 
 #. You can login with the user :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root` as this user has access to the Mapbender template applications and is used on updates).
   
-  .. image:: images/screenshots/800x600/mapbender_welcome.png
+  .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
 After successful login you are directed to the :guilabel:`application overview`.
@@ -60,7 +60,7 @@ Application overview
 After the login you are directed to the :guilabel:`application overview` with a list of applications you are allowed to access.
 In Mapbender you have template applications, that you can use to set up your own applications.
 
-  .. image:: images/screenshots/800x600/mapbender_application_overview.png
+  .. image:: ../../images/screenshots/800x600/mapbender_application_overview.png
      :scale: 80
 
 There are
@@ -83,12 +83,12 @@ After installation user :guilabel:`root` has access to:
    * admin_en_services - focus on WFS and metadata handling and owsproxy    
    * admin1 - template with all administration elements 
 
-  .. image:: images/screenshots/800x600/mapbender_admin2_en.png
+  .. image:: ../../images/screenshots/800x600/mapbender_admin2_en.png
      :scale: 80
 
 .. tip:: You get back to the application overview with the |HOME| button.
 
-  .. |HOME| image:: images/screenshots/800x600/mapbender_home.png
+  .. |HOME| image:: ../../images/screenshots/800x600/mapbender_home.png
      :scale: 100
 
 Map applications
@@ -101,7 +101,7 @@ Map applications contain OGC WMS, one ore more maps, buttons, a geodata explorer
    
    * choose for example gui, gui_digitize
      
-  .. image:: images/screenshots/800x600/mapbender_gui_digitize.png
+  .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
 
 .. tip:: If your browser supports tabs you can open the applications in tabs and easily switch between them.
@@ -110,7 +110,7 @@ WMS container applications
 ==========================
 You can create a container application to store your WMS. WMS container are not for display. With containers you can create a sophisticated service repository.
 
-  .. image:: images/screenshots/800x600/mapbender_container.png
+  .. image:: ../../images/screenshots/800x600/mapbender_container.png
      :scale: 60
 
 Create an individual application
@@ -146,7 +146,7 @@ You can load OGC Web Map Services (WMS) to your application.
    * Germany demo http://wms.wheregroup.com/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
    * WhereGroup OSM WMS http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
    
-.. image:: images/screenshots/800x600/mapbender_wms_application_settings.png
+.. image:: ../../images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
 User and group management
@@ -162,7 +162,7 @@ There is no inherent difference between roles like :guilabel:`guest`, :guilabel:
 
 #. Choose a name and a password for your user. 
 
-.. image:: images/screenshots/800x600/mapbender_create_user.png
+.. image:: ../../images/screenshots/800x600/mapbender_create_user.png
      :scale: 80 
 
 
@@ -187,7 +187,7 @@ There is no inherent difference between roles like :guilabel:`guest`, :guilabel:
 
 #. What happens when the user has access to one or more than one application?
 
-  .. |LOGOUT| image:: images/screenshots/800x600/mapbender_logout.png
+  .. |LOGOUT| image:: ../../images/screenshots/800x600/mapbender_logout.png
      :scale: 100
 
 Things to try

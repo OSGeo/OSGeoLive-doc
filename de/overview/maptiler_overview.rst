@@ -4,7 +4,7 @@
 
 .. _maptiler-overview:
 
-.. image:: images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-maptiler.png
   :scale: 80 %
   :alt: Projekt Logo
   :align: right

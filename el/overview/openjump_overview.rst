@@ -4,7 +4,7 @@
 
 .. _openjump-overview:
 
-.. image:: images/project_logos/logo-openjump.png
+.. image:: ../../images/project_logos/logo-openjump.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -19,7 +19,7 @@ OpenJUMP GIS
 Το OpenJUMP είναι ένα λογισμικό GIS, ευκολο στη χρήση που επιτρέπει στους χρήστες του την επεξεργασία, ανάλυση, αποθήκευση και οπτικοποίηση γεωγραφικών δεδομένων.
 Είναι επιπλέον ένα εξαιρετικό περιβάλλον για την ανάπτυξη νέων αλγορίθμων σε περιβάλλον GIS.
 
-.. image:: images/screenshots/1024x768/openjump-screenshot.png
+.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: center

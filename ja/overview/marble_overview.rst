@@ -4,7 +4,7 @@
 
 .. _marble-overview:
 
-.. image:: images/project_logos/logo-marble.png
+.. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
   :alt: project logo
   :align: right
@@ -23,7 +23,7 @@ PC上の地球儀に豊富な地図(`OpenStreetMaps <http://www.osm.org>`_を含
 代表的な機能
 -------------
 
-.. image:: images/screenshots/1024x768/marble-history.png
+.. image:: ../../images/screenshots/1024x768/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

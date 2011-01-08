@@ -4,7 +4,7 @@
 
 .. _mapnik-overview:
 
-.. image:: images/project_logos/logo-mapnik.png
+.. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -23,7 +23,7 @@ SVGによるスケーリング可能なシンボル作成などを提供しま�
 Open Street Mapのメインレイヤ描画エンジンとしてよく知られていますが、Web
 で高解像度の地図を配信するPythonアプリケーションにも多く使用されています。
 
-.. image:: images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

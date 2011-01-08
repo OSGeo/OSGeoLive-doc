@@ -4,13 +4,13 @@
 
 .. _openlayers-overview:
 
-.. image:: images/project_logos/logo-OpenLayers-large.png
+.. image:: ../../images/project_logos/logo-OpenLayers-large.png
   :scale: 50 %
   :alt: Projekt Logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -23,7 +23,7 @@ OpenLayers
 Browser GIS Anwendung
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/screenshots/800x600/openlayers-basic.png
+.. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
   :alt: Bildschirmfoto
   :align: right

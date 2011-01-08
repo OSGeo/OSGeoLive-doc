@@ -28,7 +28,7 @@ de OSGeo, y también hay disponible un sistema de
 Soporte comercial
 =====================
 
-.. image:: images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/lisasoftlogo.jpg
   :scale: 100%
   :alt: LISAsoft
 

@@ -4,7 +4,7 @@
 
 .. _gmt-overview:
 
-.. image:: images/project_logos/logo-GMT.gif
+.. image:: ../../images/project_logos/logo-GMT.gif
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -29,7 +29,7 @@ scaling, and comes with support data such as coastlines, rivers, and
 political boundaries.
 
 
-.. image:: images/screenshots/800x600/gmt-example28.png
+.. image:: ../../images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

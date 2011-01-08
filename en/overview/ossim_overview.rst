@@ -4,13 +4,13 @@
 
 .. _ossim-overview:
 
-.. image:: images/project_logos/logo-ossim.gif
+.. image:: ../../images/project_logos/logo-ossim.gif
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.ossim.org/
 
-.. image:: images/logos/OSGeo_project.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -34,7 +34,7 @@ Many command line utilities, GUI applications, and integrated systems have been 
 Core Features
 -------------
 
-.. image:: images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
