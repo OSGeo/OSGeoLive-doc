@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _mapguide-overview:
+.. _mapserver-overview:
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
   :scale: 65 %
