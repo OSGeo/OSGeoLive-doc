@@ -52,7 +52,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.03 (svn)
+**Software Version:** 1.05
 
 **Supported Platforms:** Linux, Windows, Mac
 

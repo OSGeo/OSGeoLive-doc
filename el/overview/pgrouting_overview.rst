@@ -52,7 +52,7 @@ pgRouting
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.03 (svn)
+**Έκδοση Λογισμικού:** 1.05
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows, Mac
 
