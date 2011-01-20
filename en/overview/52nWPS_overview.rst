@@ -20,7 +20,7 @@ Web Service
 The 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ enables web access to geospatial
 processing algorithms provided by Sextane, ArcGIS Server, or custom developed
 functions. Algorithms may be as simple as determining the difference in 
-influenza cases between two different seasons), or as complicated as a global climate change model.
+influenza cases between two different seasons, or as complicated as a global climate change model.
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
