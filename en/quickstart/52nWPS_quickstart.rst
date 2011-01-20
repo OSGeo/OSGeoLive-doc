@@ -1,5 +1,5 @@
 :Author: Kristof Lange
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _52nWPS-quickstart:
