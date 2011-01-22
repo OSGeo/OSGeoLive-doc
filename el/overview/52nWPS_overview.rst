@@ -1,5 +1,5 @@
 :Συγγραφέας: Bastian Schaeffer, Kristof Lange
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _52nWPS-overview:
@@ -60,7 +60,7 @@
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** WPS 2.0 RC5
+**Έκδοση Λογισμικού:** WPS 2.0 RC6
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

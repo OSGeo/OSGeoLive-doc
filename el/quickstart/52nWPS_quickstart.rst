@@ -1,5 +1,5 @@
 :Συγγραφέας: Kristof Lange
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _52nWPS-quickstart:
