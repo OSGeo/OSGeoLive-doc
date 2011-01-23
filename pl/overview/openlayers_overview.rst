@@ -28,7 +28,7 @@ Klient GIS w przeglądarce internetowej
   :alt: screenshot
   :align: right
 
-OpenLayers ułatwia programistom tworzenie na każdej stronie internetowej dynamicznych 
+OpenLayers ułatwia programistom tworzenie - na każdej stronie internetowej - dynamicznych 
 map, wykorzystujących dane z różnych źródeł. OpenLayers dostarcza szerokiego 
 wachlarza narzędzi mapowych oraz widgetów, podobnie jak Google Maps API. 
 Wszystkie funkcje działają wewnątrz przeglądarki internetowej, co sprawia, 
@@ -37,10 +37,10 @@ Wszystkie funkcje działają wewnątrz przeglądarki internetowej, co sprawia,
 Główne funkcje
 -------------
 
-* Proste w użyciu API JavaScript, zaprojektowane aby ułatwić programowanie
+* Proste w użyciu API JavaScript, zaprojektowane aby ułatwić pracę programisty
 * Wsparcie standardów i dostosowanych do potrzeb użytkownika protokołów do interakcji z serwerami
 * Narzędzia do łatwego tworzenia spersonalizowanych interfejsów użytkownika 
-* Wsparcie renderowania danych wewnątrz przeglądarki internetowej(przy użyciu SVG, VML, lub technologii Canvas), wsparcie budowania zaawansowanych map w przeglądarce internetowej
+* Wsparcie renderowania danych wewnątrz przeglądarki internetowej (przy użyciu SVG, VML lub technologii Canvas), wsparcie budowania zaawansowanych map w przeglądarce internetowej
 * Możliwość wczytywania warstw map z różnych źródeł:
   
   * Warstwy komercyjne: Google, Bing, Yahoo
