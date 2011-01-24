@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _ossim-quickstart:
+.. _otb-quickstart:
  
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 80 %
@@ -18,53 +18,34 @@ ORFEO Toolbox library (OTB) is a high performance library for image processing t
 
 This Quick Start describes how to:
 
-  * Build a simple pipeline with OTB
+  * Get metadata informations in an image
+  * Perform mathematical operations between image bands
   * Open raster images with the application monteverdi, perform segmentation (mean-shift clustering) and visualize the result
 
-OTB library
-===========
+The OTB-Applications package provide lot's of interesting tools which facilitate the manipulation of images. All these tools are available through:
 
-OTB is designed to read images, process them and write them to disk or view the result. In this tutorial, we are going to see how to read and write images and the basics of the pipeline system.
+  * CLI : command line interface 
+  * QT GUI : in a standalone graphical user interface 
+  * QGIS plugin : as plugin directly usable in Quantum GIS 
 
-Start by including some necessary headers and with the usual main declaration::
-      
-      #include "otbImage.h" 
-      #include "otbImageFileReader.h" 
-      #include "otbStreamingImageFileWriter.h" 
-      int main(int argc, char ⋆ argv[]) {
+Display metadata informations in an image 
+==========================================
 
-Declare the image as an otb::Image, the pixel type is declared as an unsigned char (one byte) and the image is specified as having two dimensions.::
+You can get all the metadata informations contained in an image with the command : `otbReadImageInfo-cli`
+The unique parameter is the Input image file name, for example : `otbReadImageInfo-cli -in qb_RoadExtract.tif`
 
-        typedef otb::Image<unsigned char, 2> ImageType;
+Calculator on image bands
+=========================
 
-To read the image, we need an otb::ImageFileReader which is templated with the image type.::
+The `otbBandMath-cli` provides an efficient way to perform mathematical operation on monoband images.
+The syntax is quite simple, for example substrating two bands to study the image differences on the images SpotBefore.tif and SpotAfter.tif, just use the command : `otbBandMath-cli -ims SpotBefore.tif SpotAfter.tif -out difference.tif -exp "im1b1-im2b1"`
+The application is able to perform complex mathematical operations over images (threshold, logarithmic rescaling...).
+This homebrewed digital calculator is also bundled with custom functions allowing to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing:
+`otbBandMath-cli -ims qb_RoadExtract.tif -out ndvi.tif -exp "ndvi(im1b3,im1b4)"`
 
-   typedef otb::ImageFileReader<ImageType> ReaderType; 
-   ReaderType::Pointer reader = ReaderType::New();
 
-Then, we need an otb::StreamingImageFileWriter also templated with the image type.::
-
-  typedef otb::StreamingImageFileWriter<ImageType> WriterType; 
-  WriterType::Pointer writer = WriterType::New();
-
-The filenames are passed as arguments to the program. We keep it simple for now and we don’t check their validity.::
-
-  reader->SetFileName(argv[1]); 
-  writer->SetFileName(argv[2]);
-
-Now that we have all the elements, we connect the pipeline, pluging the output of the reader to the input of the writer.::
-
-  writer->SetInput(reader->GetOutput());
-
-And finally, we trigger the pipeline execution calling the Update() method on the last element of the pipeline. The last element will make sure to update all previous elements in the pipeline.::
-
-  writer->Update(); 
- 
-  return EXIT_SUCCESS; 
-  }
-
-Monteverdi
-===========
+Perform segmentation with Monteverdi
+====================================
 
 * Start Monteverdi from its icon from the directory "XXX" on the desktop 
 * Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
@@ -75,6 +56,21 @@ Monteverdi
 * In the main window, right click on the "Clustered Image" in the resulting dataset "MeanShift0" and select "Display in viewer" 
 
   .. image:: ../../images/screenshots/800x600/otb-mean_shift.png
+     :scale: 100 %
+
+Perform supervised classification based on SVM  with Monteverdi
+====================================
+
+* Start Monteverdi from its icon from the directory "XXX" on the desktop 
+* Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
+* Go to the :menuselection:`Learning --> SVM classification`
+* Select the input raster image (Reader0) from the input window selection
+* You can add classes (`Add Class` button), select learning samples by drawing polygons in the 
+* Go to the menuselection:`Setup --> SVM` to set the classification algorithm parameters 
+* Click on the `Learn` button to create a classification model fron the input learning classes 
+* Click on the `Display` button to show the result of the supervised classification on the entire image
+
+  .. image:: ../../images/screenshots/800x600/otb-svm.png
      :scale: 100 %
 
 For the full tutorial see the  `article`_.

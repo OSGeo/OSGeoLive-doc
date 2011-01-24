@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _ossim-overview:
+.. _otb-overview:
 
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 100 %
@@ -23,9 +23,12 @@ OTB
 Image Processing
 ~~~~~~~~~~~~~~~~
 
-ORFEO Toolbox library (OTB) is a high performance library for image processing targeted on remote sensing.
+ORFEO Toolbox library (OTB) is a high performance library for image processing targeting on remote sensing. The main objective is the definition and the development of tools for the operational exploitation of the future submetric optic and radar images (tridimensional aspects, changes detection, texture analyis, pattern matching, optic radar complementarities). It is mainly based on R&D studies and doctorate and post-doctorate researches.
 
-OTB has been funded the French Space Agency (CNES) in the frame of the Methodological Part of the ORFEO Accompaniement Program to prepare, accompany and promote the use and the exploitation of the images derived from Pleiades (PHR) and Cosmo-Skymed (CSK) systems.It has been actively developed since 2006. 
+
+OTB has been funded the French Space Agency (CNES) in the frame of the
+Methodological Part of the ORFEO Accompaniement Program. It has been
+actively developed since 2006.  
 
 OTB is distributed as an open source library of image processing algorithms. OTB is based on the medical image processing library ITK and offers particular functionalities for remote sensing image processing in general and for high spatial resolution images in particular. 
 
@@ -57,7 +60,7 @@ Details
 
 **Website:** http://www.orfeo-toolbox.org/
 
-**Licence:** CeCILL
+**Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to address French law)
 
 **Software Version:** 3.8.0
 
