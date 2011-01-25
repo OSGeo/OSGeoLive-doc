@@ -37,8 +37,8 @@ como muchas de las aplicaciones empaquetadas en él. Más detalles en
 http://www.lisasoft.com/LISAsoft/support.html
 
 Muchas de las aplicaciones empaquetadas tienen tanto soporte de la comunidad
-como soporte comercial. Puede visitar las páginas de los proyectos para ver más
-detalles.
+como soporte comercial. Puede visitar `las páginas  <overview/overview.html>`_
+de los proyectos para ver más detalles.
 
 Además, existe un amplio número de empresas de consultoría en todo el mundo que
 proporcionan soporte a los proyectos que forman parte de OSGeo. Puede buscar en
