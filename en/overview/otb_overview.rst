@@ -23,15 +23,11 @@ OTB
 Image Processing
 ~~~~~~~~~~~~~~~~
 
-ORFEO Toolbox library (OTB) is a high performance library for image processing targeting on remote sensing. The main objective is the definition and the development of tools for the operational exploitation of the future submetric optic and radar images (tridimensional aspects, changes detection, texture analyis, pattern matching, optic radar complementarities). It is mainly based on R&D studies and doctorate and post-doctorate researches.
-
+ORFEO Toolbox library (OTB) is a high performance image processing library. It is primarily used for processing remote sensing images such as those gathered by radars, satellites and aerial photography. OTB provides tools for optic and radar images (tridimensional aspects, changes detection, texture analyis, pattern matching, optic/radar complementarities).
 
 OTB has been funded the French Space Agency (CNES) in the frame of the
 Methodological Part of the ORFEO Accompaniement Program. It has been
-actively developed since 2006.  
-
-OTB is distributed as an open source library of image processing algorithms. OTB is based on the medical image processing library ITK and offers particular functionalities for remote sensing image processing in general and for high spatial resolution images in particular. 
-
+actively developed since 2006. OTB is based on the established medical image processing library ITK and is distributed as open source. 
 
 Core Features
 -------------
@@ -42,8 +38,8 @@ Core Features
   :align: right
 
 * image access: optimized read/write access for most of remote sensing image formats, meta-data access, visualization;
-* orthorectification and Map Projection 
-* calibration functionnalities
+* orthorectification and map reprojection 
+* calibration
 * image fusion
 * filtering: blurring, denoising, enhancement;
 * feature extraction: interest points, alignments, lines;
@@ -62,7 +58,7 @@ Details
 
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to address French law)
 
-**Software Version:** 3.8.0
+**Software Version:** 3.8
 
 **Supported Platforms:** Linux, Mac, Windows
 
