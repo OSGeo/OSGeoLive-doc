@@ -1,8 +1,8 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
-.. _ossim-overview:
+.. _otb-overview:
 
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 100 %
@@ -20,17 +20,16 @@
 OTB
 =====
 
-Image Processing
+Ανάλυση Εικόνας - Τηλεπισκόπηση
 ~~~~~~~~~~~~~~~~
 
-ORFEO Toolbox library (OTB) is a high performance library for image processing targeted on remote sensing.
+Το ORFEO Toolbox (OTB) είναι ένα σύνολο εργαλείων (βιβλιοθήκη) λογισμικού ανάλυσης εικόνας υψηλών επιδόσεων. Η βασική του χρήση είναι για την επεξεργασία τηλεπισκοπικών απεικονίσεων όπως αυτές που συλλέγονται από ραντάρ, δορυφορικούς τηλεπισκοπικούς δέκτες και αερομεταφερόμενους δέκτες (αεροφωτογραφίες). Το OTB παρέχει εργαλεία για οπτικές εικόνες και εικόνες ραντάρ (τρισδιάστατες προοπτικές, ανίχνευση μεταβολών, ανάλυση υφής, συνταύτιση προτύπων, συγχώνευση οπτικών δεδομένων και εικόνων ραντάρ).
 
-OTB has been funded the French Space Agency (CNES) in the frame of the Methodological Part of the ORFEO Accompaniement Program to prepare, accompany and promote the use and the exploitation of the images derived from Pleiades (PHR) and Cosmo-Skymed (CSK) systems.It has been actively developed since 2006. 
+Το OTB ιδρύθηκε από τη Γαλλική Υπηρεσία Διαστήματος (CNES) στα πλαίσια του Μεθοδολογικού Μέρους του 
+προγράμματος ORFEO. Είναι υπό ενεργή ανάπτυξη από το 2006.
+Το OTB βασίζεται στην καθιερωμένη βιβλιοθήκη ιατρικής ανάλυσης εικόνας ITK και είναι ελεύθερο λογισμικό. 
 
-OTB is distributed as an open source library of image processing algorithms. OTB is based on the medical image processing library ITK and offers particular functionalities for remote sensing image processing in general and for high spatial resolution images in particular. 
-
-
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.png
@@ -38,39 +37,39 @@ Core Features
   :alt: screenshot
   :align: right
 
-* image access: optimized read/write access for most of remote sensing image formats, meta-data access, visualization;
-* orthorectification and Map Projection 
-* calibration functionnalities
-* image fusion
-* filtering: blurring, denoising, enhancement;
-* feature extraction: interest points, alignments, lines;
-* object detection
-* image segmentation: region growing, watershed, level sets;
-* classification: K-means, SVM, Markov random fields;
-* object-based image analysis
-* geospatial analysis
-* SAR data analysis
-* change detection.
+* Πρόσβαση εικόνων: Βελτιστοποιημένη είσοδος/έξοδος εικόνας για τα πιο καθιερωμένα ψηφιακά πρότυπα εικόνων τηλεπισκόπησης, πρόσβαση σε μεταδεδομένα και οπτικοποίηση;
+* ορθοαναγωγή και χαρτογραφικός μετασχηματισμός εικόνων 
+* βαθμονόμηση
+* συγχώνευση εικόνων
+* φιλτράρισμα εικόνων: χαμηλοπερατά φίλτρα, μείωση θορύβου, ενίσχυση εικόνας;
+* Εξαγωγή χαρακτηριστικών: σημεία ενδιαφέροντος, γραμμώσεις, γραμμές;
+* Ανίχνευση αντικειμένων
+* Κατάτμηση εικόνας: Αλγόριθμοι αύξησης περιοχών (region growing), μετασχηματισμού υδροκρίτη (watershed), επιπεδοσύνολα (level sets);
+* Ταξινόμηση: Αλγόριθμοι Κ-κέντρων (K-means), Μηχανές Διανυσμάτων Στήριξης (SVM), Τυχαία Πεδία Markov (Markov random fields);
+* Αντικειμενοστρεφής Ανάλυση Εικόνας (OBIA)
+* Χωρική ανάλυση
+* Ανάλυση δεδομένων SAR
+* Ανίχνευση μεταβολών
 
-Details
+Λεπτομέρειες
 -------
 
-**Website:** http://www.orfeo-toolbox.org/
+**Κεντρική Ιστοσελίδα:** http://www.orfeo-toolbox.org/
 
-**Licence:** CeCILL
+**Άδεια:** CeCILL (Η άδεια CeCILL είναι συμβατή με την άδεια GPL και έχει προκύψει για προσαρμογή στο Γαλικό Δίκαιο)
 
-**Software Version:** 3.8.0
+**Έκδοση Λογισμικού:** 3.8
 
-**Supported Platforms:** Linux, Mac, Windows
+**Υποστηριζόμενες Πλατφόρμες:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**Προγραμματιστικές Διεπαφές:** C++
 
-**Commercial Support:** http://www.osgeo.org/search_profile
+**Εμπορική Υποστήριξη:** http://www.osgeo.org/search_profile
 
 
-Quickstart
+Γρήγορη Εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/otb_quickstart.html>`_
+* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/otb_quickstart.html>`_
 
 
