@@ -1,9 +1,9 @@
-:Author: OSGeo Live
-:Author: Manuel Grizonnet
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:Συγγραφέας: Manuel Grizonnet
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons
 
-.. _ossim-quickstart:
+.. _otb-quickstart:
  
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 80 %
@@ -11,89 +11,85 @@
   :align: right
 
 ****************
-OTB Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης OTB 
 ****************
 
-ORFEO Toolbox library (OTB) is a high performance library for image processing targeted on remote sensing.
+Το ORFEO Toolbox (OTB) είναι ένα σύνολο εργαλείων (βιβλιοθληκη) υψηλών επιδόσεων για ανάλυση εικόνας και συγκεκριμένα στοχεύει σε εφαρμογές Τηλεπισκόπησης.
 
-This Quick Start describes how to:
+Αυτό το εγχειρίδιο περιγράφει το πως:
 
-  * Build a simple pipeline with OTB
-  * Open raster images with the application monteverdi, perform segmentation (mean-shift clustering) and visualize the result
+  * Να λάβετε πληροφορίες μεταδεδομένων από μια εικόνα
+  * Να πραγματοποιήσετε μαθηματικές πράξεις μεταξύ καναλιών εικόνων
+  * Να ανοίξετε εικόνες μέσω της εφαρμογής monteverdi, να εκτελέσετε κατάτμηση εικόνας (μέσω του αλγορίθμου mean-shift) και να οπτικοποιήσετε το αποτέλεσμα
 
-OTB library
-===========
+Το πακέτο λογισμικού OTB-Applications παρέχει πολλές και ενδιαφέρουσες εφαρμογές για την διαχείρηση εικόνων. Όλα αυτά τα εργαλεία είναι διαθέσιμα μέσω:
 
-OTB is designed to read images, process them and write them to disk or view the result. In this tutorial, we are going to see how to read and write images and the basics of the pipeline system.
+  * CLI : εντολές κονσόλας 
+  * QT GUI : σε ανεξάρτητο γραφικό περιβάλλον 
+  * QGIS plugin : σαν πρόσθετο στο λογισμικό Quantum GIS 
 
-Start by including some necessary headers and with the usual main declaration::
-      
-      #include "otbImage.h" 
-      #include "otbImageFileReader.h" 
-      #include "otbStreamingImageFileWriter.h" 
-      int main(int argc, char ⋆ argv[]) {
+Εμφάνιση μεταδεδομένων από μια εικόνα 
+==========================================
 
-Declare the image as an otb::Image, the pixel type is declared as an unsigned char (one byte) and the image is specified as having two dimensions.::
+Μπορείτε να λάβετε όλες τις πληροφορίες που περιέχουν τα μεταδεδομένα μιας εικόνας με την εντολή : `otbReadImageInfo-cli`
+Η μοναδική παράμετρος είναι το όνομα αρχείου της εικόνας, για παράδειγμα : `otbReadImageInfo-cli -in qb_RoadExtract.tif`
 
-        typedef otb::Image<unsigned char, 2> ImageType;
+Πράξεις καναλιών εικόνας
+=========================
 
-To read the image, we need an otb::ImageFileReader which is templated with the image type.::
+Η εφαρμογή `otbBandMath-cli` παρέχει έναν αποτελεσματικό τρόπο για την εφαρμογή μαθηματικών τελεστών σε εικόνες με ένα κανάλι.
+Η σύνταξη είναι αρκετά απλή, για παράδειγμα η αφαίρεση δυο καναλιών για να μελετήσουμε τις διαφορές των εικόνων SpotBefore.tif και SpotAfter.tif, απλά χρησιμοποιήστε την εντολή : `otbBandMath-cli -ims SpotBefore.tif SpotAfter.tif -out difference.tif -exp "im1b1-im2b1"`
+Η εφαρμογή είναι ικανή να εκτελέσει περίπλοκες μαθηματικές πράξεις σε εικόνες (κατωφλίωση, λογαριθμική ενίσχυση...).
+Αυτός ο ψηφιακός υπολογιστής εικόνων παρέχεται με έτοιμες ενσωματωμένες ρουτίνες υπολογισμού σύνθετων εκφράσεων. Για παράδειγμα, ενώ οι τηλεπισκοπικές απεικονίσεις καταγράφουν φυσικές τιμές, είναι δυνατόν να εξαχθούν δείκτες με φυσική σημασία όπως ο NDVI (Normalized Difference Vegetation Index) για τη βλάστηση. Με την εφαρμογή / υπολογιστή μπορείτε να υπολογίσετε τον NDVI σε μια πολυφασματική εικόνα με την εκτέλεση της παρακάτω εντολής:
+`otbBandMath-cli -ims qb_RoadExtract.tif -out ndvi.tif -exp "ndvi(im1b3,im1b4)"`
 
-   typedef otb::ImageFileReader<ImageType> ReaderType; 
-   ReaderType::Pointer reader = ReaderType::New();
 
-Then, we need an otb::StreamingImageFileWriter also templated with the image type.::
+Εκτέλεση κατάτμησης με την εφαρμογή Monteverdi
+====================================
 
-  typedef otb::StreamingImageFileWriter<ImageType> WriterType; 
-  WriterType::Pointer writer = WriterType::New();
-
-The filenames are passed as arguments to the program. We keep it simple for now and we don’t check their validity.::
-
-  reader->SetFileName(argv[1]); 
-  writer->SetFileName(argv[2]);
-
-Now that we have all the elements, we connect the pipeline, pluging the output of the reader to the input of the writer.::
-
-  writer->SetInput(reader->GetOutput());
-
-And finally, we trigger the pipeline execution calling the Update() method on the last element of the pipeline. The last element will make sure to update all previous elements in the pipeline.::
-
-  writer->Update(); 
- 
-  return EXIT_SUCCESS; 
-  }
-
-Monteverdi
-===========
-
-* Start Monteverdi from its icon from the directory "XXX" on the desktop 
-* Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
-* Go to the :menuselection:`Filtering --> Mean Shift clustering`
-* Select the input raster image (Reader0) from the input window selection
-* Verify you can tune parameters of the segmentation and see the result on the region of interest by clicking on "Run"
-* Select "Close" when you are satisfied by the result.
-* In the main window, right click on the "Clustered Image" in the resulting dataset "MeanShift0" and select "Display in viewer" 
+* Ξεκινήστε το Monteverdi από το εικονίδιο στο φάκελο "XXX" στην επιφάνεια εργασίας 
+* Επιλέξτε μια ψηφιακή εικόνα με τη χρήση :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
+* Εκτελέστε το  :menuselection:`Filtering --> Mean Shift clustering`
+* Επιλέξτε την αρχική εικόνα (Reader0) από το παράθυρο επιλογής εικόνας εισόδου
+* Βεβαιωθείτε ότι μπορείτε να αλλάξετε τις παραμέτρους της κατάτμησης και να δείτε το αποτέλεσμα στην περιοχή ενδιαφέροντος κάνοντας κλικ στο "Run"
+* Επιλέξτε "Close" όταν είσαστε ικανοποιημένοι από το αποτέλεσμα.
+* Στο κεντρικό παράθυρο, κάντε δεξί κλίκ στο "Clustered Image" στην εικόνα αποτελέσματος "MeanShift0" και επιλέξτε "Display in viewer" 
 
   .. image:: ../../images/screenshots/800x600/otb-mean_shift.png
      :scale: 100 %
 
-For the full tutorial see the  `article`_.
+Εκτέλεση επιβλεπόμενης ταξινόμησης βασισμένης στον αλγόριθμο SVM με το Monteverdi
+====================================
 
-.. _`article`: http://www.orfeo-toolbox.org/otb/monteverdi.html
+* Ξεκινήστε το Monteverdi από το εικονίδιο στο φάκελο "XXX" στην επιφάνεια εργασίας  
+* Επιλέξτε μια ψηφιακή εικόνα με τη χρήση :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
+* Πηγαίνετε στο  :menuselection:`Learning --> SVM classification`
+* Επιλέξτε την αρχική εικόνα (Reader0) από το παράθυρο επιλογής εικόνας εισόδου
+* Μπορείτε να προσθέσετε κατηγορίες (κουμπί `Add Class`), να επιλέξετε δείγματα εκπαίδευσης με τη σχεδίαση πολυγώνων στην εφαρμογή 
+* Πηγαίνετε στο :menuselection:`Setup --> SVM` για να θέσετε τις παραμέτρους του αλγορίθμου ταξινόμησης 
+* Κάντε κλίκ στο κουμπί `Learn` για τη δημιουργία ενός μοντέλου εκπαίδευσης από τις κατηγορίες εισόδου 
+* Κάντε κλίκ στο κουμπί `Display` για να δείτε το αποτέλεσμα της επιβλεπόμενης ταξινόμησης για ολόκληρη την εικόνα
+
+  .. image:: ../../images/screenshots/800x600/otb-svm.png
+     :scale: 100 %
+
+Για την πλήρη διαδικασία δείτε το `άρθρο`_.
+
+.. _`άρθρο`: http://www.orfeo-toolbox.org/otb/monteverdi.html
 
 
-What Next?
+Τι ακολουθεί;
 ==========
 
-* OTB Tutorials
+* Εγχειρίδια OTB
 
-  Follow the tutorials_ to learn more about OTB.
+  Ακολουθήστε τα εγχειρίδια_ για να μάθετε περισσότερα για το OTB.
 
-.. _tutorials: http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II
+.. _εγχειρίδια: http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II
 
-* Documentation on DVD
+* Εγχειρίδια στο DVD
 
-  See also the included documentation_ on this DVD.
+  Δείτε επίσης τα εγχειρίδια_ σε αυτό το DVD.
 
-.. _documentation: file:///usr/local/share/otb/
+.. _εγχειρίδια: file:///usr/local/share/otb/
 
