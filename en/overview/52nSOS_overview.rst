@@ -39,10 +39,12 @@ Core Features
 * DescribeSensor, for requesting information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
 
 The transactional profile comprising of the following operations is implemented, too:
+
 * RegisterSensor, for signing up new sensors.
 * InsertObservation, for inserting new observations for registered sensors.
 
 Additionally, the following operations are implemented:
+
 * GetResult, for periodically polling of sensor data
 * GetObservationById
 * GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
