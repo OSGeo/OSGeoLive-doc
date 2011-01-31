@@ -1,5 +1,5 @@
 :Author: Astrid Emde
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _mapbender-overview:
@@ -81,7 +81,7 @@ Details
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Software Version:** 2.6.2
+**Software Version:** 2.7
 
 **Supported Platforms:** Windows, Linux, Mac
 
