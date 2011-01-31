@@ -1,5 +1,5 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Author: Gavin Treadgold
+:Version: osgeo-live4.5draft
 :License: Creative Commons
 
 .. _sahana-overview:
@@ -10,69 +10,51 @@
   :align: right
   :target: http://www.sahanafoundation.org
 
+Sahana Eden
+===========
 
-Sahana Agasti
-=============
+Disaster Management Platform
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Disaster management web service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Sahana is a Free and Open Source Disaster Management system. It is
-a web based collaboration tool that addresses the common coordination
-problems during a disaster from finding missing people, managing aid,
-managing volunteers, tracking camps effectively between Government
-groups, the civil society (NGOs) and the victims themselves.
-
-The Sahana project was initiated by volunteers in the Sri Lankan FOSS
-development community to help their fellow countrymen and
-countrywomen affected during the 2004 Asian Tsunami in December 2004.
-The system was officially used by the Government of Sri Lanka and the
-system was released as Free and Open Source software. Subsequently a
-re-write as a generic disaster management tools was incubated with
-the sponsorship of the Swedish International Development Agency, IBM, the US National Science Foundation and it has been used by
-dozens of Governments and NGOs since then.
+Sahana Eden is a Family of Applications to Help You Help Others. Solutions are available for Disaster Management, Emergency Management, Development, Humanitarian and Environmental sectors. Free and Open Source means that it is easily Customisable and Extensible. Sahana Eden is also able to integrate with other solutions and can provide a management/ticketing interface around crowd-sourced data - such as that collected in Ushahidi. 
 
 .. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right
 
-
 Core Features
 -------------
 
-* Situation Mapping
-* Missing Person Registry
-* Disaster Victim Registry
-* Organization Registry
-* Request/Aid Management
-* Shelter Registry
-* Inventory Management
-* Volunteer Management
-* Messaging Module
-* Catalog System
-* Reporting System
+* Mapping - Situation Awareness & Geospatial Analysis.
+* Requests Management - Tracks requests for aid and matches them against donors who have pledged aid.
+* Volunteer Management - Manage volunteers by capturing their skills, availability and allocation.
+* Missing Persons Registry - Report and Search for Missing Persons.
+* Disaster Victim Identification.
+* Shelter Registry - Tracks the location, distibution, capacity and breakdown of victims in Shelters.
+* Hospital Management System - Hospitals can share information on resources & needs.
+* Organization Registry - "Who is doing What & Where". Allows relief agencies to coordinate their activities.
+* Ticketing - Master Message Log to process incoming reports & requests.
+* Messaging - Sends & Receives Alerts via Email & SMS.
+* Document Library - A library of digital resources, such as Photos & Office documents.
+* Ushahidi Integration - Able to integrate data from Ushahidi 
 
+Demo
+----
+
+* `Sahana Eden demo <http://demo.eden.sahanafoundation.org/>`_
 
 Details
 -------
 
-**Website:** http://www.sahanafoundation.org
-
-**Licence:** GNU Lesser General Public License (LGPL) version 2.1
-
-**Software Version:** 0.6.4
-
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
-
-**API Interfaces:** Web, PHP (Sahana Agasti), Python (Sahana Eden)
-
-**Support:** http://www.sahanafoundation.org/support
-
+**Website:** http://eden.sahanafoundation.org/
+**Licence:** MIT License
+**Software Version:** 0.5.3
+**Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows
+**API Interfaces:** Web, Python
+**Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
 
 Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/sahana_quickstart.html>`_
-
-
