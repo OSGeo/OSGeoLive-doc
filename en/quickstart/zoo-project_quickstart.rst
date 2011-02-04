@@ -23,7 +23,7 @@ Running
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: center
   
   
 *	Click on the map to select a feature from the GeoServer WFS Server, the feature will be displayed in blue, then click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow.
@@ -31,7 +31,7 @@ Running
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: center
   
 
 *	Now select another feature near the first you've selected then click on multiple geometries process button Union, Intersection, Symmetric Difference or Difference to get the result displayed in red on the map.
@@ -39,7 +39,7 @@ Running
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: center
 
 
 *	You can build your own requests and send them to the ZOO Kernel from the following page:
