@@ -39,7 +39,7 @@ Core Features
 -------------
 
 * Command-line utilities for data translation, image warping, subsetting, and various other common tasks
-* Highly efficiency raster data access, taking advantage of tiling and overviews
+* Highly efficient raster data access, taking advantage of tiling and overviews
 * Support for large files - larger than 4GB
 * Library access from Python, Java, C#, Ruby, VB6 and Perl
 * Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate system descriptions
@@ -57,7 +57,7 @@ These include:
 Implemented Standards
 ---------------------
 
-The OGR vector data model closely aligned with OGC Simple Features.
+The OGR vector data model is compliant with the OGC Simple Features specification.
 
 Details
 -------
