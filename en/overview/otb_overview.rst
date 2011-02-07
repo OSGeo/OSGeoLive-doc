@@ -2,18 +2,19 @@
 
 .. _otb-overview:
 
-.. image:: ../../images/project_logos/logo-otb.png :scale: 100 % :alt:
-  project logo :align: right :target: http://www.orfeo-toolbox.org/
+.. image:: ../../images/project_logos/logo-otb.png
+  :scale: 100 %
+  :alt: project logo
+  :align: right
+  :target: http://www.orfeo-toolbox.org/
 
-.. image:: ../../images/logos/OSGeo_project.png :scale: 100 % :alt:
-  OSGeo Project :align: right :target: http://www.osgeo.org
+OTB
+===
 
+Image Processing
+~~~~~~~~~~~~~~~~
 
-OTB =====
-
-Image Processing ~~~~~~~~~~~~~~~~
-
-ORFEO Toolbox library (OTB) is a high performance image processing
+ORFEO Toolbox Library (OTB) is a high performance image processing
 library. It is primarily used for processing remote sensing images
 such as those gathered by radars, satellites and aerial
 photography. OTB provides tools for the future optic and radar images
@@ -21,14 +22,17 @@ photography. OTB provides tools for the future optic and radar images
 matching, optic/radar complementarities).
 
 OTB has been funded the French Space Agency (CNES) in the frame of the
-Methodological Part of the ORFEO Accompaniement Program. It has been
-actively developed since 2006. OTB is based on the established medical
+Methodological Part of the ORFEO Accompaniement Program and has been
+actively developed since 2006. It is based on the established medical
 image processing library ITK and is distributed as open source.
 
-Core Features -------------
+Core Features
+-------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.png :scale: 50
-  % :alt: screenshot :align: right
+.. image:: ../../images/screenshots/800x600/otb-mapping.png
+  :scale: 80 %
+  :alt: screenshot
+  :align: right
 
 * image access: optimized read/write access for most remote sensing
   image formats, meta-data access and visualization;
@@ -45,7 +49,8 @@ Core Features -------------
 * SAR data analysis
 * change detection.
 
-Details -------
+Details
+-------
 
 **Website:** http://www.orfeo-toolbox.org/
 
@@ -61,8 +66,8 @@ Details -------
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart ----------
+Quickstart
+----------
 
 * `Quickstart documentation <../quickstart/otb_quickstart.html>`_
-
 
