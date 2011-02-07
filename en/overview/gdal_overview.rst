@@ -19,16 +19,14 @@
 GDAL/OGR
 ========
 
-Transformation Library
-~~~~~~~~~~~~~~~~~~~~~~
+GeoSpatial Data Translation Tools
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geospatial Data Abstraction Library (GDAL/OGR) is a cross platform C++ translator library 
-for raster and vector geospatial data formats that is released under an X/MIT style Open 
-Source license by the Open Source Geospatial Foundation. As a library, it presents a single abstract data model to the calling application for all supported formats. It also comes with a variety of useful commandline utilities for data translation and processing.
+Geospatial Data Abstraction Library (GDAL/OGR) provides command-line utilities to translate and process a wide range of raster and vector geospatial data formats.
 
-GDAL supports over 50 raster formats, and OGR over 20 vector formats.
+The utilities are based upon a cross platform, C++ library, accessible via numerous programming languages.  As a library, it presents a single abstract data model to the calling application for all supported formats.
 
-It provides the primary data access engine for many applications including MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS. GDAL/OGR is the most widely used geospatial data access library.
+GDAL/OGR is the most widely used geospatial data access library. It provides the primary data access engine for many applications including MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
 
 .. TBD: Insert an image here
