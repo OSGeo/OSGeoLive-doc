@@ -14,55 +14,64 @@
 52°North SOS
 =============
 
-Web Service
+Introduction
 ~~~~~~~~~~~
 
 The 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
-aggregates readings from live, in-situ and remote sensors. The service provides 
-an interface to make sensors and sensor data archives accessible via an 
-interoperable web based interface. Four profiles are defined within the SOS 
-specification: core, transactional, enhanced, and entire. The current release 
-(52N-SOS-3.1.1) implements the core, transactional, and parts of the enhanced 
-profile comprising the mandatory operations. The current release implements the 
-latest schema version (1.0.0).
-
-
+supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
+be a camera on a satellite, a water level meter in a stream or (another 
+example).
+  
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
   :scale: 50 %
   :alt: screenshot of sos test client
   :align: right
 
-Core Features
+Features
 -------------
+
+The current 52°North SOS (version 3.1.1) implements the core, transactional, and 
+parts of the enhanced profile of the SOS specification. The current 
+release implements the latest schema version (1.0.0).
+
+**Core SOS operations**:
+
 * GetCapabilities, for requesting a self-description of the service.
 * GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M)
-* DescribeSensor, for requesting information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
+* DescribeSensor, for requesting meta information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
 
-The transactional profile comprising of the following operations is implemented, too:
+**Transactional SOS operations**:
 
 * RegisterSensor, for signing up new sensors.
 * InsertObservation, for inserting new observations for registered sensors.
 
-Additionally, the following operations are implemented:
+**Additional SOS operations**:
 
-* GetResult, for periodically polling of sensor data
-* GetObservationById
+* GetResult, for facilitating periodically polling sensor data
+* GetObservationById, for retrieving specific individual observations
 * GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
-* GetFeatureOfInterestTime
+* GetFeatureOfInterestTime, for determining the temporal availability of sensor data
 
-* A browser based client
+**Client**:
+
+A browser based test client `is available <http://localhost:8080/52nSOSv3.1.1/>`_ with the following features:
+
+* Graphical User Interface (see screenshot)
+* Test XML queries
+* For each operation mentioned above an example is provided
+* XML syntax highlighting 
 
 Implemented Standards
 ---------------------
 
-* OGC Sensor Observation Service (SOS)
+* `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
 
 Details
 -------
 
 * **Website:** http://52north.org/communities/sensorweb/sos
 
-* **Licence:** GPL
+* **Licence:** GNU GPL v2.0
 
 * **Software Version:** SOS 3.1.1
 
@@ -70,12 +79,24 @@ Details
 
 * **API Interfaces:** Java
 
-* **Commercial Support:** http://www.52north.org/
+* **Commercial Support:** http://52north.org/
 
+* **Community Support:** http://sensorweb.forum.52north.org/
 
-Quickstart
-----------
+* **Community Website:** http://52north.org/communities/sensorweb/
+
+Additional Information
+----------------------
 
 * `Quickstart documentation <../quickstart/52nSOS_quickstart.html>`_
+
+* The development of this version of the 52°North SOS was supported by the European FP7 research project `EO2HEAVEN <http://www.eo2heaven.org/>`_ 
+  (co-funded by the European Commission under the under grant agreement n°244100):
+
+.. image:: ../../images/project_logos/logo_52North_other_200px.png
+  :scale: 100 %
+  :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
+  :align: center
+  :target: http://www.eo2heaven.org/
 
 
