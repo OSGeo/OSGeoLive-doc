@@ -15,24 +15,32 @@
 =============
 
 Introduction
-~~~~~~~~~~~
+~~~~~~~~~~~~
 
 The 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
 supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
-be a camera on a satellite, a water level meter in a stream or (another 
-example).
-  
+be a camera on a satellite or a water level meter in a stream.
+ 
+.. Comment: I've removed the following line. We usually don't mention sponsors in Overviews. Mentioning sponsors is valuable if the sponsor is a big, risk adverse organisation, which indicates that the project is would have needed to be developed to very strict quality standards, and/or the sponsor is committed to long term support of the project. "Research" is usually seen in a negative light when people are assessing whether to deploy a project.
+  The development of this version of the 52°North SOS was supported by the European FP7 research project `EO2HEAVEN <http://www.eo2heaven.org/>`_ 
+  (co-funded by the European Commission under the under grant agreement n°244100):
+  .. image:: ../../images/project_logos/logo_52North_other_200px.png
+  :scale: 100 %
+  :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
+  :align: center
+  :target: http://www.eo2heaven.org/
+
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
   :scale: 50 %
   :alt: screenshot of sos test client
   :align: right
 
 Features
--------------
+--------
 
 The current 52°North SOS (version 3.1.1) implements the core, transactional, and 
 parts of the enhanced profile of the SOS specification. The current 
-release implements the latest schema version (1.0.0).
+release implements the latest schema version (1.0.0) and the following operations:
 
 **Core SOS operations**:
 
@@ -47,19 +55,14 @@ release implements the latest schema version (1.0.0).
 
 **Additional SOS operations**:
 
-* GetResult, for facilitating periodically polling sensor data
-* GetObservationById, for retrieving specific individual observations
+* GetResult, for facilitating periodically polling sensor data.
+* GetObservationById, for retrieving specific individual observations.
 * GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
 * GetFeatureOfInterestTime, for determining the temporal availability of sensor data
 
 **Client**:
 
-A browser based test client `is available <http://localhost:8080/52nSOSv3.1.1/>`_ with the following features:
-
-* Graphical User Interface (see screenshot)
-* Test XML queries
-* For each operation mentioned above an example is provided
-* XML syntax highlighting 
+* A browser based client provides test XML queries for all supported operations.
 
 Implemented Standards
 ---------------------
@@ -85,18 +88,8 @@ Details
 
 * **Community Website:** http://52north.org/communities/sensorweb/
 
-Additional Information
-----------------------
+Quickstart
+----------
 
 * `Quickstart documentation <../quickstart/52nSOS_quickstart.html>`_
-
-* The development of this version of the 52°North SOS was supported by the European FP7 research project `EO2HEAVEN <http://www.eo2heaven.org/>`_ 
-  (co-funded by the European Commission under the under grant agreement n°244100):
-
-.. image:: ../../images/project_logos/logo_52North_other_200px.png
-  :scale: 100 %
-  :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
-  :align: center
-  :target: http://www.eo2heaven.org/
-
 
