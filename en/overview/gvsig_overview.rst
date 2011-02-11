@@ -109,7 +109,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.10 (beta)
+**Software Version:** 1.10
 
 **Supported Platforms:** Windows, Linux, Mac
 
