@@ -1,5 +1,5 @@
 :Author: OSGeo Live
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _qgis_mapserver-overview:
@@ -47,6 +47,8 @@ Details
 **Website:** http://karlinapp.ethz.ch/qgis_wms/
 
 **Licence:** GPL
+
+**Software Version:** 1.6.0
 
 **Supported Platforms:** Windows, Linux
 
