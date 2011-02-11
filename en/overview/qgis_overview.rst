@@ -1,5 +1,5 @@
 :Author: OSGeo Live
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _qgis-overview:
@@ -19,17 +19,6 @@
 
 Quantum GIS
 ===========
-
-.. Writing Tip:
-  Application Category Description:
-  * Spatial Database
-  * Web Service
-  * Metadata Web Service
-  * Desktop GIS
-  * Browser GIS client
-  * Business Intelligence
-  * GIS Tools
-  * ...
 
 Desktop GIS
 ~~~~~~~~~~~
@@ -96,7 +85,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.5.0
+**Software Version:** 1.6.0
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
