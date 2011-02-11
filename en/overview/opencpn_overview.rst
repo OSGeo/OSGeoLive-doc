@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _opencpn-overview:
@@ -50,7 +50,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1.624a
+**Software Version:** 2.3.1
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
