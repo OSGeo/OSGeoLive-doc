@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _mb-system-overview:
@@ -57,7 +57,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 5.1.2
+**Software Version:** 5.2.1880
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows (with Cygwin)
 
