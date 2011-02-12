@@ -1,12 +1,12 @@
 Willkommen auf der OSGeo Live GIS DVD.
 
 
-AUf dem Desktopo finden Sie einen Hilfe Button, über den
+Auf dem Desktop finden Sie einen Hilfe Button, über den
 Informationen über die Live DVD und virtuelle Maschine abgerufen
-werden können. Außerdem erhalten Sie hier Informationen zu den
-Softwareprojekten und eine Reihe an Tutorials.
+werden können. Außerdem finden Sie hier Informationen zu den
+Softwareprojekten und eine Reihe Tutorials.
 
-Um die Sprache zu ändern müssen Sie sich abmelden. Unterhalb des
+Um die Sprache zu ändern, müssen Sie sich abmelden. Unterhalb des
 Anmeldefensters finden Sie das Menü zur Sprachauswahl.  Nach dem
 erneuten Anmelden (das Paßwort ist "user") finden Sie ein
 Flaggensymbol im Menü, über das die Tastaturbelegung ausgewählt
@@ -27,6 +27,7 @@ anschließend das Paßwort "user" ein.
 Das FAQ finden Sie hier:
   http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
 
-Happy mapping!
 
+
+Happy mapping!
 Das OSGeo Live GIS Team
