@@ -1,5 +1,5 @@
 :Author: Gérald Fenoy
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _zoo-overview:
@@ -79,7 +79,7 @@ Details
 
 **Licence:** MIT x/11
 
-**Software Version:** 1.0
+**Software Version:** 1.2.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
