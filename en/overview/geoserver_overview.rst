@@ -24,7 +24,7 @@ Web Service
 
 GeoServer is a web server that allows you to serve maps and data from
 a variety of formats to standard clients such as web browsers and desk
-top GIS programs. This means that you can store your spatial data is
+top GIS programs. This means that you can store your spatial data in
 almost any `format
 <http://docs.geoserver.org/stable/en/user/data/index.html>`_ you prefer but that your users do not need to know
 anything about GIS data. At the simplest level all they need is a web
