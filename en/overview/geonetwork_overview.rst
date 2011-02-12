@@ -37,7 +37,7 @@ Core Features
 * Recently updated entries are accessible as RSS news feeds and as GeoRSS.
 * Online editing of metadata with a powerful template system
 * Native support for ISO19115/ISO19119/ISO19139/ISO19110, FGDC and Dublin Core formatted metadata
-* Scheduled harvesting and synchronization of metadata between distributed catalogues (GeoNetwork, CSW, OGC WxS, Z39.50, WebDav, ArcSDE, Thredds)
+* Scheduled harvesting and synchronization of metadata between distributed catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, Z39.50, WebDav, ArcSDE, Thredds, OGC WFS Features)
 * Fine-grained access control
 * Group and user management
 * Multi-lingual user interface
@@ -63,7 +63,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.4
+**Software Version:** 2.6.x
 
 **Supported Platforms:** Windows, Linux, Mac
 
