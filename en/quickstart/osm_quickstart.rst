@@ -48,7 +48,7 @@ Further reading
 * Online tutorial: http://www.use-it.be/europe/docs/OSMmanual/
 * User guide: http://wiki.openstreetmap.org/wiki/JOSM/Guide
 * `Video tutorial <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
-* Open the sample data with :menuselection:`File --> Open... --> /usr/local/share/osm/Barcelona.osm.bz2`
+* Open the sample data with :menuselection:`File --> Open... --> /usr/local/share/data/osm/Sample_city.osm.bz2`
 * Further instructions are given when you launch the application.
 
 
@@ -77,7 +77,7 @@ Import it with:
 
 ::
 
-  bzip2 -dc /usr/local/share/osm/Barcelona.osm.bz2 | gosmore rebuild
+  bzip2 -dc /usr/local/share/data/osm/Sample_city.osm.bz2 | gosmore rebuild
 
 This will create gosmore.pak.
 
@@ -102,15 +102,15 @@ Example:
 
 ::
 
-  cp /usr/local/share/osm/Barcelona.osm.bz2 .
-  bzip2 -d Barcelona.osm.bz2
-  osmarender Barcelona.osm
+  cp /usr/local/share/data/osm/Sample_city.osm.bz2 .
+  bzip2 -d Sample_city.osm.bz2
+  osmarender Sample_city.osm
 
 You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
 
 ::
 
-  firefox Barcelona.svg
+  firefox Sample_city.svg
 
 
 osm2pgsql
