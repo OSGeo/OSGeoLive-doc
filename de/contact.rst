@@ -17,10 +17,10 @@ Archive mit einer Suchfunktion werden gehostet von
 
 IRC-Anwender finden in den Chaträumen #osgeolive oder #osgeo auf Freenode.net Unterstützung.
 
-Eine Fülle von Informationen steht auf der
- `Wikiseite <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_ zur Verfügung und ein 
+Eine Fülle von Informationen ist auf der
+ `Wikiseite <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_ verfügbar und ein 
  `Tracking System für Probleme und Wünsche <a href="https://trac.osgeo.org/osgeo/report/10>`_
-steht ebenso zur Verfügung.
+steht ebenso bereit.
 
 
 Kommerzieller Support
@@ -35,6 +35,6 @@ weitere Informationen unter:
 http://www.lisasoft.com/LISAsoft/support.html
 
 Für viele der enthaltenen Softwarepakete gibt es sowohl Unterstützung durch die Community als auch kommerziellen Support. Besuchen Sie die Webseiten der Softwareprojekte für weitergehende Informationen.
-Darüber hinaus gibt es eine große Auswahl von Unternehmen die Support für OSGeo Mitgliedprojekte anbieten.
+Darüber hinaus gibt es eine große Auswahl von Unternehmen, die Support für OSGeo Projekte anbieten.
 Unter http://www.osgeo.org/search_profile können Sie ein Unternehmen finden, das Ihren Anforderungen entspricht.
 
