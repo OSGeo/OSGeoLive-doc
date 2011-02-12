@@ -3,13 +3,13 @@ Kontakt
 
 
 Die Entwicklung von OSGeo Live wird mittels Email und Chat (IRC) organisiert. Details hierzu wurden im 
-`OSGeo Wiki<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_ zusammengetragen.
+`OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_ zusammengetragen.
 
 
 Community-Support
 =================
 
-Bei Fragen, Hinweisen oder bei Problemen mit der DVD schreiben Sie bitte an `unsere Mailingliste<http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
+Bei Fragen, Hinweisen oder bei Problemen mit der DVD schreiben Sie bitte an `unsere Mailingliste <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Archive mit einer Suchfunktion werden gehostet von
 `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ und
