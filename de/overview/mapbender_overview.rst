@@ -39,8 +39,8 @@ Mapbender gibt dem GDI Management durch die alleinige Nutzung eines Standard Web
   :align: right
 
 
-Hauptmerkmale
--------------
+Kernfunktionen
+--------------
 
 * leichtes Erzeugen von Web Mapping Anwendungen über Anwendungsvorlagen
 
@@ -83,12 +83,12 @@ Details
 
 **Software Version:** 2.7
 
-**Unterstützte Plattformen:** Windows, Linux, Mac
+**Unterstützte Betriebssysteme:** Windows, Linux, Mac
 
 **Support:** http://www.mapbender.org/Support
 
 
-Schnelleinstieg
+Schnellstart
 ---------------
 
 * `Schnelleinstieg Dokumentation <../quickstart/mapbender_quickstart.html>`_
