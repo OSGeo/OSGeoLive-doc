@@ -22,11 +22,11 @@ MapServer
 
 Internet Dienste
 ~~~~~~~~~~~~~~~~
-MapServer ist eine `Open Source <http://www.opensource.org>`_ Software zur Visualisierung von räumlichen Daten, die in der Sprache C geschrieben ist. Neben der Anzeige von Geodaten können MapServer Anwendungen den Nutzer über die Karte zu thematischen Inhalten weiterleiten. Beispielsweise stellt der Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ seinen Nutzern mehr als 10000 Webseiten, Berichten und Karten über einen einzige Anwendung zur Verfügung. Die Anwendung dient als Kartenkomponente und verlinkt auf andere Bereiche der Seite. Sie stellt je nach Thema einen räumlichen Kontext her. 
+MapServer ist eine `Open Source <http://www.opensource.org>`_ Software zur Visualisierung von räumlichen Daten, die in der Sprache C geschrieben wurde. Neben der Anzeige von Geodaten können MapServer Anwendungen den Nutzer über die Karte zu thematischen Inhalten weiterleiten. Beispielsweise stellt der Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ seinen Nutzern mehr als 10000 Webseiten, Berichte und Karten über eine einzige Anwendung zur Verfügung. Die Anwendung dient als Kartenkomponente und verlinkt auf andere Bereiche der Seite. Sie stellt je nach Thema einen räumlichen Kontext her. 
 
 MapServer wurde ursprünglich durch das ForNet Projekt an der Universität von Minnesota (UMN) in Zusammenarbeit mit der NASA und dem Minnesota Department of Natural Resources (MNDNR) entwickelt. Danach wurde MapServer vom NASA-finanzierten TerraSIP-Projekt getragen, in dem die University of Minnesota mit einem Konsortium für Bodenordnung und Landentwicklung zusammenarbeitete.
 
-MapServer ist nun ein Projekt der `OSGeo <http://www.osgeo.org>`_, und wird von einer wachsenden Anzahl an Entwicklern (etwa 20), die weltweit vertreten sind,  betreut. Das Projekt wird von diversen Organisationen unterstützt, die die Unterhaltung und Erweiterungen unterstützten. MapServer wird innerhalb der OSGeo durch das MapServer Project Steering Committee admi istriert, das sich aus Entwicklern und engagierten Mitwirkenden zusammensetzt.
+MapServer ist nun ein Projekt der `OSGeo <http://www.osgeo.org>`_ und wird von einer wachsenden Anzahl an Entwicklern (etwa 20), die weltweit vertreten sind,  betreut. Das Projekt wird von diversen Organisationen unterstützt, die die Unterhaltung und Weiterentwicklung unterstützten. MapServer wird innerhalb der OSGeo durch das MapServer Project Steering Committee administriert, das sich aus Entwicklern und engagierten Mitwirkenden zusammensetzt.
 
 
 Kernfunktionen
@@ -43,7 +43,7 @@ Kernfunktionen
   * Objektbeschriftungen mit Vermeidung von Überlappungen
   * vollständig anpassbare und vorlagenbasierte Ausgabe
   * TrueType Schriften
-  * Renerierung von Kartenelementen (Maßstabsleiste, Referenzkarte, Legende)
+  * Generierung von Kartenelementen (Maßstabsleiste, Referenzkarte, Legende)
   * Thematische Karten durch die Nutzung von logischen Klassen oder über reguläre Ausdrücke definierte Klassen
 
 * Unterstützung verbreiteter Skriptsprachen und Entwicklungsumgebungen
@@ -67,7 +67,7 @@ Kernfunktionen
 Implementierte Standards
 ---------------------
 
-* Unterstützung diverser Open Geospatial Consortium (OGC) standards
+* Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards
 
   * WMS (Client/Server), nicht-transaktionaler WFS (Client/Server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
