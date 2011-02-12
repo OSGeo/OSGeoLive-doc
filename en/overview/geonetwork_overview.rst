@@ -37,7 +37,7 @@ Core Features
 * Recently updated entries are accessible as RSS news feeds and as GeoRSS.
 * Online editing of metadata with a powerful template system
 * Native support for ISO19115/ISO19119/ISO19139/ISO19110, FGDC and Dublin Core formatted metadata
-* Scheduled harvesting and synchronization of metadata between distributed catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, Z39.50, WebDav, ArcSDE, Thredds, OGC WFS Features)
+* Scheduled harvesting and synchronization of metadata between distributed catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, Z39.50, WebDav, ArcSDE, Thredds, OGC WFS Features, OAI-PMH)
 * Fine-grained access control
 * Group and user management
 * Multi-lingual user interface
@@ -50,6 +50,7 @@ Implemented Standards
 * Open Archives Initiatives (OAI-PMH)
 * Z39.50 
 * OpenSearch-Geo
+* OAI-PMH
 * Metadata standards:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles
