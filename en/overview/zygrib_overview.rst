@@ -42,7 +42,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 3.9.2
+**Software Version:** 3.9.9.1
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
