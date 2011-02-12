@@ -35,15 +35,15 @@ Start |GN|
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-firstviews.png
 
-- To get to know |GN| we are going to load the sample metadata. Log in to |GN| using the username admin and password admin in the dedicated fields on the top right corner, then click the login button.
+- To get to know |GN| we are going to load the sample metadata. Log in to |GN| using the username *admin* and password *admin* in the dedicated fields on the top right corner, then click the login button.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-login.png
 
-- You should now see an 'Administration' link in the banner. Click on it.
+- You should now see an *Administration* link in the banner. Click on it.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-administration-banner.png
 
-- When the 'Administration' page appears, scroll to the bottom of the page and load the sample data by clicking on the 'Add sample metadata' button.
+- When the *Administration* page appears, scroll to the bottom of the page and load the sample data by clicking on the 'Add sample metadata' button.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-addsampledatabutton.png
 
@@ -214,11 +214,11 @@ maximum of four sections can be consulted, as shown below.
     
         *The interactive map viewer*
 
-#. **Graphic Overviews**: There are small and large overviews of the map used to properly evaluate usefulness of the data, especially if the interactive map is not available. Simply click on the sma.. figure to enlarge it.
+#. **Graphic Overviews**: There are small and large overviews of the map used to properly evaluate usefulness of the data, especially if the interactive map is not available. Simply click on the small figure to enlarge it.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-thumbnail.png
     
-        *Large previ.. figure*
+        *Large figure (graphic overview)*
 
 Privileges, roles and user groups
 ---------------------------------
@@ -242,5 +242,5 @@ To log in, simply go to the home page and enter your username and password in th
 More information
 ----------------
 
-Click on the 'Help' link on the main page or go there directly by clicking on this link: http://localhost:8880/geonetwork/docs/eng/users/index.html
+Click on the 'Help' link in the banner of the GeoNetwork home page or go there directly by clicking on this link: http://localhost:8880/geonetwork/docs/eng/users/index.html
 
