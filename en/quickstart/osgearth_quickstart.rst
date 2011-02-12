@@ -21,27 +21,20 @@ osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_.
 This Quick Start describes how to start a 3D globe with different overlays.
 
 
-Running osgearth_simple
+Running osgearth_viewer
 =======================
 
-* Open a console and start the osgearth simple viewer::
+* Open a console and start the osgearth viewer::
 
-   osgearth_simple --window 50 50 900 700
+   export OSG_FILE_PATH=/usr/share/osgearth
+   osgearth_viewer --window 50 50 900 700 --sky /usr/share/osgearth/maps/srtm.earth
 
-* Press '1'-'5' for predefined viewpoints.
+You should see a globe with satellite imagery.
+
 * Click to navigate; right-click or scroll wheel to zoom in and out.
 * Drag mouse with left+right click for tilt.
+* Press 'h' for help.
 * hit the 'escape' key to quit 
-
-
-Overlay a WMS Service
-=====================
-
-* In a console, type::
-
-   osgearth_simple --window 50 50 900 700 /usr/share/osgearth/maps/nexrad.earth
-
-You should see a globe with radar data over some parts of North America.
 
 
 Running osgviewer with an OpenStreetMap overlay
@@ -49,7 +42,6 @@ Running osgviewer with an OpenStreetMap overlay
 
 * In a console, type::
 
-   export OSG_FILE_PATH=/usr/share/osgearth
    osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
 *  Press 'h' for help. See also openscenegraph.org_ for more help.
