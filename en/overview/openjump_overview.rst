@@ -72,7 +72,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.4.0.3
+**Software Version:** 1.4.0.1
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
