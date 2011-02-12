@@ -1,5 +1,5 @@
 :Author: Gavin Treadgold
-:Version: osgeo-live4.5draft
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _sahana-overview:
@@ -16,7 +16,21 @@ Sahana Eden
 Disaster Management Platform
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sahana Eden is a Family of Applications to Help You Help Others. Solutions are available for Disaster Management, Emergency Management, Development, Humanitarian and Environmental sectors. Free and Open Source means that it is easily Customisable and Extensible. Sahana Eden is also able to integrate with other solutions and can provide a management/ticketing interface around crowd-sourced data - such as that collected in Ushahidi. 
+Sahana Eden is a Family of Applications to Help You Help Others.
+It provides web based collaboration tools that addresses the common coordination problems faced during a disaster including finding missing people, managing aid, 
+managing volunteers, and tracking camps effectively between Government 
+groups, the civil society (NGOs) and the victims themselves. 
+
+Solutions are available for Disaster Management, Emergency Management, Development, Humanitarian and Environmental sectors. Free and Open Source means that it is easily Customisable and Extensible. Sahana Eden is also able to integrate with other solutions and can provide a management/ticketing interface around crowd-sourced data - such as that collected in the Ushahidi incident mapping application. 
+
+The Sahana project was initiated by volunteers in the Sri Lankan FOSS 
+development community to help their fellow countrymen and 
+countrywomen affected during the 2004 Asian Tsunami in December 2004. 
+The system was officially used by the Government of Sri Lanka and the 
+system was released as Free and Open Source software. Subsequently a 
+re-write as a generic disaster management tools was incubated with 
+the sponsorship of the Swedish International Development Agency, IBM, the US National Science Foundation and it has been used by 
+dozens of Governments and NGOs since then.
 
 .. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
@@ -48,10 +62,15 @@ Details
 -------
 
 **Website:** http://eden.sahanafoundation.org/
+
 **Licence:** MIT License
+
 **Software Version:** 0.5.3
+
 **Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows
+
 **API Interfaces:** Web, Python
+
 **Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
 
 Quickstart
