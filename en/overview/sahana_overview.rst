@@ -65,7 +65,7 @@ Details
 
 **Licence:** MIT License
 
-**Software Version:** 0.5.3
+**Software Version:** 0.5.4
 
 **Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows
 
