@@ -91,6 +91,6 @@ Details
 Schnellstart
 ---------------
 
-* `Schnelleinstieg Dokumentation <../quickstart/mapbender_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/mapbender_quickstart.html>`_
 
 
