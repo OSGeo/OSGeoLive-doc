@@ -19,8 +19,8 @@ Getting Started
 
 Sahana Eden is already installed and configured when you start OSGeo Live. To access Sahana Eden, `click here <http://127.0.0.1:8000/eden>`_, or click on the Geospatial menu, then Crisis Management, then Sahana Eden. By default, you will have view-only rights to access the data. If you wish to create new records, or edit existing records, you will need to be logged in as a user - use the following credentials to get started.
 
-* Username: sahana
-* Password: sahana 
+* Username: admin
+* Password: admin
 
 If you have entered example crowd-sourced data in Ushahidi, then you can access that information in Sahana Eden by `following this link <http://127.0.0.1:8000/eden/irs/ireport/ushahidi>`_. 
 
