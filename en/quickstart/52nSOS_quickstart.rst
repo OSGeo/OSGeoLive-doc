@@ -26,7 +26,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
 
 
   .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
-    :scale: 50 %
+    :scale: 70 %
     :alt: screenshot of 52°North SOS test client
     :align: center
   
@@ -37,7 +37,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
 4) Push the **Send button** [2] and the request will be transmitted to the 52°North SOS. As result, a XML document is returned (see Fig. 2), which shows a the capabilities of the SOS (available data,...).
 
   .. image:: ../../images/screenshots/1024x768/52n_sos_response.png
-    :scale: 50 %
+    :scale: 70 %
     :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
     :align: center
   
@@ -63,7 +63,6 @@ Additional Information
 * When the SOS is not available, please check if the tomcat servlet engine is running using the following command:
 
   .. code-block:: shell
-
     user@osgeolive:~$ sudo /etc/init.d/tomcat6 status
      * Tomcat servlet engine is running with pid 1234          <-- Tomcat is running
     [...]
