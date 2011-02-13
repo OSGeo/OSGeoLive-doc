@@ -403,7 +403,7 @@ Here are some additional challenges for you to try:
 #. Try to create an individual application - change the background-color, move the buttons, change the size of the map (element mapframe1). :menuselection:`Application Management --> Edit application elements`.
 
 
-What next?
+What Next?
 ==========
 
 This is only the first step on the road to using Mapbender. There is a lot more functionality you can try.
