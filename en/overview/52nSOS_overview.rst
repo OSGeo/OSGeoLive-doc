@@ -14,24 +14,15 @@
 52°North SOS
 =============
 
-Introduction
-~~~~~~~~~~~~
+Web Service
+~~~~~~~~~~~
 
 The 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
 supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
 be a camera on a satellite or a water level meter in a stream.
  
-.. Comment: I've removed the following line. We usually don't mention sponsors in Overviews. Mentioning sponsors is valuable if the sponsor is a big, risk adverse organisation, which indicates that the project is would have needed to be developed to very strict quality standards, and/or the sponsor is committed to long term support of the project. "Research" is usually seen in a negative light when people are assessing whether to deploy a project.
-  The development of this version of the 52°North SOS was supported by the European FP7 research project `EO2HEAVEN <http://www.eo2heaven.org/>`_ 
-  (co-funded by the European Commission under the under grant agreement n°244100):
-  .. image:: ../../images/project_logos/logo_52North_other_200px.png
-  :scale: 100 %
-  :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
-  :align: center
-  :target: http://www.eo2heaven.org/
-
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: screenshot of sos test client
   :align: right
 
