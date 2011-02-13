@@ -1,5 +1,5 @@
 :Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _geonetwork-overview:
@@ -37,7 +37,7 @@ GeoNetwork
 * Οι πρόσφατα ενημερωμένες εγγραφές παρέχονται μέσω υπηρεσιών ειδήσεων RSS και σαν υπηρεσία GeoRSS.
 * Διαδικτυακή επεξεργασία μεταδεδομένων με ισχυρό σύστημα προτύπων
 * Εγγενής υποστήριξη για το πρότυπα μεταδεδομένων ISO19115/ISO19119/ISO19139/ISO19110, FGDC και Dublin Core
-* Προγραμματισμένη συγκομιδή και συγχρονισμός μεταδεδομένων μεταξύ κατανεμημένων καταλόγων (GeoNetwork, CSW, OGC WxS, Z39.50, WebDav, ArcSDE, Thredds)
+* Προγραμματισμένη συγκομιδή και συγχρονισμός μεταδεδομένων μεταξύ κατανεμημένων καταλόγων (GeoNetwork, CSW, OGC WxS GetCapabilities, Z39.50, WebDav, ArcSDE, Thredds, OGC WFS Features, OAI-PMH)
 * Λεπτομερής διαχείρηση δικαιωμάτων πρόσβασης
 * Διαχείρηση χρηστών και ομάδων
 * Γραφικό περιβάλλον σε πολλές γλώσσες
@@ -50,6 +50,7 @@ GeoNetwork
 * Open Archives Initiatives (OAI-PMH)
 * Z39.50 
 * OpenSearch-Geo
+* OAI-PMH
 * Πρότυπα μεταδεδομένων:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 και προφίλ ISO
@@ -63,7 +64,7 @@ GeoNetwork
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.4
+**Έκδοση Λογισμικού:** 2.6.x
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

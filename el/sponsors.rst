@@ -13,6 +13,13 @@
 
 Το Κέντρο Πληροφοριών για το Περιβάλλον του Davis παρέχει υλικούς πόρους για την υποστήριξης ανάπτυξης του OSGeo Live DVD.
 
+.. image:: ../images/logos/debiangis_mollweide.png
+  :scale: 30 %
+  :alt: Τα προγράμματα DebianGIS και UbuntuGIS
+  :target: http://wiki.debian.org/DebianGis
+
+Τα προγράμματα DebianGIS και UbuntuGIS παρέχουν και ελέγχουν την ποιότητα πολλών βασικών πακέτων λογισμικών.
+
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: Το Κυβερνητικό Γραφείο Διαχείρησης Χωρικών Δεδομένων της Αυστραλίας
   :target: http://www.osdm.gov.au

@@ -1,5 +1,5 @@
 :Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _grass-overview:
@@ -51,7 +51,7 @@ GRASS GIS
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 6.4.0RC6
+**Έκδοση Λογισμικού:** 6.4.0
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 

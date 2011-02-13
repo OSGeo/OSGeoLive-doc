@@ -1,5 +1,5 @@
 :Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _r-overview:
@@ -48,7 +48,7 @@ R Spatial Task View
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 2.11.1
+**Έκδοση Λογισμικού:** 2.12.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 

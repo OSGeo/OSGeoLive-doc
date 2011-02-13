@@ -21,6 +21,15 @@
 
 Το ίδιο με το osgeo-live-4.0.iso, με τη διαφορά ότι δεν περιλαμβάνει τις εγκαταστάσεις για  Windows και Mac και μπορεί να αντιγραφεί σε USB αυτόματης εκκίνησης  μεγέθους 4 Gig. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeolive-4.0.1.iso.md5>`_.
 
+.. image:: ../images/download_buttons/download-vm.png
+  :alt: Κατεβάστε το αρχείο 7-zip μεγέθους 2.6 Gigabyte μιας εικονικής μηχανής χωρίς αρχεία εγκατάστασης Windows και Mac
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/4.0.1/osgeo-live-4.0.1-vm.7z
+
+`osgeo-live-4.0.1-vm.7z: 2.6 Gig <http://download.osgeo.org/livedvd/release/4.0.1/osgeo-live-4.0.1-vm.7z>`_
+
+Εικονική μηχανή (.vmdk) κατάλληλη για χρήση με τα VirtualBox, VMWare, KVM και άλλα λογισμικά εικονικών μηχανών. Δεν περιλαμβάνει προγράμματα εγκατάστασης για windows και mac. Επιβεβαιώστε το αρχείο με το `md5sum <http://download.osgeo.org/livedvd/release/4.0.1/osgeo-live-4.0.1.7z.md5>`_.
+
 Για μια πλήρη λίστα από εκδόσεις αρχείων, επιλογές μεταφόρτωσης και εναλλακτικούς παρόχους μεταφόρτωσης επισκεφθείτε: http://download.osgeo.org/livedvd
 
 [*] `Ελλάχιστοι προτεινόμενοι πόροι συστήματος: μνήμη 512MB RAM, συμβατός επεξεργαστής 1GHz i688. Δεν απαιτείται σκληρός δίσκος. Οι χρήστες Mac θα εποφεληθούν από ένα ποντίκι USB.`

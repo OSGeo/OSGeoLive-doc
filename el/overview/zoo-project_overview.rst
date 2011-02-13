@@ -1,5 +1,5 @@
 :Συγγραφέας: Gérald Fenoy
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _zoo-overview:
@@ -78,7 +78,7 @@ ZOO Project
 
 **Άδεια:** MIT x/11
 
-**Έκδοση Λογισμικού:** 1.0
+**Έκδοση Λογισμικού:** 1.2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

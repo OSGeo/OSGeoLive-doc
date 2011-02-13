@@ -1,5 +1,5 @@
 :Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _gvsig-overview:
@@ -102,7 +102,7 @@ gvSIG Desktop
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.10 (beta)
+**Έκδοση Λογισμικού:** 1.10 
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

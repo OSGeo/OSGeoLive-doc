@@ -1,5 +1,5 @@
 :Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _opencpn-overview:
@@ -50,7 +50,7 @@ OpenCPN
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.1.624a
+**Έκδοση Λογισμικού:** 2.3.1
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 

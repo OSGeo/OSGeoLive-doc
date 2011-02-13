@@ -1,5 +1,5 @@
 :Συγγραφέας: Pirmin Kalberer
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _osgearth-overview:
@@ -71,7 +71,7 @@ osgEarth
 
 **Άδεια:** GNU Lesser General Public License (LGPL) 
 
-**Έκδοση Λογισμικού:** 1.3
+**Έκδοση Λογισμικού:** 2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 

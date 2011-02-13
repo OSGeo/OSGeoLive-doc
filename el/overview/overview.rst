@@ -52,11 +52,13 @@
 
 Χωρικά Εργαλεία
 -------------
-* :doc:`geokettle_overview` - Ενοποίηση δεδομένων
+* :doc:`gdal_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart.html>`_] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
+* :doc:`gmt_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart.html>`_] - Χαρτογραφική Σύνθεση
 * :doc:`mapnik_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart.html>`_] - Χαρτογραφική Σύνθεση
+* :doc:`otb_overview` - [`Γρήγορη Εκκίνηση <../quickstart/otb_quickstart.html>`_] - Ανάλυση Εικόνας
 * :doc:`maptiler_overview` - Τετραγωνίδια Χαρτών
 * :doc:`R_overview` - Στατιστικός Προγραμματισμός
-* :doc:`gmt_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart.html>`_] - Χαρτογραφική Σύνθεση
+* :doc:`geokettle_overview` - Ενοποίηση δεδομένων
 
 Διαδικτυακές Υπηρεσίες
 ------------
@@ -67,6 +69,7 @@
 * :doc:`qgis_mapserver_overview`
 * :doc:`geonetwork_overview` - Υπηρεσία Καταλόγου
 * :doc:`52nWPS_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
+* :doc:`52nSOS_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
 Δοκιμές

@@ -1,5 +1,5 @@
 :Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _qgis_mapserver-overview:
@@ -47,6 +47,8 @@ QGIS mapserver
 **Κεντρική Ιστοσελίδα:** http://karlinapp.ethz.ch/qgis_wms/
 
 **Άδεια:** GPL
+
+**Έκδοση Λογισμικού:** 1.6.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 

@@ -1,5 +1,5 @@
 :Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _openlayers-overview:
@@ -60,7 +60,7 @@ OpenLayers
 
 **Άδεια:** στύλ MIT
 
-**Έκδοση Λογισμικού:** 2.9.1
+**Έκδοση Λογισμικού:** 2.10
 
 **Προγραμματιστική διεπαφή:** JavaScript
 

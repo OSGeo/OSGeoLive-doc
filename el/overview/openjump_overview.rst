@@ -1,5 +1,5 @@
 :Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _openjump-overview:
@@ -71,7 +71,7 @@ OpenJUMP GIS
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.3
+**Έκδοση Λογισμικού:** 1.4.0.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 

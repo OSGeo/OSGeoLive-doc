@@ -1,5 +1,5 @@
 :Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _osm-overview:
@@ -63,13 +63,13 @@ JOSM περιλαμβάνονται.
 
 **Εκδόσεις Λογισμικού:**
 
-* JOSM: Τελευταία δοκιμαστική (svn r3329)
+* JOSM: Τελευταία δοκιμαστική (svn r3751)
 
 * Merkaartor: 0.14+
 
 * Gosmore: 2009/06/24
 
-* Osmarender: SVN μέσα του 2010
+* Osmarender: SVN αρχές του 2011
 
 * osm2pgsql: 0.69 (svn r22215)
 

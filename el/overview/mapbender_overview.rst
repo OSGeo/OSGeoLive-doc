@@ -1,5 +1,5 @@
 :Συγγραφέας: Astrid Emde
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _mapbender-overview:
@@ -81,7 +81,7 @@ Mapbender
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Έκδοση Λογισμικού:** 2.6.2
+**Έκδοση Λογισμικού:** 2.7
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

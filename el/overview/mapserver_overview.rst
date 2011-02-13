@@ -1,5 +1,5 @@
 :Συγγραφέας: Alan Boudreault
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _mapguide-overview:
@@ -81,7 +81,7 @@ MapServer
 Τεκμηρίωση
 -------------
 
-* `Τεκμηρίωση MapServer 5.6.5 <file:///usr/local/share/mapserver/doc/index.html>`_
+* `Τεκμηρίωση MapServer 5.6.6 <file:///usr/local/share/mapserver/doc/index.html>`_
 
 
 Λεπτομέρειες
@@ -91,7 +91,7 @@ MapServer
 
 **Άδεια:** `άδεια τύπου MIT <http://mapserver.org/copyright.html#license>`_
 
-**Έκδοση Λογισμικού:** 5.6.5
+**Έκδοση Λογισμικού:** 5.6.6
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

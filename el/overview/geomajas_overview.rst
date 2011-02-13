@@ -1,5 +1,5 @@
 :Συγγραφέας: Pieter De Graef
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _geomajas-overview:
@@ -60,7 +60,7 @@ Geomajas
 
 **Άδεια:** AGPL
 
-**Έκδοση Λογισμικού:** 1.6
+**Έκδοση Λογισμικού:** 1.8
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
