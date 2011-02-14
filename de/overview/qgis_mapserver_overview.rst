@@ -11,14 +11,14 @@
   :target: http://karlinapp.ethz.ch/qgis_wms/
 
 
-QGIS mapserver
+QGIS Mapserver
 ==============
 
-Internet Dienste
-~~~~~~~~~~~~~~~~
+Web Service
+~~~~~~~~~~~
 
-QGIS mapserver stellt einen Web Map Service (WMS) basierend auf Bibliotheken der Quantum GIS (QGIS) Desktop Anwendung zur Verfügung.
-Durch die enge Kopplung an QGIS können Karten leicht durch das Kopieren der QGIS Prjektdatei in das Server-Verzeichnis in Web Map Services exportiert werden. Die Visualisierung im Kartendienst entspricht dabei genau der im Desktop GIS.
+QGIS Mapserver stellt einen Web Map Service (WMS) auf Basis von Bibliotheken der Software Quantum GIS (QGIS) zur Verfügung.
+Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-Anwendung einfach als WMS bereitgestellt werden können, indem die QGIS Projektdatei in das entsprechende Serververzeichnis kopiert werden. Dabei sieht die Karte im Internet genauso aus, wie auf dem Desktop.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
@@ -29,11 +29,11 @@ Durch die enge Kopplung an QGIS können Karten leicht durch das Kopieren der QGI
 Kernfunktionen
 -------------
 
-* Web Map Service (WMS) Implementation
-* Guter Einsatz in Verbindung mit dem Desktop GIS (QGIS)
-* Einfach zu handhaben
-* Unterstützung von Styled Layer Descriptor (SLD)
-* Erweiteret kartographische Darstellung
+* Web Map Service (WMS) Implementierung
+* Gute Integration mit dem Desktop GIS (QGIS)
+* Einfach zu benutzen
+* Unterstützt Styled Layer Descriptor (SLD)
+* Fortgeschrittene kartographische Darstellung
 
 Implementierte Standards
 ---------------------
@@ -50,6 +50,6 @@ Details
 
 **Software Version:** 1.6.0
 
-**Unterstützte Betriebssysteme:** Windows, Linux
+**Unterstützte Plattformen:** Windows, Linux
 
-**Support:** http://www.sourcepole.com/
+**Kommerzieller Support:** http://www.sourcepole.com/
