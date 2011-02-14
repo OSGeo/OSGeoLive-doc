@@ -1,27 +1,8 @@
-.. Writing Tip:
-  Writing tips describe what content should be in the following section.
-  The postgis_overview.rst document is used as a reference example
-  for other overviews.
-  All other overviews should remove the writing tips in order to make the
-  overview documents easier to translate.
-
-.. Writing Tip:
-  Metadata about this document
 :Author: OSGeo Live
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
-
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
-.. _postigs-overview:
-
-.. Writing Tip:
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
+.. _naturalearth-overview:
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
@@ -29,55 +10,16 @@
   :align: right
   :target: http://postgis.refractions.net/
 
-.. Writing Tip:
-  Include an OSGeo logo if the project is an OSGeo project, or is in
-  incubation. OSGeo projects are listed on this page: http://www.osgeo.org/
-  .. image:: images/logos/OSGeo_incubation.png
-  .. image:: images/logos/OSGeo_project.png
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+Natural Earth
+=============
 
-.. Writing Tip: Name of application
+Map Data
+~~~~~~~~
 
-PostGIS
-=======
+Natural Earth provides cartographers an off-the shelf solution for creating small-scale world, regional, and country maps at 1:10-, 1:50-, and 1:110- million scales. Both political (administrative) and physical (natural) features are included and vector line work perfectly registers with included raster data.
 
-.. Writing Tip:
-  Application Category Description:
-
-Spatial Database
-~~~~~~~~~~~~~~~~
-
-.. Writing Tip:
-  Address user questions of "What does the application do?",
-  "When would I use it?", "Why would I use it over other applications?",
-  "How mature is the application and how widely deployed is it?".
-  Don't mention licence or open source in this section.
-  Target audience is a GIS practitioner or student who is new to Open Source.
-  * First sentence should explain the application.
-  * Usually the application domain will not be familiar to readers. So the
-    next line or two should explain the domain. Eg: For GeoKettle, the next
-    line or two should explain what GoeSpatial Business Intelligence is.
-  * Remaining paragraph or 2 in this overview section should provide a
-    wider description and advantages from a user perspective.
-
-PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
-
-PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk adverse government agencies and organisations storing terrabytes of data serving millions of web requests per day.
-
-Database administration is available via pgAdmin, phpPgAdmin, among others. Importing and exporting data is provided by various converter tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). And there are numerous desktop and browser GIS clients for viewing PostGIS data.
-
-.. Writing Tip:
-  Provide a image of the application which will typically be a screen shot
-  or a collage of screen shots.
-  Store image in image/<application>_<name>.gif . Eg: udig_main_page.gif
-  Screenshots should be captured from a 1024x768 display.
-  Don't include the desktop background as this changes with each release
-  and will become dated.
+Natural Earth solves a problem that many cartographers face: finding vector data for making publication-quality small-scale maps at the appropriate level of detail for the maps they are making.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.gif
   :scale: 55 %
@@ -87,42 +29,38 @@ Database administration is available via pgAdmin, phpPgAdmin, among others. Impo
 Core Features
 -------------
 
-* Hundreds of spatial functions
-  
-  * Buffers, unions, overlays, distance and more
+* Vector features include name and other attributes        
+* Large polygons are split for more efficient data handling such as bathymetric layers.   
+* Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data  points for smooth bending in conic projections, but not so many that computer processing speed suffers.
+* Raster data includes grayscale-shaded relief and cross-blended hypsometric tints derived from the latest NASA SRTM Plus elevation data and tailored to register with Natural Earth Vector.
+* Optimized for use in web mapping applications, such as Google or Yahoo, with built-in scale attributes to direct features to be shown at different zoom levels.
 
-* ACID transactional integrity
-* R-Tree spatial index
-* Multi-user support
-* Row-level locking
-* Replication
-* Partitioning
-* Role-based security
-* Table-spaces, schemas
 
-Implemented Standards
----------------------
+Data Sets
+---------
 
-.. Writing Tip: List OGC or related standards supported.
+Cultural Vector Data Themes:
+  Include countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings.
 
-* OGC standards compliant (SFSQL)
+Physical Vector Data Themes:
+  Include coastline, land, ocean, minor islands, reefs, physical region features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, bathymetry, geographic lines, and graticles.
+
+Raster Data Themes:
+  Greyscale shaded relief, cross blended hypsometric tints, satellite-derived land cover data, idealized world environment, ocean bottom, and bathymetry. Optional baked in content includes: land cover, shaded relief, ocean water, and drainages with lakes.
+
 
 Details
 -------
 
-**Website:** http://postgis.refractions.net/
+**Website:** http://naturalearthdata.com
 
-**Licence:** GNU General Public License (GPL) version 2
+**License:** None, the data is public domain.
 
-**Software Version:** 1.5
+**Data Version:** 1.3.1
 
-**Supported Platforms:** Windows, Linux, Mac
+**Data format:** SHP and TIF+TFW
 
-**API Interfaces:** SQL
+**Spatial coordinate system:** WGS84.
 
-.. Writing Tip:
-  Link to webpage which lists the primary support details for the application,
-  preferably this would list both community and commercial contacts.
-
-**Support:** http://www.osgeo.org/search_profile
+**Support:** http://naturalearthdata.com/forums/
 
