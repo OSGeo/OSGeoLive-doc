@@ -50,7 +50,7 @@ Core Features
 Implemented Standards
 ---------------------
 
-* OGC Web Map Service (WMS) 1.1.0, 1.1.1
+* OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
 Details
