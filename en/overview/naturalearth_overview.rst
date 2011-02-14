@@ -4,11 +4,11 @@
 
 .. _naturalearth-overview:
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: ../../images/project_logos/logo-naturalearth.png
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://postgis.refractions.net/
+  :target: http://www.naturalearthdata.com/
 
 
 Natural Earth
@@ -17,11 +17,11 @@ Natural Earth
 Map Data
 ~~~~~~~~
 
-Natural Earth provides cartographers an off-the shelf solution for creating small-scale world, regional, and country maps at 1:10-, 1:50-, and 1:110- million scales. Both political (administrative) and physical (natural) features are included and vector line work perfectly registers with included raster data.
+Natural Earth provides cartographers an off-the shelf solution for creating small-scale world, regional, and country maps at 1:10-, 1:50-, and 1:110- million scales. Both political (administrative) and physical (natural) features are included and vector features align perfectly with included raster data.
 
-Natural Earth solves a problem that many cartographers face: finding vector data for making publication-quality small-scale maps at the appropriate level of detail for the maps they are making.
+Natural Earth solves the common problem that many cartographers face: finding vector data for making publication-quality small-scale maps at the appropriate level of detail for the maps they are making.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/1024x768/naturalearth.gif
   :scale: 55 %
   :alt: project logo
   :align: right
@@ -40,7 +40,7 @@ Data Sets
 ---------
 
 Cultural Vector Data Themes:
-  Include countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings.
+  Includes countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings.
 
 Physical Vector Data Themes:
   Include coastline, land, ocean, minor islands, reefs, physical region features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, bathymetry, geographic lines, and graticles.
