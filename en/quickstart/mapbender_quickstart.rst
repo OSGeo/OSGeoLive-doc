@@ -81,9 +81,11 @@ Administration applications
 Each :guilabel:`administration application` provides different functionality. Later on your can set up your own :guilabel:`administration applications` with the functionality you would like to provide.
 
 After installation user :guilabel:`root` has access to:
+   * ADMINISTRATION, ADMINISTRATION_DE - WMS, WFS, application, user/group, handling (new in version 2.7)
    * admin2_en - WMS, application, user/group handling
    * admin_en_services - focus on WFS and metadata handling and owsproxy    
-   * admin1 - template with all administration elements 
+   * admin1 - template with all administration elements
+   * admin_wms_metadata, admin_wfs_metadata, admin_wmc_metadata - metadata handling 
 
 The following image shows admin2_en. At the left side you can see the menu with the possibilities which this application offers.
 
@@ -138,7 +140,6 @@ Create an individual application
 Copy or rename an application
 =============================
 You also can create a new application by copying an existing application. Go to :menuselection:`Application Management --> Rename/copy application`, choose the application you want to copy and define a name for the new application. This functionality not only copies the application, it also copies the services of the application and the user/groups (optional). That means that the new application already has map services and the user and groups which have access to the copied application will have access to the new application too.
-
 
 Delete an application
 =====================
