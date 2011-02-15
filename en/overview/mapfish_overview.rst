@@ -37,7 +37,7 @@ MapFish also provides a complete RIA-oriented JavaScript toolbox, a JavaScript
 testing environment, and tools for compressing JavaScript code. The JavaScript
 toolbox is composed of the `ExtJS <http://extjs.com>`_, `OpenLayers
 <http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ JavaScript
-toolkits, and specific components for interacting with MapFish web services.
+toolkits.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
   :scale: 50 %
@@ -57,9 +57,9 @@ Details
 
 **Website:** http://www.mapfish.org
 
-**Licence:** GNU General Public License (GPL) version 3
+**Licence:** BSD License
 
-**Software Version:** 1.2
+**Software Version:** 2.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
