@@ -18,9 +18,9 @@ Rasdaman
 Multi-Dimensional Raster Database
 =================================
 
-Rasdaman extends standard relational databases to provide storage and retrieval of multi-dimensional raster data arrays of unlimited size using an SQL-style query language.  Rasdaman can be quickly configured to provide flexible, fast and scalable services for sensor, image and statistical data. It can be queried using OGC standards based interfaces for WCS, WCPS, and WPS as well as using its own raster query language.
+Rasdaman extends standard relational databases to provide storage and retrieval of multi-dimensional raster data arrays of unlimited size using an SQL-style query language.  Rasdaman is stable and mature and has been deployed in production systems for over 10 years. E.g. It is used for storage and processing of 13-Terabyte aerial map of the National Geographic Institute France. Rona Machlin (ACM, PoDS) described rasdaman as "the most comprehensive implementation of such a system". Rasdaman can be quickly configured to provide flexible, fast and scalable services for sensor, image and statistical data. It can be queried using OGC standards based interfaces for WCS, WCPS, and WPS as well as using its own raster query language.
 
-Rasdaman integrates into PostgreSQL; raster transformation is available through GDAL, and WMS publishing is available through MapServer (beta).  Hence, Rasdaman provides an excellent raster backend service for GIS, web mapping, and geographic analysis.
+Rasdaman stores its data in a Postgres database, thereby achieving tight information integration. Rasdaman driver is a part of the GDAL (Geospatial Data Abstraction Library) library for geospatial data formats and this,consequently, enables a MapServer integration (beta).  Hence, Rasdaman provides an excellent raster backend service for GIS, web mapping, and geographic analysis.
 
 .. image:: ../../images/project_logos/apps-collage.png
   :scale: 100 %
@@ -58,4 +58,4 @@ Details
 
 **API Interfaces:** RASQL, C++, Java
 
-**Support:** http://www.osgeo.org/search_profile
+**Support:**  www.rasdaman.com
