@@ -71,7 +71,7 @@ Details
 
 **Licence:** GNU Lesser General Public License (LGPL) 
 
-**Software Version:** 2.0
+**Software Version:** 1.4.1
 
 **Supported Platforms:** Linux, Mac, Windows
 
