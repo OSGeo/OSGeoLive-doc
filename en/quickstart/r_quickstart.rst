@@ -31,7 +31,7 @@ start R
 quit R
 ======
 
-Almost everything n R is a function, including the function for quitting. Type 
+Almost everything in R is a function, including the function for quitting. Type 
 q() and hit return.
 
 Beginning R
