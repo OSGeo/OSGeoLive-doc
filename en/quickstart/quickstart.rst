@@ -41,6 +41,7 @@ Application Quick Starts
   osm_quickstart
   ossim_quickstart
   pgrouting_quickstart
+  r_quickstart
   saga_quickstart
   sahana_quickstart
   spatialite_quickstart
