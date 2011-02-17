@@ -26,7 +26,11 @@ Sie brauchen lediglich einen Standard Browser für die folgenden Übungen.
 Diese Kurzeinführung beschreibt:
   * wie Sie eine Mapbender Anwendung erstellen können
   * wie Sie einen Web Map Service (OGC WMS) veröffentlichen
+  * wie Sie einen WMS konfigurieren können
+  * wie Sie eine individuelle Anwendung erzeugen können 
   * wie Sie Benutzer und Gruppen anlegen können und diesen Zugriff auf Anwendungen geben können
+  * wie Sie einen Web Feature Service (OGC WFS) laden können
+  * wie Sie einen Feature Type konfigurieren können und eine ANwendung mit WFS Suche und Digitalisierung aufbauen können
 
 
 Mapbender starten
@@ -140,14 +144,14 @@ Sie können auch eine neue Anwendung als Kopie einer bestehenden Anwendung erzeu
 
 Anwendung löschen
 =====================
-You can delete an application with :menuselection:`Application Management --> Delete application`. Only the application is deleted, not the services which were part of the application. 
-You are not allowed to delete applications which also belong to other users.
+Sie können eine Anwendung über :menuselection:`Anwendungsverwaltung --> Anwendung löschen` löschen. Dabei wird lediglich die Anwendung gelöscht. Die Dienste, die in der Anwendung eingebunden waren, liegen weiterhin vor.
+Sie haben nicht das Recht Anwendungen zu löschen, die noch anderen Benutzern zugewiesen sind.
 
-Export an application
+Anwendung exportieren
 =====================
-You can export an application as SQL with :menuselection:`Application Management --> Export application (SQL)`. The SQL contains all the definitions of the application elements and can be imported in another Mapbender installation. 
+Sie können eine Anwendung als SQL exportieren. Dies erfolgt über :menuselection:`Anwendungsverwaltung --> Anwendung exportieren (SQL)`. Das SQL enthält die Definitionen der Anwendungselemente und kann in andere Mapbender Datenbanken überführt werden.
 
-.. tip:: The export of an application does not contain the service information and the informations about user and group access.
+.. tip:: Der Export einer Anwendung enthält nicht die Diensteinformationen und auch nicht die Informationen über Benutzer- und Gruppenzugriff.
 
 **************
 WMS Verwaltung
@@ -157,16 +161,16 @@ Laden eines Web Map Services
 ============================
 Sie können einen OGC Web Map Services (WMS) in Ihre Anwendung laden.
 
-A WMS returns an XML-file when the getCapabilities document is requested. This file is parsed by Mapbender and Mapbender gets all the necessary information about the service from this XML
+Ein WMS gibt beim getCapabilities-Aufruf ein XML zurück. Diese Information wird durch Mapbender eingelesen und Mapbender erhält darüber alle notwendigen Informationen über den Dienst.
 
-.. tip:: You should first check the getCapabilities document in your browser before you try to load it with Mapbender
+.. tip:: Bevor Sie einen Dienst in Mapbender einbinden, sollten Sie das Capabilities-Dokument in Ihrem Browser prüfen.
 
 
 #. Gehen Sie hierzu in die Anwendung :guilabel:`admin2_de` und wählen Sie den Link :menuselection:`WMS Verwaltung --> Capabilities hochladen`. Wählen Sie die Anwendung, die den WMS enthalten soll, aus. Tragen Sie den Link zum WMS Capabilities-Dokument in das Textfeld ein und klicken Sie **Load**.
 
 #. Hier sind ein paar Beispiel WMS, die Sie in Ihre Anwendung laden können:
 
-Cadastre of spain
+Spanisches Kataster(Cadastre of spain)
 
 http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
 
@@ -178,11 +182,11 @@ Demis World Map
 
 http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
 
-Bird Studies Canada 
+Vogelstudien Kanada (Bird Studies Canada)
 
 http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
 
-Germany demo 
+Demo WMS mit Deutschlanddaten (Germany demo)
 
 http://wms.wheregroup.com/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
 
@@ -193,60 +197,60 @@ http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=
 .. image::../../images/screenshots/800x600/mapbender_admin2_en.png
   :scale: 80
 
-You can load more than one WMS in an application. Choose *WMS application settings* to change the order of the WMS or remove a WMS from your application.
+Sie können mehr als einen Kartendienst in eine Anwendung laden. Wählen Sie *WMS Anwendungseinstellungen* um die Reihenfolge der Dienste zu ändern oder um einen Dienst aus der Anwendung zu entfernen.
 
-The WMS with index 0 defines the default coordinate reference system and the extent of the map.
+Der WMS mit dem Index 0 definiert das Koordinatenreferenzsystem, in dem die Anwendung gestartet wird. Außerdem legt dieser Dienst den Startbereich fest.
 
-.. tip:: Create a container application and upload every WMS just once to this container application. When you update the WMS the possible changes will appear in all applications that contain this WMS. You easily can copy a WMS from one to another application with the menu entry *Link WMS to application*.
+.. tip:: Legen Sie eine Container-Anwendung an und laden Sie jeden WMS nur einmal in diesen Container. Aus diesem Container können Sie die Dienste in andere Anwendungen übertragen. Wenn Sie einen WMS aktualisieren werden die Änderungen in allen Anwendungen wirksam, die diesen WMS enthalten. Sie können einen Dienst leicht über *WMS in Anwendung einbinden* in andere Anwendungen übertragen.
 	
 
-Configure WMS
-=============
-After upload of a WMS you can configure the WMS for your specific application. Maybe you don't want to provide all layers or you want to change the order or titles of the layer or disable the feature info or change the maxscale for a layer.
+WMS konfigurieren
+=================
+Nach dem Laden eines WMS kann dieser für Ihre Anwendung angepasst werden. Vielleicht sollen nicht alle Ebenen des Dienstes angezeigt werden, vielleicht wollen Sie die Reihenfolge oder Titel der Ebenen ändern oder Sie wollen die Infoabfrage deaktivieren oder die Maßstabsstufen anpassen.
 
 .. image:: ../../images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
-* on/off - enable/disable a layer for this individual application
-* sel - selectable in geodata explorer
-* sel_default - layer is active when the application starts
-* info / info default - layer provides feature info requests, info default activates the feature info functionality
-* minscale / maxscale - the scale range in which the layer should be displayed, 0 means no scale limitation
-* style - if a WMS provides more than one style you can choose a different style than the default style
-* prio - defines the order in which the layer are drawn
-* setWFS - connects a WMS layer with a WFS feature type configuration (you will learn more about this later)
+* on/off - de-/aktivieren einer Ebene innerhalb der gewählten Anwendung 
+* sel - soll die Ebene im Geodataexplorer auswählbar sein?
+* sel_default - Ebene wird beim Start der Anwendung aktiviert
+* info / info default - Ebene unterstützt die Infoabfrage (featureInfo-Request), info default aktiviert die Infoabfrage beim Start der Anwendung
+* minscale / maxscale - Maßstabsbereich, in dem die Ebene angezeigt werden soll (Angabe des Nenners), 0 steht für keine Einschränkung der Anzeige
+* style - sofern ein WMS Style unterstützt, kann bei der Kartenanfrage ein andere Style als der default-Style angefordert werden
+* prio - definiert die Zeichenreihenfolge der Ebenen
+* setWFS - verbindet eine WMS Ebene mit einer WFS FeatureType-Konfiguration (später dazu mehr)
 
 
-**************************
-Configure your application
-**************************
-Now you should get an idea how easy it is to change a Mapbender application without changes in the code. 
+********************************
+Konfigurieren Sie Ihre Anwendung
+********************************
+In diesem Abschnitt sollen Sie erfahren wie einfach es ist eine Mapbender Anwendung anzupassen ohne den Code verändern zu müssen.
 
-When you select an element for example **mapframe1** by click on the radiobutton you see that the element has a lot of attributes. These attributes are HTML attributes. By defining a Mapbender element you define an HTML element. On start of your application Mapbender will insert all elements into to an HTML page.
+Wählen Sie ein Element Ihrer Anwendung Beispielweise die Karte **mapframe1** über einen Klick auf den Radiobutton aus. Nach der Auswahl werden die Attribute des Elementes angezeigt. Hierbei handelt es sich um HTML Elemente. On start of an application Mapbender will create an HTML page from all the elements. 
 
-	* id - unique name for the element
-	* on/off - enable/disable an element
-	* title - name of the element which will be displayed as tooltip
-	* HTML-TAG/CLOSE-TAG - type of HTML element to create for example div, img
-	* top, left - define the position of the element (for fixed layouts)
-	* width/height - define the size of the element
+	* id - eindeutiger Name für das Element
+	* on/off - de-/aktivieren eines Elements
+	* title - Name der als Tooltip oder Reiter angezeigt wird
+	* HTML-TAG/CLOSE-TAG - Art des HTML Elements z. B. div, img
+	* top, left - Definition der Position des Elements (für ein Layout mit festen Positionen)
+	* width/height - Definition der Größe eines Elements (Breite/Höhe)
 
-Some elements have element variables which allows the user to set parameters for an element. The element variables can be JavaScript variables, PHP variables, references to CSS files or CSS text definitions. 
+Manche Elemente verfügen über Elementvariablen, die es ermöglichen variierende Parameter für ein Element zu setzen. Die Elementvariablen können JavaScript oder PHP Variablen, Referenzen auf CSS-Dateien oder CSS Textdefinitionen sein. 
 
-Examples for element variables:
+Beispiele für Elementvariablen:
 
-* the copyright element has an element variable to set the copyright text
-* the overview element (overview map) has an element variable to define which WMS is used for the overview map
-* treeGDE (geodata explorer) has element variables to define the style of the geodata explorer
+* Das Element copyright hat eine Elementvariable, um das eigene individuelle Copyright zu setzen
+* Das Element overview (Übersichtskarte) hat eine Elementvariable, um zu definieren, welcher WMS in der Übersichtskarte verwendet werden soll
+* Das Element treeGDE (Geodata Explorer) hat diverse Elementvariablen, um den Style der Baumstruktur anzupassen
 
 
-Try it yourself
-===============
-* change the size of the mapframe (element mapframe1)
-* change the logo image - choose foss4g-logo as image (element logo)
-* set the background-color (element body element-variable css_class_bg)
-* move your buttons (change left and top of your element to another pixel position)
-* change the copyright text
+Probieren Sie es aus
+====================
+* Passen Sie die Größe des Kartenfensters an (Element mapframe1)
+* Ändern Sie das Logo - wählen Sie das foss4g-Logo als Bild (element logo)
+* Setzen Sie die Hintergrundfarbe (background-color - element body Elementvariable css_class_bg)
+* Verschieben Sie Ihre Buttons (Verändern Sie left und top Ihres Elements auf eine andere Pixelposition)
+* Verändern Sie den copyright-Text
 
 *******************************
 Benutzer- und Gruppenverwaltung
@@ -286,21 +290,22 @@ Anlegen einer Gruppe
 #. Melden Sie sich als der neue Benutzer an.
 
 #. Was passiert, wenn der Benutzer Zugriff auf nur eine bzw. auf mehrere Anwendung hat?
+
   .. |LOGOUT| image:: ../../images/screenshots/800x600/mapbender_logout.png
      :scale: 100
 
 **************
-WFS management
+WFS Verwaltung
 **************
-Mapbender supports OGC Web Feature Service WFS 1.0.0 and 1.1.0. A WFS can be used in Mapbender applications for different functionalities:
+Mapbender unterstützt OGC Web Feature Service WFS 1.0.0 und 1.1.0. Ein WFS (Datendienst) kann in Mapbender Anwendungen für verschiedene Funktionalitäten verwendet werden:
 
-* search
-* spatial search
-* digitizing
-* list informations
-* generation of tooltips
+* alphanumerische Suche
+* räumliche Suche
+* Digitalisierung
+* Informationausgabe
+* Generierung von Tooltips
 
-To use a WFS you have to load a WFS in Mapbender and generate feature type configurations.
+Wenn Sie einen WFS in Mapbender nutzen möchten müssen Sie den Dienst laden und anschließend eine FeatureType-Konfiguration vornehmen. 
 
 Afterwards you have to grant access to your new feature type configuration to an application before you can use it.
 

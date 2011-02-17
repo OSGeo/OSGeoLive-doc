@@ -28,7 +28,11 @@ This Quick Start describes how to:
   * start Mapbender
   * create an application 
   * load a Web Map Service (OGC WMS)
+  * configure WMS
+  * create an individual application
   * create a user and a group and assign applications to them
+  * load a WFS
+  * configure feature type and create an application with WFS search and digitize functionality
 
 Start Mapbender
 ===============
@@ -160,9 +164,9 @@ Loading Web Map Services
 ========================
 You can load OGC Web Map Services (WMS) to your application.
 
-A WMS returns an XML-file when the getCapabilities document is requested. This file is parsed by Mapbender and Mapbender gets all the necessary information about the service from this XML
+A WMS returns an XML-file when the getCapabilities document is requested. This information is parsed by Mapbender and Mapbender gets all the necessary information about the service from this XML
 
-.. tip:: You should first check the getCapabilities document in your browser before you try to load it with Mapbender
+.. tip:: You should first check the Capabilities document in your browser before you try to load it with Mapbender
 
 
 #. Go to :guilabel:`admin2_en` and choose :menuselection:`WMS Management --> Load WMS`. Choose the application which shall contain the WMS. Link to the WMS getCapabilities URL in the text field and hit **Load**.
@@ -200,7 +204,7 @@ You can load more than one WMS in an application. Choose *WMS application settin
 
 The WMS with index 0 defines the default coordinate reference system and the extent of the map.
 
-.. tip:: Create a container application and upload every WMS just once to this container application. When you update the WMS the possible changes will appear in all applications that contain this WMS. You easily can copy a WMS from one to another application with the menu entry *Link WMS to application*.
+.. tip:: Create a container application and upload every WMS just once to this container application. You can transfer the WMS from this container to other aplications. When you update the WMS the possible changes will appear in all applications that contain this WMS. You easily can copy a WMS from one to another application with the menu entry *Link WMS to application*.
 	
 
 Configure WMS
@@ -225,11 +229,11 @@ Configure your application
 **************************
 Now you should get an idea how easy it is to change a Mapbender application without changes in the code. 
 
-When you select an element for example **mapframe1** by click on the radiobutton you see that the element has a lot of attributes. These attributes are HTML attributes. By defining a Mapbender element you define an HTML element. On start of your application Mapbender will insert all elements into to an HTML page.
+When you select an element for example **mapframe1** by click on the radiobutton you see that the element has a lot of attributes. These attributes are HTML attributes. By defining a Mapbender element you define an HTML element. On start of your application Mapbender will create an HTML page from all defined elements.
 
 	* id - unique name for the element
 	* on/off - enable/disable an element
-	* title - name of the element which will be displayed as tooltip
+	* title - name which will be displayed as tooltip or tab
 	* HTML-TAG/CLOSE-TAG - type of HTML element to create for example div, img
 	* top, left - define the position of the element (for fixed layouts)
 	* width/height - define the size of the element
