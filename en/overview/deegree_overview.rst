@@ -123,5 +123,3 @@ Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/deegree_quickstart.html>`_
-
-
