@@ -1,5 +1,5 @@
 :Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _marble-overview:
@@ -48,7 +48,7 @@ Google Earth. Εκτός από τη δυνατότητα επισκόπησης
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Έκδοση Λογισμικού:** 0.9.2
+**Έκδοση Λογισμικού:** 0.9.5
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 

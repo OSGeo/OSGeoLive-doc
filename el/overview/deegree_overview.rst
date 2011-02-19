@@ -1,5 +1,5 @@
 :Συγγραφέας: Johannes Wilden
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _deegree-overview:
@@ -119,5 +119,3 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
 ----------
 
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/deegree_quickstart.html>`_
-
-

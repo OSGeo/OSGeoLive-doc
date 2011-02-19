@@ -1,7 +1,7 @@
 :Συγγραφέας: OSGeo Live
 :Συγγραφέας: Hamish Bowman
 :Συγγραφέας: Eric Lemoine
-:Έκδοση: osgeo-live4.0
+:Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
 .. _mapfish-overview:
@@ -57,9 +57,9 @@ MapFish παρέχει συγκεκριμένα εργαλεία για την �
 
 **Αρχική ιστοσελίδα:** http://www.mapfish.org
 
-**Άδεια:** GNU General Public License (GPL) version 3
+**Άδεια:** BSD
 
-**Έκδοση Λογισμικού:** 1.2
+**Έκδοση Λογισμικού:** 2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
