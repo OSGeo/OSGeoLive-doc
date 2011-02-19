@@ -307,19 +307,19 @@ Mapbender unterstützt OGC Web Feature Service WFS 1.0.0 und 1.1.0. Ein WFS (Dat
 
 Wenn Sie einen WFS in Mapbender nutzen möchten müssen Sie den Dienst laden und anschließend eine FeatureType-Konfiguration vornehmen. 
 
-Afterwards you have to grant access to your new feature type configuration to an application before you can use it.
+Bevor Sie die Feature Type Konfiguration nutzen können müssen Sie diese einer Anwendung zuordnen.
 
-If you want to set up an application with WFS digitizing you need a WFS which supports transactions (WFS-T). You can for example use the software GeoServer or deegree to set up a WFS-T.
+Wenn Sie eine mit WFS Digitalisierung aufbauen möchten, benötigen Sie einen WFS, der Transaktionen unterstützt (WFS-T). Sie können beispielsweise die Programme GeoServer oder deegree nutzen, um einen WFS-T aufzusetzen.
 
-Loading Web Feature Services
-============================
-The modules to configure WFS are integrated in the administration application **admin_de_services**.
+Laden einen Web Feature Services
+================================
+Die Module zur WFS KOnfiguration sind in die Administrationsoberfläche **admin_de_services** eingebunden.
 
-.. tip:: You should first check the WFS getCapabilities document in your browser before you try to load it in Mapbender.
+.. tip:: Sie sollten zuerst das WFS Capabilities Dokument in Ihrem Browser prüfen, bevor Sie es in Mapbender laden.
 
-#. Go to *admin_en_services* and choose *WFS Management --> Load WFS*. Choose any application in the application list. Link to the WFS getCapabilities URL in the text field and hit **Load**.
+#. Öffnen Sie die Anwendung *admin_de_services* und wählen Sie *WFS Verwaltung --> WFS laden*. Wählen Sie irgendeine Anwendung aus der Anwendungsliste. Tragen Sie den Link der WFS getCapabilities URL in das Textfeld und klicken Sie  **Load**.
 
-Demo WFS
+Beispiel WFS
 
 http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SERVICE=WFS
 
@@ -327,69 +327,75 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 .. image:: ../../images/screenshots/800x600/mapbender_loadWFS.png
      :scale: 80 
 
-Create a WFS feature type configuration
-========================================
-The next step is to set up a configuration for a feature type. After the configuration and authorization of an application, the configuration can be used in your applications.
+Erzeugen einer WFS Feature Type Konfiguration
+=============================================
+Der nächste Schritt ist das Erzeugen einer WFS Feature Type Konfiguration. Erst nach der Konfiguration und anschließenden Freischaltung für eine Anwendung kann die Konfiguration in einer Anwendung verwendet werden. 
+
 
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType.png
      :scale: 80 
 
-Configuration
+Konfiguration
 
-#. first you have to choose a WFS from the selectbox *Select WFS*. All feature types of this WFS will be listed
-#. choose the feature type that you want to configure
-#. after selection of the feature type a couple of fields appear (configuration fields, attribute fields)
-#. define an abstract and label for your search. 
-#. define the text on the search button (f. e. ok or search)
-#. in the style and result-style block you can define css-text
-#. define a buffer which will be used when zoomed on a result object
-#. choose the geometry column
-#. search - define the columns to offer in your search and the order (pos for position) in which they shall be listed
-#. label - define a label for the search column  
-#. show - define the columns which you want to show in the result list and define the position
-#. show_detail - define the columns which shall be displayed in the detail information window which provides informations about a single object
-#. mandatory (**digitizing**) - the column has to be set and can't be left empty
-#. edit (**digitizing**) - define which columns you want to offer for digitizing
-#. html - offer selectbox, datepicker instead of an inputfield
-#. auth - here you can define authorization to get user dependent access to feature objects.  
-#. **save** your settings
-#. your configuration will get a configuration id
+#. Zuerst müssen Sie einen WFS aus der Liste *Select WFS* auswählen. Anschließend werden alle Feature Types des gewählten WFS aufgelistet.
+#. Wählen Sie den Feature Type, den Sie konfigurieren möchten aus.
+#. Nach der Auswahl werden die Attributfelder und zusätzliche Felder angezeigt.
+#. Definieren Sie eine Beschreibung (Abstract) und eine Überschrift für Ihre Suche. 
+#. Definieren Sie den Text auf dem Suchbutton (f. e. ok oder Suche starten)
+#. In dem Textfeld style und result-style können Sie über css-Text den Anzeige-Stil beeinflussen
+#. Definieren Sie einen Puffer, der beim Zoom auf das Ergebis verwendet werden soll.
+#. Wählen Sie die Geometriespalte.
+#. search / pos - definieren Sie die Spalten, die in Ihrer Suchmaske angezeigt werden sollen. Über pos (Position) können Sie die Reihenfolge der Suchspalten festlegen.
+#. minimum_input (**Suche**) - Definition der Zeichen, die bei der Suche in diesem Feld mindestens eingegeben werden müssen.
+#. label - definieren Sie eine Beschriftung für Ihre Suchfelder.
+#. show - definieren Sie die Spalten, die als Ergebnis ausgegeben werden sollen. Geben Sie auch hier die Position an.
+#. show_detail - definieren Sie die Spalten, die als Detailinformationen beim Klick auf einen einzelnen Treffer  ausgegeben werden sollen.
+#. mandatory (**Digitalisierung**) - die Spalte muss bei der Digitalisierung gefüllt werden und darf nicht leer sein. 
+#. edit (**Digitalisierung**) - definieren Sie welche Spalte bei der Digialisierung zum Füllen angeboten werden soll.
+#. html - Definition einer Auswahlbox, einer Datumsauswahl, einer Checkbox, eines Textfeldes, eines Datei-Uploads statt eines Textfeldes
+#. auth - Sie können eine Authorisierung definieren, um benutzerabhängigen Zugriff auf Objekte einzurichten.
+#. operator - (**Suche**) - Definition, wie bei der Suche der Vergleich erfolgen soll.
+#. helptext - Sie können für jedes Feld einen Hilfetext definieren.
+#. category - es können Kategorien definiert werden. Das Feld wird der angegebenen Kategorie zugewiesen und in der Anwendungn in einem entsprechenen Reiter mit dem Namen der Kategorie angezeigt.
+#. **save** Button zum Speichern der Einträge
+#. Ihre Konfiguration wird beim Speichern mit einer Konfigurations-Id versehen.
 
 
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
      :scale: 80 
 
-Assign a feature type configuration to an application
-=====================================================
-Your new configuration has to be assigned to an application. This is done in *WFS configuration -> Assign WFS conf to application*.
+Feature Type Konfiguration einer Anwendung zuordnen
+===================================================
+Ihre neue Konfiguration muss nun einer oder mehrerer Anwendungen zugewiesen werden: Dies erfolgt über *WFS Verwaltung -> WFS KOnfiguration GUI zuweisen*.
 
-#. Choose your WFS
-#. Choose the application
-#. Move your configuration to the *GUI configuration list* on the right
+#. Wählen Sie Ihren  WFS
+#. Wählen Sie die Anwendung
+#. Übertrage Sie die Konfiguration zur *GUI configuration list* auf der rechten Seite.
 
 .. image:: ../../images/screenshots/800x600/mapbender_set_featureType_access.png
      :scale: 80 
 
 
-Set up WFS search
-=================
-To enable your feature type configuration in an application go to *admin_en_services -> Edit application elements* choose your application and go to the element gazetteerWFS. The elements has an element variable *wfsConfIdString*. Here you can list you WFS configuraton ids (comma separated).
+Aufsetzen einer WFS Suche
+=========================
+Um eine Feature Type Konfiguration in einer Anwendung in einer Suche verwenden zu können gehen Sie in die Administration *admin_de_services -> Anwendungselemente bearbeiten* wählen Sie Ihre Anwendung und wählen Sie anschließend das Element *gazetteerWFS*. Diesen Element hat eine Elementvariable *wfsConfIdString*. Die Variable enthält eine Komma separierte Liste der WFS Konfiguraton Ids. In der Reihenfolge der Liste werden die angegebenen Suchen in der Anwendung angeboten.
 
 .. image:: ../../images/screenshots/800x600/mapbender_wfsConfIdString.png
      :scale: 80 
 
-Have a look how the search could appear in an application. In this example there is a search frame at the left where you can search for Mapbender User. You can run a spatial search and define a region to search or you can do an alphanumeric search. The search results are displayed in a result table. On click on a result entry Mapbender zooms to the location and detail information is displayed.
+Schauen sie sich an, wie eine Suche in einer Anwendung aussehen kann. Das Beispiel zeigt links ein Suchfenster, über das Sie nach Mapbender Anwendern suchen können. Sie können eine räumliche Suche durch die Definition eines Suchbereichs durchführen oder Sie führen eine alphanumerische Suche durch. Die Suchergebnisse werden in einer Ergebnistabelle ausgegeben. Beim Klick auf ein Ergebnis zoomt Mapbender auf das Objekt und hebt dieses hervor. Außerdem werden Detailinformationen angezeigt.
 
 .. image:: ../../images/screenshots/800x600/mapbender_WFS_search.png
      :scale: 100
 
-Set up a WFS digitize functionality
-===================================
-The easiest way to get an application that supports WFS digitizing is to copy gui_digitize. Now you only have to connect a WMS layer with your feature type configuration. This is done in *WMS application settings* with the button *set WFS* in the layer-list. Hit the button and select your configuration id.
+Aufsetzen einer WFS Digitalisierfunktionalität
+==============================================
+Die einfachste Art eine Anwendung mit Digitalierfunktionaität zu erhalten ist das Erzeugen einer Kopie der Anwendung gui_digitize.
+Nun müssen Sie lediglich eine WMS Ebene mit Ihrer Feature Type Konfiguration verbinden. Dies erfolgt über *WMS Anwendungseinstellungen* über den Button *set WFS* in the Liste der Ebenen. Wählen Sie den Button und anschließend Ihre Konfigurations Id.
 
-.. tip::Make sure that the WMS layer which is connected with the WFS configuration id supports feature info. This is how Mapbender decides whether to send a WFS getFeature request or not.
+.. tip:: Stellen Sie sicher, dass die WMS Ebene, mit der Sie die Feature Type Id verbinden, WMS FeatureInfo unterstützt. Hierüber entscheidet Mapbender, ob ein WFS getFeature-Aufruf geschickt werden soll oder nicht.
 
-Now you can search with the spatial search at the right for existing objects which are displayed in a *seach result* frame. The objects can be updated (move object, add basepoint, edit attributes, split line, continue line, merge polygons...). You also can create new objects.
+Nun können Sie über die räumliche Auswahl bestehende Objekte selektieren, die in einer Trefferliste angezeigt werden. Die Objekte können verändert werden (verschieben der Stütztpunkte, hinzufügen von Stützpunkten, ändern der Attributeinträge, Teilen von Linien, Linien verlängern, zusammenführen von Polygonen...). Sie können natürlich auch neue Objekte anlegen.
 
 .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80 

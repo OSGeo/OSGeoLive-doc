@@ -317,7 +317,7 @@ If you want to set up an application with WFS digitizing you need a WFS which su
 
 Loading Web Feature Services
 ============================
-The modules to configure WFS are integrated in the administration application **admin_de_services**.
+The modules to configure WFS are integrated in the administration application **admin_en_services**.
 
 .. tip:: You should first check the WFS getCapabilities document in your browser before you try to load it in Mapbender.
 
@@ -348,14 +348,18 @@ Configuration
 #. in the style and result-style block you can define css-text
 #. define a buffer which will be used when zoomed on a result object
 #. choose the geometry column
-#. search - define the columns to offer in your search and the order (pos for position) in which they shall be listed
+#. search / pos - define the columns to offer in your search and the order (pos for position) in which they shall be listed
+#. minimum_input (**Search**) - define the minimum input for the field
 #. label - define a label for the search column  
 #. show - define the columns which you want to show in the result list and define the position
 #. show_detail - define the columns which shall be displayed in the detail information window which provides informations about a single object
 #. mandatory (**digitizing**) - the column has to be set and can't be left empty
 #. edit (**digitizing**) - define which columns you want to offer for digitizing
-#. html - offer selectbox, datepicker instead of an inputfield
+#. html - offer selectbox, datepicker, checkbox, textarea or file upload instead of a simple inputfield
 #. auth - here you can define authorization to get user dependent access to feature objects.  
+#. operator - (**Search**) - define which operator to use for the search.
+#. helptext - define a help text for every field.
+#. category - you can define categories. The attribut will be assigned to this category and will be displayed in a tab with the name of the category.
 #. **save** your settings
 #. your configuration will get a configuration id
 
@@ -365,7 +369,7 @@ Configuration
 
 Assign a feature type configuration to an application
 =====================================================
-Your new configuration has to be assigned to an application. This is done in *WFS configuration -> Assign WFS conf to application*.
+Your new configuration has to be assigned to one or more applications. This is done in *WFS configuration -> Assign WFS conf to application*.
 
 #. Choose your WFS
 #. Choose the application
@@ -377,7 +381,7 @@ Your new configuration has to be assigned to an application. This is done in *WF
 
 Set up WFS search
 =================
-To enable your feature type configuration in an application go to *admin_en_services -> Edit application elements* choose your application and go to the element gazetteerWFS. The elements has an element variable *wfsConfIdString*. Here you can list you WFS configuraton ids (comma separated).
+To enable your feature type configuration in an application go to *admin_en_services -> Edit application elements* choose your application and go to the element *gazetteerWFS*. The elements has an element variable *wfsConfIdString*. Here you can list you WFS configuraton ids (comma separated). In the order of the list the searches will be displayed in the application.
 
 .. image:: ../../images/screenshots/800x600/mapbender_wfsConfIdString.png
      :scale: 80 
@@ -393,7 +397,7 @@ The easiest way to get an application that supports WFS digitizing is to copy gu
 
 .. tip::Make sure that the WMS layer which is connected with the WFS configuration id supports feature info. This is how Mapbender decides whether to send a WFS getFeature request or not.
 
-Now you can search with the spatial search at the right for existing objects which are displayed in a *seach result* frame. The objects can be updated (move object, add basepoint, edit attributes, split line, continue line, merge polygons...). You also can create new objects.
+Now you can search with the spatial search at the right for existing objects which are displayed in a seach result frame. The objects can be updated (move object, add basepoint, edit attributes, split line, continue line, merge polygons...). You also can create new objects.
 
 .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80 
