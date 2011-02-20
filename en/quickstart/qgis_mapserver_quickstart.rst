@@ -47,6 +47,8 @@ Edit QGIS project
    * You should see the same world map rendered by QGIS.
      We will now change river styling and look at the result in the web map viewer. 
 
+#. Double click **10m_rivers_lake_centerlines** in the Layers tree.
+
 #. Change the color in Outline Options to a different blue tone.
 
 #. Press :guilabel:`OK`.

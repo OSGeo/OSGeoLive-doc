@@ -28,7 +28,7 @@ Databases
 Desktop GIS
 -----------
 * :doc:`grass_overview` - [`QuickStart <../quickstart/grass_quickstart.html>`_]
-* :doc:`qgis_overview`
+* :doc:`qgis_overview` - [`QuickStart <../quickstart/qgis_quickstart.html>`_]
 * :doc:`gvsig_overview`
 * :doc:`udig_overview` - [`QuickStart <../quickstart/udig_quickstart.html>`_]
 * :doc:`kosmo_overview`
@@ -62,14 +62,14 @@ Spatial Tools
 
 Web Services
 ------------
-* :doc:`deegree_overview`- [`QuickStart <../quickstart/deegree_quickstart.html>`_]
-* :doc:`geoserver_overview`- [`QuickStart <../quickstart/geoserver_quickstart.html>`_]
-* :doc:`mapguide_overview`- [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
+* :doc:`deegree_overview` - [`QuickStart <../quickstart/deegree_quickstart.html>`_]
+* :doc:`geoserver_overview` - [`QuickStart <../quickstart/geoserver_quickstart.html>`_]
+* :doc:`mapguide_overview` - [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
 * :doc:`mapserver_overview`
-* :doc:`qgis_mapserver_overview`- [`QuickStart <../quickstart/qgis_mapserver_quickstart.html>`_]
+* :doc:`qgis_mapserver_overview` - [`QuickStart <../quickstart/qgis_mapserver_quickstart.html>`_]
 * :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] Metadata Catalog and Catalog Services for Web
-* :doc:`52nWPS_overview`  - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
-* :doc:`52nSOS_overview`  - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
+* :doc:`52nWPS_overview` - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
+* :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
 Tests
