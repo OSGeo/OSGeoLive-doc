@@ -138,7 +138,7 @@ Create an individual application
 
 #. you can also take a single element from another application to your new application. Choose the single element by activating the radiobutton at the element and hit the **save** Button to save this element in your new application.
 
-#. your application is set up. Now you need a WMS to be displayed in your application. This will be described in the next section.
+#. your application is set up. Now you need a WMS to be displayed in your application. This will be described in the section **WMS Management**.
 
 
 Copy or rename an application
@@ -279,7 +279,8 @@ Create a group
 #. Create a group by :menuselection:`User Management --> Create and edit group`. Define a name and a description for your group.
 
 
-**Assign applications to user/group**
+Assign applications to user/group
+=================================
 
 #. Assign a user to a group by :menuselection:`User Management --> Add one user to several groups` or by the link :menuselection:`User Management --> Add several users to one group`
 
@@ -308,6 +309,7 @@ Mapbender supports OGC Web Feature Service WFS 1.0.0 and 1.1.0. A WFS can be use
 * digitizing
 * list informations
 * generation of tooltips
+* download of data
 
 To use a WFS you have to load a WFS in Mapbender and generate feature type configurations.
 
@@ -319,9 +321,9 @@ Loading Web Feature Services
 ============================
 The modules to configure WFS are integrated in the administration application **admin_en_services**.
 
-.. tip:: You should first check the WFS getCapabilities document in your browser before you try to load it in Mapbender.
+#. Go to *admin_en_services* and choose *WFS Management --> Load WFS*. Choose an application in the application list. Link to the WFS getCapabilities URL in the text field and hit **Load**.
 
-#. Go to *admin_en_services* and choose *WFS Management --> Load WFS*. Choose any application in the application list. Link to the WFS getCapabilities URL in the text field and hit **Load**.
+.. tip:: You should first check the WFS getCapabilities document in your browser before you try to load it in Mapbender.
 
 Demo WFS
 
@@ -338,7 +340,7 @@ The next step is to set up a configuration for a feature type. After the configu
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType.png
      :scale: 80 
 
-Configuration
+**Configuration**
 
 #. first you have to choose a WFS from the selectbox *Select WFS*. All feature types of this WFS will be listed
 #. choose the feature type that you want to configure
