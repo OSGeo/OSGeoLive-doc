@@ -66,7 +66,7 @@ Web Services
 * :doc:`geoserver_overview`- [`QuickStart <../quickstart/geoserver_quickstart.html>`_]
 * :doc:`mapguide_overview`- [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
 * :doc:`mapserver_overview`
-* :doc:`qgis_mapserver_overview`
+* :doc:`qgis_mapserver_overview`- [`QuickStart <../quickstart/qgis_mapserver_quickstart.html>`_]
 * :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] Metadata Catalog and Catalog Services for Web
 * :doc:`52nWPS_overview`  - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
 * :doc:`52nSOS_overview`  - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
