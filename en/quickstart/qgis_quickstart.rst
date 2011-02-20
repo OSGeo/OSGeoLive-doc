@@ -11,11 +11,12 @@
   :align: right
   :target: http://www.qgis.org
 
-*************************
+***************
 QGIS Quickstart 
-*************************
+***************
 
-QGIS provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
+Quantum GIS (QGIS) is a user friendly Desktop GIS client which lets
+you visualize, manage, edit, analyse data and compose printable maps.
 
 This Quick Start describes how to:
 
