@@ -10,6 +10,12 @@
   :align: right
   :target: http://karlinapp.ethz.ch/qgis_wms/
 
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 QGIS mapserver
 ==============
