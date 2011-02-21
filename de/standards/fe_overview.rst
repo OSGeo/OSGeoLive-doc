@@ -37,20 +37,20 @@ Filter Encoding (FE)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-Der OGC® Filter Encoding Standard (FE) definiert ein XML Encoding zur Definition von Filtern für räumlich Abfragen um räumliche Objekte aufgrund angegebener Attribute auszuwählen.
+Der OGC® Filter Encoding Standard (FE) definiert ein XML Encoding zur Definition von Filtern für räumlich Abfragen, um räumliche Objekte aufgrund angegebener Attribute auszuwählen.
 (http://www.opengeospatial.org/standards/filter)
 
 .. image:: ../../images/standards/fe.jpg
   :scale: 25%
   :alt: FE in Context
 
-Eine Teilmenge von räumlichen Objekten kann gewählt werden, um sie in einer bestimmten Farbe anzuzeigen oder in ein benutzerdefiniertes Format umzuwandeln. Das neutrale XML Filter Encoding erlaubt das einfache analysieren und validieren durch einen Server der den OGC WFS Standard implementiert bevor der Filterausdruck in die Zielsprache des abzufragenden Datenbestands übersetzt wird.
-Dieser Standard wird von einer Reihe von OGC Web Services genutzt, einschließlich Web Feature Service, Catalogue Service und Style Layer Descriptor.
+Eine Teilmenge von räumlichen Objekten kann gewählt werden, um sie in einer bestimmten Farbe anzuzeigen oder in ein benutzerdefiniertes Format umzuwandeln. Das neutrale XML Filter Encoding erlaubt das einfache Analysieren und Validieren durch einen Server, der den OGC WFS Standard implementiert, bevor der Filterausdruck in die Zielsprache des abzufragenden Datenbestands übersetzt wird.
+Dieser Standard wird von einer Reihe von OGC Web Services genutzt, einschließlich Web Feature Service, Catalogue Service und Styled Layer Descriptor.
 
-Filterbedingungen können für räumliche, zeitliche und skalare Eigenschaften angegeben werden. Ein Beispiel eines räumlichen Filter ist: "Finde alle Grundstücke in Niedersachsen die Monika Mustermann gehören." Ein zeitlicher Filter ist: "Finde alle Gebäude in Berlin die vor 1900 gebaut wurden". Ein Beispiel eines skalren Filters ist: "Finde alle Temperatursensoren in Paris die eine Temperatur zwischen 20 Grad und 24 Grad Celsius anzeigen."
+Filterbedingungen können für räumliche, zeitliche und skalare Eigenschaften angegeben werden. Ein Beispiel für einen räumlichen Filter ist: "Finde alle Grundstücke in Niedersachsen, die Monika Mustermann gehören." Ein zeitlicher Filter ist: "Finde alle Gebäude in Berlin, die vor 1900 gebaut wurden". Ein Beispiel für einen skalaren Filter ist: "Finde alle Temperatursensoren in Paris, die eine Temperatur zwischen 20 Grad und 24 Grad Celsius anzeigen."
 
-See Also
---------
+Siehe auch
+---------
 
 .. Writing Tip:
   Describe Similar standard
