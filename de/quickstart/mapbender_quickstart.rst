@@ -30,7 +30,7 @@ Diese Kurzeinführung beschreibt:
   * das Erzeugen von individuellen Mapbender Anwendungen
   * das Anlegen von Benutzern und Gruppen und das Zuweisen von Zugriffsberechtigungen auf Anwendungen
   * das Laden von Web Feature Services (OGC WFS)
-  * das Konfigurieren von Feature Types und das Erzeugen einer Anwendung mit WFS Suche und Digitalisierung
+  * das Konfigurieren von FeatureTypes und das Erzeugen einer Anwendung mit WFS Suche und Digitalisierung
 
 
 Mapbender starten
@@ -43,14 +43,14 @@ Mapbender starten
 Sollten Sie Probleme haben Mapbender zu starten, prüfen Sie bitte, ob Ihr Apache Webserver und Ihre PostgreSQL Datenbank laufen.
 
 
-Die Willkommens-Seite
+Die Willkommensseite
 =====================
 
 #. Sie müssen sich anmelden, bevor Sie mit Mapbender arbeiten können.
 
 #. Die Willkommen-Seite verfügt über Links zu den wichtigsten Seiten zu Mapbender.
 
-#. Sie können sich mit dem Benutzer :guilabel:`root` und Passwort :guilabel:`root` anmelden (root ist der einzige Benutzer, der nach der Installation von Mapbender vorliegt. Bitte ändern Sie das Passwort des Benutzers root, wenn Sie Mapbender in einer produktiven Umgebung einsetzen wollen. Bitte löschen Sie den Benutzer :guilabel:`root` nicht, da dieser Benutzer Zugriff auf die Mapbender Anwendungenvorlagen hat und beim Aktualisieren von Mapbender verwendet wird).
+#. Sie können sich mit dem Benutzer :guilabel:`root` und Passwort :guilabel:`root` anmelden (root ist der einzige Benutzer, der nach der Installation von Mapbender vorliegt. Bitte ändern Sie das Passwort des Benutzers root, wenn Sie Mapbender in einer produktiven Umgebung einsetzen wollen. Bitte löschen Sie den Benutzer :guilabel:`root` nicht, da dieser Benutzer Zugriff auf die Mapbender Anwendungsvorlagen hat und beim Aktualisieren von Mapbender verwendet wird).
   
   .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
@@ -70,7 +70,7 @@ Es gibt verschiedene Arten von Vorlagen:
    * Kartenanwendungen
    * Dienste Container
 
-Die Anwendungen werden in :guilabel:`Kategorieren` in Reitern angezeigt. Sie können Ihre eigenen Kategorien erstellen und Ihre Anwendungen darüber kategorisieren.
+Die Anwendungen werden in :guilabel:`Kategorien` in Reitern angezeigt. Sie können Ihre eigenen Kategorien erstellen und Ihre Anwendungen darüber kategorisieren.
 
 
 Administrationsanwendungen
@@ -114,7 +114,7 @@ Kartenanwendungen enthalten OGC Web Map Services (WMS), Buttons, einen Geodataex
 
 WMS Container Anwendungen
 =========================
-Sie können eine Container Anwendungen zum Speichern von WMS Diensten anlegen. WMS Container sind nicht für die Anzeige der Daten bestimmt. Mit Containern können Sie ein Dienste Repository aufbauen.
+Sie können eine Container Anwendungen zum Speichern von WMS Diensten anlegen. WMS Container sind nicht für die Anzeige der Daten bestimmt. Mit Containern können Sie ein Diensterepository aufbauen.
 
   .. image:: ../../images/screenshots/800x600/mapbender_container.png
      :scale: 60
@@ -130,9 +130,9 @@ Erzeugen Sie eine eigene individuelle Anwendung
 
 #. Wählen Sie den Link :menuselection:`Anwendungsverwaltung --> Anwendungselemente bearbeiten` und wählen Sie die neue Anwendung aus.
 
-#. Wählen Sie aus der Auswahlbox oben rechts eine Anwendungs aus, die Sie als Vorlage für Ihre neue Anwendung verwenden möchten und bestätigen Sie die Eingabe mit **add all elements**. Diese Aktion wird alle Elemente der ausgewählten Vorlage in Ihre Anwendung kopieren.
+#. Wählen Sie aus der Auswahlbox oben rechts eine Anwendung aus, die Sie als Vorlage für Ihre neue Anwendung verwenden möchten und bestätigen Sie die Eingabe mit **add all elements**. Diese Aktion wird alle Elemente der ausgewählten Vorlage in Ihre Anwendung kopieren.
 
-#. Sie können auch einzelne Elemente aus anderen Anwendungen in Ihre neue Anwendung übertragen. Wählen Sie dazu wiederum über die Auswahlbox eine Anwendung aus. Sie können nun ein einzelnes ELement über den Radiobutton des Elementes auswählen. Über den Button **save** wird das Element in Ihre Anwendung kopiert.
+#. Sie können auch einzelne Elemente aus anderen Anwendungen in Ihre neue Anwendung übertragen. Wählen Sie dazu wiederum über die Auswahlbox eine Anwendung aus. Sie können nun ein einzelnes Element über den Radiobutton des Elementes auswählen. Über den Button **save** wird das Element in Ihre Anwendung kopiert.
 
 #. Ihre Anwendung liegt nun vor. Nun brauchen Sie einen Kartendienst, den Sie in Ihrer Anwendung anzeigen möchten. Die Einbindung von Kartendiensten wird im Abschnitt **WMS Verwaltung** behandelt.
 
@@ -174,7 +174,7 @@ Spanisches Kataster(Cadastre of spain)
 
 http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
 
-Geoportal Barcelona (Geoportalbcn)
+Geoportal Barcelona (Geoportalbcn - Link verweist auf ein Diensterepository)
 
 http://www.bcn.cat/geoportal/es/geoserveis.html
 
@@ -226,7 +226,7 @@ Konfigurieren Sie Ihre Anwendung
 ********************************
 In diesem Abschnitt sollen Sie erfahren wie einfach es ist, eine Mapbender Anwendung anzupassen ohne den Code verändern zu müssen.
 
-Wählen Sie ein Element Ihrer Anwendung beispielweise die Karte **mapframe1** über einen Klick auf den Radiobutton aus. Nach der Auswahl werden die Attribute des Elementes angezeigt. Hierbei handelt es sich um HTML Elemente. Aus dem Elementen Ihrer Anwendung baut Mapbender beim Öffnen der Anwendung eine Seite auf.
+Wählen Sie ein Element Ihrer Anwendung beispielsweise die Karte **mapframe1** über einen Klick auf den Radiobutton aus. Nach der Auswahl werden die Attribute des Elementes angezeigt. Hierbei handelt es sich um HTML Elemente. Aus dem Elementen Ihrer Anwendung baut Mapbender beim Öffnen der Anwendung eine Seite auf.
 
 	* id - eindeutiger Name für das Element
 	* on/off - de-/aktivieren eines Elements
@@ -235,7 +235,7 @@ Wählen Sie ein Element Ihrer Anwendung beispielweise die Karte **mapframe1** ü
 	* top, left - Definition der Position des Elements (für ein Layout mit festen Positionen)
 	* width/height - Definition der Größe eines Elements (Breite/Höhe)
 
-Manche Elemente verfügen über Elementvariablen, die es ermöglichen variierende Parameter für ein Element zu setzen. Die Elementvariablen können JavaScript oder PHP Variablen, Referenzen auf CSS-Dateien oder CSS-Textdefinitionen sein. 
+Manche Elemente verfügen über Elementvariablen, die es ermöglichen variierende Parameter für ein Element zu setzen. Die Elementvariablen können Javascript oder PHP Variablen, Referenzen auf CSS-Dateien oder CSS-Textdefinitionen sein. 
 
 Beispiele für Elementvariablen:
 
@@ -308,7 +308,7 @@ Mapbender unterstützt OGC Web Feature Service WFS 1.0.0 und 1.1.0. Ein WFS (Dat
 
 Wenn Sie einen WFS in Mapbender nutzen möchten, müssen Sie den Dienst laden und anschließend eine FeatureType-Konfiguration vornehmen. 
 
-Bevor Sie die Feature Type Konfiguration nutzen können, müssen Sie diese einer Anwendung zuordnen.
+Bevor Sie die FeatureType-Konfiguration nutzen können, müssen Sie diese einer Anwendung zuordnen.
 
 Wenn Sie eine Oberfläche mit WFS Digitalisierung aufbauen möchten, benötigen Sie einen WFS, der Transaktionen unterstützt (WFS-T). Sie können beispielsweise die Programme GeoServer oder deegree nutzen, um einen WFS-T aufzusetzen.
 
@@ -328,9 +328,9 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 .. image:: ../../images/screenshots/800x600/mapbender_loadWFS.png
      :scale: 80 
 
-Erzeugen einer WFS Feature Type Konfiguration
+Erzeugen einer WFS FeatureType-Konfiguration
 =============================================
-Der nächste Schritt ist das Erzeugen einer WFS Feature Type Konfiguration. Erst nach der Konfiguration und anschließenden Freischaltung für eine Anwendung kann die Konfiguration in einer Anwendung verwendet werden. 
+Der nächste Schritt ist das Erzeugen einer WFS FeatureType-Konfiguration. Erst nach der Konfiguration und anschließenden Freischaltung für eine Anwendung kann die Konfiguration in einer Anwendung verwendet werden. 
 
 
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType.png
@@ -338,13 +338,13 @@ Der nächste Schritt ist das Erzeugen einer WFS Feature Type Konfiguration. Erst
 
 **Konfiguration**
 
-#. Zuerst müssen Sie einen WFS aus der Liste *Select WFS* auswählen. Anschließend werden alle Feature Types des gewählten WFS aufgelistet.
-#. Wählen Sie den Feature Type, den Sie konfigurieren möchten.
+#. Zuerst müssen Sie einen WFS aus der Liste *Select WFS* auswählen. Anschließend werden alle FeatureTypes des gewählten WFS aufgelistet.
+#. Wählen Sie den FeatureType, den Sie konfigurieren möchten.
 #. Nach der Auswahl werden die Attributfelder und zusätzliche Felder angezeigt.
 #. Definieren Sie eine Beschreibung (Abstract) und eine Überschrift für Ihre Suche. 
 #. Definieren Sie den Text auf dem Suchbutton (f. e. ok oder Suche starten)
 #. In dem Textfeld style und result-style können Sie über css-Text den Anzeige-Stil beeinflussen
-#. Definieren Sie einen Puffer, der beim Zoom auf das Ergebis verwendet werden soll.
+#. Definieren Sie einen Puffer, der beim Zoom auf das Ergebnis verwendet werden soll.
 #. Wählen Sie die Geometriespalte.
 #. search / pos - definieren Sie die Spalten, die in Ihrer Suchmaske angezeigt werden sollen. Über pos (Position) können Sie die Reihenfolge der Suchspalten festlegen.
 #. minimum_input (**Suche**) - Definition der Zeichen, die bei der Suche in diesem Feld mindestens eingegeben werden müssen.
@@ -357,7 +357,7 @@ Der nächste Schritt ist das Erzeugen einer WFS Feature Type Konfiguration. Erst
 #. auth - Sie können eine Authorisierung definieren, um benutzerabhängigen Zugriff auf Objekte einzurichten.
 #. operator - (**Suche**) - Definition des Vergleichsoperators der Suche.
 #. helptext - Sie können für jedes Feld einen Hilfetext definieren.
-#. category - es können Kategorien definiert werden. Das Feld wird der angegebenen Kategorie zugewiesen und in der Anwendungn in einem entsprechenen Reiter mit dem Namen der Kategorie angezeigt.
+#. category - es können Kategorien definiert werden. Das Feld wird der angegebenen Kategorie zugewiesen und in der Anwendung in einem entsprechenden Reiter mit dem Namen der Kategorie angezeigt.
 #. **save** - Button zum Speichern der Einträge
 #. Ihre Konfiguration wird beim Speichern mit einer Konfigurations-Id versehen.
 
@@ -365,7 +365,7 @@ Der nächste Schritt ist das Erzeugen einer WFS Feature Type Konfiguration. Erst
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
      :scale: 80 
 
-Feature Type Konfiguration einer Anwendung zuordnen
+FeatureType-Konfiguration einer Anwendung zuordnen
 ===================================================
 Ihre neue Konfiguration muss nun einer oder mehreren Anwendungen zugewiesen werden. Dies erfolgt über *WFS Verwaltung -> WFS Konfiguration GUI zuweisen*.
 
@@ -379,7 +379,7 @@ Ihre neue Konfiguration muss nun einer oder mehreren Anwendungen zugewiesen werd
 
 Aufsetzen einer WFS Suche
 =========================
-Um eine Feature Type Konfiguration in einer Anwendung in einer Suche verwenden zu können, müssen Sie die Konfigurations-Id im Suchmodul eintragen. Gehen Sie in die Administration *admin_de_services -> Anwendungselemente bearbeiten*, wählen Sie Ihre Anwendung und wählen Sie anschließend das Element *gazetteerWFS*. Diesen Element hat eine Elementvariable *wfsConfIdString*. Die Variable enthält eine Komma separierte Liste der WFS Konfiguratons-Ids. In der Reihenfolge der Liste werden die angegebenen Suchen in der Anwendung angeboten.
+Um eine FeatureType-Konfiguration in einer Anwendung in einer Suche verwenden zu können, müssen Sie die Konfigurations-Id im Suchmodul eintragen. Gehen Sie in die Administration *admin_de_services -> Anwendungselemente bearbeiten*, wählen Sie Ihre Anwendung und wählen Sie anschließend das Element *gazetteerWFS*. Diesen Element hat eine Elementvariable *wfsConfIdString*. Die Variable enthält eine Komma separierte Liste der WFS Konfiguratons-Ids. In der Reihenfolge der Liste werden die angegebenen Suchen in der Anwendung angeboten.
 
 .. image:: ../../images/screenshots/800x600/mapbender_wfsConfIdString.png
      :scale: 80 
@@ -391,12 +391,12 @@ Schauen sie sich an, wie eine Suche in einer Anwendung aussehen kann. Das Beispi
 
 Aufsetzen einer WFS Digitalisierfunktionalität
 ==============================================
-Die einfachste Art eine Anwendung mit Digitalierfunktionaität zu erhalten ist das Erzeugen einer Kopie der Anwendung gui_digitize.
-Nun müssen Sie lediglich eine WMS Ebene mit Ihrer Feature Type Konfiguration verbinden. Dies erfolgt über *WMS Anwendungseinstellungen* über den Button *set WFS* in the Liste der Ebenen. Wählen Sie den Button und anschließend Ihre Konfigurations Id.
+Die einfachste Art eine Anwendung mit Digitalierfunktionalität zu erhalten ist das Erzeugen einer Kopie der Anwendung gui_digitize.
+Nun müssen Sie lediglich eine WMS Ebene mit Ihrer FeatureType-Konfiguration verbinden. Dies erfolgt über *WMS Anwendungseinstellungen* über den Button *set WFS* in the Liste der Ebenen. Wählen Sie den Button und anschließend Ihre Konfigurations Id.
 
 .. tip:: Stellen Sie sicher, dass die WMS Ebene, mit der Sie die Konfigurations-Id verbinden, WMS FeatureInfo unterstützt. Hierüber entscheidet Mapbender, ob ein WFS getFeature-Aufruf geschickt werden soll oder nicht.
 
-Nun können Sie über die räumliche Auswahl bestehende Objekte selektieren, die in einer Trefferliste angezeigt werden. Die Objekte können verändert werden (Verschieben der Stütztpunkte, Hinzufügen von Stützpunkten, Ändern der Attributeinträge, Teilen von Linien, Linien verlängern, Zusammenführen von Polygonen...). Sie können natürlich auch neue Objekte anlegen.
+Nun können Sie über die räumliche Auswahl bestehende Objekte selektieren, die in einer Trefferliste angezeigt werden. Die Objekte können verändert werden (Verschieben der Stützpunkte, Hinzufügen von Stützpunkten, Ändern der Attributeinträge, Teilen von Linien, Linien verlängern, Zusammenführen von Polygonen...). Sie können natürlich auch neue Objekte anlegen.
 
 .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80 
@@ -428,7 +428,7 @@ Schauen Sie sich das Mapbender Tutorial an
 
 Lernen Sie Mapbender kennen
 	
-	http://projects.mapbender.orgeo.org
+	http://projects.mapbender.osgeo.org
 
 Bringen Sie sich in das Projekt ein
 

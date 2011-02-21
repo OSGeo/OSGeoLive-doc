@@ -177,7 +177,7 @@ Cadastre of spain
 
 http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
 
-Geoportal Barcelona (Geoportalbcn)
+Geoportal Barcelona (Geoportalbcn - link refers to a service repository)
 
 http://www.bcn.cat/geoportal/es/geoserveis.html
 
@@ -433,7 +433,7 @@ Try the tutorial in english language
 
 Get to know Mapbender on 
 	
-	http://projects.mapbender.orgeo.org
+	http://projects.mapbender.osgeo.org
 
 Get involved in the project
 
