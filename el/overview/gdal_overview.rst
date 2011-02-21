@@ -28,11 +28,9 @@ The utilities are based upon a cross platform, C++ library, accessible via numer
 
 GDAL/OGR is the most widely used geospatial data access library. It provides the primary data access engine for many applications including MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
-
-.. TBD: Insert an image here
-  .. image:: ../../images/screenshots/800x600/pgadmin.gif
-  :scale: 75 %
-  :alt: project logo
+.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+  :scale: 60 %
+  :alt: GDAL supports many geodata formats
   :align: right
 
 Core Features

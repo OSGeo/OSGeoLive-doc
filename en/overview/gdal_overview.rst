@@ -22,17 +22,22 @@ GDAL/OGR
 GeoSpatial Data Translation Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geospatial Data Abstraction Library (GDAL/OGR) provides command-line utilities to translate and process a wide range of raster and vector geospatial data formats.
+Geospatial Data Abstraction Library (GDAL/OGR) provides command-line
+utilities to translate and process a wide range of raster and vector
+geospatial data formats.
 
-The utilities are based upon a cross platform, C++ library, accessible via numerous programming languages.  As a library, it presents a single abstract data model to the calling application for all supported formats.
+The utilities are based upon a cross platform, C++ library, accessible
+via numerous programming languages.  As a library, it presents a single
+abstract data model to the calling application for all supported formats.
 
-GDAL/OGR is the most widely used geospatial data access library. It provides the primary data access engine for many applications including MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
+GDAL/OGR is the most widely used geospatial data access library. It provides
+the primary data access engine for many applications including MapServer,
+GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM,
+Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
-
-.. TBD: Insert an image here
-  .. image:: ../../images/screenshots/800x600/pgadmin.gif
-  :scale: 75 %
-  :alt: project logo
+.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+  :scale: 60 %
+  :alt: GDAL supports many geodata formats
   :align: right
 
 Core Features
@@ -70,6 +75,6 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**API Interfaces:** Python, Java, C#, Ruby, VB6 and Perl
+**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
-**Support:** http://www.osgeo.org/search_profile
+**Support:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile

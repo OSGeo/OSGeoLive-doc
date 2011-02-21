@@ -28,10 +28,9 @@ Die Hilfsprogramme basieren auf einer plattformübergreifenden C++ Bibliothek, d
 
 GDAL/OGR ist die am weitesten verbreitete Bibliothek für den Zugriff auf räumliche Daten. Viele Anwendungen einschließlich MapServer, GRASS, QGIS und OpenEV nutzen überwiegend GDAL/OGR für den Datenzugriff. GDAL/OGR wird auch von OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide und ArcGIS genutzt.
 
-.. TBD: Insert an image here
-  .. image:: ../../images/screenshots/800x600/pgadmin.gif
-  :scale: 75 %
-  :alt: project logo
+.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+  :scale: 60 %
+  :alt: GDAL supports many geodata formats
   :align: right
 
 Kernfunktionen
