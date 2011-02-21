@@ -22,7 +22,7 @@
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: center
   
   
 *	Με κλικ στον χάρτη επιλέγετε ένα χαρακτηριστικό από τον GeoServer WFS, το οποίο θα εμφανιστεί με χρώμα μπλε. Στην συνέχεια επιλέξτε κάποια απλή γεωμετρική επεξεργασία όπως Buffer, Centroid, ConvexHull ή Boundary και το αποτέλεσμα θα εμφανιστεί κίτρινο.
@@ -30,7 +30,7 @@
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: center
   
 
 *	Τώρα επιλέξτε ένα άλλο χαρακτηριστικό κοντά στο προηγούμενο και στην συνέχεια επιλέξτε κάποια απ' τις σύνθετες γεωμετρικές επεξεργασίες όπως Union, Intersection, Symmetric Difference ή Difference για να λάβετε ως κόκκινο το αποτέλεσμά της.
@@ -38,7 +38,7 @@
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
-  :align: right
+  :align: center
 
 
 *	Μπορείτε να δημιουργήσετε τις δικές σας επιλογές και να τα στείλετε στον πυρήνα του ZOO μέσω της ακόλουθης ιστοσελίδας:

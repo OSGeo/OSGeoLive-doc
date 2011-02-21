@@ -20,7 +20,7 @@ Application Quick Starts
 .. toctree::
   :maxdepth: 1
 
-  52nWPS_quickstart
+ 52nWPS_quickstart
   atlasstyler_quickstart
   deegree_quickstart
   geomajas_quickstart
@@ -41,6 +41,7 @@ Application Quick Starts
   osm_quickstart
   ossim_quickstart
   pgrouting_quickstart
+  R_quickstart
   saga_quickstart
   sahana_quickstart
   spatialite_quickstart
@@ -48,4 +49,5 @@ Application Quick Starts
   ushahidi_quickstart
   viking_quickstart
   zoo-project_quickstart
+
 
