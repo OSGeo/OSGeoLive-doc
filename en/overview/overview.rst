@@ -10,8 +10,7 @@ Browser Clients
 ---------------
 * :doc:`openlayers_overview` - [`QuickStart <../quickstart/openlayers_quickstart.html>`_]
 * :doc:`geomajas_overview` - [`QuickStart <../quickstart/geomajas_quickstart.html>`_]
-* :doc:`mapbender_overview` [`QuickStart <../quickstart/mapbender_quickstart.html>`_]
-
+* :doc:`mapbender_overview` - [`QuickStart <../quickstart/mapbender_quickstart.html>`_]
 * :doc:`mapfish_overview` - [`QuickStart <../quickstart/mapfish_quickstart.html>`_]
 
 Crisis Management
@@ -22,7 +21,7 @@ Crisis Management
 Databases
 ---------
 * :doc:`postgis_overview` - Spatial Database
-* :doc:`spatialite_overview`- [`QuickStart <../quickstart/spatialite_quickstart.html>`_] Light Database
+* :doc:`spatialite_overview`- [`QuickStart <../quickstart/spatialite_quickstart.html>`_] - Lightweight Database
 * :doc:`pgrouting_overview` - [`QuickStart <../quickstart/pgrouting_quickstart.html>`_] - Routing for PostGIS
 
 Desktop GIS
@@ -44,7 +43,7 @@ Navigation and Maps
 -------------------
 * :doc:`gpsdrive_overview` - [`QuickStart <../quickstart/gpsdrive_quickstart.html>`_] - GPS Navigation
 * :doc:`marble_overview` - [`QuickStart <../quickstart/marble_quickstart.html>`_] - Spinning Globe
-* :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS
+* :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS Chartplotter
 * :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - Open Street Map Tools
 * :doc:`prune_overview` - [`QuickStart <../quickstart/prune_quickstart.html>`_] - View, Edit and Convert GPS Tracks
 * :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Data Analysis and Viewer
@@ -52,11 +51,11 @@ Navigation and Maps
 
 Spatial Tools
 -------------
-* :doc:`gdal_overview` - [`QuickStart <../quickstart/gdal_quickstart.html>`_] - GeoSpatial Data Translation Tools
+* :doc:`gdal_overview` - GeoSpatial Data Translation Tools
 * :doc:`gmt_overview` - [`QuickStart <../quickstart/gmt_quickstart.html>`_] - Cartographic Rendering
 * :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Cartographic Rendering
 * :doc:`otb_overview` - [`QuickStart <../quickstart/otb_quickstart.html>`_] - Image Processing
-* :doc:`maptiler_overview` - Map Tiles
+* :doc:`maptiler_overview` - Create Map Tiles
 * :doc:`R_overview` - Statistical Programming
 * :doc:`geokettle_overview` - Data Integration
 
@@ -68,8 +67,8 @@ Web Services
 * :doc:`mapserver_overview`
 * :doc:`qgis_mapserver_overview` - [`QuickStart <../quickstart/qgis_mapserver_quickstart.html>`_]
 * :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] Metadata Catalog and Catalog Services for Web
-* :doc:`52nWPS_overview` - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
-* :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
+* :doc:`52nWPS_overview` - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_] - Web Processing Service
+* :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
 Tests
