@@ -3,32 +3,33 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Open GeoSpatial Consortium Standards
-====================================
+Standards des Open GeoSpatial Consortiums
+=========================================
 
 Einführung
 ------------
-Das Open Geospatial Consortium (OGC) wurde 1994 gegründet um räumliche Informationen zu einem integralen Teil der globalen Informationsinfrastructur zu machen. OGC Mitglieder – Technologieanbieter und -anwender - erarbeiten gemeinsam offene Standards für Schnittstellen und daran angegliederte Encoding Standards sowie Best Practices. Diese Standards ermöglichen es Entwicklern, Informationssysteme aufzubauen, die leicht räumliche Informationen und Anweisungen mit anderen Anwendungen austauschen können. Die Anforderungen reichen von komplexen zeitlichen Steuerungen und der Kontrolle von erdbeobachtenden Sateliten bis zur ANzeige von einfachen Kartenbildern im Web sowie der Kodierung von Standorten in ein paar Bytes zum Geo-Tagging und Nachrichtenvermittlung. Ein Blick auf die OGC Arbeitsgruppen zeigt (http://www.opengeospatial.org/projects/groups/wg) die große Bandbreite der aktuellen Aktivitäten im OGC.
+Das Open Geospatial Consortium (OGC) wurde 1994 gegründet um räumliche Informationen zu einem integralen Teil der globalen Informationsinfrastruktur zu machen. OGC Mitglieder – Technologieanbieter und -anwender - erarbeiten gemeinsam offene Standards für Schnittstellen und daran angegliederte Encoding Standards sowie Best Practices. Diese Standards ermöglichen es Entwicklern, Informationssysteme aufzubauen, die leicht räumliche Informationen und Anweisungen mit anderen Anwendungen austauschen können. Die Anforderungen reichen von komplexen zeitlichen Steuerungen und der Kontrolle von erdbeobachtenden Satelliten bis zur Anzeige von einfachen Kartenbildern im Web sowie der Kodierung von Standorten in ein paar Bytes zum Geo-Tagging und Nachrichtenvermittlung. Ein Blick auf die OGC Arbeitsgruppen zeigt (http://www.opengeospatial.org/projects/groups/wg) die große Bandbreite der aktuellen Aktivitäten im OGC.
 
-OGC Baseline and OGC Reference Model
+OGC Grundline und OGC Referenzmodell
 ----------------------------------------
 
-The OGC Standards Baseline consists of the OGC standards (http://www.opengeospatial.org/standards) for interfaces, encodings, profiles, application schemas, and best practice documents. The OGC Reference Model (ORM) (http://www.opengeospatial.org/standards/orm) describes these standards and the relationships between them and related ISO standards. The ORM provides an overview of OGC standards and serves as a useful resource for defining architectures for specific applications.
-
-Bei der Entwicklung von Web Service Anwendungen unter Einsatz von OCG Standards (und beim Kennenlernen der Beziehungen der OGC Standards untereinander) hilft es, sich die drei Schlüsselfunktionen für Anwendungen in einer Web Service Umgebung zu vergegenwärtigen. Diese sind das Veröffentlichen, Auffinden und Einbinden von Daten.
+Die Grundlinie der OGC Standards besteht aus OGC Standards (http://www.opengeospatial.org/standards) für Schnittstellen, Kodierungen, Profile, Anwendungsschemata und Best Practice Dokumente. 
+Das OGC Referenzmodell (ORM) (http://www.opengeospatial.org/standards/orm) beschreibt diese Standards und die Beziehungen der Standards zueinander und zu den ISO Standards. Das ORM bietet einen Überblick über die OGC Standards und dient als hilfreiche Quelle, wenn es darum geht Architekturen für spezifische Anwendungen aufzubauen.
+ 
+Bei der Entwicklung von Web Service Anwendungen unter Einsatz von OGC Standards (und beim Kennenlernen der Beziehungen der OGC Standards untereinander) hilft es, sich die drei Schlüsselfunktionen für Anwendungen in einer Web Service Umgebung zu vergegenwärtigen. Diese sind das Veröffentlichen, Auffinden und Einbinden von Daten.
 
 * Veröffentlichen: Datenanbieter veröffentlichen ihre Daten
 * Auffinden: Endanwender und deren Anwendungen können benötigte Datenquellen zur Laufzeit auffinden
 * Einbinden: Endanwender und deren Anwendungen können auf Daten zur Laufzeit zugreifen und diese anwenden
 
-Die meisten in den letzten Jahren entwickleten OGC Standards sind Standards aus dem Web Service Bereich. Diese Standards werden kollektiv als OGC Web Services (OWS) angesprochen. Die folgende Graphik stellt ein generelles Architekturschema für OGC Web Services dar. Dieses Schema zeigt die generischen Klassen der Dienste, die in diversen Geoprozessierungen und räumlichen Aktivitäten zum Einsatz kommen.
+Die meisten in den letzten Jahren entwickelten OGC Standards sind Standards aus dem Web Service Bereich. Diese Standards werden kollektiv als OGC Web Services (OWS) angesprochen. Die folgende Graphik stellt ein generelles Architekturschema für OGC Web Services dar. Dieses Schema zeigt die generischen Klassen der Dienste, die in diversen Geoprozessierungen und räumlichen Aktivitäten zum Einsatz kommen.
 
 
 .. figure:: ../../images/standards/publish_find_bind.jpg
   :scale: 25%
-  :alt: Web services framework of OGC geoprocessing standards
+  :alt: Web Services Framework für OGC Geoprocessing Standards
 
-Abkürzungen in der Graphik werden weiter unten erklärt. Einige sind “OGC standards” und andere sind öffentlich zugängliche “Discussion Papers” (Diskussionen), “Requests” (Anfragen) und “Recommendation Papers” (Empfehlungen). (Beachten Sie, dass einige Standards noch in Bearbeitung sind und noch nicht öffentlicht aber für OGC Mitglieder zugänglich sind.) 
+Die Abkürzungen in der Graphik werden weiter unten erklärt. Einige sind “OGC standards” und andere sind öffentlich zugängliche “Discussion Papers” (Diskussionen), “Requests” (Anfragen) und “Recommendation Papers” (Empfehlungen). (Beachten Sie, dass einige Standards noch in Bearbeitung sind und noch nicht öffentlicht, aber für OGC Mitglieder zugänglich sind.) 
 
 * :doc:`wms_overview`
 * :doc:`wfs_overview`
