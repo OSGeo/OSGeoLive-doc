@@ -37,7 +37,7 @@ Web Map Service (WMS)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-Der (OGC®) Web Map Service Interface Standard (WMS) bietet eine einfache HTTP Schnittstelle um georeferenzierte Kartenbilder von einer oder mehreren verteilten räumlichen Datenbanken anzufordern. Die Antwort auf die Anforderung sind ein oder mehrere Kartenbilder (als JPEG, PNG usw.), welche in einem Browser oder einer Desktopanwendung angezeigt werden kann.(http://www.opengeospatial.org/standards/wms) 
+Der (OGC®) Web Map Service Interface Standard (WMS) bietet eine einfache HTTP Schnittstelle, um georeferenzierte Kartenbilder von einer oder mehreren verteilten räumlichen Datenbanken anzufordern. Die Antwort auf die Anfrage sind ein oder mehrere Kartenbilder (als JPEG, PNG usw.), welche in einem Browser oder einer Desktopanwendung angezeigt werden können.(http://www.opengeospatial.org/standards/wms) 
 
 .. image:: ../../images/standards/wms.jpg
   :scale: 25%
@@ -45,23 +45,23 @@ Der (OGC®) Web Map Service Interface Standard (WMS) bietet eine einfache HTTP S
 
 Der WMS-Standard definiert drei Operationen: 
 
-* GetCapabilities (erforderlich): Erhalten von Metadaten des Service, welche in maschinen- und menschenlesbarer Form die WMS-Inhalte und akzeptierten Anfrageparameter beschreibt.
+* GetCapabilities (erforderlich): Liefert Metadaten des Dienstes, welche in maschinen- und menschenlesbarer Form die WMS-Inhalte und unterstützten Anfrageparameter beschreibt.
 
-* GetMap (erforderlich): Erhalten eines Kartenbildes, dessen räumliche Parameter wohldefiniert sind.
+* GetMap (erforderlich): Liefert ein Kartenbild, dessen räumliche Parameter wohldefiniert sind.
 
-* GetFeatureInfo (optional): Anfordern von Informationen über ein bestimmtes Objekt, welches auf einer Karte angezeigt wird.
+* GetFeatureInfo (optional): Fragt Informationen zu einem bestimmtem Objekt ab, welches in der Karte angezeigt wird.
 
 Der Standard wird inzwischen von hunderten Produkten implementiert, von denen viele unter (http://www.opengeospatial.org/resource/products/compliant) verzeichnet sind.
 
-Ein hervorragendes Beispiel eines Portals, das WMS nutzt ist NC OneMap (http://www.nconemap.com/): “NC OneMap basiert auf Web Map Services (WMS) um Daten von vielen Servern zusammenzubringen. NC OneMap Partner erstellen einen WMS auf ihren Servern. Dieser OGC Standard erlaubt es, Daten in vielen verschiedenen propritären Softwarekonfigurationen (ESRI, MapInfo, Intergraph, usw.) zu erzeugen und zu speichern, sie sind dennoch für alle anzeigbar.” 
+Ein hervorragendes Beispiel eines Portals, das WMS nutzt ist NC OneMap (http://www.nconemap.com/): “NC OneMap basiert auf Web Map Services (WMS), um Daten von vielen verteilten Servern zusammenzubringen. NC OneMap Partner erstellen einen WMS auf ihren Servern. Dieser OGC Standard erlaubt es, Daten in vielen verschiedenen proprietären Softwarekonfigurationen (ESRI, MapInfo, Intergraph, usw.) zu erzeugen und zu speichern. Trotzdem können alle auf die Daten zugreifen.” 
 
-See Also
---------
+Siehe auch
+----------
 
 .. Writing Tip:
   Describe Similar standard
 
-Ein OGC WMS Kochbuch und anderes Material für Entwickler findet sich unter http://www.opengeospatial.org/resource/cookbooks. 
+Ein OGC WMS Kochbuch und andere Materialien für Entwickler finden sich unter http://www.opengeospatial.org/resource/cookbooks. 
 
 Weitere OGC Servicestandards: 
  
