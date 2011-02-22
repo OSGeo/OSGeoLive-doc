@@ -19,62 +19,54 @@
 GDAL/OGR
 ========
 
-GeoSpatial Data Translation Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Εργαλεία διαχείρισης γεωχωρικών δεδομένων
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geospatial Data Abstraction Library (GDAL/OGR) provides command-line
-utilities to translate and process a wide range of raster and vector
-geospatial data formats.
+Η βιβλιοθήκη Geospatial Data Abstraction Library (GDAL/OGR) παρέχει εργαλεία για την μετατροπή και επεξεργασία μεγάλης ποικιλίας διανυσματικών και πινακοποιημένων (raster) τυποποιήσεων αρχείων γεωχωρικών δεδομένων (format).
 
-The utilities are based upon a cross platform, C++ library, accessible
-via numerous programming languages.  As a library, it presents a single
-abstract data model to the calling application for all supported formats.
+Τα εργαλεία αυτά στηρίζονται σε μια μεταφέρσιμη (cross platform) βιβλιοθήκη C++ προσβάσιμη από σχεδόν όλες τις λοιπές γλώσσες προγραμματισμού. Ως βιβλιοθήκη αναπαριστά μέσω ενός αφαιρετικού μοντέλου όλες τις υποστηριζόμενες τυποποιήσεις.
 
-GDAL/OGR is the most widely used geospatial data access library. It provides
-the primary data access engine for many applications including MapServer,
-GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM,
-Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
+Σήμερα είναι η πλέον διαδεδομένη βιβλιοθήκη διαχείρησης γεωχωρικών δεδομένων. Λειτουργεί στην μηχανή πρόσβασης στα δεδομένα σε πολλά γνωστά λογισμικά όπως: MapServer, GRASS, QGIS, and OpenEV. Επίσης υποστηρίζεται από πακέτα όπως: OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
 .. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
-  :alt: GDAL supports many geodata formats
+  :alt: Η GDAL υποστηρίζει πολλά format 
   :align: right
 
-Core Features
--------------
+Κύρια Χαρακτηριστικά
+--------------------
 
-* Command-line utilities for data translation, image warping, subsetting, and various other common tasks
-* Highly efficient raster data access, taking advantage of tiling and overviews
-* Support for large files - larger than 4GB
-* Library access from Python, Java, C#, Ruby, VB6 and Perl
-* Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate system descriptions
+* Εργαλεία γραμμής εντολών για την μετατροπή, γεωμετρικό μετασχηματισμό, τεμαχιοποίηση και πολλές άλλες εργασίες 
+* Εξαιρετικά βελτιστοποιημένη πρόσβαση στα δεδομένα με χρήση ενδιάμεσης αποθήκευσης τύπου τετραγωνιδίου (tile) καθώς και εικόνες επίβλεψης (overviews)
+* Υποστήριξη για μεγάλα αρχεία - μεγαλύτερα από 4Gb
+* Πρόσβαση μέσω των γλωσσών Python, Java, C#, Ruby, VB6 και Perl
+* Περιέχει την μηχανή γεωγραφικού γεωδαιτικού συστήματος PROJ.4 και OGC με υποστήριξη σε πολλά συστήματα
 
-Popular Supported Formats
--------------------------
+Διαδεδομένες υποστηριζόμενες τυποποιήσεις
+-----------------------------------------
 
-GDAL supports over 50 raster formats, and OGR over 20 vector formats.
+Η GDAL υποστηρίζει περισσότερα από 50 πινακοποιημένες τυποποιήσεις και η OGR περισσότερες από 20 διανυσματικές.
 
-These include:
+Σε αυτές περιλαμβάνονται:
 
-* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, and more ...
-* **Vector:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, and more ...
+* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, και πολλές άλλες ...
+* **Vector:** MapInfo (tab και mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, και πολλές άλλες ...
 
-Implemented Standards
----------------------
+Υποστηριχθέντα πρότυπα
+----------------------
+Η διανυσματική βιβλιοθήκη OGR είναι σύμφωνη με την προδιαγραφή OGC Simple Features.
 
-The OGR vector data model is compliant with the OGC Simple Features specification.
+Περισσότερα
+-----------
 
-Details
--------
+**Κεντρική Ιστοσελίδα:**  http://www.gdal.org
 
-**Website:**  http://www.gdal.org
+**Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
+**Έκδοση Λογισμικού:** 1.7.3
 
-**Software Version:** 1.7.3
+**Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 
-**Supported Platforms:** Windows, Linux, Mac
+**Προγραμματιστικές Διεπαφές:** C, C++, Python, Java, C#, Ruby, VB6 και Perl
 
-**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
-
-**Support:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+**Υποστήριξη:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
