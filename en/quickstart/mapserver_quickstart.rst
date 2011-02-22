@@ -147,7 +147,7 @@ Let's take our previous WMS **GetMap** request as it was.  Let's say we want to 
 
  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=AGG/PNG&WIDTH=800&HEIGHT=600
 
-The image rendered by MapServer look like our previous map, but with addition of the lakes from our new layer::
+The image rendered by MapServer look like our previous map, but with addition of the lakes from our new layer:
 
   .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
