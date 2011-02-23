@@ -1,4 +1,6 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Συγγραφέας: Johan Van de Wauw
+:Έκδοση: osgeo-live4.0
+:Άδεια: Creative Commons:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -14,66 +16,59 @@
 52°North SOS
 =============
 
-Web Service
+Διαδικτυακή υπηρεσία
 ~~~~~~~~~~~
 
-The 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
-aggregates readings from live, in-situ and remote sensors. The service provides 
-an interface to make sensors and sensor data archives accessible via an 
-interoperable web based interface. Four profiles are defined within the SOS 
-specification: core, transactional, enhanced, and entire. The current release 
-(52N-SOS-3.1.1) implements the core, transactional, and parts of the enhanced 
-profile comprising the mandatory operations. The current release implements the 
-latest schema version (1.0.0).
+Η 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
+συγκεντρώνει εγγραφές από ενεργούς, επίγειους και τηλεπισκοπικούς δέκτες. Η υπηρεσία προσφέρει μια διεπαφή ώστε να κάνει τους δέκτες και τα δεδομένα αυτών διαθέσιμα μέσω ενός διαλειτουργικού διαδικτυακού περιβάλλοντος. Τέσσερα προφίλ ορίζονται μέσα από τα πρότυπα του SOS: core, transactional, enhanced, and entire. Η τρέχουσα έκδοση (52N-SOS-3.1.1) υλοποιεί τα προφίλ core, transactional, και τμήματα του enhanced προφίλ που αποτελούν τις απαιτούμενες διεργασίες. Η τρέχουσα έκδοση υλοποιεί την τελευταία έκδοση του σχήματος (1.0.0).
 
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
   :scale: 50 %
-  :alt: screenshot of sos test client
+  :alt: εικόνα του δοκιμαστικού εξυπηρετητή sos
   :align: right
 
-Core Features
+Δυνατότητες Core 
 -------------
-* GetCapabilities, for requesting a self-description of the service.
-* GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M)
-* DescribeSensor, for requesting information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
+* GetCapabilities, για ερώτηση μιας περιγραφής της υπηρεσίας.
+* GetObservation, για αίτημα των αυθεντικών δεδομένων του δέκτη, κωδικοποιημένα σε Observations & Measurements (O&M)
+* DescribeSensor, για πληροφορίες για τον δέκτη τον ίδιο, κωδικοποιημένα σε αρχείο Sensor Model Language (SensorML).
 
-The transactional profile comprising of the following operations is implemented, too:
-* RegisterSensor, for signing up new sensors.
-* InsertObservation, for inserting new observations for registered sensors.
+Η συναλλακτική προφίλ που περιλαμβάνει τις ακόλουθες πράξεις εφαρμόζεται, επίσης: * RegisterSensor, για την εγγραφή νέων αισθητήρων.
+* InsertObservation, για εισαγωγή νέων παρατηρήσεων για εγγεγραμμένους δέκτες.
 
-Additionally, the following operations are implemented:
-* GetResult, for periodically polling of sensor data
+Επιπροσθέτως, είναι υλοποιημένες και οι ακόλουθες:
+* GetResult, για περιοδική συγκέντρωση δεδομένων ενός δέκτη
 * GetObservationById
-* GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
+* GetFeatureOfInterest, για ζήτηση της  κωδικοποιημένης αναπαράστασης της ιδιότητας σε GML που είναι ο στόχος της παρατήρησης
 * GetFeatureOfInterestTime
 
-* A browser based client
+*Ένα λογισμικό-πελάτης βασισμένο πάνω σε περιηγητή
 
-Implemented Standards
+Υλοποιημένα πρότυπα
 ---------------------
 
 * OGC Sensor Observation Service (SOS)
 
-Details
+Λεπτομέρειες
 -------
 
-* **Website:** http://52north.org/communities/sensorweb/sos
+* **Κεντρική Ιστοσελίδα:** http://52north.org/communities/sensorweb/sos
 
-* **Licence:** GPL
+* **Άδεια:** GPL
 
-* **Software Version:** SOS 3.1.1
+* **Έκδοση λογισμικού:** SOS 3.1.1
 
-* **Supported Platforms:** Windows, Linux, Mac
+* **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-* **API Interfaces:** Java
+* **Προγραμματιστικές Διεπαφές:** Java
 
-* **Commercial Support:** http://www.52north.org/
+* **Εμπορική υποστήριξη:** http://www.52north.org/
 
 
-Quickstart
+Γρήγορη Εκκίνηση
 ----------
 
-* `Quickstart documentation <../quickstart/52nSOS_quickstart.html>`_
+* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/52nSOS_quickstart.html>`_
 
 
