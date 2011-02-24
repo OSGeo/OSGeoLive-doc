@@ -1,6 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Συγγραφέας: OSGeo Live
+:΄Έκδοση: osgeo-live4.5
+:Άδεια: Creative Commons
 
 .. _naturalearth-overview:
 
@@ -14,53 +14,53 @@
 Natural Earth
 =============
 
-Map Data
+Δεδομένα Χάρτη
 ~~~~~~~~
 
-Natural Earth provides cartographers an off-the shelf solution for creating small-scale world, regional, and country maps at 1:10-, 1:50-, and 1:110- million scales. Both political (administrative) and physical (natural) features are included and vector features align perfectly with included raster data.
+Το Natural Earth είναι ένα πρόγραμμα το οποίο διατίθεται προκειμένου να παρέχει στους χαρτογράφους τη δυνατότητα για τη δημιουργία μικρής κλίμακας παγκόσμιους και τοπικούς χάρτες και επίσης χάρτες χωρών σε κλίμακες 1:10-, 1:50-, and 1:110- εκατομμύρια. Τόσο πολιτικά (διοικητικά) όσο και φυσικά χαρακτηριστικά συμπεριλαμβάνονται και τα διανυσματικά χαρακτηριστικά  προσαρμόζονται πολύ καλά με τα εικονιστικά δεδομένα.
 
-Natural Earth solves the common problem that many cartographers face: finding vector data for making publication-quality small-scale maps at the appropriate level of detail for the maps they are making.
+Το πρόγραμμα Natural Earth λύνει το κοινό πρόβλημα που πολλοί χαρτογράφοι αντιμετωπίζουν: Την εύρεση διανυσματικών δεδομένων για την κατασκευή ποιοτικής εκτύπωσης και μικρής κλίμακας χαρτών, στο κατάλληλο επίπεδο λεπτομέρειας για τους χάρτες που φτιάχνουν.
 
 .. image:: ../../images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: project logo
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 -------------
 
-* Vector features include name and other attributes        
-* Large polygons are split for more efficient data handling such as bathymetric layers.   
-* Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data  points for smooth bending in conic projections, but not so many that computer processing speed suffers.
-* Raster data includes grayscale-shaded relief and cross-blended hypsometric tints derived from the latest NASA SRTM Plus elevation data and tailored to register with Natural Earth Vector.
-* Optimized for use in web mapping applications, such as Google or Yahoo, with built-in scale attributes to direct features to be shown at different zoom levels.
+* Τα διανυσματικά χαρακτηριστικά περιλαμβάνουν το όνομα και άλλες ιδιότητες        
+* Τα μεγάλα πολύγωνα μπορούν να χωριστούν, για πιο αποδοτική διαχείριση δεδομένων όπως σε περίπτωση βαθυμετρικών επιπέδων.   
+* Φιλικά διανύσματα προβολής που ταιριάζουν ακριβώς στις 180 μοίρες κατά τη διεύθυνση Ανατολής-Δύσης. Οι γραμμές περιλαμβάνουν επαρκή δεδομένα σημείων για την εξομάλυνση της κάμψης σε κονικές προβολές, αλλά όχι τόσα πολλά ώστε να δημιουργείται πρόβλημα με την ταχύτητα επεξεργασίας τους από τον υπολογιστή.
+* Τα εικονιστικά δεδομένα περιλαμβάνουν ανάγλυφο με σκίαση σε αποχρώσεις του γκρι και αποδίδουν την αλλαγή του υψομέτρου με κατάλληλου χρώματος υψομετρικές καμπύλες, βάσει δεδομένων προερχόμενων από τα πιο πρόσφατα υψομετρικά στοιχεία από τη NASA SRTM Plus, τα οποία έχουν προσαρμοστεί κατάλληλα για να register with Natural Earth Vector.
+* Είναι αναβαθμισμένο για να χρησιμοποιείται σε εφαρμογές διαδικτυακής χαρτογραφίας, όπως στο Google ή το Yahoo, με χαρακτηριστικά διαμορφωμένα σε κατάλληλες κλίμακες προκειμένου να επιτρέπουν την εμφάνισή τους σε διαφορετικά επίπεδα μεγέθυνσης.
 
 
-Data Sets
+Σειρές δεδομένων
 ---------
 
-Cultural Vector Data Themes:
-  Includes countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings.
+Πολιτισμικά διανυσματικά θέματα δεδομένων:
+  Περιλαμβάνουν χώρες, αμφισβητούμενες περιοχές, πολιτείες και επαρχίες (διοικητικός διαχωρισμός πρώτου βαθμού), και κατοικημένες περιοχές (μεγαλουπόλεις, κωμοπόλεις). Δρόμοι, σιδηρόδρομοι, αστικά πολύγωνα, πάρκα και προστατευόμενες περιοχές, ομάδες χωρών του Ειρηνικού και όρια που υποδεικνύουν την παρουσία νερού, ολοκληρώνουν τα προσφερόμενα πολιτισμικά στοιχεία.
 
-Physical Vector Data Themes:
-  Include coastline, land, ocean, minor islands, reefs, physical region features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, bathymetry, geographic lines, and graticles.
+Φυσικά διανυσματικά θέματα δεδομένων:
+  Περιλαμβάνουν ακτογραμμές, γή, ωκεανούς, μικρότερα νησιά, ύφαλους, χαρακτηριστικά και σημεία φυσικών περιοχών, ποτάμια, λίμνες, παγωμένες περιοχές, επιπλέουσες πλατφόρμες πάγου της Ανταρκτικής, στοιχεία βαθυμετρίας και γεωγραφικές γραμμές.
 
-Raster Data Themes:
-  Greyscale shaded relief, cross blended hypsometric tints, satellite-derived land cover data, idealized world environment, ocean bottom, and bathymetry. Optional baked in content includes: land cover, shaded relief, ocean water, and drainages with lakes.
+Εικονιστικά θέματα δεδομένων:
+  Σκίαση σε αποχρώσεις του γκρι, αλλαγή του υψομέτρου με κατάλληλου χρώματος υψομετρικές καμπύλες, δορυφορικά δεδομένα κάλυψης γης, ιδεατό περιβαλλοντικό μοντέλο, πυθμένας ωκεανού και βαθυμετρία. Προαιρετικά στα περιεχόμενα μπορούν να ενσωματωθούν τα εξής: κάλυψης γής, σκίαση αναγλύφου, νερό ωκεανού και αποστραγγίσεις με λίμνες.
 
 
-Details
+Λεπτομέρειες
 -------
 
-**Website:** http://naturalearthdata.com
+**Κεντρική Ιστοσελίδα:** http://naturalearthdata.com
 
-**License:** None, the data is public domain.
+**Άδεια:** Καμία, τα δεδομένα είναι ελεύθερα για χρήση από όλους.
 
-**Data Version:** 1.3.1
+**Έκδοση δεδομένων:** 1.3.1
 
-**Data format:** SHP and TIF+TFW
+**Τύπος δεδομένων:** SHP και TIF+TFW
 
-**Spatial coordinate system:** WGS84.
+**Χωρικό σύστημα συντεταγμένων:** WGS84.
 
-**Support:** http://naturalearthdata.com/forums/
+**Υποστήριξη:** http://naturalearthdata.com/forums/
 
