@@ -17,9 +17,13 @@ Rasdaman
 
 Multi-Dimensional Raster Database
 =================================
-Rasdaman extends standard relational databases to provide storage and retrieval of multi-dimensional raster data arrays of unlimited size using an SQL-style raster query language with highly effective server-side optimization. Data is stored in a PostgreSQL database, thereby achieving tight information integration with other applications.  Hence, Rasdaman provides an excellent raster backend service for GIS, web mapping, and geographic analysis.
 
-The rasdaman technology is stable and mature, deployed in production for over 10 years. For instance, the French National Geographic Institute runs rasdaman on a 12 Terabyte airborne image map.
+Rasdaman extends standard relational databases to provide storage and retrieval of multi-dimensional raster data (i.e., arrays) of unlimited size using an SQL-style raster query language with highly effective server-side optimization. Data are stored in a PostgreSQL database, thereby achieving tight information integration. A rasdaman driver is a part of the GDAL (Geospatial Data Abstraction Library) library for geospatial data formats, a MapServer integration is available in beta.
+Access interfaces include OGC WCS, WCPS, and WPS, as well as C++ and Java APIs in addition to the rasdaman raster query language.
+
+Hence, rasdaman provides a flexible, fast, and scalable raster database enabling navigation, extraction, aggregation, and ad-hoc spatio-temporal analysis on sensor, image and statistics data.
+
+The rasdaman technology is stable and mature, deployed in production since over 10 years; the French National Geographic Institute runs rasdaman on a dozen-Terabyte airborne image map. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
 
 .. image:: ../../images/project_logos/apps-collage.png
   :scale: 100 %
@@ -29,14 +33,12 @@ The rasdaman technology is stable and mature, deployed in production for over 10
 Core Features
 -------------
 
-    * True multi-dimensionality - from 1-D over 2-D to 3-D, 4-D, and beyond
-    * Full information integration of raster data with all other geographic data
-    * Powerful, flexible query language, allowing classification, convolutions, aggregation, and many more geospatial functions
-    * Tile streaming for scalability and high performance on modest hardware
-    * Multi-user support through server multiplexing
-    * Spatial indexing for fast data access
-    * Many applications can access rasdaman data through a rasdaman driver in the Geographic Data Abstraction Library (GDAL)
-    * MapServer can be configured to publish rasdaman data as WMS images (in beta).
+    * true multi-dimensionality - from 1-D over 2-D to 3-D, 4-D, and beyond
+    * powerful, flexible query language for tasks such as visualization, classification, convolution, aggregation, and many more geospatial functions
+    * spatial indexing anda adaptive tiling for fast data access
+    * tile streaming for scalability and high performance on moderate hardware
+    * multi-user support through server multiplexing
+    * full information integration of raster data with all other geographic data in the PostgreSQL database
 
 Implemented Standards
 ---------------------
@@ -46,17 +48,17 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://rasdaman.org
+**Website:** www.rasdaman.org
 
 **Licence:** 
 
 * clients and petascope: GNU Lesser General Public License (LGPL) version 3
-* Rasdaman server engine: GNU General Public License (GPL) version 3
+* server engine: GNU General Public License (GPL) version 3
 
 **Software Version:** 8.1
 
 **Supported Platforms:** Linux, Mac, Solaris
 
-**API Interfaces:** RASQL, C++, Java
+**API Interfaces:** rasql, C++, Java; OGC-based WCS, WCPS, WCS-T, and WPS interfaces
 
-**Support:**  http://rasdaman.com
+**Support:**  www.rasdaman.com
