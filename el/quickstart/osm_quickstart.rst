@@ -47,7 +47,7 @@ JOSM
 * Διαδικτυακό εγχειρίδιο χρήσης: http://www.use-it.be/europe/docs/OSMmanual/
 * Οδηγός χρήστη: http://wiki.openstreetmap.org/wiki/JOSM/Guide
 * Eκπαιδευτικό βίντεο <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
-* Ανοίξτε κάποια δείγματα δεδομένων ως εξής:Μενού:`File --> Open... --> /usr/local/share/data/osm/Sample_city.osm.bz2`
+* Ανοίξτε κάποια δείγματα δεδομένων ως εξής:Μενού:`File --> Open... --> /usr/local/share/data/osm/feature_city.osm.bz2`
 * Περαιτέρω οδηγίες δίνονται όταν τρέξετε την εφαρμογή.
 
 
@@ -76,7 +76,7 @@ Gosmore
 
 ::
 
-  bzip2 -dc /usr/local/share/data/osm/Sample_city.osm.bz2 | gosmore rebuild
+  bzip2 -dc /usr/local/share/data/osm/feature_city.osm.bz2 | gosmore rebuild
 
 Αυτό θα δημιουργήσει το gosmore.pak.
 
@@ -99,15 +99,15 @@ Osmarender
 
 ::
 
-  cp /usr/local/data/share/osm/Sample_city.osm.bz2 .
-  bzip2 -d Sample_city.osm.bz2
-  osmarender Sample_city.osm
+  cp /usr/local/data/share/osm/feature_city.osm.bz2 .
+  bzip2 -d feature_city.osm.bz2
+  osmarender feature_city.osm
 
 Μπορείτε να δείτε τα αποτελέσματα σε ένα λογισμικό οπτικοποίησης SVG όπως το `Inkscape` η το `Firefox`:
 
 ::
 
-  firefox Sample_city.svg
+  firefox feature_city.svg
 
 
 osm2pgsql
