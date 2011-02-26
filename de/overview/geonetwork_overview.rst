@@ -1,5 +1,5 @@
 :Author: OSGeo Live
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _geonetwork-overview:
@@ -20,7 +20,7 @@ GeoNetwork
 ==========
 
 Metadaten Katalog
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 GeoNetwork OpenSource ist eine Kataloganwendung für räumliche Datenquellen. Die Anwendung bietet leistungsstarke Bearbeitungs- und Suchfunktionen für Metadaten sowie eine integrierte interaktive Kartenkomponente und basiert auf offenen Standards.
 
@@ -41,7 +41,7 @@ Kernfunktionen
 * Feingliedrige Zugriffskontrolle
 * Gruppen- und Benutzerverwaltung
 * Mehrsprachige Anwendungen
-* A randomly selected Featured Map
+* Anzeige eines zufälligen Metadatensatzes auf der Startseite
 
 Implementierte Standards
 ---------------------
@@ -64,7 +64,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.6.x
+**Software Version:** 2.6.3
 
 **Unterstützte Betriebssysteme:** Windows, Linux, Mac
 
