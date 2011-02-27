@@ -93,3 +93,10 @@ Details
 
 **Commercial Support:** http://qgis.org/en/commercial-support.html
 
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/qgis_quickstart.html>`_
+
+

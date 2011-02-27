@@ -59,3 +59,11 @@ Details
 **Supported Platforms:** Windows, Linux
 
 **Commercial Support:** http://www.sourcepole.com/
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/qgis_mapserver_quickstart.html>`_
+
+
