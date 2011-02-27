@@ -37,7 +37,7 @@ Sensor Model Language (SensorML)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-Der OGC Sensor Model Language (SensorML) Standard beschreibt ein Informationsmodel und XML-Encoding, welche das Auffinden und Nutzbarmachen von Web-verfügbaren Sensoren wie auch die Erforschung von Sensorbeobachtungen. Innerhalb dieses Kontext erlaubt es SensorML dem Entwickler Modelle und XML-Schemata zu definieren, die jeglichen Prozeß inklusive der Messungen eines Sensorsystems zu beschreiben und zu verarbeiten. (http://www.opengeospatial.org/standards/sensorml)
+Der OGC Sensor Model Language (SensorML) Standard beschreibt ein Informationsmodel und XML-Encoding, welche das Auffinden und Nutzbarmachen von Web-verfügbaren Sensoren wie auch die Erforschung von Sensorbeobachtungen ermöglicht. Innerhalb dieses Kontextes erlaubt SensorML dem Entwickler, Modelle und XML-Schemata zu definieren, sowie jeglichen Prozeß inklusive der Messungen eines Sensorsystems zu beschreiben und zu verarbeiten. (http://www.opengeospatial.org/standards/sensorml)
 
 .. image:: ../../images/standards/sensorml.jpg
   :scale: 25%
@@ -47,11 +47,11 @@ SensorML ermöglicht:
 
 * Die Beschreibung von Sensoren und Sensorsystemen zur Inventarisierung.
 * Sensor- und Prozessinformation zur Auffindung von Ressourcen und Beobachtungen durch diese Systeme.
-* Die Verarbeitung und Analyse der Sensorbeobachtungen
-* Die Lokalisierung von beobachteten Werten (gemessene Daten)
-* Performancecharakteristiken liefern wie z.B. Genauigkeit, Grenzwerte usw.
-* Die explizite Beschreibung des Prozesses, wie die Beobachtungen gemacht wurden (z.B. ihr Verlauf)
-* Die Bereitstellung von ausführbaren Prozessketten um neue Datenprodukte nach Bedarf zu erhalten (z.B. ableitbare Beobachtungen)
+* Die Verarbeitung und Analyse der Sensorbeobachtungen.
+* Die Lokalisierung von beobachteten Werten (gemessene Daten).
+* Performancecharakteristiken liefern wie z.B. Genauigkeit, Grenzwerte, usw.
+* Die explizite Beschreibung des Prozesses, wie die Beobachtungen gemacht wurden (z.B. ihr Verlauf).
+* Die Bereitstellung von ausführbaren Prozessketten, um neue Datenprodukte nach Bedarf zu erhalten (z.B. ableitbare Beobachtungen).
 * Fundamentale Eigenschaften und Annahmen über die betroffenen Sensorsysteme abzulegen
 
 Einzelne SensorML Schemata beschreiben einen spezifischen Sensor oder eine Sammlung von Sensoren und können in einer Registratur gespeichert werden.

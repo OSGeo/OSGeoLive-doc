@@ -43,11 +43,11 @@ Der OGC® Styled Layer Descriptor (SLD) Standard bietet Konstruktionen zur Symbo
   :scale: 25%
   :alt: WMS in Context
 
-Feinkörnige Kontrolle über die grafische Ausgestaltung von Daten ist eine fundamentale Bedingung für viele Kartenanwendungen. Die Fähigkeit regelbasierte Stile zu definieren benötigt eine Sprache, die sowohl Client als auch Server verstehen.
+Exakte Kontrolle über die grafische Ausgestaltung von Daten ist eine fundamentale Bedingung für viele Kartenanwendungen. Die Fähigkeit, regelbasierte Stile zu definieren benötigt eine Sprache, die sowohl Client als auch Server verstehen.
 
 Der aktuelle OGC Web Map Service (WMS) Standard ermöglicht es Informationsanbietern, Stiloptionen über eine vordefinierte Kollektion von visuellen Darstellungen für einzelne Datensammlungen anzubieten. Allerdings kann die WMS Implementation aktuell den Nutzern lediglich die Namen der einzelnen Stile präsentieren, sie kann aber nicht mitteilen, wie die Darstellung auf der Karte aussehen wird. Und noch wichtiger, die Nutzer haben keine Möglichkeit, ihre eigenen Stile zu definieren.
 
-Die Fähigkeit für menschliche oder maschinelle Clienten, diese Regeln zu definieren, benötigt eine Stilsprache, die sowohl Client als auch Server verstehen. Der OGC Symbolody Encoding (SE) Standard (http://www.opengeospatial.org/standards/symbol) spezifiziert das Format für eine Kartendarstellungssprache. Das SLD Profil von WMs ermöglicht die Anwendung von SE auf WMS-Layer über eine Erweiterung von WMS Operationen. Zusätzlich definiert SLD standardisierten Zugriff auf Legendensymbole, die auf einem entfernten Server gespeichert sein können, um in mehreren Anwendungen genutzt zu werden. 
+Die Fähigkeit für menschliche oder maschinelle Klienten, diese Regeln zu definieren, benötigt eine Stilsprache, die sowohl Client als auch Server verstehen. Der OGC Symbolody Encoding (SE) Standard (http://www.opengeospatial.org/standards/symbol) spezifiziert das Format für eine Kartendarstellungssprache. Das SLD Profil von WMS ermöglicht die Anwendung von SE auf WMS-Layer über eine Erweiterung von WMS Operationen. Zusätzlich definiert SLD standardisierten Zugriff auf Legendensymbole, die auf einem entfernten Server gespeichert sein können, um in mehreren Anwendungen genutzt zu werden. 
 
 Zusätzlich zur Darstellung der Ausgabe von WMS Implementationen kann SE auch zur Darstellung der Ausgabe von WFS und WCS Implementation genutzt werden.
 

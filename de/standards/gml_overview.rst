@@ -37,7 +37,7 @@ Geography Markup Language (GML)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-GML (http://www.opengeospatial.org/standards/gml) ist eine XML Grammatik um geographische Objekte zu beschreiben und auszutauschen. GML dient sowohl als Modellierungssprache für Geographische Systeme wie auch als offenes Austauschformat für räumliche Transaktionen über der Internet. Beachtenswert ist hierbei das sehr generische Objektmodell von GML, das nicht nur konventionelle Vektordaten oder einfache Objekte beinhaltet sondern auch multidimensionale Rasterdaten und einige Elemente von Sensordaten. Die Fähigkeit, alle Arten von räumlichen Informationen zu integrieren, ist der Schlüssel zur Nützlichkeit von GML. 
+GML (http://www.opengeospatial.org/standards/gml) ist eine XML Grammatik, um geographische Objekte zu beschreiben und auszutauschen. GML dient sowohl als Modellierungssprache für Geographische Systeme wie auch als offenes Austauschformat für räumliche Transaktionen über der Internet. Beachtenswert ist hierbei das sehr generische Objektmodell von GML, das nicht nur konventionelle Vektordaten oder einfache Objekte beinhaltet, sondern auch multidimensionale Rasterdaten und einige Elemente von Sensordaten. Die Fähigkeit, alle Arten von räumlichen Informationen zu integrieren, ist der Schlüssel zur Nützlichkeit von GML. 
 
 .. image:: ../../images/standards/gml.jpg
   :scale: 25%
@@ -50,7 +50,7 @@ GML beinhaltet eine Vielfalt von Primitiven, welche genutzt werden, um applikati
 * Koordinatensystem (Coordinate Reference System)
 * Topologie (Topology)
 * Zeit (Time)
-* dynamische Objekte (Dynamic feature)
+* dynamisches Objekt (Dynamic feature)
 * Rasterdaten (Coverage ist eigentlich weiter gefasst)
 * Maßstab
 * Richtungen (Directions)
@@ -59,7 +59,7 @@ GML beinhaltet eine Vielfalt von Primitiven, welche genutzt werden, um applikati
 
 Das Verständnis der Begriffe "Objekt" (“Feature”), "Geometrie (“Geometry”), and "Koordinatensystem" (“CRS”) ist entscheidend in der Nutzung und der Entwicklung GML-basierter Encodings.
 
-Die Arbeit der OGC am GML-Standard begann 1998. GML wurde 2001 formal als OGC-Standard anerkannt und wurde 2007 ISO-Standard. Die aktuelle Version des vereinten OGC-ISO-Standards ist GML 3.2.16, die Versionen 3.2.2 und 4.0 sind gerade in der Entwicklung.
+Die Arbeit des OGC am GML-Standard begann 1998. GML wurde 2001 formal als OGC-Standard anerkannt und wurde 2007 ISO-Standard. Die aktuelle Version des vereinten OGC-ISO-Standards ist GML 3.2.16, die Versionen 3.2.2 und 4.0 sind gerade in der Entwicklung.
 
 Siehe auch
 --------

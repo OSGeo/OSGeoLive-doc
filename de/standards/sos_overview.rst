@@ -37,7 +37,7 @@ Sensor Observation Service (SOS)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-Der OGC Sensor Observation Service (SOS) Interface Standard beschreibt einen Datenservice. Der Standard definiert Schnittstellen und Operationen um Beobachtungen von Sensoren und Sensortnetzen, die konsistent für alle Sensor Systeme sind, einschließlich entfernten, örtlichen, unbeweglichen und beweglichen Sensoren. SOS liefert Abfrageresultate im Observation and Mesurements (O&M) Standardformat zur Modellierung von Sensorbeobachtungen und der SensorML Specification zur Modellierung von Sensoren und Sensorsystemen. (http://www.opengeospatial.org/standards/sos)
+Der OGC Sensor Observation Service (SOS) Interface Standard beschreibt einen Datenservice. Der Standard definiert Schnittstellen und Operationen für Beobachtungen von Sensoren und Sensortnetzen, die konsistent für alle Sensor Systeme sind, einschließlich entfernter, örtlicher, unbeweglicher und beweglicher Sensoren. SOS liefert Abfrageresultate im Observation and Mesurements (O&M) Standardformat zur Modellierung von Sensorbeobachtungen und der SensorML Specification zur Modellierung von Sensoren und Sensorsystemen. (http://www.opengeospatial.org/standards/sos)
 
 .. image:: ../../images/standards/sos.jpg
   :scale: 25%

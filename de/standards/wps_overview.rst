@@ -43,17 +43,16 @@ Der WPS Standard definiert Regeln für standardisierte Ein- und Ausgabe (Anfrage
   :scale: 25%
   :alt: WPS in Context
 
-Der OGC® Web Processing Service (WPS) Standard beschreibt, wie räumliche Verarbeitungsprozesse über eine Webschnittstelle angesprochen werden können.
-Prozesse umfassen jeglichen Algorithmus, Berechnung oder Model, welches auf räumlich referenzierten Vektor- oder Rasterdaten arbeiten. Ein WPS kann einfache Berechnungen wie die Subtraktion einer räumlich referenzierten Zahl von einer anderen anbieten (wie z.B. die Ermittlung der Differenz der Grippeerkrankungen zwischen zwei Jahren) oder so kompliziert wie ein globales Model der Klimaveränderung. (http://opengeospatial.org/standards/wps)
+Der OGC® Web Processing Service (WPS) Standard beschreibt, wie räumliche Verarbeitungsprozesse über eine Webschnittstelle angesprochen werden können. Prozesse umfassen jegliche Algorithmen, Berechnungen oder Modelle, welche auf räumlich referenzierten Vektor- oder Rasterdaten arbeiten. Ein WPS kann einfache Berechnungen wie die Subtraktion einer räumlich referenzierten Zahl von einer anderen anbieten (wie z.B. die Ermittlung der Differenz der Grippeerkrankungen zwischen zwei Jahren) oder etwas so kompliziertes, wie ein globales Model der Klimaveränderung. (http://opengeospatial.org/standards/wps)
 
 Ein WPS ist nützlich zur:
 
 * Reduzierung der Komplexität bei der Datenverarbeitung durch Bereitstellung von plug&play-Algorithmen.
-* Verkettung von Prozessierungen
-* einmaligen Bereitstellung von Prozessierungen, die dann überall genutzt werden  können.
+* Verkettung von Prozessierungen.
+* einmaligen Bereitstellung von Prozessierungen, die dann überall genutzt werden können.
 * Vereinfachte Wartung. Prozesse u. Modelle werden an einem zentralen Platz von denjenigen gewartet, welche diese erzeugt haben.
-* Nutzung der Rechenleistung von zentralen Hochleistungsrechnern
-* einfachen und interoperablen Zugang zu hochkomplexen Prozessen wie Klimamodellen.
+* Nutzung der Rechenleistung von zentralen Hochleistungsrechnern.
+* einfachen und interoperablen Umsetzung hochkomplexer Prozesse, wie Klimamodelle.
 
 Siehe auch
 --------
