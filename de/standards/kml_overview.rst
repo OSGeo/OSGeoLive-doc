@@ -37,7 +37,7 @@ KML Encoding Standard (KML)
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-Der OGC KML Standard ist eine XML-Sprache, welche ihren Fokus auf der räumlichen Visualisierung inklusive Beschriftungen und Bildern setzt. Räumliche Visualisierung bedeutet nicht nur die Darstellung von grafischen Daten auf der Erde, sondern auch die Benutzerführung im Sinne von wohin geht es und wohin soll geschaut werden (http://www.opengeospatial.org/standars/KML)
+Der OGC KML Standard ist eine XML-Sprache, welche ihren Fokus auf der räumlichen Visualisierung inklusive Beschriftungen und Bildern setzt. Räumliche Visualisierung enthält nicht nur die Darstellung von grafischen Daten auf der Erde, sondern auch die Benutzerführung im Sinne von wohin geht es und wohin soll geschaut werden (http://www.opengeospatial.org/standars/KML)
 
 .. image:: ../../images/standards/kml.jpg
   :scale: 25%

@@ -47,12 +47,12 @@ Der WFS Standard definiert Operationen, die es Klientanwendungen ermöglichen:
 
 * zu ermitteln, welche Themen verfügbar sind (GetCapabilities)
 * die verfügbaren Feldwerte der verfügbaren Themen zu beschreiben (DescribeFeatureType)
-* über einen übergebenen Filter eine Anzahl von Objekten zu erhalten (GetFeature)
+* über einen übergebenen Filter eine Auswahl von Objekten zu erhalten (GetFeature)
 * das Hinzufügen, Bearbeiten und Löschen von Objekten (Transaction, nur für WFS-T)
 
 Alle WFS unterstützen die Ein- und Ausgabe von Daten über die Geography Markup Language (GML). Manche WFS unterstützen darüber hinaus auch andere Formate wie z.B. GeoRSS oder shapefiles.
 
-Benutzer interagieren mit WFS normalerweise über browserbasierte oder Desktopanwendungen, welche es erlauben, Vektorlayer von externen Anbietern über das Internet anzusprechen. Ein hervorragendes Beispiel der Nutzung von WFS für den offenen und interoperablen Zugriff auf eine große Menge von räumlichen Informationen über ein Portal sind die USGS Framework Web Feature Services, die zur Unterstützung der Enwicklung der National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.goc/) bereitgestellt werden. Ausgewählte US Framework Kartenlayer sind als WFS Layer und zusätzlich durch eine browserbasierte Schnittstelle der USGS verfügbar.
+Benutzer interagieren mit WFS normalerweise über browser- oder desktopbasierte Anwendungen, welche es erlauben, Vektorlayer von externen Anbietern über das Internet anzusprechen. Ein hervorragendes Beispiel der Nutzung von WFS für den offenen und interoperablen Zugriff auf eine große Menge von räumlichen Informationen über ein Portal sind die USGS Framework Web Feature Services, die zur Unterstützung der Enwicklung der National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.goc/) bereitgestellt werden. Ausgewählte US Framework Kartenlayer sind als WFS Layer und zusätzlich durch eine browserbasierte Schnittstelle der USGS verfügbar.
 
 Siehe auch
 ----------
