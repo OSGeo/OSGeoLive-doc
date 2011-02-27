@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://www.zygrib.org
 
@@ -14,36 +14,36 @@
 zyGrib
 =========
 
-Weather forecasting 
-~~~~~~~~~~~~~~~~~~~
+Wettervorhersage 
+~~~~~~~~~~~~~~~~
 
-zyGrib is a program to download and visualize weather forecast data in
-the standard GRIB distribution format.
+zyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen GRIB-Format herunterzuladen und zu visualisieren.
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
-  :alt: screenshot
+  :alt: Bildschirmfoto
   :align: right
 
-* Visualization of meteorologic data from files in GRIB format
-* Automatic download of forecast model output directly from NOAA
-* Automatic download from IAC (fleetcode) data
-* Play animations of 5-day forecasts
-* Create your own regional weather maps (worldwide), or view a detailed quantitative forecast for a particular location.
-* Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude data.
+* Visualisierung von meteorlogischen Daten aus Dokumenten im GRIB format
+* Automatischer Download von Vorhersagemodellen direkt aus NOAA
+* Automatischer Download von IAC (fleetcode) Daten
+* Abspielen von 5-tägigen Vorhersageanimationen
+* Enturf von personalisierten lokalen Wetterkarten (welweit) oder Darstellung von detaillierten quantitativen Vorhersagen für einen einzelnen Standort
+* Kartierung von Daten zu Wind, Temperatur, Feuchtigkeit, Regen, Schnee, Wolkenbedeckung, Taupunkt und Höhe.
+
 
 Details
 -------
 
-**Website:** http://www.zygrib.org
+**Webseite:** http://www.zygrib.org
 
-**Licence:** GNU General Public License (GPL) version 3
+**Lizenz:** GNU General Public License (GPL) version 3
 
-**Software Version:** 3.9.9.1
+**Software Version:** 3.9.2
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://zygrib.org/forum/

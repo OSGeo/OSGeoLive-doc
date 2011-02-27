@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-ossim.gif
   :scale: 100 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://www.ossim.org/
 
@@ -20,57 +20,64 @@
 OSSIM
 =====
 
-Image Processing
-~~~~~~~~~~~~~~~~
+Bilddatenverarbeitung
+~~~~~~~~~~~~~~~~~~~~~
 
-Open Source Software Image Map (OSSIM) is a high performance engine for remote sensing, image processing, geographical information system and photogrammetry.
+Open Source Software Image Map (OSSIM) ist ein äußerst mächtiges Werkzeug 
+für Aufgaben im Bereich der Fernerkundung, Bildverarbeitung, Geographischen 
+Informationssysteme und Photogrammetrie. 
 
-OSSIM has been funded by several US government agencies in the intelligence and defense community and the technology is currently deployed in research and operational sites. It has been actively developed since 1996. 
+OSSIM wurde durch mehrere US-Regierungsbehörden aus dem Bereich der Nachrichtendienste 
+und der Verteidigung gefördert, und die Technologie wird derzeit in der Forschung 
+als auch im operativen Betrieb eingesetzt. Die Software wird aktiv seit 1996 entwickelt.
 
-Designed as a series of high performance software libraries, it is written in C++ employing the latest techniques in object-oriented software design.
-Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution.
+Konzipiert als eine Reihe von leistungsstarken Software-Bibliotheken, ist die
+Software in C++ geschrieben und macht Gebrauch von neuesten Techniken im Bereich 
+objektorientierten Designs. 
+Zahlreiche Befehlszeilen-Werkzeuge, GUI-Anwendungen und integrierte Systeme 
+wurden entwickelt - von denen mehrere in dem Softwarepaket enthalten sind.
 
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
-  :alt: screenshot
+  :alt: Bildschirmfoto
   :align: right
 
-* Parallel processing capabilites with mpi libraries
-* Rigorous sensor modeling
-* Universal Sensor Models (RPCs)
-* Wide range of Map Projections and Datums supported
-* Non-destructive, parameter based image chains
-* Native file access
-* Precision Terrain correction and ortho-rectification
-* Advanced Mosaicing, compositing and fusions
-* Elevation support
-* Vector and shapelib support
-* Projection and resolution independent
-* Equation editors
+* Fähigkeit zur parallelen Verarbeitung mit MPI-Bibliotheken 
+* Strenge Sensor-Modellierung  
+* Universelle Sensor-Modelle (RPCs) 
+* Weitreichende Unterstützung von Kartenprojektionen und Bezugssystemen 
+* Non-destruktive, parameter-basierte Bildreihen 
+* Nativer Dateizugriff 
+* Präzise Geländekorrektur und Orthorektifizierung 
+* Erweiterte Verfahren zu Mosaik, Überlagerung und Verschmelzen 
+* Unterstützung von Höhenangaben
+* Vektor und shapelib Unterstützung 
+* Unabhängigkeit von Projektion und Auflösung 
+* Formeleditoren
 
 Details
 -------
 
-**Website:** http://www.ossim.org/
+**Webseite:** http://www.ossim.org/
 
-**Licence:** GPL v3
+**Lizenz:** GPL v3
 
 **Software Version:** 1.8.6
 
-**Supported Platforms:** Linux, Mac, Windows
+**Unterstützte Betriebssysteme:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**API Schnittstellen:** C++
 
-**Commercial Support:** http://www.osgeo.org/search_profile
+**Kommerzieller Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
-----------
+Schnellstart
+------------
 
-* `Quickstart documentation <../quickstart/ossim_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/ossim_quickstart.html>`_
 
 

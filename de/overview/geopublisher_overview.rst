@@ -8,54 +8,54 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://en.geopublishing.org/Geopublisher
+  :target: http://de.geopublishing.org/Geopublisher
 
 
 Geopublisher
 ============
 
-Electronic Library Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Geodaten als Karten veröffentlichen 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geopublisher is an atlas authoring system which enables easy publication of geo-data, documents, images, videos, and statistics in form of digital multimedia atlases. These atlases are effectively a minimal, pre-configured, end-user GIS which offers selected functionality only where its meaningful.
+Die Geopublisher Software ermöglicht es in kurzer Zeit digitale Multimedia-Atlanten zu erstellen und zu veröffentlichen. 
 
-Geopublisher provides tools for quality assurance and multilingual meta-data management. No in-depth knowledge of HTML, SLD or XML is required to create an atlas. Atlases can be directly published on CD, DVD, memory stick, external hard-drive or the Internet. The software is platform-independent.
+Geopublisher beinhaltet Funktionalität zur Qualitätssicherung und zur mehrsprachigen Metadatenverwaltung. Kein Vorwissen. Atlanten/Kartenwerke können direkt auf CD/DVD, Speicherstick, externer Festplatte oder im Internet veröffentlicht werden. 
 
-Geopublisher's unique features make it especially applicable in the fields of international research, participatory GIS, capacity building, and development cooperation.
+Geopublishers Alleinstellungsmerkmale machen die Software besonders Einsetzbar im Bereich Internationale Forschung, Participatory GIS, Capacity Building, und der Entwicklungszusammenarbeit.
 
-Core Features
--------------
+Kernfunktionen
+--------------
 .. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
-  :alt: screenshot of Geopublisher editing an atlas
+  :alt: Screenshot: Geopublisher mit geöffnetem Atlas
   :align: right
 
-* Atlases created with Geopublisher are a simplified end-user GIS with selected functionality available only where its meaningful.
-* Hybrid online and offline atlases make geo-data accessible in areas beyond the digital divide.
-* Multilingual management of meta-data avoids redundancies and allows for the quick release of updated atlases.
-* Integrated WYSIWYG editors for SLD and HTML allow geopublishing without knowledge of SLD, XML or HTML.
-* All software is Free and Open-Source Software compliant with OGC standards.
-* Geopublisher + QuantumGIS + OpenOffice provide a free Open-Source Geopublishing desktop.
-* :doc:`AtlasStyler <atlasstyler_overview>` SLD editor is integrated into Geopublisher.
-* Runs on Mac OS, Windows and Linux.
-* Styling based on OGC SLD standard.
-* Offline atlases run directly from any media - Java does not have to be installed.
-* Supports tiled image pyramids for big raster data.
-* Fully translated into German, English, Italian and French.
+* Mit Geopublisher erstellte Atlanten sind vereinfachte End-benutzer-GIS die Funktionalität nur dort anbieten, wo sie Sinn macht.
+* Gleichzeitige Erstellung von Atlanten für das Internet und auf CD/DVD bringt digitale Karten auch in Gebieten jenseits der 'Digitalen-Kluft'.
+* Mehrsprachige Metadatenverwaltung vermeidet Redundanzen und Erlaubt the schnelle Veröffentlichung von aktualisierten Atlanten.
+* Integrierte WYSIWYG Editoren für SLD und HTML erlauben es diese Standards ohne deren Kenntnis zu nutzen.
+* Geopublisher + :doc:`QuantumGIS <qgis_overview>` + OpenOffice ergeben zusammen einen freien Open-Source Geopublishing Arbeitsplatz.
+* :doc:`AtlasStyler <atlasstyler_overview>` SLD Editor ist integrierter Bestandteil des Geopublishers.
+* Basierend auf dem SLD Standard.
+* Auf Medien veröffentlichte Atlanten laufen direkt von jedem beliebigen Medium (DVD/CD) - Java muss nicht installiert sein.
+* Läuft auf Windows, Linux und Mac.
+* Verfügbar in Deutsch, Englisch, Italienisch und Französisch.
 
 
-Implemented Standards
----------------------
-* OGC Style Layer Descriptor (SLD)
+Implementierte Standards
+------------------------
+
+* OGC Style Layer Descriptor (SLD) 1.0
+* OGC Symbology Encoding (SE) 1.1 teilweise
 
 Details
 -------
 
-**Website:** http://en.geopublishing.org/Geopublisher
+**Website:** http://de.geopublishing.org/Geopublisher
 
 **Software Version:** 1.6
 
-**Licence:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
+**Licence:** GNU General Public License (GPL) version 3.0; die Software der exportierten Atlanten steht unter GNU Lesser General Public License (LGPL) version 3.0
 
 **Supported Platforms:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
 

@@ -17,65 +17,60 @@ SAGA
 Desktop GIS
 ~~~~~~~~~~~
 
-SAGA (System for Automated Geoscientific Analyses) is an
-open source geographic information system (GIS) used for editing and analysing
-spatial data. It includes a large number of modules for the analysis of
-vector (point, line and polygon), table, grid and image data. Among
-others the package includes modules for geostatistics, image
-classification, projections, simulation of dynamic processes (hydrology,
-landscape development) and terrain analysis. The functionality can be
-accessed through a GUI, the command line or by using the C++ API.
+SAGA (System für automatisierte Geowissenschaftliche Analysen) ist ein Open Source Geoinformationssystem (GIS), das zum
+Bearbeiten und Erfassen von räumlichen Daten verwendet wird. Das Programm beinhaltet zahlreiche Module zur Analyse von Vektordaten (Punkten, Linien, Flächen), Tabellen, Grids und Bilddateien. Unter anderem beinhaltet SAGA Module zur Geostatistic, Bildklassifizierung, 
+Projektionen, Simulationen von dynamischen Prozessen (Hydrologie, Landschaftsentwicklung) und Geländenanlysen.
+Auf die Funktionalität kann über eine graphische Oberfläche, über die Kommandozeile oder über die C++ API zugegriffen werden.
 
-SAGA has been in development since 2001, and the centre of SAGA development is
-located in the Institute of Geography at the University of Hamburg, with
-contributions from the growing world wide community.
+SAGA wird seit 2001 entwickelt. Dabei findet der Großteil der Entwicklung am 
+Institut für Geographie an der Universität Hamburg statt und wird von einer wachsenden weltweiten Community unterstützt.
 
 .. image:: ../../images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
-* Access to a large number of scientific modules via the Graphical User Interface or the command line
+* Zugriff auf zahlreiche wissenschaftliche Module über ein graphische Oberfläche oder über die Kommandozeile
 
- * Import/Export to different file formats
- * Reprojection/Resampling of data
- * Manipulation of vector data (merging/intersection/attributes)
- * Manipulation of point clouds from lidar data
- * Raster data: interpolation, cost analysis, ...
- * Image analysis: filters, edge detection, cluster analysis, segmentation
- * Digital Terrain Analysis: generate geomorphometric indexes, channel networks, profiles, contour lines, ...
- * Geostatistics: modules for variogram fitting and kriging
+ * Import/Export von verschiedenen Dateiformaten
+ * Umprojektion/Resampling von Daten
+ * Manipulation von Vektordaten (Zusammenfassen/ Verschneidung/ Attribute)
+ * Manipulation von Punktwolken von Lidar-Daten
+ * Rasterdaten: Interpolation, Kostenanalysen, ...
+ * Bildanalysen: Filter, Kantendetektion, Cluster Analysen, Segmentierung
+ * Digitale Geländeanalysen: Generierung von geomorphometrischen Indices, channel networks, Profile, Konturlinien, ...
+ * Geostatistiken: Modules zur korrigierten Stichprobenvarianz und Kriging
 
-* Fast user interface for managing and visualising data
+* Performate Benutzeroberfläche zur Verwaltung und Visualisierung der Daten
 
- * 3D visualisation
+ * 3D Visualisierung
 
-* Straightforward C++ API for creating new modules
-* Scripting through command line, bindings for python
-* SAGA can be accessed from the R statistical language through the RSAGA module
+* einfache C++ API zur Erzeugung neuer Module
+* Skripting über die Kommandozeile, Binding über Python
+* SAGA kann von der statistischen Sprache R das RSAGA Modul angesprochen werden
 
 Details
 -------
 
-**Website:** http://www.saga-gis.org
+**Webseite:** http://www.saga-gis.org
 
-**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)
+**Lizenz:** LGPL v2.1 (api); GPLv2 (GUI und Module)
 
 **Software Version:** 2.0.6
 
-**Supported Platforms:** Linux, Windows
+**Unterstützte Betriebssysteme:** Linux, Windows
 
-**API Interfaces:** C++
+**API Schnittstellen:** C++
 
 **Support:** http://www.saga-gis.org
 
 
-Quickstart
-----------
+Schnellstart
+---------------
 
-* `Quickstart documentation <../quickstart/saga_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/saga_quickstart.html>`_
 
 

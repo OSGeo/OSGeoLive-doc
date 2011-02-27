@@ -8,7 +8,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://en.geopublishing.org/AtlasStyler
+  :target: http://de.geopublishing.org/AtlasStyler
 
 
 AtlasStyler
@@ -17,34 +17,36 @@ AtlasStyler
 Feature Style Editor
 ~~~~~~~~~~~~~~~~~~~~
 
-`AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application for styling geodata. The resulting styles can be saved as OGC standards compliant SLD/SE files.
+`AtlasStyler <http://de.geopublishing.org/AtlasStyler>`_ ist eine dialoggeführte Anwendung zur Gestaltung von Geodaten. Die resultierenden Styling-Dateien entsprechen dabei dem OGC SLD Standard in der Version 1.0, und können von z.B. von GeoServer oder uDig verarbeitet werden. 
 
-The created SLD files are compatible with all programs which support the OGC SLD standard, including GeoServer, uDig and others. The application provides a multitude of intuitive dialogs to simplify style creation. Users can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally users have integrated access to an online symbol-database. Users can create and save symbols in the SymbolEditor and reused in classifications or other projects.
+Die Anwendung bietet eine Vielzahl intuitiver Dialoge, die eine produktive Arbeit ermöglichen. Sie können Klassifikationen nach unterschiedlichen Werten, Quantilen oder manuell festlegen und mit mitgelieferten Farbpaletten einfärben; außerdem ist die Nutzung einer integrierten online Symboldatenbank und das Erstellen und Speichern Ihrer eigenen Symbole möglich.
+
+
 
 .. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
-  :alt: screenshot
+  :alt: Screenshot
   :align: right
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
-* Build styles using dialogs.
-* Based on OGC SLD standard.
-* Run on Windows, Linux and Mac.
-* Import from ESRI Shapefiles, OGC WFS and PostGIS databases.
-* Fully translated into German, English, Italian, Turkish, Russian and French.
+* Styles mittels Dialoge erstellen, keine Kenntnis von SLD oder XML benötigt
+* Basierend auf dem SLD Standard.
+* Läuft auf Windows, Linux und Mac.
+* ESRI Shapefiles, OGC WFS Server und PostGIS Datenbanken werden unterstützt.
+* Verfügbar in Deutsch, Englisch, Italienisch, Türkisch, Russisch und Französisch
 
-Implemented Standards
----------------------
+Implementierte Standards
+------------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
-* OGC Symbology Encoding (SE)
+* OGC Symbology Encoding (SE) 1.1 teilweise
 
 Details
 -------
 
-**Website:** http://en.geopublishing.org/AtlasStyler
+**Website:** http://de.geopublishing.org/AtlasStyler
 
 **Software Version:** 1.6
 
@@ -61,6 +63,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/atlasstyler_quickstart.html>`_
+* `Quickstart Dokumentation <../quickstart/atlasstyler_quickstart.html>`_
 
 

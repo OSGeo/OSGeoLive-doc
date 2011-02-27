@@ -10,21 +10,15 @@
   :align: right
   :target: http://karlinapp.ethz.ch/qgis_wms/
 
-.. image:: ../../images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-
-QGIS mapserver
+QGIS Mapserver
 ==============
 
 Web Service
 ~~~~~~~~~~~
 
-QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
-The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
+QGIS Mapserver stellt einen Web Map Service (WMS) auf Basis von Bibliotheken der Software Quantum GIS (QGIS) zur Verfügung.
+Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-Anwendung einfach als WMS bereitgestellt werden können, indem die QGIS Projektdatei in das entsprechende Serververzeichnis kopiert werden. Dabei sieht die Karte im Internet genauso aus, wie auf dem Desktop.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
@@ -32,16 +26,16 @@ The close integration with QGIS means desktop maps can easily be exported to web
   :align: right
 
 
-Core Features
+Kernfunktionen
 -------------
 
-* Web Map Service (WMS) implementation
-* Good integration with desktop GIS (QGIS)
-* Easy to use
-* Supports Styled Layer Descriptor (SLD)
-* Advanced cartographic symbolisation
+* Web Map Service (WMS) Implementierung
+* Gute Integration mit dem Desktop GIS (QGIS)
+* Einfach zu benutzen
+* Unterstützt Styled Layer Descriptor (SLD)
+* Fortgeschrittene kartographische Darstellung
 
-Implemented Standards
+Implementierte Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.3.0
@@ -50,12 +44,12 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://karlinapp.ethz.ch/qgis_wms/
+**Webseite:** http://karlinapp.ethz.ch/qgis_wms/
 
-**Licence:** GPL
+**Lizenz:** GPL
 
 **Software Version:** 1.6.0
 
-**Supported Platforms:** Windows, Linux
+**Unterstützte Plattformen:** Windows, Linux
 
-**Commercial Support:** http://www.sourcepole.com/
+**Kommerzieller Support:** http://www.sourcepole.com/

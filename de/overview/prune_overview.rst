@@ -13,52 +13,52 @@
 Prune
 =====
 
-GPS Track-Editing Software 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+GPS Datenverarbeitungssoftware 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Prune <http://activityworkshop.net/software/prune/>`_ is a tool for viewing,
-editing and converting coordinate data from GPS systems.  It uses OpenStreetMap
-imagery to show recorded tracks and waypoints, and provides a variety of tools
-to let you edit, crop and prune the data points.  It also has functions for
-correlating photos to the coordinates using the photo timestamps.
+`Prune <http://activityworkshop.net/software/prune/>`_ ist ein Tool für die Visualisierung,
+das Editieren und das Konvertieren von Koordinatendaten aus GPS Systemen.  Prune verwendet OpenStreetMap
+Karten um aufgenommenen Tracks und Wegpunkte zu zeigen, und stellt eine Reihe von Funktionen zur Verfügung
+um die Punkte zu editieren, löschen und kombinieren.  Prune kann auch Fotos mit den Koordinaten verbinden
+anhand von den Zeitstempeln.
 
-Prune uses Gpsbabel, if available, to read data directly from a GPS receiver,
-and can send the edited data back to the receiver too.
+Falls Gpsbabel auch verfügbar ist, kann Prune Daten direkt aus dem GPS-Empfänger herauslesen,
+und kann auch Daten zurück zur Empfänger schicken.
 
-Prune runs on Mac OSX, Windows and Linux, and is available
-in over ten different languages.
+Prune läuft sowohl auf Linux als auch auf Mac OSX und Windows, and ist in über zehn
+verschiedenen Sprachen verfügbar.
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
-.. image:: ../../images/screenshots/1024x768/prune_barcelona.png
+.. image:: ../../images/screenshots/1024x768/prune_barcelona_de.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-* Load data from text files, gpx files, kml/kmz files, or directly from a GPS receiver
-* Zoomable map imagery from OpenStreetMap or any compatible server (OpenCycleMap, CloudMade etc)
-* Altitude or speed profile view
-* Editing tools for deleting, reversing and compressing tracks
-* Interactive 3d view of the data, or export to POV format for 3D rendering
-* Save data to text files, gpx files, kml/kmz files, or directly to a GPS receiver
-* Automatic correlation of photographs with the loaded data using timestamps
-* Creation of charts such as altitude against distance, speed against time
+* Daten aus Textdateien, Gpx-, Kml- oder Kmzdateien laden, oder aus einem GPS-Gerät
+* Zeigt die Daten mit zoombaren Karten von OpenStreetMap oder anderen Servern (z.B. OpenCycleMap, CloudMade)
+* Höhenprofil oder Geschwindigkeitsprofil Ansicht
+* Funktionen wie Punkt löschen, Bereich umkehren und Track komprimieren
+* Drehbare 3D Ansicht der Daten, oder nach POV-Datei exportieren für 3D-Rendering
+* Daten nach Text-, Gpx-, Kml oder Kmzdateien speichern, oder zum GPS-Gerät schicken
+* Automatisches Korrelieren von Fotos anhand von Zeitstempeln
+* Erzeugen von Diagrammen wie zum Beispiel Höhe gegen Distanz, oder Geschwindigkeit gegen Zeit
 
 Details
 -------
 
-**Website:** http://activityworkshop.net/software/prune/
+**Webseite:** http://activityworkshop.net/software/prune/
 
-**Licence:** GNU General Public License (GPL) version 2
+**Lizenz:** GNU General Public License (GPL) version 2
 
 **Software Version:** 10
 
-**Supported Platforms:** GNU/Linux, Mac OSX, Windows
+**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, Windows
 
 
-Quickstart
-----------
+Schnellstart
+------------
 
-* `Quickstart documentation <../quickstart/prune_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/prune_quickstart.html>`_
 

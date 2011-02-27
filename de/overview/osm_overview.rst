@@ -6,37 +6,36 @@
 
 .. image:: ../../images/project_logos/logo-osm.png
   :scale: 80 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://wwww.openstreetmap.org
 
 OpenStreetMap
 =============
 
-Tools for mapping the world
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Werkzeuge zur Erstellung einer freien Weltkarte
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`OpenStreetMap <http://www.openstreetmap.org>`_ is a project aimed
-squarely at creating and providing free geographic data such as street
-maps to anyone who wants them. The project was started because most maps
-you think of as free actually have legal or technical restrictions on their
-use, holding back people from using them in creative, productive or
-unexpected ways.
+`OpenStreetMap <http://www.openstreetmap.org>`_ hat das Ziel, freie geographische 
+Daten über Straßen, Eisenbahnen, Flüsse, Wälder, Häuser und alles andere, was 
+gemeinhin auf Karten zu sehen ist, zu erfassen. Diese Daten stehen allen 
+Benutzern lizenzkostenfrei zur Verfügung, um daraus zum Beispiel Straßen-, 
+Wander- oder Fahrradkarten, Routenplaner oder andere wissenswerte Informationen 
+zu erstellen.
 
-Five programs have been included: JOSM, Merkaartor, Gosmore, Osmarender, and
-Osm2pgsql. In addition recent sample data for the host city and a number
-of JOSM plugins have been included.
+Fünf Anwendungen wurden ausgewählt: JOSM, Merkaartor, Gosmore, Osmarender und
+Osm2pgsql. Darüber hinaus sind Beispieldaten und eine Reihe von JOSM Plugins enthalten.
 
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
-  :alt: screenshot
+  :alt: Bildschirmfoto
   :align: right
 
-* Global massively crowd-sourced dataset
+* Global massively crowdsouced dataset
 * A number of editors to choose from
 * A number of renderers to choose from (including online)
 * Free to use
@@ -45,16 +44,16 @@ Core Features
 Details
 -------
 
-**Website:** http://www.openstreetmap.org
+**Webseite:** http://www.openstreetmap.org
 
-**Licences:**
+**Lizenzen:**
 
-* OpenStreetMap data: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
+* OpenStreetMap Daten: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
 
 * JOSM: GNU General Public License (GPL) version 2
-.. <!-- see /usr/share/doc/josm/copyright -->
+.. <!-- siehe /usr/share/doc/josm/copyright -->
 
-* JOSM plugins collection: Ranging from Public Domain to GPLv3
+* JOSM Plugins: Reichen von Public Domain bis zu GPLv3
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
@@ -63,28 +62,28 @@ Details
 
 * Osmarender: GNU General Public License (GPL) version 2
 
-**Software Versions:**
+**Software Versionen:**
 
-* JOSM: Latest Testing (svn r3751)
+* JOSM: Latest Testing (svn r3329)
 
 * Merkaartor: 0.14+
 
 * Gosmore: 2009/06/24
 
-* Osmarender: SVN early-2011
+* Osmarender: SVN mid-2010
 
 * osm2pgsql: 0.69 (svn r22215)
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
 
-**API Interfaces (data):** REST (via Xapi), XML
+**API Schnittstellen (Daten):** REST (via Xapi), XML
 
 **Support:** http://wiki.openstreetmap.org/
 
 
-Quickstart
-----------
+Schnellstart
+------------
 
-* `Quickstart documentation <../quickstart/osm_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/osm_quickstart.html>`_
 
 

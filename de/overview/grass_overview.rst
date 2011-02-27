@@ -20,58 +20,42 @@
 GRASS GIS
 =========
 
-Fully featured GIS
+Voll funktionsfähiges GIS
 ~~~~~~~~~~~~~~~~~~
 
-The Geographic Resources Analysis Support System, commonly referred to as
-GRASS, is a Geographic Information System (GIS) providing powerful raster,
-vector, and geospatial processing engines in a single integrated software
-suite. GRASS includes tools for spatial modeling, visualization of raster
-and vector data, management and analysis of geospatial data, and the
-processing of satellite and aerial imagery. It also provides the capability
-to produce sophisticated presentation graphics and hardcopy maps. GRASS has
-now been translated into twenty languages and supports a huge array of data
-formats.
+GRASS GIS (Geographic Resources Analysis Support System) ist ein Geographisches Informationssystem (GIS) und bietet umfangreiche Raster-, topologische Vektordaten-Funktionalität sowie Bildverarbeitung und Visualisierungsmöglichkeiten. GRASS stellt Werkzeuge für Geodaten Management, räumliche Modellierung, Visualisierung von Raster- und Vektordaten als auch Prozessierung von Satelliten- und Luftbilddaten zur Verfügung. Darüberhinaus ermöglicht es das Ertstellen anspruchsvoller Präsentationsgrafiken und druckfertiger Karten. GRASS wurde bisher in mehr als 20 Sprachen übersetzt und unterstützt eine Vielzahl unterschiedlichster Geodaten-Formate.
 
 .. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
 
-GRASS is currently used around the world in academic and commercial settings
-as well as by many governmental agencies and environmental consulting
-companies. It runs on a variety of popular hardware platforms and is Free
-open-source software released under the terms of the GNU General Public License.
+GRASS wird aktuell weltweit in zahllosen akademischen und kommerziellen Einrichtungen sowie in staatlichen Behörden und privaten Unternehmen verwendet. Die Software kann unter allen derzeit verbreiteten Hardware Plattformen eingesetzt werden. Als Freie Open Source Software (FOSS) ist GRASS unter der GNU General Public License (GPL) lizensiert.
 
-The GRASS software includes over 400 built-in analysis modules. Additionally,
-over 100 community supplied modules and toolboxes are available for free
-from the community wiki site. After 27 years of continuous
-development GRASS is both the oldest and largest Open Source GIS available.
-It is easily scriptable and versatile enough to be used both for batch data
-processing on massively-parallel supercomputers as well as a handy desktop
-GIS for handheld PDAs or netbooks.
+GRASS stellt mehr als 400 Module mit Analysefunktionen zur Verfügung. Zusätzlich stehen mehr als 100 weitere, von der Community bereitgestellte Module und Werkzeuge kostenlos über das GRASS Wiki bereit. Nach mehr als 27 Jahren kontinuierlicher Entwicklung ist GRASS heute das älteste und gleichzeitig umfangreichste Open Source GIS der Welt.
+GRASS ist einfach zu skripten und vielseitig genug, um für das Batch Processing auf großen, parallelen Architekturen von Supercomputern oder als handliches Desktop GIS auf Handheld PDAs oder Netbooks eingesetzt zu werden.
 
 
 .. _GRASS: http://grass.osgeo.org
 
-Core Features
+Kernfunktionen
 -------------
 
-* You name it, there's a tool for it.
-* Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
+* Suche eine Funktionalität und GRASS bietet das passende Modul.
+* Entdecke die Screenshot Gallerie unter <http://grass.osgeo.org/screenshots/>`_.
 
 Details
 -------
 
-**Website:** http://grass.osgeo.org
+**Webseite:** http://grass.osgeo.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Lizenz:** GNU General Public License (GPL) version
 
-**Software Version:** 6.4.0
+**Software Version:** 6.4.x
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
-**API Interfaces:** C, Python, Bourne Shell
+**API Schnittstellen:** C, Python, Bourne Shell
 
 **Support:** http://grass.osgeo.org/community/
 

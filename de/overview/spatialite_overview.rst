@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://www.gaia-gis.it/spatialite/
 
@@ -14,59 +14,59 @@
 SpatiaLite
 ==========
 
-Spatial Database
-~~~~~~~~~~~~~~~~
+Räumliche Datenbank
+~~~~~~~~~~~~~~~~~~~
 
-SpatiaLite is an SQLite_ database engine with spatial functions added. 
+SpatiaLite ist ein SQLite_ Datenbank-Engine mit Unterstützung geografischer Objekte und Funktionen. 
 
-SQLite is a popular DBMS, simple, robust, easy to use and really lightweight. Each SQLite database is simply a file; you can freely copy it, compress it, send it on a LAN or WEB with no complication at all.
+SQLite ist ein beliebtes DBMS, einfach, robust, unkompliziert zu bedienen und wirklich leichtgewichtig. Jede SQLite-Datenbank ist eine einfache Datei; sie kann frei kopiert oder komprimiert werden, oder im LAN oder Internet ohne jegliche Komplikationen versendet werden. 
 
-The files are also portable; the same database file will work on Windows, Linux, MacOs etc.
+Die Dateien sind auch portabel; die gleiche Datenbank-Datei läuft auf Windows, Linux, MacOS etc.
 
 .. _SQLite: http://www.sqlite.org/
 
 .. image:: ../../images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
-  :alt: screenshot
+  :alt: Bildschirmfoto
   :align: right
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
-The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
+Die SpatiaLite Erweiterung ermöglicht SQLite die Unterstützung von geographischen Daten nach OGC Spezifikationen.
 
-* Supports standard WKT and WKB formats
-* Implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
-* The complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
-* Supports full Spatial metadata along the OpenGis specifications
-* Supports importing and exporting to shapefiles
-* Supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
-* Supports locale charsets via GNU libiconv
-* Implements a true Spatial Index based on the SQLite's RTree extension
-* The VirtualShape extension enables SQLite to access shapefiles as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external shapefiles, with no need for importing or converting them
-* The VirtualText extension enables SQLite to access CSV/TxtTab files as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external CSV/TxtTab files, with no need for importing or converting them
-* The GUI tool supports all this, in an user friendly way
+* Unterstützung von WKT und WKB Standardformaten
+* Implementierung von räumlichen Funktionen wie AsText(), GeomFromText(), Area(), PointN() und ähnlichen
+* Komplette Unterstützung von OpenGis Funktionen via GEOS, wie z.B. Funktionen zur räumlichen Analyse Overlaps(), Touches(), Union(), Buffer() ...
+* Volle Unterstützung räumlicher Metadaten gemäß der OpenGis Spezifikationen
+* Unterstützung von Import und Export von Shape-Dateien
+* Unterstützung von Koordinatentransformation via PROJ.4 und EPSG geodätischem Paramaterdatenmaterial
+* Unterstützung von "locale charsets" via GNU libiconv
+* Implementierung eines echten räumlichen Index basierend auf SQLite's RTree Erweiterung
+* Zugang zu Shape-Dateien als VIRTUAL TABLES durch die VirtualShape Erweiterung
+* Durchführung von standardkonformen SQL Abfragen auf externen Shape-Dateien, ohne diese zu importieren oder zu konvertieren
+* Zugang zu CSV/TxtTab-Dateien als VIRTUAL TABLES durch die VirtualText Erweiterung
+* Durchführung von standardkonformen SQL Abfragen auf externen CSV/TxtTab-Dateien, ohne diese zu importieren oder zu konvertieren
+* Ein GUI Werkzeug unterstützt all Funktionen auf eine benutzerfreundliche Art und Weise
 
 
 Details
 -------
 
-**Website:** http://www.gaia-gis.it/spatialite/
+**Webseite:** http://www.gaia-gis.it/spatialite/
 
-**Licence:** MPL v1.1 and GPL v3
+**Lizenz:** MPL v1.1 und GPL v3
 
 **Software Version:** 2.3.1 / 2.4 beta
 
-**Supported Platforms:** Linux, Mac, Windows
+**Unterstützte Betriebssysteme:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**API Schnittstellen:** C++
 
 
-Quickstart
-----------
+Schnellstart
+------------
 
-* `Quickstart documentation <../quickstart/spatialite_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/spatialite_quickstart.html>`_
 
 

@@ -6,9 +6,10 @@
 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 30
-  :alt: udig logo
+  :alt: udig Logo
   :align: right
   :target: http://udig.refractions.net/
+
 
 User-friendly Desktop Internet GIS (uDig)
 =========================================
@@ -18,43 +19,40 @@ Desktop GIS
 
 .. image:: ../../images/screenshots/1024x768/udig-overview.png
   :scale: 50
-  :alt: udig workshop
+  :alt: udig Workshop
   :align: right
 
-User-friendly Desktop Internet GIS (uDig) is an open source spatial data viewer/editor, with special emphasis on the OpenGIS standards for internet GIS, the Web Map Server (WMS) and Web Feature Server (WFS) standards.
+User-friendly Desktop Internet GIS (uDig) ist ein Open Source Geodatenbetrachter/-editor mit besonderem Schwerpunkt auf OpenGIS Standards für Internet-GIS, die Web Map Server (WMS) und Web Feature Server (WFS) Standards.
 
-uDig is:
 
-* **User-friendly**, providing a familiar graphical environment for GIS users;
-* **Desktop located**, running natively on Windows, Mac OS/X and Linux;
-* **Internet oriented**, consuming standard and de facto geospatial web services; and,
-* **GIS ready**, providing the framework on which complex analytical capabilities can be built, and gradually subsuming those capabilities into the main application
+uDig ist:
 
-For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
+* **User-friendly**, eine vertraute grafische Umgebung für GIS-Anwender;
+* **Desktop located**, läuft nativ auf Windows, Mac OS / X und Linux;
+* **Internet oriented**, nutzt standardkonforme und de facto Geospatial Web Services; und,
+* **GIS ready**, liefert den Rahmen, auf dem komplexe analytische Fähigkeiten aufgebaut werden können, und fasst diese Fähigkeiten zusammen in der Hauptanwendung.
 
-Core Features
--------------
+Für Entwickler bietet uDig eine gemeinsame Plattform für Java-Anwendungen zum Aufbau räumlicher Open-Source-Komponenten. Auf der Projektwebseite finden Sie eine Reihe von verständlichen Übungen angefangen von der Erstellung einfacher Werkzeuge bis zu Beispielen für komplexe Anwendungen.
 
-* Desktop Client with Drag and Drop integration for File explorer and Web Browser
-* Integrate with your existing infrastructure: ArcSDE, Oracle, DB2 and more
-* Work with local files: Shapefile, jpeg, png, tiff and more.
-* Work with advanced spatial raster formats: ECW, MrSID, JPEG 2000
-* Support for compliant Web Map Servers (GeoServer, MapServer tested)
-* Integrated Web experience with an embedded browser that recognises OGC web
-  services and smoothly adds links to the onscreen map
-* Style Layer Descriptor control of rendering allowing you to publish your Map using the same
-  settings in uDig as with popular Web Map Servers
-* Deep integration of standards allowing the application to swap between the appropriate service
-  as required for display, interaction and editing
-* Printing and PDF Generation
-* For Developers
-  
-  * Java Application built using the GeoTools, JTS Topology Suite and GeoAPI
-  * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
-  * Use of native widgets
+Kernfunktionen
+--------------
 
-Implemented Standards
----------------------
+* Desktop Anwendung mit Drag & Drop Integration für Dateimanager und Web Browser
+* Integration in Ihre vorhandene Infrastruktur: ArcSDE, Oracle, DB2 und mehr
+* Arbeit mit lokalen Dateien: shp, jpeg, png, tiff und mehr
+* Arbeit mit komplexen räumlichen Rasterformaten: ECW, MrSID, JPEG 2000
+* Unterstützung von standardkonformen Web Map Servern (GeoServer, MapServer getested)
+* Integriertes Internet-Erlebnis mit einem eingebetteten Browser, der OGC Webdienste erkennt und diese problemlos auf der Bildschirmkarte verknüpft
+* Die Style Layer Descriptor (SLD) Steuerung zur Kartenerstellung erlaubt Ihnen, die Karte mit denselben Einstellungen in uDig zu veröffentlichen als mit beliebten Web Map Servern
+* Weitreichende Integration von Standards erlauben der Anwendung zwischen entprechenden Diensten zu wechseln, je nach Anforderung aus Darstellung, Interaktion und Bearbeitung
+* Druck und PDF Erstellung
+* Für Entwickler 
+  * Java-Application mit Hilfe von GeoTools, JTS Topology Suite und GeoAPI
+  * Professionelles Plugin-System durch die Eclipse Rich Client Platform
+  * Verwendung von nativen Widgets
+
+Implementierte Standards
+------------------------
 
 * OGC Web Map Server (WMS)
 * OGC Web Feature Server (WFS)
@@ -66,24 +64,24 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://udig.refractions.net/
+**Webseite:** http://udig.refractions.net/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2
+**Lizenz:** GNU Lesser General Public License (LGPL) version 2
 
 **Software Version:** 1.2.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Unterstützte Betriebssysteme:** Windows, Linux, Mac
 
-**API Interfaces:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
+**API Schnittstellen:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
 **Support:** http://udig.refractions.net/users/
 
-**Developers:** http://udig.refractions.net/developers/
+**Entwickler:** http://udig.refractions.net/developers/
 
 
-Quickstart
-----------
+Schnellstart
+------------
 
-* `Quickstart documentation <../quickstart/udig_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/udig_quickstart.html>`_
 
 

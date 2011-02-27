@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://mapnik.org/
 
@@ -14,49 +14,50 @@
 Mapnik
 ======
 
-Cartographic rendering engine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Kartographisches Rendering
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges provided by quality anti-aliasing graphics, intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the Open Street Map main map layers.
+Mapnik ist ein Toolkit für die Erstellung von sehenswerten Landkarten, mit 
+sauberen und weichen Kanten, ermöglicht durch qualitativ hochwertige Grafiken 
+mit Anti-Aliasing, intelligente Anordnung von Beschriftungstext und skalierbare
+Symbole als SVG. Am bekanntesten ist Mapnik als Werkzeug zum Rendern der 
+Standardkarte des OpenStreetMap Projekts. 
 
-Mapnik has typically been embedded in python applications which deliver their maps over the internet although scaling improvements have meant that Mapnik has recently been getting used to create high resolution paper maps too.
+Mapnik kam zumeist in Python-Anwendungen zur Verwendung, die ihre Karten über das 
+Internet bereitstellen. Trotzdem wird Mapnik, dank Verbesserungen im Bereich der
+Skalierbarkeit, seit kurzem auch zur Erstellung hochauflösender Landkarten in 
+Papierform verwendet.
 
 .. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
-  :alt: screenshot
+  :alt: Bildschirmfoto
   :align: right
-
-Essentially a collection of geographic objects (map, layer, datasource,
-feature, geometry),  the library doesn't rely on "windowing systems" and
-can be deployed in any server environment.  It is intended to play fair
-in a multi-threaded environment and is aimed primarily,  but not
-exclusively, at web-based development.
-
-High-level Python bindings (boost.python) facilitate rapid application
-development,  targeting zope3, django etc.
-
-Mapnik is cross platform. Packages are available for most linux
-distributions and installers are commonly used on Mac OS X and windows.
+  
+Im Wesentlichen eine Sammlung von geografischen Objekten (Karte, Ebene, 
+Datenquelle, Eigenschaft, Geometrie), ist die Bibliothek nicht auf 
+"grafische Systeme" angewiesen und kann in jeder Serverumgebung eingesetzt 
+werden. Es ist beabsichtigt, Multi-threaded Umgebungen gleichermaßen zu 
+unterstützten. Eine web-basierte Verwendung wird bevorzugt, jedoch nicht
+ausschließlich, angestrebt.
 
 
 Details
 -------
 
-**Website:** http://www.mapnik.org/
+**Webseite:** http://www.mapnik.org/
 
-**Licence:** LGPL (GNU Lesser General Public Licence)
+**Lizenz:** LGPL (GNU Lesser General Public Licence)
 
 **Software Version:** 0.7.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Unterstützte Betriebssysteme:** Windows, Linux, Mac
 
-**API Interfaces:** C++, Python
+**API Schnittstellen:** C++, Python
 
 
+Schnellstart
+------------
 
-Quickstart
-----------
-
-* `Quickstart documentation <../quickstart/mapnik_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/mapnik_quickstart.html>`_
 
 

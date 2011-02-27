@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+﻿:Author: Johannes Wilden
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -23,22 +23,24 @@ deegree
 Web Services
 ~~~~~~~~~~~~
 
-deegree is free, stable, powerful and easy to use. deegree is
-the most comprehensive set of implementations of Open Geospatial
-Consortium (OGC) standards in free and open source software, ranging
-from a transactional Web Feature Service to three-dimensional data
-display through a Web Terrain Service and many more!
 
-deegree is a solution for web- and desktop-based
-Geographic Information Systems (GIS) and Spatial Data Infrastructures
-(SDI). It is comprised of a comprehensive yet powerful Java Application
-Programming Interface (API) and a powerful object-relational mapping for
-simple and complex spatial schemas. deegree also provides a set of
-standards-compliant webservices for web mapping, feature and catalogue
-services as well as sensor and processing services.
+deegree ist frei, stabil, mächtig und einfach zu nutzen. deegree stellt
+derzeit die umfassendste Implementierung von Standards des 'Open Geospatial
+Consortium' (OGC) in freier und opensource Software dar. Dabei wird ein
+breites Spektrum an Diensten angeboten, wie z.B. ein transaktionaler 'Web
+Feature Service' (WFS-T) oder ein Dienst, der die Möglichkeit bietet dreidimensionale Daten über
+den 'Web  Terrain Service' zu visualisieren. 
 
-deegree gets your SDI up and running, using your own data and fulfilling
-your requirements.
+deegree ist sowohl eine Lösung für web- und desktop-basierte Geographische
+Informationssysteme (GIS) als auch für Geodateninfrastrukturen (GDI). Das
+Framework umfasst eine umfangreiche  Java-API sowie ein mächtiges
+objekt-relationales Mapping für simple und komplexe räumliche Schemata.   
+Die Software umfasst weiterhin standard-konforme Webdienste
+für Kartenanwendungen, Feature-Verarbeitung, Geokataloge, Sensoren und
+Prozessierung. 
+
+deegree ermöglicht den Aufbau ihrer GDI, mit ihren Daten und ihren
+spezifischen Anforderungen. 
 
 
 .. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
@@ -46,52 +48,52 @@ your requirements.
   :alt: project logo
   :align: right
 
-Some example features
+Ausgewählte Features
 ---------------------
 
 * Web Map Service
 
-  * very flexible concerning layer contents
-  * supports and uses style definitions (SLD 1.0)
-  * thematic mapping capabilities through charts (pie, bar, line) as point symbolizers
-  * datasources: all common OGC web services (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, any arbitrary SQL statements can be used to create the WMS layer content
-  * very stable, even for large scales
-  * supports HTTP GET, HTTP POST and feature info requests
-  * certified to be OGC compliant
+  * sehr flexibel hinsichtlich der Layer-Eigenschaften
+  * unterstützt und nutzt Style-Definitionen 
+  * Erzeugung thematischer Karten mit Diagrammen als 'point symbolizers'
+  * Datenquellen: alle verbreiteten OGC Web Services (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, frei wählbare SQL-Statements können zur WMS-Layer Erstellung genutzt werden
+  * sehr stabil, gut skalierbar 
+  * unterstützt HTTP GET, HTTP POST und 'feature info' Requests
+  * zertifiziert als  OGC-compliant
 
 * Web Feature Service
 
-  * supports simple and complex features
-  * on the fly coordinate transformation for more than 3000 coordinate reference systems
-  * supports flexible output formats
-  * easily enhanced to support INSPIRE directive
+  * unterstützt  simple und komplexe Features
+  * on-the-fly Koordinatentransformation für über  3000 Koordinaten-Referenzsysteme
+  * unterstützt flexible Ausgabeformate
+  * einfach an INSPIRE-Vorgaben anpassbar
 
 * Web Coverage Service
 
-  * supports HTTP GET and HTTP POST requests
-  * datasources: images (tif, png, jpeg, gif, bmp); GeoTIFF; ECW files; Oracle GeoRaster
-  * high-speed access to large coverages
+  * unterstützt HTTP GET und HTTP POST Requests
+  * Datenquellen: Rasterbilder (tif, png, jpeg, gif, bmp); GeoTIFF; ECW-Dateien; Oracle GeoRaster
+  * schneller Zugriff auf große Coverages
 
 * Catalogue Service-Web
 
-  * datasources: PostgreSQL-Database; Oracle-Database
-  * supported requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
+  * Datenquellen: PostgreSQL-Datenbank; Oracle-Datenbank
+  * unterstützte Requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
 
 * Web Map Print Service
 
-  * supports different print formats (HTML, PDF, PNG)
-  * long time running jobs
-  * supports asynchronous requests to enable large-scale plots
-  * requests are stored within a database and will be available even if WMPS is stopped by an administrator or the machine fails
+  * Unterstützung für diverse Druck-Fromate (HTML, PDF, PNG)
+  * Unterstützt lange Laufzeiten für Druckaufträge
+  * Unterstützung für asynchrone Requests zur Erstellung großformatiger Plots
+  * Requests werden in der Datenbank gehalten und sind verfügbar, selbst wenn der WMPS vom Administrator angehalten wird oder die Maschine ausfällt
 
 * Web Perspective View Service
 
-   * datasources: remote/local-WMS, remote/local-WFS, local-WCS, Postgres/PostGIS, Oracle Spatial
-   * elevation models can be vector data or raster data
-   * requests: Get3DFeatureInfo, GetView
+   * Datenquellen: remote/lokaler-WMS, remote/lokaler-WFS, lokaler-WCS, Postgres/PostGIS, Oracle Spatial
+   * Höhenmodelle können  als Vektor- oder Rasterdaten vorliegen  
+   * Requests: Get3DFeatureInfo, GetView
 
 
-Implemented Standards
+Implementierte Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
@@ -110,7 +112,7 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 2.3
+**Software Version:** 2.4
 
 **Supported Platforms:** Windows, Linux
 

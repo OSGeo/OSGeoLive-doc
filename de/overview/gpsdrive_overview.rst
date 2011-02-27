@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-gpsdrive.png
   :scale: 80 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://www.gpsdrive.de
 
@@ -14,53 +14,55 @@
 GpsDrive
 ========
 
-GPS Navigation Software 
+GPS Navigationssoftware 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-`GpsDrive <http://www.gpsdrive.de>`_ is a car (bike, ship, plane, foot)
-navigation system. GpsDrive displays your position provided from a GPS
-on a zoomable map. The map file is auto-selected depending on your position
-and preferred map scale.  All GPS receivers which support the NMEA protocol
-should be usable, as well as many USB GPSs using a binary protocol known to
-the `Gpsd <http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
+`GpsDrive <http://www.gpsdrive.de> `_ ist ein Navigationssystem für das Auto 
+(Motorrad, Schiff, Flugzeug, Fußgänger). GpsDrive zeigt Ihre von einem GPS-Gerät 
+berechnete Position auf einer zoombaren Landkarte. Die Map-Datei wird 
+automatisch gewählt, je nach Ihrer Position und dem bevorzugten Kartenmaßstab. 
+Alle GPS-Empfänger mit Unterstützung für das NMEA-Protokoll sollten benutzbar 
+sein, ebenso wie viele USB GPS-Empfänger, die das von `Gpsd <a href="http://gpsd.berlios.de>`_
+ GPS Daemon und Multiplexer verwendete Binärprotokoll kennen.
 
-Core Features
--------------
+
+Kernfunktionen
+--------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
-  :alt: screenshot
+  :alt: Bildschirmfoto
   :align: right
 
-* Download LANDSAT or OpenStreetMap data from the Web, or register your own images
-* Live rendering of OpenStreetMap data stored in a PostGIS database using Mapnik
-* Live rendering from NASA's Blue Marble high-resolution mosaic
-* Verbal instructions using eSpeak
-* Highly customizable dashboard and GUI
-* GPX track and route support, a number of waypoint storage options including
-  SQLite and GpsBabel-compatible plain text files
-* Search for nearest POI waypoints within a given radius
-* Route planning
-* Included server to keep track of your friends' positions
-* Kismet Wifi integration
+* Download von LANDSAT oder OpenStreetMap-Daten aus dem Internet oder Einbinden von eigenen Bildern
+* Echtzeit-Rendering von in einer PostGIS-Datenbank gespeicherten OpenStreetMap-Daten mit Mapnik  
+* Echtzeit-Rendering von hochauflösenden NASA Blue Marble Mosaiks 
+* Sprachanweisungen mittels eSpeak 
+* Flexibel anpassbares Dashboard und GUI 
+* Unterstützung von Wegen und Routen im GPX-Format, verschiedene Optionen zur Speicherung von Wegpunkten, einschließlich SQLite und GPSBabel-kompatiblen Textdateien 
+* Suche nach nächstgelegenen POI Wegpunkten innerhalb eines bestimmten Radius 
+* Routenplanung
+* Eingebauter Server zur Beobachtung der Positionen von Freunden
+* Kismet Wifi Integration
+
 
 Details
 -------
 
-**Website:** http://www.gpsdrive.de
+**Webseite:** http://www.gpsdrive.de
 
-**Licence:** GNU General Public License (GPL) version 2
+**Lizenz:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.11
 
-**Supported Platforms:** GNU/Linux, Mac OSX
+**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX
 
 **Support:** http://gpsdrive.de/support.shtml
 
 
-Quickstart
-----------
+Schnellstart
+------------
 
-* `Quickstart documentation <../quickstart/gpsdrive_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/gpsdrive_quickstart.html>`_
 
 
