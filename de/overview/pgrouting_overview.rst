@@ -6,64 +6,63 @@
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
-  :alt: pgRouting Logo
+  :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
 
 pgRouting
 =========
 
-GIS Werkzeuge
-~~~~~~~~~~~~~
+GIS Tools
+~~~~~~~~~
 
-pgRouting erweitert eine "PostGIS <postgis_overview.html>`_ /` PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
+pgRouting extends the `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
 
-Vorteile des Datenbank-Routing Konzepts sind:
+Advantages of the database routing approach are:
 
-* Daten und Attribute können  mittels JDBC, ODBC oder direkt durch Pl/pgSQL von zahlreichen Anwendungen modifiziert werden, wie etwa von `Quantum GIS <qgis_overview.html>`_` und uDig <udig_overview.html>`_. Solche Anwendungen können sowohl auf PCs als auch auf mobilen Geräten laufen. 
-* Änderungen an den Daten wirken sich unmittelbar auf das Routingergebnis aus. Es besteht keine Notwendigkeit, Daten vorzuberechnen. 
-* Der "Kosten" Parameter kann dynamisch mittels SQL berechnet werden und aus verschiedenen Attributen aus unterschiedlichen Tabellen zusammengesetzt sein.
-
+* Data and attributes can be modified by many clients, like `Quantum GIS <qgis_overview.html>`_ and `uDig <udig_overview.html>`_ through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
+* Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
+* The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
-  :alt: pgRouting Abfrage in pgAdmin III
+  :alt: pgRouting query in pgAdminIII
   :align: right
 
-Kernfunktionen
---------------
+Core Features
+-------------
 
-pgRouting stellt Funktionen zur Verfügung für:
+pgRouting provides functions for:
 
-* "Kürzeste-Wege" Berechnung Dikstra: Routing Algorithmus ohne heuristische Komponente
-* "Kürzeste-Wege" Berechnung A-Star: Routing für große Netzwerke (mit heuristischer Komponente)
-* "Kürzeste-Wege" Berechnung Shooting-Star: Routing mit Unterstützung von Abbiegebeziehungen (mit heuristischer Komponente)
-* Problem des Handlungsreisenden (Traveling Salesperson Problem, TSP)
-* Einzugsbereichberechnung (Isolinien)
+* Shortest Path Dikstra: routing algorithm without heuristics
+* Shortest Path A-Star: routing for large datasets (with heuristics)
+* Shortest Path Shooting-Star: routing with turn restrictions (with heuristics)
+* Traveling Salesperson Problem (TSP)
+* Driving Distance calculation (Isolines)
 
-.. Implementierte Standards
+.. Implemented Standards
    ---------------------
 
-.. * OGC standardkonform
+.. * OGC standards compliant
 
 Details
 -------
 
-**Webseite:** http://www.pgrouting.org
+**Website:** http://www.pgrouting.org
 
-**Lizenz:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 1.05
 
-**Unterstützte Betriebssysteme:** Linux, Windows, Mac
+**Supported Platforms:** Linux, Windows, Mac
 
-**API Schnittstellen:** SQL
+**API Interfaces:** SQL
 
-**Kommerzieller Support:** http://www.pgrouting.org
+**Commercial Support:** http://www.pgrouting.org
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/pgrouting_quickstart.html>`_
+* `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_
 
 

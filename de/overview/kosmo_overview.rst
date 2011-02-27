@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
   :scale: 100 %
-  :alt: Projekt Logo
+  :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
 
@@ -16,58 +16,58 @@ Kosmo Desktop
 Desktop GIS
 ~~~~~~~~~~~
 
-Kosmo - Desktop ist eine benutzerfreundliche Desktop-GIS-Anwendung, die Ihnen ermöglicht, Geodaten aus einer Vielzahl von Datenbanken, Vektor- und Rasterformaten zu erforschen, zu bearbeiten und zu analysieren. 
+Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
+and analyse spatial data from a variety of databases, vector and raster formats. 
 
-Kosmo - Desktop folgt OGC Standards und bietet eine ausgezeichnete topologische Integrität. Die Plugin-Architektur ermöglicht es, die Anwendung leicht für einen bestimmten Zweck anzupassen.
-
+Kosmo - Desktop follows OGC standards and provides excellent topology integrity. 
+It's plug-in architecture enables it to be easily customised for specific purposes.
 
 .. image:: ../../images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
-  :alt: Bildschirmfoto
+  :alt: screenshot
   :align: right
 
-Kernfunktionen
---------------
+Core Features
+-------------
 
-Unterstützte Formate:
+Supported formats:
 
-* Vectordaten Formate: Shapefiles, GML, DXF, DWG, DGN, CSV (als Erweiterung)
-* Vector-Datenbanken: PostgreSQL + PostGIS, Oracle, MySQL
-* Rasterdaten Formate: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
-* OGC Dienste: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
+* Vectorial file formats: Shapefiles, GML, DXF, DWG, DGN, CSV (by an extension)
+* Vectorial databases: PostgreSQL + PostGIS, Oracle, MySQL
+* Raster file formats: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
+* OGC services: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
 
-Hauptmerkmale:
+Key features:
 
-* Benutzerfreundliches GUI, konzentriert auf eine einfache Lernkurve
-* Verfügbar in 11 Sprachen (englisch, spanisch, italienisch, deutsch, kroatisch, tschechisch, russisch, slovakisch, katalanisch, baskisch, brasilianisch und portugiesisch)
-* Erweitertes Druckmodul basierend auf OpenOffice Suite (als Erweiterung)
-* Topologie Konsistenz-Regeln: vor/during/post edition
-* Topologie Validierungs- und Reinigungswerkzeuge (intersect/eliminate/clean)
-* Geoprocessing Wizard: buffer/dissolve/merge/clip/intersection/spatial join/difference (als Erweiterung)
-* Werkzeug zur Raster-Georeferenzierung (als Erweiterung)
-* Sextante 0.5 Integration (als Erweiterung)
+* User friendly GUI, focused on an easy learning curve
+* Available in 11 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian portuguese)
+* Advanced printing module based on OpenOffice offimatic suite (by an extension)
+* Topology consistency rules: pre/during/post edition
+* Topology validation and cleaning tools (intersect/eliminate/clean)
+* Geoprocessing wizard extension: buffer/dissolve/merge/clip/intersection/spatial join/difference (by an extension)
+* Raster georreferencing tool (by an extension)
+* Sextante 0.5 integrated (by an extension)
 
-
-Implementierte Standards
-------------------------
+Implemented Standards
+---------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
-* Styled Layer Descriptor (SLD) (Import/Export)
+* Styled Layer Descriptor (SLD) (import/export)
 
 
 Details
 -------
 
-**Webseite:** http://www.opengis.es
+**Website:** http://www.opengis.es
 
-**Lizenz:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.0
 
-**Unterstützte Betriebssysteme:** Windows, Linux
+**Supported Platforms:** Windows, Linux
 
-**API Schnittstellen:** Java
+**API Interfaces:** Java
 
-**Kommerzieller Support:** http://www.saig.es/index.php?lang=en
+**Commercial Support:** http://www.saig.es/index.php?lang=en
 

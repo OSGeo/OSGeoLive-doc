@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-maptiler.png
   :scale: 80 %
-  :alt: Projekt Logo
+  :alt: project logo
   :align: right
   :target: http://www.maptiler.org/
 
@@ -14,51 +14,39 @@
 MapTiler
 ========
 
-Karten-Publishing
------------------
-
-MapTiler ist eine Desktop-Anwendung für schnelles Rasterkarten-Publishing durch 
-das Erstellen von Kartenkacheln (Tiles). Geodaten werden umgewandelt zu Tiles,
-die kompatibel sind mit Google Maps und Google Earth - bereit für die 
-Veröffentlichung per direktem Upload auf jeden beliebigen Webserver oder ein 
-Cloud-Storage (wie Amazon S3). 
-
-Es sind keine aufwändigen Anpassungen am Server erforderlich, jedes einfachen
-Datei-Hosting ist in Ordnung. Dynamische Interaktion wie Verschieben und Zoomen, 
-Überlagerung von Markern und Vektordaten wird über den Browser zur Verfügung
-gestellt.
-
-Die Anwendung stellt direkt einen sofort benutzbaren einfachen Betrachter, 
-basierend auf OpenLayers und Google Maps API, bereit und kann leicht angepasst
-werden.
-
-MapTiler ist eine Multi-Plattform Desktop-Anwendung. Installationsprogramme sind 
-verfügbar für Windows und Mac OS X, Pakete sind vorhanden für Linux (Debian/Ubuntu).
-
-
-Kernfunktionen
+Map Publishing
 --------------
 
-* Unterstützung bekannter JavaScript-APIs: OpenLayers, Google Maps API 
-* Keine zusätzliche Server-Software-Installation erforderlich 
-* Hosting fast überall möglich: Cloud-Storage wie Amazon S3 oder preisgünstige "unlimitierte" Webhosting-Angebote mit FTP-Zugang 
-* Einfache Mashups mit kommerziellen Layern (Google, Bing , Yahoo) oder OpenStreetMap 
-* Kartenkacheln standardkonform nach OSGeo TMS (Tile Map Service Specification) 
-* Möglichkeit, Rasterdaten in verschiedenen Formaten zu verarbeiten: TIFF / GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG und mehr ... 
-* Kommerzieller Support möglich und paralleles Rendering auf Multi-Core-CPUs oder auf Amazon EC2-Cluster
+MapTiler is a desktop application for the creation of map tiles for rapid raster map publishing. Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
 
+No extensive configuration on the server side is necessary, any simple file hosting is fine. Dynamic interaction such as panning and zooming, overlay of markers and vector data is provided by powerful browser functionality.
+
+The application directly generates a ready to use simple viewer based on OpenLayers and Google Maps API and can be easily customized.
+
+MapTiler is a multi-platform desktop application. Installers are available for Windows, Mac OS X and packages for linux (Debian/Ubuntu).
+
+Core Features
+-------------
+
+* Well known Javascript APIs supported: OpenLayers, Google Maps API
+* No extra server software installation necessary
+* Hosting almost everywhere: cloud storage such as Amazon S3 or any cheap "unlimited" webhosting with FTP access
+* Easy mashup with commercial layers (Google, Bing, Yahoo) or OpenStreetMap
+* Tiles follow OSGEO TMS (Tile Map Service Specification)
+* Ability to process raster data in various formats: TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG and more...
+* Available commercial support and parallelized rendering on multi-core CPUs or on Amazon EC2 cluster
 
 Details
 -------
 
-**Webseite:** http://www.maptiler.org/
+**Website:** http://www.maptiler.org/
 
-**Lizenz:** New BSD License
+**Licence:** New BSD License
 
 **Software Version:** 1.0beta2
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **Community:** http://groups.google.com/group/maptiler 
 
-**Kommerzieller Support und Anwendungen:** http://www.maptiler.com/
+**Commercial support and applications:** http://www.maptiler.com/

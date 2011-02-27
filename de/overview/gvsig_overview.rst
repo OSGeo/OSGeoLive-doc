@@ -23,92 +23,95 @@ gvSIG Desktop
 Desktop GIS
 ~~~~~~~~~~~
 
-gvSIG_ ist ein Geographisches Informationssystem (GIS). Als Desktop-Anwendung bietet es Möglichkeiten 
-zur Erfassung, Speicherung, Handhabung, Analyse und Bereitstellung geografischer Informationen,
-um damit komplexe Planungs- und Management-Probleme zu lösen. 
-gvSIG ist bekannt für seine benutzerfreundliche Benutzeroberfläche und bietet Zugriff auf
-alle gängigen Vektor- und Raster-Datenformate. 
-Für die Arbeit mit geografischer Information stehen in gvSIG eine breite Palette an Werkzeugen zur Verfügung (Abfrage, 
-Layout-Design, Geoprozessierung, Netzwerkanalyse, etc.).
-Damit ist gvSIG ein ideales Werkzeug für die Arbeit im Ungang mit Geoinformation.
+gvSIG_ is a Geographic Information System (GIS) desktop application
+designed for capturing, storing, handling, analysing and deploying any kind of
+referenced geographic information in order to solve complex management and
+planning problems. gvSIG is known for its user-friendly interface and being
+able to access all common vector and raster formats. It features
+a wide range of tools for working with geographic information (query,
+layout creation, geoprocessing, networks, etc.), which turns gvSIG into the
+ideal tool for users working in the land realm.
 
-gvSIG ist bekannt für:
+gvSIG is known for:
 
-* Integration und Kombination von lokalen und entfernten Daten nach OGC-Standards.
-* skalierbar und flexibel und bietet damit eine kontinuierliche Erweiterung
-* in über 20 Sprachen verfügbar (Spanisch, Englisch, Deutsch, Französisch, Italienisch,...)
-* plattformunabhängig (Windows, Linux, und Mac OS X)
+* integrating in the same view both local and remote data through OGC standards.
+* being easily extendible, allowing continuous application 
+  enhancement, as well as enabling the development of tailor-made solutions.
+* being available in over 20 languages (Spanish, English, German, French, 
+  Italian,...) .
+* being available for Windws, Linux, and Mac OS X platforms:
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Kernelemente
-------------
+Core Features
+-------------
 
-* Bietet allgemeine GIS-Funktionalität, wie das Laden von Daten, Karten-Navigation, Abfrage von
-  alphanumerischer Karten-Informationen, Messen von Strecken und Flächen, thematische
-  Kartographie, verschiedene Legendentypen, Beschriftungen, Objekt-Auswahl nach verschiedenen 
-  Methoden, Tabellenfunktionen zur Erstellung von Statistiken, Verlinkungen, Layout-Manager, 
-  Geoprocessing Werkzeuge, CAD- und Raster-Verarbeitungswerkzeuge, etc.
+* Provides common GIS tools like data loading, map navigation, query 
+  map information like alphanumeric information, distance measurement, thematic
+  cartography, legend edition using common legend types, labelling,
+  feature selection by many selection types, data tables with statistics,
+  ordering, table relations, table linking, layout manager, geoprocessing tools,
+  CAD, raster processing, etc.
 
-* Interoperabilität: Verarbeitung gängiger Datenformate:
+* Interoperable: able to work with most known data formats:
 
-  * Raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * Vektor & CAD: shapefile, GML, KML, DGN, DXF, DWG
-  * Datenbanken: PostGIS, MySQL, Oracle, ArcSDE
-  * Dienste: ECWP, ArcIMS, OGC standards
+  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
+  * vector & CAD: shapefile, GML, KML, DGN, DXF, DWG
+  * databases: PostGIS, MySQL, Oracle, ArcSDE
+  * remote: ECWP, ArcIMS, OGC standards
 
-* Dient als Client zur Lokalisierung von Datenquellen innerhalb einer GDI
+* Discovery services client to localize data resources within an
   SDI (catalogue and gazeteer services)
   
-  * Catalog-Services: Z3950, SRW, CSW (ISO/19115 and ebRIM)
-  * Gazetteer-Services: ADL, WFS, WFS-G
+  * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
+  * Gazetteers: ADL, WFS, WFS-G
   
-* Bietet mehr als 290 Geoalgorithmen durch die Integration von SEXTANTE_ and GRASS
+* More than 290 geoalgorithms via SEXTANTE_ and GRASS integration
   
-* Fortschrittlich durch integrierte CAD Werkzeuge:
+* Integrated advanced CAD tools:
 
-  * Vektor: Modifizieren, Erstellen and Löschen von Elementen
-  * Administration per Kommandozeile möglich, ähnlich handelsüblicher CAD-Software
-  * Werkzeuge wie z.B. Hilfefunktion, Ausrichtung an Gitternetz, Befehlsliste (undo), komplexe Objekt-Selektion
-  * Werkzeuge zum Erzeugen von Geometrien, wie z.B. Punkt, Linie, Ellipsen, etc.
-  * Werkzeuge zur Veränderung von Objekten, durch z.B. Rotationen, Symmetrie, etc.
+  * vector data: modify, create and delete elements
+  * command console typical element in CAD software
+  * tools like help, grid, command stack, complex element selections
+  * tools for inserting elements like points, polygons, lines, ellipses, etc...
+  * tools to modify its rotation, symmetry,...
   
-* Fortschrittlich durch integrierte Rasterwerkzeuge:
+* Integrated advanced raster tools:
 
-  * Georeferenzierung und Umprojizierung
-  * Export, Raster-Clip
-  * look up tables, Histogramme
-  * Filter, Vektorisierung
-  * Pyramidengenerierung und Management von ROI (region of interest)
+  * georeferencing and reprojecting
+  * export, clipping
+  * look up tables, histogram
+  * filters, vectorization
+  * overviews and regions of interest management
 
-* Scripting Support (Jython)
-* Leistungsstarker Mechanismus zur Umprojizierung durch PROJ4
+* Scripting support
+* Powerful reprojection engine via PROJ4
 
 
-Implementierte Standards
-------------------------
+Implemented Standards
+---------------------
 
-Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGIS unterstützt:
+Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 
-* Laden von WMS, WFS und WCS Layern
-* Export/Import von SLD Legenden
-* Export/Import von Web Map Context (WMC)
-* Suchfunktion nach Catalog-Diensten durch CSW (ISO/19115 und ebRIM)
-* Suchfunktion von Gazetteer, durch Verwendung von WFS-G 
+* Load WMS, WFS and WCS layers
+* Export/import of SLD legends
+* Export/import of Web Map Context (WMC)
+* Search on catalogues with  CSW (ISO/19115 and ebRIM)
+* Search on gazetteers using WFS-G recommendation
 
 Details
 -------
 
-**Webseite:** http://www.gvsig.org/
+**Website:** http://www.gvsig.org/
 
-**Lizenz:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 1.10
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://www.gvsig.org/web/organization/services
 

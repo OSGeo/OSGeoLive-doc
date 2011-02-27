@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 80 %
-  :alt: Project Logo
+  :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
 
@@ -14,32 +14,49 @@
 Ushahidi
 ========
 
-Kartenerstellung und Zeitachse für Ereignisse
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Incident Timeline & Mapping
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Ushahidi <http://www.ushahidi.com/>`_ ist eine freie Open Source Plattform, die es erlaubt, verteilte Daten via SMS, Email oder Internet zusammenzutragen, und diese auf einer Landkarte oder einer Zeitachse darzustellen. Unser Ziel ist es, Werkzeuge zu erstellen für die freie Verbreitung von Informationen und größere Transparenz, und es dem Einzelnen zu erleichtern, persönliche Geschichten mitzuteilen.
+The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
+platform that allows anyone to gather distributed data via SMS, email or 
+web and visualize it on a map or a timeline. Ushahidi's goal is to create tools for 
+democratizing information, increasing transparency and lowering the barriers 
+for individuals to share their stories.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
-  :alt: Bildschirmfoto
+  :alt: screenshot
   :align: right
 
-Ushahidi, welches Swahili ist und "Zeugnis" bedeutet, wurde ursprünglich entwickelt, um Berichte der Gewaltverbrechen in Kenia zu kartieren, als Reaktion auf die negativen Auswirkungen der Nachwahlen zu Beginn des Jahres 2008. Ushahidis Wurzeln liegen in der Zusammenarbeit von kenianischen Journalisten aus der Bürgerschaft zu Zeiten der Krise. Die Webseite wurde dazu verwandt, Gewaltverbrechen und Fiedensbemühungen im ganzen Land zu kartieren, basierend auf Meldungen, die mittels Internet oder Mobiltelefon übermittelt wurden. 
-Dieser anfängliche Einsatz von Ushahidi hatte 45000 Benutzer in Kenia, und dies war der Auslöser für uns zu erkennen, dass es ein Interesse an einer derartigen Plattform gibt, die auch an anderer Stelle in der Welt von Nutzen sein dürfte.
+Ushahidi, which means "testimony" in Swahili, was initially developed to
+map reports of violence in Kenya after the post-election fallout at the
+beginning of 2008. Ushahidi's roots are in the collaboration of Kenyan
+citizen journalists during a time of crisis. The website was used to map
+incidents of violence and peace efforts throughout the country based on
+reports submitted via the web and mobile phone. This initial deployment of
+Ushahidi had 45,000 users in Kenya, and was the catalyst for us realizing
+there was a need for a platform based on it, which could be use by others
+around the world.
 
 
-Kernfunktionen
---------------
-
-* Interaktive Landkarte.
-* Zeitachse.
-* Möglichkeit der Benachrichtigung durch entfernungsbasierte Warnmeldungen.
-* Angepasste Darstellung durch CSS.
-* Web-Installation in 5 Minuten.
-* Möglichkeit von Upload und Download von gesammelten Berichten.
-* Möglichkeit KML/KMZ Dateien auf der Karte in Ebenen zu verwalten.
-* Unterstützung von individuell angepassten Seiten und Reitern.
-* Seitenstatistiken und Analytik
+Core Features
+-------------
+* Interactive map.
+* Timeline.
+* Ability to subscribe to report alerts based on proximity.
+* CSS based theming.
+* 5 minute web installer.
+* Ability to upload and download mass reports.
+* Ability to layer KML/KMZ files on the map.
+* Supports custom pages and tabs.
+* Site statitics and analytics.
+* Plugin system.
+* One click upgrade.
+* Supports multiple SMS providers.
+* Trusted Reporter functionality.
+* Themes.
+* Scheduler.
+* Cache.
 
 Demo
 ----
@@ -49,22 +66,22 @@ Demo
 Details
 -------
 
-**Webseite:** http://www.ushahidi.com
+**Website:** http://www.ushahidi.com
 
-**Lizenz:** GNU General Public License (GPL) version 3
+**Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.1.0
+**Software Version:** 2.0.1
 
-**API Schnittstellen:** PHP
+**API Interfaces:** PHP
 
-**Unterstützte Betriebssysteme:** Linux, Mac, Windows
+**Supported Platforms:** Linux, Mac, Windows
 
 **Support:** http://forums.ushahidi.com
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/ushahidi_quickstart.html>`_
+* `Quickstart documentation <../quickstart/ushahidi_quickstart.html>`_
 
 

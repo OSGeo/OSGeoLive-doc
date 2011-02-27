@@ -16,50 +16,50 @@ OpenJUMP GIS
 Desktop GIS
 ~~~~~~~~~~~
  
-OpenJUMP ist ein einfach zu handhabendes und leistungsstarkes DesktopGIS, das es ermöglicht räumliche Daten
-zu bearbeiten, zu analysieren, zu vereinigen, zu speichern und anzuzeigen.
-Es ist außerdem sehr gut zur schnellen Entwicklung von Prototypen mit angepassten GIS Funktionen geeignet.
+OpenJUMP is an easy to use and powerful deskstop GIS that enables users
+to edit, analyse, conflate, save and display geographic data.
+It is also an excellent framework for rapid prototyping to develop custom GIS functions.
 
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: center
 
-Kernfunktionen
+Core Features
 -------------
 
-* Datenformate
+* Data Formats
 
-    * lesend (dateibasiert): GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
-    * lesend (DB): PostGIS, ArcSDE*, Oracle* und MySQL*
-    * schreibend: GML, SHP, DXF*, PostGIS*, JML & JPG
-    * unterstützt: OGC WMS & WFS (-T), GML 2, SLD
-    * beachten Sie, dass die mit * markierten Formate über ein extra Plugin eingebunden werden
+    * reads (files): GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
+    * reads (DB): PostGIS, ArcSDE*, Oracle* and MySQL*
+    * writes: GML, SHP, DXF*, PostGIS*, JML & JPG
+    * supports: OGC WMS & WFS (-T), GML 2, SLD
+    * note that formats marked with a (*) come with an extra plugin
 
-* Bearbeitung & Vereinigung
+* Editing & Conflation
 
-    * Zeichnen von Punkten, Linien, Polygonen und Kreisen
-    * Hinzufügen, Verschiebenm, Löschen von Stützpunkten
-    * Drehen, Skalieren und auto-vervollständigen von Polygonen
-    * Verschneiden, Zusammenführen, Vereinfachen von Polygonen und Linien
-    * Warping, Werkzeuge zur Qualitätsprüfung*
+    * drawing points, lines, polygons, circles
+    * adding, moving, deleting vertices
+    * rotating, scaling, auto-complete polygon
+    * cut, merge, simplify polygons and lines
+    * warping, quality assurance tools*
 
-* (Vektoren) Analysen & Abfragen
+* (Vector) Analysis & Query
 
-    * Abfragefunktionen für räumliche Daten und Attribute
-    * Längen- und Flächenberechnung, Mittelpunkt, Puffer, Convex Hull,...
-    * Topologie Werkzeuge: line noder, polygonizer, planar graph,...
-    * Werkzeuge zur Attributübertragung (1:1 Transfer oder n:1 Transfer)
-    * Rasteranalyse über den SEXTANTE Connector
+    * spatial and attribute query functions
+    * calculating length, area, centroid, buffer, convex hull,...
+    * topology tools: line noder, polygonizer, planar graph,...
+    * attribute transfer tools (1:1 transfer, or n:1 transfer)
+    * raster analysis via SEXTANTE connector
 
-* Anpassungen
+* Customization
 
-    * Bereitstellung einer API, Skripting über BeanShell und Java Python
-    * (Java) Plugin-System
+    * provides an API, scripting via BeanShell and Java Python
+    * (Java) plugin-system
    
 
-Implementierte Standards
-------------------------
+Implemented Standards
+---------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
@@ -68,14 +68,14 @@ Implementierte Standards
 Details
 -------
 
-**Webseite:** http://www.openjump.org
+**Website:** http://www.openjump.org
 
-**Licenz:** GPL
+**Licence:** GPL
 
 **Software Version:** 1.4.0.1
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac, Unix
+**Supported Platforms:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://www.openjump.org/support.html
 
-**Kommerzieller Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+**Commercial Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page

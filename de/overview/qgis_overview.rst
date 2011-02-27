@@ -23,71 +23,73 @@ Quantum GIS
 Desktop GIS
 ~~~~~~~~~~~
 
-Quantum GIS (QGIS) ist ein benutzerfreundliches, quelloffenes Geographisches Informationssystem, mit dem man Geodaten visualisieren, managen, editieren und analysieren sowie druckfertige Karten erstellen kann. 
-Über eine direkte Schnittstelle zu GRASS stellt es umfangreiche analytische Module bereit.
-Es läuft unter Linux, Unix, Mac OS X und Windows und unterstützt eine Vielzahl an Vektor-, Raster- und Datenbankformaten sowie Funktionalitäten.
+Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
+you can visualize, manage, edit, analyse data, and compose printable maps.
+It includes powerful analytical functionality through integration with GRASS.
+It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
+raster and database formats and functionality.
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right
 
-Kernfunktionen
+Core Features
 -------------
 
-* Benutzerfreundliche grafische Oberfläche.
+* Friendly graphical user interface.
 
-    * Identifizieren/Selektieren von Objekten,
-    * Editieren/anschauen/abfragen von Attributen,
-    * 'On the Fly' Projektion,
-    * Druckzusammenstellung,
-    * Objekte beschriften,
-    * Darstellung von Vektor- und Rasterlayern verändern,
-    * Ergänzung eines Gitternetz Layers mit fTools
-    * und weiteres ...
+    * identify/select features,
+    * edit/view/search attributes,
+    * on the fly projection,
+    * print composer,
+    * feature labeling,
+    * change vector and raster symbology,
+    * add a graticule layer,
+    * and more ...
 
-* Einfaches anzeigen zahlreicher Vektor- and Rasterformate
+* Easy Viewing of many Vector and Raster Formats
 
-    * PostgreSQL/PostGIS und SpatiaLite Datenbanken.
-    * zahlreiche Vektorformate, welche durch die OGR Bibliothek unterstützt werden, inklusive ESRI shapefiles, MapInfo, SDTS und GML.
-    * zahlreiche Rasterformate, welche durch die GDAL Bibliothek unterstützt werden, z.B. digitale Höhenmodelle, Luft- und Satelitenbilder.
-    * GRASS Locations und Mapsets,
-    * Online Geodaten, die als OGC-Dienste WMS oder WFS bereitgestellt werden;
+    * PostgreSQL Database tables
+    * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML.
+    * raster formats such as digital elevation models, aerial photography or landsat imagery,
+    * GRASS locations and mapsets,
+    * online spatial data served as OGC-compliant WMS or WFS;
 
-* Erstellen, editieren und exportieren räumlicher Daten mit:
+* Create, edit and export spatial data using:
 
-    * den Digitalisierwerkzeugen für GRASS und Shapefiles,
-    * dem Plugin zur Georeferenzierung von Rasterlayern,
-    * dem GPS Werkzeuge zum Im- und Export von GPX Formaten, konvertieren anderer GPS Formate nach GPX oder direktes hochladen/herunterladen von einem GPS Gerät.
+    * digitizing tools for GRASS and shapefile formats,
+    * the georeferencer plugin,
+    * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit
 
-* Räumliche Analysen mit dem fTool Plugin für Shapefiles oder den integrierten GRASS Modulen durchführen, inklusive:
+* Perform spatial analysis using fTools or GRASS plugins
 
-    * Kartenalgebra,
-    * Reliefanalyse,
-    * hydrologische Modellierung,
-    * Netzwerkanalyse,
-    * und vieles mehr
+    * map algebra,
+    * terrain analysis,
+    * hydrologic modeling,
+    * network analysis,
+    * and many others
 
-* Karten über das Internet bereitstellen mit dem MapServer Export Plugin
-* erweiterbaren Plugin Architektur.
+* Publish to the internet
+* Extensible plugin architecture.
 
-Implementierte Standards
+Implemented Standards
 ---------------------
 
-* OGC Standard kompatibel (WMS,WFS(Plugin))
+* OGC standards compliant (WMS,WFS(Plugin))
 
 Details
 -------
 
-**Webseite:** http://www.qgis.org
+**Website:** http://www.qgis.org
 
-**Lizenz:** GPL
+**Licence:** GPL
 
 **Software Version:** 1.6.0
 
-**Unterstützte Plattformen:** Windows, Linux, Mac, Unix
+**Supported Platforms:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://qgis.org/de/gemeinschaft.html
+**Community Support:** http://qgis.org/en/community.html
 
-**Kommerzieller Support:** http://qgis.org/de/kommerzieller-support.html
+**Commercial Support:** http://qgis.org/en/commercial-support.html
 

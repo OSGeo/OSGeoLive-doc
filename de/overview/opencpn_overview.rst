@@ -14,33 +14,34 @@
 OpenCPN
 =======
 
-Marine GPS Navigationssoftware
+Marine GPS navigation software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenCPN stellt freie Navigationssoftware zur Nutzung beid er Steuerung von Schiffen aller Typen und Größen, sowie Offline zur Routenplanung. Es wurde von einem Team aktiver Segler entwickelt und unter realen Bedingungen getestet und verfeinert. 
+OpenCPN provides free navigation software for use at the helm of vessels of all types and sizes, as well as offline for route planning. It has been developed by a team of active sailors using real world conditions for program testing and refinement.
 
-OpenCPN informiert den Nutzer durch akkurate Navigations-Diagramme über die derzeitige Position des Schiffes, die Geschwindigkeit, den Kurs, Gezeiten und die  derzeitige Vorhersagen. Informationen, die von einfachen Radio Links empfangen werden, beschreiben die Position und die Richtung anderer Schiffe.
+OpenCPN presents a user with the vessel's current position, speed and course superimposed upon accurate navigational chart images, tide and current predictions. Information received by standard radio links describing the position and intent of other vessels can also be shown.
 
-Bewegt sich das Schiff, werden neue Diagramme erstellt und angezeigt. Hierbei kann eine benutzerspezifische Auflösung und der Detailgrad eingestellt werden. Darüberhinaus kann der Benutzer Routen eingeben und Wegpunkte setzen. Diese ermöglichen es einem externen Autopiloten präzise der Route zu folgen.
+As the host vessel moves, new charts are selected and displayed at user specified resolution and detail. Further, the user may enter routes and waypoints allowing interface to an external autopilot for precise course following.
 
-Kernfunktionen
---------------
+
+Core Features
+-------------
 
 .. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-OpenCPN unterstützt:
+OpenCPN supports:
 
-* BSB Raster, C-MAP (CM93/2) und S-57 ENC Vektordiagramme
-* AIS Eingabeentschlüsselung
-* NMEA GPS oder `Gpsd <http://gpsd.berlios.de>`_ Daemon Eingabe
-* Wegepunkte / Autopilot Navigation
-* Unbegrenzte Routen-/Markierungs-Erzeugung
-* Quilted Charts
-* Internationale Sprachunterstützung
-* plattformübergreifend
-* Einbindung GRIB Wetterdaten
+* BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts
+* AIS input decoding
+* NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input
+* Waypoint / autopilot navigation
+* Unlimited route/mark creation
+* Quilted charts
+* International language support
+* Cross-platform support
+* GRIB weather data overlay
 
 Details
 -------

@@ -22,53 +22,59 @@ GDAL/OGR
 GeoSpatial Data Translation Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die Geospatial Data Abstraction Library (GDAL/OGR) stellt komandozeilenbasierte Hilfsprogramme zur Verfügung. Über diese können eine Vielzahl von Raster- und Vektorgeodatenformate umgewandelt und prozessiert werden.
+Geospatial Data Abstraction Library (GDAL/OGR) provides command-line
+utilities to translate and process a wide range of raster and vector
+geospatial data formats.
 
-Die Hilfsprogramme basieren auf einer plattformübergreifenden C++ Bibliothek, die über zahlreiche Programmiersprachen angesprochen werden kann. Die Bibliothek GDAL/OGR bietet für die aufrufende Anwendung ein einfaches abstraktes Datenmodell für alle unterstützten Formate.
+The utilities are based upon a cross platform, C++ library, accessible
+via numerous programming languages.  As a library, it presents a single
+abstract data model to the calling application for all supported formats.
 
-GDAL/OGR ist die am weitesten verbreitete Bibliothek für den Zugriff auf räumliche Daten. Viele Anwendungen einschließlich MapServer, GRASS, QGIS und OpenEV nutzen überwiegend GDAL/OGR für den Datenzugriff. GDAL/OGR wird auch von OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide und ArcGIS genutzt.
+GDAL/OGR is the most widely used geospatial data access library. It provides
+the primary data access engine for many applications including MapServer,
+GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM,
+Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
 .. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supports many geodata formats
   :align: right
 
-Kernfunktionen
---------------
+Core Features
+-------------
 
-* kommandozeilen-basierte Hilfsprogramme zur Datenumwandlung, Bildanpassung, Generierung von Bildausschnitten und für zahlreiche andere gängige Bildbearbeitungsaufgaben
-* Hocheffizienter Zugriff auf Rasterdaten unter Nutzung der Vorteile von Kachelung und Übersichten
-* Unterstützung großer Dateien - größer 4GB
-* Zugriff auf die Bibliothek über Python, Java, C#, Ruby, VB6 und Perl
-* Die Umrechung in andere Koordinatenreferenzsysteme baut auf die PROJ.4 und OGC Well Known Text Beschreibung auf
+* Command-line utilities for data translation, image warping, subsetting, and various other common tasks
+* Highly efficient raster data access, taking advantage of tiling and overviews
+* Support for large files - larger than 4GB
+* Library access from Python, Java, C#, Ruby, VB6 and Perl
+* Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate system descriptions
 
-Gängige unterstützte Formate
-----------------------------
+Popular Supported Formats
+-------------------------
 
-GDAL unterstützt über 50 Rasterdatenformate, OGR unterstützt über 20 Vektordatenformate.
+GDAL supports over 50 raster formats, and OGR over 20 vector formats.
 
-Diese beinhalten:
+These include:
 
-* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED und weitere  ...
-* **Vector:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial und weitere ...
+* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, and more ...
+* **Vector:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, and more ...
 
-Implementierte Standards
-------------------------
+Implemented Standards
+---------------------
 
-Das OGR Vektor Datenmodell folgt der OGC Simple Features Spezifikation.
-
+The OGR vector data model is compliant with the OGC Simple Features specification.
 
 Details
 -------
 
 **Website:**  http://www.gdal.org
 
-**Lizenz:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
+**Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
 **Software Version:** 1.7.3
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-**API Schnittstellen:** Python, Java, C#, Ruby, VB6 and Perl
+**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
-**Support:** http://www.osgeo.org/search_profile
+**Support:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile

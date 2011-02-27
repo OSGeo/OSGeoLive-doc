@@ -1,5 +1,5 @@
 :Author: OSGeo Live
-:Version: osgeo-live4.5
+:Version: osgeo-live4.0
 :License: Creative Commons
 
 .. _geonetwork-overview:
@@ -19,31 +19,31 @@
 GeoNetwork
 ==========
 
-Metadaten Katalog
-~~~~~~~~~~~~~~~~~
+Metadata Catalog
+~~~~~~~~~~~~~~~~
 
-GeoNetwork OpenSource ist eine Kataloganwendung für räumliche Datenquellen. Die Anwendung bietet leistungsstarke Bearbeitungs- und Suchfunktionen für Metadaten sowie eine integrierte interaktive Kartenkomponente und basiert auf offenen Standards.
+GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards.
 
 .. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right
 
-Kernfunktionen
---------------
-* Direkte Suche in lokalen und verteilten Metadatenkatalogen
-* Hoch- und Runterladen von Daten, Grafiken, Dokumenten, PDF-Dateien und anderen Inhalten
-* Interaktiver Web Map Viewer zur Kombination von Web Map Services (WMS) von weltweit verteilten Servern 
-* Aktualisierte Einträge werden über RSS News Feeds und als GeoRSS bereitgestellt
-* Online Bearbeitung von Metadaten über ein leistungsstarkes System unter Verwendung von Vorlagen
-* Native Unterstützung von nach ISO19115/ISO19119/ISO19139/ISO19110, FGDC und Dublin Core formatierten Metadaten
-* Termingestütztes Ernten (Harvesting) und Synchronisieren von Metadaten zwischen verteilten Katalogen (GeoNetwork, CSW, OGC WxS GetCapabilities, Z39.50, WebDav, ArcSDE, Thredds, OGC WFS Features, OAI-PMH)
-* Feingliedrige Zugriffskontrolle
-* Gruppen- und Benutzerverwaltung
-* Mehrsprachige Anwendungen
-* Anzeige eines zufälligen Metadatensatzes auf der Startseite
+Core Features
+-------------
+*  Immediate search access to local and distributed geospatial catalogues
+* Up- and downloading of data, graphics, documents, pdf files and any other content type
+* An interactive Web Map Viewer to combine Web Map Services from distributed servers around the world
+* Recently updated entries are accessible as RSS news feeds and as GeoRSS.
+* Online editing of metadata with a powerful template system
+* Native support for ISO19115/ISO19119/ISO19139/ISO19110, FGDC and Dublin Core formatted metadata
+* Scheduled harvesting and synchronization of metadata between distributed catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, Z39.50, WebDav, ArcSDE, Thredds, OGC WFS Features, OAI-PMH)
+* Fine-grained access control
+* Group and user management
+* Multi-lingual user interface
+* A randomly selected Featured Map
 
-Implementierte Standards
+Implemented Standards
 ---------------------
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
@@ -51,24 +51,24 @@ Implementierte Standards
 * Z39.50 
 * OpenSearch-Geo
 * OAI-PMH
-* Metadaten standards:
+* Metadata standards:
 
- * ISO19115/ISO19119/ISO19139/ISO19110 und ISO Profiles
+ * ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles
  * Dublin Core
  * FGDC
 
 Details
 -------
 
-**Webseite:** http://geonetwork-opensource.org
+**Website:** http://geonetwork-opensource.org
 
-**Lizenz:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.6.3
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-**API Schnittstellen:** Java
+**API Interfaces:** Java
 
 **Support:** http://www.osgeo.org/search_profile
 

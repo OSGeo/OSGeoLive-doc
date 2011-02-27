@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-GMT.gif
   :scale: 100 %
-  :alt: Projekt Logo
+  :alt: project logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
 
@@ -14,52 +14,51 @@
 GMT
 ===
 
-Die Generic Mapping Tools
+The Generic Mapping Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GMT ist eine Sammlung von Werkzeugen, die es Benutzern erlauben, gezielt (x, y) 
-und (x, y, z) Datensätze zu manipulieren (einschließlich Filterung, Trend-Fitting, 
-Rasterung, Projektion, etc.) und Encapsulated PostScript Datei (EPS) 
-Illustrationen zu produzieren, von einfachen xy-Plots über Reliefkarten bis hin 
-zu künstlich beleuchteten Oberflächen und 3D Perspektive in Schwarz und Weiß, 
-Graustufen, Mustern und 24-Bit-Farben. 
+GMT is a collection of tools that allow users to manipulate (x,y) and
+(x,y,z) data sets (including filtering, trend fitting, gridding,
+projecting, etc.) and produce Encapsulated PostScript File (EPS)
+illustrations ranging from simple x-y plots through contour maps to
+artificially illuminated surfaces and 3-D perspective views in black and
+white, gray tone, hachure patterns, and 24-bit color.
 
-GMT unterstützt viele bekannte Kartenprojektionen plus lineare, logarithmische 
-und exponentielle Skalierung, und es unterstützt Daten wie Küstenlinien, Flüsse 
-und politischen Grenzen.
+GMT supports many common map projections plus linear, log, and power
+scaling, and comes with support data such as coastlines, rivers, and
+political boundaries.
 
 
 .. image:: ../../images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
-  :alt: Bildschirmfoto
+  :alt: screenshot
   :align: right
 
-Kernfunktionen
---------------
+Core Features
+-------------
 
-* Kartographie nach wissenschaftlichen Qualitätsanforderungen. 
-* Funktionen für Rasterung und Konturierung.
-
+* Journal quality cartography.
+* Gridding and contouring functions.
 
 Details
 -------
 
-**Webseite:** http://gmt.soest.hawaii.edu
+**Website:** http://gmt.soest.hawaii.edu
 
-**Lizenz:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 4.5.1
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
+**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
-**API Schnittstellen:** Kommandozeile
+**API Interfaces:** Command line
 
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/gmt_quickstart.html>`_
+* `Quickstart documentation <../quickstart/gmt_quickstart.html>`_
 
 

@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
   :scale: 50 %
-  :alt: Projekt Logo
+  :alt: project logo
   :align: right
   :target: http://openlayers.org/
 
@@ -20,57 +20,56 @@
 OpenLayers
 ==========
 
-Browser GIS Anwendung
-~~~~~~~~~~~~~~~~~~~~~
+Browser GIS Client
+~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
-  :alt: Bildschirmfoto
+  :alt: screenshot
   :align: right
 
-OpenLayers macht es einfach für Webentwickler, dynamischen Karten aus einer 
-Vielzahl von Quellen in jede beliebige Webseite einzubetten. OpenLayers bietet 
-ein umfangreiches Set von Mapping-Werkzeugen und Widgets, ähnlich wie die der 
-Google Maps API. Alle Funktionen laufen innerhalb des Web-Browsers, was 
-OpenLayers einfach macht zu installieren, ohne serverseitige Abhängigkeiten.
+OpenLayers makes it easy for web developers to embed dynamic maps, from a
+multitude of sources, in any web page. OpenLayers provides an extensive set of
+mapping tools and widgets, similar to the Google Maps API. All functionally
+runs inside the web browser, which makes OpenLayers easy to install, without
+any server side dependencies.
 
+Core Features
+-------------
 
-Kernfunktionen
---------------
-
-* Einfach zu benutzende Javascript API, um Entwicklung einfach zu machen
-* Support für Standard-und kundenspezifische Protokolle zur Kommunikation mit Servern
-* Werkzeuge zur einfachen Erstellung kundenspezifischer Benutzeroberflächen
-* Support für in-Browser-Daten Rendering (mit SVG, VML oder Canvas Technologien), zur Unterstützung der Entwicklung erweiterter Online-Karten
-* Fähigkeit, Kartenlayer von verschiedenen Quellen zu laden
+* Simple to use Javascript API, designed to make development easy
+* Support for standard and customized protocols for interacting with servers
+* Tools to create custom user interfaces simply
+* Support for in-browser data rendering (using SVG, VML, or Canvas technologies), supporting the development of advanced in-browser maps
+* Ability to load map layers from many sources:
   
-  * Kommerzielle Layer: Google, Bing, Yahoo
+  * Commercial Layers: Google, Bing, Yahoo
   
   * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Andere: ArcGI, Images, MapGuide, MapServer, TileCache
+  * Others: ArcGI, Images, MapGuide, MapServer, TileCache
 
-* Fähigkeit, Vektordaten und Metadaten in verschiedenen Formaten zu lesen:
+* Ability to parse vector data and metadata in many formats:
   
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
 Details
 -------
 
-**Webseite:** http://openlayers.org
+**Website:** http://openlayers.org
 
-**Lizenz:** MIT-style license
+**License:** MIT-style license
 
-**Software Version:** 2.9.1
+**Software Version:** 2.10
 
-**API Schnittstellen:** JavaScript
+**API Interface:** JavaScript
 
 **Support:** http://trac.openlayers.org 
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/openlayers_quickstart.html>`_
+* `Quickstart documentation <../quickstart/openlayers_quickstart.html>`_
 
 

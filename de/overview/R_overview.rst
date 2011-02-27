@@ -13,46 +13,44 @@
 R Spatial Task View
 ===================
 
-Statistische Programmierung
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Statistical Programming
+~~~~~~~~~~~~~~~~~~~~~~~
 
-R ist eine leistungsstarke, weit verbreitete Entwicklungsumgebung für statistische Berechnungen und Graphiken, die sich durch Analysemöglichkeiten und Prozessierung räumlicher Daten auszeichnet. Die räumlichen Analysemöglichkeiten von R sind über R Pakete verfügbar (Module, die die Möglichkeiten von R erweitern), die viele herkömmliche und dem neusten Stand folgende Algorithmen unterstützen. Die Bereitstellung über R erfolgt oft bevor die Algorithmen in anderen Open Source oder proprietären Programmen verfügbar sind.
+R is a powerful, widely used software environment for statistical computing and graphics which excels at analyzing and processing geographic data sets. Geospatial analysis capabilities within R are available in R packages (modules that extend the capabilities of R) that provide access to a large number of traditional and state of the art algorithms, often before they are available in other open source or proprietary software. R and it's packages are able to process point, line, polygon and grid data. Users can accomplish a broad array of tasks such as: image classification, statistical analysis to infer spatial relationships and patterns of features, and others listed in the core features below. The functions available via R compliment and advance capabilities found in GIS and image processing software.
 
-R und seine Pakete können Punkte, Linien, Polygone und Grids prozessieren. Anwender können auf eine große Anzahl von Funktionalitäten zugreifen: Bildklassifizierung, statistische Analysen zur Schlussfolgerung räumlicher Beziehungen und Muster von Objekten sowie vieles mehr (siehe Liste unten). Die Funktionen, die über R bereitgestellt werden, vervollständigen und erweitern die Möglichkeiten von GIS und Bildprozessierungsprogrammen.
+The core R interface is a command line window which provides excellent flexibility and control but tends to lengthen the time required to become a proficient user when compared to software with a graphical user interface (GUI). Fortunately R is well documented on the web site which eases the learning process. Scripts are often used to automate processing steps and there are  projects that are developing open source GUIs for R (http://rwiki.sciviews.org/doku.php?id=guis:guis). 
 
-Mit R wird hauptsächlich auf der Kommandozeile gearbeitet. Dies bietet eine große Flexibilität und Kontrolle, führt aber oft auch zu einer längeren Einarbeitungszeit bis hin zum erfahrenen Gebrauch im Vergleich zu einer graphischen Benutzeroberfläche. Glücklicherweise verfügt R über eine gute Dokumentation auf der Webseite, was den Einstieg erleichtert. Skripte werden oft verwendet, um Prozessierungschritte zu automatisieren. Es gibt andere Open Source Projekte, die graphische Oberflächen für R (http://rwiki.sciviews.org/doku.php?id=guis:guis) entwickeln. 
-
-R ist eine Implemetierung der S Programmiersprache und es besteht eine signifikante Kompatibilität zwischen R und dem älteren S und S-Plus Code, sowie zwischen R und der modernen kommerziellen Versionen von S, TIBCO Spotfire S+. Diese Kompatibilität ermöglicht es, verschiedene Versionen von S Code als R ohne große Anpassungen laufen zu lassen.
+R is an implementation of the S programming language and there is significant compatibility between R and legacy S and S-Plus code as well as between R and the modern commercial version of S, TIBCO Spotfire S+. This comparability makes it possible to convert different versions of S code to run on R without major code modifications.  
 
 .. image:: ../../images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right
 
-Kernfunktionen
---------------
+Core Features
+-------------
 
-* Komplett objektorientierte Programmiersprache, die für Statistiken und ähnliche rechenintensive Anwendungen entwickelt wurde
-* Hunderte add-on Pakete für räumliche Statistiken, die von der Community bereitgestellt wurden
-* Klassifizierung räumlicher Daten
-* Handling räumlicher Daten
-* Lesen und Schreibe von räumlichen Daten
-* Punktmuster Analysen
-* Geostatistiken
-* Disease-Mapping und räumliche Datenanalyse
-* Räumliche Rückgänge
-* Ökologische Analysen
+* Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
+* Hundreds of community contributed add-on packages for spatial statistics
+* Classes for spatial data
+* Handling spatial data
+* Reading and writing spatial data
+* Point pattern analysis
+* Geostatistics
+* Disease mapping and areal data analysis
+* Spatial regression
+* Ecological analysis
 
 Details
 -------
 
-**Webseite:** http://cran.r-project.org
+**Website:** http://cran.r-project.org
 
-**Lizenz:** GPL
+**Licence:** GPL
 
 **Software Version:** 2.12.1
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac, Unix
+**Supported Platforms:** Windows, Linux, Mac, Unix
 
-**Support aus der Community:** http://cran.r-project.org/web/views/Spatial.html
+**Community Support:** http://cran.r-project.org/web/views/Spatial.html
 

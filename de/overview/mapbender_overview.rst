@@ -23,15 +23,15 @@ Mapbender
 Geoportal Framework
 ~~~~~~~~~~~~~~~~~~~
 
-`Mapbender <http://www.mapbender.org>`_ ist ein graduiertes OSGeo Projekt. Mapbender ist ein web-basiertes Geoportal Framework zum Veröffentlichen, Anzeigen und Überwachen von OGC Diensten, mit der Möglichkeit Dienste gesichert anzubieten. 
+`Mapbender <http://www.mapbender.org>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
 
-Mapbender ist die Spitze des Eisbergs, eine Software, die als Zwischenschicht für den Zugriff auf GIS Komponenten dient. Mapbender bietet eine einfache Möglichkeit, angepasste Client-Anwendungen aus einer Vielzahl von Komponenten zusammen zu stellen. Das Besondere ist, dass hierbei keiner bis minimaler Programmieraufwand notwendig ist. Für die Administration wird lediglich ein Browser benötigt. 
+Mapbender is the tip of the iceberg, a meta layer of software providing access to SDI components adhering to international standards. Mapbender allows users to easily create customised browser clients from a wide range of widgets (without any/with minimal) programming required. Widgets integrate with server functionality to provide advanced functionality like security proxying, digitizing, auto snapping and more.
 
-Mapbender ist das Werkzeug der Wahl für GIS Administratoren, die Karten- und Datendienste veröffentlichen, unterhalten, kategorisieren und überwachen müssen. Mapbender beitet eine Rechteverwaltung mit der Vergabe von Rechten für einzelne Benutzer und Gruppen. Mapbender bietet Komponenten mit Serverfunktionalität beispielsweise für den gesicherten Zugriff auf Dienste, Digitalisierung und mehr.
+Mapbender management applications are straight forward and easy to use providing highly focused functionality for the operation of large scale distributed SDI components. It is the tool of choice for SDI administrators who need to maintain, categorize and monitor map and feature services. Mapbender grants access to individuals, groups and manages machine to machine access. Adherence to standardized services, such as OGC WMS and transactional WFS allows to take advantage of interoperable services from a multitude of server platforms.
 
-Der Mapbender Client basiert auf HTML und JavaScript unter Verwendung der jQuery und jQuery UI Bibliotheken, die diverse Module bereitstellen. Der serverseitige Bereich verwendet PHP und eine PostgreSQL/PostGIS Datenbank.
+The Mapbender client side is based on HTML and JavaScript using the jQuery and jQuery UI libraries which provide lots of browser widgets. The server side is implemented in PHP and PostgreSQL/PostGIS. 
 
-Mapbender gibt dem GDI Management durch die alleinige Nutzung eines Standard Web Browsers eine neue Perspektive.
+Mapbender gives a whole new perspective to SDI management using nothing but a standard web browser. 
 
 .. image:: ../../images/screenshots/800x600/mapbender_demo.png
   :scale: 50%
@@ -39,33 +39,33 @@ Mapbender gibt dem GDI Management durch die alleinige Nutzung eines Standard Web
   :align: right
 
 
-Kernfunktionen
---------------
+Core Features
+-------------
 
-* leichtes Erzeugen von Web Mapping Anwendungen über Anwendungsvorlagen
+* Easily create web mapping interfaces using template applications  
 
-  * hinzufügen/entfernen/anpassen von jQuery Elementen
-  * Stilanpassung über den jQuery UI Themeroller
-* Laden und Verwalten von OGC WMS (Capabilities caching) 
+  * add/remove/customize jQuery widgets 
+  * customize styling with the jQuery UI Themeroller) 
+* Upload and share remote OGC WMS (Capabilities caching) 
 
-  * Überlagern von verschiedenen WMS
-  * Anpassung der Layersichtbarkeit
-  * Sortierung
-  * Formatauswahl
-  * Anpassung der Layertitel
-  * Erweiterung der Metadaten der Dienste des Capabilities-Dokuments (ISO Standard) zur Katalogsuche mit einer CS-W Anwendung
-* WFS laden und konfigurieren zum Suchen, Finden und Hervorheben von Geoobjekten 
-* Kopplung von transactionalen WFS an einen WMS, um eine webbasierte Digitalisierung zu ermöglichen. Diese Digitalisierung ermöglicht ein diensteübergreifendes snapping, Geometrieanpassungen wie Teilungen, Verschmelzung und Klonen
-* Benutzerverwaltung: Anlegen von Benutzern und Gruppen. Dienste und modulbasierte Rechtezuweisung
-* WMC Handling
-* Verbidung mit entfernten Katalogdiensten und optional die Verbindung mit GeoNetwork opensource
-* Beschränketen Benutzerzugriff mit dem OWS Security Proxy Modul über gesicherte Dienste
-* Monitoring und Status Benachrichtigung sowie auto-update Service für OGC Services
-* Ausgabe von OpenLayers Anwendungen aus dem Mapbender Dienste Repository
-* Hochqualitativer Druck unter verwendung eigener PDF Vorlagen.
-* ... und mehr!
+  * arrange uploaded WMS for overlay
+  * editing layer visibility
+  * order
+  * format
+  * caption edit 
+  * extend service meta data (ISO profile) based on Capabilities document for catalog with CS-W interface
+* Upload and configure WFS to search, find and highlight geo objects 
+* Bind transactional WFS with WMS to enable online digitizing (with cross service snapping functionality, geometry manipulation like splitting, combining, cloning)
+* Create users and groups, share and grant access to services and modules
+* WMC handling
+* Connect remote catalogs, and optionally connect to GeoNetwork opensource
+* Restrict user access with the OWS security proxy module via trusted servers
+* Encrypted protocols monitoring and status notification and auto-update service for remote OGC services 
+* Deploy OpenLayers clients from the Mapbender service repository
+* Print high-quality maps using your own PDF templates.
+* ... and more!
 
-Unterstützte Standards
+Implemented Standards
 ---------------------
 
 * OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1
@@ -75,22 +75,22 @@ Unterstützte Standards
 Details
 -------
 
-**Webseite:** http://www.mapbender.org/ 
+**Website:** http://www.mapbender.org/ 
 
-**Lizenz:** Mapbender verfügt über eine duale Linzenz und zwar über die GNU General Public Lizenz und die Simplified BSD Lizenz
+**Licence:** Mapbender is dual licensed under the GNU General Public License and Simplified BSD license
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
 **Software Version:** 2.7
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://www.mapbender.org/Support
 
 
-Schnellstart
----------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/mapbender_quickstart.html>`_
+* `Quickstart documentation <../quickstart/mapbender_quickstart.html>`_
 
 

@@ -11,19 +11,22 @@
 OTB
 ===
 
-Bild Prozessierung
-~~~~~~~~~~~~~~~~~~
-ORFEO Toolbox Library (OTB) ist eine hochperformante Bildprozessierungsbibliothek. OTB wurde anfangs
-zur Prozessierung von Fernerkundungsdaten (Remote Sensing) wie Radaraufnahmen, Satellitenaufnahmen und Luftbildern. 
-OTB stellt Werkzeuge für Future Optic und Radarbilder
-(3D Aspekte, Erkennung von Änderungen, Texturanalysen, Musterabgleich, optische/radar Komplementaritäten) zur Verfügung.
+Image Processing
+~~~~~~~~~~~~~~~~
 
-OTB wurde von der French Space Agency (CNES) im Rahmen des
-methodischen Bereichs des ORFEO Accompaniement Programms gegründet und 
-wurde aktiv seit 2006 entwickelt. Es basiert auf der bewährten medizinischen Bildprozesierungsbibliothek
-ITK und ist Open Source.
+ORFEO Toolbox Library (OTB) is a high performance image processing
+library. It is primarily used for processing remote sensing images
+such as those gathered by radars, satellites and aerial
+photography. OTB provides tools for the future optic and radar images
+(tridimensional aspects, changes detection, texture analysis, pattern
+matching, optic/radar complementarities).
 
-Kernfunktionen
+OTB has been funded the French Space Agency (CNES) in the frame of the
+Methodological Part of the ORFEO Accompaniement Program and has been
+actively developed since 2006. It is based on the established medical
+image processing library ITK and is distributed as open source.
+
+Core Features
 -------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.png
@@ -31,39 +34,40 @@ Kernfunktionen
   :alt: screenshot
   :align: right
 
-* Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten Fernerkundungsdatenformate, Metadatenzugriff und Visualisierung
-* Orthorectification und Kartenumprojektion
-* Kalibierung
-* Bildfusion
-* Filtern: Blurring, Denoising, Verbesserungen
-* Erzeugen von Objekten: Einfügen von Punkten, Anpassungen, Linien
-* Objekterkennung
-* Bildsegmentierung: Region Growing, Watershed, Niveaumengenmethoden (Level Sets)
-* Klassifizierung: K-Means, SVM, MRF (Markov Random Fields)
-* objebasierte Bildanalyse
-* räumliche Analyse
-* SAR Datenanalyse
-* Änderungsverfolgung
+* image access: optimized read/write access for most remote sensing
+  image formats, meta-data access and visualization;
+* orthorectification and map reprojection
+* calibration
+* image fusion
+* filtering: blurring, denoising, enhancement;
+* feature extraction: interest points, alignments, lines;
+* object detection
+* image segmentation: region growing, watershed, level sets;
+* classification: K-means, SVM, Markov random fields;
+* object-based image analysis
+* geospatial analysis
+* SAR data analysis
+* change detection.
 
 Details
 -------
 
-**Webseite:** http://www.orfeo-toolbox.org/
+**Website:** http://www.orfeo-toolbox.org/
 
-**Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
-  für fränzösisches Recht)
+**Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
+  address French law)
 
 **Software Version:** 3.8
 
-**Unterstützte Betriebssysteme:** Linux, Mac, Windows
+**Supported Platforms:** Linux, Mac, Windows
 
-**API Schnittstellen:** C++
+**API Interfaces:** C++
 
-**Support:** http://www.osgeo.org/search_profile
+**Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Schnellstart
----------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/otb_quickstart.html>`_
+* `Quickstart documentation <../quickstart/otb_quickstart.html>`_
 

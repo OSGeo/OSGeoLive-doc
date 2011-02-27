@@ -1,83 +1,96 @@
 :Author: Gérald Fenoy
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _zoo-overview:
 
 .. image:: ../../images/project_logos/logo-Zoo.png
   :scale: 50 %
-  :alt: Projekt Logo
+  :alt: project logo
   :align: right
   :target: http://zoo-project.org/
 
-ZOO Projekt
+ZOO Project
 ===========
 
 WPS Server
 ~~~~~~~~~~
 
-Das ZOO Projekt liefert ein entwicklerfreundliches Web Processing Service (WPS) Framework, um Web Processing Services zu erstellen und miteinander zu verknüpfen (Chaining).
-Ein WPS stellt den Zugang zu Funktionen bereit, die in der Lage sind, räumliche Algorithmen auszuführen.
-Das ZOO Projekt unterstützt zahlreiche Programmiersprachen und enthält zwei Beispielanwendungen, die von einfachen GIS Funktionen der Webdienste (einer Bibliothek in C und einem Python-Modul) Gebrauch machen, basierend auf den GEOS und OGR Bibliotheken.
+ZOO Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
+A WPS provides web access to functions which run spatial algorithms.
+Zoo Project supports many programming languages and comes with two demo applications using simple
+spatialtools Services Providers (a C shared library and a Python module)
+based on the GEOS and OGR Libraries.
 
-ZOO besteht aus drei Komponenten:
+ZOO is made of three parts:
 
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
-  :alt: Bildschirmfoto
+  :alt: screenshot
   :align: right
 
-*ZOO Kernel* : Ein leistungsfähiger serverseitiger C-Kernel, der es ermöglicht, Webdienste zu verwalten und zu verbinden, die in verschiedenen Programmiersprachen geschrieben sein können.
+*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to
+manage and chain Web services coded in different programming languages. 
 
-*ZOO Dienste* : Eine wachsende Sammlung von Beispiel-Webdiensten basierend auf verschiedenen Open-Source-Bibliotheken.
+*ZOO Services* : A growing suite of example Web services based on various
+Open Source libraries.
 
-*ZOO API* : Eine serverseitige JavaScript API, welche es ermöglicht, ZOO Dineste aufzurufen und zu verbinden, und damit die Entwicklung und Verkettung von Prozessen vereinfacht.
+*ZOO API* : A server-side JavaScript API able to call and chain the ZOO
+Services, which makes the development and chaining processes easier. 
 
-ZOO basiert auf dem 'WPS Service Kernel', der das ZOO Kernsystem bildet (aka ZOO Kernel). Letzterer ist in der Lage, dynamische Bibliotheken zu laden und sie als on-demand Webdienste abzuwickeln. Der ZOO Kernel ist in der Sprache C geschrieben, unterstützt jedoch auch einige verbreitete Programmiersprachen, um mit zahlreichen Bibliotheken interagieren zu können, und damit die Arbeit von Entwicklern von Webdiensten zu vereinfachen.
+ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core
+system (aka ZOO Kernel). The latter is able to load dynamic libraries and
+to handle them as on-demand Web services. The ZOO Kernel is written in C
+language, but supports several common programming languages in order to
+connect to numerous libraries and above all to simplify the Web service
+end-developer's job.
 
-Ein ZOO Dienst besteht aus einem Link zwischen einem Metadatendokument (.zcfg) und dem Programmcode der zugehörigen Implementierung. Das Metadatendokument beschreibt alle verfügbaren Funktionen, welche von einer WPS Exec Anfrage aufgerufen werden können, sowie das gewünschte Ein- und Ausgabeformat. Dienste beinhalten Algorithmen und Funktionen und können derzeit in C/C++, Fortran, Java, Python, PHP
-oder JavaScript implementiert sein.
+A ZOO service is a link composed of a metadata file (.zcfg) and the code
+for the corresponding implementation. The metadata file describes all the
+available functions which can be called using a WPS Exec Request, as well
+as the desired input/output. Services contain the algorithms and
+functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP
+and JavaScript. 
 
+Core Features
+-------------
 
-Kernfunktionen
---------------
+* Multi language WPS server 
+* Simple Web Service creation and deployment procedure
+* Simple WPS chaining with ZOO API
 
-* WPS Server mit Unterstützung zahlreicher Programmiersprachen
-* Einfaches Erstellen und Einrichten von Webdiensten
-* Einfaches WPS "Chaining" mittels ZOO API
-
-Implementierte Standards
-------------------------
+Implemented Standards
+---------------------
 
 * OGC WPS 1.0.0
 
 Demo
 ----
 
-* `Einfache C Services Provider Demo basierend auf GEOS and OGR Bibliotheken <http://localhost/zoo-demo/spatialtools.html>`_
-* `Einfache Python Services Provider Demo basierend auf GEOS and OGR Bibliotheken <http://localhost/zoo-demo/spatialtools-py.html>`_
-* `HTML Formular für einfache WPS Anfragen an den ZOO Kernel <http://localhost/zoo-demo/spatialtools.html>`_
+* `Demo using simple C Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/spatialtools.html>`_
+* `Demo using simple Python Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/spatialtools-py.html>`_
+* `Simple html form to process your request to the ZOO Kernel <http://localhost/zoo-demo/spatialtools.html>`_
 
 
 Details
 -------
 
-**Webseite:** http://zoo-project.org
+**Website:** http://zoo-project.org
 
-**Lizenz:** MIT x/11
+**Licence:** MIT x/11
 
-**Software Version:** 1.0
+**Software Version:** 1.2.0
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-**Unterstützte Programmiersprachen:** C, Python, Java, PHP, Fortran, Javascript
+**Programing language support:** C, Python, Java, PHP, Fortran, Javascript
 
 **Support:** http://zoo-project.org/trac
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/zoo-project_quickstart.html>`_
+* `Quickstart documentation <../quickstart/zoo-project_quickstart.html>`_
 
 

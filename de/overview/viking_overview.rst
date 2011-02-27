@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-viking.png
   :scale: 100 %
-  :alt: Project Logo
+  :alt: project logo
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
 
@@ -14,58 +14,60 @@
 Viking
 ======
 
-Verwaltung und Darstellung von GPS Daten
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Manage and plot GPS data
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ ist ein GPS Dateneditor, Analyzeprogramm und Betrachter. 
-Viking setzt es sich zum Ziel, in mit GPS in Bezug stehenden Aufgaben verschiedenster Art einfach bedienbar und leistungsfähig zu sein. 
-Es macht Gebrauch von einem hierarchisch aufgebauten System von Ebenen, um GPS Daten, Karten und andere Layer mit geographischen Daten, wie etwa Breiten- und Längenkreise, zu verwalten. Es unterstützt OpenStreetMap und verschiedene Online-Tileserver.
+`Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ is a
+GPS data editor, analyzer and viewer. Viking aims to be easy to use,
+yet powerful in accomplishing a wide variety of GPS related tasks.
+It uses a hierarchical layering system to organize GPS data, maps,
+and other layer types with spatial data, such as coordinate lines.
+It works with OpenStreetMap data and various online tile servers.
 
 
-Kernfunktionen
---------------
+Core Features
+-------------
 
 .. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
   :scale: 40 %
-  :alt: Bildschirmfoto
+  :alt: screenshot
   :align: right
 
-* Upload und Download von Wegpunkten und Wegen von/zu einem GPS-Gerät.
+* Uploading and downloading waypoints, tracks to/from GPS.
 
-* Echtzeit GPS-Verfolgung und Wegeaufzeichnung.
+* Realtime GPS tracking and track recording.
 
-* Bearbeitung von Wegen und Wegpunkten für Touren mit Hilfe von Webdiensten wie Google Maps, Terraserver. Es genügt, die Daten vor der Tour auf ein GPS-Gerät zu übertragen. Karten mit Wegen und Wegpunkten können auch ausgedruckt und während der Tour genutzt werden.
+* Preparing tracks and waypoints for trips using maps from services such as Googlemaps, Terrasever. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
 
-* Im Anschluß an Touren können Wege und Wegpunkte heruntergeladen, archiviert, verwaltet und bei späteren Touren wiederverwendet werden.
+* After trips, tracks and waypoints from GPS can be downloaded, stored, managed and reused in later trips.
 
-* Analyse von OHV und Wandertouren mit Darstellung der Route und Entfernung zu Objekten.
+* Analyzing OHV and hiking trips, understanding where you went and how close you came to an object.
 
-* Erstellung von Wegpunkten und Wegen, um zu zuvor festgelegten Orten zu gelangen, für die noch keine GPS Daten aber bereits Terraserver Karten vorhanden sind.
+* Making waypoints and tracks to follow to easily get someplace you've never been before or don't have GPS data for but Terraserver maps exist for it.
 
-* Erstellung von Karten mit Breiten- und Längenkreisen.
+* Making maps with coordinate lines.
 
-* Analyse von Geschwindigkeit an unterschiedlichen Orten; Erstellung von Wegpunkten, an denen vergessen wurde Markierungen zu setzen, die sehr langsam passiert wurden, oder an denen angehalten wurde.
-
+* Analyzing speed at different places, adding waypoints where you forgot to mark one but did slow down or stop.
 
 Details
 -------
 
-**Webseite:** http://sourceforge.net/apps/mediawiki/viking/
+**Website:** http://sourceforge.net/apps/mediawiki/viking/
 
-**Lizenz:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 0.9.9
 
-**Unterstützte Betriebssysteme:** GNU/Linux, MS Windows
+**Supported Platforms:** GNU/Linux, MS Windows
 
-**API Schnittstellen:** C, GTK+ 2
+**API Interfaces:** C, GTK+ 2
 
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
-Schnellstart
+Quickstart
 ----------
 
-* `Schnellstart Dokumentation <../quickstart/viking_quickstart.html>`_
+* `Quickstart documentation <../quickstart/viking_quickstart.html>`_
 
 
