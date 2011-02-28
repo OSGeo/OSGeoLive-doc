@@ -42,6 +42,7 @@ Application Quick Starts
   osm_quickstart
   ossim_quickstart
   pgrouting_quickstart
+  postgis_quickstart
   R_quickstart
   saga_quickstart
   sahana_quickstart
