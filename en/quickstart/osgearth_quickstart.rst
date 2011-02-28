@@ -27,7 +27,7 @@ Running osgearth_viewer
 * Open a console and start the osgearth viewer::
 
    export OSG_FILE_PATH=/usr/share/osgearth
-   osgearth_viewer --window 50 50 900 700 --sky /usr/share/osgearth/maps/srtm.earth
+   osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
 
 You should see a globe with satellite imagery.
 
