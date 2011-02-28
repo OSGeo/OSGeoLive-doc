@@ -25,17 +25,24 @@ This Quick Start describes how to:
 Start R
 =======
 
+Either:
+
   * Choose ``R Statistics`` from the start menu - a terminal window appears running R.
   * Enter ``R`` at a command-line shell prompt. R will start in that terminal.
 
 Don't fear the command line - it is a source of great power. Using the up and down arrows
-to recall commands so you can edit mistakes will help greatly.
+to recall commands so you can edit mistakes will help greatly. Hit CTRL-C if get
+stuck and you should get the prompt back.
 
 Quit R
 ======
 
 Almost everything in R is a function, including the function for quitting. Type 
 ``q()`` and hit return. If you just type ``q`` you'll see the source code for the ``q`` function.
+
+R will ask you if you want to save your workspace as an R data image file. When you
+start R again from a directory with a ``.RData`` file it will restore all its
+data from there.
 
 
 Beginning R
@@ -66,6 +73,18 @@ You can start with simple arithmetic
 And so on. A full range of arithmetic, trigonometric, and statistical
 functions are built in, and thousands more are available from
 packages in the `CRAN <http://cran.r-project.org/>`_ archive.
+
+The main prompt in R is ``>``, but there is also the continuation prompt, ``+``, which 
+appears if R expects more input to make a valid expression. You'll see this if you
+forget a closing bracket or parenthesis.
+
+::
+
+   > sqrt(
+   + 2
+   + )
+   [1] 1.414214
+
 
 Building Data
 =============
