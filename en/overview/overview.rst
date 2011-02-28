@@ -57,7 +57,7 @@ Spatial Tools
 * :doc:`otb_overview` - [`QuickStart <../quickstart/otb_quickstart.html>`_] - Image Processing
 * :doc:`maptiler_overview` - Create Map Tiles
 * :doc:`R_overview` - Statistical Programming
-* :doc:`geokettle_overview` - Data Integration
+* :doc:`geokettle_overview` - [`QuickStart <../quickstart/geokettle_quickstart.html>`_] - Data Integration
 
 Web Services
 ------------

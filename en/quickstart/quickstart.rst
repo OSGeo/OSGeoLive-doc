@@ -23,6 +23,7 @@ Application Quick Starts
   52nWPS_quickstart
   atlasstyler_quickstart
   deegree_quickstart
+  geokettle_quickstart
   geomajas_quickstart
   geopublisher_quickstart
   geoserver_quickstart
