@@ -1,5 +1,5 @@
 :Author: Barry Rowlingson
-:Version: osgeo-live4.5
+:Version: osgeo-live4.5p
 :License: Creative Commons
 
 .. _postgis_quickstart:
