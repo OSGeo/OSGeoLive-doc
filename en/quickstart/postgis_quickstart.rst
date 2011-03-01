@@ -1,8 +1,16 @@
 :Author: Barry Rowlingson
-:Version: osgeo-live4.0
+:Version: osgeo-live4.5
 :License: Creative Commons
 
 .. _postgis_quickstart:
+ 
+.. image:: ../../images/project_logos/logo-PostGIS.png
+  :scale: 30 %
+  :alt: project logo
+  :align: right
+  :target: http://postgis.org/
+
+
 
 ******************
 PostGIS Quickstart
@@ -27,6 +35,22 @@ There is nothing to stop the server being on the same computer as the client, an
 enables you to use PostgreSQL on a single machine. Your client connects to the server
 via the internal 'loopback' network connection, and is not visible to other computers
 unless you configure it to be so.
+
+Creating A Spatial enabled database
+===================================
+
+To handle spatial data you need a PostgreSQL database with PostGIS functionality. You can use the PostgreSQL utility tool createdb or SQL to set your database up. Check for PostGIS - you will find lot of spatial functions and two tables geometry_columns and spatial_ref_sys in your new database.
+
+::
+
+   createdb -T template_postgis demo
+
+
+You can create a database via SQL using the following statement
+:: 
+
+ CREATE DATABASE demo TEMPLATE=template_postgis;
+
 
 Creating A Spatial Table The Hard Way
 =====================================
@@ -118,4 +142,38 @@ Using shp2pgsql (and/or shp2pgsql-gui which is interesting...)
 Using QGIS PostGIS conversion tools
 
 
+Get to know pgAdmin III
+=======================
+You can use the graphical Database Client pgAdmin III to run you SQLs and handle your data. 
+pgAdmin III also provides a plugin for shape import. This Client provides a comfortable way to 
+administrate your data.
 
+.. image:: ../../images/screenshots/800x600/pgadmin.gif
+  :scale: 100 %
+  :alt: pgAdmin III
+  :align: right
+
+Things to try
+=============
+
+Here are some additional challenges for you to try:
+
+#. Try some more spatial functions like st_buffer(the_geom), st_transform(the_geom,25831), x(the_geom) . You find a very good documentation at http://postgis.org/documentation/
+
+#. Export your tables to shape with pgsql2shp
+
+#. Try ogr2ogr to import/export data to your database
+
+
+What Next?
+==========
+
+This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.
+
+PostGIS Project home
+
+ http://postgis.org
+
+PostGIS Documentation
+
+http://postgis.org/documentation/
