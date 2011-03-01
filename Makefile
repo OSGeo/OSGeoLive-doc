@@ -72,18 +72,6 @@ link_to_en_docs:
 	  done ; \
 	done
 
-link_to_en_docs_post_sphinx: sphinxbuild
-	# For quickstart, standards and overview docs which have not been
-	# translated, link to english doc
-	for LANG in $(TRANSLATIONS) ; do \
-	  for DOC in _build/html/en/*/* ; do \
-	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
-	    TARGET_EN=`echo $$DOC | sed -e"s#_build/html#../..#"` ; \
-	    if [ ! -f $$TRANSLATED_DOC ] ; then \
-	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
-	    fi ; \
-	  done ; \
-	done
 sphinxbuild: disclaimer contributors.rst translators.rst link_to_en_docs
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
