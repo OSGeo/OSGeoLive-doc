@@ -1,4 +1,5 @@
 :Author: Barry Rowlingson
+:Author: Astrid Emde
 :Version: osgeo-live4.5p
 :License: Creative Commons
 
@@ -46,8 +47,18 @@ functionality. From the unix command line you can use ``createdb``:
 
    createdb -T template_postgis demo
 
+.. tip:: Note that the command line tools provide help with --help for further information 
+
 or from the PostgreSQL command line tool ``psql``, you can create it
 with SQL:
+
+First get a list of all databases with ``psql`` and the parameter -l. Connect with a database. 
+:: 
+
+ psql -l 
+ psql -d postgres
+ 
+Run the SQL to create a new database:
 
 :: 
 
@@ -56,12 +67,20 @@ with SQL:
 To check this has worked, your database will have a lot of
 spatial functions and two tables: ``geometry_columns`` and ``spatial_ref_sys``.
 
+.. tip:: Note that when you are connected a database with psql you will get help with \h or \?. Leave the database with \q.
+
+
 Creating A Spatial Table The Hard Way
 =====================================
 
 Now we have a spatial database we can make spatial tables. Start the
-PostgreSQL command-line client by entering 'psql' at a terminal
-prompt. It should connect to a database.
+PostgreSQL command-line client by entering 'psql' and your database name at a terminal
+prompt. This should connect to your database.
+
+::
+
+ psql -d postgres
+
 
 First we create an ordinary database table to store some city data -
 this table has two fields - one for a numeric ID and one for the city
@@ -69,7 +88,7 @@ name:
 
 ::
 
-  CREATE TABLE cities ( ID int4, NAME varchar(50) );
+  CREATE TABLE cities ( id int4, name varchar(50) );
 
 Next you have to add a geometry column. Conventionally this is called
 ``the_geom`` or ``geom``. This tells PostGIS what kind of geometry
@@ -80,16 +99,18 @@ system. We'll create the geometry column using EPSG:4326 coordinates.
 ::
 
   SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
+
+.. tip:: Check the PostGIS table ``geometry_columns``. YOu will find a new row with metadata for your table there.
  
-Now we can add some data to our table. Adding the ID and NAME values is standard SQL fare. Adding our
-point coordinates requires us to use a PostGIS function to convert WKT strings with a 
+Now we can add some data to our table. Adding the id and name values is standard SQL fare. Adding our
+point coordinates requires us to use a PostGIS function to convert WKT (Well Known Text) strings with a 
 spatial reference system id.
 
 ::
 
-  INSERT INTO cities (ID, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
-  INSERT INTO cities (ID, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
-  INSERT INTO cities (ID, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
+  INSERT INTO cities (id, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
+  INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
+  INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
 
 As you can see this gets increasingly tedious very quickly. Luckily there are other ways of getting
 data into PostGIS tables that are much easier. But now we have three cities in our database, and we 
@@ -111,12 +132,26 @@ All the usual SQL operations can be applied to select data from a PostGIS table.
    3 | East London,SA  | 0101000020E610000040AB064060E93B4059FAD005F58140C0
  (3 rows)
 
+If you want to have a look at your geometry in WKT format again, you can use the functions ST_AsText(the_geom) or ST_AsEwkt(the_geom). Or use ST_X(the_geom), ST_Y(the_geom) to get the coordinates
+
+::
+
+ # SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM CITIES;
+  id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
+ ----+------------------------------+----------------------------------------+-------------+-----------
+   1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
+   2 | POINT(-81.233 42.983)        | SRID=4326;POINT(-81.233 42.983)        |     -81.233 |    42.983
+   3 | POINT(27.91162491 -33.01529) | SRID=4326;POINT(27.91162491 -33.01529) | 27.91162491 | -33.01529
+ (3 rows)
+
+
+
 Spatial Queries
 ===============
 
 PostGIS adds many functions with spatial functionality to
 PostgreSQL. We've already seen ST_GeomFromText which converts WKT to
-geometry. Most of them start with ST and are listed in a section of
+geometry. Most of them start with ST (for spatial type) and are listed in a section of
 the PostGIS documentation. We'll now use one to answer a practical
 question.
 
