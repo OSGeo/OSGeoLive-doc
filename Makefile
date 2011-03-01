@@ -158,7 +158,21 @@ test_page: Live_GIS_Disc_Testing.html sphinxbuild
 	sed -e '1,/<h1>Test/d' $(BUILDDIR)/html/en/test.html >> $(TMP)
 	mv $(TMP) $(BUILDDIR)/html/en/test.html 
 	
-html: sphinxbuild fix_header_links redirect_to_en version banner_links win_installer_links test_page css
+link_to_en_docs: sphinxbuild
+	# For quickstart, standards and overview docs which have not been
+	# translated, link to english doc
+	for LANG in $(TRANSLATIONS) ; do \
+	  for DOC in _build/html/en/*/* ; do \
+	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
+	    TARGET_EN=`echo $$DOC | sed -e"s#_build/html#../..#"` ; \
+	    if [ ! -f $$TRANSLATED_DOC ] ; then \
+	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
+	    fi ; \
+	  done ; \
+	done
+
+
+html: sphinxbuild fix_header_links redirect_to_en version banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
