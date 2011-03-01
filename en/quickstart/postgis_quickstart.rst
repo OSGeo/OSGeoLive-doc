@@ -18,7 +18,7 @@ PostGIS Quickstart
 
 PostGIS adds spatial capabilities to the PostgreSQL relational database system. It gives
 PostgreSQL the ability to store, query, and manipulate spatial data. In this note we will
-use ``PostgreSQL'' when we talk about general database functions, and ``PostGIS'' when
+use 'PostgreSQL' when we talk about general database functions, and 'PostGIS' when
 we talk about the additional functionality that it provides.
 
 
@@ -36,38 +36,46 @@ enables you to use PostgreSQL on a single machine. Your client connects to the s
 via the internal 'loopback' network connection, and is not visible to other computers
 unless you configure it to be so.
 
-Creating A Spatial enabled database
+Creating A Spatially-Enabled database
 ===================================
 
-To handle spatial data you need a PostgreSQL database with PostGIS functionality. You can use the PostgreSQL utility tool createdb or SQL to set your database up. Check for PostGIS - you will find lot of spatial functions and two tables geometry_columns and spatial_ref_sys in your new database.
+To handle spatial data you need a PostgreSQL database with PostGIS
+functionality. From the unix command line you can use ``createdb``:
 
 ::
 
    createdb -T template_postgis demo
 
+or from the PostgreSQL command line tool ``psql``, you can create it
+with SQL:
 
-You can create a database via SQL using the following statement
 :: 
 
  CREATE DATABASE demo TEMPLATE=template_postgis;
 
+To check this has worked, your database will have a lot of
+spatial functions and two tables: ``geometry_columns`` and ``spatial_ref_sys``.
 
 Creating A Spatial Table The Hard Way
 =====================================
 
-Start the PostgreSQL command-line client by entering 'psql' at a terminal prompt. It should connect to a database.
+Now we have a spatial database we can make spatial tables. Start the
+PostgreSQL command-line client by entering 'psql' at a terminal
+prompt. It should connect to a database.
 
-First we create an ordinary database table to store some city data - this table has two fields - one for a numeric
-ID and one for the city name:
+First we create an ordinary database table to store some city data -
+this table has two fields - one for a numeric ID and one for the city
+name:
 
 ::
 
   CREATE TABLE cities ( ID int4, NAME varchar(50) );
 
-Next you have to add a geometry column. Conventionally this is called ``the_geom'' or ``geom''. This
-tells PostGIS what kind of geometry each feature has (points, lines, polygons etc), how many dimensions (in this case
-two), and importantly the spatial reference system. We'll create the geometry column using EPSG:4326 
-coordinates.
+Next you have to add a geometry column. Conventionally this is called
+``the_geom`` or ``geom``. This tells PostGIS what kind of geometry
+each feature has (points, lines, polygons etc), how many dimensions
+(in this case two), and importantly the spatial reference
+system. We'll create the geometry column using EPSG:4326 coordinates.
 
 ::
 
@@ -106,12 +114,15 @@ All the usual SQL operations can be applied to select data from a PostGIS table.
 Spatial Queries
 ===============
 
-PostGIS adds many functions with spatial functionality to PostgreSQL. We've already seen ST_GeomFromText
-which converts WKT to geometry. Most of them start with ST and are listed in a section of the PostGIS 
-documentation. We'll now use one to answer a practical question.
+PostGIS adds many functions with spatial functionality to
+PostgreSQL. We've already seen ST_GeomFromText which converts WKT to
+geometry. Most of them start with ST and are listed in a section of
+the PostGIS documentation. We'll now use one to answer a practical
+question.
 
-How far are these three Londons away from each other, in metres, assuming a spherical earth? (I'd use ST_Distance_Spheroid but 
-my version of PostGIS doesn't have it)
+How far are these three Londons away from each other, in metres,
+assuming a spherical earth? (I'd use ST_Distance_Spheroid but my
+version of PostGIS doesn't have it)
 
 ::
 
@@ -123,10 +134,12 @@ my version of PostGIS doesn't have it)
   East London,SA  | London, Ontario |   13892160.9525778
   (3 rows)
 
-This gives is the distance, in metres, between each pair of cities. Notice how the 'where' part of the line
-stops us getting back distances of a city to itself (which will all be zero) or the reverse distances to the ones in the
-table above (England to Ontario is the same distance as Ontario to London). Try it without the 'where' part and
-see what happens.
+This gives is the distance, in metres, between each pair of
+cities. Notice how the 'where' part of the line stops us getting back
+distances of a city to itself (which will all be zero) or the reverse
+distances to the ones in the table above (England to Ontario is the
+same distance as Ontario to London). Try it without the 'where' part
+and see what happens.
 
 Mapping
 =======
@@ -144,14 +157,14 @@ Using QGIS PostGIS conversion tools
 
 Get to know pgAdmin III
 =======================
-You can use the graphical Database Client pgAdmin III to run you SQLs and handle your data. 
-pgAdmin III also provides a plugin for shape import. This Client provides a comfortable way to 
-administrate your data.
+You can use the graphical database client ``pgAdmin III`` to run you SQLs and handle your data. 
+pgAdmin III also provides a plugin for shape import. This client provides a comfortable way to 
+manage your data.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.gif
   :scale: 100 %
   :alt: pgAdmin III
-  :align: right
+  :align: center
 
 Things to try
 =============
