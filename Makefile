@@ -7,7 +7,8 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
 TMP	      = /tmp/osgeolive_make
-TRANSLATIONS  = de es it ja el pl
+#TRANSLATIONS  = de el es it ja ro pl
+TRANSLATIONS  =  de el es    ja    pl
 LANGUAGES     = en $(TRANSLATIONS)
 VERSION       = $(shell cat ../VERSION.txt)
 START_DIR     = $(shell pwd)
@@ -57,8 +58,33 @@ disclaimer:
 	  ln -sf ../en/disclaimer.rst $$LANG/ ;\
 	done
 
-#sphinxbuild: disclaimer contributors.rst translators.rst
-sphinxbuild: disclaimer contributors.rst translators.rst
+link_to_en_docs:
+	# For quickstart, standards and overview docs which have not been
+	# translated, link to english doc
+	for LANG in $(TRANSLATIONS) ; do \
+	  for DOC in en/*/* ; do \
+	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
+	    TARGET_EN=`echo $$DOC | sed -e"s#^#../../#"` ; \
+	    if [ ! -f $$TRANSLATED_DOC ] ; then \
+	      rm -f $$TRANSLATED_DOC ; \
+	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
+	    fi ; \
+	  done ; \
+	done
+
+link_to_en_docs_post_sphinx: sphinxbuild
+	# For quickstart, standards and overview docs which have not been
+	# translated, link to english doc
+	for LANG in $(TRANSLATIONS) ; do \
+	  for DOC in _build/html/en/*/* ; do \
+	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
+	    TARGET_EN=`echo $$DOC | sed -e"s#_build/html#../..#"` ; \
+	    if [ ! -f $$TRANSLATED_DOC ] ; then \
+	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
+	    fi ; \
+	  done ; \
+	done
+sphinxbuild: disclaimer contributors.rst translators.rst link_to_en_docs
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
@@ -158,18 +184,6 @@ test_page: Live_GIS_Disc_Testing.html sphinxbuild
 	sed -e '1,/<h1>Test/d' $(BUILDDIR)/html/en/test.html >> $(TMP)
 	mv $(TMP) $(BUILDDIR)/html/en/test.html 
 	
-link_to_en_docs: sphinxbuild
-	# For quickstart, standards and overview docs which have not been
-	# translated, link to english doc
-	for LANG in $(TRANSLATIONS) ; do \
-	  for DOC in _build/html/en/*/* ; do \
-	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
-	    TARGET_EN=`echo $$DOC | sed -e"s#_build/html#../..#"` ; \
-	    if [ ! -f $$TRANSLATED_DOC ] ; then \
-	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
-	    fi ; \
-	  done ; \
-	done
 
 
 html: sphinxbuild fix_header_links redirect_to_en version banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
