@@ -102,6 +102,11 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://www.firstbasesolutions.com
 
+.. image:: ../images/logos/metaspatial_sml.gif
+  :alt: Metaspatial
+  :align: center
+  :target: http://www.metaspatial.net/
+
 
 For more information
 --------------------
