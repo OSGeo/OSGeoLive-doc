@@ -59,3 +59,11 @@ QGIS mapserver
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 
 **Εμπορική Υποστήριξη:** http://www.sourcepole.com/
+
+
+Γρήγορη εκκίνηση
+----------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/qgis_mapserver_quickstart.html>`_
+
+

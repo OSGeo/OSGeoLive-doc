@@ -103,3 +103,10 @@ Quantum GIS
 
 **Εμπορική υποστήριξη:** http://qgis.org/en/commercial-support.html
 
+
+Γρήγορη εκκίνηση
+----------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/qgis_quickstart.html>`_
+
+
