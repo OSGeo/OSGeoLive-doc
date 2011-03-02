@@ -179,15 +179,97 @@ and see what happens.
 Mapping
 =======
 
-Fire up QGIS, load the cities as a PostGIS layer. Label them. Screenshot.
+To produce a map from PostGIS data, you need a client that can get at the data. Most 
+of the open source desktop GIS programs can do this - Quantum GIS, gvSIG, uDig for example. Now we'll
+show you how to make a map from Quantum GIS.
+
+Start Quantum GIS and choose ``Add PostGIS layer`` from the layer menu. Because you haven't interacted
+with PostGIS from QGIS before, you'll get an empty set of PostGIS connections.
+
+.. image:: ../../images/screenshots/1024x768/postgis_add.png
+  :scale: 100 %
+  :alt: Add a PostGIS layer
+  :align: center
+
+Hit 'new' and enter the parameters for the connection. We'll use the Natural Earth database
+provided on the DVD system. There's no username or password because the security is set up
+to allow you access.
+
+.. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
+  :scale: 100 %
+  :alt: Connect to Natural Earth
+  :align: center
+
+Hit the ``Test Connect`` button, and if all is well you'll get a friendly 
+message. Hit ``OK`` and your connection info is saved under the name in the drop-down box. Now you can
+hit ``Connect`` and get a list of the spatial tables in the database:
+
+.. image:: ../../images/screenshots/1024x768/postgis_ne_layers.png
+  :scale: 100 %
+  :alt: Natural Earth Layers
+  :align: center
+
+Choose the lakes and hit ``Add``, and it should be loaded into QGIS:
+
+.. image:: ../../images/screenshots/1024x768/postgis_ne_lakes.png
+  :scale: 50 %
+  :alt: My First PostGIS layer
+  :align: center
+
+You should now see a map of the lakes. QGIS doesn't know they are lakes, so might not colour
+them blue for you. Use the QGIS documentation to work out how to change this! Zoom in to
+a famous group of lakes in Canada.
 
 
 Creating A Spatial Table The Easy Way
 =====================================
 
-Using shp2pgsql (and/or shp2pgsql-gui which is interesting...)
+Most of the OSgeo desktop tools have functions for importing spatial data in files, such as shapefiles,
+into PostGIS databases. Again we'll use QGIS to show this.
 
-Using QGIS PostGIS conversion tools
+Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
+Plugins menu, select ``Manage Plugins`` and then find the ``PostGIS Manager``. Check the box and OK 
+it. Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
+to start the manager.
+
+It will then use your previously defined settings to connect to the Natural Earth database. Leave
+the password blank if it asks. You'll see the main manager window.
+
+.. image:: ../../images/screenshots/1024x768/postgis_ne_manager.png
+  :scale: 100 %
+  :alt: PostGIS Manager Plugin
+  :align: center
+
+You can use the other tabs in the right-side panel to check the attributes of the layer and even
+get a basic map with zoom and pan capabilities. Here I've selected the the populated places layer
+and zoomed in on a little island I know:
+
+.. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
+  :scale: 100 %
+  :alt: PostGIS Manager Preview
+  :align: center
+
+Now to read in a shapefile. From the ``Data`` menu choose the ``Load data from shapefile`` option. 
+All you need to do here is browse to the world shapefile in the data directory of the osgearth 
+folder, and give the table a name. Leave everything else. Hit ``Load``.
+
+.. image:: ../../images/screenshots/1024x768/postgis_ne_load.png
+  :scale: 100 %
+  :alt: Import a shapefile
+  :align: center
+
+The shapefile should be imported into PostGIS with no errors. 
+
+Now get back to the main QGIS window and load the world data into the map using the 'Add PostGIS Layer'
+option. With a bit of rearranging of the layers and some colouring, you should be able to get something
+like this:
+
+.. image:: ../../images/screenshots/1024x768/postgis_ne_final.png
+  :scale: 50 %
+  :alt: Lakes and Countries
+  :align: center
+
+
 
 
 Get to know pgAdmin III
