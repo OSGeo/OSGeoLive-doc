@@ -40,7 +40,7 @@ Web Feature Service (WFS)
 The OGC® Web Feature Service Interface Standard (WFS) defines  web interface operations for querying and editing vector geographic features, such as roads or lake outlines.  (http://www.opengeospatial.org/standards/wfs)
 
 .. image:: ../../images/standards/wfs.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WFS in Context
 
 The WFS standard defines operations that enable clients to:

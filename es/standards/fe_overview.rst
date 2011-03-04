@@ -41,7 +41,7 @@ El estandar OGC® Filter Encoding (FE) define una codificación XML para expresa
 (http://www.opengeospatial.org/standards/filter)
 
 .. image:: ../../images/standards/fe.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: Contexto de FE
 
 Se puede identificar un subconjunto de geometrías (*features*) para renderizarlas en un color determinado o para transformarlas en un formato especificado por el usuario. El XML *filter encoding* neutral permite validación y parseo fácilmente a través de una implementación de servidor del estandar OGC WFS, antes de que la expresión de filtrado se transforme en el lenguaje objetivo del almacen de datos que se esté consultando. El estandar es utilizado por numerosos Servicios Web OGC, incluyendo el *Web Feature Service*, el *Catalogue Service* y el estandar *Styled Layer Descriptor*.

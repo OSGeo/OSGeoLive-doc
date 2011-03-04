@@ -41,7 +41,7 @@ Der OGC® Filter Encoding Standard (FE) definiert ein XML Encoding zur Definitio
 (http://www.opengeospatial.org/standards/filter)
 
 .. image:: ../../images/standards/fe.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: FE in Context
 
 Eine Teilmenge von räumlichen Objekten kann gewählt werden, um sie in einer bestimmten Farbe anzuzeigen oder in ein benutzerdefiniertes Format umzuwandeln. Das neutrale XML Filter Encoding erlaubt das einfache Analysieren und Validieren durch einen Server, der den OGC WFS Standard implementiert, bevor der Filterausdruck in die Zielsprache des abzufragenden Datenbestands übersetzt wird.

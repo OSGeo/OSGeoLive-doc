@@ -40,7 +40,7 @@ Sensor Model Language (SensorML)
 The OGC Sensor Model Language (SensorML) Encoding Standard describes an information model and XML encodings that enable discovery and tasking of Web-resident sensors as well as exploitation of sensor observations. Within this context, SensorML allows the developer to define models and XML Schema for describing any process, including measurement by a sensor system, as well as post-measurement processing. (http://www.opengeospatial.org/standards/sensorml)
 
 .. image:: ../../images/standards/sensorml.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: sensorML in Context
 
 More specifically, SensorML can: 

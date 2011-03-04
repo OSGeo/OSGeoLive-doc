@@ -40,7 +40,7 @@ Web Feature Service (WFS)
 Το πρότυπο Web Feature Service του OGC® ορίζει διαδικτυακές λειτουργίες για ανάκτηση και επεξεργασία διανυσματικών γεωγραφικών χαρακτηριστικών, όπως δρόμοι ή όρια λιμνών.  (http://www.opengeospatial.org/standards/wfs)
 
 .. image:: ../../images/standards/wfs.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WFS in Context
 
 Το πρότυπο WFS ορίζει διαδικασίες που επιτρέπουν τους χρήστες του να:

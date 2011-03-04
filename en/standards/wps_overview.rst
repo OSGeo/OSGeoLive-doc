@@ -40,7 +40,7 @@ Web Processing Service (WPS)
 The WPS standard provides rules for standardizing inputs and outputs (requests and responses) for geospatial processing services, such as polygon overlays and their inputs and outputs.
 
 .. image:: ../../images/standards/wps.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WPS in Context
 
 The OGC® Web Processing Service (WPS) Standard describes how to access geospatial processes from a web interface.

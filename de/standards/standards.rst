@@ -26,7 +26,7 @@ Die meisten in den letzten Jahren entwickelten OGC Standards sind Standards aus 
 
 
 .. figure:: ../../images/standards/publish_find_bind.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: Web Services Framework für OGC Geoprocessing Standards
 
 Die Abkürzungen in der Graphik werden weiter unten erklärt. Einige sind “OGC standards” und andere sind öffentlich zugängliche “Discussion Papers” (Diskussionen), “Requests” (Anfragen) und “Recommendation Papers” (Empfehlungen). (Beachten Sie, dass einige Standards noch in Bearbeitung sind und noch nicht öffentlicht, aber für OGC Mitglieder zugänglich sind.) 

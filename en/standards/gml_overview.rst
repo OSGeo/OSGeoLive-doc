@@ -40,7 +40,7 @@ Geography Markup Language (GML)
 GML (http://www.opengeospatial.org/standards/gml) is an XML grammar defined to express and communicate geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. Note that the concept of feature in GML is a very general one and includes not only conventional "vector" or discrete objects, but also coverages and some elements of sensor data. The ability to integrate all forms of geographic information is key to the utility of GML.
 
 .. image:: ../../images/standards/gml.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: GML in Context
 
 GML contains a rich set of primitives that are used to build application specific schemas or application languages. These primitives include:

@@ -40,7 +40,7 @@ Web Feature Service (WFS)
 El estandar de interface OGC® Web Feature Service (WFS)  define operaciones Web de interface para la consulta y edición de entidades geográficas (en inglés *features*) vectoriales, como por ejemplo carreteras o líneas de contorno de lagos.  (http://www.opengeospatial.org/standards/wfs)
 
 .. image:: ../../images/standards/wfs.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WFS en contexto
 
 El estandar WFS permite lo siguiente a los clientes:

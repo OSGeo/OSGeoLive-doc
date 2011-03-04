@@ -40,7 +40,7 @@ Web Coverage Service (WCS)
 The OGC® Web Coverage Service Interface Standard (WCS) defines a standard interface and operations that enable interoperable access to geospatial "coverages". The term "grid coverages" typically refers to content such as satellite images, digital aerial photos, digital elevation data, and other phenomena represented by values at each measurement point. (http://www.opengeospatial.org/standards/wcs)
 
 .. image:: ../../images/standards/wcs.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WCS in Context
 
 The OGC Web Coverage Service (WCS) Interface Standard is a data service. The WCS standard defines a data access service that enables coverages, such as digital elevation models, to be queried using an HTTP based interface. The response to a WCS request includes coverage metadata and an output coverage whose pixels are encoded in a specified binary image format, such as GeoTIFF or NetCDF. 

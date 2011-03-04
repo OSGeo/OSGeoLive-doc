@@ -40,7 +40,7 @@ Web Coverage Service (WCS)
 El estandar OGC® Web Coverage Service (WCS) define un estandar de interface y operaciones que permiten el acceso interoperable a "coberturas" geoespaciales. El término "grid de coberturas" (en inglés * "grid coverages"*) se refiere típicamente a contenidos del tipo imágenes de satélite, fotos aéreas digitales, datos digitales de elevación, y cualquier otro fenómeno que se pueda representar en puntos de medida. (http://www.opengeospatial.org/standards/wcs)
 
 .. image:: ../../images/standards/wcs.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WCS in Context
 
 El estandar de interface OGC Web Coverage Service (WCS) es un servicio de datos. El estandar WCS define un servicio de acceso a datos que proporciona coberturas, como por ejemplo modelos de elevación del terreno, que se pueden consultar a través del protocolo HTTP. La respuesta a una petición WCS incluye metadatos de la cobertura y la cobertura en sí, cuyos pixeles se codifican en un formato binario específico, como por ejemplo GeoTIFF o NetCDF. 

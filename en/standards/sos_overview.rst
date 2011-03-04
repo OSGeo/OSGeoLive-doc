@@ -40,7 +40,7 @@ Sensor Observation Service (SOS)
 The OGC Sensor Observation Service (SOS) Interface Standard is a data service. The OGC SOS standard defines a standardized interface and operations for access to observations from sensors and sensor systems that is consistent for all sensor systems including remote, in-situ, fixed and mobile sensors. SOS provides query results in the Observation and Measurements (O&M) standard format for modeling sensor observations and the SensorML specification for modeling sensors and sensor systems. (http://www.opengeospatial.org/standards/sos)
 
 .. image:: ../../images/standards/sos.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: SOS in Context
 
 The SOS standard defines a common model for sensors and sensor systems that is not domain-specific and can be used without a-priori knowledge of domain-specific application schemas.

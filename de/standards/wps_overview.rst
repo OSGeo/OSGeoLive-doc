@@ -40,7 +40,7 @@ Web Processing Service (WPS)
 Der WPS Standard definiert Regeln für standardisierte Ein- und Ausgabe (Anfrage und Antwort) für räumliche Prozessierungsdienste, wie z.B. Polygonverschneidung und die dazugehörigen Eingaben und Ausgaben.
 
 .. image:: ../../images/standards/wps.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WPS in Context
 
 Der OGC® Web Processing Service (WPS) Standard beschreibt, wie räumliche Verarbeitungsprozesse über eine Webschnittstelle angesprochen werden können. Prozesse umfassen jegliche Algorithmen, Berechnungen oder Modelle, welche auf räumlich referenzierten Vektor- oder Rasterdaten arbeiten. Ein WPS kann einfache Berechnungen wie die Subtraktion einer räumlich referenzierten Zahl von einer anderen anbieten (wie z.B. die Ermittlung der Differenz der Grippeerkrankungen zwischen zwei Jahren) oder etwas so kompliziertes, wie ein globales Model der Klimaveränderung. (http://opengeospatial.org/standards/wps)

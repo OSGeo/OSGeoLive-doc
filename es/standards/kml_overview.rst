@@ -40,7 +40,7 @@ KML Encoding Standard (KML)
 El estandar OGC KML es un formato XML orientado a la visualización geográfica, que incluye anotaciones de mapas e imágenes. La visualización geográfica no incluye solo la presentación de datos geográficos sobre el globo, sino también el control de navegación de usuario en el sentido de donde ir y donde mirar. (http://www.opengeospatial.org/standards/KML)
 
 .. image:: ../../images/standards/kml.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: KML en contexto
 
 En 2006, Google propuso KML (formalmente, Keyhole Markup Language) al OGC para que se considerara un estandar. KML fue entonces el primer caso de estandar de-facto que se incluía dentro de los procesos de estandarización OGC y de esta forma el OGC adaptó el proceso de aprovación de estándares para incluir que se consideraran en el proceso aquellos que pudieran haberse desarrollado externamente. Hubo cuatro objetivos para este trabajo:

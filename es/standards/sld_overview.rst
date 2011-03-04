@@ -41,7 +41,7 @@ El estandar OGC® Styled Layer Descriptor (SLD)
 proporciona los artefactos para la simbolización y coloreado de coberturas y geometrías geográficas. Se utiliza generalmente para aplicar estilos a los Web Map Services, o los estilos de un GML proporcionado por Web Feature Services.  (http://www.opengeospatial.org/standards/sld) 
 
 .. image:: ../../images/standards/wms.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WMS en contexto
 
 El control fino de la representación gráfica de datos es un requerimiento fundamental de muchas aplicaciones de mapas. La habilidad para definir reglas de definición de estilos requiere un lenguaje de estilos que tanto las parte cliente, como la parte servidora puedan entender. 

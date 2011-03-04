@@ -40,7 +40,7 @@ Web Processing Service (WPS)
 El estandar WPS proporciona unas reglas para la estandarización de la entrada y salida (peticiones y respuestas) para servicios de procesamiento geoespacial, como por ejemplo, operaciones con polígonos y sus entradas y salidas.
 
 .. image:: ../../images/standards/wps.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WPS in Context
 
 El estandar OGC® Web Processing Service (WPS) describe cómo acceder a procesos geoespaciales desde un interface Web.

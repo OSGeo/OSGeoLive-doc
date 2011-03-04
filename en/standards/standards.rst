@@ -25,7 +25,7 @@ Most of the OGC standards developed in recent years are standards for the Web se
 
 
 .. figure:: ../../images/standards/publish_find_bind.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: Web services framework of OGC geoprocessing standards
 
 Acronyms in the figure are defined below. Some of these are “OGC standards” and others are publicly available “Discussion Papers”, “Requests” and “Recommendation Papers”. (Note that some in work candidate standards are not yet public, but are accessible by OGC members.) 

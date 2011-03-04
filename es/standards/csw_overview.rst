@@ -39,7 +39,7 @@ Catalogue Service for the Web (CS-W)
 
 
 .. image:: ../../images/standards/csw.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: CS-W in Context
 
 El estandar de interface OGC Catalogue Service especifica un patrón de diseño para la definición de interfaces para la publicación y búsqueda de colecciones de información descriptiva (metadatos) sobre datos geoespaciales, servicios y objetos de informacion relacionada. Provedores de recursos, como por ejemplo los de contenidos, utilizan catálogos para registrar metadatos que se ajustan al modelo de información del proveedor; dichos modelos incluyen descripciones de referencias espaciales e información temática. De esta forma, las aplicaciones cliente puenden buscar datos y servicios geoespaciales de formas muy eficientes. 

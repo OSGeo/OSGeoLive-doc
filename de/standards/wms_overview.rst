@@ -40,7 +40,7 @@ Web Map Service (WMS)
 Der (OGC®) Web Map Service Interface Standard (WMS) bietet eine einfache HTTP Schnittstelle, um georeferenzierte Kartenbilder von einer oder mehreren verteilten räumlichen Datenbanken anzufordern. Die Antwort auf die Anfrage sind ein oder mehrere Kartenbilder (als JPEG, PNG, usw.), welche in einem Browser oder einer Desktopanwendung angezeigt werden können.(http://www.opengeospatial.org/standards/wms) 
 
 .. image:: ../../images/standards/wms.jpg
-  :scale: 25%
+  :scale: 55%
   :alt: WMS in Context
 
 Der WMS-Standard definiert drei Operationen: 
