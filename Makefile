@@ -42,6 +42,8 @@ clean:
 	for LANG in $(TRANSLATIONS) ; do \
 	  rm -f $$LANG/disclaimer.rst ;\
 	done
+	# remove symbolic linked files
+	rm `find . -type l -print`
 
 %.rst: %.csv
 	# create contributors.rst and translators.rst from csv files
