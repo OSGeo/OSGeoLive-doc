@@ -23,7 +23,7 @@ Natural Earth solves the common problem that many cartographers face: finding ve
 
 .. image:: ../../images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
-  :alt: project logo
+  :alt: natural earth screenshot
   :align: right
 
 Core Features
