@@ -15,7 +15,7 @@
 rasdaman Quickstart 
 ********************
 
-.. image:: ../../images/screenshots/1024x768/rasdaman_apps_collage.jpg
+.. image:: ../../images/screenshots/800x600/rasdaman_apps_collage.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
