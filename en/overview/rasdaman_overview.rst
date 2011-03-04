@@ -25,9 +25,9 @@ Hence, rasdaman provides a flexible, fast, and scalable raster database enabling
 
 The rasdaman technology is stable and mature, deployed in production since over 10 years; the French National Geographic Institute runs rasdaman on a dozen-Terabyte airborne image map. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
 
-.. image:: ../../images/project_logos/apps-collage.jpg
+.. image:: ../../images/project_logos/logo_rasdaman_collage.png
   :scale: 100 %
-  :alt: project logo
+  :alt: project image collage
   :align: right
 
 Core Features

@@ -15,6 +15,11 @@
 rasdaman Quickstart 
 ********************
 
+.. image:: ../../images/screenshots/1024x768/rasdaman_apps_collage.jpg
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
+
 rasdaman is a raster database allowing queries on n-D raster data stored.
 
 This Quick Start describes how to try out queries on a sandbox of objects.
@@ -30,7 +35,7 @@ Running queries locally
     * Open a console and open the sample database installed locally
     * use the rasql utility to send queries and receive results, for example::
 
-      $ rasql -q "select png(rgb.red + rgb.blue ) from rgb" --out file
+      $ rasql -q "select png(rgb.1 + rgb.2 ) from rgb" --out file
 
     * use your favorite image inspection tool to open the file generated.
 
@@ -46,7 +51,7 @@ Create your own database
 
     * use the rasql utility to send queries and receive results, for example::
 
-      $ rasql -q "select png( rgb.red + rgb.blue ) from rgb" --out file
+      $ rasql -q "select png( rgb.1 + rgb.2 ) from rgb" --out file
 
 
 Things to Try
