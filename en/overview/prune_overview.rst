@@ -13,8 +13,8 @@
 Prune
 =====
 
-GPS Track-Editing Software 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+GPS Track-Editing
+~~~~~~~~~~~~~~~~~
 
 `Prune <http://activityworkshop.net/software/prune/>`_ is a tool for viewing,
 editing and converting coordinate data from GPS systems.  It uses OpenStreetMap
