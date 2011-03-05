@@ -88,6 +88,7 @@ Note:
   * Size is 10800x5400
   * 3 Bands of type Byte. 
   * Coordinates
+  * no coordinate system
 
 
 
@@ -141,11 +142,9 @@ Rescaling
 
 The -outsize switch can be used to set the size of the output file. 
 
-Resize the image to 25% of the original size.
-
 ::
 
-    gdal_translate -outsize 25% 25% HYP_50M_SR_W.tif  HYP_50M_SR_W_small.tif
+    gdal_translate -outsize 50% 50% HYP_50M_SR_W.tif  HYP_50M_SR_W_small.tif
 
 Use gdalinfo to verify the size.
 
@@ -198,7 +197,7 @@ Reprojecting
 ============
 
 For this process we assume that HYP_50M_SR_W.tif has been properly created with
-bounds. As we saw befor with gdainfo no coordinate system  was set. So we assign WGS84 as coordinate system to the image in the first step.
+bounds. As we saw before with gdainfo no coordinate system  was set. So we assign WGS84 as coordinate system to the image in the first step.
 
 ::
 
@@ -259,7 +258,9 @@ Get to know OGR
 
 .. tip:: Open the shape file with a Desktop GIS like Quantum GIS. And have a look.
 
-Get information about the vector data with ogrinfo:
+Get information about the vector data with ogrinfo
+==================================================
+
 :: 
 
   ogrinfo ./natural_earth
@@ -318,9 +319,14 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 
 You can convert your data to other formats. Get the list of the supported formats with --formats.
 
+User ogr2ogr to convert data between file formats 
+=================================================
+You can use ogr2ogr to converts simple features data between file formats. You can use --formats to get the list of the supported formats with read/write information. 
+
 Convert the countries to GML.
 ::
 
+  ogr2ogr --formats
   ogr2ogr -f GML countries.xml 10m-admin-0-countries.shp	  
 
 
