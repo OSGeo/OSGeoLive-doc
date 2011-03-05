@@ -5,7 +5,7 @@ OSGeo-Live Sponsoren
   :alt: LISAsoft
   :target: http://lisasoft.com
 
-LISAsoft stellt langfristig Resourcen und Mitabeiter zur Verfügung, die das Projekt unterstützen und die Zusammenstellung auf der OSGeo-Live DVD koordinieren.
+LISAsoft stellt langfristig Resourcen und Mitarbeiter zur Verfügung, die das Projekt unterstützen und die Zusammenstellung auf der OSGeo-Live DVD koordinieren.
 
 .. image:: ../images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
