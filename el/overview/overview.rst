@@ -72,8 +72,8 @@
 * :doc:`52nSOS_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
-Δοκιμές
------
-Αποτελέσματα των δοκιμών ανάπτυξης του OSGeo-Live είναι διαθέσιμα στο: [:doc:`../../en/test`]
+Δεδομένα
+----
+* :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
 
 .. include :: ../../el/disclaimer.rst
