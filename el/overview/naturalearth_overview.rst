@@ -23,7 +23,7 @@ Natural Earth
 
 .. image:: ../../images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
-  :alt: project logo
+  :alt: natural earth screenshot
   :align: right
 
 Βασικά Χαρακτηριστικά
