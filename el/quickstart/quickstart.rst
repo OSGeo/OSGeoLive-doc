@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-OSGeo-Live Quick Starts
+Εγχειρίδια Γρήγορης Εκκίνησης OSGeo-Live
 =======================
 
 .. toctree::
@@ -15,7 +15,7 @@ OSGeo-Live Quick Starts
   virtualbox_quickstart
   usb_quickstart
 
-Application Quick Starts
+Εγχειρίδια Γρήγορης Εκκίνησης Εφαρμογών
 ========================
 .. toctree::
   :maxdepth: 1
