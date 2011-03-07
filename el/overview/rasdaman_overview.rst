@@ -21,7 +21,7 @@ Rasdaman
 
 Επομένως το Rasdaman παρέχει μια ευέλικτη, γρήγορη και κλιμακωτή βάση εικονιστικών δεδομένων που επιτρέπει την πλοήγηση, εξαγωγή, ομαδοποίηση και χωροχρονική ανάλυση δεδομένων από δέκτες, εικόνες και στατιστικά στοιχεία.
 
-Η τεχνολογία rasdaman είναι σταθερή, ώριμη, και χρησιμοποιείται σε περιβάλλον παραγωγής για περισσότερο από 10 χρόνια. Για παράδειγμα, Η Γαλλική Εθνική Γεωγραφική Υπηρεσία χρησιμοποιεί το rasdaman σε έναν ορθοφωτοχάρτη 12 Terabyte. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
+Η τεχνολογία rasdaman είναι σταθερή, ώριμη, και χρησιμοποιείται σε περιβάλλον παραγωγής για περισσότερο από 10 χρόνια. Για παράδειγμα, η Γαλλική Εθνική Γεωγραφική Υπηρεσία χρησιμοποιεί το rasdaman σε έναν ορθοφωτοχάρτη 12 Terabyte. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
 
 .. image:: ../../images/project_logos/logo_rasdaman_collage.png
   :scale: 100 %

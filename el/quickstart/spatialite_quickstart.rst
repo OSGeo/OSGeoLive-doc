@@ -27,10 +27,10 @@
    select r.NOME_REG, a.Nome from Aeroporti a, reg2008_s r where CONTAINS( r.Geometry, a.Geometry ) order by r.NOME_REG;
 
 
-Δημιουργείστε μια νέα βάση με το γραφικό περιβάλλον spatialite-gui
+Δημιουργήστε μια νέα βάση με το γραφικό περιβάλλον spatialite-gui
 =========================================
 
-* Εκκινείστε spatialite-gui
+* Εκκινήστε spatialite-gui
 * Επιλέξτε  :menuselection:`File --> Creating a new SQLite DB`
 
 
@@ -48,7 +48,7 @@
 
 Ορίστε μερικές πρόσθετες προκλήσεις να τις δοκιμάσετε:
 
-* Παρατηρείστε την γεωμετρία με spatialite-gui
+* Παρατηρήστε την γεωμετρία με spatialite-gui
 * Ανοίξτε και διορθώστε επίπεδα SpatiaLite στο QGIS
 
 Τεκμηρίωση
