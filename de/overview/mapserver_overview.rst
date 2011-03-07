@@ -65,7 +65,7 @@ Kernfunktionen
   * On-the-fly Umprojektion für tausende Projektionen durch die Verwendung der Proj.4 Bibliothek
 
 Implementierte Standards
----------------------
+------------------------
 
 * Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards
 

@@ -66,7 +66,7 @@ Kernfunktionen
 * ... und mehr!
 
 Unterstützte Standards
----------------------
+----------------------
 
 * OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
