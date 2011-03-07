@@ -39,9 +39,6 @@ clean:
 	rm -f */images
 	rm -f */*/images
 	rm -f contributors.rst translators.rst
-	for LANG in $(TRANSLATIONS) ; do \
-	  rm -f $$LANG/disclaimer.rst ;\
-	done
 	# remove symbolic linked files
 	rm `find . -type l -print`
 
@@ -53,12 +50,6 @@ clean:
 	  -e "s/^/  /" \
 	  $< \
 	  >> $@
-
-disclaimer:
-	# Link to the English disclaimer text
-	for LANG in $(TRANSLATIONS) ; do \
-	  ln -sf ../en/disclaimer.rst $$LANG/ ;\
-	done
 
 link_to_en_docs:
 	# For quickstart, standards and overview docs which have not been
@@ -73,8 +64,19 @@ link_to_en_docs:
 	    fi ; \
 	  done ; \
 	done
+	# link to english docs for the docs in head directory
+	for LANG in $(TRANSLATIONS) ; do \
+	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst ; do \
+	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
+	    TARGET_EN=`echo $$DOC | sed -e"s#^#../#"` ; \
+	    if [ ! -f $$TRANSLATED_DOC ] ; then \
+	      rm -f $$TRANSLATED_DOC ; \
+	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
+	    fi ; \
+	  done ; \
+	done
 
-sphinxbuild: disclaimer contributors.rst translators.rst link_to_en_docs
+sphinxbuild: contributors.rst translators.rst link_to_en_docs
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
