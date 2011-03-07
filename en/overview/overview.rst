@@ -8,10 +8,10 @@ OSGeo-Live Contents
 
 Browser Clients
 ---------------
-* :doc:`openlayers_overview` - [`QuickStart <../quickstart/openlayers_quickstart.html>`_]
-* :doc:`geomajas_overview` - [`QuickStart <../quickstart/geomajas_quickstart.html>`_]
-* :doc:`mapbender_overview` - [`QuickStart <../quickstart/mapbender_quickstart.html>`_]
-* :doc:`mapfish_overview` - [`QuickStart <../quickstart/mapfish_quickstart.html>`_]
+* :doc:`openlayers_overview` - [`QuickStart <../quickstart/openlayers_quickstart.html>`_] - Browser GIS Client
+* :doc:`geomajas_overview` - [`QuickStart <../quickstart/geomajas_quickstart.html>`_] - Browser GIS Client
+* :doc:`mapbender_overview` - [`QuickStart <../quickstart/mapbender_quickstart.html>`_] - Geoportal Framework
+* :doc:`mapfish_overview` - [`QuickStart <../quickstart/mapfish_quickstart.html>`_] - Web Mapping Framework
 
 Crisis Management
 -----------------
