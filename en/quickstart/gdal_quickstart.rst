@@ -11,9 +11,9 @@
   :target: http://gdal.org/
 
 
-******************
+*******************
 GDAL/OGR Quickstart
-******************
+*******************
 
 You will need nothing but a a terminal for this quickstart. If you want to visualize the results in a Desktop GIS you can use one of the Desktop GIS Software on OSGeo-Live f. e. QuantumGIS. 
 
@@ -241,6 +241,7 @@ gdal_merge.py is a python script that can be used for simple mosaicing tasks. Mo
 
    gdal_merge.py  east.tif west.tif -o merged.tif
 
+
 The same task can be accomplished with gdalwarp. gdalwarp has a variety of advantages over gdal_merge, but can be slow to merge many files:
 
 ::
@@ -257,6 +258,7 @@ Get to know OGR
 
 
 .. tip:: Open the shape file with a Desktop GIS like Quantum GIS. And have a look.
+
 
 Get information about the vector data with ogrinfo
 ==================================================
@@ -275,6 +277,7 @@ Get information about the vector data with ogrinfo
   7: 10m_populated_places_simple (Point)
 
 Get a summary about your data with ogrinfo together with -so.
+
 ::
 
 	ogrinfo -so ../natural_earth/ 10m-admin-0-countries
@@ -298,13 +301,16 @@ Get a summary about your data with ogrinfo together with -so.
 	SHAPE_LENG: Real (19.11)
 	SHAPE_AREA: Real (19.11)
 
+
 If you run ogrinfo without a parameter you will get a summary about your data and afterwards a section for every dataset.
+
 ::
 
 	ogrinfo ../natural_earth/ 10m-admin-0-countries
 
 
 You can forward the result from ogrinfo to grep to filter and get only the attribute COUNTRY.
+
 :: 
 	ogrinfo ../natural_earth/ 10m-admin-0-countries | grep COUNTRY
 	COUNTRY: String (100.0)
@@ -324,6 +330,7 @@ User ogr2ogr to convert data between file formats
 You can use ogr2ogr to converts simple features data between file formats. You can use --formats to get the list of the supported formats with read/write information. 
 
 Convert the countries to GML.
+
 ::
 
   ogr2ogr --formats
