@@ -16,7 +16,7 @@ pgRouting
 GIS ツール
 ~~~~~~~~~
 
-pgRouting は `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
+pgRouting は `PostGIS <postgis_overview.html>`_ / `PostgreSQL <http://www.postgresql.org>`_ 地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
 
 データベース上でルート検索を行う方法の利点には、以下のようなものがあります。
 
