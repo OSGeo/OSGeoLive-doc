@@ -36,11 +36,9 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	rm -f */images
-	rm -f */*/images
 	rm -f contributors.rst translators.rst
 	# remove symbolic linked files
-	rm `find . -type l -print`
+	rm `find ./*/ -type l -print`
 
 %.rst: %.csv
 	# create contributors.rst and translators.rst from csv files
