@@ -76,4 +76,4 @@
 ----
 * :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
 
-.. include :: ../../el/disclaimer.rst
+.. include :: ../disclaimer.rst
