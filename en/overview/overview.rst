@@ -37,7 +37,7 @@ Desktop GIS
 * :doc:`ossim_overview` - [`QuickStart <../quickstart/ossim_quickstart.html>`_] - Image Processing
 * :doc:`geopublisher_overview`- [`QuickStart <../quickstart/geopublisher_quickstart.html>`_] - Catalogue
 * :doc:`atlasstyler_overview` - [`QuickStart <../quickstart/atlasstyler_quickstart.html>`_] - Style Editor
-* :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3 Dimensional Terrain Rendering
+* :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3D Terrain Rendering
 * :doc:`mb-system_overview` - [`QuickStart <../quickstart/mb-system_quickstart.html>`_] - Sea Floor Mapping
 
 Navigation and Maps
@@ -67,7 +67,7 @@ Web Services
 * :doc:`mapguide_overview` - [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
 * :doc:`mapserver_overview` - [`QuickStart <../quickstart/mapserver_quickstart.html>`_]
 * :doc:`qgis_mapserver_overview` - [`QuickStart <../quickstart/qgis_mapserver_quickstart.html>`_]
-* :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] Metadata Catalog and Catalog Services for Web
+* :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] - Metadata Catalog and Catalog Services for Web
 * :doc:`52nWPS_overview` - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_] - Web Processing Service
 * :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
