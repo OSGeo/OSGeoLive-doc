@@ -45,7 +45,7 @@ Navigation and Maps
 * :doc:`gpsdrive_overview` - [`QuickStart <../quickstart/gpsdrive_quickstart.html>`_] - GPS Navigation
 * :doc:`marble_overview` - [`QuickStart <../quickstart/marble_quickstart.html>`_] - Spinning Globe
 * :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS Chartplotter
-* :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - Open Street Map Tools
+* :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - OpenStreetMap Tools
 * :doc:`prune_overview` - [`QuickStart <../quickstart/prune_quickstart.html>`_] - View, Edit and Convert GPS Tracks
 * :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Data Analysis and Viewer
 * :doc:`zygrib_overview` - Weather Forecast Maps

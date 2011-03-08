@@ -17,7 +17,7 @@ Mapnik
 Cartographic rendering engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges provided by quality anti-aliasing graphics, intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the Open Street Map main map layers.
+Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges provided by quality anti-aliasing graphics, intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the OpenStreetMap main map layers.
 
 Mapnik has typically been embedded in python applications which deliver their maps over the internet although scaling improvements have meant that Mapnik has recently been getting used to create high resolution paper maps too.
 
