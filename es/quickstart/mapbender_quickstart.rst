@@ -14,54 +14,54 @@
   :align: right
 
 *******************************
-Mapbender Guía de Inicio Rápido 
+Mapbender GuÃ­a de Inicio RÃ¡pido 
 *******************************
 
 Mapbender es un entorno de geoportales basado en la *web* que permite publicar, registrar, ver, navegar, controlar y garantizar el acceso seguro a servicios de Infraestructura de Datos Espaciales.
 
-Las interfaces de administración fortalece la gestión de los administradores quienes necesitan mantener y clasificar los servicios *web* de mapas y de fenómenos, y permitir el acceso a personas, grupos y otros servicios.
+Las interfaces de administraciÃ³n fortalece la gestiÃ³n de los administradores quienes necesitan mantener y clasificar los servicios *web* de mapas y de fenÃ³menos, y permitir el acceso a personas, grupos y otros servicios.
 
-Usted no necesitará nada más que un navegador *web* estándar para esta guía de inicio rápido.
+Usted no necesitarÃ¡ nada mÃ¡s que un navegador *web* estÃ¡ndar para esta guÃ­a de inicio rÃ¡pido.
 
-Esta guía de inicio rápido describe como:
+Esta guÃ­a de inicio rÃ¡pido describe como:
 
   * iniciar Mapbender
-  * crear una aplicación
+  * crear una aplicaciÃ³n
   * cargar un Web Map Service (OGC WMS)
   * configurar un servicio WMS
-  * crear una aplicación individual
+  * crear una aplicaciÃ³n individual
   * crear un usuario y un grupo y asignarles aplicaciones
   * cargar un Web Feature Service (OGC WFS)
-  * configurar tipos de elementos o fenómenos y crear una aplicación con opción de búsqueda contra un WFS y funcionalidades de digitalización (vectorización). 
+  * configurar tipos de elementos o fenÃ³menos y crear una aplicaciÃ³n con opciÃ³n de bÃºsqueda contra un WFS y funcionalidades de digitalizaciÃ³n (vectorizaciÃ³n). 
 
 Iniciar Mapbender
 =================
 
-#. Seleccione  :menuselection:`Mapbender` del menú de Inicio
+#. Seleccione  :menuselection:`Mapbender` del menÃº de Inicio
 
-#. La aplicación tomará unos pocos momentos en levantar
+#. La aplicaciÃ³n tomarÃ¡ unos pocos momentos en levantar
 
-Si tiene algunas dificultades al ejecutar Mapbender, por favor verifique que su servidor *web* Apache y su gestor de base de datos PostgreSQL están ejecutándose. 
+Si tiene algunas dificultades al ejecutar Mapbender, por favor verifique que su servidor *web* Apache y su gestor de base de datos PostgreSQL estÃ¡n ejecutÃ¡ndose. 
 
-Página de Bienvenida
-====================
+PÃ¡gina de Bienvenida
+=======================
 
 #. Antes de que usted pueda comenzar a trabajar con Mapbender usted debe ingresar un usuario o loguearse para tener acceso a las aplicaciones.
 
-#. La página de bienvenida provee enlaces a las páginas *web* mas importantes relacionadas con Mapbender. 
+#. La pÃ¡gina de bienvenida provee enlaces a las pÃ¡ginas *web* mas importantes relacionadas con Mapbender. 
 
-#. Usted puede ingresar con el usuario :guilabel:`root` y la contraseña :guilabel:`root` (estos son los usuarios y contraseña por defecto que usted tendrá una vez instalado Mapbender). Por favor, cambie la contraseña del usuario root si desea ejecutar Mapbender en un ambiente de producción. Por favor, no elimine el usuario :guilabel:`root` ya que este usuario tienen acceso a las plantillas de aplicaciones de Mapbender y es usado para las actualizaciones de versiones.
+#. Usted puede ingresar con el usuario :guilabel:`root` y la contraseÃ±a :guilabel:`root` (estos son los usuarios y contraseÃ±a por defecto que usted tendrÃ¡ una vez instalado Mapbender). Por favor, cambie la contraseÃ±a del usuario root si desea ejecutar Mapbender en un ambiente de producciÃ³n. Por favor, no elimine el usuario :guilabel:`root` ya que este usuario tienen acceso a las plantillas de aplicaciones de Mapbender y es usado para las actualizaciones de versiones.
   
   .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
-Luego de haber ingresado satisfactoriamente será dirigido directamente a la :guilabel:`application overview`.
+Luego de haber ingresado satisfactoriamente serÃ¡ dirigido directamente a la :guilabel:`application overview`.
 
 
 
 Vista de Aplicaciones
 =====================
-Después de ingresar a Mapbender, usted será direccionado a :guilabel:`application overview` con una lista de aplicaciones a las cuales tendrá permisos para acceder.
+DespuÃ©s de ingresar a Mapbender, usted serÃ¡ direccionado a :guilabel:`application overview` con una lista de aplicaciones a las cuales tendrÃ¡ permisos para acceder.
 En Mapbender usted tiene aplicaciones de plantillas, que puede utilizar para crear sus propias aplicaciones.
 
 
@@ -70,36 +70,36 @@ En Mapbender usted tiene aplicaciones de plantillas, que puede utilizar para cre
 
 Mapbender provee
 
-* aplicaciones de administración
+* aplicaciones de administraciÃ³n
 * aplicaciones de mapas
 * aplicaciones de contenidos
 
-Las aplicaciones son listadas en :guilabel:`categories`. Luego usted puede definir sus propias categorías y agregar sus aplicaciones a las categorías que usted desee.
+Las aplicaciones son listadas en :guilabel:`categories`. Luego usted puede definir sus propias categorÃ­as y agregar sus aplicaciones a las categorÃ­as que usted desee.
 
 
-Aplicaciones de Administración
-==============================
+Aplicaciones de AdministraciÃ³n
+================================
 
 :guilabel:`Administration applications` le permite por ejemplo, cargar servicios, crear usuarios, crear nuevas aplicaciones. 
 
-Cada :guilabel:`administration application` provee diferentes funcionalidades. Después usted puede configurar su propia :guilabel:`administration application` con las funcionalidades que sean necesarias.
+Cada :guilabel:`administration application` provee diferentes funcionalidades. DespuÃ©s usted puede configurar su propia :guilabel:`administration application` con las funcionalidades que sean necesarias.
 
-Luego de la instalación de Mapbender, el usuario :guilabel:`root` tiene acceso a:
+Luego de la instalaciÃ³n de Mapbender, el usuario :guilabel:`root` tiene acceso a:
 
 * ADMINISTRATION, ADMINISTRATION_DE - WMS, WFS, application, user/group, handling (nuevo para la version 2.7)
 * admin2_en - WMS, application, user/group handling
-* admin_en_services - se centra en el manejo de servicios WFS y Metadatos y en la configuración de OWS-Proxy.
-* admin1 - plantilla que contiene todos los elementos de administración
+* admin_en_services - se centra en el manejo de servicios WFS y Metadatos y en la configuraciÃ³n de OWS-Proxy.
+* admin1 - plantilla que contiene todos los elementos de administraciÃ³n
 * admin_wms_metadata, admin_wfs_metadata, admin_wmc_metadata - metadata handling 
 
-.. tip:: Mapbender cuenta con interfaz de administración en inglés y alemán. Actualmente se está traduciendo al español. Los lenguajes de las interfaces de administración nos lo indica el sufijo "en" para inglés y "de" para alemán.
+.. tip:: Mapbender cuenta con interfaz de administraciÃ³n en inglÃ©s y alemÃ¡n. Actualmente se estÃ¡ traduciendo al espaÃ±ol. Los lenguajes de las interfaces de administraciÃ³n nos lo indica el sufijo "en" para inglÃ©s y "de" para alemÃ¡n.
 
-La siguiente imagen muestra la interfaz admin2_en. En el lado izquierdo se puede ver el menú con las opciones que esta aplicación ofrece.
+La siguiente imagen muestra la interfaz admin2_en. En el lado izquierdo se puede ver el menÃº con las opciones que esta aplicaciÃ³n ofrece.
 
 .. image:: ../../images/screenshots/800x600/mapbender_admin2_en.png
    :scale: 80
 
-.. tip:: Para ir "atrás" o "volver" a la vista principal de aplicaciones utilice el botón |HOME| ir a casa.
+.. tip:: Para ir "atrÃ¡s" o "volver" a la vista principal de aplicaciones utilice el botÃ³n |HOME| ir a casa.
 
 .. |HOME| image:: ../../images/screenshots/800x600/mapbender_home.png
    :scale: 100
@@ -107,9 +107,9 @@ La siguiente imagen muestra la interfaz admin2_en. En el lado izquierdo se puede
 Aplicaciones de Mapas
 =====================
 
-Las aplicaciones de mapas contienen servicios OGC de tipo WMS, uno o más mapas, botones, un explorador de geodatos, un elemento de leyendas, tu propio logotipo y más. 
+Las aplicaciones de mapas contienen servicios OGC de tipo WMS, uno o mÃ¡s mapas, botones, un explorador de geodatos, un elemento de leyendas, tu propio logotipo y mÃ¡s. 
 
-#. Seleccione una aplicación de mapas :guilabel:`by click` desde la :guilabel:`application overview`
+#. Seleccione una aplicaciÃ³n de mapas :guilabel:`by click` desde la :guilabel:`application overview`
 
 #. Conozca Mapbender y las funcionalidades que estas aplicaciones ofrecen.
    
@@ -118,71 +118,71 @@ Las aplicaciones de mapas contienen servicios OGC de tipo WMS, uno o más mapas, 
    .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
 
-.. tip:: Si su navegador *web* soporta pestañas, usted puede abrir las aplicaciones en pestañas y fácilmente desplazarse entre ellas.
+.. tip:: Si su navegador *web* soporta pestaÃ±as, usted puede abrir las aplicaciones en pestaÃ±as y fÃ¡cilmente desplazarse entre ellas.
 
 Aplicaciones que contienen WMS
 ==============================
 
-Usted puede crear una aplicación de contenidos que contenga su servicio OGC WMS. Tener el servicio WMS contenido o almacenado en una aplicación Mapbender no implica que sea desplegado de forma automática. Con el concepto de "contenedores" usted puede crear un sofisticado repositorio de servicios *web* de mapas.
+Usted puede crear una aplicaciÃ³n de contenidos que contenga su servicio OGC WMS. Tener el servicio WMS contenido o almacenado en una aplicaciÃ³n Mapbender no implica que sea desplegado de forma automÃ¡tica. Con el concepto de "contenedores" usted puede crear un sofisticado repositorio de servicios *web* de mapas.
 
 .. image:: ../../images/screenshots/800x600/mapbender_container.png
    :scale: 60
 
-Crear una aplicación individual
+Crear una aplicaciÃ³n individual
 ===============================
 
-#. Vaya a la aplicación de administración :menuselection:`admin2_en` 
+#. Vaya a la aplicaciÃ³n de administraciÃ³n :menuselection:`admin2_en` 
 
 #. Seleccione :menuselection:`Application Management --> Create new application`
 
-#. Defina un nombre y descripción para su aplicación y seleccione el botón **new** para crear la aplicación (geoportal)
+#. Defina un nombre y descripciÃ³n para su aplicaciÃ³n y seleccione el botÃ³n **new** para crear la aplicaciÃ³n (geoportal)
 
-#. Vaya al enlace :menuselection:`Application Management --> Edit application elements` y seleccione la nueva aplicación
+#. Vaya al enlace :menuselection:`Application Management --> Edit application elements` y seleccione la nueva aplicaciÃ³n
 
-#. En la casilla de selección en la parte superior seleccione una aplicación que le guste para usar como plantilla y haga clic en el botón  **add all elements**. Este proceso tomará todos los elementos desde la aplicación que usted seleccionó y los cargará en SU aplicación nueva.
+#. En la casilla de selecciÃ³n en la parte superior seleccione una aplicaciÃ³n que le guste para usar como plantilla y haga clic en el botÃ³n  **add all elements**. Este proceso tomarÃ¡ todos los elementos desde la aplicaciÃ³n que usted seleccionÃ³ y los cargarÃ¡ en SU aplicaciÃ³n nueva.
 
-#. También podría seleccionar un solo elemento desde otra aplicación y cargarlo en la suya nueva. Seleccione el elemento de forma individual activando el óvalo del elemento y haciendo clic en botón **save** para salvar este elemento nuevo en su aplicación.
+#. TambiÃ©n podrÃ­a seleccionar un solo elemento desde otra aplicaciÃ³n y cargarlo en la suya nueva. Seleccione el elemento de forma individual activando el Ã³valo del elemento y haciendo clic en botÃ³n **save** para salvar este elemento nuevo en su aplicaciÃ³n.
 
-#. Su aplicación está configurada. Ahora necesita un WMS que se muestre en su aplicación. Esto se describe en la sección de Gestión de WMS: **WMS Management**.
+#. Su aplicaciÃ³n estÃ¡ configurada. Ahora necesita un WMS que se muestre en su aplicaciÃ³n. Esto se describe en la secciÃ³n de GestiÃ³n de WMS: **WMS Management**.
 
 
-Copiar o renombrar una aplicación
+Copiar o renombrar una aplicaciÃ³n
 =================================
 
-También puede crear una nueva aplicación mediante la copia de una aplicación existente. Para ello, vaya a :menuselection:`Application Management --> Rename/copy application`, seleccione la aplicación que desea copiar y defina un nombre para la nueva aplicación. Esta funcionalidad no sOlo copia la aplicación, también copia los servicios de la aplicación original y los usuarios/grupos (opcional). Esto significa que la nueva aplicación ya tiene servicios de mapas y que los respectivos usuarios/grupos tienen acceso a la nueva aplicación producida a partir de la copia de una existente.
+TambiÃ©n puede crear una nueva aplicaciÃ³n mediante la copia de una aplicaciÃ³n existente. Para ello, vaya a :menuselection:`Application Management --> Rename/copy application`, seleccione la aplicaciÃ³n que desea copiar y defina un nombre para la nueva aplicaciÃ³n. Esta funcionalidad no sOlo copia la aplicaciÃ³n, tambiÃ©n copia los servicios de la aplicaciÃ³n original y los usuarios/grupos (opcional). Esto significa que la nueva aplicaciÃ³n ya tiene servicios de mapas y que los respectivos usuarios/grupos tienen acceso a la nueva aplicaciÃ³n producida a partir de la copia de una existente.
 
-Eliminar una aplicación
+Eliminar una aplicaciÃ³n
 =======================
 
-Puede eliminar una aplicación con :menuselection:`Application Management --> Delete application`. Sólo la aplicación es eliminada, no los servicios que formaban parte de ella (p.e WMS/WFS). No está permitido eliminar aplicaciones que también pertenecen a otros usuarios.
+Puede eliminar una aplicaciÃ³n con :menuselection:`Application Management --> Delete application`. SÃ³lo la aplicaciÃ³n es eliminada, no los servicios que formaban parte de ella (p.e WMS/WFS). No estÃ¡ permitido eliminar aplicaciones que tambiÃ©n pertenecen a otros usuarios.
 
-Exportar una aplicación
+Exportar una aplicaciÃ³n
 =======================
 
-Puede exportar una aplicación usando un *script* SQL con :menuselection:`Application Management --> Export application (SQL)`. El *script* SQL contiene todas las definiciones de los elementos de la aplicación y se pueden importar en otra instalación de Mapbender (en otro servidor).
+Puede exportar una aplicaciÃ³n usando un *script* SQL con :menuselection:`Application Management --> Export application (SQL)`. El *script* SQL contiene todas las definiciones de los elementos de la aplicaciÃ³n y se pueden importar en otra instalaciÃ³n de Mapbender (en otro servidor).
 
-.. tip:: La exportación de una aplicación de geoportal en Mapbender con SQL no conlleva la exportación de la información de los servicios ni la información sobre los usuarios y grupos que contiene la aplicación de origen.
+.. tip:: La exportaciÃ³n de una aplicaciÃ³n de geoportal en Mapbender con SQL no conlleva la exportaciÃ³n de la informaciÃ³n de los servicios ni la informaciÃ³n sobre los usuarios y grupos que contiene la aplicaciÃ³n de origen.
 
 
 **************
-Gestión de WMS 
+GestiÃ³n de WMS 
 **************
 
 Cargando un Web Map Service
 ============================
 
-Usted puede cargar servicios OGC Web Map Services (WMS) a su aplicación.
+Usted puede cargar servicios OGC Web Map Services (WMS) a su aplicaciÃ³n.
 
-Un WMS devuelve un archivo XML cuando se solicita el documento getCapabilities. Esta información es analizada por Mapbender y Mapbender obtiene toda la información necesaria sobre el servicio de este archivo XML
+Un WMS devuelve un archivo XML cuando se solicita el documento getCapabilities. Esta informaciÃ³n es analizada por Mapbender y Mapbender obtiene toda la informaciÃ³n necesaria sobre el servicio de este archivo XML
 
-.. tip:: Usted podría inicialmente verificar el documento de capacidades o Capabilities del servicio WMS en su navegador *web* antes de tratar de cargarlo con Mapbender
+.. tip:: Usted podrÃ­a inicialmente verificar el documento de capacidades o Capabilities del servicio WMS en su navegador *web* antes de tratar de cargarlo con Mapbender
 
 
-#. Vaya a :guilabel:`admin2_en` y seleccione :menuselection:`WMS Management --> Load WMS`. Seleccione la aplicación la cual contendrá el WMS. Escriba el enlace a la dirección web del WMS getCapabilities en el campo de texto y seleccione cargar **Load**.
+#. Vaya a :guilabel:`admin2_en` y seleccione :menuselection:`WMS Management --> Load WMS`. Seleccione la aplicaciÃ³n la cual contendrÃ¡ el WMS. Escriba el enlace a la direcciÃ³n web del WMS getCapabilities en el campo de texto y seleccione cargar **Load**.
 
-#. Aquí tiene algunos ejemplos de WMS los cuales puede cargar en su aplicación:
+#. AquÃ­ tiene algunos ejemplos de WMS los cuales puede cargar en su aplicaciÃ³n:
 
-   * Catastro de España: http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
+   * Catastro de EspaÃ±a: http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
 
    * Geoportal Barcelona (Geoportalbcn - el enlace hace referencia a un repositorio de servicios): http://www.bcn.cat/geoportal/es/geoserveis.html
 
@@ -197,68 +197,68 @@ Un WMS devuelve un archivo XML cuando se solicita el documento getCapabilities. 
 .. image::../../images/screenshots/800x600/mapbender_admin2_en.png
   :scale: 80
 
-Usted puede cargar más de un WMS en una aplicación o geoportal. Seleccione *WMS application settings* para cambiar el orden de carga de los WMS o eliminar un WMS de su aplicación. 
+Usted puede cargar mÃ¡s de un WMS en una aplicaciÃ³n o geoportal. Seleccione *WMS application settings* para cambiar el orden de carga de los WMS o eliminar un WMS de su aplicaciÃ³n. 
 
-El WMS con el índice 0 define el valor por defecto del sistema de referencia y los valores límite del extendido del mapa.
+El WMS con el Ã­ndice 0 define el valor por defecto del sistema de referencia y los valores lÃ­mite del extendido del mapa.
 
-.. tip:: Cree una aplicación contenedora de servicios y cargue todos los WMS una sola vez a esta aplicación contenedora. Usted puede transferir el WMS desde esta aplicación para otras aplicaciones. Al actualizar un servicio WMS los posibles cambios aparecerán en todas las aplicaciones que contienen ese servicio WMS. Usted puede copiar fácilmente un WMS de una a otra aplicación con la entrada del menú * Link WMS de la aplicación *
+.. tip:: Cree una aplicaciÃ³n contenedora de servicios y cargue todos los WMS una sola vez a esta aplicaciÃ³n contenedora. Usted puede transferir el WMS desde esta aplicaciÃ³n para otras aplicaciones. Al actualizar un servicio WMS los posibles cambios aparecerÃ¡n en todas las aplicaciones que contienen ese servicio WMS. Usted puede copiar fÃ¡cilmente un WMS de una a otra aplicaciÃ³n con la entrada del menÃº * Link WMS de la aplicaciÃ³n *
 
 Configurar un WMS
 =================
-Después de cargar un servicio WMS usted puede configurarlo para su aplicación específica. Tal vez usted no desea servir todas las capas o desea cambiar el orden o títulos de la capa o desactivar la función de "información" o cambiar las escalas de visualización para una capa.
+DespuÃ©s de cargar un servicio WMS usted puede configurarlo para su aplicaciÃ³n especÃ­fica. Tal vez usted no desea servir todas las capas o desea cambiar el orden o tÃ­tulos de la capa o desactivar la funciÃ³n de "informaciÃ³n" o cambiar las escalas de visualizaciÃ³n para una capa.
 
 .. image:: ../../images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
-* on/off - activar/desactivar una capa para esta aplicación o geoportal
-* sel - hacer elegible en el explorador de datos geográficos
-* sel_default - la capa es activada por defecto cuando la aplicación inicia
-* info/info default - la capa provee respuesta a solicitudes de información de los elementos o fenómenos, *info default* activa por defecto esta funcionalidad para una capa
-* minscale/maxscale - define el rango de escalas dentro de los cuales la capa será desplegada; valor cero (0) significa que tiene limitaciones
-* style - si un servicio WMS provee mas de un estilo usted puede seleccionar uno de los diferentes estilos proveídos como "estilo por defecto"
-* prio - define el orden en el cual las capas serán dibujadas o cargadas
-* setWFS - conecta una capa de un servicio WMS a la configuración de tipos de fenómenos de la misma capa en un servicio WFS (usted podrá aprender mas sobre esta funcionalidad luego)
+* on/off - activar/desactivar una capa para esta aplicaciÃ³n o geoportal
+* sel - hacer elegible en el explorador de datos geogrÃ¡ficos
+* sel_default - la capa es activada por defecto cuando la aplicaciÃ³n inicia
+* info/info default - la capa provee respuesta a solicitudes de informaciÃ³n de los elementos o fenÃ³menos, *info default* activa por defecto esta funcionalidad para una capa
+* minscale/maxscale - define el rango de escalas dentro de los cuales la capa serÃ¡ desplegada; valor cero (0) significa que tiene limitaciones
+* style - si un servicio WMS provee mas de un estilo usted puede seleccionar uno de los diferentes estilos proveÃ­dos como "estilo por defecto"
+* prio - define el orden en el cual las capas serÃ¡n dibujadas o cargadas
+* setWFS - conecta una capa de un servicio WMS a la configuraciÃ³n de tipos de fenÃ³menos de la misma capa en un servicio WFS (usted podrÃ¡ aprender mas sobre esta funcionalidad luego)
 
 
 ***********************
-Configure su aplicación
+Configure su aplicaciÃ³n
 ***********************
 
-Ahora usted debería tener una idea de lo fácil que es cambiar una aplicación o personalizar un geoportal en Mapbender sin cambios en el código fuente.
+Ahora usted deberÃ­a tener una idea de lo fÃ¡cil que es cambiar una aplicaciÃ³n o personalizar un geoportal en Mapbender sin cambios en el cÃ³digo fuente.
 
-Cuando se selecciona un elemento, por ejemplo **mapframe1** haciendo clic en el óvalo, puede ver que el elemento tiene una gran cantidad de atributos. Estos atributos son atributos HTML. Al definir un elemento en Mapbender usted define un elemento HTML. Al iniciarse la aplicación o geoportal Mapbender creará una página HTML con todos los elementos definidos previamente.
+Cuando se selecciona un elemento, por ejemplo **mapframe1** haciendo clic en el Ã³valo, puede ver que el elemento tiene una gran cantidad de atributos. Estos atributos son atributos HTML. Al definir un elemento en Mapbender usted define un elemento HTML. Al iniciarse la aplicaciÃ³n o geoportal Mapbender crearÃ¡ una pÃ¡gina HTML con todos los elementos definidos previamente.
 
-	* id - nombre único para el elemento
+	* id - nombre Ãºnico para el elemento
 	* on/off - activar/desactivar un elemento
-	* title - nombre el cual será desplegado como pestaña o referencia
+	* title - nombre el cual serÃ¡ desplegado como pestaÃ±a o referencia
 	* HTML-TAG/CLOSE-TAG - tipo de elemento HTML a crear, por ejemplo div, img
-	* top, left - define la posición del elemento (para diseños estáticos)
-	* width/height - define el tamaño del elemento
+	* top, left - define la posiciÃ³n del elemento (para diseÃ±os estÃ¡ticos)
+	* width/height - define el tamaÃ±o del elemento
 
-Algunos elementos tienen variables las cuales le permiten al usuario configurar los parámetros de ese elemento. Las variables de los elementos pueden ser de tipo JavaScript, PHP, referencias a archivos CSS o definiciones de texto CSS.
+Algunos elementos tienen variables las cuales le permiten al usuario configurar los parÃ¡metros de ese elemento. Las variables de los elementos pueden ser de tipo JavaScript, PHP, referencias a archivos CSS o definiciones de texto CSS.
 
 Ejemplos para variables en elementos:
 
 * el elemento *copyright* tiene una variable de elemento para establecer el texto de derechos de autor
-* el elemento de información general (mapa general) tiene un elemento variable para definir los WMS se utiliza para el mapa general 
-* el elemento treeGDE (explorador de datos geográficos) tiene variables para definir el estilo del explorador de datos geográficos
+* el elemento de informaciÃ³n general (mapa general) tiene un elemento variable para definir los WMS se utiliza para el mapa general 
+* el elemento treeGDE (explorador de datos geogrÃ¡ficos) tiene variables para definir el estilo del explorador de datos geogrÃ¡ficos
 
-Inténtelo usted mismo
+IntÃ©ntelo usted mismo
 =======================
 
-* cambie el tamaño del elemento mapframe (elemento mapframe1)
+* cambie el tamaÃ±o del elemento mapframe (elemento mapframe1)
 * cambie la imagen del logotipo - seleccione el logotipo de foss4g - como imagen (elemento logo)
 * defina el color de fondo (elemento body elemento-variable css_class_bg)
-* mueva sus botones (cambie los valores de izquierda y superior (left and top) de sus elementos a otra posición en píxeles)
+* mueva sus botones (cambie los valores de izquierda y superior (left and top) de sus elementos a otra posiciÃ³n en pÃ­xeles)
 * cambie el texto del *copyright*
 
 ****************************
-Gestión de Usuarios y Grupos
+GestiÃ³n de Usuarios y Grupos
 ****************************
 
-Acceder a Mapbender siempre requiere autenticación. Por lo tanto se requiere de un usuario que tenga permisos para acceder a una o un conjunto de aplicaciones y los servicios (WMS, WFS), que se asignan a estas aplicaciones.
+Acceder a Mapbender siempre requiere autenticaciÃ³n. Por lo tanto se requiere de un usuario que tenga permisos para acceder a una o un conjunto de aplicaciones y los servicios (WMS, WFS), que se asignan a estas aplicaciones.
 
-No hay diferencias inherente entre los roles como :guilabel:`guest`, :guilabel:`operator` o :guilabel:`administrator`. El :guilabel:`role` de un usuario depende de la funcionalidad y los servicios a los que el usuario tiene acceso a través de sus aplicaciones.
+No hay diferencias inherente entre los roles como :guilabel:`guest`, :guilabel:`operator` o :guilabel:`administrator`. El :guilabel:`role` de un usuario depende de la funcionalidad y los servicios a los que el usuario tiene acceso a travÃ©s de sus aplicaciones.
 
 
 Crear un usuario
@@ -266,7 +266,7 @@ Crear un usuario
 
 #. Para crear un usuario vaya a :guilabel:`admin2_en` y seleccione :menuselection:`User Management --> Create and edit user`
 
-#. Seleccione un nombre y una contraseña (name/password) para su usuario. 
+#. Seleccione un nombre y una contraseÃ±a (name/password) para su usuario. 
 
 
 .. image:: ../../images/screenshots/800x600/mapbender_create_user.png
@@ -276,7 +276,7 @@ Crear un usuario
 Crear un grupo
 ==============
 
-#. Para crear un grupo vamos a :menuselection:`User Management --> Create and edit group`. Defina un nombre y una descripción para su grupo.
+#. Para crear un grupo vamos a :menuselection:`User Management --> Create and edit group`. Defina un nombre y una descripciÃ³n para su grupo.
 
 
 Asignar aplicaciones a usuarios/grupos
@@ -284,48 +284,48 @@ Asignar aplicaciones a usuarios/grupos
 
 #. Asigne un usuario a un grupo mediante :menuselection:`User Management --> Add one user to several groups` o con el enlace :menuselection:`User Management --> Add several users to one group`
 
-#. Asigne una aplicación a un usuario mediante :menuselection:`User Management --> Allow one user to access several applications`
+#. Asigne una aplicaciÃ³n a un usuario mediante :menuselection:`User Management --> Allow one user to access several applications`
 
-#. Asigne una aplicación a un grupo con :menuselection:`User Management --> Allow one group to access several applications`
+#. Asigne una aplicaciÃ³n a un grupo con :menuselection:`User Management --> Allow one group to access several applications`
 
-.. tip:: Si desea conceder a un usuario acceso de escritura a una aplicación tiene que utilizar :menuselection:`User Management --> Assign to edit an application to a user`.
+.. tip:: Si desea conceder a un usuario acceso de escritura a una aplicaciÃ³n tiene que utilizar :menuselection:`User Management --> Assign to edit an application to a user`.
 
-#. Cierre la sesión de Mapbender con el botón |LOGOUT|
+#. Cierre la sesiÃ³n de Mapbender con el botÃ³n |LOGOUT|
 
-#. Iniciar sesión como el nuevo usuario
+#. Iniciar sesiÃ³n como el nuevo usuario
 
-#. ¿Qué sucede cuando el usuario tiene acceso a una o más de una aplicación?
+#. Â¿QuÃ© sucede cuando el usuario tiene acceso a una o mÃ¡s de una aplicaciÃ³n?
 
 .. |LOGOUT| image:: ../../images/screenshots/800x600/mapbender_logout.png
    :scale: 100
 
 ************************
-Gestión de Servicios WFS
+GestiÃ³n de Servicios WFS
 ************************
 
 Mapbender es cliente de servicios OGC Web Feature Service WFS 1.0.0 y 1.1.0. Los servicios OGC WFS pueden ser usados en las aplicaciones y/o geoportal Mapbender para diferentes funcionalidades:
 
-* búsqueda atributiva
-* búsqueda espacial
-* digitalización o vectorización
-* listar información
-* generación de información sobre herramientas
+* bÃºsqueda atributiva
+* bÃºsqueda espacial
+* digitalizaciÃ³n o vectorizaciÃ³n
+* listar informaciÃ³n
+* generaciÃ³n de informaciÃ³n sobre herramientas
 * descarga de data
 
-Para usar un servicio WFS usted debe cargar el servicio WFS en Mapbender y generar configuraciones de tipo de fenómenos.
+Para usar un servicio WFS usted debe cargar el servicio WFS en Mapbender y generar configuraciones de tipo de fenÃ³menos.
 
-Luego usted tiene que permitir el acceso de su nueva configuración de tipo de fenómenos (WFS) a una aplicación antes de poder usarlo.
+Luego usted tiene que permitir el acceso de su nueva configuraciÃ³n de tipo de fenÃ³menos (WFS) a una aplicaciÃ³n antes de poder usarlo.
 
-Si desea crear una aplicación con la opción de digitalización o vectorización de WFS, necesitará de un servicio WFS que soporte transacciones (WFS-T). Por ejemplo, puede utilizar software de servidores de mapas tales como GeoServer o Deegree para establecer un WFS-T.
+Si desea crear una aplicaciÃ³n con la opciÃ³n de digitalizaciÃ³n o vectorizaciÃ³n de WFS, necesitarÃ¡ de un servicio WFS que soporte transacciones (WFS-T). Por ejemplo, puede utilizar software de servidores de mapas tales como GeoServer o Deegree para establecer un WFS-T.
 
 Cargando un Web Feature Services
 ================================
 
-El módulo para la configuración de servicios WFS está integrado en la aplicación de administración **admin_en_services**.
+El mÃ³dulo para la configuraciÃ³n de servicios WFS estÃ¡ integrado en la aplicaciÃ³n de administraciÃ³n **admin_en_services**.
 
-#. Vaya a *admin_en_services* y seleccione *WFS Management --> Load WFS*. Seleccione una aplicación de la lista de aplicaciones. Escriba el enlace URL para obtener el documento WFS getCapabilities en el casilla de texto y seleccione con click **Load**.
+#. Vaya a *admin_en_services* y seleccione *WFS Management --> Load WFS*. Seleccione una aplicaciÃ³n de la lista de aplicaciones. Escriba el enlace URL para obtener el documento WFS getCapabilities en el casilla de texto y seleccione con click **Load**.
 
-.. tip:: Usted podría inicialmente verificar el documento de capacidades o Capabilities del servicio WFS en su navegador *web* antes de tratar de cargarlo con Mapbender.
+.. tip:: Usted podrÃ­a inicialmente verificar el documento de capacidades o Capabilities del servicio WFS en su navegador *web* antes de tratar de cargarlo con Mapbender.
 
 Demo WFS
 
@@ -335,75 +335,75 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 .. image:: ../../images/screenshots/800x600/mapbender_loadWFS.png
      :scale: 80 
 
-Crear una configuración de tipo de fenómenos
+Crear una configuraciÃ³n de tipo de fenÃ³menos
 ============================================
 
-El siguiente paso es establecer una configuración para un tipo de fenómenos. Después de la configuración y la autorización de acceso a una aplicación, la configuración se puede utilizar en sus aplicaciones.
+El siguiente paso es establecer una configuraciÃ³n para un tipo de fenÃ³menos. DespuÃ©s de la configuraciÃ³n y la autorizaciÃ³n de acceso a una aplicaciÃ³n, la configuraciÃ³n se puede utilizar en sus aplicaciones.
 
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType.png
      :scale: 80 
 
-**Configuración**
+**ConfiguraciÃ³n**
 
-#. primero usted tiene que seleccionar un servicios WFS desde el recuadro de selcción *Select WFS*. Todos los tipos de fenómenos de este WFS serán listados
-#. seleccione el tipo de fenómeno que usted quiere configurar
-#. después de la selección del tipo de fenómeno un par de campos aparecerán (campos de configuración, campos de atributos)
-#. defina un resumen descriptivo y una etiqueta para su búsqueda
-#. defina el texto que aparecerá en el botón de búsqueda (p.e. ok o buscar)
+#. primero usted tiene que seleccionar un servicios WFS desde el recuadro de selcciÃ³n *Select WFS*. Todos los tipos de fenÃ³menos de este WFS serÃ¡n listados
+#. seleccione el tipo de fenÃ³meno que usted quiere configurar
+#. despuÃ©s de la selecciÃ³n del tipo de fenÃ³meno un par de campos aparecerÃ¡n (campos de configuraciÃ³n, campos de atributos)
+#. defina un resumen descriptivo y una etiqueta para su bÃºsqueda
+#. defina el texto que aparecerÃ¡ en el botÃ³n de bÃºsqueda (p.e. ok o buscar)
 #. en las casillas de estilo y de estilo-de-resultados usted puede definirlo con uso de texto-ccs
-#. defina una área (buffer) la cual será usada cuando se haga un acercamiento sobre los objetos que resulten de la búsqueda
+#. defina una Ã¡rea (buffer) la cual serÃ¡ usada cuando se haga un acercamiento sobre los objetos que resulten de la bÃºsqueda
 #. seleccione el campo o columna de la geometria (espacial)
-#. search / pos - define las columnas a ofrecer para realizar la búsqueda y el orden (pos de position) en el cual serán listados
-#. minimum_input (**Search**) - define la entrada mínima de datos para un campo
-#. label - define una etiqueta para la columna de búsqueda
-#. show - define las columnas las cuales usted desea mostrar en la lista de resultados y define la posición de éstas
-#. show_detail - define las columnas las cuales serán desplegarán información detallada en una ventana que provee información por cada objeto en individual
-#. mandatory (**digitizing**) - la columna o campo ha de ser llenado y nos puede dejarse vacío
+#. search / pos - define las columnas a ofrecer para realizar la bÃºsqueda y el orden (pos de position) en el cual serÃ¡n listados
+#. minimum_input (**Search**) - define la entrada mÃ­nima de datos para un campo
+#. label - define una etiqueta para la columna de bÃºsqueda
+#. show - define las columnas las cuales usted desea mostrar en la lista de resultados y define la posiciÃ³n de Ã©stas
+#. show_detail - define las columnas las cuales serÃ¡n desplegarÃ¡n informaciÃ³n detallada en una ventana que provee informaciÃ³n por cada objeto en individual
+#. mandatory (**digitizing**) - la columna o campo ha de ser llenado y nos puede dejarse vacÃ­o
 #. edit (**digitizing**) - define cuales columnas o campos usted, desde ofrecer para ser digitalizados o vectorizados
-#. html - ofrece cuadros de selección (selectbox), búsqueda por fechas, casillas de verificación (checkbox), áreas de texto o de carga de archivos por medio de una campo de captura sencillo
-#. auth - aquí usted puede definir autorizaciones para que los usuarios tengan acceso dependiendo de los objetos y fenómenos
-#. operator - (**Search**) - define cual operador será usado para la búsqueda
+#. html - ofrece cuadros de selecciÃ³n (selectbox), bÃºsqueda por fechas, casillas de verificaciÃ³n (checkbox), Ã¡reas de texto o de carga de archivos por medio de una campo de captura sencillo
+#. auth - aquÃ­ usted puede definir autorizaciones para que los usuarios tengan acceso dependiendo de los objetos y fenÃ³menos
+#. operator - (**Search**) - define cual operador serÃ¡ usado para la bÃºsqueda
 #. helptext - ++define un texto de ayuda para cada campo.
-#. category - usted puede definir categorías. Los atributos serán asignados a esta categoría y serán desplegados en forma de pestaña con el nombre de la categoría.
+#. category - usted puede definir categorÃ­as. Los atributos serÃ¡n asignados a esta categorÃ­a y serÃ¡n desplegados en forma de pestaÃ±a con el nombre de la categorÃ­a.
 #. **save** guarda sus preferencias
-#. su configuración tendrá un indentificador de configuración o "configuration id"
+#. su configuraciÃ³n tendrÃ¡ un indentificador de configuraciÃ³n o "configuration id"
 
 
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
      :scale: 80 
 
-Asignar una configuración de tipos de fenómenos a una aplicación
+Asignar una configuraciÃ³n de tipos de fenÃ³menos a una aplicaciÃ³n
 ================================================================
-Su nueva configuración ha de ser asignada a una o mas aplicaciones. Esto se hace en *WFS configuration -> Assign WFS conf to application*.
+Su nueva configuraciÃ³n ha de ser asignada a una o mas aplicaciones. Esto se hace en *WFS configuration -> Assign WFS conf to application*.
 
 #. Seleccione su servicio WFS
-#. Seleccione una aplicación
-#. Mueva su configuración para el *GUI configuration list* ubicado a la derecha
+#. Seleccione una aplicaciÃ³n
+#. Mueva su configuraciÃ³n para el *GUI configuration list* ubicado a la derecha
 
 .. image:: ../../images/screenshots/800x600/mapbender_set_featureType_access.png
      :scale: 80 
 
 
-Establecer una búsqueda en un WFS
+Establecer una bÃºsqueda en un WFS
 =================================
-Para hacer compatible una configuración de tipos de fenómenos en una aplicación, vaya a *admin_en_services -> Edit application elements* seleccione su aplicación y vaya hasta el elemento *gazetteerWFS*. Seleccione el elemento para editarlo haciendo clic sobre el texto o nombre del elemento, y verá en una nueva ventana que el elemento *gazetteerWFS* tiene una variable *wfsConfIdString*. Aquí usted puede listar los identificadores (ids) de sus servicios WFS (separados por coma). En el orden en que se listen serán desplegados los resultados de las búsquedas en la aplicación.
+Para hacer compatible una configuraciÃ³n de tipos de fenÃ³menos en una aplicaciÃ³n, vaya a *admin_en_services -> Edit application elements* seleccione su aplicaciÃ³n y vaya hasta el elemento *gazetteerWFS*. Seleccione el elemento para editarlo haciendo clic sobre el texto o nombre del elemento, y verÃ¡ en una nueva ventana que el elemento *gazetteerWFS* tiene una variable *wfsConfIdString*. AquÃ­ usted puede listar los identificadores (ids) de sus servicios WFS (separados por coma). En el orden en que se listen serÃ¡n desplegados los resultados de las bÃºsquedas en la aplicaciÃ³n.
 
 .. image:: ../../images/screenshots/800x600/mapbender_wfsConfIdString.png
      :scale: 80 
 
-Eche un vistazo de cómo la búsqueda podría aparecer en una aplicación. En este ejemplo hay un recuadro de búsqueda de la izquierda, donde puede buscarse un "Usuario Mapbender". Usted puede realizar una búsqueda espacial y definir una región para buscar o puede hacer una consulta alfanumérica. Los resultados de la búsqueda se muestran en una tabla de resultados. Al hacer clic en uno de los elementos listados en un resultado, Mapbender hace un acercamiento a la ubicación y la información detallada del objeto es desplegada.
+Eche un vistazo de cÃ³mo la bÃºsqueda podrÃ­a aparecer en una aplicaciÃ³n. En este ejemplo hay un recuadro de bÃºsqueda de la izquierda, donde puede buscarse un "Usuario Mapbender". Usted puede realizar una bÃºsqueda espacial y definir una regiÃ³n para buscar o puede hacer una consulta alfanumÃ©rica. Los resultados de la bÃºsqueda se muestran en una tabla de resultados. Al hacer clic en uno de los elementos listados en un resultado, Mapbender hace un acercamiento a la ubicaciÃ³n y la informaciÃ³n detallada del objeto es desplegada.
 
 .. image:: ../../images/screenshots/800x600/mapbender_WFS_search.png
      :scale: 100
 	 
-Establecer funcionalidades de digitalización a un WFS
+Establecer funcionalidades de digitalizaciÃ³n a un WFS
 =====================================================
 
-La forma más sencilla de disponer de una aplicación que admita la digitalización o vectorización sobre un servicio WFS es copiar la plantilla gui_digitize. Ahora sólo tiene que conectar una capa del servicio WMS con la configuración tipo de fenómenos. Esto se hace en *WMS application settings*  con el botón *set WFS* en la lista de capas. Pulse el botón y seleccione el identificador de configuración suyo.
+La forma mÃ¡s sencilla de disponer de una aplicaciÃ³n que admita la digitalizaciÃ³n o vectorizaciÃ³n sobre un servicio WFS es copiar la plantilla gui_digitize. Ahora sÃ³lo tiene que conectar una capa del servicio WMS con la configuraciÃ³n tipo de fenÃ³menos. Esto se hace en *WMS application settings*  con el botÃ³n *set WFS* en la lista de capas. Pulse el botÃ³n y seleccione el identificador de configuraciÃ³n suyo.
 
-.. tip:: Asegúrese de que la capa WMS que está conectado con la configuración de tipos de fenómenos del servicio WFS soporta la opción de solicitud de información por elemento. Así es como Mapbender decide si se envía una solicitud getFeature CMA o no
+.. tip:: AsegÃºrese de que la capa WMS que estÃ¡ conectado con la configuraciÃ³n de tipos de fenÃ³menos del servicio WFS soporta la opciÃ³n de solicitud de informaciÃ³n por elemento. AsÃ­ es como Mapbender decide si se envÃ­a una solicitud getFeature CMA o no
 
-Ahora usted puede buscar con la búsqueda espacial que está del lado derecho, la existencia de objetos los cuales son mostrados en un recuadro de resultados. Los objetos pueden ser actualizados (mover objeto, agregar punto, modificar los atributos, cortar una línea (split), continuar una línea, fusionar polígonos (merge)...). También puede crear nuevos objetos.
+Ahora usted puede buscar con la bÃºsqueda espacial que estÃ¡ del lado derecho, la existencia de objetos los cuales son mostrados en un recuadro de resultados. Los objetos pueden ser actualizados (mover objeto, agregar punto, modificar los atributos, cortar una lÃ­nea (split), continuar una lÃ­nea, fusionar polÃ­gonos (merge)...). TambiÃ©n puede crear nuevos objetos.
 
 .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80 
@@ -413,29 +413,29 @@ Cosas por intentar
 
 Estos son algunos cambios adicionales para que los intentes:
 
-#. Intenta cargar algunos WMS en tu aplicación. Trata de configurar tus WMS con :menuselection:`Configure WMS access --> WMS application settings`.
+#. Intenta cargar algunos WMS en tu aplicaciÃ³n. Trata de configurar tus WMS con :menuselection:`Configure WMS access --> WMS application settings`.
 
-#. Intenta crear una aplicación individual - cambia de color de fondo, mueve los botones, cambia el tamaño del mapa (elemento mapframe1). :menuselection:`Application Management --> Edit application elements`.
+#. Intenta crear una aplicaciÃ³n individual - cambia de color de fondo, mueve los botones, cambia el tamaÃ±o del mapa (elemento mapframe1). :menuselection:`Application Management --> Edit application elements`.
 
 
-¿Qué sigue ahora?
+Â¿QuÃ© sigue ahora?
 ===================
 
-Estos son solo los primeros pasos en el camino de utilizar Mapbender. Hay muchísimas más funcionalidades que puedes probar.
+Estos son solo los primeros pasos en el camino de utilizar Mapbender. Hay muchÃ­simas mÃ¡s funcionalidades que puedes probar.
 
 Proyecto Mapbender:
 
   http://www.mapbender.org/
 
-Encontrarás tutoriales en:
+EncontrarÃ¡s tutoriales en:
 
   http://www.mapbender.org/Tutorials
 
-Prueba el tutorial en inglés:
+Prueba el tutorial en inglÃ©s:
 
   http://www.mapbender.org/Mapbender_Tutorial_en
 
-Conoce más de Mapbender en:
+Conoce mÃ¡s de Mapbender en:
 	
 	http://projects.mapbender.osgeo.org
 
