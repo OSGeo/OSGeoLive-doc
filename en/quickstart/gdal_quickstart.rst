@@ -344,7 +344,8 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 	COUNTRY (String) = Algeria
 	COUNTRY (String) = American Samoa
 	COUNTRY (String) = Andorra
-	....
+	etc.
+
 
 You can convert your data to other formats. Get the list of the
 supported formats with --formats.
