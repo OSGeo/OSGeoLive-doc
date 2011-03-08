@@ -17,10 +17,11 @@
 Web Service
 ~~~~~~~~~~~
 
-Der 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ ermöglicht den webbasierten Zugang auf raumbezogene Verarbeitungsalgorithmen, 
-die verfügbar sind in Sextante, ArcGIS Server oder selbst entwickelte Algorithmen.
-Dabei können die Algorithmen einfach sein wie die Unterschiedsbestimmung der Einflüsse verschiedener Jahreszeiten
-bis hin zu komplizierten Klimaänderungsmodellen.
+Der 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ ermöglicht den webbasierten Zugang auf raumbezogene 
+Verarbeitungsalgorithmen, die verfügbar sind in Sextante, ArcGIS Server oder auch eigene definierte Algorithmen.
+Dabei können die Algorithmen einfach sein wie eine Bestimmung der unterschiedlichen Einflüsse der verschiedenen Jahreszeiten
+bis hin zu komplizierten globalen Klimaänderungsmodellen.
+
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
