@@ -15,9 +15,12 @@
 GDAL/OGR Quickstart
 *******************
 
-You will need nothing but a terminal for this quickstart. If you want to visualize the results, you can use one of the Desktop GIS Software applications on OSGeo-Live like QuantumGIS. 
+You will need nothing but a terminal for this quickstart. If you want to
+visualize the results, you can use one of the Desktop GIS Software
+applications on OSGeo-Live like QuantumGIS. 
 
-This Quick Start is devided in two parts GDAL (raster data) and OGR (vector data). We will start with GDAL.
+This Quick Start is devided in two parts GDAL (raster data) and OGR
+(vector data). We will start with GDAL.
 
 This Quick Start describes how to:
 
@@ -37,7 +40,10 @@ OGR
 Get to know GDAL
 ================
 
-You will find the demo data at /usr/local/share/data. We want to have a look at the NaturalEarth data in this quickstart. We want to work with a copy of the data. So the first step is to copy the data to your home directory.
+You will find the demo data at /usr/local/share/data. We want to have a
+look at the NaturalEarth data in this quickstart. We want to work with a
+copy of the data. So the first step is to copy the data to your home
+directory.
 
 :: 
   
@@ -95,7 +101,8 @@ Note:
 Simple Format Translation
 ===========================
 
-First get to know your drivers. The --formats commandline switch of gdal_translate can be used to see a list of available format drivers.  
+First get to know your drivers. The --formats commandline switch of
+gdal_translate can be used to see a list of available format drivers.  
 
 Each format reports if it is 
   * read only (ro), 
@@ -106,7 +113,8 @@ Each format reports if it is
  
  gdal_translate --formats
 
-The --format commandline switch can be used to query details about a particular driver, including creation options, and permitted data types.
+The --format commandline switch can be used to query details about a
+particular driver, including creation options, and permitted data types.
 
 ::
 
@@ -116,13 +124,15 @@ The --format commandline switch can be used to query details about a particular 
 Translation
 ===========
 
-Translations are accomplished with the gdal_translate command. The default output format is GeoTIFF:
+Translations are accomplished with the gdal_translate command. The
+default output format is GeoTIFF:
 
 ::
 
  gdal_translate HYP_50M_SR_W.tif HYP_50M_SR_W.png 
 
-The -of flag is used to select an output format and the -co flag is used to specify a creation option:
+The -of flag is used to select an output format and the -co flag is used
+to specify a creation option:
 
 ::
 
@@ -148,9 +158,13 @@ The -outsize switch can be used to set the size of the output file.
 
 Use gdalinfo to verify the size.
 
-The -scale switch can be used to rescale data. Explicit control of the input and output ranges is also available. The gdalinfo -mm switch can be used to see pixel min/max values. 
+The -scale switch can be used to rescale data. Explicit control of the
+input and output ranges is also available. The gdalinfo -mm switch can
+be used to see pixel min/max values. 
 
-Let's split our image into two with -srcwin which makes a copy based on pixel/line location (xoff yoff xsize ysize). You also could use -projwin and define the corners in georeferenced coordinates (ulx uly lrx lry).
+Let's split our image into two with -srcwin which makes a copy based on
+pixel/line location (xoff yoff xsize ysize). You also could use -projwin
+and define the corners in georeferenced coordinates (ulx uly lrx lry).
 
 ::
 
@@ -161,13 +175,17 @@ Let's split our image into two with -srcwin which makes a copy based on pixel/li
 
 Raster tileindex with gdaltindex
 ========================================================
-You can build a shapefile as a raster tileindex. For every image a polygon is generated with the bounds of the extent of the polygon and the path to the file.
+
+You can build a shapefile as a raster tileindex. For every image a
+polygon is generated with the bounds of the extent of the polygon and
+the path to the file.
 
 ::
 
  gdaltindex index_natural_earth.shp *st.tif
 
-Have a look at your output shapefile with Quantum GIS and ogrinfo (you will learn more about ogrinfo later in this tutorial)
+Have a look at your output shapefile with Quantum GIS and ogrinfo (you
+will learn more about ogrinfo later in this tutorial)
 
   .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
@@ -196,8 +214,10 @@ Have a look at your output shapefile with Quantum GIS and ogrinfo (you will lear
 Reprojecting
 ============
 
-For this process we assume that HYP_50M_SR_W.tif has been properly created with
-bounds. As we saw before with gdainfo no coordinate system  was set. So we assign WGS84 as coordinate system to the image in the first step.
+For this process we assume that HYP_50M_SR_W.tif has been properly
+created with bounds. As we saw before with gdainfo no coordinate system 
+was set. So we assign WGS84 as coordinate system to the image in the
+first step.
 
 ::
 
@@ -235,14 +255,16 @@ resolve this. Read more about this in the RasterTutorial http://trac.osgeo.org/g
 Mosaicing
 =========
 
-gdal_merge.py is a python script that can be used for simple mosaicing tasks. Mosaic the east.tif and west.tif into a single file:
+gdal_merge.py is a python script that can be used for simple mosaicing
+tasks. Mosaic the east.tif and west.tif into a single file:
 
 ::
 
    gdal_merge.py  east.tif west.tif -o merged.tif
 
 
-The same task can be accomplished with gdalwarp. gdalwarp has a variety of advantages over gdal_merge, but can be slow to merge many files:
+The same task can be accomplished with gdalwarp. gdalwarp has a variety
+of advantages over gdal_merge, but can be slow to merge many files:
 
 ::
 
@@ -252,6 +274,7 @@ The same task can be accomplished with gdalwarp. gdalwarp has a variety of advan
 
 Get to know OGR
 ===============
+
 :: 
   
   cd /home/usr/gdal_natural_earth/
@@ -323,11 +346,15 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 	COUNTRY (String) = Andorra
 	....
 
-You can convert your data to other formats. Get the list of the supported formats with --formats.
+You can convert your data to other formats. Get the list of the
+supported formats with --formats.
 
 User ogr2ogr to convert data between file formats 
 =================================================
-You can use ogr2ogr to converts simple features data between file formats. You can use --formats to get the list of the supported formats with read/write information. 
+
+You can use ogr2ogr to converts simple features data between file
+formats. You can use --formats to get the list of the supported formats
+with read/write information. 
 
 Convert the countries to GML.
 
@@ -356,7 +383,8 @@ Here are some additional challenges for you to try:
 What Next?
 ==========
 
-This is only the first step on the road to using GDAL and OGR. There is a lot more functionality you can try.
+This is only the first step on the road to using GDAL and OGR. There is
+a lot more functionality you can try.
 
 GDAL Project home
 
