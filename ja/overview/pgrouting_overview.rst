@@ -60,8 +60,8 @@ pgRouting は以下のファンクションを提供します。
 
 **Commercial Support:** http://www.pgrouting.org
 
-Quickstart
-----------
+クイックスタート
+---------------
 
 * `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_
 
