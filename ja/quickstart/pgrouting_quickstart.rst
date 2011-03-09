@@ -16,7 +16,7 @@ pgRouting Quickstart
 
 pgRouting は `PostGIS <postgis_overview.html>`_ / `PostgreSQL <http://www.postgresql.org>`_ 地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
 
-この Quick Start は、コマンドラインでデータベースを開き、サンプルデータに対して基本的な最短経路探索クエリを実行する方法を示しています。
+この「クイックスタート」は、コマンドラインでデータベースを開き、サンプルデータに対して基本的な最短経路探索クエリを実行する方法を示しています。
 
 
 pgRouting を実行する
