@@ -96,13 +96,6 @@ fix_header_links: sphinxbuild
 	  done; \
 	done
 
-redirect_to_en: sphinxbuild
-	# Redirect root index.html to english page
-	cp redirect.html $(BUILDDIR)/html/index.html
-	cp redirect.html $(BUILDDIR)/html/genindex.html
-	# Add an index.html file to subdirectories
-	#ln -sf $(BUILDDIR)/html/$$LANG/index.html $(BUILDDIR)/html/$$LANG/$$PAGE_TYPE/genindex.html ;\
-
 index2: sphinxbuild
 	# Create links from index.html files to:
 	#   quickstart.html,
@@ -177,7 +170,7 @@ test_page: Live_GIS_Disc_Testing.html sphinxbuild
 	
 
 
-html: sphinxbuild fix_header_links redirect_to_en version banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
+html: sphinxbuild fix_header_links version banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
