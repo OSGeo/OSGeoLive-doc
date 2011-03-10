@@ -20,8 +20,8 @@ Zarządzanie kryzysowe
 
 Bazy danych
 ---------
-* :doc:`postgis_overview` - przestrzenna baza danych
-* :doc:`spatialite_overview`- [`Wprowadzenie <../quickstart/spatialite_quickstart.html>`_] - lekka przestrzenna baza danych
+* :doc:`postgis_overview` - [`Wprowadzenie <../quickstart/postgis_quickstart.html>`_] - przestrzenna baza danych
+* :doc:`spatialite_overview` - [`Wprowadzenie <../quickstart/spatialite_quickstart.html>`_] - lekka przestrzenna baza danych
 * :doc:`rasdaman_overview` - [`Wprowadzenie <../quickstart/rasdaman_quickstart.html>`_] - Multi-Dimensional rastrowa baza danych
 * :doc:`pgrouting_overview` - [`Wprowadzenie <../quickstart/pgrouting_quickstart.html>`_] - trasowanie dla PostGIS
 

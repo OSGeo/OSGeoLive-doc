@@ -60,7 +60,7 @@ Szczegóły
 
 **Licencja:** MIT-style license
 
-**Wersja programu:** 2.9.1
+**Wersja programu:** 2.10
 
 **API Interface:** JavaScript
 
