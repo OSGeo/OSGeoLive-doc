@@ -4,7 +4,7 @@
 
 .. _marble-overview:
 
-.. image:: images/project_logos/logo-marble.png
+.. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
   :alt: project logo
   :align: right
@@ -49,7 +49,7 @@ Szczegóły
 
 **Licencja:** GNU Mniejsza Ogólna Powszechna Licencja (LGPL) wersja 2.1
 
-**Wersja programu:** 0.9.2
+**Wersja programu:** 0.9.5
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 
