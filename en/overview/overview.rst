@@ -52,28 +52,30 @@ Navigation and Maps
 
 Spatial Tools
 -------------
-* :doc:`gdal_overview`  - [`QuickStart <../quickstart/gdal_quickstart.html>`_] - GeoSpatial Data Translation Tools
 * :doc:`gmt_overview` - [`QuickStart <../quickstart/gmt_quickstart.html>`_] - Cartographic Rendering
-* :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Cartographic Rendering
+* :doc:`gdal_overview`  - [`QuickStart <../quickstart/gdal_quickstart.html>`_] - GeoSpatial Data Translation Tools
 * :doc:`otb_overview` - [`QuickStart <../quickstart/otb_quickstart.html>`_] - Image Processing
+* :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Cartographic Rendering
 * :doc:`maptiler_overview`  - [`QuickStart <../quickstart/maptiler_quickstart.html>`_] - Create Map Tiles
 * :doc:`R_overview`  - [`QuickStart <../quickstart/R_quickstart.html>`_] - Statistical Programming
 * :doc:`geokettle_overview` - [`QuickStart <../quickstart/geokettle_quickstart.html>`_] - Data Integration
 
 Web Services
 ------------
-* :doc:`deegree_overview` - [`QuickStart <../quickstart/deegree_quickstart.html>`_]
 * :doc:`geoserver_overview` - [`QuickStart <../quickstart/geoserver_quickstart.html>`_]
-* :doc:`mapguide_overview` - [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
 * :doc:`mapserver_overview` - [`QuickStart <../quickstart/mapserver_quickstart.html>`_]
+* :doc:`deegree_overview` - [`QuickStart <../quickstart/deegree_quickstart.html>`_]
+* :doc:`mapguide_overview` - [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
 * :doc:`qgis_mapserver_overview` - [`QuickStart <../quickstart/qgis_mapserver_quickstart.html>`_]
 * :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] - Metadata Catalog and Catalog Services for Web
 * :doc:`52nWPS_overview` - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_] - Web Processing Service
 * :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
-Data
-----
-* :doc:`naturalearth_overview` - Geographic Data Sets
+Windows and Apple Installers
+----------------------------
+ 
+* `Microsoft Windows Installers <../WindowsInstallers/>`_
+* `Apple OSX Installers <../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst
