@@ -1,6 +1,6 @@
 
-Willkommen auf der OSGeo Live GIS DVD
-=====================================
+Willkommen OSGeo-Live
+=====================
 
 `OSGeo-Live <http://live.osgeo.org>`_ ist eine getrennt bootfähige DVD, ein USB-Stick 
 oder eine virtuelle Maschine basierend auf `Xubuntu <http://www.xubuntu.org/>`_, die Ihnen 
@@ -39,5 +39,6 @@ Schnellstart (Quick Starts)
 
 Präsentation
 ------------
-Eine 25-minütige Einführung mit Erläuterungen zu allen OSGeoLive Programmen ist als `Video <http://cameronshorter.blip.tv/file/4078371/>`_ verfügbar sowie als `Präsentationsfolien mit Manuskript <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
+Eine 25-minütige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
 
+Details at http://live.osgeo.org/en/presentation.html.
