@@ -39,6 +39,6 @@ Quick Starts
 
 Presentation
 ------------
-A 30 minute presentation highlighing all OSGeoLive applications is available with slides, script, and recorded video.
+A half hour presentation, highlighing all OSGeo-Live applications, is available as a video, along with source slides and script.
 
-Details at http://live.osgeo.org/en/presentation.html
+Details at http://live.osgeo.org/en/presentation.html.
