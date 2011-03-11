@@ -35,5 +35,8 @@ Szybkie wprowadzenia
 
 Prezentacja
 ------------
-Dwudziestopięciominutowa prezentacja omawiająca wszystkie zawarte na OSGeoLive programy, dostępna jest w postaci `wideo <http://cameronshorter.blip.tv/file/4078371/>`_ oraz `slajdów i notatek <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
+Półgodzinna prezentacja omawiająca wszystkie zawarte na OSGeoLive programy, dostępna jest w postaci wideo oraz slajdów i notatek.
+
+Szczegóły na stronie  http://live.osgeo.org/en/presentation.html.
+
 
