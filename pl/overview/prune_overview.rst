@@ -13,7 +13,7 @@
 Prune
 =====
 
-Narzedzie do edycji sladów GPS
+Narzedzia do edycji śladów GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Prune <http://activityworkshop.net/software/prune/>`_ jest narzędziem do przeglądania,

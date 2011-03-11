@@ -14,7 +14,7 @@
 52°North WPS
 =============
 
-Usługa sieciowa
+Usługi sieciowe
 ~~~~~~~~~~~
 
 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ pozwala na dostęp sieciowy 

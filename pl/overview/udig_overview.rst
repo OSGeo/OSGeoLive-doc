@@ -68,7 +68,7 @@ Szczegóły
 
 **Strona internetowa:** http://udig.refractions.net/
 
-**Licencja:** GNU Lesser General Public License (LGPL) version 2
+**Licencja:** Mniejsza Powszechna Licencja Publiczna GNU (LGPL) wersja 2
 
 **Wersja programu:** 1.2.0
 
@@ -78,7 +78,7 @@ Szczegóły
 
 **Wsparcie:** http://udig.refractions.net/users/
 
-**Developers:** http://udig.refractions.net/developers/
+**Programiści:** http://udig.refractions.net/developers/
 
 
 Wprowadzenie

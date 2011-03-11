@@ -70,6 +70,7 @@ PostGIS spatially enables the popular PostgreSQL object-relational database, all
 PostGIS jest stabilny, szybki, zgodny ze standardami, zawiera tysiące funkcji przestrzennych i jest obecnie najszerzej używaną przestrzennym systemem zarządznia bazą danych typu Open Source. PostGIS używany jest przez różne organizacje na całym świecie, łącznie z agencjami rządowymi oraz organizacjami przechowującymi terabajty danych obsługujących miliony żądań sieciowych dziennie.
 
 Zarządzanie bazą danych jest dostępne poprzez pgAdmin, phpPgAdmin, oraz inne programy. Import i eksport danych odbywa się przy pomocy różnorodnych narzędzi do konwersji (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Ponadto jest wiele klientów zarówno desktopowych jak i w przeglądarce internetowej służących do przeglądania danych PostGIS.
+
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
   or a collage of screen shots.

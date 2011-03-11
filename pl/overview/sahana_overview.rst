@@ -13,7 +13,7 @@
 Sahana Eden
 =============
 
-Usługi sieciowe do zarządzania kryzysowego
+Platforma zarządzania kryzysowego
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana Eden is a Family of Applications to Help You Help Others.
@@ -50,9 +50,9 @@ Główne funkcje
 * Hospital Management System - Hospitals can share information on resources & needs.
 * Organization Registry - "Who is doing What & Where". Allows relief agencies to coordinate their activities.
 * Ticketing - Master Message Log to process incoming reports & requests.
-* Messaging - Sends & Receives Alerts via Email & SMS.
-* Document Library - A library of digital resources, such as Photos & Office documents.
-* Ushahidi Integration - Able to integrate data from Ushahidi 
+* Powiadamianie - wysyłanie & otrzymywanie ostrzeżeń poprzez Email & SMS.
+* Biblioteka dokumentacji - biblioteka zasobów cyfrowych, takich jak zdjęcia i dokumenty biurowe.
+* Integracja z Ushahidi - możliwość integracji danych z Ushahidi.  
 
 Demo
 ----

@@ -23,11 +23,11 @@ Quantum GIS
 Desktop GIS
 ~~~~~~~~~~~
 
-Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
-you can visualize, manage, edit, analyse data, and compose printable maps.
-It includes powerful analytical functionality through integration with GRASS.
-It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
-raster and database formats and functionality.
+Quantum GIS (QGIS) jest przyjaznym dla użytkownika klientem GIS o otwartym kodzie źródłowym, gdzie
+możesz wizualizować, zarządzać, edytować, analizować dane i opracowywać wydruki map.
+Poprzez integrację z systemem GRASS, zawiera potężne funkcje analityczne.
+Pracuje na Linux, Unix, Mac OSX oraz Windows, obsługuje wiele wektorowych,
+rastrowych i bazodanowych formatów oraz funkcji.
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
@@ -93,6 +93,8 @@ Szczegóły
 **Community Support:** http://qgis.org/en/community.html
 
 **Wsparcie komercyjne:** http://qgis.org/en/commercial-support.html
+
+
 Wprowadzenie
 ----------
 

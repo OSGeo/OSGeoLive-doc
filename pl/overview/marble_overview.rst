@@ -17,7 +17,7 @@ Marble
 Wirtualny glob 3D
 ~~~~~~~~~~~~~~~~
 
-Marble programem projektu edukacyjnego KDE o otwartym kodzie źródłowym podobnym
+Marble jest programem projektu edukacyjnego KDE o otwartym kodzie źródłowym podobnym
 do `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ lub
 Google Earth. Poza możliwością wyboru wielu map do przeglądania na swoim
 globie (łącznie z `OpenStreetMaps <http://www.osm.org>`_), zachęcamy Cię do
