@@ -52,28 +52,30 @@ Navigation und Karten
 
 GIS Werkzeuge
 -------------
-* :doc:`gdal_overview`  - [`QuickStart <../quickstart/gdal_quickstart.html>`_] - Werkzeuge zur räumlichen Datentransformation
 * :doc:`gmt_overview` - [`QuickStart <../quickstart/gmt_quickstart.html>`_] - Kartographisches Rendering
-* :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Kartographisches Rendering
+* :doc:`gdal_overview`  - [`QuickStart <../quickstart/gdal_quickstart.html>`_] - Werkzeuge zur räumlichen Datentransformation
 * :doc:`otb_overview` - [`QuickStart <../quickstart/otb_quickstart.html>`_] - Bildprozessierung
+* :doc:`mapnik_overview` - [`QuickStart <../quickstart/mapnik_quickstart.html>`_] - Kartographisches Rendering
 * :doc:`maptiler_overview`  - [`QuickStart <../quickstart/maptiler_quickstart.html>`_] - Erzeuge Bildkacheln (Tiles)
 * :doc:`R_overview`  - [`QuickStart <../quickstart/R_quickstart.html>`_] - Statistische Berechnungen
 * :doc:`geokettle_overview` - [`QuickStart <../quickstart/geokettle_quickstart.html>`_] - Datenintegration
 
 Internet Dienste
 ----------------
-* :doc:`deegree_overview`- [`QuickStart <../quickstart/deegree_quickstart.html>`_]
-* :doc:`geoserver_overview`- [`QuickStart <../quickstart/geoserver_quickstart.html>`_]
-* :doc:`mapguide_overview`- [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
-* :doc:`mapserver_overview`
-* :doc:`qgis_mapserver_overview`
-* :doc:`geonetwork_overview` - Katalogdienst
-* :doc:`52nWPS_overview`  - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
+* :doc:`geoserver_overview` - [`QuickStart <../quickstart/geoserver_quickstart.html>`_]
+* :doc:`mapserver_overview` - [`QuickStart <../quickstart/mapserver_quickstart.html>`_]
+* :doc:`deegree_overview` - [`QuickStart <../quickstart/deegree_quickstart.html>`_]
+* :doc:`mapguide_overview` - [`QuickStart <../quickstart/mapguide_quickstart.html>`_]
+* :doc:`qgis_mapserver_overview` - [`QuickStart <../quickstart/qgis_mapserver_quickstart.html>`_]
+* :doc:`geonetwork_overview` - [`QuickStart <../quickstart/geonetwork_quickstart.html>`_] - Metadata Katalog und Katalogdienst für das Web
+* :doc:`52nWPS_overview` - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_] - Web Processing Service
 * :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
-Daten
------
-* :doc:`naturalearth_overview` - Räumliche Daten
+Windows and Apple Installers
+----------------------------
+ 
+* `Microsoft Windows Installers <../WindowsInstallers/>`_
+* `Apple OSX Installers <../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst
