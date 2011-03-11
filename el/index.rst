@@ -35,7 +35,6 @@
 -   `Εγκατάσταση του OSGeo-Live στον σκληρό σας δίσκο <quickstart/osgeolive_install_quickstart.html>`_
 -   `Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualbox_quickstart.html>`_
 -   `Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart.html>`_
--   `Περισσότερες οδηγίες ... <quickstart/quickstart.html>`_
 
 Παρουσίαση
 ------------

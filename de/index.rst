@@ -36,7 +36,6 @@ Schnellstart (Quick Starts)
 -   `Installiere OSGeo-Live auf der Festplatte <quickstart/osgeolive_install_quickstart.html>`_
 -   `Starte OSGeo-Live in einer Virtuellen Maschine <quickstart/virtualbox_quickstart.html>`_
 -   `Erstelle einen bootfähigen OSGeo-Live USB Stick <quickstart/usb_quickstart.html>`_
--   `Mehr Quick Starts ... <quickstart/quickstart.html>`_
 
 Präsentation
 ------------

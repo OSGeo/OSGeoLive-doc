@@ -37,7 +37,6 @@ Guías de inicio rápido
 -   `Instalar OSGeo-Live en su disco duro <quickstart/osgeolive_install_quickstart.html>`_
 -   `Ejecutar OSGeo-Live en una Máquina Virtual <quickstart/virtualbox_quickstart.html>`_
 -   `Crear una unidad USB arrancable con OSGeo-Live <quickstart/usb_quickstart.html>`_
--   `Más guías de inicio rápido ... <quickstart/quickstart.html>`_
 
 Presentación
 ----------------

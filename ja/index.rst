@@ -29,7 +29,6 @@ OSGeo-Liveは様々な地理空間関連の保管、配布、表示、分析、�
 - `OSGeo-Live をハードディスク上にインストールする <quickstart/osgeolive_install_quickstart.html>`_
 - `OSGeo-Live を仮想マシンで動作させる <quickstart/virtualbox_quickstart.html>`_
 - `OSGeo-Live のブータブルUSBドライブを作成する <quickstart/usb_quickstart.html>`_
-- `その他のクイックスタート ... <quickstart/quickstart.html>`_
 
 プレゼンテーション
 ---------------
