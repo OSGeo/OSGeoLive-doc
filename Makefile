@@ -130,15 +130,6 @@ win_installer_links: sphinxbuild
 	  ln -s /cdrom/WindowsInstallers . ;\
 	  ln -s /cdrom/MacInstallers . ;\
 	  cd $(START_DIR) ;\
-	else \
-	  for FILE in $(BUILDDIR)/html/*/index.html ; do \
-	    if [ ! -e /cdrom/WindowsInstallers ] ; then \
-	      sed -e 's#<a .*href="../MacInstallers/">\(.*\)</a>#\1#' $$FILE > $(TMP);\
-	      mv $(TMP) $$FILE;\
-	      sed -e 's#<a .*href="../WindowsInstallers/">\(.*\)</a>#\1#' $$FILE > $(TMP);\
-	      mv $(TMP) $$FILE;\
-	    fi;\
-	  done;\
 	fi
 
 banner_links: sphinxbuild
