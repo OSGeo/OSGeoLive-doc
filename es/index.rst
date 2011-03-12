@@ -18,7 +18,7 @@ de casos de uso, incluyendo almacenamiento, publicación, visualización, análi
 y manipulación de datos. También contiene juegos de datos de prueba y
 documentación.
 
-Para probar las aplicaciones, simplemente debe:
+Para probar las aplicaciones, se puede hacer simplemente lo siguiente:
 
 #. Insertar el DVD o disco USB en la computadora o máquina virtual
 #. Reiniciar la computadora (verificando el orden de arranque de dispositivos)
@@ -40,10 +40,7 @@ Guías de inicio rápido
 
 Presentación
 ----------------
-En este `video <http://cameronshorter.blip.tv/file/4078371/>`_ (en inglés) se ha
-preparado una presentación rápida de 25 minutos que cubre todas las aplicaciones
-disponibles en OSGeo-Live. También se pueden descargar las `diapositivas y el
-guión
-<https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
+
+Está disponible una presentación de aproximadamente media hora (en Inglés), que destaca todas las aplicaciones OSGeo-Live, junto con las diapositivas originales y el guión. Ver detalles en <http://live.osgeo.org/es/presentation.html>`_.
 
 
