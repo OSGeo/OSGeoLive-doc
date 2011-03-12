@@ -38,5 +38,7 @@
 
 Παρουσίαση
 ------------
-Μια 25-λεπτη  γρήγορη παρουσίαση που καλύπτει όλες τις εφαρμογές του OSGeoLive είναι διαθέσιμη σαν `Βίντεο <http://cameronshorter.blip.tv/file/4078371/>`_ και `Παρουσίαση <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_.
+Μια μισάωρη παρουσίαση που καλύπτει όλες τις εφαρμογές του OSGeoLive είναι διαθέσιμη σαν βίντεο και παρουσίαση.
+
+Λεπτομέρειες στο http://live.osgeo.org/en/presentation.html
 

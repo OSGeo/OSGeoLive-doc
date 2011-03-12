@@ -4,7 +4,7 @@
 Η τελευταία σταθερή έκδοση του OSGeo-Live περιλαμβάνει:
 
 .. image:: ../images/download_buttons/download-dvd.png
-  :alt: Κατεβάστε το DVD μεγέθους 4.3 Gigabyte ή το αρχείο iso για δημιουργία USB
+  :alt: Κατεβάστε το αρχείο iso συμπεριλαμβανομένων προγραμμάτων εγκατάστασης για Windows
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso
 
