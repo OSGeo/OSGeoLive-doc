@@ -40,5 +40,5 @@
 ------------
 Μια μισάωρη παρουσίαση που καλύπτει όλες τις εφαρμογές του OSGeoLive είναι διαθέσιμη σαν βίντεο και παρουσίαση.
 
-Λεπτομέρειες στο http://live.osgeo.org/en/presentation.html
+Λεπτομέρειες στο http://live.osgeo.org/el/presentation.html
 

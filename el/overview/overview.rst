@@ -72,6 +72,12 @@
 * :doc:`52nSOS_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
+Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
+----------------------------
+ 
+* `Προγράμματα εγκατάστασης Microsoft Windows <../WindowsInstallers/>`_
+* `Προγράμματα εγκατάστασης Apple OSX <../MacInstallers/>`_
+
 Δεδομένα
 ----
 * :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
