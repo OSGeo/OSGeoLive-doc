@@ -62,3 +62,9 @@ Szczegóły
 **Społeczność:** http://groups.google.com/group/maptiler 
 
 **Wsparcie komercyjne i aplikacje:** http://www.maptiler.com/
+
+Wprowadzenie
+------------
+
+* `Przejdź do wprowadzenia <../quickstart/maptiler_quickstart.html>`_
+

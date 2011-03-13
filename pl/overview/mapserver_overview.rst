@@ -99,3 +99,9 @@ Szczegóły
 
 **Wsparcie:** http://mapserver.org/community/
 
+
+Wprowadzenie
+------------
+
+* `Przejdź do wprowadzenia <../quickstart/mapserver_quickstart.html>`_
+

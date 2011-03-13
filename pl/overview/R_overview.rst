@@ -54,3 +54,9 @@ Szczegóły
 
 **Community Support:** http://cran.r-project.org/web/views/Spatial.html
 
+
+Wprowadzenie
+------------
+
+* `Przejdź do wprowadzenia <../quickstart/R_quickstart.html>`_
+

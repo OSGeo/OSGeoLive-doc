@@ -126,3 +126,9 @@ Szczegóły
   
 **Wsparcie:** http://www.osgeo.org/search_profile
 
+
+Wprowadzenie
+------------
+
+* `Przejdź do wprowadzenia <../quickstart/postgis_quickstart.html>`_
+

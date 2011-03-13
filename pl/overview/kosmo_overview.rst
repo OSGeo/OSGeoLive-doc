@@ -70,3 +70,9 @@ Szczegóły
 
 **Wsparcie komercyjne:** http://www.saig.es/index.php?lang=en
 
+
+Wprowadzenie
+------------
+
+* `Przejdź do wprowadzenia <../quickstart/kosmo_quickstart.html>`_
+
