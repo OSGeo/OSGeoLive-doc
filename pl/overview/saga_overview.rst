@@ -25,7 +25,7 @@ zmiany odwzorowań, symulacji dynamicznych procesów (hydrologicznych, kształto
 krajobrazu) i analiz terenu. Funkcje programu mogą być dostępne przez GUI, wiersz poleceń
 lub z poziomu API C++.
 
-SAGA jest tworzona od 2000r, a centrum jej rozwoju znajduje się 
+SAGA jest tworzona od 2000r., a centrum jej rozwoju znajduje się 
 w Instytucie Geografii na Uniwersytecie w Hamburgu, z udziałem 
 rosnącej światowej społeczności.
 
@@ -53,7 +53,7 @@ Główne funkcje
  * Wizualizacja 3D
 
 * Przystępne API C++ do tworzenia nowych modułów
-* Skryptowanie w wierszu poleceń, możliwość użycia pythona
+* Skryptowanie w wierszu poleceń, możliwość użycia Pythona
 * SAGA może być dostępna z języka statystycznego R poprzez moduł RSAGA
 
 Szczegóły

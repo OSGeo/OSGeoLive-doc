@@ -33,13 +33,13 @@ Główne funkcje
 * Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
 * Hundreds of community contributed add-on packages for spatial statistics
 * Classes for spatial data
-* Handling spatial data
-* Reading and writing spatial data
-* Point pattern analysis
-* Geostatistics
+* Obsługa danych przestrzennych
+* Czytanie i zapis danych przestrznych
+* Analizy rozkładu punktów
+* Geostatystyka
 * Disease mapping and areal data analysis
-* Spatial regression
-* Ecological analysis
+* Regresja przestrzenna
+* Analizy ekologczne
 
 Szczegóły
 -------
@@ -52,7 +52,7 @@ Szczegóły
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://cran.r-project.org/web/views/Spatial.html
+**Wsparcie społeczności:** http://cran.r-project.org/web/views/Spatial.html
 
 
 Wprowadzenie

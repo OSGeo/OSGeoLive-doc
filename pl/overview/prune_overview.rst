@@ -22,7 +22,7 @@ zapisanych śladów i punktów tras używa podkładów z OpenStreetMap. Dostarcz
 narzędzi do edycji i wycinania danych punktowych. Posiada funkcje do korelowania 
 zdjęć ze współrzędnymi za pomocą znaczników czasowych zdjęcia.
 
-Jeśli jest dostępna Gpsbabel, Prune korzysta z niej do czytania danych bezpośrednio z odbiornika GPS,
+Jeśli jest dostępna biblioteka Gpsbabel, Prune korzysta z niej do czytania danych bezpośrednio z odbiornika GPS,
 a także umożliwia wysłanie wyedytownych danych z powrotem do urządzenia GPS.
 
 Prune działa na Mac OSX, Windows i Linux, i jest dostępne w dziesięciu różnych językach.

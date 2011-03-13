@@ -27,7 +27,7 @@ Open Source Software Image Map (OSSIM) jest wysokiej klasy narzędziem do telede
 
 OSSIM został sfinansowany ze środków kilku agencji rządowych Stanów Zjednoczonych w środowiskach obronności i inteligencji, a wypracowana technologia znajduje obecnie zastosowanie m.in. w badaniach naukowych. Rozwijany jest aktywnie od 1996 roku.
 
-Składa się z kilku zaawansowanych bibliotek, napisany w języku C++, stosuje najnowsze techniki programowania obiektowego. 
+Składa się z kilku zaawansowanych bibliotek, napisany w języku C++, wykorzystuje najnowsze techniki programowania obiektowego. 
 Zaimplementowanych zostało wiele narzędzi wiersza poleceń, aplikacji GUI i zintegrowanych systemów - szereg z nich jest zawartych w dystrybucji programu.
 
 

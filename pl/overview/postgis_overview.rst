@@ -67,9 +67,9 @@ Przestrzenna baza danych
 
 PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
 
-PostGIS jest stabilny, szybki, zgodny ze standardami, zawiera tysiące funkcji przestrzennych i jest obecnie najszerzej używaną przestrzennym systemem zarządznia bazą danych typu Open Source. PostGIS używany jest przez różne organizacje na całym świecie, łącznie z agencjami rządowymi oraz organizacjami przechowującymi terabajty danych obsługujących miliony żądań sieciowych dziennie.
+PostGIS jest stabilny, szybki, zgodny ze standardami, zawiera tysiące funkcji przestrzennych i jest obecnie najszerzej używanym przestrzennym systemem zarządznia bazą danych typu Open Source. PostGIS używany jest przez różne organizacje na całym świecie, łącznie z agencjami rządowymi oraz organizacjami przechowującymi terabajty danych obsługujących miliony żądań sieciowych dziennie.
 
-Zarządzanie bazą danych jest dostępne poprzez pgAdmin, phpPgAdmin, oraz inne programy. Import i eksport danych odbywa się przy pomocy różnorodnych narzędzi do konwersji (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Ponadto jest wiele klientów zarówno desktopowych jak i w przeglądarce internetowej służących do przeglądania danych PostGIS.
+Zarządzanie bazą danych jest dostępne poprzez pgAdmin, phpPgAdmin oraz inne programy. Import i eksport danych odbywa się przy pomocy różnorodnych narzędzi do konwersji (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Ponadto jest wiele klientów zarówno desktopowych jak i w przeglądarce internetowej służących do przeglądania danych PostGIS.
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
@@ -105,7 +105,7 @@ Zaimplementowane standardy
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards compliant (SFSQL)
+* Zgodność ze standardami OGC (SFSQL)
 
 Szczegóły
 -------

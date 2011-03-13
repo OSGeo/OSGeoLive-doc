@@ -24,7 +24,7 @@ Desktop GIS
 ~~~~~~~~~~~
 
 Quantum GIS (QGIS) jest przyjaznym dla użytkownika klientem GIS o otwartym kodzie źródłowym, gdzie
-możesz wizualizować, zarządzać, edytować, analizować dane i opracowywać wydruki map.
+można wizualizować, zarządzać, edytować, analizować dane i opracowywać wydruki map.
 Poprzez integrację z systemem GRASS, zawiera potężne funkcje analityczne.
 Pracuje na Linux, Unix, Mac OSX oraz Windows, obsługuje wiele wektorowych,
 rastrowych i bazodanowych formatów oraz funkcji.
@@ -44,7 +44,7 @@ Główne funkcje
   * zmiana odwzorowania ”w locie”,
   * redakcja map,
   * etykietowanie obiektów,
-  * zmiana stylów rastrów i wektorów,
+  * zmiana sposobu wyświetlania danych rastrowych i wektorowych,
   * dodawanie warstwy siatki,
   * i nie tylko...
 
@@ -61,7 +61,7 @@ Główne funkcje
 
     * narzędzi do digitalizacji formatów GRASS i shapefile,
     * wtyczki georeferencer,
-    * narzędzi GPS do importu i eksportu formatu GPX, konwersji innych formatów GPS na GPX lub pobierania/zasilania bezpośrednio z/do urządzenia GPS
+    * narzędzi GPS do importu i eksportu formatu GPX, konwersji innych formatów GPS na GPX lub pobierania/zasilania bezpośrednio z/do urządzenia GPS.
 
 * Analizy przestrzenne z wykorzystaniem fTools lub wtyczki GRASS
 
@@ -71,7 +71,7 @@ Główne funkcje
    * analizy sieciowe,
    * i nie tylko...
 
-* Publikacja w Internecie
+* Publikacja map w Internecie,
 * Elastyczna architektura wtyczek.
 
 Zaimplementowane standardy
@@ -90,7 +90,7 @@ Szczegóły
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://qgis.org/en/community.html
+**Wsparcie społeczności:** http://qgis.org/en/community.html
 
 **Wsparcie komercyjne:** http://qgis.org/en/commercial-support.html
 

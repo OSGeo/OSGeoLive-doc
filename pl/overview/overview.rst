@@ -18,11 +18,11 @@ Zarządzanie kryzysowe
 * :doc:`sahana_overview` - [`Wprowadzenie <../quickstart/sahana_quickstart.html>`_] - zarządzanie pomocą w czasie katastrof
 * :doc:`ushahidi_overview` - [`Wprowadzenie <../quickstart/ushahidi_quickstart.html>`_] - mapy zdarzeń oraz ciągi czasowe
 
-Bazy danych
+Systemy zarządzania bazami danych
 ---------
 * :doc:`postgis_overview` - [`Wprowadzenie <../quickstart/postgis_quickstart.html>`_] - przestrzenna baza danych
 * :doc:`spatialite_overview` - [`Wprowadzenie <../quickstart/spatialite_quickstart.html>`_] - lekka przestrzenna baza danych
-* :doc:`rasdaman_overview` - [`Wprowadzenie <../quickstart/rasdaman_quickstart.html>`_] - Multi-Dimensional rastrowa baza danych
+* :doc:`rasdaman_overview` - [`Wprowadzenie <../quickstart/rasdaman_quickstart.html>`_] - baza danych wielowymiarowych rastrów
 * :doc:`pgrouting_overview` - [`Wprowadzenie <../quickstart/pgrouting_quickstart.html>`_] - trasowanie dla PostGIS
 
 Desktop GIS
