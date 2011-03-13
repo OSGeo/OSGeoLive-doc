@@ -70,3 +70,8 @@ Kosmo Desktop
 
 **Εμπορική Υποστήριξη:** http://www.saig.es/index.php?lang=en
 
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/kosmo_quickstart.html>`_

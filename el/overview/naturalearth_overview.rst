@@ -64,3 +64,8 @@ Natural Earth
 
 **Υποστήριξη:** http://naturalearthdata.com/forums/
 
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/naturalearth_quickstart.html>`_

@@ -111,3 +111,8 @@ gvSIG Desktop
 
 .. _gvSIG: http://www.gvsig.org
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gvsig_quickstart.html>`_

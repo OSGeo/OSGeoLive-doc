@@ -54,3 +54,8 @@ R Spatial Task View
 
 **Υποστήριξη από την κοινότητα:** http://cran.r-project.org/web/views/Spatial.html
 
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/R_quickstart.html>`_

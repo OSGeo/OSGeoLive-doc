@@ -90,3 +90,8 @@ Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
 **Προγραμματιστικές διεπαφές:** WMS, WFS, WCS, REST
 
 **Υποστήριξη:** http://geoserver.org/display/GEOS/Commercial+Support
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geoserver_quickstart.html>`_

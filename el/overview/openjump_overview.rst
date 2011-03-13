@@ -78,3 +78,8 @@ OpenJUMP GIS
 **Υποστήριξη από την κοινότητα:** http://www.openjump.org/support.html
 
 **Εμπορική Υποστήριξη:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/openjump_quickstart.html>`_

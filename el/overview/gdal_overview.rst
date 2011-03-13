@@ -70,3 +70,8 @@ GDAL/OGR
 **Προγραμματιστικές Διεπαφές:** C, C++, Python, Java, C#, Ruby, VB6 και Perl
 
 **Υποστήριξη:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gdal_quickstart.html>`_

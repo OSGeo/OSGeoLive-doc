@@ -100,3 +100,8 @@ GeoKettle
 
 **Υποστήριξη:** http://www.spatialytics.org & http://www.spatialytics.com
 
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geokettle_quickstart.html>`_

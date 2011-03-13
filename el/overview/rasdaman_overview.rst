@@ -61,3 +61,8 @@ Rasdaman
 **Προγραμματιστικές Διεπαφές:** rasql, C++, Java; πρότυπα OGC: WCS, WCPS, WCS-T, και WPS
 
 **Υποστήριξη:**  http://rasdaman.com
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/rasdaman_quickstart.html>`_

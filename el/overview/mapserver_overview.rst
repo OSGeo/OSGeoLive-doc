@@ -99,3 +99,8 @@ MapServer
 
 **Υποστήριξη:** http://mapserver.org/community/
 
+
+Γρήγορη εκκίνηση
+----------------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapserver_quickstart.html>`_
