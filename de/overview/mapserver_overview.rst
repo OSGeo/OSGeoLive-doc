@@ -97,3 +97,8 @@ Details
 
 **Support:** http://mapserver.org/community/
 
+
+Schnellstart
+------------
+
+* `Schnellstart Dokumentation <../quickstart/mapserver_quickstart.html>`_

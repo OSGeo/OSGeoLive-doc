@@ -69,3 +69,8 @@ Details
 
 **Support:** http://www.osgeo.org/search_profile
 
+
+Schnellstart
+------------
+
+* `Schnellstart Dokumentation <../quickstart/postgis_quickstart.html>`_

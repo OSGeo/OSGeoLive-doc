@@ -62,3 +62,8 @@ Details
 **Community:** http://groups.google.com/group/maptiler 
 
 **Kommerzieller Support und Anwendungen:** http://www.maptiler.com/
+
+Schnellstart
+------------
+
+* `Schnellstart Dokumentation <../quickstart/maptiler_quickstart.html>`_

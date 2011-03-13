@@ -56,3 +56,8 @@ Details
 
 **Support aus der Community:** http://cran.r-project.org/web/views/Spatial.html
 
+
+Schnellstart
+------------
+
+* `Schnellstart Dokumentation <../quickstart/R_quickstart.html>`_

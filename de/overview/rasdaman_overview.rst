@@ -64,3 +64,8 @@ Details
 **Support:**  www.rasdaman.com
 
 
+
+Schnellstart
+------------
+
+* `Schnellstart Dokumentation <../quickstart/rasdaman_quickstart.html>`_

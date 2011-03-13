@@ -79,3 +79,8 @@ Details
 **Community Support:** http://www.openjump.org/support.html
 
 **Kommerzieller Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+
+Schnellstart
+------------
+
+* `Schnellstart Dokumentation <../quickstart/openjump_quickstart.html>`_

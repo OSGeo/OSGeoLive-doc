@@ -72,3 +72,8 @@ Details
 **API Schnittstellen:** Python, Java, C#, Ruby, VB6 and Perl
 
 **Support:** http://www.osgeo.org/search_profile
+
+Schnellstart
+------------
+
+* `Schnellstart Dokumentation <../quickstart/gdal_quickstart.html>`_
