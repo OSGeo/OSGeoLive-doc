@@ -126,3 +126,8 @@ Details
 
 **Support:** http://www.osgeo.org/search_profile
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/postgis_quickstart.html>`_

@@ -118,3 +118,8 @@ Details
 
 .. _gvSIG: http://www.gvsig.org
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/gvsig_quickstart.html>`_

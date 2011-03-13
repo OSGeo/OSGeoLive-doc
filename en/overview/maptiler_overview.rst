@@ -50,3 +50,8 @@ Details
 **Community:** http://groups.google.com/group/maptiler 
 
 **Commercial support and applications:** http://www.maptiler.com/
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/maptiler_quickstart.html>`_

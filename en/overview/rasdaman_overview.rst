@@ -62,3 +62,8 @@ Details
 **API Interfaces:** rasql, C++, Java; OGC-based WCS, WCPS, WCS-T, and WPS interfaces
 
 **Support:**  www.rasdaman.com
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/rasdaman_quickstart.html>`_

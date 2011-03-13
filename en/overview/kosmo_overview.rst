@@ -71,3 +71,8 @@ Details
 
 **Commercial Support:** http://www.saig.es/index.php?lang=en
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/kosmo_quickstart.html>`_

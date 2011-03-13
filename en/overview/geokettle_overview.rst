@@ -100,3 +100,8 @@ Details
 
 **Support:** http://www.spatialytics.org & http://www.spatialytics.com
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/geokettle_quickstart.html>`_

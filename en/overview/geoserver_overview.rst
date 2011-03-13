@@ -91,3 +91,8 @@ Details
 **API Interfaces:** WMS, WFS, WCS, REST
 
 **Support:** http://geoserver.org/display/GEOS/Commercial+Support
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/geoserver_quickstart.html>`_

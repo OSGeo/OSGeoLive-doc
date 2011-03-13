@@ -72,3 +72,8 @@ Details
 
 **Support:** http://www.osgeo.org/search_profile
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/geonetwork_quickstart.html>`_

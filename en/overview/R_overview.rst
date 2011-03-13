@@ -54,3 +54,8 @@ Details
 
 **Community Support:** http://cran.r-project.org/web/views/Spatial.html
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/R_quickstart.html>`_

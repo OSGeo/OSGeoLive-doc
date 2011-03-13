@@ -64,3 +64,8 @@ Details
 
 **Support:** http://naturalearthdata.com/forums/
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/naturalearth_quickstart.html>`_

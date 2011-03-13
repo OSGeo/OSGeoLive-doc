@@ -99,3 +99,8 @@ Details
 
 **Support:** http://mapserver.org/community/
 
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/mapserver_quickstart.html>`_
