@@ -47,11 +47,11 @@ Główne funkcje
 -------------
 
 **Serve data from a variety of data stores:**
-    * Vector
+    * Wektor
         - Shapefiles, External WFS
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
-        - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
+        - GeoTiff, JPG i PNG (z plikiem world), piramidy obrazów, formaty GDAL, Image Mosaic, Oracle GeoRaster
 
 **Data is served as safe and quick images using the WMS protocol:**
     As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
@@ -75,7 +75,7 @@ Zaimplementowane standardy
 
 * Wsparcie wielu standardów Open Geospatial Consortium  (OGC)
 
-* WMS, tranzakcyjny WFS, WCS, Filter Encoding, SLD, GML
+* WMS, transakcyjny WFS, WCS, Filter Encoding, SLD, GML
 
 Szczegóły
 -------
