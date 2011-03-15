@@ -39,6 +39,6 @@ Quick Starts
 
 Presentation
 ------------
-A half hour presentation, highlighing all OSGeo-Live applications, is available as a video, along with source slides and script.
+A half hour presentation, highlighting all OSGeo-Live applications, is available as a video, along with source slides and script.
 
 Details at http://live.osgeo.org/en/presentation.html.
