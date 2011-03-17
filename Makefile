@@ -89,6 +89,7 @@ fix_header_links: sphinxbuild
 	    download.html \
 	    sponsors.html \
 	    presentation.html \
+	    disclaimer.html \
 	    overview/overview.html \
 	    standards/standards.html \
 	  ; do \
