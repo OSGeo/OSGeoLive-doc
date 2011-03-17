@@ -71,7 +71,7 @@ Put the following content in it::
       NAME "Admin Countries"
       STATUS ON
       TYPE POLYGON
-      DATA "10m-admin-0-countries"
+      DATA "10m_admin_0_countries"
       CLASS 
         STYLE
           COLOR 246 241 223
