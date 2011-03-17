@@ -6,20 +6,20 @@ The latest stable release of OSGeo-Live:
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: Download iso file with windows installers
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso
+  :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso
 
-`osgeo-live-4.5.iso, 4.3 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso>`_
+`osgeo-live-4.5.iso, 4.3 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso>`_
 
-An Xubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 Gig bootable USB thumb drive. Verify your download with its `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso.md5>`_.
+An Xubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 Gig bootable USB thumb drive. Verify your download with its `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Download iso without Windows and Mac installers
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5-mini.iso
+  :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-mini.iso
 
-`osgeo-live-mini-4.5.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5-mini.iso>`_
+`osgeo-live-mini-4.5.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-mini.iso>`_
 
-Same as osgeo-live-4.5.iso, except it doesn't contain windows and mac installers and can be copied onto a 4 Gig bootable USB thumb drive. Verify your download with its `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso.md5>`_.
+Same as osgeo-live-4.5.iso, except it doesn't contain windows and mac installers and can be copied onto a 4 Gig bootable USB thumb drive. Verify your download with its `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Download 2.6 Gigabyte 7-zip of a Virtual Machine without Windows and Mac installers
