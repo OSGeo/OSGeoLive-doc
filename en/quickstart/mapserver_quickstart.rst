@@ -54,12 +54,12 @@ Put the following content in it::
     NAME "MAPSERVER QUICKSTART"
     STATUS ON
     EXTENT -137 29 -53 88
-    UNITS DEGREE
+    UNITS DD
     SHAPEPATH "/home/user/data/natural_earth/"
     SIZE 800 600
   
     PROJECTION
-      "init=epsg:900913" 
+      "init=epsg:4326" 
     END
 
     OUTPUTFORMAT
