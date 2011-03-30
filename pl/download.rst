@@ -15,20 +15,20 @@ Rozruchowe DVD z xubuntu, zawierające również instalatory na Windows i Mac. M
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Pobierz plik iso 3.2 GB bez instalatorów Windows i Mac
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-mini.iso
+  :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso
 
-`osgeo-live-mini-4.5.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-mini.iso>`_
+`osgeo-live-mini-4.5.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso>`_
 
 Podobny obraz płyty do osgeo-live-4.5.iso, ale bez instalatorów na Windows i Mac, przez co może być zapisany na czterogigowym rozruchowym PenDrive. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Pobierz plik 7-zip 2.6 GB  zawierający wirtualną maszynę bez instalatorów Windows i Mac
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-vm.7z
+  :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 
-`osgeo-live-mini-4.5.iso: 2.6 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-vm.7z>`_
+`osgeo-live-mini-4.5.iso: 2.6 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
 
-Przygotowany dysk wirtualny (.vmdk) do użycia na VirtualBox, VMWare, KVM i innych aplikacjach wirtualnych maszyn. Nie zawiera istalatorów Windows i Mac. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.7z.md5>`_.
+Przygotowany dysk wirtualny (.vmdk) do użycia na VirtualBox, VMWare, KVM i innych aplikacjach wirtualnych maszyn. Nie zawiera istalatorów Windows i Mac. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
 
 Aby zapoznać się z pełną listą wersji, opcji pobierania oraz adresami serwerów lustrzanych, idź do strony: http://download.osgeo.org/livedvd
 
