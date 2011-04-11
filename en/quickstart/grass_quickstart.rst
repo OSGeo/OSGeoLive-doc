@@ -240,7 +240,7 @@ Further reading
 ===============
 * Visit the GRASS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
 * Visit the GRASS Wiki help site at `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
-* A more tutorials and overviews can be found `here <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* More tutorials and overviews can be found `here <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
 * A `synopsis of the GRASS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
   GUI menu position. (`HTML version <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
