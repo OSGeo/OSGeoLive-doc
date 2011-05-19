@@ -71,6 +71,8 @@ This Quick Start describes how to:
   * use the standard map tools
   * apply colour to map features using styling
 
+.. contents:: Contents
+  
 start uDig
 ==========
 
