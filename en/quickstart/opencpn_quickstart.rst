@@ -64,9 +64,9 @@ See also
 ========
 
 Current weather and forecast data can be downloaded and draped over your
-charts using the GRIB plugin. The `zyGrib software <../overview/zygrib_overview.rst>`_
+charts using the GRIB plugin. The `zyGrib software <../overview/zygrib_overview.html>`_
 (also on this disc) is an easy way to download that. See
-the `zyGrib quickstart <../overview/zygrib_overview.rst>`_ for details.
+the `zyGrib quickstart <../overview/zygrib_overview.html>`_ for details.
 Enable the plugin the right most tab of the OpenCPN configuration menu;
 right click on the GRIB directory selection window to show hidden files,
 including the ``.zygrib`` directory containing the default GRIB download
