@@ -47,3 +47,10 @@ Details
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://zygrib.org/forum/
+
+
+Quickstart
+----------
+
+* `Quickstart documentation <../quickstart/zygrib_quickstart.html>`_
+

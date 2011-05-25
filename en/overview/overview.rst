@@ -48,7 +48,7 @@ Navigation and Maps
 * :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - OpenStreetMap Tools
 * :doc:`prune_overview` - [`QuickStart <../quickstart/prune_quickstart.html>`_] - View, Edit and Convert GPS Tracks
 * :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Data Analysis and Viewer
-* :doc:`zygrib_overview` - Weather Forecast Maps
+* :doc:`zygrib_overview` - [`QuickStart <../quickstart/zygrib_quickstart.html>`_] - Weather Forecast Maps
 
 Spatial Tools
 -------------
