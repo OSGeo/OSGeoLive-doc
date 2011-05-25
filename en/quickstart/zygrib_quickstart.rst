@@ -92,4 +92,4 @@ See also
 The `OpenCPN software <../overview/opencpn_overview.html>`_ (also on this
 disc) has a GRIB overlay plugin which you may try with your newly
 downloaded GRIB file. See
-the `OpenCPN quickstart <../quickstart/opencpn_overview.html>`_ for details.
+the `OpenCPN quickstart <../quickstart/opencpn_quickstart.html>`_ for details.
