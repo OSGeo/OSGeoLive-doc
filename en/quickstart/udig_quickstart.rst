@@ -136,7 +136,6 @@ To start out with we are going to load some of the sample data included on the D
 #. The OSGeo Live DVD contains sample data in:
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
-   * :file:`/usr/local/share/udig/udig/udig-data/`
 
 #. Select the following file from the udig-data folder:
    
@@ -336,7 +335,7 @@ This is only the first step on the road to using uDig. There is a lot more great
   Try out the use of PostGIS, extract data from a Web Feature Server and explore the
   use of Themes with our powerful Color Brewer technology.
 
-  :file:`/usr/data/udig/udig-docs/uDigWalkthrough 1.pdf`
+  :file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`
 
 * Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to manipulate
   feature data, covers the installation of GeoServer and editing with a Web Feature
