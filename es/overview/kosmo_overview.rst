@@ -1,6 +1,6 @@
-:Autor: Sergio Ba帽os Calvo
-:Versi贸n: osgeo-live4.0
-:Licencia: Creative Commons
+:Author: Sergio Ba帽os Calvo
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _kosmo-overview:
 
@@ -10,63 +10,69 @@
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
 
-Kosmo Desktop
+Kosmo Escritorio
 =============
 
-Desktop GIS
+SIG de escritorio
 ~~~~~~~~~~~
 
-Kosmo - Es una aplicaci贸n GIS de escritorio, amigable, que permite explorar, editar y analizar datos espaciales de una variedad de Bases de Datos, vectores y formatos raster. 
+Kosmo - Cliente de Escritorio es una amigable aplicaci髇 SIG de escritorio que permite explorar, editar
+y analizar datos espaciales desde una variedad de bases de datos, formatos vectoriales y formatos raster.
 
-Kosmo - Desktop sigue est谩ndares OGC y proporciona una excelente integridad topol贸gica. 
-Su arquitectura orientada a plug-ins permite la customizaci贸n f谩cil para prop贸sitos espec铆ficos.
+Kosmo Escritorio cumple los est醤dares OGC y proporciona una excelente integridad topol骻ica.
+Su arquitectura de extensiones permite personalizarlo f醕ilmente para fines espec韋icos.
 
 .. image:: ../../images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Caracter铆sticas clave
+Caracter韘ticas principales
 -------------
 
 Formatos soportados:
 
-* Formatos de ficheros vectoriales: Shapefiles, GML, DXF, DWG, DGN, CSV
-* Bases de Datos Vectoriales: PostgreSQL + PostGIS, Oracle, MySQL
-* Formatos de ficheros raster: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
-* Servicios OGC: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
+* Formatos de archivo vectorial: Shapefiles, GML, DXF, DWG, DGN, CSV (por extensi髇)
+* Bases de datos vectoriales: PostgreSQL + PostGIS, Oracle, MySQL
+* Formatos de archivos raster: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
+* Servicios OGC: 1.0.0/1.1.0/1.3.0 WMS, WFS 1.0.0/1.1.0
 
-Caracter铆sticas clave:
+Caracter韘ticas clave:
 
-* Interface de usuario (GUI) amigable, orientada a una curva de aprendizaje f谩cil.
-* Disponible en 11 idiomas (Ingl茅s, Espa帽ol, Italiano, Aleman, Croata, Checo, Ruso, Eslovaco, Catalan, Euskera, Portugu茅s Brasile帽o)
-* M贸dulo de impresi贸n avanzado basado en la suite ofim谩tica OpenOffice (a trav茅s de una extensi贸n)
-* Reglas de consistencia topol贸gica: pre/during/post edici贸n
-* Validaci贸n topol贸gica y herramientas de limpieza (intersect/eliminate/clean)
-* Extensi贸n wizard de Geoprocesamiento: buffer/dissolve/merge/clip/intersection/spatial join/difference (a trav茅s de una extensi贸n)
-* Herramienta de georreferenciaci贸n Raster (a trav茅s de una extensi贸n)
-* Soporta Sextante 0.5 (a trav茅s de una extensi贸n)
+* Interfaz gr醘ica de usuario amigable, centrada en una f醕il curva de aprendizaje.
+* Disponible en 11 idiomas (ingl閟, espa駉l, italiano, alem醤, croata, checo, ruso, eslovaco, catal醤, euskera, portugu閟 brasile駉)
+* M骴ulo de impresi髇 avanzado basado en la suite de ofim醫ica OpenOffice (mediante el uso de extensi髇)
+* Reglas de coherencia topologica: antes/durante/despu閟 de la edici髇
+* Validaci髇 de topolog韆 y herramientas de limpieza (intersecci髇/eliminar/limpiar)
+* Extensi髇 con asistente para geoprocesamiento: b鷉er/disolver/juntar/recortar/intersecci髇 espacial/diferencia (mediante el uso de extensi髇)
+* Herramienta de georreferencing raster (mediante el uso de extensi髇)
+* Sextante 0.5 integrado (mediante el uso de extensi髇)
 
-Standares Implementados
+Est醤dares implementados
 ---------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
-* Styled Layer Descriptor (SLD) (import/export)
+* Styled Layer Descriptor (SLD) (importaci髇/exportaci髇)
 
 
 Detalles
 -------
 
-**Website:** http://www.opengis.es
+**Web:** http://www.opengis.es
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Version Software:** 2.0
+**Versi髇 del software:** 2.0
 
-**Platformas soportadas:** Windows, Linux
+**Plataformas soportadas:** Windows, Linux
 
 **Interfaces API:** Java
 
 **Soporte comercial:** http://www.saig.es/index.php?lang=en
 
+
+Inicio r醦ido
+----------
+    
+* `Documentaci髇 de inicio r醦ido <../quickstart/kosmo_quickstart.html>`_
