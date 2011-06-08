@@ -4,7 +4,7 @@
 :License: Creative Commons
 :Thanks: OpenJUMP Community
 
-.. _openjump-quickstart:
+.. _udig-quickstart:
 
 *******************
 OpenJUMP Quickstart 
@@ -46,7 +46,7 @@ with a single task frame.
 Open an ESRI Shapefile
 ======================
 
-This section of the quick start briefly explains how to open an ESRI shapefile.
+This section of the quick start briefly explains how to open an ESRI shapfile.
 
 On the top-level menu bar in Open Jump select the File menu. Then select the Open menu item.
 This will present you with a dialog box that allows you to open files containing geospatial data.
@@ -84,7 +84,7 @@ node on the geometry you selected.
 Other Learning Resources for OpenJUMP
 =====================================
 
-This is only the first step on the road to using OpenJUMP. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
+This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
 
 You can download the user guide for the original JUMP program here:
 http://sourceforge.net/projects/surveyos/files/JUMP_PDF_Docs.zip/download
