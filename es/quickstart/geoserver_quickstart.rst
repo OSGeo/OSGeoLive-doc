@@ -129,29 +129,29 @@ relativa al directorio de datos de |GS|. Presione :guilabel:`Guardar`.
     *El almacén de datos Natural Earth*
 
 Presione :guilabel:`publicar` en la fila de uno de las capas para finalizar la
-incorporación de datos. Esto lo llevará a la página *Layers* page:
+incorporación de datos. Esto lo llevará a la página *Capas*:
 
 .. figure:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
     :width: 90%
 
-    *The layer publishing page*
+    *La página de publicación de capas*
 
-As you scroll down the page you will see that |GS| has filled in many of
-the fields for you. When you reach :guilabel:`Coordinate Reference System`
-you will notice that under *Native SRS* that it says UNKNOWN [#esri]_
-you will need to fill in the next box (*declared SRS*) to make sure |GS|
-knows where the data is. For the time being trust me and type epsg:4326 in
-the box, if you don't trust me then go to `http://prj2epsg.org/search` and
-paste in the string you see if you click on the link next to "UNKNOWN".
-Then click on :guilabel:`Compute from data` and :guilabel:`Compute from
-native bounds` to fill in the Bounding Boxes. Finally hit :guilabel:`save`
-and you have published your first layer.
+A medida que baje por la pagina verá que |GS| ha llenado varios campos por usted.
+Cuando llegue a :guilabel:`Coordinate Reference System`
+podrá ver que en el campo *Native SRS* dice UNKNOWN [#esri]_
+Necesitará completar el siguiente campo (*declared SRS*) para asegurarse que |GS|
+sabe donde se localizan los datos. Por el momento confíe en nosotros y escriba 
+epsg:4326 en ese campo, y si no confía vaya a `http://prj2epsg.org/search` y copie
+el texto que ve cuando hace click junto a "UNKNOWN".
+Haga click en :guilabel:`Calcular desde los datos` y :guilabel:`Calcular a 
+partir de los límites nativos` para completar los Bounding Boxes. Finalmente 
+presione :guilabel:`Guardar` y habrá publicado su primera capa.
 
 .. note::
-    If you look at this layer in the layer preview it doesn't look
-    very good but that is just the default style. In the next section
-    we will look at producing a nicer style.
+    Si visualiza esta capa en la previsualización de capas, no se verá muy 
+    atractivo, pero es solo el estilo predeterminado. En la siguiente sección
+    veremos como producir un estilo mejorado.
     
 Styling
 -------
