@@ -150,157 +150,155 @@ presione :guilabel:`Guardar` y habrá publicado su primera capa.
 
 .. note::
     Si visualiza esta capa en la previsualización de capas, no se verá muy 
-    atractivo, pero es solo el estilo predeterminado. En la siguiente sección
+    atractiva, pero es solo el estilo predeterminado. En la siguiente sección
     veremos como producir un estilo mejorado.
     
-Styling
--------
+Aplicando estilos
+-----------------
 
-To style a data set into a map layer |GS| uses an OGC standard called
-Styled Layer Descriptors (SLD). These are represented as XML files
-which describe the rules that are used to apply various symbolizers to
-the data.
+Para aplicar un estilo a un conjunto de datos de una capa, |GS| usa un estándar 
+OGC llamado Descriptores de capas estilizadas - Styled Layer Descriptors (SLD). 
+Estos descriptores se representan como archivos XML que describen las reglas que
+se utilizan para aplicar varios simbolizadores a los datos.
 
-To get started I styled the Land and Ocean datasets. 
-You can create SLD files using a simple text editor, but
-sometimes a graphical editor is better. There are several options here
-but I like to use |UG| (http://udig.refractions.net/) as it allows me
-to open the shapefiles directly and apply simple styles using a
-GUI, but also provides a simple editor to modify the XML if I need to. 
+Para empezar, estilizamos los conjuntos de datos Land y Ocean. Se puede crear un
+archivo SLD utilizando un sencillo editor de textos, pero es mejor usar un editor 
+gráfico. Hay varias opciones para ello, pero nos gusta usar |UG| (http://udig.refractions.net/) 
+ya que permite abrir los archivos shape directamente y aplicarles estilos simples
+utilizando una interfase gráfica, y también tiene un editor simple para modificar 
+el XML si es necesario.
 
-Using |UG| to create simple styles
-``````````````````````````````````
+Usando |UG| para crear estilos simples
+``````````````````````````````````````
 
 .. note::
 
-   For more details on how to use |UG| see the :ref:`uDig quickstart <udig-quickstart>`
+   Para mas detalles sobre como usar |UG| ver :ref:`Guía de inicio raṕido uDig 
+<udig-quickstart>`
 
-Once I opened |UG| up and added the shapefiles (using the
-add data button in the top left hand corner). I dragged the 10m_land
-and 10m_ocean tables into the map window. |UG| automatically applies
-a style (so you can see the data).
+Una vez abierto |UG| y agregados los archivos shape (usando el botón add data 
+que está arriba a la izquierda). Arrastrar las tablas 10m_land y 10m_ocean 
+en la ventana de mapas. |UG| aplica automáticamente un estilo (para que se puedan visualizar los datos).
 
 .. figure:: ../../images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :width: 90%
 
-   *Default Styling in UDig*
+   *Estilos predeterminados en UDig*
 
-Now obviously an orange ocean will not work (even if I could live
-with the green land). So in the :ref:`Layer list <Layer_list>` select the style
-button (it looks like an artist's palette). 
+Obviamente un océano anaranjado no se ve bien (aunque la tierra verde es aceptable). Asi que  en :ref:`Layer list <Layer_list>` seleccione el botón de estilos (se ve
+como la paleta de un artista). 
 
 .. _Layer_list:
 .. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
-   *The Layer list window*
+   *La ventana de lista de capas (Layer List)*
 
 
-This will open the :ref:`Style Pane <Style_Pane>` - in the simple window I can easily
-select a nice blue for the oceans by clicking on the colored box by
-the fill label and choosing from the color picker it produces. I also
-increased the opacity of the fill to 100% to make the color look
-better. 
+Esto abrirá el panel de estilos :ref:`Style Pane <Style_Pane>` - en la ventana se
+puede seleccionar fácilmente un buen azul para los oceanos haciendo click sobre
+el rectángulo de color junto a la etiqueta relleno (fill) y eligiendo de la paleta
+de colores que ofrece. También se puede incrementar la opacidad hasta el 100%
+para que el color se vea mejor.
 
 .. _Style_Pane:
 .. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
-   *The Style Pane*
+   *El panel de estilos (Style Pane)*
 
 
-Once I was done I clicked ``OK`` and |UG| showed me the
-changes. 
+Una vez listo, hacer click en ``OK`` y |UG| mostrará los cambios.
 
 
 .. figure:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :width: 90%
 
-   *Blue Oceans*
+   *Océanos Azules*
 
-Finally I prefer a more understated land color than green [#fn1]_ so
-I repeated the steps above to change the color of the land layer.
-None of the default colors seemed right to me so I went into the
-``define custom colors`` section to create one I liked.
+Finalmente preferimos un color mas significativo para la tierra que el verde [#fn1]_ 
+de manera que repetimos los pasos explicados para cambiar el color de la capa land.
+Ninguno de los colores predeterminados nos parece adecuado, asi que vamos a la sección
+``define custom colors`` para crear uno que nos guste.
 
 .. figure:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
 
-   *Defining a nicer land color*
+   *Definiendo un color mas agradable para la tierra*
 
-This gives me a nice looking basic world map
+Esto da como resultado un mapa básico del mundo que se ve bien
 
 .. figure:: ../../images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :width: 90%
 
-   *A basic word map*
+   *Un mapa básico del mundo *
 
-Adding the Style to |GS|
-````````````````````````
+Agregando el estilo a |GS|
+``````````````````````````
 
-Now I need to transfer these styles to |GS| - on the style window
-there is an export button which allows me to save the SLD file that
-defines my style. Once I've saved the two styles I can go to the |GS|
-admin page again and select ``Styles`` (at the bottom of the ``Data``
-section). Then I select the ``Add New Style`` link, at the bottom of
-that page is a file upload box and a browse button. Clicking this
-allows me to hunt around on my hard drive to find the files I just
-saved. Once I've found one I want, I click the upload link (next to the browse
-button) and a copy of my file appears in the editor. 
+Ahora necesitamos transferir estos estilos a |GS| - en la ventana de estilos hay
+un botón de exportacion que permite guardar el archivo SLD que define nuestro 
+estilo. Una vez que hemos guardado los dos estilos, podemos ir a la página de 
+administración de |GS| otra vez y seleccionar ``Estilos`` (al final de la sección
+``Datos``). Entonces seleccionamos el enlace ``Agregar nuevo estilo``. Al final 
+de la página hay un campo para ingresar el archivo y un botón para explorar. 
+Haciendo click en esto nos permite buscar en el disco rígido los archivos que
+acabamos de guardar. Una vez que encontramos lo que queremos, hacemos click en el 
+link para subir el archivo (junto al boton de explorar) y una copia de esos archivos aparece en el editor.
 
 .. figure:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :width: 90%
 
-   *Adding a Style to GeoServer*
+   *Agregando un estilo a GeoServer*
 
 
-Adding the Style to the Layer
-------------------------------
+Agregando el estilo a la capa
+-----------------------------
 
-Click on the :guilabel:`Layers` link in the Menu on the left of the
-|GS| window. Click on the layer (e.g. *10m_land*), then select the 
-:guilabel:`Publishing` tab and change the :guilabel:`Default Style`
-box to the name of the style you uploaded in the previous section.
-Now go to the Layer Preview page to check that it looks good.
+Haga click en el enlace :guilabel:`Capas` en el menu de la izquierda de la ventana
+de |GS|. Haga click en la capa (por ejemplo: *10m_land*), seleccione la pestaña
+:guilabel:`Publicar` y cambie el campo :guilabel:`Estilo Predeterminado`
+al nombre del estilo subido en la seccion anterior. Ahora puede ir a la pagina de 
+previsualizacion para ver como se ve.
 
-.. TBD check where app-data ends up
+.. TBD verifique donde terminan los datos de la aplicación
 
-There are example style files for all of the example Natural Earth
-layers in :file:`/usr/local/share/geoserver`. 
+Hay archivos de estilo de ejemplo para todas las capas del ejemplo Natural Earth
+en :file:`/usr/local/share/geoserver`. 
 
-.. TBD (needs more memory)
-    Adding a Raster
-    ===============
+.. TBD (esto necesita más memoria)
 
-    In the Natural Earth folder is a folder :file:`HYP_50M_SR_W` which
-    contains a raster image. You can serve this up in |GS| directly by
-    going to the stores page and selecting :guilabel:`New Stores->World
-    Image` and type
+    Agregando un Raster
+    ===================
+
+    En la carpeta Natural Earth hay otra carpeta :file:`HYP_50M_SR_W` que contiene
+    una imagen raster. Puede servir esta imagen en |GS| directamente yendo a la
+    pagina de Almacén de datos y seleccionando :guilabel:`Nuevo Almacén->World
+    Image` y escriba
     *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
-    into the :guilabel:`URL` box.
+    en el campo :guilabel:`URL`.
 
     .. figure:: ../../images/screenshots/800x600/geoserver-raster.png
         :align: center
         :width: 90%
 
-        *Adding a Raster*
+        *Agregando un Raster*
 
-    The click :guilabel:`Save` this will take you to the *New Layers
-    Chooser* then click publish and :guilabel:`Save` to finish adding the
-    raster. If you go to the Layers Preview page you
-    can see the new image. 
-
+    Haga click en :guilabel:`Guardar` esto le llevará al *Selector de nuevas capas*.
+    Ahora haga click en publicar y :guilabel:`Guardar` para terminar de agregar 
+    el raster. Si va a la pagina de previsualizacion podra ver la nueva imagen.
 
 
-Clients for WMS layers
-======================
 
-A large variety of clients exist to make use of the WMS layers you are serving
-from |GS|. This is a list of just some of them 
+Clientes para capas WMS
+=======================
+
+Existe una gran variedad de clientes que pueden utilizar las capas WMS que está
+sirviendo desde |GS|. Esta es una lista de algunos de ellos:
 
     * :ref:`uDig <udig-quickstart>`
 
@@ -312,7 +310,6 @@ from |GS|. This is a list of just some of them
 
 
 .. Rubric:: Footnotes
-.. [#fn1] If you lived in central Pennsylvania in the summer you
-   wouldn't expect green either.
-.. [#esri] there is a perfectly good well known text (WKT) for
-    projections but ESRI don't use it.
+.. [#fn1] Si viven en el centro de Pennsylvania en verano no esperará ningún verde.
+.. [#esri] hay un well known text (WKT) perfectamente utilizable para las 
+proyecciones, pero ESRI no lo usa.
