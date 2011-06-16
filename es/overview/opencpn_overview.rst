@@ -59,6 +59,6 @@ Detalles
 Inicio Rápido
 -------------
 
-* '`Documentación de Inicio Rápido<../quickstart/opencpn_quickstart.html>`_
+* `Documentación de Inicio Rápido <../quickstart/opencpn_quickstart.html>`_
 
 
