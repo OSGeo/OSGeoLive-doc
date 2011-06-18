@@ -35,9 +35,19 @@
 :Author: OSGeo Live
 :Author: Jody Garnett
 :Author: Micheal Bedward
+:Author: Frank Gasdorf
 :Version: osgeo-live4.0
 :License: Creative Commons
 :Thanks: geotools-user list
+
+.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
+.. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
+.. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
+.. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
+.. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
+.. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
+.. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
+.. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
@@ -85,7 +95,7 @@ start uDig
 
 .. TBD: Add menu graphic to this uDig Quickstart
 
-#. Choose uDig 1.1 > uDig from the start menu
+#. Choose :menuselection:`Geospatial --> Desktop GIS --> uDig` from menu
 #. The application will take a few moments to start up
 
 .. Writing Tip:
@@ -109,7 +119,7 @@ Welcome View
   
   .. image:: ../../images/screenshots/800x600/udig_welcome.png
 
-You can return to the Welcome view at any time by selecting the Help > Welcome from the menu bar.
+You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
 
 Workbench
 =========
@@ -191,29 +201,20 @@ You can control where in the world the Map Editor is looking by using the naviga
 
 #. The |ZOOM| Zoom tool is available by default
    
-   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
-   
    * Use the zoom tool by drawing a box using the left mouse button around the area of the wold you wish
      to see.
    * To zoom out draw a box with the right mouse button. The current map extents will be located within
      the box you draw.
 
 #. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
-  
-   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
 
 #. There are also several navigation buttons that can be used at any time:
  
    * |SHOWALL| Show All, can be used to return to the full extents at any time
    
-     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
-
    * |ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by a fixed amount.
 
-     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
-     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
-
-   * You can use Navigation > Back and Navigation > Forward in the menu bar to cycle though previously
+   * You can use |BNAV| and |FNAV| in the menu bar to cycle though previously
      visited locations.
 
 .. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
@@ -260,8 +261,6 @@ available layers of information that you can mix into your own maps.
 
 #. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
    
-.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
-
 Tip: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
 
 Style
