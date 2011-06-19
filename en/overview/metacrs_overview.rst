@@ -125,7 +125,7 @@ Proj4J
 
   **Website:**  http://trac.osgeo.org/proj4j/
   
-  **Licence:** unknown
+  **Licence:** `Apache License, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
   
   **Software Version:** 
   
