@@ -84,7 +84,7 @@ Iniciar uDig
 
 .. TBD: Add menu graphic to this uDig Quickstart
 
-#. Seleccionar uDig 1.1 > uDig en el menú de inicio
+#. Seleccionar :menuselection:`Geospatial --> Desktop GIS --> uDig` en el menú de inicio
 #. La aplicación tomará unos momentos para iniciarse
 
 .. Writing Tip:
@@ -107,7 +107,7 @@ Ventana de Bienvenida
   
   .. image:: ../../images/screenshots/800x600/udig_welcome.png
 
-En cualquier momento se puede volver a la vista de Bienvenida seleccionando Help > Welcome en la barra de menú.
+En cualquier momento se puede volver a la vista de Bienvenida seleccionando :menuselection:`Help --> Welcome` en la barra de menú.
 
 Workbench
 =========
@@ -212,7 +212,10 @@ pantalla.
      .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
      .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
 
-   * Puede usar Navigation > Back and Navigation > Forward en la barra de menú para ciclar entre las localizaciones previamente visitadas.
+   * Puede usar Navigation Back |BNAV| and Forward |FNAV| en la barra de menú para ciclar entre las localizaciones previamente visitadas.
+
+   	 .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
+     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
 .. tip:: También es posible una hacer una panorámica manteniendo presionado el botón central y controlar la escala usando la rueda de desplazamiento.
 
