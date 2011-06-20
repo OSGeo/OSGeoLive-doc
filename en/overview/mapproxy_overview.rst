@@ -24,7 +24,7 @@ It caches, accelerates and transforms data from existing map services and serves
 
 MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients. 
 
-MapProxy is actively developed and supported, it is released under the `Apache Software License 2.0 <asl2>`_, runs on Unix/Linux/Mac OS X and Windows and is easy to install and to configure. 
+MapProxy is actively developed and supported, it is released under the `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_, runs on Unix/Linux/Mac OS X and Windows and is easy to install and to configure. 
 
 Features of MapProxy
 --------------------
@@ -101,7 +101,7 @@ Details
 
 **Website:** http://mapproxy.org/
 
-**Licence:** `Apache Software License 2.0 <asl2>`_
+**Licence:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
 **Software Version:** 1.1.0
 
@@ -109,7 +109,6 @@ Details
 
 **Support:** http://mapproxy.org/support.html
 
-.. _asl2:  http://www.apache.org/licenses/LICENSE-2.0.html
 
 Quickstart
 ----------
