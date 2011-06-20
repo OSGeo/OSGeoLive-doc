@@ -39,9 +39,9 @@ Style Layer Descriptor (SLD)
 
 Der OGC® Styled Layer Descriptor (SLD) Standard bietet Konstruktionen zur Symbolisierung und Einfärbung von geographischen Objekten und Rasterdaten. Er wird vor allem genutzt, um Stile auf Web Map Services anzuwenden oder um GML von Web Feature Services zu stylen. (http://www.opengeospatial.org/standards/sld) 
 
-.. image:: ../../images/standards/wms.jpg
+.. image:: ../../images/standards/sld.jpg
   :scale: 55%
-  :alt: WMS in Context
+  :alt: SLD in Context
 
 Exakte Kontrolle über die grafische Ausgestaltung von Daten ist eine fundamentale Bedingung für viele Kartenanwendungen. Die Fähigkeit, regelbasierte Stile zu definieren benötigt eine Sprache, die sowohl Client als auch Server verstehen.
 
