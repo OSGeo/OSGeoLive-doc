@@ -3,52 +3,53 @@
 #  - remove punctuation from email addresses to stop harvesting for junk mail
 Name,Email,Country,Osgeo_id
 Activity Workshop,mail activityworkshop net,Germany,activityworkshop
+Alan Boudreault,aboudreault mapgears.com,Canada,aboudreault
 Alex Mandel, tech wildintellect com,USA,wildintellect
+Alexandre Dube,adube mapgears.com,Canada,adube
 Andrea Antonello,andrea.antonello gmail com,Italy,moovida
 Angelos Tzotsos,tzotsos gmail com,Greece,kalxas
 Anton Patrushev,anton.patrushev gmail com,Japan,anton
 Astrid Emde,astrid.emde wheregroup com,Germany,astrid_emde
 Brian Hamlin,maplabs Light42 com,USA,darkblue_b
+Bruno Binet,bruno.binet camptocamp com,France,bbinet
 Cameron Shorter,Cameron.Shorter lisasoft com,Australia,camerons
-Daniel Kastl, daniel.kastl georepublic de,Japan,dkastl
 Dane Springmeyer,dane dbsgeo com,USA,springmeyer
+Daniel Kastl, daniel.kastl georepublic de,Japan,dkastl
 Eike Hinderk Jürrens, e.h.juerrens 52north org,Germany,ehjuerrens
 Eric Lemoine,eric.lemoine camptocamp com,France,erilem
 Etienne Dube,etdube gmail com,Canada,etdube
 Fran Boon,fran aidiq com,UK,flavour
+Frank Gasdorf,fgdrf users.sourceforge.net,Germany,fgdrf
 François Prunayre,fx prunayre gmail com,France,fxp
 Gavin Treadgold,gav rediguana co nz,New Zealand,rediguana
 Gérald Fenoy,gerald.fenoy geolabs fr,France,djay
 Hamish Bowman,hamish_b yahoo com,New Zealand,hamish
+Haruyuki Seki, hal georepublic co jp,Japan,halsk
 Henry Addo,henry ushahidi com,Ghana,eyedol
 Hernan Olivera,lholivera gmail com,Argentina,hernanolivera
 Ian Turton,ijturton gmail com,USA,ianturton
 Jackie Ng,jumpinjackie gmail com,Australia,jng
-Jorge Sanz,jsanz gvsig com,Spain,jsanz
 Jody Garnett,jgarnett gmail com, Australia,jive
 Johan Van de Wauw,johan vandewauw gmail.com,Belgium,johanvdw
+Jorge Sanz,jsanz gvsig com,Spain,jsanz
 Judit Mays,mays lat-lon de,Germany,jmays
 Klokan Petr Pridal,klokan klokan cz,Switzerland/Czech Republic,klokan
 Kristof Lange,kristof.lange uni-muenster de,Germany,kristoflange
 Lance McKee, lmckee opengeospatial org,USA,
+Manuel Grizonnet,manuel.grizonnet cnes fr,France,manuelgrizonnet
 Mark Leslie,mark leslie lisasoft com,Australia,mleslie
 Massimo Di Stefano,massimodisasha yahoo it,Italy,epifanio
 Michael Owonibi, m.owonibi jacobs-university de, Germany, mowonibi
 Mike Adair, madair dmsolutions ca, Canada, madair
 Nathaniel V. Kelso, nathaniel kelsocartography com, USA,
+Oliver Tonnhofer, olt omniscale de, Germany, olt
 Pirmin Kalberer,pka sourcepole com,Switzerland,pka
 Ricardo Pinho,rpinho_eng yahoo com br,Portugal,rpinho
 Ruth Schoenbuchner,ruth.schoenbuchner csgis.de,Germany, rscsgis
 Sergio Baños,sbc saig es, Spain, sbcalvo
 Simon Cropper,scropper botanicusaustralia com au,Australia,simoncropper
 Simon Pigot,simon.pigot csiro au,Australia,simonp
-Stefan Hansen,stefan.hansen lisasoft com,Australia,shansen
 Stefan A. Tzeggai,gp geopublishing org,Germany,alfonx
-Trevor Wekel,trevor_wekel otxsystems com,Canada,trevorwekel
+Stefan Hansen,stefan.hansen lisasoft com,Australia,shansen
 Thierry Badard,tbadard spatialytics com,Canada,tbadard
-Haruyuki Seki, hal georepublic co jp,Japan,halsk
-Manuel Grizonnet,manuel.grizonnet cnes fr,France,manuelgrizonnet
-Bruno Binet,bruno.binet camptocamp com,France,bbinet
-Alan Boudreault,aboudreault mapgears.com,Canada,aboudreault
-Alexandre Dube,adube mapgears.com,Canada,adube
-Frank Gasdorf,fgdrf users.sourceforge.net,Germany,fgdrf
+Trevor Wekel,trevor_wekel otxsystems com,Canada,trevorwekel
