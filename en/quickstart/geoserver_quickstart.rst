@@ -1,6 +1,6 @@
 :Author: Ian Turton
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
 :Thanks: geoserver-user list
 
 .. |GS| replace:: GeoServer
@@ -36,8 +36,7 @@ Start |GS|
 #. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
 
 .. image:: ../../images/screenshots/800x600/geoserver-login.png
-    :width: 90 %
-    :align: left
+    :width: 80 %
 
 
 First Views
@@ -47,19 +46,16 @@ When you first open the |GS| page you will see the screen above, first you need 
 
 .. image:: ../../images/screenshots/800x600/geoserver-welcome.png
     :width: 90%
-    :align: left
 
-The **Layer Preview** link at the bottom of the left hand menu allows you to see a preview of the layers that are loaded on the server. 
+The **Layer Preview** link at the top of the *Data* section in the left hand menu allows you to see a preview of the layers that are loaded on the server. 
   
 .. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
     :width: 90%
-    :align: left
 
 Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
 .. image:: ../../images/screenshots/800x600/geoserver-preview.png
     :width: 90%
-    :align: left
     
 You can zoom in to the map in three ways:
 
@@ -85,17 +81,7 @@ In this example we are going to use the `Natural Earth data set
 <http://naturalearthdata.com>`_ that is included on the Live-DVD
 (:file:`/usr/local/share/data/natural_earth/`).
 
-First we need to copy the data to the GeoServer data directory
-(:file:`/usr/lib/geotools-2.0.2/data_dir/data`). I created a folder
-called :file:`naturalearth`. I used a terminal window, but I expect you
-can do the same thing in the file manager if you prefer.  ::
-
-        cd /usr/lib/geotools-2.0.2/data_dir/data
-        mkdir naturalearth
-        cp /usr/local/share/data/natural_earth/* naturalearth
-     
-
-Now we need to create a Store for our data. From the |GS| admin page go
+We need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
 will see this page:
 
@@ -113,8 +99,8 @@ Select the :guilabel:`Directory of spatial files`, you will see the following:
     *Filling in the New Store page*
 
 Type in a name for the Data Store - I used *Natural Earth* and fill in
-the URL to the data set - in this case :file:`data/naturaleath`. The
-URL is relative to the |GS| data directory. Press :guilabel:`save`.
+the URL to the data set - in this case :file:`/usr/local/share/data/natural_earth/`. 
+You can use the browse button to find the directory if your data is somewhere else. Press :guilabel:`save`.
 
 .. figure:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
@@ -136,7 +122,7 @@ the fields for you. When you reach :guilabel:`Coordinate Reference System`
 you will notice that under *Native SRS* that it says UNKNOWN [#esri]_
 you will need to fill in the next box (*declared SRS*) to make sure |GS|
 knows where the data is. For the time being trust me and type epsg:4326 in
-the box, if you don't trust me then go to `http://prj2epsg.org/search` and
+the box, if you don't trust me then go to `http://prj2epsg.org/search <http://prj2epsg.org/search>`_ and
 paste in the string you see if you click on the link next to "UNKNOWN".
 Then click on :guilabel:`Compute from data` and :guilabel:`Compute from
 native bounds` to fill in the Bounding Boxes. Finally hit :guilabel:`save`
@@ -146,6 +132,14 @@ and you have published your first layer.
     If you look at this layer in the layer preview it doesn't look
     very good but that is just the default style. In the next section
     we will look at producing a nicer style.
+
+You can follow the same step with the other layers in the directory by using the :guilabel:`Add a new resource` button on the layers page. Just select the natural earth store from the drop down box to get back to the store's page.
+
+.. figure:: ../../images/screenshots/800x600/geoserver-add-layers.png
+    :align: center
+    :width: 90%
+
+    *The layers page*
     
 Styling
 -------
@@ -192,10 +186,10 @@ button (it looks like an artist's palette).
 
 
 This will open the :ref:`Style Pane <Style_Pane>` - in the simple window I can easily
-select a nice blue for the oceans by clicking on the colored box by
-the fill label and choosing from the color picker it produces. I also
+select a nice blue for the oceans by clicking on the colored box on
+the fill tab and choosing from the color picker it produces. I also
 increased the opacity of the fill to 100% to make the color look
-better. 
+better. I picked the same blue for the border color so it would match.
 
 .. _Style_Pane:
 .. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
@@ -243,7 +237,7 @@ section). Then I select the ``Add New Style`` link, at the bottom of
 that page is a file upload box and a browse button. Clicking this
 allows me to hunt around on my hard drive to find the files I just
 saved. Once I've found one I want, I click the upload link (next to the browse
-button) and a copy of my file appears in the editor. 
+button) and a copy of my file appears in the editor. If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don't do anything).
 
 .. figure:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
@@ -260,8 +254,6 @@ Click on the :guilabel:`Layers` link in the Menu on the left of the
 :guilabel:`Publishing` tab and change the :guilabel:`Default Style`
 box to the name of the style you uploaded in the previous section.
 Now go to the Layer Preview page to check that it looks good.
-
-.. TBD check where app-data ends up
 
 There are example style files for all of the example Natural Earth
 layers in :file:`/usr/local/share/geoserver`. 
@@ -306,7 +298,7 @@ from |GS|. This is a list of just some of them
 
 
 .. Rubric:: Footnotes
-.. [#fn1] If you lived in central Pennsylvania in the summer you
-   wouldn't expect green either.
 .. [#esri] there is a perfectly good well known text (WKT) for
     projections but ESRI don't use it.
+.. [#fn1] If you lived in central Pennsylvania in the summer you
+   wouldn't expect green either.
