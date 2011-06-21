@@ -68,16 +68,16 @@ uDig Quickstart
   Eg: For a Business Intelligence application, you should describe what
   Business Intelligence is.
 
-uDig (User Friendly Internet Desktop GIS) ist ein Desktop GIS-Clienr zum Anzeigen und Editieren von rämlichen Daten.
+uDig (User Friendly Internet Desktop GIS) ist ein Desktop GIS-Client zum Anzeigen und Editieren von räumlichen Daten.
 
 .. Writing Tip:
-  Beschreibe, was mit diesem Quickstart Guide abgedeckt wird.
+  Beschreibe, was mit diesem Quickstart Guide erreicht werden soll.
 
 Mit dem Quickstart Guide soll folgendes erreicht werden:
 
   * Hinzufügen von Vektordaten als Layer zur Karte (Shapefile)
   * Hinzufügen eines Layers von einem Web Map Service (WMS) Server
-  * Verwenden eines Standard Kartenwerkzeuges
+  * Verwenden der Standardwerkzeuge zum Navigieren in der Karte
   * Anpassen der Farbe für die Darstellung von Objekten (Style)
 
 .. contents:: Inhalt
@@ -86,25 +86,26 @@ uDig starten
 ==========
 
 .. Writing Tip:
-  Describe steps to start the application
-  This should include a graphic of the pull-down list, with a red circle
-  around the application menu option.
-  #. A hash numbers instructions. There should be only one instruction per
-     hash.
+  beschreibe die Schritte, um die Anwendung zu starten. Hier sollte ein 
+  Bild des Startmenüs mit enthalten sein, auf dem Applikation rot umrandet 
+  hervorhegoben wird, die gestrattet werden soll.
+  #. Ein Gatter ist für die Aufzählung von Einzelschritten zu verwenden. 
+  Es sollte nur eine Anweisung pro Gatter geschrieben werden.
+
 
 .. TBD: Add menu graphic to this uDig Quickstart
 #. :menuselection:`Geospatial --> Desktop GIS --> uDig` im Startmenü des Desktops wählen
 #. nach einem Moment wird die Anwendung gestartet und ein Begrüßungsbildschirm angezeigt
 
-.. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
+  .. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
    :scale: 70 %
 
 Willkommensansicht
 ============
 
-#. Wird uDig erstmalig gestartet, erscheint in der Anwendung die Willkommensansicht maximiert, keine anderen Ansichten werden angezeigt. Diese Ansicht enthält Links zu Tutorials, Dokumentationen und der Projekt-Webseite.
+#. Wird uDig erstmalig gestartet, erscheint die Willkommensansicht, die Links zu Tutorials, Dokumentationen und der Projekt-Webseite enthält. Keine weiteren Ansichten sind sichtbar.
  
-#. Klicken Sie auf das Kreuz des Tabullators 'Workspace', um diese Ansicht zu schließen und den Arbeitsbereich anzuzeigen. 
+#. Bewegen Sie die Maus auf den Pfeil in der oberen rechten Ecke, es erscheint der Text **Workbench**. Klicken Sie auf den Pfeil, um diese Ansicht zu schließen und den Arbeitsbereich anzuzeigen. 
   
   .. image:: ../../images/screenshots/800x600/udig_welcome.png
    :scale: 70 %
@@ -114,53 +115,57 @@ Die Willkommensansicht können Sie jederzeit wieder herstellen, indem Sie im Men
 Arbeitsbereich
 =========
 
-Der Arbeitsbereich stellt in einem Bereich Editoren zur Verfügung, für jede Karte einen, umgeben von Ansichten, die das Arbeiten mit der Karte unterstützen. Viele Ansichten zeigen dabei kontextbezigene nformationen zur aktuellen selektierten Karte an.
+Im Arbeitsbereich gibt es einen Bereich für die Karten, der umgeben ist von Ansichten, die das Arbeiten mit der Karte unterstützen. Viele Ansichten zeigen dabei kontextbezogene Informationen zur aktuell geöffneten und ausgewählten Karte an.
 
   .. image:: ../../images/screenshots/800x600/udig_workbench.png
+   :scale: 70 %
 
-Oben ist eine typischer uDig Arbeitsplatz zu sehen mit Karten (Editoren), einer Projektansicht, dem Layerbaum und einer Katalogansicht. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
+Oben ist eine typischer uDig Arbeitsplatz zu sehen mit Karten (Editoren) sowie Ansichten für Kartenprojekte und Layer. Darüber hinaus gibt es noch die Katalogansicht. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
 
 Dateien
 =====
 
-To start out with we are going to load some of the sample data included on the DVD.
+Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten laden, die auf der DVD enthalten sind.
 
-#. Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add Data** wizard
+#. Wählen Sie :menuselection:`Layer --> Add` vom Applikationsmenü. Es öffnet sich der Wizard **Add Data**.
 
-#. Select **Files** from the list of data sources
+#. Wählen Sie in der Liste der Datenquellentypen **Files** aus.
 
-#. Press :guilabel:`Next` to open up a file dialog
+#. Klicken Sie auf die Schaltfläche :guilabel:`Next`. Es öffnet sich ein Dialog zur Auswahl von Dateien.
 
-#. The OSGeo Live DVD contains sample data in:
+#. Die OSGeo Live DVD enthält Beispieldaten im Ordner:
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
-#. Select the following file from the udig-data folder:
+#. Wählen Sie die folgende Datei aus dem :file:`natural_earth` Ordner aus :
    
-   * :file:`countries.shp`
+   * :file:`10m_admin_0_countries.shp`
    
-#. Press :guilabel:`Open`
+#. Klicken Sie auf die Schaltfläche :guilabel:`Open`
    
-   * A new Map editor will be opened based on the contents of your shapefile. The default name and
-     projection of the Map has been taken from your shapefile.
-   
-   * You can see the **Catalog view** has been updated with an entry for :file:`countries.shp`. This
-     view is used to track the use of resources by the uDig application.
-   
-   * The **Layers** view shows a single layer is displayed on this map. This view is used to change
-     the order and appearance of information in your Map.
-   
-   * The **Projects** view has been updated to show that your map is stored in projects > countries.
-     You can have multiple projects open at a time, each project can have several maps.
+   * Eine neue Karte wird geöffnet, die den Inhalt des Shapefiles anzeigt. Der Name und die 
+     Projektion für die Karte wurden vom Shapefile übernommen (Standardverhalten)
 
-#. Open up your data folder on the desktop
+   * Die Katalogansicht (**Catalog view**) wurde aktualisiert und enthält nun einen Eintrag 
+     für das Shapefile :file:`10m_admin_0_countries.shp`. Diese Ansicht enthält als Liste 
+	 alle Resourcen, die in den unterschiedlichsten Karten der uDig Anwendung verwendet werden.
+   
+   * In der Layeransicht (**Layers**) sehen Sie einen einzigen Eintrag für den Layer der in 
+     der Karte angezeigt wird. Diese Ansicht wird verwendet, um die Reihenfolge mehrerer Layer 
+	 anzupassen und das Darstellungsverhalten eines Layer zu ändern.
+   
+   * Die Projektansicht (**Projects**) wurde ebenfalls aktualisiert und zeigt nun die hinzugefügte 
+     Karte has been gespeichert wurde unter project > 10m admin 0 countries. Es können mehrere 
+	 Projekte geöffnet sein. Jedes Projekt kann wiederum mehere Karten enthalten.
 
-#. Drag :file:`clouds.jpg` onto the Map Editor, a new layer is added to to the map.\
+#. Öffnen Sie den Ordner :file:`~/data/natural_earth/HYP_50M_SR_W` im Home-Verzeichnis mit dem **File Manager**
 
-#. You can see the order the layers are drawn in the layer view. Right now the clouds.jpg layer is drawn
-   ontop of the countries layer.
+#. Ziehen Sie per Drag&Drop die Datei :file:`HYP_50M_SR_W.tif` in die Karte. Ein neuer Layer wird er Karte hinzugefügt.
 
-#. Select the clouds.jpg layer in the catalog view and drag it to the bottom of the list
+#. In welcher Reihenfolge die Layer in der Karte dargestellt werden, sehen Sie in der Layeransicht. Im Moment wird der 
+   Layer `HYP_50M_SR_W` über den Ländergrenzen des Layers `10m admin 0 countries` gezeichnet.
+
+#. Wählen Sie den Layer `HYP_50M_SR_W` in der Layeransicht und schieben diesen per Drag&Drop an das Ende der Liste.
   
   .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
 
@@ -170,31 +175,34 @@ To start out with we are going to load some of the sample data included on the D
   the margin in some printed formats.
 
 .. note::
-   One of the most common questions asked when uDig is considered for an organization is how much memory
-   the application uses. Unlike most GIS applications uDig can get by with a fixed amount of memory. The
-   above shapefile is not loaded into memory, we have a policy of keeping data on disk and drawing data
-   like this shapefile onto the screen as needed.
+   Eine der am häufigsten gestellte Frage bei der Einführung von uDig ist die nach dem Speicherverbrauch.
+   uDig kann im Gegensatz zu anderen GIS Applikationen mit fest zugewiesenem Speicher umgehen. Das Shapfile 
+   wird nicht in den Arbeitsspeicher geladen, wir haben den Grundsatz, die Daten auf dem Filesystem zu 
+   belassen und nur auf Anfrage beim Darstellen in der Karte anzufragen.
 
 .. Writing Tip:
   Tips are used to provide extra useful information, and will 
   likely be rendered in the margin in some printed formats.
 
-.. tip:: You can also drag and drop shapefiles directly into the uDig application!
+.. tip:: Sie können Shapefiles direkt vom File Manager per Drag&Drop in die uDig Anwendung ziehen, um weitere Daten hinzuzufügen!
 
-Map
+Karte
 ===
 
-You can control where in the world the Map Editor is looking by using the navigation tools in the tool bar along the top of the screen.
+Sie können die Karte mit Hilfe der Navigationswerkzeuge anpassen, um den Ausschnitt der Welt anzuzeigen, der für Sie von 
+Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applikationsmenü zu finden.
 
-
-#. The |ZOOM| Zoom tool is available by default
+#. Das Zoomwerkzeug (|ZOOM|) ist nach dem Start standardmäßig aktiv
    
    .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
    
-   * Use the zoom tool by drawing a box using the left mouse button around the area of the wold you wish
-     to see.
-   * To zoom out draw a box with the right mouse button. The current map extents will be located within
-     the box you draw.
+   * Verwenden Sie dieses Werkzeug innerhalb des Kartenfensters und spannen Sie mit Hilfe der Maus ein Rechteck auf. Die Aktion wird begonnen
+     beim ersten Klick mit der linken Maustaste und beendet mit dem zweiten Klick mit der gleichen Maustaste. Zwischen den zwei Klicks können 
+	 Sie die Maus bewegen um das gewünschte Rechteck einzustellen. Mit gelber Farbe wird der potentiell neue Ausschnitt während der Mausbewegung 
+	 mit dargestellt.
+	 
+   * Um den sichtbaren Bereich der Karte zu vergrößern, klicken Sie innerhalb des Kartenfensters mit der rechten Maustaste dahin, wo der neue 
+     Ausschnitt zentriert werden soll.
 
 #. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
   

@@ -109,7 +109,8 @@ Welcome View
 #. Click the arrow labelled Workbench in the upper right corner, to reveal the contents of the uDig workbench.
   
   .. image:: ../../images/screenshots/800x600/udig_welcome.png
-
+   :scale: 70 %
+   
 You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
 
 Workbench
@@ -119,6 +120,7 @@ The Workbench window offers multiple Editors (each showing a Map) and supporting
 information about the current Map).
 
   .. image:: ../../images/screenshots/800x600/udig_workbench.png
+   :scale: 70 %
 
 Shown above is a typical uDig session with the Map editor, Projects view, Layers view and Catalog
 view labelled . These views will be described further as we demonstrate their use.
@@ -166,6 +168,7 @@ To start out with we are going to load some of the sample data included on the D
 #. Select the clouds.jpg layer in the catalog view and drag it to the bottom of the list
   
   .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+   :scale: 70 %
 
 .. Writing Tip:
   Notes are used to provide descriptions and background information without
@@ -194,7 +197,7 @@ You can control where in the world the Map Editor is looking by using the naviga
    
    .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
    
-   * Use the zoom tool by drawing a box using the left mouse button around the area of the wold you wish
+   * Use the zoom tool by drawing a box using the left mouse button around the area of the world you wish
      to see.
    * To zoom out draw a box with the right mouse button. The current map extents will be located within
      the box you draw.
@@ -258,8 +261,9 @@ available layers of information that you can mix into your own maps.
 
 #. Press :guilabel:`Finish` to add these layers to your map
    
-.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
-  
+  .. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+   :scale: 70 %
+
 #. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
 #. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
@@ -304,7 +308,8 @@ Style
 
 #. Using the *Layer* view select timezone, countries and clouds.jpg in turn to see the effect
   
-.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+  .. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+   :scale: 70 %
 
 #. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar
 
