@@ -127,7 +127,7 @@ Dateien
 
 Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten laden, die auf der DVD enthalten sind.
 
-#. Wählen Sie :menuselection:`Layer --> Add` vom Applikationsmenü. Es öffnet sich der Wizard **Add Data**.
+#. Wählen Sie :menuselection:`Layer --> Add...` vom Applikationsmenü. Es öffnet sich der Wizard **Add Data**.
 
 #. Wählen Sie in der Liste der Datenquellentypen **Files** aus.
 
@@ -168,6 +168,7 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
 #. Wählen Sie den Layer `HYP_50M_SR_W` in der Layeransicht und schieben diesen per Drag&Drop an das Ende der Liste.
   
   .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+   :scale: 70 %
 
 .. Writing Tip:
   Notes are used to provide descriptions and background information without
@@ -175,16 +176,12 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
   the margin in some printed formats.
 
 .. note::
-   Eine der am häufigsten gestellte Frage bei der Einführung von uDig ist die nach dem Speicherverbrauch.
-   uDig kann im Gegensatz zu anderen GIS Applikationen mit fest zugewiesenem Speicher umgehen. Das Shapfile 
-   wird nicht in den Arbeitsspeicher geladen, wir haben den Grundsatz, die Daten auf dem Filesystem zu 
-   belassen und nur auf Anfrage beim Darstellen in der Karte anzufragen.
+   Eine oft gestellte Frage bei der Einführung von uDig ist die nach dem Speicherbedarf und -verbrauch.
+   uDig kann im Gegensatz zu anderen GIS Applikationen mit fest zugewiesenem Speicher umgehen. Ein Shapefile 
+   wird z.B. nicht komplett in den Arbeitsspeicher geladen. Wir haben den Grundsatz, die Daten auf dem Filesystem zu 
+   belassen und nur auf Anfrage beim Darstellen in der Karte den relevanten Teil anzufragen.
 
-.. Writing Tip:
-  Tips are used to provide extra useful information, and will 
-  likely be rendered in the margin in some printed formats.
-
-.. tip:: Sie können Shapefiles direkt vom File Manager per Drag&Drop in die uDig Anwendung ziehen, um weitere Daten hinzuzufügen!
+.. tip:: Sie können Shapefiles direkt vom **File Manager** per Drag&Drop in die uDig Anwendung ziehen, um weitere Daten hinzuzufügen!
 
 Karte
 ===
@@ -204,29 +201,28 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
    * Um den sichtbaren Bereich der Karte zu vergrößern, klicken Sie innerhalb des Kartenfensters mit der rechten Maustaste dahin, wo der neue 
      Ausschnitt zentriert werden soll.
 
-#. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
+#. Mit Hilfe des Verschiebewerkzeuges (|PAN|) können sie den Ausschnitt der Karte bewegen, ohne dabei den Maßstab anzupassen.
   
    .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
 
-#. There are also several navigation buttons that can be used at any time:
+#. Weitere Navigationswerkzeuge, die jederzeit genutzt werden können:
  
-   * |SHOWALL| Show All, can be used to return to the full extents at any time
+   * |SHOWALL| Zeige alles, kann verwendet werden, um einen Ausschnitt um alle in der Karte enthaltene Daten einzustellen.
    
      .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
 
-   * |ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by a fixed amount.
+   * Zoom In (|ZOOM_IN|) und Zoom Out (|ZOOM_OUT|) können jederzeit genutzt werden, um den Maßstab um einen fixen Anteil zu vergrößern bzw. zu verkleinern.
 
      .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
      .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
 
-   * You can use Navigation Back |BNAV| and Forward |FNAV|in the menu bar to cycle though previously
-     visited locations.
+   * Sie können mit den Werkzeugen Zurück (|BNAV|) und Vorwärts (|FNAV|) in der Historie der eingestellten Ausschnitte hin und herschalten.
 
 	 .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
-.. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
-   scroll wheel.
+.. tip:: Die meisten Werkzeuge erlauben es Ihnen, bei gedückter mittlerer Maustaste den Ausschnitt zu verschieben und unter Verwendung des 
+         Mausrades den Maßstab anzupassen.
 
 Web Map Server
 ==============
@@ -236,21 +232,17 @@ Web Map Server
    If you are not connected to the internet run **Start GeoServer** for a local WMS. The script
    will open a page with a "wms capabilities" link you can drag into your empty map.
    
-One of the reasons to use an application like uDig is to access all the great free geospatial
-information available on the web. This section covers the use of Web Map Servers which make
-available layers of information that you can mix into your own maps.
+Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung
+von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werden können, um eigene Karten zu erstellen.
 
-.. tip:: You can also connect to Web Map Servers using the Add Data Wizard
-  for Drag and Drop.
+#. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
-#. Select :menuselection:`File --> New --> New Map` from the menu bar
-
-#. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
+#. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
    
   .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
-    :scale: 70 %
+   :scale: 70 %
 
-#. Click on the link *WMS:dm solutions* link
+#. Wählen Sie innerhalb der **Web** Ansicht den Link *WMS:dm solutions* aus
 
 #. From the Resource Selection page we are going to choose the following layers:
 
@@ -258,18 +250,23 @@ available layers of information that you can mix into your own maps.
    * Parks
    * Cities
    
-.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
-  :scale: 70 %
+  .. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+   :scale: 70 %
 
 #. Press :guilabel:`Finish` to add these layers to your map
    
-.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+  .. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+   :scale: 70 %
+  
+.. tip:: Sie können analog zu den Shapefiles auch per Drag&Drop Layer von Web Map Servern 
+         der Karte hinzufügen oder alternativ den **Add Data** Wizard (:menuselection:`Layer --> Add...`) nutzen.
+  
   
 #. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
 #. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
    
-.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
+   .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
 Tip: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
 
@@ -309,7 +306,8 @@ Style
 
 #. Using the *Layer* view select timezone, countries and clouds.jpg in turn to see the effect
   
-.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+  .. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+   :scale: 70 %
 
 #. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar
 

@@ -163,7 +163,7 @@ To start out with we are going to load some of the sample data included on the D
 #. Drag :file:`clouds.jpg` onto the Map Editor, a new layer is added to to the map.\
 
 #. You can see the order the layers are drawn in the layer view. Right now the clouds.jpg layer is drawn
-   ontop of the countries layer.
+   on top of the countries layer.
 
 #. Select the clouds.jpg layer in the catalog view and drag it to the bottom of the list
   
@@ -231,7 +231,7 @@ Web Map Server
 
 .. sidebar:: Offline
 
-   If you are not connected to the internet run **Start GeoServer** for a local WMS. The script
+   If you are not connected to the Internet run **Start GeoServer** for a local WMS. The script
    will open a page with a "wms capabilities" link you can drag into your empty map.
    
 One of the reasons to use an application like uDig is to access all the great free geospatial
@@ -321,7 +321,7 @@ Style
   Continue on with a challenge that involves a small bit of research (it
   is recommended that research be limited to something that can be
   found in documentation packaged on OSGeo Live, as users might not be
-  connected to the internet.
+  connected to the Internet.
 
 Things to Try
 =============
