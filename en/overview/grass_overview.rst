@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _grass-overview:
 
@@ -38,14 +38,14 @@ formats.
    :alt: screenshot
    :align: right
 
-GRASS is currently used around the world in academic and commercial settings
+GRASS is used around the world in academic and commercial settings
 as well as by many governmental agencies and environmental consulting
 companies. It runs on a variety of popular hardware platforms and is Free
 open-source software released under the terms of the GNU General Public License.
 
-The GRASS software includes over 400 built-in analysis modules. Additionally,
-over 100 community supplied modules and toolboxes are available for free
-from the community wiki site. After 27 years of continuous
+The GRASS software includes more than 400 built-in analysis modules.
+Additionally, over 100 community supplied modules and toolboxes are
+available for free from the community wiki site. After 28 years of continuous
 development GRASS is both the oldest and largest Open Source GIS available.
 It is easily scriptable and versatile enough to be used both for batch data
 processing on massively-parallel supercomputers as well as a handy desktop
@@ -67,7 +67,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 6.4.0
+**Software Version:** 6.4.1
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
