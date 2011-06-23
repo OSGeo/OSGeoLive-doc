@@ -54,7 +54,7 @@ Pasos:
     :scale: 70 %
     :alt: boot select
 
-  Probar las aplicaciones desde el menú "GeoSpatial". 
+  Probar las aplicaciones desde el menú :menuselection:`Geospatial`. 
 
 Ver también:
 ---------

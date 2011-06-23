@@ -54,7 +54,7 @@
     :scale: 70 %
     :alt: boot select
 
-  Δοκιμάστε τις εφαρμογές από το μενού "GeoSpatial". 
+  Δοκιμάστε τις εφαρμογές από το μενού :menuselection:`Geospatial`. 
 
 Δείτε ακόμα:
 ---------

@@ -54,7 +54,7 @@ Run:
     :scale: 70 %
     :alt: boot select
 
-  Try the many applications from the "GeoSpatial" menu. 
+  Try the many applications from the :menuselection:`Geospatial` menu. 
 
 See Also:
 ---------
