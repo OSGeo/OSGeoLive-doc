@@ -23,7 +23,7 @@ We have installed many common languages. In order to switch the system you will 
 
 The system menus and many of the applications will now appear in the language choosen. If a specific program continues to display in english there is no translation available currently, please consider volunteering to write a translation. Contact the program of interest directly for more information.
 
-For additional languages see Application → System → Language Support (Requires an internet connection).
+For additional languages see :menuselection:`Application --> System --> Language Support` (Requires an internet connection).
 
 Keyboard Support
 ----------------

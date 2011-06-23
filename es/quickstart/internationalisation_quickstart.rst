@@ -23,7 +23,7 @@ Hemos instalado muchos idiomas comunes. Para cambiar el sistema necesitarás hac
 
 A partir de ahora, los menús de sistema y muchas de las aplicaciones aparecerán en el idioma elegido. Si un programa específico continúa en Inglés, es que todavía no esta disponible la correspondiente traducción, por favor, en ese caso, considera ofrecerte voluntario para traducirlo. Contacta el programa de interés directamente para más información.
 
-Para idiomas adicionales ver: Aplicacion(Application) → Sistema(System) → Soporte de Idioma (Language Support) (Requiere conexión a Internet).
+Para idiomas adicionales ver: :menuselection:`Aplicacion(Application) --> Sistema(System) --> Soporte de Idioma (Language Support)` (Requiere conexión a Internet).
 
 Soporte de teclado
 ------------------

@@ -23,7 +23,7 @@ Zainstalowaliśmy wiele popularnych języków. Aby przełączyć system, należy
 
 Po tych zmianach, menu systemowe oraz wiele aplikacji będzie dostępnych w wybranym języku. Jeśli jakiś program dalej wyświetla się w języku angielskim, oznacza to, że jego tłumaczenie jeszcze nie istnieje - rozważ proszę swój udział w jego tłumaczeniu i skontaktuj się z twórcami programu w celu uzyskania dalszych informacji.
 
-Dla dodatkowych języków, idź do: Application → System → Language Support (Wymaga połaczenia z Internetem).
+Dla dodatkowych języków, idź do: :menuselection:`Application --> System --> Language Support` (Wymaga połaczenia z Internetem).
 
 Obsług aklawiatury
 ----------------
