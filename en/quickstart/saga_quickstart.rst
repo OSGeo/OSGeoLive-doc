@@ -119,7 +119,7 @@ You are now ready to repeat the first steps to create a hillshaded map or explor
 More Information
 ================
 This live dvd contains the SAGA userguide:
- * `SAGA userguide <file:///usr/local/share/saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
+ * `SAGA userguide <../../saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
 More documentation can be found on the SAGA website:
  * http://www.saga-gis.org
 and specifically in the documentation archive:

@@ -93,7 +93,7 @@ Demo
 Documentation
 -------------
 
-* `MapProxy 1.1.0 Documentation <file:///usr/local/share/mapproxy/doc/index.html>`_
+* `MapProxy 1.1.0 Documentation <../../mapproxy/doc/index.html>`_
 
 
 Details

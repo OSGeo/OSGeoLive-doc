@@ -24,12 +24,12 @@
  http://www.ldeo.columbia.edu/res/pi/MB-System/mb-cookbook/
 
 Η έκδοση της τεκμηρίωσης σε μορφή PostScript υπάρχει σε αυτό το LiveDVD στην θέση
- `/usr/local/mbsystem/ps/ <file:///usr/local/mbsystem/ps/>`_
+ `/usr/local/mbsystem/ps/ <../../mbsystem/ps/>`_
 
 Η έκδοση του εγχειριδείου σε μορφή PDF υπάρχει σε αυτό το LiveDVD στην θέση
- `/usr/local/mbsystem/mbcookbook.pdf <file:///usr/local/mbsystem/mbcookbook.pdf>`_
+ `/usr/local/mbsystem/mbcookbook.pdf <../../mbsystem/mbcookbook.pdf>`_
 
 Τα δεδομένα των παραδειγμάτων του εγχειριδίου υπάρχουν σε αυτό το LiveDVD στην θέση
- `/usr/local/mbsystem/examples/ <file:///usr/local/mbsystem/examples/>`_
+ `/usr/local/mbsystem/examples/ <../../mbsystem/examples/>`_
 
 Δείτε επίσης την επιλογή `MB-System entry in the GRASS GIS wiki <http://grass.osgeo.org/wiki/MB-System>`_

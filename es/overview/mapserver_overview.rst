@@ -81,7 +81,7 @@ Demo
 Documentación
 -------------
 
-* `Documentación MapServer 5.6.5  <file:///usr/local/share/mapserver/doc/index.html>`_
+* `Documentación MapServer 5.6.5  <../../mapserver/doc/index.html>`_
 
 
 Detalles

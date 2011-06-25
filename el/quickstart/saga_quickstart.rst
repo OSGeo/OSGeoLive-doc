@@ -106,7 +106,7 @@ If you want to import or export data different modules are present. Το πιο 
 Περισσότερες πληροφορίες
 ================
 Αυτό το live dvd περιέχει τον οδηγό χρήστη του SAGA:
- * `SAGA userguide <file:///usr/local/share/saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
+ * `SAGA userguide <../../saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
 Περισσότερες αναφορές μπορούν να βρεθούν στην ιστοσελίδα του SAGA:
  * http://www.saga-gis.org
 και ειδικότερα στο αρχείο τεκμηρίωσης:

@@ -22,7 +22,7 @@
 εγχειρίδιο εκμάθησης (HTML και PDF) και δεδομένα για να το εκτελέσετε.
 
 Η τεκμηρίωση και το εγχειρίδιο είναι στην θέση
- `/usr/share/doc/gmt/html/ <file:///usr/share/doc/gmt/html/index.html>`_,
+ `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 τα παραδείγματα στην θέση
  `/usr/share/doc/gmt-examples/examples/ <file:///usr/share/doc/gmt-examples/examples/>`_,
 και τα δεδομένα του εγχειριδίου στην θέση

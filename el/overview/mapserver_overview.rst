@@ -81,7 +81,7 @@ MapServer
 Τεκμηρίωση
 -------------
 
-* `Τεκμηρίωση MapServer 5.6.6 <file:///usr/local/share/mapserver/doc/index.html>`_
+* `Τεκμηρίωση MapServer 5.6.6 <../../mapserver/doc/index.html>`_
 
 
 Λεπτομέρειες

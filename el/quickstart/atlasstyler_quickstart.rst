@@ -17,15 +17,15 @@
 
 Εγχειρίδιο
 =======
-* `Εγχειρίδιο του AtlasStyler, στα Γερμανικά, για την έκδοση 1.2 <file:///usr/share/doc/geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
+* `Εγχειρίδιο του AtlasStyler, στα Γερμανικά, για την έκδοση 1.2 <../../geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
 
 Εκπαιδευτικό υλικό
 =========
 
 AtlasStyler (Δημιουργώντας στύλ με το πρότυπο SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Αγγλικά, για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
-* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Γαλλικά, για την έκδοση 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
+* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Αγγλικά, για την έκδοση 1.3 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
+* `Εκπαιδευτικό εγχειρίδιο του AtlasStyler, Γαλλικά, για την έκδοση 1.3 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
 
 Περισσότερο εκαπιδευτικό υλικό στην διεύθυνση `http://en.geopublishing.org <http://en.geopublishing.org>`_ (πρέπει να είστε συνδεδεμένοι στο διαδίκτυο για να δείτε αυτή την ιστοσελίδα).
 

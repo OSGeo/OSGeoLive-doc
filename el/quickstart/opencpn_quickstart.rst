@@ -53,7 +53,7 @@
 =============
 
 * Η τεκμηρίωση είναι διαθέσιμη
-  από `Help menu <file:///usr/local/share/opencpn/doc/help_en_US.html>`_, ή
+  από `Help menu <../../opencpn/doc/help_en_US.html>`_, ή
   online στην διεύθυνση http://www.opencpn.org/docwiki
 
-* Επιπλέον `Getting started tips <file:///usr/local/share/opencpn/doc/tips.html>`_
+* Επιπλέον `Getting started tips <../../opencpn/doc/tips.html>`_

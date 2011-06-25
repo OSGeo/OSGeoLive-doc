@@ -16,21 +16,21 @@ Geopublisher Quickstart
 
 Demo-Atlas
 ==========
-* `Tiny demo atlas with an interactive diagram and a world map on socio-economic data, English, Created for version 1.5 <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_
+* `Tiny demo atlas with an interactive diagram and a world map on socio-economic data, English, Created for version 1.5 <../../geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_
 
 Tutorials
 =========
 Geopublisher (Create and export atlases)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `First "Hands on Geopublisher" tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_EN.pdf>`_
-* `First "Hands on Geopublisher" tutorial, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_FR.pdf>`_
-* `Second "Hands on Geopublisher" tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_EN.pdf>`_
-* `Second "Hands on Geopublisher" tutorial, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_FR.pdf>`_
+* `First "Hands on Geopublisher" tutorial, English, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_EN.pdf>`_
+* `First "Hands on Geopublisher" tutorial, French, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_FR.pdf>`_
+* `Second "Hands on Geopublisher" tutorial, English, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_EN.pdf>`_
+* `Second "Hands on Geopublisher" tutorial, French, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_FR.pdf>`_
 
 AtlasStyler (Styling layers with SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `AtlasStyler Labelling tutorial, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
-* `AtlasStyler tutoriel d'étiquetage SLD, French, Created for version 1.5 <file:///usr/share/doc/geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.5_FR_Tutoriel_d_etiquetage_101006.pdf>`_
+* `AtlasStyler Labelling tutorial, English, Created for version 1.3 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
+* `AtlasStyler tutoriel d'étiquetage SLD, French, Created for version 1.5 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.5_FR_Tutoriel_d_etiquetage_101006.pdf>`_
 
 More tutorials are posted as blog entries at `http://en.geopublishing.org <http://en.geopublishing.org">`_ (you have to be online to visit this webpage).
 
@@ -39,19 +39,19 @@ Manuals
 
 Geopublisher (Create and export atlases)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `Geopublisher manual, French, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
-* `Geopublisher manual, German, Created for version 1.2 <file:///usr/share/doc/geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_    
+* `Geopublisher manual, French, Created for version 1.2 <../../geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
+* `Geopublisher manual, German, Created for version 1.2 <../../geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_    
 
 AtlasStyler (Styling layers with SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `AtlasStyler manual, German, Created for version 1.2 <file:///usr/share/doc/geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
+* `AtlasStyler manual, German, Created for version 1.2 <../../geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
 
 AtlasViewer (How to use atlases created with Geopublisher)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `AtlasViewer manual, French, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
-* `AtlasViewer manual, English, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_ 
-* `AtlasViewer manual, German, Created for version 1.3 <file:///usr/share/doc/geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_  
+* `AtlasViewer manual, French, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
+* `AtlasViewer manual, English, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_ 
+* `AtlasViewer manual, German, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_  
 
 
 Running
@@ -64,7 +64,7 @@ Geopublisher is an end-user application, that allows you to compile and style yo
 
 0) The OSGeo Live DVD uses the Xubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
 
-1) Uncompress the demo atlas: Click on `this link <file:///usr/share/doc/geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ and select 'Open with Archive Manager (default)'. This will open the ZIP file. Next select the third icon in the toolbar to extract and choose 'Desktop' as the target folder. Now you should have a folder 'ChartDemoAtlas' on your desktop. You can close the Archive Manager application.
+1) Uncompress the demo atlas: Click on `this link <../../geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ and select 'Open with Archive Manager (default)'. This will open the ZIP file. Next select the third icon in the toolbar to extract and choose 'Desktop' as the target folder. Now you should have a folder 'ChartDemoAtlas' on your desktop. You can close the Archive Manager application.
 
 3) Now start the Geopublisher application. :menuselection:`Geospatial --> Desktop GIS --> Geopublisher`. Geopublisher starts and will ask you which atlas to open. Select 'atlas.gpa' from folder 'ChartDemoAtlas'. It now loads the atlas. You should see a triparted GUI with a map-pool, data-pool and menu area. This GUI allows you to create and organize multiple multi-language maps.
 

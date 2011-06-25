@@ -71,5 +71,5 @@ What Next?
 
   See also the included documentation_ on this DVD.
 
-.. _documentation: file:///usr/local/share/ossim/
+.. _documentation: ../../ossim/
 

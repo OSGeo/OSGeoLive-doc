@@ -79,7 +79,7 @@ Demo
 Dokumentation
 -------------
 
-* `MapServer 5.6.6 Dokumentation <file:///usr/local/share/mapserver/doc/index.html>`_
+* `MapServer 5.6.6 Dokumentation <../../mapserver/doc/index.html>`_
 * `MapServer 5.6.6 Dokumentation in deutscher Sprache <http://mapserver.org/de/>`_
 
 Details

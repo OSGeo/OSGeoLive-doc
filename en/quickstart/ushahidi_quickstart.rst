@@ -63,4 +63,4 @@ Getting Ushahidi Up and Running
    :alt: ushahidi admin login
    :align: center
 
-The setup up README page is available locally in the `/var/www/ushahidi/readme.html <file:///var/www/ushahidi/readme.html>`_ file.
+The setup up README page is available locally in the `/var/www/ushahidi/readme.html <../../ushahidi/readme.html>`_ file.

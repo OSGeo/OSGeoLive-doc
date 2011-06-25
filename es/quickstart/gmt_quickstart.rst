@@ -22,11 +22,11 @@ algunos scripts de ejemplo (incluida la línea costera de todo el mundo en baja r
 un tutorial en formato (HTML y PDF), y los datos correspondientes del tutorial.
 
 Documentación en HTML y PDF y un tutorial se puede encontrar en
- `/usr/share/doc/gmt/html/ <file:///usr/share/doc/gmt/html/index.html>`_,
+ `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 Ejemplos se pueden encontrar en
- `/usr/share/doc/gmt-examples/examples/ <file:///usr/share/doc/gmt-examples/examples/>`_,
+ `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
 Los datos del tutorial se puede encontrar en
- `/usr/share/doc/gmt-tutorial/tutorial/ <file:///usr/share/doc/gmt-tutorial/tutorial/>`_.
+ `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
 
 la línea costera de todo el mundo a baja resolución se puede encontrar en /usr/share/gmt/coast/.
 

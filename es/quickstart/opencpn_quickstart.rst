@@ -52,10 +52,10 @@ Documentación
 =============
 
 * La documentación esta disponible en el 
-  `Menú de Ayuda <file:///usr/local/share/opencpn/doc/help_en_US.html>`_, u
+  `Menú de Ayuda <../../opencpn/doc/help_en_US.html>`_, u
   online en http://www.opencpn.org/docwiki
 
-*  `Consejos para iniciar <file:///usr/local/share/opencpn/doc/tips.html>`_
+*  `Consejos para iniciar <../../opencpn/doc/tips.html>`_
 
 
 Ver También

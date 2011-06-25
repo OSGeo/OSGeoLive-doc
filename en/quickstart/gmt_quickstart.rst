@@ -22,11 +22,11 @@ example scripts (including a low resolution worldwide coastline),
 tutorial (HTML and PDF), and data sets for the tutorial.
 
 HTML and PDF documentation and tutorial can be found in
- `/usr/share/doc/gmt/html/ <file:///usr/share/doc/gmt/html/index.html>`_,
+ `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 examples can be found in
- `/usr/share/doc/gmt-examples/examples/ <file:///usr/share/doc/gmt-examples/examples/>`_,
+ `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
 and tutorial data can be found in
- `/usr/share/doc/gmt-tutorial/tutorial/ <file:///usr/share/doc/gmt-tutorial/tutorial/>`_.
+ `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
 
 The low resolution coastline can be found in /usr/share/gmt/coast/.
 

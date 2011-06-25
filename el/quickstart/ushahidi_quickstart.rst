@@ -63,4 +63,4 @@
    :alt: ushahidi admin login
    :align: center
 
-Η σελίδα ρυθμίσεων README είναι διαθέσιμη τοπικά στο αρχείο `/var/www/ushahidi/readme.html <file:///var/www/ushahidi/readme.html>`_ .
+Η σελίδα ρυθμίσεων README είναι διαθέσιμη τοπικά στο αρχείο `/var/www/ushahidi/readme.html <../../ushahidi/readme.html>`_ .
