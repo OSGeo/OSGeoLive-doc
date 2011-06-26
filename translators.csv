@@ -3,10 +3,13 @@
 #  - remove punctuation from email addresses to stop harvesting for junk mail
 Language,i18n code, Name, Country, Email, Osgeo_id
 Spanish,es,Javier Sanchez,Spain,jsgisdev gmail com,jsanchez
-Spanish,es,Jorge Sanz,Spain,jsanz osgeo org,
+Spanish,es,Jorge Sanz,Spain,jsanz osgeo org,jsanz
 Spanish,es,Valenty Gonzalez,Venezuela,vgonzalez gvsig com,gvalenty
 Spanish,es,Hernan Olivera,Argentina,lholivera gmail com,hernanolivera
 Spanish,es,Mauricio Pazos,Spain,mauricio.pazos gmail com,mpazos
+Spanish,es,Agustín Díez,Spain,adiez uv es,
+Spanish,es,Samuel Mesa,Colombia,samuelmesa gmail com,
+Spanish,es,Jesús Gómez,Spain,je_gomez terra es,
 Italian,it,Massimo Di Stefano,Italy,massimodisasha gmail com,
 Italian,it,Marco Puppin,Italy,puppingeo gmail com,
 Italian,it,Anne Ghisla,Italy,a ghisla gmail com,aghisla

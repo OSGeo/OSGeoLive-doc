@@ -11,18 +11,18 @@
 	:target: http://www.pgrouting.org
 
 ********************
-Guía de inicio rápido para pgRouting 
+GuÃ­a de inicio rÃ¡pido para pgRouting 
 ********************
 
-pgRouting es una extensión de `PostGIS <http://www.postgis.org>`_ la cual añade funcionalidades de ruteo a `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
+pgRouting es una extensiÃ³n de `PostGIS <http://www.postgis.org>`_ la cual aÃ±ade funcionalidades de ruteo a `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
 
-Esta guía de inicio rápido describe cómo abrir una base de datos desde la línea de comandos y ejecutar una consulta de camino más corto con unos datos de prueba.
+Esta guÃ­a de inicio rÃ¡pido describe cÃ³mo abrir una base de datos desde la lÃ­nea de comandos y ejecutar una consulta de camino mÃ¡s corto con unos datos de prueba.
 
 
-Ejecución de pgRouting
+EjecuciÃ³n de pgRouting
 =================
 
-* Abra una ventana de terminal :menuselection:`Aplicaciones --> Accesorios --> Ventana de Terminal` y conéctese a la base de datos de ``pgrouting`` :
+* Abra una ventana de terminal :menuselection:`Aplicaciones --> Accesorios --> Ventana de Terminal` y conÃ©ctese a la base de datos de ``pgrouting`` :
 
 .. code-block:: bash
 
@@ -43,7 +43,7 @@ Ejecución de pgRouting
 	 public | ways                | table    | postgres
 	(6 rows)
 
-* Ejecutar la función ruta más corta usando algoritmo de Dijkstra:
+* Ejecutar la funciÃ³n ruta mÃ¡s corta usando algoritmo de Dijkstra:
 
 .. code-block:: sql
 
@@ -66,7 +66,7 @@ Ejecución de pgRouting
     	   359 |      -1 |                   0
     (82 rows)
 
-* Para obtener el resultado del ruteo en un formato diferente, pruebe la siguiente función:
+* Para obtener el resultado del ruteo en un formato diferente, pruebe la siguiente funciÃ³n:
 
 .. code-block:: sql
 
@@ -87,14 +87,14 @@ Ejecución de pgRouting
 * Con el comando:`\\q` abandonara la consola de PostgreSQL.
 
 
-¿Y ahora qué?
+Â¿Y ahora quÃ©?
 ==========
 
-* **Sitio web de pgRouting** - Visite el sitio web del proyecto http://www.pgrouting.org para aprender más sobre pgRouting.
+* **Sitio web de pgRouting** - Visite el sitio web del proyecto http://www.pgrouting.org para aprender mÃ¡s sobre pgRouting.
 
-* **Taller en DVD** - Incluido en el LiveDVD del FOSS4G 2010 pgRouting workshop `"FOSS4G ruteo con herramientas de pgRouting, OpenStreetMap datos de vías y GeoEx"`, disponibles en: :file:`/usr/share/pgrouting/workshop/`
+* **Taller en DVD** - Incluido en el LiveDVD del FOSS4G 2010 pgRouting workshop `"FOSS4G ruteo con herramientas de pgRouting, OpenStreetMap datos de vÃ­as y GeoEx"`, disponibles en: :file:`/usr/share/pgrouting/workshop/`
 
 .. Nota::
 
-	Para actualizar a la última versión del tutorial, abra una ventana de terminal, a continuación, ejecute ``sudo apt-get update && apt-get upgrade pgrouting-workshop``
+	Para actualizar a la Ãºltima versiÃ³n del tutorial, abra una ventana de terminal, a continuaciÃ³n, ejecute ``sudo apt-get update && apt-get upgrade pgrouting-workshop``
 

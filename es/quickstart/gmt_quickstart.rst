@@ -11,24 +11,24 @@
   :target: http://gmt.soest.hawaii.edu
 
 **************
-Gu韆 de inicio r醦ido para GMT 
+Gu铆a de inicio r谩pido para GMT 
 **************
 
-Ejecuci髇 de GMT
+Ejecuci贸n de GMT
 =======
 
-Incluido en este LiveDVD esta la documentaci髇 de GMT en formatos (HTML y PDF),
-algunos scripts de ejemplo (incluida la l韓ea costera de todo el mundo en baja resoluci髇),
+Incluido en este LiveDVD esta la documentaci贸n de GMT en formatos (HTML y PDF),
+algunos scripts de ejemplo (incluida la l铆nea costera de todo el mundo en baja resoluci贸n),
 un tutorial en formato (HTML y PDF), y los datos correspondientes del tutorial.
 
-Documentaci髇 en HTML y PDF y un tutorial se puede encontrar en
+Documentaci贸n en HTML y PDF y un tutorial se puede encontrar en
  `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 Ejemplos se pueden encontrar en
  `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
 Los datos del tutorial se puede encontrar en
  `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
 
-la l韓ea costera de todo el mundo a baja resoluci髇 se puede encontrar en /usr/share/gmt/coast/.
+la l铆nea costera de todo el mundo a baja resoluci贸n se puede encontrar en /usr/share/gmt/coast/.
 
 .. paquetes:
   gmt-doc (and -pdf)
@@ -42,7 +42,7 @@ Ejemplos
 
 Hay 29 rutinas de ejemplo construidas y un script para ejecutarlas todas:
 
-Abrir una ventana de terminal, y despu閟 escribir:
+Abrir una ventana de terminal, y despu茅s escribir:
 
 ::
 
@@ -62,7 +62,7 @@ Vea los resultados: ( Escriba 'q' para salir de gv)
   done
   
   
-Vea tambi閚:
+Vea tambi茅n:
 ---------
 
 * **Sitio web de GNU GV** - Ghostview  http://www.gnu.org/software/gv/

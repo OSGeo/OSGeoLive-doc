@@ -14,18 +14,18 @@
 GpsDrive
 ========
 
-Software de navegaciÛn GPS
+Software de navegaci√≥n GPS
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-`GpsDrive <http://www.gpsdrive.de>`_ es un sistema de navegaciÛn para vehiculos(bicicletas,botes,aviones,personas). 
-GpsDrive muestra la posiciÛn enviada por un dispositivo GPS en un mapa con capacidades de zoom. 
-El archivo del mapa es auto-seleccionado en funciÛn de su posiciÛn y la escala preferida. 
-Todos los receptores GPS que soporten el protocolo NMEA deberÌan funcionar, asÌ como muchos 
+`GpsDrive <http://www.gpsdrive.de>`_ es un sistema de navegaci√≥n para vehiculos(bicicletas,botes,aviones,personas). 
+GpsDrive muestra la posici√≥n enviada por un dispositivo GPS en un mapa con capacidades de zoom. 
+El archivo del mapa es auto-seleccionado en funci√≥n de su posici√≥n y la escala preferida. 
+Todos los receptores GPS que soporten el protocolo NMEA deber√≠an funcionar, as√≠ como muchos 
 recepores GPS USB mediante el uso de un protocolo binario conocido como `Gpsd <http://gpsd.berlios.de>`_ 
 el cual actua como demonio y multiplexor de GPS.
 
 
-CaracterÌsticas principales
+Caracter√≠sticas principales
 -------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
@@ -33,35 +33,35 @@ CaracterÌsticas principales
   :alt: screenshot
   :align: right
 
-* Descargue datos de la Web de LANDSAT u OpenStreetMap, o si prefiere, registre sus propias im·genes
-* RepresentaciÛn en vivo de los datos almacenados en OpenStreetMap sobre una base de datos PostGIS usando Mapnik
-* RepresentaciÛn en vivo del mosaico de alta resoluciÛn de la NASA (Blue Marble)
+* Descargue datos de la Web de LANDSAT u OpenStreetMap, o si prefiere, registre sus propias im√°genes
+* Representaci√≥n en vivo de los datos almacenados en OpenStreetMap sobre una base de datos PostGIS usando Mapnik
+* Representaci√≥n en vivo del mosaico de alta resoluci√≥n de la NASA (Blue Marble)
 * Instrucciones verbales usando el sintetizador de voz eSpeak
-* Entorno e interfaz gr·fica de usuario (GUI) altamente personalizable
+* Entorno e interfaz gr√°fica de usuario (GUI) altamente personalizable
 * Soporte de rutas en formato GPX, una serie de opciones de almacenamiento para sitios de referencia
   en formato SQLite y archivos planos de texto compatibles con GPSBabel   
 * Busqueda de sitios de interes (POI) en un radio determinado
-* PlanificaciÛn de rutas
+* Planificaci√≥n de rutas
 * Servidor incluido para realizar seguimiento de las posiciones de sus amigos.
-* IntegraciÛn con software Kismet Wifi
+* Integraci√≥n con software Kismet Wifi
 
 Detalles
 -------
 
 **Sitio web:** http://www.gpsdrive.de
 
-**Licencia:** GNU General Public License (GPL) VersiÛn 2
+**Licencia:** GNU General Public License (GPL) Versi√≥n 2
 
-**VersiÛn del software:** 2.11
+**Versi√≥n del software:** 2.11
 
 **Plataformas compatibles:** GNU/Linux, Mac OSX
 
 **Soporte:** http://gpsdrive.de/support.shtml
 
 
-GuÌa de inicio r·pido
+Gu√≠a de inicio r√°pido
 ----------
 
-* `DocumentaciÛn para un inicio r·pido <../quickstart/gpsdrive_quickstart.html>`_
+* `Documentaci√≥n para un inicio r√°pido <../quickstart/gpsdrive_quickstart.html>`_
 
 

@@ -1,4 +1,4 @@
-:Author: Sergio Ba帽os Calvo
+:Author: Sergio Ba脙卤os Calvo
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -16,44 +16,44 @@ Kosmo Escritorio
 SIG de escritorio
 ~~~~~~~~~~~
 
-Kosmo - Cliente de Escritorio es una amigable aplicaci髇 SIG de escritorio que permite explorar, editar
+Kosmo - Cliente de Escritorio es una amigable aplicaci贸n SIG de escritorio que permite explorar, editar
 y analizar datos espaciales desde una variedad de bases de datos, formatos vectoriales y formatos raster.
 
-Kosmo Escritorio cumple los est醤dares OGC y proporciona una excelente integridad topol骻ica.
-Su arquitectura de extensiones permite personalizarlo f醕ilmente para fines espec韋icos.
+Kosmo Escritorio cumple los est谩ndares OGC y proporciona una excelente integridad topol贸gica.
+Su arquitectura de extensiones permite personalizarlo f谩cilmente para fines espec铆ficos.
 
 .. image:: ../../images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Caracter韘ticas principales
+Caracter铆sticas principales
 -------------
 
 Formatos soportados:
 
-* Formatos de archivo vectorial: Shapefiles, GML, DXF, DWG, DGN, CSV (por extensi髇)
+* Formatos de archivo vectorial: Shapefiles, GML, DXF, DWG, DGN, CSV (por extensi贸n)
 * Bases de datos vectoriales: PostgreSQL + PostGIS, Oracle, MySQL
 * Formatos de archivos raster: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
 * Servicios OGC: 1.0.0/1.1.0/1.3.0 WMS, WFS 1.0.0/1.1.0
 
-Caracter韘ticas clave:
+Caracter铆sticas clave:
 
-* Interfaz gr醘ica de usuario amigable, centrada en una f醕il curva de aprendizaje.
-* Disponible en 11 idiomas (ingl閟, espa駉l, italiano, alem醤, croata, checo, ruso, eslovaco, catal醤, euskera, portugu閟 brasile駉)
-* M骴ulo de impresi髇 avanzado basado en la suite de ofim醫ica OpenOffice (mediante el uso de extensi髇)
-* Reglas de coherencia topologica: antes/durante/despu閟 de la edici髇
-* Validaci髇 de topolog韆 y herramientas de limpieza (intersecci髇/eliminar/limpiar)
-* Extensi髇 con asistente para geoprocesamiento: b鷉er/disolver/juntar/recortar/intersecci髇 espacial/diferencia (mediante el uso de extensi髇)
-* Herramienta de georreferencing raster (mediante el uso de extensi髇)
-* Sextante 0.5 integrado (mediante el uso de extensi髇)
+* Interfaz gr谩fica de usuario amigable, centrada en una f谩cil curva de aprendizaje.
+* Disponible en 11 idiomas (ingl茅s, espa帽ol, italiano, alem谩n, croata, checo, ruso, eslovaco, catal谩n, euskera, portugu茅s brasile帽o)
+* M贸dulo de impresi贸n avanzado basado en la suite de ofim谩tica OpenOffice (mediante el uso de extensi贸n)
+* Reglas de coherencia topologica: antes/durante/despu茅s de la edici贸n
+* Validaci贸n de topolog铆a y herramientas de limpieza (intersecci贸n/eliminar/limpiar)
+* Extensi贸n con asistente para geoprocesamiento: b煤fer/disolver/juntar/recortar/intersecci贸n espacial/diferencia (mediante el uso de extensi贸n)
+* Herramienta de georreferencing raster (mediante el uso de extensi贸n)
+* Sextante 0.5 integrado (mediante el uso de extensi贸n)
 
-Est醤dares implementados
+Est谩ndares implementados
 ---------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
-* Styled Layer Descriptor (SLD) (importaci髇/exportaci髇)
+* Styled Layer Descriptor (SLD) (importaci贸n/exportaci贸n)
 
 
 Detalles
@@ -63,7 +63,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versi髇 del software:** 2.0
+**Versi贸n del software:** 2.0
 
 **Plataformas soportadas:** Windows, Linux
 
@@ -72,7 +72,7 @@ Detalles
 **Soporte comercial:** http://www.saig.es/index.php?lang=en
 
 
-Inicio r醦ido
+Inicio r谩pido
 ----------
     
-* `Documentaci髇 de inicio r醦ido <../quickstart/kosmo_quickstart.html>`_
+* `Documentaci贸n de inicio r谩pido <../quickstart/kosmo_quickstart.html>`_
