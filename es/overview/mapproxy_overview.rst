@@ -92,7 +92,7 @@ Demo
 Documentación
 -------------
 
-* `Documentación de MapProxy 1.1.0 <../../mapproxy/doc/index.html>`_
+* `Documentación de MapProxy 1.1.1 <../../mapproxy/doc/index.html>`_
 
 
 Detalles
@@ -102,7 +102,7 @@ Detalles
 
 **Licencia:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versión del Software:** 1.1.0
+**Versión del Software:** 1.1.1
 
 **Platformas Soportadas:** Linux, Mac, Windows
 
