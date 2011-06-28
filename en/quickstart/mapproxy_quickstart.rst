@@ -89,9 +89,7 @@ MapProxy will automatically reload if you change your configuration file.
 What Next?
 ----------
 
-* Read the documentation_ of MapProxy
+* Read the `documentation_ of MapProxy <../../mapproxy/doc/index.html>`_
 
 * Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)
-
-.. _documentation: http://mapproxy.org/docs/latest/
 
