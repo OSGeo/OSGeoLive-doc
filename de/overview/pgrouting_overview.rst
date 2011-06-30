@@ -1,5 +1,5 @@
 :Author: Daniel Kastl
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _pgrouting-overview:
@@ -61,9 +61,9 @@ Details
 
 **Kommerzieller Support:** http://www.pgrouting.org
 
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/pgrouting_quickstart.html>`_
+* `Quickstart Dokumentation <../quickstart/pgrouting_quickstart.html>`_
 
 

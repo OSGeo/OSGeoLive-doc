@@ -1,5 +1,5 @@
 :Author: Daniel Kastl
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _pgrouting-overview:

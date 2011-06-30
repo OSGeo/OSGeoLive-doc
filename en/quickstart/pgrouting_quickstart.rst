@@ -1,5 +1,5 @@
 :Author: Daniel Kastl
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _pgrouting-quickstart:
@@ -92,7 +92,7 @@ What next?
 
 * **pgRouting Website** - Visit the project website http://www.pgrouting.org to learn more about pgRouting.
 
-* **Workshop on DVD** - Included on this LiveDVD is the FOSS4G 2010 pgRouting workshop `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoEx"`, available in: :file:`/usr/share/pgrouting/workshop/`
+* **Workshop on DVD** - Included on this LiveDVD is the FOSS4G 2010 pgRouting workshop `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoExt"`, available in: :file:`/usr/share/pgrouting/workshop/`
 
 .. note::
 
