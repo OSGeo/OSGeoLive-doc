@@ -56,7 +56,7 @@ Details
 
 **Lizenz:** BSD License
 
-**Software Version:** 2.0
+**Software Version:** 2.2
 
 **Unterstützte Platformen:** Windows, Linux, Mac
 

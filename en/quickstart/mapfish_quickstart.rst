@@ -41,9 +41,9 @@ Install MapFish
 To install MapFish, download the installation script, and execute it from a
 terminal::
 
-    $ wget http://www.mapfish.org/downloads/go-mapfish-framework-2.0.py
+    $ wget http://www.mapfish.org/downloads/go-mapfish-framework-2.2.py
 
-    $ python go-mapfish-framework-2.0.py --no-site-packages venv
+    $ python go-mapfish-framework-2.2.py --no-site-packages venv
 
 The above command creates the virtual Python environment in the ``venv``
 directory, fetches MapFish and its dependencies and install them all in the
@@ -95,7 +95,7 @@ application that includes a map with two `OSM layers
 
 The MapFish framework offers more than that. In particular it allows easily
 creating RESTful web services for creating, reading, updating and deleting
-features. Please visit http://mapfish.org/doc/2.0/quickstart.html to learn
+features. Please visit http://mapfish.org/doc/2.2/quickstart.html to learn
 how to create such RESTful web services and http://mapfish.org to learn more
 about MapFish.
 

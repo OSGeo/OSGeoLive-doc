@@ -58,7 +58,7 @@ Szczegóły
 
 **Licencja:** BSD
 
-**Wersja programu:** 2.0
+**Wersja programu:** 2.2
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
