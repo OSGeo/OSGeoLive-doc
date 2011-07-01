@@ -1,5 +1,5 @@
 :Author: Johannes Wilden
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _deegree-overview:
@@ -72,7 +72,7 @@ Some example features
   * datasources: images (tif, png, jpeg, gif, bmp); GeoTIFF; ECW files; Oracle GeoRaster
   * high-speed access to large coverages
 
-* Catalogue Service-Web
+* Catalogue Service
 
   * datasources: PostgreSQL-Database; Oracle-Database
   * supported requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
@@ -110,7 +110,7 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 2.3
+**Software Version:** 3.0
 
 **Supported Platforms:** Windows, Linux
 
