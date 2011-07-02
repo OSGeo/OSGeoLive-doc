@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Version: osgeo-live4.5
 :License: Creative Commons
@@ -24,7 +24,7 @@ This Quick Start describes how to:
 Start GeoExt viewer
 ===================
 
-OSGeo Live contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS mapserver for rendering the map.
+OSGeo-Live contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS mapserver for rendering the map.
 
 * Click :menuselection:`Desktop --> Spatial Tools --> QGIS Mapserver`
 

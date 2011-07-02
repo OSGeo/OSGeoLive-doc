@@ -10,7 +10,6 @@ TMP	      = /tmp/osgeolive_make
 #TRANSLATIONS  = de el es it ja ro pl
 TRANSLATIONS  =  de el es    ja    pl
 LANGUAGES     = en $(TRANSLATIONS)
-VERSION       = $(shell cat ../VERSION.txt)
 START_DIR     = $(shell pwd)
 
 # Internal variables.
@@ -112,17 +111,6 @@ index2: sphinxbuild
 	  done; \
 	done
 
-version: sphinxbuild
-	# Insert version number after "OSGeo-Live" in <h1> headings
-	for FILE in \
-	  $(BUILDDIR)/html/*/*.html \
-	  $(BUILDDIR)/html/*/quickstart/quickstart.html \
-	  $(BUILDDIR)/html/*/overview/overview.html \
-	; do \
-	  sed -e "s#\(OSGeo-Live\)#\1 $(VERSION)#" $$FILE > $(TMP) ;\
-	  mv $(TMP) $$FILE ;\
-	done
-
 win_installer_links: sphinxbuild 
 	# Create symbolic link to windows and mac installer directories,
 	# otherwise remove hyperlink to the directory in index.html
@@ -162,7 +150,7 @@ test_page: Live_GIS_Disc_Testing.html sphinxbuild
 	
 
 
-html: sphinxbuild fix_header_links version banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
+html: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml

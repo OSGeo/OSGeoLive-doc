@@ -1,4 +1,4 @@
-Συγγραφεας: OSGeo Live
+Συγγραφεας: OSGeo-Live
 Συγγραφεας: Astrid Emde
 Συγγραφεας: Christoph Baudson
 Συγγραφεας: Arnulf Christl

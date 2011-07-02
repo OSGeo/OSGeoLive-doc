@@ -40,7 +40,7 @@
 .. Writing Tip:
   Metadaten des Dokumentes 
 
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Jody Garnett
 :Author: Micheal Bedward
 :Author: Frank Gasdorf
@@ -133,7 +133,7 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
 
 #. Klicken Sie auf die Schaltfläche :guilabel:`Next`. Es öffnet sich ein Dialog zur Auswahl von Dateien.
 
-#. Die OSGeo Live DVD enthält Beispieldaten im Ordner:
+#. Die OSGeo-Live DVD enthält Beispieldaten im Ordner:
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
@@ -318,7 +318,7 @@ Style
   with something most people can do based on the materials as presented.
   Continue on with a challenge that involves a small bit of research (it
   is recommended that research be limited to something that can be
-  found in documentation packaged on OSGeo Live, as users might not be
+  found in documentation packaged on OSGeo-Live, as users might not be
   connected to the internet.
 
 Things to Try

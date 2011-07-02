@@ -1,7 +1,7 @@
 Kontakt
 ==========
 
-Prace nad OSGeo Live są koordynowane za pomoca poczty elektronicznej oraz chatu internetowego
+Prace nad OSGeo-Live są koordynowane za pomoca poczty elektronicznej oraz chatu internetowego
 (IRC), szczegóły na stronie:
 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 

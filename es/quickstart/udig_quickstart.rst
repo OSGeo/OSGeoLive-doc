@@ -32,7 +32,7 @@
 .. Writing Tip:
   Metadata about this document
 
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Jody Garnett
 :Author: Micheal Bedward
 :Version: osgeo-live4.0
@@ -130,7 +130,7 @@ Para comenzar vamos a cargar algunos de los datos de ejemplo incluidos en el DVD
 
 #. Presione :guilabel:`Next` para abrir el diálogo de archivo
 
-#. El OSGeo Live DVD contiene los datos de ejemplo en:
+#. El OSGeo-Live DVD contiene los datos de ejemplo en:
 
    * :file:`~/data` (el camino corto es :file:`/usr/local/share/data`)
 
@@ -311,7 +311,7 @@ Estilo
   with something most people can do based on the materials as presented.
   Continue on with a challenge that involves a small bit of research (it
   is recommended that research be limited to something that can be
-  found in documentation packaged on OSGeo Live, as users might not be
+  found in documentation packaged on OSGeo-Live, as users might not be
   connected to the internet.
 
 Cosas para Probar

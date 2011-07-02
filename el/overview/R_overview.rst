@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo Live
+:Συγγραφέας: OSGeo-Live
 :Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 

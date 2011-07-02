@@ -76,7 +76,7 @@ currently active workspace (it can only have one workspace to be active), other 
 workspaces and official workspaces, which you can import (internet access required).
 
 
-deegree 3 workspaces on the OSGeo Live GIS Disc
+deegree 3 workspaces on the OSGeo-Live GIS Disc
 ===============
 
   * deegree-workspace-utah
@@ -104,7 +104,7 @@ You can find more detailed information and step-by-step tutorials for configurin
 at the deegree wiki page: http://wiki.deegree.org/deegreeWiki/deegree3/UtahDemo
 
 
-More deegree 3 workspaces on the OSGeo Live GIS Disc:
+More deegree 3 workspaces on the OSGeo-Live GIS Disc:
 
   * deegree-workspace-csw (Catalogue Service / wiki page: http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService)
   * deegree-workspace-wps (Web Processing Service / wiki page: http://wiki.deegree.org/deegreeWiki/deegree3/ProcessingService)

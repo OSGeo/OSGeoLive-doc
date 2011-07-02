@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Astrid Emde
 :Author: Christoph Baudson
 :Author: Arnulf Christl

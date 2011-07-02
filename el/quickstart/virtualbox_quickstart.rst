@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo Live
+:Συγγραφέας: OSGeo-Live
 :Συγγραφέας: Cameron Shorter
 :Έκδοση: osgeo-live4.0
 :Άδεια: Creative Commons

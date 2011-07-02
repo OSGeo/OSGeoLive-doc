@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Version: osgeo-live4.5
 :License: Creative Commons
@@ -70,7 +70,7 @@ Crear un nuevo proyecto de QGIS
 
 Para aprender más sobre QGIS, un punto de partida es la `Página de Documentación`_ en el sitio web de QGIS.
 
-OSGeo Live contiene `Una breve introducción a los SIG`_  y la `Guía de usuario de QGIS`_.
+OSGeo-Live contiene `Una breve introducción a los SIG`_  y la `Guía de usuario de QGIS`_.
 
 .. _`Página de documentación`: http://www.qgis.org/en/documentation.html
 .. _`Una breve introducción a los SIG`: file:///usr/local/share/qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf

@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Mike Adair
 :Version: osgeo-live5.0
 :License: Creative Commons

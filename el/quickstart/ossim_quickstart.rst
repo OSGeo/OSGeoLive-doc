@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo Live
+:Συγγραφέας: OSGeo-Live
 :Συγγραφέας: Massimo Di Stefano
 :Συγγραφέας: Pirmin Kalberer
 :Έκδοση: osgeo-live4.0

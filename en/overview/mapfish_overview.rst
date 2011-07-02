@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
 :Version: osgeo-live4.0

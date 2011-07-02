@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Version: osgeo-live4.5
 :License: Creative Commons
@@ -70,7 +70,7 @@ What Next?
 
 To learn more about QGIS, a starting point is the `Documentation page`_ on the QGIS homepage.
 
-OSGeo Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`_.
+OSGeo-Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`_.
 
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf

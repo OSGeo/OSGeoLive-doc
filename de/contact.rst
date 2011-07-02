@@ -2,7 +2,7 @@ Kontakt
 ==========
 
 
-Die Entwicklung von OSGeo Live wird mittels Email und Chat (IRC) organisiert. Details hierzu wurden im 
+Die Entwicklung von OSGeo-Live wird mittels Email und Chat (IRC) organisiert. Details hierzu wurden im 
 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_ zusammengetragen.
 
 

@@ -1,5 +1,5 @@
 
-:Autor: OSGeo Live
+:Autor: OSGeo-Live
 :Autor: Cameron Shorter
 :Versión: osgeo-live4.0
 :Licencia: Creative Commons

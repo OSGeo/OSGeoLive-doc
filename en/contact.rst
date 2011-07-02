@@ -1,7 +1,7 @@
 Contact Us
 ==========
 
-OSGeo Live development is coordinated via email and internet chat
+OSGeo-Live development is coordinated via email and internet chat
 (IRC) as detailed on the
 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 

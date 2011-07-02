@@ -62,7 +62,7 @@ Getting Started
 
 Geopublisher is an end-user application, that allows you to compile and style your geodata and publish it to the world quickly. This DVD contains a small demo atlas, that you can use as a base before adding you own data.
 
-0) The OSGeo Live DVD uses the Xubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
+0) The OSGeo-Live DVD uses the Xubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
 
 1) Uncompress the demo atlas: Click on `this link <../../geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ and select 'Open with Archive Manager (default)'. This will open the ZIP file. Next select the third icon in the toolbar to extract and choose 'Desktop' as the target folder. Now you should have a folder 'ChartDemoAtlas' on your desktop. You can close the Archive Manager application.
 

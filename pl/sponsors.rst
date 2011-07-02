@@ -11,7 +11,7 @@ Firma LISAsoft zapewnia zasoby i kadry do zebrania oprogramowania i pakowania OS
  :alt: Information Center for the Environment at the University of California, Davis
  :target: http://ice.ucdavis.edu
 
-Information Center for the Environment at the University of California, Davis zapewnia techniczne zasoby oraz programistyczne wsparcie projektu OSGeo Live.
+Information Center for the Environment at the University of California, Davis zapewnia techniczne zasoby oraz programistyczne wsparcie projektu OSGeo-Live.
 
 .. image:: ../images/logos/OSDM_stacked.png
  :alt: The Australian Government's Office of Spatial Data Management

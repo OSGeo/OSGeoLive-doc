@@ -11,7 +11,7 @@ LISAsoft provides sustaining resources and staff toward the management and packa
   :alt: Information Center for the Environment at the University of California, Davis
   :target: http://ice.ucdavis.edu
 
-Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeo Live project.
+Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeo-Live project.
 
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 30 %

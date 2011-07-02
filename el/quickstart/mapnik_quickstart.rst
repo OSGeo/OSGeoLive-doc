@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo Live
+:Συγγραφέας: OSGeo-Live
 :Συγγραφέας: Dane Springmeyer
 :Έκδοση: osgeo-live4.0
 :Άδεια: Creative Commons

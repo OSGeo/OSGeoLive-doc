@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 

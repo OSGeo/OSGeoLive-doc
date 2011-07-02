@@ -1,4 +1,4 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Version: osgeo-live4.5
 :License: Creative Commons
@@ -24,7 +24,7 @@ Esta Guía de Inicio Rápido describe como:
 Iniciar el visor GeoExt
 =======================
 
-OSGeo Live contiene un ejemplo de visor web de mapas basado en el marco de desarrollo Javascript
+OSGeo-Live contiene un ejemplo de visor web de mapas basado en el marco de desarrollo Javascript
 GeoExt y usando QGIS mapserver para representar el mapa.
 
 * Clic en :menuselection:`Escritorio --> Spatial Tools --> QGIS Mapserver`

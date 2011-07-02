@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo Live
+:Συγγραφέας: OSGeo-Live
 :Συγγραφέας: Jody Garnett
 :Συγγραφέας: Micheal Bedward
 :Έκδοση: osgeo-live4.0
@@ -68,7 +68,7 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 
 #. Επιλέξτε :guilabel:`Next` για να ανοίξει το παράθυρο επιλογής αρχείου
 
-#. Το OSGeo Live DVD περιλαμβάνει δοκιμαστικά δεδομένα στο:
+#. Το OSGeo-Live DVD περιλαμβάνει δοκιμαστικά δεδομένα στο:
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
    * :file:`/usr/local/share/udig/udig/udig-data/`

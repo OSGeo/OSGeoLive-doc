@@ -7,7 +7,7 @@
 
 .. Writing Tip:
   Metadata about this document
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 
