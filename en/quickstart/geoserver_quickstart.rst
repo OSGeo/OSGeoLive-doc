@@ -36,7 +36,7 @@ Start |GS|
 #. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
 
 .. image:: ../../images/screenshots/800x600/geoserver-login.png
-    :width: 80 %
+    :scale: 70 %
 
 
 First Views
@@ -45,17 +45,17 @@ First Views
 When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
 
 .. image:: ../../images/screenshots/800x600/geoserver-welcome.png
-    :width: 90%
+    :scale: 70 %
 
 The **Layer Preview** link at the top of the *Data* section in the left hand menu allows you to see a preview of the layers that are loaded on the server. 
   
 .. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
-    :width: 90%
+    :scale: 70 %
 
 Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
 .. image:: ../../images/screenshots/800x600/geoserver-preview.png
-    :width: 90%
+    :scale: 70 %
     
 You can zoom in to the map in three ways:
 
@@ -87,7 +87,7 @@ will see this page:
 
 .. figure:: ../../images/screenshots/800x600/geoserver-newstore.png
     :align: center
-    :width: 90%
+    :scale: 70 %
     
     *The New Store page*
 
@@ -95,6 +95,7 @@ Select the :guilabel:`Directory of spatial files`, you will see the following:
 
 .. figure:: ../../images/screenshots/800x600/geoserver-new-vector.png
     :align: center
+    :scale: 70 %
     
     *Filling in the New Store page*
 
@@ -104,7 +105,7 @@ You can use the browse button to find the directory if your data is somewhere el
 
 .. figure:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
-    :width: 100%
+    :scale: 70 %
 
     *The Natural Earth Datastore*
 
@@ -113,7 +114,7 @@ the data. This will take you to the *Layers* page:
 
 .. figure:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
-    :width: 90%
+    :scale: 70 %
 
     *The layer publishing page*
 
@@ -137,7 +138,7 @@ You can follow the same step with the other layers in the directory by using the
 
 .. figure:: ../../images/screenshots/800x600/geoserver-add-layers.png
     :align: center
-    :width: 90%
+    :scale: 70 %
 
     *The layers page*
     
@@ -170,7 +171,7 @@ a style (so you can see the data).
 
 .. figure:: ../../images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
-   :width: 90%
+   :scale: 70 %
 
    *Default Styling in UDig*
 
@@ -181,6 +182,7 @@ button (it looks like an artist's palette).
 .. _Layer_list:
 .. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
+   :scale: 70 %
 
    *The Layer list window*
 
@@ -194,6 +196,7 @@ better. I picked the same blue for the border color so it would match.
 .. _Style_Pane:
 .. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
+   :scale: 70 %
 
    *The Style Pane*
 
@@ -204,7 +207,7 @@ changes.
 
 .. figure:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
-   :width: 90%
+   :scale: 70 %
 
    *Blue Oceans*
 
@@ -215,6 +218,7 @@ None of the default colors seemed right to me so I went into the
 
 .. figure:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
+   :scale: 70 %
 
    *Defining a nicer land color*
 
@@ -222,7 +226,7 @@ This gives me a nice looking basic world map
 
 .. figure:: ../../images/screenshots/800x600/geoserver-basic-world.png
    :align: center
-   :width: 90%
+   :scale: 70 %
 
    *A basic word map*
 
@@ -241,7 +245,7 @@ button) and a copy of my file appears in the editor. If you click on the validat
 
 .. figure:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
-   :width: 90%
+   :scale: 70 %
 
    *Adding a Style to GeoServer*
 
@@ -271,7 +275,7 @@ layers in :file:`/usr/local/share/geoserver`.
 
     .. figure:: ../../images/screenshots/800x600/geoserver-raster.png
         :align: center
-        :width: 90%
+        :scale: 70 %
 
         *Adding a Raster*
 
