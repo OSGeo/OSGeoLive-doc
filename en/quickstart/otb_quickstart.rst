@@ -81,6 +81,28 @@ For the full tutorial see the  `article`_.
 What Next?
 ==========
 
+* OTB Software Guide
+
+  The main source of information is the OTB Software Guide. This is a
+  comprehensive guide which comprises about 600 pages, detailing the
+  steps to install OTB and use it. Most of the classes available are
+  heavily illustrated with results from real remote sensing
+  processing. The Software Guide is available as a pdf_ file or as an
+  online html_ version.
+
+.. _pdf: http://orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf
+.. _html: http://orfeo-toolbox.org/SoftwareGuide/
+
+* OTB CookBook
+
+  A guide for OTB-Applications and Monteverdi dedicated for
+  non-developers is also available.This guide is composed of a brief
+  tour of of OTB-Applications and Monteverdi, followed by a set of
+  recipes to perform usual remote sensing tasks with both tools. The
+  CookBook is available as a pdf_ file.
+
+.. _pdf: http://orfeo-toolbox.org/packages/OTBCookBook.pdf
+
 * OTB Tutorials
 
   Follow the tutorials_ to learn more about OTB.
