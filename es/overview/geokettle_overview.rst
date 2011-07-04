@@ -79,7 +79,7 @@ Características Principales
   * API de programación en Java
   * Ecosistema de plugins
 
-Estandares implementados
+Estándares implementados
 ------------------------
 
 * Cumple con los estándares SFS del OGC
