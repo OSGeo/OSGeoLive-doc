@@ -77,6 +77,10 @@ Data
 ----
 * :doc:`naturalearth_overview` - Geographic Data Sets
 
+Geospatial Libraries
+--------------------
+* :doc:`geotools_overview` - Java GIS Toolkit
+
 Windows and Apple Installers
 ----------------------------
  
