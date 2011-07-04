@@ -1,6 +1,6 @@
-:Autor: OSGeo-Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.0
-:Licencia: Creative Commons
+:License: Creative Commons
 
 .. _saga-overview:
 

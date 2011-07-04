@@ -15,7 +15,7 @@ GpsDrive
 ========
 
 Software de navegación GPS
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsDrive <http://www.gpsdrive.de>`_ es un sistema de navegación para vehiculos(bicicletas,botes,aviones,personas). 
 GpsDrive muestra la posición enviada por un dispositivo GPS en un mapa con capacidades de zoom. 
@@ -26,7 +26,7 @@ el cual actua como demonio y multiplexor de GPS.
 
 
 Características principales
--------------
+----------------------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
@@ -46,7 +46,7 @@ Características principales
 * Integración con software Kismet Wifi
 
 Detalles
--------
+-----------
 
 **Sitio web:** http://www.gpsdrive.de
 
@@ -60,7 +60,7 @@ Detalles
 
 
 Guía de inicio rápido
-----------
+----------------------
 
 * `Documentación para un inicio rápido <../quickstart/gpsdrive_quickstart.html>`_
 

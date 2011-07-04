@@ -1,6 +1,6 @@
-:Autor: Hamish Bowman
-:Versión: osgeo-live4.0
-:Licencia: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _grass-overview:
 
@@ -41,13 +41,13 @@ Se puede desarrollar fácilmente con él a través de scripting, siendo suficien
 .. _GRASS: http://grass.osgeo.org
 
 Características clave
--------------
+----------------------
 
 * Nombrala, existe un herramienta para ello.
 * Explore la `colección de pantallazos de aplicación <http://grass.osgeo.org/screenshots/>`_.
 
 Detalles
--------
+--------
 
 **Website:** http://grass.osgeo.org
 
@@ -63,7 +63,7 @@ Detalles
 
 
 Guía rápida
-----------
+------------
 
 * `Documentación de inicio rápido <../quickstart/grass_quickstart.html>`_
 

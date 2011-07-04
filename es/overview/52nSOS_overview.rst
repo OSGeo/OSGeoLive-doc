@@ -1,8 +1,8 @@
-﻿:Autor: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
-:Versión: osgeo-live4.0
-:Licencia: Creative Commons
+﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Version: osgeo-live4.0
+:License: Creative Commons
 
-.. Vista rápida_52nSOS:
+.. _52nSOS-overview:
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
@@ -26,7 +26,7 @@ El `Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>`
   :align: right
 
 Características
---------
+---------------
 
 La versión actual de 52ºNorth SOS (version 3.1.1) se rige por el núcleo, transacciones y partes del èrfil mejorjardo de la especificación SOS. La versión actual lleva el esquema más recieciente (versión 1.0.0) y las siguientes operaciones:
 
@@ -57,8 +57,8 @@ Estándares
 
 * `Servicio Observación Sensor (SOS) OGC <http://www.ogcnetwork.net/SOS>`_
 
-Details
--------
+Detalles
+--------
 
 * **Dirección electrónica:** http://52north.org/communities/sensorweb/sos
 
@@ -77,7 +77,7 @@ Details
 * **Página de la comunidad:** http://52north.org/communities/sensorweb/
 
 Guía rápida
-----------
+------------
 
 * `Documentación de la guía rápida <../quickstart/52nSOS_quickstart.html>`_
 

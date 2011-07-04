@@ -1,6 +1,6 @@
-:Autor: Mauricio Miranda
+:Author: Mauricio Miranda
 :Versión: osgeo-live4.0
-:Licencia: Creative Commons
+:License: Creative Commons
 
 .. _spatialite-overview:
 

@@ -1,6 +1,6 @@
-:Autor: Ian Turton
-:Versión: osgeo-live4.0
-:Licencia: Creative Commons
+:Author: Ian Turton
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _geoserver-overview:
 
@@ -44,7 +44,7 @@ GeoServer es uno de los componentes *core* de la Web Geoespacial.
   :align: right
 
 Características clave
--------------
+---------------------
 
 **Servidor de datos de una variedad de orígenes de almacenamiento:**
     * Vector
@@ -95,14 +95,14 @@ tiempo de proceso para la generación de imágenes. GeoWebCache se ha integrado
 dentro de GeoServer.
 
 Standares Implementados
----------------------
+-----------------------
 
 * Soporta numerosos estándares  (OGC)
 
 * WMS, WFS transaccional, WCS, Filter Encoding, SLD, GML
 
 Detalles
--------
+--------
 
 **Sitio Web:** http://geoserver.org/display/GEOS/Welcome
 

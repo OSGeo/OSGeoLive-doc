@@ -1,6 +1,6 @@
-:Autor: Mauricio Miranda
-:Versión: osgeo-live4.5
-:Licencia: Creative Commons
+:Author: Mauricio Miranda
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _gdal-overview:
 

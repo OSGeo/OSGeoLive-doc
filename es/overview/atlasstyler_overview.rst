@@ -1,6 +1,6 @@
-:Autor: Stefan Tzeggai
-:Versión: osgeo-live4.0
-:Licencia: Creative Commons
+:Author: Stefan Tzeggai
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _atlasstyler-overview:
 
@@ -15,7 +15,7 @@ AtlasStyler
 ===========
 
 Editor de Estilos de Geometrías
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ es una aplicación desktop amigable para generar estilos de geodatos. Los estilos resultantes se pueden salvar en ficheros standar OGC SLD/SE.
 
@@ -27,7 +27,7 @@ Los ficheros SLD resultantes son compatibles con todos los programas que soporte
   :align: right
 
 Características clave
--------------
+----------------------
 
 * Construir estilos usando diálogos.
 * Basado en el estandar OGC SLD.
@@ -35,14 +35,14 @@ Características clave
 * Importa formatos ESRI Shape, OGC WFS y PostGIS.
 * Completamente traducido a Alemán, Inglés, Italiano, Turco, Ruso y Francés.
 
-Standars Implementados
----------------------
+Estandares Implementados
+------------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
 * OGC Symbology Encoding (SE)
 
 Detalles
--------
+---------
 
 **Website:** http://en.geopublishing.org/AtlasStyler
 
@@ -59,7 +59,7 @@ Detalles
 
 
 Guía rápida
-----------
+------------
 
 * `Documentación de inicio rápido <../quickstart/atlasstyler_quickstart.html>`_
 

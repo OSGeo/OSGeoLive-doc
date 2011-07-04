@@ -1,6 +1,6 @@
-:Autor: Mauricio Miranda
-:Versión: osgeo-live5.0
-:Licencia: Creative Commons Attribution 3.0 Unported License
+:Author: Mauricio Miranda
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported License
 
 .. _mapproxy-overview:
 
