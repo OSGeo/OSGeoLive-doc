@@ -19,7 +19,7 @@ Getting Started
 
 The 52°North SOS is a web service, that allows you to provide and collect spatial sensor data (including metadata and measurements/observations).
 
-1) Go to :menuselection:`Geospatial --> Web Services --> Start 52North SOS` to start the 52°North SOS or use this `direct link <http://localhost:8080/52nSOSv3.1.1/>`_.
+1) Go to :menuselection:`Geospatial --> Web Services --> Start 52North SOS` to start the 52°North SOS or use this `direct link <http://localhost:8080/52nSOSv3/>`_.
   (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of this page.)
 
 2) Firefox will open the 52°North SOS test client (see Fiq. 1):

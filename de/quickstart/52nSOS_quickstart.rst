@@ -19,7 +19,7 @@ Erste Schritte
 
 Der 52°North SOS ermöglicht den Zugriff und die Bereitstellung von raumbezogenen Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
-1) Rufen Sie :menuselection:`Geospatial --> Web Services --> Start 52North SOS` auf, um den 52°North SOS zu starten oder benutzen sie diesen `direkten Link <http://localhost:8080/52nSOSv3.1.1/>`_.
+1) Rufen Sie :menuselection:`Geospatial --> Web Services --> Start 52North SOS` auf, um den 52°North SOS zu starten oder benutzen sie diesen `direkten Link <http://localhost:8080/52nSOS/>`_.
   (Sollte der Dienst nicht erreichbar sein, so versuchen Sie, den Tomcat Web Service Container zu starten. Hinweise hierzu finden Sie am Ende dieser Seite.)
 
 2) Es öffnet sich ein Browser-Fenster, welches den 52°North SOS Test-Client zeigt (siehe Abb. 1):

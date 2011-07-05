@@ -28,7 +28,7 @@ erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein S
 Features
 --------
 
-Der aktuelle 52°North SOS (Version 3.1.1) implementiert das sogenannte “Core Profile” sowie das “Transactional Profile” der OGC SOS-Spezifikation 1.0.0. Weiterhin werden Teile des „Enhanced Profile“ unterstützt. Folgende Operationen sind verfügbar
+Der aktuelle 52°North SOS (Version 3.2.0) implementiert das sogenannte “Core Profile” sowie das “Transactional Profile” der OGC SOS-Spezifikation 1.0.0. Weiterhin werden Teile des „Enhanced Profile“ unterstützt. Folgende Operationen sind verfügbar
 
 **Operationen des “SOS Core Profile”**:
 
@@ -64,7 +64,7 @@ Details
 
 * **Lizenz:** GNU GPL v2.0
 
-* **Software Version:** SOS 3.1.1
+* **Software Version:** SOS 3.2.0
 
 * **Unterstützte Betriebssysteme:** Windows, Linux, Mac
 
