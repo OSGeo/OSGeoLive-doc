@@ -1,4 +1,4 @@
-:Author: Angelos Tzotsos
+:Author: OSGeo-Live
 :Version: osgeo-live5.0
 :License: Creative Commons
 
