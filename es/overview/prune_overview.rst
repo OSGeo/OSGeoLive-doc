@@ -46,7 +46,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión de Software:** 10
+**Versión de Software:** 12
 
 **Plataformas soportadas:** GNU/Linux, Mac OSX, Windows
 

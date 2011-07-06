@@ -52,7 +52,7 @@ Prune
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 10
+**Έκδοση Λογισμικού:** 12
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, Windows
 

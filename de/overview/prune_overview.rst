@@ -42,7 +42,7 @@ Kernfunktionen
 * Funktionen wie Punkt löschen, Bereich umkehren und Track komprimieren
 * Drehbare 3D Ansicht der Daten, oder nach POV-Datei exportieren für 3D-Rendering
 * Daten nach Text-, Gpx-, Kml oder Kmzdateien speichern, oder zum GPS-Gerät schicken
-* Automatisches Korrelieren von Fotos anhand von Zeitstempeln
+* Automatisches Korrelieren von Fotos und Audiodateien anhand von Zeitstempeln
 * Erzeugen von Diagrammen wie zum Beispiel Höhe gegen Distanz, oder Geschwindigkeit gegen Zeit
 
 Details
@@ -52,7 +52,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 10
+**Software Version:** 12
 
 **Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, Windows
 
