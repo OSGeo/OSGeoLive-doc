@@ -11,16 +11,16 @@
   :target: http://52north.org/wps
 
 
-52°North WPS
+52Â°North WPS
 =============
 
 Servicio Web
 ~~~~~~~~~~~~~
 
-El Servicio Web de Procesamiento (WPS) de 52°North <../standards/wps_overview.html>`_ habilita el acceso web a
+El Servicio Web de Procesamiento (WPS) de 52Â°North <../standards/wps_overview.html>`_ habilita el acceso web a
 algoritmos de procesamiento geospacial provistos por Sextante, ArcGIS Serer, o desarrollos de funciones propias.
 Los algoritmos pueden ser tan simples como determinar la diferencia en casos de influenza entre dos estaciones diferentes, o
-tan complejos como un modelo de cambio climático global.
+tan complejos como un modelo de cambio climÃ¡tico global.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
@@ -28,17 +28,17 @@ tan complejos como un modelo de cambio climático global.
   :alt: screenshot
   :align: right
 
-Caracerísticas básicas
+CaracerÃ­sticas bÃ¡sicas
 ----------------------
 
 
-Funciones básicas SIG:
+Funciones bÃ¡sicas SIG:
 
 * SimpleBufferAlgorithm
 * DouglasPeuckerAlgorithm
 * IntersectionAlgorithm
 
-Algoritmos de backend disponibles a través de:
+Algoritmos de backend disponibles a travÃ©s de:
 	
 * Sextante
 * ArcGIS Server
@@ -51,7 +51,7 @@ Formatos de entrada/salida soportados:
 Cliente basado en navegador (browser)
 
 
-Estándares implementados
+EstÃ¡ndares implementados
 --------------------------
 
 * OGC Web Processing Service (WPS)
@@ -66,17 +66,17 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión del Software:** WPS 2.0 RC6
+**VersiÃ³n del Software:** WPS 2.0 RC6
 
 **Plataformas Soportadas:** Windows, Linux, Mac
 
 **Soporte comercial:** http://www.52north.org
 
 
-Guía de inicio rápido
+GuÃ­a de inicio rÃ¡pido
 ----------------------
 
-* `Guía de inicio rápido <../quickstart/52nWPS_quickstart.html>`_
+* `GuÃ­a de inicio rÃ¡pido <../quickstart/52nWPS_quickstart.html>`_
 
 
 
