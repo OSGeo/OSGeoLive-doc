@@ -80,6 +80,7 @@ Data
 Geospatial Libraries
 --------------------
 * :doc:`geotools_overview` - Java GIS Toolkit
+* :doc:`metacrs_overview` - Coordinate Reference System Transformations
 
 Windows and Apple Installers
 ----------------------------
