@@ -5,10 +5,10 @@
 .. _qgis_mapserver-overview:
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://karlinapp.ethz.ch/qgis_wms/
+  :target: http://www.qgis.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -50,11 +50,11 @@ QGIS Server
 Λεπτομέρειες
 -------
 
-**Κεντρική Ιστοσελίδα:** http://karlinapp.ethz.ch/qgis_wms/
+**Κεντρική Ιστοσελίδα:** http://www.qgis.org/
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.6.0
+**Έκδοση Λογισμικού:** 1.7.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 

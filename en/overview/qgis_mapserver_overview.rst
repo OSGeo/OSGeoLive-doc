@@ -5,10 +5,10 @@
 .. _qgis_mapserver-overview:
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://karlinapp.ethz.ch/qgis_wms/
+  :target: http://www.qgis.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -50,11 +50,11 @@ Implemented Standards
 Details
 -------
 
-**Website:** http://karlinapp.ethz.ch/qgis_wms/
+**Website:** http://www.qgis.org/
 
 **Licence:** GPL
 
-**Software Version:** 1.6.0
+**Software Version:** 1.7.0
 
 **Supported Platforms:** Windows, Linux
 
