@@ -1,5 +1,5 @@
 
-Willkommen OSGeo-Live
+Willkommen |osgeo-live-version|
 =====================
 
 `OSGeo-Live <http://live.osgeo.org>`_ ist eine getrennt bootfähige DVD, ein USB-Stick 

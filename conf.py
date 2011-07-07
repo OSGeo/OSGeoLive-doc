@@ -201,3 +201,10 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_use_modindex = True
+
+# global replacements that will be included at the end of every source file 
+# see http://sphinx.readthedocs.org/en/latest/config.html#confval-rst_epilog
+rst_epilog="""
+.. |osgeo-live-project| replace:: %(projectname)s
+.. |osgeo-live-version| replace:: %(projectname)s %(projectversion)s 
+""" % { 'projectname':project,'projectversion': version }

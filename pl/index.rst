@@ -1,5 +1,5 @@
 
-Witaj w OSGeo-Live
+Witaj w |osgeo-live-version|
 =====================
 
 `OSGeo-Live <http://live.osgeo.org>`_  jest to startowe DVD, PenDrive USB lub wirtualna maszyna z systemem

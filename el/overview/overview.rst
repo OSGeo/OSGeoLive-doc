@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Περιεχόμενα OSGeo-Live
+Περιεχόμενα |osgeo-live-version|
 ===================
 
 Λογισμικά διαδικτύου (Browser Clients)

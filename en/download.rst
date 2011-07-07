@@ -1,7 +1,7 @@
 Download
 ========
 
-The latest stable release of OSGeo-Live:
+The latest stable release of |osgeo-live-version| :
 
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: Download iso file with windows installers

@@ -1,7 +1,7 @@
 Μεταφόρτωση - Download
 ========
 
-Η τελευταία σταθερή έκδοση του OSGeo-Live περιλαμβάνει:
+Η τελευταία σταθερή έκδοση του |osgeo-live-version| περιλαμβάνει:
 
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: Κατεβάστε το αρχείο iso συμπεριλαμβανομένων προγραμμάτων εγκατάστασης για Windows

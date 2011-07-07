@@ -3,7 +3,7 @@
    Puedes adaptar este fichero completamente a tu gusto, aunque al menos debería
    contener la directiva raiz `toctree`.
 
-Contenidos OSGeo-Live
+Contenidos |osgeo-live-version|
 ===================
 
 Clientes ligeros o de navegador Web

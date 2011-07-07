@@ -1,7 +1,8 @@
+
 Download
 ========
 
-Die aktuelle stabile Version von OSGeo-Live enthält:
+Die aktuelle stabile Version von |osgeo-live-version| enthält:
 
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: iso-Datei mit windows Installer herunterladen

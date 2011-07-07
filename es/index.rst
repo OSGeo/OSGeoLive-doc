@@ -1,5 +1,5 @@
 
-Bienvenido a  OSGeo-Live
+Bienvenido a |osgeo-live-version|
 =============================
 
 `OSGeo-Live <http://live.osgeo.org>`_ es un DVD, disco USB o Máquina Virtual
