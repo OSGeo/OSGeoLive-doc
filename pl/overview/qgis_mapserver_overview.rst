@@ -17,13 +17,13 @@
   :target: http://www.osgeo.org
 
 
-QGIS mapserver
-==============
+QGIS Server
+===========
 
 Usługi sieciowe
 ~~~~~~~~~~~
 
-QGIS mapserver dostarcza usług sieciowych WMS opartych na bibliotekach pochodzących z programu Quantum GIS (QGIS).
+QGIS Server dostarcza usług sieciowych WMS opartych na bibliotekach pochodzących z programu Quantum GIS (QGIS).
 Ścisła integracja z programem QGIS oznacza możliwość łatwego eksportu do Internetu map stworzonych desktopowym narzędziem, poprzez skopiowanie pliku projektu QGIS do ścieżki serwera. Mapy w Internecie będą wyglądały dokładnie tak samo jak w aplikacji desktopowej.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg

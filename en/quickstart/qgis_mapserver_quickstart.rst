@@ -10,23 +10,23 @@
   :alt: project logo
   :align: right
 
-*************************
-QGIS mapserver Quickstart 
-*************************
+**********************
+QGIS Server Quickstart
+**********************
 
-QGIS mapserver provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
+QGIS Server provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
 
 This Quick Start describes how to:
 
-  * update an existing QGIS project and render it with QGIS mapserver
+  * update an existing QGIS project and render it with QGIS Server
   * create a new QGIS project and open the WMS directly in a browser
 
 Start GeoExt viewer
 ===================
 
-OSGeo-Live contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS mapserver for rendering the map.
+OSGeo-Live contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS Server for rendering the map.
 
-* Click :menuselection:`Desktop --> Spatial Tools --> QGIS Mapserver`
+* Click :menuselection:`Desktop --> Spatial Tools --> QGIS Server`
 
 You should see a browser window with a web map viewer showing a world map.
    
@@ -85,10 +85,10 @@ Create a new QGIS project
 
 #. Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_.
 
-   * You should see all world countries, this time rendered by QGIS mapserver.
+   * You should see all world countries, this time rendered by QGIS Server.
 
 
 What Next?
 ==========
 
-To learn more about QGIS mapserver, you can follow the blog articles of `Linfiniti <http://linfiniti.com/2010/08/qgis-mapserver-a-wms-server-for-the-masses/>`_ or `3LIZ <http://www.3liz.com/blog/rldhont/index.php/2010/12/03/355-qgis-mapserver-an-wysiwyg-open-source-wms-server>`_.
+To learn more about QGIS Server, you can follow the blog articles of `Linfiniti <http://linfiniti.com/2010/08/qgis-mapserver-a-wms-server-for-the-masses/>`_ or `3LIZ <http://www.3liz.com/blog/rldhont/index.php/2010/12/03/355-qgis-mapserver-an-wysiwyg-open-source-wms-server>`_.

@@ -17,13 +17,13 @@
   :target: http://www.osgeo.org
 
 
-QGIS mapserver
-==============
+QGIS Server
+===========
 
 Servicio Web
 ~~~~~~~~~~~~
 
-QGIS mapserver ofrece un servicio web de mapas (WMS) basado en la librerías de la 
+QGIS Server ofrece un servicio web de mapas (WMS) basado en la librerías de la 
 aplicación de escritorio de Quantum GIS (QGIS). La estrecha integración con QGIS 
 significa que mapas de escritorio pueden fácilmente exportar a mapas web copiando 
 el archivo de proyecto QGIS en el directorio del servidor, y ver los mapas web 

@@ -17,13 +17,13 @@
   :target: http://www.osgeo.org
 
 
-QGIS Mapserver
-==============
+QGIS Server
+===========
 
 Web Service
 ~~~~~~~~~~~
 
-QGIS Mapserver stellt einen Web Map Service (WMS) auf Basis von Bibliotheken der Software Quantum GIS (QGIS) zur Verfügung.
+QGIS Server stellt einen Web Map Service (WMS) auf Basis von Bibliotheken der Software Quantum GIS (QGIS) zur Verfügung.
 Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-Anwendung einfach als WMS bereitgestellt werden können, indem die QGIS Projektdatei in das entsprechende Serververzeichnis kopiert werden. Dabei sieht die Karte im Internet genauso aus, wie auf dem Desktop.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
