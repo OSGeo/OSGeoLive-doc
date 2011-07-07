@@ -40,7 +40,7 @@ Core Features
 * Runs on Mac OS, Windows and Linux.
 * Styling based on OGC SLD standard.
 * Offline atlases run directly from any media - Java does not have to be installed.
-* Supports tiled image pyramids for big raster data.
+* Supports tiled image pyramids for big raster data, as well as GeoTiff tiles and overviews
 * Fully translated into German, English, Italian and French.
 
 
@@ -53,7 +53,7 @@ Details
 
 **Website:** http://en.geopublishing.org/Geopublisher
 
-**Software Version:** 1.6
+**Software Version:** 1.7
 
 **Licence:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
 

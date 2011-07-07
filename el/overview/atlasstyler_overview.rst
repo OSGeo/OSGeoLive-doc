@@ -46,7 +46,7 @@ AtlasStyler
 
 **Κεντρική Ιστοσελίδα:** http://en.geopublishing.org/AtlasStyler
 
-**Έκδοση Λογισμικού:** 1.6
+**Έκδοση Λογισμικού:** 1.7
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 3.0
 
