@@ -72,6 +72,7 @@ Web Services
 * :doc:`52nWPS_overview` - [`QuickStart <../quickstart/52nWPS_quickstart.html>`_] - Web Processing Service
 * :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
+* :doc:`tinyows_overview` - [`QuickStart <../quickstart/tinyows_quickstart.html>`_] - WFS-T Service
 
 Data
 ----
