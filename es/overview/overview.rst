@@ -4,7 +4,7 @@
    contener la directiva raiz `toctree`.
 
 Contenidos |osgeo-live-version|
-===================
+======================================
 
 Clientes ligeros o de navegador Web
 -----------------------------------
@@ -75,12 +75,13 @@ Servicios Web
 
 Datos
 ----
+
 * :doc:`naturalearth_overview` - Conjuntos de datos Geográficos
 
 Instaladores para Windows y Apple
 ---------------------------------
  
-* `Instaladores Microsoft Windows<../WindowsInstallers/>`_
+* `Instaladores Microsoft Windows <../WindowsInstallers/>`_
 * `Instaladores Apple OSX <../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst
