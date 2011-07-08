@@ -104,7 +104,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 1.10
+**Wersja programu:** 1.11
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
