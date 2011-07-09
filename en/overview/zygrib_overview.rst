@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _zygrib-overview:
 
@@ -42,7 +42,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 3.9.9.1
+**Software Version:** 5.0
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
