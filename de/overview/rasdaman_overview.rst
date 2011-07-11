@@ -20,6 +20,7 @@ Multi-Dimensionale Raster-Datenbank
 
 Rasdaman erweitert relationale Standard-Datenbanken um Speicherung und Retrieval von multi-dimensionalen Rasterdatan (also "Arrays") unbegrenzeter Größe unter Verwendung einer SQL-artigen Raster-Anfragesprache mit hocheffektiver server-seitiger Optimierung. Die Daten werden in einer PostgreSQL-Datenbank abgelegt, sodass sich eine enge Informationsintegration ergibt. Ein rasdaman-Treiber ist Bestandteil von GDAL (Geospatial Data Abstraction Library) für Geodatenformate, eine MapServer-Anbindung ist in beta verfügbar.
 Zugriffsschnittstellen umfassen - neben der rasdaman Raster-Anfragesprache - OGC WCS, WCPS und WPS sowie C++ und Java APIs.
+Version 8.2 ist mit IQL (Integrated Query Language) um eine SQL-Integration erweitert, welche gemischte Meta-, Vektor- und Rasteranfragen erlaubt (in Beta).
 
 Somit stellt rasdaman eine flexible, schnelle und skalierbare Rasterdatenbank dar, welche Navigation, Extraktion, Aggregation und ad-hoc raum-zeitlicheAnalysen auf Sensor-, Bild- und Statistikdaten erlaubt.
 
@@ -55,7 +56,7 @@ Details
 * Clients und Petascope: GNU Lesser General Public License (LGPL) version 3
 * Server-Engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.1
+**Software Version:** 8.2
 
 **Unterstützte Plattformen:** Linux, Mac, Solaris
 
@@ -63,9 +64,3 @@ Details
 
 **Support:**  www.rasdaman.com
 
-
-
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/rasdaman_quickstart.html>`_

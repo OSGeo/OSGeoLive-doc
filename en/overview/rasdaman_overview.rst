@@ -5,8 +5,8 @@
 .. _rasdaman-overview:
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
-  :scale: 100 %
-  :alt: project logo
+ :scale: 100 %
+ :alt: project logo
   :align: right
   :target: http://rasdaman.org
 
@@ -20,14 +20,15 @@ Multi-Dimensional Raster Database
 
 Rasdaman extends standard relational databases to provide storage and retrieval of multi-dimensional raster data (i.e., arrays) of unlimited size using an SQL-style raster query language with highly effective server-side optimization. Data are stored in a PostgreSQL database, thereby achieving tight information integration. A rasdaman driver is a part of the GDAL (Geospatial Data Abstraction Library) library for geospatial data formats, a MapServer integration is available in beta.
 Access interfaces include OGC WCS, WCPS, and WPS, as well as C++ and Java APIs in addition to the rasdaman raster query language.
+Version 8.2 comes with IQL (Integrated Query Language), an SQL integration supporting mixed meta, vector, and raster queries (in beta).
 
 Hence, rasdaman provides a flexible, fast, and scalable raster database enabling navigation, extraction, aggregation, and ad-hoc spatio-temporal analysis on sensor, image and statistics data.
 
 The rasdaman technology is stable and mature, deployed in production since over 10 years; the French National Geographic Institute runs rasdaman on a dozen-Terabyte airborne image map. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
 
-.. image:: ../../images/screenshots/800x600/rasdaman_apps_collage.jpg
+.. image:: ../../images/project_logos/apps-collage.jpg
   :scale: 100 %
-  :alt: project image collage
+  :alt: project logo
   :align: right
 
 Core Features
@@ -50,12 +51,12 @@ Details
 
 **Website:** www.rasdaman.org
 
-**Licence:** 
+**Licence:**
 
 * clients and petascope: GNU Lesser General Public License (LGPL) version 3
 * server engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.1
+**Software Version:** 8.2
 
 **Supported Platforms:** Linux, Mac, Solaris
 
@@ -63,7 +64,3 @@ Details
 
 **Support:**  www.rasdaman.com
 
-Quickstart
-----------
-    
-* `Quickstart documentation <../quickstart/rasdaman_quickstart.html>`_
