@@ -1,6 +1,7 @@
 :Author: Barry Rowlingson
 :Author: Astrid Emde
-:Version: osgeo-live4.5p
+:Author: Cameron Shorter
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _postgis_quickstart:
@@ -12,23 +13,21 @@
   :target: http://postgis.org/
 
 
-
 ******************
 PostGIS Quickstart
 ******************
 
-PostGIS adds spatial capabilities to the PostgreSQL relational database system. It gives
-PostgreSQL the ability to store, query, and manipulate spatial data. In this note we will
-use 'PostgreSQL' when we talk about general database functions, and 'PostGIS' when
-we talk about the additional functionality that it provides.
-
+PostGIS adds spatial capabilities to the PostgreSQL relational database. It extends
+PostgreSQL so it can store, query, and manipulate spatial data. In this Quickstart we will
+use 'PostgreSQL' when describing general database functions, and 'PostGIS' when
+describing the additional spatial functionality provided by PostGIS.
 
 Client-server Architecture
 ==========================
 
-PostgreSQL, like many database systems, works as a server in a client-server system.
+PostgreSQL, like many databases, works as a server in a client-server system.
 The client makes a request to the server and gets back a response. This is the
-same way that the WWW works - your browser is the client and the web server sends
+same way that the internet works - your browser is a client and a web server sends
 back the web page. With PostgreSQL the requests are in the SQL language and the
 response is usually a table of data from the database.
 
@@ -38,21 +37,30 @@ via the internal 'loopback' network connection, and is not visible to other comp
 unless you configure it to be so.
 
 Creating A Spatially-Enabled database
-===================================
+=====================================
+
+.. review comment: Suggest providing a screen grab (or 2) which shows how to select
+   and open an xterm. Cameron
 
 To handle spatial data you need a PostgreSQL database with PostGIS
-functionality. From the unix command line you can use ``createdb``:
+functionality. You can create this database from the unix command line
+using ``createdb``:
 
 ::
 
    createdb -T template_postgis demo
 
-.. tip:: Note that the command line tools provide help with --help for further information 
+.. tip:: Note: You can get help for PostgreSQL command line tools by typing: ``psql --help``
 
-or from the PostgreSQL command line tool ``psql``, you can create it
-with SQL:
+or you can create the database from the PostgreSQL command line tool ``psql``
+using SQL:
 
-First get a list of all databases with ``psql`` and the parameter -l. Connect with a database. 
+First get a list of all databases with ``psql -l`` then connect with the database. 
+
+.. review comment: Are we using "psql -l" to determine which databases we can connect to?
+  If so, we should say:
+  First get a list of all databases with ``psql -l`` and notice that ``postgres`` is one of the databases listed. Then connect with the ``postgres`` database. Cameron
+
 :: 
 
  psql -l 
@@ -67,7 +75,10 @@ Run the SQL to create a new database:
 To check this has worked, your database will have a lot of
 spatial functions and two tables: ``geometry_columns`` and ``spatial_ref_sys``.
 
-.. tip:: Note that when you are connected a database with psql you will get help with \h or \?. Leave the database with \q.
+.. review comment: I suggest describing a command to list contents of the database (where
+   you can see the geometry_columns and spatial_ref_sys. Cameron
+
+.. tip:: Note that when you are connected to a database with psql you can get help with ``\h`` or ``\?``. Leave the database with ``\q``.
 
 
 Creating A Spatial Table The Hard Way
@@ -100,8 +111,14 @@ system. We'll create the geometry column using EPSG:4326 coordinates.
 
   SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
 
-.. tip:: Check the PostGIS table ``geometry_columns``. YOu will find a new row with metadata for your table there.
- 
+.. review comment: I get an error when running this step:
+   ERROR:  function addgeometrycolumn(...) does not exist
+   Cameron
+
+.. tip:: Check the PostGIS table ``geometry_columns``. You will find a new row with metadata for your table there.
+
+.. review comment: How do you check the table? Describe the step. Cameron
+
 Now we can add some data to our table. Adding the id and name values is standard SQL fare. Adding our
 point coordinates requires us to use a PostGIS function to convert WKT (Well Known Text) strings with a 
 spatial reference system id.
