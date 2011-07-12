@@ -231,14 +231,13 @@ Web Map Server
 
 .. sidebar:: Offline
 
-   If you are not connected to the Internet run **Start GeoServer** for a local WMS. The script
-   will open a page with a "wms capabilities" link you can drag into your empty map.
+   If you are not connected to the Internet run :menuselection:`Geospatial --> Web Services --> Start GeoServer` for a local WMS. The script will open a page with a "Service Capabilities" section and two links for WMS Services you can drag into your empty map.
    
 One of the reasons to use an application like uDig is to access all the great free geospatial
 information available on the web. This section covers the use of Web Map Servers which make
 available layers of information that you can mix into your own maps.
 
-.. tip:: You can also connect to Web Map Servers using the Add Data Wizard
+.. tip:: You can also connect to Web Map Servers using the **Add Data** (:menuselection:`Layer --> Add...`) Wizard
   for Drag and Drop.
 
 #. Select :menuselection:`File --> New --> New Map` from the menu bar
@@ -248,7 +247,9 @@ available layers of information that you can mix into your own maps.
   .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
     :scale: 70 %
 
-#. Click on the link *WMS:dm solutions* link
+#. Click on the link `WMS\:dm solution`_ link
+
+   .. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
 
 #. From the Resource Selection page we are going to choose the following layers:
 
@@ -270,7 +271,7 @@ available layers of information that you can mix into your own maps.
    
 .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
-Tip: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
+.. tip:: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
 
 Style
 =====

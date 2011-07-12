@@ -178,7 +178,7 @@ Para comenzar vamos a cargar algunos de los datos de ejemplo incluidos en el DVD
   Tips are used to provide extra useful information, and will 
   likely be rendered in the margin in some printed formats.
 
-.. Tip:: Se puede arrastrar y soltar un shapefile directamente en la aplicación uDig!
+.. tip:: Se puede arrastrar y soltar un shapefile directamente en la aplicación uDig!
 
 Mapa
 ====
@@ -241,7 +241,9 @@ cuentan con capas de información que pueden ser incluidos en un mapa propio.
   .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
     :scale: 70 %
 
-#. Hacer click en el vínculo *WMS:dm solutions*
+#. Hacer click en el vínculo `WMS\:dm solution`_
+
+   .. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
 
 #. En la página Resource Selectión (Selección de Recursos) se seleccionan las siguientes capas: 
 

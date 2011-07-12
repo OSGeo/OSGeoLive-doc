@@ -101,7 +101,7 @@ uDig starten
    :scale: 70 %
 
 Willkommensansicht
-============
+==================
 
 #. Wird uDig erstmalig gestartet, erscheint die Willkommensansicht, die Links zu Tutorials, Dokumentationen und der Projekt-Webseite enthält. Keine weiteren Ansichten sind sichtbar.
  
@@ -198,12 +198,11 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 	 Sie die Maus bewegen um das gewünschte Rechteck einzustellen. Mit gelber Farbe wird der potentiell neue Ausschnitt während der Mausbewegung 
 	 mit dargestellt.
 	 
-   * Um den sichtbaren Bereich der Karte zu vergrößern, klicken Sie innerhalb des Kartenfensters mit der rechten Maustaste dahin, wo der neue 
-     Ausschnitt zentriert werden soll.
+   * Um den sichtbaren Bereich der Karte zu vergrößern, klicken Sie innerhalb des Kartenfensters mit der rechten Maustaste dahin, wo der neue Ausschnitt zentriert werden soll.
 
 #. Mit Hilfe des Verschiebewerkzeuges (|PAN|) können sie den Ausschnitt der Karte bewegen, ohne dabei den Maßstab anzupassen.
   
-   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
+     .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
 
 #. Weitere Navigationswerkzeuge, die jederzeit genutzt werden können:
  
@@ -218,22 +217,19 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 
    * Sie können mit den Werkzeugen Zurück (|BNAV|) und Vorwärts (|FNAV|) in der Historie der eingestellten Ausschnitte hin und herschalten.
 
-	 .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
+     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
-.. tip:: Die meisten Werkzeuge erlauben es Ihnen, bei gedückter mittlerer Maustaste den Ausschnitt zu verschieben und unter Verwendung des 
-         Mausrades den Maßstab anzupassen.
+.. tip:: Die meisten Werkzeuge erlauben es Ihnen, bei gedückter mittlerer Maustaste den Ausschnitt zu verschieben und unter Verwendung des Mausrades den Maßstab anzupassen.
 
 Web Map Server
 ==============
 
 .. sidebar:: Offline
 
-   If you are not connected to the internet run **Start GeoServer** for a local WMS. The script
-   will open a page with a "wms capabilities" link you can drag into your empty map.
+   Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Geospatial --> Web Services --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
    
-Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung
-von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werden können, um eigene Karten zu erstellen.
+Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werden können, um eigene Karten zu erstellen.
 
 #. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
@@ -242,9 +238,11 @@ von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werde
   .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
    :scale: 70 %
 
-#. Wählen Sie innerhalb der **Web** Ansicht den Link *WMS:dm solutions* aus
+#. Wählen Sie innerhalb der **Web** Ansicht den Link `WMS\:dm solution`_ aus
 
-#. From the Resource Selection page we are going to choose the following layers:
+  .. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
+
+#. Im darauf folgenden **Add Data** Wizard wählen Sie folgende Layer als Resourcen aus:
 
    * Elevation/Bathymetry
    * Parks
@@ -253,7 +251,7 @@ von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werde
   .. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
    :scale: 70 %
 
-#. Press :guilabel:`Finish` to add these layers to your map
+#. Bestätigen Sie mit :guilabel:`Finish`, dass die Layer zur Karte hinzugefügt werden sollen
    
   .. image:: ../../images/screenshots/800x600/udig_WMSMap.png
    :scale: 70 %
@@ -261,16 +259,15 @@ von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werde
 .. tip:: Sie können analog zu den Shapefiles auch per Drag&Drop Layer von Web Map Servern 
          der Karte hinzufügen oder alternativ den **Add Data** Wizard (:menuselection:`Layer --> Add...`) nutzen.
   
-  
-#. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
+#. Verwenden Sie das Zoom (|ZOOM|) Werkzeug, um die Parks detailierter anzuzeigen
 
-#. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
+#. Wechseln Sie dann zum Info Tool (|INFO|) und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
    
    .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
-Tip: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
+.. tip:: Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur :guilabel:`I` und guilabel:`Z` drücken.
 
-Style
+Stile
 =====
 
 #. Select the project > countries, you can double click to open this Map, or Right Click and choose Open Map

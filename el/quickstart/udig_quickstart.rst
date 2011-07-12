@@ -170,7 +170,9 @@ Web Map Server
   .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
     :scale: 70 %
 
-#. Κάντε κλίκ στο σύνδεσμο *WMS:dm solutions*
+#. Κάντε κλίκ στο σύνδεσμο `WMS\:dm solution`_
+
+   .. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
 
 #. Από την σελίδα πηγών δεδομένων επιλέγουμε τα παρακάτω επίπεδα:
 
@@ -191,7 +193,7 @@ Web Map Server
    
 .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
-Tip: Μπορείτε να εναλλάξετε τα προηγούμενα εργαλεία (zoom και info) με την χρήση των πλήκτρων Z και I στο πληκτρολόγιο.
+  .. tip:: Μπορείτε να εναλλάξετε τα προηγούμενα εργαλεία (zoom και info) με την χρήση των πλήκτρων Z και I στο πληκτρολόγιο.
 
 Στύλ
 =====
