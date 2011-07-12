@@ -83,7 +83,7 @@ Mit dem Quickstart Guide soll folgendes erreicht werden:
 .. contents:: Inhalt
   
 uDig starten
-==========
+============
 
 .. Writing Tip:
   beschreibe die Schritte, um die Anwendung zu starten. Hier sollte ein 
@@ -113,7 +113,7 @@ Willkommensansicht
 Die Willkommensansicht können Sie jederzeit wieder herstellen, indem Sie im Menü :menuselection:`Help --> Welcome` wählen.
 
 Arbeitsbereich
-=========
+==============
 
 Im Arbeitsbereich gibt es einen Bereich für die Karten, der umgeben ist von Ansichten, die das Arbeiten mit der Karte unterstützen. Viele Ansichten zeigen dabei kontextbezogene Informationen zur aktuell geöffneten und ausgewählten Karte an.
 
@@ -123,7 +123,7 @@ Im Arbeitsbereich gibt es einen Bereich für die Karten, der umgeben ist von Ans
 Oben ist eine typischer uDig Arbeitsplatz zu sehen mit Karten (Editoren) sowie Ansichten für Kartenprojekte und Layer. Darüber hinaus gibt es noch die Katalogansicht. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
 
 Dateien
-=====
+=======
 
 Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten laden, die auf der DVD enthalten sind.
 
@@ -184,7 +184,7 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
 .. tip:: Sie können Shapefiles direkt vom **File Manager** per Drag&Drop in die uDig Anwendung ziehen, um weitere Daten hinzuzufügen!
 
 Karte
-===
+=====
 
 Sie können die Karte mit Hilfe der Navigationswerkzeuge anpassen, um den Ausschnitt der Welt anzuzeigen, der für Sie von 
 Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applikationsmenü zu finden.
