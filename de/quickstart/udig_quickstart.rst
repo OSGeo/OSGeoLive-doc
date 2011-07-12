@@ -189,7 +189,7 @@ Karte
 Sie können die Karte mit Hilfe der Navigationswerkzeuge anpassen, um den Ausschnitt der Welt anzuzeigen, der für Sie von 
 Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applikationsmenü zu finden.
 
-#. Das Zoomwerkzeug (|ZOOM|) ist nach dem Start standardmäßig aktiv
+#. Das Zoomwerkzeug |ZOOM| ist nach dem Start standardmäßig aktiv
    
    .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
    
@@ -200,7 +200,7 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 	 
    * Um den sichtbaren Bereich der Karte zu vergrößern, klicken Sie innerhalb des Kartenfensters mit der rechten Maustaste dahin, wo der neue Ausschnitt zentriert werden soll.
 
-#. Mit Hilfe des Verschiebewerkzeuges (|PAN|) können sie den Ausschnitt der Karte bewegen, ohne dabei den Maßstab anzupassen.
+#. Mit Hilfe des Verschiebewerkzeuges |PAN| können sie den Ausschnitt der Karte bewegen, ohne dabei den Maßstab anzupassen.
   
      .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
 
@@ -210,12 +210,12 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
    
      .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
 
-   * Zoom In (|ZOOM_IN|) und Zoom Out (|ZOOM_OUT|) können jederzeit genutzt werden, um den Maßstab um einen fixen Anteil zu vergrößern bzw. zu verkleinern.
+   * Zoom In |ZOOM_IN| und Zoom Out |ZOOM_OUT| können jederzeit genutzt werden, um den Maßstab um einen fixen Anteil zu vergrößern bzw. zu verkleinern.
 
      .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
      .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
 
-   * Sie können mit den Werkzeugen Zurück (|BNAV|) und Vorwärts (|FNAV|) in der Historie der eingestellten Ausschnitte hin und herschalten.
+   * Sie können mit den Werkzeugen Zurück |BNAV| und Vorwärts |FNAV| in der Historie der eingestellten Ausschnitte hin und herschalten.
 
      .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
@@ -259,9 +259,9 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 .. tip:: Sie können analog zu den Shapefiles auch per Drag&Drop Layer von Web Map Servern 
          der Karte hinzufügen oder alternativ den **Add Data** Wizard (:menuselection:`Layer --> Add...`) nutzen.
   
-#. Verwenden Sie das Zoom (|ZOOM|) Werkzeug, um die Parks detailierter anzuzeigen
+#. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detailierter anzuzeigen
 
-#. Wechseln Sie dann zum Info Tool (|INFO|) und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
+#. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
    
    .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
