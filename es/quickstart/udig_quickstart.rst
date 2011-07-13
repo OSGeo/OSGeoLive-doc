@@ -93,7 +93,7 @@ Iniciar uDig
   Images should be stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
 
-.. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
+  .. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
    :scale: 70 %
 
 Si tiene alguna dificultad ejecutando uDig por favor lea la pagina de referencia Running uDig.
@@ -220,7 +220,7 @@ pantalla.
 .. tip:: También es posible una hacer una panorámica manteniendo presionado el botón central y controlar la escala usando la rueda de desplazamiento.
 
 Servidor de Mapas Web
-======================
+=====================
 
 .. sidebar:: Offline
 
