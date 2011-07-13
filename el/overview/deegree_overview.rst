@@ -1,5 +1,5 @@
 :Συγγραφέας: Johannes Wilden
-:Έκδοση: osgeo-live4.5
+:Έκδοση: osgeo-live5.0
 :Άδεια: Creative Commons
 
 .. _deegree-overview:
@@ -68,7 +68,7 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
   * Πηγές δεδομένων: εικόνες (tif, png, jpeg, gif, bmp); GeoTIFF; αρχεία ECW; Oracle GeoRaster
   * Προσπέλαση υψηλής ταχύτητας σε μεγάλα αρχεία
 
-* Διαδικτυακές Υπηρεσίες Καταλόγου - Catalogue Service-Web
+* Διαδικτυακές Υπηρεσίες Καταλόγου - Catalogue Service
 
   * Πηγές δεδομένων: βάσεις δεδομένων PostgreSQL και Oracle
   * Υποστηρίζει αιτήματα: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
@@ -106,7 +106,7 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
 
 **Άδεια:** LGPL
 
-**Έκδοση Λογισμικού:** 2.3
+**Έκδοση Λογισμικού:** 3.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 

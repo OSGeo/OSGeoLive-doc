@@ -1,5 +1,5 @@
 
-Καλώς ήρθατε στο |osgeo-live-version|
+Καλώς ήρθατε στο OSGeo-Live
 =====================
 
 Το `OSGeo-Live <http://live.osgeo.org>`_ είναι ένα αυτόνομο εκκινήσιμο DVD, USB ή Εικονική Μηχανή

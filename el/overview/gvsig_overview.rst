@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo-Live
+:Συγγραφέας: OSGeo Live
 :Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
@@ -113,6 +113,6 @@ gvSIG Desktop
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
 Γρήγορη εκκίνηση
-----------------
-
+----------
+    
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gvsig_quickstart.html>`_

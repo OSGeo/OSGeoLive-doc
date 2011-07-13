@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeo Live
 :Version: osgeo-live4.5
 :License: Creative Commons
 
@@ -71,7 +71,9 @@ GDAL/OGR
 
 **Υποστήριξη:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
 
-Γρήγορη εκκίνηση
-----------------
 
+Γρήγορη εκκίνηση
+----------
+    
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gdal_quickstart.html>`_
+

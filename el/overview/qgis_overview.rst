@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo-Live
+:Συγγραφέας: OSGeo Live
 :Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
@@ -95,7 +95,7 @@ Quantum GIS
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.6.0
+**Έκδοση Λογισμικού:** 1.7.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 

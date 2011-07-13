@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo-Live
+:Συγγραφέας: OSGeo Live
 :Έκδοση: osgeo-live4.0
 :Άδεια: Creative Commons
 
@@ -100,8 +100,8 @@ GeoKettle
 
 **Υποστήριξη:** http://www.spatialytics.org & http://www.spatialytics.com
 
-
 Γρήγορη εκκίνηση
-----------------
-
+----------
+    
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geokettle_quickstart.html>`_
+

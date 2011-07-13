@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo-Live
+:Συγγραφέας: OSGeo Live
 :Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
@@ -72,8 +72,8 @@ GeoNetwork
 
 **Υποστήριξη:** http://www.osgeo.org/search_profile
 
-
 Γρήγορη εκκίνηση
-----------------
-
+----------
+    
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geonetwork_quickstart.html>`_
+

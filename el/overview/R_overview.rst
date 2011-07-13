@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo-Live
+:Συγγραφέας: OSGeo Live
 :Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
@@ -56,6 +56,7 @@ R Spatial Task View
 
 
 Γρήγορη εκκίνηση
-----------------
-
+----------
+    
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/R_quickstart.html>`_
+

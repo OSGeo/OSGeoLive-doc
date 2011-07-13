@@ -1,6 +1,6 @@
 :Συγγραφέας: Hamish Bowman
 :Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Άδεια: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _zygrib-overview:
 
@@ -41,8 +41,14 @@ zyGrib
 
 **Άδεια:** GNU General Public License (GPL) version 3
 
-**Έκδοση Λογισμικού:** 3.9.9.1
+**Έκδοση Λογισμικού:** 5.0
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
 **Υποστήριξη:** http://zygrib.org/forum/
+
+Γρήγορη εκκίνηση
+----------
+
+* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/zygrib_quickstart.html>`_
+

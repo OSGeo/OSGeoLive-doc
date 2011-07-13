@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo-Live
+:Συγγραφέας: OSGeo Live
 :Συγγραφέας: Hamish Bowman
 :Συγγραφέας: Eric Lemoine
 :Έκδοση: osgeo-live4.5

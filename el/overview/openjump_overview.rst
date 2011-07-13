@@ -1,4 +1,4 @@
-:Συγγραφέας: OSGeo-Live
+:Συγγραφέας: OSGeo Live
 :Έκδοση: osgeo-live4.5
 :Άδεια: Creative Commons
 
@@ -80,6 +80,7 @@ OpenJUMP GIS
 **Εμπορική Υποστήριξη:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
 
 Γρήγορη εκκίνηση
-----------------
-
+----------
+    
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/openjump_quickstart.html>`_
+
