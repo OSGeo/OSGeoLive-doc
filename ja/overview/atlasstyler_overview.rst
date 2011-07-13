@@ -19,7 +19,7 @@ AtlasStyler
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ は利用しやすいジオ・データのスタイル編集のためのデスクトップアプリケーションです。スタイル編集の結果は、OGS標準の SLD/SEファイルとして保存することが出来ます。
 
-作成されたSLDファイルは、GeoServer、Ugid、などのOGS SLD標準に準拠したすべてのプログラムとの互換性があります。アプリケーションは簡単にスタイルを作成するための多様な直感的ダイアログを提供します。利用者は、個別値、等分位または等間隔による彩色のように要約した分類を適用できます。加えて、利用者はオンラインのシンボル-データベースへの統合された接続を持ちます。利用者はシンボルエディタを利用してシンボルの作成と保存でき、分類や他のプロジェクトでの再利用できます。
+作成したSLDファイルはOGS SLD標準に準拠しており、GeoServer、uDig などのプログラムと互換性があります。スタイル作成を単純化するために直感的に使用できる多数のダイアログを提供しています。利用者はユニークな値、等分位または等間隔による彩色などの理論的な分類を適用できます。加えて、オンラインのシンボルデータベースへの接続を利用できます。シンボルエディタでシンボルの作成、保存することができ、分類や他のプロジェクトでの再利用もできます。
 
 .. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
@@ -35,24 +35,24 @@ AtlasStyler
 * ESRI ShapefileとPostGIS databaseのインポート and OGC WFS
 * ドイツ語、英語、イタリア語、フランス語への完全な翻訳
 
-準拠した標準
+準拠している標準規格
 ---------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
 * OGC Symbology Encoding (SE)
 
-Details
+詳細
 -------
 
-**ウェッブサイト:** http://en.geopublishing.org/AtlasStyler
+**ウェブサイト:** http://en.geopublishing.org/AtlasStyler
 
-**ソフトウェアバージョン:** 1.7
+**バージョン:** 1.7
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 3.0
 
 **利用可能プラットフォーム:** Windows, Linux, Mac
 
-**APIインターフェイス:** Java, Swing, Geotools
+**API:** Java, Swing, Geotools
 
 **サポート:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
