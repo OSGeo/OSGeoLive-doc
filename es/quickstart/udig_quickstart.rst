@@ -224,7 +224,7 @@ Servidor de Mapas Web
 
 .. sidebar:: Offline
 
-   Si no se esta conectado a internet ejecute **Start GeoServer** para tener un WMS Local. El script
+   Si no se esta conectado a internet ejecute :menuselection:`Geospatial --> Servers --> Start GeoServer` para tener un WMS Local. El script
    abrirá una página con un vínculo a "wms capabilities", que puede ser arrastrado dentro del mapa vacío.
    
 Una de las razones para usar una aplicación como uDig es la posibilidad de acceder a la gran cantidad de 

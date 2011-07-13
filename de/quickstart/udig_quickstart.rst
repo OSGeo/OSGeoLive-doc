@@ -227,7 +227,7 @@ Web Map Server
 
 .. sidebar:: Offline
 
-   Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Geospatial --> Web Services --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
+   Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Geospatial --> Servers --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
    
 Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werden können, um eigene Karten zu erstellen.
 
