@@ -42,92 +42,141 @@ Creating A Spatially-Enabled database
 .. review comment: Suggest providing a screen grab (or 2) which shows how to select
    and open an xterm. Cameron
 
-To handle spatial data you need a PostgreSQL database with PostGIS
-functionality. You can create this database from the unix command line
-using ``createdb``:
+A single PostgreSQL server lets you organise work by arranging it into separate
+databases. Each database acts like an independent regime, with its own tables, views, users 
+and so on. When you connect to a PostgreSQL server you have to specify the
+database.
+
+You can get a list of databases on the server with the ``psql -l`` command. You should
+see several databases used by some of the projects on the system. We will create a
+new one for this quickstart.
+
+.. tip:: The list uses a standard unix pager - hit space for next page, b to go back, q to quit, h for help.
+
+PostgreSQL gives us a unix command for creating databases, ``createdb``. We need to
+create a database with the PostGIS extensions, so we need to tell it what template
+to start from. We'll call our database ``demo``. The command is then:
 
 ::
 
    createdb -T template_postgis demo
 
-.. tip:: Note: You can get help for PostgreSQL command line tools by typing: ``psql --help``
+.. tip:: You can usually get help for command line tools by using a ``--help`` option.
 
-or you can create the database from the PostgreSQL command line tool ``psql``
-using SQL:
 
-First get a list of all databases with ``psql -l`` then connect with the database. 
+If you now run ``psql -l`` you should see your ``demo`` database in the listing.
 
-.. review comment: Are we using "psql -l" to determine which databases we can connect to?
-  If so, we should say:
-  First get a list of all databases with ``psql -l`` and notice that ``postgres`` is one of the databases listed. Then connect with the ``postgres`` database. Cameron
+You can also create PostGIS databases using the SQL language. First we'll delete the 
+database we just created using the ``dropdb`` command, then use the ``psql`` command
+to get an SQL command interpreter:
 
 :: 
 
- psql -l 
- psql -d postgres
+  dropdb demo
+  psql -d postgres
  
-Run the SQL to create a new database:
+This connects to the database called ``postgres``, which is a system database that
+all servers should have. Now enter the SQL to create a new database:
 
 :: 
 
- CREATE DATABASE demo TEMPLATE=template_postgis;
+ postgres=# CREATE DATABASE demo TEMPLATE=template_postgis;
 
-To check this has worked, your database will have a lot of
-spatial functions and two tables: ``geometry_columns`` and ``spatial_ref_sys``.
+Now switch your connection from the ``postgres`` database to the new ``demo`` database. 
+In the future you can connect to it directly with ``psql -d demo``, but here's a neat
+way of switching within the ``psql`` command line:
 
-.. review comment: I suggest describing a command to list contents of the database (where
-   you can see the geometry_columns and spatial_ref_sys. Cameron
+::
 
-.. tip:: Note that when you are connected to a database with psql you can get help with ``\h`` or ``\?``. Leave the database with ``\q``.
+ postgres=# \c demo
+
+.. tip:: Hit Ctrl-C if the psql prompt keeps appearing after pressing return. It will clear your input and start again. It is probably waiting for a closing quote mark, semicolon, or something.
+
+You should see an informational message, and the prompt will change to show that you are now
+connected to the ``demo`` database. To check this has worked, type ``\dt`` to list the
+tables in the database. You should see something like this:
+
+::
+
+  demo=# \dt
+               List of relations
+   Schema |       Name       | Type  | Owner 
+  --------+------------------+-------+-------
+   public | geometry_columns | table | user
+   public | spatial_ref_sys  | table | user
+  (2 rows)
+
+Those two tables are used by PostGIS. The ``spatial_ref_sys`` table stores information
+on valid spatial reference systems, and we can use some SQL to have a quick look:
+
+::
+
+  demo=# SELECT srid,auth_name,proj4text FROM spatial_ref_sys LIMIT 10;
+
+   srid | auth_name |          proj4text                                            
+  ------+-----------+--------------------------------------
+   3819 | EPSG      | +proj=longlat +ellps=bessel +towgs...
+   3821 | EPSG      | +proj=longlat +ellps=aust_SA +no_d...
+   3824 | EPSG      | +proj=longlat +ellps=GRS80 +towgs8...
+   3889 | EPSG      | +proj=longlat +ellps=GRS80 +towgs8...
+   3906 | EPSG      | +proj=longlat +ellps=bessel +no_de...
+   4001 | EPSG      | +proj=longlat +ellps=airy +no_defs...
+   4002 | EPSG      | +proj=longlat +a=6377340.189 +b=63...
+   4003 | EPSG      | +proj=longlat +ellps=aust_SA +no_d...
+   4004 | EPSG      | +proj=longlat +ellps=bessel +no_de...
+   4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
+  (10 rows)
+
+This confirms we have a spatially-enabled database. The ``geometry_columns`` table has the 
+job of telling PostGIS which tables are spatially-enabled. This is the next step.
+
 
 
 Creating A Spatial Table The Hard Way
 =====================================
 
-Now we have a spatial database we can make spatial tables. Start the
-PostgreSQL command-line client by entering 'psql' and your database name at a terminal
-prompt. This should connect to your database.
+Now we have a spatial database we can make some spatial tables.
 
-::
-
- psql -d postgres
-
-
-First we create an ordinary database table to store some city data -
-this table has two fields - one for a numeric ID and one for the city
+First we create an ordinary database table to store some city data.
+This table has two fields - one for a numeric ID and one for the city
 name:
 
 ::
 
-  CREATE TABLE cities ( id int4, name varchar(50) );
+  demo=# CREATE TABLE cities ( id int4, name varchar(50) );
 
-Next you have to add a geometry column. Conventionally this is called
-``the_geom`` or ``geom``. This tells PostGIS what kind of geometry
+Next we add a geometry column to store the city locations.
+ Conventionally this is called
+``the_geom``. This tells PostGIS what kind of geometry
 each feature has (points, lines, polygons etc), how many dimensions
-(in this case two), and importantly the spatial reference
-system. We'll create the geometry column using EPSG:4326 coordinates.
+(in this case two), and the spatial reference
+system. We'll be using EPSG:4326 coordinates for our cities.
 
 ::
 
-  SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
+  demo=# SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
 
-.. review comment: I get an error when running this step:
-   ERROR:  function addgeometrycolumn(...) does not exist
-   Cameron
-
-.. tip:: Check the PostGIS table ``geometry_columns``. You will find a new row with metadata for your table there.
-
-.. review comment: How do you check the table? Describe the step. Cameron
-
-Now we can add some data to our table. Adding the id and name values is standard SQL fare. Adding our
-point coordinates requires us to use a PostGIS function to convert WKT (Well Known Text) strings with a 
-spatial reference system id.
+Now if you check the cities table you should see the new column, and be informed
+that the table currently contains no rows.
 
 ::
 
-  INSERT INTO cities (id, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
-  INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
-  INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
+  demo=# SELECT * from cities;
+   id | name | the_geom 
+  ----+------+----------
+  (0 rows)
+
+To add rows to the table we use some SQL statements. To get the geometry into
+the geometry column we use the PostGIS ``ST_GeomFromText`` function to convert
+from a text format that gives the coordinates and a spatial reference system id:
+
+::
+
+  demo=# INSERT INTO cities (id, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
+  demo=# INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
+  demo=# INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
+
+.. tip:: Use the arrow keys to recall and edit command lines.
 
 As you can see this gets increasingly tedious very quickly. Luckily there are other ways of getting
 data into PostGIS tables that are much easier. But now we have three cities in our database, and we 
@@ -137,11 +186,11 @@ can work with that.
 Simple Queries
 ==============
 
-All the usual SQL operations can be applied to select data from a PostGIS table.
+All the usual SQL operations can be applied to select data from a PostGIS table:
 
 ::
 
- # SELECT * FROM CITIES;
+ demo=# SELECT * FROM CITIES;
   id |      name       |                      the_geom                      
  ----+-----------------+----------------------------------------------------
    1 | London, England | 0101000020E6100000BBB88D06F016C0BF1B2FDD2406C14940
@@ -149,11 +198,15 @@ All the usual SQL operations can be applied to select data from a PostGIS table.
    3 | East London,SA  | 0101000020E610000040AB064060E93B4059FAD005F58140C0
  (3 rows)
 
-If you want to have a look at your geometry in WKT format again, you can use the functions ST_AsText(the_geom) or ST_AsEwkt(the_geom). Or use ST_X(the_geom), ST_Y(the_geom) to get the coordinates
+This gives us a meaningless hexadecimal version of the coordianates.
+
+If you want to have a look at your geometry in WKT format again, you
+can use the functions ST_AsText(the_geom) or ST_AsEwkt(the_geom). You can also
+use ST_X(the_geom), ST_Y(the_geom) to get the numeric value of the coordinates:
 
 ::
 
- # SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM CITIES;
+ demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM CITIES;
   id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
  ----+------------------------------+----------------------------------------+-------------+-----------
    1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
@@ -170,15 +223,12 @@ PostGIS adds many functions with spatial functionality to
 PostgreSQL. We've already seen ST_GeomFromText which converts WKT to
 geometry. Most of them start with ST (for spatial type) and are listed in a section of
 the PostGIS documentation. We'll now use one to answer a practical
-question.
-
-How far are these three Londons away from each other, in metres,
-assuming a spherical earth? (I'd use ST_Distance_Spheroid but my
-version of PostGIS doesn't have it)
+question - how far are these three Londons away from each other, in metres,
+assuming a spherical earth? 
 
 ::
 
- # SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) from cities as p1, cities as p2 where p1.id > p2.id;
+ demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) from cities as p1, cities as p2 where p1.id > p2.id;
        name       |      name       | st_distance_sphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
@@ -186,12 +236,30 @@ version of PostGIS doesn't have it)
   East London,SA  | London, Ontario |   13892160.9525778
   (3 rows)
 
-This gives is the distance, in metres, between each pair of
+This gives us the distance, in metres, between each pair of
 cities. Notice how the 'where' part of the line stops us getting back
 distances of a city to itself (which will all be zero) or the reverse
-distances to the ones in the table above (England to Ontario is the
-same distance as Ontario to London). Try it without the 'where' part
+distances to the ones in the table above (London, England to London, Ontario is the
+same distance as London, Ontario to London, England). Try it without the 'where' part
 and see what happens.
+
+We can also compute the distance using a spheroid by using a different function and specifying the
+spheroid name, semi-major axis and inverse flattening parameters:
+
+::
+
+  demo=# SELECT p1.name,p2.name,ST_Distance_Spheroid(
+          p1.the_geom,p2.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
+          ) 
+         from cities as p1, cities as p2 where p1.id > p2.id;
+        name       |      name       | st_distance_spheroid 
+  -----------------+-----------------+----------------------
+   London, Ontario | London, England |     5892413.63776489
+   East London,SA  | London, England |     9756842.65711931
+   East London,SA  | London, Ontario |     13884149.4140698
+  (3 rows)
+
+
 
 Mapping
 =======
