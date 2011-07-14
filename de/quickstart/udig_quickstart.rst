@@ -223,37 +223,36 @@ Web Map Server
    
 Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werden können, um eigene Karten zu erstellen.
 
-#. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
+1. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
-#. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
-   
+2. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
+
   .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
    :scale: 70 %
+3. Wählen Sie innerhalb der **Web** Ansicht den Link `WMS\:dm solution`_ aus
 
-#. Wählen Sie innerhalb der **Web** Ansicht den Link `WMS\:dm solution`_ aus
+	.. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
 
-  .. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
-
-#. Im darauf folgenden **Add Data** Wizard wählen Sie folgende Layer als Resourcen aus:
+4. Im darauf folgenden **Add Data** Wizard wählen Sie folgende Layer als Resourcen aus:
 
    * Elevation/Bathymetry
    * Parks
    * Cities
    
-  .. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
-   :scale: 70 %
+	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+	 :scale: 70 %
 
-#. Bestätigen Sie mit :guilabel:`Finish`, dass die Layer zur Karte hinzugefügt werden sollen
+5. Bestätigen Sie mit :guilabel:`Finish`, dass die Layer zur Karte hinzugefügt werden sollen
    
   .. image:: ../../images/screenshots/800x600/udig_WMSMap.png
    :scale: 70 %
   
-.. tip:: Sie können analog zu den Shapefiles auch per Drag&Drop Layer von Web Map Servern 
-         der Karte hinzufügen oder alternativ den **Add Data** Wizard (:menuselection:`Layer --> Add...`) nutzen.
+  .. tip:: Sie können analog zu den Shapefiles auch per Drag&Drop Layer von Web Map Servern 
+           der Karte hinzufügen oder alternativ den **Add Data** Wizard (:menuselection:`Layer --> Add...`) nutzen.
   
-#. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detaillierter  anzuzeigen
+6. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detaillierter  anzuzeigen
 
-#. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
+7. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
    
    .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
@@ -262,13 +261,13 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 Stile
 =====
 
-#. Wählen Sie in der **Project** Ansicht die Karte `project > countries`, Sie können sie per Doppelklick oder rechter Maustaste :guilabel:`Open Map` öffnen
+1. Wählen Sie in der **Project** Ansicht die Karte `project > countries`, Sie können sie per Doppelklick oder rechter Maustaste :guilabel:`Open Map` öffnen
 
-#. Wählen Sie den Layer :guilabel:`countries` in der **Layers** Ansicht aus
+2. Wählen Sie den Layer :guilabel:`countries` in der **Layers** Ansicht aus
 
-#. Öffnen Sie den **Style Editor**, indem Sie per rechter Maustaste auf dem Layer :guilabel:`Change Style` auswählen
+3. Öffnen Sie den **Style Editor**, indem Sie per rechter Maustaste auf dem Layer :guilabel:`Change Style` auswählen
 
-#. Wir werden mehrer Änderungen vorgenommen, die sich auf die Darstellung der Länder auswirken
+4. Wir werden mehrer Änderungen vorgenommen, die sich auf die Darstellung der Länder auswirken
    
    * begrenzende Linie (Border) : Wählen Sie den Tab :guilabel:`Border` und ändern Sie die Farbe auf Schwarz
    
@@ -279,9 +278,9 @@ Stile
    .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
-#. Bestätigen Sie :guilabel:`Apply`, um zu sehen, wie sich der Stil auf die Karte auswirkt. Die Ansicht **Layers** wird ebenso aktualisiert, das Icon vor dem Namen des Layers reflektiert die aktuelle Stilkonfiguration
+5. Bestätigen Sie :guilabel:`Apply`, um zu sehen, wie sich der Stil auf die Karte auswirkt. Die Ansicht **Layers** wird ebenso aktualisiert, das Icon vor dem Namen des Layers reflektiert die aktuelle Stilkonfiguration
 
-#. Sobald Sie mit dem Stil zufrieden sind, können Sie das :guilabel:`Close` bestätigen, um den Dialog zu verlassen
+6. Sobald Sie mit dem Stil zufrieden sind, können Sie das :guilabel:`Close` bestätigen, um den Dialog zu verlassen
 
   .. note:: Zu einigen Dateien werden bereits Stile mitgeliefert. Dabei gibt es unter gleichen Dateinamen eine :file:`*.sld` Datei. 
             Ist eine solche Datei vorhanden, so wird der Stil automatisch auf die importierten Daten angewendet.

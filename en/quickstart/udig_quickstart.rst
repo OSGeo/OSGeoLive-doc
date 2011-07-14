@@ -240,18 +240,18 @@ available layers of information that you can mix into your own maps.
 .. tip:: You can also connect to Web Map Servers using the **Add Data** (:menuselection:`Layer --> Add...`) Wizard
   for Drag and Drop.
 
-#. Select :menuselection:`File --> New --> New Map` from the menu bar
+1. Select :menuselection:`File --> New --> New Map` from the menu bar
 
-#. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
+2. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
    
   .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
     :scale: 70 %
 
-#. Click on the link `WMS\:dm solution`_ link
+3. Click on the link `WMS\:dm solution`_ link
 
    .. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
 
-#. From the Resource Selection page we are going to choose the following layers:
+4. From the Resource Selection page we are going to choose the following layers:
 
    * Elevation/Bathymetry
    * Parks
@@ -260,14 +260,14 @@ available layers of information that you can mix into your own maps.
 .. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
   :scale: 70 %
 
-#. Press :guilabel:`Finish` to add these layers to your map
+5. Press :guilabel:`Finish` to add these layers to your map
    
   .. image:: ../../images/screenshots/800x600/udig_WMSMap.png
    :scale: 70 %
 
-#. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
+6. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
-#. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
+7. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
    
 .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
@@ -289,7 +289,7 @@ Style
    * Fill: uncheck the box to turn off fill
    
    * Label: check the box, and choose CNTRY_NAME from the list of attributes
-   
+
    .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
