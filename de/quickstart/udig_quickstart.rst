@@ -8,7 +8,7 @@
   Enden sollte das Dokument mit "Einen Versuch wert" und "Was nun?" Sektionen.
   Man sollte das Dokument so schreiben, dass weniger erfahrenen Anwender und Nutzer 
   mit wenig Expertenwissen verstehen können, was in den einzelnen Schritten erreicht 
-  werden soll. Abkürzungen sollten erklärt beziehungsweise auschrieben werden.
+  werden soll. Abkürzungen sollten erklärt beziehungsweise ausgeschrieben werden.
  
   Wenn Beispieldaten verwendet werden sollen, sollten Naturalearth beziehungsweise
   Openstreetmap Datensätze verwendet werden. Diese Beispieldaten werden durch das Installationsskript
@@ -105,22 +105,24 @@ Willkommensansicht
 
 #. Wird uDig erstmalig gestartet, erscheint die Willkommensansicht, die Links zu Tutorials, Dokumentationen und der Projekt-Webseite enthält. Keine weiteren Ansichten sind sichtbar.
  
-#. Bewegen Sie die Maus auf den Pfeil in der oberen rechten Ecke, es erscheint der Text **Workbench**. Klicken Sie auf den Pfeil, um diese Ansicht zu schließen und den Arbeitsbereich anzuzeigen. 
+#. Bewegen Sie die Maus auf den Pfeil **Workbench**. Klicken Sie auf das Icon, um diese Ansicht zu schließen und den Arbeitsbereich anzuzeigen zu lassen. 
   
   .. image:: ../../images/screenshots/800x600/udig_welcome.png
    :scale: 70 %
 
-Die Willkommensansicht können Sie jederzeit wieder herstellen, indem Sie im Menü :menuselection:`Help --> Welcome` wählen.
+Die Willkommensansicht können Sie jederzeit wieder herstellen, indem Sie im Applikationsmenü :menuselection:`Help --> Welcome` auswählen.
 
 Arbeitsbereich
 ==============
 
-Im Arbeitsbereich gibt es einen Bereich für die Karten, der umgeben ist von Ansichten, die das Arbeiten mit der Karte unterstützen. Viele Ansichten zeigen dabei kontextbezogene Informationen zur aktuell geöffneten und ausgewählten Karte an.
+Im Arbeitsbereich gibt es einen Bereich für die Karten, der umgeben ist von Ansichten, die das Arbeiten mit der Karte unterstützen. 
+Viele Ansichten zeigen dabei kontextbezogene Informationen zur aktuell geöffneten und ausgewählten Karte an.
 
   .. image:: ../../images/screenshots/800x600/udig_workbench.png
    :scale: 70 %
 
-Oben ist eine typischer uDig Arbeitsplatz zu sehen mit Karten (Editoren) sowie Ansichten für Kartenprojekte und Layer. Darüber hinaus gibt es noch die Katalogansicht. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
+Oben ist ein typischer uDig -Arbeitsplatz mit Karten (Editoren) sowie Ansichten für Kartenprojekte und Layer zu sehen. Darüber hinaus 
+gibt es noch die Katalogansicht. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
 
 Dateien
 =======
@@ -137,33 +139,25 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
-#. Wählen Sie die folgende Datei aus dem :file:`natural_earth` Ordner aus :
+#. Wählen Sie die folgende Datei aus dem Ordner :file:`natural_earth`  aus:
    
    * :file:`10m_admin_0_countries.shp`
    
 #. Klicken Sie auf die Schaltfläche :guilabel:`Open`
    
-   * Eine neue Karte wird geöffnet, die den Inhalt des Shapefiles anzeigt. Der Name und die 
-     Projektion für die Karte wurden vom Shapefile übernommen (Standardverhalten)
+   * Eine neue Karte wird geöffnet, die den Inhalt des Shapefiles anzeigt. Der Name und die Projektion für die Karte wurden vom Shapefile übernommen (Standardverhalten)
 
-   * Die Katalogansicht (**Catalog view**) wurde aktualisiert und enthält nun einen Eintrag 
-     für das Shapefile :file:`10m_admin_0_countries.shp`. Diese Ansicht enthält als Liste 
-	 alle Resourcen, die in den unterschiedlichsten Karten der uDig Anwendung verwendet werden.
+   * Die Katalogansicht (**Catalog view**) wurde aktualisiert und enthält nun einen Eintrag für das Shapefile :file:`10m_admin_0_countries.shp`. Diese Ansicht enthält als Liste alle Resourcen, die in den unterschiedlichsten Karten der uDig Anwendung verwendet werden.
    
-   * In der Layeransicht (**Layers**) sehen Sie einen einzigen Eintrag für den Layer der in 
-     der Karte angezeigt wird. Diese Ansicht wird verwendet, um die Reihenfolge mehrerer Layer 
-	 anzupassen und das Darstellungsverhalten eines Layer zu ändern.
+   * In der Layeransicht (**Layers**) sehen Sie einen einzigen Eintrag für den Layer der in der Karte angezeigt wird. Diese Ansicht wird verwendet, um die Reihenfolge mehrerer Layer anzupassen und das Darstellungsverhalten eines Layer zu ändern.
    
-   * Die Projektansicht (**Projects**) wurde ebenfalls aktualisiert und zeigt nun die hinzugefügte 
-     Karte has been gespeichert wurde unter project > 10m admin 0 countries. Es können mehrere 
-	 Projekte geöffnet sein. Jedes Projekt kann wiederum mehere Karten enthalten.
+   * Die Projektansicht (**Projects**) wurde ebenfalls aktualisiert und zeigt nun die hinzugefügte Karte unter `project > 10m admin 0 countries`. Es können mehrere Projekte geöffnet sein. Jedes Projekt kann wiederum mehrere Karten enthalten.
 
-#. Öffnen Sie den Ordner :file:`~/data/natural_earth/HYP_50M_SR_W` im Home-Verzeichnis mit dem **File Manager**
+#. Öffnen Sie den Ordner :file:`~/data/natural_earth/HYP_50M_SR_W` im Home -Verzeichnis mit dem **File Manager**
 
 #. Ziehen Sie per Drag&Drop die Datei :file:`HYP_50M_SR_W.tif` in die Karte. Ein neuer Layer wird er Karte hinzugefügt.
 
-#. In welcher Reihenfolge die Layer in der Karte dargestellt werden, sehen Sie in der Layeransicht. Im Moment wird der 
-   Layer `HYP_50M_SR_W` über den Ländergrenzen des Layers `10m admin 0 countries` gezeichnet.
+#. In welcher Reihenfolge die Layer in der Karte dargestellt werden, sehen Sie in der Layeransicht. Im Moment wird der Layer `HYP_50M_SR_W` über den Ländergrenzen des Layers `10m admin 0 countries` gezeichnet.
 
 #. Wählen Sie den Layer `HYP_50M_SR_W` in der Layeransicht und schieben diesen per Drag&Drop an das Ende der Liste.
   
@@ -193,10 +187,7 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
    
    .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
    
-   * Verwenden Sie dieses Werkzeug innerhalb des Kartenfensters und spannen Sie mit Hilfe der Maus ein Rechteck auf. Die Aktion wird begonnen
-     beim ersten Klick mit der linken Maustaste und beendet mit dem zweiten Klick mit der gleichen Maustaste. Zwischen den zwei Klicks können 
-	 Sie die Maus bewegen um das gewünschte Rechteck einzustellen. Mit gelber Farbe wird der potentiell neue Ausschnitt während der Mausbewegung 
-	 mit dargestellt.
+   * Verwenden Sie dieses Werkzeug innerhalb des Kartenfensters und spannen Sie mit Hilfe der Maus ein Rechteck auf. Die Aktion wird begonnen beim ersten Klick mit der linken Maustaste und beendet mit dem zweiten Klick mit der gleichen Maustaste. Zwischen den zwei Klicks können 	 Sie die Maus bewegen um das gewünschte Rechteck einzustellen. Mit gelber Farbe wird der potentiell neue Ausschnitt während der Mausbewegung mit dargestellt.
 	 
    * Um den sichtbaren Bereich der Karte zu vergrößern, klicken Sie innerhalb des Kartenfensters mit der rechten Maustaste dahin, wo der neue Ausschnitt zentriert werden soll.
 
@@ -220,7 +211,8 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
      .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
-.. tip:: Die meisten Werkzeuge erlauben es Ihnen, bei gedückter mittlerer Maustaste den Ausschnitt zu verschieben und unter Verwendung des Mausrades den Maßstab anzupassen.
+.. tip:: Die meisten Werkzeuge erlauben es Ihnen, bei gedrückter mittlerer Maustaste den Ausschnitt zu verschieben 
+         und unter Verwendung des Mausrades den Maßstab anzupassen.
 
 Web Map Server
 ==============
@@ -259,7 +251,7 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 .. tip:: Sie können analog zu den Shapefiles auch per Drag&Drop Layer von Web Map Servern 
          der Karte hinzufügen oder alternativ den **Add Data** Wizard (:menuselection:`Layer --> Add...`) nutzen.
   
-#. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detailierter anzuzeigen
+#. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detaillierter  anzuzeigen
 
 #. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
    
@@ -270,80 +262,65 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 Stile
 =====
 
-#. Select the project > countries, you can double click to open this Map, or Right Click and choose Open Map
+#. Wählen Sie in der **Project** Ansicht die Karte `project > countries`, Sie können sie per Doppelklick oder rechter Maustaste :guilabel:`Open Map` öffnen
 
-#. Select the countries layer in the Layer view
+#. Wählen Sie den Layer :guilabel:`countries` in der **Layers** Ansicht aus
 
-#. Open up the Style Editor by right clicking on countries layer and choosing Change Style
+#. Öffnen Sie den **Style Editor**, indem Sie per rechter Maustaste auf dem Layer :guilabel:`Change Style` auswählen
 
-#. We are going to change a few things about how countries are displayed
+#. Wir werden mehrer Änderungen vorgenommen, die sich auf die Darstellung der Länder auswirken
    
-   * Line: Click on the Color and change the color to BLACK
+   * begrenzende Linie (Border) : Wählen Sie den Tab :guilabel:`Border` und ändern Sie die Farbe auf Schwarz
    
-   * Fill: uncheck the box to turn off fill
+   * Füllfläche : Deaktivieren Sie Checkbox :guilabel:`enable/disable fill` unter dem Tab :guilabel:`Fill`
    
-   * Label: check the box, and choose CNTRY_NAME from the list of attributes
+   * Label : Aktivieren sie die Checkbox :guilabel:`enable/disable labeling` unter dem Tab :guilabel:`Labels` und wählen Sie in Attributliste zu :guilabel:`label` das Attribut **NAME** aus
    
    .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
-#. Press :guilabel:`Apply` to see what this looks like on your Map, the **Layer** view will also be updated
-   to reflect the current style
+#. Bestätigen Sie :guilabel:`Apply`, um zu sehen, wie sich der Stil auf die Karte auswirkt. Die Ansicht **Layers** wird ebenso aktualisiert, das Icon vor dem Namen des Layers reflektiert die aktuelle Stilkonfiguration
 
-#. When you are happy with the result you can press :guilabel:`Close` to dismiss the dialog
+#. Sobald Sie mit dem Stil zufrieden sind, können Sie das :guilabel:`Close` bestätigen, um den Dialog zu verlassen
 
-#. Some files include style settings, Select :menuselection:`Layer --> Add` from the menu bar
+  .. note:: Zu einigen Dateien werden bereits Stile mitgeliefert. Dabei gibt es unter gleichen Dateinamen eine :file:`*.sld` Datei. 
+            Ist eine solche Datei vorhanden, so wird der Stil automatisch auf die importierten Daten angewendet.
+			
 
-#. Select **Files** from the list of data sources and press :guilabel:`Next`
-
-#. Using the file chooser open up **timezone.shp** and press :guilabel:`Open`
-
-#. It is a bit hard to see what is going on with the clouds.jpg layer providing so much details.
-   Select :menuselection:`Map --> Mylar` from the menu bar to focus on the selected layer
-
-#. Using the *Layer* view select timezone, countries and clouds.jpg in turn to see the effect
-  
   .. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
    :scale: 70 %
+ 
+Manchmal ist es schwierig aufgrund der Stile der verschiedenen Layer das wesentliche auf der Karte zu erkennen. Es gibt die Möglichkeit 
+über :menuselection:`Map --> Mylar` vom Applikationsmenü auf den in der **Layers** Ansicht ausgewählten zu fokussieren. Damit werden alle 
+anderen Layer leicht transparent dargestellt. Klicken Sie in der **Layers** Ansicht auf unterschiedliche Layer, damit Sie eine Idee davon 
+bekommen, wie dieser Effekt wirkt. Sie können diesen Effekt über :menuselection:`Map --> Mylar` wieder deaktivieren.
+		  
+Was kann man noch probieren ?
+=============================
 
-#. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar
+Weitere Herausforderungen, die Sie meistern können:
 
-.. Writing tip
-  The final heading should provide pointers to further tutorials,
-  documentation or further things to try.
-  Present a list of ideas for people to try out. Start off very specific
-  with something most people can do based on the materials as presented.
-  Continue on with a challenge that involves a small bit of research (it
-  is recommended that research be limited to something that can be
-  found in documentation packaged on OSGeo-Live, as users might not be
-  connected to the internet.
+#. Versuchen Sie, Ihre eigenen Kartenlayer oder Layer von einem Web Feature Service (WFS) einer Karte hinzuzufügen.
+#. Ändern Sie den Stil einen WFS Layers.
 
-Things to Try
-=============
+Wie geht es weiter ?
+====================
 
-Here are some additional challenges for you to try:
-
-#. Try viewing your own GIS map layers, or try adding a layer from a Web Feature Service (WFS).
-#. Try styling the WFS layer.
-
-What Next?
-==========
-
-.. Writing tip
-  Provide links to further tutorials and other documentation.
-
-This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
+Die beschriebenen Funktionalitäten ist nur als ein Ausschnitt des Grsamtpacketes uDig zu betrachten. 
+Es gibt noch mehr Material, das es sich zu erkunden lohnt. Auch um weitere Funktionalitäten kennenzulernen 
+sei auf die **Walkthrough** -Dokumente verwiesen.
 
 * Walkthrough 1
 
-  Try out the use of PostGIS, extract data from a Web Feature Server and explore the
-  use of Themes with our powerful Color Brewer technology.
+  Binden Sie Daten aus einer PostGIS Datenbank ein und laden Sie Daten von einem Web Feature Server, 
+  erkunden Sie die **Themes** Funktionalität über die mächtige `Color Brewer` Technologie.
 
   :file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`
 
-* Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to manipulate
-  feature data, covers the installation of GeoServer and editing with a Web Feature
-  Server.
+* Walkthrough 2 
+
+  Lernen Sie, wie Shapefiles erzeugt werden können, erfassen und ändern Sie Daten mit den Editierwerkzeugen. 
+  Dieser Walkthrough deckt die Installation eines GeoServers wie auch das Ändern von Daten eines WFS Services ab.
 
   Available on http://udig.refractions.net/
 
