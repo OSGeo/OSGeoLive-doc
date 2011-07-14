@@ -14,13 +14,13 @@
 Marble
 ======
 
-3D desktop globe
+3D デスクトップ地球儀
 ~~~~~~~~~~~~~~~~
 
-Marbleは`NASA World Wind <http://worldwind.arc.nasa.gov/java/>`またはGoogleEarthと類似するオープンソースのKDE教育プロジェクトプログラムです。
-PC上の地球儀に豊富な地図(`OpenStreetMaps <http://www.osm.org>`_を含む)が選択できることはもとより、応用として KDE Marble ウィジェットを追加するように指示することができます。
+Marbleは `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ や GoogleEarth の様なオープンソースのKDE教育プロジェクトプログラムです。
+PC上の地球儀に `OpenStreetMaps <http://www.osm.org>`_ を含む様々な地図表示することができます。また、あなたの作成したアプリケーションに KDE Marble ウィジェットを追加すこともできます。
 
-代表的な機能
+主な機能
 -------------
 
 .. image:: ../../images/screenshots/1024x768/marble-history.png
@@ -28,14 +28,15 @@ PC上の地球儀に豊富な地図(`OpenStreetMaps <http://www.osm.org>`_を含
   :alt: screenshot
   :align: right
 
-* バーチャルな地球儀と世界地図の表示
-* 3Dによる地球儀のナビゲート
+* 仮想地球儀、世界地図の表示
+* 3Dでの地球儀のナビゲート
+* マウスクリックした位置に関するウィキペディアの記事を表示
 * 行き先に関するウィキペディアの情報をマウスクリックで表示
 * 複数の選択可能な地図(惑星や月など)
 * 昼夜の太陽オーバーレイ
 * 距離計測
 * スペース空間からのビューおよび2Dマップビューとの切り替え
-* `OpenStreetMap <http://www.osm.org>`_との統合
+* `OpenStreetMap <http://www.osm.org>`_ との統合
 
 
 詳細
@@ -45,11 +46,11 @@ PC上の地球儀に豊富な地図(`OpenStreetMaps <http://www.osm.org>`_を含
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 2.1
 
-**ソフトウェアバージョン:** 0.9.2
+**バージョン:** 0.9.5
 
 **対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 
-**APIインターフェース:** Qt designer, C++, Python, D-BUS, Shell script
+**API:** Qt designer, C++, Python, D-BUS, Shell script
 
 **サポート:** http://techbase.kde.org/Projects/Marble
 
@@ -57,6 +58,6 @@ PC上の地球儀に豊富な地図(`OpenStreetMaps <http://www.osm.org>`_を含
 クイックスタート
 ----------
 
-* `クイックスタート　ドキュメント <../quickstart/marble_quickstart.html>`_
+* `クイックスタート <../quickstart/marble_quickstart.html>`_ 
 
 
