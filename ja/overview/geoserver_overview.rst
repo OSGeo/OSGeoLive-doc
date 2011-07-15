@@ -26,7 +26,7 @@
   :target: http://geoserver.org/display/GEOS/Welcome
 
 .. Writing Tip: 
-  Include an OSGeo logo if the project is an OSGeo project, or is in
+  Include an OSGeo logo if the project is an OSGeo project、 or is in
   incubation:
   .. image:: ../../images/logos/OSGeo_incubation.png
   .. image:: ../../images/logos/OSGeo_project.png
@@ -59,11 +59,9 @@ Webサービス
 
 
 
-GeoServerは多彩な形式の地図とデータをWEBブラウザやデスクトップGISプログラム等の標準的なクライアントに配信するWEBサーバーです．あなたはほとんど全ての`形式
-<http://docs.geoserver.org/stable/en/user/data/index.html>`_を選択して空間データを保存できますが，あなたのシステムのユーザはGISデータの内容について知る必要はありません．地図をみるために必要なものは単純に言うとwebブラウザだけです。 
+GeoServer は、多彩な形式の地図とデータを Web ブラウザやデスクトップ GIS プログラム等の標準的なクライアントに配信する Web サーバです。ユーザーは GIS データについて全く知ることなく、ほとんど全ての `フォーマット <http://docs.geoserver.org/stable/en/user/data/index.html>`_ で空間データを保存することができます。地図をみるには Web ブラウザだけが必要となります。
 
-GeoServerは`Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC)の以下のサービスのレファランス実装です. `Web Feature Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) ,`Web Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS)等の標準群, さらに同様に高性能が保証された `Web MapService <http://www.opengeospatial.org/standards/wms>`_ (WMS).
-GeoServerは空間情報webの中心部分を形成します. 
+GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC) の `Web Feature Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) 、 `Web Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS)、高性能なWebサーバの `Web MapService <http://www.opengeospatial.org/standards/wms>`_ (WMS) の参考実装です。GeoServer は空間情報 web の中核を担います。
 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
@@ -74,53 +72,58 @@ GeoServerは空間情報webの中心部分を形成します.
 主な機能
 -------------
 
-**様々な種類のデータストアデータを配信する:**
-    * ベクター
-        - Shapefiles, 外部WFS
-        - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
-    * ラスター
-        - GeoTiff, JPG and PNG (ワールドファイル付き), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
+**様々な種類のデータストアデータの配信:**
+    * ベクタ
+        - シェープファイル、 外部WFS
+        - PostGIS、 ArcSDE、 DB2、 Oracle Spatial、 MySql、 SQL Server
+    * ラスタ
+        - GeoTiff、 JPG and PNG (ワールドファイル付き)、 image pyramid、 GDAL formats、 Image Mosaic、 Oracle GeoRaster
 
-**データはWMSプロトコルを利用して安全かつ迅速に配信されます:**
-    データはイメージとして完全な安全とセキュリティで配信されます．あなたのデータを盗聴することはできないので、データを盗もうとする人にはデータ再入力をする以外に方法は無いでしょう.
-    それぞれの地図のレイヤ表現はSLDを利用して設定できます。SLDは地物の色やラベル表示を設定できます. このルールと縮尺依存のOGCフィルターを合わせるとユーザーのズームに合わせてさらに細かい描画設定を行うことができます. ラベルの描画時衝突の管理、グループ化、優先順位つけも実装されています.
+** WMS プロトコルを利用して安全かつ迅速にデータ配信:**
+    データは画像の状態で保存し、完全に安全でセキュアに配信します。データを再入力しない限り、あなたのデータを盗み出すことはできないでしょう。
+    それぞれの地図のレイヤは SLD を用いて表示を変更できます。SLD 標準により地物の色やラベル表示を設定できます。これに、縮尺によって変化する OGC フィルターにを合わせると、ユーザーが拡大表示すると、より詳細を表示するような実装が可能です。ラベルの描画衝突の管理、グループ化、優先順位も実装されています。
 
-**WFSプロトコルを利用するとフルベクタデータをクライアントに送信できます:**
-     WFSクライアントはベクタデータをダウンロードして地図表示や空間解析等の用途に使えます.さらにWFS-Tプロトコルを利用すると認証されたユーザがデータを編集して送信することでサーバのデータを更新することができます. 
-     shapefileやjsonのような標準データと同じようにデータはGML（圧縮された）として送受信することができます.
+** WFS プロトコルを利用したクライアントへのベクタデータ送信:**
+     WFS クライアントは、ベクタデータをダウンロードして地図表示や空間解析等の用途に使用できます。さらにWFS-Tプロトコルを利用して、認証されたユーザがサーバのデータを編集、アップロードすることで更新できます。
+     shapefile や json のような標準規格同様に、データは圧縮した GML で送受信を行います。
 
-**WCSプロトコルを利用するとラスタデータの値をクライアントに送信できます:**
-     GISクライアントは空間解析のためにラスタ実データの要求ができます. この機能でユーザーはあなたのデータ作成過程をモデルとしたアプリケーションを作ることができます.
+** WCS プロトコルを利用したクライアントへのラスタデータ送信:**
+     GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザーが活用することができます。
 
-**オンザフライ再投影:**
-     GeoServerはEPSGデータベースの主要な投影法をサポートしています.要求に応じてそれらの投影法に再投影することが可能です.クライアントに制限された再投影を許可するためにはサーバーにロードする方法をサポートします. 
+**オンザフライ投影変換:**
+     GeoServer は EPSG データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限され手いる場合にはサーバ側でその処理を行うこともできます。
 
-**WMSタイリングキャッシュ**
-    `GeoWebCache <http://geowebcache.org/>`_ はWMSタイリングクライアントです. これは地図クライアントと地図サーバーの間のプロキシサーバとして動作し要求に応じてタイルをキャッシュします, 余分なリクエストを除去して莫大なプロセスタイムを減少させます. GeoWebCacheはGeoServerに統合されています.
+**WMS タイルキャッシュ**
+    `GeoWebCache <http://geowebcache.org/>`_ は WMS タイリングクライアントです。これは地図クライアントと地図サーバーの間のプロキシサーバとして動作し要求に応じてタイルをキャッシュします。余分なリクエストをまとめて莫大なCPU時間を減少させます。GeoWebCache は GeoServer に統合されています。
 
 
-準拠している標準
+準拠している標準規格
 ---------------------
 
 
 * 多くの Open Geospatial Consortium  (OGC) 標準をサポートしています
 
-  * WMS, transactional WFS, WCS, Filter Encoding, SLD, GML
+  * WMS、 transactional WFS、 WCS、 Filter Encoding、 SLD、 GML
 
 詳細
 -------
 
-**ウェッブサイト:** http://geoserver.org/display/GEOS/Welcome
+**ウェブサイト:** http://geoserver.org/display/GEOS/Welcome
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.0.2
+**バージョン:** 2.1
 
-**サポートされるプラットフォーム:** All Java 1.5 platforms: - Windows, Linux, Mac
+**サポートするプラットフォーム:** All Java 1.5 platforms: - Windows、 Linux、 Mac
 
-**APIインターフェース:** WMS, WFS, WCS, REST
+**API:** WMS、 WFS、 WCS、 REST
 
 
 
 **サポート:** http://geoserver.org/display/GEOS/Commercial+Support
+
+Quickstart
+----------
+    
+* `Quickstart documentation <../quickstart/geoserver_quickstart.html>`_
 
