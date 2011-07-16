@@ -66,7 +66,7 @@ Details
 
 **Software Version:** 2.0.6
 
-**Supported Platforms:** Linux, Windows
+**Supported Platforms:** Windows, Linux, FreeBSD
 
 **API Interfaces:** C++
 
