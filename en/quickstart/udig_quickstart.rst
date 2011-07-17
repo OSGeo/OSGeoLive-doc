@@ -68,7 +68,7 @@ editing and viewing GeoSpatial data.
 
 This Quick Start describes how to:
 
-  * load a map layers from a shapefile and Web Map Service (WMS)
+  * load a map layers from a shapefile and :doc:`Web Map Service (WMS) <../standards/wms_overview>`
   * use the standard map tools
   * apply colour to map features using styling
 
@@ -140,32 +140,32 @@ To start out with we are going to load some of the sample data included on the D
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
-#. Select the following file from the udig-data folder:
+#. Select the following file from the :file:`natural_earth` folder:
    
-   * :file:`countries.shp`
+   * :file:`10m_admin_0_countries.shp`
    
 #. Press :guilabel:`Open`
    
    * A new Map editor will be opened based on the contents of your shapefile. The default name and
      projection of the Map has been taken from your shapefile.
    
-   * You can see the **Catalog view** has been updated with an entry for :file:`countries.shp`. This
+   * You can see the **Catalog view** has been updated with an entry for :file:`10m_admin_0_countries.shp`. This
      view is used to track the use of resources by the uDig application.
    
    * The **Layers** view shows a single layer is displayed on this map. This view is used to change
      the order and appearance of information in your Map.
    
-   * The **Projects** view has been updated to show that your map is stored in projects > countries.
+   * The **Projects** view has been updated to show that your map is stored in `projects > 10m admin 0 countries`.
      You can have multiple projects open at a time, each project can have several maps.
 
-#. Open up your data folder on the desktop
+#. Open up the :file:`~/data/natural_earth/HYP_50M_SR_W` folder on the desktop
 
-#. Drag :file:`clouds.jpg` onto the Map Editor, a new layer is added to to the map.\
+#. Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to to the map.
 
-#. You can see the order the layers are drawn in the layer view. Right now the clouds.jpg layer is drawn
-   on top of the countries layer.
+#. You can see the order the layers are drawn in the layer view. Right now the `HYP_50M_SR_W` layer is drawn
+   on top of the `10m admin 0 countries` layer.
 
-#. Select the clouds.jpg layer in the catalog view and drag it to the bottom of the list
+#. Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the bottom of the list
   
   .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
    :scale: 70 %
@@ -217,10 +217,10 @@ You can control where in the world the Map Editor is looking by using the naviga
      .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
      .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
 
-   * You can use Navigation Back |BNAV| and Forward |FNAV|in the menu bar to cycle though previously
+   * You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to cycle though previously
      visited locations.
 
-	 .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
+     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
 .. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
@@ -240,55 +240,55 @@ available layers of information that you can mix into your own maps.
 .. tip:: You can also connect to Web Map Servers using the **Add Data** (:menuselection:`Layer --> Add...`) Wizard
   for Drag and Drop.
 
-1. Select :menuselection:`File --> New --> New Map` from the menu bar
+#. Select :menuselection:`File --> New --> New Map` from the menu bar
 
-2. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
-   
-  .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
-    :scale: 70 %
+#. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
 
-3. Click on the link `WMS\:dm solution`_ link
+	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
+		:scale: 70 %
 
-   .. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
+#. Click on the link WMS\:`dm solutions`_ link
 
-4. From the Resource Selection page we are going to choose the following layers:
+	.. _dm solutions: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
+
+#. From the Resource Selection page we are going to choose the following layers:
 
    * Elevation/Bathymetry
    * Parks
    * Cities
    
-.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
-  :scale: 70 %
+	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+		:scale: 70 %
 
-5. Press :guilabel:`Finish` to add these layers to your map
+#. Press :guilabel:`Finish` to add these layers to your map
    
-  .. image:: ../../images/screenshots/800x600/udig_WMSMap.png
-   :scale: 70 %
+	.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+		:scale: 70 %
 
-6. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
+#. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
-7. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
+#. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
    
 .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
-.. tip:: You can switch between the zoom and info tools by pressing Z and I on the keyboard.
+.. tip:: You can switch between the zoom and info tools by pressing `Z` and `I` on the keyboard.
 
 Style
 =====
 
-#. Select the project > countries, you can double click to open this Map, or Right Click and choose Open Map
+#. Select the `project > 10m admin 0 countries`, you can double click to open this Map, or Right Click and choose Open Map
 
 #. Select the countries layer in the Layer view
 
-#. Open up the Style Editor by right clicking on countries layer and choosing Change Style
+#. Open up the **Style Editor** by right clicking on `10m admin 0 countries` layer and choosing :guilabel:`Change Style`
 
 #. We are going to change a few things about how countries are displayed
    
-   * Line: Click on the Color and change the color to BLACK
+   * Line: Click :guilabel:`Border`, click on the Color button and change the color to BLACK
    
-   * Fill: uncheck the box to turn off fill
+   * Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable fill` to turn off fill
    
-   * Label: check the box, and choose CNTRY_NAME from the list of attributes
+   * Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable labeling`, and choose the attribute **NAME** from the list of attributes
 
    .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
@@ -298,21 +298,12 @@ Style
 
 #. When you are happy with the result you can press :guilabel:`Close` to dismiss the dialog
 
-#. Some files include style settings, Select :menuselection:`Layer --> Add` from the menu bar
+.. note:: Some files include style settings. The Style definition can be found in files with the :file:`*.sld` extension. The name itself should be equal to the file containing the data. If such a :doc:`Styled Layer Description (SLD) <../standards/sld_overview>` file exists, the style will be applied automatically. 
 
-#. Select **Files** from the list of data sources and press :guilabel:`Next`
-
-#. Using the file chooser open up **timezone.shp** and press :guilabel:`Open`
-
-#. It is a bit hard to see what is going on with the clouds.jpg layer providing so much details.
-   Select :menuselection:`Map --> Mylar` from the menu bar to focus on the selected layer
-
-#. Using the *Layer* view select timezone, countries and clouds.jpg in turn to see the effect
+Sometimes it is a bit hard to see what is going on with layer providing much details. To get focused on the task you like to work on, you can choose :menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view select different layers in turn to see the effect. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar.
   
-  .. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
-   :scale: 70 %
-
-#. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+		:scale: 70 %
 
 .. Writing tip
   The final heading should provide pointers to further tutorials,
@@ -329,7 +320,7 @@ Things to Try
 
 Here are some additional challenges for you to try:
 
-#. Try viewing your own GIS map layers, or try adding a layer from a Web Feature Service (WFS).
+#. Try viewing your own GIS map layers, or try adding a layer from a :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` 
 #. Try styling the WFS layer.
 
 What Next?
@@ -338,17 +329,17 @@ What Next?
 .. Writing tip
   Provide links to further tutorials and other documentation.
 
-This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
+This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for you to discover in our **walkthrough** documents.
 
 * Walkthrough 1
 
-  Try out the use of PostGIS, extract data from a Web Feature Server and explore the
-  use of Themes with our powerful Color Brewer technology.
+  Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract data from a Web Feature Server and explore the
+  use of **Themes** with our powerful `Color Brewer` technology.
 
   :file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`
 
 * Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to manipulate
-  feature data, covers the installation of GeoServer and editing with a Web Feature
+  feature data, covers the installation of :doc:`GeoServer <../overview/geoserver_overview>` and editing with a Web Feature
   Server.
 
   Available on http://udig.refractions.net/

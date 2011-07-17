@@ -48,6 +48,7 @@
 :License: Creative Commons
 :Thanks: geotools-user list
 
+
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
@@ -76,7 +77,7 @@ uDig (User Friendly Internet Desktop GIS) ist ein Desktop GIS-Client zum Anzeige
 Mit dem Quickstart Guide soll folgendes erreicht werden:
 
   * Hinzufügen von Vektordaten als Layer zur Karte (Shapefile)
-  * Hinzufügen eines Layers von einem Web Map Service (WMS) Server
+  * Hinzufügen eines Layers von einem :doc:`Web Map Service (WMS) <../standards/wms_overview>` Server
   * Verwenden der Standardwerkzeuge zum Navigieren in der Karte
   * Anpassen der Farbe für die Darstellung von Objekten (Style)
 
@@ -219,55 +220,55 @@ Web Map Server
 
 .. sidebar:: Offline
 
-   Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Geospatial --> Servers --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
+Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Geospatial --> Servers --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
    
 Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werden können, um eigene Karten zu erstellen.
 
-1. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
+.. tip:: Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** Wizard (:menuselection:`Layer --> Add...`) gehen oder per Drag&Drop eines WMS Hyperlinks in die Karte.
 
-2. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
+#. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
-  .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
-   :scale: 70 %
-3. Wählen Sie innerhalb der **Web** Ansicht den Link `WMS\:dm solution`_ aus
+#. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
 
-	.. _WMS\:dm solution: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
+	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
+		:scale: 70 %
 
-4. Im darauf folgenden **Add Data** Wizard wählen Sie folgende Layer als Resourcen aus:
+#. Wählen Sie innerhalb der **Web** Ansicht den Link WMS\:`dm solutions`_ aus
+
+	.. _dm solutions: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
+
+#. Im darauf folgenden **Add Data** Wizard wählen Sie folgende Layer als Resourcen aus:
 
    * Elevation/Bathymetry
    * Parks
    * Cities
    
 	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
-	 :scale: 70 %
+		:scale: 70 %
 
-5. Bestätigen Sie mit :guilabel:`Finish`, dass die Layer zur Karte hinzugefügt werden sollen
+#. Bestätigen Sie mit :guilabel:`Finish`, dass die Layer zur Karte hinzugefügt werden sollen
    
-  .. image:: ../../images/screenshots/800x600/udig_WMSMap.png
-   :scale: 70 %
+	.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+		:scale: 70 %
   
-  .. tip:: Sie können analog zu den Shapefiles auch per Drag&Drop Layer von Web Map Servern 
-           der Karte hinzufügen oder alternativ den **Add Data** Wizard (:menuselection:`Layer --> Add...`) nutzen.
-  
-6. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detaillierter  anzuzeigen
+#. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detaillierter  anzuzeigen
 
-7. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
+#. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
    
-   .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
+	.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
-.. tip:: Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur :guilabel:`I` und guilabel:`Z` drücken.
+.. tip:: Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur `I` und `Z` drücken.
 
 Stile
 =====
 
-1. Wählen Sie in der **Project** Ansicht die Karte `project > countries`, Sie können sie per Doppelklick oder rechter Maustaste :guilabel:`Open Map` öffnen
+#. Wählen Sie in der **Project** Ansicht die Karte `project > 10m admin 0 countries`, Sie können sie per Doppelklick oder rechter Maustaste :guilabel:`Open Map` öffnen
 
-2. Wählen Sie den Layer :guilabel:`countries` in der **Layers** Ansicht aus
+#. Wählen Sie den Layer :guilabel:`countries` in der **Layers** Ansicht aus
 
-3. Öffnen Sie den **Style Editor**, indem Sie per rechter Maustaste auf dem Layer :guilabel:`Change Style` auswählen
+#. Öffnen Sie den **Style Editor**, indem Sie per rechter Maustaste auf dem Layer :guilabel:`Change Style` auswählen
 
-4. Wir werden mehrer Änderungen vorgenommen, die sich auf die Darstellung der Länder auswirken
+#. Wir werden mehrer Änderungen vorgenommen, die sich auf die Darstellung der Länder auswirken
    
    * begrenzende Linie (Border) : Wählen Sie den Tab :guilabel:`Border` und ändern Sie die Farbe auf Schwarz
    
@@ -278,48 +279,40 @@ Stile
    .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
-5. Bestätigen Sie :guilabel:`Apply`, um zu sehen, wie sich der Stil auf die Karte auswirkt. Die Ansicht **Layers** wird ebenso aktualisiert, das Icon vor dem Namen des Layers reflektiert die aktuelle Stilkonfiguration
+#. Bestätigen Sie :guilabel:`Apply`, um zu sehen, wie sich der Stil auf die Karte auswirkt. Die Ansicht **Layers** wird ebenso aktualisiert, das Icon vor dem Namen des Layers reflektiert die aktuelle Stilkonfiguration
 
-6. Sobald Sie mit dem Stil zufrieden sind, können Sie das :guilabel:`Close` bestätigen, um den Dialog zu verlassen
+#. Sobald Sie mit dem Stil zufrieden sind, können Sie das :guilabel:`Close` bestätigen, um den Dialog zu verlassen
 
-  .. note:: Zu einigen Dateien werden bereits Stile mitgeliefert. Dabei gibt es unter gleichen Dateinamen eine :file:`*.sld` Datei. 
-            Ist eine solche Datei vorhanden, so wird der Stil automatisch auf die importierten Daten angewendet.
-			
+.. note:: Zu einigen Dateien werden bereits Stile mitgeliefert. Dabei gibt es unter gleichen Dateinamen eine :file:`*.sld` Datei, deren Inhalt XML basiert die Stilbeschreibung - :doc:`Styled Layer Description (SLD) <../standards/sld_overview>` - enthält. Ist eine solche Datei vorhanden, so wird der Stil automatisch auf die importierten Daten angewendet.
 
-  .. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
-   :scale: 70 %
- 
-Manchmal ist es schwierig aufgrund der Stile der verschiedenen Layer das wesentliche auf der Karte zu erkennen. Es gibt die Möglichkeit 
-über :menuselection:`Map --> Mylar` vom Applikationsmenü auf den in der **Layers** Ansicht ausgewählten zu fokussieren. Damit werden alle 
-anderen Layer leicht transparent dargestellt. Klicken Sie in der **Layers** Ansicht auf unterschiedliche Layer, damit Sie eine Idee davon 
-bekommen, wie dieser Effekt wirkt. Sie können diesen Effekt über :menuselection:`Map --> Mylar` wieder deaktivieren.
-		  
-Was kann man noch probieren ?
-=============================
+Mitunter ist es schwierig aufgrund der Stile der verschiedenen Layer das wesentliche auf der Karte zu erkennen. Es gibt die Möglichkeit über :menuselection:`Map --> Mylar` vom Applikationsmenü auf den in der **Layers** Ansicht ausgewählten zu fokussieren. Damit werden alle anderen Layer leicht transparent dargestellt. Klicken Sie in der **Layers** Ansicht auf unterschiedliche Layer, damit Sie eine Idee davon bekommen, wie dieser Effekt wirkt. Sie können diesen Effekt über :menuselection:`Map --> Mylar` wieder deaktivieren.
+
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+		:scale: 70 %
+
+Was kann man noch probieren?
+============================
 
 Weitere Herausforderungen, die Sie meistern können:
 
-#. Versuchen Sie, Ihre eigenen Kartenlayer oder Layer von einem Web Feature Service (WFS) einer Karte hinzuzufügen.
+#. Versuchen Sie, Ihre eigenen Kartenlayer oder Layer von einem :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` einer Karte hinzuzufügen.
 #. Ändern Sie den Stil einen WFS Layers.
 
-Wie geht es weiter ?
-====================
+Wie geht es weiter?
+===================
 
-Die beschriebenen Funktionalitäten ist nur als ein Ausschnitt des Grsamtpacketes uDig zu betrachten. 
-Es gibt noch mehr Material, das es sich zu erkunden lohnt. Auch um weitere Funktionalitäten kennenzulernen 
-sei auf die **Walkthrough** -Dokumente verwiesen.
+Die beschriebenen Funktionalitäten ist nur als ein Ausschnitt des Gesamtpacketes uDig zu betrachten. Es gibt noch weiteres Material, welches einen Blick wert ist. Auch um weitere Funktionalitäten kennenzulernen sei auf die **Walkthrough** -Dokumente verwiesen.
 
 * Walkthrough 1
 
-  Binden Sie Daten aus einer PostGIS Datenbank ein und laden Sie Daten von einem Web Feature Server, 
+  Binden Sie Daten aus einer :doc:`PostGIS <../overview/postgis_overview>` Datenbank ein und laden Sie Daten von einem Web Feature Server, 
   erkunden Sie die **Themes** Funktionalität über die mächtige `Color Brewer` Technologie.
 
   :file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`
 
 * Walkthrough 2 
 
-  Lernen Sie, wie Shapefiles erzeugt werden können, erfassen und ändern Sie Daten mit den Editierwerkzeugen. 
-  Dieser Walkthrough deckt die Installation eines GeoServers wie auch das Ändern von Daten eines WFS Services ab.
+  Lernen Sie, wie Shapefiles erzeugt werden können, erfassen und ändern Sie Daten mit den Editierwerkzeugen. Dieser Walkthrough deckt die Installation eines :doc:`GeoServers <../overview/geoserver_overview>` wie auch das Ändern von Daten eines WFS Services ab.
 
-  Available on http://udig.refractions.net/
+  Verfügbar unter http://udig.refractions.net/
 
