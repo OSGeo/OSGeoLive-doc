@@ -84,7 +84,7 @@ Iniciar uDig
 
 .. TBD: Add menu graphic to this uDig Quickstart
 
-#. Seleccionar :menuselection:`Geospatial --> Desktop GIS --> uDig` en el menú de inicio
+#. Seleccionar :menuselection:`Applications --> Other --> uDig` en el menú de inicio
 #. La aplicación tomará unos momentos para iniciarse
 
 .. Writing Tip:
@@ -224,7 +224,7 @@ Servidor de Mapas Web
 
 .. sidebar:: Offline
 
-   Si no se esta conectado a internet ejecute :menuselection:`Geospatial --> Servers --> Start GeoServer` para tener un WMS Local. El script
+   Si no se esta conectado a internet ejecute :menuselection:`Applications --> Education --> Start GeoServer` para tener un WMS Local. El script
    abrirá una página con un vínculo a "wms capabilities", que puede ser arrastrado dentro del mapa vacío.
    
 Una de las razones para usar una aplicación como uDig es la posibilidad de acceder a la gran cantidad de 
