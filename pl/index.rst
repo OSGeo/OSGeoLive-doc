@@ -1,6 +1,6 @@
 
 Witaj w |osgeo-live-version|
-=====================
+============================
 
 `OSGeo-Live <http://live.osgeo.org>`_  jest to startowe DVD, PenDrive USB lub wirtualna maszyna z systemem
 `Xubuntu <http://www.xubuntu.org/>`_. Pozwala na wypróbowanie szerokiego wachlarza oprogramowania open source do zastosowań geoprzestrzennych, bez konieczności ich instalowania. Na płycie znajduje się wyłącznie oprogramowanie opatrzone wolnymi licencjami, uprawniającymi do powielania i rozpowszechniania go.

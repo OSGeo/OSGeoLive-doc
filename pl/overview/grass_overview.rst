@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _grass-overview:
 
@@ -32,7 +32,7 @@ GRASS (ang. Geographic Resources Analysis Support System) jest Systemem Informac
 
 System GRASS jest obecnie używany przez środowiska akademickie i komercyjne na całym świecie oraz przez wiele agencji rządowych i firm, zajmujących się stanem środowiska naturalnego. Pracuje na wielu popularnych systemach operacyjnych. Jest wolnym oprogramowaniem o otwartym kodzie źródłowym wydanym na Powszechnej Publicznej Licencji GNU GPL.
 
-Składa się z ponad 400 wbudowanych modułów do analiz. Dodatkowo, na stronach wiki dostępnych jest ponad 100 modułów i narzędzi dostarczonych przez społeczność skupioną wokół projektu. Po 27 latach nieprzerwanego rozwoju GRASS jest zarówno najstarszym jak i największym dostępnym Systemem Informacji Geograficznej. Jest łatwo skryptowalny oraz na tyle wszechstronny, aby służyć zarówno do wsadowego przetwarzania danych na super komputerach jak i jako przyjazny GIS desktopowy na palmtopach i netbookach.
+Składa się z ponad 400 wbudowanych modułów do analiz. Dodatkowo, na stronach wiki dostępnych jest ponad 100 modułów i narzędzi dostarczonych przez społeczność skupioną wokół projektu. Po 28 latach nieprzerwanego rozwoju GRASS jest zarówno najstarszym jak i największym dostępnym Systemem Informacji Geograficznej. Jest łatwo skryptowalny oraz na tyle wszechstronny, aby służyć zarówno do wsadowego przetwarzania danych na super komputerach jak i jako przyjazny GIS desktopowy na palmtopach i netbookach.
 
 
 
@@ -51,7 +51,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 6.4.0RC6
+**Wersja programu:** 6.4.1
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 
