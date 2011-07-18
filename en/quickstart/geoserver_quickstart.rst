@@ -1,15 +1,12 @@
 :Author: Ian Turton
+:Author: Frank Gasdorf
 :Version: osgeo-live4.0
 :License: Creative Commons CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
 :Thanks: geoserver-user list
 
 .. |GS| replace:: GeoServer
-.. |PG| replace:: PostGIS
 .. |UG| replace:: uDig 
-.. |OL| replace:: OpenLayers
 
-.. _geoserver-quickstart:
- 
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
@@ -85,7 +82,7 @@ We need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
 will see this page:
 
-.. figure:: ../../images/screenshots/800x600/geoserver-newstore.png
+.. image:: ../../images/screenshots/800x600/geoserver-newstore.png
     :align: center
     :scale: 70 %
     
@@ -93,7 +90,7 @@ will see this page:
 
 Select the :guilabel:`Directory of spatial files`, you will see the following: 
 
-.. figure:: ../../images/screenshots/800x600/geoserver-new-vector.png
+.. image:: ../../images/screenshots/800x600/geoserver-new-vector.png
     :align: center
     :scale: 70 %
     
@@ -103,7 +100,7 @@ Type in a name for the Data Store - I used *Natural Earth* and fill in
 the URL to the data set - in this case :file:`/usr/local/share/data/natural_earth/`. 
 You can use the browse button to find the directory if your data is somewhere else. Press :guilabel:`save`.
 
-.. figure:: ../../images/screenshots/800x600/geoserver-naturalearth.png
+.. image:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
 
@@ -112,7 +109,7 @@ You can use the browse button to find the directory if your data is somewhere el
 Press :guilabel:`publish` next to one of the layers to finish up adding
 the data. This will take you to the *Layers* page:
 
-.. figure:: ../../images/screenshots/800x600/geoserver-publish.png
+.. image:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
     :scale: 70 %
 
@@ -120,7 +117,7 @@ the data. This will take you to the *Layers* page:
 
 As you scroll down the page you will see that |GS| has filled in many of
 the fields for you. When you reach :guilabel:`Coordinate Reference System`
-you will notice that under *Native SRS* that it says UNKNOWN [#esri]_
+you will notice that under *Native SRS* that it says UNKNOWN 
 you will need to fill in the next box (*declared SRS*) to make sure |GS|
 knows where the data is. For the time being trust me and type epsg:4326 in
 the box, if you don't trust me then go to `http://prj2epsg.org/search <http://prj2epsg.org/search>`_ and
@@ -136,51 +133,46 @@ and you have published your first layer.
 
 You can follow the same step with the other layers in the directory by using the :guilabel:`Add a new resource` button on the layers page. Just select the natural earth store from the drop down box to get back to the store's page.
 
-.. figure:: ../../images/screenshots/800x600/geoserver-add-layers.png
-    :align: center
-    :scale: 70 %
-
-    *The layers page*
-    
 Styling
 -------
 
 To style a data set into a map layer |GS| uses an OGC standard called
-Styled Layer Descriptors (SLD). These are represented as XML files
-which describe the rules that are used to apply various symbolizers to
-the data.
+:doc:`Styled Layer Descriptors (SLD) <../standards/sld_overview>`. These 
+are represented as XML files which describe the rules that are used to 
+apply various symbolizers to the data.
 
 To get started I styled the Land and Ocean datasets. 
 You can create SLD files using a simple text editor, but
 sometimes a graphical editor is better. There are several options here
-but I like to use |UG| (http://udig.refractions.net/) as it allows me
-to open the shapefiles directly and apply simple styles using a
-GUI, but also provides a simple editor to modify the XML if I need to. 
+but I like to use |UG| as it allows me to open the shapefiles directly 
+and apply simple styles using a GUI, but also provides a simple editor 
+to modify the XML if I need to. 
 
 Using |UG| to create simple styles
 ``````````````````````````````````
 
 .. note::
 
-   For more details on how to use |UG| see the :ref:`uDig quickstart <udig-quickstart>`
+   For more details on how to use |UG| see the :doc:`uDig Quickstart <../quicks
+tart/udig_quickstart>`
 
 Once I opened |UG| up and added the shapefiles (using the
 add data button in the top left hand corner). I dragged the 10m_land
 and 10m_ocean tables into the map window. |UG| automatically applies
 a style (so you can see the data).
 
-.. figure:: ../../images/screenshots/800x600/geoserver-udig_startup.png
+.. image:: ../../images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :scale: 70 %
 
-   *Default Styling in UDig*
+   *Default Styling in uDig*
 
 Now obviously an orange ocean will not work (even if I could live
 with the green land). So in the :ref:`Layer list <Layer_list>` select the style
 button (it looks like an artist's palette). 
 
 .. _Layer_list:
-.. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
+.. image:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
 
@@ -194,7 +186,7 @@ increased the opacity of the fill to 100% to make the color look
 better. I picked the same blue for the border color so it would match.
 
 .. _Style_Pane:
-.. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
+.. image:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
    :scale: 70 %
 
@@ -205,18 +197,18 @@ Once I was done I clicked ``OK`` and |UG| showed me the
 changes. 
 
 
-.. figure:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
+.. image:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :scale: 70 %
 
    *Blue Oceans*
 
-Finally I prefer a more understated land color than green [#fn1]_ so
+Finally I prefer a more understated land color than green so
 I repeated the steps above to change the color of the land layer.
 None of the default colors seemed right to me so I went into the
 ``define custom colors`` section to create one I liked.
 
-.. figure:: ../../images/screenshots/800x600/geoserver-custom-colour.png
+.. image:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
    :scale: 70 %
 
@@ -224,7 +216,7 @@ None of the default colors seemed right to me so I went into the
 
 This gives me a nice looking basic world map
 
-.. figure:: ../../images/screenshots/800x600/geoserver-basic-world.png
+.. image:: ../../images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :scale: 70 %
 
@@ -243,7 +235,7 @@ allows me to hunt around on my hard drive to find the files I just
 saved. Once I've found one I want, I click the upload link (next to the browse
 button) and a copy of my file appears in the editor. If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don't do anything).
 
-.. figure:: ../../images/screenshots/800x600/geoserver-add-style.png
+.. image:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :scale: 70 %
 
@@ -259,8 +251,7 @@ Click on the :guilabel:`Layers` link in the Menu on the left of the
 box to the name of the style you uploaded in the previous section.
 Now go to the Layer Preview page to check that it looks good.
 
-There are example style files for all of the example Natural Earth
-layers in :file:`/usr/local/share/geoserver`. 
+.. note:: There are example style files for all of the example Natural Earth layers in :file:`/usr/local/share/geoserver`. 
 
 .. TBD (needs more memory)
     Adding a Raster
@@ -273,7 +264,7 @@ layers in :file:`/usr/local/share/geoserver`.
     *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
     into the :guilabel:`URL` box.
 
-    .. figure:: ../../images/screenshots/800x600/geoserver-raster.png
+    .. image:: ../../images/screenshots/800x600/geoserver-raster.png
         :align: center
         :scale: 70 %
 
@@ -289,20 +280,13 @@ layers in :file:`/usr/local/share/geoserver`.
 Clients for WMS layers
 ======================
 
-A large variety of clients exist to make use of the WMS layers you are serving
+A large variety of clients exist to make use of the :doc:`WMS <../standards/wms_overview>` layers you are serving
 from |GS|. This is a list of just some of them 
 
-    * :ref:`uDig <udig-quickstart>`
+    * :doc:`uDig <../overview/udig_overview>`
 
-    * :ref:`OpenLayers <openlayers-quickstart>`
+    * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :ref:`Atlas Styler <atlasstyler-quickstart>` 
+    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
 
-    * :ref:`MapBender <mapbender-quickstart>`
-
-
-.. Rubric:: Footnotes
-.. [#esri] there is a perfectly good well known text (WKT) for
-    projections but ESRI don't use it.
-.. [#fn1] If you lived in central Pennsylvania in the summer you
-   wouldn't expect green either.
+    * :doc:`MapBender <../overview/mapbender_overview>`
