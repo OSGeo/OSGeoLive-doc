@@ -89,14 +89,14 @@ start uDig
 #. Choose :menuselection:`Applications --> Other --> uDig` from menu
 #. The application will take a few moments to start up
 
+.. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
+   :scale: 70 %
 .. Writing Tip:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
 
-  .. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
-   :scale: 70 %
 
 If you have any difficulties, or are running uDig please review the Running uDig reference page.
 
@@ -229,9 +229,12 @@ You can control where in the world the Map Editor is looking by using the naviga
 Web Map Server
 ==============
 
-.. sidebar:: Offline
-
-   If you are not connected to the Internet run :menuselection:`Applications --> Education --> Start GeoServer` for a local WMS. The script will open a page with a "Service Capabilities" section and two links for WMS Services you can drag into your empty map.
+.. note:: 
+   If you are not connected to the Internet run 
+   :menuselection:`Applications --> Education --> Start GeoServer` 
+   for a local WMS. The script will open a page with a 
+   "Service Capabilities" section and two links for WMS Services 
+   you can drag into your empty map.
    
 One of the reasons to use an application like uDig is to access all the great free geospatial
 information available on the web. This section covers the use of Web Map Servers which make
@@ -245,7 +248,7 @@ available layers of information that you can mix into your own maps.
 #. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
 
 	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
-		:scale: 70 %
+		:scale: 50 %
 
 #. Click on the link WMS\:`dm solutions`_ link
 
