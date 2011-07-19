@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Christoph Baudson
 :Author: Arnulf Christl
-:Version: osgeo-live4.5
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 :Thanks: mapbender-user list
 
