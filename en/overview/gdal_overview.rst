@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _gdal-overview:
@@ -71,7 +71,7 @@ Details
 
 **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Software Version:** 1.7.3
+**Software Version:** 1.8.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
