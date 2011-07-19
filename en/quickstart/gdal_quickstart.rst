@@ -1,5 +1,5 @@
 :Author: Astrid Emde, material from Frank Warmedams RasterTutorial
-:Version: osgeo-live4.5p
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
 .. _gdal_quickstart:
@@ -350,7 +350,7 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 You can convert your data to other formats. Get the list of the
 supported formats with --formats.
 
-User ogr2ogr to convert data between file formats 
+Use ogr2ogr to convert data between file formats 
 =================================================
 
 You can use ogr2ogr to converts simple features data between file
