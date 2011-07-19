@@ -42,7 +42,7 @@ Der 52°North SOS ermöglicht den Zugriff und die Bereitstellung von raumbezogen
   
 **Abb. 2**: 52°North SOS – GetCapabilities-Antwort des SOS (XML-kodiert)
   
-5) Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des 52°North SOS benötigt <http://localhost:8080/52nSOSv3.1.1/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Mit Hilfe der Inhalte des Capabilities-Dokuments können die Beispielanfragen aus der Beispielliste individuell angepasst werden.
+5) Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des 52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Mit Hilfe der Inhalte des Capabilities-Dokuments können die Beispielanfragen aus der Beispielliste individuell angepasst werden.
 
 Weitere Informationen
 =====================
