@@ -218,13 +218,12 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 Web Map Server
 ==============
 
-.. sidebar:: Offline
-
+.. note::
 Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Applications --> Education --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
    
 Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung von Web Map Servern. Diese publizieren Layer, die in uDig zusammen genutzt werden können, um eigene Karten zu erstellen.
 
-.. tip:: Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** Wizard (:menuselection:`Layer --> Add...`) gehen oder per Drag&Drop eines WMS Hyperlinks in die Karte.
+.. tip:: Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** Wizard (:menuselection:`Layer --> Add...`) gehen oder per Drag&Drop einen WMS Hyperlinks in die Karte ziehen.
 
 #. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
