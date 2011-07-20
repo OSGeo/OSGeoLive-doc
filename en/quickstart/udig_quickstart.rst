@@ -229,16 +229,13 @@ You can control where in the world the Map Editor is looking by using the naviga
 Web Map Server
 ==============
 
-.. note:: 
-   If you are not connected to the Internet run 
-   :menuselection:`Applications --> Education --> Start GeoServer` 
-   for a local WMS. The script will open a page with a 
-   "Service Capabilities" section and two links for WMS Services 
-   you can drag into your empty map.
-   
 One of the reasons to use an application like uDig is to access all the great free geospatial
 information available on the web. This section covers the use of Web Map Servers which make
 available layers of information that you can mix into your own maps.
+
+.. note:: If you are not connected to the Internet run :menuselection:`Applications --> Education --> Start GeoServer` 
+   for a local WMS. The script will open a page with a "Service Capabilities" section and two links for WMS Services 
+   you can drag into your empty map.
 
 .. tip:: You can also connect to Web Map Servers using the **Add Data** (:menuselection:`Layer --> Add...`) Wizard
   for Drag and Drop.
