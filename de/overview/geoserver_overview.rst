@@ -1,8 +1,7 @@
 :Author: Ian Turton
-:Version: osgeo-live4.0
+:Author: Frank Gasdorf
+:Version: osgeo-live5.0draft
 :License: Creative Commons
-
-.. _geoserver-overview:
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :scale: 100%
@@ -25,21 +24,20 @@ Internet Dienste
 GeoServer ist ein WebServer, der es ermöglicht Karten und Daten verschiedener Formate Standardanwendungen wie Web Browsern und Desktop GIS Anwendungen bereit zu stellen. D.h., dass Sie Ihre räumlichen Daten in nahezu jedem `Format
 <http://docs.geoserver.org/stable/en/user/data/index.html>`_ das sie bevorzugen vorhalten können. Ihre Anwender dagegen müssen keine Kenntnisse von Geodaten haben. Im einfachsten Fall benötigen die Anwender lediglich einen Browser, um Ihre Daten nach Ihren Wünschen anschauen zu können.
 
-GeoServer ist die Referenzimplementierung des `Open Geospatial
-Consortium <http://www.opengeospatial.org>`_ (OGC) `Web Feature
-Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) und `Web
-Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS)
-Standards, außerdem als hoch performant zertifizierter `Web Map
-Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
+GeoServer ist die Referenzimplementierung des `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC)  
+:doc:`Web Feature Service (WFS) <../standards/wfs_overview>` und 
+:doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 
+Standards, außerdem als hoch performant zertifizierter 
+:doc:`Web Map Service (WMS) <../standards/wms_overview>`. 
 GeoServer stellt eine Kernkomponente räumlicher Webanwendungen dar. 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
   :scale: 60 %
-  :alt: Screen Shot of GeoServer
+  :alt: GeoServer Screenshots
   :align: right
 
 Kernfunktionen
-----------------
+--------------
 
 **Server Daten verschiedener Datenquellen:**
     * Vektor
@@ -68,9 +66,9 @@ Kernfunktionen
 Implementierte Standards
 ------------------------
 
-* Unterstützung zahlreicher Open Geospatial Consortium  (OGC) Standards
+* Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards
 
-* WMS, transactional WFS, WCS, Filter Encoding, SLD, GML
+* WMS, WFS-T (transaktional), WCS, :doc:`Filter Encoding <../standards/fe_overview>`, :doc:`SLD <../standards/sld_overview>`,  doc:`GML <../standards/gml_overview>`
 
 Details
 -------
@@ -90,4 +88,4 @@ Details
 Schnellstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/geoserver_quickstart.html>`_
+* :doc:`Schnellstart Dokumentation <../quickstart/geoserver_quickstart>`

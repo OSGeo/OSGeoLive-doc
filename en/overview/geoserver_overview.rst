@@ -1,8 +1,7 @@
 :Author: Ian Turton
-:Version: osgeo-live4.0
+:Author: Frank Gasdorf
+:Version: osgeo-live5.0draft
 :License: Creative Commons
-
-.. _geoserver-overview:
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :scale: 100%
@@ -30,12 +29,12 @@ almost any `format
 anything about GIS data. At the simplest level all they need is a web
 browser to see your maps exactly as you want. 
 
-GeoServer is the reference implementation of the `Open Geospatial
-Consortium <http://www.opengeospatial.org>`_ (OGC) `Web Feature
-Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) and `Web
-Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS)
-standards, as well as a high performance certified compliant `Web Map
-Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
+GeoServer is the reference implementation of the `Open Geospatial 
+Consortium <http://www.opengeospatial.org>`_ (OGC) 
+:doc:`Web Feature Service (WFS) <../standards/wfs_overview>` and 
+:doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` standards, 
+as well as a high performance certified compliant 
+:doc:`Web Map Service (WMS) <../standards/wms_overview>`. 
 GeoServer forms a core component of the Geospatial Web. 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
@@ -75,7 +74,7 @@ Implemented Standards
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
-* WMS, transactional WFS, WCS, Filter Encoding, SLD, GML
+* WMS, WFS, WFS-T (transactional), WCS, :doc:`Filter Encoding <../standards/fe_overview>`, :doc:`SLD <../standards/sld_overview>`,  doc:`GML <../standards/gml_overview>`
 
 Details
 -------
@@ -95,4 +94,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/geoserver_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`

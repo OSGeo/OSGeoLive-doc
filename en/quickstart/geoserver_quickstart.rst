@@ -1,6 +1,6 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0draft
 :License: Creative Commons CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
 :Thanks: geoserver-user list
 
