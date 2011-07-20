@@ -14,7 +14,7 @@ superior que te permite seleccionar el tipo de teclado. También se
 puede establecer a través de la opción de menú Aplicaciones >
 Sistema > Soporte de idioma.
 
-Los instaladores de programa para Macintosh OSX y Microsoft Windows
+Los instaladores de programa para Mac OS X y Microsoft Windows
 se pueden encontrar en los directorioes MacInstallers y
 WindowsInstallers respectivamente.
 

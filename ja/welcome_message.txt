@@ -31,7 +31,7 @@ Liveディスクとバーチャルマシンの情報を知りたい方はデス�
 レイアウトが変更できます。
 
 ..
-  Program installers for Macintosh OSX and Microsoft Windows
+  Program installers for Mac OS X and Microsoft Windows
   can be found in the MacInstallers and WindowsInstallers
   directories.
 

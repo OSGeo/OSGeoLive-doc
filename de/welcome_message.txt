@@ -14,7 +14,7 @@ werden kann. Diese Tastaturbelegung kann auch über die
 Systemsteuerung über Anwendungen > System > Language Support
 erfolgen.
 
-Installer für Macintosh OSX und Microsoft Windows finden sich in
+Installer für Mac OS X und Microsoft Windows finden sich in
 den Verzeichnissen MacInstallers und WindowsInstallers
 
 Verschiedene Paßworte finden sich auf dem Desktop in der Datei

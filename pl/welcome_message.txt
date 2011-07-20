@@ -12,7 +12,7 @@ Kiedy zalogujesz się ponownie(jeśli potrzebujesz hasła, brzmi ono
 na wybór odpowiedniego układu klawiatury. Możesz to również ustawić z
 menu: Applications > System > Language Support.
 
-Instalatory oprogramowania dla Macintosh OSX i Microsoft Windows
+Instalatory oprogramowania dla Mac OS X i Microsoft Windows
 znajdują się w katalogach MacInstallers oraz WindowsInstallers.
 
 Potrzebne hasła znajdują się w pliku passwords.txt na pulpicie.

@@ -13,7 +13,7 @@ Once you log back in (the password if you need it is
 you pick the keyboard layout. You can also set it via the
 menus with Applications > System > Language Support.
 
-Program installers for Macintosh OSX and Microsoft Windows
+Program installers for Mac OS X and Microsoft Windows
 can be found in the MacInstallers and WindowsInstallers
 directories.
 

@@ -14,7 +14,7 @@ l'icona con la bandiera nella barra in alto. Un'alternativa è
 impostare la lingua dal menu: Applications > System > Language
 Support.
 
-Gli installer per Macintosh OSX e Microsoft Windows si trovano
+Gli installer per Mac OS X e Microsoft Windows si trovano
 nelle cartelle MacInstallers e WindowsInstallers.
 
 Tutte le password necessarie sono salvate nel file passwords.txt
