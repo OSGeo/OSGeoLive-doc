@@ -44,7 +44,7 @@
 :Author: Jody Garnett
 :Author: Micheal Bedward
 :Author: Frank Gasdorf
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 :Thanks: geotools-user list
 
