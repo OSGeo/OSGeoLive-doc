@@ -20,9 +20,10 @@ Web Services
 TinyOWS is an high performance WFS-T server.
 It's aim is to keep beeing the fastest Open Source WFS solution available.
 It was designed as light weight and easy to deploy solution, using CGI or Fast CGI interface, and tied with PostGIS as data storage.
+
 TinyOWS implement strictly WFS 1.0 and 1.1 standards, and successfully passed all the OGC CITE units tests (~ 1000 unit tests).
-TinyOWS is commonly used in conjonction with MapServer to provide fast WMS, or with QGIS and/or OpenLayers as a WFS-T client.
-TinyOWS is already used in some organisations from around the world, including risk adverse government agencies.
+TinyOWS is commonly used in conjonction with MapServer to provide fast WFS, or with QGIS and/or OpenLayers as a WFS-T client.
+TinyOWS is in production use in various organisations from around the world, including risk adverse government agencies.
 
 
 .. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
