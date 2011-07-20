@@ -23,8 +23,9 @@ QGIS Server
 Web Service
 ~~~~~~~~~~~
 
-QGIS Server provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
-The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
+QGIS Server provides a web map service (WMS) using the same libraries as the Quantum GIS (QGIS) desktop application.
+Maps and print templates are created with QGIS on the desktop and can easily be exported to web maps by copying the QGIS project file into the server directory, and web maps look exactly the same as in the desktop.
+QGIS Server is usually run as CGI/FastCGI module within the Apache Webserver.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
@@ -36,10 +37,10 @@ Core Features
 -------------
 
 * Web Map Service (WMS) implementation
-* Good integration with desktop GIS (QGIS)
-* Easy to use
-* Supports Styled Layer Descriptor (SLD)
+* Built-in PDF output
+* WYSIWYG map creation with QGIS
 * Advanced cartographic symbolisation
+* Supports Styled Layer Descriptor (SLD)
 
 Implemented Standards
 ---------------------
