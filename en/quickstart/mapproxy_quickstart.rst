@@ -34,12 +34,12 @@ View MapProxy Demo
 
 The MapProxy demo page contains a rudimentary WMS and tile client for each configured layer. You can't select the projection for WMS layers for example, but it is enough to quickly verify that your installation works.
 
-You can open the demo in Firefox: `<http://localhost:8012/demo>`_
+You can open the demo in Firefox: `<http://localhost:8011/demo>`_
 
 View in Desktop GIS
 -------------------
 
-You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: `<http://localhost:8012/service?>`_
+You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: `<http://localhost:8011/service?>`_
 
 The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer. 
 
@@ -78,11 +78,11 @@ To create a new configuration::
 
   mapproxy-util create -t base-config ~/mapproxy
 
-To start the test server on port 8012 with the created configuration::
+To start the test server on port 8011 with the created configuration::
 
-  mapproxy-util serve-develop ~/mapproxy/mapproxy.yaml -b 0.0.0.0:8012
+  mapproxy-util serve-develop ~/mapproxy/mapproxy.yaml -b 0.0.0.0:8011
 
-You can now visit the demo page at http://127.0.0.1:8012/demo/.
+You can now visit the demo page at http://127.0.0.1:8011/demo/.
 MapProxy will automatically reload if you change your configuration file.
 
 

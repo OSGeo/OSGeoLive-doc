@@ -87,7 +87,7 @@ Demo
 ----
 
 * Iniciar MapProxy (*Geospatial* --> *Servicios Web* --> *Iniciar MapProxy*)
-* `Abrir demo en Firefox <http://localhost:8012/demo>`_
+* `Abrir demo en Firefox <http://localhost:8011/demo>`_
 
 Documentación
 -------------
