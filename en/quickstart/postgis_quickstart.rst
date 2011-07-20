@@ -278,7 +278,8 @@ with PostGIS from QGIS before, you'll get an empty set of PostGIS connections.
 
 Hit 'new' and enter the parameters for the connection. We'll use the Natural Earth database
 provided on the DVD system. There's no username or password because the security is set up
-to allow you access.
+to allow you access. Uncheck the option about geometryless tables if it is checked - it will
+make things a bit simpler.
 
 .. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
   :scale: 100 %
@@ -294,7 +295,7 @@ hit ``Connect`` and get a list of the spatial tables in the database:
   :alt: Natural Earth Layers
   :align: center
 
-Choose the lakes and hit ``Add``, and it should be loaded into QGIS:
+Choose the lakes and hit ``Add`` (not ``Load`` - that saves queries), and it should be loaded into QGIS:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_lakes.png
   :scale: 50 %
@@ -302,7 +303,7 @@ Choose the lakes and hit ``Add``, and it should be loaded into QGIS:
   :align: center
 
 You should now see a map of the lakes. QGIS doesn't know they are lakes, so might not colour
-them blue for you. Use the QGIS documentation to work out how to change this! Zoom in to
+them blue for you -use the QGIS documentation to work out how to change this. Zoom in to
 a famous group of lakes in Canada.
 
 
@@ -321,7 +322,7 @@ It will then use your previously defined settings to connect to the Natural Eart
 the password blank if it asks. You'll see the main manager window.
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_manager.png
-  :scale: 100 %
+  :scale: 75 %
   :alt: PostGIS Manager Plugin
   :align: center
 
@@ -330,28 +331,39 @@ get a basic map with zoom and pan capabilities. Here I've selected the the popul
 and zoomed in on a little island I know:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
-  :scale: 100 %
+  :scale: 75 %
   :alt: PostGIS Manager Preview
   :align: center
 
-Now to read in a shapefile. From the ``Data`` menu choose the ``Load data from shapefile`` option. 
-All you need to do here is browse to the world shapefile in the data directory of the osgearth 
-folder, and give the table a name. Leave everything else. Hit ``Load``.
+We will now use the PostGIS Manager to import a shapefile into the database. We'll use
+the North Carolina sudden infant death syndrome (SIDS) data that is included with one
+of the R statistics package add-ons.
+
+From the ``Data`` menu choose the ``Load data from shapefile`` option. 
+Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package:
+
+.. image:: ../../images/screenshots/1024x768/postgis_find_shape.png
+  :scale: 75 %
+  :alt: Find the shapefile
+  :align: center
+
+Leave everything else as it is and hit ``Load``
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_load.png
-  :scale: 100 %
+  :scale: 75 %
   :alt: Import a shapefile
   :align: center
 
-The shapefile should be imported into PostGIS with no errors. 
+The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
+get back to the main QGIS window.
 
-Now get back to the main QGIS window and load the world data into the map using the 'Add PostGIS Layer'
-option. With a bit of rearranging of the layers and some colouring, you should be able to get something
-like this:
+Now load the SIDS data into the map using the 'Add PostGIS Layer'
+option. With a bit of rearranging of the layers and some colouring, you should be able to produce
+a choropleth map of the sudden infant death syndrome counts in North Carolina:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_final.png
-  :scale: 50 %
-  :alt: Lakes and Countries
+  :scale: 75 %
+  :alt: SIDS data mapped
   :align: center
 
 
@@ -359,12 +371,12 @@ like this:
 
 Get to know pgAdmin III
 =======================
-You can use the graphical database client ``pgAdmin III`` to run you SQLs and handle your data. 
-pgAdmin III also provides a plugin for shape import. This client provides a comfortable way to 
-manage your data.
+
+You can use the graphical database client ``pgAdmin III`` to query and modify your database non-spatially. This
+is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.gif
-  :scale: 100 %
+  :scale: 50 %
   :alt: pgAdmin III
   :align: center
 
@@ -373,11 +385,11 @@ Things to try
 
 Here are some additional challenges for you to try:
 
-#. Try some more spatial functions like st_buffer(the_geom), st_transform(the_geom,25831), x(the_geom) . You find a very good documentation at http://postgis.org/documentation/
+#. Try some more spatial functions like ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)`` - you will find full documentation at http://postgis.org/documentation/
 
-#. Export your tables to shape with pgsql2shp
+#. Export your tables to shapefiles with ``pgsql2shp`` on the command line.
 
-#. Try ogr2ogr to import/export data to your database
+#. Try ``ogr2ogr`` on the command line to import/export data to your database.
 
 
 What Next?
@@ -391,4 +403,4 @@ PostGIS Project home
 
 PostGIS Documentation
 
-http://postgis.org/documentation/
+ http://postgis.org/documentation/
