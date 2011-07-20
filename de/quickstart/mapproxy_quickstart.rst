@@ -86,6 +86,6 @@ MapProxy startet automatisch neu wenn Sie Änderungen an der Konfigurationsdatei
 Der nächste Schritt
 -------------------
 
-* Lesen Sie die `MapProxy Dokumentation <../../mapproxy/doc/index.html>`_
+* Lesen Sie die `MapProxy Dokumentation <../../mapproxy/index.html>`_
 
 * Schauen Sie die Beispiel-Konfiguration an: (``/usr/local/share/mapproxy/mapproxy.yaml``)

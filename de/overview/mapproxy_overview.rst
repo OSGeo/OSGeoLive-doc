@@ -93,7 +93,7 @@ Demo
 Documentation
 -------------
 
-* `MapProxy 1.1.1 Dokumentation <../../mapproxy/doc/index.html>`_
+* `MapProxy 1.1.1 Dokumentation <../../mapproxy/index.html>`_
 
 
 Details
