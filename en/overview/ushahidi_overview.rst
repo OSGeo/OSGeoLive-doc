@@ -70,7 +70,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 2.0.1
+**Software Version:** 2.1
 
 **API Interfaces:** PHP
 
