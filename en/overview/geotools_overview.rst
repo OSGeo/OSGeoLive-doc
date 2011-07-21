@@ -26,7 +26,7 @@ GeoTools is an open source (LGPL) Java library which provides standards complian
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
 
-Geotools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include: 
+GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Core Features
@@ -48,7 +48,7 @@ Core Features
   
   * compose and display maps with complex styling
 
-* Powerful *schema asisted* parsing technology using XML Schema to bind to GML content
+* Powerful *schema assisted* parsing technology using XML Schema to bind to GML content
   
   * The parsing / encoding technology is provided with bindings for many OGC standards including GML, Filter, KML, SLD, and SE.
   
