@@ -1,5 +1,5 @@
-:Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Author: Jody Garnett
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
 .. _geotools-overview:

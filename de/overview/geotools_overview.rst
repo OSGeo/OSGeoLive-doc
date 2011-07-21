@@ -1,8 +1,8 @@
-:Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Author: Jody Garnett
+:Author: Astrid Emde
+:Author: Frank Gasdorf
+:Version: osgeo-live5.0draft
 :License: Creative Commons
-
-.. _geotools-overview:
 
 .. image:: ../../images/project_logos/logo-GeoTools.png
   :scale: 60 %
@@ -19,108 +19,109 @@
 GeoTools
 ========
 
-GeoTools ist eine Open SOurce (LGPL) Java Bibliothek, die standardkonforme Methoden zur Manipulation von räumlichen Daten bereit stellt. GeoTools verwendet dabei Datenstrukturen, die auf den Standards des OGC (Open Geospatial Consortium) basieren.
+GeoTools ist eine Open Source Bibliothek (LGPL) basierend auf Java, mit deren Hilfe man standardkonform räumliche Daten manipulieren und die Datenstrukturen ansprechen kann, die auf Open Geospatial Consortium (OGC) Spezifikationen beruhen.
 
 .. image:: ../../images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
-  :alt: GeoTools is a modular library supported by plugins for additional formats
+  :alt: GeoTools ist eine modulare Bibliothek, die durch Plugins für Formate erweitert werden kann
   :align: right
 
-GeoTools wird von einigen Projekten verwendet. Diese umfassen Web-Anwendungen, Kommandozeilen basierte Programme und Desktop-Anwendungen. OSGeo-Live Anwendungen, die GeoTools einsetzen:
+GeoTools wird von verschiedensten Projekten verwendet, angefangen von Web Services über Kommandozeilen-Tools bis hin zu Desktop-Anwendungen. OSGeo-Live Applikationen, die u.A. auf GeoTools basieren:
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
-Kernfunktionen
--------------
+Kernfunktionalität
+------------------
 
-* Definition of interfaces for key spatial concepts and data structures
+* Definition von Schnittstellen für zentrale räumliche Konzepte und Datenstrukturen
   
-  * Integrated Geometry support provided by Java Topology Suite (JTS)
-  * Attribute and spatial filters using OGC Filter Encoding specification
+  * Integrierte Unterstützung von Geometrien, bereit gestellt über die Java Topology Suite (JTS)
+  * attributive und räumliche Filter basierend auf der OGC Filter Encoding Spezifikation 
   
-* A clean data access API supporting feature access, transaction support and locking between threads
+* Eine saubere Programmierschnittstelle (Application Programming Interface - API) für den Zugriff auf räumliche Objekte (Features) und Unterstützung für Transaktionen und Sicherstellung der Sperrungen zwischen Threads
   
-  * Access GIS data in many file formats and spatial databases
-  * Coordinate reference system and transformation support
-  * Work with an extensive range of map projections
-  * filter and analyze data in terms of spatial and non-spatial attributes
+  * Zugriffe datei- und datenbankbasierte GIS Daten
+  * unterstützt Koordinatensysteme und Transformationen 
+  * kann mir einer erweiterbaren Pallette von Kartenprojektionen umgehen
+  * Filterung und Analyse bezogen auf rämliche Daten und Daten, die keine räumliche Komponente besitzen
 
-* A stateless, low memory renderer, particularly useful in server-side environments.
-  
-  * compose and display maps with complex styling
 
-* Powerful *schema asisted* parsing technology using XML Schema to bind to GML content
+* Ein zustandsloser Renderer, der wenig Arbeitsspeicher benötigt und somit insbesondere für serverseitige Anwendungen geeignet ist.
   
-  * The parsing / encoding technology is provided with bindings for many OGC standards including GML, Filter, KML, SLD, and SE.
+  * Zusammenstellung und Darstellung von Karten mit komplexen Darstellungsregeln (Styling)
+
+* auf *Schemas basierte* Syntaxanalyse, unter Verwendung von XML Schemas um GML Inhalte zu binden
   
-* GeoTools Plugins: open plug-in system allowing you to teach the library additional formats
+  * Die Kodierung und Parser Technologie wird bereitgestellt für viele OGC Standards, unter anderem GML, KML, SLD, SE und Filter
   
-  * Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional raster formats from GDAL
+* GeoTools Plugins: Offenes System zur Erweiterung, um weitere Format zu unterstützen
+  
+  * Plugins für das ImageIO-EXT Projekt, welches GeoTools ermöglicht, weitere Rasterformate über GDAL zu lesen
  
-* GeoTools Extensions
+* GeoTools Erweiterungen
 
-  * Provide additional capabilities built using the spatial facilites of the core library.
+  * stellt weitere Möglichkeiten zur Erweiterung bereit, die auf die Kernbibliothek aufbauend umgesetzt worden sind
   
   .. image:: ../../images/screenshots/800x600/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
-  * Extensions provide graph and networking support (for finding the shortest path), validation, a web map server client, bindings for xml parsing and encoding and color brewer.
+  * Die Erweiterungen stellen Graphen- und Netzwerkanalysen (kürzester/schnellster Weg), Validierung, einen Web Map Server (WMS) Client, Bindings für XML Parser und Kodierer sowie `Color Brewer`.
 
-* GeoTools Unsupported
+* GeoTools *Unsupported*
   
-  * GeoTools also operates as part of a wider community with a staging area used to foster new talent and promote experimentation.
-  
-  * Some highlights are swing support (used in geotools tutorials), swt, local and web process support, additional symbology, additional data formats, generation of grids and a couple of implementations of ISO Geometry.
+  * GeoTools stellt mit dem *Unsupported* Bereich ein Sammelbacken zur Verfügung, welches von der Community genutzt werden kann, experimentell auf Basis der Kernbibliothek zu arbeiten und Talenten eine Plattform zu bieten, sich einzubringen.
+
+  * Einige Highlights sind die Unterstützung für Swing (wird in den Tutorials verwendet), Eclipse SWT, Unterstützung für Verarbeitungen in Prozessketten im Web (WPS) und lokal. Zusätzliche Symboliken, weitere Datenformate, Erzeugen von Gittern sowie einige Implementierungen für ISO Geometrien.
 
 Unterstützte Formate
---------------------- 
+--------------------
 
-* raster formats and data access:
+* Rasterdaten und Datenzugriffe:
   
   arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab.
   
-* Database "jdbc-ng" support:
+* Datenbanken "jdbc-ng":
   
   db2, h2, mysql, oracle, postgis, spatialite, sqlserver.
 
-* Vector formats and data access:
+* Vektordaten und Datenzugriffe:
   
   app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, shapefile, wfs.
 
 * XML Bindings:
 
-  Java data structures and bindings provided for the following:
+  Java Datenstrukturen und Bindings wird für folgendes geboten:
   xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.
   
-  Additional Geometry, Filter and Style parser/encoders available for DOM and SAX applications.
+  Weitere Geometrie-, Filter- und Stil- Parser/Kodierer sind für DOM und SAX basierte Applikationen verfügbar.
   
-Implementierte Standards
-------------------------
+Umgesetzte Standards
+--------------------
 
-Support of numerous Open Geospatial Consortium (OGC) standards:
+Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) Standards:
 
-* OGC Style Layer Descriptor / Symbology Encoding data structures and rendering engine
+* OGC Style Layer Descriptor / Symbology Encoding 
 * OGC General Feature Model including Simple Feature support
-* OGC Grid Coverage representation of raster information
-* OGC Filter and Common Constraint Language (CQL)
-* Clients for Web Feature Service (WFS), Web Map Service (WMS) and experimental support for Web Process Service (WPS)
+* OGC Grid Coverage Repräsentationen von Rasterinformationen
+* OGC Filter und Common Constraint Language (CQL)
+* Clients für Web Feature Service (WFS), Web Map Service (WMS) and experimentelle Unterstützung für Web Process Service (WPS)
 * ISO 19107 Geometry
 
 Details
 -------
  
-**Webseite:** http://geotools.org/
+**Website:** http://geotools.org/
 
 **Lizenz:** LGPL
 
 **Software Version:** 2.7.1
 
-**Unterstützte Betriebssysteme:** Cross Platform Java
+**Unterstütze Plattformen :** Java
 
-**API Schnittstellen:** Java
+**API Interfaces:** Java
 
-**Support:** `Communication and Support <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
+**Support:** `Kontakt und Unterstützung (englisch) <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
 Quickstart
 ----------
 
-* `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
+* `Quickstart Dokumentation (englisch) <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
