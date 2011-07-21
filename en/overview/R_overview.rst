@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _r-overview:
