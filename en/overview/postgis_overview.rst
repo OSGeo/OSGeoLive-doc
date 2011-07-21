@@ -8,8 +8,9 @@
 .. Writing Tip:
   Metadata about this document
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Author: Barry Rowlingson
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 
 .. Writing Tip:
@@ -37,7 +38,7 @@
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: OSGeo Project in Incubation
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -83,7 +84,7 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
 
 .. image:: ../../images/screenshots/800x600/pgadmin.gif
   :scale: 55 %
-  :alt: project logo
+  :alt: pgAdmin database manager
   :align: right
 
 Core Features
