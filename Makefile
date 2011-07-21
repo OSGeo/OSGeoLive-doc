@@ -148,9 +148,11 @@ test_page: Live_GIS_Disc_Testing.html sphinxbuild
 	sed -e '1,/<h1>Test/d' $(BUILDDIR)/html/en/test.html >> $(TMP)
 	mv $(TMP) $(BUILDDIR)/html/en/test.html 
 	
+licenses.csv :
+	echo `pwd`
+	../bin/extract_licenses.sh > licenses.csv
 
-
-html: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
+html: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs licenses.csv
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml

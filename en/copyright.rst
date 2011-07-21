@@ -1,6 +1,8 @@
 OSGeo-Live Copyright
 ====================
 
+*Copyright OSGeo-Live authors, 2011.*
+
 OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around.
 
 Project Overviews and Overview Translations, are provided under a `Creative Commons Attribution 3.0 Unported License <http://creativecommons.org/licenses/by/3.0/>`_.
@@ -17,18 +19,18 @@ Attributing OSGeo-Live Documentation
 ------------------------------------
 As per the terms of the Creative Commons license, if you include OSGeo-Live documentation into a new document, you will need to attribute the authors using text similar to:
 
-  This document includes [Project Overviews and/or Quickstarts] from the `OSGeo-Live <http://live.osgeo.org>`_ project which is created by OSGeo-Live authors, as listed under `Documentation Authors <#documentation-authors>`_.
+  This document includes [Project Overviews and/or Quickstarts] from the `OSGeo-Live <http://live.osgeo.org>`_ project which is created by OSGeo-Live authors, as listed at http://live.osgeo.org/en/copyright.
 
 **Note:** *If Quickstarts are included, which are licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_ license, then the new document will also need to be licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.*
 
-Documentation Authors
----------------------
+Documentation Contributors
+--------------------------
 
 The table below credits the creators for each of the documents on OSGeo-Live.
 
-TBD: Insert a table which includes:
-
-Document, License(s), List of Authors and/or owners
+.. csv-table:: OSGeo-Live Document Licenses
+   :header: "Document", "Contributor(s)", "License(s)"
+   :file: licenses.csv
 
 Disclaimer
 ----------
