@@ -1,5 +1,5 @@
 :Author: Sergio Baños Calvo
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _kosmo-overview:
@@ -40,13 +40,13 @@ Supported formats:
 Key features:
 
 * User friendly GUI, focused on an easy learning curve
-* Available in 11 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian portuguese)
+* Available in 12 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian portuguese, Finnish)
 * Advanced printing module based on OpenOffice offimatic suite (by an extension)
 * Topology consistency rules: pre/during/post edition
 * Topology validation and cleaning tools (intersect/eliminate/clean)
 * Geoprocessing wizard extension: buffer/dissolve/merge/clip/intersection/spatial join/difference (by an extension)
 * Raster georreferencing tool (by an extension)
-* Sextante 0.5 integrated (by an extension)
+* Sextante 0.6 integrated (by an extension)
 
 Implemented Standards
 ---------------------
@@ -63,7 +63,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Software Version:** 2.0.1
 
 **Supported Platforms:** Windows, Linux
 
