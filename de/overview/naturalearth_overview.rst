@@ -1,0 +1,67 @@
+:Author: OSGeo-Live
+:Author: Frank Gasdorf
+:Version: osgeo-live5.0draft
+:License: Creative Commons
+
+.. _naturalearth-overview:
+
+.. image:: ../../images/project_logos/logo-naturalearth.png
+  :scale: 100 %
+  :alt: project logo
+  :align: right
+  :target: http://www.naturalearthdata.com/
+
+
+Natural Earth
+=============
+
+Kartendaten
+~~~~~~~~~~~
+
+Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von Karten für kleiner bis mittlere Maßstäbe (1:110, 1:50 und 1:10 Millionen). Es sind sowohl politische (administrative) und physische (natürliche) Merkmale enthalten, als auch Vektordaten, die perfekt zu den Rasterdaten in Deckung gebracht sind.
+
+Natural Earth löst das weitverbreitete Problem von Kartographen : Das Finden von Vektordaten für die Erstellung von Karten keinerer Maßstäbe, mit entsprechender Qualität für Publikationen und dem gewünschten Detaillierungsgrad.
+
+.. image:: ../../images/screenshots/1024x768/naturalearth.png
+  :scale: 55 %
+  :alt: natural earth screenshot
+  :align: right
+
+Core Features
+-------------
+
+* Vector features include name and other attributes        
+* Large polygons are split for more efficient data handling such as bathymetric layers.   
+* Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data  points for smooth bending in conic projections, but not so many that computer processing speed suffers.
+* Raster data includes grayscale-shaded relief and cross-blended hypsometric tints derived from the latest NASA SRTM Plus elevation data and tailored to register with Natural Earth Vector.
+* Optimized for use in web mapping applications, such as Google or Yahoo, with built-in scale attributes to direct features to be shown at different zoom levels.
+
+
+Data Sets
+---------
+
+Cultural Vector Data Themes:
+  Includes countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings.
+
+Physical Vector Data Themes:
+  Include coastline, land, ocean, minor islands, reefs, physical region features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, bathymetry, geographic lines, and graticles.
+
+Raster Data Themes:
+  Greyscale shaded relief, cross blended hypsometric tints, satellite-derived land cover data, idealized world environment, ocean bottom, and bathymetry. Optional baked in content includes: land cover, shaded relief, ocean water, and drainages with lakes.
+
+
+Details
+-------
+
+**Website:** http://naturalearthdata.com
+
+**License:** None, the data is public domain.
+
+**Data Version:** 1.3.1
+
+**Data format:** SHP and TIF+TFW
+
+**Spatial coordinate system:** WGS84.
+
+**Support:** http://naturalearthdata.com/forums/
+
