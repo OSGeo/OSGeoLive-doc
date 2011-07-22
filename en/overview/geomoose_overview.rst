@@ -30,9 +30,9 @@ GeoMOOSE is a Web Client Javascript Framework for displaying distributed cartogr
 The GeoMOOSE core is written using JavaScript and HTML. It is entirely possible to run GeoMOOSE with nothing more than a basic webserver (Nginx, Apache, IIS). But besides the basic client core, GeoMOOSE also comes prepackaged with a number of built in services written in PHP. These services add the ability to perform drill-down identify operations, selection operations, and search datasets. If you have existing scripts that perform similar functions, GeoMOOSE can be tuned to work with those services, no matter which language they were written in.
 Being an open source project GeoMOOSE is also built upon other open source projects like MapServer and OpenLayers.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot.png
+.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
   :scale: 55 %
-  :alt: geomoose-screenshot.png
+  :alt: geomoose-screenshot-800x600.png
   :align: right
 
 Details
@@ -57,5 +57,4 @@ Quickstart
 ----------
     
 * `Quickstart documentation <../quickstart/geomoose_quickstart.html>`_
-
 
