@@ -1,5 +1,5 @@
-:Author: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
+:Author: Trevor Wekel
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
 .. _mapguide-overview:
@@ -99,7 +99,7 @@ Details
 
 **Licence:** GNU Lesser General Public License (LGPL) 
 
-**Software Version:** 2.2.0
+**Software Version:** 2.4.0 Pre-Release
 
 **Supported Platforms:** Linux, Windows
 

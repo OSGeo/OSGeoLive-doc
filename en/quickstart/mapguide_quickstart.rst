@@ -1,5 +1,5 @@
-:Author: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
+:Author: Trevor Wekel
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
 .. _mapguide-quickstart:
