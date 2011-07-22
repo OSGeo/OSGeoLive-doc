@@ -112,7 +112,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 2.1
+**バージョン:** 2.1.1
 
 **サポートするプラットフォーム:** All Java 1.5 platforms: - Windows、 Linux、 Mac
 

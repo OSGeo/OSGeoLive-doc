@@ -8,7 +8,7 @@
   :scale: 60 %
   :alt: project logo
   :align: right
-  :target: http://gdal.org/
+  :target: http://geotools.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %

@@ -83,7 +83,7 @@ Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.1
+**Έκδοση Λογισμικού:** 2.1.1
 
 **Υποστηριζόμενες πλατφόρμες:** Όλες οι πλατφόρμες Java 1.5: - Windows, Linux, Mac
 

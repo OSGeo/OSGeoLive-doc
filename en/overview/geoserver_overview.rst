@@ -83,7 +83,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1
+**Software Version:** 2.1.1
 
 **Supported Platforms:** All Java 1.5 platforms: - Windows, Linux, Mac
 
