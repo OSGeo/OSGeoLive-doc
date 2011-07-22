@@ -63,7 +63,7 @@ link_to_en_docs:
 	done
 	# link to english docs for the docs in head directory
 	for LANG in $(TRANSLATIONS) ; do \
-	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/presentation.rst; do \
+	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/presentation.rst en/copyright.rst ; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../#"` ; \
 	    if [ ! -f $$TRANSLATED_DOC ] ; then \
@@ -89,6 +89,7 @@ fix_header_links: sphinxbuild
 	    sponsors.html \
 	    presentation.html \
 	    disclaimer.html \
+	    copyright.html \
 	    overview/overview.html \
 	    standards/standards.html \
 	  ; do \
