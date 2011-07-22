@@ -82,6 +82,7 @@ Geospatial Libraries
 --------------------
 * :doc:`geotools_overview` - Java GIS Toolkit
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations
+* :doc:`liblas_overview`  - libLAS LiDAR Data Access
 
 Windows and Apple Installers
 ----------------------------
