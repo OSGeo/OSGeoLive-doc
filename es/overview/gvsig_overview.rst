@@ -1,6 +1,6 @@
 :Author: Jorge Sanz
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution
 
 .. _gvsig-overview:
 
@@ -72,8 +72,8 @@ Características principales
   * Catálogo: Z3950, SRW, CSW (ISO/19115 y ebRIM)
   * Nomenclátor: ADL, WFS, WFS-G
 
-- Más de 290 algoritmos de geoprocesamiento a través de SEXTANTE_ y su integración
-  con GRASS
+- Más de 290 algoritmos de geoprocesamiento a través de la biblioteca SEXTANTE 
+  y su integración con GRASS
 
 - Herramientas CAD integradas:
 
@@ -122,4 +122,3 @@ Detalles
 
 
 .. _gvSIG: http://www.gvsig.org
-.. _SEXTANTE: http://forge.osor.eu/projects/sextante/

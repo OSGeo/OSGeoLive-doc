@@ -1,13 +1,10 @@
 :Author: Simon Cropper
-:Version: OSGeo-Live DVD, Version 4.5
+:Version: osgeo-live5.0
 :License: Creative Commons - Attribution, Share Alike
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
    :scale: 50 
    :align: right
-
-.. EDITS REQUIRED BY THE LiveDVD TEAM
-.. B. Path to the vector and raster data needs to be updated to reflect where they are contained on the Live DVD
 
 ********************************
 Guía de inicio rápido de gvSIG  
@@ -69,7 +66,7 @@ Abrir el diálogo de propiedades de la vista
    abrirá el diálogo de nuevo SRS (**New CRS**).
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_002.png
-   :scale: 55 
+   :scale: 55 4
 
 Definir el Sistema de Referencia
 -----------------------------------------
@@ -124,7 +121,7 @@ Abrir el diálogo de añadir capa
    para abrir el diálogo **Add layer**
 #. Seleccione [Add] en el diálogo **Add layer**. Por defecto la primera pestaña es
    *File* por lo que el diálogo para abrir ficheros aparecerá.
-#. Desplácese a la carpeta ``/usr/local/share/data/natural earth/HYP_50M_SR_W``
+#. Desplácese a la carpeta ``/usr/local/share/data/natural_earth/HYP_50M_SR_W``
 
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
@@ -140,7 +137,7 @@ Seleccionar un fichero *raster*
 #. Haga clic en el botón [OK] para volver al diálogo **Add layer**
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_007.png
+.. image:: ../../images/scree4nshots/1024x768/gvsig_qs_007.png
    :scale: 55 
 
 Seleccionar ficheros vectoriales
@@ -150,7 +147,7 @@ Seleccionar ficheros vectoriales
 #. Seleccione el botón [Add] para añadir algunos ficheros vectoriales. El diálogo
    para añadir ficheros aparecerá de nuevo
 #. Suba a una carpeta superior presionando el botón [Up one level] para cambiar
-   a la carpeta ``/usr/local/share/data/natural earth``
+   a la carpeta ``/usr/local/share/data/natural_earth``
 #. Seleccione esta vez del desplegable el *gvSIG shp driver*
 #. Seleccione los *shapefiles* siguientes de la carpeta utilizando la tecla Control
    para poder seleccionar varios a la vez: 10m_admin_1_states_provinces.shp``,

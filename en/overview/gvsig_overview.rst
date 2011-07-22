@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution
 
 .. _gvsig-overview:
 
@@ -69,7 +69,7 @@ Core Features
   * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteers: ADL, WFS, WFS-G
   
-* More than 290 geoalgorithms via SEXTANTE_ and GRASS integration
+* More than 290 geoalgorithms via SEXTANTE library and GRASS integration
   
 * Integrated advanced CAD tools:
 
@@ -117,7 +117,6 @@ Details
 
 
 .. _gvSIG: http://www.gvsig.org
-.. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
 Quickstart
 ----------

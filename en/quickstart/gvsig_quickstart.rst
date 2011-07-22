@@ -1,13 +1,10 @@
 :Author: Simon Cropper
-:Version: OSGeo-Live DVD, Version 4.5
+:Version: osgeo-live5.0
 :License: Creative Commons - Attribution, Share Alike
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
    :scale: 50 
    :align: right
-
-.. EDITS REQUIRED BY THE LiveDVD TEAM
-.. B. Path to the vector and raster data needs to be updated to reflect where they are contained on the Live DVD
 
 ****************
 gvSIG Quickstart 
@@ -116,7 +113,7 @@ Open the add layer dialog
 #. Click on the 'Add layer' icon in the main toolbar to open the **Add layer** dialog.
 #. Select [Add] in the **Add layer** dialog. By default the first tab is *File* 
    so the **Open** file dialog will appear.
-#. Drill down to the ``/usr/local/share/data/natural earth/HYP_50M_SR_W`` directory.
+#. Drill down to the ``/usr/local/share/data/natural_earth/HYP_50M_SR_W`` directory.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
    :scale: 55 
