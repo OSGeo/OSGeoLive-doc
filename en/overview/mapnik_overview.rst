@@ -1,5 +1,5 @@
 :Author: Dane Springmeyer
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _mapnik-overview:
@@ -46,7 +46,7 @@ Details
 
 **Licence:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 0.7.0
+**Software Version:** 0.7.1
 
 **Supported Platforms:** Windows, Linux, Mac
 
