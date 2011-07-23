@@ -11,19 +11,17 @@
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: OSGeo Project in Incubation
-  :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
-
 .. Writing Tip: Name of application
 
 GeoMoose
 ========
 
+.. Cameron comment: Target audience are GIS users, not programmers. So we don't mention programming languages like "Javascript". Maybe title should be "Browser GIS Portal".
+
 Web Client Javascript Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Cameron comment: From a user's perspective, why would you pick GeoMoose over something like GeoMajas, OpenLayers, MapBender. Is it easy to customise? Is it fast? I suggest following the style of Browser Clients here: http://live.osgeo.org/en/overview/overview.html
 
 GeoMOOSE is a Web Client Javascript Framework for displaying distributed cartographic data. GeoMOOSE has a number of strengths including modularity, configurability, and delivers a number of core functionalities in its packages. GeoMOOSE is also very light weight for servers making it easy to handle a large number of users, with a large number of layers, and a large number of services without stressing a server.
 
@@ -35,6 +33,16 @@ Being an open source project GeoMOOSE is also built upon other open source proje
   :alt: geomoose-screenshot-800x600.png
   :align: right
 
+Core Features
+-------------
+
+.. Cameron comment: This section needs to be filled in.
+
+Implemented Standards
+---------------------
+
+.. Cameron comment: This section needs to be filled in. I assume GeoMoose is at least a WMS and WFS client? Is it a WMS server too? If so, mention it.
+
 Details
 -------
 
@@ -43,8 +51,6 @@ Licence: The GeoMOOSE license is an MIT based license.
 http://www.geomoose.org/info/license.html
 
 **Software Version:** 2.4
-
-**Promotional Material:** `Tri-fold brochure "GeoMoose at a glance" <../overview/Geomoose_tri-fold_8.5x11_V3.1bb.pdf>`_
 
 **Supported Platforms:** Windows, Linux, Mac
 
