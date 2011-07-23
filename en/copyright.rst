@@ -11,15 +11,23 @@ OSGeo-Live is composed entirely of free software, free data and free documentati
 
 Attributing OSGeo-Live Documentation
 ------------------------------------
-As per the terms of the Creative Commons license, if you include OSGeo-Live documentation into a new document, you will need to attribute the contributors. You may use text similar to:
+As per the `terms of the Creative Commons license <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, if you include OSGeo-Live documentation into a new document, you will need to attribute the contributors. You may use text similar to one of the following:
 
 **Assign CC By-SA license and attribution**
 
-  © 2011 <Your Name> under a `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_ licence. This document extends Quickstarts created by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
+  |CC-By-SA-med| <This document title> by <Your Name> is licenced under a `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_. This document extends Quickstarts created by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
+
+  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+
+**Assign CC By license and attribution**
+
+  |CC-By-small| © 2011 <Your Name> under a `CC By License <http://creativecommons.org/licenses/by/3.0/>`_. Includes Project Overviews from `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
+
+  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
 
 **Brief, copyright and attribution**
 
-  © 2011 <Your Name>. Includes Project Overviews from `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
+  © 2011 <Your Name>. Includes documentation from `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
 
 **Attribution only**
 
