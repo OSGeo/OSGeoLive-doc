@@ -71,7 +71,7 @@ Linux，Unix，Mac OSX，Windowsで動作し，多くのベクタ，ラスタ，
 * インターネットでの公開
 * 拡張可能なプラグイン機能
 
-準拠している標準
+準拠している標準規格
 ---------------------
 
 * OGCスタンダードに準拠 (WMS,WFS(プラグイン))
@@ -79,14 +79,23 @@ Linux，Unix，Mac OSX，Windowsで動作し，多くのベクタ，ラスタ，
 詳細
 -------
 
-**ウェッブサイト：** http://www.qgis.org
+**ウェブサイト：** http://www.qgis.org
 
 **ライセンス：** GPL
 
-**ソフトウェアバージョン：** 1.5.0
+**バージョン：** 1.7.0
 
 **対応プラットフォーム：** Windows, Linux, Mac, Unix
 
 **コミュニティサポート：** http://qgis.org/en/community.html
 
 **商業サポート** http://qgis.org/en/commercial-support.html
+
+
+
+クイックスタート
+----------
+
+* `Quickstart documentation <../quickstart/qgis_quickstart.html>`_
+
+
