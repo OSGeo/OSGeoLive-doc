@@ -35,7 +35,7 @@ GRASSは現在20の言語に翻訳されており、多数のデータフォー�
    :alt: スクリーンショット
    :align: right
 
-GRASSは教育機関、企業、行政機関、環境コンサルティング会社など
+GRASS は教育機関、企業、行政機関、環境コンサルティング会社など
 世界中のあらゆる所で使用されています。一般的なハードウェア環境の多くで動作する、
 GPL (GNU General Public License) でライセンスされたフリーでオープンソースのソフトウェアです。
 
@@ -63,7 +63,7 @@ GRASSの開発は28年続いており、最も歴史ある、最も巨大なオ�
 
 **バージョン:** 6.4.1
 
-**サポートするプラットフォーム:** GNU/Linux, Mac OSX, MS Windows
+**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 
 **API:** C, Python, Bourne Shell
 
@@ -73,6 +73,6 @@ GRASSの開発は28年続いており、最も歴史ある、最も巨大なオ�
 クイックスタート
 ----------
 
-* `クイックスタート <../quickstart/grass_quickstart.html>`_
+* `QuickStart <../quickstart/grass_quickstart.html>`_
 
 
