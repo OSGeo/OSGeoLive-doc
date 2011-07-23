@@ -1,0 +1,80 @@
+:Author: Jan Drewnak (j.drewnak@52north.org)
+:Version: osgeo-live4.0
+:License: Creative Commons
+
+.. _52nWSS-overview:
+
+.. image:: ../../images/project_logos/logo_52North_160.png
+  :scale: 100 %
+  :alt: project logo
+  :align: right
+  :target: http://52north.org/security
+
+
+52°North WSS
+=============
+
+地理情報Webセキュリティサーバ
+~~~~~~~~~~~
+
+52North Web Security Service (WSS) では地理情報サービスやそのリソースへの
+ロールベース認証にでのアクセス制限を簡便に実現できます。
+
+52North WSS を用いると以下のようなアクセス方針も設定可能です:
+
+* 外部のユーザーはGetMapでのレイヤAとBへのWMSアクセス飲み許可。
+GetFeatureInfo はレイヤAのうち、bboxで指定した特定の地域でのみ可能。
+
+
+主な機能
+~~~~~~~~~~~~~~
+
+権限付与
+-------------
+
+現在サポートしている保護は以下のような物を含みます
+
+* WMS: レイヤ、地理的範囲
+* WFS: 地物の種類、地物とその属性、地理的範囲
+* SOS: 提供、手順、地理的範囲、現在値
+* WPS: プロセス
+
+
+認証
+--------------
+52North WSS はユーザーによって異なる認証方式を選択できます。
+
+* HTTPベーシック認証
+* SAMLプロトコルによる認証
+* その他
+
+
+技術的バックグランド
+~~~~~~~~~~~~~~~~~~~~
+
+52North WSS は Apache Tomcat で動作する Java によるウェブアプリケーションです。
+数々の OGC ウェブサービスのプロキシとして動作し、設定した方針で運用を行います。
+そのため、既存のサーバ環境への変更は不要です。
+
+
+詳細
+~~~~~~~~
+
+* **ウェブサイト:** http://52north.org/communities/security
+
+* **ライセンス:** GNU GPL v2.0
+
+* **バージョン:** WSS 2.2.0
+
+* **対応プラットフォーム:** Windows, Linux, Mac
+
+* **API:** Java
+
+* **コミュニティサポート:** http://52north.org/
+
+
+クイックスタート
+----------
+
+* `Quickstart documentation <../quickstart/52nWSS_quickstart.html>`_
+
