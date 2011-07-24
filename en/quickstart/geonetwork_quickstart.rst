@@ -1,5 +1,5 @@
 :Author: GeoNetwork Community
-:Version: osgeo-live4.5draft
+:Version: osgeo-live5.0final
 :License: Creative Commons
 :Thanks: GeoNetwork Community 
 
