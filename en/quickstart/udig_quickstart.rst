@@ -34,11 +34,10 @@
 
 :Author: OSGeo-Live
 :Author: Jody Garnett
-:Author: Micheal Bedward
 :Author: Frank Gasdorf
 :Version: osgeo-live5.0draft
 :License: Creative Commons
-:Thanks: geotools-user list
+:Thanks: udig-devel list
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page

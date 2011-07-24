@@ -49,8 +49,8 @@ Core Features
 * Printing and PDF Generation
 * For Developers
   
-  * Java Application built using the GeoTools, JTS Topology Suite and GeoAPI
-  * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
+  * Java Application built using the GeoTools, JTS Topology Suite
+  * Industrial strength plug-in system provided by Eclipse Rich Client Platform
   * Use of native widgets
 
 Implemented Standards
@@ -74,7 +74,7 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**API Interfaces:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
+**API Interfaces:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
 **Support:** http://udig.refractions.net/users/
 
@@ -85,5 +85,3 @@ Quickstart
 ----------
 
 * `Quickstart documentation <../quickstart/udig_quickstart.html>`_
-
-
