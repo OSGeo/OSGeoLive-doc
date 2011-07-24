@@ -7,7 +7,7 @@
 
 .. image:: ../../images/project_logos/logo-naturalearth.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Projektlogo
   :align: right
   :target: http://www.naturalearthdata.com/
 
@@ -18,7 +18,7 @@ Natural Earth
 Kartendaten
 ~~~~~~~~~~~
 
-Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von Karten für kleiner bis mittlere Maßstäbe (1:110, 1:50 und 1:10 Millionen). Es sind sowohl politische (administrative) und physische (natürliche) Merkmale enthalten, als auch Vektordaten, die perfekt zu den Rasterdaten in Deckung gebracht sind.
+Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von Karten kleiner bis mittlere Maßstäbe (1:110, 1:50 und 1:10 Millionen). Es sind sowohl politische (administrative) und physische (natürliche) Merkmale enthalten, als auch Vektordaten, die perfekt zu den Rasterdaten in Deckung gebracht sind.
 
 Natural Earth löst das weitverbreitete Problem von Kartographen : Das Finden von Vektordaten für die Erstellung von Karten keinerer Maßstäbe, mit entsprechender Qualität für Publikationen und dem gewünschten Detaillierungsgrad.
 
@@ -27,41 +27,39 @@ Natural Earth löst das weitverbreitete Problem von Kartographen : Das Finden vo
   :alt: natural earth screenshot
   :align: right
 
-Core Features
--------------
+Kernfunktionen
+--------------
 
-* Vector features include name and other attributes        
-* Large polygons are split for more efficient data handling such as bathymetric layers.   
-* Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data  points for smooth bending in conic projections, but not so many that computer processing speed suffers.
-* Raster data includes grayscale-shaded relief and cross-blended hypsometric tints derived from the latest NASA SRTM Plus elevation data and tailored to register with Natural Earth Vector.
-* Optimized for use in web mapping applications, such as Google or Yahoo, with built-in scale attributes to direct features to be shown at different zoom levels.
+* Vektordaten mit Namen und weiteren Attributen für jedes Objekt
+* Große Polygone, z.B. bei den Bathymetrie-Daten, wurden in mehrere Objekte aufgeteilt, um die Daten effizient handhaben zu können. 
+* Vektordaten enden perfekt beim +/- 180 Längengrad, um keine Schwirigkeiten für Projektionen hervorzurufen. Linien enthalten so viel Informationen, damit diese bei Konischen Projektionen ruhig verlaufend dargestellt werden können, jedoch soweit begrenzt, dass der Computer beim Verarbeiten nicht an Grenzen stößt.
+* Rasterdaten enthalten graustufen-geschummerte Reliefe und über kreuz verschnittene Hypsometrische Schattierungen, abgeleitet aus den letzten NASA SRTM Plus Höhendaten und angepasst auf die Natural Earth Vektordaten.
+* Optimiert für webbasierte Kartenanwendungen, wie z.B. Google oder Yahoo, und mit enthaltenen Maßstabsinformationen, um kenntlich zu machen, bei welchen Maßstäben bzw. Zoomlevel Objekte dargestellt werden sollen.
 
+Datensätze
+----------
 
-Data Sets
----------
+Thema Kulturelle Vektordaten:
+  enthält Länder, umstrittene Gebiete, Staaten und Provinzen (übergeordnete administrative Bereiche) sowie besiedelte Orte (Städe und Gemeinden). Straßen, Schienen, kommunale Gebiete, Parks und geschützte Bereiche, Pazifische Staatengruppierungen sowie Wassergrenzen, die das Angebot an kuturellen Daten vervollständigen.
 
-Cultural Vector Data Themes:
-  Includes countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings.
+Thema Physische Vektordaten:
+  enthält Küstenlinien, Landflächen, kleinere Inseln, Riffe, physhische Landschaften und Punkte, Flüsse und Seen, Gletscher, Antarktische Eisschelfe, Bathymetrische und geografische Linien sowie Gradnetze.
 
-Physical Vector Data Themes:
-  Include coastline, land, ocean, minor islands, reefs, physical region features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, bathymetry, geographic lines, and graticles.
-
-Raster Data Themes:
-  Greyscale shaded relief, cross blended hypsometric tints, satellite-derived land cover data, idealized world environment, ocean bottom, and bathymetry. Optional baked in content includes: land cover, shaded relief, ocean water, and drainages with lakes.
-
+Thema Rasterdaten:
+  enthält graustufen-geschummerte Reliefe und über kreuz verschnittene Hypsometrische Schattierungen, aus Satelitendaten abgeleitete Landnutzungsdaten, idealisierte Umweltdaten, Ozeane, Entwässerungsanlagen und Seen
 
 Details
 -------
 
-**Website:** http://naturalearthdata.com
+**Webseite:** http://naturalearthdata.com
 
-**License:** None, the data is public domain.
+**Lizenz:** lizenzfrei, die Daten sind für jedermann zugänglich
 
-**Data Version:** 1.3.1
+**Version der Daten:** 1.3.1
 
-**Data format:** SHP and TIF+TFW
+**Datenformat:** SHP and TIF+TFW
 
-**Spatial coordinate system:** WGS84.
+**Koordinatensytemen:** WGS84.
 
 **Support:** http://naturalearthdata.com/forums/
 
