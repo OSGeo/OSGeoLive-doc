@@ -1,5 +1,5 @@
-:Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Author: Thierry Badard 
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
 .. _geokettle-overview:
@@ -16,7 +16,7 @@ GeoKettle
 Data Integration
 ~~~~~~~~~~~~~~~~
 
-GeoKettle is a "spatially-enabled" version of the `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_. It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses.
+GeoKettle is a "spatially-enabled" version of the `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_. It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases, data warehouses and web services.
 
 GeoKettle enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, and the Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service.
 
@@ -34,7 +34,7 @@ Core Features
 
 * Extract data from: 
 
-  * 35+ database types: MySQL, PostgreSQL, Oracle, ...
+  * 35+ database types: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * XML files
   * XLS files
   * Xbase files (dBase, Foxpro, etc)
@@ -42,7 +42,9 @@ Core Features
   * Generated data
   * MS Access files
   * LDAP
-  * Geospatial data formats: Shapefile, ...
+  * SOLAP (Spatial OLAP) system: GeoMondrian
+  * Geospatial data formats: Shapefile, GML 3.1.1, KML 2.2, all OGR supported formats
+  * OGC Web services: Web Feature Service (WFS), Sensor Observation Service (SOS), Catalogue Web Service (CSW)
 
 * Transformation of data:
 
@@ -60,12 +62,17 @@ Core Features
   * Duplicating
   * Clustering (MPP)
   * Pivotting
-  * Geospatial data analysis and processing
+  * Geospatial data analysis: buffer, centroid, distance, intersection, union, ...
+  * Advanced geoprocessing: clipping, delaunay, simplify/smooth geometry, split features, ...
+  * Spatial aggregation
+  * Cartographic preview
 
 * Load data into a target format:
 
-  * Database loads
+  * Database loads: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * Data warehouse population
+  * Geospatial data formats: Shapefile, GML 3.1.1, KML 2.2, all OGR supported formats
+  * OGC Web services: Catalogue Web Service (CSW), ...
   * Partitioned loading
   * Bulk loading
   * Parallel loading
@@ -83,7 +90,7 @@ Core Features
 Implemented Standards
 ---------------------
 
-* OGC standards compliant (SFS)
+* OGC standards compliant (SFS, CSW, SOS)
 
 Details
 -------
@@ -92,7 +99,7 @@ Details
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 3.2.0-20090609
+**Software Version:** 2.0-RC1
 
 **Supported Platforms:** Windows, Linux, Mac, Solaris
 

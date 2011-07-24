@@ -1,7 +1,6 @@
 :Author: Jean Mathieu
 :Author: Thierry Badard
-:Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
 .. _geokettle-quickstart:
@@ -109,7 +108,7 @@ Trying to execute a transformation may result in errors in the Execution Results
 
   .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
 
-To help in finding the source of an error, you can also preview the results of a transformation from another step earlier in the workflow. To do so, right click on the step, and select **Preview** in the popup menu that appears. This way, you can see what the data looks like at this point in the overall process without executing the whole transformation.
+To help in finding the source of an error, you can also preview the results of a transformation from another step earlier in the workflow. To do so, right click on the step, and select **Preview** in the popup menu that appears. This way, you can see in a tabular and cartographic way what the data looks like at this point in the overall process without executing the whole transformation.
 
 Things to Try
 =============
@@ -123,4 +122,4 @@ Here are some additional challenges for you to try:
 What Next?
 ==========
 
-Take a look at the GeoKettle user and developer documentation and tutorials available at http://wiki.spatialytics.org
+Take a look at the GeoKettle user and developer documentation and tutorials available on the `wiki <http://wiki.spatialytics.org>`_ of the project. Do not hesitate also to ask for help on the Spatialytics `forum <http://www.spatialytics.com/forum>`_.
