@@ -12,19 +12,22 @@
 MapProxy
 ========
 
-Swiss army knife for WMS and tile services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cache WMS & tile services
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapProxy is *the* swiss army knife for all WMS and tile services.
-It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client.
+MapProxy speeds up mapping applications by pre-rendering and integrating maps from multiple sources and storing in a local cache.
+Layers can be made transparent, projections can be changed, multiple map layers can be transformed into one, watermarks can be added, and more ...
+
+.. Cameron comment: How is MapProxy configured? Is there a web based management interface to it? A sentence talking about it here might be good. Also might want to add a line or two in the features.
 
 .. image:: ../../images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
-  :align: center
+  :align: right
 
-MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients. 
-
-MapProxy is actively developed and supported, it is released under the `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_, runs on Unix/Linux/Mac OS X and Windows and is easy to install and to configure. 
+.. Commented out: MapProxy is *the* swiss army knife for all WMS and tile services.
+..  Commented out:It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client.
+.. Commented out: MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients. 
+.. Commented out, as details are covered below, and as all osgeo-live projects are quality Open Source: MapProxy is actively developed and supported, it is released under the `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_, runs on Unix/Linux/Mac OS X and Windows and is easy to install and to configure. 
 
 Features of MapProxy
 --------------------
@@ -84,16 +87,17 @@ MapProxy implements the following open specifications:
 * OGC KML 2.2 SuperOverlays
 
 
-Demo
-----
-
-* Start MapProxy (*Geospatial* --> *Web Services* --> *Start MapProxy*)
-* `Open demo in Firefox <http://localhost:8011/demo>`_
-
-Documentation
--------------
-
-* `MapProxy 1.1.1 Documentation <../../mapproxy/index.html>`_
+.. Commented out at the moment, as this is not part of the template, but I like the idea of linking to the demo, and we might put that back in a future version of the docs (for all projects).
+.. Demo
+.. ----
+.. 
+.. * Start MapProxy (*Geospatial* --> *Web Services* --> *Start MapProxy*)
+.. * `Open demo in Firefox <http://localhost:8011/demo>`_
+.. 
+.. Documentation
+.. -------------
+.. 
+.. * `MapProxy 1.1.1 Documentation <../../mapproxy/index.html>`_
 
 
 Details
