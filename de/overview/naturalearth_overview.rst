@@ -20,7 +20,7 @@ Kartendaten
 
 Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von Karten kleiner bis mittlere Maßstäbe (1:110, 1:50 und 1:10 Millionen). Es sind sowohl politische (administrative) und physische (natürliche) Merkmale enthalten, als auch Vektordaten, die perfekt zu den Rasterdaten in Deckung gebracht sind.
 
-Natural Earth löst das weitverbreitete Problem von Kartographen : Das Finden von Vektordaten für die Erstellung von Karten keinerer Maßstäbe, mit entsprechender Qualität für Publikationen und dem gewünschten Detaillierungsgrad.
+Natural Earth löst das weitverbreitete Problem von Kartographen : Das Finden von Vektordaten für die Erstellung von Karten kleinerer Maßstäbe, mit entsprechender Qualität für Publikationen und dem gewünschten Detaillierungsgrad.
 
 .. image:: ../../images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
@@ -32,7 +32,7 @@ Kernfunktionen
 
 * Vektordaten mit Namen und weiteren Attributen für jedes Objekt
 * Große Polygone, z.B. bei den Bathymetrie-Daten, wurden in mehrere Objekte aufgeteilt, um die Daten effizient handhaben zu können. 
-* Vektordaten enden perfekt beim +/- 180 Längengrad, um keine Schwirigkeiten für Projektionen hervorzurufen. Linien enthalten so viel Informationen, damit diese bei Konischen Projektionen ruhig verlaufend dargestellt werden können, jedoch soweit begrenzt, dass der Computer beim Verarbeiten nicht an Grenzen stößt.
+* Vektordaten enden perfekt beim +/- 180 Längengrad, um keine Schwierigkeiten für Projektionen hervorzurufen. Linien enthalten so viel Informationen, damit diese bei Konischen Projektionen ruhig verlaufend dargestellt werden können, jedoch soweit begrenzt, dass der Computer beim Verarbeiten nicht an Grenzen stößt.
 * Rasterdaten enthalten graustufen-geschummerte Reliefe und über kreuz verschnittene Hypsometrische Schattierungen, abgeleitet aus den letzten NASA SRTM Plus Höhendaten und angepasst auf die Natural Earth Vektordaten.
 * Optimiert für webbasierte Kartenanwendungen, wie z.B. Google oder Yahoo, und mit enthaltenen Maßstabsinformationen, um kenntlich zu machen, bei welchen Maßstäben bzw. Zoomlevel Objekte dargestellt werden sollen.
 
@@ -40,13 +40,13 @@ Datensätze
 ----------
 
 Thema Kulturelle Vektordaten:
-  enthält Länder, umstrittene Gebiete, Staaten und Provinzen (übergeordnete administrative Bereiche) sowie besiedelte Orte (Städe und Gemeinden). Straßen, Schienen, kommunale Gebiete, Parks und geschützte Bereiche, Pazifische Staatengruppierungen sowie Wassergrenzen, die das Angebot an kuturellen Daten vervollständigen.
+  enthält Länder, umstrittene Gebiete, Staaten und Provinzen (übergeordnete administrative Bereiche) sowie besiedelte Orte (Städe und Gemeinden). Straßen, Schienen, kommunale Gebiete, Parks und geschützte Bereiche, Pazifische Staatengruppierungen sowie Wassergrenzen, die das Angebot an kulturellen Daten vervollständigen.
 
 Thema Physische Vektordaten:
-  enthält Küstenlinien, Landflächen, kleinere Inseln, Riffe, physhische Landschaften und Punkte, Flüsse und Seen, Gletscher, Antarktische Eisschelfe, Bathymetrische und geografische Linien sowie Gradnetze.
+  enthält Küstenlinien, Landflächen, kleinere Inseln, Riffe, physische Landschaften und Punkte, Flüsse und Seen, Gletscher, Antarktische Eisschelfe, bathymetrische und geografische Linien sowie Gradnetze.
 
 Thema Rasterdaten:
-  enthält graustufen-geschummerte Reliefe und über kreuz verschnittene Hypsometrische Schattierungen, aus Satelitendaten abgeleitete Landnutzungsdaten, idealisierte Umweltdaten, Ozeane, Entwässerungsanlagen und Seen
+  enthält graustufen-geschummerte Reliefe und über kreuz verschnittene Hypsometrische Schattierungen, aus Satellitendaten abgeleitete Landnutzungsdaten, idealisierte Umweltdaten, Ozeane, Entwässerungsanlagen und Seen
 
 Details
 -------
