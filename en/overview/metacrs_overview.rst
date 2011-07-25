@@ -20,8 +20,8 @@
 MetaCRS
 =======
 
-Coordinate Reference Systems Transformations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Coordinate Reference System Transformations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. comment: Can we please get an image. Maybe a collage of different projections. Make sure the image has rights to be included in a CC document.
 
@@ -32,11 +32,11 @@ The MetaCRS libraries are included in other projects and some are also available
 
 The sub-projects that make up MetaCRS include:
 
-* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others
+* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others.
 * Proj4js (JavaScript) - used in OpenLayers.
 * CS-Map (C++) - used in MapGuide.
-* GeoTIFF/libgeotiff (C++) - 
-* Proj4J (Java) - 
+* GeoTIFF/libgeotiff (C++).
+* Proj4J (Java).
 * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions.
 
 Core Features
@@ -129,7 +129,8 @@ Proj4J
   **Support:** http://lists.osgeo.org/mailman/listinfo/proj4j
   
 
-Quickstart
-----------
-    
-* `Quickstart documentation <../quickstart/metacrs_quickstart.html>`_
+.. Commented out following lines:
+.. Quickstart
+.. ----------
+..     
+.. * `Quickstart documentation <../quickstart/metacrs_quickstart.html>`_
