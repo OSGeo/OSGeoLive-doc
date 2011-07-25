@@ -23,7 +23,7 @@ berechnete Position auf einer zoombaren Landkarte. Die Map-Datei wird
 automatisch gewählt, je nach Ihrer Position und dem bevorzugten Kartenmaßstab. 
 Alle GPS-Empfänger mit Unterstützung für das NMEA-Protokoll sollten benutzbar 
 sein, ebenso wie viele USB GPS-Empfänger, die das von `Gpsd <a href="http://gpsd.berlios.de>`_
- GPS Daemon und Multiplexer verwendete Binärprotokoll kennen.
+GPS Daemon und Multiplexer verwendete Binärprotokoll kennen.
 
 
 Kernfunktionen
