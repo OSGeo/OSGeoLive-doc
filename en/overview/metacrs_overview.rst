@@ -32,14 +32,11 @@ The MetaCRS libraries are included in other projects and some are also available
 
 The sub-projects that make up MetaCRS include:
 
-.. comment: Find examples for where all libraries are used, or don't mention any.
-.. comment: I assume camel case should be Proj4JS or Proj4js instead of Proj4Js? (I've changed below)
-
-* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, several others.
+* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others
 * Proj4js (JavaScript) - used in OpenLayers.
 * CS-Map (C++) - used in MapGuide.
-* GeoTIFF/libgeotiff (C++) - .
-* Proj4J (Java) - used ???.
+* GeoTIFF/libgeotiff (C++) - 
+* Proj4J (Java) - 
 * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions.
 
 Core Features
@@ -60,10 +57,6 @@ Well Known Text (WKT) format.
 Details
 -------
 
-.. comment: For Proj4js, We should only have one website. I've removed the trac reference (users can find it from the main website).
-.. comment: Need to work out the license for Proj4J
-
-
 PROJ.4
 ------
 
@@ -82,7 +75,7 @@ PROJ.4
 Proj4js
 -------
 
-  **Website:**  http://trac.osgeo.org/proj4js/ and http://proj4js.org
+  **Website:**  http://proj4js.org
   
   **Licence:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
   
