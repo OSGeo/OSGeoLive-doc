@@ -95,6 +95,7 @@ uDig starten
 
 
 .. TBD: Add menu graphic to this uDig Quickstart
+
 #. :menuselection:`Applications --> Other --> uDig` im Startmenü des Desktops wählen
 #. nach einem Moment wird die Anwendung gestartet und ein Begrüßungsbildschirm angezeigt
 

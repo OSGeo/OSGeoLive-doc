@@ -33,7 +33,7 @@ uDig is:
 For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
 
 Główne funkcje
--------------
+--------------
 
 * Desktop Client with Drag and Drop integration for File explorer and Web Browser
 * Integrate with your existing infrastructure: ArcSDE, Oracle, DB2 and more
@@ -54,7 +54,7 @@ Główne funkcje
   * Use of native widgets
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * OGC Web Map Server (WMS)
 * OGC Web Feature Server (WFS)
@@ -64,7 +64,7 @@ Zaimplementowane standardy
 * OGC Style Layer Descriptor (SLD)
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://udig.refractions.net/
 
@@ -82,7 +82,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/udig_quickstart.html>`_
 

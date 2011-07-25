@@ -4,7 +4,7 @@
 :License: Creative Commons
 :Thanks: OpenJUMP Community
 
-.. _udig-quickstart:
+.. _openjump-quickstart:
 
 *******************
 OpenJUMP Quickstart 
