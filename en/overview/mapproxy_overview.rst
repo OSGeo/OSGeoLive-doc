@@ -12,22 +12,20 @@
 MapProxy
 ========
 
-Cache WMS & tile services
+Proxy WMS & tile services
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapProxy speeds up mapping applications by pre-rendering and integrating maps from multiple sources and storing in a local cache.
-Layers can be made transparent, projections can be changed, multiple map layers can be transformed into one, watermarks can be added, and more ...
+Layers can be made transparent, projections can be changed, multiple map layers can be transformed into one, watermarks can be added, and more…
 
-.. Cameron comment: How is MapProxy configured? Is there a web based management interface to it? A sentence talking about it here might be good. Also might want to add a line or two in the features.
+MapProxy is flexible and scales from simple to complex use-cases: From a single tile cache for an OpenLayers web client to a central SDI node that combines, unifies and accelerates dozens of distributed WMS services.
+
+Some real world examples: MapProxy is used for the German broadband atlas to deliver maps for thousands of users as fast as possible and the German Federal Agency for Cartography an Geodesy uses MapProxy to aggregate WMS services from all 16 states on the fly.
 
 .. image:: ../../images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
-.. Commented out: MapProxy is *the* swiss army knife for all WMS and tile services.
-..  Commented out:It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client.
-.. Commented out: MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients. 
-.. Commented out, as details are covered below, and as all osgeo-live projects are quality Open Source: MapProxy is actively developed and supported, it is released under the `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_, runs on Unix/Linux/Mac OS X and Windows and is easy to install and to configure. 
 
 Features of MapProxy
 --------------------
@@ -71,6 +69,9 @@ WMS Features:
   * convert WMS versions and image formats
 
 Other features:
+  * simple but powerful configuration format (YAML/JSON)
+  * OpenLayers based demo client (see right)
+  * run multiple WMS services in one MapProxy instance
   * add attribution lines to the images
   * support for non-image raster data like DEMs
   * support for custom authorization with fine-grained control over services and layers
@@ -85,19 +86,6 @@ MapProxy implements the following open specifications:
 * OGC WMTS 1.0.0
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
-
-
-.. Commented out at the moment, as this is not part of the template, but I like the idea of linking to the demo, and we might put that back in a future version of the docs (for all projects).
-.. Demo
-.. ----
-.. 
-.. * Start MapProxy (*Geospatial* --> *Web Services* --> *Start MapProxy*)
-.. * `Open demo in Firefox <http://localhost:8011/demo>`_
-.. 
-.. Documentation
-.. -------------
-.. 
-.. * `MapProxy 1.1.1 Documentation <../../mapproxy/index.html>`_
 
 
 Details
