@@ -40,7 +40,7 @@ Kernfunktionen
 * Sonnentag/Nacht-Overlay 
 * Entfernungen messen 
 * Umschalten zwischen Kartenansichten in "Weltraumperspektive" und 2D-Projektion
-* `OpenStreetMap <http://www.osm.org> `_ Integration
+* `OpenStreetMap <http://www.osm.org>`_ Integration
 
 Details
 -------
