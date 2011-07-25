@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+ï»¿:Author: OSGeo-Live
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -23,21 +23,21 @@ gvSIG Desktop
 Desktop GIS
 ~~~~~~~~~~~
 
-gvSIG_ ist ein Geographisches Informationssystem (GIS). Als Desktop-Anwendung bietet es Möglichkeiten 
+gvSIG_ ist ein Geographisches Informationssystem (GIS). Als Desktop-Anwendung bietet es MÃ¶glichkeiten 
 zur Erfassung, Speicherung, Handhabung, Analyse und Bereitstellung geografischer Informationen,
-um damit komplexe Planungs- und Management-Probleme zu lösen. 
-gvSIG ist bekannt für seine benutzerfreundliche Benutzeroberfläche und bietet Zugriff auf
-alle gängigen Vektor- und Raster-Datenformate. 
-Für die Arbeit mit geografischer Information stehen in gvSIG eine breite Palette an Werkzeugen zur Verfügung (Abfrage, 
+um damit komplexe Planungs- und Management-Probleme zu lÃ¶sen. 
+gvSIG ist bekannt fÃ¼r seine benutzerfreundliche BenutzeroberflÃ¤che und bietet Zugriff auf
+alle gÃ¤ngigen Vektor- und Raster-Datenformate. 
+FÃ¼r die Arbeit mit geografischer Information stehen in gvSIG eine breite Palette an Werkzeugen zur VerfÃ¼gung (Abfrage, 
 Layout-Design, Geoprozessierung, Netzwerkanalyse, etc.).
-Damit ist gvSIG ein ideales Werkzeug für die Arbeit im Ungang mit Geoinformation.
+Damit ist gvSIG ein ideales Werkzeug fÃ¼r die Arbeit im Ungang mit Geoinformation.
 
-gvSIG ist bekannt für:
+gvSIG ist bekannt fÃ¼r:
 
 * Integration und Kombination von lokalen und entfernten Daten nach OGC-Standards.
 * skalierbar und flexibel und bietet damit eine kontinuierliche Erweiterung
-* in über 20 Sprachen verfügbar (Spanisch, Englisch, Deutsch, Französisch, Italienisch,...)
-* plattformunabhängig (Windows, Linux, und Mac OS X)
+* in Ã¼ber 20 Sprachen verfÃ¼gbar (Spanisch, Englisch, Deutsch, FranzÃ¶sisch, Italienisch,...)
+* plattformunabhÃ¤ngig (Windows, Linux, und Mac OS X)
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -47,13 +47,13 @@ gvSIG ist bekannt für:
 Kernelemente
 ------------
 
-* Bietet allgemeine GIS-Funktionalität, wie das Laden von Daten, Karten-Navigation, Abfrage von
-  alphanumerischer Karten-Informationen, Messen von Strecken und Flächen, thematische
+* Bietet allgemeine GIS-FunktionalitÃ¤t, wie das Laden von Daten, Karten-Navigation, Abfrage von
+  alphanumerischer Karten-Informationen, Messen von Strecken und FlÃ¤chen, thematische
   Kartographie, verschiedene Legendentypen, Beschriftungen, Objekt-Auswahl nach verschiedenen 
   Methoden, Tabellenfunktionen zur Erstellung von Statistiken, Verlinkungen, Layout-Manager, 
   Geoprocessing Werkzeuge, CAD- und Raster-Verarbeitungswerkzeuge, etc.
 
-* Interoperabilität: Verarbeitung gängiger Datenformate:
+* InteroperabilitÃ¤t: Verarbeitung gÃ¤ngiger Datenformate:
 
   * Raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
   * Vektor & CAD: shapefile, GML, KML, DGN, DXF, DWG
@@ -70,11 +70,11 @@ Kernelemente
   
 * Fortschrittlich durch integrierte CAD Werkzeuge:
 
-  * Vektor: Modifizieren, Erstellen and Löschen von Elementen
-  * Administration per Kommandozeile möglich, ähnlich handelsüblicher CAD-Software
+  * Vektor: Modifizieren, Erstellen and LÃ¶schen von Elementen
+  * Administration per Kommandozeile mÃ¶glich, Ã¤hnlich handelsÃ¼blicher CAD-Software
   * Werkzeuge wie z.B. Hilfefunktion, Ausrichtung an Gitternetz, Befehlsliste (undo), komplexe Objekt-Selektion
   * Werkzeuge zum Erzeugen von Geometrien, wie z.B. Punkt, Linie, Ellipsen, etc.
-  * Werkzeuge zur Veränderung von Objekten, durch z.B. Rotationen, Symmetrie, etc.
+  * Werkzeuge zur VerÃ¤nderung von Objekten, durch z.B. Rotationen, Symmetrie, etc.
   
 * Fortschrittlich durch integrierte Rasterwerkzeuge:
 
@@ -91,7 +91,7 @@ Kernelemente
 Implementierte Standards
 ------------------------
 
-Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGIS unterstützt:
+Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGIS unterstÃ¼tzt:
 
 * Laden von WMS, WFS und WCS Layern
 * Export/Import von SLD Legenden
@@ -108,7 +108,7 @@ Details
 
 **Software Version:** 1.11
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**UnterstÃ¼tzte Betriebssysteme:** Windows, Linux, Mac
 
 **Support:** http://www.gvsig.org/web/organization/services
 
