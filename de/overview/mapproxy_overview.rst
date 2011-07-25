@@ -13,18 +13,21 @@
 MapProxy
 ========
 
-Das "Schweizer Taschenmesser" für WMS und Kachel-Dienste
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WMS- & Kachel-Proxy
+~~~~~~~~~~~~~~~~~~~
 
-MapProxy ist das "Schweizer Taschenmesser" für alle WMS- und Kacheldienste. MapProxy speichert, beschleunigt und transformiert bestehende Kartendienste aller Art.
+MapProxy beschleunigt Kartenanwendungen durch das Vorgenerieren und Zwischenspeichern von Karten in einem lokalen Cache. Karten können durch MapProxy kombiniert, umtransformiert und manipuliert werden. So verfügt MapProxy zum Beispiel über die Möglichkeit Transparenz hinzuzufügen oder Wasserzeichen in der Karte einzublenden.
+
+MapProxy ist flexibel einsetzbar und kann bei einfachen, aber auch bei komplexen Anwendungsfällen zum Einsatz kommen: Vom einfachen Zwischenspeicher für eine OpenLayers Web-Anwendung bis hin zum Einsatz als zentraler Knotenpunkt in einer GDI, bei dem MapProxy  dutzende WMS Dienste kombiniert, vereinheitlicht und beschleunigt.
+
+Beispiele aus der Praxis: MapProxy wird im Breitbandatlas des BMWi verwendet um Karten an tausende Benutzer so schnell wie möglich auszuliefern. Außerdem wird MapProxy vom Bundesamt für Kartographie und Geodäsie verwendet um unterschiedliche WMS Dienste aller 16 Bundesländern on-the-fly zusammenzufassen.
+
 
 .. image:: ../../images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
-MapProxy ist weit mehr als nur eine Caching-Lösung. MapProxy bietet umfangreiche und innovative Funktionen an. So beschleunigt MapProxy zum Beispiel WMS-Dienste, ohne dass dabei der WMS-Standard verloren geht. Vorhandene Desktop- und WebGIS Anwendungen können weiter genutzt werden.
 
-MapProxy wird aktiv weiterentwickelt und wird unter `Apache Software Lizenz 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_ veröffentlicht. MapProxy ist auf Unix/Linux/Mac OS X und Windows lauffähig und zeichnet sich hierbei durch seine einfache Installation und Konfiguration aus.
 
 Funktionen von MapProxy
 -----------------------
@@ -56,7 +59,7 @@ Optionen für zur Verfügung gestellte Dienste:
   * Quellen können über eine Geometrie beschränkt werden (z.B. durch ein Shapefile)
   * Transparenz zu undurchsichtigen Layern hinzufügen
   * mehrere Quellen zu einem Dienst zusammenfassen
-  * in andere Projektionen umtransformieren
+  * umtransformieren in andere Projektionen 
 
 WMS Eigenschaften:
   * Layer-Gruppen aus unterschiedlichen Quellen
@@ -68,6 +71,9 @@ WMS Eigenschaften:
   * WMS Versionen aktualisieren und Bild-Formate konvertieren 
 	
 Weitere Funkionen: 
+  * einfaches aber mächtiges Konfigurationsformat (YAML/JSON)
+  * Demo-Anwendung basierend auf OpenLayers (siehe Rechts)
+  * mehrere WMS-Dienst in einer MapProxy-Instanz
   * Wasserzeichen und Copyrightzeilen einfügen
   * Unterstützung für Rasterdaten z.B. DEM (keine Bilder)
   * offene Schnittstelle zum Absichern von Diensten oder Layern
@@ -83,19 +89,6 @@ MapProxy unterstützt folgende offene Spezifikationen:
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
 
-
-Demo
-----
-
-* Start MapProxy (*Geospatial* --> *Web Services* --> *Start MapProxy*)
-* `Im Firefox öffnen <http://localhost:8011/demo>`_
-
-Documentation
--------------
-
-* `MapProxy 1.1.1 Dokumentation <../../mapproxy/index.html>`_
-
-
 Details
 -------
 
@@ -110,7 +103,7 @@ Details
 **Support:** http://mapproxy.org/support.html
 
 
-Quickstart
-----------
+Schnellstart
+------------
     
-* `Quickstart Dokumentation <../quickstart/mapproxy_quickstart.html>`_
+* `Schnellstart Dokumentation <../quickstart/mapproxy_quickstart.html>`_
