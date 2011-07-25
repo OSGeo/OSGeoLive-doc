@@ -28,43 +28,43 @@ Start MapTiler
 
 2. Select the **Tile Profile**. Choose *Google Maps Compatible (Spherical Mercator)* for standard web publishing. Choose *Google Earth (KML SuperOverlay)* if you also want to generate a KML file for use in Google Earth. Click *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler1.png
+.. image:: ../../images/screenshots/1024x768/maptiler1.jpg
     :width: 90 %
     :align: center
 
 3. Choose the **Source Data Files**. Browse to select the raster image you want to tile. It is also possible to select a NODATA colour that will appear as transparent in the resulting image. Click *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler2.png
+.. image:: ../../images/screenshots/1024x768/maptiler2.jpg
     :width: 90 %
     :align: center
 
 4. Specify the **Spatial Reference System / Coordinate System** of the image. Specify the id-number from the EPSG/ESRI database. If you have maps from UK for example the transformation should include the `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ parameter. Click *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler3.png
+.. image:: ../../images/screenshots/1024x768/maptiler3.jpg
     :width: 90 %
     :align: center
 
 5. Specify details about the **Tile Pyramid**. The default settings for zoom levels and file format are often best. Click *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler4.png
+.. image:: ../../images/screenshots/1024x768/maptiler4.jpg
     :width: 90 %
     :align: center
 
 6. Specify details about the **Destination folder and Addresses / URLs** for the tileset. If you do not know these, they can be added into the default *googlemaps.html* and *openlayers.html* files after tile generation. Click *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler5.png
+.. image:: ../../images/screenshots/1024x768/maptiler5.jpg
     :width: 90 %
     :align: center
 
 7. Tick the **Viewers that should be generated**. By default, a *googlemaps.html* and *openlayers.html* file are generated. You can also choose to generate a KML SuperOverlay file for Google Earth. Click *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler6.png
+.. image:: ../../images/screenshots/1024x768/maptiler6.jpg
     :width: 90 %
     :align: center
 
 8. Specify the **Details for generating the Viewers**, such as the title, copyright notice, and API keys. If you do not know these, they can be added into the default *googlemaps.html / openlayers.html* files after tile generation. Click *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler7.png
+.. image:: ../../images/screenshots/1024x768/maptiler7.jpg
     :width: 90 %
     :align: center
 

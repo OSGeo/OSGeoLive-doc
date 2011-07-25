@@ -6,12 +6,12 @@
    :scale: 50 
    :align: right
 
-********************************
+******************************
 Guía de inicio rápido de gvSIG  
-********************************
+******************************
 
 Descripción del proyecto
-===============================
+========================
 
 "gvSIG Desktop es un Sistema de Información Geográfica (SIG), esto es, una
 aplicación de escritorio diseñada para capturar, almacenar, manipular, analizar 
@@ -40,7 +40,7 @@ Esta guía de inicio rápido describe como...
 
 
 Arrancar gvSIG y crear una vista
-=================================
+================================
 
 Seleccione gvSIG desde el menú de aplicaciones. La aplicación suele tardar
 alrededor de un minuto en arrancar.
@@ -57,7 +57,7 @@ Definir la proyección de una vista
 ==================================
 
 Abrir el diálogo de propiedades de la vista
--------------------------------------------------
+-------------------------------------------
 
 #. Seleccione la vista recientemente creada. Por defecto se llama ``Untitled - 0``
    pero podría ser ``Untitled - 1`` si ha creado anteriormente una vista y la ha borrado.
@@ -69,7 +69,7 @@ Abrir el diálogo de propiedades de la vista
    :scale: 55 4
 
 Definir el Sistema de Referencia
------------------------------------------
+--------------------------------
 
 #. Seleccione de la lista desplegable 'Type' el elemento **EPSG**
 #. Introduzca el código EPSG para el sistema de de referencia coordenado. Para
@@ -83,7 +83,7 @@ Definir el Sistema de Referencia
    :scale: 55 
 
 Salvar las propiedades de la vista
-----------------------------------------
+----------------------------------
 
 #. Fíjese que ahora el código EPSG es 4326 y que las unidades de mapa han
    cambiado a grados.
@@ -93,7 +93,7 @@ Salvar las propiedades de la vista
    :scale: 55 
 
 Abrir la vista
----------------
+--------------
  
 #. Seleccione la vista recién creada
 #. Haga clic en el botón [Open] para abrir la vista
@@ -111,11 +111,11 @@ Abrir la vista
    :scale: 55 
 
 La vista - añadir datos *raster* y vectorial
-==============================================
+============================================
 
 
 Abrir el diálogo de añadir capa
--------------------------------------
+-------------------------------
    
 #. Haga clic en el icono 'Add layer' de la barra de herramientas principal
    para abrir el diálogo **Add layer**
@@ -128,7 +128,7 @@ Abrir el diálogo de añadir capa
    :scale: 55 
 
 Seleccionar un fichero *raster*
--------------------------------------
+-------------------------------
    
 #. Seleccione del desplegable inferior *gvSIG Raster Driver*. Por defecto está
    seleccionado el driver para *shapefiles* por lo que en principio la carpeta
@@ -137,11 +137,11 @@ Seleccionar un fichero *raster*
 #. Haga clic en el botón [OK] para volver al diálogo **Add layer**
 
 
-.. image:: ../../images/scree4nshots/1024x768/gvsig_qs_007.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_007.png
    :scale: 55 
 
 Seleccionar ficheros vectoriales
----------------------------------------
+--------------------------------
 
 #. Ahora el diálogo **Add layer** lista el fichero raster añadido
 #. Seleccione el botón [Add] para añadir algunos ficheros vectoriales. El diálogo
@@ -159,10 +159,10 @@ Seleccionar ficheros vectoriales
    :scale: 55 
 
 La vista - navegación básica
-=============================
+============================
 
 Zoom a una región
-------------------
+-----------------
 
 Una vez en la vista de nuevo verá que los ficheros vectoriales se superponen
 al fichero *raster*. Los colores mostrados en la figura pueden depender de
@@ -180,7 +180,7 @@ los suyos dependiendo de las preferencias de usuario de su instalación.
    :scale: 55 
 
 Navegación a una escala determinada
------------------------------------------
+-----------------------------------
    
 La vista automáticamente habrá cambiado para mostrar el área inscrita en el
 rectángulo dibujado.
@@ -195,10 +195,10 @@ rectángulo dibujado.
    
 
 La vista - cambiando la apariencia de las capas
-====================================================
+===============================================
 
 Hacer un polígono transparente
--------------------------------
+------------------------------
 
 #. Seleccione la capa ``10m_admin_1_states_provinces.shp`` usando el
    botón izquierdo del ratón y haga después clic con el botón
@@ -210,7 +210,7 @@ Hacer un polígono transparente
    :scale: 55 
 
 Cambiando la simbología de una capa vectorial
--------------------------------------------------
+---------------------------------------------
 
 #. Seleccione la pestaña *Sybmols* de la zona superior del diálogo
    **Layers properties**
@@ -225,7 +225,7 @@ Cambiando la simbología de una capa vectorial
    :scale: 55 
 
 Cambiando el etiquetado de una capa vectorial
-------------------------------------------------
+---------------------------------------------
    
 #. Seleccione la pestaña *Labelling* en la parte superior del diálogo de
    propiedades de capa
@@ -236,7 +236,7 @@ Cambiando el etiquetado de una capa vectorial
    :scale: 55 
 
 El resultado
---------------------
+------------
 
 Cabe destacar que esta una visualización muy sencilla, mostrando una capa de
 puntos, otra de líneas y otra de polígonos superpuestas a una capa *raster*.
@@ -248,7 +248,7 @@ almacenados en otros formatos diferentes.
    :scale: 55 
 
 Ejercicio propuesto - cambiar la simbología y etiquetado de las otras capas
-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
 Siguiendo los pasos mencionados anteriormente, cambie los símbolos, colores y
 etiquetado de ríos y poblaciones para, aproximadamente, conseguir una simbología
@@ -259,10 +259,10 @@ similar a la de la siguiente figura.
 
 
 Análisis básico - seleccionar los municipios de una región
-=============================================================
+==========================================================
 
 Seleccionando la región
----------------------------
+-----------------------
 
 #. Seleccione la capa ``10m_admin_1_states_provinces.shp`` usando
    el botón izquierdo del ratón
@@ -276,7 +276,7 @@ Seleccionando la región
    :scale: 55 
 
 Seleccionando los municipios contenidos en una región
---------------------------------------------------------
+-----------------------------------------------------
 
 #. Seleccione la capa ``10m_populated_places_simple.shp`` usando el botón
    izquierdo del ratón
@@ -292,7 +292,7 @@ Seleccionando los municipios contenidos en una región
    :scale: 55 
 
 Deseleccionar el polígono para ver qué ha ocurrido
------------------------------------------------------
+--------------------------------------------------
 
 #. Seleccione la capa ``10m_admin_1_states_provinces.shp`` usando el botón
    izquierdo del ratón
@@ -305,7 +305,7 @@ Deseleccionar el polígono para ver qué ha ocurrido
    :scale: 55 
 
 Exportar los municipios seleccionados a un *shapefile* nuevo
--------------------------------------------------------------
+------------------------------------------------------------
 
 #. Seleccione la capa ``10m_populated_places_simple.shp`` usando el
    botón izquierdo del ratón
@@ -326,7 +326,7 @@ Exportar los municipios seleccionados a un *shapefile* nuevo
    :scale: 55 
 
 Mostrando únicamente los municipios de una región 
---------------------------------------------------
+-------------------------------------------------
 
 #. Una vez ha vuelto a la vista, desactive la capa ``10m_populated_places_simple.shp``
    de la tabla de contenidos
@@ -342,10 +342,10 @@ Mostrando únicamente los municipios de una región
 
    
 Cómo crear un mapa
-===================
+==================
 
 Crear un mapa y abrirlo
-----------------------------
+-----------------------
 
 #. Seleccione el tipo de documento *Mapa* en el gestor de proyectos
 #. Haga clic en el botón [New] para crear un mapa
@@ -362,7 +362,7 @@ Crear un mapa y abrirlo
    :scale: 55 
 
 Insertar una vista con una cuadrícula
--------------------------------------- 
+-------------------------------------
 
 #. Haga clic en la herramienta 'Insertar vista' del menú principal
 #. Dibuje un rectángulo que ocupe la totalidad del mapa manteniendo pulsado
@@ -403,7 +403,7 @@ Insertar una vista con una cuadrícula
    :scale: 55 
 
 Guardando su proyecto y saliendo de gvSIG
-===========================================
+=========================================
 
 #. Los proyectos pueden ser guardados para ser usados posteriormente usando la 
    opción en el menú ``File > Save as...`` o
@@ -415,7 +415,7 @@ Guardando su proyecto y saliendo de gvSIG
 
 
 A partir de aquí...
-=====================
+===================
 
 Algunos tutoriales y material de ayuda en Español están disponibles en la página web de `gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop>`_. 
 
