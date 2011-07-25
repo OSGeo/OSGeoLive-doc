@@ -11,17 +11,12 @@
   :align: right
   :target: http://www.geomoose.org/
 
-.. Writing Tip: Name of application
-
 GeoMoose
 ========
 
-.. Cameron comment: Target audience are GIS users, not programmers. So we don't mention programming languages like "Javascript". Maybe title should be "Browser GIS Portal".
 
-Web Client Javascript Framework
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Cameron comment: From a user's perspective, why would you pick GeoMoose over something like GeoMajas, OpenLayers, MapBender. Is it easy to customise? Is it fast? I suggest following the style of Browser Clients here: http://live.osgeo.org/en/overview/overview.html
+Web GIS Portal
+~~~~~~~~~~~~~~
 
 GeoMOOSE is a Web Client Javascript Framework for displaying distributed cartographic data. GeoMOOSE has a number of strengths including modularity, configurability, and delivers a number of core functionalities in its packages. GeoMOOSE is also very light weight for servers making it easy to handle a large number of users, with a large number of layers, and a large number of services without stressing a server.
 
@@ -36,12 +31,26 @@ Being an open source project GeoMOOSE is also built upon other open source proje
 Core Features
 -------------
 
-.. Cameron comment: This section needs to be filled in.
+* Data management is abstracted down to the layer level.  This allows a distributed maintenance and update configuration where data owners can update and manage their respective datasets without affect any other dataset in the display.
+* Easily configure multiple end user layouts against the same spatial data stores.
+* Easily discover and filter spatial datasets among large catalog datasets.
+* Easily integrate any outside URL based services into the GeoMoose interface with it's MapBook connector configuration tools.
+* End user controls on each layer can make a layer active for querying or for modifying their display characteristics, layers can be faded out incrementally, reorder vertically (z-order) by the user.
+* Configuration of the GeoMoose interface is all XML based.  The Mapviewer, Birdseye, side menu, navigation and data manipulation tools are all configured via XML in a MapBook file.
+* The Tabbed user controls in the Side menu can be cutomized and added to.
+* A "Jump-to" menu list can be added into the side menu for zooming to a location from a pre-defined list of options.
+* MapServer can be used as a data server and a MapServer MapFile is used on a layer by layer basis for the cartography and publishing aspects of each layer.
+* WMS services can be accessed directly via the MapBook XML file, and even reprojected in the browser to other coordinate systems.
+* Other service types can be integrated with GeoMoose, both spatial and tabular based.
+* Multiple mouse tracking readout are configurable int he interface, even more than one at a time can be displayed.  Lat/Lon, Cartesian, and U.S. National Grid (USNG/MGRS) coordinate systems are supported out of the box.
+* Measuring and drawing tools are incorporated into the interface.
+* An almost unlimited numbers of layers can be published via a GeoMoose interface. This is a by product of the layer by layer configuration design of the data storage and access tools.
 
 Implemented Standards
 ---------------------
 
-.. Cameron comment: This section needs to be filled in. I assume GeoMoose is at least a WMS and WFS client? Is it a WMS server too? If so, mention it.
+* GeoMoose adheres to standards defined by it's underlying libraries, MapServer and OpenLayers
+* WMS client GetMap requests via dynamic templating. 
 
 Details
 -------
