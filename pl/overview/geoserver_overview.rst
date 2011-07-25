@@ -20,7 +20,7 @@ GeoServer
 =========
 
 Usługi sieciowe
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 GeoServer is a web server that allows you to serve maps and data from
 a variety of formats to standard clients such as web browsers and desk
@@ -44,7 +44,7 @@ GeoServer forms a core component of the Geospatial Web.
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 **Serve data from a variety of data stores:**
     * Wektor
@@ -71,14 +71,14 @@ Główne funkcje
     `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * Wsparcie wielu standardów Open Geospatial Consortium  (OGC)
 
 * WMS, transakcyjny WFS, WCS, Filter Encoding, SLD, GML
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://geoserver.org/display/GEOS/Welcome
 
@@ -94,6 +94,6 @@ Szczegóły
 
 
 Szybkie wprowadzenie
-----------
+--------------------
 
 * `Przejdź do wprowadzenia <../quickstart/geoserver_quickstart.html>`_

@@ -40,7 +40,7 @@ around the world.
 
 
 Główne funkcje
--------------
+--------------
 * Interactive map.
 * Timeline.
 * Ability to subscribe to report alerts based on proximity.
@@ -64,7 +64,7 @@ Demo
 * `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.ushahidi.com
 
@@ -80,7 +80,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/ushahidi_quickstart.html>`_
 

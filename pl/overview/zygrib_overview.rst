@@ -12,15 +12,15 @@
 
 
 zyGrib
-=========
+======
 
 Prognozowanie pogody
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 zyGrib jest programem do pobierania i wizualizacji danych prognoz pogody w standardowym formacie dystrybucji tych danych - GRIB.
 
 Główne funkcje
--------------
+--------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
@@ -38,7 +38,7 @@ Główne funkcje
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.zygrib.org
 

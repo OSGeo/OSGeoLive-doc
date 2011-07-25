@@ -50,7 +50,7 @@ PostGIS
   Application Category Description:
 
 Przestrzenna baza danych
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Writing Tip:
   Address user questions of "What does the application do?",
@@ -85,7 +85,7 @@ Zarządzanie bazą danych jest dostępne poprzez pgAdmin, phpPgAdmin oraz inne p
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 * Tysiące funkcji przestrzennych
   
@@ -101,14 +101,14 @@ Główne funkcje
 * Table-spaces, schemas
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * Zgodność ze standardami OGC (SFSQL)
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://postgis.refractions.net/
 

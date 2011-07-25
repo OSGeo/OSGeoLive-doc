@@ -5,9 +5,9 @@
 
 .. _virtualbox-quickstart:
  
-*************************************
+**************************************
 Wprowadzenie do OSGeo-Live Virtual Box
-*************************************
+**************************************
 
 Tu opisaliśmy metodę uruchomienia OSGeo-Live DVD lub ISO na `VirtualBox <http://www.virtualbox.org/>`_ wirtualnej maszynie.
 
@@ -89,11 +89,11 @@ Dodaj obraz OSGeo-Live.
 Teraz możesz uruchomić wirtualną maszynę jak opisano w :doc:`osgeolive_quickstart`
 
 Utwórz stałą wirtualną maszynę
---------------------------------
+------------------------------
 Jeśli planujesz często używać wirtualnej maszyny OSGeo-Live DVD, prawdopodobnie chcesz utworzyć ją na stałe, jak w: :doc:`osgeolive_install_quickstart`.
 
 Zwiększ rozmiar wyświetlania
----------------------
+----------------------------
 Teraz możesz dodać wirtualne narzędzia bootowania, które wspomagają większą rozdzielczość ekranu, możliwość kopiowania i wklejania pomiędzy goszczonym systemem i hostem,  przyspieszające grafikę, i inne.
 
 Upewnij się, że komputer ma połączenie z Internetem.
@@ -120,7 +120,7 @@ Ponownie uruchom wirtualną maszynę, a ustawienia wyświetlania powinny być ta
 Wybierz: Applications -> Settings -> Xfce 4 Settings Manager -> Display
 
 Zobacz również:
----------
+---------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`

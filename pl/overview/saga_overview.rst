@@ -35,7 +35,7 @@ rosnącej światowej społeczności.
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 * Dostęp do wielu naukowych modułów poprzez graficzny interfejs użytkownika i wiersz poleceń
 
@@ -57,7 +57,7 @@ Główne funkcje
 * SAGA może być dostępna z języka statystycznego R poprzez moduł RSAGA
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.saga-gis.org
 
@@ -73,7 +73,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/saga_quickstart.html>`_
 

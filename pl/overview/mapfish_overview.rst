@@ -45,14 +45,14 @@ toolkits.
   :align: right
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 MapFish jest zgodny ze standardami `Open Geospatial Consortium
 <http://www.opengeospatial.org/>`_. Jest to możliwe gdyż OpenLayers i GeoExt obsługują wiele norm OGC, takich jak WMS, WFS, WMC, KML, GML
 etc.
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.mapfish.org
 
@@ -66,7 +66,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/mapfish_quickstart.html>`_
 

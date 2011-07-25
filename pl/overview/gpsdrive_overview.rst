@@ -15,7 +15,7 @@ GpsDrive
 ========
 
 Program do nawigacji GPS 
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsDrive <http://www.gpsdrive.de>`_ jest samochodowym (rowerowym, morskim, samolotowym, pieszym)
 systemem nawigacji. GpsDrive wyświetla twoją pozycję z GPS na interaktywnej mapie.
@@ -25,7 +25,7 @@ jak również wiele GPS na USB, działających na binarnych protokołach porozum
 `Gpsd <http://gpsd.berlios.de>`_ GPS daemon i multiplexer.
 
 Główne funkcje
--------------
+--------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
@@ -45,7 +45,7 @@ pliki tekstowe kompatybilne z SQLite i GpsBabel
 * Zintegrowane Wifi Kismet
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.gpsdrive.de
 
@@ -59,7 +59,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/gpsdrive_quickstart.html>`_
 

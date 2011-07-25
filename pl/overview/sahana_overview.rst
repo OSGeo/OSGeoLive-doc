@@ -11,10 +11,10 @@
   :target: http://www.sahanafoundation.org
 
 Sahana Eden
-=============
+===========
 
 Platforma zarządzania kryzysowego
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana Eden is a Family of Applications to Help You Help Others.
 It provides web based collaboration tools that addresses the common coordination problems faced during a disaster including finding missing people, managing aid,
@@ -39,7 +39,7 @@ dozens of Governments and NGOs since then.
 
 
 Główne funkcje
--------------
+--------------
 
 * Mapping - Situation Awareness & Geospatial Analysis.
 * Requests Management - Tracks requests for aid and matches them against donors who have pledged aid.
@@ -57,13 +57,11 @@ Główne funkcje
 Demo
 ----
 
-
-
 * `Sahana Eden demo <http://demo.eden.sahanafoundation.org/>`_
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://eden.sahanafoundation.org/
 
@@ -78,6 +76,6 @@ Szczegóły
 **Wsparcie:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/sahana_quickstart.html>`_

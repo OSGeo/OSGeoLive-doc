@@ -4,7 +4,7 @@
 
 .. _sahana-overview:
 
-.. image:: ../../images/project_logos/logo-sahana.png
+.. image:: ../../images/project_logos/logo-sahana-eden.png
   :scale: 60 %
   :alt: Projekt Logo
   :align: right

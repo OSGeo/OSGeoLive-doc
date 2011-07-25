@@ -6,9 +6,9 @@
 
 .. _osgeolive-install-quickstart:
  
-*********************
+**************************
 Wprowadzenie do OSGeo-Live
-*********************
+**************************
 
 Poniższe wprowadzenie opisuje jak uruchomić OSGeo-Live DVD.
 
@@ -25,7 +25,7 @@ Wymagania systemowe
 * Mysz: użyteczna jest mysz z trzema przyciskami, szczególnie dla użytkowników systemu Mac. 
 
 Uruchomienie:
-----
+-------------
 
   Weź OSGeo-Live DVD, obraz ISO znajduje się na stronie: http://download.osgeo.org/livedvd.
   Umieść DVD w napędzie CD i zrestartuj komputer.
@@ -57,7 +57,7 @@ Uruchomienie:
   Wypróbuj aplikacje znajdujące się w menu :menuselection:`Geospatial`. 
 
 Zobacz również:
----------
+---------------
 
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`

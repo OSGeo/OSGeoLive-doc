@@ -21,7 +21,7 @@ QGIS Server
 ===========
 
 Usługi sieciowe
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 QGIS Server dostarcza usług sieciowych WMS opartych na bibliotekach pochodzących z programu Quantum GIS (QGIS).
 Ścisła integracja z programem QGIS oznacza możliwość łatwego eksportu do Internetu map stworzonych desktopowym narzędziem, poprzez skopiowanie pliku projektu QGIS do ścieżki serwera. Mapy w Internecie będą wyglądały dokładnie tak samo jak w aplikacji desktopowej.
@@ -33,7 +33,7 @@ QGIS Server dostarcza usług sieciowych WMS opartych na bibliotekach pochodzący
 
 
 Główne funkcje
--------------
+--------------
 
 * Implementacja Web Map Service (WMS)
 * Dobra integracja z GIS-em desktopowym (QGIS)
@@ -42,13 +42,13 @@ Główne funkcje
 * Zaawansowana redakcja kartograficzna
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * OGC Web Map Service (WMS) 1.3.0
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.qgis.org/
 
@@ -61,7 +61,7 @@ Szczegóły
 **Wsparcie komercyjne:** http://www.sourcepole.com/
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia  <../quickstart/qgis_mapserver_quickstart.html>`_
 

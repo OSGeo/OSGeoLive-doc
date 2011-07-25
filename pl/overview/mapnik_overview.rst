@@ -15,7 +15,7 @@ Mapnik
 ======
 
 Redakcja kartograficzna
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik jest zestawem narzędzi służącym do tworzenia pięknych map, z przejrzystymi, miękkimi granicami obiektów,  
 za pomocą wysokiej jakości grafiki z anty-aliasingiem, inteligentnego rozmieszczania etykiet oraz skalowalnych symboli SVG. Najbardziej znane użycie Mapnika to renderowanie głównych warstw Open Street Map.
@@ -43,7 +43,7 @@ a dla Mac OS X i Windows powszechnie używane są instalatory.
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.mapnik.org/
 
@@ -58,7 +58,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/mapnik_quickstart.html>`_
 

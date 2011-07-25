@@ -21,7 +21,7 @@ MapServer
 =========
 
 Usługi sieciowe
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 MapServer jest `Open Source <http://www.opensource.org>`_ silnikiem renderowania danych geograficznych napisanym w C. Poza przeszukiwaniem danych GIS, MapServer pozwala na tworzenie "geographic image maps", czyli map, które mogą skierować użytkownika do zawartości. Na przykład, Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ dostarcza użytkownikom ponad 10,000 stron internetowych, raportów i map poprzez jedną aplikację. Ta sama aplikacja służy jako "map engine" dla innych części serwisu, dostarczając informacji przestrzennej, gdzie jest ona potrzebna.
 
@@ -30,7 +30,7 @@ MapServer był pierwotnie rozwijany przez Uniwersytet Minesoty (UMN) jako projek
 MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
 
 Główne funkcje
--------------
+--------------
 
 .. image:: ../../images/screenshots/1024x768/mapserver.png
   :scale: 50 %
@@ -67,7 +67,7 @@ Główne funkcje
   * Reprojekcja w locie ponad tysiąca układów współrzędnychpoprzez bibliotekę Proj.4
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * Wsparcie wielu standardów Open Geospatial Consortium  (OGC)
 
@@ -79,13 +79,13 @@ Demo
 * `Itasca <http://localhost/mapserver_demos/itasca/>`_
 
 Dokumentacja
--------------
+------------
 
 * `MapServer 5.6.6 Documentation <../../mapserver/doc/index.html>`_
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.mapserver.org/
 

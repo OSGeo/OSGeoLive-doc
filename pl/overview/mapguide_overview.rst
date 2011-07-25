@@ -35,7 +35,7 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 **Interactive Map Viewing**
 
@@ -88,12 +88,12 @@ Główne funkcje
 * Browse with Microsoft Internet Explorer, Mozilla Firefox, and Safari and Chrome
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * OGC Web Map Service 1.1.1 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://mapguide.osgeo.org/
 
@@ -107,7 +107,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/mapguide_quickstart.html>`_
 

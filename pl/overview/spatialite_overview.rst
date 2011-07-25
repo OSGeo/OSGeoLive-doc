@@ -31,7 +31,7 @@ The files are also portable; the same database file will work on Windows, Linux,
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
 
@@ -51,7 +51,7 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.gaia-gis.it/spatialite/
 
@@ -65,7 +65,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/spatialite_quickstart.html>`_
 

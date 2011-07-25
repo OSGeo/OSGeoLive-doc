@@ -28,7 +28,7 @@ R is an implementation of the S programming language and there is significant co
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 * Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
 * Hundreds of community contributed add-on packages for spatial statistics
@@ -42,7 +42,7 @@ Główne funkcje
 * Analizy ekologczne
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://cran.r-project.org
 

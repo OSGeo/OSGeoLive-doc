@@ -15,7 +15,7 @@ AtlasStyler
 ===========
 
 Edytor stylów obiektów
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ jest przyjazną dla użytkownika aplikacją desktopową do tworzenia i nadawania stylów danym przestrzennym. Stworzone style mogą być zapisane w formie zgodnej ze standardami OGC, jako pliki SLD/SE.
 
@@ -27,7 +27,7 @@ Utworzone pliki SLD kompatybilne są ze wszystkimi programami, które używają 
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 * Budowa stylów przy pomocy okien dialogowych.
 * Bazujący na standardzie OGC SLD.
@@ -36,13 +36,13 @@ Główne funkcje
 * Całkowicie przetłumaczony na niemiecki, angielski, włoski, turecki, rosyjski i francuski.
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
 * OGC Symbology Encoding (SE)
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://en.geopublishing.org/AtlasStyler
 
@@ -59,7 +59,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/atlasstyler_quickstart.html>`_
 

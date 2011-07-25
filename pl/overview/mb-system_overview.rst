@@ -15,7 +15,7 @@ MB-System
 =========
 
 Mapy dna morskiego
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 MB-System jest pakietem oprogramowania o otwartym kodzie źródłowym do przetwarzania i  
 wizualizacji batymetrii na podstawie danych multibeam, interferometrycznych oraz sonarowych. 
@@ -25,7 +25,7 @@ MB-System jest rozwijany od 1993 roku, z aktywnym wsparciem
 ze strony wielu organizacji badawczych i naukowych.
 
 Główne funkcje
--------------
+--------------
 
 .. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
@@ -50,7 +50,7 @@ Główne funkcje
 * Tide modeling and correction
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
@@ -64,7 +64,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/mb-system_quickstart.html>`_
 

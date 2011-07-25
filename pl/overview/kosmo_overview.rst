@@ -27,7 +27,7 @@ Jego architektura wtyczek pozwala na łatwe dostosowanie do potrzeb klientów o 
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 Obsługiwane formaty:
 
@@ -48,7 +48,7 @@ Kluczowe funkcje:
 * Zintegrowany Sextante 0.5 (jako rozszerzenie)
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
@@ -56,7 +56,7 @@ Zaimplementowane standardy
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.opengis.es
 

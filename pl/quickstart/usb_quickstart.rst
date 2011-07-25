@@ -6,9 +6,9 @@
 
 .. _usb-quickstart:
  
-***********************************************
+************************************************
 Tworzenie rozruchowego PenDrive USB z OSGeo-Live
-***********************************************
+************************************************
 
 Poniżej opisujemy jak utworzyć bootowalny PenDrive USB z OSGeo-Live. Uruchamianie z PenDrive jest szybsze niż z DVD, poza tym napęd ten może być tak skonfigurowany, aby
 przechowywać dane pomiędzy sesjami.
@@ -17,14 +17,14 @@ Dopiero niedawno zaczęliśmy testować instalatory napędu USB z OSGeo-Live 4.0
 otrzymaliśmy szeroki pozytywny oddźwięk, testowanie nie było przeprowadzone na szeroką skalę, jednak kilka osób zgłosiło problem z uruchomieniem OSGeo-Live z napędu USB.
 
 Wymagania
-------------
+---------
 
 * 4 GB PenDrive USB dla OSGeo-Live-Mini
 * 8 GB PenDrive USB dla OSGeo-Live
 * OSGeo-Live DVD lub obraz ISO (pobrany z: http://live.osgeo.org/download.html)
 
 Tworzenie rozruchowego PenDrive USB na Ubuntu
----------------------------------------
+---------------------------------------------
 
 Wsuń PenDrive do napędu USB komputera.
 
@@ -78,7 +78,7 @@ Wybierz "Create"
 Poczekaj około 20 minut na stworzenie PenDrive USB.
 
 Ustaw kolejność bootowania w BIOS-ie:
---------------------
+-------------------------------------
 
 Większość komputerów nie jest domyślnie ustawiona na uruchomienie systemu z PenDrive USB.
 
@@ -92,17 +92,17 @@ Zauważ, że dla niektórych komputerów urządzenie USB musi znajdować się w 
 Zauważ też, że urządzenie USB jest zwykle listowane za twardymi dyskami, a nie urządzeniami mobilnymi. 
 
 Uruchomienie:
-----
+-------------
 
 Uruchom jak w: :doc:`osgeolive_quickstart`
 
 Znane problemy:
--------------
+---------------
 
 * Komputery Mac nie wystartują z PenDrive USB, należy tu użyć LiveDVD. 
 
 Zobacz także:
----------
+-------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`

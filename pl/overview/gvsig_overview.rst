@@ -18,7 +18,7 @@
 
 
 gvSIG Desktop
-==============
+=============
 
 Desktop GIS
 ~~~~~~~~~~~
@@ -47,7 +47,7 @@ aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 * Dostarcza popularnych narzędzi GIS, służących do wczytywania danych, nawigacji po mapie, odpytywania informacji takich jak informacje alfanumeryczne, pomiaru odległości, kartografii tematycznej, edycji legendy z użyciem typowych rodzajów legendy, etykietowania, wybierania obiektów za pomocą różnych sposobów selekcji, tabel danych z ich statystykami, segregowania według kolejności, relacji między tabelami, łączenia tabel, zarządzania treścią mapy, geoprocesingu, CAD, przetwarzania rastrów itp.
 
@@ -87,7 +87,7 @@ Główne funkcje
 
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 Zaawansowane wsparcie klienta wielu standardów Open Geospatial Consortium (OGC)
 
@@ -98,7 +98,7 @@ Zaawansowane wsparcie klienta wielu standardów Open Geospatial Consortium (OGC)
 * Przeszukiewnie gazeterów przy pomocy WFS-G 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.gvsig.org/
 
@@ -115,6 +115,6 @@ Szczegóły
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
 Szybkie wprowadzenie
-----------
+--------------------
 
 * `Przejdź do wprowadzenia <../quickstart/gvsig_quickstart.html>`_

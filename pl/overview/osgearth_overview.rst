@@ -28,7 +28,7 @@ osgEarth supports all kinds of data and comes with lots of examples to help you 
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 osgEarth makes is easy to deploy scalable terrain models: 
 
@@ -65,7 +65,7 @@ Things you can see:
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://osgearth.org/
 
@@ -81,7 +81,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/osgearth_quickstart.html>`_
 

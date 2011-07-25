@@ -42,14 +42,14 @@ uprościć pracę programisty usług sieciowych.
 Usługa ZOO jest linkiem składającym się z pliku metadanych ZOO (.zcfg) i kodu dla odpowiednich implementacji. Plik metadanych opisuje wszystkie dostępne funkcje, które mogą być wywołane przy pomocy żądania WPS Exec Request, jak również pożądany format wyjścia/wejścia. Usługi zawierają algorytmy i funkcje, i do tej pory mogą być implementowane w językach C/C++, Fortran, Java, Python, PHP i JavaScript.
 
 Główne funkcje
--------------
+--------------
 
 * Serwer WPS obsługujący wiele języków
 * Prosta procedura tworzenia i wdrażania usług sieciowych 
 * Proste łączenie WPS z API ZOO 
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * OGC WPS 1.0.0
 
@@ -62,7 +62,7 @@ Demo
 
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://zoo-project.org
 
@@ -78,7 +78,7 @@ Szczegóły
 
 
 Szybkie wprowadzenie
-----------
+--------------------
 
 * `Przejdź do wprowadzenia <../quickstart/zoo-project_quickstart.html>`_
 

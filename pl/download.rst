@@ -1,5 +1,5 @@
 Pobierz OSGeo-Live
-========
+==================
 
 Najnowszą stabilną wersję |osgeo-live-version| :
 

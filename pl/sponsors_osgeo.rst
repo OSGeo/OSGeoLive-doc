@@ -1,5 +1,5 @@
 Fundacja OSGeo
-====================
+==============
 Fundacja `Open Source Geospatial, w skrócie OSGeo <http://osgeo.org>`_, jest organizacją non-profit, której misją jest wspieranie i promowanie wspólnego rozwoju technologii GIS oraz publicznie dostępnych danych przestrzennych. Fundacja zapewnia finansowe, organizacyjne oraz prawne wsparcie dla szerokiej społeczności twórców otwartego oprogramowania GIS. Fundacja jest niezależnym, prawnym związkiem, którego członkowie wnoszą oprogramowanie w postaci kodów źródłowych, fundusze finansowe oraz inne środki, z jednoczesnym zapewnieniem ze strony fundacji, że będą one zarządzane jako dobro publiczne. OSGeo jest również organizacją będącą opiekunem i rzecznikiem szeroko rozumianej społeczności GIS oraz dostarcza jej wspólnego forum i infrastrukturę dla usprawnienia współpracy między projektami.
 
 Wszystkie projekty fundacji dostępne są na zasadach zgodnych z `licencjami Wolnego Oprogramowania zaakceptowanymi przez Open Source Initiative.  <http://www.opensource.org/licenses/>`_
@@ -93,7 +93,7 @@ OSGeo Associate Sponsors
 
 
 Dalsze informacje
---------------------
+-----------------
 
 Aby wesprzeć OSGeo lub omówić zasady sponsorowania, skontaktuj się z:
 

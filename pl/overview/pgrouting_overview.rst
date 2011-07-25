@@ -30,7 +30,7 @@ Advantages of the database routing approach are:
   :align: right
 
 Główne funkcje
--------------
+--------------
 
 pgRouting provides functions for:
 
@@ -46,7 +46,7 @@ pgRouting provides functions for:
 .. * Zgodny ze standardami OGC
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.pgrouting.org
 
@@ -61,7 +61,7 @@ Szczegóły
 **Wsparcie komercyjne:** http://www.pgrouting.org
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/pgrouting_quickstart.html>`_
 

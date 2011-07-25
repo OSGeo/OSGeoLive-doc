@@ -29,7 +29,7 @@ of JOSM plugins have been included.
 
 
 Główne funkcje
--------------
+--------------
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
@@ -43,7 +43,7 @@ Główne funkcje
 * Widespread geo-application integration
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.openstreetmap.org
 
@@ -83,7 +83,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/osm_quickstart.html>`_
 

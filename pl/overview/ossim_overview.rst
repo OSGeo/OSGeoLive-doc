@@ -21,7 +21,7 @@ OSSIM
 =====
 
 Przetwarzanie zobrazowań
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open Source Software Image Map (OSSIM) jest wysokiej klasy narzędziem do teledetekcji, przetwarzania zobrazowań, geograficznych systemów informacyjnych i fotogrametrii.
 
@@ -32,7 +32,7 @@ Zaimplementowanych zostało wiele narzędzi wiersza poleceń, aplikacji GUI i zi
 
 
 Główne funkcje
--------------
+--------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
@@ -53,7 +53,7 @@ Główne funkcje
 * Equation editors
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.ossim.org/
 
@@ -69,7 +69,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/ossim_quickstart.html>`_
 

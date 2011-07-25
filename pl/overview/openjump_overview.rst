@@ -25,7 +25,7 @@ Jest również znakomitym frameworkiem dla programistów jako szybko dostępna b
   :align: center
 
 Główne funkcje
--------------
+--------------
 
 * Formaty danych
 
@@ -58,14 +58,14 @@ Główne funkcje
    
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://www.openjump.org
 

@@ -21,7 +21,7 @@ OpenLayers
 ==========
 
 Klient GIS w przeglądarce internetowej
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
@@ -35,7 +35,7 @@ Wszystkie funkcje działają wewnątrz przeglądarki internetowej, co sprawia,
 że OpenLayers jest łatwe do zainstalowania i nie wymaga jakichkolwiek zależności po stronie serwera.
 
 Główne funkcje
--------------
+--------------
 
 * Proste w użyciu API JavaScript, zaprojektowane aby ułatwić pracę programisty
 * Wsparcie standardów i dostosowanych do potrzeb użytkownika protokołów do interakcji z serwerami
@@ -54,7 +54,7 @@ Główne funkcje
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
 Szczegóły
--------
+---------
 
 **Strona internetowa:** http://openlayers.org
 
@@ -68,7 +68,7 @@ Szczegóły
 
 
 Wprowadzenie
-----------
+------------
 
 * `Przejdź do wprowadzenia <../quickstart/openlayers_quickstart.html>`_
 

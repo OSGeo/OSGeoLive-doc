@@ -24,7 +24,7 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla `Apple OSX <../MacInstal
 
 
 Szybkie wprowadzenia
-------------
+--------------------
 
 -   `Jak zacząć z OSGeo-Live DVD <quickstart/osgeolive_quickstart.html>`_
 -   `Zmiana języka i ustawiń klawiatury <quickstart/internationalisation_quickstart.html>`_
@@ -34,7 +34,7 @@ Szybkie wprowadzenia
 -   `Więcej samouczków... <quickstart/quickstart.html>`_
 
 Prezentacja
-------------
+-----------
 Półgodzinna prezentacja omawiająca wszystkie zawarte na OSGeoLive programy, dostępna jest w postaci wideo oraz slajdów i notatek.
 
 Szczegóły na stronie  http://live.osgeo.org/en/presentation.html.
