@@ -146,7 +146,7 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
    * Μπορούμε να χρησιμοποιήσουμε τα Navigation Back |BNAV| και Forward |FNAV| από το μενού εντολών για να επισκεφθούμε 
      σημεία που είχαμε δει προηγουμένως.
 
-  	 .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
+     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
 .. tip:: Τα περισσότερα εργαλεία επιτρέπουν τη μετάθεση κρατώντας το κεντρικό πλήκτρο του ποντικιού και τον ελέγχο της κλίμακας με 

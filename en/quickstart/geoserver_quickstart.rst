@@ -35,7 +35,6 @@ Start |GS|
 .. image:: ../../images/screenshots/800x600/geoserver-login.png
     :scale: 70 %
 
-
 First Views
 ===========
 
@@ -83,18 +82,16 @@ to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
 will see this page:
 
 .. image:: ../../images/screenshots/800x600/geoserver-newstore.png
-    :align: center
     :scale: 70 %
-    
-    *The New Store page*
+    :align: center
+    :alt: The New Store page
 
 Select the :guilabel:`Directory of spatial files`, you will see the following: 
 
 .. image:: ../../images/screenshots/800x600/geoserver-new-vector.png
-    :align: center
     :scale: 70 %
-    
-    *Filling in the New Store page*
+    :align: center
+    :alt: Filling in the New Store page
 
 Type in a name for the Data Store - I used *Natural Earth* and fill in
 the URL to the data set - in this case :file:`/usr/local/share/data/natural_earth/`. 
@@ -103,8 +100,7 @@ You can use the browse button to find the directory if your data is somewhere el
 .. image:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
-
-    *The Natural Earth Datastore*
+    :alt: The Natural Earth Datastore
 
 Press :guilabel:`publish` next to one of the layers to finish up adding
 the data. This will take you to the *Layers* page:
@@ -112,8 +108,7 @@ the data. This will take you to the *Layers* page:
 .. image:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
     :scale: 70 %
-
-    *The layer publishing page*
+    :alt: The layer publishing page
 
 As you scroll down the page you will see that |GS| has filled in many of
 the fields for you. When you reach :guilabel:`Coordinate Reference System`
@@ -153,8 +148,7 @@ Using |UG| to create simple styles
 
 .. note::
 
-   For more details on how to use |UG| see the :doc:`uDig Quickstart <../quicks
-tart/udig_quickstart>`
+   For more details on how to use |UG| see the :doc:`uDig Quickstart <../quickstart/udig_quickstart>`
 
 Once I opened |UG| up and added the shapefiles (using the
 add data button in the top left hand corner). I dragged the 10m_land
@@ -164,8 +158,7 @@ a style (so you can see the data).
 .. image:: ../../images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :scale: 70 %
-
-   *Default Styling in uDig*
+   :alt: Default Styling in uDig
 
 Now obviously an orange ocean will not work (even if I could live
 with the green land). So in the :ref:`Layer list <Layer_list>` select the style
@@ -175,9 +168,7 @@ button (it looks like an artist's palette).
 .. image:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
-
-   *The Layer list window*
-
+   :alt: The Layer list window
 
 This will open the :ref:`Style Pane <Style_Pane>` - in the simple window I can easily
 select a nice blue for the oceans by clicking on the colored box on
@@ -189,9 +180,7 @@ better. I picked the same blue for the border color so it would match.
 .. image:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
    :scale: 70 %
-
-   *The Style Pane*
-
+   :alt: The Style Pane 
 
 Once I was done I clicked ``OK`` and |UG| showed me the
 changes. 
@@ -200,8 +189,7 @@ changes.
 .. image:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :scale: 70 %
-
-   *Blue Oceans*
+   :alt: Blue Oceans
 
 Finally I prefer a more understated land color than green so
 I repeated the steps above to change the color of the land layer.
@@ -211,16 +199,14 @@ None of the default colors seemed right to me so I went into the
 .. image:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
    :scale: 70 %
-
-   *Defining a nicer land color*
+   :alt: Defining a nicer land color
 
 This gives me a nice looking basic world map
 
 .. image:: ../../images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :scale: 70 %
-
-   *A basic word map*
+   :alt: A basic word map
 
 Adding the Style to |GS|
 ````````````````````````
@@ -238,8 +224,7 @@ button) and a copy of my file appears in the editor. If you click on the validat
 .. image:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :scale: 70 %
-
-   *Adding a Style to GeoServer*
+   :alt: Adding a Style to GeoServer
 
 
 Adding the Style to the Layer
@@ -267,8 +252,7 @@ Now go to the Layer Preview page to check that it looks good.
     .. image:: ../../images/screenshots/800x600/geoserver-raster.png
         :align: center
         :scale: 70 %
-
-        *Adding a Raster*
+        :alt: Adding a Raster
 
     The click :guilabel:`Save` this will take you to the *New Layers
     Chooser* then click publish and :guilabel:`Save` to finish adding the

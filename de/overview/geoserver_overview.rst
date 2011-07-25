@@ -68,7 +68,7 @@ Implementierte Standards
 
 * Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards
 
-* WMS, WFS-T (transaktional), WCS, :doc:`Filter Encoding <../standards/fe_overview>`, :doc:`SLD <../standards/sld_overview>`,  doc:`GML <../standards/gml_overview>`
+* WMS, WFS-T (transaktional), WCS, :doc:`Filter Encoding <../standards/fe_overview>`, :doc:`SLD <../standards/sld_overview>`,  :doc:`GML <../standards/gml_overview>`
 
 Details
 -------

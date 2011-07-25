@@ -34,7 +34,6 @@ Start |GS|
 .. image:: ../../images/screenshots/800x600/geoserver-login.png
     :scale: 70 %
 
-
 Erste Oberflächen
 =================
 
@@ -79,16 +78,14 @@ Es muss ein **Store** für unsere Daten angelegt werden. Von der |GS| Administra
 .. image:: ../../images/screenshots/800x600/geoserver-newstore.png
     :align: center
     :scale: 70 %
-    
-    *Die New Store Seite*
+    :alt: Die New Store Seite
 
 Wählen Sie :guilabel:`Directory of spatial files` und sie werden folgendes sehen:
 
 .. image:: ../../images/screenshots/800x600/geoserver-new-vector.png
     :align: center
     :scale: 70 %
-    
-    *Ausfüllen der New Store Seite*
+    :alt: Ausfüllen der New Store Seite
 
 Geben Sie einen Namen für den Store an - ich habe *Natural Earth* eingegeben - sowie eine URL
 für den Datensatz, in unserem Fall :file:`/usr/local/share/data/natural_earth/`. Sie können die :guilabel:`Browse` Schaltfläche nutzen, um ein Verzeichnis auf dem Dateisystem zu finden, falls sonstige Daten eingebunden werden sollen. Um den Vorgang abzuschließen, bestätigen Sie mit :guilabel:`Save`.
@@ -96,16 +93,14 @@ für den Datensatz, in unserem Fall :file:`/usr/local/share/data/natural_earth/`
 .. image:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
-
-    *Der Natural Earth Datastore*
+    :alt: Der Natural Earth Datastore
 
 Klicken Sie auf :guilabel:`Publish` auf einen der Einträge der nächsten Seite, um das veröffentlichen der Layer abzuschließen. Dies wird sie zur *Layers* Seite führen: 
 
 .. image:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
     :scale: 70 %
-
-    *Die Layer `Publishing` Seite*
+    :alt: Die Layer `Publishing` Seite
 
 Wie Sie beim Scrollen bemerken werden, hat |GS| bereits viele Felder ausgefüllt. 
 Wenn Sie den Punkt :guilabel:`Coordinate Reference System` erreichen, werden sie 
@@ -142,8 +137,7 @@ Sobald Sie |UG| gestartet haben, können Sie per Drag&Drop die zwei folgenden Sh
 .. image:: ../../images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :scale: 70 %
-
-   *Standard Styling in uDig*
+   :alt: Standard Styling in uDig
 
 Nun ist Orange nicht die bevorzugte Farbe, um Ozeane darzustellen, auch wenn man mit grün dargestellten Ländern leben könnte. Zum Ändern eines Stils des aktuell ausgewählten Layers in der 
 :ref:`Liste der Layer <Layer_list>` klicken Sie auf den Style Button - dieser sieht aus wie eine Farbpalatte - in der Toolbar.
@@ -152,8 +146,7 @@ Nun ist Orange nicht die bevorzugte Farbe, um Ozeane darzustellen, auch wenn man
 .. image:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
-
-   *Die Listenansicht der Layer*
+   :alt: Die Listenansicht der Layer
 
 Es wird ein :ref:`Stil Dialog <Style_Pane>` geöffnet, Sie können einfach die Farbe der Flächen in dem Tab `Fill` auf ein zusagendes Blau abändern. Zusätzlich wurde bei dem Beispiel der Ozeane die Deckkraft (opacity) auf 100% gesetzt. Ebenso wurde die gleiche Farbe für die begrenzenden Linien (im Tab `Border`) festgelegt.
 
@@ -161,8 +154,7 @@ Es wird ein :ref:`Stil Dialog <Style_Pane>` geöffnet, Sie können einfach die F
 .. image:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
    :scale: 70 %
-
-   *Der Stil Dialog*
+   :alt: Der Stil Dialog
 
 .. tip:: Klicken Sie in Stil Dialog die Schaltfläche :guilabel:`Apply`, um die aktuellen Anpassungen auf die Karte anzuwenden, ohne den Dialog zu schließen.
 
@@ -172,24 +164,21 @@ Haben Sie einen Stil zu Ihrer Zufriedenheit konfiguriert, können Sie diesen Dia
 .. image:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :scale: 70 %
-
-   *Blaue Ozeane*
+   :alt: Blaue Ozeane
 
 Abschließend möchten wir die Farbe für die Landflächen abändern. Gehen Sie so wie eben vor, indem Sie zuvor den Layer der Länder auswählen. Gefällt Ihnen keine der Standardfarben, können Sie eine benutzerdefinierte Farben (``define custom colors``) selbst festlegen.
 
 .. image:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
    :scale: 70 %
-
-   *Definition der Farbe für Landflächen*
+   :alt: Definition der Farbe für Landflächen
 
 Dies ergibt einen angenehmere anzusehende Karte.
 
 .. image:: ../../images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :scale: 70 %
-
-   *Basis Weltkarte*
+   :alt: Basis Weltkarte
 
 Stil in |GS| hinzufügen
 ```````````````````````
@@ -204,8 +193,7 @@ Importieren Sie die zuvor in |UG| exportierten Dateien, der Inhalt wird jeweils 
 .. image:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :scale: 70 %
-
-   *Stil zu GeoServer hinzufügen*
+   :alt: Stil zu GeoServer hinzufügen
 
 
 Stil auf einen Layer anwenden
@@ -235,8 +223,7 @@ Seite und prüfen Sie, ob dieser gut aussieht.
     .. image:: ../../images/screenshots/800x600/geoserver-raster.png
         :align: center
         :scale: 70 %
-
-        *Adding a Raster*
+        :alt: Adding a Raster
 
     The click :guilabel:`Save` this will take you to the *New Layers
     Chooser* then click publish and :guilabel:`Save` to finish adding the

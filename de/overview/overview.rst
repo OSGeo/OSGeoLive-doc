@@ -15,13 +15,13 @@ Browser Anwendungen
 
 Krisenmanagement
 ----------------
-* :doc:`sahana_overview` - [`QuickStart <../quickstart/sahana_quickstart.html>`_] -Katastrophenmanagement
+* :doc:`sahana_overview` - [`QuickStart <../quickstart/sahana_quickstart.html>`_] - Katastrophenmanagement
 * :doc:`ushahidi_overview` - [`QuickStart <../quickstart/ushahidi_quickstart.html>`_] - Kartendarstellung und Zeitachsen für Ereignisse
 
 Datenbanken
 -----------
 * :doc:`postgis_overview` - Räumliche Databank
-* :doc:`spatialite_overview`- [`QuickStart <../quickstart/spatialite_quickstart.html>`_] - Leichtgewichtige Datenbank
+* :doc:`spatialite_overview` - [`QuickStart <../quickstart/spatialite_quickstart.html>`_] - Leichtgewichtige Datenbank
 * :doc:`rasdaman_overview` - [`QuickStart <../quickstart/rasdaman_quickstart.html>`_] - Multi-Dimensionale Datenbank für Rasterdaten
 * :doc:`pgrouting_overview` - [`QuickStart <../quickstart/pgrouting_quickstart.html>`_] - Routing für PostGIS
 
@@ -35,7 +35,7 @@ Desktop GIS
 * :doc:`openjump_overview` - [`QuickStart <../quickstart/openjump_quickstart.html>`_]
 * :doc:`saga_overview` - [`QuickStart <../quickstart/saga_quickstart.html>`_]
 * :doc:`ossim_overview` - [`QuickStart <../quickstart/ossim_quickstart.html>`_] - Bilddatenverarbeitung
-* :doc:`geopublisher_overview`- [`QuickStart <../quickstart/geopublisher_quickstart.html>`_] - Katalogdienst
+* :doc:`geopublisher_overview` - [`QuickStart <../quickstart/geopublisher_quickstart.html>`_] - Katalogdienst
 * :doc:`atlasstyler_overview` - [`QuickStart <../quickstart/atlasstyler_quickstart.html>`_] - Style Editor
 * :doc:`osgearth_overview` - [`QuickStart <../quickstart/osgearth_quickstart.html>`_] - 3D Terrain Rendering
 * :doc:`mb-system_overview` - [`QuickStart <../quickstart/mb-system_quickstart.html>`_] - Meeresboden Kartierung
@@ -48,7 +48,7 @@ Navigation und Karten
 * :doc:`osm_overview` - [`QuickStart <../quickstart/osm_quickstart.html>`_] - Open Street Map Werkzeuge
 * :doc:`prune_overview` - [`QuickStart <../quickstart/prune_quickstart.html>`_] - Anzeige, Bearbeitung und Konvertierung von GPS Tracks
 * :doc:`viking_overview` - [`QuickStart <../quickstart/viking_quickstart.html>`_] - GPS Datenanalyse und -anzeige
-* :doc:`zygrib_overview` - Weather Forecast Maps
+* :doc:`zygrib_overview` - Wettervorhersagekarten
 
 GIS Werkzeuge
 -------------

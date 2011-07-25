@@ -59,11 +59,11 @@ Sahana Eden
 Λεπτομέρειες
 ------------
 
-**Κεντρική ιστοσελίδα:http://eden.sahanafoundation.org/
+**Κεντρική ιστοσελίδα:** http://eden.sahanafoundation.org/
 
 **Άδεια:** MIT Άδεια
 
-**Έκδοση Λογισμικού.** 0.5.4
+**Έκδοση Λογισμικού:** 0.5.4
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OS X, Microsoft Windows
 
