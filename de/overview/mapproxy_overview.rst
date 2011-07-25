@@ -27,7 +27,7 @@ MapProxy ist weit mehr als nur eine Caching-Lösung. MapProxy bietet umfangreich
 MapProxy wird aktiv weiterentwickelt und wird unter `Apache Software Lizenz 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_ veröffentlicht. MapProxy ist auf Unix/Linux/Mac OS X und Windows lauffähig und zeichnet sich hierbei durch seine einfache Installation und Konfiguration aus.
 
 Funktionen von MapProxy
---------------------
+-----------------------
 
 .. image:: ../../images/screenshots/800x600/mapproxy_demo.png
   :width: 796
@@ -74,7 +74,7 @@ Weitere Funkionen:
   * und vieles mehr...
 
 Implementierte Standards
----------------------
+------------------------
 
 MapProxy unterstützt folgende offene Spezifikationen: 
 

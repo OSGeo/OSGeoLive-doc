@@ -50,7 +50,7 @@ Dieser Standard wird von einer Reihe von OGC Web Services genutzt, einschließli
 Filterbedingungen können für räumliche, zeitliche und skalare Eigenschaften angegeben werden. Ein Beispiel für einen räumlichen Filter ist: "Finde alle Grundstücke in Niedersachsen, die Monika Mustermann gehören." Ein zeitlicher Filter ist: "Finde alle Gebäude in Berlin, die vor 1900 gebaut wurden". Ein Beispiel für einen skalaren Filter ist: "Finde alle Temperatursensoren in Paris, die eine Temperatur zwischen 20 Grad und 24 Grad Celsius anzeigen."
 
 Siehe auch
----------
+----------
 
 .. Writing Tip:
   Describe Similar standard

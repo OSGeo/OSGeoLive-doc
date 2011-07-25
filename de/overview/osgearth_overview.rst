@@ -29,7 +29,7 @@ osgEarth unterstützt eine Vielzahl an Datenquellen und wird mit zahlreichen Bei
   :align: right
 
 Kernfunktionen
--------------
+--------------
 
 osgEarth ermöglicht das einfache Kreieren von skalierbaren Terrainmodellen:
 

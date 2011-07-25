@@ -49,7 +49,7 @@ spezifischen Anforderungen.
   :align: right
 
 Ausgewählte Features
----------------------
+--------------------
 
 * Web Map Service
 
@@ -94,7 +94,7 @@ Ausgewählte Features
 
 
 Implementierte Standards
----------------------
+------------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 in progress)

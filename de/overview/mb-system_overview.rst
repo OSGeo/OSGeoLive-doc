@@ -15,7 +15,7 @@ MB-System
 =========
 
 Meeresboden Mapping
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 MB-System ist ein Open Source Softwarepaket zur Prozessierung und Anzeige von 
  Meerestiefenmessungen und Rückstreuungsdaten (Backscatter imagery) die von
@@ -64,7 +64,7 @@ Details
 
 
 Schnellstart
----------------
+------------
 
 * `Schnellstart Dokumentation <../quickstart/mb-system_quickstart.html>`_
 

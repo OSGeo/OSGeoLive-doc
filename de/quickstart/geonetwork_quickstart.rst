@@ -51,7 +51,7 @@ Start |GN|
 .. figure:: ../../images/screenshots/800x600/geonetwork-returntohomepage.png
 
 Suchen
----------
+------
 
 Es gibt viele verschiedene den Katalog nach Karten und anderen Geodaten zu durchsuchen. Diese Anleitung gibt Ihnen eine Einleitung in die einfache, erweiterte Suche und in die Suche an Hand von Kategorien. Welche Suchmöglichkeit Sie auch wählen, die Suchergebnisse basieren immer auf den Rechten, die Ihnen zugewiesen sind (dazu später mehr).
 
@@ -95,7 +95,7 @@ Klicken Sie den *Suche* Button um die Suche zu starten und sich die Ergebnisse a
   *Der Suchbutton*
 
 Suchen an Hand von Kategorien
------------------------
+-----------------------------
 
 Ein anderer Weg um Daten zu suchen ist die Suche an Hand von **Kategorien**. Eine Liste von Kategorien wird dem Nutzer präsentiert: **Applikationen**, **Audio/Video**, **Fallstudien**, **Konferenz Ergebnisse**, **Datensets**, **Verzeichnisse**, **Interaktive Resourcen**, **Karten und Grafiken**, **Andere Resourcen**, **Photo**.
 
@@ -106,7 +106,7 @@ Wenn Sie nur nach Karten suchen, klicken Sie auf **Maps and Graphics**. Eine Lis
   *Suche an Hand von Kategorien*
   
 Erweiterte Suche
----------------
+----------------
 
 Die Optionen der erweiterten Suche funktionieren ähnlich der einfachen Suche. Sie können hier nur spezifischere Einschränkunen in den Suchparametern definieren. Dies folgt dem Muster: *Was?, Wo?, Wann?*
 
@@ -186,7 +186,7 @@ Sie erhalten nach Abschicken der Suche eine Liste der Metadatensätze, die auf I
         *großes Übersichtsbild*
 
 Privilegien, Rollen und Nutzergruppen
----------------------------------
+-------------------------------------
 
 |GN| nutzt ein System von *Privilegien*, *Rollen* und *Nutzergruppen*.
 
@@ -197,7 +197,7 @@ Es gibt keine Restriktionen für Nutzer beim Zugriff auf **öffenltiche Informat
     *Login*
 
 Weitere Informationen
-----------------
+---------------------
 
 Klicken Sie auf den 'Hilfe' Link im Banner von GeoNetwork oder direkt über diesen Link: http://localhost:8880/geonetwork/docs/deu/users/index.html
 

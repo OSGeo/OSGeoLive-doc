@@ -33,7 +33,7 @@ Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-An
 
 
 Kernfunktionen
--------------
+--------------
 
 * Web Map Service (WMS) Implementierung
 * Gute Integration mit dem Desktop GIS (QGIS)
@@ -42,7 +42,7 @@ Kernfunktionen
 * Fortgeschrittene kartographische Darstellung
 
 Implementierte Standards
----------------------
+------------------------
 
 * OGC Web Map Service (WMS) 1.3.0
 * OGC Styled Layer Descriptor (SLD) 1.0

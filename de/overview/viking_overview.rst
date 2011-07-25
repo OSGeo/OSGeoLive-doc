@@ -64,7 +64,7 @@ Details
 
 
 Schnellstart
-----------
+------------
 
 * `Schnellstart Dokumentation <../quickstart/viking_quickstart.html>`_
 

@@ -11,9 +11,9 @@
   :target: http://www.rasdaman.org
 
 
-********************
+*******************
 rasdaman Quickstart
-********************
+*******************
 
 rasdaman is a raster server allowing queries on n-D raster data stored in a standard relational database.
 

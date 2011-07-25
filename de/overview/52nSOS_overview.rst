@@ -12,7 +12,7 @@
 
 
 52°North SOS
-=============
+============
 
 Web Service
 ~~~~~~~~~~~
@@ -53,7 +53,7 @@ Der aktuelle 52°North SOS (Version 3.2.0) implementiert das sogenannte “Core 
 * Der SOS wird zusammen mit einem Browser-basierten Test-Client ausgeliefert, welcher Beispiel-Anfragen für alle SOS-Operationen enthält.
 
 Implementierte Standards
----------------------
+------------------------
 
 * `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
 
@@ -75,7 +75,7 @@ Details
 * **Community Website:** http://52north.org/communities/sensorweb/
 
 Quick-Start
-----------
+-----------
 
 * `Quick-Start Dokumentation <../quickstart/52nSOS_quickstart.html>`_
 

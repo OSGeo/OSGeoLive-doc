@@ -44,7 +44,7 @@ Sollten Sie Probleme haben Mapbender zu starten, prüfen Sie bitte, ob Ihr Apach
 
 
 Die Willkommensseite
-=====================
+====================
 
 #. Sie müssen sich anmelden, bevor Sie mit Mapbender arbeiten können.
 
@@ -138,12 +138,12 @@ Erzeugen Sie eine eigene individuelle Anwendung
 
 
 Anwendung umbenennen oder kopieren
-=============================
+==================================
 Sie können eine neue Anwendung auch als Kopie einer bestehenden Anwendung erzeugen. Wählen Sie den Link :menuselection:`Anwendungsverwaltung --> `Anwendung kopieren/umbenennen`, wählen Sie die Anwendung, die kopiert werden soll und geben Sie einen Namen für die neue Anwendung an.
 
 
 Anwendung löschen
-=====================
+=================
 Sie können eine Anwendung über :menuselection:`Anwendungsverwaltung --> Anwendung löschen` löschen. Dabei wird lediglich die Anwendung gelöscht. Die Dienste, die in der Anwendung eingebunden waren, liegen weiterhin vor.
 Sie haben nicht das Recht Anwendungen zu löschen, die noch anderen Benutzern zugewiesen sind.
 
@@ -366,7 +366,7 @@ Der nächste Schritt ist das Erzeugen einer WFS FeatureType-Konfiguration. Erst 
      :scale: 80 
 
 FeatureType-Konfiguration einer Anwendung zuordnen
-===================================================
+==================================================
 Ihre neue Konfiguration muss nun einer oder mehreren Anwendungen zugewiesen werden. Dies erfolgt über *WFS Verwaltung -> WFS Konfiguration GUI zuweisen*.
 
 #. Wählen Sie Ihren  WFS
@@ -411,7 +411,7 @@ Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
 
 Der nächste Schritt
-====================
+===================
 
 Dies war lediglich der erste Einstieg in Mapbender. Es gibt sehr viel mehr Funktionalität zu entdecken.
 

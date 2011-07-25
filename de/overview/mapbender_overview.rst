@@ -89,7 +89,7 @@ Details
 
 
 Schnellstart
----------------
+------------
 
 * `Schnellstart Dokumentation <../quickstart/mapbender_quickstart.html>`_
 

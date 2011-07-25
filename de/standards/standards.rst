@@ -7,11 +7,11 @@ Standards des Open GeoSpatial Consortiums
 =========================================
 
 Einführung
-------------
+----------
 Das Open Geospatial Consortium (OGC) wurde 1994 gegründet, um räumliche Informationen zu einem integralen Teil der globalen Informationsinfrastruktur zu machen. OGC Mitglieder – Technologieanbieter und -anwender - erarbeiten gemeinsam offene Standards für Schnittstellen und daran angegliederte Encoding Standards sowie Best Practices. Diese Standards ermöglichen es Entwicklern, Informationssysteme aufzubauen, die leicht räumliche Informationen und Anweisungen mit anderen Anwendungen austauschen können. Die Anforderungen reichen von komplexen zeitlichen Steuerungen oder der Kontrolle von erdbeobachtenden Satelliten bis zur Anzeige von einfachen Kartenbildern im Web, der Kodierung von Standorten in ein paar Bytes, sowie zum Geo-Tagging und zur Nachrichtenübermittlung. Ein Blick auf die OGC Arbeitsgruppen zeigt (http://www.opengeospatial.org/projects/groups/wg) die große Bandbreite der aktuellen Aktivitäten im OGC.
 
 OGC Grundlage und OGC Referenzmodell
-----------------------------------------
+------------------------------------
 
 Die Grundlage der OGC Standards besteht aus OGC Standards (http://www.opengeospatial.org/standards) für Schnittstellen, Kodierungen, Profile, Anwendungsschemata und Best Practice Dokumenten. 
 Das OGC Referenzmodell (ORM) (http://www.opengeospatial.org/standards/orm) beschreibt diese Standards und die Beziehungen der Standards zueinander und zu den ISO Standards. Das ORM bietet einen Überblick über die OGC Standards und dient als hilfreiche Quelle, wenn es darum geht, Architekturen für spezifische Anwendungen aufzubauen.
@@ -89,8 +89,8 @@ Die Abkürzungen in der Graphik werden weiter unten erklärt. Einige sind “OGC
   * Symbology Encoding (http://www.opengeospatial.org/standards/symbol)
   * Transducer Markup Language (TML) (http://www.opengeospatial.org/standards/tml)
 
-Weitere Informationen:
-----------------------
+Weiterführende Literatur
+------------------------
 
 * Vollständige Liste der OGC Standards: http://www.opengeospatial.org/standards/
 * OGC Tutorials präsentiert durch IGARSS 2010: http://www.ogcnetwork.net/node/1481 

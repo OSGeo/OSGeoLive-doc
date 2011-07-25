@@ -59,7 +59,7 @@ Einzelne SensorML Schemata beschreiben einen spezifischen Sensor oder eine Samml
 Es gibt viele Beispiele von SensorML Implementationen wie z.B. das NASA MSFC SMART program (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). In diesem Projekt entickelte das Team einen se Sensor Web-tauglichen Arbeitsablauf, um intelligent Temperatur und Feuchtigkeitsdaten von dem Atmospheric Infrared Sounder (AIRS) Satelliten in eine regionale Konfiguration das Wettermodells des Südostens der USA einzubringen.
 
 Siehe auch
---------
+----------
 
 .. Writing Tip:
   Describe Similar standard

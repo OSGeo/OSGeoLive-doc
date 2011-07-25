@@ -24,7 +24,7 @@ wurde aktiv seit 2006 entwickelt. Es basiert auf der bewährten medizinischen Bi
 ITK und ist Open Source.
 
 Kernfunktionen
--------------
+--------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.png
   :scale: 80 %
@@ -63,7 +63,7 @@ Details
 
 
 Schnellstart
----------------
+------------
 
 * `Schnellstart Dokumentation <../quickstart/otb_quickstart.html>`_
 

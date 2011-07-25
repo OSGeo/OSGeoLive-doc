@@ -29,7 +29,7 @@ Das Australian Government's Office of Spatial Data Management unterstützte LISA
 .. include :: sponsors_osgeo.rst
 
 Mitwirkende
-============
+===========
 .. include :: ../contributors.rst
 
 Übersetzer

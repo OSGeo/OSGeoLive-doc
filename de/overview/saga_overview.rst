@@ -69,7 +69,7 @@ Details
 
 
 Schnellstart
----------------
+------------
 
 * `Schnellstart Dokumentation <../quickstart/saga_quickstart.html>`_
 

@@ -10,9 +10,9 @@
   :align: right
   :target: http://52north.org/sos
   
-***********************
+************************
 52°North SOS Quick-Start 
-***********************
+************************
 
 Erste Schritte
 ==============

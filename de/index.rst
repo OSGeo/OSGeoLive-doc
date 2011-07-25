@@ -1,6 +1,6 @@
 
 Willkommen |osgeo-live-version|
-=====================
+===============================
 
 `OSGeo-Live <http://live.osgeo.org>`_ ist eine getrennt bootfähige DVD, ein USB-Stick 
 oder eine virtuelle Maschine basierend auf `Xubuntu <http://www.xubuntu.org/>`_, die Ihnen 

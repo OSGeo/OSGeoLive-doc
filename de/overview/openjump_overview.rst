@@ -26,7 +26,7 @@ Es ist außerdem sehr gut zur schnellen Entwicklung von Prototypen mit angepasst
   :align: center
 
 Kernfunktionen
--------------
+--------------
 
 * Datenformate
 

@@ -12,7 +12,7 @@
 
 
 52°North WPS
-=============
+============
 
 Web Service
 ~~~~~~~~~~~
@@ -29,7 +29,7 @@ bis hin zu komplizierten globalen Klimaänderungsmodellen.
   :align: right
 
 Kerneigenschaften
--------------
+-----------------
 
 GIS Kernfunktionen:
 
@@ -50,7 +50,7 @@ unterstützte Input- und Outputformate:
 Browserbasierter Client
 
 Implementierte Standards
----------------------
+------------------------
 
 * OGC Web Processing Service (WPS)
 * OGC GML2 SimpleFeatures

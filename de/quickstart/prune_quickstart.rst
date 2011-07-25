@@ -61,8 +61,8 @@ Prune braucht normalerweise nicht, installiert zu werden, aber es braucht einen 
 oder höher.  Die Funktionalität lässt sich erweitern wenn Sie zusätzlich andere freie Software installieren, wie
 zum Beispiel *Gpsbabel*, *Gnuplot*, *Exiftool* oder *Java3d*.
 
-Further reading
-===============
+Weiterführende Literatur
+========================
 
 * Prune Homeseite (englisch): http://activityworkshop.net/software/prune/
 * Bildschirmfotos: http://activityworkshop.net/software/prune/screenshots.html

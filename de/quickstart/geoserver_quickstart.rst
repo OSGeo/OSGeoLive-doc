@@ -243,8 +243,6 @@ Seite und prüfen Sie, ob dieser gut aussieht.
     raster. If you go to the Layers Preview page you
     can see the new image. 
 
-
-
 Clients für WMS Layer
 =====================
 

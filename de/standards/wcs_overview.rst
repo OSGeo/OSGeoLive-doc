@@ -48,7 +48,7 @@ Der OGC Web Coverage Service (WCS) Interface Standard ist ein Datenservice. Der 
 Wie auch bei anderen OGC Standards existieren eine Reihe hervorragender Beispiele von WCS Implementationen. Ein Beispiel ist der NDBC High Frequency (HF) Radar Web Coverage Service (WCS), entwickelt und betrieben von der US National Ocean and Atmosperic Administration (NOAA) (http://hfradar.ndbc.noaa.gov/). HF Radar wird genutzt, um auf der Entfernung die aktuelle Meeresoberfläche zu messen. Ein anderes Beispiel ist der National Aeronautical and Space Administration (NASA) WCS, um auf Atmospheric Infrared Sounder (AIRS) Data (http://idn.ceos.org/KeywordSearch/Metadata.do?Portal=webservices&KeywordPath=[Project%3A+Short_Name%3D%27EOS%27]&EntryId=NASA_GES_DISC_AIRS_Atmosphere_Data_Web_Coverage_Service&MetadataView=Full&MetadataType=1&lbnode=mdlb1) zuzugreifen. Dies ist eine Goddard Earth Systems Data and Information Service Center OGC WCS Instanz, welche Rasterdaten anbietet, die aus den AIRS Daten abgeleitet werden, welche an Bord des NASA Aqua Satelliten produziert werden.
 
 Siehe auch
---------
+----------
 
 .. Writing Tip:
   Describe Similar standard

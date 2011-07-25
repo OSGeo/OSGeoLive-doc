@@ -62,7 +62,7 @@ Details
 **Kommerzieller Support:** http://www.pgrouting.org
 
 Quickstart
-------------
+----------
 
 * `Quickstart Dokumentation <../quickstart/pgrouting_quickstart.html>`_
 

@@ -206,7 +206,7 @@ Beachten Sie dass dies eine sehr einfache Ansicht ist, die nur jeweils eine Punk
    :scale: 55 
 
 Eine Übung für Anwender - Ändern sie die Symbole und die Beschriftung der Punkt- und Linienlayer
-----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
    
 Ändern Sie Symbole, Farbe and Beschriftung für Flüsse und Städte so dass sie aussehen wie im folgenden Screenshot. Gehen Sie dazu den bisher beschriebenen Schritten entsprechend vor.
 
@@ -329,7 +329,7 @@ Speichern Ihres Projektes oder Schließen von gvSIG
    :scale: 55 
 
 Was kommt als nächstes...
-=====================
+=========================
 
 Deutschsprachige Dokumente und Tutorials finden neben vielen anderen Informationen im deutschen gvSIG wiki `gvSIG `<http://www.webmapping.info/mwgvsig/index.php?title=Hauptseite>`.
 

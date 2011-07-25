@@ -33,7 +33,7 @@ Es läuft unter Linux, Unix, Mac OS X und Windows und unterstützt eine Vielzahl
   :align: right
 
 Kernfunktionen
--------------
+--------------
 
 * Benutzerfreundliche grafische Oberfläche.
 
@@ -72,7 +72,7 @@ Kernfunktionen
 * erweiterbaren Plugin Architektur.
 
 Implementierte Standards
----------------------
+------------------------
 
 * OGC Standard kompatibel (WMS,WFS(Plugin))
 
@@ -95,6 +95,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart English) <../../en/quickstart/qgis_quickstart.html>`_
+* `Quickstart (English) <../../en/quickstart/qgis_quickstart.html>`_
 
 

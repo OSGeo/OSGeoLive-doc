@@ -21,7 +21,7 @@ GRASS GIS
 =========
 
 Voll funktionsfähiges GIS
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GRASS GIS (Geographic Resources Analysis Support System) ist ein Geographisches Informationssystem (GIS) und bietet umfangreiche Raster-, topologische Vektordaten-Funktionalität sowie Bildverarbeitung und Visualisierungsmöglichkeiten. GRASS stellt Werkzeuge für Geodaten Management, räumliche Modellierung, Visualisierung von Raster- und Vektordaten als auch Prozessierung von Satelliten- und Luftbilddaten zur Verfügung. Darüberhinaus ermöglicht es das Ertstellen anspruchsvoller Präsentationsgrafiken und druckfertiger Karten. GRASS wurde bisher in mehr als 20 Sprachen übersetzt und unterstützt eine Vielzahl unterschiedlichster Geodaten-Formate.
 
@@ -39,7 +39,7 @@ GRASS ist einfach zu skripten und vielseitig genug, um für das Batch Processing
 .. _GRASS: http://grass.osgeo.org
 
 Kernfunktionen
--------------
+--------------
 
 * Suche eine Funktionalität und GRASS bietet das passende Modul.
 * Entdecke die Screenshot Gallerie unter <http://grass.osgeo.org/screenshots/>`_.

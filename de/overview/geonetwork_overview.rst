@@ -44,7 +44,7 @@ Kernfunktionen
 * Anzeige eines zufälligen Metadatensatzes auf der Startseite
 
 Implementierte Standards
----------------------
+------------------------
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
