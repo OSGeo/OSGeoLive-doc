@@ -1,5 +1,5 @@
 Χορηγοί OSGeo-Live
-===================
+==================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :alt: LISAsoft
@@ -29,7 +29,7 @@
 .. include :: sponsors_osgeo.rst
 
 Συντελεστές
-============
+===========
 .. include :: ../contributors.rst
 
 Μεταφραστές

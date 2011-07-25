@@ -88,7 +88,7 @@ ZOO Project
 
 
 Γρήγορη εκκίνηση
-----------
+----------------
 
 * `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/zoo-project_quickstart.html>`_
 

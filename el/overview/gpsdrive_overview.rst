@@ -22,7 +22,7 @@ GpsDrive
 το `Gpsd <http://gpsd.berlios.de>`_.
 
 Βασικά Χαρακτηριστικά
--------------
+---------------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
@@ -42,7 +42,7 @@ GpsDrive
 * Ενσωμάτωση Kismet Wifi
 
 Λεπτομέρειες
--------
+------------
 
 **Κεντρική ιστοσελίδα:** http://www.gpsdrive.de
 
@@ -56,7 +56,7 @@ GpsDrive
 
 
 Γρήγορη εκκίνηση
-----------
+----------------
 
 * 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gpsdrive_quickstart.html>`_
 
