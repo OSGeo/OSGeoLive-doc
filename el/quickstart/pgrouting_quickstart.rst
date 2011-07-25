@@ -10,9 +10,9 @@
 	:align: right
 	:target: http://www.pgrouting.org
 
-********************
+***************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης pgRouting
-********************
+***************************************
 
 Το pgRouting είναι μια επέκταση στην `PostGIS <http://www.postgis.org>`_ στην οποία προσθέτει διαδικασίες δρομολόγησης στις `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
 
@@ -20,7 +20,7 @@
 
 
 Εκτελώντας το pgRouting
-=================
+=======================
 
 * Ανοίξτε ένα παράθυρο :menuselection:`Applications --> Accessories --> Terminal` και συνδεθείτε στην ``pgrouting`` βάση δεδομένων:
 

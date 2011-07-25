@@ -11,9 +11,9 @@
   :target: http://www.rasdaman.org
 
 
-********************
+*******************
 rasdaman Quickstart 
-********************
+*******************
 
 .. image:: ../../images/screenshots/800x600/rasdaman_apps_collage.jpg
   :scale: 50 %
