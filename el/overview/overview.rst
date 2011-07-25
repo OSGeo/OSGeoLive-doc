@@ -4,29 +4,29 @@
    contain the root `toctree` directive.
 
 Περιεχόμενα OSGeo-Live
-===================
+======================
 
 Λογισμικά διαδικτύου (Browser Clients)
----------------
+--------------------------------------
 * :doc:`openlayers_overview` - [`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart.html>`_] - Διαδικτυακή εφαρμογή GIS
 * :doc:`geomajas_overview` - [`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart.html>`_] - Διαδικτυακή εφαρμογή GIS
 * :doc:`mapbender_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart.html>`_] - Περιβάλλον ανάπτυξης Γεωπύλης
 * :doc:`mapfish_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart.html>`_] - Περιβάλλον διαδικτυακής Χαρτογράφιας
 
 Διαχείριση κρίσεων
------------------
+------------------
 * :doc:`sahana_overview` - [`Γρήγορη Εκκίνηση <../quickstart/sahana_quickstart.html>`_] - Διαχείριση καταστροφών
 * :doc:`ushahidi_overview` - [`Γρήγορη Εκκίνηση <../quickstart/ushahidi_quickstart.html>`_] - Χαρτοχράφηση και δημιουργία χρονοσειρών για γεγονότα
 
 Βάσεις Δεδομένων
----------
+----------------
 * :doc:`postgis_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/postgis_quickstart.html>`_] Χωρική Βάση Δεδομένων
 * :doc:`spatialite_overview`- [`Γρήγορη Εκκίνηση <../quickstart/spatialite_quickstart.html>`_] Βάση Δεδομένων με αρχεία
 * :doc:`rasdaman_overview` - [`Γρήγορη Εκκίνηση <../quickstart/rasdaman_quickstart.html>`_] - Πολυδιάστατη Βάση Πινακοποιημένων Δεδομένων
 * :doc:`pgrouting_overview` - [`Γρήγορη Εκκίνηση <../quickstart/pgrouting_quickstart.html>`_] - Δρομολόγηση για την PostGIS
 
 Λογισμικά GIS
------------
+-------------
 * :doc:`grass_overview` - [`Γρήγορη Εκκίνηση <../quickstart/grass_quickstart.html>`_]
 * :doc:`qgis_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/qgis_quickstart.html>`_]
 * :doc:`gvsig_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gvsig_quickstart.html>`_]
@@ -51,7 +51,7 @@
 * :doc:`zygrib_overview` -  - [`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart.html>`_] - Χάρτες πρόγνωσης καιρού
 
 Χωρικά Εργαλεία
--------------
+---------------
 * :doc:`gdal_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart.html>`_] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
 * :doc:`gmt_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart.html>`_] - Χαρτογραφική Σύνθεση
 * :doc:`mapnik_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart.html>`_] - Χαρτογραφική Σύνθεση
@@ -61,7 +61,7 @@
 * :doc:`geokettle_overview` - [`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart.html>`_] - Ενοποίηση δεδομένων
 
 Διαδικτυακές Υπηρεσίες
-------------
+----------------------
 * :doc:`deegree_overview`- [`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart.html>`_]
 * :doc:`geoserver_overview`- [`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart.html>`_]
 * :doc:`mapguide_overview`- [`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart.html>`_]
@@ -75,18 +75,19 @@
 * :doc:`tinyows_overview` - [`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart.html>`_] - WFS-T Service
 
 Γεωχωρικές Βιβλιοθήκες
---------------------
+----------------------
 * :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
 * :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
 
+Δεδομένα
+--------
+* :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
+
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
-----------------------------
+--------------------------------------------------------------------
  
 * `Προγράμματα εγκατάστασης Microsoft Windows <../WindowsInstallers/>`_
 * `Προγράμματα εγκατάστασης Apple OSX <../MacInstallers/>`_
 
-Δεδομένα
-----
-* :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
 
 .. include :: ../disclaimer.rst

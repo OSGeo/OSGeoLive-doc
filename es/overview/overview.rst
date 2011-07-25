@@ -4,7 +4,7 @@
    contener la directiva raiz `toctree`.
 
 Contenidos |osgeo-live-version|
-======================================
+===============================
 
 Clientes ligeros o de navegador Web
 -----------------------------------
@@ -61,7 +61,7 @@ Herramientas Espaciales
 * :doc:`geokettle_overview` - [`QuickStart <../quickstart/geokettle_quickstart.html>`_] - Integración de Datos
 
 Servicios Web
-------------
+-------------
 * :doc:`geoserver_overview` - [`QuickStart <../quickstart/geoserver_quickstart.html>`_]
 * :doc:`mapserver_overview` - [`QuickStart <../quickstart/mapserver_quickstart.html>`_]
 * :doc:`deegree_overview` - [`QuickStart <../quickstart/deegree_quickstart.html>`_]
@@ -74,13 +74,11 @@ Servicios Web
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Servicios Web de Geoprocesamiento
 
 Datos
-----
-
+-----
 * :doc:`naturalearth_overview` - Conjuntos de datos Geográficos
 
 Instaladores para Windows y Apple
 ---------------------------------
- 
 * `Instaladores Microsoft Windows <../WindowsInstallers/>`_
 * `Instaladores Apple OSX <../MacInstallers/>`_
 

@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 |osgeo-live-version| Contents
-===================
+=============================
 
 Browser Clients
 ---------------

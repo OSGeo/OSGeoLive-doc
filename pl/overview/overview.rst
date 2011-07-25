@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Zawartość |osgeo-live-version|
-===================
+==============================
 
 Klienci w przeglądarce internetowej
 -----------------------------------
@@ -85,7 +85,6 @@ Biblioteki geoprzesrzenne
 
 Instalatory dla Windows i Apple
 -------------------------------
- 
 * `Instalatory Microsoft Windows <../WindowsInstallers/>`_
 * `Instalatory Apple OSX <../MacInstallers/>`_
 .. include :: ../disclaimer.rst

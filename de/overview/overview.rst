@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 |osgeo-live-version| Inhaltsverzeichnis
-=============================
+=======================================
 
 Browser Anwendungen
 -------------------
@@ -14,7 +14,7 @@ Browser Anwendungen
 * :doc:`mapfish_overview` - [`QuickStart <../quickstart/mapfish_quickstart.html>`_] - Web Mapping Framework
 
 Krisenmanagement
------------------
+----------------
 * :doc:`sahana_overview` - [`QuickStart <../quickstart/sahana_quickstart.html>`_] -Katastrophenmanagement
 * :doc:`ushahidi_overview` - [`QuickStart <../quickstart/ushahidi_quickstart.html>`_] - Kartendarstellung und Zeitachsen für Ereignisse
 
@@ -41,7 +41,7 @@ Desktop GIS
 * :doc:`mb-system_overview` - [`QuickStart <../quickstart/mb-system_quickstart.html>`_] - Meeresboden Kartierung
 
 Navigation und Karten
---------------------
+---------------------
 * :doc:`gpsdrive_overview` - [`QuickStart <../quickstart/gpsdrive_quickstart.html>`_] - GPS Navigation
 * :doc:`marble_overview` - [`QuickStart <../quickstart/marble_quickstart.html>`_] - 3D Desktop Globus
 * :doc:`opencpn_overview` - [`QuickStart <../quickstart/opencpn_quickstart.html>`_] - Marine GPS Diagrammerzeugung
@@ -79,7 +79,6 @@ Daten
 
 Windows and Apple Installers
 ----------------------------
- 
 * `Microsoft Windows Installers <../WindowsInstallers/>`_
 * `Apple OSX Installers <../MacInstallers/>`_
 
