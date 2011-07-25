@@ -73,6 +73,10 @@ Internet Dienste
 * :doc:`52nSOS_overview` - [`QuickStart <../quickstart/52nSOS_quickstart.html>`_] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [`QuickStart <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
 
+Daten
+-----
+* :doc:`naturalearth_overview` - freie Geodaten
+
 Windows and Apple Installers
 ----------------------------
  
