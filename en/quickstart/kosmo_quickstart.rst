@@ -32,6 +32,7 @@ Start Kosmo Desktop
 In order to start the application, follow the next steps:
 
 * From the start menu, select *Other > Kosmo* (or from the desktop, go into *Desktop GIS* folder and double-click the Kosmo icon)
+
 * The application will take a few seconds to start (a splash screen is shown while loading)
 
   .. image:: ../../images/screenshots/800x600/kosmo_splash_screen.png
@@ -45,6 +46,7 @@ In order to start the application, follow the next steps:
   .. image:: ../../images/screenshots/800x600/kosmo_select_srs.png
 
 * Select the option *EPSG* in the SRS type combobox (**1**), insert the text `4236` in the text field and press the *Search* button (**2**)
+
 * Select the SRS EPSG:4326 - WSG4 (**3**) and press the *Ok* button (**4**)
 
   .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4236.png
@@ -64,12 +66,15 @@ The Kosmo Desktop main window has the following sections:
   .. image:: ../../images/screenshots/1024x768/kosmo_main_window.jpg
 
 * Main menus
+
 * Main toolbar
+
 * Layer tree
 
   Tree that contains the categories and layers that have been loaded in the current view.
 
 * Map  
+
 * Status bar
 
   Shows the application warning messages to the user.
@@ -87,24 +92,32 @@ Files
 To start out, we're going to load some of the sample data included on the LiveDVD:
 
 #. Choose the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
+
 #. In the *Format* combobox, select *Shapefile* (**1**)
+
 #. In the file chooser, select the file `10m_admin_0_countries.shp` from the directory `/usr/local/share/data/natural_earth` (**2**)
+
 #. Press the *Ok* button to load the selected shapefile (**3**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_select_shape_file.png
+   .. image:: ../../images/screenshots/800x600/kosmo_select_shape_file.png
 
 #. In the layer tree, press the visibility checkbox to make the layer visible
+
 #. Choose again the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
+
 #. In the *Format* combobox, select *Image file* (**1**)
+
 #. In the file chooser, select the file `HYP_50M_SR_W.tif` from the directory `/usr/local/share/data/natural_earth/HYP_50M_SR_W` (**2**)
+
 #. Press the *Ok* button to load the selected image file (**3**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_select_raster_file.png
+   .. image:: ../../images/screenshots/800x600/kosmo_select_raster_file.png
 
 #. In the layer tree, press the visibility checkbox to make the layer visible
+
 #. You can see that the layer drawing order is from bottom to top in the layer tree: modify the layer order by dragging them in order to show them properly
 
-  .. image:: ../../images/screenshots/1024x768/kosmo_load_file_example.jpg
+   .. image:: ../../images/screenshots/1024x768/kosmo_load_file_example.jpg
 
 .. note::
   The LiveDVD contains some file data examples in the following directories:
@@ -124,53 +137,66 @@ Databases
 We're going to load a database table as an example:
 
 #. Choose the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
+
 #. In the *Format* combobox, select *Database* (**1**)
+
 #. Fill the fields host, port, database name, user name and password with the values:
 
-  * Host: localhost
-  * Port: 5432
-  * Database name: natural_earth
-  * User name: user
-  * Password: user        
+   * Host: localhost
+     
+   * Port: 5432
+    
+   * Database name: natural_earth
+    
+   * User name: user
+    
+   * Password: user        
 
 #. Press the *Connect* button to load the tables present at the *natural_earth* database (**2**)
+
 #. Select the checkbox corresponding to the table *10m_populated_places_simple* (**3**)
+
 #. Press the *Ok* button to load the selected database table (**4**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_database_connection.png
+   .. image:: ../../images/screenshots/800x600/kosmo_database_connection.png
   
 #. In the layer tree, press the visibility checkbox to make the layer visible
 
-  .. image:: ../../images/screenshots/1024x768/kosmo_load_database_example.jpg
+   .. image:: ../../images/screenshots/1024x768/kosmo_load_database_example.jpg
 
 
 OGC services
 ------------
 
 #. Start the GeoServer WMS included in the LiveDVD by selecting the option *Education > Start GeoServer* (or from the desktop, go into *Web Services* folder and double-click the Start Geoserver icon)
+
 #. Press the *Load SDI Service* button at the main toolbar to open the wizard
+
 #. In the *Select SDI service type* panel, select the option *WMS Service* (**1**) and press the *Next* button (**2**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_wms_1.png
+   .. image:: ../../images/screenshots/800x600/kosmo_wms_1.png
 
 #. In the *Select Uniform Resource Locator (URL)*, type the URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 (**1**) in the corresponding text field and press the *Connect* button (**2**)
+
 #. If the connection is successful, press the *Next* button to go to the next panel (**3**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_wms_2.png
+   .. image:: ../../images/screenshots/800x600/kosmo_wms_2.png
 
 #. Select the layer `North America Sample Imagery` (**1**) and press the *>* button (**2**) to move it to the right list. Press *Next* button. (**3**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_wms_3.png
+   .. image:: ../../images/screenshots/800x600/kosmo_wms_3.png
 
 #. Leave the default options loaded and press the *Finish* button to start the layer loading
 
-  .. image:: ../../images/screenshots/800x600/kosmo_wms_4.png
+   .. image:: ../../images/screenshots/800x600/kosmo_wms_4.png
 
 #. In the layer tree, press the visibility checkbox to make the layer visible
+
 #. Select the layer in the layer tree and press the *Zoom To Layer* button to center the map in the WMS layer view
+
 #. Reorder the layer tree by dragging the new layer and put it over the *HYP_50M_SR_W* raster layer
 
-  .. image:: ../../images/screenshots/1024x768/kosmo_load_wms_results.jpg
+   .. image:: ../../images/screenshots/1024x768/kosmo_load_wms_results.jpg
 
 
 .. note::
@@ -254,27 +280,36 @@ Styling
 In this section we're going to style a layer by range using the country population as styling attribute:
 
 #. Select the layer `10m_admin_0_countries` in the layer tree
+
 #. Right click on it and select the option *Simbology > Change Styles...*
+
 #. Click on the tab `Colour theming`
+
 #. Activate the options *Enable colour theming* and *by range* (**1**)
+
 #. Select `POP_CNTRY` as *Attribute* (**2**), 8 as *Range count* (**3**) and RYG (Color Brewer) as *Color schema* (**4**)
+
 #. Press the *Ok* button to apply the changes (**5**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_basic_style_classification.png
+   .. image:: ../../images/screenshots/800x600/kosmo_basic_style_classification.png
 
 #. The layer will change its style to reflect the changes:
 
-  .. image:: ../../images/screenshots/1024x768/kosmo_styled_layer_by_range.jpg
+   .. image:: ../../images/screenshots/1024x768/kosmo_styled_layer_by_range.jpg
 
 
 Things to Try
 =============
 
 * Use the advanced style editor (`Symbology > Advanced style editor...`) to create more complex styles
+
 * Use the `Query wizard` to select those features that accomplish a given criteria
+
 * Activate the layer edition mode and use the available tools to edit it
-* Generate a set of topology rules for a layer and try to edit it   
-* Activate the set of extensions that form part of the application and see the new tools that are present           
+
+* Generate a set of topology rules for a layer and try to edit it
+
+* Activate the set of extensions that form part of the application and see the new tools that are present
 
 
 What Next?
