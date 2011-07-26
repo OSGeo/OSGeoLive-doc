@@ -12,18 +12,19 @@
 MapProxy
 ========
 
-Servicio de caché de tiles 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Servicio de tiles y Proxy WMS 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapProxy es un proxy para datos geoespaciales. Cachea, acelera y transforma datos provenientes de servicios de mapas existentes y los sirve a cualquier cliente de escritorio o web.
+MapProxy acelera las aplicaciones de mapas a través de la pregeneración de tiles integrando múltiples fuentes de datos y almacenándolos en una caché local.
+Las capas pueden hacerse transparentes, se pueden cambiar las proyecciones, se pueden convertir múltiples capas en una sola, se pueden agregar marcas de agua, y más!
+
+MapProxy es flexible y soluciona tanto simples, como complejos casos de uso: desde una simple caché para una aplicación web con OpenLayers hasta un nodo central de IDE que combina, unifica y acelera docenas de servicios WMS distribuidos.
+
+Algunos ejemplos del mundo real: MapProxy es usado por el atlas de banda ancha alemán para proveer mapas a miles de usuarios lo más rápido posible y la Agencia Federal Alemana de Cartografía y Geodesia usa MapProxy para incorporar servicios WMS de los 16 estados.
 
 .. image:: ../../images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
-  :align: center
-
-MapProxy no es sólo una solución de caché, también ofrece muchas funcionalidades nuevas e innvodoras como el soporte completo para clientes WMS.
-
-MapProxy está en desarrollo y se publica bajo licencia `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_, corre en Unix/Linux/Mac OS X y Windows, y es muy fácil de instalar y configurar. 
+  :align: right
 
 Funcionalidades de MapProxy
 ---------------------------
@@ -67,6 +68,9 @@ Funcionalidades WMS:
   * Convierte versiones de WMS y formatos de imagen
 
 Otras funcionalidades:
+  * Formato de configuración simple pero poderos (YAML/JSON)
+  * Demo de cliente basado en OpenLayers (ver a la derecha)
+  * Corre múltiples servicios WMS en una instancia de MapProxy
   * Agrega texto de atribución a las imágenes
   * Soporta datos raster que no son imágenes como los MDTs (Modelos Digitales de Terreno)
   * Soporta autorización personalizada con control de alta granularidad sobre servicios y capas.
@@ -81,19 +85,6 @@ MapProxy implementa las siguientes especificaciones abiertas:
 * OGC WMTS 1.0.0
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
-
-
-Demo
-----
-
-* Iniciar MapProxy (*Geospatial* --> *Servicios Web* --> *Iniciar MapProxy*)
-* `Abrir demo en Firefox <http://localhost:8011/demo>`_
-
-Documentación
--------------
-
-* `Documentación de MapProxy 1.1.1 <../../mapproxy/index.html>`_
-
 
 Detalles
 --------
