@@ -5,9 +5,9 @@
 .. _geopublisher-quickstart:
  
 .. image:: ../../images/project_logos/logo-Geopublisher.png
-  :scale: 100 %Κλίμακα:100%
-  :alt: project logoalt:
-  :align: rightΣτοίχιση: Δεξιά
+  :scale: 100 %
+  :alt: project logo
+  :align: right
   :target: http://en.geopublishing.org/Geopublisher
 
 ******************************************

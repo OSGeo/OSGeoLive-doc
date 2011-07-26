@@ -5,9 +5,9 @@
 .. _mapguide-quickstart:Οδηγός γρήγορου ξεκινήματος mapguide
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
-  :scale: 100 %Κλίμακα:100%
-  :alt: project logoalt:Λογότυπο του τμήματος
-  :align: rightΣτοίχιση: Δεξιά 
+  :scale: 100 %
+  :alt: project logo
+  :align: right 
 
 Εγχειρίδιο Γρήγορης Εκκίνησης MapGuide
 ======================================

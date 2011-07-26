@@ -9,9 +9,9 @@
 .. _mapbender-quickstart:
  
 .. image:: ../../images/project_logos/logo-Mapbender.png
-  :scale: 100 %Κλίμακα:100%
-  :alt: project logoalt:Λογότυπο του τμήματος
-  :align: rightΣτοίχιση: Δεξιά
+  :scale: 100 %
+  :alt: project logo
+  :align: right
 
 ***************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης Mapbender 
@@ -90,7 +90,7 @@
 .. Χρήσιμη συμβουλή: Μπορείτε να επιστρέψετε στην επισκόπηση της εφαρμογής πατώντας το κουμπί |HOME|.
 
   .. |HOME| image:: ../../images/screenshots/800x600/mapbender_home.png
-     :scale: 100Κλίμακα:100%
+     :scale: 100
 
 Χαρτογραφικές εφαρμογές
 =======================
@@ -189,7 +189,7 @@ WMS εφαρμογές
 #. Τί συμβαίνει εάν ο χρήστης έχει πρόσβαση σε μία ή περισσότερες εφαρμογές
 
   .. |LOGOUT| image:: ../../images/screenshots/800x600/mapbender_logout.png
-     :scale: 100Κλίμακα:100%
+     :scale: 100
 
 Θέματα προς περαιτέρω μελέτη
 ============================

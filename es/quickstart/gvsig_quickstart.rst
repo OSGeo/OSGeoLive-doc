@@ -66,7 +66,7 @@ Abrir el diálogo de propiedades de la vista
    abrirá el diálogo de nuevo SRS (**New CRS**).
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_002.png
-   :scale: 55 4
+   :scale: 55 
 
 Definir el Sistema de Referencia
 --------------------------------

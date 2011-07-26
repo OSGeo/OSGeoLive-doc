@@ -236,6 +236,7 @@ Clients für WMS Layer
 Eine große Anzahl von Clients unterstützt den :doc:`WMS Standard <../standards/wms_overview>` 
 und kann die vom |GS| veröffentlichen Daten verarbeiten.
 Hier eine kleine Auswahl:
+
     * :doc:`uDig <../overview/udig_overview>`
     * :doc:`OpenLayers <../overview/openlayers_overview>`
     * :doc:`Atlas Styler <../overview/atlasstyler_overview>` 

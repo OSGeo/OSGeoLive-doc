@@ -10,9 +10,9 @@
 	:align: right
 	:target: http://www.pgrouting.org
 
-********************
+************************************
 Guía de inicio rápido para pgRouting 
-********************
+************************************
 
 pgRouting es una extensión de `PostGIS <http://www.postgis.org>`_ la cual añade funcionalidades de ruteo a `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
 
@@ -20,7 +20,7 @@ Esta guía de inicio rápido describe cómo abrir una base de datos desde la lí
 
 
 Ejecución de pgRouting
-=================
+======================
 
 * Abra una ventana de terminal :menuselection:`Aplicaciones --> Accesorios --> Ventana de Terminal` y conéctese a la base de datos de ``pgrouting`` :
 
@@ -88,13 +88,13 @@ Ejecución de pgRouting
 
 
 ¿Y ahora qué?
-==========
+=============
 
 * **Sitio web de pgRouting** - Visite el sitio web del proyecto http://www.pgrouting.org para aprender más sobre pgRouting.
 
 * **Taller en DVD** - Incluido en el LiveDVD del FOSS4G 2010 pgRouting workshop `"FOSS4G ruteo con herramientas de pgRouting, OpenStreetMap datos de vías y GeoEx"`, disponibles en: :file:`/usr/share/pgrouting/workshop/`
 
-.. Nota::
+.. note::
 
 	Para actualizar a la última versión del tutorial, abra una ventana de terminal, a continuación, ejecute ``sudo apt-get update && apt-get upgrade pgrouting-workshop``
 

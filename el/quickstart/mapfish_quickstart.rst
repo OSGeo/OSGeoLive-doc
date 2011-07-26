@@ -5,9 +5,9 @@
 .. _mapfish-quickstart:Οδηγίες γρήγορου ξεκινήματος mapfish
  
 .. image:: ../../images/project_logos/logo-mapfish.png
-  :scale: 100 %Κλίμακα:100%
-  :alt: project logoalt:Λογότυπο του τμήματος
-  :align: rightΣτοίχιση: Δεξιά
+  :scale: 100 %
+  :alt: project logo
+  :align: right
   :target: http://www.mapfish.org
 
 
