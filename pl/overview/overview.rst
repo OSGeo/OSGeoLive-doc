@@ -8,71 +8,71 @@ Zawartość |osgeo-live-version|
 
 Klienci w przeglądarce internetowej
 -----------------------------------
-* :doc:`openlayers_overview` - [`Wprowadzenie <../quickstart/openlayers_quickstart.html>`_]
-* :doc:`geomajas_overview` - [`Wprowadzenie <../quickstart/geomajas_quickstart.html>`_]
-* :doc:`mapbender_overview` - [`Wprowadzenie <../quickstart/mapbender_quickstart.html>`_]
-* :doc:`mapfish_overview` - [`Wprowadzenie <../quickstart/mapfish_quickstart.html>`_]
+* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`]
+* :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`]
+* :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`]
+* :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`]
 
 Zarządzanie kryzysowe
 ---------------------
-* :doc:`sahana_overview` - [`Wprowadzenie <../quickstart/sahana_quickstart.html>`_] - zarządzanie pomocą w czasie katastrof
-* :doc:`ushahidi_overview` - [`Wprowadzenie <../quickstart/ushahidi_quickstart.html>`_] - mapy zdarzeń oraz ciągi czasowe
+* :doc:`sahana_overview` - [:doc:`Wprowadzenie <../quickstart/sahana_quickstart>`] - zarządzanie pomocą w czasie katastrof
+* :doc:`ushahidi_overview` - [:doc:`Wprowadzenie <../quickstart/ushahidi_quickstart>`] - mapy zdarzeń oraz ciągi czasowe
 
 Systemy zarządzania bazami danych
 ---------------------------------
-* :doc:`postgis_overview` - [`Wprowadzenie <../quickstart/postgis_quickstart.html>`_] - przestrzenna baza danych
-* :doc:`spatialite_overview` - [`Wprowadzenie <../quickstart/spatialite_quickstart.html>`_] - lekka przestrzenna baza danych
-* :doc:`rasdaman_overview` - [`Wprowadzenie <../quickstart/rasdaman_quickstart.html>`_] - baza danych wielowymiarowych rastrów
-* :doc:`pgrouting_overview` - [`Wprowadzenie <../quickstart/pgrouting_quickstart.html>`_] - trasowanie dla PostGIS
+* :doc:`postgis_overview` - [:doc:`Wprowadzenie <../quickstart/postgis_quickstart>`] - przestrzenna baza danych
+* :doc:`spatialite_overview` - [:doc:`Wprowadzenie <../quickstart/spatialite_quickstart>`] - lekka przestrzenna baza danych
+* :doc:`rasdaman_overview` - [:doc:`Wprowadzenie <../quickstart/rasdaman_quickstart>`] - baza danych wielowymiarowych rastrów
+* :doc:`pgrouting_overview` - [:doc:`Wprowadzenie <../quickstart/pgrouting_quickstart>`] - trasowanie dla PostGIS
 
 Desktop GIS
 -----------
-* :doc:`grass_overview` - [`Wprowadzenie <../quickstart/grass_quickstart.html>`_]
-* :doc:`qgis_overview` - [`Wprowadzenie <../quickstart/qgis_quickstart.html>`_]
-* :doc:`gvsig_overview` - [`Wprowadzenie <../quickstart/gvsig_quickstart.html>`_]
-* :doc:`udig_overview` - [`Wprowadzenie <../quickstart/udig_quickstart.html>`_]
-* :doc:`kosmo_overview` - [`Wprowadzenie <../quickstart/kosmo_quickstart.html>`_]
-* :doc:`openjump_overview` - [`Wprowadzenie <../quickstart/openjump_quickstart.html>`_]
-* :doc:`saga_overview` - [`Wprowadzenie <../quickstart/saga_quickstart.html>`_]
-* :doc:`ossim_overview` - [`Wprowadzenie <../quickstart/ossim_quickstart.html>`_] - przetwarzanie zobrazowań 
-* :doc:`geopublisher_overview`- [`Wprowadzenie <../quickstart/geopublisher_quickstart.html>`_] - atlasy multimedialne
-* :doc:`atlasstyler_overview` - [`Wprowadzenie <../quickstart/atlasstyler_quickstart.html>`_] - edytor stylów (SLD)
-* :doc:`osgearth_overview` - [`Wprowadzenie <../quickstart/osgearth_quickstart.html>`_] - renderowanie powierzchni terenu w 3D
-* :doc:`mb-system_overview` - [`Wprowadzenie <../quickstart/mb-system_quickstart.html>`_] - mapy dna morza
+* :doc:`grass_overview` - [:doc:`Wprowadzenie <../quickstart/grass_quickstart>`]
+* :doc:`qgis_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_quickstart>`]
+* :doc:`gvsig_overview` - [:doc:`Wprowadzenie <../quickstart/gvsig_quickstart>`]
+* :doc:`udig_overview` - [:doc:`Wprowadzenie <../quickstart/udig_quickstart>`]
+* :doc:`kosmo_overview` - [:doc:`Wprowadzenie <../quickstart/kosmo_quickstart>`]
+* :doc:`openjump_overview` - [:doc:`Wprowadzenie <../quickstart/openjump_quickstart>`]
+* :doc:`saga_overview` - [:doc:`Wprowadzenie <../quickstart/saga_quickstart>`]
+* :doc:`ossim_overview` - [:doc:`Wprowadzenie <../quickstart/ossim_quickstart>`] - przetwarzanie zobrazowań 
+* :doc:`geopublisher_overview`- [:doc:`Wprowadzenie <../quickstart/geopublisher_quickstart>`] - atlasy multimedialne
+* :doc:`atlasstyler_overview` - [:doc:`Wprowadzenie <../quickstart/atlasstyler_quickstart>`] - edytor stylów (SLD)
+* :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
+* :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
 
 Nawigacja i Mapy
 ----------------
-* :doc:`gpsdrive_overview` - [`Wprowadzenie <../quickstart/gpsdrive_quickstart.html>`_] - nawigacja GPS 
-* :doc:`marble_overview` - [`Wprowadzenie <../quickstart/marble_quickstart.html>`_] - wirtualny glob na KDE
-* :doc:`opencpn_overview` - [`Wprowadzenie <../quickstart/opencpn_quickstart.html>`_] - GPS do zastosowań marynistycznych
-* :doc:`osm_overview` - [`Wprowadzenie <../quickstart/osm_quickstart.html>`_] - narzędzia Open Street Map
-* :doc:`prune_overview` - [`Wprowadzenie <../quickstart/prune_quickstart.html>`_] - przeglądanie, edycja i konwersja śladów GPS
-* :doc:`viking_overview` - [`Wprowadzenie <../quickstart/viking_quickstart.html>`_] - przeglądanie i analiza danych GPS
-* :doc:`zygrib_overview` - [`QuickStart <../quickstart/zygrib_quickstart.html>`_] - mapy prognoz pogody
+* :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
+* :doc:`marble_overview` - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - wirtualny glob na KDE
+* :doc:`opencpn_overview` - [:doc:`Wprowadzenie <../quickstart/opencpn_quickstart>`] - GPS do zastosowań marynistycznych
+* :doc:`osm_overview` - [:doc:`Wprowadzenie <../quickstart/osm_quickstart>`] - narzędzia Open Street Map
+* :doc:`prune_overview` - [:doc:`Wprowadzenie <../quickstart/prune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
+* :doc:`viking_overview` - [:doc:`Wprowadzenie <../quickstart/viking_quickstart>`] - przeglądanie i analiza danych GPS
+* :doc:`zygrib_overview` - [:doc:`Wprowadzenie <../quickstart/zygrib_quickstart>`] - mapy prognoz pogody
 
 Narzędzia przestrzenne
 ----------------------
-* :doc:`gdal_overview`  - [`Wprowadzenie <../quickstart/gdal_quickstart.html>`_] - GeoSpatial Data Translation Tools
-* :doc:`gmt_overview` - [`Wprowadzenie <../quickstart/gmt_quickstart.html>`_] - wizualizacja kartograficzna
-* :doc:`mapnik_overview` - [`Wprowadzenie <../quickstart/mapnik_quickstart.html>`_] - redakcja kartograficzna
-* :doc:`otb_overview` - [`Wprowadzenie <../quickstart/otb_quickstart.html>`_] - przetwarzanie zobrazowań
-* :doc:`maptiler_overview` - [`Wprowadzenie <../quickstart/maptiler_quickstart.html>`_] - tworzenie kafli map
-* :doc:`R_overview` - [`Wprowadzenie <../quickstart/R_quickstart.html>`_] - programowanie statystyczne
-* :doc:`geokettle_overview` - [`Wprowadzenie <../quickstart/geokettle_quickstart.html>`_] - integracja danych
+* :doc:`gdal_overview`  - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - GeoSpatial Data Translation Tools
+* :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
+* :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
+* :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
+* :doc:`maptiler_overview` - [:doc:`Wprowadzenie <../quickstart/maptiler_quickstart>`] - tworzenie kafli map
+* :doc:`R_overview` - [:doc:`Wprowadzenie <../quickstart/R_quickstart>`] - programowanie statystyczne
+* :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
 
 Usługi sieciowe
 ---------------
-* :doc:`deegree_overview` - [`Wprowadzenie <../quickstart/deegree_quickstart.html>`_]
-* :doc:`geoserver_overview` - [`Wprowadzenie <../quickstart/geoserver_quickstart.html>`_]
-* :doc:`mapguide_overview` - [`Wprowadzenie <../quickstart/mapguide_quickstart.html>`_]
-* :doc:`mapserver_overview` - [`Wprowadzenie <../quickstart/mapserver_quickstart.html>`_]
-* :doc:`qgis_mapserver_overview` - [`Wprowadzenie <../quickstart/qgis_mapserver_quickstart.html>`_] - Web Map Service
-* :doc:`mapproxy_overview` - [`Wprowadzenie <../quickstart/mapproxy_quickstart.html>`_]
-* :doc:`geonetwork_overview` - [`Wprowadzenie <../quickstart/geonetwork_quickstart.html>`_] katalog metadanych i sieciowe usługi katalogowe
-* :doc:`52nWPS_overview`  - [`Wprowadzenie <../quickstart/52nWPS_quickstart.html>`_] - Web Processing Service
-* :doc:`52nSOS_overview` - [`Wprowadzenie <../quickstart/52nSOS_quickstart.html>`_] - Sensor Observation Service
-* :doc:`zoo-project_overview` - [`Wprowadzenie <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
-* :doc:`tinyows_overview` - [`Wprowadzenie <../quickstart/tinyows_quickstart.html>`_] - WFS-T Service
+* :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
+* :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
+* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
+* :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
+* :doc:`qgis_mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
+* :doc:`mapproxy_overview` - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`]
+* :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] katalog metadanych i sieciowe usługi katalogowe
+* :doc:`52nWPS_overview`  - [:doc:`Wprowadzenie <../quickstart/52nWPS_quickstart>`] - Web Processing Service
+* :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
+* :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
 Dane
 ----
