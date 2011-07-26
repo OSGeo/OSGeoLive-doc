@@ -18,7 +18,7 @@ Natural Earth
 Kartendaten
 ~~~~~~~~~~~
 
-Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von Karten kleiner bis mittlerer Maßstäbe (1:110-, 1:50- und 1:10-Millionen) zur Verfügung. Es sind sowohl politische (administrative) und physische (natürliche) Merkmale, also auch Vektordaten, die perfekt zu den Rasterdaten in Deckung gebracht sind, enthalten.
+Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von Karten kleiner bis mittlerer Maßstäbe (1:110-, 1:50- und 1:10-Millionen) zur Verfügung. Es sind sowohl politische (administrative) und physische (natürliche) Merkmale, als auch Vektordaten, die perfekt zu den Rasterdaten in Deckung gebracht sind, enthalten.
 
 Natural Earth löst das weitverbreitete Problem von Kartographen: Das Finden von Vektordaten zum Erstellen von Karten kleinerer Maßstäbe, mit entsprechender Qualität für Publikationen und dem gewünschten Detaillierungsgrad.
 
@@ -32,7 +32,7 @@ Kernfunktionen
 
 * Vektordaten mit Namen und weiteren Attributen für jedes Objekt
 * Große Polygone, z.B. bei den Bathymetrie-Daten, wurden in mehrere Objekte aufgeteilt, um die Daten effizient handhaben zu können. 
-* Vektordaten enden perfekt beim +/- 180 Längengrad, um keine Schwierigkeiten für Projektionen hervorzurufen. Linien enthalten so viel Informationen, damit diese bei konischen Projektionen ruhig verlaufend dargestellt werden können. Dies ist jedoch soweit begrenzt, dass der Computer diese noch verarbeiten kann.
+* Vektordaten enden perfekt beim +/- 180 Längengrad, um keine Schwierigkeiten für Projektionen hervorzurufen. Linien haben entsprechend viele Stützpunkte, um bei konischen Projektionen ruhig verlaufend dargestellt werden zu können. Die maximale Anzahl der Punkte ist jedoch so gewählt, dass ein Computer diese verarbeiten kann, ohne an seine Grenzen zu stoßen.
 * Rasterdaten enthalten graustufen-geschummerte Reliefe und über kreuz verschnittene hypsometrische Schattierungen, abgeleitet aus den letzten NASA SRTM Plus Höhendaten und angepasst auf die Natural Earth Vektordaten.
 * Optimiert für webbasierte Kartenanwendungen, wie z.B. Google oder Yahoo, und mit enthaltenen Maßstabsinformationen, um kenntlich zu machen, bei welchen Maßstäben bzw. Zoomlevel Objekte dargestellt werden sollen.
 
