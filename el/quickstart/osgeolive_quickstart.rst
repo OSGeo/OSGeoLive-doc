@@ -1,8 +1,8 @@
 
-:Συγγραφέας: OSGeo-Live
-:Συγγραφέας: Cameron Shorter
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Cameron Shorter
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _osgeolive-install-quickstart:
  

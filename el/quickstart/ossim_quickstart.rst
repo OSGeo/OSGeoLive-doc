@@ -1,8 +1,8 @@
-:Συγγραφέας: OSGeo-Live
-:Συγγραφέας: Massimo Di Stefano
-:Συγγραφέας: Pirmin Kalberer
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Massimo Di Stefano
+:Author: Pirmin Kalberer
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _ossim-quickstart:
  

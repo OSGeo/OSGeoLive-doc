@@ -1,6 +1,6 @@
-:Συγγραφέας: Johannes Wilden
-:Έκδοση: osgeo-live5.0
-:Άδεια: Creative Commons
+:Author: Johannes Wilden
+:Version: osgeo-live5.0
+:License: Creative Commons
 
 .. _deegree-overview:
 

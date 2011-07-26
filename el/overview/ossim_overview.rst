@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _ossim-overview:
 

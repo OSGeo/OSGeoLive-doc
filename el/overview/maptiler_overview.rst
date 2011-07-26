@@ -1,6 +1,6 @@
-:Συγγραφέας: Klokan Petr Pridal
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Klokan Petr Pridal
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _maptiler-overview:
 

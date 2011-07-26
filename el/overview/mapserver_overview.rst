@@ -1,6 +1,6 @@
-:Συγγραφέας: Alan Boudreault
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Alan Boudreault
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _mapguide-overview:
 

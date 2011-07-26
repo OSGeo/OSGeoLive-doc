@@ -1,9 +1,9 @@
-:Συγγραφέας: OSGeo-Live
-:Συγγραφέας: Jody Garnett
-:Συγγραφέας: Micheal Bedward
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
-:Ευχαριστείες: geotools-user list
+:Author: OSGeo-Live
+:Author: Jody Garnett
+:Author: Micheal Bedward
+:Version: osgeo-live4.0
+:License: Creative Commons
+:Thanks: geotools-user list
 
 .. _udig-quickstart:
  

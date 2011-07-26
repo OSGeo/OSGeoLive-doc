@@ -1,6 +1,6 @@
-:Συγγραφέας: Gérald Fenoy
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Gérald Fenoy
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _zoo-overview:
 

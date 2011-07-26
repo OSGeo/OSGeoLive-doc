@@ -1,6 +1,6 @@
-:Συγγραφέας: activityworkshop
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: activityworkshop
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _prune-overview:
 

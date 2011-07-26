@@ -1,6 +1,7 @@
-ΣυγγραφέΑς: Huawei Luo and Trevor Wekel
-Έκδοση: osgeo-live4.0
-Άδεια: Creative Commons
+:Author: Huawei Luo
+:Author: Trevor Wekel
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _mapguide-quickstart:Οδηγός γρήγορου ξεκινήματος mapguide
 

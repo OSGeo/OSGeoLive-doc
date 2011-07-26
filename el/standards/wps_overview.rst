@@ -4,8 +4,8 @@
 .. Βοήθημα:
   Metadata about this document
 
-:Συγγραφέας: OGC
-:Άδεια: Creative Commons
+:Author: OGC
+:License: Creative Commons
 
 .. Βοήθημα:
   The following becomes a HTML anchor for hyperlinking to this page

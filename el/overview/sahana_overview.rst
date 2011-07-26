@@ -1,6 +1,6 @@
-:Συγγραφέας: Gavin Treadgold
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Gavin Treadgold
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _sahana-overview:
 

@@ -1,6 +1,6 @@
-:Συγγραφέας: Johan Van de Wauw
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Johan Van de Wauw
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _mapserver-quickstart:
 

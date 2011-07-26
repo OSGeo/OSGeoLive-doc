@@ -1,6 +1,6 @@
-:Συγγραφέας: Henry Addo
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Henry Addo
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _ushahidi-overview:
 

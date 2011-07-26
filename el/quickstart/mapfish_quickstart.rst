@@ -1,6 +1,6 @@
-Συγγραφέας: Eric Lemoine
-Έκδοση: osgeo-live4.0
-Άδεια: GPLv3 ?
+:Author: Eric Lemoine
+:Version: osgeo-live4.0
+:License: GPLv3 ?
 
 .. _mapfish-quickstart:Οδηγίες γρήγορου ξεκινήματος mapfish
  

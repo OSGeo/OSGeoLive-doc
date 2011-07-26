@@ -1,6 +1,6 @@
-:Συγγραφέας: Stefan Tzeggai
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Stefan Tzeggai
+:Version: osgeo-live4.0
+:License: Creative Commons
 
  
 .. image:: ../../images/project_logos/logo-AtlasStyler.png

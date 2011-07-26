@@ -1,7 +1,7 @@
-:Συγγραφεας: Johannes Wilden
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
-:Ευχαριστείες: geotools-user list
+:Author: Johannes Wilden
+:Version: osgeo-live4.0
+:License: Creative Commons
+:Thanks: geotools-user list
 
 .. _deegree-quickstart:
 

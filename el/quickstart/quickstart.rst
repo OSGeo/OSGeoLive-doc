@@ -20,7 +20,7 @@
 .. toctree::
   :maxdepth: 1
 
- 52nWPS_quickstart
+  52nWPS_quickstart
   atlasstyler_quickstart
   deegree_quickstart
   geokettle_quickstart

@@ -1,8 +1,8 @@
-:Συγγραφέας: OSGeo Live
-:Συγγραφέας: Hamish Bowman
-:Συγγραφέας: Eric Lemoine
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Author: Hamish Bowman
+:Author: Eric Lemoine
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _mapfish-overview:
 

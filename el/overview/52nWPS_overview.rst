@@ -1,6 +1,6 @@
-:Συγγραφέας: Bastian Schaeffer, Kristof Lange
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Bastian Schaeffer, Kristof Lange
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _52nWPS-overview:
 

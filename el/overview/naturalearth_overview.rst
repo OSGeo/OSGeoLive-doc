@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
+:Author: OSGeo Live
 :΄Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:License: Creative Commons
 
 .. _naturalearth-overview:
 

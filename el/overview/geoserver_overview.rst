@@ -1,6 +1,6 @@
-:Συγγραφέας: Ian Turton
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Ian Turton
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _geoserver-overview:
 

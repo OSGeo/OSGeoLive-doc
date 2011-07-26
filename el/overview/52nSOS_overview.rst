@@ -1,6 +1,6 @@
-:Συγγραφέας: Johan Van de Wauw
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Johan Van de Wauw
+:Version: osgeo-live4.0
+:License: Creative Commons:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Version: osgeo-live4.0
 :License: Creative Commons
 

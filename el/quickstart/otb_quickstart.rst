@@ -1,7 +1,7 @@
-:Συγγραφέας: OSGeo-Live
-:Συγγραφέας: Manuel Grizonnet
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Manuel Grizonnet
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _otb-quickstart:
  

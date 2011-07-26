@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
-:Author: Petr Pridal, Christopher Fleet
+:Author: Petr Pridal
+:Author: Christopher Fleet
 :Version: osgeo-live4.5
 :License: Creative Commons
 

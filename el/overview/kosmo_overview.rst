@@ -1,6 +1,6 @@
-:Συγγραφέας: Sergio Baños Calvo
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Sergio Baños Calvo
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _kosmo-overview:
 

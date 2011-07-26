@@ -1,7 +1,7 @@
-:Συγγραφέας: OSGeo-Live
-:Συγγραφέας: Pirmin Kalberer
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Pirmin Kalberer
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _osgearth-quickstart:
  

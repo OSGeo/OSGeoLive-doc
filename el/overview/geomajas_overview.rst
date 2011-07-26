@@ -1,6 +1,6 @@
-:Συγγραφέας: Pieter De Graef
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Pieter De Graef
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _geomajas-overview:
 

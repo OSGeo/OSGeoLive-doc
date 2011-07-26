@@ -1,6 +1,6 @@
-:Συγγραφέας: Hamish Bowman
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _mb-system-overview:
 

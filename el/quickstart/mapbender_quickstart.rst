@@ -1,10 +1,10 @@
-Συγγραφεας: OSGeo-Live
-Συγγραφεας: Astrid Emde
-Συγγραφεας: Christoph Baudson
-Συγγραφεας: Arnulf Christl
-Έκδοση: osgeo-live4.0
- Άδεια: Creative Commons
-Ευχαριστείες: mapbender-user list
+:Author: OSGeo-Live
+:Author: Astrid Emde
+:Author: Christoph Baudson
+:Author: Arnulf Christl
+:Version: osgeo-live4.0
+:License: Creative Commons
+:Thanks: mapbender-user list
 
 .. _mapbender-quickstart:
  

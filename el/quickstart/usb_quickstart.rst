@@ -1,8 +1,7 @@
-
-:Συγγραφέας: OSGeo-Live
-:Συγγραφέας: Cameron Shorter
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: OSGeo-Live
+:Author: Cameron Shorter
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _usb-quickstart:
  
@@ -88,7 +87,7 @@
 Επίσης το USB συνήθως εμφανίζεται κάτω από τους σκληρούς δίσκους του συστήματος. 
 
 Εκτέλεση:
-----
+---------
 
 Εκτελέστε όπως στο: :doc:`osgeolive_quickstart`
 

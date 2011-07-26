@@ -1,6 +1,6 @@
-Συγγραφεας: Hamish Bowman
-Έκδοση: osgeo-live4.0
- Άδεια: Creative Commons
+:Author: Hamish Bowman
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _osm-quickstart:
  

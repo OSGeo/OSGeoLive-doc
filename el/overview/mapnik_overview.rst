@@ -1,6 +1,6 @@
-:Συγγραφέας: Dane Springmeyer
-:Έκδοση: osgeo-live4.0
-:Άδεια: Creative Commons
+:Author: Dane Springmeyer
+:Version: osgeo-live4.0
+:License: Creative Commons
 
 .. _mapnik-overview:
 

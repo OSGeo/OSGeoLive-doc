@@ -1,6 +1,6 @@
-:Συγγραφέας: Pirmin Kalberer
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Pirmin Kalberer
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _osgearth-overview:
 

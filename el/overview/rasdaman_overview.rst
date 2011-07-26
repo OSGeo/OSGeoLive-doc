@@ -1,6 +1,7 @@
-:Συγγραφέας: Peter Baumann , Michael Owonibi
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: Peter Baumann
+:Author: Michael Owonibi
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _rasdaman-overview:
 

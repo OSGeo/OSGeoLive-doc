@@ -1,6 +1,6 @@
-:Συγγραφέας: OSGeo Live
-:Έκδοση: osgeo-live4.5
-:Άδεια: Creative Commons
+:Author: OSGeo Live
+:Version: osgeo-live4.5
+:License: Creative Commons
 
 .. _geonetwork-overview:
 
