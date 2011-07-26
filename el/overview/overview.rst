@@ -8,71 +8,71 @@
 
 Λογισμικά διαδικτύου (Browser Clients)
 --------------------------------------
-* :doc:`openlayers_overview` - [`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart.html>`_] - Διαδικτυακή εφαρμογή GIS
-* :doc:`geomajas_overview` - [`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart.html>`_] - Διαδικτυακή εφαρμογή GIS
-* :doc:`mapbender_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart.html>`_] - Περιβάλλον ανάπτυξης Γεωπύλης
-* :doc:`mapfish_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart.html>`_] - Περιβάλλον διαδικτυακής Χαρτογράφιας
+* :doc:`openlayers_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart>`] - Διαδικτυακή εφαρμογή GIS
+* :doc:`geomajas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart>`] - Διαδικτυακή εφαρμογή GIS
+* :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
+* :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας
 
 Διαχείριση κρίσεων
 ------------------
-* :doc:`sahana_overview` - [`Γρήγορη Εκκίνηση <../quickstart/sahana_quickstart.html>`_] - Διαχείριση καταστροφών
-* :doc:`ushahidi_overview` - [`Γρήγορη Εκκίνηση <../quickstart/ushahidi_quickstart.html>`_] - Χαρτοχράφηση και δημιουργία χρονοσειρών για γεγονότα
+* :doc:`sahana_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/sahana_quickstart>`] - Διαχείριση καταστροφών
+* :doc:`ushahidi_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ushahidi_quickstart>`] - Χαρτοχράφηση και δημιουργία χρονοσειρών για γεγονότα
 
 Βάσεις Δεδομένων
 ----------------
-* :doc:`postgis_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/postgis_quickstart.html>`_] Χωρική Βάση Δεδομένων
-* :doc:`spatialite_overview`- [`Γρήγορη Εκκίνηση <../quickstart/spatialite_quickstart.html>`_] Βάση Δεδομένων με αρχεία
-* :doc:`rasdaman_overview` - [`Γρήγορη Εκκίνηση <../quickstart/rasdaman_quickstart.html>`_] - Πολυδιάστατη Βάση Πινακοποιημένων Δεδομένων
-* :doc:`pgrouting_overview` - [`Γρήγορη Εκκίνηση <../quickstart/pgrouting_quickstart.html>`_] - Δρομολόγηση για την PostGIS
+* :doc:`postgis_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/postgis_quickstart>`] Χωρική Βάση Δεδομένων
+* :doc:`spatialite_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/spatialite_quickstart>`] Βάση Δεδομένων με αρχεία
+* :doc:`rasdaman_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/rasdaman_quickstart>`] - Πολυδιάστατη Βάση Πινακοποιημένων Δεδομένων
+* :doc:`pgrouting_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/pgrouting_quickstart>`] - Δρομολόγηση για την PostGIS
 
 Λογισμικά GIS
 -------------
-* :doc:`grass_overview` - [`Γρήγορη Εκκίνηση <../quickstart/grass_quickstart.html>`_]
-* :doc:`qgis_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/qgis_quickstart.html>`_]
-* :doc:`gvsig_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gvsig_quickstart.html>`_]
-* :doc:`udig_overview` - [`Γρήγορη Εκκίνηση <../quickstart/udig_quickstart.html>`_]
-* :doc:`kosmo_overview` - [`Γρήγορη Εκκίνηση <../quickstart/kosmo_quickstart.html>`_]
-* :doc:`openjump_overview` - [`Γρήγορη Εκκίνηση <../quickstart/openjump_quickstart.html>`_]
-* :doc:`saga_overview` - [`Γρήγορη Εκκίνηση <../quickstart/saga_quickstart.html>`_]
-* :doc:`ossim_overview` - [`Γρήγορη Εκκίνηση <../quickstart/ossim_quickstart.html>`_] - Επεξεργασία Εικόνας
-* :doc:`geopublisher_overview`- [`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart.html>`_] - Κατάλογος
-* :doc:`atlasstyler_overview` - [`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart.html>`_] - Επεξεργαστής στύλ
-* :doc:`osgearth_overview` - [`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart.html>`_] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
-* :doc:`mb-system_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart.html>`_] - Χαρτογράφηση πυθμένα θάλασσας
+* :doc:`grass_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/grass_quickstart>`]
+* :doc:`qgis_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_quickstart>`]
+* :doc:`gvsig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gvsig_quickstart>`]
+* :doc:`udig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/udig_quickstart>`]
+* :doc:`kosmo_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/kosmo_quickstart>`]
+* :doc:`openjump_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openjump_quickstart>`]
+* :doc:`saga_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/saga_quickstart>`]
+* :doc:`ossim_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ossim_quickstart>`] - Επεξεργασία Εικόνας
+* :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος
+* :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ
+* :doc:`osgearth_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart>`] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
+* :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
 
 Πλοήγηση και Χάρτες
 -------------------
-* :doc:`gpsdrive_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart.html>`_] - Πλοήγηση GPS
-* :doc:`marble_overview` - [`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart.html>`_] - Περιστρεφόμενη Υδρόγειος
-* :doc:`opencpn_overview` - [`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart.html>`_] - Ναυτικός Πλοηγός GPS
-* :doc:`osm_overview` - [`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart.html>`_] - Εργαλεία Open Street Map
-* :doc:`prune_overview` - [`Γρήγορη Εκκίνηση <../quickstart/prune_quickstart.html>`_] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
-* :doc:`viking_overview` - [`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart.html>`_] - Οπτικοποίηση σημείων GPS
-* :doc:`zygrib_overview` -  - [`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart.html>`_] - Χάρτες πρόγνωσης καιρού
+* :doc:`gpsdrive_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart>`] - Πλοήγηση GPS
+* :doc:`marble_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Περιστρεφόμενη Υδρόγειος
+* :doc:`opencpn_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart>`] - Ναυτικός Πλοηγός GPS
+* :doc:`osm_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart>`] - Εργαλεία Open Street Map
+* :doc:`prune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/prune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
+* :doc:`viking_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart>`] - Οπτικοποίηση σημείων GPS
+* :doc:`zygrib_overview` -  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart>`] - Χάρτες πρόγνωσης καιρού
 
 Χωρικά Εργαλεία
 ---------------
-* :doc:`gdal_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart.html>`_] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
-* :doc:`gmt_overview` - [`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart.html>`_] - Χαρτογραφική Σύνθεση
-* :doc:`mapnik_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart.html>`_] - Χαρτογραφική Σύνθεση
-* :doc:`otb_overview` - [`Γρήγορη Εκκίνηση <../quickstart/otb_quickstart.html>`_] - Ανάλυση Εικόνας
-* :doc:`maptiler_overview` - [`Γρήγορη Εκκίνηση <../quickstart/maptiler_quickstart.html>`_] - Δημιουργία Τετραγωνιδίων Χαρτών
-* :doc:`R_overview` - [`Γρήγορη Εκκίνηση <../quickstart/R_quickstart.html>`_] - Στατιστικός Προγραμματισμός
-* :doc:`geokettle_overview` - [`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart.html>`_] - Ενοποίηση δεδομένων
+* :doc:`gdal_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart>`] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
+* :doc:`gmt_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart>`] - Χαρτογραφική Σύνθεση
+* :doc:`mapnik_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart>`] - Χαρτογραφική Σύνθεση
+* :doc:`otb_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/otb_quickstart>`] - Ανάλυση Εικόνας
+* :doc:`maptiler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/maptiler_quickstart>`] - Δημιουργία Τετραγωνιδίων Χαρτών
+* :doc:`R_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/R_quickstart>`] - Στατιστικός Προγραμματισμός
+* :doc:`geokettle_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart>`] - Ενοποίηση δεδομένων
 
 Διαδικτυακές Υπηρεσίες
 ----------------------
-* :doc:`deegree_overview`- [`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart.html>`_]
-* :doc:`geoserver_overview`- [`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart.html>`_]
-* :doc:`mapguide_overview`- [`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart.html>`_]
-* :doc:`mapserver_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart.html>`_]
-* :doc:`qgis_mapserver_overview` - [`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart.html>`_] - Εξυπηρετητής QGIS
-* :doc:`geonetwork_overview` - [`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart.html>`_] - Υπηρεσία Καταλόγου
-* :doc:`52nWPS_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart.html>`_]- Web Processing Service
-* :doc:`52nSOS_overview`  - [`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart.html>`_]- Sensor Observation Service
-* :doc:`zoo-project_overview` - [`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart.html>`_] - Web Processing Service
-* :doc:`mapproxy_overview` - [`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart.html>`_]
-* :doc:`tinyows_overview` - [`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart.html>`_] - WFS-T Service
+* :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
+* :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
+* :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
+* :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
+* :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Εξυπηρετητής QGIS
+* :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
+* :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`]- Web Processing Service
+* :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`]- Sensor Observation Service
+* :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
+* :doc:`tinyows_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
 Γεωχωρικές Βιβλιοθήκες
 ----------------------
