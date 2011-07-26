@@ -16,39 +16,24 @@ TinyOWS
 Web Feature Service
 ~~~~~~~~~~~~~~~~~~~
 
-TinyOWS is a high performance, Transactional Web Feature Service (WFS-T)
-
-.. Cameron Comment: I suggest removing the following line as it doesn't add extra value to the statement. You have said the important message well, more concisely in the previous sentence.
-.. It's aim is to keep being the fastest Open Source WFS solution available.
-
-which is light weight and easy to deploy, using a CGI or Fast CGI interface and using PostGIS for data storage.
+TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or Fast CGI interface and using PostGIS for data storage.
 
 .. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right
 
-.. Cameron Comment: Could TinyOWS be used with a different database to PostGIS? If so, you may wish to revise above to say 
-
-TinyOWS is commonly used in conjunction with MapServer to provide fast WFS and WFS-T services to QGIS and/or OpenLayers clients. It is in production use in various organisations from around the world, including risk adverse government agencies.
+TinyOWS is commonly used in conjunction with MapServer to provide WFS-T and fast WFS services for QGIS and/or OpenLayers clients. It is used in production in organisations around the world, including risk adverse government agencies.
 TinyOWS strictly implements the WFS 1.0 and 1.1 standards, and has passed all OGC CITE units tests (~ 1000 unit tests).
-
-
-.. Cameron Comment: Can we please use a background image which doesn't have the text watermark. The text looks unprofessional, and from a distance, it looks as if one of the layers is throwing an error or similar.
 
 Core Features
 -------------
 
-* PostGIS data connection
+* Transactional Web Feature Service (WFS-T)
 * CGI and Fast-CGI interface
+* PostGIS data connection
 * GML 2.1.2, 3.1.1 and GeoJson 1.0 output
-* MapFile parser to allow a single config file for both apps
-
-.. Cameron Comment: I'm not clear. Do you mean that the same MapFile configuration file can be used by tinyows and mapserver?
-
-* Log handle
-
-.. Cameron Comment: What does "Log handle" mean?
+* Configured using MapServer's configuration file, allowing a single configuration file for both applications.
 
 Implemented Standards
 ---------------------
