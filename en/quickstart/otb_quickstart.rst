@@ -10,9 +10,9 @@
   :alt: project logo
   :align: right
 
-****************
+**************
 OTB Quickstart 
-****************
+**************
 
 ORFEO Toolbox library (OTB) is a high performance library for image processing targeted on remote sensing.
 
@@ -29,7 +29,7 @@ The OTB-Applications package provide lot's of interesting tools which facilitate
   * QGIS plugin : as plugin directly usable in Quantum GIS 
 
 Display metadata informations in an image 
-==========================================
+=========================================
 
 You can get all the metadata informations contained in an image with the command : `otbReadImageInfo-cli`
 The unique parameter is the Input image file name, for example : `otbReadImageInfo-cli -in qb_RoadExtract.tif`
@@ -59,7 +59,7 @@ Perform segmentation with Monteverdi
      :scale: 100 %
 
 Perform supervised classification based on SVM  with Monteverdi
-====================================
+===============================================================
 
 * Start Monteverdi from its icon from the directory "XXX" on the desktop 
 * Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
@@ -87,10 +87,9 @@ What Next?
   comprehensive guide which comprises about 600 pages, detailing the
   steps to install OTB and use it. Most of the classes available are
   heavily illustrated with results from real remote sensing
-  processing. The Software Guide is available as a pdf_ file or as an
+  processing. The Software Guide is available as a `pdf <http://orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_ file or as an
   online html_ version.
 
-.. _pdf: http://orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf
 .. _html: http://orfeo-toolbox.org/SoftwareGuide/
 
 * OTB CookBook
@@ -99,9 +98,7 @@ What Next?
   non-developers is also available.This guide is composed of a brief
   tour of of OTB-Applications and Monteverdi, followed by a set of
   recipes to perform usual remote sensing tasks with both tools. The
-  CookBook is available as a pdf_ file.
-
-.. _pdf: http://orfeo-toolbox.org/packages/OTBCookBook.pdf
+  CookBook is available as a `pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_ file.
 
 * OTB Tutorials
 

@@ -64,8 +64,7 @@ To run the demo just follow these steps:
 
   #. Then visit the example TileLite OpenLayers "World Population" demo application page:
     
-    * This page is at 
- `http://localhost/mapnik/demo/openlayers.html <../../mapnik/demo/openlayers.html>`_,
+    * This page is at `http://localhost/mapnik/demo/openlayers.html <../../mapnik/demo/openlayers.html>`_
 
 
 What Next?

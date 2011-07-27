@@ -20,7 +20,7 @@ MapTiler Quickstart
 * **Output options**: A set of directories with tiled images which can be copied to a web server for presentation as a georeferenced overlay. `View examples <http://examples.maptiler.org/>`_. 
 * **Strengths**: MapTiler is simple, free, open-source software, with an easy wizard, described below, to guide through the options.
 
-MapTiler takes advantage of the fact that `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , and other online mapping providers including `OpenStreetMap <http://www.openstreetmap.org/>`_  use the same projection and tiling profile and the tiles are therefore compatible. The `Tiles à la Google Maps <>`_ page describes and illustrates this. MapTiler prepares tiles using this specification as an easy and quick way of preparing a georeferenced map in a mashup web page.
+MapTiler takes advantage of the fact that `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , and other online mapping providers including `OpenStreetMap <http://www.openstreetmap.org/>`_  use the same projection and tiling profile and the tiles are therefore compatible. The `Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ page describes and illustrates this. MapTiler prepares tiles using this specification as an easy and quick way of preparing a georeferenced map in a mashup web page.
 
 Start MapTiler
 --------------

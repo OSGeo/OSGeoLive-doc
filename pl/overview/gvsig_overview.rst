@@ -35,10 +35,8 @@ narzędzie dla użytkowników zajmujcych się przestrzenią geograficzną.
 gvSIG jest znany z:
 
 * możliwości integrowania w tym samym widoku zarówno lokalnych jak i zdalnych danych z pomocą standardów OGC.
-* bycia łatwo rozszerzalnym, co pozwala na nieprzerwane doskonalenie
-aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
-* bycia dostępnym w ponad 20 językach (hiszpańskim, angielskim, niemieckim, francuskim, 
-  włoskim,...) .
+* bycia łatwo rozszerzalnym, co pozwala na nieprzerwane doskonalenie aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
+* bycia dostępnym w ponad 20 językach (hiszpańskim, angielskim, niemieckim, francuskim, włoskim, ...) .
 * bycia dostępnym dla platform Windws, Linux, i Mac OS X:
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
@@ -58,8 +56,7 @@ Główne funkcje
   * bazodanowych: PostGIS, MySQL, Oracle, ArcSDE
   * zdalnych: ECWP, ArcIMS, standardy OGC
 
-* Klient usług do lokalizowania zasobów danych w 
-  SDI (usługi katalogowe i gazetery)
+* Klient usług do lokalizowania zasobów danych w SDI (usługi katalogowe i gazetery)
   
   * Katalogi: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetery: ADL, WFS, WFS-G
