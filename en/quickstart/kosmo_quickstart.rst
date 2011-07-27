@@ -31,27 +31,27 @@ Start Kosmo Desktop
 
 In order to start the application, follow the next steps:
 
-* From the start menu, select *Other > Kosmo* (or from the desktop, go into *Desktop GIS* folder and double-click the Kosmo icon)
+#. From the start menu, select *Other > Kosmo* (or from the desktop, go into *Desktop GIS* folder and double-click the Kosmo icon)
 
-* The application will take a few seconds to start (a splash screen is shown while loading)
+#. The application will take a few seconds to start (a splash screen is shown while loading)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_splash_screen.png
+   .. image:: ../../images/screenshots/800x600/kosmo_splash_screen.png
 
-* In the Welcome dialog, select the option *Create a new project > With a new view* (**1**) and press the *Ok* button (**2**)
+#. In the Welcome dialog, select the option *Create a new project > With a new view* (**1**) and press the *Ok* button (**2**)
 
-  .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.png
+   .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.png
 
-* In the Spatial Reference System selection dialog, press the *...* button
+#. In the Spatial Reference System selection dialog, press the *...* button
 
-  .. image:: ../../images/screenshots/800x600/kosmo_select_srs.png
+   .. image:: ../../images/screenshots/800x600/kosmo_select_srs.png
 
-* Select the option *EPSG* in the SRS type combobox (**1**), insert the text `4236` in the text field and press the *Search* button (**2**)
+#. Select the option *EPSG* in the SRS type combobox (**1**), insert the text `4236` in the text field and press the *Search* button (**2**)
 
-* Select the SRS EPSG:4326 - WSG4 (**3**) and press the *Ok* button (**4**)
+#. Select the SRS EPSG:4326 - WSG4 (**3**) and press the *Ok* button (**4**)
 
-  .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4236.png
+   .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4236.png
 
-* Press the *Ok* button again to select the SRS loaded. The view will start with EPSG:4326 as the base projection
+#. Press the *Ok* button again to select the SRS loaded. The view will start with EPSG:4326 as the base projection
     
   
 .. tip::
@@ -95,7 +95,7 @@ To start out, we're going to load some of the sample data included on the LiveDV
 
 #. In the *Format* combobox, select *Shapefile* (**1**)
 
-#. In the file chooser, select the file `10m_admin_0_countries.shp` from the directory `/usr/local/share/data/natural_earth` (**2**)
+#. In the file chooser, select the file :file:`10m_admin_0_countries.shp` from the directory :file:`/usr/local/share/data/natural_earth` (**2**)
 
 #. Press the *Ok* button to load the selected shapefile (**3**)
 
@@ -107,7 +107,7 @@ To start out, we're going to load some of the sample data included on the LiveDV
 
 #. In the *Format* combobox, select *Image file* (**1**)
 
-#. In the file chooser, select the file `HYP_50M_SR_W.tif` from the directory `/usr/local/share/data/natural_earth/HYP_50M_SR_W` (**2**)
+#. In the file chooser, select the file :file:`HYP_50M_SR_W.tif` from the directory :file:`/usr/local/share/data/natural_earth/HYP_50M_SR_W` (**2**)
 
 #. Press the *Ok* button to load the selected image file (**3**)
 
@@ -122,8 +122,8 @@ To start out, we're going to load some of the sample data included on the LiveDV
 .. note::
   The LiveDVD contains some file data examples in the following directories:
   
-  * `~/data` (a shortcut to `/usr/local/share/data` or `/home/user/data`)
-  * `/usr/local/share/openjump/data`
+  * :file:`~/data` (a shortcut to :file:`/usr/local/share/data` or :file:`/home/user/data`)
+  * :file:`/usr/local/share/openjump/data`
       
   You can try to load more examples from those directories. Remember to select the correct format from the *Format* combobox       
 
@@ -186,7 +186,7 @@ OGC services
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_3.png
 
-#. Leave the default options loaded and press the *Finish* button to start the layer loading
+#. Leave the default options loaded and press the *Finish* button (**1**) to start the layer loading
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_4.png
 
