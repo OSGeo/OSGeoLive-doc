@@ -72,8 +72,7 @@
 
   END
 
-.. Σημείωση::
-    
+.. note::
    Αυτό οτο παράδειγμα χρησιμοποιεί ένα σύνολο δεδομένων που περιέχει στοιχεία για το φυσικό περιβάλλον της γης, το οποίο είναι προεγκατεστημένο στο live dvd: :file:`~/data/natural_earth` (a short cut to :file:`/usr/local/share/data/natural_earth`)
 
 

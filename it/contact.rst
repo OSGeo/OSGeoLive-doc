@@ -3,7 +3,7 @@ Contattaci
 
 
 Lo sviluppo di OSGeo-Live è coordinato via mail e internet chat
-(IRC) come indicato nell' `OSGeo Wiki<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
+(IRC) come indicato nell' `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
 
 Supporto della comunità
