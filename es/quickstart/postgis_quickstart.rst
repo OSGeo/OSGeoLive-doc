@@ -51,7 +51,7 @@ de datos quiere acceder.
 Puede obtener un listado de las bases de datos que hay disponibles en el servidor con el comando ``psql -l`` . Por defecto debería poder ver varias bases de 
 datos creadas en la instalación. Creará una nueva base de datos al seguir esta guía.
 
-.. consejo:: La lista usa un pager de unix estándar - pulse espacio para ir a la página siguiente, b para volver a la anterior, q para salir, h para acceder a la ayuda.
+.. tip:: La lista usa un pager de unix estándar - pulse espacio para ir a la página siguiente, b para volver a la anterior, q para salir, h para acceder a la ayuda.
 
 PostgreSQL le da un comando unix para crear bases de datos, ``createdb``. Necesita crear una base de datos con las extensiones PostGIS, 
 por eso debe indicarle cuál es la plantilla para crear la base de datos. Llamaremos a la nueva base de datos ``demo``. El comando es el siguiente:
@@ -60,7 +60,7 @@ por eso debe indicarle cuál es la plantilla para crear la base de datos. Llamar
 
    createdb -T template_postgis demo
 
-.. consejo:: Generalmente puede acceder a la ayuda de las herramientas de línea de comandos tecleando --help 
+.. tip:: Generalmente puede acceder a la ayuda de las herramientas de línea de comandos tecleando --help 
 
 Si ejecuta en este momento ``psql -l`` , su base de datos ``demo`` debería aparecer en el listado.
 
@@ -89,9 +89,9 @@ la línea de comandos ``psql`` :
 
  postgres=# \c demo
 
-.. consejo:: Pulse Ctrl-C si el prompt de psql continúa apareciendo después de pulsar la tecla return. De esa forma limpiará su entrada 
-y empezará otra vez. Es probable que el sistema esté esperando que introduzca un signo de cerrar comillas, 
-punto y coma o algún otro signo.
+.. tip:: 
+	Pulse Ctrl-C si el prompt de psql continúa apareciendo después de pulsar la tecla return. De esa forma limpiará su entrada 
+	y empezará otra vez. Es probable que el sistema esté esperando que introduzca un signo de cerrar comillas, punto y coma o algún otro signo.
 
 Debería poder ver un mensaje informativo, y el prompt cambiará para mostrarle que ya está conectado a la base de
 datos ``demo``. Para comprobar que el proceso se ha realizado correctamente, teclee ``\dt`` para poder ver un listado de
@@ -175,7 +175,7 @@ sistema de referencia espacial, introducidas en formato texto:
   demo=# INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
   demo=# INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
 
-.. consejo:: Use las teclas de las flechas del teclado para reutilizar y editar sentencias en la línea de comandos.
+.. tip:: Use las teclas de las flechas del teclado para reutilizar y editar sentencias en la línea de comandos.
 
 Como puede ver, este paso llega a ser tedioso rápidamente. Afortunadamente hay formas mucho más fáciles de 
 introducir datos dentro de las tablas PostGIS. Pero ahora hay tres ciudades en su base de datos y ya puede trabajar con 
