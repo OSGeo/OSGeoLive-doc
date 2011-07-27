@@ -71,7 +71,7 @@ User-friendly Desktop Internet GIS (uDig)
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**Προγραμματιστικές διεπαφές:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
+**Προγραμματιστικές διεπαφές:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
 **Υποστήριξη:** http://udig.refractions.net/users/
 

@@ -71,7 +71,7 @@ Detalles
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**API Interfaces:** GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
+**API Interfaces:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
 **Support:** http://udig.refractions.net/users/
 
