@@ -121,8 +121,14 @@ information about the current Map).
   .. image:: ../../images/screenshots/800x600/udig_workbench.png
    :scale: 70 %
 
-Shown above is a typical uDig session with the Map editor, Projects view, Layers view and Catalog
-view labelled . These views will be described further as we demonstrate their use.
+Shown above is a typical uDig session with the 
+
+	#. Layers view (1), 
+	#. Projects view (2), 
+	#. Catalog view (3) and 
+	#. Map editor (4). 
+
+These views will be described further as we demonstrate their use.
 
 Files
 =====

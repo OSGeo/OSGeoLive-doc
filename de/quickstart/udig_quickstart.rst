@@ -123,8 +123,14 @@ Viele Ansichten zeigen dabei kontextbezogene Informationen zur aktuell geöffnet
   .. image:: ../../images/screenshots/800x600/udig_workbench.png
    :scale: 70 %
 
-Oben ist ein typischer uDig -Arbeitsplatz mit Karten (Editoren) sowie Ansichten für Kartenprojekte und Layer zu sehen. Darüber hinaus 
-gibt es noch die Katalogansicht. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
+Oben ist ein typischer uDig -Arbeitsplatz mit Ansichten für die 
+
+	#. Kartenlayer **Layers** (1), 
+	#. Kartenprojekte **Projects** (2), 
+	#. dem Katalog **Catalog** (3) sowie 
+	#. der Karte (4) 
+
+zu sehen. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
 
 Dateien
 =======
@@ -177,7 +183,8 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
    wird z.B. nicht komplett in den Arbeitsspeicher geladen. Wir haben den Grundsatz, die Daten auf dem Filesystem zu 
    belassen und nur auf Anfrage beim Darstellen in der Karte den relevanten Teil anzufragen.
 
-.. tip:: Sie können Shapefiles direkt vom **File Manager** per Drag&Drop in die uDig Anwendung ziehen, um weitere Daten hinzuzufügen!
+.. tip:: 
+   Sie können Shapefiles direkt vom **File Manager** per Drag&Drop in die uDig Anwendung ziehen, um weitere Daten hinzuzufügen!
 
 Karte
 =====
@@ -213,8 +220,9 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
      .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
-.. tip:: Die meisten Werkzeuge erlauben es Ihnen, bei gedrückter mittlerer Maustaste den Ausschnitt zu verschieben 
-         und unter Verwendung des Mausrades den Maßstab anzupassen.
+.. tip:: 
+   Die meisten Werkzeuge erlauben es Ihnen, bei gedrückter mittlerer Maustaste den Ausschnitt zu verschieben 
+   und unter Verwendung des Mausrades den Maßstab anzupassen.
 
 Web Map Server
 ==============
@@ -223,7 +231,9 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 
 .. note:: Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Applications --> Education --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
 
-.. tip:: Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** Wizard (:menuselection:`Layer --> Add...`) gehen oder per Drag&Drop einen WMS Hyperlinks in die Karte ziehen.
+.. tip:: 
+   Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** 
+   Wizard (:menuselection:`Layer --> Add...`) gehen oder per Drag&Drop einen WMS Hyperlinks in die Karte ziehen.
 
 #. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
@@ -256,7 +266,8 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
    
 	.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
-.. tip:: Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur `I` und `Z` drücken.
+.. tip:: 
+    Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur `I` und `Z` drücken.
 
 Stile
 =====
