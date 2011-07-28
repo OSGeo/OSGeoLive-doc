@@ -53,8 +53,8 @@ Kernfunktionen
 
 **Eingebaute Datenbank für besser Handlichkeit**
 
-* Hierarchisches Speicherung der XML Dokumente die Karten, Layer und Datenverbindungen definieren
-* Datenquellen und Layer einmalig definieren und in unterschiedlichen Karten verwenden
+* Definitionen von Karten, Layer und Datenverbindungen werden hierarchisch in XML Dokumenten gespeichert
+* Datenquellen und Layer werden einmalig definiert und können in unterschiedlichen Karten verwenden werden
 * Zugriffsverwaltung mit vererbbaren Rechten
 
 **Einheitlicher Datenzugriff**
@@ -71,14 +71,14 @@ Kernfunktionen
 * Permanentes Erstellen, Abfragen, Lesen und Schreiben mit Session-basierten XML Dokumenten 
 * Abfragen und Aktualisieren von Objekten
 * Koordinaten umprojizieren
-* Erstellen, bearbeiten und analysieren von Geometrien
+* Erstellen, Bearbeiten und Analyse von Geometrien
 * Karten und Layer während der Laufzeit bearbeiten
 
 **Schnelle, skalierbare und sichere Server-Plattform**
 
 * Multithreading und Unterstützung mehrerer Prozessoren
 * Lastverteilung zwischen Servern
-* Datenbank Verbindungen zusammenfassen
+* bei Datenbanken werden Pooled Connections (Datenbankverbindungen, die in einem Cache gehalten werden) unterstützt
 * Integriertes Tile-Caching
 
 **Verschiedene Plattformen werden unterstützt**
