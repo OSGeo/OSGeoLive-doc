@@ -70,8 +70,8 @@ Daten einbinden
     Sie ein **read only** Dateisystem nutzen, so bei der DVD. Für diesen Fall sollten 
     Sie entweder |GS| von der DVD auf das Dateisystem installieren oder ein USB Stick 
     basiertes System nutzen.
-In diesem Beispiel werden wir die `Natural Earth Datensätze
-<../overview/naturalearth_overview>`_ nutzen, die auf der Live-DVD mit enthalten sind (:file:`/usr/local/share/data/natural_earth/`).
+	
+In diesem Beispiel werden wir die :doc:`Natural Earth Datensätze <../overview/naturalearth_overview>` nutzen, die auf der Live-DVD mit enthalten sind (:file:`/usr/local/share/data/natural_earth/`).
 
 Es muss ein **Store** für unsere Daten angelegt werden. Von der |GS| Administrationsseite gehen Sie zu :guilabel:`Stores` und klicken Sie auf :guilabel:`Add new Store`. Folgende Ansicht werden Sie vor sich haben:
 
