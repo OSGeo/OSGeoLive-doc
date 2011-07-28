@@ -37,17 +37,21 @@ Start |GS|
 Erste Oberflächen
 =================
 
-Öffnen Sie erstmalig die |GS| Startseite, werden sie die Ansicht wie oben zu Gesicht bekommen. Um den |GS| administrieren zu können, müssen Sie sich anmelden mit den Benutzer `admin` und dem Passwort `geoserver`. Im Anschluss daran sehen Sie die *admin page*
+Öffnen Sie erstmalig die |GS| Startseite, werden sie die Ansicht wie oben zu Gesicht bekommen. 
+Um den |GS| administrieren zu können, müssen Sie sich anmelden mit den Benutzer `admin` und dem Passwort `geoserver`. 
+Im Anschluss daran sehen Sie die *admin page*
 
 .. image:: ../../images/screenshots/800x600/geoserver-welcome.png
     :scale: 70 %
 
-Über den Link zur Layer-Vorschau (**Layer Preview**) innerhalb des *Data* Bereiches im linken Menübaum ermöglicht es Ihnen, die Layer des GeoServers anzusehen.
+Über den Link zur Layer-Vorschau (**Layer Preview**) innerhalb des *Data* Bereiches im linken Menübaum 
+ermöglicht es Ihnen, die Layer des GeoServers anzusehen.
 
 .. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
     :scale: 70 %
 
-Scrollen Sie die Seite soweit herunter, dass eine Zeile mit **tiger-ny** sehen und klicken Sie auf den **OpenLayers** Link. Es öffnet sich eine neue Seite, in der Sie ein Kartenfenster mit Inhalt des Layers sehen.
+Scrollen Sie die Seite soweit herunter, dass eine Zeile mit **tiger-ny** sehen und klicken Sie auf 
+den **OpenLayers** Link. Es öffnet sich eine neue Seite, in der Sie ein Kartenfenster mit Inhalt des Layers sehen.
 
 .. image:: ../../images/screenshots/800x600/geoserver-preview.png
     :scale: 70 %
@@ -146,8 +150,9 @@ Sobald Sie |UG| gestartet haben, können Sie per Drag&Drop die zwei folgenden Sh
    :scale: 70 %
    :alt: Standard Styling in uDig
 
-Nun ist Orange nicht die bevorzugte Farbe, um Ozeane darzustellen, auch wenn man mit grün dargestellten Ländern leben könnte. Zum Ändern eines Stils des aktuell ausgewählten Layers in der 
-:ref:`Liste der Layer <Layer_list_de>` klicken Sie auf den Style Button - dieser sieht aus wie eine Farbpalatte - in der Toolbar.
+Nun ist Orange nicht die bevorzugte Farbe, um Ozeane darzustellen, auch wenn man mit grün dargestellten Ländern leben 
+könnte. Zum Ändern eines Stils des aktuell ausgewählten Layers in der :ref:`Liste der Layer <Layer_list_de>` 
+klicken Sie auf den Style Button - dieser sieht aus wie eine Farbpalatte - in der Toolbar.
 
 .. _Layer_list_de:
 .. image:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
@@ -155,7 +160,9 @@ Nun ist Orange nicht die bevorzugte Farbe, um Ozeane darzustellen, auch wenn man
    :scale: 70 %
    :alt: Die Listenansicht der Layer
 
-Es wird ein :ref:`Stil Dialog <Style_Pane_de>` geöffnet, Sie können einfach die Farbe der Flächen in dem Tab `Fill` auf ein zusagendes Blau abändern. Zusätzlich wurde bei dem Beispiel der Ozeane die Deckkraft (opacity) auf 100% gesetzt. Ebenso wurde die gleiche Farbe für die begrenzenden Linien (im Tab `Border`) festgelegt.
+Es wird ein :ref:`Stil Dialog <Style_Pane_de>` geöffnet, Sie können einfach die Farbe der Flächen in dem Tab `Fill` auf 
+ein zusagendes Blau abändern. Zusätzlich wurde bei dem Beispiel der Ozeane die Deckkraft (opacity) auf 100% gesetzt. 
+Ebenso wurde die gleiche Farbe für die begrenzenden Linien (im Tab `Border`) festgelegt.
 
 .. _Style_Pane_de:
 .. image:: ../../images/screenshots/800x600/geoserver-style-pane.png
@@ -163,7 +170,9 @@ Es wird ein :ref:`Stil Dialog <Style_Pane_de>` geöffnet, Sie können einfach di
    :scale: 70 %
    :alt: Der Stil Dialog
 
-.. tip:: Klicken Sie in Stil Dialog die Schaltfläche :guilabel:`Apply`, um die aktuellen Anpassungen auf die Karte anzuwenden, ohne den Dialog zu schließen.
+.. tip:: 
+     Klicken Sie in Stil Dialog die Schaltfläche :guilabel:`Apply`, um die aktuellen Anpassungen auf die Karte 
+     anzuwenden, ohne den Dialog zu schließen.
 
 Haben Sie einen Stil zu Ihrer Zufriedenheit konfiguriert, können Sie diesen Dialg mit 
 ``OK`` verlassen, |UG| wird die Änderungen anwenden und die Karte neu darstellen.
@@ -173,7 +182,9 @@ Haben Sie einen Stil zu Ihrer Zufriedenheit konfiguriert, können Sie diesen Dia
    :scale: 70 %
    :alt: Blaue Ozeane
 
-Abschließend möchten wir die Farbe für die Landflächen abändern. Gehen Sie so wie eben vor, indem Sie zuvor den Layer der Länder auswählen. Gefällt Ihnen keine der Standardfarben, können Sie eine benutzerdefinierte Farben (``define custom colors``) selbst festlegen.
+Abschließend möchten wir die Farbe für die Landflächen abändern. Gehen Sie so wie eben vor, indem Sie zuvor den Layer 
+der Länder auswählen. Gefällt Ihnen keine der Standardfarben, können Sie eine benutzerdefinierte Farben (``define custom colors``) 
+selbst festlegen.
 
 .. image:: ../../images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
@@ -194,8 +205,13 @@ Jetzt können die definierten Stile in |GS| transferiert werden. Im Stil Dialog 
 ist eine Schaltfläche für den Export zu finden. Hierüber kann der Stil in einer SLD 
 Datei gespeichert werden. Sobald Sie die Dateien für die beiden Layern gespeichet haben, können 
 Sie in die Administrator-Seite vom |GS| wechseln und im linken Menü ``Styles``  klicken. Wählen
-Sie im Anschluss daran den Link ``Add New Style``, auf der daraufhin folgenden Seite scrollen Sie nach ganz unten, eine Schaltfläche für den Import ist hier zu finden.
-Importieren Sie die zuvor in |UG| exportierten Dateien, der Inhalt wird jeweils im Editorbereich angezeigt werden. Sie können den Stil validieren. Sollte der Stil nicht korrekt sein, wird eine entsprechende Fehlermeldung erscheinen und der betroffene Bereich der Datei markiert. Sollten Fehler beim Validieren auftreten, können Sie diese gefahrlos ignorieren oder den betroffenen Bereich entfernen, sofern er nicht relevant ist.
+Sie im Anschluss daran den Link ``Add New Style``, auf der daraufhin folgenden Seite scrollen Sie 
+nach ganz unten, eine Schaltfläche für den Import ist hier zu finden.
+Importieren Sie die zuvor in |UG| exportierten Dateien, der Inhalt wird jeweils im Editorbereich 
+angezeigt werden. Sie können den Stil validieren. Sollte der Stil nicht korrekt sein, wird eine 
+entsprechende Fehlermeldung erscheinen und der betroffene Bereich der Datei markiert. Sollten 
+Fehler beim Validieren auftreten, können Sie diese gefahrlos ignorieren oder den betroffenen Bereich 
+entfernen, sofern er nicht relevant ist.
 
 .. image:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
