@@ -87,15 +87,18 @@ Wählen Sie :guilabel:`Directory of spatial files` und sie werden folgendes sehe
     :scale: 70 %
     :alt: Ausfüllen der New Store Seite
 
-Geben Sie einen Namen für den Store an - ich habe *Natural Earth* eingegeben - sowie eine URL
-für den Datensatz, in unserem Fall :file:`/usr/local/share/data/natural_earth/`. Sie können die :guilabel:`Browse` Schaltfläche nutzen, um ein Verzeichnis auf dem Dateisystem zu finden, falls sonstige Daten eingebunden werden sollen. Um den Vorgang abzuschließen, bestätigen Sie mit :guilabel:`Save`.
+Geben Sie einen Namen für den Store an - hier wurde *Natural Earth* eingegeben - sowie eine URL
+für den Datensatz, in unserem Fall :file:`/usr/local/share/data/natural_earth/`. Sie können die 
+:guilabel:`Browse` Schaltfläche nutzen, um ein Verzeichnis auf dem Dateisystem zu finden, falls 
+sonstige Daten eingebunden werden sollen. Um den Vorgang abzuschließen, bestätigen Sie mit :guilabel:`Save`.
 
 .. image:: ../../images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
     :alt: Der Natural Earth Datastore
 
-Klicken Sie auf :guilabel:`Publish` auf einen der Einträge der nächsten Seite, um das veröffentlichen der Layer abzuschließen. Dies wird sie zur *Layers* Seite führen: 
+Klicken Sie auf :guilabel:`Publish` auf einen der Einträge der nächsten Seite, um das veröffentlichen 
+der Layer abzuschließen. Dies wird sie zur *Layers* Seite führen: 
 
 .. image:: ../../images/screenshots/800x600/geoserver-publish.png
     :align: center
@@ -110,13 +113,17 @@ welches Koordinatensystem für die Daten zugrundeliegt. Geben Sie bitte epsg:432
 
 .. note:: Um weitere Informationen zu EPSG Codes finden sie unter `http://prj2epsg.org/search <http://prj2epsg.org/search>`_
 
-Im Anschluss daran klicken Sie auf :guilabel:`Compute from data` and :guilabel:`Compute from
-native bounds` um die begrenzenden Rechtecke der Datensätze zu berechnen. Abschließend auch hier mit :guilabel:`Save` Ihre Änderungen bestätigen. Sie haben nun erstmalig Daten über einen Layer veröffentlicht.
+Im Anschluss daran klicken Sie auf :guilabel:`Compute from data` and :guilabel:`Compute from native bounds` um die begrenzenden 
+Rechtecke der Datensätze zu berechnen. Abschließend auch hier mit :guilabel:`Save` Ihre Änderungen bestätigen. Sie haben nun 
+erstmalig Daten über einen Layer veröffentlicht.
 
 .. note::
-    Sollten Sie sich den Layer über die Voransicht ansehen und nicht mit der Darstellung der Daten zufrieden sein, liegt dies daran, dass ein Standard-Stil verwendet worden ist. Wie der Stil eines Layers angepasst wird, wird im folgenden Kapitel beschrieben.
+    Sollten Sie sich den Layer über die Voransicht ansehen und nicht mit der Darstellung der Daten zufrieden sein, liegt dies daran, 
+    dass ein Standard-Stil verwendet worden ist. Wie der Stil eines Layers angepasst wird, wird im folgenden Kapitel beschrieben.
 
-Sie können die Prozedur mit weiteren Layern vollziehen, um auch diese zu veröffentlichen. Dabei haben die Möglichkeit über die Layer Seite eine neue Ressource mit :guilabel:`Add a new resource` hinzuzufügen. Auf der folgenden Seite wählen Sie den bereits angelegten *Natural Earth* Store in der Auswahlliste aus, um diesem die neue Ressource zuzuordnen. 
+Sie können die Prozedur mit weiteren Layern vollziehen, um auch diese zu veröffentlichen. Dabei haben die Möglichkeit über die Layer 
+Seite eine neue Ressource mit :guilabel:`Add a new resource` hinzuzufügen. Auf der folgenden Seite wählen Sie den bereits angelegten 
+*Natural Earth* Store in der Auswahlliste aus, um diesem die neue Ressource zuzuordnen. 
 
 Anpassen der Stile
 ------------------
@@ -140,17 +147,17 @@ Sobald Sie |UG| gestartet haben, können Sie per Drag&Drop die zwei folgenden Sh
    :alt: Standard Styling in uDig
 
 Nun ist Orange nicht die bevorzugte Farbe, um Ozeane darzustellen, auch wenn man mit grün dargestellten Ländern leben könnte. Zum Ändern eines Stils des aktuell ausgewählten Layers in der 
-:ref:`Liste der Layer <Layer_list>` klicken Sie auf den Style Button - dieser sieht aus wie eine Farbpalatte - in der Toolbar.
+:ref:`Liste der Layer <Layer_list_de>` klicken Sie auf den Style Button - dieser sieht aus wie eine Farbpalatte - in der Toolbar.
 
-.. _Layer_list:
+.. _Layer_list_de:
 .. image:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
    :alt: Die Listenansicht der Layer
 
-Es wird ein :ref:`Stil Dialog <Style_Pane>` geöffnet, Sie können einfach die Farbe der Flächen in dem Tab `Fill` auf ein zusagendes Blau abändern. Zusätzlich wurde bei dem Beispiel der Ozeane die Deckkraft (opacity) auf 100% gesetzt. Ebenso wurde die gleiche Farbe für die begrenzenden Linien (im Tab `Border`) festgelegt.
+Es wird ein :ref:`Stil Dialog <Style_Pane_de>` geöffnet, Sie können einfach die Farbe der Flächen in dem Tab `Fill` auf ein zusagendes Blau abändern. Zusätzlich wurde bei dem Beispiel der Ozeane die Deckkraft (opacity) auf 100% gesetzt. Ebenso wurde die gleiche Farbe für die begrenzenden Linien (im Tab `Border`) festgelegt.
 
-.. _Style_Pane:
+.. _Style_Pane_de:
 .. image:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
    :scale: 70 %
