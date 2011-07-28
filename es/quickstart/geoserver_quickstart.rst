@@ -29,7 +29,7 @@ Esta guía de inicio rápido describe como:
   * aprender acerca de los clientes que pueden desplegar sus mapas
 
 Iniciar |GS|
-==========
+============
 
 #. Seleccione el ícono "Start GeoServer"
 #. La aplicación tardará unos segundos en iniciar
@@ -87,9 +87,8 @@ Cargando Datos
     un sistema basado en un pen drive USB.
 
 
-En este ejemplo vamos a usar el conjunto de datos `Natural Earth
-<http://naturalearthdata.com>`_ que está incluido en el Live-DVD
-(:file:`/usr/local/share/data/natural_earth/`).
+En este ejemplo vamos a usar el conjunto de datos :doc:`Natural Earth <../overview/naturalearth_overview>` 
+que está incluido en el Live-DVD (:file:`/usr/local/share/data/natural_earth/`).
 
 Primero necesitamos copiar los datos al directorio de datos de GeoServer
 (:file:`/usr/lib/geotools-2.0.2/data_dir/data`). Hemos creado un directorio
@@ -139,7 +138,7 @@ incorporación de datos. Esto lo llevará a la página *Capas*:
 
 A medida que baje por la pagina verá que |GS| ha llenado varios campos por usted.
 Cuando llegue a :guilabel:`Coordinate Reference System`
-podrá ver que en el campo *Native SRS* dice UNKNOWN [#esri]_
+podrá ver que en el campo *Native SRS* dice UNKNOWN 
 Necesitará completar el siguiente campo (*declared SRS*) para asegurarse que |GS|
 sabe donde se localizan los datos. Por el momento confíe en nosotros y escriba 
 epsg:4326 en ese campo, y si no confía vaya a `http://prj2epsg.org/search` y copie
@@ -172,9 +171,7 @@ Usando |UG| para crear estilos simples
 ``````````````````````````````````````
 
 .. note::
-
-   Para mas detalles sobre como usar |UG| ver :ref:`Guía de inicio raṕido uDig 
-<udig-quickstart>`
+   Para mas detalles sobre como usar |UG| ver :doc:`Guía de inicio raṕido uDig <../quickstart/udig_quickstart>`
 
 Una vez abierto |UG| y agregados los archivos shape (usando el botón add data 
 que está arriba a la izquierda). Arrastrar las tablas 10m_land y 10m_ocean 
@@ -186,23 +183,23 @@ en la ventana de mapas. |UG| aplica automáticamente un estilo (para que se pued
 
    *Estilos predeterminados en UDig*
 
-Obviamente un océano anaranjado no se ve bien (aunque la tierra verde es aceptable). Asi que  en :ref:`Layer list <Layer_list>` seleccione el botón de estilos (se ve
+Obviamente un océano anaranjado no se ve bien (aunque la tierra verde es aceptable). Asi que  en :ref:`Layer list <Layer_list_es>` seleccione el botón de estilos (se ve
 como la paleta de un artista). 
 
-.. _Layer_list:
+.. _Layer_list_es:
 .. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
    *La ventana de lista de capas (Layer List)*
 
 
-Esto abrirá el panel de estilos :ref:`Style Pane <Style_Pane>` - en la ventana se
+Esto abrirá el panel de estilos :ref:`Style Pane <Style_Pane_es>` - en la ventana se
 puede seleccionar fácilmente un buen azul para los oceanos haciendo click sobre
 el rectángulo de color junto a la etiqueta relleno (fill) y eligiendo de la paleta
 de colores que ofrece. También se puede incrementar la opacidad hasta el 100%
 para que el color se vea mejor.
 
-.. _Style_Pane:
+.. _Style_Pane_es:
 .. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
@@ -218,7 +215,7 @@ Una vez listo, hacer click en ``OK`` y |UG| mostrará los cambios.
 
    *Océanos Azules*
 
-Finalmente preferimos un color mas significativo para la tierra que el verde [#fn1]_ 
+Finalmente preferimos un color mas significativo para la tierra que el verde  
 de manera que repetimos los pasos explicados para cambiar el color de la capa land.
 Ninguno de los colores predeterminados nos parece adecuado, asi que vamos a la sección
 ``define custom colors`` para crear uno que nos guste.
@@ -234,7 +231,7 @@ Esto da como resultado un mapa básico del mundo que se ve bien
    :align: center
    :width: 90%
 
-   *Un mapa básico del mundo *
+   *Un mapa básico del mundo*
 
 Agregando el estilo a |GS|
 ``````````````````````````
@@ -300,16 +297,10 @@ Clientes para capas WMS
 Existe una gran variedad de clientes que pueden utilizar las capas WMS que está
 sirviendo desde |GS|. Esta es una lista de algunos de ellos:
 
-    * :ref:`uDig <udig-quickstart>`
+    * :doc:`uDig <../overview/udig_overview>`
 
-    * :ref:`OpenLayers <openlayers-quickstart>`
+    * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :ref:`Atlas Styler <atlasstyler-quickstart>` 
+    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
 
-    * :ref:`MapBender <mapbender-quickstart>`
-
-
-.. Rubric:: Footnotes
-.. [#fn1] Si viven en el centro de Pennsylvania en verano no esperará ningún verde.
-.. [#esri] hay un well known text (WKT) perfectamente utilizable para las 
-proyecciones, pero ESRI no lo usa.
+    * :doc:`MapBender <../overview/mapbender_overview>`

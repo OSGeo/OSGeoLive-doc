@@ -78,10 +78,8 @@
     είτε να εγκαταστήσετε το GeoServer από το DVD στον
     σκληρό σας δίσκο ή να δημιουργήσετε ένα σύστημα βασισμένο σε στίκ USB.
 
-
-Σε αυτό το παράδειγμα θα χρησιμοποιήσουμε τα δεδομένα `Natural Earth
-<http://naturalearthdata.com>`_ τα οποία περιλαμβάνονται στο DVD
-(:file:`/usr/local/share/data/natural_earth/`).
+Σε αυτό το παράδειγμα θα χρησιμοποιήσουμε τα δεδομένα :doc:`Natural Earth <../overview/naturalearth_overview>` 
+τα οποία περιλαμβάνονται στο DVD (:file:`/usr/local/share/data/natural_earth/`).
 
 Αρχικά χρειάζεται να αντιγράψουμε τα δεδομένα στο φάκελο δεδομένων του GeoServer
 (:file:`/usr/lib/geotools-2.0.2/data_dir/data`). Δημιουργήσαμε ένα φάκελο 
@@ -174,21 +172,21 @@ add data πάνω αριστερά). Προσθέτουμε τα επίπεδα 
 
    *Βασικό στύλ στο UDig*
 
-Προφανώς δεν θέλουμε να κρατήσουμε πορτοκαλί χρώμα στον ωκεανό. Επομένως στην  :ref:`λίστα επιπέδων <Layer_list>` επιλέξτε το κουμπί στύλ (μοιάζει με παλέτα ζωγράφου). 
+Προφανώς δεν θέλουμε να κρατήσουμε πορτοκαλί χρώμα στον ωκεανό. Επομένως στην  :ref:`λίστα επιπέδων <Layer_list_el>` επιλέξτε το κουμπί στύλ (μοιάζει με παλέτα ζωγράφου). 
 
-.. _Layer_list:
+.. _Layer_list_el:
 .. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
    *Το παράθυρο λίστας επιπέδων*
 
 
-Αυτό θα ανοίξει το :ref:`παράθυρο στύλ <Style_Pane>` - και σε αυτό το παράθυρο μπορείτε να επιλέξετε ένα
+Αυτό θα ανοίξει το :ref:`παράθυρο στύλ <Style_Pane_el>` - και σε αυτό το παράθυρο μπορείτε να επιλέξετε ένα
 ωραίο μπλέ για τους ωκεανούς κάνοντας κλίκ στο χρωματιστό κουτί
 επιλέγοντας το χρώμα με το κατάλληλο εργαλείο που εμφανίζεται. Επιπλέον
 μπορείτε να αυξήσετε την αδιαφάνεια στο 100% για να εμφανίζεται καλύτερα το χρώμα. 
 
-.. _Style_Pane:
+.. _Style_Pane_el:
 .. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
@@ -279,11 +277,11 @@ layers in :file:`/usr/local/share/geoserver`.
 Υπάρχουν πολλές εφαρμογές που μπορούν να εμφανίσουν τα επίπεδα WMS που σερβίρει ο 
 |GS|. Αυτή είναι μια μικρή λίστα με μερικά από αυτά 
 
-    * :ref:`uDig <udig-quickstart>`
+    * :doc:`uDig <../overview/udig_overview>`
 
-    * :ref:`OpenLayers <openlayers-quickstart>`
+    * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :ref:`Atlas Styler <atlasstyler-quickstart>` 
+    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
 
-    * :ref:`MapBender <mapbender-quickstart>`
+    * :doc:`MapBender <../overview/mapbender_overview>`
 

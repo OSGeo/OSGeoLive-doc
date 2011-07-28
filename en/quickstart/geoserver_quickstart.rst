@@ -73,9 +73,8 @@ Loading Data
     hard drive or  create a USB stick based system.
 
 
-In this example we are going to use the `Natural Earth data set
-<http://naturalearthdata.com>`_ that is included on the Live-DVD
-(:file:`/usr/local/share/data/natural_earth/`).
+In this example we are going to use the :doc:`Natural Earth data set <../overview/naturalearth_overview>`
+that is included on the Live-DVD (:file:`/usr/local/share/data/natural_earth/`).
 
 We need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You

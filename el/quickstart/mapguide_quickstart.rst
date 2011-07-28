@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _mapguide-quickstart:Οδηγός γρήγορου ξεκινήματος mapguide
+.. _mapguide-quickstart:
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
   :scale: 100 %
