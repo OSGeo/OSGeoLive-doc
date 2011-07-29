@@ -34,7 +34,7 @@ GDAL
 
 OGR
   * get information about your data with ogrinfo 
-  * use :command:`ogr2ogr` to transform your data to other formats
+  * use ogr2ogr to transform your data to other formats
  
 
 Get to know GDAL

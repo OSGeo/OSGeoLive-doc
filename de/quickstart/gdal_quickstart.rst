@@ -16,7 +16,7 @@ GDAL/OGR Quickstart
 *******************
 
 Sie brauchen lediglich ein Terminal für die Übungen. Zur Visualisierung der Ergebnisse 
-können Sie ein Desktop GIS von OSGeo-Live wie beispielsweise :doc:`Quantum GIS (QGIS) <../overview/qgis_overview>` verwenden.
+können Sie ein Desktop GIS von OSGeo-Live wie beispielsweise :doc:`../overview/qgis_overview` verwenden.
 
 Dieses Quickstart behandelt zwei Teile - GDAL (Rasterdaten) und OGR (Vektordaten). 
 Wir werden mit der Betrachtung von GDAL beginnen.
