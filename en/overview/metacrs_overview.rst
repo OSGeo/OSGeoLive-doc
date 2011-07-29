@@ -9,7 +9,7 @@
   :scale: 60 %
   :alt: project logo
   :align: right
-  :target: http://gdal.org/
+  :target: http://trac.osgeo.org/metacrs/wiki
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -23,7 +23,12 @@ MetaCRS
 Coordinate Reference System Transformations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. comment: Can we please get an image. Maybe a collage of different projections. Make sure the image has rights to be included in a CC document.
+.. image:: ../../images/project_logos/logo-metacrs.png
+  :scale: 100 %
+  :alt: map projection example
+  :align: right
+  :target: http://trac.osgeo.org/metacrs/wiki
+
 
 The group of MetaCRS projects provide libraries of methods to transform between difference coordinate reference systems.
 A geographic coordinate reference systems allows all points on the earth to be described as set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map.
