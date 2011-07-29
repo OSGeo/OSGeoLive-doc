@@ -40,7 +40,7 @@ Supported formats:
 Key features:
 
 * User friendly GUI, focused on an easy learning curve
-* Available in 12 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian portuguese, Finnish)
+* Available in 12 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian Portuguese, Finnish)
 * Advanced printing module based on OpenOffice offimatic suite (by an extension)
 * Topology consistency rules: pre/during/post edition
 * Topology validation and cleaning tools (intersect/eliminate/clean)
