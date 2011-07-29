@@ -17,7 +17,7 @@ GDAL/OGR Quickstart
 
 You will need nothing but a terminal for this quickstart. If you want to
 visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeo-Live like :doc:`Quantum GIS (QGIS) <../overview/qgis_overview>`. 
+applications on OSGeo-Live like :doc:`../overview/qgis_overview`. 
 
 This Quick Start is devided in two parts GDAL (raster data) and OGR
 (vector data). We will start with GDAL.
@@ -34,7 +34,7 @@ GDAL
 
 OGR
   * get information about your data with ogrinfo 
-  * use ogr2ogr to transform your data to other formats
+  * use :program:`ogr2ogr` to transform your data to other formats
  
 
 Get to know GDAL
