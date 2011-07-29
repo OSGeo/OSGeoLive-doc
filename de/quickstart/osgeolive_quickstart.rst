@@ -13,7 +13,7 @@ OSGeo-Live Quickstart
 Dieser Quick Start (Schnellstart) beschreibt, wie die OSGeo-Live DVD gestartet wird.
 
 Systemvoraussetzungen
--------------------
+---------------------
 
 * RAM: 512 MB, besser 1 GB.
 * CPU: 1 GHz i686 oder kompatibel (Intel/AMD)
@@ -22,13 +22,13 @@ Systemvoraussetzungen
  * Keine benötigt, wenn sie direkt von DVD läuft.
  * 5 GB, wenn Sie das System auf der Festplatte installieren möchten.
 
-* Mouse: eine 3-Button Maus ist nützlich, vor allem für Mac Trackpad Benutzer.
+* Maus: eine 3-Button Maus ist nützlich, vor allem für Mac Trackpad Benutzer.
 
 Starten:
-----
+--------
 
   Laden Sie eine OSGeo-Live DVD von: http://download.osgeo.org/livedvd 
-  Brennen Sie das Abbild auf eine DVD und stecken sie in das Laufwerk ihres Rechners, anschließend starten Sie ihn neu.
+  Brennen Sie das Abbild auf eine DVD und legen sie diese in das Laufwerk ihres Rechners, anschließend starten Sie ihn neu.
 
   Wenn ihr Computer entsprechend eingestellt ist (wie es häufig der Fall ist) startet er jetzt von der DVD ein Xubuntu mit installierten Geodaten-Anwendungen. Ansonsten müssen Sie die im BIOS die Starteinstellungen ändern oder den Bootmenü-Button (sofern vorhanden) direkt nach dem Einschalten drücken.
 
@@ -57,7 +57,7 @@ Starten:
   Testen Sie die vielen Anwendungen aus dem :menuselection:`Geospatial` Menü. 
 
 Siehe auch:
----------
+-----------
 
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`

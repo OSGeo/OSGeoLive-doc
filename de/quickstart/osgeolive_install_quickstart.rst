@@ -6,9 +6,9 @@
 
 .. _osgeolive-install-quickstart:
  
-*******************************
+********************************************
 OSGeo-Live auf einer Festplatte installieren
-*******************************
+********************************************
 
 OSGeo-Live kann auf die gleiche Art auf Ihrer Festplatte installiert werden,
 wie auch die Ubuntu Distribution installiert wird.
@@ -17,7 +17,7 @@ Dies kann auch innerhalb einer virtuellen Maschine (VM) passieren, um eine perma
 OSGeo-Live VM aus einem DVD oder ISO Abbild zu erzeugen.
 
 Systemvoraussetzungen
--------------------
+---------------------
 
 * 12 GB freier Festplattenspeicher
 
