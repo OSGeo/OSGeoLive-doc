@@ -334,8 +334,10 @@ If you run ogrinfo without a parameter you will get a summary about your data an
 
 You can forward the result from ogrinfo to grep to filter and get only the attribute COUNTRY.
 
-:: 
+::
+
 	ogrinfo ../natural_earth/ 10m-admin-0-countries | grep COUNTRY
+	
 	COUNTRY: String (100.0)
 	COUNTRY (String) = Afghanistan
 	COUNTRY (String) = Akrotiri Sovereign Base Area

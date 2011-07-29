@@ -325,8 +325,10 @@ der Daten gefolgt von einer Sektion für jeden einzelnen Datensatzes.
 Sie können die Ergebnisse von ogrinfo an grep weitergeben, um die Daten zu filtern 
 und nur das Attribut COUNTRY auszugeben.
 
-:: 
+::
+
 	ogrinfo ../natural_earth/ 10m-admin-0-countries | grep COUNTRY
+
 	COUNTRY: String (100.0)
 	COUNTRY (String) = Afghanistan
 	COUNTRY (String) = Akrotiri Sovereign Base Area
