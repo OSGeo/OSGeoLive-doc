@@ -17,7 +17,7 @@ GDAL/OGR Quickstart
 
 You will need nothing but a terminal for this quickstart. If you want to
 visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeo-Live like QuantumGIS. 
+applications on OSGeo-Live like :doc:`QuantumGIS <../overview/qgis_overview>`. 
 
 This Quick Start is devided in two parts GDAL (raster data) and OGR
 (vector data). We will start with GDAL.
@@ -40,8 +40,8 @@ OGR
 Get to know GDAL
 ================
 
-You will find the demo data at /usr/local/share/data. We want to have a
-look at the NaturalEarth data in this quickstart. We want to work with a
+You will find the demo data at :file:`/usr/local/share/data`. We want to have a
+look at the :doc:`Natural Earth data <../overview/naturalearth_overview>` in this quickstart. We want to work with a
 copy of the data. So the first step is to copy the data to your home
 directory.
 

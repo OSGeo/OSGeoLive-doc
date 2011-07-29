@@ -15,8 +15,8 @@
 GDAL/OGR Quickstart
 *******************
 
-Sie brauchen lediglich ein Terminal für die Übungen. Zur Visualisierung der Ergebnisse der Übungen, 
-können Sie Desktop GIS Software der OSGeo-Live wie beispielsweise QuantumGIS verwenden.
+Sie brauchen lediglich ein Terminal für die Übungen. Zur Visualisierung der Ergebnisse 
+können Sie ein Desktop GIS von OSGeo-Live wie beispielsweise :doc:`QuantumGIS <../overview/qgis_overview>` verwenden.
 
 Dieses Quickstart behandelt zwei Teile - GDAL (Rasterdaten) und OGR (Vektordaten). 
 Wir werden mit der Betrachtung von GDAL beginnen.
@@ -27,20 +27,18 @@ GDAL
   * Untersuchen von Rasterdaten mit gdalinfo
   * Formatumwandlung mit gdal_translate 
   * Transformieren von Daten mit gdalwarp
-  * Zusammen fügen von Daten mit gdal_warp oder gdal_merge.py
-  * Erzeugen Sie einen Bildkatalog in Form einer Shapedatei mit gdaltindex
-   
+  * Zusammenfassung von Daten mit gdal_warp oder gdal_merge.py
+  * Erzeugen eines Bildkatalogs in Form einer Shapedatei mit gdaltindex
 
 OGR
   * Untersuchen von Vektordaten mit ogrinfo 
   * Verwendung von ogr2ogr zur Umwandlung von Vektordaten in andere Formate
- 
 
 Lernen Sie GDAL kennen
 ======================
 
-Sie finden die Demodaten unter /usr/local/share/data. Für die folgenden Übungen werden 
-die NaturalEarth Daten verwendet. Wir werden mit einer Kopie der Daten arbeiten. 
+Sie finden die Demodaten unter :file:`/usr/local/share/data`. Für die folgenden Übungen werden 
+die :doc:`Natural Earth Daten <../overview/naturalearth_overview>` verwendet. Wir werden mit einer Kopie der Daten arbeiten. 
 Daher ist der erste Schritte, die Daten in Ihr home-Verzeichnis zu kopieren.
 
 :: 
@@ -49,7 +47,7 @@ Daher ist der erste Schritte, die Daten in Ihr home-Verzeichnis zu kopieren.
   cp /usr/local/share/data/natural_earth/ /gdal_natural_earth 
 
  
-Unter dem folgenden Pfad finden Sie eine NaturalEarth Rasterdatei und die dazugehörige tfw-Datei:
+Unter dem folgenden Pfad finden Sie eine Natural Earth Rasterdatei und die dazugehörige tfw-Datei:
 :: 
   
   cd /home/usr/gdal_natural_earth/HYP_50M_SR_W
@@ -88,16 +86,16 @@ gdalinfo - zum Untersuchen von Rasterdaten
 	Band 3 Block=10800x1 Type=Byte, ColorInterp=Blue
 
 Hinweis: 
-  * Treiber "GTiff/GeoTIFF"
-  * Größe 10800x5400
-  * 3 Bands vom Typ Byte. 
+  * Treiber (Driver) : "GTiff/GeoTIFF"
+  * Größe (Size) ist 10800x5400
+  * 3 Bänder (1-3) vom Typ Byte. 
   * Ausgabe der Koordinaten
   * es liegt keine Angabe zum Koordinatensystem vor
 
 
 
 gdal_translate zur einfachen Formatumwandlung
-============================================
+=============================================
 
 Als erstes lassen wir uns die verfügbaren Treiber ausgeben. Über die Angabe des zusätzlichen Parameters --formats gibt gdal_translate die Liste der verfügbaren Formate aus.
 
@@ -317,8 +315,8 @@ Lassen Sie sich eine Zusammenfassung zu Ihren Daten mit ogrinfo und -so ausgeben
 	SHAPE_LENG: Real (19.11)
 	SHAPE_AREA: Real (19.11)
 
-Wenn Sie ogrinfo ohne einen zusätzlichen Parameter aufrufen, erhalten Sie zuerst die Zusammenfassung
- der Daten gefolgt von einer Sektion für jeden einzelnen Datensatzes.
+Wenn Sie ogrinfo ohne einen zusätzlichen Parameter aufrufen, erhalten Sie zuerst die Zusammenfassung 
+der Daten gefolgt von einer Sektion für jeden einzelnen Datensatzes.
 
 ::
 
@@ -346,11 +344,9 @@ unterstützten Formate.
 Nutzen Sie ogr2ogr um Vektordaten in verschiedene Formate zu konvertieren
 =========================================================================
 
-Sie können ogr2ogr nutzem 
-####
-You can use ogr2ogr to converts simple features data between file
-formats. You can use --formats to get the list of the supported formats
-with read/write information. 
+Sie können ogr2ogr nutzen, um Daten aus einem Format in ein anderes Format zu konvertieren. 
+Eine Liste der unterstützen Formate mit der Information, ob auf diese nur lesend bzw. auch schreibend 
+zugegriffen werden kann, wenn die Option `--formats` ohne weitere Paramater verwendet wird.
 
 Konvertieren Sie die Länder in das GML-Format.
 
@@ -365,19 +361,19 @@ Weitere Aufgaben
 
 Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
-#. Verwenden Sie gdalwarp oder gdal_merge.py um Ihr Daten zu ##to mosaic your data
+#. Verwenden Sie gdalwarp oder gdal_merge.py um Ihr Daten zu kacheln
 
-#. Verwenden Sie gdaladdo, um interne Übersichten aufzubauen#Try gdaladdo to build internal overviews
+#. Verwenden Sie gdaladdo, um interne Übersichten aufzubauen
 
-#. QGIS uses GDAL/OGR too to suport many formats. It also provides the GdalTools Plugin to process raster data. This plugin integrates the gdal-tools into QGIS. 
+#. QGIS verwendet GDAL/OGR als Datenschnittstelle für die unterstützten Formate. Es steht auch ein GdalTools Plugin für die Verarbeitung von Rasterdaten zur Verfügung. Dieses ist auch in QGIS integriert.
 
-#. Try ogr2ogr to import/export your vector data to other formats like PostGIS. Have a look at the options ogr2ogr provides.
+#. Verwenden Sie ogr2ogr für den Import/Export von Vektordaten in andere Formate, wie z.B. :doc:`PostGIS <../overview/postgis_overview>`. Schauen Sie sich bitte auch die anderen Optionen von ogr2ogr an.
 
-#. Try the QGIS plugin OGR-Layer-Konverter.
+#. Testen Sie das QGIS Plugin **OGR-Layer-Konverter**.
 
 
 Der nächste Schritt
-====================
+===================
 
 Dies war lediglich der erste Einstieg in GDAL und OGR. Es gibt sehr viele weitere Funktionalitäten zu entdecken.
 
