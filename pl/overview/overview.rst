@@ -27,8 +27,8 @@ Systemy zarządzania bazami danych
 
 Desktop GIS
 -----------
-* :doc:`grass_overview` - [:doc:`Wprowadzenie <../quickstart/grass_quickstart>`]
 * :doc:`qgis_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_quickstart>`]
+* :doc:`grass_overview` - [:doc:`Wprowadzenie <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`Wprowadzenie <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`Wprowadzenie <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`Wprowadzenie <../quickstart/kosmo_quickstart>`]
@@ -52,24 +52,25 @@ Nawigacja i Mapy
 
 Narzędzia przestrzenne
 ----------------------
+* :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
 * :doc:`gdal_overview`  - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - GeoSpatial Data Translation Tools
 * :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
 * :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
-* :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
 * :doc:`maptiler_overview` - [:doc:`Wprowadzenie <../quickstart/maptiler_quickstart>`] - tworzenie kafli map
+* :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
 * :doc:`R_overview` - [:doc:`Wprowadzenie <../quickstart/R_quickstart>`] - programowanie statystyczne
-* :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
 
 Usługi sieciowe
 ---------------
-* :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
 * :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
-* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
+* :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
+* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`mapproxy_overview` - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] katalog metadanych i sieciowe usługi katalogowe
-* :doc:`52nWPS_overview`  - [:doc:`Wprowadzenie <../quickstart/52nWPS_quickstart>`] - Web Processing Service
+* :doc:`52nWSS_overview` - [:doc:`Wprowadzenie <../quickstart/52nWSS_quickstart>'] - Web Security Service
+* :doc:`52nWPS_overview` - [:doc:`Wprowadzenie <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - WFS-T Service
@@ -82,9 +83,11 @@ Biblioteki geoprzesrzenne
 -------------------------
 * :doc:`geotools_overview` - Java GIS Toolkit
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations
+* :doc:`liblas_overview`  - libLAS LiDAR Data Access
 
 Instalatory dla Windows i Apple
 -------------------------------
-* `Instalatory Microsoft Windows <../WindowsInstallers/>`_
-* `Instalatory Apple OSX <../MacInstallers/>`_
+* `Instalatory Microsoft Windows <../../WindowsInstallers/>`_
+* `Instalatory Apple OSX <../../MacInstallers/>`_
+
 .. include :: ../disclaimer.rst

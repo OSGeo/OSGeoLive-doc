@@ -52,13 +52,13 @@ Navegación y mapas
 
 Herramientas Espaciales
 -----------------------
-* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Render Cartográfico
+* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Integración de Datos
 * :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Herramientas de transformación de datos Geoespaciales
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Procesado de imágenes
+* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Render Cartográfico
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Render Cartográfico
 * :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Creacion de *Map Tiles*
+* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Procesado de imágenes
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Programación Estadística
-* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Integración de Datos
 
 Servicios Web
 -------------
@@ -69,17 +69,25 @@ Servicios Web
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`]
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catálogo de Metadatos y Servicios Web de Catálogo
+* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>'] - Web Security Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servicios Web de Geoprocesamiento
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servicios de Observación de Sensores
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento
+* :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
 Datos
 -----
 * :doc:`naturalearth_overview` - Conjuntos de datos Geográficos
 
+Geospatial Libraries
+--------------------
+* :doc:`geotools_overview` - Java GIS Toolkit
+* :doc:`metacrs_overview` - Coordinate Reference System Transformations
+* :doc:`liblas_overview`  - libLAS LiDAR Data Access
+
 Instaladores para Windows y Apple
 ---------------------------------
-* `Instaladores Microsoft Windows <../WindowsInstallers/>`_
-* `Instaladores Apple OSX <../MacInstallers/>`_
+* `Instaladores Microsoft Windows <../../WindowsInstallers/>`_
+* `Instaladores Apple OSX <../../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst

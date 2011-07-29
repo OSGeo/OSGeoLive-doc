@@ -52,13 +52,13 @@ Navigation und Karten
 
 GIS Werkzeuge
 -------------
-* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Kartographisches Rendering
+* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
 * :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Werkzeuge zur räumlichen Datentransformation
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Bildprozessierung
+* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Kartographisches Rendering
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Kartographisches Rendering
 * :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Erzeuge Bildkacheln (Tiles)
+* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Bildprozessierung
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
-* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Datenintegration
 
 Internet Dienste
 ----------------
@@ -69,17 +69,25 @@ Internet Dienste
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`]
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Katalog und Katalogdienst für das Web
+* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>'] - Web Security Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
 Daten
 -----
 * :doc:`naturalearth_overview` - freie Geodaten
 
-Windows and Apple Installers
-----------------------------
-* `Microsoft Windows Installers <../WindowsInstallers/>`_
-* `Apple OSX Installers <../MacInstallers/>`_
+GIS Bibliotheken
+----------------
+* :doc:`geotools_overview` - Java GIS Toolkit 
+* :doc:`metacrs_overview` - Transformation von Daten zwischen Korrdinatensystemen
+* :doc:`liblas_overview`  - libLAS LiDAR Datenzugriffe
+
+Ausführbare Programme für Apple und Windows
+-------------------------------------------
+* `Programme für Microsoft Windows <../../WindowsInstallers/>`_
+* `Programme für Apple OSX <../../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst

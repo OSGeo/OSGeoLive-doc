@@ -27,8 +27,8 @@
 
 Λογισμικά GIS
 -------------
-* :doc:`grass_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/grass_quickstart>`]
 * :doc:`qgis_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_quickstart>`]
+* :doc:`grass_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/kosmo_quickstart>`]
@@ -52,42 +52,42 @@
 
 Χωρικά Εργαλεία
 ---------------
+* :doc:`geokettle_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart>`] - Ενοποίηση δεδομένων
 * :doc:`gdal_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart>`] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
 * :doc:`gmt_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart>`] - Χαρτογραφική Σύνθεση
 * :doc:`mapnik_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart>`] - Χαρτογραφική Σύνθεση
-* :doc:`otb_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/otb_quickstart>`] - Ανάλυση Εικόνας
 * :doc:`maptiler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/maptiler_quickstart>`] - Δημιουργία Τετραγωνιδίων Χαρτών
+* :doc:`otb_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/otb_quickstart>`] - Ανάλυση Εικόνας
 * :doc:`R_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/R_quickstart>`] - Στατιστικός Προγραμματισμός
-* :doc:`geokettle_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart>`] - Ενοποίηση δεδομένων
 
 Διαδικτυακές Υπηρεσίες
 ----------------------
-* :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
 * :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
-* :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
+* :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
+* :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Εξυπηρετητής QGIS
+* :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
+* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>'] - Web Security Service
 * :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`]- Web Processing Service
 * :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-* :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
 * :doc:`tinyows_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart>`] - WFS-T Service
-
-Γεωχωρικές Βιβλιοθήκες
-----------------------
-* :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
-* :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
 
 Δεδομένα
 --------
 * :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
 
+Γεωχωρικές Βιβλιοθήκες
+----------------------
+* :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
+* :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
+* :doc:`liblas_overview`  - libLAS LiDAR Data Access
+
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------
- 
-* `Προγράμματα εγκατάστασης Microsoft Windows <../WindowsInstallers/>`_
-* `Προγράμματα εγκατάστασης Apple OSX <../MacInstallers/>`_
-
+* `Προγράμματα εγκατάστασης Microsoft Windows <../../WindowsInstallers/>`_
+* `Προγράμματα εγκατάστασης Apple OSX <../../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst

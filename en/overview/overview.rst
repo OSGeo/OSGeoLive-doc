@@ -52,13 +52,13 @@ Navigation and Maps
 
 Spatial Tools
 -------------
-* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Cartographic Rendering
+* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 * :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - GeoSpatial Data Translation Tools
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing
+* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Cartographic Rendering
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering
 * :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Create Map Tiles
+* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistical Programming
-* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Data Integration
 
 Web Services
 ------------
@@ -87,8 +87,7 @@ Geospatial Libraries
 
 Windows and Apple Installers
 ----------------------------
- 
-* `Microsoft Windows Installers <../WindowsInstallers/>`_
-* `Apple OSX Installers <../MacInstallers/>`_
+* `Microsoft Windows Installers <../../WindowsInstallers/>`_
+* `Apple OSX Installers <../../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst
