@@ -17,7 +17,7 @@ GDAL/OGR Quickstart
 
 You will need nothing but a terminal for this quickstart. If you want to
 visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeo-Live like :doc:`QuantumGIS <../overview/qgis_overview>`. 
+applications on OSGeo-Live like :doc:`Quantum GIS (QGIS) <../overview/qgis_overview>`. 
 
 This Quick Start is devided in two parts GDAL (raster data) and OGR
 (vector data). We will start with GDAL.
@@ -57,7 +57,7 @@ You find a NaturalEarth Raster file and a tfw-file at:
   cd /home/usr/gdal_natural_earth/HYP_50M_SR_W
 
 
-.. tip:: Open the file with a Desktop GIS like Quantum GIS. And have a look.
+.. tip:: Open the file with a Desktop GIS like QGIS. And have a look.
 
 Get information about the raster data with gdalinfo
 ===================================================
@@ -184,7 +184,7 @@ the path to the file.
 
  gdaltindex index_natural_earth.shp *st.tif
 
-Have a look at your output shapefile with Quantum GIS and ogrinfo (you
+Have a look at your output shapefile with QGIS and ogrinfo (you
 will learn more about ogrinfo later in this tutorial)
 
   .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
@@ -280,7 +280,7 @@ Get to know OGR
   cd /home/usr/gdal_natural_earth/
 
 
-.. tip:: Open the shape file with a Desktop GIS like Quantum GIS. And have a look.
+.. tip:: Open the shape file with a Desktop GIS like QGIS. And have a look.
 
 
 Get information about the vector data with ogrinfo

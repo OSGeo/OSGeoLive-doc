@@ -17,8 +17,8 @@
   :target: http://www.osgeo.org
 
 
-Quantum GIS
-===========
+Quantum GIS (QGIS)
+==================
 
 デスクトップGIS
 ~~~~~~~~~~~

@@ -16,7 +16,7 @@ GDAL/OGR Quickstart
 *******************
 
 Sie brauchen lediglich ein Terminal für die Übungen. Zur Visualisierung der Ergebnisse 
-können Sie ein Desktop GIS von OSGeo-Live wie beispielsweise :doc:`QuantumGIS <../overview/qgis_overview>` verwenden.
+können Sie ein Desktop GIS von OSGeo-Live wie beispielsweise :doc:`Quantum GIS (QGIS) <../overview/qgis_overview>` verwenden.
 
 Dieses Quickstart behandelt zwei Teile - GDAL (Rasterdaten) und OGR (Vektordaten). 
 Wir werden mit der Betrachtung von GDAL beginnen.
@@ -53,7 +53,7 @@ Unter dem folgenden Pfad finden Sie eine Natural Earth Rasterdatei und die dazug
   cd /home/usr/gdal_natural_earth/HYP_50M_SR_W
 
 
-.. tip:: Schauen Sie sich die Datei mit einem Desktop GIS beispielsweise Quantum GIS an.
+.. tip:: Schauen Sie sich die Datei mit einem Desktop GIS beispielsweise QGIS an.
 
 gdalinfo - zum Untersuchen von Rasterdaten
 ==========================================
@@ -177,7 +177,7 @@ wird ein Polygon mit dem Umring der Rasterdatei und dem Pfad zur Rasterdatei erz
 
  gdaltindex index_natural_earth.shp *st.tif
 
-Schauen Sie sich Ihre Ausgabe-Shapedatei mit Quantum GIS und ogrinfo an (später werden Sie
+Schauen Sie sich Ihre Ausgabe-Shapedatei mit QGIS und ogrinfo an (später werden Sie
 noch mehr über ogrinfo erfahren).
 
   .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
@@ -224,7 +224,7 @@ Geographischen Projektion WGS84 in die Mercator Projektion umwandeln:
 
    gdalwarp -t_srs '+proj=merc +datum=WGS84' HYP_50M_SR_W_4326.tif mercator.tif
 
-Verwenden Sie gdalinfo, um sich die Veränderung anzuschauen. Schauen Sie sich das Bild auch mit Quantum GIS an.
+Verwenden Sie gdalinfo, um sich die Veränderung anzuschauen. Schauen Sie sich das Bild auch mit QGIS an.
 
   .. image:: ../../images/screenshots/800x600/gdal_mercator.png
      :scale: 80
@@ -271,7 +271,7 @@ Lernen Sie OGR kennen
   cd /home/usr/gdal_natural_earth/
 
 
-.. tip:: Schauen Sie sich die Shapedatei mit einem Desktop GIS wie Quantum GIS an.
+.. tip:: Schauen Sie sich die Shapedatei mit einem Desktop GIS wie QGIS an.
 
 
 Nutzen Sie ogrinfo zur Ausgabe von Informationen über Vektordaten
