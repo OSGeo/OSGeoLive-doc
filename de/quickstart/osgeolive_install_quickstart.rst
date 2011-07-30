@@ -19,7 +19,7 @@ OSGeo-Live VM aus einem DVD oder ISO Abbild zu erzeugen.
 Systemvoraussetzungen
 ---------------------
 
-* 12 GB freier Festplattenspeicher
+* 10 GB freier Festplattenspeicher
 
 Install OSGeo-Live
 ------------------

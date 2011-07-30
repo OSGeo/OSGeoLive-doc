@@ -20,7 +20,7 @@ Systemvoraussetzungen
 * Festplatte: 
 
  * Keine benötigt, wenn sie direkt von DVD läuft.
- * 5 GB, wenn Sie das System auf der Festplatte installieren möchten.
+ * 10 GB, wenn Sie das System auf der Festplatte installieren möchten.
 
 * Maus: eine 3-Button Maus ist nützlich, vor allem für Mac Trackpad Benutzer.
 
