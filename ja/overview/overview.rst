@@ -79,15 +79,15 @@ Web サービス
 ----
 * :doc:`naturalearth_overview` - 地理空間情報データセット
 
-Geospatial Libraries
+地理情報ライブラリ
 --------------------
-* :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations
-* :doc:`liblas_overview`  - libLAS LiDAR Data Access
+* :doc:`geotools_overview` - Java GIS ツールキット
+* :doc:`metacrs_overview` - 座標形参照、変換システム
+* :doc:`liblas_overview`  - libLAS LiDAR データアクセス
 
-Windows and Apple Installers
+Windows 及び Apple インストーラー
 ----------------------------
-* `Microsoft Windows Installers <../../WindowsInstallers/>`_
-* `Apple OSX Installers <../../MacInstallers/>`_
+* `Microsoft Windows インストーラー <../../WindowsInstallers/>`_
+* `Apple OSX インストーラー <../../MacInstallers/>`_
 
 .. include :: ../disclaimer.rst
