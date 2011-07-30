@@ -23,7 +23,7 @@ It is also an excellent framework for rapid prototyping to develop custom GIS fu
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
-  :align: center
+  :align: right
 
 Core Features
 -------------
