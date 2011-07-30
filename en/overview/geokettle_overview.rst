@@ -1,5 +1,5 @@
 :Author: Thierry Badard 
-:Version: osgeo-live5.0
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
 .. _geokettle-overview:
@@ -109,4 +109,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/geokettle_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geokettle_quickstart>`
