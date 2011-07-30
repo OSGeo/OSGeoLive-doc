@@ -19,7 +19,7 @@ OSGeo-Live Virtual Machine from a DVD or ISO image.
 System Requirements
 -------------------
 
-* 5 Gig of spare Hard Disk Space
+* 10 Gig of spare Hard Disk Space
 
 Install OSGeo-Live
 ------------------

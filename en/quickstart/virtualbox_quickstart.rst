@@ -18,7 +18,7 @@ System Requirements
 
 * RAM: 1 Gig, preferably 2Gig if you plan to run other applications as well
 * Spare Hard Disk Space:
- * 5 Gig if running from ISO
+ * 10 Gig if running from ISO
  * 17 Gig if installing locally from an ISO
 
 Create a Virtual Machine

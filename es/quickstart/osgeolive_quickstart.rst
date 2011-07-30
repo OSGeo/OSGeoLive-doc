@@ -20,7 +20,7 @@ Requerimientos de Sistema
 * Disco duro: 
 
  * No necesario cuando se ejecute directamente desde el DVD 
- * 5 Gig si se desea instalar el Sistema Operativo también. 
+ * 10 Gig si se desea instalar el Sistema Operativo también. 
 
 * Ratón: se recomienda un ratón de 3 botones, especialmente para usuarios de Mac. 
 

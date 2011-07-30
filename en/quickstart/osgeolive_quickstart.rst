@@ -20,7 +20,7 @@ System Requirements
 * Hard Disk: 
 
  * None required if running directly from the DVD 
- * 5 Gig if you wish to install the operating system. 
+ * 10 Gig if you wish to install the operating system. 
 
 * Mouse: a 3-button mouse is useful, especially for Mac trackpad users. 
 
