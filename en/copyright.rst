@@ -6,34 +6,37 @@ OSGeo-Live is composed entirely of free software, free data and free documentati
 * Project Overviews and Overview Translations, are provided under a `Creative Commons Attribution 3.0 Unported License <http://creativecommons.org/licenses/by/3.0/>`_.
 * Quickstarts and Quickstart Translations, are provided under a `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 * Documentation might also be available under other licenses, as listed below.
-* Software on OSGeo-Live is available under various Open Source licenses, as described on project websites, and copied into the Project Overviews.
+* Software on OSGeo-Live is available under various Open Source licenses, as listed in the Project Overviews.
 * Data on OSGeo-Live is available under various Open Licences.
 
 Attributing OSGeo-Live Documentation
 ------------------------------------
-As per the `terms of the Creative Commons license <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, if you include OSGeo-Live documentation into a new document, you will need to attribute the contributors. You may use text similar to one of the following:
+As per the `terms of the Creative Commons license <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, if you include OSGeo-Live documentation into a new document, you will need to attribute the contributors.
+Further, if Quickstarts are included, which are licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_ license, then the new document will also need to be licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 
-**Assign CC By-SA license and attribution**
+You may use attribution text similar to one of the following:
 
-  |CC-By-SA-med| <This document title> by <Your Name> is licenced under a `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_. This document extends Quickstarts created by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
+**Verbose, suitable for a 100 page thesis:**
+
+  |CC-By-SA-med| This document includes content from the "gvSIG Quickstart" created by Simon Cropper under the Creative Commons Attribution-ShareAlike 3.0 Unported licence, http://creativecommons.org/licenses/by-sa/3.0/ available from the OSGeo-Live project, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded on 25 July 2011. The original work was translated from English to German.
 
   .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+    :target: http://creativecommons.org/licenses/by-sa/3.0/
 
-**Assign CC By license and attribution**
+**Concise CC-By-SA and attribution:**
 
-  |CC-By-small| © 2011 <Your Name> under a `CC By License <http://creativecommons.org/licenses/by/3.0/>`_. Includes Project Overviews from `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
+  © 2011 [Your Name] under a `CC By SA License <http://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived from|Includes|Extends] `OSGeo-Live <http://live.osgeo.org>`_ documentation by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
+
+**Alternative Concise CC-By and attribution:**
+
+  |CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeo-Live <http://live.osgeo.org>`_ Project Overviews by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
 
   .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+    :target: http://creativecommons.org/licenses/by/3.0/
 
-**Brief, copyright and attribution**
+**Minimum (for Project Overviews), attribution only:**
 
-  © 2011 <Your Name>. Includes documentation from `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
-
-**Attribution only**
-
-  This document includes Project Overviews from `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
-
-**Note:** If Quickstarts are included, which are licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_ license, then the new document will also need to be licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.
+  This document includes `OSGeo-Live <http://live.osgeo.org>`_ Project Overviews by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
 
 Documentation Contributors
 --------------------------
