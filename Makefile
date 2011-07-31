@@ -35,7 +35,7 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	rm -f contributors.rst translators.rst
+	rm -f contributors.rst translators.rst licenses.csv
 	# remove symbolic linked files
 	rm -f `find ./*/ -type l -print`
 
@@ -73,7 +73,7 @@ link_to_en_docs:
 	  done ; \
 	done
 
-sphinxbuild: contributors.rst translators.rst link_to_en_docs
+sphinxbuild: contributors.rst translators.rst link_to_en_docs licenses.csv
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
@@ -153,7 +153,7 @@ licenses.csv :
 	echo `pwd`
 	../bin/extract_licenses.sh > licenses.csv
 
-html: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs licenses.csv
+html: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
