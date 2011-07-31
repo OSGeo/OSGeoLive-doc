@@ -59,9 +59,6 @@ The projects typically use coordinate system definitions as defined by the
 `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ and defined in
 Well Known Text (WKT) format.
 
-Details
--------
-
 PROJ.4
 ------
 
@@ -133,9 +130,3 @@ Proj4J
   
   **Support:** http://lists.osgeo.org/mailman/listinfo/proj4j
   
-
-.. Commented out following lines:
-.. Quickstart
-.. ----------
-..     
-.. * `Quickstart documentation <../quickstart/metacrs_quickstart.html>`_
