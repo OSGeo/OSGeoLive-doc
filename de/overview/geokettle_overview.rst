@@ -17,7 +17,7 @@ GeoKettle
 Extraktion, Transformation & Laden (ETL)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoKettle ist die "raumbezogene" Version von Kettel aus der `Pentaho Data Integration Suite <http://www.pentaho.com/products/data_integration/>`_. Es ist ein leistungsfähiges, Metadaten-gesteuertes ETL -Werkzeug (Extract, Transform & Load) für räumliche Daten für die Integration verschiedenster Datenquellen zum Erstellen und Aktualisieren von Geodatenbeständen, Data Warehouses und Web Services.
+GeoKettle ist die "raumbezogene" Version von Kettel aus der `Pentaho Data Integration Suite <http://www.pentaho.com/products/data_integration/>`_. Es ist ein leistungsfähiges, Metadaten-gesteuertes ETL -Werkzeug (Extract, Transform & Load) für räumliche Daten und kann zur Integration verschiedenster Datenquellen, die Erstellung und Aktualisierung von Geodatenbeständen, Data Warehouses und Web Services genutzt werden.
 
 GeoKettle ermöglicht die Extraktion von Daten aus Datenquellen und deren Transformation, um Fehler zu korrigieren, Daten zu bereinigen, Datenstruktur zu ändern sowie die Daten standardkonform zu verwalten. Darüber hinaus können die transformierten Daten in Zielsysteme geschieben werden, zum Beispiel in Datenbank Management Systeme (DBMS), in Dateien GIS spezifischer Formate oder Raumbezogenen Web Services.
 

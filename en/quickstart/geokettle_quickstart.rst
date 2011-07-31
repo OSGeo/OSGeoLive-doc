@@ -46,19 +46,22 @@ The contents of these panels will be described further as we demonstrate their u
 Loading an existing transformation
 ==================================
 
-To load an existing transformation, select :menuselection:`File --> Open`. Browse to the transformation samples subdirectory file:`samples/transformations/geokettle`, then select one of the available sample transformations and click OK. GeoKettle transformation are stored in files with the extension « .ktr ».
+To load an existing transformation, select :menuselection:`File --> Open`. Browse to the transformation samples subdirectory :file:`samples/transformations/geokettle`, then select one of the available sample transformations and click :guilabel:`OK`. GeoKettle transformation are stored in files with the extension `*.ktr`.
 
-The following picture shows the sample « intersection » transformation. You should obeserve that the content of the two main parts which compose the workbench have changed.
+The following picture shows the sample « intersection » transformation. You should observe that the content of the two main parts which compose the workbench have changed.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_intersection_transformation.png
 
 A description of the transformation and optionnal directives can be seen in the yellow tooltip area.
 
-Before starting the transformation, you will need to specify wich shapefile to use. In order to do that, double click on each of the « GIS file input » steps to make the following dialog appear (Note : you may also customize any steps of any transformation by double clicking on it).
+Before starting the transformation, you will need to specify wich shapefile to use. In order to do that, double click on each of the « GIS file input » steps to make the following dialog appear.
 
   .. image:: ../../images/screenshots/800x600/geokettle_shapefile_input_step.png
 
-Enter the name of your shapefile including the « .shp » extension or leave it as is to use the sample dataset and click OK.
+.. note: 
+   You may also customize any steps of any transformation by double clicking on it.
+
+Enter the name of your shapefile including the `*.shp` extension or leave it as is to use the sample dataset and click :guilabel:`OK`.
 
 You are now ready to start the transformation. To do so, simply hit the play button in the toolbar above your transformation. 
 
@@ -83,9 +86,9 @@ A hop, represented as an arrow between 2 steps, defines the dataflow between tho
   .. image:: ../../images/screenshots/800x600/geokettle_hop.png
     :scale: 60 %
 
-To create a new hop, select 2 steps, right click on one of them and select New hop. Another way of doing it is to press and hold Ctrl while selecting the 2 steps. 
+To create a new hop, select 2 steps, right click on one of them and select :menueselection:`New hop`. Another way of doing it is to press and hold :kbd:`Ctrl` while selecting the 2 steps. 
 
-Any hop can be edited at any time by double clicking on it or right clicking on it and selecting edit hop in the popup menu.
+Any hop can be edited at any time by double clicking on it or right clicking on it and selecting :menueselection:`Edit hop` in the popup menu.
 
 
 **Setting up the transformation**
@@ -93,9 +96,9 @@ Any hop can be edited at any time by double clicking on it or right clicking on 
 Most of the steps in a transformation will require custom parametrization before being usable. Double click on any step to display a dialog interface in which you can see and specify each requested parameter values.
 
 
-**Running a transformation in GeoKettle**
+**Running a transformation**
 
-When executing a transformation in GeoKettle, a new panel appears below the one where the transformation is designed. This panel (aka the **Execution Results** panel) contains information about data flow through all steps involved in the transformation. 
+When executing a transformation, a new panel appears below the one where the transformation is designed. This panel (aka the **Execution Results** panel) contains information about data flow through all steps involved in the transformation. 
 
 The **Step Metrics** tab (shown in the the next figure) will be initially displayed. You can see in this tab general information regarding the transformation's dataflow such as the number of rows read, written, in input and in output in each step. The column **Active** informs the user if the step is started, running, finished, aborted, etc. The time ellapsed since the step has been started is shown in the column **Time**, as well as the average speed (column **Speed**) of the step (rows/seconds).
 
@@ -104,7 +107,7 @@ The **Step Metrics** tab (shown in the the next figure) will be initially displa
 
 **Previewing a transformation**
 
-Trying to execute a transformation may result in errors in the Execution Results panel (see next figure). Please then review the content of the **Logging** tab. There is always a lot of usefull information dealing with the source and reason of the error. Modify the parameters of the faulty step and restart the transformation.
+Trying to execute a transformation may result in errors in the **Execution Results** panel (see next figure). Please then review the content of the **Logging** tab. There is always a lot of usefull information dealing with the source and reason of the error. Modify the parameters of the faulty step and restart the transformation.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
 
