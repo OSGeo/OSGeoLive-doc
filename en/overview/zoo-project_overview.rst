@@ -91,6 +91,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/zoo-project_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`
 
 

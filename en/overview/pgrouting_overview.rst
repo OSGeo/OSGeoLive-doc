@@ -16,11 +16,11 @@ pgRouting
 GIS Tools
 ~~~~~~~~~
 
-pgRouting extends the `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
+pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
 
 Advantages of the database routing approach are:
 
-* Data and attributes can be modified by many clients, like `Quantum GIS <qgis_overview.html>`_ and `uDig <udig_overview.html>`_ through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
+* Data and attributes can be modified by many clients, like :doc:`Quantum GIS <qgis_overview>` and :doc:`uDig <udig_overview>` through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
 * Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
 * The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
 
@@ -63,6 +63,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
 
 

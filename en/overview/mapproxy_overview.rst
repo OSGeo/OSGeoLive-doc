@@ -105,4 +105,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/mapproxy_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`

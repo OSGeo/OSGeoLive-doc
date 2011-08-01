@@ -61,6 +61,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/gpsdrive_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/gpsdrive_quickstart>`
 
 

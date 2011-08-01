@@ -75,4 +75,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/kosmo_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/kosmo_quickstart>`

@@ -72,9 +72,14 @@ Core Features
 Implemented Standards
 ---------------------
 
-* Support of numerous Open Geospatial Consortium  (OGC) standards
+Support of numerous Open Geospatial Consortium  (OGC) standards:
 
-* WMS, WFS, WFS-T (transactional), WCS, :doc:`Filter Encoding <../standards/fe_overview>`, :doc:`SLD <../standards/sld_overview>`, :doc:`GML <../standards/gml_overview>`
+  * :doc:`<../standards/wms_overview>`
+  * :doc:`<../standards/wfs_overview>`, WFS-T (transactional)
+  * :doc:`<../standards/wcs_overview>`
+  * :doc:`<../standards/fe_overview>`
+  * :doc:`<../standards/sld_overview>` 
+  * :doc:`<../standards/gml_overview>`
 
 Details
 -------

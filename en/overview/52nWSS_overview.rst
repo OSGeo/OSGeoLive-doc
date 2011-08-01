@@ -74,5 +74,5 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/52nWSS_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/52nWSS_quickstart>`
 

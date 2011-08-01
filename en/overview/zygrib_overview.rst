@@ -52,5 +52,5 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/zygrib_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`
 

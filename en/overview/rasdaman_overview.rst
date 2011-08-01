@@ -63,3 +63,9 @@ Details
 
 **Support:**  www.rasdaman.com
 
+Quickstart
+----------
+
+* :doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`
+
+

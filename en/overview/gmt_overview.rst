@@ -59,6 +59,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/gmt_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
 
 

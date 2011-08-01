@@ -60,5 +60,5 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/prune_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/prune_quickstart>`
 

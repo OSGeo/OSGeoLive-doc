@@ -67,6 +67,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/geopublisher_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geopublisher_quickstart>`
 
 

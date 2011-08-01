@@ -107,4 +107,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/mapserver_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`

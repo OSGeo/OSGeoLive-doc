@@ -57,6 +57,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/mapnik_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`
 
 

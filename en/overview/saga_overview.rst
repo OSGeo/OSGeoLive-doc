@@ -76,6 +76,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/saga_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/saga_quickstart>`
 
 

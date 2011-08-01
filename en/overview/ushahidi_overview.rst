@@ -82,6 +82,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/ushahidi_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/ushahidi_quickstart>`
 
 

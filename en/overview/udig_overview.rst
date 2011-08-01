@@ -84,4 +84,4 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/udig_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/udig_quickstart>`

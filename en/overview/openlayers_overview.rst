@@ -70,6 +70,4 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/openlayers_quickstart.html>`_
-
-
+* :doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`

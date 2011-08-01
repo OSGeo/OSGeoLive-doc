@@ -90,7 +90,7 @@ When you're done click the red power button to close.
 See also
 ========
 
-The `OpenCPN software <../overview/opencpn_overview.html>`_ (also on this
+The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this
 disc) has a GRIB overlay plugin which you may try with your newly
 downloaded GRIB file. See
-the `OpenCPN quickstart <../quickstart/opencpn_quickstart.html>`_ for details.
+the :doc:`OpenCPN quickstart <../quickstart/opencpn_quickstart>` for details.

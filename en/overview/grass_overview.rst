@@ -79,6 +79,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/grass_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/grass_quickstart>`
 
 

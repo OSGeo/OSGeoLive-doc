@@ -37,7 +37,7 @@ Live DVD, as well as many of the applications packaged in it.
 Details at: http://lisasoft.com
 
 Most packaged applications have both community and commercial support
-offerings for them. Refer to specific application descriptions linked from the `Contents <overview/overview.html>`_ for details.
+offerings for them. Refer to specific application descriptions linked from the :doc:`Contents <./overview/overview>` for details.
 
 In addition, there are a large number of consultancy firms world wide
 who provide support for OSGeo member projects.

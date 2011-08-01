@@ -76,4 +76,4 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/sahana_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/sahana_quickstart>`

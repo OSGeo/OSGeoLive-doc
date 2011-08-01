@@ -84,5 +84,5 @@ http://www.geomoose.org/info/license.html
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/geomoose_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`
 

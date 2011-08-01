@@ -69,5 +69,5 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/otb_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/otb_quickstart>`
 

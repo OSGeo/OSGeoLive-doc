@@ -83,6 +83,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/osgearth_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/osgearth_quickstart>`
 
 

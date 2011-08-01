@@ -54,4 +54,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/maptiler_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/maptiler_quickstart>`

@@ -61,6 +61,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/atlasstyler_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/atlasstyler_quickstart>`
 
 

@@ -65,6 +65,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/qgis_mapserver_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`
 
 

@@ -68,6 +68,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/viking_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/viking_quickstart>`
 
 

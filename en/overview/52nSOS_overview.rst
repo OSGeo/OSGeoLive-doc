@@ -17,7 +17,7 @@
 Web Service
 ~~~~~~~~~~~
 
-The 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
+The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
 supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
 be a camera on a satellite or a water level meter in a stream.
  
@@ -82,5 +82,5 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/52nSOS_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`
 

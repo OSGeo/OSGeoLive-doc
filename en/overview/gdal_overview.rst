@@ -82,4 +82,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/gdal_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/gdal_quickstart>`

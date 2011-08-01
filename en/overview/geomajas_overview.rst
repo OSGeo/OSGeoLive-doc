@@ -72,5 +72,5 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/geomajas_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`
 

@@ -91,6 +91,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/mapbender_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`
 
 

@@ -97,6 +97,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/qgis_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
 
 

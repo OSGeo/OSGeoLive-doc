@@ -76,4 +76,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/geonetwork_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`

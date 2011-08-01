@@ -71,6 +71,4 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/ossim_quickstart.html>`_
-
-
+* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`

@@ -109,6 +109,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/mapguide_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapguide_quickstart>`
 
 

@@ -61,6 +61,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/marble_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/marble_quickstart>`
 
 

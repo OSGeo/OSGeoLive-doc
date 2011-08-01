@@ -133,4 +133,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/postgis_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/postgis_quickstart>`

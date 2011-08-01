@@ -83,4 +83,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/openjump_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/openjump_quickstart>`

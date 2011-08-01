@@ -69,6 +69,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/mapfish_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapfish_quickstart>`
 
 

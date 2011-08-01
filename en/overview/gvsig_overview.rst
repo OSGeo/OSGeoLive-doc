@@ -121,4 +121,4 @@ Details
 Quickstart
 ----------
     
-* `Quickstart documentation <../quickstart/gvsig_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`

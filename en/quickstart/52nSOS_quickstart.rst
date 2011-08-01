@@ -49,7 +49,7 @@ Additional Information
 
 * To learn more about 52°North SOS and/or 52°North, potential starting points are:
 
-* the 52°North `SOS overview <../overview/52nSOS_overview.html>`_,
+* the 52°North :doc:`SOS overview <../overview/52nSOS_overview>`,
 * the 52°North Sensor Web mailing list: swe@52north.org, 
 * check the 52°North `Sensor Web community forum <http://sensorweb.forum.52north.org/>`_, 
 * 52°North `SOS website <http://52north.org/communities/sensorweb/sos/>`_, or 

@@ -67,6 +67,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/spatialite_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`
 
 
