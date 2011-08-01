@@ -35,19 +35,7 @@ GeoMOOSE is a browser based mapping framework for displaying distributed cartogr
 History
 -------
 
-GeoMoose was born here at the City for managing our Spatial layers and their distribution to other spatial tools like AutoCAD, Arc products and such.  The GeoMoose interface actually came after the fact and enabled the Web view into these same datasets, and it thus became it's own product.
-
-It's primary attractive feature is the fact that each layer can have it's own configuration for publishing.  It's own MapFile, it's own folder on the back end for storing it's resources, Symbols, Templates (MapServer CGI) etc.  This allows the data owners/publishers the option of managing their respective layers in what ever way they feel comfortable and updating the data at what ever frequency they like.  Our Spatial data stores are the actual master data sets here at the city, they are not copies of the GIS data.  While this option is available, there are still many GeoMoose users that go the typical GIS route, by publishing a copy of the GIS data via GeoMoose.  The same tools that make all the layer flexibilty options available at the layer level make it much easier for a single administrator to use and administer GeoMoose and set it up very quickly, even adding new layers is a very quick process.  A quick-start (in my mind) piece of the equation is our Demo downloads which install a functioning  Mapping interface in a couple of generic coordinate systems that can be used as copy and paste templates for folks wanting to incorporate their own data.
-
-GeoMoose can also be configured to use MapServer CGI as a WMS client for reprojection of other out of domain resources, like other MapServers, WMS services, etc.  It can also be configured to access WMS services directly from the browser, as in no server needed.
-
-Additionally, GeoMoose can also access other Web services such as search routines, that are linked to other resources like scanned documents. that are bound to the spatial attribute data.  Filtering and zooming to a particular Parcel for example.  Or zooming to an address.  These connections are all handled in the XML MapBook  which is much easier to understand and convey to the data owners for setup.
-
-All of these sources can be mixed together for end user presentation in the browser.  This aspect of the presentation is managed by an XML file called a MapBook that lists out the layers to include in the end user views, as well as the tools that appear in the map view, down to the Icons used in the interface.  This organizational aspect of separating layers and tools  into their own services and configuration containers and using a MapBook to assemble and configure the viewer allows the systems administrator (and/or) the data publishers, the opportunity to make their own MapBooks with just the layers and tools that they want to have in the interface for their respective publishing needs.
-
-GeoMoose come packaged with a PDF output engine.
-
-TECHIE: statement here:  This was all done this way to aid in implementing a end user/publisher online configuration interface that would manage all of these aspects via a web FORM, this is still on the drawing board as of now.  While all the pieces are in place now to manage all the listed options at a techie level once a configuration interface is in place, GeoMoose will allow any online user the option of publishing and assembling a Spatial viewer for Web users from a list of loaded layers. 
+GeoMoose was born here in a municipal setting for managing many Spatial layers and their distribution to other spatial tools like AutoCAD, ESRI products and the like.  The GeoMoose interface materialized by enabling a Web view into these datasets, and went on to became it's own product.  It's primary attractive feature is the fact that each map layer has it's own set of configuration files for publishing, files for storing it's resources, Symbols, Templates (MapServer CGI) etc.  This allows the data owners/publishers the option of managing their respective layers in what ever way they feel comfortable and updating the data at what ever frequency they like. Additionally, GeoMoose can also access other Web services such as search routines, that are linked to other resources like scanned documents. that are bound to the spatial attribute data.  Filtering and zooming to a particular Parcel for example, or zooming to an address.  These connections are all handled in the XML MapBook which is simple to understand and convey to the data owners for setup.  All of these sources can be mixed together for end user presentation in the browser.  This aspect of the presentation is managed by an XML file called a MapBook that lists out the layers to include in the end user views, as well as the tools that appear in the map view, down to the Icons used in the interface. 
 
 Core Features
 -------------
@@ -66,6 +54,7 @@ Core Features
 * Multiple mouse tracking readout are configurable int he interface, even more than one at a time can be displayed.  Lat/Lon, Cartesian, and U.S. National Grid (USNG/MGRS) coordinate systems are supported out of the box.
 * Measuring and drawing tools are incorporated into the interface.
 * An almost unlimited numbers of layers can be published via a GeoMoose interface. This is a by product of the layer by layer configuration design of the data storage and access tools.
+* A PDF output engine.
 
 Implemented Standards
 ---------------------
