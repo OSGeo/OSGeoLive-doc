@@ -50,6 +50,7 @@ JOSM περιλαμβάνονται.
 * Δεδομένα OpenStreetMap: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
 
 * JOSM: GNU General Public License (GPL) έκδοση 2
+
 .. <!-- see /usr/share/doc/josm/copyright -->
 
 * Συλλογή εργαλείων JOSM: Διάφορες άδειες από κοινόχρηστες έως και GPLv3
@@ -57,6 +58,7 @@ JOSM περιλαμβάνονται.
 * Merkaartor: GNU General Public License (GPL) έκδοση 2
 
 * Gosmore: Κοινόχρηστη και GPLv2
+
 .. <!-- see /usr/share/doc/gosmore/copyright -->
 
 * Osmarender: GNU General Public License (GPL) έκδοση 2
@@ -83,6 +85,6 @@ JOSM περιλαμβάνονται.
 Γρήγορη εκκίνηση
 ----------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart>`
 
 

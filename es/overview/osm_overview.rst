@@ -46,6 +46,7 @@ Detalles
 * OpenStreetMap data: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
 
 * JOSM: GNU General Public License (GPL) version 2
+
 .. <!-- Ver /usr/share/doc/josm/copyright -->
 
 * Colección de plugines JOSM : Diversas entre Public Domain y GPLv3
@@ -53,6 +54,7 @@ Detalles
 * Merkaartor: GNU General Public License (GPL) version 2
 
 * Gosmore: Public Domain and GPLv2
+
 .. <!-- Ver /usr/share/doc/gosmore/copyright -->
 
 * Osmarender: GNU General Public License (GPL) version 2
@@ -79,6 +81,6 @@ Detalles
 Guía de inicio rápido
 ----------------------
 
-* `Guía de inicio rápido <../quickstart/osm_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/osm_quickstart>`
 
 

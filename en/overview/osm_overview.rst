@@ -87,6 +87,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/osm_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/osm_quickstart>`
 
 

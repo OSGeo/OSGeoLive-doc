@@ -66,6 +66,6 @@ Szczegóły
 Wprowadzenie
 ------------
 
-* `Przejdź do wprowadzenia <../quickstart/mb-system_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/mb-system_quickstart>`
 
 

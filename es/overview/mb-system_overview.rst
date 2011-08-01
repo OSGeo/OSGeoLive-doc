@@ -63,4 +63,4 @@ Detalles
 Guía de inicio rápido
 -----------------------
 
-* `Guía de inicio rápido <../quickstart/mb-system_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/mb-system_quickstart>`
