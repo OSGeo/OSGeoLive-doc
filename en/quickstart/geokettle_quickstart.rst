@@ -86,9 +86,9 @@ A hop, represented as an arrow between 2 steps, defines the dataflow between tho
   .. image:: ../../images/screenshots/800x600/geokettle_hop.png
     :scale: 60 %
 
-To create a new hop, select 2 steps, right click on one of them and select :menueselection:`New hop`. Another way of doing it is to press and hold :kbd:`Ctrl` while selecting the 2 steps. 
+To create a new hop, select 2 steps, right click on one of them and select :menuselection:`New hop`. Another way of doing it is to press and hold :kbd:`Ctrl` while selecting the 2 steps. 
 
-Any hop can be edited at any time by double clicking on it or right clicking on it and selecting :menueselection:`Edit hop` in the popup menu.
+Any hop can be edited at any time by double clicking on it or right clicking on it and selecting :menuselection:`Edit hop` in the popup menu.
 
 
 **Setting up the transformation**
@@ -111,7 +111,7 @@ Trying to execute a transformation may result in errors in the **Execution Resul
 
   .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
 
-To help in finding the source of an error, you can also preview the results of a transformation from another step earlier in the workflow. To do so, right click on the step, and select **Preview** in the popup menu that appears. This way, you can see in a tabular and cartographic way what the data looks like at this point in the overall process without executing the whole transformation.
+To help in finding the source of an error, you can also preview the results of a transformation from another step earlier in the workflow. To do so, right click on the step, and select :menuselection:`Preview` in the popup menu that appears. This way, you can see in a tabular and cartographic way what the data looks like at this point in the overall process without executing the whole transformation.
 
 Things to Try
 =============
