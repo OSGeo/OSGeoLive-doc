@@ -47,9 +47,8 @@ Details
 Quickstart
 ----------
 
-.. Cameron Comment: Will need to link to Quickstart on OSGeo-Live
 
-* `Quickstart documentation <http://liblas.org/start.html>`_
+* :doc:`Quickstart documentation <../quickstart/liblas_quickstart>`
 
 .. _`LIDAR`: http://en.wikipedia.org/wiki/LIDAR
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/
