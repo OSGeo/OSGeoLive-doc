@@ -25,22 +25,29 @@ GeoMoose
 Web GIS Portal
 ~~~~~~~~~~~~~~
 
-- GeoMOOSE has a number of strengths including modularity, configurability, integration with existing services and speed. GeoMOOSE extends the functionality of MapServer and OpenLayers. It is implemented as a very light footprint for the Browser, allowing it to perform very well with hundreds of layers and/or services.
-
-- The GeoMOOSE core is written using JavaScript and HTML which allows it to make the least number of requests to the server needed while still providing an immersive user experience. 
-
-- It is entirely possible to run GeoMOOSE with nothing more than a basic web page and a WMS feed, even as a locally stored configuration, no server needed.  The GeoMoose interface can be stored locally and opened from a Web Browser.
-
-- Adding a server component, allows GeoMOOSE a level of flexibility by adding a number of pre-built services written in PHP. These services add the ability to perform drill-down identify operations, selection operations, and searching datasets. 
-
-- Existing web services that perform similar functions can be easily integrated within GeoMOOSE, no matter the language they were written in originally.
-
-- GeoMoose extends other open source projects with a user level configuration tool set for viewing and organizing many layers and displaying of layer specific tools, information links and view controls like fading and Z-index ordering.
+GeoMOOSE is a browser based mapping framework for displaying distributed cartographic data which is modular and configurable. It extends the functionality of MapServer and OpenLayers to provide a number of built in services, like drill-down identify operations, selection operations and dataset searches. Additionally, operations which may have been previously developed in other languages, are easily incorporated. GeoMOOSE has a number of strengths including modularity, configurability, integration with existing services and speed. It is implemented in a very light browser footprint, allowing it to perform very well with up to hundreds of layers and/or services at time.  While not required to install GeoMoose, the addition of a server component allows GeoMOOSE a level of flexibility by adding a number of pre-built services written in PHP. GeoMoose extends other open source projects with a user level configuration tool set for viewing and organizing many layers and displaying of layer specific tools, information links and view controls like fading and Z-index ordering.
 
 .. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
   :scale: 55 %
   :alt: geomoose-screenshot-800x600.png
   :align: right
+
+History
+-------
+
+GeoMoose was born here at the City for managing our Spatial layers and their distribution to other spatial tools like AutoCAD, Arc products and such.  The GeoMoose interface actually came after the fact and enabled the Web view into these same datasets, and it thus became it's own product.
+
+It's primary attractive feature is the fact that each layer can have it's own configuration for publishing.  It's own MapFile, it's own folder on the back end for storing it's resources, Symbols, Templates (MapServer CGI) etc.  This allows the data owners/publishers the option of managing their respective layers in what ever way they feel comfortable and updating the data at what ever frequency they like.  Our Spatial data stores are the actual master data sets here at the city, they are not copies of the GIS data.  While this option is available, there are still many GeoMoose users that go the typical GIS route, by publishing a copy of the GIS data via GeoMoose.  The same tools that make all the layer flexibilty options available at the layer level make it much easier for a single administrator to use and administer GeoMoose and set it up very quickly, even adding new layers is a very quick process.  A quick-start (in my mind) piece of the equation is our Demo downloads which install a functioning  Mapping interface in a couple of generic coordinate systems that can be used as copy and paste templates for folks wanting to incorporate their own data.
+
+GeoMoose can also be configured to use MapServer CGI as a WMS client for reprojection of other out of domain resources, like other MapServers, WMS services, etc.  It can also be configured to access WMS services directly from the browser, as in no server needed.
+
+Additionally, GeoMoose can also access other Web services such as search routines, that are linked to other resources like scanned documents. that are bound to the spatial attribute data.  Filtering and zooming to a particular Parcel for example.  Or zooming to an address.  These connections are all handled in the XML MapBook  which is much easier to understand and convey to the data owners for setup.
+
+All of these sources can be mixed together for end user presentation in the browser.  This aspect of the presentation is managed by an XML file called a MapBook that lists out the layers to include in the end user views, as well as the tools that appear in the map view, down to the Icons used in the interface.  This organizational aspect of separating layers and tools  into their own services and configuration containers and using a MapBook to assemble and configure the viewer allows the systems administrator (and/or) the data publishers, the opportunity to make their own MapBooks with just the layers and tools that they want to have in the interface for their respective publishing needs.
+
+GeoMoose come packaged with a PDF output engine.
+
+TECHIE: statement here:  This was all done this way to aid in implementing a end user/publisher online configuration interface that would manage all of these aspects via a web FORM, this is still on the drawing board as of now.  While all the pieces are in place now to manage all the listed options at a techie level once a configuration interface is in place, GeoMoose will allow any online user the option of publishing and assembling a Spatial viewer for Web users from a list of loaded layers. 
 
 Core Features
 -------------
