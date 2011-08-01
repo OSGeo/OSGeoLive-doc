@@ -26,17 +26,15 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla `Apple OSX <../MacInstal
 Szybkie wprowadzenia
 --------------------
 
--   `Jak zacząć z OSGeo-Live DVD <quickstart/osgeolive_quickstart.html>`_
--   `Zmiana języka i ustawiń klawiatury <quickstart/internationalisation_quickstart.html>`_
--   `Instalacja OSGeo-Live na twardym dysku <quickstart/osgeolive_install_quickstart.html>`_
--   `Instalacja OSGeo-Live na Virtualnej Maszynie <quickstart/virtualbox_quickstart.html>`_
--   `Tworzenie rozruchowego USB PenDrive z OSGeo-Live <quickstart/usb_quickstart.html>`_
--   `Więcej samouczków... <quickstart/quickstart.html>`_
+-   :doc:`Jak zacząć z OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
+-   :doc:`Zmiana języka i ustawiń klawiatury <quickstart/internationalisation_quickstart>`
+-   :doc:`Instalacja OSGeo-Live na twardym dysku <quickstart/osgeolive_install_quickstart>`
+-   :doc:`Instalacja OSGeo-Live na Virtualnej Maszynie <quickstart/virtualbox_quickstart>`
+-   :doc:`Tworzenie rozruchowego USB PenDrive z OSGeo-Live <quickstart/usb_quickstart>`
+-   :doc:`Więcej samouczków... <quickstart/quickstart>`
 
 Prezentacja
 -----------
 Półgodzinna prezentacja omawiająca wszystkie zawarte na OSGeoLive programy, dostępna jest w postaci wideo oraz slajdów i notatek.
 
 Szczegóły na stronie  http://live.osgeo.org/en/presentation.html.
-
-

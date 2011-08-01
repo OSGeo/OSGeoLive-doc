@@ -24,11 +24,11 @@ OSGeo-Liveは様々な地理空間関連の保管、配布、表示、分析、�
 
 クイックスタート
 --------------
-- `OSGeo-Live DVD を始める <quickstart/osgeolive_quickstart.html>`_
-- `キーボードや言語を変更する <quickstart/internationalisation_quickstart.html>`_
-- `OSGeo-Live をハードディスク上にインストールする <quickstart/osgeolive_install_quickstart.html>`_
-- `OSGeo-Live を仮想マシンで動作させる <quickstart/virtualbox_quickstart.html>`_
-- `OSGeo-Live のブータブルUSBドライブを作成する <quickstart/usb_quickstart.html>`_
+- :doc:`OSGeo-Live DVD を始める <quickstart/osgeolive_quickstart>`
+- :doc:`キーボードや言語を変更する <quickstart/internationalisation_quickstart>`
+- :doc:`OSGeo-Live をハードディスク上にインストールする <quickstart/osgeolive_install_quickstart>`
+- :doc:`OSGeo-Live を仮想マシンで動作させる <quickstart/virtualbox_quickstart>`
+- :doc:`OSGeo-Live のブータブルUSBドライブを作成する <quickstart/usb_quickstart>`
 
 プレゼンテーション
 ---------------
