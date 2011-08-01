@@ -31,10 +31,10 @@ browser to see your maps exactly as you want.
 
 GeoServer is the reference implementation of the `Open Geospatial 
 Consortium <http://www.opengeospatial.org>`_ (OGC) 
-:doc:`Web Feature Service (WFS) <../standards/wfs_overview>` and 
-:doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` standards, 
+:doc:`../standards/wfs_overview` and 
+:doc:`../standards/wcs_overview` standards, 
 as well as a high performance certified compliant 
-:doc:`Web Map Service (WMS) <../standards/wms_overview>`. 
+:doc:`../standards/wms_overview`. 
 GeoServer forms a core component of the Geospatial Web. 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
@@ -74,12 +74,12 @@ Implemented Standards
 
 Support of numerous Open Geospatial Consortium  (OGC) standards:
 
-  * :doc:`WMS <../standards/wms_overview>`
-  * :doc:`WFS <../standards/wfs_overview>`, WFS-T (transactional)
-  * :doc:`WCS <../standards/wcs_overview>`
-  * :doc:`Filter Encoding <../standards/fe_overview>`
+  * :doc:`../standards/wms_overview`
+  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview` 
-  * :doc:`GML <../standards/gml_overview>`
+  * :doc:`../standards/gml_overview`
 
 Details
 -------
