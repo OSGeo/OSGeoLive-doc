@@ -112,4 +112,4 @@ Details
 Schnellstart
 ------------
     
-* :doc:`Schnellstart Dokumentation <../quickstart/geokettle_quickstart.html>`
+* :doc:`Schnellstart Dokumentation <../quickstart/geokettle_quickstart>`
