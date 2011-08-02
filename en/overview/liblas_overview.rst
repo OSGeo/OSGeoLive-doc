@@ -9,27 +9,27 @@
   :align: right
   :target: http://liblas.org/
 
-
 libLAS
-========
+======
+
+LiDAR Data Access
+~~~~~~~~~~~~~~~~~
 
 libLAS is a C/C++ library for reading and writing the very common `LAS`
 `LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format used to
 store data from LiDAR sensors and by LiDAR processing software for data
 interchange and archival.
 
-.. Howard Comment: The rights to this image are unknown, but I believe it came from a US government publication.  It is the canonical "what is airborner LiDAR" picture, and everyone in the industry will recognize it.
-
 .. image:: ../../images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
+  :align: right
+  :scale: 80 %
   
-LiDAR is a form of high precision range detection much like a radar system that 
+LiDAR (Light Detection and Ranging) is a form of high precision range detection much like a radar system that 
 uses laser light as the electromagnetic emission. One of LiDAR systems' 
 products is a "point cloud" data product that can be conceptualized as a 
 series of point measurements representing distance from the sensor to a returned 
 emission.  A common storage format for these point cloud data is ASPRS LAS format.
-
-
 
 Core Features
 -------------
@@ -55,7 +55,6 @@ Details
 
 Quickstart
 ----------
-
 
 * :doc:`Quickstart documentation <../quickstart/liblas_quickstart>`
 
