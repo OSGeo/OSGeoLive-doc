@@ -1,5 +1,5 @@
 :Author: Gavin Treadgold
-:Version: osgeo-live4.5
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _sahana-overview:
@@ -65,7 +65,7 @@ Details
 
 **Licence:** MIT License
 
-**Software Version:** 0.5.4
+**Software Version:** 0.5.5
 
 **Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows
 
