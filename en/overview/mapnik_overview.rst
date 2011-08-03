@@ -1,4 +1,5 @@
 :Author: Dane Springmeyer
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
 :License: Creative Commons
 

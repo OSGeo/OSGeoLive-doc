@@ -1,4 +1,5 @@
 :Author: Klokan Petr Pridal
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons
 

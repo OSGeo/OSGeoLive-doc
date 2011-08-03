@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons
 
