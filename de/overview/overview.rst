@@ -20,7 +20,7 @@ Krisenmanagement
 
 Datenbanken
 -----------
-* :doc:`postgis_overview` - Räumliche Databank
+* :doc:`postgis_overview` - Räumliche Datenbank
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Leichtgewichtige Datenbank
 * :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensionale Datenbank für Rasterdaten
 * :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing für PostGIS
