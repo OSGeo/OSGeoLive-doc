@@ -1,6 +1,6 @@
 :Author: Bob Basques
 :Version: GeoMoose 2.4
-:License: MIT
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _geomoose-quickstart:
  

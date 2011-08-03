@@ -1,6 +1,6 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _52nWSS-overview:
 

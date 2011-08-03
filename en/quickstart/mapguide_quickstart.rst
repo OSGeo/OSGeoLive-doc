@@ -1,6 +1,6 @@
 :Author: Trevor Wekel
 :Version: osgeo-live5.0draft
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _mapguide-quickstart:
 

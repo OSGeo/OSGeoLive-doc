@@ -1,6 +1,6 @@
 :Author: Stefan Tzeggai
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
  
 .. image:: ../../images/project_logos/logo-AtlasStyler.png

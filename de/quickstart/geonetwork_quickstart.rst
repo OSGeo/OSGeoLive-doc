@@ -1,6 +1,6 @@
 :Author: GeoNetwork Community
 :Version: osgeo-live4.5draft
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: GeoNetwork Community 
 
 .. |GN| replace:: GeoNetwork

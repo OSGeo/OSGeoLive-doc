@@ -36,7 +36,7 @@
 :Author: Jody Garnett
 :Author: Micheal Bedward
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geotools-user list
 
 .. Writing Tip:

@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Alan Boudreault, Steve Lime
 :Version: osgeo-live5.0
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _mapserver-quickstart:
 

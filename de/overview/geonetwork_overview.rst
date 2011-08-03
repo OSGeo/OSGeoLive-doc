@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geonetwork-overview:
 

@@ -1,7 +1,7 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
 :Version: osgeo-live5.0draft
-:License: Creative Commons CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
 
 .. |GS| replace:: GeoServer

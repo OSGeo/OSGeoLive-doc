@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Frank Gasdorf
 :Version: osgeo-live5.0draft
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoTools.png
   :scale: 60 %

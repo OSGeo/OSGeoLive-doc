@@ -1,6 +1,6 @@
 :Author: Johannes Küpper
 :Version: OSGeo-Live DVD, Version 5.0
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _deegree-quickstart:
 

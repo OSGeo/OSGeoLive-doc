@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Version: osgeo-live5.0
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geomoose-overview:
 

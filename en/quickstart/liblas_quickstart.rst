@@ -1,6 +1,6 @@
 :Author: Howard Butler
-:Version: osgeo-live5.0draft
-:License: Creative Commons
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _liblas_quickstart:
  

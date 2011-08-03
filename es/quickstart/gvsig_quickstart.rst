@@ -1,6 +1,6 @@
 :Author: Simon Cropper
 :Version: osgeo-live5.0
-:License: Creative Commons - Attribution, Share Alike
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
    :scale: 50 

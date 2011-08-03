@@ -45,7 +45,7 @@
 :Author: Micheal Bedward
 :Author: Frank Gasdorf
 :Version: osgeo-live5.0draft
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geotools-user list
 
 

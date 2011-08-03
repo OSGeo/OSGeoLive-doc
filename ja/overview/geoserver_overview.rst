@@ -6,7 +6,7 @@
 
 :Author: Ian Turton
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page

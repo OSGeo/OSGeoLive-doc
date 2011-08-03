@@ -1,8 +1,8 @@
 :Author: Johan Van de Wauw
 :Version: osgeo-live4.0
-:License: Creative Commons:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _52nSOS-overview:
 

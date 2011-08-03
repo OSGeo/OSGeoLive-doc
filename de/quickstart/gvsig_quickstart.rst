@@ -1,6 +1,6 @@
 :Author: Simon Cropper (translated by Georg Sedlmeir, Ruth Schönbuchner)
 :Version: OSGeo-Live DVD, Version 4.5
-:License: Creative Commons - Attribution, Share Alike
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
    :scale: 50 
