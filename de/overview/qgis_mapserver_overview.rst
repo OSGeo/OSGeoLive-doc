@@ -60,10 +60,7 @@ Details
 
 **Kommerzieller Support:** http://www.sourcepole.com/
 
-
 Quickstart
 ----------
 
-* `Quickstart (English) <../../en/quickstart/qgis_mapserver_quickstart.html>`_
-
-
+* :doc:`Quickstart (English) <../../en/quickstart/qgis_mapserver_quickstart>`

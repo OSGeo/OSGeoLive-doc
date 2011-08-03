@@ -79,13 +79,13 @@ Details
 
 **Software Version:** 2.1.1
 
-**Unterstützte Betriebssysteme:** Alle Java 1.5 Plattformen: - Windows, Linux, Mac
+**Unterstützte Plattformen:** Alle Java 1.5 Plattformen: - Windows, Linux, Mac
 
 **API Schnittstellen:** WMS, WFS, WCS, REST
 
 **Support:** http://geoserver.org/display/GEOS/Commercial+Support
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* :doc:`Schnellstart Dokumentation <../quickstart/geoserver_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/geoserver_quickstart>`

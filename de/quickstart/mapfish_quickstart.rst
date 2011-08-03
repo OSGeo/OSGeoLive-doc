@@ -13,12 +13,12 @@
 
 
 
-Mapfish Schnellstart 
+Mapfish Quickstart 
 ~~~~~~~~~~~~~~~~~~~~
 
 Mapfish ist ein flexibles Framework um interaktive Internet-Kartenanwendungen zu erstellen. Das Projekt legt besonderen Wert auf hohe Produktivität und hohe Entwicklungsqualität.
 
-Dieser Schnellstart beschriebt wie (a) die Beispiel-Anwendung auf der LiveDVD gestartet, (b) wie Mapfish installiert und zum Schluss (c) wie eine Mapfish Anwendung erstellt wird. 
+Dieser Quickstart beschriebt wie (a) die Beispiel-Anwendung auf der LiveDVD gestartet, (b) wie Mapfish installiert und zum Schluss (c) wie eine Mapfish Anwendung erstellt wird. 
 
 
 Beispiel Anwendung starten

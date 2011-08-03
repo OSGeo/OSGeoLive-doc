@@ -55,14 +55,14 @@ Details
 
 **Software Version:** 2.11
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX
 
 **Support:** http://gpsdrive.de/support.shtml
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/gpsdrive_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/gpsdrive_quickstart>`
 
 

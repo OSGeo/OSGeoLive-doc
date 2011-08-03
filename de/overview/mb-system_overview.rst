@@ -58,14 +58,13 @@ Details
 
 **Software Version:** 5.2.1880
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows (mit Cygwin)
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows (mit Cygwin)
 
 **API Schnittstellen:** Kommandozeile
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* :doc:`Schnellstart Dokumentation <../quickstart/mb-system_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/mb-system_quickstart>`
 
 

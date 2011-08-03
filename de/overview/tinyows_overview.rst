@@ -57,9 +57,7 @@ Details
 
 **Support:** http://lists.maptools.org/pipermail/tinyows-users/
 
-
 Quickstart
 ----------
     
 * :doc:`Quickstart Dokumentation <../quickstart/tinyows_quickstart>`
-

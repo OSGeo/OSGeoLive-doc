@@ -57,7 +57,7 @@ Implementierte Standards
 Details
 -------
 
-**Website:** http://www.geomajas.org/
+**Webseite:** http://www.geomajas.org/
 
 **Lizenz:** AGPL
 
@@ -65,13 +65,13 @@ Details
 
 **Unterstütze Plattformen:** Windows, Linux, Mac
 
-**API Interfaces:** Java
+**API Schnittstellen:** Java
 
 **Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/geomajas_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/geomajas_quickstart>`
 

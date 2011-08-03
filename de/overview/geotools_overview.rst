@@ -94,8 +94,8 @@ Unterstützte Formate
   
   Weitere Geometrie-, Filter- und Stil- Parser/Kodierer sind für DOM und SAX basierte Applikationen verfügbar.
   
-Umgesetzte Standards
---------------------
+Implementierte Standards
+------------------------
 
 Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) Standards:
 
@@ -109,15 +109,15 @@ Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) Sta
 Details
 -------
  
-**Website:** http://geotools.org/
+**Webseite:** http://geotools.org/
 
 **Lizenz:** LGPL
 
 **Software Version:** 2.7.1
 
-**Unterstütze Plattformen :** Java
+**Unterstütze Plattformen:** Java
 
-**API Interfaces:** Java
+**API Schnittstellen:** Java
 
 **Support:** `Kontakt und Unterstützung (englisch) <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 

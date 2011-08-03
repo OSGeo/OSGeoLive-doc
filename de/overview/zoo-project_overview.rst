@@ -68,16 +68,13 @@ Details
 
 **Software Version:** 1.0
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
-**Unterstützte Programmiersprachen:** C, Python, Java, PHP, Fortran, Javascript
+**API Schnittstellen:** C, Python, Java, PHP, Fortran, Javascript
 
 **Support:** http://zoo-project.org/trac
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/zoo-project_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/zoo-project_quickstart>`

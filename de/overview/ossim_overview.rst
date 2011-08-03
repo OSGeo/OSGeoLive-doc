@@ -68,16 +68,13 @@ Details
 
 **Software Version:** 1.8.6
 
-**Unterstützte Betriebssysteme:** Linux, Mac, Windows
+**Unterstützte Plattformen:** Linux, Mac, Windows
 
 **API Schnittstellen:** C++
 
 **Kommerzieller Support:** http://www.osgeo.org/search_profile
 
-
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/ossim_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/ossim_quickstart>`

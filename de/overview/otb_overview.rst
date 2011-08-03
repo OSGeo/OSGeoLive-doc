@@ -55,15 +55,14 @@ Details
 
 **Software Version:** 3.8
 
-**Unterstützte Betriebssysteme:** Linux, Mac, Windows
+**Unterstützte Plattformen:** Linux, Mac, Windows
 
 **API Schnittstellen:** C++
 
 **Support:** http://www.osgeo.org/search_profile
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/otb_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/otb_quickstart>`
 

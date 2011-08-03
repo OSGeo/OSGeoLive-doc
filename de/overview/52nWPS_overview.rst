@@ -59,20 +59,19 @@ Implementierte Standards
 Details
 -------
 
-**Website:** http://52north.org/wps
+**Webseite:** http://52north.org/wps
 
-**Licence:** GPL
+**Lizenz:** GPL
 
 **Software Version:** WPS 2.0 RC6
 
-**Supported Platforms:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
-**Commercial Support:** http://www.52north.org
+**Kommerzieller Support:** http://www.52north.org
 
 
 Quickstart
 ----------
 
-* `Quickstart Dokumentation <../quickstart/52nWPS_quickstart.html>`_
-
+* :doc:`Quickstart Dokumentation <../quickstart/52nWPS_quickstart>`
 

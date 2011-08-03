@@ -51,15 +51,15 @@ Implementierte Standards
 Details
 -------
 
-**Website:** http://de.geopublishing.org/Geopublisher
+**Webseite:** http://de.geopublishing.org/Geopublisher
 
 **Software Version:** 1.7
 
-**Licence:** GNU General Public License (GPL) version 3.0; die Software der exportierten Atlanten steht unter GNU Lesser General Public License (LGPL) version 3.0
+**Lizenz:** GNU General Public License (GPL) version 3.0; die Software der exportierten Atlanten steht unter GNU Lesser General Public License (LGPL) version 3.0
 
-**Supported Platforms:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
+**unterstützte Plattformen:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
 
-**API Interfaces:** Java, Swing, Geotools
+**API Schnittstellen:** Java, Swing, Geotools
 
 **Support:** http://www.wikisquare.de
 
@@ -67,6 +67,4 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/geopublisher_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/geopublisher_quickstart>`

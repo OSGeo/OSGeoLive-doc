@@ -70,17 +70,17 @@ Details
 
 **Webseite:** http://www.openjump.org
 
-**Licenz:** GPL
+**Lizenz:** GPL
 
 **Software Version:** 1.4.0.1
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac, Unix
+**Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://www.openjump.org/support.html
 
 **Kommerzieller Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/openjump_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/openjump_quickstart>`

@@ -50,14 +50,13 @@ Details
 
 **Software Version:** 0.7.0
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** C++, Python
 
-
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/mapnik_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/mapnik_quickstart>`
 
 

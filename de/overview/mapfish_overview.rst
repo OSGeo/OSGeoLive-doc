@@ -58,14 +58,11 @@ Details
 
 **Software Version:** 2.2
 
-**Unterstützte Platformen:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
-
 
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/mapfish_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/mapfish_quickstart>`

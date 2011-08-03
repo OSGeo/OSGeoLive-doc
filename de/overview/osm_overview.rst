@@ -76,16 +76,16 @@ Details
 
 * osm2pgsql: 0.69 (svn r22215)
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Schnittstellen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen (Daten):** REST (via Xapi), XML
 
 **Support:** http://wiki.openstreetmap.org/
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* :doc:`Schnellstart Dokumentation <../quickstart/osm_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/osm_quickstart>`
 
 

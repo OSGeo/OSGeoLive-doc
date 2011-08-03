@@ -61,19 +61,19 @@ Das OGR Vektor Datenmodell folgt der OGC Simple Features Spezifikation.
 Details
 -------
 
-**Website:**  http://www.gdal.org
+**Webseite:**  http://www.gdal.org
 
 **Lizenz:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
 **Software Version:** 1.7.3
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** Python, Java, C#, Ruby, VB6 and Perl
 
 **Support:** http://www.osgeo.org/search_profile
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/gdal_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/gdal_quickstart>`

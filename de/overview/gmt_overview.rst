@@ -50,16 +50,15 @@ Details
 
 **Software Version:** 4.5.1
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen:** Kommandozeile
 
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/gmt_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/gmt_quickstart>`
 
 

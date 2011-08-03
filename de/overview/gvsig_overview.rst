@@ -108,7 +108,7 @@ Details
 
 **Software Version:** 1.11
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **Support:** http://www.gvsig.org/web/organization/services
 
@@ -116,7 +116,7 @@ Details
 .. _gvSIG: http://www.gvsig.org
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/gvsig_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/gvsig_quickstart>`

@@ -48,7 +48,7 @@ Implementierte Standards
 Details
 -------
 
-**Website:** www.rasdaman.org
+**Webseite:** www.rasdaman.org
 
 **Lizenz:**
 
@@ -59,7 +59,9 @@ Details
 
 **Unterstützte Plattformen:** Linux, Mac, Solaris
 
-**APIs:** rasql, C++, Java; OGC-basierte WCS, WCPS, WCS-T, und WPS Schnittstellen
+**API Schnittstellens:** rasql, C++, Java
+
+.. siehe Implementierte Standards OGC-basierte WCS, WCPS, WCS-T, und WPS Schnittstellen
 
 **Support:**  www.rasdaman.com
 

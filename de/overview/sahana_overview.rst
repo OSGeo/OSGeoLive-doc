@@ -52,16 +52,13 @@ Details
 
 **Software Version:** 0.6.4
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen:** Web, PHP (Sahana Agasti), Python (Sahana Eden)
 
 **Support:** http://www.sahanafoundation.org/support
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/sahana_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/sahana_quickstart>`

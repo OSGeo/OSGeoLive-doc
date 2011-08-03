@@ -57,13 +57,13 @@ Details
 
 **Software Version:** 1.0beta2
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **Community:** http://groups.google.com/group/maptiler 
 
 **Kommerzieller Support und Anwendungen:** http://www.maptiler.com/
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/maptiler_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/maptiler_quickstart>`

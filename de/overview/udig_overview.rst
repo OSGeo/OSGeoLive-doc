@@ -70,7 +70,7 @@ Details
 
 **Software Version:** 1.2.2
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
@@ -78,10 +78,7 @@ Details
 
 **Entwickler:** http://udig.refractions.net/developers/
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/udig_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/udig_quickstart>`

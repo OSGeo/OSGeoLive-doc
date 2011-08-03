@@ -66,14 +66,13 @@ Details
 
 **Software Version:** 2.6.3
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** Java
 
 **Support:** http://www.osgeo.org/search_profile
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/geonetwork_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/geonetwork_quickstart>`

@@ -55,7 +55,7 @@ Details
 
 **Software Version:** 1.05
 
-**Unterstützte Betriebssysteme:** Linux, Windows, Mac
+**Unterstützte Plattformen:** Linux, Windows, Mac
 
 **API Schnittstellen:** SQL
 
@@ -64,6 +64,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart Dokumentation <../quickstart/pgrouting_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/pgrouting_quickstart>`
 
 

@@ -83,14 +83,11 @@ Details
 
 **Software Version:** 2.7
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **Support:** http://www.mapbender.org/Support
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/mapbender_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/mapbender_quickstart>`

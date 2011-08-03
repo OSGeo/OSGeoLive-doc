@@ -68,22 +68,19 @@ Unterstützte Daten:
 Details
 -------
 
-**Website:** http://osgearth.org/
+**Webseite:** http://osgearth.org/
 
-**Licence:** GNU Lesser General Public License (LGPL) 
+**Lizenz:** GNU Lesser General Public License (LGPL) 
 
 **Software Version:** 2.0
 
-**Supported Platforms:** Linux, Mac, Windows
+**Unterstützte Plattformen:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**API Schnittstellen:** C++
 
 **Commercial Support:** http://osgearth.org/#ProfessionalServices
-
 
 Quickstart
 ----------
 
-* `Quickstart (English) <../../en/quickstart/osgearth_quickstart.html>`_
-
-
+* :doc:`Quickstart (English) <../../en/quickstart/osgearth_quickstart>`

@@ -9,9 +9,9 @@
   :align: right
   :target: http://activityworkshop.net/software/prune/
 
-******************
-Prune Schnellstart 
-******************
+****************
+Prune Quickstart 
+****************
 
 Laufen lassen
 =============

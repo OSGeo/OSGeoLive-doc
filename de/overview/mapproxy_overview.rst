@@ -92,18 +92,17 @@ MapProxy unterstützt folgende offene Spezifikationen:
 Details
 -------
 
-**Website:** http://mapproxy.org/
+**Webseite:** http://mapproxy.org/
 
 **Lizenz:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
 **Software Version:** 1.1.1
 
-**Unterstütze Plattform:** Linux, Mac, Windows
+**Unterstütze Plattformen:** Linux, Mac, Windows
 
 **Support:** http://mapproxy.org/support.html
 
-
-Schnellstart
-------------
+Quickstart
+----------
     
-* `Schnellstart Dokumentation <../quickstart/mapproxy_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/mapproxy_quickstart>`

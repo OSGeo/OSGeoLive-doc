@@ -105,10 +105,9 @@ Details
 
 **Kommerzieller Support:** http://www.osgeo.org/search_profile
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/mapguide_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/mapguide_quickstart>`
 
 

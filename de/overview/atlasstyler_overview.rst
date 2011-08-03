@@ -46,15 +46,15 @@ Implementierte Standards
 Details
 -------
 
-**Website:** http://de.geopublishing.org/AtlasStyler
+**Webseite:** http://de.geopublishing.org/AtlasStyler
 
 **Software Version:** 1.7
 
-**Licence:** GNU Lesser General Public License (LGPL) version 3.0
+**Lizenz:** GNU Lesser General Public License (LGPL) version 3.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
-**API Interfaces:** Java, Swing, Geotools
+**API Schnittstellen:** Java, Swing, Geotools
 
 **Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
@@ -63,6 +63,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart Dokumentation <../quickstart/atlasstyler_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/atlasstyler_quickstart>`
 
 

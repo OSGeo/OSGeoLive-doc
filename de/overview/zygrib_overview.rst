@@ -44,6 +44,6 @@ Details
 
 **Software Version:** 3.9.2
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://zygrib.org/forum/

@@ -61,16 +61,15 @@ Details
 
 **Software Version:** 2.0.6
 
-**Unterstützte Betriebssysteme:** Linux, Windows
+**Unterstützte Plattformen:** Linux, Windows
 
 **API Schnittstellen:** C++
 
 **Support:** http://www.saga-gis.org
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/saga_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/saga_quickstart>`
 
 

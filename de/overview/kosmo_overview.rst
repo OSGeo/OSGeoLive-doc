@@ -65,14 +65,13 @@ Details
 
 **Software Version:** 2.0
 
-**Unterstützte Betriebssysteme:** Windows, Linux
+**Unterstützte Plattformen:** Windows, Linux
 
 **API Schnittstellen:** Java
 
 **Kommerzieller Support:** http://www.saig.es/index.php?lang=en
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/kosmo_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/kosmo_quickstart>`

@@ -51,16 +51,16 @@ Details
 
 **Software Version:** 0.9.2
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen:** Qt designer, C++, Python, D-BUS, Shell script
 
 **Support:** http://techbase.kde.org/Projects/Marble
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/marble_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/marble_quickstart>`
 
 

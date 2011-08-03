@@ -45,13 +45,13 @@ OpenCPN unterstützt:
 Details
 -------
 
-**Website:** http://www.opencpn.org
+**Webseite:** http://www.opencpn.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Lizenz:** GNU General Public License (GPL) version 2
 
 **Software Version:** 2.3.1
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://www.cruisersforum.com/forums/f134
 
@@ -59,6 +59,6 @@ Details
 Quickstart
 ----------
 
-* `Quickstart documentation <../quickstart/opencpn_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/opencpn_quickstart>`
 
 

@@ -59,14 +59,13 @@ Details
 
 **Software Version:** 2.3.1 / 2.4 beta
 
-**Unterstützte Betriebssysteme:** Linux, Mac, Windows
+**Unterstützte Plattformen:** Linux, Mac, Windows
 
 **API Schnittstellen:** C++
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/spatialite_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/spatialite_quickstart>`
 
 

@@ -52,12 +52,12 @@ Details
 
 **Software Version:** 2.12.1
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac, Unix
+**Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
 **Support aus der Community:** http://cran.r-project.org/web/views/Spatial.html
 
 
-Schnellstart
-------------
+Quickstart
+----------
 
-* `Schnellstart Dokumentation <../quickstart/R_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/R_quickstart>`

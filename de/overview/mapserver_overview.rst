@@ -91,14 +91,13 @@ Details
 
 **Software Version:** 5.6.6
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** C, PHP, Python, Perl, Ruby, Java, and .NET
 
 **Support:** http://mapserver.org/community/
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/mapserver_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/mapserver_quickstart>`

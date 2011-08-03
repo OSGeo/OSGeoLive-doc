@@ -56,16 +56,13 @@ Details
 
 **Software Version:** 0.9.9
 
-**Unterstützte Betriebssysteme:** GNU/Linux, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, MS Windows
 
 **API Schnittstellen:** C, GTK+ 2
 
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/viking_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/viking_quickstart>`

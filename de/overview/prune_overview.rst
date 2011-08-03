@@ -54,11 +54,9 @@ Details
 
 **Software Version:** 12
 
-**Unterstützte Betriebssysteme:** GNU/Linux, Mac OSX, Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, Windows
 
-
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/prune_quickstart.html>`_
-
+* :doc:`Quickstart Dokumentation <../quickstart/prune_quickstart>`

@@ -7,7 +7,7 @@
 
 .. image:: ../../images/project_logos/logo-geokettle.png
   :scale: 80 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://www.geokettle.org/
 
@@ -102,7 +102,7 @@ Details
 
 **Software Version:** 2.0-RC1
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac, Solaris
+**Unterstützte Plattformen:** Windows, Linux, Mac, Solaris
 
 **API Schnittstellen:** Java, Javascript
 

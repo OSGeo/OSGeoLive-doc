@@ -57,14 +57,11 @@ Details
 
 **API Schnittstellen:** PHP
 
-**Unterstützte Betriebssysteme:** Linux, Mac, Windows
+**Unterstützte Plattformen:** Linux, Mac, Windows
 
 **Support:** http://forums.ushahidi.com
 
-
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/ushahidi_quickstart.html>`_
-
-
+* :doc:`Quickstart Dokumentation <../quickstart/ushahidi_quickstart>`

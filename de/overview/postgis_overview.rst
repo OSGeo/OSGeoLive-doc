@@ -63,14 +63,13 @@ Details
 
 **Software Version:** 1.5
 
-**Unterstützte Betriebssysteme:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** SQL
 
 **Support:** http://www.osgeo.org/search_profile
 
+Quickstart
+----------
 
-Schnellstart
-------------
-
-* `Schnellstart Dokumentation <../quickstart/postgis_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/postgis_quickstart>`

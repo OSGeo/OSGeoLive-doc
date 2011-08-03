@@ -10,7 +10,7 @@
 OSGeo-Live Quickstart
 *********************
 
-Dieser Quick Start (Schnellstart) beschreibt, wie die OSGeo-Live DVD gestartet wird.
+Dieser Quickstart beschreibt, wie die OSGeo-Live DVD gestartet wird.
 
 Systemvoraussetzungen
 ---------------------

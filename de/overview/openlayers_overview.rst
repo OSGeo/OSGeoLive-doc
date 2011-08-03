@@ -67,10 +67,9 @@ Details
 
 **Support:** http://trac.openlayers.org 
 
-
-Schnellstart
+Quickstart
 ------------
 
-* `Schnellstart Dokumentation <../quickstart/openlayers_quickstart.html>`_
+* :doc:`Quickstart Dokumentation <../quickstart/openlayers_quickstart>`
 
 
