@@ -64,21 +64,21 @@ Implemented Standards
 Details
 -------
 
-* **Website:** http://52north.org/communities/sensorweb/sos
+**Website:** http://52north.org/communities/sensorweb/sos
 
-* **Licence:** GNU GPL v2.0
+**Licence:** GNU GPL v2.0
 
-* **Software Version:** SOS 3.2.0
+**Software Version:** SOS 3.2.0
 
-* **Supported Platforms:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac
 
-* **API Interfaces:** Java
+**API Interfaces:** Java
 
-* **Commercial Support:** http://52north.org/
+**Commercial Support:** http://52north.org/
 
-* **Community Support:** http://sensorweb.forum.52north.org/
+**Community Support:** http://sensorweb.forum.52north.org/
 
-* **Community Website:** http://52north.org/communities/sensorweb/
+**Community Website:** http://52north.org/communities/sensorweb/
 
 Quickstart
 ----------
