@@ -16,7 +16,7 @@
 =============
 
 Web Service
-~~~~~~~~~~~
+-----------
 
 The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` enables web access to geospatial
 processing algorithms provided by Sextane, ArcGIS Server, or custom developed
