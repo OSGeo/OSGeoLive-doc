@@ -47,7 +47,7 @@ Główne funkcje
   
   * Standardy OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Inne: ArcGI, Images, MapGuide, MapServer, TileCache
+  * Inne: ArcGIS, Images, MapGuide, MapServer, TileCache
 
 * Możliwość parsowania danych wektorowych i metadanych w wielu formatach:
   

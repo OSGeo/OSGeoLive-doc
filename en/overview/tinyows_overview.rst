@@ -53,7 +53,7 @@ Details
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 
-**API Interfaces:** CGI - FastCGI
+**API Interfaces:** CGI/FastCGI
 
 **Support:** http://lists.maptools.org/pipermail/tinyows-users/
 

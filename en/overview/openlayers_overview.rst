@@ -48,7 +48,7 @@ Core Features
   
   * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Others: ArcGI, Images, MapGuide, MapServer, TileCache
+  * Others: ArcGIS, Images, MapGuide, MapServer, TileCache
 
 * Ability to parse vector data and metadata in many formats:
   

@@ -46,7 +46,7 @@ OpenLayers は多数のソースで構成しており、 Google Maps API のよ�
   
   * OGC標準: WMS, WMTS, WFS, WFS, WFS-T, GeoRS, GML
   
-  * その他: ArcGI, Images, MapGuide, MapServer, TileCache
+  * その他: ArcGIS, Images, MapGuide, MapServer, TileCache
   
 * パースできるベクタデータ、メタデータのフォーマットのうち主なもの
   
