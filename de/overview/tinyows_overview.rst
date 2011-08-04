@@ -1,12 +1,14 @@
 :Author: OSGeo-Live
-:Version: osgeo-live5.0draft
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:Author: Frank Gasdorf
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _tinyows-overview:
+.. _tinyows-overview-de:
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Projekt Logo
   :align: right
   :target: http://www.tinyows.org/
 
@@ -16,50 +18,46 @@ TinyOWS
 Web Feature Service
 ~~~~~~~~~~~~~~~~~~~
 
-TinyOWS ist ein transaktionaler Web Feature Service (WFS-T), der hochperformant und leichtgewichtig ist. Er kann einfach 
-einfach ausgerollt (deployed) werden und verwendet CGI oder Fast CGI Schnittstellen sowie :doc:`posgis_overview` f�r die Speicherung der Daten.
+TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender  Transaktionaler Web Feature Service (WFS-T), der CGI und FastCGI Schnittstellen unterstützt und :doc:`PostGIS <../overview/postgis_overview>` für die Datenspeicherung nutzt.
 
 .. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right
 
-TinyOWS is commonly used in conjunction with MapServer to provide WFS-T and fast WFS services for QGIS and/or OpenLayers clients. It is used in production in organisations around the world, including risk adverse government agencies.
-TinyOWS strictly implements the WFS 1.0 and 1.1 standards, and has passed all OGC CITE units tests (~ 1000 unit tests).
+TinyOWS wird häufig in Verbindung mit einem :doc:`MapServer <../overview/mapserver_overview>` eingesetzt, um Daten über WFS-T und schnelle WFS Dienste für :doc:`QGIS <../overview/qgis_overview>` und/oder :doc:`OpenLayers <../overview/openlayers_overview>` Clients bereitzustellen. TinyOWS ist produktiv in Organsationen und Regierungsbehörden weltweit im Einsatz. WFS 1.0 und WFS 1.1 sind präzise implementiert, alle OGC CITE Tests - ca.  1000 - wurden erfolgreich durchlaufen.
 
-kernfunktionen
+Kernfunktionen
 --------------
 
-* transaktionaler Web Feature Service (WFS-T)
-* CGI und Fast-CGI interface
-* PostGIS data connection
-* GML 2.1.2, 3.1.1 and GeoJson 1.0 output
-* Configured using MapServer's configuration file, allowing a single configuration file for both applications.
+* Transaktionaler Web Feature Service (WFS-T)
+* CGI und FastCGI Schittstellen
+* PostGIS Anbindung
+* GML 2.1.2, 3.1.1 und GeoJson 1.0 Rückgabeformate
+* kann mit MapServer Konfigurationsdatei eingerichtet werden, so dass für beide Applikationen nur eine Konfigurationsdatei erforderlich ist
 
-Implemented Standards
----------------------
-* WFS 1.0 and WFS 1.1: Basic and Transitional profiles
-* FE 1.0.0 and FE 1.1.0
-* GML 2.1.2 and 3.1.1 Simple Profile (SF-0)
+Umgesetzte Standards
+--------------------
+* WFS 1.0 und WFS 1.1: Basisprofil und Transaktional
+* FE 1.0.0 und FE 1.1.0
+* GML 2.1.2 und 3.1.1 Simple Profile (SF-0)
 
 Details
 -------
 
-**Website:** http://www.tinyows.org/
+**Webseite:** http://www.tinyows.org/
 
-**Licence:** MIT
+**Lizenz:** MIT
 
 **Software Version:** 1.0
 
-**Supported Platforms:** Linux, Unix, Mac, Windows
+**Unterstützte Plattformen:** Linux, Unix, Mac, Windows
 
-**API Interfaces:** CGI - Fast CGI
+**API Schnittstellen:** CGI, FastCGI
 
 **Support:** http://lists.maptools.org/pipermail/tinyows-users/
-
 
 Quickstart
 ----------
     
-* :doc:`Quickstart documentation <../quickstart/tinyows_quickstart>`
-
+* :doc:`Quickstart Dokumentation <../quickstart/tinyows_quickstart>`
