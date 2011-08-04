@@ -109,7 +109,7 @@ Details
 **Support:** http://www.spatialytics.org & http://www.spatialytics.com
 
 
-Schnellstart
-------------
+Quickstart
+----------
     
-* :doc:`Schnellstart Dokumentation <../quickstart/geokettle_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/geokettle_quickstart>`

@@ -10,8 +10,8 @@
   :alt: project logo
   :align: right
 
-Mapnik Schnellstart
-~~~~~~~~~~~~~~~~~~~
+Mapnik Quickstart
+~~~~~~~~~~~~~~~~~
 
 Mapnik ist eine Werkzeug um Kartenanwendungen zu entwickeln. Vor allem wird Mapnik dazu eingesetzt um Karten zu generieren. Mapnik ist leicht erweiterbar und sowohl für Web- als auch Desktop-Entwicklung geeignet. 
 

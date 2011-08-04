@@ -11,7 +11,7 @@
   :target: http://52north.org/sos
   
 ************************
-52°North SOS Quick-Start 
+52°North SOS Quickstart 
 ************************
 
 Erste Schritte

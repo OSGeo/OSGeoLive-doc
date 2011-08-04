@@ -9,8 +9,8 @@
   :alt: project logo
   :align: right 
 
-Ushahidi Quick Start 
-====================
+Ushahidi Quickstart 
+===================
 
 Diese Anleitung beschreibt, wie Sie:
 

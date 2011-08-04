@@ -15,7 +15,7 @@ SpatiaLite Quickstart
 
 SpatiaLite ist eine SQLite-Datenbank-Engine mit zusätzlichen räumlichen Funktionen.
 
-Dieser Quick Start beschreibt, wie man eine Datenbank mit Hilfe der Kommandozeile oder mit der graphischen Anwendung öffnet.
+Dieser Quickstart beschreibt, wie man eine Datenbank mit Hilfe der Kommandozeile oder mit der graphischen Anwendung öffnet.
 
 
 spatialite Ausführen

@@ -28,8 +28,8 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
 `Apple OSX <../MacInstallers/>`_ und `Microsoft Windows <../WindowsInstallers/>`_.
 
 
-Schnellstart (Quick Starts)
----------------------------
+Quickstart
+----------
 
 -   :doc:`Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
 -   :doc:`Ändere Spracheinstellungen und Tastaturbelegung <quickstart/internationalisation_quickstart>`
