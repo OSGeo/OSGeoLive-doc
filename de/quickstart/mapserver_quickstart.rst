@@ -108,7 +108,7 @@ Darstellen einer Karte mit MapServer mittels eines WMS **GetMap** Requests
 
  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=AGG/PNG&WIDTH=800&HEIGHT=600
 
-Was bedeutet das Obige ? Einach gesagt, es ist ein `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** Request der dem mapserver sagt, er soll den folgenden mapfile verwenden, um bestimmte Karten als PNG Bild mit festgelegten Eigenschaften wie Bildgröße, Ausdehnung, Projektion, etc.* darzustellen.  Alle Karten im "*&LAYERS=...*" Bereich, die *STATUS ON* oder *STATUS DEFAULT* im mapfile haben, werden nun dargestellt. Das Ergebnis sollte so aussehen :
+Was bedeutet das Obige ? Einfach gesagt, es ist ein `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** Request, der dem mapserver sagt, er soll den angegebenen mapfile verwenden, um bestimmte Karten als PNG Bild mit festgelegten Eigenschaften wie Bildgröße, Ausdehnung, Projektion, etc.* darzustellen.  Alle Karten im "*&LAYERS=...*" Bereich, die *STATUS ON* oder *STATUS DEFAULT* im mapfile haben, werden nun dargestellt. Das Ergebnis sollte so aussehen:
 
   .. image:: ../../images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
@@ -117,12 +117,12 @@ Was bedeutet das Obige ? Einach gesagt, es ist ein `Web Map Service (WMS) <http:
 
 .. _mapserver-quickstart-add-new-layer:
 
-Add a new layer to the "mapfile" to serve a local shapefile
-===========================================================
+Einen neuen Layer im "mapfile" ergänzen, um eine Shapefile darzustellen
+=======================================================================
 
-.. note:: **What will I learn ?** You will learn how to add a new layer object definition to your mapfile.
+.. note:: **Was werden wir lernen ?** Sie werden lernen, wie man neue layer Objekte in einem mapfile definiert.
 
-We will now add a new layer to our mapfile. Before last *END* statement in the mapfile, add the following layer configuration::
+Wir ergänzen jetzt einen weiteren layer zu unserem mapfile. Vor dem letzten *END* im mapfile, fügen wir folgende layer konfiguration hinzu::
 
  LAYER
    NAME "Lakes"
@@ -136,27 +136,27 @@ We will now add a new layer to our mapfile. Before last *END* statement in the m
    END 
   END
 
-Now we have 2 layer definitions in our MapFile.  Note that this new one we just added has the "STATUS ON" property.  That means that unless we specifically request it, it won't be rendered.
+Nun haben wir 2 layer Definitionen in unserem mapfile. Dieser layer hat die "STATUS ON" Eigenschaft. Das heisst, solange wir ihn nicht explizit anfragen, wird er nicht dargestellt. 
 
-Let's take our previous WMS **GetMap** request and add our new "Lakes" layer to the image rendered.  We simply need to add the new layer name to the "LAYERS" property list, as such::
+Nehmen wir nun unseren vorherigen WMS **GetMap** Request und ergänzen den neuen layer "Lakes" zu dem erzeugten Bild. Dazu müssen wir einfach nur den neuen layer Namen zur "LAYERS" liste hinzufügen::
 
  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=AGG/PNG&WIDTH=800&HEIGHT=600
 
-The image rendered by MapServer look like our previous map, but with addition of the lakes from our new layer:
+Das Bild, das nun vom MapServer dargestellt wird sieht aus wie das vorherige, nur mit dem zusätzlichen neuen lake Layer:
 
   .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
 .. _mapserver-quickstart-styling-a-layer:
 
-Style a layer using "mapfile" configurations
-=============================================
+Darstellung eines Layers anpassen mit "mapfile" Konfigurationen
+===============================================================
 
-.. note:: **What will I learn ?** You will see an example of styling elements inside a layer depending on some of its data properties.
+.. note:: **Was werden wir lernen ?** Sie sehen ein Beispiel für die Darstellungselemente eines Layers in Abhängigkeit von seinen Eigenschaften.
 
-In a MapFile, a LAYER object can contain an infinite number of CLASS object.  These are used to style the elements contained in the spatial data file (DATA).  For example, if we look closer at our "10m_lakes" data file using a tool such as `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, we'll see the geometry and attribute definitions it contains.  These attribute values can be used as a way to draw the elements inside a dataset differently using multiple CLASS objects.
+In einem MapFile kann ein Layer-Objekt eine unendliche Anzahl von CLASS-Objekten enthalten. Diese werden verwendet, um die Darstellung von Elementen einer Karte (DATA) zu definieren. Zum Beispiel, wenn wir uns die "10m_lakes" Datei mit einem Tool wie `ogrinfo <http://www.gdal.org/ogrinfo.html>` anzeigen lassen _, sehen wir die Geometrie und Attribut-Definitionen der Objekte . Diese Attributwerte können verwendet werden, um die Objekte innerhalb eines Datensatzes mit mehreren unterschiedlichen CLASS-Objekten unterschiedlich darzustellen.
 
-In our "10m_lakes" dataset, we have a *ScaleRank* attribute, which seems to be related ot the size of the lake.  We can use this as a way to render the lakes differently.  In the LAYER object, we'll add an other CLASS object just before our current one, as such::
+Im "10m_lakes" Datensatz haben wir das *ScaleRank* Attribut, welches in Bezug zur Größe der Seen steht. Wir können es benutzen, um die Seen unterschiedlich darzustellen. Im LAYER-Objekt fügen wir ein weiteres CLASS-Objekt hinzu::
 
   LAYER
    NAME "Lakes"
@@ -178,21 +178,23 @@ In our "10m_lakes" dataset, we have a *ScaleRank* attribute, which seems to be r
    END 
   END
 
-What does our new CLASS object do?  It's basically tells MapServer to draw the elements having the "ScaleRank" property equal to "0" or "1" with a black outline.  Class objects are always read from the top to the bottom for each feature to be drawn.  When a feature matches the "EXPRESSION" specified in a class, that class used to render the feature. If the feature does not match a class the next class is checked. If a feature does not match any class then it is not rendered and if the last class in a layer contains no EXPRESSION then that class acts as a default. The LAYER "CLASSITEM" property tells MapServer which attribute to use when evaluating EXPRESSIONs defined in the CLASS objects.
+Was macht dieses neue CLASS-Objekt?  
 
-The result of this new addition should make the big lakes in our map image render with a black outline, as such:
+Im Grunde sagt es, das Elemente mit der "ScaleRank"-Eigenschaft gleich "0" oder "1" mit einem schwarzen Umriss gezeichnet werden sollen. CLASS-Objekte werden immer von oben nach unten für jede Funktion gelesen. Wenn ein Objekt mit der "EXPRESSION" in einer Klasse übereinstimmt, wird diese Klasse verwendet, um das Objekt darzustellen. Wenn das Objekt nicht mit einer Klasse übereinstimmt, wird es anhand der nächsten Klasse überprüft. Wenn ein Objekt mit keiner Klasse übereinstimmt, und die letzte Klasse in einem LAYER-Objekt keine "EXPRESSION" enthält, dann wird diese Klasse als Standard benutzt. Das LAYER-Objekt "CLASSITEM" teilt MapServer mit, welches Attribut bei der Auswertung von EXPRESSIONs benutzt werden soll.
+
+Das Ergebnis dieser Ergänzung bewirkt, dass große Seen mit einem schwarzen Umriss gezeichnet werden:
 
   .. image:: ../../images/screenshots/800x600/mapserver_lakes_scalerank.png
     :scale: 70 %
 
-.. note:: Learn more about `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ in MapServer.
+.. note:: Lernen Sie mehr über `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ im MapServer.
 
-What Next?
+Weiterführende Links?
 ==========
 
-This is a simple example, but you can do much, much more.  The MapServer project website contains many resources to help you get started.  Here's a few resources to check out next:
+Dies ist ein einfaches Beispiel und Sie können noch viel, viel mehr machen. Die MapServer Projekt Webseite enthält zahlreiche Hilfen, um ihnen einen Start zu ermöglichen. Hier sind ein paar Tipps, wo sie als nächstes nachschauen können:
 
-* Read the `Introduction to MapServer <http://mapserver.org/introduction.html#introduction>`_.
-* Have a look at the `MapServer Tutorial <http://www.mapserver.org/tutorial/index.html>`_ which contains more MapFile examples.
-* Check the `OGC Support and Configuration <http://www.mapserver.org/ogc/index.html>`_ to learn more about OGC standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.).
-* Ready to use MapServer ?  Then join the community on the `Mailing Lists <http://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss potential software improvements and ask questions.
+* Lesen Sie die `Introduction to MapServer <http://mapserver.org/introduction.html#introduction>`_.
+* Schauen Sie sich das `MapServer Tutorial <http://www.mapserver.org/tutorial/index.html>`_ an, es enthält weitere MapFile Beispiele.
+* Lesen Sie über `OGC Support and Configuration <http://www.mapserver.org/ogc/index.html>`_ um mehr über OGC Standards im MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.) zu lernen.
+* Bereit, mit dem MapServer zu arbeiten ?  Dann tragen Sie sich in die `Mailing Listen <http://www.mapserver.org/community/lists.html>`_ der Community ein, um Ideen auszutauschen, Verbesserungen zu diskutieren und Fragen zu stellen.
