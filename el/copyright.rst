@@ -6,35 +6,38 @@
 * Οι περιλήψεις των λογισμικών (Project Overviews) και οι μεταφράσεις τους, παρέχονται με βάση την άδεια `Creative Commons Attribution 3.0 Unported License <http://creativecommons.org/licenses/by/3.0/>`_.
 * Τα Εγχειρίδια Γρήγορης Εκκίνησης (Quickstarts) και οι μεταφράσεις τους, παρέχονται με βάση την άδεια `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 * Τα εγχειρίδια μπορούν να είναι διαθέσιμα και με βάση άλλες άδειες χρήσης, όπως παρουσιάζεται στη συνέχεια.
-* Τα λογισμικά στο OSGeo-Live είναι διαθέσιμα με βάση διάφορες άδεις Ανοιχτού Λογισμικού, όπως περιγράφεται στις ιστοσελίδες τους, και έχει αναγράφεται και στις περιλήψεις (Overviews).
+* Τα λογισμικά στο OSGeo-Live είναι διαθέσιμα με βάση διάφορες άδεις Ανοιχτού Λογισμικού, όπως περιγράφεται στις  περιλήψεις (Overviews).
 * Τα δεδομένα στο OSGeo-Live είναι διαθέσιμο με βάση διάφορες Ανοιχτές Άδειες.
 
 Αναφορά στα Εγχειρίδια του OSGeo-Live
 -------------------------------------
-Όπως αναφέρεται στους όρους της άδειας Creative Commons <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, αν περιληφθεί κείμενο των εγχειριδίων του OSGeo-Live σε νέο κείμενο, θα χρειαστεί να γίνει αναφορά στους συγγραφείς με τη χρήση μιας παραγράφου παρόμοιας με αυτή:
+Όπως αναφέρεται στους όρους της άδειας Creative Commons <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, αν περιληφθεί κείμενο των εγχειριδίων του OSGeo-Live σε νέο κείμενο, θα χρειαστεί να γίνει αναφορά στους συγγραφείς.
 
+Επιπρόσθετα, αν συμπεριληφθούν τα Εγχειρίδια Γρήγορης Εκκίνησης, τα οποία χρησιμοποιούν την άδεια `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_ , τότε το κείμενο που θα προκύψει θα πρέπει και εκείνο να χρησιμοποιεί την άδεια the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 
-**Απόδοση πνευματικών δικαιωμάτων μέσω της άδειας CC By-SA και αναφορά**
+Μπορείτε να χρησιμοποιήσετε κείμενο αναφοράς σαν ένα από τα παρακάτω:
 
-  |CC-By-SA-med| <Ο Τίτλος του κειμένου> από <Όνομα συγγραφέα> διατίθεται υπό την άδεια `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_. Αυτό το κείμενο επεκτείνει τα Εγχειρίδια Γρήγορης Εκκίνησης που συνέγραψαν οι συντελεστές του `OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
+**Αναλυτικό, κατάλληλο για έκθεση 100 σελίδων:**
+
+  |CC-By-SA-med| Το κείμενο αυτό περιλαμβάνει περιεχόμενο από το Εγχειρίδιο Γρήγορης Εκκίνησης gvSIG που δημιουργήθηκε από τον Simon Cropper υπό την άδεια Creative Commons Attribution-ShareAlike 3.0 Unported, http://creativecommons.org/licenses/by-sa/3.0/ είναι διαθέσιμο από το OSGeo-Live, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, και έχει μεταφορτωθεί στις 25 July 2011. Το αρχικό κείμενο έχει μεταφραστεί από τα Αγγλικά στα Γερμανικά.
 
   .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+    :target: http://creativecommons.org/licenses/by-sa/3.0/
 
-**Απόδοση πνευματικών δικαιωμάτων μέσω της άδειας CC By και αναφορά**
+**Συνοπτική αναφορά CC-By-SA:**
 
-  |CC-By-small| © 2011 <Όνομα συγγραφέα> υπό την άδεια `CC By License <http://creativecommons.org/licenses/by/3.0/>`_. Περιλαμβάνει περιλήψεις λογισμικών που συνέγραψαν οι συντελεστές του `OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
+  © 2011 [Όνομα συγγραφέα] υπό την άδεια `CC By SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.  [Προέκυψε από|Περιλαμβάνει|Επεκτείνει] τα εγχειρίδια του `OSGeo-Live <http://live.osgeo.org>`_ από τους `συντελεστές του OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
+
+**Εναλλακτική συνοπτική αναφορά CC-By:**
+
+  |CC-By-small| © 2011 [Όνομα συγγραφέα]. [Προέκυψε από|Περιλαμβάνει|Επεκτείνει] τις ` Περιλήψεις του OSGeo-Live <http://live.osgeo.org>`_ από τους `συντελεστές OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
 
   .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+    :target: http://creativecommons.org/licenses/by/3.0/
 
-**Σύντομη απόδοση πνευματικών δικαιωμάτων και αναφορά**
+**Σύντομη αναφορά (για τις Περιλήψεις):**
 
-  © 2011 <Όνομα συγγραφέα>. Περιλαμβάνει κείμενα που συνέγραψαν οι συντελεστές του `OSGeo-Live  <http://live.osgeo.org/en/copyright.html>`_.
-
-**Μόνο αναφορά**
-
-  Αυτό το κείμενο περιλαμβάνει περιλήψεις λογισμικών που συνέγραψαν οι συντελεστές του `OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
-
-**Σημείωση:** *Εφόσον χρησιμοποιηθούν τα Εγχειρίδια Γρήγορης Εκκίνησης, το οποία διατίθενται από την άδεια `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_, τότε το νέο κείμενο απαιτείται να διατίθεται από την άδεια `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.*
+  Αυτό το κείμενο περιλαμβάνει τις Περιλήψεις του `OSGeo-Live <http://live.osgeo.org>`_ από τους `συντελεστές OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
 
 Συγγραφείς Εγχειριδίων
 ----------------------
