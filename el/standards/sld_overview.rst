@@ -1,18 +1,18 @@
-.. Βοήθημα:
+.. Writing Tip:
   Writing tips describe what content should be in the following section.
 
-.. Βοήθημα:
+.. Writing Tip:
   Metadata about this document
 
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
+.. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _sld-overview:
+.. _sld_overview:
 
-.. Βοήθημα: 
+.. Writing Tip: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
   and accessed here:
@@ -34,7 +34,7 @@
 Style Layer Descriptor (SLD)
 ============================
 
-.. Βοήθημα:
+.. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο Styled Layer Descriptor (SLD) του OGC® 
@@ -55,7 +55,7 @@ Style Layer Descriptor (SLD)
 Δείτε επίσης
 ------------
 
-.. Βοήθημα:
+.. Writing Tip:
   Describe Similar standard
 
 * :doc:`fe_overview`
