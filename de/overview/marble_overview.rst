@@ -18,7 +18,7 @@ Marble
 ~~~~~~~~~~~~~~~~~
 
 Marble ist ein Open Source Programm des KDE Education Projekts, ähnlich 
-"NASA World Wind <http://worldwind.arc.nasa.gov/java/> `_ oder Google Earth. 
+`NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ oder Google Earth. 
 Neben der Möglichkeit, eine beliebige Zahl von Kartenlayern (einschließlich 
 `OpenStreetMaps <http://www.osm.org>`_) auf dem virtuellen Globus darzustellen,
 unterstützt Marble die Integration in andere Anwendungen durch das KDE Marble 
