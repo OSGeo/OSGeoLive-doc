@@ -42,7 +42,7 @@ Kernfunktionen
 --------------
 
 * Suche eine Funktionalität und GRASS bietet das passende Modul.
-* Entdecke die Screenshot Gallerie unter <http://grass.osgeo.org/screenshots/>`_.
+* Entdecke die `Screenshot Gallerie <http://grass.osgeo.org/screenshots/>`_.
 
 Details
 -------

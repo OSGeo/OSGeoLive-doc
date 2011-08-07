@@ -47,7 +47,8 @@ Kernfunktionen
 * Weitreichende Integration von Standards erlauben der Anwendung zwischen entprechenden Diensten zu wechseln, je nach Anforderung aus Darstellung, Interaktion und Bearbeitung
 * Druck und PDF Erstellung
 * Für Entwickler 
-  * Java-Application mit Hilfe von GeoTools, JTS Topology Suite und GeoAPI
+
+  * Java-Application mit Hilfe von :doc:`GeoTools <geotools_overview>`, JTS Topology Suite 
   * Professionelles Plugin-System durch die Eclipse Rich Client Platform
   * Verwendung von nativen Widgets
 
