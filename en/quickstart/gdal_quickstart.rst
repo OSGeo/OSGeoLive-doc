@@ -1,5 +1,5 @@
 :Author: Astrid Emde, material from Frank Warmedams RasterTutorial
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _gdal_quickstart:
@@ -48,13 +48,13 @@ directory.
 :: 
   
   cd /home/user
-  cp /usr/local/share/data/natural_earth/ /gdal_natural_earth 
+  cp -R /usr/local/share/data/natural_earth/ ./gdal_natural_earth 
 
  
 You find a NaturalEarth Raster file and a tfw-file at:
 :: 
   
-  cd /home/usr/gdal_natural_earth/HYP_50M_SR_W
+  cd /home/user/gdal_natural_earth/HYP_50M_SR_W
 
 
 .. tip:: Open the file with a Desktop GIS like QGIS. And have a look.
@@ -101,7 +101,7 @@ Note:
 Simple Format Translation
 ===========================
 
-First get to know your drivers. The --formats commandline switch of
+First get to know your drivers. The `--formats` commandline switch of
 gdal_translate can be used to see a list of available format drivers.  
 
 Each format reports if it is 
@@ -113,7 +113,7 @@ Each format reports if it is
  
  gdal_translate --formats
 
-The --format commandline switch can be used to query details about a
+The `--format` commandline switch can be used to query details about a
 particular driver, including creation options, and permitted data types.
 
 ::
@@ -131,14 +131,14 @@ default output format is GeoTIFF:
 
  gdal_translate HYP_50M_SR_W.tif HYP_50M_SR_W.png 
 
-The -of flag is used to select an output format and the -co flag is used
+The `-of` flag is used to select an output format and the -co flag is used
 to specify a creation option:
 
 ::
 
   gdal_translate -of JPEG -co QUALITY=40 HYP_50M_SR_W.tif HYP_50M_SR_W.jpg
 
-The -ot switch can be used to alter the output data type.  
+The `-ot` switch can be used to alter the output data type.  
 
 ::
  
@@ -150,7 +150,7 @@ Use gdalinfo to verify data type.
 Rescaling
 =========
 
-The -outsize switch can be used to set the size of the output file. 
+The `-outsize` switch can be used to set the size of the output file. 
 
 ::
 
@@ -158,12 +158,12 @@ The -outsize switch can be used to set the size of the output file.
 
 Use gdalinfo to verify the size.
 
-The -scale switch can be used to rescale data. Explicit control of the
-input and output ranges is also available. The gdalinfo -mm switch can
+The `-scale` switch can be used to rescale data. Explicit control of the
+input and output ranges is also available. The gdalinfo `-mm` switch can
 be used to see pixel min/max values. 
 
-Let's split our image into two with -srcwin which makes a copy based on
-pixel/line location (xoff yoff xsize ysize). You also could use -projwin
+Let's split our image into two with `-srcwin` which makes a copy based on
+pixel/line location (xoff yoff xsize ysize). You also could use `-projwin`
 and define the corners in georeferenced coordinates (ulx uly lrx lry).
 
 ::
@@ -299,7 +299,7 @@ Get information about the vector data with ogrinfo
   6: 10m-urban-area (Polygon)
   7: 10m_populated_places_simple (Point)
 
-Get a summary about your data with ogrinfo together with -so.
+Get a summary about your data with ogrinfo together with `-so`.
 
 ::
 
@@ -350,13 +350,13 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 
 
 You can convert your data to other formats. Get the list of the
-supported formats with --formats.
+supported formats with `--formats`.
 
 Use ogr2ogr to convert data between file formats 
 =================================================
 
 You can use ogr2ogr to converts simple features data between file
-formats. You can use --formats to get the list of the supported formats
+formats. You can use `--formats` to get the list of the supported formats
 with read/write information. 
 
 Convert the countries to GML.

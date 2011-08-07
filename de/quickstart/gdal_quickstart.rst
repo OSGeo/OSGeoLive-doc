@@ -1,5 +1,5 @@
 :Author: Astrid Emde, material from Frank Warmedams RasterTutorial
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _gdal_quickstart:
@@ -18,7 +18,7 @@ GDAL/OGR Quickstart
 Sie brauchen lediglich ein Terminal für die Übungen. Zur Visualisierung der Ergebnisse 
 können Sie ein Desktop GIS von OSGeo-Live wie beispielsweise :doc:`../overview/qgis_overview` verwenden.
 
-Dieses Quickstart behandelt zwei Teile - GDAL (Rasterdaten) und OGR (Vektordaten). 
+Dieses Quickstart besteht aus zwei Teilen - GDAL (Rasterdaten) und OGR (Vektordaten). 
 Wir werden mit der Betrachtung von GDAL beginnen.
 
 Das Quickstart beschreibt Folgendes:
@@ -27,7 +27,7 @@ GDAL
   * Untersuchen von Rasterdaten mit gdalinfo
   * Formatumwandlung mit gdal_translate 
   * Transformieren von Daten mit gdalwarp
-  * Zusammenfassung von Daten mit gdal_warp oder gdal_merge.py
+  * Zusammenfassen von Daten mit gdal_warp oder gdal_merge.py
   * Erzeugen eines Bildkatalogs in Form einer Shapedatei mit gdaltindex
 
 OGR
@@ -44,13 +44,13 @@ Daher ist der erste Schritte, die Daten in Ihr home-Verzeichnis zu kopieren.
 :: 
   
   cd /home/user
-  cp /usr/local/share/data/natural_earth/ /gdal_natural_earth 
+  cp -R /usr/local/share/data/natural_earth/ ./gdal_natural_earth 
 
  
 Unter dem folgenden Pfad finden Sie eine Natural Earth Rasterdatei und die dazugehörige tfw-Datei:
 :: 
   
-  cd /home/usr/gdal_natural_earth/HYP_50M_SR_W
+  cd /home/user/gdal_natural_earth/HYP_50M_SR_W
 
 
 .. tip:: Schauen Sie sich die Datei mit einem Desktop GIS beispielsweise QGIS an.
@@ -88,16 +88,16 @@ gdalinfo - zum Untersuchen von Rasterdaten
 Hinweis: 
   * Treiber (Driver) : "GTiff/GeoTIFF"
   * Größe (Size) ist 10800x5400
-  * 3 Bänder (1-3) vom Typ Byte. 
+  * 3 Bands (1-3) vom Typ Byte. 
   * Ausgabe der Koordinaten
-  * es liegt keine Angabe zum Koordinatensystem vor
+  * es liegt keine Angabe zum Koordinatenreferenzsystem vor
 
 
 
 gdal_translate zur einfachen Formatumwandlung
 =============================================
 
-Als erstes lassen wir uns die verfügbaren Treiber ausgeben. Über die Angabe des zusätzlichen Parameters --formats gibt gdal_translate die Liste der verfügbaren Formate aus.
+Als Erstes lassen wir uns die verfügbaren Treiber ausgeben. Über die Angabe des zusätzlichen Parameters `--formats` gibt gdal_translate die Liste der verfügbaren Formate aus.
 
 Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind:
   * read only (ro) - nur lesend,
@@ -108,7 +108,7 @@ Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind:
  
  gdal_translate --formats
 
-Die Angabe --format kann auch verwendet werden, um Details zu einem bestimmten Treiber
+Die Angabe `--format` kann auch verwendet werden, um Details zu einem bestimmten Treiber
 auszugeben, diese Details beinhalten Angaben zur Erzeugung und zu erlaubten Datentypen.
 
 ::
@@ -126,14 +126,14 @@ GeoTIFF:
 
  gdal_translate HYP_50M_SR_W.tif HYP_50M_SR_W.png 
 
-Der Parameter -of wird zur Angabe des Ausgabeformats verwendet. Zur Angabe von Erzeugungsoptionen 
-wird der -co Parameter verwendet.
+Der Parameter `-of` wird zur Angabe des Ausgabeformats verwendet. Zur Angabe von Erzeugungsoptionen 
+wird der `-co` Parameter verwendet.
 
 ::
 
   gdal_translate -of JPEG -co QUALITY=40 HYP_50M_SR_W.tif HYP_50M_SR_W.jpg
 
-Der Parameter -ot kann zur Veränderung des Ausgabedatentyps verwendet werden.
+Der Parameter `-ot` kann zur Veränderung des Ausgabedatentyps verwendet werden.
 ::
  
    gdal_translate -ot Int16 HYP_50M_SR_W.tif HYP_50M_SR_W_Int16.tif
@@ -144,7 +144,7 @@ Verwenden Sie gdalinfo zur Prüfung des Datentyps.
 Größenanpassung
 ===============
 
-Der -outsize Parameter wird zur Steuerung der Größe der Ausgabedatei verwendet.
+Der `-outsize` Parameter wird zur Steuerung der Größe der Ausgabedatei verwendet.
 
 ::
 
@@ -152,12 +152,12 @@ Der -outsize Parameter wird zur Steuerung der Größe der Ausgabedatei verwendet
 
 Verwenden Sie gdalinfo zur Prüfung der Bildgröße.
 
-Der Parameter -scale wird zur Skalierung verwendet. Eine explizite Kontrolle der 
-Eingabe- und Ausgabegröße ist ebenfalls möglich. Über gdalinfo mit der Parameterübergabe -mm
+Der Parameter `-scale` wird zur Skalierung verwendet. Eine explizite Kontrolle der 
+Eingabe- und Ausgabegröße ist ebenfalls möglich. Über gdalinfo mit der Parameterübergabe `-mm`
 können die Pixel min/max-Werte ausgegeben werden.
 
-Lassen Sie unser Bild in zwei Bilder über -srcwin aufsplitten, das eine Kopie 
-auf Grundlage Pixel/line location (xoff yoff xsize ysize) erzeugt. Sie können auch -projwin verwenden 
+Lassen Sie unser Bild in zwei Bilder über `-srcwin` aufsplitten, das eine Kopie 
+auf Grundlage Pixel/line location (xoff yoff xsize ysize) erzeugt. Sie können auch `-projwin` verwenden 
 und die Eckkoordinaten in Georeferenzierten Koordinaten (ulx uly lrx lry) angeben.
 
 ::
@@ -209,8 +209,8 @@ Umprojektion
 
 Für diese Operation gehen wir davon aus, dass HYP_50M_SR_W.tif mit korrekten 
 Grenzen angelegt wurde.
-Wir haben zu Beginn gesehen, dass die Datei über keine Angaben zum Koordinatensystem verfügt.
-Der erste Schritt ist nun, dem Bild WGS84 als Koordinatensystem zu zu weisen.
+Wir haben zu Beginn gesehen, dass die Datei über keine Angaben zum Koordinatenreferenzsystem verfügt.
+Der erste Schritt ist nun, dem Bild WGS84 als Koordinatenreferenzsystem zu zu weisen.
 
 
 ::
@@ -229,7 +229,7 @@ Verwenden Sie gdalinfo, um sich die Veränderung anzuschauen. Schauen Sie sich d
   .. image:: ../../images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
-Nun projezieren wir in die Ortho Projektion.  
+Nun projizieren wir in die Orthoprojektion.  
 
 ::
 
@@ -239,11 +239,11 @@ Nun projezieren wir in die Ortho Projektion.
 .. image:: ../../images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
-Beachten Sie, wie die Pole abgeschnitten werden. Weil die Ecken an den Polen nicht umprojeziert werden können, kann gdalwarp nicht alle Daten lesen. Als Lösung können wir gdalwarp zwingen ein wenig zusätzliche Daten zu lesen. Zu diesem Thema erfahren Sie mehr im RasterTutorial http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.
+Beachten Sie, wie die Pole abgeschnitten werden. Weil die Ecken an den Polen nicht umprojiziert werden können, kann gdalwarp nicht alle Daten lesen. Als Lösung können wir gdalwarp zwingen, ein wenig zusätzliche Daten zu lesen. Zu diesem Thema erfahren Sie mehr im Raster-Tutorial http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.
 
 
 
-Zusammenfassung von Daten
+Zusammenfassen von Daten
 =========================
 
 gdal_merge.py ist ein Python Skript, das für einfache Zusammenfassungen verwendet werden kann.
@@ -290,7 +290,7 @@ Nutzen Sie ogrinfo zur Ausgabe von Informationen über Vektordaten
   6: 10m-urban-area (Polygon)
   7: 10m_populated_places_simple (Point)
 
-Lassen Sie sich eine Zusammenfassung zu Ihren Daten mit ogrinfo und -so ausgeben.
+Lassen Sie sich eine Zusammenfassung zu Ihren Daten mit ogrinfo und `-so` ausgeben.
 
 ::
 
@@ -323,7 +323,7 @@ der Daten gefolgt von einer Sektion für jeden einzelnen Datensatzes.
 	ogrinfo ../natural_earth/ 10m-admin-0-countries
 
 Sie können die Ergebnisse von ogrinfo an grep weitergeben, um die Daten zu filtern 
-und nur das Attribut COUNTRY auszugeben.
+und so beispielsweise nur das Attribut COUNTRY auszugeben.
 
 ::
 
@@ -340,7 +340,7 @@ und nur das Attribut COUNTRY auszugeben.
 	etc.
 
 
-Sie können Ihre Daten in andere Formate konvertieren. Über --formats erhalten Sie die Liste der
+Sie können Ihre Daten in andere Formate konvertieren. Über `--formats` erhalten Sie die Liste der
 unterstützten Formate.
 
 Nutzen Sie ogr2ogr um Vektordaten in verschiedene Formate zu konvertieren
@@ -363,13 +363,13 @@ Weitere Aufgaben
 
 Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
-#. Verwenden Sie gdalwarp oder gdal_merge.py um Ihr Daten zu kacheln
+#. Verwenden Sie gdalwarp oder gdal_merge.py, um Ihr Daten zu kacheln
 
 #. Verwenden Sie gdaladdo, um interne Übersichten aufzubauen
 
 #. QGIS verwendet GDAL/OGR als Datenschnittstelle für die unterstützten Formate. Es steht auch ein GdalTools Plugin für die Verarbeitung von Rasterdaten zur Verfügung. Dieses ist auch in QGIS integriert.
 
-#. Verwenden Sie ogr2ogr für den Import/Export von Vektordaten in andere Formate, wie z.B. :doc:`PostGIS <../overview/postgis_overview>`. Schauen Sie sich bitte auch die anderen Optionen von ogr2ogr an.
+#. Verwenden Sie ogr2ogr für den Import/Export von Vektordaten in andere Formate, wie z.B. :doc:`PostGIS <../overview/postgis_overview>`. Schauen Sie sich auch die anderen Optionen von ogr2ogr an.
 
 #. Testen Sie das QGIS Plugin **OGR-Layer-Konverter**.
 
