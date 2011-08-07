@@ -281,13 +281,13 @@ Weiterführende Links
 ====================
 
 Für allgemeine Informationen über R, versuchen Sie die offizielle Seite `Introduction to R 
-<http://cran.r-project.org/doc/manuals/R-intro.html>` _ oder eine andere Dokumentation von 
-der Hauptseite des `R Projekts <http://www.r-project.org/> `_.
+<http://cran.r-project.org/doc/manuals/R-intro.html>`_ oder eine andere Dokumentation von 
+der Hauptseite des `R Projekts <http://www.r-project.org/>`_.
 
 Für weitere Informationen über räumliche Aspekte von R, ist wahrscheinlich das `R Spatial 
-Task View <http://cran.r-project.org/web/views/Spatial.html>` _ am hilfreichsten.
+Task View <http://cran.r-project.org/web/views/Spatial.html>`_ am hilfreichsten.
 
-Vielleicht wollen Sie auch zuerst die `R-Spatial <http://r-spatial.sourceforge.net/>` _ Seite 
+Vielleicht wollen Sie auch zuerst die `R-Spatial <http://r-spatial.sourceforge.net/>`_ Seite 
 auf Sourceforge anschauen, um einige weitere Links, einschließlich Informationen über die 
 R-sig-Geo-Mailingliste zu bekommen.
 

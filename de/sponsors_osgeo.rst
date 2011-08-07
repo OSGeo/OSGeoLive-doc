@@ -14,7 +14,7 @@ Diese Live GIS DVD und Virtuelle Maschine wurde von Mitgliedern der OSGeo Commun
 Es finden sich darunter auch eine Reihe von nicht-OSGeo Softwarepaketen mit Bezug zu GIS, von denen wir hoffen, dass Sie diese genauso hilfreich finden wie wir. 
 Die OSGeo Foundation empfiehlt weder die damit in Bezug stehende Software, deren Projekte oder Firmen noch haftet sie für diese. 
 
-`Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. `
+`Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK.`
 
 OSGeo Sustaining Sponsors
 =========================

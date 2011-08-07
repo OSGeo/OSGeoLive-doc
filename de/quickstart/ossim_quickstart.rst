@@ -49,8 +49,8 @@ OssimPlanet
 
 * Gehe zu :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
 
-* Gehe zu :menuselection:`legend tree --> Image Layers --> open the trees --> Doppelklick auf das band1 image`,
-Sie sollten nun sehen, wie die Szene zur Bild Location zoomt 
+* Gehe zu :menuselection:`legend tree --> Image Layers --> open the trees --> Doppelklick auf das band1 image`, 
+  Sie sollten nun sehen, wie die Szene zur Bild Location zoomt 
 
 * Navigiere die Szene.
 
@@ -58,8 +58,8 @@ Sie sollten nun sehen, wie die Szene zur Bild Location zoomt
 `Note`: um das daylight auto-shading abzustellen, deaktivieren Sie :menuselection:`Preferences --> Environment --> Enable Ephemeris`
 
 
-Weitere Links?
-==========
+Weiterführende Links
+====================
 
 * Ossim Tutorials
 
