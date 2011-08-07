@@ -1,5 +1,6 @@
 :Author: Astrid Emde
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapbender-overview:
@@ -81,7 +82,7 @@ Mapbender
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Έκδοση Λογισμικού:** 2.7
+**Έκδοση Λογισμικού:** 2.7.2
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
@@ -91,6 +92,6 @@ Mapbender
 Γρήγορη εκκίνηση
 ----------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapbender_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapbender_quickstart>`
 
 

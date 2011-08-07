@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -67,6 +68,6 @@ Viking
 Γρήγορη εκκίνηση
 ----------------
 
-* 'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/viking_quickstart.html>`_
+* :doc:'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/viking_quickstart>`
 
 

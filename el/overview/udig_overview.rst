@@ -1,6 +1,6 @@
 :Author: OSGeo Live
 :Version: osgeo-live4.0
-:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:License: Creative Commons
 
 .. _udig_overview:
 
@@ -46,7 +46,7 @@ User-friendly Desktop Internet GIS (uDig)
 * Εκτύπωση και δημιουργία PDF
 * Για προγραμματιστές
   
-  * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες :doc:`GeoTools <geotools_overview>`, JTS Topology Suite
+  * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες GeoTools, JTS Topology Suite και GeoAPI
   * Επαγγελματικές δυνατότητες που παρέχονται από την πλατφόρμα Eclipse Rich Client Platform με τη δυνατότητα πρόσθετων λειτουργιών (add-ons) 
   * Χρήση εγγενών παραθυρικών διεπαφών
 

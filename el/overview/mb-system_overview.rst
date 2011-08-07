@@ -67,6 +67,6 @@ MB-System
 Γρήγορη εκκίνηση
 ----------------
 
-* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mb-system_quickstart>`
+* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mb-system_quickstart.html>`_
 
 

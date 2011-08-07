@@ -47,7 +47,7 @@ OpenLayers
   
   * Πρότυπα OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Άλλα: ArcGIS, Images, MapGuide, MapServer, TileCache
+  * Άλλα: ArcGI, Images, MapGuide, MapServer, TileCache
 
 * Δυνατότητα να προσπελάσει διανυσματικά δεδομένα και μεταδεδομένα σε οποιοδήποτε πρότυπο:
   

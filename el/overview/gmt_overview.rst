@@ -1,5 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _gmt-overview:
@@ -44,7 +45,7 @@ GMT
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 4.5.1
+**Έκδοση Λογισμικού:** 4.5.2
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
@@ -56,6 +57,6 @@ GMT
 Γρήγορη εκκίνηση
 ----------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gmt_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gmt_quickstart>`
 
 

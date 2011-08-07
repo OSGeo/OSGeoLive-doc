@@ -1,5 +1,6 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.5
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geonetwork-overview:
@@ -64,7 +65,7 @@ GeoNetwork
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.6.3
+**Έκδοση Λογισμικού:** 2.6.4
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
@@ -75,5 +76,5 @@ GeoNetwork
 Γρήγορη εκκίνηση
 ----------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geonetwork_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geonetwork_quickstart>`
 

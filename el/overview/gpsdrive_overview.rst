@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons
 
@@ -58,6 +59,6 @@ GpsDrive
 Γρήγορη εκκίνηση
 ----------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gpsdrive_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gpsdrive_quickstart>`
 
 

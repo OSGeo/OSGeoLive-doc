@@ -1,7 +1,8 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live4.0
 :License: Creative Commons
 
 .. _mapfish-overview:
@@ -35,7 +36,8 @@ MapFish παρέχει συγκεκριμένα εργαλεία για την �
 
 Το MapFish επιπλεόν παρέχει ένα πλήρες περιβάλλον RIA για τη γλώσσα JavaScript, ένα περιβάλλον δοκιμών JavaScript,
 και εργαλεία για συμπίεση κώδικα JavaScript. Τα εργαλεία που αποτελούν την Javascript εργαλειοθηκη του Mapfish είναι το 
-`ExtJS <http://extjs.com>`_, to :doc:`OpenLayers <openlayers_overview>` , το `GeoExt <http://www.geoext.org>`_ 
+`ExtJS <http://extjs.com>`_, to `OpenLayers
+<http://www.openlayers.org>`_ , το `GeoExt <http://www.geoext.org>`_ 
 και συγκεκριμένα εργαλεία για την διάδραση με τις υπηρεσίες (web services) του MapFish.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
@@ -68,6 +70,6 @@ MapFish παρέχει συγκεκριμένα εργαλεία για την �
 Γρήγορη εκκίνηση
 ----------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapfish_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapfish_quickstart>`
 
 
