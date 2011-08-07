@@ -53,8 +53,8 @@ directory.
  
 You find a NaturalEarth Raster file and a tfw-file at:
 :: 
-  
-  cd /home/user/gdal_natural_earth/HYP_50M_SR_W
+
+ cd /home/user/gdal_natural_earth/HYP_50M_SR_W
 
 
 .. tip:: Open the file with a Desktop GIS like QGIS. And have a look.
@@ -110,7 +110,7 @@ Each format reports if it is
   * read/write/update (rw+).
 
 ::
- 
+
  gdal_translate --formats
 
 The `--format` commandline switch can be used to query details about a

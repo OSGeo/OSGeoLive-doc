@@ -49,8 +49,8 @@ Daher ist der erste Schritte, die Daten in Ihr home-Verzeichnis zu kopieren.
  
 Unter dem folgenden Pfad finden Sie eine Natural Earth Rasterdatei und die dazugehörige tfw-Datei:
 :: 
-  
-  cd /home/user/gdal_natural_earth/HYP_50M_SR_W
+
+ cd /home/user/gdal_natural_earth/HYP_50M_SR_W
 
 
 .. tip:: Schauen Sie sich die Datei mit einem Desktop GIS beispielsweise QGIS an.
