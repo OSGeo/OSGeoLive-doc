@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Christoph Baudson
 :Author: Arnulf Christl
-:Version: osgeo-live4.5
+:Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
@@ -418,6 +418,7 @@ Dies war lediglich der erste Einstieg in Mapbender. Es gibt sehr viel mehr Funkt
 Mapbender Projektseite
 
   http://www.mapbender.org/
+
 Dokumentationen finden Sie unter
 
   http://www.mapbender.org/Tutorials
