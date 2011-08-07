@@ -20,7 +20,7 @@ Krisenmanagement
 
 Datenbanken
 -----------
-* :doc:`postgis_overview` - Räumliche Datenbank
+* :doc:`postgis_overview` - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Räumliche Datenbank
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Leichtgewichtige Datenbank
 * :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensionale Datenbank für Rasterdaten
 * :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing für PostGIS
@@ -73,7 +73,7 @@ Internet Dienste
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-* :doc:`tinyows_overview` - WFS-T Service
+* :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
 Daten
 -----
