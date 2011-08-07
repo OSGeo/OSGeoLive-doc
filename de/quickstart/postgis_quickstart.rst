@@ -42,13 +42,13 @@ Ein einziger PostgreSQL Server ermöglicht es Ihnen, Ihre Arbeit in unterschiedl
 Jede Datenbank ist dabei ein unabhängiges System, mit eigenen Tabellen, Sichten, Benutzern und so weiter.
 Wenn Sie sich mit einem PostgreSQL Server verbinden wollen, müssen Sie die gewünschte Datenbank angeben.
 
-Sie können eine Liste der Datenbanken des Datenbankservers über den Aufruf ``psql -l`` ausgeben.
-Sie sollten über den Aufruf diverse Datenbanken aufgelistet bekommen, die von Projekten auf dem System verwendet werden. 
+Sie können eine Liste der Datenbanken des Datenbankservers über den Aufruf ``psql -l`` ausgeben lassen.
+Über den Aufruf sollten in unserem Fall diverse Datenbanken aufgelistet werden, die von den OSGeo-Live Projekten auf dem System verwendet werden. 
 Wir werden in dieser Übung eine neue Datenbank anlegen.
 
 .. tip:: Die Liste verwendet den Standard UNIX Pager - über die Leertaste gelangen Sie zur nächsten Seite, über b gehen Sie zurück, über q verlassen Sie die Liste, über h gelangen Sie zur Hilfe.
 
-PostgreSQL ##verfügt über das Hilfprogramm ``createdb`` zum Erstellen von Datenbanken. 
+PostgreSQL verfügt über das Hilfprogramm ``createdb`` zum Erstellen von Datenbanken. 
 Wir wollen eine Datenbank mit PostGIS Erweiterung erzeugen. Die PostGIS Erweiterung können wir aus der Vorlage  ``template_postgis`` laden. Beim Erzeugen der Datenbank geben wir die Vorlage über die Option ``-T`` an. 
 Unsere Datenbank soll ``demo`` heißen. Der Aufruf zum Erstellen der Datenbank lautet:
 
@@ -56,27 +56,26 @@ Unsere Datenbank soll ``demo`` heißen. Der Aufruf zum Erstellen der Datenbank l
 
    createdb -T template_postgis demo
 
-.. tip:: Eine Hilfe zu den Hilfsprogrammen erhalten Sie in der Regel über die Option ``--help``.
+.. tip:: Eine Hilfe zu kommandozeilen basierten Programmen erhalten Sie in der Regel über die Option ``--help``.
 
 
-Wenn Sie nun wieder den Liste der Datenbanken über ``psql -l`` ausgeben, sollten Sie Ihre Datenbank ``demo`` in der Liste finden.
+Wenn Sie nun wieder die Liste der Datenbanken über ``psql -l`` ausgeben, sollten Sie Ihre Datenbank ``demo`` in der Liste finden.
 
 Sie können PostGIS Datenbanken auch direkt über einen SQL Befehl erzeugen. Zuerst wollen wir die gerade angelegte Datenbank
-über den Befehl ``dropdb`` löschen. Anschließend soll ``psql`` zur Ausführung von SQL-Befehlen verwendet werden:
+über das Hilfsprogramm ``dropdb`` löschen. Anschließend soll ``psql`` zur Ausführung von SQL-Befehlen verwendet werden:
 
 :: 
 
   dropdb demo
   psql -d postgres
  
-Der Aufruf stellt eine Verbindung zur Datenbank mit dem Namen ``postgres`` her. ``postgres`` ist eine Systemdatenbank
-auf jedem Datenbankserver vorliegen sollte. Setzen Sie nun das SQL ab, um eine Datenbank anzulegen:
+Der Aufruf stellt eine Verbindung zur Datenbank mit dem Namen ``postgres`` her. ``postgres`` ist eine Systemdatenbank, die auf jedem Datenbankserver vorliegen sollte. Setzen Sie nun das SQL ab, um eine Datenbank anzulegen:
 
 :: 
 
  postgres=# CREATE DATABASE demo TEMPLATE=template_postgis;
 
-Die Datenbank wurde angelegt, und Sie können sich nun mit der Datenbank ``demo`` verbinden.
+Die Datenbank wurde angelegt und Sie können sich nun mit der Datenbank ``demo`` verbinden.
 Zukünftig können Sie sich direkt über ``psql -d demo`` mit Ihrer Datenbank verbinden, an dieser Stelle
 können Sie aber auch direkt innerhalb von ``psql`` eine Verbindung zu einer anderen Datenbank aufbauen:
 
@@ -84,11 +83,11 @@ können Sie aber auch direkt innerhalb von ``psql`` eine Verbindung zu einer and
 
  postgres=# \c demo
 
-.. tip:: ##Drücken Sie Ctrl-C, wenn die psql Eingabe auch nach dem Drücken der Return Taster erscheint. Diese Eingabe löscht Ihre Eingabe und zu können von Neuem beginnen. Es kann sein, dass psql auf ein schließendes Anführungszeichen, ein Semikolon oder ein anderes Zeichen wartet.
+.. tip:: Wenn die psql Eingabe auch nach dem Drücken der Return Taste erscheint, können Sie über Ctrl-C Ihre Eingabe löschen und von Neuem beginnen. Es kann sein, dass psql auf ein schließendes Anführungszeichen, ein Semikolon oder ein anderes Zeichen wartet.
 
-Sie sollten eine Meldung sehen und die Eingabe wird wechseln und anzeigen, dass Sie mit der Datenbank ``demo`` verbunden sind. 
+Sie sollten eine Meldung sehen, die Eingabe wechselt und zeigt an, dass Sie mit der Datenbank ``demo`` verbunden sind. 
 Über ``\dt`` können Sie dies prüfen und die Liste der Tabellen in der Datenbank ausgeben lassen.
-##Es sollte eine ähnliche Ausgabe erfolgen:
+Es sollte diese Ausgabe erfolgen:
 
 ::
 
@@ -100,11 +99,11 @@ Sie sollten eine Meldung sehen und die Eingabe wird wechseln und anzeigen, dass 
    public | spatial_ref_sys  | table | user
   (2 rows)
 
-Diese zwei Tabellen werden von PostGIS angelegt und verwendet. Die Tabelle ``spatial_ref_sys`` speichert Information zu den Koordinatenreferenzsystemen. Mit Hilfe von SQL können wir einen Blick in die Tabelle werfen:
+Diese zwei Tabellen werden von PostGIS angelegt und verwendet. Die Tabelle ``spatial_ref_sys`` speichert Informationen zu den Koordinatenreferenzsystemen. Mit Hilfe von SQL können wir einen Blick in die Tabelle werfen:
 
 ::
 
-  demo=# SELECT srid,auth_name,proj4text FROM spatial_ref_sys LIMIT 10;
+  demo=# SELECT srid, auth_name, proj4text FROM spatial_ref_sys LIMIT 10;
 
    srid | auth_name |          proj4text                                            
   ------+-----------+--------------------------------------
@@ -120,24 +119,24 @@ Diese zwei Tabellen werden von PostGIS angelegt und verwendet. Die Tabelle ``spa
    4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
   (10 rows)
 
-Dies bestätigt, dass wir eine Datenbank mit räumlicher Erweiterung vorliegen haben. Die Tabelle ``geometry_columns`` ist eine Metadatentabelle und beinhaltet Informationen zu den Tabellen mit räumlicher Erweiterung. Dies ist der nächste Schritt.
+Die Ausgabe bestätigt, dass wir eine Datenbank mit räumlicher Erweiterung vorliegen haben. Die Tabelle ``geometry_columns`` ist eine Metadatentabelle und beinhaltet Informationen zu den Tabellen mit räumlicher Erweiterung. Hierzu erfahren Sie mehr im nächsten Abschnitt.
 
 
 Erzeugen einer Tabelle mit räumlicher Erweiterung - die harte Tour
 ==================================================================
 
-Jetzt wo wir eine Datenbank mit räumlicher Erweiterung haben, können wir einen räumliche Tabelle erzeugen.
+Wir haben nun eine Datenbank mit räumlicher Erweiterung vorliegen und können daher eine Tabelle mit räumlichen Daten erzeugen.
 
 Zuerst erzeugen wir eine gewöhnliche Tabelle, in der wir einige Daten über Städte speichern wollen.
-Diese Tabelle hat zwei Spalten - ein numerisches Feld ID für die laufende Nummer und ein Feld für den Namen der Stadt:
+Diese Tabelle hat zwei Spalten - ein numerisches Feld id für die laufende Nummer und ein Feld für den Namen der Stadt:
 
 ::
 
   demo=# CREATE TABLE cities ( id int4, name varchar(50) );
 
-Als Nächstes fügen wir eine Geometriespalte hinzu, um hier die Lage der Stadt zu speichern.
-Ind er Regel wird diese Spalte ``the_geom`` genannt. 
-Der folgende Aufruf gibt an, welcher Geometrietyp angelegt werden soll (points, lines, polygons etc), wie viele Diminsionen unterstützt werden sollen (in this case two) und welches Koordinatenreferenzsystem genutzt werde soll.
+Als Nächstes fügen wir eine Geometriespalte hinzu, um in dieser Spalte die Lage der Stadt zu speichern.
+In der Regel wird diese Spalte ``the_geom`` genannt. 
+Der folgende Aufruf gibt an, welcher Geometrietyp angelegt werden soll (Punkte, Linien. Polygone etc), wie viele Dimensionen unterstützt werden sollen (in unserem Falls zwei) und welches Koordinatenreferenzsystem genutzt werden soll.
 Wir werden EPSG:4326 für unsere Städte verwenden.
 
 ::
@@ -164,7 +163,7 @@ wir die PostGIS Funktion ``ST_GeomFromText``. Diese Funktion benötigt zwei Para
 
 .. tip:: Verwenden Sie die Pfeiltaste, um den Befehl erneut aufzurufen und anzupassen.
 
-Sie werden sehen, dass dieses Vorgehen der Dateneingabe schnell ermüdet. Zum Glück gibt es andere einfachere Wege, um Daten in PostGIS Tabellen zu bekommen. ABer nun haben wir erst einmal drei Städte in unserer Tabelle und wir können mit diesen arbeiten.
+Sie werden sehen, dass dieses Vorgehen der Dateneingabe schnell ermüdet. Zum Glück gibt es andere einfachere Wege, um Daten in PostGIS Tabellen zu bekommen. Aber nun haben wir erst einmal drei Städte in unserer Tabelle und können mit diesen arbeiten.
 
 
 Einfache Abfragen
@@ -174,7 +173,7 @@ Alle üblichen SQL Operationen können angewendet werden, um Daten aus einer Pos
 
 ::
 
- demo=# SELECT * FROM CITIES;
+ demo=# SELECT * FROM cities;
   id |      name       |                      the_geom                      
  ----+-----------------+----------------------------------------------------
    1 | London, England | 0101000020E6100000BBB88D06F016C0BF1B2FDD2406C14940
@@ -182,7 +181,7 @@ Alle üblichen SQL Operationen können angewendet werden, um Daten aus einer Pos
    3 | East London,SA  | 0101000020E610000040AB064060E93B4059FAD005F58140C0
  (3 rows)
 
-Diese Ausgabe gibt uns eine für uns nicht lesbare hexadezimale Version der Koordinaten.
+Diese Ausgabe gibt uns die hexadezimale Version der Koordinaten aus, die für uns schwer lesbar ist.
 
 Wenn Sie Ihre Geoemetrien wieder im WKT Format ausgeben möchten, können Sie die Funktionen
 ST_AsText(the_geom) oder ST_AsEwkt(the_geom) verwenden. Sie können außerdem die Funktionen ST_X(the_geom) und ST_Y(the_geom) 
@@ -190,7 +189,7 @@ verwenden, um die Koordinaten auszugeben:
 
 ::
 
- demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM CITIES;
+ demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM cities;
   id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
  ----+------------------------------+----------------------------------------+-------------+-----------
    1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
@@ -208,12 +207,12 @@ Die Funktion ST_GeomFromText zur Konvertierung von WKT in eine Geometrie haben w
 Die meisten Funktionen starten mit ST (Abkürzung für spatial type) und werden 
 in der PostGIS Dokumentation sehr gut beschrieben.
 Wir werden nun eine PostGIS Funktion zur Beantwortung einer praktischen Frage verwenden. 
-Wie weit sind diese 3 Londons voneinander entfernt? Die Ausgabe soll in Metern erfolgen und 
-gehen von einer sphärischen ## Erde aus.
+Wie weit sind diese 3 Londons voneinander entfernt? Die Ausgabe soll in Metern erfolgen und wir 
+gehen von einer sphärischen Erde aus.
 
 ::
 
- demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) from cities as p1, cities as p2 where p1.id > p2.id;
+ demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
        name       |      name       | st_distance_sphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
@@ -221,18 +220,18 @@ gehen von einer sphärischen ## Erde aus.
   East London,SA  | London, Ontario |   13892160.9525778
   (3 rows)
 
-Die Abfrage gibt und die Entfernung in Metern zwischen jedem Städtepaar aus.
-Schauen Sie sich die 'where'-Bedingung an. Diese verhindert, dass Städte die Entfernung zu sich selbst ausgeben (diese Entfernung würde 0 sein) oder dass die umgekehrte Distanzberechung ausgegeben wird (London, England nach London, Ontario ist die selbe Entfernung wie London, Ontario nach London, England). Lassen Sie die 'where' Bedingung weg und schauen Sie sich die Ausgabe an.
+Die Abfrage gibt uns die Entfernung in Metern zwischen jedem Städtepaar aus.
+Schauen Sie sich die 'WHERE'-Bedingung an. Diese verhindert, dass Städte die Entfernung zu sich selbst ausgeben (diese Entfernung würde 0 sein) oder dass die umgekehrte Distanzberechung ausgegeben wird (London, England nach London, Ontario ist die selbe Entfernung wie London, Ontario nach London, England). Lassen Sie die 'WHERE'-Bedingung weg und schauen Sie sich die Ausgabe an.
 
 Wir können die Distanz unter Verwendung eines Sphäroids auch über eine andere Funktion berechnen und den 
-Namen des Sphäroids, semi-major axis und inverse flattening Parameter angeben:
+Namen des Sphäroids, die große Halbachse und die inverse Abplattung angeben:
 
 ::
 
   demo=# SELECT p1.name,p2.name,ST_Distance_Spheroid(
           p1.the_geom,p2.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
           ) 
-         from cities as p1, cities as p2 where p1.id > p2.id;
+         FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
         name       |      name       | st_distance_spheroid 
   -----------------+-----------------+----------------------
    London, Ontario | London, England |     5892413.63776489
@@ -246,105 +245,106 @@ Mapping
 =======
 
 Um eine Karte aus Ihren PostGIS Daten zu erzeugen, brauchen Sie einen Client, der auf die Daten zugreifen kann.
-Die meisten der Open Source Desktop GIS Programme untestützen PostGIS - beispielsweise Quantum GIS, gvSIG, uDig. 
+Die meisten der Open Source Desktop GIS Programme unterstützen PostGIS - wie z. B. Quantum GIS, gvSIG, uDig. 
 Wir werden unsere Karte mit Quantum GIS erzeugen.
 
-Starten Sie Quantum GIS und wählen Sie ``Add PostGIS layer`` aus dem Layer-Menü. 
+Starten Sie Quantum GIS und wählen Sie ``PostGIS-Layer hinzufügen`` aus dem Layer-Menü. 
 Da Sie bisher noch keine Verbindung zu PostGIS aufgebaut haben, werden Sie eine leere Verbindungsliste vorliegen haben.
 
 .. image:: ../../images/screenshots/1024x768/postgis_add.png
   :scale: 100 %
-  :alt: Add a PostGIS layer
+  :alt: PostGIS-Layer hinzufügen
   :align: center
 
-Über 'neu' öffen Sie den Dialog zur Eingabe der Verbindungsparameter. Wir werden uns mit der Natural Earth Datenbank
+Über 'Neu' öffnen Sie den Dialog zur Eingabe der Verbindungsinformationen. Wir werden uns mit der Natural Earth Datenbank
 der DVD verbinden. Es muss kein Benutzername oder Passwort angegeben werden, da die Sicherheitseinstellungen dieser 
-Installation jedem den Zugriff erlauben.##
-Entfernen Sie den Haken unter 'Auch geometrielose Tabellen anzeigen', sofern dieser gesetzt ist
+Installation jedem den Zugriff erlauben.
+Entfernen Sie den Haken unter 'Auch geometrielose Tabellen anzeigen', sofern dieser gesetzt ist.
 
 .. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
   :scale: 100 %
-  :alt: Connect to Natural Earth
+  :alt: Verbindungsinformationen zu Natural Earth Datenbank
   :align: center
 
-Klicken Sie den Button ``Verbindung testen``. Wenn der Datenbankzugriff erfolgreich war, wird eine freundliche Meldung angezeigt.
-Klicken Sie ``OK``, um Ihre Verbindungsparameter zu speichern. Nun können Sie sich über den Button ``Verbinden`` mit der Datenbank
-verbinden und bekommen eine Liste der Tabellen mit Geometriespalten der Datenbank:
+Klicken Sie den Button ``Verbindung testen``. Wenn der Datenbankzugriff erfolgreich war, wird eine Erfolgsmeldung angezeigt.
+Klicken Sie ``OK``, um Ihre Verbindungsinformationen zu speichern. Nun können Sie sich über den Button ``Verbinden`` mit der Datenbank verbinden und bekommen eine Liste der Tabellen mit Geometriespalten der Datenbank angezeigt:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_layers.png
   :scale: 100 %
-  :alt: Natural Earth Layers
+  :alt: Natural Earth Layer
   :align: center
 
 Wählen Sie das Thema lakes (Seen) und klicken Sie ``Hinzufügen`` (nicht ``Abfrage erstellen``). 
-Die Daten sollten in QGIS geladen werden:
+Die Daten sollten nun in QGIS geladen werden:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_lakes.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
 
-Sie sollten nun eine Karte der Seen sehen. QGIS weiß nicht, dass es sich um Seen handelt, und zeigt die Flächen 
-möglicherweise nicht blau an. Nutzen Sie die QGIS Dokumentation, um heraus zu finden, wie die Farbe angepasst werden kann.
-Navigieren Sie in die bekannte Seengruppe von Kanada.##
+Sie sollten eine Karte der Seen sehen. QGIS weiß nicht, dass es sich um Seen handelt und zeigt die Flächen 
+möglicherweise nicht blau an. Nutzen Sie die QGIS Dokumentation, um herauszufinden, wie die Farbe angepasst werden kann.
+Navigieren Sie in die bekannte Seengruppe von Kanada.
 
 
 Erzeugen einer Tabelle mit räumlicher Erweiterung - der einfache Weg
 ====================================================================
 
-Die meisten OSGeo Desktop GIS Tools bieten Schnittstellen zum Import von räumlichen Daten nach PostGIS, beispielsweise Shape Dateien.## Wir wollen wieder Quantum GIS zur Demonstration nutzen.
+Die meisten OSGeo Desktop GIS Tools bieten Schnittstellen zum Import von räumlichen Daten nach PostGIS, beispielsweise Shape Dateien. Wir wollen wieder Quantum GIS zur Demonstration nutzen.
+
+Der Import kann über das komfortable PostGIS Manager Plugin erfolgen. Das Plugin muss aktiviert werden. Dies erfolgt
+über ``Erweiterungen - Erweiterungen verwalten``. # 
+
 
 Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
 Plugins menu, select ``Manage Plugins`` and then find the ``PostGIS Manager``. Check the box and OK 
 it. Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
 to start the manager.
 
-It will then use your previously defined settings to connect to the Natural Earth database. Leave
-the password blank if it asks. You'll see the main manager window.
+Das Plugin verwendet die vorher eingegebenen Daten zur Verbindung mit der Natural Earth Datenbank. Lassen Sie das Passwort-Feld 
+leer, falls Sie danach gefragt werden. Sie werden das Hauptfenster sehen.
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_manager.png
   :scale: 75 %
   :alt: PostGIS Manager Plugin
   :align: center
 
-You can use the other tabs in the right-side panel to check the attributes of the layer and even
-get a basic map with zoom and pan capabilities. Here I've selected the the populated places layer
-and zoomed in on a little island I know:
+Sie können die anderen Reiter im rechten Bereich nutzen, um die Attribute des Thema auszuwählen und erhalten eine
+einfache Karte mit Navigationsmöglichkeiten. Hier habe ich das Thema populated places ausgewählt und 
+bin zu einer kleinen Insel, die ich kenne gezoomt:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
   :scale: 75 %
-  :alt: PostGIS Manager Preview
+  :alt: PostGIS Manager Vorschau
   :align: center
 
-We will now use the PostGIS Manager to import a shapefile into the database. We'll use
-the North Carolina sudden infant death syndrome (SIDS) data that is included with one
-of the R statistics package add-ons.
+Nun wollen wir den PostGIS Manager zum Import von Shape in die Datenbank nutzen. Wir werden 
+die Daten `North Carolina sudden infant death syndrome (SIDS)` nutzen, die in einem der R Statistikpakete enthalten sind.
 
-From the ``Data`` menu choose the ``Load data from shapefile`` option. 
-Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package:
+Wählen Sie über das Menü ``Data`` die Option ``Load data from shapefile``.
+Klicken Sie den Button ``...`` und wählen Sie die Shapedatei ``sids.shp`` in dem R ``Maptools`` Paket aus:
 
 .. image:: ../../images/screenshots/1024x768/postgis_find_shape.png
   :scale: 75 %
-  :alt: Find the shapefile
+  :alt: Auswahl der Shapedatei
   :align: center
 
-Leave everything else as it is and hit ``Load``
+Belassen Sie die übrigen Angaben und klicken Sie ``Load``
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_load.png
   :scale: 75 %
-  :alt: Import a shapefile
+  :alt: Import der Shapedatei
   :align: center
 
-The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
-get back to the main QGIS window.
+Die Shapedatei sollte ohne Fehler nach PostGIS importiert worden sein. Schließen Sie den PostGIS Manager und 
+gehen Sie zurück in das QGIS Hauptfenster.
 
-Now load the SIDS data into the map using the 'Add PostGIS Layer'
-option. With a bit of rearranging of the layers and some colouring, you should be able to produce
-a choropleth map of the sudden infant death syndrome counts in North Carolina:
+Laden Sie nun die SIDS Daten über 'PostGIS-Layer hinzufügen' in Ihre Karte.
+Über ein paar Anpassungen der Ebenenreihenfolge und der Farbgebung sollten Sie eine thematische Karte zu SIDS in North Carolina erzeugen können;
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_final.png
   :scale: 75 %
-  :alt: SIDS data mapped
+  :alt: thematische Karte zu SIDS
   :align: center
 
 Der grafische Datenbankclient pgAdmin III

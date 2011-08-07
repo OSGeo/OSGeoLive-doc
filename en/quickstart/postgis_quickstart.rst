@@ -53,9 +53,11 @@ new one for this quickstart.
 
 .. tip:: The list uses a standard unix pager - hit space for next page, b to go back, q to quit, h for help.
 
-PostgreSQL gives us a unix command for creating databases, ``createdb``. We need to
+PostgreSQL gives us a a utility programm for creating databases, ``createdb``. We need to
 create a database with the PostGIS extensions, so we need to tell it what template
 to start from. We'll call our database ``demo``. The command is then:
+
+.. review comment: createdb is a utility programm not a unix command
 
 ::
 
@@ -190,7 +192,7 @@ All the usual SQL operations can be applied to select data from a PostGIS table:
 
 ::
 
- demo=# SELECT * FROM CITIES;
+ demo=# SELECT * FROM cities;
   id |      name       |                      the_geom                      
  ----+-----------------+----------------------------------------------------
    1 | London, England | 0101000020E6100000BBB88D06F016C0BF1B2FDD2406C14940
@@ -206,7 +208,7 @@ use ST_X(the_geom), ST_Y(the_geom) to get the numeric value of the coordinates:
 
 ::
 
- demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM CITIES;
+ demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM cities;
   id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
  ----+------------------------------+----------------------------------------+-------------+-----------
    1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
@@ -228,7 +230,7 @@ assuming a spherical earth?
 
 ::
 
- demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) from cities as p1, cities as p2 where p1.id > p2.id;
+ demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
        name       |      name       | st_distance_sphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
@@ -237,10 +239,10 @@ assuming a spherical earth?
   (3 rows)
 
 This gives us the distance, in metres, between each pair of
-cities. Notice how the 'where' part of the line stops us getting back
+cities. Notice how the 'WHERE' part of the line stops us getting back
 distances of a city to itself (which will all be zero) or the reverse
 distances to the ones in the table above (London, England to London, Ontario is the
-same distance as London, Ontario to London, England). Try it without the 'where' part
+same distance as London, Ontario to London, England). Try it without the 'WHERE' part
 and see what happens.
 
 We can also compute the distance using a spheroid by using a different function and specifying the
@@ -251,7 +253,7 @@ spheroid name, semi-major axis and inverse flattening parameters:
   demo=# SELECT p1.name,p2.name,ST_Distance_Spheroid(
           p1.the_geom,p2.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
           ) 
-         from cities as p1, cities as p2 where p1.id > p2.id;
+         FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
         name       |      name       | st_distance_spheroid 
   -----------------+-----------------+----------------------
    London, Ontario | London, England |     5892413.63776489
@@ -310,7 +312,7 @@ a famous group of lakes in Canada.
 Creating A Spatial Table The Easy Way
 =====================================
 
-Most of the OSgeo desktop tools have functions for importing spatial data in files, such as shapefiles,
+Most of the OSGeo desktop tools have functions for importing spatial data in files, such as shapefiles,
 into PostGIS databases. Again we'll use QGIS to show this.
 
 Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
@@ -327,7 +329,7 @@ the password blank if it asks. You'll see the main manager window.
   :align: center
 
 You can use the other tabs in the right-side panel to check the attributes of the layer and even
-get a basic map with zoom and pan capabilities. Here I've selected the the populated places layer
+get a basic map with zoom and pan capabilities. Here I've selected the populated places layer
 and zoomed in on a little island I know:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
