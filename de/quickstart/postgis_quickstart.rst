@@ -293,13 +293,7 @@ Erzeugen einer Tabelle mit räumlicher Erweiterung - der einfache Weg
 Die meisten OSGeo Desktop GIS Tools bieten Schnittstellen zum Import von räumlichen Daten nach PostGIS, beispielsweise Shape Dateien. Wir wollen wieder Quantum GIS zur Demonstration nutzen.
 
 Der Import kann über das komfortable PostGIS Manager Plugin erfolgen. Das Plugin muss aktiviert werden. Dies erfolgt
-über ``Erweiterungen - Erweiterungen verwalten``. # 
-
-
-Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
-Plugins menu, select ``Manage Plugins`` and then find the ``PostGIS Manager``. Check the box and OK 
-it. Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
-to start the manager.
+über ``Erweiterungen - Erweiterungen verwalten``. Suchen Sie nach ``PostGIS Manager``, wählen Sie das Plugin aus und klicken Sie ok. Sie sollten den PostGIS Manager nun im Menü finden und können ihn starten.
 
 Das Plugin verwendet die vorher eingegebenen Daten zur Verbindung mit der Natural Earth Datenbank. Lassen Sie das Passwort-Feld 
 leer, falls Sie danach gefragt werden. Sie werden das Hauptfenster sehen.
@@ -363,11 +357,11 @@ Weitere Aufgaben
 
 Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
-#. Test Sie weitere räumliche Funktionen beispielsweise ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)``. Eine ausführliche Dokumentation finden Sie unter http://postgis.org/documentation/
+#. Testen Sie weitere räumliche Funktionen beispielsweise ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)``. Eine ausführliche Dokumentation finden Sie unter http://postgis.org/documentation/
 
 #. Exportieren Sie Ihre Tabellen mit ``pgsql2shp`` in das Shape-Format
 
-#. Nutzen Sie ``ogr2ogr`` um Daten in Ihre Datenbank zu importieren/exportieren
+#. Nutzen Sie ``ogr2ogr``, um Daten in Ihre Datenbank zu importieren/exportieren
 
 
 Der nächste Schritt
