@@ -16,11 +16,11 @@ pgRouting
 GIS Werkzeuge
 ~~~~~~~~~~~~~
 
-pgRouting erweitert eine "PostGIS <postgis_overview.html>`_ /` PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
+pgRouting erweitert eine :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
 
 Vorteile des Datenbank-Routing Konzepts sind:
 
-* Daten und Attribute können  mittels JDBC, ODBC oder direkt durch Pl/pgSQL von zahlreichen Anwendungen modifiziert werden, wie etwa von `Quantum GIS <qgis_overview.html>`_` und uDig <udig_overview.html>`_. Solche Anwendungen können sowohl auf PCs als auch auf mobilen Geräten laufen. 
+* Daten und Attribute können  mittels JDBC, ODBC oder direkt durch Pl/pgSQL von zahlreichen Anwendungen modifiziert werden, wie etwa von :doc:`Quantum GIS <qgis_overview>` und :doc:`uDig <udig_overview>`. Solche Anwendungen können sowohl auf PCs als auch auf mobilen Geräten laufen. 
 * Änderungen an den Daten wirken sich unmittelbar auf das Routingergebnis aus. Es besteht keine Notwendigkeit, Daten vorzuberechnen. 
 * Der "Kosten" Parameter kann dynamisch mittels SQL berechnet werden und aus verschiedenen Attributen aus unterschiedlichen Tabellen zusammengesetzt sein.
 

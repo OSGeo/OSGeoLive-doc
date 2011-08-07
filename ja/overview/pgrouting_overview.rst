@@ -16,11 +16,11 @@ pgRouting
 GIS ツール
 ~~~~~~~~~
 
-pgRouting は `PostGIS <postgis_overview.html>`_ / `PostgreSQL <http://www.postgresql.org>`_ 地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
+pgRouting は :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ 地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
 
 データベース上でルート検索を行う方法の利点には、以下のようなものがあります。
 
-* 多くのクライアントアプリケーション、例えば `Quantum GIS <qgis_overview.html>`_ や `uDig <udig_overview.html>`_ のようなプログラムからJDBCやODBC経由、もしくは直接PL/pgSQLを発行することでデータ及び属性を更新することができます。クライアントは、PCやモバイルデバイスでもかまいません。
+* 多くのクライアントアプリケーション、例えば :doc:`Quantum GIS <qgis_overview>` や :doc:`uDig <udig_overview>` のようなプログラムからJDBCやODBC経由、もしくは直接PL/pgSQLを発行することでデータ及び属性を更新することができます。クライアントは、PCやモバイルデバイスでもかまいません。
 * データへの変更は、ルート探索エンジン経由で、すぐに反映させることができます。ルート探索の為の事前の計算処理は必要ありません。
 * "cost" パラメータは動的にSQLで計算され、その値は複数のテーブルのフィートから計算することも可能です。
 
@@ -63,6 +63,6 @@ pgRouting は以下のファンクションを提供します。
 クイックスタート
 ---------------
 
-* `Quickstart documentation <../quickstart/pgrouting_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
 
 

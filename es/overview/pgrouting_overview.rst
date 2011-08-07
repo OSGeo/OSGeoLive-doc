@@ -16,11 +16,11 @@ pgRouting
 Herramientas SIG
 ~~~~~~~~~~~~~~~~
 
-pgRouting extiende `PostGIS <postgis_overview.html>`_/`PostgreSQL <http://www.postgresql.org>`_ para proveer funcionalidades de ruteo espacial.
+pgRouting extiende :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ para proveer funcionalidades de ruteo espacial.
 
 Las ventajas del ruteo en base de datos son:
 
-* Los datos y atributos pueden ser modificados desde varios clientes, como `Quantum GIS <qgis_overview.html>`_ y `uDig <udig_overview.html>`_ a través de JDBC, ODBC, o directamente usando Pl/pgSQL. Los clientes pueden ser PCs o dispositivos móviles.
+* Los datos y atributos pueden ser modificados desde varios clientes, como :doc:`Quantum GIS <qgis_overview>` y :doc:`uDig <udig_overview>` a través de JDBC, ODBC, o directamente usando Pl/pgSQL. Los clientes pueden ser PCs o dispositivos móviles.
 * Los cambios pueden ser reflejados instantáneamente a través del motor de ruteo. No hay necesidad de hacer cálculos previos.
 * El parámetro de "costo" puede ser calculado dinámicamente a través de SQL y su valor puede provenir de múltiples campos y tablas.
 
@@ -63,6 +63,6 @@ Detalles
 Guía de Inicio Rápido
 ---------------------
 
-* `Guía de Inicio Rápido <../quickstart/pgrouting_quickstart.html>`_
+* :doc:`Guía de Inicio Rápido <../quickstart/pgrouting_quickstart>`
 
 

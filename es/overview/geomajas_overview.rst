@@ -26,7 +26,7 @@ Cliente ligero GIS
 
 Geomajas es un entorno de desarrollo (en inglés *framework*) capaz de integrar algoritmos potentes a través de la parte servidora del sistema.
 
-El foco de Geomajas es proporcionar un plataforma para **integración de lado servidor** de datos geoespaciales (basado principalmente en GeoTools e Hibernate), permitiendo a múltiples usuarios el control y gestión de datos desde el navegador Web. En esencia, Geomajas proporciona unas potentes librerías para la construcción de las más avanzadas aplicaciones GIS fácilmente.
+El foco de Geomajas es proporcionar un plataforma para **integración de lado servidor** de datos geoespaciales (basado principalmente en :doc:`GeoTools <geotools_overview>` e Hibernate), permitiendo a múltiples usuarios el control y gestión de datos desde el navegador Web. En esencia, Geomajas proporciona unas potentes librerías para la construcción de las más avanzadas aplicaciones GIS fácilmente.
 
 Lo que hace único a Geomajas es la potencia de la parte servidora. El procesado, generación de estilos, filtrado, cacheado, etc. de datos geoespaciales se gestiona dentro de un contexto securizado. Todo esto proporciona rendimiento y escalabilidad al proyecto Geomajas, manteniendo el cliente ligero como un **verdadero cliente ligero**.
 

@@ -27,14 +27,13 @@ Web Mapping Framework
 
 MapFish bietet eine flexible und komplette Umgebung, um umfangreiche Webmapping Anwendungen umzusetzen. Es konzentriert sich auf hohe Produktivität und qualitativ hochwertige Entwicklung. 
 
-MapFish basiert auf dem`Pylons <http://pylonshq.com>`_ Python web framework.
+MapFish basiert auf dem `Pylons <http://pylonshq.com>`_ Python web framework.
 MapFish erweitert Pylons um räumliche Funktionalität. Zum Beispiel
 MapFish bietet spezifische Werkzeuge, um Webdienste zu erstellen, mit denen man räumliche Objekte abfragen und editieren kann.
 
 MapFish bietet außerdem eine komplette RIA-orientierte JavaScript Toolbox, eine JavaScript
 Testumgebung und Werkzeuge, um Java Programmcode zu komprimieren. Die JavaScript
-Toolbox ist zusammengesetzt aus `ExtJS <http://extjs.com>`_, `OpenLayers
-<http://www.openlayers.org>`_ , `GeoExt <http://www.geoext.org>`_ JavaScript
+Toolbox ist zusammengesetzt aus `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`, `GeoExt <http://www.geoext.org>`_ JavaScript
 toolkits.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.png

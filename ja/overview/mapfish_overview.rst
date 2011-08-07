@@ -33,7 +33,7 @@ MapFishはPylonsで地理空間情報機能を拡張します. たとえばMapFi
 MapFishは完ぺきなリッチインターネットアプリケーションを提供できるJavaScript
 ツールボックスを提供します, このツールボックスはJavaScriptのテスト環境と
 JavaScriptコードを圧縮するツールも含みます.このJavaScriptツールボックスは
-`ExtJS <http://extjs.com>`_, `OpenLayers <http://www.openlayers.org>`_ , `
+`ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`, `
 GeoExt <http://www.geoext.org>`_ これらのモジュールとMapFishウェブサービスと更新
 するためのコンポーネントで構成されています.
 

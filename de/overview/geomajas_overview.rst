@@ -27,7 +27,7 @@ Browser Anwendung
 
 Geomajas ist ein erweiterbares Web-Mapping Framework, dass serverseitige Algorithmen im Browser zur Verfügung stellt.
 
-Der Schwerpunkt von Geomajas ist es, eine Anwendung bereit zu stellen, die eine **serverseite Integration** von raumbezogenen Daten ermöglicht (vergleichbar etwa mit GeoTools oder Hibernate). Gleichzeitig ist das System mehrbenutzerfähig, so dass Benutzer die Daten über Ihre Web-Browser kontrollieren und verwalten können. Im wesentlichen stellt Geomajas eine Vielzahl von leistungsstarken Bausteinen zur Verfügung, die es ermöglicht GIS Anwendungen einfach zu erstellen.
+Der Schwerpunkt von Geomajas ist es, eine Anwendung bereit zu stellen, die eine **serverseite Integration** von raumbezogenen Daten ermöglicht (vergleichbar etwa mit :doc:`GeoTools <geotools_overview>` oder Hibernate). Gleichzeitig ist das System mehrbenutzerfähig, so dass Benutzer die Daten über Ihre Web-Browser kontrollieren und verwalten können. Im wesentlichen stellt Geomajas eine Vielzahl von leistungsstarken Bausteinen zur Verfügung, die es ermöglicht GIS Anwendungen einfach zu erstellen.
 
 Eine Besonderheit von Geomajas ist die starke serverseitge Fokussierung. Das Verarbeiten, Stylen, Filtern und Zwischenspeichern von Daten wird in einem abgesicherten Bereich durchgeführt. So sind Anwendungen, die über GeoMajas bereitgestellt werden gut skalierbar und performant.
 
