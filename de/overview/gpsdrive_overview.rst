@@ -17,14 +17,13 @@ GpsDrive
 GPS Navigationssoftware 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-`GpsDrive <http://www.gpsdrive.de> `_ ist ein Navigationssystem für das Auto 
+`GpsDrive <http://www.gpsdrive.de>`_ ist ein Navigationssystem für das Auto 
 (Motorrad, Schiff, Flugzeug, Fußgänger). GpsDrive zeigt Ihre von einem GPS-Gerät 
 berechnete Position auf einer zoombaren Landkarte. Die Map-Datei wird 
 automatisch gewählt, je nach Ihrer Position und dem bevorzugten Kartenmaßstab. 
 Alle GPS-Empfänger mit Unterstützung für das NMEA-Protokoll sollten benutzbar 
-sein, ebenso wie viele USB GPS-Empfänger, die das von `Gpsd <a href="http://gpsd.berlios.de>`_
+sein, ebenso wie viele USB GPS-Empfänger, die das von `Gpsd <http://gpsd.berlios.de>`_
 GPS Daemon und Multiplexer verwendete Binärprotokoll kennen.
-
 
 Kernfunktionen
 --------------
