@@ -79,8 +79,7 @@ Fügen Sie folgenden Text ein::
   END
 
 .. note::
-    
-Das Beispiel verwendet den natural earth Datensatz, der bereits auf der Live-DVD installiert ist:: Datei: `~/data/natural_earth` (eine Abkürzung für: Datei: `/usr/local/share/data/natural_earth`)
+   Das Beispiel verwendet den natural earth Datensatz, der bereits auf der Live-DVD installiert ist: :file:`~/data/natural_earth` (eine Abkürzung für: :file:`/usr/local/share/data/natural_earth`)
 
 Jedes Objekt einem mapfile beginnt mit seinem Namen (z.B. **MAP**) und endet mit einem **END**. Ein mapfile beginnt immer mit dem Objekt **MAP** und sollte eine Liste von **LAYER** Objekten enthalten, die der Mapfile lesen und zeichnen kann. In unserem mapfile haben wir nur eine Karte definiert.
 

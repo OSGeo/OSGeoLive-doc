@@ -69,7 +69,7 @@ Weitere Links?
 
 * Dokumentation auf der DVD
 
-  Schauen Sie sich auch die Dokumentation an_ auf dieser DVD.
+  Schauen Sie sich auch die Dokumentation_ an auf dieser DVD.
 
 .. _Dokumentation: ../../ossim/
 
