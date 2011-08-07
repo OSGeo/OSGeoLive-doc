@@ -1,5 +1,6 @@
 :Author: Astrid Emde
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapbender-overview:
@@ -27,7 +28,7 @@ Geoportal Framework
 
 Mapbender ist die Spitze des Eisbergs, eine Software, die als Zwischenschicht für den Zugriff auf GIS Komponenten dient. Mapbender bietet eine einfache Möglichkeit, angepasste Client-Anwendungen aus einer Vielzahl von Komponenten zusammen zu stellen. Das Besondere ist, dass hierbei keiner bis minimaler Programmieraufwand notwendig ist. Für die Administration wird lediglich ein Browser benötigt. 
 
-Mapbender ist das Werkzeug der Wahl für GIS Administratoren, die Karten- und Datendienste veröffentlichen, unterhalten, kategorisieren und überwachen müssen. Mapbender beitet eine Rechteverwaltung mit der Vergabe von Rechten für einzelne Benutzer und Gruppen. Mapbender bietet Komponenten mit Serverfunktionalität beispielsweise für den gesicherten Zugriff auf Dienste, Digitalisierung und mehr.
+Mapbender ist das Werkzeug der Wahl für GIS Administratoren, die Karten- und Datendienste veröffentlichen, unterhalten, kategorisieren und überwachen müssen. Mapbender bietet eine Rechteverwaltung mit der Vergabe von Rechten für einzelne Benutzer und Gruppen. Mapbender bietet Komponenten mit Serverfunktionalität beispielsweise für den gesicherten Zugriff auf Dienste, Digitalisierung und mehr.
 
 Der Mapbender Client basiert auf HTML und JavaScript unter Verwendung der jQuery und jQuery UI Bibliotheken, die diverse Module bereitstellen. Der serverseitige Bereich verwendet PHP und eine PostgreSQL/PostGIS Datenbank.
 
@@ -81,7 +82,7 @@ Details
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Software Version:** 2.7
+**Software Version:** 2.7.2
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
