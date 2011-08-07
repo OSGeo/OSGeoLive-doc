@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gdal-overview:
@@ -50,7 +50,7 @@ GDAL unterstützt über 50 Rasterdatenformate, OGR unterstützt über 20 Vektord
 Diese beinhalten:
 
 * **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED und weitere  ...
-* **Vector:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial und weitere ...
+* **Vector:** MapInfo (tab und mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial und weitere ...
 
 Implementierte Standards
 ------------------------
@@ -65,7 +65,7 @@ Details
 
 **Lizenz:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Software Version:** 1.7.3
+**Software Version:** 1.8.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
