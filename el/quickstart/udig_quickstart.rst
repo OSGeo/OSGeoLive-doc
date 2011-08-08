@@ -155,7 +155,7 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 Web Map Server
 ==============
 
-.. sidebar:: Offline
+.. note:: 
 
    Εαν δεν υπάρχει σύνδεση στο διαδίκτυο, εκτελέστε :menuselection:`Applications --> Education --> Start GeoServer` για ένα τοπικό WMS. Το script
    θα ανοίξει μια σελίδα με ένα σύνδεσμο "wms capabilities" το οποίο μπορούμε να σύρουμε στον άδειο μας χάρτη.
@@ -169,9 +169,9 @@ Web Map Server
 #. Επιλέξτε :menuselection:`File --> New --> New Map` από το μενού εντολών
 
 #. Εναλλάξτε την όψη **Web**, κάνοντας κλίκ στη σελίδα δίπλα από τον **Κατάλογο** για να ενεργοποιηθεί η όψη *Web*.
-   
-  .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
-    :scale: 70 %
+
+	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
+		:scale: 50 %
 
 #. Κάντε κλίκ στο σύνδεσμο `WMS\:dm solution`_
 
@@ -182,19 +182,20 @@ Web Map Server
    * Υψομετρία/Βαθυμετρία (Elevation/Bathymetry)
    * Πάρκα (Parks)
    * Πόλεις (Cities)
-   
-.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
-  :scale: 70 %
+
+	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+		:scale: 70 %
 
 #. Επιλέξτε :guilabel:`Finish` για να προσθέσετε αυτά τα επίπεδα στο χάρτη
-   
-.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+
+	.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+		:scale: 70 %
   
 #. Χρησιμοποιήστε το |ZOOM| εργαλείο μεγέθυνσης για να μετακινηθείτε πιο κοντά σε ένα από τα πάρκα
 
 #. Αλλάξτε το ποντίκι στο |INFO| εργαλείο πληροφοριών (Info Tool) και κάντε κλίκ σε ένα πάρκο για να μάθετε περισσότερα για αυτό
-   
-	.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
+
+.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
 .. tip:: Μπορείτε να εναλλάξετε τα προηγούμενα εργαλεία (zoom και info) με την χρήση των πλήκτρων Z και I στο πληκτρολόγιο.
 

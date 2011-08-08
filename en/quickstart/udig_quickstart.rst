@@ -273,7 +273,7 @@ available layers of information that you can mix into your own maps.
 #. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
 #. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
-   
+
 .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
 .. tip:: You can switch between the zoom and info tools by pressing `Z` and `I` on the keyboard.
