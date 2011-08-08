@@ -4,15 +4,15 @@
    contain the root `toctree` directive.
 
 Estándares del Open GeoSpatial Consortium
-==================================================
+================================================================================
 
 Introducción
-------------
+--------------------------------------------------------------------------------
 
 El Open GeoSpatial Consortium (OGC) fue fundado en 1994 para hacer de la información geográfica una parte integral de la infraestructura mundial de información. Los miembros de OGC (usuarios y proveedores de tecnología) desarrollan de forma colaborativa estándares de interfaz y los estándares asociados, así como buenas prácticas, que permiten a los desarrolladores crear sistemas de información que pueden fácilmente intercambira información geográfica e instrucciones con otros sistemas de información. Lo requisitos varían desde planificacione complejas y control de satélites de observación terrestre a la visualización de sencillas imágenes cartográficas en la web, así como la codificación de la localización en apenas unos pocos *bytes* para geoetiquetado y mensajería. Un vistazo a los *OGC Domain Working Groups* (http://www.opengeospatial.org/projects/groups/wg) muestra el amplio espectro de la actividad actual en OGC.
 
 La línea base de OGC y el Modelo de Referencia OGC
---------------------------------------------------------
+--------------------------------------------------------------------------------
 
 La línea base de estándares OGC consiste en los estándares OGC (http://www.opengeospatial.org/standards) para interfaces, codificación, perfiles, esquemas de aplicación y documentos de buenas prácticas. El Modelo de Referencia OGC (ORM) (http://www.opengeospatial.org/standards/orm) describe estos estándares y las relaciones entre ellos los estándares ISO relacionados. El ORM proporciona un vistazo sobre los estándares OGC y sirve como un recurso de utilidad para definir arquitecturas de aplicaciones específicas.
 
@@ -90,7 +90,7 @@ Los acrónimos en la figura se definen más abajo. Algunos de éstos son "Están
   * Transducer Markup Language (TML) (http://www.opengeospatial.org/standards/tml)
 
 Más información
-------------------------
+--------------------------------------------------------------------------------
 
 * Comprehensive list of OGC standards: http://www.opengeospatial.org/standards/
 * OGC tutorials presented at IGARSS 2010: http://www.ogcnetwork.net/node/1481 
