@@ -18,11 +18,8 @@ Searchable archives of the mailing list are hosted by
 IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
 assistance.
 
-A wealth of information is available on our
- `Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a 
- `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_
-
-is also available.
+A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, 
+and a `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_ is also available.
 
 Commercial Support
 ==================

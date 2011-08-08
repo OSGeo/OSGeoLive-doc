@@ -17,12 +17,8 @@ Archive mit einer Suchfunktion werden gehostet von
 
 IRC-Anwender finden in den Chaträumen #osgeolive oder #osgeo auf Freenode.net Unterstützung.
 
-Eine Fülle von Informationen ist auf der
- `Wikiseite <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_ verfügbar und ein 
- `Tracking System für Probleme und Wünsche <https://trac.osgeo.org/osgeo/report/10>`_
- 
-steht ebenso bereit.
-
+Eine Fülle von Informationen ist auf der `Wikiseite <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_ verfügbar 
+und ein `Tracking System für Probleme und Wünsche <https://trac.osgeo.org/osgeo/report/10>`_ steht ebenso bereit.
 
 Kommerzieller Support
 =====================

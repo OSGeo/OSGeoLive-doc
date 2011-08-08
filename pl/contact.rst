@@ -17,9 +17,8 @@ Archiwa list dyskusyjnych obsługiwane są przez
 
 Użytkownicy IRC mogą skorzystać z kanałów #osgeolive lub #osgeo na Freenode.net by uzyskać pomoc na bieżąco.
 
-Wiele informacji znajdą Państwo na naszej stronie
-`Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, dostępny jest również
-`system zgłaszania życzeń i błędów <https://trac.osgeo.org/osgeo/report/10>`_.
+Wiele informacji znajdą Państwo na naszej stronie `Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, dostępny 
+jest również `system zgłaszania życzeń i błędów <https://trac.osgeo.org/osgeo/report/10>`_.
 
 Wsparcie komercyjne
 ===================

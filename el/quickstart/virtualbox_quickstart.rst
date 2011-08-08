@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _virtualbox-quickstart:
+.. _virtualbox-quickstart-el:
  
 ***********************************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης OSGeo-Live για το Virtual Box
@@ -18,6 +18,7 @@
 
 * Μνήμη RAM: 1 Gig, με προτίμηση τα 2Gig εφόσον θέλετε να εκτελέσετε και άλλες εφαρμογές μέσα στη μηχανή
 * Διαθέσιμο χώρο σκηρού δίσκου:
+
  * 10 Gig εαν εκτελείτε από αρχείο ISO
  * 17 Gig εαν εγκαταστήσετε τοπικά από αρχείο ISO
 

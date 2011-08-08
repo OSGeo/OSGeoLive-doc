@@ -39,6 +39,7 @@ Quickstart
 
 Präsentation
 ------------
+
 Eine 25-minütige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
 
 Details at http://live.osgeo.org/en/presentation.html.

@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _virtualbox-quickstart:
+.. _virtualbox-quickstart-pl:
  
 **************************************
 Wprowadzenie do OSGeo-Live Virtual Box
@@ -18,6 +18,7 @@ Wymagania systemowe
 
 * RAM: 1 GB, najlepiej 2 GB, jeśli planowane jest używanie także innych programów.
 * Wolne miejsce na twardym dysku: 
+
  * 5 GB jeśli uruchamiane z ISO
  * 17 GB jeśli instalowane lokalnie z ISO
 

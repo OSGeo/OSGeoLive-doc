@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _virtualbox-quickstart:
+.. _virtualbox-quickstart-en:
  
 *************************************
 OSGeo-Live Quickstart for Virtual Box
@@ -18,6 +18,7 @@ System Requirements
 
 * RAM: 1 Gig, preferably 2Gig if you plan to run other applications as well
 * Spare Hard Disk Space:
+
  * 10 Gig if running from ISO
  * 17 Gig if installing locally from an ISO
 
