@@ -112,7 +112,7 @@ Was bedeutet das Obige ? Einfach gesagt, es ist ein `Web Map Service (WMS) <http
   .. image:: ../../images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
 
-.. note:: Alle Parameter des Reqests sind WMS-spezifisch, ausser "*?map=/home/user/mapserver_quickstart.map*", welcher MapServer-spezifisch ist.  
+.. note:: Alle Parameter des Requests sind WMS-spezifisch, außer "*?map=/home/user/mapserver_quickstart.map*", welcher MapServer-spezifisch ist.  
 
 .. _mapserver-quickstart-add-new-layer:
 

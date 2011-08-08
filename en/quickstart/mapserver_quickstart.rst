@@ -113,7 +113,7 @@ What does the above mean ?  If we put it in simple words, it's a `Web Map Servic
   .. image:: ../../images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
 
-.. note:: All parameters of the reqest are WMS-specific, except "*?map=/home/user/mapserver_quickstart.map*", which is MapServer-specific.  
+.. note:: All parameters of the request are WMS-specific, except "*?map=/home/user/mapserver_quickstart.map*", which is MapServer-specific.  
 
 .. _mapserver-quickstart-add-new-layer:
 
