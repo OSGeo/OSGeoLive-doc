@@ -21,7 +21,7 @@
 MapServer Quickstart
 ====================
 
-MapServer ist eine `Open Source <http://www.opensource.org>` _ serverbasierte Anwendung, mit der geografische Kartenbilder und Vektordaten im Internet mittels `OGC standards <http://www.opengeospatial.org/standards>`_ wie etwa `WMS <http://www.opengeospatial.org/standards/wms>`_ und `WFS <http://www.opengeospatial.org/standards/wfs>`_ veröffentlicht werden können.
+MapServer ist eine `Open Source <http://www.opensource.org>`_ serverbasierte Anwendung, mit der geografische Kartenbilder und Vektordaten im Internet mittels `OGC standards <http://www.opengeospatial.org/standards>`_ wie etwa `WMS <http://www.opengeospatial.org/standards/wms>`_ und `WFS <http://www.opengeospatial.org/standards/wfs>`_ veröffentlicht werden können.
 
 Dieser Quickstart beschreibt:
      
