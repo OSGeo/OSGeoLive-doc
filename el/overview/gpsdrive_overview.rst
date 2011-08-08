@@ -59,6 +59,6 @@ GpsDrive
 Γρήγορη εκκίνηση
 ----------------
 
-* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gpsdrive_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gpsdrive_quickstart>`
 
 

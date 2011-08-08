@@ -57,6 +57,6 @@ GMT
 Γρήγορη εκκίνηση
 ----------------
 
-* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gmt_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gmt_quickstart>`
 
 
