@@ -76,6 +76,6 @@ Wie geht es weiter?
 
 * Erkunden Sie die Dateien auf der DVD
 
-  Schauen Sie sich die bereitgestellten dateien_ auf der DVD an.
+  Schauen Sie sich die bereitgestellten Dateien_ auf der DVD an.
 
-.. _dateien: file:///usr/local/share/mapnik/
+.. _Dateien: file:///usr/local/share/mapnik/
