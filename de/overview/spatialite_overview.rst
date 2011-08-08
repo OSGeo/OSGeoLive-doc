@@ -12,10 +12,10 @@
 
 
 SpatiaLite
-==========
+================================================================================
 
 Räumliche Datenbank
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 SpatiaLite ist ein SQLite_ Datenbank-Engine mit Unterstützung geografischer Objekte und Funktionen. 
 
@@ -31,7 +31,7 @@ Die Dateien sind auch portabel; die gleiche Datenbank-Datei läuft auf Windows, 
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 Die SpatiaLite Erweiterung ermöglicht SQLite die Unterstützung von geographischen Daten nach OGC Spezifikationen.
 
@@ -51,7 +51,7 @@ Die SpatiaLite Erweiterung ermöglicht SQLite die Unterstützung von geographisc
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.gaia-gis.it/spatialite/
 
@@ -64,7 +64,7 @@ Details
 **API Schnittstellen:** C++
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/spatialite_quickstart>`
 

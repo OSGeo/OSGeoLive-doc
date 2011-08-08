@@ -12,10 +12,10 @@
 
 
 Marble
-======
+================================================================================
 
 Globo de Escritorio 3D 
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Marbel es un proyecto de Educación de KDE similar a 
 `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ o a Google Earth.
@@ -25,7 +25,7 @@ una ventana KDE Marble en su aplicación.
 
 
 Principales Características
-----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/marble-history.png
   :scale: 50 %
@@ -43,7 +43,7 @@ Principales Características
 
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://edu.kde.org/marble/
 
@@ -59,7 +59,7 @@ Detalles
 
 
 Inicio Rápido
--------------
+--------------------------------------------------------------------------------
 
 * `Documentación de Inicio Rápido <../quickstart/marble_quickstart.html>`_
 

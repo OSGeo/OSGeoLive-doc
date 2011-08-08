@@ -10,10 +10,10 @@
   :target: http://mapproxy.org/
 
 MapProxy
-========
+================================================================================
 
 Servicio de tiles y Proxy WMS 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapProxy acelera las aplicaciones de mapas a través de la pregeneración de tiles integrando múltiples fuentes de datos y almacenándolos en una caché local.
 Las capas pueden hacerse transparentes, se pueden cambiar las proyecciones, se pueden convertir múltiples capas en una sola, se pueden agregar marcas de agua, y más!
@@ -27,7 +27,7 @@ Algunos ejemplos del mundo real: MapProxy es usado por el atlas de banda ancha a
   :align: right
 
 Funcionalidades de MapProxy
----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/mapproxy_demo.png
   :width: 796
@@ -77,7 +77,7 @@ Otras funcionalidades:
   * Mucho más...
 
 Estándares Implementados
-------------------------
+--------------------------------------------------------------------------------
 
 MapProxy implementa las siguientes especificaciones abiertas:
 
@@ -87,7 +87,7 @@ MapProxy implementa las siguientes especificaciones abiertas:
 * OGC KML 2.2 SuperOverlays
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://mapproxy.org/
 
@@ -101,6 +101,6 @@ Detalles
 
 
 Guía de Inicio Rápido
----------------------
+--------------------------------------------------------------------------------
     
 * `Guía de Inicio Rápido <../quickstart/mapproxy_quickstart.html>`_

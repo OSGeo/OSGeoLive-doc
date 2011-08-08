@@ -17,10 +17,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GDAL/OGR
-========
+================================================================================
 
 Herramientas para tratamiento de datos Geoespaciales
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geospatial Data Abstraction Library (GDAL/OGR) provee herramientas de línea de comando 
 para convertir y procesar un amplio rango de formatos de datos geoespaciales, 
@@ -41,7 +41,7 @@ VTP, Thuban, ILWIS, MapGuide y ArcGIS.
   :align: right
 
 Principales funcionalidades
----------------------------
+--------------------------------------------------------------------------------
 
 * Herramientas de línea de comando para conversión de datos, transformación de imágenes, obtención de un subconjunto de datos, y otras tareas comunes
 * Acceso a datos raster de alta eficiencia, sacando ventajas de la generación de tiles y la generalización.
@@ -50,7 +50,7 @@ Principales funcionalidades
 * Motor de sistema de coordenadas basado en PROJ.4 y OGC WKT
 
 Formatos populares soportados
------------------------------
+--------------------------------------------------------------------------------
 
 GDAL soporta más de 50 formatos raster y OGR más de 20 formatos vectoriales.
 
@@ -60,12 +60,12 @@ Estos incluyen:
 * **Vectorial:** MapInfo (tab y mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, y más ...
 
 Estándares Implementados
-------------------------
+--------------------------------------------------------------------------------
 
 El modelo de datos vectorial de OGR es compatible con la especificación Simple Features de la OGC.
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:**  http://www.gdal.org
 
@@ -80,6 +80,6 @@ Detalles
 **Soporte:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
 
 Guía de Inicio Rápido
----------------------
+--------------------------------------------------------------------------------
     
 * `Guía de Inicio Rápido <../quickstart/gdal_quickstart.html>`_

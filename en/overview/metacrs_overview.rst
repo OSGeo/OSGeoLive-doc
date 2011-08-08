@@ -19,10 +19,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 MetaCRS
-=======
+================================================================================
 
 Coordinate Reference System Transformations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/project_logos/logo-metacrs.png
   :scale: 100 %
@@ -46,7 +46,7 @@ The sub-projects that make up MetaCRS include:
 * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Provides point transformation from one coordinate reference system to another.
 * Includes transformation between datums.
@@ -54,14 +54,14 @@ Core Features
 
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 The projects typically use coordinate system definitions as defined by the 
 `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ and defined in
 Well Known Text (WKT) format.
 
 PROJ.4
-------
+--------------------------------------------------------------------------------
 
   **Website:**  http://trac.osgeo.org/proj/
   
@@ -76,7 +76,7 @@ PROJ.4
   **Support:** http://lists.maptools.org/mailman/listinfo/proj
 
 Proj4js
--------
+--------------------------------------------------------------------------------
 
   **Website:**  http://proj4js.org
   
@@ -91,7 +91,7 @@ Proj4js
   **Support:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 CS-Map
-------
+--------------------------------------------------------------------------------
 
   **Website:**  http://proj4js.org
   
@@ -106,7 +106,7 @@ CS-Map
   **Support:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 GeoTIFF/libgeotiff
-------------------
+--------------------------------------------------------------------------------
 
   **Website:**  http://trac.osgeo.org/geotiff/
   
@@ -117,7 +117,7 @@ GeoTIFF/libgeotiff
   **Support:** http://lists.maptools.org/mailman/listinfo/geotiff
   
 Proj4J
-------
+--------------------------------------------------------------------------------
 
   **Website:**  http://trac.osgeo.org/proj4j/
   

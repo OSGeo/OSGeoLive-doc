@@ -12,10 +12,10 @@
 
 
 AtlasStyler
-===========
+================================================================================
 
 Feature Style Editor
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `AtlasStyler <http://de.geopublishing.org/AtlasStyler>`_ ist eine dialoggeführte Anwendung zur Gestaltung von Geodaten. Die resultierenden Styling-Dateien entsprechen dabei dem OGC SLD Standard in der Version 1.0, und können von z.B. von GeoServer oder uDig verarbeitet werden. 
 
@@ -29,7 +29,7 @@ Die Anwendung bietet eine Vielzahl intuitiver Dialoge, die eine produktive Arbei
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Styles mittels Dialoge erstellen, keine Kenntnis von SLD oder XML benötigt
 * Basierend auf dem SLD Standard.
@@ -38,13 +38,13 @@ Kernfunktionen
 * Verfügbar in Deutsch, Englisch, Italienisch, Türkisch, Russisch und Französisch
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
 * OGC Symbology Encoding (SE) 1.1 teilweise
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://de.geopublishing.org/AtlasStyler
 
@@ -61,7 +61,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/atlasstyler_quickstart>`
 

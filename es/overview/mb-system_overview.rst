@@ -12,17 +12,17 @@
 
 
 MB-System
-=========
+================================================================================
 
 Cartografiando el lecho marino
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MB-System es un paquete de sóftware open source para el procesamiento y representación de información batimétrica y procedente de sónares. Hace un uso extensivo de `GMT <gmt_overview.html>`_ .
 
 MB-System lleva en continuo desarrollo desde 1993, y tiene el apoyo activo de diversas organizaciones de investigación y ciencia.
 
 Características Principales
-----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
@@ -47,7 +47,7 @@ Características Principales
 * Modelado y corrección de mareas
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
@@ -61,6 +61,6 @@ Detalles
 
 
 Guía de inicio rápido
------------------------
+--------------------------------------------------------------------------------
 
 * :doc:`Guía de inicio rápido <../quickstart/mb-system_quickstart>`

@@ -12,10 +12,10 @@
 
 
 Geopublisher
-============
+================================================================================
 
 Gestor de Bibliotecas Electrónicas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geopublisher es un sistema de autoría de atlas que permite la publicación de manera sencilla de datos geográficos, documentos, imágenes, vídeos y estadísticas en forma de atlas multimedia digitales. Estos atlas resultan ser un mínimo pero efectivo SIG preconfigurado y orientado al usuario final en el que se pueden seleccionar unicamente las funcionalidades que doten de contenido a la información.
 
@@ -24,7 +24,7 @@ Geopublisher proporciona herramientas que permiten asegurar la calidad y la gest
 Las características únicas de Geopublisher lo hacen especialmente indicado para ser usado en los campos de la investigación a nivel internacional, SIG colaborativo, capacitación u desarrollos en cooperación.
 
 Características Principales
----------------------------
+--------------------------------------------------------------------------------
 .. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: pantallazo de Geopublisher editando un atlas
@@ -45,11 +45,11 @@ Características Principales
 
 
 Estándares implementados
-------------------------
+--------------------------------------------------------------------------------
 * Style Layer Descriptor (SLD por sus siglas en inglés, Descriptor de estilo de capa) de OGC 
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://en.geopublishing.org/Geopublisher
 
@@ -65,6 +65,6 @@ Detalles
 
 
 Guía de inicio rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Guía de inicio rápido <../quickstart/geopublisher_quickstart.html>`_

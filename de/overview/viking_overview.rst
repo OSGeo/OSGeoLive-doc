@@ -12,10 +12,10 @@
 
 
 Viking
-======
+================================================================================
 
 Verwaltung und Darstellung von GPS Daten
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ ist ein GPS Dateneditor, Analyzeprogramm und Betrachter. 
 Viking setzt es sich zum Ziel, in mit GPS in Bezug stehenden Aufgaben verschiedenster Art einfach bedienbar und leistungsfähig zu sein. 
@@ -23,7 +23,7 @@ Es macht Gebrauch von einem hierarchisch aufgebauten System von Ebenen, um GPS D
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
   :scale: 40 %
@@ -48,7 +48,7 @@ Kernfunktionen
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://sourceforge.net/apps/mediawiki/viking/
 
@@ -63,6 +63,6 @@ Details
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/viking_quickstart>`

@@ -12,12 +12,12 @@
   :target: http://rasdaman.org
 
 
-********
+
 Rasdaman
-********
+================================================================================
 
 Multi-Dimensional Raster Database
-=================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Rasdaman extends standard relational databases to provide storage and retrieval of multi-dimensional raster data (i.e., arrays) of unlimited size using an SQL-style raster query language with highly effective server-side optimization. Data are stored in a PostgreSQL database, thereby achieving tight information integration. A rasdaman driver is a part of the GDAL (Geospatial Data Abstraction Library) library for geospatial data formats, a MapServer integration is available in beta.
 Access interfaces include OGC WCS, WCPS, and WPS, as well as C++ and Java APIs in addition to the rasdaman raster query language.
@@ -32,7 +32,7 @@ The rasdaman technology is stable and mature, deployed in production since over 
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
     * true multi-dimensionality - from 1-D over 2-D to 3-D, 4-D, and beyond
     * powerful, flexible query language for tasks such as visualization, classification, convolution, aggregation, and many more geospatial functions
@@ -42,12 +42,12 @@ Core Features
     * full information integration of raster data with all other geographic data in the PostgreSQL database
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
     * OGC WCS 2.0, WCPS 1.0, WPS 1.0
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** www.rasdaman.org
 
@@ -65,7 +65,7 @@ Details
 **Support:**  www.rasdaman.com
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`
 

@@ -12,10 +12,10 @@
 
 
 52°North WPS
-=============
+================================================================================
 
 Servicio Web
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 El Servicio Web de Procesamiento (WPS) de 52°North <../standards/wps_overview.html>`_ habilita el acceso web a
 algoritmos de procesamiento geospacial provistos por Sextante, ArcGIS Serer, o desarrollos de funciones propias.
@@ -29,7 +29,7 @@ tan complejos como un modelo de cambio climático global.
   :align: right
 
 Caracerísticas básicas
-----------------------
+--------------------------------------------------------------------------------
 
 
 Funciones básicas SIG:
@@ -52,7 +52,7 @@ Cliente basado en navegador (browser)
 
 
 Estándares implementados
---------------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Processing Service (WPS)
 * OGC GML2 SimpleFeatures
@@ -60,7 +60,7 @@ Estándares implementados
 
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://52north.org/wps
 
@@ -74,7 +74,7 @@ Detalles
 
 
 Guía de inicio rápido
-----------------------
+--------------------------------------------------------------------------------
 
 * `Guía de inicio rápido <../quickstart/52nWPS_quickstart.html>`_
 

@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Sensor Model Language (SensorML)
-================================
+================================================================================
 
 .. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
@@ -58,7 +58,7 @@ Sensor Model Language (SensorML)
 Υπάρχουν πολλά παραδείγματα υλοποίησης SensorML, όπως το πρόγραμμα MSFC SMART της NASA (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). Σε αυτό το πρόγραμμα, η ομάδα ανάπτυξης υλοποίησε μια ροή εργασίας επεξεργασιών ασθητήρων μέσω διαδικτύου με στόχο την ενσωμάτωση των μετρήσεων θερμοκρασίας και υγρασίας του δορυφόρου Atmospheric Infrared Sounder (AIRS) σε μια τοπική έκδοση του μοντέλου Weather Research and Forecast  στις νοτιοανατολικές ΗΠΑ.
 
 Δείτε επίσης
-------------
+--------------------------------------------------------------------------------
 
 .. Βοήθημα:
   Describe Similar standard

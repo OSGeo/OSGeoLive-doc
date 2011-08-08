@@ -18,10 +18,10 @@
 
 
 OpenLayers
-==========
+================================================================================
 
 Cliente ligero GIS
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
@@ -31,7 +31,7 @@ Cliente ligero GIS
 OpenLayers permite a los desarrolladores Web integrar componente de mapas dinámicos fácilmente, desde multitud de fuentes de información, en una página Web. OpenLayers proporciona un conjunto de componentes y herramientas de desarrollo de funcionalidades de *mapping* similara al API de Google Maps. Toda la funcionalidad corre en el navegador Web, lo que hace fácil la instalación de OpenLayers sin ningún tipo de dependencia de la parte servidora.
 
 Propiedades Fundamentales
----------------------------
+--------------------------------------------------------------------------------
 
 * Uso simple de un API Javascript, diseñado para el desarrollo fácil de aplicaciones
 * Soporte de protocolos estandar y customizados para interactuar con los servidores
@@ -50,7 +50,7 @@ Propiedades Fundamentales
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Website:** http://openlayers.org
 
@@ -64,7 +64,7 @@ Detalles
 
 
 Guía de inicio rápido
-----------------------
+--------------------------------------------------------------------------------
 
 * `Guia de inicio rápido <../quickstart/openlayers_quickstart.html>`_
 

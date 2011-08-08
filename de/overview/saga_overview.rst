@@ -12,10 +12,10 @@
 
 
 SAGA
-====
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 SAGA (System für automatisierte Geowissenschaftliche Analysen) ist ein Open Source Geoinformationssystem (GIS), das zum
 Bearbeiten und Erfassen von räumlichen Daten verwendet wird. Das Programm beinhaltet zahlreiche Module zur Analyse von Vektordaten (Punkten, Linien, Flächen), Tabellen, Grids und Bilddateien. Unter anderem beinhaltet SAGA Module zur Geostatistic, Bildklassifizierung, 
@@ -31,7 +31,7 @@ Institut für Geographie an der Universität Hamburg statt und wird von einer wa
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Zugriff auf zahlreiche wissenschaftliche Module über ein graphische Oberfläche oder über die Kommandozeile
 
@@ -53,7 +53,7 @@ Kernfunktionen
 * SAGA kann von der statistischen Sprache R das RSAGA Modul angesprochen werden
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.saga-gis.org
 
@@ -68,7 +68,7 @@ Details
 **Support:** http://www.saga-gis.org
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/saga_quickstart>`
 

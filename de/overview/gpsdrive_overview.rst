@@ -12,10 +12,10 @@
 
 
 GpsDrive
-========
+================================================================================
 
 GPS Navigationssoftware 
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsDrive <http://www.gpsdrive.de>`_ ist ein Navigationssystem für das Auto 
 (Motorrad, Schiff, Flugzeug, Fußgänger). GpsDrive zeigt Ihre von einem GPS-Gerät 
@@ -26,7 +26,7 @@ sein, ebenso wie viele USB GPS-Empfänger, die das von `Gpsd <http://gpsd.berlio
 GPS Daemon und Multiplexer verwendete Binärprotokoll kennen.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
@@ -46,7 +46,7 @@ Kernfunktionen
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.gpsdrive.de
 
@@ -60,7 +60,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/gpsdrive_quickstart>`
 

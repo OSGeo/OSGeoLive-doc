@@ -18,10 +18,10 @@
 
 
 OSSIM
-=====
+================================================================================
 
 Bilddatenverarbeitung
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open Source Software Image Map (OSSIM) ist ein äußerst mächtiges Werkzeug 
 für Aufgaben im Bereich der Fernerkundung, Bildverarbeitung, Geographischen 
@@ -39,7 +39,7 @@ wurden entwickelt - von denen mehrere in dem Softwarepaket enthalten sind.
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
@@ -60,7 +60,7 @@ Kernfunktionen
 * Formeleditoren
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.ossim.org/
 
@@ -75,6 +75,6 @@ Details
 **Kommerzieller Support:** http://www.osgeo.org/search_profile
 
 Quickstart
-------------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/ossim_quickstart>`

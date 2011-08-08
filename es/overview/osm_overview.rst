@@ -11,10 +11,10 @@
   :target: http://wwww.openstreetmap.org
 
 OpenStreetMap
-=============
+================================================================================
 
 Herramientas para cartografiar el mundo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `OpenStreetMap <http://www.openstreetmap.org>`_ es un proyecto cuyo objetivo es la creación y provisión de datos geográficos, como por ejemplo mapas de calles, a cualquiera que los quiera. El proyecto se empezó debido a que la mayoría de los mapas que se piensa que son libres, en realidad tienen restricciones de uso, técnicas y legales, no permitiendo su utilización en otras formas más creativas o productivas que no esten contempladas en las mismas.
 
@@ -23,7 +23,7 @@ Osm2pgsql. Además, datos de ejemplo de la ciudad de Barcelona y numerosos plugi
 
 
 Propiedades Fundamentales
----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
@@ -37,7 +37,7 @@ Propiedades Fundamentales
 * Inegración de extendidas aplicaciones geoespaciales
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.openstreetmap.org
 
@@ -79,7 +79,7 @@ Detalles
 
 
 Guía de inicio rápido
-----------------------
+--------------------------------------------------------------------------------
 
 * :doc:`Guía de inicio rápido <../quickstart/osm_quickstart>`
 

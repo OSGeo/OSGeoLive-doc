@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Style Layer Descriptor (SLD)
-============================
+================================================================================
 
 .. Writing Tip:
   1 parrafo o 2 definen lo que es el estandar.
@@ -53,7 +53,7 @@ La habilidad para un cliente de definir estas reglas requiere un lenguaje de est
 Hay que notar que adicionalmente al diseño de la salida de una implementación WMS, SE también se puede utilizar para diseñar la salida de implementaciones WFS e implementaciones del standar de interface OGC Web Coverage Service (WCS) Interface Standard.
 
 Ver también
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe estandar similar

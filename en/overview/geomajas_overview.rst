@@ -20,10 +20,10 @@
 
 
 Geomajas
-========
+================================================================================
 
 Browser GIS Client
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geomajas is an extensible web mapping framework which seamlessly integrates powerful server side algorithms into the web browser.
 
@@ -37,7 +37,7 @@ What makes Geomajas unique is its strong server side focus. The processing, styl
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Integrated client-server architecture
 * Geometry and attribute editing
@@ -49,13 +49,13 @@ Core Features
 * Cross browser support, without the need for browser plug-ins
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.geomajas.org/
 
@@ -71,7 +71,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`
 

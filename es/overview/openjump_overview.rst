@@ -11,10 +11,10 @@
   :target: http://www.openjump.org
 
 OpenJUMP GIS
-============
+================================================================================
 
 SIG de escritorio
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 OpenJUMP es un SIG de escritorio poderoso y fácil de usar que permite a los usuarios editar, analizar, combinar, guardar y visualizar datos geográficos.
 Tambíen es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
@@ -25,7 +25,7 @@ Tambíen es una excelente plataforma para realizar pruebas de desarrollos de fun
   :align: center
 
 Características Principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Formatos
 
@@ -58,14 +58,14 @@ Características Principales
    
 
 Estándares con los que con cumple
------------------------------------
+--------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * Estándares OGC: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.openjump.org
 
@@ -80,6 +80,6 @@ Detalles
 **Soporte comercial:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
 
 Guía rápida
------------
+--------------------------------------------------------------------------------
     
 * `Guía rápida <../quickstart/openjump_quickstart.html>`_

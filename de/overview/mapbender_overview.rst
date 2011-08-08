@@ -19,10 +19,10 @@
 
 
 Mapbender
-=========
+================================================================================
 
 Geoportal Framework
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Mapbender <http://www.mapbender.org>`_ ist ein graduiertes OSGeo Projekt. Mapbender ist ein web-basiertes Geoportal Framework zum Veröffentlichen, Anzeigen und Überwachen von OGC Diensten, mit der Möglichkeit Dienste gesichert anzubieten. 
 
@@ -41,7 +41,7 @@ Mapbender gibt dem GDI Management durch die alleinige Nutzung eines Standard Web
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * leichtes Erzeugen von Web Mapping Anwendungen über Anwendungsvorlagen
 
@@ -67,14 +67,14 @@ Kernfunktionen
 * ... und mehr!
 
 Unterstützte Standards
-----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 * OGC Web Map Context (WMC) 1.1.0 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.mapbender.org/ 
 
@@ -89,6 +89,6 @@ Details
 **Support:** http://www.mapbender.org/Support
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/mapbender_quickstart>`

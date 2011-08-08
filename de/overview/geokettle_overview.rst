@@ -12,10 +12,10 @@
   :target: http://www.geokettle.org/
 
 GeoKettle
-=========
+================================================================================
 
 Extraktion, Transformation & Laden (ETL)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoKettle ist die "raumbezogene" Version von Kettel aus der `Pentaho Data Integration Suite <http://www.pentaho.com/products/data_integration/>`_. Es ist ein leistungsfähiges, Metadaten-gesteuertes ETL -Werkzeug (Extract, Transform & Load) für räumliche Daten und kann zur Integration verschiedenster Datenquellen, die Erstellung und Aktualisierung von Geodatenbeständen, Data Warehouses und Web Services genutzt werden.
 
@@ -31,7 +31,7 @@ In der GIS-Domäne kann Geokettle mit FME, einem urheberrechtlich geschütztem r
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Extrahieren von Daten aus: 
 
@@ -89,12 +89,12 @@ Kernfunktionen
   * Plugin Öko-System
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Standardkonform (SFS, CSW, SOS)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.geokettle.org/
 
@@ -110,6 +110,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart Dokumentation <../quickstart/geokettle_quickstart>`

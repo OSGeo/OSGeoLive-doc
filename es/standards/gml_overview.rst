@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Geography Markup Language (GML)
-===============================
+================================================================================
 
 .. Writing Tip:
   1 parrafo o 2 definen lo que es el estandar.
@@ -70,7 +70,7 @@ GML 3.2.16 es la versión más reciente del estandar conjunto OGC-ISO.
 Actualemente se están generando las versiones 3.2.2 and 4.0.
 
 Ver también
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe estandar similar

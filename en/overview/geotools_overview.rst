@@ -18,7 +18,7 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GeoTools
-========
+================================================================================
 
 GeoTools is an open source (LGPL) Java library which provides standards compliant methods for manipulating geospatial data, and uses data structures based on Open Geospatial Consortium (OGC) specifications.
 
@@ -31,7 +31,7 @@ GeoTools is used by a number of projects including web services, command line to
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Definition of interfaces for key spatial concepts and data structures
   
@@ -95,7 +95,7 @@ Supported Formats
   Additional Geometry, Filter and Style parser/encoders available for DOM and SAX applications.
   
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 Support of numerous Open Geospatial Consortium (OGC) standards:
 
@@ -107,7 +107,7 @@ Support of numerous Open Geospatial Consortium (OGC) standards:
 * ISO 19107 Geometry
 
 Details
--------
+--------------------------------------------------------------------------------
  
 **Website:** http://geotools.org/
 
@@ -122,6 +122,6 @@ Details
 **Support:** `Communication and Support <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_

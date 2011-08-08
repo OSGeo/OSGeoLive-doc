@@ -19,10 +19,10 @@
 
 
 deegree
-=======
+================================================================================
 
 Web Services
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 deegree is free, stable, powerful and easy to use. deegree is
 the most comprehensive set of implementations of Open Geospatial
@@ -48,7 +48,7 @@ your requirements.
   :align: right
 
 Some example features
----------------------
+--------------------------------------------------------------------------------
 
 * Web Map Service
 
@@ -93,7 +93,7 @@ Some example features
 
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 in progress)
@@ -105,7 +105,7 @@ Implemented Standards
 * OGC Sensor Observation Service (SOS) 1.0.0
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://deegree.org
 
@@ -121,6 +121,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/deegree_quickstart>`

@@ -19,10 +19,10 @@
 
 
 GRASS GIS
-=========
+================================================================================
 
 Fully featured GIS
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Geographic Resources Analysis Support System, commonly referred to as
 GRASS, is a Geographic Information System (GIS) providing powerful raster,
@@ -56,13 +56,13 @@ GIS for handheld PDAs or netbooks.
 .. _GRASS: http://grass.osgeo.org
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * You name it, there's a tool for it.
 * Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://grass.osgeo.org
 
@@ -78,7 +78,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/grass_quickstart>`
 

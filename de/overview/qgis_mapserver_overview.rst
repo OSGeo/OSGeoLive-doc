@@ -18,10 +18,10 @@
 
 
 QGIS Server
-===========
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 QGIS Server stellt einen Web Map Service (WMS) auf Basis von Bibliotheken der Software Quantum GIS (QGIS) zur Verfügung.
 Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-Anwendung einfach als WMS bereitgestellt werden können, indem die QGIS Projektdatei in das entsprechende Serververzeichnis kopiert werden. Dabei sieht die Karte im Internet genauso aus, wie auf dem Desktop.
@@ -33,7 +33,7 @@ Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-An
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Web Map Service (WMS) Implementierung
 * Gute Integration mit dem Desktop GIS (QGIS)
@@ -42,13 +42,13 @@ Kernfunktionen
 * Fortgeschrittene kartographische Darstellung
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.3.0
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.qgis.org/
 
@@ -61,6 +61,6 @@ Details
 **Kommerzieller Support:** http://www.sourcepole.com/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart (English) <../../en/quickstart/qgis_mapserver_quickstart>`

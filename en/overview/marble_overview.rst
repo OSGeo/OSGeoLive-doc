@@ -13,10 +13,10 @@
 
 
 Marble
-======
+================================================================================
 
 3D desktop globe
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Marble is an open source KDE Education Project program similar
 to `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ or
@@ -26,7 +26,7 @@ encouraged to include a KDE Marble widget in your application.
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/marble-history.png
   :scale: 50 %
@@ -44,7 +44,7 @@ Core Features
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://edu.kde.org/marble/
 
@@ -60,7 +60,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/marble_quickstart>`
 

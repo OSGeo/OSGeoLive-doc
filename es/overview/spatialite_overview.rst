@@ -12,10 +12,10 @@
 
 
 SpatiaLite
-==========
+================================================================================
 
 Base de Datos Espaciales
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 SpatiaLite es un motor de bases de datos SQLite_ al que se han agregado funciones espaciales.
 
@@ -31,7 +31,7 @@ Además, estos archivos son portables, la misma base de datos funcionará en Win
   :align: right
 
 Funcionalidades Principales
----------------------------
+--------------------------------------------------------------------------------
 
 La extensión SpatialLite agrega a SQLite el soporte para datos espaciales según las especificaciones de la OGC.
 
@@ -51,7 +51,7 @@ La extensión SpatialLite agrega a SQLite el soporte para datos espaciales segú
 
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.gaia-gis.it/spatialite/
 
@@ -65,7 +65,7 @@ Detalles
 
 
 Guía de Inicio Rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Guía de Inicio Rápido <../quickstart/spatialite_quickstart.html>`_
 

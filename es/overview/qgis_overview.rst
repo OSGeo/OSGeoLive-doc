@@ -18,10 +18,10 @@
 
 
 Quantum GIS (QGIS)
-==================
+================================================================================
 
 SIG de escritorio
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quantum GIS (QGIS) es un cliente SIG de escritorio amigable de código abierto donde 
 se puede visualizar, administrar, editar, analizar datos y componer mapas.
@@ -35,7 +35,7 @@ raster y bases de datos.
   :align: right
 
 Características principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Interfaz gráfica de usuario amigable.
 
@@ -74,12 +74,12 @@ Características principales
 * Extensible arquitectura de complementos.
 
 Implementación de estándares
-----------------------------
+--------------------------------------------------------------------------------
 
 * Estándares OGC compatibles (WMS,WFS(Complemento))
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.qgis.org
 
@@ -95,7 +95,7 @@ Detalles
 
 
 Guía de inicio rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Documentación guía de inicio rápido <../quickstart/qgis_quickstart.html>`_
 

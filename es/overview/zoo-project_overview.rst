@@ -11,10 +11,10 @@
   :target: http://zoo-project.org/
 
 ZOO Project
-===========
+================================================================================
 
 Servidor WPS
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 El proyecto ZOO proporciona un entorno de Servicio de Procesamiento Web (WPS)
 amigable a los desarrolladores para la creación y encadenamiento de servicios de
@@ -57,19 +57,19 @@ ejecución WPS. Los servicios contienen algoritmos y funciones, y en este
 momento pueden implementarse en C/C++, Fortran, Java, Python, PHP y JavaScript.
 
 Funcionalidades principales
-----------------------------------
+--------------------------------------------------------------------------------
 
 - Servidor WPS multi-lenguaje
 - Sencillo procedimiento de creación y despliegue de servicios *web*
 - Sencillo encadenamiento de WPS usando la ZOO API 
 
 Estándares implementados
---------------------------
+--------------------------------------------------------------------------------
 
 * OGC WPS 1.0.0
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Demostración usando el proveedor de servicios sencillos en C basado en las bibliotecas GEOS y OGR <http://localhost/zoo-demo/spatialtools.html>`_
 * `Demostración usando el proveedor de servicios sencillo en Python basado en las bibliotecas GEOS y OGR <http://localhost/zoo-demo/spatialtools-py.html>`_
@@ -77,7 +77,7 @@ Demo
 
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Website:** http://zoo-project.org
 
@@ -93,7 +93,7 @@ Detalles
 
 
 Guía de inicio rápido
-------------------------
+--------------------------------------------------------------------------------
 
 * `Guía de inicio rápido <../quickstart/zoo-project_quickstart.html>`_
 

@@ -18,10 +18,10 @@
 
 
 MapGuide Open Source
-====================
+================================================================================
 
 Web Service
------------
+--------------------------------------------------------------------------------
 
 `MapGuide Open Source <http://mapguide.osgeo.org/>`_  ist eine webbasierte Plattform die es dem Benutzer ermöglicht Kartenanwendungen und Kartendienste zu entwickeln. MapGuide beinhaltet eine interaktive Kartenanwendung mit der Objekte bearbeitet und analysiert werden können. Außerdem ist das Anzeigen von Kartenhinweisen und das Durchführen von Operationen z.B. filtern oder messen, möglich.
 
@@ -35,7 +35,7 @@ MapGuide ist unter Linux oder Windows lauffähig und unterstützt den Apache- un
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 **Interaktive Kartenansicht**
 
@@ -88,12 +88,12 @@ Kernfunktionen
 * Benutzbar mit Microsoft Internet Explorer, Mozilla Firefox, Safari und Google Chrome
 
 Unterstützte Standards
-----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service 1.1.1 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://mapguide.osgeo.org/
 
@@ -106,7 +106,7 @@ Details
 **Kommerzieller Support:** http://www.osgeo.org/search_profile
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/mapguide_quickstart>`
 

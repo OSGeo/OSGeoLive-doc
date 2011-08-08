@@ -17,10 +17,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GeoServer
-=========
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoServer is a web server that allows you to serve maps and data from
 a variety of formats to standard clients such as web browsers and desk
@@ -44,7 +44,7 @@ GeoServer forms a core component of the Geospatial Web.
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 **Serve data from a variety of data stores:**
     * Vector
@@ -71,7 +71,7 @@ Core Features
     `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 Support of numerous Open Geospatial Consortium  (OGC) standards:
 
@@ -83,7 +83,7 @@ Support of numerous Open Geospatial Consortium  (OGC) standards:
   * :doc:`../standards/gml_overview`
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://geoserver.org/display/GEOS/Welcome
 
@@ -98,6 +98,6 @@ Details
 **Support:** http://geoserver.org/display/GEOS/Commercial+Support
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`

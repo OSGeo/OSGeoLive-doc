@@ -12,10 +12,10 @@
 
 
 Marble
-======
+================================================================================
 
 3D Desktop Globus
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Marble ist ein Open Source Programm des KDE Education Projekts, ähnlich 
 `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ oder Google Earth. 
@@ -26,7 +26,7 @@ Widget.
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/marble-history.png
   :scale: 50 %
@@ -43,7 +43,7 @@ Kernfunktionen
 * `OpenStreetMap <http://www.osm.org>`_ Integration
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://edu.kde.org/marble/
 
@@ -59,7 +59,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/marble_quickstart>`
 

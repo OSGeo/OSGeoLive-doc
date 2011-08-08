@@ -18,10 +18,10 @@
 
 
 gvSIG Desktop
-==============
+================================================================================
 
 SIG de escritorio
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 gvSIG es un Sistema de Información Geográfica (SIG) de escritorio diseñado para
 capturar, almacenar, gestionar, analizar y generar cualquier tipo de información
@@ -50,7 +50,7 @@ gvSIG es conocido por:
   :align: right
 
 Características principales
---------------------------------
+--------------------------------------------------------------------------------
 
 - Proporciona las herramientas SIG más comunes como carga de datos, navegación,
   consulta de información geográfica y alfanumérica, medida de distancias y áreas,
@@ -96,7 +96,7 @@ Características principales
 * Potente herramienta de reproyección basada en PROJ4
 
 Estándares implementados
-------------------------------
+--------------------------------------------------------------------------------
 
 Cliente avanzado con soporte para numerosos estándares del 
 *Open Geospatial Consortium* (OGC)
@@ -108,7 +108,7 @@ Cliente avanzado con soporte para numerosos estándares del
 - Búsqueda en nomenclátors usando la recomendación WFS-G
 
 Detalles
--------------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.gvsig.org/
 

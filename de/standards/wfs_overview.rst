@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Web Feature Service (WFS)
-=========================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -55,7 +55,7 @@ Alle WFS unterstützen die Ein- und Ausgabe von Daten über die Geography Markup
 Benutzer interagieren mit WFS normalerweise über browser- oder desktopbasierte Anwendungen, welche es erlauben, Vektorlayer von externen Anbietern über das Internet anzusprechen. Ein hervorragendes Beispiel der Nutzung von WFS für den offenen und interoperablen Zugriff auf eine große Menge von räumlichen Informationen über ein Portal sind die USGS Framework Web Feature Services, die zur Unterstützung der Enwicklung der National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.goc/) bereitgestellt werden. Ausgewählte US Framework Kartenlayer sind als WFS Layer und zusätzlich durch eine browserbasierte Schnittstelle der USGS verfügbar.
 
 Siehe auch
-----------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

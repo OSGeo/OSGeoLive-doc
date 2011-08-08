@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Catalogue Service for the Web (CS-W)
-====================================
+================================================================================
 
 .. Writing Tip:
   1 parrafo o 2 definen lo que es el estandar.
@@ -53,7 +53,7 @@ Existen varios perfiles del modelo actual OGC CS-W. Estos incluyen:
 Mucho del trabajo actual en este estandar tiene que ver con la restructuración del estandar de catálogo, así que hay un núcleo bien definido y fácil de implementar acompañado de un mecanismo bien definido para expresar una variedad de extensiones (anteriormente conocidas como perfiles de aplicación).
 
 Ver también
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe estandar similar

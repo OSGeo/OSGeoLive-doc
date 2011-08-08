@@ -11,10 +11,10 @@
   :target: http://www.openjump.org
 
 OpenJUMP GIS
-============
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 OpenJUMP ist ein einfach zu handhabendes und leistungsstarkes DesktopGIS, das es ermöglicht räumliche Daten
 zu bearbeiten, zu analysieren, zu vereinigen, zu speichern und anzuzeigen.
@@ -26,7 +26,7 @@ Es ist außerdem sehr gut zur schnellen Entwicklung von Prototypen mit angepasst
   :align: center
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Datenformate
 
@@ -59,14 +59,14 @@ Kernfunktionen
    
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.openjump.org
 
@@ -81,6 +81,6 @@ Details
 **Kommerzieller Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/openjump_quickstart>`

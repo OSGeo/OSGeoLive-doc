@@ -13,10 +13,10 @@
 
 
 MB-System
-=========
+================================================================================
 
 Sea floor mapping
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MB-System is an open source software package for the processing and 
 display of bathymetry and backscatter imagery data derived from
@@ -27,7 +27,7 @@ MB-System has been under development since 1993, with active support
 from a number of research and science organisations.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
@@ -52,7 +52,7 @@ Core Features
 * Tide modeling and correction
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
@@ -66,7 +66,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/mb-system_quickstart>`
 

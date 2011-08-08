@@ -12,10 +12,10 @@
   :target: http://www.orfeo-toolbox.org/
 
 OTB
-===
+================================================================================
 
 Image Processing
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ORFEO Toolbox Library (OTB) is a high performance image processing
 library. It is primarily used for processing remote sensing images
@@ -30,7 +30,7 @@ actively developed since 2006. It is based on the established medical
 image processing library ITK and is distributed as open source.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.png
   :scale: 80 %
@@ -53,7 +53,7 @@ Core Features
 * change detection.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.orfeo-toolbox.org/
 
@@ -70,7 +70,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/otb_quickstart>`
 

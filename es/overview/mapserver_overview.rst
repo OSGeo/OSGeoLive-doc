@@ -18,10 +18,10 @@
 
 
 MapServer
-=========
+================================================================================
 
 Servicio Web
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapServer es un motor de renderización de datos geográficos `Open Source <http://www.opensource.org>`_ escrito en C. Más allá de la navegación por datos GIS, MapServer permite crear "mapas de imágenes geográficas", es decir, mapas de contenidos para los usuarios. Por ejemplo, en Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ se proporciona a los usuarios más de 10.000 páginas Web, informes y mapas, a través de una única aplicación. La misma aplicación hace de "motor de mapas", proporcionando los contenidos spaciales a otras partes del sitio Web que las necesitan.
 
@@ -30,7 +30,7 @@ MapServer fué desarrollado inicialmente por el proyecto *ForNet* de la Universi
 MapServer es ahora un proyecto de `OSGeo <http://www.osgeo.org>`_, y lo mantiene un grupo creciente de desarrolladores (cerca de 20) distribuidos por todo el mundo. Un diverso grupo de organizaciones dan soporte al proyecto, proporcionando mejoras y mantenimiento, y se administra dentro de OSGeo por el *MapServer Project Steering Committee*, formado por desarrolladores y otros contribuidores.
 
 Características clave
-----------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/mapserver.png
   :scale: 50 %
@@ -67,25 +67,25 @@ Características clave
   * Proyecciones 'al vuelo' con capacidad para más de 1000 proyecciones proporcionadas por la librería Proj.4
 
 Standares Implementados
--------------------------
+--------------------------------------------------------------------------------
 
 * Soporta numerosos estándares  (OGC)
 
   * WMS (cliente/servidor), WFS no-transaccional (cliente/servidor), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Itasca <http://localhost/mapserver_demos/itasca/>`_
 
 Documentación
--------------
+--------------------------------------------------------------------------------
 
 * `Documentación MapServer 5.6.5  <../../mapserver/doc/index.html>`_
 
 
 Detalles
-----------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.mapserver.org/
 

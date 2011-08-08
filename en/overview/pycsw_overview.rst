@@ -13,10 +13,10 @@
 
 
 pycsw
-==========
+================================================================================
 
 Metadata Catalog
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 pycsw is an OGC CSW server implementation written in Python.
 
@@ -28,7 +28,7 @@ pycsw is Open Source, released under an MIT license, and runs on all major platf
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * fully passes the OGC CITE CSW test suite (103/103)
 * implements INSPIRE Discovery Services 3.0
@@ -45,7 +45,7 @@ Core Features
 
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC CSW 	2.0.2
 * OGC Filter 	1.1.0
@@ -61,7 +61,7 @@ Implemented Standards
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://pycsw.org
 

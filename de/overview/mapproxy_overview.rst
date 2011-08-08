@@ -11,10 +11,10 @@
   :target: http://mapproxy.org/
 
 MapProxy
-========
+================================================================================
 
 WMS- & Kachel-Proxy
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapProxy beschleunigt Kartenanwendungen durch das Vorgenerieren und Zwischenspeichern von Karten in einem lokalen Cache. Karten können durch MapProxy kombiniert, umtransformiert und manipuliert werden. So verfügt MapProxy zum Beispiel über die Möglichkeit Transparenz hinzuzufügen oder Wasserzeichen in der Karte einzublenden.
 
@@ -30,7 +30,7 @@ Beispiele aus der Praxis: MapProxy wird im Breitbandatlas des BMWi verwendet um 
 
 
 Funktionen von MapProxy
------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/mapproxy_demo.png
   :width: 796
@@ -80,7 +80,7 @@ Weitere Funkionen:
   * und vieles mehr...
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 MapProxy unterstützt folgende offene Spezifikationen: 
 
@@ -90,7 +90,7 @@ MapProxy unterstützt folgende offene Spezifikationen:
 * OGC KML 2.2 SuperOverlays
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://mapproxy.org/
 
@@ -103,6 +103,6 @@ Details
 **Support:** http://mapproxy.org/support.html
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart Dokumentation <../quickstart/mapproxy_quickstart>`

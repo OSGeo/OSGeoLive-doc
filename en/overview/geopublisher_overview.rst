@@ -13,10 +13,10 @@
 
 
 Geopublisher
-============
+================================================================================
 
 Electronic Library Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geopublisher is an atlas authoring system which enables easy publication of geo-data, documents, images, videos, and statistics in form of digital multimedia atlases. These atlases are effectively a minimal, pre-configured, end-user GIS which offers selected functionality only where its meaningful.
 
@@ -25,7 +25,7 @@ Geopublisher provides tools for quality assurance and multilingual meta-data man
 Geopublisher's unique features make it especially applicable in the fields of international research, participatory GIS, capacity building, and development cooperation.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 .. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
@@ -46,11 +46,11 @@ Core Features
 
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 * OGC Style Layer Descriptor (SLD)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://en.geopublishing.org/Geopublisher
 
@@ -66,7 +66,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/geopublisher_quickstart>`
 

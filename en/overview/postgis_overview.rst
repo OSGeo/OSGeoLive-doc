@@ -46,13 +46,13 @@
 .. Writing Tip: Name of application
 
 PostGIS
-=======
+================================================================================
 
 .. Writing Tip:
   Application Category Description:
 
 Spatial Database
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Writing Tip:
   Address user questions of "What does the application do?",
@@ -89,7 +89,7 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Hundreds of spatial functions
   
@@ -105,14 +105,14 @@ Core Features
 * Table-spaces, schemas
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * OGC standards compliant (SFSQL)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://postgis.refractions.net/
 
@@ -132,6 +132,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/postgis_quickstart>`

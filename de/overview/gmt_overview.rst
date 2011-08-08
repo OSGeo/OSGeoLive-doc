@@ -12,10 +12,10 @@
 
 
 GMT
-===
+================================================================================
 
 Die Generic Mapping Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GMT ist eine Sammlung von Werkzeugen, die es Benutzern erlauben, gezielt (x, y) 
 und (x, y, z) Datensätze zu manipulieren (einschließlich Filterung, Trend-Fitting, 
@@ -35,14 +35,14 @@ und politischen Grenzen.
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Kartographie nach wissenschaftlichen Qualitätsanforderungen. 
 * Funktionen für Rasterung und Konturierung.
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://gmt.soest.hawaii.edu
 
@@ -57,7 +57,7 @@ Details
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/gmt_quickstart>`
 

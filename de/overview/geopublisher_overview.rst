@@ -12,10 +12,10 @@
 
 
 Geopublisher
-============
+================================================================================
 
 Geodaten als Karten veröffentlichen 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die Geopublisher Software ermöglicht es in kurzer Zeit digitale Multimedia-Atlanten zu erstellen und zu veröffentlichen. 
 
@@ -24,7 +24,7 @@ Geopublisher beinhaltet Funktionalität zur Qualitätssicherung und zur mehrspra
 Geopublishers Alleinstellungsmerkmale machen die Software besonders Einsetzbar im Bereich Internationale Forschung, Participatory GIS, Capacity Building, und der Entwicklungszusammenarbeit.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 .. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: Screenshot: Geopublisher mit geöffnetem Atlas
@@ -43,13 +43,13 @@ Kernfunktionen
 
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
 * OGC Symbology Encoding (SE) 1.1 teilweise
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://de.geopublishing.org/Geopublisher
 
@@ -65,6 +65,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/geopublisher_quickstart>`

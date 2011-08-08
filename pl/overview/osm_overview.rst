@@ -11,10 +11,10 @@
   :target: http://wwww.openstreetmap.org
 
 OpenStreetMap
-=============
+================================================================================
 
 Tools for mapping the world
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `OpenStreetMap <http://www.openstreetmap.org>`_ is a project aimed
 squarely at creating and providing free geographic data such as street
@@ -29,7 +29,7 @@ of JOSM plugins have been included.
 
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
@@ -43,7 +43,7 @@ Główne funkcje
 * Widespread geo-application integration
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://www.openstreetmap.org
 
@@ -85,7 +85,7 @@ Szczegóły
 
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * :doc:`Przejdź do wprowadzenia <../quickstart/osm_quickstart>`
 

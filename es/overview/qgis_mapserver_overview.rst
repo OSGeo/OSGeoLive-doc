@@ -18,10 +18,10 @@
 
 
 QGIS Server
-===========
+================================================================================
 
 Servicio Web
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 QGIS Server ofrece un servicio web de mapas (WMS) basado en la librerías de la 
 aplicación de escritorio de Quantum GIS (QGIS). La estrecha integración con QGIS 
@@ -36,7 +36,7 @@ exactamente como en el escritorio.
 
 
 Características principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Implementación del Servicio Web de Mapas (WMS)
 * Una buena integración con el SIG de escritorio (QGIS)
@@ -45,13 +45,13 @@ Características principales
 * Simbolización cartográfica avanzada
 
 Implementación de estándares
-----------------------------
+--------------------------------------------------------------------------------
 
 * Servicio Web de mapas OGC (WMS) 1.3.0
 * Descriptor de Estilos de Capa OGC (SLD) 1.0
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.qgis.org/
 
@@ -65,6 +65,6 @@ Detalles
 
 
 Guía de inicio rápido
---------------------
+--------------------------------------------------------------------------------
 
 * `Documentación de guía de inicio rápido <../quickstart/qgis_mapserver_quickstart.html>`_

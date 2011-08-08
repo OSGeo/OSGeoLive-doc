@@ -41,7 +41,7 @@
 .. Writing Tip: Name of application
 
 GeoServer
-=========
+================================================================================
 
 .. Writing Tip:
   Application Category Description:
@@ -55,7 +55,7 @@ GeoServer
   * ...
 
 Webサービス
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -70,7 +70,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
   :align: right
 
 主な機能
--------------
+--------------------------------------------------------------------------------
 
 **様々な種類のデータストアデータの配信:**
     * ベクタ
@@ -98,7 +98,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 
 
 準拠している標準規格
----------------------
+--------------------------------------------------------------------------------
 
 
 * 多くの Open Geospatial Consortium  (OGC) 標準をサポートしています
@@ -106,7 +106,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
   * WMS、 transactional WFS、 WCS、 Filter Encoding、 SLD、 GML
 
 詳細
--------
+--------------------------------------------------------------------------------
 
 **ウェブサイト:** http://geoserver.org/display/GEOS/Welcome
 
@@ -123,7 +123,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 **サポート:** http://geoserver.org/display/GEOS/Commercial+Support
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * `Quickstart documentation <../quickstart/geoserver_quickstart.html>`_
 

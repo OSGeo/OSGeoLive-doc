@@ -18,10 +18,10 @@
 
 
 gvSIG Desktop
-=============
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 gvSIG_ ist ein Geographisches Informationssystem (GIS). Als Desktop-Anwendung bietet es Möglichkeiten 
 zur Erfassung, Speicherung, Handhabung, Analyse und Bereitstellung geografischer Informationen,
@@ -45,7 +45,7 @@ gvSIG ist bekannt für:
   :align: right
 
 Kernelemente
-------------
+--------------------------------------------------------------------------------
 
 * Bietet allgemeine GIS-Funktionalität, wie das Laden von Daten, Karten-Navigation, Abfrage von
   alphanumerischer Karten-Informationen, Messen von Strecken und Flächen, thematische
@@ -89,7 +89,7 @@ Kernelemente
 
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGIS unterstützt:
 
@@ -100,7 +100,7 @@ Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGI
 * Suchfunktion von Gazetteer, durch Verwendung von WFS-G 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.gvsig.org/
 
@@ -117,6 +117,6 @@ Details
 .. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
 Quickstart
-------------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/gvsig_quickstart>`

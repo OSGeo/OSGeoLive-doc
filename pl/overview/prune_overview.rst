@@ -11,10 +11,10 @@
 
 
 Prune
-=====
+================================================================================
 
 Narzedzia do edycji śladów GPS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Prune <http://activityworkshop.net/software/prune/>`_ jest narzędziem do przeglądania,
 edycji i konwertowania danych posiadających georeferencje, z systemów GPS. Do wyświetlania
@@ -28,7 +28,7 @@ a także umożliwia wysłanie wyedytownych danych z powrotem do urządzenia GPS.
 Prune działa na Mac OSX, Windows i Linux, i jest dostępne w dziesięciu różnych językach.
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/prune_barcelona.png
   :scale: 50 %
@@ -45,7 +45,7 @@ Główne funkcje
 * Tworzenie wykresów, np. wysokość do odległości, prędkość do czasu
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://activityworkshop.net/software/prune/
 
@@ -57,7 +57,7 @@ Szczegóły
 
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/prune_quickstart.html>`_
 

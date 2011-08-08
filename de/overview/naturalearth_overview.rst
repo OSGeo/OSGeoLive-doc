@@ -13,10 +13,10 @@
 
 
 Natural Earth
-=============
+================================================================================
 
 Kartendaten
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von Karten kleiner bis mittlerer Maßstäbe (1:110-, 1:50- und 1:10-Millionen) zur Verfügung. Es sind sowohl politische (administrative) und physische (natürliche) Merkmale, als auch Vektordaten, die perfekt zu den Rasterdaten in Deckung gebracht sind, enthalten.
 
@@ -28,7 +28,7 @@ Natural Earth löst das weitverbreitete Problem von Kartographen: Das Finden von
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Vektordaten mit Namen und weiteren Attributen für jedes Objekt
 * Große Polygone, z.B. bei den Bathymetrie-Daten, wurden in mehrere Objekte aufgeteilt, um die Daten effizient handhaben zu können. 
@@ -37,7 +37,7 @@ Kernfunktionen
 * Optimiert für webbasierte Kartenanwendungen, wie z.B. Google oder Yahoo, und mit enthaltenen Maßstabsinformationen, um kenntlich zu machen, bei welchen Maßstäben bzw. Zoomlevel Objekte dargestellt werden sollen.
 
 Datensätze
-----------
+--------------------------------------------------------------------------------
 
 Thema Kulturelle Vektordaten:
   enthält Länder, umstrittene Gebiete, Staaten und Provinzen (übergeordnete administrative Bereiche) sowie besiedelte Orte (Städte und Gemeinden). Straßen, Schienen, kommunale Gebiete, Parks und geschützte Bereiche, pazifische Staatengruppierungen sowie Wassergrenzen, die das Angebot an kulturellen Daten vervollständigen.
@@ -49,7 +49,7 @@ Thema Rasterdaten:
   enthält graustufen-geschummerte Reliefe und über kreuz verschnittene hypsometrische Schattierungen, aus Satellitendaten abgeleitete Landnutzungsdaten, idealisierte Umweltdaten, Ozeane, Entwässerungsanlagen und Seen
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://naturalearthdata.com
 

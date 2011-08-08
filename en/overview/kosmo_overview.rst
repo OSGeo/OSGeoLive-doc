@@ -12,10 +12,10 @@
   :target: http://www.opengis.es/index.php?lang=en
 
 Kosmo Desktop
-=============
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
 and analyse spatial data from a variety of databases, vector and raster formats. 
@@ -29,7 +29,7 @@ It's plug-in architecture enables it to be easily customised for specific purpos
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 Supported formats:
 
@@ -50,7 +50,7 @@ Key features:
 * Sextante 0.6 integrated (by an extension)
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
@@ -58,7 +58,7 @@ Implemented Standards
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.opengis.es
 
@@ -74,6 +74,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/kosmo_quickstart>`

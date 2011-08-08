@@ -21,10 +21,10 @@
 
 
 MapFish
-=======
+================================================================================
 
 Web Mapping Framework
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapFish is a flexible and complete framework for building rich web-mapping
 applications. It emphasizes high productivity, and high-quality development. 
@@ -45,7 +45,7 @@ toolkits.
   :align: right
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 MapFish is compliant with the `Open Geospatial Consortium
 <http://www.opengeospatial.org/>`_ standards.  This is achieved through
@@ -53,7 +53,7 @@ OpenLayers or GeoExt supporting several OGC norms, like WMS, WFS, WMC, KML, GML
 etc.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.mapfish.org
 
@@ -67,7 +67,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/mapfish_quickstart>`
 

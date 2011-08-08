@@ -18,10 +18,10 @@
 
 
 MapGuide Open Source
-====================
+================================================================================
 
 Web Service
------------
+--------------------------------------------------------------------------------
 
 `MapGuide Open Source <http://mapguide.osgeo.org/>`_ es una plataforma web que proporciona a usuarios la posibilidad de publicar mapas y servicios web en internet. MapGuide es un visor web interactivo que incluye soporte para selección de objetos, análisis espacial, y otras operaciones como buffer, selecciones entre capas y mediciones.
 
@@ -35,7 +35,7 @@ MapGuide puede ser instalado en Linux o Windows, tanto en Apache como en IIS web
   :align: right
 
 Principales funcionalidades
----------------------------
+--------------------------------------------------------------------------------
 
 ** Map Viewing interactivo**
 
@@ -86,12 +86,12 @@ Principales funcionalidades
 * Trabaja con los siguientes navegadores: Microsoft Internet Explorer, Mozilla Firefox, Safari y Chrome
 
 Standards implementados
------------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service 1.1.1 
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://mapguide.osgeo.org/
 
@@ -105,7 +105,7 @@ Detalles
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * `Quickstart documentation <../quickstart/mapguide_quickstart.html>`_
 

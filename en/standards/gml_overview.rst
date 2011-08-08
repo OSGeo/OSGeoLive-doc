@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Geography Markup Language (GML)
-===============================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -62,7 +62,7 @@ Understanding the use of “Feature”, “Geometry”, and “CRS” is critica
 OGC work on the GML standard began in 1998. GML was first formally approved as an OGC standard in 2001. GML became an ISO standard in 2007. GML 3.2.16 is the most current revision of the joint OGC-ISO standard. Versions 3.2.2 and 4.0 are currently in progress.
 
 See Also
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

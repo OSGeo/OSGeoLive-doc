@@ -11,10 +11,10 @@
   :target: http://cran.r-project.org
 
 R Spatial Task View
-===================
+================================================================================
 
 Statistical Programming
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 R is a powerful, widely used software environment for statistical computing and graphics which excels at analyzing and processing geographic data sets. Geospatial analysis capabilities within R are available in R packages (modules that extend the capabilities of R) that provide access to a large number of traditional and state of the art algorithms, often before they are available in other open source or proprietary software. R and it's packages are able to process point, line, polygon and grid data. Users can accomplish a broad array of tasks such as: image classification, statistical analysis to infer spatial relationships and patterns of features, and others listed in the core features below. The functions available via R compliment and advance capabilities found in GIS and image processing software.
 
@@ -28,7 +28,7 @@ R is an implementation of the S programming language and there is significant co
   :align: right
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 * Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
 * Hundreds of community contributed add-on packages for spatial statistics
@@ -42,7 +42,7 @@ Główne funkcje
 * Analizy ekologczne
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://cran.r-project.org
 
@@ -56,7 +56,7 @@ Szczegóły
 
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/R_quickstart.html>`_
 

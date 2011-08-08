@@ -18,10 +18,10 @@
 
 
 Mapbender
-=========
+================================================================================
 
 Geoportal Framework
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Mapbender <http://www.mapbender.org>`_ es un proyecto graduado en OSGeo. Consiste de un entorno para la publicación de Geoportales, y para el registro, visualización, navegación, monitorización y manejo de niveles de acceso seguros a servicios de Infraestrctura de Datos Espaciales.
 
@@ -41,7 +41,7 @@ Mapbender da una nueva perspectiva a la gestión de las IDE al utilizar nada má
 
 
 Propiedades Fundamentales
--------------------------
+--------------------------------------------------------------------------------
 
 * La forma más sencilla es crear una interfaz *web* de mapas al utilizar la aplicación de plantillas
 
@@ -69,14 +69,14 @@ Propiedades Fundamentales
 * ... y más!
 
 Estándares Implementados
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 * OGC Web Map Context (WMC) 1.1.0 
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.mapbender.org/ 
 
@@ -92,6 +92,6 @@ Detalles
 
 
 Guía de inicio rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Guía de inicio rápido <../quickstart/mapbender_quickstart.html>`_

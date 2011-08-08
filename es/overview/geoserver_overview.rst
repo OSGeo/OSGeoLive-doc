@@ -17,10 +17,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GeoServer
-=========
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoServer es un Servidor Web que permite servir mapas y datos de diferentes 
 formatos para aplicaciones Web, ya sean clientes Web ligeros, o programas GIS 
@@ -44,7 +44,7 @@ GeoServer es uno de los componentes *core* de la Web Geoespacial.
   :align: right
 
 Características clave
----------------------
+--------------------------------------------------------------------------------
 
 **Servidor de datos de una variedad de orígenes de almacenamiento:**
     * Vector
@@ -83,14 +83,14 @@ Características clave
 	para la generación de imágenes. GeoWebCache se ha integrado dentro de GeoServer.
 
 Standares Implementados
------------------------
+--------------------------------------------------------------------------------
 
 * Soporta numerosos estándares  (OGC)
 
 * WMS, WFS transaccional, WCS, Filter Encoding, SLD, GML
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://geoserver.org/display/GEOS/Welcome
 

@@ -12,10 +12,10 @@
 
 
 52ºNorth SOS
-=============
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 El `Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>`_ 
 52ºNorth puede leer y guardar datos actuales o archivados de sensores remotos in-situ. Un sensor puede ser una cámara de un satélite o el medidor de caudal de un río.
@@ -26,7 +26,7 @@ El `Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>`
   :align: right
 
 Características
----------------
+--------------------------------------------------------------------------------
 
 La versión actual de 52ºNorth SOS (version 3.1.1) se rige por el núcleo, transacciones y partes del èrfil mejorjardo de la especificación SOS. La versión actual lleva el esquema más recieciente (versión 1.0.0) y las siguientes operaciones:
 
@@ -53,12 +53,12 @@ La versión actual de 52ºNorth SOS (version 3.1.1) se rige por el núcleo, tran
 * Un navegador proporciona consultas XML de todas las operaciones disponibles.
 
 Estándares
----------------------
+--------------------------------------------------------------------------------
 
 * `Servicio Observación Sensor (SOS) OGC <http://www.ogcnetwork.net/SOS>`_
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 * **Dirección electrónica:** http://52north.org/communities/sensorweb/sos
 
@@ -77,7 +77,7 @@ Detalles
 * **Página de la comunidad:** http://52north.org/communities/sensorweb/
 
 Guía rápida
-------------
+--------------------------------------------------------------------------------
 
 * `Documentación de la guía rápida <../quickstart/52nSOS_quickstart.html>`_
 

@@ -4,29 +4,29 @@
    contain the root `toctree` directive.
 
 |osgeo-live-version| Inhaltsverzeichnis
-=======================================
+================================================================================
 
 Browser Anwendungen
--------------------
+--------------------------------------------------------------------------------
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser GIS Client
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
 
 Krisenmanagement
-----------------
+--------------------------------------------------------------------------------
 * :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Katastrophenmanagement
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Kartendarstellung und Zeitachsen für Ereignisse
 
 Datenbanken
------------
+--------------------------------------------------------------------------------
 * :doc:`postgis_overview` - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Räumliche Datenbank
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Leichtgewichtige Datenbank
 * :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensionale Datenbank für Rasterdaten
 * :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing für PostGIS
 
 Desktop GIS
------------
+--------------------------------------------------------------------------------
 * :doc:`qgis_overview` - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
@@ -41,7 +41,7 @@ Desktop GIS
 * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Meeresboden Kartierung
 
 Navigation und Karten
----------------------
+--------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - 3D Desktop Globus
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Dartelleung von Seekarten und GPS
@@ -51,7 +51,7 @@ Navigation und Karten
 * :doc:`zygrib_overview` - Wettervorhersagekarten
 
 GIS Werkzeuge
--------------
+--------------------------------------------------------------------------------
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
 * :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Werkzeuge zur räumlichen Datentransformation
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Kartographisches Rendering
@@ -61,7 +61,7 @@ GIS Werkzeuge
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
 
 Internet Dienste
-----------------
+--------------------------------------------------------------------------------
 * :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
@@ -76,17 +76,17 @@ Internet Dienste
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
 Daten
------
+--------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - freie Geodaten
 
 GIS Bibliotheken
-----------------
+--------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`metacrs_overview` - Transformation von Daten zwischen Korrdinatensystemen
 * :doc:`liblas_overview`  - libLAS LiDAR Datenzugriffe
 
 Ausführbare Programme für Apple und Windows
--------------------------------------------
+--------------------------------------------------------------------------------
 * `Programme für Microsoft Windows <../../WindowsInstallers/>`_
 * `Programme für Apple OSX <../../MacInstallers/>`_
 

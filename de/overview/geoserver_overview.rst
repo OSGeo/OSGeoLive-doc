@@ -16,7 +16,7 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GeoServer
-=========
+================================================================================
 
 Internet Dienste
 ~~~~~~~~~~~~~~~~ 
@@ -37,7 +37,7 @@ GeoServer stellt eine Kernkomponente räumlicher Webanwendungen dar.
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 **Server Daten verschiedener Datenquellen:**
     * Vektor
@@ -64,14 +64,14 @@ Kernfunktionen
     `GeoWebCache <http://geowebcache.org/>`_ ist ein WMS Kachelungs-Client. GeoWebCache fungiert als Proxy Server zwischen einem Karten-Client und einem Karten-Server, wobei Karten beim Anfordern gespeichert werden, redundante Anfragen werden umgangen und es wird ein großer Anteil der Prozessierungszeit eingespart. GeoWebCache wurde in GeoServer integriert.
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards
 
 * WMS, WFS-T (transaktional), WCS, :doc:`Filter Encoding <../standards/fe_overview>`, :doc:`SLD <../standards/sld_overview>`,  :doc:`GML <../standards/gml_overview>`
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://geoserver.org/display/GEOS/Welcome
 
@@ -86,6 +86,6 @@ Details
 **Support:** http://geoserver.org/display/GEOS/Commercial+Support
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/geoserver_quickstart>`

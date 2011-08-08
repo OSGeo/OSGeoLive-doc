@@ -12,10 +12,10 @@
 
 
 Mapnik
-======
+================================================================================
 
 Kartographisches Rendering
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik ist ein Toolkit für die Erstellung von sehenswerten Landkarten, mit 
 sauberen und weichen Kanten, ermöglicht durch qualitativ hochwertige Grafiken 
@@ -42,7 +42,7 @@ ausschließlich, angestrebt.
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.mapnik.org/
 
@@ -55,7 +55,7 @@ Details
 **API Schnittstellen:** C++, Python
 
 Quickstart
-------------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/mapnik_quickstart>`
 

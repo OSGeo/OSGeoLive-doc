@@ -18,10 +18,10 @@
 
 
 GRASS GIS
-=========
+================================================================================
 
 Kompletny GIS
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GRASS (ang. Geographic Resources Analysis Support System) jest Systemem Informacji Geograficznej (GIS) dostarczającym potężnych silników do przetwarzania danych rastrowych, wektorowych oraz przeprowadzania analiz przestrzennych w jednym zintegrowanym pakiecie oprogramowania. System GRASS posiada narzędzia do modelowania przestrzennego, wizualizacji danych rastrowych i wektorowych, zarządzania i analiz  danych przestrzennych, przetwarzania obrazów satelitarnych i zdjęć lotniczych. Pozwala również na tworzenie wyrafinowanych prezentacji graficznych oraz map. GRASS jest przetłumaczony na 20 języków, a także obsługuje wiele formatów danych.
 
@@ -39,13 +39,13 @@ Składa się z ponad 400 wbudowanych modułów do analiz. Dodatkowo, na stronach
 .. _GRASS: http://grass.osgeo.org
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 * Powiedz czego Ci trzeba, na pewno znajdziesz tu odpowiednie narzędzie.
 * Przejrzyj `kolekcję zrzutów ekranu <http://grass.osgeo.org/screenshots/>`_.
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://grass.osgeo.org
 
@@ -60,7 +60,7 @@ Szczegóły
 **Wsparcie:** http://grass.osgeo.org/community/
 
 Szybkie wprowadzenie
---------------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/grass_quickstart.html>`_
 

@@ -12,10 +12,10 @@
 
 
 MapTiler
-========
+================================================================================
 
 Publikacja map
---------------
+--------------------------------------------------------------------------------
 
 MapTiler jest desktopową aplikacją służącą do tworzenia kafli map 
 i natychmiastowej publikacji map rastrowych. Dane przestrzenne są 
@@ -35,7 +35,7 @@ MapTiler jest wieloplatformową aplikacja desktopową. Instalatory są dostępne
 na systemy Windows, Mac OS X, są też pakiety na system Linux (Debian/Ubuntu).
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 * Wsparcie dla popularnych API Javascript: OpenLayers, Google Maps API
 * Nie jest potrzebna żadna dodatkowa instalacja oprogramowania serwerowego
@@ -49,7 +49,7 @@ ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG itd...
 lub na klastrze Amazon EC2 
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://www.maptiler.org/
 
@@ -64,7 +64,7 @@ Szczegóły
 **Wsparcie komercyjne i aplikacje:** http://www.maptiler.com/
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/maptiler_quickstart.html>`_
 

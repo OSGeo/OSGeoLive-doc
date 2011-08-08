@@ -20,10 +20,10 @@
 
 
 GeoMoose
-========
+================================================================================
 
 Web GIS Portal
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoMOOSE is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and related non-spatial data within municipal and local councils (from which GeoMoose originated).  It extends the functionality of MapServer and OpenLayers to provide built in services, like drill-down identify operations for viewing and organising many layers, selection operations and dataset searches.
 
@@ -37,7 +37,7 @@ The user interface is easily configurable, and additional services can be added 
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Distributed data maintenance amongst multiple owners.
 * Access WMS services.
@@ -51,13 +51,13 @@ Core Features
 * PDF printing.
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 * WMS
 
 .. Cameron Comment: Is WFS or WFS-T supported?
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.geomoose.org/
 
@@ -73,7 +73,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`
 

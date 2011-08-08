@@ -12,10 +12,10 @@
 
 
 Prune
-=====
+================================================================================
 
 GPS Track-Editing
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Prune <http://activityworkshop.net/software/prune/>`_ is a tool for viewing,
 editing and converting coordinate data from GPS systems.  It uses OpenStreetMap
@@ -30,7 +30,7 @@ Prune runs on Mac OSX, Windows and Linux, and is available
 in over ten different languages.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
@@ -47,7 +47,7 @@ Core Features
 * Creation of charts such as altitude against distance, speed against time
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://activityworkshop.net/software/prune/
 
@@ -59,7 +59,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/prune_quickstart>`
 

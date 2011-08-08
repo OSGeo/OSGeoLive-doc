@@ -13,10 +13,10 @@
 
 
 Ushahidi
-========
+================================================================================
 
 Incident Timeline & Mapping
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
 platform that allows anyone to gather distributed data via SMS, email or 
@@ -41,7 +41,7 @@ around the world.
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 * Interactive map.
 * Timeline.
 * Ability to subscribe to report alerts based on proximity.
@@ -60,12 +60,12 @@ Core Features
 * Cache.
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ushahidi.com
 
@@ -81,7 +81,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/ushahidi_quickstart>`
 

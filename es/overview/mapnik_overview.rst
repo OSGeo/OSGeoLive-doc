@@ -12,10 +12,10 @@
 
 
 Mapnik
-======
+================================================================================
 
 Motor de renderizado cartográfico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik es una herramienta para el renderizado de bonitos mapas, con bordes de geometrías limpios y suaves, provisto de un sistema gráfico con anti-aliasing de calidad, posicionamiento inteligente de etiqueas, y simbolización SVG escalable. La mayor fama de mapnik viene por ser utilizado como render de la capa principal de Open Street Map.
 
@@ -34,7 +34,7 @@ Mapnik es multiplataforma. Los paquetes están disponibles para la mayoría de l
 
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.mapnik.org/
 
@@ -49,7 +49,7 @@ Detalles
 
 
 Guía rápida
------------
+--------------------------------------------------------------------------------
 
 * `Documentación de inicio rápido <../quickstart/mapnik_quickstart.html>`_
 

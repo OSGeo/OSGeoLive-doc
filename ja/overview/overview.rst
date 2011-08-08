@@ -4,29 +4,29 @@
    contain the root `toctree` directive.
 
 |osgeo-live-version| コンテンツ
-==========================
+================================================================================
 
 ブラウザクライアント
----------------
+--------------------------------------------------------------------------------
 * :doc:`openlayers_overview` - [:doc:`クイックスタート <../quickstart/openlayers_quickstart>`] - ブラウザ上で動作するGISクライアント
 * :doc:`geomajas_overview` - [:doc:`クイックスタート <../quickstart/geomajas_quickstart>`] -ブラウザ上で動作するGISクライアント
 * :doc:`mapbender_overview` - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - 地理空間情報のフレームワーク
 * :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングアプリケーション開発のフレームワーク
 
 災害マッピング
------------------
+--------------------------------------------------------------------------------
 * :doc:`sahana_overview` - [:doc:`クイックスタート <../quickstart/sahana_quickstart>`] - 災害マネージメント
 * :doc:`ushahidi_overview` - [:doc:`クイックスタート <../quickstart/ushahidi_quickstart>`] - イベントのための地図とスケジュール管理
 
 データベース
----------
+--------------------------------------------------------------------------------
 * :doc:`postgis_overview`  - [:doc:`クイックスタート <../quickstart/postgis_quickstart>`] - 地理空間情報データベース
 * :doc:`spatialite_overview` - [:doc:`クイックスタート <../quickstart/spatialite_quickstart>`] - 動作の軽いデータベース
 * :doc:`rasdaman_overview` - [:doc:`クイックスタート <../quickstart/rasdaman_quickstart>`] - 複数次元対応のラスタデータベース
 * :doc:`pgrouting_overview` - [:doc:`クイックスタート <../quickstart/pgrouting_quickstart>`] - データベース上でルート検索
 
 デスクトップ GIS
------------
+--------------------------------------------------------------------------------
 * :doc:`qgis_overview` - [:doc:`クイックスタート <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - [:doc:`クイックスタート <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`クイックスタート <../quickstart/gvsig_quickstart>`]
@@ -41,7 +41,7 @@
 * :doc:`mb-system_overview` - [:doc:`クイックスタート <../quickstart/mb-system_quickstart>`] - 海底マッピング
 
 地図とナビゲーション
--------------------
+--------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション
 * :doc:`marble_overview` - [:doc:`クイックスタート <../quickstart/marble_quickstart>`] - 球面上の地図を回転
 * :doc:`opencpn_overview` - [:doc:`クイックスタート <../quickstart/opencpn_quickstart>`] - GPSを使った海図プロッタ
@@ -51,7 +51,7 @@
 * :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - 気象予想図
 
 位置情報
--------------
+--------------------------------------------------------------------------------
 * :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - データの統合
 * :doc:`gdal_overview`  - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間情報の変換ツール
 * :doc:`gmt_overview` - [:doc:`クイックスタート <../quickstart/gmt_quickstart>`] - Cartographic Rendering
@@ -61,7 +61,7 @@
 * :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
 
 Web サービス
-------------
+--------------------------------------------------------------------------------
 * :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`]
@@ -76,17 +76,17 @@ Web サービス
 * :doc:`tinyows_overview` - WFS-T Service
 
 データ
-----
+--------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - 地理空間情報データセット
 
 地理情報ライブラリ
---------------------
+--------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Java GIS ツールキット
 * :doc:`metacrs_overview` - 座標形参照、変換システム
 * :doc:`liblas_overview`  - libLAS LiDAR データアクセス
 
 Windows 及び Apple インストーラー
-----------------------------
+--------------------------------------------------------------------------------
 * `Microsoft Windows インストーラー <../../WindowsInstallers/>`_
 * `Apple OSX インストーラー <../../MacInstallers/>`_
 

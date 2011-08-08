@@ -17,7 +17,7 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GeoTools
-========
+================================================================================
 
 GeoTools ist eine Open Source Bibliothek (LGPL) basierend auf Java, mit deren Hilfe man standardkonform räumliche Daten manipulieren und die Datenstrukturen ansprechen kann, die auf Open Geospatial Consortium (OGC) Spezifikationen beruhen.
 
@@ -30,7 +30,7 @@ GeoTools wird von verschiedensten Projekten verwendet, angefangen von Web Servic
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Kernfunktionalität
-------------------
+--------------------------------------------------------------------------------
 
 * Definition von Schnittstellen für zentrale räumliche Konzepte und Datenstrukturen
   
@@ -73,7 +73,7 @@ Kernfunktionalität
   * Einige Highlights sind die Unterstützung für Swing (wird in den Tutorials verwendet), Eclipse SWT, Unterstützung für Verarbeitungen in Prozessketten im Web (WPS) und lokal. Zusätzliche Symboliken, weitere Datenformate, Erzeugen von Gittern sowie einige Implementierungen für ISO Geometrien.
 
 Unterstützte Formate
---------------------
+--------------------------------------------------------------------------------
 
 * Rasterdaten und Datenzugriffe:
   
@@ -95,7 +95,7 @@ Unterstützte Formate
   Weitere Geometrie-, Filter- und Stil- Parser/Kodierer sind für DOM und SAX basierte Applikationen verfügbar.
   
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) Standards:
 
@@ -107,7 +107,7 @@ Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) Sta
 * ISO 19107 Geometry
 
 Details
--------
+--------------------------------------------------------------------------------
  
 **Webseite:** http://geotools.org/
 
@@ -122,6 +122,6 @@ Details
 **Support:** `Kontakt und Unterstützung (englisch) <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * `Quickstart Dokumentation (englisch) <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_

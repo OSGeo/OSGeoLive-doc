@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Web Coverage Service (WCS)
-==========================
+================================================================================
 
 .. Βοήθημα:
   1 paragraph or 2 defining what the standard is.
@@ -48,7 +48,7 @@ Web Coverage Service (WCS)
 Όπως και με τά υπόλοιπα πρότυπα του OGC, υπάρχουν πολλά εξαιρετικά παραδείγματα υπηρεσιών WCS σε χρήση. Ένα τέτοιο παράδειγμα είναι η υπηρεσία WCS του NDBC High Frequency (HF) Radar η οποία έχει αναπτυχθεί και δημοσιευτεί από την υπηρεσία NOAA των ΗΠΑ (http://hfradar.ndbc.noaa.gov/). Το ραντάρ HF χρησιμοποιείται για την τηλεπισκοπική παρατήρηση και μέτρηση των ρευμάτων των ωκεανών. Ένα άλλο παράδειγμα είναι η υπηρεσία WCS της NASA για πρόσβαση σε δεδομένα του συστήματος AIRS (Atmospheric Infrared Sounder) (http://idn.ceos.org/KeywordSearch/Metadata.do?Portal=webservices&KeywordPath=[Project%3A+Short_Name%3D%27EOS%27]&EntryId=NASA_GES_DISC_AIRS_Atmosphere_Data_Web_Coverage_Service&MetadataView=Full&MetadataType=1&lbnode=mdlb1). Αυτή είναι μια υπηρεσία WCS από τις διαθέσιμες υπηρεσίες του κέντρου δεδομένων και πληροφοριών Goddard που παρέχουν ατμοσφαιρικά δεδομένα επιπέδου 3 που προκύπτουν από το δορυφόρο Aqua της NASA.
 
 Δείτε επίσης
-------------
+--------------------------------------------------------------------------------
 
 .. Βοήθημα:
   Describe Similar standard

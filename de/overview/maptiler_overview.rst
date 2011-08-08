@@ -12,10 +12,10 @@
 
 
 MapTiler
-========
+================================================================================
 
 Karten-Publishing
------------------
+--------------------------------------------------------------------------------
 
 MapTiler ist eine Desktop-Anwendung für schnelles Rasterkarten-Publishing durch 
 das Erstellen von Kartenkacheln (Tiles). Geodaten werden umgewandelt zu Tiles,
@@ -37,7 +37,7 @@ verfügbar für Windows und Mac OS X, Pakete sind vorhanden für Linux (Debian/U
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Unterstützung bekannter JavaScript-APIs: OpenLayers, Google Maps API 
 * Keine zusätzliche Server-Software-Installation erforderlich 
@@ -49,7 +49,7 @@ Kernfunktionen
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.maptiler.org/
 
@@ -64,6 +64,6 @@ Details
 **Kommerzieller Support und Anwendungen:** http://www.maptiler.com/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/maptiler_quickstart>`

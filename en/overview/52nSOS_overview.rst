@@ -13,10 +13,10 @@
 
 
 52°North SOS
-=============
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
 supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
@@ -28,7 +28,7 @@ be a camera on a satellite or a water level meter in a stream.
   :align: right
 
 Features
---------
+--------------------------------------------------------------------------------
 
 The current 52°North SOS (version 3.1.1) implements the core, transactional, and 
 parts of the enhanced profile of the SOS specification. The current 
@@ -57,12 +57,12 @@ release implements the latest schema version (1.0.0) and the following operation
 * A browser based client provides test XML queries for all supported operations.
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://52north.org/communities/sensorweb/sos
 
@@ -81,7 +81,7 @@ Details
 **Community Website:** http://52north.org/communities/sensorweb/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`
 

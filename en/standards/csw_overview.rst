@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Catalogue Service for the Web (CS-W)
-====================================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -53,7 +53,7 @@ There are several profiles of the current OGC CS-W model. These include:
 Much of the current work on this standard has to do with restructuring the catalogue standard so that there is a well defined, easy to implement core coupled with a well defined mechanism for expressing a variety of extensions (previously known as application profiles).
 
 See Also
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

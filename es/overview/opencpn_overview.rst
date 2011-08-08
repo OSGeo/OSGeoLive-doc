@@ -12,10 +12,10 @@
 
 
 OpenCPN
-=======
+================================================================================
 
 Programa de navegación GPS Marino
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 OpenCPN es un programa de navegación libre para su utilización en el timón de buques de todos los tipos y tamaños, también se puede usar en forma off-line para la planificación de rutas. Ha sido desarrollado por un equipo de activos marinos que lo han utilizado en condiciones reales para su prueba y refinamiento.
 
 OpenCPN presenta al usuario la posición actual del buque, velocidad y rumbo  superpuesto en la carta de navegación, la marea y las predicciones actuales. La información recibida por radio estándar vincula descripciones de la posición y la intención de otros buques puede ser mostrado también.                  
@@ -23,7 +23,7 @@ OpenCPN presenta al usuario la posición actual del buque, velocidad y rumbo  su
 Mientras el buque se mueve, nuevas cartas son seleccionadas y desplegadas con la resolución y detalle especificada por el usuario. Además, el usuario puede introducir rutas y puntos de recalada (waypoints) lo cual sirve como interfaz para un piloto automático externo para seguimiento de un rumbo preciso.
 
 Principales Características
----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
@@ -43,7 +43,7 @@ Sporte OpenCPN:
 * GRIB weather data overlay
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.opencpn.org
 
@@ -57,7 +57,7 @@ Detalles
 
 
 Inicio Rápido
--------------
+--------------------------------------------------------------------------------
 
 * `Documentación de Inicio Rápido <../quickstart/opencpn_quickstart.html>`_
 

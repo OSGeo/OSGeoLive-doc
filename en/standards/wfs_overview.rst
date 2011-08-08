@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Web Feature Service (WFS)
-=========================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -55,7 +55,7 @@ All WFSs support input and output data using Geography Markup Language (GML). So
 Users typically interact with WFSs through browser based or desktop geospatial clients, which allows them to access vector map layers from external agencies, over the Internet. An excellent example of using a WFS service to provide open and interoperable access to large amounts of geospatial content via a government portal is the USGS Framework Web Feature Services offered in support of the development of the National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.gov/). Selected US Framework map layers are available as WFS layers and also available through a browser interface provided by the USGS.
 
 See Also
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

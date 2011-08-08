@@ -18,10 +18,10 @@
 
 
 OSSIM
-=====
+================================================================================
 
 Procesamiento de imágenes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 El software de imágenes de mapas Open Source (en Inglés *Open Source Software Image Map*), OSSIM, es un motor de alto rendimiento para *Remote Sensing*, procesado de imágenes, Sistemas de Información Geográfica y Fotogrametría.
 
@@ -32,7 +32,7 @@ Se han desarrollado muchas utilidades de línea de comando, aplicaciones de inte
 
 
 Características clave
-----------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
@@ -53,7 +53,7 @@ Características clave
 * Editores de ecuaciones
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ossim.org/
 
@@ -69,7 +69,7 @@ Detalles
 
 
 Guía rápida
-------------
+--------------------------------------------------------------------------------
 
 * `Documentación de inicio rápido <../quickstart/ossim_quickstart.html>`_
 

@@ -4,29 +4,29 @@
    contain the root `toctree` directive.
 
 Περιεχόμενα |osgeo-live-version|
-================================
+================================================================================
 
 Λογισμικά διαδικτύου (Browser Clients)
---------------------------------------
+--------------------------------------------------------------------------------
 * :doc:`openlayers_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`geomajas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
 * :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας
 
 Διαχείριση κρίσεων
-------------------
+--------------------------------------------------------------------------------
 * :doc:`sahana_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/sahana_quickstart>`] - Διαχείριση καταστροφών
 * :doc:`ushahidi_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ushahidi_quickstart>`] - Χαρτοχράφηση και δημιουργία χρονοσειρών για γεγονότα
 
 Βάσεις Δεδομένων
-----------------
+--------------------------------------------------------------------------------
 * :doc:`postgis_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/postgis_quickstart>`] Χωρική Βάση Δεδομένων
 * :doc:`spatialite_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/spatialite_quickstart>`] Βάση Δεδομένων με αρχεία
 * :doc:`rasdaman_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/rasdaman_quickstart>`] - Πολυδιάστατη Βάση Πινακοποιημένων Δεδομένων
 * :doc:`pgrouting_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/pgrouting_quickstart>`] - Δρομολόγηση για την PostGIS
 
 Λογισμικά GIS
--------------
+--------------------------------------------------------------------------------
 * :doc:`qgis_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gvsig_quickstart>`]
@@ -41,7 +41,7 @@
 * :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
 
 Πλοήγηση και Χάρτες
--------------------
+--------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart>`] - Πλοήγηση GPS
 * :doc:`marble_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Περιστρεφόμενη Υδρόγειος
 * :doc:`opencpn_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart>`] - Ναυτικός Πλοηγός GPS
@@ -51,7 +51,7 @@
 * :doc:`zygrib_overview` -  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart>`] - Χάρτες πρόγνωσης καιρού
 
 Χωρικά Εργαλεία
----------------
+--------------------------------------------------------------------------------
 * :doc:`geokettle_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart>`] - Ενοποίηση δεδομένων
 * :doc:`gdal_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart>`] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
 * :doc:`gmt_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart>`] - Χαρτογραφική Σύνθεση
@@ -61,7 +61,7 @@
 * :doc:`R_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/R_quickstart>`] - Στατιστικός Προγραμματισμός
 
 Διαδικτυακές Υπηρεσίες
-----------------------
+--------------------------------------------------------------------------------
 * :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
@@ -76,17 +76,17 @@
 * :doc:`tinyows_overview` - WFS-T Service
 
 Δεδομένα
---------
+--------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
 
 Γεωχωρικές Βιβλιοθήκες
-----------------------
+--------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
 * :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
 * :doc:`liblas_overview`  - libLAS LiDAR Data Access
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
---------------------------------------------------------------------
+--------------------------------------------------------------------------------
 * `Προγράμματα εγκατάστασης Microsoft Windows <../../WindowsInstallers/>`_
 * `Προγράμματα εγκατάστασης Apple OSX <../../MacInstallers/>`_
 

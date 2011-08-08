@@ -19,10 +19,10 @@
 
 
 gvSIG Desktop
-==============
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 gvSIG_ is a Geographic Information System (GIS) desktop application
 designed for capturing, storing, handling, analysing and deploying any kind of
@@ -48,7 +48,7 @@ gvSIG is known for:
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Provides common GIS tools like data loading, map navigation, query 
   map information like alphanumeric information, distance measurement, thematic
@@ -93,7 +93,7 @@ Core Features
 
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 
@@ -104,7 +104,7 @@ Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 * Search on gazetteers using WFS-G recommendation
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.gvsig.org/
 
@@ -120,6 +120,6 @@ Details
 .. _gvSIG: http://www.gvsig.org
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`

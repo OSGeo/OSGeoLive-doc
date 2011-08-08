@@ -11,10 +11,10 @@
 
 
 Prune
-=====
+================================================================================
 
 Software de edición de Tracks GPS 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Prune <http://activityworkshop.net/software/prune/>`_ es una herramienta para la visualización, edición y conversión de datos de coordenadas provenientes de sistemas GPS.  Utiliza las imágenes de OpenStreetMap para mostrar los tracks y waypoints registrados, y proporciona una gran variedad de herramientas que permiten edicion y recorte de puntos.  También cuenta con funciones para correlacionar fotos a las coordenadas utilizando el *timestamp* de las fotos.
 
@@ -23,7 +23,7 @@ Prune utiliza Gpsbabel, si esta disponible, para la lectura directa de datos del
 Prune corre en Mac OSX, Windows y Linux, y está disponible en 10 idiomas diferentes.
 
 Características clave
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/prune_barcelona.png
   :scale: 50 %
@@ -40,7 +40,7 @@ Características clave
 * Creación de gráficos del tipo altitud frente a distancia, velocidad frente al tiempo
 
 Detalles
--------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://activityworkshop.net/software/prune/
 
@@ -52,7 +52,7 @@ Detalles
 
 
 Guía rápida
-----------
+--------------------------------------------------------------------------------
 
 * `Documentación de inicio rápido <../quickstart/prune_quickstart.html>`_
 

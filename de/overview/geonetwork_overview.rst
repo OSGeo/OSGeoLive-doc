@@ -17,10 +17,10 @@
   :target: http://www.osgeo.org
 
 GeoNetwork
-==========
+================================================================================
 
 Metadaten Katalog
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoNetwork OpenSource ist eine Kataloganwendung für räumliche Datenquellen. Die Anwendung bietet leistungsstarke Bearbeitungs- und Suchfunktionen für Metadaten sowie eine integrierte interaktive Kartenkomponente und basiert auf offenen Standards.
 
@@ -30,7 +30,7 @@ GeoNetwork OpenSource ist eine Kataloganwendung für räumliche Datenquellen. Di
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 * Direkte Suche in lokalen und verteilten Metadatenkatalogen
 * Hoch- und Runterladen von Daten, Grafiken, Dokumenten, PDF-Dateien und anderen Inhalten
 * Interaktiver Web Map Viewer zur Kombination von Web Map Services (WMS) von weltweit verteilten Servern 
@@ -44,7 +44,7 @@ Kernfunktionen
 * Anzeige eines zufälligen Metadatensatzes auf der Startseite
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
@@ -58,7 +58,7 @@ Implementierte Standards
  * FGDC
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://geonetwork-opensource.org
 
@@ -73,6 +73,6 @@ Details
 **Support:** http://www.osgeo.org/search_profile
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/geonetwork_quickstart>`

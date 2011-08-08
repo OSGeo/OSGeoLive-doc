@@ -11,10 +11,10 @@
   :target: http://www.orfeo-toolbox.org/
 
 OTB
-===
+================================================================================
 
 Procesamiento de imágenes
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Acrónimo del inglés de `ORFEO Toolbox Library (OTB)` es una librería para el 
 procesamiento de imágenes de alto rendimiento. Es utilizado principalmente para 
@@ -29,7 +29,7 @@ Se basa en la librería ITK para el procesamiento de imágenes médicas y es dis
 como código de fuente abierta.
 
 Características principales
----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.png
   :scale: 80 %
@@ -53,7 +53,7 @@ Características principales
 * detección de cambios.
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.orfeo-toolbox.org/
 
@@ -70,7 +70,7 @@ Detalles
 
 
 Guía de inicio rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Documentación de Guía de incio rápido <../quickstart/otb_quickstart.html>`_
 

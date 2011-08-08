@@ -12,10 +12,10 @@
 
 
 Marble
-======
+================================================================================
 
 Wirtualny glob 3D
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Marble jest programem projektu edukacyjnego KDE o otwartym kodzie źródłowym podobnym
 do `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ lub
@@ -25,7 +25,7 @@ włączenia widżetu KDE Marble do Twojej aplikacji.
 
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/marble-history.png
   :scale: 50 %
@@ -43,7 +43,7 @@ Główne funkcje
 
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://edu.kde.org/marble/
 
@@ -59,7 +59,7 @@ Szczegóły
 
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/marble_quickstart.html>`_
 

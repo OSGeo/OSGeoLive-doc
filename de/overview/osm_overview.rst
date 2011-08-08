@@ -11,10 +11,10 @@
   :target: http://wwww.openstreetmap.org
 
 OpenStreetMap
-=============
+================================================================================
 
 Werkzeuge zur Erstellung einer freien Weltkarte
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `OpenStreetMap <http://www.openstreetmap.org>`_ hat das Ziel, freie geographische 
 Daten über Straßen, Eisenbahnen, Flüsse, Wälder, Häuser und alles andere, was 
@@ -28,7 +28,7 @@ Osm2pgsql. Darüber hinaus sind Beispieldaten und eine Reihe von JOSM Plugins en
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
@@ -42,7 +42,7 @@ Kernfunktionen
 * Widespread geo-application integration
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.openstreetmap.org
 
@@ -84,7 +84,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/osm_quickstart>`
 

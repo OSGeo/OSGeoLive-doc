@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Style Layer Descriptor (SLD)
-============================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -53,7 +53,7 @@ The ability for a human or machine client to define these rules requires a styli
 Note that in addition to portraying the output of WMS implementations, SE can also be used to portray the output of WFS implementations and implementation of the OGC Web Coverage Service (WCS) Interface Standard.
 
 See Also
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

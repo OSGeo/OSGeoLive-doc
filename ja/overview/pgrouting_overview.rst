@@ -11,10 +11,10 @@
   :target: http://www.pgrouting.org/
 
 pgRouting
-=========
+================================================================================
 
 GIS ツール
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 pgRouting は :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ 地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
 
@@ -30,7 +30,7 @@ pgRouting は :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgres
   :align: right
 
 主な機能
--------------
+--------------------------------------------------------------------------------
 
 pgRouting は以下のファンクションを提供します。
 
@@ -46,7 +46,7 @@ pgRouting は以下のファンクションを提供します。
 .. * OGC standards 準拠
 
 詳細
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.pgrouting.org
 
@@ -61,7 +61,7 @@ pgRouting は以下のファンクションを提供します。
 **Commercial Support:** http://www.pgrouting.org
 
 クイックスタート
----------------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
 

@@ -11,10 +11,10 @@
   :target: http://www.geokettle.org/
 
 GeoKettle
-=========
+================================================================================
 
 Data Integration
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoKettle es una versión de `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_ con capacidad de tratamiento de datos espaciales. Es una potente herramienta ETL (siglas en inglés de Extract, Transform and Load: Extracción, Transformación y Carga) orientada al uso de metadatos y con funcionalidades espaciales dedicada a la integración de diversos orígenes de datos para la construcción y/o actualización de bases de datos espaciales y almacenes de datos espaciales.
 
@@ -30,7 +30,7 @@ En el ámbito geoespacial Geokettle puede ser comparado con FME, una herramienta
   :align: right
 
 Características Principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Extracción de información de: 
 
@@ -80,12 +80,12 @@ Características Principales
   * Ecosistema de plugins
 
 Estándares implementados
-------------------------
+--------------------------------------------------------------------------------
 
 * Cumple con los estándares SFS del OGC
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.geokettle.org/
 
@@ -101,6 +101,6 @@ Detalles
 
 
 Guía de inicio rápido
----------------------
+--------------------------------------------------------------------------------
     
 * `Guía de inicio rápido <../quickstart/geokettle_quickstart.html>`_

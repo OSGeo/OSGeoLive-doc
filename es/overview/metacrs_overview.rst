@@ -18,10 +18,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 MetaCRS
-=======
+================================================================================
 
 Transformaciones entre Sistemas de referencia de coordenadas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. comentario: ¿Podría alguien conseguir una imagen? Quizás un collage de diferentes proyecciones. Asegurarse de que la imagen tiene los derechos para incluirse en un documento "creative commons".
 
@@ -43,7 +43,7 @@ Los subproyectos que están englobados dentro de MetaCRS son:
 * `SpatialReference.org <http://spatialreference.org/>`_  - página web donde obtener definiciones de los sistemas de coordenadas.
 
 Características básicas
------------------------
+--------------------------------------------------------------------------------
 
 * Proporciona transformaciones de un sistema de referencia a otro.
 * Incluye transformaciones entre datums.
@@ -51,21 +51,21 @@ Características básicas
 
 
 Estándares implementados
-------------------------
+--------------------------------------------------------------------------------
 
 Los proyectos normalmente usan las definiciones de los sistemas de coordenadas a partir del 
 `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ y definidas en
 formato Well Known Text (WKT).
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 .. comentario: Para Proj4js debería haber sólo una página web. He eliminado la referencia (los usuarios la pueden encontrar en la página web principal)
 .. comentario: Se necesita trabajar sobre la licencia de Proj4J
 
 
 PROJ.4
-------
+--------------------------------------------------------------------------------
 
   **Página web:**  http://trac.osgeo.org/proj/
   
@@ -80,7 +80,7 @@ PROJ.4
   **Ayuda:** http://lists.maptools.org/mailman/listinfo/proj
 
 Proj4js
--------
+--------------------------------------------------------------------------------
 
   **Página web:**  http://trac.osgeo.org/proj4js/ and http://proj4js.org
   
@@ -95,7 +95,7 @@ Proj4js
   **Ayuda:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 CS-Map
-------
+--------------------------------------------------------------------------------
 
   **Página web:**  http://proj4js.org
   
@@ -110,7 +110,7 @@ CS-Map
   **Ayuda:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 GeoTIFF/libgeotiff
-------------------
+--------------------------------------------------------------------------------
 
   **Página web:**  http://trac.osgeo.org/geotiff/
   
@@ -121,7 +121,7 @@ GeoTIFF/libgeotiff
   **Ayuda:** http://lists.maptools.org/mailman/listinfo/geotiff
   
 Proj4J
-------
+--------------------------------------------------------------------------------
 
   **Página web:**  http://trac.osgeo.org/proj4j/
   
@@ -137,6 +137,6 @@ Proj4J
   
 
 Guía rápida
------------
+--------------------------------------------------------------------------------
     
 * `Documentación de la Guía rápida <../quickstart/metacrs_quickstart.html>`_

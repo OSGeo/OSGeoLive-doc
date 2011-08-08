@@ -12,10 +12,10 @@
 
 
 osgEarth
-========
+================================================================================
 
 Terrain Rendering-Bibliothek
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 osgEarth ist eine Bibliothek für das Echtzeit-Rendering von Terrains für OpenSceneGraph_ (OSG), einer leistungsfähigen quelloffenen 3D-Grafik Bibliothek.
 In einer einfachen XML-Datei können Raster-, Höhen- und Vektrodaten konfiguriert und in eine beliebige OSG-Applikation eingebunden werden.
@@ -29,7 +29,7 @@ osgEarth unterstützt eine Vielzahl an Datenquellen und wird mit zahlreichen Bei
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 osgEarth ermöglicht das einfache Kreieren von skalierbaren Terrainmodellen:
 
@@ -66,7 +66,7 @@ Unterstützte Daten:
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://osgearth.org/
 
@@ -81,6 +81,6 @@ Details
 **Commercial Support:** http://osgearth.org/#ProfessionalServices
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart (English) <../../en/quickstart/osgearth_quickstart>`

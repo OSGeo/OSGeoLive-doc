@@ -11,12 +11,12 @@
   :target: http://rasdaman.org
 
 
-********
+
 Rasdaman
-********
+================================================================================
 
 Multi-Dimensionale Raster-Datenbank
-===================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Rasdaman erweitert relationale Standard-Datenbanken um Speicherung und Retrieval von multi-dimensionalen Rasterdatan (also "Arrays") unbegrenzeter Größe unter Verwendung einer SQL-artigen Raster-Anfragesprache mit hocheffektiver server-seitiger Optimierung. Die Daten werden in einer PostgreSQL-Datenbank abgelegt, sodass sich eine enge Informationsintegration ergibt. Ein rasdaman-Treiber ist Bestandteil von GDAL (Geospatial Data Abstraction Library) für Geodatenformate, eine MapServer-Anbindung ist in beta verfügbar.
 Zugriffsschnittstellen umfassen - neben der rasdaman Raster-Anfragesprache - OGC WCS, WCPS und WPS sowie C++ und Java APIs.
@@ -31,7 +31,7 @@ Die rasdaman-Technologie ist stabil und ausgereift, sie ist seit mehr als 10 Jah
   :align: right
 
 Wichtigste Merkmale
--------------------
+--------------------------------------------------------------------------------
 
     * echte Multi-Dimensionalität - von 1D über 2D, 3D, 4D und darüber hinaus
     * mächtige, flexible Anfragesprache für Aufgaben wie Visualisierung, Klassifikation, Konvolutionen/Kernel, Aggregation und viele weitere Geo-Funktionen
@@ -41,12 +41,12 @@ Wichtigste Merkmale
     * volle Informationsintegration der Rasterdaten mit allen anderen Geodaten in ein und derselben PostgreSQL-Datenbank
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
     * OGC WCS 2.0, WCS-T 1.4, WCPS 1.0, WPS 1.0
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** www.rasdaman.org
 

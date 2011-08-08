@@ -11,10 +11,10 @@
   :target: http://mapproxy.org/
 
 MapProxy
-========
+================================================================================
 
 Proxy WMS & tile services
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
@@ -29,7 +29,7 @@ MapProxy is used for the German broadband atlas to deliver maps for thousands of
 
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/mapproxy_demo.png
   :width: 796
@@ -79,7 +79,7 @@ Other features:
   * many more
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 MapProxy implements the following open specifications:
 
@@ -90,7 +90,7 @@ MapProxy implements the following open specifications:
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://mapproxy.org/
 
@@ -104,6 +104,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`

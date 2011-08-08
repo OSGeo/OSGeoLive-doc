@@ -12,10 +12,10 @@
 
 
 Natural Earth
-=============
+================================================================================
 
 Datos del mapa
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Natural Earth proporciona a cartógrafos una solución lista para ser usada para la creación de mapas mundiales, regionales y de país a escalas 1:10.000.000, 1:50.000.000 y 1:110.000.000 Se incluyen capas de información tanto políticas (fronteras administrativas) como físicas (naturales) y las capas vectoriales se alinean perfectamente con los datos raster incluidos.
 
@@ -27,7 +27,7 @@ Natural Earth resuelve el problema común al que se enfrentan muchos cartógrafo
   :align: right
 
 Características principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Las capas vectoriales incluyen nombres y otros atributos        
 * Los polígonos grandes están divididos para un manejo de los datos más eficiente, tales como capas de batimetría.   
@@ -37,7 +37,7 @@ Características principales
 
 
 Conjunto de datos
------------------
+--------------------------------------------------------------------------------
 
 Temas de datos vectoriales culturales:
   Incluye paises, areas en disputa, estados y provincias (divisiones administrativas de primer nivel), areas pobladas (ciudades y pueblos) Carreteras, vias de ferrocarril, areas urbanas, parques naturales y areas protegidas, grupos de países del Pacífico e indicadores de fronteras marítimas.
@@ -50,7 +50,7 @@ Temas de datos raster:
 
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Página web:** http://naturalearthdata.com
 

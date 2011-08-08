@@ -12,10 +12,10 @@
 
 
 Viking
-======
+================================================================================
 
 Uso e impresion de datos GPS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ es un
 editor y visualizador de datos GPS. Viking tiene como objetivo ser
@@ -27,7 +27,7 @@ Trabaja con datos de OpenStreetMap y otros tile servers.
 
 
 Principales funcionalidades
----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
   :scale: 40 %
@@ -51,7 +51,7 @@ Principales funcionalidades
 * Analizar la marcha en diferentes sitios, añadiendo waypoints donde olvidastes marcar alguno.
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://sourceforge.net/apps/mediawiki/viking/
 
@@ -67,7 +67,7 @@ Detalles
 
 
 Guia de Inicio rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Guia de Inicio rápido <../quickstart/viking_quickstart.html>`_
 

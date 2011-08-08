@@ -12,10 +12,10 @@
 
 
 Ushahidi
-========
+================================================================================
 
 Kartenerstellung und Zeitachse für Ereignisse
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Ushahidi <http://www.ushahidi.com/>`_ ist eine freie Open Source Plattform, die es erlaubt, verteilte Daten via SMS, Email oder Internet zusammenzutragen, und diese auf einer Landkarte oder einer Zeitachse darzustellen. Unser Ziel ist es, Werkzeuge zu erstellen für die freie Verbreitung von Informationen und größere Transparenz, und es dem Einzelnen zu erleichtern, persönliche Geschichten mitzuteilen.
 
@@ -29,7 +29,7 @@ Dieser anfängliche Einsatz von Ushahidi hatte 45000 Benutzer in Kenia, und dies
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Interaktive Landkarte.
 * Zeitachse.
@@ -42,12 +42,12 @@ Kernfunktionen
 * Seitenstatistiken und Analytik
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.ushahidi.com
 
@@ -62,6 +62,6 @@ Details
 **Support:** http://forums.ushahidi.com
 
 Quickstart
-------------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/ushahidi_quickstart>`

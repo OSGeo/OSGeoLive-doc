@@ -12,10 +12,10 @@
 
 
 52°North SOS
-============
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Der 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
 erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein Sensor kann dabei z.B. ein Satellit, eine Wetterstation oder ein Pegel an einem Fluss sein.
@@ -26,7 +26,7 @@ erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein S
   :align: right
 
 Features
---------
+--------------------------------------------------------------------------------
 
 Der aktuelle 52°North SOS (Version 3.2.0) implementiert das sogenannte “Core Profile” sowie das “Transactional Profile” der OGC SOS-Spezifikation 1.0.0. Weiterhin werden Teile des „Enhanced Profile“ unterstützt. Folgende Operationen sind verfügbar
 
@@ -53,12 +53,12 @@ Der aktuelle 52°North SOS (Version 3.2.0) implementiert das sogenannte “Core 
 * Der SOS wird zusammen mit einem Browser-basierten Test-Client ausgeliefert, welcher Beispiel-Anfragen für alle SOS-Operationen enthält.
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://52north.org/communities/sensorweb/sos
 
@@ -75,6 +75,6 @@ Details
 **Community Website:** http://52north.org/communities/sensorweb/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/52nSOS_quickstart>`

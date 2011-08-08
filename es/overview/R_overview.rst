@@ -11,10 +11,10 @@
   :target: http://cran.r-project.org
 
 Un vistazo a las tareas espaciales en R
-=========================================
+================================================================================
 
 Programa estadístico 
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 R es un programa poderoso que se usa en diversos campos para la realización de cómputos estadísticos y gráficos por ordenador pero que también es magnífico a la hora de usar datos geográficos. Las capacidades geoespaciales de R están disponibles a través de paquetes (módulos que extienden las capacidades de R) que proporcionan acceso a un elevado número de algoritmos tanto tradicionales como novedosos. A menudo estos algoritmos están disponibles en R antes que en paquetes comerciales. R y sus paquetes puede procesar puntos, lineas, polígonos o matrices de datos. Los usuarios pueden llevar a cabo una panoplia de tareas como: clasificar imágenes, hacer análisis estadísticos para inferir tanto las relaciones espaciales como los patrones de los elementos y muchas otras de las que algunas se mencionan más abajo en lo esencial del programa. Las funciones disponibles en R complementan las funciones más avanzadas de otros SIG o programas de procesamiento de imágenes.
 
@@ -28,7 +28,7 @@ R es una implementación del lenguaje de programación S y, por ello, hay un alt
   :align: right
 
 Características Principales
-----------------------------
+--------------------------------------------------------------------------------
 
 * Completo Lenguage de programación orientado a Objetos diseñado para la Estadística y otras intensivas aplicaciones matemáticas
 * Cientos de paquetes estadísticos para el análisis espacial desarrollados por la comunidad
@@ -42,7 +42,7 @@ Características Principales
 * Análisis ecológico
 
 Detalles
-----------
+--------------------------------------------------------------------------------
 
 **Website:** http://cran.r-project.org
 
@@ -56,6 +56,6 @@ Detalles
 
 
 Guía rápida
---------------
+--------------------------------------------------------------------------------
     
 * `Guía rápida <../quickstart/R_quickstart.html>`_

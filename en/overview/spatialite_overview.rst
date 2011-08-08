@@ -13,10 +13,10 @@
 
 
 SpatiaLite
-==========
+================================================================================
 
 Spatial Database
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 SpatiaLite is an SQLite_ database engine with spatial functions added. 
 
@@ -32,7 +32,7 @@ The files are also portable; the same database file will work on Windows, Linux,
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
 
@@ -52,7 +52,7 @@ The SpatiaLite extension enables SQLite to support spatial data conformant to OG
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.gaia-gis.it/spatialite/
 
@@ -66,7 +66,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`
 

@@ -13,10 +13,10 @@
 
 
 GpsDrive
-========
+================================================================================
 
 GPS Navigation Software 
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsDrive <http://www.gpsdrive.de>`_ is a car (bike, ship, plane, foot)
 navigation system. GpsDrive displays your position provided from a GPS
@@ -26,7 +26,7 @@ should be usable, as well as many USB GPSs using a binary protocol known to
 the `Gpsd <http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
@@ -46,7 +46,7 @@ Core Features
 * Kismet Wifi integration
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.gpsdrive.de
 
@@ -60,7 +60,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/gpsdrive_quickstart>`
 

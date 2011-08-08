@@ -12,10 +12,10 @@
   :target: http://52north.org/security
 
 52°North WSS
-============
+================================================================================
 
 About
------
+--------------------------------------------------------------------------------
 
 The 52North Web Security Service (WSS) lets you easily restrict access to spatial services and
 their resources using role-based permissions.
@@ -37,7 +37,7 @@ upon the defined policies. Thus, existing service implementations don't need to 
 .. Cameron comment: I suggest adding a sentence here, or in Features, noting how a user would create an access policy. Is there a web GUI and pull down lists? Or does a user create an XML file?
 
 Features
---------
+--------------------------------------------------------------------------------
 
 **Authorization**
 
@@ -58,7 +58,7 @@ Multiple user authentication methods supported, such as:
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://52north.org/communities/security
 
@@ -74,6 +74,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/52nWSS_quickstart>`

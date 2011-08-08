@@ -13,10 +13,10 @@
 
 
 Mapnik
-======
+================================================================================
 
 Cartographic rendering engine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges provided by quality anti-aliasing graphics, intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the OpenStreetMap main map layers.
 
@@ -41,7 +41,7 @@ distributions and installers are commonly used on Mac OS X and windows.
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.mapnik.org/
 
@@ -56,7 +56,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`
 

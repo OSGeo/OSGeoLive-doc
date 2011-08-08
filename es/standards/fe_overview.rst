@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Filter Encoding (FE)
-====================
+================================================================================
 
 .. Writing Tip:
   1 parrafo o 2 definen lo que es el estandar.
@@ -49,7 +49,7 @@ Se puede identificar un subconjunto de geometrías (*features*) para renderizarl
 Los criterios de filtro se pueden especificar sobre propiedades espaciales, temporales o escalares. Un ejemplo de filtro espacial es: “Encontrar todas las propiedades en el condado de *Omstead* pertencientes a *Peter Vretanos*.” Un ejemplo de filtro temporal es: “Buscar todas las presas en *Massachusetts* que se construyeron antes de 1900.” Un ejemplo de filtro escalar es: “Encuentra todos los sensores de temperatura en París que esten notificando temperaturas entre los 20 grados C. y los 24 grados C.” 
 
 Ver también
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe estandar similar

@@ -12,10 +12,10 @@
   :target: http://cran.r-project.org
 
 R Spatial Task View
-===================
+================================================================================
 
 Statistical Programming
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 R is a powerful, widely used software environment for statistical
 computing and graphics which excels at analyzing and processing
@@ -50,7 +50,7 @@ versions of S code to run on R without major code modifications.
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
 * Hundreds of community contributed add-on packages for spatial statistics
@@ -64,7 +64,7 @@ Core Features
 * Ecological analysis
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://cran.r-project.org
 
@@ -78,6 +78,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/R_quickstart>`

@@ -13,10 +13,10 @@
 
 
 GMT
-===
+================================================================================
 
 The Generic Mapping Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GMT is a collection of tools that allow users to manipulate (x,y) and
 (x,y,z) data sets (including filtering, trend fitting, gridding,
@@ -36,13 +36,13 @@ political boundaries.
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Journal quality cartography.
 * Gridding and contouring functions.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://gmt.soest.hawaii.edu
 
@@ -58,7 +58,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
 

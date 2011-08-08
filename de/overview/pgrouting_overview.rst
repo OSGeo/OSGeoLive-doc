@@ -11,10 +11,10 @@
   :target: http://www.pgrouting.org/
 
 pgRouting
-=========
+================================================================================
 
 GIS Werkzeuge
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 pgRouting erweitert eine :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
 
@@ -31,7 +31,7 @@ Vorteile des Datenbank-Routing Konzepts sind:
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 pgRouting stellt Funktionen zur Verfügung für:
 
@@ -47,7 +47,7 @@ pgRouting stellt Funktionen zur Verfügung für:
 .. * OGC standardkonform
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.pgrouting.org
 
@@ -62,7 +62,7 @@ Details
 **Kommerzieller Support:** http://www.pgrouting.org
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/pgrouting_quickstart>`
 

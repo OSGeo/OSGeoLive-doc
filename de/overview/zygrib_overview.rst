@@ -12,15 +12,15 @@
 
 
 zyGrib
-======
+================================================================================
 
 Wettervorhersage 
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 zyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen GRIB-Format herunterzuladen und zu visualisieren.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
@@ -36,7 +36,7 @@ Kernfunktionen
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.zygrib.org
 

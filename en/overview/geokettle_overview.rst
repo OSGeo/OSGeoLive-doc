@@ -12,10 +12,10 @@
   :target: http://www.geokettle.org/
 
 GeoKettle
-=========
+================================================================================
 
 Extract Transform Load (ETL)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoKettle is a "spatially-enabled" version of `Pentaho Data Integration <http://kettle.pentaho.com>`_ (also known as Kettle). It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases, data warehouses and web services.
 
@@ -29,7 +29,7 @@ In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL t
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Extract data from: 
 
@@ -87,12 +87,12 @@ Core Features
   * Plugin eco-system
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * OGC standards compliant (SFS, CSW, SOS)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.geokettle.org/
 
@@ -108,6 +108,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/geokettle_quickstart>`

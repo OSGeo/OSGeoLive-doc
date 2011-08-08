@@ -11,10 +11,10 @@
   :target: http://cran.r-project.org
 
 R Spatial Task View
-===================
+================================================================================
 
 Statistische Programmierung
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 R ist eine leistungsstarke, weit verbreitete Entwicklungsumgebung für statistische Berechnungen und Graphiken, die sich durch Analysemöglichkeiten und Prozessierung räumlicher Daten auszeichnet. Die räumlichen Analysemöglichkeiten von R sind über R Pakete verfügbar (Module, die die Möglichkeiten von R erweitern), die viele herkömmliche und dem neusten Stand folgende Algorithmen unterstützen. Die Bereitstellung über R erfolgt oft bevor die Algorithmen in anderen Open Source oder proprietären Programmen verfügbar sind.
 
@@ -30,7 +30,7 @@ R ist eine Implemetierung der S Programmiersprache und es besteht eine signifika
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Komplett objektorientierte Programmiersprache, die für Statistiken und ähnliche rechenintensive Anwendungen entwickelt wurde
 * Hunderte add-on Pakete für räumliche Statistiken, die von der Community bereitgestellt wurden
@@ -44,7 +44,7 @@ Kernfunktionen
 * Ökologische Analysen
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://cran.r-project.org
 
@@ -58,6 +58,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/R_quickstart>`

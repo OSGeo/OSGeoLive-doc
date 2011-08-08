@@ -11,10 +11,10 @@
   :target: http://www.sahanafoundation.org
 
 Sahana Eden
-===========
+================================================================================
 
 Plataforma para la Gestión de Desastres
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana Eden es una Familia de Aplicaciones para Ayudarte a Ayudar a Otros.
 Proporciona herramientas de colaboración basadas en web que abordan los problemas comunes de coordinación ocasionados durante un desastre, incluyendo la búsqueda de personas desaparecidas, la gestión de la ayuda, la administración de los voluntarios, y el seguimiento eficaz de contacto entre los campamentos y los grupos gubernamentales, la sociedad civil (ONG) y las propias víctimas.
@@ -31,7 +31,7 @@ El sistema fue utilizado oficialmente por el Gobierno de Sri Lanka y se liberó 
 
 
 Características principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Mapas - Conocimiento real de la situación y análisis geoespaciales.
 * Gestión de Solicitudes - Seguimiento de las necesidades de ayuda y comparación con la asistencia comprometida por los donantes.
@@ -47,12 +47,12 @@ Características principales
 * Integración con Ushahidi - Puede integrar datos de Ushahidi.
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Sahana Eden demo <http://demo.eden.sahanafoundation.org/>`_
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://eden.sahanafoundation.org/
 
@@ -67,6 +67,6 @@ Detalles
 **Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
 
 Guía rápida
------------
+--------------------------------------------------------------------------------
 
 * `Documentación de inicio rápido <../quickstart/sahana_quickstart.html>`_

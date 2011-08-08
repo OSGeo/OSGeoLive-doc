@@ -20,10 +20,10 @@
 
 
 MapFish
-=======
+================================================================================
 
 Entorno de desarrollo de Mapas en la Web
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapFish es un flexible y completo entorno de desarrollo de software para construir 
 aplicaciones de mapas en la Web enriquecidas. Enfatiza en la alta productividad 
@@ -46,14 +46,14 @@ herramientas `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>
   :align: right
 
 Estándares implementados
-------------------------
+--------------------------------------------------------------------------------
 
 MapFish es compatible con los estándares de la `Open Geospatial Consortium
 <http://www.opengeospatial.org/>`_.  Esto se logra a través del soporte de varias 
 normas OGC con  OpenLayers o GeoExt, como WMS, WFS, WMC, KML, GML etc.
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.mapfish.org
 
@@ -67,7 +67,7 @@ Detalles
 
 
 Guía de inicio rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Documentación guía de inicio rápido <../quickstart/mapfish_quickstart.html>`_
 

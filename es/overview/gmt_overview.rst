@@ -12,10 +12,10 @@
 
 
 GMT
-===
+================================================================================
 
 Acrónimo del inglés `The Generic Mapping Tools`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GMT es una colección de herramientas que permite a los usuarios manipular
 conjunto de datos (x,y) y (x,y,z)  (incluyendo filtrado, ajuste de tendencias, 
@@ -34,13 +34,13 @@ de costa, ríos y límites administrativos.
   :align: right
 
 Caracterícticas principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Cartografía de calidad.
 * Funciones de interpolación y generación de contornos.
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio web:** http://gmt.soest.hawaii.edu
 
@@ -56,7 +56,7 @@ Detalles
 
 
 Guía de inicio rápido
----------------------
+--------------------------------------------------------------------------------
 
 * `Documentación de la Guía de inicio rápido <../quickstart/gmt_quickstart.html>`_
 

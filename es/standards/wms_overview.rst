@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Web Map Service (WMS)
-=====================
+================================================================================
 
 .. Writing Tip:
   1 parrafo o 2 definen lo que es el estandar.
@@ -56,7 +56,7 @@ El estandar actualmente se encuentra implementado en cientos de productos, mucho
 Un ejemplo excelente de portal que utiliza WMS es *NC OneMap* (http://www.nconemap.com/): “*NC OneMap* expone Web Map Services (WMS) para combinar juntos datos procedentes de diversos servidores. Los Partners de *NC OneMap* publican cada uno de los servicios WMS desde sus servidores. Este estandar OGC permite la creación y el almacenamiento en numerosas configuraciones de software propietarios (ESRI, MapInfo, Intergraph, etc), pero que son visualizables por todos.” 
 
 Ver también
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe estandar similar

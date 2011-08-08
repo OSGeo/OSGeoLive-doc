@@ -11,10 +11,10 @@
 
 
 Prune
-=====
+================================================================================
 
 GPS Datenverarbeitungssoftware 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Prune <http://activityworkshop.net/software/prune/>`_ ist ein Tool für die Visualisierung,
 das Editieren und das Konvertieren von Koordinatendaten aus GPS Systemen.  Prune verwendet OpenStreetMap
@@ -29,7 +29,7 @@ Prune läuft sowohl auf Linux als auch auf Mac OSX und Windows, and ist in über
 verschiedenen Sprachen verfügbar.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/prune_denver_de.png
   :scale: 50 %
@@ -46,7 +46,7 @@ Kernfunktionen
 * Erzeugen von Diagrammen wie zum Beispiel Höhe gegen Distanz, oder Geschwindigkeit gegen Zeit
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://activityworkshop.net/software/prune/
 
@@ -57,6 +57,6 @@ Details
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, Windows
 
 Quickstart
-------------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/prune_quickstart>`

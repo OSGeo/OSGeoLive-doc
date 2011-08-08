@@ -9,10 +9,10 @@
   :target: http://www.orfeo-toolbox.org/
 
 OTB
-===
+================================================================================
 
 Bild Prozessierung
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ORFEO Toolbox Library (OTB) ist eine hochperformante Bildprozessierungsbibliothek. OTB wurde anfangs
 zur Prozessierung von Fernerkundungsdaten (Remote Sensing) wie Radaraufnahmen, Satellitenaufnahmen und Luftbildern. 
 OTB stellt Werkzeuge für Future Optic und Radarbilder
@@ -24,7 +24,7 @@ wurde aktiv seit 2006 entwickelt. Es basiert auf der bewährten medizinischen Bi
 ITK und ist Open Source.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.png
   :scale: 80 %
@@ -46,7 +46,7 @@ Kernfunktionen
 * Änderungsverfolgung
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.orfeo-toolbox.org/
 
@@ -62,7 +62,7 @@ Details
 **Support:** http://www.osgeo.org/search_profile
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/otb_quickstart>`
 

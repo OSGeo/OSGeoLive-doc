@@ -20,10 +20,10 @@
 
 
 MapFish
-=======
+================================================================================
 
 Web Mapping Framework
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapFish is a flexible and complete framework for building rich web-mapping
 applications. It emphasizes high productivity, and high-quality development. 
@@ -44,14 +44,14 @@ toolbox is composed of the `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openla
   :align: right
 
 Zaimplementowane standardy
---------------------------
+--------------------------------------------------------------------------------
 
 MapFish jest zgodny ze standardami `Open Geospatial Consortium
 <http://www.opengeospatial.org/>`_. Jest to możliwe gdyż OpenLayers i GeoExt obsługują wiele norm OGC, takich jak WMS, WFS, WMC, KML, GML
 etc.
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://www.mapfish.org
 
@@ -65,7 +65,7 @@ Szczegóły
 
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/mapfish_quickstart.html>`_
 

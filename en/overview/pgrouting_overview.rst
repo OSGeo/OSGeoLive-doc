@@ -12,10 +12,10 @@
   :target: http://www.pgrouting.org/
 
 pgRouting
-=========
+================================================================================
 
 GIS Tools
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
 
@@ -31,7 +31,7 @@ Advantages of the database routing approach are:
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 pgRouting provides functions for:
 
@@ -47,7 +47,7 @@ pgRouting provides functions for:
 .. * OGC standards compliant
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.pgrouting.org
 
@@ -62,7 +62,7 @@ Details
 **Commercial Support:** http://www.pgrouting.org
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
 

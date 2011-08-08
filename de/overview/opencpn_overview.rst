@@ -12,10 +12,10 @@
 
 
 OpenCPN
-=======
+================================================================================
 
 Marine GPS Navigationssoftware
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 OpenCPN stellt freie Navigationssoftware zur Nutzung beid er Steuerung von Schiffen aller Typen und Größen, sowie Offline zur Routenplanung. Es wurde von einem Team aktiver Segler entwickelt und unter realen Bedingungen getestet und verfeinert. 
 
 OpenCPN informiert den Nutzer durch akkurate Navigations-Diagramme über die derzeitige Position des Schiffes, die Geschwindigkeit, den Kurs, Gezeiten und die  derzeitige Vorhersagen. Informationen, die von einfachen Radio Links empfangen werden, beschreiben die Position und die Richtung anderer Schiffe.
@@ -23,7 +23,7 @@ OpenCPN informiert den Nutzer durch akkurate Navigations-Diagramme über die der
 Bewegt sich das Schiff, werden neue Diagramme erstellt und angezeigt. Hierbei kann eine benutzerspezifische Auflösung und der Detailgrad eingestellt werden. Darüberhinaus kann der Benutzer Routen eingeben und Wegpunkte setzen. Diese ermöglichen es einem externen Autopiloten präzise der Route zu folgen.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
@@ -43,7 +43,7 @@ OpenCPN unterstützt:
 * Einbindung GRIB Wetterdaten
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.opencpn.org
 
@@ -57,7 +57,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/opencpn_quickstart>`
 

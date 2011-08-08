@@ -12,10 +12,10 @@
 
 
 User-friendly Desktop Internet GIS (uDig)
-=========================================
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/1024x768/udig-overview.png
   :scale: 50
@@ -35,7 +35,7 @@ uDig ist:
 Für Entwickler bietet uDig eine gemeinsame Plattform für Java-Anwendungen zum Aufbau räumlicher Open-Source-Komponenten. Auf der Projektwebseite finden Sie eine Reihe von verständlichen Übungen angefangen von der Erstellung einfacher Werkzeuge bis zu Beispielen für komplexe Anwendungen.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Desktop Anwendung mit Drag & Drop Integration für Dateimanager und Web Browser
 * Integration in Ihre vorhandene Infrastruktur: ArcSDE, Oracle, DB2 und mehr
@@ -53,7 +53,7 @@ Kernfunktionen
   * Verwendung von nativen Widgets
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Server (WMS)
 * OGC Web Feature Server (WFS)
@@ -63,7 +63,7 @@ Implementierte Standards
 * OGC Style Layer Descriptor (SLD)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://udig.refractions.net/
 
@@ -80,6 +80,6 @@ Details
 **Entwickler:** http://udig.refractions.net/developers/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/udig_quickstart>`

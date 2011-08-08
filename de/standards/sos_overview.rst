@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Sensor Observation Service (SOS)
-================================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -62,7 +62,7 @@ Optionale Operationen beinhalten: GetResult, GetFeatureOfInterest, GetFeatureOfI
 Es existieren eine Reihe von hervoragenden SOS-Implementationen. OpenIOOS.org beinhaltet dreizehn Organisationen, die Zugriff auf SOS Service Instanzen mit über 1400 ozeanischen Sensoren bieten. (http://www.openioos.org/real_time_data/gm_sos.html). Diese funktionsfähige Demonstationsplatform "repräsentiert die Bemühung eine Web Service Architektur zur Beobachtung der Meere zu entwickeln".
 
 Siehe auch
-----------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Filter Encoding (FE)
-====================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -49,7 +49,7 @@ A subset of features might be identified to render them in a particular color or
 Filter constraints can be specified on values of spatial, temporal and scalar properties. An example of a spatial filter is: “Find all the properties in Omstead County owned by Peter Vretanos.” An example of a temporal filter is: “Find all the dams in Massachusetts that were built before 1900.” An example of a scalar filter is: “Find all the temperature sensors in Paris that are reporting temperature between 20 degrees C. and 24 degrees C.” 
 
 See Also
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Sensor Model Language (SensorML)
-================================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -58,7 +58,7 @@ Individual SensorML schema describe a specific sensor or an array of sensors and
 There are numerous examples of SensorML implementations, such as the NASA MSFC SMART program (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). In this project the team developed a sensor web-enabled processing workflow to intelligently assimilate Atmospheric Infrared Sounder (AIRS) satellite temperature and moisture retrievals into a regional configuration of the Weather Research and Forecast model over the southeastern United States.
 
 See Also
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

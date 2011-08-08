@@ -12,10 +12,10 @@
 
 
 Ushahidi
-========
+================================================================================
 
 Línea de tiempo y cartografía de incidentes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 El motor `Ushahidi <http://www.ushahidi.com/>`_ es una plataforma libre de
 código abierto que permite a cualquiera obtener información distribuida a través
@@ -43,7 +43,7 @@ producto que pudiera ser utilizada por otro alrededor de todo el mundo.
 
 
 Funcionalidades principales
------------------------------
+--------------------------------------------------------------------------------
 
 - Mapa interactivo
 - Línea de tiempo
@@ -64,12 +64,12 @@ Funcionalidades principales
 
 
 Demostración
-----------------
+--------------------------------------------------------------------------------
 
 * `Instancia de demostración de Ushahidi <http://demo.ushahidi.com/>`_
 
 Detalles
------------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.ushahidi.com
 
@@ -85,7 +85,7 @@ Detalles
 
 
 Guía de inicio rápido
----------------------------
+--------------------------------------------------------------------------------
 
 * `Guía de inicio rápido <../quickstart/ushahidi_quickstart.html>`_
 

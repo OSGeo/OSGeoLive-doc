@@ -11,10 +11,10 @@
   :target: http://www.opengis.es/index.php?lang=es
 
 Kosmo Desktop
-=============
+================================================================================
 
 SIG de escritorio
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Kosmo - Cliente de Escritorio es una aplicación SIG de escritorio amigable que permite explorar, editar
 y analizar datos espaciales desde una variedad de bases de datos, formatos vectoriales y formatos ráster.
@@ -28,7 +28,7 @@ Su arquitectura de extensiones permite personalizarlo fácilmente para fines esp
   :align: right
 
 Características principales
----------------------------
+--------------------------------------------------------------------------------
 
 Formatos soportados:
 
@@ -49,7 +49,7 @@ Características clave:
 * Sextante 0.6 integrado (mediante el uso de extensión)
 
 Estándares implementados
-------------------------
+--------------------------------------------------------------------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
@@ -57,7 +57,7 @@ Estándares implementados
 
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Web:** http://www.opengis.es
 
@@ -73,6 +73,6 @@ Detalles
 
 
 Inicio rápido
--------------
+--------------------------------------------------------------------------------
     
 * `Documentación de inicio rápido <../quickstart/kosmo_quickstart.html>`_

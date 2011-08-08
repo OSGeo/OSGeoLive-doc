@@ -18,10 +18,10 @@
 
 
 Quantum GIS (QGIS)
-==================
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quantum GIS (QGIS) ist ein benutzerfreundliches, quelloffenes Geographisches Informationssystem, mit dem man Geodaten visualisieren, managen, editieren und analysieren sowie druckfertige Karten erstellen kann. 
 Über eine direkte Schnittstelle zu GRASS stellt es umfangreiche analytische Module bereit.
@@ -33,7 +33,7 @@ Es läuft unter Linux, Unix, Mac OS X und Windows und unterstützt eine Vielzahl
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Benutzerfreundliche grafische Oberfläche.
 
@@ -72,12 +72,12 @@ Kernfunktionen
 * erweiterbaren Plugin Architektur.
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC Standard kompatibel (WMS,WFS(Plugin))
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.qgis.org
 
@@ -92,6 +92,6 @@ Details
 **Kommerzieller Support:** http://qgis.org/de/kommerzieller-support.html
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart (English) <../../en/quickstart/qgis_quickstart>`

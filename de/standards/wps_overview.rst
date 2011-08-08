@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Web Processing Service (WPS)
-============================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -55,7 +55,7 @@ Ein WPS ist nützlich zur:
 * einfachen und interoperablen Umsetzung hochkomplexer Prozesse, wie Klimamodelle.
 
 Siehe auch
-----------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

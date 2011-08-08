@@ -19,10 +19,10 @@
 
 
 Geomajas
-========
+================================================================================
 
 Cliente ligero GIS
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geomajas es un entorno de desarrollo (en inglés *framework*) capaz de integrar algoritmos potentes a través de la parte servidora del sistema.
 
@@ -36,7 +36,7 @@ Lo que hace único a Geomajas es la potencia de la parte servidora. El procesado
   :align: right
 
 Propiedades Fundamentales
--------------------------
+--------------------------------------------------------------------------------
 
 * Arquitectura cliente-servidor integrada
 * Edición geométrica y de atributos
@@ -48,13 +48,13 @@ Propiedades Fundamentales
 * Soporte multi navegador, sin necesidad de plugines
 
 Estándardes implementados
--------------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.0, 1.1.1
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.geomajas.org/
 
@@ -70,7 +70,7 @@ Detalles
 
 
 Guía de inicio rápido
-----------------------
+--------------------------------------------------------------------------------
 
 * `Guía de inicio rápido <../quickstart/geomajas_quickstart.html>`_
 

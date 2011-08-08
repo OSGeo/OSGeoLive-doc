@@ -11,10 +11,10 @@
   :target: http://zoo-project.org/
 
 ZOO Projekt
-===========
+================================================================================
 
 WPS Server
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Das ZOO Projekt liefert ein entwicklerfreundliches Web Processing Service (WPS) Framework, um Web Processing Services zu erstellen und miteinander zu verknüpfen (Chaining).
 Ein WPS stellt den Zugang zu Funktionen bereit, die in der Lage sind, räumliche Algorithmen auszuführen.
@@ -40,19 +40,19 @@ oder JavaScript implementiert sein.
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * WPS Server mit Unterstützung zahlreicher Programmiersprachen
 * Einfaches Erstellen und Einrichten von Webdiensten
 * Einfaches WPS "Chaining" mittels ZOO API
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC WPS 1.0.0
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Einfache C Services Provider Demo basierend auf GEOS and OGR Bibliotheken <http://localhost/zoo-demo/spatialtools.html>`_
 * `Einfache Python Services Provider Demo basierend auf GEOS and OGR Bibliotheken <http://localhost/zoo-demo/spatialtools-py.html>`_
@@ -60,7 +60,7 @@ Demo
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://zoo-project.org
 
@@ -75,6 +75,6 @@ Details
 **Support:** http://zoo-project.org/trac
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/zoo-project_quickstart>`

@@ -13,16 +13,16 @@
 
 
 zyGrib
-=========
+================================================================================
 
 Weather forecasting 
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 zyGrib is a program to download and visualize weather forecast data in
 the standard GRIB distribution format.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
@@ -37,7 +37,7 @@ Core Features
 * Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude data.
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.zygrib.org
 
@@ -51,7 +51,7 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`
 

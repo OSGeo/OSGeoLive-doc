@@ -17,10 +17,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 PostGIS
-=======
+================================================================================
 
 Räumliche Datenbank
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 PostGIS erweitert die beliebte objekt-relationale Datenbank PostgreSQL um geografische Objekte und Funktionen, so dass sie als Back-End-Datenbank für geografische Informationssysteme (GIS) und Web-Mapping Applikationen in gleicher Weise verwendet werden kann wie Oracle Spatial es einer Oracle-Datenbank ermöglicht.
 
@@ -34,7 +34,7 @@ Die Datenbank-Administration ist unter anderem möglich über pgAdmin und phpPgA
   :align: right
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Hunderte von räumlichen Funktionen
   
@@ -50,12 +50,12 @@ Kernfunktionen
 * Table-spaces, Schemas
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * OGC standardkonform (SFSQL)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://postgis.refractions.net/
 
@@ -70,6 +70,6 @@ Details
 **Support:** http://www.osgeo.org/search_profile
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/postgis_quickstart>`

@@ -18,10 +18,10 @@
 
 
 deegree
-=======
+================================================================================
 
 Servicios Web
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 deegree es libre, estable, potente y fácil de usar. deegree es
 el conjunto más completo de implementaciones de estándares del Open Geospatial
@@ -38,7 +38,7 @@ deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando de
   :align: right
 
 Algunas catacterísticas de ejemplo
-------------------------------------
+--------------------------------------------------------------------------------
 
 * Web Map Service
 
@@ -83,7 +83,7 @@ Algunas catacterísticas de ejemplo
 
 
 Estándardes implementados
----------------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 en progreso)
@@ -95,7 +95,7 @@ Estándardes implementados
 * OGC Sensor Observation Service (SOS) 1.0.0
 
 Detalles
----------
+--------------------------------------------------------------------------------
 
 **Website:** http://deegree.org
 
@@ -111,7 +111,7 @@ Detalles
 
 
 Guía de inicio rápido
-----------------------
+--------------------------------------------------------------------------------
 
 * `Guía de inicio rápido <../quickstart/deegree_quickstart.html>`_
 

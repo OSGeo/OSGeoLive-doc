@@ -44,13 +44,13 @@
 .. Consejo para redactar: Nombre de la aplicación
 
 PostGIS
-=======
+================================================================================
 
 .. Consejo para redactar:
    Descripción de la categoría de la aplicación:
 
 Base de datos Espacial
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Consejo para redactar:
    Se deben tratar cuestiones de los usuarios como "¿Qué hace la aplicación?",
@@ -85,7 +85,7 @@ La administración de la base de datos está disponible a través de pgAdmin y p
   :align: right
 
 Características principales
----------------------------------
+--------------------------------------------------------------------------------
 
 * Cientos de funciones espaciales
   
@@ -101,14 +101,14 @@ Características principales
 * Table-spaces, esquemas
 
 Estándares implementados
---------------------------
+--------------------------------------------------------------------------------
 
 .. Consejo para redactar: Lista de los estándares OGC o relacionados que son soportados.
 
 * Compatible con los estándares de OGC (SFSQL)
 
 Detalles
------------
+--------------------------------------------------------------------------------
 
 **Página Web:** http://postgis.refractions.net/
 
@@ -128,6 +128,6 @@ Detalles
 
 
 Guía de inicio rápido
----------------------------
+--------------------------------------------------------------------------------
     
 * `Documentación de la Guía de Inicio Rápido <../quickstart/postgis_quickstart.html>`_

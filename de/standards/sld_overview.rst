@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Style Layer Descriptor (SLD)
-============================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -52,7 +52,7 @@ Die Fähigkeit für menschliche oder maschinelle Klienten, diese Regeln zu defin
 Zusätzlich zur Darstellung der Ausgabe von WMS Implementationen kann SE auch zur Darstellung der Ausgabe von WFS und WCS Implementation genutzt werden.
 
 Siehe auch
-----------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

@@ -13,10 +13,10 @@
   :target: http://www.tinyows.org/
 
 TinyOWS
-=======
+================================================================================
 
 Web Feature Service
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender Transaktionaler Web Feature Service (WFS-T), der CGI und FastCGI Schnittstellen unterstützt und :doc:`PostGIS <postgis_overview>` für die Datenspeicherung nutzt.
 
@@ -28,7 +28,7 @@ TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender 
 TinyOWS wird häufig in Verbindung mit einem :doc:`MapServer <mapserver_overview>` eingesetzt, um Daten über WFS-T und schnelle WFS Dienste für :doc:`QGIS <qgis_overview>` und/oder :doc:`OpenLayers <openlayers_overview>` Clients bereitzustellen. TinyOWS ist produktiv in Organsationen und Regierungsbehörden weltweit im Einsatz. WFS 1.0 und WFS 1.1 sind präzise implementiert, alle OGC CITE Tests - ca.  1000 - wurden erfolgreich durchlaufen.
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Transaktionaler Web Feature Service (WFS-T)
 * CGI und FastCGI Schittstellen
@@ -37,13 +37,13 @@ Kernfunktionen
 * kann mit MapServer Konfigurationsdatei eingerichtet werden, so dass für beide Applikationen nur eine Konfigurationsdatei erforderlich ist
 
 Umgesetzte Standards
---------------------
+--------------------------------------------------------------------------------
 * WFS 1.0 und WFS 1.1: Basisprofil und Transaktional
 * FE 1.0.0 und FE 1.1.0
 * GML 2.1.2 und 3.1.1 Simple Profile (SF-0)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.tinyows.org/
 
@@ -58,6 +58,6 @@ Details
 **Support:** http://lists.maptools.org/pipermail/tinyows-users/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart Dokumentation <../quickstart/tinyows_quickstart>`

@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Web Feature Service (WFS)
-=========================
+================================================================================
 
 .. Writing Tip:
   1 párrafo o 2 definen lo que es el estandar.
@@ -55,7 +55,7 @@ Todoas losl WFSs soportan entrada y salida de datos utilizando lenguaje *Geograp
 Normalmente los usuarios interactúan con WFSs a través de clientes geoespaciales Web o Desktop, que permiten acceder a capas de mapas vectoriales desde agencias externas, sobre Internet. Un ejemplo excelente de utilización de un Servicio WFS para proprcionar acceso abierto e interoperable a una gran cantidad de datos espaciales a trvés de un portal gubernamental es el Servicio WFS del *Framwork USGS* ofrecido como soporte al desarrollo de las Infraestructura de Datos Espaciels Nacional de Estados Unidos (NSDI) (http://frameworkwfs.usgs.gov/). Las capas de mapas seleccionadas a través de este framework estadounidense estan disponibles como capas WFS y también a través de un interface de búsqueda proporcionado por el USGS.
 
 Ver también
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe estandar similar

@@ -11,10 +11,10 @@
   :target: http://udig.refractions.net/
 
 User-friendly Desktop Internet GIS (uDig)
-=========================================
+================================================================================
 
 SIG de Escritorio
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/1024x768/udig-overview.png
   :scale: 50
@@ -33,7 +33,7 @@ uDig es:
 Para los desarrolladores uDig provee una plataforma Java común para la construcción de aplicaciones espaciales con componentes open source. El sitio web provee una serie de claras tutorías que permiten construir desde una simple herramienta hasta una aplicación personalizada
 
 Características Principales
----------------------------
+--------------------------------------------------------------------------------
 
 * Cliente de Escritorio con integración de tipo arrastrar y soltar tanto para explorador de archivos como navegador web
 * Integración con la infraestructura ya existente: ArcSDE, Oracle, DB2 y mas
@@ -51,7 +51,7 @@ Características Principales
   * Uso de ventanas nativa
 
 Estándares Implantados
-----------------------
+--------------------------------------------------------------------------------
 
 * OGC Web Map Server (WMS)
 * OGC Web Feature Server (WFS)
@@ -61,7 +61,7 @@ Estándares Implantados
 * OGC Style Layer Descriptor (SLD)
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://udig.refractions.net/
 
@@ -79,7 +79,7 @@ Detalles
 
 
 Inicio Rápido
--------------
+--------------------------------------------------------------------------------
 
 * `Documentacion de Inicio Rápido <../quickstart/udig_quickstart.html>`_
 

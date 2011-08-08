@@ -11,10 +11,10 @@
   :target: http://liblas.org/
 
 libLAS
-======
+================================================================================
 
 LiDAR Data Access
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 libLAS is a C/C++ library for reading and writing the very common `LAS`
 `LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format used to
@@ -33,14 +33,14 @@ series of point measurements representing distance from the sensor to a returned
 emission.  A common storage format for these point cloud data is ASPRS LAS format.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * C/C++/Python APIs for reading, writing, and manipulating LAS data
 * `Command line utilities`_ for manipulating LAS data based on `LAStools`_
 * Coordinate reprojection via `GDAL <http://gdal.org>`__
 
 Details
--------
+--------------------------------------------------------------------------------
  
 **Website:** http://liblas.org
 
@@ -55,7 +55,7 @@ Details
 **Support:** `Communication and Support <http://liblas.org/community.html>`_
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/liblas_quickstart>`
 

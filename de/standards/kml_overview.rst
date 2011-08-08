@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 KML Encoding Standard (KML)
-===========================
+================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
@@ -55,7 +55,7 @@ KML wurde 2008 als OGC Standard akzeptiert, da die Mitglieder überzeugt waren, 
 KML ist eine Ergänzung zu den meisten der existierenden OGC Spezifikationen, einschließlich der Schlüsselstandards wie GML (Geography Markup Language), WFS (Web Feature Service) und WMS (Web Map Service). Aktuell nutzt KML (v2.1) bestimmte Geometrietypen, die von GML (v2.1.2) abgeleitet sind. Diese Typen sind z.B. Punkte, Linien, Umringe und Polygone.
 
 Siehe auch
-----------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard

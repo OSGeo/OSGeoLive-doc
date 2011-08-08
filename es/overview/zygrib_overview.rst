@@ -12,16 +12,16 @@
 
 
 zyGrib
-=========
+================================================================================
 
 Pronóstico del Tiempo 
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 zyGrib es un programa que permite descargar y visualizar datos correspondientes a pronósticos de tiempo en
 el formato de distribución estándar GRIB.
 
 Características Principales
----------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
@@ -36,7 +36,7 @@ Características Principales
 * Gráfica de viento, presión, temperatura, humedad, lluvia, nieve, cobertura de nubes, punto de rocío, y datos de alta altitud.
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.zygrib.org
 
@@ -50,7 +50,7 @@ Detalles
 
 
 Inicio Rápido
--------------
+--------------------------------------------------------------------------------
 
 * `Documentación de Inicio Rápido <../quickstart/zygrib_quickstart.html>`_
 

@@ -19,10 +19,10 @@
 
 
 OpenLayers
-==========
+================================================================================
 
 Browser GIS Client
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
@@ -36,7 +36,7 @@ runs inside the web browser, which makes OpenLayers easy to install, without
 any server side dependencies.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Simple to use Javascript API, designed to make development easy
 * Support for standard and customized protocols for interacting with servers
@@ -55,7 +55,7 @@ Core Features
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://openlayers.org
 
@@ -69,6 +69,6 @@ Details
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`

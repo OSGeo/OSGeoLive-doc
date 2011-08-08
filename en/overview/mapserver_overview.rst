@@ -19,10 +19,10 @@
 
 
 MapServer
-=========
+================================================================================
 
 Web Service
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapServer is an `Open Source <http://www.opensource.org>`_ geographic data rendering engine written in C. Beyond browsing GIS data, MapServer allows you create "geographic image maps", that is, maps that can direct users to web content. For example, the Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more than 10,000 web pages, reports and maps via a single application. The same application serves as a "map engine" for other portions of the site, providing spatial context where needed.
 
@@ -31,7 +31,7 @@ MapServer was originally developed by the University of Minnesota (UMN) ForNet p
 MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/mapserver.png
   :scale: 50 %
@@ -74,24 +74,24 @@ Core Features
   * On-the-fly map projection with 1000s of projections through the Proj.4 library
 
 Implemented Standards
----------------------
+--------------------------------------------------------------------------------
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
   * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Itasca <http://localhost/mapserver_demos/itasca/>`_
 
 Documentation
--------------
+--------------------------------------------------------------------------------
 
 * `MapServer 6.0.1 Documentation <../../mapserver/doc/index.html>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://www.mapserver.org/
 
@@ -106,6 +106,6 @@ Details
 **Support:** http://mapserver.org/community/
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`

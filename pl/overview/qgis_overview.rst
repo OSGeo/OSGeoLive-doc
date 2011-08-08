@@ -18,10 +18,10 @@
 
 
 Quantum GIS (QGIS)
-==================
+================================================================================
 
 Desktop GIS
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Quantum GIS (QGIS) jest przyjaznym dla użytkownika klientem GIS o otwartym kodzie źródłowym, gdzie
 można wizualizować, zarządzać, edytować, analizować dane i opracowywać wydruki map.
@@ -35,7 +35,7 @@ rastrowych i bazodanowych formatów oraz funkcji.
   :align: right
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 * Przyjazny interfejs użytkownika
 
@@ -75,12 +75,12 @@ Główne funkcje
 * Elastyczna architektura wtyczek.
 
 Zaimplementowane standardy
---------------------------
+--------------------------------------------------------------------------------
 
 * zgodność ze standardami OGC (WMS,WFS(Wtyczka))
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://www.qgis.org
 
@@ -96,7 +96,7 @@ Szczegóły
 
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/qgis_quickstart.html>`_
 

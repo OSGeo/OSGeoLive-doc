@@ -18,10 +18,10 @@
 
 
 OpenLayers
-==========
+================================================================================
 
 Browser GIS Anwendung
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
@@ -36,7 +36,7 @@ einfach macht, OpenLayers ohne serverseitige Abhängigkeiten zu installieren,
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Einfach zu benutzende Javascript API, um Entwicklung einfach zu machen
 * Support für Standard- und kundenspezifische Protokolle zur Kommunikation mit Servern
@@ -55,7 +55,7 @@ Kernfunktionen
   * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://openlayers.org
 
@@ -68,6 +68,6 @@ Details
 **Support:** http://trac.openlayers.org 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/openlayers_quickstart>`

@@ -12,10 +12,10 @@
 
 
 Sahana Agasti
-=============
+================================================================================
 
 Katastrophenmanagement Webdienst
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana ist ein freies Open Source Katastrophenmanagementsystem. Es ist ein kollaboratives web-basiertes Werkzeug, das sich typischen Problemen bei der Koordinierung von Katatstrophenhilfe zwischen Regierungs- und nichtstaatlichen Organisationen (NGOs) und den Betroffenen selbst widmet, angefangen vom Auffinden vermisster Personen, dem Management von Hilfsleistungen und Freiwilligen bis zum effektiven Verfolgen von Lagern.
 
@@ -28,7 +28,7 @@ Das Sahana Projekt wurde initiiert von Freiwilligen der Sri Lanka FOSS Entwicklu
 
 
 Kernfunktionen
---------------
+--------------------------------------------------------------------------------
 
 * Zustandskartierung
 * Vermisstenregistrierung
@@ -44,7 +44,7 @@ Kernfunktionen
 
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://www.sahanafoundation.org
 
@@ -59,6 +59,6 @@ Details
 **Support:** http://www.sahanafoundation.org/support
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/sahana_quickstart>`

@@ -32,7 +32,7 @@
 .. Writing Tip: Name of application
 
 Sensor Model Language (SensorML)
-================================
+================================================================================
 
 .. Writing Tip:
   1 parrafo o 2 definen lo que es el estandar.
@@ -59,7 +59,7 @@ El esquema individual SensorML describe un sensor específico o un conjunto de s
 Existen multitud ejemplos de implementaciones SensorML , como por ejemplo la NASA MSFC SMART program (http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf). En este proyecto el equipo desarrolló un flujo (*workflow*) de proceso de sensores Web para asimilar inteligentemente los datos de temperatura satélite y humedad de la sonda infraroja atmosférica (*Atmospheric Infrared Sounder, AIRS*), en una configuración regional del modelo de investigación y observación climatológica sobre el sureste de Estados Unidos.
 
 Ver también
---------
+--------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe estandar similar

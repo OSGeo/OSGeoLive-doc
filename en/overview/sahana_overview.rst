@@ -12,10 +12,10 @@
   :target: http://www.sahanafoundation.org
 
 Sahana Eden
-===========
+================================================================================
 
 Disaster Management Platform
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana Eden is a Family of Applications to Help You Help Others.
 It provides web based collaboration tools that addresses the common coordination problems faced during a disaster including finding missing people, managing aid, 
@@ -39,7 +39,7 @@ dozens of Governments and NGOs since then.
   :align: right
 
 Core Features
--------------
+--------------------------------------------------------------------------------
 
 * Mapping - Situation Awareness & Geospatial Analysis.
 * Requests Management - Tracks requests for aid and matches them against donors who have pledged aid.
@@ -55,12 +55,12 @@ Core Features
 * Ushahidi Integration - Able to integrate data from Ushahidi 
 
 Demo
-----
+--------------------------------------------------------------------------------
 
 * `Sahana Eden demo <http://demo.eden.sahanafoundation.org/>`_
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Website:** http://eden.sahanafoundation.org/
 
@@ -75,6 +75,6 @@ Details
 **Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/sahana_quickstart>`

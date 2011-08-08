@@ -12,10 +12,10 @@
 
 
 osgEarth
-========
+================================================================================
 
 Terrain rendering toolkit
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_ (OSG), an open source, high performance, 3D graphics toolkit.  Just create a simple XML file, point it at your imagery, elevation, and vector data, load it into your favorite OSG application, and go!
 osgEarth supports all kinds of data and comes with lots of examples to help you get up and running quickly and easily. 
@@ -28,7 +28,7 @@ osgEarth supports all kinds of data and comes with lots of examples to help you 
   :align: right
 
 Główne funkcje
---------------
+--------------------------------------------------------------------------------
 
 osgEarth makes is easy to deploy scalable terrain models: 
 
@@ -65,7 +65,7 @@ Things you can see:
 
 
 Szczegóły
----------
+--------------------------------------------------------------------------------
 
 **Strona internetowa:** http://osgearth.org/
 
@@ -81,7 +81,7 @@ Szczegóły
 
 
 Wprowadzenie
-------------
+--------------------------------------------------------------------------------
 
 * `Przejdź do wprowadzenia <../quickstart/osgearth_quickstart.html>`_
 

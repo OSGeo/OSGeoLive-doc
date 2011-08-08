@@ -11,10 +11,10 @@
   :target: http://www.pgrouting.org/
 
 pgRouting
-=========
+================================================================================
 
 Herramientas SIG
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 pgRouting extiende :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ para proveer funcionalidades de ruteo espacial.
 
@@ -30,7 +30,7 @@ Las ventajas del ruteo en base de datos son:
   :align: right
 
 Funcionalidades principales
----------------------------
+--------------------------------------------------------------------------------
 
 pgRouting provee funciones para:
 
@@ -46,7 +46,7 @@ pgRouting provee funciones para:
 .. * OGC standards compliant
 
 Detalles
---------
+--------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.pgrouting.org
 
@@ -61,7 +61,7 @@ Detalles
 **Soporte:** http://www.pgrouting.org
 
 Guía de Inicio Rápido
----------------------
+--------------------------------------------------------------------------------
 
 * :doc:`Guía de Inicio Rápido <../quickstart/pgrouting_quickstart>`
 
