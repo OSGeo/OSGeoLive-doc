@@ -234,8 +234,9 @@ Web Map Server
    Επιλέξτε :menuselection:`Map --> Mylar` από το μενού εντολών για να επικεντρωθείτε στο επιλεγμένο επίπεδο
 
 #. Χρησιμοποιώντας την όψη  *επιπέδων (Layer)* επιλέξτε ζώνη ώρας, χώρες και το clouds.jpg με τη σειρά για να παρατηρήσετε το αποτέλεσμα
-  
-.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+		:scale: 70 %
 
 #. Μπορείτε να απενεργοποιήσετε αυτό το εφέ ανα πάσα στιγμή επιλέγοντας :menuselection:`Map --> Mylar` από το μενού εντολών
 

@@ -222,9 +222,7 @@ pantalla.
 Servidor de Mapas Web
 =====================
 
-.. sidebar:: Offline
-
-   Si no se esta conectado a internet ejecute :menuselection:`Applications --> Education --> Start GeoServer` para tener un WMS Local. El script
+.. note:: Si no se esta conectado a internet ejecute :menuselection:`Applications --> Education --> Start GeoServer` para tener un WMS Local. El script
    abrirá una página con un vínculo a "wms capabilities", que puede ser arrastrado dentro del mapa vacío.
    
 Una de las razones para usar una aplicación como uDig es la posibilidad de acceder a la gran cantidad de 
@@ -237,9 +235,9 @@ cuentan con capas de información que pueden ser incluidos en un mapa propio.
 #. Seleccione :menuselection:`File --> New --> New Map` de la barra de menú
 
 #. Cambiar a la vista **Web**, click en la siguiente pestaña para presentar la vista **Catalog** para desplegar la vista *Web* 
-   
-  .. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
-    :scale: 70 %
+
+	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
+		:scale: 50 %
 
 #. Hacer click en el vínculo `WMS\:dm solution`_
 
@@ -250,18 +248,19 @@ cuentan con capas de información que pueden ser incluidos en un mapa propio.
    * Elevation/Bathymetry
    * Parks
    * Cities
-   
-.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
-  :scale: 70 %
+
+	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+		:scale: 70 %
 
 #. Presione :guilabel:`Finish` para agregar estas capas en su mapa
    
-.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
-  
+	.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+		:scale: 70 %
+
 #. Use la herramienta Zoom |ZOOM| para acercarse a uno de los parques (Parks)
 
 #. Cambie a la herramienta Info |INFO| y haga un click sobre los parques para obtener mas información de ellos.
-   
+
 .. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
 
 .. tip:: Es posible cambiar de la herramienta Zoom a Info presionando las teclas Z e I.
@@ -301,8 +300,9 @@ Estilo
    Seleccionar :menuselection:`Map --> Mylar` en la barra de menú para enfocar la capa seleccionada. 
 
 #. Utilizar la vista *Layer* para seleccionar timezone, counties y clouds.jpg sucesivamente para ver el efecto  
-  
-.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+		:scale: 70 %
 
 #. Se puede cambiar a apagado (off) este efecto en cualquier momento usando :menuselection:`Map --> Mylar` en la barra de menú  
 
