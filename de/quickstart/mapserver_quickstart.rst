@@ -94,7 +94,7 @@ Wenn wir genauer auf das Objekt **LAYER** in unserem mapfile schauen, sehen wir,
  * DATA : der Name des Datentyps der Karte, in diesem Fall ein Shapefile.
  * CLASS : legt fest, wie eine Karte gezeichnet werden soll (styling). Wir gehen darauf später noch genauer ein.
 
-.. note:: Eine komplette Liste von Objekten und Eigenschaften, die ein`Mapfile <http://mapserver.org/mapfile/index.html>`_ haben kann, finden Sie in der MapServer Dokumentation.
+.. note:: Eine komplette Liste von Objekten und Eigenschaften, die ein `Mapfile <http://mapserver.org/mapfile/index.html>`_ haben kann, finden Sie in der MapServer Dokumentation.
 
 .. _mapserver-quickstart-wms-request:
 
