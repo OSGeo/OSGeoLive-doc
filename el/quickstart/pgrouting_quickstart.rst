@@ -14,7 +14,7 @@
 Εγχειρίδιο Γρήγορης Εκκίνησης pgRouting
 ***************************************
 
-Το pgRouting είναι μια επέκταση στην `PostGIS <http://www.postgis.org>`_ στην οποία προσθέτει διαδικασίες δρομολόγησης στις `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
+Το pgRouting είναι μια επέκταση στην :doc:`PostGIS <postgis_overview>` στην οποία προσθέτει διαδικασίες δρομολόγησης στις `PostGIS <http://www.postgis.org>`_/`PostgreSQL <http://www.postgresql.org>`_.
 
 Αυτό το κείμενο περιγράφει πώς να ανοίξετε μια βάση δεδομένων από την γραμμή εντολών και να εκτελέσετε μια απλή αναζήτηση ελάχιστης διαδρομής στα δεδομένα επίδειξης.
 

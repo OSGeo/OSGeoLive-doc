@@ -18,9 +18,11 @@ MapFish Quickstart
 MapFish is a flexible and complete framework for building rich web-mapping
 applications. It emphasizes high productivity, and high-quality development. 
 
-This Quickstart describes how to (a) run the MapFish sample application
-installed on this live DVD, (b) install MapFish, and (c) create MapFish
-applications.
+This Quickstart describes how to 
+
+* run the MapFish sample application installed on this live DVD
+* install MapFish, and 
+* create MapFish applications.
 
 Run the sample application
 ==========================

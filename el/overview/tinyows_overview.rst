@@ -17,14 +17,14 @@ TinyOWS
 Web Feature Service
 ~~~~~~~~~~~~~~~~~~~
 
-Ο TinyOWS είναι ένας εξυπηρετητής υψηλών επιδόσεων του προτύπου Transactional Web Feature Service (WFS-T), ο οποίος είναι εύκολο να εγκατασταθεί και να χρησιμοποιηθεί, με τη χρήση διεπαφών CGI ή FastCGI και τη χρήση της :doc:`PostGIS <../overview/postgis_overview>` για αποθήκευση δεδομένων.
+Ο TinyOWS είναι ένας εξυπηρετητής υψηλών επιδόσεων του προτύπου Transactional Web Feature Service (WFS-T), ο οποίος είναι εύκολο να εγκατασταθεί και να χρησιμοποιηθεί, με τη χρήση διεπαφών CGI ή FastCGI και τη χρήση της :doc:`PostGIS <postgis_overview>` για αποθήκευση δεδομένων.
 
 .. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right
 
-Ο TinyOWS χρησιμοποιείται ευρέως με τον :doc:`MapServer <../overview/mapserver_overview>` για την υλοποίηση υπηρεσιών WFS-T και γρήγορων WFS για το :doc:`QGIS <../overview/qgis_overview>` και/ή για το :doc:`OpenLayers <../overview/openlayers_overview>`. Χρησιμοποιείται στην παραγωγή σε οργανισμούς ανα τον κόσμο, περιλαμβανομένων κυβερνητικών υπηρεσιών με υψηλό ρίσκο.
+Ο TinyOWS χρησιμοποιείται ευρέως με τον :doc:`MapServer <mapserver_overview>` για την υλοποίηση υπηρεσιών WFS-T και γρήγορων WFS για το :doc:`QGIS <qgis_overview>` και/ή για το :doc:`OpenLayers <openlayers_overview>`. Χρησιμοποιείται στην παραγωγή σε οργανισμούς ανα τον κόσμο, περιλαμβανομένων κυβερνητικών υπηρεσιών με υψηλό ρίσκο.
 Ο TinyOWS υλοποιεί αυστηρά τα πρότυπα WFS 1.0 και 1.1, και έχει περάσει με επιτυχία όλα τα δοκιμαστικά τέστ OGC CITE (~ 1000 τεστ).
 
 Βασικά Χαρακτηριστικά

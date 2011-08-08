@@ -20,9 +20,11 @@ mapas en la Web enriquecidas. Enfatiza en la alta productividad y el
 desarrollo de alta calidad.
 
 
-La guía de inicio describe cómo: (a) ejecutar la aplicación MapFish de
-ejemplo instalada en el Live DVD, (b) instalar MapFish y (c) crear aplicaciones
-MapFish
+La guía de inicio describe cómo: 
+
+* ejecutar la aplicación MapFish de ejemplo instalada en el Live DVD, 
+* instalar MapFish y 
+* crear aplicaciones MapFish
 
 Ejecutar la aplicación de ejemplo
 =================================

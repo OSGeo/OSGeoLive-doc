@@ -51,7 +51,7 @@ Details
 **Webseite:** http://www.orfeo-toolbox.org/
 
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
-  für fränzösisches Recht)
+  für französisches Recht)
 
 **Software Version:** 3.8
 

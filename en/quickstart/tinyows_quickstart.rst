@@ -15,7 +15,7 @@
 TinyOWS Quickstart 
 ******************
 
-TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or Fast CGI interface and using PostGIS for data storage.
+TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or FastCGI interface and using :doc:`PostGIS <../overview/postgis_overview>` for data storage.
 
 This Quick Start describes how to:
 

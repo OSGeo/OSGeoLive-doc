@@ -18,14 +18,14 @@ TinyOWS
 Web Feature Service
 ~~~~~~~~~~~~~~~~~~~
 
-TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender  Transaktionaler Web Feature Service (WFS-T), der CGI und FastCGI Schnittstellen unterstützt und :doc:`PostGIS <../overview/postgis_overview>` für die Datenspeicherung nutzt.
+TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender Transaktionaler Web Feature Service (WFS-T), der CGI und FastCGI Schnittstellen unterstützt und :doc:`PostGIS <postgis_overview>` für die Datenspeicherung nutzt.
 
 .. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right
 
-TinyOWS wird häufig in Verbindung mit einem :doc:`MapServer <../overview/mapserver_overview>` eingesetzt, um Daten über WFS-T und schnelle WFS Dienste für :doc:`QGIS <../overview/qgis_overview>` und/oder :doc:`OpenLayers <../overview/openlayers_overview>` Clients bereitzustellen. TinyOWS ist produktiv in Organsationen und Regierungsbehörden weltweit im Einsatz. WFS 1.0 und WFS 1.1 sind präzise implementiert, alle OGC CITE Tests - ca.  1000 - wurden erfolgreich durchlaufen.
+TinyOWS wird häufig in Verbindung mit einem :doc:`MapServer <mapserver_overview>` eingesetzt, um Daten über WFS-T und schnelle WFS Dienste für :doc:`QGIS <qgis_overview>` und/oder :doc:`OpenLayers <openlayers_overview>` Clients bereitzustellen. TinyOWS ist produktiv in Organsationen und Regierungsbehörden weltweit im Einsatz. WFS 1.0 und WFS 1.1 sind präzise implementiert, alle OGC CITE Tests - ca.  1000 - wurden erfolgreich durchlaufen.
 
 Kernfunktionen
 --------------
