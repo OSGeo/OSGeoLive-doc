@@ -31,11 +31,10 @@ Verfügbare Komponenten sind:
 
 
 Diese Quickstart-Anleitung beschreibt wie man...
-================================================
 
-* deegree 3 startet
-* die deegree 3 services console benutzt
-* einen deegree 3 workspace benutzt und anpasst
+  * deegree 3 startet
+  * die deegree 3 services console benutzt
+  * einen deegree 3 workspace benutzt und anpasst
 
 
 Über deegree 3
