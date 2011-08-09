@@ -26,9 +26,9 @@ Same as osgeo-live-4.5.iso, except it doesn't contain windows and mac installers
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 
-`osgeo-live-vm-4.5.iso: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
+`osgeo-live-vm-4.5.7z: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
 
-Premade virtual disk (.vmdk) suitable for use in VirtualBox, VMWare, KVM and other virtual machine applications. Does not contain windows and mac installers. Verify your download with its md5sum checksum `(osgeo-live-vm-4.5.7z.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
+Premade `7-Zip <http://www.7-zip.org/>`_ compressed virtual disk (.vmdk) suitable for use in VirtualBox, VMWare, KVM and other virtual machine applications. Does not contain windows and mac installers. Verify your download with its md5sum checksum `(osgeo-live-vm-4.5.7z.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
 
 For a full list of versions, download options and mirrors visit: http://download.osgeo.org/livedvd
 

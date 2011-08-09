@@ -26,7 +26,7 @@ Podobny obraz płyty do osgeo-live-4.5.iso, ale bez instalatorów na Windows i M
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 
-`osgeo-live-vm-4.5.iso: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
+`osgeo-live-vm-4.5.7z: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
 
 Przygotowany dysk wirtualny (.vmdk) do użycia na VirtualBox, VMWare, KVM i innych aplikacjach wirtualnych maszyn. Nie zawiera istalatorów Windows i Mac. Sprawdź pobrany plik z jego `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
 

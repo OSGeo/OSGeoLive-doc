@@ -27,9 +27,9 @@ Der gleiche Inhalt wie osgeo-live-4.5.iso,  mit Ausnahme der Windows- und MacOS-
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 
-`osgeo-live-mini-4.5.iso: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
+`osgeo-live-vm-4.5.7z: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
 
-Eine Virtual Disk .vmdk Abbilddatei zum Laden in einer virtuellen Maschine wie VirtualBox, VMWare Player, KVM und andere Anwendungen. Enthält keinen Windows oder Mac Installer. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-vm-4.5.7z.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
+Eine mit `7-Zip <http://www.7-zip.org/>`_ komprimierte Virtual Disk .vmdk Abbilddatei zum Laden in einer virtuellen Maschine wie VirtualBox, VMWare Player, KVM und andere Anwendungen. Enthält keinen Windows oder Mac Installer. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-vm-4.5.7z.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
 
 
 Eine vollständige Liste aller Versionen, Downloadoptionen und Spiegelserver finden Sie unter http://download.osgeo.org/livedvd
