@@ -20,7 +20,7 @@ Requerimientos de Sistema
 * Disco duro: 
 
  * No necesario cuando se ejecute directamente desde el DVD 
- * 10 Gig si se desea instalar el Sistema Operativo también. 
+ * |osgeo-live-hdspace| si se desea instalar el Sistema Operativo también. 
 
 * Ratón: se recomienda un ratón de 3 botones, especialmente para usuarios de Mac. 
 
@@ -36,19 +36,19 @@ Pasos:
     :scale: 70 %
     :alt: boot
 
-  Presionar ENTER para acceder a la siguiente pantalla.
+  Presionar :kbd:`ENTER` para acceder a la siguiente pantalla.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
-  Seleccionar "live - boot the Live System"
+  Seleccionar :guilabel:`live - boot the Live System`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
-  En la página de login, simplemente presionar ENTER o esperar a que la cuenta atrás finalice.
+  En la página de login, simplemente presionar :kbd:`ENTER` o esperar a que la cuenta atrás finalice.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %

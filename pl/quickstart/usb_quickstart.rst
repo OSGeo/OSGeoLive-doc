@@ -33,7 +33,7 @@ Jeśli używasz DVD, włóż płytę DVD do napędu DVD.
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Wybierz "System->Administration->Startup Disk Creator"
+Wybierz :menuselection:`System --> Administration --> Startup Disk Creator`
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
@@ -42,7 +42,7 @@ Wybierz CD Drive lub ISO Image.
 
 Wskaż PenDrive USB.
 
-Wybierz "Make Startup Disk"
+Wybierz :guilabel:`Make Startup Disk`
 
   .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
@@ -65,13 +65,13 @@ Zaakceptuj postanowienia licencji.
 Krok 1: Distrybucja: Wybierz dystrybucję xubuntu i386, która jest użyta w obrazie
 OSGeo-Live (dla osgeo-live-4.0, wybierz xubuntu 10.04 Desktop i386).
 
-Krok 2: Wybierz ostatni obraz ISO OSGeo-Live, który został pobrany na komputer. Uwaga: Trzeba ręcznie wprowadzić ścieżkę do pliku ISO, ponieważ przycisk "Browse" znajduje tylko pliki ISO xubuntu.
+Krok 2: Wybierz ostatni obraz ISO OSGeo-Live, który został pobrany na komputer. Uwaga: Trzeba ręcznie wprowadzić ścieżkę do pliku ISO, ponieważ przycisk :guilabel:`Browse` znajduje tylko pliki ISO xubuntu.
 
 Krok 3: Wybierz swój PenDrive USB.
 
 Krok 4: Wybierz "Persistence" jeśli chcesz zapamiętać stan pomiędzy sesjami.
 
-Wybierz "Create"
+Wybierz :guilabel:`Create`
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
 

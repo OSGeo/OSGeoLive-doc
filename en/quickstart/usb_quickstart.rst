@@ -17,8 +17,8 @@ We have only recently started testing USB drive Installers from OSGeo-Live 4.0. 
 Requirements
 ------------
 
-* A 4 Gig USB flash drive, if using osgeo-live-mini
-* A 8 Gig USB flash drive, if using osgeo-live
+* A 4 GB USB flash drive, if using osgeo-live-mini
+* A 8 GB USB flash drive, if using osgeo-live
 * An OSGeo-Live DVD or ISO image (downloaded from: http://live.osgeo.org/download.html)
 
 Creating bootable USB drive from Ubuntu
@@ -31,7 +31,7 @@ If using a DVD, then put the DVD into the DVD drive.
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Select "System->Administration->Startup Disk Creator"
+Select :menuselection:`System --> Administration --> Startup Disk Creator`
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
@@ -40,7 +40,7 @@ Select the CD Drive or ISO Image.
 
 Select the USB flash drive.
 
-Select "Make Startup Disk"
+Select :guilabel:`Make Startup Disk`
 
   .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
@@ -62,13 +62,13 @@ Accept the licence terms.
 
 Step 1: Distribution: Select the xubuntu i386 distribution used for the osgeo-live image. (for osgeo-live-4.0, select xubuntu 10.04 Desktop i386)
 
-Step 2: Select the latest osgeo-live iso which you should have downloaded locally. Note: You will need to manually enter the path to the ISO file, as the "Browse" button only finds xubuntu iso files.
+Step 2: Select the latest osgeo-live iso which you should have downloaded locally. Note: You will need to manually enter the path to the ISO file, as the :guilabel:`Browse` button only finds xubuntu iso files.
 
 Step 3: Select your USB flash drive
 
 Step 4: Select Persistence if you wish to remember state between sessions.
 
-Select "Create"
+Select :guilabel:`Create`
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
 

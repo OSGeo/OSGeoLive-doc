@@ -19,7 +19,7 @@ OSGeo-Live Virtual Machine from a DVD or ISO image.
 System Requirements
 -------------------
 
-* 10 Gig of spare Hard Disk Space
+* |osgeo-live-hdspace| of spare Hard Disk Space
 
 Install OSGeo-Live
 ------------------
@@ -27,7 +27,7 @@ Install OSGeo-Live
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
-Select "Install RELEASE"
+Select :guilabel:`Install RELEASE`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
@@ -59,16 +59,17 @@ Specify which disk to want to install on. (Beware, this may delete an existing
     :scale: 70 %
 
 Defaults for settings are:
-* Name = "user"
-* username = "user"
-* password = "user"
-* computer name = "osgeolive"
-* Log In automatically
+
+   * Name = "user"
+   * username = "user"
+   * password = "user"
+   * computer name = "osgeolive"
+   * Log In automatically
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
-Select "Install"
+Select :guilabel:`Install`
 
 Go and get a cup of coffee while installation is in progress.
 

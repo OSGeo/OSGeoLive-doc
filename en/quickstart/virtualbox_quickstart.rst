@@ -16,11 +16,11 @@ VirtualBox is an Open Source Virtual Machine which is used by many of the OSGeo-
 System Requirements
 -------------------
 
-* RAM: 1 Gig, preferably 2Gig if you plan to run other applications as well
+* RAM: 1 GB, preferably 2 GB if you plan to run other applications as well
 * Spare Hard Disk Space:
 
- * 10 Gig if running from ISO
- * 17 Gig if installing locally from an ISO
+ * |osgeo-live-hdspace| if running from ISO
+ * 17 GB if installing locally from an ISO
 
 Create a Virtual Machine
 ------------------------
@@ -33,12 +33,12 @@ Open Virtual Box
   .. image:: ../../images/screenshots/800x600/virtualbox.png
     :scale: 70 %
 
-Select "New" to create a new Virtual Machine.
+Select :guilabel:`New` to create a new Virtual Machine.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_create_vm.png
     :scale: 70 %
 
-Select "Next"
+Select :guilabel:`Next`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
     :scale: 70 %
@@ -63,19 +63,19 @@ and tools set, then include the hard disk, and install later.
   .. image:: ../../images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
-Select "Continue"
+Select :guilabel:`Continue`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_final_check.png
     :scale: 70 %
 
-Select "Finish"
+Select :guilabel:`Finish`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_settings.png
     :scale: 70 %
 
 The image is now created, but we now need to simulate having an OSGeo-Live DVD in the CD drive.
 
-Right click on the "osgeo-live" image, and select "Settings".
+Right click on the "osgeo-live" image, and select :guilabel:`Settings`.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_set_cd.png
     :scale: 70 %
@@ -124,7 +124,7 @@ Apply the changes.
 Reboot the virtual machine and the display settings should match your host
 computer's display settings. These can be changed via:
 
-Select: Applications -> Settings -> Xfce 4 Settings Manager -> Display
+Select: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
 
 See Also:
 ---------

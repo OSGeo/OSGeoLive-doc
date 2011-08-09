@@ -20,7 +20,7 @@ Systemvoraussetzungen
 * Festplatte: 
 
  * Keine benötigt, wenn sie direkt von DVD läuft.
- * 10 GB, wenn Sie das System auf der Festplatte installieren möchten.
+ * |osgeo-live-hdspace|, wenn Sie das System auf der Festplatte installieren möchten.
 
 * Maus: eine 3-Button Maus ist nützlich, vor allem für Mac Trackpad Benutzer.
 
@@ -36,19 +36,19 @@ Starten:
     :scale: 70 %
     :alt: boot
 
-  Drücken Sie ENTER um zur nächsten Seite zu gelangen.
+  Drücken Sie :kbd:`ENTER` um zur nächsten Seite zu gelangen.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
-  Wählen Sie "live - boot the Live System"
+  Wählen Sie :guilabel:`live - boot the Live System`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
-  Drücken Sie auf der Loginseite einfach ENTER oder warten, bis der Countdown abläuft.
+  Drücken Sie auf der Loginseite einfach :kbd:`ENTER` oder warten, bis der Countdown abläuft.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %

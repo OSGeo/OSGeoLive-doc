@@ -19,7 +19,7 @@ OSGeo-Live VM aus einem DVD oder ISO Abbild zu erzeugen.
 Systemvoraussetzungen
 ---------------------
 
-* 10 GB freier Festplattenspeicher
+* |osgeo-live-hdspace| freier Festplattenspeicher
 
 Install OSGeo-Live
 ------------------
@@ -27,7 +27,7 @@ Install OSGeo-Live
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
-Wählen Sie "Install RELEASE"
+Wählen Sie :guilabel:`Install RELEASE`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
@@ -59,16 +59,17 @@ Geben Sie an, auf welche Festplatte Sie installieren möchten (Achtung,
     :scale: 70 %
 
 Standardeinstellungen sind:
-* Name = "user"
-* username = "user"
-* password = "user"
-* computer name = "osgeolive"
-* Log In automatically
+
+   * Name = "user"
+   * username = "user"
+   * password = "user"
+   * computer name = "osgeolive"
+   * Log In automatically
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
-Wählen Sie "Install"
+Wählen Sie :guilabel:`Install`
 
 Holen Sie sich einen Kaffee, während die Installation durchgeführt wird.
 

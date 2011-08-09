@@ -8,7 +8,7 @@ La última versión estable de |osgeo-live-version| contiene:
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso
 
-`osgeo-live-4.5.iso, 4.1 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso>`_
+`osgeo-live-4.5.iso, 4.1 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso>`_
 
 Un DVD de arranque basado en Xubuntu, que también incluye instaladores para
 Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la descarga con su `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso.md5>`_.
@@ -18,7 +18,7 @@ Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la d
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso
 
-`osgeo-live-mini-4.5.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso>`_
+`osgeo-live-mini-4.5.iso: 3.2 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso>`_
 
 Igual que osgeo-live-4.5.iso, excepto que no contiene instaladores para Windows y Mac y se puede copiar en una memoria USB de arranque de 4GB. Verificar la descarga con su `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso.md5>`_.
 
@@ -27,7 +27,7 @@ Igual que osgeo-live-4.5.iso, excepto que no contiene instaladores para Windows 
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 
-`osgeo-live-mini-4.5.iso: 2.6 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
+`osgeo-live-mini-4.5.iso: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
 
 Disco virtual (.vmdk) apropiado para utilizarse con VirtualBox, VMWare, KVM y otras aplicaciones de virtualización de máquinas. No contiene instaladores Windows y Mac. Verificar la descarga con su `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
 

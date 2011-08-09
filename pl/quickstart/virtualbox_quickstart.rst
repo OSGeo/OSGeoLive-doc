@@ -19,7 +19,7 @@ Wymagania systemowe
 * RAM: 1 GB, najlepiej 2 GB, jeśli planowane jest używanie także innych programów.
 * Wolne miejsce na twardym dysku: 
 
- * 5 GB jeśli uruchamiane z ISO
+ * |osgeo-live-hdspace| jeśli uruchamiane z ISO
  * 17 GB jeśli instalowane lokalnie z ISO
 
 Utwórz wirtualną maszynę
@@ -33,12 +33,12 @@ Otwórz Virtual Box
   .. image:: ../../images/screenshots/800x600/virtualbox.png
     :scale: 70 %
 
-Wybierz "New" aby utworzyć nową wirtualną maszynę.
+Wybierz :guilabel:`New` aby utworzyć nową wirtualną maszynę.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_create_vm.png
     :scale: 70 %
 
-Wybierz "Next"
+Wybierz :guilabel:`Next`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
     :scale: 70 %
@@ -60,19 +60,19 @@ Jeśli chcesz utworzyć stałą wirtualna maszynę, która zapisuje stan między
   .. image:: ../../images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
-Wybierz "Continue"
+Wybierz :guilabel:`Continue`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_final_check.png
     :scale: 70 %
 
-Wybierz "Finish"
+Wybierz :guilabel:`Finish`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_settings.png
     :scale: 70 %
 
 Obraz został stworzony, ale musimy teraz symulować istnienie OSGeo-Live DVD w napędzie CD.
 
-Kliknij prawym na obrazie "osgeo-live" i wybierz "Settings".
+Kliknij prawym na obrazie "osgeo-live" i wybierz :guilabel:`Settings`.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_set_cd.png
     :scale: 70 %
@@ -118,7 +118,7 @@ Zatwierdź zmiany.
 
 Ponownie uruchom wirtualną maszynę, a ustawienia wyświetlania powinny być takie same jak ustawione dla gospodarza komputera. Można je zmienić w następujący sposób:
 
-Wybierz: Applications -> Settings -> Xfce 4 Settings Manager -> Display
+Wybierz: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
 
 Zobacz również:
 ---------------

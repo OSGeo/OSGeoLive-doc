@@ -17,10 +17,10 @@ VirtualBox ist eine Open Source Virtualisierungsumgebung, die von vielen OSGeo-L
 Systemvoraussetzungen
 ---------------------
 
-* RAM: 1 GB, besser 2GB wenn Sie eine weitere Anwendung laufen lassen wollen
+* RAM: 1 GB, besser 2 GB wenn Sie eine weitere Anwendung laufen lassen wollen
 * Freier Speicher auf der Festplatte:
 
- * 10 GB, wenn von dem ISO gestartet wird
+ * |osgeo-live-hdspace|, wenn von dem ISO gestartet wird
  * 17 GB, wenn das ISO lokal installiert werden soll
 
 Erstellen der Virtualisierungsumgebung
@@ -35,12 +35,12 @@ Herunterladen und Installieren von `Virtual Box <http://www.virtualbox.org/>`_. 
   .. image:: ../../images/screenshots/800x600/virtualbox.png
     :scale: 70 %
 
-Wähle "Neu", um eine neue Virtualisierungsumgebung zu erstellen.
+Wähle :guilabel:`New`, um eine neue Virtualisierungsumgebung zu erstellen.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_create_vm.png
     :scale: 70 %
 
-Wähle "Weiter"
+Wähle :guilabel:`Next`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
     :scale: 70 %
@@ -65,12 +65,12 @@ die hard disk hinzu und installieren später.
   .. image:: ../../images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
-Wähle "Weiter"
+Wähle :guilabel:`Continue`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_final_check.png
     :scale: 70 %
 
-Wähle "Beenden"
+Wähle :guilabel:`Finish`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_settings.png
     :scale: 70 %
@@ -78,12 +78,12 @@ Wähle "Beenden"
 Das Image ist nun erstellt, wir können die Simulation starten, mit der OSGeo-Live 
 DVD im DVD Laufwerk.
 
-Klicken Sie mit der rechten Maustaste auf "osgeo-live" Image und wählen Sie "Einstellungen".
+Klicken Sie mit der rechten Maustaste auf "osgeo-live" Image und wählen Sie :guilabel:`Settings`.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_set_cd.png
     :scale: 70 %
 
-Wähle "Medium", CD/DVD Device, ...
+Wähle "Storage", CD/DVD Device, ...
 
   .. image:: ../../images/screenshots/800x600/virtualbox_add_dvd.png
     :scale: 70 %
@@ -129,7 +129,7 @@ Markieren Sie "virtualbox-ose-guest-utils" für die Installation.
 Rebooten Die die Virtualisierungsumgebung. Danach sollten die Bildschirmeinstellungen 
 denen ihres Hosts entsprechen. Sie können dies ändern durch:
 
-Selektieren von: Anwendungen -> Einstellungen -> Xfce 4 Settings Manager -> Darstellung
+Selektieren von: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
 
 Weiterführende Links
 --------------------

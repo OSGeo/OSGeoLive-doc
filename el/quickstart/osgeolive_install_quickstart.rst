@@ -18,7 +18,7 @@ OSGeo-Live από ένα DVD ή από ένα αρχείο ISO.
 Απαιτήσεις συστήματος
 ---------------------
 
-* 12 Gig χώρου στο σκληρό δίσκο
+* |osgeo-live-hdspace| χώρου στο σκληρό δίσκο
 
 Εγκατάσταση OSGeo-Live
 ----------------------
@@ -26,7 +26,7 @@ OSGeo-Live από ένα DVD ή από ένα αρχείο ISO.
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
-Επιλέξτε "Install RELEASE"
+Επιλέξτε :guilabel:`Install RELEASE`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
@@ -58,16 +58,17 @@ OSGeo-Live από ένα DVD ή από ένα αρχείο ISO.
     :scale: 70 %
 
 Οι προεπιλεγμένες ρυθμίσεις είναι:
-* Όνομα (Name)= "user"
-* Αναγνωριστικό χρήστη (username) = "user"
-* Κωδικός Πρόσβασης (password) = "user"
-* Όνομα υπολογιστή (computer name) = "osgeolive"
-* Συνδεθείτα αυτόματα
+
+   * Όνομα (Name)= "user"
+   * Αναγνωριστικό χρήστη (username) = "user"
+   * Κωδικός Πρόσβασης (password) = "user"
+   * Όνομα υπολογιστή (computer name) = "osgeolive"
+   * Συνδεθείτα αυτόματα
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
-Επιλέξτε "Install"
+Επιλέξτε :guilabel:`Install`
 
 Είναι ώρα για καφέ, όση ώρα γίνεται η εγκατάσταση.
 

@@ -16,11 +16,11 @@
 Απαιτήσεις συστήματος
 ---------------------
 
-* Μνήμη RAM: 1 Gig, με προτίμηση τα 2Gig εφόσον θέλετε να εκτελέσετε και άλλες εφαρμογές μέσα στη μηχανή
+* Μνήμη RAM: 1 GB, με προτίμηση τα 2 GB εφόσον θέλετε να εκτελέσετε και άλλες εφαρμογές μέσα στη μηχανή
 * Διαθέσιμο χώρο σκηρού δίσκου:
 
- * 10 Gig εαν εκτελείτε από αρχείο ISO
- * 17 Gig εαν εγκαταστήσετε τοπικά από αρχείο ISO
+ * |osgeo-live-hdspace| εαν εκτελείτε από αρχείο ISO
+ * 17 GB εαν εγκαταστήσετε τοπικά από αρχείο ISO
 
 Δημιουργία Εικονικής Μηχανής
 ----------------------------
@@ -33,12 +33,12 @@
   .. image:: ../../images/screenshots/800x600/virtualbox.png
     :scale: 70 %
 
-Επιλέξτε "New" για να δημιουργήσετε μια νέα εικονική μηχανή.
+Επιλέξτε :guilabel:`New` για να δημιουργήσετε μια νέα εικονική μηχανή.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_create_vm.png
     :scale: 70 %
 
-Επιλέξτε "Next"
+Επιλέξτε :guilabel:`Next`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
     :scale: 70 %
@@ -62,19 +62,19 @@
   .. image:: ../../images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
-Επιλέξτε "Continue"
+Επιλέξτε :guilabel:`Continue`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_final_check.png
     :scale: 70 %
 
-Επιλέξτε "Finish"
+Επιλέξτε :guilabel:`Finish`
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_settings.png
     :scale: 70 %
 
 Η εικονική μηχανή έχει δημιουργηθεί, αλλά τώρα χρειαζόμαστε την εξομοίωση ενός DVD OSGeo-Live στο CD-ROM της εικονικής μηχανής.
 
-Κάντε δεξί κλίκ στην εικόνα "osgeo-live", και επιλέξτε "Settings".
+Κάντε δεξί κλίκ στην εικόνα "osgeo-live", και επιλέξτε :guilabel:`Settings`.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_set_cd.png
     :scale: 70 %
@@ -121,7 +121,7 @@
 
 Επανεκκινήστε την εικονική μηχανή και οι ρυθμίσεις της οθόνης σας θα πρέπει να έχουν γίνει αυτόματα. Αυτές μπορούν να γίνουν από:
 
-Επιλογή: Applications -> Settings -> Xfce 4 Settings Manager -> Display
+Επιλογή: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
 
 Δείτε ακόμα:
 ------------

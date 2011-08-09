@@ -17,7 +17,7 @@ La instalación desde DVD o imagen ISO también se puede hacer en una máquina v
 Requerimientos de Sistema
 -------------------
 
-* 12 Gig de espacio libre en Disco Duro
+* |osgeo-live-hdspace| de espacio libre en Disco Duro
 
 Instalar OSGeo-Live
 ------------------
@@ -25,7 +25,7 @@ Instalar OSGeo-Live
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
-Seleccionar "Install RELEASE"
+Seleccionar :guilabel:`Install RELEASE`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
@@ -57,16 +57,17 @@ Especificar el disco en el que se quiere instalar. (Precaución, esto puede borr
     :scale: 70 %
 
 Las propiedades por defecto son:
-* Name = "user"
-* username = "user"
-* password = "user"
-* computer name = "osgeolive"
-* Log In automatically
+
+   * Name = "user"
+   * username = "user"
+   * password = "user"
+   * computer name = "osgeolive"
+   * Log In automatically
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
-Seleccionar "Install"
+Seleccionar :guilabel:`Install`
 
 Ir a por una taza de café mientras la instalación está progreso.
 

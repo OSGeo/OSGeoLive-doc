@@ -31,7 +31,7 @@ Falls Sie eine DVD benutzen legen Sie die DVD in das DVD-Laufwerk.
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Wählen Sie "System->Administration->Startup Disk Creator"
+Wählen Sie :menuselection:`System --> Administration --> Startup Disk Creator`
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
@@ -40,7 +40,7 @@ Wählen Sie das DVD-Laufwerk oder das ISO-Abbild.
 
 Wählen Sie den USB-Stick.
 
-Wählen Sie "Make Startup Disk"
+Wählen Sie :guilabel:`Make Startup Disk`
 
   .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
@@ -62,13 +62,13 @@ Akzeptieren Sie die Nutzungsbedingungen.
 
 Schritt 1: Distribution: Wählen Sie die xubuntu i386 Distribution, die für das OSGeo-live Image benutzt wird. (Für osgeo-live-4.0 wählen Sie xubuntu 10.04 Desktop i386)
 
-Schritt 2: Wählen Sie die aktuelle OSGeo-Live ISO-Datei, die Sie hoffentlich local abgespeichert haben. Achtung: Sie müssen den Pfad zur ISO-Datei manuell eingeben, da der "Browse"-Button nur xubuntu ISO-Dateien anzeigt.
+Schritt 2: Wählen Sie die aktuelle OSGeo-Live ISO-Datei, die Sie hoffentlich local abgespeichert haben. Achtung: Sie müssen den Pfad zur ISO-Datei manuell eingeben, da der :guilabel:`Browse`-Button nur xubuntu ISO-Dateien anzeigt.
 
 Schritt 3: Wählen Sie Ihr USB-Laufwerk.
 
 Schritt 4: Wählen Sie "Persistence", wenn Sie Daten zwischen Ihren Sessions abspeichern wollen.
 
-Wählen Sie "Create"
+Wählen Sie :guilabel:`Create`
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
 
@@ -103,5 +103,5 @@ Siehe auch:
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`
- * Wenn Sie Probleme haben tragen Sie diese bitte auf dieser Wiki-Seite ein: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB und diskutieren Sie auf unserer Mailingliste: http://lists.osgeo.org/mailman/listinfo/live-demo
+ * Wenn Sie Probleme haben, tragen Sie diese bitte auf dieser Wiki-Seite ein: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB und diskutieren Sie auf unserer Mailingliste: http://lists.osgeo.org/mailman/listinfo/live-demo
  * Für weitere USB Startoptionen lesen Sie http://pendrivelinux.com 

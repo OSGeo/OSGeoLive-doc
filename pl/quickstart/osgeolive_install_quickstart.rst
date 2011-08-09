@@ -17,7 +17,7 @@ Ten proces może być również uruchomiony wewnątrz wirtualnej maszyny, aby z 
 Wymagania systemowe
 -------------------
 
-* 12GB miejsca na twardym dysku
+* |osgeo-live-hdspace| miejsca na twardym dysku
 
 Instalowanie OSGeo-Live
 -----------------------
@@ -25,7 +25,7 @@ Instalowanie OSGeo-Live
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
-Wybierz "Install RELEASE"
+Wybierz :guilabel:`Install RELEASE`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
@@ -56,16 +56,17 @@ Wybierz dysk, na którym chcesz zainstalować OSGeo-Live. (Uważaj, może to usu
     :scale: 70 %
 
 Defaults for settings are:
-* Nazwa = "user"
-* użytkownik = "user"
-* hasło = "user"
-* nazwa komputera = "osgeolive"
-* Log In automatically
+
+   * Nazwa = "user"
+   * użytkownik = "user"
+   * hasło = "user"
+   * nazwa komputera = "osgeolive"
+   * Log In automatically
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
-Wybierz "Install"
+Wybierz :guilabel:`Install`
 
 Idź na kawę, póki trwa proces instalacji.
 

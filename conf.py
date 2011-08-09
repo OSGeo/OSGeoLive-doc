@@ -206,5 +206,6 @@ latex_documents = [
 # see http://sphinx.readthedocs.org/en/latest/config.html#confval-rst_epilog
 rst_epilog="""
 .. |osgeo-live-project| replace:: %(projectname)s
-.. |osgeo-live-version| replace:: %(projectname)s %(projectversion)s 
-""" % { 'projectname':project,'projectversion': version }
+.. |osgeo-live-version| replace:: %(projectname)s %(projectversion)s
+.. |osgeo-live-hdspace| replace:: %(required_hd_space)02d GB
+""" % { 'projectname':project,'projectversion': version, 'required_hd_space': 10}

@@ -9,7 +9,7 @@ Die aktuelle stabile Version von |osgeo-live-version| enthält:
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso
 
-`osgeo-live-4.5.iso, 4.1 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso>`_
+`osgeo-live-4.5.iso, 4.1 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso>`_
 
 Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-4.5.iso.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.iso.md5>`_.
 
@@ -18,7 +18,7 @@ Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme fü
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso
 
-`osgeo-live-mini-4.5.iso: 3.2 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso>`_
+`osgeo-live-mini-4.5.iso: 3.2 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso>`_
 
 Der gleiche Inhalt wie osgeo-live-4.5.iso,  mit Ausnahme der Windows- und MacOS-Installationsprogramme. Außerdem kann es auf ein bootfähiges USB-Laufwerk kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-mini-4.5.iso.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso.md5>`_.
 
@@ -27,7 +27,7 @@ Der gleiche Inhalt wie osgeo-live-4.5.iso,  mit Ausnahme der Windows- und MacOS-
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 
-`osgeo-live-mini-4.5.iso: 2.6 Gig <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
+`osgeo-live-mini-4.5.iso: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z>`_
 
 Eine Virtual Disk .vmdk Abbilddatei zum Laden in einer virtuellen Maschine wie VirtualBox, VMWare Player, KVM und andere Anwendungen. Enthält keinen Windows oder Mac Installer. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-vm-4.5.7z.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z.md5>`_.
 
