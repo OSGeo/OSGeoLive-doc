@@ -11,8 +11,8 @@
     to work, including every screen shot involved in the sequence.
   Finish off with "Things to Try" and "What Next?" sections.
   Assume the user has very little domain expertise, so spell everything out.
-  If using example data, please use the general layers from naturalearth
-   and Open Street Map. These layers are loaded by install_gisdata.sh into:
+  If using example data, please use the general layers from NaturalEarth
+   and Open Street Map. These layers are loaded into:
    Open Street Map:
      /home/user/data/osm/
    Vector Data: Available as .shp files

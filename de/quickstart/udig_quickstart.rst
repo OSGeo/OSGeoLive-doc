@@ -10,9 +10,9 @@
   mit wenig Expertenwissen verstehen können, was in den einzelnen Schritten erreicht 
   werden soll. Abkürzungen sollten erklärt beziehungsweise ausgeschrieben werden.
  
-  Wenn Beispieldaten verwendet werden sollen, sollten Naturalearth beziehungsweise
+  Wenn Beispieldaten verwendet werden sollen, sollten NaturalEarth beziehungsweise
   Openstreetmap Datensätze verwendet werden. Diese Beispieldaten werden durch das Installationsskript
-  install_gisdata.sh mit installiert:
+  load_gisdata.sh mit installiert:
    Opensreetmap:
      /home/user/data/osm/
    Vektordaten als Shape (*.shp) -Dateien : 
