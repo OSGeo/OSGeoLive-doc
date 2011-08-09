@@ -20,7 +20,10 @@ About
 The 52North Web Security Service (WSS) lets you easily restrict access to spatial services and
 their resources using role-based permissions.
 
-.. Cameron comment: Please include an image, maybe a screen grab of a configuration page, or even a stock photo of a lock if you haven't got a good screen grab. Make sure you have the rights to release image as Creative Commons.
+.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+  :scale: 100 %
+  :alt: Screenshot of WSS Management UI
+  :align: right
 
 With 52North WSS you can define access policies like:
 
@@ -33,8 +36,9 @@ or
 The 52North WSS is a Java Web Application which usually runs in a Apache Tomcat Servlet container.
 It acts as a proxy for an arbitrary number of OGC Web Services, receiving all requests and acting 
 upon the defined policies. Thus, existing service implementations don't need to be changed.
+Policies and users are specified by means of XML files, currently, although there is a general interface
+that allows to connect to any kind of source providing permission and user data.
 
-.. Cameron comment: I suggest adding a sentence here, or in Features, noting how a user would create an access policy. Is there a web GUI and pull down lists? Or does a user create an XML file?
 
 Features
 --------------------------------------------------------------------------------
