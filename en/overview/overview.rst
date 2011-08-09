@@ -39,7 +39,7 @@ Desktop GIS
 * :doc:`geopublisher_overview`- [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Catalogue
 * :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Style Editor
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
-* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
+.. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
 
 Navigation and Maps
 --------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ Web Services
 * :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
+.. temp disabled to save on disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Catalog and Catalog Services for Web
