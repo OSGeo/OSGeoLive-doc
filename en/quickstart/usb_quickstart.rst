@@ -60,7 +60,7 @@ Accept the licence terms.
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
 
-Step 1: Distribution: Select the xubuntu i386 distribution used for the osgeo-live image. (for osgeo-live-4.0, select xubuntu 10.04 Desktop i386)
+Step 1: Distribution: Select the xubuntu i386 distribution used for the osgeo-live image. (for |osgeo-live-version|, select xubuntu 10.04 Desktop i386)
 
 Step 2: Select the latest osgeo-live iso which you should have downloaded locally. Note: You will need to manually enter the path to the ISO file, as the :guilabel:`Browse` button only finds xubuntu iso files.
 

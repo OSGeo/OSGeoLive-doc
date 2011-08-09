@@ -59,7 +59,7 @@
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
 
-Βήμα 1: Διανομή: Επιλέξτε τη διανομή xubuntu i386 που χρησιμοποιεί το osgeo-live. (για το osgeo-live-4.0, επιλέξτε xubuntu 10.04 Desktop i386)
+Βήμα 1: Διανομή: Επιλέξτε τη διανομή xubuntu i386 που χρησιμοποιεί το osgeo-live. (για το |osgeo-live-version|, επιλέξτε xubuntu 10.04 Desktop i386)
 
 Βήμα 2: Επιλέξτε το αρχείο iso που κατεβάσατε τοπικά. Σημείωση: Θα χρειαστεί να πληκτρολογήσετε το σημείο που βρίσκεται το αρχείο ISO, καθώς το κουμπί :guilabel:`Browse` βρίσκει μόνο τα αρχεία iso του xubuntu.
 
