@@ -22,13 +22,13 @@
 εγχειρίδιο εκμάθησης (HTML και PDF) και δεδομένα για να το εκτελέσετε.
 
 Η τεκμηρίωση και το εγχειρίδιο είναι στην θέση
- `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
+  `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 τα παραδείγματα στην θέση
- `/usr/share/doc/gmt-examples/examples/ <file:///usr/share/doc/gmt-examples/examples/>`_,
+  `/usr/share/doc/gmt-examples/examples/ <file:///usr/share/doc/gmt-examples/examples/>`_,
 και τα δεδομένα του εγχειριδίου στην θέση
- `/usr/share/doc/gmt-tutorial/tutorial/ <file:///usr/share/doc/gmt-tutorial/tutorial/>`_.
+  `/usr/share/doc/gmt-tutorial/tutorial/ <file:///usr/share/doc/gmt-tutorial/tutorial/>`_.
 
-Η χαμηλής ανάλυσης ακτογραμμή είναι στην θέση /usr/share/gmt/coast/.
+Η χαμηλής ανάλυσης ακτογραμμή είναι στην θέση :file:`/usr/share/gmt/coast/`.
 
 .. packages:
   gmt-doc (και -pdf)
@@ -52,7 +52,7 @@
 
 `[whiz .. bang .. whirl]`
 
-Δείτε τα αποτελέσματα με: (πατήστε  'q' για έξοδο από το gv)
+Δείτε τα αποτελέσματα με: (πατήστε :kdb:`q` για έξοδο από το :command:`gv` [#gv]_)
 
 ::
 
@@ -61,4 +61,5 @@
      gv "$PLOT"
   done
 
-
+.. Rubric:: Footnotes
+.. [#gv] Ghostview  http://www.gnu.org/software/gv/

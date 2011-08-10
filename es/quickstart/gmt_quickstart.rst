@@ -10,25 +10,25 @@
   :align: right
   :target: http://gmt.soest.hawaii.edu
 
-**************
+******************************
 Guía de inicio rápido para GMT 
-**************
+******************************
 
 Ejecución de GMT
-=======
+================
 
 Incluido en este LiveDVD esta la documentación de GMT en formatos (HTML y PDF),
 algunos scripts de ejemplo (incluida la línea costera de todo el mundo en baja resolución),
 un tutorial en formato (HTML y PDF), y los datos correspondientes del tutorial.
 
 Documentación en HTML y PDF y un tutorial se puede encontrar en
- `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
+  `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 Ejemplos se pueden encontrar en
- `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
+  `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
 Los datos del tutorial se puede encontrar en
- `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
+  `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
 
-la línea costera de todo el mundo a baja resolución se puede encontrar en /usr/share/gmt/coast/.
+La línea costera de todo el mundo a baja resolución se puede encontrar en :file:`/usr/share/gmt/coast/`.
 
 .. paquetes:
   gmt-doc (and -pdf)
@@ -52,7 +52,7 @@ Abrir una ventana de terminal, y después escribir:
 
 `[Abracadabra .. Magia ..]`
 
-Vea los resultados: ( Escriba 'q' para salir de gv)
+Vea los resultados: ( Escriba :kbd:`q` para salir de :command:`gv` [#gv]_ )
 
 ::
 
@@ -63,10 +63,6 @@ Vea los resultados: ( Escriba 'q' para salir de gv)
   
   
 Vea también:
----------
+------------
 
-* **Sitio web de GNU GV** - Ghostview  http://www.gnu.org/software/gv/
-
-
-
-
+.. [#gv] **Sitio web de GNU GV** - Ghostview  http://www.gnu.org/software/gv/
