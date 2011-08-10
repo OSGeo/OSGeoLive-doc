@@ -27,7 +27,7 @@ Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la d
 Igual que osgeo-live-4.5.iso, excepto que no contiene instaladores para Windows y Mac y se puede copiar en una memoria USB de arranque de 4GB. Verificar la descarga con su `md5sum <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
-  :alt: Descargar 2.6 Gigabyte 7-zip de Maquina Virtual sin instalador Windows y Mac
+  :alt: Descargar 2.6 GB 7-zip de Maquina Virtual sin instalador Windows y Mac
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 

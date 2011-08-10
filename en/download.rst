@@ -26,7 +26,7 @@ An Xubuntu based bootable DVD, which also includes windows and mac installers. I
 Same as osgeo-live-4.5.iso, except it doesn't contain windows and mac installers and can be copied onto a 4 GB bootable USB thumb drive. Verify your download with its md5sum checksum `(osgeo-live-mini-4.5.iso.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-mini-4.5.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
-  :alt: Download 2.6 Gigabyte 7-zip of a Virtual Machine without Windows and Mac installers
+  :alt: Download 2.6 GB 7-zip of a Virtual Machine without Windows and Mac installers
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-vm-4.5.7z
 
