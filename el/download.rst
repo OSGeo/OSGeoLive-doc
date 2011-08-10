@@ -1,3 +1,5 @@
+.. Writing Tip:  there a several replacements defined in conf.py in the root doc folder  do not replace |osgeolive-iso-size|, |osgeolive-iso-mini-size| and |osgeolive-vm-7z-size|
+
 Μεταφόρτωση - Download
 ======================
 
@@ -8,7 +10,7 @@
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso
 
-`osgeo-live-4.5.iso, 4.3 GB <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso>`_
+`osgeo-live-4.5.iso <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso>`_ : |osgeolive-iso-size|
 
 Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Xubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 Gig. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-4.5.iso.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso.md5>`_.
 
@@ -17,7 +19,7 @@
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5-mini.iso
 
-`osgeo-live-mini-4.5.iso: 3.3 GB <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5-mini.iso>`_
+`osgeo-live-mini-4.5.iso <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5-mini.iso>`_ : |osgeolive-iso-mini-size|
 
 Το ίδιο με το osgeo-live-4.5.iso, με τη διαφορά ότι δεν περιλαμβάνει τις εγκαταστάσεις για  Windows και Mac και μπορεί να αντιγραφεί σε USB αυτόματης εκκίνησης  μεγέθους 4 Gig. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-mini-4.5.iso.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeolive-4.5.iso.md5>`_.
 
@@ -26,7 +28,7 @@
   :align: left
   :target: http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-vm.7z
 
-`osgeo-live-4.5-vm.7z: 2.6 GB <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-vm.7z>`_
+`osgeo-live-4.5-vm.7z <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5-vm.7z>`_ : |osgeolive-vm-7z-size|
 
 Εικονική μηχανή (.vmdk) κατάλληλη για χρήση με τα VirtualBox, VMWare, KVM και άλλα λογισμικά εικονικών μηχανών. Δεν περιλαμβάνει προγράμματα εγκατάστασης για windows και mac. Επιβεβαιώστε το αρχείο με το md5sum checksum `(osgeo-live-vm-4.5.7z.md5) <http://download.osgeo.org/livedvd/release/4.5/osgeo-live-4.5.7z.md5>`_.
 

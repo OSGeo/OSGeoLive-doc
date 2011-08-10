@@ -13,6 +13,8 @@
 
 import sys, os
 
+execfile('settings.py')
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -202,10 +204,21 @@ latex_documents = [
 # If false, no module index is generated.
 #latex_use_modindex = True
 
+# TODO (fgdrf) read the values from flat text file
 # global replacements that will be included at the end of every source file 
 # see http://sphinx.readthedocs.org/en/latest/config.html#confval-rst_epilog
 rst_epilog="""
 .. |osgeo-live-project| replace:: %(projectname)s
 .. |osgeo-live-version| replace:: %(projectname)s %(projectversion)s
 .. |osgeo-live-hdspace| replace:: %(required_hd_space)02d GB
-""" % { 'projectname':project,'projectversion': version, 'required_hd_space': 10}
+.. |osgeolive-iso-size| replace:: %(iso_size).1f GB
+.. |osgeolive-iso-mini-size| replace:: %(iso_mini_size).1f GB
+.. |osgeolive-vm-7z-size| replace:: %(vm_7z_size).1f GB
+""" % { 
+  'projectname':project,
+  'projectversion': version, 
+  'required_hd_space': req_hd_size,
+  'iso_size': iso_size,
+  'iso_mini_size': iso_mini_size,
+  'vm_7z_size': vm_7z_size
+}
