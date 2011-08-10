@@ -20,11 +20,11 @@ Metadata Catalog
 
 pycsw ist eine OGC CSW Server Implementatation, die in Python geschrieben wurde.
 
-pycsw implementiert die Klausel 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) der OpenGIS Catalogue Service Implementation Specification, version 2.0.2. Die Entwicklung begann im Jahr 2010 (die offizielle Ankündigung erfolgte 2011).
+pycsw implementiert die Klausel 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) der OpenGIS Catalogue Service Implementation Specification, Version 2.0.2. Die Entwicklung begann im Jahr 2010 (die offizielle Ankündigung erfolgte 2011).
 
-pycsw ermöglicht die Veröffentlichung und das Auffinden räumlicher Metadaten. Bestehende Repositories mit räumlichen Metadaten können über OGC:CSW 2.0.2 gereitgestellt werden.
+pycsw ermöglicht die Veröffentlichung und das Auffinden räumlicher Metadaten. Bestehende Repositories mit räumlichen Metadaten können über OGC:CSW 2.0.2 bereitgestellt werden.
 
-pycsw ist Open Source und wurde unter der MIT Lizenz veröffentlicht. pycsw auf allen gängigen Plattformen (Windows, Linux, Mac OS X).
+pycsw ist Open Source Software und wurde unter der MIT Lizenz veröffentlicht. pycsw ist auf allen gängigen Plattformen (Windows, Linux, Mac OS X) lauffähig.
 
 
 Kernfunktionen
@@ -36,9 +36,9 @@ Kernfunktionen
 * implementiert das FGDC CSDGM Application Profile for CSW 2.0
 * unterstützt die Metadatenmodelle ISO, Dublin Core, DIF, FGDC
 * einfache Konfiguration
-* transactional capabilities (CSW-T)
+* Transaktionale Fähigkeiten (CSW-T)
 * flexible Repository Konfiguration
-* federated catalogue distributed searching
+* Absetzen von Suchanfragen an verschiedene Kataloge
 * XML Schema Validierung in Echtzeit
 * erweiterbare Profil Plugin Architektur
 * sehr schlank (Python + CGI)
