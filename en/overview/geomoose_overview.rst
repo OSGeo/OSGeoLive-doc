@@ -25,7 +25,7 @@ GeoMoose
 Web GIS Portal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoMOOSE is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and related non-spatial data within municipal and local councils (from which GeoMoose originated).  It extends the functionality of MapServer and OpenLayers to provide built in services, like drill-down identify operations for viewing and organising many layers, selection operations and dataset searches.
+GeoMOOSE is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).  It extends the functionality of MapServer and OpenLayers to provide built in services, like drill-down identify operations for viewing and organising many layers, selection operations and dataset searches.
 
 GeoMOOSE is fast, performing well with hundreds of layers and/or services at a time.  Data from multiple custodians can be maintained with different tools and on different schedules as each map layer has it's own set of configuration files for publishing, symbols, templates as well as source data.
 
@@ -40,21 +40,20 @@ Core Features
 --------------------------------------------------------------------------------
 
 * Distributed data maintenance amongst multiple owners.
-* Access WMS services.
+* Access maps from: MapServer, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST, WMS.
 * Configure multiple views of data sources.
 * Discover and filter from data catalogs.
 * Tools: measure, drawing, query, fading, re-order, reprojection, jump-to zoom, coordinate readouts, ...
 * Displays: MapViewer, Bird's Eye, Side Menu, Navigation, Tabbed User Controls.
 * XML based MapBook configuration file for User Interface, Source Layers and Tools.
 * Integration with Mapserver.
+* Modular design facilitates integration with non-spatial systems (such as asset management).
 * Publish almost unlimited number of layers.
 * PDF printing.
 
 Implemented Standards
 --------------------------------------------------------------------------------
 * WMS
-
-.. Cameron Comment: Is WFS or WFS-T supported?
 
 Details
 --------------------------------------------------------------------------------
@@ -76,4 +75,3 @@ Quickstart
 --------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`
-
