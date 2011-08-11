@@ -1,6 +1,6 @@
 :Author: Eric Lemoine, Bruno Binet
 :Version: osgeo-live4.0
-:License: BSD
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _mapfish-quickstart:
  
