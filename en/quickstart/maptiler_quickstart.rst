@@ -2,7 +2,7 @@
 :Author: Petr Pridal
 :Author: Christopher Fleet
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _maptiler-quickstart:
  

@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _qgis-quickstart:
  
