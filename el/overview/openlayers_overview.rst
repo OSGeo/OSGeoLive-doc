@@ -1,3 +1,4 @@
+:Author: Chris Schmidt
 :Author: OSGeo Live
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

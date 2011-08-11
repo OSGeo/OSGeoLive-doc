@@ -1,3 +1,4 @@
+:Author: Chris Schmidt
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
