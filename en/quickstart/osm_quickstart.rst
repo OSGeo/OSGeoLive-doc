@@ -80,7 +80,12 @@ Import it with:
 
   bzip2 -dc /usr/local/share/data/osm/feature_city.osm.bz2 | gosmore rebuild
 
-This will create gosmore.pak.
+This will create gosmore.pak and only needs to be run once. You can then
+search for locations within the OSM dataset, for example "Convention
+Center". Use the middle and right mouse buttons to set the origin and
+destination for shortest path routing. Use the "O" button to access the
+program options, and the "3D" button to get a perspective view useful
+for in-car GPS navigation.
 
 
 Osmarender
@@ -100,6 +105,8 @@ Example:
    See `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ in the OSM Wiki for
    details on how to download smaller chunks into an ``.osm`` file, or use
    *JOSM* or *Merkaartor* to download a smaller chunk.
+   A smaller subset file called `Denver_CBD.osm` has been included for your
+   convenience.
 
 ::
 
