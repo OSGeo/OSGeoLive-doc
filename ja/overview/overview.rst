@@ -89,5 +89,3 @@ Windows 及び Apple インストーラー
 --------------------------------------------------------------------------------
 * `Microsoft Windows インストーラー <../../WindowsInstallers/>`_
 * `Apple OSX インストーラー <../../MacInstallers/>`_
-
-.. include :: ../disclaimer.rst

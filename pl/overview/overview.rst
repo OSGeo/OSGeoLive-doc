@@ -89,5 +89,3 @@ Instalatory dla Windows i Apple
 --------------------------------------------------------------------------------
 * `Instalatory Microsoft Windows <../../WindowsInstallers/>`_
 * `Instalatory Apple OSX <../../MacInstallers/>`_
-
-.. include :: ../disclaimer.rst

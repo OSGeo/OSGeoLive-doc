@@ -90,5 +90,3 @@ Ausführbare Programme für Apple und Windows
 --------------------------------------------------------------------------------
 * `Programme für Microsoft Windows <../../WindowsInstallers/>`_
 * `Programme für Apple OSX <../../MacInstallers/>`_
-
-.. include :: ../disclaimer.rst

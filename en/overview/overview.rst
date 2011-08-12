@@ -90,5 +90,3 @@ Windows and Apple Installers
 --------------------------------------------------------------------------------
 * `Microsoft Windows Installers <../../WindowsInstallers/>`_
 * `Apple OSX Installers <../../MacInstallers/>`_
-
-.. include :: ../disclaimer.rst
