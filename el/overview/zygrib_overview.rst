@@ -41,7 +41,7 @@ zyGrib
 
 **Άδεια:** GNU General Public License (GPL) version 3
 
-**Έκδοση Λογισμικού:** 5.0
+**Έκδοση Λογισμικού:** 5.0.2
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
