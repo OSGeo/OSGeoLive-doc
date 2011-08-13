@@ -56,7 +56,7 @@ Viking
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 0.9.9
+**Έκδοση Λογισμικού:** 0.9.94
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, MS Windows
 
