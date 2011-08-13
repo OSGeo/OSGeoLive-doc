@@ -66,7 +66,6 @@ Internet Dienste
 * :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
-.. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`]
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Katalog und Katalogdienst für das Web
@@ -75,6 +74,8 @@ Internet Dienste
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
+
+.. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 
 Daten
 --------------------------------------------------------------------------------

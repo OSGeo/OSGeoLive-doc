@@ -65,7 +65,6 @@ Web サービス
 * :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`]
-* :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`]
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - Web向けのメタデータカタログ
@@ -74,6 +73,8 @@ Web サービス
 * :doc:`52nSOS_overview` - [:doc:`クイックスタート <../quickstart/52nSOS_quickstart>`] - センサでの観測サービス
 * :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web 処理サービス
 * :doc:`tinyows_overview` - WFS-T Service
+
+.. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`]
 
 データ
 --------------------------------------------------------------------------------

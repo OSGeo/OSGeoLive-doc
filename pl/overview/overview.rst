@@ -65,7 +65,6 @@ Usługi sieciowe
 * :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
-* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`mapproxy_overview` - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] katalog metadanych i sieciowe usługi katalogowe
@@ -74,6 +73,8 @@ Usługi sieciowe
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - WFS-T Service
+
+.. temp disabled to save disc space:  * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
 
 Dane
 --------------------------------------------------------------------------------

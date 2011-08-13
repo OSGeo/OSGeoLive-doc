@@ -65,7 +65,6 @@ Servicios Web
 * :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`]
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catálogo de Metadatos y Servicios Web de Catálogo
@@ -75,6 +74,7 @@ Servicios Web
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento
 * :doc:`tinyows_overview` - WFS-T Service
 
+.. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 Datos
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Conjuntos de datos Geográficos

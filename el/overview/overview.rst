@@ -65,7 +65,6 @@
 * :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
-* :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Εξυπηρετητής QGIS
 * :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
@@ -74,6 +73,8 @@
 * :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - WFS-T Service
+
+.. temp disabled to save disc space: * :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
 
 Δεδομένα
 --------------------------------------------------------------------------------
