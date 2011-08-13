@@ -118,13 +118,15 @@ p a:hover{
 }
 
 .command {
-	margin-left:20px;
-	background-color:#ccea94;/*color from osgeo optional colors*/
+	background-color:#C8C8C8;
+        font-family: "Courier New", monospace;
+	font-weight:bold;
+	font-size: 12px;
+/*
 	padding:4px 0 4px 10px;
+	margin-left:20px;
+*/
 }
-
-
-
 
 .footerDiv{
 	position:relative;
