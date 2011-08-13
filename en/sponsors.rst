@@ -14,7 +14,7 @@ LISAsoft provides sustaining resources and staff toward the management and packa
 Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeo-Live project.
 
 .. image:: ../images/logos/debiangis_mollweide.png
-  :scale: 30 %
+  :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
   :target: http://wiki.debian.org/DebianGis
 
