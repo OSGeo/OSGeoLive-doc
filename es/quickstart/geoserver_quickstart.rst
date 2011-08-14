@@ -274,9 +274,9 @@ en :file:`/usr/local/share/geoserver`.
 
     En la carpeta Natural Earth hay otra carpeta :file:`HYP_50M_SR_W` que contiene
     una imagen raster. Puede servir esta imagen en |GS| directamente yendo a la
-    pagina de Almacén de datos y seleccionando :guilabel:`Nuevo Almacén->World
-    Image` y escriba
-    *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
+    pagina de Almacén de datos y seleccionando :menuselection:`Nuevo Almacén --> World Image` 
+    y escriba
+    :file:`/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif`
     en el campo :guilabel:`URL`.
 
     .. figure:: ../../images/screenshots/800x600/geoserver-raster.png

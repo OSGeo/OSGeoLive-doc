@@ -243,9 +243,9 @@ Now go to the Layer Preview page to check that it looks good.
 
     In the Natural Earth folder is a folder :file:`HYP_50M_SR_W` which
     contains a raster image. You can serve this up in |GS| directly by
-    going to the stores page and selecting :guilabel:`New Stores->World
-    Image` and type
-    *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
+    going to the stores page and selecting :menuselection:`New Stores --> World Image` 
+    and type
+    :file:`/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif`
     into the :guilabel:`URL` box.
 
     .. image:: ../../images/screenshots/800x600/geoserver-raster.png
