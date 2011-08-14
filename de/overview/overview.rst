@@ -39,6 +39,7 @@ Desktop GIS
 * :doc:`geopublisher_overview` - [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Katalogdienst
 * :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Style Editor
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
+
 .. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Meeresboden Kartierung
 
 Navigation und Karten

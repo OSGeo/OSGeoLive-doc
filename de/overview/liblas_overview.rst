@@ -18,8 +18,7 @@ LiDAR Datenzugriff
 
 libLAS ist eine C/C++ Bibliothek zum Lesen und Schreiben des sehr verbreiteten `LAS`
 `LiDAR`_ Formats. Das `ASPRS LAS Format`_ ist ein sequentielles Binärformat, das zum Speichern von Daten von
- LiDAR Sensoren und von LiDAR Prozessierungssoftware 
-für den Datenaustausch und die Archivierung verwendet wird.
+LiDAR Sensoren und von LiDAR Prozessierungssoftware für den Datenaustausch und die Archivierung verwendet wird.
 
 .. image:: ../../images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
@@ -64,6 +63,6 @@ Quickstart
 .. _`LAS Format`: http://www.lasformat.org/
 .. _`ASPRS Standards Committee`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
 .. _`ASPRS LAS format`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
-.. _`Command line utilities`: http://liblas.org/utilities/index.html
+.. _`kommandozeilenbasierte Programme`: http://liblas.org/utilities/index.html
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
 .. _`Wikipedia`: http://en.wikipedia.org/wiki/LIDAR
