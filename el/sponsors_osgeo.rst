@@ -45,8 +45,8 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
   :target: http://www.inpe.br/
 
 .. image:: ../images/logos/ingres.png
-  :alt: INGRES
-  :target: http://www.ingres.com
+..  :alt: INGRES
+..  :target: http://www.ingres.com
 
 .. image:: ../images/logos/osuk.gif
   :alt: Ordnance Survey
