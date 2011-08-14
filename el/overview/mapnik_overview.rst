@@ -1,6 +1,8 @@
 :Author: Dane Springmeyer
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
 
 .. _mapnik-overview:
 
@@ -44,7 +46,7 @@ Mapnik
 
 **Άδεια:** LGPL (GNU Lesser General Public Licence)
 
-**Έκδοση Λογισμικού:** 0.7.0
+**Έκδοση Λογισμικού:** 0.7.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
@@ -55,6 +57,6 @@ Mapnik
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapnik_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapnik_quickstart>`
 
 
