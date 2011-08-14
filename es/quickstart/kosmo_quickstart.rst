@@ -91,7 +91,7 @@ Archivos
 
 Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el LiveDVD:
 
-#. Elija la opción *Vista > Cargar datos... * o presione el botón con el signo más (+) verde de la barra principal de herramientas
+#. Elija la opción *Vista > Cargar datos...* o presione el botón con el signo más (+) verde de la barra principal de herramientas
 
 #. En la lista desplegable *Formato*, seleccione *Fichero shape* (**1**)
 

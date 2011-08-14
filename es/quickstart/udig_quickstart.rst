@@ -214,7 +214,7 @@ pantalla.
 
    * Puede usar Navigation Back |BNAV| and Forward |FNAV| en la barra de menú para ciclar entre las localizaciones previamente visitadas.
 
-   	 .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
+     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
      .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
 
 .. tip:: También es posible una hacer una panorámica manteniendo presionado el botón central y controlar la escala usando la rueda de desplazamiento.

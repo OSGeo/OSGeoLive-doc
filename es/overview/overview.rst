@@ -75,6 +75,7 @@ Servicios Web
 * :doc:`tinyows_overview` - WFS-T Service
 
 .. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
+
 Datos
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Conjuntos de datos Geográficos

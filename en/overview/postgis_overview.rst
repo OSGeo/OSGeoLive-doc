@@ -7,6 +7,7 @@
 
 .. Writing Tip:
   Metadata about this document
+
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft

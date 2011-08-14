@@ -30,7 +30,7 @@ Seleccionar :guilabel:`Install RELEASE`
   .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
 
-Entrar el *password*="user"
+Entrar el *password* = "user"
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install1_language.png
     :scale: 70 %

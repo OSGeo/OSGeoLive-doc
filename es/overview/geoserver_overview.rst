@@ -51,8 +51,7 @@ Características clave
         - Ficheros Shape, WFS externo
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
-        - GeoTiff, JPG y PNG georreferenciados, imagenes pyramid, formatos GDAL,
- Imagenes Mosaic, Oracle GeoRaster
+        - GeoTiff, JPG y PNG georreferenciados, imagenes pyramid, formatos GDAL, Imagenes Mosaic, Oracle GeoRaster
 
 **A través del protocolo WMS se sirven imágenes de forma segura y rápida:**
     Los datos permanecen seguros, ya que se sirven como imágenes renderizadas. 
