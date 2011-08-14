@@ -36,8 +36,7 @@ MapFish παρέχει συγκεκριμένα εργαλεία για την �
 
 Το MapFish επιπλεόν παρέχει ένα πλήρες περιβάλλον RIA για τη γλώσσα JavaScript, ένα περιβάλλον δοκιμών JavaScript,
 και εργαλεία για συμπίεση κώδικα JavaScript. Τα εργαλεία που αποτελούν την Javascript εργαλειοθηκη του Mapfish είναι το 
-`ExtJS <http://extjs.com>`_, to `OpenLayers
-<http://www.openlayers.org>`_ , το `GeoExt <http://www.geoext.org>`_ 
+`ExtJS <http://extjs.com>`_,το :doc:`OpenLayers <openlayers_overview>`, το `GeoExt <http://www.geoext.org>`_ 
 και συγκεκριμένα εργαλεία για την διάδραση με τις υπηρεσίες (web services) του MapFish.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.png

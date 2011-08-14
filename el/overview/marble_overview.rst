@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _marble-overview:
 
@@ -48,7 +49,7 @@ Google Earth. Εκτός από τη δυνατότητα επισκόπησης
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Έκδοση Λογισμικού:** 0.9.5
+**Έκδοση Λογισμικού:** 1.0.2
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
@@ -60,6 +61,6 @@ Google Earth. Εκτός από τη δυνατότητα επισκόπησης
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/marble_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/marble_quickstart>`_
 
 

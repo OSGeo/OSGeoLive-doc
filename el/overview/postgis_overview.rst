@@ -1,6 +1,8 @@
 :Author: OSGeo Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: Barry Rowlingson
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _postgis-overview:
 
@@ -30,7 +32,7 @@ PostGIS
 
 .. image:: ../../images/screenshots/800x600/pgadmin.gif
   :scale: 55 %
-  :alt: project logo
+  :alt: pgAdmin database manager
   :align: right
 
 Βασικά Χαρακτηριστικά
@@ -72,4 +74,4 @@ PostGIS
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/postgis_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/postgis_quickstart>`_

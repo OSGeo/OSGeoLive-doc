@@ -1,6 +1,8 @@
 :Author: Ian Turton
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: Frank Gasdorf
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geoserver-overview:
 
@@ -71,8 +73,12 @@ Consortium <http://www.opengeospatial.org>`_ (OGC) :doc:`../standards/wfs_overvi
 --------------------------------------------------------------------------------
 
 * Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC)
-
-* WMS, WFS-T, WCS, Filter Encoding, SLD, GML
+* :doc:`../standards/wms_overview`
+  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
+  * :doc:`../standards/sld_overview` 
+  * :doc:`../standards/gml_overview`
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
