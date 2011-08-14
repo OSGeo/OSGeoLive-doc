@@ -1,12 +1,12 @@
 Contact Us
-==========
+================================================================================
 
 OSGeo-Live development is coordinated via email and internet chat
 (IRC) as detailed on the
 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
 Community Support
-=================
+================================================================================
 
 If you have any questions, comments, or run into any problems, please drop us a
 note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
@@ -22,7 +22,7 @@ A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wi
 and a `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_ is also available.
 
 Commercial Support
-==================
+================================================================================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :scale: 100%

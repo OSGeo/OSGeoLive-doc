@@ -12,9 +12,9 @@
   :align: right
   :target: http://www.geokettle.org/
 
-********************
+********************************************************************************
 GeoKettle Quickstart 
-********************
+********************************************************************************
 
 GeoKettle ist ein leistungsfähiges, Metadaten-gesteuertes ETL -Werkzeug (Extract, Transform & Load) 
 für räumliche Daten und kann zur Integration verschiedenster Datenquellen, die Erstellung und 
@@ -33,7 +33,7 @@ Dieser Quickstart Guide beschreibt, wie:
   * Daten-Transformationen neu erstellt werden
 
 GeoKettle starten
-=================
+================================================================================
 
 #. Wählen Sie :menuselection:`Spatial Tools --> GeoKettle` im Startmenü des Desktops 
 #. Bitte warten Sie einen Augenblick bis die Anwendung gestartet ist
@@ -43,7 +43,7 @@ GeoKettle starten
   .. image:: ../../images/screenshots/800x600/geokettle_welcome.png
 
 Workbench
-=========
+================================================================================
 
 Wie im folgenden Screenshot dargestellt, ist das Workbench-Fenster aus verschiedenen Bereichen zusammengesetzt.
 
@@ -56,7 +56,7 @@ da auch gestartet und getestet werden.
 Auf die Inhalte der Bereiche sowie deren Verwendung wird noch im Detail weiter unten eingegangen.
 
 Laden einer vorhanden Transformation
-====================================
+================================================================================
 
 Um eine vorhandenen Transformation zu laden, wählen Sie :menuselection:`File --> Open`. 
 Navigieren Sie zu den Beispiel-Transformationen im Unterverzeichnis :file:`samples/transformations/geokettle`, 
@@ -86,7 +86,7 @@ Nun ist alles soweit vorbereitet, um mit der Transformation der Daten zu beginne
 Startschaltfläche ("Play") in der Toolbar über der Transformationsbeschreibung.
 
 Anlegen einer neuen Transformation
-==================================
+================================================================================
 
 Starten Sie GeoKettle über die Workbench auf die gleiche Art und Weise, wie Sie es beim Laden von Transformationen 
 gemacht haben (siehe vorheriger Abschnitt).
@@ -153,7 +153,7 @@ Sie bekommen die Daten tabellarisch und in einer Karte angezeigt und können so 
 Transformation erneut auszuführen.
 
 Was kann man noch probieren?
-============================
+================================================================================
 
 Weitere Herausforderungen, die Sie meistern können:
 
@@ -162,7 +162,7 @@ Weitere Herausforderungen, die Sie meistern können:
 #. Erstellen Sie eine Transformation auf Basis Ihrer eigenen Daten
 
 Wie geht es weiter?
-===================
+================================================================================
 
 Werfen Sie einen Blick auf die GeoKettle Benutzer- und Entwickler-Dokumentation sowie den Tutorials im 
 `Wiki <http://wiki.spatialytics.org>`_ des Projektes. Zögern Sie nicht Fragen im `Forum <http://www.spatialytics.com/forum>`_ 

@@ -10,15 +10,15 @@
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
 
-*****************
+********************************************************************************
 Viking Quickstart 
-*****************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 Getting Started
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. from /usr/share/doc/viking/GETTING_STARTED
 
@@ -54,7 +54,7 @@ the list. Your tracks will now be drawn over the map.
 
 
 Geocoding
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. from /usr/share/doc/viking/GEOCODED-PHOTOS
 
 How to geocode your photos and see them in Viking:

@@ -6,9 +6,9 @@
 
 .. _osgeolive-install-quickstart:
  
-*******************************
+********************************************************************************
 Install OSGeo-Live to Hard Disk
-*******************************
+********************************************************************************
 
 OSGeo-Live can be installed onto your hard disk, the same way an Ubuntu
 distribution is installed.
@@ -17,12 +17,12 @@ This process can also be run inside a Virtual Machine to create a permanent
 OSGeo-Live Virtual Machine from a DVD or ISO image.
 
 System Requirements
--------------------
+--------------------------------------------------------------------------------
 
 * |osgeo-live-hdspace| of spare Hard Disk Space
 
 Install OSGeo-Live
-------------------
+--------------------------------------------------------------------------------
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
@@ -76,7 +76,7 @@ Go and get a cup of coffee while installation is in progress.
 That is it.
 
 See Also:
----------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`

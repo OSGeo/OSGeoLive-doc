@@ -6,9 +6,9 @@
 
 .. _openjump-quickstart:
 
-*******************
+********************************************************************************
 OpenJUMP Quickstart 
-*******************
+********************************************************************************
 
 OpenJUMP is a desktop GIS program that allows for easy viewing and editing 
 of vector GIS data. It also has limited support for the viewing of raster
@@ -22,7 +22,7 @@ This Quick Start describes how to:
   * Run a simple attribute query on the features in the layer.
 
 Starting OpenJUMP
-=================
+================================================================================
 
 To start OpenJUMP, simply double click the openjump.bat file (if your are using a computer 
 with a Microsoft Windows operating system) or the oj_linux.sh file 
@@ -32,7 +32,7 @@ environment is required to run OpenJUMP. You can download a Java
 runtime environment for your computer here: http://java.com/en/download/index.jsp)
 
 Basic User Interface Overview
-=============================
+================================================================================
 
 The OpenJUMP graphical interface has four (4) basic components. The first is a top-level menu bar.
 The second is a main toolbar that sits just below the menu bar. The third is a tree view that shows
@@ -44,7 +44,7 @@ with a single task frame.
 
 
 Open an ESRI Shapefile
-======================
+================================================================================
 
 This section of the quick start briefly explains how to open an ESRI shapefile.
 
@@ -56,7 +56,7 @@ see the data from your shapefile in the Layer View. You will also see a new laye
 match the name of the shapefile.
 
 Style a Layer
-=============
+================================================================================
 
 This section of the quick start briefly explains how to style a layer.
 
@@ -67,7 +67,7 @@ transparency, adding labels, and determining at which maximum and minimum scales
 
 
 Edit Feature Geometries in a Layer
-==================================
+================================================================================
 
 This section of the quick start briefly explains how to edit feature geometry for features in a layer.
 
@@ -82,7 +82,7 @@ should now see your mouse cursor change to a small black corsshair when you move
 node on the geometry you selected.
 
 Other Learning Resources for OpenJUMP
-=====================================
+================================================================================
 
 This is only the first step on the road to using OpenJUMP. There is a lot more great material (and ability) left for your to discover in our walkthroughs.
 

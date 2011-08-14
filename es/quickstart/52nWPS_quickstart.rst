@@ -9,12 +9,12 @@
   :alt: project logo
   :align: right
 
-***********************
+********************************************************************************
 52°North WPS Quickstart 
-***********************
+********************************************************************************
 
 Ejecutar la aplicación
-=======================
+================================================================================
 
 * 	Para correr 52 North WPS en el Live DVD, de click en el enlace "start 52NorthWPS" que está
 	en el escitorio o sobre el que se encuentra en los ítems del menú.

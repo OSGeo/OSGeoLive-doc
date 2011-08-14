@@ -11,13 +11,13 @@
   :align: right
 
 Mapnik Quickstart
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik is an toolkit for developing mapping applications. Above all Mapnik is about making beautiful maps. It is easily extensible and suitable for both desktop and web development.
 
 
 Mapnik & Python
----------------
+--------------------------------------------------------------------------------
 
 Mapnik and its python bindings are installed and ready to be used for scripting on this machine.
 
@@ -40,7 +40,7 @@ Creating maps in python is easy with Mapnik. Type `python` on the command line t
 
 
 Mapnik & OpenLayers
--------------------
+--------------------------------------------------------------------------------
 
 In addition a basic demo application is available, which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
 
@@ -68,7 +68,7 @@ To run the demo just follow these steps:
 
 
 What Next?
-----------
+--------------------------------------------------------------------------------
 
 * Mapnik Tutorials
 

@@ -6,23 +6,23 @@
 
 .. _usb-quickstart:
  
-***********************************************
+********************************************************************************
 Creating an OSGeo-Live Bootable USB flash drive
-***********************************************
+********************************************************************************
 
 Here we describe how to create a Bootable OSGeo-Live USB flash drive. Booting from a thumb drive is faster than from a DVD, and the USB drive can be configured to store data between sessions.
 
 We have only recently started testing USB drive Installers from OSGeo-Live 4.0. While we have received a lot of positive feedback, it has only had limited testing, and some people have reported not being able to boot from the USB drive.
 
 Requirements
-------------
+--------------------------------------------------------------------------------
 
 * A 4 GB USB flash drive, if using osgeo-live-mini
 * A 8 GB USB flash drive, if using osgeo-live
 * An OSGeo-Live DVD or ISO image (downloaded from: http://live.osgeo.org/download.html)
 
 Creating bootable USB drive from Ubuntu
----------------------------------------
+--------------------------------------------------------------------------------
 
 Insert the USB flash drive into your computer.
 
@@ -48,7 +48,7 @@ Select :guilabel:`Make Startup Disk`
 Wait 20 minutes or so for the USB flash drive to be created.
 
 Creating bootable USB flash drive from Windows
-----------------------------------------------
+--------------------------------------------------------------------------------
 
 Insert the USB drive into your computer.
 
@@ -75,7 +75,7 @@ Select :guilabel:`Create`
 Wait 20 minutes or so for the OSGeo-Live USB flash drive to be created.
 
 Set BIOS boot order:
---------------------
+--------------------------------------------------------------------------------
 
 Most computers are not set to boot from a USB drive by default.
 
@@ -88,17 +88,17 @@ Note, that for some computers you will need to have the USB drive inserted into 
 Note also, the USB drive is often listed under hard drives rather than removable devices. 
 
 Run:
-----
+--------------------------------------------------------------------------------
 
 Run as per: :doc:`osgeolive_quickstart`
 
 Known issues:
--------------
+--------------------------------------------------------------------------------
 
 * Mac computers will not boot from this USB flash drive, please use the LiveDVD 
 
 See Also:
----------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`

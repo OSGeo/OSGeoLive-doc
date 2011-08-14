@@ -12,9 +12,9 @@
   :align: right
   :target: http://www.tinyows.org/
 
-******************
+********************************************************************************
 TinyOWS Quickstart 
-******************
+********************************************************************************
 
 TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender Transaktionaler Web Feature Service (WFS-T), der CGI und FastCGI Schnittstellen unterstützt und :doc:`PostGIS <postgis_overview>` für die Datenspeicherung nutzt.
 
@@ -25,7 +25,7 @@ Dieser Quickstart Guide beschreibt folgende Schritte:
 
 
 WFS Layer mit QGIS anzeigen
-===========================
+================================================================================
 
 #. :menuselection:`Applications --> Desktop GIS --> Quantum GIS` im Startmenü des Desktops wählen
 
@@ -72,7 +72,7 @@ WFS Layer mit QGIS anzeigen
 
 
 Daten editieren mit WFS-T
-=========================
+================================================================================
 
 #. Wählen Sie :menuselection:`Layer --> Bearbeitungsstatus umschalten`.
 
@@ -88,7 +88,7 @@ Daten editieren mit WFS-T
 
 
 Wie geht es weiter?
-===================
+================================================================================
 
 Um mehr über TinyOWS zu erfahren, dient die Siete `User Documentation`_ auf der TinyOWS Homepage als Ausgangspunkt.
 

@@ -10,15 +10,15 @@
   :align: right
   :target: http://www.zygrib.org
 
-********************
+********************************************************************************
 zyGrib Inicio Rápido 
-********************
+********************************************************************************
 
 Ejecutándolo
-============
+================================================================================
 
 Obteniendo los datos
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Después de lanzar el programa se presentará un mapa del mundo. Ningún dato
 de pronóstico de tiempo GRIB se provee con éste disco, tendrá que hacer algunas 
@@ -58,7 +58,7 @@ acercarse, si así se desea.
 
 
 Cambiando vistas
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Moviendo el ratón alrededor del mapa se verán las condiciones exactas
 bajo el cursor, éstas son presentadas en el panel izquierdo.
@@ -77,7 +77,7 @@ Podría ser muy interesante si se descargan datos para cobertura de nubes del su
 
 
 Creando una Animación
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cuando se hace un click en el icono mas a la derecha en la barra de herramienta (el cohete) una
 nueva ventana se abrirá y una animación será generada. Observe como se 
@@ -90,7 +90,7 @@ archivo para mas tarde codificarlo en un AVI, MPEG, o GIF animado
 Hace click en el botón rojo de energía para cerrar.
 
 Ver También
-===========
+================================================================================
 
 El `OpenCPN software <../overview/opencpn_overview.html>`_ (también en este disco)
 tiene un plugin de overlay de GRIB que usted puede probar con un archivo GRIB

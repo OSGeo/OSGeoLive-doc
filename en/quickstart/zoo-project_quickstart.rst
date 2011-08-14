@@ -7,12 +7,12 @@
   :alt: project logo
   :align: right
 
-***********************
+********************************************************************************
 ZOO Project Quickstart 
-***********************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 *	To run the ZOO Project demo from the Live DVD, click successively on the "Start GeoServer" then on the "ZOO Project" links on the desktop 
 	or you will find it in the menu-items.

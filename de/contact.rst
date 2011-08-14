@@ -1,5 +1,5 @@
 Kontakt
-=======
+================================================================================
 
 
 Die Entwicklung von OSGeo-Live wird mittels Email und Chat (IRC) organisiert. Details hierzu wurden im 
@@ -7,7 +7,7 @@ Die Entwicklung von OSGeo-Live wird mittels Email und Chat (IRC) organisiert. De
 
 
 Community-Support
-=================
+================================================================================
 
 Bei Fragen, Hinweisen oder bei Problemen mit der DVD schreiben Sie bitte an `unsere Mailingliste <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
@@ -21,7 +21,7 @@ Eine Fülle von Informationen ist auf der `Wikiseite <http://wiki.osgeo.org/wiki
 und ein `Tracking System für Probleme und Wünsche <https://trac.osgeo.org/osgeo/report/10>`_ steht ebenso bereit.
 
 Kommerzieller Support
-=====================
+================================================================================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :scale: 100%

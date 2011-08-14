@@ -11,9 +11,9 @@
   :target: http://www.mapfish.org
 
 
-********************
+********************************************************************************
 MapFish Quickstart 
-********************
+********************************************************************************
 
 MapFish is a flexible and complete framework for building rich web-mapping
 applications. It emphasizes high productivity, and high-quality development. 
@@ -25,7 +25,7 @@ This Quickstart describes how to
 * create MapFish applications.
 
 Run the sample application
-==========================
+================================================================================
 
 To run the sample application click on the MapFish link on the Desktop. This
 will open a FireFox tab pointing to the application served by mod_wsgi in
@@ -38,7 +38,7 @@ and look at the requests/responses exchanged between the browser and the
 MapFish web services.
 
 Install MapFish
-===============
+================================================================================
 
 To install MapFish, download the installation script, and execute it from a
 terminal::
@@ -72,7 +72,7 @@ Ok, the framework is properly installed. You can now follow the next section
 to create a MapFish application using this installation.
 
 Create a MapFish application
-============================
+================================================================================
 
 After having activated the virtual Python environment, you can generate your
 first MapFish application named for exemple MyMapFishApp::

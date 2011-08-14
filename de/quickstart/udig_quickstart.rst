@@ -59,9 +59,9 @@
   :alt: Projektlogo
   :align: right
 
-***************
+********************************************************************************
 uDig Quickstart 
-***************
+********************************************************************************
 
 .. Writing Tip:
   First sentence defines what the application does.
@@ -84,7 +84,7 @@ Mit dem Quickstart Guide soll folgendes erreicht werden:
 .. contents:: Inhalt
   
 uDig starten
-============
+================================================================================
 
 .. Writing Tip:
   beschreibe die Schritte, um die Anwendung zu starten. Hier sollte ein 
@@ -103,7 +103,7 @@ uDig starten
    :scale: 70 %
 
 Willkommensansicht
-==================
+================================================================================
 
 #. Wird uDig erstmalig gestartet, erscheint die Willkommensansicht, die Links zu Tutorials, Dokumentationen und der Projekt-Webseite enthält. Keine weiteren Ansichten sind sichtbar.
  
@@ -115,7 +115,7 @@ Willkommensansicht
 Die Willkommensansicht können Sie jederzeit wieder herstellen, indem Sie im Applikationsmenü :menuselection:`Help --> Welcome` auswählen.
 
 Arbeitsbereich
-==============
+================================================================================
 
 Im Arbeitsbereich gibt es einen Bereich für die Karten, der umgeben ist von Ansichten, die das Arbeiten mit der Karte unterstützen. 
 Viele Ansichten zeigen dabei kontextbezogene Informationen zur aktuell geöffneten und ausgewählten Karte an.
@@ -133,7 +133,7 @@ Oben ist ein typischer uDig -Arbeitsplatz mit Ansichten für die
 zu sehen. Die Ansichten und deren Verwendung werden weiter unten beschrieben.
 
 Dateien
-=======
+================================================================================
 
 Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten laden, die auf der DVD enthalten sind.
 
@@ -187,7 +187,7 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
    Sie können Shapefiles direkt vom **File Manager** per Drag&Drop in die uDig Anwendung ziehen, um weitere Daten hinzuzufügen!
 
 Karte
-=====
+================================================================================
 
 Sie können die Karte mit Hilfe der Navigationswerkzeuge anpassen, um den Ausschnitt der Welt anzuzeigen, der für Sie von 
 Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applikationsmenü zu finden.
@@ -225,7 +225,7 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
    und unter Verwendung des Mausrades den Maßstab anzupassen.
 
 Web Map Server
-==============
+================================================================================
 
 Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung von Web Map Servern. Diese publizieren Layer, die in uDig genutzt werden können, um daraus eigene Karten zu erstellen.
 
@@ -270,7 +270,7 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
     Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur `I` und `Z` drücken.
 
 Stile
-=====
+================================================================================
 
 #. Wählen Sie in der **Project** Ansicht die Karte `project > 10m admin 0 countries`, Sie können sie per Doppelklick oder rechter Maustaste :guilabel:`Open Map` öffnen
 
@@ -301,7 +301,7 @@ Mitunter ist es schwierig aufgrund der Stile der verschiedenen Layer das wesentl
 		:scale: 70 %
 
 Was kann man noch probieren?
-============================
+================================================================================
 
 Weitere Herausforderungen, die Sie meistern können:
 
@@ -309,7 +309,7 @@ Weitere Herausforderungen, die Sie meistern können:
 #. Ändern Sie den Stil einen WFS Layers.
 
 Wie geht es weiter?
-===================
+================================================================================
 
 Die beschriebenen Funktionalitäten ist nur als ein Ausschnitt des Gesamtpacketes uDig zu betrachten. Es gibt noch weiteres Material, welches einen Blick wert ist. Auch um weitere Funktionalitäten kennenzulernen sei auf die **Walkthrough** -Dokumente verwiesen.
 

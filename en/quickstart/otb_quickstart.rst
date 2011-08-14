@@ -10,9 +10,9 @@
   :alt: project logo
   :align: right
 
-**************
+********************************************************************************
 OTB Quickstart 
-**************
+********************************************************************************
 
 ORFEO Toolbox library (OTB) is a high performance library for image processing targeted on remote sensing.
 
@@ -29,13 +29,13 @@ The OTB-Applications package provide lot's of interesting tools which facilitate
   * QGIS plugin : as plugin directly usable in Quantum GIS 
 
 Display metadata informations in an image 
-=========================================
+================================================================================
 
 You can get all the metadata informations contained in an image with the command : `otbReadImageInfo-cli`
 The unique parameter is the Input image file name, for example : `otbReadImageInfo-cli -in qb_RoadExtract.tif`
 
 Calculator on image bands
-=========================
+================================================================================
 
 The `otbBandMath-cli` provides an efficient way to perform mathematical operation on monoband images.
 The syntax is quite simple, for example substrating two bands to study the image differences on the images SpotBefore.tif and SpotAfter.tif, just use the command : `otbBandMath-cli -ims SpotBefore.tif SpotAfter.tif -out difference.tif -exp "im1b1-im2b1"`
@@ -45,7 +45,7 @@ This homebrewed digital calculator is also bundled with custom functions allowin
 
 
 Perform segmentation with Monteverdi
-====================================
+================================================================================
 
 * Start Monteverdi from its icon from the directory "XXX" on the desktop 
 * Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
@@ -59,7 +59,7 @@ Perform segmentation with Monteverdi
      :scale: 100 %
 
 Perform supervised classification based on SVM  with Monteverdi
-===============================================================
+================================================================================
 
 * Start Monteverdi from its icon from the directory "XXX" on the desktop 
 * Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
@@ -79,7 +79,7 @@ For the full tutorial see the  `article`_.
 
 
 What Next?
-==========
+================================================================================
 
 * OTB Software Guide
 

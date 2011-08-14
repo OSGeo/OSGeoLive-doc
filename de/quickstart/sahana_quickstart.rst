@@ -10,12 +10,12 @@
   :align: right
   :target: http://www.sahanafoundation.org
 
-*****************
+********************************************************************************
 Sahana Quickstart 
-*****************
+********************************************************************************
 
 Erste Schritte
-==============
+================================================================================
 
 .. Sahana Eden is already installed and configured when you start OSGeo-Live. To access Sahana Eden, `click here <http://127.0.0.1:8000/eden>`_, or click on the Geospatial menu, then Crisis Management, then Sahana Eden. By default, you will have view-only rights to access the data. If you wish to create new records, or edit existing records, you will need to be logged in as a user - use the following credentials to get started.
 
@@ -29,7 +29,7 @@ Wenn Sie Beispieldaten in Ushahidi eingegeben haben, dann können Sie diese Info
 Sie finden Sahana Eden bereits so konfiguriert, dass Sie auf die Kartendaten und Map-Server zugreifen können, die Teil von OSGeo-Live sind. Sahana Eden kann OpenStreetMap als Basiskarten-Layer im `Map Viewing Client <http://127.0.0.1:8000/eden/gis/map_viewing_client>`_ nutzen. Sahana Eden unterstützt eine breite Palette von OpenStreetMap Diensten.
 
 Entwicklung
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana Eden ist immer auf der Suche nach Entwicklern, die unserem Projekt beitreten und mit zum Projekt beitragen wollen. Die primäre Entwicklungsplattform ist die `Python <http://www.python.org/>`_ Programmiersprache und das `web2py <http://www.web2py.com/>`_ Enterprise Web Framework. Wir sind insbesondere auf der Suche nach Mitarbeitern mit Fähigkeiten in Mapping, jQuery und JavaScript.
 
@@ -37,7 +37,7 @@ Sahana Eden ist immer auf der Suche nach Entwicklern, die unserem Projekt beitre
 * `Ticket System <http://eden.sahanafoundation.org/report/1>`_ - für die Mitteilung von Problemen 
 
 Weiterführende Literatur
-========================
+================================================================================
 
 * `Sahana Eden Webseite <http://eden.sahanafoundation.org/>`_
 * `Sahana Software Foundation Webseite <http://www.sahanafoundation.org/>`_

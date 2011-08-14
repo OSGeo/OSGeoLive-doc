@@ -12,12 +12,12 @@
   :target: http://grass.osgeo.org
 
 
-********************
+********************************************************************************
 GRASS GIS Quickstart 
-********************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 To run GRASS on the Live DVD, click on the GRASS link on the desktop.
 From the "Welcome to GRASS" window select either the Spearfish or North
@@ -44,7 +44,7 @@ a bit to get the room (hold down the Alt key and left-click drag the
 window to move it).
 
 Displaying maps
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
@@ -67,7 +67,7 @@ render the view.
 You should now see the maps displayed.
 
 Plot an elevation profile
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-profile.png
   :scale: 50 %
@@ -86,7 +86,7 @@ eyeball button to create the plot. Click on the I/O button of the far
 right to close the profile window.
 
 Create a random surface
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now let's create a new map. Select :menuselection:`Raster --> Generate 
 surfaces --> Fractal surface` from the menu (near the bottom);
@@ -100,7 +100,7 @@ tab (the defaults are fine); and click [Run]. You can then [Close] the
   :align: right
 
 Adjust colors
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now add your new raster layer to the layer list as you did before with
 the elevation raster map, except this time it will be in your "user1"
@@ -120,7 +120,7 @@ refresh button next to the eyeball button to re-render all layers and you
 should see your map with its new colors.
   
 Create a shaded relief map
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
@@ -142,7 +142,7 @@ clicking the eyeball all the time you can tick the "Render" box in the
 bottom right of the Map Display window to have that happen automatically)
 
 Watersheds and streams
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once again select the `elevation` @PERMANENT map and in the `Raster` menu
 choose :menuselection:`Hydrologic modeling --> Watershed analysis`. This
@@ -186,7 +186,7 @@ re-render to see the change so click on the re-render button next to the
 eyeball. The fonts will now be much prettier.
 
 Vector modules
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 The above tasks have only covered a few raster modules. Don't let this
 give you the idea that GRASS is just for raster maps -- the vector engine
@@ -195,7 +195,7 @@ maintains a fully topological vector system which allows all sorts of
 very powerful analyses.
 
 3D visualization
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/1024x768/grass-nviz.png
   :scale: 30 %
@@ -219,7 +219,7 @@ back at the main window click on the "Draw" button in the top-left, just
 under the File menu.
 
 Shutdown and the command line
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When finished, exit the GRASS GUI with :menuselection:`File --> Exit`.
 Before you close the GRASS terminal session as well, try a GRASS
@@ -237,7 +237,7 @@ with the module help pages. When done close the browser and type "exit"
 at the GRASS terminal prompt to leave the GIS environment.
 
 Further reading
-===============
+================================================================================
 * Visit the GRASS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
 * Visit the GRASS Wiki help site at `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
 * More tutorials and overviews can be found `here <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.

@@ -9,12 +9,12 @@
   :align: right
   :target: http://activityworkshop.net/software/prune/
 
-****************
+********************************************************************************
 Prune Quickstart 
-****************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 To run Prune on the live DVD, select the icon "GpsPrune" in the Navigation and Maps menu.
 To work with data, you will then either load a recorded track from a file, load data from
@@ -32,7 +32,7 @@ Below the main map display is an altitude chart, which will show the profile of 
 if it contains altitudes.  Clicking on this display will select the corresponding point.
 
 Customizing the display
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You can change the map with the menu option :menuselection:`Settings --> Set map background`.
 You can select one of the maps already defined, or you can add your own custom server if you
 know the URL.  You can also add a Cloudmade map if you know the style number.
@@ -44,14 +44,14 @@ will be remembered for the next time you run Prune.  However, note that when usi
 all files that you save in the regular file system are lost when you shut down the computer.
 
 Downloading maps
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To save the downloaded map tiles to disk, you can select the menu option
 :menuselection:`Settings --> Save maps to disk` and select a directory in which to save the images.
 This helps to speed up the display as it doesn't have to download the images again.  Again, this
 makes more sense on an installed system than on a live DVD.
 
 Using Prune on other systems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 After trying out Prune on this live DVD, you may want to use it on another system, whether
 it's another Linux system or Mac OSX or Windows.  Some linux distributions include Prune in their
 normal software libraries (just search for "Prune" or "GpsPrune"), or you can just download the
@@ -62,7 +62,7 @@ It doesn't need to be installed, but it does need a java runtime to be installed
 *Gpsbabel*, *Gnuplot*, *Exiftool* or *Java3d*.
 
 Further reading
-===============
+================================================================================
 
 * Prune home page: http://activityworkshop.net/software/prune/
 * Screenshots: http://activityworkshop.net/software/prune/screenshots.html

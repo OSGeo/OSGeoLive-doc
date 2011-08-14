@@ -12,7 +12,7 @@
   :align: right
 
 MapTiler Quickstart
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `MapTiler <http://www.maptiler.org/>`_ provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a as a georeferenced map overlay on a web server. It follows the `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ specification.
 
@@ -23,7 +23,7 @@ MapTiler Quickstart
 MapTiler takes advantage of the fact that `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , and other online mapping providers including `OpenStreetMap <http://www.openstreetmap.org/>`_  use the same projection and tiling profile and the tiles are therefore compatible. The `Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ page describes and illustrates this. MapTiler prepares tiles using this specification as an easy and quick way of preparing a georeferenced map in a mashup web page.
 
 Start MapTiler
---------------
+--------------------------------------------------------------------------------
 
 1. `Download MapTiler <http://help.maptiler.org/beta/>`_ to your it on your computer or start it directly from this LiveDVD.
 

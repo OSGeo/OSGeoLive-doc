@@ -11,9 +11,9 @@
   :alt: project logo
   :align: right
 
-*********************
+********************************************************************************
 GeoNetwork Quickstart 
-*********************
+********************************************************************************
 
 |GN| opensource is a standards based, distributed spatial information
 management system. It is designed to enable access to spatial data from a variety of data providers through descriptive metadata.
@@ -27,7 +27,7 @@ Apart from how to start |GN|, this Quick Start describes:
 Detailed documentation can be found in http://localhost:8880/geonetwork/docs/eng/users/index.html or by clicking on the 'Help' link on the |GN| home page.
 
 Start |GN|
-----------
+--------------------------------------------------------------------------------
 
 - Select the "Start GeoNetwork" icon.
 - The application will take a few moments to start up
@@ -52,7 +52,7 @@ Start |GN|
 .. figure:: ../../images/screenshots/800x600/geonetwork-returntohomepage.png
 
 Searching
----------
+--------------------------------------------------------------------------------
 
 There are many different ways to search the catalogue for maps and other geographic data. This guide will introduce you to the most popular search methods: default, advanced and by category. Whichever search you choose, remember that you will see results based on your privileges and assigned work group (more on this later).
 
@@ -60,7 +60,7 @@ There are many different ways to search the catalogue for maps and other geograp
 	The term *data* refers to datasets, maps, tables, documents, etc, in fact anything that can be linked to the metadata record that describes it.
 
 Default Search
---------------
+--------------------------------------------------------------------------------
 
 The default search allows you to search text within the entire record, such as
 keywords of the metadata and/or geographic location.
@@ -99,7 +99,7 @@ Click the *Search* button to proceed and show the results.
   *The Search button*
 
 Searching by Categories
------------------------
+--------------------------------------------------------------------------------
 
 An additional way to search data within the |GN| database, from the home page, is searching by **Category**. A list of categories is provided to the user to identify data at a more generic level: **Applications**, **Audio/Video**, **Case study and best practises**, **Conference proceedings**, **Datasets**, **Directories**, **Interactive resources**, **Maps and graphics**, **Other information resources**, **Photo**.
 
@@ -111,7 +111,7 @@ may view details of every single map; just clicking on the **Metadata** button o
   *Search by Category*
   
 Advanced Search
----------------
+--------------------------------------------------------------------------------
 
 The advanced search option works similarly to the default search. However, you can be more specific in your search criteria as it offers different elements to look for data, each of them focusing one of the following aspects: *What?, Where?, When?*
 
@@ -185,7 +185,7 @@ At last, you can customise the number of output results per page in the *Hits Pe
   *Other options in the Advanced search*
 
 Search Results
---------------
+--------------------------------------------------------------------------------
 
 The output of a search provides you a list of the metadata records that should fit
 your request. For each record, the result page shows the title, an abstract and the
@@ -221,7 +221,7 @@ maximum of four sections can be consulted, as shown below.
         *Large figure (graphic overview)*
 
 Privileges, roles and user groups
----------------------------------
+--------------------------------------------------------------------------------
 
 |GN| uses a system of *Privileges*, *Roles* and *User groups*.
 
@@ -240,7 +240,7 @@ To log in, simply go to the home page and enter your username and password in th
 **User groups.** Every authenticated user is assigned to a particular work group and is able to view data within that work group.
 
 More information
-----------------
+--------------------------------------------------------------------------------
 
 Click on the 'Help' link in the banner of the GeoNetwork home page or go there directly by clicking on this link: http://localhost:8880/geonetwork/docs/eng/users/index.html
 

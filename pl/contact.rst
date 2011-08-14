@@ -1,12 +1,12 @@
 Kontakt
-=======
+================================================================================
 
 Prace nad OSGeo-Live są koordynowane za pomoca poczty elektronicznej oraz chatu internetowego
 (IRC), szczegóły na stronie:
 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
 Wsparcie społeczności
-=====================
+================================================================================
 
 W razie pytań, uwag lub problemów, pisz do nas na 
 `listę dyskusyjną <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
@@ -21,7 +21,7 @@ Wiele informacji znajdą Państwo na naszej stronie `Wiki <http://wiki.osgeo.org
 jest również `system zgłaszania życzeń i błędów <https://trac.osgeo.org/osgeo/report/10>`_.
 
 Wsparcie komercyjne
-===================
+================================================================================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
  :scale: 100%

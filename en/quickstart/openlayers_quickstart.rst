@@ -4,12 +4,12 @@
 
 .. _openlayers-quickstart:
 
-*********************
+********************************************************************************
 OpenLayers Quickstart 
-*********************
+********************************************************************************
 
 Creating Your First Map
------------------------
+--------------------------------------------------------------------------------
 The OpenLayers API has two concepts which are important to understand in
 order to build your first map: 'Map', and 'Layer'. An OpenLayers Map
 stores information about the default projection, extents, units, and so
@@ -18,7 +18,7 @@ is a data source -- information about how OpenLayers should request data
 and display it.
 
 Crafting HTML
-+++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Building an OpenLayers viewer requires crafting HTML in which your
 viewer will be seen. OpenLayers supports putting a map inside of any
@@ -44,7 +44,7 @@ page.
 **Ex. 1**: Creating your first HTML Page   
 
 Creating the Map Viewer
-+++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 In order to create the viewer, you must first create a map. The
 OpenLayers.Map constructor requires one argument: This argument must
@@ -86,7 +86,7 @@ zoomToMaxExtent function, which will zoom as close as possible while
 still fitting the full extents within the window.
 
 Putting it All Together
-+++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 The following code block puts all the pieces together to create an 
 OpenLayers viewer.
 
@@ -117,7 +117,7 @@ OpenLayers viewer.
 **Ex. 4:** Full HTML and Javascript for simple WMS browser
 
 Adding an Overlay WMS
----------------------
+--------------------------------------------------------------------------------
 
 WMS layers have the capability to be overlaid on top of other WMS layers in
 the same projection. There are several ways to mark a layer as an overlay,
@@ -149,7 +149,7 @@ Using the transparent: 'true' parameter sets two flags automatically:
    it to true by default.
 
 Adding a Vector Marker to the Map
----------------------------------
+--------------------------------------------------------------------------------
 
 To add a single marker at a latitude and longitude to the map, you can use
 a Vector Layer to add an overlay.

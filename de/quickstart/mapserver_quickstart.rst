@@ -17,9 +17,9 @@
   :align: right
   :target: http://www.osgeo.org
 
-====================
+================================================================================
 MapServer Quickstart
-====================
+================================================================================
 
 MapServer ist eine `Open Source <http://www.opensource.org>`_ serverbasierte Anwendung, mit der geografische Kartenbilder und Vektordaten im Internet mittels `OGC standards <http://www.opengeospatial.org/standards>`_ wie etwa `WMS <http://www.opengeospatial.org/standards/wms>`_ und `WFS <http://www.opengeospatial.org/standards/wfs>`_ veröffentlicht werden können.
 
@@ -33,17 +33,17 @@ Dieser Quickstart beschreibt:
 .. _mapserver-quickstart-configure-with-mapfile:
 
 MapServer mit einem "mapfile" konfigurieren
-===========================================
+================================================================================
 
 .. note:: **Was werden wir lernen ?** In diesem Abschnitt werden Sie lernen, was ein mapfile ist und wie man ihn so konfiguriert, dass MapServer ein Shapefile als Bilder bereitstellt, die mittels einer WMS Anfrage abgerufen werden können.
 
 Was ist ein MapFile ?
----------------------
+--------------------------------------------------------------------------------
 
 Der `Mapfile <http://mapserver.org/mapfile/index.html>`_ ist die Konfigurationsdatei, die MapServer nutzt, um raumbezogene Daten wie Bilder oder Vektordaten zu bereitzustellen. Sein Hauptzweck ist es, die Karten die er zeichnet zu lesen und festzulegen, wie diese dargestellt werden (z.B. Farbe, Symbole, Labels, etc. ..).
 
 Erstellen eines ersten MapFile
-------------------------------
+--------------------------------------------------------------------------------
 
 #. Öffnen Sie einen Texteditor (Mousepad ist der Standard Editor auf der live dvd: :menuselection:`Applications --> Accessories --> Mousepad`).
 #. Erstellen Sie eine Datei "mapserver_quickstart.map" in Ihrem Home Verzeichnis: :file:`/home/user/mapserver_quickstart.map`
@@ -99,7 +99,7 @@ Wenn wir genauer auf das Objekt **LAYER** in unserem mapfile schauen, sehen wir,
 .. _mapserver-quickstart-wms-request:
 
 Darstellen einer Karte mit MapServer mittels eines WMS **GetMap** Requests
-==========================================================================
+================================================================================
 
 .. note:: **Was werden wir lernen ?** Sie werden lernen, wie man von einem MapServer ein Bild aus in einem mapfile definierten Karten mittels eines OGC WMS Requests abfragen kann.
 
@@ -117,7 +117,7 @@ Was bedeutet das Obige ? Einfach gesagt, es ist ein `Web Map Service (WMS) <http
 .. _mapserver-quickstart-add-new-layer:
 
 Einen neuen Layer im "mapfile" ergänzen, um eine Shapefile darzustellen
-=======================================================================
+================================================================================
 
 .. note:: **Was werden wir lernen ?** Sie werden lernen, wie man neue layer Objekte in einem mapfile definiert.
 
@@ -149,7 +149,7 @@ Das Bild, das nun vom MapServer dargestellt wird sieht aus wie das vorherige, nu
 .. _mapserver-quickstart-styling-a-layer:
 
 Darstellung eines Layers anpassen mit "mapfile" Konfigurationen
-===============================================================
+================================================================================
 
 .. note:: **Was werden wir lernen ?** Sie sehen ein Beispiel für die Darstellungselemente eines Layers in Abhängigkeit von seinen Eigenschaften.
 
@@ -189,7 +189,7 @@ Das Ergebnis dieser Ergänzung bewirkt, dass große Seen mit einem schwarzen Umr
 .. note:: Lernen Sie mehr über `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ im MapServer.
 
 Weiterführende Links
-====================
+================================================================================
 
 Dies ist ein einfaches Beispiel und Sie können noch viel, viel mehr machen. Die MapServer Projekt Webseite enthält zahlreiche Hilfen, um ihnen einen Start zu ermöglichen. Hier sind ein paar Tipps, wo sie als nächstes nachschauen können:
 

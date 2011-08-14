@@ -11,12 +11,12 @@
   :align: right
   :target: http://gmt.soest.hawaii.edu
 
-**************
+********************************************************************************
 GMT Quickstart
-**************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 Included on this LiveDVD are the GMT documentation (HTML and PDF),
 example scripts (including a low resolution worldwide coastline),
@@ -39,7 +39,7 @@ The low resolution coastline can be found in :file:`/usr/share/gmt/coast/`.
 
 
 Examples
-~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are 29 example jobs built in, and a script to run them all:
 

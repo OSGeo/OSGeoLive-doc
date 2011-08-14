@@ -11,12 +11,12 @@
   :align: right
   :target: http://www.geomajas.org
 
-*******************
+********************************************************************************
 Geomajas Quickstart 
-*******************
+********************************************************************************
 
 Getting Started
-===============
+================================================================================
 
 Geomajas is a development framework for creating GIS web applications. Therefore, what you see on this Live DVD is an example application built using the Geomajas technology.
 
@@ -35,7 +35,7 @@ Geomajas is a development framework for creating GIS web applications. Therefore
 
 
 Creating new Geomajas applications
-==================================
+================================================================================
 
 In order to create a new Geomajas application, you will need `Maven <http://maven.apache.org/>`_ installed. Maven is a tool for building and managing any Java based project. Geomajas has defined a Maven archetype, that sets up a default application in a single command::
 

@@ -11,9 +11,9 @@
   :alt: project logo
   :align: right
 
-********************
+********************************************************************************
 GeoServer Quickstart 
-********************
+********************************************************************************
 
 GeoServer ist ein WebServer, der es ermöglicht Karten und Daten verschiedener Formate Standardanwendungen wie einem Web Browser und Desktop GIS Anwendungen bereit zu stellen.
 
@@ -25,7 +25,7 @@ Dieser Quickstart beschreibt, wie man:
   * Karten in anderen Applikationen darstellt und welche Applikationen hierfür verwendet werden können
 
 Start |GS|
-==========
+================================================================================
 
 #. Klicken Sie auf das Icon "Start GeoServer" 
 #. Die Applikation wird einen kurzen Augenblick benötigen, um vollständig gestartet zu sein
@@ -35,7 +35,7 @@ Start |GS|
     :scale: 70 %
 
 Erste Oberflächen
-=================
+================================================================================
 
 Öffnen Sie erstmalig die |GS| Startseite, werden sie die Ansicht wie oben zu Gesicht bekommen. 
 Um den |GS| administrieren zu können, müssen Sie sich anmelden mit den Benutzer `admin` und dem Passwort `geoserver`. 
@@ -67,7 +67,7 @@ Sie haben in diesem Kartenfenster drei Möglichkeiten, Kartenausschnitte einzust
 Experimentieren Sie mit dieser Vorschau und testen Sie auch die anderen Daten. Sobald Sie einen Eindruck gewonnen haben, wie es sich anfühlt, Daten anzusehen, können Sie beginnen, selbst welche einzubinden und zu veröffentlichen.
 
 Daten einbinden
-===============
+================================================================================
 
 .. note::
     Sie werden nicht in der Lage sei, die folgenden Schritte durchzuführen, wenn 
@@ -130,7 +130,7 @@ Seite eine neue Ressource mit :guilabel:`Add a new resource` hinzuzufügen. Auf 
 *Natural Earth* Store in der Auswahlliste aus, um diesem die neue Ressource zuzuordnen. 
 
 Anpassen der Stile
-------------------
+--------------------------------------------------------------------------------
 Um den Stil eines Kartenlayers anzupassen, wird im |GS| der OGC Standard :doc:`Styled Layer Description (SLD) <../standards/sld_overview>` verwendet. Stile werden über Regeln (*Rules*) in XML definiert und steuern somit die Repräsentation der Daten über verschiedene Ausgestaltungen (*Symbolizers*).
 
 Sie können eine SLD Datei mit einem einfachen Texteditor erzeugen, es ist jedoch empfehlenswert, einen Grafischen Editor zu nutzen. Es gibt hierfür viele Möglichkeiten, an dieser Stelle wird auf |UG| eingegangen, weil hier direkt Shapefiles per Drag&Drop eingebunden werden können und eine Oberfläche bereitgestellt wird, die es dem Anwender erlaubt auch XML direkt eingeben zu können.
@@ -220,7 +220,7 @@ entfernen, sofern er nicht relevant ist.
 
 
 Stil auf einen Layer anwenden
------------------------------
+--------------------------------------------------------------------------------
 
 Klicken Sie im linken Menü der Administrationsoberfläche von |GS| 
 auf den Link :guilabel:`Layers`. Wählen Sie in der Liste z.B. den 
@@ -254,7 +254,7 @@ Seite und prüfen Sie, ob dieser gut aussieht.
     can see the new image. 
 
 Clients für WMS Layer
-=====================
+================================================================================
 
 Eine große Anzahl von Clients unterstützt den :doc:`WMS Standard <../standards/wms_overview>` 
 und kann die vom |GS| veröffentlichen Daten verarbeiten.

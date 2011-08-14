@@ -11,9 +11,9 @@
   :alt: project logo
   :align: right
 
-****************
+********************************************************************************
 Ossim Quickstart 
-****************
+********************************************************************************
 
 Open Source Software Image Map (OSSIM) ist eine Hochleistungs-Software für Fernerkundung,
 Bildverarbeitung, geographische Analysen und Photogrammetrie.
@@ -24,7 +24,7 @@ Dieser Quickstart beschreibt das:
   * Starten von ossimPlanet
 
 Imagelinker
-===========
+================================================================================
 
 * Starte Imagelinker über sein Icon aus dem Menü "Spatial Tools" auf dem Desktop 
 * Wähle die Projektdatei über :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
@@ -41,7 +41,7 @@ Für das gesamte Tutorial sehen Sie diesen `blog article`_.
 
 
 OssimPlanet
-===========
+================================================================================
 
 * Starte OssimPlanet über sein Icon aus dem Menü "Desktop GIS" auf dem Desktop 
 
@@ -59,7 +59,7 @@ OssimPlanet
 
 
 Weiterführende Links
-====================
+================================================================================
 
 * Ossim Tutorials
 

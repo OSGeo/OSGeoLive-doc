@@ -10,9 +10,9 @@
 	:align: right
 	:target: http://www.pgrouting.org
 
-********************
+********************************************************************************
 pgRouting Quickstart
-********************
+********************************************************************************
 
 pgRouting erweitert eine :doc:`PostGIS <postgis_overview>`/` PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
 
@@ -20,7 +20,7 @@ Diese Quickstart Anleitung beschreibt, wie man eine Routingdatenbank öffnet und
 
 
 pgRouting Starten
-=================
+================================================================================
 
 * Starte ein :menuselection:`Applications --> Accessories --> Terminal` Fenster und stelle eine Verbindung mit der ``pgrouting`` Datenbank her:
 
@@ -88,7 +88,7 @@ pgRouting Starten
 
 
 Wie geht es weiter?
-===================
+================================================================================
 
 * **pgRouting Webseite** - Besuche die Projektseite unter http://www.pgrouting.org, um mehr über pgRouting zu erfahren.
 

@@ -4,12 +4,12 @@
 
 .. _openlayers-quickstart:
 
-*********************
+********************************************************************************
 Guía de inicio rápido de OpenLayers 
-*********************
+********************************************************************************
 
 Creando el Primer Mapa
------------------------
+--------------------------------------------------------------------------------
 La API de Openlayers tiene dos conceptos que es importante entender para
 poder crear un primer mapa: 'Mapa (*Map*)', y  'Capa (*Layer*)'. Un mapa de OpenLayers
 almacena información sobre la proyección por defecto, la extensión, unidades y demás propiedades
@@ -18,7 +18,7 @@ es una fuente de datos -- información sobre cómo OpenLayers debe pedir los dat
 y representarlos.
 
 Elaboración de  HTML
-+++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Construir un visor OpenLayers precisa de la elaboración de un HTML en el cual se
 verá el visor. OpenLayers permite poner un mapa dentro de cualquier 
@@ -44,7 +44,7 @@ página.
 **Ej. 1**: Creando la primera Página HTML   
 
 Creando el Visor de Mapas
-+++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Para crear el visor, lo primero es crear un mapa. El
 constructor OpenLayers.Map necesita un argumento: Este argumento debe
@@ -86,7 +86,7 @@ función zoomToMaxExtent, que hará un zoom tan cercano como sea posible manteni
 la extensión total del mapa dentro de la ventana.
 
 Juntándolo todo
-+++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 El siguiente bloque de código junta todas las piezas anteriores para crear un 
 visor OpenLayers.
 
@@ -117,7 +117,7 @@ visor OpenLayers.
 **Ej. 4:** HTML y Javascript completo para un navegador WMS
 
 Superponiendo un WMS
----------------------
+--------------------------------------------------------------------------------
 
 Las capas WMS tienen la capacidad de superponerse encima de otras capas WMS con 
 la misma proyección. Hay varias formas de marcar una capa como capa superpuesta,
@@ -149,7 +149,7 @@ El uso del parámetro *transparent: 'true'* provoca el ajuste de otros dos pará
    a estar también en *true* por defecto.
 
 Añadiendo una Marca Vectorial al Mapa
----------------------------------
+--------------------------------------------------------------------------------
 
 Para añadir un único marcador en una latitud y longitud determinada en el mapa, se puede usar
 una Capa Vectorial para añadirla como una superposición. 

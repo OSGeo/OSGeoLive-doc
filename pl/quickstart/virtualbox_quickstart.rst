@@ -5,16 +5,16 @@
 
 .. _virtualbox-quickstart-pl:
  
-**************************************
+********************************************************************************
 Wprowadzenie do OSGeo-Live Virtual Box
-**************************************
+********************************************************************************
 
 Tu opisaliśmy metodę uruchomienia OSGeo-Live DVD lub ISO na `VirtualBox <http://www.virtualbox.org/>`_ wirtualnej maszynie.
 
 VirtualBox jest wirtualną maszyną na licencji Open Source, używaną przez wielu programistów i testerów OSGeo-Live.
 
 Wymagania systemowe
--------------------
+--------------------------------------------------------------------------------
 
 * RAM: 1 GB, najlepiej 2 GB, jeśli planowane jest używanie także innych programów.
 * Wolne miejsce na twardym dysku: 
@@ -23,7 +23,7 @@ Wymagania systemowe
  * 17 GB jeśli instalowane lokalnie z ISO
 
 Utwórz wirtualną maszynę
-------------------------
+--------------------------------------------------------------------------------
 Pobierz i zainstaluj `Virtual Box <http://www.virtualbox.org/>`_. Na systemie linux w ten sposób:
 
   ``apt-get install virtualbox-ose``
@@ -90,11 +90,11 @@ Dodaj obraz OSGeo-Live.
 Teraz możesz uruchomić wirtualną maszynę jak opisano w :doc:`osgeolive_quickstart`
 
 Utwórz stałą wirtualną maszynę
-------------------------------
+--------------------------------------------------------------------------------
 Jeśli planujesz często używać wirtualnej maszyny OSGeo-Live DVD, prawdopodobnie chcesz utworzyć ją na stałe, jak w: :doc:`osgeolive_install_quickstart`.
 
 Zwiększ rozmiar wyświetlania
-----------------------------
+--------------------------------------------------------------------------------
 Teraz możesz dodać wirtualne narzędzia bootowania, które wspomagają większą rozdzielczość ekranu, możliwość kopiowania i wklejania pomiędzy goszczonym systemem i hostem,  przyspieszające grafikę, i inne.
 
 Upewnij się, że komputer ma połączenie z Internetem.
@@ -121,7 +121,7 @@ Ponownie uruchom wirtualną maszynę, a ustawienia wyświetlania powinny być ta
 Wybierz: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
 
 Zobacz również:
----------------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`

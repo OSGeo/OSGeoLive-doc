@@ -9,12 +9,12 @@
   :align: right
   :target: http://activityworkshop.net/software/prune/
 
-****************
+********************************************************************************
 Prune Quickstart 
-****************
+********************************************************************************
 
 Laufen lassen
-=============
+================================================================================
 
 Um Prune auf diesem live DVD laufen zu lassen, wählen Sie den Ikon "GpsPrune" im Menü "Navigation und Karten" aus.
 Um Daten zu verarbeiten, benötigen Sie eine Datei einzulesen, oder Daten aus einem GPS-Gerät mittels *Gpsbabel* auszulesen,
@@ -31,7 +31,7 @@ Unterhalb der Karte findet man das Höhenprofildiagramm, das den Profil zeigt fa
 Wenn man darauf klickt, wird der entsprechender Datenpunkt ausgewählt.
 
 Anpassen des Ansichts
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Andere Kartendarstellungen sind unter der Menüoption :menuselection:`Einstellungen --> Karten Hintergrund setzen`.
 Verschiedene Karten sind vordefinitert, oder Sie können einen anderen Server hinzufügen falls Sie die URL kennen.
 Sie können auch eine Cloudmade Karte hinzufügen in dem Sie die Stilnummer eingeben.
@@ -44,14 +44,14 @@ werden sie beim nächsten Aufruf von Prune wiederverwendet.  Allerdings mit dies
 gehen alle lokal gespeicherten Dateien verloren wenn man das System herunterfährt.
 
 Karten herunterladen
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Um die heruntergeladenen Kartenkacheln auf Disk zu speichern, können Sie die Menüoption
 :menuselection:`Einstellungen --> Karten auf Disk speichern` benutzen und einen Ordner für die Bilder auswählen.
 Mit dieser Option muss Prune die Bilder nur einmal herunterladen, was das Anzeigen beschleunigt.  Aber diese Option
 macht auf einem installierten System mehr Sinn als auf einem live DVD.
 
 Prune auf anderen Systemen verwenden
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Nachdem Sie Prune mit diesem live DVD ausprobiert haben, kann es sein dass Sie Prune auf einem anderen System
 benutzen wollen, egal ob das System Linux oder Mac OSX oder Windows ist.  Manche Linuxdistributionen enthalten
 Prune in den normalen Software Tools, Sie müssen nur nach "Prune" oder "Gpsprune" suchen.  Anderenfalls können
@@ -62,7 +62,7 @@ oder höher.  Die Funktionalität lässt sich erweitern wenn Sie zusätzlich and
 zum Beispiel *Gpsbabel*, *Gnuplot*, *Exiftool* oder *Java3d*.
 
 Weiterführende Literatur
-========================
+================================================================================
 
 * Prune Homeseite (englisch): http://activityworkshop.net/software/prune/
 * Bildschirmfotos: http://activityworkshop.net/software/prune/screenshots.html

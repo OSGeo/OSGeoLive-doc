@@ -11,29 +11,29 @@
 
 .. _atlasstyler-quickstart: 
 
-**************************************
+********************************************************************************
 Guía de inicio rápido de AtlasStyler
-**************************************
+********************************************************************************
 
 Manuales
-========
+================================================================================
 * `Manual de AtlasStyler, Idioma alemán, Creado para la versión 1.2 <../../geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
 
 Tutoriales
-==========
+================================================================================
 
 AtlasStyler (Estilo de capas con SLD)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `AtlasStyler tutorial de etiquetado, Idioma inglés, Creado para la versión 1.3 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_
 * `AtlasStyler tutorial de etiquetado SLD, Idioma francés,  Creado para la versión 1.3 <../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_
 
 Más tutoriales se publican como entradas en el blog `http://en.geopublishing.org <http://en.geopublishing.org>`_ (necesita estar en linea para visitar la página).
 
 Ejecutar
-========
+================================================================================
 
 Primeros pasos
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 AtlasStyler es una aplicación para usuario final, que permite crear archivos .SLD para datos vectoriales.
 

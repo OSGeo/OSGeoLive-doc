@@ -10,14 +10,14 @@
   :align: right 
 
 Ushahidi Quickstart 
-===================
+================================================================================
 
 Diese Anleitung beschreibt, wie Sie:
 
 * Ushahidi zum Laufen bekommen
 
 Ushahidi zum Laufen bekommen
-----------------------------
+--------------------------------------------------------------------------------
 
 1. Das Starten von Ushahidi über das Desktop-Symbol oder Menüpunkt öffnet den 
    Web-Browser und bringt Sie auf die Seite für die Installation. Eine Ushahidi 

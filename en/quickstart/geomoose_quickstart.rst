@@ -11,12 +11,12 @@
   :align: right
   :target: http://www.geomoose.org
 
-*******************
+********************************************************************************
 GeoMoose Quickstart
-*******************
+********************************************************************************
 
 Getting Started
-===============
+================================================================================
 
 GeoMoose is a GIS data portal management framework. The installed version of GeoMoose on the Live DVD is an example configuration that displays an example set of layers.
 
@@ -58,7 +58,7 @@ The Interfaces presented above shows:
 
 
 IDing a location in GeoMoose
-============================
+================================================================================
 
 You can ID a location in the interface by clicking on the "identify", ("i" in a blue circle icon) button in the top toolbar, and then clicking a point on the map to identify.
 
@@ -68,7 +68,7 @@ You can ID a location in the interface by clicking on the "identify", ("i" in a 
 The menu along the right side of the Map view will display a report related to the point that you clicked in the map.   This is a service in the GeoMoose package that has been configured to respond to GeoMoose for the "Parcel" layer when a point is clicked.
 
 Measuring in GeoMoose
-=====================
+================================================================================
 
 GeoMoose has some measuring tools installed and activated by default. Clicking the ruler icon in the top toolbar, will start the linear measuring tool.  You can click as many points as you like in the map window and a trailing polyline will be drawn.  When you get to your last point, just double click to stop.  The total distance of all lines drawn will be used to generate the "Total Length" in the your units of choice in the side menu.
 
@@ -79,7 +79,7 @@ These are considered services by the GeoMoose interface and can be added to via 
 
 
 Making a buffered selection
-===========================
+================================================================================
 You can make a buffered selection from a point, Line polygon, or a box.  To start click on the "Buffered Select" icon (polygon with pencil), and start drawing a selection polygon in the map. You can double click the last point to finish the drawing process.  This screenshot shows the drawing process on the map.  the right menu is displaying the input form for the criteria of the buffered select, in this case a Polygon against the "Parcels" layers with a "0" value for the buffering distance.
 
   .. image:: ../../images/screenshots/1024x768/geomoose-2.4-screenshot008.png
@@ -98,7 +98,7 @@ Clicking the "Co" button in the side menu in the above screenshot will generate 
 The results above demonstrate the service response to the buffered query by displaying the result in the map via a selection overlay that highlights the original selection areas polygon (purple), the crossing and within parcels at a 100ft buffer (orange) and the parcels crossing and within the buffered polygon (yellow).  The side menu now displays the reported results of the query process with options for outputting in other formats for mailing labels.
 
 Printing
-========
+================================================================================
 
 This next screenshot shows what a Print Map service looks like that is bundled with GeoMoose.  the side menu in the following view, shows the options available for printing the current mapview. Sheet size, orientation, resolution for both raster image backgrounds and for overall output are also available.
 
@@ -117,6 +117,6 @@ The following screenshots shows an example of a PDF output in landscape mode.
 
 
 Additional information
-======================
+================================================================================
 Can be found at the `GeoMoose <http://www.GeoMoose.org/>`_ homepage.
 

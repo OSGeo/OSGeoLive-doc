@@ -6,23 +6,23 @@
 
 .. _usb-quickstart:
  
-***********************************************
+********************************************************************************
 Einen startbaren OSGeo-Live USB-Stick erstellen
-***********************************************
+********************************************************************************
 
 Hier beschreiben wir, wie ein bootbarer OSGeo-Live USB-Stick erstellt werden kann. Von einem USB-Stick zu starten ist schneller als von einer DVD zu starten und das USB-Laufwerk zusätzlich kann zur Sicherung der Daten zwischen Sessions genutzt werden.
 
 Die USB Installation ist noch ziemlich neu. Wir haben zwar bereits eine Menge an positiven Rückmeldungen erhalten, allerdings ist die Installation noch nicht ausgiebig getestet und einige Leute haben von Schwierigkeiten berichtet, vom USB-Laufwerk zu starten.
 
 Systemvoraussetzungen
----------------------
+--------------------------------------------------------------------------------
 
 * Einen 4 GB USB-Stick, wenn osgeo-live-mini genutzt wird.  
 * Einen 8 GB USB-Stick, wenn osgeo-live genutzt wird.  
 * Eine OSGeo-Live DVD oder ein ISO Abbild (heruntergeladen von: http://live.osgeo.org/download.html)
 
 Einen startbaren USB-Stick unter Ubuntu erstellen
--------------------------------------------------
+--------------------------------------------------------------------------------
 
 Schließen Sie einen USB-Stick an Ihren Rechner an.
 
@@ -48,7 +48,7 @@ Wählen Sie :guilabel:`Make Startup Disk`
 Warten Sie ca. 20 Minuten, während der USB-Stick bearbeitet wird.
 
 Einen startbaren USB-Stick unter Windows erstellen
---------------------------------------------------
+--------------------------------------------------------------------------------
 
 Schließen Sie einen USB-Stick an Ihren Rechner an.
 
@@ -75,7 +75,7 @@ Wählen Sie :guilabel:`Create`
 Warten Sie ca. 20 Minuten, während der USB-Stick bearbeitet wird.
 
 Einstellen der Startreihenfolge im BIOS:
-----------------------------------------
+--------------------------------------------------------------------------------
 
 Die meisten Computer sind nicht so eingestellt, das sie von einem USB-Laufwerk starten.
 
@@ -88,17 +88,17 @@ Bei manchen Rechnern lässt sich die nur einstellen, wenn der USB-Stick während
 Das USB-Laufwerk ist häufig unter Festplatten aufgeführt und nicht unter Wechselplatten.
 
 Starten:
---------
+--------------------------------------------------------------------------------
 
 Starten Sie wie unter: :doc:`osgeolive_quickstart` beschrieben.
 
 Bekannte Probleme:
-------------------
+--------------------------------------------------------------------------------
 
 * Mac Computer starten nicht von diesen USB-Sticks, benutzen Sie stattdessen die LiveDVD.
 
 Siehe auch:
------------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`

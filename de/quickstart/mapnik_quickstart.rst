@@ -11,13 +11,13 @@
   :align: right
 
 Mapnik Quickstart
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik ist eine Werkzeug um Kartenanwendungen zu entwickeln. Vor allem wird Mapnik dazu eingesetzt um Karten zu generieren. Mapnik ist leicht erweiterbar und sowohl für Web- als auch Desktop-Entwicklung geeignet. 
 
 
 Mapnik & Python
----------------
+--------------------------------------------------------------------------------
 
 Mapnik und die dazugehörigen Python-Abhängigkeiten sind auf dem aktuellen System installiert und können über entsprechende Scripts angesprochen werden.
 
@@ -38,7 +38,7 @@ Karten über Python zu erstellen ist mit Mapnik ganz einfach. Öffnen Sie das Te
 	innerhalb von QGIS mit dem Quantumnik erstellt werden: http://bitbucket.org/springmeyer/quantumnik/
 
 Mapnik & OpenLayers
--------------------
+--------------------------------------------------------------------------------
 
 Außerdem ist eine Basis-Demo Anwendung vorhanden. Hier wird Mapnik dazu genutzt um Kacheln im OSM/Google Tile-Schema in eine OpenLayers Anwendung einzubinden.
 
@@ -66,7 +66,7 @@ Um die Demo zu starten müssen folgende Schritte durchgeführt werden:
 
 
 Wie geht es weiter?
--------------------
+--------------------------------------------------------------------------------
 
 * Mapnik Tutorials
 

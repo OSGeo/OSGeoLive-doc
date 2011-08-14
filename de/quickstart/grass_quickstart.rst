@@ -12,12 +12,12 @@
   :target: http://grass.osgeo.org
 
 
-********************
+********************************************************************************
 GRASS GIS Quickstart 
-********************
+********************************************************************************
 
 Ablauf
-=======
+================================================================================
 
 Um GRASS auf der Live DVD zu starten, klicken Sie auf den GRASS Link auf
 dem Desktop. Im "Welcome to GRASS" Fenster wählen Sie entweder den Spearfish 
@@ -43,7 +43,7 @@ in dem Sie die Alt-Taste gedrückt halten und dann das Fenster mit der
 linken Maustaste verschieben. 
 
 Karten anzeigen
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
@@ -66,7 +66,7 @@ anzuzeigen.
 Sie sollten nun die beiden Karten im Kartenfenster sehen.
 
 Ein Höhenprofil erstellen
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-profile.png
   :scale: 50 %
@@ -86,7 +86,7 @@ Icon, um das Profil anzuzeigen. Um die Analyse zu beenden, klicken Sie
 den `Beenden` Knopf ganz rechts.
 
 Erstellen einer zufälligen Oberfläche
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nun erstellen wir eine neue Karte. Wählen Sie :menuselection:`Raster --> 
 Erzeuge Oberflächen --> Fraktale Oberfläche` aus dem Menü (fast ganz unten);
@@ -101,7 +101,7 @@ schließen mit dem Knopf [Schließen].
   :align: right
 
 Farben anpassen
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nun fügen Sie die neue Rasterkarte zur Kartenliste hinzu, wie Sie es 
 bereits mit der Karte elevation gemacht haben. Die Karte liegt nun aber 
@@ -121,7 +121,7 @@ wird der Display Cache komplett neu aufgebaut. Sie sollten die Karte nun
 in der neuen Farbdarstellung sehen.
   
 Erstellen einer Reliefschattierung
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
@@ -144,7 +144,7 @@ Icon klicken wollen, können Sie auch das "Render" Kontrollkästchen
 unten rechts im Fenster auswählen, damit es automatisch geschieht).
 
 Wassereinzugsgebiete und Flüsse
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wieder selektieren wir die Karte `elevation` @PERMANENT und wählen 
 im Menü Raster :menuselection:`Hydrologische Modellierung --> 
@@ -190,7 +190,7 @@ und auf den Knopf [Anwenden] klicken. Sie müssen wieder auf den Knopf
 Veränderung sichtbar wird.
 
 Vektor Module
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die Aufgaben haben nur einige Rasteranalysen vorgestellt. GRASS bietet 
 aber auch eine Vielzahl von Vektor Modulen, die genauso umfangreich 
@@ -198,7 +198,7 @@ sind wie für die Rasteranalyse. GRASS bietet eine topologische
 Vektorumgebung.
 
 3D Visualisierung
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/1024x768/grass-nviz.png
   :scale: 30 %
@@ -223,7 +223,7 @@ zurück im Hauptfenster auf den Knopf "Zeichne" in der oberen linken
 Ecke.
 
 Beenden und die Kommandozeile
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wenn Sie GRASS beenden möchten, wählen Sie im GRASS GUI 
 :menuselection:`Datei --> GUI Schließen`. Bevor Sie auch das GRASS 
@@ -242,7 +242,7 @@ Am Ende schliessen Sie den Browser und tippen "exit" in das GRASS
 Terminal, um die GRASS GIS Umgebung zu verlassen.
 
 Weiterführende Links
-====================
+================================================================================
 
 * Besuchen Sie die GRASS Webseite unter `http://grass.osgeo.org <http://grass.osgeo.org>`_
 * Besuchen Sie die GRASS Wiki Hilfeseiten unter `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_

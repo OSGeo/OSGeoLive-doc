@@ -10,13 +10,13 @@
   :align: right
   :target: http://deegree.org/
 
-********************
+********************************************************************************
 deegree 3 Quickstart 
-********************
+********************************************************************************
 
 
 Project description
-===================
+================================================================================
 
 deegree is an open source project dedicated to providing geospatial components for the Java platform.
 
@@ -36,7 +36,7 @@ This Quick Start describes how to:
   
 
 About deegree 3
-===============
+================================================================================
 
 deegree 3 is the new generation of the deegree Java framework for 
 geospatial applications and OGC service implementations. It can be
@@ -44,14 +44,14 @@ used for setting up web based spatial data infrastructures (SDI).
 
 
 Start deegree 3
-===============
+================================================================================
 
 Choose "Start deegree" from the start menu.
 The application will take a few moments to start up.
 
 
 deegree 3 services console
-==========================
+================================================================================
 
 When you start deegree for the first time, the internet browser firefox will open.
 Please wait until you can see the deegree 3 services console.
@@ -61,7 +61,7 @@ Please type in the password "deegree" (without double quotes) to get access to t
 
 
 deegree 3 workspaces
-====================
+================================================================================
 
 deegree 3 is based on a unified configuration concept that's shared by all deegree 3-based
 applications (web services, web applications, desktop applications, command line tools).
@@ -75,7 +75,7 @@ workspaces and official workspaces, which you can import (internet access requir
 
 
 deegree 3 workspaces on the OSGeo-Live GIS Disc
-===============================================
+================================================================================
 
   * deegree-workspace-utah
 
@@ -113,7 +113,7 @@ For further information on the deegree 3 workspaces and its configuration, pleas
 
 
 What Next?
-==========
+================================================================================
 
 This was just a small overview about the functions of deegree. Have a look
 into the degree wiki, the deegree online demo and the deegree.org home, to learn

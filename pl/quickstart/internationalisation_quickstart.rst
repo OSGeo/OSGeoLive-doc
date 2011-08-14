@@ -6,12 +6,12 @@
 
 .. _osgeolive-internationalisation-quickstart:
  
-**********************************************
+********************************************************************************
 Wprowadzenie do umiędzynarodowienia OSGeo-Live
-**********************************************
+********************************************************************************
 
 Przełączanie języków
---------------------
+--------------------------------------------------------------------------------
 
 Zainstalowaliśmy wiele popularnych języków. Aby przełączyć system, należy:
 
@@ -26,6 +26,6 @@ Po tych zmianach, menu systemowe oraz wiele aplikacji będzie dostępnych w wybr
 Dla dodatkowych języków, idź do: :menuselection:`Application --> System --> Language Support` (Wymaga połaczenia z Internetem).
 
 Obsług aklawiatury
-------------------
+--------------------------------------------------------------------------------
 Zainstalowana jest obsługa klawiatury międzynarodowej, aby użyć innej klawiatury, należy odpowiednio skonfigurować system. 
 

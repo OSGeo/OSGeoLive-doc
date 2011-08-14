@@ -10,9 +10,9 @@
   :align: right
   :target: http://www.opengis.es/index.php?lang=es
 
-******************************************************
+********************************************************************************
 Guía de inicio rápido de Kosmo - Cliente de escritorio
-******************************************************
+********************************************************************************
 
 Kosmo - Cliente de escritorio es un aplicación SIG de escritorio amigable que permite explorar, editar
 y analizar datos espaciales desde una variedad de bases de datos, formatos vectoriales y formatos ráster.
@@ -27,7 +27,7 @@ Este inicio rápido describe cómo:
 	
 	
 Iniciar Kosmo Escritorio
-========================
+================================================================================
 
 Para iniciar la aplicación, siga los siguientes pasos:
 
@@ -59,7 +59,7 @@ Para iniciar la aplicación, siga los siguientes pasos:
 
 	
 Ventana principal de Kosmo - Cliente de escritorio
-==================================================
+================================================================================
 
 La ventana principal de Kosmo - Cliente de Escritorio tiene las siguientes secciones:
 
@@ -84,10 +84,10 @@ La ventana principal de Kosmo - Cliente de Escritorio tiene las siguientes secci
 	
 	
 Cargar capas
-============
+================================================================================
 
 Archivos
---------
+--------------------------------------------------------------------------------
 
 Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el LiveDVD:
 
@@ -132,7 +132,7 @@ Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el Liv
 
 
 Bases de datos
---------------
+--------------------------------------------------------------------------------
 
 Vamos a cargar una tabla de una base de datos como ejemplo:
 
@@ -166,7 +166,7 @@ Vamos a cargar una tabla de una base de datos como ejemplo:
 
 	
 Servicios OGC
--------------
+--------------------------------------------------------------------------------
 
 #. Inicie el servicio WMS de GeoServer incluido en el LiveDVD seleccionando la opción *Educación > Iniciar GeoServer* (o desde el escritorio, entre en la carpeta *Servicios Web* y ejecute el acceso directo de Iniciar GeoServer)
 
@@ -205,7 +205,7 @@ Servicios OGC
 
 	
 Herramientas de navegación por el mapa
-======================================
+================================================================================
 
 Puede controlar donde se localiza el mapa en el mundo utilizando las herramientas de navegación presentes en la barra de herramientas principal:
 
@@ -275,7 +275,7 @@ Aparte de estas herramientas, también está disponible la posibilidad de Acerca
 
 
 Estilo
-======
+================================================================================
 
 En esta sección vamos a asignar un estilo por rango a una capa con la población del país como atributo de estilo:
 
@@ -299,7 +299,7 @@ En esta sección vamos a asignar un estilo por rango a una capa con la població
 	
 	
 Cosas para probar
-=================
+================================================================================
 
 * Utilice el editor de estilo avanzado (`Simbología > Editor avanzado de estilos...`) para crear estilos más complejos
 
@@ -313,6 +313,6 @@ Cosas para probar
 
 
 ¿Y ahora qué?
-=============
+================================================================================
 
 Existe un conjunto de manuales y vídeos disponibles en http://www.opengis.es/index.php?lang=es

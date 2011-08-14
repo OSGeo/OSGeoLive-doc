@@ -11,9 +11,9 @@
   :align: right
   :target: http://www.geokettle.org/
 
-********************
+********************************************************************************
 GeoKettle Quickstart 
-********************
+********************************************************************************
 
 
 GeoKettle is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool. It is dedicated to the integration of different data sources for building and updating geospatial databases and data warehouses. It enables the Extraction of data from data sources, the Transformation of data in order to correct errors, make some data cleansing, change the data structure, make them compliant to defined standards, and the Loading of transformed data into a target DataBase Management System (DBMS), GIS file, or geospatial web service.
@@ -24,7 +24,7 @@ This Quick Start describes how to:
   * Create a new data transformation
 
 Start GeoKettle 
-===============
+================================================================================
 
 #. Choose :menuselection:`Spatial Tools --> GeoKettle` from the Geospatial start menu
 #. Please wait, the application will take a few moments to start up
@@ -33,7 +33,7 @@ Start GeoKettle
   .. image:: ../../images/screenshots/800x600/geokettle_welcome.png
 
 Workbench
-=========
+================================================================================
 
 As illustrated in the following screenshot, the Workbench window is composed of different panels.
 
@@ -44,7 +44,7 @@ The left part acts as a catalog containing all the steps which could compose a d
 The contents of these panels will be described further as we demonstrate their use.
 
 Loading an existing transformation
-==================================
+================================================================================
 
 To load an existing transformation, select :menuselection:`File --> Open`. Browse to the transformation samples subdirectory :file:`samples/transformations/geokettle`, then select one of the available sample transformations and click :guilabel:`OK`. GeoKettle transformation are stored in files with the extension `*.ktr`.
 
@@ -66,7 +66,7 @@ Enter the name of your shapefile including the `*.shp` extension or leave it as 
 You are now ready to start the transformation. To do so, simply hit the play button in the toolbar above your transformation. 
 
 Creating a new data transformation
-==================================
+================================================================================
 
 Launch GeoKettle and access the workbench in the same way you would do when loading an existing transformation (see previous section).
 
@@ -114,7 +114,7 @@ Trying to execute a transformation may result in errors in the **Execution Resul
 To help in finding the source of an error, you can also preview the results of a transformation from another step earlier in the workflow. To do so, right click on the step, and select :menuselection:`Preview` in the popup menu that appears. This way, you can see in a tabular and cartographic way what the data looks like at this point in the overall process without executing the whole transformation.
 
 Things to Try
-=============
+================================================================================
 
 Here are some additional challenges for you to try:
 
@@ -123,6 +123,6 @@ Here are some additional challenges for you to try:
 #. Try to build a transformation with your own data
 
 What Next?
-==========
+================================================================================
 
 Take a look at the GeoKettle user and developer documentation and tutorials available on the `wiki <http://wiki.spatialytics.org>`_ of the project. Do not hesitate also to ask for help on the Spatialytics `forum <http://www.spatialytics.com/forum>`_.

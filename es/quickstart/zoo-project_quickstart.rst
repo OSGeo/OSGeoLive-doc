@@ -7,12 +7,12 @@
   :alt: project logo
   :align: right
 
-************************************
+********************************************************************************
 Guía rápida de inicio de ZOO Project
-************************************
+********************************************************************************
 
 Ejecutar la aplicación
-======================
+================================================================================
 
 *	Para ejecutar la demostración de Zoo Project del Live DVD, de click sucesivamente en los enlaces del escritorio "Start GeoServer" y luego en "ZOO Project"
         o en los que encontrará en los items del menú.

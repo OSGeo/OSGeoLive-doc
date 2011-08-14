@@ -1,5 +1,5 @@
 OSGeo-Live Sponsors
-===================
+================================================================================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :alt: LISAsoft
@@ -29,10 +29,10 @@ The Australian Government's Office of Spatial Data Management sponsored LISAsoft
 .. include :: sponsors_osgeo.rst
 
 Contributors
-============
+================================================================================
 .. include :: ../contributors.rst
 
 Translators
-===========
+================================================================================
 .. include :: ../translators.rst
 

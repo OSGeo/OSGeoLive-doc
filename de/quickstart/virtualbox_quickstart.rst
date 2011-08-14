@@ -5,9 +5,9 @@
 
 .. _virtualbox-quickstart-de:
  
-*************************************
+********************************************************************************
 OSGeo-Live Quickstart für Virtual Box
-*************************************
+********************************************************************************
 
 An dieser Stelle beschreiben wir eine Methode, um eine OSGeo-Live DVD oder ein ISO in `VirtualBox <http://www.virtualbox.org/>`_ 
 laufen zu lassen.
@@ -15,7 +15,7 @@ laufen zu lassen.
 VirtualBox ist eine Open Source Virtualisierungsumgebung, die von vielen OSGeo-Live Entwicklern und Testern verwendet wird.
 
 Systemvoraussetzungen
----------------------
+--------------------------------------------------------------------------------
 
 * RAM: 1 GB, besser 2 GB wenn Sie eine weitere Anwendung laufen lassen wollen
 * Freier Speicher auf der Festplatte:
@@ -24,7 +24,7 @@ Systemvoraussetzungen
  * 17 GB, wenn das ISO lokal installiert werden soll
 
 Erstellen der Virtualisierungsumgebung
---------------------------------------
+--------------------------------------------------------------------------------
 
 Herunterladen und Installieren von `Virtual Box <http://www.virtualbox.org/>`_. Unter Linux mache Folgendes:
 
@@ -96,13 +96,13 @@ Wählen Sie das OSGeo-Live Image.
 Jetzt können Sie die Virtualisierungsumgebung starten, wie unter :doc:`osgeolive_quickstart`
 
 Permanente Virtualisierungsumgebung erstellen
----------------------------------------------
+--------------------------------------------------------------------------------
 
 Wenn Sie die OSGeo-Live DVD häufig benutzen wollen, wollen Sie wahrscheinlich eine 
 permanente Virtualisierungsumgebung erstellen, beschrieben unter: :doc:`osgeolive_install_quickstart`.
 
 Bildschirmauflösung erhöhen
----------------------------
+--------------------------------------------------------------------------------
 
 Sie können die 'virtual boots tools' hinzufügen, die eine höhere Bildschirmauflösung, 
 kopieren und einfügen zwischen Gast und Host, Graphikbeschelunigung u.v.m. ermöglichen.
@@ -132,7 +132,7 @@ denen ihres Hosts entsprechen. Sie können dies ändern durch:
 Selektieren von: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
 
 Weiterführende Links
---------------------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`

@@ -10,12 +10,12 @@
   :align: right
   :target: http://gmt.soest.hawaii.edu
 
-******************************
+********************************************************************************
 Guía de inicio rápido para GMT 
-******************************
+********************************************************************************
 
 Ejecución de GMT
-================
+================================================================================
 
 Incluido en este LiveDVD esta la documentación de GMT en formatos (HTML y PDF),
 algunos scripts de ejemplo (incluida la línea costera de todo el mundo en baja resolución),
@@ -38,7 +38,7 @@ La línea costera de todo el mundo a baja resolución se puede encontrar en :fil
 
 
 Ejemplos
-~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Hay 29 rutinas de ejemplo construidas y un script para ejecutarlas todas:
 
@@ -63,6 +63,6 @@ Vea los resultados: ( Escriba :kbd:`q` para salir de :command:`gv` [#gv]_ )
   
   
 Vea también:
-------------
+--------------------------------------------------------------------------------
 
 .. [#gv] **Sitio web de GNU GV** - Ghostview  http://www.gnu.org/software/gv/

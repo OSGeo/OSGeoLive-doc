@@ -6,12 +6,12 @@
 
 .. _osgeolive-internationalisation-quickstart:
  
-******************************************
+********************************************************************************
 OSGeo-Live Internationalisation Quickstart
-******************************************
+********************************************************************************
 
 Switching Language
-------------------
+--------------------------------------------------------------------------------
 
 We have installed many common languages. In order to switch the system you will need to:
 
@@ -26,6 +26,6 @@ The system menus and many of the applications will now appear in the language ch
 For additional languages see :menuselection:`Application --> System --> Language Support` (Requires an internet connection).
 
 Keyboard Support
-----------------
+--------------------------------------------------------------------------------
 International keyboard support is installed, but you will need to configure the system for your specific keyboard. 
 

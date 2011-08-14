@@ -9,18 +9,18 @@
 .. EDITS REQUIRED BY THE LiveDVD TEAM
 .. B. Path to the vector and raster data needs to be updated to reflect where they are contained on the Live DVD
 
-****************
+********************************************************************************
 gvSIG Quickstart 
-****************
+********************************************************************************
 
 Projektbeschreibung
-===================
+================================================================================
 
 “gvSIG ist ein Geographisches Informationssystem (GIS), das heißt, eine Desktopanwendung zum Erfassen, Speichern, Bearbeiten, Analysieren und Veröffentlichen jeglicher Art räumlich referenzierter geographischer Informationen und zum Lösen komplexer Fragestellungen in Verwaltung und Planung. gvSIG ist für seine benutzerfreundliche Bedienoberfläche bekannt, die den Zugriff auf die meisten gängigen Datenformate, sowohl auf Vektor- als auch auf Rasterbasis, ermöglicht. Es bietet eine breite Auswahl an Werkzeugen für die Bearbeitung geographischer Informationen (Abfragewerkzeuge, Layouterstellung, Geoprocessing, Netzwerk, etc.), und ist damit das ideale Werkzeug für alle Anwender aus Fachgebieten in denen raumbezogene Daten eine Rolle spielen.
 `gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ 2011
 
 Dieses Dokument zeigt wie man...
-================================
+================================================================================
 
     * gvSIG öffnet und eine Ansicht erstellt;
     * Die Projektion für die Ansicht festlegt ;
@@ -33,7 +33,7 @@ Dieses Dokument zeigt wie man...
 
 
 gvSIG öffnen und eine Ansicht erstellen
-=======================================
+================================================================================
 
 Wählen Sie gvSIG im entsprechenden Anwendungsmenü oder klicken Sie auf das entsprechende Symbol. Die Anwendung benötigt etwa eine Minute um zu starten.
 
@@ -45,10 +45,10 @@ Wählen Sie gvSIG im entsprechenden Anwendungsmenü oder klicken Sie auf das ent
    :scale: 55 
 
 Die Projektion für die Ansicht festlegen
-========================================
+================================================================================
 
 Öffnen sie den Dialog Eigenschaften der Ansicht
------------------------------------------------
+--------------------------------------------------------------------------------
 
    #. Wählen Sie die neu erstellte Ansicht. In der Standardeinstellung hat sie den Namen Ohne Titel-0 - 0 aber es kann auch Ohne Titel-1 - 1 sein falls sie zuvor bereits eine Ansicht erstellt und wieder gelöscht haben.
    #. Klicken Sie den Button [Eigenschaften] an um den Dialog Eigenschaften Ansicht zu öffnen
@@ -59,7 +59,7 @@ Die Projektion für die Ansicht festlegen
    :scale: 55 
 
 Definieren Sie das Raumbezugssystem
------------------------------------
+--------------------------------------------------------------------------------
 
    #. Verwenden Sie die Dropdownliste für "Typ", und wählen Sie EPSG.
    #. Geben Sie den EPSG code für das Koordinatensystem ein. In diesem Beispiel verwenden wir EPSG=4326, dies ist die WGS84 2D Geographic Projection. Klicken Sie dann auf den Button [Suchen]. Das gesuchte CRS erscheint in der Tabelle unterhalb des Suchfeldes.
@@ -70,7 +70,7 @@ Definieren Sie das Raumbezugssystem
    :scale: 55 
 
 Die Eigenschaften der Ansicht speichern
----------------------------------------
+--------------------------------------------------------------------------------
 
    #. Beachten Sie dass der EPSG Code nun 4326 lautet und dass die Karteneinheiten nun in Grad angegeben sind.
    #. Klicken Sie auf [OK] um zum **Projektverwalter** zurückzukehren.
@@ -80,7 +80,7 @@ Die Eigenschaften der Ansicht speichern
    :scale: 55 
 
 Öffnen Sie die Ansicht
-----------------------
+--------------------------------------------------------------------------------
    
    #. Wählen Sie die neu erstellte Ansicht aus.
    #. Klicken Sie auf den Buttton [Öffnen] um die Ansicht zu öffnen.
@@ -95,10 +95,10 @@ Die Eigenschaften der Ansicht speichern
    :scale: 55 
 
 Die Ansicht - Raster- und Vektordaten hinzufügen
-================================================
+================================================================================
 
 Öffnen Sie den Dialog "Layer hinzufügen"
-----------------------------------------
+--------------------------------------------------------------------------------
    
    #. Klicken Sie auf das Symbol "Layer hinzufügen" in der Hauptwerkzeugleiste um den **Layer Hinzufügen** Dialog zu öffnen.
    #. Wählen Sie [Hinzufügen] im Dialog **Layer Hinzufügen**. In der Standardeinstellung heißt der erste Reiter Datei, somit erscheint der Dialog **Öffnen**.
@@ -109,7 +109,7 @@ Die Ansicht - Raster- und Vektordaten hinzufügen
    :scale: 55 
 
 Eine Rasterdatei auswählen
---------------------------
+--------------------------------------------------------------------------------
    
    #. Wählen Sie *gvSIG Raster Driver* aus der Dropdownliste. in der Standardeinstellung ist der Treiber für Shapefiles selektiert, das Verzeichnis kann deshalb leer erscheinen.
    #. Wählen Sie ``HYP_50M_SR_W.tif``.
@@ -120,7 +120,7 @@ Eine Rasterdatei auswählen
    :scale: 55 
 
 Vektordateien auswählen
------------------------
+--------------------------------------------------------------------------------
   
    #. Der Dialog **Layer hinzufügen** enthält nun als Eintrag die Rasterdatei.
    #. Klicken Sie auf den Button [Hinzufügen] um einige Vektordateien hinzuzufügen. Der Dialog **Öffnen** erscheint.
@@ -135,10 +135,10 @@ Vektordateien auswählen
    :scale: 55 
 
 Die Ansicht- grundlegende Navigation
-====================================
+================================================================================
 
 In eine Region zoomen
----------------------
+--------------------------------------------------------------------------------
 
 Zurück in der Hauptansicht sehen sie dass die Vektordateien nun der Rasterdatei überlagert sind. Die Farben in diesem Screenshot können sich je nach Benutzereinstllungen von denen auf Ihrem Bildschirm unterscheiden.
        
@@ -150,7 +150,7 @@ Zurück in der Hauptansicht sehen sie dass die Vektordateien nun der Rasterdatei
    :scale: 55 
 
 Feineinstellung der Navigation
-------------------------------
+--------------------------------------------------------------------------------
    
 Die Ansicht ändert sich automatisch um die Inhalte innerhalb des Auswahl.
 
@@ -162,10 +162,10 @@ Die Ansicht ändert sich automatisch um die Inhalte innerhalb des Auswahl.
    :scale: 55 
 
 Die Ansicht - Das Erscheinungsbild von Layern ändern
-====================================================
+================================================================================
 
 Ein Polygon transparent darstellen
-----------------------------------
+--------------------------------------------------------------------------------
    
    #. Selektieren Sie den Layer ``10m_admin_1_states_provinces.shp`` mit der linken Maustaste und klicken Sie noch einmal mit der rechten Maustaste darauf.
    #. Selektieren Sie das Untermenü *Eigenschaften*.
@@ -176,7 +176,7 @@ Ein Polygon transparent darstellen
    :scale: 55 
 
 Die Darstellungssymbole für einen Vekorlayer ändern
----------------------------------------------------
+--------------------------------------------------------------------------------
    
    #. Wählen Sie den Reiter *Symbole* im Dialog **Layereigenschaften**.
    #. Klicken Sie auf [Symbol wählen] um den **Symbol-Selektor** zu öffnen.
@@ -188,7 +188,7 @@ Die Darstellungssymbole für einen Vekorlayer ändern
    :scale: 55 
 
 Die Beschriftung eines Vektor-Layers ändern
--------------------------------------------
+--------------------------------------------------------------------------------
    
    #. Wählen Sie den Reiter *Beschriftung* im Dialog **Layereigenschaften**.
    #. Ändern Sie die Texteigenschaften so wie im Beispiel dargestellt, klicken Sie dann auf den Button [Anwenden].
@@ -198,7 +198,7 @@ Die Beschriftung eines Vektor-Layers ändern
    :scale: 55 
 
 Das Ergebnis
-------------
+--------------------------------------------------------------------------------
    
 Beachten Sie dass dies eine sehr einfache Ansicht ist, die nur jeweils eine Punkt-, Linien- und Polygon-Vektordatei zeigt die einer Rasterdatei überlagert sind. Genau so einfach wäre es, ein Luftbild oder ein Digitales Geländemodell als Hintergrund für Vektordaten zu verwenden, oder andere Vektordaten in unterschiedlichen Formaten anzuzeigen.
 
@@ -206,7 +206,7 @@ Beachten Sie dass dies eine sehr einfache Ansicht ist, die nur jeweils eine Punk
    :scale: 55 
 
 Eine Übung für Anwender - Ändern sie die Symbole und die Beschriftung der Punkt- und Linienlayer
-------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
    
 Ändern Sie Symbole, Farbe and Beschriftung für Flüsse und Städte so dass sie aussehen wie im folgenden Screenshot. Gehen Sie dazu den bisher beschriebenen Schritten entsprechend vor.
 
@@ -214,10 +214,10 @@ Eine Übung für Anwender - Ändern sie die Symbole und die Beschriftung der Pun
    :scale: 55 
 
 Einfache Analyse - selektieren Sie Städte in einer Region
-=========================================================
+================================================================================
 
 Die Region auswählen
---------------------
+--------------------------------------------------------------------------------
    
    #. Selektieren sie den Layer ``10m_admin_1_states_provinces.shp`` mittels der linken Maustaste.
    #. Drücken Sie den Button ‘Auswahl durch Klick’ in der Haupt-Werkzeugleiste.
@@ -227,7 +227,7 @@ Die Region auswählen
    :scale: 55 
 
 Die Städte innerhalb einer Region auswählen
--------------------------------------------
+--------------------------------------------------------------------------------
    
    #. Selektieren Sie den Layer ``10m_populated_places_simple.shp`` mittels der linken Maustaste.
    #. Wählen Sie ``Ansicht > Elemente Auswählen > Auswahl durch Layer`` um den Dialog **Auswahl durch Layer** zu öffnen.
@@ -239,7 +239,7 @@ Die Städte innerhalb einer Region auswählen
    :scale: 55 
 
 Heben sie die Auswahl für das Polygon auf um das Ergebnis zu sehen
-------------------------------------------------------------------
+--------------------------------------------------------------------------------
    
    #. Wählen Sie den Layer ``10m_admin_1_states_provinces.shp`` mit der linken Maustaste.
    #. Klicken Sie auf das Symbol ‘Auswahl aufheben’ in der Haupt-Werkzeugleiste.
@@ -250,7 +250,7 @@ Heben sie die Auswahl für das Polygon auf um das Ergebnis zu sehen
    :scale: 55 
 
 Exportieren Sie die ausgewählten Städte in eine neue Shapedatei
----------------------------------------------------------------
+--------------------------------------------------------------------------------
    
    #. Selektieren Sie den Layer ``10m_populated_places_simple.shp`` mittels der linken Maustaste.
    #. Wählen Sie ``Layer > Exportieren nach to... > SHP`` um mit dem Export zu beginnen.
@@ -263,7 +263,7 @@ Exportieren Sie die ausgewählten Städte in eine neue Shapedatei
    :scale: 55 
 
 Nur Städte innerhalb einer Region anzeigen
-------------------------------------------
+--------------------------------------------------------------------------------
 
    #. Zurück in der Ansicht entfernen Sie den Haken vor dem Layer ``10m_populated_places_simple.shp`` in der Layerliste.
    #. Ändern Sie Symbole und Beschriftung des layers ``test.shp`` wie im Screenshot unten dargestellt.
@@ -274,10 +274,10 @@ Nur Städte innerhalb einer Region anzeigen
    :scale: 55 
    
 Wie man eine Karte erstellt
-===========================
+================================================================================
 
 Erstellen Sie eine neue Karte und öffnen Sie diese
---------------------------------------------------
+--------------------------------------------------------------------------------
 
    #. Wählen sie den Dokumenttyp *Karte* im **Projektverwalter**.
    #. Klicken Sie den Button [Neu] um eine Karte zu erstellen.
@@ -290,7 +290,7 @@ Erstellen Sie eine neue Karte und öffnen Sie diese
    :scale: 55 
 
 Fügen sie eine Ansicht mit einem Gitternetz ein
------------------------------------------------
+--------------------------------------------------------------------------------
    
    #. Klicken Sie auf das Symbol "Ansicht einfügen" in der Haupt-Werkzeugleiste
    #. Erzeugen Sie ein Auswahlrechteck mit dem Umgriff der Karte auf der Seite, indem Sie auf die leere Karte klicken, die Maustaste gedrückt halten und ziehen, bis die gewünschte Größe des Kartenausschnittes erreicht ist. Dadurch wird der Dialog **Eigenschaften Ansichtsrahmen** geöffnet.
@@ -307,7 +307,7 @@ Fügen sie eine Ansicht mit einem Gitternetz ein
    :scale: 55 
 
 Was kann man noch zur Karte hinzufügen?
----------------------------------------
+--------------------------------------------------------------------------------
    
    #. Wählen Sie ``Karte > Eigenschaften`` aus dem Hauptmenü um die Dialogbox **Eigenschaften Karte** zu öffnen. Entfernen Sie den Haken von *Gitternetz anzeigen* und klicken Sie auf [OK]. Das Gitternetz sollte nun von der Karte entfernt sein und die Karte sollte so aussehen wie unten dargestellt.
    #. Zusätzliche Elemente wie eine Maßstabsleiste oder ein Richtungspfeil können mit Hilfe der Symbole in der Haupt-Werkzeugleiste oder mit den Untermenüs im Menü Karte hinzugefügt werden.
@@ -319,7 +319,7 @@ Was kann man noch zur Karte hinzufügen?
    :scale: 55 
 
 Speichern Ihres Projektes oder Schließen von gvSIG
-==================================================
+================================================================================
    
    1. Projekte können zur späteren Bearbeitung mittels der Option ``Datei > Speichern unter...`` gespeichert werden, oder
    2. man kann Projekte schließen indem man die Option ``Datei > Schließen`` auswählt.
@@ -329,7 +329,7 @@ Speichern Ihres Projektes oder Schließen von gvSIG
    :scale: 55 
 
 Was kommt als nächstes...
-=========================
+================================================================================
 
 Deutschsprachige Dokumente und Tutorials finden neben vielen anderen Informationen im deutschen gvSIG wiki `gvSIG `<http://www.webmapping.info/mwgvsig/index.php?title=Hauptseite>`.
 

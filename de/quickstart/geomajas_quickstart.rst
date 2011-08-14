@@ -11,12 +11,12 @@
   :align: right
   :target: http://www.geomajas.org
 
-*******************
+********************************************************************************
 Geomajas Quickstart 
-*******************
+********************************************************************************
 
 Erste Schritte
-==============
+================================================================================
 
 GeoMajas ist ein Entwicklungs-Framekwork um WebGIS Anwendungen zu erstellen. Auf der Live DVD wurde hierfür eine Beispiel-Anwendung mit Hilfe der GeoMajas Technologie bereitgestellt. 
 
@@ -35,7 +35,7 @@ GeoMajas ist ein Entwicklungs-Framekwork um WebGIS Anwendungen zu erstellen. Auf
 
 
 Neue Geomajas Anwendung erstellen
-=================================
+================================================================================
 
 Um eine neue Geomajas Anwendung zu erstellen muss das Werkzeug `Maven <http://maven.apache.org/>`_ installiert werden. Maven erstellt und managt Java basierte Projekte. Um die Anwendung in einem Kommando zu erstellen verfügt Geomajas über eine Maven Vorlage:: 
 

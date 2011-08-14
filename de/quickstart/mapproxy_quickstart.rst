@@ -11,7 +11,7 @@
   :target: http://mapproxy.org/
 
 MapProxy Quickstart
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapProxy ist das "Schweizer Taschenmesser" für alle WMS- und Kacheldienste. MapProxy speichert, beschleunigt und transformiert bestehende Kartendienste aller Art.
 
@@ -22,7 +22,7 @@ MapProxy ist das "Schweizer Taschenmesser" für alle WMS- und Kacheldienste. Map
 MapProxy ist weit mehr als nur eine Caching-Lösung. MapProxy bietet umfangreiche und innovative Funktionen an. So beschleunigt MapProxy zum Beispiel WMS-Dienste, ohne dass dabei der WMS-Standard verloren geht. Vorhandene Desktop- und WebGIS Anwendungen können weiter genutzt werden.
 
 Demo starten
-------------
+--------------------------------------------------------------------------------
 
 MapProxy kann flexibel in vorhandene Systeme eingebaut werden. So ist zum Beispiel eine Integration in den Apache Webserver möglich. Zusätzlich kann MapProxy aber auch als eigener Dienst gestartet werden. Dies ist die einfachste Methode um zu Beginn mit dem MapProxy zu arbeiten.
 
@@ -30,14 +30,14 @@ Um MapProxy als eigenen Service zu starten klicken Sie im Menü unter *Geospatia
 
 
 MapProxy Demo
--------------
+--------------------------------------------------------------------------------
 
 Die MapProxy Demo beinhaltet eine rudimentären WMS- und Kachel-Anwendung. In der Demo-Anwendung wird jeder konfigurierte Layer automatisch zur Verfügung gestellt. Die Projektion kann in der Demo nicht ausgewählt werden. Die MapProxy Demo dient vor allem zur Kontrolle von Installation und Konfiguration.
 
 Sie können die Demo im Firefox öffnen: `<http://localhost:8011/demo>`_
 
 MapProxy im Desktop GIS
------------------------
+--------------------------------------------------------------------------------
 
 Die Dienste, die über den MapProxy zu Verfügung gestellt werden, können Sie in das Desktop GIS ihrer Wahl zum Beispiel uDig, QGIS oder gvSIG einbinden. Die WMS-URL lautet: `<http://localhost:8011/service?>`_
 
@@ -50,7 +50,7 @@ Die Beispiel-Konfiguration des MapProxy beinhaltet einige Layer die unterschiedl
   WMS Layer mit Daten von zwei kaskadierenden Quellen und `FeatureInformation` 
 
 Verfügbare Layer
-----------------
+--------------------------------------------------------------------------------
 
 **mapnik**:
   Der Mapnik stellt die Weltbevölkerung graphisch dar. Hierfür muss der Mapnik-Dienst nicht gestartet werden, da der Layer über die direkte Mapnik-Unterstützung in den MapProxy eingebunden ist. 
@@ -68,7 +68,7 @@ Verfügbare Layer
   Um den Layer anzuzeigen müssen sie den Geoserver über *Start GeoServer* starten.
 
 Eigene MapProxy Konfiguration erstellen
----------------------------------------
+--------------------------------------------------------------------------------
 
 Sie können das Konsolenwerkzeug ``mapproxy-util`` benutzen um eine Konfiguration zu erstellen und um den Testserver zu starten.
 
@@ -84,7 +84,7 @@ Sie können nun die Demo aufrufen: http://127.0.0.1:8011/demo/.
 MapProxy startet automatisch neu wenn Sie Änderungen an der Konfigurationsdatei durchgeführt haben. 
 
 Der nächste Schritt
--------------------
+--------------------------------------------------------------------------------
 
 * Lesen Sie die `MapProxy Dokumentation <../../mapproxy/index.html>`_
 

@@ -9,12 +9,12 @@
   :target: http://www.saga-gis.org
 
 
-*******************
+********************************************************************************
 SAGA GIS Quickstart
-*******************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 To run SAGA GIS on the Live DVD, click on the SAGA link on the Desktop.
 
@@ -24,7 +24,7 @@ When opening SAGA for the first time, you are presented with 3 subwindows: the W
      :scale: 80
 
 Opening Data
-============
+================================================================================
 
 Open the SAGA GUI and load the grid `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load Grid** menu. You will 
 get a message in the General tab of the Messages window regarding the success or 
@@ -43,7 +43,7 @@ and the Memory Size.
 
 
 Displaying Data
-===============
+================================================================================
 
 To display the dataset in a map view, just double click on the dataset in the Data tab of the Workspace window. A new Map window will open up with the dataset displayed. The canvas is framed: top and left the x- and y-world coordinates are displayed. Bottom and right you see rulers in map units. Move the mouse pointer over the map and watch the x-, y- and z-coordinates displayed in the bottom bar of the SAGA GUI window. The z-coordinates displayed correspond to the elevation values of the dataset (be aware that the values displayed are always those of the dataset selected in the Data or Maps tab).
 
@@ -54,7 +54,7 @@ Now use the navigation tools to zoom and pan. The Zoom tool is selected by defau
 .. tip:: Saga zooms very fast, if you are lost while browsing your data, click the 'Zoom to Full Extent' button in the toolbar
 
 Creating shaded relief map view
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's enhance the map display by calculating a shaded relief map. Switch to
 the Modules tab of the Workspace window and click on the plus sign left to 
@@ -73,14 +73,14 @@ Feel free to try other Transparency settings or even try other Shading Methods i
     :scale: 80
 
 3D visualization
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In a next step, you might like to visualize your map in 3D. Be sure your Map window is selected and press the Show 3D-View button in the tool bar. In the dialog popping up, select the grid system containing your elevation dataset and set the Mt. St. Helens dataset as the Elevation parameter. Once you press the Okay button, the 3D view of your map will show up. Hold the left mouse button pressed and move the mouse to rotate and tilt the map. Use the right mouse button to zoom in/out and shift the map. Also have a look at the tool bar of the 3D View: the buttons replicate the mouse operations and offer further functionality. To close the 3D view select the Close option from the Window menu.
 
 .. image:: ../../images/screenshots/1024x768/saga_3d.png
     :scale: 80
 
 Creating Contour Lines
-======================
+================================================================================
 As a short introduction to SAGA vector capabilities, we will now generate 
 Contour Lines from the digital elevation model. This can be done by using 
 the **Shapes - Grid | Contour Lines From Grid** if you open the modules tab in the workspace, or you can equally well open the module using the menu: **Modules|Shapes|Shapes from Grid**. Choose your grid system and grid 
@@ -88,18 +88,18 @@ the **Shapes - Grid | Contour Lines From Grid** if you open the modules tab in t
 A few seconds later your contour map has been generated and you should find it back under the data tab in the workspace. Try opening your contour map in a new map. All contour lines now have the same colour, which is not that attractive. If you select your data set (in the workspace, data tab) and check the Settings in the Object Properties window, you can find a section: Display: color classification. You can change the classification from 'Unique symbol' to graduated color. Then you should still adjust the attribute which is used for this graduated color to the elevation. Press apply, and you are presented with coloured contour lines.
 
 Check your history
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you select a dataset (eg your contour lines) in the workspace tab, you can switch the object properties tab to 'history' to review which module and which options were used to create the dataset. This information is also kept when you save your files (in .hshp and .hgrd files).
 
 .. image:: ../../images/screenshots/1024x768/saga_contour_history.png
     :scale: 80
 
 Saving data
-===========
+================================================================================
 To save the work you have created you should open the data tab in the workspace, and right click on the file you want to save. SAGA will save grid files to its own native format (\*.sgrd) and shapefiles to the standard ESRI shapefile format (\*.shp). It is also possible to save the project, by choosing **File|Project|Save Project**. This will save all the map views and data settings, as well as offering to save the data files.
 
 Importing/Exporting data
-========================
+================================================================================
 If you want to import or export data different modules are present. Most useful is the module: Import/Export GDAL/OGR, which can be found in the **modules|file|GDAL/OGR menu**. Using this module many raster formats can be imported, including geotiff. The same module can also be used to export data to these formats.
 
 .. tip:: SAGA GIS grid format is supported by GDAL since version 1.7.0. Grid Files saved by SAGA can be opened by many other programs using GDAL. However, you must open the '\*.sdat' file and not the '\*.sgrd' file.
@@ -117,7 +117,7 @@ After doing that, we can reset our color scale to fit the range of the data. An 
 You are now ready to repeat the first steps to create a hillshaded map or explore some of the other modules of SAGA!
 
 More Information
-================
+================================================================================
 This live dvd contains the SAGA userguide:
  * `SAGA userguide <../../saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
 More documentation can be found on the SAGA website:

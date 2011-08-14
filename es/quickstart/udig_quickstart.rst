@@ -49,9 +49,9 @@
   :alt: project logo
   :align: right
 
-******************
+********************************************************************************
 uDig Inicio Rápido 
-******************
+********************************************************************************
 
 .. Writing Tip:
   First sentence defines what the application does.
@@ -73,7 +73,7 @@ Este rápido inicio describe como:
 .. contents:: Contenidos
   
 Iniciar uDig
-============
+================================================================================
 
 .. Writing Tip:
   Describe steps to start the application
@@ -99,7 +99,7 @@ Iniciar uDig
 Si tiene alguna dificultad ejecutando uDig por favor lea la pagina de referencia Running uDig.
 
 Ventana de Bienvenida
-=====================
+================================================================================
 
 #. Cuando se inicia uDig por primera vez la vista de Bienvenida se mostrará en toda la pantalla. Esta pantalla tiene vínculos a las tutorías, documentación y al sitio del proyecto.
 
@@ -110,7 +110,7 @@ Ventana de Bienvenida
 En cualquier momento se puede volver a la vista de Bienvenida seleccionando :menuselection:`Help --> Welcome` en la barra de menú.
 
 Workbench
-=========
+================================================================================
 
 La ventana Workbench ofrece múltiples Editores (cada uno muestra un Mapa) y soporta Vistas (para ofrecer información acerca del mapa actual).
 
@@ -120,7 +120,7 @@ En la imagen anterior se presenta una típica sesión de uDig con un mapa en el 
 Estas vistas serán descriptas en mas detalle cuando se muestre su uso.
 
 Archivos
-========
+================================================================================
 
 Para comenzar vamos a cargar algunos de los datos de ejemplo incluidos en el DVD.
 
@@ -181,7 +181,7 @@ Para comenzar vamos a cargar algunos de los datos de ejemplo incluidos en el DVD
 .. tip:: Se puede arrastrar y soltar un shapefile directamente en la aplicación uDig!
 
 Mapa
-====
+================================================================================
 
 Se puede controlar el lugar del mundo en el que el Editor de Mapa se posiciona por utilización de 
 las herramientas de navegación dispuestas en la barra de herramientas en la parte superior de la 
@@ -220,7 +220,7 @@ pantalla.
 .. tip:: También es posible una hacer una panorámica manteniendo presionado el botón central y controlar la escala usando la rueda de desplazamiento.
 
 Servidor de Mapas Web
-=====================
+================================================================================
 
 .. note:: Si no se esta conectado a internet ejecute :menuselection:`Applications --> Education --> Start GeoServer` para tener un WMS Local. El script
    abrirá una página con un vínculo a "wms capabilities", que puede ser arrastrado dentro del mapa vacío.
@@ -266,7 +266,7 @@ cuentan con capas de información que pueden ser incluidos en un mapa propio.
 .. tip:: Es posible cambiar de la herramienta Zoom a Info presionando las teclas Z e I.
 
 Estilo
-======
+================================================================================
 
 #. Selecionar el project > countries, hacer un doble click para abrir este Mapa, o un click con el botón derecho y elegir Open Map  
 
@@ -317,7 +317,7 @@ Estilo
   connected to the internet.
 
 Cosas para Probar
-=================
+================================================================================
 
 Tenemos algunos desafíos adicionales para que usted pruebe:
 
@@ -326,7 +326,7 @@ Tenemos algunos desafíos adicionales para que usted pruebe:
 #. Probar los estilos en una capa WFS.
 
 ¿Qué es lo que sigue?
-=====================
+================================================================================
 
 .. Writing tip
   Provide links to further tutorials and other documentation.

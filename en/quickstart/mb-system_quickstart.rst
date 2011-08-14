@@ -11,12 +11,12 @@
   :align: right
   :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
 
-********************
+********************************************************************************
 MB-System Quickstart 
-********************
+********************************************************************************
 
 Documentation
-=============
+================================================================================
 
 The online HTML documentation can be found at
  http://www.ldeo.columbia.edu/res/pi/MB-System/html/mbsystem_home.html

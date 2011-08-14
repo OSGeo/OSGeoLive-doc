@@ -10,9 +10,9 @@
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
 
-*************************
+********************************************************************************
 Kosmo Desktop Quick Start 
-*************************
+********************************************************************************
 
 Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
 and analyse spatial data from a variety of databases, vector and raster formats.
@@ -27,7 +27,7 @@ This Quick Start describes how to:
 
 
 Start Kosmo Desktop
-===================
+================================================================================
 
 In order to start the application, follow the next steps:
 
@@ -59,7 +59,7 @@ In order to start the application, follow the next steps:
   
 
 Kosmo Desktop main window
-=========================
+================================================================================
 
 The Kosmo Desktop main window has the following sections:
 
@@ -84,10 +84,10 @@ The Kosmo Desktop main window has the following sections:
 
 
 Loading layers
-==============
+================================================================================
 
 Files
------
+--------------------------------------------------------------------------------
 
 To start out, we're going to load some of the sample data included on the LiveDVD:
 
@@ -132,7 +132,7 @@ To start out, we're going to load some of the sample data included on the LiveDV
 
 
 Databases
----------
+--------------------------------------------------------------------------------
 
 We're going to load a database table as an example:
 
@@ -166,7 +166,7 @@ We're going to load a database table as an example:
 
 
 OGC services
-------------
+--------------------------------------------------------------------------------
 
 #. Start the GeoServer WMS included in the LiveDVD by selecting the option *Education > Start GeoServer* (or from the desktop, go into *Web Services* folder and double-click the Start Geoserver icon)
 
@@ -205,7 +205,7 @@ OGC services
 
 
 Map navigation tools
-====================
+================================================================================
 
 You can control where in the world is the map using the navigation tools present at the main toolbar:
 
@@ -275,7 +275,7 @@ Apart from those tools, it's also available the possibility to zoom in/out by us
 
 
 Styling
-=======
+================================================================================
 
 In this section we're going to style a layer by range using the country population as styling attribute:
 
@@ -299,7 +299,7 @@ In this section we're going to style a layer by range using the country populati
 
 
 Things to Try
-=============
+================================================================================
 
 * Use the advanced style editor (`Symbology > Advanced style editor...`) to create more complex styles
 
@@ -313,6 +313,6 @@ Things to Try
 
 
 What Next?
-==========
+================================================================================
 
 There is a set of manuals and videotutorials available at http://www.opengis.es/index.php?lang=en

@@ -1,5 +1,5 @@
 OSGeo-Live Copyright
-====================
+================================================================================
 
 OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around.
 
@@ -10,7 +10,7 @@ OSGeo-Live is composed entirely of free software, free data and free documentati
 * Data on OSGeo-Live is available under various Open Licences.
 
 Attributing OSGeo-Live Documentation
-------------------------------------
+--------------------------------------------------------------------------------
 As per the `terms of the Creative Commons license <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, if you include OSGeo-Live documentation into a new document, you will need to attribute the contributors.
 Further, if Quickstarts are included, which are licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_ license, then the new document will also need to be licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 
@@ -39,7 +39,7 @@ You may use attribution text similar to one of the following:
   This document includes `OSGeo-Live <http://live.osgeo.org>`_ Project Overviews by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
 
 Documentation Contributors
---------------------------
+--------------------------------------------------------------------------------
 
 The table below credits the contributors for each of the documents on OSGeo-Live.
 
@@ -48,6 +48,6 @@ The table below credits the contributors for each of the documents on OSGeo-Live
    :file: ../licenses.csv
 
 Disclaimer
-----------
+--------------------------------------------------------------------------------
 
 *The contents of OSGeo-Live are provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of the merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, date, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liablity, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.*

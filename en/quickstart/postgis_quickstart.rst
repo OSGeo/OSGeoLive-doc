@@ -13,9 +13,9 @@
   :target: http://postgis.org/
 
 
-******************
+********************************************************************************
 PostGIS Quickstart
-******************
+********************************************************************************
 
 PostGIS adds spatial capabilities to the PostgreSQL relational database. It extends
 PostgreSQL so it can store, query, and manipulate spatial data. In this Quickstart we will
@@ -23,7 +23,7 @@ use 'PostgreSQL' when describing general database functions, and 'PostGIS' when
 describing the additional spatial functionality provided by PostGIS.
 
 Client-server Architecture
-==========================
+================================================================================
 
 PostgreSQL, like many databases, works as a server in a client-server system.
 The client makes a request to the server and gets back a response. This is the
@@ -37,7 +37,7 @@ via the internal 'loopback' network connection, and is not visible to other comp
 unless you configure it to be so.
 
 Creating A Spatially-Enabled database
-=====================================
+================================================================================
 
 .. review comment: Suggest providing a screen grab (or 2) which shows how to select
    and open an xterm. Cameron
@@ -135,7 +135,7 @@ job of telling PostGIS which tables are spatially-enabled. This is the next step
 
 
 Creating A Spatial Table The Hard Way
-=====================================
+================================================================================
 
 Now we have a spatial database we can make some spatial tables.
 
@@ -186,7 +186,7 @@ can work with that.
 
 
 Simple Queries
-==============
+================================================================================
 
 All the usual SQL operations can be applied to select data from a PostGIS table:
 
@@ -219,7 +219,7 @@ use ST_X(the_geom), ST_Y(the_geom) to get the numeric value of the coordinates:
 
 
 Spatial Queries
-===============
+================================================================================
 
 PostGIS adds many functions with spatial functionality to
 PostgreSQL. We've already seen ST_GeomFromText which converts WKT to
@@ -264,7 +264,7 @@ spheroid name, semi-major axis and inverse flattening parameters:
 
 
 Mapping
-=======
+================================================================================
 
 To produce a map from PostGIS data, you need a client that can get at the data. Most 
 of the open source desktop GIS programs can do this - Quantum GIS, gvSIG, uDig for example. Now we'll
@@ -310,7 +310,7 @@ a famous group of lakes in Canada.
 
 
 Creating A Spatial Table The Easy Way
-=====================================
+================================================================================
 
 Most of the OSGeo desktop tools have functions for importing spatial data in files, such as shapefiles,
 into PostGIS databases. Again we'll use QGIS to show this.
@@ -372,7 +372,7 @@ a choropleth map of the sudden infant death syndrome counts in North Carolina:
 
 
 Get to know pgAdmin III
-=======================
+================================================================================
 
 You can use the graphical database client ``pgAdmin III`` to query and modify your database non-spatially. This
 is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables.
@@ -383,7 +383,7 @@ is the official client for PostgreSQL, and lets you use SQL to manipulate your d
   :align: center
 
 Things to try
-=============
+================================================================================
 
 Here are some additional challenges for you to try:
 
@@ -395,7 +395,7 @@ Here are some additional challenges for you to try:
 
 
 What Next?
-==========
+================================================================================
 
 This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.
 

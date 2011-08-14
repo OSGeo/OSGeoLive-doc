@@ -14,9 +14,9 @@
 
 
 
-***************************************
+********************************************************************************
 Guía de inicio rápido de PostGIS
-***************************************
+********************************************************************************
 
 PostGIS añade soporte espacial a la base de datos relacional PostgreSQL. 
 Le da a PostgreSQL la capacidad de almacenar, consultar y manipular datos espaciales. En este documento
@@ -25,7 +25,7 @@ hablar sobre las funcionalidades espaciales adicionales que le proporciona.
 
 
 Arquitectura Cliente-servidor
-===============================
+================================================================================
 
 PostgreSQL, al igual que muchas otras bases de datos, trabaja como servidor en un sistema 
 cliente-servidor.
@@ -40,7 +40,7 @@ la conexión de red 'loopback' interna, y no es visible a otros ordenadores a me
 configure para que lo sea.
 
 Crear una base de datos espacial 
-============================================================
+================================================================================
 
 .. comentario de revisión: Sugiere proporcionar una captura de pantalla (o 2) que muestre como seleccionar y abrir un terminal. Cameron
 
@@ -133,7 +133,7 @@ decirle a PostGIS qué tablas tienen carácter espacial. Este es el siguiente pa
 
 
 Crear una tabla espacial (para usuarios avanzados)
-======================================================
+================================================================================
 
 Ahora que tiene una base de datos espacial puede crear tablas espaciales. 
 
@@ -183,7 +183,7 @@ esos datos.
 
 
 Consultas simples
-=========================
+================================================================================
 
 Para seleccionar datos de una tabla PostGIS se pueden aplicar todas las operaciones SQL comunes.
 
@@ -214,7 +214,7 @@ También puede usar ST_X(the_geom), ST_Y(the_geom) para obtener el valor numéri
 
 
 Consultas espaciales
-======================
+================================================================================
 
 PostGIS añade a PostgreSQL muchas funciones con funcionalidad espacial.
 Una de ellas, y que ya ha visto, es ST_GeomFromText que convierte WKT a geometría.
@@ -260,7 +260,7 @@ especificando el nombre del elipsoide, el semieje mayor y el parámetro del inve
 
 
 Generar un mapa
-======================
+================================================================================
 
 Para producir un mapa a partir de datos PostGIS, necesita un cliente que pueda obtener los datos. La mayoría 
 de los programas SIG de escritorio de código abierto pueden hacerlo - por ejemplo, Quantum GIS, gvSIG o uDig. 
@@ -306,7 +306,7 @@ a un famoso grupo de lagos de Canadá.
 
 
 Crear una tabla espacial de forma fácil
-==============================================
+================================================================================
 
 La mayor parte de las herramientas de escritorio de OSgeo tienen funciones para importar datos espaciales desde archivos, 
 como por ejemplo shapefiles, dentro de bases de datos PostGIS. También usaremos QGIS para mostrar cómo se hace.
@@ -366,7 +366,7 @@ de síndromes de muerte súbita infantil en Carolina del Norte:
 
 
 Conozca pgAdmin III
-=======================
+================================================================================
 
 Puede usar el cliente gráfico de bases de datos ``pgAdmin III`` para consultar y modificar sus bases 
 de datos no espaciales. Este es el cliente oficial de PostgreSQL, y permite que use el lenguaje SQL para manipular sus tablas de datos. 
@@ -377,7 +377,7 @@ de datos no espaciales. Este es el cliente oficial de PostgreSQL, y permite que 
   :align: center
 
 Inténtelo
-=============
+================================================================================
 
 A continuación se presentan algunos desafíos adicionales para que los intente llevar a cabo:
 
@@ -390,7 +390,7 @@ Puede consultar documentación completa en http://postgis.org/documentation/
 
 
 Lo próximo
-==============
+================================================================================
 
 Éste es solamente el primer paso en el proceso de usar PostGIS. Hay muchas más funcionalidades que puede probar.
 

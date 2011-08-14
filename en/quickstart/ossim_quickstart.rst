@@ -11,9 +11,9 @@
   :alt: project logo
   :align: right
 
-****************
+********************************************************************************
 Ossim Quickstart 
-****************
+********************************************************************************
 
 Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing,
 image processing, geographical information system and photogrammetry.
@@ -24,7 +24,7 @@ This Quick Start describes how to:
   * Run ossimPlanet
 
 Imagelinker
-===========
+================================================================================
 
 * Start Imagelinker from its icon from the directory "Spatial Tools" on the desktop 
 * Select the project file, using :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
@@ -41,7 +41,7 @@ For the full tutorial see this `blog article`_.
 
 
 OssimPlanet
-===========
+================================================================================
 
 * Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
 
@@ -59,7 +59,7 @@ OssimPlanet
 
 
 What Next?
-==========
+================================================================================
 
 * Ossim Tutorials
 

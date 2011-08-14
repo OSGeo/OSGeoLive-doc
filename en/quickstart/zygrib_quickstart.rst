@@ -11,15 +11,15 @@
   :align: right
   :target: http://www.zygrib.org
 
-*****************
+********************************************************************************
 zyGrib Quickstart 
-*****************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 Getting data
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After launching the program you will be presented with a map of the
 world. No GRIB weather forecast data is shipped with this disc, you'll
@@ -54,7 +54,7 @@ you like.
 
 
 Changing views
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 By moving the mouse around the map you'll see the exact conditions under
 the cursor listed in the pane on the left.
@@ -74,7 +74,7 @@ If you downloaded data for southern Africa cloud cover may be more interesting.
 
 
 Creating an animation
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you click the right-hand most icon on the toolbar (a rocketship) a new
 window will open and an animation will be generated. Sit tight while it runs
@@ -88,7 +88,7 @@ When you're done click the red power button to close.
 
 
 See also
-========
+================================================================================
 
 The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this
 disc) has a GRIB overlay plugin which you may try with your newly

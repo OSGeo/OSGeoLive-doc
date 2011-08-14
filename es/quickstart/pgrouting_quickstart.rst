@@ -10,9 +10,9 @@
 	:align: right
 	:target: http://www.pgrouting.org
 
-************************************
+********************************************************************************
 Guía de inicio rápido para pgRouting 
-************************************
+********************************************************************************
 
 pgRouting es una extensión de :doc:`PostGIS <postgis_overview>` la cual añade funcionalidades de ruteo a :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_.
 
@@ -20,7 +20,7 @@ Esta guía de inicio rápido describe cómo abrir una base de datos desde la lí
 
 
 Ejecución de pgRouting
-======================
+================================================================================
 
 * Abra una ventana de terminal :menuselection:`Aplicaciones --> Accesorios --> Ventana de Terminal` y conéctese a la base de datos de ``pgrouting`` :
 
@@ -88,7 +88,7 @@ Ejecución de pgRouting
 
 
 ¿Y ahora qué?
-=============
+================================================================================
 
 * **Sitio web de pgRouting** - Visite el sitio web del proyecto http://www.pgrouting.org para aprender más sobre pgRouting.
 

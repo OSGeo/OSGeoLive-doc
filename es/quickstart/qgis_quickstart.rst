@@ -11,9 +11,9 @@
   :align: right
   :target: http://www.qgis.org
 
-*****************************
+********************************************************************************
 Guía de inicio rápido de QGIS 
-*****************************
+********************************************************************************
 
 Quantum GIS (QGIS) es un cliente de escritorio amigable que permite visualizar, 
 administrar, editar, analizar datos y componer mapas.
@@ -25,7 +25,7 @@ Esta Guía de Inicio Rápido describe como:
 
 
 Editar un proyecto de QGIS
-==========================
+================================================================================
 
 #. Clic en :menuselection:`Escritorio --> Desktop GIS --> Quantum GIS`.
 
@@ -52,7 +52,7 @@ Editar un proyecto de QGIS
 
 
 Crear un nuevo proyecto de QGIS
-===============================
+================================================================================
 
 #. Seleccione :menuselection:`Archivo --> Nuevo proyecto`.
 
@@ -66,7 +66,7 @@ Crear un nuevo proyecto de QGIS
 
 
 ¿Qué sigue ahora?
-=================
+================================================================================
 
 Para aprender más sobre QGIS, un punto de partida es la `Página de Documentación`_ en el sitio web de QGIS.
 

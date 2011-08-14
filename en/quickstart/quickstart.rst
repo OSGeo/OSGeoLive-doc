@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 OSGeo-Live Quick Starts
-=======================
+================================================================================
 
 .. toctree::
   :maxdepth: 5
@@ -16,7 +16,7 @@ OSGeo-Live Quick Starts
   usb_quickstart
 
 Application Quick Starts
-========================
+================================================================================
 .. toctree::
   :maxdepth: 5
 

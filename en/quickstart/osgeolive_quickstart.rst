@@ -6,14 +6,14 @@
 
 .. _osgeolive-install-quickstart:
  
-*********************
+********************************************************************************
 OSGeo-Live Quickstart
-*********************
+********************************************************************************
 
 This Quick Start describes how to start the OSGeo-Live DVD.
 
 System Requirements
--------------------
+--------------------------------------------------------------------------------
 
 * RAM: 512 MB, preferably 1 GB.
 * CPU: 1 GHz i686 or compatible (Intel/AMD)
@@ -25,7 +25,7 @@ System Requirements
 * Mouse: a 3-button mouse is useful, especially for Mac trackpad users. 
 
 Run:
-----
+--------------------------------------------------------------------------------
 
   Source an OSGeo-Live DVD, ISO available from: http://download.osgeo.org/livedvd 
   Put the DVD into your computer's CD drive, then reboot your computer.
@@ -57,7 +57,7 @@ Run:
   Try the many applications from the :menuselection:`Geospatial` menu. 
 
 See Also:
----------
+--------------------------------------------------------------------------------
 
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`

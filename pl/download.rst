@@ -3,7 +3,7 @@
   do not replace |osgeolive-iso-size|, |osgeolive-iso-mini-size| and |osgeolive-vm-7z-size|
 
 Pobierz OSGeo-Live
-==================
+================================================================================
 
 Najnowszą stabilną wersję |osgeo-live-version| :
 

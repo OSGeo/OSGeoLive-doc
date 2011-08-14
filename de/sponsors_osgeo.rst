@@ -1,5 +1,5 @@
 Die OSGeo Foundation
-====================
+================================================================================
 
 Die `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_ ist eine Non-Profit Organisation, die sich für die Förderung von Freier und Open Source Software in der räumlichen Datenverarbeitung einsetzt. 
 
@@ -17,7 +17,7 @@ Die OSGeo Foundation empfiehlt weder die damit in Bezug stehende Software, deren
 `Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK.`
 
 OSGeo Sustaining Sponsors
-=========================
+================================================================================
 
 .. image:: ../images/logos/autodesk.jpg
   :width: 144
@@ -28,7 +28,7 @@ OSGeo Sustaining Sponsors
 
 
 OSGeo Supporting Sponsors
--------------------------
+--------------------------------------------------------------------------------
 
 .. image:: ../images/logos/inpe.gif
   :alt: INPE
@@ -43,7 +43,7 @@ OSGeo Supporting Sponsors
   :target: http://www.ordnancesurvey.co.uk
 
 OSGeo Associate Sponsors
-------------------------
+--------------------------------------------------------------------------------
 .. image:: ../images/logos/geocat.png
   :alt: GeoCat
   :align: center
@@ -95,7 +95,7 @@ OSGeo Associate Sponsors
   :target: http://www.metaspatial.net/
 
 Weitere Informationen
----------------------
+--------------------------------------------------------------------------------
 
 Wie Sie die OSGeo direkt als Sponsor unterstützen können erläutert Ihnen gerne Ihr lokaler OSGeo Kontakt. 
 Für weitere Informationen wenden Sie sich bitte an:

@@ -12,12 +12,12 @@
   :align: right
   :target: http://gmt.soest.hawaii.edu
 
-**************
+********************************************************************************
 GMT Quickstart
-**************
+********************************************************************************
 
 Im Einsatz
-==========
+================================================================================
 
 Auf dieser LiveDVD ist die GMT Dokumentation (HTML und PDF), 
 Beispielskripte (inklusive weltweiter Küstenlinien in niedriger Auflösung) 
@@ -41,7 +41,7 @@ Die Daten der Küstenlinien mit geringer Genauigkeit finden sie unter :file:`/us
 
 
 Beispiele
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Es sind 29 Beispiel-Jobs vorhanden, die alle über ein Skript ausgeführt werden können:
 

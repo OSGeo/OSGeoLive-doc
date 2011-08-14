@@ -9,9 +9,9 @@
   :alt: project logo
   :align: right
 
-************
+********************************************************************************
 R Quickstart
-************
+********************************************************************************
 
 R is a free software environment for statistical computing and graphics.
 
@@ -23,7 +23,7 @@ This Quick Start describes how to:
   * plot some data points on a map
 
 Start R
-=======
+================================================================================
 
 Either:
 
@@ -35,7 +35,7 @@ to recall commands so you can edit mistakes will help greatly. Hit CTRL-C if get
 stuck and you should get the prompt back.
 
 Quit R
-======
+================================================================================
 
 Almost everything in R is a function, including the function for quitting. Type 
 ``q()`` and hit return. If you just type ``q`` you'll see the source code for the ``q`` function.
@@ -46,7 +46,7 @@ data from there.
 
 
 Beginning R
-===========
+================================================================================
 
 R is essentially a command-line program, although graphical user
 interfaces are available. You type a line of code at the prompt,
@@ -87,7 +87,7 @@ forget a closing bracket or parenthesis.
 
 
 Building Data
-=============
+================================================================================
 
 You might be wondering what the mysterious 'one' in square brackets is 
 doing in the output. This is telling you that the result is one number. R
@@ -182,7 +182,7 @@ using $-notation:
 
 
 Loading Map Data
-================
+================================================================================
 
 There are many packages for spatial data manipulation and statistics. Some
 are included here, and some can be downloaded from CRAN.
@@ -262,7 +262,7 @@ and our final image appears:
 .. image:: ../../images/screenshots/1024x768/r_plot3.png
 
 Vignettes
-=========
+================================================================================
 
 In the past the documentation for R packages tended to be tersely-written help pages
 for each function. Now package authors are encouraged to write a 'vignette' as a friendly
@@ -273,7 +273,7 @@ a statistical analysis of spatial autocorrelation. The ``vignette("gstat")`` giv
 in the use of that package for spatial interpolation including Kriging.
 
 Further Reading
-===============
+================================================================================
 
 For general information about R, try the official `Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <http://www.r-project.org/>`_ page.
 

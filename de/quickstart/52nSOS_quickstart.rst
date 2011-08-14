@@ -10,12 +10,12 @@
   :align: right
   :target: http://52north.org/sos
   
-************************
+********************************************************************************
 52°North SOS Quickstart 
-************************
+********************************************************************************
 
 Erste Schritte
-==============
+================================================================================
 
 Der 52°North SOS ermöglicht den Zugriff und die Bereitstellung von raumbezogenen Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
@@ -45,7 +45,7 @@ Der 52°North SOS ermöglicht den Zugriff und die Bereitstellung von raumbezogen
 5) Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des 52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Mit Hilfe der Inhalte des Capabilities-Dokuments können die Beispielanfragen aus der Beispielliste individuell angepasst werden.
 
 Weitere Informationen
-=====================
+================================================================================
 
 * Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie über folgende Wege:
 

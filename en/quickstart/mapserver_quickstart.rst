@@ -17,9 +17,9 @@
   :align: right
   :target: http://www.osgeo.org
 
-======================
+================================================================================
  MapServer Quickstart
-======================
+================================================================================
 
 MapServer is an `Open Source <http://www.opensource.org>`_ server based application that allows you to publish geographic map images and vector data through to internet using `OGC standards <http://www.opengeospatial.org/standards>`_ such as `WMS <http://www.opengeospatial.org/standards/wms>`_ and `WFS <http://www.opengeospatial.org/standards/wfs>`_.
 
@@ -33,17 +33,17 @@ This Quick Start describes how to:
 .. _mapserver-quickstart-configure-with-mapfile:
 
 Configure MapServer using the "mapfile" configuration file
-==========================================================
+================================================================================
 
 .. note:: **What will I learn ?** In this section, you will learn what is a mapfile and how to configure it to allow MapServer to serve a shapefile as images using a WMS request.
 
 What is a MapFile ?
--------------------
+--------------------------------------------------------------------------------
 
 The `Mapfile <http://mapserver.org/mapfile/index.html>`_ is the configuration file that MapServer uses to render geospatial data as images or vector data.  Its main purpose is to define the layers it can draw- how to read necessary data and how to render it (e.g. color, symbol, label, etc...).
 
 Creating of my first MapFile
------------------------------
+--------------------------------------------------------------------------------
 
 #. Open any text editor (Mousepad is the default text editor on the live dvd: :menuselection:`Applications --> Accessories --> Mousepad`).
 #. Create the file "mapserver_quickstart.map" in your home directory: :file:`/home/user/mapserver_quickstart.map`
@@ -100,7 +100,7 @@ If we look closer at the **LAYER** in our mapfile, we'll see that it contains a 
 .. _mapserver-quickstart-wms-request:
 
 Render an map image with MapServer using a WMS **GetMap** request
-==================================================================
+================================================================================
 
 .. note:: **What will I learn ?** You will learn how to use to render an image with layers from a mapfile with MapServer using an OGC WMS request.
 
@@ -118,7 +118,7 @@ What does the above mean ?  If we put it in simple words, it's a `Web Map Servic
 .. _mapserver-quickstart-add-new-layer:
 
 Add a new layer to the "mapfile" to serve a local shapefile
-===========================================================
+================================================================================
 
 .. note:: **What will I learn ?** You will learn how to add a new layer object definition to your mapfile.
 
@@ -150,7 +150,7 @@ The image rendered by MapServer look like our previous map, but with addition of
 .. _mapserver-quickstart-styling-a-layer:
 
 Style a layer using "mapfile" configurations
-=============================================
+================================================================================
 
 .. note:: **What will I learn ?** You will see an example of styling elements inside a layer depending on some of its data properties.
 
@@ -188,7 +188,7 @@ The result of this new addition should make the big lakes in our map image rende
 .. note:: Learn more about `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ in MapServer.
 
 What Next?
-==========
+================================================================================
 
 This is a simple example, but you can do much, much more.  The MapServer project website contains many resources to help you get started.  Here's a few resources to check out next:
 

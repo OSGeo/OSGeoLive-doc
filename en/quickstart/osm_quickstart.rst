@@ -12,15 +12,15 @@
   :target: http://www.osm.org
 
 
-************************
+********************************************************************************
 OpenStreetMap Quickstart 
-************************
+********************************************************************************
 
 Programs
-========
+================================================================================
 
 JOSM
-~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **JOSM** (Java OpenStreetMap Editor) is an editor for OpenStreetMap (OSM)
 written in Java. The current version supports stand alone GPX tracks,
@@ -44,7 +44,7 @@ The JOSM plugin collection contains the following plugins:
 
 
 Further reading
----------------
+--------------------------------------------------------------------------------
 
 * Online tutorial: http://www.use-it.be/europe/docs/OSMmanual/
 * User guide: http://wiki.openstreetmap.org/wiki/JOSM/Guide
@@ -54,7 +54,7 @@ Further reading
 
 
 Merkaartor
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit.
 It's a bit more user friendly than JOSM, but has a few less features.
@@ -64,7 +64,7 @@ It's a bit more user friendly than JOSM, but has a few less features.
 
 
 Gosmore
-~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Gosmore** is a OpenStreetMap viewer, wayfinder, and search client
 with support for speech synthesis and fetching the current user's
@@ -89,7 +89,7 @@ for in-car GPS navigation.
 
 
 Osmarender
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Osmarender** is a rule-based rendering tool for generating SVG images of
 OSM data. It takes as its input an OpenStreetMap dataset and a rules file.
@@ -122,7 +122,7 @@ You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
 
 
 osm2pgsql
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **osm2pgsql** is a utility program that converts OpenStreetMap (.OSM) data
 into a format that can be loaded into PostgreSQL (PostGIS). It is often

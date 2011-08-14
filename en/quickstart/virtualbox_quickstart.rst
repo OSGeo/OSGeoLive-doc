@@ -5,16 +5,16 @@
 
 .. _virtualbox-quickstart-en:
  
-*************************************
+********************************************************************************
 OSGeo-Live Quickstart for Virtual Box
-*************************************
+********************************************************************************
 
 Here we describe a method for running an OSGeo-Live DVD or ISO in the `VirtualBox <http://www.virtualbox.org/>`_ Virtual Machine.
 
 VirtualBox is an Open Source Virtual Machine which is used by many of the OSGeo-Live developers and testers.
 
 System Requirements
--------------------
+--------------------------------------------------------------------------------
 
 * RAM: 1 GB, preferably 2 GB if you plan to run other applications as well
 * Spare Hard Disk Space:
@@ -23,7 +23,7 @@ System Requirements
  * 17 GB if installing locally from an ISO
 
 Create a Virtual Machine
-------------------------
+--------------------------------------------------------------------------------
 Download and install `Virtual Box <http://www.virtualbox.org/>`_. On linux do the following:
 
   ``apt-get install virtualbox-ose``
@@ -93,11 +93,11 @@ Select the OSGeo-Live image.
 Now you can start the virtual machine as per the :doc:`osgeolive_quickstart`
 
 Create permanent Virtual Machine
---------------------------------
+--------------------------------------------------------------------------------
 If you plan to use the OSGeo-Live DVD a lot, you will likey want to create a permanent virtual machine, as per: :doc:`osgeolive_install_quickstart`.
 
 Increase Display Size
----------------------
+--------------------------------------------------------------------------------
 You can then add the virtual boots tools which support higher screen
 resolution support, copy and paste between guest and host, graphics
 acceleration, and more.
@@ -127,7 +127,7 @@ computer's display settings. These can be changed via:
 Select: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
 
 See Also:
----------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`

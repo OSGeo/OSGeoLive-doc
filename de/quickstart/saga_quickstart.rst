@@ -9,12 +9,12 @@
   :target: http://www.saga-gis.org
 
 
-*******************
+********************************************************************************
 SAGA GIS Quickstart
-*******************
+********************************************************************************
 
 Ablauf
-======
+================================================================================
 
 Um SAGA GIS auf der Live DVD zu starten, klicken Sie den SAGA Link auf dem Desktop.
 
@@ -24,7 +24,7 @@ Wenn Sie SAGA das erste Mal öffnen, sehen Sie drei Unterfenster: Den Workspace,
      :scale: 80
 
 Dataen laden
-============
+================================================================================
 
 Öffnen Sie die SAGA GUI und laden Sie das Raster `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd über das 
 ** File|Grid|Load Grid** Menü. Sie bekommen eine Meldung über den Erfolg oder das Scheitern dieser Aufgabe. 
@@ -41,7 +41,7 @@ auswählen. Ausserdem sehen Sie nicht nur detaillierte Informationen über das R
 Datentyp (hier FLOAT), die Datenspannweite, einige statistische Informationen und die Speichergröße.
 
 Daten anzeigen
-==============
+================================================================================
 
 Um die Karte anzuzeigen, genügt ein Doppelklick auf den Datensatz im Reiter Daten des Workspace-Fenster. Ein neues Kartenfenster öffnet sich mit dem Datensatz. Das Datenfenster ist eingerahmt: Oben und links sind die x- und y-Werte als Weltkoordinaten angezeigt. Unten und rechts sind Liniale in Karteneinheiten abgebildet. Bewegen Sie den Mauszeiger über die Karte, sehen Sie, dass die x-, y- und z-Koordinaten in der unteren Leiste des SAGA-GUI-Fensters angezeigt werden. Die z-Koordinaten entsprechen den Höhenwerten des Datensatzes (beachten Sie, dass die angezeigten Werte immer die des Datensatzes sind, den Sie im Reiter Daten ausgewählt haben).
 
@@ -52,7 +52,7 @@ Nun zoomen und schwenken Sie mit Hilfe der Navigations-Tools. Das Zoom-Werkzeug 
 .. tip:: SAGA zoomt sehr schnell, wenn sie sich dabei verlieren, klicken Sie auf den 'Zoom to Full Extent' Knopf in der Werkzeugleiste
 
 Erstellen einer Schummerungskarte
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nun verbessern wir die Kartendarstellung durch die Berechnung einer Reliefschattierung. Wechseln Sie in den Reiter Module des Workspace-Fensters und klicken Sie auf das Pluszeichen links neben der ** Terrain-Analyse - Lightning, Visibility ** Modulbibliothek: Eine Liste mit den Modulen dieser Bibliothek wird angezeigt. Wählen Sie nun das analytische Schummerungsmodul und wählen Sie dann den Reiter Einstellungen im Fenster Objekteigenschaften. Dies zeigt die Modul-Parameter (werfen Sie auch einen Blick auf den Reiter Beschreibung, in dem weitere Informationen über das Modul und seine Parameter angezeigt wird). Klicken Sie in die rechte Spalte der Raster-System-Parameter (wobei [nicht gesetzt] angezeigt wird) und wählen Sie das Koordinatensystem für die Mount St. Helens Datensatz. Klicken Sie nun in die rechte Spalte der Höhenparameter und wählen Sie den Datensatz. Klicken Sie in der rechten Spalte der Shading-Method Option und wählen Sie Standard. Jetzt drücken Sie Apply und dann auf die Schaltfläche Ausführen. Ein neuer Datensatz mit der Reliefschattierung wird berechnet.
 
@@ -68,7 +68,7 @@ Wählen Sie bei Bedarf eine andere Transparenz-Einstellung oder versuchen sie, e
     :scale: 80
 
 3D Visualisierung
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In einem nächsten Schritt können Sie Ihre Karte in 3D visualisieren. Gehen Sie sicher, dass Ihre Karte markiert ist und drücken Sie die 'Show 3D-View' Taste in der Werkzeugleiste. Im Dialog wählen Sie das Koordinatensystem und den Höhendatensatz und stellen Sie den Mount St. Helens Datensatz als Höhenparameter ein. Sobald Sie die Taste OK drücken, wird die 3D-Ansicht Ihrer Karte angezeigt. Halten Sie die linke Maustaste gedrückt und bewegen Sie die Maus, um die Karte zu drehen und zu kippen. Verwenden Sie die rechte Maustaste zum zoomen und verschieben. Werfen Sie auch einen Blick auf die Werkzeugleiste der 3D-Ansicht: die Tasten replizieren die Maus Operationen und bieten weitere Funktionalität. Um die 3D-Ansicht zu schliessen, wählen Sie die Option Schließen im Menü-Fenster.
 
@@ -76,13 +76,13 @@ In einem nächsten Schritt können Sie Ihre Karte in 3D visualisieren. Gehen Sie
     :scale: 80
 
 Konturlinien erstellen
-======================
+================================================================================
 
 Als kurze Einführung in die SAGA-Vektor-Funktionen werden wir nun Höhenlinien aus dem digitalen Höhenmodell generieren. Dies kann im Menü **Shapes - Grid | Contour Lines From Grid** durchgeführt werden, wenn Sie den Reiter Module im Workspace-Fenster öffnen. Sie können ebenso gut das Modul über das Menü: **Modules|Shapes|Shapes from Grid** öffnen. Wählen Sie Ihr Koordinatensystem und Raster (Höhendatei). Lassen Sie die Optionen wie sie sind, aber vielleicht ist es besser, eine Äquidistanz von 50m statt der üblichen 10 m zu wählen.
 Ein paar Sekunden später sind die Höhenlinien erzeugt worden, und Sie sollten sie im Reiter Daten im Workspace-Fenster finden. Versuchen Sie die Konturkarte als neue Karte zu öffnen. Alle Höhenlinien haben jetzt die gleiche Farbe. Wenn Sie Ihre Karte selektieren (unter Arbeitsbereich, Reiter Daten) können Sie die Farbeinstellungen im Objekteigenschaften-Fenster im Bereich Display: Farb-Klassifikation ändern. Sie können die Klassifizierung von "Unique Symbol" nach "Farbverlauf" ändern. Dann sollten Sie auch einstellen, dass das Attribut Höhe für den Farbverlauf verwendet wird. Drücken Sie Apply und die farbigen Höhenlinien werden dargestellt.
 
 History überprüfen
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wenn Sie einen Datensatz (z.B. die Höhenlinien) im Reiter Workspace auswählen, können Sie im Bereich Objekteigenschaften zur "History" wechseln, um zu sehen, welche Optionen verwendet wurden, um den Datensatz zu erstellen. Diese Informationen werden auch mitgespeichert, wenn Sie Ihre Dateien speichern (als .hshp und .hgrd).
 
@@ -90,12 +90,12 @@ Wenn Sie einen Datensatz (z.B. die Höhenlinien) im Reiter Workspace auswählen,
     :scale: 80
 
 Daten speichern
-===============
+================================================================================
 
 Um die Arbeit, die Sie erstellt haben zu speichern, sollten Sie in den Reiter Daten im Workspace wechseln, und rechts auf die Datei klicken, die Sie speichern wollen. SAGA speichert Rasterdateien in seinem eigenen nativen Format (\*.sgrd) und Shapefiles im Standard ESRI Shapefile Format (\*.shp). Es ist auch möglich, das Projekt zu speichern, indem Sie **File|Project|Save Project** auswählen. Das speichert alle Kartenansichten und -einstellungen, sowie die Möglichkeit, die Daten zu speichern.
 
 Daten Import und Export
-=======================
+================================================================================
 
 Für den Import und Export von Daten stehen mehrere Module zur Verfügung. Am meisten bietet das Modul: Import/Export GDAL/OGR, das Sie im Menü **modules|file|GDAL/OGR menu** finden. Mit diesem Modul können zahlreiche Datenformate inklusive Geotiff importiert werden. Dasselbe Modul kann auch verwendet werden, um Daten in unterschiedlichste Formate zu exportieren.
 
@@ -113,7 +113,7 @@ Danach können wir die Farbskala zurücksetzen auf den Bereich, der für die Dat
 Sie sind nun bereit, eine Schummerungskarte zu erstellen und weitere SAGA Module auszuprobieren!
 
 Weitere Informationen
-=====================
+================================================================================
 Diese Live-DVD enthält das SAGA Handbuch:
  * `SAGA userguide <../../saga/SAGA2_UserGuide_Cimmery_20070401.pdf/>`_
 Weitere Dokumentation finden Sie auf der SAGA Webseite:

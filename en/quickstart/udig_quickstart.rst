@@ -49,9 +49,9 @@
   :alt: project logo
   :align: right
 
-***************
+********************************************************************************
 uDig Quickstart 
-***************
+********************************************************************************
 
 .. Writing Tip:
   First sentence defines what the application does.
@@ -74,7 +74,7 @@ This Quick Start describes how to:
 .. contents:: Contents
   
 start uDig
-==========
+================================================================================
 
 .. Writing Tip:
   Describe steps to start the application
@@ -100,7 +100,7 @@ start uDig
 If you have any difficulties, or are running uDig please review the Running uDig reference page.
 
 Welcome View
-============
+================================================================================
 
 #. When you start up uDig for the first time the Welcome view takes up the entire display. This screen
    has links to tutorials, documentation and the project website.
@@ -113,7 +113,7 @@ Welcome View
 You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
 
 Workbench
-=========
+================================================================================
 
 The Workbench window offers multiple Editors (each showing a Map) and supporting Views (offering
 information about the current Map).
@@ -131,7 +131,7 @@ Shown above is a typical uDig session with the
 These views will be described further as we demonstrate their use.
 
 Files
-=====
+================================================================================
 
 To start out with we are going to load some of the sample data included on the DVD.
 
@@ -193,7 +193,7 @@ To start out with we are going to load some of the sample data included on the D
 .. tip:: You can also drag and drop shapefiles directly into the uDig application!
 
 Map
-===
+================================================================================
 
 You can control where in the world the Map Editor is looking by using the navigation tools in the tool bar along the top of the screen.
 
@@ -232,7 +232,7 @@ You can control where in the world the Map Editor is looking by using the naviga
    scroll wheel.
 
 Web Map Server
-==============
+================================================================================
 
 One of the reasons to use an application like uDig is to access all the great free geospatial
 information available on the web. This section covers the use of Web Map Servers which make
@@ -279,7 +279,7 @@ available layers of information that you can mix into your own maps.
 .. tip:: You can switch between the zoom and info tools by pressing `Z` and `I` on the keyboard.
 
 Style
-=====
+================================================================================
 
 #. Select the `project > 10m admin 0 countries`, you can double click to open this Map, or Right Click and choose Open Map
 
@@ -321,7 +321,7 @@ Sometimes it is a bit hard to see what is going on with layer providing much det
   connected to the Internet.
 
 Things to Try
-=============
+================================================================================
 
 Here are some additional challenges for you to try:
 
@@ -329,7 +329,7 @@ Here are some additional challenges for you to try:
 #. Try styling the WFS layer.
 
 What Next?
-==========
+================================================================================
 
 .. Writing tip
   Provide links to further tutorials and other documentation.

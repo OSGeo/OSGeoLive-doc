@@ -1,5 +1,5 @@
 Contattaci
-==========
+================================================================================
 
 
 Lo sviluppo di OSGeo-Live è coordinato via mail e internet chat
@@ -7,7 +7,7 @@ Lo sviluppo di OSGeo-Live è coordinato via mail e internet chat
 
 
 Supporto della comunità
-=======================
+================================================================================
 
 Per ogni domanda, commento, o per comunicare eventuali problemi, è disponibile la `nostra mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
@@ -20,7 +20,7 @@ Molte informazioni sono disponibili sul nostro `sito wiki <http://wiki.osgeo.org
 disponibile un `sistema di bug e wish tracking <a href="https://trac.osgeo.org/osgeo/report/10>`_.
 
 Supporto commerciale
-====================
+================================================================================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :scale: 100%

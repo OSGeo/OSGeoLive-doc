@@ -1,7 +1,7 @@
 .. Writing Tip:  there a several replacements defined in conf.py in the root doc folder  do not replace |osgeolive-iso-size|, |osgeolive-iso-mini-size| and |osgeolive-vm-7z-size|
 
 Μεταφόρτωση - Download
-======================
+================================================================================
 
 Η τελευταία σταθερή έκδοση του OSGeo-Live περιλαμβάνει:
 

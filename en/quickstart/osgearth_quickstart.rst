@@ -10,9 +10,9 @@
   :alt: project logo
   :align: right
 
-*******************
+********************************************************************************
 osgEarth Quickstart 
-*******************
+********************************************************************************
 
 osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_.
 
@@ -22,7 +22,7 @@ This Quick Start describes how to start a 3D globe with different overlays.
 
 
 Running osgearth_viewer
-=======================
+================================================================================
 
 * Open a console and start the osgearth viewer::
 
@@ -38,7 +38,7 @@ You should see a globe with satellite imagery.
 
 
 Running osgviewer with an OpenStreetMap overlay
-===============================================
+================================================================================
 
 * In a console, type::
 
@@ -50,7 +50,7 @@ Running osgviewer with an OpenStreetMap overlay
 
 
 What Next?
-==========
+================================================================================
 
 To learn more about osgEarth, a starting point is the `Documentation page`_ in the Wiki.
 

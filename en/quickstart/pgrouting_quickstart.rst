@@ -10,9 +10,9 @@
 	:align: right
 	:target: http://www.pgrouting.org
 
-********************
+********************************************************************************
 pgRouting Quickstart
-********************
+********************************************************************************
 
 pgRouting is an extension and adds routing functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ databases.
 
@@ -20,7 +20,7 @@ This Quick Start describes how to open a database with the command line and run 
 
 
 Running pgRouting
-=================
+================================================================================
 
 * Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``pgrouting`` database:
 
@@ -89,7 +89,7 @@ Running pgRouting
 
 
 What next?
-==========
+================================================================================
 
 * **pgRouting Website** - Visit the project website http://www.pgrouting.org to learn more about pgRouting.
 

@@ -6,12 +6,12 @@
 
 .. _osgeolive-internationalisation-quickstart:
  
-*************************************************
+********************************************************************************
 Guía rápida de Internacionalización de OSGeo-Live 
-*************************************************
+********************************************************************************
 
 Cambio de idioma
-----------------
+--------------------------------------------------------------------------------
 
 Hemos instalado muchos idiomas comunes. Para cambiar el sistema necesitarás hacer los siguiente:
 
@@ -26,6 +26,6 @@ A partir de ahora, los menús de sistema y muchas de las aplicaciones aparecerá
 Para idiomas adicionales ver: :menuselection:`Aplicacion(Application) --> Sistema(System) --> Soporte de Idioma (Language Support)` (Requiere conexión a Internet).
 
 Soporte de teclado
-------------------
+--------------------------------------------------------------------------------
 El soporte de teclado internacional está instalado, pero necesitarás configurar el sistema para tu teclado específico. 
 

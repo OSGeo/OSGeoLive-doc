@@ -11,15 +11,15 @@
   :align: right
   :target: http://www.opencpn.org
 
-********************
+********************************************************************************
 OpenCPN Quickstart 
-********************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 Setting up your charts
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Before running OpenCPN on the LiveDVD you should activate the sample data.
 To do this open a Terminal from the main Applications menu and run
 "`opencpn_noaa_agreement.sh`" at the command prompt. The user's
@@ -30,7 +30,7 @@ at http://www.charts.noaa.gov
 
 
 Setting up your GPS
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you have a GPS connected you will want to start the gpsd service.
 To do that run:
 
@@ -52,7 +52,7 @@ option. (for this reason we have not started gpsd automatically)
 
 
 Documentation
-=============
+================================================================================
 
 * Documentation is available from
   the `Help menu <../../opencpn/doc/help_en_US.html>`_, or
@@ -62,7 +62,7 @@ Documentation
 
 
 See also
-========
+================================================================================
 
 Current weather and forecast data can be downloaded and draped over your
 charts using the GRIB plugin. The :doc:`zyGrib software <../overview/zygrib_overview>`

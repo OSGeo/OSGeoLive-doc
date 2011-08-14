@@ -9,9 +9,9 @@
   :alt: project logo
   :align: right
 
-************
+********************************************************************************
 R Quickstart
-************
+********************************************************************************
 
 R ist eine freie Software-Umgebung für statistische Berechnungen und Grafik.
 
@@ -23,7 +23,7 @@ Dieser Quick Start beschreibt, wie man:
   * Datenpunkte auf eine Karte plottet
 
 R starten
-=========
+================================================================================
 
 Entweder:
 
@@ -35,7 +35,7 @@ Abwärts Pfeiltasten können Sie Befehle zurückholen und die Tastenkombination 
 Eingabepromt wieder, wenn Sie mal irgendwo stecken bleiben.
 
 R beenden
-=========
+================================================================================
 
 Fast alles in R ist eine Funktion, inklusive der Funktion zum Beenden. Tippen Sie ``q()`` 
 und drücken dann Return. Wenn Sie nur ``q`` tippen, sehen Sie den Quellcode der Funktion ``q``.
@@ -45,7 +45,7 @@ R aus einem Ordner mit einer ``.RData`` Datei starten, werden alle Daten daraus 
 integriert.
 
 R Einführung
-============
+================================================================================
 
 R ist im Wesentlichen ein Kommandozeilen-Programm, obwohl auch grafische 
 Benutzeroberflächen zur Verfügung stehen. Sie geben einen Code-Zeile ein, 
@@ -86,7 +86,7 @@ werden Sie sehen, wenn Sie z.B. vergessen, eine Klammer zu schliessen.
 
 
 Daten erstellen
-===============
+================================================================================
 
 Sie fragen sich vielleicht, was die geheimnisvolle '1' in eckigen Klammern 
 in der Ausgabe ist. Das zeigt Ihnen, dass das Ergebnis eine Zahl ist. R kann 
@@ -182,7 +182,7 @@ auch über Namen ansprechen mit $-Notation:
 
 
 Karten laden
-============
+================================================================================
 
 Es gibt viele Pakete für räumliche Datenmanipulation und deren statistische 
 Analyse. Einige sind bereits hier enthalten, und einige können vom CRAN Server 
@@ -266,7 +266,7 @@ und unsere Ausgabekarte erscheint:
 .. image:: ../../images/screenshots/1024x768/r_plot3.png
 
 Vignetten
-=========
+================================================================================
 
 In der Vergangenheit waren die Dokumentation für R-Pakete eher lapidar geschriebene Hilfeseiten 
 für jede Funktion. Jetzt werden Autoren aufgefordert, eine "Vignette", als ein freundliches 
@@ -278,7 +278,7 @@ Autokorrelation. Die ``vignette("gstat")`` gibt ein Tutorial in der Verwendung d
 für räumliche Interpolation mit Kriging aus.
 
 Weiterführende Links
-====================
+================================================================================
 
 Für allgemeine Informationen über R, versuchen Sie die offizielle Seite `Introduction to R 
 <http://cran.r-project.org/doc/manuals/R-intro.html>`_ oder eine andere Dokumentation von 

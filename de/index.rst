@@ -1,6 +1,6 @@
 
 Willkommen |osgeo-live-version|
-===============================
+================================================================================
 
 `OSGeo-Live <http://live.osgeo.org>`_ ist eine getrennt bootfähige DVD, ein USB-Stick 
 oder eine virtuelle Maschine basierend auf `Xubuntu <http://www.xubuntu.org/>`_, die Ihnen 
@@ -29,7 +29,7 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
 
 
 Quickstart
-----------
+--------------------------------------------------------------------------------
 
 -   :doc:`Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
 -   :doc:`Ändere Spracheinstellungen und Tastaturbelegung <quickstart/internationalisation_quickstart>`
@@ -38,7 +38,7 @@ Quickstart
 -   :doc:`Erstelle einen bootfähigen OSGeo-Live USB Stick <quickstart/usb_quickstart>`
 
 Präsentation
-------------
+--------------------------------------------------------------------------------
 
 Eine 25-minütige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
 

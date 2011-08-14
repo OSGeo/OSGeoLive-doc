@@ -11,12 +11,12 @@
   :align: right
   :target: http://www.gpsdrive.de
 
-*******************
+********************************************************************************
 GpsDrive Quickstart 
-*******************
+********************************************************************************
 
 Running
-=======
+================================================================================
 
 You will most likely want to install
 the `gpsd <http://gpsd.berlios.de>`_ package so that you can talk to
@@ -29,7 +29,7 @@ from the internet without any extra installation.
 
 
 Setting up your GPS
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you have a GPS connected you will want to start the gpsd service.
 To do that run:
@@ -51,14 +51,14 @@ option. (for this reason we have not started gpsd automatically)
 
 
 Using without a GPS as a mapbook
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you don't have a GPS connected you can turn on Explore Mode
 with the 'e' key and then use the arrow keys to move around.
 Right-click to set the destination target.
 
 
 Quick help
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 For help type '**man gpsdrive**' and '**gpsdrive --help**' at
 a Terminal prompt. This will show how to switch to Car or PDA
 mode which may be useful if you are working with a small screen
@@ -66,7 +66,7 @@ like on a netbook.
 
 
 Customizing the display
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Besides the options given in the Preferences menu and the different 
 car/PDA/desktop modes offered from the command line, you can change the
 displayed dashboard meters. Just click on one of the three dashboard
@@ -75,7 +75,7 @@ and map controls with the '**d**' and '**m**' keys.
 
 
 Mapnik rendering of OpenStreetMap data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you have a local PostGIS database running (for example the one that comes
 with this Live DVD) you can setup GpsDrive to render very pretty street maps
 on the fly from OpenStreetMap.org data using the Mapnik renderer. The
@@ -87,7 +87,7 @@ window and use the built-in or downloaded static map tiles.
 
 
 Finding amenities
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 With the *Find* tool you can search out for the nearest points of interest
 loaded into your SQLite waypoint database. To get you started OpenStreetMap
 data for the conference's host country has been loaded. e.g. *Find all pubs
@@ -95,7 +95,7 @@ within 2 km of the conference hall*.
 
 
 Downloading maps
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Use the :menuselection:`Options --> Maps --> Download` tool to preview
 and download new map tiles. Currently the OpenStreetMap web-tiles and
 NASA OnEarth WMS servers are available as sources. There are a few command
@@ -104,7 +104,7 @@ a set of tiles covering your local area.
 
 
 Keeping tabs on your friends
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In the Preferences menu you can turn on the Friendsd service. This
 transmits your position to a central server and lets your friends know
 where you are. It comes with a program to run a private server if you
@@ -118,7 +118,7 @@ a lot of friendly types in Europe.
 
 
 Verbal instructions
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GpsDrive can give you verbal warnings when you are nearing your
 destination, etc. To try this out you must start the eSpeak software
 which has been disabled by default on this Live-Disc to save memory.
@@ -131,7 +131,7 @@ change the voice, and verbosity level.
 
 
 Further reading
-===============
+================================================================================
 
 * *GpsDrive*: http://www.gpsdrive.de
 * Help and support pages: http://gpsdrive.sf.net

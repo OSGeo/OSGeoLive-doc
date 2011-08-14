@@ -11,9 +11,9 @@
   :target: http://gdal.org/
 
 
-*******************
+********************************************************************************
 GDAL/OGR Quickstart
-*******************
+********************************************************************************
 
 Sie brauchen lediglich ein Terminal für die Übungen. Zur Visualisierung der Ergebnisse 
 können Sie ein Desktop GIS von OSGeo-Live wie beispielsweise :doc:`../overview/qgis_overview` verwenden.
@@ -35,7 +35,7 @@ OGR
   * Verwendung von ogr2ogr zur Umwandlung von Vektordaten in andere Formate
 
 Lernen Sie GDAL kennen
-======================
+================================================================================
 
 Sie finden die Demodaten unter :file:`/usr/local/share/data`. Für die folgenden Übungen werden 
 die :doc:`Natural Earth Daten <../overview/naturalearth_overview>` verwendet. Wir werden mit einer Kopie der Daten arbeiten. 
@@ -56,7 +56,7 @@ Unter dem folgenden Pfad finden Sie eine Natural Earth Rasterdatei und die dazug
 .. tip:: Schauen Sie sich die Datei mit einem Desktop GIS beispielsweise QGIS an.
 
 gdalinfo - zum Untersuchen von Rasterdaten
-==========================================
+================================================================================
 :: 
   
       gdalinfo HYP_50M_SR_W.tif 
@@ -95,7 +95,7 @@ Hinweis:
 
 
 gdal_translate zur einfachen Formatumwandlung
-=============================================
+================================================================================
 
 Als Erstes lassen wir uns die verfügbaren Treiber ausgeben. Über die Angabe des zusätzlichen Parameters `--formats` gibt gdal_translate die Liste der verfügbaren Formate aus.
 
@@ -117,7 +117,7 @@ auszugeben, diese Details beinhalten Angaben zur Erzeugung und zu erlaubten Date
  gdal_translate --format png 
 
 Formatumwandlung
-================
+================================================================================
 
 Formatumwandlungen erfolgen mit gdal_translate. Das Standardausgabeformat ist
 GeoTIFF:
@@ -142,7 +142,7 @@ Verwenden Sie gdalinfo zur Prüfung des Datentyps.
 
 
 Größenanpassung
-===============
+================================================================================
 
 Der `-outsize` Parameter wird zur Steuerung der Größe der Ausgabedatei verwendet.
 
@@ -168,7 +168,7 @@ und die Eckkoordinaten in Georeferenzierten Koordinaten (ulx uly lrx lry) angebe
 
 
 Bildkatalog (tileindex) mit gdaltindex erzeugen
-===============================================
+================================================================================
 
 Sie können eine Shapedatei als Rasterbildkatalog erzeugen. Für jedes Bild
 wird ein Polygon mit dem Umring der Rasterdatei und dem Pfad zur Rasterdatei erzeugt.
@@ -205,7 +205,7 @@ noch mehr über ogrinfo erfahren).
   
 
 Umprojektion
-============
+================================================================================
 
 Für diese Operation gehen wir davon aus, dass HYP_50M_SR_W.tif mit korrekten 
 Grenzen angelegt wurde.
@@ -244,7 +244,7 @@ Beachten Sie, wie die Pole abgeschnitten werden. Weil die Ecken an den Polen nic
 
 
 Zusammenfassen von Daten
-=========================
+================================================================================
 
 gdal_merge.py ist ein Python Skript, das für einfache Zusammenfassungen verwendet werden kann.
 Fassen Sie die Dateien east.tif und west.tif in eine Datei zusammen.
@@ -264,7 +264,7 @@ Vorteile gegenüber gdal_merge, kann aber langsam sein, wenn es darum geht, viel
 
 
 Lernen Sie OGR kennen
-=====================
+================================================================================
 
 :: 
   
@@ -275,7 +275,7 @@ Lernen Sie OGR kennen
 
 
 Nutzen Sie ogrinfo zur Ausgabe von Informationen über Vektordaten
-=================================================================
+================================================================================
 
 :: 
 
@@ -344,7 +344,7 @@ Sie können Ihre Daten in andere Formate konvertieren. Über `--formats` erhalte
 unterstützten Formate.
 
 Nutzen Sie ogr2ogr um Vektordaten in verschiedene Formate zu konvertieren
-=========================================================================
+================================================================================
 
 Sie können ogr2ogr nutzen, um Daten aus einem Format in ein anderes Format zu konvertieren. 
 Eine Liste der unterstützen Formate mit der Information, ob auf diese nur lesend bzw. auch schreibend 
@@ -359,7 +359,7 @@ Konvertieren Sie die Länder in das GML-Format.
 
 
 Weitere Aufgaben
-================
+================================================================================
 
 Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
@@ -375,7 +375,7 @@ Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
 
 Der nächste Schritt
-===================
+================================================================================
 
 Dies war lediglich der erste Einstieg in GDAL und OGR. Es gibt sehr viele weitere Funktionalitäten zu entdecken.
 

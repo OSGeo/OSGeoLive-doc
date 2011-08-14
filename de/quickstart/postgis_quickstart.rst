@@ -13,14 +13,14 @@
   :target: http://postgis.org/
 
 
-******************
+********************************************************************************
 PostGIS Quickstart
-******************
+********************************************************************************
 
 PostGIS ist die räumliche Erweiterung der relationalen Datenbank PostgreSQL. PostGIS ermöglicht die Speicherung, Abfrage und Bearbeitung von räumlichen Daten. In diesem Zusammenhang werden wir 'PostgreSQL' verwenden, wenn wir über generelle Datenbankfunktionen sprechen und 'PostGIS', wenn wir über die zusätzlichen Funktionalitäten, die die Erweiterung bereitstellt,  reden. 
 
 Client-Server Architektur
-=========================
+================================================================================
 
 PostgreSQL arbeitet wie viele Datenbanksysteme als Server in einem Client-Server-System.
 Dabei stellt der Client die Anfragen an den Server und bekommt vom Server eine Antwort zurück.
@@ -33,7 +33,7 @@ Ihr Client verbindet sich mit dem Server über die interne 'loopback' Network Ve
 außer Sie konfigurieren dies.
 
 Erzeugen einer Räumlichen Datenbank
-===================================
+================================================================================
 
 .. review comment: Suggest providing a screen grab (or 2) which shows how to select
    and open an xterm. Cameron
@@ -123,7 +123,7 @@ Die Ausgabe bestätigt, dass wir eine Datenbank mit räumlicher Erweiterung vorl
 
 
 Erzeugen einer Tabelle mit räumlicher Erweiterung - die harte Tour
-==================================================================
+================================================================================
 
 Wir haben nun eine Datenbank mit räumlicher Erweiterung vorliegen und können daher eine Tabelle mit räumlichen Daten erzeugen.
 
@@ -167,7 +167,7 @@ Sie werden sehen, dass dieses Vorgehen der Dateneingabe schnell ermüdet. Zum Gl
 
 
 Einfache Abfragen
-=================
+================================================================================
 
 Alle üblichen SQL Operationen können angewendet werden, um Daten aus einer PostGIS Tabelle abzufragen.
 
@@ -200,7 +200,7 @@ verwenden, um die Koordinaten auszugeben:
 
 
 Räumliche Abfragen
-==================
+================================================================================
 
 PostGIS erweitert PostgreSQL um zahlreiche räumliche Funktionen.
 Die Funktion ST_GeomFromText zur Konvertierung von WKT in eine Geometrie haben wir schon kennen gelernt.
@@ -242,7 +242,7 @@ Namen des Sphäroids, die große Halbachse und die inverse Abplattung angeben:
 
 
 Mapping
-=======
+================================================================================
 
 Um eine Karte aus Ihren PostGIS Daten zu erzeugen, brauchen Sie einen Client, der auf die Daten zugreifen kann.
 Die meisten der Open Source Desktop GIS Programme unterstützen PostGIS - wie z. B. Quantum GIS, gvSIG, uDig. 
@@ -288,7 +288,7 @@ Navigieren Sie in die bekannte Seengruppe von Kanada.
 
 
 Erzeugen einer Tabelle mit räumlicher Erweiterung - der einfache Weg
-====================================================================
+================================================================================
 
 Die meisten OSGeo Desktop GIS Tools bieten Schnittstellen zum Import von räumlichen Daten nach PostGIS, beispielsweise Shape Dateien. Wir wollen wieder Quantum GIS zur Demonstration nutzen.
 
@@ -342,7 +342,7 @@ Laden Sie nun die SIDS Daten über 'PostGIS-Layer hinzufügen' in Ihre Karte.
   :align: center
 
 Der grafische Datenbankclient pgAdmin III
-=========================================
+================================================================================
 Sie können den grafischen Datenbankclient ``pgAdmin III`` nutzen, um SQLs abzusetzen und um Ihre Daten zu verwalten.
 pgAdmin III verfügt außerdem über einen Plugin zum Shapeimport. pgAdmin III bietet ein komfortables Datenmanagement.
 
@@ -353,7 +353,7 @@ pgAdmin III verfügt außerdem über einen Plugin zum Shapeimport. pgAdmin III b
 
 
 Weitere Aufgaben
-================
+================================================================================
 
 Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
@@ -365,7 +365,7 @@ Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
 
 Der nächste Schritt
-====================
+================================================================================
 
 Dies war lediglich der erste Einstieg in PostGIS. Es gibt sehr viele weitere Funktionalitäten zu entdecken.
 

@@ -11,9 +11,9 @@
   :target: http://www.mapfish.org
 
 
-********************************
+********************************************************************************
 Guía de inicio rápida de MapFish
-********************************
+********************************************************************************
 
 MapFish es un framework flexible y completo para construir aplicaciones de 
 mapas en la Web enriquecidas. Enfatiza en la alta productividad y el 
@@ -27,7 +27,7 @@ La guía de inicio describe cómo:
 * crear aplicaciones MapFish
 
 Ejecutar la aplicación de ejemplo
-=================================
+================================================================================
 
 Para ejecutar el ejemplo de click en el enlace de MapFish del escritorio.
 Esto abrirá una pestaña de Firefox apuntando a la aplicación servida por
@@ -42,7 +42,7 @@ y los servicios Web de Mapfish
 
 
 Instalación de MapFish
-======================
+================================================================================
 
 Para instalar MapFish, descargue el script y ejecute desde una terminal::
 
@@ -76,7 +76,7 @@ la siguiente sección para crear la aplicación MapFish
 
 
 Crear una aplicación MapFish 
-============================
+================================================================================
 
 Después de activar el ambiente virtual Python, puede generar la primera
 aplicación MapFish, llamada por ejemplo MyMapFishApp::

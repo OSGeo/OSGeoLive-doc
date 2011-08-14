@@ -10,9 +10,9 @@
 	:align: right
 	:target: http://www.pgrouting.org
 
-********************
+********************************************************************************
 pgRouting Quickstart
-********************
+********************************************************************************
 
 pgRouting は :doc:`PostGIS <postgis_overview>` / `PostgreSQL <http://www.postgresql.org>`_ 地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
 
@@ -20,7 +20,7 @@ pgRouting は :doc:`PostGIS <postgis_overview>` / `PostgreSQL <http://www.postgr
 
 
 pgRouting を実行する
-=================
+================================================================================
 
 * メニューから、 :menuselection:`Applications --> Accessories --> Terminal` window を開き、 ``pgrouting`` databaseへ接続してください。
 
@@ -88,7 +88,7 @@ pgRouting を実行する
 
 
 次のステップ
-==========
+================================================================================
 
 * **pgRouting ウェブサイト** - プロジェクトのウェブサイト http://www.pgrouting.org で、pgRouting についてさらに学ぶことができます。
 

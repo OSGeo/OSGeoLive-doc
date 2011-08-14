@@ -11,9 +11,9 @@
   :alt: project logo
   :align: right
 
-********************
+********************************************************************************
 GeoServer Quickstart 
-********************
+********************************************************************************
 
 GeoServer is a java application for serving maps (and data) for other
 clients to draw.
@@ -26,7 +26,7 @@ This Quick Start describes how to:
   * learn about clients that can display your maps
 
 Start |GS|
-==========
+================================================================================
 
 #. Select the "Start GeoServer" icon.
 #. The application will take a few moments to start up
@@ -36,7 +36,7 @@ Start |GS|
     :scale: 70 %
 
 First Views
-===========
+================================================================================
 
 When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
 
@@ -64,7 +64,7 @@ You can zoom in to the map in three ways:
 #. Experiment with this view and look at some of the other previews.  Once you are happy with looking at data you can move on to adding some new data.
 
 Loading Data
-============
+================================================================================
 
 .. note::
     You will not be able to carry out the following steps if you are
@@ -128,7 +128,7 @@ and you have published your first layer.
 You can follow the same step with the other layers in the directory by using the :guilabel:`Add a new resource` button on the layers page. Just select the natural earth store from the drop down box to get back to the store's page.
 
 Styling
--------
+--------------------------------------------------------------------------------
 
 To style a data set into a map layer |GS| uses an OGC standard called
 :doc:`Styled Layer Descriptors (SLD) <../standards/sld_overview>`. These 
@@ -227,7 +227,7 @@ button) and a copy of my file appears in the editor. If you click on the validat
 
 
 Adding the Style to the Layer
-------------------------------
+--------------------------------------------------------------------------------
 
 Click on the :guilabel:`Layers` link in the Menu on the left of the
 |GS| window. Click on the layer (e.g. *10m_land*), then select the 
@@ -261,7 +261,7 @@ Now go to the Layer Preview page to check that it looks good.
 
 
 Clients for WMS layers
-======================
+================================================================================
 
 A large variety of clients exist to make use of the :doc:`WMS <../standards/wms_overview>` layers you are serving
 from |GS|. This is a list of just some of them 

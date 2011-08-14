@@ -10,9 +10,9 @@
   :alt: project logo
   :align: right
 
-************************************
+********************************************************************************
 Guía de inicio rápido de QGIS Server
-************************************
+********************************************************************************
 
 QGIS Server ofrece un servicio web de mapas (WMS) basado en la librerías de la aplicación de escritorio de Quantum GIS (QGIS).
 
@@ -22,7 +22,7 @@ Esta Guía de Inicio Rápido describe como:
   * crear un nuevo proyecto de QGIS y abrir el WMS directamente en un navegador
 
 Iniciar el visor GeoExt
-=======================
+================================================================================
 
 OSGeo-Live contiene un ejemplo de visor web de mapas basado en el marco de desarrollo Javascript
 GeoExt y usando QGIS Server para representar el mapa.
@@ -37,7 +37,7 @@ Ahora se va a cambiar el estilo del mapa usando QGIS.
 
 
 Editar el proyecto de QGIS
-==========================
+================================================================================
 
 #. Clic en :menuselection:`Escritorio --> Desktop GIS --> Quantum GIS`.
 
@@ -66,7 +66,7 @@ Editar el proyecto de QGIS
 
 
 Crear un nuevo proyecto de QGIS
-===============================
+================================================================================
 
 #. Volver abrir QGIS
 
@@ -90,6 +90,6 @@ Crear un nuevo proyecto de QGIS
 
 
 ¿Qué sigue ahora?
-=================
+================================================================================
 
 Para aprender más sobre QGIS Server, puede seguir los artículos del blog de  `Linfiniti <http://linfiniti.com/2010/08/qgis-mapserver-a-wms-server-for-the-masses/>`_ o `3LIZ <http://www.3liz.com/blog/rldhont/index.php/2010/12/03/355-qgis-mapserver-an-wysiwyg-open-source-wms-server>`_.

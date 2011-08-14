@@ -10,15 +10,15 @@
   :align: right
   :target: http://www.opencpn.org
 
-*********************
+********************************************************************************
 OpenCPN Inicio Rápido 
-*********************
+********************************************************************************
 
 Ejecución
-=========
+================================================================================
 
 Configurando sus Cartas
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Antes de ejecutar OpenCPN en el LiveDVD se deberían activar los datos de ejemplo.
 Para hacer esto abrir un Terminal desde el menú de Aplicaciones principal y ejecutar
 "`opencpn_noaa_agreement.sh`". Se deberá dar la clave del usuario en el archivo en 
@@ -28,7 +28,7 @@ También se puede descargar cartas náuticas de Estados Unidos desde NOAA en
 http://www.charts.noaa.gov
 
 Configurando el GPS
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Si tiene un GPS conectado se querrá iniciar el servicio gpsd.
 Para hacer esto ejecutar:
 
@@ -49,7 +49,7 @@ las opciones no-probe. ( Por esta razón no se inicia gpsd automáticamente)
 
 
 Documentación
-=============
+================================================================================
 
 * La documentación esta disponible en el 
   `Menú de Ayuda <../../opencpn/doc/help_en_US.html>`_, u
@@ -59,7 +59,7 @@ Documentación
 
 
 Ver También
-===========
+================================================================================
 
 El tiempo actual y los datos de pronóstico pueden ser descargados
 y puestos sobre la carta usando el plugin GRIB. El `zyGrib software <../overview/zygrib_overview.html>`_

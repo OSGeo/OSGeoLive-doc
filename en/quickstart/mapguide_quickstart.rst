@@ -10,7 +10,7 @@
   :align: right 
 
 MapGuide Quick Start 
-====================
+================================================================================
 
 This guide describes how to:
 
@@ -19,7 +19,7 @@ This guide describes how to:
 * Extra note on 64-bit Ubuntu  
 
 Getting MapGuide Up and Running
--------------------------------
+--------------------------------------------------------------------------------
 
 1. Go to Desktop->Server, click icon Start MapGuide. This will start both MapGuide server and MapGuide Web server
 
@@ -36,7 +36,7 @@ Getting MapGuide Up and Running
   :align: center
 
 MapGuide Maestro
-----------------
+--------------------------------------------------------------------------------
 
 1. To start Maestro, go to Desktop->Server, click icon MapGuide Maestro, this will open Maestro login GUI, as shown in following screenshot. Login to http://localhost:8008/mapguide/mapagent/mapagent.fcgi with username "Administrator" and password "admin" 
 

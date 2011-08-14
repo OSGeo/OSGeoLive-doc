@@ -11,9 +11,9 @@
   :alt: logo del proyecto
   :align: right
 
-*****************************
+********************************************************************************
 Guía de inicio rápido de |GN|
-*****************************
+********************************************************************************
 
 |GN| opensource es un sistema basado en estándares para la gestión distribuida de información espacial.
 Está diseñado para facilitar el acceso a la información geoespacial procedente de diversos proveedores de datos, mediante el uso de sus metadatos descriptivos.
@@ -27,7 +27,7 @@ Además de cómo arrancar |GN|, esta guía de inicio rápido describe:
 La documentación detallada (en inglés) se encuentra en http://localhost:8880/geonetwork/docs/eng/users/, o haciendo clic el enlace 'Ayuda' de la página principal de |GN|.
 
 Arranque de |GN|
-----------------
+--------------------------------------------------------------------------------
 
 - Seleccione el icono "Start GeoNetwork".
 - La aplicación tardará unos momentos en arrancar.
@@ -54,7 +54,7 @@ Arranque de |GN|
 .. figure:: ../../images/screenshots/800x600/geonetwork-returntohomepage.png
 
 Búsquedas
----------
+--------------------------------------------------------------------------------
 
 Se dispone de múltiples mecanismos para la búsqueda de mapas y otros datos geográficos dentro del catálogo. Esta guía le presentará los métodos principales: búsqueda simple, búsqueda experta, y búsqueda por categoría. Sea cual sea el método de búsqueda elegido, recuerde que los resultados mostrados dependerán de los privilegios asignados a su usuario y al grupo de trabajo al que pertenezca (más detalles al final de esta guía).
 
@@ -62,7 +62,7 @@ Se dispone de múltiples mecanismos para la búsqueda de mapas y otros datos geo
 	El término genérico *datos* se utiliza para referirse a todo tipo de conjuntos de datos, mapas, tablas, documentos, etc. Se refiere pues a todo aquello susceptible de ser descrito en un registro de metadatos y de estar ligado a él.
 
 Búsqueda simple
----------------
+--------------------------------------------------------------------------------
 
 La búsqueda simple permite buscar texto en cualquier campo del registro, como por ejemplo en las palabras clave, en los metadatos textuales o en la localización geográfica.
 
@@ -103,7 +103,7 @@ Clique el botón *Buscar* para mostrar los resultados.
   *El botón de búsqueda*
 
 Búsqueda por categorías
------------------------
+--------------------------------------------------------------------------------
 
 Un método alternativo para realizar búsquedas en la base de datos de |GN| desde la página principal es la búsqueda por **Categoría**. Se mostrará al usuario una lista de las categorías generales en las que se clasifican los datos: **Aplicaciones**, **Audio/Vídeo**, **Casos de Uso y buenas prácticas**, **Conjuntos de datos**, **Directorios**, **Fotografías**, **Mapas & gráficos**, **Otros recursos de información**, **Recursos interactivos** y **Resúmenes de conferencias**.
 
@@ -114,7 +114,7 @@ Para mostrar sólo los mapas, seleccione **Mapas & gráficos**. Se mostrará la 
   *Búsqueda por Categoría*
   
 Búsqueda Experta
-----------------
+--------------------------------------------------------------------------------
 
 La opción de búsqueda experta funciona de forma similar a la búsqueda simple, pero permite ser más específico en los criterios de búsqueda, al proporcionar nuevos criterios de búsqueda: *¿QUÉ?, ¿PAÍS/REGIÓN?, ¿CUÁNDO?* 
 
@@ -187,7 +187,7 @@ Por último, puede elegir en **Opciones** el número de elementos por página de
   *Opciones adicionales de la búsqueda experta*
 
 Resultados de la búsqueda
--------------------------
+--------------------------------------------------------------------------------
 
 El resultado de una búsqueda consiste una lista de los registros de metadatos que cumplen las condiciones indicadas. Para cada registro, la página de resultados muestra el título, un resumen y la lista de palabras clave. Dependiendo de los privilegios que hayan sido otorgados, pueden consultarse hasta cuatro secciones de metadatos, tal como se muestra a continuación.
 
@@ -220,7 +220,7 @@ El resultado de una búsqueda consiste una lista de los registros de metadatos q
         *Vista previa grande*
 
 Privilegios, roles y grupos de usuarios
----------------------------------------
+--------------------------------------------------------------------------------
 
 |GN| utiliza un sistema de *Privilegios*, *Roles* y *Grupos de usuarios*.
 
@@ -239,6 +239,6 @@ Para identificarse, vaya a la página principal y escriba su nombre de usuario y
 **Grupos de usuarios.** Cada usuario registrado pertenecerá a un grupo de trabajo concreto, y será capaz de ver los datos vinculados a ese grupo.
 
 Más información
----------------
+--------------------------------------------------------------------------------
 
 Clique en el enlace 'Ayuda' en la cabecera de la página principal de |GN|, o acceda directamente a la documentación siguiendo este enlace: http://localhost:8880/geonetwork/docs/eng/users/

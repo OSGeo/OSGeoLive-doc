@@ -9,9 +9,9 @@
   :alt: project logo
   :align: right
 
-*********************
+********************************************************************************
 SpatiaLite Quickstart 
-*********************
+********************************************************************************
 
 SpatiaLite is an SQLite database engine with spatial functions added. 
 
@@ -19,7 +19,7 @@ This Quick Start describes how to open a database with the command line and the 
 
 
 Running spatialite
-==================
+================================================================================
 
 * Open a console and open a sample database with spatialite::
 
@@ -28,14 +28,14 @@ Running spatialite
 
 
 Create a new database with spatialite-gui
-=========================================
+================================================================================
 
 * Start spatialite-gui
 * Select :menuselection:`File --> Creating a new SQLite DB`
 
 
 Running spatialite-gis
-======================
+================================================================================
 
 * Run spatialite-gis 
 * Connect to /home/user/data/spatialite/regions.sqlite
@@ -44,7 +44,7 @@ You should see a set of Airports in Italy
 
 
 Things to Try
-=============
+================================================================================
 
 Here are some additional challenges for you to try:
 
@@ -52,7 +52,7 @@ Here are some additional challenges for you to try:
 * Open and edit SpatiaLite layers in QGIS
 
 What Next?
-==========
+================================================================================
 
 To learn more about SpatiaLite, a starting point is the `Documentation and tutorials`_ page.
 

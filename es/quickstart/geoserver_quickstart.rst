@@ -14,9 +14,9 @@
   :alt: project logo
   :align: right
 
-********************
+********************************************************************************
 GeoServer Quickstart 
-********************
+********************************************************************************
 
 GeoServer es un servidor de mapas (y datos) para su utilización en aplicaciones 
 cliente, escrito en java.
@@ -29,7 +29,7 @@ Esta guía de inicio rápido describe como:
   * aprender acerca de los clientes que pueden desplegar sus mapas
 
 Iniciar |GS|
-============
+================================================================================
 
 #. Seleccione el ícono "Start GeoServer"
 #. La aplicación tardará unos segundos en iniciar
@@ -41,7 +41,7 @@ Iniciar |GS|
 
 
 Primeras Vistas
-===============
+================================================================================
 
 Cuando abra por primera vez la pagina de |GS| vera la pantalla de arriba, 
 primero necesita loguearse usando el usuario admin y la password geoserver.
@@ -78,7 +78,7 @@ Puede hacer zoom en el mapa de tres formas:
 #. Experimente con esta vista y vea tambien la previsualización de las otras capas. Cuando se sienta cómodo visualizando datos puede continuar agregando nuevos datos.
 
 Cargando Datos
-==============
+================================================================================
 
 .. note::
     No podrá realizar los siguientes pasos si esta ejecutando
@@ -153,7 +153,7 @@ presione :guilabel:`Guardar` y habrá publicado su primera capa.
     veremos como producir un estilo mejorado.
     
 Aplicando estilos
------------------
+--------------------------------------------------------------------------------
 
 Para aplicar un estilo a un conjunto de datos de una capa, |GS| usa un estándar 
 OGC llamado Descriptores de capas estilizadas - Styled Layer Descriptors (SLD). 
@@ -254,7 +254,7 @@ link para subir el archivo (junto al boton de explorar) y una copia de esos arch
 
 
 Agregando el estilo a la capa
------------------------------
+--------------------------------------------------------------------------------
 
 Haga click en el enlace :guilabel:`Capas` en el menu de la izquierda de la ventana
 de |GS|. Haga click en la capa (por ejemplo: *10m_land*), seleccione la pestaña
@@ -292,7 +292,7 @@ en :file:`/usr/local/share/geoserver`.
 
 
 Clientes para capas WMS
-=======================
+================================================================================
 
 Existe una gran variedad de clientes que pueden utilizar las capas WMS que está
 sirviendo desde |GS|. Esta es una lista de algunos de ellos:

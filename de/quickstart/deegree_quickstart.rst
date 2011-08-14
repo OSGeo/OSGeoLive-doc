@@ -10,13 +10,13 @@
   :align: right
   :target: http://deegree.org/
 
-********************
+********************************************************************************
 deegree 3 Quickstart 
-********************
+********************************************************************************
 
 
 Projekt Beschreibung
-====================
+================================================================================
 
 deegree ist ein Open Source Projekt zur Bereitstellung von Geodaten-Komponenten
 für die Java-Plattform.
@@ -38,7 +38,7 @@ Diese Quickstart-Anleitung beschreibt wie man...
 
 
 Über deegree 3
-==============
+================================================================================
 
 deegree 3 ist die neue Generation des deegree Java-Framework für GIS-Anwendungen
 und OGC-Service-Implementierungen. Es kann für den Aufbau webbasierter
@@ -46,14 +46,14 @@ Geodateninfrastrukturen (GDI) verwendet werden.
 
 
 deegree 3 starten
-=================
+================================================================================
 
 Wählen Sie 'Start deegree' aus dem Startmenü.
 Die Anwendung benötigt einen Moment um zu starten.
 
 
 deegree 3 services console
-==========================
+================================================================================
 
 Wenn Sie deegree zum ersten mal starten, öffnet sich der Internetbrowser Firefox.
 Bitte warten Sie, bis die deegree 3 services console angezeigt wird. 
@@ -64,7 +64,7 @@ um Zugang zur deegree 3 services console zu erhalten.
 
 
 deegree 3 workspaces
-====================
+================================================================================
 
 deegree 3 hat ein einheitliches Konfigurationskonzept, das von allen deegree 3
 basierten Anwendungen (Web Services, Web-Anwendungen, Desktop-Anwendungen, 
@@ -82,7 +82,7 @@ importieren können (Internetzugang ist erforderlich).
 
 
 deegree 3 workspaces auf der OSGeo-Live GIS Disc
-================================================
+================================================================================
 
   * deegree-workspace-utah
 
@@ -125,7 +125,7 @@ besuchen sie bitte das deegree-wiki.
 
 
 Wie geht es weiter?
-===================
+================================================================================
 
 Dies war nur ein kurzer Überblick über die Funktionen von deegree. Weitere 
 Informationen erhalten Sie über das deegree-Wiki, die Online-Demo und die

@@ -10,12 +10,12 @@
   :align: right
   :target: http://52north.org/security
   
-***********************
+********************************************************************************
 52°North WSS Quickstart 
-***********************
+********************************************************************************
 
 Getting Started
-===============
+================================================================================
 
 The 52°North WSS is a web service, that allows policy-based access to OGC Web Services acting as a proxy.
 
@@ -47,16 +47,16 @@ Basic Authentication, e.g. uDig, and use it as you would with any other WMS.
 
 
 Additional Information
-======================
+================================================================================
 
 Where are the users defined?
-----------------------------
+--------------------------------------------------------------------------------
 ``/var/lib/tomcat6/webapps/wss/WEB-INF/classes/users.xml``
 
 Where are the permissions defined?
-----------------------------------
+--------------------------------------------------------------------------------
 ``/var/lib/tomcat6/webapps/wss/WEB-INF/classes/permissions.xml``
 
 Where do I get further information?
------------------------------------
+--------------------------------------------------------------------------------
 Visit the 52North `User Guide <http://52north.org/communities/security/general/user_guide_intro.html>`_

@@ -10,12 +10,12 @@
   :align: right
   :target: http://52north.org/sos
   
-***********************
+********************************************************************************
 52°North SOS Quickstart 
-***********************
+********************************************************************************
 
 Getting Started
-===============
+================================================================================
 
 The 52°North SOS is a web service, that allows you to provide and collect spatial sensor data (including metadata and measurements/observations).
 
@@ -45,7 +45,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
 5) In Order to build your own requests you will need the `capabilities of the 52°North SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Using this input, you can edit the provided requests by the test client. Just select them from the drop down menu.
 
 Additional Information
-======================
+================================================================================
 
 * To learn more about 52°North SOS and/or 52°North, potential starting points are:
 

@@ -14,7 +14,7 @@
 
 
 Mapfish Quickstart 
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapfish ist ein flexibles Framework um interaktive Internet-Kartenanwendungen zu erstellen. Das Projekt legt besonderen Wert auf hohe Produktivität und hohe Entwicklungsqualität.
 
@@ -26,14 +26,14 @@ Dieser Quickstart beschriebt wie
 
 
 Beispiel Anwendung starten
-==========================
+================================================================================
 
 Um die Beispiel-Anwendung zu starten klicken Sie auf den Mapfish-Link auf dem Desktop. Nun öffnet sich die Anwendung in einem neuen FireFox Fenster. Die Anwendung wird über das Modul mod_wsgi bereitgestellt (http://localhost/mapfishsample/osgeolive/wsgi/).
 
 Die Demo hat folgende Funktionen: abfragen, editieren, suchen und drucken. Um das Mapfish REST Protokoll bei der Arbeit zu sehen, können Sie den Firebug Debugger öffnen. Im Bereich request/responses werden die Daten dargestellt die zwischen Browser und dem Mapfish Web-Services ausgetauscht werden.
 
 Mapfish installieren
-====================
+================================================================================
 
 Um Mapfish zu installieren muss das Download-Script heruntergeladen und im Terminal ausgeführt werden::
 
@@ -62,7 +62,7 @@ Das oben stehende Kommando sollte folgende Ausgabe::
 Das Framework wurde erfolgreich installiert. Im nächsten Abschnitt folgt nun die Beschreibung wie eine Mapfish Anwendung erstellt werden kann. 
 
 Mapfish Anwendung erstellen
-===========================
+================================================================================
 
 Nach dem die virtuelle Umgebung aktiviert wurde, kann nun die erste Mapfish Anwendung erstellt werden. Diese trägt zum Beispiel den Namen MyMapFishApp::
 

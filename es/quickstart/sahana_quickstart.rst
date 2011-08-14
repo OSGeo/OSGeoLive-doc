@@ -10,13 +10,13 @@
   :align: right
   :target: http://www.sahanafoundation.org
 
-*****************
+********************************************************************************
 Guía de inicio rápido de Sahana
-*****************
+********************************************************************************
 
 	
 Introducción
-===============
+================================================================================
 
 Sahana Eden ya está instalado y configurado al iniciar OSGeo-Live. Para acceder a Sahana Eden, `haga clic aquí <http://127.0.0.1:8000/eden>`_, o pulse en el menú Geoespatial, a continuación Crisis Management y luego Sahana Eden. De forma predeterminada, tendrá derechos de sólo lectura para acceder a los datos. Si desea crear nuevos registros o modificar los registros existentes, debe iniciar una sesión como un usuario - utilice las siguientes credenciales para comenzar.
 
@@ -29,7 +29,7 @@ Encontrará que ya se ha realizado la configuración para acceder a los datos de
 
 
 Desarrollo
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana Eden siempre está buscando más desarrolladores para participar y contribuir a nuestro proyecto. La plataforma de desarrollo principal es el lenguaje de programación `Python <http://www.python.org/>`_ y `web2py <http://www.web2py.com/>`_ Enterprise Web Framework. Además, estamos buscando colaboradores con habilidades en cartografía, jquery y javascript.
 
@@ -38,7 +38,7 @@ Sahana Eden siempre está buscando más desarrolladores para participar y contri
 
 
 Lea más
-===============
+================================================================================
 
 * `Web del proyecto Sahana Eden <http://eden.sahanafoundation.org/>`_
 * `Web de Sahana Software Foundation <http://www.sahanafoundation.org/>`_

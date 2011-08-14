@@ -6,9 +6,9 @@
 
 .. _osgeolive-install-quickstart:
  
-********************************************
+********************************************************************************
 OSGeo-Live auf einer Festplatte installieren
-********************************************
+********************************************************************************
 
 OSGeo-Live kann auf die gleiche Art auf Ihrer Festplatte installiert werden,
 wie auch die Ubuntu Distribution installiert wird.
@@ -17,12 +17,12 @@ Dies kann auch innerhalb einer virtuellen Maschine (VM) passieren, um eine perma
 OSGeo-Live VM aus einem DVD oder ISO Abbild zu erzeugen.
 
 Systemvoraussetzungen
----------------------
+--------------------------------------------------------------------------------
 
 * |osgeo-live-hdspace| freier Festplattenspeicher
 
 Install OSGeo-Live
-------------------
+--------------------------------------------------------------------------------
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
@@ -76,7 +76,7 @@ Holen Sie sich einen Kaffee, während die Installation durchgeführt wird.
 Das war es schon.
 
 See Also:
----------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`

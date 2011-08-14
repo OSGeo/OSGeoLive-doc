@@ -6,21 +6,21 @@
 
 .. _osgeolive-install-quickstart:
  
-**************************************
+********************************************************************************
 Zainstaluj OSGeo-Live na twardym dysku
-**************************************
+********************************************************************************
 
 OSGeo-Live może być zainstalowane na twardym dysku komputera, w taki sam sposób, jak jest instalowany system operacyjny Ubuntu.
 
 Ten proces może być również uruchomiony wewnątrz wirtualnej maszyny, aby z DVD lub obrazu ISO, utworzyć wirtualną maszynę OSGeo-Live.
 
 Wymagania systemowe
--------------------
+--------------------------------------------------------------------------------
 
 * |osgeo-live-hdspace| miejsca na twardym dysku
 
 Instalowanie OSGeo-Live
------------------------
+--------------------------------------------------------------------------------
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
@@ -73,7 +73,7 @@ Idź na kawę, póki trwa proces instalacji.
 To wszystko.
 
 Zobacz również:
----------------
+--------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualbox_quickstart`

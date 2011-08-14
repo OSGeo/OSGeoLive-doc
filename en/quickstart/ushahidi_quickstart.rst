@@ -10,14 +10,14 @@
   :align: right 
 
 Ushahidi Quick Start 
-====================
+================================================================================
 
 This guide describes how to:
 
 * Getting Ushahidi Up and Running 
 
 Getting Ushahidi Up and Running
--------------------------------
+--------------------------------------------------------------------------------
 
 1. Starting Ushahidi via the desktop icon or menu item opens the web 
    browser and brings you to the Installation page. An Ushahidi site is 

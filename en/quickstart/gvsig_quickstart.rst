@@ -6,12 +6,12 @@
    :scale: 50 
    :align: right
 
-****************
+********************************************************************************
 gvSIG Quickstart 
-****************
+********************************************************************************
 
 Project description
-===================
+================================================================================
 
 "gvSIG is a Geographic Information System (GIS), that is, a desktop application 
 designed for capturing, storing, handling, analyzing and deploying any kind of 
@@ -37,7 +37,7 @@ This quickstart describes how to...
 * Save the current project or exit gvSIG. 
 
 Start gvSIG and create a view
-=============================
+================================================================================
 
 Select gvSIG from the application menu. The application usually takes about
 a minute to startup.
@@ -50,10 +50,10 @@ a minute to startup.
    :scale: 55 
 
 Define the projection of your view
-==================================
+================================================================================
 
 Open the view properties dialog
--------------------------------
+--------------------------------------------------------------------------------
 
 #. Select the newly created view. By default it is titled ``Untitled - 0`` but
    may be ``Untitled - 1`` if you created then deleted a view already. 
@@ -65,7 +65,7 @@ Open the view properties dialog
    :scale: 55 
 
 Defining your Coordinate Reference System
------------------------------------------
+--------------------------------------------------------------------------------
 
 #. Using the dropdown list for 'Type', select EPSG.
 #. Enter the EPSG code for the Coordinate Reference System. For this example 
@@ -78,7 +78,7 @@ Defining your Coordinate Reference System
    :scale: 55 
 
 Saving the view properties
---------------------------
+--------------------------------------------------------------------------------
 
 #. Note that the EPSG code is now 4326 and that the map units have changed to 
    degrees.
@@ -88,7 +88,7 @@ Saving the view properties
    :scale: 55 
 
 Open the view
--------------
+--------------------------------------------------------------------------------
    
 #. Select the newly created view.
 #. Click on the [Open] button to open the *View*.
@@ -105,10 +105,10 @@ Open the view
    :scale: 55 
 
 The View - adding raster and vector data
-========================================
+================================================================================
 
 Open the add layer dialog
--------------------------
+--------------------------------------------------------------------------------
    
 #. Click on the 'Add layer' icon in the main toolbar to open the **Add layer** dialog.
 #. Select [Add] in the **Add layer** dialog. By default the first tab is *File* 
@@ -119,7 +119,7 @@ Open the add layer dialog
    :scale: 55 
 
 Selecting a raster file
------------------------
+--------------------------------------------------------------------------------
    
 #. Select *gvSIG Raster Driver* from the file type dropdown list. By default 
    the shapefile driver is used so the directory may appear empty. 
@@ -130,7 +130,7 @@ Selecting a raster file
    :scale: 55 
 
 Selecting vector files
-----------------------
+--------------------------------------------------------------------------------
   
 #. The **Add layer** dialog now has the raster file listed.
 #. Select the [Add] button to add some vector files. The **Open** files dialog 
@@ -148,10 +148,10 @@ Selecting vector files
    :scale: 55 
 
 The View - basic navigation
-===========================
+================================================================================
 
 Zoom into a region
-------------------
+--------------------------------------------------------------------------------
 
 Once back at the main view you'll see the vector files super-imposed over 
 the raster file. The colours shown in this screen shot may differ from yours 
@@ -168,7 +168,7 @@ depending on the user preferences.
    :scale: 55 
 
 Fine-scale navigation
----------------------
+--------------------------------------------------------------------------------
    
 The view will automatically change to show the area within the selected bounding box. 
 
@@ -181,10 +181,10 @@ The view will automatically change to show the area within the selected bounding
    :scale: 55 
 
 The View - changing how layers look
-===================================
+================================================================================
 
 Making a polygon transparent
-----------------------------
+--------------------------------------------------------------------------------
    
 #. Select the ``10m_admin_1_states_provinces.shp`` layer using the 
    left-mouse-button and click again with the right-mouse-button.
@@ -195,7 +195,7 @@ Making a polygon transparent
    :scale: 55 
 
 Changing the symbology of a vector layer
-----------------------------------------
+--------------------------------------------------------------------------------
    
 #. Select the *Symbols* tab at the top of the **Layers properties** dialog.
 #. Select [Choose symbol] button so the **Symbol selector** dialog appears.
@@ -206,7 +206,7 @@ Changing the symbology of a vector layer
    :scale: 55 
 
 Changing the labelling of a vector layer
-----------------------------------------
+--------------------------------------------------------------------------------
    
 #. Select the *Labelling* tab at the top of the **Layers properties** dialog.
 #. Change the text attributes to those shown on the image, then click on the 
@@ -216,7 +216,7 @@ Changing the labelling of a vector layer
    :scale: 55 
 
 The result
-----------
+--------------------------------------------------------------------------------
    
 Note that this is a very basic view showing a point, a line and a polygon vector 
 file superimposed over a raster file. It is just as easy to have an aerial 
@@ -227,7 +227,7 @@ to show other vector data stored in different formats.
    :scale: 55 
 
 A user exercise - change the symbology and labelling of the point and line layers
-----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
    
 Following the previous few steps change the symbols, colour and labelling 
 of the rivers and towns to generally match the following screen shot.  
@@ -236,10 +236,10 @@ of the rivers and towns to generally match the following screen shot.
    :scale: 55 
 
 Simple analysis - select towns within a region
-==============================================
+================================================================================
 
 Selecting the region
---------------------
+--------------------------------------------------------------------------------
    
 #. Select the ``10m_admin_1_states_provinces.shp`` layer using the 
    left-mouse-button.
@@ -251,7 +251,7 @@ Selecting the region
    :scale: 55 
 
 Selecting the towns contained within a region
----------------------------------------------
+--------------------------------------------------------------------------------
    
 #. Select the ``10m_populated_places_simple.shp`` layer using the left-mouse-button.
 #. Select ``View > Selection > Selection by layer`` to open the **Selection by Layer** dialog
@@ -265,7 +265,7 @@ Selecting the towns contained within a region
    :scale: 55 
 
 Unselect the polygon so you can see what has happened
------------------------------------------------------
+--------------------------------------------------------------------------------
    
 #. Select the ``10m_admin_1_states_provinces.shp`` layer using the left-mouse-button.
 #. Select the 'Clear selection' icon in the main toolbar.
@@ -275,7 +275,7 @@ Unselect the polygon so you can see what has happened
    :scale: 55 
 
 Export the selected towns to a new shapefile
---------------------------------------------
+--------------------------------------------------------------------------------
    
 #. Select the ``10m_populated_places_simple.shp`` layer using the left-mouse-button.
 #. Select ``Layer > Export to... > SHP`` to start the export.
@@ -293,7 +293,7 @@ Export the selected towns to a new shapefile
    :scale: 55 
 
 Showing only towns within a region
-----------------------------------
+--------------------------------------------------------------------------------
 
 #. Once you return to the view, uncheck ``10m_populated_places_simple.shp`` in 
    the Table-of-Contents.
@@ -307,10 +307,10 @@ Showing only towns within a region
    :scale: 55 
    
 How to create a map
-===================
+================================================================================
 
 Create a new map and open it
-----------------------------
+--------------------------------------------------------------------------------
 
 #. Select the *Map* document type in the **Project Manager**.
 #. Click on the [New] button to create a map.
@@ -348,7 +348,7 @@ Insert a view with a grid/graticule
    :scale: 55 
 
 What else can you do to a map?
-------------------------------
+--------------------------------------------------------------------------------
    
 #. Select ``Map > Properties`` from the main menu to open the 
    **Map Properties** dialog box. Unselect the *Visualise Grid* checkbox then 
@@ -365,7 +365,7 @@ What else can you do to a map?
    :scale: 55 
 
 Saving your project or exiting gvSIG
-====================================
+================================================================================
    
 #. Projects can be saved for use later by using the ``File > Save as...`` 
    menu option, or
@@ -375,7 +375,7 @@ Saving your project or exiting gvSIG
    :scale: 55 
 
 Where to from here...
-=====================
+================================================================================
 
 Some English help and tutorials are available on the 
 `gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ website. 
