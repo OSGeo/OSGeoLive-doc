@@ -148,7 +148,7 @@ name:
   demo=# CREATE TABLE cities ( id int4, name varchar(50) );
 
 Next we add a geometry column to store the city locations.
- Conventionally this is called
+Conventionally this is called
 ``the_geom``. This tells PostGIS what kind of geometry
 each feature has (points, lines, polygons etc), how many dimensions
 (in this case two), and the spatial reference

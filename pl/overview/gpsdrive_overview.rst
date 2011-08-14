@@ -38,7 +38,7 @@ Główne funkcje
 * Instrukcje werbalne za pomocą eSpeak
 * Dostosowanie dashboard oraz GUI do potrzeb użytkownika
 * Obsługa śladów i traków GPX, wiele opcji przechowywania punktów trasy, włączając 
-pliki tekstowe kompatybilne z SQLite i GpsBabel
+  pliki tekstowe kompatybilne z SQLite i GpsBabel
 * Wyszukiwanie najbliższych punktów trasy POI w zadanym promieniu
 * Planowanie trasy
 * Dostęp do serwera przechowującego pozycje twoich znajomych 

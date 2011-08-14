@@ -50,7 +50,7 @@ OssimPlanet
 * Επιλέξτε :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
 
 * Επιλέξτε :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
-και θα δείτε την σκηνή στην περιοχή της εικόνας
+  και θα δείτε την σκηνή στην περιοχή της εικόνας
 
 * Πλοηγηθείτε στην σκηνή αυτή.
 

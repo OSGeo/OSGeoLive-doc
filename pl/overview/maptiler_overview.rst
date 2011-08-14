@@ -40,13 +40,13 @@ Główne funkcje
 * Wsparcie dla popularnych API Javascript: OpenLayers, Google Maps API
 * Nie jest potrzebna żadna dodatkowa instalacja oprogramowania serwerowego
 * Hosting prawie wszędzie: przechowywanie w chmurach, takie jak na Amazon S3 
-lub jakikolwiek tani hosting stron z dostępem FTP
+  lub jakikolwiek tani hosting stron z dostępem FTP
 * Łatwe łączenie z warstwami komercyjnymi (Google, Bing, Yahoo) lub OpenStreetMap
 * Kafle zgodne są ze specyfikacją TMS OSGEO (Tile Map Service Specification)
 * Zdolność do przetwarzania danych rastrowych w wielu formatach: TIFF/GeoTIFF, MrSID, 
-ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG itd...
+  ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG itd...
 * Dostępne wsparcie komercyjne oraz równoległe renderowanie na wielordzeniowych procesorach 
-lub na klastrze Amazon EC2 
+  lub na klastrze Amazon EC2 
 
 Szczegóły
 --------------------------------------------------------------------------------

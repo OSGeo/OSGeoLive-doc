@@ -50,7 +50,7 @@ OssimPlanet
 * Go to :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
 
 * Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
-you should see the scene zoom to the image's location 
+  you should see the scene zoom to the image's location 
 
 * Navigate the scene.
 

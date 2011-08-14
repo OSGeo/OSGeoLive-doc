@@ -52,47 +52,47 @@ gvSIG es conocido por:
 Características principales
 --------------------------------------------------------------------------------
 
-- Proporciona las herramientas SIG más comunes como carga de datos, navegación,
+* Proporciona las herramientas SIG más comunes como carga de datos, navegación,
   consulta de información geográfica y alfanumérica, medida de distancias y áreas,
   generación de mapas temáticos, edición de leyenda, etiquetado, selección de
   geometrías mediante diversos métodos, tablas alfanuméricas con estadísticas,
   ordenación, relación entre tablas, edición de diseños de mapa, herramientas
   de geoprocesamiento, CAD, procesado *raster*, etc.
   
-- Interoperable: es posible trabajarcon los formatos de datos más comunes:
+* Interoperable: es posible trabajarcon los formatos de datos más comunes:
 
   * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
   * vectorial & CAD: shapefile, GML, KML, DGN, DXF, DWG
   * bases de datos geográficas: PostGIS, MySQL, Oracle, ArcSDE
   * datos remotos: ECWP, ArcIMS, estándares OGC
 
-- Servicios de descubrimiento para la localización de recursos geográficos
+* Servicios de descubrimiento para la localización de recursos geográficos
   en una IDE (servicios de catálogo y nomenclátor)
   
   * Catálogo: Z3950, SRW, CSW (ISO/19115 y ebRIM)
   * Nomenclátor: ADL, WFS, WFS-G
 
-- Más de 290 algoritmos de geoprocesamiento a través de la biblioteca SEXTANTE 
+* Más de 290 algoritmos de geoprocesamiento a través de la biblioteca SEXTANTE 
   y su integración con GRASS
 
-- Herramientas CAD integradas:
+* Herramientas CAD integradas:
 
-  - datos vectoriales: modificar, crear y borrar elementos
-  - consola de entrada de comandos al estilo de las utilizadas en software CAD
-  - herramientas como ayuda, cuadrícula, pila de comandos, selecciones complejas
+  * datos vectoriales: modificar, crear y borrar elementos
+  * consola de entrada de comandos al estilo de las utilizadas en software CAD
+  * herramientas como ayuda, cuadrícula, pila de comandos, selecciones complejas
     de elementos
-  - herramientas para insertar elementos como puntos, polígonos, líneas, elípses, etc.
-  - herramientas para rotar, escalar, simetría, etc.
+  * herramientas para insertar elementos como puntos, polígonos, líneas, elípses, etc.
+  * herramientas para rotar, escalar, simetría, etc.
   
-- Herramientas *raster* integradas:
+* Herramientas *raster* integradas:
 
-  - georeferenciación y reproyección
-  - exportación y recorte
-  - tablas de color, histogramas
-  - filtros, vectorización
-  - *overviews* y gestión de regiones de interés (ROI)
+  * georeferenciación y reproyección
+  * exportación y recorte
+  * tablas de color, histogramas
+  * filtros, vectorización
+  * *overviews* y gestión de regiones de interés (ROI)
 
-- Soporte para *scripting*
+* Soporte para *scripting*
 * Potente herramienta de reproyección basada en PROJ4
 
 Estándares implementados
