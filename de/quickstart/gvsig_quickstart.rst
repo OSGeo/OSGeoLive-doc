@@ -206,7 +206,7 @@ Beachten Sie dass dies eine sehr einfache Ansicht ist, die nur jeweils eine Punk
    :scale: 55 
 
 Eine Übung für Anwender - Ändern sie die Symbole und die Beschriftung der Punkt- und Linienlayer
---------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
    
 Ändern Sie Symbole, Farbe and Beschriftung für Flüsse und Städte so dass sie aussehen wie im folgenden Screenshot. Gehen Sie dazu den bisher beschriebenen Schritten entsprechend vor.
 

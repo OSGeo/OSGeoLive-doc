@@ -227,7 +227,7 @@ to show other vector data stored in different formats.
    :scale: 55 
 
 A user exercise - change the symbology and labelling of the point and line layers
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
    
 Following the previous few steps change the symbols, colour and labelling 
 of the rivers and towns to generally match the following screen shot.  

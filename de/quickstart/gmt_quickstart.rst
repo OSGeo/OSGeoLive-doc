@@ -24,11 +24,17 @@ Beispielskripte (inklusive weltweiter Küstenlinien in niedriger Auflösung)
 sowie ein Tutorial mit zugerhörigen Datensätzen enthalten.
 
 Die Dokumentation als HTML und PDF ist unter 
+
   `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
+
 die Beispiele sind im Verzeichnis 
+
   `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_ und
+
 die Daten für das Tutorial sind unter 
+
   `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_
+
 abgelegt.
 
 Die Daten der Küstenlinien mit geringer Genauigkeit finden sie unter :file:`/usr/share/gmt/coast/`.
