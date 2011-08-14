@@ -14,7 +14,7 @@
 pgRouting Quickstart
 ********************************************************************************
 
-pgRouting erweitert eine :doc:`PostGIS <postgis_overview>`/` PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
+pgRouting erweitert eine :doc:`PostGIS <../overview/postgis_overview>`/` PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
 
 Diese Quickstart Anleitung beschreibt, wie man eine Routingdatenbank öffnet und darauf einfache "Kürzeste-Wege" Berechnungen von der Kommandozeile aus durchführt.
 

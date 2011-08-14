@@ -14,7 +14,7 @@
 Guía de inicio rápido para pgRouting 
 ********************************************************************************
 
-pgRouting es una extensión de :doc:`PostGIS <postgis_overview>` la cual añade funcionalidades de ruteo a :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_.
+pgRouting es una extensión de :doc:`PostGIS <../overview/postgis_overview>` la cual añade funcionalidades de ruteo a :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_.
 
 Esta guía de inicio rápido describe cómo abrir una base de datos desde la línea de comandos y ejecutar una consulta de camino más corto con unos datos de prueba.
 
