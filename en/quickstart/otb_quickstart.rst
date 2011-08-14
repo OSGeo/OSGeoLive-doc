@@ -90,7 +90,7 @@ What Next?
   processing. 
   
   * `OTBSoftwareGuide.pdf <http://orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
-  * `Online html version <http://orfeo-toolbox.org/SoftwareGuide/>`
+  * `Online html version <http://orfeo-toolbox.org/SoftwareGuide/>`_
 
 * OTB CookBook
 
@@ -99,7 +99,7 @@ What Next?
   tour of of OTB-Applications and Monteverdi, followed by a set of
   recipes to perform usual remote sensing tasks with both tools. 
   
-  * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`
+  * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
 
 * OTB Tutorials
 
