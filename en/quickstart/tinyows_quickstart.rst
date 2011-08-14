@@ -46,6 +46,10 @@ Display a WFS layer with QGIS
 
 #. Zoom in
 
+#. Select `Plugins -> Manage Plugins -> WFS Plugin -> OK`
+
+   * Enable the WFS Layer plugin.
+
 #. Click :menuselection:`Layer --> Add WFS Layer...`.
 
    * Now we add a WFS layer based on the same table
@@ -66,9 +70,8 @@ Display a WFS layer with QGIS
 
    * WFS layer is now displayed:
 
-     .. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
-        :scale: 80 %
-
+.. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
+  :scale: 80 %
 
 Edit data with WFS-T
 ====================
@@ -77,7 +80,7 @@ Edit data with WFS-T
 
 #. Click :menuselection:`Edit --> Node Tool`.
 
-#. Move a vertex (cross) to an other position
+#. Move a vertex (cross) to another position
 
 #. Click :menuselection:`Layer --> Save edits`.
 
