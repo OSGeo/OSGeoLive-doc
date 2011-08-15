@@ -1,8 +1,7 @@
-:Author: Johan Van de Wauw
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
-:Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _52nSOS-overview:
 
@@ -19,7 +18,7 @@
 Διαδικτυακή υπηρεσία
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Η 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
+Η 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`_ 
 συγκεντρώνει εγγραφές από ενεργούς, επίγειους και τηλεπισκοπικούς δέκτες. Η υπηρεσία προσφέρει μια διεπαφή ώστε να κάνει τους δέκτες και τα δεδομένα αυτών διαθέσιμα μέσω ενός διαλειτουργικού διαδικτυακού περιβάλλοντος. Τέσσερα προφίλ ορίζονται μέσα από τα πρότυπα του SOS: core, transactional, enhanced, and entire. Η τρέχουσα έκδοση (52N-SOS-3.1.1) υλοποιεί τα προφίλ core, transactional, και τμήματα του enhanced προφίλ που αποτελούν τις απαιτούμενες διεργασίες. Η τρέχουσα έκδοση υλοποιεί την τελευταία έκδοση του σχήματος (1.0.0).
 
 
@@ -70,6 +69,6 @@
 Γρήγορη Εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/52nSOS_quickstart.html>`_
+* :doc:`Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/52nSOS_quickstart>`_
 
 

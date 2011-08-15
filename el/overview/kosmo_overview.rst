@@ -1,6 +1,8 @@
 :Author: Sergio Baños Calvo
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
 
 .. _kosmo-overview:
 
@@ -45,7 +47,7 @@ Kosmo Desktop
 * Τοπολογική επικαιροποίηση και εργαλεία καθαρισμού (intersect/eliminate/clean)
 * Πρόσθετο γεωχωρικών επεξεργασιών: buffer/dissolve/merge/clip/intersection/spatial join/difference
 * Γεωαναφορά εικόνων
-* Ενσωμάτωση Sextante 0.5
+* Ενσωμάτωση Sextante 0.6
 
 Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
@@ -62,7 +64,7 @@ Kosmo Desktop
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.0
+**Έκδοση Λογισμικού:** 2.0.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 
@@ -74,5 +76,5 @@ Kosmo Desktop
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/kosmo_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/kosmo_quickstart>`
 

@@ -1,5 +1,6 @@
 :Author: Gavin Treadgold
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _sahana-overview:
@@ -63,7 +64,7 @@ Sahana Eden
 
 **Άδεια:** MIT Άδεια
 
-**Έκδοση Λογισμικού:** 0.5.4
+**Έκδοση Λογισμικού:** 0.5.5
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OS X, Microsoft Windows
 
@@ -74,6 +75,6 @@ Sahana Eden
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/sahana_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/sahana_quickstart>`
 
 

@@ -1,6 +1,7 @@
 :Author: Stefan Tzeggai
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geopublisher-overview:
 
@@ -67,6 +68,6 @@ Geopublisher
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geopublisher_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geopublisher_quickstart>`
 
 

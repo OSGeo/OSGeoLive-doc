@@ -1,6 +1,7 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _r-overview:
 
@@ -58,5 +59,5 @@ R Spatial Task View
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/R_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/R_quickstart>`
 

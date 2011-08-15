@@ -1,6 +1,7 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live4.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _saga-overview:
 
@@ -64,9 +65,9 @@ SAGA
 
 **Άδεια:** LGPL v2.1 (προγραμματιστικό περιβάλλον); GPLv2 (γραφικό περιβάλλον και αλγόριθμοι)
 
-**Έκδοση Λογισμικού:** 2.0.6
+**Έκδοση Λογισμικού:** 2.0.7
 
-**Υποστηριζόμενες πλατφόρμες:** Linux, Windows
+**Υποστηριζόμενες πλατφόρμες:** Linux, Windows, FreeBSD
 
 **Προγραμματιστική διεπαφή (API):** C++
 
@@ -76,6 +77,6 @@ SAGA
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/saga_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/saga_quickstart>`
 
 

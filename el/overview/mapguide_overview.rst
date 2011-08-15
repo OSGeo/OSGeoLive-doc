@@ -1,7 +1,7 @@
-:Author: Huawei Luo
 :Author: Trevor Wekel
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapguide-overview:
 
@@ -100,7 +100,7 @@ MapGuide Open Source
 
 **Άδεια:** GNU Lesser General Public License (LGPL) 
 
-**Έκδοση Λογισμικού:** 2.2.0
+**Έκδοση Λογισμικού:** 2.4.0 Pre-Release
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows
 
@@ -110,6 +110,6 @@ MapGuide Open Source
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapguide_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapguide_quickstart>`
 
 

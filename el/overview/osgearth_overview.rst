@@ -1,6 +1,7 @@
 :Author: Pirmin Kalberer
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live4.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _osgearth-overview:
 
@@ -83,6 +84,6 @@ osgEarth
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* 'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/osgearth_quickstart.html>`_
+* :doc:'Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/osgearth_quickstart>`
 
 

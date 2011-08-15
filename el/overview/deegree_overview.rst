@@ -1,6 +1,7 @@
 :Author: Johannes Wilden
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _deegree-overview:
 
@@ -118,4 +119,4 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/deegree_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/deegree_quickstart>`

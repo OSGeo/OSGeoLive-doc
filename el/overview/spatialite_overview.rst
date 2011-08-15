@@ -1,6 +1,7 @@
 :Author: Pirmin Kalberer
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _spatialite-overview:
 
@@ -67,6 +68,6 @@ SpatiaLite
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/spatialite_quickstart.html>`_
+* :doc:`Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/spatialite_quickstart>`
 
 

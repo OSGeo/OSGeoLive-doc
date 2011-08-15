@@ -1,6 +1,7 @@
-:Author: Alan Boudreault
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: Alan Boudreault, Steve Lime
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapguide-overview:
 

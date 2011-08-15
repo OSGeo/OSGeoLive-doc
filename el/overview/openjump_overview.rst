@@ -1,6 +1,8 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live4.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
 
 .. _openjump-overview:
 
@@ -22,7 +24,7 @@ OpenJUMP GIS
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
-  :align: center
+  :align: right
 
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
@@ -82,5 +84,5 @@ OpenJUMP GIS
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/openjump_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/openjump_quickstart>`
 

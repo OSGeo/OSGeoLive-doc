@@ -1,6 +1,7 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gdal-overview:
 
@@ -63,7 +64,7 @@ GDAL/OGR
 
 **Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Έκδοση Λογισμικού:** 1.7.3
+**Έκδοση Λογισμικού:** 1.8.0
 
 **Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 
@@ -75,5 +76,5 @@ GDAL/OGR
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gdal_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/gdal_quickstart>`
 

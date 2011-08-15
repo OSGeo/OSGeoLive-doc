@@ -1,6 +1,7 @@
 :Author: Gérald Fenoy
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _zoo-overview:
 
@@ -90,6 +91,6 @@ ZOO Project
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/zoo-project_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/zoo-project_quickstart>`
 
 

@@ -1,6 +1,8 @@
 :Author: Henry Addo
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
 
 .. _ushahidi-overview:
 
@@ -81,6 +83,6 @@ Ushahidi είχε συνολικά 45,000 χρήστες στην Κένυα, κ
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/ushahidi_quickstart.html>`_
+* :doc:`Εγχειρίδιο Γρήγορης Εκκίνησης <../quickstart/ushahidi_quickstart>`
 
 

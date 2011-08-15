@@ -1,6 +1,8 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
 
 .. _udig_overview:
 
@@ -46,7 +48,7 @@ User-friendly Desktop Internet GIS (uDig)
 * Εκτύπωση και δημιουργία PDF
 * Για προγραμματιστές
   
-  * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες GeoTools, JTS Topology Suite και GeoAPI
+  * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες :doc:`GeoTools <geotools_overview>`, JTS Topology Suite και GeoAPI
   * Επαγγελματικές δυνατότητες που παρέχονται από την πλατφόρμα Eclipse Rich Client Platform με τη δυνατότητα πρόσθετων λειτουργιών (add-ons) 
   * Χρήση εγγενών παραθυρικών διεπαφών
 
@@ -71,7 +73,7 @@ User-friendly Desktop Internet GIS (uDig)
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**Προγραμματιστικές διεπαφές:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
+**Προγραμματιστικές διεπαφές:**  GeoAPI, GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse Rich Client Platform, Eclipse Modelling Framework
 
 **Υποστήριξη:** http://udig.refractions.net/users/
 
@@ -81,6 +83,6 @@ User-friendly Desktop Internet GIS (uDig)
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/udig_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/udig_quickstart>`
 
 

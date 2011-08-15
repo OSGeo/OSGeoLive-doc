@@ -1,5 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live4.0
 :License: Creative Commons
 
 .. _osm-overview:
@@ -85,6 +86,6 @@ JOSM περιλαμβάνονται.
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* 'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart.html>`_
+* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/osm_quickstart>`
 
 

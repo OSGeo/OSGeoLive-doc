@@ -1,7 +1,9 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
 
 .. _metacrs-overview:
 
@@ -9,7 +11,7 @@
   :scale: 60 %
   :alt: project logo
   :align: right
-  :target: http://gdal.org/
+  :target: http://trac.osgeo.org/metacrs/wiki
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -22,6 +24,12 @@ MetaCRS
 
 Μετασχηματισμός Συστυμάτων Αναφοράς
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: ../../images/project_logos/logo-metacrs.png
+  :scale: 100 %
+  :alt: map projection example
+  :align: right
+  :target: http://trac.osgeo.org/metacrs/wiki
 
 
 Η ομάδα την πακέτων MetaCRS παρέχει βιβλιοθήκες λογισμικού για την μετατροπή μεταξύ διαφόρων γεωγραφικών συστημάτων συντεταγμένων.
@@ -53,8 +61,6 @@ MetaCRS
 Τα προγράμματα αυτά χρησιμοποιούν τυπικούς ορισμούς συστημάτων γεωγραφικών συντεταγμένων από το
 `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ τα οποία έχουν καταγραφεί σε πρότυπο Well Known Text (WKT).
 
-Λεπτομέρειες
---------------------------------------------------------------------------------
 
 PROJ.4
 --------------------------------------------------------------------------------
@@ -74,7 +80,7 @@ PROJ.4
 Proj4js
 --------------------------------------------------------------------------------
 
-  **Αρχική Ιστοσελίδα:**  http://trac.osgeo.org/proj4js/ and http://proj4js.org
+  **Αρχική Ιστοσελίδα:**  http://proj4js.org
   
   **Άδεια:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
   
@@ -127,8 +133,3 @@ Proj4J
   
   **Υποστήριξη:** http://lists.osgeo.org/mailman/listinfo/proj4j
   
-
-Γρήγορη εκκίνηση
---------------------------------------------------------------------------------
-    
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/metacrs_quickstart.html>`_
