@@ -43,17 +43,17 @@ The Interfaces presented above shows:
   #. A tool bar
   #. A map window with
 
-    - A navigation an zoom control
+    - A navigation and zoom controls
     - An Inset map
 
   4. A side menu with:
 
     - A "Jump to" location pull down list
-    - A set of control tabs for
+    - A set of control tabs for: displaying the layer, or "Catalog" list, an "Information" readout, and a "Custom" output tab.
   
   5. A Footer bar with:
 
-    - Multiple coordinate readouts, one each for X,Y (local dataset coordinates), LAT/LON (Decimal) and United States National Grid (USNG)
+    - Multiple coordinate readouts, one each for: X,Y (local dataset coordinates), LAT/LON (Decimal) and United States National Grid (USNG)
     - A editable pull down list for a view scales to choose from or define.
 
 
@@ -65,22 +65,22 @@ You can ID a location in the interface by clicking on the "identify", ("i" in a 
   .. image:: ../../images/screenshots/1024x768/geomoose-2.4-screenshot003.png
      :scale: 100
 
-The menu along the right side of the Map view will display a report related to the point that you clicked in the map.   This is a service in the GeoMoose package that has been configured to respond to GeoMoose for the "Parcel" layer when a point is clicked.
+The menu along the right side of the Map view will display a report related to the point that you clicked in the map.   This is a service in the GeoMoose Demo package that has been configured to respond to quereies for the "Parcel" layer when a point is clicked.
 
 Measuring in GeoMoose
 ================================================================================
 
-GeoMoose has some measuring tools installed and activated by default. Clicking the ruler icon in the top toolbar, will start the linear measuring tool.  You can click as many points as you like in the map window and a trailing polyline will be drawn.  When you get to your last point, just double click to stop.  The total distance of all lines drawn will be used to generate the "Total Length" in the your units of choice in the side menu.
+GeoMoose has some measuring tools installed and activated by default. Clicking the ruler icon in the top toolbar, will start the linear measuring tool.  You can click as many points as you like in the map window and a trailing polyline will be drawn.  When you get to your last point, just double click to stop.  The total distance of all lines drawn will be used to generate the "Total Length" in the units of your choice in the side menu.
 
   .. image:: ../../images/screenshots/1024x768/geomoose-2.4-screenshot006.png
      :scale: 100
 
-These are considered services by the GeoMoose interface and can be added to via GeoMoose's MAPBOOK control file.
+These user tools are considered services by the GeoMoose interface and can be added to via GeoMoose's MAPBOOK control file.
 
 
 Making a buffered selection
 ================================================================================
-You can make a buffered selection from a point, Line polygon, or a box.  To start click on the "Buffered Select" icon (polygon with pencil), and start drawing a selection polygon in the map. You can double click the last point to finish the drawing process.  This screenshot shows the drawing process on the map.  the right menu is displaying the input form for the criteria of the buffered select, in this case a Polygon against the "Parcels" layers with a "0" value for the buffering distance.
+You can make a buffered selection from a Point, Line, polygon, or a Box.  To start click on the "Buffered Select" icon (polygon with pencil), and start drawing a selection polygon in the map. You can double click the last point to finish the drawing process.  This screenshot shows the drawing process on the map.  the right menu is displaying the input form for the criteria of the buffered select, in this case a Polygon against the "Parcels" layers with a "0" value for the buffering distance.
 
   .. image:: ../../images/screenshots/1024x768/geomoose-2.4-screenshot008.png
      :scale: 100
@@ -90,7 +90,7 @@ The above screenshot is showing the "PARCEL" layer for selects and also using th
   .. image:: ../../images/screenshots/1024x768/geomoose-2.4-screenshot010.png
      :scale: 100
 
-Clicking the "Co" button in the side menu in the above screenshot will generate a report and display it in the side menu.  NOTE: The output can also be configured to be sent to a new window as well.
+Clicking the "Go" button in the side menu in the above screenshot will generate a report and display it in the side menu.  NOTE: The output can also be configured to be sent to a new window as well.
 
   .. image:: ../../images/screenshots/1024x768/geomoose-2.4-screenshot012.png
      :scale: 100
@@ -100,7 +100,7 @@ The results above demonstrate the service response to the buffered query by disp
 Printing
 ================================================================================
 
-This next screenshot shows what a Print Map service looks like that is bundled with GeoMoose.  the side menu in the following view, shows the options available for printing the current mapview. Sheet size, orientation, resolution for both raster image backgrounds and for overall output are also available.
+This next screenshot shows what the Print Map service might look like which is bundled with GeoMoose.  the side menu in the following view, shows the options available for printing the current mapview. Sheet size, orientation, resolution for both raster image backgrounds and for overall output are also available.
 
   .. image:: ../../images/screenshots/1024x768/geomoose-2.4-screenshot013.png
      :scale: 100
@@ -110,7 +110,7 @@ The next menu displays the choices available for output, by default GeoMoose all
   .. image:: ../../images/screenshots/1024x768/geomoose-php-pdf-download-dialog.png
      :scale: 100
 
-The following screenshots shows an example of a PDF output in landscape mode.
+The following screenshot shows an example of a PDF output in landscape mode.
 
   .. image:: ../../images/screenshots/1024x768/geomoose-php-pdf-download.png
      :scale: 100
