@@ -1,23 +1,7 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _wms-overview:
-
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +13,8 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 Web Map Service (WMS)
 ================================================================================
-
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο Web Map Service του OGC παρέχει μια απλή διεπαφή προτοκόλου HTTP για την αίτηση και λήψη γεωαναφερμένων εικόνων χαρτών από μια ή περισσότερες κατανεμημένες βάσεις χωρικών δεδομένων. Η απάντηση του εξυπηρετητή στο αίτημα από τον εκάστοτε χρήστη είναι μια ή περισσότερες εικόνες (στη μορφή JPEG, PNG, κλπ) που μπορούν να απεικονιστούν εύκολα σε κάποιο περιηγητή αλλά και σε τοπικές εφαρμογές στην επιφάνεια εργασίας. (http://www.opengeospatial.org/standards/wms) 
 
@@ -57,9 +36,6 @@ Web Map Service (WMS)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 Ένα εγχειρίδιο σχετικό με το OGC WMS αλλά και άλλο υλικό για τους προγραμματιστές μπορεί να βρεθεί στο http://www.opengeospatial.org/resource/cookbooks. 
 

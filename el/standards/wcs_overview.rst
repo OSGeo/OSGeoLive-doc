@@ -1,23 +1,7 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _wcs-overview:
-
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +13,8 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 Web Coverage Service (WCS)
 ================================================================================
-
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο Web Coverage Service (WCS) του OGC® ορίζει μια πρότυπη διεπαφή και λειτουργίες που επιτρέπουν διαλειτουργική πρόσβαση σε χωρικά δεδομένα κανάβου (grid coverages). Ο όρος αυτός τυπικά περιγράφει δεδομένα όπως τηλεπισκοπικές απεικονίσεις, δορυφορικές εικόνες, ψηφιακές αεροφωτογραφίες, ψηφιακά μοντέλα εδάφους και άλλα φαινόμενα που μπορούν να αναπαρασταθούν από τιμές σε κάθε σημείο μέτρησης. (http://www.opengeospatial.org/standards/wcs)
 
@@ -49,9 +28,6 @@ Web Coverage Service (WCS)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 * :doc:`wms_overview`
 * :doc:`wfs_overview`

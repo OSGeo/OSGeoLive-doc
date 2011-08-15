@@ -1,23 +1,7 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _sensorml-overview:
-
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +13,8 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 Sensor Model Language (SensorML)
 ================================================================================
-
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο κωδικοποίησης Sensor Model Language (SensorML) του OGC περιγράφει ένα πληροφοριακό μοντέλο και κωδικοποιήσεις XML που επιτρέπουν την αναζήτηση και χρήση αισθητήρων που συνδέονται με το διαδίκτυο καθώς επίσης και την περαιτέρω χρήση των παρατηρήσεων αυτών των δεκτών. Σε αυτή την κατέυθυνση, η SensorML επιτρέπει στους προγραμματιστές να ορίσουν μοντέλα και σχήματα XML για να εκφράσουν κάθε διαδικασία, περιλαμβανομένων και μετρήσεων από ένα σύστημα δεκτών,  καθώς και διαδικασίες επεξεργασίας μετά τις μετρήσεις. (http://www.opengeospatial.org/standards/sensorml)
 
@@ -59,9 +38,6 @@ Sensor Model Language (SensorML)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 * :doc:`sos_overview`
 * Sensor Planning Service

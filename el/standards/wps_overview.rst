@@ -1,23 +1,7 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _wps-overview:
-
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +13,8 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 Web Processing Service (WPS)
 ================================================================================
-
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο WPS παρέχει κανόνες για την προτυποποίηση δεδομένων εισόδου και εξόδου (αιτήματα και απαντήσεις) για υπηρεσίες χωρικής επεξεργασίας, όπως την επίθεση πολυγώνων και τα δεδομένα εισόδου και εξόδου της.
 
@@ -57,9 +36,6 @@ Web Processing Service (WPS)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 Άλλα πρότυπα υπηρεσιών δεδομένων OGC: 
 

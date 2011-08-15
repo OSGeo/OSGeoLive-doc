@@ -1,23 +1,9 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
 
 .. _kml-overview:
 
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +15,9 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 KML Encoding Standard (KML)
 ================================================================================
 
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο κωδικοποίησης KML του OGC είναι μια γλώσσα XML που επικεντρώνεται στην οπτικοποίηση γεωγραφικής πληροφορίας, συμπεριλαμβανομένων σημειώσεων πάνω στους χάρτες και τις εικόνες. Η γεωγραφική οπτικοποίηση περιλαμβάνει όχι μόνο την παρουσίαση γραφικών δεδομένων πάνω στην υδρόγειο, αλλά επίσης τον έλεγχο της πλοήγησης του χρήστη με την έννοια του που να πάει και που να κοιτάξει για ότι ψάχνει. (http://www.opengeospatial.org/standards/KML)
 
@@ -56,9 +38,6 @@ KML Encoding Standard (KML)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 * :doc:`gml_overview`
 * :doc:`wfs_overview`

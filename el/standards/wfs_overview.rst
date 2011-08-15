@@ -1,23 +1,7 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _wfs-overview:
-
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +13,8 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 Web Feature Service (WFS)
 ================================================================================
-
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο Web Feature Service του OGC® ορίζει διαδικτυακές λειτουργίες για ανάκτηση και επεξεργασία διανυσματικών γεωγραφικών χαρακτηριστικών, όπως δρόμοι ή όρια λιμνών.  (http://www.opengeospatial.org/standards/wfs)
 
@@ -56,9 +35,6 @@ Web Feature Service (WFS)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 * :doc:`wms_overview`
 * :doc:`wcs_overview`

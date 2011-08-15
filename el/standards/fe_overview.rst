@@ -1,23 +1,7 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _fe-overview:
-
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +13,8 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 Filter Encoding (FE)
 ================================================================================
-
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Το πρότυπο Filter Encoding (FE) του OGC® ορίζει την κωδικοποίηση XML για την έκφραση φίλτρων για χωρικά ερωτήματα με στόχο την επιλογή μέρους από γεωγραφικά χαρακτηριστικά με βάση συγκεκριμένες τους ιδιότητες.
 (http://www.opengeospatial.org/standards/filter)
@@ -50,9 +29,6 @@ Filter Encoding (FE)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 * :doc:`sld_overview`
 * :doc:`csw_overview`

@@ -1,23 +1,7 @@
-.. Βοήθημα:
-  Writing tips describe what content should be in the following section.
-
-.. Βοήθημα:
-  Metadata about this document
-
 :Author: OGC
 :License: Creative Commons
 
-.. Βοήθημα:
-  The following becomes a HTML anchor for hyperlinking to this page
-
 .. _gml-overview:
-
-.. Βοήθημα: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
-  A symbolic link to the images directory is created during the build process.
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %
@@ -29,13 +13,8 @@
   :alt: OGC logo
   :align: right
 
-.. Writing Tip: Name of application
-
 Geography Markup Language (GML)
 ================================================================================
-
-.. Βοήθημα:
-  1 paragraph or 2 defining what the standard is.
 
 Η GML (http://www.opengeospatial.org/standards/gml) είναι μια γραμματική της γλώσσας XML που έχει οριστεί για να εκφράζει και να μεταφέρει γεωγραφικά χαρακτηριστικά. Η GML είναι μια γλώσσα μοντελοποίηση για γεωγραφικά συστήματα καθώς και ένα διαλειτουργικό πρότυπο ψηφιακής γεωγραφικής πληροφορίας για συναλλαγές μέσω διαδικτύου. Σημειώεται πως η έννοια ενός χαρακτηριστικού στην GML είναι πολύ γενική και ενσωματώνει όχι μόνο διανυσματικά χαρακτηριστικά αλλά επιπλέον εικονιστικά δεδομένα και δεδομένα από αισθητήρες. Η δυνατότητα ενσωμάτωσης όλων των ειδών δεδομένων στη GML είναι κλειδί για τη χρηστικότητά της.
 
@@ -63,9 +42,6 @@ Geography Markup Language (GML)
 
 Δείτε επίσης
 --------------------------------------------------------------------------------
-
-.. Βοήθημα:
-  Describe Similar standard
 
 * CityGML
 * GeosciML
