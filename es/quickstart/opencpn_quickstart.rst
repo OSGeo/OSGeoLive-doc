@@ -21,7 +21,7 @@ Configurando sus Cartas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Antes de ejecutar OpenCPN en el LiveDVD se deberían activar los datos de ejemplo.
 Para hacer esto abrir un Terminal desde el menú de Aplicaciones principal y ejecutar
-"`opencpn_noaa_agreement.sh`". Se deberá dar la clave del usuario en el archivo en 
+:command:`opencpn_noaa_agreement.sh`. Se deberá dar la clave del usuario en el archivo en 
 el escritorio principal.
 
 También se puede descargar cartas náuticas de Estados Unidos desde NOAA en 
@@ -69,7 +69,7 @@ Habilitar el conector (plugin) que se encuentra en la pestaña mas a la derecha 
 de configuración; hacer click en la ventana de selección del directorio GRIB. Para 
 mostrar los archivos ocultos incluidos en el directorio ``.zygrib`` que contiene
 el directorio de descarga de GRIB por omisión. Si salva el archivo GRIB en
-el directorio home navegar a ``/home`` para seleccionar el directorio ``user``.
+el directorio home navegar a :file:`/home` para seleccionar el directorio ``user``.
 No se necesita descomprimir los archivos. Haciendo un click en el "+" a la izquierda
 del nombre de archivo y seleccionando de la lista los pronósticos disponibles.
 

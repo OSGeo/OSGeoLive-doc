@@ -60,7 +60,7 @@ Dokumentation
 
 *  `Tipps zum Einstieg <../../opencpn/doc/tips.html>`_
 
-See also
+Was kann man noch probieren?
 ================================================================================
 
 Aktuelle Wetter- und Vorhersagedaten können heruntergeladenen und  mit ded GRIB Plugin
