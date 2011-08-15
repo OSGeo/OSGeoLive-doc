@@ -1,8 +1,9 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.5
+:Author: Frank Gasdorf
+:Version: osgeo-live5.0draft
 :License: Creative Commons
 
-.. _opencpn-overview:
+.. _opencpn-overview-de:
 
 .. image:: ../../images/project_logos/logo-opencpn.png
   :scale: 70 %
@@ -16,11 +17,11 @@ OpenCPN
 
 Marine GPS Navigationssoftware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenCPN stellt freie Navigationssoftware zur Nutzung beid er Steuerung von Schiffen aller Typen und Größen, sowie Offline zur Routenplanung. Es wurde von einem Team aktiver Segler entwickelt und unter realen Bedingungen getestet und verfeinert. 
+OpenCPN ist eine freie Navigationssoftware für die Anzeige von Schiffskursen aller Schiffstypen und -größen, sowie Offline zur Routenplanung. Es wurde von einem Team aktiver Segler entwickelt und unter realen Bedingungen getestet und verfeinert. 
 
-OpenCPN informiert den Nutzer durch akkurate Navigations-Diagramme über die derzeitige Position des Schiffes, die Geschwindigkeit, den Kurs, Gezeiten und die  derzeitige Vorhersagen. Informationen, die von einfachen Radio Links empfangen werden, beschreiben die Position und die Richtung anderer Schiffe.
+OpenCPN informiert den Nutzer durch akkurate Seekarten über die derzeitige Position des Schiffes, desen Geschwindigkeit und Kurs. Ebenso wreden Informationen zu Gezeiten und aktuelle Wettervorhersagen bereitgestellt. Über eine einfache Funkverbindung können weitere Informationen zu Positinen und Kursen anderer Schiffe empfangen und dargestellt werden.
 
-Bewegt sich das Schiff, werden neue Diagramme erstellt und angezeigt. Hierbei kann eine benutzerspezifische Auflösung und der Detailgrad eingestellt werden. Darüberhinaus kann der Benutzer Routen eingeben und Wegpunkte setzen. Diese ermöglichen es einem externen Autopiloten präzise der Route zu folgen.
+Bewegt sich das Schiff, werden neue Seekarten geladen und dargestellt. Hierbei kann eine benutzerspezifische Auflösung und der Detailgrad eingestellt werden. Darüber hinaus kann der Benutzer Routen eingeben und Wegpunkte setzen. Diese ermöglichen es einem externen Autopiloten präzise der Route zu folgen.
 
 Kernfunktionen
 --------------------------------------------------------------------------------
@@ -60,5 +61,3 @@ Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/opencpn_quickstart>`
-
-
