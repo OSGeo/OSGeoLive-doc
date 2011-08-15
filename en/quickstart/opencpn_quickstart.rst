@@ -22,7 +22,7 @@ Setting up your charts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Before running OpenCPN on the LiveDVD you should activate the sample data.
 To do this open a Terminal from the main Applications menu and run
-"`opencpn_noaa_agreement.sh`" at the command prompt. The user's
+:command:`opencpn_noaa_agreement.sh` at the command prompt. The user's
 password is given in the file on the main desktop.
 
 You can download additional US nautical charts from NOAA
@@ -72,6 +72,6 @@ Enable the plugin the right most tab of the OpenCPN configuration menu;
 right click on the GRIB directory selection window to show hidden files,
 including the ``.zygrib`` directory containing the default GRIB download
 directory. If you saved the GRIB file into your home directory navigate
-to ``/home`` and select your ``user`` directory as the GRIB data directory.
+to :file:`/home` and select your ``user`` directory as the GRIB data directory.
 There is no need to uncompress the file.  Click on the "+" to the left of
 the filename and select from the list of available forecast times.
