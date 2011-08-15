@@ -1,6 +1,7 @@
 :Author: Chris Schmidt
-:Author: OSGeo Live
-:Version: osgeo-live4.5
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _openlayers-overview:
@@ -71,6 +72,6 @@ OpenLayers
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/openlayers_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/openlayers_quickstart>`
 
 

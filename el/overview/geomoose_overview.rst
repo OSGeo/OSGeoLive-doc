@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geomoose-overview:
 
@@ -34,12 +35,13 @@ Web GIS Portal
 --------------------------------------------------------------------------------
 
 * Κατανεμημένη διάθεση δεδομένων ανάμεσα σε πολλούς χρήστες.
-* Πρόσβαση σε επίπεδα WMS.
+* Πρόσβαση σε χάρτες MapServer, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST και WMS.
 * Ρύθμιση πολλαπλών όψεων πηγών δεδομένων.
 * Αναζήτηση και φιλτράρισμα από καταλόγους δεδομένων.
 * Εργαλεία: Μέτρηση, σχεδίαση, ερωτήματα, ανακατάταξη, προβολή συντεταγμένων, γρήγορη αλλαγή zoom, ...
 * Προβολές: MapViewer, Bird's Eye, Πλάγιο μενού, Πλοήγηση, Χρήση καρτελών για εργαλεία.
 * Ρυθμίσεις με βάση αρχεία XML MapBook για αλλαγές στη διεπαφή χρήστη, τα επίπεδα πληροφορίας και τα εργαλεία.
+* Ο αρθρωτός σχεδιασμός του επιτρέπουν την συνεργασία του με μη χωρικά συστήματα.
 * Συνεργασία με τον Mapserver.
 * Δημοσίευση απεριόριστου αριθμού επιπέδων πληροφορίας.
 * Εκτύπωση PDF.
@@ -68,5 +70,5 @@ http://www.geomoose.org/info/license.html
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geomoose_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geomoose_quickstart>`
 
