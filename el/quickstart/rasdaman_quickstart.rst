@@ -11,9 +11,9 @@
   :target: http://www.rasdaman.org
 
 
-********************************************************************************
+*******************
 rasdaman Quickstart 
-********************************************************************************
+*******************
 
 .. image:: ../../images/screenshots/800x600/rasdaman_apps_collage.jpg
   :scale: 50 %
@@ -25,12 +25,12 @@ rasdaman is a raster database allowing queries on n-D raster data stored.
 This Quick Start describes how to try out queries on a sandbox of objects.
 
 Exploring the 1-D to 4-D examples
-================================================================================
+=================================
 
     * Go to the EarthLook `Earthlook <http://localhost:8080/earthlook/index.php>`_ demo to explore various demo data sets. The small ones are part of OSGeo-Live, those utilizing larger sets forward directly to the `Earthlook site <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ . 
 
 Running queries locally
-================================================================================
+=======================
 
     * Open a console and open the sample database installed locally
     * use the rasql utility to send queries and receive results, for example::
@@ -41,7 +41,7 @@ Running queries locally
 
 
 Create your own database
-================================================================================
+========================
 
     * Open a console
     * `Download and install rasdaman <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/Download>`_ and `its prerequisites <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/RequiredPackages>`_
@@ -55,7 +55,7 @@ Create your own database
 
 
 Things to Try
-================================================================================
+=============
 
 Here are some additional challenges for you to try:
 

@@ -11,9 +11,9 @@
   :align: right
   :target: http://www.qgis.org
 
-********************************************************************************
+***************
 QGIS Quickstart 
-********************************************************************************
+***************
 
 Quantum GIS (QGIS) is a user friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
@@ -25,7 +25,7 @@ This Quick Start describes how to:
 
 
 Edit QGIS project
-================================================================================
+=================
 
 #. Click :menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
 
@@ -52,7 +52,7 @@ Edit QGIS project
 
 
 Create a new QGIS project
-================================================================================
+=========================
 
 #. Choose :menuselection:`File --> New Project`.
 
@@ -66,7 +66,7 @@ Create a new QGIS project
 
 
 What Next?
-================================================================================
+==========
 
 To learn more about QGIS, a starting point is the `Documentation page`_ on the QGIS homepage.
 
@@ -74,7 +74,7 @@ OSGeo-Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`
 
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`QGIS User Guide`: file:///usr/local/share/qgis/qgis-1.7.0_user_guide_en.pdf
+.. _`QGIS User Guide`: file:///usr/local/share/qgis/qgis-1.6.0_user_guide_en.pdf
 
 
 

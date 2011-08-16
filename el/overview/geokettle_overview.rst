@@ -1,6 +1,7 @@
-:Author: OSGeo Live
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Author: Thierry Badard 
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.0draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geokettle-overview:
 
@@ -34,7 +35,7 @@ GeoKettle
 
 * Εξαγόμενα δεδομένα: 
 
-  * Περισσότεροι από 35 τύποι βάσεων δεδομένων: MySQL, PostgreSQL, Oracle, ...
+  * Περισσότεροι από 35 τύποι βάσεων δεδομένων: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * Αρχεία XML
   * Αρχεία XLS
   * Αρχεία Xbase (dBase, Foxpro, etc)
@@ -42,8 +43,10 @@ GeoKettle
   * Παραγόμενα δεδομένα
   * Αρχεία MS Access
   * LDAP
-  * Γεωχωρικά πρότυπα δεδομένων: Shapefile, ...
-
+  * Σύστημα SOLAP (Spatial OLAP): GeoMondrian
+  * Πρότυπα Χωρικών Δεδομένων: Shapefile, GML 3.1.1, KML 2.2, όλα τα πρότυπα που υποστηρίζει το OGR
+  * Υπηρεσίες OGC: Web Feature Service (WFS), Sensor Observation Service (SOS), Catalogue Web Service (CSW)
+  
 * Μετασχηματισμός δεδομένων:
 
   * Μεταφορά δεδομένων με ειδικό μηχανισμό 
@@ -60,12 +63,16 @@ GeoKettle
   * Αντιγραφή
   * Δημιουργία συστάδων
   * Περιστροφή
-  * Ανάλυση και επεξεργασία χωρικών δεδομένων
+  * Ανάλυση και επεξεργασία χωρικών δεδομένων : ζώνες επιρροής, κεντροειδές, απόσταση, τομή, ένωση, ...
+  * Προχωρημένη επεξεργασία: αποκοπή, ομαλοποίηση/γενίκευση, διάσπαση χαρακτηριστικών, ...
+  * Χαρτογραφική προεπισκόπηση
 
 * Φόρτωση δεδομένων σε επιθυμητό πρότυπο:
 
-  * Σε βάση δεδομένων
+  * Σε βάση δεδομένων MySQL, PostgreSQL/PostGIS, Oracle, ...
   * Συμπλήρωση σε αποθήκη δεδομένων
+  * Πρότυπα χωρικών δεδομένων: Shapefile, GML 3.1.1, KML 2.2, όλα τα πρότυπα που υποστηρίζει το OGR
+  * Υπηρεσίες OGC: Catalogue Web Service (CSW), ...
   * Φόρτωση δεδομένων τμηματικά
   * Φόρτωση όγκου δεδομένων
   * Παράλληλη φόρτωση
@@ -83,7 +90,7 @@ GeoKettle
 Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
 
-* Συμβατό με πρότυπα OGC
+* Συμβατό με πρότυπα OGC (SFS, CSW, SOS)
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -92,7 +99,7 @@ GeoKettle
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Έκδοση Λογισμικού:** 3.2.0-20090609
+**Έκδοση Λογισμικού:** 2.0-RC1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Solaris
 
@@ -103,5 +110,5 @@ GeoKettle
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* `Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geokettle_quickstart.html>`_
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geokettle_quickstart>`
 

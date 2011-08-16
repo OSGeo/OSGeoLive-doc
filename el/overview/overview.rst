@@ -12,6 +12,7 @@
 * :doc:`geomajas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
 * :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας
+* :doc:`geomoose_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomoose_quickstart>`] - Διαδικτυακή πύλη GIS
 
 Διαχείριση κρίσεων
 --------------------------------------------------------------------------------
@@ -84,7 +85,7 @@
 --------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
 * :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
-* :doc:`liblas_overview`  - libLAS LiDAR Data Access
+* :doc:`liblas_overview`  - Πρόσβαση δεδομένων LiDAR
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------------------
