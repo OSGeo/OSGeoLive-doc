@@ -74,7 +74,7 @@ OSGeo-Live contiene `Una breve introducción a los SIG`_  y la `Guía de usuario
 
 .. _`Página de documentación`: http://www.qgis.org/en/documentation.html
 .. _`Una breve introducción a los SIG`: file:///usr/local/share/qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`Guía de usuario de QGIS`: file:///usr/local/share/qgis/qgis-1.6.0_user_guide_en.pdf
+.. _`Guía de usuario de QGIS`: file:///usr/local/share/qgis/qgis-1.7.0_user_guide_en.pdf
 
 
 
