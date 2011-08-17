@@ -1,5 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geonetwork-overview:
@@ -22,7 +24,7 @@ GeoNetwork
 Katalog metadanych
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards.
+GeoNetwork OpenSource jest aplikacją katalogową słuążcą do zarządzania danymi posiadającymi odniesienie przestrzenne. Posiada bogate możliwości edycji metadanych oraz narzędzia do przeszukiwania, a także wbudowaną interaktywną przeglądarkę map. Aplikacja bazuje na otwartych standardach.
 
 .. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
@@ -65,7 +67,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 2.6.3
+**Wersja programu:** 2.6.4
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
@@ -77,5 +79,5 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/geonetwork_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/geonetwork_quickstart>`
 
