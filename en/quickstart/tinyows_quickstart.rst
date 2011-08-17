@@ -46,7 +46,7 @@ Display a WFS layer with QGIS
 
 #. Zoom in
 
-#. Select :menuselection:``Plugins -> Manage Plugins -> WFS Plugin -> OK`
+#. Select :menuselection:`Plugins -> Manage Plugins -> WFS Plugin -> OK`
 
    * Enable the WFS Layer plugin.
 
