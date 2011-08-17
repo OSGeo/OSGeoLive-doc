@@ -30,7 +30,7 @@
 Εκκίνηση |GS|
 =============
 
-#. Επιλέξτε το εικονίδιο "Start GeoServer".
+#. Επιλέξτε το εικονίδιο |osgeolive-appmenupath-geoserver|.
 #. Η εφαρμογή θα ξεκινήσει σε λίγες στιγμές Πηγαίνετε στην κεντρική ιστοσελίδα του GeoServer στο http://localhost:8082/geoserver/web 
 
 .. image:: ../../images/screenshots/800x600/geoserver-login.png

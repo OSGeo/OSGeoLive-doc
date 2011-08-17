@@ -85,7 +85,7 @@ start uDig
 
 .. TBD: Add menu graphic to this uDig Quickstart
 
-#. Choose :menuselection:`Applications --> Other --> uDig` from menu
+#. Choose |osgeolive-appmenupath-udig| from menu
 #. The application will take a few moments to start up
 
 .. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
@@ -238,7 +238,7 @@ One of the reasons to use an application like uDig is to access all the great fr
 information available on the web. This section covers the use of Web Map Servers which make
 available layers of information that you can mix into your own maps.
 
-.. note:: If you are not connected to the Internet run :menuselection:`Applications --> Education --> Start GeoServer` 
+.. note:: If you are not connected to the Internet run |osgeolive-appmenupath-geoserver| 
    for a local WMS. The script will open a page with a "Service Capabilities" section and two links for WMS Services 
    you can drag into your empty map.
 

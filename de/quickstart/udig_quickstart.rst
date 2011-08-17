@@ -96,7 +96,7 @@ uDig starten
 
 .. TBD: Add menu graphic to this uDig Quickstart
 
-#. :menuselection:`Applications --> Other --> uDig` im Startmenü des Desktops wählen
+#. |osgeolive-appmenupath-udig| im Startmenü des Desktops wählen
 #. nach einem Moment wird die Anwendung gestartet und ein Begrüßungsbildschirm angezeigt
 
   .. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
@@ -229,7 +229,7 @@ Web Map Server
 
 Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugänglich sind, zuzugreifen. Dieses Kapitel beschreibt die Verwendung von Web Map Servern. Diese publizieren Layer, die in uDig genutzt werden können, um daraus eigene Karten zu erstellen.
 
-.. note:: Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über :menuselection:`Applications --> Education --> Start GeoServer` einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
+.. note:: Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über |osgeolive-appmenupath-geoserver| einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
 
 .. tip:: 
    Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** 

@@ -61,11 +61,11 @@ Verfügbare Layer
  
 **geoserver**:
   In diesem Layer wird die US Bevölkerung mit Hilfe des Geoserver WMS dargestellt. Der Layer unterstützt ``GetFeatureInfo`` anfragen, welche von mehreren Quellen zusammengefasst wurden. 
-  Um den Layer anzuzeigen müssen sie den Geoserver über *Start GeoServer* starten.
+  Um den Layer anzuzeigen müssen sie den Geoserver über |osgeolive-appmenupath-geoserver| starten.
 
 **mapnik_geoserver**:
   Dieser Layer demonstriert die Fähigkeit unterschiedliche Quellen in einem Layer zu kombinieren. Der Layer kombiniert die Weltbevölkerung vom Mapnik mit der US Bevölkerung vom GeoServer. Die Unterstützung vom ``GetFeatureInfo`` für den US Bevölkerungs-Layer ist weiterhin verfügbar.
-  Um den Layer anzuzeigen müssen sie den Geoserver über *Start GeoServer* starten.
+  Um den Layer anzuzeigen müssen sie den Geoserver über |osgeolive-appmenupath-geoserver| starten.
 
 Eigene MapProxy Konfiguration erstellen
 --------------------------------------------------------------------------------

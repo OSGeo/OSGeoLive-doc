@@ -28,7 +28,7 @@ This Quick Start describes how to:
 Start |GS|
 ================================================================================
 
-#. Select the "Start GeoServer" icon.
+#. Select the |osgeolive-appmenupath-geoserver| in the menu.
 #. The application will take a few moments to start up
 #. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
 

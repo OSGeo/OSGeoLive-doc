@@ -61,12 +61,11 @@ Available layers
 
 **geoserver**:
   The US population rendered by the Geoserver WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS.
-  You need to start Geoserver with *Start Geoserver* before accessing this layer.
+  You need to start Geoserver with |osgeolive-appmenupath-geoserver| before accessing this layer.
 
 **mapnik_geoserver**:
   This layer demonstrates the ability to combine multiple sources into one layer. It combines the world population from Mapnik with the US population from Geoserver. The ``GetFeatureInfo`` support for the US population is still available.
-  
-  You need to start Geoserver with *Start Geoserver* before accessing this layer.
+  You need to start Geoserver with |osgeolive-appmenupath-geoserver| before accessing this layer.
 
 
 Create you own configuration

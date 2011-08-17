@@ -168,7 +168,7 @@ We're going to load a database table as an example:
 OGC services
 --------------------------------------------------------------------------------
 
-#. Start the GeoServer WMS included in the LiveDVD by selecting the option *Education > Start GeoServer* (or from the desktop, go into *Web Services* folder and double-click the Start Geoserver icon)
+#. Start the GeoServer WMS included in the LiveDVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start Geoserver icon)
 
 #. Press the *Load SDI Service* button at the main toolbar to open the wizard
 
