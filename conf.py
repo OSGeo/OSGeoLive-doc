@@ -214,8 +214,8 @@ rst_epilog="""
 .. |osgeolive-iso-size| replace:: %(iso_size).1f GB
 .. |osgeolive-iso-mini-size| replace:: %(iso_mini_size).1f GB
 .. |osgeolive-vm-7z-size| replace:: %(vm_7z_size).1f GB
-.. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial Apps --> Web Services --> Start GeoServer`
-.. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial Apps --> Desktop GIS --> uDig`
+.. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> Start GeoServer`
+.. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 """ % {
   'projectname':project,
   'projectversion': version, 
