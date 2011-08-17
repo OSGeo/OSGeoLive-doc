@@ -38,7 +38,7 @@ via the internal 'loopback' network connection, and is not visible to other comp
 unless you configure it to be so.
 
 Creating A Spatially-Enabled database
-===================================
+=====================================
 
 To handle spatial data you need a PostgreSQL database with PostGIS
 functionality. From the unix command line you can use ``createdb``:
