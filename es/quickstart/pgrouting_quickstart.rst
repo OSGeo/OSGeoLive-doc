@@ -53,36 +53,36 @@ Ejecución de pgRouting
 				 target::integer, 
 				 length::double precision as cost 
 				FROM ways', 
-			24340, 69453, false, false); 
+			1888, 4738, false, false); 
 
 .. code-block:: sql
 
      vertex_id | edge_id |        cost         
     -----------+---------+---------------------
-	     24340 |  159414 |   0.155428268463703
-	     27646 |  159415 |   0.178580861083004
-	     15074 |  159416 |   0.175711834233665
-    	   ... |     ... |  ...
-	     69453 |      -1 |                   0
-    (25 rows)
+		  1888 |    2818 |  0.0989108306469789
+		  1555 |    2819 |   0.107183313746265
+		  2435 |    2820 |   0.179335285582576
+		   ... |     ... |                 ...
+		  4738 |      -1 |                   0
+    (33 rows)
 
 * Para obtener el resultado del ruteo en un formato diferente, pruebe la siguiente función:
 
 .. code-block:: sql
 
 	SELECT gid, AsText(the_geom) AS the_geom 
-		FROM dijkstra_sp('ways', 24340, 69453);
+		FROM dijkstra_sp('ways', 1888, 4738);
 	
 .. code-block:: sql
 	
       gid   |                              the_geom      
     --------+---------------------------------------------------------------
-	 159414 | MULTILINESTRING((-104.9916497 39.7338548,-104.9916497 39.7352526))
-	 159415 | MULTILINESTRING((-104.9916497 39.7352526,-104.9916591 39.7368586))
-	 159416 | MULTILINESTRING((-104.9916591 39.7368586,-104.9916503 39.7384388))
+	   1407 | MULTILINESTRING((-105.0030875 39.7426587,...,-105.0037031 39.7434525))
+	   1408 | MULTILINESTRING((-105.0037031 39.7434525,-105.00401 39.7438456))
+	   2567 | MULTILINESTRING((-104.9976397 39.7384568,-104.9964751 39.7368603))
 	    ... | ...
-	 104888 | MULTILINESTRING((-104.9873865 39.7509603,-104.986246 39.7517975))
-	(24 rows)
+	   9441 | MULTILINESTRING((-104.9899868 39.7282956,...,-104.9888573 39.7273254))
+	(32 rows)
 
 * Con el comando:`\\q` abandonara la consola de PostgreSQL.
 
