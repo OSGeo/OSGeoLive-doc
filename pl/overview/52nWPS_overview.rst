@@ -1,4 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -17,8 +19,9 @@
 Usługi sieciowe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ pozwala na dostęp sieciowy 
-do algorytmów przetwarzania geodanych dostpnych w Sextante, ArcGIS Server, lub dowolnie zaprogramowanej funkcji. Algorytmy mogą być tak proste jak określenie różnicy przypadków grypy w różnych porach roku
+52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` pozwala na dostęp sieciowy 
+do algorytmów przetwarzania geodanych dostpnych w Sextante, ArcGIS Server, lub dowolnie zaprogramowanej funkcji. 
+Algorytmy mogą być tak proste jak określenie różnicy przypadków grypy w różnych porach roku
 lub tak skomplikowane jak model globalnych zmian klimatycznych.
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
@@ -71,6 +74,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/52nWPS_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/52nWPS_quickstart>`
 
 
