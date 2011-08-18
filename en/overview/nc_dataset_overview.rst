@@ -22,7 +22,7 @@ Map Data
 
 This data set is a comprehensive collection of raster, vector and imagery data covering parts of North Carolina (NC), USA, prepared from public data sources provided by the North Carolina state and local government agencies and Global Land Cover Facility (GLCF).
 
-The data set includes sections of the NC capital city Raleigh and its surroundings in Wake County. 
+The data set includes sections of the NC capital city Raleigh and its surroundings. 
 
 Data are provided at three hierarchical levels:
 
