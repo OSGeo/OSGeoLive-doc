@@ -60,7 +60,7 @@ To run the demo just follow these steps:
         $ liteserv.py /usr/local/share/mapnik/demo/population.xml
 
 
-  #. Check to make sure the server is working by visiting the TileLite welcome page at http://localhost:8000
+  #. Check to make sure the server is working by visiting the TileLite welcome page at http://localhost:8012
 
   #. Then visit the example TileLite OpenLayers "World Population" demo application page:
     
