@@ -9,7 +9,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.grassbook.org/data_menu3rd.php
+  :target: http://wiki.osgeo.org/wiki/Category:Education
 
 
 The OSGeo North Carolina, USA Educational dataset
