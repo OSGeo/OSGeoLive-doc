@@ -81,6 +81,8 @@ Web Services
 Data
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Geographic Data Sets
+* :doc:`nc_dataset_overview` - OSGeo's North Carolina educational data set
+* :doc:`osm_dataset_overview` - A sample raw data extract from OpenStreetMap
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
