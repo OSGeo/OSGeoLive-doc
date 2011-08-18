@@ -58,6 +58,7 @@ artifact).  Από το κεντρικό μενού στα αριστερά επ
 * Άρθρωμα διεπαφής με GPS (σημεία και διαδρομές για είσοδο και έξοδο μέσω `GpsBabel`)
 * Άρθρωμα UMN Mapserver (για διαχείριση σχετικών ιστοχώρων)
 * Εκτεταμένες ρυθμίσεις για GIS στο άρθρωμα Sahaha Administration συμπεριλαμβανομένων και
+
 υποστήριξης άλλων πηγών δεδομένων όπως Google Maps, TMS, OpenStreetMap, KML OSM και GML
 αρχεία γεωδεδομένων, MS Virtual Earth, Yahoo Maps, WMS, GeoRSS και Multimap.
 
