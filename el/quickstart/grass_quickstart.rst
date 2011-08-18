@@ -166,9 +166,9 @@ Preferences` και στην καρτέλα επισκόπησης (Display tab)
 Περαιτέρω ανάγνωση
 ==================
 * Επισκευτείτε το δικτυακό τόπο του GRASS στο `http://grass.osgeo.org <http://grass.osgeo.org>`_
-*  Επισκευτείτε το δικτυακό τόπο βοήθειας GRASS Wiki στο`http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
-* Περισσότερα εγχειρίδια χρήσης και επισκοπήσεις μπορούν να βρεθούν εδώ <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* Μια σύνοψη των ενοτήτων του GRASS  <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, περιλαμβάνοντας
+* Επισκευτείτε το δικτυακό τόπο βοήθειας GRASS Wiki στο `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
+* Περισσότερα εγχειρίδια χρήσης και επισκοπήσεις μπορούν να βρεθούν `εδώ <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* Μια `σύνοψη των ενοτήτων του GRASS  <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, περιλαμβάνοντας
   Θέση μενου του γραφικού περιβάλλοντος. (`HTML έκδοση <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
 * Εάν οι 400 GIS ενότητες που έρχονται μαζί με το GRASS δεν είναι αρκετά για εσάς, δείτε στις πολλές που συνεισφέρονται
   Επιπρόσθετα στο `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_
