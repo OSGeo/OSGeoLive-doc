@@ -8,6 +8,10 @@
 OpenLayers Quickstart 
 ********************************************************************************
 
+OpenLayers Examples
+--------------------------------------------------------------------------------
+Sometimes the quickest way to work out how OpenLayers works is to look at examples, which are installed at: `http://localhost/openlayers/examples <../../openlayers/examples>`_.
+
 Creating Your First Map
 --------------------------------------------------------------------------------
 The OpenLayers API has two concepts which are important to understand in
