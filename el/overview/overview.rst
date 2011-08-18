@@ -69,7 +69,7 @@
 * :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Εξυπηρετητής QGIS
 * :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+* :doc:`52nWSS_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`]- Web Processing Service
 * :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`]- Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
