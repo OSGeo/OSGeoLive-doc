@@ -13,9 +13,9 @@ Once you log back in (the password if you need it is
 you pick the keyboard layout. You can also set it via the
 menus with Applications > System > Language Support.
 
-Program installers for Mac OS X and Microsoft Windows
-can be found in the MacInstallers and WindowsInstallers
-directories.
+If you have the full DVD edition, various program installers
+for Macintosh and Microsoft Windows can be found in the
+MacInstallers and WindowsInstallers directories.
 
 Passwords for various things can be found in the
 passwords.txt file on the Desktop.
