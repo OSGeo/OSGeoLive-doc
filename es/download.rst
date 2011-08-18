@@ -15,7 +15,7 @@ La última versión estable de |osgeo-live-version| contiene:
 `osgeo-live-5.0.iso <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-5.0.iso>`_ : |osgeolive-iso-size|
 
 Un DVD de arranque basado en Xubuntu, que también incluye instaladores para
-Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la descarga con su `md5sum <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-5.0.iso.md5>`_.
+Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la descarga con su suma de verificación `osgeo-live-5.0.iso.md5 <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-5.0.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Descarga iso sin instalador Windows o Mac
@@ -24,7 +24,7 @@ Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la d
 
 `osgeo-live-mini-5.0.iso <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-mini-5.0.iso>`_ : |osgeolive-iso-mini-size|
 
-Igual que osgeo-live-5.0.iso, excepto que no contiene instaladores para Windows y Mac y se puede copiar en una memoria USB de arranque de 4GB. Verificar la descarga con su `md5sum <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-mini-5.0.iso.md5>`_.
+Igual que osgeo-live-5.0.iso, excepto que no contiene instaladores para Windows y Mac y se puede copiar en una memoria USB de arranque de 4GB. Verificar la descarga con su suma de verificación `osgeo-live-mini-5.0.iso.md5 <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-mini-5.0.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Descargar 7-zip de Maquina Virtual sin instalador Windows y Mac
@@ -33,7 +33,7 @@ Igual que osgeo-live-5.0.iso, excepto que no contiene instaladores para Windows 
 
 `osgeo-live-vm-5.0.7z <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-vm-5.0.7z>`_ : |osgeolive-vm-7z-size|
 
-Disco virtual (.vmdk) apropiado para utilizarse con VirtualBox, VMWare, KVM y otras aplicaciones de virtualización de máquinas. No contiene instaladores Windows y Mac. Verificar la descarga con su `md5sum <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-vm-5.0.7z.md5>`_.
+Disco virtual (.vmdk) apropiado para utilizarse con VirtualBox, VMWare, KVM y otras aplicaciones de virtualización de máquinas. No contiene instaladores Windows y Mac. Verificar la descarga con su suma de verificación `osgeo-live-vm-5.0.7z.md5 <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-vm-5.0.7z.md5>`_.
 
 Visita http://download.osgeo.org/livedvd para una completa lista de versiones,
 opciones de descarga y servidores espejo.
