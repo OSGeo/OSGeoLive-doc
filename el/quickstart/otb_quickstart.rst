@@ -83,9 +83,7 @@
 
 * Εγχειρίδια OTB
 
-  Ακολουθήστε τα `εγχειρίδια <file:///usr/local/share/otb/>`_ για να μάθετε περισσότερα για το OTB.
-
-.. _εγχειρίδια: http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II
+  Ακολουθήστε τα `εγχειρίδια <http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II>`_ για να μάθετε περισσότερα για το OTB.
 
 * Εγχειρίδια στο DVD
 
