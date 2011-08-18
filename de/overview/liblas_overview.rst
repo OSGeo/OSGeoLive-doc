@@ -27,8 +27,7 @@ LiDAR Sensoren und von LiDAR Prozessierungssoftware für den Datenaustausch und 
   
 LiDAR (Light Detection and Ranging) ist eine Form von hochpräziser Bereichsermittlung ähnlich einem Radarsystem, das 
 Laserstrahlen als electromagnetische Emissionen nutzt. Eines der LiDAR Systems' 
-Produkte ist ein "Punktwolken"-Daten-Produkt, das eine Serie von Punktmessungen erfasst, die eine
-eine Entfernung von einem Sensor zu einer empfangenen Emission darstellen.##
+Produkte ist ein "Punktwolken"-Daten-Produkt, das eine Serie von Punktmessungen erfasst, die eine Entfernung von einem Sensor zu einerr empfangenen Emission darstellen.
 Ein übliches Speicherformat für diese Punktwolken ist das ASPRS LAS Format.
 
 Kernfunktionen
