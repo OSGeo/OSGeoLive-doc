@@ -90,6 +90,6 @@ Daten editieren mit WFS-T
 Wie geht es weiter?
 ================================================================================
 
-Um mehr über TinyOWS zu erfahren, dient die Siete `User Documentation`_ auf der TinyOWS Homepage als Ausgangspunkt.
+Um mehr über TinyOWS zu erfahren, dient die Seite `User Documentation`_ auf der TinyOWS Homepage als Ausgangspunkt.
 
 .. _`User Documentation`: http://tinyows.org/trac/wiki/UserDocumentation

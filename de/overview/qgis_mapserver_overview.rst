@@ -63,4 +63,4 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart (English) <../../en/quickstart/qgis_mapserver_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/qgis_mapserver_quickstart>`

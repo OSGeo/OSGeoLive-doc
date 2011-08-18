@@ -83,7 +83,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 1.6.0
+**Software Version:** 1.7.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
@@ -94,4 +94,4 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart (English) <../../en/quickstart/qgis_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/qgis_quickstart>`
