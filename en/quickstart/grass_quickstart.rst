@@ -29,12 +29,7 @@ then click on [Start Grass].
   :alt: screenshot
   :align: right
 
-This will launch GRASS with our brand new GUI written in wxPython. At
-the time of writing we have gotten just about all of the kinks out of
-it and are nearly ready to call it (and GRASS 6.4.0) complete. The old
-Tcl/Tk GUI is still available if you prefer to use that; you can start
-it by typing ``g.gui --ui`` on the command line.
-
+This will launch GRASS GUI.
 If you are on a netbook with a very small display (800x600 resolution)
 the startup screen might get a little scrunched and the [Start GRASS]
 button hidden behind the location and mapset lists. If this happens to
