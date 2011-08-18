@@ -6,7 +6,7 @@
 .. _nc_dataset-overview:
 
 .. image:: ../../images/logos/OSGeo_compass_with_text_square.png 
-  :scale: 100 %
+  :scale: 90 %
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -33,7 +33,7 @@ Data are provided at three hierarchical levels:
 * a small watershed in rural area with data resolutions of 1m-3m (see image).
 
 ..  image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
-  :scale: 50 %
+  :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right
 
