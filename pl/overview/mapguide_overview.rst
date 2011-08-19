@@ -1,5 +1,7 @@
-:Author: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
+:Author: Trevor Wekel
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapguide-overview:
@@ -20,7 +22,7 @@
 MapGuide Open Source
 ================================================================================
 
-Web Service
+Usługi sieciowe
 --------------------------------------------------------------------------------
 
 `MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure.
@@ -37,19 +39,19 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
 Główne funkcje
 --------------------------------------------------------------------------------
 
-**Interactive Map Viewing**
+**Interaktywne przeglądanie map**
 
-* Dynamic browser-based viewer 
-* Feature selection and properties 
-* Buffering, querying 
-* Printing and Plotting
+* Dynamiczna przeglądarka bazująca na przeglądarce internetowej 
+* Wubór obiektów oraz ich właściwiści 
+* Buforowanie, zapytania 
+* Wydruki
 
-**Quality Cartographic Output**
+**Wyjście kartograficzne**
 
-* Scale-dependent detail
-* Rule-driven thematic stylization
-* Anti-aliased image rendering
-* True color support 
+* Szczegółowość zależna od skali
+* Tematyczna stylizacja oparta na regułach
+* Renderowanie obrazów z wykorzystaniem antyaliasingu
+* Obsługa true color 
 
 **Build-in Resource Database for Manageability**
 
@@ -74,14 +76,14 @@ Główne funkcje
 * Create, manipulate, and analyze geometry
 * Manipulate runtime maps and layers
 
-**Fast, Scalable, Secure Server Platform**
+**Szybka, skalowalna, bezpieczna platforma serwerowa**
 
 * Fully multi-threaded and takes advantage of multi-core servers
 * Load balancing among servers
 * Pooled database connections
 * Integrated tile caching
 
-**Multiple Platform Support**
+**Wieloplatformowość**
 
 * Deploy on Microsoft Windows or Linux
 * Serve applications with Apache or Microsoft IIS
@@ -99,7 +101,7 @@ Szczegóły
 
 **Licencja:** Mniejsza Powszechna Licencja Publiczna GNU (LGPL) 
 
-**Wersja programu:** 2.2.0
+**Wersja programu:** 2.4.0 Pre-Release
 
 **Systemy operacyjne:** Linux, Windows
 
@@ -109,6 +111,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/mapguide_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/mapguide_quickstart>`
 
 
