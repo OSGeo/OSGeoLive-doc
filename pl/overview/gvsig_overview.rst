@@ -1,5 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gvsig-overview:
@@ -61,7 +63,7 @@ Główne funkcje
   * Katalogi: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetery: ADL, WFS, WFS-G
   
-* Ponad 290 algorytmów przestrzennych poprzez integrację SEXTANTE_ i systemu GRASS 
+* Ponad 290 algorytmów przestrzennych poprzez integrację biblioteki SEXTANTE i systemu GRASS 
   
 * Zintegrowane zaawansowane narzędzia CAD:
 
@@ -114,4 +116,4 @@ Szczegóły
 Szybkie wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/gvsig_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/gvsig_quickstart>`
