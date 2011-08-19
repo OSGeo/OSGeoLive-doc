@@ -1,6 +1,8 @@
 :Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -35,7 +37,7 @@ and editing geographic objects.
 
 MapFish also provides a complete RIA-oriented JavaScript toolbox, a JavaScript
 testing environment, and tools for compressing JavaScript code. The JavaScript
-toolbox is composed of the `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`, 
+toolbox is composed of the `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` , 
 `GeoExt <http://www.geoext.org>`_ JavaScript toolkits.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
@@ -67,6 +69,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/mapfish_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/mapfish_quickstart>`
 
 
