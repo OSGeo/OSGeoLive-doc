@@ -8,10 +8,11 @@ Zawartość |osgeo-live-version|
 
 Klienci w przeglądarce internetowej
 --------------------------------------------------------------------------------
-* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`]
-* :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`]
-* :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`]
-* :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`]
+* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeklądarce internetowej
+* :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeklądarce internetowej
+* :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu
+* :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
+* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - portal Web GIS
 
 Zarządzanie kryzysowe
 --------------------------------------------------------------------------------
@@ -22,7 +23,7 @@ Systemy zarządzania bazami danych
 --------------------------------------------------------------------------------
 * :doc:`postgis_overview` - [:doc:`Wprowadzenie <../quickstart/postgis_quickstart>`] - przestrzenna baza danych
 * :doc:`spatialite_overview` - [:doc:`Wprowadzenie <../quickstart/spatialite_quickstart>`] - lekka przestrzenna baza danych
-* :doc:`rasdaman_overview` - [:doc:`Wprowadzenie <../quickstart/rasdaman_quickstart>`] - baza danych wielowymiarowych rastrów
+* :doc:`rasdaman_overview` - [:doc:`Wprowadzenie <../quickstart/rasdaman_quickstart>`] - wielowymiarowya rastrowa baza danych
 * :doc:`pgrouting_overview` - [:doc:`Wprowadzenie <../quickstart/pgrouting_quickstart>`] - trasowanie dla PostGIS
 
 Desktop GIS
@@ -79,12 +80,14 @@ Usługi sieciowe
 Dane
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - zestaw danych przestrzennych
+* :doc:`nc_dataset_overview` - zestaw danych edukacyjnych OSGeo dla Północnej Karoliny
+* :doc:`osm_dataset_overview` - próbka żywych danych z OpenStreetMap
 
 Biblioteki geoprzesrzenne
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations
-* :doc:`liblas_overview`  - libLAS LiDAR Data Access
+* :doc:`geotools_overview` - zestaw narzędzi GIS w Javie
+* :doc:`metacrs_overview` - przeliczenia pomiędzy układami
+* :doc:`liblas_overview`  - dostęp do danych LiDAR
 
 Instalatory dla Windows i Apple
 --------------------------------------------------------------------------------
