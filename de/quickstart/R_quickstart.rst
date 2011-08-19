@@ -197,7 +197,7 @@ Pakete, um die notwendige Funktionalität zu bekommen:
 	> library(sp)
 	> library(maptools)
 
-	> countries = readShapeSpatial("/usr/local/share/data/natural_earth/10m-admin-0-countries.shp")
+	> countries = readShapeSpatial("/usr/local/share/data/natural_earth/10m_admin_0_countries.shp")
 	> places = readShapeSpatial("/usr/local/share/data/natural_earth/10m_populated_places_simple.shp")
 	> plot(countries)
 
