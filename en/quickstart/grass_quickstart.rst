@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: (c) 2011 by The OSGeo Foundation
 
@@ -22,7 +22,9 @@ Running
 To run GRASS on the Live DVD, click on the GRASS link on the desktop.
 From the "Welcome to GRASS" window select either the Spearfish or North
 Carolina (nc_spm_08) dataset for the location, and "user1" for the mapset,
-then click on [Start Grass].
+then click on [Start Grass]. The values given in this tutorial were written
+for the Spearfish dataset, some slight adjustments may be needed for the NC
+dataset.
 
 .. image:: ../../images/screenshots/800x600/grass-startup.png
   :scale: 40 %
@@ -59,8 +61,8 @@ In a similar fashion add the "`roads`" vector layer from the PERMANENT
 mapset by clicking on the toolbar button with a "+" and a bent poly-line
 which looks a bit like a "V".
 
-Over in the Map Display window toolbar click on the eyeball button to
-render the view.
+If you need to, right click on the raster map layer and choose "Zoom to
+selected layer(s)".
 
 You should now see the maps displayed.
 
@@ -86,9 +88,11 @@ right to close the profile window.
 Create a random surface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now let's create a new map. Select :menuselection:`Raster --> Generate 
+Now let's create a new map. First set the computational region to the default
+bounds with :menuselection:`Settings --> Region --> Set region`, ticking
+"Set from default region", and clicking [Ok]. Next select :menuselection:`Raster --> Generate 
 surfaces --> Fractal surface` from the menu (near the bottom);
-give your new map a name; adjust any options you like in the Options
+give your new map a name; and adjust any options you like in the "Optional"
 tab (the defaults are fine); and click [Run]. You can then [Close] the
 *r.surf.fractal* module's dialog window.
 
@@ -104,7 +108,7 @@ Now add your new raster layer to the layer list as you did before with
 the elevation raster map, except this time it will be in your "user1"
 working mapset. You might un-tick the elevation layer check-box
 now so that the two don't draw over the top of each other. Click on the
-eyeball to view your new map.
+eyeball to view your new map if it doesn't render automatically.
 The colors might not be as you'd like so let's change them. With the
 fractal DEM selected in the layer list, in the
 `Raster` menu select :menuselection:`Manage colors --> Color Tables`.
@@ -136,8 +140,9 @@ down), and the module control dialog will appear. With the elevation
 map name selected as the input map click [Run]. Now add the new
 elevation.shade @user1 map into your layer list and un-tick the other
 raster layers, then click the eyeball to re-render. (If you get sick of
-clicking the eyeball all the time you can tick the "Render" box in the
-bottom right of the Map Display window to have that happen automatically)
+clicking the eyeball all the time you can make sure the the "Render" box
+in the bottom right of the Map Display window is ticked to have that
+happen automatically)
 
 Watersheds and streams
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -154,17 +159,19 @@ Back in the Layer Manager window add those two new raster maps to the
 layer list and make sure that they are the only two which are ticked
 for display in the box to the left of the layer name. Right click on
 the elev.basins raster map layer name and select "Change opacity level".
-Set it to about 50% then re-render the Map Display.
+Set it to about 50% then re-render the Map Display. Drag a map layer (such
+as the earlier shaded relief map) to lower down in the layer list if you
+wish for it to be drawn behind the other map layers.
 
 .. image:: ../../images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
 
-In the GIS Layer Manager window click on the third button in from the
+In the GIS Layer Manager window click on the fourth button in from the
 right to add a grid layer. For size of grid put 0:03 for 0 degrees and
 3 minutes (format is D:M:S), then in the "Optional" tab tick Draw
-geographic grid and press [Run] and re-render.
+geographic grid and press [Ok] and re-render.
 
 To add a scalebar go to the Map Display window and press the "Add
 map elements" button to the right of where you selected the Profile tool
@@ -177,9 +184,9 @@ and [Ok] again. Drag your new legend over to the right side of the map
 canvas.
 
 Now you may be thinking to yourself that these fonts are a bit bare.
-That's easily fixed in the GIS Layer Manager menus open :menuselection:`Config  --> 
-Preferences` and in the Display tab click the [Set font] button and
-then [Apply] in the Preferences window. You will have to do a full
+That's easily fixed in the GIS Layer Manager menus open :menuselection:`Settings --> 
+Preferences` and in the Display tab click the [Set font] button, choose
+one, and then [Apply] in the Preferences window. You will have to do a full
 re-render to see the change so click on the re-render button next to the
 eyeball. The fonts will now be much prettier.
 
