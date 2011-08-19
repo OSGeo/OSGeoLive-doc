@@ -68,7 +68,7 @@ Select :menuselection:`Data --> Cloud Cover` and the view should change.
 If you downloaded data for the Gulf of Mexico you'll be interested to view
 the CAPE data. "CAPE" stands for Convective Available Potential Energy at
 ground level. It is a measure of atmospheric instability, and high values
-(1000s of J/kg) indicate a threat of thunderstorms and/or tornados.
+(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes.
 
 If you downloaded data for southern Africa cloud cover may be more interesting.
 
