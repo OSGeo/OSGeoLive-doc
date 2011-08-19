@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.0
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _osm-overview:
