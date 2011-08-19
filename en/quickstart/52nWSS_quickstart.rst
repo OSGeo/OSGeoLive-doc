@@ -34,7 +34,7 @@ For each protected service, called *Enforcement Point*, the table contains the b
  
 To request the capabilities of the WMS
 
-5) Request http://localhost:8080/wss/service/wms_demis/httpauth?SERVICE=WMS&REQUEST=GetCapabilties in a browser
+5) Request http://localhost:8080/wss/service/wms_demis/httpauth?SERVICE=WMS&REQUEST=GetCapabilities in a browser
 
 6) Authenticate as ``alice``/``alice`` to get access with full permissions.
 
