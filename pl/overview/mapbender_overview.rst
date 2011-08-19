@@ -1,5 +1,7 @@
 :Author: Astrid Emde
-:Version: osgeo-live4.5
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapbender-overview:
@@ -81,7 +83,7 @@ Szczegóły
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Wersja programu:** 2.7
+**Wersja programu:** 2.7.2
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
@@ -91,6 +93,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/mapbender_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/mapbender_quickstart>`
 
 
