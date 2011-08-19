@@ -1,5 +1,7 @@
 :Author: Sergio Baños Calvo
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _kosmo-overview:
@@ -39,13 +41,13 @@ Obsługiwane formaty:
 Kluczowe funkcje:
 
 * Przyjazne dla użytkownika GUI, nacelowane na szybkość uczenia się 
-* Dostępny w 11 językach (angielskim, hiszpańskim, włoskim, niemieckim, chorwackim, czeskim, rosyjskim, słowackim, katalońskim, baskijskim, portugalskim - wersja brazylijska)
+* Dostępny w 12 językach (angielskim, hiszpańskim, włoskim, niemieckim, chorwackim, czeskim, rosyjskim, słowackim, katalońskim, baskijskim, portugalskim - wersja brazylijska, fińskim)
 * Zaawansowane moduły wydruku, bazujące na OpenOffice offimatic suite (jako rozszerzenie)
 * Reguły spójności topologicznej : przed/w trakcie/po edycji
 * Narzędzia czyszczenia i walidacji topologii (przecięcia/eliminacja/czyszczenie)
 * Kreator geoprocesingu: buforowanie/agregacja/łączenie/wycinanie/przecinanie/złączenie przestrzenne/różnice (jako rozszerzenie)
 * Narzędzie georeferencji rastrów (jako rozszerzenie)
-* Zintegrowany Sextante 0.5 (jako rozszerzenie)
+* Zintegrowany Sextante 0.6 (jako rozszerzenie)
 
 Zaimplementowane standardy
 --------------------------------------------------------------------------------
@@ -62,7 +64,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 2.0
+**Wersja programu:** 2.0.1
 
 **Systemy operacyjne:** Windows, Linux
 
@@ -74,5 +76,5 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/kosmo_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/kosmo_quickstart>`
 
