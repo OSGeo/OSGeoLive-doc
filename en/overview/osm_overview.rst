@@ -68,13 +68,13 @@ Details
 
 **Software Versions:**
 
-* JOSM: Latest Testing (svn r3751)
+* JOSM: Latest Testing (svn r4279)
 
-* Merkaartor: 0.14+
+* Merkaartor: 0.17.2
 
-* Gosmore: 2009/06/24
+* Gosmore: 2010/07/11
 
-* Osmarender: SVN early-2011
+* Osmarender: SVN mid-2011
 
 * osm2pgsql: 0.69 (svn r22215)
 
