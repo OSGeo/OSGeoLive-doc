@@ -78,11 +78,11 @@ Import it with:
 
 ::
 
-  bzip2 -dc /usr/local/share/data/osm/feature_city.osm.bz2 | gosmore rebuild
+  bzip2 -dc /usr/local/share/data/osm/Denver_CBD.osm.bz2 | gosmore rebuild
 
 This will create gosmore.pak and only needs to be run once. You can then
-search for locations within the OSM dataset, for example "Convention
-Center". Use the middle and right mouse buttons to set the origin and
+search for locations within the OSM dataset, for example "Zoo".
+Use the middle and right mouse buttons to set the origin and
 destination for shortest path routing. Use the "O" button to access the
 program options, and the "3D" button to get a perspective view useful
 for in-car GPS navigation.
