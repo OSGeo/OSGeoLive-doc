@@ -30,7 +30,7 @@ Core Features
   :align: right
 
 * Visualization of meteorologic data from files in GRIB format
-* Automatic download of forecast model output directly from NOAA
+* Automatic download of weather and wave forecasts
 * Automatic download from IAC (fleetcode) data
 * Play animations of 5-day forecasts
 * Create your own regional weather maps (worldwide), or view a detailed quantitative forecast for a particular location.
@@ -43,7 +43,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 5.0.2
+**Software Version:** 5.0.3
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
