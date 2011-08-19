@@ -52,8 +52,10 @@ Getting Ushahidi Up and Running
    **"CREATE DATABASE ushahidi;"** -- This should create a database called ushahidi
    
    Followed by this command.
+   
    **"GRANT ALL PRIVILEGES ON ushahidi.* TO 'user'@'localhost' IDENTIFIED BY 'user';"**
-   This should create a username **"user"** and a password **"user"**
+   
+   -- This should create a username **"user"** and a password **"user"**
 
    Now go back to the Ushahidi web installer step 2 and fill in the details.
 
