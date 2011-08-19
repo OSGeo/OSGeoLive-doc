@@ -33,10 +33,29 @@ Getting Ushahidi Up and Running
    name is **"user"**, the password is also **"user"**. The database host is 
    **"localhost"**. Then continue. In the *General* setup page choose a
    site name (title) for your website such as **OSGeo demo** and if you like
-   tag-line subheading as well. The email address it asks you for is used 
+   a tag-line subheading as well. The email address it asks you for is used 
    for receiving automatic submissions which it will process and add to the
    database and maps, and send automated reports from. For now set it to 
-   something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**. 
+   something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**.
+
+   **Note:** If Ushahidi complains about this **"Oops! We couldn't make a 
+   connection to the database server with the credentials given. Please make 
+   sure they are correct."**. This means the installer script couldn't create 
+   the database credentials. This has to be done manually before you can continue 
+   with the installation. Issue these commands assuming you have logged into the 
+   system as root.
+
+   **"mysql -uroot -p"** -- This should prompt you for mysql server's root 
+   password. Enter the root password.
+   
+   Then enter the command below to create a new user.
+   **"CREATE DATABASE ushahidi;"** -- This should create a database called ushahidi
+   
+   Followed by this command.
+   **"GRANT ALL PRIVILEGES ON ushahidi.* TO 'user'@'localhost' IDENTIFIED BY 'user';"**
+   This should create a username **"user"** and a password **"user"**
+
+   Now go back to the Ushahidi web installer step 2 and fill in the details.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
