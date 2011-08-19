@@ -1,5 +1,7 @@
 :Author: Dane Springmeyer
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapnik-overview:
@@ -17,29 +19,31 @@ Mapnik
 Redakcja kartograficzna
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik jest zestawem narzędzi służącym do tworzenia pięknych map, z przejrzystymi, miękkimi granicami obiektów,  
-za pomocą wysokiej jakości grafiki z anty-aliasingiem, inteligentnego rozmieszczania etykiet oraz skalowalnych symboli SVG. Najbardziej znane użycie Mapnika to renderowanie głównych warstw Open Street Map.
+Mapnik jest zestawem narzędzi służącym do tworzenia ładnych map, z przejrzystymi, 
+miękkimi granicami obiektów (za pomocą wysokiej jakości grafiki z anty-aliasingiem), 
+inteligentnym rozmieszczeniem etykiet oraz skalowalnymi symbolami SVG. Najbardziej znane 
+użycie Mapnika to renderowanie głównych warstw Open Street Map.
 
-Zwykle Mapnik był używany w aplikacjach opartych na pythonie, dostarczających map w Internecie, jednakże
-ulepszenie skalowalności spowodowało, że Mapnik ostatnio zaczął być również używany do redakcji wysokiej rozdzielczości map papierowych.
+Zwykle Mapnik był używany w aplikacjach map internetowych opartych na pythonie, jednakże
+ulepszenie skalowalności sprawiło, że Mapnik jest ostatnio używany również do redakcji 
+wysokiej rozdzielczości map papierowych.
 
 .. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right
 
-Essentially a collection of geographic objects (mapa, warstwa, źródło danych,
+Będąc w zasadzie zbiorem obiektów geograficznych (mapa, warstwa, źródło danych,
 obiekt, geometria), biblioteka nie opiera się na "systemach okienkowych" i 
-może być używana w każdym środowisku serwerowym. 
-It is intended to play fair
-in a multi-threaded environment and is aimed primarily, but not
-exclusively, at web-based development.
+może być używana w każdym środowisku serwerowym. Zamierzeniem było funkcjonowanie 
+w wielowątkowych środowiskach, jak również pierwotnie zakładano głównie, 
+acz nie wyłącznie, rozwój w środowisku internetowym.
 
-Wysokopoziomowe High-level Python bindings (boost.python) facilitate szybki rozwój aplikacji, 
+Wysokopoziomowe skrypty Pythona (boost.python) ułatwiają szybki rozwój aplikacji, 
 nacelowany na zope3, django itp.
 
 Mapnik jest wieloplatformowy. Pakiety są dostępne dla większości dystrybucji Linuxa
-a dla Mac OS X i Windows powszechnie używane są instalatory.
+a dla Mac OS X oraz Windows powszechnie używane są instalatory.
 
 
 Szczegóły
@@ -49,7 +53,7 @@ Szczegóły
 
 **Licencja:** Mniejsza Powszechna Licencja Publiczna GNU (LGPL)
 
-**Wersja programu:** 0.7.0
+**Wersja programu:** 0.7.1
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
@@ -60,6 +64,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/mapnik_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/mapnik_quickstart>`
 
 
