@@ -1,5 +1,7 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _gmt-overview:
@@ -47,7 +49,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 4.5.1
+**Wersja programu:** 4.5.2
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 
@@ -59,6 +61,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/gmt_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/gmt_quickstart>`
 
 
