@@ -43,8 +43,8 @@ Documentation Contributors
 
 The table below credits the contributors for each of the documents on OSGeo-Live.
 
-.. csv-table:: OSGeo-Live Document Licenses
-   :header: "Document", "Contributor(s)", "License(s)"
+.. csv-table:: OSGeo-Live Document Contributors
+   :header: "Document", "Author(s)", "Reviewers(s)", "License(s)"
    :file: ../licenses.csv
 
 Disclaimer
