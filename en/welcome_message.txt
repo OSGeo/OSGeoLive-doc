@@ -1,7 +1,7 @@
 Welcome to the OSGeo Live GIS DVD.
 
 
-See the road-sign Help icon on the Desktop for information
+See the road-sign Help icon on the Desktop for information      
 about the Live disc and virtual-machine, including a
 synopsis of bundled geospatial packages and a series of
 quick-start short tutorials.
