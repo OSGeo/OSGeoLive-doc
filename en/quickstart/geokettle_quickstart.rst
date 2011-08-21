@@ -31,6 +31,7 @@ Start GeoKettle
 #. You will be prompted with the following dialog. Fill in the repository information or simply click the "No repository" button to enter the GeoKettle's workbench
 
   .. image:: ../../images/screenshots/800x600/geokettle_welcome.png
+    :scale: 80 %
 
 Workbench
 ================================================================================
@@ -38,6 +39,8 @@ Workbench
 As illustrated in the following screenshot, the Workbench window is composed of different panels.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_workbench.png
+    :scale: 50 %
+    :align: right
 
 The left part acts as a catalog containing all the steps which could compose a data transformation. The right part of the workbench is the area where the transformation itself would be designed and runned/debugged.
 
@@ -51,6 +54,7 @@ To load an existing transformation, select :menuselection:`File --> Open`. Brows
 The following picture shows the sample « intersection » transformation. You should observe that the content of the two main parts which compose the workbench have changed.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_intersection_transformation.png
+    :scale: 80 %
 
 A description of the transformation and optionnal directives can be seen in the yellow tooltip area.
 
@@ -75,6 +79,7 @@ To create a new transformation, select :menuselection:`File --> New --> Transfor
 As shown in the following picture, all available steps are listed by category in the left area of the workbench. Expand any category to see its available steps.
 
   .. image:: ../../images/screenshots/800x600/geokettle_your_transformation.png
+    :scale: 80 %
 
 To add a new step to the transformation, drag it from the **Steps** panel to the **transformation** panel. You may then customize this new added step to your transformation by double clicking on it.
 
@@ -103,6 +108,7 @@ When executing a transformation, a new panel appears below the one where the tra
 The **Step Metrics** tab (shown in the the next figure) will be initially displayed. You can see in this tab general information regarding the transformation's dataflow such as the number of rows read, written, in input and in output in each step. The column **Active** informs the user if the step is started, running, finished, aborted, etc. The time ellapsed since the step has been started is shown in the column **Time**, as well as the average speed (column **Speed**) of the step (rows/seconds).
 
   .. image:: ../../images/screenshots/1024x768/geokettle_running_transformation.png
+    :scale: 70 %
 
 
 **Previewing a transformation**
@@ -110,6 +116,7 @@ The **Step Metrics** tab (shown in the the next figure) will be initially displa
 Trying to execute a transformation may result in errors in the **Execution Results** panel (see next figure). Please then review the content of the **Logging** tab. There is always a lot of usefull information dealing with the source and reason of the error. Modify the parameters of the faulty step and restart the transformation.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
+    :scale: 70 %
 
 To help in finding the source of an error, you can also preview the results of a transformation from another step earlier in the workflow. To do so, right click on the step, and select :menuselection:`Preview` in the popup menu that appears. This way, you can see in a tabular and cartographic way what the data looks like at this point in the overall process without executing the whole transformation.
 
