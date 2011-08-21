@@ -14,6 +14,8 @@ Attributing OSGeo-Live Documentation
 As per the `terms of the Creative Commons license <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, if you include OSGeo-Live documentation into a new document, you will need to attribute the contributors.
 Further, if Quickstarts are included, which are licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_ license, then the new document will also need to be licenced under the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 
+Note that images are not necessarily provided under the same CC license as the text; check with the author.
+
 You may use attribution text similar to one of the following:
 
 **Verbose, suitable for a 100 page thesis:**
