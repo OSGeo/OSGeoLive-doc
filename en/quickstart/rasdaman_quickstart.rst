@@ -1,4 +1,5 @@
-:Author: Michael Owonibi(m.owonibi@jacobs-university.de), Peter Baumann (p.baumann@jacobs-university.de)
+:Author: Michael Owonibi (m.owonibi@jacobs-university.de)
+:Author: Peter Baumann (p.baumann@jacobs-university.de)
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
