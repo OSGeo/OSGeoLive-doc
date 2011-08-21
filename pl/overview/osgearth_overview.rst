@@ -1,4 +1,6 @@
 :Author: Pirmin Kalberer
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -14,11 +16,15 @@
 osgEarth
 ================================================================================
 
-Terrain rendering toolkit
+Narzędzia do modelowania terenuTerrain rendering toolkit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_ (OSG), an open source, high performance, 3D graphics toolkit.  Just create a simple XML file, point it at your imagery, elevation, and vector data, load it into your favorite OSG application, and go!
-osgEarth supports all kinds of data and comes with lots of examples to help you get up and running quickly and easily. 
+osgEarth jest zestawem skalowalnych narzędzi do renderowania terenu w oparciu o 
+OpenSceneGraph_ (OSG). Posiada otwarte źródła, jest wysoko wydajny i obsługuje 
+grafikę 3D. Stwórz prosty plik XML, umieść go nad swoim zobrazowaniem, rzeźbą terenu,
+ danymi wektorowymi i wczytaj do swojej ulubionej aplikacji OSG.
+osgEarth obsługuje wszystkie rodzaje danych, a także zawiera wiele przykładów służących 
+pomocą, aby szybko i sprawnie zacząć pracę. 
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
@@ -69,7 +75,7 @@ Szczegóły
 
 **Strona internetowa:** http://osgearth.org/
 
-**Licencja:** GNU Lesser General Public License (LGPL) 
+**Licencja:** GNU Mniejsza Powszechna Licencja Publiczna (LGPL) 
 
 **Wersja programu:** 2.0
 
@@ -83,6 +89,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/osgearth_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/osgearth_quickstart>`
 
 

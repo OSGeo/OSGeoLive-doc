@@ -1,4 +1,6 @@
 :Author: Gérald Fenoy
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -80,6 +82,6 @@ Szczegóły
 Szybkie wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/zoo-project_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/zoo-project_quickstart>`
 
 

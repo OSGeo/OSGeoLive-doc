@@ -23,7 +23,7 @@ Systemy zarządzania bazami danych
 --------------------------------------------------------------------------------
 * :doc:`postgis_overview` - [:doc:`Wprowadzenie <../quickstart/postgis_quickstart>`] - przestrzenna baza danych
 * :doc:`spatialite_overview` - [:doc:`Wprowadzenie <../quickstart/spatialite_quickstart>`] - lekka przestrzenna baza danych
-* :doc:`rasdaman_overview` - [:doc:`Wprowadzenie <../quickstart/rasdaman_quickstart>`] - wielowymiarowya rastrowa baza danych
+* :doc:`rasdaman_overview` - [:doc:`Wprowadzenie <../quickstart/rasdaman_quickstart>`] - wielowymiarowa rastrowa baza danych
 * :doc:`pgrouting_overview` - [:doc:`Wprowadzenie <../quickstart/pgrouting_quickstart>`] - trasowanie dla PostGIS
 
 Desktop GIS
