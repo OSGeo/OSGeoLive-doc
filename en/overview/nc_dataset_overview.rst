@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: 
+:Reviewer: Cameron Shorter
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -11,14 +11,13 @@
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
 
-
-The OSGeo North Carolina, USA Educational dataset
+OSGeo North Carolina, USA Educational dataset
 ================================================================================
 
 Map Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. the following text is courtesy of Helena Mitasova & Markus Neteler
+.. Comment: the following text is courtesy of Helena Mitasova & Markus Neteler
 
 This data set is a comprehensive collection of raster, vector and imagery data covering parts of North Carolina (NC), USA, prepared from public data sources provided by the North Carolina state and local government agencies and Global Land Cover Facility (GLCF).
 
@@ -32,7 +31,7 @@ Data are provided at three hierarchical levels:
 
 * a small watershed in rural area with data resolutions of 1m-3m (see image).
 
-..  image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right
@@ -41,9 +40,9 @@ Data are provided at three hierarchical levels:
 Core Features
 --------------------------------------------------------------------------------
 
-* County and state level raster, vector, and KML map layers with full meta-data, specifically selecteded to cover the wide needs of teaching introductory GIS courses and providing examples for software help pages and tutorials.
+* County and state level raster, vector, and KML map layers with full meta-data, specifically selected to cover the wide needs of teaching introductory GIS courses and providing examples for software help pages and tutorials.
 
-* The Creative Commons license means the data can be used, distributed, and modified by anyone. Without the usual legal encumberances of much publicly available geodata it is ideal for use in the classroom.
+* The Creative Commons license means the data can be used, distributed, and modified by anyone. Without the usual legal encumbrances of much publicly available geodata it is ideal for use in the classroom.
 
 
 Data Sets
@@ -64,7 +63,7 @@ Details
 
 **Website:** http://www.grassbook.org/data_menu3rd.php
 
-**License:** Creative Commons
+**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Data Version:** 2008
 
