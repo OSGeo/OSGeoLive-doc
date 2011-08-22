@@ -35,7 +35,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * Vector features are tagged with names and other attributes.
-* It is easy to extract local subsets of the data.
+* Extract local subsets of the data.
 * Data is stored as latitude-longitude WGS84 nodes, strings of nodes, and meta-features allowing for point, polyline, and area coverage.
 * Rich attribute tagging, often far more detailed than any other source.
 * A global repository of local knowledge.
