@@ -76,7 +76,7 @@ Gosmore
 
 ::
 
-  bzip2 -dc /usr/local/share/data/osm/feature_city.osm.bz2 | gosmore rebuild
+  bzip2 -dc /usr/local/share/data/osm/Denver_CBD.osm.bz2 | gosmore rebuild
 
 Αυτό θα δημιουργήσει το gosmore.pak.
 

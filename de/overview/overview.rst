@@ -81,6 +81,8 @@ Internet Dienste
 Daten
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - freie Geodaten
+* :doc:`nc_dataset_overview`
+* :doc:`osm_dataset_overview` - Beispiel-Extrakt von OpenStreetMap
 
 GIS Bibliotheken
 --------------------------------------------------------------------------------
