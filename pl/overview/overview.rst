@@ -8,8 +8,8 @@ Zawartość |osgeo-live-version|
 
 Klienci w przeglądarce internetowej
 --------------------------------------------------------------------------------
-* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeklądarce internetowej
-* :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeklądarce internetowej
+* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeglądarce internetowej
+* :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeglądarce internetowej
 * :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu
 * :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - portal Web GIS
@@ -39,7 +39,7 @@ Desktop GIS
 * :doc:`geopublisher_overview`- [:doc:`Wprowadzenie <../quickstart/geopublisher_quickstart>`] - atlasy multimedialne
 * :doc:`atlasstyler_overview` - [:doc:`Wprowadzenie <../quickstart/atlasstyler_quickstart>`] - edytor stylów (SLD)
 * :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
-* :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
+.. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
 
 Nawigacja i Mapy
 --------------------------------------------------------------------------------
@@ -73,15 +73,16 @@ Usługi sieciowe
 * :doc:`52nWPS_overview` - [:doc:`Wprowadzenie <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-* :doc:`tinyows_overview` - WFS-T Service
+* :doc:`tinyows_overview` - usługa WFS-T
 
-.. temp disabled to save disc space:  * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
+.. awaiting review: * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - katalog metadanych i sieciowe usługi katalogowe
+.. temp disabled to save on disc space:  * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
 
 Dane
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - zestaw danych przestrzennych
-* :doc:`nc_dataset_overview` - zestaw danych edukacyjnych OSGeo dla Północnej Karoliny
-* :doc:`osm_dataset_overview` - próbka żywych danych z OpenStreetMap
+* :doc:`nc_dataset_overview`
+* :doc:`osm_dataset_overview` - próbka danych z OpenStreetMap
 
 Biblioteki geoprzesrzenne
 --------------------------------------------------------------------------------
