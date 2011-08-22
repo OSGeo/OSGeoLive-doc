@@ -106,7 +106,7 @@ Example:
    details on how to download smaller chunks into an ``.osm`` file, or use
    *JOSM* or *Merkaartor* to download a smaller chunk.
    A smaller subset file called `Denver_CBD.osm` has been included for your
-   convenience.
+   convenience, but even that still make take a rather long time to process.
 
 ::
 
