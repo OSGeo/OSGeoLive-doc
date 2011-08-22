@@ -32,8 +32,8 @@ pycsw is an optional install on the OSGeo LiveDVD.  This QuickStart will describ
 .. To install pycsw, TODO (how do we install?)
 
 
-Testing
-=======
+Tester
+======
 
 To run the pycsw tester, open Firefox and navigate to http://localhost/pycsw/tester/index.html
 
