@@ -53,6 +53,7 @@ Application Quick Starts
   pgrouting_quickstart
   postgis_quickstart
   prune_quickstart
+  pycsw_quickstart
   qgis_mapserver_quickstart
   qgis_quickstart
   rasdaman_quickstart
