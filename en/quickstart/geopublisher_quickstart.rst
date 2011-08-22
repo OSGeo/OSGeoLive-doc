@@ -24,8 +24,8 @@ Geopublisher (Create and export atlases)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `First "Hands on Geopublisher" tutorial, English, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_EN.pdf>`_
 * `First "Hands on Geopublisher" tutorial, French, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher1_FR.pdf>`_
-* `Second "Hands on Geopublisher" tutorial, English, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_EN.pdf>`_
-* `Second "Hands on Geopublisher" tutorial, French, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_1/HandsOn-Geopublisher2_FR.pdf>`_
+* `Second "Hands on Geopublisher" tutorial, English, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_2/HandsOn-Geopublisher2_EN.pdf>`_
+* `Second "Hands on Geopublisher" tutorial, French, Created for version 1.3 <../../geopublishing/tutorial_Geopublisher_2/HandsOn-Geopublisher2_FR.pdf>`_
 
 AtlasStyler (Styling layers with SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

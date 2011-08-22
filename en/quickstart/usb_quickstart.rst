@@ -19,7 +19,7 @@ Requirements
 
 * A 4 GB USB flash drive, if using osgeo-live-mini
 * A 8 GB USB flash drive, if using osgeo-live
-* An OSGeo-Live DVD or ISO image (downloaded from: http://live.osgeo.org/download.html)
+* An OSGeo-Live DVD or ISO image (downloaded from: http://live.osgeo.org/en/download.html)
 
 Creating bootable USB drive from Ubuntu
 --------------------------------------------------------------------------------

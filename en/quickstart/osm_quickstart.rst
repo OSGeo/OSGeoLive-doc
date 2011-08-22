@@ -60,8 +60,7 @@ Merkaartor
 It's a bit more user friendly than JOSM, but has a few less features.
 
 * Homepage: http://merkaartor.be
-* Online help: http://www.merkaartor.org/Documentation/
-
+* Online help: http://merkaartor.be/wiki/merkaartor/Documentation
 
 Gosmore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
