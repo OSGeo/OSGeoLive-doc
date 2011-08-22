@@ -6,7 +6,7 @@
 .. _pycsw-overview:
 
 .. image:: ../../images/project_logos/logo-pycsw.png
-  :scale: 100 %
+  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
