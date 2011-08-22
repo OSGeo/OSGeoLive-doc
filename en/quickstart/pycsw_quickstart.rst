@@ -1,13 +1,13 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: 
 :Version: osgeo-live5.0
 :License: Creative Commons
 
 .. _pycsw-quickstart:
 
 .. image:: ../../images/project_logos/logo-pycsw.png
-  :scale: 100 %
+  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
@@ -26,21 +26,24 @@ pycsw is `Open Source`_, released under an MIT :ref:`license <license>`, and run
 
 pycsw is an optional install on the OSGeo LiveDVD.  This QuickStart will describe how to enable pycsw display the testing interface and access the pycsw endpoint.
 
-Installation
-============
+.. Installation
+.. ============
+.. 
+.. To install pycsw, TODO (how do we install?)
 
-To install pycsw, TODO (how do we install?)
 
-Tester
-======
+Testing
+=======
 
 To run the pycsw tester, open Firefox and navigate to http://localhost/pycsw/tester/index.html
 
-.. image:: /path/to/pycsw_tester.png
+.. image:: ../../images/screenshots/1024x768/pycsw_tester.png
+  :scale: 75 %
 
 The capabilities of the pycsw installation can be found at http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities.
 
-.. image:: /path/to/pycsw_getcapabilities_response.png
+.. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
+  :scale: 75 %
 
 For full functionality, configuration options, and adding metadata to the catalogue, please consult the `documentation`_ on the pycsw website.
 
@@ -49,3 +52,4 @@ For full functionality, configuration options, and adding metadata to the catalo
 .. _`2011`: http://www.kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
 .. _`Open Source`: http://www.opensource.org/
 .. _`documentation`: http://pycsw.org/documentation.html
+
