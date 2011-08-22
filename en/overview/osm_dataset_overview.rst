@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: 
+:Reviewer: Cameron Shorter
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -18,11 +18,13 @@ OpenStreetMap
 Map Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OpenStreetMap is a crowd sourced wiki-like map of the world which has grown up organically over the last few years to become one of the most detailed source of world wide local-scale map data available. The most visible aspect to it is the online web-tile interface from http://osm.org, but the heart of the project is the data itself. The underlying database is open for all to edit and extract from, and end-users are encouraged to custom render their own maps from this data. Fundamentally
-OSM's focus is on the data, the rich maps simply fall out of this.
+OpenStreetMap is a crowd sourced map of the world which has grown to become one of the most detailed sources of local-scale map data available. Source map data is created and maintained by thousands of volunteers from around the world, using processes similar to the maintaining of the wikipedia encyclopedia.
 
-OSM data can be imported, viewed, and rendered as vector layers in a number of dedicated editors as well as through plugins to popular GIS software such as Quantum GIS or ArcGIS.
+The most visible aspect to OSM is the online web-tile interface from http://osm.org, but the maps can also be viewed, imported, or edited in many applications such as Quantum GIS, OpenLayers, ArcGIS and dedicated OSM applications.
 
+The heart of the project is the underlying data which is open for all to edit, view, or create custom rendered maps. Fundamentally OSM's focus is on the data, the rich maps simply fall out of this.
+
+The OSGeo-Live distribution includes a city sized extract of OSM data which is used for examples by some applications.
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
@@ -33,13 +35,12 @@ Core Features
 --------------------------------------------------------------------------------
 
 * Vector features are tagged with names and other attributes.
-* It is easy to create local extracts from the master planet-wide PostGIS database.
+* It is easy to extract local subsets of the data.
 * Data is stored as latitude-longitude WGS84 nodes, strings of nodes, and meta-features allowing for point, polyline, and area coverage.
 * Rich attribute tagging, often far more detailed than any other source.
 * A global repository of local knowledge.
 
-
-Data Sets
+Data Sets included in OSGeo-Live
 --------------------------------------------------------------------------------
 
 Denver.osm.bz2:
