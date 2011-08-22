@@ -1,6 +1,5 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Reviewer: 
 :Version: osgeo-live5.0
 :License: Creative Commons
 
@@ -24,7 +23,7 @@ pycsw allows for the publishing and discovery of geospatial metadata.  Existing 
 
 pycsw is `Open Source`_, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
 
-pycsw is an optional install on the OSGeo LiveDVD.  This QuickStart will describe how to enable pycsw display the testing interface and access the pycsw endpoint.
+pycsw is installed by default on the OSGeo Live DVD.  This QuickStart will describe how to enable pycsw display the testing interface and access the pycsw endpoint.
 
 .. Installation
 .. ============
@@ -35,7 +34,7 @@ pycsw is an optional install on the OSGeo LiveDVD.  This QuickStart will describ
 Tester
 ======
 
-To run the pycsw tester, open Firefox and navigate to http://localhost/pycsw/tester/index.html
+To run the pycsw tester, use the pycsw launcher from the Web Services group, or open Firefox and navigate to http://localhost/pycsw/tester/index.html
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester.png
   :scale: 75 %

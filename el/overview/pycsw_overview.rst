@@ -1,4 +1,5 @@
 :Author: OSGeo-Live
+:Author: Tom Kralidis, Angelos Tzotsos
 :Version: osgeo-live5.0
 :License: Creative Commons
 
