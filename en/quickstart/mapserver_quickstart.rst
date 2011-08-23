@@ -63,6 +63,12 @@ Put the following content in it::
       "init=epsg:4326" 
     END
 
+    WEB
+      METADATA
+        ows_enable_request "*"
+      END
+    END
+
     LAYER
       NAME "Admin Countries"
       STATUS ON
@@ -99,6 +105,18 @@ If we look closer at the **LAYER** in our mapfile, we'll see that it contains a 
 
 .. _mapserver-quickstart-wms-request:
 
+
+Render a map image with MapServer using the command line
+========================================================
+
+Although MapServer is geared towards web applications, it can also produce images on the command line. This can be useful if you are looking for repetitive mapping, or while debugging.
+
+Open a terminal (Applications/Accessories/Terminal Emulator) and type
+
+ shp2img -m mapserver_quickstart.map -o mymap.png
+
+If this command runs succesfully, you are able to see your rendered map at file:///home/user/mymap.png .
+
 Render an map image with MapServer using a WMS **GetMap** request
 ================================================================================
 
@@ -106,7 +124,7 @@ Render an map image with MapServer using a WMS **GetMap** request
 
 Open the web browser and enter the following URL::
 
- http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=AGG/PNG&WIDTH=800&HEIGHT=600
+ http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 What does the above mean ?  If we put it in simple words, it's a `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** request that tells mapserver to "*use the following mapfile to render the specified layers as a png image based on some user-supplied parameters such as iamge size, geographical extent, projection, etc.*".  All layers specified in the "*&LAYERS=...*" property having *STATUS ON* in the mapfile in addition to all layers with *STATUS DEFAULT* will be rendered.  The result should look like the following :
 
@@ -140,7 +158,7 @@ Now we have 2 layer definitions in our MapFile.  Note that this new one we just 
 
 Let's take our previous WMS **GetMap** request and add our new "Lakes" layer to the image rendered.  We simply need to add the new layer name to the "LAYERS" property list, as such::
 
- http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=AGG/PNG&WIDTH=800&HEIGHT=600
+ http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 The image rendered by MapServer look like our previous map, but with addition of the lakes from our new layer:
 
