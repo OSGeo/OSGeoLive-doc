@@ -50,5 +50,5 @@ For full functionality, configuration options, and adding metadata to the catalo
 .. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
 .. _`2011`: http://www.kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
 .. _`Open Source`: http://www.opensource.org/
-.. _`documentation`: http://pycsw.org/documentation.html
+.. _`documentation`: http://pycsw.org/docs/documentation.html
 
