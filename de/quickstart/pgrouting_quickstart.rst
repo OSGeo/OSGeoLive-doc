@@ -35,13 +35,16 @@ pgRouting Starten
 			      List of relations
 	 Schema |        Name         |   Type   |  Owner   
 	--------+---------------------+----------+----------
-	 public | geography_columns   | view     | postgres
-	 public | geometry_columns    | table    | postgres
-	 public | spatial_ref_sys     | table    | postgres
-	 public | vertices_tmp        | table    | postgres
-	 public | vertices_tmp_id_seq | sequence | postgres
-	 public | ways                | table    | postgres
-	(6 Zeilen)
+	 public | classes         	| table	| user
+	 public | geography_columns   | view 	| user
+	 public | geometry_columns	| table	| user
+	 public | nodes           	| table	| user
+	 public | spatial_ref_sys 	| table	| user
+	 public | types           	| table	| user
+	 public | vertices_tmp    	| table	| user
+	 public | vertices_tmp_id_seq | sequence | user
+	 public | ways            	| table	| user
+	(9 Zeilen)
 
 * Führe die "Dijkstra-Shortest-Path" Funktion aus:
 
@@ -53,36 +56,38 @@ pgRouting Starten
 				 target::integer, 
 				 length::double precision as cost 
 				FROM ways', 
-			1888, 4738, false, false); 
+			100, 600, false, false); 
 
 .. code-block:: sql
 
-     vertex_id | edge_id |        cost         
-    -----------+---------+---------------------
-		  1888 |    2818 |  0.0989108306469789
-		  1555 |    2819 |   0.107183313746265
-		  2435 |    2820 |   0.179335285582576
-		   ... |     ... |                 ...
-		  4738 |      -1 |                   0
-    (33 Zeilen)
+	 vertex_id | edge_id |       cost    	 
+	-----------+---------+---------------------
+	       100 |    1457 |  0.0152981335887719
+	       554 |     543 |  0.0658986376594475
+	       553 |     542 |  0.0720522950545032
+	       ... |     ... |  ...
+	      1803 |    1902 |  0.1000754339802650
+	       600 |      -1 |                   0
+    (77 Zeilen)
 
 * Verwende eine Wrapper-Funktion, um das Routingergebnis in einem anderen Format auszugeben:
 
 .. code-block:: sql
 
 	SELECT gid, AsText(the_geom) AS the_geom 
-		FROM dijkstra_sp('ways', 1888, 4738);
+		FROM dijkstra_sp('ways', 100, 600);
 	
 .. code-block:: sql
 	
-      gid   |                              the_geom      
-    --------+---------------------------------------------------------------
-	   1407 | MULTILINESTRING((-105.0030875 39.7426587,...,-105.0037031 39.7434525))
-	   1408 | MULTILINESTRING((-105.0037031 39.7434525,-105.00401 39.7438456))
-	   2567 | MULTILINESTRING((-104.9976397 39.7384568,-104.9964751 39.7368603))
-	    ... | ...
-	   9441 | MULTILINESTRING((-104.9899868 39.7282956,...,-104.9888573 39.7273254))
-    (32 Zeilen)
+	  gid   |                              the_geom      
+	--------+---------------------------------------------------------------
+	    533 | MULTILINESTRING((-105.0205242 39.7613979,-105.0205115 39.7620158))
+	    534 | MULTILINESTRING((-105.0205115 39.7620158,-105.0205151 39.7632155))
+	    535 | MULTILINESTRING((-105.0205151 39.7632155,-105.0205098 39.764433))
+		... | ...
+	   9395 | MULTILINESTRING((-104.9921535 39.7209342,-104.9921516 39.722527))
+	   9400 | MULTILINESTRING((-104.9921793 39.7147876,-104.9923595 39.714781))
+	(76 Zeilen)
 
 * Mit dem Kommando :command:`\\q` verlässt man die PostgreSQL Shell wieder.
 
