@@ -83,7 +83,7 @@ Creating Contour Lines
 ================================================================================
 As a short introduction to SAGA vector capabilities, we will now generate 
 Contour Lines from the digital elevation model. This can be done by using 
-the **Shapes - Grid | Contour Lines From Grid** if you open the modules tab in the workspace, or you can equally well open the module using the menu: **Modules|Shapes|Shapes from Grid**. Choose your grid system and grid 
+the **Shapes - Grid | Contour Lines From Grid** if you open the modules tab in the workspace, or you can equally well open the module using the menu: **Modules|Shapes|Grid|Vectorization**. Choose your grid system and grid 
 (this has to be the elevation). You can leave the options as they are, but perhaps it is better to choose an equidistance of 50m instead of the standard 10m. 
 A few seconds later your contour map has been generated and you should find it back under the data tab in the workspace. Try opening your contour map in a new map. All contour lines now have the same colour, which is not that attractive. If you select your data set (in the workspace, data tab) and check the Settings in the Object Properties window, you can find a section: Display: color classification. You can change the classification from 'Unique symbol' to graduated color. Then you should still adjust the attribute which is used for this graduated color to the elevation. Press apply, and you are presented with coloured contour lines.
 
