@@ -46,6 +46,7 @@ and
 
 BlueTooth GPS users should take special care to read up about the no-probe
 option.
+
 .. (for this reason we have not started gpsd automatically)  still true?
 
 * 'xgps' is a good program to check that Gpsd can see your GPS ok.
@@ -92,6 +93,7 @@ Finding amenities
 With the *Find* tool you can search out for the nearest points of interest
 loaded into your SQLite waypoint database. e.g. *Find all pubs
 within 2 km of the conference hall*.
+
 .. POI db never materialized for Denver:  To get you started OpenStreetMap data for the conference's host country has been loaded.
 
 
