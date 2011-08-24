@@ -22,7 +22,7 @@ Narzędzia do modelowania terenuTerrain rendering toolkit
 osgEarth jest zestawem skalowalnych narzędzi do renderowania terenu w oparciu o 
 OpenSceneGraph_ (OSG). Posiada otwarte źródła, jest wysoko wydajny i obsługuje 
 grafikę 3D. Stwórz prosty plik XML, umieść go nad swoim zobrazowaniem, rzeźbą terenu,
- danymi wektorowymi i wczytaj do swojej ulubionej aplikacji OSG.
+danymi wektorowymi i wczytaj do swojej ulubionej aplikacji OSG.
 osgEarth obsługuje wszystkie rodzaje danych, a także zawiera wiele przykładów służących 
 pomocą, aby szybko i sprawnie zacząć pracę. 
 
