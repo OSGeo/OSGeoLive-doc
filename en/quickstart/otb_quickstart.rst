@@ -28,6 +28,9 @@ The OTB-Applications package provide lot's of interesting tools which facilitate
   * QT GUI : in a standalone graphical user interface 
   * QGIS plugin : as plugin directly usable in Quantum GIS 
 
+Sample data used in this quickstart can be found here:
+  * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
+
 Display metadata informations in an image 
 ================================================================================
 
