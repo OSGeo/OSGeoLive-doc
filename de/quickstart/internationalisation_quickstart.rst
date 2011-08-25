@@ -16,9 +16,8 @@ OSGeo-Live Quickstart Internationalisierung
 Es wurden viele geläufige Sprachen installiert. Um die Sprache auf Ihre Belange anzupassen, gehen Sie wie folgt vor:
 
    #. Abmelden (Log out)
-   #. Wählen Sie einen Benutzer im Auswahldialog der Benutzer 
    #. Im unteren Bereich werden Sie ein Menü finden, in dem Sie eine andere Sprache auswählen können
-   #. Wählen Sie Ihre bevorzugte Sprache und geben Sie das Passwort wie gewohnt für die Anmeldung ein
+   #. Wählen Sie Ihre bevorzugte Sprache und geben Sie das Passwort "user" für den Benutzer "user" wie gewohnt für die Anmeldung ein
    #. Wiederholen Sie den Vorgang, wenn Sie eine andere Sprache einstellen möchten
 
 Die Systemmenüs und viele Applikationen werden nun mit der ausgewählten Sprache erscheinen. Sollte einen Anwendung 
