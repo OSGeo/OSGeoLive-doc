@@ -31,7 +31,8 @@ Tastaturunterstützung
 --------------------------------------------------------------------------------
 Die Unterstützung für internationale Tastaturen ist ebenso installiert, Sie müssen das System jedoch auf Ihre Tastatur einstellen.
 Öffnen Sie hierfür im Menü :menuselection:`Application --> System --> Settings Manager` und wählen Sie im darauf folgenden Dialog 
-:guilabel:`Keybord` aus, um weitere Einstellungen vorzunehmen.
+:guilabel:`Keybord` aus, um weitere Einstellungen vorzunehmen. Es wird ein Passwort angefragt, um Änderungen an den Einstellungen
+vornehmen zu können, geben Sie "user" ein, wenn Sie als Benutzer "user" arbeiten.
 
    #. Klicken Sie auf den :guilabel:`Layout` -Tab im Keyboard Dialog
    #. Deaktivieren Sie die Option :guilabel:`Use system defaults`
