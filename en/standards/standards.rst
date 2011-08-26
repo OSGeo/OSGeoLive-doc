@@ -36,7 +36,6 @@ Acronyms in the figure are defined below. Some of these are “OGC standards” 
 * :doc:`wps_overview`
 * :doc:`csw_overview`
 * :doc:`sos_overview`
-* Sensor Model Language (SensorML)
 * Sensor Planning Service (SPS)
 * Web Terrain Service (WTS)
 * Grid Coverage Service
