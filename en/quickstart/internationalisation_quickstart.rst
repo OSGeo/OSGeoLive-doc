@@ -23,12 +23,12 @@ Many common languages are included on OSGeo-Live. To switch languages:
 
 The system menus and many of the applications will now appear in the language chosen. If a specific program continues to display in English, then the program doesn't have a translation available - please consider volunteering to write a translation. Contact the program of interest directly for more information.
 
-For additional languages see :menuselection:`Application --> System --> Language Support` (Requires an internet connection).
+For additional languages see :menuselection:`Applications --> System --> Language Support` (Requires an internet connection).
 
 Keyboard Support
 --------------------------------------------------------------------------------
 International keyboard support is installed, but you will need to configure the system for your specific keyboard. 
-To change settings open :menuselection:`Application --> Settings --> Settings Manager` in the menu and double-click on :guilabel:`Keyboard`
+To change settings open :menuselection:`Applications --> Settings --> Settings Manager` in the menu and double-click on :guilabel:`Keyboard`
 in the following dialog. Your password will be requested to allow configuration update, type "user" for the current user "user".
 
    #. Choose :guilabel:`Layout` tab in the Keyboard dialog

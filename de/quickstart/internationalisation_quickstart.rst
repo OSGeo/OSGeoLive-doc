@@ -25,12 +25,12 @@ weiterhin englische Menüs darstellen, liegt dafür aktuell keine Übersetzung v
 beisteuern? Dann kontaktieren Sie das Projekt direkt, um weitere Details zu klären.
 
 Zusätzliche Sprachen, die über den Installationsumfang hinausgehen, können Sie über das Menü 
-:menuselection:`Application --> System --> Language Support` installieren. Dies setzt jedoch eine verbindung zum Internet voraus.
+:menuselection:`Applications --> System --> Language Support` installieren. Dies setzt jedoch eine Verbindung zum Internet voraus.
 
 Tastaturunterstützung
 --------------------------------------------------------------------------------
 Die Unterstützung für internationale Tastaturen ist ebenso installiert, Sie müssen das System jedoch auf Ihre Tastatur einstellen.
-Öffnen Sie hierfür im Menü :menuselection:`Application --> System --> Settings Manager` und wählen Sie im darauf folgenden Dialog 
+Öffnen Sie hierfür im Menü :menuselection:`Applications --> Settings --> Settings Manager` und wählen Sie im darauf folgenden Dialog 
 :guilabel:`Keybord` aus, um weitere Einstellungen vorzunehmen. Es wird ein Passwort angefragt, um Änderungen an den Einstellungen
 vornehmen zu können, geben Sie "user" ein, wenn Sie als Benutzer "user" arbeiten.
 
