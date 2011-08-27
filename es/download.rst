@@ -38,4 +38,4 @@ Disco virtual (.vmdk) apropiado para utilizarse con VirtualBox, VMWare, KVM y ot
 Visita http://download.osgeo.org/livedvd para una completa lista de versiones,
 opciones de descarga y servidores espejo.
 
-[*] `Requisitos mínimos sugeridos: 512MB RAM, CPU  compatible 1GHz i688. No requiere disco duro. Los usuarios de Mac es conveniente que tengan un ratón USB.`
+[*] `Requisitos mínimos sugeridos: 768MB RAM, CPU  compatible 1GHz i688. No requiere disco duro. Los usuarios de Mac es conveniente que tengan un ratón USB.`

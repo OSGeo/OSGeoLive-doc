@@ -36,4 +36,4 @@ Przygotowany dysk wirtualny (.vmdk) do użycia na VirtualBox, VMWare, KVM i inny
 
 Aby zapoznać się z pełną listą wersji, opcji pobierania oraz adresami serwerów lustrzanych, idź do strony: http://download.osgeo.org/livedvd
 
-[*] `Sugerowane minimalne wymagania systemowe: 512MB RAM, CPU kompatybilne z 1GHz i688 CPU. Nie wymaga dostępu do twardego dysku. Użytkownikom Mac przyda się mysz na USB.`
+[*] `Sugerowane minimalne wymagania systemowe: 768MB RAM, CPU kompatybilne z 1GHz i688 CPU. Nie wymaga dostępu do twardego dysku. Użytkownikom Mac przyda się mysz na USB.`

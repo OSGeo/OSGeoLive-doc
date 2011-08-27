@@ -50,7 +50,7 @@ Gebe einen Namen für das Image an und wähle "Linux", "Ubuntu".
   .. image:: ../../images/screenshots/800x600/virtualbox_memory.png
     :scale: 70 %
 
-Setze den Arbeitsspeicher auf mindestens 512 MB.
+Setze den Arbeitsspeicher auf mindestens 768 MB.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %

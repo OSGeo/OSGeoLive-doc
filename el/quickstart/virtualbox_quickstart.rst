@@ -48,7 +48,7 @@
   .. image:: ../../images/screenshots/800x600/virtualbox_memory.png
     :scale: 70 %
 
-Δώστε σαν ποσό μνήμης τουλάχιστο 512 MB.
+Δώστε σαν ποσό μνήμης τουλάχιστο 768 MB.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %

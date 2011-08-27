@@ -37,5 +37,5 @@ Eine mit `7-Zip <http://www.7-zip.org/>`_ komprimierte Virtual Disk .vmdk Abbild
 
 Eine vollständige Liste aller Versionen, Downloadoptionen und Spiegelserver finden Sie unter http://download.osgeo.org/livedvd
 
-[*] `Minimale Systemanforderungen: 512MB RAM, 1GHz i688 kompatible
+[*] `Minimale Systemanforderungen: 768MB RAM, 1GHz i688 kompatible
 CPU. Es wird keine Festplatte benötigt. MacOS Anwender können eine Maus mit USB-Anschluß benutzen.`

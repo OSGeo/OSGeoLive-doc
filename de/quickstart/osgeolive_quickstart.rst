@@ -15,7 +15,7 @@ Dieser Quickstart beschreibt, wie die OSGeo-Live DVD gestartet wird.
 Systemvoraussetzungen
 --------------------------------------------------------------------------------
 
-* RAM: 512 MB, besser 1 GB.
+* RAM: 768 MB, besser 1 GB.
 * CPU: 1 GHz i686 oder kompatibel (Intel/AMD)
 * Festplatte: 
 

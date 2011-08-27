@@ -48,7 +48,7 @@ Wprowadź nazwę dla obrazu, i wybierz "Linux", "Ubuntu".
   .. image:: ../../images/screenshots/800x600/virtualbox_memory.png
     :scale: 70 %
 
-Ustaw wielkość pamięci na co najmniej 512 MB.
+Ustaw wielkość pamięci na co najmniej 768 MB.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %
