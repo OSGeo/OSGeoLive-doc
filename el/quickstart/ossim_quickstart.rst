@@ -54,7 +54,7 @@ OssimPlanet
 
 
 .. note::
-   Για να κλείσετε την λειτουργία daylight auto-shading, αποεπιλέξτε :menuselection:`Preferences --> Environment --> Enable Ephemeris`
+   Για να κλείσετε την λειτουργία daylight auto-shading, αποεπιλέξτε :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
 
 
 Τεκμηρίωση

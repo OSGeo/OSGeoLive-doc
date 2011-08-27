@@ -54,7 +54,7 @@ OssimPlanet
 
 
 .. note::
-   To turn off the daylight auto-shading, un-check :menuselection:`Preferences --> Environment --> Enable Ephemeris`
+   To turn off the daylight auto-shading, un-check :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
 
 
 What Next?
