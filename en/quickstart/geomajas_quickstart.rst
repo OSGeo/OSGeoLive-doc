@@ -37,7 +37,11 @@ Geomajas is a development framework for creating GIS web applications. Therefore
 Creating new Geomajas applications
 ================================================================================
 
-In order to create a new Geomajas application, you will need `Maven <http://maven.apache.org/>`_ installed. Maven is a tool for building and managing any Java based project. Geomajas has defined a Maven archetype, that sets up a default application in a single command::
+In order to create a new Geomajas application, you will need `Maven <http://maven.apache.org/>`_ installed::
+
+    $ sudo apt-get install maven2
+
+Maven is a tool for building and managing any Java based project. Geomajas has defined a Maven archetype, that sets up a default application in a single command::
 
     $ mvn archetype:generate -DarchetypeCatalog=http://files.geomajas.org/archetype-catalog.xml
 
