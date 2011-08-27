@@ -26,7 +26,7 @@ Start GeoExt viewer
 
 OSGeo-Live contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS Server for rendering the map.
 
-* Click :menuselection:`Geospatial Apps -> Web Services -> QGIS Server`
+* Click :menuselection:`Geospatial --> Web Services --> QGIS Server`
 
 You should see a browser window with a web map viewer showing a world map.
    

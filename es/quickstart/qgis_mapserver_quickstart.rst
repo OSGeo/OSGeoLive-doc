@@ -27,7 +27,7 @@ Iniciar el visor GeoExt
 OSGeo-Live contiene un ejemplo de visor web de mapas basado en el marco de desarrollo Javascript
 GeoExt y usando QGIS Server para representar el mapa.
 
-* Clic en :menuselection:`Escritorio --> Spatial Tools --> QGIS Server`
+* Clic en :menuselection:`Geospatial --> Web Services --> QGIS Server`
 
 Debe ver una ventana del navegador con un visor web de mapas mostrando un mapa del mundo.
    
