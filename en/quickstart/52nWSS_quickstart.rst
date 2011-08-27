@@ -22,7 +22,7 @@ The 52°North WSS is a web service, that allows policy-based access to OGC Web S
 For OSGeo Live distribution, the 52°North WSS is already set up to protect an instance of each, WMS, WFS, WPS, and SOS.
 To get a list of protected services and test access to the WMS, follow these steps:
 
-1) Go to *Geospatial --> Web Services --> Start 52North WSS* to start the 52°North WSS or use this `direct link <http://localhost:8080/wss/site/manage.html>`_.
+1) Go to :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WSS` to start the 52°North WSS or use this `direct link <http://localhost:8080/wss/site/manage.html>`_.
   
 2) The 52°North WSS management interface will open in a browser window.
 
