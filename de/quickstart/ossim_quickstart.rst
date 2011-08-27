@@ -47,8 +47,6 @@ OssimPlanet
 
 * Wähle :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
 
-* Gehe zu :menuselection:`menu --> Open kml --> /home/user/data/raster/*.kml`
-
 * Gehe zu :menuselection:`legend tree --> Image Layers --> open the trees --> Doppelklick auf das band1 image`, 
   Sie sollten nun sehen, wie die Szene zur Bild Location zoomt 
 
