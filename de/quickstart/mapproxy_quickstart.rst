@@ -26,7 +26,7 @@ Demo starten
 
 MapProxy kann flexibel in vorhandene Systeme eingebaut werden. So ist zum Beispiel eine Integration in den Apache Webserver möglich. Zusätzlich kann MapProxy aber auch als eigener Dienst gestartet werden. Dies ist die einfachste Methode um zu Beginn mit dem MapProxy zu arbeiten.
 
-Um MapProxy als eigenen Service zu starten klicken Sie im Menü unter *Geospatial* --> *Web Services* --> *Start MapProxy*.
+Um MapProxy als eigenen Service zu starten klicken Sie im Menü unter :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
 
 
 MapProxy Demo
