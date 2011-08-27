@@ -38,7 +38,7 @@ We will now change the map styling using QGIS.
 Edit QGIS project
 =================
 
-#. Click :menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
+#. Click :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
 
 #. Choose :menuselection:`File --> Open Project...` from the menu bar.
 

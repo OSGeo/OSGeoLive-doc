@@ -39,7 +39,7 @@ Ahora se va a cambiar el estilo del mapa usando QGIS.
 Editar el proyecto de QGIS
 ================================================================================
 
-#. Clic en :menuselection:`Escritorio --> Desktop GIS --> Quantum GIS`.
+#. Clic en :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
 
 #. Seleccione :menuselection:`Archivo --> Abrir proyecto...` en la barra de menús.
 
