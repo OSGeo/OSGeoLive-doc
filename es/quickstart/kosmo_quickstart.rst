@@ -31,7 +31,7 @@ Iniciar Kosmo Escritorio
 
 Para iniciar la aplicación, siga los siguientes pasos:
 
-#. En el menú Inicio, seleccione *Otros > Kosmo* (o desde el escritorio, entre en la carpeta *GIS de escritorio* y ejecute el acceso directo de Kosmo)
+#. En el menú Inicio, seleccione |osgeolive-appmenupath-geoserver| (o desde el escritorio, entre en la carpeta *GIS de escritorio* y ejecute el acceso directo de Kosmo)
 
 #. La aplicación tardará unos segundos para iniciarse (se muestra una pantalla de bienvenida al cargar)
 
