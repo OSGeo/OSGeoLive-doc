@@ -48,7 +48,7 @@ Set a name for the image, and select "Linux", "Ubuntu".
   .. image:: ../../images/screenshots/800x600/virtualbox_memory.png
     :scale: 70 %
 
-Set Base Memory to at least 768 MB.
+Set Base Memory to at least 768 MB, 1 GB is better for trialing java based applications.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %
