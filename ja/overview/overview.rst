@@ -48,7 +48,7 @@
 * :doc:`osm_overview` - [:doc:`クイックスタート <../quickstart/osm_quickstart>`] - OpenStreetMap のツール
 * :doc:`prune_overview` - [:doc:`クイックスタート <../quickstart/prune_quickstart>`] - GPSトラックの閲覧、編集、変換
 * :doc:`viking_overview` - [:doc:`クイックスタート <../quickstart/viking_quickstart>`] - GPS データのビューワー、解析
-* :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - 気象予想図
+* :doc:`zygrib_overview` - [:doc:`クイックスタート <../quickstart/zygrib_quickstart>`] - 気象予想図
 
 位置情報
 --------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ Web サービス
 * :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`]
-* :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
+* :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - Web向けのメタデータカタログ
 * :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview` - [:doc:`クイックスタート <../quickstart/52nWPS_quickstart>`] - Web 処理サービス
