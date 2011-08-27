@@ -36,5 +36,5 @@ Premade `7-Zip <http://www.7-zip.org/>`_ compressed virtual disk (.vmdk) suitabl
 
 For a full list of versions, download options and mirrors visit: http://download.osgeo.org/livedvd
 
-[*] `Minimum suggested system resources: 512MB RAM, 1GHz i686 compatible
+[*] `Minimum suggested system resources: 768MB RAM, 1GHz i686 compatible
 CPU. No hard drive required. Mac users will benefit from a 3-button USB mouse.`
