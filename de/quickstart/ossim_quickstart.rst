@@ -53,7 +53,8 @@ OssimPlanet
 * Navigiere die Szene.
 
 
-`Note`: um das daylight auto-shading abzustellen, deaktivieren Sie :menuselection:`Preferences --> Environment --> Enable Ephemeris`
+.. note::
+   Um das daylight auto-shading abzustellen, deaktivieren Sie :menuselection:`Preferences --> Environment --> Enable Ephemeris`
 
 
 Weiterführende Links
