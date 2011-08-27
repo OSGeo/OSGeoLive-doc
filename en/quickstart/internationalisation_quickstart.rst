@@ -28,7 +28,7 @@ For additional languages see :menuselection:`Application --> System --> Language
 Keyboard Support
 --------------------------------------------------------------------------------
 International keyboard support is installed, but you will need to configure the system for your specific keyboard. 
-To change settings open :menuselection:`Application --> System --> Settings Manager` in the menu and double-click on :guilabel:`Keyboard`
+To change settings open :menuselection:`Application --> Settings --> Settings Manager` in the menu and double-click on :guilabel:`Keyboard`
 in the following dialog. Your password will be requested to allow configuration update, type "user" for the current user "user".
 
    #. Choose :guilabel:`Layout` tab in the Keyboard dialog
