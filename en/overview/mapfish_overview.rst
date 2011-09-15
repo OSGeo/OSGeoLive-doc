@@ -11,13 +11,13 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://postgis.refractions.net/
+  :target: http://www.mapfish.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 MapFish
