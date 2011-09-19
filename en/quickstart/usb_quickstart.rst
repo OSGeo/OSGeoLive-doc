@@ -74,6 +74,21 @@ Select :guilabel:`Create`
 
 Wait 20 minutes or so for the OSGeo-Live USB flash drive to be created.
 
+Creating bootable USB drive in different operating systems
+--------------------------------------------------------------------------------
+
+Step 1: Install UNetbootin (downloaded from: http://unetbootin.sourceforge.net/).
+
+Step 2: Insert the USB flash drive into your computer.
+
+Step 3: Start UNetbootin, select Diskimage (the usb flash drive is selectet automatically).
+
+Step 4: Select OSGeoLive iso file.
+
+Select :guilabel:`OK`
+
+  .. image:: ../../images/screenshots/1024x768/unetbootin_live_osgeo.png
+
 Set BIOS boot order:
 --------------------------------------------------------------------------------
 
