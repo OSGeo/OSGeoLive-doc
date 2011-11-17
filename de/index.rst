@@ -32,10 +32,10 @@ Quickstart
 --------------------------------------------------------------------------------
 
 -   :doc:`Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
--   :doc:`Ändere Spracheinstellungen und Tastaturbelegung <quickstart/internationalisation_quickstart>`
--   :doc:`Installiere OSGeo-Live auf der Festplatte <quickstart/osgeolive_install_quickstart>`
--   :doc:`Starte OSGeo-Live in einer Virtuellen Maschine <quickstart/virtualbox_quickstart>`
--   :doc:`Erstelle einen bootfähigen OSGeo-Live USB Stick <quickstart/usb_quickstart>`
+-   :doc:`Spracheinstellungen und Tastaturbelegung ändern <quickstart/internationalisation_quickstart>`
+-   :doc:`OSGeo-Live auf Festplatte installieren <quickstart/osgeolive_install_quickstart>`
+-   :doc:`OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualbox_quickstart>`
+-   :doc:`Bootfähigen OSGeo-Live USB Stick erstellen <quickstart/usb_quickstart>`
 
 Präsentation
 --------------------------------------------------------------------------------

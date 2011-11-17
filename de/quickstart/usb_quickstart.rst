@@ -7,7 +7,7 @@
 .. _usb-quickstart:
  
 ********************************************************************************
-Einen startbaren OSGeo-Live USB-Stick erstellen
+Bootfähigen OSGeo-Live USB-Stick erstellen
 ********************************************************************************
 
 Hier beschreiben wir, wie ein bootbarer OSGeo-Live USB-Stick erstellt werden kann. Von einem USB-Stick zu starten ist schneller als von einer DVD zu starten und das USB-Laufwerk zusätzlich kann zur Sicherung der Daten zwischen Sessions genutzt werden.
