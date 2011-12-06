@@ -185,7 +185,7 @@ qthelp:
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/OSGeo-Live.qhc"
 
-latex:
+latex: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo
 	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex."
