@@ -25,16 +25,15 @@ MapFish
 ウェブマッピングフレームワーク
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapFishはリッチウェブマッピングアプリケーションを作るための柔軟で完璧なフレームワークです. これはマッピングアプリケーション開発の生産性と品質を向上させます 
+MapFish はリッチなウェブマッピングアプリケーションを作るための柔軟で完璧なフレームワークです. これはマッピングアプリケーション開発の生産性と品質を向上させます 
 
-MapFishは `Pylons <http://pylonshq.com>`_ というPython Webフレームワークを利用しています.
-MapFishはPylonsで地理空間情報機能を拡張します. たとえばMapFishでは地理情報オブジェクトを検索したり編集したりするWEBサービスを作成するためのツールを提供します。
+MapFish は `Pylons <http://pylonshq.com>`_ という Python Web フレームワークを利用しています.
+MapFish は Pylons で地理空間情報機能を拡張します. たとえば MapFish では地理情報オブジェクトを検索したり編集したりする WEB サービスを作成するためのツールを提供します。
 
-MapFishは完ぺきなリッチインターネットアプリケーションを提供できるJavaScript
-ツールボックスを提供します, このツールボックスはJavaScriptのテスト環境と
-JavaScriptコードを圧縮するツールも含みます.このJavaScriptツールボックスは
-`ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`, `
-GeoExt <http://www.geoext.org>`_ これらのモジュールとMapFishウェブサービスと更新
+MapFish は完ぺきなリッチインターネットアプリケーションを提供できる JavaScript
+ツールボックスを提供します, このツールボックスは JavaScript のテスト環境と
+JavaScript コードを圧縮するツールも含みます.この JavaScript ツールボックスは
+`ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`, `GeoExt <http://www.geoext.org>`_ これらのモジュールと MapFish ウェブサービスと更新
 するためのコンポーネントで構成されています.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
@@ -45,9 +44,9 @@ GeoExt <http://www.geoext.org>`_ これらのモジュールとMapFishウェブ�
 準拠している標準規格
 --------------------------------------------------------------------------------
 
-MapFishは `Open Geospatial Consortium
+MapFish は `Open Geospatial Consortium
 <http://www.opengeospatial.org/>`_ 標準に完全に準拠しています。
-WMS, WFS, WMC, KML, GML等の多くのOGC標準への対応はOpenLayers、GeoExtを利用することで実現しています。
+WMS, WFS, WMC, KML, GML 等の多くの OGC 標準への対応は OpenLayers、GeoExt を利用することで実現しています。
 
 
 詳細
