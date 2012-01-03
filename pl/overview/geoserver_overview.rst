@@ -93,7 +93,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 2.1.1
+**Wersja programu:** 2.1.3
 
 **Systemy operacyjne:** All Java 1.5 platforms: - Windows, Linux, Mac
 

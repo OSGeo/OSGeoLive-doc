@@ -87,7 +87,7 @@ Consortium <http://www.opengeospatial.org>`_ (OGC) :doc:`../standards/wfs_overvi
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.1.1
+**Έκδοση Λογισμικού:** 2.1.3
 
 **Υποστηριζόμενες πλατφόρμες:** Όλες οι πλατφόρμες Java 1.5: - Windows, Linux, Mac
 
