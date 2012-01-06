@@ -40,7 +40,7 @@ Core Features
  
 Input sources:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
-  * TMS (TileCache, GeoWebcache, etc.)
+  * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver and Mapnik (directly, without WMS)
   * any TileCache, Google Maps or Bing compatible source
 
@@ -52,6 +52,7 @@ Services:
 
 Tile cache:
   * stores identical images just once (e.g. ocean tiles)
+  * stores tiles in filesystem, MBTile files or CouchDB
   * add watermark to tiles
 
 Source options:
@@ -84,7 +85,7 @@ Implemented Standards
 MapProxy implements the following open specifications:
 
 * OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC WMTS 1.0.0
+* OGC WMTS 1.0.0 (KVP and RESTful)
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
 
@@ -96,7 +97,7 @@ Details
 
 **Licence:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.1.1
+**Software Version:** 1.3.0
 
 **Supported Platforms:** Linux, Mac, Windows
 

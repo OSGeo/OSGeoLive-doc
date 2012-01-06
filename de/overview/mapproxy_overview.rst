@@ -41,7 +41,7 @@ Funktionen von MapProxy
  
 Quellen:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
-  * TMS (TileCache, GeoWebcache, etc.)
+  * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver und Mapnik (direkt, ohne WMS)
   * jeder TileCache, Google Maps oder Bing kompatible Quellen
 
@@ -53,6 +53,7 @@ Services:
 
 Kachel-Optionen:
   * einheitliche Bilder werden nur einmalig gespeichert (z.B. Wasser Kacheln)
+  * speichert Kacheln im Dateisystem, in MBTiles-Dateien oder in CouchDB
   * Wasserzeichen zu Kacheln hinzufügen
 
 Optionen für zur Verfügung gestellte Dienste:
@@ -85,7 +86,7 @@ Implementierte Standards
 MapProxy unterstützt folgende offene Spezifikationen: 
 
 * OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC WMTS 1.0.0
+* OGC WMTS 1.0.0 (KVP und RESTful)
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
 
@@ -96,7 +97,7 @@ Details
 
 **Lizenz:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.1.1
+**Software Version:** 1.3.0
 
 **Unterstütze Plattformen:** Linux, Mac, Windows
 
