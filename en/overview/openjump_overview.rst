@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _openjump-overview:
@@ -17,24 +17,24 @@ OpenJUMP GIS
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-OpenJUMP is an easy to use and powerful deskstop GIS that enables users
-to edit, analyse, conflate, save and display geographic data.
-It is also an excellent framework for rapid prototyping to develop custom GIS functions.
+OpenJUMP is an easy to use and powerful desktop GIS that enables users
+to display, edit, analyse and conflate geographic data.
+It comes in a CORE and a PLUS edition, with the latter adding lots of useful plugins. 
+OpenJUMP is excellent for data editing and rapid prototyping of GIS functions.
 
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right
 
-Core Features
+Features (Core Features and PlugIns*)
 --------------------------------------------------------------------------------
 
 * Data Formats
 
-    * reads (files): GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
-    * reads (DB): PostGIS, ArcSDE*, Oracle* and MySQL*
-    * writes: GML, SHP, DXF*, PostGIS*, JML & JPG
-    * supports: OGC WMS & WFS (-T), GML 2, SLD
+    * reads (files): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, MrSID*, ECW*
+    * reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
+    * writes: GML, SHP, DXF*, PostGIS* & JPG, TIFF and SVG*
     * note that formats marked with a (*) come with an extra plugin
 
 * Editing & Conflation
@@ -45,16 +45,18 @@ Core Features
     * cut, merge, simplify polygons and lines
     * warping, quality assurance tools*
 
-* (Vector) Analysis & Query
+* Analysis & Query
 
     * spatial and attribute query functions
-    * calculating length, area, centroid, buffer, convex hull,...
-    * topology tools: line noder, polygonizer, planar graph,...
-    * attribute transfer tools (1:1 transfer, or n:1 transfer)
-    * raster analysis via SEXTANTE connector
+    * analysis : buffer, union, overlay, centroid, convex hull...
+    * statistics : length, area, layer statistics, attribute statistics, graphs...
+    * editing tools : converter, noder, polygonizer, planar graph...
+    * attribute transfer tools : join, matching*
+    * SEXTANTE raster analysis toolbox included in PLUS edition
 
 * Customization
 
+    * internationalization (cz, de, en, ed, fi, fr, hu, it, ja, pt, ta, zh)
     * provides an API, scripting via BeanShell and Java Python
     * (Java) plugin-system
    
@@ -64,7 +66,7 @@ Implemented Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
+* OGC standards supported: GML2, SFS, WMS and SLD
 
 Details
 --------------------------------------------------------------------------------
@@ -73,7 +75,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.4.0.1
+**Software Version:** 1.5.0
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
