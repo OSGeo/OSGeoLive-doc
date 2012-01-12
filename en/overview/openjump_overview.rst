@@ -32,18 +32,19 @@ Features (Core Features and PlugIns*)
 
 * Data Formats
 
-    * reads (files): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, MrSID*, ECW*
+    * reads (files): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW*
     * reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
-    * writes: GML, SHP, DXF*, PostGIS* & JPG, TIFF and SVG*
+    * reads (OGC standards): WKT, WMS
+    * writes: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF and SVG*
     * note that formats marked with a (*) come with an extra plugin
 
 * Editing & Conflation
 
-    * drawing points, lines, polygons, circles
+    * drawing points, lines, polygons, multigeometries, geometry collections and circles (eventually mixed in a single layer)
     * adding, moving, deleting vertices
     * rotating, scaling, auto-complete polygon
     * cut, merge, simplify polygons and lines
-    * warping, quality assurance tools*
+    * warping, quality assurance tools
 
 * Analysis & Query
 

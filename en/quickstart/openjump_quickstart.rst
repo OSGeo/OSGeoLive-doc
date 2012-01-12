@@ -25,7 +25,7 @@ This Quick Start describes how to:
 Starting OpenJUMP
 ================================================================================
 
-OSGeo Live-DVD: go to <../../../app-conf/openjump/openjump.sh>
+OSGeo Live-DVD: start OpenJUMP link on desktop or run /usr/bin/openjump
 
 General: For Windows, go to the bin folder of the OpenJUMP directory and double 
 click the openjump.exe or openjump.bat file. For Linux, execute the oj_linux.sh 
