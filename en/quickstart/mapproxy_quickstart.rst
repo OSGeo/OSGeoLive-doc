@@ -67,6 +67,9 @@ Available layers
   This layer demonstrates the ability to combine multiple sources into one layer. It combines the world population from Mapnik with the US population from Geoserver. The ``GetFeatureInfo`` support for the US population is still available.
   You need to start Geoserver with |osgeolive-appmenupath-geoserver| before accessing this layer.
 
+**mapserver**:
+  This layer uses Mapserver Itasca demo dataset. It is a local dataset and it uses the *coverage* feature to limit the BBOX to Itasca, IL.
+
 
 Create you own configuration
 --------------------------------------------------------------------------------

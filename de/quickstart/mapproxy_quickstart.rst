@@ -67,6 +67,10 @@ Verfügbare Layer
   Dieser Layer demonstriert die Fähigkeit unterschiedliche Quellen in einem Layer zu kombinieren. Der Layer kombiniert die Weltbevölkerung vom Mapnik mit der US Bevölkerung vom GeoServer. Die Unterstützung vom ``GetFeatureInfo`` für den US Bevölkerungs-Layer ist weiterhin verfügbar.
   Um den Layer anzuzeigen müssen sie den Geoserver über |osgeolive-appmenupath-geoserver| starten.
 
+**mapserver**:
+  Dieser Layer bindet den Mapserver Itasca Demo-Datensatz ein. Dieses ist ein lokaler Datensatz, der mittels der *Coverage*-Funktion von MapProxy auf die BBOX von Itasca, IL limitiert wurde.
+
+
 Eigene MapProxy Konfiguration erstellen
 --------------------------------------------------------------------------------
 
