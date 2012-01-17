@@ -1,4 +1,4 @@
-# please add the names of everyone with SVN write access to this file
+﻿# please add the names of everyone with SVN write access to this file
 #  - alphabetical by first name
 #  - remove punctuation from email addresses to stop harvesting for junk mail
 Name,Email,Country,Osgeo_id
@@ -49,6 +49,7 @@ Mike Adair, madair dmsolutions ca, Canada, madair
 Nathaniel V. Kelso, nathaniel kelsocartography com, USA,
 Ned Horning,horning amnh org,USA,nedhorning
 Oliver Tonnhofer, olt omniscale de, Germany, olt
+Paul Meems, p.meems topx-group nl, The Netherlands, pmeems
 Pirmin Kalberer,pka sourcepole com,Switzerland,pka
 Ricardo Pinho,rpinho_eng yahoo com br,Portugal,rpinho
 Ruth Schoenbuchner,ruth.schoenbuchner csgis.de,Germany, rscsgis
