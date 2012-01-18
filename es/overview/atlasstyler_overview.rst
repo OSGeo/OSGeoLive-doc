@@ -33,7 +33,7 @@ Características clave
 * Basado en el estandar OGC SLD.
 * Soporta Windows, Linux and Mac.
 * Importa formatos ESRI Shape, OGC WFS y PostGIS.
-* Completamente traducido a Alemán, Inglés, Italiano, Turco, Ruso y Francés.
+* Completamente traducido a Castellano, Alemán, Inglés, Italiano, Turco, Ruso y Francés.
 
 Estandares Implementados
 --------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ Detalles
 
 **Website:** http://en.geopublishing.org/AtlasStyler
 
-**Versión Software:** 1.7
+**Versión Software:** 1.8
 
 **Licencia:** GNU Lesser General Public License (LGPL) version 3.0
 

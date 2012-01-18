@@ -46,7 +46,7 @@ AtlasStyler
 
 **ウェブサイト:** http://en.geopublishing.org/AtlasStyler
 
-**バージョン:** 1.7
+**バージョン:** 1.8
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 3.0
 

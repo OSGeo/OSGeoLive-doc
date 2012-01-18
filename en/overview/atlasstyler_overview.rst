@@ -47,7 +47,7 @@ Details
 
 **Website:** http://en.geopublishing.org/AtlasStyler
 
-**Software Version:** 1.7
+**Software Version:** 1.8
 
 **Licence:** GNU Lesser General Public License (LGPL) version 3.0
 

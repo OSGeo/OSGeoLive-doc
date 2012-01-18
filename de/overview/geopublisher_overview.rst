@@ -39,7 +39,7 @@ Kernfunktionen
 * Basierend auf dem SLD Standard.
 * Auf Medien veröffentlichte Atlanten laufen direkt von jedem beliebigen Medium (DVD/CD) - Java muss nicht installiert sein.
 * Läuft auf Windows, Linux und Mac.
-* Verfügbar in Deutsch, Englisch, Italienisch und Französisch.
+* Verfügbar in Deutsch, Englisch, Italienisch, Spanisch und Französisch.
 
 
 Implementierte Standards
@@ -53,7 +53,7 @@ Details
 
 **Webseite:** http://de.geopublishing.org/Geopublisher
 
-**Software Version:** 1.7
+**Software Version:** 1.8
 
 **Lizenz:** GNU General Public License (GPL) version 3.0; die Software der exportierten Atlanten steht unter GNU Lesser General Public License (LGPL) version 3.0
 

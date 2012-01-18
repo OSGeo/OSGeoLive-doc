@@ -41,7 +41,7 @@ Características Principales
 * El estilo de las capas se basa en el estandar SLD de OGC.
 * Los atlas offline pueden ejecutarse directamente sin necesidad de instalar Java.
 * Soporta pirámides de imágenes para datos raster grandes.
-* Traducido integramente al alemán, inglés, italiano y francés.
+* Traducido integramente al alemán, castellano, inglés, russo, turco, italiano y francés.
 
 
 Estándares implementados
@@ -53,7 +53,7 @@ Detalles
 
 **Website:** http://en.geopublishing.org/Geopublisher
 
-**Versión de Software:** 1.6
+**Versión de Software:** 1.8
 
 **Licencia:** GNU General Public License (GPL) versión 3.0; los atlas exportados son GNU Lesser General Public License (LGPL) versión 3.0
 

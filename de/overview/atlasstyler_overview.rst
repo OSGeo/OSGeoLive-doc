@@ -35,7 +35,7 @@ Kernfunktionen
 * Basierend auf dem SLD Standard.
 * Läuft auf Windows, Linux und Mac.
 * ESRI Shapefiles, OGC WFS Server und PostGIS Datenbanken werden unterstützt.
-* Verfügbar in Deutsch, Englisch, Italienisch, Türkisch, Russisch und Französisch
+* Verfügbar in Deutsch, Spanisch, Englisch, Italienisch, Türkisch, Russisch und Französisch
 
 Implementierte Standards
 --------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ Details
 
 **Webseite:** http://de.geopublishing.org/AtlasStyler
 
-**Software Version:** 1.7
+**Software Version:** 1.8
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 3.0
 
