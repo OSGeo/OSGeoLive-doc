@@ -70,7 +70,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 2.12.1
+**Software Version:** 2.14.1
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
