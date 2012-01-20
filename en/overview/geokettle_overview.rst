@@ -1,6 +1,6 @@
 :Author: Thierry Badard 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geokettle-overview:
@@ -98,7 +98,7 @@ Details
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 2.0-RC1
+**Software Version:** 2.0
 
 **Supported Platforms:** Windows, Linux, Mac, Solaris
 

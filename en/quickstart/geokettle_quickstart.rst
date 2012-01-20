@@ -1,6 +1,6 @@
 :Author: Jean Mathieu
 :Author: Thierry Badard
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _geokettle-quickstart:
@@ -39,8 +39,7 @@ Workbench
 As illustrated in the following screenshot, the Workbench window is composed of different panels.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_workbench.png
-    :scale: 50 %
-    :align: right
+    :scale: 80 %
 
 The left part acts as a catalog containing all the steps which could compose a data transformation. The right part of the workbench is the area where the transformation itself would be designed and runned/debugged.
 
