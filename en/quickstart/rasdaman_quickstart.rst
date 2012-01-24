@@ -1,5 +1,6 @@
 :Author: Michael Owonibi (m.owonibi@jacobs-university.de)
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
+:Author: Dimitar Misev (d.misev@jacobs-university.de)
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -18,7 +19,7 @@ rasdaman Quickstart
 
 rasdaman is a raster server allowing queries on n-D raster data stored in a standard relational database.
 
-This Quick Start describes how to try out queries on a sandbox of raster objects.
+This Quick Start describes how to try out queries on a sandbox of raster objects. Before trying these examples, the rasdaman server has to be started (Geospatial -> Databases -> Rasdaman -> Start Rasdaman Server).
 
 Exploring the 1-D to 4-D examples
 ================================================================================

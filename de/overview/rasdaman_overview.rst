@@ -55,7 +55,7 @@ Details
 * Clients und Petascope: GNU Lesser General Public License (LGPL) version 3
 * Server-Engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.2
+**Software Version:** 8.3 (`release notes <http://rasdaman.eecs.jacobs-university.de/trac/rasdaman/wiki/Versions#Version8.3>`_)
 
 **Unterstützte Plattformen:** Linux, Mac, Solaris
 
