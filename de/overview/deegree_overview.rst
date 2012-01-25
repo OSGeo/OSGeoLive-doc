@@ -43,7 +43,7 @@ deegree ermöglicht den Aufbau ihrer GDI, mit ihren Daten und ihren
 spezifischen Anforderungen. 
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
   :scale: 50%
   :alt: project logo
   :align: right
