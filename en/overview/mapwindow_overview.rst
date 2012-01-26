@@ -1,6 +1,7 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
+:Reviewer: Cameron Shorter, LISAsoft
 :Product: MapWindow GIS 4.8.6
-:Version: osgeo-live5.5draft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Editor: http://rst.ninjs.org/
 
@@ -27,8 +28,8 @@ It runs on Windows only (WinXP and higher) and supports numerous vector, raster 
 
 .. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
-  :width: 1024
-  :height: 746
+  :scale: 50 %
+  :align: right
 
 Core Features
 --------------------------------------------------------------------------------
@@ -89,4 +90,4 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc: `Quickstart documentation <../quickstart/mapwindow_quickstart>`
+* :doc:`Quickstart documentation <../quickstart/mapwindow_quickstart>`
