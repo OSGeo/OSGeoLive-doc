@@ -3,7 +3,6 @@
 :Product: MapWindow GIS 4.8.6
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Editor: http://rst.ninjs.org/
 
 .. _mapwindow-overview:
 
