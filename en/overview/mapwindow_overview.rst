@@ -29,9 +29,7 @@ It runs on Windows only (WinXP and higher) and supports numerous vector, raster 
   :scale: 50 %
   :align: right
 
-Box: MapWindow requires installation on a windows system before it can be run. 
-Installation files are included on the full ISO version of OSGeo-Live or may be 
-downloaded from http://mapwindow4.codeplex.com/releases
+.. note:: MapWindow requires installation on a windows system before it can be run. Installation files are included on the full ISO version of OSGeo-Live or may be downloaded from http://mapwindow4.codeplex.com/releases
    
 Core Features
 --------------------------------------------------------------------------------
