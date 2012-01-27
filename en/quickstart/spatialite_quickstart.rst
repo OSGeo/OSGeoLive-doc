@@ -54,6 +54,6 @@ Here are some additional challenges for you to try:
 What Next?
 ================================================================================
 
-To learn more about SpatiaLite, a starting point is the `Documentation and tutorials`_ page.
+To learn more about SpatiaLite, a starting point is the `SpatiaLite project page`_.
 
-.. _`Documentation and tutorials`: http://www.gaia-gis.it/spatialite/docs.html
+.. _`SpatiaLite project page`: https://www.gaia-gis.it/fossil/libspatialite/index
