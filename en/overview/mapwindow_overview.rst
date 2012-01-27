@@ -12,10 +12,12 @@
   :width: 220
   :height: 38
   :target: http://www.mapwindow.org
-
-
+ 
 MapWindow GIS
 ================================================================================
+Box : This application is for Windows only and requires installation.
+Installation files are included on the full ISO version of OSGeo-Live or
+may be downloaded from http://mapwindow4.codeplex.com/releases
 
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -80,6 +82,8 @@ Details
 **Software Version:** 4.8.6
 
 **Supported Platforms:** Windows
+
+**API Interfaces:** Visual Basic 6, VBA (MS-Excel, MS-Access), C++, .NET (C#, VB.NET)
 
 **Community Support:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
 
