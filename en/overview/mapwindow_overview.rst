@@ -15,9 +15,6 @@
  
 MapWindow GIS
 ================================================================================
-Box : This application is for Windows only and requires installation.
-Installation files are included on the full ISO version of OSGeo-Live or
-may be downloaded from http://mapwindow4.codeplex.com/releases
 
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -32,6 +29,10 @@ It runs on Windows only (WinXP and higher) and supports numerous vector, raster 
   :scale: 50 %
   :align: right
 
+Box: MapWindow requires installation on a windows system before it can be run. 
+Installation files are included on the full ISO version of OSGeo-Live or may be 
+downloaded from http://mapwindow4.codeplex.com/releases
+   
 Core Features
 --------------------------------------------------------------------------------
 
@@ -66,14 +67,30 @@ Core Features
     * and many others
 
 * Extensible plugin architecture.
+ 
+ActiveX control
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MapWindow GIS uses an ActiveX control written in C++. This control can be used in
+custom applications written in any language that supports ActiveX controls, like 
+VB6, C++, C#, VB.NET, Delphi.
+This control can also be used in MS-Office products like MS-Access and MS-Excel.
+
+Plug-in architecture
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MapWindow GIS has a plug-in architecture that makes it easy to add additional 
+functionality to MapWindow. The plug-ins can be written in any .NET language 
+(C#, VB.NET) using Visual Studio Pro or the free SharpDevelop or Visual Studio 
+Express. Within a few minutes a custom menu and button can be created.  
 
 Implemented Standards
---------------------------------------------------------------------------------
-
-* OGC standards compliant (WMS,WFS(Plugin))
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* OGC Standards: 
+    * WMS (v1.1, v1.3), WFS v1.1 (through a separate plug-in)
+    * Web Map Tile Service (WMTS)
+    * GML    
 
 Details
---------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Website:** http://www.mapwindow.org
 
@@ -83,7 +100,7 @@ Details
 
 **Supported Platforms:** Windows
 
-**API Interfaces:** Visual Basic 6, VBA (MS-Excel, MS-Access), C++, .NET (C#, VB.NET)
+**API Interfaces:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
 
 **Community Support:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
 
@@ -91,6 +108,6 @@ Details
 
 
 Quickstart
---------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * :doc:`Quickstart documentation <../quickstart/mapwindow_quickstart>`
