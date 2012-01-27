@@ -1,6 +1,6 @@
 :Author: Alan Boudreault, Steve Lime
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapserver-overview:
@@ -88,7 +88,7 @@ Demo
 Documentation
 --------------------------------------------------------------------------------
 
-* `MapServer 6.0.1 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 6.0.2 Documentation <../../mapserver/doc/index.html>`_
 
 Details
 --------------------------------------------------------------------------------
