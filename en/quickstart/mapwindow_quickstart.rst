@@ -1,5 +1,5 @@
-:Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Author: Richard R. Schneider Dept. Biological Sciences University of Alberta Edmonton, Alberta, Canada 
+:Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Copyright: © 2011 Richard R. Schneider 
 :Product: MapWindow GIS 4.8.6
 :Version: osgeo-live5.5draft
@@ -19,10 +19,9 @@
 ===============
 1. Introduction
 ===============
-This guide is written as an introductory outcome-oriented tutorial for MapWindow, version 4.8.6. It is 
-*not* a comprehensive users guide that systematically describes each menu item and every dialog
-option. Rather, it provides instructions on how to accomplish a suite of basic GIS tasks. My aim
-is to provide an easy-to-follow guide for users that are mainly interested in displaying GIS
+This quickstart provides an introduction to a limited set of the functionality 
+provided by MapWindow GIS v4.8.6 and it provides instructions on how to accomplish 
+a suite of basic GIS tasks. My aim is to provide an easy-to-follow guide for users that are mainly interested in displaying GIS
 data, conducting simple queries, and exporting high quality maps for use in publications and
 presentations. This being the case, not all of the functionality of MapWindow is covered. In
 particular, the guide only covers the main program and not the plug-ins (except for the shapefile
