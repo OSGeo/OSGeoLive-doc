@@ -32,7 +32,6 @@ Desktop GIS
 * :doc:`grass_overview` - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
-* :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based
 * :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`QuickStart <../quickstart/saga_quickstart>`]
@@ -76,8 +75,8 @@ Web Services
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Catalog and Catalog Services for Web
 
-.. awaiting review: * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Catalog and Catalog Services for Web
 .. temp disabled to save on disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 
 Data
@@ -91,6 +90,14 @@ Geospatial Libraries
 * :doc:`geotools_overview` - Java GIS Toolkit
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations
 * :doc:`liblas_overview`  - LiDAR Data Access
+
+Other software of interest (not available Live)
+--------------------------------------------------------------------------------
+* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
+* :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based GIS
+* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
+
+.. MapGuide and MB-System temporarily disabled to save on disc space; MapWindow won't run on Ubuntu
 
 Windows and Apple Installers
 --------------------------------------------------------------------------------
