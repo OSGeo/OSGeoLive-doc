@@ -49,7 +49,7 @@ reports, and memory usage. A project window contains a layer list and a layer
 view. Each instance of OpenJUMP can contain multiple projects. In our quick 
 start, we will only be working with a single window.
 
-.. image:: ../../images/screenshots/openjump_ss_01.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_01.png
    :scale: 55 
 
 Open an ESRI Shapefile
@@ -66,7 +66,7 @@ to see the data from your shapefile in the Layer View. You will also see a new
 layer created for your data in the Layer List. The name of the layer will match 
 the name of the shapefile.
 
-.. image:: ../../images/screenshots/openjump_ss_02.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_02.png
    :scale: 55 
 
 Another quicker option is to directly drag and drop your shapefile in the Layer View.
@@ -85,10 +85,10 @@ maximum and minimum scales the layer is displayed at.
 
 * MacOSX users press the “Apple” key to access this menu.
 
-.. image:: ../../images/screenshots/openjump_ss_03.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_03.png
    :scale: 55 
    
-.. image:: ../../images/screenshots/openjump_ss_04.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_04.png
    :scale: 55 
 
 Edit Feature Geometries in a Layer
@@ -99,10 +99,10 @@ Check the box next to the Editable menu entry called "Editable". This will open
 a new floating toolbar over the Layer View on the right side. This toolbar has a 
 set of buttons that you can use to edit the geometry of a geographic feature.
 
-.. image:: ../../images/screenshots/openjump_ss_05.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_05.png
    :scale: 55 
    
-.. image:: ../../images/screenshots/openjump_ss_06.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_06.png
    :scale: 55 
 
 Let's try a quick edit. First we need to select a geometry and then we move a 
@@ -111,7 +111,7 @@ cursor in the editing toolbar. Use it to click on and select a single feature in
 the Layer View. It should change to yellow and small yellow squares appear at 
 each angle point (vertex) in the feature geometry. 
 
-.. image:: ../../images/screenshots/openjump_ss_07.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_07.png
    :scale: 55 
 
 Next, click on the button 
@@ -120,14 +120,14 @@ Tool” (Hoovering over the buttons gives you a button description). You should
 now see your mouse cursor change to a small black crosshair when you move it 
 over the Layer View. 
 
-.. image:: ../../images/screenshots/openjump_ss_08.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_08.png
    :scale: 55 
 
 Try using this to move the vertex on the geometry you 
 selected by clicking an the vertex and dragging it (leaving the mouse button 
 pressed).
 
-.. image:: ../../images/screenshots/openjump_ss_09.png
+.. image:: ../../images/screenshots/1024x768/openjump_ss_09.png
    :scale: 55 
    
 Other Learning Resources for OpenJUMP
