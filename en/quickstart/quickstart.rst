@@ -38,6 +38,7 @@ Application Quick Starts
   mapbender_quickstart
   mapfish_quickstart
   mapguide_quickstart
+  mapwindow_quickstart
   mapnik_quickstart
   mapserver_quickstart
   maptiler_quickstart
