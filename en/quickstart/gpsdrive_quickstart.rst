@@ -91,10 +91,9 @@ window and use the built-in or downloaded static map tiles.
 Finding amenities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 With the *Find* tool you can search out for the nearest points of interest
-loaded into your SQLite waypoint database. e.g. *Find all pubs
-within 2 km of the conference hall*.
-
-.. POI db never materialized for Denver:  To get you started OpenStreetMap data for the conference's host country has been loaded.
+loaded into your SQLite waypoint database. To get you started OpenStreetMap
+data for the city of Denver has been loaded. e.g. *Find all pubs within 2 km
+of the conference hall*.
 
 
 Downloading maps
