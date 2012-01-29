@@ -60,15 +60,17 @@ Run:
   Try the many applications from the :menuselection:`Geospatial` menu. 
 
   Getting started with the Xfce desktop: (an online work in progress)
- * http://docs.xfce.org/start
+    http://docs.xfce.org/start
 
   Getting started with the Ubuntu operating system: (a nice PDF e-book)
- * `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
 
   Further online help with the Ubuntu operating system: (n.b. we use the traditional Xfce desktop interface, not the tablet-like Unity desktop interface)
- * https://help.ubuntu.com/11.04/
- * https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
- * https://help.ubuntu.com/11.04/serverguide/C/
+    https://help.ubuntu.com/11.04/
+
+    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
+
+    https://help.ubuntu.com/11.04/serverguide/C/
 
 
 See Also:
