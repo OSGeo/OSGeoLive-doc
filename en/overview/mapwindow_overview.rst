@@ -68,7 +68,7 @@ Core Features
 
     * Plug-in architecture makes it easy to add additional functionality to MapWindow. Plug-ins can be written in any .NET language (C#, VB.NET) using Visual Studio Pro or the free SharpDevelop or Visual Studio Express.  
  
-* ActiveX control
+* ActiveX control:
 
     * Uses an ActiveX control written in C++. This control can be used in custom applications written in languages like VB6, C++, C#, VB.NET, and Delphi, and can be used in MS-Office products like MS-Access and MS-Excel.
 
