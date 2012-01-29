@@ -80,3 +80,9 @@ Details
 .. _`2011`: http://www.kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
 .. _`Open Source`: http://www.opensource.org/
 .. _`documentation`: http://pycsw.org/docs/documentation.html
+
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
+
