@@ -1,6 +1,6 @@
 
 :Author: OSGeo-Live
-:Author: Cameron Shorter
+:Author: Cameron Shorter, Hamish Bowman
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -30,7 +30,10 @@ Run:
   Source an OSGeo-Live DVD, ISO available from: http://download.osgeo.org/livedvd 
   Put the DVD into your computer's CD drive, then reboot your computer.
 
-  If your computer is set to boot from CD (as is often the case) you should boot up into an Xubuntu system, with Geospatial applications installed. Otherwise you'll have to adjust the BIOS boot settings or press the boot menu button just after powering-up.
+  If your computer is set to boot from CD (as is often the case) you should
+  boot up into an Xubuntu system, with Geospatial applications installed.
+  Otherwise you'll have to adjust the BIOS boot settings or press the boot
+  menu button just after powering-up.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
@@ -55,6 +58,18 @@ Run:
     :alt: boot select
 
   Try the many applications from the :menuselection:`Geospatial` menu. 
+
+  Getting started with the Xfce desktop: (an online work in progress)
+    http://docs.xfce.org/start
+
+  Getting started with the Ubuntu operating system: (a very good PDF e-book)
+    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf <../../share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+
+  Further online help with the Ubuntu operating system: (n.b. we use the traditional Xfce desktop interface, not the tablet-like Unity desktop interface)
+    https://help.ubuntu.com/11.04/
+    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
+    https://help.ubuntu.com/11.04/serverguide/C/
+
 
 See Also:
 --------------------------------------------------------------------------------
