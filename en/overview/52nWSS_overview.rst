@@ -64,7 +64,7 @@ Details
 
 **Website:** http://52north.org/communities/security
 
-**Licence:** GNU GPL v2.0
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** WSS 2.2.0
 

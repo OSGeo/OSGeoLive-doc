@@ -66,7 +66,7 @@ Details
 
 **Website:** http://52north.org/communities/sensorweb/sos
 
-**Licence:** GNU GPL v2.0
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** SOS 3.2.0
 

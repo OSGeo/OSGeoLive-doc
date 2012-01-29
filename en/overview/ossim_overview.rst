@@ -58,7 +58,7 @@ Details
 
 **Website:** http://www.ossim.org/
 
-**Licence:** GPL v3
+**Licence:** GNU General Public License (GPL) version 3
 
 **Software Version:** 1.8.6
 
