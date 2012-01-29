@@ -19,22 +19,22 @@ MapWindow GIS
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapWindow GIS is a user friendly, Open Source GIS client where
+MapWindow GIS is a Windows based, Open Source GIS client where
 you can visualize, manage, edit, analyse data, and compose printable maps.
-It includes powerful analytical functionality through integration with GEOS and GDAL/OGR.
-It runs on Windows only (WinXP and higher) and supports numerous vector, raster and functionality.
+It includes powerful analytical functions through integration with GEOS and GDAL/OGR.
+MapWindow is easy to incorporate into MS-Office based products such as MS-Excel and MS-Access, as well as programs written in VB6, C++, C#, VB.NET, and Delphi, as MapWindow is based upon ActiveX controls.
 
+.. note:: MapWindow requires installation on a windows system before it can be run. Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be downloaded from http://mapwindow4.codeplex.com/releases.
+   
 .. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right
 
-.. note:: MapWindow requires installation on a windows system before it can be run. Installation files are included on the full ISO version of OSGeo-Live or may be downloaded from http://mapwindow4.codeplex.com/releases
-   
 Core Features
 --------------------------------------------------------------------------------
 
-* Friendly graphical user interface.
+* Friendly graphical user interface:
 
     * identify/select features,
     * edit/view/search attributes,
@@ -44,46 +44,39 @@ Core Features
     * change vector and raster symbology,
     * and more ...
 
-* Easy Viewing of many Vector and Raster Formats
+* Easy Viewing of many Vector and Raster Formats:
 
     * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML,
     * raster formats such as digital elevation models, aerial photography or landsat imagery,
-    * Tiles services, like OpenStreetMap, ArcGIS Online    
+    * Tiles services, like OpenStreetMap, ArcGIS Online.
 
 * Create, edit and export spatial data using:
 
     * digitizing tools for shapefile format,
     * the georeferencer plugin,
-    * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit
+    * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit.
 
-* Perform spatial analysis using plugins
+* Perform spatial analysis using plugins:
 
     * map algebra,
     * terrain analysis,
     * hydrologic modeling (TauDEM),
     * network analysis,
-    * and many others
+    * and many others.
 
-* Extensible plugin architecture.
+* Extensible plugin architecture:
+
+    * Plug-in architecture makes it easy to add additional functionality to MapWindow. Plug-ins can be written in any .NET language (C#, VB.NET) using Visual Studio Pro or the free SharpDevelop or Visual Studio Express.  
  
-ActiveX control
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-MapWindow GIS uses an ActiveX control written in C++. This control can be used in
-custom applications written in any language that supports ActiveX controls, like 
-VB6, C++, C#, VB.NET, Delphi.
-This control can also be used in MS-Office products like MS-Access and MS-Excel.
+* ActiveX control
 
-Plug-in architecture
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-MapWindow GIS has a plug-in architecture that makes it easy to add additional 
-functionality to MapWindow. The plug-ins can be written in any .NET language 
-(C#, VB.NET) using Visual Studio Pro or the free SharpDevelop or Visual Studio 
-Express. Within a few minutes a custom menu and button can be created.  
+    * Uses an ActiveX control written in C++. This control can be used in custom applications written in languages like VB6, C++, C#, VB.NET, and Delphi, and can be used in MS-Office products like MS-Access and MS-Excel.
 
 Implemented Standards
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * OGC Standards: 
-    * WMS (v1.1, v1.3), WFS v1.1 (through a separate plug-in)
+    * WMS (v1.1, v1.3)
+    * WFS v1.1 (through a separate plug-in)
     * Web Map Tile Service (WMTS)
     * GML    
 
