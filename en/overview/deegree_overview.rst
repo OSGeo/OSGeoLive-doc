@@ -111,7 +111,7 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 3.0
+**Software Version:** 3.2-pre3
 
 **Supported Platforms:** Windows, Linux
 
