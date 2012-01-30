@@ -76,13 +76,15 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.5.0
+**Software Version:** 1.5.1
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://www.openjump.org/support.html
 
 **Commercial Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+
+**Download Page:** http://sourceforge.net/projects/jump-pilot/files/ 
 
 Quickstart
 --------------------------------------------------------------------------------
