@@ -27,7 +27,7 @@ Por consiguiente, rasdaman es una base de datos raster flexible y escalable que 
 La tecnología rasdaman es estable y madura, utilizandose en producción desde hace mas de 10 años. En el instituto geográfico nacional de Francia se utiliza rasdaman para servir mapas de mas de una docena de terrabits de datos raster.
 En la conferencia ACM Principles of Database Systems del 2007, Rona Machlin caracterizó rasdaman como la implementación mas adecuada de este tipo de sistemas.
 
-.. image:: ../../images/screenshots/800x600/rasdaman_apps_collage.jpg
+.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
   :scale: 100 %
   :align: right
 

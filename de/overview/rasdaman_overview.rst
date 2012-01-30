@@ -26,7 +26,7 @@ Somit stellt rasdaman eine flexible, schnelle und skalierbare Rasterdatenbank da
 
 Die rasdaman-Technologie ist stabil und ausgereift, sie ist seit mehr als 10 Jahren im praktischen Einsatz. Das französische Nationale Geographische Institut betreibt rasdaman auf einem Dutzend-Terabyte blattschnittfreien Luftbild. Auf der ACM "Principles of Database Systems" Konferenz 2007 hat die Rasterdatenbank-Expertin Rona Machlin rasdaman als "die umfassendste Implementierung eines solchen Systems" charakterisiert.
 
-.. image:: ../../images/screenshots/1024x768/rasdaman_collage.jpg
+.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 
