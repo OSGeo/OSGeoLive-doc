@@ -26,8 +26,8 @@ Access interfaces include OGC WCS, WCPS, and WPS, as well as C++ and Java APIs i
 
 The rasdaman technology is stable and mature, deployed in production since over 10 years; the French National Geographic Institute runs rasdaman on a dozen-Terabyte airborne image map. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
 
-.. image:: ../../images/screenshots/800x600/rasdaman_apps_collage.jpg
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/rasdaman_collage.jpg
+  :scale: 50 %
   :align: right
 
 Core Features
