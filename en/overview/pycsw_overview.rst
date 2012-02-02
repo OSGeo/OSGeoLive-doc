@@ -16,7 +16,7 @@
 pycsw
 ================================================================================
 
-Metadata Catalog
+Metadata Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The OGC Catalogue Services for the Web (CSW) standard defines common interfaces to discover, browse and query metadata about spatial data, web services and other potential resources. The interaction between a client and a server is accomplished using a standard request-response model of the HTTP protocol with XML. More details about the standard can be found in the :doc:`Standards <../standards/csw_overview>` section.
