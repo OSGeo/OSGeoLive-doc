@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: osgeo-live5.5
 :License: Creative Commons
 
 .. _pycsw-overview:
@@ -18,6 +18,10 @@ pycsw
 
 Metadata Catalog
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The OGC Catalogue Services for the Web (CSW) standard defines common interfaces to discover, browse and query metadata about spatial data, web services and other potential resources. The interaction between a client and a server is accomplished using a standard request-response model of the HTTP protocol with XML. More details about the standard can be found on the :doc:`Standards <../standards/csw_overview>` section.
+
+Metadata files include information about the data, and they are usualy encoded in XML files, following international specifications, such as ISO-19115, ISO-19139, ebXML etc. 
 
 pycsw is an OGC CSW server implementation written in `Python`_.
 
