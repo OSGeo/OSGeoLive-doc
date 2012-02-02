@@ -19,17 +19,22 @@ pycsw
 Metadata Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The OGC Catalogue Services for the Web (CSW) standard defines common interfaces to discover, browse and query metadata about spatial data, web services and other potential resources. The interaction between a client and a server is accomplished using a standard request-response model of the HTTP protocol with XML. More details about the standard can be found in the :doc:`Standards <../standards/csw_overview>` section.
+pycsw enables users to publish a catalogue of dataset descriptions (metadata) to the web, using standards based interfaces and formats, such that it can be queried and updated by catalogue clients. pycsw is simple to setup within an Apache web service and can access metadata records stored as XML files within a file system, or records stored within a database.
 
-Metadata is 'data about data', and are usually encoded as XML files, following international standards such as ISO 19115, ISO 19139 and FGDC CSDGM.
+Metadata is 'data about data', storing such things as creation-date, author, title, area-of-interest, etc, and is usually encoded as XML files, following international standards such as ISO 19115, ISO 19139 and FGDC CSDGM.
 
-pycsw is an OGC CSW server implementation written in `Python`_.
+pycsw is a `Python`_ implementation of the :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and a diverse range of other resources, such as text documents, spreadsheets, and audio recordings.
 
-pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) of the `OpenGIS Catalogue Service Implementation Specification`_, version 2.0.2.  Initial development started in 2010 (more formally announced in `2011`_).
+pycsw is Open Source, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
 
-pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
-
-pycsw is `Open Source`_, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
+.. Cameron Comment: We need a graphic image here. If you have the time,
+  and the graphical flair it would be nice if you could create a collage
+  of the representations of a metadata record - Eg: Colour coded XML
+  (from a browser), a web form, or text representation of the XML, maybe with
+  a Map showing an Area of Interest, a list of metadata records provided as a
+  result of a search in a client, maybe with an Area of Interest square on a
+  map.
+  Otherwise, just show an image of your test client will be a good start.
 
 Core Features
 --------------------------------------------------------------------------------
@@ -51,10 +56,15 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC CSW 	2.0.2
-* OGC Filter 	1.1.0
-* OGC OWS Common 	1.0.0
-* OGC GML 	3.1.1
+OGC Standards:
+
+* CSW 	2.0.2
+* Filter 	1.1.0
+* OWS Common 	1.0.0
+* GML 	3.1.1
+
+Metadata Standards:
+
 * Dublin Core 	1.1
 * SOAP 	1.2
 * ISO 19115 	2003
@@ -62,7 +72,6 @@ Implemented Standards
 * ISO 19119 	2005
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
-
 
 Details
 --------------------------------------------------------------------------------
@@ -80,10 +89,6 @@ Details
 **Support:** http://pycsw.org/docs/support.html
 
 .. _`Python`: http://www.python.org/
-.. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
-.. _`2011`: http://www.kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
-.. _`Open Source`: http://www.opensource.org/
-.. _`documentation`: http://pycsw.org/docs/documentation.html
 
 Quickstart
 --------------------------------------------------------------------------------
