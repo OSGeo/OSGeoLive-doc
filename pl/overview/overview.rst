@@ -54,7 +54,7 @@ Nawigacja i Mapy
 Narzędzia przestrzenne
 --------------------------------------------------------------------------------
 * :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
-* :doc:`gdal_overview`  - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - GeoSpatial Data Translation Tools
+* :doc:`gdal_overview`  - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 * :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
 * :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
 * :doc:`maptiler_overview` - [:doc:`Wprowadzenie <../quickstart/maptiler_quickstart>`] - tworzenie kafli map

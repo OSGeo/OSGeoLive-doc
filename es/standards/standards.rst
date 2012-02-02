@@ -1,15 +1,15 @@
-.. GeoSpatial Standards documentation master file, created by
+.. Geospatial Standards documentation master file, created by
    sphinx-quickstart on Mon Jul 19 08:52:52 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Estándares del Open GeoSpatial Consortium
+Estándares del Open GeoSPatial Consortium
 ================================================================================
 
 Introducción
 --------------------------------------------------------------------------------
 
-El Open GeoSpatial Consortium (OGC) fue fundado en 1994 para hacer de la información geográfica una parte integral de la infraestructura mundial de información. Los miembros de OGC (usuarios y proveedores de tecnología) desarrollan de forma colaborativa estándares de interfaz y los estándares asociados, así como buenas prácticas, que permiten a los desarrolladores crear sistemas de información que pueden fácilmente intercambira información geográfica e instrucciones con otros sistemas de información. Lo requisitos varían desde planificacione complejas y control de satélites de observación terrestre a la visualización de sencillas imágenes cartográficas en la web, así como la codificación de la localización en apenas unos pocos *bytes* para geoetiquetado y mensajería. Un vistazo a los *OGC Domain Working Groups* (http://www.opengeospatial.org/projects/groups/wg) muestra el amplio espectro de la actividad actual en OGC.
+El Open Geospatial Consortium (OGC) fue fundado en 1994 para hacer de la información geográfica una parte integral de la infraestructura mundial de información. Los miembros de OGC (usuarios y proveedores de tecnología) desarrollan de forma colaborativa estándares de interfaz y los estándares asociados, así como buenas prácticas, que permiten a los desarrolladores crear sistemas de información que pueden fácilmente intercambira información geográfica e instrucciones con otros sistemas de información. Lo requisitos varían desde planificacione complejas y control de satélites de observación terrestre a la visualización de sencillas imágenes cartográficas en la web, así como la codificación de la localización en apenas unos pocos *bytes* para geoetiquetado y mensajería. Un vistazo a los *OGC Domain Working Groups* (http://www.opengeospatial.org/projects/groups/wg) muestra el amplio espectro de la actividad actual en OGC.
 
 La línea base de OGC y el Modelo de Referencia OGC
 --------------------------------------------------------------------------------

@@ -1,9 +1,9 @@
-.. GeoSpatial Standards documentation master file, created by
+.. Geospatial Standards documentation master file, created by
    sphinx-quickstart on Mon Jul 19 08:52:52 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Open GeoSpatial Consortium Standards
+Open Geospatial Consortium Standards
 ================================================================================
 
 Introduction

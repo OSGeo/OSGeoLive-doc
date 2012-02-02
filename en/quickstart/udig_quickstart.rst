@@ -60,7 +60,7 @@ uDig Quickstart
   Business Intelligence is.
 
 uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for
-editing and viewing GeoSpatial data.
+editing and viewing Geospatial data.
 
 .. Writing Tip:
   Describe what will be covered in this Quick Start.

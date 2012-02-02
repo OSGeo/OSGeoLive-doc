@@ -20,7 +20,7 @@
 GDAL/OGR
 ================================================================================
 
-GeoSpatial Data Translation Tools
+Geospatial Data Translation Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geospatial Data Abstraction Library (GDAL/OGR) provides command-line

@@ -6,11 +6,11 @@ http://cameronshorter.blip.tv/file/4078371/
 
 <x Diapositive introduttive> Ciao,
 
-Il mio nome e' <il Tuo nome e titolo qui>, e vi accompagnero` in questa illuminante presentazione del progetto OSGeo Live, originariamente compilato da Cameron Shorter, GeoSpatial Programs Manager presso LISAsoft, e uno dei coordinatori del progetto OSGeo-Live.
+Il mio nome e' <il Tuo nome e titolo qui>, e vi accompagnero` in questa illuminante presentazione del progetto OSGeo Live, originariamente compilato da Cameron Shorter, Geospatial Programs Manager presso LISAsoft, e uno dei coordinatori del progetto OSGeo-Live.
 
 <x OSGeoLive>
 
-OSGeo Live e` un DVD autosufficente e installabile, basato sulla distribuzione linux Xubuntu, che contiene pre-installati e pre-configurati 43 dei migliori programmi GeoSpaziali Open Source e relativi dati dimostrativi.
+OSGeo Live e` un DVD autosufficente e installabile, basato sulla distribuzione linux Xubuntu, che contiene pre-installati e pre-configurati 43 dei migliori programmi Geospaziali Open Source e relativi dati dimostrativi.
 
 Contiene inoltre varia documentazione circa gli standard spaziali delle direttive chiave OGC, materiale pubblicitario di tutti i progetti, e le guide all'uso di molti.
 
@@ -22,7 +22,7 @@ In questa presentazione vi daro` un'illuminante assaggio di tutti i programmi di
 
 OSGeo-Live puo` essere utilizzato da una pennetta USB esterna, installato in una Macchina Virtuale, o installato nel vostro disco fisso.
 
-Questa presentazione offre un'illuminante visione d'insieme di tutti i programmi installati in questo DVD, che davvero vi garantisce un colpo d'occhio dell'ampio respiro di programmi GeoSpaziali Open Source disponibili.
+Questa presentazione offre un'illuminante visione d'insieme di tutti i programmi installati in questo DVD, che davvero vi garantisce un colpo d'occhio dell'ampio respiro di programmi Geospaziali Open Source disponibili.
 
 Per testare i programmi di OSGeo-Live, semplicemente: <x OSGeoLive boot> Inserite il DVD o la pennetta USB nel vostro computer o macchina virtuale. Riavviate il computer.
 
@@ -32,9 +32,9 @@ Premete qualche volta "Invio". <x OSGeoLive grub menu>
 
 <x OSGeoLive main splash screen>
 
-Quindi selezionate Applicazioni dal menu` "GeoSpatial".
+Quindi selezionate Applicazioni dal menu` "Geospatial".
 
-<x Open Source GeoSpatial Foundation (OSGeo)>
+<x Open Source Geospatial Foundation (OSGeo)>
 
 OSGeo-Live prende il nome dalla Open Source Geospatial Foundation, riferita come la Fondazione OSGeo.
 

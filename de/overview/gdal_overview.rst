@@ -19,7 +19,7 @@
 GDAL/OGR
 ================================================================================
 
-GeoSpatial Data Translation Tools
+Geospatial Data Translation Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die Geospatial Data Abstraction Library (GDAL/OGR) stellt komandozeilenbasierte Hilfsprogramme zur Verfügung. Über diese können eine Vielzahl von Raster- und Vektorgeodatenformate umgewandelt und prozessiert werden.
