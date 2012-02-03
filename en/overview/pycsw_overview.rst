@@ -78,7 +78,7 @@ Details
 
 **Website:** http://pycsw.org
 
-**Licence:** MIT
+**Licence:** `MIT`_
 
 **Software Version:** 1.0.0
 
@@ -89,6 +89,7 @@ Details
 **Support:** http://pycsw.org/docs/support.html
 
 .. _`Python`: http://www.python.org/
+.. _`MIT`: http://pycsw.org/docs/license.html#license
 
 Quickstart
 --------------------------------------------------------------------------------
