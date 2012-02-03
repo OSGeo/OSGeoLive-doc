@@ -102,4 +102,4 @@ Create a new QGIS project
 What Next?
 ================================================================================
 
-To learn more about QGIS Server, you can follow the blog articles of `Linfiniti <http://linfiniti.com/2010/08/qgis-mapserver-a-wms-server-for-the-masses/>`_ or `3LIZ <http://www.3liz.com/blog/rldhont/index.php/2010/12/03/355-qgis-mapserver-an-wysiwyg-open-source-wms-server>`_.
+To learn more about QGIS Server, you can follow the blog articles of `Linfiniti <http://linfiniti.com/2010/08/qgis-mapserver-a-wms-server-for-the-masses/>`_ or `3LIZ <http://www.3liz.com/blog/rldhont/index.php?post/2010/12/03/355-qgis-mapserver-an-wysiwyg-open-source-wms-server>`_.
