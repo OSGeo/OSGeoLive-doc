@@ -68,10 +68,13 @@ Create a new QGIS project
 What Next?
 ================================================================================
 
+Tutorials for more advanced features of QGIS are collected as `OSGeo-Live QGIS tutorials`_.
+
 To learn more about QGIS, a starting point is the `Documentation page`_ on the QGIS homepage.
 
 OSGeo-Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`_.
 
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
 .. _`QGIS User Guide`: ../../qgis/qgis-1.7.0_user_guide_en.pdf

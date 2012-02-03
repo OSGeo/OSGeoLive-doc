@@ -21,6 +21,17 @@ This Quick Start describes how to:
   * update an existing QGIS project and render it with QGIS Server
   * create a new QGIS project and open the WMS directly in a browser
 
+Documentation:
+  * http://www.qgis.org/wiki/QGIS_Server_Tutorial
+
+Quick start for Server Installation on Debian/Ubuntu:
+
+  * :command:`apt-get install qgis-mapserver libapache2-mod-fcgid`
+  * -> http://localhost/cgi-bin/qgis_mapserv.fcgi
+
+QGIS Web Client:
+  * https://github.com/qgis/qgis-web-client
+
 Start GeoExt viewer
 ================================================================================
 
@@ -47,7 +58,7 @@ Edit QGIS project
    * You should see the same world map rendered by QGIS.
      We will now change river styling and look at the result in the web map viewer. 
 
-#. Double click **10m_rivers_lake_centerlines** in the Layers tree.
+#. Double click :file:`10m_rivers_lake_centerlines` in the Layers tree.
 
 #. Change the color in Outline Options to a different blue tone.
 
