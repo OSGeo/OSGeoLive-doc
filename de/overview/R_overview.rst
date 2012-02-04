@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _r-overview:
@@ -50,7 +50,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 2.12.1
+**Software Version:** 2.14.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
