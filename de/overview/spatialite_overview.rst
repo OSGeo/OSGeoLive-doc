@@ -1,5 +1,5 @@
 :Author: Pirmin Kalberer
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _spatialite-overview:
@@ -53,11 +53,11 @@ Die SpatiaLite Erweiterung ermöglicht SQLite die Unterstützung von geographisc
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.gaia-gis.it/spatialite/
+**Webseite:** http://www.gaia-gis.it/gaia-sins/
 
 **Lizenz:** MPL v1.1 und GPL v3
 
-**Software Version:** 2.3.1 / 2.4 beta
+**Software Version:** spatialite 3.0.0 / librasterlite 1.0 / spatialite-gui 1.3.0 / spatialite-gis 1.0.0
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 
