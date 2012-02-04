@@ -1,5 +1,5 @@
-:Author: Alan Boudreault
-:Version: osgeo-live4.0
+:Author: Alan Boudreault, Steve Lime
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapserver-overview:
@@ -41,14 +41,23 @@ Kernfunktionen
 
   * Maßstabsabhängige Anzeige und Anwendungsausführung
   * Objektbeschriftungen mit Vermeidung von Überlappungen
-  * vollständig anpassbare und vorlagenbasierte Ausgabe
-  * TrueType Schriften
+  * TrueType Schriften zur Beschriftung und Symboldarstellung
   * Generierung von Kartenelementen (Maßstabsleiste, Referenzkarte, Legende)
   * Thematische Karten durch die Nutzung von logischen Klassen oder über reguläre Ausdrücke definierte Klassen
+  * Erweiterung um weitere Ausgabeformate durch Treiber für AGG, Cairo, GD und OpenGL und andere
+  * Spezielle Generierung von Kacheln
+
+* Unterstützung anspruchsvoller räumlicher Abfragen
 
 * Unterstützung verbreiteter Skriptsprachen und Entwicklungsumgebungen
 
-  * PHP, Python, Perl, Ruby, Java, and .NET
+  * Ermittlung von Objekten über Attribute, Punkt, Umgebungsrechteck oder Geometrie über ein oder mehrere Layer hinweg
+  * Unterstützung von Abfragen auf Rasterdaten
+  * Vollständig anpassbare vorlagenbasierte Ausgabe
+  * OGR-basierte Ausgabe von Abfrageergebnissen
+
+  * CGI/FastCGI
+  * PHP, Python, Perl, Ruby, Java, und .NET
 
 * Betriebssystemübergreifende Unterstützung
 
@@ -56,8 +65,8 @@ Kernfunktionen
 
 * zahlreiche Raster- und Vektordatenformate
 
-  * TIFF/GeoTIFF, EPPL7 und viele weitere via GDAL
-  * ESRI Shapes, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL und OGR
+  * ESRI Shapes, PostGIS, ESRI ArcSDE, Oracle Spatial
+  * Viele andere Formate über GDAL und OGR
 
 
 * Karten Umprojektion
@@ -79,8 +88,8 @@ Demo
 Dokumentation
 --------------------------------------------------------------------------------
 
-* `MapServer 5.6.6 Dokumentation <../../mapserver/doc/index.html>`_
-* `MapServer 5.6.6 Dokumentation in deutscher Sprache <http://mapserver.org/de/>`_
+* `MapServer Dokumentation <../../mapserver/doc/index.html>`_
+* `MapServer Dokumentation in deutscher Sprache <http://mapserver.org/de/>`_
 
 Details
 --------------------------------------------------------------------------------
@@ -89,7 +98,7 @@ Details
 
 **Lizenz:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 5.6.6
+**Software Version:**  6.0.2
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
