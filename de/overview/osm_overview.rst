@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons
 
 .. _osm-overview:
@@ -8,7 +8,7 @@
   :scale: 80 %
   :alt: Projekt Logo
   :align: right
-  :target: http://wwww.openstreetmap.org
+  :target: http://www.openstreetmap.org
 
 OpenStreetMap
 ================================================================================
@@ -36,10 +36,10 @@ Kernfunktionen
   :align: right
 
 * Global massively crowdsouced dataset
-* A number of editors to choose from
-* A number of renderers to choose from (including online)
-* Free to use
-* Widespread geo-application integration
+* Es stehen einige Editoren zur Auswahl
+* Es gibt einige Werkzeuge zur Visualisierung (auch Online)
+* Freie Nutzung
+* Weit verbreitete Integration in Geo-Anwendungen
 
 Details
 --------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ Details
 
 **Software Versionen:**
 
-* JOSM: Latest stable snapshot (svn r4279)
+* JOSM: Latest stable snapshot (svn r4878)
 
 * Merkaartor: 0.17.2
 
