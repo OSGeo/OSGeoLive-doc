@@ -59,9 +59,9 @@ Details
 
 **Lizenz:** LGPL v2.1 (api); GPLv2 (GUI und Module)
 
-**Software Version:** 2.0.6
+**Software Version:** 2.0.8
 
-**Unterstützte Plattformen:** Linux, Windows
+**Unterstützte Plattformen:** Windows, Linux, FreeBSD
 
 **API Schnittstellen:** C++
 
