@@ -36,7 +36,7 @@ JavaScript コードを圧縮するツールも含みます.この JavaScript �
 `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`, `GeoExt <http://www.geoext.org>`_ これらのモジュールと MapFish ウェブサービスと更新
 するためのコンポーネントで構成されています.
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
+.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -39,7 +39,7 @@ MapFish παρέχει συγκεκριμένα εργαλεία για την �
 `ExtJS <http://extjs.com>`_,το :doc:`OpenLayers <openlayers_overview>`, το `GeoExt <http://www.geoext.org>`_ 
 και συγκεκριμένα εργαλεία για την διάδραση με τις υπηρεσίες (web services) του MapFish.
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
+.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -40,7 +40,7 @@ para comprimir código JavaScript. El `toolbox` JavaScript está compuesto de la
 herramientas `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` y 
 `GeoExt <http://www.geoext.org>`_.
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
+.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
