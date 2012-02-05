@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Alan Boudreault, Steve Lime
-:Version: osgeo-live5.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _mapserver-quickstart:
@@ -63,6 +63,12 @@ Fügen Sie folgenden Text ein::
       "init=epsg:4326" 
     END
 
+    WEB
+      METADATA
+        ows_enable_request "*"
+      END
+    END
+
     LAYER
       NAME "Admin Countries"
       STATUS ON
@@ -98,6 +104,18 @@ Wenn wir genauer auf das Objekt **LAYER** in unserem mapfile schauen, sehen wir,
 
 .. _mapserver-quickstart-wms-request:
 
+
+Erzeugen eines Kartenbildes über die Kommandozeile
+========================================================
+
+Obwohl MapServer für den Einsatz in Webanwendungen ausgerichtet ist, können Bilder auch über die Kommandozeile erzeugt werden. Dies kann beispielsweise bei sich wiederholenden Kartendarstellungen oder beim Debuggen hilfreich sein.
+
+Öffnen Sie ein Terminak und tippen Sie:
+
+ shp2img -m mapserver_quickstart.map -o mymap.png
+
+Wenn dieser Aufruf erfolgreich ausgeführt wird, finden Sie ein unter file:///home/user/mymap.png ein generiertes Kartenbild.
+
 Darstellen einer Karte mit MapServer mittels eines WMS **GetMap** Requests
 ================================================================================
 
@@ -105,7 +123,7 @@ Darstellen einer Karte mit MapServer mittels eines WMS **GetMap** Requests
 
 Öffnen Sie den Webbrowser mit folgender URL::
 
- http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=AGG/PNG&WIDTH=800&HEIGHT=600
+ http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 Was bedeutet das Obige ? Einfach gesagt, es ist ein `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** Request, der dem mapserver sagt, er soll den angegebenen mapfile verwenden, um bestimmte Karten als PNG Bild mit festgelegten Eigenschaften wie Bildgröße, Ausdehnung, Projektion, etc.* darzustellen.  Alle Karten im "*&LAYERS=...*" Bereich, die *STATUS ON* oder *STATUS DEFAULT* im mapfile haben, werden nun dargestellt. Das Ergebnis sollte so aussehen:
 
@@ -139,7 +157,7 @@ Nun haben wir 2 layer Definitionen in unserem mapfile. Dieser layer hat die "STA
 
 Nehmen wir nun unseren vorherigen WMS **GetMap** Request und ergänzen den neuen layer "Lakes" zu dem erzeugten Bild. Dazu müssen wir einfach nur den neuen layer Namen zur "LAYERS" liste hinzufügen::
 
- http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=AGG/PNG&WIDTH=800&HEIGHT=600
+ http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 Das Bild, das nun vom MapServer dargestellt wird sieht aus wie das vorherige, nur mit dem zusätzlichen neuen lake Layer:
 

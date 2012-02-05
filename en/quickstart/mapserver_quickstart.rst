@@ -115,7 +115,7 @@ Open a terminal (Applications/Accessories/Terminal Emulator) and type
 
  shp2img -m mapserver_quickstart.map -o mymap.png
 
-If this command runs succesfully, you are able to see your rendered map at file:///home/user/mymap.png .
+If this command runs successfully, you are able to see your rendered map at file:///home/user/mymap.png .
 
 Render an map image with MapServer using a WMS **GetMap** request
 ================================================================================
