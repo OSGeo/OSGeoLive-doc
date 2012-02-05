@@ -36,8 +36,10 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
   :align: right
 
 .. note:: Due to space constraints on the DVD, MapGuide is currently
-  not installed. To install it open up a terminal and
-  run ``cd gisvm/bin; sudo ./install_mapguide.sh``
+  not installed.
+
+.. commented out as manual install doesn't currently work: To install
+  it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``
 
 Core Features
 --------------------------------------------------------------------------------
