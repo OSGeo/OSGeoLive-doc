@@ -46,7 +46,7 @@ Details
 
 **Licence:** BSD
 
-**Software Version:** 1.7.0b2
+**Software Version:** 1.7.0
 
 **Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), and Linux
 
