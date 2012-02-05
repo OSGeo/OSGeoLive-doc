@@ -1,6 +1,6 @@
 
 :Author: OSGeo-Live
-:Author: Cameron Shorter
+:Author: Cameron Shorter, Hamish Bowman
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -55,6 +55,20 @@ Starten:
     :alt: boot select
 
   Testen Sie die vielen Anwendungen aus dem :menuselection:`Geospatial` Menü. 
+
+  Einstieg in Xfce Desktop: (Eine Onlineversion ist in Arbeit)
+    http://docs.xfce.org/start
+
+  Einstieg in das Ubuntu Betriebssystem: (nettes PDF e-book)
+    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+
+  Weitere Onlinehilfe zum Ubuntu Betriebssystem: (Anmerkung: es wird der klassische Xfce Desktop verwendet, nicht der tablet-artige Unity Desktop)
+    https://help.ubuntu.com/11.04/
+
+    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
+
+    https://help.ubuntu.com/11.04/serverguide/C/
+
 
 Siehe auch:
 --------------------------------------------------------------------------------
