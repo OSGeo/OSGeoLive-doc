@@ -35,7 +35,9 @@ MapGuide ist unter Linux oder Windows lauffähig und unterstützt den Apache- un
   :align: right
 
 
-.. note:: Aufgrund von Platzbeschränkungen ist MapGuide derzeit nicht auf der DVD installiert. Zum Installieren der Softwäre öffnen Sie bitte ein Terminal und rufen das Installationsskript auf ``cd gisvm/bin; sudo ./install_mapguide.sh``
+.. note:: Aufgrund von Platzbeschränkungen ist MapGuide derzeit nicht auf der DVD installiert.
+
+.. commented out as manual install doesn't work right now: Zum Installieren der Softwäre öffnen Sie bitte ein Terminal und rufen das Installationsskript auf ``cd gisvm/bin; sudo ./install_mapguide.sh``
 
 Kernfunktionen
 --------------------------------------------------------------------------------
