@@ -24,7 +24,7 @@ you can visualize, manage, edit, analyse data, and compose printable maps.
 It includes powerful analytical functions through integration with GEOS and GDAL/OGR.
 MapWindow is easy to incorporate into MS-Office based products such as MS-Excel and MS-Access, as well as programs written in VB6, C++, C#, VB.NET, and Delphi, as MapWindow is based upon ActiveX controls.
 
-.. note:: MapWindow requires installation on a windows system before it can be run. Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be downloaded from http://mapwindow4.codeplex.com/releases.
+.. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be downloaded from http://mapwindow4.codeplex.com/releases.
    
 .. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
