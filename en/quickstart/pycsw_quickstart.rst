@@ -135,6 +135,37 @@ If the user wants to enable INSPIRE Discovery Service support, the metadata unde
 
 For full functionality and configuration options, please consult the `documentation`_ on the pycsw website.
 
+Metadata Creation
+=================
+
+Using European Open Source Metadata Editor (EUOSME)
+---------------------------------------------------
+
+Metadata files for a spatial dataset or a spatial web service can be created through the open source implementation of inspire directive for metadata, European Open Source Metadata Editor (EUOSME). This application can be found at ``http://inspire-geoportal.ec.europa.eu/editor/``. Source code is available at ``https://joinup.ec.europa.eu/svn/euosme/trunk``
+
+.. image:: ../../images/screenshots/1024x768/pycsw_euosme_homepage.png
+  :scale: 75 %
+
+The user fills the mandatory metadata fields going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country) etc. 
+
+.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
+  :scale: 75 % 
+
+.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_bbox.png
+  :scale: 75 %
+
+After the user has added all the information available, must push the validation button on top of the page, so that a check to be performed for consistency with the INSPIRE directive. 
+
+.. image:: ../../images/screenshots/1024x768/pycsw_euosme_save_metadata.png
+  :scale: 75 %
+
+After a sucessful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser.
+
+.. image:: ../../images/screenshots/1024x768/pycsw_euosme_xml.png
+  :scale: 75 %
+
+
+
 
 .. _`Python`: http://www.python.org/
 .. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
