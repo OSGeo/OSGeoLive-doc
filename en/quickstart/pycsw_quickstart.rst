@@ -110,12 +110,12 @@ For example, by selecting "apiso/DescribeRecord" operation, and pushing the "Sen
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
-By selecting "GetCapabilities-SOAP" and pushing the "Send" button, a SOAP request is sent to the server to advertise their web service capabilities
+By selecting "GetCapabilities-SOAP" and pushing the "Send" button, a SOAP request is sent to the server to advertise their web service capabilities:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
-Also, the user can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request.
+Also, the user can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
@@ -130,8 +130,8 @@ The capabilities of the pycsw installation can be found at ``http://localhost/py
 .. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
   :scale: 75 %
 
-To edit the web service metadata, included in the capabilities document, the user can modify the file ``/var/www/pycsw/default.cfg`` under the tag [metadata:main]. 
-If the user wants to enable INSPIRE Discovery Service support, the metadata under the tag [metadata:inspire] has to be filled in and the ``enabled`` property has to be set to ``true``.
+To edit the web service metadata, included in the capabilities document, the user can modify the file ``/var/www/pycsw/default.cfg`` under the tag ``[metadata:main]``.
+If the user wants to enable INSPIRE Discovery Service support, the metadata under the tag ``[metadata:inspire]`` has to be filled in and the ``enabled`` property has to be set to ``true``.
 
 For full functionality and configuration options, please consult the `documentation`_ on the pycsw website.
 
