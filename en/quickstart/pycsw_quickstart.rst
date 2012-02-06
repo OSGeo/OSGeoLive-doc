@@ -129,10 +129,13 @@ The capabilities of the pycsw installation can be found at http://localhost/pycs
 .. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
   :scale: 75 %
 
+To edit the web service metadata, included in the capabilities document, the user can modify the file "/var/www/pycsw/default.cfg" under the tag [metadata:main]. 
+In case the user wants to enable the INSPIRE Discovery Service support, the metadata under the tag [metadata:inspire] have to be filled in and the "enabled" property has to be set to "true".
+
+For full functionality and configuration options, please consult the `documentation`_ on the pycsw website.
 
 
 
-For full functionality, configuration options, and adding metadata to the catalogue, please consult the `documentation`_ on the pycsw website.
 
 .. _`Python`: http://www.python.org/
 .. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
