@@ -164,6 +164,26 @@ After a sucessful validation, the XML file can be saved to the local disk and vi
 .. image:: ../../images/screenshots/1024x768/pycsw_euosme_xml.png
   :scale: 75 %
 
+Using GIMED
+-----------
+
+:ref:`GIMED <gimed>` is a Free Software for creating and editing INSPIRE compliant metadata XML files.
+To install the application, use the following commands from a terminal:
+
+.. code-block:: bash
+
+  # wget http://downloads.sourceforge.net/project/gimed/GIMED_v1.3.0.tar.gz
+  # tar zxvf GIMED_v1.3.0.tar.gz
+  # mono ./GIMED_v1.3.0/bin/GIMED.exe
+
+The user can follow the same workflow as in EUOSME to add and edit metadata, without the need for an internet connection.
+
+.. image:: ../../images/screenshots/1024x768/pycsw_gimed.png
+  :scale: 75 %
+
+
+Loading metadata to pycsw
+=========================
 
 
 
@@ -177,4 +197,5 @@ After a sucessful validation, the XML file can be saved to the local disk and vi
 .. _`Shapely`: http://trac.gispython.org/lab/wiki/Shapely
 .. _`pyproj`: http://code.google.com/p/pyproj/
 .. _`pycsw`: http://pycsw.org/download.html
+.. _`gimed`: http://sourceforge.net/projects/gimed/
 
