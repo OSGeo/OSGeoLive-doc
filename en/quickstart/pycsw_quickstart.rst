@@ -218,6 +218,51 @@ This will import all ``*.xml`` records from ``/path/to/records`` into ``records.
 .. image:: ../../images/screenshots/1024x768/pycsw_import_metadata.png
   :scale: 75 %
 
+QGIS CSW Client Installation
+============================
+
+The HTTP request/responce mechanism is not friendly enough to the end user in order to perform queries to the Catalogue Service.
+For this reason, there are several CSW Clients in the form of web applications like ``http://inspire-geoportal.ec.europa.eu/discovery/discovery/`` or :doc:`GeoNetwork <../quickstart/geonetwork_quickstart>`.
+Also there is a client plugin for QGIS that we are going to use for this tutorial.
+
+To install the plugin:
+
+.. code-block:: bash
+
+  $ cd ~
+  $ cd .qgis/python/plugins
+  $ svn co http://svn.gis-lab.info/cswclient cswclient
+
+Then start QGIS from the Desktop GIS group and go to Manage Plugins 
+
+.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin.png
+  :scale: 75 %
+
+Enable the CSW plugin from the list
+
+.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
+  :scale: 75 %
+
+Then select the CSW button from the toolbar and launch CSW Client
+
+.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
+  :scale: 75 %
+
+Add the pycsw server by pressing the "New" button and type in ``http://localhost/pycsw/csw.py``
+
+.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
+  :scale: 75 %
+
+The user can add some default servers using the "Add default servers" button and also get the capabilities of the server using "Server info" button
+
+.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
+  :scale: 75 %
+
+The user can perform search using the catalogue, either by a string value or with a bounding box
+
+.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
+  :scale: 75 %
+
 
 
 
