@@ -24,13 +24,14 @@ pycsw allows for the publishing and discovery of geospatial metadata.  Existing 
 pycsw is `Open Source`_, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
 
 pycsw is installed by default on the OSGeo Live DVD.  This QuickStart will describe how to:
-* perform a  fresh installation of pycsw,
-* test pycsw installation through the tester application,
+
+* perform a fresh installation of pycsw
+* test pycsw installation through the tester application
 * edit pycsw's Capabilities document and display this information in a browser
 * create ISO 19139 XML metadata records (through INSPIRE Metadata Editor or GIMED)
 * load the created XML metadata files in pycsw database
 * install QGIS CSW Client plugin
-* perform discovery of data through the pycsw Catalogue Service within QGIS.
+* perform discovery of data through the pycsw Catalogue Service within QGIS
 
 Installation
 ============
@@ -67,14 +68,14 @@ Ensure that CGI is enabled for your install directory.  For example, on Apache, 
 Installing on Ubuntu/Xubuntu/Kubuntu
 ------------------------------------
 
-In order to install pycsw to an Ubuntu based distribution, one can use the OSGeoLive installation script located in ``pycsw/etc/dist``.
+In order to install pycsw to an Ubuntu based distribution, one can use the OSGeoLive installation script located in ``pycsw/etc/dist``:
 
 .. code-block:: bash
 
   # cd pycsw/etc/dist
   # sudo ./install_pycsw.sh
 
-The script installs the dependencies (Apache, lxml, sqlalchemy, shapely) and then pycsw to ``/var/www``.
+The script installs the dependencies (Apache, lxml, sqlalchemy, shapely, pyproj) and then pycsw to ``/var/www``.
 
 Installing on openSUSE
 ----------------------
@@ -94,47 +95,45 @@ pycsw is included in the official Application::Geo repository of OpenSUSE Build 
 Tester Application
 ==================
 
-To run the pycsw tester, use the pycsw launcher from the Web Services group, or open Firefox and navigate to http://localhost/pycsw/tester/index.html
+To run the pycsw tester, use the pycsw launcher from the Web Services group, or open Firefox and navigate to ``http://localhost/pycsw/tester/index.html``:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_startup.png
   :scale: 75 %
 
-By selecting the left drop-down list, the user can see a various predefined POST requests, encoded in XML that can be sent to the pycsw server  
+By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw: 
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_selection.png
   :scale: 75 %
 
-For example, by selecting "apiso/DescribeRecord" operation, and pushing the "Send" button, a description of an ISO Application Profile record is presented on the right panel.
+For example, by selecting "apiso/DescribeRecord" operation, and pushing the "Send" button, a description of the ISO Application Profile record is presented on the right panel:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
-By selecting "GetCapabilities-SOAP" and pushing the "Send" button, a SOAP request is sent to the server to advertise his web service capabilities
+By selecting "GetCapabilities-SOAP" and pushing the "Send" button, a SOAP request is sent to the server to advertise their web service capabilities
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
-Also, the user can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the xml request.
+Also, the user can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request.
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
-The user can go through all the available requests and perform all kinds of queries from this testing application. A more robust and graphical way to perform such queries is described in a following chapter of this tutorial
+The user can go through all the available requests and perform various requests from this testing application. A more robust and graphical way to perform such queries is described in a following chapter of this tutorial.
 
 Capabilities Document and Configuration
-========================================
+=======================================
 
-The capabilities of the pycsw installation can be found at http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities.
+The capabilities of the pycsw installation can be found at ``http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities``.
 
 .. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
   :scale: 75 %
 
-To edit the web service metadata, included in the capabilities document, the user can modify the file "/var/www/pycsw/default.cfg" under the tag [metadata:main]. 
-In case the user wants to enable the INSPIRE Discovery Service support, the metadata under the tag [metadata:inspire] have to be filled in and the "enabled" property has to be set to "true".
+To edit the web service metadata, included in the capabilities document, the user can modify the file ``/var/www/pycsw/default.cfg`` under the tag [metadata:main]. 
+If the user wants to enable INSPIRE Discovery Service support, the metadata under the tag [metadata:inspire] has to be filled in and the ``enabled`` property has to be set to ``true``.
 
 For full functionality and configuration options, please consult the `documentation`_ on the pycsw website.
-
-
 
 
 .. _`Python`: http://www.python.org/
