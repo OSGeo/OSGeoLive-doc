@@ -233,7 +233,13 @@ To install the plugin:
   $ cd .qgis/python/plugins
   $ svn co http://svn.gis-lab.info/cswclient cswclient
 
-Then start QGIS from the Desktop GIS group and go to Manage Plugins 
+Data Discovery
+==============
+
+QGIS CSW Plugin
+---------------
+
+Start QGIS from the Desktop GIS group and go to Manage Plugins 
 
 .. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin.png
   :scale: 75 %
@@ -258,13 +264,20 @@ The user can add some default servers using the "Add default servers" button and
 .. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
   :scale: 75 %
 
-The user can perform search using the catalogue, either by a string value or with a bounding box
+Perform search using the catalogue, either by a string value or with a bounding box
 
 .. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
+Tester Application
+------------------
 
+Discovery of data can be also performed through the Tester application by setting the appropriate requests eg. any text search with the string "imagery" leads to discovering the xml data created previously by EUOSME
 
+.. image:: ../../images/screenshots/1024x768/pycsw_tester_discovery.png
+  :scale: 75 %
+
+For more information on pycsw, please consult the `documentation`_ on the pycsw website.
 
 .. _`Python`: http://www.python.org/
 .. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
