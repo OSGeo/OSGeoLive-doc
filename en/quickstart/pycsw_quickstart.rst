@@ -182,8 +182,42 @@ The user can follow the same workflow as in EUOSME to add and edit metadata, wit
   :scale: 75 %
 
 
-Loading metadata to pycsw
-=========================
+Loading Metadata
+================
+
+Metadata Repository Setup
+-------------------------
+
+pycsw supports the following databases:
+
+- SQLite3
+- PostgreSQL
+- MySQL
+
+In OSGeo Live, a simple SQLite setup has been implemented. The database can be found in ``/var/www/pycsw/data/cite``
+
+In case of a new db, the setup process is:
+
+.. code-block:: bash
+
+  $ cd /path/to/pycsw
+  $ export PYTHONPATH=`pwd`
+  $ python ./sbin/setup_db.py sqlite:////path/to/records.db
+
+Importing Metadata
+------------------
+
+.. code-block:: bash
+
+  $ cd /path/to/pycsw
+  $ export PYTHONPATH=`pwd`
+  $ python ./sbin/load_records.py /path/to/records sqlite:////path/to/records.db
+
+This will import all ``*.xml`` records from ``/path/to/records`` into ``records.db`` and configure the repository to expose queryables as per Table 53 of OGC:CSW.
+
+.. image:: ../../images/screenshots/1024x768/pycsw_import_metadata.png
+  :scale: 75 %
+
 
 
 
