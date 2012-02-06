@@ -72,8 +72,8 @@ In order to install pycsw to an Ubuntu based distribution, one can use the OSGeo
 
 .. code-block:: bash
 
-  # cd pycsw/etc/dist
-  # sudo ./install_pycsw.sh
+  $ cd pycsw/etc/dist
+  $ sudo ./install_pycsw.sh
 
 The script installs the dependencies (Apache, lxml, sqlalchemy, shapely, pyproj) and then pycsw to ``/var/www``.
 
@@ -84,10 +84,10 @@ In order to install the OBS package in openSUSE 12.1, one can run the following 
 
 .. code-block:: bash
 
-  # zypper -ar http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.1/ GEO
-  # zypper -ar http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.1/ python
-  # zypper refresh
-  # zypper install pycsw
+  $ zypper -ar http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.1/ GEO
+  $ zypper -ar http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.1/ python
+  $ zypper refresh
+  $ zypper install pycsw
 
 For earlier openSUSE versions change ``12.1`` with ``11.4``. For future openSUSE version use ``Factory``. Rolling version ``Tumbleweed`` is also supported.
 pycsw is included in the official Application::Geo repository of OpenSUSE Build Service.
@@ -172,9 +172,9 @@ To install the application, use the following commands from a terminal:
 
 .. code-block:: bash
 
-  # wget http://downloads.sourceforge.net/project/gimed/GIMED_v1.3.0.tar.gz
-  # tar zxvf GIMED_v1.3.0.tar.gz
-  # mono ./GIMED_v1.3.0/bin/GIMED.exe
+  $ wget http://downloads.sourceforge.net/project/gimed/GIMED_v1.3.0.tar.gz
+  $ tar zxvf GIMED_v1.3.0.tar.gz
+  $ mono ./GIMED_v1.3.0/bin/GIMED.exe
 
 The user can follow the same workflow as in EUOSME to add and edit metadata, without the need for an internet connection.
 
