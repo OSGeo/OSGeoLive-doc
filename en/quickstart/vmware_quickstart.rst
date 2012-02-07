@@ -94,9 +94,11 @@ The first thing you'll want to do is install the VMWare-tools packages. Once the
         user@osgeolive:~$ sudo apt-get install open-vm-dkms open-vm-toolbox
 
 
-In the Virtual Machine window, open the Virtual Machine Setting menu, shift over to the Options tab, and click the Shared Folders setting. Now you can click the "+" button to add a directory from your host computer to be shared inside the virtual OSGeo Live system. Suppose you locate ant to share the directory `C:\Users\your_name\Documents`. CLick the browse button to find the direcotry, give it a name such as "Documents", and click "Save".
+In the Virtual Machine window, select :menuselection:`Virtual Machine --> Virtual Machine Settings` menu, shift over to the Options tab, and click the Shared Folders setting. Now you can click the "+" button to add a directory from your host computer to be shared inside the virtual OSGeo Live system. Suppose you want to share the directory `C:\\Users\\your_name\\Documents`. Click the browse button to find the directory, give it a name such as "Documents", and click "Save".
 
 .. image:: ../../images/screenshots/800x600/vmware_shared.png 
+        :scale: 80
+
 
 Now run two additional commands in the terminal to mount the shared folder:
 ::

@@ -24,7 +24,7 @@ Running spatialite
 
 * Open a console and open a sample database with **spatialite**::
 
-   spatialite /home/user/data/spatialite/regions.sqlite
+   ``spatialite /home/user/data/spatialite/regions.sqlite``
 
 * Helpful commands in the CLI interface::
    ``.help
