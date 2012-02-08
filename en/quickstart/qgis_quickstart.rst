@@ -78,8 +78,3 @@ OSGeo-Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
 .. _`QGIS User Guide`: ../../qgis/qgis-1.7.0_user_guide_en.pdf
-
-
-
-
-

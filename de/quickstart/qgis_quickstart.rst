@@ -67,9 +67,12 @@ Neues QGIS Projekt erstellen
 Weitere Informationen
 ================================================================================
 
+Weitere Tutorials mit fortgeschrittenen Funktionen von QGIS sind als `OSGeo-Live QGIS tutorials`_ (in Englisch) auf dieser Live_DVD verfügbar.
+
 Um mehr über QGIS zu erfahren, dient die Seite `QGIS Dokumentation`_ auf der QGIS Webseite als Ausgangspunkt.
 Diese Live-DVD enthält die englische Einführung `A Gentle Introduction to GIS`_  und den `QGIS User Guide`_, der auch in deutscher Übersetzung erhältlich ist.
 
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/
 .. _`QGIS Dokumentation`: http://www.qgis.org/de/dokumentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
 .. _`QGIS User Guide`: ../../qgis/qgis-1.7.0_user_guide_en.pdf
