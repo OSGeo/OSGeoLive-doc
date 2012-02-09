@@ -36,7 +36,7 @@ pycsw is Open Source, released under an MIT :ref:`license <license>`, and runs o
 
 .. pycsw allows for the publishing and discovery of geospatial metadata. Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_overview.png
+.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right
