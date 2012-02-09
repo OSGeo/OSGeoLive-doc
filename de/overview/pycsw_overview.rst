@@ -79,3 +79,12 @@ Details
 **API Schnittstellen:** Python
 
 **Support:** http://pycsw.org/docs/support.html
+
+.. _`Python`: http://www.python.org/
+.. _`MIT`: http://pycsw.org/docs/license.html#license
+
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
+
