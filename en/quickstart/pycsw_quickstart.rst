@@ -105,7 +105,7 @@ By selecting the left drop-down list, the user can see various predefined POST r
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_selection.png
   :scale: 75 %
 
-For example, by selecting "apiso/DescribeRecord" operation, and pushing the "Send" button, a description of the ISO Application Profile record is presented on the right panel:
+For example, by selecting "apiso/DescribeRecord", and pushing the "Send" button, a description of the ISO Application Profile record is presented on the right panel:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
@@ -221,7 +221,7 @@ This will import all ``*.xml`` records from ``/path/to/records`` into ``records.
 QGIS CSW Client Installation
 ============================
 
-The HTTP request/responce mechanism is not friendly enough to the end user in order to perform queries to the Catalogue Service.
+The HTTP request/response mechanism is not friendly enough to the end user in order to perform queries to the Catalogue Service.
 For this reason, there are several CSW Clients in the form of web applications like the `INSPIRE Geoportal <http://inspire-geoportal.ec.europa.eu/discovery/discovery/>`_ or :doc:`GeoNetwork <../overview/geonetwork_overview>`.
 For this tutorial, we will use the :doc:`QGIS <../overview/qgis_overview>` `OGC Catalogue Service Client <https://sourceforge.net/apps/trac/qgiscommunitypl/wiki/qgcsw>`_ plugin.
 
@@ -239,7 +239,7 @@ Data Discovery
 QGIS CSW Plugin
 ---------------
 
-Start QGIS from the Desktop GIS group and go to Manage Plugins 
+Start QGIS from the Desktop GIS group and go to "Manage Plugins"
 
 .. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin.png
   :scale: 75 %
