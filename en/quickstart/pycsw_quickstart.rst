@@ -222,8 +222,8 @@ QGIS CSW Client Installation
 ============================
 
 The HTTP request/responce mechanism is not friendly enough to the end user in order to perform queries to the Catalogue Service.
-For this reason, there are several CSW Clients in the form of web applications like ``http://inspire-geoportal.ec.europa.eu/discovery/discovery/`` or :doc:`GeoNetwork <../quickstart/geonetwork_quickstart>`.
-Also there is a client plugin for QGIS that we are going to use for this tutorial.
+For this reason, there are several CSW Clients in the form of web applications like the `INSPIRE Geoportal <http://inspire-geoportal.ec.europa.eu/discovery/discovery/>`_ or :doc:`GeoNetwork <../overview/geonetwork_overview>`.
+For this tutorial, we will use the :doc:`QGIS <../overview/qgis_overview>` `OGC Catalogue Service Client <https://sourceforge.net/apps/trac/qgiscommunitypl/wiki/qgcsw>`_ plugin.
 
 To install the plugin:
 
@@ -231,7 +231,7 @@ To install the plugin:
 
   $ cd ~
   $ cd .qgis/python/plugins
-  $ svn co http://svn.gis-lab.info/cswclient cswclient
+  $ svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw qgcsw
 
 Data Discovery
 ==============
