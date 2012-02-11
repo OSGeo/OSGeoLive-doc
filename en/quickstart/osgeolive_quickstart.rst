@@ -1,7 +1,7 @@
 
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _osgeolive-install-quickstart:
@@ -10,10 +10,12 @@
 OSGeo-Live Quickstart
 ********************************************************************************
 
-This Quick Start describes how to start the OSGeo-Live DVD.
+This Quick Start describes how to start OSGeo-Live from a DVD or USB.
 
 System Requirements
 --------------------------------------------------------------------------------
+
+Your computer should have at least:
 
 * RAM: 768 MB, preferably 1 GB.
 * CPU: 1 GHz i686 or compatible (Intel/AMD)
