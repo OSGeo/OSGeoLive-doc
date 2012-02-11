@@ -1,4 +1,6 @@
-:Author: Peter Baumann , Michael Owonibi
+:Author: Peter Baumann
+:Author: Michael Owonibi
+:Author: Dimitar Misev
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -26,7 +28,7 @@ Rasdaman
 Η τεχνολογία rasdaman είναι σταθερή, ώριμη, και χρησιμοποιείται σε περιβάλλον παραγωγής για περισσότερο από 10 χρόνια. Για παράδειγμα, η Γαλλική Εθνική Γεωγραφική Υπηρεσία χρησιμοποιεί το rasdaman σε έναν ορθοφωτοχάρτη 12 Terabyte. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
 
 .. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
-  :scale: 100 %
+  :scale: 50 %
   :align: right
 
 Βασικά Χαρακτηριστικά
@@ -55,7 +57,7 @@ Rasdaman
 * Εφαρμογές πελάτες και petascope: GNU Lesser General Public License (LGPL) έκδοση 3
 * Μηχανή Εξυπηρετητή Rasdaman: GNU General Public License (GPL) έκδοση 3
 
-**Έκδοση Λογισμικού:** 8.2
+**Έκδοση Λογισμικού:** 8.3
 
 **Υποστηριζόμενες Πλατφόρμες:** Linux, Mac, Solaris
 

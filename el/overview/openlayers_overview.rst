@@ -1,5 +1,6 @@
 :Author: Chris Schmidt
 :Author: OSGeo-Live
+:Author: Roald de Wit 
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -43,13 +44,14 @@ OpenLayers
 * Υποστήριξη διαδεδομένων και καθιερωμένων προτοκόλλων για επικοινωνία με εξυπηρετητές
 * Εργαλεία για δημιουργία γραφικών διεπαφών με ευκολία
 * Υποστήριξη εμφάνισης δεδομένων στον περιηγητή (με τη χρήση προτύπων SVG, VML, ή τεχνολογιών Canvas), υποστηρίζοντας την ανάπτυξη σύνθετων χαρτών μέσα στον περιηγητή
+* Υποστήριξη για φορητές συσκευές (με έμφαση στις συσκευές αφής)
 * Δυνατότητα φόρτωσης επιπέδων χαρτών από οποιαδήποτε πηγή:
   
   * Εμπορικά επίπεδα: Google, Bing, Yahoo
   
   * Πρότυπα OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Άλλα: ArcGI, Images, MapGuide, MapServer, TileCache
+  * Άλλα: OpenStreetMap (OSM), ArcGI, Images, MapGuide, MapServer, TileCache
 
 * Δυνατότητα να προσπελάσει διανυσματικά δεδομένα και μεταδεδομένα σε οποιοδήποτε πρότυπο:
   
@@ -62,7 +64,7 @@ OpenLayers
 
 **Άδεια:** στύλ MIT
 
-**Έκδοση Λογισμικού:** 2.10
+**Έκδοση Λογισμικού:** 2.11
 
 **Προγραμματιστική διεπαφή:** JavaScript
 

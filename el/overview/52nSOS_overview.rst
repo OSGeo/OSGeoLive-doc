@@ -55,7 +55,7 @@
 
 * **Κεντρική Ιστοσελίδα:** http://52north.org/communities/sensorweb/sos
 
-* **Άδεια:** GPL
+* **Άδεια:** GPL v2
 
 * **Έκδοση λογισμικού:** SOS 3.2.0
 

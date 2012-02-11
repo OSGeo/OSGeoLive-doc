@@ -1,6 +1,6 @@
 :Author: Alan Boudreault, Steve Lime
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapguide-overview:
@@ -89,7 +89,7 @@ MapServer
 Τεκμηρίωση
 --------------------------------------------------------------------------------
 
-* `Τεκμηρίωση MapServer 6.0.1 <../../mapserver/doc/index.html>`_
+* `Τεκμηρίωση MapServer 6.0.2 <../../mapserver/doc/index.html>`_
 
 
 Λεπτομέρειες
@@ -99,7 +99,7 @@ MapServer
 
 **Άδεια:** `άδεια τύπου MIT <http://mapserver.org/copyright.html#license>`_
 
-**Έκδοση Λογισμικού:** 6.0.1
+**Έκδοση Λογισμικού:** 6.0.2
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

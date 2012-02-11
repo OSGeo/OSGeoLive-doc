@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -32,8 +32,8 @@ OpenJUMP GIS
 * Πρότυπα δεδομένων
 
     * Ανάγνωση αρχείων: GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
-    * Ανάγνωση βάσεων δεδομένων: PostGIS, ArcSDE*, Oracle* και MySQL*
-    * Εγγραφή: GML, SHP, DXF*, PostGIS*, JML & JPG
+    * Ανάγνωση βάσεων δεδομένων: PostGIS, ArcSDE*, Oracle*, MySQL* και SpatiaLite*
+    * Εγγραφή: GML, SHP, DXF*, PostGIS*, TIFF, JPG και SVG
     * Υποστήριξη: OGC WMS & WFS (-T), GML 2, SLD
     * Τα πρότυπα που σημειώνονται με (*) παρέχονται με κάποιο πρόσθετο
 
@@ -55,6 +55,7 @@ OpenJUMP GIS
 
 * Ανάπτυξη
 
+    * Πολυγλωσσική υποστήριξη (cz, de, en, ed, fi, fr, hu, it, ja, pt, ta, zh)
     * Παρέχει προγραμματιστική διεπαφή, δυνατότητα scripting μέσω BeanShell και Java Python
     * Σύστημα προσθέτων Java
    
@@ -64,7 +65,7 @@ OpenJUMP GIS
 
 .. Συμβουλή: Δημιουργία λίστας σχετικά με τα υποστηριζόμενα πρότυπα.
 
-* Υποστήριξη προτύπων OGC: GML 2, SFS, WMS, WFS, WFS-T, SLD
+* Υποστήριξη προτύπων OGC: GML 2, SFS, WMS και SLD
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -73,13 +74,15 @@ OpenJUMP GIS
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.4.0.1
+**Έκδοση Λογισμικού:** 1.5.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 
 **Υποστήριξη από την κοινότητα:** http://www.openjump.org/support.html
 
 **Εμπορική Υποστήριξη:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+
+**Ιστοσελίδα Μεταφόρτωσης:** http://sourceforge.net/projects/jump-pilot/files/
 
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------

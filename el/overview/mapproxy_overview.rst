@@ -40,7 +40,7 @@ MapProxy
  
 Πηγές δεδομένων:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, κλπ.)
-  * TMS (TileCache, GeoWebcache, etc.)
+  * TMS, WMTS(TileCache, GeoWebcache, etc.)
   * Mapserver και Mapnik (απευθείας, χωρίς WMS)
   * κάθε ένα από τα TileCache, Google Maps, Bing ή συμβατή πηγή
 
@@ -52,6 +52,7 @@ MapProxy
 
 Αποθήκη τετραγωνιδίων:
   * αποθηκεύει παρόμοιες εικόνες μόνο μια φορά (πχ. τετραγωνίδια θάλασσας)
+  * αποθηκεύει τετραγωνίδια στο σύστημα αρχείων, αρχεία MBTile ή σε CouchDB
   * προσθήκη υδατογραφήματος στα τετραγωνίδια
 
 Επιλογές πηγής:
@@ -84,7 +85,7 @@ MapProxy
 Ο MapProxy υλοποιεί τα παρακάτω πρότυπα:
 
 * OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC WMTS 1.0.0
+* OGC WMTS 1.0.0 (KVP και RESTful)
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
 
@@ -96,7 +97,7 @@ MapProxy
 
 **Άδεια:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Έκδοση Λογισμικού:** 1.1.1
+**Έκδοση Λογισμικού:** 1.3.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 

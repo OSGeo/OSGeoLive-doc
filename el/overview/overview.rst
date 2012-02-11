@@ -39,7 +39,7 @@
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος
 * :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ
 * :doc:`osgearth_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart>`] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
-* :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
+.. * :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
 
 Πλοήγηση και Χάρτες
 --------------------------------------------------------------------------------
@@ -66,26 +66,37 @@
 * :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
-* :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Εξυπηρετητής QGIS
-* :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
+* :doc:`pycsw_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/pycsw_quickstart>`] - Υπηρεσία Καταλόγου
+* :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
+* :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`52nWSS_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWSS_quickstart>`] - Web Security Service
-* :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`]- Web Processing Service
-* :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`]- Sensor Observation Service
+* :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`] - Web Processing Service
+* :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
+* :doc:`tinyows_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-* :doc:`tinyows_overview` - WFS-T Service
-
 .. temp disabled to save disc space: * :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
 
 Δεδομένα
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
+* :doc:`nc_dataset_overview`
+* :doc:`osm_dataset_overview` - Δείγμα δεδομένων από το OpenStreetMap
 
 Γεωχωρικές Βιβλιοθήκες
 --------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
 * :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
 * :doc:`liblas_overview`  - Πρόσβαση δεδομένων LiDAR
+
+Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
+--------------------------------------------------------------------------------
+* :doc:`mapguide_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`] - Διαδικτυακή Υπηρεσία
+* :doc:`mapwindow_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapwindow_quickstart>`] - GIS βασισμένο στα Microsoft Windows
+* :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
+
+.. MapGuide and MB-System temporarily disabled to save on disc space; MapWindow won't run on Ubuntu
+
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------------------

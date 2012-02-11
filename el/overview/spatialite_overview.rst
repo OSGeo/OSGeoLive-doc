@@ -1,6 +1,6 @@
 :Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _spatialite-overview:
@@ -40,6 +40,7 @@ SpatiaLite
 * Υλοποιεί χωρικές συναρτήσεις SQL όπως οι AsText(), GeomFromText(), Area(), PointN() και παρόμοιες
 * Το πλήρες σύνολο των χωρικών συναρτήσεων OpenGis υποστηρίζεται μέσω GEOS, με συναρτήσεις όπως Overlaps(), Touches(), Union(), Buffer() ..
 * Υποστηρίζει πλήρως τα χωρικά μεταδεδομένα από τις προδιαγραφές OpenGis
+* Υποστηρίζει εναλλακτικά πρότυπα αναπαράστασης γεωμετρίας - EWKT, GML, KML, και GeoJSON
 * Υποστηρίζει εισαγωγή και εξαγωγή, από και πρός shapefiles
 * Υποστηρίζει αλλαγή προβολικού συστήματος μέσω PROJ.4 και των κωδικών EPSG
 * Υποστηρίζει τοπικά συστήματα κωδικοποίησης χαρακτήρων μέσω του GNU libiconv
@@ -54,11 +55,11 @@ SpatiaLite
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Κεντρική Ιστοσελίδα:** http://www.gaia-gis.it/spatialite/
+**Κεντρική Ιστοσελίδα:** http://www.gaia-gis.it/gaia-sins/
 
 **Άδεια:** MPL v1.1 και GPL v3
 
-**Έκδοση Λογισμικού:** 2.3.1 / 2.4 beta
+**Έκδοση Λογισμικού:** spatialite 3.0.0 / librasterlite 1.0 / spatialite-gui 1.3.0 / spatialite-gis 1.0.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 
