@@ -6,11 +6,11 @@
 
 .. _metacrs-overview:
 
-.. image:: ../../images/project_logos/logo-GDAL.png
-  :scale: 60 %
-  :alt: project logo
-  :align: right
-  :target: http://trac.osgeo.org/metacrs/wiki
+.. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
+..  :scale: 60 %
+..  :alt: project logo
+..  :align: right
+..  :target: http://trac.osgeo.org/metacrs/wiki
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
