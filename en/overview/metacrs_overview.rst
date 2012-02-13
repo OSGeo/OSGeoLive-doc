@@ -32,7 +32,7 @@ Coordinate Reference System Transformations
 
 
 `The group of MetaCRS projects <http://trac.osgeo.org/metacrs/wiki>`_ provide
-libraries of methods to transform between difference coordinate reference
+libraries of methods to transform between different coordinate reference
 systems. A geographic coordinate reference systems allows all points on the
 earth to be described as set of coordinates (such as latitude, longitude and
 elevation). Different systems are used to represent the 3 dimensional earth
