@@ -16,89 +16,89 @@
 MapWindow GIS
 ================================================================================
 
-Desktop GIS
+Λογισμικό GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapWindow GIS is a Windows based, Open Source GIS client where
-you can visualize, manage, edit, analyse data, and compose printable maps.
-It includes powerful analytical functions through integration with GEOS and GDAL/OGR.
-MapWindow is easy to incorporate into MS-Office based products such as MS-Excel and MS-Access, as well as programs written in VB6, C++, C#, VB.NET, and Delphi, as MapWindow is based upon ActiveX controls.
+Το λογισμικό MapWindow GIS είναι ένα ανοιχτό λογισμικό GIS βασισμένο στην τεχνολογία των Windows, όπου μπορεί να γίνει
+απεικόνιση, διαχείριση, επεξεργασία και χαρτογραφία με στόχο εκτυπωμένους χάρτες.
+Περιλαμβάνει πολύ ισχυρά αναλυτικά εργαλεία μέσω διασύνδεσης με τα λογισμικά GEOS και GDAL/OGR.
+Το MapWindow είναι εύκολο να διασυνδεθεί με τα προιόντα MS-Office όπως το MS-Excel και MS-Access, καθώς επίσης και με άλλες εφαρμογές υλοποιημένες σε γλώσσες VB6, C++, C#, VB.NET, και Delphi, διότι το MapWindow βασίζεται στην τεχνολογία ActiveX.
 
-.. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be downloaded from http://mapwindow4.codeplex.com/releases.
+.. note:: Το MapWindow απαιτεί σύστημα Microsoft Windows για την εκτέλεσή του. Τα αρχεία εγκατάστασης περιλαμβάνονται  στην πλήρη έκδοση του `OSGeo-Live <http://live.osgeo.org>`_ ή μπορούν να τηλεφορτωθούν από τη διεύθυνση http://mapwindow4.codeplex.com/releases.
    
 .. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right
 
-Core Features
+Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-* Friendly graphical user interface:
+* Φιλική διεπαφή με τους χρηστες:
 
-    * identify/select features,
-    * edit/view/search attributes,
-    * on the fly projection,
-    * print layout,
-    * feature labeling,
-    * change vector and raster symbology,
-    * and more ...
+    * Αναγνώριση και επιλογή χαρακτηριστικών,
+    * επεξεργασία/απεικόνιση/αναζήτηση περιγραφικών χαρακτηριστικών,
+    * άμεση αλλαγή προβολικού συστήματος,
+    * προεπισκόπηση εκτύπωσης,
+    * Δημιουργία ετικετών για χαρακτηριστικών,
+    * αλλαγή συμβόλων για διανυσματικά και εικονιστικά δεδομένα,
+    * και πολλά άλλα ...
 
-* Easy Viewing of many Vector and Raster Formats:
+* Ευκολη επισκόπηση πολλών προτύπων διανυσματικών και εικονιστικών δεδομένων:
 
-    * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML,
-    * raster formats such as digital elevation models, aerial photography or landsat imagery,
-    * Tiles services, like OpenStreetMap, ArcGIS Online.
+    * Τα περισσότερα διανυσματικά πρότυπα: ESRI shapefiles, MapInfo, SDTS και GML,
+    * Εικονιστικά δεδομένα, όπως Ψηφιακά Μοντέλα Εδάφους, αεροφωτογραφίες ή δορυφορικά δεδομένα landsat,
+    * Υπηρεσίες τετραγωνιδίων, όπως το OpenStreetMap και το ArcGIS Online.
 
-* Create, edit and export spatial data using:
+* Δημιουργία, επεξεργασία και εξαγωγή χωρικών δεδομένων με τη χρήση:
 
-    * digitizing tools for shapefile format,
-    * the georeferencer plugin,
-    * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit.
+    * εργαλείων ψηφιοποίησης για το πρότυπο shapefile,
+    * πρόσθετου γεωμετρικής διόρθωσης δεδομένων,
+    * εργαλείων GPS για την εισαγωγή και εξαγωγή του προτύπου GPX, τη μετατροπή από άλλα πρότυπα GPS σε GPX, ή την μεταφόρτωση απευθείας σε μονάδα GPS.
 
-* Perform spatial analysis using plugins:
+* Εκτέλεση χωρικής ανάλυσης με τη χρήση πρόσθετων:
 
-    * map algebra,
-    * terrain analysis,
-    * hydrologic modeling (TauDEM),
-    * network analysis,
-    * and many others.
+    * Άλγεβρα Χαρτών,
+    * Ανάλυση Τοπίου,
+    * Υδρολογική Μοντελοποίηση (TauDEM),
+    * Ανάλυση Δικτύων,
+    * και πολλά άλλα.
 
-* Extensible plugin architecture:
+* Επεκτάσιμη αρχιτεκτονική πρόσθετων:
 
-    * Plug-in architecture makes it easy to add additional functionality to MapWindow. Plug-ins can be written in any .NET language (C#, VB.NET) using Visual Studio Pro or the free SharpDevelop or Visual Studio Express.  
+    * Η αρχιτεκτονική των πρόσθετων διευκολύνει την προσθήκη λειτουργικότητας στο MapWindow. Πρόσθετα μπορούν να υλοποιηθούν σε οποιαδήποτε γλώσσα της πλατφόρμας .NET (C#, VB.NET) με τη χρήση του Visual Studio ή του ελεύθερου SharpDevelop ή του Visual Studio Express.  
  
-* ActiveX control:
+* Άρθρωμα ActiveX:
 
-    * Uses an ActiveX control written in C++. This control can be used in custom applications written in languages like VB6, C++, C#, VB.NET, and Delphi, and can be used in MS-Office products like MS-Access and MS-Excel.
+    * Το MapWindow χρησιμοποιεί ένα άρθρωμα ActiveX το οποιο είναι υλοποιημένο σε C++. Αυτό το άρθρωμα μπορεί να χρησιμοποιηθεί σε ιδιοποιημένες εφαρμογές που γράφονται σε γλώσσες όπως VB6, C++, C#, VB.NET, και Delphi, και μπορεί να χρησιμοποιηθεί σε προιόντα MS-Office όπως τα MS-Access και MS-Excel.
 
-Implemented Standards
+Υλοποιημένα Πρότυπα
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* OGC Standards: 
+* Πρότυπα OGC: 
     * WMS (v1.1, v1.3)
-    * WFS v1.1 (through a separate plug-in)
+    * WFS v1.1 (μέσω ειδικού πρόσθετου)
     * Web Map Tile Service (WMTS)
     * GML    
 
-Details
+Λεπτομέρειες
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Website:** http://www.mapwindow.org
+**Κεντρική ιστοσελίδα:** http://www.mapwindow.org
 
-**Licence:** MPLv1.1
+**Άδεια:** MPLv1.1
 
-**Software Version:** 4.8.6
+**Έκδοση Λογισμικού:** 4.8.6
 
-**Supported Platforms:** Windows
+**Υποστηριζόμενες πλατφόρμες:** Windows
 
-**API Interfaces:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
+**Προγραμματιστικές διεπαφές:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
 
-**Community Support:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
+**Υποστήριξη από την κοινότητα:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
 
-**Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
+**Εμπορική υποστήριξη:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
 
 
-Quickstart
+Γρήγορη εκκίνηση
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :doc:`Quickstart documentation <../quickstart/mapwindow_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapwindow_quickstart>`
