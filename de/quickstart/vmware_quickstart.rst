@@ -9,12 +9,12 @@
 ********************************************************************************
 OSGeo-Live Quickstart für VMWare Player
 ********************************************************************************
-OSGeo-Live kann auf einem Host-Rechner installiert und als "Gast"-Betriebssystem gestartet werden. Der Host kann sowohl Windows als auch Linux sein. Hierfür erforderlich ist eine installierte Software, wie zum Beispiel VM Ware Player, um die virtuelle Maschine (VM) starten zu können. Folgend sind die Schritte dokumentiert, um die OSGeo-Live als VM aufzusetzen.
+OSGeo-Live kann auf einem Host-Rechner installiert und als "Gast"-Betriebssystem gestartet werden. Der Host kann sowohl Windows als auch Linux sein. Hierfür erforderlich ist eine installierte Software, wie zum Beispiel VMWare Player, um die virtuelle Maschine (VM) starten zu können. Folgend sind die Schritte dokumentiert, um die OSGeo-Live als VM aufzusetzen.
 
 ================================================================================
 Warum die OSGeo-Live als VM laufen lassen?
 ================================================================================
-Wird OSGeo-Live als VM verwendet, besteht für den Anwender die Möglichkeit, die Arbeiten abzuspeichern, das Live-System zu aktualisieren oder weitere Software zu installiern. Hinzu kommt, dass der virtuelle Computer besser auf User-Interaktion anspricht, als wenn OSGeo-Lie von der DVD gestartet wird. Die OSGeo-Live VM erzeugt eine voll funktionsfähige Computer-Umgebung, im Gegensatz zur LiveDVD werden alle Dateien und Daten sowie Einstellungen gespeichert und sind nach dem Neustart weiterhin verfügbar. Aufgrund der Platform ist es nicht nur möglich, OSGeo-Live für Präsentationen und Schulungen zu nutzen, sondern wirklich in GIS-Welt einzudringen und zu arbeiten.
+Wird OSGeo-Live als VM verwendet, besteht für den Anwender die Möglichkeit, die Arbeiten abzuspeichern, das Live-System zu aktualisieren oder weitere Software zu installieren. Hinzu kommt, dass der virtuelle Computer besser auf User-Interaktion anspricht, als wenn OSGeo-Lie von der DVD gestartet wird. Die OSGeo-Live VM erzeugt eine voll funktionsfähige Computer-Umgebung, im Gegensatz zur LiveDVD werden alle Dateien und Daten sowie Einstellungen gespeichert und sind nach dem Neustart weiterhin verfügbar. Aufgrund der Platform ist es nicht nur möglich, OSGeo-Live für Präsentationen und Schulungen zu nutzen, sondern wirklich in GIS-Welt einzudringen und zu arbeiten.
 
 ================================================================================
 Anforderungen
@@ -22,13 +22,13 @@ Anforderungen
 
 Hardware
 ----------------
-Der Host-Computer sollte mindestens 2GB Arbeitsspeicher haban, wovon 1GB von der VM genutzt werden können. Auch hier gilt, je mehr desto besser, was die Performance entsprechend verbessert. Sie können die Größe des Speichers später noch anpassen.
+Der Host-Computer sollte mindestens 2GB Arbeitsspeicher verfügen, wovon 1GB von der VM genutzt werden können. Auch hier gilt, je mehr desto besser, was die Performance entsprechend verbessert. Sie können die Größe des Speichers später noch anpassen.
 Den freien Festplattenspeicher betreffend, sollten mindestens 25GB vorhanden sein. Steht mehr zur Verfügung, können Sie in der VM mehr für Ihre Arbeit verwenden.
 Ebenso sollte die CPU des Host-Systems VM's unterstützen (die meisten Computer der letzten 5 Jahre wurden mit VT-Virtualization Technology ausgeliefert).
 
 Software
 ----------------
-Laden Sie die VM Version von OSGeo-Live herunter. Es wird 7 ZIP benötigt, um das Archib zu entpacken. Natürlich wird auch der VM Ware Player benötigt. Berücksichtigen Sie, dass der VM Ware Player nicht OpenSource ist, auch wenn er kostenlos heruntergeladen werden kann. Darüber hinaus ist eine Registrierung erforderlich sowie eine Zustimmung zu den Lizenzbedingungen, um die Software herunterladen und nutzen zu können.
+Laden Sie die VM Version von OSGeo-Live herunter. Es wird 7 ZIP benötigt, um das Archiv zu entpacken. Natürlich wird auch der VMWare Player benötigt. Berücksichtigen Sie, dass der VMWare Player nicht OpenSource ist, auch wenn er kostenlos heruntergeladen werden kann. Darüber hinaus ist eine Registrierung erforderlich sowie eine Zustimmung zu den Lizenzbedingungen, um die Software herunterladen und nutzen zu können.
 
 `OSGeo-Live VM <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z>`_
 
@@ -52,7 +52,7 @@ Um die OSGeo-Live VM nutzen zu können, ist es erforderlich, eine Konfiguration 
 
 `EasyVMX Webseite: <http://www.easyvmx.com/>`_
 
-Klicken Sie auf die easyvmx Schaltfläche und geben Sie folgende Einstellungen bei den entsrechenden Eingabefeldern an:
+Klicken Sie auf die easyvmx Schaltfläche und geben Sie folgende Einstellungen bei den entsprechenden Eingabefeldern an:
         - Virtual Machine Name: osgeolive-5.5 (Verwenden Sie den Namen der vmdk Datei)
         - Select GuestOS: Ubuntu
         - Memory Size: 1024 MB (mindestens)
@@ -68,7 +68,7 @@ Klicken Sie auf die easyvmx Schaltfläche und geben Sie folgende Einstellungen b
 .. image:: ../../images/screenshots/800x600/vmware_easyvmx_disk.png
         :scale: 75
 
-Klicken Sie auf die Schaltfläche "Create Experimental Virtual Machine". Es wird eine formatierte **vmx** Datei von der Webseite bereitgestellt, die die oben eingegebenen Einstellungen beinhaltet. Die Date ist in dem Verzeichnes Ihres Computers abzulegen, wo zuvor die die OSGeo vmdk Datei aus dem ZIP Archiv entpackt wurde. Die in der folgenden Ansicht zu sehenden Zeilen, beginnend ab ``#!/usr/bin/vmplayer`` bis ``# END OF EasyVMX! CONFIG`` sind zu kopieren und in eine neue Datei `osgeolive-5.5.vmx` einzufügen. 
+Klicken Sie auf die Schaltfläche "Create Experimental Virtual Machine". Es wird eine formatierte **vmx** Datei von der Webseite bereitgestellt, die die oben eingegebenen Einstellungen beinhaltet. Die Datei ist in dem Verzeichnis Ihres Computers abzulegen, wo zuvor die die OSGeo vmdk Datei aus dem ZIP Archiv entpackt wurde. Die in der folgenden Ansicht zu sehenden Zeilen, beginnend ab ``#!/usr/bin/vmplayer`` bis ``# END OF EasyVMX! CONFIG`` sind zu kopieren und in eine neue Datei `osgeolive-5.5.vmx` einzufügen. 
 
 .. image:: ../../images/screenshots/800x600/vmware_easyvmx_output.png
         :scale: 75
