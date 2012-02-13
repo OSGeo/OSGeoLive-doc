@@ -11,25 +11,25 @@
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
 
-OSGeo North Carolina, USA Educational dataset
+Εκπαιδευτικά δεδομένα OSGeo της Βόρειας Καρολίνας
 ================================================================================
 
-Map Data
+Δεδομένα Χάρτη
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Comment: the following text is courtesy of Helena Mitasova & Markus Neteler
 
-This data set is a comprehensive collection of raster, vector and imagery data covering parts of North Carolina (NC), USA, prepared from public data sources provided by the North Carolina state and local government agencies and Global Land Cover Facility (GLCF).
+Το σύνολο δεδομένων είναι μια ολοκληρωμένη συλλογή διανυσματικών και εικονιστικών δεδομένων που καλύπτουν περιοχές της Βόρειας Καρολίνας των ΗΠΑ, τα οποία έχουν παραχθεί από δημόσιες πηγές δεδομένων όπως αυτά παρέχονται από την πολιτεία της Βόρειας Καρολίνας αλλά και από άλλες κυβερνητικές υπηρεσίες αλλά και από την υπηρεσία Global Land Cover Facility (GLCF).
 
-The data set includes sections of the NC capital city Raleigh and its surroundings. 
+Τα δεδομένα περιλαμβάνουν περιοχές της πρωτεύουσας της Βόρειας Καρολίνας, Raleigh και των περιχώρων της. 
 
-Data are provided at three hierarchical levels:
+Τα δεδομένα παρέχονται σε τρία ιεραρχικά επίπεδα:
 
-* entire NC state with raster data at 500m resolution;
+* ολόκληρη η πολιτεία της Βόρειας Καρολίνας σε εικόνα χωρικής ανάλυσης 500m
 
-* South-west Wake County with raster data at resolutions 30m-10m; and
+* Η νοτιοδυτική περιοχή Wake County σε εικόνες χωρικής ανάλυσης 30m-10m και
 
-* a small watershed in rural area with data resolutions of 1m-3m (see image).
+* ένας μικρός υδροκρίτης σε αγροτική περιοχή με δεδομένα χωρικής ανάλυσης 1m-3m (βλέπε εικόνα).
 
 .. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
@@ -37,39 +37,39 @@ Data are provided at three hierarchical levels:
   :align: right
 
 
-Core Features
+Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-* County and state level raster, vector, and KML map layers with full meta-data, specifically selected to cover the wide needs of teaching introductory GIS courses and providing examples for software help pages and tutorials.
+* Διανυσματικά και εικονιστικά δεδομένα σε επίπεδο κρατών και πολιτειών, και θεματικά επίπεδα τύπου KML με πλήρη μεταδεδομένα, επιλεγμένα με τρόπο που να καλύπτει τις ευρείες ανάγκες διδασκαλίας εισαγωγικών μαθημάτων GIS και τις ανάγκες επίδειξης σε εγχειρίδια λογισμικών.
 
-* The Creative Commons license means the data can be used, distributed, and modified by anyone. Without the usual legal encumbrances of much publicly available geodata it is ideal for use in the classroom.
+* Η άδεια χρήσης Creative Commons σημαίνει πως τα δεδομένα μπορούν να χρησιμοποιηθούν, διανεμηθούν και μετασχηματιστούς από όλους. Χωρίς τις συνήθεις νομικές δυσκολίες πολλών δημοσίων δεδομένων, τα δεδομένα αυτά είναι ιδανικά για χρήση στις αίθουσες διδασκαλίας.
 
 
-Data Sets
+Σύνολα δεδομένων
 --------------------------------------------------------------------------------
 
-Cultural Vector Data Themes:
-  Includes political boundaries, roads, bus stops, firestations, census blocks, and much more.
+Πολιτισμικά διανυσματικά θέματα δεδομένων:
+  Περιλαμβάνουν χώρες, δρόμους, στάσεις λεωφορείων, σταθμούς πυροσβεστικής, αστικά πολύγωνα, και πολλά άλλα.
 
-Physical Vector Data Themes:
-  Includes LiDAR aerial elevation measurements, contour lines, streams, precipitation, and much more.
+Φυσικά διανυσματικά θέματα δεδομένων:
+  Περιλαμβάνουν υψομετρικές μετρήσεις από αερομεταφερόμενο δέκτη LiDAR, ισουψείς καμπύλες, υδρογραφικό δίκτυο, στοιχεία βροχοπτώσεων και πολλά άλλα.
 
-Raster Data Themes:
-  Includes digital elevation maps, landuse and landcover, LANDSAT7 imagery, and much more.
+Εικονιστικά θέματα δεδομένων:
+  Περιλαμβάνουν ψηφιακά μοντέλα εδάφους, χάρτες χρήσης και κάλυψης γης, απεικονίσεις LANDSAT7 και πολλά ακόμα.
 
 
-Details
+Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Website:** http://www.grassbook.org/data_menu3rd.php
+**Κεντρική Ιστοσελίδα:** http://www.grassbook.org/data_menu3rd.php
 
-**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Άδεια:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
 
-**Data Version:** 2008
+**Έκδοση δεδομένων:** 2008
 
-**Data format:** GeoTIFF, Shapefiles, KML
+**Τύπος δεδομένων:** GeoTIFF, Shapefiles, KML
 
-**Spatial coordinate system:** NC State Plane (Lambert Conformal Conic), NAD83
+**Χωρικό σύστημα συντεταγμένων:** NC State Plane (Lambert Conformal Conic), NAD83
 
-**Support:** http://lists.osgeo.org/mailman/listinfo/geodata
+**Υποστήριξη:** http://lists.osgeo.org/mailman/listinfo/geodata
 
