@@ -51,7 +51,7 @@ Setting up the VM
 ================================================================================
 In order to run the OSGeo virtual machine, we first need to create a virtual machine configuration file **vmx**. The quick way is to browse to: 
 
-`EasyVMX web site: <http://www.easyvmx.com/>`_
+`EasyVMX web site: <http://www.easyvmx.com/easyvmx.shtml>`_
 
 Click on the easyvmx button and enter these configuration options in the form:
         - Virtual Machine Name: osgeolive-5.5 (choose same name as the vmdk file)

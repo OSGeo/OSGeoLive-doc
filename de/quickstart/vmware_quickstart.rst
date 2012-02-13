@@ -50,7 +50,7 @@ Einrichten der VM
 ================================================================================
 Um die OSGeo-Live VM nutzen zu können, ist es erforderlich, eine Konfiguration **vmx** zu erstellen. Am einfachsten geht dies über folgenden Link:
 
-`EasyVMX Webseite: <http://www.easyvmx.com/>`_
+`EasyVMX Webseite: <http://www.easyvmx.com/easyvmx.shtml>`_
 
 Klicken Sie auf die easyvmx Schaltfläche und geben Sie folgende Einstellungen bei den entsprechenden Eingabefeldern an:
         - Virtual Machine Name: osgeolive-5.5 (Verwenden Sie den Namen der vmdk Datei)
