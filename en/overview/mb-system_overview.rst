@@ -26,9 +26,9 @@ use of the doc:`GMT <gmt_overview>` software.
 MB-System has been under development since 1993, with active support
 from a number of research and science organisations.
 
-.. note:: Due to space constraints on the DVD, MB-System is currently
-  not installed. To install it open up a terminal and
-  run ``cd gisvm/bin; sudo ./install_mb-system.sh``
+.. comment .. note:: Due to space constraints on the DVD, MB-System is currently
+.. comment  not installed. To install it open up a terminal and
+.. comment  run ``cd gisvm/bin; sudo ./install_mb-system.sh``
 
 Core Features
 --------------------------------------------------------------------------------

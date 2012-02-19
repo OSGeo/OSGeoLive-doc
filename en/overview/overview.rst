@@ -39,8 +39,7 @@ Desktop GIS
 * :doc:`geopublisher_overview`- [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Catalogue
 * :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Style Editor
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
-
-.. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
+* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
 
 Navigation and Maps
 --------------------------------------------------------------------------------
@@ -95,9 +94,8 @@ Other software of interest (not available Live)
 --------------------------------------------------------------------------------
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based GIS
-* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
 
-.. MapGuide and MB-System temporarily disabled to save on disc space; MapWindow won't run on Ubuntu
+.. MapGuide temporarily disabled to save on disc space; MapWindow won't run on Ubuntu
 
 Windows and Apple Installers
 --------------------------------------------------------------------------------
