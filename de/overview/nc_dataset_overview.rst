@@ -19,15 +19,15 @@ Kartendaten
 
 .. Comment: folgender Text mit freundlicher Genehmigung von Helena Mitasova & Markus Neteler
 
-Dieser Datensatz besteht aus einer umfangreichen Sammlung von Raster-, Vektor- und Bilddaten. Er dekt Teile von North Caroline (NC) USA ab und wurde aus öffentlich zugägnlichen Quellen abgeleitet die vom Staat North Carolina, örtlichen Behörden und der Global Land Cover Facility (GLCF) zur Verfügung gestellt wurden.
+Dieser Datensatz besteht aus einer umfangreichen Sammlung von Raster-, Vektor- und Bilddaten. Er deckt Teile von North Caroline (NC) USA ab und wurde aus öffentlich zugänglichen Quellen abgeleitet, die vom Staat North Carolina, örtlichen Behörden und der Global Land Cover Facility (GLCF) zur Verfügung gestellt wurden.
 
-Enthalten sind Ausschnitte der Hauptstat North Carolinas, Raleigh und deren Umgebung.
+Enthalten sind Ausschnitte der Hauptstadt North Carolinas, Raleigh und deren Umgebung.
 
 Zur Verfügung gestellt werden drei hierarchische Ebenen:
 
 * Rasterdaten mit einer Auflösung von 500m des kompletten Staates NC
 
-* Süd-West Wake County Rasterdaten mit einer Aufkösung von 30m-10m und
+* Süd-West Wake County Rasterdaten mit einer Auflösung von 30m-10m und
 
 * ein kleines, ländliches Einzugsgebiet mit einer Auflösung von 1m-3m (siehe Bild).
 
@@ -42,7 +42,7 @@ Kernfunktionen
 
 * Landkreis- und Bundesland-Ebene mit Raster-, Vektor- und KML-Layern inkl. Metadaten, eigens ausgewählt für den breiten Anwendungsbereich in GIS-Grundlagen-Kursen. Außerdem gut geeignet als Vorlage für Hilfeseiten und Tutorials.
 
-* Die Creative Commons Lizent gewährt die freie Benutzung und Verbreitung der Daten und erlaubt die Veränderung durch jederman. Ohne die weit verbreiteten
+* Die Creative Commons Lizenz gewährt die freie Benutzung und Verbreitung der Daten und erlaubt die Veränderung durch jederman. Ohne die weit verbreiteten
 Einschränkungen anderer öffentlich gemachter Daten ist dieser Datensatz ideal für die Nutzung in Schule und Ausbildung geeignet.
 
 
