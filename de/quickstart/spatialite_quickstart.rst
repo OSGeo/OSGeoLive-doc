@@ -85,7 +85,7 @@ Hier sind einige zusätzliche Herausforderungen für Sie zum Ausprobieren:
 Wie geht es weiter?
 ================================================================================
 
-Wenn Sie mehr über SpatiaLite erfahren möchten, ist die `Documentation und Tutorials`_ Seite ein guter Ausgangspunkt.
+Wenn Sie mehr über SpatiaLite erfahren möchten, ist die `SpatiaLite Projektseite`_ Seite ein guter Ausgangspunkt.
 
 .. _`SpatiaLite Projektseite`: https://www.gaia-gis.it/fossil/libspatialite/index
 

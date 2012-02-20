@@ -24,7 +24,7 @@ Running spatialite
 
 * Open a console and open a sample database with **spatialite**::
 
-   ``spatialite /home/user/data/spatialite/regions.sqlite``
+   ``spatialite /home/user/data/spatialite/trento.sqlite``
 
 * Helpful commands in the CLI interface::
    ``.help
@@ -33,16 +33,22 @@ Running spatialite
 
 * Some sample spatial queries::
 
-   ``SELECT r.NOME_REG, a.Nome FROM Aeroporti a, reg2008_s r WHERE CONTAINS( r.Geometry, a.Geometry ) ORDER BY r.NOME_REG;
+   ``SELECT lc.NOME, lc.NOME_PROV, lc.COM, mh.Perimeter 
+        FROM LocalCouncils AS lc, MunicipalHalls AS mh 
+        WHERE CONTAINS(lc.Geometry,mh.Geometry) AND lc.NOME LIKE 'VILLA%' 
+        ORDER BY lc.NOME;
    .headers ON
-   SELECT NOME_REG AS "Region Name", ST_Area(Geometry)/1000000.0 AS "Area(sq.km.)" FROM reg2008_s ORDER BY NOME_REG;
-   SELECT Nome, X(Geometry) AS X, Y(Geometry) AS Y, FROM Aeroporti WHERE LocAerop LIKE "Bologna%";``
+   SELECT COMUNE, LOCALITA, Area(Geometry)/1000000 AS "Area Sq.km." 
+        FROM PopulatedPlaces ORDER BY "Area Sq.km." DESC LIMIT 10 ; 
+   SELECT lc.NOME AS "Provence Name", X(mh.Geometry) AS X_COORD, Y(mh.Geometry) AS Y_COORD 
+        FROM LocalCouncils AS lc, MunicipalHalls AS mh 
+        WHERE mh.COMU=lc.COM ORDER BY "Provence Name" LIMIT 10;``
       
 
 Create a new database with **spatialite-gui**
 ================================================================================
 
-* From the Databases folder on the Desktop, Start **spatialite-gui**
+* From the Databases folder on the Desktop, Start **spatialite_gui**
 * Select :menuselection:`File --> Creating a new SQLite DB`
 * Click Browse and go to the /home/user/data/spatialite/ directory. Enter a name such as "Test.sqlite" and click Save.
 
@@ -51,13 +57,13 @@ Open an existing database with **spatialite-gui**
 
 * Click the "Disconnecting current SQLite DB" button
 * Click the "Connect existing SQLite DB" button
-* Browse to the /home/user/data/spatialite directory and choose regions.sqlite
-* Right click on the Aeroporti table and select "Show Columns"
-* Right Click on the Aeroporti table and select "Edit table rows"
+* Browse to the /home/user/data/spatialite directory and choose trento.sqlite
+* Right click on the MunicpalHallsView table and select "Show Columns"
+* Right Click on the PopulatedPlaces table and select "Edit table rows"
 * In the upper SQL pane type:
-   ``SELECT Nome, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
-   FROM "Aeroporti"
-   WHERE LocAerop LIKE "Rom%";``
+   ``SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
+   FROM "MunicipalHallsView"
+   WHERE NOME_PROV LIKE "BRESCIA";``
 
    and click the "Execute SQL" button at the right
 
@@ -66,15 +72,15 @@ Running spatialite-gis
 ================================================================================
 
 * From the Desktop GIS folder on the Desktop run spatialite-gis
-* Click the "Connecting existing SQLite DB" button and connect to /home/user/data/spatialite/regions.sqlite
+* Click the "Connecting existing SQLite DB" button and connect to /home/user/data/spatialite/trento.sqlite
 
-You should see a set of Airports in Italy
+You should see a map of Trento Provence in Italy
 
-   - Right click on the Aeroporti layer and select :menuselection:`Hide`
-   - Right Click on the reg2008_s layer and select :menuselection:`Layer Configuration->Classify` and choose "-not selected-" for the column.
-   - Change the border color by right click on reg2008_s and select :menuselection:`Layer configuration->Graphics` and select a different color.
-   - Right click on the aeroporti layer and choose "Show". Now right click again and select :menuselection:`Layer Configuration->Classify`
-   - Select the column PRO_COM and choose "Range of Values" and set Classes to '4'. Now click OK to view the results.
+   - Right click on the Highways layer and select :menuselection:`Hide`
+   - Right Click on the LocalCouncilsTrento layer and select :menuselection:`Layer Configuration->Classify` and choose "Shape Area" for the column. Select 4 Classes and click on the Min and Max color patches to choose a dark and light color. Now click to see a Choropleth display of the provence areas.
+   - Change border color by right click on LocalCouncils and select :menuselection:`Layer configuration->Graphics` and select a different color under Border Graphics.
+   - Zoom in slightly. Right click on the PopulatedPlaces layer and select :menuselection:`Indentify on`. Now click on one of the Populated Places to see the attributes for that feature.
+
 
 Things to Try
 ================================================================================
