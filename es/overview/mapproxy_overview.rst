@@ -93,7 +93,7 @@ Detalles
 
 **Licencia:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versión del Software:** 1.1.1
+**Versión del Software:** 1.3.0
 
 **Platformas Soportadas:** Linux, Mac, Windows
 
