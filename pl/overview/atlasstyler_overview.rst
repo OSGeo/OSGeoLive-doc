@@ -1,7 +1,7 @@
 :Author: Stefan Tzeggai
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _atlasstyler-overview:
@@ -57,7 +57,6 @@ Szczegóły
 **Interfejsy API:** Java, Swing, Geotools
 
 **Wsparcie:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
-
 
 
 Wprowadzenie

@@ -1,5 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _qgis-overview:
@@ -86,7 +88,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** 1.6.0
+**Wersja programu:** 1.7.4
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 
@@ -98,5 +100,5 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/qgis_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/qgis_quickstart>`
 

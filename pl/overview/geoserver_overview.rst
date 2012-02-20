@@ -2,7 +2,8 @@
 :Author: Frank Gasdorf
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.0draft
+
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
@@ -21,6 +22,7 @@ GeoServer
 ================================================================================
 
 Usługi sieciowe
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoServer is a web server that allows you to serve maps and data from
@@ -48,10 +50,12 @@ GeoServer forms a core component of the Geospatial Web.
   :align: right
 
 Główne funkcje
+
 --------------------------------------------------------------------------------
 
 **Serve data from a variety of data stores:**
     * Wektor
+
         - Shapefiles, External WFS
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
@@ -75,6 +79,7 @@ Główne funkcje
     `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
 
 Zaimplementowane standardy
+
 --------------------------------------------------------------------------------
 
 * Wsparcie wielu standardów Open Geospatial Consortium (OGC):
@@ -87,6 +92,7 @@ Zaimplementowane standardy
   * :doc:`../standards/gml_overview`
 
 Szczegóły
+
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** http://geoserver.org/display/GEOS/Welcome
@@ -95,14 +101,20 @@ Szczegóły
 
 **Wersja programu:** 2.1.3
 
+
 **Systemy operacyjne:** All Java 1.5 platforms: - Windows, Linux, Mac
 
+
 **Interfejsy API:** WMS, WFS, WCS, REST
+
 
 **Wsparcie:** http://geoserver.org/display/GEOS/Commercial+Support
 
 
+
+
 Szybkie wprowadzenie
+
 --------------------------------------------------------------------------------
 
 * :doc:`Przejdź do wprowadzenia <../quickstart/geoserver_quickstart>`

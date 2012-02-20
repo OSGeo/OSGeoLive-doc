@@ -1,7 +1,7 @@
 :Author: Bastian Schaeffer, Kristof Lange
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live4.5
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _52nWPS-overview:
