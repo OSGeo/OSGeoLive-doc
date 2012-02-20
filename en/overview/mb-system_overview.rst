@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.5
+:Version: osgeo-live5.5
 :License: Creative Commons
 
 .. _mb-system-overview:
