@@ -61,7 +61,7 @@ OpenLayers は多数のソースで構成しており、 Google Maps API のよ�
 
 **ライセンス:** MIT-style license
 
-**バージョン:** 2.10
+**バージョン:** 2.11
 
 **API:** JavaScript
 
