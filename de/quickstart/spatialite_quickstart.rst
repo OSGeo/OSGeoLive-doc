@@ -24,7 +24,7 @@ spatialite Ausführen
 
 * Öffnen Sie eine Konsole und öffnen Sie eine Beispiel-Datenbank mit SpatiaLite::
 
-   spatialite /home/user/data/spatialite/regions.sqlite
+   spatialite /home/user/data/spatialite/trento.sqlite
 
 * Hilfreiche Befehle im CLI Interface::
    ``.help
@@ -33,11 +33,18 @@ spatialite Ausführen
 
 * Einige Beispiele für räumliche Abfragen::
 
-   ``SELECT r.NOME_REG, a.Nome FROM Aeroporti a, reg2008_s r WHERE CONTAINS( r.Geometry, a.Geometry ) ORDER BY r.NOME_REG;
+   ``SELECT lc.NOME, lc.NOME_PROV, lc.COM, mh.Perimeter 
+        FROM LocalCouncils AS lc, MunicipalHalls AS mh 
+        WHERE CONTAINS(lc.Geometry,mh.Geometry) AND lc.NOME LIKE 'VILLA%' 
+        ORDER BY lc.NOME;
    .headers ON
-   SELECT NOME_REG AS "Region Name", ST_Area(Geometry)/1000000.0 AS "Area(sq.km.)" FROM reg2008_s ORDER BY NOME_REG;
-   SELECT Nome, X(Geometry) AS X, Y(Geometry) AS Y, FROM Aeroporti WHERE LocAerop LIKE "Bologna%";``
-      
+   SELECT COMUNE, LOCALITA, Area(Geometry)/1000000 AS "Area Sq.km." 
+        FROM PopulatedPlaces ORDER BY "Area Sq.km." DESC LIMIT 10 ; 
+   SELECT lc.NOME AS "Provence Name", X(mh.Geometry) AS X_COORD, Y(mh.Geometry) AS Y_COORD 
+        FROM LocalCouncils AS lc, MunicipalHalls AS mh 
+        WHERE mh.COMU=lc.COM ORDER BY "Provence Name" LIMIT 10;`` 
+
+
 Erstellen Sie eine neue Datenbank mit spatialite-gui
 ================================================================================
 
@@ -50,13 +57,15 @@ Erstellen Sie eine neue Datenbank mit spatialite-gui
 
 * Klicken Sie den Button "Disconnecting current SQLite DB"
 * Klicken Sie den Button "Connect existing SQLite DB"
-* Gehen Sie in das Verzeichnis /home/user/data/spatialite und wählen Sie regions.sqlite
-* Klicken Sie mit der rehchten Maustaste auf die Tabelle Aeroporti und wählen Sie "Show Columns"
-* Klicken Sie mit der rechten Maustaste auf die Tabelle Aeroporti und wählen Sie "Edit table rows"
+* Gehen Sie in das Verzeichnis /home/user/data/spatialite und wählen Sie trento.sqlite
+* Klicken Sie mit der rehchten Maustaste auf die Tabelle MunicpalHallsView und wählen Sie "Show Columns"
+* Klicken Sie mit der rechten Maustaste auf die Tabelle PopulatedPlaces und wählen Sie "Edit table rows"
 * Geben Sie folgenden Befehl im oberen SQL-Fenster ein:
-   ``SELECT Nome, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
-   FROM "Aeroporti"
-   WHERE LocAerop LIKE "Rom%";``
+
+   ``SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
+   FROM "MunicipalHallsView"
+   WHERE NOME_PROV LIKE "BRESCIA";``
+
 
    und klicken anschließend zum Ausführen den Button "Execute SQL" auf der rechten Seite
 
@@ -64,12 +73,12 @@ spatialite-gis Ausführen
 ================================================================================
 
 * Führen Sie spatialite-gis über das Desktop GIS Verzeichnis auf dem Desktop aus
-* Klicken Sie den Button "Connecting existing SQLite DB" und verbinden Sie mit /home/user/data/spatialite/regions.sqlite
+* Klicken Sie den Button "Connecting existing SQLite DB" und verbinden Sie mit /home/user/data/spatialite/trento.sqlite
 
 Sie sollten eine Reihe von Flughäfen in Italien sehen.
 
-   - Rechter Klick auf den Layer Aeroporti und wählen Sie :menuselection:`Hide`
-   - Rechter Klick auf den Layer reg2008_s und wählen Sie :menuselection:`Layer Configuration->Classify` und wählen Sie hier "-not selected-" für diese Spalte.
+   - Rechter Klick auf den Layer Highways und wählen Sie :menuselection:`Hide`
+   - Rechter Klick auf den Layer LocalCouncils und wählen Sie :menuselection:`Layer Configuration->Classify` und wählen Sie hier "-not selected-" für diese Spalte.
    - Verändern Sie die Umrandungsfarbe über einen Rechtsklick auf reg2008_s und wählen Sie :menuselection:`Layer configuration->Graphics` und wählen Sie hier andere Farbe.
    - Rechter Klick auf den Layer aeroporti und wählen Sie "Show". Nun wieder ein Rechtsklick und wählen Sie :menuselection:`Layer Configuration->Classify`
    - Selektieren Sie die Spalte PRO_COM und wählen "Range of Values" und setzen Klassen auf '4'. Nun klicken Sie OK, um das Ergebnis an zu zeigen

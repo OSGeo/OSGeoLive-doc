@@ -61,6 +61,7 @@ Open an existing database with **spatialite-gui**
 * Right click on the MunicpalHallsView table and select "Show Columns"
 * Right Click on the PopulatedPlaces table and select "Edit table rows"
 * In the upper SQL pane type:
+
    ``SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
    FROM "MunicipalHallsView"
    WHERE NOME_PROV LIKE "BRESCIA";``
