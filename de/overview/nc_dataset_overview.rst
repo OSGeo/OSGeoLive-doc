@@ -62,15 +62,15 @@ Rasterdaten:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.grassbook.org/data_menu3rd.php
+**Webseite:** http://www.grassbook.org/data_menu3rd.php
 
-**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Lizenz:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
 
-**Data Version:** 2008
+**Version der Daten:** 2008
 
-**Data format:** GeoTIFF, Shapefiles, KML
+**Datenformat:** GeoTIFF, Shapefiles, KML
 
-**Spatial coordinate system:** NC State Plane (Lambert Conformal Conic), NAD83
+**Koordinatensystem:** NC State Plane (Lambert Conformal Conic), NAD83
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/geodata
 

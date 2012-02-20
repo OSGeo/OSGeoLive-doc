@@ -87,19 +87,19 @@ Implementierte Standards
 Details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Website:** http://www.mapwindow.org
+**Webseite:** http://www.mapwindow.org
 
-**Licence:** MPLv1.1
+**Lizenz:** MPLv1.1
 
 **Software Version:** 4.8.6
 
-**Supported Platforms:** Windows
+**Unterstützte Plattformen:** Windows
 
-**API Interfaces:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
+**API Schnittstellen:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
 
 **Community Support:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
 
-**Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
+**Kommerzieller Support:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
 
 
 Quickstart
