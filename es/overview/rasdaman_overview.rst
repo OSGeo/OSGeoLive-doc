@@ -56,7 +56,7 @@ Detalles
 * clients y petascope: GNU Lesser General Public License (LGPL) version 3
 * server engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.2
+**Software Version:** 8.3
 
 **Sistemas operativos soportados:** Linux, Mac, Solaris
 
