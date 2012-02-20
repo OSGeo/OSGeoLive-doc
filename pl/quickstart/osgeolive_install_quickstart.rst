@@ -1,6 +1,8 @@
 
 :Author: OSGeo-Live
 :Author: Cameron Shorter
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -61,7 +63,7 @@ Defaults for settings are:
    * użytkownik = "user"
    * hasło = "user"
    * nazwa komputera = "osgeolive"
-   * Log In automatically
+   * Zaloguj się automatycznie
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %

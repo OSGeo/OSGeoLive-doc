@@ -1,7 +1,9 @@
 
 :Author: OSGeo-Live
-:Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Author: Cameron Shorter, Hamish Bowman
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _osgeolive-install-quickstart:
@@ -14,6 +16,8 @@ Poniższe wprowadzenie opisuje jak uruchomić OSGeo-Live DVD.
 
 Wymagania systemowe
 --------------------------------------------------------------------------------
+
+Komputer powinien posiadać co najmniej:
 
 * RAM: 768 MB, najlepiej 1 GB.
 * CPU: 1 GHz i686 lub kompatybilne (Intel/AMD)
@@ -55,6 +59,20 @@ Uruchomienie:
     :alt: boot select
 
   Wypróbuj aplikacje znajdujące się w menu :menuselection:`Geospatial`. 
+
+   Getting started with the Xfce desktop: (an online work in progress)
+    http://docs.xfce.org/start
+
+  Getting started with the Ubuntu operating system: (polecany PDF e-book)
+    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+
+  Dalsza pomoc online dla systemu operacyjnego Ubuntu: (n.b. używamy tradycyjnegointerfejsu desktopowego Xfce, a nie Unity)
+    https://help.ubuntu.com/11.04/
+
+    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
+
+    https://help.ubuntu.com/11.04/serverguide/C/
+
 
 Zobacz również:
 --------------------------------------------------------------------------------
