@@ -71,7 +71,7 @@ Szczegóły
 
 **Licencja:** GNU General Public License (GPL)
 
-**Wersja programu:** 1.4.0.1
+**Wersja programu:** 1.5.1
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 

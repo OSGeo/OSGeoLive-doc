@@ -71,7 +71,7 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión del Software:** 1.4.0.1
+**Versión del Software:** 1.5.1
 
 **Plataformas en las que corre:** Windows, Linux, Mac, Unix
 
