@@ -1,5 +1,5 @@
 :Author: OSGeo Live
-:Version: osgeo-live4.5
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _qgis-overview:

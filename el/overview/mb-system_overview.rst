@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.5
+:Version: osgeo-live5.5
 :License: Creative Commons
 
 .. _mb-system-overview:
