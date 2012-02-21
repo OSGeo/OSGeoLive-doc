@@ -49,8 +49,8 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 * Provides point transformation from one coordinate reference system to another.
-* Includes transformation between datums.
-* Large number of projection classes supported.
+* beinhaltet die Datumstransformation.
+* eine Vielzahl von Projektionklassen wird unterstützt.
 
 
 Implementierte Standards
