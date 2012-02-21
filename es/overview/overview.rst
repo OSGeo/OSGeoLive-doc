@@ -1,7 +1,7 @@
 .. Fichero maestro de la documentación OSGeo-Live, creado por
    sphinx-Guia de inicio rápido Martes 6 de Julio 14:54:20 2010.
-   Puedes adaptar este fichero completamente a tu gusto, aunque al menos debería
-   contener la directiva raiz `toctree`.
+   Puedes adaptar este fichero completamente a tu gusto, aunque al 
+   menos debería contener la directiva raiz `toctree`.
 
 Contenidos |osgeo-live-version|
 ================================================================================
@@ -12,6 +12,7 @@ Clientes ligeros o de navegador Web
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Cliente GIS de Navegador Web
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Geoportal 
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Web Mapping
+* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portal web SIG
 
 Gestión de Crisis
 --------------------------------------------------------------------------------
@@ -65,26 +66,36 @@ Servicios Web
 * :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
-* :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`]
-* :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`]
-* :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catálogo de Metadatos y Servicios Web de Catálogo
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+* :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catálogo de Metadatos
+* :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catálogo de metadatos
+* :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS y servicios de teselas
+* :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Servicio WMS
+* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Servicio Web de Seguridad
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servicios Web de Geoprocesamiento
-* :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servicios de Observación de Sensores
+* :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servicios de Sensores de Observación
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento
-* :doc:`tinyows_overview` - WFS-T Service
+
 
 .. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 
 Datos
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Conjuntos de datos Geográficos
+* :doc:`nc_dataset_overview`
+* :doc:`osm_dataset_overview` - Extracto de datos de ejemplo de OpenStreetMap
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Java GIS Toolkit
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations
 * :doc:`liblas_overview`  - libLAS LiDAR Data Access
+
+Otros programas de interés (no instaladas)
+--------------------------------------------------------------------------------
+* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Servicio Web de Mapas
+* :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - SIG para Microsoft Windows
+
+.. MapGuide temporarily disabled to save on disc space; MapWindow won't run on Ubuntu
 
 Instaladores para Windows y Apple
 --------------------------------------------------------------------------------

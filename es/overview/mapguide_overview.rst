@@ -1,6 +1,7 @@
-:Autor: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
-:Licencia: Creative Commons
+:Author: Trevor Wekel
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5draft
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapguide-overview:
 
@@ -34,35 +35,45 @@ MapGuide puede ser instalado en Linux o Windows, tanto en Apache como en IIS web
   :alt: screenshot
   :align: right
 
+
+.. note:: Actualmente MapGuide no está instalado en el DVD debido a
+          restricciones de espacio en el DVD
+
+.. commented out as manual install doesn't currently work: To install
+  it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``
+
+
 Principales funcionalidades
 --------------------------------------------------------------------------------
 
-** Map Viewing interactivo**
+** Visualización de mapas interactivo**
 
+* Visor dinámico basado en navegador
 * Seleccion de objetos y propiedades
 * Buffering, consultas
-* Mapas e impresion
+* Mapas e impresión
 
 **Salidas gráficas de calidad**
 
-* Representaciones detalladas segun el tipo de escala
+* Representaciones detalladas según el tipo de escala
 * Reglas para la creación de estilos temáticos
-* Soporte True color
+* Renderización de imagen con 'antialiasing'
+* Soporte de color verdadero
 
-**Gestion de base de datos**
+**Gestión de base de datos**
 
-* Almacenamiento jerarquico de recursos y documentos XML para definir mapas, capas y conexiones de datos
-* Definicion de datos y capas para ser usados en mapas diferentes
-* Gestion de permisos y accesos segun usuario
+* Almacenamiento jerárquico de recursos y documentos XML para definir mapas, capas y conexiones de datos
+* Definición de datos y capas para ser usados en mapas diferentes
+* Gestión de permisos y accesos según usuario
 
-**Acceso a datos**
+**Acceso a datos uniforme**
 
 * Feature Data Objects (FDO) API para datos vectoriales y raster
-* Acceso standard a diferente tipos de datos como SHP, SDF, Oracle, MySQL, y PostGIS.
+* Acceso estándar a diferente tipos de datos como SHP, SDF, Oracle, MySQL, y PostGIS.
 
-**Flexible desarrollo de aplicaciones**
+**Desarrollo flexible de aplicaciones**
 
-* Desarrollo de aplicaciones en PHP, .NET, o Java
+* Desarrollo de aplicaciones en PHP, .NET o Java
 
 **Potentes APIs en el servidor**
 
@@ -72,20 +83,20 @@ Principales funcionalidades
 * Creación, manejo y analisis de geometrías
 * Manejo de capas y mapas
 
-**Rápido, escalable, Secure Server Platform**
+**Plataforma de servidor segura, rápida y escalable**
 
 * Completamente adaptado para servidores multi-core
 * Reparto de carga entre servidores
-* Conexiones a bases de datos
-* Tile caching
+* Conexiones a bases de datos encoladas
+* Tile caching integrado
 
-**Soporte Multiplataforma**
+**Soporte multiplataforma**
 
 * Instalable en Microsoft Windows y en Linux
 * Puede ser utilizado con Apache o Microsoft IIS
 * Trabaja con los siguientes navegadores: Microsoft Internet Explorer, Mozilla Firefox, Safari y Chrome
 
-Standards implementados
+Estándares implementados
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service 1.1.1 
@@ -93,20 +104,20 @@ Standards implementados
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://mapguide.osgeo.org/
+**Sitio web:** http://mapguide.osgeo.org/
 
 **Licencia:** GNU Lesser General Public License (LGPL)
 
-**Software Version:** 2.2.0
+**Versión del software:** 2.2.0
 
 **Sistemas operativos:** Linux, Windows
 
-**Support:** http://www.osgeo.org/search_profile
+**Soporte:** http://www.osgeo.org/search_profile
 
 
-Quickstart
+Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/mapguide_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapguide_quickstart>`
 
 
