@@ -21,34 +21,35 @@
 MetaCRS
 ================================================================================
 
-Coordinate Reference System Transformations
+Transformation von verschiedenen Koordinatensystemen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/project_logos/logo-metacrs.png
   :scale: 100 %
-  :alt: map projection example
+  :alt: Beispiel Kartenprojektion
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki
 
 
-The group of MetaCRS projects provide libraries of methods to transform between difference coordinate reference systems.
-A geographic coordinate reference systems allows all points on the earth to be described as set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map.
+Das Projekt MetaCRS stellt Bibliotheken und Methoden zur Transformation zwischen verschiedenen Koordinatensystem zur Verfügung.
+Ein Koordinatensystem ordnet jedem Punkt auf der Erde einen Koordinatenwert zu, bestehend auf Hoch- und Rechtswert sowie einer Höhe.
+Zur Repräsentation der dreidimensionalen Erde auf einer flachen, zweidimensionalen Karte kommen verschiedene Koordinatensysteme zum Einsatz.
 
-The MetaCRS libraries are included in other projects and some are also available via a command line interface.
+Die MetaCRS-Bibliotheken sind in vielen anderen Projekten enthalten und teilweise auch über die Kommandozeile verfügbar.
 
-The sub-projects that make up MetaCRS include:
+Folgende Unterprojekte sind Bestandteil von MetaCRS:
 
-* PROJ.4 (C++) - used in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others.
-* Proj4js (JavaScript) - used in OpenLayers.
-* CS-Map (C++) - used in MapGuide.
+* PROJ.4 (C++) - benutzt in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation und vielen anderen.
+* Proj4js (JavaScript) - benutzt in OpenLayers.
+* CS-Map (C++) - benutzt in MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).
-* `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions.
+* `SpatialReference.org <http://spatialreference.org/>`_  - Webseite zum abfragen von Koordinatensystemen-Definitionen.
 
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Provides point transformation from one coordinate reference system to another.
+* Punkttransformation von und in verschiedene Koordinatensysteme.
 * beinhaltet die Datumstransformation.
 * eine Vielzahl von Projektionklassen wird unterstützt.
 
@@ -56,9 +57,9 @@ Kernfunktionen
 Implementierte Standards
 --------------------------------------------------------------------------------
 
-The projects typically use coordinate system definitions as defined by the 
-`European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ and defined in
-Well Known Text (WKT) format.
+In diesem Projekt werden die Definitionen der Koordinatensystem der 
+`European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ verwendet und liegen
+im Format Well Known Text (WKT) vor.
 
 PROJ.4
 --------------------------------------------------------------------------------
