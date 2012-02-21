@@ -84,11 +84,11 @@ Datos
 * :doc:`nc_dataset_overview`
 * :doc:`osm_dataset_overview` - Extracto de datos de ejemplo de OpenStreetMap
 
-Geospatial Libraries
+Bibliotecas geoespaciales
 --------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations
-* :doc:`liblas_overview`  - libLAS LiDAR Data Access
+* :doc:`metacrs_overview` - Transformaciones de Sistemas de Referencia de Coordenadas
+* :doc:`liblas_overview`  - libLAS acceso datos LIDAR
 
 Otros programas de interés (no instaladas)
 --------------------------------------------------------------------------------
