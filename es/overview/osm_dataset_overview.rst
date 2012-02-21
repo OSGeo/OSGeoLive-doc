@@ -31,7 +31,7 @@ La distribución OSGeo-Live incluye un extracto de los datos de OSM a nivel de c
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
-  :alt: OSM screenshot
+  :alt: captura de pantalla de OSM 
   :align: right
 
 Características principales
@@ -55,7 +55,7 @@ Denver_CBD.osm.bz2:
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio web:** http://www.osm.org
+**Página web:** http://www.osm.org
 
 **Licencia:** Creative Commons CC-By-SA
 
