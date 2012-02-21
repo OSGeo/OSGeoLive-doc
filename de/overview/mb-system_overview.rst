@@ -24,9 +24,6 @@ ausgiebig die :doc:`GMT <gmt_overview>` Software.
 
 MB-System wird seit 1993 durch aktive Unterstützung einiger Forschungs- und Wissenschaftsorganisationen entwickelt.
 
-.. note:: Aufgrund von Platzbeschränkungen ist MB-System derzeit nicht auf der DVD installiert. 
-Zum Installieren der Softwäre öffnen Sie bitte ein Terminal und rufen das Installationsskript auf ``cd gisvm/bin; sudo ./install_mb-system.sh``
-
 
 Kernfunktionen
 --------------------------------------------------------------------------------
