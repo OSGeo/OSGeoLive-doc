@@ -66,16 +66,17 @@ Usługi sieciowe
 * :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
+* :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] - katalog metadanych i sieciowe usługi katalogowe
+* :doc:`pycsw_overview` - [:doc:`Wprowadzenie <../quickstart/pycsw_quickstart>`] - katalog metadanych
+* :doc:`mapproxy_overview` - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
 * :doc:`qgis_mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* :doc:`mapproxy_overview` - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`]
-* :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] katalog metadanych i sieciowe usługi katalogowe
 * :doc:`52nWSS_overview` - [:doc:`Wprowadzenie <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview` - [:doc:`Wprowadzenie <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
-* :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-* :doc:`tinyows_overview` - usługa WFS-T
+* :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - usługa WFS-T
 
-.. awaiting review: * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - katalog metadanych i sieciowe usługi katalogowe
+* :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+
 .. temp disabled to save on disc space:  * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
 
 Dane
@@ -89,6 +90,13 @@ Biblioteki geoprzesrzenne
 * :doc:`geotools_overview` - zestaw narzędzi GIS w Javie
 * :doc:`metacrs_overview` - przeliczenia pomiędzy układami
 * :doc:`liblas_overview`  - dostęp do danych LiDAR
+
+Inne oprogramowanie warte zainteresowania (niedostępne Live)
+--------------------------------------------------------------------------------
+* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe
+* :doc:`mapwindow_overview` - [:doc:`Wprowadzenie <../quickstart/mapwindow_quickstart>`] - GIS na Microsoft Windows
+
+.. MapGuide jest czasowo wyłączony w celu zaoszczędzenia przestrzeni dyskowej; MapWindow nie zadziała na Ubuntu
 
 Instalatory dla Windows i Apple
 --------------------------------------------------------------------------------
