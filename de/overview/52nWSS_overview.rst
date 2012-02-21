@@ -35,7 +35,7 @@ Regeln und Benutzer sind in XML Konfigurationsdateien definiert, die über ein g
 
 .. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
-  :alt: Screenshot of WSS Management UI
+  :alt: Bildschirmfoto WSS Management UI
   :align: right
 
 Funktionen
