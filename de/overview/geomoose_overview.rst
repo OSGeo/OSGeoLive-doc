@@ -25,7 +25,7 @@ GeoMoose
 Web GIS Portal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoMOOSE ist ein Browser basiertes Mapping Framework zur Anzeige von verteilten räumlichen Daten. Es eignet sich vor allem zur Verwaltung von räumlichen und nicht-räumlichen Daten innerhalb der Landes-, Stadt- und Kommunalverwaltung. Es erweitert die Funktionalität von MapServer und OpenLayers vorgefertigte Dienste bereit zu stellen um hierachische Anfragen zur Anzeige, die Organisation von vielen Layern, Selektionen und die Suche in Datensätzen.   
+GeoMOOSE ist ein Browser basiertes Mapping Framework zur Anzeige von verteilten räumlichen Daten. Es eignet sich vor allem zur Verwaltung von räumlichen und nicht-räumlichen Daten innerhalb der Landes-, Stadt- und Kommunalverwaltung. Es erweitert die Funktionalität von MapServer und OpenLayers um vorgefertigte Dienste bereit zu stellen wie hierachische Anfragen zur Anzeige, die Organisation von vielen Layern, Selektionen und die Suche in Datensätzen.   
 
 GeoMOOSE ist schnell, gleichzeitige Anfragen mit hunderten von Layern und/oder Diensten werden performant bearbeitet.
 Die Daten können von unterschiedlichen Verwaltern mit unterschiedliche Werkzeugen und unterschiedlichen Plänen administriert werden, da jeder Kartenlayer über eigene Konfigurationsdateien für die Veröffentlichung, Symbolik, Vorlagen sowie Datenquellen  verfügt.
@@ -34,13 +34,13 @@ Das Benutzerinterface ist leicht zu konfigurieren und zusätzliche Dienste könn
 
 .. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
   :scale: 55 %
-  :alt: geomoose-screenshot-800x600.png
+  :alt: Bildschirmfoto GeoMOOSE
   :align: right
 
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Distributed data maintenance amongst multiple owners.
+* Verteilte Datenwartung für mehrere Eigentümer.
 * Zugriff auf Karten von: MapServer, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST, WMS.
 * Konfiguration verschiedener Ansichten von Datenquellen.
 * Anzeige und Filterung von Datenkatalogen.
