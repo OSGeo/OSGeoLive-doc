@@ -1,4 +1,6 @@
 :Author: OSGeo-Live
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -25,6 +27,7 @@ Usługi sieciowe
 
 QGIS Server dostarcza usług sieciowych WMS opartych na bibliotekach pochodzących z programu Quantum GIS (QGIS).
 Ścisła integracja z programem QGIS oznacza możliwość łatwego eksportu do Internetu map stworzonych desktopowym narzędziem, poprzez skopiowanie pliku projektu QGIS do ścieżki serwera. Mapy w Internecie będą wyglądały dokładnie tak samo jak w aplikacji desktopowej.
+QGIS Server najczęściej używa się jako modył CGI/FastCGI poprzez serwer sieciowy Apache.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
@@ -36,8 +39,8 @@ Główne funkcje
 --------------------------------------------------------------------------------
 
 * Implementacja Web Map Service (WMS)
-* Dobra integracja z GIS-em desktopowym (QGIS)
-* Łatwość użycia
+* Wbudowane wyjście PDF
+* Tworzenie map WYSIWYG z QGIS
 * Obsługa Styled Layer Descriptor (SLD)
 * Zaawansowana redakcja kartograficzna
 
@@ -54,7 +57,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** 1.7.0
+**Wersja programu:** 1.7.4
 
 **Systemy operacyjne:** Windows, Linux
 
@@ -63,6 +66,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia  <../quickstart/qgis_mapserver_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia  <../quickstart/qgis_mapserver_quickstart>`
 
 
