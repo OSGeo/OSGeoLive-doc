@@ -41,4 +41,8 @@ Guías de inicio rápido
 Presentación
 --------------------------------------------------------------------------------
 
-Está disponible una presentación de aproximadamente media hora (en Inglés), que destaca todas las aplicaciones OSGeo-Live, junto con las diapositivas originales y el guión. Ver detalles en `<http://live.osgeo.org/es/presentation.html>`_.
+Está disponible una presentación de aproximadamente media hora (en Inglés), que
+destaca todas las aplicaciones OSGeo-Live, junto con las diapositivas originales
+y el guión. 
+
+Ver detalles en `<http://live.osgeo.org/es/presentation.html>`_.
