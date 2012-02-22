@@ -24,7 +24,7 @@ Requirements
 Creating bootable USB drive from Ubuntu
 --------------------------------------------------------------------------------
 
-(This is the recommended process for creating a USB)
+(This is the recommended process for creating a USB, and is also applicable Ubuntu variants, such as Xubuntu or OSGeo-Live.)
 
 * Note: The version of Ubuntu you are running, needs to be the same or newer than the version of Xubuntu being installed onto your USB.  If installing OSGeo-Live 5.0/5.5 onto a USB, then you will need to be running Ubuntu 11.04 or newer.
 
@@ -32,12 +32,10 @@ Download osgeo-live or osgeo-live-mini to your computer's hard drive.
 
 Insert the USB flash drive into your computer.
 
-If using a DVD, then put the DVD into the DVD drive.
-
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Select :menuselection:`System --> Administration --> Startup Disk Creator`
+Select :menuselection:`System --> Administration --> Startup Disk Creator`, or search for `Startup Disk Creator` from the Unity desktop.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
