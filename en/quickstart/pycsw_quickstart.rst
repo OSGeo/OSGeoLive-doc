@@ -231,7 +231,7 @@ To install the plugin:
 
   $ cd ~
   $ cd .qgis/python/plugins
-  $ svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw qgcsw
+  $ svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw/trunk qgcsw
 
 Data Discovery
 ==============
