@@ -12,31 +12,34 @@ Bootfähigen OSGeo-Live USB-Stick erstellen
 
 Hier beschreiben wir, wie ein bootbarer OSGeo-Live USB-Stick erstellt werden kann. Von einem USB-Stick zu starten ist schneller als von einer DVD zu starten und das USB-Laufwerk zusätzlich kann zur Sicherung der Daten zwischen Sessions genutzt werden.
 
-Die USB Installation ist noch ziemlich neu. Wir haben zwar bereits eine Menge an positiven Rückmeldungen erhalten, allerdings ist die Installation noch nicht ausgiebig getestet und einige Leute haben von Schwierigkeiten berichtet, vom USB-Laufwerk zu starten.
+Die USB Installation ist noch ziemlich neu. Wir haben zwar bereits eine Menge an positiven Rückmeldungen erhalten, allerdings ist die Installation noch nicht ausgiebig getestet. Es wurde alles Dokumentiert, was bisher zu Schwierigkeiten geführt hat, darüber hinaus können Sie auch aktuelle Hinweise hier ansehen : http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB 
 
 Systemvoraussetzungen
 --------------------------------------------------------------------------------
 
-* Einen 4 GB USB-Stick, wenn osgeo-live-mini genutzt wird.  
-* Einen 8 GB USB-Stick, wenn osgeo-live genutzt wird.  
+* Einen 4 GB USB-Stick, wenn osgeo-live-mini genutzt wird (ohne Windows und Mac Installationsprogrammen). 
+* Einen 8 GB USB-Stick, wenn osgeo-live genutzt wird (mit Windows und Mac Installationsprogrammen).  
 * Eine OSGeo-Live DVD oder ein ISO Abbild (heruntergeladen von: http://live.osgeo.org/download.html)
 
 Einen startbaren USB-Stick unter Ubuntu erstellen
 --------------------------------------------------------------------------------
 
-Schließen Sie einen USB-Stick an Ihren Rechner an.
+(dies ist die empfohlene Vorgehensweise und kann auch für andere Ubuntu Distributionen, wie Xubuntu oder OSGeo-Live, angewendet werden)
 
-Falls Sie eine DVD benutzen legen Sie die DVD in das DVD-Laufwerk.
+.. note::
+   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 5.0/5.5 müssen Sie Ubuntu 11.04 oder höher verwenden.
+
+Schließen Sie einen USB-Stick an Ihren Rechner an.
 
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Wählen Sie :menuselection:`System --> Administration --> Startup Disk Creator`
+Wählen Sie :menuselection:`System --> Administration --> Startup Disk Creator` oder suchen Sie nach `Startup Disk Creator` vom Unity-Desktop.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
-Wählen Sie das DVD-Laufwerk oder das ISO-Abbild.
+Wählen Sie das ISO-Abbild osgeo-live oder osgeo-live-mini. 
 
 Wählen Sie den USB-Stick.
 
@@ -60,9 +63,9 @@ Akzeptieren Sie die Nutzungsbedingungen.
 
   .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
 
-Schritt 1: Distribution: Wählen Sie die xubuntu i386 Distribution, die für das OSGeo-live Image benutzt wird. (Für |osgeo-live-version| wählen Sie xubuntu 10.04 Desktop i386)
+Schritt 1: Distribution: Wählen Sie die Xubuntu i386 Distribution, die für das OSGeo-live Image benutzt wird. (Für OSGeo-Live 5.5 wählen Sie Xubuntu 10.04 Desktop i386)
 
-Schritt 2: Wählen Sie die aktuelle OSGeo-Live ISO-Datei, die Sie hoffentlich local abgespeichert haben. Achtung: Sie müssen den Pfad zur ISO-Datei manuell eingeben, da der :guilabel:`Browse`-Button nur xubuntu ISO-Dateien anzeigt.
+Schritt 2: Wählen Sie die aktuelle OSGeo-Live ISO-Datei, die Sie hoffentlich local abgespeichert haben. Achtung: Sie müssen den Pfad zur ISO-Datei manuell eingeben, da der :guilabel:`Browse`-Button nur Xubuntu ISO-Dateien anzeigt.
 
 Schritt 3: Wählen Sie Ihr USB-Laufwerk.
 
