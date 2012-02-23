@@ -16,7 +16,8 @@ This guide describes how to:
 
 * Getting MapGuide Up and Running 
 * Stylization of spatial data using Maestro 
-* Extra note on 64-bit Ubuntu  
+
+.. comment: ? * Extra note on 64-bit Ubuntu  
 
 Getting MapGuide Up and Running
 --------------------------------------------------------------------------------
