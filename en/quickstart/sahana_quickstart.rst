@@ -17,14 +17,14 @@ Sahana Quickstart
 Getting Started
 ================================================================================
 
-Sahana Eden is already installed and configured when you start OSGeo-Live. To access Sahana Eden, `click here <http://127.0.0.1:8000/eden>`_, or click on the Geospatial menu, then Crisis Management, then Sahana Eden. By default, you will have view-only rights to access the data. If you wish to create new records, or edit existing records, you will need to be logged in as a user - use the following credentials to get started.
+Sahana Eden is already installed and configured when you start OSGeo-Live. To access Sahana Eden, `click here <http://127.0.0.1:8007/eden>`_, or click on the Geospatial menu, then Crisis Management, then Sahana Eden. By default, you will have view-only rights to access the data. If you wish to create new records, or edit existing records, you will need to be logged in as a user - use the following credentials to get started.
 
 * Username: admin
 * Password: admin
 
-If you have entered example crowd-sourced data in Ushahidi, then you can access that information in Sahana Eden by `following this link <http://127.0.0.1:8000/eden/irs/ireport/ushahidi>`_. 
+If you have entered example crowd-sourced data in Ushahidi, then you can access that information in Sahana Eden by `following this link <http://127.0.0.1:8007/eden/irs/ireport/ushahidi>`_. 
 
-You will find it has already been configured to access the map data and map servers that are part of OSGeo-Live. Sahana Eden can utilise OpenStreetMap as an underlying map layer in the `map viewing client <http://127.0.0.1:8000/eden/gis/map_viewing_client>`_. Sahana Eden supports a wide range of OpenStreetMap services. 
+You will find it has already been configured to access the map data and map servers that are part of OSGeo-Live. Sahana Eden can utilise OpenStreetMap as an underlying map layer in the `map viewing client <http://127.0.0.1:8007/eden/gis/map_viewing_client>`_. Sahana Eden supports a wide range of OpenStreetMap services. 
 
 Development
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
