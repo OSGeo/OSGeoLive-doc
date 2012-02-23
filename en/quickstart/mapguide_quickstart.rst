@@ -21,12 +21,20 @@ This guide describes how to:
 Getting MapGuide Up and Running
 --------------------------------------------------------------------------------
 
-1. Go to Desktop->Server, click icon Start MapGuide. This will start both MapGuide server and MapGuide Web server
+.. comment: 1. Go to Desktop->Server, click icon Start MapGuide. This will start both MapGuide server and MapGuide Web server
 
-.. image:: ../../images/screenshots/1024x768/mapguide_desktopIcons.png
-  :scale: 50 %
-  :alt: mapguide desktop icons
-  :align: center 
+.. comment: .. image:: ../../images/screenshots/1024x768/mapguide_desktopIcons.png
+.. comment:   :scale: 50 %
+.. comment:   :alt: mapguide desktop icons
+.. comment:   :align: center 
+
+1. Manually install MapGuide
+
+.. note:: Due to space constraints on the DVD, MapGuide is currently
+  not installed.
+
+.. commented out as manual install doesn't currently work: To install
+  it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``
 
 2. Open a browser to the address http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php to view the sample application 
 
