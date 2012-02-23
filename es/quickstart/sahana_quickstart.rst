@@ -18,14 +18,14 @@ Guía de inicio rápido de Sahana
 Introducción
 ================================================================================
 
-Sahana Eden ya está instalado y configurado al iniciar OSGeo-Live. Para acceder a Sahana Eden, `haga clic aquí <http://127.0.0.1:8000/eden>`_, o pulse en el menú Geoespatial, a continuación Crisis Management y luego Sahana Eden. De forma predeterminada, tendrá derechos de sólo lectura para acceder a los datos. Si desea crear nuevos registros o modificar los registros existentes, debe iniciar una sesión como un usuario - utilice las siguientes credenciales para comenzar.
+Sahana Eden ya está instalado y configurado al iniciar OSGeo-Live. Para acceder a Sahana Eden, `haga clic aquí <http://127.0.0.1:8007/eden>`_, o pulse en el menú Geoespatial, a continuación Crisis Management y luego Sahana Eden. De forma predeterminada, tendrá derechos de sólo lectura para acceder a los datos. Si desea crear nuevos registros o modificar los registros existentes, debe iniciar una sesión como un usuario - utilice las siguientes credenciales para comenzar.
 
 * Nombre de usuario: admin
 * Contraseña: admin
 
-Si ha introducido ejemplos de datos procedentes de Ushahidi, puede acceder a esa información en Sahana Eden `siguiendo este enlace <http://127.0.0.1:8000/eden/irs/ireport/ushahidi>`_.
+Si ha introducido ejemplos de datos procedentes de Ushahidi, puede acceder a esa información en Sahana Eden `siguiendo este enlace <http://127.0.0.1:8007/eden/irs/ireport/ushahidi>`_.
 
-Encontrará que ya se ha realizado la configuración para acceder a los datos del mapa y servidores de mapas que forman parte de OSGeo-Live. Sahana Eden puede utilizar OpenStreetMap como una capa de mapa subyacente en el `cliente de visualización de mapas <http://127.0.0.1:8000/eden/gis/map_viewing_client>`_. Sahana Eden soporta una amplia gama de servicios basados en OpenStreetMap.
+Encontrará que ya se ha realizado la configuración para acceder a los datos del mapa y servidores de mapas que forman parte de OSGeo-Live. Sahana Eden puede utilizar OpenStreetMap como una capa de mapa subyacente en el `cliente de visualización de mapas <http://127.0.0.1:8007/eden/gis/map_viewing_client>`_. Sahana Eden soporta una amplia gama de servicios basados en OpenStreetMap.
 
 
 Desarrollo
