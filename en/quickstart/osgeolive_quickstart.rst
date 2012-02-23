@@ -17,7 +17,7 @@ System Requirements
 
 Your computer should have at least:
 
-* RAM: 768 MB, preferably 1 GB.
+* RAM: 1 GB.
 * CPU: 1 GHz i686 or compatible (Intel/AMD)
 * Hard Disk: 
 

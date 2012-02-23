@@ -19,7 +19,7 @@ Wymagania systemowe
 
 Komputer powinien posiadać co najmniej:
 
-* RAM: 768 MB, najlepiej 1 GB.
+* RAM: 1 GB.
 * CPU: 1 GHz i686 lub kompatybilne (Intel/AMD)
 * Twardy dysk: 
 

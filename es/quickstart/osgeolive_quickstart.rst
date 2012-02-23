@@ -15,7 +15,7 @@ Esta guía de inicio rápido describe cómo arrancar el DVD 'OSGeo-Live'.
 Requerimientos de Sistema
 --------------------------------------------------------------------------------
 
-* RAM: 768 MB, preferiblemente 1 GB.
+* RAM: 1 GB.
 * CPU: 1 GHz i686 o compatible (Intel/AMD)
 * Disco duro: 
 
