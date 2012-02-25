@@ -24,16 +24,17 @@ Running spatialite
 
 * Open a console and open a sample database with **spatialite**::
 
-   ``spatialite /home/user/data/spatialite/trento.sqlite``
+   spatialite /home/user/data/spatialite/trento.sqlite
 
 * Helpful commands in the CLI interface::
-   ``.help
+
+   .help
    .tables
-   .quit``   
+   .quit   
 
 * Some sample spatial queries::
 
-   ``SELECT lc.NOME, lc.NOME_PROV, lc.COM, mh.Perimeter 
+   SELECT lc.NOME, lc.NOME_PROV, lc.COM, mh.Perimeter 
         FROM LocalCouncils AS lc, MunicipalHalls AS mh 
         WHERE CONTAINS(lc.Geometry,mh.Geometry) AND lc.NOME LIKE 'VILLA%' 
         ORDER BY lc.NOME;
@@ -42,7 +43,7 @@ Running spatialite
         FROM PopulatedPlaces ORDER BY "Area Sq.km." DESC LIMIT 10 ; 
    SELECT lc.NOME AS "Provence Name", X(mh.Geometry) AS X_COORD, Y(mh.Geometry) AS Y_COORD 
         FROM LocalCouncils AS lc, MunicipalHalls AS mh 
-        WHERE mh.COMU=lc.COM ORDER BY "Provence Name" LIMIT 10;``
+        WHERE mh.COMU=lc.COM ORDER BY "Provence Name" LIMIT 10;
       
 
 Create a new database with **spatialite-gui**
@@ -60,13 +61,13 @@ Open an existing database with **spatialite-gui**
 * Browse to the /home/user/data/spatialite directory and choose trento.sqlite
 * Right click on the MunicpalHallsView table and select "Show Columns"
 * Right Click on the PopulatedPlaces table and select "Edit table rows"
-* In the upper SQL pane type:
+* In the upper SQL pane type::
 
-   ``SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
-   FROM "MunicipalHallsView"
-   WHERE NOME_PROV LIKE "BRESCIA";``
+   SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
+        FROM "MunicipalHallsView"
+        WHERE NOME_PROV LIKE "BRESCIA";
 
-   and click the "Execute SQL" button at the right
+  and click the "Execute SQL" button at the right
 
 
 Running spatialite-gis
