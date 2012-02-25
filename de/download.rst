@@ -10,29 +10,29 @@ Die aktuelle stabile Version von |osgeo-live-version| enthält:
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: iso-Datei mit windows Installer herunterladen
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/5.0/osgeo-live-5.0.iso
+  :target: http://download.osgeo.org/livedvd/release/5.5/osgeo-live-5.5.iso
 
-`osgeo-live-5.0.iso <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-5.0.iso>`_ : |osgeolive-iso-size|
+`osgeo-live-5.5.iso <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-5.5.iso>`_ : |osgeolive-iso-size|
 
-Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-5.0.iso.md5) <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-5.0.iso.md5>`_.
+Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-5.5.iso.md5) <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-5.5.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: ISO Datei ohne Windows und MacOS Installationsprogramme herunterladen.
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/5.0/osgeo-live-mini-5.0.iso
+  :target: http://download.osgeo.org/livedvd/release/5.5/osgeo-live-mini-5.5.iso
 
-`osgeo-live-mini-5.0.iso <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-mini-5.0.iso>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-5.5.iso <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-mini-5.5.iso>`_ : |osgeolive-iso-mini-size|
 
-Der gleiche Inhalt wie osgeo-live-5.0.iso,  mit Ausnahme der Windows- und MacOS-Installationsprogramme. Außerdem kann es auf ein bootfähiges USB-Laufwerk kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-mini-5.0.iso.md5) <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-mini-5.0.iso.md5>`_.
+Der gleiche Inhalt wie osgeo-live-5.5.iso,  mit Ausnahme der Windows- und MacOS-Installationsprogramme. Außerdem kann es auf ein bootfähiges USB-Laufwerk kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-mini-5.5.iso.md5) <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-mini-5.5.iso.md5>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Download 2.6 GB 7-zip Virtual Machine ohne Windows und Mac Installer
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/5.0/osgeo-live-vm-5.0.7z
+  :target: http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z
 
-`osgeo-live-vm-5.0.7z <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-vm-5.0.7z>`_ : |osgeolive-vm-7z-size|
+`osgeo-live-vm-5.5.7z <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z>`_ : |osgeolive-vm-7z-size|
 
-Eine mit `7-Zip <http://www.7-zip.org/>`_ komprimierte Virtual Disk .vmdk Abbilddatei zum Laden in einer virtuellen Maschine wie VirtualBox, VMWare Player, KVM und andere Anwendungen. Enthält keinen Windows oder Mac Installer. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-vm-5.0.7z.md5) <http://download.osgeo.org/livedvd/release/5.0/osgeo-live-vm-5.0.7z.md5>`_.
+Eine mit `7-Zip <http://www.7-zip.org/>`_ komprimierte Virtual Disk .vmdk Abbilddatei zum Laden in einer virtuellen Maschine wie VirtualBox, VMWare Player, KVM und andere Anwendungen. Enthält keinen Windows oder Mac Installer. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-vm-5.5.7z.md5) <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z.md5>`_.
 
 
 Eine vollständige Liste aller Versionen, Downloadoptionen und Spiegelserver finden Sie unter http://download.osgeo.org/livedvd
