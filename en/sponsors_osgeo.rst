@@ -31,7 +31,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
 OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/osuk.gif
+.. image:: ../images/logos/ordnance-survey_logo.png
   :alt: Ordnance Survey
   :target: http://www.ordnancesurvey.co.uk
 
