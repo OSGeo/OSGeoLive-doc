@@ -43,10 +43,12 @@ OSGeo Associate Sponsors
   :alt: GeoCat
   :align: left
   :target: http://geocat.net/about-geocat
+
 .. image:: ../images/logos/astun.gif
   :alt: Astun Technology
   :align: center
   :target: http://www.isharemaps.com
+
 .. image:: ../images/logos/borealis.jpg
   :alt: BOREALIS
   :align: right
@@ -56,10 +58,12 @@ OSGeo Associate Sponsors
   :alt: IGN
   :align: left
   :target: http://www.ign.fr
+
 .. image:: ../images/logos/pci.jpg
   :alt: PCI Geomatics
   :align: center
   :target: http://www.pcigeomatics.com
+
 .. image:: ../images/logos/camptocamp_logo.png
   :scale: 80 %
   :alt: Camptocamp
@@ -70,10 +74,12 @@ OSGeo Associate Sponsors
   :alt: LizardTech
   :align: left
   :target: http://www.lizardtech.com
+
 .. image:: ../images/logos/1spatial_sml.jpg
   :alt: 1Spatial
   :align: center
   :target: http://www.1spatial.com
+
 .. image:: ../images/logos/first-base-solutions_logo.png
   :alt: First Base Solutions
   :align: right
@@ -84,6 +90,8 @@ OSGeo Associate Sponsors
   :align: left
   :target: http://www.metaspatial.net/
 
+ 
+ 
 
 For more information
 --------------------------------------------------------------------------------
@@ -98,3 +106,5 @@ please contact:
    Open Source Geospatial Foundation
    Email: arnulf at osgeo.org
    Phone: +491722958004
+
+
