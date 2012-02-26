@@ -61,6 +61,7 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://www.pcigeomatics.com
 .. image:: ../images/logos/camptocamp_logo.png
+  :scale: 80 %
   :alt: Camptocamp
   :align: right
   :target: http://camptocamp.com
@@ -80,7 +81,7 @@ OSGeo Associate Sponsors
 
 .. image:: ../images/logos/metaspatial_sml.gif
   :alt: Metaspatial
-  :align: center
+  :align: left
   :target: http://www.metaspatial.net/
 
 
