@@ -87,7 +87,7 @@ OSGeo Associate Sponsors
 
 .. image:: ../images/logos/metaspatial_sml.gif
   :alt: Metaspatial
-  :align: left
+  :align: center
   :target: http://www.metaspatial.net/
 
  
