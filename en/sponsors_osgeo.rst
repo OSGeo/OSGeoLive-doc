@@ -28,91 +28,61 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
 
 
-OSGeo Sustaining Sponsors
-================================================================================
-
-.. image:: ../images/logos/autodesk.jpg
-  :width: 144
-  :height: 38
-  :alt: Autodesk
-  :target: http://www.osgeo.org/sponsors/autodesk/
-  
-
-
 OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
-
-.. image:: ../images/logos/inpe.gif
-  :alt: INPE
-  :target: http://www.inpe.br/
-
-.. Commented out:
-.. .. image:: ../images/logos/ingres.png
-..   :alt: INGRES
-..   :target: http://www.ingres.com
-
 
 .. image:: ../images/logos/osuk.gif
   :alt: Ordnance Survey
   :target: http://www.ordnancesurvey.co.uk
 
 
-
 OSGeo Associate Sponsors
 --------------------------------------------------------------------------------
+
 .. image:: ../images/logos/geocat.png
   :alt: GeoCat
-  :align: center
+  :align: left
   :target: http://geocat.net/about-geocat
-
 
 .. image:: ../images/logos/astun.gif
   :alt: Astun Technology
   :align: center
   :target: http://www.isharemaps.com
 
-
 .. image:: ../images/logos/borealis.jpg
   :alt: BOREALIS
-  :align: center
+  :align: right
   :target: http://www.boreal-is.com
-
 
 .. image:: ../images/logos/ign_france.gif
   :alt: IGN
-  :align: center
+  :align: left
   :target: http://www.ign.fr
-
 
 .. image:: ../images/logos/pci.jpg
   :alt: PCI Geomatics
   :align: center
   :target: http://www.pcigeomatics.com
 
-
 .. image:: ../images/logos/c2c_logo.jpg
   :alt: Camptocamp
-  :align: center
+  :align: right
   :target: http://camptocamp.com
-
 
 .. image:: ../images/logos/lizardtech_logo_sml.gif
   :alt: LizardTech
-  :align: center
+  :align: left
   :target: http://www.lizardtech.com
-
 
 .. image:: ../images/logos/1spatial_sml.jpg
   :alt: 1Spatial
   :align: center
   :target: http://www.1spatial.com
 
-
 .. image:: ../images/logos/fbslogo_sml.gif
   :alt: First Base Solutions
-  :align: center
+  :align: right
   :target: http://www.firstbasesolutions.com
-
 
 .. image:: ../images/logos/metaspatial_sml.gif
   :alt: Metaspatial
@@ -127,10 +97,7 @@ To sponsor OSGeo or discuss sponsorship opportunities further,
 please contact:
 
 ::
-
-   Tyler Mitchell
-   Executive Director
+   Arnulf Christl, President
    Open Source Geospatial Foundation
-   Email: tmitchell at osgeo.org
-   Phone: +1-250-277-1621
-
+   Email: arnulf at osgeo.org
+   Phone: +491722958004
