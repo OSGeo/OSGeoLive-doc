@@ -39,8 +39,7 @@ OSGeo Supporting Sponsors
 OSGeo Associate Sponsors
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/geocat.png
-  :scale: 60 %
+.. image:: ../images/logos/geocat_logo.png
   :alt: GeoCat
   :align: left
   :target: http://geocat.net/about-geocat
