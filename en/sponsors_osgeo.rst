@@ -40,6 +40,7 @@ OSGeo Associate Sponsors
 --------------------------------------------------------------------------------
 
 .. image:: ../images/logos/geocat.png
+  :scale: 75 %
   :alt: GeoCat
   :align: left
   :target: http://geocat.net/about-geocat
@@ -79,7 +80,7 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://www.1spatial.com
 
-.. image:: ../images/logos/fbslogo_sml.gif
+.. image:: ../images/logos/first-base-solutions_logo.png
   :alt: First Base Solutions
   :align: right
   :target: http://www.firstbasesolutions.com
@@ -97,7 +98,9 @@ To sponsor OSGeo or discuss sponsorship opportunities further,
 please contact:
 
 ::
-   Arnulf Christl, President
+
+   Arnulf Christl
+   President
    Open Source Geospatial Foundation
    Email: arnulf at osgeo.org
    Phone: +491722958004
