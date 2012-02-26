@@ -1,7 +1,7 @@
 # please add the names of all translators
 #  - Order alphabetically by language, then by first name
 #  - remove punctuation from email addresses to stop harvesting for junk mail
-Language,i18n code, Name, Country, Email, Osgeo_id
+Language,i18n code,Name,Country,Email,Osgeo_id
 Spanish,es,Agustín Díez,Spain,adiez uv es,
 Spanish,es,David Mateos,Spain,porquewhich hotmail com,
 Spanish,es,Hernan Olivera,Argentina,lholivera gmail com,hernanolivera
@@ -33,8 +33,8 @@ German,de,Thomas Baschetti,Germany,info thomas-baschetti de,tbaschetti
 German,de,Frank Gasdorf,Germany,fgdrf users.sourceforge.net,fgdrf
 Greek,el,Angelos Tzotsos,Greece,tzotsos gmail com,kalxas
 Greek,el,Christos Iossifidis,Greece,chiossif gmail com,chiossif
-Greek,el,Argyros Argyridis,Greece, arargyridis gmail com, Argy7
-Greek,el,Aikaterini Kapsampeli,Greece, kapsamp mail ntua gr,topometal
+Greek,el,Argyros Argyridis,Greece,arargyridis gmail com,Argy7
+Greek,el,Aikaterini Kapsampeli,Greece,kapsamp mail ntua gr,topometal
 Japanese,ja,Haruyuki Seki,Japan,hal georepublic.co jp,
 Japanese,ja,Nobusuke Iwasaki,Japan,wata909 gmail com,
 Japanese,ja,Yoichi Kayama,Japan,yoichi.kayama gmail com,
