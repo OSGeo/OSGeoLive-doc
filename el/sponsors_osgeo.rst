@@ -26,29 +26,13 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
 αλλά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, ούτε καν την εγγύηση που υπονοείται από
 την ΕΜΠΟΡΙΚΟΤΗΤΑ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ.`
 
-Χορηγοί συντήρησης OSGeo
-================================================================================
-
-.. image:: ../images/logos/autodesk.jpg
-  :width: 144
-  :height: 38
-  :alt: Autodesk
-  :target: http://www.osgeo.org/sponsors/autodesk/
-  
 
 
 Χορηγοί υποστήριξης OSGeo
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/inpe.gif
-  :alt: INPE
-  :target: http://www.inpe.br/
 
-.. image:: ../images/logos/ingres.png
-..  :alt: INGRES
-..  :target: http://www.ingres.com
-
-.. image:: ../images/logos/osuk.gif
+.. image:: ../images/logos/ordnance-survey_logo.png
   :alt: Ordnance Survey
   :target: http://www.ordnancesurvey.co.uk
 
@@ -56,9 +40,9 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
 
 Επιμέρους χορηγοί OSGeo
 --------------------------------------------------------------------------------
-.. image:: ../images/logos/geocat.png
+.. image:: ../images/logos/geocat_logo.png
   :alt: GeoCat
-  :align: center
+  :align: left
   :target: http://geocat.net/about-geocat
 
 .. image:: ../images/logos/astun.gif
@@ -68,12 +52,12 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
 
 .. image:: ../images/logos/borealis.jpg
   :alt: BOREALIS
-  :align: center
+  :align: right
   :target: http://www.boreal-is.com
 
 .. image:: ../images/logos/ign_france.gif
   :alt: IGN
-  :align: center
+  :align: left
   :target: http://www.ign.fr
 
 .. image:: ../images/logos/pci.jpg
@@ -81,14 +65,15 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
   :align: center
   :target: http://www.pcigeomatics.com
 
-.. image:: ../images/logos/c2c_logo.jpg
+.. image:: ../images/logos/camptocamp_logo.png
+  :scale: 80 %
   :alt: Camptocamp
-  :align: center
+  :align: right
   :target: http://camptocamp.com
 
 .. image:: ../images/logos/lizardtech_logo_sml.gif
   :alt: LizardTech
-  :align: center
+  :align: left
   :target: http://www.lizardtech.com
 
 .. image:: ../images/logos/1spatial_sml.jpg
@@ -96,9 +81,9 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
   :align: center
   :target: http://www.1spatial.com
 
-.. image:: ../images/logos/fbslogo_sml.gif
+.. image:: ../images/logos/first-base-solutions_logo.png
   :alt: First Base Solutions
-  :align: center
+  :align: right
   :target: http://www.firstbasesolutions.com
 
 .. image:: ../images/logos/metaspatial_sml.gif
@@ -112,9 +97,10 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
 Για να γίνετε χορηγός του OSGeo ή για να συζητήσετε δυνατότητες χορηγίας,
 παρακαλώ επικοινωνήστε με:
 
-   Tyler Mitchell
-   Executive Director
+   Arnulf Christl
+   President
    Open Source Geospatial Foundation
-   Email: tmitchell at osgeo.org
-   Phone: +1-250-277-1621
+   Email: arnulf at osgeo.org
+   Phone:  +491722958004
+
 
