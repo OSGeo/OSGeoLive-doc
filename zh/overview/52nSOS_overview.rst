@@ -1,4 +1,4 @@
-:Author: Eike Hinderk J¨¹rrens (e.h.juerrens@52north.org)
+:Author: Eike Hinderk JÃ¼rrens (e.h.juerrens@52north.org)
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -12,73 +12,73 @@
   :target: http://52north.org/sos
 
 
-52¡ãNorth SOS
+52Â°North SOS
 ================================================================================
 
-Web·şÎñ
+WebæœåŠ¡
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-52¡ãNorth :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
-Ö§³Ö·ÃÎÊÀ´×Ôµ±µØÓëÔ¶³Ì´«¸ĞÆ÷ÊµÊ±»ñÈ¡»òÕßÀúÊ·´æµµµÄÊı¾İ¡£´«¸ĞÆ÷¿ÉÒÔÊÇ°²×°ÔÚÎÀĞÇÉÏµÄÕÕÏà»ú»òÕßºÓÁ÷ÀïµÄË®Î»ÒÇ¡£
+52Â°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
+æ”¯æŒè®¿é—®æ¥è‡ªå½“åœ°ä¸è¿œç¨‹ä¼ æ„Ÿå™¨å®æ—¶è·å–æˆ–è€…å†å²å­˜æ¡£çš„æ•°æ®ã€‚ä¼ æ„Ÿå™¨å¯ä»¥æ˜¯å®‰è£…åœ¨å«æ˜Ÿä¸Šçš„ç…§ç›¸æœºæˆ–è€…æ²³æµé‡Œçš„æ°´ä½ä»ªã€‚
  
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
   :scale: 100 %
   :alt: screenshot of sos test client
   :align: right
 
-¹¦ÄÜ
+åŠŸèƒ½
 --------------------------------------------------------------------------------
 
-Ä¿Ç°£¬52¡ãNorth SOS (°æ±¾3.1.1) ÊµÏÖÁËSOS¹æ·¶µÄºËĞÄ¡¢ÊÂÎñĞÔ´¦Àí¡¢ÒÔ¼°ÔöÇ¿ÅäÖÃÎÄ¼ş²¿·Ö¡£
-µ±Ç°µÄ·¢²¼ÊµÏÖÁË×îĞÂµÄ¼Ü¹¹°æ±¾£¨1.0.0£©ºÍÒÔÏÂ²Ù×÷£º
+ç›®å‰ï¼Œ52Â°North SOS (ç‰ˆæœ¬3.1.1) å®ç°äº†SOSè§„èŒƒçš„æ ¸å¿ƒã€äº‹åŠ¡æ€§å¤„ç†ã€ä»¥åŠå¢å¼ºé…ç½®æ–‡ä»¶éƒ¨åˆ†ã€‚
+å½“å‰çš„å‘å¸ƒå®ç°äº†æœ€æ–°çš„æ¶æ„ç‰ˆæœ¬ï¼ˆ1.0.0ï¼‰å’Œä»¥ä¸‹æ“ä½œï¼š
 
-**SOSºËĞÄ²Ù×÷**:
+**SOSæ ¸å¿ƒæ“ä½œ**:
 
-* GetCapabilities, ·şÎñÇëÇóµÄÏêÏ¸ĞÅÏ¢
-* GetObservation, ÇëÇó±à³Ì³ÉObservations & Measurements (O&M)µÄ´¿´âµÄ´«¸ĞÆ÷Êı¾İ 
-* DescribeSensor, ÇëÇó´«¸ĞÆ÷±¾ÉíµÄÔªÊı¾İĞÅÏ¢£¬¸ÃĞÅÏ¢±àÂë³ÉÎª´«¸ĞÆ÷Ä£ĞÍÓïÑÔ(SensorML)ÊµÀıÎÄµµ
+* GetCapabilities, æœåŠ¡è¯·æ±‚çš„è¯¦ç»†ä¿¡æ¯
+* GetObservation, è¯·æ±‚ç¼–ç¨‹æˆObservations & Measurements (O&M)çš„çº¯ç²¹çš„ä¼ æ„Ÿå™¨æ•°æ® 
+* DescribeSensor, è¯·æ±‚ä¼ æ„Ÿå™¨æœ¬èº«çš„å…ƒæ•°æ®ä¿¡æ¯ï¼Œè¯¥ä¿¡æ¯ç¼–ç æˆä¸ºä¼ æ„Ÿå™¨æ¨¡å‹è¯­è¨€(SensorML)å®ä¾‹æ–‡æ¡£
 
-**ÊÂÎñĞÔSOS²Ù×÷**:
+**äº‹åŠ¡æ€§SOSæ“ä½œ**:
 
-* RegisterSensor, ×¢²áĞÂµÄ´«¸ĞÆ÷
-* InsertObservation, ÎªÒÑ×¢²áµÄ´«¸ĞÆ÷Ìí¼ÓĞÂµÄ¹Û²âÏî
+* RegisterSensor, æ³¨å†Œæ–°çš„ä¼ æ„Ÿå™¨
+* InsertObservation, ä¸ºå·²æ³¨å†Œçš„ä¼ æ„Ÿå™¨æ·»åŠ æ–°çš„è§‚æµ‹é¡¹
 
-**ÆäËüµÄSOS²Ù×÷**:
+**å…¶å®ƒçš„SOSæ“ä½œ**:
 
-* GetResult, Ö§³Ö¶¨ÆÚÂÖÑ¯´«¸ĞÆ÷Êı¾İ¡£
-* GetObservationById, ¼ìË÷ÌØ¶¨¸öÌå´«¸ĞÆ÷µÄ¹Û²âÖµ
-* GetFeatureOfInterest, ÇëÇó¹Û²âÄ¿±êÌØÕ÷µÄGML±àÂë¸ñÊ½Êı¾İ
-* GetFeatureOfInterestTime,È·¶¨´«¸ĞÆ÷Êı¾İµÄÊ±¼ä¿ÉµÃĞÔ
+* GetResult, æ”¯æŒå®šæœŸè½®è¯¢ä¼ æ„Ÿå™¨æ•°æ®ã€‚
+* GetObservationById, æ£€ç´¢ç‰¹å®šä¸ªä½“ä¼ æ„Ÿå™¨çš„è§‚æµ‹å€¼
+* GetFeatureOfInterest, è¯·æ±‚è§‚æµ‹ç›®æ ‡ç‰¹å¾çš„GMLç¼–ç æ ¼å¼æ•°æ®
+* GetFeatureOfInterestTime,ç¡®å®šä¼ æ„Ÿå™¨æ•°æ®çš„æ—¶é—´å¯å¾—æ€§
 
-**¿Í»§¶Ë**:
+**å®¢æˆ·ç«¯**:
 
-* Ò»¸ö»ùÓÚä¯ÀÀÆ÷µÄ¿Í»§¶Ë£¬¶ÔÓÚËùÓĞµÄÖ§³Ö²Ù×÷Ìá¹©²âÊÔXML²éÑ¯¡£
+* ä¸€ä¸ªåŸºäºæµè§ˆå™¨çš„å®¢æˆ·ç«¯ï¼Œå¯¹äºæ‰€æœ‰çš„æ”¯æŒæ“ä½œæä¾›æµ‹è¯•XMLæŸ¥è¯¢ã€‚
 
-ÒÑÊµÏÖµÄ±ê×¼¹æ·¶
+å·²å®ç°çš„æ ‡å‡†è§„èŒƒ
 --------------------------------------------------------------------------------
 
 * `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
 
-ÏêÇéÇë¼û
+è¯¦æƒ…è¯·è§
 --------------------------------------------------------------------------------
 
-**ÍøÕ¾:** http://52north.org/communities/sensorweb/sos
+**ç½‘ç«™:** http://52north.org/communities/sensorweb/sos
 
-**°æÈ¨:** GNU General Public License (GPL) version 2
+**ç‰ˆæƒ:** GNU General Public License (GPL) version 2
 
-**Èí¼ş°æ±¾:** SOS 3.2.0
+**è½¯ä»¶ç‰ˆæœ¬:** SOS 3.2.0
 
-**Ö§³ÖÆ½Ì¨:** Windows, Linux, Mac
+**æ”¯æŒå¹³å°:** Windows, Linux, Mac
 
-**API½Ó¿Ú:** Java
+**APIæ¥å£:** Java
 
-**ÉÌÒµÖ§³Ö:** http://52north.org/
+**å•†ä¸šæ”¯æŒ:** http://52north.org/
 
-**ÉçÍÅÖ§³Ö:** http://sensorweb.forum.52north.org/
+**ç¤¾å›¢æ”¯æŒ:** http://sensorweb.forum.52north.org/
 
-**ÉçÍÅÍøÖ·:** http://52north.org/communities/sensorweb/
+**ç¤¾å›¢ç½‘å€:** http://52north.org/communities/sensorweb/
 
-¿ìËÙÈëÃÅ
+å¿«é€Ÿå…¥é—¨
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`
