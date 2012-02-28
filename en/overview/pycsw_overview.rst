@@ -25,7 +25,7 @@ Metadata is 'data about data', storing such things as creation-date, author, tit
 
 pycsw is a `Python`_ implementation of the :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources.
 
-pycsw is Open Source, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
+pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
 .. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %

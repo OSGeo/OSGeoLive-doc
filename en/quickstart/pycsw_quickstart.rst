@@ -21,7 +21,7 @@ pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the We
 
 pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
 
-pycsw is `Open Source`_, released under an MIT :ref:`license <license>`, and runs on all major platforms (Windows, Linux, Mac OS X).
+pycsw is `Open Source`_, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
 pycsw is installed by default on the OSGeo Live DVD.  This QuickStart will describe how to:
 
