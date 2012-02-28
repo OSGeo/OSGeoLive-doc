@@ -1,4 +1,4 @@
-:Author: Bastian Schaeffer, Kristof Lange
+ï»¿:Author: Bastian Schaeffer, Kristof Lange
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -12,42 +12,42 @@
   :target: http://52north.org/wps
 
 
-52¡ãNorth WPS
+52Â°North WPS
 ================================================================================
 
-Web·şÎñ
+WebæœåŠ¡
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-52¡ãNorth WPS 'Web Processing Service (WPS) <../standards/wps_overview>'Ö§³Ö´ÓÍøÂç·ÃÎÊÓÉSextane¡¢ArcGIS Server¡¢»ò¶¨ÖÆ¿ª·¢¹¦ÄÜÌá¹©µÄµØÀí¿Õ¼äÊı¾İ´¦ÀíËã·¨¡£
-Ëã·¨¿ÉÄÜÈçÇø·ÖÁ½¸ö¼¾½ÚµÄÁ÷¸Ğ²¡ÀıÒ»Ñù¼òµ¥£¬Ò²¿ÉÄÜÈçÈ«Çò±ä»¯Ä£ĞÍ°ã¸´ÔÓ¡£
+52Â°North WPS 'Web Processing Service (WPS) <../standards/wps_overview>'æ”¯æŒä»ç½‘ç»œè®¿é—®ç”±Sextaneã€ArcGIS Serverã€æˆ–å®šåˆ¶å¼€å‘åŠŸèƒ½æä¾›çš„åœ°ç†ç©ºé—´æ•°æ®å¤„ç†ç®—æ³•ã€‚
+ç®—æ³•å¯èƒ½å¦‚åŒºåˆ†ä¸¤ä¸ªå­£èŠ‚çš„æµæ„Ÿç—…ä¾‹ä¸€æ ·ç®€å•ï¼Œä¹Ÿå¯èƒ½å¦‚å…¨çƒå˜åŒ–æ¨¡å‹èˆ¬å¤æ‚ã€‚
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Ö÷Òª¹¦ÄÜ
+ä¸»è¦åŠŸèƒ½
 --------------------------------------------------------------------------------
 
-ºËĞÄGIS¹¦ÄÜ:
+æ ¸å¿ƒGISåŠŸèƒ½:
 
-* ¼òµ¥»º³åËã·¨
-* µÀ¸ñÀ­Ë¹-ÆÕ¿ËËã·¨
-* Çó½»Ëã·¨
+* ç®€å•ç¼“å†²ç®—æ³•
+* é“æ ¼æ‹‰æ–¯-æ™®å…‹ç®—æ³•
+* æ±‚äº¤ç®—æ³•
 	
-ºó¶ËËã·¨µÄÖ§³ÖÈí¼ş:
+åç«¯ç®—æ³•çš„æ”¯æŒè½¯ä»¶:
 
 * Sextante
-* ArcGIS ·şÎñÆ÷
+* ArcGIS æœåŠ¡å™¨
 
-Ö§³ÖÊäÈëºÍÊä³ö¸ñÊ½:
+æ”¯æŒè¾“å…¥å’Œè¾“å‡ºæ ¼å¼:
 
-* Ê¸Á¿Êı¾İ: GML2, GML3, SHP ÎÄ¼ş, KML, WKT (Well-known Text)
-* Õ¤¸ñÊı¾İ: Geotiff, AsciiGrid
+* çŸ¢é‡æ•°æ®: GML2, GML3, SHP æ–‡ä»¶, KML, WKT (Well-known Text)
+* æ …æ ¼æ•°æ®: Geotiff, AsciiGrid
 
-»ùÓÚä¯ÀÀÆ÷µÄ¿Í»§¶Ë
+åŸºäºæµè§ˆå™¨çš„å®¢æˆ·ç«¯
 
-ÒÑÊµÏÖµÄ±ê×¼¹æ·¶
+å·²å®ç°çš„æ ‡å‡†è§„èŒƒ
 --------------------------------------------------------------------------------
 
 * OGC Web Processing Service (WPS)
@@ -55,21 +55,21 @@ Web·şÎñ
 * OGC GML3 SimpleFeatures
 
 
-ÏêÇéÇë¼û
+è¯¦æƒ…è¯·è§
 --------------------------------------------------------------------------------
 
-**ÍøÕ¾:** http://52north.org/wps
+**ç½‘ç«™:** http://52north.org/wps
 
-**°æÈ¨:** GPL
+**ç‰ˆæƒ:** GPL
 
-**Èí¼ş°æ±¾:** WPS 2.0 RC6
+**è½¯ä»¶ç‰ˆæœ¬:** WPS 2.0 RC6
 
-**Ö§³ÖÆ½Ì¨:** Windows, Linux, Mac
+**æ”¯æŒå¹³å°:** Windows, Linux, Mac
 
-**ÉÌÒµÖ§³Ö:** http://www.52north.org
+**å•†ä¸šæ”¯æŒ:** http://www.52north.org
 
 
-¿ìËÙÆô¶¯
+å¿«é€Ÿå¯åŠ¨
 --------------------------------------------------------------------------------
 
 * :doc:Quickstart documentation  <../quickstart/52nWPS_quickstart>`

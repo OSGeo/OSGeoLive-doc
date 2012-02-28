@@ -1,4 +1,4 @@
-:Author: Jan Drewnak (j.drewnak@52north.org)
+ï»¿:Author: Jan Drewnak (j.drewnak@52north.org)
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -11,69 +11,69 @@
   :align: right
   :target: http://52north.org/security
 
-52¡ãNorth WSS
+52Â°North WSS
 ================================================================================
 
-Ïà¹ØÄÚÈİ
+ç›¸å…³å†…å®¹
 --------------------------------------------------------------------------------
 
-52North Web Security Service (WSS)²ÉÓÃ»ùÓÚ½ÇÉ«µÄÈ¨ÏŞĞí¿É£¬ºÜÈİÒ×ÏŞÖÆÁË¶Ô¿Õ¼ä·şÎñ¼°Æä×ÊÔ´µÄ·ÃÎÊ¡£
+52North Web Security Service (WSS)é‡‡ç”¨åŸºäºè§’è‰²çš„æƒé™è®¸å¯ï¼Œå¾ˆå®¹æ˜“é™åˆ¶äº†å¯¹ç©ºé—´æœåŠ¡åŠå…¶èµ„æºçš„è®¿é—®ã€‚
 
-Ê¹ÓÃ52North WSS¿ÉÒÔ¶¨ÒåÈçÏÂ·ÃÎÊ²ßÂÔ:
+ä½¿ç”¨52North WSSå¯ä»¥å®šä¹‰å¦‚ä¸‹è®¿é—®ç­–ç•¥:
 
-  *ËùÓĞ¾ßÓĞ½ÇÉ«'external'µÄÓÃ»§¶¼±»ÔÊĞí·ÃÎÊWMSµÄGetMap·şÎñµÄÍ¼²ãAºÍB¡£*
+  *æ‰€æœ‰å…·æœ‰è§’è‰²'external'çš„ç”¨æˆ·éƒ½è¢«å…è®¸è®¿é—®WMSçš„GetMapæœåŠ¡çš„å›¾å±‚Aå’ŒBã€‚*
 
-»òÕß
+æˆ–è€…
 
-  *GetFeatureInfo·şÎñ½ö±»ÔÊĞí·ÃÎÊÍ¼²ãAÉÏÓÉÄ³¸ö±ß¿ò¶¨ÒåµÄÌØ¶¨ÇøÓò¡£*
+  *GetFeatureInfoæœåŠ¡ä»…è¢«å…è®¸è®¿é—®å›¾å±‚Aä¸Šç”±æŸä¸ªè¾¹æ¡†å®šä¹‰çš„ç‰¹å®šåŒºåŸŸã€‚*
 
-52North WSSÊÇÒ»¸öJava±àĞ´µÄWebÓ¦ÓÃ³ÌĞò£¬Í¨³£ÔËĞĞÔÚApache Tomcat ServletÈİÆ÷¡£
-Ëü×÷ÎªÈÎÒâÒ»¸öOGC Web·şÎñµÄ´úÀí³ÌĞò£¬½ÓÊÕËùÓĞÇëÇó²¢¸ù¾İ¹æ¶¨²ßÂÔÖ´ĞĞ³ÌĞò¡£Èç´Ë£¬ÒÑÊµÏÖµÄ·şÎñ²»ĞèÒª¸Ä±ä¡£
-²ßÂÔºÍÓÃ»§±»¶¨ÒåÔÚXMLÅäÖÃÎÄ¼şÖĞ£¬Í¨¹ıÒ»¸öÍ¨ÓÃ¹ÜÀí½çÃæÎ¬»¤¡£
+52North WSSæ˜¯ä¸€ä¸ªJavaç¼–å†™çš„Webåº”ç”¨ç¨‹åºï¼Œé€šå¸¸è¿è¡Œåœ¨Apache Tomcat Servletå®¹å™¨ã€‚
+å®ƒä½œä¸ºä»»æ„ä¸€ä¸ªOGC WebæœåŠ¡çš„ä»£ç†ç¨‹åºï¼Œæ¥æ”¶æ‰€æœ‰è¯·æ±‚å¹¶æ ¹æ®è§„å®šç­–ç•¥æ‰§è¡Œç¨‹åºã€‚å¦‚æ­¤ï¼Œå·²å®ç°çš„æœåŠ¡ä¸éœ€è¦æ”¹å˜ã€‚
+ç­–ç•¥å’Œç”¨æˆ·è¢«å®šä¹‰åœ¨XMLé…ç½®æ–‡ä»¶ä¸­ï¼Œé€šè¿‡ä¸€ä¸ªé€šç”¨ç®¡ç†ç•Œé¢ç»´æŠ¤ã€‚
 
 .. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Screenshot of WSS Management UI
   :align: right
 
-¹¦ÄÜ
+åŠŸèƒ½
 --------------------------------------------------------------------------------
 
-**ÊÚÈ¨**
+**æˆæƒ**
 
-°üÀ¨ÒÔÏÂ±£»¤:
+åŒ…æ‹¬ä»¥ä¸‹ä¿æŠ¤:
 
-* Web Mapping Service (WMS): Í¼²ã,¿Õ¼ä·¶Î§
-* Web Feature Service (WFS): ÒªËØÀàĞÍ, ÒªËØ¼°ÆäÊôĞÔ,¿Õ¼ä·¶Î§
-* Sensor Observation Service (SOS): Ìá¹©ÄÚÈİ, ³ÌĞò, ¿Õ¼ä·¶Î§, Ê±¼ä·¶Î§
-* Web Processing Service (WPS): ½ø³Ì
+* Web Mapping Service (WMS): å›¾å±‚,ç©ºé—´èŒƒå›´
+* Web Feature Service (WFS): è¦ç´ ç±»å‹, è¦ç´ åŠå…¶å±æ€§,ç©ºé—´èŒƒå›´
+* Sensor Observation Service (SOS): æä¾›å†…å®¹, ç¨‹åº, ç©ºé—´èŒƒå›´, æ—¶é—´èŒƒå›´
+* Web Processing Service (WPS): è¿›ç¨‹
 
-**ÈÏÖ¤**
+**è®¤è¯**
 
-Ö§³Ö¶àÖÖÓÃ»§ÈÏÖ¤·½·¨,±ÈÈç:
+æ”¯æŒå¤šç§ç”¨æˆ·è®¤è¯æ–¹æ³•,æ¯”å¦‚:
 
-* HTTP»ù±¾Éí·İÈÏÖ¤
-* SAML¶ÏÑÔ(°²È«¶ÏÑÔ±ê¼ÇÓïÑÔ)
-* ÆäËû
+* HTTPåŸºæœ¬èº«ä»½è®¤è¯
+* SAMLæ–­è¨€(å®‰å…¨æ–­è¨€æ ‡è®°è¯­è¨€)
+* å…¶ä»–
 
 
-ÏêÇéÇë¼û
+è¯¦æƒ…è¯·è§
 --------------------------------------------------------------------------------
 
-**ÍøÕ¾:** http://52north.org/communities/security
+**ç½‘ç«™:** http://52north.org/communities/security
 
-**°æÈ¨:** GNU General Public License (GPL) version 2
+**ç‰ˆæƒ:** GNU General Public License (GPL) version 2
 
-**Èí¼ş°æ±¾:** WSS 2.2.0
+**è½¯ä»¶ç‰ˆæœ¬:** WSS 2.2.0
 
-**Ö§³ÖÆ½Ì¨:** Windows, Linux, Mac
+**æ”¯æŒå¹³å°:** Windows, Linux, Mac
 
-**API½Ó¿Ú:** Java
+**APIæ¥å£:** Java
 
-**ÉÌÒµÖ§³Ö:** http://52north.org/
+**å•†ä¸šæ”¯æŒ:** http://52north.org/
 
 
-¿ìËÙÈëÃÅ
+å¿«é€Ÿå…¥é—¨
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/52nWSS_quickstart>`
