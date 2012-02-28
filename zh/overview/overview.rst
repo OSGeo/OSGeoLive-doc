@@ -1,105 +1,105 @@
-.. OSGeo-Live documentation master file, created by
+ï»¿.. OSGeo-Live documentation master file, created by
    sphinx-quickstart on Tue Jul  6 14:54:20 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-|osgeo-live-version| ÄÚÈİ
+|osgeo-live-version| å†…å®¹
 ================================================================================
 
-ä¯ÀÀÆ÷¿Í»§¶Ë
+æµè§ˆå™¨å®¢æˆ·ç«¯
 --------------------------------------------------------------------------------
-* :doc:`openlayers_overview` - [:doc:`¿ìËÙÈëÃÅ  <../quickstart/openlayers_quickstart>`] - ä¯ÀÀÆ÷GIS¿Í»§»ú
-* :doc:`geomajas_overview` - [:doc:`¿ìËÙÈëÃÅ  <../quickstart/geomajas_quickstart>`] - ä¯ÀÀÆ÷GIS¿Í»§»ú
-* :doc:`mapbender_overview` - [:doc:`¿ìËÙÈëÃÅ  <../quickstart/mapbender_quickstart>`] - µØÀí¿Õ¼äÃÅ»§¿ò¼ÜÆ½Ì¨
-* :doc:`mapfish_overview` - [:doc:`¿ìËÙÈëÃÅ  <../quickstart/mapfish_quickstart>`] - WebÖÆÍ¼¿ò¼ÜÆ½Ì¨
-* :doc:`geomoose_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/geomoose_quickstart>`] - WebGISÃÅ»§
+* :doc:`openlayers_overview` - [:doc:`å¿«é€Ÿå…¥é—¨  <../quickstart/openlayers_quickstart>`] - æµè§ˆå™¨GISå®¢æˆ·æœº
+* :doc:`geomajas_overview` - [:doc:`å¿«é€Ÿå…¥é—¨  <../quickstart/geomajas_quickstart>`] - æµè§ˆå™¨GISå®¢æˆ·æœº
+* :doc:`mapbender_overview` - [:doc:`å¿«é€Ÿå…¥é—¨  <../quickstart/mapbender_quickstart>`] - åœ°ç†ç©ºé—´é—¨æˆ·æ¡†æ¶å¹³å°
+* :doc:`mapfish_overview` - [:doc:`å¿«é€Ÿå…¥é—¨  <../quickstart/mapfish_quickstart>`] - Webåˆ¶å›¾æ¡†æ¶å¹³å°
+* :doc:`geomoose_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/geomoose_quickstart>`] - WebGISé—¨æˆ·
 
-Î£»ú¹ÜÀí
+å±æœºç®¡ç†
 --------------------------------------------------------------------------------
-* :doc:`sahana_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/sahana_quickstart>`] - ÔÖº¦¹ÜÀí
-* :doc:`ushahidi_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/ushahidi_quickstart>`] - ¹«¹²ÊÂ¼şµÄÖÆÍ¼ºÍ½ø¶È°²ÅÅ¹ÜÀí
+* :doc:`sahana_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/sahana_quickstart>`] - ç¾å®³ç®¡ç†
+* :doc:`ushahidi_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/ushahidi_quickstart>`] - å…¬å…±äº‹ä»¶çš„åˆ¶å›¾å’Œè¿›åº¦å®‰æ’ç®¡ç†
 
-Êı¾İ¿â
+æ•°æ®åº“
 --------------------------------------------------------------------------------
-* :doc:`postgis_overview`  - [:doc:`¿ìËÙÈëÃÅ <../quickstart/postgis_quickstart>`] - ¿Õ¼äÊı¾İ¿â
-* :doc:`spatialite_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/spatialite_quickstart>`] - ÇáÁ¿¼¶Êı¾İ¿â
-* :doc:`rasdaman_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/rasdaman_quickstart>`] - ¶àÎ¬Õ¤¸ñÊı¾İ¿â
-* :doc:`pgrouting_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/pgrouting_quickstart>`] - PostGISÂ·¾¶¹æ»®
+* :doc:`postgis_overview`  - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/postgis_quickstart>`] - ç©ºé—´æ•°æ®åº“
+* :doc:`spatialite_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/spatialite_quickstart>`] - è½»é‡çº§æ•°æ®åº“
+* :doc:`rasdaman_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/rasdaman_quickstart>`] - å¤šç»´æ …æ ¼æ•°æ®åº“
+* :doc:`pgrouting_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/pgrouting_quickstart>`] - PostGISè·¯å¾„è§„åˆ’
 
-×ÀÃæGIS
+æ¡Œé¢GIS
 --------------------------------------------------------------------------------
-* :doc:`qgis_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/qgis_quickstart>`]
-* :doc:`grass_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/gvsig_quickstart>`]
-* :doc:`udig_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/udig_quickstart>`]
-* :doc:`kosmo_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/kosmo_quickstart>`]
-* :doc:`openjump_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/openjump_quickstart>`]
-* :doc:`saga_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/saga_quickstart>`]
-* :doc:`ossim_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/ossim_quickstart>`] - Í¼Ïñ´¦Àí
-* :doc:`geopublisher_overview`- [:doc:`¿ìËÙÈëÃÅ <../quickstart/geopublisher_quickstart>`] - Ä¿Â¼
-* :doc:`atlasstyler_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/atlasstyler_quickstart>`] - ÑùÊ½±à¼­
-* :doc:`osgearth_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/osgearth_quickstart>`] - 3D µØĞÎäÖÈ¾
+* :doc:`qgis_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/qgis_quickstart>`]
+* :doc:`grass_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/grass_quickstart>`]
+* :doc:`gvsig_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/gvsig_quickstart>`]
+* :doc:`udig_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/udig_quickstart>`]
+* :doc:`kosmo_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/kosmo_quickstart>`]
+* :doc:`openjump_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/openjump_quickstart>`]
+* :doc:`saga_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/saga_quickstart>`]
+* :doc:`ossim_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/ossim_quickstart>`] - å›¾åƒå¤„ç†
+* :doc:`geopublisher_overview`- [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/geopublisher_quickstart>`] - ç›®å½•
+* :doc:`atlasstyler_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/atlasstyler_quickstart>`] - æ ·å¼ç¼–è¾‘
+* :doc:`osgearth_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/osgearth_quickstart>`] - 3D åœ°å½¢æ¸²æŸ“
 
-.. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - º£µ×ÖÆÍ¼
+.. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - æµ·åº•åˆ¶å›¾
 
-µ¼º½ºÍµØÍ¼
+å¯¼èˆªå’Œåœ°å›¾
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/gpsdrive_quickstart>`] - GPSµ¼º½
-* :doc:`marble_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/marble_quickstart>`] - Ğı×ªµØÇò
-* :doc:`opencpn_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/opencpn_quickstart>`] - µç×Óº£Í¼µ¼º½
-* :doc:`osm_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/osm_quickstart>`] - OpenStreetMap¹¤¾ß
-* :doc:`prune_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/prune_quickstart>`] - ²é¿´£¬±à¼­£¬×ª»»GPSº½¼£
-* :doc:`viking_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/viking_quickstart>`] - GPSÊı¾İ·ÖÎöºÍä¯ÀÀ
-* :doc:`zygrib_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/zygrib_quickstart>`] - ÌìÆøÔ¤±¨µØÍ¼
+* :doc:`gpsdrive_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/gpsdrive_quickstart>`] - GPSå¯¼èˆª
+* :doc:`marble_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/marble_quickstart>`] - æ—‹è½¬åœ°çƒ
+* :doc:`opencpn_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/opencpn_quickstart>`] - ç”µå­æµ·å›¾å¯¼èˆª
+* :doc:`osm_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/osm_quickstart>`] - OpenStreetMapå·¥å…·
+* :doc:`prune_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/prune_quickstart>`] - æŸ¥çœ‹ï¼Œç¼–è¾‘ï¼Œè½¬æ¢GPSèˆªè¿¹
+* :doc:`viking_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/viking_quickstart>`] - GPSæ•°æ®åˆ†æå’Œæµè§ˆ
+* :doc:`zygrib_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/zygrib_quickstart>`] - å¤©æ°”é¢„æŠ¥åœ°å›¾
 
-¿Õ¼ä²Ù×÷¹¤¾ß
+ç©ºé—´æ“ä½œå·¥å…·
 --------------------------------------------------------------------------------
-* :doc:`geokettle_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/geokettle_quickstart>`] - ETL¹¤¾ß(ÌáÈ¡, ×ª»»ºÍ¼ÓÔØ) 
-* :doc:`gdal_overview`  - [:doc:`¿ìËÙÈëÃÅ <../quickstart/gdal_quickstart>`] - ¿Õ¼äÊı¾İ×ª»»¹¤¾ß
-* :doc:`gmt_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/gmt_quickstart>`] - µØÍ¼äÖÈ¾
-* :doc:`mapnik_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/mapnik_quickstart>`] - µØÍ¼äÖÈ¾
-* :doc:`maptiler_overview`  - [:doc:`¿ìËÙÈëÃÅ <../quickstart/maptiler_quickstart>`] - ´´½¨µØÍ¼ÇĞÆ¬
-* :doc:`otb_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/otb_quickstart>`] - Í¼Ïñ´¦Àí
-* :doc:`R_overview`  - [:doc:`¿ìËÙÈëÃÅ <../quickstart/R_quickstart>`] - Í³¼Æ±à³Ì
+* :doc:`geokettle_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/geokettle_quickstart>`] - ETLå·¥å…·(æå–, è½¬æ¢å’ŒåŠ è½½) 
+* :doc:`gdal_overview`  - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/gdal_quickstart>`] - ç©ºé—´æ•°æ®è½¬æ¢å·¥å…·
+* :doc:`gmt_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/gmt_quickstart>`] - åœ°å›¾æ¸²æŸ“
+* :doc:`mapnik_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/mapnik_quickstart>`] - åœ°å›¾æ¸²æŸ“
+* :doc:`maptiler_overview`  - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/maptiler_quickstart>`] - åˆ›å»ºåœ°å›¾åˆ‡ç‰‡
+* :doc:`otb_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/otb_quickstart>`] - å›¾åƒå¤„ç†
+* :doc:`R_overview`  - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/R_quickstart>`] - ç»Ÿè®¡ç¼–ç¨‹
 
-Web·şÎñ
+WebæœåŠ¡
 --------------------------------------------------------------------------------
-* :doc:`geoserver_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/mapserver_quickstart>`]
-* :doc:`deegree_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/deegree_quickstart>`]
-* :doc:`geonetwork_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/geonetwork_quickstart>`] - ÔªÊı¾İ±àÄ¿ºÍ±àÄ¿Web·şÎñÏµÍ³
-* :doc:`mapproxy_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/mapproxy_quickstart>`] - ´úÀíWMSºÍÇĞÆ¬·şÎñ
-* :doc:`qgis_mapserver_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/qgis_mapserver_quickstart>`] - WebµØÍ¼·şÎñ
-* :doc:`52nWSS_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/52nWSS_quickstart>`] - Web°²È«·şÎñ
-* :doc:`52nWPS_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/52nWPS_quickstart>`] - Web´¦Àí·şÎñ
-* :doc:`52nSOS_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/52nSOS_quickstart>`] - ´«¸ĞÆ÷¹Û²â·şÎñ
-* :doc:`tinyows_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/tinyows_quickstart>`] - WFS-T·şÎñ
-* :doc:`zoo-project_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/zoo-project_quickstart>`] - Web´¦Àí·şÎñ
-* :doc:`pycsw_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/pycsw_quickstart>`] - ÔªÊı¾İ±àÄ¿ºÍ±àÄ¿Web·şÎñÏµÍ³
+* :doc:`geoserver_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/geoserver_quickstart>`]
+* :doc:`mapserver_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/mapserver_quickstart>`]
+* :doc:`deegree_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/deegree_quickstart>`]
+* :doc:`geonetwork_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/geonetwork_quickstart>`] - å…ƒæ•°æ®ç¼–ç›®å’Œç¼–ç›®WebæœåŠ¡ç³»ç»Ÿ
+* :doc:`mapproxy_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/mapproxy_quickstart>`] - ä»£ç†WMSå’Œåˆ‡ç‰‡æœåŠ¡
+* :doc:`qgis_mapserver_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/qgis_mapserver_quickstart>`] - Webåœ°å›¾æœåŠ¡
+* :doc:`52nWSS_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/52nWSS_quickstart>`] - Webå®‰å…¨æœåŠ¡
+* :doc:`52nWPS_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/52nWPS_quickstart>`] - Webå¤„ç†æœåŠ¡
+* :doc:`52nSOS_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/52nSOS_quickstart>`] - ä¼ æ„Ÿå™¨è§‚æµ‹æœåŠ¡
+* :doc:`tinyows_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/tinyows_quickstart>`] - WFS-TæœåŠ¡
+* :doc:`zoo-project_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/zoo-project_quickstart>`] - Webå¤„ç†æœåŠ¡
+* :doc:`pycsw_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/pycsw_quickstart>`] - å…ƒæ•°æ®ç¼–ç›®å’Œç¼–ç›®WebæœåŠ¡ç³»ç»Ÿ
 
 .. temp disabled to save on disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 
-Êı¾İ
+æ•°æ®
 --------------------------------------------------------------------------------
-* :doc:`naturalearth_overview` - µØÀíÊı¾İ¼¯
+* :doc:`naturalearth_overview` - åœ°ç†æ•°æ®é›†
 * :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - OpenStreetMapµÄÑù±¾Êı¾İ³éÈ¡
+* :doc:`osm_dataset_overview` - OpenStreetMapçš„æ ·æœ¬æ•°æ®æŠ½å–
 
-¿Õ¼äÊı¾İ´¦Àí»ù´¡¿â
+ç©ºé—´æ•°æ®å¤„ç†åŸºç¡€åº“
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Java GIS¹¤¾ß°ü
-* :doc:`metacrs_overview` - ×ø±ê²ÎÕÕÏµ±ä»»
-* :doc:`liblas_overview`  - LiDARÊı¾İ·ÃÎÊ
+* :doc:`geotools_overview` - Java GISå·¥å…·åŒ…
+* :doc:`metacrs_overview` - åæ ‡å‚ç…§ç³»å˜æ¢
+* :doc:`liblas_overview`  - LiDARæ•°æ®è®¿é—®
 
-ÆäËüÈí¼ş(ÉĞÎ´·ÅÈëLiveÏµÍ³)
+å…¶å®ƒè½¯ä»¶(å°šæœªæ”¾å…¥Liveç³»ç»Ÿ)
 --------------------------------------------------------------------------------
-* :doc:`mapguide_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/mapguide_quickstart>`] - Web·şÎñ
-* :doc:`mapwindow_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/mapwindow_quickstart>`] - Microsoft WindowsµÄGIS¿Ø¼ş
-* :doc:`mb-system_overview` - [:doc:`¿ìËÙÈëÃÅ <../quickstart/mb-system_quickstart>`] - º£µ×ÖÆÍ¼
+* :doc:`mapguide_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/mapguide_quickstart>`] - WebæœåŠ¡
+* :doc:`mapwindow_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/mapwindow_quickstart>`] - Microsoft Windowsçš„GISæ§ä»¶
+* :doc:`mb-system_overview` - [:doc:`å¿«é€Ÿå…¥é—¨ <../quickstart/mb-system_quickstart>`] - æµ·åº•åˆ¶å›¾
 
-.. MapGuideºÍMB-SystemÔİÊ±²»Ö§³Ö£¬ÒÔ½ÚÊ¡ÅÌ¿Õ¼ä¡£MapWindowÉĞ²»Ö§³ÖUbuntu
+.. MapGuideå’ŒMB-Systemæš‚æ—¶ä¸æ”¯æŒï¼Œä»¥èŠ‚çœç›˜ç©ºé—´ã€‚MapWindowå°šä¸æ”¯æŒUbuntu
 
-WindowsºÍApple°²×°
+Windowså’ŒAppleå®‰è£…
 --------------------------------------------------------------------------------
 * `Microsoft Windows Installers <../../WindowsInstallers/>`_
 * `Apple OSX Installers <../../MacInstallers/>`_
