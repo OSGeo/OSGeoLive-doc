@@ -1,44 +1,40 @@
 
-Welcome to |osgeo-live-version|
+欢迎访问|osgeo-live-version|
 ================================================================================
 
-`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual
-Machine based on `Xubuntu <http://www.xubuntu.org/>`_, that allows you to try a wide variety of open
-source geospatial software without installing anything. It is composed
-entirely of free software, allowing it to be freely distributed, duplicated
-and passed around.
+`OSGeo-Live <http://live.osgeo.org>`_ 是一套基于`Xubuntu <http://www.xubuntu.org/>`_的可独立应用的自启动DVD、USB盘或者虚拟机，
+支持用户不用预安装任何软件系统，就可使用开源代码空间信息软件。OSGeo-Live整体都是由自由软件构成，可以自由地部署、复制和分发。
 
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right
 
-It provides pre-configured applications for a range of geospatial use cases,
-including storage, publishing, viewing, analysis and manipulation of data. It
-also contains sample datasets and documentation.
+OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用案例，包括：数据的存储、发布、显示、分析和管理。
+它还包含简单的数据集和文档。
 
-To try out the applications, simply:
+试用应用程序，步骤很简单：
 
-#. Insert DVD or USB thumb drive in computer or virtual machine.
-#. Reboot computer. (verify boot device order if necessary)
-#. Press "Enter" to startup & login.
-#. Trial applications from the "Geospatial" menu.
+#. 把DVD或USB盘插入到计算机或虚拟机中
+#. 重启计算机(如有必要，请确认启动盘顺序)
+#. 按"Enter"开始，并登录
+#. 在"Geospatial"菜单中选用应用系统
 
-Many applications are also provided with installers for `Apple OSX <../MacInstallers/>`_ and
-`Microsoft Windows <../WindowsInstallers/>`_.
+许多应用系统也提供`Apple OSX <../MacInstallers/>`_和
+`Microsoft Windows <../WindowsInstallers/>`_安装程序.
 
 
-Quick Starts
+快速入门
 --------------------------------------------------------------------------------
 
--   :doc:`Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
--   :doc:`Change language or keyboard type <quickstart/internationalisation_quickstart>`
--   :doc:`Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart>`
--   :doc:`Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart>`
--   :doc:`Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>`
+-   :doc:`OSGeo-Live DVD入门 <quickstart/osgeolive_quickstart>`
+-   :doc:`如何改变语言或键盘类型 <quickstart/internationalisation_quickstart>`
+-   :doc:`如何在硬盘上安装OSGeo-Live <quickstart/osgeolive_install_quickstart>`
+-   :doc:`如何在虚拟机上安装OSGeo-Live <quickstart/virtualbox_quickstart>`
+-   :doc:`如何创建一个OSGeo-Live自启动USB盘 <quickstart/usb_quickstart>`
 
-Presentation
+介绍
 --------------------------------------------------------------------------------
-A half hour presentation, highlighting all OSGeo-Live applications, is available as a video, along with source slides and script.
+大约半小时Presentation资料，简明介绍了所有的OSGeo-Live应用程序，包括：视频，PPT和文字描述。
 
-Details at http://live.osgeo.org/en/presentation.html.
+详情请见 http://live.osgeo.org/zh/presentation.html.
