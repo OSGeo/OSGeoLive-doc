@@ -1,4 +1,4 @@
-:Author: Hamish Bowman
+ï»¿:Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -15,15 +15,15 @@
 Marble
 ================================================================================
 
-3D×ÀÃæµØÇòÒÇ
+3Dæ¡Œé¢åœ°çƒä»ª
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Marble is Ò»¸öÀàËÆÓÚ`NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_»ò
-Google EarthµÄ¿ªÔ´KDE½ÌÓıÏîÄ¿¼Æ»®¡£³ıÁË¿ÉÒÔÓÃÓÚ²é¿´¸÷ÖÖµØÍ¼(°üÀ¨ÀûÓÃ`OpenStreetMaps <http://www.osm.org>`_), 
-Ò²¿ÉÒÔÔÚÓ¦ÓÃ³ÌĞòÖĞÇ¶ÈëKDE Marble¿Ø¼ş.
+Marble is ä¸€ä¸ªç±»ä¼¼äº`NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_æˆ–
+Google Earthçš„å¼€æºKDEæ•™è‚²é¡¹ç›®è®¡åˆ’ã€‚é™¤äº†å¯ä»¥ç”¨äºæŸ¥çœ‹å„ç§åœ°å›¾(åŒ…æ‹¬åˆ©ç”¨`OpenStreetMaps <http://www.osm.org>`_), 
+ä¹Ÿå¯ä»¥åœ¨åº”ç”¨ç¨‹åºä¸­åµŒå…¥KDE Marbleæ§ä»¶.
 
 
-Ö÷Òª¹¦ÄÜ
+ä¸»è¦åŠŸèƒ½
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/marble-history.png
@@ -31,33 +31,33 @@ Google EarthµÄ¿ªÔ´KDE½ÌÓıÏîÄ¿¼Æ»®¡£³ıÁË¿ÉÒÔÓÃÓÚ²é¿´¸÷ÖÖµØÍ¼(°üÀ¨ÀûÓÃ`OpenStreetM
   :alt: screenshot
   :align: right
 
-* ĞéÄâµØÇòºÍÊÀ½çµØÍ¼Í¼¼¯
-* 3DÈ«Çòµ¼º½
-* Êó±êµ¥»÷µÄÎ»ÖÃÏÔÊ¾Î¬»ù°Ù¿ÆÎÄÕÂ
-* ¶à¸öĞÇÇò¼äÇĞ»» (ÈçĞĞĞÇºÍÔÂÇò) 
-* Ì«ÑôÖçÒ¹¸²¸Ç 
-* ¾àÀë²âÁ¿
-* ¿Õ¼äÊÓÍ¼ºÍ2DÍ¶Ó°Í¼Ö®¼äÇĞ»»
-* Óë`OpenStreetMap <http://www.osm.org>`_ ¼¯³É
+* è™šæ‹Ÿåœ°çƒå’Œä¸–ç•Œåœ°å›¾å›¾é›†
+* 3Då…¨çƒå¯¼èˆª
+* é¼ æ ‡å•å‡»çš„ä½ç½®æ˜¾ç¤ºç»´åŸºç™¾ç§‘æ–‡ç« 
+* å¤šä¸ªæ˜Ÿçƒé—´åˆ‡æ¢ (å¦‚è¡Œæ˜Ÿå’Œæœˆçƒ) 
+* å¤ªé˜³æ˜¼å¤œè¦†ç›– 
+* è·ç¦»æµ‹é‡
+* ç©ºé—´è§†å›¾å’Œ2DæŠ•å½±å›¾ä¹‹é—´åˆ‡æ¢
+* ä¸`OpenStreetMap <http://www.osm.org>`_ é›†æˆ
 
 
-ÏêÇéÇë¼û
+è¯¦æƒ…è¯·è§
 --------------------------------------------------------------------------------
 
-**ÍøÕ¾:** http://edu.kde.org/marble/
+**ç½‘ç«™:** http://edu.kde.org/marble/
 
-**°æÈ¨:** GNU Lesser General Public License (LGPL) version 2.1
+**ç‰ˆæƒ:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Èí¼ş°æ±¾:** 1.0.2
+**è½¯ä»¶ç‰ˆæœ¬:** 1.0.2
 
-**Ö§³ÖÆ½Ì¨:** GNU/Linux, Mac OSX, MS Windows
+**æ”¯æŒå¹³å°:** GNU/Linux, Mac OSX, MS Windows
 
-**API½Ó¿Ú:** Qt designer, C++, Python, D-BUS, Shell script
+**APIæ¥å£:** Qt designer, C++, Python, D-BUS, Shell script
 
-**Ö§³Ö:** http://techbase.kde.org/Projects/Marble
+**æ”¯æŒ:** http://techbase.kde.org/Projects/Marble
 
 
-¿ìËÙÈëÃÅ
+å¿«é€Ÿå…¥é—¨
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/marble_quickstart>`

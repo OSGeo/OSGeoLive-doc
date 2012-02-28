@@ -1,4 +1,4 @@
-:Author: Daniel Kastl
+ï»¿:Author: Daniel Kastl
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -14,56 +14,57 @@
 pgRouting
 ================================================================================
 
-GIS¹¤¾ß
+GISå·¥å…·
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRoutingÀ©Õ¹ÁËµØÀí¿Õ¼äÊı¾İ¿â:doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_£¬Ìá¹©ÁËµØÀí¿Õ¼äÂ·¾¶¹æ»®¹¦ÄÜ¡£
-Êı¾İ¿âÂ·¾¶¹æ»®µÄÓÅµãÈçÏÂ:
+pgRoutingæ‰©å±•äº†åœ°ç†ç©ºé—´æ•°æ®åº“:doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ï¼Œæä¾›äº†åœ°ç†ç©ºé—´è·¯å¾„è§„åˆ’åŠŸèƒ½ã€‚
+æ•°æ®åº“è·¯å¾„è§„åˆ’çš„ä¼˜ç‚¹å¦‚ä¸‹:
 
-* Ğí¶à¿Í»§¶ËÓ¦ÓÃ³ÌĞòÀıÈçdoc:`Quantum GIS <qgis_overview>ºÍ:doc:`uDig <udig_overview>¿ÉÒÔÍ¨¹ıJDBC¡¢ODBC»òÕßÖ±½ÓÓÃPl/pgSQLĞŞ¸ÄÊı¾İºÍÊôĞÔ¡£¿Í»§¶Ë¿ÉÒÔÊÇPC»òÕßÒÆ¶¯Éè±¸¡£
-* Â·¾¶ËÑË÷ÒıÇæ¿ÉÒÔË²¼ä·´Ó³Êı¾İ±ä»¯£¬²»ĞèÒªÔ¤ÏÈ¼ÆËã¡£
-* "cost"²ÎÊıÍ¨¹ıSQL¶¯Ì¬¼ÆËã£¬ÆäÊıÖµ¿ÉÀ´×Ô¶à¸ö×Ö¶Î»ò±í¸ñ
+* è®¸å¤šå®¢æˆ·ç«¯åº”ç”¨ç¨‹åºä¾‹å¦‚doc:`Quantum GIS <qgis_overview>å’Œ:doc:`uDig <udig_overview>å¯ä»¥é€šè¿‡JDBCã€ODBCæˆ–è€…ç›´æ¥ç”¨Pl/pgSQLä¿®æ”¹æ•°æ®å’Œå±æ€§ã€‚å®¢æˆ·ç«¯å¯ä»¥æ˜¯PCæˆ–è€…ç§»åŠ¨è®¾å¤‡ã€‚
+* è·¯å¾„æœç´¢å¼•æ“å¯ä»¥ç¬é—´åæ˜ æ•°æ®å˜åŒ–ï¼Œä¸éœ€è¦é¢„å…ˆè®¡ç®—ã€‚
+* "cost"å‚æ•°é€šè¿‡SQLåŠ¨æ€è®¡ç®—ï¼Œå…¶æ•°å€¼å¯æ¥è‡ªå¤šä¸ªå­—æ®µæˆ–è¡¨æ ¼
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right
 
-Ö÷Òª¹¦ÄÜ
+ä¸»è¦åŠŸèƒ½
 --------------------------------------------------------------------------------
 
-pgRoutingÌá¹©ÒÔÏÂ¹¦ÄÜ:
+pgRoutingæä¾›ä»¥ä¸‹åŠŸèƒ½:
 
-* Shortest Path Dikstra: ·ÇÆô·¢Ê½Â·¾¶¹æ»®Ëã·¨
-* Shortest Path A-Star: Æô·¢Ê½µÄ´óÊı¾İÁ¿Â·¾¶¹æ»®Ëã·¨
-* Shortest Path Shooting-Star: Æô·¢Ê½µÄµ¥ÏòÂ·¾¶¹æ»®Ëã·¨
-* Traveling Salesperson Problem (TSP)£ºÂÃĞĞÉÌÎÊÌâ
-* Driving Distance calculation (Isolines)£º¼İÊ»¾àÀë¼ÆËã
+* Shortest Path Dikstra: éå¯å‘å¼è·¯å¾„è§„åˆ’ç®—æ³•
+* Shortest Path A-Star: å¯å‘å¼çš„å¤§æ•°æ®é‡è·¯å¾„è§„åˆ’ç®—æ³•
+* Shortest Path Shooting-Star: å¯å‘å¼çš„å•å‘è·¯å¾„è§„åˆ’ç®—æ³•
+* Traveling Salesperson Problem (TSP)ï¼šæ—…è¡Œå•†é—®é¢˜
+* Driving Distance calculation (Isolines)ï¼šé©¾é©¶è·ç¦»è®¡ç®—
 
-.. ÒÑÊµÏÖµÄ±ê×¼¹æ·¶
+.. å·²å®ç°çš„æ ‡å‡†è§„èŒƒ
    ---------------------
 
-.. * ¼æÈİOGC±ê×¼
+.. * å…¼å®¹OGCæ ‡å‡†
 
-ÏêÇéÇë¼û
+è¯¦æƒ…è¯·è§
 --------------------------------------------------------------------------------
 
-**ÍøÕ¾:** http://www.pgrouting.org
+**ç½‘ç«™:** http://www.pgrouting.org
 
-**°æÈ¨:** GNU General Public License (GPL) version 2
+**ç‰ˆæƒ:** GNU General Public License (GPL) version 2
 
-**Èí¼ş°æ±¾:** 1.05
+**è½¯ä»¶ç‰ˆæœ¬:** 1.05
 
-**Ö§³ÖÆ½Ì¨:** Linux, Windows, Mac
+**æ”¯æŒå¹³å°:** Linux, Windows, Mac
 
-**API½Ó¿Ú:** SQL
+**APIæ¥å£:** SQL
 
-**ÉÌÒµÖ§³Ö:** http://www.pgrouting.org
+**å•†ä¸šæ”¯æŒ:** http://www.pgrouting.org
 
 
-¿ìËÙÈëÃÅ
+å¿«é€Ÿå…¥é—¨
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
+
 
 

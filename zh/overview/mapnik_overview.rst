@@ -1,4 +1,4 @@
-:Author: Dane Springmeyer
+﻿:Author: Dane Springmeyer
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -15,12 +15,12 @@
 Mapnik
 ================================================================================
 
-��ͼ��Ⱦ����
+地图渲染引擎
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik��һ����Ⱦ������ͼ�Ĺ��߰������������ȳ�����ͼ�α�Ե��ʵ�������ڸ������Ŀ������ͼ�Ρ����ܱ�ǩ��λ���Ϳ���չ��SVG��ǡ�������֪��mapnik��������ȾOpenStreetMap����Ҫ��ͼͼ�㡣
+Mapnik是一个渲染精美地图的工具包，其清晰的匀称柔性图形边缘的实现依赖于高质量的抗锯齿形图形、智能标签定位，和可扩展的SVG标记。众所周知，mapnik常用于渲染OpenStreetMap的主要地图图层。
 
-Mapnikͨ����Ƕ����PythonӦ�ó����У������������Ϸ�����ͼ�����Mapnik����չ��Ҳ�������Ƹ߷ֱ��ʵ�ֽ�ʵ�ͼ��
+Mapnik通常被嵌入在Python应用程序中，用于在网络上发布地图。最近Mapnik被扩展，也用来绘制高分辨率的纸质地图。
 
 .. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
@@ -28,29 +28,29 @@ Mapnikͨ����Ƕ����PythonӦ�ó����У������������Ϸ�����ͼ�����Mapnik����չ��Ҳ��
   :align: right
 
 
-Mapnik�ĵ������󼯺ϣ���ͼ��ͼ�㡢����Դ���������������Σ���ϵͳ�ⲻ������"windowing systems"ϵͳ�����Բ������κη��񻷾��¡��������ڶ��̻߳����ºܺõ����У���ʼĿ������WebӦ�ÿ������������ڴˡ�
+Mapnik的地理对象集合（地图、图层、数据源、特征、地理几何）和系统库不依赖于"windowing systems"系统，可以部署在任何服务环境下。它可以在多线程环境下很好的运行，起始目标面向Web应用开发，但不限于此。
 
-�߲�ε�Python�󶨣�boost.python�⣩֧�ֿ���Ӧ�ó��򿪷���֧��zope3��django�ȡ�
+高层次的Python绑定（boost.python库）支持快速应用程序开发，支持zope3和django等。
 
-Mapnik��һ����ƽ̨Ӧ�ó��򡣴����linux�����������������Mac OS X��Windows������installers��װ����
+Mapnik是一个跨平台应用程序。大多数linux具有软件代码包，而Mac OS X和Windows常采用installers安装程序。
 
 
-�������
+详情请见
 --------------------------------------------------------------------------------
 
-**��վ:** http://www.mapnik.org/
+**网站:** http://www.mapnik.org/
 
-**��Ȩ:** LGPL (GNU Lesser General Public Licence)
+**版权:** LGPL (GNU Lesser General Public Licence)
 
-**�����汾:** 0.7.1
+**软件版本:** 0.7.1
 
-**֧��ƽ̨:** Windows, Linux, Mac
+**支持平台:** Windows, Linux, Mac
 
-**API�ӿ�:** C++, Python
+**API接口:** C++, Python
 
 
 
-��������
+快速入门
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation  <../quickstart/mapnik_quickstart>`
