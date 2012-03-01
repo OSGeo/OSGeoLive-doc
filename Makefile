@@ -8,7 +8,7 @@ PAPER         =
 BUILDDIR      = _build
 TMP	      = /tmp/osgeolive_make
 #TRANSLATIONS  = de el es it ja ro pl
-TRANSLATIONS  =  de el es    ja    pl
+TRANSLATIONS  =  de el es    ja    pl ca
 LANGUAGES     = en $(TRANSLATIONS)
 START_DIR     = $(shell pwd)
 
