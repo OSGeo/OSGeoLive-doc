@@ -1,6 +1,6 @@
-:Author: Barry Rowlingson
-:Version: osgeo-live4.0
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Πρωτουργός: Barry Rowlingson
+:Έκδοση: osgeo-live5.5
+:Άδεια: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _r-quickstart:
  
@@ -10,50 +10,47 @@
   :align: right
 
 ************
-R Quickstart
+Οδηγός Γρήγορης Εκκίνησης R
 ************
 
-R is a free software environment for statistical computing and graphics.
+Το R είναι ένα περιβάλλον ελεύθερου κώδικα για στατιστικούς υπολογισμούς και γραφήματα.
 
-This Quick Start describes how to:
+Αυτός ο οδηγός περιγράφει:
 
-  * use R for simple arithmetic
-  * load some data from a shapefile and map it
-  * do a coordinate transformation
-  * plot some data points on a map
+  * Τη χρήση του R για απλούς μαθηματικούς υπολογισμούς
+  * Τη φόρτωση δεδομένων από ένα shapefile και τη σχεδίασή τους
+  * Ένα μετασχηχματισμό συστήματος αναφοράς
+  * Τη σχεδίαση ορισμένων σημείων πάνω σε ένα χάρτη
 
-Start R
+Εκκίνηση του R
 =======
 
-Either:
+Είτε:
 
-  * Choose ``R Statistics`` from the start menu - a terminal window appears running R.
-  * Enter ``R`` at a command-line shell prompt. R will start in that terminal.
+  *Επιλέγοντας``R Statistics`` από το start menu-  θα εμφανιστεί ένα τερματικό στο οποίο θα τρέχει το R.
+  *Αλλιώς δίνοντας την εντολή ``R`` σε ένα τερματικό. Το R θα ξεκινήσει στο συγκεκριμένο τερματικό (που δώσατε την εντολή).
 
-Don't fear the command line - it is a source of great power. Using the up and down arrows
-to recall commands so you can edit mistakes will help greatly. Hit CTRL-C if get
-stuck and you should get the prompt back.
+Μη φοβάστε τη γραμμή εντολών/τερματικό -  είναι πηγή μεγάλης δύναμης. Χρησιμοποιώντας τα βέλη πάνω και κάτω
+γίνεται η ανάκληση εντολών ώστε είναι δυνατή η αλλαγή λαθών, κάτι που βοηθά σημαντικά. Πατώντας το συνδυασμό CTRL-C στο πληκτρολόγιο εάν
+κολήσει, θα πρέπει να σας επιστρέψει στο τερματικό.
 
 Quit R
 ======
 
-Almost everything in R is a function, including the function for quitting. Type 
-``q()`` and hit return. If you just type ``q`` you'll see the source code for the ``q`` function.
+Σχεδόν τα πάντα στο Ρ είναι μια συνάρτηση, συμπεριλαμβανομένου και της συνάρτησης για έξοδο. Πληκτρολογήστε 
+``q()`` και μετά enter. Εάν απλώς πληκτρολογίσετε ``q`` θα δείτε τον πηγαίο κώδικα της συνάρτησης``q``.
 
-R will ask you if you want to save your workspace as an R data image file. When you
-start R again from a directory with a ``.RData`` file it will restore all its
-data from there.
+Το R θα ρωτήσει εάν θέλετε να σώσετε το περιβάλλον εργασίας σας σαν εικόνα δεδομένων τύπου R. Όταν 
+ξεκινήσετε το R ξανά μέσα από ένα φάκελο που περιλαμβάνει ένα αρχείο τύπου ``.RData`` θα επανακτήσει όλα τα δεδομένα του από εκεί.
 
 
-Beginning R
+Ξεκινώντας το R
 ===========
 
-R is essentially a command-line program, although graphical user
-interfaces are available. You type a line of code at the prompt,
-press return, and the R interpreter evaluates it and prints the 
-result.
+Το R κατ' ουσίαν είναι ένα πρόγραμμα γραμμής εντολών παρόλο που υπάρχουν διαθέσιμα γραφικά περιβάλλοντα. Πληκτρολογώντας μια γραμμή εντολών στο τερματικό,
+πατήστε enter, και ο διερμηνευτής του R υπολογίζει την εντολή και εκτυπώνει το αποτέλεσμα.
 
-You can start with simple arithmetic
+Μπορείτε να ξεκινήσετε με απλούς αριθμητικούς υπολογισμούς
 
 ::
 
@@ -70,13 +67,11 @@ You can start with simple arithmetic
    [1] 1.155727
 
 
-And so on. A full range of arithmetic, trigonometric, and statistical
-functions are built in, and thousands more are available from
-packages in the `CRAN <http://cran.r-project.org/>`_ archive.
+Μια μεγάλη συλλογή από αριθμητικές, τριγωνομετρικές και στατιστικές συναρτήσεις είναι διαθέσιμές σε πακέτα στη βιβλιοθήκη`CRAN <http://cran.r-project.org/>`_.
 
-The main prompt in R is ``>``, but there is also the continuation prompt, ``+``, which 
-appears if R expects more input to make a valid expression. You'll see this if you
-forget a closing bracket or parenthesis.
+Η κύρια προτροπή εντολών του R είναι το ``>``, αλλά υπάρχει και η προτροπή συνέχειας , ``+``, η οποία
+εμφανίζεται εάν το R περιμένει την εισαγωγή και άλλων δεδομένων για τον υπολογισμό μιας έκφραση. Θα δείτε το ακόλουθο, έαν
+ξεχάσετε να κλείσετε μια αγκύλη ή μια παρένθεση.
 
 ::
 
@@ -86,14 +81,12 @@ forget a closing bracket or parenthesis.
    [1] 1.414214
 
 
-Building Data
+Αναπτύσσοντας Δεδομένα
 =============
 
-You might be wondering what the mysterious 'one' in square brackets is 
-doing in the output. This is telling you that the result is one number. R
-can store things in one-dimensional vectors, two-dimensional matrices,
-and multi-dimensional arrays. There are many functions that can 
-generate these things. Here's a simple sequence:
+Πιθανώς αναρωτιέστε ποια η ύπαρξη του μυστηριώδους 'ένα' σε αγκύλες 
+όταν δίνεται κάποιο αποτέλεσμα. Αυτό σας ενημερώνει πως το αποτέλεσμα είναι ένας μοναδικός αριθμός. Το R
+αποθηκεύει πράγματα σε μονοδιάστατα διανύσματα καθώς και σε δυδιάστατους ή πολυδιάστατους πίνακες.. Υπάρχουν πολλές συναρτήσεις που παράγουν τέτοια αποτελέσματα. Εδώ είναι μια απλή σειρά (sequence):
 
 ::
 
@@ -101,10 +94,9 @@ generate these things. Here's a simple sequence:
     [1] 1.000000 1.444444 1.888889 2.333333 2.777778 3.222222 3.666667 4.111111
     [9] 4.555556 5.000000
 
-Now you can see that the ``[9]`` is telling us that 4.555 is the ninth
-value in the vector. 
+Τώρα βλέπετε πως το ``[9]`` υποδηλώνει  ότι το 4.555 είναι η ένατη τιμή του διανύσματος. 
 
-If you construct a matrix you get row and column labels:
+Εάν κατασκευάσετε ένα πίνακα, θα δείτε τίτλους για τις γραμμές και τις στήλες του:
 
 ::
 
@@ -115,9 +107,9 @@ If you construct a matrix you get row and column labels:
 	[2,]    2    5    8   11
 	[3,]    3    6    9   12
 
-Elements of matrices can be extracted using square brackets, with row and column 
-indices separated by commas. Leave an index blank to get a whole row as a vector. Use a vector
-index to get multiple rows or columns as a smaller matrix:
+Στοιχεία των πινάκων μπορούν να εξαχθούν χρησιμοποιώντας αγκύλες, με τις θέσεις της γραμμής και της
+στήλης να διαχωρίζονται με κόμμα. Αφήστε μια θέση κενή για να πάρετε μια ολόκληρη γραμμή ως διάνυσμα. Χρησιμοποιείστε ένα διάνυσμα θέσης
+για να πάρετε πολλαπλές γραμμές ή στήλες ως υποπίνακες:
 
 ::
 
@@ -133,13 +125,12 @@ index to get multiple rows or columns as a smaller matrix:
 	[2,]    8   11
 	[3,]    9   12
 
-Data frames are data structures that mirror the kind of structure
-found in an RDBMS such as Postgres or MySQL. Each row can be thought
-of as a record, with columns being like fields in a database. As in a
-database, each field must be of the same type for each record. 
+Τα πλαίσια δεδομένων (Data frames) είναι δομές δεδομένων που αντικατοπτρίζουν
+το είδος της δομής που βρίσκεται σε μια σχεσιακή βάση δεδομένων όπως η Postgres ή η MySQL. Κάθε γραμμή μπορεί να θεωρηθεί
+ως μία γραμμή, με τις στήλες να είναι σαν τα πεδία μιας βάσης. Όπως σε μία
+βάση δεδομένων, κάθε πεδίο πρέπει να είναι του ίδιου τύπου για κάθε εγγραφή. 
 
-In many ways they work like matrices, but you can also get and set the columns by name
-using $-notation:
+Σε πολλές περιπτώσεις λειτουργούν όπως οι πίνακες, αλλά μπορείτε να πάρετε ή να θέσετε γραμμές με βάση το όνομα, χρησιμοποιώντας το σύμβολο $:
 
 ::
 
@@ -181,15 +172,13 @@ using $-notation:
 
 
 
-Loading Map Data
+Φορτώνοντας Χαρτογραφικά Δεδομένα
 ================
 
-There are many packages for spatial data manipulation and statistics. Some
-are included here, and some can be downloaded from CRAN.
+Υπάρχουν πολλά πακέτα για διαχείριση χωρικών δεδομένων και στατιστική. Κάποια
+περιλαμβάνονται εδώ, και κάποια μπορούν να αποκτηθούν μέσα από το CRAN.
 
-Here we will load two shapefiles - the country boundaries and populated places
-from the Natural Earth data. We use two add-on packages to get the spatial 
-functionality:
+Εδώ θα φορτώσουμε δύο shapefiles -  τα όρια των κρατών και τα κατοικημένα μέρη από το Natural Earth data. Θα χρησιμοποιήσουμε δύο επιπρόσθετα πακέτα για να έχουμε χωρική λειτουργικότητα:
 
 ::
 
@@ -200,13 +189,13 @@ functionality:
 	> places = readShapeSpatial("/usr/local/share/data/natural_earth/10m_populated_places_simple.shp")
 	> plot(countries)
 
-This gives us a simple map of the world:
+Αυτό μας δίνει έναν απλό χάρτη του κόσμου:
 
 .. image:: ../../images/screenshots/1024x768/r_plot1.png
 
-When an OGR dataset is read into R in this way we get back an object that
-behaves in many ways like a data frame. We can use the ``COUNTRY``
-field to subset the world data and just get the UK:
+Όταν ένα OGR dataset διαβάζεται από το R με αυτό τον τρόπο παίρνουμε πίσω ένα αντικείμενο το οποίο
+συμπεριφέρεται πολλές φορές σαν ένα data frame. Μπορούμε να χρησιμοποιήσουμε το πεδίο ``COUNTRY``
+για να επιλέξουμε ένα υποσύνολο των δεδομένων, για παράδειγμα τη UK:
 
 ::
 
@@ -215,18 +204,15 @@ field to subset the world data and just get the UK:
 
 .. image:: ../../images/screenshots/1024x768/r_plot2.png
 
-This looks a bit squashed to anyone who lives here, since we are more familiar with
-a coordinate system centred at our latitude. Currently the object doesn't have a 
-coordinate system assigned to it - we can check this with some more functions:
+Μοιάζει λίγο συμπιεσμένο σε οποιονδήποτε ζει εκεί, καθώς είμαστε συνηθισμένοι με ένα σύστημα αναφοράς προσαρμοσμένο στο γεωγραφικό μας πλάτος. Για την ώρα, το αντικείμενο δεν έχει ένα σύστημα αναφοράς προσαρτημένο σε αυτό, μπορούμε να το ελέγξουμε με μερικές ακόμα συναρτήσεις:
 
 ::
 
 	> proj4string(uk)
 	[1] NA
 
-``NA`` is a missing data marker. We need to assign a CRS to the object before we can
-transform it with the spTransform function from the rgdal package. We transform
-to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:
+Το ``NA`` υποδεικνύει έλλειψη δεδομένων . Πρέπει να προσαρτήσουμε ένα σύστημα αναφοράς (CRS) πριν το μετασχηματίσουμε με τη συνάρτηση spTransform από το πακέτο rgdal. Μετασχηματίζουμε
+στο EPSG:27700 το οποίο είναι το σύστημα αναφοράς της τοπογραφικής υπηρεσίας πυροβολικού της Μεγάλης Βρετανίας:
 
 ::
 
@@ -239,9 +225,7 @@ to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:
 
 	> plot(ukos);axis(1);axis(2)
 
-This plots the base map of the transformed data. Now we want to add some points from the 
-populated place data set. Again we subset the points we want and transform them to
-Ordnance Survey Grid Reference coordinates:
+Αυτό σχεδιάζει το βασικό χάρτη από τα μετασχηματισμένα δεδομένα. Τώρα μπορούμε να προσθέσουμε μερικά σημειακά δεδομένα από το dataset των κατοικημένων περιοχών. Ξανα παίρνουμε ένα υποσύνολο των σημείων που θέλουμε και τα μετασχηματίζουμε στις συντεταγμένες του συστήματος της τοπογραφικής υπηρεσίας του πυροβολικού:
 
 ::
 
@@ -249,36 +233,28 @@ Ordnance Survey Grid Reference coordinates:
 	> proj4string(ukpop)=CRS("+init=epsg:4326")
 	> ukpop = spTransform(ukpop,CRS("+init=epsg:27700"))
 
-We add these points to the base map, scaling their size by scaled square root of the 
-population (because that makes a symbol with area proportional to population), set the
-colour to red and the plotting character to a solid blob:
-::
+Προσθέτουμε αυτά τα σημεία στο βασικό χάρτη, σμικρύνοντάς τα με το την κλιμακοποιημένη τετραγωνική ρίζα του πληθυσμού (Επειδή αυτό δημιουργεί ένα σύμβολο με εμβαδό αναλογικό με τον πληθυσμό), θέτωντας το χρώμα του συμβόλου να είναι κόκκινο και το χρώμα του σχεδιαζόμενου χαρακτήρα σε solid blob:
 
 	> points(ukpop,cex=sqrt(ukpop$POP_MAX/1000000),col="red",pch=19)
 	> title("UK Population centre sizes")
 
-and our final image appears:
+Και η τελική μας εικόνα είναι η ακόλουθη:
 
 .. image:: ../../images/screenshots/1024x768/r_plot3.png
 
-Vignettes
+Στιγμιότυπα
 =========
 
-In the past the documentation for R packages tended to be tersely-written help pages
-for each function. Now package authors are encouraged to write a 'vignette' as a friendly
-introduction to the package. If you just run the ``vignette()`` function with no arguments
-you will get the list of those vignettes on your system. Try ``vignette("sp")`` for a
-slightly technical introduction to the R spatial data structures, or ``vignette("spdep")`` for 
-a statistical analysis of spatial autocorrelation. The ``vignette("gstat")`` gives a tutorial
+Στο παρελθόν η τεκμηρίωση για τα πακέτα του R έτεινε να είναι λακωνικά γραμμένες σελίδες βοήθειας για κάθε συνάρτηση. Τώρα οι ιδιοκτήτες των πακέτων ενθαρύνονται να γράψουν ένα 'στιγμιότυπο' (vignette) ως μία φιλική εισαγωγή στο πακέτο. Αν απλώς τρέξετε τη συνάρτηση``vignette()`` χωρίς ορίσματα, θα λάβετε μια λίστα αυτών που υπάρχουν στο σύστημα. Δοκιμάστε``vignette("sp")`` για μία μικρή τεχνική εισαγωγή στις χωρικές δομές δεδομένων του R, ή ``vignette("spdep")`` για μια στατική ανάλυση για χωρική αυτοσυσχέτιση. Το ``vignette("gstat")`` δίνει έναν οδηγό για τη χρήση του πακέτου αυτού για χωρική παρεμβολή, συμπεριλαμβανομένου και του Kriging.
 in the use of that package for spatial interpolation including Kriging.
 
-Further Reading
+Διάβασμα...
 ===============
 
-For general information about R, try the official `Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <http://www.r-project.org/>`_ page.
+Για γενικές πληροφορίες για το R, δοκιμάστε το επίσημο`Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ ή οποιαδήποτε από τις τεκμηριώσεις από την κεντρική σελίδα`R Project <http://www.r-project.org/>`_ page.
 
-For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <http://cran.r-project.org/web/views/Spatial.html>`_
+Για περισσότερες πληροφορίες για τις χωρικές επεκτάσεις του R, το καλύτερο μέρος να ξεκινήσετε πιθανότατα είναι το`R Spatial Task View <http://cran.r-project.org/web/views/Spatial.html>`_
 
-You might also want to check out the `R-Spatial <http://r-spatial.sourceforge.net/>`_ 
-page on sourceforge for some more links including information about the R-sig-Geo mailing list.
+Επίσης μπορεί να θέλετε να δείτε τη σελίδα `R-Spatial <http://r-spatial.sourceforge.net/>`_ 
+στο sourceforge για μερικά ακόμα linksπου περιλαμβάνουν πληροφορίες για τη λίστα επαφών ηλεκτρονικού ταχυδρομείου the R-sig-Geo.
 
