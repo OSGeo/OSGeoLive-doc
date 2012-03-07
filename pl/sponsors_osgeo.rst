@@ -97,9 +97,11 @@ Dalsze informacje
 
 Aby wesprzeć OSGeo lub omówić zasady sponsorowania, skontaktuj się z:
 
-   Tyler Mitchell
-   Executive Director
+::
+
+   Arnulf Christl
+   President
    Open Source Geospatial Foundation
-   Email: tmitchell at osgeo.org
-   Phone: +1-250-277-1621
+   Email: arnulf at osgeo.org
+   Phone: +491722958004
 
