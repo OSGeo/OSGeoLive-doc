@@ -1,5 +1,5 @@
 :Author: Pieter De Graef
-:Version: osgeo-live4.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _geomajas-quickstart:
@@ -12,47 +12,47 @@
   :target: http://www.geomajas.org
 
 ********************************************************************************
-Geomajas Quickstart 
+Εγχειρίδιο Γρήγορης Εκκίνησης Geomajas 
 ********************************************************************************
 
-Getting Started
+Ξεκινώντας
 ================================================================================
 
-Geomajas is a development framework for creating GIS web applications. Therefore, what you see on this Live DVD is an example application built using the Geomajas technology.
+Το Geomajas είναι ένα προγραμματιστικό περιβάλλον για την δημιουργία διαδικτυακών εφαρμογών GIS. Επομένως αυτό που είναι εγκατεστημένο στο παρών λειτουργικό είναι μια εφαρμογή επίδειξης υλοποιημένη με την τεχνολογία Geomajas.
 
 .. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right
 
-* Go to the "Browser Clients" folder on the desktop.
+* Στην επιφάνεια εργασίας επιλέξτε τον φάκελο "Browser Clients".
 
-* Click on the desktop icon "Start Geomajas". This will launch the FireFox browser which will navigate to the correct location automatically.
+* Κάντε κλίκ στο εικονίδιο "Start Geomajas". Αυτό θα εκκινήσει τον περιηγητή FireFox ο οποίος θα σας πλοηγήσει στην κατάλληλη διεύθυνση αυτόματα.
 
-* On the left side you will see a list of short examples of what functionalities Geomajas supports out-of-the-box. Clicking on these will open the associated examples.
+* Στην λίστα αριστερά παρουσιάζεται μια λίστα από απλά παραδείγματα που υποστηρίζονται από το Geomajas απευθείας, χωρίς να γράψετε κώδικα. Κάνοντας κλίκ σε αυτά θα παρουσιαστούν οι αντίστοιχες εφαρμογές.
 
-* For each example, you will find a short description/explanation on the right side. It is recommended to read these as they will clarify each example.
+* Για κάθε παράδειγμα εφαρμογής, θα βρείτε μια περιγραφή στη δεξιά μεριά της οθόνης. Συνίσταται να διαβάσετε αυτές τις οδηγίες οι οποίες δίνουν λεπτομέρειες για τα παραδείγματα.
 
 
-Creating new Geomajas applications
+Δημιουργώντας νέες εφαρμογές Geomajas
 ================================================================================
 
-In order to create a new Geomajas application, you will need `Maven <http://maven.apache.org/>`_ installed::
+Για να δημιουργήσετε μια νέα εφαρμογή βασισμένη στο Geomajas, θα χρειαστείτε εγκατεστημένο το `Maven <http://maven.apache.org/>`_ ::
 
     $ sudo apt-get install maven2
 
-Maven is a tool for building and managing any Java based project. Geomajas has defined a Maven archetype, that sets up a default application in a single command::
+Το Maven είναι ένα εργαλείο για την διαχείρηση και μεταγλώτιση εφαρμογών γραμμένων σε γλώσσα προγραμματισμού Java. Το Geomajas έχει ορισμένο ένα πρότυπο Maven, το οποίο δημιουργείται εύκολα με μια εντολή::
 
     $ mvn archetype:generate -DarchetypeCatalog=http://files.geomajas.org/archetype-catalog.xml
 
-Congratulations, you have now successfully created a new Geomajas application. You now have the choice to run it immediately, or open it in a development environment to start working on it.
-To run the application immediately, go into the application folder (where the pom.xml is), and execute the following Maven command::
+Συγχαρητήρια, έχετε δημιουργήσει μια νέα εφαρμογή Geomajas. Έχετε τη δυνατότητα να την εκτελέσετε αμέσως ή να την ανοίξετε σε ένα περιβάλλον προγραμματισμού (IDE) και να δουλέψετε πάνω της.
+Για να την εκτελέσετε αμέσως, ανοίξτε το φάκελο της εφαρμογής (εκεί που βρίσκεται το αρχείο pom.xml), και εκτελέστε την παρακάτω εντολή  Maven::
 
     $ mvn jetty:run
 
-This will compile the application, and run it in a jetty container. You can than reach the application at the following url: http://localhost:8080/
+Αυτό θα μεταγλωτίσει την εφαρμογή και θα την εκτελέσει σε έναν εξυπηρετητή jetty. Μπορείτε να βρείτε την εφαρμογή στην διεύθυνση: http://localhost:8080/
 
-See the `Geomajas getting started <http://files.geomajas.org/maven/trunk/geomajas/docbook-gettingstarted/html/master.html#prereq>`_ documentation guide for more details on creating Geomajas applications, or setting up a development environment.
+Διαβάστε το `εγχειρίδιο Geomajas <http://files.geomajas.org/maven/trunk/geomajas/docbook-gettingstarted/html/master.html#prereq>`_ για περισσότερες λεπτομέρειες για την δημιουργία εφαρμογών Geomajas, ή για την δημιουργία ενός περιβάλλοντος προβληματισμού.
 
-For general information see the `Geomajas homepage <http://www.geomajas.org/>`_.
+Για γενικές πληροφορίες δείτε την κεντρική σελίδα `Geomajas <http://www.geomajas.org/>`_.
 
