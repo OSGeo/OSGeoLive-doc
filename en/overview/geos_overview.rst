@@ -6,7 +6,7 @@
 .. _geos-overview:
 
 .. image:: ../../images/project_logos/logo-GEOS.png
-  :scale: 100 %
+  :scale: 100
   :alt: project logo
   :align: right
   :target: http://geos.osgeo.org/
