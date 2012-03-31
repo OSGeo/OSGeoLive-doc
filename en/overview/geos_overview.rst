@@ -5,7 +5,7 @@
 
 .. _geos-overview:
 
-.. image:: ../../images/project_logos/geos.gif
+.. image:: ../../images/project_logos/logo-GEOS.png
   :scale: 100 %
   :alt: project logo
   :align: right
