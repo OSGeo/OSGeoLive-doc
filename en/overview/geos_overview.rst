@@ -29,11 +29,6 @@ GEOS is available under the terms of  GNU Lesser General Public License (LGPL), 
 
 GEOS is the most widely used geospatial C++ geometry library, and is used by open source projects including including PostGIS, QGIS, GDAL/OGR and MapServer, and by proprietary products including FME. 
 
-.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
-  :scale: 60 %
-  :alt: GDAL supports many geodata formats
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
     
