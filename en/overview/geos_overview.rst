@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
-:Reviewer: ?, ?
-:Version: osgeo-live5.5
+:Author: Frank Warmerdam
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geos-overview:
@@ -20,14 +21,17 @@
 GEOS
 ================================================================================
 
-Geometry Engine, Open Source
+Spatial Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) is a C++ port of the  Java Topology Suite (JTS). As such, it aims to contain the complete functionality of JTS in C++. This includes all the  OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions.
+GEOS (Geometry Engine - Open Source) is a C++ port of the `Java Topology Suite (JTS) <http://www.vividsolutions.com/jts/JTSHome.htm>`_. It includes the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions.
 
-GEOS is available under the terms of  GNU Lesser General Public License (LGPL), and is a project of  OSGeo. 
+GEOS is the most widely used geospatial C++ geometry library, being used by open source projects such as :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`, and by proprietary products including `FME <http://www.safe.com/fme/fme-technology/>`_.
 
-GEOS is the most widely used geospatial C++ geometry library, and is used by open source projects including including PostGIS, QGIS, GDAL/OGR and MapServer, and by proprietary products including FME. 
+Implemented Standards
+--------------------------------------------------------------------------------
+
+* OpenGIS Simple Features for SQL spatial predicate functions and spatial operators
 
 Core Features
 --------------------------------------------------------------------------------
@@ -40,7 +44,6 @@ Core Features
 * OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders.
 * C and C++ API (C API gives long term ABI stability)
 * Thread safe (using the reentrant API)
-
 
 Details
 --------------------------------------------------------------------------------
