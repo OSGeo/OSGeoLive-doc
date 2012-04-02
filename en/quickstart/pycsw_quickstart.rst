@@ -49,7 +49,7 @@ pycsw requires the following supporting libraries:
 Installing from Source
 ----------------------
 
-:ref:`Download <pycsw>` the latest version or fetch svn trunk:
+`Download pycsw`_ the latest version or fetch svn trunk:
 
 .. code-block:: bash
 
@@ -167,7 +167,7 @@ After a sucessful validation, the XML file can be saved to the local disk and vi
 Using GIMED
 -----------
 
-:ref:`GIMED <gimed>` is a Free Software for creating and editing INSPIRE compliant metadata XML files.
+`GIMED`_ is a Free Software for creating and editing INSPIRE compliant metadata XML files.
 To install the application, use the following commands from a terminal:
 
 .. code-block:: bash
@@ -288,6 +288,6 @@ For more information on pycsw, please consult the `documentation`_ on the pycsw 
 .. _`SQLAlchemy`: http://www.sqlalchemy.org/
 .. _`Shapely`: http://trac.gispython.org/lab/wiki/Shapely
 .. _`pyproj`: http://code.google.com/p/pyproj/
-.. _`pycsw`: http://pycsw.org/download.html
-.. _`gimed`: http://sourceforge.net/projects/gimed/
+.. _`Download pycsw`: http://pycsw.org/download.html
+.. _`GIMED`: http://sourceforge.net/projects/gimed/
 
