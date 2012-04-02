@@ -33,7 +33,7 @@ Hi ha instal·lat el suport per distribucions de teclat internacionals, però ha
 Per canviar les opcions, aneu a :menuselection:`Applications --> Settings --> Settings Manager` i feu doble clic a :guilabel:`Keyboard`
 al diàleg de configuració. Se us demanarà la contrasenya per canviar la configuració, escriviu "user" per a l'usuari "user".
 
-   #. Escolliu la pestanya :guilabel:`Layout`al diàleg de teclat
+   #. Escolliu la pestanya :guilabel:`Layout` al diàleg de teclat
    #. Deshabiliteu l'opció :guilabel:`Use system defaults`
    #. Cliqueu al botó :guilabel:`Add` per afegir una nova distribució de teclat
    #. Escolliu la vostra distribució de teclat i

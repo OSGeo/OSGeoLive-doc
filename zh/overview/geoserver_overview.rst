@@ -22,7 +22,7 @@ GeoServer
 Web服务
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoServer是一个Web服务器，支持将地图和各种格式的数据通过Web服务提供给标准客户端程序，如Web浏览器和桌面版GIS程序。这意味着空间数据可以任何`格式<http://docs.geoserver.org/stable/en/user/data/index.html>`_ 存储，而最终用户无需了解GIS数据细节。最简单的水准是，只需一个Web浏览器，最终用户即可查看开发者所定制的地图。
+GeoServer是一个Web服务器，支持将地图和各种格式的数据通过Web服务提供给标准客户端程序，如Web浏览器和桌面版GIS程序。这意味着空间数据可以任何 `格式<http://docs.geoserver.org/stable/en/user/data/index.html>`_ 存储，而最终用户无需了解GIS数据细节。最简单的水准是，只需一个Web浏览器，最终用户即可查看开发者所定制的地图。
 
 GeoServer是`Open Geospatial 
 Consortium <http://www.opengeospatial.org>`_ (OGC)标准规范的参考实施平台，
