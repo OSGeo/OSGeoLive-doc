@@ -48,7 +48,7 @@ User-friendly Desktop Internet GIS (uDig)
 * Εκτύπωση και δημιουργία PDF
 * Για προγραμματιστές
   
-  * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες :doc:`GeoTools <geotools_overview>`, JTS Topology Suite και GeoAPI
+  * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ και GeoAPI
   * Επαγγελματικές δυνατότητες που παρέχονται από την πλατφόρμα Eclipse Rich Client Platform με τη δυνατότητα πρόσθετων λειτουργιών (add-ons) 
   * Χρήση εγγενών παραθυρικών διεπαφών
 

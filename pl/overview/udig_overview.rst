@@ -49,7 +49,7 @@ Główne funkcje
 * Printing and PDF Generation
 * For Developers
   
-  * Java Application built using the :doc:`GeoTools <geotools_overview>` and JTS Topology Suite
+  * Java Application built using the :doc:`GeoTools <geotools_overview>` and `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
   * Use of native widgets
 

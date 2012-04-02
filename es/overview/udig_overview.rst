@@ -46,7 +46,7 @@ Características Principales
 * Impresión y Generación de PDF
 * Para Desarrolladores
   
-  * Construcción de Aplicaciones Java utilizando :doc:`GeoTools <geotools_overview>` y JTS Topology Suite 
+  * Construcción de Aplicaciones Java utilizando :doc:`GeoTools <geotools_overview>` y `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ 
   * Sistema de conector industrial plug-in provisto por Eclipse Rich Client Platform
   * Uso de ventanas nativa
 

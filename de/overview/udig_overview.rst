@@ -48,7 +48,7 @@ Kernfunktionen
 * Druck und PDF Erstellung
 * Für Entwickler 
 
-  * Java-Application mit Hilfe von :doc:`GeoTools <geotools_overview>`, JTS Topology Suite 
+  * Java-Application mit Hilfe von :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ 
   * Professionelles Plugin-System durch die Eclipse Rich Client Platform
   * Verwendung von nativen Widgets
 
