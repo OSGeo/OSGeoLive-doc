@@ -34,7 +34,7 @@ Kernfunktionalität
 
 * Definition von Schnittstellen für zentrale räumliche Konzepte und Datenstrukturen
   
-  * Integrierte Unterstützung von Geometrien, bereit gestellt über die Java Topology Suite (JTS)
+  * Integrierte Unterstützung von Geometrien, bereit gestellt über die `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
   * attributive und räumliche Filter basierend auf der OGC Filter Encoding Spezifikation 
   
 * Eine saubere Programmierschnittstelle (Application Programming Interface - API) für den Zugriff auf räumliche Objekte (Features) und Unterstützung für Transaktionen und Sicherstellung der Sperrungen zwischen Threads
