@@ -1,4 +1,4 @@
-:Author: Pieter De Graef
+﻿:Author: Pieter De Graef
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -22,55 +22,55 @@
 Geomajas
 ================================================================================
 
-�����GIS�ͻ���
+浏览器GIS客户机
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geomajas��һ������չ��Web��ͼ���ƽ̨���޷콫ǿ�����ķ��������㷨���ɵ���������ˡ�
+Geomajas是一个可扩展的Web制图框架平台，无缝将强有力的服务器端算法集成到了浏览器端。
 
-Geomajas�������ṩһ��ƽ̨��֧�ֵ����ռ����ݵ�**�������˼���** (������ :doc:`GeoTools <geotools_overview>`��Hibernateʵ�ִ�Ŀ��)��֧�ֶ���û��������Լ���������ڿ��ƺ͹������ݡ�ʵ���ϣ�Geomajas�ṩ��һ��ǿ��������������Щ��������׵ش������߼�GISӦ�ó���
+Geomajas核心是提供一个平台，支持地理空间数据的**服务器端集成** (依赖于 :doc:`GeoTools <geotools_overview>`或Hibernate实现此目的)，支持多个用户在他们自己的浏览器内控制和管理数据。实质上，Geomajas提供了一套强大的组件，采用这些组件可容易地搭建大多数高级GIS应用程序。
 
-Geomajas�Ķ���֮�����䳬ǿ�ķ������ˡ������ռ����ݵĴ���������ơ�����ѡ�񡢻����һֱ����һ����ȫ�����С���Щ�ص�ʹ��GeomajasӦ�ó������չ�Էǳ��á����зǳ��죬������һ��**�����ݿͻ���**��
+Geomajas的独特之处是其超强的服务器端。地理空间数据的处理、风格定制、过滤选择、缓存等一直处于一个安全环境中。这些特点使得Geomajas应用程序的扩展性非常好、运行非常快，保持这一个**真正瘦客户机**。
 
 .. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right
 
-��Ҫ����
+主要功能
 --------------------------------------------------------------------------------
 
-* �ͻ���-�������ļ��ɹ���
-* ����ͼ�κ����Ա༭
-* �û��Զ�������Զ���
-* �߼���ѯ����(CQL)
-* ���õİ�ȫ��
-* ����չ���������
-* ����ǰ�˼���
-* ֧�ֿ��������������������
+* 客户机-服务器的集成构架
+* 几何图形和属性编辑
+* 用户自定义的属性定义
+* 高级查询能力(CQL)
+* 超好的安全性
+* 可扩展的组件机制
+* 多种前端技术
+* 支持跨浏览器，无需浏览器插件
 
-�Ѿ�ʵ�ֵı�׼�淶
+已经实现的标准规范
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
-�������
+详情请见
 --------------------------------------------------------------------------------
 
-**��վ:** http://www.geomajas.org/
+**网站:** http://www.geomajas.org/
 
-**��Ȩ:** AGPL
+**版权:** AGPL
 
-**�����汾:** 1.8
+**软件版本:** 1.8
 
-**֧��ƽ̨:** Windows, Linux, Mac
+**支持平台:** Windows, Linux, Mac
 
-**API�ӿ�:** Java
+**API接口:** Java
 
-**֧��:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
+**支持:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-��������
+快速入门
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`

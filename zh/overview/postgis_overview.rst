@@ -1,4 +1,4 @@
-.. Writing Tip:
+ï»¿.. Writing Tip:
   Writing tips describe what content should be in the following section.
   The postgis_overview.rst document is used as a reference example
   for other overviews.
@@ -52,7 +52,7 @@ PostGIS
 .. Writing Tip:
   Application Category Description:
 
-¿Õ¼äÊı¾İ¿â
+ç©ºé—´æ•°æ®åº“
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Writing Tip:
@@ -68,11 +68,11 @@ PostGIS
   * Remaining paragraph or 2 in this overview section should provide a
     wider description and advantages from a user perspective.
 
-PostGISÊ¹µÃÉîÊÜ»¶Ó­µÄPostgreSQL¶ÔÏó¹ØÏµĞÍÊı¾İ¿âÄÜ¹»Ö§³Ö¿Õ¼äÊı¾İµÄ¹ÜÀíÓë´¦Àí£¬Ê¹Æä³ÉÎªGISºÍWEBÖÆÍ¼Ó¦ÓÃÏµÍ³µÄºóÌ¨Êı¾İ¿â£¬¾ÍÏñOracle SpatialÔÚOracleÊı¾İ¿âÖĞµÄ×÷ÓÃÒ»Ñù¡£
+PostGISä½¿å¾—æ·±å—æ¬¢è¿çš„PostgreSQLå¯¹è±¡å…³ç³»å‹æ•°æ®åº“èƒ½å¤Ÿæ”¯æŒç©ºé—´æ•°æ®çš„ç®¡ç†ä¸å¤„ç†ï¼Œä½¿å…¶æˆä¸ºGISå’ŒWEBåˆ¶å›¾åº”ç”¨ç³»ç»Ÿçš„åå°æ•°æ®åº“ï¼Œå°±åƒOracle Spatialåœ¨Oracleæ•°æ®åº“ä¸­çš„ä½œç”¨ä¸€æ ·ã€‚
 
-PostGISĞÔÄÜÎÈ¶¨¡¢¿ìËÙ¡¢¼æÈİ¸÷±ê×¼¹æ·¶£¬¾ßÓĞÊı°Ù¸ö¿Õ¼äº¯Êı£¬³ÉÎªµ±½ñ×îÎª¹ã·ºÊ¹ÓÃµÄ¿ªÔ´¿Õ¼äÊı¾İ¿â¡£PostGIS±»ÓÃÓÚ¸÷ÖÖ¸÷ÑùµÄÊÀ½ç×éÖ¯£¬°üÀ¨¹æ±Ü·çÏÕµÄÕş¸®²¿ÃÅºÍ×éÖ¯£¬Ã¿ÈÕÒª´æ´¢TB¼¶Êı¾İ¡¢·şÎñÊı°ÙÍò´ÎWEBÇëÇó¡£
+PostGISæ€§èƒ½ç¨³å®šã€å¿«é€Ÿã€å…¼å®¹å„æ ‡å‡†è§„èŒƒï¼Œå…·æœ‰æ•°ç™¾ä¸ªç©ºé—´å‡½æ•°ï¼Œæˆä¸ºå½“ä»Šæœ€ä¸ºå¹¿æ³›ä½¿ç”¨çš„å¼€æºç©ºé—´æ•°æ®åº“ã€‚PostGISè¢«ç”¨äºå„ç§å„æ ·çš„ä¸–ç•Œç»„ç»‡ï¼ŒåŒ…æ‹¬è§„é¿é£é™©çš„æ”¿åºœéƒ¨é—¨å’Œç»„ç»‡ï¼Œæ¯æ—¥è¦å­˜å‚¨TBçº§æ•°æ®ã€æœåŠ¡æ•°ç™¾ä¸‡æ¬¡WEBè¯·æ±‚ã€‚
 
-Êı¾İ¿â¹ÜÀí¿ÉÍ¨¹ıpgAdmin¡¢phpPgAdmin¼°ÆäËû¹¤¾ß£¬ÊµÏÖ×ÀÃæºÍWEB¹ÜÀí·½Ê½¡£Êı¾İµ¼Èë»òµ¼³ö¿ÉÍ¨¹ıÃüÁîĞĞ¹¤¾ß£¨shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis£©ÊµÏÖ£¬Ò²¿ÉÍ¨¹ı×ÀÃæGIS»òWEB GIS¿Í»§¶ËÊµÏÖ¡£ÕâĞ©¿Í»§¶ËÒ²ÄÜÒÔµØÍ¼·½Ê½ÏÔÊ¾ºÍ¹ÜÀíPostGIS¿Õ¼äÊı¾İ¿â±í¡£
+æ•°æ®åº“ç®¡ç†å¯é€šè¿‡pgAdminã€phpPgAdminåŠå…¶ä»–å·¥å…·ï¼Œå®ç°æ¡Œé¢å’ŒWEBç®¡ç†æ–¹å¼ã€‚æ•°æ®å¯¼å…¥æˆ–å¯¼å‡ºå¯é€šè¿‡å‘½ä»¤è¡Œå·¥å…·ï¼ˆshp2pgsql, pgsql2shp, ogr2ogr, dxf2postgisï¼‰å®ç°ï¼Œä¹Ÿå¯é€šè¿‡æ¡Œé¢GISæˆ–WEB GISå®¢æˆ·ç«¯å®ç°ã€‚è¿™äº›å®¢æˆ·ç«¯ä¹Ÿèƒ½ä»¥åœ°å›¾æ–¹å¼æ˜¾ç¤ºå’Œç®¡ç†PostGISç©ºé—´æ•°æ®åº“è¡¨ã€‚
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
@@ -87,50 +87,50 @@ PostGISĞÔÄÜÎÈ¶¨¡¢¿ìËÙ¡¢¼æÈİ¸÷±ê×¼¹æ·¶£¬¾ßÓĞÊı°Ù¸ö¿Õ¼äº¯Êı£¬³ÉÎªµ±½ñ×îÎª¹ã·ºÊ¹ÓÃµ
   :alt: pgAdmin database manager
   :align: right
 
-Ö÷Òª¹¦ÄÜ
+ä¸»è¦åŠŸèƒ½
 --------------------------------------------------------------------------------
 
-* Êı°Ù¸ö¿Õ¼äº¯Êı
+* æ•°ç™¾ä¸ªç©ºé—´å‡½æ•°
   
-  * Buffers, unions, overlays, distanceµÈ
+  * Buffers, unions, overlays, distanceç­‰
 
-* ACIDÊÂÎñÍêÕûĞÔ
-* R-Tree¿Õ¼äË÷Òı
-* ¶àÓÃ»§Ö§³Ö
-* Row-level¼ÓËø¹¦ÄÜ
-* ¸´ÖÆ
-* ·ÖÇø¹¦ÄÜ
-* ½ÇÉ«°²È«¹ÜÀí
-* ±í¿Õ¼ä£¬Êı¾İ¿â¶ÔÏó¼¯ºÏ
+* ACIDäº‹åŠ¡å®Œæ•´æ€§
+* R-Treeç©ºé—´ç´¢å¼•
+* å¤šç”¨æˆ·æ”¯æŒ
+* Row-levelåŠ é”åŠŸèƒ½
+* å¤åˆ¶
+* åˆ†åŒºåŠŸèƒ½
+* è§’è‰²å®‰å…¨ç®¡ç†
+* è¡¨ç©ºé—´ï¼Œæ•°æ®åº“å¯¹è±¡é›†åˆ
 
-ÒÑÊµÏÖµÄ±ê×¼¹æ·¶
+å·²å®ç°çš„æ ‡å‡†è§„èŒƒ
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
-* ¼æÈİOGC±ê×¼¹æ·¶(SFSQL)
+* å…¼å®¹OGCæ ‡å‡†è§„èŒƒ(SFSQL)
 
-ÏêÇéÇë¼û
+è¯¦æƒ…è¯·è§
 --------------------------------------------------------------------------------
 
-**ÍøÕ¾:** http://postgis.refractions.net/
+**ç½‘ç«™:** http://postgis.refractions.net/
 
-**°æ±¾:** GNU General Public License (GPL) version 2
+**ç‰ˆæœ¬:** GNU General Public License (GPL) version 2
 
-**Èí¼ş°æ±¾:** 1.5
+**è½¯ä»¶ç‰ˆæœ¬:** 1.5
 
-**ÔËĞĞÆ½Ì¨:** Windows, Linux, Mac
+**è¿è¡Œå¹³å°:** Windows, Linux, Mac
 
-**API½Ó¿Ú:** SQL
+**APIæ¥å£:** SQL
 
 .. Writing Tip:
   Link to webpage which lists the primary support details for the application,
   preferably this would list both community and commercial contacts.
 
-**Ö§³Ö:** http://www.osgeo.org/search_profile
+**æ”¯æŒ:** http://www.osgeo.org/search_profile
 
 
-¿ìËÙÈëÃÅ
+å¿«é€Ÿå…¥é—¨
 --------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/postgis_quickstart>`

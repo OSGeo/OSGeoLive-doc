@@ -1,6 +1,6 @@
 :Author: Richard R. Schneider Dept. Biological Sciences University of Alberta Edmonton, Alberta, Canada 
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Copyright: © 2011 Richard R. Schneider 
+:Copyright: 2011 Richard R. Schneider 
 :Product: MapWindow GIS 4.8.6
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)

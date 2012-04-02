@@ -1,4 +1,4 @@
-:Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
+﻿:Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Reviewer: Cameron Shorter, LISAsoft
 :Product: MapWindow GIS 4.8.6
 :Version: osgeo-live5.5

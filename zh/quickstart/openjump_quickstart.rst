@@ -83,7 +83,7 @@ the Layer View. This includes changing the stroke color, the fill color, line
 style and line thickness, transparency, adding labels, and determining at which 
 maximum and minimum scales the layer is displayed at.
 
-* MacOSX users press the “Apple” key to access this menu.
+* MacOSX users press the :guilabel:`Apple` key to access this menu.
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_03.png
    :scale: 55 
