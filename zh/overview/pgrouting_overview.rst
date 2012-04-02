@@ -17,10 +17,10 @@ pgRouting
 GIS工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting扩展了地理空间数据库:doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_，提供了地理空间路径规划功能。
+pgRouting扩展了地理空间数据库 :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_，提供了地理空间路径规划功能。
 数据库路径规划的优点如下:
 
-* 许多客户端应用程序例如doc:`Quantum GIS <qgis_overview>和:doc:`uDig <udig_overview>可以通过JDBC、ODBC或者直接用Pl/pgSQL修改数据和属性。客户端可以是PC或者移动设备。
+* 许多客户端应用程序例如 :doc:`Quantum GIS <qgis_overview>` 和 :doc:`uDig <udig_overview>` 可以通过JDBC、ODBC或者直接用Pl/pgSQL修改数据和属性。客户端可以是PC或者移动设备。
 * 路径搜索引擎可以瞬间反映数据变化，不需要预先计算。
 * "cost"参数通过SQL动态计算，其数值可来自多个字段或表格
 
