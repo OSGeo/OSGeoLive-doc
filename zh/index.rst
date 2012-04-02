@@ -2,7 +2,7 @@
 欢迎访问|osgeo-live-version|
 ================================================================================
 
-`OSGeo-Live <http://live.osgeo.org>`_ 是一套基于`Xubuntu <http://www.xubuntu.org/>`_的可独立应用的自启动DVD、USB盘或者虚拟机，
+`OSGeo-Live <http://live.osgeo.org>`_ 是一套基于 `Xubuntu <http://www.xubuntu.org/>`_ 的可独立应用的自启动DVD、USB盘或者虚拟机，
 支持用户不用预安装任何软件系统，就可使用开源代码空间信息软件。OSGeo-Live整体都是由自由软件构成，可以自由地部署、复制和分发。
 
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
@@ -20,8 +20,8 @@ OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用�
 #. 按"Enter"开始，并登录
 #. 在"Geospatial"菜单中选用应用系统
 
-许多应用系统也提供`Apple OSX <../MacInstallers/>`_和
-`Microsoft Windows <../WindowsInstallers/>`_安装程序.
+许多应用系统也提供 `Apple OSX <../MacInstallers/>`_ 和
+ `Microsoft Windows <../WindowsInstallers/>`_ 安装程序.
 
 
 快速入门
