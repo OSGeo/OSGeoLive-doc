@@ -31,7 +31,7 @@ SpatiaLite は地理空間関数を追加した SQLite データベースエン�
    .tables
    .quit   
 
-* サンプル空間クエリをいくつか紹介します
+* サンプル空間クエリをいくつか紹介します::
 
    SELECT lc.NOME, lc.NOME_PROV, lc.COM, mh.Perimeter 
         FROM LocalCouncils AS lc, MunicipalHalls AS mh 
