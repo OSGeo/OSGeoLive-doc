@@ -28,12 +28,12 @@ Web制图框架平台
 
 MapFish是一个灵活的、用于构建丰富的Web制图应用程序的完整框架平台，强调开发的高生产率和应用系统的高质量。
 
-MapFish基于`Pylons <http://pylonshq.com>`_ Python web framework，对Pylons进行了地理空间功能方面的扩展。例如：提供特定工具用于创建查询与编辑地理对象的Web服务。
+MapFish基于 `Pylons <http://pylonshq.com>`_ Python web framework，对Pylons进行了地理空间功能方面的扩展。例如：提供特定工具用于创建查询与编辑地理对象的Web服务。
 
-MapFish还提供完整的面向RIA的JavaScript工具箱、JavaScript测试环境、以及JavaScript代码压缩工具。JavaScript工具箱由`ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` , `GeoExt <http://www.geoext.org>`_ JavaScript
+MapFish还提供完整的面向RIA的JavaScript工具箱、JavaScript测试环境、以及JavaScript代码压缩工具。JavaScript工具箱由 `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` , `GeoExt <http://www.geoext.org>`_ JavaScript
 toolkits组成。
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.png
+.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -41,8 +41,7 @@ toolkits组成。
 已实现的标准规范
 --------------------------------------------------------------------------------
 
-MapFish兼容`Open Geospatial Consortium
-<http://www.opengeospatial.org/>`_ 标准规范，其通过采用OpenLayers或GeoExt来支持几个OGC规范，如：WMS, WFS, WMC, KML, GML等。
+MapFish兼容 `Open Geospatial Consortium <http://www.opengeospatial.org/>`_ 标准规范，其通过采用OpenLayers或GeoExt来支持几个OGC规范，如：WMS, WFS, WMC, KML, GML等。
 
 详情请见
 --------------------------------------------------------------------------------
