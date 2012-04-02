@@ -32,7 +32,7 @@ deegree es una solución de Sistemas de Información Geográfica e Infraestructu
 deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando desde el principo, utilizando tus datos y cumpliendo tus requerimientos.
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
   :scale: 50%
   :alt: project logo
   :align: right

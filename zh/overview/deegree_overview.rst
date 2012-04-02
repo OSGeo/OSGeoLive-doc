@@ -34,7 +34,7 @@ deegree还提供一组兼容标准的Web制图、地理要素和目录服务，�
 deegree提供用户SDI，支持用户自己的数据，满足各种需求.
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.gif
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
   :scale: 50%
   :alt: project logo
   :align: right
