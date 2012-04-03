@@ -115,8 +115,8 @@ each angle point (vertex) in the feature geometry.
    :scale: 55 
 
 Next, click on the button 
-that shows a blue crosshair with a yellow square in the middle, the :guilabel:`Move Vertex 
-Tool` (Hoovering over the buttons gives you a button description). You should 
+that shows a blue crosshair with a yellow square in the middle, the :guilabel:`Move Vertex Tool` 
+(Hoovering over the buttons gives you a button description). You should 
 now see your mouse cursor change to a small black crosshair when you move it 
 over the Layer View. 
 
