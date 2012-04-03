@@ -42,9 +42,7 @@ Kernfunktionen
 
 * Landkreis- und Bundesland-Ebene mit Raster-, Vektor- und KML-Layern inkl. Metadaten, eigens ausgewählt für den breiten Anwendungsbereich in GIS-Grundlagen-Kursen. Außerdem gut geeignet als Vorlage für Hilfeseiten und Tutorials.
 
-* Die Creative Commons Lizenz gewährt die freie Benutzung und Verbreitung der Daten und erlaubt die Veränderung durch jederman. Ohne die weit verbreiteten
-Einschränkungen anderer öffentlich gemachter Daten ist dieser Datensatz ideal für die Nutzung in Schule und Ausbildung geeignet.
-
+* Die Creative Commons Lizenz gewährt die freie Benutzung und Verbreitung der Daten und erlaubt die Veränderung durch jederman. Ohne die weit verbreiteten Einschränkungen anderer öffentlich gemachter Daten ist dieser Datensatz ideal für die Nutzung in Schule und Ausbildung geeignet.
 
 Datensätze
 --------------------------------------------------------------------------------
