@@ -35,7 +35,6 @@ GeoNetwork OpenSource jest aplikacją katalogową słuążcą do zarządzania da
   :align: right
 
 Główne funkcje
-
 --------------------------------------------------------------------------------
 *  Immediate search access to local and distributed geospatial catalogues
 * Up- and downloading of data, graphics, documents, pdf files and any other content type

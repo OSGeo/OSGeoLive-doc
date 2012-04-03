@@ -39,6 +39,7 @@ Desktop GIS
 * :doc:`geopublisher_overview`- [:doc:`Wprowadzenie <../quickstart/geopublisher_quickstart>`] - atlasy multimedialne
 * :doc:`atlasstyler_overview` - [:doc:`Wprowadzenie <../quickstart/atlasstyler_quickstart>`] - edytor stylów (SLD)
 * :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
+
 .. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
 
 Nawigacja i Mapy

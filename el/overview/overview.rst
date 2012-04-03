@@ -39,7 +39,7 @@
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος
 * :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ
 * :doc:`osgearth_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart>`] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
-.. * :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
+* :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
 
 Πλοήγηση και Χάρτες
 --------------------------------------------------------------------------------
@@ -75,6 +75,7 @@
 * :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+
 .. temp disabled to save disc space: * :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
 
 Δεδομένα

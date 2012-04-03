@@ -25,9 +25,8 @@ Es enthält leistungsfähige analytische Funktionen basierend auf GEOS und GDAL/
 MapWindow kann auf einfache Weise mit auf MS-Office basierenden Produkten wie MS Excel und MS-Access benutzt werden, sowie mit Programmen die in VB6, C++,
 C#, VB.NET und Delphi geschrieben sind da es auf ActiveX Controls basiert.
 
-.. note:: MapWindow muss auf einem Microsoft Windows System installiert werden. Die Installationsdateien sind bei der Full-ISO-Version der 
-`OSGeo-Live <http://live.osgeo.org>`_  enthalten oder können heruntergeladen werden von http://mapwindow4.codeplex.com/releases.
-   
+.. note:: MapWindow muss auf einem Microsoft Windows System installiert werden. Die Installationsdateien sind bei der Full-ISO-Version der `OSGeo-Live <http://live.osgeo.org>`_  enthalten oder können heruntergeladen werden von http://mapwindow4.codeplex.com/releases.
+
 .. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Bildschirmfoto
   :scale: 50 %
@@ -68,13 +67,11 @@ Kernfunktionen
 
 * Erweiterbare Pluginarchitektur:
 
-    * Plugin-Architektur erlaubt einfache Erweiterung von zusätzlichen Funktionen in MapWindow. Plugins können in jeder .NET Sprache (C#, VB.NET) mit
-Hilfe von Visual Studio Pro, dem freien SharpDevelop oder Visual Studio Express geschrieben werden.
+    * Plugin-Architektur erlaubt einfache Erweiterung von zusätzlichen Funktionen in MapWindow. Plugins können in jeder .NET Sprache (C#, VB.NET) mit Hilfe von Visual Studio Pro, dem freien SharpDevelop oder Visual Studio Express geschrieben werden. 
  
 * ActiveX Control:
 
-    * Es wird ein ActiveX Control, geschrieben in C++, benutzt. Dieses Control kann in Anwendungen benutzt werden die in Sprachen wie VB6, C++, C#, VB.NET
-oder Delphi geschrieben wurden oder in MS-Office Produkten wie MS-Access und MS-Excel
+    * Es wird ein ActiveX Control, geschrieben in C++, benutzt. Dieses Control kann in Anwendungen benutzt werden die in Sprachen wie VB6, C++, C#, VB.NET oder Delphi geschrieben wurden oder in MS-Office Produkten wie MS-Access und MS-Excel. 
 
 Implementierte Standards
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
