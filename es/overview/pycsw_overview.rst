@@ -63,7 +63,7 @@ Detalles
 
 **Sitio Web:** http://pycsw.org
 
-**Licencia:** MIT
+**Licencia:** `MIT`_
 
 **Versión de Software:** 1.0.0
 
@@ -72,3 +72,7 @@ Detalles
 **Interfaces API:** Python
 
 **Soporte:** http://pycsw.org/support.html
+
+
+.. _`MIT`: http://pycsw.org/docs/license.html#license
+
