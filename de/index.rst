@@ -31,11 +31,20 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
 Quickstart
 --------------------------------------------------------------------------------
 
--   :doc:`Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
--   :doc:`Spracheinstellungen und Tastaturbelegung ändern <quickstart/internationalisation_quickstart>`
--   :doc:`OSGeo-Live auf Festplatte installieren <quickstart/osgeolive_install_quickstart>`
--   :doc:`OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualbox_quickstart>`
--   :doc:`Bootfähigen OSGeo-Live USB Stick erstellen <quickstart/usb_quickstart>`
+.. toctree::
+   :maxdepth: 1
+
+   Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>
+   Spracheinstellungen und Tastaturbelegung ändern <quickstart/internationalisation_quickstart>
+   OSGeo-Live auf Festplatte installieren <quickstart/osgeolive_install_quickstart>
+   OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualbox_quickstart>
+   Bootfähigen OSGeo-Live USB Stick erstellen <quickstart/usb_quickstart>
+
+.. -   :doc:`Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
+.. -   :doc:`Spracheinstellungen und Tastaturbelegung ändern <quickstart/internationalisation_quickstart>`
+.. -   :doc:`OSGeo-Live auf Festplatte installieren <quickstart/osgeolive_install_quickstart>`
+.. -   :doc:`OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualbox_quickstart>`
+.. -   :doc:`Bootfähigen OSGeo-Live USB Stick erstellen <quickstart/usb_quickstart>`
 
 Präsentation
 --------------------------------------------------------------------------------
