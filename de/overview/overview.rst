@@ -87,7 +87,8 @@ Daten
 
 GIS Bibliotheken
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Java GIS Toolkit 
+* :doc:`geotools_overview` - Java GIS Toolkit
+* :doc:`geos_overview` - C/C++ Bibliothek für räumlichen Funktionen und Operatoren
 * :doc:`metacrs_overview` - Transformation von Daten zwischen Koordinatensystemen
 * :doc:`liblas_overview`  - libLAS LiDAR Datenzugriffe
 
