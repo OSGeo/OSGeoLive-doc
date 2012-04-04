@@ -100,10 +100,4 @@ Weitere Informationen
 Wie Sie die OSGeo direkt als Sponsor unterstützen können erläutert Ihnen gerne Ihr lokaler OSGeo Kontakt. 
 Für weitere Informationen wenden Sie sich bitte an:
 
-::
-
-   Arnulf Christl
-   President
-   Open Source Geospatial Foundation
-   Email: arnulf at osgeo.org
-   Phone: +491722958004
+.. include :: ../osgeo_contact.rst

@@ -35,18 +35,9 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	rm -f contributors.rst translators.rst licenses.csv
+	rm -f licenses.csv
 	# remove symbolic linked files
 	rm -f `find ./*/ -type l -print`
-
-%.rst: %.csv
-	# create contributors.rst and translators.rst from csv files
-	echo ".. csv-table::" > $@
-	echo "" >> $@
-	sed -e 's/^ *#.*//' \
-	  -e "s/^/  /" \
-	  $< \
-	  >> $@
 
 link_to_en_docs:
 	# For quickstart, standards and overview docs which have not been
@@ -73,7 +64,7 @@ link_to_en_docs:
 	  done ; \
 	done
 
-sphinxbuild: contributors.rst translators.rst link_to_en_docs licenses.csv
+sphinxbuild: link_to_en_docs licenses.csv
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."

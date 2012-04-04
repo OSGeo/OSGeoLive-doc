@@ -97,10 +97,4 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
 Για να γίνετε χορηγός του OSGeo ή για να συζητήσετε δυνατότητες χορηγίας,
 παρακαλώ επικοινωνήστε με:
 
-   Arnulf Christl
-   President
-   Open Source Geospatial Foundation
-   Email: arnulf at osgeo.org
-   Phone:  +491722958004
-
-
+.. include :: ../osgeo_contact.rst

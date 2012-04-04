@@ -109,9 +109,4 @@ For more information
 To sponsor OSGeo or discuss sponsorship opportunities further,
 please contact:
 
-   Tyler Mitchell
-   Executive Director
-   Open Source Geospatial Foundation
-   Email: tmitchell at osgeo.org
-   Phone: +1-250-277-1621
-
+.. include :: ../osgeo_contact.rst
