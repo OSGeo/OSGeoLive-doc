@@ -27,11 +27,14 @@ OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用�
 快速入门
 --------------------------------------------------------------------------------
 
--   :doc:`OSGeo-Live DVD入门 <quickstart/osgeolive_quickstart>`
--   :doc:`如何改变语言或键盘类型 <quickstart/internationalisation_quickstart>`
--   :doc:`如何在硬盘上安装OSGeo-Live <quickstart/osgeolive_install_quickstart>`
--   :doc:`如何在虚拟机上安装OSGeo-Live <quickstart/virtualbox_quickstart>`
--   :doc:`如何创建一个OSGeo-Live自启动USB盘 <quickstart/usb_quickstart>`
+.. toctree::
+   :maxdepth: 1
+
+   OSGeo-Live DVD入门 <quickstart/osgeolive_quickstart>
+   如何改变语言或键盘类型 <quickstart/internationalisation_quickstart>
+   如何在硬盘上安装OSGeo-Live <quickstart/osgeolive_install_quickstart>
+   如何在虚拟机上安装OSGeo-Live <quickstart/virtualbox_quickstart>
+   如何创建一个OSGeo-Live自启动USB盘 <quickstart/usb_quickstart>
 
 介绍
 --------------------------------------------------------------------------------

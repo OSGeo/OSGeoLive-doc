@@ -31,11 +31,14 @@ Per a moltes de les aplicacions també es proporcionen instal·ladors per a
 Inici ràpid
 --------------------------------------------------------------------------------
 
--   :doc:`Començant amb OSGeo-Live <quickstart/osgeolive_quickstart>`
--   :doc:`Canviar la distribució del teclat a la vostra llengua <quickstart/internationalisation_quickstart>`
--   :doc:`Instal·lar OSGeo-Live al vostre disc dur <quickstart/osgeolive_install_quickstart>`
--   :doc:`Executar OSGeo-Live a una Màquina Virtual <quickstart/virtualbox_quickstart>`
--   :doc:`Crear un llapis de memòria USB arrencable amb OSGeo-Live <quickstart/usb_quickstart>`
+.. toctree::
+   :maxdepth: 1
+
+   Començant amb OSGeo-Live <quickstart/osgeolive_quickstart>
+   Canviar la distribució del teclat a la vostra llengua <quickstart/internationalisation_quickstart>
+   Instal·lar OSGeo-Live al vostre disc dur <quickstart/osgeolive_install_quickstart>
+   Executar OSGeo-Live a una Màquina Virtual <quickstart/virtualbox_quickstart>
+   Crear un llapis de memòria USB arrencable amb OSGeo-Live <quickstart/usb_quickstart>
 
 Presentació
 --------------------------------------------------------------------------------

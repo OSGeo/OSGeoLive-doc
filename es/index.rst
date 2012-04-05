@@ -32,11 +32,14 @@ Muchas aplicaciones también son proporcionadas con instaladores para
 Guías de inicio rápido
 ------------------------------------	
 
--   :doc:`Empezando a conocer el OSGeo-Live DVD <quickstart/osgeolive_quickstart>`
--   :doc:`Cambiar el idioma o tipo de teclado <quickstart/internationalisation_quickstart>`
--   :doc:`Instalar OSGeo-Live en su disco duro <quickstart/osgeolive_install_quickstart>`
--   :doc:`Ejecutar OSGeo-Live en una Máquina Virtual <quickstart/virtualbox_quickstart>`
--   :doc:`Crear una unidad USB arrancable con OSGeo-Live <quickstart/usb_quickstart>`
+.. toctree::
+   :maxdepth: 1
+
+   Empezando a conocer el OSGeo-Live DVD <quickstart/osgeolive_quickstart>
+   Cambiar el idioma o tipo de teclado <quickstart/internationalisation_quickstart>
+   Instalar OSGeo-Live en su disco duro <quickstart/osgeolive_install_quickstart>
+   Ejecutar OSGeo-Live en una Máquina Virtual <quickstart/virtualbox_quickstart>
+   Crear una unidad USB arrancable con OSGeo-Live <quickstart/usb_quickstart>
 
 Presentación
 --------------------------------------------------------------------------------
