@@ -30,24 +30,20 @@
 
 Τα ακρόνυμα στο σχήμα ορίζονται παρακάτω. Ορισμένα από αυτά τα πρότυπα OGC και ακόμα περισσότερα είναι δημοσιευμένα ως “Κείμενα υπο Διαβούλευση”, “Απαιτήσεις” και “Κείμενα Αναφοράς”. (Σημειώστε ότι κάποια από τα κείμενα αυτά είναι υποψήφια πρότυπα και δεν είναι ακόμα διαθέσιμα προς όλους παρά μόνο στα μέλη του OGC.) 
 
-* :doc:`wms_overview`
-* :doc:`wfs_overview`
-* :doc:`wcs_overview`
-* :doc:`wps_overview`
-* :doc:`csw_overview`
-* :doc:`sos_overview`
-* Sensor Model Language (SensorML)
+.. add all standard overview documents to the toc and add all others right behind
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   *_overview
+
 * Sensor Planning Service (SPS)
 * Web Terrain Service (WTS)
 * Grid Coverage Service
 * Coordinate Transformation Service
 * Web Coverage Processing Service (WCPS)
 * Web Map Tile Service (WMTS)
-* :doc:`gml_overview`
-* :doc:`kml_overview`
-* :doc:`sensorml_overview`
-* :doc:`sld_overview`
-* :doc:`fe_overview`
 * Simple Features (SF)
 * Sensor Web Enablement (SWE)
 * XML for Image and Map Annotation (XIMA)

@@ -31,12 +31,14 @@ Muchos de los estándares OGC desarrollados en los últimos años son estándare
 
 Los acrónimos en la figura se definen más abajo. Algunos de éstos son "Estándares OGC" y otros están públicamente disponibles como *Discussion Papers*, *Requests* y *Recommendation Papers*. (Cabe destacar que alguno estándares preliminares no son todavía públicos, pero están disponibles para los miembros de OGC).
 
-* :doc:`wms_overview`
-* :doc:`wfs_overview`
-* :doc:`wcs_overview`
-* :doc:`wps_overview`
-* :doc:`csw_overview`
-* :doc:`sos_overview`
+.. add all standard overview documents to the toc and add all others right behind
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   *_overview
+
 * Sensor Model Language (SensorML)
 * Sensor Planning Service (SPS)
 * Web Terrain Service (WTS)
@@ -44,11 +46,6 @@ Los acrónimos en la figura se definen más abajo. Algunos de éstos son "Están
 * Coordinate Transformation Service
 * Web Coverage Processing Service (WCPS)
 * Web Map Tile Service (WMTS)
-* :doc:`gml_overview`
-* :doc:`kml_overview`
-* :doc:`sensorml_overview`
-* :doc:`sld_overview`
-* :doc:`fe_overview`
 * Simple Features (SF)
 * Sensor Web Enablement (SWE)
 * XML for Image and Map Annotation (XIMA)
