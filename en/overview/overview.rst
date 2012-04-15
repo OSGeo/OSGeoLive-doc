@@ -80,16 +80,24 @@ Web Services
 
 Data
 --------------------------------------------------------------------------------
-* :doc:`naturalearth_overview` - Geographic Data Sets
-* :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap
+
+.. toctree:
+   :maxdepth: 1
+
+   Natural Earth - Geographic Data Sets <naturalearth_overview>
+   nc_dataset_overview
+   OpenStreetMap - Sample extract from OpenStreetMap <osm_dataset_overview>
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`geos_overview` - C/C++ Spatial Library
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations
-* :doc:`liblas_overview`  - LiDAR Data Access
+
+.. toctree:
+   :maxdepth: 1
+
+   GeoTools - Java GIS Toolkit <geotools_overview>
+   GEOS - C/C++ Spatial Library <geos_overview> 
+   MetaCRS - Coordinate Reference System Transformations <metacrs_overview>
+   libLAS - LiDAR Data Access <liblas_overview>
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
