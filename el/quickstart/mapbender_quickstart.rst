@@ -52,7 +52,7 @@
   .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
-Μετά από την επιτυχημένη σύνδεση κατευθύνστε στο :guilabel:`application overview ` (επισκόπηση εφαρμογών).
+Μετά από την επιτυχημένη σύνδεση κατευθύνστε στο :guilabel:`application overview` (επισκόπηση εφαρμογών).
 
 
 

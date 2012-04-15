@@ -28,7 +28,7 @@ GeoServer是 `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC)
 :doc:`../standards/wfs_overview` 和 
 :doc:`../standards/wcs_overview` 标准, 
 还有高性能的、兼容性得到充分验证的 
-:doc:`../standards/wms_overview`。
+:doc:`../standards/wms_overview` 。
 GeoServer已成了Geospatial Web的一个核心组件。 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
