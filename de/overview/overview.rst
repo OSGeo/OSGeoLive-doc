@@ -81,16 +81,24 @@ Internet Dienste
 
 Daten
 --------------------------------------------------------------------------------
-* :doc:`naturalearth_overview` - freie Geodaten
-* :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - Beispiel-Extrakt von OpenStreetMap
+
+.. toctree::
+   :maxdepth: 1
+
+   NaturalEarth - freie Geodaten <naturalearth_overview>
+   nc_dataset_overview
+   OpenStreetMap - Beispiel-Extrakt von OpenStreetMap <osm_dataset_overview>
 
 GIS Bibliotheken
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`geos_overview` - C/C++ Bibliothek für räumlichen Funktionen und Operatoren
-* :doc:`metacrs_overview` - Transformation von Daten zwischen Koordinatensystemen
-* :doc:`liblas_overview`  - libLAS LiDAR Datenzugriffe
+
+.. toctree::
+   :maxdepth: 1
+
+   GeoTools - Java GIS Toolkit <geotools_overview> 
+   GEOS - C/C++ Bibliothek für räumlichen Funktionen und Operatoren <geos_overview> 
+   MetaCRS - Transformation von Daten zwischen Koordinatensystemen <metacrs_overview>
+   libLAS - Sample extract from OpenStreetMap <liblas_overview>
 
 Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------
