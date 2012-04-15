@@ -98,7 +98,7 @@ GIS Bibliotheken
    GeoTools - Java GIS Toolkit <geotools_overview> 
    GEOS - C/C++ Bibliothek für räumlichen Funktionen und Operatoren <geos_overview> 
    MetaCRS - Transformation von Daten zwischen Koordinatensystemen <metacrs_overview>
-   libLAS - Sample extract from OpenStreetMap <liblas_overview>
+   libLAS - LiDAR Datenzugriffe <liblas_overview>
 
 Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------

@@ -81,7 +81,7 @@ Web Services
 Data
 --------------------------------------------------------------------------------
 
-.. toctree:
+.. toctree::
    :maxdepth: 1
 
    Natural Earth - Geographic Data Sets <naturalearth_overview>
@@ -91,7 +91,7 @@ Data
 Geospatial Libraries
 --------------------------------------------------------------------------------
 
-.. toctree:
+.. toctree::
    :maxdepth: 1
 
    GeoTools - Java GIS Toolkit <geotools_overview>
