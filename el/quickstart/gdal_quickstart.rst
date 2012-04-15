@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5p
 :License: Creative Commons
 
-.. _gdal_quickstart:
+.. _gdal_quickstart-el:
  
 .. image:: ../../images/project_logos/logo-GDAL.png
   :scale: 60 %

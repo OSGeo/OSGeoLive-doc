@@ -10,7 +10,7 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _sld_overview:
+.. _sld_overview-zh:
 
 .. Writing Tip: 
   Project logos are stored here:
