@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _geonetwork-overview:
+.. _geonetwork-overview-de:
 
 .. image:: ../../images/project_logos/logo-GeoNetwork.png
   :scale: 100 %

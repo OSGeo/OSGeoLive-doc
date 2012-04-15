@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _sahana-quickstart:
+.. _sahana-quickstart-de:
  
 .. image:: ../../images/project_logos/logo-sahana-eden.png
   :scale: 100 %

@@ -52,7 +52,7 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _udig-quickstart:
+.. _udig-quickstart-de:
  
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %

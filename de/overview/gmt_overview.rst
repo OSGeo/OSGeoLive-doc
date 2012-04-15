@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _gmt-overview:
+.. _gmt-overview-de:
 
 .. image:: ../../images/project_logos/logo-GMT.gif
   :scale: 100 %

@@ -4,7 +4,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons
 
-.. _postgis_quickstart:
+.. _postgis_quickstart-de:
  
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %

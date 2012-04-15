@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _ushahidi-quickstart:
+.. _ushahidi-quickstart-de:
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 100 %

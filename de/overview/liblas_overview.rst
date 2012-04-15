@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _liblas-overview:
+.. _liblas-overview-de:
 
 .. image:: ../../images/project_logos/logo-libLAS.png
   :alt: project logo

@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _osgearth-overview:
+.. _osgearth-overview-de:
 
 .. image:: ../../images/project_logos/logo-osgearth.gif
   :scale: 100 %

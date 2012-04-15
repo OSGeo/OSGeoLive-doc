@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _mapnik-quickstart:
+.. _mapnik-quickstart-de:
  
 .. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %

@@ -23,7 +23,7 @@ Wenn Sie SAGA das erste Mal öffnen, sehen Sie drei Unterfenster: Den Workspace,
   .. image:: ../../images/screenshots/1024x768/saga_guioverview.png
      :scale: 80
 
-Dataen laden
+Daten laden
 ================================================================================
 
 Öffnen Sie die SAGA GUI und laden Sie das Raster `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd über das 

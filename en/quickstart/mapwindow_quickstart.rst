@@ -7,7 +7,7 @@
 :PDF: http://www.mapwindow.org/apps/wiki/lib/exe/fetch.php?media=quick_guide_to_mapwindows_4.8.6.pdf
 :Editor: http://rst.ninjs.org/
 
-.. _mapwindow-quickstart:
+.. _mapwindow-quickstart-de:
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS

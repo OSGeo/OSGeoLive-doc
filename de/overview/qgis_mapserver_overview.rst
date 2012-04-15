@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _qgis_mapserver-overview:
+.. _qgis_mapserver-overview-de:
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %

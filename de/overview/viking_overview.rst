@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _viking-overview:
+.. _viking-overview-de:
 
 .. image:: ../../images/project_logos/logo-viking.png
   :scale: 100 %
