@@ -100,7 +100,7 @@
 
 #. Γνωρίστε το Mapbender και δοκιμάστε την λειτουργικότητα και τις εφαρμογές που παρέχει.
    
-   *Για παράδειγμα επιλέξτε gui, gui_digitize
+   * Για παράδειγμα επιλέξτε gui, gui_digitize
      
   .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
