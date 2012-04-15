@@ -5,7 +5,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _openlayers-overview:
+.. _openlayers-overview-en:
 
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
   :scale: 50 %

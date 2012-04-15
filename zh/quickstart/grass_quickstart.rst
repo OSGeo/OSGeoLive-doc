@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: (c) 2011 by The OSGeo Foundation
 
-.. _grass-quickstart:
+.. _grass-quickstart-zh:
  
 .. image:: ../../images/project_logos/logo-GRASS.png
   :scale: 100 %

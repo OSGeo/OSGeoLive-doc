@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _zygrib-overview:
+.. _zygrib-overview-es:
 
 .. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %

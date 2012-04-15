@@ -3,7 +3,7 @@
 :Versión: osgeo-live5.0
 :Licencia: Creative Commons
 
-.. _metacrs-overview:
+.. _metacrs-overview-es:
 
 .. image:: ../../images/project_logos/logo-GDAL.png
   :scale: 60 %

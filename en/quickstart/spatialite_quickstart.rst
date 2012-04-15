@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _spatialite-quickstart:
+.. _spatialite-quickstart-en:
  
 .. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %

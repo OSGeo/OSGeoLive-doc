@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Reconeixement 3.0 No adaptada (CC BY 3.0)
 
-.. _gvsig-overview:
+.. _gvsig-overview-ca:
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :scale: 75 %

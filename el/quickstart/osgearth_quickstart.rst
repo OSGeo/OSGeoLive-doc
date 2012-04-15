@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _osgearth-quickstart:
+.. _osgearth-quickstart-el:
  
 .. image:: ../../images/project_logos/logo-osgearth.gif
   :scale: 100 %

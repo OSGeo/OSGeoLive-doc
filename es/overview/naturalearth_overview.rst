@@ -2,7 +2,7 @@
 :Versión: osgeo-live4.5
 :Licencia: Creative Commons
 
-.. _naturalearth-overview:
+.. _naturalearth-overview-es:
 
 .. image:: ../../images/project_logos/logo-naturalearth.png
   :scale: 100 %

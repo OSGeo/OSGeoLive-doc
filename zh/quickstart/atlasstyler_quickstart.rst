@@ -9,7 +9,7 @@
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler
 
-.. _atlasstyler-quickstart: 
+.. _atlasstyler-quickstart-zh: 
 
 ********************************************************************************
 AtlasStyler Quickstart 

@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _kosmo-overview:
+.. _kosmo-overview-es:
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
   :scale: 100 %

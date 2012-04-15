@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _mapguide-overview:
+.. _mapguide-overview-el:
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
   :scale: 100 %

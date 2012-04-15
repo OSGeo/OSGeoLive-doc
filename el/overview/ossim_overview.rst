@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _ossim-overview:
+.. _ossim-overview-el:
 
 .. image:: ../../images/project_logos/logo-ossim.gif
   :scale: 100 %

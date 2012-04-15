@@ -1,7 +1,7 @@
 :Author: OGC
 :License: Creative Commons
 
-.. _sensorml-overview:
+.. _sensorml-overview-el:
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %

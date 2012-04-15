@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _zygrib-quickstart:
+.. _zygrib-quickstart-es:
  
 .. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %

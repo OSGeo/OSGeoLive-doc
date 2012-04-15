@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _mapserver-quickstart:
+.. _mapserver-quickstart-el:
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
   :scale: 65 %

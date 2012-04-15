@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _gpsdrive-overview:
+.. _gpsdrive-overview-ja:
 
 .. image:: ../../images/project_logos/logo-gpsdrive.png
   :scale: 80 %

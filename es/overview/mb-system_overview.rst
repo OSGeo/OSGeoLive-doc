@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons
 
-.. _mb-system-overview:
+.. _mb-system-overview-es:
 
 .. image:: ../../images/project_logos/logo-mb-system.gif
   :scale: 30 %

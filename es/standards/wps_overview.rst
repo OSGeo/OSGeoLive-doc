@@ -10,7 +10,7 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _wps-overview:
+.. _wps-overview-es:
 
 .. Writing Tip: 
   Project logos are stored here:

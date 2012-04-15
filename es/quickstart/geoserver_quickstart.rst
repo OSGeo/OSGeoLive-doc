@@ -8,7 +8,7 @@
 .. |UG| replace:: uDig 
 .. |OL| replace:: OpenLayers
 
-.. _geoserver-quickstart:
+.. _geoserver-quickstart-es:
  
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo

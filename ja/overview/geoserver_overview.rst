@@ -11,7 +11,7 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _geoserver-overview:
+.. _geoserver-overview-ja:
 
 .. Writing Tip: 
   Project logos are stored here:

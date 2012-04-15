@@ -2,7 +2,7 @@
 :License: Creative Commons
 
 
-.. _kml-overview:
+.. _kml-overview-el:
 
 
 .. image:: ../../images/project_logos/logo-OGC-left.png

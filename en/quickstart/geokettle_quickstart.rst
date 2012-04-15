@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _geokettle-quickstart:
+.. _geokettle-quickstart-en:
  
 .. image:: ../../images/project_logos/logo-geokettle.png
   :scale: 80 %

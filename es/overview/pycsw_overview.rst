@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons
 
-.. _pycsw-overview:
+.. _pycsw-overview-es:
 
 .. image:: ../../images/project_logos/logo-pycsw.png
   :scale: 100 %

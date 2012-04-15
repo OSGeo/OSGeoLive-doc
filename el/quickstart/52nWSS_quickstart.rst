@@ -2,7 +2,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _52nWSS-quickstart:
+.. _52nWSS-quickstart-el:
  
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %

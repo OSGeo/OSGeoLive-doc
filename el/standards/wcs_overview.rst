@@ -1,7 +1,7 @@
 :Author: OGC
 :License: Creative Commons
 
-.. _wcs-overview:
+.. _wcs-overview-el:
 
 .. image:: ../../images/project_logos/logo-OGC-left.png
   :scale: 100 %

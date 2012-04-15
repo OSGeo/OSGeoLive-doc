@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _geomajas-overview:
+.. _geomajas-overview-es:
 
 .. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px

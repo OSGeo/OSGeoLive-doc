@@ -2,7 +2,7 @@
 :Versión: osgeo-live4.0
 :Licencia: Creative Commons
 
-.. _maptiler-overview:
+.. _maptiler-overview-es:
 
 .. image:: ../../images/project_logos/logo-maptiler.png
   :scale: 80 %

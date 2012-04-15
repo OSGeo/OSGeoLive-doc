@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _marble-quickstart:
+.. _marble-quickstart-es:
  
 .. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %

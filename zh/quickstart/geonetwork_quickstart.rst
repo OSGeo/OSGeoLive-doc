@@ -5,7 +5,7 @@
 
 .. |GN| replace:: GeoNetwork
 
-.. _geonetwork-quickstart:
+.. _geonetwork-quickstart-zh:
  
 .. figure:: ../../images/project_logos/logo-GeoNetwork.png
   :alt: project logo

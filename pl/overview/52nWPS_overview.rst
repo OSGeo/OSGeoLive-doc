@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _52nWPS-overview:
+.. _52nWPS-overview-pl:
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %

@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: (c) 2011 by The OSGeo Foundation
 
-.. _marble-quickstart:
+.. _marble-quickstart-en:
  
 .. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
