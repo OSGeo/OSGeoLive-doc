@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _gvsig-overview-de:
-
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :scale: 75 %
   :alt: project logo

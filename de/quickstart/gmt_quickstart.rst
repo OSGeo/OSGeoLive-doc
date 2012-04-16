@@ -4,8 +4,6 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: (c) 2011 by The OSGeo Foundation
 
-.. _gmt-quickstart-de:
- 
 .. image:: ../../images/project_logos/logo-GMT.gif
   :scale: 100 %
   :alt: Projektlogo

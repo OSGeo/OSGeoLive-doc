@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _geomajas-quickstart-de:
- 
 .. image:: ../../images/project_logos/logo-geomajas.png
   :width: 50px
   :height: 50px

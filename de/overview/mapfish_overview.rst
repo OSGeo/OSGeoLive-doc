@@ -4,8 +4,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _mapfish-overview-de:
-
 .. image:: ../../images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo

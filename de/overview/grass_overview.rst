@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _grass-overview-de:
-
 .. image:: ../../images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo

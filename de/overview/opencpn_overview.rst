@@ -3,8 +3,6 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons
 
-.. _opencpn-overview-de:
-
 .. image:: ../../images/project_logos/logo-opencpn.png
   :scale: 70 %
   :alt: project logo

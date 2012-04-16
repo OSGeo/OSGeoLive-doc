@@ -7,11 +7,6 @@
 :Author: OGC
 :License: Creative Commons
 
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
-.. _sensorml-overview-de:
-
 .. Writing Tip: 
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/

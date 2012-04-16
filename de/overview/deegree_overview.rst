@@ -2,8 +2,6 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _deegree-overview-de:
-
 .. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
   :alt: project logo

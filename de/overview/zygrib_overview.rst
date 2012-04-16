@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _zygrib-overview-de:
-
 .. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %
   :alt: Projekt Logo

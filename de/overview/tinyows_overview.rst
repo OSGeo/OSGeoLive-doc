@@ -4,8 +4,6 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _tinyows-overview-de:
-
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: Projekt Logo

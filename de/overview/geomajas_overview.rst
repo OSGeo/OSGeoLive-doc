@@ -3,8 +3,6 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _geomajas-overview-de:
-
 .. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px

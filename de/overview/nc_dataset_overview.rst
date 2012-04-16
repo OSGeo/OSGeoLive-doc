@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _nc_dataset-overview-de:
-
 .. image:: ../../images/logos/OSGeo_compass_with_text_square.png 
   :scale: 90 %
   :alt: Projektlogo

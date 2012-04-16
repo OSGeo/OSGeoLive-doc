@@ -3,8 +3,6 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _mapfish-quickstart-de:
- 
 .. image:: ../../images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo

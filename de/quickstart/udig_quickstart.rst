@@ -48,12 +48,6 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geotools-user list
 
-
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
-.. _udig-quickstart-de:
- 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %
   :alt: Projektlogo

@@ -3,8 +3,6 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _naturalearth-overview-de:
-
 .. image:: ../../images/project_logos/logo-naturalearth.png
   :scale: 100 %
   :alt: Projektlogo
