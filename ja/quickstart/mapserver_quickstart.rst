@@ -25,12 +25,12 @@ MapServer は `オープンソース <http://www.opensource.org>`_ のサーバ�
 
 このクイックスタートでは以下の点について説明しています:
      
-  * :ref:`mapserver-quickstart-configure-with-mapfile`
-  * :ref:`mapserver-quickstart-wms-request`
-  * :ref:`mapserver-quickstart-add-new-layer`
-  * :ref:`mapserver-quickstart-styling-a-layer`
+  * :ref:`mapserver-quickstart-configure-with-mapfile-ja`
+  * :ref:`mapserver-quickstart-wms-request-ja`
+  * :ref:`mapserver-quickstart-add-new-layer-ja`
+  * :ref:`mapserver-quickstart-styling-a-layer-ja`
 
-.. _mapserver-quickstart-configure-with-mapfile:
+.. _mapserver-quickstart-configure-with-mapfile-ja:
 
 MapServer を設定する
 ================================================================================
@@ -102,7 +102,7 @@ mapfile の **LAYER** を詳しく見るとほかにも以下のようなプロ�
  
 .. note:: 使用できるプロパティの完全なリストは MapServer ドキュメントのページ `Mapfile <http://mapserver.org/mapfile/index.html>`_ に記載されています。
 
-.. _mapserver-quickstart-wms-request:
+.. _mapserver-quickstart-wms-request-ja:
 
 
 コマンドラインから地図画像をレンダリングする
@@ -135,7 +135,7 @@ WMS の **GetMap** リクエストで地図画像をレンダリングする
 
 .. note:: リクエストにのパラメータは "*?map=/home/user/mapserver_quickstart.map*" を除いて全て WMS の仕様にあるものです。
 
-.. _mapserver-quickstart-add-new-layer:
+.. _mapserver-quickstart-add-new-layer-ja:
 
 shp ファイルを新しいレイヤとして追加する
 ================================================================================
@@ -167,7 +167,7 @@ MapSetver でレンダリングすると、先程の結果と良く似ていま�
   .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
-.. _mapserver-quickstart-styling-a-layer:
+.. _mapserver-quickstart-styling-a-layer-ja:
 
 レイヤのスタイルを設定する
 ================================================================================

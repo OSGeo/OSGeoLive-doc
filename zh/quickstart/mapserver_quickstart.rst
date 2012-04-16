@@ -25,12 +25,12 @@ MapServer is an `Open Source <http://www.opensource.org>`_ server based applicat
 
 This Quick Start describes how to:
      
-  * :ref:`mapserver-quickstart-configure-with-mapfile`
-  * :ref:`mapserver-quickstart-wms-request`
-  * :ref:`mapserver-quickstart-add-new-layer`
-  * :ref:`mapserver-quickstart-styling-a-layer`
+  * :ref:`mapserver-quickstart-configure-with-mapfile-zh`
+  * :ref:`mapserver-quickstart-wms-request-zh`
+  * :ref:`mapserver-quickstart-add-new-layer-zh`
+  * :ref:`mapserver-quickstart-styling-a-layer-zh`
 
-.. _mapserver-quickstart-configure-with-mapfile:
+.. _mapserver-quickstart-configure-with-mapfile-zh:
 
 Configure MapServer using the "mapfile" configuration file
 ================================================================================
@@ -103,7 +103,7 @@ If we look closer at the **LAYER** in our mapfile, we'll see that it contains a 
 
 .. note:: A complete list of the available objects and properties a `Mapfile <http://mapserver.org/mapfile/index.html>`_ can have can be found in the MapServer documentation page.
 
-.. _mapserver-quickstart-wms-request:
+.. _mapserver-quickstart-wms-request-zh:
 
 
 Render a map image with MapServer using the command line
@@ -133,7 +133,7 @@ What does the above mean ?  If we put it in simple words, it's a `Web Map Servic
 
 .. note:: All parameters of the request are WMS-specific, except "*?map=/home/user/mapserver_quickstart.map*", which is MapServer-specific.  
 
-.. _mapserver-quickstart-add-new-layer:
+.. _mapserver-quickstart-add-new-layer-zh:
 
 Add a new layer to the "mapfile" to serve a local shapefile
 ================================================================================
@@ -165,7 +165,7 @@ The image rendered by MapServer look like our previous map, but with addition of
   .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
-.. _mapserver-quickstart-styling-a-layer:
+.. _mapserver-quickstart-styling-a-layer-zh:
 
 Style a layer using "mapfile" configurations
 ================================================================================
