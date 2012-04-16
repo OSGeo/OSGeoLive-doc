@@ -4,8 +4,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _metacrs-overview-en:
-
 .. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
 ..  :scale: 60 %
 ..  :alt: project logo

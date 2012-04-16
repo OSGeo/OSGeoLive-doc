@@ -3,14 +3,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _ushahidi-overview-en:
-
 .. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
-
 
 Ushahidi
 ================================================================================

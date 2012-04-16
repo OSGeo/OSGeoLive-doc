@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _vmware-quickstart-en:
-    
 ********************************************************************************
 OSGeo-Live Quickstart for VMWare Player
 ********************************************************************************

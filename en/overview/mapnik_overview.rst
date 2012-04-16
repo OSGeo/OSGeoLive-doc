@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _mapnik-overview-en:
-
 .. image:: ../../images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo

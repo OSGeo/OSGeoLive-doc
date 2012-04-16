@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. _mb-system-overview-en:
-
 .. image:: ../../images/project_logos/logo-mb-system.gif
   :scale: 30 %
   :alt: project logo

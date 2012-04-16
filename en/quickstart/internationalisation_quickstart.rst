@@ -5,8 +5,6 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _osgeolive-internationalisation-quickstart:
- 
 ********************************************************************************
 OSGeo-Live Internationalisation Quickstart
 ********************************************************************************

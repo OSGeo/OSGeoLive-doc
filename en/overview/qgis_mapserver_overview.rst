@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _qgis_mapserver-overview:
-
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: project logo
@@ -16,7 +14,6 @@
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
-
 
 QGIS Server
 ================================================================================

@@ -3,8 +3,6 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: (c) 2011 by The OSGeo Foundation
 
-.. _mb-system-quickstart-en:
- 
 .. image:: ../../images/project_logos/logo-mb-system.gif
   :scale: 30 %
   :alt: project logo

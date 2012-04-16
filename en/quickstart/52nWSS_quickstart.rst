@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _52nWSS-quickstart-de:
- 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons - logo

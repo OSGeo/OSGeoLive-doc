@@ -42,8 +42,6 @@
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
 
-.. _udig-quickstart-en:
- 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %
   :alt: project logo
