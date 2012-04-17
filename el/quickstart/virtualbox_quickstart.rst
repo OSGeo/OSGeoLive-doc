@@ -3,8 +3,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _virtualbox-quickstart-el:
- 
 ***********************************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης OSGeo-Live για το Virtual Box
 ***********************************************************

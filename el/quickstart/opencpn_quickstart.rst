@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. _opencpn-quickstart-el:
- 
 .. image:: ../../images/project_logos/logo-opencpn.png
   :scale: 75 %
   :alt: project logo

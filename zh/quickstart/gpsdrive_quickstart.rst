@@ -1,9 +1,6 @@
 :Author: Hamish Bowman
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Copyright: (c) 2011 by The OSGeo Foundation
-
-.. _gpsdrive-quickstart-zh:
  
 .. image:: ../../images/project_logos/logo-gpsdrive.png
   :scale: 100 %

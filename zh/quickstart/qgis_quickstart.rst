@@ -3,8 +3,6 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _qgis-quickstart-zh:
- 
 .. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo

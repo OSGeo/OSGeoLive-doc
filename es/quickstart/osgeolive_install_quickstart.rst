@@ -1,11 +1,8 @@
-
 :Autor: OSGeo-Live
 :Autor: Cameron Shorter
 :Versión: osgeo-live4.0
 :Licencia: Creative Commons
 
-.. _osgeolive-install-quickstart-es:
- 
 ********************************************************************************
 Instalación de OSGeo-Live en disco duro
 ********************************************************************************

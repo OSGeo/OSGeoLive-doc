@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. _zygrib-overview-zh:
-
 .. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %
   :alt: project logo

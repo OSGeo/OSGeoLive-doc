@@ -5,8 +5,6 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geotools-user list
 
-.. _udig-quickstart-el:
- 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %
   :alt: project logo

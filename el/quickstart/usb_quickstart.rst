@@ -3,8 +3,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _usb-quickstart-el:
- 
 *************************************************
 Δημιουργώντας ένα εκκινήσιμο USB με το OSGeo-Live
 *************************************************

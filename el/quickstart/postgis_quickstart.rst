@@ -3,8 +3,6 @@
 :Version: osgeo-live4.5p
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _postgis_quickstart-el:
- 
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo

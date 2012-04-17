@@ -2,8 +2,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _spatialite-quickstart-el:
- 
 .. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %
   :alt: project logo

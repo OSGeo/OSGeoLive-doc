@@ -4,8 +4,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. _pycsw-overview-zh:
-
 .. image:: ../../images/project_logos/logo-pycsw.png
   :scale: 80 %
   :alt: project logo

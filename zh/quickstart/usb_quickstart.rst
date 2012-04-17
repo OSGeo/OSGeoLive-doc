@@ -1,11 +1,8 @@
-
 :Author: OSGeo-Live
 :Author: Cameron Shorter
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _usb-quickstart-zh:
- 
 ********************************************************************************
 Creating an OSGeo-Live Bootable USB flash drive
 ********************************************************************************

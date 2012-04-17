@@ -3,15 +3,11 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _liblas_quickstart-zh:
- 
 .. image:: ../../images/project_logos/logo-libLAS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://liblas.org/
-
-.. _start:
 
 ********************************************************************************
 Getting Started with libLAS

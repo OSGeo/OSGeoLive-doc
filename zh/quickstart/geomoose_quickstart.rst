@@ -2,8 +2,6 @@
 :Version: GeoMoose 2.4
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _geomoose-quickstart-zh:
- 
 .. image:: ../../images/project_logos/logo-geomoose.png
   :width: 50px
   :height: 50px

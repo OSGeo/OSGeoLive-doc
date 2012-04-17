@@ -3,8 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _mapserver-quickstart-zh:
-
 .. image:: ../../images/project_logos/logo-mapserver-new.png
   :scale: 65 %
   :alt: Project logo

@@ -3,8 +3,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _otb-quickstart-el:
- 
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 80 %
   :alt: project logo

@@ -3,8 +3,6 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _mapguide-quickstart-el:
-
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
   :scale: 100 %
   :alt: project logo

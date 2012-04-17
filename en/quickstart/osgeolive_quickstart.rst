@@ -1,4 +1,3 @@
-
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
 :Version: osgeo-live5.5

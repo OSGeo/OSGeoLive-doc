@@ -14,12 +14,6 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
-.. _postgis-overview-zh:
-
 .. Writing Tip:
   Project logos are stored here:
     https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/

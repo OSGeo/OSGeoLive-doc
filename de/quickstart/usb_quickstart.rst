@@ -1,4 +1,3 @@
-
 :Author: OSGeo-Live
 :Author: Cameron Shorter
 :Version: osgeo-live4.0

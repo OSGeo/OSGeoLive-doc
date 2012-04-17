@@ -3,8 +3,6 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geotools-user list
 
-.. _deegree-quickstart-el:
-
 *************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης deegree 
 *************************************

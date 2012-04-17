@@ -4,8 +4,6 @@
 :Versión: osgeo-live4.0
 :Licencia: Creative Commons
 
-.. _osgeolive-internationalisation-quickstart:
- 
 ********************************************************************************
 Guía rápida de Internacionalización de OSGeo-Live 
 ********************************************************************************
