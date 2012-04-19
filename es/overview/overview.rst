@@ -6,6 +6,13 @@
 Contenidos |osgeo-live-version|
 ================================================================================
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   *_overview
+
 Clientes ligeros o de navegador Web
 --------------------------------------------------------------------------------
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Cliente GIS de Navegador Web

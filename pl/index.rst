@@ -36,8 +36,23 @@ Szybkie wprowadzenia
    Tworzenie rozruchowego USB PenDrive z OSGeo-Live <quickstart/usb_quickstart>
    Więcej samouczków... <quickstart/quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 Prezentacja
 --------------------------------------------------------------------------------
 Półgodzinna prezentacja omawiająca wszystkie zawarte na OSGeoLive programy, dostępna jest w postaci wideo oraz slajdów i notatek.
 
-Szczegóły na stronie  http://live.osgeo.org/en/presentation.html.
+Szczegóły na stronie :doc:`presentation`.

@@ -41,6 +41,21 @@ Guías de inicio rápido
    Ejecutar OSGeo-Live en una Máquina Virtual <quickstart/virtualbox_quickstart>
    Crear una unidad USB arrancable con OSGeo-Live <quickstart/usb_quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 Presentación
 --------------------------------------------------------------------------------
 
@@ -48,4 +63,4 @@ Está disponible una presentación de aproximadamente media hora (en Inglés), q
 destaca todas las aplicaciones OSGeo-Live, junto con las diapositivas originales
 y el guión. 
 
-Ver detalles en `<http://live.osgeo.org/es/presentation.html>`_.
+Ver detalles en :doc:`presentation`.

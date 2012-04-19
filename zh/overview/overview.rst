@@ -6,6 +6,13 @@
 |osgeo-live-version| 内容
 ================================================================================
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   *_overview
+
 浏览器客户端
 --------------------------------------------------------------------------------
 * :doc:`openlayers_overview` - [:doc:`快速入门  <../quickstart/openlayers_quickstart>`] - 浏览器GIS客户机

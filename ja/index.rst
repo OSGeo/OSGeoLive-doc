@@ -34,6 +34,21 @@ OSGeo-Liveは様々な地理空間関連の保管、配布、表示、分析、�
    OSGeo-Live を仮想マシンで動作させる <quickstart/virtualbox_quickstart>
    OSGeo-Live のブータブルUSBドライブを作成する <quickstart/usb_quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 プレゼンテーション
 --------------------------------------------------------------------------------
 

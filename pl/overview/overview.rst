@@ -6,6 +6,13 @@
 Zawartość |osgeo-live-version|
 ================================================================================
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   *_overview
+
 Klienci w przeglądarce internetowej
 --------------------------------------------------------------------------------
 * :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeglądarce internetowej

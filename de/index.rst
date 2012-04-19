@@ -40,9 +40,24 @@ Quickstart
    OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualbox_quickstart>
    Bootfähigen OSGeo-Live USB Stick erstellen <quickstart/usb_quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 Präsentation
 --------------------------------------------------------------------------------
 
 Eine 25-minütige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
 
-Details at http://live.osgeo.org/en/presentation.html.
+Details at :doc:`presentation`.

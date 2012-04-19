@@ -39,10 +39,25 @@
    Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualbox_quickstart>
    Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 Παρουσίαση
 --------------------------------------------------------------------------------
 
 Μια μισάωρη παρουσίαση που καλύπτει όλες τις εφαρμογές του OSGeoLive είναι διαθέσιμη σαν βίντεο και παρουσίαση.
 
-Λεπτομέρειες στο http://live.osgeo.org/el/presentation.html
+Λεπτομέρειες στο :doc:`presentation`.
 

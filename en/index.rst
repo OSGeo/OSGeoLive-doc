@@ -40,8 +40,23 @@ Quick Starts
    Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart>
    Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 Presentation
 --------------------------------------------------------------------------------
 A half hour presentation, highlighting all OSGeo-Live applications, is available as a video, along with source slides and script.
 
-Details at http://live.osgeo.org/en/presentation.html.
+Details at :doc:`presentation`.

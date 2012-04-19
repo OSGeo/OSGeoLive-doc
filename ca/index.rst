@@ -40,9 +40,24 @@ Inici ràpid
    Executar OSGeo-Live a una Màquina Virtual <quickstart/virtualbox_quickstart>
    Crear un llapis de memòria USB arrencable amb OSGeo-Live <quickstart/usb_quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 Presentació
 --------------------------------------------------------------------------------
 Existeix una presentació de 30 minuts on es mostren totes les aplicacions d'OSGeo-Live,
 disponible com a vídeo junt amb les diapositives i el guió de la presentació.
 
-Detalls a http://live.osgeo.org/ca/presentation.html.
+Detalls a :doc:`presentation`.

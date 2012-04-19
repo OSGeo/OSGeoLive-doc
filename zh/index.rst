@@ -36,8 +36,23 @@ OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用�
    如何在虚拟机上安装OSGeo-Live <quickstart/virtualbox_quickstart>
    如何创建一个OSGeo-Live自启动USB盘 <quickstart/usb_quickstart>
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   quickstart/*_quickstart
+   standards/standards
+   contact
+   copyright
+   disclaimer
+   download
+   sponsors
+   sponsors_osgeo
+   presentation
+
 介绍
 --------------------------------------------------------------------------------
 大约半小时Presentation资料，简明介绍了所有的OSGeo-Live应用程序，包括：视频，PPT和文字描述。
 
-详情请见 http://live.osgeo.org/zh/presentation.html.
+详情请见 :doc:`presentation`.
