@@ -41,6 +41,7 @@ OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用�
    :hidden:
    :glob:
 
+   overview/overview
    quickstart/*_quickstart
    standards/standards
    contact

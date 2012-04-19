@@ -11,7 +11,6 @@
 
    en/index
    de/index
-   de/index
    el/index
    es/index
    ja/index

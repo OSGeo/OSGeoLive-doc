@@ -44,6 +44,7 @@
    :hidden:
    :glob:
 
+   overview/overview
    quickstart/*_quickstart
    standards/standards
    contact
