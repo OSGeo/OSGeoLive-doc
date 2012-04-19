@@ -61,4 +61,4 @@ Präsentation
 
 Eine 25-minütige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
 
-Details at :doc:`presentation`.
+Weitere Details :doc:`hier <presentation>`.
