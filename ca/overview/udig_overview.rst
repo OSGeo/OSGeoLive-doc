@@ -30,8 +30,7 @@ uDig és:
 * **amigable**, proporciona un entorn gràfic conegut pels usuaris de SIG;
 * **un programari d'escriptori**, s'executa de forma nativa sobre Windows, Mac OS/X i Linux;
 * **orientat a internet**, consumeix serveis web geoespacials estàndards; i,
-* **un entorn SIG**, proporciona l'entorn on poder construir capacitats analítiques complexes, 
-i on poder anar incloent de manera gradual aquestes noves capacitats en l'aplicatiu principal.
+* **un entorn SIG**, proporciona l'entorn on poder construir capacitats analítiques complexes, i on poder anar incloent de manera gradual aquestes noves capacitats en l'aplicatiu principal.
 
 Pels desenvolupadors, uDIG proporciona una plataforma Java per a la construcció d'aplicacions espacials amb components de codi obert.
 El lloc web ofereix una sèrie de tutorials que abasten des de la creació d'una eina simple fins al desenvolupament d'una aplicació personalitzada. 
@@ -45,8 +44,7 @@ Característiques Principals
 * Treballa amb formats ràster avançats de tipus espacial: ECW, MrSID, JPEG 2000
 * Compatible amb servidors de mapes web (s'han verificat GeoServer i MapServer)
 * Experiencia d'integració Web amb un navegador incrustat que reconeix serveis web OGC i que afegeix enllaços al mapa en pantalla.
-* Control del ''renderitzat'' mitjançant el Descriptor d'Estils de Capa (SLD, Style Layer Descriptor) 
-que permet publicar mapes usant la mateixa simbologia tant en uDig com en un servidor de mapes.
+* Control del ''renderitzat'' mitjançant el Descriptor d'Estils de Capa (SLD, Style Layer Descriptor) que permet publicar mapes usant la mateixa simbologia tant en uDig com en un servidor de mapes.
 * Integració total d'estàndards que permet el intercanvi entre els diferents serveis de visualització, interacció i edició dels que consta l'aplicació.
 * Impressió i generació de PDF
 * Per desenvolupadors
