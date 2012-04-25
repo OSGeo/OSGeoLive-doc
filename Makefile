@@ -7,8 +7,8 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
 TMP	      = /tmp/osgeolive_make
-#TRANSLATIONS  = de el es it ja ro pl
-TRANSLATIONS  =  de el es    ja    pl ca
+#TRANSLATIONS  = de el es it ja ro pl ca zh
+TRANSLATIONS  =  de el es    ja    pl ca zh
 LANGUAGES     = en $(TRANSLATIONS)
 START_DIR     = $(shell pwd)
 
