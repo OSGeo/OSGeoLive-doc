@@ -1,8 +1,13 @@
 {% extends "basic/page.html" %}
 
+{%- block extrahead %} 
+	<script type="text/javascript" src="{{ pathto('_static/osgeolive.js', 1) }}"></script>
+{% endblock %}
+
 {%- macro customrelbar(showrel=True) %}
     <div class="related">
 		<div id="translations">
+		<!--
 			<a href="../../en/index.html">English</a> |
 			<a href="../../el/index.html">Ελληνικά</a> |
 			<a href="../../ca/index.html">Català</a> |		
@@ -11,6 +16,15 @@
 			<a href="../../ja/index.html">日本語</a> |
 			<a href="../../pl/index.html">Polski</a> |
 			<a href="../../zh/index.html">中文</a>
+		-->
+			<a href="javascript:defaultRedirect('en')">English</a> |
+			<a href="javascript:defaultRedirect('el')">Ελληνικά</a> |
+			<a href="javascript:defaultRedirect('ca')">Català</a> |		
+			<a href="javascript:defaultRedirect('de')">Deutsch</a> |
+			<a href="javascript:defaultRedirect('es')">Español</a> |
+			<a href="javascript:defaultRedirect('ja')">日本語</a> |
+			<a href="javascript:defaultRedirect('pl')">Polski</a> |
+			<a href="javascript:defaultRedirect('zh')">中文</a>
 		</div>
     </div>
 {%- endmacro %}
