@@ -5,6 +5,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :PDF: http://www.mapwindow.org/apps/wiki/lib/exe/fetch.php?media=quick_guide_to_mapwindows_4.8.6.pdf
 :Editor: http://rst.ninjs.org/
+Copyright: 2011 Richard R. Schneider
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS

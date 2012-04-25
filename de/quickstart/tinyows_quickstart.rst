@@ -2,6 +2,7 @@
 :Author: Pirmin Kalberer
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+Copyright: (c) 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
