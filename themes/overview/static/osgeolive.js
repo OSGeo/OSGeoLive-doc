@@ -2,36 +2,38 @@
 // use the current page and switch over to the selected language (do not jump to selected language index page anymore)
 // e.g. en/overview/overview.html -> select Catalan -> new page is ca/overview/overview.html
 
-var adhocURL = "http://adhoc.osgeo.osuosl.org/livedvd/docs/en/index.html";
-var liveURL = "http://live.osgeo.org/en/index.html";
-var adhocContext = "/livedvd/docs";
-var localContext = "/_build/html";
-
 var getContext = function(url) {
+
+	// search the 
     // substring to extract the language code (two chars, e.g. 'en', 'ca', etc)
     var context;
+	
+	var splittedURL = url.split("/");
+	
+	var currentLanguage;
+	
+	// search backwards
+	for(i = splittedURL.length-1; i >=0 ; i--) {
+		if (splittedURL[i].length === 2) {
+			currentLanguage = "/" + splittedURL[i] + "/";
+			break;
+		}
+	}
 
-	// adhoc urls
-    var index1 = url.indexOf(adhocContext);
-    if (index1 >= 0) {
-        context = url.substring(index1 + adhocContext.length);
-    } else {
-		// local file
-        var i2 = url.indexOf(localContext);
-        if (i2 >= 0) {
-            context = url.substring(i2 + localContext.length);
-        } else {
-			// default at live.osgeo.org
-            context = url;
-        } 
-    }
-
-    return context;
+	if (!currentLanguage) {
+		return;
+	}
+	var lastLangIndex = url.lastIndexOf(currentLanguage);
+	return url.substr(lastLangIndex);
 }
 
 // returns a substring for the language from url
 var getLanguageFormUrl = function(url) {
-    return getContext(url).substr(1, 2);
+	var context = getContext(url);
+	if (!context) {
+		return;
+	}
+    return context.substr(1, 2);
 }
 
 // creates a location object from url string to work with pathname
@@ -40,12 +42,6 @@ var createHrefFromString = function(theStringURL) {
     // the current context, independent from adhoc or live deployment
     tmpLink.href = theStringURL;
     return tmpLink;
-}
-
-// just a test function
-var testAdhocURL = function() {
-    redirectFromUrlToLang(createHrefFromString(adhocURL), "zh");
-    redirectFromUrlToLang(createHrefFromString(liveURL), "de");
 }
 
 // public accessable function to redirect from the main menu (see page.html)
@@ -62,14 +58,18 @@ var redirectFromUrlToLang = function(url, lang) {
         language = lang.toLowerCase();
     }
     var pathName = url.pathname;
-    var newPathName;
-    if (language === getLanguageFormUrl(pathName)) {
-        newPathName = getContext(pathName);
-    } else {
-        var completeContext = getContext(pathName);
-        var pathWithoutLanguage = completeContext.substr(3);
+    var newPathName = getContext(pathName);
+	
+	if (!newPathName) {
+		// do nothing
+		return;
+	}
+	
+	// the requested language is different to the current
+    if (!(language === getLanguageFormUrl(pathName))) {
+        var pathWithoutLanguage = newPathName.substr(3);
         var newContext = "/" + language + pathWithoutLanguage;
-        newPathName = pathName.replace(completeContext, newContext);
+        newPathName = pathName.replace(newPathName, newContext);
     }
 
     var newPage = url.href.replace(pathName, newPathName);
