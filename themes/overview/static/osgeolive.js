@@ -51,14 +51,7 @@ var testAdhocURL = function() {
 // public accessable function to redirect from the main menu (see page.html)
 // parameter is the new language, eg. 'en', 'de', 'ja', etc
 var defaultRedirect = function(newLanguage) {
-    var theLastPage; 
-    if (document.referrer === "") {
-       theLastPage = window.location;
-    } else {
-       theLastPage = createHrefFromString(document.referrer);
-    }
-
-    redirectFromUrlToLang(theLastPage, newLanguage);
+    redirectFromUrlToLang(window.location, newLanguage);
 }
 
 var redirectFromUrlToLang = function(url, lang) {
