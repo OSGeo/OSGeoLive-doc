@@ -1,5 +1,5 @@
 .. meta::
-   :http-equiv=refresh: 0;url=en/index.html
+   :http-equiv=refresh: 0;url=javascript:redirectToUserLanguage()
 
 |osgeo-live-version|
 ================================================================================
