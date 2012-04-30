@@ -19,6 +19,7 @@
 * :doc:`geomajas_overview` - [:doc:`クイックスタート <../quickstart/geomajas_quickstart>`] -ブラウザ上で動作するGISクライアント
 * :doc:`mapbender_overview` - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - 地理空間情報のフレームワーク
 * :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングアプリケーション開発のフレームワーク
+* :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
 
 災害マッピング
 --------------------------------------------------------------------------------
@@ -72,26 +73,47 @@ Web サービス
 * :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`]
+* :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`]
 * :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`]
-* :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - Web向けのメタデータカタログ
+* :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
 * :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview` - [:doc:`クイックスタート <../quickstart/52nWPS_quickstart>`] - Web 処理サービス
 * :doc:`52nSOS_overview` - [:doc:`クイックスタート <../quickstart/52nSOS_quickstart>`] - センサでの観測サービス
+* :doc:`tinyows_overview` - [:doc:`クイックスタート <../quickstart/tinyows_quickstart>`] - WFS-T サービス
 * :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web 処理サービス
-* :doc:`tinyows_overview` - WFS-T Service
 
-.. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`]
+.. ディスクスペース節約のため一時的に収録していないもの: * :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`]
 
 データ
 --------------------------------------------------------------------------------
-* :doc:`naturalearth_overview` - 地理空間情報データセット
+
+.. toctree::
+   :maxdepth: 1
+
+   Natural Earth - 地理空間情報データセット <naturalearth_overview>
+   nc_dataset_overview
+   OpenStreetMap - OpenStreetMap からの抜粋 <osm_dataset_overview>
+
 
 地理情報ライブラリ
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Java GIS ツールキット
-* :doc:`metacrs_overview` - 座標形参照、変換システム
-* :doc:`liblas_overview`  - libLAS LiDAR データアクセス
+
+.. toctree::
+   :maxdepth: 1
+
+   GeoTools - Java GIS ツールキット <geotools_overview>
+   GEOS - C/C++ 位置情報ライブラリ <geos_overview> 
+   MetaCRS - 座標形参照、変換システム <metacrs_overview>
+   libLAS - LiDAR データアクセス <liblas_overview>
+
+
+Live に収録していないその他のソフトウェア
+--------------------------------------------------------------------------------
+* :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`] - Web サービス
+* :doc:`mapwindow_overview` - [:doc:`クイックスタート <../quickstart/mapwindow_quickstart>`] - Microsoft Windows ベース GIS
+
+.. MapGuide はディスク容量節約のため一時的に収録していません。 MapWindow は Ubuntu では動作しません。
 
 Windows 及び Apple インストーラー
 --------------------------------------------------------------------------------
