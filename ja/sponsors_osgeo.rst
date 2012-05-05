@@ -1,31 +1,13 @@
-The OSGeo Foundation
+OSGeo財団
 ================================================================================
 
-The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_,
-is a not-for-profit organization whose mission is to support and promote
-the collaborative development of open geospatial technologies and data.
-The foundation provides financial, organizational and legal support to
-the broader open source geospatial community. It serves as an independent
-legal entity to which community members can contribute code, funding and
-other resources, secure in the knowledge that their contributions will be
-maintained for public benefit. OSGeo also serves as an outreach and
-advocacy organization for the open source geospatial community, and
-provides a common forum and shared infrastructure for improving
-cross-project collaboration.
+「オープンソース地理空間財団 (OSGeo) <http://osgeo.org>」_は非営利組織であり、その使命はオープンな地理空間技術・データの共同開発を支援しサポートすることにあります。本財団は、海外のオープンソース地理空間コミュニティへ資金的、組織的、法的な支援を提供します。独立した法人組織として、コミュニティ成員がコードや寄付そして他の資源を貢献できるよう役割を果たすものです。そして、これらの貢献が公共的な利益のために維持されるという知識は揺るぎないものです。OSGeoまた、オープンソース地理空間コミュニティのためのアウトリーチかつ弁護する組織として機能し、共通のフォーラムやプロジェクト間のコラボレーションを改善するための共有インフラストラクチャを提供します。
 
-The foundation's projects are all freely available and useable under an
- `OSI-certified open source license. <http://www.opensource.org/licenses/>`_
+財団のプロジェクトは、「OSI認定のオープンソースラインセス<http://www.opensource.org/licenses/>_」の下で、全て自由に入手し利用可能です。
 
-This Live GIS disc and virtual-machine has been put together by members
-of the OSGeo community to showcase their favourite Free and Open Source
-(FOSS) geospatial software. We've included a number of non-OSGeo software
-packages, GIS focused and otherwise, which we hope you will find to be as
-useful as we do. The OSGeo Foundation does not recommend or guarantee any
-associated software, projects, or companies found within.
+このLive GISディスクと仮想マシンは、それぞれが推奨する自由でオープンソース(FOSS)な地理空間ソフトウェアを紹介するために、OSGeoコミュニティの成員によってまとめられたものです。この中には、GISにフォーカスしたものとそれ以外にも非OSGeoソフトウェア・パッケージの幾つかも含まれていますが、我々はあなたに、我々と同様に有用であることを発見してほしいと願っています。OSGeo財団は、この中でいかなる関連するソフトウェア、プロジェクト、または企業を推奨または保証するものではありません。
 
-`These programs are distributed in the hope that they will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
+「これらのプログラムは、有用であることを願って配布されますが、いかなる場合でも無保証ですー特定の目的に対する商品性または適合性も保証するものではありません。」
 
 OSGeo Sustaining Sponsors
 ================================================================================
@@ -103,10 +85,9 @@ OSGeo Associate Sponsors
   :target: http://www.firstbasesolutions.com
 
 
-For more information
+より詳細な情報
 --------------------------------------------------------------------------------
 
-To sponsor OSGeo or discuss sponsorship opportunities further,
-please contact:
+OSGeoへのスポンサーまたはさらなるスポンサーシップの機会を議論するには下記までご連絡ください。
 
 .. include :: ../osgeo_contact.rst

@@ -1,38 +1,38 @@
-OSGeo-Live Sponsors
+OSGeo-Live スポンサー
 ================================================================================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :alt: LISAsoft
   :target: http://lisasoft.com
 
-LISAsoft provides sustaining resources and staff toward the management and packaging of software onto the OSGeo-Live DVD.
+LISAsoftは、OSGeo-Live DVDのマネジメントパッケージ化に向けた持続的な資源とスタッフを提供します。
 
 .. image:: ../images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
   :target: http://ice.ucdavis.edu
 
-Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeo-Live project.
+カリフォルニア大学デイビス校環境情報センターは、ハードウェア資源とOSGeo-Liveプロジェクトへの開発支援を提供しています。
 
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 30 %
   :alt: The DebianGIS and UbuntuGIS projects
   :target: http://wiki.debian.org/DebianGis
 
-The DebianGIS and UbuntuGIS projects provide and quality-assure many of the core packages.
+DebianGISとUbuntuGISプロジェクトは、コアパッケージの多くを提供し品質を保証します。
 
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
   :target: http://www.osdm.gov.au
 
-The Australian Government's Office of Spatial Data Management sponsored LISAsoft's review of Application Overviews, to achieve consistent, quality project write ups.
+オーストラリア政府空間データ管理事務所は、LISAsoftのアプリケーション概要のレビューを支援しています。それは、一貫した質のプロジェクトをアーカイブするためです。
 
 .. include :: sponsors_osgeo.rst
 
-Contributors
+貢献者達
 ================================================================================
 .. include :: ../contributors.rst
 
-Translators
+翻訳者達
 ================================================================================
 .. include :: ../translators.rst
 
