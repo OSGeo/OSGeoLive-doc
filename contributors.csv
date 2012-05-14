@@ -1,10 +1,9 @@
 ﻿Name,Email,Country,Osgeo_id
-
 Activity Workshop,mail activityworkshop net,Switzerland,activityworkshop
 Alan Boudreault,aboudreault mapgears.com,Canada,aboudreault
 Alex Mandel,tech wildintellect com,USA,wildintellect
 Alexandre Dube,adube mapgears.com,Canada,adube
-Amy Gao,amy@spatialfront.com,China,amygao
+Amy Gao,amy spatialfront com,China,amygao
 Andrea Antonello,andrea.antonello gmail com,Italy,moovida
 Angelos Tzotsos,tzotsos gmail com,Greece,kalxas
 Anton Patrushev,anton.patrushev gmail com,Japan,anton
@@ -16,15 +15,15 @@ Dane Springmeyer,dane dbsgeo com,USA,springmeyer
 Daniel Kastl,daniel.kastl georepublic de,Japan,dkastl
 Dimitar Misev,d.misev jacobs-university de,Germany,misev
 Edgar Soldin,edgar.soldin web de,Germany,edso
-Eike Hinderk Jürrens,e.h.juerrens 52north org,Germany,ehjuerrens
+Eike Hinderk Jrrens,e.h.juerrens 52north org,Germany,ehjuerrens
 Eric Lemoine,eric.lemoine camptocamp com,France,erilem
 Etienne Dube,etdube gmail com,Canada,etdube
 Fran Boon,fran aidiq com,UK,flavour
 Frank Gasdorf,fgdrf users.sourceforge.net,Germany,fgdrf
 Frank Warmerdam,warmerdam pobox.com,USA,warmerdam
-François Prunayre,fx prunayre gmail com,France,fxp
+Fran?ois Prunayre,fx prunayre gmail com,France,fxp
 Gavin Treadgold,gav rediguana co nz,New Zealand,rediguana
-Gérald Fenoy,gerald.fenoy geolabs fr,France,djay
+Grald Fenoy,gerald.fenoy geolabs fr,France,djay
 Hamish Bowman,hamish_b yahoo com,New Zealand,hamish
 Haruyuki Seki,hal georepublic co jp,Japan,halsk
 Henry Addo,henry ushahidi com,Ghana,eyedol
@@ -47,7 +46,7 @@ Mark Leslie,mark leslie lisasoft com,Australia,mleslie
 Massimo Di Stefano,massimodisasha yahoo it,Italy,epifanio
 Micha Silver,micha arava co il,Israel,micha
 Michael Owonibi,m.owonibi jacobs-university de,Germany,mowonibi
-Michaël Michaud,michael michaud free fr,France,michaudm
+Micha?l Michaud,michael michaud free fr,France,michaudm
 Mike Adair,madair dmsolutions ca,Canada,madair
 Nathaniel V. Kelso,nathaniel kelsocartography com,USA,?
 Ned Horning,horning amnh org,USA,nedhorning
@@ -57,7 +56,7 @@ Pirmin Kalberer,pka sourcepole com,Switzerland,pka
 Ricardo Pinho,rpinho_eng yahoo com br,Portugal,rpinho
 Roald de Wit,osgeo rdewit net,Australia,rdewit
 Ruth Schoenbuchner,ruth.schoenbuchner csgis.de,Germany,rscsgis
-Sergio Baños,sbc saig es,Spain,sbcalvo
+Sergio Ba?os,sbc saig es,Spain,sbcalvo
 Simon Cropper,scropper botanicusaustralia com au,Australia,simoncropper
 Simon Pigot,simon.pigot csiro au,Australia,simonp
 Stefan A. Tzeggai,gp geopublishing org,Germany,alfonx
@@ -66,4 +65,3 @@ Steve Lime,sdlime gmail com,USA,sdlime
 Thierry Badard,tbadard spatialytics com,Canada,tbadard
 Tom Kralidis,tomkralidis hotmail com,Canada,tomkralidis
 Trevor Wekel,trevor_wekel otxsystems com,Canada,trevorwekel
-Zhengfan Lin, public t lin gmail com, China, tanner
