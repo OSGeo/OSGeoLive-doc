@@ -1,5 +1,5 @@
 ﻿
-欢迎访问|osgeo-live-version|
+欢迎访问 |osgeo-live-version|
 ================================================================================
 
 `OSGeo-Live <http://live.osgeo.org>`_ 是一套基于 `Xubuntu <http://www.xubuntu.org/>`_ 的可独立应用的自启动DVD、USB盘或者虚拟机，
@@ -10,18 +10,16 @@
   :alt: boot select
   :align: right
 
-OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用案例，包括：数据的存储、发布、显示、分析和管理。
-它还包含简单的数据集和文档。
+OSGeo-Live 提供一系列预先配置的应用程序，并包含了许多地理空间信息的使用案例，其中包括数据的存储、发布、显示、分析和管理等。它还带有简单的示例数据集和文档。
 
-试用应用程序，步骤很简单：
+试用 OSGeo-Live 应用程序的步骤很简单：
 
-#. 把DVD或USB盘插入到计算机或虚拟机中
-#. 重启计算机(如有必要，请确认启动盘顺序)
-#. 按"Enter"开始，并登录
-#. 在"Geospatial"菜单中选用应用系统
+#. 把 DVD 或 USB 盘插入到计算机中（或导入虚拟机）。
+#. 重启计算机（如有必要，请确认启动盘顺序）。
+#. 选择第一个“Live”选项载入系统。载入后直接按回车键登录即可。
+#. 在“Geospatial”菜单中选择你想使用的程序。
 
-许多应用系统也提供 `Apple OSX <../MacInstallers/>`_ 和
- `Microsoft Windows <../WindowsInstallers/>`_ 安装程序.
+其中许多程序也提供 `Apple OSX <../MacInstallers/>`_ 和`Microsoft Windows <../WindowsInstallers/>`_ 操作系统下的安装程序。
 
 
 快速入门
@@ -30,11 +28,11 @@ OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用�
 .. toctree::
    :maxdepth: 1
 
-   OSGeo-Live DVD入门 <quickstart/osgeolive_quickstart>
+   OSGeo-Live DVD 入门 <quickstart/osgeolive_quickstart>
    如何改变语言或键盘类型 <quickstart/internationalisation_quickstart>
-   如何在硬盘上安装OSGeo-Live <quickstart/osgeolive_install_quickstart>
-   如何在虚拟机上安装OSGeo-Live <quickstart/virtualbox_quickstart>
-   如何创建一个OSGeo-Live自启动USB盘 <quickstart/usb_quickstart>
+   如何在硬盘上安装 OSGeo-Live <quickstart/osgeolive_install_quickstart>
+   如何在虚拟机上安装 OSGeo-Live <quickstart/virtualbox_quickstart>
+   如何创建一个 OSGeo-Live 自启动 USB 盘 <quickstart/usb_quickstart>
 
 .. toctree::
    :maxdepth: 1
@@ -54,6 +52,6 @@ OSGeo-Live提供预配置的应用程序，用于一系列的地理空间使用�
 
 介绍
 --------------------------------------------------------------------------------
-大约半小时Presentation资料，简明介绍了所有的OSGeo-Live应用程序，包括：视频，PPT和文字描述。
+这份时长大约半小时简介（英语）简明扼要地介绍了 OSGeo-Live 中包含的应用程序。简介包括视频，幻灯片（ODP 格式）和纯文本三种形式。
 
-详情请见 :doc:`presentation`.
+详情请见 :doc:`presentation` 目录。
