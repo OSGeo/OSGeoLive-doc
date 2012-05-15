@@ -2,7 +2,7 @@
 欢迎访问 |osgeo-live-version|
 ================================================================================
 
-　　欢迎来到 `OSGeo-Live <http://live.osgeo.org>`_！这是一套基于 `Xubuntu <http://www.xubuntu.org/>`_ 操作系统建立的，可从 DVD、USB 盘或虚拟机启动并独立运行的演示环境。它让用户可以不用预先安装任何软件系统就使用众多的开源空间信息软件。OSGeo-Live 完全是由自由软件构成，可以自由地部署、复制和分发。
+　　欢迎来到 `OSGeo-Live <http://live.osgeo.org/>`_ 。这是一套基于 `Xubuntu <http://www.xubuntu.org/>`_ 操作系统建立的，可从 DVD、USB 盘或虚拟机启动并独立运行的演示环境。它让用户可以不用预先安装任何软件系统就使用众多的开源空间信息软件。OSGeo-Live 完全是由自由软件构成，可以自由地部署、复制和分发。
 
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
@@ -54,6 +54,4 @@
 
 简介
 --------------------------------------------------------------------------------
-　　这份时长大约半小时的简介（英语）简明扼要地介绍了 OSGeo-Live 中包含的应用程序。简介包括视频，幻灯片（ODP 格式）和纯文本三种形式。
-
-　　详情请见 `presentation <https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/>`_ 目录。
+　　这份时长大约半小时的简介（英语）简明扼要地介绍了 OSGeo-Live 中包含的应用程序。简介包括视频，幻灯片（ODP 格式）和纯文本三种形式。详情请见 `presentation <https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/>`_ 目录。
