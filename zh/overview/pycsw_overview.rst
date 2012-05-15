@@ -21,7 +21,7 @@ PYCSW 元数据编录
 
 　　所谓元数据，是“描述数据的数据”，例如创建时间，作者，空间范围等，通常以 XML 文档储存。这些数据多遵循 ISO 19115 ，ISO 19139 ，FGDC CSDGM 等国际标准。
 
-　　Py-CSW 是 OGC 网络编录服务标准（ :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`）的 Python 语言实现。CSW 标准定义了一套统一的接口，用于对空间信息及相关数据进行检索、查询和浏览。
+　　Py-CSW 是 OGC 网络编录服务标准 (:doc:`OGC Catalogue Services for the Web (CSW) standard <../standards/csw_overview>`) 的 Python 语言实现。CSW 标准定义了一套统一的接口，用于对空间信息及相关数据进行检索、查询和浏览。
 
 　　Pycsw 是使用麻省理工（MIT）开源协议发布的软件，在包括 Windows 、Linux 和 Mac OS-X 的主流平台上均可运行。
 
