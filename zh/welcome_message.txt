@@ -1,10 +1,16 @@
 Welcome to the OSGeo Live GIS DVD.
 
+欢迎使用 OSGeo Live GIS DVD 。
+
 
 See the road-sign Help icon on the Desktop for information      
 about the Live disc and virtual-machine, including a
 synopsis of bundled geospatial packages and a series of
 quick-start short tutorials.
+
+点击桌面上形似路标的 Help/帮助 图标可获得本镜像及虚拟机的帮助
+文档，其中包括所有地理空间信息软件的列表及相应的入门课程。
+
 
 To change the language, log out (Applications menu) and
 along the bottom of the login screen is the language menu. 
@@ -13,21 +19,47 @@ Once you log back in (the password if you need it is
 you pick the keyboard layout. You can also set it via the
 menus with Applications > System > Language Support.
 
+若需要改变界面语言，在 Applications/应用程序 菜单选择
+Log out/注销 ，在登录界面底部可以找到语言选项。重新登录后
+（若需要，输入“user”作为密码），点击右上角的国旗图标可以切换
+键盘布局设置。在 Applications/应用程序 > System/系统 >
+Language Support/语言支持 > 面板也可以设置。
+
+
 If you have the full DVD edition, various program installers
 for Macintosh and Microsoft Windows can be found in the
 MacInstallers and WindowsInstallers directories.
 
+如果你下载了完整版（带 Win/Mac 安装包）的 DVD ，这些安装包可以
+在 MacInstallers 和 WindowsInstallers 目录下找到。
+
+
 Passwords for various things can be found in the
 passwords.txt file on the Desktop.
+
+Passwords.txt 文件中包含了可能需要的各种密码。
+
 
 If you need to become "root" (the UNIX super-user) open a
 Terminal and type "sudo su", then enter "user" as the
 password.
 
+如需要 root（UNIX 系统最高级别用户）权限，打开命令行，输入
+“sudo su”，然后输入“user”作为密码即可。
+
+
 The living FAQ can be found here:
+
+以下是常见问题页面（英语）：
+
   http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
 
 
-
 Happy mapping!
+
+希望您有愉快的制图体验!
+
+
 The OSGeo Live GIS Team
+
+OSGeo Live GIS 团队敬上
