@@ -5,19 +5,8 @@ OSGeo 开源地理信息基金会
 
 　　OSGeo 的所有项目成果均以通过 OSI 开源软件促进会认证的 `协议 <http://www.opensource.org/licenses/>`_ 发布，可以自由地获取和使用。
 
+　　这套 OSGeo-Live GIS 光盘（镜像）/ 虚拟机是基金会成员收集、整理和制作的成果，用于展示基金会成员所认同的自由开源地理信息软件（Free and Open Source Software for Geospatial ，即 FOSS4G）。我们也选用了一些非 OSGeo 项目的优秀成果，以期对您有所助益。基金会官方对所选用或涉及的任何软件、项目或公司不作出推荐或保证。
 
-This Live GIS disc and virtual-machine has been put together by members
-of the OSGeo community to showcase their favourite Free and Open Source
-(FOSS) geospatial software. We've included a number of non-OSGeo software
-packages, GIS focused and otherwise, which we hope you will find to be as
-useful as we do. The OSGeo Foundation does not recommend or guarantee any
-associated software, projects, or companies found within.
-
-　　这套 OSGeo-Live GIS 光盘（镜像）/ 虚拟机是基金会成员收集、整理和制作的成果，用于展示基金会成员推荐的自由开源地理信息软件（Free and Open Source Software for Geospatial ，即 FOSS4G）。我们也选用了一些非 OSGeo 项目的优秀成果，以期对您有所助益。基金会官方对所选用或涉及的任何软件、项目或公司不作出正式的推荐或保证。
-
-`These programs are distributed in the hope that they will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
 `　　请注意，OSGeo 为您提供这些软件，希望其对您有益，但并不提供任何形式的保证，哪怕是对软件针对某一用途适用性的隐含的保证。`
 
 OSGeo 赞助者
