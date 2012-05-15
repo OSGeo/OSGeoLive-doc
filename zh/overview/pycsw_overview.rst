@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Translator: Tanner Lin
+:Version: OSGeo-Live 5.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -13,78 +14,78 @@
 pycsw
 ================================================================================
 
-Metadata Catalogue
+PYCSW 元数据编录
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pycsw enables users to publish a catalogue of dataset descriptions (metadata) to the web, using standards based interfaces and formats, such that it can be queried and updated by catalogue clients. pycsw is simple to setup within an Apache web server and can access metadata records stored as XML files within a database.
+　　Pycsw 用于通过网络发布数据集的描述信息编录，即元数据。借由一套标准化的接口和数据格式，它实现了对各类编录数据客户端数据查询和更新的支持。Pycsw 可以轻松地部署在 Apache 服务器系统上，并对数据库内以 XML 格式存储的元数据进行操作。
 
-Metadata is 'data about data', storing such things as creation-date, author, title, area-of-interest, etc, and is usually encoded as XML files, following international standards such as ISO 19115, ISO 19139 and FGDC CSDGM.
+　　所谓元数据，是“描述数据的数据”，例如创建时间，作者，空间范围等，通常以 XML 文档储存。这些数据多遵循 ISO 19115 ，ISO 19139 ，FGDC CSDGM 等国际标准。
 
-pycsw is a `Python`_ implementation of the :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources.
+　　Py-CSW 是 OGC 网络编录服务标准（ :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`）的 Python 语言实现。CSW 标准定义了一套统一的接口，用于对空间信息及相关数据进行检索、查询和浏览。
 
-pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
+　　Pycsw 是使用麻省理工（MIT）开源协议发布的软件，在包括 Windows 、Linux 和 Mac OS-X 的主流平台上均可运行。
 
 .. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
-  :alt: project logo
+  :alt: PyCSW Logo
   :align: right
 
-Core Features
+主要特性
 --------------------------------------------------------------------------------
 
-* fully passes the OGC CITE CSW test suite (103/103)
-* implements INSPIRE Discovery Services 3.0
-* implements ISO Metadata Application Profile 1.0.0
-* implements FGDC CSDGM Application Profile for CSW 2.0
-* supports ISO, Dublin Core, DIF, FGDC metadata models
-* simple configuration
-* transactional capabilities (CSW-T)
-* flexible repository configuration
-* federated catalogue distributed searching
-* realtime XML Schema validation
-* extensible profile plugin architecture
-* very lightweight (Python + CGI)
+* 完全通过 OGC CITE CSW 标准测试（103/103 满分通过）
+* 遵循 INSPIRE Discovery Services 3.0
+* 遵循 ISO Metadata Application Profile 1.0.0
+* 遵循 FGDC CSDGM Application Profile for CSW 2.0
+* 支持 ISO 、Dublin Core 、DIF 和 FGDC 的元数据定义
+* 易于配置
+* 具备事物处理能力（CSW-T）
+* 灵活的数据库设定
+* 分布式数据的联合搜索
+* 对 XML 文档的实时校验
+* 支持插件扩展的构架
+* 高度轻量化（Python + CGI）
 
 
-Implemented Standards
+遵循的标准
 --------------------------------------------------------------------------------
 
-OGC Standards:
+OGC 开放地理空间信息联合会标准：
 
 * CSW 	2.0.2
 * Filter 	1.1.0
 * OWS Common 	1.0.0
 * GML 	3.1.1
 
-Metadata Standards:
+元数据标准：
 
-* Dublin Core 	1.1
-* SOAP 	1.2
-* ISO 19115 	2003
-* ISO 19139 	2007
-* ISO 19119 	2005
-* NASA DIF 	9.7
-* FGDC CSDGM 	1998
+* Dublin Core 1.1
+* SOAP 1.2
+* ISO 19115 2003
+* ISO 19139 2007
+* ISO 19119 2005
+* NASA DIF 9.7
+* FGDC CSDGM 1998
 
-Details
+相关信息
 --------------------------------------------------------------------------------
 
-**Website:** http://pycsw.org
+**官方网站：** http://pycsw.org
 
-**Licence:** `MIT`_
+**协　　议：** `MIT`_
 
-**Software Version:** 1.2.0
+**软件版本：** 1.2.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**平台支持：** Windows / Linux / Mac
 
-**API Interfaces:** Python
+**接口语言：** Python
 
-**Support:** http://pycsw.org/docs/support.html
+**帮助文档：** http://pycsw.org/docs/support.html
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
 
-Quickstart
+快速入门
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
