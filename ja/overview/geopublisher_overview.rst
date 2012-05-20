@@ -13,58 +13,58 @@
 Geopublisher
 ================================================================================
 
-�d�q���C�u�����E�}�l�[�W���[
+電子ライブラリ・マネージャー
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geopublisher�́A�n���f�[�^�A�����A�摜�A�r�f�I�A����ѓ��v�Ƃ������f�W�^���ȃ}���`���f�B�A�E�A�g���X�`�����ȒP�ɏo�ł��邽�߂̃A�g���X�E�I�[�T�����O�V�X�e���ł��B�����̃A�g���X�͌����I�ɍŏ�������A���O�\������A�G���h���[�U�[�^��GIS�ŁA�Ӗ��̂���@�\�̂ݑI�����Ē񎦂������̂ł��BGeopublisher�́A�i���ۏ؂⑽����̃��^�f�[�^�Ǘ����s�����߂̃c�[����񋟂��Ă��܂��B �A�g���X���쐬����ɂ������ẮAHTML�ASLD��XML�̐[���m���͕s�v�ł��B�A�g���X�́A����CD��DVD�A�������X�e�B�b�N�A�O�t���n�[�h�h���C�u�A�܂��̓C���^�[�l�b�g��Ō��J���邱�Ƃ��ł��܂��B�\�t�g�E�F�A�́A�v���b�g�t�H�[���Ɉˑ����܂���B
+Geopublisherは、地理データ、文書、画像、ビデオ、および統計といったデジタルなマルチメディア・アトラス形式を簡単に出版するためのアトラス・オーサリングシステムです。これらのアトラスは効率的に最小化され、事前構成され、エンドユーザー型のGISで、意味のある機能のみ選択して提示されるものです。Geopublisherは、品質保証や多言語のメタデータ管理を行うためのツールを提供しています。 アトラスを作成するにあたっては、HTML、SLDやXMLの深い知識は不要です。アトラスは、直接CDやDVD、メモリスティック、外付けハードドライブ、またはインターネット上で公開することができます。ソフトウェアは、プラットフォームに依存しません。
 
-Geopublisher�̃��j�[�N�ȓ����́A���ۓI�Ȓ�����A�Q���^GIS�A�\�͊J���A����ъJ�����͂̕���œ��ɔ�������܂��B
+Geopublisherのユニークな特徴は、国際的な調査や、参加型GIS、能力開発、および開発協力の分野で特に発揮されます。
 
 
-��ȓ���
+主な特徴
 --------------------------------------------------------------------------------
 .. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right
 
-* Geopublisher�ō쐬���ꂽ�A�g���X�́A�P���ȃG���h���[�U�[�^��GIS�ł���A�Ӗ��̂���@�\�݂̂�I���ł��܂��B
-* �I�����C���ƃI�t���C���̃n�C�u���b�h�ȃA�g���X�́A�f�W�^���E�f�o�C�h�������n��ɂ�����n���f�[�^�ɃA�N�Z�X�ł���悤�ɂȂ�܂��B
-* ���^�E�f�[�^�̑�����Ǘ��́A�璷�����������ƂƂ��ɍX�V���ꂽ�A�g���X�̐v���ȃ����[�X���\�ɂ��܂��B
-*SLD��HTML�p�ɓ������ꂽWYSIWYG�G�f�B�^�́ASLD�AXML�AHTML�̒m�����Ȃ��Ă��W�I�p�u���b�V���O���邱�Ƃ��ł��܂��B
-* �S�Ẵ\�t�g�E�F�A���AOGC��ɏ��������t���[�ŃI�[�v���\�[�X�̃\�t�g�E�F�A�ł��B
-* Geopublisher + QuantumGIS + OpenOffice ���A�t���[�ŃI�[�v���\�[�X�ȃW�I�p�u���b�V���O�E�f�X�N�g�b�v��񋟂��܂��B
-* :doc:`AtlasStyler <atlasstyler_overview>` SLD�G�f�B�^���AGeopublisher�̒��ɓ�������Ă��܂��B
-* Mac OS, Windows and Linux��œ��삵�܂��B
+* Geopublisherで作成されたアトラスは、単純なエンドユーザー型のGISであり、意味のある機能のみを選択できます。
+* オンラインとオフラインのハイブリッドなアトラスは、デジタル・デバイドを抱える地域における地理データにアクセスできるようになります。
+* メタ・データの多言語管理は、冗長性を回避するとともに更新されたアトラスの迅速なリリースを可能にします。
+*SLDとHTML用に統合されたWYSIWYGエディタは、SLD、XML、HTMLの知識がなくてもジオパブリッシングすることができます。
+* 全てのソフトウェアが、OGC基準に準拠したフリーでオープンソースのソフトウェアです。
+* Geopublisher + QuantumGIS + OpenOffice が、フリーでオープンソースなジオパブリッシング・デスクトップを提供します。
+* :doc:`AtlasStyler <atlasstyler_overview>` SLDエディタが、Geopublisherの中に統合されています。
+* Mac OS, Windows and Linux上で動作します。
 * Styling based on OGC SLD standard.
-* �I�t���C���̃A�g���X�́A���ڂ��܂��܂ȃ��f�B�A����N�����܂�- Java�̓C���X�g�[������Ă��Ȃ��Ă��\���܂���B
-* GeoTiff�̃^�C����I�[�o�[�r���[�Ɠ��l�ɋ���ȃ��X�^�[�f�[�^�̂��߂̃^�C�������ꂽ�s���~�b�h�摜���T�|�[�g���܂��B
-* �h�C�c��A�X�y�C����A�p��A�C�^���A��A�t�����X��Ŋ��S�ɖ|�󂳂�Ă��܂��B
+* オフラインのアトラスは、直接さまざまなメディアから起動します- Javaはインストールされていなくても構いません。
+* GeoTiffのタイルやオーバービューと同様に巨大なラスターデータのためのタイル化されたピラミッド画像をサポートします。
+* ドイツ語、スペイン語、英語、イタリア語、フランス語で完全に翻訳されています。
 
 
-�������Ă���W���K�i
+準拠している標準規格
 --------------------------------------------------------------------------------
 * OGC Style Layer Descriptor (SLD)
 
-�ڍ�
+詳細
 --------------------------------------------------------------------------------
 
-**�E�F�u�T�C�g:** http://en.geopublishing.org/Geopublisher
+**ウェブサイト:** http://en.geopublishing.org/Geopublisher
 
-**�\�t�g�E�F�A�o�[�W����:** 1.8
+**ソフトウェアバージョン:** 1.8
 
-**���C�Z���X:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
+**ライセンス:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
 
-**�Ή��v���b�g�t�H�[��:** GNU/Linux, MS Windows, Mac OS - ������OS�ɂ�����Java 1.6���C���X�g�[���\�Ȃ���
+**対応プラットフォーム:** GNU/Linux, MS Windows, Mac OS - あらゆるOSにおいてJava 1.6がインストール可能なこと
 
-**API�C���^�[�t�F�[�X:** Java, Swing, Geotools
+**APIインターフェース:** Java, Swing, Geotools
 
-**�T�|�[�g:** http://www.wikisquare.de
+**サポート:** http://www.wikisquare.de
 
 
-�N�C�b�N�X�^�[�g
+クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`�N�C�b�N�X�^�[�g���� <../quickstart/geopublisher_quickstart>`
+* :doc:`クイックスタート文章 <../quickstart/geopublisher_quickstart>`
 
 
