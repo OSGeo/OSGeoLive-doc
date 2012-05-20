@@ -19,18 +19,14 @@ http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
 Requeriments
 --------------------------------------------------------------------------------
 
-* Un disc USB de 4 GB, si penseu emprar osgeo-live-mini (sense instal·ladors per
-Windows ni Mac)
-* Un disc USB de 8 GB USB, si penseu emprar osgeo-live (amb instal·ladors per
-  Windows i per Mac)
-* Un DVD d'OSGeo-Live DVD o bé una imatge ISO (que podeu descarregar de:
-  http://live.osgeo.org/en/download.html)
+* Un disc USB de 4 GB, si penseu emprar osgeo-live-mini (sense instal·ladors per Windows ni Mac)
+* Un disc USB de 8 GB USB, si penseu emprar osgeo-live (amb instal·ladors per Windows i per Mac)
+* Un DVD d'OSGeo-Live DVD o bé una imatge ISO (que podeu descarregar de: http://live.osgeo.org/en/download.html)
 
 Crear un disc USB d'arrencada a Ubuntu
 --------------------------------------------------------------------------------
 
-(Aquest és el procediment recomanat per crear l'USB, i també s'aplica a les
-variants d'Ubuntu, com Xubuntu o OSGeo-Live.)
+(Aquest és el procediment recomanat per crear l'USB, i també s'aplica a les variants d'Ubuntu, com Xubuntu o OSGeo-Live.)
 
 .. note::
    La versió d'Ubuntu que executeu ha de ser la mateixa o bé més nova que la
@@ -136,8 +132,7 @@ Executeu segons: :doc:`osgeolive_quickstart`
 Problemes coneguts:
 --------------------------------------------------------------------------------
 
-* Els ordinadors MAC no arrencaran des d'aquest disc USB, heu de fer servir el
-LiveDVD 
+* Els ordinadors MAC no arrencaran des d'aquest disc USB, heu de fer servir el LiveDVD 
 
 Vegeu també:
 --------------------------------------------------------------------------------
