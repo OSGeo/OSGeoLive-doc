@@ -46,8 +46,7 @@ Desktop GIS
 * :doc:`geopublisher_overview` - [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Katalogdienst
 * :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Style Editor
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
-
-.. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Meeresboden Kartierung
+* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Meeresboden Kartierung
 
 Navigation und Karten
 --------------------------------------------------------------------------------
@@ -84,8 +83,6 @@ Internet Dienste
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
-
 Daten
 --------------------------------------------------------------------------------
 
@@ -111,7 +108,6 @@ Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows basiertes GIS
-* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Meeresboden Mapping
 
 .. MapGuide und MB-System wurden temporär deaktiviert um Platz zu sparen; MapWindow läuft nicht unter Ubuntu
 

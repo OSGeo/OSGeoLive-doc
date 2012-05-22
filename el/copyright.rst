@@ -11,7 +11,7 @@
 
 Αναφορά στα Εγχειρίδια του OSGeo-Live
 --------------------------------------------------------------------------------
-Όπως αναφέρεται στους όρους της άδειας Creative Commons <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, αν περιληφθεί κείμενο των εγχειριδίων του OSGeo-Live σε νέο κείμενο, θα χρειαστεί να γίνει αναφορά στους συγγραφείς.
+Όπως αναφέρεται στους όρους της άδειας `Creative Commons <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, αν περιληφθεί κείμενο των εγχειριδίων του OSGeo-Live σε νέο κείμενο, θα χρειαστεί να γίνει αναφορά στους συγγραφείς.
 
 Επιπρόσθετα, αν συμπεριληφθούν τα Εγχειρίδια Γρήγορης Εκκίνησης, τα οποία χρησιμοποιούν την άδεια `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_ , τότε το κείμενο που θα προκύψει θα πρέπει και εκείνο να χρησιμοποιεί την άδεια the `CC By-SA <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 
@@ -30,7 +30,7 @@
 
 **Εναλλακτική συνοπτική αναφορά CC-By:**
 
-  |CC-By-small| © 2011 [Όνομα συγγραφέα]. [Προέκυψε από|Περιλαμβάνει|Επεκτείνει] τις ` Περιλήψεις του OSGeo-Live <http://live.osgeo.org>`_ από τους `συντελεστές OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
+  |CC-By-small| © 2011 [Όνομα συγγραφέα]. [Προέκυψε από|Περιλαμβάνει|Επεκτείνει] τις Περιλήψεις του `OSGeo-Live <http://live.osgeo.org>`_ από τους `συντελεστές OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
 
   .. |CC-By-small| image:: ../images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/

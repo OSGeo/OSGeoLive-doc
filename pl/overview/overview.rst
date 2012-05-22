@@ -46,8 +46,7 @@ Desktop GIS
 * :doc:`geopublisher_overview`- [:doc:`Wprowadzenie <../quickstart/geopublisher_quickstart>`] - atlasy multimedialne
 * :doc:`atlasstyler_overview` - [:doc:`Wprowadzenie <../quickstart/atlasstyler_quickstart>`] - edytor stylów (SLD)
 * :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
-
-.. temp disabled to save disc space: * :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
+* :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
 
 Nawigacja i Mapy
 --------------------------------------------------------------------------------
@@ -82,10 +81,7 @@ Usługi sieciowe
 * :doc:`52nWPS_overview` - [:doc:`Wprowadzenie <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - usługa WFS-T
-
 * :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-
-.. temp disabled to save on disc space:  * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`]
 
 Dane
 --------------------------------------------------------------------------------
@@ -96,6 +92,7 @@ Dane
 Biblioteki geoprzesrzenne
 --------------------------------------------------------------------------------
 * :doc:`geotools_overview` - zestaw narzędzi GIS w Javie
+* :doc:`geos_overview`
 * :doc:`metacrs_overview` - przeliczenia pomiędzy układami
 * :doc:`liblas_overview`  - dostęp do danych LiDAR
 

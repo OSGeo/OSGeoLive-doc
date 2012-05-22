@@ -82,9 +82,6 @@ Servicios Web
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servicios de Sensores de Observación
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento
 
-
-.. temp disabled to save disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
-
 Datos
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Conjuntos de datos Geográficos
@@ -94,6 +91,7 @@ Datos
 Bibliotecas geoespaciales
 --------------------------------------------------------------------------------
 * :doc:`geotools_overview` - Java GIS Toolkit
+* :doc:`geos_overview`
 * :doc:`metacrs_overview` - Transformaciones de Sistemas de Referencia de Coordenadas
 * :doc:`liblas_overview`  - libLAS acceso datos LIDAR
 

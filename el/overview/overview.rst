@@ -83,8 +83,6 @@
 * :doc:`tinyows_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. temp disabled to save disc space: * :doc:`mapguide_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`]
-
 Δεδομένα
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
@@ -93,7 +91,8 @@
 
 Γεωχωρικές Βιβλιοθήκες
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
+* :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS
+* :doc:`geos_overview`
 * :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
 * :doc:`liblas_overview`  - Πρόσβαση δεδομένων LiDAR
 
@@ -101,7 +100,6 @@
 --------------------------------------------------------------------------------
 * :doc:`mapguide_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`] - Διαδικτυακή Υπηρεσία
 * :doc:`mapwindow_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapwindow_quickstart>`] - GIS βασισμένο στα Microsoft Windows
-* :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
 
 .. MapGuide and MB-System temporarily disabled to save on disc space; MapWindow won't run on Ubuntu
 
