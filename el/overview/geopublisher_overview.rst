@@ -68,6 +68,6 @@ Geopublisher
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
 
-* :doc:'Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geopublisher_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/geopublisher_quickstart>`
 
 
