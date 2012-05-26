@@ -9,50 +9,6 @@
 var supported_languages= ["el", "es", "ca", "pl", "en", "de", "jp", "zh"];
 
 /**
- * returns the context if its possible to extract a 2 char lenght language key
- * otherwise just returns an empty object
- * 
- * @param {url} - the current url
- */
-var getContext = function(url) {
-
-    // search the
-    // substring to extract the language code (two chars, e.g. 'en', 'ca', etc)
-    var context;
-
-    var splittedURL = url.split("/");
-
-    var currentLanguage;
-
-    // search backwards
-    for(i = splittedURL.length-1; i >=0 ; i--) {
-        if (splittedURL[i].length === 2) {
-            currentLanguage = "/" + splittedURL[i] + "/";
-            break;
-        }
-    }
-
-    if (!currentLanguage) {
-        return;
-    }
-    var lastLangIndex = url.lastIndexOf(currentLanguage);
-    return url.substr(lastLangIndex);
-}
-
-/**
- * returns a substring for the language from url
- * 
- * @param {url} - the current url
- */
-var getLanguageFormUrl = function(url) {
-    var context = getContext(url);
-    if (!context) {
-        return;
-    }
-    return context.substr(1, 2);
-}
-
-/**
  * creates a location object from url string 
  * to work with pathname (<object>.pathname)
  * 
@@ -92,21 +48,12 @@ var redirectFromUrlToLang = function(url, lang) {
         language = lang.toLowerCase();
     }
     var pathName = url.pathname;
-    var newPathName = getContext(pathName);
+    
+    var currentContext = createContextObject(pathName);
 
-    if (!newPathName) {
-        // do nothing
-        return;
-    }
-
-        // the requested language is different to the current
-    if (!(language === getLanguageFormUrl(pathName))) {
-        var pathWithoutLanguage = newPathName.substr(3);
-        var newContext = "/" + language + pathWithoutLanguage;
-        newPathName = pathName.replace(newPathName, newContext);
-    }
-
-    var newPage = url.href.replace(pathName, newPathName);
+    var newPathName = new contextObj(currentContext.prefix, language, currentContext.suffix);
+    
+    var newPage = url.href.replace(currentContext.getAsPathName(), newPathName.getAsPathName());
 
     window.location.href = newPage;
 }
@@ -159,4 +106,70 @@ var isLanguageSupported = function(lang) {
     }
 
     return false;
+}
+
+/**
+ * returns the context if its possible to extract a 2 char lenght language key
+ * otherwise just returns an empty object
+ * sp
+ * @param {url} - the current url
+ */
+var getLanguageFromPathname = function(url) {
+
+    // search the
+    // substring to extract the language code (two chars, e.g. 'en', 'ca', etc)
+    var splittedURL = url.split("/");
+
+    var currentLanguage;
+
+    // search backwards
+    for(i = splittedURL.length-1; i >=0 ; i--) {
+        if (splittedURL[i].length === 2) {
+            currentLanguage = splittedURL[i];
+            break;
+        }
+    }
+
+    return currentLanguage;
+}
+
+/**
+ * Object for easier access to the context pathname
+ *
+ * @param {prefix} - prefix which can have a null length
+ * @param {language} - two char language key (e.g. 'en', 'de', etc)
+ * @param {suffix} - the context behind the language key
+ */
+function contextObj(prefix, language, suffix)
+{
+    this.prefix=prefix;
+    this.language=language;
+    this.suffix=suffix;
+
+    this.getAsPathName = function() {
+        return this.prefix + "/" + this.language + "/" + this.suffix;
+    }
+}
+
+/**
+ * creates a Context object from the current pathname
+ */
+var createContextObject = function(pathname) {
+    var lang = getLanguageFromPathname(pathname);
+    if (!lang) {
+        // language from url failed
+        return;
+    }
+    var idxInPath = pathname.lastIndexOf("/" + lang + "/");
+    
+    var contextPrefix;
+    if (idxInPath > 0) {
+        contextPrefix = pathname.substring(0, idxInPath);
+    } else {
+        contextPrefix = "";
+    }
+    
+    contextSuffix = pathname.substr(idxInPath + 2 + lang.length)
+
+    return new contextObj(contextPrefix, lang, contextSuffix)
 }
