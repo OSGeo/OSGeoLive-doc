@@ -71,11 +71,11 @@ OGRベクタデータモデルはOGCの単純地物モデルに基づいてい�
 
 **ライセンス:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**バージョン:** 1.7.3
+**バージョン:** 1.8.0
 
-**サポートするプラットフォーム:** Windows, Linux, Mac
+**動作プラットフォーム:** Windows, Linux, Mac
 
-**APIインターフェース:** C, C++, Python, Java, C#, Ruby, VB6, Perl
+**API:** C, C++, Python, Java, C#, Ruby, VB6, Perl
 
 **サポート:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
 
