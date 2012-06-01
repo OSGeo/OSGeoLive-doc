@@ -1,6 +1,6 @@
-:Author: Bastian Schaeffer, Kristof Lange
+:Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -17,7 +17,7 @@ Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` enables web access to geospatial
-processing algorithms provided by Sextane, ArcGIS Server, or custom developed
+processing algorithms provided by Sextane, ArcGIS Server, R, GRASS 7, or custom developed
 functions. Algorithms may be as simple as determining the difference in 
 influenza cases between two different seasons, or as complicated as a global climate change model.
 
@@ -34,16 +34,20 @@ Core GIS functions:
 * SimpleBufferAlgorithm
 * DouglasPeuckerAlgorithm
 * IntersectionAlgorithm
+* AddRasterValuesAlgorithm
+* CoordinateTransformAlgorithm
 	
 Backend algorithms available through:
 
 * Sextante
 * ArcGIS Server
+* R
+* GRASS 7
 
 Input and Output formats supported:
 
-* Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text)
-* Raster Data: Geotiff, AsciiGrid
+* Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
+* Raster Data: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
 
 A browser based client
 
@@ -61,7 +65,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** WPS 2.0 RC6
+**Software Version:** WPS 3.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
