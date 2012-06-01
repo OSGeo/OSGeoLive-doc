@@ -21,9 +21,10 @@ QGIS Server
 ウェブサービス
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-QGIS Serverは、デスクトップ・アプリケーションであるQuantum GIS (QGIS)と同じライブラリを使用して、ウェブ・マップ・サービス(WMS)を提供します。
-QGISデスクトップに生成されたマップと印刷テンプレートは、サーバーのディレクトリにあるQGISのプロジェクトファイルをコピーすることで、シンプルなWebマップとして公開することができます。結果として、Webマップは、デスクトップと全く同じように見えます。
-QGIS Serverは通常Apacheウェブサーバーの中で、CGI/FastCGIモジュールとして実行されます。
+QGIS Server は Quantum GIS (QGIS) と同じライブラリを使用してウェブ地図サービス (Web Map Service - WMS) を提供します。
+QGIS で作成した地図、印刷テンプレートをサーバにプロジェクトファイルをコピーするだけで公開できます。
+こうして作ったウェブ地図はデスクトップで作成したものと全く同じになります。
+QGIS Server は Apache Webserver 上の CGI/FastCGI モジュールとして動作します。
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
@@ -31,16 +32,16 @@ QGIS Serverは通常Apacheウェブサーバーの中で、CGI/FastCGIモジュ�
   :align: right
 
 
-主な特徴
+主な機能
 --------------------------------------------------------------------------------
 
-* Web Map Service (WMS) 実装
-* PDF出力の内蔵
-* QGISによるWYSIWYGマップの生成
-* 高度な地図シンボル
-* Styled Layer Descriptor (SLD)への対応
+* ウェブ地図サービス（Web Map Service - WMS） の実装
+* PDF 出力の内蔵
+* QGIS での WYSIWYG 環境での地図制作
+* 拡張カートグラフ記号
+* スタイル付きレイヤディスクリプタ (Styled Layer Descriptor SLD) のサポート
 
-標準仕様
+準拠している標準規格
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.3.0
@@ -53,11 +54,11 @@ QGIS Serverは通常Apacheウェブサーバーの中で、CGI/FastCGIモジュ�
 
 **ライセンス:** GPL
 
-**ソフトウェアのバージョン:** 1.7.4
+**バージョン:** 1.7.4
 
 **対応プラットフォーム:** Windows, Linux
 
-**商用サポート:** http://www.sourcepole.com/
+**コマーシャル支援:** http://www.sourcepole.com/
 
 
 クイックスタート
