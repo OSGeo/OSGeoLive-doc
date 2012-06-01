@@ -1,6 +1,6 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: TBD
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -28,14 +28,19 @@ be a camera on a satellite or a water level meter in a stream.
 Features
 --------------------------------------------------------------------------------
 
-The current 52°North SOS (version 3.1.1) implements the core, transactional, and 
-parts of the enhanced profile of the SOS specification. The current 
-release implements the latest schema version (1.0.0) and the following operations:
+**Client**:
 
+* A browser based client provides test XML queries for all supported operations.
+
+The current 52°North SOS (version 3.5.0) implements the latest schema version 
+(2.0.0 and its predecessor 1.0.0). Regarding the different the following operations are implemented:
+
+OGC SOS 1.0.0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Core SOS operations**:
 
 * GetCapabilities, for requesting a self-description of the service.
-* GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M)
+* GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M).
 * DescribeSensor, for requesting meta information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
 
 **Transactional SOS operations**:
@@ -48,11 +53,21 @@ release implements the latest schema version (1.0.0) and the following operation
 * GetResult, for facilitating periodically polling sensor data.
 * GetObservationById, for retrieving specific individual observations.
 * GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
-* GetFeatureOfInterestTime, for determining the temporal availability of sensor data
+* GetFeatureOfInterestTime, for determining the temporal availability of sensor data.
 
-**Client**:
+OGC SOS 2.0.0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* A browser based client provides test XML queries for all supported operations.
+* GetCapabilities, for requesting a self-description of the service.
+* DescribeSensor, for requesting meta information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
+* GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M).
+* GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
+
+Within these requests the following filter operators are possible:
+
+* Spatial filter: BBOX, using a bounding box
+* Temporal filter: During, with time period
+* Temporal filter: TEquals, with time instant
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -66,7 +81,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** SOS 3.2.0
+**Software Version:** SOS 3.5.0
 
 **Supported Platforms:** Windows, Linux, Mac
 

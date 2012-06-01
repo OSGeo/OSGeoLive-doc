@@ -1,5 +1,5 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
-:Version: osgeo-live4.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -45,13 +45,14 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
 Additional Information
 ================================================================================
 
-* To learn more about 52°North SOS and/or 52°North, potential starting points are:
+To learn more about 52°North SOS and/or the 52°North Sensor Web Community, potential starting points are:
 
-* the 52°North :doc:`SOS overview <../overview/52nSOS_overview>`,
-* the 52°North Sensor Web mailing list: swe@52north.org, 
-* check the 52°North `Sensor Web community forum <http://sensorweb.forum.52north.org/>`_, 
+* The 52°North :doc:`SOS overview <../overview/52nSOS_overview>`,
+* The 52°North Sensor Web mailing list: swe@52north.org, 
+* Check the 52°North `Sensor Web community forum <http://sensorweb.forum.52north.org/>`_, 
+* Check the 52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_,
 * 52°North `SOS website <http://52north.org/communities/sensorweb/sos/>`_, or 
-* the website of the `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
+* The website of the `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
 
 * When the SOS is not available, please check if the tomcat servlet engine is running using the following command:
 

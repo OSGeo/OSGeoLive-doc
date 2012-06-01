@@ -47,11 +47,11 @@ Weitere Informationen
 
 * Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie über folgende Wege:
 
-* der 52°North `SOS-Überblick <../overview/52nSOS_overview.html>`_,
-* die 52°North Sensor Web Mailing-Liste: swe@52north.org, 
-* das Forum der 52°North `Sensor Web Community <http://sensorweb.forum.52north.org/>`_, 
-* die 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, or 
-* die Website der `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
+* Der 52°North `SOS-Überblick <../overview/52nSOS_overview.html>`_,
+* Die 52°North Sensor Web Mailing-Liste: swe@52north.org, 
+* Das Forum der 52°North `Sensor Web Community <http://sensorweb.forum.52north.org/>`_, 
+* Die 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, or 
+* Die Website der `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
 
 * Sollte der SOS nicht erreichbar sein, so prüfen Sie bitt emit folgendem Befehl, oder der Tomcat Web Service-Container läuft:
 
