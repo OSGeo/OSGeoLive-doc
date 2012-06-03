@@ -30,7 +30,7 @@ PYCSW 元数据编录
   :alt: PyCSW Logo
   :align: right
 
-主要特性
+基本特性
 --------------------------------------------------------------------------------
 
 * 完全通过 OGC CITE CSW 标准测试（103/103 满分通过）
@@ -52,10 +52,10 @@ PYCSW 元数据编录
 
 OGC 开放地理空间信息联合会标准：
 
-* CSW 	2.0.2
-* Filter 	1.1.0
-* OWS Common 	1.0.0
-* GML 	3.1.1
+* CSW 2.0.2
+* Filter 1.1.0
+* OWS Common 1.0.0
+* GML 3.1.1
 
 元数据标准：
 
@@ -88,5 +88,5 @@ OGC 开放地理空间信息联合会标准：
 快速入门
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
+* :doc:`快速入门文档 <../quickstart/pycsw_quickstart>`
 

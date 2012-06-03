@@ -46,7 +46,7 @@
 * :doc:`geopublisher_overview`- [:doc:`快速入门 <../quickstart/geopublisher_quickstart>`] — 空间数据编目、管理与发布
 * :doc:`atlasstyler_overview` - [:doc:`快速入门 <../quickstart/atlasstyler_quickstart>`] — 地图样式编辑器
 * :doc:`osgearth_overview` - [:doc:`快速入门 <../quickstart/osgearth_quickstart>`] — 3D 地形渲染函数库
-* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] — 海底地图制作
+* :doc:`mb-system_overview` - [:doc:`快速入门 <../quickstart/mb-system_quickstart>`] — 海底地图制作
 
 导航和地图
 --------------------------------------------------------------------------------
@@ -83,7 +83,7 @@
 * :doc:`tinyows_overview` - [:doc:`快速入门 <../quickstart/tinyows_quickstart>`] — 基于事务的网页空间要素服务
 * :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
 
-.. temp disabled to save on disc space: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
+.. 尚未进入 OSGeo-Live: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
 
 数据
 --------------------------------------------------------------------------------
@@ -99,10 +99,10 @@
 
 其它软件（尚未进入 Live 系统）
 --------------------------------------------------------------------------------
-* :doc:`mapguide_overview` - [:doc:`快速入门 <../quickstart/mapguide_quickstart>`] — 网络服务
-* :doc:`mapwindow_overview` - [:doc:`快速入门 <../quickstart/mapwindow_quickstart>`] — Microsoft Windows 的 GIS 工具
+* :doc:`mapguide_overview` - [:doc:`快速入门 <../quickstart/mapguide_quickstart>`] — 网络空间信息服务
+* :doc:`mapwindow_overview` - [:doc:`快速入门 <../quickstart/mapwindow_quickstart>`] — Windows 操作系统下的 GIS 工具
 
-.. MapGuide 和 MB-System 暂时不支持，以节省存储空间。MapWindow 尚不支持 Ubuntu 。
+.. MapGuide 暂时未收录，以节省存储空间。MapWindow 尚不支持 Ubuntu 。
 
 Windows 和 Apple Mac 安装
 --------------------------------------------------------------------------------

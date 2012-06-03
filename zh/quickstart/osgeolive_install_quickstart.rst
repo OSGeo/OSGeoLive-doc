@@ -15,61 +15,58 @@
 
 * |osgeo-live-hdspace| 。
 
-Install OSGeo-Live
+安装 OSGeo-Live
 --------------------------------------------------------------------------------
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
-Select :guilabel:`Install RELEASE`
+选择 :guilabel:`Install RELEASE`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
 
-Enter password="user"
+密码为“user”
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install1_language.png
     :scale: 70 %
 
-Select language
+选择语言
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install2_timezone.png
     :scale: 70 %
 
-Select timezone
+选择时区
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install3_keyboard.png
     :scale: 70 %
 
-Select keyboard
+选择键盘布局
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install4_disk.png
     :scale: 70 %
 
-Specify which disk to want to install on. (Beware, this may delete an existing
-  installed partition).
+选择安装分区。请注意，该分区原有的数据会被删除。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install5_username.png
     :scale: 70 %
 
-Defaults for settings are:
+默认设置如下
 
    * Name = "user"
    * username = "user"
    * password = "user"
    * computer name = "osgeolive"
-   * Log In automatically
+   * 自动登录
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
-Select :guilabel:`Install`
+选择 :guilabel:`Install/安装`
 
-Go and get a cup of coffee while installation is in progress.
+等待安装完成即可。
 
-That is it.
-
-See Also:
+相关信息
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
