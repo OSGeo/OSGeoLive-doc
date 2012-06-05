@@ -3,11 +3,10 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://52north.org/sos
+  :alt: screenshot of 52°North SOS test client version 1.0.0
+  :align: center
 
 
 52°North SOS
@@ -20,10 +19,10 @@ The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>
 supports reading of live and archived data captured by in-situ and remote sensors. A sensor may 
 be a camera on a satellite or a water level meter in a stream.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
-  :alt: screenshot of sos test client
-  :align: right
+  :alt: screenshot of 52°North SOS test client version 1.0.0
+  :align: center
 
 Features
 --------------------------------------------------------------------------------
@@ -33,7 +32,8 @@ Features
 * A browser based client provides test XML queries for all supported operations.
 
 The current 52°North SOS (version 3.5.0) implements the latest schema version 
-(2.0.0 and its predecessor 1.0.0). Regarding the different the following operations are implemented:
+(2.0.0 and its predecessor 1.0.0). Regarding the different specification 
+versions the following operations are implemented:
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -65,9 +65,9 @@ OGC SOS 2.0.0
 
 Within these requests the following filter operators are possible:
 
-* Spatial filter: BBOX, using a bounding box
-* Temporal filter: During, with time period
-* Temporal filter: TEquals, with time instant
+* Spatial filter: BBOX, using a bounding box.
+* Temporal filter: During, with time period.
+* Temporal filter: TEquals, with time instant.
 
 Implemented Standards
 --------------------------------------------------------------------------------

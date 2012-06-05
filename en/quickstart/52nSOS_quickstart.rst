@@ -20,14 +20,23 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
 1) Go to :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS or use this `direct link <http://localhost:8080/52nSOS/>`_.
    (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of this page.)
 
-2) Firefox will open the 52°North SOS test client (see Fiq. 1):
+2) Firefox will open the 52°North SOS test client landing page (see Fiq. 1). Please select the specification version you would like to use, 1.0.0 for example:
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
   :scale: 100 %
-  :alt: screenshot of 52°North SOS test client
+  :alt: screenshot of 52°North SOS test client landing page
+  :align: center
+
+**Fig. 1**: 52°North SOS test client - landing page
+
+3) Now, you see the test client which can be used to send requests encoded using specification 1.0.0:
+
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
+  :scale: 100 %
+  :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: center
   
-**Fig. 1**: 52°North SOS test client - welcome page  
+**Fig. 2**: 52°North SOS test client - specification version 1.0.0 
   
 3) To get started with the SOS, select the **GetCapabilities_allSections.xml** [1] request from the drop down list next to "Request Examples".
   
@@ -38,7 +47,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
   :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
   :align: center
   
-**Fig. 2**: 52°North SOS - GetCapabilities response (XML encoded)
+**Fig. 3**: 52°North SOS - GetCapabilities response (XML encoded)
   
 5) In Order to build your own requests you will need the `capabilities of the 52°North SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Using this input, you can edit the provided requests by the test client. Just select them from the drop down menu.
 
