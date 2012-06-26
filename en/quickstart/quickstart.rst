@@ -24,6 +24,7 @@ Application Quick Starts
   52nWPS_quickstart
   atlasstyler_quickstart
   deegree_quickstart
+  eoxserver_quickstart
   gdal_quickstart
   geokettle_quickstart
   geomajas_quickstart
