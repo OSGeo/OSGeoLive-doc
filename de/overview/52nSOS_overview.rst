@@ -84,7 +84,7 @@ Diese Operationen erlauben die Anwendungen folgender Filter-Operatoren, soweit
 * Zeitlicher Filter: During, mit einem Zeitraum.
 * Zeitlicher Filter: TEquals, mit einem Zeitpunkt.
 
-Implementierte Standards
+:doc:`Standards <../standards/standards>`
 --------------------------------------------------------------------------------
 
 * `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
@@ -108,7 +108,9 @@ Details
 
 **Community Webseite:** http://52north.org/communities/sensorweb/
 
+**Andere 52°North Projekte auf OSGeo Live:** :doc:`52°North WPS <./52nWPS_overview>`
+
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart Dokumentation <../quickstart/52nSOS_quickstart>`
+* :doc:`Schnellstart-Dokumentation <../quickstart/52nSOS_quickstart>`

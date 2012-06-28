@@ -1,4 +1,4 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org)
 :Reviewer: TBD
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -78,10 +78,12 @@ Within these requests the following filter operators are possible:
 * Temporal filter: During, with time period.
 * Temporal filter: TEquals, with time instant.
 
-Implemented Standards
+Related :doc:`Standards <../standards/standards>`
 --------------------------------------------------------------------------------
 
 * `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
+* :doc:`Geography Markup Language (GML) <../standards/gml_overview>`
+* :doc:`Sensor Model Language (SensorML) <../standards/sensorml_overview>`
 
 Details
 --------------------------------------------------------------------------------
@@ -101,6 +103,8 @@ Details
 **Community Support:** http://sensorweb.forum.52north.org/
 
 **Community Website:** http://52north.org/communities/sensorweb/
+
+**Other 52°North projects on OSGeo Live:** :doc:`52°North WPS <./52nWPS_overview>`
 
 Quickstart
 --------------------------------------------------------------------------------

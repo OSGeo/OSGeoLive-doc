@@ -36,8 +36,10 @@ spatial sensor data (including metadata and measurements/observations).
 
 **Fig. 1**: 52°North SOS test client - welcome page
 
-3) Now, you see the test client which can be used to send requests encoded using
-	specification 1.0.0:
+3) The test client appears. It can be used to send requests to the service using
+    a simple form. A drop-drown list allows you to select from a collection of 
+    predefined requests, which are adopted to the respective service version 
+    selected in the step before.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
@@ -46,12 +48,14 @@ spatial sensor data (including metadata and measurements/observations).
   
 **Fig. 2**: 52°North SOS test client - specification version 1.0.0 
   
-4) To get started with the SOS, select the **GetCapabilities_allSections.xml** 
-	[1] request from the drop down list next to "Request Examples".
+4) To get started with the SOS, select the GetCapabilities_allSections.xml request
+	from the drop-down list next to "Request Examples" (see number [1] in Fig. 2).
   
-5) Push the **Send button** [2] and the request will be transmitted to the 
+5) Push the **Send button** (number 2 in Fig. 2) and the request will be transmitted to the 
 	52°North SOS. As result, a XML document is returned (see Fig. 2), which 
-	shows a the capabilities of the SOS (available data,...).
+	shows a the capabilities of the SOS (service metadata such as keywords or 
+	provider, available operations and filters, contained observation data,...). To see the 
+	original response open the source view (Ctrl+U).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
@@ -60,10 +64,13 @@ spatial sensor data (including metadata and measurements/observations).
   
 **Fig. 3**: 52°North SOS - GetCapabilities response (XML encoded)
   
-6) In Order to build your own requests you will need the `capabilities of the 
-	52°North SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_.
-	Using this input, you can edit the provided requests by the test client. 
-	Just select them from the drop down menu.
+6) In Order to build your own requests you will need the 
+	`capabilities of the 52°North SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_.
+	Using the information provided in the capabilities, and most
+	importantly the contents section, you can adjust the provided requests
+	in the test client. Just select a GetObservation request (GetObs_...)
+	from the drop down menu and use it as a template get your own
+	observation subsets.
 
 Additional Information
 ================================================================================
