@@ -14,10 +14,10 @@
 Running
 ================================================================================
 
-*	To run 52°North WPS on the Live DVD, click on the "start 52NorthWPS" link on the desktop 
+*	To run 52°North WPS on the Live DVD, click on the "Start 52NorthWPS" link in the Web services folder on the desktop 
 	or you will find it in the menu-items.
 
-*	Firefox will open the 52WPS-TestClient.
+*	Firefox will open the 52nWPS-TestClient.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
@@ -27,7 +27,7 @@ Running
   
   
 *	Push the Send-Button and the request will be transmitted to the 52°North WPS which will
-	generate a xml-representation for a buffer around playgrounds with a width of 20.
+	generate a xml-representation for a buffer around the major roads of tasmania with a width of 0.05 degrees.
 
 .. image:: ../../images/screenshots/1024x768/52n_wps_response.png
   :scale: 50 %
@@ -35,8 +35,8 @@ Running
   :align: right
   
 
-*	In Order to build your own requests you will need the capabilities of the 52°North WPS:
-		http://localhost:8083/wps/WebProcessingService?Request=GetCapabilities&Service=WPS
+*	Check out the capabilities of the 52°North WPS with this request:
+		http://localhost:8080/wps/WebProcessingService?Request=GetCapabilities&Service=WPS
 
 	
 *	For further questions you can contact the 52°North WPS mailing list:
