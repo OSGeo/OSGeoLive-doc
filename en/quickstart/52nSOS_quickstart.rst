@@ -16,18 +16,11 @@
 Getting Started
 ================================================================================
 
-The 52°North SOS is a web service, that allows you to provide and collect 
-spatial sensor data (including metadata and measurements/observations).
+The 52°North SOS is a web service, that allows you to provide and collect spatial sensor data (including metadata and measurements/observations).
 
-1) Go to :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS`
-	to start the 52°North SOS or use this 
-	`direct link <http://localhost:8080/52nSOS/>`_.
-   (If the service is not reachable, try to start the Tomcat servlet engine 
-   following the steps at the bottom of this page.)
+1) Go to :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS`	to start the 52°North SOS or use this `direct link <http://localhost:8080/52nSOS/>`_. (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of this page.)
 
-2) Firefox will open the 52°North SOS test client welcome page (see Fiq. 1). 
-	Please select the specification version you would like to use, 1.0.0 for 
-	example:
+2) Firefox will open the 52°North SOS test client welcome page (see Fiq. 1). Please select the specification version you would like to use, 1.0.0 for example:
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
   :scale: 100 %
@@ -36,10 +29,7 @@ spatial sensor data (including metadata and measurements/observations).
 
 **Fig. 1**: 52°North SOS test client - welcome page
 
-3) The test client appears. It can be used to send requests to the service using
-    a simple form. A drop-drown list allows you to select from a collection of 
-    predefined requests, which are adopted to the respective service version 
-    selected in the step before.
+3) The test client appears. It can be used to send requests to the service using a simple form. A drop-drown list allows you to select from a collection of predefined requests, which are adopted to the respective service version selected in the step before.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
@@ -48,14 +38,9 @@ spatial sensor data (including metadata and measurements/observations).
   
 **Fig. 2**: 52°North SOS test client - specification version 1.0.0 
   
-4) To get started with the SOS, select the GetCapabilities_allSections.xml request
-	from the drop-down list next to "Request Examples" (see number [1] in Fig. 2).
+4) To get started with the SOS, select the GetCapabilities_allSections.xml request from the drop-down list next to "Request Examples" (see number [1] in Fig. 2).
   
-5) Push the **Send button** (number 2 in Fig. 2) and the request will be transmitted to the 
-	52°North SOS. As result, a XML document is returned (see Fig. 2), which 
-	shows a the capabilities of the SOS (service metadata such as keywords or 
-	provider, available operations and filters, contained observation data,...). To see the 
-	original response open the source view (Ctrl+U).
+5) Push the **Send button** (number 2 in Fig. 2) and the request will be transmitted to the 52°North SOS. As result, a XML document is returned (see Fig. 2), which shows a the capabilities of the SOS (service metadata such as keywords or provider, available operations and filters, contained observation data,...). To see the original response open the source view (Ctrl+U).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
@@ -64,19 +49,12 @@ spatial sensor data (including metadata and measurements/observations).
   
 **Fig. 3**: 52°North SOS - GetCapabilities response (XML encoded)
   
-6) In Order to build your own requests you will need the 
-	`capabilities of the 52°North SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_.
-	Using the information provided in the capabilities, and most
-	importantly the contents section, you can adjust the provided requests
-	in the test client. Just select a GetObservation request (GetObs_...)
-	from the drop down menu and use it as a template get your own
-	observation subsets.
+6) In Order to build your own requests you will need the `capabilities of the 52°North SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Using the information provided in the capabilities, and most importantly the contents section, you can adjust the provided requests in the test client. Just select a GetObservation request (GetObs...) from the drop down menu and use it as a template get your own observation subsets.
 
 Additional Information
 ================================================================================
 
-To learn more about 52°North SOS and/or the 52°North Sensor Web Community, 
-	potential starting points are:
+To learn more about 52°North SOS and/or the 52°North Sensor Web Community, potential starting points are:
 
 * The 52°North :doc:`SOS overview <../overview/52nSOS_overview>`,
 * The 52°North Sensor Web mailing list: swe@52north.org, 
@@ -85,8 +63,7 @@ To learn more about 52°North SOS and/or the 52°North Sensor Web Community,
 * 52°North `SOS website <http://52north.org/communities/sensorweb/sos/>`_, or 
 * The website of the `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
 
-* When the SOS is not available, please check if the tomcat servlet engine is 
-	running using the following command:
+* When the SOS is not available, please check if the tomcat servlet engine is running using the following command:
 
 ::
 
@@ -99,9 +76,7 @@ To learn more about 52°North SOS and/or the 52°North Sensor Web Community,
   
 **Listing 1:** Tomcat Status and Start (password for sudo: user)
 
-* The development of this version of the 52°North SOS was supported by the 
-	European FP7 research project `EO2HEAVEN <http://www.eo2heaven.org/>`_ 
-  (co-funded by the European Commission under the under grant agreement n°244100):
+* The development of this version of the 52°North SOS was supported by the European FP7 research project `EO2HEAVEN <http://www.eo2heaven.org/>`_ (co-funded by the European Commission under the under grant agreement n°244100):
 
 .. image:: ../../images/project_logos/logo_52North_other_200px.png
   :scale: 100 %
