@@ -40,7 +40,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
   
 4) To get started with the SOS, select the GetCapabilities_allSections.xml request from the drop-down list next to "Request Examples" (see number [1] in Fig. 2).
   
-5) Push the **Send button** (number 2 in Fig. 2) and the request will be transmitted to the 52°North SOS. As result, a XML document is returned (see Fig. 2), which shows a the capabilities of the SOS (service metadata such as keywords or provider, available operations and filters, contained observation data,...). To see the original response open the source view (Ctrl+U).
+5) Push the **Send button** (number [2] in Fig. 2) and the request will be transmitted to the 52°North SOS. As result, a XML document is returned (see Fig. 3), which shows a the capabilities of the SOS (service metadata such as keywords or provider, available operations and filters, contained observation data,...). To see the original response open the source view (Ctrl+U).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
@@ -49,7 +49,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
   
 **Fig. 3**: 52°North SOS - GetCapabilities response (XML encoded)
   
-6) In Order to build your own requests you will need the `capabilities of the 52°North SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Using the information provided in the capabilities, and most importantly the contents section, you can adjust the provided requests in the test client. Just select a GetObservation request (GetObs...) from the drop down menu and use it as a template get your own observation subsets.
+6) In Order to build your own requests you will need the `capabilities of the 52°North SOS (specification 1.0.0)<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Using the information provided in the capabilities, and most importantly the contents section, you can adjust the provided requests in the test client. Just select a GetObservation request (GetObs...) from the drop down menu and use it as a template get your own observation subsets.
 
 Additional Information
 ================================================================================
