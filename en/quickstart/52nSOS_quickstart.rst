@@ -49,7 +49,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
   
 **Fig. 3**: 52°North SOS - GetCapabilities response (XML encoded)
   
-6) In Order to build your own requests you will need the `capabilities of the 52°North SOS (specification 1.0.0)<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_. Using the information provided in the capabilities, and most importantly the contents section, you can adjust the provided requests in the test client. Just select a GetObservation request (GetObs...) from the drop down menu and use it as a template get your own observation subsets.
+6) In Order to build your own requests you will need the `capabilities <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_  of the 52°North SOS (specification 1.0.0). Using the information provided in the capabilities, and most importantly the contents section, you can adjust the provided requests in the test client. Just select a GetObservation request (GetObs...) from the drop down menu and use it as a template get your own observation subsets.
 
 Additional Information
 ================================================================================

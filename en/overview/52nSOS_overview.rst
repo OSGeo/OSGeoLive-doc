@@ -92,7 +92,7 @@ Details
 
 **Community Website:** http://52north.org/communities/sensorweb/
 
-**Other 52°North projects on OSGeo Live:** :doc:`52°North WPS <./52nWPS_overview>`
+**Other 52°North projects on OSGeo Live:** :doc:`WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
 
 Quickstart
 --------------------------------------------------------------------------------
