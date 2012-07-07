@@ -71,7 +71,7 @@ Propiedades Fundamentales
 Estándares Implementados
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1
+* OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1, 1.3.0
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 * OGC Web Map Context (WMC) 1.1.0 
 
@@ -84,7 +84,7 @@ Detalles
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Version del Software:** 2.7
+**Version del Software:** 2.7.3
 
 **Platformas Soportadas:** Windows, Linux, Mac
 
