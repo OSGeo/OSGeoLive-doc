@@ -60,13 +60,13 @@ Details
 
 **Website:** http://openlayers.org
 
-**License:** MIT-style license
+**License:** 2-clause BSD License (aka FreeBSD License) 
 
-**Software Version:** 2.11
+**Software Version:** 2.12
 
 **API Interface:** JavaScript
 
-**Support:** http://trac.openlayers.org 
+**Support:** https://github.com/openlayers/openlayers 
 
 
 Quickstart

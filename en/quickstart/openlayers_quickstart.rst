@@ -36,7 +36,7 @@ page.
   <html>
   <head>
     <title>OpenLayers Example</title>
-      <script src="http://localhost/OpenLayers-2.9.1/OpenLayers.js"></script>
+      <script src="http://localhost/openlayers/OpenLayers.js"></script>
       </head>
       <body>
         <div style="width:100%; height:100%" id="map"></div>
@@ -97,7 +97,7 @@ OpenLayers viewer.
   <html>
   <head>
     <title>OpenLayers Example</title>
-      <script src="http://localhost/OpenLayers-2.9.1/OpenLayers.js"></script>
+      <script src="http://localhost/openlayers/OpenLayers.js"></script>
       </head>
       <body>
         <div style="width:100%; height:100%" id="map"></div>
