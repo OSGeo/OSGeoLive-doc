@@ -17,7 +17,8 @@ Running
 *	To run 52°North WPS on the Live DVD, click on the "Start 52NorthWPS" link in the Web services folder on the desktop 
 	or you will find it in the menu-items.
 
-*	Firefox will open the 52nWPS-TestClient.
+*	Firefox will open the 52nWPS-TestClient. 
+*	Make sure that you have started Geoserver since some of the demonstrations require data from the local Geoserver installation.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
