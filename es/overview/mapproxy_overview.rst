@@ -12,7 +12,7 @@
 MapProxy
 ================================================================================
 
-Servicio de tiles y Proxy WMS 
+Servicio de tiles y Proxy WMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapProxy acelera las aplicaciones de mapas a través de la pregeneración de tiles integrando múltiples fuentes de datos y almacenándolos en una caché local.
@@ -35,7 +35,7 @@ Funcionalidades de MapProxy
   :scale: 70 %
   :alt: MapProxy demo
   :align: right
- 
+
 Fuentes de entrada:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
   * TMS (TileCache, GeoWebcache, etc.)
@@ -93,7 +93,7 @@ Detalles
 
 **Licencia:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versión del Software:** 1.3.0
+**Versión del Software:** 1.4.0
 
 **Platformas Soportadas:** Linux, Mac, Windows
 
@@ -102,5 +102,5 @@ Detalles
 
 Guía de Inicio Rápido
 --------------------------------------------------------------------------------
-    
+
 * `Guía de Inicio Rápido <../quickstart/mapproxy_quickstart.html>`_

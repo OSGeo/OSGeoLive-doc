@@ -36,7 +36,7 @@ Funktionen von MapProxy
   :scale: 70 %
   :alt: MapProxy demo
   :align: right
- 
+
 Quellen:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
@@ -58,30 +58,34 @@ Optionen für zur Verfügung gestellte Dienste:
   * Quellen können über eine Geometrie beschränkt werden (z.B. durch ein Shapefile)
   * Transparenz zu undurchsichtigen Layern hinzufügen
   * mehrere Quellen zu einem Dienst zusammenfassen
-  * umtransformieren in andere Projektionen 
+  * umtransformieren in andere Projektionen
 
 WMS Eigenschaften:
   * Layer-Gruppen aus unterschiedlichen Quellen
   * ``GetMap`` Anfrage aus Kacheln erstellen und so eine Unterstützung für freies Zoomen und für jede Projektion ermöglichen
   * bestehende WMS zwischen 10 und 100 mal schneller
   * ``GetLegendGraphic`` Anfragen beantworten
-  * ``GetFeatureInfo`` Anfragen zusammenfassen und optional mit XSL transformieren 
+  * ``GetFeatureInfo`` Anfragen zusammenfassen und optional mit XSL transformieren
   * Projektionen anbieten, die nicht von der ursprünglichen Quelle angeboten werden
-  * WMS Versionen aktualisieren und Bild-Formate konvertieren 
-	
-Weitere Funkionen: 
+  * WMS Versionen aktualisieren und Bild-Formate konvertieren
+
+Sicherheit:
+  * offene Schnittstelle zum Absichern von Diensten und Layern
+  * Polygongenaue Zugriffsbeschränkung
+  * Integration mit bestehenden Benutzerdatenbanken und Authentifizierungsmethoden
+
+Weitere Funkionen:
   * einfaches aber mächtiges Konfigurationsformat (YAML/JSON)
   * Demo-Anwendung basierend auf OpenLayers (siehe Rechts)
   * mehrere WMS-Dienst in einer MapProxy-Instanz
   * Wasserzeichen und Copyrightzeilen einfügen
   * Unterstützung für Rasterdaten z.B. DEM (keine Bilder)
-  * offene Schnittstelle zum Absichern von Diensten oder Layern
   * und vieles mehr...
 
 Implementierte Standards
 --------------------------------------------------------------------------------
 
-MapProxy unterstützt folgende offene Spezifikationen: 
+MapProxy unterstützt folgende offene Spezifikationen:
 
 * OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0
 * OGC WMTS 1.0.0 (KVP und RESTful)
@@ -95,13 +99,15 @@ Details
 
 **Lizenz:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.3.0
+**Software Version:** 1.4.0
 
 **Unterstütze Plattformen:** Linux, Mac, Windows
 
 **Support:** http://mapproxy.org/support.html
 
+**Dokumentation:** <../../mapproxy/index.html>`_
+
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart Dokumentation <../quickstart/mapproxy_quickstart>`

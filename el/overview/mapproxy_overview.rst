@@ -37,7 +37,7 @@ MapProxy
   :scale: 70 %
   :alt: MapProxy demo
   :align: right
- 
+
 Πηγές δεδομένων:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, κλπ.)
   * TMS, WMTS(TileCache, GeoWebcache, etc.)
@@ -97,7 +97,7 @@ MapProxy
 
 **Άδεια:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Έκδοση Λογισμικού:** 1.3.0
+**Έκδοση Λογισμικού:** 1.4.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 
@@ -106,5 +106,5 @@ MapProxy
 
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/mapproxy_quickstart>`

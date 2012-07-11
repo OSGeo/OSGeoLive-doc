@@ -35,7 +35,7 @@ Core Features
   :scale: 70 %
   :alt: MapProxy demo
   :align: right
- 
+
 Input sources:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
@@ -68,13 +68,18 @@ WMS Features:
   * on-the-fly reprojection
   * convert WMS versions and image formats
 
+Security:
+  * flexible and powerful authorization API
+  * fine-grained control over services and layers
+  * restrict access to polygon areas
+  * integrate with existing user databases and authentication methods
+
 Other features:
   * simple but powerful configuration format (YAML/JSON)
   * OpenLayers based demo client
   * run multiple WMS services in one MapProxy instance
   * add attribution lines to the images
   * support for non-image raster data like DEMs
-  * support for custom authorization with fine-grained control over services and layers
   * many more
 
 Implemented Standards
@@ -95,14 +100,16 @@ Details
 
 **Licence:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.3.0
+**Software Version:** 1.4.0
 
 **Supported Platforms:** Linux, Mac, Windows
 
 **Support:** http://mapproxy.org/support.html
 
+**Documentation:** <../../mapproxy/index.html>`_
+
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`
