@@ -37,17 +37,17 @@ LiDAR システムは "point cloud" データのように、センサからの�
 詳細
 --------------------------------------------------------------------------------
  
-** ウェブサイト:** http://liblas.org
+**ウェブサイト:** http://liblas.org
 
-** ライセンス:** BSD
+**ライセンス:** BSD
 
-** バージョン:** 1.7.0
+**バージョン:** 1.7.0
 
-** 対応プラットフォーム:** Cross Platform C++ -- Mac OS X, Windows (`OSGeo4W`), Linux
+**対応プラットフォーム:** Cross Platform C++ -- Mac OS X, Windows (`OSGeo4W`), Linux
 
-** API:** C, C++, Python
+**API:** C, C++, Python
 
-** サポート:** `Communication and Support <http://liblas.org/community.html>`_
+**サポート:** `Communication and Support <http://liblas.org/community.html>`_
 
 クイックスタート
 --------------------------------------------------------------------------------
