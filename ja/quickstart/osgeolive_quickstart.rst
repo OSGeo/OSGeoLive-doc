@@ -12,24 +12,24 @@ OSGeo-Live クイックスタート
 動作環境
 --------------------------------------------------------------------------------
 
-以下が最低限必須の環境となります:
+以下の環境が最低限必須となります:
 
 * RAM: 1 GB.
-* CPU: 1 GHz i686 互換のCPU (Intel/AMD)
+* CPU: 1 GHz i686 互換の CPU (Intel/AMD)
 * ハードディスク: 
 
  * DVD から直接利用する場合にはハードディスクは使用しません。
- * ハードディスクにインストールしてOSGeoLiveを使用する場合には必要となります。
+ * ハードディスクにインストールして OSGeoLive を使用する場合には必要となります。
 
-* マウス: 特に、Macでトラックパッドを使用している方には、3ボタンマウスの利用をお勧めします。
+* マウス: 特に、Mac でトラックパッドを使用している方には、3ボタンマウスの利用をお勧めします。
 
 実行:
 --------------------------------------------------------------------------------
 
   OSGeo-Live DVD の ISO イメージは http://download.osgeo.org/livedvd からダウンロードできます。
-  イメージを DVD に焼いたメディアを DVD　ドライブに挿入して、コンピュータを再起動してください。
+  イメージを DVD に焼いたメディアを DVD ドライブに挿入して、コンピュータを再起動してください。
   
-  コンピューターが CD から起動可能になっていれば、地空間アプリケーションをインストールしたXubuntu のシステムが起動します。
+  コンピューターが CD から起動可能になっていれば、地空間アプリケーションをインストールした Xubuntu のシステムが起動します。
   CD から起動可能になっていない場合には BIOS の設定を変更するか、電源投入時に起動メニューボタンを押してください。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
@@ -56,13 +56,13 @@ OSGeo-Live クイックスタート
 
   :menuselection:`Geospatial` メニューから使用したいアプリケーションを選択してください。 
 
-  Xfce デスクトップ入門: (an online work in progress)
+  Xfce デスクトップ入門: （オンラインで随時更新中です）
     http://docs.xfce.org/start
 
   Ubuntu OS 入門: （すばらしい PDF ブックです）
     `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
 
-  オンラインで読むことができる Ubuntu OS についてのより詳しい情報: （OSGeo Liveでは旧来の Xfce デスクトップを使用しており、タブレット型のデスクトップ環境は使用していません）
+  オンラインで読むことができる Ubuntu OS についてのより詳しい情報: （OSGeo Live では旧来の Xfce デスクトップを使用しており、タブレット型のデスクトップ環境は使用していません）
     https://help.ubuntu.com/11.04/
 
     https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/

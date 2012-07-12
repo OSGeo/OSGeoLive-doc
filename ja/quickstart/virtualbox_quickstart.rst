@@ -24,7 +24,7 @@ VirtualBox はオープンソースの仮想マシン環境です。 OSGeo-Live 
 
 仮想環境の作成
 --------------------------------------------------------------------------------
-`Virtual Box <http://www.virtualbox.org/>`_ をダウンロードしてインストールしてください。Linuxでは以下のようにします。
+`Virtual Box <http://www.virtualbox.org/>`_ をダウンロードしてインストールしてください。Linux では以下のようにします。
 
   ``apt-get install virtualbox-ose``
 
