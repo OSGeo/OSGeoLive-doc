@@ -4,7 +4,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. _pycsw-overview-el:
 
 .. image:: ../../images/project_logos/logo-pycsw.png
   :scale: 100 %
@@ -78,7 +77,7 @@ pycsw
 
 **Άδεια:** `MIT`_
 
-**Έκδοση Λογισμικού:** 1.0.0
+**Έκδοση Λογισμικού:** 1.2.0
 
 **Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 

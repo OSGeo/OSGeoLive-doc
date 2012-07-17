@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. _ushahidi-overview-el:
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 80 %

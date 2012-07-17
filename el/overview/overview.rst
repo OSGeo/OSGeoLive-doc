@@ -85,16 +85,24 @@
 
 Δεδομένα
 --------------------------------------------------------------------------------
-* :doc:`naturalearth_overview` - Γεωγραφικά Δεδομένα
-* :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - Δείγμα δεδομένων από το OpenStreetMap
+
+.. toctree::
+   :maxdepth: 1
+
+   Natural Earth - Γεωγραφικά Δεδομένα <naturalearth_overview>
+   nc_dataset_overview
+   OpenStreetMap - Δείγμα δεδομένων από το OpenStreetMap <osm_dataset_overview>
 
 Γεωχωρικές Βιβλιοθήκες
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS
-* :doc:`geos_overview`
-* :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς
-* :doc:`liblas_overview`  - Πρόσβαση δεδομένων LiDAR
+
+.. toctree::
+   :maxdepth: 1
+
+   GeoTools - Εργαλειοθήκη Java για GIS <geotools_overview>
+   GEOS - Γεωχωρική βιβλιοθήκη C/C++ <geos_overview> 
+   MetaCRS - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς <metacrs_overview>
+   libLAS - Πρόσβαση δεδομένων LiDAR <liblas_overview>
 
 Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
 --------------------------------------------------------------------------------

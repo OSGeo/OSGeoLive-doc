@@ -3,7 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. _osm-overview-el:
 
 .. image:: ../../images/project_logos/logo-osm.png
   :scale: 80 %

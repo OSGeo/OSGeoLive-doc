@@ -3,7 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _otb-overview-el:
 
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 100 %
@@ -59,7 +58,7 @@ OTB
 
 **Άδεια:** CeCILL (Η άδεια CeCILL είναι συμβατή με την άδεια GPL και έχει προκύψει για προσαρμογή στο Γαλικό Δίκαιο)
 
-**Έκδοση Λογισμικού:** 3.10
+**Έκδοση Λογισμικού:** 3.12
 
 **Υποστηριζόμενες Πλατφόρμες:** Linux, Mac, Windows
 

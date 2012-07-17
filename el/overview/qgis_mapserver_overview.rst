@@ -3,7 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _qgis_mapserver-overview:
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
@@ -57,7 +56,7 @@ QGIS Server
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.7.3
+**Έκδοση Λογισμικού:** 1.7.4
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 

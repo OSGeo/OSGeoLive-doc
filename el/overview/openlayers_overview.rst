@@ -5,8 +5,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _openlayers-overview-el:
-
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
   :scale: 50 %
   :alt: project logo
@@ -62,13 +60,13 @@ OpenLayers
 
 **Αρχική σελίδα:** http://openlayers.org
 
-**Άδεια:** στύλ MIT
+**Άδεια:** FreeBSD
 
-**Έκδοση Λογισμικού:** 2.11
+**Έκδοση Λογισμικού:** 2.12
 
 **Προγραμματιστική διεπαφή:** JavaScript
 
-**Υποστήριξη:** http://trac.openlayers.org 
+**Υποστήριξη:** https://github.com/openlayers/openlayers 
 
 
 Γρήγορη εκκίνηση

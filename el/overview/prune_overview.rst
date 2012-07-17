@@ -3,7 +3,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _prune-overview-el:
 
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
