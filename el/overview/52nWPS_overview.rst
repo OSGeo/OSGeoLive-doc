@@ -1,9 +1,8 @@
-:Author: Bastian Schaeffer, Kristof Lange
+:Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _52nWPS-overview-el:
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
@@ -18,7 +17,7 @@
 Διαδικτυακή Υπηρεσία
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Η 52°North επιτρέπει την πρόσβαση σε αλγορίθμους επεξεργασίας χωρικών δεδομένων μέσω διαδικτύου με την υπηρεσία :doc:`Web Processing Service (WPS) <../standards/wps_overview>` .Τέτοιοι αλγόριθμοι μπορεί να προέρχονται από το Sextane, τον ArcGIS Server, ή από ιδιοποιημένες εφαρμογές. Οι αλγόριθμοι μπορεί να είναι απλοί όσο ο προσδιορισμός της διαφοράς των κρουσμάτων γρίπης μεταξύ δύο εποχών, 
+Η 52°North επιτρέπει την πρόσβαση σε αλγορίθμους επεξεργασίας χωρικών δεδομένων μέσω διαδικτύου με την υπηρεσία :doc:`Web Processing Service (WPS) <../standards/wps_overview>` .Τέτοιοι αλγόριθμοι μπορεί να προέρχονται από το Sextane, τον ArcGIS Server, R, GRASS 7 ή από ιδιοποιημένες εφαρμογές. Οι αλγόριθμοι μπορεί να είναι απλοί όσο ο προσδιορισμός της διαφοράς των κρουσμάτων γρίπης μεταξύ δύο εποχών, 
 ή περίπλοκοι όσο ένα παγκόσμιο μοντέλο κλίματος.
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
@@ -34,16 +33,20 @@
 * Αλγόριθμος απλής ζώνης επιρροής (buffer)
 * Αλγόριθμος Douglas Peucker
 * Αλγόριθμος τομής επιπέδων
+* Αλγόριθμος εισαγωγής τιμών σε εικονιστικά δεδομένα
+* Αλγόριθμος Μετασχηματισμού Συντεταγμένων
 	
 Επιπλέον αλγόριθμοι παρέχονται από:
 
 * Sextante
 * ArcGIS Server
+* R
+* GRASS 7
 
 Πρότυπα εισαγωγής και εξαγωγής δεδομένων:
 
-* Διανυσματικά δεδομένα: GML2, GML3, SHP files, KML, WKT (Well-known Text)
-* Εικονιστικά δεδομένα: Geotiff, AsciiGrid
+* Διανυσματικά δεδομένα: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
+* Εικονιστικά δεδομένα: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
 
 Μια εφαρμογή στον περιηγητή
 
@@ -61,7 +64,7 @@
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** WPS 2.0 RC6
+**Έκδοση Λογισμικού:** WPS 3.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
