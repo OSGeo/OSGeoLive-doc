@@ -34,8 +34,8 @@ MapGuide es pot implementar en Linux o Windows, així com en els servidors web A
   :alt: screenshot
   :align: right
 
-.. NOTA :: A causa de les limitacions d'espai en el DVD, actualment MapGuide 
-   no està instal·lat al DVD.
+.. note :: 
+   A causa de les limitacions d'espai en el DVD, actualment MapGuide no està instal·lat al DVD.
    
 .. cal comentar que actualment no funciona la instal·lació manual. Per instal·lar-lo 
    obriu una finestra de consola i executeu ``cd gisvm/bin; sudo ./install_mapguide.sh``

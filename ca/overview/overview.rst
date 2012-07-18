@@ -1,9 +1,10 @@
 .. Fitxer mestre de la documentació OSGeo-Live, creat per
    sphinx-Guia d'inici ràpid dimarts 6 jul 14:54:20 2010.
    Pots adaptar aquest fitxer completament al teu gust, encara que al
-   menys hauria de contenir la directiva arrel `toctree`.   
+   menys hauria de contenir la directiva arrel `toctree`.
+
 :Translator: Anna Muñoz Bollas
-   
+
 Continguts |osgeo-live-version|
 ================================================================================
 

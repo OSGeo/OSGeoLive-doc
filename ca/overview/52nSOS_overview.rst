@@ -17,13 +17,13 @@
 Servei Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-El `Servei d'Observació de Sensors (SOS) <../standards/sos_overview.html>`_ 
+El :doc:`Servei d'Observació de Sensors (SOS) <../standards/sos_overview.html>` 
 52ºNorth permet tant la lectura de dades capturades en temps real com les emmagatzemades en arxius, 
 així com les que hagin estat capturades tant per sensors in-situ com remots. Els sensors poden ser 
 de tipus molt diferents, com per exemple una càmera digital en un satèl·lit o 
 bé un dispositiu per mesurar el cabdal d'un riu. 
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
   :alt: captura de pantalla d'un client SOS
   :align: right

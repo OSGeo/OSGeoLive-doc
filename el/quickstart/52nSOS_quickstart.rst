@@ -23,7 +23,7 @@
 
 2) Ο περιηγητής Firefox θα ανοίξει στην δοκιμαστική εφαρμογή 52°North SOS (δείτε Εικόνα 1):
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client
   :align: center
