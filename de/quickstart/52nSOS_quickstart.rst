@@ -36,7 +36,7 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 **Abb. 1**: 52°North SOS Test-Anwendung - Willkommens-Seite
 
 3) Jetzt sehen Sie die Test-Anwendung für die Spezifikations-Version 1.0.0. 
-	Verwenden Sie Ihn um Anfragen an den SOS zu schicken.
+   Verwenden Sie Ihn um Anfragen an den SOS zu schicken.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
