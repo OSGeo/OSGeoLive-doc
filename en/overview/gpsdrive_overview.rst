@@ -50,7 +50,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.11
+**Software Version:** 2.12svn
 
 **Supported Platforms:** GNU/Linux, Mac OSX
 
