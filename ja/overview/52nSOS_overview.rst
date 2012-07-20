@@ -21,7 +21,7 @@
 は、現地もしくは遠隔センサがリアルタイムに蓄積したデータの取得をサポートします。
 センサとしては人工衛星に搭載したカメラから、川の水量メーターまで様々な物を取り扱うことができます。
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
   :alt: screenshot of sos test client
   :align: right

@@ -1,4 +1,4 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Version: osgeo-live4.0
 :License: Creative Commons
 
