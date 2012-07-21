@@ -41,18 +41,18 @@ Core Features
 Data Sets included in OSGeo-Live
 --------------------------------------------------------------------------------
 
-Denver.osm.bz2:
- A large extract of the greater Denver city area as a BZip2 compressed XML text file.
+Nottingham.osm.bz2:
+ A large extract of the greater city area as a BZip2 compressed XML text file.
 
-Denver_CBD.osm.bz2:
- A smaller subset covering just the Denver central business district.
+Nottingham_CBD.osm.bz2:
+ A smaller subset covering just the central business district.
 
 Details
 --------------------------------------------------------------------------------
 
 **Website:** http://www.osm.org
 
-**License:** Creative Commons CC-By-SA
+**License:** Open Data Commons Open Database License (ODbL)
 
 **Data Version:** Live database
 
