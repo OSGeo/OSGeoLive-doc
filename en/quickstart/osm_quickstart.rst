@@ -75,7 +75,7 @@ Import it with:
 
 ::
 
-  bzip2 -dc /usr/local/share/data/osm/Denver_CBD.osm.bz2 | gosmore rebuild
+  bzip2 -dc /usr/local/share/data/osm/Nottingham_CBD.osm.bz2 | gosmore rebuild
 
 This will create gosmore.pak and only needs to be run once. You can then
 search for locations within the OSM dataset, for example "Zoo".
@@ -102,7 +102,7 @@ Example:
    See `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ in the OSM Wiki for
    details on how to download smaller chunks into an ``.osm`` file, or use
    *JOSM* or *Merkaartor* to download a smaller chunk.
-   A smaller subset file called `Denver_CBD.osm` has been included for your
+   A smaller subset file called `Nottingham_CBD.osm` has been included for your
    convenience, but even that still make take a rather long time to process.
 
 ::
