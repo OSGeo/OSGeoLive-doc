@@ -33,7 +33,7 @@ Standard services for efficient exploitation by users.
   Geospatial Consortium (OGC); WMS, WCS, EO-WMS, EO-WCS
 * efficient exploitation by users: User defined sub-setting; view and download
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right

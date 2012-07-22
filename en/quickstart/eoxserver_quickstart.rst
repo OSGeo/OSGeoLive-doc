@@ -80,21 +80,21 @@ information on the available data.
 Selecting a list entry provides you with a map view showing the outlines of 
 the available `Datasets`.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.jpg
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
 Using the standard OpenLayers controls you can enable also previews of the 
 available data.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
 With the **Date slider** the `Datasets` shown can be limited to the time 
 interval of interest.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
   :scale: 50 %
   :alt: EOxServer demonstration embedded client date change
 
@@ -103,14 +103,14 @@ Downloadable means within the set Bounding Box or currently viewn map extent
 if not set and the set time interval. You can select which `Datasets` to 
 download in which size, projection, format, and band subset.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.jpg
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download selection
 
 **Start Download** initiates the actual download which might result in 
 multiple files if multiple `Datasets` have been selected.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.jpg
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download
 
@@ -135,7 +135,7 @@ be found `online <http://eoxserver.org/doc/en/users/operators.html>`_.
 It is for example possible to view and alter the `EO Metadata` of the 
 configured `Dataset Series`.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.jpg
   :scale: 50 %
   :alt: EOxServer demonstration admin client 
 
