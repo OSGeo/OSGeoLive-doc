@@ -5,19 +5,19 @@
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://activityworkshop.net/software/prune/
+  :target: http://gpsprune.activityworkshop.net/
 
 ********************************************************************************
-Prune Quickstart 
+GpsPrune Quickstart 
 ********************************************************************************
 
 Running
 ================================================================================
 
-To run Prune on the live DVD, select the icon "GpsPrune" in the Navigation and Maps menu.
+To run GpsPrune on the live DVD, select the icon "GpsPrune" in the Navigation and Maps menu.
 To work with data, you will then either load a recorded track from a file, load data from
-a GPS receiver using *Gpsbabel*, or enter your own coordinates by hand.  The easiest way to
-start is to load any gpx file, kml or kmz file using the menu command
+a GPS receiver using *Gpsbabel*, get coordinates from Wikipedia, or enter your own coordinates
+by hand.  The easiest way to start is to load any gpx file, kml or kmz file using the menu command
 :menuselection:`File --> Open file` and selecting the file you wish to load.
 
 Now you should see your track marked in blue, and waypoints (if any) marked with their names.
@@ -38,7 +38,7 @@ know the URL.  You can also add a Cloudmade map if you know the style number.
 The default colours can be changed with the menu option :menuselection:`Settings --> Set colours`.
 
 If you save your settings with the menu option :menuselection:`Settings --> Save settings`, they
-will be remembered for the next time you run Prune.  However, note that when using this live DVD,
+will be remembered for the next time you run GpsPrune.  However, note that when using this live DVD,
 all files that you save in the regular file system are lost when you shut down the computer.
 
 Downloading maps
@@ -48,21 +48,21 @@ To save the downloaded map tiles to disk, you can select the menu option
 This helps to speed up the display as it doesn't have to download the images again.  Again, this
 makes more sense on an installed system than on a live DVD.
 
-Using Prune on other systems
+Using GpsPrune on other systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-After trying out Prune on this live DVD, you may want to use it on another system, whether
-it's another Linux system or Mac OSX or Windows.  Some linux distributions include Prune in their
+After trying out GpsPrune on this live DVD, you may want to use it on another system, whether
+it's another Linux system or Mac OSX or Windows.  Some linux distributions include GpsPrune in their
 normal software libraries (just search for "Prune" or "GpsPrune"), or you can just download the
 latest copy from the home page.
 
 It doesn't need to be installed, but it does need a java runtime to be installed, version
-1.5 or higher.  You can extend Prune's functionalities by installing other free software, such as
+1.5 or higher.  You can extend GpsPrune's functionalities by installing other free software, such as
 *Gpsbabel*, *Gnuplot*, *Exiftool* or *Java3d*.
 
 Further reading
 ================================================================================
 
-* Prune home page: http://activityworkshop.net/software/prune/
-* Screenshots: http://activityworkshop.net/software/prune/screenshots.html
-* How-tos and instructions: http://activityworkshop.net/software/prune/how-tos.html
+* GpsPrune home page: http://gpsprune.activityworkshop.net/
+* Screenshots: http://gpsprune.activityworkshop.net/screenshots.html
+* How-tos and instructions: http://gpsprune.activityworkshop.net/how-tos.html
 

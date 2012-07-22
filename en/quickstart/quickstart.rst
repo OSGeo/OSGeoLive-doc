@@ -33,6 +33,7 @@ Application Quick Starts
   geoserver_quickstart
   gmt_quickstart
   gpsdrive_quickstart
+  gpsprune_quickstart
   grass_quickstart
   gvsig_quickstart
   kosmo_quickstart
@@ -54,7 +55,6 @@ Application Quick Starts
   otb_quickstart
   pgrouting_quickstart
   postgis_quickstart
-  prune_quickstart
   pycsw_quickstart
   qgis_mapserver_quickstart
   qgis_quickstart

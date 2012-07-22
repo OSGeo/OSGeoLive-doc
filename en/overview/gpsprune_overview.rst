@@ -6,24 +6,24 @@
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://activityworkshop.net/software/prune/
+  :target: http://gpsprune.activityworkshop.net/
 
-Prune
+GpsPrune
 ================================================================================
 
 GPS Track-Editing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Prune <http://activityworkshop.net/software/prune/>`_ is a tool for viewing,
+`GpsPrune <http://gpsprune.activityworkshop.net/>`_ is a tool for viewing,
 editing and converting coordinate data from GPS systems.  It uses OpenStreetMap
 imagery to show recorded tracks and waypoints, and provides a variety of tools
 to let you edit, crop and prune the data points.  It also has functions for
-correlating photos to the coordinates using the photo timestamps.
+correlating photos and audio files to the coordinates using the file timestamps.
 
-Prune uses Gpsbabel, if available, to read data directly from a GPS receiver,
+GpsPrune uses Gpsbabel, if available, to read data directly from a GPS receiver,
 and can send the edited data back to the receiver too.
 
-Prune runs on Mac OSX, Windows and Linux, and is available
+GpsPrune runs on Mac OSX, Windows and Linux, and is available
 in over ten different languages.
 
 Core Features
@@ -46,11 +46,11 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://activityworkshop.net/software/prune/
+**Website:** http://gpsprune.activityworkshop.net/
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 12
+**Software Version:** 13.1
 
 **Supported Platforms:** GNU/Linux, Mac OSX, Windows
 
@@ -58,5 +58,5 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/prune_quickstart>`
+* :doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`
 
