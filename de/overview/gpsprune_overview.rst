@@ -5,25 +5,25 @@
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://activityworkshop.net/software/prune/
+  :target: http://gpsprune.activityworkshop.net/
 
 
-Prune
+GpsPrune
 ================================================================================
 
 GPS Datenverarbeitungssoftware 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Prune <http://activityworkshop.net/software/prune/>`_ ist ein Tool für die Visualisierung,
-das Editieren und das Konvertieren von Koordinatendaten aus GPS Systemen.  Prune verwendet OpenStreetMap
+`GpsPrune <http://gpsprune.activityworkshop.net/>`_ ist ein Tool für die Visualisierung,
+das Editieren und das Konvertieren von Koordinatendaten aus GPS Systemen.  GpsPrune verwendet OpenStreetMap
 Karten um aufgenommenen Tracks und Wegpunkte zu zeigen, und stellt eine Reihe von Funktionen zur Verfügung
-um die Punkte zu editieren, löschen und kombinieren.  Prune kann auch Fotos mit den Koordinaten verbinden
-anhand von den Zeitstempeln.
+um die Punkte zu editieren, löschen und kombinieren.  GpsPrune kann auch Fotos und Audiodateien mit den
+Koordinaten verbinden anhand von den Zeitstempeln.
 
-Falls Gpsbabel auch verfügbar ist, kann Prune Daten direkt aus dem GPS-Empfänger herauslesen,
+Falls GPSBabel auch verfügbar ist, kann GpsPrune Daten direkt aus dem GPS-Empfänger herauslesen,
 und kann auch Daten zurück zur Empfänger schicken.
 
-Prune läuft sowohl auf Linux als auch auf Mac OSX und Windows, and ist in über zehn
+GpsPrune läuft sowohl auf Linux als auch auf Mac OSX und Windows, and ist in über zehn
 verschiedenen Sprachen verfügbar.
 
 Kernfunktionen
@@ -46,15 +46,15 @@ Kernfunktionen
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://activityworkshop.net/software/prune/
+**Webseite:** http://gpsprune.activityworkshop.net/
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 12
+**Software Version:** 13.1
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, Windows
 
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart Dokumentation <../quickstart/prune_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/gpsprune_quickstart>`

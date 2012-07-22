@@ -51,10 +51,10 @@ Desktop GIS
 Navigation und Karten
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
+* :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Anzeige, Bearbeitung und Konvertierung von GPS Tracks
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - 3D Desktop Globus
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
-* :doc:`prune_overview` - [:doc:`QuickStart <../quickstart/prune_quickstart>`] - Anzeige, Bearbeitung und Konvertierung von GPS Tracks
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Datenanalyse und -anzeige
 * :doc:`zygrib_overview` - Wettervorhersagekarten
 
