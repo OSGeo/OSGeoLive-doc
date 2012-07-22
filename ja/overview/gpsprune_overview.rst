@@ -6,15 +6,15 @@
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://activityworkshop.net/software/prune/
+  :target: http://gpsprune.activityworkshop.net/
 
-Prune
+GpsPrune
 ================================================================================
 
 GPS トラック編集
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Prune <http://activityworkshop.net/software/prune/>`_ は GPS システムの位置情報を変換、編集するためのツールです。
+`GpsPrune <http://gpsprune.activityworkshop.net/>`_ は GPS システムの位置情報を変換、編集するためのツールです。
 OpenStreetMap のタイルを使用して、記録したトラックと waypoint を表示します。
 また、編集のためのツールを備えており、切り抜き、部分削除などが自由に行えます。
 撮影した写真のタイムスタンプ使用してをトラックの位置情報と関連づけできます。
@@ -44,11 +44,11 @@ Mac OSX, Windows, Linux で動作し、多くの言語に対応しています�
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://activityworkshop.net/software/prune/
+**ウェブサイト:** http://gpsprune.activityworkshop.net/
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 12
+**バージョン:** 13.1
 
 **動作プラットフォーム:** GNU/Linux, Mac OSX, Windows
 
@@ -56,5 +56,5 @@ Mac OSX, Windows, Linux で動作し、多くの言語に対応しています�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/prune_quickstart>`
+* :doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`
 

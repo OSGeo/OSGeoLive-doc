@@ -2,30 +2,30 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _prune-overview-pl:
+.. _gpsprune-overview-pl:
 
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://activityworkshop.net/software/prune/
+  :target: http://gpsprune.activityworkshop.net/
 
 
-Prune
+GpsPrune
 ================================================================================
 
 Narzedzia do edycji śladów GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Prune <http://activityworkshop.net/software/prune/>`_ jest narzędziem do przeglądania,
+`GpsPrune <http://gpsprune.activityworkshop.net/>`_ jest narzędziem do przeglądania,
 edycji i konwertowania danych posiadających georeferencje, z systemów GPS. Do wyświetlania
 zapisanych śladów i punktów tras używa podkładów z OpenStreetMap. Dostarcza również wielu
 narzędzi do edycji i wycinania danych punktowych. Posiada funkcje do korelowania 
 zdjęć ze współrzędnymi za pomocą znaczników czasowych zdjęcia.
 
-Jeśli jest dostępna biblioteka Gpsbabel, Prune korzysta z niej do czytania danych bezpośrednio z odbiornika GPS,
+Jeśli jest dostępna biblioteka Gpsbabel, GpsPrune korzysta z niej do czytania danych bezpośrednio z odbiornika GPS,
 a także umożliwia wysłanie wyedytownych danych z powrotem do urządzenia GPS.
 
-Prune działa na Mac OSX, Windows i Linux, i jest dostępne w dziesięciu różnych językach.
+GpsPrune działa na Mac OSX, Windows i Linux, i jest dostępne w dziesięciu różnych językach.
 
 Główne funkcje
 --------------------------------------------------------------------------------
@@ -47,11 +47,11 @@ Główne funkcje
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://activityworkshop.net/software/prune/
+**Strona internetowa:** http://gpsprune.activityworkshop.net/
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 12
+**Wersja programu:** 13.1
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, Windows
 
@@ -59,5 +59,5 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/prune_quickstart.html>`_
+* `Przejdź do wprowadzenia <../quickstart/gpsprune_quickstart.html>`_
 

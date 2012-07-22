@@ -51,10 +51,10 @@
 地図とナビゲーション
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション
+* :doc:`gpsprune_overview` - [:doc:`クイックスタート <../quickstart/gpsprune_quickstart>`] - GPSトラックの閲覧、編集、変換
 * :doc:`marble_overview` - [:doc:`クイックスタート <../quickstart/marble_quickstart>`] - 球面上の地図を回転
 * :doc:`opencpn_overview` - [:doc:`クイックスタート <../quickstart/opencpn_quickstart>`] - GPSを使った海図プロッタ
 * :doc:`osm_overview` - [:doc:`クイックスタート <../quickstart/osm_quickstart>`] - OpenStreetMap のツール
-* :doc:`prune_overview` - [:doc:`クイックスタート <../quickstart/prune_quickstart>`] - GPSトラックの閲覧、編集、変換
 * :doc:`viking_overview` - [:doc:`クイックスタート <../quickstart/viking_quickstart>`] - GPS データのビューワー、解析
 * :doc:`zygrib_overview` - [:doc:`クイックスタート <../quickstart/zygrib_quickstart>`] - 気象予想図
 

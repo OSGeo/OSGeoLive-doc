@@ -51,10 +51,10 @@ Desktop GIS
 Nawigacja i Mapy
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
+* :doc:`gpsprune_overview` - [:doc:`Wprowadzenie <../quickstart/gpsprune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
 * :doc:`marble_overview` - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - wirtualny glob na KDE
 * :doc:`opencpn_overview` - [:doc:`Wprowadzenie <../quickstart/opencpn_quickstart>`] - GPS do zastosowań marynistycznych
 * :doc:`osm_overview` - [:doc:`Wprowadzenie <../quickstart/osm_quickstart>`] - narzędzia Open Street Map
-* :doc:`prune_overview` - [:doc:`Wprowadzenie <../quickstart/prune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
 * :doc:`viking_overview` - [:doc:`Wprowadzenie <../quickstart/viking_quickstart>`] - przeglądanie i analiza danych GPS
 * :doc:`zygrib_overview` - [:doc:`Wprowadzenie <../quickstart/zygrib_quickstart>`] - mapy prognoz pogody
 
