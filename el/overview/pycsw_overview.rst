@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons
 
 

@@ -2,7 +2,7 @@
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Tanner Lin
-:Version: OSGeo-Live 5.5
+:Version: OSGeo-Live 6.0
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png

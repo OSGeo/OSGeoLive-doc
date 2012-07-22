@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Version: osgeo-live5.0
+:Version: osgeo-live6.0
 :License: Creative Commons
 
 .. _pycsw-overview-es:
@@ -65,7 +65,7 @@ Detalles
 
 **Licencia:** `MIT`_
 
-**Versión de Software:** 1.0.0
+**Versión de Software:** 1.2.0
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
