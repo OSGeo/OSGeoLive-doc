@@ -1,5 +1,5 @@
 :Author: Gérald Fenoy
-:Version: osgeo-live4.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-ZOO-Project.png
