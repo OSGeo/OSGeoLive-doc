@@ -62,7 +62,7 @@ zum Beispiel *Gpsbabel*, *Gnuplot*, *Exiftool* oder *Java3d*.
 Weiterführende Literatur
 ================================================================================
 
-* Prune Homeseite (englisch): http://gpsprune.activityworkshop.net/
+* GpsPrune Homeseite (englisch): http://gpsprune.activityworkshop.net/
 * Bildschirmfotos: http://gpsprune.activityworkshop.net/screenshots.html
 * Benutzeranleitung: http://gpsprune.activityworkshop.net/how-tos_de.html
 

@@ -7,20 +7,20 @@
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://activityworkshop.net/software/prune/
+  :target: http://gpsprune.activityworkshop.net/
 
 
-Prune
+GpsPrune
 ================================================================================
 
 Software de edición de Tracks GPS 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Prune <http://activityworkshop.net/software/prune/>`_ es una herramienta para la visualización, edición y conversión de datos de coordenadas provenientes de sistemas GPS.  Utiliza las imágenes de OpenStreetMap para mostrar los tracks y waypoints registrados, y proporciona una gran variedad de herramientas que permiten edicion y recorte de puntos.  También cuenta con funciones para correlacionar fotos a las coordenadas utilizando el *timestamp* de las fotos.
+`GpsPrune <http://gpsprune.activityworkshop.net/>`_ es una herramienta para la visualización, edición y conversión de datos de coordenadas provenientes de sistemas GPS.  Utiliza las imágenes de OpenStreetMap para mostrar los tracks y waypoints registrados, y proporciona una gran variedad de herramientas que permiten edicion y recorte de puntos.  También cuenta con funciones para correlacionar fotos a las coordenadas utilizando el *timestamp* de las fotos.
 
-Prune utiliza Gpsbabel, si esta disponible, para la lectura directa de datos del dispositivo GPS, y también puede enviar datos de vuelta al receptor.
+GpsPrune utiliza Gpsbabel, si esta disponible, para la lectura directa de datos del dispositivo GPS, y también puede enviar datos de vuelta al receptor.
 
-Prune corre en Mac OSX, Windows y Linux, y está disponible en 10 idiomas diferentes.
+GpsPrune corre en Mac OSX, Windows y Linux, y está disponible en 10 idiomas diferentes.
 
 Características clave
 --------------------------------------------------------------------------------
@@ -42,11 +42,11 @@ Características clave
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio Web:** http://activityworkshop.net/software/prune/
+**Sitio Web:** http://gpsprune.activityworkshop.net/
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión de Software:** 12
+**Versión de Software:** 13.1
 
 **Plataformas soportadas:** GNU/Linux, Mac OSX, Windows
 
@@ -54,5 +54,5 @@ Detalles
 Guía rápida
 --------------------------------------------------------------------------------
 
-* `Documentación de inicio rápido <../quickstart/prune_quickstart.html>`_
+* `Documentación de inicio rápido <../quickstart/gpsprune_quickstart.html>`_
 

@@ -51,10 +51,10 @@ GIS  de escritorio
 Navegación y mapas
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - Navegación GPS 
+* :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Ver, editar y convertir Tracks de GPS 
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Globo
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Ploteo de GPS marino 
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Herramientas OpenStreetMap
-* :doc:`prune_overview` - [:doc:`QuickStart <../quickstart/prune_quickstart>`] - Ver, editar y convertir Tracks de GPS 
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - Análisis y visualización de datos GPS 
 * :doc:`zygrib_overview` - Mapas de predicción meteorológica
 
