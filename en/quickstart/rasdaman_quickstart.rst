@@ -1,7 +1,8 @@
-:Author: Michael Owonibi (m.owonibi@jacobs-university.de)
+:Author: Jinsongdi Yu (j.yu@jacobs-university.de)
+:Author: Michael Owonibi (o.michael@jacobs-university.de)
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
 :Author: Dimitar Misev (d.misev@jacobs-university.de)
-:Version: osgeo-live4.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
@@ -30,7 +31,7 @@ Running queries locally
     * Open a console and open the sample database installed locally
     * use the rasql utility to send queries and receive results, for example::
 
-      $ rasql -q "select png(rgb.red + rgb.blue ) from rgb" --out file
+      $ rasql -q "select png( NIR ) from NIR" --out file
 
     * use your favorite image inspection tool to open the file generated.
 
@@ -46,7 +47,7 @@ Create your own database
 
     * use the rasql utility to send queries and receive results, for example::
 
-      $ rasql -q "select png( rgb.red + rgb.blue ) from rgb" --out file
+      $ rasql -q "select png( NIR ) from NIR" --out file
 
 
 Things to Try

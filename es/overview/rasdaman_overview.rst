@@ -1,5 +1,5 @@
-:Author: Peter Baumann , Michael Owonibi
-:Version: osgeo-live4.5
+:Author: Peter Baumann , Michael Owonibi, Jinsongdi Yu
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _rasdaman-overview-es:

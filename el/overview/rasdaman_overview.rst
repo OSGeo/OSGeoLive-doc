@@ -1,8 +1,9 @@
 :Author: Peter Baumann
 :Author: Michael Owonibi
 :Author: Dimitar Misev
+:Author: Jinsongdi Yu
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
