@@ -10,29 +10,29 @@
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: Download iso file with windows installers
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/5.5/osgeo-live-5.5.iso
+  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-6.0.iso/download
 
-`osgeo-live-5.5.iso <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-5.5.iso>`_ : |osgeolive-iso-size|
+`osgeo-live-6.0.iso <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-6.0.iso/download>`_ : |osgeolive-iso-size|
 
-这是一个基于 Xubuntu 建立的 DVD 镜像，其中也包含了部分软件在 Windows 或 Mac 下的安装程序。它也可以安装在 8G 的 USB 盘上。下载前请检查文件的 MD5 值 `(osgeo-live-5.5.iso.md5) <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-5.5.iso.md5>`_ 。
+这是一个基于 Xubuntu 建立的 DVD 镜像，其中也包含了部分软件在 Windows 或 Mac 下的安装程序。它也可以安装在 8G 的 USB 盘上。下载前请检查文件的 MD5 值 `(osgeo-live-6.0.iso.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-6.0.iso.md5/download>`_ 。
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Download iso without Windows and Mac installers
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/5.5/osgeo-live-mini-5.5.iso
+  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso
 
-`osgeo-live-mini-5.5.iso <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-mini-5.5.iso>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-6.0.iso <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso>`_ : |osgeolive-iso-mini-size|
 
-这个版本除了不包含 Windows 及 Mac 安装程序外与前置一样。它可以安装在 4G 的 USB 盘中。下载前请检查文件的 MD5 值 `(osgeo-live-mini-5.5.iso.md5) <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-mini-5.5.iso.md5>`_ 。
+这个版本除了不包含 Windows 及 Mac 安装程序外与前置一样。它可以安装在 4G 的 USB 盘中。下载前请检查文件的 MD5 值 `(osgeo-live-mini-6.0.iso.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso.md5/download>`_ 。
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Download 7-zip of a Virtual Machine without Windows and Mac installers
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z
+  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z
 
-`osgeo-live-vm-5.5.7z <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z>`_ : |osgeolive-vm-7z-size|
+`osgeo-live-vm-6.0.7z <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z>`_ : |osgeolive-vm-7z-size|
 
-用 `7-Zip <http://www.7-zip.org/>`_ 压缩好的虚拟盘（.vmdk），使用于 VirtualBox 、VMWare 、KVM 等虚拟机环境。它不包含 Windows 及 Mac 安装程序。下载前请检查文件的 MD5 值 `(osgeo-live-vm-5.5.7z.md5) <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z.md5>`_ 。
+用 `7-Zip <http://www.7-zip.org/>`_ 压缩好的虚拟盘（.vmdk），使用于 VirtualBox 、VMWare 、KVM 等虚拟机环境。它不包含 Windows 及 Mac 安装程序。下载前请检查文件的 MD5 值 `(osgeo-live-vm-6.0.7z.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z.md5/download>`_ 。
 
 完整的下载及镜像列表见 visit: http://download.osgeo.org/livedvd 。
 
