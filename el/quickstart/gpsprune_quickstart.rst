@@ -5,16 +5,16 @@
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://activityworkshop.net/software/prune/
+  :target: http://gpsprune.activityworkshop.net/
 
 ***********************************
-Εγχειρίδιο Γρήγορης Εκκίνησης Prune 
+Εγχειρίδιο Γρήγορης Εκκίνησης GpsPrune 
 ***********************************
 
 Εκτέλεση
 ========
 
-Για να τρέξετε το πρόγραμμα Prune από αυτό το DVD απλά επιλέξτε το εικονίδιο GpsPrune στο μενού επιλογών Navigation and Maps.
+Για να τρέξετε το πρόγραμμα GpsPrune από αυτό το DVD απλά επιλέξτε το εικονίδιο GpsPrune στο μενού επιλογών Navigation and Maps.
 Για να χρησιμοποιείσετε δεδομένα μπορείτε είτε να φορτώσετε δεδομένα από ένα αρχείο είτε από ένα GPS με χρήση του *Gpsbabel*
 είτε εισάγωντας συντεταγμένες με το χέρι. Ο ευκολότερος τρόπος να ξεκινήσετε είναι να φορτώσετε οποιοδήποτε gpx, kml ή kmz
 αρχείο από το μενού :menuselection:`File --> Open file`.
@@ -36,7 +36,7 @@
 Τα χρώμματα αλλάζουν με την επιλογή :menuselection:`Settings --> Set colours`.
 
 Αν θέλετε να αποθηκεύσετε τις ρυθμίσεις σας επιλέξτε :menuselection:`Settings --> Save settings`,
-και αυτές θα είναι αποθηκευμένες μέχρι την επόμενη εκτέλεση του Prune. Όπως ίσως γνωρίζετε,
+και αυτές θα είναι αποθηκευμένες μέχρι την επόμενη εκτέλεση του GpsPrune. Όπως ίσως γνωρίζετε,
 με την χρήση του Live DVD, ότι αρχεία αποθηκεύετε στο απλό σύστημα αρχείων (home) απλά χάνονται μετά την 
 επανεκκίνηση του H/Y.
 
@@ -49,18 +49,18 @@
 
 Σε άλλα συστήματα
 ~~~~~~~~~~~~~~~~~
-Αφού δοκιμάσατε το Prune με αυτό το live DVD ίσως θέλετε να το χρησιμοποιείσετε σε ένα άλλο σύστημα
+Αφού δοκιμάσατε το GpsPrune με αυτό το live DVD ίσως θέλετε να το χρησιμοποιείσετε σε ένα άλλο σύστημα
 είτε είναι GNU/Linux είτε MacOSX είτε Win. Κάποιες διανομές GNU/Linux το περιλαμβάνουν στα αποθετήριά τους
 (αναζητήστε το ως "Prune" ή "GpsPrune"), αλλά μπορείτε και να το κατεβάσετε μέσα από την ιστοσελίδα του.  
 
 Δεν χρειάζεται να εγκατασταθεί, αλλά απαιτεί μια μηχανή εκτέλεσης java εγκατεστημένη: έκδοση 1.5 ή μεγαλύτερη.
-Μπορείτε να επεκτείνετε τις δυνατότητες του Prune εγκαθιστώντας πρόσθετο ελεύθερο λογισμικό όπως
+Μπορείτε να επεκτείνετε τις δυνατότητες του GpsPrune εγκαθιστώντας πρόσθετο ελεύθερο λογισμικό όπως
 *Gpsbabel*, *Gnuplot*, *Exiftool* ή *Java3d*.
 
 Περισσότερες πηγές
 ==================
 
-* Ιστοχώρος Prune: http://activityworkshop.net/software/prune/
-* Αποσπάσματα οθόνης: http://activityworkshop.net/software/prune/screenshots.html
-* Εγχειρίδια / Οδηγίες : http://activityworkshop.net/software/prune/how-tos.html
+* Ιστοχώρος GpsPrune: http://gpsprune.activityworkshop.net/
+* Αποσπάσματα οθόνης: http://gpsprune.activityworkshop.net/screenshots.html
+* Εγχειρίδια / Οδηγίες : http://gpsprune.activityworkshop.net/how-tos.html
 

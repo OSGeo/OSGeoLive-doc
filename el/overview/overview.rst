@@ -51,10 +51,10 @@
 Πλοήγηση και Χάρτες
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart>`] - Πλοήγηση GPS
+* :doc:`gpsprune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsprune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
 * :doc:`marble_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Περιστρεφόμενη Υδρόγειος
 * :doc:`opencpn_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart>`] - Ναυτικός Πλοηγός GPS
 * :doc:`osm_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart>`] - Εργαλεία Open Street Map
-* :doc:`prune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/prune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
 * :doc:`viking_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart>`] - Οπτικοποίηση σημείων GPS
 * :doc:`zygrib_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart>`] - Χάρτες πρόγνωσης καιρού
 
