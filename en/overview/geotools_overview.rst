@@ -111,7 +111,7 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 2.7.1
+**Software Version:** 8.0
 
 **Supported Platforms:** Cross Platform Java
 
