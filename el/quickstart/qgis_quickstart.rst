@@ -3,74 +3,75 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+.. _qgis-quickstart:
+ 
 .. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-***************
-QGIS Quickstart 
-***************
+**********************************
+Εγχειρίδιο Γρήγορης Εκκίνησης QGIS
+**********************************
 
-Quantum GIS (QGIS) is a user friendly Desktop GIS client which lets
-you visualize, manage, edit, analyse data and compose printable maps.
+To Quantum GIS (QGIS) είναι μια φιλική GIS Desktop εφαρμογή, που επιτρέπει την προβολή, διαχείρηση, επεξεργασία, ανάλυση δεδομένων και σύνθεση εκτυπώσιμων χαρτών.
 
-This Quick Start describes how to:
+Αυτός ο οδηγός περιγράφει πώς:
 
-  * update an existing QGIS project
-  * create a new QGIS project with a simple vector layer
+  * Θα ενημερωθεί μια εργασία του QIS
+  * Θα δημιουργηθεί μια νέα εργασία QGIS με ένα απλό θεματικό επίπεδο (layer) διανυσματικών δεδομένων (vector)
 
 
-Edit QGIS project
-=================
+Επεξεργασία εργασίας QGIS
+=========================
 
-#. Click :menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
+#. Με το ποντίκι:menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
 
-#. Choose :menuselection:`File --> Open Project...` from the menu bar.
+#. Επιλογή :menuselection:`File --> Open Project...` από τη γραμμή εργαλείων.
 
-#. Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
+#. Επιλογή :file:`QGIS-NaturalEarth-Example.qgs` και στη συνέχεια :guilabel:`Open`.
 
-   * You should see a world map.
+   * Θα πρέπει να δείτε ένα παγκόσμιο χάρτη.
 
-#. Check **10m_populated_places_simple** in the Layers tree
+#. Επιβεβαιώστε **10m_populated_places_simple** στο δέντρο των Layers
 
-   * Populated places are now displayed:
+   * Οι κατοικήσιμες περιοχές πλέον προβάλλονται στο QGIS:
 
      .. image:: ../../images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
-#. Double click **10m_rivers_lake_centerlines** in the Layers tree.
+#. Διπλό αριστερό κλικ **10m_rivers_lake_centerlines** στο δέντρο των Layers.
 
-#. Change the color in Outline Options to a different blue tone.
+#. Επιλέξτε ένα διαφορετικό τόνο του μπλε για χρώμα στο Outline Options.
 
-#. Press :guilabel:`OK`.
+#. Πατήστε :guilabel:`OK`.
 
-   * Rivers are now rendered in a new color.
-
-
-Create a new QGIS project
-=========================
-
-#. Choose :menuselection:`File --> New Project`.
-
-#. Click :menuselection:`Layer --> Add Vector Layer...`.
-
-#. Browse to dataset :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
-
-#. Press :guilabel:`Open`.
-
-   * You should see all world countries.
+   * Τα ποτάμια πλέον προβάλλονται με ένα νέο χρώμα.
 
 
-What Next?
-==========
+Δημιουργία νέας εργασίας QGIS
+=============================
 
-To learn more about QGIS, a starting point is the `Documentation page`_ on the QGIS homepage.
+#. Επιλέξτε :menuselection:`File --> New Project`.
 
-OSGeo-Live contains a `A Gentle Introduction to GIS`_  and the `QGIS User Guide`_.
+#. Με το ποντίκι επιλέξτε :menuselection:`Layer --> Add Vector Layer...`.
 
-.. _`Documentation page`: http://www.qgis.org/en/documentation.html
+#. Πλοηγηθείτε στα δεδομένα :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
+
+#. Επιλέξτε:guilabel:`Open`.
+
+   * Θα πρέπει να δείτε όλες τις χώρες του κόσμου.
+
+
+Τι ακολουθεί?
+=============
+
+Για να μάθετε περισσότερα για το QGIS, ένα σημείο εκκίνησης είναι το `Εγχειρίδιο Χρήσης`_ στην κεντρική σελίδα του QGIS.
+
+Το OSGeo-Live περιέχει τα παρακάτω κείμενα: `A Gentle Introduction to GIS`_  και το `QGIS User Guide`_.
+
+.. _`Εγχειρίδιο Χρήσης`: http://www.qgis.org/en/documentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
 .. _`QGIS User Guide`: file:///usr/local/share/qgis/qgis-1.6.0_user_guide_en.pdf
 
