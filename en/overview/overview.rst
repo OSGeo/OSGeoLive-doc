@@ -109,7 +109,7 @@ Other software of interest (not available Live)
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based GIS
 
-.. MapGuide temporarily disabled to save on disc space; MapWindow won't run on Ubuntu
+.. MapGuide temporarily disabled to save on disc space; MapWindow is windows based (.net) and won't run on Ubuntu
 
 Windows and Apple Installers
 --------------------------------------------------------------------------------
