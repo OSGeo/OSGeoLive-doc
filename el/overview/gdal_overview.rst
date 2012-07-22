@@ -62,7 +62,7 @@ GDAL/OGR
 
 **Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Έκδοση Λογισμικού:** 1.8.0
+**Έκδοση Λογισμικού:** 1.7.0 (1.9.1)
 
 **Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 

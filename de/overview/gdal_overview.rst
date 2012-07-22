@@ -63,7 +63,7 @@ Details
 
 **Lizenz:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Software Version:** 1.8.0
+**Software Version:** 1.7.0 (1.9.1)
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
