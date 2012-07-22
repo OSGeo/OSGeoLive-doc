@@ -30,7 +30,7 @@ image processing library ITK and is distributed as open source.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.png
+.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

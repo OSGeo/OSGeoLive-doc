@@ -56,7 +56,7 @@ Perform segmentation with Monteverdi
 * Select "Close" when you are satisfied by the result.
 * In the main window, right click on the "Clustered Image" in the resulting dataset "MeanShift0" and select "Display in viewer" 
 
-  .. image:: ../../images/screenshots/800x600/otb-mean_shift.png
+  .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
      :scale: 100 %
 
 Perform supervised classification based on SVM  with Monteverdi
@@ -71,7 +71,7 @@ Perform supervised classification based on SVM  with Monteverdi
 * Click on the `Learn` button to create a classification model fron the input learning classes 
 * Click on the `Display` button to show the result of the supervised classification on the entire image
 
-  .. image:: ../../images/screenshots/800x600/otb-svm.png
+  .. image:: ../../images/screenshots/800x600/otb-svm.jpg
      :scale: 100 %
 
 For the full tutorial see the  `article`_.

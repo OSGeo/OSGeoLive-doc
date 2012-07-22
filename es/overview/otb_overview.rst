@@ -31,7 +31,7 @@ como código de fuente abierta.
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.png
+.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

@@ -24,7 +24,7 @@ ITK und ist Open Source.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.png
+.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

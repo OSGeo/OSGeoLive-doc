@@ -24,7 +24,7 @@ Catàleg de Metadades
 
 GeoNetwork OpenSource és un catàleg d'aplicacions per gestionar recursos georeferenciats. Aquesta eïna proveeix metadades potents, funcions d'edició i de recerca, un visor de mapa interactiu embegut, i basats en Estàndards Oberts.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
+.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
   :scale: 50 %
   :alt: logo del projecte. 
   :align: right

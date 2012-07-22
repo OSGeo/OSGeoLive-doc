@@ -24,7 +24,7 @@ Catálogo de metadatos
 
 GeoNetwork opensource es una aplicación para gestionar catálogos de recursos georreferenciados. Proporciona funciones avanzadas de edición y búsqueda de metadatos, incorpora un visor web de mapas interctivo, y se basa en estándares abiertos.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
+.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
   :scale: 50 %
   :alt: logo del proyecto
   :align: right

@@ -27,7 +27,7 @@ OTB はフランス国立宇宙研究センター (CNES) で開発されてき�
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.png
+.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right
