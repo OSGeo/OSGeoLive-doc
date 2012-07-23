@@ -9,14 +9,15 @@
   Metadata about this document
 
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Author: Barry Rowlingson
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
-
-.. _postigs-overview:
 
 .. Writing Tip:
   Project logos are stored here:
@@ -38,7 +39,7 @@
   
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: OSGeo Project in Incubation
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -82,7 +83,7 @@ Zarządzanie bazą danych jest dostępne poprzez pgAdmin, phpPgAdmin oraz inne p
 
 .. image:: ../../images/screenshots/800x600/pgadmin.gif
   :scale: 55 %
-  :alt: project logo
+  :alt: pgAdmin database manager
   :align: right
 
 Główne funkcje
@@ -131,5 +132,5 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/postgis_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/postgis_quickstart>`
 

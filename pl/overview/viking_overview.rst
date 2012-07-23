@@ -68,7 +68,6 @@ Szczegóły
 
 **Wsparcie:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
-
 Wprowadzenie
 ----------
 

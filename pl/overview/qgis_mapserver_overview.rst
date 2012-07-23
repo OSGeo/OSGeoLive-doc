@@ -1,10 +1,8 @@
 :Author: OSGeo-Live
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live4.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _qgis_mapserver-overview:
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
@@ -17,7 +15,6 @@
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
-
 
 QGIS Server
 ================================================================================
@@ -33,7 +30,6 @@ QGIS Server najczęściej używa się jako modył CGI/FastCGI poprzez serwer sie
   :scale: 40 %
   :alt: project logo
   :align: right
-
 
 Główne funkcje
 --------------------------------------------------------------------------------
@@ -67,5 +63,4 @@ Wprowadzenie
 --------------------------------------------------------------------------------
 
 * :doc:`Przejdź do wprowadzenia  <../quickstart/qgis_mapserver_quickstart>`
-
 

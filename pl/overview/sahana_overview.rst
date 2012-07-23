@@ -1,8 +1,8 @@
 :Author: Gavin Treadgold
-:Version: osgeo-live4.5
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _sahana-overview-pl:
 
 .. image:: ../../images/project_logos/logo-sahana-eden.png
   :scale: 100 %
@@ -37,7 +37,6 @@ dozens of Governments and NGOs since then.
   :alt: screenshot
   :align: right
 
-
 Główne funkcje
 --------------------------------------------------------------------------------
 
@@ -59,7 +58,6 @@ Demo
 
 * `Sahana Eden demo <http://demo.eden.sahanafoundation.org/>`_
 
-
 Szczegóły
 --------------------------------------------------------------------------------
 
@@ -67,7 +65,7 @@ Szczegóły
 
 **Licencja:** Licencja MIT
 
-**Wersja programu:** 0.5.4
+**Wersja programu:** 0.5.5
 
 **Systemy operacyjne:** GNU/Linux, Mac OS X, Microsoft Windows
 
@@ -78,4 +76,4 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/sahana_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/sahana_quickstart>`

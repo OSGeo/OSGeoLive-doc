@@ -10,7 +10,6 @@
   :align: right
   :target: http://www.ushahidi.com
 
-
 Ushahidi
 ================================================================================
 
@@ -35,7 +34,6 @@ Strona była użyta do zobrazowania mapy incydentów przemocy i działań pokojo
 bazującej na raportach dostarczanych poprzez sieć Internet i telefony komórkowe. To pierwsze wdrożenie 
 Ushahidi liczyło w Kenii 45.000 użytkowników i uświadomiło nam potrzebę stworzenia bazującej na tej 
 podstawie platformy, która mogłaby być używana przez ludzi na całym świecie.
-
 
 Główne funkcje
 --------------------------------------------------------------------------------
@@ -76,7 +74,6 @@ Szczegóły
 **Systemy operacyjne:** Linux, Mac, Windows
 
 **Wsparcie:** http://forums.ushahidi.com
-
 
 Wprowadzenie
 --------------------------------------------------------------------------------

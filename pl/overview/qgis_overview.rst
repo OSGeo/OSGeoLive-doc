@@ -1,10 +1,8 @@
 :Author: OSGeo-Live
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _qgis-overview-pl:
 
 .. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
@@ -17,7 +15,6 @@
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
-
 
 Quantum GIS (QGIS)
 ================================================================================
@@ -49,7 +46,6 @@ Główne funkcje
   * zmiana sposobu wyświetlania danych rastrowych i wektorowych,
   * dodawanie warstwy siatki,
   * i nie tylko...
-
 
 * Łatwe przeglądanie danych w wielu rastrowych i wektorowych formatach
 
@@ -95,7 +91,6 @@ Szczegóły
 **Wsparcie społeczności:** http://qgis.org/en/community.html
 
 **Wsparcie komercyjne:** http://qgis.org/en/commercial-support.html
-
 
 Wprowadzenie
 --------------------------------------------------------------------------------

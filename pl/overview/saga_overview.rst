@@ -1,8 +1,8 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _saga-overview-pl:
 
 .. image:: ../../images/project_logos/logo-saga.png
   :scale: 100 %
@@ -10,14 +10,14 @@
   :align: right
   :target: http://www.saga-gis.org
 
-
 SAGA
 ================================================================================
 
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SAGA (System for Automated Geoscientific Analyses) jest systemem informacji geograficznej (GIS)
+SAGA (System for Automated Geoscientific Analyses) jest systemem 
+informacji geograficznej (GIS)
 o otwartym kodzie źródłowym, używanym do edycji i analiz danych przestrzennych.
 Zawiera bogaty zestaw modułów do analiz danych wektorowych (punktów, linii, poligonów),
 tabel, siatek i zobrazowań. Między innymi, pakiet zawiera moduły geostatystyczne, do klasyfikacji obrazów,
@@ -25,7 +25,7 @@ zmiany odwzorowań, symulacji dynamicznych procesów (hydrologicznych, kształto
 krajobrazu) i analiz terenu. Funkcje programu mogą być dostępne przez GUI, wiersz poleceń
 lub z poziomu API C++.
 
-SAGA jest tworzona od 2000r., a centrum jej rozwoju znajduje się 
+SAGA jest tworzona od 2001r., a centrum jej rozwoju znajduje się 
 w Instytucie Geografii na Uniwersytecie w Hamburgu, z udziałem 
 rosnącej światowej społeczności.
 
@@ -41,8 +41,8 @@ Główne funkcje
 
  * Import/eksport do różnych formatów
  * Reprojekcja/resampling danych
- * Manipulacja danymi wektorowymi (merdżowanie/przecinanie/atrybuty)
- * Manipulacja chmur punktów z danych LiDAR
+ * Praca z danymi wektorowymi (łączenie/przecinanie/atrybuty)
+ * Praca z chmurami punktów LiDAR
  * Dane rastrowe: interpolacja, analizy kosztów...
  * Analizy zobrazowań: filtrowanie, wykrywanie granic, analizy skupień, segmentacja
  * Numeryczne analizy terenu: generowanie indeksów morfometrycznych, sieci kanałów, profili, linii konturowych...
@@ -63,18 +63,17 @@ Szczegóły
 
 **Licencja:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
-**Wersja programu:** 2.0.6
+**Wersja programu:** 2.0.8
 
-**Systemy operacyjne:** Linux, Windows
+**Systemy operacyjne:** Linux, Windows, FreeBSD
 
 **Interfejsy API:** C++
 
 **Wsparcie:** http://www.saga-gis.org
 
-
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/saga_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/saga_quickstart>`
 
 
