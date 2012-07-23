@@ -48,7 +48,7 @@ This homebrewed digital calculator is also bundled with custom functions allowin
 Perform segmentation with Monteverdi
 ================================================================================
 
-* Start Monteverdi from its icon from the directory "XXX" on the desktop 
+* Start Monteverdi from its icon from the Spatial Tools folder on the desktop
 * Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
 * Go to the :menuselection:`Filtering --> Mean Shift clustering`
 * Select the input raster image (Reader0) from the input window selection
@@ -62,7 +62,7 @@ Perform segmentation with Monteverdi
 Perform supervised classification based on SVM  with Monteverdi
 ================================================================================
 
-* Start Monteverdi from its icon from the directory "XXX" on the desktop 
+* Start Monteverdi from its icon from the Spatial Tools folder on the desktop 
 * Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
 * Go to the :menuselection:`Learning --> SVM classification`
 * Select the input raster image (Reader0) from the input window selection
