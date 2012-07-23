@@ -1,8 +1,8 @@
 :Author: Henry Addo
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _ushahidi-overview-pl:
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
   :scale: 80 %
@@ -17,51 +17,50 @@ Ushahidi
 Incident Timeline & Mapping
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The `Ushahidi <http://www.ushahidi.com/>`_ Engine is a free and open source
-platform that allows anyone to gather distributed data via SMS, email or 
-web and visualize it on a map or a timeline. Ushahidi's goal is to create tools for 
-democratizing information, increasing transparency and lowering the barriers 
-for individuals to share their stories.
+`Ushahidi <http://www.ushahidi.com/>`_ jest platformą Wolnego Oprogramowania 
+pozwalającą na zbieranie rozproszonych danych poprzez SMS, email lub sieć 
+Internet oraz wizualizację tych danych na mapach lub wykresach ze zmienną czasową. 
+Celem Ushahidi jest stworzenie narzędzia do demokratyzacji i zwiększenia przejrzytości 
+informacji oraz zmniejszenia bariery dzielenia się swoimi historiami przez zwykłych ludzi.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-Ushahidi, which means "testimony" in Swahili, was initially developed to
-map reports of violence in Kenya after the post-election fallout at the
-beginning of 2008. Ushahidi's roots are in the collaboration of Kenyan
-citizen journalists during a time of crisis. The website was used to map
-incidents of violence and peace efforts throughout the country based on
-reports submitted via the web and mobile phone. This initial deployment of
-Ushahidi had 45,000 users in Kenya, and was the catalyst for us realizing
-there was a need for a platform based on it, which could be use by others
-around the world.
+Ushahidi, oznaczające "świadectwo" w języku Swahili, powstało pierwotnie dla potrzeb
+tworzenia map raportujących zdarzenia przemocy w czasie powyborczych zamieszek na początku 
+2008 r. w Kenii. Korzenie Ushahidi wywodzą się ze współpracy Kenijskich dziennikarzy w czasie kryzysu. 
+Strona była użyta do zobrazowania mapy incydentów przemocy i działań pokojowych na obszarze kraju, 
+bazującej na raportach dostarczanych poprzez sieć Internet i telefony komórkowe. To pierwsze wdrożenie 
+Ushahidi liczyło w Kenii 45.000 użytkowników i uświadomiło nam potrzebę stworzenia bazującej na tej 
+podstawie platformy, która mogłaby być używana przez ludzi na całym świecie.
 
 
 Główne funkcje
 --------------------------------------------------------------------------------
-* Interactive map.
-* Timeline.
-* Ability to subscribe to report alerts based on proximity.
-* CSS based theming.
-* 5 minute web installer.
-* Ability to upload and download mass reports.
-* Ability to layer KML/KMZ files on the map.
-* Supports custom pages and tabs.
-* Site statitics and analytics.
-* Plugin system.
-* One click upgrade.
-* Supports multiple SMS providers.
-* Trusted Reporter functionality.
-* Themes.
-* Scheduler.
+* Mapa interaktywna.
+* Linia czasu.
+* Możliwość subskrybcji w celu zgłaszania raportów na podstawie bliskości położenia.
+* Skórki oparte na CSS.
+* Pięciominutowy instalator sieciowy.
+* Możliwość pobierania i wczytywania masowych raportów.
+* Możliwość wyświetlania na mapie warstw KML/KMZ.
+* Obsługa własnych stron i kart.
+* Statystyki i analizy punktowe.
+* System wtyczek.
+* Aktualizacja jednym kliknięciem.
+* Obsługa wielu dostawców SMS.
+* Funkcja zaufanego raportu.
+* Tematy.
+* Harmonogram.
 * Cache.
 
 Demo
 --------------------------------------------------------------------------------
 
-* `Ushahidi Demo instance <http://demo.ushahidi.com/>`_
+* `Demo Ushahidi
+<http://demo.ushahidi.com/>`_
 
 Szczegóły
 --------------------------------------------------------------------------------
@@ -70,7 +69,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 3
 
-**Wersja programu:** 2.0.1
+**Wersja programu:** 2.1
 
 **Interfejsy API:** PHP
 
@@ -82,6 +81,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/ushahidi_quickstart.html>`_
+* `Przejdź do wprowadzenia <../quickstart/ushahidi_quickstart>`
 
 

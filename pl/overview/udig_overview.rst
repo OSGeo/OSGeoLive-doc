@@ -1,8 +1,8 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _udig_overview-pl:
 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 30
@@ -21,16 +21,16 @@ Desktop GIS
   :alt: udig workshop
   :align: right
 
-User-friendly Desktop Internet GIS (uDig) is an open source spatial data viewer/editor, with special emphasis on the OpenGIS standards for internet GIS, the Web Map Server (WMS) and Web Feature Server (WFS) standards.
+Przyjazny Użytkownikowi Desktopowy Internetowy GIS (uDig) jest przeglądarką i edytorem "open source" danych przestrzennych, ze szczególnym naciskiem na standardy OpenGIS dla GIS-u internetowego: Web Map Server (WMS) i Web Feature Server (WFS).
 
-uDig is:
+uDig jest:
 
-* **User-friendly**, providing a familiar graphical environment for GIS users;
-* **Desktop located**, running natively on Windows, Mac OS/X and Linux;
-* **Internet oriented**, consuming standard and de facto geospatial web services; and,
-* **GIS ready**, providing the framework on which complex analytical capabilities can be built, and gradually subsuming those capabilities into the main application
+* **Przyjazny dla użytkownika**, dostarczając intuicyjnego środowiska graficznego użytkownikom GIS;
+* **Zlokalizowany desktopowo**, pracując natywnie na Windows, Mac OS/X i Linux;
+* **Zorientowany internetowo**, konsumując usługi sieciowe oparte na standardach i de facto-; oraz,
+* **Gotowy do GIS-u**, dostarczając frameworku, na którym mogą byc budowane kompleksowe analityczne możliwości, oraz stopniowo przenoszone do głównej aplikacji.
 
-For developers uDig provides a common Java platform for building spatial applications with open source components. The website provides series of clear tutorials covering making a simple tool through to releasing your own custom application.
+Dla programistów uDig dostarcza popularnej platformy Java do budowania aplikacji przestrzennych z komponentów open source. Strona internetowa zawiera serie przejrzystych tutoriali opisujących tworzenie prostego narzędzia aż do wydania własnej applikacji.
 
 Główne funkcje
 --------------------------------------------------------------------------------
@@ -49,7 +49,7 @@ Główne funkcje
 * Printing and PDF Generation
 * For Developers
   
-  * Java Application built using the :doc:`GeoTools <geotools_overview>` and `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Java Application built using the :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
   * Use of native widgets
 
@@ -84,6 +84,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/udig_quickstart.html>`_
+* `Przejdź do wprowadzenia <../quickstart/udig_quickstart>`
 
 
