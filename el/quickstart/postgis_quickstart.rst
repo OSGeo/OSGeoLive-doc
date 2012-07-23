@@ -1,6 +1,7 @@
 :Author: Barry Rowlingson
 :Author: Astrid Emde
-:Version: osgeo-live4.5p
+:Author: Cameron Shorter
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
@@ -10,119 +11,153 @@
   :target: http://postgis.org/
 
 
+********************************************************************************
+Οδηγός γρήγορης εκκίνησης PostGIS
+********************************************************************************
 
-******************
-PostGIS Quickstart
-******************
+Η PostGIS προσθέτει δυνατότητα για χωρικές πράξεις στην σχεσιακή βάση δεδομένων PostgreSQL. Επεκτείνει
+την PostgreSQL ώστε να μπορεί να αποθηκεύει, ερωτά, και να διαχειρίζεται χωρικά δεδομένα. Σε αυτό τον Οδηγό Γρήγορης εκκίνησης θα χρησιμοποιήσουμε
+τον όρο 'PostgreSQL' όταν θα αναφερόμαστε σε γενικές συναρτήσεις των βάσεων δεδομένων, και τον όρο 'PostGIS' όταν
+θα περιγράφεται η επιπρόσθετη χωρική δυνατότητα που παρέχει η PostGIS.
 
-PostGIS adds spatial capabilities to the PostgreSQL relational database system. It gives
-PostgreSQL the ability to store, query, and manipulate spatial data. In this note we will
-use 'PostgreSQL' when we talk about general database functions, and 'PostGIS' when
-we talk about the additional functionality that it provides.
+Αρχιτεκτονική Πελάτη-Διακομιστή
+================================================================================
 
+Η PostgreSQL, όπως πολλές βάσεις δεδομένων, λειτουργεί σαν διακομιστής (server) σε ένα πλαίσο πελάτη-διακομιστή (client-server).
+O πελάτης κάνει ένα αίτημα στο διακομιστή και λαμβάνει πίσω μια απάντηση. Αυτός είναι ο ίδιος τρόπος που λειτουργεί το διαδίκτυο - ο πλοηγητής σελίδων (browser) είναι ένας πελάτης, ενώ ένας διαδικτυακός διακομιστής στέλνει πίσω τη σελίδα του ιστοτόπου. Με την PostgreSQL τα αιτήματα είναι στη γλώσσα SQL και οι απαντήσεις συνήθως είναι ένας πίνακας με δεδομένα από τη βάση.
 
-Client-server Architecture
-==========================
+Δεν εμποδίζει τίποτα το διακομιστή να είναι στον ίδιο υπολογιστή με τον πελάτη και αυτό επιτρέπει τη χρήση της PostgresQL σε ένα και μόνο μηχάνημα. Ο πελάτης συνδέεται στο διακομιστή μέσω μιας εσωτερικής 'επαναληπτικής' δικτυακής σύνδεσης και δεν είναι ορατός σε άλλους υπολογιστής, εκτός και αν γίνουν οι κατάλληλες ρυθμίσεις.
 
-PostgreSQL, like many database systems, works as a server in a client-server system.
-The client makes a request to the server and gets back a response. This is the
-same way that the WWW works - your browser is the client and the web server sends
-back the web page. With PostgreSQL the requests are in the SQL language and the
-response is usually a table of data from the database.
+Δημιουργία μιας Χωρικής Βάσης Δεδομένων
+================================================================================
 
-There is nothing to stop the server being on the same computer as the client, and this
-enables you to use PostgreSQL on a single machine. Your client connects to the server
-via the internal 'loopback' network connection, and is not visible to other computers
-unless you configure it to be so.
+Ένας διακομιστής PostgreSQL σας επιτρέπει να οργανώσετε τα δεδομένα, τοποθετώντας τα σε χωριστές βάσεις δεδομένων. Κάθε βάση λειτουργεί ανεξάρτητα από τις άλλες, με τους δικούς της πίνακες, θεάσεις (views) χρήστες κτλ. Όταν συνδέεστε στην PostgreSQL θα πρέπει να καθορίσετε τη βάση δεδομένων.
 
-Creating A Spatially-Enabled database
-=====================================
+Μπορείτε να πάρετε μια λίστα βάσεων δεδομένων από το διακομιστή με την εντολή``psql -l``. Θα πρέπει να δείτε διάφορες βάσεις δεδομένων, που χρησιμοποιούνται από κάποια από τα προγράμματα που υπάρχουν στο σύστημα . Σε αυτό τον Οδηγό, θα δημιουργήσουμε μια νέα.
 
-To handle spatial data you need a PostgreSQL database with PostGIS
-functionality. From the unix command line you can use ``createdb``:
+.. tip:: Η λίστα των βάσεων χρησιμοποιεί ένα τυπικό παρουσιαστή αρχείων κειμένου τύπου UNIX - πατήστε κενό για να πάτε στην επόμενη σελίδα, b για την προηγούμενη, q για να κλείσει και h για βοήθεια.
+
+Η PostgreSQL μας δίνει το εργαλείο για δημιουργία βάσεων δεδομένων ``createdb``. Πρέπει να δημιουργήσουμε μια βάση δεδομένων με τις επεκτάσεις της PostGIS, έτσι χρειάζεται να πούμε στην PostgreSQL ποια πρότυπη βάση να χρησιμοποιήσει. Θα πούμε τη βάση δεδομένων μας``demo``. Η εντολή είναι:
+
+.. review comment: createdb is a utility programm not a unix command
 
 ::
 
    createdb -T template_postgis demo
 
-.. tip:: Note that the command line tools provide help with --help for further information 
+.. tip:: Μπορείτε συνήθως να λάβετε βοήθεια από τη γραμμή εντολών χρησιμοποιώντας την επιλογή ``--help`` μετά από μία εντολή.
 
-or from the PostgreSQL command line tool ``psql``, you can create it
-with SQL:
 
-First get a list of all databases with ``psql`` and the parameter -l. Connect with a database. 
-:: 
+Εάν τώρα τρέξετε ``psql -l`` θα πρέπει να δείτε τη βάση δεδομένων ``demo`` στη λίστα.
 
- psql -l 
- psql -d postgres
- 
-Run the SQL to create a new database:
+Μπορείτε βεβαίως να δημιουργήσετε βάσεις δεδομένων PostGIS databases με χρήση της SQL. Πρώτα θα διαγράψουμε τη βάση δεδομένων που μόλις φτιάξαμε με την εντολή``dropdb``, μετά θα χρησιμοποιήσουμε την εντολή ``psql`` για να χρησιμοποιήσουμε ένα διερμηνέα εντολών SQL :
 
 :: 
 
- CREATE DATABASE demo TEMPLATE=template_postgis;
-
-To check this has worked, your database will have a lot of
-spatial functions and two tables: ``geometry_columns`` and ``spatial_ref_sys``.
-
-.. tip:: Note that when you are connected a database with psql you will get help with \h or \?. Leave the database with \q.
-
-
-Creating A Spatial Table The Hard Way
-=====================================
-
-Now we have a spatial database we can make spatial tables. Start the
-PostgreSQL command-line client by entering 'psql' and your database name at a terminal
-prompt. This should connect to your database.
-
-::
-
- psql -d postgres
-
-
-First we create an ordinary database table to store some city data -
-this table has two fields - one for a numeric ID and one for the city
-name:
-
-::
-
-  CREATE TABLE cities ( id int4, name varchar(50) );
-
-Next you have to add a geometry column. Conventionally this is called
-``the_geom`` or ``geom``. This tells PostGIS what kind of geometry
-each feature has (points, lines, polygons etc), how many dimensions
-(in this case two), and importantly the spatial reference
-system. We'll create the geometry column using EPSG:4326 coordinates.
-
-::
-
-  SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
-
-.. tip:: Check the PostGIS table ``geometry_columns``. YOu will find a new row with metadata for your table there.
+  dropdb demo
+  psql -d postgres
  
-Now we can add some data to our table. Adding the id and name values is standard SQL fare. Adding our
-point coordinates requires us to use a PostGIS function to convert WKT (Well Known Text) strings with a 
-spatial reference system id.
+Αυτές οι εντολές συνδέονται στη βάση δεδομένων που λέγεται ``postgres``, που είναι μια βάση δεδομένων του συστήματος την οποία πρέπει να έχουν όλοι οι διακομιστές. Τώρα εισάγετε την ακόλουθη εντολή SQL για να δημιουργήσετε μια νέα βάση:
+
+:: 
+
+ postgres=# CREATE DATABASE demo TEMPLATE=template_postgis;
+
+Τώρα αλλάξτε τη σύνδεσή σας από τη βάση δεδομένων ``postgres`` στη νέα βάση ``demo``. 
+Στο μέλλον θα μπορείτε να συνδεθείτε απευθείας με την εντολή ``psql -d demo``, αλλά υπάρχει ένας απλός τρόπος να αλλάζετε βάση μέσα από τη γραμμή εντολών της ``psql``:
 
 ::
 
-  INSERT INTO cities (id, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
-  INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
-  INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
+ postgres=# \c demo
 
-As you can see this gets increasingly tedious very quickly. Luckily there are other ways of getting
-data into PostGIS tables that are much easier. But now we have three cities in our database, and we 
-can work with that.
+.. tip:: Επιλέξτε το συνδυασμό Ctrl-C εάν η γραμμή εντολών της psql  συνεχίζει να εμφανίζεται αφού πατήσετε return. Θα καθαρίσει ό,τι δεδομένα εισάγατε στη γραμμή και θα ξεκινήσετε από την αρχή. Πιθανότατα περιμένεετε για ένα κλειστό ερωτηματικό, εισαγωγικό ή και κάτι άλλο.
 
-
-Simple Queries
-==============
-
-All the usual SQL operations can be applied to select data from a PostGIS table.
+Θα πρέπει να δείτε ένα ενημερωτικό μήνυμα και το πρόθεμα στη γραμμή εντολών θα αλλάξει για να δείξει πως είστε συνδεδεμένος/η στη βάση ``demo``. Για να επιβεβαιώσετε πως όλα έγιναν σωστά, εισάγετε ``\dt`` για να δείτε όλους τους πίνακες της βάσης. Θα πρέπει να δείτε κάτι σαν το ακόλουθο:
 
 ::
 
- # SELECT * FROM CITIES;
+  demo=# \dt
+               List of relations
+   Schema |       Name       | Type  | Owner 
+  --------+------------------+-------+-------
+   public | geometry_columns | table | user
+   public | spatial_ref_sys  | table | user
+  (2 rows)
+
+Αυτοί οι 2 πίνακας χρησιμοποιούνται από την PostGIS. Ο πίνακας ``spatial_ref_sys`` περιέχει πληροφορίες για υπαρκτά συστήματα αναφοράς και μπορούμε να χρησιμοποιήσουμε SQL για να δούμε εν τάχει τα δεδομένα:
+
+::
+
+  demo=# SELECT srid,auth_name,proj4text FROM spatial_ref_sys LIMIT 10;
+
+   srid | auth_name |          proj4text                                            
+  ------+-----------+--------------------------------------
+   3819 | EPSG      | +proj=longlat +ellps=bessel +towgs...
+   3821 | EPSG      | +proj=longlat +ellps=aust_SA +no_d...
+   3824 | EPSG      | +proj=longlat +ellps=GRS80 +towgs8...
+   3889 | EPSG      | +proj=longlat +ellps=GRS80 +towgs8...
+   3906 | EPSG      | +proj=longlat +ellps=bessel +no_de...
+   4001 | EPSG      | +proj=longlat +ellps=airy +no_defs...
+   4002 | EPSG      | +proj=longlat +a=6377340.189 +b=63...
+   4003 | EPSG      | +proj=longlat +ellps=aust_SA +no_d...
+   4004 | EPSG      | +proj=longlat +ellps=bessel +no_de...
+   4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
+  (10 rows)
+
+Αυτό επιβεβαιώνει πως έχουμε μια χωρική βάση. Ο πίνακας ``geometry_columns`` ενημερώνει την PostGIS, ποιοι πίνακες περιέχουν χωρική πληροφορία. Αυτό είναι το επόμενο βήμα.
+
+
+
+Δημιουργία ενός Χωρικού Πίνακα με το Δύσκολο Τρόπο
+================================================================================
+
+Τώρα που έχουμε μια χωρική βάση, μπορούμε να κάνουμε μερικούς χωρικούς πίνακες.
+
+Πρώτα δημιουργείστε ένα τυπικό πίνακα για να αποθηκεύσετε μερικά δεδομένα πόλεων.
+Ο πίνακας έχει 2 πεδία - ένα με ένα αριθμητικό αναγνωριστικό και ένα άλλο για το όνομα της πόλης:
+
+::
+
+  demo=# CREATE TABLE cities ( id int4, name varchar(50) );
+
+Στη συνέχεια προσθέστε μια στήλη που θα περιέχει γεωμετρία, για να αποθηκεύσετε την τοποθεσία των πόλεων .
+Από σύμβαση, η στήλη καλείται
+``the_geom``. Αυτό λέει στην PostGIS τo είδος της γεωμετρίας του χαρακτηριστικού (σημεία, γραμμές, πολύγωνα κτλ), πόσες διαστάσεις (σε αυτή την περίπτωση δύο) και το σύστημα αναφοράς. Θα χρησιμοποιούμε το σύστημα αναφοράς EPSG:4326 για τις πόλεις μας.
+
+::
+
+  demo=# SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
+
+Τώρα, εάν παρατηρήσετε τον πίνακα των πόλεων θα δείτε τη νέα στήλη και θα ενημερωθείτε πως για την ώρα ο πίνακας δεν περιέχει καμία γραμμή-εγγραφή.
+
+::
+
+  demo=# SELECT * from cities;
+   id | name | the_geom 
+  ----+------+----------
+  (0 rows)
+
+Για να προσθέσετε γραμμές στον πίνακα, θα χρησιμοποιήσετε μερικές εντολές SQL. Για να εισάγουμε τη γεωμετρία στη στήλη των γεωμετρικών, χρησιμοποιήστε τη συνάρτητη της PostGIS ``ST_GeomFromText`` για να μετατραπούν από μια μορφοποίηση κειμένου που δίνει τις συντεταγμένες και ένα κωδικό από ένα χωρικό σύστημα αναφοράς:
+
+::
+
+  demo=# INSERT INTO cities (id, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
+  demo=# INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
+  demo=# INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
+
+.. tip:: Χρησιμοποιήστε τα βέλει για να ανακαλέσετε και να επεξεργαστείτε γραμμές εντολών.
+
+Όπως μπορείτε να δείτε αυτό γίνεται αυξανόμενα καταπονητικό πολύ γρήγορα. Ευτυχώς υπάρχουν και άλλοι τρόποι για να εισαχθούν δεδομένα σε πίνακες της PostGIS, πολύ πιο γρήγορα. Αλλά τώρα υπάρχουν τρεις πόλεις και μπορούμε να εργαστούμε με αυτές.
+
+
+Απλές ερωτήσεις
+================================================================================
+
+Όλοι οι τυπικοί τελεστές SQL μπορούν να εφαρμοστούν για να επιλέξετε δεδομένα από ένα πίνακα της PostGIS:
+
+::
+
+ demo=# SELECT * FROM cities;
   id |      name       |                      the_geom                      
  ----+-----------------+----------------------------------------------------
    1 | London, England | 0101000020E6100000BBB88D06F016C0BF1B2FDD2406C14940
@@ -130,11 +165,13 @@ All the usual SQL operations can be applied to select data from a PostGIS table.
    3 | East London,SA  | 0101000020E610000040AB064060E93B4059FAD005F58140C0
  (3 rows)
 
-If you want to have a look at your geometry in WKT format again, you can use the functions ST_AsText(the_geom) or ST_AsEwkt(the_geom). Or use ST_X(the_geom), ST_Y(the_geom) to get the coordinates
+Αυτό επιστρέψει μια δεξαεξαδική αναπαράσταση των συντεταγμένων χωρίς νόημα για τον άνθρωπο.
+
+Αν θέλετε να ξαναδείτε τις συντεταγμένες σας σε τυποποίηση WKT, μπορείτε να χρησιμοποιήσετε τις συναρτήσεις ST_AsText(the_geom) or ST_AsEwkt(the_geom). Μπορείτε επίσης να χρησιμοποιήσετε τις συναρτήσεις ST_X(the_geom), ST_Y(the_geom) για να πάρετε αριθμητικές τιμές από τις συντεταγμένες:
 
 ::
 
- # SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM CITIES;
+ demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM cities;
   id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
  ----+------------------------------+----------------------------------------+-------------+-----------
    1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
@@ -144,22 +181,14 @@ If you want to have a look at your geometry in WKT format again, you can use the
 
 
 
-Spatial Queries
-===============
+Χωρικές ερωτήσεις
+================================================================================
 
-PostGIS adds many functions with spatial functionality to
-PostgreSQL. We've already seen ST_GeomFromText which converts WKT to
-geometry. Most of them start with ST (for spatial type) and are listed in a section of
-the PostGIS documentation. We'll now use one to answer a practical
-question.
-
-How far are these three Londons away from each other, in metres,
-assuming a spherical earth? (I'd use ST_Distance_Spheroid but my
-version of PostGIS doesn't have it)
+Η PostGIS προσθέτει πολλές συναρτήσεις με χωρική λειτουργικότητα στην PostgreSQL. Είδαμε ήδη την ST_GeomFromText που μετατρέπει WKT σε γεωμετρία. οι περισσότερες από αυτές ξεκινούν με το πρόθεμα ST (εννοώντας 'spatial type' - χωρική συνάρτηση) και αναφέρονται στην τεκμηρίωση της PostGIS. Θα χρησιμοποιήσουμε μία για να απαντήσουμε μια πρακτική περώτηση - Πόσο μακριά είναι οι τρεις πόλεις μεταξύ τους, θεωρώντας μια σφαιρική γη; 
 
 ::
 
- # SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) from cities as p1, cities as p2 where p1.id > p2.id;
+ demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
        name       |      name       | st_distance_sphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
@@ -167,141 +196,143 @@ version of PostGIS doesn't have it)
   East London,SA  | London, Ontario |   13892160.9525778
   (3 rows)
 
-This gives is the distance, in metres, between each pair of
-cities. Notice how the 'where' part of the line stops us getting back
-distances of a city to itself (which will all be zero) or the reverse
-distances to the ones in the table above (England to Ontario is the
-same distance as Ontario to London). Try it without the 'where' part
-and see what happens.
+Το αποτέλεσμα είναι η απόσταση, σε μέτρα, ανάμεσασ σε κάθε ζευγάρι πόλεων. Παρατηρήστε πώς το 'WHERE' τμήμα μας παρεμποδίζει από το να πάρουμε αποστάσεις μιας πόλης με τον εαυτό της (που θα ήταν μηδέν) ή τις αντίστροφες αποστάσεις (London, England με London, Ontario είναι η ίδια απόσταση με την London, Ontario με London, England). Δοκιμάστε την ίδια ερώτηση χωρίς το 'WHERE' τμήμα της και δείτε τι θα συμβεί.
+
+Μπορούμε επίσης να υπολογίσουμε την απόσταση, χρησιμοποιώντας ένα σφαιροειδές, με τη χρήση μιας διαφορετικής συνάρτησης στην οποία θα δωθούν σαν παράμετροι το όνομα του σφαιροειδούς, το μισό μήκος του μεγάλου άξονα και η αντίστροφη επιπλάτυνση:
+
+::
+
+  demo=# SELECT p1.name,p2.name,ST_Distance_Spheroid(
+          p1.the_geom,p2.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
+          ) 
+         FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
+        name       |      name       | st_distance_spheroid 
+  -----------------+-----------------+----------------------
+   London, Ontario | London, England |     5892413.63776489
+   East London,SA  | London, England |     9756842.65711931
+   East London,SA  | London, Ontario |     13884149.4140698
+  (3 rows)
+
+
 
 Mapping
-=======
+================================================================================
 
-To produce a map from PostGIS data, you need a client that can get at the data. Most 
-of the open source desktop GIS programs can do this - Quantum GIS, gvSIG, uDig for example. Now we'll
-show you how to make a map from Quantum GIS.
+Για να παράγουμε ένα χάρτη από δεδομένα της PostGIS, απαιτείται ένας πελάτης που μπορεί να έχει πρόσβαση στα δεδομένα. Τα περισσότερα GIS ανοικτού λογισμικού μπορούν να το κάνουν, για παράδειγμα τα Quantum GIS, gvSIG και uDig. Τώρα θα σας δείξουμε πώς μπορείτε να κάνετε ένα χάρτη από το Quantum GIS.
 
-Start Quantum GIS and choose ``Add PostGIS layer`` from the layer menu. Because you haven't interacted
-with PostGIS from QGIS before, you'll get an empty set of PostGIS connections.
+Ξεκινήστε το Quantum GIS και επιλέξτε ``Add PostGIS layer``από τη λίστα των επιπέδων. Επειδή δεν έχετε αποκτήσει πρόσβαση στις πληροφορίες της PostGIS από το QGIS παλαιότερα, δεν θα δείτε καμιά παλαιότερη σύνδεση με την PostGIS.
 
 .. image:: ../../images/screenshots/1024x768/postgis_add.png
   :scale: 100 %
-  :alt: Add a PostGIS layer
+  :alt: Προσθήκη επιπέδου PostGIS 
   :align: center
 
-Hit 'new' and enter the parameters for the connection. We'll use the Natural Earth database
-provided on the DVD system. There's no username or password because the security is set up
-to allow you access.
+Πατήστε 'new' και εισάγετε τις παραμέτρους της σύνδεσης. Θα χρησιμοποιήσουμε τη βάση δεδομένων Natural Earth που υπάρχει μέσα στο παρών DVD. Δεν χρειάζεται όνομα χρήστη ή κωδικός επειδή η ασφάλεια είναι ρυθμισμένη για να σας επιτρέψει την πρόσβαση. Αποεπιλέξτε την επιλογή για προβολή πινάκων χωρίς γεωμετρία, αν είναι επιλεγμένη - θα κάνει τα πράγματα λίγο πιο εύκολα.
 
 .. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
   :scale: 100 %
   :alt: Connect to Natural Earth
   :align: center
 
-Hit the ``Test Connect`` button, and if all is well you'll get a friendly 
-message. Hit ``OK`` and your connection info is saved under the name in the drop-down box. Now you can
-hit ``Connect`` and get a list of the spatial tables in the database:
+Πατήστε το κουμπί ``Test Connect``,και αν όλα είναι εντάξει, θα πάρετε ένα μήνυμα επιβεβαίωσης. Πατήστε ``OK`` και η σύνδεσή σας θα αποθηκευτεί στη λίστα των συνδέσεων. Τώρα μπορείτε να πατήσετε  ``Connect`` και να λάβετε μια λίστα από πίνακες με χωρική πληροφορία από τη βάση:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_layers.png
   :scale: 100 %
   :alt: Natural Earth Layers
   :align: center
 
-Choose the lakes and hit ``Add``, and it should be loaded into QGIS:
+Επιλέξτε τις λίμνες και πατήστε ``Add`` (όχι ``Load`` - αυτή η επιλογή σώζει ερωτήσεις), και θα πρέπει να φορτωθεί στοQGIS:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_lakes.png
   :scale: 50 %
-  :alt: My First PostGIS layer
+  :alt: Το πρώτο μου PostGIS επίπεδο
   :align: center
 
-You should now see a map of the lakes. QGIS doesn't know they are lakes, so might not colour
-them blue for you. Use the QGIS documentation to work out how to change this! Zoom in to
-a famous group of lakes in Canada.
+Θα πρέπει να δείτε ένα χάρτη των λιμνών. Καθώς το QGIS δεν ξέρει πως είναι λίμνες, πιθανότατα δεν θα έχουν το χρώμα μπλε - δείτε την τεκμηρίωση του QGIS για να δείτε πώς θα το αλλάξετε. Εστιάστε στο διάσημο σύνολο λιμνών του Καναδά.
 
 
-Creating A Spatial Table The Easy Way
-=====================================
+Δημιουργία χωρικού πίνακα με τον εύκολο τρόπο
+================================================================================
 
-Most of the OSgeo desktop tools have functions for importing spatial data in files, such as shapefiles,
-into PostGIS databases. Again we'll use QGIS to show this.
+Τα περισσότερα εργαλεία της OSGeo έχουν συναρτήσεις για την είσοδο χωρικών δεδομένων από αρχεία, όπως shapefiles, σε βάσεις δεδομένων PostGIS. Θα χρησιμοποιήσουμε πάλι το QGIS για να δείξουμε αυτή τη λειτουργία.
 
-Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
-Plugins menu, select ``Manage Plugins`` and then find the ``PostGIS Manager``. Check the box and OK 
-it. Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
-to start the manager.
+Η εισαγωγή shapefiles στο QGIS μέσω ενός εύχρηστου πρόσθετου, του PostGIS Manager. Για να το εγκαταστήσετε, πηγαίνετε στη λίστα Plugins, επιλέξτε ``Manage Plugins`` και μετά βρείτε το ``PostGIS Manager``. Μαρκάρετε το κουτί και πατήστε ΟΚ για την επιλογή σας. Τώρα στη λίστα Plugin θα πρέπει να υπάρχει αναφορά για τον PostGIS Manager η οποία δίνει την επιλογή να ξεκινήσει το πρόσθετο.
 
-It will then use your previously defined settings to connect to the Natural Earth database. Leave
-the password blank if it asks. You'll see the main manager window.
+Το πρόσθετο θα χρησιμοποιήσει τις προηγούμενες ρυθμίσεις, για να συνδεθεί στη βάση δεδομένων Natural Earth. Αφήστε το πεδίο του κωδικού κενό, εάν ερωτηθείτε. Θα δείτε το κεντρικό παράθυρο του διαχειριστή.
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_manager.png
-  :scale: 100 %
-  :alt: PostGIS Manager Plugin
+  :scale: 75 %
+  :alt: Πρόσθετο PostGIS Manager
   :align: center
 
-You can use the other tabs in the right-side panel to check the attributes of the layer and even
-get a basic map with zoom and pan capabilities. Here I've selected the the populated places layer
-and zoomed in on a little island I know:
+Μπορείτε να χρησιμοποιήσετε τις καρτέλες που βρίσκονται στο δεξί μέρος για να δείτε και να επιβεβαιώσετε τις ιδιότητες του επιπέδου, ακόμα και να πάρετε ένα βασικό χάρτη με δυνατότητες εστίασης και πλοήγησης. Εδώ έχω επιλέξει το επίπεδο των κατοικημένων περιοχών και έχω έστιάσει σε ένα μικρό νησί που ξέρω:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
-  :scale: 100 %
-  :alt: PostGIS Manager Preview
+  :scale: 75 %
+  :alt: Προεπισκόπηση δεδομένων στον PostGIS Manager
   :align: center
 
-Now to read in a shapefile. From the ``Data`` menu choose the ``Load data from shapefile`` option. 
-All you need to do here is browse to the world shapefile in the data directory of the osgearth 
-folder, and give the table a name. Leave everything else. Hit ``Load``.
+Θα χρησιμοποιήσουμε τώρα τον PostGIS Manager για να εισάγουμε ένα shapefile στη βάση δεδομένων. Θα χρησιμοποιήσουμε τα δεδομένα της Βόρειας Καρολίνας που αφορούν αιφνίδιους θανάτους βρεφών (SIDS - Sudden Infant Death Syndrome), τα οποία περιλαμβάνονται με την προσθήκη ενός πρόσθετου του προγράμματος στατιστικής R.
+
+Από τη λίστα ``Data`` επιλέξτε την επιλογή ``Load data from shapefile``. 
+Πατήστε το ``...`` και πλοηγηθείτε ώστε να βρείτε το shapefile ``sids.shp`` στο πακέτο ``maptools``  του R:
+
+.. image:: ../../images/screenshots/1024x768/postgis_find_shape.png
+  :scale: 75 %
+  :alt: Εύρεση του shapefile
+  :align: center
+
+Αφήστε τις άλλες επιλογές ως έχουν και πατήστε ``Load``
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_load.png
-  :scale: 100 %
-  :alt: Import a shapefile
+  :scale: 75 %
+  :alt: Εισαγωγή ενός shapefile
   :align: center
 
-The shapefile should be imported into PostGIS with no errors. 
+Το shapefile θα πρέπει να εισαχθεί στην PostGIS χωρίς λάθη. Κλείστε τον PostGIS manager και 
+επιστρέψτ στο κεντρικό παράθυρο του QGIS .
 
-Now get back to the main QGIS window and load the world data into the map using the 'Add PostGIS Layer'
-option. With a bit of rearranging of the layers and some colouring, you should be able to get something
-like this:
+Τώρα φορτώστε τα δεδομένα SIDS στο χάρτη με την επιλογή 'Add PostGIS Layer'. Με μια ανακατανομή των επιπέδων και λίγο επεξεργασία των χρωμάτων, θα πρέπει να μπορέσετε να παράξετε ένα χωροπληθικό χάρτη του πλήθους των αιφνιδίων θανάτων βρεφών στη Βόρεια Καρολίνα:
 
 .. image:: ../../images/screenshots/1024x768/postgis_ne_final.png
-  :scale: 50 %
-  :alt: Lakes and Countries
+  :scale: 75 %
+  :alt: Χαρτογραφική ανα παράσταση των δεδομένων SIDS
   :align: center
 
 
 
 
-Get to know pgAdmin III
-=======================
-You can use the graphical database client ``pgAdmin III`` to run you SQLs and handle your data. 
-pgAdmin III also provides a plugin for shape import. This client provides a comfortable way to 
-manage your data.
+Εκμάθηση του pgAdmin III
+================================================================================
+
+Μπορείτε να χρησιμοποιήσετε τον πελάτη ``pgAdmin III`` που παρέχει γραφικά εργαλεία για να γίνονται ερωτήσεις και αλλαγές στην βάση δεδομένων σας μη χωρικά Είναι ο επίσημος πελάτης της PostgreSQL, και επιτρέπει τη χρήση SQL για τη διαχείριση των πινάκων της βάσης.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.gif
-  :scale: 100 %
+  :scale: 50 %
   :alt: pgAdmin III
   :align: center
 
-Things to try
-=============
+Δοκιμές
+================================================================================
 
-Here are some additional challenges for you to try:
+Εδώ είναι μερικές ακόμα προκλήσεις, που μπορείτε να δοκιμάσετε:
 
-#. Try some more spatial functions like st_buffer(the_geom), st_transform(the_geom,25831), x(the_geom) . You find a very good documentation at http://postgis.org/documentation/
+#. Δοκιμάστε μερικές ακόμα χωρικές συναρτήσεις, όπως ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)`` - θα βρείτε πλήρη τεκμηρίωση στη σελίδα http://postgis.org/documentation/
 
-#. Export your tables to shape with pgsql2shp
+#. Εξαγωγή των πινάκων σε shapefiles με το εργαλείο``pgsql2shp`` από τη γραμμή εντολών.
 
-#. Try ogr2ogr to import/export data to your database
+#. Δοκιμάστε το εργαλείο ``ogr2ogr`για να εισάγετε και να εξάγετε δεδομένα από τη βάση σας.
 
 
-What Next?
-==========
+Τι ακολουθεί?
+================================================================================
 
-This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.
+Αυτό είναι μόλις το πρώτο βήκα στο δρόμο για να χρησιμοποιήσετε την PostGIS. Υπάρχουν πολλές περισσότερες δυνατότητες που μπορείτε να δοκιμάσετε.
 
-PostGIS Project home
+Σελίδα PostGIS 
 
  http://postgis.org
 
-PostGIS Documentation
+Τεκμηρίωση της PostGIS
 
-http://postgis.org/documentation/
+ http://postgis.org/documentation/
