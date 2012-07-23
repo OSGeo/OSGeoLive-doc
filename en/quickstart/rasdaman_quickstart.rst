@@ -31,7 +31,7 @@ Running queries locally
     * Open a console and open the sample database installed locally
     * use the rasql utility to send queries and receive results, for example::
 
-      $ rasql -q "select png( NIR ) from NIR" --out file
+      $ rasql -q "select png((char)(c.red / (c.red + c.green) - c.green / (c.red + c.green)) > 0.6 * 255) from rgb AS c" --out file
 
     * use your favorite image inspection tool to open the file generated.
 
@@ -50,7 +50,7 @@ Create your own database
       $ rasql -q "select png( NIR ) from NIR" --out file
 
 
-Things to Try
+Things to Try:
 ================================================================================
 
 Here are some additional challenges for you to try:
