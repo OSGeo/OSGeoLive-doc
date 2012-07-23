@@ -1,6 +1,8 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.5
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _zygrib-overview-pl:
 
@@ -44,8 +46,14 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 3
 
-**Wersja programu:** 5.0.2
+**Wersja programu:** 3.9.2
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 
 **Wsparcie:** http://zygrib.org/forum/
+
+Wprowadzenie
+--------------------------------------------------------------------------------
+
+
+* :doc:`Przejdź do wprowadzenia <../quickstart/zygrib_quickstart>`
