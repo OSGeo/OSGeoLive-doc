@@ -17,8 +17,8 @@ Running
 ================================================================================
 
 You will most likely want to install
-the `gpsd <http://gpsd.berlios.de>`_ package so that you can talk to
-your GPS; without that GpsDrive is just a nice map viewer.
+the `gpsd <http://savannah.nongnu.org/projects/gpsd>`_ package so that you can talk
+to your GPS; without that GpsDrive is just a nice map viewer.
 
 Speech output is supported if the "espeak" software is installed.
 To use live-maps from the OpenStreetMap project you need to install the
