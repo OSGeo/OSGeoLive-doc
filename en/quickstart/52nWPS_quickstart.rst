@@ -37,7 +37,7 @@ Running
   
 
 *	Check out the capabilities of the 52°North WPS with this request:
-		http://localhost:8080/wps/WebProcessingService?Request=GetCapabilities&Service=WPS
+		http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS
 
 	
 *	For further questions you can contact the 52°North WPS mailing list:
