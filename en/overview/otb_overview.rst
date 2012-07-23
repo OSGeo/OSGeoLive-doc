@@ -19,8 +19,8 @@ ORFEO Toolbox Library (OTB) is a high performance image processing
 library. It is primarily used for processing remote sensing images
 such as those gathered by radars, satellites and aerial
 photography. OTB provides tools for the future optic and radar images
-(tridimensional aspects, changes detection, texture analysis, pattern
-matching, optic/radar complementarities).
+(tridimensional aspects, segmentation, classification, changes detection, texture analysis, pattern
+matching, optic/radar complementarities,).
 
 OTB has been funded the French Space Agency (CNES) in the frame of the
 Methodological Part of the ORFEO Accompaniement Program and has been
@@ -35,18 +35,19 @@ Core Features
   :alt: screenshot
   :align: right
 
-* image access: optimized read/write access for most remote sensing
+* image access: optimized read/write access for most remote sensing (including Jpeg2000 imagery)
   image formats, meta-data access and visualization;
 * orthorectification and map reprojection
 * calibration
 * image fusion
-* filtering: blurring, denoising, enhancement;
-* feature extraction: interest points, alignments, lines;
+* filtering: blurring, denoising, enhancement...
+* feature extraction: interest points, alignments, lines...
 * object detection
-* image segmentation: region growing, watershed, level sets;
-* classification: K-means, SVM, Markov random fields;
+* large scale image segmentation: region growing, mean-shift, watershed, level sets...
+* classification: K-means, SVM, Markov random fields
 * object-based image analysis
 * geospatial analysis
+* stereoscopic reconstruction from optical images pair
 * SAR data analysis
 * change detection.
 
@@ -58,11 +59,11 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 3.12
+**Software Version:** 3.14 (released in July 2012)
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**API Interfaces:** C++ (bindings in Java and Python available)
 
 **Commercial Support:** http://www.osgeo.org/search_profile
 
