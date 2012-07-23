@@ -30,19 +30,11 @@
   :align: right
   :target: http://postgis.refractions.net/
 
-.. Writing Tip:
-  Include an OSGeo logo if the project is an OSGeo project, or is in
-  incubation. OSGeo projects are listed on this page: http://www.osgeo.org/
-  .. image:: images/logos/OSGeo_incubation.png
-  .. image:: images/logos/OSGeo_project.png
-
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
-
-.. Writing Tip: Name of application
 
 PostGIS
 ================================================================================
