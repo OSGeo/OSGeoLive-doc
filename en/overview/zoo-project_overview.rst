@@ -15,15 +15,15 @@
   :align: right
   :target: http://www.osgeo.org
 
-ZOO Project
+ZOO-Project
 ================================================================================
 
 WPS Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ZOO Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
+ZOO-Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
 A WPS provides web access to functions which run spatial algorithms.
-ZOO Project supports many programming languages and comes with two demo applications using simple
+ZOO-Project supports many programming languages and comes with two demo applications using simple
 spatialtools Services Providers (a C shared library and a Python module)
 based on the GEOS and OGR Libraries.
 
