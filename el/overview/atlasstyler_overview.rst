@@ -30,8 +30,8 @@ AtlasStyler
 
 * Δημιουργία Στύλ με τη χρήση παραθύρων.
 * Βασισμένο στο πρότυπο OGC SLD.
-* Εκτελείται σε Windows, Linux και Mac.
-* Εισαγωγή από αρχεία ESRI Shapefiles, υπηρεσίες WFS και βάσεις δεδομένων PostGIS.
+* Εκτελείται σε Windows και Linux.
+* Εισαγωγή από αρχεία ESRI Shapefiles, υπηρεσίες WFS και βάσεις δεδομένων PostGIS, GeoTIFF, ESRI ArcASCII
 * Μεταγλωτισμένο πλήρως στα Γερμανικά, Αγγλικά, Ιταλικά, Τουρκικά, Ρωσικά και Γαλλικά.
 
 Υλοποιημένα Πρότυπα
@@ -45,11 +45,11 @@ AtlasStyler
 
 **Κεντρική Ιστοσελίδα:** http://en.geopublishing.org/AtlasStyler
 
-**Έκδοση Λογισμικού:** 1.8
+**Έκδοση Λογισμικού:** 1.9
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 3.0
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 
 **Προγραμματιστικές διεπαφές:** Java, Swing, Geotools
 

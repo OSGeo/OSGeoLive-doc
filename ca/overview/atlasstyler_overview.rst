@@ -36,7 +36,7 @@ Característiques Principals
 
 * Crear estils usant diàlegs molt intuïtius.
 * Basat en l'estàndard OGC SLD.
-* Es pot instal·lar en Windows, Linux i Mac.
+* Es pot instal·lar en Windows i Linux.
 * Importa dades en format ESRI Shapefiles, OGC WFS i bases de dades PostGIS.
 * Traduït íntegrament a l'Alemany, Anglès, Italià, Turc, Rus i Francès.
 
@@ -51,11 +51,11 @@ Detalls
 
 **Lloc Web:** http://en.geopublishing.org/AtlasStyler
 
-**Versió de Programari:** 1.8
+**Versió de Programari:** 1.9
 
 **Llicència:** GNU Lesser General Public License (LGPL) version 3.0
 
-**Plataformes suportades:** Windows, Linux, Mac
+**Plataformes suportades:** Windows, Linux
 
 **Interfícies de desenvolupament:** Java, Swing, Geotools
 

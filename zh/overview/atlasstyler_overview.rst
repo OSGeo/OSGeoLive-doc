@@ -46,11 +46,11 @@ AtlasStyler创建的SLD文件同支持OGC SLD标准规范的所有应用程序�
 
 **网站:** http://en.geopublishing.org/AtlasStyler
 
-**软件版本:** 1.8
+**软件版本:** 1.9
 
 **版权:** GNU Lesser General Public License (LGPL) version 3.0
 
-**支持平台:** Windows, Linux, Mac
+**支持平台:** Windows, Linux
 
 **API接口:** Java, Swing, Geotools
 

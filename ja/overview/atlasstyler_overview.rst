@@ -31,8 +31,8 @@ AtlasStyler
 
 * ダイアログを利用したスタイル作成
 * OGC SLD標準への準拠
-* Windows, Linux, Macでの実行
-* ESRI ShapefileとPostGIS databaseのインポート and OGC WFS
+* Windows, Linux での実行
+* ESRI ShapefileとPostGIS databaseのインポート and OGC WFS, GeoTIFF, ESRI ArcASCII
 * ドイツ語、英語、イタリア語、フランス語への完全な翻訳
 
 準拠している標準規格
@@ -46,11 +46,11 @@ AtlasStyler
 
 **ウェブサイト:** http://en.geopublishing.org/AtlasStyler
 
-**バージョン:** 1.8
+**バージョン:** 1.9
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 3.0
 
-**利用可能プラットフォーム:** Windows, Linux, Mac
+**利用可能プラットフォーム:** Windows, Linux
 
 **API:** Java, Swing, Geotools
 
@@ -62,5 +62,4 @@ AtlasStyler
 --------------------------------------------------------------------------------
 
 * `クイックスタート文章 <../quickstart/atlasstyler_quickstart.html>`_
-
 

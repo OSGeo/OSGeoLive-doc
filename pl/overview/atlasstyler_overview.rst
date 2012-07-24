@@ -33,7 +33,7 @@ Główne funkcje
 
 * Budowa stylów przy pomocy okien dialogowych.
 * Bazujący na standardzie OGC SLD.
-* Działa na Windows, Linux i Mac.
+* Działa na Windows i Linux.
 * Import ESRI Shapefiles, OGC WFS i z baz danych PostGIS.
 * Całkowicie przetłumaczony na niemiecki, angielski, włoski, turecki, rosyjski i francuski.
 
@@ -48,11 +48,11 @@ Szczegóły
 
 **Strona internetowa:** http://en.geopublishing.org/AtlasStyler
 
-**Wersja programu:** 1.8
+**Wersja programu:** 1.9
 
 **Licencja:** GNU Lesser General Public License (LGPL) version 3.0
 
-**Systemy operacyjne:** Windows, Linux, Mac
+**Systemy operacyjne:** Windows, Linux
 
 **Interfejsy API:** Java, Swing, Geotools
 
