@@ -70,7 +70,7 @@ PROJ.4
   
   **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 4.7.0
+  **Software Version:** 4.8.0
   
   **Supported Platforms:** Windows, Linux, Mac
   
@@ -83,9 +83,9 @@ Proj4js
 
   **Website:**  http://proj4js.org
   
-  **Licence:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
+  **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 1.0.1
+  **Software Version:** 1.1.0
   
   **Supported Platforms:** Windows, Linux, Mac
   
@@ -96,7 +96,7 @@ Proj4js
 CS-Map
 --------------------------------------------------------------------------------
 
-  **Website:**  http://proj4js.org
+  **Website:**  http://trac.osgeo.org/csmap/
   
   **Licence:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
   
@@ -115,7 +115,7 @@ GeoTIFF/libgeotiff
   
   **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 1.3.0
+  **Software Version:** 1.4.0
   
   **Support:** http://lists.maptools.org/mailman/listinfo/geotiff
   
