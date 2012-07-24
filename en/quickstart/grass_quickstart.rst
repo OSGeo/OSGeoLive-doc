@@ -29,7 +29,7 @@ dataset.
   :alt: screenshot
   :align: right
 
-This will launch GRASS with our brand new GUI written in wxPython.
+This will launch GRASS with our `brand new GUI written in wxPython <../../grass/wxGUI.html>`_.
 
 .. tip::  If you are on a netbook with a very small display (800x600 resolution)
  the startup screen might get a little scrunched and the [Start GRASS]
