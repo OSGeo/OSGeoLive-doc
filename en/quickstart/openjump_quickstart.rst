@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Landon Blake
 :Author: Stefan Steiniger
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: OpenJUMP Community
 

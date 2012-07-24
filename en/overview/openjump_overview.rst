@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-openjump.png
@@ -49,13 +49,13 @@ Features (Core Features and PlugIns*)
     * spatial and attribute query functions
     * analysis : buffer, union, overlay, centroid, convex hull...
     * statistics : length, area, layer statistics, attribute statistics, graphs...
-    * editing tools : converter, noder, polygonizer, planar graph...
+    * editing tools : converter, noder, polygonizer, planar graph, topology cleaning in PLUS edition, ...
     * attribute transfer tools : join, matching*
     * SEXTANTE raster analysis toolbox included in PLUS edition
 
 * Customization
 
-    * internationalization (cz, de, en, ed, fi, fr, hu, it, ja, pt, ta, zh)
+    * internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
     * provides an API, scripting via BeanShell and Java Python
     * (Java) plugin-system
    
@@ -65,7 +65,7 @@ Implemented Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS and SLD
+* OGC standards supported: GML2, SFS, WMS and SLD; (WFS for deegree)
 
 Details
 --------------------------------------------------------------------------------
@@ -74,7 +74,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.5.1
+**Software Version:** 1.5.2 (Core Edition)
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
