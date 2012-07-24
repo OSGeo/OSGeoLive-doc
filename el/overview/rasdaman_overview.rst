@@ -1,9 +1,8 @@
 :Author: Peter Baumann
 :Author: Michael Owonibi
 :Author: Dimitar Misev
-:Author: Jinsongdi Yu
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -25,7 +24,7 @@ Rasdaman
 
 Επομένως το Rasdaman παρέχει μια ευέλικτη, γρήγορη και κλιμακωτή βάση εικονιστικών δεδομένων που επιτρέπει την πλοήγηση, εξαγωγή, ομαδοποίηση και χωροχρονική ανάλυση δεδομένων από δέκτες, εικόνες και στατιστικά στοιχεία.
 
-Η τεχνολογία rasdaman είναι σταθερή, ώριμη, και χρησιμοποιείται σε περιβάλλον παραγωγής για περισσότερο από 10 χρόνια. Για παράδειγμα, η Γαλλική Εθνική Γεωγραφική Υπηρεσία χρησιμοποιεί το rasdaman σε έναν ορθοφωτοχάρτη 12 Terabyte. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
+Η τεχνολογία rasdaman είναι σταθερή, ώριμη, και χρησιμοποιείται σε περιβάλλον παραγωγής για περισσότερο από 10 χρόνια. Για παράδειγμα, η Γαλλική Εθνική Γεωγραφική Υπηρεσία χρησιμοποιεί το rasdaman σε έναν ορθοφωτοχάρτη 12 Terabyte. Στο συνέδρειο ACM Principles of Database Systems το 2007, ο ειδικός σε θέματα βάσεων εικονιστικών δεδομένων Rona Machlin χαρακτήρισε το rasdaman ως "την πιο κατανοητή υλοποίηση ενός τέτοιου συστήματος".
 
 .. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
