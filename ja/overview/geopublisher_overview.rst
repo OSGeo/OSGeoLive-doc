@@ -35,7 +35,7 @@ Geopublisherのユニークな特徴は、国際的な調査や、参加型GIS�
 * 全てのソフトウェアが、OGC基準に準拠したフリーでオープンソースのソフトウェアです。
 * Geopublisher + QuantumGIS + OpenOffice が、フリーでオープンソースなジオパブリッシング・デスクトップを提供します。
 * :doc:`AtlasStyler <atlasstyler_overview>` SLDエディタが、Geopublisherの中に統合されています。
-* Mac OS, Windows and Linux上で動作します。
+* Windows and Linux上で動作します。
 * Styling based on OGC SLD standard.
 * オフラインのアトラスは、直接さまざまなメディアから起動します- Javaはインストールされていなくても構いません。
 * GeoTiffのタイルやオーバービューと同様に巨大なラスターデータのためのタイル化されたピラミッド画像をサポートします。
@@ -51,11 +51,11 @@ Geopublisherのユニークな特徴は、国際的な調査や、参加型GIS�
 
 **ウェブサイト:** http://en.geopublishing.org/Geopublisher
 
-**ソフトウェアバージョン:** 1.8
+**ソフトウェアバージョン:** 1.9
 
 **ライセンス:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
 
-**対応プラットフォーム:** GNU/Linux, MS Windows, Mac OS - あらゆるOSにおいてJava 1.6がインストール可能なこと
+**対応プラットフォーム:** GNU/Linux, MS Windows - あらゆるOSにおいてJava 1.6がインストール可能なこと
 
 **APIインターフェース:** Java, Swing, Geotools
 

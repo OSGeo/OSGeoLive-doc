@@ -52,11 +52,11 @@ Detalls
 
 **Lloc web:** http://en.geopublishing.org/Geopublisher
 
-**Versió de programari:** 1.8
+**Versió de programari:** 1.9
 
 **Llicència:** GNU General Public License (GPL) version 3.0; els atles exportats s?n GNU Lesser General Public License (LGPL) version 3.0
 
-**Sistemes operatius:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
+**Sistemes operatius:** GNU/Linux, MS Windows
 
 **Interfícies API:** Java, Swing, Geotools
 

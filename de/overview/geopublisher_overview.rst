@@ -17,9 +17,9 @@ Geodaten als Karten veröffentlichen
 
 Die Geopublisher Software ermöglicht es in kurzer Zeit digitale Multimedia-Atlanten zu erstellen und zu veröffentlichen. 
 
-Geopublisher beinhaltet Funktionalität zur Qualitätssicherung und zur mehrsprachigen Metadatenverwaltung. Kein Vorwissen. Atlanten/Kartenwerke können direkt auf CD/DVD, Speicherstick, externer Festplatte oder im Internet veröffentlicht werden. 
+Geopublisher beinhaltet Funktionalität zur Qualitätssicherung und zur mehrsprachigen Metadatenverwaltung. Kein Vorwissen in SLD oder HTML wird benötigt. Atlanten/Kartenwerke können direkt auf CD/DVD, Speicherstick, externer Festplatte oder im Internet (http://atlases.geopublishing.org/hosted) veröffentlicht werden. 
 
-Geopublishers Alleinstellungsmerkmale machen die Software besonders Einsetzbar im Bereich Internationale Forschung, Participatory GIS, Capacity Building, und der Entwicklungszusammenarbeit.
+Geopublishers Alleinstellungsmerkmale machen die Software besonders einsetzbar im Bereich Internationale Forschung, Participatory GIS, Capacity Building und der Entwicklungszusammenarbeit.
 
 Kernfunktionen
 --------------------------------------------------------------------------------
@@ -36,7 +36,7 @@ Kernfunktionen
 * :doc:`AtlasStyler <atlasstyler_overview>` SLD Editor ist integrierter Bestandteil des Geopublishers.
 * Basierend auf dem SLD Standard.
 * Auf Medien veröffentlichte Atlanten laufen direkt von jedem beliebigen Medium (DVD/CD) - Java muss nicht installiert sein.
-* Läuft auf Windows, Linux und Mac.
+* Läuft auf Windows und GNU/Linux.
 * Verfügbar in Deutsch, Englisch, Italienisch, Spanisch und Französisch.
 
 
@@ -51,11 +51,11 @@ Details
 
 **Webseite:** http://de.geopublishing.org/Geopublisher
 
-**Software Version:** 1.8
+**Software Version:** 1.9
 
 **Lizenz:** GNU General Public License (GPL) version 3.0; die Software der exportierten Atlanten steht unter GNU Lesser General Public License (LGPL) version 3.0
 
-**unterstützte Plattformen:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
+**unterstützte Plattformen:** GNU/Linux, MS Windows
 
 **API Schnittstellen:** Java, Swing, Geotools
 

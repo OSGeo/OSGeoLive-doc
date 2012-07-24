@@ -37,7 +37,7 @@ Características Principales
 * Todo el software es Free and Open-Source Software y cumple con los estándares OGC.
 * La combinación de Geopublisher con QuantumGIS y OpenOffice proporcionan un paquete de publicación de datos geográficos de Código Abierto.
 * El editor de SLD :doc:`AtlasStyler <atlasstyler_overview>` está integrado en Geopublisher.
-* Se ejecuta en Mac OS, Windows y Linux.
+* Se ejecuta en Windows y Linux.
 * El estilo de las capas se basa en el estandar SLD de OGC.
 * Los atlas offline pueden ejecutarse directamente sin necesidad de instalar Java.
 * Soporta pirámides de imágenes para datos raster grandes.
@@ -53,11 +53,11 @@ Detalles
 
 **Website:** http://en.geopublishing.org/Geopublisher
 
-**Versión de Software:** 1.8
+**Versión de Software:** 1.9
 
 **Licencia:** GNU General Public License (GPL) versión 3.0; los atlas exportados son GNU Lesser General Public License (LGPL) versión 3.0
 
-**Plataformas soportadas:** GNU/Linux, MS Windows, Mac OS - Cualquier SO donde Java 1.6 pueda ser instalado
+**Plataformas soportadas:** GNU/Linux, MS Windows
 
 **Interfaces API:** Java, Swing, Geotools
 

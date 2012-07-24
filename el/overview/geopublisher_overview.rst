@@ -36,7 +36,7 @@ Geopublisher
 * Όλο το λογισμικό είναι Ελευθερο Λογισμικό και Λογισμικό Ανοιχτού Κώδικα, συμβατό με τα πρότυπα OGC.
 * Τα Geopublisher + QuantumGIS + OpenOffice παρέχουν ένα περιβάλλον εργασίας γεωδεδομένων ανοιχτού κώδικα.
 * :doc:Ο επεξεργαστης SLD `AtlasStyler <atlasstyler_overview>` είναι ενσωματωμένος στον Geopublisher.
-* Τρέχει σε Mac OS, Windows και Linux.
+* Τρέχει σε Windows και Linux.
 * Το στύλ βασίζεται στο πρότυπο SLD του OGC.
 * Οι αποσυνδεδεμένοι Άτλαντες εκτελούνται από οποιοδήποτε μέσο - η Java δεν χρειάζεται να είναι εγκατεστημένη.
 * Υποστηρίζει πυραμίδες εικόνων και μεγάλων αρχείων εικόνων, καθώς και πυραμίδες GeoTiff και προεπισκοπήσεις.
@@ -52,11 +52,11 @@ Geopublisher
 
 **Κεντρική ιστοσελίδα:** http://en.geopublishing.org/Geopublisher
 
-**Έκδοση Λογισμικού:** 1.8
+**Έκδοση Λογισμικού:** 1.9
 
 **Άδεια:** GNU General Public License (GPL) version 3.0; Οι δημοσιοποιημένοι  Άτλαντες είναι με άδεια GNU Lesser General Public License (LGPL) version 3.0
 
-**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, MS Windows, Mac OS - Any OS where Java 1.6 can be installed
+**Υποστηριζόμενες πλατφόρμες:** GNU/Linux, MS Windows
 
 **Προγραμματιστικές διεπαφές:** Java, Swing, Geotools
 
