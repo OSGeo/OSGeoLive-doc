@@ -55,7 +55,7 @@ Geopublisherのユニークな特徴は、国際的な調査や、参加型GIS�
 
 **ライセンス:** GNU General Public License (GPL) version 3.0; exported atlases are GNU Lesser General Public License (LGPL) version 3.0
 
-**対応プラットフォーム:** GNU/Linux, MS Windows - あらゆるOSにおいてJava 1.6がインストール可能なこと
+**対応プラットフォーム:** GNU/Linux, MS Windows 
 
 **APIインターフェース:** Java, Swing, Geotools
 
