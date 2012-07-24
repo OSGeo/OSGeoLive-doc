@@ -15,7 +15,7 @@ AtlasStyler
 Feature Style Editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`AtlasStyler <http://de.geopublishing.org/AtlasStyler>`_ ist eine dialoggeführte Anwendung zur Gestaltung von Geodaten. Die resultierenden Styling-Dateien entsprechen dabei dem OGC SLD Standard in der Version 1.0, und können von z.B. von GeoServer oder uDig verarbeitet werden. 
+`AtlasStyler <http://de.geopublishing.org/AtlasStyler>`_ ist eine dialoggeführte Anwendung zur Gestaltung von Geodaten. Die resultierenden Styling-Dateien entsprechen dabei dem OGC SLD Standard in der Version 1.0, und können z.B. von GeoServer oder uDig verarbeitet werden. 
 
 Die Anwendung bietet eine Vielzahl intuitiver Dialoge, die eine produktive Arbeit ermöglichen. Sie können Klassifikationen nach unterschiedlichen Werten, Quantilen oder manuell festlegen und mit mitgelieferten Farbpaletten einfärben; außerdem ist die Nutzung einer integrierten online Symboldatenbank und das Erstellen und Speichern Ihrer eigenen Symbole möglich.
 
@@ -31,8 +31,8 @@ Kernfunktionen
 
 * Styles mittels Dialoge erstellen, keine Kenntnis von SLD oder XML benötigt
 * Basierend auf dem SLD Standard.
-* Läuft auf Windows, Linux und Mac.
-* ESRI Shapefiles, OGC WFS Server und PostGIS Datenbanken werden unterstützt.
+* Läuft auf Windows, Linux (Mac needs a bit of funding/testing)
+* ESRI Shapefiles, OGC WFS Server und PostGIS Datenbanken werden für Vektordaten unterstützt. Weiterhin können Rasterdaten im GeoTIFF und ESRI ArcASCII Format gestyled werden.
 * Verfügbar in Deutsch, Spanisch, Englisch, Italienisch, Türkisch, Russisch und Französisch
 
 Implementierte Standards
@@ -46,11 +46,11 @@ Details
 
 **Webseite:** http://de.geopublishing.org/AtlasStyler
 
-**Software Version:** 1.8
+**Software Version:** 1.9
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 3.0
 
-**Unterstützte Plattformen:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux
 
 **API Schnittstellen:** Java, Swing, Geotools
 

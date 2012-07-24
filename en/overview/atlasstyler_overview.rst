@@ -30,9 +30,9 @@ Core Features
 
 * Build styles using dialogs.
 * Based on OGC SLD standard.
-* Run on Windows, Linux and Mac.
-* Import from ESRI Shapefiles, OGC WFS and PostGIS databases.
-* Fully translated into German, English, Italian, Turkish, Russian and French.
+* Run on Windows,and Linux. (Mac support will need a little funding).
+* Import from ESRI Shapefiles, OGC WFS and PostGIS databases (vector data) as well as GeoTIFF and ArcASCII files (raster data).
+* Translated into German, English, Italian, Turkish, Russian and French.
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -45,11 +45,11 @@ Details
 
 **Website:** http://en.geopublishing.org/AtlasStyler
 
-**Software Version:** 1.8
+**Software Version:** 1.9
 
 **Licence:** GNU Lesser General Public License (LGPL) version 3.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux
 
 **API Interfaces:** Java, Swing, Geotools
 
