@@ -196,6 +196,11 @@ and modules are every bit as full-featured as the raster ones. GRASS
 maintains a fully topological vector system which allows all sorts of
 very powerful analyses.
 
+.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+  :scale: 30 %
+  :alt: screenshot
+  :align: right
+
 Continuing with the watershed basins created above, next we'll convert
 them into vector polygons. In the Raster menu select :menuselection:`Map type conversions --> Raster to vector`.
 In the `r.to.vect` dialog that opens make sure that ``basins @user1`` is
