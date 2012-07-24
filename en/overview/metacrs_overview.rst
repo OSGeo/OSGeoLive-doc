@@ -70,7 +70,7 @@ PROJ.4
   
   **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 4.8.0
+  **Software Version:** 4.7.0
   
   **Supported Platforms:** Windows, Linux, Mac
   
