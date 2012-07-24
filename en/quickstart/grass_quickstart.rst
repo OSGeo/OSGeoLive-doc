@@ -196,6 +196,38 @@ and modules are every bit as full-featured as the raster ones. GRASS
 maintains a fully topological vector system which allows all sorts of
 very powerful analyses.
 
+Continuing with the watershed basins created above, next we'll convert
+them into vector polygons. In the Raster menu select :menuselection:`Map type conversions --> Raster to vector`.
+In the `r.to.vect` dialog that opens make sure that ``basins @user1`` is
+selected for the input map, give a name for the output map like ``basins_areas``
+(vector map names must be SQL compliant), and change feature type to `area`.
+In the Attributes tab tick the box to use raster values as category numbers,
+since these will match the values in our stream segment raster map created
+earlier. Then click on [Run]. Once the new vector map is displayed, you
+might right click on it in the Layer Manager list and change its opacity
+level. Also if you right click on the ``basins_areas`` vector map in the
+`Layer List` you can turn off rendering of area centroids by going into
+`Properties` and un-ticking it in the `Selection` tab.
+
+Next we'll add some attributes to those new areas, containing the average
+elevation in each basin. In the Vector menu select :menuselection:` Update attributes --> Update area attributes from raster`
+to launch the ``v.rast.stats`` module. Use ``basin_areas`` as the vector
+polygon map, the `elevation` raster to calculate the statistics from,
+make the column prefix ``elev``, and click [Run] then close the dialog when
+it is finished. You can query the values in the `Map Display` window using
+the fifth icon from the left and after verifying that the vector-areas map
+is selected in the `Layer List`, clicking on a vector area in the map canvas.
+
+You can colorize the areas based on the average elevation values using the
+``v.colors`` module. In the Vector menu select :menuselection:` Manage colors --> Color tables`.
+Select ``basin_areas`` for the input vector map, the ``elev_mean`` attribute
+column for the column containing the numeric range, and in the `Colors` tab
+have it copy the colors from the `elevation` raster map. After running that
+right-click on the ``basin_areas`` map in the Layer List and select `Properties`.
+In the `Colors` tab tick the box for getting colors from the map table column.
+Once you click [Apply] you should see the colors change in the `Map Display`
+window.
+
 3D visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
