@@ -247,23 +247,6 @@ gone from the displayed table. Right-click on the table data and choose
 ``Highlight selected features``. You should see e.g. alluvial flood basins
 and mesas show up in the ``Map Display``.
 
-Other things to try
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-While not covered in here, you may like to experiment with the new
-Cartographic Composer and object-oriented Graphical Modeling Tool;
-you'll find icons to launch them on the `wxGUI <../../grass/wxGUI.html>`_ help
-pages.
-
-The new GUI is written in Python, and if you're a fan of Python programming
-there are a number of great tools available to you. In the bottom of the
-`Layer Manager` window click on the `Python shell` tab and
-type ``help(grass.core)`` to see a listing of the functions available in
-the core GIS python library. Besides the core GIS functions there is
-also `array` (NumPy), `db` (database), `raster`, and `vector` libraries
-available. For advanced use `Pythons CTypes` is supported allowing the
-Python programmer access to GRASS's extensive C libraries.
-
 3D visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -287,6 +270,23 @@ good choice; in the North Carolina dataset "`lsat7_2002_50`"
 in PERMANENT is a good choice. Finally, click "Accept" and then once
 back at the main window click on the "Draw" button in the top-left, just 
 under the File menu.
+
+Other things to try
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+While not covered in here, you may like to experiment with the new
+Cartographic Composer and object-oriented Graphical Modeling Tool;
+you'll find icons to launch them on the `wxGUI <../../grass/wxGUI.html>`_ help
+pages.
+
+The new GUI is written in Python, and if you're a fan of Python programming
+there are a number of great tools available to you. In the bottom of the
+`Layer Manager` window click on the `Python shell` tab and
+type ``help(grass.core)`` to see a listing of the functions available in
+the core GIS python library. Besides the core GIS functions there is
+also `array` (NumPy), `db` (database), `raster`, and `vector` libraries
+available. For advanced use `Pythons CTypes` is supported allowing the
+Python programmer access to GRASS's extensive C libraries.
 
 Shutdown and the command line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
