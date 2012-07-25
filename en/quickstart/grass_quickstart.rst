@@ -274,7 +274,7 @@ under the File menu.
 Other things to try
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-While not covered in here, you may like to experiment with the new
+While not covered here, you may like to experiment with the new
 Cartographic Composer and object-oriented Graphical Modeling Tool;
 you'll find icons to launch them on the `wxGUI <../../grass/wxGUI.html>`_ help
 pages.
