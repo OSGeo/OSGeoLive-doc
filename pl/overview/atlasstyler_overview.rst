@@ -34,7 +34,7 @@ Główne funkcje
 * Budowa stylów przy pomocy okien dialogowych.
 * Bazujący na standardzie OGC SLD.
 * Działa na Windows i Linux.
-* Import ESRI Shapefiles, OGC WFS i z baz danych PostGIS.
+* Import ESRI Shapefiles, OGC WFS i z baz danych PostGIS (dane wektorwe) oraz GeoTIFF i ArcASCII (dane rastrowe).
 * Całkowicie przetłumaczony na niemiecki, angielski, włoski, turecki, rosyjski i francuski.
 
 Zaimplementowane standardy
