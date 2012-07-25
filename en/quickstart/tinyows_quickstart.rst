@@ -7,7 +7,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.tinyows.org/
+  :target: http://mapserver.org/trunk/tinyows/
 
 ********************************************************************************
 TinyOWS Quickstart 
@@ -90,9 +90,9 @@ Edit data with WFS-T
 What Next?
 ================================================================================
 
-To learn more about TinyOWS, a starting point is the `User Documentation`_ on the TinyOWS homepage.
+To learn more about TinyOWS, a starting point is the `TinyOWS Documentation`_ on the MapServer homepage.
 
-.. _`User Documentation`: http://tinyows.org/trac/wiki/UserDocumentation
+.. `TinyOWS Documentation`: http://mapserver.org/trunk/tinyows/
 
 
 
