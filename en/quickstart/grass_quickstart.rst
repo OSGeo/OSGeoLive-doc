@@ -277,7 +277,7 @@ Other things to try
 While not covered here, you may like to experiment with the new
 Cartographic Composer and object-oriented Graphical Modeling Tool;
 you'll find icons to launch them on the lower row of icons in the
-`Later Manager` window. Further details can be found in
+`Layer Manager` window. Further details can be found in
 the `wxGUI <../../grass/wxGUI.html>`_ help pages.
 
 The new GUI is written in Python, and if you're a fan of Python programming
