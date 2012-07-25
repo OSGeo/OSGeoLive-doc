@@ -7,7 +7,13 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.tinyows.org/
+  :target: http://mapserver.org/trunk/tinyows/
+
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 TinyOWS
 ================================================================================
@@ -43,17 +49,17 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.tinyows.org/
+**Website:** http://mapserver.org/trunk/tinyows/
 
 **Licence:** MIT
 
-**Software Version:** 1.0
+**Software Version:** 1.0.0
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 
 **API Interfaces:** CGI/FastCGI
 
-**Support:** http://lists.maptools.org/pipermail/tinyows-users/
+**Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
 Quickstart
