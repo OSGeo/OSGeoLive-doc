@@ -47,15 +47,15 @@ Displaying maps
   :alt: screenshot
   :align: left
 
-Once inside add a raster map layer such as "`elevation`" from the PERMANENT
-mapset. To do this go into the GIS Layer Manager window and click on the
-checkerboard toolbar button with a "+" on it. Then select the map name
-you want from the "*map to be displayed*" pull-down list, and
-click [Ok].
+Once inside add a raster map layer such as "`elevation.10m`" or "`elevation`"
+from the PERMANENT mapset, depending on which dataset `Location` you chose.
+To do this go into the GIS Layer Manager window and click on the checkerboard
+toolbar button with a "+" on it. Then select the map name you want from
+the "*map to be displayed*" pull-down list, and click [Ok].
 
-In a similar fashion add the "`roads`" vector layer from the PERMANENT
-mapset by clicking on the toolbar button with a "+" and a bent poly-line
-which looks a bit like a "V".
+In a similar fashion add the "`roads`" (or "`roadsmajor`") vector layer
+from the PERMANENT mapset by clicking on the toolbar button with a "+" and
+a bent poly-line which looks a bit like a "V".
 
 If you need to, right click on the raster map layer and choose "Zoom to
 selected map(s)".
@@ -70,7 +70,7 @@ Plot an elevation profile
   :alt: screenshot
   :align: right
 
-Back in the GIS Layer Manager window click on the `elevation` raster
+Back in the GIS Layer Manager window click on your `elevation` raster
 map name to select it. Then in the Map Display window, to the right of the
 zooming buttons on the Map Display toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile surface map**.
