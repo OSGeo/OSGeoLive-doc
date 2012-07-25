@@ -1,8 +1,8 @@
 :Author: Daniel Kastl
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _pgrouting-overview-pl:
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
@@ -16,13 +16,13 @@ pgRouting
 GIS Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ geospatial database to provide geospatial routing functionality.
+pgRouting rozszerza geoprzestrzenną bazę danych :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_  o funkcjonalność geoprzestrzennego trasowania.
 
-Advantages of the database routing approach are:
+Zalety bazodanowego podejścia do trasowania:
 
-* Data and attributes can be modified by many clients, like :doc:`Quantum GIS <qgis_overview>` and :doc:`uDig <udig_overview>` through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
-* Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
-* The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
+* Dane i atrybuty mogą być modyfikowane poprzez wielu klientów, takich jak :doc:`Quantum GIS <qgis_overview>` i :doc:`uDig <udig_overview>` przez JDBC, ODBC, albo bezpośrednio z użyciem Pl/pgSQL. Klienci mogą być na komputerach osobistych lub urządzeniach mobilnych.
+* Zmiany danych mogą być natychmiast odzwierciedlone w trasowaniu. Nie map potrzeby wstępnych kalkulacji.
+* Parametr "kosztu" może być dynamicznie obliczany za pomocą SQL a jego wartość może wynikać z wielu pól lub tabel.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
