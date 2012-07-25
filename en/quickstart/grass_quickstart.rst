@@ -18,8 +18,8 @@ Running
 ================================================================================
 
 To run GRASS on the Live DVD, click on the GRASS link on the desktop.
-From the "Welcome to GRASS" window select either the Spearfish or North
-Carolina (nc_spm_08) dataset for the location, and "user1" for the mapset,
+From the "Welcome to GRASS" window select either the Spearfish or simplified North
+Carolina (nc_basic_spm) dataset for the location, and "user1" for the mapset,
 then click on [Start Grass]. The values given in this tutorial were written
 for the Spearfish dataset, some slight adjustments may be needed for the NC
 dataset.
