@@ -233,6 +233,37 @@ In the `Colors` tab tick the box for getting colors from the map table column.
 Once you click [Apply] you should see the colors change in the `Map Display`
 window.
 
+Now let's look at the attribute table and SQL builder in more detail. In the
+`Layer Manager` click the table icon, it's second from the left on the bottom
+row. This will open a view of the attached database table. For now we'll just
+do a simple database query to find watershed basins without a lot of variation
+in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stdde``
+from the pull down list for the standard deviation statistic, then in the
+text box to its right enter ``< 50`` and click [Apply]. You'll notice the
+number of loaded records in the information bar along the bottom of the window
+has shrunk, and that all of the rows with large values for std. dev. are now
+gone from the displayed table. Right-click on the table data and choose
+``Select all``. Again right-click on the table data and this time choose
+``Highlight selected features``. You should see e.g. alluvial flood basins
+and mesas show up in the ``Map Display``.
+
+Other things to try
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+While not covered in here, you may like to experiment with the new
+Cartographic Composer and object-oriented Graphical Modeling Tool;
+you'll find icons to launch them on the `wxGUI <../../grass/wxGUI.html>`_ help
+pages.
+
+The new GUI is written in Python, and if you're a fan of Python programming
+there are a number of great tools available to you. In the bottom of the
+`Layer Manager` window click on the `Python shell` tab and
+type ``help(grass.core)`` to see a listing of the functions available in
+the core GIS python library. Besides the core GIS functions there is
+also `array` (NumPy), `db` (database), `raster`, and `vector` libraries
+available. For advanced use `Pythons CTypes` is supported allowing the
+Python programmer access to GRASS's extensive C libraries.
+
 3D visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
