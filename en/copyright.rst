@@ -6,7 +6,7 @@ OSGeo-Live is composed entirely of free software, free data and free documentati
 * Project Overviews and Overview Translations, are provided under a `Creative Commons Attribution 3.0 Unported License <http://creativecommons.org/licenses/by/3.0/>`_.
 * Quickstarts and Quickstart Translations, are provided under a `Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 * Documentation might also be available under other licenses, as listed below.
-* Software on OSGeo-Live is available under various Open Source licenses, as listed in the Project Overviews.
+* Software on OSGeo-Live is available under various Free and Open Source licenses, as listed in the Project Overviews.
 * Data on OSGeo-Live is available under various Open Licences.
 
 Attributing OSGeo-Live Documentation
