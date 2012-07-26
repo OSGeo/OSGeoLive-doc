@@ -34,15 +34,22 @@ enables you to use PostgreSQL on a single machine. Your client connects to the s
 via the internal 'loopback' network connection, and is not visible to other computers
 unless you configure it to be so.
 
+Three clients will be illustrated here: the command-line client,
+Quantum GIS, and the ``pgAdmin`` graphical database client.
+
 Creating A Spatially-Enabled database
 ================================================================================
 
 .. review comment: Suggest providing a screen grab (or 2) which shows how to select
    and open an xterm. Cameron
 
+Command-line clients run from within a Terminal Emulator window. Start a Terminal
+Emulator from the Applications menu in the Accessories section. This gives you a
+Unix shell command prompt. Type ``psql -V`` and hit enter to see the PostgreSQL version number.
+
 A single PostgreSQL server lets you organise work by arranging it into separate
-databases. Each database acts like an independent regime, with its own tables, views, users 
-and so on. When you connect to a PostgreSQL server you have to specify the
+databases. Each database is an independent regime, with its own tables, views, users 
+and so on. When you connect to a PostgreSQL server you have to specify a
 database.
 
 You can get a list of databases on the server with the ``psql -l`` command. You should
@@ -51,7 +58,7 @@ new one for this quickstart.
 
 .. tip:: The list uses a standard unix pager - hit space for next page, b to go back, q to quit, h for help.
 
-PostgreSQL gives us a a utility programm for creating databases, ``createdb``. We need to
+PostgreSQL gives us a utility program for creating databases, ``createdb``. We need to
 create a database with the PostGIS extensions, so we need to tell it what template
 to start from. We'll call our database ``demo``. The command is then:
 
@@ -268,42 +275,35 @@ To produce a map from PostGIS data, you need a client that can get at the data. 
 of the open source desktop GIS programs can do this - Quantum GIS, gvSIG, uDig for example. Now we'll
 show you how to make a map from Quantum GIS.
 
-Start Quantum GIS and choose ``Add PostGIS layer`` from the layer menu. Because you haven't interacted
-with PostGIS from QGIS before, you'll get an empty set of PostGIS connections.
+Start Quantum GIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
+parameters for connecting to the Natural Earth data in PostGIS is already defined in the Connections
+drop-down menu. You can define new server connections here, and store the settings for easy
+recall. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
+hit ``Connect`` to continue:
 
-.. image:: ../../images/screenshots/1024x768/postgis_add.png
-  :scale: 100 %
-  :alt: Add a PostGIS layer
-  :align: center
-
-Hit 'new' and enter the parameters for the connection. We'll use the Natural Earth database
-provided on the DVD system. There's no username or password because the security is set up
-to allow you access. Uncheck the option about geometryless tables if it is checked - it will
-make things a bit simpler.
-
-.. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+  :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
-Hit the ``Test Connect`` button, and if all is well you'll get a friendly 
-message. Hit ``OK`` and your connection info is saved under the name in the drop-down box. Now you can
-hit ``Connect`` and get a list of the spatial tables in the database:
+You will now get a list of the spatial tables in the database:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_layers.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+  :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
 
-Choose the lakes and hit ``Add`` (not ``Load`` - that saves queries), and it should be loaded into QGIS:
+Choose the lakes and hit ``Add`` at the bottom (not ``Load`` at the
+top - that loads database connection parameters), and it should be
+loaded into QGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_lakes.png
+.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
 
 You should now see a map of the lakes. QGIS doesn't know they are lakes, so might not colour
-them blue for you -use the QGIS documentation to work out how to change this. Zoom in to
+them blue for you - use the QGIS documentation to work out how to change this. Zoom in to
 a famous group of lakes in Canada.
 
 
@@ -314,24 +314,26 @@ Most of the OSGeo desktop tools have functions for importing spatial data in fil
 into PostGIS databases. Again we'll use QGIS to show this.
 
 Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
-Plugins menu, select ``Manage Plugins`` and then find the ``PostGIS Manager``. Check the box and OK 
-it. Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
-to start the manager.
+Plugins menu, select ``Fetch Plugins``. QGIS will then get the latest list of plugins from the 
+repository (you will need a working internet connection for this). Then find the ``PostGIS Manager`` and
+hit the ``Install plugin`` button.
 
-It will then use your previously defined settings to connect to the Natural Earth database. Leave
-the password blank if it asks. You'll see the main manager window.
-
-.. image:: ../../images/screenshots/1024x768/postgis_ne_manager.png
-  :scale: 75 %
-  :alt: PostGIS Manager Plugin
+.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+  :scale: 50 %
+  :alt: Fetch PostGIS Manager Plugin
   :align: center
 
-You can use the other tabs in the right-side panel to check the attributes of the layer and even
-get a basic map with zoom and pan capabilities. Here I've selected the populated places layer
+ Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
+to start the manager. You can also click the PostGIS logo button (the elephant with the globe) on the toolbar.
+
+It will then  connect to the Natural Earth database. Leave
+the password blank if it asks. You'll see the main manager window. On the left you can select 
+tables from the database and use the tabs on the right find out about them. The Preview tab
+will show you a little map. Here I've selected the populated places layer
 and zoomed in on a little island I know:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+  :scale: 50 %
   :alt: PostGIS Manager Preview
   :align: center
 
@@ -342,15 +344,15 @@ of the R statistics package add-ons.
 From the ``Data`` menu choose the ``Load data from shapefile`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package:
 
-.. image:: ../../images/screenshots/1024x768/postgis_find_shape.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+  :scale: 50 %
   :alt: Find the shapefile
   :align: center
 
 Leave everything else as it is and hit ``Load``
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_load.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+  :scale: 50 %
   :alt: Import a shapefile
   :align: center
 
@@ -361,8 +363,8 @@ Now load the SIDS data into the map using the 'Add PostGIS Layer'
 option. With a bit of rearranging of the layers and some colouring, you should be able to produce
 a choropleth map of the sudden infant death syndrome counts in North Carolina:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_final.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+  :scale: 50 %
   :alt: SIDS data mapped
   :align: center
 
@@ -372,10 +374,15 @@ a choropleth map of the sudden infant death syndrome counts in North Carolina:
 Get to know pgAdmin III
 ================================================================================
 
-You can use the graphical database client ``pgAdmin III`` to query and modify your database non-spatially. This
+You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This
 is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
+
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
