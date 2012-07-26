@@ -42,7 +42,7 @@ Szybkie wprowadzenia
    :glob:
 
    overview/overview
-   quickstart/*_quickstart
+   quickstart/*quickstart
    standards/standards
    contact
    copyright

@@ -36,22 +36,22 @@ Główne funkcje
 
 * Śledzenie i nagrywanie śladów w czasie rzeczywistym.
 
-* Przygotowywanie śladów i punktów nawigacyjnych do wypraw z pomocą map dostępnych 
-w usługach takich jak Googlemaps, Terrasever. Należy jedynie wczytać dane do urządzenia 
-GPS przed wyjazdem. Mapy razem ze śladami i punktami moga być drukowane i używane w trakcie wyprawy.
+* Przygotowywanie śladów i punktów nawigacyjnych do wypraw z pomocą map dostępnych w 
+  usługach takich jak Googlemaps, Terrasever. Należy jedynie wczytać dane do urządzenia 
+  GPS przed wyjazdem. Mapy razem ze śladami i punktami moga być drukowane i używane w trakcie wyprawy.
 
 * Po wyprawie, ślady i punkty nawigacyjne z GPS mogą być pobierane, przechowywane, 
-zarządzane i ponownie użyte w następnych podróżach.
+  zarządzane i ponownie użyte w następnych podróżach.
 
 * Analizowanie wypraw OHV i hiking, informacje gdzie i jak blisko obiektu się znajdowałeś.
 
 * Zaznaczanie punktów i tras do śledzenia, aby w prosty sposób dotrzeć do miejsc, 
-w których jeszcze nie byłeś lub nie posiadasz danych GPS, ale masz dla nich mapy Terraserver.
+  w których jeszcze nie byłeś lub nie posiadasz danych GPS, ale masz dla nich mapy Terraserver.
 
 * Tworzenie map z siatkami topograficznymi.
 
 * Analizowanie prędkości w różnych miejscach,  dodawanie punktów, gdzie uprzednio 
-zostały pominięte w miejscach zwolnienia lub postoju.
+  zostały pominięte w miejscach zwolnienia lub postoju.
 
 Szczegóły
 --------------------------------------------------------------------------------
@@ -69,8 +69,7 @@ Szczegóły
 **Wsparcie:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 Wprowadzenie
-----------
+------------
 
-* `Przejdź do wprowadzenia <../quickstart/viking_quickstart>`
-
+* :doc:`Przejdź do wprowadzenia <../quickstart/viking_quickstart>`
 

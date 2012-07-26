@@ -323,7 +323,7 @@ hit the ``Install plugin`` button.
   :alt: Fetch PostGIS Manager Plugin
   :align: center
 
- Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
+Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
 to start the manager. You can also click the PostGIS logo button (the elephant with the globe) on the toolbar.
 
 It will then  connect to the Natural Earth database. Leave

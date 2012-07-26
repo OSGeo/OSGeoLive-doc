@@ -40,7 +40,7 @@ OSGeo-Liveは様々な地理空間関連の保管、配布、表示、分析、�
    :glob:
 
    overview/overview
-   quickstart/*_quickstart
+   quickstart/*quickstart
    standards/standards
    contact
    copyright

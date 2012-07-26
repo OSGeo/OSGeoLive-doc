@@ -53,7 +53,7 @@ OSGeo-Live クイックスタート集
   otb_quickstart
   pgrouting_quickstart
   postgis_quickstart
-  prune_quickstart
+  gpsprune_quickstart
   pycsw_quickstart
   qgis_mapserver_quickstart
   qgis_quickstart

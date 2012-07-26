@@ -46,7 +46,7 @@ Quick Starts
    :glob:
 
    overview/overview
-   quickstart/*_quickstart
+   quickstart/*quickstart
    standards/standards
    contact
    copyright
@@ -55,6 +55,7 @@ Quick Starts
    sponsors
    sponsors_osgeo
    presentation
+   test
 
 Presentation
 --------------------------------------------------------------------------------
