@@ -54,7 +54,7 @@
 * :doc:`marble_overview` - [:doc:`快速入门 <../quickstart/marble_quickstart>`] — 3D 虚拟地球
 * :doc:`opencpn_overview` - [:doc:`快速入门 <../quickstart/opencpn_quickstart>`] — 海图导航
 * :doc:`osm_overview` - [:doc:`快速入门 <../quickstart/osm_quickstart>`] — Open Street Map 相关工具
-* :doc:`prune_overview` - [:doc:`快速入门 <../quickstart/prune_quickstart>`] — GPS 航迹编辑器
+* :doc:`gpsprune_overview` - [:doc:`快速入门 <../quickstart/gpsprune_quickstart>`] — GPS 航迹编辑器
 * :doc:`viking_overview` - [:doc:`快速入门 <../quickstart/viking_quickstart>`] — GPS 数据编辑与分析
 * :doc:`zygrib_overview` - [:doc:`快速入门 <../quickstart/zygrib_quickstart>`] — 天气预报的图形表达
 

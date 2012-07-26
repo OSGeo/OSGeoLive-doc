@@ -52,5 +52,5 @@ Detalls
 Guia ràpida
 --------------------------------------------------------------------------------
 
-* :doc:`Documentació de la guia ràpida <../quickstart/prune_quickstart>`
+* :doc:`Documentació de la guia ràpida <../quickstart/gpsprune_quickstart>`
 

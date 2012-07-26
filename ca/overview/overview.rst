@@ -56,7 +56,7 @@ Navegació i Mapes
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Globus
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Plotter de GPS Marí
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Eines OpenStreetMap
-* :doc:`prune_overview` - [:doc:`QuickStart <../quickstart/prune_quickstart>`] - Veure, editar i convertir els tracks de GPS
+* :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Veure, editar i convertir els tracks de GPS
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - Anàlisi i visualització de dades GPS
 * :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Mapes de predicció meteorológica
 
