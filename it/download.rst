@@ -8,7 +8,7 @@ Download
 L'ultima versione stabile di |osgeo-live-version| :
 
 .. image:: ../images/download_buttons/download-dvd.png
-  :alt: Download iso file with windows installers
+  :alt: Scarica file iso con l'installer per windows e mac
   :align: left
   :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-6.0.iso/download
 
@@ -17,7 +17,7 @@ L'ultima versione stabile di |osgeo-live-version| :
 Un DVD bootable basato su Xubuntu, che contiene anche l'installer per windows e mac. Può essere anche copiata in una unità USB avviabile di almeno 8 GB. Si può verificare il download con questo md5sum file `(osgeo-live-6.0.iso.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-6.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
-  :alt: Download iso without Windows and Mac installers
+  :alt: Scarica file iso senza l'installer per windows e mac
   :align: left
   :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso
 
@@ -26,7 +26,7 @@ Un DVD bootable basato su Xubuntu, che contiene anche l'installer per windows e 
 Stessa cosa del osgeo-live-6.0.iso,  al di fuori che non contiene l'installer per windows e mac e può essere copiato in una unità USB avviabile di almeno 4 GB. Si può verificare il download con questo md5sum file `(osgeo-live-mini-6.0.iso.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
-  :alt: Download 7-zip of a Virtual Machine without Windows and Mac installers
+  :alt: Scarica un file 7-zip di una Macchina Virtuale senza l'installer per Windows e Mac
   :align: left
   :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z
 
