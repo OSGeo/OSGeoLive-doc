@@ -77,7 +77,7 @@ Detalles
 
 **Soporte a lenguajes de programación:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
-**Soporte:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+**Soporte:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
 Guía de Inicio Rápido
 --------------------------------------------------------------------------------

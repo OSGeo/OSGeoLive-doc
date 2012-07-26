@@ -201,6 +201,12 @@ latex_documents = [
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
 
+
+# Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
+
+linkcheck_ignore = [ r'http://localhost:\d+/', r'http://localhost/', r'http://127.0.0.1:\d+/', r'http://download.osgeo.org/']
+linkcheck_anchors = False
+
 # If false, no module index is generated.
 #latex_use_modindex = True
 

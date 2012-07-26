@@ -77,7 +77,7 @@ OGRベクタデータモデルはOGCの単純地物モデルに基づいてい�
 
 **API:** C, C++, Python, Java, C#, Ruby, VB6, Perl
 
-**サポート:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+**サポート:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
 クイックスタート
 --------------------------------------------------------------------------------

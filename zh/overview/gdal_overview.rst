@@ -69,7 +69,7 @@ OGR矢量数据模型兼容OGC Simple Features标准规范
 
 **API接口:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
-**支持:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+**支持:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
 快速入门
 --------------------------------------------------------------------------------

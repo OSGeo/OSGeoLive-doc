@@ -76,7 +76,7 @@ Details
 
 **API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
-**Support:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+**Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
 Quickstart
 --------------------------------------------------------------------------------

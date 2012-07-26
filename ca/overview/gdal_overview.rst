@@ -77,7 +77,7 @@ Detalls
 
 **Interfícies de desenvolupament:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
-**Suport:** http://gdal.osgeo.org/#index_maillist, http://www.osgeo.org/search_profile
+**Suport:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
 
 Guia d'inici ràpid

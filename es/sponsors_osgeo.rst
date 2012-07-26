@@ -44,7 +44,7 @@ OSGeo Associate Sponsors
 .. image:: ../images/logos/geocat.png
   :alt: GeoCat
   :align: center
-  :target: http://geocat.net/about-geocat
+  :target: http://geocat.net/
 
 .. image:: ../images/logos/astun.gif
   :alt: Astun Technology

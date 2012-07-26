@@ -43,7 +43,7 @@ FOSS). Επιπλέον έχει συμπεριληφθεί και ένας αρ
 .. image:: ../images/logos/geocat_logo.png
   :alt: GeoCat
   :align: left
-  :target: http://geocat.net/about-geocat
+  :target: http://geocat.net/
 
 .. image:: ../images/logos/astun.gif
   :alt: Astun Technology

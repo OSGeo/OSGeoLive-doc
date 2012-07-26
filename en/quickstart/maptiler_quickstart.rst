@@ -23,7 +23,7 @@ MapTiler takes advantage of the fact that `Google Maps <http://maps.google.com/>
 Start MapTiler
 --------------------------------------------------------------------------------
 
-1. `Download MapTiler <http://help.maptiler.org/beta/>`_ to your it on your computer or start it directly from this LiveDVD.
+1. `Download MapTiler <http://help.maptiler.org/betatest/>`_ to your it on your computer or start it directly from this LiveDVD.
 
 2. Select the **Tile Profile**. Choose *Google Maps Compatible (Spherical Mercator)* for standard web publishing. Choose *Google Earth (KML SuperOverlay)* if you also want to generate a KML file for use in Google Earth. Click *Continue*.
 

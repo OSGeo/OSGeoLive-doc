@@ -69,7 +69,7 @@ Details
 
 **API Schnittstellen:** Python, Java, C#, Ruby, VB6 and Perl
 
-**Support:** http://www.osgeo.org/search_profile
+**Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
 Quickstart
 --------------------------------------------------------------------------------
