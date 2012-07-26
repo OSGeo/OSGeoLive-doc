@@ -25,7 +25,7 @@ Start R
 
 Either:
 
-  * Choose ``R Statistics`` from the start menu - a terminal window appears running R.
+  * Choose ``R Statistics`` from the Spatial Tools section of the  menu - a terminal window appears running R.
   * Enter ``R`` at a command-line shell prompt. R will start in that terminal.
 
 Don't fear the command line - it is a source of great power. Using the up and down arrows
@@ -203,12 +203,12 @@ This gives us a simple map of the world:
 .. image:: ../../images/screenshots/1024x768/r_plot1.png
 
 When an OGR dataset is read into R in this way we get back an object that
-behaves in many ways like a data frame. We can use the ``COUNTRY``
+behaves in many ways like a data frame. We can use the ``ADMIN``
 field to subset the world data and just get the UK:
 
 ::
 
-	> uk = countries[countries$COUNTRY=="United Kingdom",]
+	> uk = countries[countries$ADMIN=="United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
 .. image:: ../../images/screenshots/1024x768/r_plot2.png

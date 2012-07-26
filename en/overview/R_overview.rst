@@ -9,7 +9,7 @@
   :align: right
   :target: http://cran.r-project.org
 
-R Spatial Task View
+R for Spatial Data
 ================================================================================
 
 Statistical Programming
@@ -42,7 +42,7 @@ well as between R and the modern commercial version of S, TIBCO
 Spotfire S+. This makes it possible to convert different
 versions of S code to run on R without major code modifications.
 
-.. image:: ../../images/screenshots/1024x768/r-perspective.png
+.. image:: ../../images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -68,7 +68,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 2.15
+**Software Version:** 2.15.1
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
