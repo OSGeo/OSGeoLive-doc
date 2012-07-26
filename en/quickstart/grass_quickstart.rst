@@ -153,7 +153,7 @@ just below it. Then click [Run].
 Back in the `Layer Manager` window check that those two new raster maps are 
 in the layer list and make sure that they are the only two which are ticked
 for display in the box to the left of the layer name. Right click on
-the elev.basins raster map layer name and select "Change opacity level".
+the "elev.basins" raster map layer name and select "Change opacity level".
 Set it to about 50% which will re-render the Map Display. Drag a map layer (such
 as the earlier shaded relief map) to lower down in the layer list if you
 wish for it to be drawn behind the other map layers, and tick it's box to
@@ -218,14 +218,14 @@ Next we'll add some attributes to those new areas, containing the average
 elevation in each basin. In the Vector menu select :menuselection:` Update attributes --> Update area attributes from raster`
 to launch the ``v.rast.stats`` module. Use ``basin_areas`` as the vector
 polygon map, the `elevation` raster to calculate the statistics from,
-make the column prefix ``elev``, and click [Run] then close the dialog when
+make the column prefix ``ele``, and click [Run] then close the dialog when
 it is finished. You can query the values in the `Map Display` window using
 the fifth icon from the left and after verifying that the vector-areas map
 is selected in the `Layer List`, clicking on a vector area in the map canvas.
 
 You can colorize the areas based on the average elevation values using the
 ``v.colors`` module. In the Vector menu select :menuselection:` Manage colors --> Color tables`.
-Select ``basin_areas`` for the input vector map, the ``elev_mean`` attribute
+Select ``basin_areas`` for the input vector map, the ``ele_mean`` attribute
 column for the column containing the numeric range, and in the `Colors` tab
 have it copy the colors from the `elevation` raster map. After running that
 right-click on the ``basin_areas`` map in the Layer List and select `Properties`.
@@ -237,7 +237,7 @@ Now let's look at the attribute table and SQL builder in more detail. In the
 `Layer Manager` click the table icon, it's second from the left on the bottom
 row. This will open a view of the attached database table. For now we'll just
 do a simple database query to find watershed basins without a lot of variation
-in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stdde``
+in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``ele_stddev``
 from the pull down list for the standard deviation statistic, then in the
 text box to its right enter ``< 50`` and click [Apply]. You'll notice the
 number of loaded records in the information bar along the bottom of the window
