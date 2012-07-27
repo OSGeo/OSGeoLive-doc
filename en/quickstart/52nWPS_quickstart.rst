@@ -1,5 +1,5 @@
 :Author: Kristof Lange
-:Version: osgeo-live4.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -14,26 +14,32 @@
 Running
 ================================================================================
 
-*	To run 52°North WPS on the Live DVD, click on the "Start 52NorthWPS" link in the Web services folder on the desktop 
-	or you will find it in the menu-items.
+*	To run 52°North WPS on the Live DVD, go to `Geospatial --> Web Services --> 52North --> Start 52North WPS`	to start the 52°North WPS or use this `direct link <http://localhost:8080/52nWPS/>`_. (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
+
+*	The 52n WPS welcome page will appear. 
+
+.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
+  :scale: 100 %
+  :alt: screenshot
+  :align: center
 
 *	Firefox will open the 52nWPS-TestClient. 
-*	Make sure that you have started Geoserver since some of the demonstrations require data from the local Geoserver installation.
+*	Make sure that you have started :doc:`Geoserver <../quickstart/geoserver_quickstart>` since some of the demonstrations require data from the local Geoserver installation.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: screenshot
-  :align: right
+  :align: center
   
   
 *	Push the Send-Button and the request will be transmitted to the 52°North WPS which will
 	generate a xml-representation for a buffer around the major roads of tasmania with a width of 0.05 degrees.
 
 .. image:: ../../images/screenshots/1024x768/52n_wps_response.png
-  :scale: 50 %
+  :scale: 100 %
   :alt: screenshot
-  :align: right
+  :align: center
   
 
 *	Check out the capabilities of the 52°North WPS with this request:
