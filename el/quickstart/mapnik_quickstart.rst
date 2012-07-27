@@ -62,7 +62,7 @@
 
   #. Στην συνέχεια επικσεφτείτε το παράδειγμα του TileLite OpenLayers "World Population":
     
-    * στο αρχείο:///usr/local/share/mapnik/demo/openlayers.html
+    * στο αρχείο:///usr/local/share/mapnik/demo/local.html
 
 
 Τεκμηρίωση
