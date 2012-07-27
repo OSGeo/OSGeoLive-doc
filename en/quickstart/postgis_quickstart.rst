@@ -35,7 +35,7 @@ via the internal 'loopback' network connection, and is not visible to other comp
 unless you configure it to be so.
 
 Three clients will be illustrated here: the command-line client,
-Quantum GIS, and the ``pgAdmin`` graphical database client.
+:doc:`Quantum GIS <../overview/qgis_overview>`, and the ``pgAdmin`` graphical database client.
 
 Creating A Spatially-Enabled database
 ================================================================================
@@ -45,18 +45,27 @@ Creating A Spatially-Enabled database
 
 Command-line clients run from within a Terminal Emulator window. Start a Terminal
 Emulator from the Applications menu in the Accessories section. This gives you a
-Unix shell command prompt. Type ``psql -V`` and hit enter to see the PostgreSQL version number.
+Unix shell command prompt. Type::
+
+   psql -V
+
+and hit enter to see the PostgreSQL version number.
 
 A single PostgreSQL server lets you organise work by arranging it into separate
 databases. Each database is an independent regime, with its own tables, views, users 
 and so on. When you connect to a PostgreSQL server you have to specify a
 database.
 
-You can get a list of databases on the server with the ``psql -l`` command. You should
-see several databases used by some of the projects on the system. We will create a
-new one for this quickstart.
+You can get a list of databases on the server with the::
 
-.. tip:: The list uses a standard unix pager - hit space for next page, b to go back, q to quit, h for help.
+   psql -l
+
+command. You should see several databases used by some of the projects on the system. 
+We will create a new one for this quickstart.
+
+.. tip:: 
+   The list uses a standard unix pager - hit space for next page, :kbd:`b` to go back, :kbd:`q` 
+   to quit, h for help.
 
 PostgreSQL gives us a utility program for creating databases, ``createdb``. We need to
 create a database with the PostGIS extensions, so we need to tell it what template
@@ -68,7 +77,8 @@ to start from. We'll call our database ``demo``. The command is then:
 
    createdb -T template_postgis demo
 
-.. tip:: You can usually get help for command line tools by using a ``--help`` option.
+.. tip:: 
+   You can usually get help for command line tools by using a ``--help`` option.
 
 
 If you now run ``psql -l`` you should see your ``demo`` database in the listing.
@@ -97,7 +107,9 @@ way of switching within the ``psql`` command line:
 
  postgres=# \c demo
 
-.. tip:: Hit Ctrl-C if the psql prompt keeps appearing after pressing return. It will clear your input and start again. It is probably waiting for a closing quote mark, semicolon, or something.
+.. tip:: 
+   Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after pressing return. It will clear your 
+   input and start again. It is probably waiting for a closing quote mark, semicolon, or something.
 
 You should see an informational message, and the prompt will change to show that you are now
 connected to the ``demo`` database. To check this has worked, type ``\dt`` to list the
@@ -183,7 +195,8 @@ from a text format that gives the coordinates and a spatial reference system id:
   demo=# INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
   demo=# INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
 
-.. tip:: Use the arrow keys to recall and edit command lines.
+.. tip:: 
+   Use the arrow keys to recall and edit command lines.
 
 As you can see this gets increasingly tedious very quickly. Luckily there are other ways of getting
 data into PostGIS tables that are much easier. But now we have three cities in our database, and we 

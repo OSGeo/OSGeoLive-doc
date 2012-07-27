@@ -110,9 +110,9 @@ können Sie aber auch direkt innerhalb von ``psql`` eine Verbindung zu einer and
  postgres=# \c demo
 
 .. tip:: 
-   Wenn die psql Eingabe auch nach dem Drücken der Return Taste erscheint, können Sie über Ctrl-C Ihre Eingabe 
-   löschen und von Neuem beginnen. Es kann sein, dass psql auf ein schließendes Anführungszeichen, ein Semikolon 
-   oder ein anderes Zeichen wartet.
+   Wenn die psql Eingabe auch nach dem Drücken der Return Taste erscheint, können Sie über :kbd:`CTRL` + kbd:`C` 
+   Ihre Eingabe löschen und von Neuem beginnen. Es kann sein, dass psql auf ein schließendes Anführungszeichen, 
+   ein Semikolon oder ein anderes Zeichen wartet.
 
 Sie sollten eine Meldung sehen, die Eingabe wechselt und zeigt an, dass Sie mit der Datenbank ``demo`` verbunden sind. 
 Über ``\dt`` können Sie dies prüfen und die Liste der Tabellen in der Datenbank ausgeben lassen.
