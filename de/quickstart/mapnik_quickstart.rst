@@ -60,7 +60,7 @@ Um die Demo zu starten müssen folgende Schritte durchgeführt werden:
 
   #. Nun rufen Sie das TileLite OpenLayers Beispiel "World Population" auf:
     
-    * Die Seite finden sie unter: `http://localhost/mapnik/demo/local.html <../../mapnik/demo/local.html>`_
+    * Die Seite finden sie unter: `http://localhost/mapnik/local.html <../../mapnik/local.html>`_
 
 
 Wie geht es weiter?
