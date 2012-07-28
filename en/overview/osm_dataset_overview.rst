@@ -52,7 +52,7 @@ Details
 
 **Website:** http://www.osm.org
 
-**License:** Open Data Commons Open Database License (ODbL)
+**License:** CC-By-SA, Open Data Commons Open Database License (ODbL)
 
 **Data Version:** Live database
 
