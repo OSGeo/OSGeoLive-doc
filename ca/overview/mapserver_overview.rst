@@ -86,7 +86,7 @@ Demostració
 Documentació
 --------------------------------------------------------------------------------
 
-* `Documentació de MapServer 6.0.2  <../../mapserver/doc/index.html>`_
+* `Documentació de MapServer 6.0.3  <../../mapserver/doc/index.html>`_
 
 Detalls
 --------------------------------------------------------------------------------
@@ -95,7 +95,7 @@ Detalls
 
 **Llicència:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Versió de programari:** 6.0.2
+**Versió de programari:** 6.0.3
 
 **Sistemes operatius:** Windows, Linux, Mac
 
