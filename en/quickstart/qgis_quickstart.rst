@@ -144,7 +144,7 @@ Using the OpenStreetMap plugin
 
 #. Open the Terminal Emulator from the Xubutu :menuselection:`Applications --> Accessories` menu.
 
-   * Make a working copy the OSM data in the home directory:
+   * Make a working copy of the OSM data in the home directory:
 
 ::
 
