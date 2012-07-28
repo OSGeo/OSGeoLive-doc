@@ -83,7 +83,7 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 ドキュメント
 --------------------------------------------------------------------------------
 
-* `MapServer 5.6.5 ドキュメント <../../mapserver/doc/index.html>`_
+* `MapServer 6.0.2 ドキュメント <../../mapserver/doc/index.html>`_
 
 
 詳細
@@ -93,7 +93,7 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 
 **ライセンス:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**ソフトウェアバージョン:** 5.6.5
+**ソフトウェアバージョン:** 6.0.2
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
