@@ -7,9 +7,9 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
 TMP	      = /tmp/osgeolive_make
-#TRANSLATIONS  = de el es it ja ro pl ca zh
+#TRANSLATIONS  = ca de el es it fr ja ro pl zh
 # Note : the it folder has been added to exclude_patterns in conf.py !!
-TRANSLATIONS  =  de el es ja fr pl ca zh
+TRANSLATIONS  =  ca de el es       ja    pl zh
 LANGUAGES     = en $(TRANSLATIONS)
 START_DIR     = $(shell pwd)
 
