@@ -32,7 +32,7 @@ De nombreuses applications sont aussi fournies avec des installateurs pour
 <../WindowsInstallers/>`_.
 
 
-Quick Starts
+Guides de démarrage rapide
 --------------------------------------------------------------------------------
 
 .. toctree::
