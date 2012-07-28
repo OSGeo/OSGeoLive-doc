@@ -13,13 +13,21 @@
 OpenCPN Quickstart 
 ********************************************************************************
 
+OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never
+use a piece of software or electronic equipment as your only means of
+navigation and keep an eye out the window.
+
+
 Running
 ================================================================================
 
 Setting up your charts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Before running OpenCPN on the LiveDVD you should activate the sample data.
-To do this open a Terminal from the main Applications menu and run
+This is a condition of redistributing NOAA's free nautical charts.
+The first time you run OpenCPN from the `Geospatial` menu or Desktop icon
+you will be presented with the option to do this automatically. To do this
+manually, open a Terminal from the main Applications menu and run
 :command:`opencpn_noaa_agreement.sh` at the command prompt. The user's
 password is given in the file on the main desktop.
 
