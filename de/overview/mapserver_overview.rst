@@ -96,7 +96,7 @@ Details
 
 **Lizenz:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:**  6.0.2
+**Software Version:**  6.0.3
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
