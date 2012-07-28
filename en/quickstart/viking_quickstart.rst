@@ -24,12 +24,12 @@ To quickly get started using Viking, follow these instructions.
 
 1) Get some data from your GPS device. There are a couple ways to do this.
 You can use gpspoint or you can use another program and translate it with
-my version GPSBabel with gpspoint write support (or use the GPSBabel program
-itself to download and translate at once.)
+Viking's version GPSBabel with gpspoint write support (or use the GPSBabel
+program itself to download and translate at once.)
 A suitable GPX file containing a couple of tracks can be found on the disc
-at `/usr/local/lib/R/site-library/rgdal/vectors/test_trk2.gpx`.
+at `~/data/vector/R/test_trk2.gpx`.
 
-2) Open up viking and use :menuselection:`File --> Open` to open the gpspoint 
+2) Open up Viking and use :menuselection:`File --> Open` to open the gpspoint 
 or GPX file.
 Viking will try to change its viewing area to the center of the layer (file)
 but sometimes if you have waypoints and tracks which are very far apart you 
