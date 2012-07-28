@@ -112,9 +112,9 @@ Using the GRASS Toolbox
 
 You also have access to many of the powerful GRASS analysis modules.
 
-#. Choose :menuselection:`Plugins --> GRASS --> Open GRASS tools`.
-
 .. maybe describe a raster processing task instead of a NVIZ one?
+
+#. Choose :menuselection:`Plugins --> GRASS --> Open GRASS tools`.
 
 #. Type ``nviz`` into the Filter box then select `NVIZ`.
 
