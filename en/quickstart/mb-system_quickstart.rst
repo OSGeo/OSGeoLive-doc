@@ -27,7 +27,7 @@ using automated scripts. Data files in dozens of data formats can be left
 co-mingled and intact on the drive and only those needed will be
 automatically selected, allowing for efficient processing and seamless mixing
 of datasets collected at different times, by different ships, in different
-data formats. Cartographic output and advanced 3D editing software is also
+data formats. Cartographic output and advanced 3D data cleaning software is also
 included.
 
 
