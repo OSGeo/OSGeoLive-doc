@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live5.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -47,7 +47,7 @@ Open a terminal, then
 
   cp -r /usr/share/doc/gmt-examples/examples/ gmt-examples
   cd gmt-examples/
-  ./do_examples.sh
+  ./do_examples.csh
 
 `[whiz .. bang .. whirl]`
 
@@ -55,7 +55,7 @@ View results: (type :kbd:`q` to quit :command:`gv` [#gv]_)
 
 ::
 
-  for PLOT in `find . -name *.ps` ; do
+  for PLOT in *.ps ; do
      echo "$PLOT"
      gv "$PLOT"
   done
