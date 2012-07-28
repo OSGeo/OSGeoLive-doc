@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GMT.gif
@@ -47,7 +47,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 4.5.2
+**Software Version:** 4.5.6
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
