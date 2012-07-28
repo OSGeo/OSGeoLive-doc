@@ -29,16 +29,16 @@ metadata tags from the OSM database.
 
 The JOSM plugin collection contains the following plugins:
 
-* agpifoj	     - Creates a new layer with geotagged pictures.
 * colorscheme	     - Allows to create different color schemes.
 * livegps	     - Supports live GPS input together with gpsd.
 * measurement	     - Adds a dialog and a layer to measure length and angle of segments and create measurement paths.
 * openvisible	     - Allows opening gpx and osm files that intersect the currently visible screen area.
-* slippymap	     - Displays a slippy map grid in JOSM.
 * surveyor	     - Allows adding markers/nodes on current gps positions.
-* utilsplugin	     - Several helper utilities.
-* validator	     - Data validator.
-* wmsplugin	     - Displays background images from any WMS source.
+* cadastre-fr        - A special handler for the French land registry WMS server.
+* DirectUpload       - Directly uploads GPS Traces from current active layer in JOSM to openstreetmap.org.
+* editgpx            - Anonymizes timestamps and deletes parts of huge GPX tracks very fast.
+* lakewalker         - Helps vectorizing WMS images.
+* routing            - Provides routing capabilities.
 
 
 Further reading
