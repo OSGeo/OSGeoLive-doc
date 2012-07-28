@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -12,6 +12,24 @@
 ********************************************************************************
 MB-System Quickstart 
 ********************************************************************************
+
+
+Running
+================================================================================
+
+Users familiar
+with :doc:`GMT <../overview/gmt_overview>` and :doc:`GDAL <../overview/gdal_overview>` will
+be right at home with MB-System. In fact, MB-System makes heavy use of
+GMT for its map rendering. MB-System is a modular, command line driven
+suite of about 75 programs which work together to process massive (often
+terabytes) worth of multi-beam swath bathymetry and sidescan sonar data
+using automated scripts. Data files in dozens of data formats can be left
+co-mingled and intact on the drive and only those needed will be
+automatically selected, allowing for efficient processing and seamless mixing
+of datasets collected at different times, by different ships, in different
+data formats. Cartographic output and advanced 3D editing software is also
+included.
+
 
 Documentation
 ================================================================================
