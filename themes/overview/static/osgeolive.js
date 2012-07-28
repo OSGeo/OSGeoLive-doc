@@ -6,7 +6,7 @@
  * the supported languages for osgeo-live DVD, 
  * update if an other translation is available
  */
-var supported_languages= ["el", "es", "ca", "pl", "en", "de", "jp", "zh"];
+var supported_languages= ["el", "es", "ca", "pl", "en", "de", "fr","jp", "zh"];
 
 /**
  * creates a location object from url string 
