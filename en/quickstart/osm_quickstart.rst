@@ -110,9 +110,9 @@ Example:
 
 ::
 
-  cp /usr/local/share/data/osm/feature_city.osm.bz2 .
-  bzip2 -d feature_city.osm.bz2
-  osmarender feature_city.osm
+  cp /usr/local/share/data/osm/feature_city_CBD.osm.bz2 .
+  bzip2 -d feature_city_CBD.osm.bz2
+  osmarender feature_city_CBD.osm
 
 You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
 
@@ -141,4 +141,10 @@ database file. A processed version of the OSM feature city extract provided with
 this disc can be found in the `/usr/local/share/data/osm` directory, and explored
 with the `SQLite database browser` program in the Databases menu. On this disc
 it is used by the :doc:`GpsDrive <../overview/gpsdrive_overview>` software to
-provide a searchable list of local amenities.
+provide a searchable list of local amenities. To run it manually, do:
+
+::
+
+  bzcat /usr/local/share/data/osm/feature_city.osm.bz2 | osm2poidb -o feature_city_poi.db STDIN
+
+
