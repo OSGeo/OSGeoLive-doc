@@ -31,7 +31,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.jpg
-  :scale: 80 %
+  :scale: 50 %
   :alt: screenshot
   :align: right
 
