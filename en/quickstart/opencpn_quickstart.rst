@@ -56,7 +56,7 @@ Documentation
 
 * Documentation is available from
   the `Help menu <../../opencpn/help_en_US.html>`_, or
-  online at http://www.opencpn.org/docwiki
+  online at http://www.opencpn.org/ocpn/opencpn_manual
 
 *  `Getting started tips <../../opencpn/tips.html>`_
 
@@ -68,10 +68,13 @@ Current weather and wave forecast data can be downloaded and draped over your
 charts using the GRIB plugin. The :doc:`zyGrib software <../overview/zygrib_overview>`
 (also on this disc) is an easy way to download that. See
 the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` for details.
-Enable the plugin the right most tab of the OpenCPN configuration menu;
-right click on the GRIB directory selection window to show hidden files,
-including the ``.zygrib`` directory containing the default GRIB download
-directory. If you saved the GRIB file into your home directory navigate
+Enable the plugin from the right most tab of the OpenCPN configuration menu;
+a new icon will appear at the right end of the main toolbar.
+
+ If you saved the zyGRIB file into your home directory, navigate
 to :file:`/home` and select your ``user`` directory as the GRIB data directory.
-There is no need to uncompress the file.  Click on the ">" to the left of
+Then right click on the file listing's background to show hidden files, including
+the ``.zygrib`` directory that contains the GRIB download files.
+
+ There is no need to uncompress the file.  Click on the ">" to the left of
 the filename and select from the list of available forecast times.
