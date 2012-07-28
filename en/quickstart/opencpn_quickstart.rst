@@ -26,10 +26,11 @@ Setting up your charts
 Before running OpenCPN on the LiveDVD you should activate the sample data.
 This is a condition of redistributing NOAA's free nautical charts.
 The first time you run OpenCPN from the `Geospatial` menu or Desktop icon
-you will be presented with the option to do this automatically. To do this
-manually, open a Terminal from the main Applications menu and run
-:command:`opencpn_noaa_agreement.sh` at the command prompt. The user's
-password is given in the file on the main desktop.
+you will be presented with the option to do this automatically.
+
+.. To do this manually, open a Terminal from the main Applications menu and
+ run :command:`opencpn_noaa_agreement.sh` at the command prompt. The user's
+ password is given in the file on the main desktop.
 
 You can download additional US nautical charts from NOAA
 at http://www.charts.noaa.gov
