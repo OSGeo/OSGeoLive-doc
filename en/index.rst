@@ -37,7 +37,7 @@ Quick Starts
    Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart>
    Change language or keyboard type <quickstart/internationalisation_quickstart>
    Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart>
-   Run OSGeo-Live in a Virtual Machine <quickstart/virtualbox_quickstart>
+   Run OSGeo-Live in a Virtual Machine <quickstart/virtualization_quickstart>
    Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>
 
 .. toctree::
