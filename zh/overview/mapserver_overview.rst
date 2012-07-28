@@ -86,7 +86,7 @@ MapServer目前是`OSGeo <http://www.osgeo.org>`_的一个项目, 由一个日�
 文档
 --------------------------------------------------------------------------------
 
-* `MapServer 6.0.2 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 6.0.3 Documentation <../../mapserver/doc/index.html>`_
 
 详情请见
 --------------------------------------------------------------------------------
@@ -95,7 +95,7 @@ MapServer目前是`OSGeo <http://www.osgeo.org>`_的一个项目, 由一个日�
 
 **版权:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**软件版本:** 6.0.2
+**软件版本:** 6.0.3
 
 **支持平台:** Windows, Linux, Mac
 
