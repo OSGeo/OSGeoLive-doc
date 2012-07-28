@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -44,9 +44,9 @@ The JOSM plugin collection contains the following plugins:
 Further reading
 --------------------------------------------------------------------------------
 
-* Online tutorial: http://www.use-it.be/europe/docs/OSMmanual/
 * User guide: http://wiki.openstreetmap.org/wiki/JOSM/Guide
 * `Video tutorial <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
+* Online tutorial: http://www.use-it.be/europe/docs/OSMmanual/
 * Open the sample data with :menuselection:`File --> Open... --> /usr/local/share/data/osm/feature_city.osm.bz2`
 * Further instructions are given when you launch the application.
 
@@ -63,7 +63,7 @@ It's a bit more user friendly than JOSM, but has a few less features.
 Gosmore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Gosmore** is a OpenStreetMap viewer, wayfinder, and search client
+**Gosmore** is an in-development OpenStreetMap viewer, wayfinder, and search client
 with support for speech synthesis and fetching the current user's
 current GPS location using `gpsd <http://savannah.nongnu.org/projects/gpsd>`_.
 
@@ -71,7 +71,9 @@ current GPS location using `gpsd <http://savannah.nongnu.org/projects/gpsd>`_.
 * Online wiki help: http://wiki.openstreetmap.org/wiki/Gosmore#User_Interface
 * Before running Gosmore you will need to convert a `planet-*.osm` data file. Some data is provided in the `/usr/local/share/osm/` directory.
 
-Import it with:
+Upon launching Gosmore from the Geospatial menu or Desktop folders, you will
+be given the chance to create the required data file if needed. You can also
+manually import it with:
 
 ::
 
@@ -91,7 +93,8 @@ Osmarender
 **Osmarender** is a rule-based rendering tool for generating SVG images of
 OSM data. It takes as its input an OpenStreetMap dataset and a rules file.
 It outputs an SVG image that is marked up in accordance with the styles
-defined in the rule file.
+defined in the rule file. In future it may be replaced with software
+like `TileMill <http://wiki.openstreetmap.org/wiki/Tilemill>`_.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osmarender
 
@@ -121,10 +124,21 @@ You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
 osm2pgsql
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**osm2pgsql** is a utility program that converts OpenStreetMap (.OSM) data
+**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data
 into a format that can be loaded into PostgreSQL (PostGIS). It is often
 used to render OSM data visually using Mapnik, as Mapnik can query
 PostgreSQL for map data, but does not work directly with OSM files.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osm2pgsql
 
+
+osm2poidb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**osm2poidb** is a utility program that extracts Point of Interest (POI) data
+from a OpenStreetMap (.osm) data extract. The results are saved into a SQLite
+database file. A processed version of the OSM feature city extract provided with
+this disc can be found in the `/usr/local/share/data/osm` directory, and explored
+with the `SQLite database browser` program in the Databases menu. On this disc
+it is used by the :doc:`GpsDrive <../overview/gpsdrive_overview>` software to
+provide a searchable list of local amenities.
