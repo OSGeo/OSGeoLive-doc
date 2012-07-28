@@ -22,7 +22,7 @@ To try out the applications, simply:
 #. Insert DVD or USB thumb drive in computer or virtual machine.
 #. Reboot computer. (verify boot device order if necessary)
 #. Press "Enter" to startup & login.
-#. Trial applications from the "Geospatial" menu.
+#. Select and run applications from the "Geospatial" menu.
 
 Many applications are also provided with installers for `Apple OSX <../MacInstallers/>`_ and
 `Microsoft Windows <../WindowsInstallers/>`_.
