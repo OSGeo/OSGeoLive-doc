@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-viking.png
@@ -26,20 +26,25 @@ To quickly get started using Viking, follow these instructions.
 You can use gpspoint or you can use another program and translate it with
 my version GPSBabel with gpspoint write support (or use the GPSBabel program
 itself to download and translate at once.)
+A suitable GPX file containing a couple of tracks can be found on the disc
+at `/usr/local/lib/R/site-library/rgdal/vectors/test_trk2.gpx`.
 
-2) Open up viking and use :menuselection:`File --> Open GPS Data` to open the gpspoint file.
+2) Open up viking and use :menuselection:`File --> Open` to open the gpspoint 
+or GPX file.
 Viking will try to change its viewing area to the center of the layer (file)
 but sometimes if you have waypoints and tracks which are very far apart you 
 won't see anything. If this is the case, expand the layer (on the Layers 
 Panel to the left), then expand "Waypoints", find a waypoint and right-click 
 on it and click "Goto".
 
-3) Now add a map layer (:menuselection:`Layers --> New Map Layer`), choose a suitable cache 
-directory where you would like to store your tracks and click OK. Zoom to a 
-comfortable level (I suggest 4 mpp) by clicking the left and right mouse 
+3) Now add a map layer (:menuselection:`Layers --> New Map Layer`), choose a suitable
+cache  directory where you would like to store your tracks and click OK. Zoom
+to a comfortable level (I suggest 4 mpp) by clicking the left and right mouse 
 buttons on the gray area where your tracks are. Now from the menu choose 
-:menuselection:`Tools --> Map Download`, Click where you would like to download a map. 
-Regardless of what tool you are using, the middle mouse button always pans.
+:menuselection:`Tools --> Maps Download`, Click where you would like to download a map. 
+You can set it to auto-download the tiles by right clicking on the "Map" layer,
+selecting `Properties`, and ticking the `Autodownload maps` check box. 
+Regardless of what tool you are using, the middle mouse button always pans. 
 
 4) You will notice the maps are being drawn on top of the tracks, which is 
 probably not what you want. Look at the Layers Panel to the left. Notice how 
