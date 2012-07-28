@@ -71,10 +71,10 @@ the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` for details.
 Enable the plugin from the right most tab of the OpenCPN configuration menu;
 a new icon will appear at the right end of the main toolbar.
 
- If you saved the zyGRIB file into your home directory, navigate
+If you saved the zyGRIB file into your home directory, navigate
 to :file:`/home` and select your ``user`` directory as the GRIB data directory.
 Then right click on the file listing's background to show hidden files, including
 the ``.zygrib`` directory that contains the GRIB download files.
 
- There is no need to uncompress the file.  Click on the ">" to the left of
+There is no need to uncompress the file.  Click on the ">" to the left of
 the filename and select from the list of available forecast times.
