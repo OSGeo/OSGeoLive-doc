@@ -47,7 +47,7 @@ Trobareu un arxiu ràster de  NaturalEarth i un tfw-file a:
  cd /home/user/gdal_natural_earth/HYP_50M_SR_W
 
 
-.. consell:: Obriu l'arxiu amb un SIG d'escriptori com ara QGIS i mireu-lo.
+.. tip:: Obriu l'arxiu amb un SIG d'escriptori com ara QGIS i mireu-lo.
 
 Obteniu informació sobre les dades ràster amb gdalinfo
 ================================================================================
@@ -249,7 +249,7 @@ Aprenent OGR
   cd /home/usr/gdal_natural_earth/
 
 
-.. Ajut:: Obriu el fitxer shape amb un SIG d'escriptori com QGIS i mireu-ne el resultat.
+.. tip:: Obriu el fitxer shape amb un SIG d'escriptori com QGIS i mireu-ne el resultat.
 
 
 Obtingueu informació sobre dades vectorials amb ogrinfo
