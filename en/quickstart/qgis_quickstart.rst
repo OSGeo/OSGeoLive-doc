@@ -161,7 +161,7 @@ Using the OpenStreetMap plugin
 
 #. Choose :menuselection:`Web --> OpenStreetMap --> Load OSM from file`.
 
-#. Select the `feature_city_CBD.osm` you just copied into the home directory.
+#. Select the `feature_city_CBD.osm` file you just copied into the home directory.
 
 #. Tick the `name`, `highway`, and `amenity` check boxes.
 
