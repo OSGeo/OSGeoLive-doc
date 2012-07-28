@@ -19,18 +19,17 @@ Web Service
 The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` supports reading of live and archived data captured by in-situ and remote sensors. A sensor may be a camera on a satellite or a water level meter in a stream.
  
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
-  :scale: 100 %
+  :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right
 
 Features
 --------------------------------------------------------------------------------
 
-**Client**:
+* Implements the SOS 1.0.0 and 2.0.0 standards.
 
 * A browser based client provides test XML queries for all supported operations.
 
-The current 52°North SOS (version 3.5.0) implements the latest schema version (2.0.0 and its predecessor 1.0.0). Regarding the different specification versions the following operations are implemented:
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -91,8 +90,6 @@ Details
 **Community Support:** http://sensorweb.forum.52north.org/
 
 **Community Website:** http://52north.org/communities/sensorweb/
-
-**Other 52°North projects on OSGeo Live:** :doc:`WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
 
 Quickstart
 --------------------------------------------------------------------------------
