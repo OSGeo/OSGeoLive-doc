@@ -20,10 +20,12 @@ You will most likely want to install
 the `gpsd <http://savannah.nongnu.org/projects/gpsd>`_ package so that you can talk
 to your GPS; without that GpsDrive is just a nice map viewer.
 
-Speech output is supported if the "espeak" software is installed.
-To use live-maps from the OpenStreetMap project you need to install the
-openstreetmap-* packages as well. Static map tiles may be downloaded
-from the internet without any extra installation.
+OpenStreetMap tiles will be generated automatically using the
+the :doc:`Mapnik <../overview/mapnik_overview>` library to
+render :doc:`OpenStreetMap <../overview/osm_dataset_overview>` map data stored
+in a preloaded :doc:`PostGIS <../overview/postgis_overview>` database.
+Static map tiles may also be downloaded from the internet without any extra installation.
+Verbal output is supported if the "espeak" software is installed.
 
 
 Setting up your GPS
@@ -43,9 +45,7 @@ and
   sudo /etc/init.d/gpsd start
 
 BlueTooth GPS users should take special care to read up about the no-probe
-option.
-
-.. (for this reason we have not started gpsd automatically)  still true?
+option (for this reason we have not started gpsd automatically).
 
 * 'xgps' is a good program to check that Gpsd can see your GPS ok.
 
@@ -81,7 +81,7 @@ with this Live DVD) you can setup GpsDrive to render very pretty street maps
 on the fly from OpenStreetMap.org data using the Mapnik renderer. The
 PostgreSQL database it looks for on this disc is called "osm_local_smerc".
 As this OpenStreetMap extract has only been loaded for the city hosting
-the conference, you may wish to add your own Planet.osm data with the
+the FOSS4G conference, you may wish to add your own Planet.osm data with the
 `osm2pgsql` program or switch off *Mapnik Mode* from the *Map Control*
 window and use the built-in or downloaded static map tiles.
 
@@ -98,7 +98,7 @@ Downloading maps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Use the :menuselection:`Options --> Maps --> Download` tool to preview
 and download new map tiles. Currently the OpenStreetMap web-tiles and
-NASA OnEarth WMS servers are available as sources. There are a few command
+NASA OnEarth T-WMS server are available as sources. There are a few command
 line programs which come with GpsDrive which will let you bulk-download
 a set of tiles covering your local area.
 
@@ -123,7 +123,7 @@ GpsDrive can give you verbal warnings when you are nearing your
 destination, etc. To try this out you must start the eSpeak software
 which has been disabled by default on this Live-Disc to save memory.
 To switch it on you will have to edit (as root) the
-**/etc/default/speech-dispatcher** file and set **RUN_SPEECHD=yes**.
+**/etc/default/speech-dispatcher** file and set **RUN=yes**.
 Then launch the service with "`sudo service speech-dispatcher start`".
 GpsDrive will automatically find it at run time if it is switched on.
 In the Speech tab of the Preferences menu you can enable/disable it,
