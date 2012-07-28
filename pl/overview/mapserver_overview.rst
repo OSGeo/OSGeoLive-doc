@@ -81,7 +81,7 @@ Demo
 Dokumentacja
 --------------------------------------------------------------------------------
 
-* `MapServer 5.6.6 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 6.0.3 Documentation <../../mapserver/doc/index.html>`_
 
 
 Szczegóły
@@ -91,7 +91,7 @@ Szczegóły
 
 **Licencja:** `Licencja MIT-style <http://mapserver.org/copyright.html#license>`_
 
-**Wersja programu:** 5.6.6
+**Wersja programu:** 6.0.3
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
