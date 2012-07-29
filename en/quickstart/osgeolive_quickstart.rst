@@ -4,75 +4,82 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeo-Live Quickstart
+Guide de démarrage rapide OSGeo-Live
 ********************************************************************************
 
-This Quick Start describes how to start OSGeo-Live from a DVD or USB.
+Ce guide de démarrage rapide décrit comment démarrer OSGeo-Live depuis un DVD 
+ou une clé USB.
 
-System Requirements
+Prérequis système
 --------------------------------------------------------------------------------
 
-Your computer should have at least:
+Votre ordinateur doit avoir au moins:
 
-* RAM: 1 GB.
-* CPU: 1 GHz i686 or compatible (Intel/AMD)
-* Hard Disk: 
+* RAM: 1 GB
+* Processeur cadencé à 1 GHz architecture i686 ou compatible (Intel/AMD)
+* Espace disque: 
 
- * None required if running directly from the DVD 
- * |osgeo-live-hdspace| if you wish to install the operating system. 
+ * Aucun requis si on fonctionne directement depuis le DVD 
+ * |osgeo-live-hdspace| si vous souhaitez installer le sytème d'exploitation. 
 
-* Mouse: a 3-button mouse is useful, especially for Mac trackpad users. 
+* Souris: un modèle à 3 boutons est utile, particulèrement pour les utilisateurs
+de trackpad Mac. 
 
-Run:
+Lancement:
 --------------------------------------------------------------------------------
 
-  Source an OSGeo-Live DVD, ISO available from: http://download.osgeo.org/livedvd 
-  Put the DVD into your computer's CD drive, then reboot your computer.
+  Récupérez un DVD OSGeo-Live, dont une image ISO est disponible à partir de:
+  http://download.osgeo.org/livedvd 
+  Insérez le DVD dans le lecteur de disque de votre ordinateur, puis relancez
+  votre ordinateur.
 
-  If your computer is set to boot from CD (as is often the case) you should
-  boot up into an Xubuntu system, with Geospatial applications installed.
-  Otherwise you'll have to adjust the BIOS boot settings or press the boot
-  menu button just after powering-up.
+  Si votre ordinateur est configuré pour démarrer depuis un CD (comme c'est 
+  souvent le cas), vous devriez démarrer sous un sytème Xubuntu, avec les
+  applications géospatiales installées.
+  Dans le cas contraire, vous devrez ajuster vos paramètres de démarrage dans le
+  BIOS ou appuyer sur le bouton de menu juste après démarrage de l'ordinateur.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
-  Press :kbd:`ENTER` to get to next screen.
+  Appuyez sur le bouton :kbd:`Entrée` pour passer à l'écran suivant.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
-    :alt: boot select
+    :alt: Sélection du boot
 
-  Select :guilabel:`live - boot the Live System`
+  Sélectionnez :guilabel:`live - boot the Live System`
 
   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
-    :alt: boot select
+    :alt: Sélection du boot
 
-  At the login page, simply press :kbd:`ENTER` or wait for the countdown to timeout.
+  A la page de connexion, appuyez simplement sur :kbd:`Entrée` ou attendez la
+  fin du compte à rebours.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
-    :alt: boot select
+    :alt: Sélection du boot
 
-  Try the many applications from the :menuselection:`Geospatial` menu. 
+  Essayez les applications à partir du menu :menuselection:`Geospatial`. 
 
-  Getting started with the Xfce desktop: (an online work in progress)
+  Débuter avec le bureau Xfce: (disponible en ligne, en cours, en anglais)
     http://docs.xfce.org/start
 
-  Getting started with the Ubuntu operating system: (a nice PDF e-book)
+  Bien démarrer avec le système d'exploitation Ubuntu: (un e-book en PDF en anglais)
     `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
 
-  Further online help with the Ubuntu operating system: (n.b. we use the traditional Xfce desktop interface, not the tablet-like Unity desktop interface)
-    https://help.ubuntu.com/11.04/
+  Plus d'informations sur le système d'exploitation Ubuntu: (n.b.: nous utilisons
+  l'interface bureautique Xfce, pas celle adaptée aux tablettes, l'interface Unity)
+    https://help.ubuntu.com/12.04/
 
-    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
+    https://help.ubuntu.com/12.04/ubuntu-help/index.html
 
-    https://help.ubuntu.com/11.04/serverguide/C/
+    https://help.ubuntu.com/12.04/serverguide/C/
 
 
-See Also:
+Voir aussi:
 --------------------------------------------------------------------------------
 
  * :doc:`virtualbox_quickstart`
