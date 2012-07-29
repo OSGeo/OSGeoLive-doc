@@ -62,7 +62,7 @@ Details
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**API Interfaces:** C++
+**API Interfaces:** C
 
 
 Quickstart

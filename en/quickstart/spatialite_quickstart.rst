@@ -57,7 +57,7 @@ Open an existing database with **spatialite-gui**
 * Click the "Disconnecting current SQLite DB" button
 * Click the "Connect existing SQLite DB" button
 * Browse to the /home/user/data/spatialite directory and choose trento.sqlite
-* Right click on the MunicpalHallsView table and select "Show Columns"
+* Right click on the MunicipalHallsView table and select "Show Columns"
 * Right Click on the PopulatedPlaces table and select "Edit table rows"
 * In the upper SQL pane type::
 
