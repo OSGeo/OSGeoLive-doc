@@ -30,7 +30,7 @@ EOxServer
 * Υπηρεσίες Ανοιχτών Προτύπων: Ανοιχτά πρότυπα που είναι ευρέως διαδεδομένα: Open Geospatial Consortium (OGC), WMS, WCS, EO-WMS, EO-WCS
 * Εύκολη πρόσβαση από τους χρήστες: Φιλικό γραφικό περιβάλλον για απεικόνιση, αποκοπή εικόνων και μεταφόρτωση
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right
