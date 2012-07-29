@@ -34,27 +34,27 @@ and click on the New button to create a new VM, and then Next.
 Enter a name such as OSGeo-Live, and choose Linux as the "Operating system", and Ubuntu as the "Version".
 In the next screen set the memory to 1024 MB.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_memory.png
+  .. image:: ../../images/screenshots/800x600/vmdk_memory.jpg
          :scale: 65 %
 
 Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the osgeo-live-vm-6.0.vmdk file. Select this file, press Next and Create.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_disk.png
+  .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
               :scale: 65 %
 
 Once the VM is created, click on the Settings button. In the "General" section, go to the Advanced tab, and click to select "Show at top of screen" for the Mini toolbar. 
 
-  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.png
+  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.jpg
               :scale: 65 %
 
 Go to the "Display" section and increase video memory to 32 or 64 MB.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_display.png
+  .. image:: ../../images/screenshots/800x600/vmdk_display.jpg
               :scale: 65 %
 
 In addition, move to the "Shared Folders" section, and click the "Add folder" (green + icon on the right) to find a directory on your host computer that you wish to share inside the VM. 
 
- .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.png
+ .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.jpg
                   :scale: 65 %
 
 
@@ -70,7 +70,7 @@ Once the OSGeo system comes up, you should add the VirtualBox "Guest Additions" 
 
 In the VirtualBox window, open the Devices menu and click "Install Guest Additions". This will mount the Guest Additions as a CD drive in your OSGeo Live VM.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.png
+  .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.jpg
                    :scale: 90 %
 
 Once the CD folder appears, open a terminal and run the following commands:
