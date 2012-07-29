@@ -24,12 +24,12 @@ Create a Virtual Machine
 Open Virtual Box 
 
   .. image:: ../../images/screenshots/800x600/virtualbox.png
-    :scale: 56 %
+    :scale: 50 %
 
 and click on the New button to create a new VM, and then Next.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
-    :scale: 76 %
+    :scale: 70 %
 
 Enter a name such as OSGeo-Live, and choose Linux as the "Operating system", and Ubuntu as the "Version".
 In the next screen set the memory to 1024 MB.
@@ -71,7 +71,7 @@ Once the OSGeo system comes up, you should add the VirtualBox "Guest Additions" 
 In the VirtualBox window, open the Devices menu and click "Install Guest Additions". This will mount the Guest Additions as a CD drive in your OSGeo Live VM.
 
   .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.jpg
-                   :scale: 90 %
+                   :scale: 80 %
 
 Once the CD folder appears, open a terminal and run the following commands:
 
