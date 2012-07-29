@@ -229,21 +229,21 @@ Mapping
 
 Πατήστε 'new' και εισάγετε τις παραμέτρους της σύνδεσης. Θα χρησιμοποιήσουμε τη βάση δεδομένων Natural Earth που υπάρχει μέσα στο παρών DVD. Δεν χρειάζεται όνομα χρήστη ή κωδικός επειδή η ασφάλεια είναι ρυθμισμένη για να σας επιτρέψει την πρόσβαση. Αποεπιλέξτε την επιλογή για προβολή πινάκων χωρίς γεωμετρία, αν είναι επιλεγμένη - θα κάνει τα πράγματα λίγο πιο εύκολα.
 
-.. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+  :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
 Πατήστε το κουμπί ``Test Connect``,και αν όλα είναι εντάξει, θα πάρετε ένα μήνυμα επιβεβαίωσης. Πατήστε ``OK`` και η σύνδεσή σας θα αποθηκευτεί στη λίστα των συνδέσεων. Τώρα μπορείτε να πατήσετε  ``Connect`` και να λάβετε μια λίστα από πίνακες με χωρική πληροφορία από τη βάση:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_layers.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+  :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
 
 Επιλέξτε τις λίμνες και πατήστε ``Add`` (όχι ``Load`` - αυτή η επιλογή σώζει ερωτήσεις), και θα πρέπει να φορτωθεί στοQGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_lakes.png
+.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: Το πρώτο μου PostGIS επίπεδο
   :align: center
@@ -260,15 +260,15 @@ Mapping
 
 Το πρόσθετο θα χρησιμοποιήσει τις προηγούμενες ρυθμίσεις, για να συνδεθεί στη βάση δεδομένων Natural Earth. Αφήστε το πεδίο του κωδικού κενό, εάν ερωτηθείτε. Θα δείτε το κεντρικό παράθυρο του διαχειριστή.
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_manager.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+  :scale: 50 %
   :alt: Πρόσθετο PostGIS Manager
   :align: center
 
 Μπορείτε να χρησιμοποιήσετε τις καρτέλες που βρίσκονται στο δεξί μέρος για να δείτε και να επιβεβαιώσετε τις ιδιότητες του επιπέδου, ακόμα και να πάρετε ένα βασικό χάρτη με δυνατότητες εστίασης και πλοήγησης. Εδώ έχω επιλέξει το επίπεδο των κατοικημένων περιοχών και έχω έστιάσει σε ένα μικρό νησί που ξέρω:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+  :scale: 50 %
   :alt: Προεπισκόπηση δεδομένων στον PostGIS Manager
   :align: center
 
@@ -277,15 +277,15 @@ Mapping
 Από τη λίστα ``Data`` επιλέξτε την επιλογή ``Load data from shapefile``. 
 Πατήστε το ``...`` και πλοηγηθείτε ώστε να βρείτε το shapefile ``sids.shp`` στο πακέτο ``maptools``  του R:
 
-.. image:: ../../images/screenshots/1024x768/postgis_find_shape.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+  :scale: 50 %
   :alt: Εύρεση του shapefile
   :align: center
 
 Αφήστε τις άλλες επιλογές ως έχουν και πατήστε ``Load``
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_load.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+  :scale: 50 %
   :alt: Εισαγωγή ενός shapefile
   :align: center
 
@@ -294,8 +294,8 @@ Mapping
 
 Τώρα φορτώστε τα δεδομένα SIDS στο χάρτη με την επιλογή 'Add PostGIS Layer'. Με μια ανακατανομή των επιπέδων και λίγο επεξεργασία των χρωμάτων, θα πρέπει να μπορέσετε να παράξετε ένα χωροπληθικό χάρτη του πλήθους των αιφνιδίων θανάτων βρεφών στη Βόρεια Καρολίνα:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_final.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+  :scale: 50 %
   :alt: Χαρτογραφική ανα παράσταση των δεδομένων SIDS
   :align: center
 
@@ -307,7 +307,12 @@ Mapping
 
 Μπορείτε να χρησιμοποιήσετε τον πελάτη ``pgAdmin III`` που παρέχει γραφικά εργαλεία για να γίνονται ερωτήσεις και αλλαγές στην βάση δεδομένων σας μη χωρικά Είναι ο επίσημος πελάτης της PostgreSQL, και επιτρέπει τη χρήση SQL για τη διαχείριση των πινάκων της βάσης.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
+
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

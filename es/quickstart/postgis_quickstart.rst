@@ -279,8 +279,8 @@ que se encuentra en el DVD. No hay nombre de usuario ni contraseña porque la se
 para permitir que acceda. Desactive la opción sobre tablas sin geometrías si está activada. De esa forma 
 las cosas serán un poco más fáciles.
 
-.. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+  :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
@@ -288,14 +288,14 @@ Pinche el botón ``Probar conexión``, y si todo está correcto obtendrá un men
 Pinche ``OK`` y su información de conexión se guardará con el nombre en la lista de conexiones. Ahora ya puede 
 pinchar ``Conectar`` y obtener un listado de las tablas espaciales de la base de datos:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_layers.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+  :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
 
 Elija la tabla lagos y pinche ``Añadir`` (no ``Cargar`` - que guarda las consultas). Esta capa se debería cargar en QGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_lakes.png
+.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -318,8 +318,8 @@ En el menú Complementos debería tener un acceso al PostGIS Manager que le da l
 Entonces el gestor usará las preferencias que usted ha definido previamente para conectar a la base de datos Natural Earth. 
 Si le pide la contraseña déjela en blanco. Verá la ventana principal del gestor.
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_manager.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+  :scale: 50 %
   :alt: PostGIS Manager Plugin
   :align: center
 
@@ -327,8 +327,8 @@ Puede usar las otras pestañas del panel de la derecha para comprovar los atribu
 puede obtener un mapa básico con capacidad de zoom y panorámica. En este caso hemos seleccionado la capa de lugares poblados 
 y hemos hecho zoom a una pequeña isla que concemos:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_preview.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+  :scale: 50 %
   :alt: PostGIS Manager Preview
   :align: center
 
@@ -346,8 +346,8 @@ botón ``...`` y busque el shapefile ``sids.shp`` en el paquete ``maptools`` de 
 
 No cambie nada más y pulse ``Cargar``.
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_load.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+  :scale: 50 %
   :alt: Import a shapefile
   :align: center
 
@@ -357,8 +357,8 @@ A continuación cargue los datos de SIDS en el mapa usando la opción 'Añadir c
 Cambiando de orden algunas capas y coloreando un poco debería ser capaz de obtener un mapa de coropletas del recuento
 de síndromes de muerte súbita infantil en Carolina del Norte:
 
-.. image:: ../../images/screenshots/1024x768/postgis_ne_final.png
-  :scale: 75 %
+.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+  :scale: 50 %
   :alt: SIDS data mapped
   :align: center
 
@@ -371,7 +371,12 @@ Conozca pgAdmin III
 Puede usar el cliente gráfico de bases de datos ``pgAdmin III`` para consultar y modificar sus bases 
 de datos no espaciales. Este es el cliente oficial de PostgreSQL, y permite que use el lenguaje SQL para manipular sus tablas de datos. 
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
+
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
