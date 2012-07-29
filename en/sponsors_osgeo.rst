@@ -1,38 +1,34 @@
-La fondation OSGeo
+The OSGeo Foundation
 ================================================================================
 
-La `Fondation Open Source Geospatiale (OSGeo) <http://osgeo.org>`_, est une 
-association loi 1901 (mais de type américaine) dont la mission est d'aider et 
-de promouvoir le développement collaboratif des données et des technologies 
-géospatiales ouvertes.
-La fondation fournit une aide financière, organisationnelle et légale à la 
-communauté géospatiale libre la plus large. Elle sert également d'entité légale
-indépendante où les membres de la communauté peuvent contribuer au code, aux 
-finances et aux autres ressources, et sont assurés que leurs contributions 
-seront maintenues au bénéfice du public. OSGeo sert également d'organisation, 
-d'assistance et de défense pour la communauté géospatiale libre, et fournit un
-forum commun et une infrastructure partagée pour améliorer la collaboration
-entre projets.
+The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_,
+is a not-for-profit organization whose mission is to support and promote
+the collaborative development of open geospatial technologies and data.
+The foundation provides financial, organizational and legal support to
+the broader open source geospatial community. It serves as an independent
+legal entity to which community members can contribute code, funding and
+other resources, secure in the knowledge that their contributions will be
+maintained for public benefit. OSGeo also serves as an outreach and
+advocacy organization for the open source geospatial community, and
+provides a common forum and shared infrastructure for improving
+cross-project collaboration.
 
-Les projets de la fondation sont tous librement disponibles et utilisables sous 
-une `licence opensource certifiée par l'OSI. <http://www.opensource.org/licenses/>`_
+The foundation's projects are all freely available and useable under an
+ `OSI-certified open source license. <http://www.opensource.org/licenses/>`_
 
-Ce disque et cette machine virtuelle Live GIS  ont été assemblés par les membres 
-de la communauté OSGeo pour montrer des cas d'utilisations de leurs logiciels
-géospatiaux libres et opensource (Free and Open Source Software ou FOSS).
-Nous avons inclus un nombre important de logiciels non-OSGeo, orientés SIG et 
-par ailleurs, que nous espérons que vous trouverez aussi utiles que nous même.
-La fondation OSGeo ne recommande ou ne garantit aucun des logiciels, projets 
-ou sociétés associées à ces projets.
-
-Pour des raisons légales, nous vous rappelons ceci (en anglais):
+This Live GIS disc and virtual-machine has been put together by members
+of the OSGeo community to showcase their favourite Free and Open Source
+(FOSS) geospatial software. We've included a number of non-OSGeo software
+packages, GIS focused and otherwise, which we hope you will find to be as
+useful as we do. The OSGeo Foundation does not recommend or guarantee any
+associated software, projects, or companies found within.
 
 `These programs are distributed in the hope that they will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
 
 
-Sponsors supportant OSGeo
+OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
 
 .. image:: ../images/logos/ordnance-survey_logo.png
@@ -40,7 +36,7 @@ Sponsors supportant OSGeo
   :target: http://www.ordnancesurvey.co.uk
 
 
-Sponsors associés OSGeo
+OSGeo Associate Sponsors
 --------------------------------------------------------------------------------
 
 .. image:: ../images/logos/geocat_logo.png
@@ -94,11 +90,11 @@ Sponsors associés OSGeo
   :align: center
   :target: http://www.metaspatial.net/
 
-Pour plus d'informations
+For more information
 --------------------------------------------------------------------------------
 
-Pour sponsoriser l'OSGeo ou discuter d'opportunités de parrainage de manière
-plus approfondie, merci de contacter :
+To sponsor OSGeo or discuss sponsorship opportunities further,
+please contact:
 
 .. include :: ../osgeo_contact.rst
 

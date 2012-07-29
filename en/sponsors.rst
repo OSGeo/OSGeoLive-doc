@@ -1,52 +1,52 @@
-Sponsors de OSGeo-Live
+OSGeo-Live Sponsors
 ================================================================================
 
 .. image:: ../images/logos/OSGeo_compass_with_text_square.png
   :alt: OSGeo
   :target: http://www.osgeo.org
 
-La fondation OSGeo 'Open Source Geospatial) fournit l'infrastructure principale
-d'hébergement et de développement ainsi que du personnel pour le projet mais aussi
-pour beaucoup d'équipes de développement qui contribue à celui-ci.
+The Open Source Geospatial Foundation (OSGeo) provides the primary
+development & hosting infrastructure and personnel for the project,
+and for many of the software teams which contribute to it.
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :alt: LISAsoft
   :target: http://lisasoft.com
 
-LISAsoft fournit des ressources et du personnel pour gérer et packager les
-logiciels pour créer le DVD OSGeo-Live.
+LISAsoft provides sustaining resources and staff toward the management
+and packaging of software onto the OSGeo-Live DVD.
 
 .. image:: ../images/logos/ucd_ice_logo.png
-  :alt: Centre d'Informations pour l'Environnement de l'Université de Californie, Davis
+  :alt: Information Center for the Environment at the University of California, Davis
   :target: http://ice.ucdavis.edu
 
-Centre d'Informations pour l'Environnement de l'Université de Californie,
-Davis fournit des ressources matérielles et du support de développement pour le projet
-OSGeo-Live.
+Information Center for the Environment at the University of California,
+Davis provides hardware resources and development support to the
+OSGeo-Live project.
 
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %
-  :alt: Les projets DebianGIS et UbuntuGIS
+  :alt: The DebianGIS and UbuntuGIS projects
   :target: http://wiki.debian.org/DebianGis
 
-Les projets DebianGIS et UbuntuGIS fournissent et vérifient la qualité de nombreux 
-paquets principaux.
+The DebianGIS and UbuntuGIS projects provide and quality-assure many of
+the core packages.
 
 .. image:: ../images/logos/OSDM_stacked.png
-  :alt: Le bureau du gouvernement australien de gestion des données spatiales
+  :alt: The Australian Government's Office of Spatial Data Management
   :target: http://www.osdm.gov.au
 
-Le bureau du gouvernement australien de gestion des données spatiales a sponsorisé
-la relecture par LISAsoft des vues d'ensemble logicielles, pour assurer une écriture
-plus consistante et pertinente de la description des projets.
+The Australian Government's Office of Spatial Data Management sponsored
+LISAsoft's review of Application Overviews, to achieve consistent,
+quality project write ups.
 
 .. include :: sponsors_osgeo.rst
 
-Contributeurs
+Contributors
 ================================================================================
 .. include :: ../contributors.rst
 
-Traducteurs
+Translators
 ================================================================================
 .. include :: ../translators.rst
 
