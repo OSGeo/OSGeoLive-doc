@@ -23,7 +23,7 @@ Votre ordinateur doit avoir au moins:
  * |osgeo-live-hdspace| si vous souhaitez installer le sytème d'exploitation. 
 
 * Souris: un modèle à 3 boutons est utile, particulèrement pour les utilisateurs
-de trackpad Mac. 
+  de trackpad Mac.
 
 Lancement:
 --------------------------------------------------------------------------------
