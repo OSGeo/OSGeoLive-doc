@@ -269,8 +269,8 @@ A continuación verá cómo generar un mapa con Quantum GIS.
 Inicie Quantum GIS y elija ``Añadir capa PostGIS`` del menú Capa. Como no ha usado PostGIS desde QGIS
 antes, obtendrá un lista vacía de conexiones PostGIS.
 
-.. image:: ../../images/screenshots/1024x768/postgis_add.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+  :scale: 50 %
   :alt: Add a PostGIS layer
   :align: center
 

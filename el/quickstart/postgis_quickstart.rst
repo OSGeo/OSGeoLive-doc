@@ -222,8 +222,8 @@ Mapping
 
 Ξεκινήστε το Quantum GIS και επιλέξτε ``Add PostGIS layer``από τη λίστα των επιπέδων. Επειδή δεν έχετε αποκτήσει πρόσβαση στις πληροφορίες της PostGIS από το QGIS παλαιότερα, δεν θα δείτε καμιά παλαιότερη σύνδεση με την PostGIS.
 
-.. image:: ../../images/screenshots/1024x768/postgis_add.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+  :scale: 50 %
   :alt: Προσθήκη επιπέδου PostGIS 
   :align: center
 
