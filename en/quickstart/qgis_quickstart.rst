@@ -78,7 +78,7 @@ Connect to a PostGIS spatial database
 
 #. Select ``planet_osm_roads`` and click :guilabel:`Add`.
 
-   * See the :doc:`PostGIS Quickstart <postgis_quickstart#Mapping>` for a more detailed exercise.
+   * See the :doc:`PostGIS Quickstart <postgis_quickstart>` for a more detailed exercise.
 
 Using the GRASS Toolbox
 ================================================================================
