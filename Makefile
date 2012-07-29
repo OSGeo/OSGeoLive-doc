@@ -9,7 +9,7 @@ BUILDDIR      = _build
 TMP	      = /tmp/osgeolive_make
 #TRANSLATIONS  = ca de el es it fr ja ro pl zh
 # Note : the it folder has been added to exclude_patterns in conf.py !!
-TRANSLATIONS  =  ca de el es       ja    pl zh
+TRANSLATIONS  =  ca de el es it fr ja    pl zh
 LANGUAGES     = en $(TRANSLATIONS)
 START_DIR     = $(shell pwd)
 
