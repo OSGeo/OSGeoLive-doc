@@ -5,7 +5,7 @@ Sponsors de OSGeo-Live
   :alt: OSGeo
   :target: http://www.osgeo.org
 
-La fondation OSGeo 'Open Source Geospatial) fournit l'infrastructure principale
+La fondation OSGeo (Open Source Geospatial) fournit l'infrastructure principale
 d'hébergement et de développement ainsi que du personnel pour le projet mais aussi
 pour beaucoup d'équipes de développement qui contribue à celui-ci.
 
