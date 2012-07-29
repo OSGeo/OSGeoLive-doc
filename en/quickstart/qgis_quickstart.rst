@@ -78,6 +78,7 @@ Connect to a PostGIS spatial database
 
 #. Select ``planet_osm_roads`` and click :guilabel:`Add`.
 
+   * See the :doc:`PostGIS Quickstart <postgis_quickstart#Mapping>` for a more detailed exercise.
 
 Using the GRASS Toolbox
 ================================================================================
@@ -115,6 +116,8 @@ You also have access to many of the powerful GRASS analysis modules.
 .. maybe describe a raster processing task instead of a NVIZ one?
 
 #. Choose :menuselection:`Plugins --> GRASS --> Open GRASS tools`.
+
+   * A long list of analysis tools will appear.
 
 #. Type ``nviz`` into the Filter box then select `NVIZ`.
 
