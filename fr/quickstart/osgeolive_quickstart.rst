@@ -1,1 +1,0 @@
-../../en/quickstart/osgeolive_quickstart.rst

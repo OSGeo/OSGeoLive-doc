@@ -1,1 +1,0 @@
-../en/sponsors_osgeo.rst
