@@ -161,7 +161,7 @@ Se puede cortar una imagen en dos con `-srcwin` que hace una copia a partir de l
 
     gdalinfo -mm HYP_50M_SR_W.tif 
     gdal_translate -srcwin 0 0 5400 5400 HYP_50M_SR_W.tif  west.tif
-    gdal_translate -srcwin 0 2700 5400 5400 HYP_50M_SR_W.tif  east.tif
+    gdal_translate -srcwin 5400 0 5400 5400 HYP_50M_SR_W.tif  east.tif
    
 
 Formato _raster_ de teselas con gdaltindex
