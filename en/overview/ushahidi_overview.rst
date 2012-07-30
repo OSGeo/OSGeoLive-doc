@@ -55,6 +55,8 @@ Core Features
 * Themes.
 * Scheduler.
 * Cache.
+* Video upload support.
+* Supports Badges for awarding users of the Ushahidi platform.
 
 Demo
 --------------------------------------------------------------------------------

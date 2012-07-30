@@ -44,7 +44,7 @@ Getting Ushahidi Up and Running
    system as root.
 
    **"mysql -uroot -p"** -- This should prompt you for mysql server's root 
-   password. Enter the root password.
+   password. Enter the root password if there is one otherwise hit the enter key
    
    Then enter the command below to create a new user.
    **"CREATE DATABASE ushahidi;"** -- This should create a database called ushahidi
