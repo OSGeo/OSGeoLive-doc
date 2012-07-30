@@ -5,7 +5,7 @@
 
 .. image:: ../../images/project_logos/logo-osm.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://www.osm.org/
 
