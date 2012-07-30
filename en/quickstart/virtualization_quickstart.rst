@@ -8,11 +8,10 @@
 OSGeo-Live Quickstart for Running in a Virtual Machine
 ********************************************************************************
 
-The OSGeo-Live system can be run within a Virtual Machine.
+This Quick Start describes one way to run OSGeo-Live within a VirtualBox virtual machine. For other methods, follow links from the "See Also" section below.
 
-Advantages
+Virtual Machine Advantages
 --------------------------------------------------------------------------------
-Running OSGeo Live as a virtual machine, rather than from a DVD means:
 
 * Response speed of a VM is much faster than on the DVD, and typically comparable with installing directly on the host machine.
 
@@ -22,25 +21,23 @@ Running OSGeo Live as a virtual machine, rather than from a DVD means:
  * You can save your work within the VM
  * You can install additional software
  
-* By copying the whole vmdk (virtual machine disk file) to some backup media, you have a full system backup including all software, configurations, and data files. Maintaining a "snapshot" on remote media like this insures quick recovery of your full system in case of hardware failure.
+* You can backup your virtual machine installation.
 
 System Requirements
 --------------------------------------------------------------------------------
 
 * RAM: 2 GB at least. The Xubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for your host system. So a total of 2 GB will be needed for smooth operation.
 * Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And you'll want more space to allow some room to work on the virtual machine. So 20 GB is a good recommendation.
-* CPU: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. You can check your computer CPU `here <http://www.intel.com/support/processors/sb/cs-030729.htm>`_  
+* CPU: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. You can check your computer CPU `here <http://www.intel.com/support/processors/sb/cs-030729.htm>`_.
 
 Most machines produced in the last 4-5 years will meet these requirements.
 
 Howto
 --------------------------------------------------------------------------------
-Here are the steps for setting up an OSGeo-Live system as a virtual machine on your computer.
-
 
 **Downloads**
 
-First download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and install the software. On windows run the installer, or on linux do the following:
+Download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and install the software. On windows run the installer, or on linux do the following:
 
   ``apt-get install virtualbox-ose``
 
