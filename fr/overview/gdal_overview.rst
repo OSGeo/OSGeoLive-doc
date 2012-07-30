@@ -5,13 +5,13 @@
 
 .. image:: ../../images/project_logos/logo-GDAL.png
   :scale: 60 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://gdal.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Projet OSGeo
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -44,7 +44,7 @@ Fonctionnalités principales
 --------------------------------------------------------------------------------
 
 * Utilitaires en ligne de commande pour la transformation de données, la déformation d'images, leur extraction et de nombreuses autres tâches courantes
-* Access aux données raster très performant, prenant avantage du tuilage et de prévisualisations
+* Accès aux données raster très performant, prenant avantage du tuilage et de mécanisme de prévisualisation
 * Support pour les fichiers de grande taille - supérieurs à 4GB
 * Bibliothèque d'accès à partir de Python, Java, C#, Ruby, VB6 et Perl
 * Moteur de gestion des systèmes de coordonnées s'appuyant sur PROJ.4 et les descriptions de coordonnées système OGC Well Known Text (WKT)

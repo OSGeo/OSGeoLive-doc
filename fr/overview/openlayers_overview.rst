@@ -7,13 +7,13 @@
 
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
   :scale: 50 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://openlayers.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Projet OSGeo
   :align: right
   :target: http://www.osgeo.org
 
