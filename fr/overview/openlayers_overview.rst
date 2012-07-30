@@ -36,7 +36,7 @@ similaire à l'API Google Maps API. Toutes les fonctionnalités fonctionnent dan
 le navigateur web, ce qui rend OpenLayers facile à installer, sans aucune 
 dépendances côté serveur.
 
-Fonctionnalités principales
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 * API Javascript simple à utiliser, conçue pour rendre le développement facile

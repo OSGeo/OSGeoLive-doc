@@ -40,7 +40,7 @@ OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide et ArcGIS.
   :alt: GDAL supporte de nombreux formats de données géographiques
   :align: right
 
-Fonctionnalités principales
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 * Utilitaires en ligne de commande pour la transformation de données, la déformation d'images, leur extraction et de nombreuses autres tâches courantes

@@ -28,7 +28,7 @@ GeoNetwork OpenSource est une application de cataloguage pour gérer les sources
   :alt: Logo du projet
   :align: right
 
-Fonctionnalités principales
+Caractéristiques principales
 --------------------------------------------------------------------------------
 * Accès à la recherche immédiate sur des catalogues de données géospatiaux locaux comme distants
 * Upload et téléchargement de données, graphiques, documents, fichiers pdf et n'importe quel autre type de contenu
