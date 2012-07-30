@@ -38,15 +38,95 @@ Most machines produced in the last 4-5 years will meet these requirements.
 
 Howto
 --------------------------------------------------------------------------------
-These detailed documents explain how to install OSGeo Live as a virtual machine
- * From the ISO image: :doc:`virtualbox_quickstart`
- * From the vmdk file: :doc:`vmdk_quickstart`
-and these wiki pages have some additional information:
- * `Creating a fresh virtual machine <http://wiki.osgeo.org/wiki/Live_GIS_Build#Creating_a_fresh_Virtual_Machine>`_
- * `Selecting a virtual machine <http://wiki.osgeo.org/wiki/Live_GIS_Build#Selecting_a_Virtual_Machine>`_
+Here are the steps for setting up an OSGeo-Live system as a virtual machine on your computer.
+
+
+**Downloads**
+
+First download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and install the software. On windows run the installer, or on linux do the following:
+
+  ``apt-get install virtualbox-ose``
+
+In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org <http://live.osgeo.org/en/download.html>`_
+. Click on the "Download virtual machine" button. Then unzip the downloaded file (using `7zip <http://www.7-zip.org>`_ ).
+
+
+**Create a Virtual Machine**
+
+Start the VirtualBox application and click on the New button to create a new VM, and then Next.
+
+  .. image:: ../../images/screenshots/800x600/virtualbox.png
+         :scale: 50 %
+
+Enter a name such as OSGeo-Live, and choose Linux as the "Operating system", and Ubuntu as the "Version".
+
+  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
+         :scale: 70 %
+
+In the next screen set the memory to 1024 MB (or more if your host computer has more than 4GB).
+
+  .. image:: ../../images/screenshots/800x600/vmdk_memory.jpg
+              :scale: 65 %
+
+Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the osgeo-live-vm-6.0.vmdk file. Select this file, press Next and Create.
+
+  .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
+                   :scale: 65 %
+
+Once the VM is created, click on the Settings button. In the "General" section, go to the Advanced tab, and click to select "Show at top of screen" for the Mini toolbar.
+
+  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.jpg
+                   :scale: 65 %
+
+Go to the "Display" section and increase video memory to 32 or 64 MB.
+
+  .. image:: ../../images/screenshots/800x600/vmdk_display.jpg
+                   :scale: 65 %
+
+In addition, move to the "Shared Folders" section, and click the "Add folder" (green + icon on the right) to find a directory on your host computer that you wish to share inside the VM.
+
+ .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.jpg
+                      :scale: 65 %
+
+Once the "Folder path" and "Folder name" are defined, click OK, and again OK to finish and close the settings window.
+
+
+**Running the Virtual Machine**
+
+Now bootup the VM by clicking the Start (green arrow) button.
+
+Once the OSGeo system comes up, you should add the VirtualBox "Guest Additions" to improve video performance, and enable the shared folders option that was defined above. The guest addition installations are supplied as an ISO file togther with VirtualBox application. This ISO is mounted within the VM as a CD, and the installation is run from there. Here's how it's done:
+
+In the VirtualBox window, open the :menuselection:`Devices` menu and click :menuselection:`Install Guest Additions`. This will mount the Guest Additions as a CD drive in your OSGeo Live VM.
+
+  .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.jpg
+                        :scale: 80 %
+
+Once the CD folder appears, open a terminal and run the following commands:
+
+``user@osgeolive:~$ sudo apt-get install linux-headers-`uname -r```
+
+``user@osgeolive:~$ cd /media/VBOXADDITIONS_4.1.18_78361/``
+
+``user@osgeolive:/media/VBOXADDITIONS_4.1.18_78361$ sudo ./VBoxLinuxAdditions.run``
+
+This will complete after a few moments. Reboot your VM, and you will now be able to run in full screen mode, and mount your shared folders. In the above example, we defined a Shared Folder path on the host system and named it "GIS" in the VM Settings. To mount it within the VM, open a terminal window and run:
+
+``user@osgeolive:~$ mkdir GIS``
+
+``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``
+
+Now files on your host machine in the chosen folder will also be available in the VM in the "GIS" folder in user's home directory.
+
+
 
 See Also:
 --------------------------------------------------------------------------------
+ * OSGeo wiki pages: 
+        `Creating a fresh virtual machine <http://wiki.osgeo.org/wiki/Live_GIS_Build#Creating_a_fresh_Virtual_Machine>`_
+
+        `Selecting a virtual machine <http://wiki.osgeo.org/wiki/Live_GIS_Build#Selecting_a_Virtual_Machine>`_
+
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
