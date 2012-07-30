@@ -61,11 +61,11 @@ Détails
 
 **Site web:** http://openlayers.org
 
-**License:** 2-clause BSD License (donc licence FreeBSD) 
+**License:** licence BSD 2-clauses (donc licence FreeBSD) 
 
-**Software Version:** 2.12
+**Version du logiciel:** 2.12
 
-**API Interface:** JavaScript
+**Interface de l'API:** JavaScript
 
 **Support:** https://github.com/openlayers/openlayers 
 
