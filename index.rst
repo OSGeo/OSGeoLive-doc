@@ -10,6 +10,8 @@
    el/index
    en/index
    es/index
+   fr/index
+   it/index
    ja/index
    pl/index
    zh/index
