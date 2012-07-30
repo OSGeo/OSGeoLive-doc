@@ -23,8 +23,8 @@ Running
   :alt: screenshot
   :align: center
 
-*	Firefox will open the 52nWPS-TestClient. 
-*	Make sure that you have started :doc:`Geoserver <../quickstart/geoserver_quickstart>` since some of the demonstrations require data from the local Geoserver installation.
+*	Click on the link to open the 52nWPS-TestClient. 
+*	Make sure that you have started :doc:`Geoserver <../quickstart/geoserver_quickstart>` since the demonstrations require data from the local Geoserver installation.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
