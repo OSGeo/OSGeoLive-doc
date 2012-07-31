@@ -25,7 +25,7 @@ Geospatial Data Abstraction Library (GDAL/OGR) fournit des utilitaires en ligne
 de commandes pour transformer et traiter un large éventail de formats de données 
 géospatiales raster et vecteur.
 
-Les utilitaires sont vasées sur une bibliothèque en C++, multi-plateformes, accessible
+Les utilitaires sont vasées sur une bibliothèque en C++, multiplates-formes, accessible
 par de nombreux languages de programmation.  Comme bibliothèque, elle s'appuie sur 
 un seul modèle de données pour les applications qui se connectent dessus pour tous 
 les formats supportés.

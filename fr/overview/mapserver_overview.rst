@@ -24,7 +24,7 @@ Service Web
 
 MapServer est un moteur de rendu de cdonnées cartographiques `Opensource <http://www.opensource.org>`_ écrit en C. Au delà de la possibilité d'explorer des données SIG, MapServer vous permet de créer des "image maps" géographiques, qui sont des cartes permettant de diriger des utilisateurs vers du contenu web. Par exemple, `le compas pour les loisirs <http://www.dnr.state.mn.us/maps/compass.html>`_ du département des ressources naturelles du Minnesota fournit aux utilisateurs plus de 10 000 pages web, rapports et cartes via une seule application. La même aplication sert aussi de "moteur de carte" pour d'autres parties du site, fournissant un contexte spatial là où c'est nécessaire.
 
-MapServer a été originellement développé par le projet ForNet de l’Université du Minnesita (UMN) en coopération avec la NASA et le département du Minnesota des Ressources Naturels (MNDNR). Plus tard il a été hébergé par le projet TerraSIP, un projet sponsorisé par la NASA entre l'UMN et un consortium d’organismes de gestion des sols.
+MapServer a été originellement développé par le projet ForNet de l’Université du Minnesota (UMN) en coopération avec la NASA et le département du Minnesota des Ressources Naturels (MNDNR). Plus tard il a été hébergé par le projet TerraSIP, un projet sponsorisé par la NASA entre l'UMN et un consortium d’organismes de gestion des sols.
 
 MapServer est maintenant un projet de l\'`OSGeo <http://www.osgeo.org>`_, et maintenu par un nombre croissant de développeurs (proche de 20) tout autour du monde. Il est soutenu par un groupe d’organisations diverses qui financent les améliorations et la maintenance, et est administré au sein de l’OSGeo par le Comité de Gouvernance de Projet composé de développeurs et d’autres contributeurs.
 
@@ -58,7 +58,7 @@ Caractéristiques principales
   * CGI/FastCGI
   * PHP, Python, Perl, Ruby, Java, et .NET
 
-* Support multi-plateformes
+* Support multiplates-formes
 
   * Linux, Windows, Mac OS X, Solaris, et plus
 

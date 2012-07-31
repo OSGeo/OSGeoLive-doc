@@ -91,7 +91,7 @@ Détails
 
 **Version du logiciel:** 2.1.3
 
-**Plateformes supportées:** Toutes les plateformes utilisant Java 1.5 et plus: - Windows, Linux, Mac
+**Plateformes supportées:** Toutes les plates-formes utilisant Java 1.5 et plus: - Windows, Linux, Mac
 
 **Interfaces de l'API:** WMS, WFS, WCS, REST
 
