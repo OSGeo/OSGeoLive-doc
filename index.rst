@@ -13,6 +13,7 @@
    fr/index
    it/index
    ja/index
+   ko/index
    pl/index
    zh/index
    contributors
