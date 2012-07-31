@@ -38,13 +38,13 @@ Caractéristiques principales
 
 * Sorties cartographiques avancées
 
-  * Scale dependent feature drawing and application execution
-  * Feature labeling including label collision mediation
-  * TrueType font support for labeling and symbolization
-  * Map element automation (scalebar, reference map, and legend)
-  * Thematic mapping using logical or regular expression-based classes
-  * Plugable renderer support with drivers for AGG, Cairo, GD and OpenGL and others
-  * Special provisioning for tiled output generation
+  * Éxécution de l’application et du dessin des objets fonction de l’échelle
+  * Étiquetage des géométries incluant la médiation des collisions des étiquettes
+  * Support des polices TrueType pour les étiquettes et les symboles
+  * Automatisation d’éléments de cartes (barre d’échelle, carte de référence et légende)
+  * Cartographie thématique en utilisant des classes basées sur des logiques ou des expressions régulières
+  * Support de moteur de rendu différents avec des pilotes pour AGG, Cairo, GD, OpenGL et d'autres
+  * Gestion spéciale pour générer des sorties tuilées
 
 * Support de requêtes spatiales sophistiquées
 
