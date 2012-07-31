@@ -15,7 +15,7 @@ Requirements
 --------------------------------------------------------------------------------
 
 * A 8 GB USB flash drive is recommended.
-* An OSGeo-Live DVD or ISO image (downloaded from: http://live.osgeo.org/en/download.html)
+* An OSGeo-Live ISO image (downloaded from: http://live.osgeo.org/en/download.html) or converted from a DVD.
 
  * For a 4 GB USB flash drive, use osgeo-live-mini ISO (without Windows and Mac installers)
  * For a 8 GB USB flash drive, use either osgeo-live-mini ISO, osgeo-live ISO, or an osgeo-live DVD (with Windows and Mac installers)
@@ -29,7 +29,10 @@ Creating bootable USB drive from Ubuntu
 .. note::
    The version of Ubuntu you are running, needs to be the same or newer than the version of Xubuntu being installed onto your USB.  If installing OSGeo-Live 5.0/5.5 onto a USB, then you will need to be running Ubuntu 11.04 or newer.
 
-Download osgeo-live or osgeo-live-mini to your computer's hard drive.
+Download osgeo-live or osgeo-live-mini to your computer's hard drive. 
+
+.. note::
+   If you are not running linux, burn a copy of the ISO file to a DVD and boot your computer from it as seen in :doc:`osgeolive_quickstart` 
 
 Insert the USB flash drive into your computer.
 
@@ -61,7 +64,7 @@ Booting from the usb drive:
 #. Power on the Machine and select to boot from USB:
 
    * Most computers are not set to boot from a USB drive by default.
-   * When booting look for a message indicting a Boot Meun (most commonly F12)
+   * When booting look for a message indicting a Boot Menu (most commonly F12)
    * If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
 
 #. Select to boot from the USB device.
