@@ -21,7 +21,7 @@
 OpenLayers
 ================================================================================
 
-Browser GIS Client
+Client GIS per browser internet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
