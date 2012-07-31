@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
-:Author: Cameron Shorter
-:Version: osgeo-live5.5
+:Author: Cameron Shorter, Alex Mandel
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
