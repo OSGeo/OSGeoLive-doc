@@ -3,6 +3,6 @@
 
 Presentazione
 ================================================================================
-È disponibile una presentazione di 30 minuti che evidenza tutti i software di OSGeo-Live con le slides lo script.
+È disponibile una presentazione di 30 minuti che evidenza tutti i software di OSGeo-Live con le slides e lo script per crearle.
 
 Dettagli all'indirizzo: https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/
