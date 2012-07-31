@@ -76,7 +76,7 @@ Détails
 
 * osm2pgsql: 0.69 (svn r22215)
 
-**Plateformes supportées:** GNU/Linux, Mac OSX, MS Windows
+**Plates-formes supportées:** GNU/Linux, Mac OSX, MS Windows
 
 **Interfaces de l'API (données):** REST (via Xapi), XML
 

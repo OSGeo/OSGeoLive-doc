@@ -65,7 +65,7 @@ Détails
 
 **Version du logiciel:** 2.6.4
 
-**Plateformes supportées:** Windows, Linux, Mac
+**Plates-formes supportées:** Windows, Linux, Mac
 
 **Interface de l'API:** Java
 

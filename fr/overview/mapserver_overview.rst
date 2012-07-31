@@ -97,9 +97,9 @@ Détails
 
 **Version du logiciel:** 6.0.3
 
-**Plateformes supportées:** Windows, Linux, Mac
+**Plates-formes supportées:** Windows, Linux, Mac
 
-**Interfaces API:** C, PHP, Python, Perl, Ruby, Java, and .NET
+**Interfaces de l'API:** C, PHP, Python, Perl, Ruby, Java, and .NET
 
 **Support:** http://mapserver.org/community/
 

@@ -73,7 +73,7 @@ Détails
 
 **Version du logiciel:** 1.7.0 (1.9.1)
 
-**Plateformes supportées:** Windows, Linux, Mac
+**Plates-formes supportées:** Windows, Linux, Mac
 
 *Interfaces de l'API:** C, C++, Python, Java, C#, Ruby, VB6 et Perl
 

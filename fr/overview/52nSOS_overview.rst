@@ -82,7 +82,7 @@ Détails
 
 **Version du logiciel:** SOS 3.5.0
 
-**Plateformes supportées:** Windows, Linux, Mac
+**Plates-formes supportées:** Windows, Linux, Mac
 
 **Interface de l'API:** Java
 
