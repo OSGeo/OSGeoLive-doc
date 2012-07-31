@@ -42,7 +42,7 @@ Core Features
 
 Implemented Standards
 --------------------------------------------------------------------------------
-* WFS 1.0 and WFS 1.1: Basic and Transitional profiles
+* WFS 1.0 and WFS 1.1: Basic and Transactionnal profiles
 * FE 1.0.0 and FE 1.1.0
 * GML 2.1.2 and 3.1.1 Simple Profile (SF-0)
 
