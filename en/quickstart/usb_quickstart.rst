@@ -14,9 +14,12 @@ We have have found that there are a number of quirks and tricks involved in succ
 Requirements
 --------------------------------------------------------------------------------
 
-* A 4 GB USB flash drive, if using osgeo-live-mini (without Windows and Mac installers)
-* A 8 GB USB flash drive, if using osgeo-live (with Windows and Mac installers)
+* A 8 GB USB flash drive is recommended.
 * An OSGeo-Live DVD or ISO image (downloaded from: http://live.osgeo.org/en/download.html)
+
+ * For a 4 GB USB flash drive, use osgeo-live-mini ISO (without Windows and Mac installers)
+ * For a 8 GB USB flash drive, use either osgeo-live-mini ISO, osgeo-live ISO, or an osgeo-live DVD (with Windows and Mac installers)
+
 
 Creating bootable USB drive from Ubuntu
 --------------------------------------------------------------------------------
@@ -49,70 +52,40 @@ Select :guilabel:`Make Startup Disk`
 
 Wait 20 minutes or so for the USB flash drive to be created.
 
-Creating bootable USB flash drive from Windows
+
+Booting from the usb drive:
 --------------------------------------------------------------------------------
 
-Insert the USB drive into your computer.
+#. Start with the computer off.
+#. Insert the usb drive into an open usb port.
+#. Power on the Machine and select to boot from USB:
 
-Download and run the Universal USB Installer from: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+   * Most computers are not set to boot from a USB drive by default.
+   * When booting look for a message indicting a Boot Meun (most commonly F12)
+   * If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+#. Select to boot from the USB device.
 
-Accept the licence terms.
+   * Note, that for some computers you will need to have the USB drive inserted into the computer in order to select it.
+   * Note also, the USB drive is often listed under hard drives rather than removable devices. 
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
-
-Step 1: Distribution: Select the xubuntu i386 distribution used for the osgeo-live image. (for OSGeo-Live 5.5, select xubuntu 11.04 Desktop i386)
-
-Step 2: Select the latest osgeo-live iso which you should have downloaded locally. Note: You will need to manually enter the path to the ISO file, as the :guilabel:`Browse` button only finds xubuntu iso files.
-
-Step 3: Select your USB flash drive
-
-Step 4: Select Persistence if you wish to remember state between sessions.
-
-Select :guilabel:`Create`
-
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
-
-Wait 20 minutes or so for the OSGeo-Live USB flash drive to be created.
-
-Creating bootable USB drive in different operating systems
---------------------------------------------------------------------------------
-
-Step 1: Install UNetbootin (downloaded from: http://unetbootin.sourceforge.net/).
-
-Step 2: Insert the USB flash drive into your computer.
-
-Step 3: Start UNetbootin, select Diskimage (the usb flash drive is selectet automatically).
-
-Step 4: Select OSGeoLive iso file.
-
-Select :guilabel:`OK`
-
-  .. image:: ../../images/screenshots/1024x768/unetbootin_live_osgeo.png
-
-Set BIOS boot order:
---------------------------------------------------------------------------------
-
-Most computers are not set to boot from a USB drive by default.
-
-To achieve this, boot your computer, and hit the appropriate key when prompted to go into the BIOS (usually by pressing the <Delete> key or a <Function Key> or similar).
-
-Select to boot from the USB device.
-
-Note, that for some computers you will need to have the USB drive inserted into the computer in order to select it.
-
-Note also, the USB drive is often listed under hard drives rather than removable devices. 
+`Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrating booting from usb.
 
 Run:
 --------------------------------------------------------------------------------
 
 Run as per: :doc:`osgeolive_quickstart`
 
+Creating bootable USB drive in different operating systems
+--------------------------------------------------------------------------------
+
+* Additional USB creation options, see http://pendrivelinux.com
+* OR see http://unetbootin.sourceforge.net/
+
 Known issues:
 --------------------------------------------------------------------------------
 
-* Mac computers will not boot from this USB flash drive, please use the LiveDVD 
+* Mac computers do not boot from this USB flash drive, please use the LiveDVD or check the `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_ for more up to date information. 
 
 See Also:
 --------------------------------------------------------------------------------
@@ -121,4 +94,4 @@ See Also:
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * If you have issues, please report them on this wiki page: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB and discuss on our email list: http://lists.osgeo.org/mailman/listinfo/live-demo
- * For further USB boot options, see http://pendrivelinux.com 
+  
