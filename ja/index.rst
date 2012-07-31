@@ -53,5 +53,8 @@ OSGeo-Liveは様々な地理空間関連の保管、配布、表示、分析、�
 プレゼンテーション
 --------------------------------------------------------------------------------
 
-全てのOSGeoLiveアプリケーションをカバーした25分間の短いプレゼンテーションが、 `Video <http://cameronshorter.blip.tv/file/4078371/>`_ と `Slides and Script <https://svn.osgeo.org/osgeo/livedvd/promo/en/presentations/OSGeoLive4_0Taster/>`_ から閲覧できます。
+全てのOSGeoLiveアプリケーションを取り上げた30分間のプレゼンテーションがビデオとして閲覧できます。加えて、基になったスライドや原稿が利用可能です。
+
+詳細はこちら :doc:`presentation`.
+
 
