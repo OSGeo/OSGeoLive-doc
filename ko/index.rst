@@ -30,11 +30,11 @@ Quick Starts
 .. toctree::
    :maxdepth: 1
 
-   Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart>
-   Change language or keyboard type <quickstart/internationalisation_quickstart>
-   Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart>
-   Run OSGeo-Live in a Virtual Machine <quickstart/virtualization_quickstart>
-   Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>
+   OSGeo-Live DVD로 시작하기 <quickstart/osgeolive_quickstart>
+   언어와 키보드 형식 변경 <quickstart/internationalisation_quickstart>
+   하드디스크에 OSGeo-Live 설치 <quickstart/osgeolive_install_quickstart>
+   버츄얼 머신에 OSGeo-Live 실행 <quickstart/virtualization_quickstart>
+   OSGeo-Live의 부팅을 위한 USB 드라이브 <quickstart/usb_quickstart>
 
 .. toctree::
    :maxdepth: 1
@@ -57,4 +57,4 @@ Presentation
 --------------------------------------------------------------------------------
 모든 OSGeo-Live 이용을 아우르는 30분의 발표내용을 보시려면 다음을 참고하세요.
 
-Details at :doc:`presentation`.
+자세한 사항은 :doc:`presentation`.
