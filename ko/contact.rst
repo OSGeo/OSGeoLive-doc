@@ -1,19 +1,19 @@
 Contact Us
 ================================================================================
 
-OSGeo-Live development´Â ÀÌ¸ÞÀÏ°ú ÀÎÅÍ³Ý Ã¤ÆÃÀ» ÅëÇØ ÀÌ·ç¾îÁö°í ÀÖ½À´Ï´Ù. 
-ÀÚ¼¼ÇÑ »çÇ×Àº `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_
+OSGeo-Live developmentëŠ” ì´ë©”ì¼ê³¼ ì¸í„°ë„· ì±„íŒ…ì„ í†µí•´ ì´ë£¨ì–´ì§€ê³  ìžˆìŠµë‹ˆë‹¤. 
+ìžì„¸í•œ ì‚¬í•­ì€ `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_
 
 Community Support
 ================================================================================
 
-Áú¹®ÀÌ³ª ÀÇ°ß, ¹®Á¦ »çÇ× µîÀÌ ÀÖÀ¸½Ã¸é `ÀÌ¸ÞÀÏ ¸®½ºÆ® <http://lists.osgeo.org/mailman/listinfo/live-demo>`_¿¡ ¸Þ½ÃÁö¸¦ ³²°ÜÁÖ¼¼¿ä.
+ì§ˆë¬¸ì´ë‚˜ ì˜ê²¬, ë¬¸ì œ ì‚¬í•­ ë“±ì´ ìžˆìœ¼ì‹œë©´ `ì´ë©”ì¼ ë¦¬ìŠ¤íŠ¸ <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ì— ë©”ì‹œì§€ë¥¼ ë‚¨ê²¨ì£¼ì„¸ìš”.
 
-°Ë»öÀÌ °¡´ÉÇÑ ¸ÞÀÏ ¸®½ºÆ®¸¦ `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_¿Í `Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ÀÌ °ü¸®ÇÏ°í ÀÖ½À´Ï´Ù.
+ê²€ìƒ‰ì´ ê°€ëŠ¥í•œ ë©”ì¼ ë¦¬ìŠ¤íŠ¸ë¥¼ `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ì™€ `Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ì´ ê´€ë¦¬í•˜ê³  ìžˆìŠµë‹ˆë‹¤.
 
-ÀÎÅÍ³Ý Ã¤ÆÃ ÀÌ¿ëÀÚµéÀº ½Ç½Ã°£ÀÇ µµ¿òÀÌ ÇÊ¿äÇÒ °æ¿ì Freenode.netÀÇ #osgeolive È¤Àº #osgeo Ã¤³ÎÀ» ÀÌ¿ëÇØ º¸¼¼¿ä.
+ì¸í„°ë„· ì±„íŒ… ì´ìš©ìžë“¤ì€ ì‹¤ì‹œê°„ì˜ ë„ì›€ì´ í•„ìš”í•  ê²½ìš° Freenode.netì˜ #osgeolive í˜¹ì€ #osgeo ì±„ë„ì„ ì´ìš©í•´ ë³´ì„¸ìš”.
 
-`Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_¿¡ »ó´çÇÑ Á¤º¸¸¦ °Ë»öÇØº¸½Ã°í, `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_µµ ÀÌ¿ëÇØ º¸¼¼¿ä.
+`Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_ì— ìƒë‹¹í•œ ì •ë³´ë¥¼ ê²€ìƒ‰í•´ë³´ì‹œê³ , `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_ë„ ì´ìš©í•´ ë³´ì„¸ìš”.
 
 Commercial Support
 ================================================================================
@@ -23,12 +23,12 @@ Commercial Support
   :alt: LISAsoft
   :target: http://lisasoft.com
 
-LISAsoft´Â Live DVD °³¹ßÀ» À§ÇØ »ó¾÷ÀûÀ¸·Î Áö¿øÀ» ÇÏ¸ç, ¸¹Àº ÀÀ¿ë ÇÁ·Î±×·¥µéÀÌ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù.
-ÀÚ¼¼ÇÑ »çÇ×Àº http://lisasoft.com
+LISAsoftëŠ” Live DVD ê°œë°œì„ ìœ„í•´ ìƒì—…ì ìœ¼ë¡œ ì§€ì›ì„ í•˜ë©°, ë§Žì€ ì‘ìš© í”„ë¡œê·¸ëž¨ë“¤ì´ í¬í•¨ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.
+ìžì„¸í•œ ì‚¬í•­ì€ http://lisasoft.com
 
-´ëºÎºÐÀÇ ÇÁ·Î±×·¥Àº Ä¿¹Â´ÏÆ¼¿Í »ó¾÷ÀûÀÎ Áö¿øÀÌ ÀÌ·ç¾îÁö°í ÀÖ½À´Ï´Ù. 
-Æ¯Á¤ ÇÁ·Î±×·¥ÀÇ ÀÚ¼¼ÇÑ »çÇ×Àº :doc:`Contents <./overview/overview>` 
+ëŒ€ë¶€ë¶„ì˜ í”„ë¡œê·¸ëž¨ì€ ì»¤ë®¤ë‹ˆí‹°ì™€ ìƒì—…ì ì¸ ì§€ì›ì´ ì´ë£¨ì–´ì§€ê³  ìžˆìŠµë‹ˆë‹¤. 
+íŠ¹ì • í”„ë¡œê·¸ëž¨ì˜ ìžì„¸í•œ ì‚¬í•­ì€ :doc:`Contents <./overview/overview>` 
 
-OSGeo ÇÁ·ÎÁ§Æ®ÀÇ Áö¿øÀÌ °¡´ÉÇÑ Àü¼¼°è ÀÚ¹®È¸»çµéÀÇ Á¤º¸´Â ´ÙÀ½À» Âü°íÇÏ½Ê½Ã¿À.
+OSGeo í”„ë¡œì íŠ¸ì˜ ì§€ì›ì´ ê°€ëŠ¥í•œ ì „ì„¸ê³„ ìžë¬¸íšŒì‚¬ë“¤ì˜ ì •ë³´ëŠ” ë‹¤ìŒì„ ì°¸ê³ í•˜ì‹­ì‹œì˜¤.
 http://www.osgeo.org/search_profile
 
