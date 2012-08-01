@@ -1,10 +1,10 @@
 
-|osgeo-live-version|ÀÇ ÀÌ¿ëÀ» È¯¿µÇÕ´Ï´Ù.
+|osgeo-live-version|ì˜ ì´ìš©ì„ í™˜ì˜í•©ë‹ˆë‹¤.
 ================================================================================
 
-`OSGeo-Live <http://live.osgeo.org>`_ ´Â  `Xubuntu <http://www.xubuntu.org/>`_¿¡ ±â¹ÝÀ» µÎ¾î, 
-´Ù¾çÇÑ ¿ÀÇÂ ¼Ò½º GIS ÇÁ·Î±×·¥µéÀ» DVD³ª USB¿¡ ´ã¾Æ¼­ ¼³Ä¡ ¾øÀÌ ¹Ù·Î ½ÇÇàÇØ º¼ ¼ö ÀÖµµ·Ï ÇÏ´Â
- ÇÁ·ÎÁ§Æ®·Î, ¿ÏÀüÈ÷ ¹«·á ¼ÒÇÁÆ®¿þ¾î·Î ±¸¼ºµÇ¾î ÀÖ±â ¶§¹®¿¡ ºÐÆ÷, º¹»ç µîÀÌ ÀÚÀ¯·Ó½À´Ï´Ù. 
+`OSGeo-Live <http://live.osgeo.org>`_ ëŠ”  `Xubuntu <http://www.xubuntu.org/>`_ì— ê¸°ë°˜ì„ ë‘ì–´, 
+ë‹¤ì–‘í•œ ì˜¤í”ˆ ì†ŒìŠ¤ GIS í”„ë¡œê·¸ëž¨ë“¤ì„ DVDë‚˜ USBì— ë‹´ì•„ì„œ ì„¤ì¹˜ ì—†ì´ ë°”ë¡œ ì‹¤í–‰í•´ ë³¼ ìˆ˜ ìžˆë„ë¡ í•˜ëŠ”
+ í”„ë¡œì íŠ¸ë¡œ, ì™„ì „ížˆ ë¬´ë£Œ ì†Œí”„íŠ¸ì›¨ì–´ë¡œ êµ¬ì„±ë˜ì–´ ìžˆê¸° ë•Œë¬¸ì— ë¶„í¬, ë³µì‚¬ ë“±ì´ ìžìœ ë¡­ìŠµë‹ˆë‹¤. 
 
  
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
@@ -12,18 +12,18 @@
   :alt: boot select
   :align: right
 
-µ¥ÀÌÅÍÀÇ ÀúÀå, ÃâÆÇ, °Ë»ö, ºÐ¼® µîÀ» Æ÷ÇÔÇÑ ´Ù¾çÇÑ GIS ºÐ¼®ÀÇ È¯°æ¼³Á¤À» »çÀü¿¡ °¡´ÉÇÏ°Ô ÇÏ°í,
-°ßº»ÀÇ µ¥ÀÌÅÍ¿Í ¹®¼­ µîÀ» Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù.
+ë°ì´í„°ì˜ ì €ìž¥, ì¶œíŒ, ê²€ìƒ‰, ë¶„ì„ ë“±ì„ í¬í•¨í•œ ë‹¤ì–‘í•œ GIS ë¶„ì„ì˜ í™˜ê²½ì„¤ì •ì„ ì‚¬ì „ì— ê°€ëŠ¥í•˜ê²Œ í•˜ê³ ,
+ê²¬ë³¸ì˜ ë°ì´í„°ì™€ ë¬¸ì„œ ë“±ì„ í¬í•¨í•˜ê³  ìžˆìŠµë‹ˆë‹¤.
 
-´ÙÀ½À» µû¶ó ÀÌ¿ëÇØº¸¼¼¿ä :
+ë‹¤ìŒì„ ë”°ë¼ ì´ìš©í•´ë³´ì„¸ìš” :
 
-#. ÄÄÇ»ÅÍ³ª ¹öÃò¾ó ¸Ó½Å¿¡ DVD È¤Àº USD µå¶óÀÌºê¸¦ »ðÀÔÇÕ´Ï´Ù.
-#. ÄÄÇ»ÅÍ¸¦ ÀçºÎÆÃÇÕ´Ï´Ù.
-#. ½ÃÀÛ°ú ·Î±×ÀÎÀ» À§ÇØ¼­ "Enter" Å°¸¦ ´©¸¨´Ï´Ù.
-#. "Geospatial" ¸Þ´º¸¦ ÀÌ¿ëÇÕ´Ï´Ù.
+#. ì»´í“¨í„°ë‚˜ ë²„ì¸„ì–¼ ë¨¸ì‹ ì— DVD í˜¹ì€ USD ë“œë¼ì´ë¸Œë¥¼ ì‚½ìž…í•©ë‹ˆë‹¤.
+#. ì»´í“¨í„°ë¥¼ ìž¬ë¶€íŒ…í•©ë‹ˆë‹¤.
+#. ì‹œìž‘ê³¼ ë¡œê·¸ì¸ì„ ìœ„í•´ì„œ "Enter" í‚¤ë¥¼ ëˆ„ë¦…ë‹ˆë‹¤.
+#. "Geospatial" ë©”ë‰´ë¥¼ ì´ìš©í•©ë‹ˆë‹¤.
 
-`Apple OSX <../MacInstallers/>`_ ¿Í `Microsoft Windows <../WindowsInstallers/>`_ÀÇ ±â¹Ý¿¡¼­µµ ¸¹Àº 
-±â´ÉÀÌ Á¦°øµË´Ï´Ù.
+`Apple OSX <../MacInstallers/>`_ ì™€ `Microsoft Windows <../WindowsInstallers/>`_ì˜ ê¸°ë°˜ì—ì„œë„ ë§Žì€ 
+ê¸°ëŠ¥ì´ ì œê³µë©ë‹ˆë‹¤.
 
 
 Quick Starts
@@ -57,6 +57,6 @@ Quick Starts
 
 Presentation
 --------------------------------------------------------------------------------
-¸ðµç OSGeo-Live ÀÌ¿ëÀ» ¾Æ¿ì¸£´Â 30ºÐÀÇ ¹ßÇ¥³»¿ëÀ» º¸½Ã·Á¸é ´ÙÀ½À» Âü°íÇÏ¼¼¿ä.
+ëª¨ë“  OSGeo-Live ì´ìš©ì„ ì•„ìš°ë¥´ëŠ” 30ë¶„ì˜ ë°œí‘œë‚´ìš©ì„ ë³´ì‹œë ¤ë©´ ë‹¤ìŒì„ ì°¸ê³ í•˜ì„¸ìš”.
 
 Details at :doc:`presentation`.
