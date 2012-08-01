@@ -22,8 +22,7 @@
 #. 시작과 로그인을 위해서 "Enter" 키를 누릅니다.
 #. "Geospatial" 메뉴를 이용합니다.
 
-`Apple OSX <../MacInstallers/>`_ 와 `Microsoft Windows <../WindowsInstallers/>`_의 기반에서도 많은 
-기능이 제공됩니다.
+`Apple OSX <../MacInstallers/>`_ 와  `Microsoft Windows <../WindowsInstallers/>`_ 의 기반에서도 많은 기능이 제공됩니다.
 
 
 Quick Starts
