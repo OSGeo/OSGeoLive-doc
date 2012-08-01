@@ -19,7 +19,7 @@
 MapServer
 ================================================================================
 
-Service Web
+Services Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapServer est un moteur de rendu de cdonnées cartographiques `Opensource <http://www.opensource.org>`_ écrit en C. Au delà de la possibilité d'explorer des données SIG, MapServer vous permet de créer des "image maps" géographiques, qui sont des cartes permettant de diriger des utilisateurs vers du contenu web. Par exemple, `le compas pour les loisirs <http://www.dnr.state.mn.us/maps/compass.html>`_ du département des ressources naturelles du Minnesota fournit aux utilisateurs plus de 10 000 pages web, rapports et cartes via une seule application. La même aplication sert aussi de "moteur de carte" pour d'autres parties du site, fournissant un contexte spatial là où c'est nécessaire.
