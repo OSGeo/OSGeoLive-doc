@@ -51,7 +51,6 @@ Quick Starts
    sponsors
    sponsors_osgeo
    presentation
-   test
 
 Presentation
 --------------------------------------------------------------------------------
