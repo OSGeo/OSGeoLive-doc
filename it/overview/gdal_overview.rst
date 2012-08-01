@@ -22,7 +22,7 @@ Strumenti di conversione di dati geospaziali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geospatial Data Abstraction Library (GDAL/OGR) fornisce strumenti per linea di comando
-per convertire e processare una vasta gamma di formati geospaziali di dati raster 
+per convertire e trattare una vasta gamma di formati geospaziali di dati raster 
 e vettoriali.
 
 Gli strumenti sono basati su una libreria C++, multipiattaforma, accessibile

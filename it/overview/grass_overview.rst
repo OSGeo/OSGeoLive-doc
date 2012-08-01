@@ -26,7 +26,7 @@ Geographic Resources Analysis Support System, comunemente chiamato GRASS, è un
 Geographic Information System (GIS) che fornisce un motore molto potente per 
 analisi geospaziali di raster e vettoriali integrati in un unico software suite. 
 GRASS include strumenti per modelli spaziali, visualizzazione di dati raster e 
-vettoriali, gestione e analisi di dati geospaziali, e il processamento di immagini
+vettoriali, gestione e analisi di dati geospaziali, e il trattamento di immagini
 aeree e satellitari. Inoltre permette di produrre sofisticate rappresentazioni 
 grafiche e hardcopy maps. GRASS è attualmente tradotto in venti lingue e supporta 
 un grande numero di formati di dati.
