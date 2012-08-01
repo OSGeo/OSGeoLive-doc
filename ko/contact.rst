@@ -1,25 +1,19 @@
 Contact Us
 ================================================================================
 
-OSGeo-Live development is coordinated via email and internet chat
-(IRC) as detailed on the
-`OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
+OSGeo-Live development는 이메일과 인터넷 채팅을 통해 이루어지고 있습니다. 
+자세한 사항은 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_
 
 Community Support
 ================================================================================
 
-If you have any questions, comments, or run into any problems, please drop us a
-note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
+질문이나 의견, 문제 사항 등이 있으시면 `이메일 리스트 <http://lists.osgeo.org/mailman/listinfo/live-demo>`_에 메시지를 남겨주세요.
 
-Searchable archives of the mailing list are hosted by
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+검색이 가능한 메일 리스트를 `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_와 `Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_이 관리하고 있습니다.
 
-IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
-assistance.
+인터넷 채팅 이용자들은 실시간의 도움이 필요할 경우 Freenode.net의 #osgeolive 혹은 #osgeo 채널을 이용해 보세요.
 
-A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, 
-and a `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_ is also available.
+`Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_에 상당한 정보를 검색해보시고, `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_도 이용해 보세요.
 
 Commercial Support
 ================================================================================
@@ -29,14 +23,12 @@ Commercial Support
   :alt: LISAsoft
   :target: http://lisasoft.com
 
-LISAsoft provide commercial support for the building of the
-Live DVD, as well as many of the applications packaged in it.
-Details at: http://lisasoft.com
+LISAsoft는 Live DVD 개발을 위해 상업적으로 지원을 하며, 많은 응용 프로그램들이 포함되어 있습니다.
+자세한 사항은 http://lisasoft.com
 
-Most packaged applications have both community and commercial support
-offerings for them. Refer to specific application descriptions linked from the :doc:`Contents <./overview/overview>` for details.
+대부분의 프로그램은 커뮤니티와 상업적인 지원이 이루어지고 있습니다. 
+특정 프로그램의 자세한 사항은 :doc:`Contents <./overview/overview>` 
 
-In addition, there are a large number of consultancy firms world wide
-who provide support for OSGeo member projects.
-See http://www.osgeo.org/search_profile for one that meets your needs.
+OSGeo 프로젝트의 지원이 가능한 전세계 자문회사들의 정보는 다음을 참고하십시오.
+http://www.osgeo.org/search_profile
 
