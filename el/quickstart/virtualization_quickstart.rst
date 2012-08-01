@@ -66,6 +66,7 @@
 
   .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
                    :scale: 65 %
+
 Εφόσον έχει δημιουργηθεί η εικονική μηχανή επιλέξτε τις ρυθμίσεις (Settings). Στον τομέα "General" στην καρτέλα "Advanced" επιλέξτε για την μικρή εργαλειοθήκη με ένα κλικ στο "Show at top of screen".
 
   .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.jpg
