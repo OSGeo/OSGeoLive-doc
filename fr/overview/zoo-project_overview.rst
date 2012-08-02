@@ -23,11 +23,11 @@ Serveur WPS
 
 ZOO-Project fournit un framework pour le Web Processing Service (WPS) adapté 
 pour les développeurs afin de créer et chaîner plusieurs Web Processing Services.
-Un serveur WPS fournit un access web à des fonctions qui lancent des algorithmes 
+Un serveur WPS fournit un accès web à des fonctions qui lancent des algorithmes 
 spatiaux.
 ZOO-Project supporte de nombreux languages de programmation et contient deux 
 applications de démos utilisant des fournisseurs de services simples d'outils 
-spatiaux simples (un module avec bibliothèque C partagée et un avec Python)
+spatiaux (un module avec bibliothèque C partagée et un avec Python)
 basés sur les bibliothèques GEOS et OGR.
 
 ZOO est composé de trois parties:
@@ -40,11 +40,11 @@ ZOO est composé de trois parties:
 *Kernel ZOO* : Un noyau côté serveur en C qui rend possible le fait de 
 gérer et chaîner des webservices codés dans différents langages de programmation. 
 
-*Services ZOO* : Un suite d'exemples de webservices en évolution basées 
+*Services ZOO* : Un suite d'exemples de webservices en évolution basée sur  
 diverses bibliothèques Open Source.
 
 *API ZOO* : Une API JavaScript côté serveur capable d'appeler et de chaîner 
-les services ZOO, qui rend le développment et le chaînage de processus plus 
+les services ZOO, qui rend le développement et le chaînage de processus plus 
 simple. 
 
 ZOO est basé sur un 'noyau de service WPS' qui constitue le coeur du système 
@@ -55,7 +55,7 @@ langages de programmation dans le but de se connecter à de nombreuses
 bibliothèques et par dessous tout de simplifier le travail du développeur 
 final de services web.
 
-Un service ZOO sest un lien composé d'un fichier de métadonnées (.zcfg) et du 
+Un service ZOO est un lien composé d'un fichier de métadonnées (.zcfg) et du 
 code pour l'implémentation correspondante. Le fichier de métadonnée décrit 
 toutes les fonctions disponibles qui peuvent être appelée en utilisant une 
 requête WPS "Execute", ainsi que les entrées/sorties désirées. Les services 
