@@ -26,7 +26,7 @@ This Quick Start describes how to:
 * Access and use the demonstration instance
 
 See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`, the 
-`EOxServer 0.2.0 Documentation 
+`EOxServer 0.2.1 Documentation 
 <../../eoxserver-docs/EOxServer_documentation.pdf>`_, or the `online 
 documentation <http://eoxserver.org/doc/>`_ for more information.
 

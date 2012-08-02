@@ -25,7 +25,7 @@
 * Να αποκτήσετε πρόσβαση στην δοκιμαστική εφαρμογή
 
 Δείτε την  :doc:`Περίληψη του EOxServer <../overview/eoxserver_overview>`, το 
-`Εγχειρίδιο χρήσης του EOxServer 0.2.0 
+`Εγχειρίδιο χρήσης του EOxServer 0.2.1 
 <../../eoxserver-docs/EOxServer_documentation.pdf>`_, ή το `διαδικτυακό 
 εγχειρίδιο <http://eoxserver.org/doc/>`_ για περισσότερες πληροφορίες.
 

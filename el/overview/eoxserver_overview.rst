@@ -75,13 +75,13 @@ EOxServer
 Δοκιμαστική εφαρμογή
 --------------------------------------------------------------------------------
 
-* `Τοπικά <http://localhost/eoxsever/>`_
+* `Τοπικά <http://localhost/eoxserver/>`_
 * `Στο Διαδίκτυο <https://eoxserver.org/demo_stable/>`_
 
 Εγχειρίδιο Χρήσης
 --------------------------------------------------------------------------------
 
-* `Εγχειρίδιο EOxServer 0.2.0 <../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `Εγχειρίδιο EOxServer 0.2.1 <../../eoxserver-docs/EOxServer_documentation.pdf>`_
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ EOxServer
 
 **Άδεια:** `MIT <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Έκδοση Λογισμικού:** 0.2.0
+**Έκδοση Λογισμικού:** 0.2.1
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows, Mac
 

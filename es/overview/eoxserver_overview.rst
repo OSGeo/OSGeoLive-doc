@@ -85,13 +85,13 @@ Estandares Implementados
 Demo
 --------------------------------------------------------------------------------
 
-* `Local <http://localhost/eoxsever/>`_
+* `Local <http://localhost/eoxserver/>`_
 * `En línea <https://eoxserver.org/demo_stable/>`_
 
 Documentación
 --------------------------------------------------------------------------------
 
-* `Documentación EOxServer 0.2.0<../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `Documentación EOxServer 0.2.1<../../eoxserver-docs/EOxServer_documentation.pdf>`_
 
 Detalles
 --------------------------------------------------------------------------------
@@ -100,7 +100,7 @@ Detalles
 
 **Licencia:** `Estilo MIT <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Versión del Software:** 0.2.0
+**Versión del Software:** 0.2.1
 
 ****Plataformas Soportadas:** Windows, Linux, Mac:**
 
