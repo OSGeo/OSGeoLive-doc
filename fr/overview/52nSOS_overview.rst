@@ -29,7 +29,7 @@ Caractéristiques
 * Implémente les standards SOS 1.0.0 et 2.0.0.
 
 * Un client basé sur une interface web fournit des requêtes de test en XML pour 
-toutes les opérations supportées.
+  toutes les opérations supportées.
 
 
 OGC SOS 1.0.0

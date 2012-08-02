@@ -16,8 +16,8 @@ Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Kosmo - Desktop è una applicazione GIS desktop user friendly che permette di 
-esplorare, modificare ed analizzare dati spaziali da una moltitudine di 
- database, e formati vettoriali e raster.
+esplorare, modificare ed analizzare dati spaziali da una moltitudine di database, 
+e formati vettoriali e raster.
 
 Kosmo - Desktop segue gli standards OGC e fornisce un'eccellente integrità topologica. 
 La sua archittettura a plugin permette che sia facilmente personalizzazione per specifici scopi.

@@ -109,8 +109,7 @@ Altri software di interesse (non disponibili nella Live)
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - GIS per Microsoft Windows
 
-.. MapGuide è temporaneamente disabilitato per salvare spazio nel disco; 
-MapWindow è basato su windows (.net) e non può essere eseguito su Ubuntu
+.. MapGuide è temporaneamente disabilitato per salvare spazio nel disco; MapWindow è basato su windows (.net) e non può essere eseguito su Ubuntu
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

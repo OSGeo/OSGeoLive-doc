@@ -40,7 +40,7 @@ Caratteristiche Principali
 * Basato sullo standard OGC SLD.
 * Gira su Windows,and Linux. (Supporto per Mac avrà bisogno di qualche finanziamento).
 * Importa ESRI Shapefiles, OGC WFS e database PostGIS (dati vettoriali) 
-così come file GeoTIFF e ArcASCII (dati raster).
+  così come file GeoTIFF e ArcASCII (dati raster).
 * Tradotto in Tedesco, Inglese, Italiano, Turco, Russo e Francese.
 
 Standards Implementati

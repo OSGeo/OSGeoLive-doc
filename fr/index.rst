@@ -59,7 +59,6 @@ Guides de démarrage rapide
    sponsors
    sponsors_osgeo
    presentation
-   test
 
 Présentation
 --------------------------------------------------------------------------------

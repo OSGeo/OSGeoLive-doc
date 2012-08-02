@@ -61,7 +61,7 @@ Presentazione veloce
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/
 .. _`LAS Format`: http://www.lasformat.org/
 .. _`ASPRS Standards Committee`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
-.. _`format ASPRS LAS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
+.. _`formato ASPRS LAS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
 .. _`Strumenti da linea di comando`: http://liblas.org/utilities/index.html
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
 .. _`Wikipedia`: http://en.wikipedia.org/wiki/LIDAR

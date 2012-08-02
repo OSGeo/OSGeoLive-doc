@@ -91,7 +91,7 @@ Demo
 Documentación
 --------------------------------------------------------------------------------
 
-* `Documentación EOxServer 0.2.1<../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `Documentación EOxServer 0.2.1 <../../eoxserver-docs/EOxServer_documentation.pdf>`_
 
 Detalles
 --------------------------------------------------------------------------------
