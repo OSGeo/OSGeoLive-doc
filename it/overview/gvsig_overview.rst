@@ -23,24 +23,24 @@ gvSIG Desktop
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-gvSIG_ Ë un'applicazione desktop GIS (Sistema Informativo Geografico) progettata 
+gvSIG_ √® un'applicazione desktop GIS (Sistema Informativo Geografico) progettata 
 per acquisire, immagazinare, manipolare, analizzare e implementare qualsiasi 
 tipo di informazione geografica georeferenziata al fine di risolvere problemi 
-di pianificazione e gestione complessi. gvSIG Ë noto per la sua interfaccia 
-user-friendly e la capacit‡ di accesso ai formati vettoriali e raster pi˘ comuni. 
+di pianificazione e gestione complessi. gvSIG √® noto per la sua interfaccia 
+user-friendly e la capacit√† di accesso ai formati vettoriali e raster pi√π comuni. 
 Comprende un'ampia serie di strumenti per lavorare con l'informazione geografica 
 (query, creazione di layout, geoprocessi, reti, ecc.), che rende gvSIG uno strumento 
 ideale per gli utenti che lavorano in ambito geografico.
 
-gvSIG Ë noto per:
+gvSIG √® noto per:
 
-* la sua capacit‡ di integrare all'interno di una stessa vista sia dati locali che 
+* la sua capacit√† di integrare all'interno di una stessa vista sia dati locali che 
   remoti tramite gli standard OGC. 
-* Ë facilmente estendibile, consentendo il continuo miglioramento dell'applicazione, 
-  cosÏ come lo sviluppo di soluzioni su misura.
-* Ë disponibile in oltre 20 linguaggi (spagnolo, inglese, tedesco, francese, 
+* √® facilmente estendibile, consentendo il continuo miglioramento dell'applicazione, 
+  cos√¨ come lo sviluppo di soluzioni su misura.
+* √® disponibile in oltre 20 linguaggi (spagnolo, inglese, tedesco, francese, 
   italiano, ecc.).
-* Ë disponibile per i sistemi operativi Windows, Linux e Mac OS X:
+* √® disponibile per i sistemi operativi Windows, Linux e Mac OS X:
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -50,14 +50,14 @@ gvSIG Ë noto per:
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-* Dispone delle comuni funzionalit‡ GIS come il caricamento dei dati, navigazione di mappa, 
+* Dispone delle comuni funzionalit√† GIS come il caricamento dei dati, navigazione di mappa, 
   interrogazione delle informazioni alfanumeriche, misura delle distanze, cartografia 
   tematica, editazione delle legende usando gli usuali tipi di legende, etichettatura, 
   diverse tipi di selezione degli elementi, tabelle con statistiche, ordinamento, 
   relazioni tra tabelle, collegamento tra tabelle, gestione dei layout di 
   stampa, geoprocessi, strumenti CAD, processi raster, ecc.
 
-* Interoperabilit‡: Ë in grado di lavorare con i formati di dati pi˘ comuni:
+* Interoperabilit√†: √® in grado di lavorare con i formati di dati pi√π comuni:
 
   * raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
   * vettoriali: shapefile, GML, KML, DGN, DXF, DWG
@@ -78,7 +78,7 @@ Caratteristiche principali
   * riga di comando tipica dei software CAD
   * strumenti come l'help, grid, lista dei comandi, selezione complessa di elementi
   * strumenti per l'inserimento di elementi come punti, poligoni, linee, ellissi, ecc.
-  * strumenti per modificare le propriet‡ degli elementi (rotazione, simmetria, ecc.)
+  * strumenti per modificare le propriet√† degli elementi (rotazione, simmetria, ecc.)
     
 * Comprende strumenti raster avanzati:
 
