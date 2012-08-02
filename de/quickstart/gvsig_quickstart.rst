@@ -331,9 +331,7 @@ Speichern Ihres Projektes oder Schließen von gvSIG
 Was kommt als nächstes...
 ================================================================================
 
-Deutschsprachige Dokumente und Tutorials finden neben vielen anderen Informationen im deutschen gvSIG wiki `gvSIG `<http://www.webmapping.info/mwgvsig/index.php?title=Hauptseite>`.
-
-Einige Dokumente und Tutorials auf Englisch stehen unter `gvSIG <http://www.gvsig.org/web/docusr/learning/>` zur Verfügung.
+Einige Dokumente und Tutorials auf Englisch stehen unter `gvSIG <http://www.gvsig.org/web/docusr/learning/>`_ zur Verfügung.
 
 
 
