@@ -315,6 +315,6 @@
 ================================================================================
 
 Βοήθεια στα αγγλικά και διάφοροι οδηγοί χρήσης είναι διαθέσιμοι στην ιστοσελίδα 
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`. 
+`gvSIG <http://www.gvsig.org/web/docusr/learning/>`. 
 
 

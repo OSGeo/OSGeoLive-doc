@@ -378,6 +378,6 @@ Where to from here...
 ================================================================================
 
 Some English help and tutorials are available on the 
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ website. 
+`gvSIG <http://www.gvsig.org/web/docusr/learning/>`_ website. 
 
 

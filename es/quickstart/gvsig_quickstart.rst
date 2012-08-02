@@ -417,5 +417,5 @@ Guardando su proyecto y saliendo de gvSIG
 A partir de aquí...
 ================================================================================
 
-Algunos tutoriales y material de ayuda en Español están disponibles en la página web de `gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop>`_. 
+Algunos tutoriales y material de ayuda en Español están disponibles en la página web de `gvSIG <http://www.gvsig.org/web/docusr/learning/>`_. 
 
