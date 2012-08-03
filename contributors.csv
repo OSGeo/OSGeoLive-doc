@@ -1,76 +1,74 @@
-Name	Email	Country	Osgeo_id
-Activity Workshop	mail activityworkshop net	Switzerland	activityworkshop
-Alan Boudreault	aboudreault mapgears.com	Canada	aboudreault
-Alex Mandel	tech wildintellect com	USA	wildintellect
-Alexandre Dube	adube mapgears.com	Canada	adube
-Amy Gao	amy spatialfront com	China	amygao
-Andrea Antonello	andrea.antonello gmail com	Italy	moovida
-Angelos Tzotsos	tzotsos gmail com	Greece	kalxas
-Anton Patrushev	anton.patrushev gmail com	Japan	anton
-Astrid Emde	astrid.emde wheregroup com	Germany	astrid_emde
-Barry Rowlingson	b.rowlingson gmail com	UK	barryrowlingson
-Benjamin Pross	b.pross 52north org	Germany	spross
-Brian Hamlin	maplabs Light42 com	USA	darkblue_b
-Bruno Binet	bruno.binet camptocamp com	France	bbinet
-Cameron Shorter	Cameron.Shorter lisasoft com	Australia	camerons
-Dane Springmeyer	dane dbsgeo com	USA	springmeyer
-Daniel Kastl	daniel.kastl georepublic de	Japan	dkastl
-Dimitar Misev	d.misev jacobs-university de	Germany	misev
-Edgar Soldin	edgar.soldin web de	Germany	edso
-Eike Hinderk Jrrens	e.h.juerrens 52north org	Germany	ehjuerrens
-Eric Lemoine	eric.lemoine camptocamp com	France	erilem
-Etienne Dube	etdube gmail com	Canada	etdube
-Fran Boon	fran aidiq com	UK	flavour
-Frank Gasdorf	fgdrf users.sourceforge.net	Germany	fgdrf
-Frank Warmerdam	warmerdam pobox.com	USA	warmerdam
-François Prunayre	fx prunayre gmail com	France	fxp
-Gavin Treadgold	gav rediguana co nz	New Zealand	rediguana
-Grald Fenoy	gerald.fenoy geolabs fr	France	djay
-Hamish Bowman	hamish_b yahoo com	New Zealand	hamish
-Haruyuki Seki	hal georepublic co jp	Japan	halsk
-Henry Addo	henry ushahidi com	Ghana	eyedol
-Hernan Olivera	lholivera gmail com	Argentina	hernanolivera
-Howard Butler	hobu gmail com	USA	hobu
-Ian Turton	ijturton gmail com	USA	ianturton
-Jackie Ng	jumpinjackie gmail com	Australia	jng
-Jan Drewnak	j.drewnak 52north com	Germany	drewnak
-Jim Klassen	klassen.js gmail com	USA	jimk
-Jinsongdi Yu	j.yu jacobs-university de	Germany	rasdaman
-Jody Garnett	jgarnett gmail com	Australia	jive
-Johan Van de Wauw	johan vandewauw gmail.com	Belgium	johanvdw
-Jorge Sanz	jsanz gvsig com	Spain	jsanz
-Judit Mays	mays lat-lon de	Germany	jmays
-Klokan Petr Pridal	klokan klokan cz	Switzerland/Czech Republic	klokan
-Kristof Lange	kristof.lange uni-muenster de	Germany	kristoflange
-Lance McKee	lmckee opengeospatial org	USA	?
-Luca Delucchi	 lucadeluge gmail com	Italy	lucadelu
-Mage Whopper	magewhopper gmail com	Japan	Magepa
-Manuel Grizonnet	manuel.grizonnet cnes fr	France	manuelgrizonnet
-Marc-Andre Barbeau	mbarbeau mapgears com	Canada	mbarbeau
-Margherita Di Leo	dileomargherita gmail com	Italy	madi
-Mark Leslie	mark leslie lisasoft com	Australia	mleslie
-Massimo Di Stefano	massimodisasha yahoo it	Italy	epifanio
-Micha Silver	micha arava co il	Israel	micha
-Michael Owonibi	m.owonibi jacobs-university de	Germany	mowonibi
-Michaël Michaud	michael michaud free fr	France	michaudm
-Mike Adair	madair dmsolutions ca	Canada	madair
-Nathaniel V. Kelso	nathaniel kelsocartography com	USA	?
-Ned Horning	horning amnh org	USA	nedhorning
-Oliver Tonnhofer	olt omniscale de	Germany	olt
-Paul Meems	p.meems topx-group nl	The Netherlands	pmeems
-Pirmin Kalberer	pka sourcepole com	Switzerland	pka
-Ricardo Pinho	rpinho_eng yahoo com br	Portugal	rpinho
-Roald de Wit	osgeo rdewit net	Australia	rdewit
-Ruth Schoenbuchner	ruth.schoenbuchner csgis.de	Germany	rscsgis
-Sergio Baños	sbc saig es	Spain	sbcalvo
-Simon Cropper	scropper botanicusaustralia com au	Australia	simoncropper
-Simon Pigot	simon.pigot csiro au	Australia	simonp
-Stefan A. Tzeggai	gp geopublishing org	Germany	alfonx
-Stefan Hansen	stefan.hansen lisasoft com	Australia	shansen
-Stefan Steiniger	sstein geo uzh ch	Canada/Chile	mentaer
-Stephan Meissl	stephan meissl name	Austria	schpidi
-Steve Lime	sdlime gmail com	USA	sdlime
-Thierry Badard	tbadard spatialytics com	Canada	tbadard
-Thomas Gratier	thomas gratier gmail com	France	thomasg
-Tom Kralidis	tomkralidis hotmail com	Canada	tomkralidis
-Trevor Wekel	trevor_wekel otxsystems com	Canada	trevorwekel
+﻿Name,Email,Country,Osgeo_id
+Activity Workshop,mail activityworkshop net,Switzerland,activityworkshop
+Alan Boudreault,aboudreault mapgears.com,Canada,aboudreault
+Alex Mandel,tech wildintellect com,USA,wildintellect
+Alexandre Dube,adube mapgears.com,Canada,adube
+Amy Gao,amy spatialfront com,China,amygao
+Andrea Antonello,andrea.antonello gmail com,Italy,moovida
+Angelos Tzotsos,tzotsos gmail com,Greece,kalxas
+Anton Patrushev,anton.patrushev gmail com,Japan,anton
+Astrid Emde,astrid.emde wheregroup com,Germany,astrid_emde
+Barry Rowlingson,b.rowlingson gmail com,UK,barryrowlingson
+Benjamin Pross,b.pross 52north org,Germany,spross
+Brian Hamlin,maplabs Light42 com,USA,darkblue_b
+Bruno Binet,bruno.binet camptocamp com,France,bbinet
+Cameron Shorter,Cameron.Shorter lisasoft com,Australia,camerons
+Dane Springmeyer,dane dbsgeo com,USA,springmeyer
+Daniel Kastl,daniel.kastl georepublic de,Japan,dkastl
+Dimitar Misev,d.misev jacobs-university de,Germany,misev
+Edgar Soldin,edgar.soldin web de,Germany,edso
+Eike Hinderk Jrrens,e.h.juerrens 52north org,Germany,ehjuerrens
+Eric Lemoine,eric.lemoine camptocamp com,France,erilem
+Etienne Dube,etdube gmail com,Canada,etdube
+Fran Boon,fran aidiq com,UK,flavour
+Frank Gasdorf,fgdrf users.sourceforge.net,Germany,fgdrf
+Frank Warmerdam,warmerdam pobox.com,USA,warmerdam
+François Prunayre,fx prunayre gmail com,France,fxp
+Gavin Treadgold,gav rediguana co nz,New Zealand,rediguana
+Grald Fenoy,gerald.fenoy geolabs fr,France,djay
+Hamish Bowman,hamish_b yahoo com,New Zealand,hamish
+Haruyuki Seki,hal georepublic co jp,Japan,halsk
+Henry Addo,henry ushahidi com,Ghana,eyedol
+Hernan Olivera,lholivera gmail com,Argentina,hernanolivera
+Howard Butler,hobu gmail com,USA,hobu
+Ian Turton,ijturton gmail com,USA,ianturton
+Jackie Ng,jumpinjackie gmail com,Australia,jng
+Jan Drewnak,j.drewnak 52north com,Germany,drewnak
+Jim Klassen,klassen.js gmail com,USA,jimk
+Jinsongdi Yu,j.yu jacobs-university de,Germany,rasdaman
+Jody Garnett,jgarnett gmail com,Australia,jive
+Johan Van de Wauw,johan vandewauw gmail.com,Belgium,johanvdw
+Jorge Sanz,jsanz gvsig com,Spain,jsanz
+Judit Mays,mays lat-lon de,Germany,jmays
+Klokan Petr Pridal,klokan klokan cz,Switzerland/Czech Republic,klokan
+Kristof Lange,kristof.lange uni-muenster de,Germany,kristoflange
+Lance McKee,lmckee opengeospatial org,USA,?
+Luca Delucchi, lucadeluge gmail com,Italy,lucadelu
+Mage Whopper,magewhopper gmail com,Japan,Magepa
+Manuel Grizonnet,manuel.grizonnet cnes fr,France,manuelgrizonnet
+Mark Leslie,mark leslie lisasoft com,Australia,mleslie
+Massimo Di Stefano,massimodisasha yahoo it,Italy,epifanio
+Micha Silver,micha arava co il,Israel,micha
+Michael Owonibi,m.owonibi jacobs-university de,Germany,mowonibi
+Michaël Michaud,michael michaud free fr,France,michaudm
+Mike Adair,madair dmsolutions ca,Canada,madair
+Nathaniel V. Kelso,nathaniel kelsocartography com,USA,?
+Ned Horning,horning amnh org,USA,nedhorning
+Oliver Tonnhofer,olt omniscale de,Germany,olt
+Paul Meems,p.meems topx-group nl,The Netherlands,pmeems
+Pirmin Kalberer,pka sourcepole com,Switzerland,pka
+Ricardo Pinho,rpinho_eng yahoo com br,Portugal,rpinho
+Roald de Wit,osgeo rdewit net,Australia,rdewit
+Ruth Schoenbuchner,ruth.schoenbuchner csgis.de,Germany,rscsgis
+Sergio Baños,sbc saig es,Spain,sbcalvo
+Simon Cropper,scropper botanicusaustralia com au,Australia,simoncropper
+Simon Pigot,simon.pigot csiro au,Australia,simonp
+Stefan A. Tzeggai,gp geopublishing org,Germany,alfonx
+Stefan Hansen,stefan.hansen lisasoft com,Australia,shansen
+Stefan Steiniger,sstein geo uzh ch,Canada/Chile,mentaer
+Stephan Meissl,stephan meissl name,Austria,schpidi
+Steve Lime,sdlime gmail com,USA,sdlime
+Thierry Badard,tbadard spatialytics com,Canada,tbadard
+Thomas Gratier,thomas gratier gmail com,France,thomasg
+Tom Kralidis,tomkralidis hotmail com,Canada,tomkralidis
+Trevor Wekel,trevor_wekel otxsystems com,Canada,trevorwekel
