@@ -8,7 +8,7 @@
   :align: right
   :target: http://liblas.org/
 
-libLAS
+LibLAS
 ================================================================================
 
 Accès aux données LiDAR
@@ -63,7 +63,7 @@ Guide de démarrage rapide
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/
 .. _`Format LAS`: http://www.lasformat.org/
 .. _`Comité des standards ASPRS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
-.. _`Format LAS ASPRS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
+.. _`format LAS ASPRS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
 .. _`Utilitaires en ligne de commande`: http://liblas.org/utilities/index.html
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
 .. _`Wikipedia`: http://en.wikipedia.org/wiki/LIDAR
