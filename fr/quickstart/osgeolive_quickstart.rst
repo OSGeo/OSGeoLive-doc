@@ -70,7 +70,7 @@ Lancement:
   Bien démarrer avec le système d'exploitation Ubuntu: (un e-book en PDF en anglais)
     `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
 
-  Plus d'informations sur le système d'exploitation Ubuntu: (n.b.: nous utilisons
+  Plus d'informations sur le système d'exploitation Ubuntu: (n.b.: nous utilisons 
   l'interface bureautique Xfce, pas celle adaptée aux tablettes, l'interface Unity)
     https://help.ubuntu.com/12.04/
 

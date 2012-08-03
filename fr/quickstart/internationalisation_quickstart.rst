@@ -1,4 +1,4 @@
-h:Author: OSGeo-Live
+:Author: OSGeo-Live
 :Author: Frank Gasdorf
 :Author: Cameron Shorter
 :Reviewer: Cameron Shorter
@@ -25,6 +25,7 @@ Pour d'autres langues consultez :menuselection:`Applications --> System --> Lang
 
 Support du clavier
 --------------------------------------------------------------------------------
+
 Le support du clavier international est installé, mais vous aurez besoin de configurer le système pour votre clavier spécifique. 
 Pour changer les paramètres ouvrez :menuselection:`Applications --> Settings --> Settings Manager` dans le menu et double-cliquez sur :guilabel:`Keyboard`
 dans la boÃ®te de dialogue suivante. Votre mot de passe vous sera demandÃ© pour permettre la mise à jour de la configuration, saisir "user" pour l'utilisateur en cours "user".

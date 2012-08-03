@@ -52,8 +52,8 @@ osgEarthでは地形をレンダリングする以上のことができます:
 * GeoTIFF画像やデジタル標高モデル(DEM)ファイル (加えて多くの他のフォーマットも) 
 * ESRI シェイプファイルのようなベクターデータ
 * OGC準拠のWebマッピングデータ (WMS_ など) 
-* MapServer_ or `ESRI ArcGIS Server`_によるGISレイヤーのパブリッシュ
-* OpenStreetMap_, `ArcGIS Online`_, or `NASA OnEarth`_のようなオンラインマップ
+* MapServer_ or `ESRI ArcGIS Server`_ によるGISレイヤーのパブリッシュ
+* OpenStreetMap_, `ArcGIS Online`_, or `NASA OnEarth`_ のようなオンラインマップ
 
 .. _WMS: http://www.opengeospatial.org
 .. _MapServer: http://mapserver.org

@@ -20,6 +20,7 @@ Le 52North Web Security Service (WSS) vous permet de restreindre facilement l'ac
 Avec 52North WSS vous pouvez définir des droits d'accès tels que:
 
   *Tous les utilisateurs dans le rôle «externe» sont autorisés à accéder à seulement les couches A et B du WMS avec GetMap*
+
 ou
 
   *GetFeatureInfo est autorisé uniquement sur la couche A dans une zone spécifique définie par un rectangle englobant*
