@@ -14,25 +14,25 @@ Changez de Langue
 
 De nombreuses langues usuelles sont incluses dans OSGeo-Live. Si vous souhaitez changer de langues:
 
-   #. Déconnectez-vous
-   #. Sélectionnez une autre langue à partir du menu du panneau inférieur.
-   #. Sélectionnez l'utilisateur="user",mot de passe="user"
-   #. Répétez le processus si vous voulez changer à nouveau de langue.
+   #. DÃ©connectez-vous
+   #. SÃ©lectionnez une autre langue Ã  partir du menu du panneau infÃ©rieur.
+   #. SÃ©lectionnez l'utilisateur="user",mot de passe="user"
+   #. RÃ©pÃ©tez le processus si vous voulez changer Ã  nouveau de langue.
 
-Les menus du système et de nombreuses autres applications apparaitront maintenant dans la langue choisie. Si un programme spécifique continue à s'afficher en anglais, cela signifie que le programme n'a pas de traduction disponible - merci de penser à participer à la traduction. Contactez directement le programme d'intérêt pour plus d'information
+Les menus du systÃ¨me et de nombreuses autres applications apparaitront maintenant dans la langue choisie. Si un programme spÃ©cifique continue Ã  s'afficher en anglais, cela signifie que le programme n'a pas de traduction disponible - merci de penser Ã  participer Ã  la traduction. Contactez directement le programme d'intÃ©rÃªt pour plus d'information
 
-Pour d'autres langues consultez :menuselection:`Applications --> System --> Language Support` (Nécessite une connexion internet).
+Pour d'autres langues consultez :menuselection:`Applications --> System --> Language Support` (NÃ©cessite une connexion internet).
 
 Support du clavier
 --------------------------------------------------------------------------------
-Le support du clavier international est installé, mais vous aurez besoin de configurer le système pour votre clavier spécifique. 
-Pour changer les paramètres ouvrez :menuselection:`Applications --> Settings --> Settings Manager` dans le menu et double-cliquez sur :guilabel:`Keyboard`
-dans la boÃ®te de dialogue suivante. Votre mot de passe vous sera demandÃ© pour permettre la mise à jour de la configuration, saisir "user" pour l'utilisateur en cours "user".
+Le support du clavier international est installÃ©, mais vous aurez besoin de configurer le systÃ¨me pour votre clavier spÃ©cifique. 
+Pour changer les paramÃ¨tres ouvrez :menuselection:`Applications --> Settings --> Settings Manager` dans le menu et double-cliquez sur :guilabel:`Keyboard`
+dans la boÃƒÂ®te de dialogue suivante. Votre mot de passe vous sera demandÃƒÂ© pour permettre la mise Ã  jour de la configuration, saisir "user" pour l'utilisateur en cours "user".
 
-   #. Choisissez :guilabel:`Layout` tabulation dans la boîte de dialogue du clavier
-   #. Désactivez l'option :guilabel:`Use system defaults`
-   #. Cliquez sur le bouton :guilabel:`Add` pour ajouter une mise en page supplémentaire
-   #. Choisissez la mise en page préférée et
-   #. Sélectionnez-la dans la boîte de dialogue du clavier
-   #. Retournez à la page principale des paramères(:guilabel:`Overview`)
-   #. :guilabel:`Close` la boîte de dialogue des paramètres et déconnectez-vous pour appliquer
+   #. Choisissez :guilabel:`Layout` tabulation dans la boÃ®te de dialogue du clavier
+   #. DÃ©sactivez l'option :guilabel:`Use system defaults`
+   #. Cliquez sur le bouton :guilabel:`Add` pour ajouter une mise en page supplÃ©mentaire
+   #. Choisissez la mise en page prÃ©fÃ©rÃ©e et
+   #. SÃ©lectionnez-la dans la boÃ®te de dialogue du clavier
+   #. Retournez Ã  la page principale des paramÃ¨res(:guilabel:`Overview`)
+   #. :guilabel:`Close` la boÃ®te de dialogue des paramÃ¨tres et dÃ©connectez-vous pour appliquer
