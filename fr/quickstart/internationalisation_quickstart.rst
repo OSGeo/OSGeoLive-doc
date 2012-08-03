@@ -5,12 +5,12 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-********************************************************************************
+******************************************
 OSGeo-Live Internationalisation Quickstart
-*******************************************************************************
+******************************************
 
 Changez de Langue
---------------------------------------------------------------------------------
+-----------------
 
 De nombreuses langues usuelles sont incluses dans OSGeo-Live. Si vous souhaitez changer de langues:
 
