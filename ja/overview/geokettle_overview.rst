@@ -60,12 +60,12 @@ GeoKettle はソースからデータを抽出し、誤り修正のために変�
   * 複製
   * クラスタリング (MPP)
   * 回転
-  * 地理区間情報解析:  buffer, centroid, distance, intersection, union, ...
-  * 高度な地理処理: clipping, delaunay, simplify/smooth geometry, split features, ...
-  * 空間情報アグリゲーション
+  * 地理空間情報解析:  buffer, centroid, distance, intersection, union, ...
+  * 高度な地理学的処理: clipping, delaunay, simplify/smooth geometry, split features, ...
+  * 空間集約
   * 作成地図のプレビュー
 
-* 対象フォーマットへのロード:
+* 対象フォーマットへのデータの読み込み:
 
   * データベース: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * データウェアハウスの母集団
