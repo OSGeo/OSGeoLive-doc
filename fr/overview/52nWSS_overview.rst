@@ -15,23 +15,25 @@
 Au sujet
 --------------------------------------------------------------------------------
 
-Le 52North Web Security Service (WSS) vous permet de restreindre facilement l'accès aux services spatiaux et de leurs ressources en utilisant des droits d'accès basés sur le rôle de l'utilisateur.
+52North Web Security Service (WSS) vous permet de restreindre facilement l'accès 
+aux services spatiaux et à leurs ressources en utilisant des droits d'accès basés 
+sur le rôle de l'utilisateur.
 
-Avec 52North WSS vous pouvez définir des droits d'accès tels que:
+Avec 52North WSS, vous pouvez définir des droits d'accès tels que:
 
-  *Tous les utilisateurs dans le rôle «externe» sont autorisés à accéder à seulement les couches A et B du WMS avec GetMap*
+  *Tous les utilisateurs ayant le rôle «externe» sont autorisés à accéder seulement aux couches A et B du WMS avec GetMap*
 
 ou
 
   *GetFeatureInfo est autorisé uniquement sur la couche A dans une zone spécifique définie par un rectangle englobant*
 
-Le 52North WSS is a Java Web Application which usually runs in a Apache Tomcat Servlet container.
-It acts as a proxy for an arbitrary number of OGC Web Services, receiving all requests and acting upon the defined policies. Thus, existing service implementations don't need to be changed.
-Policies and users are defined in XML configuration files, which are maintained from a general management interface.
-
-Le 52North WSS est une application Web Java qui s'exécute généralement dans un conteneur de servlet Apache Tomcat.
-Il agit comme un proxy pour un nombre arbitraire de services web OGC, recevant toutes les demandes et agissant sur les politiques définies. Ainsi, les implémentations de services existantes n'ont pas besoin d'être changé.
-Les politiques et les utilisateurs sont définis dans les fichiers de configuration XML, qui sont gérés à partir d'une interface de gestion.
+52North WSS est une application Web Java qui s'exécute généralement dans un 
+conteneur de servlet Apache Tomcat.
+Il agit comme un proxy pour un nombre arbitraire de services web OGC, recevant 
+toutes les demandes et agissant suivant les politiques définies. Ainsi, les 
+implémentations de services existantes n'ont pas besoin d'être changées.
+Les politiques et les utilisateurs sont définis dans les fichiers de 
+configuration XML, qui sont gérés à partir d'une interface de gestion.
 
 .. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
@@ -52,10 +54,10 @@ Inclut la protection de:
 
 **Authentification**
 
-Plusieurs méthodes d'authentification des utilisateurs prise en charge, tels que:
+Plusieurs méthodes d'authentification des utilisateurs sont prises en charge, tels que:
 
-* HTTP Basic Authentication
-* SAML Assertions (Security Assertions Markup Language)
+* Authentification HTTP basique
+* Assertions SAML (Security Assertions Markup Language)
 * ... et d'autres
 
 
@@ -70,7 +72,7 @@ Détails
 
 **Plates-formes supportées:** Windows, Linux, Mac
 
-**Interfaces de l'API:** Java
+**Interface de l'API:** Java
 
 **Support commercial:** http://52north.org/
 
