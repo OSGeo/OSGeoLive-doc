@@ -13,45 +13,45 @@
 SpatiaLite
 ================================================================================
 
-Base de données spatiale
+Base de donnÃ©es spatiale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SpatiaLite est un moteur de base de données SQLite_ avec des fonctions spatiales intégrées en plus. 
+SpatiaLite est un moteur de base de donnÃ©es SQLite_ avec des fonctions spatiales intÃ©grÃ©es en plus. 
 
-SQLite est un SGBD populaire, simple, robuste, facile à utiliser et vraiment très léger. Chaque base de données SQLite est simplement un fichier; vous pouvez librement la copier, la compresser, l'envoyer sur un LAN ou sur le WEB sans aucun problème du tout.
+SQLite est un SGBD populaire, simple, robuste, facile Ã  utiliser et vraiment trÃ¨s lÃ©ger. Chaque base de donnÃ©es SQLite est simplement un fichier; vous pouvez librement la copier, la compresser, l'envoyer sur un LAN ou sur le WEB sans aucun problÃ¨me du tout.
 
-Les fichiers sont aussi portables; le même fichier de base de données fonctionnera sous Windows, Linux, MacOs, etc...
+Les fichiers sont aussi portables; le mÃªme fichier de base de donnÃ©es fonctionnera sous Windows, Linux, MacOs, etc...
 
 .. _SQLite: http://www.sqlite.org/
 
 .. image:: ../../images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
-  :alt: Capture d'écran Spatialite
+  :alt: Capture d'Ã©cran Spatialite
   :align: right
 
-Caractéristiques principales
+CaractÃ©ristiques principales
 --------------------------------------------------------------------------------
 
-L'extension SpatiaLite permet à SQLite de supporter les données spatiales en se conformant aux spécifications de l'OGC.
+L'extension SpatiaLite permet Ã  SQLite de supporter les donnÃ©es spatiales en se conformant aux spÃ©cifications de l'OGC.
 
 * Support des formats standards WKT et WKB
-* Implémente des fonctions spatiales SQL comme AsText(), GeomFromText(), Area(), PointN() et similaires
-* L'ensemble des fonctions OpenGis est supporté via GEOS, cela comprend des fonctions d'analyse spatiale sophistiquées comme Overlaps(), Touches(), Union(), Buffer() ..
-* Support complet des métadonnées spatiales avec les spécifications OpenGis
-* Support de notations alternatives pour les géométries - EWKT, GML, KML et GeoJSON
+* ImplÃ©mente des fonctions spatiales SQL comme AsText(), GeomFromText(), Area(), PointN() et similaires
+* L'ensemble des fonctions OpenGis est supportÃ© via GEOS, cela comprend des fonctions d'analyse spatiale sophistiquÃ©es comme Overlaps(), Touches(), Union(), Buffer() ..
+* Support complet des mÃ©tadonnÃ©es spatiales avec les spÃ©cifications OpenGis
+* Support de notations alternatives pour les gÃ©omÃ©tries - EWKT, GML, KML et GeoJSON
 * Support de l'import et l'export des shapefiles
-* Support de la reprojection de coordonnées via PROJ.4 et jeux de paramètres géodésiques de l'EPSG
-* Support des jeux de caractères locaux via GNU libiconv
-* Implémente un véritable index spatial basé sur l'extension RTree SQLite
-* L'extension VirtualShape permet à SQLite d'accéder aux fichiers shape comme des tables virtuelles
-* Vous pouvez faire des requêtes SQL standard sur des shapefiles externes, sans avoir besoin de les importer ou de les convertir
-* L'extension VirtualText permet à SQLite d'accéder aux fichiers CSV/TSV comme des tables virtuelles 
-* L'extension VirtualXL permet à SQLite d'accéder aux tables de fichiers xls comme des tables virtuelles 
-* Vous pouvez faire des requêtes SQL standard sur des fichiers externes CSV/TSV ou des tables Excel, sans avoir besoin de les importer ou de les convertir
-* L'outil graphique supporte l'ensemble de ces éléments, d'une manière agréable pour l'utilisateur
+* Support de la reprojection de coordonnÃ©es via PROJ.4 et jeux de paramÃ¨tres gÃ©odÃ©siques de l'EPSG
+* Support des jeux de caractÃ¨res locaux via GNU libiconv
+* ImplÃ©mente un vÃ©ritable index spatial basÃ© sur l'extension RTree SQLite
+* L'extension VirtualShape permet Ã  SQLite d'accÃ©der aux fichiers shape comme des tables virtuelles
+* Vous pouvez faire des requÃªtes SQL standard sur des shapefiles externes, sans avoir besoin de les importer ou de les convertir
+* L'extension VirtualText permet Ã  SQLite d'accÃ©der aux fichiers CSV/TSV comme des tables virtuelles 
+* L'extension VirtualXL permet Ã  SQLite d'accÃ©der aux tables de fichiers xls comme des tables virtuelles 
+* Vous pouvez faire des requÃªtes SQL standard sur des fichiers externes CSV/TSV ou des tables Excel, sans avoir besoin de les importer ou de les convertir
+* L'outil graphique supporte l'ensemble de ces Ã©lÃ©ments, d'une maniÃ¨re agrÃ©able pour l'utilisateur
 
 
-Détails
+DÃ©tails
 --------------------------------------------------------------------------------
 
 **Site web:** http://www.gaia-gis.it/gaia-sins/
@@ -60,13 +60,13 @@ Détails
 
 **Version du logiciel:** spatialite 3.1.0a / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
 
-**Plates-formes supportées:** Linux, Mac, Windows
+**Plates-formes supportÃ©es:** Linux, Mac, Windows
 
 **Interface API:** C
 
 
-Guide de démarrage rapide
+Guide de dÃ©marrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/spatialite_quickstart>`
+* :doc:`Documentation du guide de dÃ©marrage rapide <../quickstart/spatialite_quickstart>`
 

@@ -11,35 +11,35 @@
 LibLAS
 ================================================================================
 
-Accès aux données LiDAR
+AccÃ¨s aux donnÃ©es LiDAR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-libLAS est une bibliothèque C/C++ pour lire et écrire le format très courant 
-pour le `LiDAR`_ , `LAS`. Le `format LAS ASPRS`_ est un format séquentiel binaire 
-utilisé pour stocker des données de capteurs LiDAR et par les logiciels de 
-traitement de données LiDAR pour l'échange et l'archivage.
+libLAS est une bibliothÃ¨que C/C++ pour lire et Ã©crire le format trÃ¨s courant 
+pour le `LiDAR`_ , `LAS`. Le `format LAS ASPRS`_ est un format sÃ©quentiel binaire 
+utilisÃ© pour stocker des donnÃ©es de capteurs LiDAR et par les logiciels de 
+traitement de donnÃ©es LiDAR pour l'Ã©change et l'archivage.
 
 .. image:: ../../images/screenshots/800x600/liblas.jpg
   :alt: Acquisition LiDAR
   :align: right
   :scale: 80 %
   
-Le LiDAR (Light Detection and Ranging) est une forme de détection d'intervalles 
-de distance haute-précision un peu comme l'est un système radar qui utilise un 
-laser lumineux comme émission électromagnétique. Un des produits issu des 
-systèmes LIDAR est une donnée de nuages de points qui peut être conceptualisée 
-en une série de mesures de points représentant la distance du capteur par rapport 
-à l'émission retournée. Un format de stockage courant pour ces données de nuages 
+Le LiDAR (Light Detection and Ranging) est une forme de dÃ©tection d'intervalles 
+de distance haute-prÃ©cision un peu comme l'est un systÃ¨me radar qui utilise un 
+laser lumineux comme Ã©mission Ã©lectromagnÃ©tique. Un des produits issu des 
+systÃ¨mes LIDAR est une donnÃ©e de nuages de points qui peut Ãªtre conceptualisÃ©e 
+en une sÃ©rie de mesures de points reprÃ©sentant la distance du capteur par rapport 
+Ã  l'Ã©mission retournÃ©e. Un format de stockage courant pour ces donnÃ©es de nuages 
 de points est le format LAS ASPRS.
 
-Caractéristiques principales
+CaractÃ©ristiques principales
 --------------------------------------------------------------------------------
 
-* API C/C++/Python pour lire, écrire et manipuler des données LAS
-* `Utilitaires en ligne de commande`_ pour manipuler les données LAS basé sur `LAStools`_
-* Reprojection de coordonnées via `GDAL <http://gdal.org>`__
+* API C/C++/Python pour lire, Ã©crire et manipuler des donnÃ©es LAS
+* `Utilitaires en ligne de commande`_ pour manipuler les donnÃ©es LAS basÃ© sur `LAStools`_
+* Reprojection de coordonnÃ©es via `GDAL <http://gdal.org>`__
 
-Détails
+DÃ©tails
 --------------------------------------------------------------------------------
  
 **Site web:** http://liblas.org
@@ -48,21 +48,21 @@ Détails
 
 **Version du logiciel:** 1.7.0
 
-**Plates-formes supportées:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), and Linux
+**Plates-formes supportÃ©es:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), and Linux
 
 **Interfaces de l'API:** C, C++, Python
 
 **Support:** `Communication et support <http://liblas.org/community.html>`_
 
-Guide de démarrage rapide
+Guide de dÃ©marrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/liblas_quickstart>`
+* :doc:`Documentation du guide de dÃ©marrage rapide <../quickstart/liblas_quickstart>`
 
 .. _`LIDAR`: http://en.wikipedia.org/wiki/LIDAR
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/
 .. _`Format LAS`: http://www.lasformat.org/
-.. _`Comité des standards ASPRS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
+.. _`ComitÃ© des standards ASPRS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
 .. _`format LAS ASPRS`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
 .. _`Utilitaires en ligne de commande`: http://liblas.org/utilities/index.html
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/

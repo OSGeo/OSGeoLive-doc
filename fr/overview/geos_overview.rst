@@ -19,31 +19,31 @@
 GEOS
 ================================================================================
 
-Bibliothèque spatiale
+BibliothÃ¨que spatiale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) est un port en C++ de la `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_. Elle inclut les fonctions de prédicats et les opérations spatiales de la spécification OGC "OpenGIS Simple Features for SQL spatial", ainsi que les fonctions de topologie améliorées spécifiques à JTS.
+GEOS (Geometry Engine - Open Source) est un port en C++ de la `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_. Elle inclut les fonctions de prÃ©dicats et les opÃ©rations spatiales de la spÃ©cification OGC "OpenGIS Simple Features for SQL spatial", ainsi que les fonctions de topologie amÃ©liorÃ©es spÃ©cifiques Ã  JTS.
 
-GEOS est la bibliothèque de géométrie géospatiale en C++ la plus utilisée, motorisant des projets opensource comme que :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` et :doc:`MapServer <mapserver_overview>`, et des produits propriétaires comme `FME <http://www.safe.com/fme/fme-technology/>`_.
+GEOS est la bibliothÃ¨que de gÃ©omÃ©trie gÃ©ospatiale en C++ la plus utilisÃ©e, motorisant des projets opensource comme que :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` et :doc:`MapServer <mapserver_overview>`, et des produits propriÃ©taires comme `FME <http://www.safe.com/fme/fme-technology/>`_.
 
-Standards implémentés
+Standards implÃ©mentÃ©s
 --------------------------------------------------------------------------------
 
-* fonctions de prédicats et les opérations spatiales "OpenGIS Simple Features for SQL spatial" de l'OGC
+* fonctions de prÃ©dicats et les opÃ©rations spatiales "OpenGIS Simple Features for SQL spatial" de l'OGC
 
-Caractéristiques principales
+CaractÃ©ristiques principales
 --------------------------------------------------------------------------------
     
-* Géometries: Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, GeometryCollection
-* Prédicats: Intersects, Touches, Disjoint, Crosses, Within, Contains, Overlaps, Equals, Covers
-* Opérations: Union, Distance, Intersection, Symmetric Difference, Convex Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length, 
-* Géométries préparées (pré-indexées spatialement)
+* GÃ©ometries: Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, GeometryCollection
+* PrÃ©dicats: Intersects, Touches, Disjoint, Crosses, Within, Contains, Overlaps, Equals, Covers
+* OpÃ©rations: Union, Distance, Intersection, Symmetric Difference, Convex Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length, 
+* GÃ©omÃ©tries prÃ©parÃ©es (prÃ©-indexÃ©es spatialement)
 * Index spatial STR
-* encodeurs et décodeurs du Well Known Text (WKT) du Well Known Binary (WKB) de l'OGC
-* API C et C++ (l'API C permet un stabilité de l'ABI à long terme)
-* Thread safe (en utilisant l'API réentrante)
+* encodeurs et dÃ©codeurs du Well Known Text (WKT) du Well Known Binary (WKB) de l'OGC
+* API C et C++ (l'API C permet un stabilitÃ© de l'ABI Ã  long terme)
+* Thread safe (en utilisant l'API rÃ©entrante)
 
-Détails
+DÃ©tails
 --------------------------------------------------------------------------------
 
 **Site web:**  http://geos.osgeo.org/
@@ -52,7 +52,7 @@ Détails
 
 **Version du logiciel:** 3.3.2
 
-**Plates-formes supportées:** Windows, Linux, Mac
+**Plates-formes supportÃ©es:** Windows, Linux, Mac
 
 **Interfaces de l'API:** C, C++
 

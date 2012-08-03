@@ -15,43 +15,43 @@ GeoKettle
 Extract Transform Load (ETL)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoKettle est une version de `Pentaho Data Integration <http://kettle.pentaho.com>`_ (connu aussi comme Kettle) avec des fonctionnalités spatiales. C'est un ETL (Extract, Transform and Load) puissant, s'appuyant sur les métadonnées spatiales et dédié à l'intégration de différentes sources de données, servant à créer et à mettre à jour des bases de données géospatiales, des silos de données et des services web.
+GeoKettle est une version de `Pentaho Data Integration <http://kettle.pentaho.com>`_ (connu aussi comme Kettle) avec des fonctionnalitÃ©s spatiales. C'est un ETL (Extract, Transform and Load) puissant, s'appuyant sur les mÃ©tadonnÃ©es spatiales et dÃ©diÃ© Ã  l'intÃ©gration de diffÃ©rentes sources de donnÃ©es, servant Ã  crÃ©er et Ã  mettre Ã  jour des bases de donnÃ©es gÃ©ospatiales, des silos de donnÃ©es et des services web.
 
-GeoKettle permet l'extraction de données depuis des sources de données, la transformation des données pour pouvoir corriger les erreurs, nettoyer les données, changer la structure de données, rendre les données conformes avec les standards, et charger les données transformée dans un SGBD, un fichier SIG, ou un service web géospatial. GeoKettle est particulièrement utile pour automatiser des traitements complexes et répétitifs sans produire du code spécifique, faire des conversions entre formats de données, migrer des données entre SGBD, alimenter des SGBD en données, etc.
+GeoKettle permet l'extraction de donnÃ©es depuis des sources de donnÃ©es, la transformation des donnÃ©es pour pouvoir corriger les erreurs, nettoyer les donnÃ©es, changer la structure de donnÃ©es, rendre les donnÃ©es conformes avec les standards, et charger les donnÃ©es transformÃ©e dans un SGBD, un fichier SIG, ou un service web gÃ©ospatial. GeoKettle est particuliÃ¨rement utile pour automatiser des traitements complexes et rÃ©pÃ©titifs sans produire du code spÃ©cifique, faire des conversions entre formats de donnÃ©es, migrer des donnÃ©es entre SGBD, alimenter des SGBD en donnÃ©es, etc.
 
-Dans le domaine géospatial, Geokettle doit être comparé à FME, un ETL spatial propriétaire. GeoKettle est stable, rapide, conforme à la norme, avec des centaines de fonctions le support de lecture/écriture pour de nombreux formats de fichier, services et SGBD. GeoKettle est utilisé par diverses organisations autour du monde, dont des agences gouvernementales, des banques, des assurances et des intégrateurs de systèmes géospatiaux.
+Dans le domaine gÃ©ospatial, Geokettle doit Ãªtre comparÃ© Ã  FME, un ETL spatial propriÃ©taire. GeoKettle est stable, rapide, conforme Ã  la norme, avec des centaines de fonctions le support de lecture/Ã©criture pour de nombreux formats de fichier, services et SGBD. GeoKettle est utilisÃ© par diverses organisations autour du monde, dont des agences gouvernementales, des banques, des assurances et des intÃ©grateurs de systÃ¨mes gÃ©ospatiaux.
 
 .. image:: ../../images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
-  :alt: Capture d'écran GeoKettle
+  :alt: Capture d'Ã©cran GeoKettle
   :align: right
 
-Caractéristiques principales
+CaractÃ©ristiques principales
 --------------------------------------------------------------------------------
 
-* Extraction de données depuis: 
+* Extraction de donnÃ©es depuis: 
 
-  * plus de 35 types de base de données: MySQL, PostgreSQL/PostGIS, Oracle, ...
+  * plus de 35 types de base de donnÃ©es: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * fichiers XML
   * fichiers XLS
   * fichiers Xbase (dBase, Foxpro, etc)
-  * informations des systèmes de fichiers
-  * données générées
+  * informations des systÃ¨mes de fichiers
+  * donnÃ©es gÃ©nÃ©rÃ©es
   * fichiers Microsoft Access
   * LDAP
-  * système SOLAP (Spatial OLAP): GeoMondrian
-  * formats de données géospatiales: Shapefile, GML 3.1.1, KML 2.2, tous les formats supportés par OGR
+  * systÃ¨me SOLAP (Spatial OLAP): GeoMondrian
+  * formats de donnÃ©es gÃ©ospatiales: Shapefile, GML 3.1.1, KML 2.2, tous les formats supportÃ©s par OGR
   * services web OGC: Web Feature Service (WFS), Sensor Observation Service (SOS), Catalogue Web Service (CSW)
 
-* Transformation de données:
+* Transformation de donnÃ©es:
 
-  * transfert de données basé sur moteur propre (pas de générateur de code) 
-  * tables de correspondance dans les bases de données, les fichiers ou en mémoire
+  * transfert de donnÃ©es basÃ© sur moteur propre (pas de gÃ©nÃ©rateur de code) 
+  * tables de correspondance dans les bases de donnÃ©es, les fichiers ou en mÃ©moire
   * calculs
   * scripting: Javascript, SQL, RegExp
-  * découpage
+  * dÃ©coupage
   * mapping
-  * sélection
+  * sÃ©lection
   * partitionnement
   * filtrage
   * fusion
@@ -59,37 +59,37 @@ Caractéristiques principales
   * duplication
   * fonctionnemment en grappe (MPP)
   * transposition
-  * analyse de données spatiales: tampon, centroïde, distance, intersection, union, ...
-  * géotraitements avancés: découpage, delaunay, simplifier/adoucir les géométries, découpages d'objets, ...
-  * agrégation spatiale
-  * prévisualisation cartographique
+  * analyse de donnÃ©es spatiales: tampon, centroÃ¯de, distance, intersection, union, ...
+  * gÃ©otraitements avancÃ©s: dÃ©coupage, delaunay, simplifier/adoucir les gÃ©omÃ©tries, dÃ©coupages d'objets, ...
+  * agrÃ©gation spatiale
+  * prÃ©visualisation cartographique
 
-* Chargement de données dans un format cible:
+* Chargement de donnÃ©es dans un format cible:
 
-  * chargements de base de données: MySQL, PostgreSQL/PostGIS, Oracle, ...
-  * alimentation de silos de données
-  * froamts de données géospatiales: Shapefile, GML 3.1.1, KML 2.2, tous les formats supportés par OGR
+  * chargements de base de donnÃ©es: MySQL, PostgreSQL/PostGIS, Oracle, ...
+  * alimentation de silos de donnÃ©es
+  * froamts de donnÃ©es gÃ©ospatiales: Shapefile, GML 3.1.1, KML 2.2, tous les formats supportÃ©s par OGR
   * services web OGC: Catalogue Web Service (CSW), ...
-  * chargement partitionné
+  * chargement partitionnÃ©
   * chargement en masse
-  * chargement parallèle
+  * chargement parallÃ¨le
   * fonctionnement en grappe
 
 * Environnement:
   
-  * interface graphique complète nommée "Spoon" pour éditer toutes les options de transformation
-  * outils en ligne de commande: pour exécuter des tâches et des transformations
-  * serveur web: exécution distante et fonctionnment en grappe parfait pour les environnement
-    dans "les nuages" pour le traitement de jeux de données très importants.
+  * interface graphique complÃ¨te nommÃ©e "Spoon" pour Ã©diter toutes les options de transformation
+  * outils en ligne de commande: pour exÃ©cuter des tÃ¢ches et des transformations
+  * serveur web: exÃ©cution distante et fonctionnment en grappe parfait pour les environnement
+    dans "les nuages" pour le traitement de jeux de donnÃ©es trÃ¨s importants.
   * API de programmation pour Java
-  * écosystème de plugins
+  * Ã©cosystÃ¨me de plugins
 
-Standards Implémentés
+Standards ImplÃ©mentÃ©s
 --------------------------------------------------------------------------------
 
 * conforme aux standards OGC (SFS, CSW, SOS)
 
-Détails
+DÃ©tails
 --------------------------------------------------------------------------------
 
 **Site web:** http://www.geokettle.org/
@@ -98,14 +98,14 @@ Détails
 
 **Version du logiciel:** 2.0
 
-**Plates-formes supportées:** Windows, Linux, Mac, Solaris
+**Plates-formes supportÃ©es:** Windows, Linux, Mac, Solaris
 
 **Interfaces de l'API:** Java, Javascript
 
 **Support:** http://www.spatialytics.org & http://www.spatialytics.com
 
 
-Guide de démarrage rapide
+Guide de dÃ©marrage rapide
 --------------------------------------------------------------------------------
     
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/geokettle_quickstart>`
+* :doc:`Documentation du guide de dÃ©marrage rapide <../quickstart/geokettle_quickstart>`
