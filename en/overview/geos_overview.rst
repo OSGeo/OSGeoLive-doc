@@ -29,7 +29,7 @@ GEOS is the most widely used geospatial C++ geometry library, being used by open
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OpenGIS Simple Features for SQL spatial predicate functions and spatial operators
+* `OpenGIS Simple Features for SQL <http://www.opengeospatial.org/standards/sfs>`_  spatial predicate functions and spatial operators
 
 Core Features
 --------------------------------------------------------------------------------
