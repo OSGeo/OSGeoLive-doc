@@ -44,7 +44,7 @@ Caractéristiques principales
 * Importer à partir de shapefiles ESRI, de WFS, de bases de données PostGIS (données vectorielles) ainsi que de GeoTIFF et de fichiers ArcASCII (données raster).
 * Traduit en allemand, anglais, italien, turc, russe et français.
 
-Normes implémentées
+Standards implémentés
 --------------------------------------------------------------------------------
 
 * OGC Style Layer Descriptor (SLD) 1.0
@@ -57,7 +57,7 @@ Détails
 
 **Version du logiciel:** 1.9
 
-**License:** Licence GNU Lesser General Public (LGPL) version 3.0
+**Licence:** Licence GNU Lesser General Public (LGPL) version 3.0
 
 **Plates-formes supportées:** Windows, Linux
 
