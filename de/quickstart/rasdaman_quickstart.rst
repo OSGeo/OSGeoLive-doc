@@ -17,7 +17,7 @@
 rasdaman Quickstart
 *******************
 
-rasdaman ist ein Rasterserver, der Anfragen an n-D Daten, die in einer relationalen Datenbank gespeichert sind.
+rasdaman ist ein Rasterserver, der es erlaubt, Anfragen an n-D Datensätze, die in einer relationalen Datenbank gespeichert sind, zu stellen.
 
 Dieser Quickstart Guide beschreibt, wie Anfragen an eine "Spielwiese" von Rasterobjekten gestellt werden können.
 Um mit den Beispielen arbeiten zu können, ist der rasdaman Server zu starten (:menuselection:`Geospatial --> Databases --> Rasdaman --> Start Rasdaman Server`).
