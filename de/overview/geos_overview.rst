@@ -48,7 +48,7 @@ Kernfunktionen
 * Vorbereitete Geometrien (räumlich vorindiziert)
 * STR räumlicher Index
 * OGC Well Known Text (WKT) and Well Known Binary (WKB) Encoder und Decoder.
-* C and C++ API (C API langfristige Beständigkeit ABI stability)
+* C and C++ API (C API sichert langfristige ABI Beständigkeit zu)
 * Thread-sicher (mit dem Reentrant API)
 
 Details
