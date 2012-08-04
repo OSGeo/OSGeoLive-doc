@@ -18,7 +18,7 @@ rasdaman Quickstart
 
 rasdaman is a raster server allowing queries on n-D raster data stored in a standard relational database.
 
-This Quick Start describes how to try out queries on a sandbox of raster objects. Before trying these examples, the rasdaman server has to be started (Geospatial -> Databases -> Rasdaman -> Start Rasdaman Server).
+This Quick Start describes how to try out queries on a sandbox of raster objects. Before trying these examples, the rasdaman server has to be started (:menuselection:`Geospatial --> Databases --> Rasdaman --> Start Rasdaman Server`).
 
 Exploring the 1-D to 4-D examples
 ================================================================================
@@ -29,7 +29,7 @@ Running queries locally
 ================================================================================
 
     * Open a console and open the sample database installed locally
-    * use the rasql utility to send queries and receive results, for example::
+    * use the :command:`rasql` utility to send queries and receive results, for example::
 
       $ rasql -q "select png((char)(c.red / (c.red + c.green) - c.green / (c.red + c.green)) > 0.6 * 255) from rgb AS c" --out file
 
@@ -45,7 +45,7 @@ Create your own database
 
       $ install_demo.sh
 
-    * use the rasql utility to send queries and receive results, for example::
+    * use the :command:`rasql` utility to send queries and receive results, for example::
 
       $ rasql -q "select png( NIR ) from NIR" --out file
 

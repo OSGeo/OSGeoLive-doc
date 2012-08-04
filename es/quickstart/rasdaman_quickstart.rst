@@ -18,7 +18,7 @@ Guía de inicio rápido de rasdaman
 
 rasdaman es un servidor *raster* que permite la realización de consultas sobre datos *rasters* n-D almacenados en una base de datos relacional estándar.
 
-Esta guía de inicio rápido describe cómo probar algunas consultas en un entorno de pruebas de objetos *raster*. Antes de probar estos ejemplos el servidor rasdaman debe ejecutarse (Geospatial -> Databases -> Rasdaman -> Start Rasdaman Server).
+Esta guía de inicio rápido describe cómo probar algunas consultas en un entorno de pruebas de objetos *raster*. Antes de probar estos ejemplos el servidor rasdaman debe ejecutarse (:menuselection:`Geospatial --> Databases --> Rasdaman --> Start Rasdaman Server`).
 
 Explorando los ejemplos de 1-D a 4-D
 ================================================================================
@@ -29,7 +29,7 @@ Ejecutar consultas locales
 ================================================================================
 
     * Abrir una terminal y abrir la base de datos de ejemplo instalada en local
-    * Usar la utilidad para enviar consultas y recibir resultados, por ejemplo::
+    * Usar la utilidad :command:`rasql`para enviar consultas y recibir resultados, por ejemplo::
 
       $ rasql -q "select png((char)(c.red / (c.red + c.green) - c.green / (c.red + c.green)) > 0.6 * 255) from rgb AS c" --out file
 
@@ -45,7 +45,7 @@ Crea tu propia base de datos
 
       $ install_demo.sh
 
-    * Usar la utilidad para enviar consultas y recibir resultados, por ejemplo::
+    * Usar la utilidad :command:`rasql` para enviar consultas y recibir resultados, por ejemplo::
 
       $ rasql -q "select png( NIR ) from NIR" --out file
 
