@@ -9,27 +9,27 @@ Estándares del Open GeoSPatial Consortium
 Introducción
 --------------------------------------------------------------------------------
 
-El Open Geospatial Consortium (OGC) fue fundado en 1994 para hacer de la información geográfica una parte integral de la infraestructura mundial de información. Los miembros de OGC (usuarios y proveedores de tecnología) desarrollan de forma colaborativa estándares de interfaz y los estándares asociados, así como buenas prácticas, que permiten a los desarrolladores crear sistemas de información que pueden fácilmente intercambira información geográfica e instrucciones con otros sistemas de información. Lo requisitos varían desde planificacione complejas y control de satélites de observación terrestre a la visualización de sencillas imágenes cartográficas en la web, así como la codificación de la localización en apenas unos pocos *bytes* para geoetiquetado y mensajería. Un vistazo a los *OGC Domain Working Groups* (http://www.opengeospatial.org/projects/groups/wg) muestra el amplio espectro de la actividad actual en OGC.
+El Open Geospatial Consortium (OGC) fue fundado en 1994 para hacer de la información geográfica una parte integral de la infraestructura mundial de información. Los miembros de OGC (usuarios y proveedores de tecnología) desarrollan de forma colaborativa estándares de interfaz y los estándares asociados, así como buenas prácticas, que permiten a los desarrolladores crear sistemas de información que pueden fácilmente intercambiar información geográfica e instrucciones con otros sistemas de información. Los requisitos varían desde planificaciones complejas y control de satélites de observación terrestre a la visualización de sencillas imágenes cartográficas en la web, así como la codificación de la localización en apenas unos pocos *bytes* para geoetiquetado y mensajería. Un vistazo a los *OGC Domain Working Groups* (http://www.opengeospatial.org/projects/groups/wg) muestra el amplio espectro de la actividad actual en OGC.
 
 La línea base de OGC y el Modelo de Referencia OGC
 --------------------------------------------------------------------------------
 
-La línea base de estándares OGC consiste en los estándares OGC (http://www.opengeospatial.org/standards) para interfaces, codificación, perfiles, esquemas de aplicación y documentos de buenas prácticas. El Modelo de Referencia OGC (ORM) (http://www.opengeospatial.org/standards/orm) describe estos estándares y las relaciones entre ellos los estándares ISO relacionados. El ORM proporciona un vistazo sobre los estándares OGC y sirve como un recurso de utilidad para definir arquitecturas de aplicaciones específicas.
+La línea base de estándares OGC consiste en los estándares OGC (http://www.opengeospatial.org/standards) para interfaces, codificación, perfiles, esquemas de aplicación y documentos de buenas prácticas. El Modelo de Referencia OGC (ORM) (http://www.opengeospatial.org/standards/orm) describe estos estándares y su vínculo con los estándares ISO relacionados. El ORM proporciona una visión general sobre los estándares OGC y sirve como un recurso de utilidad para definir arquitecturas de aplicaciones específicas.
 
-En el desarrollo de aplicaciones de servicios web usando estándares OGC (y también para aprender las relacione entre ellos) ayuda a pensar en publicar, encontrar y enlazar como las funciones clave para aplicaciones en un entorno de servicios web.
+En el desarrollo de aplicaciones de servicios web usando estándares OGC (y en el aprendizaje de las relaciones entre ellos) ayuda a pensar en "publicar", "encontrar" y "enlazar" como las funciones clave para aplicaciones en un entorno de servicios web.
 
 * Publicar: Proveedores de recursos publicitan sus recursos
-* Encontrar: Los usuarios finales y sus aplicaciones pueden descubrir recursos que pueden decesitar en tiempo de ejecución
+* Encontrar: Los usuarios finales y sus aplicaciones pueden descubrir recursos que necesitan en tiempo de ejecución
 * Enlazar: Los usuarios finales y sus aplicaciones pueden acceder y ejecutar los recursos en tiempo de ejecución
 
-Muchos de los estándares OGC desarrollados en los últimos años son estándare para entornos de servicios web, y estos estándares son referidos colectivamente como *OGC Web Services* (OWS). La figura inferior proporciona un esquema general de arquitectura para los OGC Web Services. Este esquema identifica las clases genéricas de servicios que participan en diversas actividades de geoprocesamiento y localización.
+Muchos de los estándares OGC desarrollados en los últimos años son estándares para entornos de servicios web, y estos estándares son referidos colectivamente como *OGC Web Services* (OWS). La figura inferior proporciona un esquema general de arquitectura para los OGC Web Services. Este esquema identifica las clases genéricas de servicios que participan en diversas actividades de geoprocesamiento y localización.
 
 
 .. figure:: ../../images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Web services framework of OGC geoprocessing standards
 
-Los acrónimos en la figura se definen más abajo. Algunos de éstos son "Estándares OGC" y otros están públicamente disponibles como *Discussion Papers*, *Requests* y *Recommendation Papers*. (Cabe destacar que alguno estándares preliminares no son todavía públicos, pero están disponibles para los miembros de OGC).
+Los acrónimos en la figura se definen más abajo. Algunos de éstos son "Estándares OGC" y otros están públicamente disponibles como *Discussion Papers*, *Requests* y *Recommendation Papers*. (Cabe destacar que algunos estándares preliminares no son todavía públicos, pero están disponibles para los miembros del OGC).
 
 .. add all standard overview documents to the toc and add all others right behind
 
