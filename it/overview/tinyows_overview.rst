@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: Luca Delucchi
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -31,7 +32,7 @@ TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which i
 TinyOWS è comunamente utilizzanto insieme a :doc:`MapServer <mapserver_overview>` per fornire servizi WFS-T e WFS veloci per client come :doc:`QGIS <qgis_overview>` e/o :doc:`OpenLayers <openlayers_overview>`. È utilizzato in fase produttiva in organizzazioni sparse in tutto il mondo, incluse risk adverse government agencies.
 TinyOWS implementa rigorosamente gli standard WFS 1.0 e 1.1, e ha passato tutti i test OGC CITE units (~ 1000 test unici).
 
-Core Features
+Caratteristiche Principali
 --------------------------------------------------------------------------------
 
 * Transactional Web Feature Service (WFS-T)
@@ -62,7 +63,7 @@ Dettagli
 **Supporto:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
-Presentazione Veloce
+Guida Rapida
 --------------------------------------------------------------------------------
     
 * :doc:`Documentazione introduttiva <../quickstart/tinyows_quickstart>`

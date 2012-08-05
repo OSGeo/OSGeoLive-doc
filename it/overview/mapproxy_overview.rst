@@ -1,5 +1,6 @@
 :Author: Oliver Tonnhofer
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: Luca Delucchi
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -11,7 +12,7 @@
 MapProxy
 ================================================================================
 
-Proxy WMS & tile services
+Proxy WMS & server di tile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/mapproxy.png
@@ -74,7 +75,7 @@ Sicurezza:
   * accesso ristretto ad aree poligonali
   * si integra con i database e i metodi di autentificazione esistenti
 
-Other features:
+Altre caratteristiche:
   * semplice ma potente formato di configurazione (YAML/JSON)
   * client demo basato su OpenLayers
   * fai girare diversi servizi WMS in una istanza MapProxy
