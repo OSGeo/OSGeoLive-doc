@@ -14,41 +14,41 @@
 GMT
 ================================================================================
 
-��I�Ȓn�}���c�[��
+包括的な地図化ツール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GMT �́A (x,y) ����� (x,y,z) �̃f�[�^�Z�b�g�i�t�B���^�����O��A��A�̂��Ă͂߁A�O���b�h���A���e�Ȃǂ��܂ށj�̃��[�U�[������\�ɂ���c�[���̃R���N�V�����ł��B����͂���ɁA�������}�b�v������P���� x-y �ɂ��`�悩��l�H�Ɩ��ɂ��T�[�t�F�X��3D�����}���A���Ɣ��A�O���[�g�[���A�n�b�`�p�^�[���A24�r�b�g�J���[�Ɏ���܂ŁA Encapsulated PostScript File (EPS)  �Ő���������̂ł��B
+GMT は、 (x,y) および (x,y,z) のデータセット（フィルタリングや、回帰のあてはめ、グリッド化、投影などを含む）のユーザー操作を可能にするツールのコレクションです。それはさらに、等高線マップを介した単純な x-y による描画から人工照明によるサーフェスや3D透視図を、黒と白、グレートーン、ハッチパターン、24ビットカラーに至るまで、 Encapsulated PostScript File (EPS)  で生成するものです。
 
-GMT �́A�����̈�ʓI�Ȓn�}���e�@�ɉ����āA���`�A�ΐ��A�p���[�X�P�[�����O�ɑΉ����A�C�ݐ���͐�A�����I���E���̂悤�ȑΉ��f�[�^���t�����Ă��܂��B
+GMT は、多くの一般的な地図投影法に加えて、線形、対数、パワースケーリングに対応し、海岸線や河川、政治的境界線のような対応データが付属しています。
 
 .. image:: ../../images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-��ȋ@�\
+主な機能
 --------------------------------------------------------------------------------
 
-* �_���i���̒n�}����
-* �O���b�h���Ɠ������@�\
+* 論文品質の地図製作
+* グリッド化と等高線機能
 
-�ڍ�
+詳細
 --------------------------------------------------------------------------------
 
-**�E�F�u�T�C�g:** http://gmt.soest.hawaii.edu
+**ウェブサイト:** http://gmt.soest.hawaii.edu
 
-**���C�Z���X:** GNU General Public License (GPL) version 2
+**ライセンス:** GNU General Public License (GPL) version 2
 
-**�o�[�W����:** 4.5.6
+**バージョン:** 4.5.6
 
-**�����:** GNU/Linux, Mac OSX, MS Windows
+**動作環境:** GNU/Linux, Mac OSX, MS Windows
 
 **API:** Command line
 
-**�T�|�[�g:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**サポート:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 
-�N�C�b�N�X�^�[�g
+クイックスタート
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
