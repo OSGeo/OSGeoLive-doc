@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: 
+:Translator: Jorge Sanz
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 

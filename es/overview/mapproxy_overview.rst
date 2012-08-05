@@ -1,4 +1,6 @@
-:Author: Mauricio Miranda
+:Author: Oliver Tonnhofer
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Mauricio Miranda
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

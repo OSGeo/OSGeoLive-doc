@@ -1,4 +1,5 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
+:Translator: Jorge Sanz
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

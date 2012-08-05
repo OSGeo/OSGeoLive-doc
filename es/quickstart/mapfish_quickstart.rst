@@ -1,4 +1,5 @@
 :Author: Eric Lemoine, Bruno Binet
+:Translator: Samuel Mesa
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

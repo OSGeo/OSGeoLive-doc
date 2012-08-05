@@ -1,5 +1,6 @@
 :Author: Trevor Wekel
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: José Antonio Canalejo
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

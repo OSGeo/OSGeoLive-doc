@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Translator: Javier Sánchez
 :Version: osgeo-live4.0
 :License: Creative Commons
 

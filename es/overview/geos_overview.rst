@@ -1,6 +1,7 @@
 :Autor: OSGeo-Live
 :Autor: Frank Warmerdam
 :Revisor: Cameron Shorter, LISAsoft
+:Translator: Javier Sánchez
 :Versión: osgeo-live6.0
 :Licencia: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

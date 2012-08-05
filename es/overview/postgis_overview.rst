@@ -8,6 +8,7 @@
    Metadatos sobre este documento
 
 :Author: OSGeo Live
+:Translator: Lucía Sanjaime
 :Version: osgeo-live4.0
 :Licence: Creative Commons
 

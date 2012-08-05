@@ -1,4 +1,5 @@
-:Author: Mauricio Miranda
+:Author: OSGeo-Live
+:Translator: Mauricio Miranda
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

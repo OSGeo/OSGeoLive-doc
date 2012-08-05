@@ -1,7 +1,8 @@
-:Autor: OSGeo-Live
-:Autor: Mike Adair
-:Versión: osgeo-live5.0
-:Licencia: Creative Commons
+:Author: OSGeo-Live
+:Author: Mike Adair
+:Translator: Diego González
+:Version: osgeo-live5.0
+:License: Creative Commons
 
 .. _metacrs-overview-es:
 

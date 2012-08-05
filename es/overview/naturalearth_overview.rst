@@ -1,6 +1,7 @@
-:Autor: OSGeo Live
-:Versión: osgeo-live4.5
-:Licencia: Creative Commons
+:Author: OSGeo Live
+:Translator: Mauricio Pazos
+:Verson: osgeo-live4.5
+:License: Creative Commons
 
 .. _naturalearth-overview-es:
 

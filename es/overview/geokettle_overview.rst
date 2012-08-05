@@ -1,4 +1,5 @@
-:Author: OSGeo-Live
+:Author: Thierry Badard 
+:Translator: Pedro-Juan Ferrer
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -13,7 +14,7 @@
 GeoKettle
 ================================================================================
 
-Data Integration
+Extracción Transformación y Carga (ETL)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoKettle es una versión de `Pentaho Data Integration (Kettle) <http://www.pentaho.com/products/data_integration/>`_ con capacidad de tratamiento de datos espaciales. Es una potente herramienta ETL (siglas en inglés de Extract, Transform and Load: Extracción, Transformación y Carga) orientada al uso de metadatos y con funcionalidades espaciales dedicada a la integración de diversos orígenes de datos para la construcción y/o actualización de bases de datos espaciales y almacenes de datos espaciales.

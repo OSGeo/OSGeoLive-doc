@@ -1,4 +1,6 @@
-:Author: OSGeo-Live
+:Author: Jody Garnett
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Samuel Mesa
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

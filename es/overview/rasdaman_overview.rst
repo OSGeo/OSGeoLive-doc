@@ -1,4 +1,5 @@
 :Author: Peter Baumann , Michael Owonibi, Jinsongdi Yu
+:Translator: José Antonio Canalejo
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

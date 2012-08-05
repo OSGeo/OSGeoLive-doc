@@ -1,5 +1,6 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Reviewer: TBD
+:Translator: Jorge Sanz
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

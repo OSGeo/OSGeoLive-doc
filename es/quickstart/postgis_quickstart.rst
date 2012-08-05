@@ -1,6 +1,7 @@
 :Author: Barry Rowlingson
 :Author: Astrid Emde
 :Author: Cameron Shorter
+:Translator: Lucía Sanjaime
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

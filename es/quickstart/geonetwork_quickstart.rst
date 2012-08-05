@@ -1,4 +1,5 @@
 :Author: Comunidad de GeoNetwork
+:Translator: Òscar Fonts
 :Version: osgeo-live4.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: Comunidad de GeoNetwork 

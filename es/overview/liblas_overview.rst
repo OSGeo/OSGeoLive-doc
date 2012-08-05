@@ -1,4 +1,5 @@
 :Autor: Howard Butler
+:Translator: Javier Sánchez
 :Revisado por: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :Licencia: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

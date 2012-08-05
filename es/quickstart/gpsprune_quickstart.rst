@@ -1,4 +1,5 @@
 :Author: activityworkshop
+:Translator: Jorge Sanz
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

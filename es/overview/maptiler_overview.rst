@@ -1,4 +1,5 @@
 :Autor: Klokan Petr Pridal
+:Translator: Javier Sánchez
 :Versión: osgeo-live4.0
 :Licencia: Creative Commons
 

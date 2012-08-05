@@ -1,4 +1,5 @@
 :Author: OSGeo-Live
+:Translator: Samuel Mesa
 :Version: osgeo-live6.0
 :License: Creative Commons
 

@@ -1,8 +1,9 @@
-:Autor: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Revisado por: Cameron Shorter, LISAsoft
-:Producto: MapWindow GIS 4.8.6
+:Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
+:Revisor: Cameron Shorter, LISAsoft
+:Translator: Javier Sánchez
+:Product: MapWindow GIS 4.8.6
 :Version: osgeo-live5.5
-:Licencia: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _mapwindow-overview-es:
 

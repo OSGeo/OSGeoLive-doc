@@ -1,5 +1,6 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: Jorge Sanz
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

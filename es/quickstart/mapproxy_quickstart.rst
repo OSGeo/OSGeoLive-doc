@@ -1,4 +1,6 @@
 :Author: Oliver Tonnhofer
+:Translator: Mauricio Miranda
+:Translator: Jorge Sanz
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

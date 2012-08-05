@@ -2,6 +2,7 @@
 :Author: Michael Owonibi (o.michael@jacobs-university.de)
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
 :Author: Dimitar Misev (d.misev@jacobs-university.de)
+:Translator: Jorge Sanz
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

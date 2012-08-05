@@ -1,5 +1,7 @@
-:Author: Mauricio Miranda
-:Versión: osgeo-live4.0
+:Author: Pirmin Kalberer
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Mauricio Miranda
+:Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _spatialite-overview-es:

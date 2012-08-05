@@ -1,4 +1,5 @@
 :Autor: activityworkshop
+:Translator: Javier Sánchez
 :Versión: osgeo-live4.5
 :Licencia: Creative Commons
 
