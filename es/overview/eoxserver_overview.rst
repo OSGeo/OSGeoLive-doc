@@ -22,8 +22,9 @@ EOxServer es un servidor para datos de Earth Observation (EO). Para ser más pre
 La misión de EOxServer: Proporcionar un entorno de desarrollo de software abierto para facilitar la provisión online the grandes archivos de datos de observación terrestre, a través de Servicios Estandar Abiertos, para que puedan ser explotados eficientemente por los usuarios.
 
 * Software abierto: licencia estilo MIT
-* Entorno: Enteramente basado en Software libre (Python, MapServer, 
-  Django/GeoDjango, GDAL, SpatiaLite, or PostGIS, y PROJ.4)
+* Entorno: Enteramente basado en Software libre (Python, :doc:`MapServer <mapserver_overview>`, 
+  Django/GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>` o 
+  :doc:`PostGIS <postgis_overview>`, y PROJ.4)
 * Facilita provisión online: Interface gráfica de usuario Admin y registro de datos a través de línea de comando.
 * Grandes archivos de datos de Observación Terrestre: Operadores registran datos raster existentes 
   Archivos

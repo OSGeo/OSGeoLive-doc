@@ -24,7 +24,9 @@ EOxServer
 για πιο εύκολη αναζήτηση και οπτικοποίηση από τους χρήστες.
 
 * Λογισμικό Ανοιχτού Κώδικα: άδεια χρήσης MIT
-* Πλατφόρμα Λογισμικού: Βασισμένο σε λογισμικά ανοιχτού κώδικα (Python, MapServer, Django/GeoDjango, GDAL, SpatiaLite ή PostGIS, και PROJ.4)
+* Πλατφόρμα Λογισμικού: Βασισμένο σε λογισμικά ανοιχτού κώδικα (Python, :doc:`MapServer <mapserver_overview>`, 
+  Django/GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>` ή 
+  :doc:`PostGIS <postgis_overview>`, και PROJ.4)
 * Εύκολη διαδικτυακή απεικόνιση: Μέσω γραφικού διαχειριστικού εργαλείου και εντολές τερματικού για εγγραφή εικόνων
 * Αποθετήριο μεγάλου όγκου τηλεπισκοπικών δεδομένων: Οι διαχειριστές εισάγουν υπάρχοντα σύνολα τηλεπισκοπικών δεδομένων
 * Υπηρεσίες Ανοιχτών Προτύπων: Ανοιχτά πρότυπα που είναι ευρέως διαδεδομένα: Open Geospatial Consortium (OGC), WMS, WCS, EO-WMS, EO-WCS

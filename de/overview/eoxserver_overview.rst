@@ -17,7 +17,7 @@ EOxServer
 Web Service
 -----------
 
-EOxServer ist ein Server für Erdbeobachtungsdaten (EO - Earth Observation). 
+EOxServer ist ein Server für Erdbeobachtungsdaten (Earth Observation - EO). 
 Genauer gesagt ist es eine Python-Anwendung und ein Framework für die Präsentation 
 von EO-Daten und Metadaten.
 
@@ -26,8 +26,9 @@ Online-Bereitstellung von großen EO-Datenarchiven über offene und standardisie
 Services für eine effiziente Nutzung durch die Benutzer zu erleichtern.
 
 * Open Source: MIT-ähnlichen Lizenz
-* Software-Framework: Komplett auf Open Source (Python, MapServer, Django / GeoDjango, 
-  GDAL, SpatiaLite oder PostGIS, und PROJ.4) basiert
+* Software-Framework: basiert komplett auf Open Source (Python, :doc:`MapServer <mapserver_overview>`, 
+  Django / GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>` oder 
+  :doc:`PostGIS <postgis_overview>` und PROJ.4)
 * Online-Bereitstellung vereinfachen: Admin-GUI und Daten-Registrierung über Kommandozeile 
 * Große EO-Datenarchive: Anwender kann vorhandene Rasterdaten registrieren
 * offene standadisierte Services: Offen im Sinne von frei verfügbar, Open Geospatial 
