@@ -45,8 +45,8 @@ EOxServer はオープンな規格を使用してオンラインの膨大な地�
 * WCS 2.0 規格のサポート（GetCapabilities, DescribeCoverage, GetCoverage への対応,
   KVP-, および XML/POST プロトコルバインディング）
 * 今後実装予定の機能拡張: GeoTIFF のエンコーディングに対応、EPSG 対応、
- スケール変更と編集、non-referenced access。今後実装予定、は WCS 盧最新の仕様を反映した物です。
- WCS の標準化グループの議論と、既存の1.1、1.0版を参照しています。
+  スケール変更と編集、non-referenced access。今後実装予定、は WCS 盧最新の仕様を反映した物です。
+  WCS の標準化グループの議論と、既存の1.1、1.0版を参照しています。
 * gmlcov:RectifiedGridCoverage で生成した2次元 EO 充填のサポート
 * gmlcov:ReferenceableGridCoverage で生成した2次元 EO 充填のサポート
 * in a time シリーズなどのデータセットによる充填のサポート

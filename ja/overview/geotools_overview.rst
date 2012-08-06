@@ -33,7 +33,7 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 
 * キー空間コンセプトへのインターフェースとデータ構造の定義
   
-  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_によって行われています
+  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ によって行われています
   * 属性と空間条件によるフィルタリングは OGC Filter Encoding specificationを利用しています
   
 * クリーンデータアクセス API 使うと地物のアクセスやスレッド中でのロックをサポートするトランザクションを利用できます
