@@ -12,13 +12,15 @@
   :target: http://eoxserver.org/
 
 ================================================================================
- Guía de inicio rápido de EOxServer
+Guía de inicio rápido de EOxServer
 ================================================================================
 
 Resumen
 --------
 
-EOxServer es un servidor para datos de observación de la tierra (Earth Observation, EO). En concreto se trata de una aplicación y un marco de trabajo desarrollado en Python para presentar datos y metadatos EO.
+EOxServer es un servidor para datos de observación de la tierra (Earth Observation, EO). 
+En concreto se trata de una aplicación y un marco de trabajo desarrollado en Python para 
+presentar datos y metadatos EO.
 
 Esta guía de inicio rápido describe cómo:
 
@@ -26,8 +28,8 @@ Esta guía de inicio rápido describe cómo:
 * Acceso y uso de la instancia de demostración
 
 Ver el :doc:`resumen de EOxServer <../overview/eoxserver_overview>`, la 
-`documentación de EOxServer 0.2.1 
-<../../eoxserver-docs/EOxServer_documentation.pdf>`_, o la `documentación en línea <http://eoxserver.org/doc/>`_ para obtener más información.
+`documentación de EOxServer 0.2.1 <../../eoxserver-docs/EOxServer_documentation.pdf>`_, 
+o la `documentación en línea <http://eoxserver.org/doc/>`_ para obtener más información.
 
 .. contents:: Contenidos
 
@@ -63,8 +65,7 @@ Cliente web
 ~~~~~~~~~~~~~~~
 
 El enlace al **cliente web** te permite ver una lista de los `Dataset 
-Series` y `Stitched Mosaics` (series de datos y mosaicos) disponibles. La demostración tiene un `Dataset Series` configurado llamado "MER FRS 1P RGB reduced" que contiene tres escenas ENVISAT MERIS. Para obtener más información sobre los datos disponibles por favor dirígete a la `documentación en línea 
-<http://eoxserver.org/doc/en/users/demonstration.html>`_.
+Series` y `Stitched Mosaics` (series de datos y mosaicos) disponibles. La demostración tiene un `Dataset Series` configurado llamado "MER FRS 1P RGB reduced" que contiene tres escenas ENVISAT MERIS. Para obtener más información sobre los datos disponibles por favor dirígete a la `documentación en línea <http://eoxserver.org/doc/en/users/demonstration.html>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient1.png
   :scale: 50 %
@@ -82,7 +83,7 @@ También puedes activar previsualizaciones de los datos disponibles usando los c
   :scale: 50 %
   :alt: Bordes y previsualizaciones en el cliente incrustado de demostración de EOxServer
 
-Con el **control deslizante de fecha (*Date slider*) los juegos de datos se pueden filtrar a un intervalo de tiempo que sea de interés.
+Con el control deslizante de fecha (*Date slider*) los juegos de datos se pueden filtrar a un intervalo de tiempo que sea de interés.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
   :scale: 50 %
@@ -136,11 +137,9 @@ El enlace al visor de logs (*Log Viewer*)  proporciona un mecanismo sencillo par
 
 Esto es una demostración sencilla, con EOxServer puedes hacer mucho más. Puedes encontrar muchos recursos para ayudarte a empezar en la web del proyecto. Estos son algunos de los recursos que puedes consultar:
 
-* Leer la `Guía del operador de EOxServer  
-  <http://eoxserver.org/doc/en/users/operators.html>`_.
-* Leer la completa `documentación de usuario de EOxServer 
-  <http://eoxserver.org/doc/en/users/index.html>`_ empezando por lo `básico de EOxServer 
-  Basics <http://eoxserver.org/doc/en/users/basics.html>`_.
+* Leer la `Guía del operador de EOxServer <http://eoxserver.org/doc/en/users/operators.html>`_.
+* Leer la completa `documentación de usuario de EOxServer <http://eoxserver.org/doc/en/users/index.html>`_ 
+  empezando por lo `básico de EOxServer Basics <http://eoxserver.org/doc/en/users/basics.html>`_.
 * ¿Listo para usar EOxServer? Entonces únete a `lista de correo  
   <http://eoxserver.org/doc/en/users/mailing_lists.html>`_ de la comunidad para compartir ideas, 
   hablar sobre posibles mejoras del software y hacer preguntas.
