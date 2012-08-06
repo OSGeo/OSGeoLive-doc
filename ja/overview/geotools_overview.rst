@@ -18,30 +18,30 @@
 GeoTools
 ================================================================================
 
-GeoTools is an open source (LGPL) Java library which provides standards compliant methods for manipulating geospatial data, and uses data structures based on Open Geospatial Consortium (OGC) specifications.
+GeoTools は Open Geospatial Consortium (OGC)の標準に準拠した空間データの操作やデータ構造の利用するための標準に準拠したオープンソース(LGPL) のJavaライブラリです.
 
 .. image:: ../../images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
-  :alt: GeoTools is a modular library supported by plugins for additional formats
+  :alt: GeoTools は追加フォーマットをプラグインでサポートできるモジュール構造ライブラリです
   :align: right
 
-GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include: 
+GeoTools はいくつものプロジェクトで利用されています,そこにはウェッブサービスやコマンドラインツール,デスクトップアプリケーションが含まれています. OSGeo-Live アプリケーションでGeotoolsを利用しているのは次のものです: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
-Core Features
+主な特徴
 --------------------------------------------------------------------------------
 
 * Definition of interfaces for key spatial concepts and data structures
   
-  * Integrated Geometry support provided by `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
-  * Attribute and spatial filters using OGC Filter Encoding specification
+  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_によって行われています
+  * 属性と空間条件によるフィルタリングは OGC Filter Encoding specificationを利用しています
   
-* A clean data access API supporting feature access, transaction support and locking between threads
+* クリーンデータアクセス API 使うと地物のアクセスやスレッド中でのロックをサポートするトランザクションを利用できます
   
-  * Access GIS data in many file formats and spatial databases
-  * Coordinate reference system and transformation support
-  * Work with an extensive range of map projections
-  * filter and analyze data in terms of spatial and non-spatial attributes
+  * 多くの形式のファイルや空間データベースのGISデータにアクセスできます
+  * 空間参照システムと座標変換をサポートしています
+  * 豊富な種類の地図投影法で作業を行えます
+  * 空間条件や非空間属性値を使ってデータのフィルタや解析ができます
 
 * A stateless, low memory renderer, particularly useful in server-side environments.
   
