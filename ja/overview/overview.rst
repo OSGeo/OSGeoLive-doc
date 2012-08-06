@@ -73,6 +73,7 @@ Web サービス
 * :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`]
+* :doc:`eoxserver_overview` - [:doc:`クイックスタート <../quickstart/eoxserver_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`]
 * :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`]

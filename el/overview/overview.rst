@@ -73,6 +73,7 @@
 * :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
+* :doc:`eoxserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/eoxserver_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
 * :doc:`pycsw_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/pycsw_quickstart>`] - Υπηρεσία Καταλόγου
 * :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]

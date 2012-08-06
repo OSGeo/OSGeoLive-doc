@@ -73,6 +73,7 @@
 * :doc:`geoserver_overview` - [:doc:`快速入门 <../quickstart/geoserver_quickstart>`] — 空间数据网络发布
 * :doc:`mapserver_overview` - [:doc:`快速入门 <../quickstart/mapserver_quickstart>`] — 空间数据图形表达和管理
 * :doc:`deegree_overview` - [:doc:`快速入门 <../quickstart/deegree_quickstart>`] — 网络空间数据服务
+* :doc:`eoxserver_overview` - [:doc:`快速入门 <../quickstart/eoxserver_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`快速入门 <../quickstart/geonetwork_quickstart>`] — 元数据编目管理
 * :doc:`pycsw_overview` - [:doc:`快速入门 <../quickstart/pycsw_quickstart>`] — 元数据编目发布
 * :doc:`mapproxy_overview` - [:doc:`快速入门 <../quickstart/mapproxy_quickstart>`] — 网页地图及切片服务代理
