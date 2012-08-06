@@ -14,17 +14,17 @@
 GMT
 ================================================================================
 
-Les outils génériques de cartographie
+Les outils gÃ©nÃ©riques de cartographie
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GMT est une collection d'outils qui permet aux utilisateurs de manipuler des jeux de données (x,y) et
+GMT est une collection d'outils qui permet aux utilisateurs de manipuler des jeux de donnÃ©es (x,y) et
 (x,y,z) (incluant les filtres, les courbes de tendances, les grilles,
 la projection, etc.) et de produire des illustrations au format Encapsulated PostScript File (EPS)
-sur une échelle depuis l'affichage simple x-y à travers des cartes de contour des surfaces artificiellement
-éclairées et des vues en perspective en 3-D en noir et blanc, teintes de gris, modèles d'hachurage, et couleur 24 bits.
+sur une Ã©chelle depuis l'affichage simple x-y Ã  travers des cartes de contour des surfaces artificiellement
+Ã©clairÃ©es et des vues en perspective en 3-D en noir et blanc, teintes de gris, modÃ¨les d'hachurage, et couleur 24 bits.
 
-GMT supporte de nombreux systèmes communs de projections linéaires, logs, et échelle de puissance,
-et est fournit avec das données de support tels que des lignes de côtes, des rivières, et de limites politiques.
+GMT supporte de nombreux systÃ¨mes communs de projections linÃ©aires, logs, et Ã©chelle de puissance,
+et est fournit avec das donnÃ©es de support tels que des lignes de cÃ´tes, des riviÃ¨res, et de limites politiques.
 
 
 .. image:: ../../images/screenshots/800x600/gmt-example28.png
@@ -32,13 +32,13 @@ et est fournit avec das données de support tels que des lignes de côtes, des riv
   :alt: screenshot
   :align: right
 
-Eléments centraux
+ElÃ©ments centraux
 --------------------------------------------------------------------------------
 
-* Cartographie de qualité de journal.
+* Cartographie de qualitÃ© de journal.
 * Fonctions de grillage et de contours.
 
-Détails
+DÃ©tails
 --------------------------------------------------------------------------------
 
 **Site Web:** http://gmt.soest.hawaii.edu
@@ -47,14 +47,14 @@ Détails
 
 **Version de logiciel:** 4.5.6
 
-**Plateformes supportées:** GNU/Linux, Mac OSX, MS Windows
+**Plateformes supportÃ©es:** GNU/Linux, Mac OSX, MS Windows
 
 **Interfaces API:** Command line
 
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 
-Démarrage rapide
+DÃ©marrage rapide
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
