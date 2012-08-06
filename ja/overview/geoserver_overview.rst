@@ -101,9 +101,14 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 --------------------------------------------------------------------------------
 
 
-* 多くの Open Geospatial Consortium (OGC) 標準をサポートしています
+* 多くの Open Geospatial Consortium (OGC) 標準をサポートしています:
 
-  * WMS、 transactional WFS、 WCS、 Filter Encoding、 SLD、 GML
+  * :doc:`../standards/wms_overview`
+  * :doc:`../standards/wfs_overview`, WFS-T (transacional)
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
+  * :doc:`../standards/sld_overview`
+  * :doc:`../standards/gml_overview`
 
 詳細
 --------------------------------------------------------------------------------

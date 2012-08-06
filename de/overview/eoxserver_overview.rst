@@ -93,7 +93,7 @@ Demo
 Dokumentation
 -------------
 
-* `EOxServer 0.2.1 Documentation <../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `EOxServer Dokumentation <../../eoxserver-docs/EOxServer_documentation.pdf>`_
 
 Details
 -------

@@ -72,8 +72,9 @@ Consortium <http://www.opengeospatial.org>`_ (OGC) :doc:`../standards/wfs_overvi
 Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
 
-* Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC)
-* :doc:`../standards/wms_overview`
+* Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC):
+
+  * :doc:`../standards/wms_overview`
   * :doc:`../standards/wfs_overview`, WFS-T (transactional)
   * :doc:`../standards/wcs_overview`
   * :doc:`../standards/fe_overview`

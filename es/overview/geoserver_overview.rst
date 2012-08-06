@@ -86,9 +86,14 @@ Características clave
 Standares Implementados
 --------------------------------------------------------------------------------
 
-* Soporta numerosos estándares  (OGC)
+* Soporta numerosos estándares  (OGC):
 
-* WMS, WFS transaccional, WCS, Filter Encoding, SLD, GML
+  * :doc:`../standards/wms_overview`
+  * :doc:`../standards/wfs_overview`, WFS-T (transaccional)
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
+  * :doc:`../standards/sld_overview`
+  * :doc:`../standards/gml_overview`
 
 Detalles
 --------------------------------------------------------------------------------
