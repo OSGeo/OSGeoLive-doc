@@ -18,74 +18,74 @@
 GeoTools
 ================================================================================
 
-GeoTools �� Open Geospatial Consortium (OGC)�̕W���ɏ���������ԃf�[�^�̑����f�[�^�\���̗��p���邽�߂̕W���ɏ��������I�[�v���\�[�X(LGPL) ��Java���C�u�����ł�.
+GeoTools は Open Geospatial Consortium (OGC)の標準に準拠した空間データの操作やデータ構造の利用するための標準に準拠したオープンソース(LGPL) のJavaライブラリです.
 
 .. image:: ../../images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
-  :alt: GeoTools �͒ǉ��t�H�[�}�b�g���v���O�C���ŃT�|�[�g�ł��郂�W���[���\�����C�u�����ł�
+  :alt: GeoTools は追加フォーマットをプラグインでサポートできるモジュール構造ライブラリです
   :align: right
 
-GeoTools �͂������̃v���W�F�N�g�ŗ��p����Ă��܂�,�����ɂ̓E�F�b�u�T�[�r�X��R�}���h���C���c�[��,�f�X�N�g�b�v�A�v���P�[�V�������܂܂�Ă��܂�. OSGeo-Live �A�v���P�[�V������Geotools�𗘗p���Ă���͎̂��̂��̂ł�: 
+GeoTools はいくつものプロジェクトで利用されています,そこにはウェッブサービスやコマンドラインツール,デスクトップアプリケーションが含まれています. OSGeo-Live アプリケーションでGeotoolsを利用しているのは次のものです: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
-��ȓ���
+主な特徴
 --------------------------------------------------------------------------------
 
 * Definition of interfaces for key spatial concepts and data structures
   
-  * �������ꂽ�W�I���g���̃T�|�[�g�� `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_�ɂ���čs���Ă��܂�
-  * �����Ƌ�ԏ����ɂ��t�B���^�����O�� OGC Filter Encoding specification�𗘗p���Ă��܂�
+  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_によって行われています
+  * 属性と空間条件によるフィルタリングは OGC Filter Encoding specificationを利用しています
   
-* �N���[���f�[�^�A�N�Z�X API �g���ƒn���̃A�N�Z�X��X���b�h���ł̃��b�N���T�|�[�g����g�����U�N�V�����𗘗p�ł��܂�
+* クリーンデータアクセス API 使うと地物のアクセスやスレッド中でのロックをサポートするトランザクションを利用できます
   
-  * �����̌`���̃t�@�C�����ԃf�[�^�x�[�X��GIS�f�[�^�ɃA�N�Z�X�ł��܂�
-  * ��ԎQ�ƃV�X�e���ƍ��W�ϊ����T�|�[�g���Ă��܂�
-  * �L�x�Ȏ�ނ̒n�}���e�@�ō�Ƃ��s���܂�
-  * ��ԏ�������ԑ����l���g���ăf�[�^�̃t�B���^���͂��ł��܂�
+  * 多くの形式のファイルや空間データベースのGISデータにアクセスできます
+  * 空間参照システムと座標変換をサポートしています
+  * 豊富な種類の地図投影法で作業を行えます
+  * 空間条件や非空間属性値を使ってデータのフィルタや解析ができます
 
-* A stateless, low memory renderer, particularly useful in server-side environments.
+* ステートレス低メモリのレンダラは特にサーバ環境で便利です.
   
-  * compose and display maps with complex styling
+  * 複合スタイリングを利用して地図の構成と表示ができます
 
-* Powerful *schema assisted* parsing technology using XML Schema to bind to GML content
+* GMLコンテントを利用するためのパワフルな*スキーマを利用した* 構文解析技術が使えます
   
-  * The parsing / encoding technology is provided with bindings for many OGC standards including GML, Filter, KML, SLD, and SE.
+  * 構文解析 / エンコーディング技術はGML, Filter, KML, SLD, と SEなどの多くのOGC標準を利用するために利用されています.
   
-* GeoTools Plugins: open plug-in system allowing you to teach the library additional formats
+* GeoTools プラグイン: オープンプラグインシステムを利用すると追加の形式を利用することができます
   
-  * Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional raster formats from GDAL
+  * ImageIO-EXT プラグインプロジェクトはGeoTools でGDALの機能を使って追加ラスタ形式を読めるようにしています
  
-* GeoTools Extensions
+* GeoTools エクステンション
 
-  * Provide additional capabilities built using the spatial facilites of the core library.
+  * コアライブラリの空間機能を使ってビルドに追加機能を提供します.
   
   .. image:: ../../images/screenshots/800x600/geotools-extension.png
-     :alt: Extensions built using the GeoTools library
+     :alt: GeoTools ライブラリを使ってエクステンションをビルドします
 
-  * Extensions provide graph and networking support (for finding the shortest path), validation, a web map server client, bindings for xml parsing and encoding and color brewer.
+  * エクステンションとしてグラフ,ネットワーキングサポート(最短経路検索のため), 検証, ウェッブマップサーバクライアント, xml構文解析とエンコーディング,色の調整機能等を提供できます.
 
-* GeoTools Unsupported
+* GeoTools でサポートしていないもの
   
-  * GeoTools also operates as part of a wider community with a staging area used to foster new talent and promote experimentation.
+  * GeoToolsでは新しい才能を育成するしたり実験をするための場所としてコミュニティが運営されています.
   
-  * Some highlights are swing support (used in geotools tutorials), swt, local and web process support, additional symbology, additional data formats, generation of grids and a couple of implementations of ISO Geometry.
+  * いくつかのハイライトを列挙するとswingのサポート (geotools チュートリアルで使われています), swt, ローカルとウェッブプロセスサポート, シンボロジの追加, データ形式の追加, グリッドの生成といくつかのISOジオメトリの実装があります.
 
-Supported Formats
+サポートする形式
 -----------------  
 
-* raster formats and data access:
+* ラスタ形式とデータアクセス:
   
   arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab.
   
-* Database "jdbc-ng" support:
+* データベース "jdbc-ng" サポート:
   
   db2, h2, mysql, oracle, postgis, spatialite, sqlserver.
 
-* Vector formats and data access:
+* ベクタ形式とデータアクセス:
   
   app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, shapefile, wfs.
 
-* XML Bindings:
+* XML バインディング:
 
   Java data structures and bindings provided for the following:
   xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.
