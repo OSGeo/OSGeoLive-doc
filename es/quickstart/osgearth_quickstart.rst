@@ -25,8 +25,8 @@ Ejecución de osgearth_viewer
 
 * Abre una terminal y arranca el visor de osgEarth::
 
-  export OSG_FILE_PATH=/usr/share/osgearth
-  osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
+   export OSG_FILE_PATH=/usr/share/osgearth
+   osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
 
 Deberías ver un globo con imágenes de satélite.
 
@@ -41,7 +41,7 @@ Ejecutar osgviewer con la capa superpuesta de OpenStreetMap
 
 * En una terminal ejecuta::
 
-  osgviewer /usr/share/osgearth/maps/openstreetmap.earth
+   osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
 * Pulsa :kbd:`h` para mostrar la ayuda. Puedes visitar openscenegraph.org_ para obtener más ayuda.
 

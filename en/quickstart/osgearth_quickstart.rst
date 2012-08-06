@@ -24,8 +24,8 @@ Running osgearth_viewer
 
 * Open a console and start the osgearth viewer::
 
-  export OSG_FILE_PATH=/usr/share/osgearth
-  osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
+   export OSG_FILE_PATH=/usr/share/osgearth
+   osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
 
 You should see a globe with satellite imagery.
 
@@ -40,7 +40,7 @@ Running osgviewer with an OpenStreetMap overlay
 
 * In a console, type::
 
-  osgviewer /usr/share/osgearth/maps/openstreetmap.earth
+   osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
 *  Press :kbd:`h` for help. See also openscenegraph.org_ for more help.
 

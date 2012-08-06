@@ -22,8 +22,8 @@ Running osgearth_viewer
 
 * Öffnen Sie die Konsole und starten Se den osgearth Viewer::
 
-  export OSG_FILE_PATH=/usr/share/osgearth
-  osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
+   export OSG_FILE_PATH=/usr/share/osgearth
+   osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
 
 Sie sollten im Anschluss einen Globus mit Satellitenbildern sehen.
 
@@ -37,7 +37,7 @@ osgviewer mit einem OpenStreetMap Overlay starten
 
 * Geben Sie In der Konsole folgendes ein::
 
-  osgviewer /usr/share/osgearth/maps/openstreetmap.earth
+   osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
 *  Drücken Sie :kbd:`h` für die Hilfe. Weiter Hilfeinformationen finden Sie unter openscenegraph.org_.
 

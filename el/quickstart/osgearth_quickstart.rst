@@ -26,7 +26,7 @@
 
 * Σε ένα τερματικό ανοίξτε το osgearth simple viewer με την εντολή::
 
-   osgearth_simple --window 50 50 900 700
+    osgearth_simple --window 50 50 900 700
 
 * Πατήστε '1'-'5' για προκαθορισμένες οπτικές γωνίες.
 * Με απλό κλικ πλοηγείστε; με δεξί ή τον τροχό κύλισης για zoom in ή zoom out.
@@ -39,7 +39,7 @@
 
 * Σε ένα τερματικό εκτελέστε την εντολή::
 
-  osgearth_simple --window 50 50 900 700 /usr/share/osgearth/maps/nexrad.earth
+   osgearth_simple --window 50 50 900 700 /usr/share/osgearth/maps/nexrad.earth
 
 Θα δείτε μια υδρόγειο με δεδομένα radar σε μερικά τμήματα της Βορείου Αμερικής.
 
