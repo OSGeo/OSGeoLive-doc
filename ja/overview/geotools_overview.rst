@@ -31,7 +31,7 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 主な特徴
 --------------------------------------------------------------------------------
 
-* Definition of interfaces for key spatial concepts and data structures
+* キー空間コンセプトへのインターフェースとデータ構造の定義
   
   * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_によって行われています
   * 属性と空間条件によるフィルタリングは OGC Filter Encoding specificationを利用しています
@@ -87,22 +87,22 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 
 * XML バインディング:
 
-  Java data structures and bindings provided for the following:
-  xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.
+  Java データ構造とバインディングによって以下の形式が利用できます:
+  xsd-core (xml シンプルタイプ), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.
   
-  Additional Geometry, Filter and Style parser/encoders available for DOM and SAX applications.
+  追加のジオメトリ, Filter と Style parser/encoders はDOMとSAXアプリケーションとして作成できます.
   
-Implemented Standards
+利用できる標準
 --------------------------------------------------------------------------------
 
-Support of numerous Open Geospatial Consortium (OGC) standards:
+多くのOpen Geospatial Consortium (OGC) 標準をサポートしています:
 
-* OGC Style Layer Descriptor / Symbology Encoding data structures and rendering engine
-* OGC General Feature Model including Simple Feature support
-* OGC Grid Coverage representation of raster information
-* OGC Filter and Common Constraint Language (CQL)
-* Clients for Web Feature Service (WFS), Web Map Service (WMS) and experimental support for Web Process Service (WPS)
-* ISO 19107 Geometry
+* OGC Style Layer Descriptor / Symbology Encoding データ構造とレンダリングエンジン
+* OGC General Feature Model ,Simple Feature supportを含む
+* OGC Grid Coverage ラスタの情報を表現
+* OGC Filter と Common Constraint Language (CQL)
+* Web Feature Service (WFS), Web Map Service (WMS) のクライアントと Web Process Service (WPS)の試験的なサポート
+* ISO 19107 ジオメトリ
 
 Details
 --------------------------------------------------------------------------------
