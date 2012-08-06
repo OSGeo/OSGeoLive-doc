@@ -1,3 +1,5 @@
+:Translator: Luca Delucchi
+
 
 Welcome to |osgeo-live-version|
 ================================================================================

@@ -2,6 +2,7 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit 
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: Luca Delucchi
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

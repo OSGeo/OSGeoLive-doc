@@ -1,6 +1,7 @@
 :Author: Dave Register
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: Luca Delucchi
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

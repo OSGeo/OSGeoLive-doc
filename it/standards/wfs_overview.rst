@@ -1,3 +1,4 @@
+
 .. Writing Tip:
   Writing tips describe what content should be in the following section.
 
@@ -5,6 +6,7 @@
   Metadata about this document
 
 :Author: OGC
+:Translator: Margherita Di Leo
 :License: Creative Commons
 
 .. Writing Tip: 

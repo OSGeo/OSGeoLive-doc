@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: Luca Delucchi
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
