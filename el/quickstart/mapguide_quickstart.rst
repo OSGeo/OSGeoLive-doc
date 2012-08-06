@@ -51,7 +51,7 @@ MapGuide Maestro
    :alt: mapguide maestro main GUI
    :align: center
 
-3. Επεκτείνετε την δενδροειδή λίστα στο αριστερό panel, πηγαίνετε στο Samples->Sheboygan->Layers,κάντε διπλό κλικ στο Buildings και ο επεξεργαστής επιπέδων για το επίπεδο Buildings θα ανοίξει στο δεξί panel, όπως φαίνεται στο ακόλουθο στιγμιότυπο οθόνης:
+3. Επεκτείνετε την δενδροειδή λίστα στο αριστερό panel, πηγαίνετε στο :menuselection:`Samples --> Sheboygan --> Layers`,κάντε διπλό κλικ στο Buildings και ο επεξεργαστής επιπέδων για το επίπεδο Buildings θα ανοίξει στο δεξί panel, όπως φαίνεται στο ακόλουθο στιγμιότυπο οθόνης:
 
 .. image:: ../../images/screenshots/1024x768/mapguide_maestroLayerFeatures.png
    :scale: 50%
