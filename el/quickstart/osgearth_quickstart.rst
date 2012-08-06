@@ -31,7 +31,7 @@
 * Πατήστε '1'-'5' για προκαθορισμένες οπτικές γωνίες.
 * Με απλό κλικ πλοηγείστε; με δεξί ή τον τροχό κύλισης για zoom in ή zoom out.
 * Για στροφή αριστερό και δεξί κλικ και ταυτόχρονη κύλιση στο ποντίκι.
-* Πατείστε το 'escape' για έξοδο. 
+* Πατείστε το :kbd:`ESCAPE` για έξοδο. 
 
 
 Προσθέτοντας μια υπήρεσία WMS
@@ -39,7 +39,7 @@
 
 * Σε ένα τερματικό εκτελέστε την εντολή::
 
-   osgearth_simple --window 50 50 900 700 /usr/share/osgearth/maps/nexrad.earth
+  osgearth_simple --window 50 50 900 700 /usr/share/osgearth/maps/nexrad.earth
 
 Θα δείτε μια υδρόγειο με δεδομένα radar σε μερικά τμήματα της Βορείου Αμερικής.
 
@@ -49,10 +49,10 @@
 
 * Σε ένα τερματικό εκτελέστε τις εντολές::
 
-   export OSG_FILE_PATH=/usr/share/osgearth
-   osgviewer /usr/share/osgearth/maps/openstreetmap.earth
+  export OSG_FILE_PATH=/usr/share/osgearth
+  osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
-*  Πατήστε 'h' για βοήθεια. Δείτε επίσης openscenegraph.org_ για περισσότερα.
+*  Πατήστε :kbd:`h` για βοήθεια. Δείτε επίσης openscenegraph.org_ για περισσότερα.
 
 .. _openscenegraph.org: http://www.openscenegraph.org/projects/osg/wiki/Support/UserGuides/osgviewer
 

@@ -24,15 +24,15 @@ Running osgearth_viewer
 
 * Open a console and start the osgearth viewer::
 
-   export OSG_FILE_PATH=/usr/share/osgearth
-   osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
+  export OSG_FILE_PATH=/usr/share/osgearth
+  osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
 
 You should see a globe with satellite imagery.
 
 * Click to navigate; right-click or scroll wheel to zoom in and out.
 * Drag mouse with left+right click for tilt.
-* Press 'h' for help.
-* hit the 'escape' key to quit 
+* Press :kbd:`h` for help.
+* hit the :kbd:`ESCAPE` key to quit 
 
 
 Running osgviewer with an OpenStreetMap overlay
@@ -40,9 +40,9 @@ Running osgviewer with an OpenStreetMap overlay
 
 * In a console, type::
 
-   osgviewer /usr/share/osgearth/maps/openstreetmap.earth
+  osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
-*  Press 'h' for help. See also openscenegraph.org_ for more help.
+*  Press :kbd:`h` for help. See also openscenegraph.org_ for more help.
 
 .. _openscenegraph.org: http://www.openscenegraph.org/projects/osg/wiki/Support/UserGuides/osgviewer
 
