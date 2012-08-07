@@ -42,15 +42,15 @@ The SOS standard defines a common model for sensors and sensor systems that is n
 
 An observation is an event whose result is an estimate of the value of some property of the feature-of-interest, obtained using a specified procedure. Observations are defined by
 
-eventTime – when was the measurement made
-featureOfInterest – what entity is being measured
-observedProperty - what characteristic was measured
-procedure  - how was it measured
+* eventTime – when was the measurement made
+* featureOfInterest – what entity is being measured
+* observedProperty - what characteristic was measured
+* procedure  - how was it measured
 
 Mandatory SOS operations include:
-GetObservation - access to sensor observations and measurement data via a spatio-temporal query that can be filtered by phenomena 
-GetCapabilities - SOS service metadata
-DescribeSensor - information about the sensors, their processes and platforms in SensorML
+* GetObservation - access to sensor observations and measurement data via a spatio-temporal query that can be filtered by phenomena 
+* GetCapabilities - SOS service metadata
+* DescribeSensor - information about the sensors, their processes and platforms in SensorML
 
 Optional operations include: GetResult, GetFeatureOfInterest, GetFeatureOfInterestTime, DescribeFeatureofInterest, DescribeObservationType, DescribeResultModel, Register Sensor, and InsertObservation.
 
