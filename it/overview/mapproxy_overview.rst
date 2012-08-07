@@ -19,12 +19,18 @@ Proxy WMS & server di tile
   :alt: MapProxy diagram
   :align: right
 
-MapProxy velocizza applicazione di mappatura attraverso il pre-rendering e integrando mappe da più layer e archiviando in un cache locale.
-Layers possono essere realizzati transparenti, possono cambiare proiezioni, più layers possono essere uniti in uno unico, posso essere aggiunti watermarks, e altro...
+MapProxy velocizza applicazione di mappatura attraverso il pre-rendering e 
+integrando mappe da più layer e archiviando in un cache locale.
+Layers possono essere realizzati transparenti, possono cambiare proiezioni, 
+più layers possono essere uniti in uno unico, posso essere aggiunti watermarks, e altro...
 
-MapProxy e flessibile e scalabile per casi d'uso semplici e complessi: da una singola cache di tile per un client web OpenLayersa a un centrale di nodi SDI che combinano, unificano e accelerano dozine di servizi WMS distrbuiti.
+MapProxy e flessibile e scalabile per casi d'uso semplici e complessi: da una 
+singola cache di tile per un client web OpenLayers a un centrale di nodi SDI che 
+combinano, unificano e accelerano dozine di servizi WMS distrbuiti.
 
-MapProxy è utilizzado per il Broadband Atlas Tedesco per fornire mappe di migliaia di utenti e l'Agenzia Federale Tedesca per la Cartografia e Gepdesia utilizza MapProxy unire servizi WMS di tutti i 16 stati al volo.
+MapProxy è utilizzado per il Broadband Atlas Tedesco per fornire mappe di migliaia 
+di utenti e l'Agenzia Federale Tedesca per la Cartografia e Gepdesia utilizza MapProxy 
+unire servizi WMS di tutti i 16 stati al volo.
 
 
 Caratteristiche Principali

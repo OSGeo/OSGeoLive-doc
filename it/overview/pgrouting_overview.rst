@@ -16,13 +16,18 @@ pgRouting
 Strumenti GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting estende il database geospaziale :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ per provvedere funzionalità di routing geospaziale.
+pgRouting estende il database geospaziale :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ 
+per provvedere funzionalità di routing geospaziale.
 
 Vantaggi dell'approccio di database per il routing sono:
 
-* I dati e gli attributi possono essere modificati da molti clients, come :doc:`Quantum GIS <qgis_overview>` e :doc:`uDig <udig_overview>` attraverso JDBC, ODBC, o direttamente usando Pl/pgSQL. I clients possono essere sia PCs che dispositivi mobili.
-* I cambiamenti nei dati possono essere istantaneamente riflessi attraverso il motore di routing. Non c'è bisogno di effettuare calcoli precedentemente.
-* Il parametro del "costo" può essere calcolato dinamicamente attraverso SQL e il suo valore può essere il risultato di diversi campi o tabelle.
+* I dati e gli attributi possono essere modificati da molti clients, come 
+:doc:`Quantum GIS <qgis_overview>` e :doc:`uDig <udig_overview>` attraverso JDBC, 
+ODBC, o direttamente usando Pl/pgSQL. I clients possono essere sia PCs che dispositivi mobili.
+* I cambiamenti nei dati possono essere istantaneamente riflessi attraverso il motore 
+di routing. Non c'è bisogno di effettuare calcoli precedentemente.
+* Il parametro del "costo" può essere calcolato dinamicamente attraverso SQL e il suo 
+valore può essere il risultato di diversi campi o tabelle.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %

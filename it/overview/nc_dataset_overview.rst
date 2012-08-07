@@ -10,7 +10,7 @@
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
 
-OSGeo North Carolina, USA Educational dataset
+Set di dati OSGeo North Carolina, USA Educational
 ================================================================================
 
 Dati geografici
@@ -18,7 +18,9 @@ Dati geografici
 
 .. Comment: Il seguente testo è gentilmente offerto da Helena Mitasova & Markus Neteler
 
-Questo set di dati è una completa collezione di dati raster, vettoriali e immagini  che copre parte del North Carolina (NC), USA, preparata da una sorgente di dati pubblici distribuiti dallo stato della North Carolina e agenzie governative e dal Global Land Cover Facility (GLCF).
+Questo set di dati è una completa collezione di dati raster, vettoriali e immagini 
+che copre parte del North Carolina (NC), USA, preparata da una sorgente di dati pubblici 
+distribuiti dallo stato della North Carolina e agenzie governative e dal Global Land Cover Facility (GLCF).
 
 Il set di dati include sezzioni della capitale del North Carolina Raleigh e i suoi dintorni. 
 
@@ -44,7 +46,7 @@ Caratteristiche Principali
 * La licenza Creative Commons permette che i dati possono essere usati, distribuiti, e modificati da chiunque. Senza l'usuale encumbrances legale di molti geodati publicamente disponibili ed è ideale per l'uso in classe.
 
 
-Set dei dati
+Set di dati
 --------------------------------------------------------------------------------
 
 Temi dei dati culturali vettoriali:

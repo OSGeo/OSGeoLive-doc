@@ -17,26 +17,38 @@ Natural Earth
 Dati geografici
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Natural Earth fornisce dati cartografi un off-the shelf soluzione per la creazione di mappe a piccola scala mondiale, regionale, e dei paesi a scala 1:10 -, 1:50 - e 1:110 - milioni. Entrambi gli elementi politici (amministrativo) e fisico (naturale) sono inclusi e gli elementi vettoriali sono alineati perfettamente con i dati raster presenti.
+Natural Earth fornisce dati cartografi un off-the shelf soluzione per la creazione 
+di mappe a piccola scala mondiale, regionale, e dei paesi a scala 1:10 -, 1:50 - e 
+1:110 - milioni. Entrambi gli elementi politici (amministrativo) e fisico (naturale) 
+sono inclusi e gli elementi vettoriali sono alineati perfettamente con i dati raster presenti.
 
-Natural Earth risolve il problema comune affrontato da molti cartografi: trovare dati vettoriali per effettuare pubblicazione di qualità per mappe a piccola scale al livello di dettagli appropriato per le mappa che si sta creando.
+Natural Earth risolve il problema comune affrontato da molti cartografi: trovare 
+dati vettoriali per effettuare pubblicazione di qualità per mappe a piccola scale 
+al livello di dettagli appropriato per le mappa che si sta creando.
 
 .. image:: ../../images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right
 
-Core Features
+Caratteristiche Principali
 --------------------------------------------------------------------------------
 
 * Gli elementi vettoriali includono nome e altri attributi        
-* Poligoni di grandi dimensioni sono suddivisi in dati di una più efficiente gestione, come i layers batimetrici.   
-* La proiezione dei vettoriali corrispondono gentilmente a 180 gradi di longitudine. Le righe contengono dati sufficienti punti per la perfetta conversione nelle proiezioni coniche, ma non così tanti tant'è che ne soffre la velocità di elaborazione del computer
-* I dati raster includono rilievi in scala di grigi-ombreggiato e tinte cross-blended ipsometriche derivate dai più recenti dati dell'evevazione SRTM NASA Plus e su misura per combaciare con i vettoriali di Natural Earth.
-* Ottimizzato per l'uso in applicazioni di mapping web, come Google o Yahoo, con attributi inseriti a seconda della scala direttamente negli elementi per essere mostrati a vari livelli di zoom.
+* Poligoni di grandi dimensioni sono suddivisi in dati di una più efficiente gestione, 
+come i layers batimetrici.   
+* La proiezione dei vettoriali corrispondono gentilmente a 180 gradi di longitudine. 
+Le righe contengono dati sufficienti punti per la perfetta conversione nelle proiezioni 
+coniche, ma non così tanti tant'è che ne soffre la velocità di elaborazione del computer
+* I dati raster includono rilievi in scala di grigi-ombreggiato e tinte cross-blended 
+ipsometriche derivate dai più recenti dati dell'evevazione SRTM NASA Plus e su misura 
+per combaciare con i vettoriali di Natural Earth.
+* Ottimizzato per l'uso in applicazioni di mapping web, come Google o Yahoo, con 
+attributi inseriti a seconda della scala direttamente negli elementi per essere mostrati 
+a vari livelli di zoom.
 
 
-Set dei dati
+Set di dati
 --------------------------------------------------------------------------------
 
 Temi dei dati culturali vettoriali:

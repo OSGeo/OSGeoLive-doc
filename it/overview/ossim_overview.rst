@@ -23,15 +23,20 @@ OSSIM
 Trattamento di immagini
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open Source Software Image Map (OSSIM) è un motore con alte prestazioni per telerilevamento, trattamento delle immagini, sistema informativo geografico e fotogrammetria.
+Open Source Software Image Map (OSSIM) è un motore con alte prestazioni per 
+telerilevamento, trattamento delle immagini, sistema informativo geografico e fotogrammetria.
 
-OSSIM è stato fondato da diverse agenzie governative degli Stati Uniti che operano nei settori della difesa e della sicurezza, e la tecnologia è  attualmente utilizzata nella ricerca e in siti operativi. È stato sviluppato attivamente sin dal 1996. 
+OSSIM è stato fondato da diverse agenzie governative degli Stati Uniti che operano 
+nei settori della difesa e della sicurezza, e la tecnologia è  attualmente utilizzata 
+nella ricerca e in siti operativi. È stato sviluppato attivamente sin dal 1996. 
 
-Concepito come una serie di librerie di software con alte prestazioni, è scritto in C++ utilizzando le ultime tecniche nella progettazione di software orientato agli oggetti.
-Sono stati implementati molti programmi di utilità a riga di comando, applicazioni GUI e sistemi integrati; molti di questi sono forniti con la distribuzione del software.
+Concepito come una serie di librerie di software con alte prestazioni, è scritto in 
+C++ utilizzando le ultime tecniche nella progettazione di software orientato agli oggetti.
+Sono stati implementati molti programmi di utilità a riga di comando, applicazioni GUI 
+e sistemi integrati; molti di questi sono forniti con la distribuzione del software.
 
 
-Caratteristiche principali
+Caratteristiche Principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
@@ -71,4 +76,4 @@ Dettagli
 Guida rapida
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/ossim_quickstart>`

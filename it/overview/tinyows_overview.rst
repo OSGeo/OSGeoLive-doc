@@ -22,15 +22,21 @@ TinyOWS
 Web Feature Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or FastCGI interface and using :doc:`PostGIS <postgis_overview>` for data storage.
+TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is 
+light weight and easy to deploy, usando un'interfaccia a CGI o FastCGI e 
+:doc:`PostGIS <postgis_overview>` per archiviare i dati.
 
 .. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right
 
-TinyOWS è comunamente utilizzanto insieme a :doc:`MapServer <mapserver_overview>` per fornire servizi WFS-T e WFS veloci per client come :doc:`QGIS <qgis_overview>` e/o :doc:`OpenLayers <openlayers_overview>`. È utilizzato in fase produttiva in organizzazioni sparse in tutto il mondo, incluse risk adverse government agencies.
-TinyOWS implementa rigorosamente gli standard WFS 1.0 e 1.1, e ha passato tutti i test OGC CITE units (~ 1000 test unici).
+TinyOWS è comunamente utilizzanto insieme a :doc:`MapServer <mapserver_overview>` 
+per fornire servizi WFS-T e WFS veloci per client come :doc:`QGIS <qgis_overview>` 
+e/o :doc:`OpenLayers <openlayers_overview>`. È utilizzato in fase produttiva in 
+organizzazioni sparse in tutto il mondo, incluse risk adverse government agencies.
+TinyOWS implementa rigorosamente gli standard WFS 1.0 e 1.1, e ha passato tutti i 
+test OGC CITE units (~ 1000 test unici).
 
 Caratteristiche Principali
 --------------------------------------------------------------------------------
@@ -43,7 +49,7 @@ Caratteristiche Principali
 
 Standard Implementari
 --------------------------------------------------------------------------------
-* WFS 1.0 e WFS 1.1: Profili Semplice e Transactionnal
+* WFS 1.0 e WFS 1.1: Profili Semplice e Transazionale
 * FE 1.0.0 e FE 1.1.0
 * GML 2.1.2 e 3.1.1 Simple Profile (SF-0)
 

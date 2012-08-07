@@ -77,7 +77,7 @@ Dettagli
 **Supporto della comunità:** http://cran.r-project.org/web/views/Spatial.html
 
 
-Quickstart
+Guida rapida
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/R_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/R_quickstart>`

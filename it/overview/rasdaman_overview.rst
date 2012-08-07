@@ -25,11 +25,21 @@ Rasdaman
 Database Raster Multi-Dimensionale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Rasdaman estende database relazionali standard per garantire l'archiviazione e il recupero dei dati multi-dimensionali raster (es., arrays) di illimitata dimensione usando un liguaggio di interrogazione dei raster stile SQL con al
-Rasdaman extends standard relational databases to provide storage and retrieval of multi-dimensional raster data (i.e., arrays) of unlimited size using an SQL-style raster query language con alte afficaci ottimizzazioni lato server. I dati sono archiavati in un database PostgreSQL, thereby achieving tight information integration. Un driver di rasdaman fa parte della libreria GDAL (Geospatial Data Abstraction Library) per i dati geospaziali, una integrazione con MapServer è disponibile in versione beta.
-Le interfacce con cui si può accedere sono OGC WCS, WCPS e WPS, così come API C++ e Java oltre al linguaggio di interrogazione rasdaman.
+Rasdaman estende database relazionali standard per garantire l'archiviazione e 
+il recupero dei dati multi-dimensionali raster (es., arrays) di illimitata dimensione 
+usando un liguaggio di interrogazione dei raster stile SQL  con afficaci ottimizzazioni 
+lato server. I dati sono archiavati in un database PostgreSQL, ottenendo in tal modo 
+una stretta integrazione informazioni. Un driver di rasdaman fa parte della libreria
+GDAL (Geospatial Data Abstraction Library) per i dati geospaziali, una integrazione 
+con MapServer è disponibile in versione beta.
+Le interfacce con cui si può accedere sono OGC WCS, WCPS e WPS, così come API C++ 
+e Java oltre al linguaggio di interrogazione rasdaman.
 
-La tecnologia rasdaman e stabile e matura,  utilizzato in produzione da più di 10 anni; l'Istituto Geografico Nazionale Francese usa rasdaman su una dozina di Terabyte di immagine aeree. Alla confernza ACM Principles of Database Systems nel 2007, l'esperto di database raster Rona Machlin caratterizza rasdaman come "l'implementazione più completa di un tale sistema".
+La tecnologia rasdaman e stabile e matura,  utilizzato in produzione da più di 
+10 anni; l'Istituto Geografico Nazionale Francese usa rasdaman su una dozina di
+Terabyte di immagine aeree. Alla confernza ACM Principles of Database Systems nel 2007, 
+l'esperto di database raster Rona Machlin caratterizza rasdaman come "l'implementazione 
+più completa di un tale sistema".
 
 .. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
