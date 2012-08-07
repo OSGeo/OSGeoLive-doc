@@ -42,15 +42,15 @@ Der SOS Standard definiert ein gemeinsames Modell für Sensoren und Sensorsystem
 
 Eine Beobachtung ist ein Ereignis, dessen Ergebnis eine Abschätzung des Wertes einer Eigenschaft des zu beobachtenden Objektes ist, das durch eine spezifische Prozedur gewonnen wurde. Beobachtungen sind definiert durch
 
-eventTime – wann wurde die Messung durchgeführt
-featureOfInterest – welche Entität wurde beobachet
-observedProperty - welche Eigenschaften wurden beobachet
-procedure  - wie wurde gemessen
+* eventTime – wann wurde die Messung durchgeführt
+* featureOfInterest – welche Entität wurde beobachet
+* observedProperty - welche Eigenschaften wurden beobachet
+* procedure  - wie wurde gemessen
 
 Verbindliche SOS Operationen beinhalten:
-GetObservation - Zugriff auf Sensorbeobachtungen und gemessene Werte über eine zeit-räumliche Abfrage, die gefiltert werden kann
-GetCapabilities - SOS Service Metadaten
-DescribeSensor - Informationen über die Sensoren, ihre Prozeduren und Plattformen in SensorML
+* GetObservation - Zugriff auf Sensorbeobachtungen und gemessene Werte über eine zeit-räumliche Abfrage, die gefiltert werden kann
+* GetCapabilities - SOS Service Metadaten
+* DescribeSensor - Informationen über die Sensoren, ihre Prozeduren und Plattformen in SensorML
 
 Optionale Operationen beinhalten: GetResult, GetFeatureOfInterest, GetFeatureOfInterestTime, DescribeFeatureofInterest, DescribeObservationType, DescribeResultModel, Register Sensor, and InsertObservation.
 
