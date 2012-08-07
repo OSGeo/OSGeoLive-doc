@@ -24,7 +24,7 @@ To quickly get started using Viking, follow these instructions.
 
 1) Get some data from your GPS device. There are a couple ways to do this,
 a suitable GPX file containing a couple of tracks can be found on the disc
-at `~/data/vector/R/test_trk2.gpx`.
+at :file:`~/data/vector/R/test_trk2.gpx`.
 
 2) Open up Viking and use :menuselection:`File --> Open` to open the GPX file.
 Viking will try to change its viewing area to the center of the layer (file)
