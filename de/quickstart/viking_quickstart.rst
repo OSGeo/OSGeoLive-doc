@@ -16,7 +16,7 @@ Viking Quickstart
 Running
 ================================================================================
 
-Getting Started
+Los geht's
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. from /usr/share/doc/viking/GETTING_STARTED
@@ -29,7 +29,7 @@ Um schnell einen Eindruck von Viking zu bekommen, gehen Sie die einzelnen Schrit
    :file:`~/data/vector/R/test_trk2.gpx` zu finden.
 
 #. Öffnen Sie Viking und laden Sie die GPX Datei über :menuselection:`File --> Open`. Viking wird
-   den Ausschnitt auf die Mitte der Datensätze (GPX) setzen. Es kann jedoch möglich sein, dass 
+   den Ausschnitt der Karte auf die Mitte der Datensätze (GPX) zentrieren. Es kann jedoch möglich sein, dass 
    Wegpunkte und Tracks so weit voneinander entfernt sind, dass Sie keine Daten sehen werden. In diesem 
    Fall expandieren Sie den Layer (in der Layer-Ansicht auf der linken Seite), klappen Sie "Waypoints" 
    auf, wählen Sie einen aus und mit der rechten Maustaste wählen Sie :guilabel:`Goto`.
@@ -44,9 +44,9 @@ Um schnell einen Eindruck von Viking zu bekommen, gehen Sie die einzelnen Schrit
    das automatische Herunterladen der Daten aktivieren, die Option `Autodownload maps` sollte dafür 
    aktiviert werden.
 
-   Unabhängig vom aktivieren Tool können Sie mit gedrückter  mittleren Maustaste den Kartenausschnitt verschieben.
+   Unabhängig vom aktivierten Tool können Sie mit gedrückter mittlerer Maustaste den Kartenausschnitt verschieben.
 
-#. Sie werden festgestellt haben, dass der Kartenlayer über dem Layer der Tracks dargestellt werden. Sehen 
+#. Sie werden feststellen, dass der Kartenlayer über dem Layer der Tracks dargestellt wird. Sehen 
    Sie sich die Layeransicht auf der linken Seite an. Hier ist der Layer mit dem Namen "Map" über dem 
    TrackWaypoint Layer, der von den GPX Datensatz oder Ihrem GPS Gerät erzeugt wurde. Wählen Sie den obersten 
    Layer und klicken Sie anschließend den Button mit dem Pfeil nach unten (unterhalb der Layerliste). Nun 
