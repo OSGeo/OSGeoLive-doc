@@ -57,7 +57,7 @@ Caratteristiche Principali
 * Registro delle aree di ricovero - Tiene traccia dell'ubicazione, distribuzione,capacità di resistenza e rischio di cedimento delle vittime nelle aree di ricovero.
 * Sistema di gestione degli ospedali - gli ospedali possono condividere informazioni sulle risorse e sui bisogni.
 * Registro delle organizzazioni - "Chi fa cosa e dove". Consente alle organizzazioni di soccorso di coordinare le proprie attività.
-* Protocollo - Registro principale dei messaggi per trattare le informazioni e le
+* Segnalazioni - Registro principale dei messaggi per trattare le informazioni e le
   richieste in entrata.
 * Messaggistica - Invio e ricevimento di avvisi di allerta via posta
   elettronica e SMS.
