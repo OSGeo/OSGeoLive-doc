@@ -22,7 +22,7 @@ Questo set di dati è una completa collezione di dati raster, vettoriali e immag
 che copre parte del North Carolina (NC), USA, preparata da una sorgente di dati pubblici 
 distribuiti dallo stato della North Carolina e agenzie governative e dal Global Land Cover Facility (GLCF).
 
-Il set di dati include sezzioni della capitale del North Carolina Raleigh e i suoi dintorni. 
+Il set di dati include sezioni della capitale del North Carolina Raleigh e i suoi dintorni. 
 
 I dati sono sono forniti a tre livelli di gerarchia:
 
@@ -41,22 +41,22 @@ I dati sono sono forniti a tre livelli di gerarchia:
 Caratteristiche Principali
 --------------------------------------------------------------------------------
 
-* Layers raster, vettoriali e KML con metadati a livello di contea e stato, specificatamente selezionati per coprire gli ampi bisogni dei corsi introduttivi ai GIS e fornendo esempi per le pagine di aiuto e tutorial del software.
+* Layers raster, vettoriali e KML con metadati a livello di contea e stato, specificamente selezionati per coprire gli ampi bisogni dei corsi introduttivi ai GIS e fornendo esempi per le pagine di aiuto e tutorial del software.
 
-* La licenza Creative Commons permette che i dati possono essere usati, distribuiti, e modificati da chiunque. Senza l'usuale encumbrances legale di molti geodati publicamente disponibili ed è ideale per l'uso in classe.
+* La licenza Creative Commons permette ai dati di essere usati, distribuiti, e modificati da chiunque. Senza l'usuale ingombro legale di molti geodati publicamente disponibili ed è ideale per l'uso in classe.
 
 
 Set di dati
 --------------------------------------------------------------------------------
 
 Temi dei dati culturali vettoriali:
-  Include confini politici, strade, fermate del bus, stazioni dei vigili del fuoco, census blocks, e molto altro.
+  Comprende confini politici, strade, fermate del bus, stazioni dei vigili del fuoco, blocchi censoriali, e molto altro.
 
 Temi dei dati fisici vettoriali:
-  Include misuramente dell'elevazione tramite LiDAR, isolinee, fiumi, precipitazioni, e molto altro.
+  Comprende misure dell'elevazione tramite LiDAR, isolinee, fiumi, precipitazioni, e molto altro.
 
 Temi dei dati raster:
-  Include mappe dell'elevazione digitale, uso del suole e copertura del suolo, immagini LANDSAT7, e molto altro.
+  Comprende mappe digitali di elevazione, uso del suolo e copertura del suolo, immagini LANDSAT7, e molto altro.
 
 
 Dettagli
