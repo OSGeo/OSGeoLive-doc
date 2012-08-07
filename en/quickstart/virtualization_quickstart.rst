@@ -37,7 +37,7 @@ Howto
 
 **Downloads**
 
-Download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and install the software. On windows run the installer, or on linux do the following:
+Download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and install the software. On windows run the installer, or on Ubuntu-like linux systems do the following:
 
   ``apt-get install virtualbox-ose``
 
