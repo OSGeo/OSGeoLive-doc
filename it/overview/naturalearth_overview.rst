@@ -36,16 +36,16 @@ Caratteristiche Principali
 
 * Gli elementi vettoriali includono nome e altri attributi        
 * Poligoni di grandi dimensioni sono suddivisi in dati di una più efficiente gestione, 
-come i layers batimetrici.   
+  come i layers batimetrici.   
 * La proiezione dei vettoriali corrispondono gentilmente a 180 gradi di longitudine. 
-Le righe contengono dati sufficienti punti per la perfetta conversione nelle proiezioni 
-coniche, ma non così tanti tant'è che ne soffre la velocità di elaborazione del computer
+  Le righe contengono dati sufficienti punti per la perfetta conversione nelle proiezioni 
+  coniche, ma non così tanti tant'è che ne soffre la velocità di elaborazione del computer
 * I dati raster includono rilievi in scala di grigi-ombreggiato e tinte cross-blended 
-ipsometriche derivate dai più recenti dati dell'evevazione SRTM NASA Plus e su misura 
-per combaciare con i vettoriali di Natural Earth.
+  ipsometriche derivate dai più recenti dati dell'evevazione SRTM NASA Plus e su misura 
+  per combaciare con i vettoriali di Natural Earth.
 * Ottimizzato per l'uso in applicazioni di mapping web, come Google o Yahoo, con 
-attributi inseriti a seconda della scala direttamente negli elementi per essere mostrati 
-a vari livelli di zoom.
+  attributi inseriti a seconda della scala direttamente negli elementi per essere mostrati 
+  a vari livelli di zoom.
 
 
 Set di dati

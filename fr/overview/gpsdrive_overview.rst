@@ -38,7 +38,7 @@ Eléments centraux
 * Commandes verbales utilisant eSpeak
 * Tableau de bord et interface graphique utilisteur (GUI) hautement adaptables
 * Support les traces et routes GPX, options de stockage d'un nombre de points comprenant SQLite
-et compatible avec des fichiers plein texte de GpsBabel 
+  et compatible avec des fichiers plein texte de GpsBabel 
 * Recherche des POI les plus proche à l'intérieur d'un rayon donné
 * Préparation d'itinéraires
 * Serveur inclus pour garder la trace des positions des vos amis

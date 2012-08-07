@@ -28,7 +28,7 @@
 
     osgearth_simple --window 50 50 900 700
 
-* Πατήστε '1'-'5' για προκαθορισμένες οπτικές γωνίες.
+* Πατήστε :kbd:`1` - :kbd:`5` για προκαθορισμένες οπτικές γωνίες.
 * Με απλό κλικ πλοηγείστε; με δεξί ή τον τροχό κύλισης για zoom in ή zoom out.
 * Για στροφή αριστερό και δεξί κλικ και ταυτόχρονη κύλιση στο ποντίκι.
 * Πατείστε το :kbd:`ESCAPE` για έξοδο. 
@@ -49,8 +49,8 @@
 
 * Σε ένα τερματικό εκτελέστε τις εντολές::
 
-  export OSG_FILE_PATH=/usr/share/osgearth
-  osgviewer /usr/share/osgearth/maps/openstreetmap.earth
+   export OSG_FILE_PATH=/usr/share/osgearth
+   osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
 *  Πατήστε :kbd:`h` για βοήθεια. Δείτε επίσης openscenegraph.org_ για περισσότερα.
 

@@ -59,7 +59,7 @@ MapGuide Maestro
    :align: center
 
 3. Expandieren Sie die Baumansicht auf der linken Seite und navigieren Sie zu 
-   :menuselection:`Samples --> Sheboygan --> Layers`. Doppelklick auf den Eintrag **Buildings", der 
+   :menuselection:`Samples --> Sheboygan --> Layers`. Doppelklick auf den Eintrag **Buildings**, der 
    Layer-Editor wird auf der rechten Seite geöffnet.
 
 .. image:: ../../images/screenshots/1024x768/mapguide_maestroLayerFeatures.png

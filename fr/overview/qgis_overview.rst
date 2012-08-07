@@ -84,7 +84,7 @@ Détails
 
 **License:** GPL
 
-**Version de logiciel:* 1.8.0
+**Version de logiciel:** 1.8.0
 
 **Plateformes supportées:** Windows, Linux, Mac, Unix
 

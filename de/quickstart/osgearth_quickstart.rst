@@ -27,7 +27,10 @@ Running osgearth_viewer
 
 Sie sollten im Anschluss einen Globus mit Satellitenbildern sehen.
 
-* Klicken Sie, um zu navigieren; Verwenden Sie die rechte Maustaste oder das Mausrad, um Hinein- bzw. Herauszuzoomen.
+* Drücken Sie die Tasten :kbd:`1` - :kbd:`5` für die vorgegebenen Winkel
+* Durch klick mit der linken Maustaste, für ``Zoom In``
+* Verwenden Sie die rechte Maustaste, für ``Zoom Out``, 
+* mit dem Mausrad können sie ebenso hinein- bzw. herauszuzoomen.
 * Kippen : Ziehen Sie die Maus, wenn Sie die rechte und linke Maustaste gedrückt halten.
 * Drücken Sie :kbd:`h` für ie Hilfe.
 * Drücken Sie :kbd:`ESCAPE`, um die Anwendung zu beenden.

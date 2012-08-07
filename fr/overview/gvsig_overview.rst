@@ -63,7 +63,7 @@ Eléments centraux
   * télédétection: ECWP, ArcIMS, standards OGC
 
 * Client de services de recherche pour localiser des ressources de donnéesdans une SDI (Spatial Data Infrastructure)
- (services de cataloguage et de géoréférencement)
+  (services de cataloguage et de géoréférencement)
   
   * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Géoréférencement: ADL, WFS, WFS-G
