@@ -47,15 +47,15 @@ El estandar SOS define un modelo común para sensores y sistemas sensor que no s
 
 Una observación es un evento cuyo resultado es una estimación del valor de alguna propiedad de la característica de interés, obtenida usando un procedimiento específico. Las observaciones se definen por
 
-eventTime – Cuando se tomó la medida
-featureOfInterest – La entidad que se mide
-observedProperty - La característica que se midió
-procedure  - cómo se midió
+* eventTime – Cuando se tomó la medida
+* featureOfInterest – La entidad que se mide
+* observedProperty - La característica que se midió
+* procedure  - cómo se midió
 
 Operaciones SOS requeridas incluyen:
-GetObservation - acceso a datos de observación y medida del sensor a través de una consulta espacio-temporal que se puede filtrar por un fenómeno 
-GetCapabilities - Metadatos del servicio SOS
-DescribeSensor - información sobre los sensores, sus procesos y plataformas en SensorML
+* GetObservation - acceso a datos de observación y medida del sensor a través de una consulta espacio-temporal que se puede filtrar por un fenómeno 
+* GetCapabilities - Metadatos del servicio SOS
+* DescribeSensor - información sobre los sensores, sus procesos y plataformas en SensorML
 
 Operaciones opcionales incluyen: GetResult, GetFeatureOfInterest, GetFeatureOfInterestTime, DescribeFeatureofInterest, DescribeObservationType, DescribeResultModel, Register Sensor, y InsertObservation.
 
