@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-GMT.gif
   :scale: 100 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://gmt.soest.hawaii.edu
 
@@ -29,10 +29,10 @@ et est fournit avec das données de support tels que des lignes de côtes, des r
 
 .. image:: ../../images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
-  :alt: screenshot
+  :alt: Capture d'écran
   :align: right
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 * Cartographie de qualité de journal.
@@ -41,20 +41,20 @@ Eléments centraux
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://gmt.soest.hawaii.edu
+**Site web:** http://gmt.soest.hawaii.edu
 
-**License:** GNU General Public License (GPL) version 2
+**Licence:** Licence GNU General Public (GPL) version 2
 
 **Version de logiciel:** 4.5.6
 
-**Plateformes supportées:** GNU/Linux, Mac OSX, MS Windows
+**Plate-formes supportées:** GNU/Linux, Mac OSX, MS Windows
 
-**Interfaces API:** Command line
+**Interfaces de l'API:** Ligne de commande
 
 **Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/gmt_quickstart>`

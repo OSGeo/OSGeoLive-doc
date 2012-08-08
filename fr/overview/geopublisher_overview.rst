@@ -5,7 +5,7 @@
 
 .. image:: ../../images/project_logos/logo-Geopublisher.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://en.geopublishing.org/Geopublisher
 
@@ -18,29 +18,29 @@ Gestionnaire de librairies électroniques
 
 Geopublisher est un système de production d'atlas qui permet une publication facile de données géographiques, de documents, d'images, de videos, et de statistiques sous la forme d'atlas multimédia numériques. Ces atlas sont effectivement des SIG utilisateurs minimaux, pré-configurés qui offrent des fonctionnalités sélectionnés uniquement dans les domaines où elles sont adaptées.
 
-Geopublisher fournit des outils d'assurance qualité et une gestion de méta-données multilingues. Aucune connaissance approfondie d'HTML, SLD ou XML est nécessaire pour créer un atlas. Les atlas peuvent être publiés directement sur CD, DVD, des lecteurs de mémoire, des disques durs externes ou sur Internet. Le logiciel est indépendant des platformes.
+Geopublisher fournit des outils d'assurance qualité et une gestion de méta-données multilingues. Aucune connaissance approfondie d'HTML, SLD ou XML n'est nécessaire pour créer un atlas. Les atlas peuvent être publiés directement sur CD, DVD, des lecteurs de mémoire, des disques durs externes ou sur Internet. Le logiciel est indépendant des platformes.
 
 Les entités uniques de Geopublisher le rendent spécialement applicable dans les domaines de recherche internationale, des SIG participatifs, du développement de compétences, et le développement collaboratif.
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 .. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
-  :alt: screenshot of Geopublisher editing an atlas
+  :alt: Capture d'écran de Geopublisher pour éditer un atlas
   :align: right
 
-* Les atlas créés avec Geopublisher sont un SIG facile à utiliser avec des fonctionnalités sélectionnées disponible seulement lorsque cela est adapté.
-* Les atlas hybrides en ligne et hors ligne rendent les données géographiques accessibles dans tous les domaines de la numérisation.
-* Gestion multilingues de méta-données évite les redondances et évite les redondances et permet la sortie rapide d'atlas mis à jour.
-* Editeurs intégrés WYSIWYG pour SLD et HTML permet la géopulication sans connaissance de SLD, XML ou HTML.
-* Tous les logiciels sont gratuits et Open-Source cohérents avec les standards OGC
-* Geopublisher + QuantumGIS + OpenOffice fournit une solution bureautique de géopublication Open-Source.
+* les atlas créés avec Geopublisher sont comme des SIG simplifiés pour des utilisateurs finaux avec des fonctionnalités sélectionnées disponibles selon le besoin.
+* les atlas hybrides en ligne et hors ligne rendent les données géographiques accessibles quels que soient les supports (papier comme numérique).
+* la gestion multilingues de méta-données évite les redondances et permet la production rapide d'atlas à jour.
+* les éditeurs intégrés WYSIWYG pour SLD et HTML permettent la géopublication sans connaissances de SLD, XML ou HTML.
+* tous les logiciels sont gratuits et opensource et sont cohérents avec les standards OGC
+* l'ensemble Geopublisher + Quantum GIS + OpenOffice fournit une solution bureautique de géopublication opensource.
 * :doc:`AtlasStyler <atlasstyler_overview>` l'éditeur SLD est intégré dans Geopublisher.
-* Fonctionne sur Windows et Linux.
-* Stylies basés sur le standard SLD de l'OGC
-* Les atlas hors-ligne fonctionnent directement à partir de tout média - Java n'a pas à être installé.
-* Supporte les pyramides de tuiles d'image pour de gros volumes de données raster, aussi bien que pour les tuiles et vues d'ensembles GeoTiff
-* Totalement traduits en Allemand, Espagnol, Anglais, Italien et Français.
+* fonctionnement sur Windows et Linux.
+* styles basés sur le standard SLD de l'OGC
+* les atlas hors-ligne fonctionnent directement depuis n'importe quel média - Java n'a pas à être installé.
+* supporte les pyramides d'images tuilées pour les gros volumes de données raster, ainsi que les tuiles et vues d'ensembles GeoTiff
+* totalement traduits en Allemand, Espagnol, Anglais, Italien et Français.
 
 
 Standards implémentés
@@ -50,20 +50,20 @@ Standards implémentés
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://en.geopublishing.org/Geopublisher
+**Site web:** http://en.geopublishing.org/Geopublisher
 
 **Version du logiciel:** 1.9
 
-**License:** GNU General Public License (GPL) version 3.0; les atlas exportés sont sous license GNU Lesser General Public License (LGPL) version 3.0
+**Licence:** Licence GNU General Public (GPL) version 3.0; les atlas exportés sont sous license GNU Lesser General Public License (LGPL) version 3.0
 
 **Plateformes supportées:** GNU/Linux, MS Windows
 
-**Interfaces API:** Java, Swing, Geotools
+**Interfaces de l'API:** Java, Swing, Geotools
 
 **Support:** http://www.wikisquare.de
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/geopublisher_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/geopublisher_quickstart>`

@@ -6,13 +6,13 @@
 .. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://www.geomajas.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Projet OSGeo
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -22,9 +22,9 @@ Geomajas
 Client de navigation SIG
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geomajas est un environnement extensible de web mapping qui intègre de façon transparente des algorithmes puissants du côté serveur dans le naviateur web .
+Geomajas est un environnement extensible de web mapping qui intègre de façon transparente des algorithmes puissants du côté serveur dans le navigateur web .
 
-L'essentiel de Geomajas est de fournir une plateforme pour **l'intégration du côté serveur** de données géospatiales (être dans :doc:`GeoTools <geotools_overview>` ou Hibernate), permettant à de multiples utilisateurs de contrôler et de gérer les données depuis leurs propres navigateurs. Par essence, Geomajas fournit un ensemble de briques puissantes, à partir desquels les aplications SIG les plus avancées peuvent être facilement construites.
+L'essentiel de Geomajas est de fournir une plateforme pour **l'intégration du côté serveur** de données géospatiales (être dans :doc:`GeoTools <geotools_overview>` ou Hibernate), permettant à de multiples utilisateurs de contrôler et de gérer les données depuis leurs propres navigateurs. Par essence, Geomajas fournit un ensemble de briques puissantes, à partir desquels les applications SIG les plus avancées peuvent être facilement construites.
 
 Ce qui rend Geomajas unique est son solide aspect du côté serveur. Le processus, le style, le filtre, la capture, etc. de données géospatiales arrivent toujours dans un contexte sécurisé. Tout cela fait de Geomajas une application incroyablement adaptable et performante, gardant le client un **véritable client léger**.
 
@@ -33,16 +33,16 @@ Ce qui rend Geomajas unique est son solide aspect du côté serveur. Le processu
   :alt: Geomajas Showcase
   :align: right
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
-* Architecture intégrée client-server
+* Architecture intégrée client-serveur
 * Edition de la géométrie et des attributs
 * Définitions adaptées des attributs
 * Capacités avancées d'interrogation (CQL)
 * Sécurité "Out-of-the-box"
 * Mécanisme extensible de plugins
-* Technologies [front-end] multiple
+* Technologies [front-end] multiples
 * Support de navigateur, sans avoir besoin de plugins pour navigateur
 
 Standards implémentés
@@ -54,20 +54,20 @@ Standards implémentés
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.geomajas.org/
+**Site web:** http://www.geomajas.org/
 
-**License:** AGPL
+**Licence:** AGPL
 
 **Version du logiciel:** 1.8
 
-**Plateformes supportées:** Windows, Linux, Mac
+**Plates-formes supportées:** Windows, Linux, Mac
 
-**Interfaces API:** Java
+**Interfaces de l'API:** Java
 
 **Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/geomajas_quickstart>`

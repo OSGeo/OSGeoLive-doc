@@ -46,7 +46,7 @@ Caractéristiques principales
 * fichier de configuation de "livre de carte" basé sur XML, pour l'interface utilisateur, les sources de données et les outils
 * intégration avec Mapserver
 * conception modulaire facilitant l'intégration avec des systèmes non-spatiaux (comme la gestion des compétences).
-* publication quasiment illimité en nombre de couches.
+* publication quasiment illimitée en nombre de couches.
 * impression PDF.
 
 Standards implémentés
@@ -60,9 +60,9 @@ Détails
 
 **Licence:** Licence basé MIT. http://www.geomoose.org/info/license.html
 
-**Software Version:** 2.4
+**Version du logiciel:** 2.4
 
-**Version du logiciel:** Windows, Linux, Mac
+**Plates-formes supportées:** Windows, Linux, Mac
 
 **Support commercial:** http://www.geomoose.org/info/commercial_support.html
 
