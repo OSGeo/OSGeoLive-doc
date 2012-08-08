@@ -111,7 +111,7 @@ Inicialmente se muestra la pestaña **Step Metrics** (siguiente figura). En esta
 
 **Previsualizando la transformación**
 
-Tal vez la ejecución de una transformación termine con errores en el panel **Execution Results** (ver figura siguiente). Por favor, revisa el contenido de la pestaña **Logging*. En ella hay siempre mucha información útil acerca del origen y la razón del error. Modifica los parámetros del paso erróneo y reinicia la transformación.
+Tal vez la ejecución de una transformación termine con errores en el panel **Execution Results** (ver figura siguiente). Por favor, revisa el contenido de la pestaña **Logging**. En ella hay siempre mucha información útil acerca del origen y la razón del error. Modifica los parámetros del paso erróneo y reinicia la transformación.
 
   .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
     :scale: 70 %

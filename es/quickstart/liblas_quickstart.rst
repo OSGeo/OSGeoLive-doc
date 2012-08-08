@@ -44,8 +44,8 @@ Otra fuente de información sobre sistemas de coordenadas puede ser encontrado e
     La opción --no-check indica al comando 'lasinfo' que sólo debe mostrar la información del encabezado del archivo
     y que no escanee todos los puntos.  Para un archivo con sólo 10 puntos, 
     esto no supone una preocupación, pero para un fichero con 50 o 500 millones de puntos, 
-	el tiempo de espera de un análisis completo de los datos no merece la pena si sólo se necesita información
-	de la cabecera.
+    el tiempo de espera de un análisis completo de los datos no merece la pena si sólo se necesita información
+    de la cabecera.
 
 Nuestra llamada a 'lasinfo' nos informa que el fichero ``srs.las`` 
 posee coordenadas en UTM Zona 17 Norte:

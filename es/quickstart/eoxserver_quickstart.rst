@@ -29,7 +29,7 @@ Esta guía de inicio rápido describe cómo:
 
 Ver el :doc:`resumen de EOxServer <../overview/eoxserver_overview>`, la 
 `documentación de EOxServer 0.2.1 <../../eoxserver-docs/EOxServer_documentation.pdf>`_, 
-o la `documentación en línea <http://eoxserver.org/doc/>`_ para obtener más información.
+o la `documentación en línea <http://eoxserver.org/doc/>`__ para obtener más información.
 
 .. contents:: Contenidos
 
@@ -65,7 +65,7 @@ Cliente web
 ~~~~~~~~~~~~~~~
 
 El enlace al **cliente web** te permite ver una lista de los `Dataset 
-Series` y `Stitched Mosaics` (series de datos y mosaicos) disponibles. La demostración tiene un `Dataset Series` configurado llamado "MER FRS 1P RGB reduced" que contiene tres escenas ENVISAT MERIS. Para obtener más información sobre los datos disponibles por favor dirígete a la `documentación en línea <http://eoxserver.org/doc/en/users/demonstration.html>`_.
+Series` y `Stitched Mosaics` (series de datos y mosaicos) disponibles. La demostración tiene un `Dataset Series` configurado llamado "MER FRS 1P RGB reduced" que contiene tres escenas ENVISAT MERIS. Para obtener más información sobre los datos disponibles por favor dirígete a la `documentación en línea <http://eoxserver.org/doc/en/users/demonstration.html>`__.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient1.png
   :scale: 50 %

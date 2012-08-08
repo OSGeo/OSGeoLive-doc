@@ -30,18 +30,20 @@ Vous êtes susceptibles d'utiliser un texte d'attribution similaire à l'un des 
 
 **CC-By-SA concise avec attribution:**
 
-  © 2011 [Votre Nom] sous une `licence CC By SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.  [Dérivant|Incluant|Etendant] la documentation `OSGeo-Live <http://live.osgeo.org/fr>`_ faite par `les contributeurs OSGeo-Live <http://live.osgeo.org/fr/copyright.html>`_.
+.. _les contributeurs OSGeo-Live: http://live.osgeo.org/fr/copyright.html
+
+  © 2011 [Votre Nom] sous une `licence CC By SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.  [Dérivant|Incluant|Etendant] la documentation `OSGeo-Live <http://live.osgeo.org/fr>`_ faite par `les contributeurs OSGeo-Live`_.
 
 **Alternative avec CC-By et attribution:**
 
-  |CC-By-small| © 2011 [Votre Nom]. [Dérivant|Incluant|Etendant] les vues d'ensemble du projet `OSGeo-Live <http://live.osgeo.org>`_ faites par `les contributeurs OSGeo-Live <http://live.osgeo.org/fr/copyright.html>`_.
+  |CC-By-small| © 2011 [Votre Nom]. [Dérivant|Incluant|Etendant] les vues d'ensemble du projet `OSGeo-Live <http://live.osgeo.org>`__ faites par `les contributeurs OSGeo-Live`_.
 
   .. |CC-By-small| image:: ../images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/deed.fr
 
 **Minimum (pour les vues d'ensemble du projet) avec attribution seulement:**
 
-  Ce document inclut les vues d'ensemble du projet `OSGeo-Live <http://live.osgeo.org>`_ faites par `les contributeurs OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
+  Ce document inclut les vues d'ensemble du projet `OSGeo-Live <http://live.osgeo.org>`__ faites par `les contributeurs OSGeo-Live`_.
 
 Contributeurs de la documentation
 --------------------------------------------------------------------------------
