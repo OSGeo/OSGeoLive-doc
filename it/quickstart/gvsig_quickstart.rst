@@ -22,7 +22,7 @@ user-friendly e la capacità di accesso ai formati vettoriali e raster più comu
 Comprende un'ampia serie di strumenti per lavorare con l'informazione geografica 
 (query, creazione di layout, geoprocessi, reti, ecc.), che rende gvSIG uno strumento 
 ideale per gli utenti che lavorano in ambito geografico." 
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ 2011
+`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`__ 2011
 
 Il quickstart descrive come...
 =================================== 
@@ -401,6 +401,6 @@ Risorse utili
 ================================================================================
 
 Del materiale didattico in italiano è disponibile sul sito di   
-`gvSIG <https://gvsig.org/web/docusr/learning/cursos-gvsig#italiano>`_ . 
+`gvSIG <https://gvsig.org/web/docusr/learning/cursos-gvsig#italiano>`__ . 
 
 

@@ -17,7 +17,7 @@ Projektbeschreibung
 ================================================================================
 
 “gvSIG ist ein Geographisches Informationssystem (GIS), das heißt, eine Desktopanwendung zum Erfassen, Speichern, Bearbeiten, Analysieren und Veröffentlichen jeglicher Art räumlich referenzierter geographischer Informationen und zum Lösen komplexer Fragestellungen in Verwaltung und Planung. gvSIG ist für seine benutzerfreundliche Bedienoberfläche bekannt, die den Zugriff auf die meisten gängigen Datenformate, sowohl auf Vektor- als auch auf Rasterbasis, ermöglicht. Es bietet eine breite Auswahl an Werkzeugen für die Bearbeitung geographischer Informationen (Abfragewerkzeuge, Layouterstellung, Geoprocessing, Netzwerk, etc.), und ist damit das ideale Werkzeug für alle Anwender aus Fachgebieten in denen raumbezogene Daten eine Rolle spielen.
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ 2011
+`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`__ 2011
 
 Dieses Dokument zeigt wie man...
 ================================================================================
@@ -331,7 +331,7 @@ Speichern Ihres Projektes oder Schließen von gvSIG
 Was kommt als nächstes...
 ================================================================================
 
-Einige Dokumente und Tutorials auf Englisch stehen unter `gvSIG <http://www.gvsig.org/web/docusr/learning/>`_ zur Verfügung.
+Einige Dokumente und Tutorials auf Englisch stehen unter `gvSIG <http://www.gvsig.org/web/docusr/learning/>`__ zur Verfügung.
 
 
 

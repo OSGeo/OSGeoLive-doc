@@ -21,7 +21,7 @@ able to access the most common formats, both vector and raster ones. It
 features a wide range of tools for working with geographic-like information 
 (query tools, layout creation, geoprocessing, networks, etc.), which turns 
 gvSIG into the ideal tool for users working in the land realm." 
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`_ 2011
+`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`__ 2011
 
 This quickstart describes how to...
 =================================== 
@@ -378,6 +378,6 @@ Where to from here...
 ================================================================================
 
 Some English help and tutorials are available on the 
-`gvSIG <http://www.gvsig.org/web/docusr/learning/>`_ website. 
+`gvSIG <http://www.gvsig.org/web/docusr/learning/>`__ website. 
 
 

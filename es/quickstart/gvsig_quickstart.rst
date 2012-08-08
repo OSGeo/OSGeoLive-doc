@@ -22,7 +22,7 @@ más comunes, tanto vectoriales como *raster* y cuenta con un amplio número de
 herramientas para trabajar con información de naturaleza geográfica (herramientas
 de consulta, creación de mapas, geoprocesamiento, redes, etc.) que lo convierten 
 en una herramienta ideal para usuarios que trabajen con la componente territorial." 
-`gvSIG 2011 <http://www.gvsig.org/web/projects/gvsig-desktop/descripcion/view?set_language=es>`_ 
+`gvSIG 2011 <http://www.gvsig.org/web/projects/gvsig-desktop/descripcion/view?set_language=es>`__ 
 
 Esta guía de inicio rápido describe como...
 ================================================================================
@@ -417,5 +417,5 @@ Guardando su proyecto y saliendo de gvSIG
 A partir de aquí...
 ================================================================================
 
-Algunos tutoriales y material de ayuda en Español están disponibles en la página web de `gvSIG <http://www.gvsig.org/web/docusr/learning/>`_. 
+Algunos tutoriales y material de ayuda en Español están disponibles en la página web de `gvSIG <http://www.gvsig.org/web/docusr/learning/>`__. 
 
