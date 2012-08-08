@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-GuÌas de inicio r·pido de OSGeo-Live
+Gu√≠as de inicio r√°pido de OSGeo-Live
 ================================================================================
 
 .. toctree::
@@ -15,7 +15,7 @@ GuÌas de inicio r·pido de OSGeo-Live
   virtualbox_quickstart
   usb_quickstart
 
-GuÌas de inicio r·pido de Aplicaciones
+Gu√≠as de inicio r√°pido de Aplicaciones
 ================================================================================
 .. toctree::
   :maxdepth: 5
