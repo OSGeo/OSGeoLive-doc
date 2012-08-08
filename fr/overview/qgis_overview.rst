@@ -22,24 +22,24 @@ Quantum GIS (QGIS)
 SIG bureautique
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) est un client SIG Open Source facile à utiliser avec lequel
-vous pouvez visualiser, gérer, éditer, analyser les données et composer les cartes imprimables.
+Quantum GIS (QGIS) est un client SIG opensource facile à utiliser avec lequel
+vous pouvez visualiser, gérer, éditer, analyser les données et composer des cartes imprimables.
 Il comporte une fonctionnalité puissante d'analyse grâce à son integration avec GRASS.
 Il fonctionne sur Linux, Unix, Mac OSX, et Windows et supporte de nombreux formats et fonctionnalités pour des données vecteur,
 raster et des base de données.
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 * Interface graphique utilisateur.
 
     * identification/sélection d'entités,
-    * édition/visualisation/srecherche d'attributs,
+    * édition/visualisation/recherche d'attributs,
     * projection à la volée,
     * compositeur d'impression,
     * étiquettage d'entités,
@@ -63,7 +63,7 @@ Eléments centraux
 
 * Réalisation d'analyses spatiales en utilisant des plugins fTools ou GRASS
 
-    * map algebra,
+    * algèbre de carte,
     * analyse de terrain,
     * modélisation hydrologique,
     * analyse de réseau,
@@ -80,20 +80,20 @@ Standards implémentés
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.qgis.org
+**Site web:** http://www.qgis.org
 
-**License:** GPL
+**Licence:** GPL
 
-**Version de logiciel:** 1.8.0
+**Version du logiciel:** 1.8.0
 
-**Plateformes supportées:** Windows, Linux, Mac, Unix
+**Plates-formes supportées:** Windows, Linux, Mac, Unix
 
 **Support communautaire:** http://qgis.org/en/community.html
 
 **Support commercial:** http://qgis.org/en/commercial-support.html
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/qgis_quickstart>`

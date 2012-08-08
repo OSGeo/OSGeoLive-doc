@@ -5,13 +5,13 @@
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://www.qgis.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Projet OSGeo
   :align: right
   :target: http://www.osgeo.org
 
@@ -21,24 +21,24 @@ QGIS Server
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-QGIS Server fournit un service web cartographique (WMS) utilisant les mêmes libraries que l'application de bureautique Quantum GIS (QGIS).
-Les cartes et les modèles d'impression créés dans QGIS peuvent être publiés comme des cartes web simplement en copiant le fichier de projet de QGIS dans le répertoire du serveur. Les cartes web résultant ressemblent exactement aux mêmes que dans l'outil bureautique.
-QGIS Server fonctionne habituellement comme un module CGI/FastCGI dans le Webserver Apache.
+QGIS Server fournit un service web cartographique (WMS) utilisant les mêmes libraries que l'application bureautique Quantum GIS (QGIS).
+Les cartes et les modèles d'impression créés dans QGIS peuvent être publiés comme des cartes web simplement en copiant le fichier de projet de QGIS dans le répertoire du serveur. Les cartes web résultantes ressemblent exactement à celles de l'outil bureautique.
+QGIS Server fonctionne habituellement comme un module CGI/FastCGI dans le serveur web Apache.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
-  :alt: project logo
+  :alt: Capture d'écran
   :align: right
 
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
-* Implémentation de Web Map Service (WMS)
-* Sortie au format PDF 
-* Création de carte WYSIWYG avec QGIS
-* Symbolisation cartographique avancée
-* Support de Styled Layer Descriptor (SLD)
+* implémentation du Web Map Service (WMS)
+* sortie au format PDF 
+* création de carte WYSIWYG avec QGIS
+* symbolisation cartographique avancée
+* support du Styled Layer Descriptor (SLD)
 
 Standards implémentés
 --------------------------------------------------------------------------------
@@ -49,18 +49,18 @@ Standards implémentés
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.qgis.org/
+**Site web:** http://www.qgis.org/
 
-**License:** GPL
+**Licence:** GPL
 
-**version du logiciel:** 1.8.0
+**Version du logiciel:** 1.8.0
 
-**Plateformes supportées:** Windows, Linux
+**Plates-formes supportées:** Windows, Linux
 
 **Support commercial:** http://www.sourcepole.com/
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/qgis_mapserver_quickstart>`
