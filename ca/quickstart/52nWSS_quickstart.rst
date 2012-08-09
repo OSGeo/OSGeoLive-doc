@@ -17,7 +17,7 @@ Començant
 
 El 52°North WSS és un servei web, que permet accedir a serveis web OGC amb polítiques d'accés, actuant com a proxy.
 
-A la distribució OSGeo Live, el 52°North WSS ja és configurada per a protegir una instància de cada servei: WMS, WFS, WPS i SOS.
+A la distribució OSGeo-Live, el 52°North WSS ja és configurada per a protegir una instància de cada servei: WMS, WFS, WPS i SOS.
 
 Per a obtenir una llista de serveis protegits i provar l'accés al servei WMS, seguiu aquests passos:
 
