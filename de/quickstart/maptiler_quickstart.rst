@@ -21,7 +21,7 @@ Spezifikation der `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.o
 * **Eingangsparameter**: Beliebige georeferenzierte Bilddateien, z.B. TIFF, JPEG von ArcGIS, QGIS.
 
 * **Ausgabeoptionen**: Verzeichnisse mit gekachelten Bildern, die in einen Webserver kopiert werden 
-  können. `Beispien ansehen <http://examples.maptiler.org/>`_. 
+  können. `Beispiel ansehen <http://examples.maptiler.org/>`_. 
 
 * **Stärken**: MapTiler is einfach, frei, Open-Source Software mit einem mit einem einfachen Assistenten, 
   der untern beschrieben und auf die Optionen eingegangen wird.
@@ -33,7 +33,7 @@ Somit sind die Kacheln kompatibel.
 
 Die Seite `Kacheln à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ 
 beschreibt und verdeutlicht dies. MapTiler bereitet die Kacheln soweit vor, dass diese zur Spezfikation passen 
-und stellt somit einen einfachen Tool dar, georeferenzierte Karten in einer Mashup Webseite einzubinden.
+und ist somit ein einfaches Tool, um georeferenzierte Karten in einer Mashup Webseite einzubinden.
 
 
 MapTiler starten
@@ -46,56 +46,56 @@ MapTiler starten
    für die Veröffentlichung ins Web. Wählen Sie *Google Earth (KML SuperOverlay)*, wenn Sie ebenso KML 
    Dateien für Google Earth generiert bekommen möchten. Klicken Sie auf *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler1.jpg
-    :width: 90 %
-    :align: center
+   .. image:: ../../images/screenshots/1024x768/maptiler1.jpg
+      :width: 60 %
+      :align: center
 
 #. Wählen Sie **Source Data Files**. Navigieren Sie zu dem Rasterbild, welches sie kacheln möchten. 
    Ebenso ist es möglich, eine Farbe für NODATA (keine Daten), die letzendlich transparent in den 
    resultierenden Bildern wird. Auch hier klicken Sie *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler2.jpg
-    :width: 90 %
-    :align: center
+   .. image:: ../../images/screenshots/1024x768/maptiler2.jpg
+      :width: 60 %
+      :align: center
 
 #. Legen Sie das Koordinatensystem des Bildes fest (**Spatial Reference System / Coordinate System**). Geben 
    Sie den Code der EPSG/ESRI Datenbank an. Sind zum Beispiel die Karten aus Großbritanien, sollten Sie für 
    die Transfromation die Information `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ 
    als Parameter enthalten. licken Sie auf *Continue* 
 
-.. image:: ../../images/screenshots/1024x768/maptiler3.jpg
-    :width: 90 %
-    :align: center
+   .. image:: ../../images/screenshots/1024x768/maptiler3.jpg
+      :width: 60 %
+      :align: center
 
 #. Geben Sie die Details für die Pyramidenbildung (**Tile Pyramid**). Die Standardeinstellungen für die Zoomstufen und das Deteiformat sind meistens passend. Weiter mit  *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler4.jpg
-    :width: 90 %
-    :align: center
+   .. image:: ../../images/screenshots/1024x768/maptiler4.jpg
+      :width: 60 %
+      :align: center
 
 #. Geben Sie den Zielordner und Adressen / URLs (**Destination folder and Addresses / URLs**) für den 
    Kachelsatz an. Wissen Sie zu diesem Zeitpunkt die URLs noch nicht, können diese später in die 
    Standardseiten *googlemaps.html* und *openlayers.html* eingetragen werden. Weiter mit *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler5.jpg
-    :width: 90 %
-    :align: center
+   .. image:: ../../images/screenshots/1024x768/maptiler5.jpg
+      :width: 60 %
+      :align: center
 
 #. Aktivieren Sie die Zieleformate in **Viewers that should be generated**, die Sie generiert 
    bekommen möchten. Als Vorgabe sind *googlemaps.html* und *openlayers.html* gewählt. Weiter mit *Continue*.
 
 
-.. image:: ../../images/screenshots/1024x768/maptiler6.jpg
-    :width: 90 %
-    :align: center
+   .. image:: ../../images/screenshots/1024x768/maptiler6.jpg
+      :width: 60 %
+      :align: center
 
 #. Legen Sie Details für Titel, Copyright Hinweise und API-Schlüssel fest (**Details for generating the Viewers**). 
    Wissen Sie diese zu diesem Zeitpunkt noch nicht, können diese später in die Standardseiten 
    *googlemaps.html* und *openlayers.html* eingetragen werden. Weiter mit *Continue*. 
 
-.. image:: ../../images/screenshots/1024x768/maptiler7.jpg
-    :width: 90 %
-    :align: center
+   .. image:: ../../images/screenshots/1024x768/maptiler7.jpg
+      :width: 60 %
+      :align: center
 
 #. Klicken Sie **Render**, um die Bilder zu erzeugen. Ist der Prozess abgeschlossen, bietet MapTiler 
    einen Link zu den erzeugten Kachelset an. Öffen Sie *googlemaps.html* oder *openlayers.html* in 
