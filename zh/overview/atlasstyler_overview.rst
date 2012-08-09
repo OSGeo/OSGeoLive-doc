@@ -18,7 +18,7 @@ AtlasStyler
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ 是一个容易操作的桌面应用程序，用于定义地理数据的显示风格或样式。样式结果可以保存为OGC标准兼容的SLD/SE文件。
 
-AtlasStyler创建的SLD文件同支持OGC SLD标准规范的所有应用程序兼容，包括 :doc:`GeoServer <geoserver_overview>`、:doc:`uDig <udig_overview>` 等其它。该应用程序提供了多种直观的对话框，用以简化创建风格。用户可以使用抽象的分类，比如：唯一值、彩色分量或等距离。
+AtlasStyler创建的SLD文件同支持OGC SLD标准规范的所有应用程序兼容，包括 :doc:`GeoServer <geoserver_overview>` 、:doc:`uDig <udig_overview>` 等其它。该应用程序提供了多种直观的对话框，用以简化创建风格。用户可以使用抽象的分类，比如：唯一值、彩色分量或等距离。
 此外，用户可以连接网上符号数据库。用户可以在符号编辑器中创建和保存符号，并且将其重新用于分类或其他项目中。
 
 .. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
