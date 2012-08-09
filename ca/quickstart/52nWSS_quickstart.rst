@@ -41,7 +41,7 @@ o bé
 
 7) Autentifiqueu-vos com a ``bob``/``bob`` per a accedir al servei amb permisos limitats. Algunes capes estaran amagades i no seran accessibles.
 
-Per a fer més proves amb el servei protegit, carregueu http://localhost:8080/wss/service/wms_demis/httpauth a qualsevol client d'escriptori que suporti autentificació bàsica d'HTTP, com ara uDig, i feu la servir com faríeu amb qualsevol altre WMS.
+Per a fer més proves amb el servei protegit, carregueu http://localhost:8080/wss/service/wms_demis/httpauth a qualsevol client d'escriptori que suporti autentificació bàsica d'HTTP, com ara :doc:`uDig <../overview/udig_overview>`, i feu la servir com faríeu amb qualsevol altre WMS.
 
 
 Informació addicional
@@ -57,4 +57,4 @@ On són definits els permisos?
 
 On puc obtenir més informació?
 --------------------------------------------------------------------------------
-Visiteu la `Guia de l'usuari de 52North <http://52north.org/communities/security/general/user_guide_intro.html>`_
+Visiteu la `Guia de l'usuari de 52°North <http://52north.org/communities/security/general/user_guide_intro.html>`_

@@ -41,7 +41,7 @@ o
 
 7) Utiliza ``bob``/``bob`` para acceder al servicio con permisos limitados. Algunas capas estarán ocultas y no se podrá acceder a ellas.
 
-Para probar más a fondo el servicio protegido carga http://localhost:8080/wss/service/wms_demis/httpauth como una capa WMS en cualquier herramienta GIS de escritorio que soporte autenticación básica HTTP, por ejemplo uDig, y utilízala como cualquier otra capa WMS.
+Para probar más a fondo el servicio protegido carga http://localhost:8080/wss/service/wms_demis/httpauth como una capa WMS en cualquier herramienta GIS de escritorio que soporte autenticación básica HTTP, por ejemplo :doc:`uDig <../overview/udig_overview>`, y utilízala como cualquier otra capa WMS.
 
 
 Información adicional
@@ -57,4 +57,4 @@ Información adicional
 
 ¿Dónde puedo obtener más información?
 --------------------------------------------------------------------------------
-Visita la `Guía de Usuario 52North <http://52north.org/communities/security/general/user_guide_intro.html>`_
+Visita la `Guía de Usuario 52°North <http://52north.org/communities/security/general/user_guide_intro.html>`_

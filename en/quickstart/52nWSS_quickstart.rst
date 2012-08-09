@@ -41,7 +41,7 @@ or
 7) Authenticate as ``bob``/``bob`` to access the service under limited permissions. Some layers are hidden and cannot be accessed.
 
 To further test the protected service, load http://localhost:8080/wss/service/wms_demis/httpauth as WMS into any desktop mapping client that supports HTTP
-Basic Authentication, e.g. uDig, and use it as you would with any other WMS.
+Basic Authentication, e.g. :doc:`uDig <../overview/udig_overview>`, and use it as you would with any other WMS.
 
 
 Additional Information
@@ -57,4 +57,4 @@ Where are the permissions defined?
 
 Where do I get further information?
 --------------------------------------------------------------------------------
-Visit the 52North `User Guide <http://52north.org/communities/security/general/user_guide_intro.html>`_
+Visit the 52°North `User Guide <http://52north.org/communities/security/general/user_guide_intro.html>`_

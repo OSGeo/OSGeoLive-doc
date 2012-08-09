@@ -30,7 +30,7 @@ Ejecutar consultas locales
 ================================================================================
 
     * Abrir una terminal y abrir la base de datos de ejemplo instalada en local
-    * Usar la utilidad :command:`rasql`para enviar consultas y recibir resultados, por ejemplo::
+    * Usar la utilidad :command:`rasql` para enviar consultas y recibir resultados, por ejemplo::
 
       $ rasql -q "select png((char)(c.red / (c.red + c.green) - c.green / (c.red + c.green)) > 0.6 * 255) from rgb AS c" --out file
 
