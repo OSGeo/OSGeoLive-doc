@@ -313,7 +313,7 @@ To use a WFS you have to load a WFS in Mapbender and generate feature type confi
 
 Afterwards you have to grant access to your new feature type configuration to an application before you can use it.
 
-If you want to set up an application with WFS digitizing you need a WFS which supports transactions (WFS-T). You can for example use the software GeoServer or deegree to set up a WFS-T.
+If you want to set up an application with WFS digitizing you need a WFS which supports transactions (WFS-T). You can for example use the software :doc:`GeoServer <../overview/geoserver_overview>` or deegree to set up a WFS-T.
 
 Loading Web Feature Services
 ================================================================================

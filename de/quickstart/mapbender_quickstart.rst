@@ -308,7 +308,7 @@ Wenn Sie einen WFS in Mapbender nutzen möchten, müssen Sie den Dienst laden un
 
 Bevor Sie die FeatureType-Konfiguration nutzen können, müssen Sie diese einer Anwendung zuordnen.
 
-Wenn Sie eine Oberfläche mit WFS Digitalisierung aufbauen möchten, benötigen Sie einen WFS, der Transaktionen unterstützt (WFS-T). Sie können beispielsweise die Programme GeoServer oder deegree nutzen, um einen WFS-T aufzusetzen.
+Wenn Sie eine Oberfläche mit WFS Digitalisierung aufbauen möchten, benötigen Sie einen WFS, der Transaktionen unterstützt (WFS-T). Sie können beispielsweise die Programme :doc:`GeoServer <../overview/geoserver_overview>` oder deegree nutzen, um einen WFS-T aufzusetzen.
 
 Laden eines Web Feature Services
 ================================================================================

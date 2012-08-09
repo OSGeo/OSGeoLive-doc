@@ -316,7 +316,7 @@ Para usar un servicio WFS usted debe cargar el servicio WFS en Mapbender y gener
 
 Luego usted tiene que permitir el acceso de su nueva configuración de tipo de fenómenos (WFS) a una aplicación antes de poder usarlo.
 
-Si desea crear una aplicación con la opción de digitalización o vectorización de WFS, necesitará de un servicio WFS que soporte transacciones (WFS-T). Por ejemplo, puede utilizar software de servidores de mapas tales como GeoServer o Deegree para establecer un WFS-T.
+Si desea crear una aplicación con la opción de digitalización o vectorización de WFS, necesitará de un servicio WFS que soporte transacciones (WFS-T). Por ejemplo, puede utilizar software de servidores de mapas tales como :doc:`GeoServer <../overview/geoserver_overview>` o Deegree para establecer un WFS-T.
 
 Cargando un Web Feature Services
 ================================================================================
