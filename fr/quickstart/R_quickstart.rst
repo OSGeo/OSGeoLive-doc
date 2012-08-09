@@ -274,9 +274,9 @@ pour chaque fonction. Aujourd'hui les auteurs de packages sont très largement e
 une 'vignette' pour aider à la prise en main des fonctions de leurs packages. Si vous entrez juste 
 ``vignette()`` sans arguments cela devrait vous renvoyer une liste de tous les arguments que peut
 prendre la fonction sur votre système. Essayez ``vignette("sp")`` pour une petite introduction technique
- aux structures spatiales dans R, ou ``vignette("spdep")`` pour une explication des analyses statistiques
-  ou de l'autocorrélation spatiale. La ``vignette("gstat")`` renvoie un tutoriel pour l'usage de ce package
-   pour des interpolations spatiales et une introduction au Kriging.
+aux structures spatiales dans R, ou ``vignette("spdep")`` pour une explication des analyses statistiques
+ou de l'autocorrélation spatiale. La ``vignette("gstat")`` renvoie un tutoriel pour l'usage de ce package
+pour des interpolations spatiales et une introduction au Kriging.
 
 Further Reading
 ================================================================================

@@ -19,7 +19,7 @@ Starten und verwenden
   :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS` oder verwenden 
   Sie diesen `Link <http://localhost:8080/52nWPS/>`_. (Ist der Service nicht erreichbar, versuchen 
   Sie den Tomcat Service zu starten. Folgen Sie dabei den einzelnen Schritten, wie es am Ende des 
-  Dokumentes :doc:`<../quickstart/52nSOS_quickstart>` beschrieben ist.)
+  Dokumentes :doc:`52nSOS_quickstart` beschrieben ist.)
 
 * Die 52n WPS Willkommenseite wird erscheinen.
 
