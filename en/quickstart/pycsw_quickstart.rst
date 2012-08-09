@@ -21,7 +21,7 @@ pycsw allows for the publishing and discovery of geospatial metadata.  Existing 
 
 pycsw is `Open Source`_, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
-pycsw is installed by default on the OSGeo Live DVD.  This QuickStart will describe how to:
+pycsw is installed by default on the OSGeo-Live DVD.  This QuickStart will describe how to:
 
 * perform a fresh installation of pycsw
 * test pycsw installation through the tester application
@@ -66,7 +66,7 @@ Ensure that CGI is enabled for your install directory.  For example, on Apache, 
 Installing on Ubuntu/Xubuntu/Kubuntu
 ------------------------------------
 
-In order to install pycsw to an Ubuntu based distribution, one can use the OSGeoLive installation script located in ``pycsw/etc/dist``:
+In order to install pycsw to an Ubuntu based distribution, one can use the OSGeo-Live installation script located in ``pycsw/etc/dist``:
 
 .. code-block:: bash
 
@@ -192,7 +192,7 @@ pycsw supports the following databases:
 - PostgreSQL
 - MySQL
 
-In OSGeo Live, a simple SQLite setup has been implemented. The database can be found in ``/var/www/pycsw/data/cite``
+In OSGeo-Live, a simple SQLite setup has been implemented. The database can be found in ``/var/www/pycsw/data/cite``
 
 In case of a new db, the setup process is:
 

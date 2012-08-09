@@ -89,7 +89,7 @@ Cargar capas
 Archivos
 --------------------------------------------------------------------------------
 
-Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el LiveDVD:
+Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el OSGeo-Live DVD:
 
 #. Elija la opción *Vista > Cargar datos...* o presione el botón con el signo más (+) verde de la barra principal de herramientas
 
@@ -120,7 +120,7 @@ Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el Liv
    .. image:: ../../images/screenshots/1024x768/kosmo_load_file_example.jpg
 
 .. note::
-  El LiveDVD contiene algunos archivos de datos de ejemplo en los siguientes directorios:
+  El OSGeo-Live DVD contiene algunos archivos de datos de ejemplo en los siguientes directorios:
 
   * :file:`~/data` (un acceso directo a :file:`/usr/local/share/data` or `/home/user/data`)
   * :file:`/usr/local/share/openjump/data`
@@ -168,7 +168,7 @@ Vamos a cargar una tabla de una base de datos como ejemplo:
 Servicios OGC
 --------------------------------------------------------------------------------
 
-#. Inicie el servicio WMS de GeoServer incluido en el LiveDVD seleccionando la opción *Educación > Iniciar GeoServer* (o desde el escritorio, entre en la carpeta *Servicios Web* y ejecute el acceso directo de Iniciar GeoServer)
+#. Inicie el servicio WMS de GeoServer incluido en el OSGeo-Live DVD seleccionando la opción *Educación > Iniciar GeoServer* (o desde el escritorio, entre en la carpeta *Servicios Web* y ejecute el acceso directo de Iniciar GeoServer)
 
 #. Pulse el botón *Carga servicio IDE* en la barra de herramientas principal para abrir el asistente
 

@@ -12,7 +12,7 @@ OSGeo-Live kann auf einem Host-Rechner installiert und als "Gast"-Betriebssystem
 ================================================================================
 Warum die OSGeo-Live als VM laufen lassen?
 ================================================================================
-Wird OSGeo-Live als VM verwendet, besteht für den Anwender die Möglichkeit, die Arbeiten abzuspeichern, das Live-System zu aktualisieren oder weitere Software zu installieren. Hinzu kommt, dass der virtuelle Computer besser auf User-Interaktion anspricht, als wenn OSGeo-Lie von der DVD gestartet wird. Die OSGeo-Live VM erzeugt eine voll funktionsfähige Computer-Umgebung, im Gegensatz zur LiveDVD werden alle Dateien und Daten sowie Einstellungen gespeichert und sind nach dem Neustart weiterhin verfügbar. Aufgrund der Platform ist es nicht nur möglich, OSGeo-Live für Präsentationen und Schulungen zu nutzen, sondern wirklich in GIS-Welt einzudringen und zu arbeiten.
+Wird OSGeo-Live als VM verwendet, besteht für den Anwender die Möglichkeit, die Arbeiten abzuspeichern, das Live-System zu aktualisieren oder weitere Software zu installieren. Hinzu kommt, dass der virtuelle Computer besser auf User-Interaktion anspricht, als wenn OSGeo-Live von der DVD gestartet wird. Die OSGeo-Live VM erzeugt eine voll funktionsfähige Computer-Umgebung, Im Gegensatz zur OSGeo-Live DVD werden alle Dateien und Daten sowie Einstellungen gespeichert und sind nach dem Neustart weiterhin verfügbar. Aufgrund der Platform ist es nicht nur möglich, OSGeo-Live für Präsentationen und Schulungen zu nutzen, sondern wirklich in GIS-Welt einzudringen und zu arbeiten.
 
 ================================================================================
 Anforderungen

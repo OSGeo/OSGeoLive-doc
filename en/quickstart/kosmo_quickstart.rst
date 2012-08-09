@@ -87,7 +87,7 @@ Loading layers
 Files
 --------------------------------------------------------------------------------
 
-To start out, we're going to load some of the sample data included on the LiveDVD:
+To start out, we're going to load some of the sample data included on the OSGeo-Live DVD:
 
 #. Choose the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
 
@@ -118,7 +118,7 @@ To start out, we're going to load some of the sample data included on the LiveDV
    .. image:: ../../images/screenshots/1024x768/kosmo_load_file_example.jpg
 
 .. note::
-  The LiveDVD contains some file data examples in the following directories:
+  The OSGeo-Live DVD contains some file data examples in the following directories:
   
   * :file:`~/data` (a shortcut to :file:`/usr/local/share/data` or :file:`/home/user/data`)
   * :file:`/usr/local/share/openjump/data`
@@ -166,7 +166,7 @@ We're going to load a database table as an example:
 OGC services
 --------------------------------------------------------------------------------
 
-#. Start the GeoServer WMS included in the LiveDVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start Geoserver icon)
+#. Start the GeoServer WMS included in the OSGeo-Live DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start Geoserver icon)
 
 #. Press the *Load SDI Service* button at the main toolbar to open the wizard
 

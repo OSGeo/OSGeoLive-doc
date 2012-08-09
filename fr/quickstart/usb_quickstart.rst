@@ -85,7 +85,7 @@ Etape 2: Insérez une clé flash USB dans votre ordinateur.
 
 Etape 3: Démarrer UNetbootin, sélectionner Diskimage (la clé flash USB est sélectionnée automatiquement).
 
-Etape 4: Sélectionnez le fichier ISO OSGeoLive.
+Etape 4: Sélectionnez le fichier ISO OSGeo-Live.
 
 Sélectionnez :guilabel:`OK`
 

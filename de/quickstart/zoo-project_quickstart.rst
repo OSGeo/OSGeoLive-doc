@@ -14,7 +14,7 @@ ZOO Projekt Quickstart
 Ablauf
 ================================================================================
 
-*	Um die ZOO-Projekt Demoanwendung von der LiveDVD auszuführen, starte zuerst "Geoserver" und hiernach "Zoo Projekt", entweder durch Klick auf die Desktop Icons oder Aufruf im Programmmenü.
+*	Um die ZOO-Projekt Demoanwendung von der OSGeo-Live DVD auszuführen, starte zuerst "Geoserver" und hiernach "Zoo Projekt", entweder durch Klick auf die Desktop Icons oder Aufruf im Programmmenü.
 
 *	Die "ZOO Project Spatial Tools Demo" öffnet sich hierauf in Firefox.
 

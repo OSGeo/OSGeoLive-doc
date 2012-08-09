@@ -90,7 +90,7 @@ Universal USB Installer を http://www.pendrivelinux.com/universal-usb-installer
 
 ステップ 3: UNetbootin を起動して、ディスクイメージを選択します。USB flash ドライブは自動的で選択されます。
 
-ステップ 4: OSGeoLive の ISO ファイルを選択してください。
+ステップ 4: OSGeo-Live の ISO ファイルを選択してください。
 
 :guilabel:`OK` をクリックしてください
 

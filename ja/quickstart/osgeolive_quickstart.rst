@@ -19,7 +19,7 @@ OSGeo-Live クイックスタート
 * ハードディスク: 
 
  * DVD から直接利用する場合にはハードディスクは使用しません。
- * ハードディスクにインストールして OSGeoLive を使用する場合には必要となります。
+ * ハードディスクにインストールして OSGeo-Live を使用する場合には必要となります。
 
 * マウス: 特に、Mac でトラックパッドを使用している方には、3ボタンマウスの利用をお勧めします。
 
@@ -62,7 +62,7 @@ OSGeo-Live クイックスタート
   Ubuntu OS 入門: （すばらしい PDF ブックです）
     `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
 
-  オンラインで読むことができる Ubuntu OS についてのより詳しい情報: （OSGeo Live では旧来の Xfce デスクトップを使用しており、タブレット型のデスクトップ環境は使用していません）
+  オンラインで読むことができる Ubuntu OS についてのより詳しい情報: （OSGeo-Live では旧来の Xfce デスクトップを使用しており、タブレット型のデスクトップ環境は使用していません）
     https://help.ubuntu.com/11.04/
 
     https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/

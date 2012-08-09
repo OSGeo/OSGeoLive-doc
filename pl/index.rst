@@ -54,6 +54,6 @@ Szybkie wprowadzenia
 
 Prezentacja
 --------------------------------------------------------------------------------
-Półgodzinna prezentacja omawiająca wszystkie zawarte na OSGeoLive programy, dostępna jest w postaci wideo oraz slajdów i notatek.
+Półgodzinna prezentacja omawiająca wszystkie zawarte na OSGeo-Live programy, dostępna jest w postaci wideo oraz slajdów i notatek.
 
 Szczegóły na stronie :doc:`presentation`.
