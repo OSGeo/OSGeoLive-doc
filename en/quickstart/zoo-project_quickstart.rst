@@ -26,7 +26,7 @@ Running
   :align: center
   
   
-*	Click on the map to select a feature from the GeoServer WFS Server, the feature will be displayed in blue, then click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow.
+*	Click on the map to select a feature from the :doc:`GeoServer <../overview/geoserver_overview>` WFS Server, the feature will be displayed in blue, then click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow.
 
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %

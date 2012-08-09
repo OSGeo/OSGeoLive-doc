@@ -30,7 +30,7 @@ Starten und verwenden
 
 * Klicken Sie auf den Link in der Sektion :guilabel:`Test Client`, um einen Test-Client zu öffnen.
 
-* Stellen Sie sicher, dass der :doc:`Geoserver <../quickstart/geoserver_quickstart>` gestartet ist, 
+* Stellen Sie sicher, dass der :doc:`GeoServer <../overview/geoserver_overview>` gestartet ist, 
   da die Demo Daten dieses lokalen Services verwendet.
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png

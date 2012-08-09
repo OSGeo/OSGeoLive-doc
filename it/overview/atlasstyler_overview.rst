@@ -22,7 +22,8 @@ desktop user-friendly per lo stile di geodati. Gli stili ottenuti possono essere
 salvati come file SLD/SE conformi agli standard OGC.
 
 I files SLD creati sono compatibili con tutti i programmi che supportano lo standard 
-OGC SLD, incluso GeoServer, uDig e altri. L'applicazione fornisce una serie di
+OGC SLD, incluso :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` 
+e altri. L'applicazione fornisce una serie di
 finestre intuitive per semplificare la creazione dello stile. Gli utenti possono 
 applicare le classificazioni astratte come valori unici, quantili colorati o distanza 
 uguale. Inoltre gli utenti hanno integrato l'accesso ad un database on-line di simboli. 

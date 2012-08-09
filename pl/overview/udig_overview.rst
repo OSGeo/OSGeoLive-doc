@@ -39,7 +39,7 @@ Główne funkcje
 * Integrate with your existing infrastructure: ArcSDE, Oracle, DB2 and more
 * Work with local files: Shapefile, jpeg, png, tiff and more.
 * Work with advanced spatial raster formats: ECW, MrSID, JPEG 2000
-* Support for compliant Web Map Servers (GeoServer, MapServer tested)
+* Support for compliant Web Map Servers (:doc:`GeoServer <geoserver_overview>`, MapServer tested)
 * Integrated Web experience with an embedded browser that recognises OGC web
   services and smoothly adds links to the onscreen map
 * Style Layer Descriptor control of rendering allowing you to publish your Map using the same

@@ -40,7 +40,7 @@ Características Principales
 * Integración con la infraestructura ya existente: ArcSDE, Oracle, DB2 y mas
 * Funciona con archivos locales: Shapefile, jpeg, png, tiff y mas.
 * Trabaja con formatos raster avanzados: ECW, MrSID, JPEG 2000
-* Compatible con servidores de Mapas Web (GeoServer, MapServer probado)
+* Compatible con servidores de Mapas Web (:doc:`GeoServer <geoserver_overview>`, MapServer probado)
 * Experiencia Web Integrada con un navegador embebido que reconoce servicos OGC y agrega los vínculos al mapa en pantalla. 
 * Descriptor de Estilos de Capas que permite publicar su Mapa mediante la configuración de uDig al igual que se hace en los populares Servidores Web de Mapas 
 * Profunda integración de estándares que permiten a la aplicación cambiar al servicio apropiado como el requerido para presentación, interacción y edición.

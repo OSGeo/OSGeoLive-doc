@@ -340,7 +340,7 @@ Este es solo el primer paso en el camino para utilizar uDig. Hay una gran cantid
   :file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`
 
 * Walkthrough 2 - Enseña como crear shapefile y usar las Herramientas de Edición para manipular
-  los datos de las entidades geográficas. También cubre la instalación de GeoServer y la edición con un Web Feature Server.
+  los datos de las entidades geográficas. También cubre la instalación de :doc:`GeoServer <../overview/geoserver_overview>` y la edición con un Web Feature Server.
 
   Disponible en http://udig.refractions.net/
 

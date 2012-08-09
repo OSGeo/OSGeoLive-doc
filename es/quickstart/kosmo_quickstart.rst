@@ -168,7 +168,7 @@ Vamos a cargar una tabla de una base de datos como ejemplo:
 Servicios OGC
 --------------------------------------------------------------------------------
 
-#. Inicie el servicio WMS de GeoServer incluido en el OSGeo-Live DVD seleccionando la opción *Educación > Iniciar GeoServer* (o desde el escritorio, entre en la carpeta *Servicios Web* y ejecute el acceso directo de Iniciar GeoServer)
+#. Inicie el servicio WMS de :doc:`GeoServer <../overview/geoserver_overview>` incluido en el OSGeo-Live DVD seleccionando la opción *Educación > Iniciar GeoServer* (o desde el escritorio, entre en la carpeta *Servicios Web* y ejecute el acceso directo de Iniciar GeoServer)
 
 #. Pulse el botón *Carga servicio IDE* en la barra de herramientas principal para abrir el asistente
 

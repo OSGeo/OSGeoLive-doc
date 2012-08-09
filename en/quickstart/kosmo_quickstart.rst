@@ -166,7 +166,7 @@ We're going to load a database table as an example:
 OGC services
 --------------------------------------------------------------------------------
 
-#. Start the GeoServer WMS included in the OSGeo-Live DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start Geoserver icon)
+#. Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeo-Live DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start GeoServer icon)
 
 #. Press the *Load SDI Service* button at the main toolbar to open the wizard
 

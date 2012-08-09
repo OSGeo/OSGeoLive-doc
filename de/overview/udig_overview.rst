@@ -39,7 +39,7 @@ Kernfunktionen
 * Integration in Ihre vorhandene Infrastruktur: ArcSDE, Oracle, DB2 und mehr
 * Arbeit mit lokalen Dateien: shp, jpeg, png, tiff und mehr
 * Arbeit mit komplexen räumlichen Rasterformaten: ECW, MrSID, JPEG 2000
-* Unterstützung von standardkonformen Web Map Servern (GeoServer, MapServer getested)
+* Unterstützung von standardkonformen Web Map Servern (:doc:`GeoServer <geoserver_overview>`, MapServer getested)
 * Integriertes Internet-Erlebnis mit einem eingebetteten Browser, der OGC Webdienste erkennt und diese problemlos auf der Bildschirmkarte verknüpft
 * Die Style Layer Descriptor (SLD) Steuerung zur Kartenerstellung erlaubt Ihnen, die Karte mit denselben Einstellungen in uDig zu veröffentlichen als mit beliebten Web Map Servern
 * Weitreichende Integration von Standards erlauben der Anwendung zwischen entprechenden Diensten zu wechseln, je nach Anforderung aus Darstellung, Interaktion und Bearbeitung

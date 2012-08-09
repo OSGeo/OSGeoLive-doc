@@ -58,12 +58,12 @@ Verfügbare Layer
   Um den Layer anzuzeigen müssen sie TileLite über *Start Mapnik & TileLite* starten.
  
 **geoserver**:
-  In diesem Layer wird die US Bevölkerung mit Hilfe des Geoserver WMS dargestellt. Der Layer unterstützt ``GetFeatureInfo`` anfragen, welche von mehreren Quellen zusammengefasst wurden. 
-  Um den Layer anzuzeigen müssen sie den Geoserver über |osgeolive-appmenupath-geoserver| starten.
+  In diesem Layer wird die US Bevölkerung mit Hilfe des :doc:`GeoServer <../overview/geoserver_overview>` WMS dargestellt. Der Layer unterstützt ``GetFeatureInfo`` anfragen, welche von mehreren Quellen zusammengefasst wurden. 
+  Um den Layer anzuzeigen müssen sie den GeoServer über |osgeolive-appmenupath-geoserver| starten.
 
 **mapnik_geoserver**:
   Dieser Layer demonstriert die Fähigkeit unterschiedliche Quellen in einem Layer zu kombinieren. Der Layer kombiniert die Weltbevölkerung vom Mapnik mit der US Bevölkerung vom GeoServer. Die Unterstützung vom ``GetFeatureInfo`` für den US Bevölkerungs-Layer ist weiterhin verfügbar.
-  Um den Layer anzuzeigen müssen sie den Geoserver über |osgeolive-appmenupath-geoserver| starten.
+  Um den Layer anzuzeigen müssen sie den GeoServer über |osgeolive-appmenupath-geoserver| starten.
 
 **mapserver**:
   Dieser Layer bindet den Mapserver Itasca Demo-Datensatz ein. Dieses ist ein lokaler Datensatz, der mittels der *Coverage*-Funktion von MapProxy auf die BBOX von Itasca, IL limitiert wurde.

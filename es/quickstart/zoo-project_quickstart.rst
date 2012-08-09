@@ -27,7 +27,7 @@ Ejecutar la aplicación
   :align: center
   
   
-*	De click sobre el mapa para seleccionar un feature del servidor WFS de Geoserver, el feature será desplegado en azul, luego de click en un proceso de geometría simple como Buffer, Centroid, ConvexHull o Boundary y el resultado será desplegado en amarillo.
+*	De click sobre el mapa para seleccionar un feature del servidor WFS de :doc:`GeoServer <../overview/geoserver_overview>`, el feature será desplegado en azul, luego de click en un proceso de geometría simple como Buffer, Centroid, ConvexHull o Boundary y el resultado será desplegado en amarillo.
 
 
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png

@@ -20,7 +20,7 @@ Editor de Estilos de Geometrías
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ es una aplicación desktop amigable para generar estilos de geodatos. Los estilos resultantes se pueden salvar en ficheros standar OGC SLD/SE.
 
-Los ficheros SLD resultantes son compatibles con todos los programas que soporten el estandar OGC SLD, incluyendo GeoServer, uDig y otros. La aplicación proporciona una multitud de diálogos intuitivos para simplificar la creación de estilos. Los usuarios pueden aplicar clasificaciones abstractas como valores únicos, quantiles por color o equidistancias. Adicionalmente, los usuarios han integrado acceso a una base de datos de simbologías on-line. Los usuarios pueden crear y salvar simbologías en el Editor de Simbología (SymbolEditor) y reutilizarlas en clasificaciones o otros proyectos.
+Los ficheros SLD resultantes son compatibles con todos los programas que soporten el estandar OGC SLD, incluyendo :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` y otros. La aplicación proporciona una multitud de diálogos intuitivos para simplificar la creación de estilos. Los usuarios pueden aplicar clasificaciones abstractas como valores únicos, quantiles por color o equidistancias. Adicionalmente, los usuarios han integrado acceso a una base de datos de simbologías on-line. Los usuarios pueden crear y salvar simbologías en el Editor de Simbología (SymbolEditor) y reutilizarlas en clasificaciones o otros proyectos.
 
 .. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %

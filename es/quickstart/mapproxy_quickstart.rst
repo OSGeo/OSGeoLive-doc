@@ -67,15 +67,15 @@ Capas disponibles
   Debes iniciar TileLite con *Start Mapnik & TileLite* antes de utilizar a esta capa.
 
 **geoserver**:
-  La población de EEUU generada por el motor de WMS de Geoserver. Esta capa también soporta consultas ``GetFeatureInfo`` las cuales son redirigidas a la fuente WMS.
-  Debes iniciar Geoserver con |osgeolive-appmenupath-geoserver| antes de utilizar esta capa.
+  La población de EEUU generada por el motor de WMS de :doc:`GeoServer <../overview/geoserver_overview>`. Esta capa también soporta consultas ``GetFeatureInfo`` las cuales son redirigidas a la fuente WMS.
+  Debes iniciar GeoServer con |osgeolive-appmenupath-geoserver| antes de utilizar esta capa.
 
 **mapnik_geoserver**:
   Esta capa demuestra la posibilidad de combinar múltiples fuentes en una
   misma capa. En este caso se combinan la población mundial desde Mapnik 
-  con la población de EEUU desde Geoserver. El soporte de ``GetFeatureInfo``
+  con la población de EEUU desde GeoServer. El soporte de ``GetFeatureInfo``
   para la población de EEUU está también disponible.
-  Debes iniciar Geoserver con |osgeolive-appmenupath-geoserver| antes 
+  Debes iniciar GeoServer con |osgeolive-appmenupath-geoserver| antes 
   de utilizar esta capa.
 
 **mapserver**:

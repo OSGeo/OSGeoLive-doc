@@ -14,7 +14,7 @@ ZOO Projekt Quickstart
 Ablauf
 ================================================================================
 
-*	Um die ZOO-Projekt Demoanwendung von der OSGeo-Live DVD auszuführen, starte zuerst "Geoserver" und hiernach "Zoo Projekt", entweder durch Klick auf die Desktop Icons oder Aufruf im Programmmenü.
+*	Um die ZOO-Projekt Demoanwendung von der OSGeo-Live DVD auszuführen, starte zuerst :doc:`GeoServer <../overview/geoserver_overview>` und hiernach "Zoo Projekt", entweder durch Klick auf die Desktop Icons oder Aufruf im Programmmenü.
 
 *	Die "ZOO Project Spatial Tools Demo" öffnet sich hierauf in Firefox.
 
@@ -24,7 +24,7 @@ Ablauf
   :align: center
   
   
-*	Wähle ein Geoserver WFS-Server Objekt durch Klick auf die Karte. Das Objekt wird daraufhin in Blau hervorgehoben. Nach Auswahl einfacher Geoverarbeitungsabfragen, wie "Buffer", "Centroid", "ConvexHull" oder "Boundary", werden die Berechnungsergebnisse in Gelb dargestellt.
+*	Wähle ein :doc:`GeoServer <../overview/geoserver_overview>` WFS-Server Objekt durch Klick auf die Karte. Das Objekt wird daraufhin in Blau hervorgehoben. Nach Auswahl einfacher Geoverarbeitungsabfragen, wie "Buffer", "Centroid", "ConvexHull" oder "Boundary", werden die Berechnungsergebnisse in Gelb dargestellt.
 
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %

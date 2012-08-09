@@ -259,7 +259,7 @@ Web Map Server
   :file:`/usr/data/udig/udig-docs/uDigWalkthrough 1.pdf`
 
 * Οδηγίες εκμάθησης 2 - Μάθετε πως να δημιουργείτε shapefiles και να χρησιμοποιείτε τα εργαλεία επεξεργασίας (Edit tools) για να αλλάζετε
-  τα δεδομένα. Καλύπτει οδηγίες για εγκατάσταση του GeoServer και επεξεργασίας με χρήση υπηρεσιών WFS
+  τα δεδομένα. Καλύπτει οδηγίες για εγκατάσταση του :doc:`GeoServer <../overview/geoserver_overview>` και επεξεργασίας με χρήση υπηρεσιών WFS
   Εξυπηρετητής.
 
   Διαθέσιμο στο http://udig.refractions.net/

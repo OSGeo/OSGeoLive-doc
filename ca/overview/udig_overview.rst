@@ -42,7 +42,7 @@ Característiques Principals
 * S'integra amb infraestructures ja existents: ArcSDE, Oracle, DB2 i altres
 * Treballa amb arxius locals: Shapefile, jpeg, png, tiff entre d'altres.
 * Treballa amb formats ràster avançats de tipus espacial: ECW, MrSID, JPEG 2000
-* Compatible amb servidors de mapes web (s'han verificat GeoServer i MapServer)
+* Compatible amb servidors de mapes web (s'han verificat :doc:`GeoServer <geoserver_overview>` i MapServer)
 * Experiencia d'integració Web amb un navegador incrustat que reconeix serveis web OGC i que afegeix enllaços al mapa en pantalla.
 * Control del ''renderitzat'' mitjançant el Descriptor d'Estils de Capa (SLD, Style Layer Descriptor) que permet publicar mapes usant la mateixa simbologia tant en uDig com en un servidor de mapes.
 * Integració total d'estàndards que permet el intercanvi entre els diferents serveis de visualització, interacció i edició dels que consta l'aplicació.

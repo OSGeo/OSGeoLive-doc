@@ -24,7 +24,7 @@ Running
   :align: center
 
 * Click on the link to open the 52nWPS-TestClient. 
-* Make sure that you have started :doc:`Geoserver <../quickstart/geoserver_quickstart>` since the demonstrations require data from the local Geoserver installation.
+* Make sure that you have started :doc:`GeoServer <../overview/geoserver_overview>` since the demonstrations require data from the local GeoServer installation.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png

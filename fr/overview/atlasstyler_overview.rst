@@ -22,7 +22,8 @@ résultent peuvent être enregistrés dans des fichiers SLD/SE conformes aux
 normes de l'OGC.
 
 Les fichiers SLD créés sont compatibles avec tous les programmes qui supportent 
-la norme OGC SLD, y compris GeoServer, uDig et d'autres. L'application fournit 
+la norme OGC SLD, y compris :doc:`GeoServer <geoserver_overview>`, 
+:doc:`uDig <udig_overview>` et d'autres. L'application fournit 
 une multitude de boîtes de dialogue intuitives pour simplifier la création de 
 styles. Les utilisateurs peuvent utiliser des classifications abstraites comme 
 par valeur unique, par quantiles ou à intervales égaux. De plus, les utilisateurs 

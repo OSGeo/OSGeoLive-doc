@@ -58,12 +58,12 @@ Available layers
   You need to start TileLite with *Start Mapnik & TileLite* before accessing this layer.
 
 **geoserver**:
-  The US population rendered by the Geoserver WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS.
-  You need to start Geoserver with |osgeolive-appmenupath-geoserver| before accessing this layer.
+  The US population rendered by the :doc:`GeoServer <../overview/geoserver_overview>` WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS.
+  You need to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing this layer.
 
 **mapnik_geoserver**:
-  This layer demonstrates the ability to combine multiple sources into one layer. It combines the world population from Mapnik with the US population from Geoserver. The ``GetFeatureInfo`` support for the US population is still available.
-  You need to start Geoserver with |osgeolive-appmenupath-geoserver| before accessing this layer.
+  This layer demonstrates the ability to combine multiple sources into one layer. It combines the world population from Mapnik with the US population from GeoServer. The ``GetFeatureInfo`` support for the US population is still available.
+  You need to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing this layer.
 
 **mapserver**:
   This layer uses Mapserver Itasca demo dataset. It is a local dataset and it uses the *coverage* feature to limit the BBOX to Itasca, IL.
