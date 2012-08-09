@@ -73,6 +73,6 @@ Mas Información
 Guia de Inicio rápido
 --------------------------------------------------------------------------------
 
-* Guia de Inicio rápido <../quickstart/saga_quickstart.html>`_
+* `Guia de Inicio rápido <../quickstart/saga_quickstart.html>`_
 
 

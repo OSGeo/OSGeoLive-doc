@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Author: Petr Pridal
 :Author: Christopher Fleet
+:Translator: Mario Andino
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
