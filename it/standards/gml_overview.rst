@@ -5,6 +5,7 @@
   Metadata about this document
 
 :Author: OGC
+:Translator: Margherita Di Leo
 :License: Creative Commons
 
 .. Writing Tip: 
