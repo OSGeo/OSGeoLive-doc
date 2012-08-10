@@ -42,7 +42,7 @@ Desktop GIS
 * :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`QuickStart <../quickstart/saga_quickstart>`]
-* :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Processamento di immagini
+* :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`geopublisher_overview` - [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Catalogo
 * :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Editor per stili
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Rendering superficie 3D
