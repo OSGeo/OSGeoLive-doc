@@ -4,6 +4,9 @@ Contactar con nosotros
 El desarrollo de OSGeo-Live se coordina a través de correo electrónico y *chat*
 (IRC) tal y como se detalla en `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
+Si deseas contactar con la comunidad de OSGeo en Español puedes dirigirte a nuestra `web <http://es.osgeo.org>`_,
+nuestra lista de correo `OSGeo Spanish <http://lists.osgeo.org/mailman/listinfo/spanish>`_ o seguirnos en twitter en 
+`@osgeoes <https://twitter.com/osgeoes>`_.
 
 Soporte de comunidad
 ================================================================================
