@@ -27,10 +27,10 @@ de Géographie de l'Université de Hamburg, avec des contributions d'une communa
 
 .. image:: ../../images/screenshots/1024x768/saga_overview.png
   :scale: 40%
-  :alt: screenshot
+  :alt: Capture d'écran
   :align: right
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 * Accès à un nombre large de modules scientifiques à partir de l'interface graphique utilisateur ou la ligne de commande
@@ -55,20 +55,20 @@ Eléments centraux
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.saga-gis.org
+**Site web:** http://www.saga-gis.org
 
-**License:** LGPL v2.1 (api); GPLv2 (GUI and modules)
+**Licence:** LGPL v2.1 (api); GPLv2 (interfaces et modules)
 
-**Logiciels Version:** 2.0.8
+**Version du logiciel:** 2.0.8
 
-**Plateformes supportées:** Windows, Linux, FreeBSD
+**Plates-formes supportées:** Windows, Linux, FreeBSD
 
-**Interfaces API:** C++
+**Interfaces de l'API:** C++
 
 **Support:** http://www.saga-gis.org
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/saga_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/saga_quickstart>`

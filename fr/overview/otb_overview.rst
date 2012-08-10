@@ -5,7 +5,7 @@
 
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://www.orfeo-toolbox.org/
 
@@ -27,7 +27,7 @@ partie méthodologique du programme d'accompagnement ORFEO et a été activement
 développé depuis 2006. Il s'appuie sur la librairie de traitement d'image médicale
 ITK et est distribuée en Open Source.
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.jpg
@@ -54,22 +54,22 @@ Eléments centraux
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.orfeo-toolbox.org/
+**Site web:** http://www.orfeo-toolbox.org/
 
-**License:** CeCILL (CeCILL is compatible with GPL and enhanced to
-  address French law)
+**Licence:** CeCILL (CeCILL est compatible avec la licence GPL et adapté pour 
+  être conforme à la législation française)
 
-**Version de logiciel:** 3.14 (released in July 2012)
+**Version du logiciel:** 3.14 (released in July 2012)
 
 **Plateformes supportées:** Linux, Mac, Windows
 
-**Interfaces API :** C++ (disponibles en versoin compilées en Java et Python)
+**Interfaces de l'API :** C++ (disponibles en version compilées en Java et Python)
 
 **Support commercial:** http://www.osgeo.org/search_profile
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/otb_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/otb_quickstart>`
 

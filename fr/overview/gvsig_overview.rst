@@ -5,13 +5,13 @@
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :scale: 75 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://www.gvsig.org/
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: Projet OSGeo
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -45,7 +45,7 @@ gvSIG est connu pour:
   :alt: screenshot
   :align: right
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 * Fournit des outils de SIG courants tels le chargement de données, la navigation cartographique, les requêtes 
@@ -104,20 +104,20 @@ Support avancé comme client de nombreux standards de l'Open Geospatial Consorti
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.gvsig.org/
+**Site web:** http://www.gvsig.org/
 
-**License:** GNU General Public License (GPL) version 2
+**Licence:** Licence GNU General Public (GPL) version 2
 
 **Version du logiciel:** 1.11
 
-**Platformes supportées:** Windows, Linux, Mac
+**Plates-formes supportées:** Windows, Linux, Mac
 
 **Support:** http://www.gvsig.org/web/organization/services
 
 
 .. _gvSIG: http://www.gvsig.org
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/gvsig_quickstart>`

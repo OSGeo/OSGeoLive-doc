@@ -5,7 +5,7 @@
 
 .. image:: ../../images/project_logos/logo-viking.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
 
@@ -23,12 +23,12 @@ et d'autres couches avec des données spatiales, telles que des lignes de coordo
 Il fonctionne avec les données d'OpenStreetMap et divers serveurs tuilés en ligne.
 
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
   :scale: 40 %
-  :alt: screenshot
+  :alt: Capture d'écran
   :align: right
 
 * Chargement et téléchargement de points, de trace de/vers un GPS.
@@ -50,20 +50,20 @@ Eléments centraux
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://sourceforge.net/apps/mediawiki/viking/
+**Site web:** http://sourceforge.net/apps/mediawiki/viking/
 
-**License:** GNU General Public License (GPL) version 2
+**Licence:** Licence GNU General Public (GPL) version 2
 
-**Licence de logiciel:** 0.9.94
+**Version du logiciel:** 0.9.94
 
-**Supported Platforms:** GNU/Linux, MS Windows
+**Plates-formes supportées:** GNU/Linux, MS Windows
 
-**API Interfaces:** C, GTK+ 2
+**Interfaces de l'API:** C, GTK+ 2
 
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/viking_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/viking_quickstart>`

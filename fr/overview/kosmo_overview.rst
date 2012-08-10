@@ -5,7 +5,7 @@
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
   :scale: 100 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
 
@@ -23,10 +23,10 @@ C'est une architecture de plugins qui permet d'être facilement adaptés pour de
 
 .. image:: ../../images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
-  :alt: screenshot
+  :alt: Capture d'écran
   :align: right
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 Formats supportés:
@@ -58,20 +58,20 @@ Standards implémentés
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.opengis.es
+**Site web:** http://www.opengis.es
 
 **License:** GNU General Public License (GPL) version 2
 
 **Version du logiciel:** 2.0.1
 
-**Plateformes supportées:** Windows, Linux
+**Plates-formes supportées:** Windows, Linux
 
-**Interfaces API:** Java
+**Interfaces de l'API:** Java
 
 **Support commercial:** http://www.saig.es/index.php?lang=en
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/kosmo_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/kosmo_quickstart>`

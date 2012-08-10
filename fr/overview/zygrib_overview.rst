@@ -5,7 +5,7 @@
 
 .. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %
-  :alt: project logo
+  :alt: Logo du projet
   :align: right
   :target: http://www.zygrib.org
 
@@ -17,12 +17,12 @@ Prévisions météorologiques
 
 zyGrib est un programne pour télécharger et visualiser des données de prévision météorologique au format standard de distribution GRIB.
 
-Eléments centraux
+Caractéristiques principales
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
-  :alt: screenshot
+  :alt: Capture d'écran
   :align: right
 
 * Visualisation de données météorologiques à partir de fichiers au format GRIB
@@ -35,19 +35,19 @@ Eléments centraux
 Détails
 --------------------------------------------------------------------------------
 
-**Site Web:** http://www.zygrib.org
+**Site web:** http://www.zygrib.org
 
-**License:** GNU General Public License (GPL) version 3
+**Licence:** Licence GNU General Public (GPL) version 3
 
 **Version du logiciel:** 3.9.2
 
-**Plateformes supportées:** GNU/Linux, Mac OSX, MS Windows
+**Plates-formes supportées:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://zygrib.org/forum/
 
 
-Démarrage rapide
+Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/zygrib_quickstart>`
 
