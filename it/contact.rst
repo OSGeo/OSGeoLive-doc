@@ -5,6 +5,7 @@ Contattaci
 Lo sviluppo di OSGeo-Live è coordinato via mail e internet chat
 (IRC) come indicato nell' `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
+Se si desidera contattare la comunità italiana si può farlo tramite il `sito web <http://www.gfoss.it>`_ , la `mailing list <http://lists.gfoss.it/cgi-bin/mailman/listinfo/gfoss>`_ oppure il canale irc ``irc://irc.freenode.net/#gfoss``
 
 Supporto della comunità
 ================================================================================
