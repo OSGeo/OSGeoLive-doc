@@ -1,4 +1,5 @@
 :Author: Eike Hinderk JÃ¼rrens (e.h.juerrens@52north.org)
+:Translator: Roger Veciana i Rovira
 :Reviewer: TBD
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
