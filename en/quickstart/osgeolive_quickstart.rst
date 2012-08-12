@@ -41,6 +41,8 @@ Run:
 ..    :scale: 70 %
 ..    :alt: boot
 
+  Sit back while the system boots up.
+
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
