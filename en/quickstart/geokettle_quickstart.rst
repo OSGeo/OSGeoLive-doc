@@ -46,7 +46,7 @@ The contents of these panels will be described further as we demonstrate their u
 Loading an existing transformation
 ================================================================================
 
-To load an existing transformation, select :menuselection:`File --> Open`. Browse to the transformation samples subdirectory :file:`samples/transformations/geokettle`, then select one of the available sample transformations and click :guilabel:`OK`. GeoKettle transformation are stored in files with the extension `*.ktr`.
+To load an existing transformation, select :menuselection:`File --> Open`. Browse to the transformation samples subdirectory :file:`/opt/geokettle/samples/transformations/geokettle`, then select one of the available sample transformations and click :guilabel:`OK`. GeoKettle transformation are stored in files with the extension `*.ktr`.
 
 The following picture shows the sample « intersection » transformation. You should observe that the content of the two main parts which compose the workbench have changed.
 
