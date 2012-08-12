@@ -80,7 +80,7 @@ Dettagli
 **Communità di supporto:** http://www.geomoose.org/info/mailing_lists.html
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
     
 * :doc:`Documentazione introduttiva <../quickstart/geomoose_quickstart>`

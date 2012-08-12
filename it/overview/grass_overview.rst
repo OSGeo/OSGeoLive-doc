@@ -75,7 +75,7 @@ Dettagli
 **Supporto:** http://grass.osgeo.org/community/support.php
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/grass_quickstart>`

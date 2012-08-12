@@ -70,7 +70,7 @@ Dettagli
 **Supporto:** https://github.com/openlayers/openlayers 
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/openlayers_quickstart>`

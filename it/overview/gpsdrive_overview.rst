@@ -58,7 +58,7 @@ Dettagli
 **Supporto:** http://gpsdrive.de/support.shtml
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/gpsdrive_quickstart>`

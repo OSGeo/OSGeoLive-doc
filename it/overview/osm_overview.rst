@@ -84,7 +84,7 @@ Dettagli
 **Supporto:** http://wiki.openstreetmap.org/
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/osm_quickstart>`

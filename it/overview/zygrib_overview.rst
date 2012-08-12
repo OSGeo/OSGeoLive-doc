@@ -48,7 +48,7 @@ Dettagli
 **Supporto:** http://zygrib.org/forum/
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/zygrib_quickstart>`

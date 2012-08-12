@@ -53,7 +53,7 @@ Dettagli
 
 **Supporto:** `Comunicazione and Supporto <http://liblas.org/community.html>`_
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/liblas_quickstart>`

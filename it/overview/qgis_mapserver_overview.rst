@@ -63,7 +63,7 @@ Dettagli
 **Supporto Commerciale:** http://www.sourcepole.com/
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/qgis_mapserver_quickstart>`

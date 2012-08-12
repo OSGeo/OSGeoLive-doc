@@ -94,7 +94,7 @@ Dettagli
 **Supporto commerciale:** http://qgis.org/en/commercial-support.html
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/qgis_quickstart>`

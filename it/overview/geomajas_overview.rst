@@ -77,7 +77,7 @@ Dettagli
 **Supporto:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/geomajas_quickstart>`

@@ -68,7 +68,7 @@ Dettagli
 **Interfacce API:** Command line
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/mb-system_quickstart>`

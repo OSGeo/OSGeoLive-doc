@@ -66,7 +66,7 @@ Dettagli
 
 **Interfaccia API:** C
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/spatialite_quickstart>`

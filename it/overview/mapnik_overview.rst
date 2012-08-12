@@ -59,7 +59,7 @@ Dettagli
 
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/mapnik_quickstart>`

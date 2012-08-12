@@ -80,7 +80,7 @@ Dettagli
 
 **Supporto:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
     
 * :doc:`Documentazione introduttiva <../quickstart/gdal_quickstart>`

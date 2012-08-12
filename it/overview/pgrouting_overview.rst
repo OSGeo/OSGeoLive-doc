@@ -65,7 +65,7 @@ Dettagli
 
 **Supporto Commerciale:** http://www.pgrouting.org
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/pgrouting_quickstart>`

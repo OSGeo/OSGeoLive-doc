@@ -94,7 +94,7 @@ Dettagli
 **Supporto:** http://zoo-project.org/trac
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/zoo-project_quickstart>`

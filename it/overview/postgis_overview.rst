@@ -132,7 +132,7 @@ Dettagli
 **Supporto:** http://www.osgeo.org/search_profile
 
 
-Presentazione veloce
+Guida rapida
 --------------------------------------------------------------------------------
     
 * :doc:`Documentazione introduttiva <../quickstart/postgis_quickstart>`
