@@ -34,23 +34,12 @@ Run:
   Otherwise you'll have to adjust the BIOS boot settings or press the boot
   menu button just after powering-up.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
-    :scale: 70 %
-    :alt: boot
-
-  Press :kbd:`ENTER` to get to next screen.
-
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
-    :scale: 70 %
-    :alt: boot select
-
-  Select :guilabel:`live - boot the Live System`
-
-  .. image:: ../../images/screenshots/800x600/osgeolive_login.png
-    :scale: 70 %
-    :alt: boot select
-
-  At the login page, simply press :kbd:`ENTER` or wait for the countdown to timeout.
+.. TODO
+..  little person = keyboard screen followed by the xubuntu . . . screen
+..
+..  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+..    :scale: 70 %
+..    :alt: boot
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
