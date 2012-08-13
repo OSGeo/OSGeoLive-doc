@@ -52,12 +52,12 @@ Les choses que vous pouvez voir:
 * Fichierds image GeoTIFF et Modèles Numériques de terrain (Digital Elevation Model - DEM) (plus de nombreux autres formats) 
 * Données vectorielles comme les shapefiles d'ESRI
 * Compatible avec les données de services de cartographie en ligne de l'OGC (comme WMS_) 
-* Couches SIG publiées avec MapServer_ ou `ArcGIS Server' d'ESRI_
+* Couches SIG publiées avec MapServer_ ou `ArcGIS Server d'ESRI`_
 * Cartes en ligne comme OpenStreetMap_, `ArcGIS Online`_, ou `NASA OnEarth`_
 
 .. _WMS: http://www.opengeospatial.org
 .. _MapServer: http://mapserver.org
-.. _`ESRI ArcGIS Server`: http://www.esri.com/software/arcgis/arcgisserver/
+.. _`ArcGIS Server d'ESRI`: http://www.esri.com/software/arcgis/arcgisserver/
 .. _OpenStreetMap: http://openstreetmap.org
 .. _`ArcGIS Online`: http://resources.esri.com/arcgisonlineservices/
 .. _`NASA OnEarth`: http://onearth.jpl.nasa.gov
