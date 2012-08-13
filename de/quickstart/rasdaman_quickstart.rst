@@ -58,6 +58,5 @@ Was kann man noch probieren?
 
 Weitere Herausforderungen, die Sie meistern können:
 
-    * Erkunden sie die Demo-Datensätze unter Vewendung des `rasql query language guide <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/browser/manuals_and_examples/manuals/pdf/ql-guide.pdf>`_
-    * Um mehr über den OGC `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Sprach-Standard (starker Einfluss von rasdaman) zu erfahren, empfehlen sich als Startpunkt die `Dokumentations- und die Tutorial- Seiten <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ . 
-
+    * Erkunden sie die Demo-Datensätze unter Verwendung des `rasql query language guide <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/browser/manuals_and_examples/manuals/pdf/ql-guide.pdf>`_
+    * Um mehr über den OGC `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Sprach-Standard (starker Einfluss von rasdaman) zu erfahren, sind die `Dokumentations- und die Tutorial- Seiten <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ zu empfehlen. 
