@@ -36,7 +36,7 @@ aux utilisateurs.
 * conforme au standard ouvert pour les services web: ouvert dans le sens de gratuitement mise 
   à disposition; Open Geospatial Consortium (OGC); WMS, WCS, EO-WMS, EO-WCS
 * utilisation efficace par les utilisateurs : ceux si définissent des sélections; visualisent et 
-téléchargent.
+  téléchargent.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
@@ -71,11 +71,13 @@ Les fonctionnalités disponibles sont:
  * KVP
  * XML/POST (utiliser avec SOAP2POST Proxy pour supporter XML/SOAP protocole 
    binding)
-Format supporté: 
+
+* Format supporté: 
 
  * GeoTIFF
  * Les formats supportés par la librairie GDAL (le support doit être vérifié pour 
-   chaque format séparément) 
+   chaque format séparément)
+
 * Support de EO-WMS pour EO Coverages
 
 
