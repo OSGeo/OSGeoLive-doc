@@ -26,7 +26,7 @@ Erkunden der 1-D bis 4-D Beispiele
 ==================================
 
     * Gehen Sie auf `EarthLook Demo Seite <http://localhost:8080/earthlook/index.php>`_ um die verschiedenen 
-      Demo-Datensätze zu erkunden. Die kleineren sind Teil von OSGEo-Live, möchten Sie hingegen die größeren 
+      Demo-Datensätze zu erkunden. Die kleineren sind Teil von OSGeo-Live, möchten Sie hingegen die größeren 
       nutzen, werden Sie direkt auf die `Earthlook Webseite <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ weitergeleitet.
 
 Anfragen lokal ausführen
