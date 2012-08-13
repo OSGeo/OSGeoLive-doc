@@ -58,13 +58,11 @@ Spatial Database
   * Remaining paragraph or 2 in this overview section should provide a
     wider description and advantages from a user perspective.
 
-PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
+PostGIS는 공간적으로 PostgreSQL 객체 지향형 데이터베이스를 가능하게 하며, 오라클 스패셜(Oracle Spatial)이 오라클 데이터베이스를 가능하게 하는 방식으로 지리정보체계(GIS)와 웹매핑을 위한 bakc-end 데이터베이스로 이용될 수 있습니다. 
 
-PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day.
+PostGIS는 수많은 공간적 기능을 제공하고 안정적이고 빠르며 모든 기준을 따르고 있을 뿐만 아니라, 현재 가장 많이 이용되는 오픈 소스 공간 데이터베이스 입니다. 하루에도 수 백만의 웹 데이터가 요구되고 테라바이트의 데이터를 저장하는 공공 기관과 단체 등을 포함하여, 전 세계적으로 다양한 기관들이 PostGIS를 이용하고 있습니다. 
 
-Database administration is available for desktop and the web via pgAdmin, phpPgAdmin, and others.
-Data import/export can be done by command line tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or
-from desktop and web GIS clients. These clients can also map and manipulate PostGIS spatial data tables.
+데이터베이스 관리는 데스크탑과 pgAdmin, phpPgAdmin 등을 이용하여 인터넷으로 가능합니다. 데이터의 import와 export는 shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis와 같은 command line 툴이나 테스크탑, web GIS client를 통해 가능합니다. 이러한 클라이언트들 역시 PostGIS 공간 정보를 지도화 및 수정할 수 있습니다.
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
@@ -79,12 +77,12 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
   :alt: pgAdmin database manager
   :align: right
 
-Core Features
+주요 사항
 --------------------------------------------------------------------------------
 
-* Hundreds of spatial functions
+* 수많은 공간 분석 기능 제공
   
-  * Buffers, unions, overlays, distance and more
+  * Buffers, unions, overlays, distance 등
 
 * ACID transactional integrity
 * R-Tree spatial index
@@ -95,14 +93,14 @@ Core Features
 * Role-based security
 * Table-spaces, schemas
 
-Implemented Standards
+반영된 기준 사항
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * OGC standards compliant (SFSQL)
 
-Details
+자세한 사항
 --------------------------------------------------------------------------------
 
 **Website:** http://postgis.refractions.net/

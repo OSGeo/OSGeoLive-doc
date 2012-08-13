@@ -24,8 +24,8 @@ the online provision of big Earth Observation data archives via Open
 Standard services for efficient exploitation by users.
 
 * Open Source: MIT-style license
-* software framework: Entirely based on Open Source (Python, :doc:`MapServer <mapserver_overview>`,
-  Django/GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>`, or
+* software framework: Entirely based on Open Source (Python, :doc:`MapServer <mapserver_overview>`, 
+  Django/GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>`, or 
   :doc:`PostGIS <postgis_overview>`, and PROJ.4)
 * ease online provision: Admin GUI and command line data registration
 * big Earth Observation data archives: Operators register existing raster data 
@@ -90,13 +90,13 @@ Implemented Standards
 Demo
 --------------------------------------------------------------------------------
 
-* `Local <http://localhost/eoxsever/>`_
+* `Local <http://localhost/eoxserver/>`_
 * `Online <https://eoxserver.org/demo_stable/>`_
 
 Documentation
 --------------------------------------------------------------------------------
 
-* `EOxServer 0.2.0 Documentation <../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `EOxServer 0.2.1 Documentation <../../eoxserver-docs/EOxServer_documentation.pdf>`_
 
 Details
 --------------------------------------------------------------------------------
@@ -105,7 +105,7 @@ Details
 
 **Licence:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Software Version:** 0.2.0
+**Software Version:** 0.2.1
 
 **Supported Platforms:** Linux, Windows, Mac
 
