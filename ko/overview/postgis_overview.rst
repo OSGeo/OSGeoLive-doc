@@ -58,11 +58,11 @@ Spatial Database
   * Remaining paragraph or 2 in this overview section should provide a
     wider description and advantages from a user perspective.
 
-PostGIS´Â °ø°£ÀûÀ¸·Î PostgreSQL °´Ã¼ ÁöÇâÇü µ¥ÀÌÅÍº£ÀÌ½º¸¦ °¡´ÉÇÏ°Ô ÇÏ¸ç, ¿À¶óÅ¬ ½ºÆÐ¼È(Oracle Spatial)ÀÌ ¿À¶óÅ¬ µ¥ÀÌÅÍº£ÀÌ½º¸¦ °¡´ÉÇÏ°Ô ÇÏ´Â ¹æ½ÄÀ¸·Î Áö¸®Á¤º¸Ã¼°è(GIS)¿Í À¥¸ÅÇÎÀ» À§ÇÑ bakc-end µ¥ÀÌÅÍº£ÀÌ½º·Î ÀÌ¿ëµÉ ¼ö ÀÖ½À´Ï´Ù. 
+PostGISëŠ” ê³µê°„ì ìœ¼ë¡œ PostgreSQL ê°ì²´ ì§€í–¥í˜• ë°ì´í„°ë² ì´ìŠ¤ë¥¼ ê°€ëŠ¥í•˜ê²Œ í•˜ë©°, ì˜¤ë¼í´ ìŠ¤íŒ¨ì…œ(Oracle Spatial)ì´ ì˜¤ë¼í´ ë°ì´í„°ë² ì´ìŠ¤ë¥¼ ê°€ëŠ¥í•˜ê²Œ í•˜ëŠ” ë°©ì‹ìœ¼ë¡œ ì§€ë¦¬ì •ë³´ì²´ê³„(GIS)ì™€ ì›¹ë§¤í•‘ì„ ìœ„í•œ bakc-end ë°ì´í„°ë² ì´ìŠ¤ë¡œ ì´ìš©ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. 
 
-PostGIS´Â ¼ö¸¹Àº °ø°£Àû ±â´ÉÀ» Á¦°øÇÏ°í ¾ÈÁ¤ÀûÀÌ°í ºü¸£¸ç ¸ðµç ±âÁØÀ» µû¸£°í ÀÖÀ» »Ó¸¸ ¾Æ´Ï¶ó, ÇöÀç °¡Àå ¸¹ÀÌ ÀÌ¿ëµÇ´Â ¿ÀÇÂ ¼Ò½º °ø°£ µ¥ÀÌÅÍº£ÀÌ½º ÀÔ´Ï´Ù. ÇÏ·ç¿¡µµ ¼ö ¹é¸¸ÀÇ À¥ µ¥ÀÌÅÍ°¡ ¿ä±¸µÇ°í Å×¶ó¹ÙÀÌÆ®ÀÇ µ¥ÀÌÅÍ¸¦ ÀúÀåÇÏ´Â °ø°ø ±â°ü°ú ´ÜÃ¼ µîÀ» Æ÷ÇÔÇÏ¿©, Àü ¼¼°èÀûÀ¸·Î ´Ù¾çÇÑ ±â°üµéÀÌ PostGIS¸¦ ÀÌ¿ëÇÏ°í ÀÖ½À´Ï´Ù. 
+PostGISëŠ” ìˆ˜ë§Žì€ ê³µê°„ì  ê¸°ëŠ¥ì„ ì œê³µí•˜ê³  ì•ˆì •ì ì´ê³  ë¹ ë¥´ë©° ëª¨ë“  ê¸°ì¤€ì„ ë”°ë¥´ê³  ìžˆì„ ë¿ë§Œ ì•„ë‹ˆë¼, í˜„ìž¬ ê°€ìž¥ ë§Žì´ ì´ìš©ë˜ëŠ” ì˜¤í”ˆ ì†ŒìŠ¤ ê³µê°„ ë°ì´í„°ë² ì´ìŠ¤ ìž…ë‹ˆë‹¤. í•˜ë£¨ì—ë„ ìˆ˜ ë°±ë§Œì˜ ì›¹ ë°ì´í„°ê°€ ìš”êµ¬ë˜ê³  í…Œë¼ë°”ì´íŠ¸ì˜ ë°ì´í„°ë¥¼ ì €ìž¥í•˜ëŠ” ê³µê³µ ê¸°ê´€ê³¼ ë‹¨ì²´ ë“±ì„ í¬í•¨í•˜ì—¬, ì „ ì„¸ê³„ì ìœ¼ë¡œ ë‹¤ì–‘í•œ ê¸°ê´€ë“¤ì´ PostGISë¥¼ ì´ìš©í•˜ê³  ìžˆìŠµë‹ˆë‹¤. 
 
-µ¥ÀÌÅÍº£ÀÌ½º °ü¸®´Â µ¥½ºÅ©Å¾°ú pgAdmin, phpPgAdmin µîÀ» ÀÌ¿ëÇÏ¿© ÀÎÅÍ³ÝÀ¸·Î °¡´ÉÇÕ´Ï´Ù. µ¥ÀÌÅÍÀÇ import¿Í export´Â shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis¿Í °°Àº command line ÅøÀÌ³ª Å×½ºÅ©Å¾, web GIS client¸¦ ÅëÇØ °¡´ÉÇÕ´Ï´Ù. ÀÌ·¯ÇÑ Å¬¶óÀÌ¾ðÆ®µé ¿ª½Ã PostGIS °ø°£ Á¤º¸¸¦ ÁöµµÈ­ ¹× ¼öÁ¤ÇÒ ¼ö ÀÖ½À´Ï´Ù.
+ë°ì´í„°ë² ì´ìŠ¤ ê´€ë¦¬ëŠ” ë°ìŠ¤í¬íƒ‘ê³¼ pgAdmin, phpPgAdmin ë“±ì„ ì´ìš©í•˜ì—¬ ì¸í„°ë„·ìœ¼ë¡œ ê°€ëŠ¥í•©ë‹ˆë‹¤. ë°ì´í„°ì˜ importì™€ exportëŠ” shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgisì™€ ê°™ì€ command line íˆ´ì´ë‚˜ í…ŒìŠ¤í¬íƒ‘, web GIS clientë¥¼ í†µí•´ ê°€ëŠ¥í•©ë‹ˆë‹¤. ì´ëŸ¬í•œ í´ë¼ì´ì–¸íŠ¸ë“¤ ì—­ì‹œ PostGIS ê³µê°„ ì •ë³´ë¥¼ ì§€ë„í™” ë° ìˆ˜ì •í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
@@ -77,12 +77,12 @@ PostGIS´Â ¼ö¸¹Àº °ø°£Àû ±â´ÉÀ» Á¦°øÇÏ°í ¾ÈÁ¤ÀûÀÌ°í ºü¸£¸ç ¸ðµç ±âÁØÀ» µû¸£°í ÀÖÀ
   :alt: pgAdmin database manager
   :align: right
 
-ÁÖ¿ä »çÇ×
+ì£¼ìš” ì‚¬í•­
 --------------------------------------------------------------------------------
 
-* ¼ö¸¹Àº °ø°£ ºÐ¼® ±â´É Á¦°ø
+* ìˆ˜ë§Žì€ ê³µê°„ ë¶„ì„ ê¸°ëŠ¥ ì œê³µ
   
-  * Buffers, unions, overlays, distance µî
+  * Buffers, unions, overlays, distance ë“±
 
 * ACID transactional integrity
 * R-Tree spatial index
@@ -93,14 +93,14 @@ PostGIS´Â ¼ö¸¹Àº °ø°£Àû ±â´ÉÀ» Á¦°øÇÏ°í ¾ÈÁ¤ÀûÀÌ°í ºü¸£¸ç ¸ðµç ±âÁØÀ» µû¸£°í ÀÖÀ
 * Role-based security
 * Table-spaces, schemas
 
-¹Ý¿µµÈ ±âÁØ »çÇ×
+ë°˜ì˜ëœ ê¸°ì¤€ ì‚¬í•­
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
 * OGC standards compliant (SFSQL)
 
-ÀÚ¼¼ÇÑ »çÇ×
+ìžì„¸í•œ ì‚¬í•­
 --------------------------------------------------------------------------------
 
 **Website:** http://postgis.refractions.net/
