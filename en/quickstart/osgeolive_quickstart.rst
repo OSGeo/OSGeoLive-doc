@@ -34,9 +34,9 @@ Run:
   Otherwise you'll have to adjust the BIOS boot settings or press the boot
   menu button just after powering-up.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
-    :scale: 70 %
-    :alt: boot select
+   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
+     :scale: 70 %
+     :alt: boot select
 
   When you see the above screen, you can press the spacebar to get to the special
   boot-up options menu. In most cases you won't have to do that.
