@@ -43,7 +43,7 @@ Getting Ushahidi Up and Running
    with the installation. Issue these commands assuming you have logged into the 
    system as root.
 
-   **"mysql -uroot -p"** -- This should prompt you for mysql server's root 
+   **"mysql -u root -p"** -- This should prompt you for mysql server's root 
    password. Enter the root password if there is one otherwise hit the enter key
    
    Then enter the command below to create a new user.
