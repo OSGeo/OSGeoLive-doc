@@ -41,15 +41,15 @@ Run:
   When you see the above screen, you can press the spacebar to get to the special
   boot-up options menu. In most cases you won't have to do that.
 
- .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
-   :scale: 70 %
-   :alt: boot
+  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+    :scale: 70 %
+    :alt: boot
 
   Sit back while the system boots up.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
-    :scale: 70 %
-    :alt: boot select
+   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+     :scale: 70 %
+     :alt: boot select
 
   Try the many applications from the :menuselection:`Geospatial` menu. 
 
