@@ -36,7 +36,7 @@ Sono stati implementati molti programmi di utilità a riga di comando, applicazi
 e sistemi integrati; molti di questi sono forniti con la distribuzione del software.
 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg

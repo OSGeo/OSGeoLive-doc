@@ -55,7 +55,7 @@ Caratteristiche principali
 * Diverse tecnologie di front-end
 * Supporto multi-browser, senza il bisogno di plug-ins per il browser
 
-Standards implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0

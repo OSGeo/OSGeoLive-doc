@@ -53,7 +53,7 @@ GIS desktop per palmari o netbook.
 
 .. _GRASS: http://grass.osgeo.org
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Tu lo nomini, ed esiste uno strumento per quello.

@@ -27,7 +27,7 @@ stagioni, o complicato come una modello di cambiamento climatico.
   :alt: screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 Funzioni GIS principali

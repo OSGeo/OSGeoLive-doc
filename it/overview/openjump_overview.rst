@@ -61,7 +61,7 @@ Caratteristiche (Principali e PlugIns*)
     * Sistema di plugin (Java)
    
 
-Standards Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.

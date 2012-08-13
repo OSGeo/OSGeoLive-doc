@@ -38,7 +38,7 @@ organizzazioni sparse in tutto il mondo, incluse risk adverse government agencie
 TinyOWS implementa rigorosamente gli standard WFS 1.0 e 1.1, e ha passato tutti i 
 test OGC CITE units (~ 1000 test unici).
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Transactional Web Feature Service (WFS-T)

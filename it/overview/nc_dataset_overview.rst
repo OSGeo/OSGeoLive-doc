@@ -38,7 +38,7 @@ I dati sono sono forniti a tre livelli di gerarchia:
   :align: right
 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Layers raster, vettoriali e KML con metadati a livello di contea e stato, specificamente selezionati per coprire gli ampi bisogni dei corsi introduttivi ai GIS e fornendo esempi per le pagine di aiuto e tutorial del software.

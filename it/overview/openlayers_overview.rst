@@ -36,7 +36,7 @@ strumenti e widgets per mappe, in modo simile alle API di Google Maps. Tutte le 
 eseguite all'interno del browser internet, che fa in modo di rendere OpenLayers facile da installare, senza
 nessuna dipendenza lato server.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * API JavaScript facili da usare, disegnate per rendere lo sviluppo semplice

@@ -28,7 +28,7 @@ Osm2pgsql. Inoltre sono inclusi dati di esempio per una città e un vasto numero
 di plugins per JOSM.
 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg

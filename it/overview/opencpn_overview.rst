@@ -32,7 +32,7 @@ Inoltre, l'utente può immettere rotte e waypoint che consentono di interfacciar
 ad un pilota automatico esterno per sugire un direzione precisa.
 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png

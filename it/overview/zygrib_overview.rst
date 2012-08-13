@@ -19,7 +19,7 @@ Previsioni Meteo
 zyGrib è un programma per scaricare e visualizzare dati delle previsioni meteo
 utilizzando il formato standard GRIB.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg

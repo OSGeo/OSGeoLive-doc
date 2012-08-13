@@ -24,7 +24,7 @@ globo (incluso `OpenStreetMaps <http://www.osm.org>`_), voi siete incoraggiati
 a utilizzare il widget di KDE Marble nelle vostre applicazioni.
 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/marble-history.png

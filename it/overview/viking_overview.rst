@@ -24,7 +24,7 @@ i dati GPS, mappe, e altri tipi di layer con i dati spaziali, come ad esempio li
 Funziona con i dait di OpenStreetMap e vari servizi di tile online.
 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg

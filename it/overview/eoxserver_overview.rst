@@ -75,7 +75,7 @@ Le caratteristiche principali disponibili sono:
 
 * Supporto di EO-WMS per EO Coverages 
 
-Standard Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 * Supporto di numerosi standard Open Geospatial Consortium  (OGC)

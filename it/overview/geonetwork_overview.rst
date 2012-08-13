@@ -43,7 +43,7 @@ Caratteristiche di base
 * interfaccia utente multi-lingua
 * Una mappa selezionata casualmente in primo piano.
 
-Standards implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO

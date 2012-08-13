@@ -32,7 +32,7 @@ Questi files sono anche portabili; il medesimo file-database funzionerà su Wind
   :alt: screenshot
   :align: right
   
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 L'estensione SpatiaLite abilita SQLite a supportare i dati spaziali in modo conforme alle specifiche OGC.

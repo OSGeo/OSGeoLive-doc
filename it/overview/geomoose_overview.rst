@@ -45,7 +45,7 @@ essere aggiunti essendo un'architettura modulare.
   :alt: geomoose-screenshot-800x600.png
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Gestione di dati distribuiti tramite differenti gestori.
@@ -60,7 +60,7 @@ Caratteristiche Principali
 * Pubblicare un numero di layers quasi illimitato.
 * Stampa PDF.
 
-Standards Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 * WMS
 

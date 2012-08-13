@@ -27,7 +27,7 @@ e può anche spedire indietro i dati editati al ricevitore.
 
 GpsPrune gira su Mac OSX, Windows e Linux, ed è disponibile in più di dieci lingue.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/prune_denver.png

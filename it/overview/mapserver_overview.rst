@@ -42,7 +42,7 @@ gruppo di diverse organizzazione che finanziano miglioramenti e mantenimento,
 e amministrano con OSGeo il MapServer Project Steering Committee costituito di sviluppatori 
 e altri contributori.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/mapserver.png
@@ -85,7 +85,7 @@ Caratteristiche Principali
 
   * Riproiezione di mappe al volo con circa 1000 delle proiezioni attraverso la libreria Proj.4
 
-Standard Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 * Supporto di numerosi standard Open Geospatial Consortium (OGC)

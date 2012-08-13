@@ -27,7 +27,7 @@ Parte metodologica del Programma Accompaniement ORFEO ed è stato
 attivamente sviluppato dal 2006. Si basa sulla libreria di elaborazione di immagini
 medici ITK e viene distribuito come sorgente aperto.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.jpg

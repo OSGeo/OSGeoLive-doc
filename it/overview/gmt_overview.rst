@@ -37,7 +37,7 @@ linee di costa, fiumi e confini politici.
   :alt: screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Qualità cartografica da rivista.

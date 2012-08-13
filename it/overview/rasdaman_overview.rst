@@ -45,7 +45,7 @@ più completa di un tale sistema".
   :scale: 50 %
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
     * multi-divensionalità reale - da 1-D passando 2-D fino 3-D, 4-D, ed oltre
@@ -55,7 +55,7 @@ Caratteristiche Principali
     * supporto multi-utente support attraverso server multiplexing
     * piena integrazione di informazione dei dati raster con tutti gli altri dati geografici nel database PostgreSQL
 
-Standard Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
     * OGC WCS 2.0, WCPS 1.0, WPS 1.0

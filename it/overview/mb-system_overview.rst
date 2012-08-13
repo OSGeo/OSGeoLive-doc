@@ -29,7 +29,7 @@ numero di organizzazioni di ricerca e scientifiche.
 .. comment  installato. Per installarlo aprire un terminale ed eseguire
 .. comment  ``cd gisvm/bin; sudo ./install_mb-system.sh``
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png

@@ -41,7 +41,7 @@ Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide e ArcGIS.
   :alt: GDAL supporta molti formati di geodati
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Strumenti da linea di comando per conversione dei dati, image warping, subsetting, e diversi e altri comuni tasks
@@ -60,7 +60,7 @@ Questi includono:
 * **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, e altri ...
 * **Vettoriali:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, e altri ...
 
-Standards implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 Il modello dati vettoriale OGR è compatibile con le specifiche OGC Simple Features.

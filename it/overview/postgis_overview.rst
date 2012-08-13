@@ -89,7 +89,7 @@ clients possono anche gestire tabelle spaziali di PostGIS.
   :alt: pgAdmin database manager
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Centinaia di funzioni spaziali
@@ -105,7 +105,7 @@ Caratteristiche Principali
 * Sicurezza basata sui ruoli
 * Table-spaces, schemi
 
-Standard Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.

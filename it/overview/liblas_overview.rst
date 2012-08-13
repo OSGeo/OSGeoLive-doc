@@ -31,7 +31,7 @@ uses laser light as the electromagnetic emission. Uno dei prodotti del sistema L
 serie di misurazioni puntuali che rappresentano la distanza dal sensore ad un ritorno
 emissione. Un formato comune di archiviazione di quasta nuvola di dati puntuale è il ASPRS LAS.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * API C/C++/Python per leggere, scrivere, e gestire dati LAS

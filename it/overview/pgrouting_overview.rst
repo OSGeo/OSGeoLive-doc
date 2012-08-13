@@ -34,7 +34,7 @@ Vantaggi dell'approccio di database per il routing sono:
   :alt: pgRouting query in pgAdminIII
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 pgRouting fornisce funzioni per:
@@ -45,7 +45,7 @@ pgRouting fornisce funzioni per:
 * Problema del commesso viaggiatore
 * Calcolo della distanza di guida (Isolinee)
 
-.. Standards implementati
+.. Standard implementati
    -----------------------------
 
 .. * conforme agli standards OGC

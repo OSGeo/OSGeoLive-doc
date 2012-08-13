@@ -24,7 +24,7 @@ della vostra posizione e alle scala preferita. Tutti i ricevitori GPS che suppor
 il protocollo NMEA possono essere utilizzati, così come molti USB GPSs che usano un
 protocollo binario conosciuto a `Gpsd <http://gpsd.berlios.de>`_ demone GPS e multiplexer.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png

@@ -47,7 +47,7 @@ Development Agency, IBM, la US National Science Foundation, e da allora
   :alt: screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Cartografia - Conoscenza delle situazioni e Analisi geospaziali.

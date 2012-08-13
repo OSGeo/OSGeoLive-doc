@@ -32,7 +32,7 @@ per aiutarvi a iniziare a lavorare velocemente e facilmente.
   :alt: screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 osgEarth rende semplice di creare modelli del terreno scalabili:

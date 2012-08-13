@@ -43,7 +43,7 @@ toolkits.
   :alt: screenshot
   :align: right
 
-Standards Implementati 
+Standard implementati 
 --------------------------------------------------------------------------------
 
 MapFish soddisfa gli standards del `Open Geospatial Consortium

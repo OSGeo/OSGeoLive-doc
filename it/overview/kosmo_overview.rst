@@ -28,7 +28,7 @@ La sua archittettura a plugin permette che sia facilmente personalizzazione per 
   :alt: screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 Formati Supportati:
@@ -49,7 +49,7 @@ Caratteristiche chiave:
 * Strumento georeferenziazione dei raster (attraverso una estensione)
 * Integrato Sextante 0.6 (attraverso una estensione)
 
-Standards Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0

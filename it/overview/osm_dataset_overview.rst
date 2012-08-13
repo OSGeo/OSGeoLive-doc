@@ -38,7 +38,7 @@ dati di OSM che è usato come esempi di alcune applicazioni.
   :alt: OSM screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Gli elementi vettoriali sono taggati con nomi e altri attributi.

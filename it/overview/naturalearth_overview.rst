@@ -31,7 +31,7 @@ al livello di dettagli appropriato per le mappa che si sta creando.
   :alt: natural earth screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Gli elementi vettoriali includono nome e altri attributi        

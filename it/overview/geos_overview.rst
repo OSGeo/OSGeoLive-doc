@@ -32,12 +32,12 @@ open source come :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`,
 :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`, e propdotti 
 proprietari tipo `FME <http://www.safe.com/fme/fme-technology/>`_.
 
-Standard Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 * `OpenGIS Simple Features <http://www.opengeospatial.org/standards/sfs>`_ per funzioni con predicato spaziale SQL e operatori spaziali
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
     
 * Geometrie: Punto, Linea, Poligono, MultiPunto, MultiLinea, MultiPoligono, GeometryCollection

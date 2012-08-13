@@ -33,7 +33,7 @@ di utenti e l'Agenzia Federale Tedesca per la Cartografia e Gepdesia utilizza Ma
 unire servizi WMS di tutti i 16 stati al volo.
 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/mapproxy_demo.png
@@ -89,7 +89,7 @@ Altre caratteristiche:
   * supporto per raster diversi da immagini come DEM
   * molto altro
 
-Standard Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 MapProxy implementa le seguenti specifiche aperte:

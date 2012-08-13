@@ -35,7 +35,7 @@ di una crescente comunità mondiale.
   :alt: screenshot
   :align: right
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Accesso ad un vasto numero di moduli scientifici attraverso l'Interfaccia Grafica o la linea di comando

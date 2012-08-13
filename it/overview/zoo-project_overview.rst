@@ -58,14 +58,14 @@ gli input/output richiesti. I servizi contengono gli algoritmi e funzioni,
 e attualmente possono essere implementate in C/C++, Fortran, Java, Python, PHP
 and JavaScript. 
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Multi linguaggio WPS server 
 * Procedura semplice per lo sviluppo e creazione di Web Service
 * Facile concatenamento di servizi WPS attraverso le ZOO API
 
-Standards Implementati
+Standard implementati
 --------------------------------------------------------------------------------
 
 * OGC WPS 1.0.0

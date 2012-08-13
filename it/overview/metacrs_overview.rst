@@ -49,7 +49,7 @@ I sotto-progetti che compongono MetaCRS includono:
 * Proj4J (Java).
 * `SpatialReference.org <http://spatialreference.org/>`_  - Sito web per recuperare le definizioni di sistemi di coordinate.
 
-Caratteristiche Principali
+Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Fornisce i punti di trasformazione da un sistema di coordinate ad un altro.
