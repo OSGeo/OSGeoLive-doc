@@ -57,14 +57,14 @@ Run:
     http://docs.xfce.org/start
 
   Getting started with the Ubuntu operating system: (a nice PDF e-book)
-    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+    `/usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_
 
   Further online help with the Ubuntu operating system: (n.b. we use the traditional Xfce desktop interface, not the tablet-like Unity desktop interface)
-    https://help.ubuntu.com/11.04/
+    https://help.ubuntu.com/12.04/
+
+    https://help.ubuntu.com/12.04/serverguide/C/
 
     https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
-
-    https://help.ubuntu.com/11.04/serverguide/C/
 
 
 See Also:
