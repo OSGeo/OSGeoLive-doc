@@ -1,4 +1,4 @@
-:Author: Pirmin Kalberer
+ï»¿:Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -13,11 +13,11 @@
 osgEarth
 ================================================================================
 
-Boîte à outils de rendu de terrain
+BoÃ®te Ã  outils de rendu de terrain
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-osgEarth est une boîte à outils de rendu de terrain adaptable pour OpenSceneGraph_ (OSG), une boîte à outils, hautement performante, de graphiques 3D. Vous n'avez qu'à créer un fichier simple XML, de l'indiquer dans vos données d'élévation vectorielles ou image, de le charger dans votre appliction OSG préférée, et en avant!
-osgEarth supporte tous les types de données et il est fournit avec un grand nombre d'exemples pour vous aider à vous lancer et avancer rapidement et facilement. 
+osgEarth est une boÃ®te Ã  outils de rendu de terrain adaptable pour OpenSceneGraph_ (OSG), une boÃ®te Ã  outils, hautement performante, de graphiques 3D. Vous n'avez qu'Ã  crÃ©er un fichier simple XML, de l'indiquer dans vos donnÃ©es d'Ã©lÃ©vation vectorielles ou image, de le charger dans votre appliction OSG prÃ©fÃ©rÃ©e, et en avant!
+osgEarth supporte tous les types de donnÃ©es et il est fournit avec un grand nombre d'exemples pour vous aider Ã  vous lancer et avancer rapidement et facilement. 
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
@@ -26,33 +26,33 @@ osgEarth supporte tous les types de données et il est fournit avec un grand nomb
   :alt: screenshot
   :align: right
 
-Eléments centraux
+ElÃ©ments centraux
 --------------------------------------------------------------------------------
 
-osgEarth permet de déployer facilement des modèles de terrain adaptables: 
+osgEarth permet de dÃ©ployer facilement des modÃ¨les de terrain adaptables: 
 
-* Création de modèles de terrain - ou bien hors ligne, ou de façon dynamique avec un run-time 
-* Chargement de modèles de terrain sur l'ensemble du globe sans écrire aucun code 
-* Une couche image pour insérer des données de haute résolution 
-* Combinaison à la volée d'images multiples, de données d'élévation et vectorielles
+* CrÃ©ation de modÃ¨les de terrain - ou bien hors ligne, ou de faÃ§on dynamique avec un run-time 
+* Chargement de modÃ¨les de terrain sur l'ensemble du globe sans Ã©crire aucun code 
+* Une couche image pour insÃ©rer des donnÃ©es de haute rÃ©solution 
+* Combinaison Ã  la volÃ©e d'images multiples, de donnÃ©es d'Ã©lÃ©vation et vectorielles
 * Mise en cache de tuiles de cartes pour maximiser les perfomances 
-* Ajustement de l'opacité de couches pour des effets multi-textures 
+* Ajustement de l'opacitÃ© de couches pour des effets multi-textures 
 
 Mais osgEarth fait beaucoup plus que du rendu de terrain: 
 
-* Drapage de données vectorielles de SIG sur le terrain 
-* Reprojection de données dans de nombreux systèmes de coordonnées
-* Placement de modèles de terrain avec des coordonnées lat/long 
+* Drapage de donnÃ©es vectorielles de SIG sur le terrain 
+* Reprojection de donnÃ©es dans de nombreux systÃ¨mes de coordonnÃ©es
+* Placement de modÃ¨les de terrain avec des coordonnÃ©es lat/long 
 * Tests rapides d'intersection
-* Incorporation de nouvelles données dans les bases de données VPB existantes (sans les reconstruire) 
-* Accés direct aux tuiles du terrain pour les processus non-visuels 
+* Incorporation de nouvelles donnÃ©es dans les bases de donnÃ©es VPB existantes (sans les reconstruire) 
+* AccÃ©s direct aux tuiles du terrain pour les processus non-visuels 
 
 Les choses que vous pouvez voir:
 
-* Fichierds image GeoTIFF et Modèles Numériques de terrain (Digital Elevation Model - DEM) (plus de nombreux autres formats) 
-* Données vectorielles comme les shapefiles d'ESRI
-* Compatible avec les données de services de cartographie en ligne de l'OGC (comme WMS_) 
-* Couches SIG publiées avec MapServer_ ou `ArcGIS Server' d'ESRI_
+* Fichierds image GeoTIFF et ModÃ¨les NumÃ©riques de terrain (Digital Elevation Model - DEM) (plus de nombreux autres formats) 
+* DonnÃ©es vectorielles comme les shapefiles d'ESRI
+* Compatible avec les donnÃ©es de services de cartographie en ligne de l'OGC (comme WMS_) 
+* Couches SIG publiÃ©es avec MapServer_ ou `ArcGIS Server' d'ESRI_
 * Cartes en ligne comme OpenStreetMap_, `ArcGIS Online`_, ou `NASA OnEarth`_
 
 .. _WMS: http://www.opengeospatial.org
@@ -63,7 +63,7 @@ Les choses que vous pouvez voir:
 .. _`NASA OnEarth`: http://onearth.jpl.nasa.gov
 
 
-Détails
+DÃ©tails
 --------------------------------------------------------------------------------
 
 **Site Web:** http://osgearth.org/
@@ -72,14 +72,14 @@ Détails
 
 **Version de logiciel :** 2.0
 
-**Platformes supportées:** Linux, Mac, Windows
+**Platformes supportÃ©es:** Linux, Mac, Windows
 
 **Interfaces API:** C++
 
 **Support commercial:** http://osgearth.org/#ProfessionalServices
 
 
-Démarrage rapide
+DÃ©marrage rapide
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/osgearth_quickstart>`

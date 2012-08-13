@@ -1,4 +1,4 @@
-:Author: Hamish Bowman
+ï»¿:Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -12,22 +12,22 @@
 OSGeo North Carolina, USA Educational dataset
 ================================================================================
 
-Données cartographiques
+DonnÃ©es cartographiques
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Commentaire: le texte suivant est fourni gracieusement par Helena Mitasova & Markus Neteler
 
-Ce jeu de données est une collection complète de données raster, vecteur et image couvrant des zones de Caroline du Nord (NC), USA, préparées à partir de sources de données publiques fournies par l'état de Caroline du Nord et des agences publiques locales et le Global Land Cover Facility (GLCF).
+Ce jeu de donnÃ©es est une collection complÃ¨te de donnÃ©es raster, vecteur et image couvrant des zones de Caroline du Nord (NC), USA, prÃ©parÃ©es Ã  partir de sources de donnÃ©es publiques fournies par l'Ã©tat de Caroline du Nord et des agences publiques locales et le Global Land Cover Facility (GLCF).
 
-Ce jeu de données inclut des parties de Raleigh capitale de la CN et de ses environs. 
+Ce jeu de donnÃ©es inclut des parties de Raleigh capitale de la CN et de ses environs. 
 
-Les données sont fournies à trois niveaux hiérarchiques:
+Les donnÃ©es sont fournies Ã  trois niveaux hiÃ©rarchiques:
 
-* données raster à la résolution de 500m sur l'ensemble de l'état de CN;
+* donnÃ©es raster Ã  la rÃ©solution de 500m sur l'ensemble de l'Ã©tat de CN;
 
-* données raster à la résolution de de 30m-10m sur le comté de South-west Wake ; et
+* donnÃ©es raster Ã  la rÃ©solution de de 30m-10m sur le comtÃ© de South-west Wake ; et
 
-* un petit bassin versant en zone rurale avec des données à la résolution de 1m-3m (voir l'image).
+* un petit bassin versant en zone rurale avec des donnÃ©es Ã  la rÃ©solution de 1m-3m (voir l'image).
 
 .. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
@@ -35,39 +35,39 @@ Les données sont fournies à trois niveaux hiérarchiques:
   :align: right
 
 
-Eléments centraux
+ElÃ©ments centraux
 --------------------------------------------------------------------------------
 
-* Couches de données  cartographiques raster, vecteur, et KML avec des données complètes à l'échelle du comté et de l'état, spécialement sélectionnées pour couvrir des besoins larges de cours de formation d'introduction aux SIG et fournissant des exemples pour les pages d'aide de logiciel et de tutoriaux.
+* Couches de donnÃ©es  cartographiques raster, vecteur, et KML avec des donnÃ©es complÃ¨tes Ã  l'Ã©chelle du comtÃ© et de l'Ã©tat, spÃ©cialement sÃ©lectionnÃ©es pour couvrir des besoins larges de cours de formation d'introduction aux SIG et fournissant des exemples pour les pages d'aide de logiciel et de tutoriaux.
 
-* La license Creative Commons signifie que les données peuvent être utiliées, distribuées et modifiées par tout le monde. Sans les contraintes légales habituelles des données géoréférencées mises à disposition du public, ces données sont idéales pour une utilisation en salle de classe.
+* La license Creative Commons signifie que les donnÃ©es peuvent Ãªtre utiliÃ©es, distribuÃ©es et modifiÃ©es par tout le monde. Sans les contraintes lÃ©gales habituelles des donnÃ©es gÃ©orÃ©fÃ©rencÃ©es mises Ã  disposition du public, ces donnÃ©es sont idÃ©ales pour une utilisation en salle de classe.
 
 
-Jeux de données
+Jeux de donnÃ©es
 --------------------------------------------------------------------------------
 
-Thèmes des données culturelles vectorielles:
-  Comprend les limites politiques, les routes, les arrêts de bus, les casernes de pompiers, les zones de recensement et beaucoup plus.
+ThÃ¨mes des donnÃ©es culturelles vectorielles:
+  Comprend les limites politiques, les routes, les arrÃªts de bus, les casernes de pompiers, les zones de recensement et beaucoup plus.
 
-Thèmes des données physiques vectorielles:
-  Comprend des mesures d'altitude de données LIDAR aérien , des courbes de niveaux, des courants, des précipitations et beaucoup plus.
+ThÃ¨mes des donnÃ©es physiques vectorielles:
+  Comprend des mesures d'altitude de donnÃ©es LIDAR aÃ©rien , des courbes de niveaux, des courants, des prÃ©cipitations et beaucoup plus.
 
-Thèmes des données raster:
-  Comprend des cartes numériques d'altitude, usage des soles et occupation des sols, images LANDSAT7 et beaucoup plus.
+ThÃ¨mes des donnÃ©es raster:
+  Comprend des cartes numÃ©riques d'altitude, usage des soles et occupation des sols, images LANDSAT7 et beaucoup plus.
 
 
-Détails
+DÃ©tails
 --------------------------------------------------------------------------------
 
 **Site Web:** http://www.grassbook.org/data_menu3rd.php
 
 **Licens:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
 
-**Version des données:** 2008
+**Version des donnÃ©es:** 2008
 
-**Format des données:** GeoTIFF, Shapefiles, KML
+**Format des donnÃ©es:** GeoTIFF, Shapefiles, KML
 
-**Système de coordonnées spaitales:** NC State Plane (Lambert Conformal Conic), NAD83
+**SystÃ¨me de coordonnÃ©es spaitales:** NC State Plane (Lambert Conformal Conic), NAD83
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/geodata
 
