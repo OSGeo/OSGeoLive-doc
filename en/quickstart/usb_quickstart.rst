@@ -39,14 +39,14 @@ Insert the USB flash drive into your computer.
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Select :menuselection:`System --> Administration --> Startup Disk Creator`, or search for `Startup Disk Creator` from the Unity desktop.
+Select :menuselection:`Applications --> System --> Startup Disk Creator`, or search for `Startup Disk Creator` from the Unity desktop.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Select the osgeo-live or osgeo-live-mini ISO Image that you downloaded earlier.
 
-Select the USB flash drive.
+Select the USB flash drive. If you have extra room you might adjust the slider to create persistent storage space on the USB drive (recommended).
 
 Select :guilabel:`Make Startup Disk`
 
