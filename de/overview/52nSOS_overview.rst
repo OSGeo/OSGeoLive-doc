@@ -16,10 +16,7 @@
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Der 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>`_ 
-erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. 
-Ein Sensor kann dabei z.B. ein Satellit, eine Wetterstation oder ein Pegel an 
-einem Fluss sein.
+Der 52°North `Sensor Observation Service (SOS) <../standards/sos_overview.html>` erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein Sensor kann dabei z.B. ein Satellit, eine Wetterstation oder ein Pegel an einem Fluss sein.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
@@ -31,63 +28,50 @@ Funktionalität
 
 **Test-Anwendung**:
 
-* Der SOS wird zusammen mit einem Browser-basierten Test-Anwendung ausgeliefert,
-		welcher Beispiel-Anfragen für alle SOS-Operationen enthält.
+* Der SOS wird zusammen mit einem Browser-basierten Test-Anwendung ausgeliefert, welcher Beispiel-Anfragen für alle SOS-Operationen enthält.
 		
-Der aktuelle 52°North SOS (Version 3.5.0) implementiert das sogenannte 
-“Core Profile” sowie das “Transactional Profile” der OGC SOS-Spezifikation 
-1.0.0. Weiterhin werden Teile des „Enhanced Profile“ unterstützt. Folgende 
-Operationen sind verfügbar
+Der aktuelle 52°North SOS (Version 3.5.0) implementiert die aktuellste Spezifikationsversion (2.0.0 und die Vorgängering 1.0.0). In der folgenden Liste sind entsprechend der Version die implementierten Operationen aufgelistet:
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Operationen des “SOS Core Profile”**:
 
 * GetCapabilities, zum Abrufen einer Selbstbeschreibung des Dienstes.
-* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC 
-		Observations & Measurements (O&M) Spezifikation.
-* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend 
-		der OGC Sensor Model Language (SensorML) Spezifikation.
+* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC Observations & Measurements (O&M) Spezifikation.
+* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend der OGC Sensor Model Language (SensorML) Spezifikation.
 
 ** Operationen des “SOS Transactional Profile”**:
 
 * RegisterSensor, zum Registrieren neuer Sensoren in einer SOS-Instanz.
-* InsertObservation, zum Einfügen neuer Messdaten, welche durch zuvor 
-		registrierte Sensoren geliefert wurden.
+* InsertObservation, zum Einfügen neuer Messdaten, welche durch zuvor registrierte Sensoren geliefert wurden.
 
 ** Operationen des “SOS Enhanced Profile”**:
 
 * GetResult, zum vereinfachten Abfragen vordefinierter Mengen von Sensordaten.
 * GetObservationById, zum gezielten Abfragen bestimmter, einzelner Messungen.
-* GetFeatureOfInterest, zum Abfragen der Geometrien von Sensorstandorten, 
-		kodiert ensprechend der OGC Geography Markup Language (GML) 
-		Spezifikation.
-* GetFeatureOfInterestTime, zur Abfrage der zeitlichen Verfügbarkeit 
-		von Messdaten.
+* GetFeatureOfInterest, zum Abfragen der Geometrien von Sensorstandorten, kodiert ensprechend der OGC Geography Markup Language (GML) Spezifikation.
+* GetFeatureOfInterestTime, zur Abfrage der zeitlichen Verfügbarkeit von Messdaten.
 
 OGC SOS 2.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * GetCapabilities, zum Abrufen einer Selbstbeschreibung des Dienstes.
-* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC 
-		Observations & Measurements (O&M) Spezifikation.
-* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend 
-		der OGC Sensor Model Language (SensorML) Spezifikation.
-* GetFeatureOfInterest, zum Abfragen der Geometrien von Sensorstandorten, 
-		kodiert ensprechend der OGC Geography Markup Language (GML) 
-		Spezifikation.
+* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC Observations & Measurements (O&M) Spezifikation.
+* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend der OGC Sensor Model Language (SensorML) Spezifikation.
+* GetFeatureOfInterest, zum Abfragen der Geometrien von Sensorstandorten, kodiert ensprechend der OGC Geography Markup Language (GML) Spezifikation.
 
-Diese Operationen erlauben die Anwendungen folgender Filter-Operatoren, soweit 
-		sinnvoll:
+Diese Operationen erlauben die Anwendungen folgender Filter-Operatoren, soweit sinnvoll:
 
 * Räumlicher Filter: BBOX, mit einem Begrenzungsrahmen.
 * Zeitlicher Filter: During, mit einem Zeitraum.
 * Zeitlicher Filter: TEquals, mit einem Zeitpunkt.
 
-:doc:`Standards <../standards/standards>`
+Zugehörige Standards
 --------------------------------------------------------------------------------
 
-* `OGC Sensor Observation Service (SOS) <http://www.ogcnetwork.net/SOS>`_
+* :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`
+* :doc:`Geography Markup Language (GML) <../standards/gml_overview>`
+* :doc:`Sensor Model Language (SensorML) <../standards/sensorml_overview>`
 
 Details
 --------------------------------------------------------------------------------
@@ -108,7 +92,7 @@ Details
 
 **Community Webseite:** http://52north.org/communities/sensorweb/
 
-**Andere 52°North Projekte auf OSGeo Live:** :doc:`52°North WPS <./52nWPS_overview>`
+**Andere 52°North Projekte auf OSGeo Live:** :doc:`52°North WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
 
 Quickstart
 --------------------------------------------------------------------------------

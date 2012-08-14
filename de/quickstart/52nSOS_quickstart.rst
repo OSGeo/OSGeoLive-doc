@@ -36,7 +36,7 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 **Abb. 1**: 52°North SOS Test-Anwendung - Willkommens-Seite
 
 3) Jetzt sehen Sie die Test-Anwendung für die Spezifikations-Version 1.0.0. 
-   Verwenden Sie Ihn um Anfragen an den SOS zu schicken.
+   Verwenden Sie sie um Anfragen an den SOS zu schicken.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 100 %
@@ -45,12 +45,13 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
   
 **Fig. 2**: 52°North SOS Test-Anwendung - Spezifikations-Version 1.0.0 
   
-4) Wählen Sie als erstes Beispiel die Anfrage **GetCapabilities_allSections.xml** [1] aus der Drop-Down-Liste 
-   "Request Examples".
+4) Wählen Sie als erstes Beispiel die Anfrage **GetCapabilities_allSections.xml** aus der Drop-Down-Liste 
+   "Request Examples" (siehe Nummer [1] in Fig. 2).
   
-5) Drücken Sie den **Send button** [2] damit die Anfrage an den 52°North SOS 
+5) Drücken Sie den **Send button** (siehe Nummer [2] in Fig. 2) damit die Anfrage an den 52°North SOS 
    gesendet wird. Als Antwort erhalten Sie ein XML-Dokument, welches die 
    Eigenschaften und Inhalte des SOS (sogenannte “Capabilities”) beschreibt (siehe Abb. 3).
+   Um die Rohantwort des Servers zu sehen, schauen Sie sich die Quellen der Seite an (Strg + u).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
@@ -71,12 +72,12 @@ Weitere Informationen
   über folgende Wege:
 
 * Der 52°North `SOS-Überblick <../overview/52nSOS_overview.html>`_,
-* Die 52°North Sensor Web Mailing-Liste: swe@52north.org, 
-* Das Forum der 52°North `Sensor Web Community <http://sensorweb.forum.52north.org/>`_, 
+* Die 52°North Sensor-Web-E-Mail-Liste: swe@52north.org, 
+* Das Forum der 52°North `Sensor-Web-Community <http://sensorweb.forum.52north.org/>`_, 
 * Die 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, or 
-* Die Website der `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
+* Die Website der `52°North Sensor-Web-Community <http://52north.org/communities/sensorweb/>`_.
 
-* Sollte der SOS nicht erreichbar sein, so prüfen Sie bitt emit folgendem Befehl, oder der Tomcat Web Service-Container läuft:
+* Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl, oder der Tomcat Web Service-Container läuft:
 
 ::
 
@@ -86,9 +87,7 @@ Weitere Informationen
   user@osgeolive:~$ sudo /etc/init.d/tomcat6 start
   * Starting Tomcat servlet engine tomcat6           [ OK ] <-- Tomcat läuft nun
   
-**Listing 1:** Befehlte zum Abfragen des Status von Tomcat und zum Starten 
-
-  (Passwort für sudo: user)
+**Listing 1:** Befehlte zum Abfragen des Status von Tomcat und zum Starten (Passwort für sudo: user)
 
 * Die Entwicklung dieser Version des 52°North SOS wurde durch das Europäische FP7 Projekt `EO2HEAVEN <http://www.eo2heaven.org/>`_ 
   
