@@ -1,6 +1,6 @@
 :Author: Astrid Emde
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
+:Translator: (Zh) Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -33,7 +33,7 @@ MapBender
 
 　　MapBender 为空间数据服务体系的管理提供了完全依赖标准网页浏览器实现的全新解决方案。
 
-.. image:: ../../images/screenshots/800x600/MapBender_demo.png
+.. image:: ../../images/screenshots/800x600/mapbender_demo.png
   :scale: 50%
   :alt: MapBender application
   :align: right
@@ -93,6 +93,6 @@ MapBender
 快速入门
 --------------------------------------------------------------------------------
 
-* :doc:`快速入门文档 <../quickstart/MapBender_quickstart>`
+* :doc:`快速入门文档 <../quickstart/mapbender_quickstart>`
 
 

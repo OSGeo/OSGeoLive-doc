@@ -1,10 +1,8 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
+:Translator: (Zh) Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-
 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 30
@@ -27,10 +25,10 @@ User-friendly Desktop Internet GIS (uDig)
 
 　　uDig 具有以下特性：
 
-* **用户友好**，提供了多数 GIS 用户熟悉的操作环境
-* **基于桌面**，MS Windows、Mac OS/X、GNU/Linux 本地运行
-* **面向网络**，支持网络服务标准和主流产品
-* **GIS 框架**，为复杂的分析功能提供了一套框架，并逐渐开发和发布这些功能
+* **用户友好**， 提供了多数 GIS 用户熟悉的操作环境
+* **基于桌面**， MS Windows、Mac OS/X、GNU/Linux 本地运行
+* **面向网络**， 支持网络服务标准和主流产品
+* **GIS 框架**， 为复杂的分析功能提供了一套框架，并逐渐开发和发布这些功能
 
 　　对于开发人员而言，uDig 提供可一套开源的通用 Java GIS 开发平台。在官方网站中可以找到从制作简单工具到发布定制版本的一系列详细教程。
 

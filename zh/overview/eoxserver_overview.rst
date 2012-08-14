@@ -28,7 +28,7 @@ Web 服务
 * 基于开放标准的服务：开放地理信息协会（OGC）标准; WMS, WCS, EO-WMS, EO-WCS
 * 高效的数据利用：用户可自定义数据获取范围，并浏览和下载。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right
@@ -51,10 +51,12 @@ EOxServer 的核心功能包括：
 * 协议支持包括：
  * KVP 关键字对
  * XML/POST（通过 SOAP2POST 代理实现 XML/SOAP）
+
 * 数据格式支持：
  * GeoTIFF
  * 所有 GDAL 支持格式（具体各个格式有待验证）
-* 支持地球观测数据的 EO-WMS 网络地图服务 
+ 
+* 支持地球观测数据的 EO-WMS 网络地图服务
 
 标准支持
 --------------------------------------------------------------------------------

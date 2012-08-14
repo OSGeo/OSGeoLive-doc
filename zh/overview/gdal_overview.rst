@@ -74,4 +74,4 @@ OGR矢量数据模型兼容 OGC Simple Features 标准规范
 快速入门
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/gdal_quickstart>`_
+* :doc:`Quickstart documentation <../quickstart/gdal_quickstart>`
