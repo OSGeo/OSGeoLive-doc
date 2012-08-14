@@ -32,13 +32,13 @@ si preferisce, ma gli utenti non hanno bisogno di sapere
 nulla dei dati GIS. Al livello più semplice tutto ciò che serve è un browser web
 per visualizzare le mappe esattamente come si desidera.
 
-GeoServer e` l'implementazione di riferimento di 
+GeoServer e` l'implementazione di riferimento degli standard 
 `Open Geospatial 
 Consortium <http://www.opengeospatial.org>`_ (OGC) 
 :doc:`../standards/wfs_overview` e 
-:doc:`../standards/wcs_overview` standard,
+:doc:`../standards/wcs_overview`,
 nonche`  conforme
-:doc:`../standards/wms_overview` certificato di alte prestazioni. 
+:doc:`../standards/wms_overview` certificato con alte prestazioni. 
 GeoServer costituisce una componente di base del Geospatial Web. 
 
 .. image:: ../../images/screenshots/800x600/geoserver.gif
@@ -68,10 +68,10 @@ Caratteristiche di base
      Un client GIS puo` richiedere il dato raster reale per l'uso nell'analisi spaziale. Questo permette all'utente di creare applicazioni che possono modellare i processi descritti dai vostri dati. 
 
 **Riproiezione al volo:**
-     GeoServer supporta la gran parte del database EPSG delle proiezioni e puo` riproiettare qualsiasi dato a richiesta per consentire ai client con limitate capacita` di riproiezione di passare il caricamento del server. 
+     GeoServer supporta la gran parte delle proiezioni del database EPSG e puo` riproiettare qualsiasi dato a richiesta per consentire ai client con limitate capacita` di riproiezione di passare il caricamento del server. 
 
 **WMS Tiling Cache**
-    `GeoWebCache <http://geowebcache.org/>`_ e` un WMS tiling client. Gira su un server proxy tra la mappa client e la mappa server, It runs as a proxy server between a map client and map server, effettuando la cache dei tile quando vengono richiesti, eliminando le richieste ridondanti e risparmiando moltissimo tempo di processo. GeoWebCache e` stato integrato in GeoServer.
+    `GeoWebCache <http://geowebcache.org/>`_ e` un WMS tiling client. Gira su un server proxy tra la mappa client e la mappa server, effettuando la cache dei tile quando vengono richiesti, eliminando le richieste ridondanti e risparmiando moltissimo tempo di processo. GeoWebCache e` stato integrato in GeoServer.
 
 Standard implementati
 --------------------------------------------------------------------------------
