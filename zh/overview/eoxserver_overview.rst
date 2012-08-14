@@ -49,13 +49,15 @@ EOxServer 的核心功能包括：
 * 支持规则化格网下的数据融合，并且支持 contributingFootprint 数据使用范围描述
 * 支持地球观测元数据的获取和评价
 * 协议支持包括：
- * KVP 关键字对
- * XML/POST（通过 SOAP2POST 代理实现 XML/SOAP）
+
+  * KVP 关键字对
+  * XML/POST（通过 SOAP2POST 代理实现 XML/SOAP）
 
 * 数据格式支持：
- * GeoTIFF
- * 所有 GDAL 支持格式（具体各个格式有待验证）
- 
+
+  * GeoTIFF
+  * 所有 GDAL 支持格式（具体各个格式有待验证）
+
 * 支持地球观测数据的 EO-WMS 网络地图服务
 
 标准支持

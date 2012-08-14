@@ -21,9 +21,9 @@ User-friendly Desktop Internet GIS (uDig)
   :alt: udig workshop
   :align: right
 
-　　User-friendly Desktop Internet GIS (uDig) 是一套用户友好的开源 GIS 系统，用于显示和编辑地理数据。它遵循 OGC/OpenGIS 标准，适用于 WMS 网络地图服务、WFS 网络地理要素服务等网络应用。
+User-friendly Desktop Internet GIS (uDig) 是一套用户友好的开源 GIS 系统，用于显示和编辑地理数据。它遵循 OGC/OpenGIS 标准，适用于 WMS 网络地图服务、WFS 网络地理要素服务等网络应用。
 
-　　uDig 具有以下特性：
+uDig 具有以下特性：
 
 * **用户友好**， 提供了多数 GIS 用户熟悉的操作环境
 * **基于桌面**， MS Windows、Mac OS/X、GNU/Linux 本地运行
@@ -33,7 +33,6 @@ User-friendly Desktop Internet GIS (uDig)
 　　对于开发人员而言，uDig 提供可一套开源的通用 Java GIS 开发平台。在官方网站中可以找到从制作简单工具到发布定制版本的一系列详细教程。
 
 核心功能
-
 --------------------------------------------------------------------------------
 
 * 桌面客户端支持同文件管理器或浏览器间的拖拽通讯
