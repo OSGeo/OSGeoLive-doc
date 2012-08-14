@@ -1,5 +1,5 @@
-:Author: Bastian Schaeffer, Kristof Lange
-:Version: osgeo-live4.5
+:Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -34,16 +34,20 @@ GIS Kernfunktionen:
 * SimpleBufferAlgorithm
 * DouglasPeuckerAlgorithm
 * IntersectionAlgorithm
+* AddRasterValuesAlgorithm
+* CoordinateTransformAlgorithm
 	
 Backend Algorithmen stehen zur Verfügung in:
 
 * Sextante
 * ArcGIS Server
+* R
+* GRASS 7
 
 unterstützte Input- und Outputformate:
 
 * Vektor Daten: GML2, GML3, SHP files, KML, WKT (Well-known Text)
-* Raster Daten: Geotiff, AsciiGrid
+* Raster Daten: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
 
 Browserbasierter Client
 
@@ -61,7 +65,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** WPS 2.0 RC6
+**Software Version:** WPS 3.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
