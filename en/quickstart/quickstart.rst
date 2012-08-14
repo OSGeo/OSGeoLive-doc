@@ -12,7 +12,7 @@ OSGeo-Live Quick Starts
   osgeolive_quickstart
   internationalisation_quickstart
   osgeolive_install_quickstart
-  virtualbox_quickstart
+  virtualzation_quickstart
   usb_quickstart
 
 Application Quick Starts

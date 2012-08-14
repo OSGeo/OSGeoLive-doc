@@ -70,7 +70,7 @@ Run:
 See Also:
 --------------------------------------------------------------------------------
 
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
 

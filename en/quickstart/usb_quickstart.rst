@@ -82,7 +82,7 @@ See Also:
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * Alternative USB creation methods and latest tips are collected here: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
  * Questions can be directed to our email list: http://lists.osgeo.org/mailman/listinfo/live-demo
