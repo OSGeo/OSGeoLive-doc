@@ -395,6 +395,7 @@ is the official client for PostgreSQL, and lets you use SQL to manipulate your d
   :alt: pgAdmin III
   :align: center
 
+
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
