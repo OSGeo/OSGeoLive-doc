@@ -19,12 +19,12 @@
 GeoServer
 ================================================================================
 
-Web服务
+Web 服务
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoServer是一个Web服务器，支持将地图和各种格式的数据通过Web服务提供给标准客户端程序，如Web浏览器和桌面版GIS程序。这意味着空间数据可以任何 `格式 <http://docs.geoserver.org/stable/en/user/data/index.html>`_ 存储，而最终用户无需了解GIS数据细节。最简单的水准是，只需一个Web浏览器，最终用户即可查看开发者所定制的地图。
+　　GeoServer是一个Web服务器，支持将地图和各种格式的数据通过Web服务提供给标准客户端程序，如Web浏览器和桌面版GIS程序。这意味着空间数据可以任何 `格式 <http://docs.geoserver.org/stable/en/user/data/index.html>`_ 存储，而最终用户无需了解GIS数据细节。最简单的情形是，只需一个 Web 浏览器，最终用户即可查看开发者所定制的地图。
 
-GeoServer是 `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC)标准规范的参考实施平台，
+　　GeoServer是 `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC)标准规范的参考实施平台，
 :doc:`../standards/wfs_overview` 和 
 :doc:`../standards/wcs_overview` 标准, 
 还有高性能的、兼容性得到充分验证的 
@@ -58,18 +58,18 @@ GeoServer已成了Geospatial Web的一个核心组件。
      GIS客户端能够请求实际的栅格数据，用于空间分析。这就允许用户创建应用程序，对该数据处理建模。
 
 **动态投影变换:**
-     GeoServer支持大多数EPSG投影参数库，可以按照需求重投影到其中任何一种投影。给予客户端有限的重投影支持，将负载数据传输到服务器进行重投影。
+     GeoServer 支持大多数EPSG投影参数库，可以按照需求重投影到其中任何一种投影。给予客户端有限的重投影支持，将负载数据传输到服务器进行重投影。
 
 **WMS切片缓存**
-    `GeoWebCache <http://geowebcache.org/>`_ 是一个WMS切片客户端程序。它类似一个介于地图客户端和地图服务器之间的代理服务器，缓存着常被请求的切片库，消除了冗余的请求，节省了大量处理时间。GeoWebCache已经集成在了GeoServer中。
+    `GeoWebCache <http://geowebcache.org/>`_ 是一个 WMS 切片客户端程序。它类似一个介于地图客户端和地图服务器之间的代理服务器，缓存着常被请求的切片库，消除了冗余的请求，节省了大量处理时间。GeoWebCache 已经集成在了 GeoServer 中。
 
 已经实现的标准规范
 --------------------------------------------------------------------------------
 
-支持众多的Open Geospatial Consortium  (OGC)标准规范:
+支持众多的 Open Geospatial Consortium (OGC) 标准规范:
 
   * :doc:`../standards/wms_overview`
-  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
+  * :doc:`../standards/wfs_overview`, WFS-T（事务处理）
   * :doc:`../standards/wcs_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview` 
@@ -93,4 +93,4 @@ GeoServer已成了Geospatial Web的一个核心组件。
 快速入门
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`
+* :doc:`Quickstart Documentation <../quickstart/geoserver_quickstart>`

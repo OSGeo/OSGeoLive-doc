@@ -1,6 +1,6 @@
 ﻿:Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoNetwork.png
@@ -40,7 +40,7 @@ GeoNetwork
 * 适当粒度的访问控制
 * 用户分组和管理
 * 多语言用户界面
-* 随机选择与显示的特集地图
+* 随机选择与显示的展示地图
 
 已经实现的标准规范
 --------------------------------------------------------------------------------

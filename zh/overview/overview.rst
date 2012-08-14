@@ -84,8 +84,6 @@
 * :doc:`tinyows_overview` - [:doc:`快速入门 <../quickstart/tinyows_quickstart>`] — 基于事务的网页空间要素服务
 * :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
 
-.. 尚未进入 OSGeo-Live: * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`]
-
 数据
 --------------------------------------------------------------------------------
 * :doc:`naturalearth_overview` — 地学基础数据集
@@ -94,9 +92,13 @@
 
 空间数据处理基础库
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` — Java GIS 工具包
-* :doc:`metacrs_overview` — 坐标系统变换工具
-* :doc:`liblas_overview`  — LiDAR 数据访问
+.. toctree::
+   :maxdepth: 1
+
+   GeoTools - Java GIS 工具箱 <geotools_overview>
+   GEOS - C/C++ 空间数据处理函数库 <geos_overview> 
+   Meta CRS - 坐标与投影系统变换工具 <metacrs_overview>
+   LibLAS - LiDAR 激光测量数据处理 <liblas_overview>
 
 其它软件（尚未进入 Live 系统）
 --------------------------------------------------------------------------------
@@ -107,5 +109,6 @@
 
 Windows 和 Apple Mac 安装
 --------------------------------------------------------------------------------
-* `Microsoft Windows Installers <../../WindowsInstallers/>`_
-* `Apple OSX Installers <../../MacInstallers/>`_
+* `Microsoft Windows 安装包 <../../WindowsInstallers/>`_
+* `Apple OSX 安装包 <../../MacInstallers/>`_
+
