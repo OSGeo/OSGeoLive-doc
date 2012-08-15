@@ -89,7 +89,7 @@ Once the "Folder path" and "Folder name" are defined, click OK, and again OK to 
 
 Now bootup the VM by clicking the Start (green arrow) button.
 
-Once the OSGeo system comes up, you should add the VirtualBox "Guest Additions" to improve video performance, and enable the shared folders option that was defined above. The guest addition installations are supplied as an ISO file togther with VirtualBox application. This ISO is mounted within the VM as a CD, and the installation is run from there. Here's how it's done:
+Once the OSGeo system comes up, you have the option to add the VirtualBox "Guest Additions" to improve video performance, and enable the shared folders option that was defined above. The guest addition installations are supplied as an ISO file togther with the VirtualBox application from Oracle, and are not licensed as Free and Open Source Software. This ISO is mounted within the VM as a CD, and the installation is run from there. Here's how it's done:
 
 In the VirtualBox window, open the :menuselection:`Devices` menu and click :menuselection:`Install Guest Additions`. This will mount the Guest Additions as a CD drive in your OSGeo Live VM.
 
