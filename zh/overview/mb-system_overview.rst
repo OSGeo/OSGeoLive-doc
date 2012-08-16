@@ -55,7 +55,7 @@ MB-System
 
 **开源协议：** GNU General Public License (GPL) version 3
 
-**软件版本：** 5.3.1980
+**软件版本：** 5.3.1982
 
 **平台支持：** GNU/Linux, Mac OS X, MS Windows（需 Cygwin 支持）
 
