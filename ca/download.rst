@@ -19,18 +19,18 @@ Un DVD d'arrancada basat en Xubuntu, que també inclou instal·ladors per a Wind
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Descarrega l'arxiu iso sense instal·ladors per Windows ni per Mac
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso
+  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso/download
 
-`osgeo-live-mini-6.0.iso <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-6.0.iso <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso/download>`_ : |osgeolive-iso-mini-size|
 
 El mateix que osgeo-live-6.0.iso, però no conté instal·ladors per Windows ni per Mac i es pot copiar a un disc USB d'arrancada de 4 GB. Verifiqueu la descàrrega amb la corresponent suma de comprovació `(osgeo-live-mini-6.0.iso.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Descarrega la màquina virtual sense instal·ladors Windows ni Mac en un arxiu 7-zip
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z
+  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z/download
 
-`osgeo-live-vm-6.0.7z <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z>`_ : |osgeolive-vm-7z-size|
+`osgeo-live-vm-6.0.7z <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z/download>`_ : |osgeolive-vm-7z-size|
 
 Disc virtual comprimit (.vmdk) en `7-Zip <http://www.7-zip.org/>`_ indicat per ser usat en aplicacions de virtualització com VirtualBox, VMWare, KVM i altres. No conté instal·ladors per Windows ni per Mac. Verifiqueu la descàrrega amb la corresponent suma de comprovació `(osgeo-live-vm-6.0.7z.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z.md5/download>`_.
 

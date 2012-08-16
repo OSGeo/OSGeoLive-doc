@@ -19,9 +19,9 @@ Xubuntu ベースの Mac および Windows へのインストーラを含んだ�
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Windows と Mac 用のインストーラーを含まない ISO イメージをダウンロード
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso
+  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso/download
 
-`osgeo-live-mini-6.0.iso <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-6.0.iso <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso/download>`_ : |osgeolive-iso-mini-size|
 
 Windows および Mac 用のインストーラーを含んでいない点のみ osgeo-live-6.0.iso と異なります。4 GB のブータブル USB ドライブとしても使用できます。ダウンロードしたファイルの md5 チェックサムをご確認ください。 `(osgeo-live-mini-6.0.iso.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso.md5/download>`_.
 
@@ -29,9 +29,9 @@ Windows および Mac 用のインストーラーを含んでいない点のみ 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Windows と Mac へのインストーラーを含まない仮想マシン向け 7-zip
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z
+  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z/download
 
-`osgeo-live-vm-6.0.7z <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z>`_ : |osgeolive-vm-7z-size|
+`osgeo-live-vm-6.0.7z <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z/download>`_ : |osgeolive-vm-7z-size|
 
 あらかじめ `7-Zip <http://www.7-zip.org/>`_ で圧縮したVirtualBox、VMWare、KVM などの仮想マシン用の仮想ディスク(.vmdk)です。Windows、 Mac 用のインストーラーは含みません。ダウンロードしたファイルの md5 チェックサムをご確認ください。 `(osgeo-live-vm-6.0.7z.md5) <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-vm-6.0.7z.md5/download>`_.
 

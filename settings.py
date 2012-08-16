@@ -3,9 +3,9 @@
 # for osgeo-live-X.X.iso
 iso_size = 4.4
 # for osgeo-live-mini-X.X.iso
-iso_mini_size = 4.4
+iso_mini_size = 3.2
 # for osgeo-vm-X.X.7z
-vm_7z_size = 3.0
+vm_7z_size = 2.8
 
 # required hard disk space
 req_hd_size = 10
