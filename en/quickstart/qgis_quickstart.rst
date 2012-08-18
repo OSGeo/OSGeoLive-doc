@@ -119,13 +119,15 @@ You also have access to many of the powerful GRASS analysis modules.
 
    * A long list of analysis tools will appear.
 
-#. Type ``nviz`` into the Filter box then select `NVIZ`. (Using this module requires at least 2GB of RAM memory in your computer).
+#. Type ``nviz`` into the Modules List's Filter box then select `NVIZ`. You may need to drag the corner of the toolbox window to make it a bit larger.
 
-#. In the new module tab that pops open, select the `elevation` map as the map for elevation, and `roadsmajor` for the vector overlay, then click :guilabel:`Run`.
+#. In the new module tab that pops open, select the `elevation` map as the map for elevation. Then depress the rectangle with red corners button on the right of the map name to use the region bounds and resolution of that map. The computational region is a core theme in GRASS raster processing.
 
-#. Once the NVIZ 3D view opens, maximize the window, set z-exag to 10.0, perspective to 15.0, height to 3500, and drag the positioning puck in the compass box on the left to a nice view.
+#. Select `roadsmajor` for the vector overlay, then click :guilabel:`Run`.
 
-#. Choose :menuselection:`Visualize --> Raster surfaces` and set the `fine` resolution to 1.
+#. Once the NVIZ 3D view opens, maximize the window drag the positioning puck in the compass box on the left to a nice view.
+
+#. Choose :menuselection:`Visualize --> Raster surfaces` and set the `fine` resolution to 1, then click the green :guilabel:`DRAW` button in the top left and wait while it renders.
 
 
 Using the Sextante Toolbox
