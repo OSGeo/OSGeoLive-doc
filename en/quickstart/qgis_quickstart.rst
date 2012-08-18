@@ -119,7 +119,7 @@ You also have access to many of the powerful GRASS analysis modules.
 
    * A long list of analysis tools will appear.
 
-#. Type ``nviz`` into the Filter box then select `NVIZ`.
+#. Type ``nviz`` into the Filter box then select `NVIZ`. (Using this module requires at least 2GB of RAM memory in your computer).
 
 #. In the new module tab that pops open, select the `elevation` map as the map for elevation, and `roadsmajor` for the vector overlay, then click :guilabel:`Run`.
 
