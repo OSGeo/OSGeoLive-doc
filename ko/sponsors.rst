@@ -1,44 +1,44 @@
-OSGeo-Live ÈÄ¿ø»ç
+OSGeo-Live í›„ì›ì‚¬
 ================================================================================
 
 .. image:: ../images/logos/OSGeo_compass_with_text_square.png
   :alt: OSGeo
   :target: http://www.osgeo.org
 
-OSGeo (Open Source Geospatial Foundation)´Â ÁÖ¿ä °³¹ß ¹× È£½ºÆÃ ÀÎÇÁ¶ó½ºÆ®·°ÃÄ¿Í ÇÁ·ÎÁ§Æ®, ¼ÒÇÁÆ®¿ş¾î¿¡ ±â¿©ÇÒ ¼ö ÀÖ´Â ÀÎ·ÂÀ» Á¦°øÇÕ´Ï´Ù. 
+OSGeo (Open Source Geospatial Foundation)ëŠ” ì£¼ìš” ê°œë°œ ë° í˜¸ìŠ¤íŒ… ì¸í”„ë¼ìŠ¤íŠ¸ëŸ­ì³ì™€ í”„ë¡œì íŠ¸, ì†Œí”„íŠ¸ì›¨ì–´ì— ê¸°ì—¬í•  ìˆ˜ ìˆëŠ” ì¸ë ¥ì„ ì œê³µí•©ë‹ˆë‹¤. 
 
 .. image:: ../images/logos/lisasoftlogo.jpg
   :alt: LISAsoft
   :target: http://lisasoft.com
 
-LISAsoft´Â OSGeo-Live DVDÀÇ ¼ÒÇÁÆ®¿ş¾î °ü¸®¿Í Æ÷ÀåÀ» À§ÇØ¼­ Áö¼ÓÀûÀ¸·Î ÀÚ¿ø ¹× ÀÎ·ÂÀ» Á¦°øÇÕ´Ï´Ù. 
+LISAsoftëŠ” OSGeo-Live DVDì˜ ì†Œí”„íŠ¸ì›¨ì–´ ê´€ë¦¬ì™€ í¬ì¥ì„ ìœ„í•´ì„œ ì§€ì†ì ìœ¼ë¡œ ìì› ë° ì¸ë ¥ì„ ì œê³µí•©ë‹ˆë‹¤. 
 
 .. image:: ../images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
   :target: http://ice.ucdavis.edu
 
-University of California, DavisÀÇ Information Center for the Environment¿¡¼­´Â OSGeo-Live projectÀÇ ÇÏµå¿ş¾î ÀÚ¿ø Á¦°ø ¹× °³¹ß Áö¿øÀ» ÇÏ°í ÀÖ½À´Ï´Ù. 
+University of California, Davisì˜ Information Center for the Environmentì—ì„œëŠ” OSGeo-Live projectì˜ í•˜ë“œì›¨ì–´ ìì› ì œê³µ ë° ê°œë°œ ì§€ì›ì„ í•˜ê³  ìˆìŠµë‹ˆë‹¤. 
 
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
   :target: http://wiki.debian.org/DebianGis
 
-DebianGIS¿Í UbuntuGIS´Â ´Ù¾çÇÑ ÁÖ¿ä ÆĞÅ°Áö¸¦ Á¦°øÇÏ°í Ç°Áú º¸ÁõÀ» ÇÏ°í ÀÖ½À´Ï´Ù. 
+DebianGISì™€ UbuntuGISëŠ” ë‹¤ì–‘í•œ ì£¼ìš” íŒ¨í‚¤ì§€ë¥¼ ì œê³µí•˜ê³  í’ˆì§ˆ ë³´ì¦ì„ í•˜ê³  ìˆìŠµë‹ˆë‹¤. 
 
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
   :target: http://www.osdm.gov.au
 
-È£ÁÖ Á¤ºÎÀÇ °ø°£ µ¥ÀÌÅÍ °ü¸®ºÎ (Office of Spatial Data Management)´Â Áö¼ÓÀûÀ¸·Î °íÇ°ÁúÀÇ ÇÁ·ÎÁ§Æ® Æò°¡¸¦ À§ÇØ¼­ LISAsoftÀÇ ÇÁ·Î±×·¥ °³¿ä ¸®ºä¸¦ ÈÄ¿øÇÏ°í ÀÖ½À´Ï´Ù. 
+í˜¸ì£¼ ì •ë¶€ì˜ ê³µê°„ ë°ì´í„° ê´€ë¦¬ë¶€ (Office of Spatial Data Management)ëŠ” ì§€ì†ì ìœ¼ë¡œ ê³ í’ˆì§ˆì˜ í”„ë¡œì íŠ¸ í‰ê°€ë¥¼ ìœ„í•´ì„œ LISAsoftì˜ í”„ë¡œê·¸ë¨ ê°œìš” ë¦¬ë·°ë¥¼ í›„ì›í•˜ê³  ìˆìŠµë‹ˆë‹¤. 
 
 .. include :: sponsors_osgeo.rst
 
-Âü¿©ÀÚ
+ì°¸ì—¬ì
 ================================================================================
 .. include :: ../contributors.rst
 
-¹ø¿ª°¡
+ë²ˆì—­ê°€
 ================================================================================
 .. include :: ../translators.rst
 
