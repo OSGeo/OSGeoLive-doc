@@ -51,7 +51,7 @@ Open a terminal, then
 
 `[whiz .. bang .. whirl]`
 
-View results: (type :kbd:`q` to quit :command:`gv` [#gv]_)
+View results: (within :command:`gv` [#gv]_, type :kbd:`q` to quit)
 
 ::
 
