@@ -125,7 +125,7 @@ You also have access to many of the powerful GRASS analysis modules.
 
 #. Select `roadsmajor` for the vector overlay, then click :guilabel:`Run`.
 
-#. Once the NVIZ 3D view opens, maximize the window drag the positioning puck in the compass box on the left to a nice view.
+#. Once the NVIZ 3D view opens, maximize the window and drag the positioning puck in the compass box on the left to a nice view.
 
 #. Choose :menuselection:`Visualize --> Raster surfaces` and set the `fine` resolution to 1, then click the green :guilabel:`DRAW` button in the top left and wait while it renders.
 
