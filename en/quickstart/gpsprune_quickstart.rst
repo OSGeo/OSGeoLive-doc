@@ -18,7 +18,8 @@ To run GpsPrune on the live DVD, select the icon "GpsPrune" in the Navigation an
 To work with data, you will then either load a recorded track from a file, load data from
 a GPS receiver using *Gpsbabel*, get coordinates from Wikipedia, or enter your own coordinates
 by hand.  The easiest way to start is to load any gpx file, kml or kmz file using the menu command
-:menuselection:`File --> Open file` and selecting the file you wish to load.
+:menuselection:`File --> Open file` and selecting the file you wish to load. A suitable GPX file
+containing a couple of tracks can be found on the disc at :file:`~/data/vector/R/test_trk2.gpx`.
 
 Now you should see your track marked in blue, and waypoints (if any) marked with their names.
 If you have a network connection, it's recommended to activate the maps by clicking the globe
