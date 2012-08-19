@@ -12,7 +12,7 @@
   :target: http://edu.kde.org/marble/
 
 ********************************************************************************
-Inicio Rápido KDE-edu Marble 
+Guía de Inicio Rápido KDE-edu Marble 
 ********************************************************************************
 
 Primeros Pasos

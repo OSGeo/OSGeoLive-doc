@@ -7,7 +7,7 @@
   :alt: project logo
   :align: right 
 
-Inicio Rapido de Ushahidi
+Guía de inicio rápido de Ushahidi
 ================================================================================
 
 En esta guía se describe cómo:

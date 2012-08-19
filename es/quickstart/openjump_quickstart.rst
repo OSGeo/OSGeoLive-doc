@@ -7,7 +7,7 @@
 .. _OpenJUMP-Guía Rápida:
 
 ********************************************************************************
-OpenJUMP Guía Rápida 
+Guía de inicio rápido de OpenJUMP 
 ********************************************************************************
 
 OpenJUMP es SIG de escritorio que permite fácilmente editar y visualizar datos SIG vectoriales. También se pueden ver algunos datos raster.

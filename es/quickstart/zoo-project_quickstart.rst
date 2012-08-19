@@ -8,7 +8,7 @@
   :align: right
 
 ********************************************************************************
-Guía rápida de inicio de ZOO Project
+Guía de inicio rápido de ZOO Project
 ********************************************************************************
 
 Ejecutar la aplicación
