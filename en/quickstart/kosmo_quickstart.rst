@@ -168,7 +168,7 @@ OGC services
 
 #. Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeo-Live DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start GeoServer icon)
 
-#. Press the *Load SDI Service* button at the main toolbar to open the wizard
+#. Press the *Load SDI Service* (IDE) button at the main toolbar to open the wizard
 
 #. In the *Select SDI service type* panel, select the option *WMS Service* (**1**) and press the *Next* button (**2**)
 
