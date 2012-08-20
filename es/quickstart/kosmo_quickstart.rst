@@ -287,7 +287,7 @@ En esta sección vamos a asignar un estilo por rango a una capa con la població
 
 #. Active las opciones *Habilitar la clasificación por color* y *Por rango* (**1**)
 
-#. Seleccione `POP_CNTRY` como *Atributo* (**2**), 8 como *Numero de rangos* (**3**) y RYB (Color Brewer) como *Esquema de color* (**4**)
+#. Seleccione `POP_EST` como *Atributo* (**2**), 8 como *Numero de rangos* (**3**) y RYB (Color Brewer) como *Esquema de color* (**4**)
 
 #. Pulse el botón *Aceptar* para aplicar los cambios (**5**)
 

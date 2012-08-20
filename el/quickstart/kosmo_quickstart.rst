@@ -284,7 +284,7 @@
 
 #. Ενεργοποιήστε την επιλογή *Enable colour theming* και *by range* (**1**)
 
-#. Επιλέξτε το `POP_CNTRY` σαν *Attribute* (**2**), το 8 σαν *Range count* (**3**) και το RYG (Color Brewer) σαν *Color schema* (**4**)
+#. Επιλέξτε το `POP_EST` σαν *Attribute* (**2**), το 8 σαν *Range count* (**3**) και το RYG (Color Brewer) σαν *Color schema* (**4**)
 
 #. Πατήστε το κουμπί *Ok* για να εφαρμόσετε τις αλλαγές (**5**)
 

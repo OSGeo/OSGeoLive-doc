@@ -285,7 +285,7 @@ In this section we're going to style a layer by range using the country populati
 
 #. Activate the options *Enable colour theming* and *by range* (**1**)
 
-#. Select `POP_CNTRY` as *Attribute* (**2**), 8 as *Range count* (**3**) and RYG (Color Brewer) as *Color schema* (**4**)
+#. Select `POP_EST` as *Attribute* (**2**), 8 as *Range count* (**3**) and RYG (Color Brewer) as *Color schema* (**4**)
 
 #. Press the *Ok* button to apply the changes (**5**)
 
