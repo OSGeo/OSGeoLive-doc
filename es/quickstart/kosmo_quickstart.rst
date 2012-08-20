@@ -45,11 +45,11 @@ Para iniciar la aplicación, siga los siguientes pasos:
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_srs.png
 
-#. Seleccione la opción *EPSG* en la lista desplegable con los tipos de SRS (**1**), inserte el texto '4236' en el campo de texto y presione el botón *Buscar* (**2**)
+#. Seleccione la opción *EPSG* en la lista desplegable con los tipos de SRS (**1**), inserte el texto '4326' en el campo de texto y presione el botón *Buscar* (**2**)
 
 #. Seleccione el SRS EPSG:4326 - WSG4 (**3**) y presione el botón *Aceptar* (**4**)
 
-   .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4236.png
+   .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4326.png
 
 #. Pulse el botón *Aceptar* otra vez para seleccionar el SRS cargado. La vista se iniciará con EPSG:4326 como la proyección base
 
