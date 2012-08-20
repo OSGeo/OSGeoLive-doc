@@ -88,7 +88,7 @@ window and use the built-in or downloaded static map tiles.
 
 Finding amenities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-With the *Find* tool you can search out for the nearest points of interest
+With the *Find POI* tool you can search out for the nearest points of interest
 loaded into your SQLite waypoint database. To get you started OpenStreetMap
 data for the city of Nottingham has been loaded. e.g. *Find all pubs within 2 km
 of the conference hall*.
