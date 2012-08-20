@@ -99,7 +99,7 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_shape_file.png
 
-#. In the layer tree, press the visibility checkbox to make the layer visible
+#. In the layer tree, press the visibility checkbox to make the layer visible. You may need to right-click on the "Working" folder
 
 #. Choose again the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
 
