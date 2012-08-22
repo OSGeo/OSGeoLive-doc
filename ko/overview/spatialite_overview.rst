@@ -13,14 +13,14 @@
 SpatiaLite
 ================================================================================
 
-Spatial Database
+공간적 데이터베이스
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SpatiaLite is an SQLite_ database engine with spatial functions added. 
+SpatiaLite는 공간적 기능이 추가된 SQLite_ 데이터 베이스 엔진입니다. 
 
-SQLite is a popular DBMS, simple, robust, easy to use and really lightweight. Each SQLite database is simply a file; you can freely copy it, compress it, send it on a LAN or WEB with no complication at all.
+SQLite는 대중적인 DBMS로서, 간단하고 사용하기 쉬우며 저용량입니다. 각 SQLite 데이터 베이스는 파일입니다. 즉, 자유롭게 복사, 압축이 가능하고 문제없이 LAN이나 WEB으로 전송이 가능합니다.
 
-The files are also portable; the same database file will work on Windows, Linux, MacOs etc.
+또한 파일들은 이동이 가능하며, 같은 데이터 베이스 파일은 Windows, Linux, MacOs 등에서 작동 가능합니다.
 
 .. _SQLite: http://www.sqlite.org/
 
@@ -29,29 +29,29 @@ The files are also portable; the same database file will work on Windows, Linux,
   :alt: screenshot
   :align: right
 
-Core Features
+주요 사항
 --------------------------------------------------------------------------------
 
-The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
+SpatiaLite 익스텐션은 SQLite가 OGC에 적합한 공간적 데이터를 지원할 수 있도록 합니다.
 
-* Supports standard WKT and WKB formats
-* Implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
-* The complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
-* Supports full Spatial metadata along the OpenGis specifications
-* Supports alternative Geometry notations - EWKT, GML, KML, and GeoJSON
-* Supports importing and exporting to shapefiles
-* Supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
-* Supports locale charsets via GNU libiconv
-* Implements a true Spatial Index based on the SQLite's RTree extension
-* The VirtualShape extension enables SQLite to access shapefiles as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external shapefiles, with no need for importing or converting them
-* The VirtualText extension enables SQLite to access CSV/TxtTab files as VIRTUAL TABLEs 
-* The VirtualXL extension enables SQLite to access xls spreadsheet tables as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external CSV/TxtTab files or Excel tables, with no need for importing or converting them
-* The GUI tool supports all this, in an user friendly way
+* 표준 WKT와 WKB 형식 지원
+* AsText(), GeomFromText(), Area(), PointN() 등의 SQL 공간적 기능 실행
+* GEOS를 통해 완전한 OpenGis 기능을 지원하고, Overlaps(), Touches(), Union(), Buffer()와 같은 정교한 공간적 분석 기능을 가능하게 함
+* OpenGis 사양에 따른 완전한 공간적 메타데이터 지원
+* 대체적인 기하적 표기 지원 - EWKT, GML, KML, GeoJSON 등
+* 셰이프 파일의 불러오기와 내보내기 지원
+* PROJ.4와 EPSG 측지 변수 데이터셋을 통한 좌표 재투영 지원
+* GNU libiconv를 통한 지역 charsets 지원
+* SQLite의 RTree 익스텐션에 기반하여 실제 공간 지표 시행
+* VirtualShape 익스텐션은 SQLite가 VIRTUAL TABLEs로서 셰이프 파일에 접근할 수 있도록 함
+* 외부 셰이프 파일을 불러오거나 변환할 필요 없이 표준 SQL 질의를 할 수 있음
+* VirtualText 익스텐션은 SQLite가 VIRTUAL TABLEs로서 CSV/TxtTab 파일에 접근할 수 있도록 함  
+* VirtualText 익스텐션은 SQLite가 VIRTUAL TABLEs로서 xls 스프레드시트 테이블에 접근할 수 있도록 함 
+* 외부 CSV/TxtTab 파일이나 Excel 테이블을 불러오거나 변환할 필요 없이 표준 SQL 질의를 할 수 있음
+* GUI 툴은 쉬운 방식으로 위 모든 것을 지원함
 
 
-Details
+자세한 사항
 --------------------------------------------------------------------------------
 
 **Website:** http://www.gaia-gis.it/gaia-sins/
