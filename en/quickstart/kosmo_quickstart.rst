@@ -29,13 +29,14 @@ Start Kosmo Desktop
 
 In order to start the application, follow the next steps:
 
-#. From the start menu, select *Other > Kosmo* (or from the desktop, go into *Desktop GIS* folder and double-click the Kosmo icon)
+#. From the start menu, select :menuselection:`Geospatial --> Desktop GIS --> Kosmo`
 
 #. The application will take a few seconds to start (a splash screen is shown while loading)
 
    .. image:: ../../images/screenshots/800x600/kosmo_splash_screen.png
+     :scale: 70 %
 
-#. In the Welcome dialog, select the option *Create a new project > With a new view* (**1**) and press the *Ok* button (**2**)
+#. In the Welcome dialog, select the option :menuselection:`Create a new project --> With a new view` (**1**) and press the *Ok* button (**2**)
 
    .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.png
 
@@ -62,6 +63,7 @@ Kosmo Desktop main window
 The Kosmo Desktop main window has the following sections:
 
   .. image:: ../../images/screenshots/1024x768/kosmo_main_window.jpg
+    :scale: 70 %
 
 * Main menus
 
@@ -99,7 +101,7 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_shape_file.png
 
-#. In the layer tree, press the visibility checkbox to make the layer visible. You may need to right-click on the "Working" folder
+#. In the layer tree, press the visibility checkbox to make the layer visible, right clicking on the *Working* folder if needed
 
 #. Choose again the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
 
@@ -161,6 +163,7 @@ We're going to load a database table as an example:
 #. In the layer tree, press the visibility checkbox to make the layer visible
 
    .. image:: ../../images/screenshots/1024x768/kosmo_load_database_example.jpg
+     :scale: 70 %
 
 
 OGC services
@@ -294,6 +297,7 @@ In this section we're going to style a layer by range using the country populati
 #. The layer will change its style to reflect the changes:
 
    .. image:: ../../images/screenshots/1024x768/kosmo_styled_layer_by_range.jpg
+     :scale: 70 %
 
 
 Things to Try
@@ -303,7 +307,7 @@ Things to Try
 
 * Use the `Query wizard` to select those features that accomplish a given criteria
 
-* Activate the layer edition mode and use the available tools to edit it
+* Activate the layer editing mode and use the available tools to edit it
 
 * Generate a set of topology rules for a layer and try to edit it
 
@@ -313,4 +317,4 @@ Things to Try
 What Next?
 ================================================================================
 
-There is a set of manuals and videotutorials available at http://www.opengis.es/index.php?lang=en
+There is a set of manuals and video-tutorials available at http://www.opengis.es/index.php?lang=en
