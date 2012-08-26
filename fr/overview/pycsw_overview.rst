@@ -16,13 +16,13 @@ pycsw
 Catalogue de métadonnées
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pycsw permet aux utilisateurs de publier un catalogue de descriptions de jeux de données (métadonnées) sur le web, en utilisant des interfaces et des formats basés sur des standards, de manière à ce qu'il soit interrogé et mis à jour par des clients de cataloguage. Pycsw est simple à configurer dans un serveur web Apache et peut accéder à des enregistrements de métadonnées stockés comme des fichiers XML dans une base de données.
+pycsw permet aux utilisateurs de publier un catalogue de descriptions de jeux de données (métadonnées) sur le web, en utilisant des interfaces et des formats basés sur des standards, de manière à ce qu'il soit interrogé et mis à jour par des clients de cataloguage. pycsw est simple à configurer dans un serveur web Apache et peut accéder à des enregistrements de métadonnées stockés comme des fichiers XML dans une base de données.
 
 La métadonnée est la 'donnée sur la donnée', stockant des choses comme la date de création, l'auteur, le titre, la zone d'intérêt, etc, et est habituellement encodée dans des fichiers XML, en suivant les standards internationaux tels que ISO 19115, ISO 19139 et FGDC CSDGM.
 
-Pycsw est une implémentation en `Python`_  du :doc:` standard OGC Catalogue Services for the Web (CSW) <../standards/csw_overview>`. Le standard CSW définit les interfaces communes pour découvrir, naviguer et interroger des métadonnées à propos des données spatiales, des services web et des ressources associées.
+pycsw est une implémentation en `Python`_  du :doc:` standard OGC Catalogue Services for the Web (CSW) <../standards/csw_overview>`. Le standard CSW définit les interfaces communes pour découvrir, naviguer et interroger des métadonnées à propos des données spatiales, des services web et des ressources associées.
 
-Pycsw est Open Source, mis à disposition sous licence MIT, et fonctionne sur toutes les plates-formes majeurs (Windows, Linux, Mac OS X).
+pycsw est Open Source, mis à disposition sous licence MIT, et fonctionne sur toutes les plates-formes majeurs (Windows, Linux, Mac OS X).
 
 .. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %

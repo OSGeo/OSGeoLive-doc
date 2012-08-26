@@ -16,7 +16,7 @@ pycsw
 Catàleg de metadades
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ycsw permet als usuaris publicar a la web un catàleg de descripcions de conjunts de dades (metadades), emprant interfícies i formats basats en estàndards, de manera que es pugui consultar i actualitzar per part d'els clients del catàleg. pycsw és fàcil de configurar en un servidor web Apache i pot accedir als registres de metadades emmagatzemats com arxius XML en una base de dades.
+pycsw permet als usuaris publicar a la web un catàleg de descripcions de conjunts de dades (metadades), emprant interfícies i formats basats en estàndards, de manera que es pugui consultar i actualitzar per part d'els clients del catàleg. pycsw és fàcil de configurar en un servidor web Apache i pot accedir als registres de metadades emmagatzemats com arxius XML en una base de dades.
 
 Les metadades són "dades sobre les dades", i emmagatzemen coses com ara la data de creació, autor, títol, àrea d'interès, etc, i normalment es codifiquen com a fitxers XML, seguint els estàndards internacionals com ISO 19115, ISO 19139 i FGDC CSDGM.
 
