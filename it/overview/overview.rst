@@ -73,7 +73,6 @@ Web Services
 * :doc:`geoserver_overview` - [:doc:`Guida rapida <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Guida rapida <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`]
-* :doc:`eoxserver_overview` - [:doc:`Guida rapida <../quickstart/eoxserver_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Guida rapida <../quickstart/geonetwork_quickstart>`] - Catalogo per i Metadati
 * :doc:`pycsw_overview` - [:doc:`Guida rapida <../quickstart/pycsw_quickstart>`] - Catalogo per i Metadati
 * :doc:`mapproxy_overview` - [:doc:`Guida rapida <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
