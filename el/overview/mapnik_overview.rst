@@ -1,6 +1,6 @@
 :Author: Dane Springmeyer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -44,7 +44,7 @@ Mapnik
 
 **Άδεια:** LGPL (GNU Lesser General Public Licence)
 
-**Έκδοση Λογισμικού:** 0.7.1
+**Έκδοση Λογισμικού:** 2.0.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

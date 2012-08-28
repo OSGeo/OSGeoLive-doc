@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -42,10 +42,10 @@ OpenStreetMap
 Σειρές δεδομένων included in OSGeo-Live
 --------------------------------------------------------------------------------
 
-Denver.osm.bz2:
+Nottingham.osm.bz2:
  Ένα μεγάλο τμήμα δεδομένων της πόλης του Ντένβερ σε μορφή συμπιεσμένου αρχείου BZip2 που περιλαμβάνει δεδομένα XML.
 
-Denver_CBD.osm.bz2:
+Nottingham_CBD.osm.bz2:
  Ένα μικρότερο τμήμα δεδομένων που καλύπτει την κεντρική πόλη του Ντένβερ, και το εμπορικό τμήμα της πόλης.
 
 Λεπτομέρειες
@@ -53,7 +53,7 @@ Denver_CBD.osm.bz2:
 
 **Κεντρική Ιστοσελίδα:** http://www.osm.org
 
-**Άδεια:** Creative Commons CC-By-SA
+**Άδεια:** CC-By-SA, Open Data Commons Open Database License (ODbL)
 
 **Έκδοση δεδομένων:** Live database
 

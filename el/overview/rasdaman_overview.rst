@@ -1,8 +1,9 @@
 :Author: Peter Baumann
-:Author: Michael Owonibi
+:Author: Jinsongdi Yu
 :Author: Dimitar Misev
+:Author: Michael Owonibi
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -12,6 +13,11 @@
   :align: right
   :target: http://rasdaman.org
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 Rasdaman
@@ -56,7 +62,7 @@ Rasdaman
 * Εφαρμογές πελάτες και petascope: GNU Lesser General Public License (LGPL) έκδοση 3
 * Μηχανή Εξυπηρετητή Rasdaman: GNU General Public License (GPL) έκδοση 3
 
-**Έκδοση Λογισμικού:** 8.3
+**Έκδοση Λογισμικού:** 8.3.1
 
 **Υποστηριζόμενες Πλατφόρμες:** Linux, Mac, Solaris
 

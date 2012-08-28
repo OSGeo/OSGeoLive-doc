@@ -48,7 +48,7 @@ Google Earth. Εκτός από τη δυνατότητα επισκόπησης
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Έκδοση Λογισμικού:** 1.0.2
+**Έκδοση Λογισμικού:** 1.3.4
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 

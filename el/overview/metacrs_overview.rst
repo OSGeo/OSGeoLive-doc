@@ -80,9 +80,9 @@ Proj4js
 
   **Αρχική Ιστοσελίδα:**  http://proj4js.org
   
-  **Άδεια:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
+  **Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Έκδοση Λογισμικού:** 1.0.1
+  **Έκδοση Λογισμικού:** 1.1.0
   
   **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
   
@@ -93,7 +93,7 @@ Proj4js
 CS-Map
 --------------------------------------------------------------------------------
 
-  **Αρχική Ιστοσελίδα:**  http://proj4js.org
+  **Αρχική Ιστοσελίδα:**  http://trac.osgeo.org/csmap/
   
   **Άδεια:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
   
@@ -112,7 +112,7 @@ GeoTIFF/libgeotiff
   
   **Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Έκδοση Λογισμικού:** 1.3.0
+  **Έκδοση Λογισμικού:** 1.4.0
   
   **Υποστήριξη:** http://lists.maptools.org/mailman/listinfo/geotiff
   

@@ -1,6 +1,6 @@
 :Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -58,11 +58,11 @@ SpatiaLite
 
 **Άδεια:** MPL v1.1 και GPL v3
 
-**Έκδοση Λογισμικού:** spatialite 3.0.0 / librasterlite 1.0 / spatialite-gui 1.3.0 / spatialite-gis 1.0.0
+**Έκδοση Λογισμικού:** spatialite 3.1.0a / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 
-**Προγραμματιστική διεπαφή (API):** C++
+**Προγραμματιστική διεπαφή (API):** C
 
 
 Γρήγορη εκκίνηση

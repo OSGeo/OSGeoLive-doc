@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -47,13 +47,13 @@ OpenJUMP GIS
 
     * Συναρτήσεις περιγραφικών και χωρικών ερωτημάτων
     * Υπολογισμός μηκών, εμβαδών, κεντροειδούς, ζώνης επιροής...
-    * Εργαλεία τοπολογίας: line noder, polygonizer, planar graph,...
+    * Εργαλεία τοπολογίας: line noder, polygonizer, planar graph,cleaning στην έκδοση PLUS...
     * Εργαλεία μεταφοράς περιγραφικών χαρακτηριστικών (μεταφορά 1:1, ή n:1)
     * Ανάλυση εικονιστικών δεδομένων μέσω της σύνδεσης με SEXTANTE
 
 * Ανάπτυξη
 
-    * Πολυγλωσσική υποστήριξη (cz, de, en, ed, fi, fr, hu, it, ja, pt, ta, zh)
+    * Πολυγλωσσική υποστήριξη (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
     * Παρέχει προγραμματιστική διεπαφή, δυνατότητα scripting μέσω BeanShell και Java Python
     * Σύστημα προσθέτων Java
    
@@ -63,7 +63,7 @@ OpenJUMP GIS
 
 .. Συμβουλή: Δημιουργία λίστας σχετικά με τα υποστηριζόμενα πρότυπα.
 
-* Υποστήριξη προτύπων OGC: GML 2, SFS, WMS και SLD
+* Υποστήριξη προτύπων OGC: GML 2, SFS, WMS και SLD, (WFS για το deegree)
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -72,7 +72,7 @@ OpenJUMP GIS
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.5.1
+**Έκδοση Λογισμικού:** 1.5.2 (Βασική έκδοση)
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 

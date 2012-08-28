@@ -1,5 +1,5 @@
 :Author: OSGeo Live
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -94,7 +94,7 @@ Quantum GIS (QGIS)
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.7.4
+**Έκδοση Λογισμικού:** 1.8.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 

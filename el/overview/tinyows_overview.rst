@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -8,7 +8,14 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.tinyows.org/
+  :target: http://mapserver.org/trunk/tinyows/
+
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 TinyOWS
 ================================================================================
@@ -44,17 +51,17 @@ Web Feature Service
 Details
 --------------------------------------------------------------------------------
 
-**Αρχική Ιστοσελίδα:** http://www.tinyows.org/
+**Αρχική Ιστοσελίδα:** http://mapserver.org/trunk/tinyows/
 
 **Άδεια:** MIT
 
-**Έκδοση Λογισμικού:** 1.0
+**Έκδοση Λογισμικού:** 1.0.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Unix, Mac, Windows
 
 **Προγραμματιστικές διεπαφές:** CGI/FastCGI
 
-**Υποστήριξη:** http://lists.maptools.org/pipermail/tinyows-users/
+**Υποστήριξη:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
 Γρήγορη εκκίνηση

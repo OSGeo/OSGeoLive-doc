@@ -47,7 +47,7 @@ GpsDrive
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.11
+**Έκδοση Λογισμικού:** 2.12svn
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX
 

@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -56,7 +56,7 @@ QGIS Server
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.7.4
+**Έκδοση Λογισμικού:** 1.8.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 

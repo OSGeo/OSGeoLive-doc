@@ -11,11 +11,12 @@
   :align: right
   :target: http://postgis.refractions.net/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: Λογισμικό του OSGeo
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
+
 
 PostGIS
 ================================================================================
