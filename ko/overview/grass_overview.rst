@@ -22,44 +22,32 @@ GRASS GIS
 Fully featured GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Geographic Resources Analysis Support System, commonly referred to as
-GRASS, is a Geographic Information System (GIS) providing powerful raster,
-vector, and geospatial processing engines in a single integrated software
-suite. GRASS includes tools for spatial modeling, visualization of raster
-and vector data, management and analysis of geospatial data, and the
-processing of satellite and aerial imagery. It also provides the capability
-to produce sophisticated presentation graphics and hardcopy maps. GRASS has
-now been translated into twenty languages and supports a huge array of data
-formats.
+Geographic Resources Analysis Support System (GRASS)는 하나의 통합된 소프트웨어로 강력한 래스터, 벡터, 지리공간 프로세싱 엔진을 제공하는 GIS 입니다.
+GRASS는 공간적 모델링, 래스터와 벡터 데이터 시각화, 지리공간 데이터의 관리와 분석, 위성 및 항공 사진의 처리를 위한 툴을 포함하고 있습니다. 
+또한 정교한 프리젠테이션 그래픽과 지도를 제작할 수도 있습니다. GRASS는 현재 20개의 언어로 번역되어 수많은 데이터 형식을 지원하고 있습니다. 
 
 .. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
 
-GRASS is used around the world in academic and commercial settings
-as well as by many governmental agencies and environmental consulting
-companies. It runs on a variety of popular hardware platforms and is Free
-open-source software released under the terms of the GNU General Public License.
+GRASS는 세계적으로 정부기관과 환경 컨설팅 기업은 물론 학업 및 상업적 용도로 이용되고 있습니다. GRASS는 다양한 하드웨어 플랫폼에서 작동되며
+GNU General Public License 조항에 따라 배포된 무료의 오픈 소스 소프트웨어입니다.
 
-The GRASS software includes more than 400 built-in analysis modules.
-Additionally, over 100 community supplied modules and toolboxes are
-available for free from the community wiki site. After nearly 30 years of
-continuous development GRASS is both the oldest and largest Open Source GIS
-available. It is easily scriptable and versatile enough to be used both for
-batch data processing on massively-parallel supercomputers as well as a handy
-desktop GIS for handheld PDAs or netbooks.
+GRASS 소프트웨어는 400개 이상의 분석 모듈을 포함하고 있습니다. 또한 community wiki 사이트에서 100개 이상의 커뮤니티가 제공하는 모듈과 툴박스를 이용할 수 있습니다.
+30년 이상의 지속적인 개발으로 가장 오래되고 규모가 큰 오픈 소스 GIS로 발전되었습니다. 쉽게 스크립트를 작성할 수 있고 다방면으로 이용가능하기 때문에 PDA나 노트북과
+같은 데스크탑 GIS 뿐만 아니라 수퍼 컴퓨터로 작동되는 배치 데이터에도 이용가능합니다.  
 
 
 .. _GRASS: http://grass.osgeo.org
 
-Core Features
+주요 사항
 --------------------------------------------------------------------------------
 
-* You name it, there's a tool for it.
-* Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
+* 검색을 해보면 툴을 찾을 수 있습니다.You name it, there's a tool for it.
+* `screenshot collection <http://grass.osgeo.org/screenshots/>`_ 을 참고하십시오.
 
-Details
+자세한 사항
 --------------------------------------------------------------------------------
 
 **Website:** http://grass.osgeo.org
