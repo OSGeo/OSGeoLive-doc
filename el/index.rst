@@ -21,7 +21,7 @@
 #. Τοποθετήστε τον οπτικό δίσκο ή το κλειδί USB  στον υπολογιστή ή εκκινήστε την εικονική μηχανή.
 #. Εκκινήστε τον υπολογιστή. (επιβεβαιώστε τη σειρά εκκίνησης των συσκευών του υπολογιστή σας εφόσον χρειάζεται)
 #. Πατήστε το πλήκτρο "Enter" για να εκκινήσετε και να συνδεθείτε.
-#. Οι δοκιμαστικές εφαρμογές υπάρχουν στο μενού "Geospatial".
+#. Επιλέξτε και εκτελέστε τις δοκιμαστικές εφαρμογές από το μενού "Geospatial".
 
 Πολλές εφαρμογές παρέχονται επίσης για άλλα λειτουργικά συστήματα όπως για `Apple OSX <../MacInstallers/>`_ και
 `Microsoft Windows <../WindowsInstallers/>`_.
@@ -36,7 +36,7 @@
    Ξεκινώντας με το το OSGeo-Live DVD <quickstart/osgeolive_quickstart>
    Αλλαγή γλώσσας και τύπου πληκτρολογίου <quickstart/internationalisation_quickstart>
    Εγκατάσταση του OSGeo-Live στον σκληρό σας δίσκο <quickstart/osgeolive_install_quickstart>
-   Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualbox_quickstart>
+   Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualization_quickstart>
    Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart>
 
 .. toctree::
