@@ -1,6 +1,8 @@
 ﻿:Author: Hamish Bowman
 :Reviewer: Cameron Shorter
 :Version: osgeo-live5.0
+:Translator: David Mateos
+:Translator: Jorge Arévalo
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _osm_dataset-overview:

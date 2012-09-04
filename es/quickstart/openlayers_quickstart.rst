@@ -1,5 +1,6 @@
 :Author: Chris Schmidt
 :Version: osgeo-live4.0
+:Translator: David Mateos
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _openlayers-quickstart-es:
