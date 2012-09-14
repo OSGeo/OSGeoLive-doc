@@ -64,12 +64,12 @@ Tomcat.
 * ... и другие
 
 
-Подробности
+Дополнительная информация
 --------------------------------------------------------------------------------
 
 **Веб-сайт:** http://52north.org/communities/security
 
-**Лицензия:** GNU General Public License (GPL) version 2
+**Лицензия:** `GPL версия 2 <http://www.gnu.org/licenses/gpl-2.0.html>`_
 
 **Версия ПО:** WSS 2.2.0
 

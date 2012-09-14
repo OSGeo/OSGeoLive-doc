@@ -1,5 +1,4 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst
-(d.nuest@52north.org)
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org)
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -17,13 +16,12 @@
 Веб-сервис
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Сервис сенсорного наблюдения (Sensor Observation Service (SOS))<../standards/sos_overview>` компании 52°North :doc:
- поддерживает чтение оперативных и архивных данных
-с локальных и удаленных сенсоров. Сенсором может выступать
-камера на спутнике или измеритель уровня воды в реке.
+`Сервис сенсорного наблюдения (Sensor Observation Service (SOS)) <../standards/sos_overview>` 
+компании 52°North :doc: поддерживает чтение оперативных и архивных данных
+с локальных и удаленных сенсоров. Сенсором может выступать камера на спутнике 
+или измеритель уровня воды в реке.
 
-.. image::
-../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
   :scale: 60 %
   :alt: снимок экрана тестового клиента 52°North SOS версии 1.0.0
   :align: right
@@ -33,9 +31,7 @@
 
 * Реализует стандарны SOS 1.0.0 и 2.0.0.
 
-* Клиентское приложение для браузера предоставляет тестовые XML-запросы для всех поддерживаемых
-операций.
-
+* Клиентское приложение для браузера предоставляет тестовые XML-запросы для всех поддерживаемых операций.
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -57,8 +53,7 @@ OGC SOS 1.0.0
 * GetObservationById для получения определенных отдельных наблюдений.
 * GetFeatureOfInterest для получения представлений целевого объекта наблюдений
 в формате GML.
-* GetFeatureOfInterestTime для определения временной доступности
-данных сенсора.
+* GetFeatureOfInterestTime для определения временной доступности данных сенсора.
 
 OGC SOS 2.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -68,8 +63,7 @@ OGC SOS 2.0.0
 (Observations & Measurements (O&M).
 * DescribeSensor для запроса метаданных о самом сенсоре в виде документа на языке 
 описания сенсорной модели (Sensor Model Language (SensorML).
-* GetFeatureOfInterest для получения представлений целевого объекта наблюдений
-в формате GML.
+* GetFeatureOfInterest для получения представлений целевого объекта наблюдений в формате GML.
 
 В рамках этих запросов также возможны следующие операции фильтрации:
 
@@ -84,7 +78,7 @@ OGC SOS 2.0.0
 * :doc:`Geography Markup Language (GML) <../standards/gml_overview>`
 * :doc:`Sensor Model Language (SensorML) <../standards/sensorml_overview>`
 
-Подробности
+Дополнительная информация
 --------------------------------------------------------------------------------
 
 **Веб-сайт:** http://52north.org/communities/sensorweb/sos

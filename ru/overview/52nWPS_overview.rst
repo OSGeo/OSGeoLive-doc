@@ -25,7 +25,7 @@ The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` д
   :alt: снимок экрана
   :align: right
 
-Базовые возможности
+Базовые функции
 --------------------------------------------------------------------------------
 
 Базовые ГИС-функции:
@@ -57,7 +57,7 @@ The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` д
 * OGC GML2 SimpleFeatures
 * OGC GML3 SimpleFeatures
 
-Подробности
+Дополнительная информация
 --------------------------------------------------------------------------------
 
 **Веб-сайт:** http://52north.org/wps

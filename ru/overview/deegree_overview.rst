@@ -113,7 +113,7 @@ ISOAP 1.0 and INSPIRE profile
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
 * OGC Sensor Observation Service (SOS) 1.0.0
 
-Подробности
+Дополнительная информация
 --------------------------------------------------------------------------------
 
 **Веб-сайт:** http://deegree.org
