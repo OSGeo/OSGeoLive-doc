@@ -42,7 +42,7 @@ Caratteristiche principali
   * Filtri sugli attributi e spaziali usando la specifica OGC Filter Encoding
   
 * Una API di accesso ai dati pulita che supporta accesso agli oggetti, supporto 
-transazionale e locking between threads
+  transazionale e locking between threads
   
   * Accesso ai dati GIS in differenti formati e database spaziali
   * Supporto ai sistemi di riferimento delle coordinate e alle trasformazioni

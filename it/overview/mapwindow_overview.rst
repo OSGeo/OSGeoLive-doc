@@ -26,8 +26,9 @@ MS-Access, così come tutti i programmi scritti in VB6, C++, C#, VB.NET, e Delph
 essendo MapWindow basato sui controlli ActiveX.
 
 .. note:: MapWindow richiede l'installazione su un sistema Microsoft Windows prima 
-di poterlo utilizzare. I file di installazione sono inclusi nella versione full ISO 
-di `OSGeo-Live <http://live.osgeo.org>`_ o posso essere scaricati da http://mapwindow4.codeplex.com/releases.
+	  di poterlo utilizzare. I file di installazione sono inclusi nella versione 
+	  full ISO di `OSGeo-Live <http://live.osgeo.org>`_ o posso essere scaricati 
+	  da http://mapwindow4.codeplex.com/releases.
    
 .. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
@@ -71,8 +72,8 @@ Caratteristiche principali
 * Architettura estendibile a plugin:
 
     * Architettura a plugin permette di aggiungere facilmente funzionalita aggiuntive a 
-    MapWindow. Plugin possono essere scritti in ogni linguaggio .NET (C#, VB.NET) usando
-    Visual Studio Pro o i liberi SharpDevelop o Visual Studio Express.  
+      MapWindow. Plugin possono essere scritti in ogni linguaggio .NET (C#, VB.NET) usando
+      Visual Studio Pro o i liberi SharpDevelop o Visual Studio Express.  
  
 * Controllo ActiveX:
 
