@@ -11,7 +11,7 @@
   :target: http://www.qgis.org
 
 ********************************************************************************
-Breve introduzione all'uso di QGIS 
+Guida rapida su QGIS 
 ********************************************************************************
 
 Quantum GIS (QGIS) è un client GIS Desktop user friendly ed open-source per la
@@ -168,7 +168,7 @@ Usare il plugin OpenStreetMap
 
 #. Selezionare il visualizzatore :guilabel:`Medium scale` e cliccare su :guilabel:`Ok`.
 
-Per proseguire
+E poi?
 ================================================================================
 
 Nella collezione `OSGeo-Live QGIS tutorials`_ sono disponibili tutorial sulle funzionalità più avanzate di QGIS.
