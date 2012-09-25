@@ -26,7 +26,7 @@ Il fonctionne avec les données d'OpenStreetMap et divers serveurs tuilés en li
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
+.. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: Capture d'écran
   :align: right

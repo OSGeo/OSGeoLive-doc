@@ -32,7 +32,7 @@ Para Empezar
 
 3) El cliente de prueba aparece. Puede utilizarse para hacer peticiones al servicio usando un sencillo formulario. Una lista permite la selección de una petición predefinida de una colección, seleccionadas éstas a partir de la versión del servicio elegida anteriormente.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: captura de pantalla del cliente de prueba de 52°North SOS, versión 1.0.0
   :align: center

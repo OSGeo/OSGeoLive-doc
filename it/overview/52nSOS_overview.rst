@@ -21,7 +21,7 @@ la lettura dei dati in tempo reale e archiviati catturati da sensori in-situ e r
 Un sensore può essere un camera su un satellite o un misuratore del livello dell'acqua
 in un fiume.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right

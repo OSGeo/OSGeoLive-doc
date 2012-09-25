@@ -32,7 +32,7 @@ Començant
 
 3) Apareix el client de proves. Es pot fer servir per enviar peticions al servei fent servir un senzill formulari. Una llista desplegable permet seleccionar d'un seguit de peticions pre-definides, que estan adaptades a la versió del servei seleccionada prèviament.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: captura de pantalla del client de proves de 52°North SOS versió 1.0.0
   :align: center

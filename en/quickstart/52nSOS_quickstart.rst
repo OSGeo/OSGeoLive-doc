@@ -31,7 +31,7 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
 
 3) The test client appears. It can be used to send requests to the service using a simple form. A drop-drown list allows you to select from a collection of predefined requests, which are adopted to the respective service version selected in the step before.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: center

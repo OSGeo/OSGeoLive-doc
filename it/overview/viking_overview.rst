@@ -27,7 +27,7 @@ Funziona con i dait di OpenStreetMap e vari servizi di tile online.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
+.. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

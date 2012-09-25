@@ -29,7 +29,7 @@ Trabaja con datos de OpenStreetMap y otros tile servers.
 Principales funcionalidades
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/viking-0.9.8-europe.jpg
+.. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right
