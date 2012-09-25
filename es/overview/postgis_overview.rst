@@ -75,12 +75,12 @@ La administración de la base de datos está disponible a través de pgAdmin y p
 .. Consejo para redactar:
    Incluye una imagen de la aplicación, generalmente una captura de pantalla 
    o un collage de capturas de pantalla.
-   Guarda la imagen en image/<application>_<name>.gif . Ej.: udig_main_page.gif
+   Guarda la imagen en image/<application>_<name>.png . Ej.: udig_main_page.png
    Las capturas de pantalla se deberían realizar a partir de una visualización de 1024x768.
    No debe aparecer el fondo de escritorio porque cambia con cada versión
    y se podrá datar.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: project logo
   :align: right

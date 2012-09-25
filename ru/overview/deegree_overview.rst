@@ -72,7 +72,7 @@ deegree запустит вашу ИПД, используя ваши собст
 * Web Coverage Service
 
   * Поддержка запросов HTTP GET и HTTP POST
-  * Источники данных: images (tif, png, jpeg, gif, bmp); GeoTIFF; ECW;
+  * Источники данных: images (tif, png, jpeg,.png, bmp); GeoTIFF; ECW;
   Oracle GeoRaster
   * Высокоскоростной доступ к большим покрытиям.
 

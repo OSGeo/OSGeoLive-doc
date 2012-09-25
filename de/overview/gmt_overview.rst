@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-GMT.gif
+.. image:: ../../images/project_logos/logo-GMT.png
   :scale: 100 %
   :alt: Projekt Logo
   :align: right

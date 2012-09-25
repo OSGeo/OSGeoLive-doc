@@ -61,11 +61,11 @@ USB ドライブをコンピューターに接続します。
 
 Universal USB Installer を http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ からダウンロードして実行してください。
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 ライセンスを読み、承認してください。
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 ステップ1: ディストリビューション: osgeo-live を使用するには xubuntu i386 を選択してください。OSGeo-Live 5.5 の場合は xubuntu 11.04 Desktop i386 を選択してください。
 
@@ -77,7 +77,7 @@ Universal USB Installer を http://www.pendrivelinux.com/universal-usb-installer
 
 :guilabel:`Create` をクリックしてください。
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
 20分ほどで OSGeo-Live の USB flash ドライブが作成されます。
 

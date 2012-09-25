@@ -6,7 +6,7 @@
 
 .. _gmt-overview-es:
 
-.. image:: ../../images/project_logos/logo-GMT.gif
+.. image:: ../../images/project_logos/logo-GMT.png
   :scale: 100 %
   :alt: project logo
   :align: right

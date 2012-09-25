@@ -212,7 +212,7 @@ You can control where in the world is the map using the navigation tools present
 
 1. |ZOOM| Zoom In/Out
 
-  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.gif
+  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.png
   
   * It's the tool selected by default when you start your session
   * Use the mouse left button to zoom in a fixed ammount at the clicked map point
@@ -221,50 +221,50 @@ You can control where in the world is the map using the navigation tools present
   
 2. |PAN| Pan
   
-  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.gif
+  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.png
 
   * Allows to move around the world without changing the scale
   * Press the mouse left button, move the mouse and release it in order to move the map to the desired location
       
 3. |ZOOM_PREV| Zoom Previous
 
-  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.gif
+  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.png
   
   * Allows to zoom to the previous viewing envelope from the zoom history (if available)
   
 4. |ZOOM_NEXT| Zoom Next
 
-  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.gif
+  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.png
   
   * Allows to zoom to the next viewing envelope from the zoom history (if available)
     
 5. |ZOOM_FULL_EXTENT| Zoom To Full Extent
 
-  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.gif
+  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.png
   
   * Allows to change the current map envelope to include all the visible layers
   
 6. |ZOOM_TO_LAYER| Zoom To Layer
 
-  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.gif
+  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.png
   
   * Allows to change the current map envelope to adjust to the selected layer
     
 7. |ZOOM_TO_SELECTED_ITEMS| Zoom To Selected Items
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.gif
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.png
   
   * Allows to change the current map envelope to adjust to the selected features
     
 8. |PAN_TO_CLICK| Pan To Click
 
-  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.gif
+  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.png
   
   * Centers the map in the clicked map point, without changing the current scale
   
 9. |COORDINATE_LOCALIZATION| Coordinate Localization
 
-  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.gif
+  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.png
   
   * Centers the map in the given X - Y coordinates
 

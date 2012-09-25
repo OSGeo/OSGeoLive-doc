@@ -83,11 +83,11 @@ que permeten visualitzar i manipular les dades PostGIS.
 .. Consell per a la redacció:
   Cal incloure una imatge de l'aplicació que acostuma a ser una captura de pantalla
   o un conjunt de captures de pantalla.
-  Guardeu la imatge en image/<application>_<name>.gif . Eg: udig_main_page.gif
+  Guardeu la imatge en image/<application>_<name>.png . Eg: udig_main_page.png
   Les captures de pantalla s'han de fer amb una resolució de pantalla de 1024x768.
   El fons d'escriptori no ha d'aparèixer degut a que pot canviar amb les versions.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

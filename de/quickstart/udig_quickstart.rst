@@ -188,7 +188,7 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 
 #. Das Zoomwerkzeug |ZOOM| ist nach dem Start standardmäßig aktiv
    
-   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
+   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.png
    
    * Verwenden Sie dieses Werkzeug innerhalb des Kartenfensters und spannen Sie mit Hilfe der Maus ein Rechteck auf. Die Aktion wird begonnen beim ersten Klick mit der linken Maustaste und beendet mit dem zweiten Klick mit der gleichen Maustaste. Zwischen den zwei Klicks können 	 Sie die Maus bewegen um das gewünschte Rechteck einzustellen. Mit gelber Farbe wird der potentiell neue Ausschnitt während der Mausbewegung mit dargestellt.
 	 
@@ -196,23 +196,23 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 
 #. Mit Hilfe des Verschiebewerkzeuges |PAN| können sie den Ausschnitt der Karte bewegen, ohne dabei den Maßstab anzupassen.
   
-     .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
+     .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.png
 
 #. Weitere Navigationswerkzeuge, die jederzeit genutzt werden können:
  
    * |SHOWALL| Zeige alles, kann verwendet werden, um einen Ausschnitt um alle in der Karte enthaltene Daten einzustellen.
    
-     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
+     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.png
 
    * Zoom In |ZOOM_IN| und Zoom Out |ZOOM_OUT| können jederzeit genutzt werden, um den Maßstab um einen fixen Anteil zu vergrößern bzw. zu verkleinern.
 
-     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
-     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
+     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.png
 
    * Sie können mit den Werkzeugen Zurück |BNAV| und Vorwärts |FNAV| in der Historie der eingestellten Ausschnitte hin und herschalten.
 
-     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
-     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
+     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.png
+     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.png
 
 .. tip:: 
    Die meisten Werkzeuge erlauben es Ihnen, bei gedrückter mittlerer Maustaste den Ausschnitt zu verschieben 
@@ -258,7 +258,7 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 
 #. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
    
-	.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
+	.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.png
 
 .. tip:: 
     Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur `I` und `Z` drücken.

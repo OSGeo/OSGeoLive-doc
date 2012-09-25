@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.gif
+.. image:: ../../images/project_logos/logo-GMT.png
   :scale: 100 %
   :alt: project logo
   :align: right

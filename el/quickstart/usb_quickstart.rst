@@ -51,11 +51,11 @@
 
 Κατεβάστε το λογισμικό Universal USB Installer από: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 Αποδεχθείτε την άδεια χρήσης.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 Βήμα 1: Διανομή: Επιλέξτε τη διανομή xubuntu i386 που χρησιμοποιεί το osgeo-live. (για το |osgeo-live-version|, επιλέξτε xubuntu 10.04 Desktop i386)
 
@@ -67,7 +67,7 @@
 
 Επιλέξτε :guilabel:`Create`
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
 Περιμένετε 20 λεπτά για την δημιουργία του USB δίσκου.
 

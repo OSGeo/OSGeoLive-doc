@@ -66,11 +66,11 @@ Connecteu el disc USB al vostre ordinador.
 Descarregueu i executeu l'Instal·lador Universal d'USB des de:
 http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 Accepteu les condicions de la llicència
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 Pas 1: Distribució: Seleccioneu la distribució xubuntu i386 per a la imatge
 osgeo-live. (Per OSGeo-Live 5.5, seleccioneu xubuntu 11.04 Desktop i386)
@@ -85,7 +85,7 @@ Pas 4: Escolliu Persistence si voleu que es recordi l'estat entre sessions.
 
 Escolliu :guilabel:`Create`
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
 Espereu uns 20 minuts més o menys fins que s'hagi creat el disc USB
 d'OSGeo-Live.

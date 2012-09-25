@@ -119,7 +119,7 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 
 #. Το |ZOOM| εργαλείο μεγέθυνσης (Zoom tool) είναι διαθέσιμο σαν προεπιλογή
    
-   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
+   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.png
    
    * Χρησιμοποιούμε το εργαλείο μεγέθυνσης σχεδιάζοντας ένα παραλληλόγραμμο στο χάρτη με τη χρήση του αριστερού πλήκτρου του ποντικιού γύρω από την περιοχή που μας ενδιαφέρει
      να δούμε.
@@ -128,24 +128,24 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 
 #. Το |PAN| εργαλείο μετάθεσης (Pan) μπορεί να χρησιμοποιηθεί για να μετακινηθούμε γύρω στο χάρτη μας χωρίς να αλλάξουμε την κλίμακα εμφάνισης.
   
-   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
+   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.png
 
 #. Επιπλέον υπάρχουν διάφορα διαθέσιμα κουμπιά που μπορούν να χρησιμοποιηθούν ανα πάσα στιγμή:
  
    * |SHOWALL| Εμφάνιση όλων (Show All), μπορεί να επαναφέρει το χάρτη σε πλήρη έκταση οποιαδήποτε στιγμή
    
-     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
+     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.png
 
    * |ZOOM_IN| Μεγέθυνση (Zoom In) και |ZOOM_OUT| σμίκρυνση (Zoom Out) μπορούν να χρησιμοποιηθούν για να αλλάξουν την κλίμακα κατά ένα προκαθορισμένο ποσό.
 
-     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
-     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
+     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.png
 
    * Μπορούμε να χρησιμοποιήσουμε τα Navigation Back |BNAV| και Forward |FNAV| από το μενού εντολών για να επισκεφθούμε 
      σημεία που είχαμε δει προηγουμένως.
 
-     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
-     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
+     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.png
+     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.png
 
 .. tip:: Τα περισσότερα εργαλεία επιτρέπουν τη μετάθεση κρατώντας το κεντρικό πλήκτρο του ποντικιού και τον ελέγχο της κλίμακας με 
    τη ροδέλα του ποντικιού.
@@ -193,7 +193,7 @@ Web Map Server
 
 #. Αλλάξτε το ποντίκι στο |INFO| εργαλείο πληροφοριών (Info Tool) και κάντε κλίκ σε ένα πάρκο για να μάθετε περισσότερα για αυτό
 
-.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
+.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.png
 
 .. tip:: Μπορείτε να εναλλάξετε τα προηγούμενα εργαλεία (zoom και info) με την χρήση των πλήκτρων Z και I στο πληκτρολόγιο.
 

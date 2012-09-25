@@ -211,7 +211,7 @@ Puede controlar donde se localiza el mapa en el mundo utilizando las herramienta
 
 1. |ZOOM| Acercarse/Alejarse
 
-  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.gif
+  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.png
 	
   * Es la herramienta seleccionada de forma predeterminada al iniciar su sesión
   * Utilice el botón izquierdo del ratón para acercar una cantidad fija al hacer clic en un punto del mapa
@@ -220,50 +220,50 @@ Puede controlar donde se localiza el mapa en el mundo utilizando las herramienta
   
 2. |PAN| Desplazarse
   
-  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.gif
+  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.png
 	
   * Permite moverse por el mundo sin cambiar la escala
   * Pulse el botón izquierdo del ratón, mueva el ratón y libérelo para mover el mapa a la ubicación deseada
       
 3. |ZOOM_PREV| Zoom anterior
 
-  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.gif
+  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.png
   	
   * Permite hacer un zoom a la visualización anterior desde el historial de zoom (si está disponible)
   
 4. |ZOOM_NEXT| Zoom siguiente
 
-  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.gif
+  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.png
   
   * Permite hacer un zoom a la visualización siguiente desde el historial de zoom (si está disponible)
     
 5. |ZOOM_FULL_EXTENT| Zoom a escala completa
 
-  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.gif
+  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.png
   
   * Permite cambiar el nivel de zoom del mapa para incluir en la vista todas las capas visibles
   
 6. |ZOOM_TO_LAYER| Zoom a la capa
 
-  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.gif
+  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.png
   
   * Modifica la vista a una escala que permita visualizar completamente la capa seleccionada en el árbol de capas.
     
 7. |ZOOM_TO_SELECTED_ITEMS| Zoom a los elementos seleccionados
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.gif
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.png
   
   * Modifica la vista a una escala que permita visualizar completamente aquellos elementos seleccionados.
     
 8. |PAN_TO_CLICK| Centrar mapa
 
-  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.gif
+  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.png
 
   Centra el mapa en el punto donde se ha hecho clic, sin cambiar la escala actual
   
 9. |COORDINATE_LOCALIZATION| Localización por coordenadas
 
-  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.gif
+  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.png
   
   * Centra el mapa en las coordenadas X-Y indicadas
 

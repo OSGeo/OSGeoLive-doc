@@ -41,7 +41,7 @@ nonche`  conforme
 :doc:`../standards/wms_overview` certificato con alte prestazioni. 
 GeoServer costituisce una componente di base del Geospatial Web. 
 
-.. image:: ../../images/screenshots/800x600/geoserver.gif
+.. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

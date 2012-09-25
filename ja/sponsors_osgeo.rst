@@ -23,7 +23,7 @@ OSGeo Sustaining Sponsors
 OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/inpe.gif
+.. image:: ../images/logos/inpe.png
   :alt: INPE
   :target: http://www.inpe.br/
 
@@ -31,7 +31,7 @@ OSGeo Supporting Sponsors
   :alt: INGRES
   :target: http://www.ingres.com
 
-.. image:: ../images/logos/osuk.gif
+.. image:: ../images/logos/osuk.png
   :alt: Ordnance Survey
   :target: http://www.ordnancesurvey.co.uk
 
@@ -44,7 +44,7 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://geocat.net/
 
-.. image:: ../images/logos/astun.gif
+.. image:: ../images/logos/astun.png
   :alt: Astun Technology
   :align: center
   :target: http://www.isharemaps.com
@@ -54,7 +54,7 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://www.boreal-is.com
 
-.. image:: ../images/logos/ign_france.gif
+.. image:: ../images/logos/ign_france.png
   :alt: IGN
   :align: center
   :target: http://www.ign.fr
@@ -69,7 +69,7 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://camptocamp.com
 
-.. image:: ../images/logos/lizardtech_logo_sml.gif
+.. image:: ../images/logos/lizardtech_logo_sml.png
   :alt: LizardTech
   :align: center
   :target: http://www.lizardtech.com
@@ -79,7 +79,7 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://www.1spatial.com
 
-.. image:: ../images/logos/fbslogo_sml.gif
+.. image:: ../images/logos/fbslogo_sml.png
   :alt: First Base Solutions
   :align: center
   :target: http://www.firstbasesolutions.com

@@ -31,7 +31,7 @@ Standards, außerdem als hoch performant zertifizierter
 :doc:`Web Map Service (WMS) <../standards/wms_overview>`. 
 GeoServer stellt eine Kernkomponente räumlicher Webanwendungen dar. 
 
-.. image:: ../../images/screenshots/800x600/geoserver.gif
+.. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: GeoServer Screenshots
   :align: right

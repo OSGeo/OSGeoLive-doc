@@ -55,11 +55,11 @@ Wsuń PenDrive do napędu USB komputera.
 
 Pobierz i uruchom Universal USB Installer z: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 Zaakceptuj postanowienia licencji.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 Krok 1: Distrybucja: Wybierz dystrybucję xubuntu i386, która jest użyta w obrazie
 OSGeo-Live (dla |osgeo-live-version|, wybierz xubuntu 10.04 Desktop i386).
@@ -72,7 +72,7 @@ Krok 4: Wybierz "Persistence" jeśli chcesz zapamiętać stan pomiędzy sesjami.
 
 Wybierz :guilabel:`Create`
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
 Poczekaj około 20 minut na stworzenie PenDrive USB.
 

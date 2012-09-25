@@ -44,7 +44,7 @@ OSGeo Associate Sponsors
   :align: left
   :target: http://geocat.net/
 
-.. image:: ../images/logos/astun.gif
+.. image:: ../images/logos/astun.png
   :alt: Astun Technology
   :align: center
   :target: http://www.isharemaps.com
@@ -54,7 +54,7 @@ OSGeo Associate Sponsors
   :align: right
   :target: http://www.boreal-is.com
 
-.. image:: ../images/logos/ign_france.gif
+.. image:: ../images/logos/ign_france.png
   :alt: IGN
   :align: left
   :target: http://www.ign.fr
@@ -70,7 +70,7 @@ OSGeo Associate Sponsors
   :align: right
   :target: http://camptocamp.com
 
-.. image:: ../images/logos/lizardtech_logo_sml.gif
+.. image:: ../images/logos/lizardtech_logo_sml.png
   :alt: LizardTech
   :align: left
   :target: http://www.lizardtech.com
@@ -85,7 +85,7 @@ OSGeo Associate Sponsors
   :align: right
   :target: http://www.firstbasesolutions.com
 
-.. image:: ../images/logos/metaspatial_sml.gif
+.. image:: ../images/logos/metaspatial_sml.png
   :alt: Metaspatial
   :align: center
   :target: http://www.metaspatial.net/

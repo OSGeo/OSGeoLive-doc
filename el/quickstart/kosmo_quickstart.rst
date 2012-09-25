@@ -208,7 +208,7 @@
 
 1. |ZOOM| Ζουμάρισμα μέσα/έξω
 
-  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.gif
+  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.png
   
   * Είναι το εργαλείο που επιλέγεται εξ ορισμού όταν αρχίζετε την συνεδρία σας
   * Χρησιμοποιείστε το αριστερό κουμπί του ποντικιού για να κάνετε ζουμάρισμα προς τα μέσα σε μια περιοχή στο σημείο του χάρτη που επιλέγεται
@@ -217,50 +217,50 @@
   
 2. |PAN| Μετάθεση χάρτη
   
-  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.gif
+  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.png
 
   * Επιτρέπει την μετακίνηση γύρω από τον κόσμο χωρίς αλλαγή της κλίμακας
   * Πατήστε το αριστερό κουμπί του ποντικιού, μετακινήστε το ποντίκι και αφήστε το έτσι ώστε να μετακινηθεί ο χάρτης στην επιλεγμένη θέση
       
 3. |ZOOM_PREV| Προηγούμενο Ζουμάρισμα
 
-  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.gif
+  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.png
   
   * Επιτρέπει το ζουμάρισμα στη προηγούμενη απεικόνηση από την ιστορία του ζουμ (εάν είναι διαθέσιμο)
   
 4. |ZOOM_NEXT| Επόμενο Ζουμάρισμα
 
-  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.gif
+  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.png
   
   * Επιτρέπει το ζουμάρισμα στην επόμενη απεικόνηση από την ιστορία του ζουμ (εάν είναι διαθέσιμο)
     
 5. |ZOOM_FULL_EXTENT| Ζουμάρισμα σε όλη την έκταση
 
-  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.gif
+  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.png
   
   * Επιτρέπει την αλλαγή του τρέχοντος χάρτη για να περιέχει όλα τα ορατά στρώματα
   
 6. |ZOOM_TO_LAYER| Ζουμάρισμα σε στρώμα
 
-  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.gif
+  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.png
   
   * Επιτρέπει την αλλαγή του τρέχοντος χάρτη για να προσαρμόσει τα επιλεγμένα στρώματα
     
 7. |ZOOM_TO_SELECTED_ITEMS| Ζουμάρισμα στα επιλεγμένα αντικείμενα
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.gif
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.png
   
   * Επιτρέπει την αλλαγή του τρέχοντος χάρτη για να προσαρμόσει τα επιλεγμένα αντικείμενα
     
 8. |PAN_TO_CLICK| Μετάθεση του χάρτη με κλικ
 
-  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.gif
+  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.png
   
   * Κεντράρει το χάρτη στο σημείο που κλικάρεται, χωρίς να αλλάξει την τρέχουσα κλίμακα
   
 9. |COORDINATE_LOCALIZATION| Τοποθέτηση συντεταγμένων
 
-  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.gif
+  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.png
   
   * Κεντράρει τον χάρτη στις συντεταγμένες X - Y που δίνονται
 

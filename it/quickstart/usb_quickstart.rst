@@ -57,11 +57,11 @@ Inserire il dispositivo USB nel vostro computer.
 
 Scaricare ed eseguire Universal USB Installer da: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 Accettare i termini della licenza.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 Step 1: Distribuzione: Selezionare la distribuzione xubuntu i386 usata per l'immagine osgeo-live. (per OSGeo-Live 5.5, selezionare xubuntu 11.04 Desktop i386)
 
@@ -73,7 +73,7 @@ Step 4: Selezionare "Persistence" se volete ricordare lo stato tra le sessioni.
 
 Selezionare :guilabel:`Create`
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
 Aspettare circa 20 minuti per la creazione del dispositivo USB.
 

@@ -40,7 +40,7 @@ certificado como implementación de alto rendimiento del estándar `Web Map
 Service <http://www.opengeospatial.org/standards/wms>`_ (WMS).
 GeoServer es uno de los componentes *core* de la Web Geoespacial. 
 
-.. image:: ../../images/screenshots/800x600/geoserver.gif
+.. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

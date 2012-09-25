@@ -37,7 +37,7 @@ Consortium <http://www.opengeospatial.org>`_ (OGC) :doc:`../standards/wfs_overvi
 υψηλής απόδοσης του προτύπου :doc:`../standards/wms_overview`.
 Ο GeoServer αποτελεί ένα κεντρικό πυρήνα του Γεωχωρικού Διαδικτυόυ (Geospatial Web). 
 
-.. image:: ../../images/screenshots/800x600/geoserver.gif
+.. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

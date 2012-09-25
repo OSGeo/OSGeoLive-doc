@@ -191,7 +191,7 @@ pantalla.
 
 #. La herramienta de Zoom |ZOOM| está habilitada por omisión
    
-   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.gif
+   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.png
    
    * Use la herramienta de zoom para dibujar un rectángulo utilizando el botón derecho del ratón en el área del mundo que desea ver.
 
@@ -200,23 +200,23 @@ pantalla.
 
 #. La herramienta Pan |PAN| puede utilizarse para desplazarse sobre el mapa cambiendo la escala.
   
-   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.gif
+   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.png
 
 #. Existen también varios botones de navegación que pueden utilizarse en cualquier momento: 
  
    * |SHOWALL| Mostrar todo, puede utilizarse para retornar a la extensión completa en cualquier momento
    
-     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.gif
+     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.png
 
    * |ZOOM_IN| Alejar y |ZOOM_OUT| Acercar pueden ser utilizadas para cambiar la escala a una cantidad determinada.
 
-     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.gif
-     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.gif
+     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.png
 
    * Puede usar Navigation Back |BNAV| and Forward |FNAV| en la barra de menú para ciclar entre las localizaciones previamente visitadas.
 
-     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.gif
-     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.gif
+     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.png
+     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.png
 
 .. tip:: También es posible una hacer una panorámica manteniendo presionado el botón central y controlar la escala usando la rueda de desplazamiento.
 
@@ -262,7 +262,7 @@ cuentan con capas de información que pueden ser incluidos en un mapa propio.
 
 #. Cambie a la herramienta Info |INFO| y haga un click sobre los parques para obtener mas información de ellos.
 
-.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.gif
+.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.png
 
 .. tip:: Es posible cambiar de la herramienta Zoom a Info presionando las teclas Z e I.
 

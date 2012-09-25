@@ -56,11 +56,11 @@ Insérez une clé USB dans votre ordinateur.
 
 Téléchargez et faites fonctionner l'installateur universel USB depuis: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 Acceptez les termes de la licence.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 Etape 1: Distribution: Sélectionez la distribution xubuntu i386 utilisée pour l'image osgeo-live. (pour OSGeo-Live 5.5, sélectionez xubuntu 11.04 Desktop i386)
 
@@ -72,7 +72,7 @@ Etape 4: Sélectionnez Permanente si vous souhaitez conserver l'état entre les 
 
 Sélectionnez :guilabel:`Create`
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
 Attendez 20 minutes ou jusqu'à ce que la clé flash USB soit créée.
 

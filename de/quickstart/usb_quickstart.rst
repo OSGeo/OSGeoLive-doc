@@ -54,11 +54,11 @@ Schließen Sie einen USB-Stick an Ihren Rechner an.
 
 Laden Sie den Universal USB Installer von: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ und starten ihn.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 Akzeptieren Sie die Nutzungsbedingungen.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 Schritt 1: Distribution: Wählen Sie die Xubuntu i386 Distribution, die für das OSGeo-live Image benutzt wird. (Für OSGeo-Live 5.5 wählen Sie Xubuntu 10.04 Desktop i386)
 
@@ -70,7 +70,7 @@ Schritt 4: Wählen Sie "Persistence", wenn Sie Daten zwischen Ihren Sessions abs
 
 Wählen Sie :guilabel:`Create`
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
 Warten Sie ca. 20 Minuten, während der USB-Stick bearbeitet wird.
 

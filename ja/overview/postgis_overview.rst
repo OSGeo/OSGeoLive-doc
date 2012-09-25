@@ -43,7 +43,7 @@ PostGISは安定して高速で標準に準拠した多くの機能を持ち現�
 pgAdmin，phpPgAdmin，やその他のプログラムを利用してデータベース管理を行えます． 様々な変換ツール (shp2pgsql， pgsql2shp， ogr2ogr， dxf2postgis)を利用してデータのインポート、エクスポートを行えます. さらにPostGISのデータを見ることができるに多くのデスクトップGISとブラウザGISがあります．
 
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: project logo
   :align: right

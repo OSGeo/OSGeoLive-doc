@@ -73,11 +73,11 @@ Creación de la unidad USB desde Windows
 - Descargue y ejecute *Universal USB Installer* desde 
   http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
 
 - Acepte los términos de la licencia
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.gif
+  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
 
 Una vez instalado proceda de la siguiente forma:
 
@@ -98,7 +98,7 @@ Una vez instalado proceda de la siguiente forma:
    
 #. Seleccione :guilabel:`Create`
 
-   .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.gif
+   .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
 
    Espere unos 20 minutos aproximadamente para que la unidad flash de
    OSgeo-Live se genere completamente

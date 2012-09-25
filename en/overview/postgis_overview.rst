@@ -69,12 +69,12 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
   or a collage of screen shots.
-  Store image in image/<application>_<name>.gif . Eg: udig_main_page.gif
+  Store image in image/<application>_<name>.png . Eg: udig_main_page.png
   Screenshots should be captured from a 1024x768 display.
   Don't include the desktop background as this changes with each release
   and will become dated.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.gif
+.. image:: ../../images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right
