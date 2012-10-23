@@ -100,9 +100,10 @@ Geospatial Libraries
    :maxdepth: 1
 
    GeoTools - Java GIS Toolkit <geotools_overview>
-   GEOS - C/C++ Spatial Library <geos_overview> 
+   GEOS - C/C++ Spatial Library <geos_overview>
    MetaCRS - Coordinate Reference System Transformations <metacrs_overview>
    libLAS - LiDAR Data Access <liblas_overview>
+   JTS Topology Suite <jts_overview>
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
