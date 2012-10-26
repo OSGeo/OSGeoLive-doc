@@ -103,6 +103,7 @@ Librerie geospaziali
    GEOS - Libreria spaziale C/C++ <geos_overview> 
    MetaCRS - Trasformazione dei sistemi di riferimento delle coordinate <metacrs_overview>
    libLAS - Accesso ai dati LiDAR <liblas_overview>
+   JTS Topology Suite <jts_overview>
 
 Altri software di interesse (non disponibili nella Live)
 --------------------------------------------------------------------------------

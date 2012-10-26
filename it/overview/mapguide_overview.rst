@@ -2,7 +2,7 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-:Translato: Luca Delucchi
+:Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
   :scale: 100 %
@@ -42,7 +42,7 @@ MapGuide Open Source è rilasciato sotto licenza LGPL.
   :alt: screenshot
   :align: right
 
-.. note:: A causa di space constraints sul DVD, MapGuide è attualmente non installato.
+.. note:: A causa di limiti di spazio su OSGeo-Live, MapGuide è attualmente non installato.
 
 .. commented out as manual install doesn't currently work: To install
   it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``
