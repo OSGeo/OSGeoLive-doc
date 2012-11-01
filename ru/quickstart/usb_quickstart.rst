@@ -55,7 +55,7 @@ http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
-Выберите *osgeo-live* or *osgeo-live-mini* ISO-образы, загруженные ранее.  
+Выберите *osgeo-live* или *osgeo-live-mini* ISO-образы, загруженные ранее.  
 
 Выберите USB-диск. Если вы имеете дополнительное место на диске, вы можете
 подтянуть слайдер, чтобы создать пространство для постоянного хранения данных
@@ -98,5 +98,5 @@ http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
- * Альтернативные способы создания загрузочного USB-диска и актульные советы собраны здесь: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
+ * Альтернативные способы создания загрузочного USB-диска и актуальные советы собраны здесь: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
  * Вопросы могут быть заданы через наш мэйл-лист http://lists.osgeo.org/mailman/listinfo/live-demo 

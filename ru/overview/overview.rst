@@ -73,6 +73,7 @@
 * :doc:`geoserver_overview` - [:doc:`Введение <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Введение <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Введение <../quickstart/deegree_quickstart>`]
+* :doc:`eoxserver_overview` - [:doc:`Введение <../quickstart/eoxserver_quickstart>`]
 * :doc:`geonetwork_overview` - [:doc:`Введение <../quickstart/geonetwork_quickstart>`] - Каталог метаданных
 * :doc:`pycsw_overview` - [:doc:`Введение <../quickstart/pycsw_quickstart>`] - Каталог метаданных 
 * :doc:`mapproxy_overview` - [:doc:`Введение <../quickstart/mapproxy_quickstart>`] - Прокси для WMS & тайловых сервисов
