@@ -1,6 +1,6 @@
 ﻿:Author: OSGeo-Live
 :Author: Micha Silver
-:Translator: Luca Delucchi
+:Translator: Alessandro Furieri
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -10,7 +10,7 @@
   :align: right
 
 ********************************************************************************
-SpatiaLite: presentazione veloce
+Guida rapida su SpatiaLite
 ********************************************************************************
 
 SpatiaLite rappresenta l'estensione Spatial per il motore di database SQLite.
