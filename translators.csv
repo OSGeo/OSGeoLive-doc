@@ -1,82 +1,82 @@
-Language,i18n code,Name,Country,Email,Osgeo_id
-Spanish,es,Agustín Dí­ez,Spain,adiez uv es,
-Spanish,es,David Mateos,Spain,porquewhich hotmail com,
-Spanish,es,Hernan Olivera,Argentina,lholivera gmail com,hernanolivera
-Spanish,es,Javier Sánchez,Spain,jsgisdev gmail com,jsanchez
-Spanish,es,Jesús Gómez,Spain,je_gomez terra es,
-Spanish,es,Jorge Arévalo,Spain,jorge.arevalo deimos-space com,jorgearevalo
-Spanish,es,Jorge Sanz,Spain,jsanz osgeo org,jsanz
-Spanish,es,José Antonio Canalejo,Germany,jacanalejo yahoo es,
-Spanish,es,Mauricio Miranda,Argentina,mmiranda xoomcode com,
-Spanish,es,Mauricio Pazos,Spain,mauricio.pazos gmail com,mpazos
-Spanish,es,Òscar Fonts,Spain,oscar.fonts gmail com,oscarfonts
-Spanish,es,Pedro-Juan Ferrer,Spain,pferrer osgeo org,pferrer
-Spanish,es,Roberto Antolí­n,Spain,rantolin.geo gmail com,
-Spanish,es,Samuel Mesa,Colombia,samuelmesa gmail com,
-Spanish,es,Valenty González,Venezuela,vgonzalez gvsig com,gvalenty
-Spanish,es,Lucía Sanjaime,Spain,llusancal gmail com,
-Spanish,es,Andrea Yanza,???,andreavyanzah gmail com,
-Spanish,es,Diego González,???,iberdiego gmail com,
-Spanish,es,Nacho Varela,Spain,nachouve gmail com,
-Spanish,es,Mario Andino,Paraguay,armra hotmail es,
-Italian,it,Alessandro Furieri,Italy,a.furieri lqt it,
-Italian,it,Antonio Falciano,Italy,
-Italian,it,Luca Delucchi,Italy,lucadeluge gmail com,lucadelu
-Italian,it,Massimo Di Stefano,Italy,massimodisasha gmail com,
-Italian,it,Marco Puppin,Italy,puppingeo gmail com,
-Italian,it,Marco Curreli,Italy,marcocurreli tiscali it,marcocur
-Italian,it,Margherita Di Leo,Italy,dileomargherita gmail com,madi
-Italian,it,Pasquale Di Donato,Italy,pasquale.didonato gmail com
-Italian,it,Roberta Fagandini,Italy,
-German,de,Astrid Emde,Germany,astrid emde wheregroup com,astrid_emde
-German,de,Daniel Kastl,Germany,daniel georepublic de,
-German,de,Dominik Helle,Germany,helle omniscale de,
-German,de,Frank Gasdorf,Germany,fgdrf users.sourceforge.net,fgdrf
-German,de,Lars Lingner,Germany,lars lingner eu,gislars
-German,de,Otto Dassau,Germany,dassau gbd-consult de,dassau
-German,de,Ruth Schoenbuchner,Germany,ruth schoenbuchner csgis de,
-German,de,Thomas Baschetti,Germany,info thomas-baschetti de,tbaschetti
-Greek,el,Angelos Tzotsos,Greece,tzotsos gmail com,kalxas
-Greek,el,Christos Iossifidis,Greece,chiossif gmail com,chiossif
-Greek,el,Argyros Argyridis,Greece,arargyridis gmail com,Argy7
-Greek,el,Aikaterini Kapsampeli,Greece,kapsamp mail ntua gr,topometal
-Greek,el,Maria Vakalopoulou,Greece,mariavak8 hotmail com,mariavak
-Japanese,ja,Haruyuki Seki,Japan,hal georepublic.co jp,
-Japanese,ja,Nobusuke Iwasaki,Japan,wata909 gmail com,
-Japanese,ja,Toshikazu Seto,Japan,tosseto gmail com,
-Japanese,ja,Yoichi Kayama,Japan,yoichi.kayama gmail com,
-Polish,pl,Milena Nowotarska,Poland,do.milenki gmail com,milenan
-Chinese,zh,Xianfeng Song,China,song.osgeo gmail com,
-Chinese,zh,Jing Wang,China,wangjing-2008-jing 163 com,
-Chinese,zh,Zhengfan Lin,China,public t lin gmail com,tanner
-Catalan,ca,Òscar Fonts,Spain,oscar.fonts gmail com,oscarfonts
-Catalan,ca,Raf Roset,Spain,rafroset gmail com,
-Catalan,ca,Anna Muñoz,Spain,a.munyoz.b gmail com,
-Catalan,ca,Cristhian Pin,Spain,cpinperez gmail com,
-Catalan,ca,Marc Torres,Spain,geoinquiet gmail com,
-Catalan,ca,Assumpció Termens,Spain,atermens gmail com,
-Catalan,ca,Estela Llorente,Spain,estela.llorente gmail com,
-Catalan,ca,Roger Veciana,Spain,rveciana gmail.com,
-French,fr,Thomas Gratier,France,thomas gratier gmail com,thomasg
-French,fr,Christophe Tufféry,France,c tuffery gmail com,ctuffery
-French,fr,Marc-André Barbeau,Canada,mbarbeau mapgears com,mbarbeau
-French,fr,Etienne Delay,France,etienne delay gmail com,8449 
-Korean,kr,Hyeyeong Choe,Korea,hychoe ucdavis.edu,hychoe
-Russian,ru,Alexander Bruy,voltron ua.fm,Voltron
-Russian,ru,Alexander Muriy,amuriy gmail.com,amuriy
-Russian,ru,Alexey Ardyakov,ardjakov rambler.ru,Ariki 
-Russian,ru,Andrey Syrokomskiy,signmotion gmail.com,Andrey Syrokomskiy
-Russian,ru,Anton Novichikhin,novi-mail mail.ru,novia
-Russian,ru,Daria Svidzinska,d.svidzinska gmail.com,darsvid 
-Russian,ru,Denis Rykov,rykovd gmail.com,Denis Rykov
-Russian,ru,Dmitry Baryshnikov,polimax mail.ru,Bishop
-Russian,ru,Evgeny Nikulin,nikulin.e gmail.com,yellow-sky
-Russian,ru,Ilya Filippov,filip83pov yandex.ru,bolotoved 
-Russian,ru,Grigory Rozhentsov,grozhentsov gispro.ru,grozhentsov
-Russian,ru,Maxim Dubinin,sim gis-lab.info,Maxim Dubinin
-Russian,ru,Nadiia Gorash,Nadiia.gorash gmail.com,Nadiia 
-Russian,ru,Pavel,pashtet51 gmail.com,Pavel 
-Russian,ru,Sergey Grachev,ergo list.ru,ergo
-Russian,ru,Vera,,Geo-U-Piter
-Russian,ru,,avk_h mail.ru,HasT
-Russian,ru,,kuzkok gmail.com,kuzkok
+"Language","i18n code","Name","Country","Email","Osgeo_id"
+"Spanish","es","Agustín Dí­ez","Spain","adiez uv es",
+"Spanish","es","David Mateos","Spain","porquewhich hotmail com",
+"Spanish","es","Hernan Olivera","Argentina","lholivera gmail com","hernanolivera"
+"Spanish","es","Javier Sánchez","Spain","jsgisdev gmail com","jsanchez"
+"Spanish","es","Jesús Gómez","Spain","je_gomez terra es",
+"Spanish","es","Jorge Arévalo","Spain","jorge.arevalo deimos-space com","jorgearevalo"
+"Spanish","es","Jorge Sanz","Spain","jsanz osgeo org","jsanz"
+"Spanish","es","José Antonio Canalejo","Germany","jacanalejo yahoo es",
+"Spanish","es","Mauricio Miranda","Argentina","mmiranda xoomcode com",
+"Spanish","es","Mauricio Pazos","Spain","mauricio.pazos gmail com","mpazos"
+"Spanish","es","Òscar Fonts","Spain","oscar.fonts gmail com","oscarfonts"
+"Spanish","es","Pedro-Juan Ferrer","Spain","pferrer osgeo org","pferrer"
+"Spanish","es","Roberto Antolí­n","Spain","rantolin.geo gmail com",
+"Spanish","es","Samuel Mesa","Colombia","samuelmesa gmail com",
+"Spanish","es","Valenty González","Venezuela","vgonzalez gvsig com","gvalenty"
+"Spanish","es","Lucía Sanjaime","Spain","llusancal gmail com",
+"Spanish","es","Andrea Yanza","???","andreavyanzah gmail com",
+"Spanish","es","Diego González","???","iberdiego gmail com",
+"Spanish","es","Nacho Varela","Spain","nachouve gmail com",
+"Spanish","es","Mario Andino","Paraguay","armra hotmail es",
+"Italian","it","Alessandro Furieri","Italy","a.furieri lqt it",
+"Italian","it","Antonio Falciano","Italy",,
+"Italian","it","Luca Delucchi","Italy","lucadeluge gmail com","lucadelu"
+"Italian","it","Massimo Di Stefano","Italy","massimodisasha gmail com",
+"Italian","it","Marco Puppin","Italy","puppingeo gmail com",
+"Italian","it","Marco Curreli","Italy","marcocurreli tiscali it","marcocur"
+"Italian","it","Margherita Di Leo","Italy","dileomargherita gmail com","madi"
+"Italian","it","Pasquale Di Donato","Italy","pasquale.didonato gmail com",
+"Italian","it","Roberta Fagandini","Italy",,
+"German","de","Astrid Emde","Germany","astrid emde wheregroup com","astrid_emde"
+"German","de","Daniel Kastl","Germany","daniel georepublic de",
+"German","de","Dominik Helle","Germany","helle omniscale de",
+"German","de","Frank Gasdorf","Germany","fgdrf users.sourceforge.net","fgdrf"
+"German","de","Lars Lingner","Germany","lars lingner eu","gislars"
+"German","de","Otto Dassau","Germany","dassau gbd-consult de","dassau"
+"German","de","Ruth Schoenbuchner","Germany","ruth schoenbuchner csgis de",
+"German","de","Thomas Baschetti","Germany","info thomas-baschetti de","tbaschetti"
+"Greek","el","Angelos Tzotsos","Greece","tzotsos gmail com","kalxas"
+"Greek","el","Christos Iossifidis","Greece","chiossif gmail com","chiossif"
+"Greek","el","Argyros Argyridis","Greece","arargyridis gmail com","Argy7"
+"Greek","el","Aikaterini Kapsampeli","Greece","kapsamp mail ntua gr","topometal"
+"Greek","el","Maria Vakalopoulou","Greece","mariavak8 hotmail com","mariavak"
+"Japanese","ja","Haruyuki Seki","Japan","hal georepublic.co jp",
+"Japanese","ja","Nobusuke Iwasaki","Japan","wata909 gmail com",
+"Japanese","ja","Toshikazu Seto","Japan","tosseto gmail com",
+"Japanese","ja","Yoichi Kayama","Japan","yoichi.kayama gmail com",
+"Polish","pl","Milena Nowotarska","Poland","do.milenki gmail com","milenan"
+"Chinese","zh","Xianfeng Song","China","song.osgeo gmail com",
+"Chinese","zh","Jing Wang","China","wangjing-2008-jing 163 com",
+"Chinese","zh","Zhengfan Lin","China","public t lin gmail com","tanner"
+"Catalan","ca","Òscar Fonts","Spain","oscar.fonts gmail com","oscarfonts"
+"Catalan","ca","Raf Roset","Spain","rafroset gmail com",
+"Catalan","ca","Anna Muñoz","Spain","a.munyoz.b gmail com",
+"Catalan","ca","Cristhian Pin","Spain","cpinperez gmail com",
+"Catalan","ca","Marc Torres","Spain","geoinquiet gmail com",
+"Catalan","ca","Assumpció Termens","Spain","atermens gmail com",
+"Catalan","ca","Estela Llorente","Spain","estela.llorente gmail com",
+"Catalan","ca","Roger Veciana","Spain","rveciana gmail.com",
+"French","fr","Thomas Gratier","France","thomas gratier gmail com","thomasg"
+"French","fr","Christophe Tufféry","France","c tuffery gmail com","ctuffery"
+"French","fr","Marc-André Barbeau","Canada","mbarbeau mapgears com","mbarbeau"
+"French","fr","Etienne Delay","France","etienne delay gmail com",8449
+"Korean","kr","Hyeyeong Choe","Korea","hychoe ucdavis.edu","hychoe"
+"Russian","ru","Alexander Bruy","Ukraine","voltron ua.fm","Voltron"
+"Russian","ru","Alexander Muriy","Russia","amuriy gmail.com","amuriy"
+"Russian","ru","Alexey Ardyakov","Russia","ardjakov rambler.ru","Ariki "
+"Russian","ru","Andrey Syrokomskiy","Ukraine","signmotion gmail.com","Andrey Syrokomskiy"
+"Russian","ru","Anton Novichikhin","Russia","novi-mail mail.ru","novia"
+"Russian","ru","Daria Svidzinska","Ukraine","d.svidzinska gmail.com","darsvid "
+"Russian","ru","Denis Rykov","Russia","rykovd gmail.com","Denis Rykov"
+"Russian","ru","Dmitry Baryshnikov","Russia","polimax mail.ru","Bishop"
+"Russian","ru","Evgeny Nikulin","Russia","nikulin.e gmail.com","yellow-sky"
+"Russian","ru","Ilya Filippov","Russia","filip83pov yandex.ru","bolotoved "
+"Russian","ru","Grigory Rozhentsov","Russia","grozhentsov gispro.ru","grozhentsov"
+"Russian","ru","Maxim Dubinin","Russia","sim gis-lab.info","Maxim Dubinin"
+"Russian","ru","Nadiia Gorash","UK","Nadiia.gorash gmail.com","Nadiia "
+"Russian","ru","Pavel","Russia","pashtet51 gmail.com","Pavel "
+"Russian","ru","Sergey Grachev","Russia","ergo list.ru","ergo"
+"Russian","ru","Vera","Russia","vera probki.net","Geo-U-Piter"
+"Russian","ru","avk_h","Russia","avk_h mail.ru","HasT"
+"Russian","ru","kuzkok","Russia","kuzkok gmail.com","kuzkok"
