@@ -21,7 +21,7 @@ Questa presentazione veloce descrive come aprire un database sia usando il tool 
 Eseguire spatialite
 ================================================================================
 
-* Aprite una console e quindi aprite un database campione con **spatialite**::
+* Aprite una console e quindi aprite un database campione con **spatialite** ::
 
    spatialite /home/user/data/spatialite/trento.sqlite
    
