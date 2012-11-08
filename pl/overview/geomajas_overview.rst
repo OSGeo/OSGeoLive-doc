@@ -13,11 +13,11 @@
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100
-  :alt: OSGeo Incubation Project
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org
+  :target: http://www.osgeo.org/incubator/process/principles.html
 
 
 Geomajas
@@ -42,7 +42,7 @@ Główne funkcje
 
 * Zintegrowana architektura klient-serwer 
 * Edycja geometrii i atrybutów
-* Custom attribute definitions
+* Definicje atrybutów użytkownika
 * Zaawansowane zapytania (CQL)
 * Bezpieczeństwo Out-of-the-box
 * Rozszerzalny mechanizm wtyczek
