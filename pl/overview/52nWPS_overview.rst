@@ -1,10 +1,8 @@
-:Author: Bastian Schaeffer, Kristof Lange
+:Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _52nWPS-overview-pl:
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
@@ -37,16 +35,20 @@ Główne funkcje GIS:
 * SimpleBufferAlgorithm
 * DouglasPeuckerAlgorithm
 * IntersectionAlgorithm
+* AddRasterValuesAlgorithm
+* CoordinateTransformAlgorithm
 	
 Odległe algorytmy dostępne z:
 
 * Sextante
 * ArcGIS Server
+* R
+* GRASS 7
 
 Obsługiwane formaty wejścia i wyjścia:
 
-* Dane wektorowe: GML2, GML3, pliki SHP, KML, WKT (Well-known Text)
-* Dane rastrowe: Geotiff, AsciiGrid
+* Dane wektorowe: GML2, GML3, pliki SHP, KML, WKT (Well-known Text), DGN
+* Dane rastrowe: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
 
 Klient w przeglądarce internetowej
 
@@ -64,7 +66,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** WPS 2.0 RC6
+**Wersja programu:** WPS 3.0
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
