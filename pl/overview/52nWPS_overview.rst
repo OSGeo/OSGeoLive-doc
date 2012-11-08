@@ -18,7 +18,7 @@ Usługi sieciowe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` pozwala na dostęp sieciowy 
-do algorytmów przetwarzania geodanych dostpnych w Sextante, ArcGIS Server, lub dowolnie zaprogramowanej funkcji. 
+do algorytmów przetwarzania geodanych dostpnych w Sextante, ArcGIS Server, R, GRASS 7 lub dowolnie zaprogramowanej funkcji. 
 Algorytmy mogą być tak proste jak określenie różnicy przypadków grypy w różnych porach roku
 lub tak skomplikowane jak model globalnych zmian klimatycznych.
 
