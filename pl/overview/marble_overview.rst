@@ -1,5 +1,7 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _marble-overview-pl:
@@ -10,7 +12,11 @@
   :align: right
   :target: http://edu.kde.org/marble/
 
-
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100 %
+  :alt: OSGeo Project in Incubation
+  :align: right
+  :target: http://www.osgeo.org/incubator/process/principles.html
 Marble
 ================================================================================
 
@@ -49,7 +55,7 @@ Szczegóły
 
 **Licencja:** GNU Mniejsza Ogólna Powszechna Licencja (LGPL) wersja 2.1
 
-**Wersja programu:** 0.9.5
+**Wersja programu:** 1.3.4
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 
@@ -61,6 +67,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/marble_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/marble_quickstart>`
 
 

@@ -1,7 +1,7 @@
 :Author: Trevor Wekel
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapguide-overview-pl:
@@ -25,24 +25,37 @@ MapGuide Open Source
 Usługi sieciowe
 --------------------------------------------------------------------------------
 
-`MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure.
+`MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that 
+enables users to develop and deploy web mapping applications and geospatial web 
+services. MapGuide features an interactive viewer that includes support for 
+feature selection, property inspection, map tips, and operations such as buffer, 
+select within, and measure.
 
-MapGuide includes an XML database for managing content. Maestro allows users to edit the XML database and build a website without writing a single line of code. MapGuide also supports most popular geospatial file formats, databases, and standards.
+MapGuide includes an XML database for managing content. Maestro allows users to 
+edit the XML database and build a website without writing a single line of code. 
+MapGuide also supports most popular geospatial file formats, databases, and standards.
 
-MapGuide can be deployed on Linux or Windows, supports Apache and IIS web servers, and offers extensive PHP, .NET, Java, and JavaScript APIs for application development. MapGuide Open Source is licensed under the LGPL.
+MapGuide can be deployed on Linux or Windows, supports Apache and IIS web servers, 
+and offers extensive PHP, .NET, Java, and JavaScript APIs for application 
+development. MapGuide Open Source is licensed under the LGPL.
 
 .. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right
 
+.. note:: Due to space constraints, MapGuide is currently
+  not installed on OSGeo-Live.
+
+.. commented out as manual install doesn't currently work: To install
+  it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``
 Główne funkcje
 --------------------------------------------------------------------------------
 
 **Interaktywne przeglądanie map**
 
-* Dynamiczna przeglądarka bazująca na przeglądarce internetowej 
-* Wubór obiektów oraz ich właściwiści 
+* Dynamiczna przeglądarka internetowa 
+* Wybór obiektów oraz ich właściwiści 
 * Buforowanie, zapytania 
 * Wydruki
 
@@ -55,14 +68,17 @@ Główne funkcje
 
 **Build-in Resource Database for Manageability**
 
-* Hierarchical storage of XML resource documents that define maps, layers, data connections
+* Hierarchical storage of XML resource documents that define maps, layers, 
+data connections
 * Define data sources and layers once and use them in multiple maps
 * Access-based security model with inheritable permissions
 
 **Uniform Data Access**
 
-* Exclusive use of the Feature Data Objects (FDO) API for vector and raster data
-* Provides a standardized way to access a variety of data sources including SHP, SDF, Oracle, MySQL, and PostGIS.
+* Exclusive use of the Feature Data Objects (FDO) API for vector and 
+raster data
+* Provides a standardized way to access a variety of data sources including 
+SHP, SDF, Oracle, MySQL, and PostGIS.
 
 **Flexible Application Development**
 

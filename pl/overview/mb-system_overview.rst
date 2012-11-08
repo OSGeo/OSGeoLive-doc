@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live4.5
+:Version: osgeo-live5.5
 :License: Creative Commons
 
 .. _mb-system-overview-pl:
@@ -19,12 +19,17 @@ MB-System
 Mapy dna morskiego
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MB-System jest pakietem oprogramowania o otwartym kodzie źródłowym do przetwarzania i  
-wizualizacji batymetrii na podstawie danych multibeam, interferometrycznych oraz sonarowych. 
+MB-System jest pakietem oprogramowania o otwartym kodzie źródłowym do 
+przetwarzania i wizualizacji batymetrii na podstawie danych multibeam, 
+interferometrycznych oraz sonarowych. 
 Wykorzystuje doc:`oprogramowanie GMT <gmt_overview.html>`.
 
 MB-System jest rozwijany od 1993 roku, z aktywnym wsparciem
 ze strony wielu organizacji badawczych i naukowych.
+
+.. comment .. note:: Due to space constraints on the DVD, MB-System is currently
+.. comment  not installed. To install it open up a terminal and
+.. comment  run ``cd gisvm/bin; sudo ./install_mb-system.sh``
 
 Główne funkcje
 --------------------------------------------------------------------------------
@@ -58,7 +63,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 3
 
-**Wersja programu:** 5.3.1917
+**Wersja programu:** 5.3.182
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows (with Cygwin)
 
