@@ -12,9 +12,8 @@
 :Author: Barry Rowlingson
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live6.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
@@ -31,15 +30,10 @@
   :align: right
   :target: http://postgis.refractions.net/
 
-.. Writing Tip:
-  Include an OSGeo logo if the project is an OSGeo project, or is in
-  incubation. OSGeo projects are listed on this page: http://www.osgeo.org/
-  .. image:: images/logos/OSGeo_incubation.png
-  .. image:: images/logos/OSGeo_project.png
-  
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
+
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
@@ -71,7 +65,9 @@ PostGIS spatially enables the popular PostgreSQL object-relational database, all
 
 PostGIS jest stabilny, szybki, zgodny ze standardami, zawiera tysiące funkcji przestrzennych i jest obecnie najszerzej używanym przestrzennym systemem zarządznia bazą danych typu Open Source. PostGIS używany jest przez różne organizacje na całym świecie, łącznie z agencjami rządowymi oraz organizacjami przechowującymi terabajty danych obsługujących miliony żądań sieciowych dziennie.
 
-Zarządzanie bazą danych jest dostępne poprzez pgAdmin, phpPgAdmin oraz inne programy. Import i eksport danych odbywa się przy pomocy różnorodnych narzędzi do konwersji (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Ponadto jest wiele klientów zarówno desktopowych jak i w przeglądarce internetowej służących do przeglądania danych PostGIS.
+Zarządzanie bazą danych jest dostępne poprzez pgAdmin, phpPgAdmin oraz inne programy. 
+Import i eksport danych odbywa się przy pomocy narzędzi wiersza poleceń (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) 
+lub klientów desktopowych, czy w przeglądarce internetowej,  służących również do przeglądania danych przestrzennych i atrybutowych PostGIS.
 
 .. Writing Tip:
   Provide a image of the application which will typically be a screen shot
@@ -91,7 +87,7 @@ Główne funkcje
 
 * Tysiące funkcji przestrzennych
   
-  * Buforowanie,  łączenie, nakładanie, odległości i inne
+  * Buforowanie,  łączenie, nakładanie, pomiar odległości i inne
 
 * ACID transactional integrity
 * Indeks przestrzenny R-Tree
@@ -127,7 +123,6 @@ Szczegóły
   preferably this would list both community and commercial contacts.
   
 **Wsparcie:** http://www.osgeo.org/search_profile
-
 
 Wprowadzenie
 --------------------------------------------------------------------------------
