@@ -4,7 +4,6 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _zoo-overview:
 
 .. image:: ../../images/project_logos/logo-Zoo.png
   :scale: 50 %
@@ -12,7 +11,13 @@
   :align: right
   :target: http://zoo-project.org/
 
-ZOO Project
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
+
+ZOO-Project
 ================================================================================
 
 Serwer WPS
@@ -21,7 +26,9 @@ Serwer WPS
 Projekt ZOO dostarcza przyjazny dla programisty framework do tworzenia łańcuchowych usług sieciowych WPS. 
 WPS zapewnia dostęp sieciowy do funkcji wykonujących algorytmy przestrzenne. 
 
-Projekt Zoo obsługuje wiele języków programowania i wydany jest z dwiema aplikacjami demo, które wykorzystują możliwości usługodawców narzędzi przestrzennych (współdzieloną bibliotekę C oraz moduł Pythona) bazujących na bibliotekach GEOS i OGR.
+Projekt ZOO obsługuje wiele języków programowania i wydany jest z dwiema aplikacjami demo, 
+które wykorzystują możliwości usługodawców narzędzi przestrzennych (współdzieloną bibliotekę 
+C oraz moduł Pythona) bazujących na bibliotekach GEOS i OGR.
 
 ZOO składa się z trzech komponentów:
 
@@ -30,18 +37,26 @@ ZOO składa się z trzech komponentów:
   :alt: screenshot
   :align: right
 
-*ZOO Kernel* : (Jądro ZOO) Jest to potężne jądro po stronie serwera, umożliwiające zarządzanie i łańcuchowanie usług sieciowych napisanych w różnych językach programistycznych.  
+*ZOO Kernel* : (Jądro ZOO) Jest to potężne jądro po stronie serwera, umożliwiające zarządzanie 
+i łańcuchowanie usług sieciowych napisanych w różnych językach programistycznych.  
 
-*ZOO Services* : (Usługi ZOO) Rosnący zestaw przykładowych usług sieciowych bazujących na wielu wolnych bibliotekach. 
+*ZOO Services* : (Usługi ZOO) Rosnący zestaw przykładowych usług sieciowych bazujących na 
+wielu wolnych bibliotekach. 
 
-*ZOO API* : JavaScript API po stronie serwera, umożliwiające wywoływanie i łączenie usług ZOO,  co pozwala na łatwiejsze programowanie i łączenie funkcji. 
+*ZOO API* : JavaScript API po stronie serwera, umożliwiające wywoływanie i łączenie usług ZOO, 
+co pozwala na łatwiejsze programowanie i łączenie funkcji. 
 
 ZOO bazuje na 'Jądrze usługi WPS', które tworzy rdzeń systemu ZOO (aka Jądro ZOO). 
 To ostatnie służy do wczytywania dynamicznych bibliotek, by użyć ich jako usług 
-WPS na żądanie. Jądro ZOO jest napisane w języku C, ale umożliwia tworzenie Usług ZOO w kilku popularnych językach programowania, aby można było połączyć wiele bibliotek i w konsekwencji 
+WPS na żądanie. Jądro ZOO jest napisane w języku C, ale umożliwia tworzenie Usług ZOO w kilku 
+popularnych językach programowania, aby można było połączyć wiele bibliotek i w konsekwencji 
 uprościć pracę programisty usług sieciowych.
 
-Usługa ZOO jest linkiem składającym się z pliku metadanych ZOO (.zcfg) i kodu dla odpowiednich implementacji. Plik metadanych opisuje wszystkie dostępne funkcje, które mogą być wywołane przy pomocy żądania WPS Exec Request, jak również pożądany format wyjścia/wejścia. Usługi zawierają algorytmy i funkcje, i do tej pory mogą być implementowane w językach C/C++, Fortran, Java, Python, PHP i JavaScript.
+Usługa ZOO jest linkiem składającym się z pliku metadanych ZOO (.zcfg) i kodu dla odpowiednich 
+implementacji. Plik metadanych opisuje wszystkie dostępne funkcje, które mogą być wywołane przy 
+pomocy żądania WPS Exec Request, jak również pożądany format wyjścia/wejścia. Usługi zawierają 
+algorytmy i funkcje, i do tej pory mogą być implementowane w językach C/C++, Fortran, Java, Python, 
+PHP i JavaScript.
 
 Główne funkcje
 --------------------------------------------------------------------------------
@@ -62,7 +77,6 @@ Demo
 * `Demo using simple Python Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/spatialtools-py.html>`_
 * `Simple html form to process your request to the ZOO Kernel <http://localhost/zoo-demo/spatialtools.html>`_
 
-
 Szczegóły
 --------------------------------------------------------------------------------
 
@@ -77,7 +91,6 @@ Szczegóły
 **Języki programowania:** C, Python, Java, PHP, Fortran, Javascript
 
 **Wsparcie:** http://zoo-project.org/trac
-
 
 Szybkie wprowadzenie
 --------------------------------------------------------------------------------
