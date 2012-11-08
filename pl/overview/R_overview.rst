@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live6.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-R.jpg
@@ -10,7 +10,7 @@
   :align: right
   :target: http://cran.r-project.org
 
-R Spatial Task View
+R do danych przestrzennych
 ================================================================================
 
 Programowanie Statystyczne
@@ -43,7 +43,7 @@ well as between R and the modern commercial version of S, TIBCO
 Spotfire S+. This makes it possible to convert different
 versions of S code to run on R without major code modifications.
 
-.. image:: ../../images/screenshots/1024x768/r-perspective.png
+.. image:: ../../images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -51,8 +51,8 @@ versions of S code to run on R without major code modifications.
 Główne funkcje
 --------------------------------------------------------------------------------
 
-* Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications
-* Hundreds of community contributed add-on packages for spatial statistics
+* Kompletny obiektowy język programowania zaprojektowany do statystyki i podobnych zaawansowanych matematycznych analiz 
+* Tysiące przestrzennych rozszerzeń statystycznych dostarczonych przez społeczność 
 * Klasy danych przestrzennych
 * Obsługa danych przestrzennych
 * Czytanie i zapis danych przestrznych
@@ -69,7 +69,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** 2.14.1
+**Wersja programu:** 2.15.1
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 
