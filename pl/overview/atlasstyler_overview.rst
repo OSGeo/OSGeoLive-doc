@@ -4,7 +4,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _atlasstyler-overview-pl:
 
 .. image:: ../../images/project_logos/logo-AtlasStyler.png
   :scale: 100 %
@@ -21,7 +20,7 @@ Edytor stylów obiektów
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ jest przyjazną dla użytkownika aplikacją desktopową do tworzenia i nadawania stylów danym przestrzennym. Stworzone style mogą być zapisane w formie zgodnej ze standardami OGC, jako pliki SLD/SE.
 
-Utworzone pliki SLD kompatybilne są ze wszystkimi programami, które używają standardu OGC SLD, przykładem może być :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` i inne. Aplikacja zbudowana jest z intuicyjnych okien dialogowych, w których łatwo buduje się style. Urzytkownicy mogą zastosować metody klasyfikacji, np. unikalne wartości, kwantyle lub równą odległość. Dodatkowo, użytkownicy zyskują zintegrowany dostęp do bazy danych symboli online. Użytkownicy mogą tworzyć i zapisywać symbole w SymbolEditor oraz używać ich ponownie w klasyfikacji lub innych projektach.
+Utworzone pliki SLD kompatybilne są ze wszystkimi programami, które używają standardu OGC SLD, przykładem może być :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` i inne. Aplikacja zbudowana jest z intuicyjnych okien dialogowych, w których łatwo buduje się style. Użytkownicy mogą zastosować metody klasyfikacji, np. unikalne wartości, kwantyle lub równą odległość. Dodatkowo, użytkownicy zyskują zintegrowany dostęp do bazy danych symboli online. Użytkownicy mogą tworzyć i zapisywać symbole w SymbolEditor oraz używać ich ponownie w klasyfikacji lub innych projektach.
 
 .. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
