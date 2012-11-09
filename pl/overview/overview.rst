@@ -43,7 +43,7 @@ Desktop GIS
 * :doc:`openjump_overview` - [:doc:`Wprowadzenie <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`Wprowadzenie <../quickstart/saga_quickstart>`]
 * :doc:`ossim_overview` - [:doc:`Wprowadzenie <../quickstart/ossim_quickstart>`] - przetwarzanie zobrazowań 
-* :doc:`geopublisher_overview`- [:doc:`Wprowadzenie <../quickstart/geopublisher_quickstart>`] - atlasy multimedialne
+* :doc:`geopublisher_overview` - [:doc:`Wprowadzenie <../quickstart/geopublisher_quickstart>`] - atlasy multimedialne
 * :doc:`atlasstyler_overview` - [:doc:`Wprowadzenie <../quickstart/atlasstyler_quickstart>`] - edytor stylów (SLD)
 * :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
 * :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
@@ -85,17 +85,24 @@ Usługi sieciowe
 
 Dane
 --------------------------------------------------------------------------------
-* :doc:`naturalearth_overview` - zestaw danych przestrzennych
-* :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - próbka danych z OpenStreetMap
 
+.. toctree::
+   :maxdepth: 1
+
+   Natural Earth - zestaw danych geograficznych <naturalearth_overview>
+   nc_dataset_overview
+   OpenStreetMap - próbka danych z OpenStreetMap <osm_dataset_overview>
 Biblioteki geoprzesrzenne
 --------------------------------------------------------------------------------
-* :doc:`geotools_overview` - zestaw narzędzi GIS w Javie
-* :doc:`geos_overview`
-* :doc:`metacrs_overview` - przeliczenia pomiędzy układami
-* :doc:`liblas_overview`  - dostęp do danych LiDAR
 
+.. toctree::
+   :maxdepth: 1
+   
+   GeoTools - zestaw narzędzi GIS w Javie <geotools_overview>
+   GEOS - C/C++ Spatial Library <geos_overview>
+   MetaCRS - przeliczenia pomiędzy układami odniesienia <metacrs_overview>
+   libLAS - dostęp do danych LiDAR <liblas_overview>
+   JTS Topology Suite <jts_overview>
 Inne oprogramowanie warte zainteresowania (niedostępne Live)
 --------------------------------------------------------------------------------
 * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe
