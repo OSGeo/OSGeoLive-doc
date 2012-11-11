@@ -100,9 +100,10 @@
    :maxdepth: 1
 
    GeoTools - Εργαλειοθήκη Java για GIS <geotools_overview>
-   GEOS - Γεωχωρική βιβλιοθήκη C/C++ <geos_overview> 
+   GEOS - Γεωχωρική βιβλιοθήκη C/C++ <geos_overview>
    MetaCRS - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς <metacrs_overview>
    libLAS - Πρόσβαση δεδομένων LiDAR <liblas_overview>
+   JTS - Σουίτα Τοπολογίας Java <jts_overview>
 
 Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
 --------------------------------------------------------------------------------
