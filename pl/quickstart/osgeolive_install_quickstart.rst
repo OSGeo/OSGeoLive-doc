@@ -49,7 +49,7 @@ Wybierz typ klawiatury
   .. image:: ../../images/screenshots/800x600/osgeolive_install4_disk.png
     :scale: 70 %
 
-Wybierz dysk, na którym chcesz zainstalować OSGeo-Live. (Uważaj, może to usunąć całą zainstalowaną partycję).
+Wybierz dysk, na którym chcesz zainstalować OSGeo-Live. (Uważaj, może to usunąć istniejącą partycję).
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install5_username.png
     :scale: 70 %
@@ -75,6 +75,6 @@ Zobacz również:
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`usb_quickstart`
 
