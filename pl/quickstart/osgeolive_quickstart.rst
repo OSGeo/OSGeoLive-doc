@@ -31,50 +31,46 @@ Uruchomienie:
   Weź OSGeo-Live DVD, obraz ISO znajduje się na stronie: http://download.osgeo.org/livedvd.
   Umieść DVD w napędzie CD i zrestartuj komputer.
 
-  Jeśli ustawienia Twojego komputera pozwalają na uruchamianie systemu z napędu CD (a tak jest zazwyczaj) powinien uruchomić się system Xubuntu, z zainstalowanymi aplikacjami Geoprzestrzennymi. Jeśli tak się nie stało, należy dostosować ustawienia BIOS-u lub zaraz po uruchomieniu komputera wcisnąć klawisz wyświetlający menu bootowania.
+  Jeśli ustawienia Twojego komputera pozwalają na uruchamianie 
+  systemu z napędu CD (a tak jest zazwyczaj) powinien uruchomić 
+  się system Xubuntu, z zainstalowanymi aplikacjami 
+  Geoprzestrzennymi. Jeśli tak się nie stało, należy dostosować 
+  ustawienia BIOS-u lub zaraz po uruchomieniu komputera wcisnąć 
+  klawisz wyświetlający menu bootowania.
+  
+   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
+     :scale: 70 %
+     :alt: boot select
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
-    :scale: 70 %
-    :alt: boot
+  Kiedy zobaczysz powyższy ekran, możesz nacisnąć spację, aby otworzyć specjalne opcje menu bootowania. W większości przypadków nie będzie to konieczne.
 
-  Naciśnij :kbd:`ENTER` aby przejść do następnego ekranu.
+   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+     :scale: 70 %
+     :alt: boot
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
-    :scale: 70 %
-    :alt: boot select
+  Zaczekaj na ponowne uruchomienie się systemu.
 
-  Wybierz :guilabel:`live - boot the Live System`
-
-  .. image:: ../../images/screenshots/800x600/osgeolive_login.png
-    :scale: 70 %
-    :alt: boot select
-
-  Na stronie logowania po prostu naciśnij :kbd:`ENTER` lub zaczekaj do końca odliczania.
-
-  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
-    :scale: 70 %
-    :alt: boot select
+   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+     :scale: 70 %
+     :alt: boot select
 
   Wypróbuj aplikacje znajdujące się w menu :menuselection:`Geospatial`. 
 
-   Getting started with the Xfce desktop: (an online work in progress)
+  Getting started with the Xfce desktop: (an online work in progress)
     http://docs.xfce.org/start
 
   Getting started with the Ubuntu operating system: (polecany PDF e-book)
-    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+    `/usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_
 
-  Dalsza pomoc online dla systemu operacyjnego Ubuntu: (n.b. używamy tradycyjnegointerfejsu desktopowego Xfce, a nie Unity)
-    https://help.ubuntu.com/11.04/
+  Dalsza pomoc online dla systemu operacyjnego Ubuntu: (n.b. używamy tradycyjnego interfejsu desktopowego Xfce, a nie Unity)
+    https://help.ubuntu.com/12.04/
 
     https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
-
-    https://help.ubuntu.com/11.04/serverguide/C/
-
 
 Zobacz również:
 --------------------------------------------------------------------------------
 
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
 
