@@ -14,7 +14,7 @@
   :alt: LISAsoft
   :target: http://lisasoft.com
 
-Η εταιρία LISAsoft παρέχει υποστηριχτικούς πόρους και προσωπικό για τη διαχείρηση και συναρμολόγηση του δοκιμαστικού DVD OSGeo-Live.
+Η εταιρία LISAsoft παρέχει υποστηριχτικούς πόρους και προσωπικό για τη διαχείρηση και συναρμολόγηση του δοκιμαστικού OSGeo-Live DVD.
 
 .. image:: ../images/logos/ucd_ice_logo.png
   :alt: Κέντρο Πληροφοριών για το Περιβάλλον (Information Center for the Environment) του πανεπιστημίου Davis στην Καλιφόρνια
