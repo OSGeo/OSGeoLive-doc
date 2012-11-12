@@ -1,6 +1,8 @@
 :Author: OSGeo-Live
-:Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Author: Alex Mandel, Cameron Shorter
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _usb-quickstart-pl:
@@ -12,34 +14,42 @@ Tworzenie rozruchowego PenDrive USB z OSGeo-Live
 Poniżej opisujemy jak utworzyć bootowalny PenDrive USB z OSGeo-Live. Uruchamianie z PenDrive jest szybsze niż z DVD, poza tym napęd ten może być tak skonfigurowany, aby
 przechowywać dane pomiędzy sesjami.
 
-Dopiero niedawno zaczęliśmy testować instalatory napędu USB z OSGeo-Live 4.0. Ponieważ
-otrzymaliśmy szeroki pozytywny oddźwięk, testowanie nie było przeprowadzone na szeroką skalę, jednak kilka osób zgłosiło problem z uruchomieniem OSGeo-Live z napędu USB.
+Odkryliśmy wiele tricków związanych z tworzeniem instalatora napędu USB. Udokumentowaliśmy znalezione problemy, ale zapewne jest ich więcej. Najświeższe wskazówki znajdziesz tutaj: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
 
 Wymagania
 --------------------------------------------------------------------------------
 
-* 4 GB PenDrive USB dla OSGeo-Live-Mini
-* 8 GB PenDrive USB dla OSGeo-Live
-* OSGeo-Live DVD lub obraz ISO (pobrany z: http://live.osgeo.org/download.html)
+* PenDrive USB (conajmniej 4GB, 8GB jest zalecane).
+* OSGeo-Live obraz ISO (pobrany z: 
+http://live.osgeo.org/pl/download.html) lub przekonwertowany z DVD.
+
+ * Dla PenDrive 4 GB USB, użyj ISO osgeo-live-mini (bez instalatorów Windows i Mac)
+ * Dla PenDrive 8 GB USB, użyj ISO osgeo-live-mini lub osgeo-live ISO (z instalatorami Windows i Mac)
+
 
 Tworzenie rozruchowego PenDrive USB na Ubuntu
 --------------------------------------------------------------------------------
 
+(This is the recommended process for creating a USB. It is applicable to Ubuntu and Ubuntu variants such as Xubuntu and OSGeo-Live.)
+
+.. note::
+   The version of Ubuntu you are running, needs to be the same or newer than the version of Xubuntu being installed onto your USB.  If installing OSGeo-Live 6.0 onto a USB, then you will need to be running Ubuntu 12.04 or newer.
+
+`Download <http://live.osgeo.org/en/download.html>`_ osgeo-live or osgeo-live-mini to your computer's hard drive. 
+
+Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by running from an OSGeo-Live DVD, as explained in :doc:`osgeolive_quickstart`.
+
 Wsuń PenDrive do napędu USB komputera.
-
-Jeśli używasz DVD, włóż płytę DVD do napędu DVD.
-
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Wybierz :menuselection:`System --> Administration --> Startup Disk Creator`
+Wybierz :menuselection:`Applications --> System --> Startup Disk Creator`, lub wyszukaj `Startup Disk Creator` z Unity desktop.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
-
-Wybierz CD Drive lub ISO Image.
-
-Wskaż PenDrive USB.
+	
+Wybierz pobrany obraz ISO osgeo-live lub osgeo-live-mini.
+Wskaż PenDrive USB. Jeśli masz więcej miejsca, możesz dopasować suwakiem dodatkowe miejsce na USB (zalecane).
 
 Wybierz :guilabel:`Make Startup Disk`
 
@@ -48,63 +58,34 @@ Wybierz :guilabel:`Make Startup Disk`
 
 Poczekaj około 20 minut na stworzenie PenDrive USB.
 
-Tworzenie rozruchowego PenDrive USB na Windows
+
+Bootowanie z napędu USB:
 --------------------------------------------------------------------------------
 
-Wsuń PenDrive do napędu USB komputera.
+#. Zacznij od wyłączenia komputera.
+#. Wsuń USB drive do portu USB.
+#. Włącz komputer i wybierz uruchomienie z USB:
 
-Pobierz i uruchom Universal USB Installer z: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+   * Większość komputerów nie jest domyślnie ustawiona na uruchomienie systemu z PenDrive USB
+   * Podczas bootowania zwróć uwagę na informację pozwalającą dostać się do menu bootowania (zwykle należy wcisnąć F12)
+   * If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
+#. Ustaw startowanie z urządzenia USB.
 
-Zaakceptuj postanowienia licencji.
-
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
-
-Krok 1: Distrybucja: Wybierz dystrybucję xubuntu i386, która jest użyta w obrazie
-OSGeo-Live (dla |osgeo-live-version|, wybierz xubuntu 10.04 Desktop i386).
-
-Krok 2: Wybierz ostatni obraz ISO OSGeo-Live, który został pobrany na komputer. Uwaga: Trzeba ręcznie wprowadzić ścieżkę do pliku ISO, ponieważ przycisk :guilabel:`Browse` znajduje tylko pliki ISO xubuntu.
-
-Krok 3: Wybierz swój PenDrive USB.
-
-Krok 4: Wybierz "Persistence" jeśli chcesz zapamiętać stan pomiędzy sesjami.
-
-Wybierz :guilabel:`Create`
-
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
-
-Poczekaj około 20 minut na stworzenie PenDrive USB.
-
-Ustaw kolejność bootowania w BIOS-ie:
---------------------------------------------------------------------------------
-
-Większość komputerów nie jest domyślnie ustawiona na uruchomienie systemu z PenDrive USB.
-
-Aby to osiągnąć, zrestartuj komputer i naciśnij odpowiendni klawisz,
-aby dostać się do BIOS-u (zwykle <Delete> lub <Klawisz funkcyjny> lub podobny).
-
-Ustaw startowanie z urządzenia USB.
-
-Zauważ, że dla niektórych komputerów urządzenie USB musi znajdować się w napędzie, aby można było je wskazać.
-
-Zauważ też, że urządzenie USB jest zwykle listowane za twardymi dyskami, a nie urządzeniami mobilnymi. 
-
+   * Zauważ, że dla niektórych komputerów urządzenie USB musi znajdować się w napędzie, aby można było je wskazać.
+   * Zauważ też, że urządzenie USB jest zwykle listowane za twardymi dyskami, a nie urządzeniami mobilnymi. 
+   * `Wideo <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstruje bootowanie z USB.
+   
 Uruchomienie:
 --------------------------------------------------------------------------------
 
 Uruchom jak w: :doc:`osgeolive_quickstart`
 
-Znane problemy:
---------------------------------------------------------------------------------
-
-* Komputery Mac nie wystartują z PenDrive USB, należy tu użyć LiveDVD. 
-
 Zobacz także:
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * Jeśli napotkasz problemy, zgłoś je na tej stronie wiki: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB oraz liście dyskusyjnej: http://lists.osgeo.org/mailman/listinfo/live-demo
  * Inne opcje bootowania z USB znajdziesz na http://pendrivelinux.com 
