@@ -10,13 +10,13 @@
   :target: http://sourceforge.net/apps/mediawiki/viking/
 
 ********************************************************************************
-Guida rapisa su Viking 
+Guida rapida su Viking 
 ********************************************************************************
 
-Running
+Eseguirlo
 ================================================================================
 
-Getting Started
+Come iniziare
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. from /usr/share/doc/viking/GETTING_STARTED

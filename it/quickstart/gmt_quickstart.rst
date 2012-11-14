@@ -2,6 +2,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
+:Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-GMT.png
   :scale: 100 %
@@ -16,7 +17,7 @@ Guida rapida su GMT
 Eseguirlo
 ================================================================================
 
-Incluse sul LiveDVD c'è la documentazione GMT (HTML e PDF),
+Incluso sul LiveDVD c'è la documentazione GMT (HTML e PDF),
 script di esempio (incluso una linea di costa mondiale a bassa risoluzione),
 tutorial (HTML e PDF), e i set di dati per i tutorial.
 
