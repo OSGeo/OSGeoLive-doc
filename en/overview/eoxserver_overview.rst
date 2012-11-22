@@ -1,9 +1,15 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: 
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+.. Comment: This image is too big for an icon. It should ideally be 125x125
+  pixels. Note this icon is included into diagrams in powerpoint presentations
+  which requires a constant and size for the image. (Otherwise the image is
+  compressed to be very small and thin)
+.. End comment.
+  
 .. image:: ../../images/project_logos/logo-eoxserver-2.png
   :scale: 65 %
   :alt: project logo
@@ -16,82 +22,80 @@ EOxServer
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EOxServer is a server for Earth Observation (EO) data. More precisely it is 
-a Python application and framework for presenting EO data and metadata.
+EOxServer is a server for presenting big Earth Observation (EO) data archives and metadata via Open Standards.
 
-EOxServer's mission: To provide an Open Source software framework to ease 
-the online provision of big Earth Observation data archives via Open 
-Standard services for efficient exploitation by users.
+.. Comment:
+.. In 1 sentence or so, explain what is special or different about Big Earth Observation data
+  Eg: Big Earth Observation data includes such things as .... and is used for
+  the anlaysis of ...
+.. End Comment
 
-* Open Source: MIT-style license
-* software framework: Entirely based on Open Source (Python, :doc:`MapServer <mapserver_overview>`, 
-  Django/GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>`, or 
-  :doc:`PostGIS <postgis_overview>`, and PROJ.4)
-* ease online provision: Admin GUI and command line data registration
-* big Earth Observation data archives: Operators register existing raster data 
-  archives
-* Open Standard services: Open in the sense of freely available; Open 
-  Geospatial Consortium (OGC); WMS, WCS, EO-WMS, EO-WCS
-* efficient exploitation by users: User defined sub-setting; view and download
+EOxServer builds upon an Open Source stack of software which includes Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4 and a :doc:`SpatiaLite <spatialite_overview>` or :doc:`PostGIS <postgis_overview>` database.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
-  :alt: EOxServer embedded client screen shot
+  :alt: EOxServer embedded client
   :align: right
-
 
 Core Features
 --------------------------------------------------------------------------------
 
-The available core features are:
+.. Comment:
+  Is the following bullet point correct?
+.. End Comment
+* Upload, search, filter, view and download EO data.
+* Web based and command line administration interface.
+* Registration of existing raster data archives.
+* Publish data via Web Coverage Service (WCS) standard:
 
-* Support of GML AP – Coverages for RectifiedGridCoverages
-* Support of adopted WCS 2.0 specification (Core including GetCapabilities, 
-  DescribeCoverage, and GetCoverage requests, KVP-, and XML/POST protocol 
-  binding)
-* Anticipated support of envisaged extensions: Coverage format, GeoTIFF 
-  encoding, predefined (or EPSG) CRSs, scaling & interpolation, and 
-  non-referenced access. By "anticipating" we mean to reflect the latest 
-  WCS.SWG discussions as well as to follow the relevant parts of the previous 
-  1.1 and 1.0 versions of WCS.
-* Support of 2-D EO Coverages derived from gmlcov:RectifiedGridCoverage
-* Support of 2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage
-* Support of Dataset Series as a collection of EO Coverages e.g. in a time 
-  series
-* Support of new DescribeEOCoverageSet operation on Dataset Series and EO 
-  Coverages
-* Support of Stitched Mosaic of Rectified EO Coverages including concept of 
-  contributingFootprint
-* Support of EO Metadata (retrieval and evaluation in DescribeEOCoverageSet 
-  operation)
-* Protocoll bindings supported:
+.. Comment: You mention "core WCS support". Do you cover all the WCS queries? 
+  What is not supported?
+  Am I right in implying that you cover all WCS 2.0 functionality, as well
+  as some extra queries not in the standard yet?
+.. End Comment
 
- * KVP
- * XML/POST (used together with SOAP2POST Proxy to support XML/SOAP protocol 
-   binding) 
+  * WCS 1.0, 1.1 and 2.0 support
+ 
+.. Comment: If you cover all WCS 2.0, then no need to list each interface.
+    including: GetCapabilities, DescribeCoverage, and GetCoverage requests.
+.. End Comment
+
+  * Proposed extensions to WCS including: GeoTIFF 
+    encoding, predefined projections (CRSs), scaling & interpolation, and 
+    non-referenced access.
+  * Protocols supported are KVP, XML/POST (used together with SOAP2POST
+    Proxy to provide an XML/SOAP interface).
+
+* Publish using the following formats:
+
+  * GML AP – Coverages for RectifiedGridCoverages.
+  * 2-D EO Coverages derived from gmlcov:RectifiedGridCoverage.
+  * 2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage.
+  * Dataset Series as a collection of EO Coverages e.g. in a time series.
+  * DescribeEOCoverageSet operation on Dataset Series and EO Coverages.
+  * Stitched Mosaic of Rectified EO Coverages including contributingFootprint.
+  * EO Metadata.
 
 * Coverage formats supported:
 
- * GeoTIFF
- * Formats supported by the GDAL library (support needs to be verified for 
-   each required format separately) 
+ * GeoTIFF.
+ * Formats supported by the GDAL library.
 
-* Support of EO-WMS for EO Coverages 
+* Publishing of images through WMS and EO-WMS standard
 
 Implemented Standards
 --------------------------------------------------------------------------------
-
-* Support of numerous Open Geospatial Consortium  (OGC) standards
 
   * WCS, EO-WCS
   * WMS, EO-WMS
   * GML, GMLCOV, EO-O&M
 
-Demo
---------------------------------------------------------------------------------
-
-* `Local <http://localhost/eoxserver/>`_
-* `Online <https://eoxserver.org/demo_stable/>`_
+.. Comment: We don't include the demo in this doc. Instead it is covered in the Quickstart.
+  Demo
+  --------------------------------------------------------------------------------
+  * `Local <http://localhost/eoxserver/>`_
+  * `Online <https://eoxserver.org/demo_stable/>`_
+.. End comment.
 
 Documentation
 --------------------------------------------------------------------------------
