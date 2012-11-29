@@ -24,9 +24,9 @@ Wsparcie komercyjne
 ================================================================================
 
 .. image:: ../images/logos/lisasoftlogo.jpg
- :scale: 100%
- :alt: LISAsoft
- :target: http://lisasoft.com
+  :scale: 100%
+  :alt: LISAsoft
+  :target: http://lisasoft.com
 
 Firma LISAsoft oferuje usługi w zakresie budowania 
 Live DVD, oraz instalatorów wielu programów na nim zawartych.
