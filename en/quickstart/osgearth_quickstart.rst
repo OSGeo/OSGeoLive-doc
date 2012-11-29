@@ -32,7 +32,7 @@ You should see a globe with satellite imagery.
 * Click to navigate; right-click or scroll wheel to zoom in and out.
 * Drag mouse with left+right click for tilt.
 * Press :kbd:`h` for help.
-* hit the :kbd:`ESCAPE` key to quit 
+* Hit the :kbd:`ESCAPE` key to quit.
 
 
 Running osgviewer with an OpenStreetMap overlay
