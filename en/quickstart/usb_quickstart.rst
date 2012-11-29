@@ -56,11 +56,11 @@ Select :guilabel:`Make Startup Disk`
 Wait 20 minutes or so for the USB flash drive to be created.
 
 
-Booting from the usb drive:
+Booting from the USB drive:
 --------------------------------------------------------------------------------
 
 #. Start with the computer off.
-#. Insert the usb drive into an open usb port.
+#. Insert the USB drive into an open USB port.
 #. Power on the Machine and select to boot from USB:
 
    * Most computers are not set to boot from a USB drive by default.
@@ -71,7 +71,7 @@ Booting from the usb drive:
 
    * Note, that for some computers you will need to have the USB drive inserted into the computer in order to select it.
    * Note also, the USB drive is often listed under hard drives rather than removable devices. 
-   * `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from usb.
+   * `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from USB.
 
 Run:
 --------------------------------------------------------------------------------
