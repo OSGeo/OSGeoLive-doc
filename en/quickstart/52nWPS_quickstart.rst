@@ -34,7 +34,7 @@ Running
   
   
 * Push the Send-Button and the request will be transmitted to the 52°North WPS which will
-  generate a xml-representation for a buffer around the major roads of tasmania with a width of 0.05 degrees.
+  generate a xml-representation for a buffer around the major roads of Tasmania with a width of 0.05 degrees.
 
 .. image:: ../../images/screenshots/1024x768/52n_wps_response.png
   :scale: 100 %
