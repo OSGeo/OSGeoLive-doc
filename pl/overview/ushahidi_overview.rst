@@ -1,7 +1,7 @@
 :Author: Henry Addo
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live6.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
@@ -53,6 +53,8 @@ Główne funkcje
 * Tematy.
 * Harmonogram.
 * Cache.
+* Możliwość wczytania video.
+* Supports Badges for awarding users of the Ushahidi platform.
 
 Demo
 --------------------------------------------------------------------------------
@@ -77,6 +79,6 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/ushahidi_quickstart>`
+* :doc:`Przejdź do wprowadzenia <../quickstart/ushahidi_quickstart>`
 
 
