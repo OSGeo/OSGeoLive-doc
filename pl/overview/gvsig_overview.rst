@@ -4,8 +4,6 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _gvsig-overview-pl:
-
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :scale: 75 %
   :alt: project logo
@@ -25,20 +23,25 @@ gvSIG Desktop
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-gvSIG_ jest desktopową aplikacją Systemu Informacji Geograficznej (GIS) zaprojektowaną
-do pozyskiwania, przechowywania i analiz każdego rodzaju
-informacji geograficznej, w celu rozwiązywania kompleksowych problemów zarządzania i 
-planowania przestrzeni. gvSIG jest znany ze swojego przyjaznego dla użytkownika interfejsu i możliwości
-dostępu do wszystkich popularnych formatów danych rastrowych i wektorowych. Zawiera 
+gvSIG_ jest desktopową aplikacją Systemu Informacji Geograficznej (GIS) 
+zaprojektowaną do pozyskiwania, przechowywania i analiz każdego rodzaju
+informacji geograficznej, w celu rozwiązywania kompleksowych problemów 
+zarządzania i planowania przestrzeni. gvSIG jest znany ze swojego 
+przyjaznego dla użytkownika interfejsu i możliwości dostępu do wszystkich 
+popularnych formatów danych rastrowych i wektorowych. Zawiera 
 szeroki wachlarz narzędzi do pracy z informacjami geograficznymi (odpytywania,
-tworzenia warstw, geoprocessingu, analiz sieciowych, etc.), które zmieniają gvSIG w idealne
-narzędzie dla użytkowników zajmujcych się przestrzenią geograficzną.
+tworzenia warstw, geoprocessingu, analiz sieciowych, etc.), które zmieniają 
+gvSIG w idealne narzędzie dla użytkowników zajmujcych się przestrzenią 
+geograficzną.
 
 gvSIG jest znany z:
 
-* możliwości integrowania w tym samym widoku zarówno lokalnych jak i zdalnych danych z pomocą standardów OGC.
-* bycia łatwo rozszerzalnym, co pozwala na nieprzerwane doskonalenie aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
-* bycia dostępnym w ponad 20 językach (hiszpańskim, angielskim, niemieckim, francuskim, włoskim, ...) .
+* możliwości integrowania w tym samym widoku zarówno lokalnych jak i zdalnych 
+danych z pomocą standardów OGC.
+* bycia łatwo rozszerzalnym, co pozwala na nieprzerwane doskonalenie 
+aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
+* bycia dostępnym w ponad 20 językach (hiszpańskim, angielskim, 
+niemieckim, francuskim, włoskim, ...).
 * bycia dostępnym dla platform Windws, Linux, i Mac OS X:
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
@@ -49,7 +52,13 @@ gvSIG jest znany z:
 Główne funkcje
 --------------------------------------------------------------------------------
 
-* Dostarcza popularnych narzędzi GIS, służących do wczytywania danych, nawigacji po mapie, odpytywania informacji takich jak informacje alfanumeryczne, pomiaru odległości, kartografii tematycznej, edycji legendy z użyciem typowych rodzajów legendy, etykietowania, wybierania obiektów za pomocą różnych sposobów selekcji, tabel danych z ich statystykami, segregowania według kolejności, relacji między tabelami, łączenia tabel, zarządzania treścią mapy, geoprocesingu, CAD, przetwarzania rastrów itp.
+* Dostarcza popularnych narzędzi GIS, służących do wczytywania danych, 
+nawigacji po mapie, odpytywania informacji takich jak informacje 
+alfanumeryczne, pomiaru odległości, kartografii tematycznej, edycji 
+legendy z użyciem typowych rodzajów legendy, etykietowania, wybierania 
+obiektów za pomocą różnych sposobów selekcji, tabel danych z ich statystykami, 
+segregowania według kolejności, relacji między tabelami, łączenia tabel, 
+zarządzania treścią mapy, geoprocesingu, CAD, przetwarzania rastrów itp.
 
 * Interopercyjność: może pracować na większości znanych formatów danych:
 
@@ -70,8 +79,9 @@ Główne funkcje
   * dane wektorowe: modyfikacja, tworzenie i usuwanie obiektów
   * typowy dla programów CAD wiersz poleceń
   * narzędzia typu pomoc, grid, command stack, compleksowe wybieranie obiektów
-  * narzędzia do wprowadzania obiektów typu punktowego, poligonowego, liniowego, eliptycznego, etc...
-  * narzędzia do modyfikacji ich kąta obrotu i symetrii,...
+  * narzędzia do wprowadzania obiektów typu punktowego, poligonowego, 
+  liniowego, eliptycznego, etc...
+  * narzędzia do modyfikacji ich kąta obrotu i symetrii, ...
   
 * Zintegrowane zaawansowane narzędzia rastrowe:
 
