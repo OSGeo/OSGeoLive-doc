@@ -24,25 +24,25 @@ GeoMoose
 Portal Web GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoMOOSE frameworkiem s³u¿¹cym do wyœwietlania rozproszonych danych kartograficznych bazuj¹cym na przegl¹darce internetowej. Jest szczególnie u¿yteczny do zarz¹dzania danymi przestrzennymi i nie- przestrzennymi na poziomie krajowym, miejskim oraz urzêdów gmin (st¹d siê wywodzi). Rozszerza funkcjonalnoœæ MapServera i OpenLayers aby dostarczyæ us³ugi takie jak operacje przeszukiwania danych s³u¿¹ce przegl¹daniu i zarz¹dzaniu wieloma warstwami, operacje selekcji i przeszukiwania danych.
+GeoMOOSE frameworkiem sÅ‚uÅ¼Ä…cym do wyÅ›wietlania rozproszonych danych kartograficznych bazujÄ…cym na przeglÄ…darce internetowej. Jest szczegÃ³lnie uÅ¼yteczny do zarzÄ…dzania danymi przestrzennymi i nie- przestrzennymi na poziomie krajowym, miejskim oraz urzÄ™dÃ³w gmin (stÄ…d siÄ™ wywodzi). Rozszerza funkcjonalnoÅ›Ä‡ MapServera i OpenLayers aby dostarczyÄ‡ usÅ‚ugi takie jak operacje przeszukiwania danych sÅ‚uÅ¼Ä…ce przeglÄ…daniu i zarzÄ…dzaniu wieloma warstwami, operacje selekcji i przeszukiwania danych.
 
-GeoMOOSE jest szybki, potrafi jednoczeœnie obs³u¿yæ tysi¹ce warstw i/lub us³ug. Dane od ró¿nych dostawców mog¹ byæ zarz¹dzane za pomoc¹ ró¿nych narzêdzi oraz wed³ug odmiennych zasad, poniewa¿ka¿da warstwa mapy posiada swój plik konfiguracyjny do publikacj, symbole, szablon oraz Ÿród³o.
+GeoMOOSE jest szybki, potrafi jednoczeÅ›nie obsÅ‚uÅ¼yÄ‡ tysiÄ…ce warstw i/lub usÅ‚ug. Dane od rÃ³Å¼nych dostawcÃ³w mogÄ… byÄ‡ zarzÄ…dzane za pomocÄ… rÃ³Å¼nych narzÄ™dzi oraz wedÅ‚ug odmiennych zasad, poniewaÅ¼kaÅ¼da warstwa mapy posiada swÃ³j plik konfiguracyjny do publikacj, symbole, szablon oraz ÅºrÃ³dÅ‚o.
 
-Interfejs u¿ytkownika mo¿e byæ konfigurowany w prosty sposób a dodatkowe us³ugi dodawane z wykorzystaniem architektury modu³owej.
+Interfejs uÅ¼ytkownika moÅ¼e byÄ‡ konfigurowany w prosty sposÃ³b a dodatkowe usÅ‚ugi dodawane z wykorzystaniem architektury moduÅ‚owej.
 
 .. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
   :scale: 55 %
   :alt: geomoose-screenshot-800x600.png
   :align: right
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
 * Distributed data maintenance amongst multiple owners.
-* Dostêp do map z: MapServera, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST, WMS.
+* DostÄ™p do map z: MapServera, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST, WMS.
 * Configure multiple views of data sources.
 * Discover and filter from data catalogs.
-* Narzêdzia: pomiar, rysowanie, zapytania, fading, re-order, reprojekcja, skocz do zoomu, coordinate readouts, ...
+* NarzÄ™dzia: pomiar, rysowanie, zapytania, fading, re-order, reprojekcja, skocz do zoomu, coordinate readouts, ...
 * Displays: MapViewer, Bird's Eye, Side Menu, Navigation, Tabbed User Controls.
 * XML based MapBook configuration file for User Interface, Source Layers and Tools.
 * Integracja z MapServerem.
@@ -54,7 +54,7 @@ Zaimplementowane standardy
 --------------------------------------------------------------------------------
 * WMS
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** http://www.geomoose.org/
@@ -67,10 +67,10 @@ Szczegó³y
 
 **Wsparcie komercyjne:** http://www.geomoose.org/info/commercial_support.html
 
-**Wsparcie spo³ecznoœci:** http://www.geomoose.org/info/mailing_lists.html
+**Wsparcie spoÅ‚ecznoÅ›ci:** http://www.geomoose.org/info/mailing_lists.html
 
 
 Wprowadzenie
 --------------------------------------------------------------------------------
     
-* :doc:`PrzejdŸ do wprowadzenia <../quickstart/geomoose_quickstart>`
+* :doc:`PrzejdÅº do wprowadzenia <../quickstart/geomoose_quickstart>`
