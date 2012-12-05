@@ -17,8 +17,12 @@
 Overview
 --------
 
-EOxServer is a server for Earth Observation (EO) data. More precisely it is 
-a Python application and framework for presenting EO data and metadata.
+EOxServer is a server for presenting big Earth Observation (EO) data 
+archives and metadata via Open Standards. It builds upon an Open Source 
+stack of software which includes Python, :doc:`MapServer 
+<mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4 
+and a :doc:`SpatiaLite <spatialite_overview>` or :doc:`PostGIS 
+<postgis_overview>` database.
 
 This Quick Start describes how to:
 
@@ -26,7 +30,7 @@ This Quick Start describes how to:
 * Access and use the demonstration instance
 
 See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`, the 
-`EOxServer 0.2.1 Documentation 
+`EOxServer 0.2.2 Documentation 
 <../../eoxserver-docs/EOxServer_documentation.pdf>`_, or the `online 
 documentation <http://eoxserver.org/doc/>`_ for more information.
 
@@ -50,7 +54,9 @@ Demonstration Instance
 ----------------------
 
 The new icon on the desktop labelled `EOxServer` launches a browser showing 
-the demonstration instance available at http://localhost/eoxserver/.
+the demonstration instance available at http://localhost/eoxserver/ which 
+provides the same data as the one available `online 
+<https://eoxserver.org/demo_stable/>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %

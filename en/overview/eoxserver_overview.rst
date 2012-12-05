@@ -4,14 +4,8 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. Comment: This image is too big for an icon. It should ideally be 125x125
-  pixels. Note this icon is included into diagrams in powerpoint presentations
-  which requires a constant and size for the image. (Otherwise the image is
-  compressed to be very small and thin)
-.. End comment.
-  
-.. image:: ../../images/project_logos/logo-eoxserver-2.png
-  :scale: 65 %
+.. image:: ../../images/project_logos/logo-eoxserver.png
+  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://eoxserver.org/
@@ -22,15 +16,15 @@ EOxServer
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EOxServer is a server for presenting big Earth Observation (EO) data archives and metadata via Open Standards.
+EOxServer is a server for presenting big Earth Observation (EO) data 
+archives and metadata via Open Standards. Earth Observation data includes 
+information about the time of acquisition and the footprint on planet Earth 
+and is typically used to monitor Earth's natural and built environment.
 
-.. Comment:
-.. In 1 sentence or so, explain what is special or different about Big Earth Observation data
-  Eg: Big Earth Observation data includes such things as .... and is used for
-  the anlaysis of ...
-.. End Comment
-
-EOxServer builds upon an Open Source stack of software which includes Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4 and a :doc:`SpatiaLite <spatialite_overview>` or :doc:`PostGIS <postgis_overview>` database.
+EOxServer builds upon an Open Source stack of software which includes 
+Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL 
+<gdal_overview>`, PROJ.4 and a :doc:`SpatiaLite <spatialite_overview>` or 
+:doc:`PostGIS <postgis_overview>` database.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
@@ -40,48 +34,40 @@ EOxServer builds upon an Open Source stack of software which includes Python, :d
 Core Features
 --------------------------------------------------------------------------------
 
-.. Comment:
-  Is the following bullet point correct?
-.. End Comment
-* Upload, search, filter, view and download EO data.
-* Web based and command line administration interface.
-* Registration of existing raster data archives.
-* Publish data via Web Coverage Service (WCS) standard:
+* Filter, view, subset, and download EO data by users
+* Register and provide online EO data by data providers
+* Web based and command line administration interface
+* Registration of existing raster data archives
+* Publish data via Open Geospatial Consortium (OGC) standards:
 
 .. Comment: You mention "core WCS support". Do you cover all the WCS queries? 
   What is not supported?
   Am I right in implying that you cover all WCS 2.0 functionality, as well
   as some extra queries not in the standard yet?
 .. End Comment
+.. Reply:
+  Yes, you're right and in addition WCS 2.0 is structured in a core and several 
+  extensions.
+.. End Reply
 
-  * WCS 1.0, 1.1 and 2.0 support
- 
-.. Comment: If you cover all WCS 2.0, then no need to list each interface.
-    including: GetCapabilities, DescribeCoverage, and GetCoverage requests.
-.. End Comment
-
-  * Proposed extensions to WCS including: GeoTIFF 
-    encoding, predefined projections (CRSs), scaling & interpolation, and 
-    non-referenced access.
+  * Web Coverage Service (WCS) 1.0, 1.1 and 2.0 & proposed EO-WCS
+  * Web Map Service (WMS) & EO-WMS
+  * Proposed extensions to WCS including: GeoTIFF encoding, predefined 
+    projections (CRSs), scaling, and interpolation.
   * Protocols supported are KVP, XML/POST (used together with SOAP2POST
     Proxy to provide an XML/SOAP interface).
 
-* Publish using the following formats:
+* Publish using the following formats and groupings:
 
-  * GML AP – Coverages for RectifiedGridCoverages.
-  * 2-D EO Coverages derived from gmlcov:RectifiedGridCoverage.
-  * 2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage.
-  * Dataset Series as a collection of EO Coverages e.g. in a time series.
-  * DescribeEOCoverageSet operation on Dataset Series and EO Coverages.
-  * Stitched Mosaic of Rectified EO Coverages including contributingFootprint.
-  * EO Metadata.
+  * 2-D EO Coverages derived from gmlcov:RectifiedGridCoverage
+  * 2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage
+  * Dataset Series as a collection of EO Coverages e.g. in a time series
+  * Stitched Mosaic of Rectified EO Coverages including contributingFootprint
 
 * Coverage formats supported:
 
  * GeoTIFF.
  * Formats supported by the GDAL library.
-
-* Publishing of images through WMS and EO-WMS standard
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -90,17 +76,12 @@ Implemented Standards
   * WMS, EO-WMS
   * GML, GMLCOV, EO-O&M
 
-.. Comment: We don't include the demo in this doc. Instead it is covered in the Quickstart.
-  Demo
-  --------------------------------------------------------------------------------
-  * `Local <http://localhost/eoxserver/>`_
-  * `Online <https://eoxserver.org/demo_stable/>`_
-.. End comment.
-
 Documentation
 --------------------------------------------------------------------------------
 
-* `EOxServer 0.2.1 Documentation <../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `Local <../../eoxserver-docs/EOxServer_documentation.pdf>`_
+* `Online <http://eoxserver.org/doc>`_
+
 
 Details
 --------------------------------------------------------------------------------
@@ -109,7 +90,7 @@ Details
 
 **Licence:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Software Version:** 0.2.1
+**Software Version:** 0.2.2
 
 **Supported Platforms:** Linux, Windows, Mac
 
