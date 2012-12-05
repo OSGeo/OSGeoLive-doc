@@ -92,7 +92,8 @@ Dane
    Natural Earth - zestaw danych geograficznych <naturalearth_overview>
    nc_dataset_overview
    OpenStreetMap - próbka danych z OpenStreetMap <osm_dataset_overview>
-Biblioteki geoprzesrzenne
+   
+Biblioteki geoprzestrzenne
 --------------------------------------------------------------------------------
 
 .. toctree::
@@ -103,6 +104,7 @@ Biblioteki geoprzesrzenne
    MetaCRS - przeliczenia pomiędzy układami odniesienia <metacrs_overview>
    libLAS - dostęp do danych LiDAR <liblas_overview>
    JTS Topology Suite <jts_overview>
+   
 Inne oprogramowanie warte zainteresowania (niedostępne Live)
 --------------------------------------------------------------------------------
 * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe
