@@ -53,7 +53,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** 1.7.4
+**Wersja programu:** 1.8.0
 
 **Systemy operacyjne:** Windows, Linux
 
