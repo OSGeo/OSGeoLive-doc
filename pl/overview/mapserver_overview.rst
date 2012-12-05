@@ -1,8 +1,8 @@
 :Author: Alan Boudreault
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapserver-overview-pl:
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
   :scale: 65 %
@@ -103,5 +103,4 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/mapserver_quickstart.html>`_
-
+* :doc:`Przejdź do wprowadzenia <../quickstart/mapserver_quickstart.html>`
