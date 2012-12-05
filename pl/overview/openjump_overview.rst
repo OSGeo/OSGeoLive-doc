@@ -1,8 +1,8 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _openjump-overview-pl:
 
 .. image:: ../../images/project_logos/logo-openjump.png
   :scale: 100 %
@@ -16,23 +16,29 @@ OpenJUMP GIS
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-OpenJUMP jest łatwym w użyciu i potężnym narzędziem deskstop GIS, które umożliwia użytkownikom edycję, analizy, zapis i wyświetlaniedanych geograficznych.
-Jest również znakomitym frameworkiem dla programistów jako szybko dostępna baza do stworzenia systemu GIS dostosowanego do potrzeb użytkownika.
+OpenJUMP jest łatwym w użyciu i potężnym narzędziem deskstop GIS, 
+które umożliwia użytkownikom edycję, analizy, zapis i 
+wyświetlaniedanych geograficznych.
+Jest również znakomitym frameworkiem dla programistów jako 
+szybko dostępna baza do stworzenia systemu GIS dostosowanego 
+do potrzeb użytkownika.
 
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
-  :align: center
+  :align: right
 
 Główne funkcje
 --------------------------------------------------------------------------------
 
 * Formaty danych
 
-    * odczyt (pliki): GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
-    * odczyt (bazy danych): PostGIS, ArcSDE*, Oracle* i MySQL*
+    * odczyt (pliki): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG,
+	 JPEG2000*, MrSID*, ECW*
+    * odczyt (bazy danych): PostGIS, ArcSDE*, Oracle* *, MySQL* and SpatiaLite*
+    * odczyt (standardy OGC): WKT, WMS
     * zapis: GML, SHP, DXF*, PostGIS*, JML & JPG
-    * obsługa: OGC WMS & WFS (-T), GML 2, SLD
+    * zapis: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF and SVG*
     * uwaga, formaty oznaczone (*) obsługiwane są przez wtyczki
 
 * Edycja & nanoszenie poprawek
@@ -46,13 +52,16 @@ Główne funkcje
 * (Wektor) Analizy & Zapytania
 
     * funkcje zapytań przestrzennych i poprzez atrybuty
-    * obliczenia długości, powierzchni, centroidy, buforowanie, otoczki wypukłe,...
-    * narzędzia topologii: line noder, polygonizer, planar graph,...
-    * narzędzia do transferu tatrybutów (łączenie 1:1 lub n:1)
-    * analizy rastrowe z pomocą SEXTANTE 
+    * obliczenia długości, powierzchni, centroidy, buforowanie, otoczki 
+	wypukłe,...
+    * narzędzia topologii: converter, noder, polygonizer, graf planarny, 
+	czyszczenie topologii w edycji PLUS, ...
+    * narzędzia do transferu atrybutów : join, matching*
+    * analizy rastrowe z pomocą narzędzi SEXTANTE w edycji PLUS
 
 * Personalizacja
 
+    * internacjonalizacja (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
     * zapewnia API, skryptowanie w BeanShell i Java Python
     * (Java) system wtyczek
    
@@ -62,7 +71,7 @@ Zaimplementowane standardy
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
+* OGC standards supported: GML2, SFS, WMS i SLD; (WFS dla deegree)
 
 Szczegóły
 --------------------------------------------------------------------------------
@@ -71,7 +80,7 @@ Szczegóły
 
 **Licencja:** GNU General Public License (GPL)
 
-**Wersja programu:** 1.5.1
+**Wersja programu:** 1.5.2 (Core Edition)
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 
@@ -79,8 +88,10 @@ Szczegóły
 
 **Wsparcie komercyjne:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
 
+**Pobierz:** http://sourceforge.net/projects/jump-pilot/files/ 
+
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/openjump_quickstart.html>`_
+* :doc:`Przejdź do wprowadzenia <../quickstart/openjump_quickstart.html>`
 
