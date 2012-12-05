@@ -19,11 +19,13 @@ GpsDrive
 Program do nawigacji GPS 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`GpsDrive <http://www.gpsdrive.de>`_ jest samochodowym (rowerowym, morskim, samolotowym, pieszym)
-systemem nawigacji. GpsDrive wyświetla twoją pozycję z GPS na interaktywnej mapie.
-Mapy podkładowe są wybierane automatycznie, w zależności od twojej pozycji
-i zadanej skali mapy. Mogą być wykorzystane dowolne odbiorniki GPS obsługujące protokół NMEA, 
-jak również wiele GPS na USB, działających na binarnych protokołach porozumiewających się z  
+`GpsDrive <http://www.gpsdrive.de>`_ jest samochodowym (rowerowym, 
+morskim, samolotowym, pieszym) systemem nawigacji. GpsDrive wyświetla 
+twoją pozycję z GPS na interaktywnej mapie.
+Mapy podkładowe są wybierane automatycznie, w zależności od twojej 
+pozycji i zadanej skali mapy. Mogą być wykorzystane dowolne 
+odbiorniki GPS obsługujące protokół NMEA, jak również wiele GPS na 
+USB, działających na binarnych protokołach porozumiewających się z  
 `Gpsd <http://gpsd.berlios.de>`_ GPS daemon i multiplexer.
 
 Główne funkcje
@@ -34,7 +36,7 @@ Główne funkcje
   :alt: screenshot
   :align: right
 
-* Pobierz dane LANDSAT lub OpenStreetMap z Internetu lub zarejestruj własne zobrazowania
+* Pobieranie danych LANDSAT lub OpenStreetMap z Internetu lub rejestrowanie własnych zobrazowań
 * Renderowanie na żywo danych OpenStreetMap przechowywanych w SZBD PostGIS z wykorzystaniem Mapnika
 * Renderowanie na żywo wysokorozdzielczej mozaiki Blue Marble z NASA 
 * Instrukcje werbalne za pomocą eSpeak
@@ -53,7 +55,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 2.11
+**Wersja programu:** 2.12svn
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX
 
