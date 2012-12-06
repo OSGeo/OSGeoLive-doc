@@ -17,9 +17,12 @@ Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 EOxServer is a server for presenting big Earth Observation (EO) data 
-archives and metadata via Open Standards. Earth Observation data includes 
-information about the time of acquisition and the footprint on planet Earth 
-and is typically used to monitor Earth's natural and built environment.
+archives and metadata via Open Standards.
+
+Earth Observation data currently supported is 2D raster data generally 
+acquired using sensors on satellites or aircrafts and including information 
+about the time of acquisition and the footprint on planet Earth. It is 
+typically used to monitor Earth's natural and built environment.
 
 EOxServer builds upon an Open Source stack of software which includes 
 Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL 
@@ -39,16 +42,6 @@ Core Features
 * Web based and command line administration interface
 * Registration of existing raster data archives
 * Publish data via Open Geospatial Consortium (OGC) standards:
-
-.. Comment: You mention "core WCS support". Do you cover all the WCS queries? 
-  What is not supported?
-  Am I right in implying that you cover all WCS 2.0 functionality, as well
-  as some extra queries not in the standard yet?
-.. End Comment
-.. Reply:
-  Yes, you're right and in addition WCS 2.0 is structured in a core and several 
-  extensions.
-.. End Reply
 
   * Web Coverage Service (WCS) 1.0, 1.1 and 2.0 & proposed EO-WCS
   * Web Map Service (WMS) & EO-WMS
