@@ -20,9 +20,10 @@ Overview
 EOxServer is a server for presenting big Earth Observation (EO) data 
 archives and metadata via Open Standards. It builds upon an Open Source 
 stack of software which includes Python, :doc:`MapServer 
-<mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4 
-and a :doc:`SpatiaLite <spatialite_overview>` or :doc:`PostGIS 
-<postgis_overview>` database.
+<../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL 
+<../overview/gdal_overview>`, PROJ.4 and a :doc:`SpatiaLite 
+<../overview/spatialite_overview>` or :doc:`PostGIS 
+<../overview/postgis_overview>` database.
 
 This Quick Start describes how to:
 
@@ -30,9 +31,9 @@ This Quick Start describes how to:
 * Access and use the demonstration instance
 
 See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`, the 
-`EOxServer 0.2.2 Documentation 
+`local EOxServer documentation 
 <../../eoxserver-docs/EOxServer_documentation.pdf>`_, or the `online 
-documentation <http://eoxserver.org/doc/>`_ for more information.
+EOxServer documentation <http://eoxserver.org/doc/>`_ for more information.
 
 .. contents:: Contents
 
@@ -55,7 +56,7 @@ Demonstration Instance
 
 The new icon on the desktop labelled `EOxServer` launches a browser showing 
 the demonstration instance available at http://localhost/eoxserver/ which 
-provides the same data as the one available `online 
+provides the same data as the `one available online 
 <https://eoxserver.org/demo_stable/>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
@@ -132,7 +133,8 @@ Client`. The password for the user `admin` is `admin`.
 
 The `Admin Client` is Djangos standard admin and allows you to configure the 
 available data. Please feel free to explore the client. More information can 
-be found `online <http://eoxserver.org/doc/en/users/operators.html>`_.
+be found in the `operators' guide 
+<http://eoxserver.org/doc/en/users/operators.html>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient2.png
   :scale: 50 %
