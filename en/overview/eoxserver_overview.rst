@@ -19,7 +19,7 @@ Web Service
 EOxServer is a server for presenting big Earth Observation (EO) data 
 archives and metadata via Open Standards.
 
-Earth Observation data currently supported is 2D raster data generally 
+Earth Observation data currently supported includes 2D raster data generally 
 acquired using sensors on satellites or aircrafts and including information 
 about the time of acquisition and the footprint on planet Earth. It is 
 typically used to monitor Earth's natural and built environment.
@@ -37,10 +37,9 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
 Core Features
 --------------------------------------------------------------------------------
 
-* Filter, view, subset, and download EO data by users
-* Register and provide online EO data by data providers
+* View, filter, subset, and download EO data
+* Upload and/or register external EO datasets
 * Web based and command line administration interface
-* Registration of existing raster data archives
 * Publish data via Open Geospatial Consortium (OGC) standards:
 
   * Web Coverage Service (WCS) 1.0, 1.1 and 2.0 & proposed EO-WCS
@@ -59,8 +58,8 @@ Core Features
 
 * Coverage formats supported:
 
- * GeoTIFF.
- * Formats supported by the GDAL library.
+ * GeoTIFF
+ * Formats supported by the GDAL library
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -68,13 +67,6 @@ Implemented Standards
   * WCS, EO-WCS
   * WMS, EO-WMS
   * GML, GMLCOV, EO-O&M
-
-Documentation
---------------------------------------------------------------------------------
-
-* `Local <../../eoxserver-docs/EOxServer_documentation.pdf>`_
-* `Online <http://eoxserver.org/doc>`_
-
 
 Details
 --------------------------------------------------------------------------------
