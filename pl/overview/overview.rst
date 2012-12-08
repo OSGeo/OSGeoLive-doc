@@ -73,6 +73,7 @@ Usługi sieciowe
 * :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
+* :doc:`eoxserver_overview` - [:doc:`Wprowadzenie <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] - katalog metadanych i sieciowe usługi katalogowe
 * :doc:`pycsw_overview` - [:doc:`Wprowadzenie <../quickstart/pycsw_quickstart>`] - katalog metadanych
 * :doc:`mapproxy_overview` - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
@@ -100,12 +101,12 @@ Biblioteki geoprzestrzenne
    :maxdepth: 1
    
    GeoTools - zestaw narzędzi GIS w Javie <geotools_overview>
-   GEOS - C/C++ Spatial Library <geos_overview>
+   GEOS - C/C++ Biblioteka przestrzenna <geos_overview>
    MetaCRS - przeliczenia pomiędzy układami odniesienia <metacrs_overview>
    libLAS - dostęp do danych LiDAR <liblas_overview>
-   JTS Topology Suite <jts_overview>
+   JTS - narzędzia topologiczne <jts_overview>
    
-Inne oprogramowanie warte zainteresowania (niedostępne Live)
+Inne programy warte zainteresowania (niedostępne Live)
 --------------------------------------------------------------------------------
 * :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe
 * :doc:`mapwindow_overview` - [:doc:`Wprowadzenie <../quickstart/mapwindow_quickstart>`] - GIS na Microsoft Windows
