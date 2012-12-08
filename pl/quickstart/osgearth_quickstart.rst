@@ -13,37 +13,37 @@
 Wprowadzenie do osgEarth 
 ********************************************************************************
 
-osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_.
+osgEarth jest skalowalnym zestawem narzÄ™dzi do renderowania terenu dla OpenSceneGraph_.
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-To wprowadzenie opisuje jak uruchomiæ 3D globe z ró¿nymi overlays.
+To wprowadzenie opisuje jak uruchomiÄ‡ 3D globe z rÃ³Å¼nymi overlays.
 
 
 Praca z osgearth_viewer
 ================================================================================
 
-* Otwórz konsolê i uruchom osgearth viewer::
+* OtwÃ³rz konsolÄ™ i uruchom osgearth viewer::
 
    export OSG_FILE_PATH=/usr/share/osgearth
    osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
 
-Powinieneœ zobaczyæ glob ze scenami satelitarnymi.
+PowinieneÅ› zobaczyÄ‡ glob ze scenami satelitarnymi.
 
-* Kliknij, aby nawigowaæ globem; prawoklik lub kó³ko myszyoperuje zbli¿eniami.
-* Przeci¹gnij mysz z wciœniêtymi oboma klawiszami by skrêciæ.
-* Naciœnij :kbd:`h` by uzyskaæ pomoc.
-* Naciœnij klawisz :kbd:`ESCAPE` aby wyjœæ. 
+* Kliknij, aby nawigowaÄ‡ globem; prawoklik lub kÃ³Å‚ko myszyoperuje zbliÅ¼eniami.
+* PrzeciÄ…gnij mysz z wciÅ›niÄ™tymi oboma klawiszami by skrÄ™ciÄ‡.
+* NaciÅ›nij :kbd:`h` by uzyskaÄ‡ pomoc.
+* NaciÅ›nij klawisz :kbd:`ESCAPE` aby wyjÅ›Ä‡. 
 
 
-Praca z osgviewer i nak³adk¹ OpenStreetMap
+Praca z osgviewer i nakÅ‚adkÄ… OpenStreetMap
 ================================================================================
 
 * Wpisz w konsoli::
 
    osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
-*  Wciœnij :kbd:`h` by wyœwietliæ pomoc. Wiêcej pomocy znajdziesz na openscenegraph.org_.
+*  WciÅ›nij :kbd:`h` by wyÅ›wietliÄ‡ pomoc. WiÄ™cej pomocy znajdziesz na openscenegraph.org_.
 
 .. _openscenegraph.org: http://www.openscenegraph.org/projects/osg/wiki/Support/UserGuides/osgviewer
 
@@ -51,6 +51,6 @@ Praca z osgviewer i nak³adk¹ OpenStreetMap
 Co dalej?
 ================================================================================
 
-Aby dowiedzieæ siê wiêcej na temat osgEarth, zacznij od `Documentation page`_ na Wiki.
+Aby dowiedzieÄ‡ siÄ™ wiÄ™cej na temat osgEarth, zacznij od `Documentation page`_ na Wiki.
 
 .. _`Documentation page`: http://osgearth.org/wiki/Documentation
