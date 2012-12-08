@@ -9,17 +9,14 @@
   :align: right
 
 ********************************************************************************
-Wprowadzenie do 52°North WPS Quickstart 
+Wprowadzenie do 52°North WPS 
 ********************************************************************************
 
 Jak zacząć
 ================================================================================
 
-* Aby uruchomić 52°North WPS na Live DVD, idź do :menuselection:`Geospatial --> 
-Web Services --> 52North --> Start 52North WPS`	to start the 52°North WPS lub 
-użyj tego `direct link <http://localhost:8080/52nWPS/>`_. (If the service is 
-not reachable, try to start the Tomcat servlet engine following the steps at 
-the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
+* Aby uruchomić 52°North WPS na Live DVD, idź do :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`	aby uruchomić 52°North WPS lub 
+użyj tego `linku <http://localhost:8080/52nWPS/>`_. (Jeśli usługa nie jest osiągalna, spróbuj uruchomić Tomcat servlet engine wykonując kroki opisane na dole :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
 
 * Pojawi się strona powitalna 52n WPS. 
 
@@ -29,8 +26,7 @@ the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
   :align: center
 
 * Kliknij link aby otworzyć 52nWPS-TestClient. 
-* Upewnij się, że uruchomiłeś :doc:`GeoServer <../overview/geoserver_overview>`, 
-ponieważ demonstracja wymaga danych z localnej instalacji GeoServera.
+* Upewnij się, że został utuchomiony :doc:`GeoServer <../overview/geoserver_overview>`, ponieważ demonstracja wymaga danych z lokalnej instalacji GeoServera.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
@@ -52,6 +48,8 @@ ponieważ demonstracja wymaga danych z localnej instalacji GeoServera.
 
   http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS
 
+  
+  
 	
 * Czekamy na pytania na liście dyskusyjnej 52°North WPS:
 
