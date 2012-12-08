@@ -2,10 +2,10 @@
 :Author: Bob Basques
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: ../../images/project_logos/logo-geomoose_w-title.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -24,15 +24,14 @@ GeoMoose
 Portal Web GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoMOOSE frameworkiem służącym do wyświetlania rozproszonych danych kartograficznych bazującym na przeglądarce internetowej. Jest szczególnie użyteczny do zarządzania danymi przestrzennymi i nie- przestrzennymi na poziomie krajowym, miejskim oraz urzędów gmin (stąd się wywodzi). Rozszerza funkcjonalność MapServera i OpenLayers aby dostarczyć usługi takie jak operacje przeszukiwania danych służące przeglądaniu i zarządzaniu wieloma warstwami, operacje selekcji i przeszukiwania danych.
+GeoMOOSE jest frameworkiem służącym do wyświetlania rozproszonych danych kartograficznych bazującym na przeglądarce internetowej. Jest szczególnie użyteczny do zarządzania danymi przestrzennymi i nie- przestrzennymi na poziomie krajowym, miejskim oraz urzędów gmin (stąd się wywodzi). Rozszerza funkcjonalność MapServera i OpenLayers aby dostarczyć usługi takie jak operacje przeszukiwania danych służące przeglądaniu i zarządzaniu wieloma warstwami, operacje selekcji i przeszukiwania danych.
 
 GeoMOOSE jest szybki, potrafi jednocześnie obsłużyć tysiące warstw i/lub usług. Dane od różnych dostawców mogą być zarządzane za pomocą różnych narzędzi oraz według odmiennych zasad, ponieważkażda warstwa mapy posiada swój plik konfiguracyjny do publikacj, symbole, szablon oraz źródło.
 
 Interfejs użytkownika może być konfigurowany w prosty sposób a dodatkowe usługi dodawane z wykorzystaniem architektury modułowej.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
-  :scale: 55 %
-  :alt: geomoose-screenshot-800x600.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+  :alt: GeoMoose Screenshot
   :align: right
 
 Główne funkcje
@@ -53,6 +52,8 @@ Główne funkcje
 Zaimplementowane standardy
 --------------------------------------------------------------------------------
 * WMS
+* WFS (klient)
+* WFS-T (klient)
 
 Szczegóły
 --------------------------------------------------------------------------------
@@ -61,7 +62,7 @@ Szczegóły
 
 **Licencja:** Licencja oparta na MIT. http://www.geomoose.org/info/license.html
 
-**Wersja programu:** 2.4
+**Wersja programu:** 2.6.1
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
