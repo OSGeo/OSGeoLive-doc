@@ -35,7 +35,7 @@ Core Features
 * Geometry operations (e.g., intersect, union, within, etc.)
 * Precision handling
 * Geometric constructions
-* Metric functions (e.g., Cartesian 2D distance, Haussdorff distance)
+* Metric functions (e.g., Cartesian 2D distance, Hausdorff distance)
 * Spatial algorithms (e.g. buffer creation, line offsets, line simplification)
 * Geometric math functions (e.g., angles, distances, etc.)
 * Spatial structures (e.g. Quadtree and R-tree, Delauney triangulation)
