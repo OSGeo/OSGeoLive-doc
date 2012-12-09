@@ -3,6 +3,6 @@
 
 Prezentacja
 ================================================================================
-Pó³godzinna prezentacja omawiaj¹ca wszystkie zawarte na OSGeo-Live programy, dostêpna jest w postaci slajdów i notatek.
+PÃ³Å‚godzinna prezentacja omawiajÄ…ca wszystkie zawarte na OSGeo-Live programy, dostÄ™pna jest w postaci slajdÃ³w i notatek.
 
-Szczegó³y na stronie: https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/
+SzczegÃ³Å‚y na stronie: https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/
