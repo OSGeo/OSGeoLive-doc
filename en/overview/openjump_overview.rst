@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-openjump.png
@@ -38,7 +38,7 @@ Features (Core Features and PlugIns*)
 
 * Editing & Conflation
 
-    * drawing points, lines, polygons, multigeometries, geometry collections and circles (eventually mixed in a single layer)
+    * drawing points, lines, polygons, multi-geometries, geometry collections and circles (eventually mixed in a single layer)
     * adding, moving, deleting vertices
     * rotating, scaling, auto-complete polygon
     * cut, merge, simplify polygons and lines
