@@ -65,4 +65,4 @@ Details
 
 **API Interfaces:** Java
 
-**Support:** `JTS Support <http://tsusiatsoftware.net/jts/main.html>`_
+**Support:** http://tsusiatsoftware.net/jts/main.html
