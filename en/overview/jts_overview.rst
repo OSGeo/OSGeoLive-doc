@@ -15,11 +15,6 @@ JTS is an open source library of spatial predicates and functions for
 processing geometries.  It provides a complete, consistent, and robust implementation of fundamental
 algorithms for processing linear geometry on the 2-dimensional Cartesian plane.
 
-.. image:: ../../images/screenshots/800x600/jts-overview.jpg
-  :scale: 60 %
-  :alt: JTS Topology Suite - Test Builder application
-  :align: right
-
 JTS includes the "JTS Test Builder" which allows users to
 run tests and experiment with geometry through an interactive desktop interface.
 JTS stability is ensured through an extensive test suite.
@@ -27,6 +22,11 @@ JTS stability is ensured through an extensive test suite.
 JTS is used by most java based Open Source geospatial applications, and
 :doc:`geos_overview`, which is a C++ port of JTS, is used by most
 C based applications.  Additional ports are available for C# and JavaScript.
+
+.. image:: ../../images/screenshots/800x600/jts-overview.jpg
+  :scale: 90 %
+  :alt: JTS Topology Suite - Test Builder application
+  :align: right
 
 Core Features
 --------------------------------------------------------------------------------
@@ -65,4 +65,4 @@ Details
 
 **API Interfaces:** Java
 
-**Support:** `JTS Mailing List <https://lists.sourceforge.net/lists/listinfo/jts-topo-suite-user>`_
+**Support:** `JTS Support <http://tsusiatsoftware.net/jts/main.html>`_
