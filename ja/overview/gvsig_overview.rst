@@ -93,7 +93,7 @@ gvSIG は次のような点で知られています:
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 1.11
+**バージョン:** 1.12
 
 **動作環境:** Windows, Linux, Mac
 

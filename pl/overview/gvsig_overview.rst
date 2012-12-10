@@ -113,7 +113,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 1.11
+**Wersja programu:** 1.12
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

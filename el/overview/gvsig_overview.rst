@@ -101,7 +101,7 @@ gvSIG Desktop
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.11 
+**Έκδοση Λογισμικού:** 1.12
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

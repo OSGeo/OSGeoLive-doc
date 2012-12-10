@@ -94,7 +94,7 @@ gvSIG 支持大量的 OGC 标准
 
 **开源协议：** GNU General Public License (GPL) version 2
 
-**软件版本：** 1.11
+**软件版本：** 1.12
 
 **平台支持：** MS Windows, GNU/Linux, Mac
 

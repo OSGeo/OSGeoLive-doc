@@ -102,7 +102,7 @@ Consortium (OGC):
 
 **Лицензия:**  `GPL версия 2 <http://www.gnu.org/licenses/gpl-2.0.html>`_
 
-**Версия ПО:** 1.11
+**Версия ПО:** 1.12
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 
