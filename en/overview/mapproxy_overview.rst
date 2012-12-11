@@ -71,8 +71,13 @@ WMS Features:
 Security:
   * flexible and powerful authorization API
   * fine-grained control over services and layers
-  * restrict access to polygon areas
+  * restrict access to polygon areas (for WMS and tile services)
   * integrate with existing user databases and authentication methods
+
+Powerful tools:
+  * efficient seed tool for cache pre-filling that can seed polygon areas
+  * export cached tiles to other formats
+  * calculate scales and show grid configurations
 
 Other features:
   * simple but powerful configuration format (YAML/JSON)
@@ -100,7 +105,7 @@ Details
 
 **Licence:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.4.0
+**Software Version:** 1.5.0
 
 **Supported Platforms:** Linux, Mac, Windows
 

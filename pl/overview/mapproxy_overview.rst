@@ -100,7 +100,7 @@ Szczegóły
 
 **Licencja:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Wersja programu:** 1.4.0
+**Wersja programu:** 1.5.0
 
 **Systemy operacyjne:** Linux, Mac, Windows
 

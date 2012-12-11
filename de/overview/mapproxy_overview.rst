@@ -71,8 +71,13 @@ WMS Eigenschaften:
 
 Sicherheit:
   * offene Schnittstelle zum Absichern von Diensten und Layern
-  * Polygongenaue Zugriffsbeschränkung
+  * Polygongenaue Zugriffsbeschränkung (für WMS und Kachel-Dienste)
   * Integration mit bestehenden Benutzerdatenbanken und Authentifizierungsmethoden
+
+Nützliche Tools:
+  * effizientes Seed-Tool zum Vorgenerieren des Caches (Bereiche können auf Polygone beschränkt werden)
+  * gespeicherte Kacheln in andere Formate exportieren
+  * Umrechnen von Maßstäben und analysieren von Grid-Konfigurationen
 
 Weitere Funkionen:
   * einfaches aber mächtiges Konfigurationsformat (YAML/JSON)
@@ -99,7 +104,7 @@ Details
 
 **Lizenz:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.4.0
+**Software Version:** 1.5.0
 
 **Unterstütze Plattformen:** Linux, Mac, Windows
 

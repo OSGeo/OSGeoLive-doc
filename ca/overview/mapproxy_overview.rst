@@ -21,8 +21,8 @@ Proxy WMS i serveis de rajola (tile)
 
 MapProxy accelera les aplicacions de mapeig tot previsualitzant i integrant mapes
 de múltiples fonts i emmagatzemant-los en una memòria cau local.
-Les capes poden ser transparents, les projeccions es poden canviar, diverses capes 
-cartogràfiques poden ser transformades en una altra, es poden afegir marques 
+Les capes poden ser transparents, les projeccions es poden canviar, diverses capes
+cartogràfiques poden ser transformades en una altra, es poden afegir marques
 d'aigua, i més...
 
 MapProxy és flexible i escala des del senzill cas d'ús fins al més complex: des d'una única
@@ -43,7 +43,7 @@ Característiques Principals
   :scale: 70 %
   :alt: MapProxy demo
   :align: right
- 
+
 Fonts d'entrada:
   * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
@@ -59,11 +59,11 @@ Serveis:
 Memòria cau de rajola (tile cache):
   * emmagatzema imatges idèntiques només un cop (ie. rajoles d'oceans)
   * emmagatzema rajoles en arxius del sistema, arxius MBT o CouchDB
-  * afegeix marques d'aigua a les rajoles 
+  * afegeix marques d'aigua a les rajoles
 
 Opcions de les fonts:
   * Fonts limit a partir de geometries (de Shapefile per exemple)
-  * afegeix transparència a capes opaques 
+  * afegeix transparència a capes opaques
   * combina múltiples fonts
   * reprojecta a altres SRS
 
@@ -84,7 +84,7 @@ Altres característiques:
   * suporta per a les dades ràster sense imatge com si fos un DEM
   * suporta l'autorització personalitzada amb un control exhaustiu sobre els serveis i les capes
   * moltes més
-   
+
 Estàndards implementats
 --------------------------------------------------------------------------------
 
@@ -103,7 +103,7 @@ Detalls
 
 **Llicència:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versió de programari:** 1.3.0
+**Versió de programari:** 1.5.0
 
 **Sistemes operatius:** Linux, Mac, Windows
 
@@ -112,5 +112,5 @@ Detalls
 
 Guia d'inici ràpid
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Guia ràpida <../quickstart/mapproxy_quickstart>`
