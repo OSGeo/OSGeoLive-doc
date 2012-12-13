@@ -9,6 +9,7 @@ BUILDDIR      = _build
 TMP           = /tmp/osgeolive_make
 TRANSLATIONS  = ca de el es it fr ja ko pl ru zh
 LANGUAGES     = en $(TRANSLATIONS)
+PDF_LANG      = en
 START_DIR     = $(shell pwd)
 
 # Internal variables.
@@ -28,6 +29,7 @@ help:
 	@echo "  htmlhelp  to make HTML files and a HTML help project"
 	@echo "  qthelp    to make HTML files and a qthelp project"
 	@echo "  latex     to make LaTeX files, you can set PAPER=a4 or PAPER=letter"
+	@echo "  latexpdf  to make LaTeX files and run them through pdflatex"
 	@echo "  changes   to make an overview of all changed/added/deprecated items"
 	@echo "  linkcheck to check all external links for integrity"
 	@echo "  doctest   to run all doctests embedded in the documentation (if enabled)"
@@ -143,7 +145,10 @@ licenses.csv :
 	echo `pwd`
 	../bin/extract_licenses.sh > licenses.csv
 
-html: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
+fix_index:
+	cp index.template index.rst
+
+html: fix_index sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
@@ -175,12 +180,48 @@ qthelp:
 	@echo "To view the help file:"
 	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/OSGeo-Live.qhc"
 
-latex: sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
+link_to_en_docs_pdf:
+	# For quickstart, standards and overview docs which have not been
+	# translated, link to english doc
+	for LANG in $(PDF_LANG) ; do \
+	  for DOC in en/*/* ; do \
+	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
+	    TARGET_EN=`echo $$DOC | sed -e"s#^#../../#"` ; \
+	    if [ ! -f $$TRANSLATED_DOC ] ; then \
+	      rm -f $$TRANSLATED_DOC ; \
+	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
+	    fi ; \
+	  done ; \
+	done
+	# link to english docs for the docs in head directory
+	for LANG in $(PDF_LANG) ; do \
+	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/presentation.rst en/copyright.rst ; do \
+	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
+	    TARGET_EN=`echo $$DOC | sed -e"s#^#../#"` ; \
+	    if [ ! -f $$TRANSLATED_DOC ] ; then \
+	      rm -f $$TRANSLATED_DOC ; \
+	      ln -s $$TARGET_EN $$TRANSLATED_DOC ; \
+	    fi ; \
+	  done ; \
+	done
+
+fix_index_pdf:
+	for LANG in $(PDF_LANG) ; do \
+		cat index_pdf.template | sed "s/LANG_PDF/$$LANG/#"  > index.rst ; \
+	done
+	
+latex: fix_index_pdf licenses.csv link_to_en_docs_pdf
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo
 	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex."
 	@echo "Run \`make all-pdf' or \`make all-ps' in that directory to" \
 	      "run these through (pdf)latex."
+
+latexpdf: fix_index_pdf licenses.csv link_to_en_docs_pdf
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	@echo "Running LaTeX files through pdflatex..."
+	$(MAKE) -C $(BUILDDIR)/latex all-pdf
+	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
 
 changes:
 	$(SPHINXBUILD) -b changes $(ALLSPHINXOPTS) $(BUILDDIR)/changes

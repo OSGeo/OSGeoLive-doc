@@ -174,11 +174,20 @@ htmlhelp_basename = '%sdoc' % project
 
 # -- Options for LaTeX output --------------------------------------------------
 
-# The paper size ('letter' or 'a4').
-#latex_paper_size = 'letter'
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#latex_font_size = '10pt'
+'pointsize': '11pt',
+
+# remove blank pages
+'classoptions': ',oneside',
+'babel': '\\usepackage[english]{babel}'
+
+# Additional stuff for the LaTeX preamble.
+#'preamble': ''
+}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
@@ -195,12 +204,17 @@ latex_documents = [
 # not chapters.
 #latex_use_parts = False
 
-# Additional stuff for the LaTeX preamble.
-#latex_preamble = ''
+# If true, show page references after internal links.
+#latex_show_pagerefs = False
+
+# If true, show URL addresses after external links.
+#latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
 
+# If false, no module index is generated.
+#latex_domain_indices = True
 
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
