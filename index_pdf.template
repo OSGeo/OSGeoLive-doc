@@ -1,0 +1,11 @@
+.. meta::
+   :http-equiv=refresh: 0;url=en/index.html
+
+
+.. toctree::
+   :hidden:
+
+   LANG_PDF/index
+   contributors
+   translators
+   osgeo_contact
