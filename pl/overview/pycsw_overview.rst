@@ -30,15 +30,15 @@ pycsw is Open Source, released under an MIT license, and runs on all major platf
   :alt: project logo
   :align: right
 
-G≥Ûwne funkcje
+G≈Ç√≥wne funkcje
 --------------------------------------------------------------------------------
 
-* w pe≥ni przechodzi test OGC CITE CSW (103/103)
+* w pe≈Çni przechodzi test OGC CITE CSW (103/103)
 * implementacja INSPIRE Discovery Services 3.0
 * implementacja ISO Metadata Application Profile 1.0.0
 * implementacja FGDC CSDGM Application Profile for CSW 2.0
-* obs≥uga modeli metadanych ISO, Dublin Core, DIF, FGDC
-* ≥awa konfiguracja
+* obs≈Çuga modeli metadanych ISO, Dublin Core, DIF, FGDC
+* ≈Çawa konfiguracja
 * transactional capabilities (CSW-T)
 * flexible repository configuration
 * federated catalogue distributed searching
@@ -67,7 +67,7 @@ Standardy metadanych:
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
 
-SzczegÛ≥y
+Szczeg√≥≈Çy
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** http://pycsw.org
@@ -88,5 +88,5 @@ SzczegÛ≥y
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* :doc:`Przejdü do wprowadzenia <../quickstart/pycsw_quickstart>`
+* :doc:`Przejd≈∫ do wprowadzenia <../quickstart/pycsw_quickstart>`
 

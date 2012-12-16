@@ -32,13 +32,13 @@ TinyOWS is a high performance, Transakcyjnym Web Feature Service (WFS-T) which i
 TinyOWS is commonly used in conjunction with :doc:`MapServer <mapserver_overview>` to provide WFS-T and fast WFS services for :doc:`QGIS <qgis_overview>` and/or :doc:`OpenLayers <openlayers_overview>` clients. It is used in production in organisations around the world, including risk adverse government agencies.
 TinyOWS strictly implements the WFS 1.0 and 1.1 standards, and has passed all OGC CITE units tests (~ 1000 unit tests).
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
 * Transakcyjny Web Feature Service (WFS-T)
 * Interfejs CGI i FastCGI
-* Po³¹czenie z baz¹ PostGIS
-* Wyjœcie GML 2.1.2, 3.1.1 i GeoJson 1.0
+* PoÅ‚Ä…czenie z bazÄ… PostGIS
+* WyjÅ›cie GML 2.1.2, 3.1.1 i GeoJson 1.0
 * Configured using MapServer's configuration file, allowing a single configuration file for both applications.
 
 Zaimplementowane standardy
@@ -47,7 +47,7 @@ Zaimplementowane standardy
 * FE 1.0.0 i FE 1.1.0
 * GML 2.1.2 i 3.1.1 Simple Profile (SF-0)
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** http://mapserver.org/trunk/tinyows/
@@ -66,5 +66,5 @@ Szczegó³y
 Wprowadzenie
 --------------------------------------------------------------------------------
     
-* :doc:`PrzejdŸ do wprowadzenia <../quickstart/tinyows_quickstart>`
+* :doc:`PrzejdÅº do wprowadzenia <../quickstart/tinyows_quickstart>`
 
