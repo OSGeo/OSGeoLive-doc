@@ -46,7 +46,7 @@ directory.
 :: 
   
   cd /home/user
-  cp -R /usr/local/share/data/natural_earth/ ./gdal_natural_earth 
+  cp -R /usr/local/share/data/natural_earth2/ ./gdal_natural_earth 
 
  
 You find a NaturalEarth Raster file and a tfw-file at:
@@ -286,64 +286,126 @@ Get information about the vector data with ogrinfo
 
 :: 
 
-  ogrinfo ./natural_earth
-  INFO: Open of `../natural_earth/'
+  ogrinfo -ro /home/user/gdal_natural_earth
+INFO: Open of `/home/user/gdal_natural_earth'
       using driver `ESRI Shapefile' successful.
-  1: 10m_lakes (Polygon)
-  2: 10m_land (Polygon)
-  3: 10m_rivers_lake_centerlines (Line String)
-  4: 10m-admin-0-countries (Polygon)
-  5: 10m_ocean (Polygon)
-  6: 10m-urban-area (Polygon)
-  7: 10m_populated_places_simple (Point)
+    1: ne_10m_populated_places (3D Point)
+    2: ne_10m_geography_regions_polys (3D Polygon)
+    3: ne_10m_admin_1_states_provinces_shp (3D Polygon)
+    4: ne_10m_urban_areas (3D Polygon)
+    5: ne_10m_geography_marine_polys (3D Polygon)
+    6: ne_10m_land (3D Polygon)
+    7: ne_10m_geography_regions_elevation_points (3D Point)
+    8: ne_10m_admin_0_countries (3D Polygon)
+    9: ne_10m_rivers_lake_centerlines (3D Line String)
+    10: ne_10m_lakes (3D Polygon)
+    11: ne_10m_geography_regions_points (3D Point)
+    12: ne_10m_ocean (3D Polygon)
+
 
 Get a summary about your data with ogrinfo together with `-so`.
 
 ::
 
-	ogrinfo -so ../natural_earth/ 10m-admin-0-countries
-	INFO: Open of `../natural_earth/'
+	ogrinfo -ro -so ne_10m_admin_0_countries.shp ne_10m_admin_0_countries
+	INFO: Open of `ne_10m_admin_0_countries.shp'
 	      using driver `ESRI Shapefile' successful.
 
-	Layer name: 10m-admin-0-countries
-	Geometry: Polygon
-	Feature Count: 251
-	Extent: (-179.999783, -89.999828) - (180.000258, 83.633811)
+	Layer name: ne_10m_admin_0_countries
+	Geometry: 3D Polygon
+	Feature Count: 254
+	Extent: (-180.000000, -90.000000) - (180.000000, 83.634101)
 	Layer SRS WKT:
 	GEOGCS["GCS_WGS_1984",
 	    DATUM["WGS_1984",
-		SPHEROID["WGS_1984",6378137.0,298.257223563]],
+		SPHEROID["WGS_84",6378137.0,298.257223563]],
 	    PRIMEM["Greenwich",0.0],
 	    UNIT["Degree",0.0174532925199433]]
-	OBJECTID: Integer (9.0)
-	COUNTRY: String (100.0)
-	FEATURECLA: String (32.0)
-	SOV: String (100.0)
-	SHAPE_LENG: Real (19.11)
-	SHAPE_AREA: Real (19.11)
+	scalerank: Integer (4.0)
+	featurecla: String (30.0)
+	labelrank: Real (16.6)
+	sovereignt: String (254.0)
+	sov_a3: String (254.0)
+	adm0_dif: Real (16.6)
+	level: Real (16.6)
+	type: String (254.0)
+	admin: String (254.0)
+	adm0_a3: String (254.0)
+	geou_dif: Real (16.6)
+	geounit: String (254.0)
+	gu_a3: String (254.0)
+	su_dif: Real (16.6)
+	subunit: String (254.0)
+	su_a3: String (254.0)
+	brk_diff: Real (16.6)
+	name: String (254.0)
+	name_long: String (254.0)
+	brk_a3: String (254.0)
+	brk_name: String (254.0)
+	brk_group: String (254.0)
+	abbrev: String (254.0)
+	postal: String (254.0)
+	formal_en: String (254.0)
+	formal_fr: String (254.0)
+	note_adm0: String (254.0)
+	note_brk: String (254.0)
+	name_sort: String (254.0)
+	name_alt: String (254.0)
+	mapcolor7: Real (16.6)
+	mapcolor8: Real (16.6)
+	mapcolor9: Real (16.6)
+	mapcolor13: Real (16.6)
+	pop_est: Real (16.6)
+	gdp_md_est: Real (16.6)
+	pop_year: Real (16.6)
+	lastcensus: Real (16.6)
+	gdp_year: Real (16.6)
+	economy: String (254.0)
+	income_grp: String (254.0)
+	wikipedia: Real (16.6)
+	fips_10: String (254.0)
+	iso_a2: String (254.0)
+	iso_a3: String (254.0)
+	iso_n3: String (254.0)
+	un_a3: String (254.0)
+	wb_a2: String (254.0)
+	wb_a3: String (254.0)
+	woe_id: Real (16.6)
+	adm0_a3_is: String (254.0)
+	adm0_a3_us: String (254.0)
+	adm0_a3_un: Real (16.6)
+	adm0_a3_wb: Real (16.6)
+	continent: String (254.0)
+	region_un: String (254.0)
+	subregion: String (254.0)
+	region_wb: String (254.0)
+	name_len: Real (16.6)
+	long_len: Real (16.6)
+	abbrev_len: Real (16.6)
+	tiny: Real (16.6)
+	homepart: Real (16.6)
 
 
 If you run ogrinfo without a parameter you will get a summary about your data and afterwards a section for every dataset.
 
 ::
 
-	ogrinfo ../natural_earth/ 10m-admin-0-countries
+	ogrinfo -ro ne_10m_admin_0_countries.shp ne_10m_admin_0_countries
 
 
 You can forward the result from ogrinfo to grep to filter and get only the attribute COUNTRY.
 
 ::
 
-	ogrinfo ../natural_earth/ 10m-admin-0-countries | grep COUNTRY
+	ogrinfo ne_10m_admin_0_countries.shp ne_10m_admin_0_countries | grep 'admin '
 	
-	COUNTRY: String (100.0)
-	COUNTRY (String) = Afghanistan
-	COUNTRY (String) = Akrotiri Sovereign Base Area
-	COUNTRY (String) = Aland
-	COUNTRY (String) = Albania
-	COUNTRY (String) = Algeria
-	COUNTRY (String) = American Samoa
-	COUNTRY (String) = Andorra
+	  admin (String) = Aruba
+	  admin (String) = Afghanistan
+	  admin (String) = Angola
+	  admin (String) = Anguilla
+	  admin (String) = Albania
+	  admin (String) = Aland
+	  admin (String) = Andorra
 	etc.
 
 
@@ -362,7 +424,7 @@ Convert the countries to GML.
 ::
 
   ogr2ogr --formats
-  ogr2ogr -f GML countries.xml 10m-admin-0-countries.shp	  
+  ogr2ogr -f GML countries.xml ne_10m_admin_0_countries.shp	  
 
 
 Things to try
