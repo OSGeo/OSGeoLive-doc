@@ -56,7 +56,7 @@ Szczegóły
 
 **Licencja:** None, the data is public domain.
 
-**Wersja danych:** 1.4
+**Wersja danych:** 2.0
 
 **Format danych:** SHP and TIF+TFW
 

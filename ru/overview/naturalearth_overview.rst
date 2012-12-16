@@ -70,7 +70,7 @@ Natural Earth
 
 **Лицензия:** None, the data is public domain.
 
-**Версия ПО:** 1.4
+**Версия ПО:** 2.0
 
 **Форматы данных:** SHP и TIF+TFW
 

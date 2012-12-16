@@ -57,7 +57,7 @@ Detalls
 
 **Llicència:** None, the data is public domain.
 
-**Versió de les dades:** 1.4
+**Versió de les dades:** 2.0
 
 **Formats de les dades:** SHP and TIF+TFW
 

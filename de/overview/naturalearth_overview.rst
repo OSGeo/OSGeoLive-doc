@@ -53,7 +53,7 @@ Details
 
 **Lizenz:** lizenzfrei, die Daten sind für jedermann zugänglich
 
-**Version der Daten:** 1.3.1
+**Version der Daten:** 2.0
 
 **Datenformat:** SHP and TIF+TFW
 

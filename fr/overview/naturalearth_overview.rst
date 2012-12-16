@@ -55,7 +55,7 @@ Détails
 
 **License:** Aucune, la donnée est dans le domaine public.
 
-**Version de la donnée:** 1.4
+**Version de la donnée:** 2.0
 
 **Format de données:** SHP and TIF+TFW
 
