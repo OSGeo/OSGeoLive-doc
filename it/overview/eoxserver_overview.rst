@@ -1,11 +1,12 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: 
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-eoxserver-2.png
-  :scale: 65 %
+.. image:: ../../images/project_logos/logo-eoxserver.png
+  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://eoxserver.org/
@@ -16,56 +17,46 @@ EOxServer
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EOxServer è un server per dati Earth Observation (EO). Più precisamente è una 
-applicazione e un framework Python per rappresentare dati e metadati EO.
+EOxServer è un server per visualizzare dati e matadati Earth Observation (EO)
+attraverso Standard aperti.
 
-La missione di EOxServer: Fornire un software Open Source per facilitare
-la fornitura online di grandi archivi di dati Earth Observation attraverso servizi
-Open Standard per un efficiente sfruttamento da parte degli utenti
+I dati Earth Observation attualmente supportati includo raster 2D generalmente
+acquisiti usando sensori di satelliti o aerei includendo informazioni sulla data
+di acquisizione e il footprint del pianeta. È tipicamente usato per monitorare
+l'ambiente naturale e artificiale
 
-* Open Source: licenza MIT-style
-* software framework: Interamente basato su Open Source (Python, :doc:`MapServer <mapserver_overview>`, 
-  Django/GeoDjango, :doc:`GDAL <gdal_overview>`, :doc:`SpatiaLite <spatialite_overview>`, o 
-  :doc:`PostGIS <postgis_overview>`, e PROJ.4)
-* ease online provision: Admin GUI and command line data registration
-* big Earth Observation data archives: Operators register existing raster data 
-  archives
-* Servizi Open Standard: Open nel senso di liberamente disponibili; Open 
-  Geospatial Consortium (OGC); WMS, WCS, EO-WMS, EO-WCS
-* efficiente sfruttamento da parte degli utenti: gli utenti possono inserire sub-setting; vista e scaricamento
+EOxServer è basato su Open Source che include Python, :doc:`MapServer <mapserver_overview>`,
+Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4, 
+:doc:`SpatiaLite <spatialite_overview>`, o :doc:`PostGIS <postgis_overview>`
+come database
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
   :scale: 50 %
-  :alt: EOxServer embedded client screen shot
+  :alt: EOxServer embedded client
   :align: right
-
 
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-Le caratteristiche principali disponibili sono:
+* Visualizzazione, filtro, subset e scaricamento EO data
+* Caricamento e/o registrazione di set di dati EO esterni 
+* Interfaccia di amministrazione sul web e da linea di comando
+* Pubblicazione dei dati attraverso standard Open Geospatial Consortium (OGC):
 
-* Supporto di GML AP – Coverages per RectifiedGridCoverages
-* Supporto delle specifiche adottate dal WCS 2.0 (Includendo le richieste GetCapabilities, 
-  DescribeCoverage, e GetCoverage, i binging al protocollo KVP- e XML/POST)
-* Supporto anticipato delle estensioni previste: formato Coverage, codifica GeoTIFF, 
-  CRS (o EPSG) predefinit, ridimensionamento e interpolazione, e accesso
-  non georiferito. Per "anticipando" si intende di riflettere le più recenti
-  Discussioni WCS.SWG così come seguire le parti pertinenti delle precedenti
-  versioni di WCS 1.1 e 1,0.
-* Supporto di 2-D EO Coverages derivato da gmlcov:RectifiedGridCoverage
-* Supporto di 2-D EO Coverages derivato da gmlcov:ReferenceableGridCoverage
-* Supporto del Dataset Series come un collezione di EO Coverages es. in una 
-  serie temporale
-* Supporto della nuova operazione DescribeEOCoverageSet nei Dataset Series e EO 
-  Coverages
-* Supporto del Stitched Mosaic di Rectified EO Coverages includendo il concetto 
-  di contributingFootprint
-* Supporto di EO Metadata (recupero e valutazione nelle operazione DescribeEOCoverageSet)
-* Bindings ai protocolli supportati:
+  * Web Coverage Service (WCS) 1.0, 1.1 and 2.0 e proposto EO-WCS
+  * Web Map Service (WMS) & EO-WMS
+  * Proposta estensione al WCS per includere: codifica GeoTIFF, proiezioni 
+    predefinite (CRSs), riscalamento, e interpolazione.
+  * Protocolli supportati sono KVP, XML/POST (usato insieme con SOAP2POST
+    Proxy per fornire un'interfaccia XML/SOAP).
 
- * KVP
- * XML/POST (usato insieme al SOAP2POST Proxy per supportare i binding al protocollo XML/SOAP) 
+* Pubblicazione usando i seguenti formati e gruppi:
+
+	* 2-D EO Coverages derivato da gmlcov:RectifiedGridCoverage
+	* 2-D EO Coverages derivato da gmlcov:ReferenceableGridCoverage
+	* Dataset Series come un collezione di EO Coverages es. in una 
+  	  serie temporale
+    * Stitched Mosaic of Rectified EO Coverages including contributingFootprint
 
 * Formati supportati per Coverage:
 
@@ -73,27 +64,18 @@ Le caratteristiche principali disponibili sono:
  * Formati supportati della libreria GDAL (il supporto necissita che ogni formato
    sia verificato singolarmente) 
 
-* Supporto di EO-WMS per EO Coverages 
-
 Standard implementati
 --------------------------------------------------------------------------------
-
-* Supporto di numerosi standard Open Geospatial Consortium  (OGC)
 
   * WCS, EO-WCS
   * WMS, EO-WMS
   * GML, GMLCOV, EO-O&M
 
-Demo
+Dettagli
 --------------------------------------------------------------------------------
 
 * `Local <http://localhost/eoxserver/>`_
 * `Online <https://eoxserver.org/demo_stable/>`_
-
-Documentazione
---------------------------------------------------------------------------------
-
-* `EOxServer 0.2.1 Documentation <../../eoxserver-docs/EOxServer_documentation.pdf>`_
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -102,7 +84,7 @@ Dettagli
 
 **Licenza:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Versione Software:** 0.2.1
+**Versione Software:** 0.2.2
 
 **Piattaforme Supportate:** Linux, Windows, Mac
 

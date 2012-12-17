@@ -4,6 +4,22 @@
 Welcome to |osgeo-live-version|
 ================================================================================
 
+.. only:: latex
+
+   .. toctree::
+     :maxdepth: 1
+     :glob:
+
+     overview/toc
+     quickstart/toc
+     standards/standards
+     download
+     contact
+     copyright
+     disclaimer
+     sponsors
+     sponsors_osgeo
+
 `OSGeo-Live <http://live.osgeo.org>`_ è un DVD, unità USB o Virtual Machine avviabile basato su
 `Xubuntu <http://www.xubuntu.org/>`_, che permette di provare una grande varietà di software
 a sorgente aperta senza installare nulla. È composta interamente di software libero,
@@ -28,34 +44,38 @@ Per provare i software bisogna semplicemente:
 Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacInstallers/>`_ e
 `Microsoft Windows <../WindowsInstallers/>`_.
 
+.. only:: html
 
-Quick Starts
---------------------------------------------------------------------------------
+   Quick Starts
+   --------------------------------------------------------------------------------
 
-.. toctree::
-   :maxdepth: 1
+   .. toctree::
+     :maxdepth: 1
 
-   Iniziare con il OSGeo-Live DVD <quickstart/osgeolive_quickstart>
-   Cambiare il linguaggio o il tipo di tastiera <quickstart/internationalisation_quickstart>
-   Installare OSGeo-Live nel vostro hard disk <quickstart/osgeolive_install_quickstart>
-   Eseguire OSGeo-Live in una Macchina Virtuale <quickstart/virtualbox_quickstart>
-   Creare una OSGeo-Live avviabile su una unità USB <quickstart/usb_quickstart>
+     Iniziare con il OSGeo-Live DVD <quickstart/osgeolive_quickstart>
+     Cambiare il linguaggio o il tipo di tastiera <quickstart/internationalisation_quickstart>
+     Installare OSGeo-Live nel vostro hard disk <quickstart/osgeolive_install_quickstart>
+     Eseguire OSGeo-Live in una Macchina Virtuale <quickstart/virtualbox_quickstart>
+     Creare una OSGeo-Live avviabile su una unità USB <quickstart/usb_quickstart>
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
+   .. toctree::
+     :maxdepth: 1
+     :hidden:
+     :glob:
 
-   overview/overview
-   quickstart/*quickstart
-   standards/standards
-   contact
-   copyright
-   disclaimer
-   download
-   sponsors
-   sponsors_osgeo
-   presentation
+     overview/overview
+     quickstart/quickstart
+     standards/standards
+     contact
+     copyright
+     disclaimer
+     download
+     sponsors
+     sponsors_osgeo
+     presentation
+     test
+
+
 
 Presentation
 --------------------------------------------------------------------------------
