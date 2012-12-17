@@ -74,7 +74,7 @@ Loading Data
 
 
 In this example we are going to use the :doc:`Natural Earth data set <../overview/naturalearth_overview>`
-that is included on the Live-DVD (:file:`/usr/local/share/data/natural_earth/`).
+that is included on the Live-DVD (:file:`/usr/local/share/data/natural_earth2/`).
 
 We need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
@@ -93,7 +93,7 @@ Select the :guilabel:`Directory of spatial files`, you will see the following:
     :alt: Filling in the New Store page
 
 Type in a name for the Data Store - I used *Natural Earth* and fill in
-the URL to the data set - in this case :file:`/usr/local/share/data/natural_earth/`. 
+the URL to the data set - in this case :file:`/usr/local/share/data/natural_earth2/`. 
 You can use the browse button to find the directory if your data is somewhere else. Press :guilabel:`save`.
 
 .. image:: ../../images/screenshots/800x600/geoserver-naturalearth.png
