@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-openjump.png
@@ -39,7 +39,7 @@ Caratteristiche (Principali e PlugIns*)
 
 * Editing & Unione
 
-    * disegnare punti, linee, poligono, multigeometrie, collezioni di geometrie e cerchi (eventualmente unito in un unico layer)
+    * disegnare punti, linee, poligono, multi-geometrie, collezioni di geometrie e cerchi (eventualmente unito in un unico layer)
     * aggiungere, muovere, eliminare vertici
     * ruotare, scalare, auto-completare poligoni
     * tagliare, unire, simplificare poligoni e linee
@@ -85,7 +85,7 @@ Dettagli
 
 **Page per lo scaricamento:** http://sourceforge.net/projects/jump-pilot/files/ 
 
-Presentazione Veloce
+Guida Rapida
 --------------------------------------------------------------------------------
     
 * :doc:`Documentation introduttiva <../quickstart/openjump_quickstart>`

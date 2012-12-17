@@ -2,6 +2,7 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 100 %
@@ -57,7 +58,7 @@ Dettagli
 
 **Licenza:** CeCILL (CeCILL è compatibile con GPL e enhanced to  address French law)
 
-**Versione Software:** 3.14 (rilasciato nel Luglio 2012)
+**Versione Software:** 3.14.1 (rilasciato nel Ottobre 2012)
 
 **Piattaforme Supportate:** Linux, Mac, Windows
 

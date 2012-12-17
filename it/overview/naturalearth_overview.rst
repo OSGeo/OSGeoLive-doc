@@ -1,8 +1,8 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
-:Translator: Luca Delucchi
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-naturalearth.png
   :scale: 100 %
@@ -55,10 +55,10 @@ Temi dei dati culturali vettoriali:
   Include paesi, aree contese, stati e province (primo ordine delle divisioni amministrative), e i posti populati (città, villaggi). Strade, ferrovie, poligoni urbani, parchi e aree protette, Pacific nation groups, e indicatori di confine d'acqua completano l'offerta culturale.
 
 Temi dei dati fisici vettoriali:
-  Include linea di costa, terre emerse, oceani, isole minori, rilivi, caratteristiche fisiche regionali e puntuali, fiumi, laghi, aree glaciate, Antarctic ice shelves, batimetria, linee geografiche, e graticles.
+  Include linea di costa, terre emerse, oceani, isole minori, rilivi, caratteristiche fisiche regionali e puntuali, fiumi, laghi, aree glaciate, livelli di ghiaccio antartico, batimetria, linee geografiche, e graticles.
 
 Temi dei dati raster:
-  Rilievo ambreggiato a scala di grigi, cross blended hypsometric tints, satellite-derived land cover data, idealized world environment, ocean bottom, e batimetria. Optional baked in content includes: copertura del suolo, rilievi ombreggiati, acque oceaniche, e drenaggi con i laghi.
+  Rilievo ambreggiato a scala di grigi, cross blended hypsometric tints, dati della copertura del suolo da satellite, idealized world environment,  fondali dell'oceano, e batimetria. Opzionalmente include: copertura del suolo, rilievi ombreggiati, acque oceaniche, e drenaggi con i laghi.
 
 
 Dettagli
@@ -68,7 +68,7 @@ Dettagli
 
 **Licenza:** Nessuna, i dati sono sotto pubblico dominio.
 
-**Versione Dati:** 1.4
+**Versione Dati:** 2.0
 
 **Formato Dati:** SHP and TIF+TFW
 
