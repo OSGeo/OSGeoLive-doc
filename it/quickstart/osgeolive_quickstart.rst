@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -27,7 +27,7 @@ Il vostro computer dovrebbe avere almeno:
 Esecuzione:
 --------------------------------------------------------------------------------
 
-  Source an OSGeo-Live DVD, ISO available from: http://download.osgeo.org/livedvd 
+  La sorgente di OSGeo-Live DVD, ISO è disponibile su: http://download.osgeo.org/livedvd 
   Inserire il DVD nel dispositivo CD del vostro computer, quindi riavviare il computer.
 
   Se il vostro computer è impostato per avviarsi dal CD (la maggior parte dei casi) dovreste avere
@@ -35,23 +35,18 @@ Esecuzione:
   Altrimenti dovrete aggiustare le impostazioni di avvio all'interno del BIOS premendo il pulsante
   del menu di boot appena acceso il computer.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
-    :scale: 70 %
-    :alt: boot
-
-  Premere :kbd:`ENTER` per passare allo schermata seguente.
-
   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
-  Selezionare :guilabel:`live - boot the Live System`
+  Quando vede lo schermo sopra, potete premere la barra dello spazio per ottenere il menu delle opzioni
+  per il boot. In molti casi questo non deve essere fatto e non vi sarà utile. 
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_login.png
+  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
-    :alt: boot select
+    :alt: boot
 
-  Alla pagina di accesso, premere semplicemente :kbd:`ENTER` o aspettare la fine del countdown.
+  Aspettate mentre il sistema si avvia
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
@@ -63,20 +58,19 @@ Esecuzione:
     http://docs.xfce.org/start
 
   Incominciare con il sistema operativo Ubuntu: (un utile e-book PDF)
-    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+    `/usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_
 
-  Maggiori aiuti online sul sistema operativo Ubuntu: (n.b. noi usiamo la tradizionale interfaccia grafica Xfce, non l'interfaccia tablet-like Unity desktop)
-    https://help.ubuntu.com/11.04/
+  Maggiori aiuti online sul sistema operativo Ubuntu: (n.b. noi usiamo la tradizionale interfaccia grafica
+  Xfce, non l'interfaccia tablet-like Unity desktop)
+    https://help.ubuntu.com/12.04/
 
-    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
-
-    https://help.ubuntu.com/11.04/serverguide/C/
+    https://help.ubuntu.com/12.04/ubuntu-classic/gnome-classic-index/C/
 
 
 Vedere anche:
 --------------------------------------------------------------------------------
 
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
 

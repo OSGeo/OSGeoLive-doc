@@ -20,7 +20,7 @@
 MetaCRS
 ================================================================================
 
-Coordinate Reference System Transformations
+Trasformazioni del sistema di riferimento di coordinate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/project_logos/logo-metacrs.png

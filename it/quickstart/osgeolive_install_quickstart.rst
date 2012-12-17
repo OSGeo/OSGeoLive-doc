@@ -11,8 +11,8 @@ Installare OSGeo-Live nel Hard Disk
 OSGeo-Live può essere installata nel vostro hard disk, con lo stesso metodo
 con il quale una distribuzione Ubuntu è installata.
 
-Questo processo può anche essere eseguito dentro una Macchina Virtuale per creare una
-Macchina Virtuale OSGeo-Live da un DVD o immagine ISO.
+Questo processo può anche essere eseguito dentro una Macchina Virtuale per 
+creare una Macchina Virtuale OSGeo-Live da un DVD o immagine ISO.
 
 Requisiti di Sistema
 --------------------------------------------------------------------------------
@@ -76,6 +76,6 @@ Vedere anche:
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`usb_quickstart`
 
