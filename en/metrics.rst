@@ -6,7 +6,7 @@
 |osgeo-live-version| Project Metrics
 ================================================================================
 
-Metrics provided by `Ohloh <https://www.ohloh.net/>`_ which are derived from the project's code repository. Note that projects sometimes move their repository and as such metrics might not be based upon a complete history.
+Metrics provided by `Ohloh <https://www.ohloh.net/>`_ which are derived from the project's code repository. Note these metrics have know deficiencies (such as caused by repositories moving), and only provide partial indications about the project's status.
 
 .. raw:: html
 
@@ -20,7 +20,7 @@ General GIS viewing, editing, and analysis on the desktop:
 
   <script type="text/javascript" src="http://www.ohloh.net/p/qgis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/3663/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/grass/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/grass-gis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/udig/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/9819/widgets/project_factoids_stats.js"></script>
@@ -95,11 +95,10 @@ OpenStreetMap tools
   <script type="text/javascript" src="http://www.ohloh.net/p/josm/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
 
 Missing:
 
-* :`overview/osmarender <http://wiki.openstreetmap.org/wiki/Osmarender>`_ - OpenStreetMap Tools
+* `overview/osmarender <http://wiki.openstreetmap.org/wiki/Osmarender>`_
 
 Spatial Tools
 --------------------------------------------------------------------------------
@@ -144,9 +143,19 @@ Geospatial Libraries
   <script type="text/javascript" src="http://www.ohloh.net/p/geos/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/liblas/widgets/project_factoids_stats.js"></script>
 
+Coordinate Reference System Libraries 
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+  <script type="text/javascript" src="http://www.ohloh.net/p/proj4/widgets/project_factoids_stats.js"></script>
+
 Missing:
 
-* :doc:`overview/metacrs_overview` - Coordinate Reference System Transformations 
+* Proj4js (JavaScript) - used in OpenLayers.
+* CS-Map (C++) - used in MapGuide.
+* GeoTIFF/libgeotiff (C++).
+* Proj4J (Java).
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
