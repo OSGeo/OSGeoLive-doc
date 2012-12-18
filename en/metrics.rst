@@ -22,6 +22,7 @@ General GIS viewing, editing, and analysis on the desktop:
   <script type="text/javascript" src="http://www.ohloh.net/p/3663/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/grass-gis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop-2/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/udig/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/9819/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/saga-gis/widgets/project_factoids_stats.js"></script>
@@ -121,7 +122,6 @@ Applications targeted at a specific domain:
 
 .. raw:: html
 
-  <script type="text/javascript" src="http://www.ohloh.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/sahanapy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/ushahidi/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/osgearth/widgets/project_factoids_stats.js"></script>
