@@ -61,7 +61,7 @@ GRASSの開発は28年続いており、最も歴史ある、最も巨大なオ�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 6.4.1
+**バージョン:** 6.4.2
 
 **対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 
