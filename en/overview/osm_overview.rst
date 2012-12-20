@@ -66,7 +66,7 @@ Details
 
 **Software Versions:**
 
-* JOSM: Latest stable snapshot (svn r5353)
+* JOSM: Latest stable snapshot (svn r5608)
 
 * Merkaartor: 0.17.2
 
@@ -74,7 +74,7 @@ Details
 
 * Osmarender: SVN mid-2011
 
-* osm2pgsql: 0.69 (svn r22215)
+* osm2pgsql: SVN version 0.70.5
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
