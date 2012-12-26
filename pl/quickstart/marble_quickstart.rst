@@ -14,25 +14,25 @@
 Wprowadzenie do KDE-edu Marble 
 ********************************************************************************
 
-Jak zacz¹æ
+Jak zaczÄ…Ä‡
 ================================================================================
 
-* Kliknij ikonê desktop
+* Kliknij ikonÄ™ desktop
 
-* Jeœli wczeœniej u¿ywa³eœ Google Earth, ³atwo odnajdziesz siê i w tym programie.
+* JeÅ›li wczeÅ›niej uÅ¼ywaÅ‚eÅ› Google Earth, Å‚atwo odnajdziesz siÄ™ i w tym programie.
 
-* W menu Ustawienia (Settings) wybierz tryb pe³noekranowy (full-screen)
+* W menu Ustawienia (Settings) wybierz tryb peÅ‚noekranowy (full-screen)
 
-* Wypróbuj mo¿liwoœci ...
+* WyprÃ³buj moÅ¼liwoÅ›ci ...
 
-* Kliknij na nazwie miasta (kursor zmieni siê we wskazuj¹c¹ d³oñ), poprzez info center wybierz zak³¹dkê Wikipedia i przeczytaj informacje na temat tego miejsca.
+* Kliknij na nazwie miasta (kursor zmieni siÄ™ we wskazujÄ…cÄ… dÅ‚oÅ„), poprzez info center wybierz zakÅ‚Ä…dkÄ™ Wikipedia i przeczytaj informacje na temat tego miejsca.
 
-* W lewym dolnym rogu okna programu znajduje siê zak³adka "Map View". Naciœnij j¹.
+* W lewym dolnym rogu okna programu znajduje siÄ™ zakÅ‚adka "Map View". NaciÅ›nij jÄ….
 
-* Wybierz inn¹ mapê (np. 'Precipitation (July)')
+* Wybierz innÄ… mapÄ™ (np. 'Precipitation (July)')
 
-* Wypróbuj wiêcej mo¿liwoœci ... 
+* WyprÃ³buj wiÄ™cej moÅ¼liwoÅ›ci ... 
 
 
-OdwiedŸ `Marble homepage <http://edu.kde.org/marble/>`_, gdzie znajdziesz wiêcej pomocy.
+OdwiedÅº `Marble homepage <http://edu.kde.org/marble/>`_, gdzie znajdziesz wiÄ™cej pomocy.
 
