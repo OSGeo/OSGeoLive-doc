@@ -14,21 +14,21 @@
 Wprowadzenie do GMT
 ********************************************************************************
 
-Jak zacz¹æ
+Jak zaczÄ…Ä‡
 ================================================================================
 
 Na tym LiveDVD jest dokumentacja GMT (HTML i PDF),
-przyk³adowe skrypty (oraz linia brzegowa œwiata w niskiej rozdzielczoœci),
-æwiczenia (HTML i PDF) oraz zestaw danych do æwiczeñ.
+przykÅ‚adowe skrypty (oraz linia brzegowa Å›wiata w niskiej rozdzielczoÅ›ci),
+Ä‡wiczenia (HTML i PDF) oraz zestaw danych do Ä‡wiczeÅ„.
 
-Dokumentacja i æwiczenia HTML i PDF znajduj¹ siê tu
+Dokumentacja i Ä‡wiczenia HTML i PDF znajdujÄ… siÄ™ tu
   `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
-przyk³ady s¹ tu
+przykÅ‚ady sÄ… tu
   `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
-dane do æwiczeñ znajdziesz tu
+dane do Ä‡wiczeÅ„ znajdziesz tu
   `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
 
-Liniê brzegow¹ niskiej rozdzielczoœci znajdziesz tu :file:`/usr/share/gmt/coast/`.
+LiniÄ™ brzegowÄ… niskiej rozdzielczoÅ›ci znajdziesz tu :file:`/usr/share/gmt/coast/`.
 
 .. packages:
   gmt-doc (and -pdf)
@@ -37,12 +37,12 @@ Liniê brzegow¹ niskiej rozdzielczoœci znajdziesz tu :file:`/usr/share/gmt/coast/
   gmt-tutorial (and -pdf)
 
 
-Przyk³ady
+PrzykÅ‚ady
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Znajdziesz 29 gotowych przyk³adów i skrypt do ich uruchomienia:
+Znajdziesz 29 gotowych przykÅ‚adÃ³w i skrypt do ich uruchomienia:
 
-Otwórz terminal, potem
+OtwÃ³rz terminal, potem
 
 ::
 
