@@ -15,8 +15,7 @@ Wprowadzenie do ZOO Project
 Jak zacząć
 ================================================================================
 
-*	Aby uruchomić ZOO Project demo z OSGeo-Live DVD, kliknij na linkach |osgeolive-appmenupath-geoserver| , a potem na "ZOO Project" na pulpicie
-lub wybierz z menu.
+*	Aby uruchomić ZOO Project demo z OSGeo-Live DVD, wybierz z menu |osgeolive-appmenupath-geoserver|, następnie kliknij na ikonę "ZOO Project" na pulpicie lub wybierz z menu.
 
 *	Firefox otworzy demo ZOO Project Spatial Tools.
 
@@ -43,11 +42,11 @@ lub wybierz z menu.
   :align: center
 
 
-*	You can build your own requests and send them to the ZOO Kernel from the following page:
+*	Możesz budować swoje własne zapytania i wysyłać je do ZOO Kernel z poniższej strony:
 		http://localhost/zoo-demo/test_services.html
 
-*	You would need the capabilities of the ZOO WPS Server:
+*	Będziesz potrzebował capabilities Serwera ZOO WPS:
 		http://localhost/zoo/?Request=GetCapabilities&Service=WPS
 	
-*	For further questions you can contact the ZOO Project mailing list:
+*	Skontaktuj się z twórcami Projektu ZOO przez listę dyskusyjną w razie dalszych pytań:
 	zoo-discuss@gisws.media.osaka-cu.ac.jp
