@@ -17,7 +17,7 @@ osgEarth jest skalowalnym zestawem narzędzi do renderowania terenu dla OpenScen
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-To wprowadzenie opisuje jak uruchomić 3D globe z różnymi overlays.
+To wprowadzenie opisuje jak uruchomić 3D globe z różnymi nakładkami.
 
 
 Praca z osgearth_viewer
@@ -30,7 +30,7 @@ Praca z osgearth_viewer
 
 Powinieneś zobaczyć glob ze scenami satelitarnymi.
 
-* Kliknij, aby nawigować globem; prawoklik lub kółko myszyoperuje zbliżeniami.
+* Kliknij, aby nawigować globem; prawoklik lub kółko myszy operuje zbliżeniami.
 * Przeciągnij mysz z wciśniętymi oboma klawiszami by skręcić.
 * Naciśnij :kbd:`h` by uzyskać pomoc.
 * Naciśnij klawisz :kbd:`ESCAPE` aby wyjść. 
