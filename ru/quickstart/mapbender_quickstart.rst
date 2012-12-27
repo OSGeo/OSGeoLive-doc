@@ -362,7 +362,6 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 
 
 .. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
-
      :scale: 80 
 
 Назначение конфигурации WFS-приложению

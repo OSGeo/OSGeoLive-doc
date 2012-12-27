@@ -212,7 +212,7 @@ Kosmo Desktop — основное окно
 
 1. |ZOOM| Инструменты масштабирования
 
-  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.gif
+  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.png
   
   * Когда вы начинаете новую сессию, этот инструмент будет выбран по умолчанию.
   * Используйте левую кнопку мыши (ЛКМ), чтобы приблизиться до необходимого уровня к выбранной точке на карте.
@@ -221,50 +221,50 @@ Kosmo Desktop — основное окно
   
 2. |PAN| Перемещение
   
-  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.gif
+  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.png
 
   * Позволяет перемещаться по карте без изменения её масштаба.
   * Зажмите ЛКМ, затем переместите мышь в желаемое место и отпустите клавишу.
   
 3. |ZOOM_PREV| Вернуться к предыдущему виду
 
-  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.gif
+  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.png
   
   * Возвращает к предыдущему виду, хранящемуся в истории (при его наличии).
   
 4. |ZOOM_NEXT| Вернуться к следующему виду
 
-  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.gif
+  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.png
   
   * Возвращает к следующему виду, хранящемуся в истории (при его наличии).
     
 5. |ZOOM_FULL_EXTENT| Перейти к просмотру всех объектов
 
-  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.gif
+  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.png
   
   * Изменяет вид карты таким образом, что все объекты видимых слоёв отображаются на карте.
   
 6. |ZOOM_TO_LAYER| Перейти к выбранному слою
 
-  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.gif
+  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.png
   
   * Изменяет вид карты таким образом, что все объекты выбранного слоя отображаются на карте.
     
 7. |ZOOM_TO_SELECTED_ITEMS| Перейти к выбранным объектам
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.gif
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.png
   
   * Изменяет вид карты, отображая на ней все выбранные объекты 
     
 8. |PAN_TO_CLICK| Переместить по щелчку
 
-  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.gif
+  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.png
   
   * Центрирует карту в точке щелчка ЛКМ без изменения масштаба
   
 9. |COORDINATE_LOCALIZATION| Координатная локализация
 
-  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.gif
+  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.png
   
   * Центрирует карту по ввёденным координатам X и Y (широта/долгота)
 

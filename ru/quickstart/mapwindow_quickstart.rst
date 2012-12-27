@@ -372,7 +372,6 @@ http://es.sourceforge.jp/projects/sfnet_exceltodbf/ Объединение мо�
 ++++++++++++++++++++++++++++++++
 
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbox.png
-
   :alt: инструменты геообработки
   :align: right
   :width: 193 
