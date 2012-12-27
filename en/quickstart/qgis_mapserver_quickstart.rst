@@ -41,6 +41,8 @@ You should see a browser window with a web map viewer showing a world map.
    
 .. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
 
+Alternatively, you can access the application using a browser through http://localhost/qgis_server
+
 We will now change the map styling using QGIS.
 
 
