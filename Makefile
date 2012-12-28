@@ -127,20 +127,6 @@ css:
 	# Copy css file
 	cp osgeolive.css $(BUILDDIR)/html/
 
-Live_GIS_Disc_Testing.html:
-	wget -nv -O Live_GIS_Disc_Testing.html http://wiki.osgeo.org/wiki/Live_GIS_Disc_Testing
-
-test_page: Live_GIS_Disc_Testing.html sphinxbuild 
-	# Insert the test page from wiki into the HTML test.html placeholder
-	sed -e '/<h1>Test/,100000d' $(BUILDDIR)/html/en/test.html > $(TMP)
-	sed \
-	  -e '1,/<body/d' \
-	  -e "/<\/body/,100000d" \
-	  -e 's/<div id="content">/<div>/' \
-	  Live_GIS_Disc_Testing.html >> $(TMP)
-	sed -e '1,/<h1>Test/d' $(BUILDDIR)/html/en/test.html >> $(TMP)
-	mv $(TMP) $(BUILDDIR)/html/en/test.html 
-	
 licenses.csv :
 	echo `pwd`
 	../bin/extract_licenses.sh > licenses.csv
@@ -148,7 +134,7 @@ licenses.csv :
 fix_index:
 	cp index.template index.rst
 
-html: fix_index sphinxbuild fix_header_links banner_links win_installer_links test_page css link_to_en_docs link_to_en_docs
+html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs link_to_en_docs
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
