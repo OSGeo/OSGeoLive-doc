@@ -45,7 +45,7 @@ EOxServer — это сервер для работы со снимками Ear
 
 
 Демонстрационные примеры
-----------------------
+------------------------
 
 На рабочем столе появилась иконка `EOxServer`. Щёлкните по ней, появится
 демонстрационный пример из http://localhost/eoxserver/.
@@ -77,21 +77,21 @@ EOxServer — это сервер для работы со снимками Ear
 Выбор элемента списка предоставляет обзорную карту, показывающую границы
 доступных наборов данных (`Datasets`).
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
 Использование стандартных контролов OpenLayers позволяет включить также превью
 имеющихся данных.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
 С **Date slider** наборы данных `Datasets` могут быть ограничены по времени 
 с помощью интересующих вас интервалов.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client date change
 
@@ -101,19 +101,19 @@ EOxServer — это сервер для работы со снимками Ear
 Вы можете выбрать наборы данных для загрузки, определив также размеры, проекции, формат данных
 и диапазон каналов.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download selection
 
 Пункт **Start Download** вызывает начало реальной загрузки данных, в том числе, 
 нескольких файлов, если было выбрано несколько наборов данных.  
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download
 
 Служба управления (Admin Client)
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ссылка **Admin Client**  приводит на страницу входа в службу управления (`Admin Client`). 
 В нашем случае пароль для пользователя `admin` — `admin`.
@@ -133,12 +133,12 @@ EOxServer — это сервер для работы со снимками Ear
 Для примера можно просмотреть и дополнить метаданные `EO Metadata` в сконфигурированных
 наборах данных.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client 
 
 Просмотр сообщений (Log Viewer)
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ссылка **Log Viewer** предоставляет лёгкий способ для просмотра последних сообщений.
 
@@ -147,7 +147,7 @@ EOxServer — это сервер для работы со снимками Ear
   :alt: EOxServer demonstration log viewer
 
 Что дальше?
-----------
+-----------
 
 Всё написанное выше — очень простая демонстрация, вы можете сделать гораздо больше 
 с помощью EOxServer. Веб-сайт проекта содержит множество ресурсов для начала работы.

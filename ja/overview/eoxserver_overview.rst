@@ -31,7 +31,7 @@ EOxServer はオープンな規格を使用してオンラインの膨大な地�
   Geospatial Consortium) 標準の WMS, WCS, EO-WMS, EO-WCS に対応
 * ユーザーによる効率的な開発: ビューとダウンロードの設定作成
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right

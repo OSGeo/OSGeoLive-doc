@@ -73,32 +73,32 @@ Series` y `Stitched Mosaics` (series de datos y mosaicos) disponibles. La demost
 
 Seleccionando una entrada de la lista se muestra un mapa con los bordes de los juegos de datos disponibles.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
   :scale: 50 %
   :alt: Bordes en el cliente incrustado de demostración de EOxServer
 
 También puedes activar previsualizaciones de los datos disponibles usando los controles estándar de OpenLayers.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: Bordes y previsualizaciones en el cliente incrustado de demostración de EOxServer
 
 Con el control deslizante de fecha (*Date slider*) los juegos de datos se pueden filtrar a un intervalo de tiempo que sea de interés.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
   :alt: Cambio de fecha en el cliente incrustado de demostración de EOxServer
 
 El botón **Download** proporciona una lista de juegos de datos descargables. 
 Descargable significa en el contexto del cuadrado de coordenadas seleccionado, o datos mostrados en la extensión del mapa si no se ha establecido un intervalo de tiempo. Puedes seleccionar qué juegos de datos a descargar, qué tamaño, proyección, formato y subconjunto de bandas.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
   :alt: Selección de descarga en el cliente incrustado de demostración de EOxServer
 
 **Start Download** inicia la descarga que puede resultar en varios ficheros si se han seleccionado varios juegos de datos.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
   :scale: 50 %
   :alt: Descarga en el cliente incrustado de demostración de EOxServer
 
@@ -119,7 +119,7 @@ El cliente de administración es la aplicación estándar de Django y te permite
 
 Es por ejemplo posible ver y alterar los `EO Metadata` de los juegos de datos configurados.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: Cliente de administración de EOxServer 
 

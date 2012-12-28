@@ -31,7 +31,6 @@
   :target: http://postgis.refractions.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
-
   :scale: 100 %
   :alt: OSGeo Project
   :align: right

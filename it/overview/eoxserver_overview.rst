@@ -30,7 +30,7 @@ Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4,
 :doc:`SpatiaLite <spatialite_overview>`, o :doc:`PostGIS <postgis_overview>`
 come database
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right
@@ -52,10 +52,10 @@ Caratteristiche principali
 
 * Pubblicazione usando i seguenti formati e gruppi:
 
-	* 2-D EO Coverages derivato da gmlcov:RectifiedGridCoverage
-	* 2-D EO Coverages derivato da gmlcov:ReferenceableGridCoverage
-	* Dataset Series come un collezione di EO Coverages es. in una 
-  	  serie temporale
+    * 2-D EO Coverages derivato da gmlcov:RectifiedGridCoverage
+    * 2-D EO Coverages derivato da gmlcov:ReferenceableGridCoverage
+    * Dataset Series come un collezione di EO Coverages es. in una 
+      serie temporale
     * Stitched Mosaic of Rectified EO Coverages including contributingFootprint
 
 * Formati supportati per Coverage:

@@ -70,31 +70,31 @@
 
 Επιλέγοντας μια εγγραφή από τη λίστα, παρουσιάζεται στο χάρτη το περίγραμμα των διαθέσιμων δεδομένων.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
   :scale: 50 %
   :alt: Περίγραμμα δεδομένων EOxServer
 
 Χρησιμοποιώντας τα κλασικά εργαλεία της εφαρμογής OpenLayers, μπορεί ο χρήστης να ενεργοποιήσει την προεπισκόπηση των διαθεσίμων δεδομένων.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: Παρουσίαση προεπισκόπησης εικόνων εντός EOxServer
 
 Με το εργαλείο χρόνου τα δεδομένα που αντιστοιχούν σε μια χρονική περίοδο μπορούν να φιλτραριστούν από τον χρήστη ανάλογα με τις απαιτήσεις του.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
   :alt: Παρουσίαση δεδομένων με βάση την χρονική περίοδο στον EOxServer
 
 Το κουμπί **Download** παρέχει μια λίστα με τα διαθέσιμα δεδομένα για μεταφόρτωση. Η μεταφόρτωση μπορεί να γίνει με τη χρήση πολυγώνου στον χάρτη ή με την έκταση του χάρτη που βλέπει ο χρήστης, είτε με την χρονική περίοδο που έχει καθοριστεί. Ο χρήστης μπορεί να επιλέξει ποια δεδομένα θα κατεβάσει, σε ποιο μέγεθος, σε ποιο σύστημα συντεταγμένων, σε ποιό τύπο αρχείου και με ποια φασματικά κανάλια.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
   :alt: Επιλογή μεταφόρτωσης EOxServer
 
 Το κουμπί **Start Download** εκκινεί τη διαδικασία μεταφόρτωσης που μπορεί να οδηγήσει σε πολλαπλά αρχεία εφόσον περισότερα από ένα δεδομένα έχουν επιλεγεί.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
   :scale: 50 %
   :alt: Παράδειγμα μεταφόρτωσης δεδομένων στον EOxServer
 
@@ -115,7 +115,7 @@
 
 Είναι για παράδειγμα δυνατό για τον χρήστη να δεί και να αλλάξει τα μεταδεδομένα της σειράς δεδομένων που διατίθενται στην εφαρμογή.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: Παράδειγμα διαχειριστικής εφαρμογής EOxServer
 
