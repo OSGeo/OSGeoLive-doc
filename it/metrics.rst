@@ -7,8 +7,9 @@
 ================================================================================
 
 Metriche provviste da `Ohloh <https://www.ohloh.net/>`_ che sono derivate dai repository 
-del codice dei progetti. È da notare che i progetti alcune volte spostano i loro repository
-e perciò alcune metrics protrebbero basasarsi non sulla storia completa
+del codice dei progetti. È da notare che queste metriche possono avere delle mancanze
+(causate per esempio da uno spostamento del repository), e forniscono solo un indicatore
+parziale sullo stato del progetto.
 
 .. raw:: html
 
@@ -22,8 +23,9 @@ GIS generali visualizzazione, editing, and analisi sul desktop:
 
   <script type="text/javascript" src="http://www.ohloh.net/p/qgis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/3663/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/grass/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/grass-gis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop-2/widgets/project_factoids_stats.js"></script>  
   <script type="text/javascript" src="http://www.ohloh.net/p/udig/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/9819/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/saga-gis/widgets/project_factoids_stats.js"></script>
@@ -54,7 +56,7 @@ Pubblicazione di dati spaziali su internete:
   <script type="text/javascript" src="http://www.ohloh.net/p/mapserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/deegree/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/geonetwork/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/4657/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/pycsw/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapproxy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/fiftytwonorth_security/widgets/project_factoids_stats.js"></script>
@@ -97,11 +99,10 @@ Strumenti OpenStreetMap
   <script type="text/javascript" src="http://www.ohloh.net/p/josm/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
 
 Mancanti:
 
-* :`overview/osmarender <http://wiki.openstreetmap.org/wiki/Osmarender>`_ - Strumenti OpenStreetMap
+* `overview/osmarender <http://wiki.openstreetmap.org/wiki/Osmarender>`_ - Strumenti OpenStreetMap
 
 Strumenti Spaziali
 --------------------------------------------------------------------------------
@@ -109,7 +110,6 @@ Strumenti specifici per analisi:
 
 .. raw:: html
 
-  <script type="text/javascript" src="http://www.ohloh.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/GMT/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapnik/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/maptiler/widgets/project_factoids_stats.js"></script>
@@ -146,9 +146,20 @@ Librerie geospaziali
   <script type="text/javascript" src="http://www.ohloh.net/p/geos/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/liblas/widgets/project_factoids_stats.js"></script>
 
+Librerie sistemi di riferimento  
+-------------------------------------------------------------------------------- 
+
+.. raw:: html 
+
+  <script type="text/javascript" src="http://www.ohloh.net/p/proj4/widgets/project_factoids_stats.js"></script> 
+
 Mancanti:
 
-* :doc:`overview/metacrs_overview` - Trasformazioni del sistema di riferimento di coordinate
+* Proj4js (JavaScript) - used in OpenLayers. 
+* CS-Map (C++) - used in MapGuide. 
+* GeoTIFF/libgeotiff (C++). 
+* Proj4J (Java). 
+
 
 Altri software di interesse (non disponibile Live)
 --------------------------------------------------------------------------------

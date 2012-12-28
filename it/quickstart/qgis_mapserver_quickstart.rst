@@ -43,6 +43,8 @@ Dovreste vedere una finestra di un browser con un visualizzatore di mappe conten
    
 .. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
 
+Altrimenti potete accedere all'applicazione usando un browser all'indirizzo http://localhost/qgis_server
+
 Modificheremo lo stile di visualizzazione usando QGIS.
 
 Modificare un progetto QGIS
