@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: 
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver-2.png
@@ -27,8 +27,8 @@ stack of software which includes Python, :doc:`MapServer
 
 This Quick Start describes how to:
 
-* Install EOxServer in OSGeo-Live
-* Access and use the demonstration instance
+* View, filter, subset, and download EO data via EOxServer's Web Client
+* Register EO data archives via EOxServer's Admin Client
 
 See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`, the 
 `local EOxServer documentation 
@@ -37,33 +37,19 @@ EOxServer documentation <http://eoxserver.org/doc/>`_ for more information.
 
 .. contents:: Contents
 
-Installation
-------------
-
-Run the following commands to install EOxServer::
-
-    cd /usr/local/share/gisvm/bin/
-    sudo ./install_eoxserver.sh
-
-Note the password for the user `user` is `user`.
-
-The script not only installs EOxServer but also creates and deploys a 
-`demonstration instance <http://localhost/eoxserver/>`_, downloads the 
-documentation, adds launchers to the desktop, etc.
-
 Demonstration Instance
 ----------------------
 
-The new icon on the desktop labelled `EOxServer` launches a browser showing 
-the demonstration instance available at http://localhost/eoxserver/ which 
-provides the same data as the `one available online 
+The icon labeled `EOxServer` filed under `Web Services` launches a browser 
+showing the demonstration instance available at http://localhost/eoxserver/ 
+which provides the same data as the `one available online 
 <https://eoxserver.org/demo_stable/>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
   :alt: EOxServer demonstration start
 
-The other new icon on the desktop labelled `EOxServer Documentation` 
+The icon labeled `EOxServer Documentation` also filed under `Web Services` 
 launches a pdf viewer showing the available documentation.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
@@ -87,21 +73,21 @@ information on the available data.
 Selecting a list entry provides you with a map view showing the outlines of 
 the available `Datasets`.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
 Using the standard OpenLayers controls you can enable also previews of the 
 available data.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
 With the **Date slider** the `Datasets` shown can be limited to the time 
 interval of interest.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client date change
 
@@ -110,14 +96,14 @@ Downloadable means within the set Bounding Box or currently viewn map extent
 if not set and the set time interval. You can select which `Datasets` to 
 download in which size, projection, format, and band subset.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download selection
 
 **Start Download** initiates the actual download which might result in 
 multiple files if multiple `Datasets` have been selected.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download
 
@@ -143,9 +129,9 @@ be found in the `operators' guide
 It is for example possible to view and alter the `EO Metadata` of the 
 configured `Dataset Series`.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
   :scale: 50 %
-  :alt: EOxServer demonstration admin client 
+  :alt: EOxServer demonstration admin client EO Metadata
 
 Log Viewer
 ~~~~~~~~~~
