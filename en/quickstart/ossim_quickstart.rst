@@ -25,10 +25,12 @@ Imagelinker
 ================================================================================
 
 * Start Imagelinker from its icon from the directory "Spatial Tools" on the desktop 
-* Select the project file, using :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
+* Open Image file, using :menuselection:`File --> Open Image --> /home/user/data/raster/p011r031_7t19990918_z19_nn10.tif`
+* Repeat previous operation for the files : `p011r031_7t19990918_z19_nn20.tif and p011r031_7t19990918_z19_nn30.tif`
+* Or simply drag and drop the images into the Imagelinker main window
 * Go to the :menuselection:`menu bar --> window --> tile`
 * Select an :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
-* Verify you see a 3 gray satelite images. 
+* Verify you see a 3 gray-scale satelite images. 
 
   .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
@@ -43,11 +45,9 @@ OssimPlanet
 
 * Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
 
-* Select :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
+* Select :menuselection:`File --> Open Image --> /home/user/data/raster/world.tif` (or simply drag and drop the image into the main window)
 
-* Go to :menuselection:`menu --> Open kml --> /home/user/data/kml/*.kml`
-
-* Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
+* Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the world image`,
   you should see the scene zoom to the image's location 
 
 * Navigate the scene.
