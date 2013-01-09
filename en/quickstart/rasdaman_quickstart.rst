@@ -2,7 +2,8 @@
 :Author: Michael Owonibi (o.michael@jacobs-university.de)
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
 :Author: Dimitar Misev (d.misev@jacobs-university.de)
-:Version: osgeo-live6.0
+:Author: Alan Beccati (a.beccati@jacobs-university.de)
+:Version: osgeo-live6.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
@@ -23,7 +24,7 @@ This Quick Start describes how to try out queries on a sandbox of raster objects
 Exploring the 1-D to 4-D examples
 ================================================================================
 
-    * Go to the EarthLook `Earthlook <http://localhost:8080/earthlook/index.php>`_ demo to explore various demo data sets. The small ones are part of OSGeo-Live, those utilizing larger sets forward directly to the `Earthlook site <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ .
+    * You can access the local rasdaman `demonstrator <http://localhost:8080/rasdaman-demo/index-osgeolive.php>`_ to explore various demo data sets. The small ones are part of OSGeo-Live, those utilizing larger sets forward directly to the `Earthlook site <http://kahlua.eecs.jacobs-university.de/~earthlook/index-osgeolive.php>`_ .
 
 Running queries locally
 ================================================================================
