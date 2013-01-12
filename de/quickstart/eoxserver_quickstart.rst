@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeo-Live 
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: 
 :Version: osgeo-live6.5
