@@ -1,6 +1,6 @@
-:Author: Friedjoff Trautwein (http://www.geops.de)
-:Author: Patric Hafner (http://www.geops.de))
-:Reviewer: no one yet
+:Author: Friedjoff Trautwein, http://www.geops.de
+:Author: Patric Hafner, http://www.geops.de
+:Reviewer: Cameron Shorter, http://lisasoft.com
 :Version: osgeo-live6.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -15,11 +15,9 @@ Cartaro
 
 Geospatial CMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cartaro is the web mapping platform that brings the power of the best open source geospatial components into a content management system. With Cartaro you are able to set-up and run your own geo-enabled and OGC standards-compliant website with not more than a few clicks. The geospatial components used in Cartaro are :doc:`PostGIS <../overview/postgis_overview>`, :doc:`GeoServer <../overview/geoserver_overview>`, GeoWebCache and :doc:`OpenLayers <../overview/openlayers_overview>`. All those are managed from within the powerful CMS `Drupal <http://drupal.org>`_.
+Cartaro provides geospatial functionality and web services within the Drupal Content Management System (CMS). With just a few clicks within Cartaro, you can set-up and run OGC standards based web services, as well as build maps into web pages. Cartaro builds upon robust Open Source components: the :doc:`PostGIS <../overview/postgis_overview>` database, :doc:`GeoServer <../overview/geoserver_overview>` and GeoWebCache web services, :doc:`OpenLayers <../overview/openlayers_overview>` maps in the browser, all managed from within the powerful `Drupal <http://drupal.org>`_ CMS.
 
-Cartaro is for organisations and individuals that need to run a light-weight spatial data infrastructure (SDI) without the need for extensive configurations and much individual programming.
-
-Cartaro is also for all websites that focus on CMS features while also having to handle geospatial data.
+Cartaro is designed for CMS websites needing to handle geospatial data, and for organisations wanting a light-weight Spatial Data Infrastructure (SDI) with minimal configuration and programming.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
@@ -29,7 +27,7 @@ Cartaro is also for all websites that focus on CMS features while also having to
 Core Features
 --------------------------------------------------------------------------------
 
-Most functions needed for a SDI come right out of the box through the close integration of Drupal with PostGIS and GeoServer. The main features of Cartaro are:
+Most SDI functionality comes right out of the box through the close integration of Drupal with PostGIS and GeoServer. The main features of Cartaro are:
 
 * Spatial data storage with true geometry data types
 * Creation of data types from within the Drupal GUI
@@ -46,8 +44,6 @@ Most functions needed for a SDI come right out of the box through the close inte
 
 Implemented Standards
 --------------------------------------------------------------------------------
-
-Support of numerous Open Geospatial Consortium  (OGC) standards:
 
   * :doc:`../standards/wms_overview`
   * :doc:`../standards/wfs_overview`
