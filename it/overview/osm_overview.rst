@@ -47,7 +47,7 @@ Dettagli
 
 **Sito Web:** http://www.openstreetmap.org
 
-**Licenza:**
+**Licenze:**
 
 * Dati di OpenStreetMap: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
 
@@ -67,7 +67,7 @@ Dettagli
 
 **Versioni dei Software:**
 
-* JOSM: L'ultimo snapshot stabile (svn r5353)
+* JOSM: L'ultimo snapshot stabile (svn r5608)
 
 * Merkaartor: 0.17.2
 
@@ -75,7 +75,7 @@ Dettagli
 
 * Osmarender: SVN mid-2011
 
-* osm2pgsql: 0.69 (svn r22215)
+* osm2pgsql: versione SVN 0.70.5
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows
 

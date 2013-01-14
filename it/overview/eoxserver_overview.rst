@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
@@ -71,11 +71,6 @@ Standard implementati
   * WMS, EO-WMS
   * GML, GMLCOV, EO-O&M
 
-Dettagli
---------------------------------------------------------------------------------
-
-* `Local <http://localhost/eoxserver/>`_
-* `Online <https://eoxserver.org/demo_stable/>`_
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -84,7 +79,7 @@ Dettagli
 
 **Licenza:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Versione Software:** 0.2.2
+**Versione Software:** 0.2.3
 
 **Piattaforme Supportate:** Linux, Windows, Mac
 
