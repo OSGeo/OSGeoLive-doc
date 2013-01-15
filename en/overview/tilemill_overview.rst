@@ -1,41 +1,66 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez
-:Reviewer: 
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+.. Review Comment
+ For the Project Logo, it should just contain the icon. Currently it also
+ includes text and lots of white space above and below the text.
+ Can the logo please be edited to only include the icon.
+  
 .. image:: ../../images/project_logos/logo-tilemill.png
   :scale: 75 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
 
-Design studio for Web Maps
+TileMill
 ================================================================================
 
 
-TileMill
+Design studio for Web Maps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/tilemill_interface.png
-  :scale: 55 %
-  :alt: TilleMill user interface
-  :align: right
+.. Review Comment. For consistency with other Project Overviews, there should
+  only be one image. As such, please remove the image below (or replace other
+  image with this one).
+  .. image:: ../../images/screenshots/1024x768/tilemill_interface.png
+    :scale: 55 %
+    :alt: TilleMill user interface
+    :align: right
 
-TileMill is a tool to quickly and easily design maps for the web using custom data. It is built on the powerful open-source map rendering library Mapnik ( the same software OpenStreetMap and MapQuest use to make some of their maps ) and uses CartoCSS as a stylesheet language.
+TileMill is a design studio for creating beautiful, web based, interactive maps from a wide range of existing spatial data sources.
 
-TileMill supports either vector data ( csv, shapefile, kml. GeoJson) or raster (GeoTiff), and can also connects to large datasets like PostgreSQL with PostGIS and OpenStreetMap. Customized maps can be exported to different formats like: .png, .pdf, .svg or MBTiles
+.. Review Comment
+  Is the following sentence accurate?
+  What are MBTiles? I expect we should include a few words explaining what it is.
 
-Although TileMill is a powerful design studio, in order tu use it effectively you will probably need to use with other desktop GIS applications (like QuantumGIS) to manipulate geospatial data in advance or graphics editor (like GIMP) to create and edit icons, patterns and textures.
+Generated webmaps can use hover tooltips, clickable pop ups, interactive graphs and images, SVG markers, rich textures, and multiple layers.  Customized maps can be exported to different formats like: .png, .pdf, .svg and MBTiles.
+
+.. Review Comment
+  Can Tilemill publish to WMS, WFS? If so, mention it here.
+
+Data can be sourced from vector data (CSV, shapefile, KML, GeoJSON), raster (GeoTiff), as well as large data sources like OpenStreetMap, Postgres and SQLite.
+
+.. Review Comment
+  Can Tilemill connect to OGC services such as WMS, WFS? If so, mention it here.
+
+Tilemill makes use of the :doc:`Mapnik <mapnik_overview>` map rendering library (as used by OpenStreeMap) and uses the CartoCSS as a stylesheet language.
+
+TileMill is typically used in conjunction with a desktop GIS (like QunatumGIS) for preparing data, and a graphics editor (like GIMP) for creating icons, patterns and textures.
 
 .. image:: ../../images/screenshots/1024x768/tilemill_mapsexamples.png
-  :scale: 55 %
+  :scale: 90 %
   :alt: TilleMill user interface
   :align: right
 
 Core Features
 --------------------------------------------------------------------------------
 
+.. Review Comment
+  Can you connect to other map formats, such as Google, Bing, WMS, WFS, ???
+  If so mention it.
 * Load data from a wide range of sources
   
   * ESRI Shapefile
@@ -43,8 +68,9 @@ Core Features
   * GeoJSON
   * GeoTiff
   * CSV spreadsheet
+  * OpenStreetMap
 
-* Connecting to Geospatial datasets
+* Connecting to Geospatial databases
 
   * PostgreSQL + PostGIS
   * SQLite
@@ -53,22 +79,21 @@ Core Features
 
 * Data Styling
 
-  * Style using presets or cutom colors
+  * Style using presets or custom colors
   * Conditional styles
 
-* Adding tooltips and legends
+* Add tooltips and legends
 
-* Exporting a map
+* Publish
 
-  * Image Files
-  * Embedding a map on a webpage or CMS (WordPress, Drupal)
+  * Image Files: .png, .pdf, .svg, MBTiles.
+  * Publish as webpage 
+  * Embed map in a webpage or Content Management System (WordPress, Drupal)
 
 * JavaScript API
 
 Implemented Standards
 --------------------------------------------------------------------------------
-
-.. Writing Tip: List OGC or related standards supported.
 
 * TileMill does not support OGC standards, like WMS or WFS. Rather it adheres to the widespread practices of z/x/y tile schemes used by Google and OSM and is based on the MBTiles and UTFGrid specifications.
 
@@ -92,4 +117,3 @@ Quickstart
 --------------------------------------------------------------------------------
     
 * :doc:`Quickstart documentation <../quickstart/tilemill_quickstart>`
-
