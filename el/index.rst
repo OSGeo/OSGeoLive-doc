@@ -2,6 +2,22 @@
 Καλώς ήρθατε στο OSGeo-Live
 ================================================================================
 
+.. only:: latex
+
+   .. toctree::
+     :maxdepth: 1
+     :glob:
+
+     overview/toc
+     quickstart/toc
+     standards/standards
+     download
+     contact
+     copyright
+     disclaimer
+     sponsors
+     sponsors_osgeo
+
 Το `OSGeo-Live <http://live.osgeo.org>`_ είναι ένα αυτόνομο εκκινήσιμο DVD, USB ή Εικονική Μηχανή
 βασισμένη στη διανομή `Xubuntu <http://www.xubuntu.org/>`_, που σας επιτρέπει να δοκιμάσετε μια μεγάλη ποικιλία γεωχωρικών λογισμικών ανοιχτού κώδικα
 χωρίς να χρειαστεί να εγκαταστήσετε τίποτα στον υπολογιστή σας. Αποτελείται αποκλειστικά από ελεύθερο λογισμικό,
@@ -26,34 +42,36 @@
 Πολλές εφαρμογές παρέχονται επίσης για άλλα λειτουργικά συστήματα όπως για `Apple OSX <../MacInstallers/>`_ και
 `Microsoft Windows <../WindowsInstallers/>`_.
 
+.. only:: html
 
-Γρήγορη εκκίνηση
---------------------------------------------------------------------------------
+   Γρήγορη εκκίνηση
 
-.. toctree::
-   :maxdepth: 1
+  --------------------------------------------------------------------------------
 
-   Ξεκινώντας με το το OSGeo-Live DVD <quickstart/osgeolive_quickstart>
-   Αλλαγή γλώσσας και τύπου πληκτρολογίου <quickstart/internationalisation_quickstart>
-   Εγκατάσταση του OSGeo-Live στον σκληρό σας δίσκο <quickstart/osgeolive_install_quickstart>
-   Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualization_quickstart>
-   Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart>
+   .. toctree::
+     :maxdepth: 1
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
+     Ξεκινώντας με το το OSGeo-Live DVD <quickstart/osgeolive_quickstart>
+     Αλλαγή γλώσσας και τύπου πληκτρολογίου <quickstart/internationalisation_quickstart>
+     Εγκατάσταση του OSGeo-Live στον σκληρό σας δίσκο <quickstart/osgeolive_install_quickstart>
+     Τρέξτε το OSGeo-Live σε μια εικονική μηχανή <quickstart/virtualization_quickstart>
+     Δημιουργήστε ένα εκκινήσιμο OSGeo-Live κλειδί USB <quickstart/usb_quickstart>
 
-   overview/overview
-   quickstart/*quickstart
-   standards/standards
-   contact
-   copyright
-   disclaimer
-   download
-   sponsors
-   sponsors_osgeo
-   presentation
+   .. toctree::
+     :maxdepth: 1
+     :hidden:
+     :glob:
+
+     overview/overview
+     quickstart/*quickstart
+     standards/standards
+     contact
+     copyright
+     disclaimer
+     download
+     sponsors
+     sponsors_osgeo
+     presentation
 
 Παρουσίαση
 --------------------------------------------------------------------------------
