@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geomoose.png
@@ -24,9 +24,9 @@ Web GIS Portal
 Ο πυρήνας του GeoMOOSE είναι γραμμένος σε JavaScript and HTML. Είναι δυνατόν να εκτελεστεί από έναν απλό / βασικό webserver (Nginx, Apache, IIS). Πέρα απ'αυτό ενσωματώνει επιπλέον ένα πλήθος εργαλείων/λειτουργιών γραμμένα σε PHP. Τα εργαλεία αυτά έχουν την δυνατότητα να εκτελούν λειτουργίες αναγνώρισης, επιλογής και αναζήτησης σε δεδομένα. Επίσης αν έχετε άλλα εργαλεία για παρόμοιες εργασίες το GeoMOOSE ρυθμίζεται να συνεργάζεται με αυτά ανεξάρτητα απ'την γλώσσα στην οποία είναι γραμμένα.
 Ως Ανοιχτό Λογισμικό έχει στηριχθεί πάνω σε άλλα ΕΛ/ΛΑΚ όπως τα MapServer και OpenLayers.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
   :scale: 55 %
-  :alt: geomoose-screenshot-800x600.png
+  :alt: GeoMoose Screenshot
   :align: right
 
 Βασικά Χαρακτηριστικά
@@ -47,6 +47,8 @@ Web GIS Portal
 Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
 * WMS
+* WFS (εφαρμογή πελάτης)
+* WFS-T (εφαρμογή πελάτης)
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -56,7 +58,7 @@ Web GIS Portal
 **Άδεια:**: MIT
 http://www.geomoose.org/info/license.html
 
-**Έκδοση Λογισμικού:** 2.4
+**Έκδοση Λογισμικού:** 2.6.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
