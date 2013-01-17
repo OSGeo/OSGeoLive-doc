@@ -20,7 +20,14 @@
   :alt: Κέντρο Πληροφοριών για το Περιβάλλον (Information Center for the Environment) του πανεπιστημίου Davis στην Καλιφόρνια
   :target: http://ice.ucdavis.edu
 
-Το Κέντρο Πληροφοριών για το Περιβάλλον του Davis παρέχει υλικούς πόρους για την υποστήριξης ανάπτυξης του OSGeo Live DVD.
+Το Κέντρο Πληροφοριών για το Περιβάλλον του Davis παρέχει υλικούς πόρους για την υποστήριξη ανάπτυξης του OSGeo Live DVD.
+
+.. image:: ../images/logos/ntua_logo.jpg
+  :scale: 60 %
+  :alt: Εθνικό Μετσόβιο Πολυτεχνείο
+  :target: http://www.ntua.gr
+
+Το Εργαστήριο Τηλεπισκόπησης στο Εθνικό Μετσόβιο Πολυτεχνείο παρέχει υλικούς πόρους για την υποστήριξη ανάπτυξης του OSGeo Live DVD.
 
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %

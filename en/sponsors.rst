@@ -24,6 +24,14 @@ Information Center for the Environment at the University of California,
 Davis provides hardware resources and development support to the
 OSGeo-Live project.
 
+.. image:: ../images/logos/ntua_logo.jpg
+  :scale: 60 %
+  :alt: National Technical University of Athens
+  :target: http://www.ntua.gr/index_en.html
+
+Remote Sensing Laboratory at the National Technical University of Athens,
+provides hardware resources and development support to the OSGeo-Live project.
+
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
