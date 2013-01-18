@@ -25,7 +25,7 @@ Davis provides hardware resources and development support to the
 OSGeo-Live project.
 
 .. image:: ../images/logos/ntua_logo.jpg
-  :scale: 60 %
+  :scale: 40 %
   :alt: National Technical University of Athens
   :target: http://www.ntua.gr/index_en.html
 

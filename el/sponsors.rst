@@ -23,7 +23,7 @@
 Το Κέντρο Πληροφοριών για το Περιβάλλον του Davis παρέχει υλικούς πόρους για την υποστήριξη ανάπτυξης του OSGeo Live DVD.
 
 .. image:: ../images/logos/ntua_logo.jpg
-  :scale: 60 %
+  :scale: 40 %
   :alt: Εθνικό Μετσόβιο Πολυτεχνείο
   :target: http://www.ntua.gr
 
