@@ -144,3 +144,6 @@ http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Main_Page
 And you can get help fast on the OpenJUMP users mailing list:
 http://groups.google.com/group/openjump-users
 
+Finally, the latest OpenJUMP version can be found here:
+http://sourceforge.net/projects/jump-pilot/files/
+
