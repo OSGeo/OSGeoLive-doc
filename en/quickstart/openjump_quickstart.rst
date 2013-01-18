@@ -25,7 +25,7 @@ Starting OpenJUMP
 OSGeo Live-DVD: start OpenJUMP link on desktop or run /usr/bin/openjump
 
 General: For Windows, go to the bin folder of the OpenJUMP directory and double 
-click the openjump.exe or openjump.bat file. For Linux, execute the oj_linux.sh 
+click the OpenJUMP.exe or oj_windows.bat file. For Linux, execute the oj_linux.sh 
 file from a terminal. For MacOSX, click on the OpenJUMP application symbol.
 
 (Please note: A Java runtime environment is required to run OpenJUMP. 
@@ -58,8 +58,9 @@ This section of the quick start briefly explains how to open an ESRI shapefile.
 On the top-level menu bar in OpenJUMP, select the [File] menu. Then select the 
 option [Open File...]. This will present you with a dialog box that allows you 
 to open files containing geospatial data. In our example, you want to browse for 
-an ESRI shapefile. Look for a file with the .shp extension. Select the file and 
-click the [Finish] button on the dialog. After a few moments, you will be able 
+an ESRI shapefile. Look for a file with the .shp extension (e.g. on the LiveDVD 
+under `/home/user/data/natural_earth/10m_admin_0_countries.shp`). Select the file 
+and click the [Finish] button on the dialog. After a few moments, you will be able 
 to see the data from your shapefile in the Layer View. You will also see a new 
 layer created for your data in the Layer List. The name of the layer will match 
 the name of the shapefile.
@@ -75,8 +76,8 @@ Style a Layer
 This section of the quick start briefly explains how to style a layer.
 
 In the Layer List, right click* on the layer name. This will show a pop-up menu. 
-Go to the [Style] menu entry and the choose [Change Styles]. The Change Styles 
-dialog has five (5) tabs that allow you to change how the layer is displayed at 
+Go to the [Style] menu entry and then choose [Change Styles...]. The Change Styles 
+dialog has five (5) tabs that allow you to change how the layer is displayed in 
 the Layer View. This includes changing the stroke color, the fill color, line
 style and line thickness, transparency, adding labels, and determining at which 
 maximum and minimum scales the layer is displayed at.
@@ -92,10 +93,11 @@ maximum and minimum scales the layer is displayed at.
 Edit Feature Geometries in a Layer
 ================================================================================
 
-In the Layer List, right click on the layer name. This will show a pop-up menu. 
-Check the box next to the Editable menu entry called "Editable". This will open 
-a new floating toolbar over the Layer View on the right side. This toolbar has a 
-set of buttons that you can use to edit the geometry of a geographic feature.
+In the Layer List, right click on the layer name, as in the previous example. 
+This will show a pop-up menu. Check the box next to the Editable menu entry 
+called "Editable". This will open a new floating toolbar over the Layer View 
+on the right side. This toolbar has a set of buttons that you can use to edit 
+the geometry of a geographic feature.
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_05.png
    :scale: 55 
@@ -105,25 +107,24 @@ set of buttons that you can use to edit the geometry of a geographic feature.
 
 Let's try a quick edit. First we need to select a geometry and then we move a 
 point of the geometry. To do that, we first click the button that shows a mouse 
-cursor in the editing toolbar. Use it to click on and select a single feature in 
-the Layer View. It should change to yellow and small yellow squares appear at 
-each angle point (vertex) in the feature geometry. 
+cursor in the editing toolbar (top left button). Activate it and click on a single 
+feature in the Layer View to select it. If the selection worked, then the features
+line color should change to yellow and small yellow squares appear at each angle 
+point (vertex) in the feature geometry. 
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_07.png
    :scale: 55 
 
-Next, click on the button 
-that shows a blue crosshair with a yellow square in the middle, the :guilabel:`Move Vertex Tool` 
-(Hoovering over the buttons gives you a button description). You should 
-now see your mouse cursor change to a small black crosshair when you move it 
-over the Layer View. 
+Next, click on the button that shows a blue crosshair with a yellow square in the 
+middle, the :guilabel:`Move Vertex Tool` (Hoovering over the buttons gives you a 
+button description). You should now see your mouse cursor change to a small black 
+crosshair when you move it over the Layer View. 
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_08.png
    :scale: 55 
 
-Try using this to move the vertex on the geometry you 
-selected by clicking an the vertex and dragging it (leaving the mouse button 
-pressed).
+Try using this to move one of the vertices/points of the geometry you selected before
+by clicking on one of the vertices and dragging it (leaving the mouse button pressed).
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_09.png
    :scale: 55 
