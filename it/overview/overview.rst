@@ -77,6 +77,7 @@ Strumenti speficici per analisi:
 * :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 * :doc:`gmt_overview` - [:doc:`Guida rapida <../quickstart/gmt_quickstart>`] - Restituzione cartografica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
+* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
 * :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Creazione di Map Tiles
 * :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini

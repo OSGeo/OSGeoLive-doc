@@ -25,6 +25,15 @@ e il pacchettamento del software sul OSGeo-Live DVD.
 Information Center for the Environment all'Universita della California,
 Davis fornisce risorse hardware e di sviluppo al progetto OSGeo-Live.
 
+ 
+.. image:: ../images/logos/ntua_logo.jpg 
+  :scale: 40 % 
+  :alt: National Technical University of Athens 
+  :target: http://www.ntua.gr/index_en.html 
+
+Laboratorio di Telerilevamento all'Università Nazionale Tecnica di Atene, 
+fornisce risorse hardware e supporto allo sviluppo del progetto OSGeo-Live. 
+
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
