@@ -77,7 +77,7 @@ pgAdmin，phpPgAdmin，やその他のプログラムを利用してデータベ
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 1.5
+**ソフトウェアバージョン:** 2.0
 
 **サポートされるプラットフォーム:** Windows, Linux, Mac
 

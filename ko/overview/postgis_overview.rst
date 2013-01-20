@@ -107,7 +107,7 @@ PostGIS는 수많은 공간적 기능을 제공하고 안정적이고 빠르며 
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.5
+**Software Version:** 2.0
 
 **Supported Platforms:** Windows, Linux, Mac
 

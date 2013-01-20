@@ -59,7 +59,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.5
+**Software Version:** 2.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

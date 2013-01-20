@@ -63,7 +63,7 @@ PostGIS
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.5
+**Έκδοση Λογισμικού:** 2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

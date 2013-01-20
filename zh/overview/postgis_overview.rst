@@ -111,7 +111,7 @@ PostGIS性能稳定、快速、兼容各标准规范，具有数百个空间函�
 
 **版本:** GNU General Public License (GPL) version 2
 
-**软件版本:** 1.5
+**软件版本:** 2.0
 
 **运行平台:** Windows, Linux, Mac
 
