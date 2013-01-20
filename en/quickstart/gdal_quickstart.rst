@@ -123,14 +123,8 @@ Translation
 ================================================================================
 
 Translations are accomplished with the gdal_translate command. The
-default output format is GeoTIFF:
-
-::
-
- gdal_translate HYP_50M_SR_W.tif HYP_50M_SR_W.png 
-
-The `-of` flag is used to select an output format and the -co flag is used
-to specify a creation option:
+default output format is GeoTIFF.  The `-of` flag is used to select an 
+output format and the -co flag is used to specify a creation option:
 
 ::
 
