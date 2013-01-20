@@ -23,25 +23,11 @@ Design studio for Web Maps
 Σχεδιαστικό Λογισμικό για Διαδικτυακούς Χάρτες 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. Review Comment. For consistency with other Project Overviews, there should
-  only be one image. As such, please remove the image below (or replace other
-  image with this one). js: OK!, but finally I've selected the app interface one, better that the map examples, as I consider it to be more representative of the application.
-
 Το TileMill είναι ένα σχεδιαστικό λογισμικό για δημιουργία όμορφων, διαδικτυακών, διαδραστικών χαρτών από μια μεγάλη ποικιλία από υπάρχουσες πηγές γεωχωρικών δεδομένων.
-
-.. Review Comment
-  Is the following sentence accurate?
-  What are MBTiles? I expect we should include a few words explaining what it is. js: OK! (added explanation about it.)
 
 Οι διαδικτυακοί χάρτες που δημιουργούνται μπορούν να χρησιμοποιήσουν πτυσσόμενες εργαλειοθήκες, ενεργά με κλίκ παράθυρα, διαδραστικά γραφικά και εικόνες, σχήματα SVG, πλούσιες υφές και πολλαπλά επίπεδα. Οι τροποποιημένοι χάρτες μπορούν να εξαχθούν σε διάφορα πρότυπα όπως: .png, .pdf, .svg και MBTiles. Τα MBTiles είναι ένα ανοιχτό πρότυπο που παρέχει έναν τρόπο για αποθήκευση χιλιάδων πλακιδίων σε μία μοναδική SQLite βάση δεδομένων, κάνοντας εφικτή την αποθήκευση και μεταφορά των διαδικτυακών χαρτών σε ένα μόνο αρχείο. Και αφού η SQLite είναι διαθέσιμη σε πολλές πλατφόρμες, τα MBTiles είναι ένα ιδανικό πρότυπο για διάβασμα των πλακιδίων απευθείας στο διαδίκτυο ή για εμφάνιση σε κινητές συσκευές. 
 
-.. Review Comment
-  Can Tilemill publish to WMS, WFS? If so, mention it here. js: It doesn't indeed, It is explained bellow that it does not support OGC standards...
-
 Τα δεδομένα μπορεί να προέρχονται από διανυσματικά δεδομένα (CSV, shapefile, KML, GeoJSON), ψηφιδωτά δεδομένα (GeoTiff), όπως επίσης και μεγάλες πηγές δεδομένων όπως OpenStreetMap, Postgres and SQLite. 
-
-.. Review Comment
-  Can Tilemill connect to OGC services such as WMS, WFS? If so, mention it here. js: It can't, as far as I Know.
 
 Το Tilemill χρησιμοποιεί ένα :doc:`Mapnik <mapnik_overview>` χάρτη που παρέχεται από την βιβλιοθήκη (όπως χρησιμοποιείται από το OpenStreeMap) και χρησιμοποιεί το CartoCSS ως γλώσσα μορφοποίησης των φύλλων.
 
@@ -54,10 +40,6 @@ Design studio for Web Maps
 
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
-
-.. Review Comment
-  Can you connect to other map formats, such as Google, Bing, WMS, WFS, ???
-  If so mention it. js: It can't, as far as I Know.
 
 * Φόρτωση δεδομένων από μεγάλη ποικιλία πηγών
 
