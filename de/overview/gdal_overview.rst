@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
@@ -63,7 +63,7 @@ Details
 
 **Lizenz:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Software Version:** 1.7.0 (1.9.1)
+**Software Version:** 1.7.0 (1.9.2)
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
