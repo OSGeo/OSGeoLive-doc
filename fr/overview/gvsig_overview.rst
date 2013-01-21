@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -68,7 +68,7 @@ Caractéristiques principales
   * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Géoréférencement: ADL, WFS, WFS-G
   
-* Plus de 290 algorithmes spatiaux grâce à l'intégration des librairies SEXTANTE et GRASS
+* Plus de 340 algorithmes spatiaux grâce à l'intégration des librairies SEXTANTE et GRASS
   
 * Outils de dessin avancés :
 

@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5

@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Antonio Falciano
 :Version: osgeo-live6

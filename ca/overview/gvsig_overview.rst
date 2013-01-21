@@ -1,4 +1,4 @@
-﻿:Author: OSGeo-Live
+﻿:Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Reconeixement 3.0 No adaptada (CC BY 3.0)
@@ -65,7 +65,7 @@ Característiques Principals
   * Catàlegs: Z3950, SRW, CSW (ISO/19115 i ebRIM)
   * Nomenclator: ADL, WFS, WFS-G
   
-* Més de 290 algorismes de geoprocessament a través de la biblioteca SEXTANTE i la integració de GRASS
+* Més de 340 algorismes de geoprocessament a través de la biblioteca SEXTANTE
   
 * Incorporació d'eines CAD avançades:
 

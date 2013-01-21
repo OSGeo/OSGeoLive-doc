@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: Jorge Sanz 
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live5.5
@@ -72,7 +72,7 @@ zarządzania treścią mapy, geoprocesingu, CAD, przetwarzania rastrów itp.
   * Katalogi: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetery: ADL, WFS, WFS-G
   
-* Ponad 290 algorytmów przestrzennych poprzez integrację biblioteki SEXTANTE i systemu GRASS 
+* Ponad 340 algorytmów przestrzennych poprzez integrację biblioteki SEXTANTE i systemu GRASS 
   
 * Zintegrowane zaawansowane narzędzia CAD:
 

@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -61,7 +61,7 @@ gvSIG известна тем, что:
   * каталоги — Z3950, SRW, CSW (ISO/19115 and ebRIM);
   * географические справочники — ADL, WFS, WFS-G.
   
-* Более 300 геоалгоритмов доступны через библиотеку SEXTANTE и интеграцию с GRASS.
+* Более 340 геоалгоритмов доступны через библиотеку SEXTANTE и интеграцию с GRASS.
   
 * Интеграция развитые CAD-инструменты:
 

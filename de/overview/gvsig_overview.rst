@@ -1,4 +1,4 @@
-﻿:Author: OSGeo-Live
+﻿:Author: Jorge Sanz 
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -64,7 +64,7 @@ Kernelemente
   * Catalog-Services: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteer-Services: ADL, WFS, WFS-G
   
-* Bietet mehr als 290 Geoalgorithmen durch die Integration von SEXTANTE_ and GRASS
+* Bietet mehr als 340 Geoalgorithmen durch die Integration von SEXTANTE_
   
 * Fortschrittlich durch integrierte CAD Werkzeuge:
 

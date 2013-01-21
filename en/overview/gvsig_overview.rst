@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -68,7 +68,7 @@ Core Features
   * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteers: ADL, WFS, WFS-G
   
-* More than 290 geoalgorithms via SEXTANTE library and GRASS integration
+* More than 340 geoalgorithms via SEXTANTE library
   
 * Integrated advanced CAD tools:
 
@@ -110,7 +110,7 @@ Details
 
 **Software Version:** 1.12
 
-**Supported Platforms:** Windows, Linux, Mac
+** Supported Platforms:** Windows, Linux, Mac
 
 **Support:** http://www.gvsig.org/web/organization/services
 

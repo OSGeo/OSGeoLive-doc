@@ -73,8 +73,7 @@ Características principales
   * Catálogo: Z3950, SRW, CSW (ISO/19115 y ebRIM)
   * Nomenclátor: ADL, WFS, WFS-G
 
-* Más de 290 algoritmos de geoprocesamiento a través de la biblioteca SEXTANTE 
-  y su integración con GRASS
+* Más de 340 algoritmos de geoprocesamiento a través de la biblioteca SEXTANTE
 
 * Herramientas CAD integradas:
 
