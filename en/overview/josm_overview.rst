@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/projects_logos/logo-josm.png
+.. image:: ../../images/project_logos/logo-josm.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -42,7 +42,7 @@ It is one of the most powerful desktop applications in order digitize accurate e
 
 JOSM is an offline editor which means everything you do won't be visible for anyone else until uploading it to the server. Once you are happy with your changes, if you attempt to save them, JOSM will check if happens to be any conflict with other editions run by other users on the same elements. If there is no conflict cases to solved, your data will be uploaded, saved and visible to everyone else.
 
-.. image:: ../../images/screenshots/1024x768/josm_interface.png
+.. image:: ../../images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right
@@ -55,10 +55,10 @@ Core Features
 * Download and upload OSM vector data.
 
 * Open local data 
-	* NMEA-0183 files: *.nmea, *.nme, *.nma, *.log, *.txt
-	* OSM files: *.osm, *.xlm, *.osmbz2, *.osmbz
-	* OSM change file: *.osc, *.osc.bz2, *.osc.bz, *.osc.gz
-	* images (*.jpg) 
+	* NMEA-0183 files: .nmea, .nme, .nma, .log, .txt
+	* OSM files: .osm, .xlm, .osmbz2, .osmbz
+	* OSM change file: .osc, .osc.bz2, .osc.bz, .osc.gz
+	* images (.jpg)
 
 * Imagery: Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest Open Aerial or any other WMS sources.
 
