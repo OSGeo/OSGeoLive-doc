@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-josm.png
-  :scale: 30 %
+  :scale: 45 %
   :alt: project logo
   :align: right
   :target: http://josm.openstreetmap.de
@@ -38,7 +38,7 @@ Currently it supports loading stand-alone GPX tracks and GPX track data from the
 
 A "node" is a point, a "way" is a line connecting multiple nodes, a "Relation" is an ordered sequence of ways and nodes (a logical container used to group elements), and "Tags" describe what each node or way represents (Tags are organized into "keys" and "values").
 
-It is one of the most powerful desktop applications in order digitize accurate editions and commit changes to the OpenStreetMap dataset.
+It is one of the most powerful desktop applications in order to digitize accurate editions and commit changes to the OpenStreetMap dataset.
 
 JOSM is an offline editor which means everything you do won't be visible for anyone else until uploading it to the server. Once you are happy with your changes, if you attempt to save them, JOSM will check if happens to be any conflict with other editions run by other users on the same elements. If there is no conflict cases to solved, your data will be uploaded, saved and visible to everyone else.
 
