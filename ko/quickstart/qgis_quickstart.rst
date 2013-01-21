@@ -181,7 +181,7 @@ QGIS에 대한 사항은 QGIS 홈페이지의 `Documentation page`_ 를 참조�
 
 OSGeo-Live는 `A Gentle Introduction to GIS`_  와 `QGIS User Guide`_ 를 포함하고 있습니다.
 
-.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`QGIS User Guide`: ../../qgis/qgis-1.7.0_user_guide_en.pdf
+.. _`QGIS User Guide`: ../../qgis/QGIS-1.8-UserGuide-en.pdf

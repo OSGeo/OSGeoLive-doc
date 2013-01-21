@@ -74,7 +74,7 @@ QGIS について詳細の開始ページは QGIS ホームページの `Documen
 
 OSGeo-Live については `A Gentle Introduction to GIS`_ と `QGIS User Guide`_ をご覧下さい
 
-.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`QGIS User Guide`: ../../qgis/qgis-1.7.0_user_guide_en.pdf
+.. _`QGIS User Guide`: ../../qgis/QGIS-1.8-UserGuide-en.pdf

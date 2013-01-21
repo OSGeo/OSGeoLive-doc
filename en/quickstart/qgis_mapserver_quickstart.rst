@@ -102,4 +102,8 @@ Create a new QGIS project
 What Next?
 ================================================================================
 
-To learn more about QGIS Server, a good starting point is the `QGIS Server Wiki page <http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial>`_.
+To learn more about QGIS Server, a good starting point are the `QGIS User Guide`_ and the `QGIS Server Wiki page`_.
+
+
+.. _`QGIS User Guide`: http://docs.qgis.org/html/en/docs/user_manual/working_with_ogc/ogc_server_support.html
+.. _`QGIS Server Wiki page`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial

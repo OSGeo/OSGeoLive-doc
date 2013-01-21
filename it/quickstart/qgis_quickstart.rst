@@ -177,7 +177,7 @@ Per approfondire la conoscenza di QGIS, visitare la pagina di `Documentazione`_ 
 
 OSGeo-Live contiene `A Gentle Introduction to GIS`_  e la `Guida Utente QGIS`_.
 
-.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentazione`: http://www.qgis.org/en/documentation.html http://qgis.org/documentazione.html?lang=it
 .. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
 .. _`Guida Utente QGIS`: ../../qgis/qgis-1.7.0_user_guide_it.pdf

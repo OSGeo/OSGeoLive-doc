@@ -182,10 +182,11 @@ as `OSGeo-Live QGIS tutorials`_.
 To learn more about QGIS, a starting point is the `Documentation page`_ on
 the QGIS homepage.
 
-OSGeo-Live contains a `A Gentle Introduction to GIS`_  and
-the `QGIS User Guide`_.
+`A Gentle Introduction to GIS`_ and the `QGIS User Guide`_ are also included on OSGeo-Live `[1]`_ `[2]`_.
 
-.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
-.. _`A Gentle Introduction to GIS`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`QGIS User Guide`: ../../qgis/qgis-1.7.0_user_guide_en.pdf
+.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/html/en/docs/gentle_gis_introduction/index.html
+.. _`QGIS User Guide`: http://docs.qgis.org/html/en/docs/user_manual/index.html
+.. _`[1]`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
+.. _`[2]`: ../../qgis/QGIS-1.8-UserGuide-en.pdf
