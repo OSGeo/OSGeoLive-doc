@@ -25,7 +25,7 @@ ZOO-Project provides a developer friendly Web Processing Service (WPS) framework
 A WPS provides web access to functions which run spatial algorithms.
 ZOO-Project supports many programming languages and comes with two demo applications using simple
 spatialtools Services Providers (a C shared library and a Python module)
-based on the GEOS and OGR Libraries.
+based on the :doc:`GEOS <geos_overview>` and :doc:`OGR <gdal_overview>` Libraries.
 
 ZOO is made of three parts:
 

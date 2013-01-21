@@ -15,7 +15,7 @@ GPS Track-Editing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsPrune <http://gpsprune.activityworkshop.net/>`_ is a tool for viewing,
-editing and converting coordinate data from GPS systems.  It uses OpenStreetMap
+editing and converting coordinate data from GPS systems.  It uses :doc:`OpenStreetMap <osm_dataset_overview>` 
 imagery to show recorded tracks and waypoints, and provides a variety of tools
 to let you edit, crop and prune the data points.  It also has functions for
 correlating photos and audio files to the coordinates using the file timestamps.

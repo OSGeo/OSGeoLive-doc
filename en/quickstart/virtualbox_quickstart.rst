@@ -22,9 +22,10 @@ System Requirements
 
 Create a Virtual Machine
 --------------------------------------------------------------------------------
-Download and install `Virtual Box <http://www.virtualbox.org/>`_. On linux do the following:
+Download and install `Virtual Box <http://www.virtualbox.org/>`_. On Debian/Ubuntu Linux do the following:
 
   ``apt-get install virtualbox-ose``
+
 
 Open Virtual Box 
 

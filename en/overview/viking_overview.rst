@@ -20,7 +20,7 @@ GPS data editor, analyzer and viewer. Viking aims to be easy to use,
 yet powerful in accomplishing a wide variety of GPS related tasks.
 It uses a hierarchical layering system to organize GPS data, maps,
 and other layer types with spatial data, such as coordinate lines.
-It works with OpenStreetMap data and various online tile servers.
+It works with :doc:`OpenStreetMap <osm_dataset_overview>` data and various online tile servers.
 
 
 Core Features
@@ -35,7 +35,7 @@ Core Features
 
 * Realtime GPS tracking and track recording.
 
-* Preparing tracks and waypoints for trips using maps from services such as OpenStreetMap and Bing Aerial. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
+* Preparing tracks and waypoints for trips using maps from services such as :doc:`OpenStreetMap <osm_dataset_overview>` and Bing Aerial. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
 
 * After trips, tracks and waypoints from GPS can be downloaded, stored, managed and reused in later trips.
 

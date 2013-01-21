@@ -26,7 +26,7 @@ Multi-Dimensional Raster Database
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Rasdaman is an implementation of the array database model that extends standard relational databases, such as PostgreSQL, to provide storage and retrieval of multi-dimensional raster data of unlimited size. Data can be stored and retrieved using an SQL-style raster query language, with highly effective server-side optimization. Its petascope component provides also web based interfaces to the data suitable for geospatial applications and based on OGC stadards such as WCS, WCPS, and WPS. Programmer APIs are also available for C++ and Java languages.
-A rasdaman driver is a part of the GDAL (Geospatial Data Abstraction Library) library for geospatial data formats, a MapServer integration is available in beta.
+A rasdaman driver is a part of the :doc:`GDAL <gdal_overview>` (Geospatial Data Abstraction Library) library for geospatial data formats, a :doc:`MapServer <mapserver_overview>` integration is available in beta.
 
 The rasdaman technology is stable and mature, deployed in production since over 10 years; the French National Geographic Institute runs rasdaman on a dozen-Terabyte airborne image map. At the ACM Principles of Database Systems Conference in 2007, raster database expert Rona Machlin characterizes rasdaman as "the most comprehensive implementation of such a system".
 

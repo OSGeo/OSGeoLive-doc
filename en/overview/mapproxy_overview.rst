@@ -21,7 +21,7 @@ Proxy WMS & tile services
 MapProxy speeds up mapping applications by pre-rendering and integrating maps from multiple sources and storing in a local cache.
 Layers can be made transparent, projections can be changed, multiple map layers can be transformed into one, watermarks can be added, and more...
 
-MapProxy is flexible and scales from simple to complex use-cases: from a single tile cache for an OpenLayers web client to a central SDI node that combines, unifies and accelerates dozens of distributed WMS services.
+MapProxy is flexible and scales from simple to complex use-cases: from a single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client to a central SDI node that combines, unifies and accelerates dozens of distributed WMS services.
 
 MapProxy is used for the German broadband atlas to deliver maps for thousands of users and the German Federal Agency for Cartography an Geodesy uses MapProxy to aggregate WMS services from all 16 states on the fly.
 
@@ -37,7 +37,7 @@ Core Features
   :align: right
 
 Input sources:
-  * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, etc.)
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver and Mapnik (directly, without WMS)
   * any TileCache, Google Maps or Bing compatible source

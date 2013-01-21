@@ -24,7 +24,7 @@ Desktop GIS
 
 Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
 you can visualize, manage, edit, analyse data, and compose printable maps.
-It includes powerful analytical functionality through integration with GRASS.
+It includes powerful analytical functionality through integration with :doc:`GRASS <grass_overview>`.
 It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
 raster and database formats and functionality.
 
@@ -49,7 +49,7 @@ Core Features
 
 * Easy Viewing of many Vector and Raster Formats
 
-    * PostgreSQL Database tables
+    * PostgreSQL/PostGIS Database tables
     * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML.
     * raster formats such as digital elevation models, aerial photography or landsat imagery,
     * GRASS locations and mapsets,
