@@ -33,8 +33,9 @@ flexibility and control but tends to lengthen the time required to
 become a proficient user when compared to software with a graphical
 user interface (GUI). Fortunately R is well documented on the web site
 which eases the learning process. Scripts are often used to automate
-processing steps and there are projects that are developing open
-source GUIs for R (http://rwiki.sciviews.org/doku.php?id=guis:guis).
+processing steps but there are GUIs, the leading one being 
+RStudio (http://www.rstudio.com).
+
 
 R is an implementation of the S programming language and there is
 significant compatibility between R and legacy S and S-Plus code as
@@ -68,7 +69,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 2.15.1
+**Software Version:** 2.15.2
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
