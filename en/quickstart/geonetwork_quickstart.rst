@@ -27,6 +27,11 @@ Detailed documentation can be found in http://localhost:8880/geonetwork/docs/eng
 Start |GN|
 --------------------------------------------------------------------------------
 
+- In case you use OSGeoLive with 1GB RAM or less it is recommended to stop default Tomcat service before launching GN
+:: 
+
+  sudo service tomcat stop
+
 - Select the "Start GeoNetwork" icon.
 - The application will take a few moments to start up
 - Go to the |GN| home page at http://localhost:8880/geonetwork. Your first view of |GN| should look like the screenshot below.
