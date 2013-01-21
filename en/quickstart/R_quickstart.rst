@@ -194,8 +194,8 @@ functionality:
 	> library(sp)
 	> library(maptools)
 
-	> countries = readShapeSpatial("/usr/local/share/data/natural_earth/10m_admin_0_countries.shp")
-	> places = readShapeSpatial("/usr/local/share/data/natural_earth/10m_populated_places_simple.shp")
+	> countries = readShapeSpatial("/usr/local/share/data/natural_earth2/ne_10m_admin_0_countries.shp")
+	> places = readShapeSpatial("/usr/local/share/data/natural_earth2/10m_populated_places.shp")
 	> plot(countries)
 
 This gives us a simple map of the world:
@@ -203,12 +203,12 @@ This gives us a simple map of the world:
 .. image:: ../../images/screenshots/1024x768/r_plot1.png
 
 When an OGR dataset is read into R in this way we get back an object that
-behaves in many ways like a data frame. We can use the ``ADMIN``
+behaves in many ways like a data frame. We can use the ``admin``
 field to subset the world data and just get the UK:
 
 ::
 
-	> uk = countries[countries$ADMIN=="United Kingdom",]
+	> uk = countries[countries$admin=="United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
 .. image:: ../../images/screenshots/1024x768/r_plot2.png
