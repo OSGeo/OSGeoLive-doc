@@ -7,7 +7,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://mapserver.org/trunk/tinyows/
+  :target: http://mapserver.org/tinyows/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -49,11 +49,11 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://mapserver.org/trunk/tinyows/
+**Website:** http://mapserver.org/tinyows/
 
 **Licence:** MIT
 
-**Software Version:** 1.0.0
+**Software Version:** 1.1.0
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 
