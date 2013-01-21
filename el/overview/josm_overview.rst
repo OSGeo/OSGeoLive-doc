@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/projects_logos/logo-josm.png
+.. image:: ../../images/project_logos/logo-josm.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -46,7 +46,7 @@ JOSM
 Απ' την στιγμή που θα έχετε ολοκληρώσει τις αλλαγές ή τις προσθήκες σας αν επιθυμήσετε να τις αποθηκεύσετε, ο JOSM θα ελέγξει αν έρχονται σε σύγκρουση με άλλες εκδόσεις άλλων χρηστών στα ίδια στοιχεία.
 Αν δεν υπάρχει πρόβλημα τα δεδομένα σας θα αποθηκευτούν και αναρτηθούν άμεσα ώστε να είναι διαθέσιμα σε όλους.
 
-.. image:: ../../images/screenshots/1024x768/josm_interface.png
+.. image:: ../../images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
   :alt: Επεξεργαστής JOSM.
   :align: right
@@ -59,10 +59,10 @@ JOSM
 * Μεταφόρτωση διανυσματικών δεδομένων OSM.
 
 * Φόρτωση τοπικών δεδομένων γνωστών τύπων:
-	* NMEA-0183: *.nmea, *.nme, *.nma, *.log, *.txt
-	* OSM αρχεία: *.osm, *.xlm, *.osmbz2, *.osmbz
-	* OSM αρχεία μεταβολών: *.osc, *.osc.bz2, *.osc.bz, *.osc.gz
-	* εικόνες (*.jpg) 
+	* NMEA-0183: .nmea, .nme, .nma, .log, .txt
+	* OSM αρχεία: .osm, .xlm, .osmbz2, .osmbz
+	* OSM αρχεία μεταβολών: .osc, .osc.bz2, .osc.bz, .osc.gz
+	* εικόνες (.jpg) 
 
 * Εικόνες: Απεικόνιση χαρτών από OSM, Bingsat, Lansat, MapBox, MapQuest Open Aerial ή οποιαδήποτε άλλη πηγή τύπου WMS.
 
