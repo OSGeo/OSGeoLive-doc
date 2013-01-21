@@ -40,9 +40,6 @@ Three clients will be illustrated here: the command-line client,
 Creating A Spatially-Enabled database
 ================================================================================
 
-.. review comment: Suggest providing a screen grab (or 2) which shows how to select
-   and open an xterm. Cameron
-
 Command-line clients run from within a Terminal Emulator window. Start a Terminal
 Emulator from the Applications menu in the Accessories section. This gives you a
 Unix shell command prompt. Type::
@@ -68,22 +65,21 @@ We will create a new one for this quickstart.
    to quit, h for help.
 
 PostgreSQL gives us a utility program for creating databases, ``createdb``. We need to
-create a database with the PostGIS extensions, so we need to tell it what template
-to start from. We'll call our database ``demo``. The command is then:
-
-.. review comment: createdb is a utility programm not a unix command
+create a database before adding the PostGIS extensions. We'll call our database ``demo``. 
+The command is then:
 
 ::
 
-   createdb -T template_postgis demo
+   createdb demo
 
 .. tip:: 
    You can usually get help for command line tools by using a ``--help`` option.
 
 
 If you now run ``psql -l`` you should see your ``demo`` database in the listing.
+We have not added the PostGIS extension yet, but in the next section you will learn how.
 
-You can also create PostGIS databases using the SQL language. First we'll delete the 
+You can create PostGIS databases using the SQL language. First we'll delete the 
 database we just created using the ``dropdb`` command, then use the ``psql`` command
 to get an SQL command interpreter:
 
@@ -92,12 +88,12 @@ to get an SQL command interpreter:
   dropdb demo
   psql -d postgres
  
-This connects to the database called ``postgres``, which is a system database that
-all servers should have. Now enter the SQL to create a new database:
+This connects to the core system database called ``postgres``.
+Now enter the SQL to create a new database:
 
 :: 
 
- postgres=# CREATE DATABASE demo TEMPLATE=template_postgis;
+ postgres=# CREATE DATABASE demo;
 
 Now switch your connection from the ``postgres`` database to the new ``demo`` database. 
 In the future you can connect to it directly with ``psql -d demo``, but here's a neat
@@ -107,12 +103,22 @@ way of switching within the ``psql`` command line:
 
  postgres=# \c demo
 
+
 .. tip:: 
    Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after pressing return. It will clear your 
    input and start again. It is probably waiting for a closing quote mark, semicolon, or something.
 
 You should see an informational message, and the prompt will change to show that you are now
-connected to the ``demo`` database. To check this has worked, type ``\dt`` to list the
+connected to the ``demo`` database. 
+
+Next, add PostGIS 2.0:
+
+::
+
+ demo=# create extension postgis;
+
+
+To check this has worked, type ``\dt`` to list the
 tables in the database. You should see something like this:
 
 ::
@@ -121,11 +127,10 @@ tables in the database. You should see something like this:
                List of relations
    Schema |       Name       | Type  | Owner 
   --------+------------------+-------+-------
-   public | geometry_columns | table | user
    public | spatial_ref_sys  | table | user
-  (2 rows)
+  (1 row)
 
-Those two tables are used by PostGIS. The ``spatial_ref_sys`` table stores information
+That table is used by PostGIS. The ``spatial_ref_sys`` table stores information
 on valid spatial reference systems, and we can use some SQL to have a quick look:
 
 ::
@@ -146,7 +151,7 @@ on valid spatial reference systems, and we can use some SQL to have a quick look
    4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
   (10 rows)
 
-This confirms we have a spatially-enabled database. The ``geometry_columns`` table has the 
+This confirms we have a spatially-enabled database. The ``geometry_columns`` view has the 
 job of telling PostGIS which tables are spatially-enabled. This is the next step.
 
 
@@ -218,7 +223,7 @@ All the usual SQL operations can be applied to select data from a PostGIS table:
    3 | East London,SA  | 0101000020E610000040AB064060E93B4059FAD005F58140C0
  (3 rows)
 
-This gives us a meaningless hexadecimal version of the coordianates.
+This gives us an encoded hexadecimal version of the coordianates, not so useful for humans.
 
 If you want to have a look at your geometry in WKT format again, you
 can use the functions ST_AsText(the_geom) or ST_AsEwkt(the_geom). You can also
