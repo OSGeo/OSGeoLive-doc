@@ -7,7 +7,7 @@
   :scale: 50 %
   :alt: project logo
   :align: right
-  :target: http://www.gaia-gis.it/spatialite/
+  :target: http://www.gaia-gis.it/gaia-sins/
 
 
 SpatiaLite
@@ -58,7 +58,7 @@ Details
 
 **Licence:** MPL v1.1 and GPL v3
 
-**Software Version:** spatialite 3.1.0a / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
+**Software Version:** spatialite 3.1.0 / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
 
 **Supported Platforms:** Linux, Mac, Windows
 
