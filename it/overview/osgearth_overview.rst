@@ -72,20 +72,20 @@ Elementi che potete vedere:
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito Web:** http://osgearth.org/
+**Sito web:** http://osgearth.org/
 
 **Licenza:** GNU Lesser General Public License (LGPL) 
 
-**Versione Software:** 2.0
+**Versione software:** 2.0
 
-**Piattaforme Supportate:** Linux, Mac, Windows
+**Piattaforme supportate:** Linux, Mac, Windows
 
 **Interfacce API:** C++
 
-**Supporto Commerciale:** http://osgearth.org/#ProfessionalServices
+**Supporto commerciale:** http://osgearth.org/#ProfessionalServices
 
 
-Presentazione Veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/osgearth_quickstart>`

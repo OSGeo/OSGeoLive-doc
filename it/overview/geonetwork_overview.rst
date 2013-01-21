@@ -60,20 +60,20 @@ Standard implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Website:** http://geonetwork-opensource.org
+**Sito web:** http://geonetwork-opensource.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Licenza:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.6.4
+**Versione software:** 2.6.4
 
-**Supported Platforms:** Windows, Linux, Mac
+**Piattaforme supportate:** Windows, Linux, Mac
 
-**API Interfaces:** Java
+**Interfacce API:** Java
 
-**Support:** http://www.osgeo.org/search_profile
+**Supporto:** http://www.osgeo.org/search_profile
 
 
 Guida rapida
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/geonetwork_quickstart>`

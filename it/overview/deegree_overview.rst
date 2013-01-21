@@ -105,20 +105,20 @@ Standard implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Website:** http://deegree.org
+**Sito web:** http://deegree.org
 
-**Licence:** LGPL
+**Licenza:** LGPL
 
-**Software Version:** 3.2-pre3
+**Versione software:** 3.2-pre3
 
-**Supported Platforms:** Windows, Linux
+**Piattaforme supportate:** Windows, Linux
 
-**API Interfaces:** Java
+**Interfacce API:** Java
 
-**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
+**Supporto:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
 Guida rapida
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/deegree_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/deegree_quickstart>`

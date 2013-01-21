@@ -60,20 +60,20 @@ Caratteristiche principali
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito Web:** http://www.saga-gis.org
+**Sito web:** http://www.saga-gis.org
 
 **Licenza:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
-**Versione Software:** 2.0.8
+**Versione software:** 2.0.8
 
-**Piattaforme Supportate:** Windows, Linux, FreeBSD
+**Piattaforme supportate:** Windows, Linux, FreeBSD
 
 **Interfacce API:** C++
 
 **Supporto:** http://www.saga-gis.org
 
 
-Presentazione Veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/saga_quickstart>`

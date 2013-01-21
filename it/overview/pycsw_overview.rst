@@ -78,17 +78,17 @@ Standard di metadati:
 Dettagli
 --------------------------------------------------------------------------------
 
-**Website:** http://pycsw.org
+**Sito web:** http://pycsw.org
 
-**Licence:** `MIT`_
+**Licenza:** `MIT`_
 
-**Software Version:** 1.4.0
+**Versione software:** 1.4.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Piattaforme supportate:** Windows, Linux, Mac
 
-**API Interfaces:** Python
+**Interfacce API:** Python
 
-**Support:** http://pycsw.org/docs/support.html
+**Supporto:** http://pycsw.org/docs/support.html
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
@@ -98,4 +98,4 @@ Dettagli
 Guida rapida
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/pycsw_quickstart>`

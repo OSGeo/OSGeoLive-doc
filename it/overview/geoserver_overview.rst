@@ -88,19 +88,19 @@ Supporto di numerosi standard Open Geospatial Consortium  (OGC):
 Dettagli
 --------------------------------------------------------------------------------
 
-**Website:** http://geoserver.org/display/GEOS/Welcome
+**Sito web:** http://geoserver.org/display/GEOS/Welcome
 
-**Licence:** GNU General Public License (GPL) version 2
+**Licenza:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1.3
+**Versione software:** 2.1.3
 
-**Supported Platforms:** All Java 1.5 platforms: - Windows, Linux, Mac
+**Piattaforme supportate:** Tutte le piattaforme con Java 1.5: - Windows, Linux, Mac
 
-**API Interfaces:** WMS, WFS, WCS, REST
+**Interfacce API:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/display/GEOS/Commercial+Support
+**Supporto:** http://geoserver.org/display/GEOS/Commercial+Support
 
 Guida rapida
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/geoserver_quickstart>`

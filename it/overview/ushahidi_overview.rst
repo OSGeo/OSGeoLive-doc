@@ -74,7 +74,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 3
 
-**Versione del software:** 2.1
+**Versione software:** 2.1
 
 **Interfacce API:** PHP
 
@@ -86,6 +86,6 @@ Dettagli
 Guida rapida
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/ushahidi_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/ushahidi_quickstart>`
 
 

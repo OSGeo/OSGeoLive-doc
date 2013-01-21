@@ -54,18 +54,18 @@ ecc.
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito Web:** http://www.mapfish.org
+**Sito web:** http://www.mapfish.org
 
 **Licenza:** BSD License
 
-**Versione Software:** 2.2
+**Versione software:** 2.2
 
-**Piattaforme Supportate:** Windows, Linux, Mac
+**Piattaforme supportate:** Windows, Linux, Mac
 
 **Supporto:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Presentazione Veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/mapfish_quickstart>`

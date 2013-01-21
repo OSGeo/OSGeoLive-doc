@@ -50,20 +50,20 @@ Caratteristiche principali
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito Web:** http://edu.kde.org/marble/
+**Sito web:** http://edu.kde.org/marble/
 
 **Licenza:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Versione Software:** 1.3.4
+**Versione software:** 1.3.4
 
-**Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows
+**Piattaforme supportate:** GNU/Linux, Mac OSX, MS Windows
 
 **Interfacce API:** Qt designer, C++, Python, D-BUS, Shell script
 
 **Supporto:** http://techbase.kde.org/Projects/Marble
 
 
-Presentazione Veloce
+Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/marble_quickstart>`

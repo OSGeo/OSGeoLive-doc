@@ -120,7 +120,7 @@ Dettagli
 
 .. _gvSIG: http://www.gvsig.org
 
-Quickstart
+Guida rapida
 --------------------------------------------------------------------------------
     
-* :doc:`Documentazione Quickstart <../quickstart/gvsig_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/gvsig_quickstart>`
