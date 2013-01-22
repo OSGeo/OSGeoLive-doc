@@ -69,8 +69,7 @@ auf dem System verwendet werden.  Wir werden in dieser Übung eine neue Datenban
    über :kbd:`b` gehen Sie zurück, über :kbd:`q` verlassen Sie die Liste, über h gelangen Sie zur Hilfe.
 
 PostgreSQL verfügt über das Hilfprogramm ``createdb`` zum Erstellen von Datenbanken. 
-Wir wollen eine Datenbank mit PostGIS Erweiterung erzeugen. Die PostGIS Erweiterung können wir aus der 
-Vorlage  ``template_postgis`` laden. Beim Erzeugen der Datenbank geben wir die Vorlage über die Option ``-T`` an. 
+Wir wollen eine Datenbank mit PostGIS 2.0 Erweiterung erzeugen.  
 Unsere Datenbank soll ``demo`` heißen. Der Aufruf zum Erstellen der Datenbank lautet:
 
 ::
