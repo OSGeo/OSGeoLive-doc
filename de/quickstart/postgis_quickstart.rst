@@ -75,14 +75,14 @@ Unsere Datenbank soll ``demo`` heißen. Der Aufruf zum Erstellen der Datenbank l
 
 ::
 
-   createdb -T template_postgis demo
+   createdb demo
 
 .. tip::
    Eine Hilfe zu kommandozeilen basierten Programmen erhalten Sie in der Regel über die Option ``--help``.
 
 
 Wenn Sie nun wieder die Liste der Datenbanken über ``psql -l`` ausgeben, sollten Sie Ihre Datenbank 
-``demo`` in der Liste finden.
+``demo`` in der Liste finden. Wir haben nicht die PostGIS-Erweiterung hochgeladen, aber im nächsten Abschnitt werden Sie erlernen wie.
 
 Sie können PostGIS Datenbanken auch direkt über einen SQL Befehl erzeugen. Zuerst wollen wir die gerade angelegte 
 Datenbank über das Hilfsprogramm ``dropdb`` löschen. Anschließend soll ``psql`` zur Ausführung von SQL-Befehlen 
@@ -99,7 +99,7 @@ Datenbank anzulegen:
 
 :: 
 
- postgres=# CREATE DATABASE demo TEMPLATE=template_postgis;
+ postgres=# CREATE DATABASE demo;
 
 Die Datenbank wurde angelegt und Sie können sich nun mit der Datenbank ``demo`` verbinden.
 Zukünftig können Sie sich direkt über ``psql -d demo`` mit Ihrer Datenbank verbinden, an dieser Stelle
@@ -115,6 +115,15 @@ können Sie aber auch direkt innerhalb von ``psql`` eine Verbindung zu einer and
    ein Semikolon oder ein anderes Zeichen wartet.
 
 Sie sollten eine Meldung sehen, die Eingabe wechselt und zeigt an, dass Sie mit der Datenbank ``demo`` verbunden sind. 
+
+Weiter umfassen PostGIS 2.0:
+
+::
+
+ demo=# create extension postgis;
+
+
+
 Über ``\dt`` können Sie dies prüfen und die Liste der Tabellen in der Datenbank ausgeben lassen.
 Es sollte diese Ausgabe erfolgen:
 
@@ -124,9 +133,8 @@ Es sollte diese Ausgabe erfolgen:
                List of relations
    Schema |       Name       | Type  | Owner 
   --------+------------------+-------+-------
-   public | geometry_columns | table | user
    public | spatial_ref_sys  | table | user
-  (2 rows)
+  (1 row)
 
 Diese zwei Tabellen werden von PostGIS angelegt und verwendet. Die Tabelle ``spatial_ref_sys`` speichert 
 Informationen zu den Koordinatenreferenzsystemen. Mit Hilfe von SQL können wir einen Blick in die Tabelle werfen:
