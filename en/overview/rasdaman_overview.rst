@@ -4,7 +4,7 @@
 :Author: Michael Owonibi
 :Author: Alan Beccati
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5draft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
