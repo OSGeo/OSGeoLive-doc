@@ -52,9 +52,9 @@ OGC SOS 1.0.0
 **Dodatkowe funkcje SOS**:
 
 * GetResult - umożliwia cykliczne pobieranie danych z sensora.
-* GetObservationById - , for retrieving specific individual observations.
-* GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
-* GetFeatureOfInterestTime, for determining the temporal availability of sensor data.
+* GetObservationById - pobieranie konkretnych, pojedynczych obserwacji.
+* GetFeatureOfInterest - pobieranie informacji w postacji zakodowanej w GML o funkcji, która jest przedmiotem obserwacji.
+* GetFeatureOfInterestTime - czasowa dostępność danych z sensora.
 
 OGC SOS 2.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
