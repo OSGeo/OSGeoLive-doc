@@ -20,7 +20,7 @@ Usługi sieciowe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
-pozwala na czytanie zarówno archiwalnych, jak i danych odbieranych bezpośrednio przez sensory zdalne bądź in-situ. Sensorem może być kamera zanjdująca się na satelicie lub wodomierz w strumieniu.
+pozwala na czytanie zarówno archiwalnych, jak i danych odbieranych bezpośrednio przez sensory zdalne bądź in-situ. Sensorem może być kamera znajdująca się na satelicie lub wodomierz w strumieniu.
  
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 60 %
@@ -40,19 +40,19 @@ OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Główne funkcje SOS**:
 
-* GetCapabilities, for requesting a self-description of the service.
-* GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M).
-* DescribeSensor, for requesting meta information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
+* GetCapabilities - zapytanie o opis usługi.
+* GetObservation - zapytanie o czyste dane z sensora, zakodowane w Observations & Measurements (O&M).
+* DescribeSensor - zapytanie o informacje o samym sensorze, zakodowane w standardzie Sensor Model Language (SensorML).
 
 **Transakcyjne operacje SOS**:
 
-* RegisterSensor, for signing up new sensors.
-* InsertObservation, for inserting new observations for registered sensors.
+* RegisterSensor - rejestracja nowego sensora.
+* InsertObservation - utworzenie notki o rejestracji nowych sensorów.
 
 **Dodatkowe funkcje SOS**:
 
-* GetResult, for facilitating periodically polling sensor data.
-* GetObservationById, for retrieving specific individual observations.
+* GetResult - umożliwia cykliczne pobieranie danych z sensora.
+* GetObservationById - , for retrieving specific individual observations.
 * GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
 * GetFeatureOfInterestTime, for determining the temporal availability of sensor data.
 
