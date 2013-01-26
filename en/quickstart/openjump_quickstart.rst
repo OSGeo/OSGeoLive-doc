@@ -59,7 +59,7 @@ On the top-level menu bar in OpenJUMP, select the [File] menu. Then select the
 option [Open File...]. This will present you with a dialog box that allows you 
 to open files containing geospatial data. In our example, you want to browse for 
 an ESRI shapefile. Look for a file with the .shp extension (e.g. on the LiveDVD 
-under `/home/user/data/natural_earth/10m_admin_0_countries.shp`). Select the file 
+under `/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`). Select the file 
 and click the [Finish] button on the dialog. After a few moments, you will be able 
 to see the data from your shapefile in the Layer View. You will also see a new 
 layer created for your data in the Layer List. The name of the layer will match 

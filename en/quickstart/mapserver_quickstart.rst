@@ -53,7 +53,7 @@ Put the following content in it::
     NAME "MAPSERVER QUICKSTART"
     EXTENT -137 29 -53 88
     UNITS DD
-    SHAPEPATH "/home/user/data/natural_earth/"
+    SHAPEPATH "/home/user/data/natural_earth2/"
     SIZE 800 600
 
     IMAGETYPE PNG24
@@ -72,7 +72,7 @@ Put the following content in it::
       NAME "Admin Countries"
       STATUS ON
       TYPE POLYGON
-      DATA "10m_admin_0_countries"
+      DATA "ne_10m_admin_0_countries"
       CLASS 
         STYLE
           COLOR 246 241 223
@@ -85,7 +85,7 @@ Put the following content in it::
 
 .. note::
     
-   The example uses the natural earth dataset, which is already installed on the live dvd: :file:`~/data/natural_earth` (a short cut to :file:`/usr/local/share/data/natural_earth`)
+   The example uses the natural earth dataset, which is already installed on the live dvd: :file:`~/data/natural_earth2` (a short cut to :file:`/usr/local/share/data/natural_earth2`)
 
 Each object in a mapfile start with its name (for example **MAP**) and ends with an **END**.  A mapfile always start with the **MAP** object and should contains a list of **LAYER** objects the mapfile can read and draw.  In our mapfile, we currently have only one layer defined.
 
@@ -145,7 +145,7 @@ We will now add a new layer to our mapfile. Before last *END* statement in the m
    NAME "Lakes"
    STATUS ON
    TYPE POLYGON
-   DATA "10m_lakes"
+   DATA "ne_10m_lakes"
    CLASS 
      STYLE
        COLOR 153 179 204
@@ -171,15 +171,15 @@ Style a layer using "mapfile" configurations
 
 .. note:: **What will I learn ?** You will see an example of styling elements inside a layer depending on some of its data properties.
 
-In a MapFile, a LAYER object can contain an infinite number of CLASS object.  These are used to style the elements contained in the spatial data file (DATA).  For example, if we look closer at our "10m_lakes" data file using a tool such as `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, we'll see the geometry and attribute definitions it contains.  These attribute values can be used as a way to draw the elements inside a dataset differently using multiple CLASS objects.
+In a MapFile, a LAYER object can contain an infinite number of CLASS object.  These are used to style the elements contained in the spatial data file (DATA).  For example, if we look closer at our "ne_10m_lakes" data file using a tool such as `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, we'll see the geometry and attribute definitions it contains.  These attribute values can be used as a way to draw the elements inside a dataset differently using multiple CLASS objects.
 
-In our "10m_lakes" dataset, we have a *ScaleRank* attribute, which seems to be related ot the size of the lake.  We can use this as a way to render the lakes differently.  In the LAYER object, we'll add an other CLASS object just before our current one, as such::
+In our "ne_10m_lakes" dataset, we have a *ScaleRank* attribute, which seems to be related ot the size of the lake.  We can use this as a way to render the lakes differently.  In the LAYER object, we'll add an other CLASS object just before our current one, as such::
 
   LAYER
    NAME "Lakes"
    STATUS DEFAULT
    TYPE POLYGON
-   DATA "10m_lakes"
+   DATA "ne_10m_lakes"
    CLASSITEM "ScaleRank" 
    CLASS 
      EXPRESSION /0|1/  

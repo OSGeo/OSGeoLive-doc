@@ -95,7 +95,7 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 
 #. In the *Format* combobox, select *Shapefile* (**1**)
 
-#. In the file chooser, select the file :file:`10m_admin_0_countries.shp` from the directory :file:`/usr/local/share/data/natural_earth` (**2**)
+#. In the file chooser, select the file :file:`ne_10m_admin_0_countries.shp` from the directory :file:`/usr/local/share/data/natural_earth2` (**2**)
 
 #. Press the *Ok* button to load the selected shapefile (**3**)
 
@@ -107,7 +107,7 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 
 #. In the *Format* combobox, select *Image file* (**1**)
 
-#. In the file chooser, select the file :file:`HYP_50M_SR_W.tif` from the directory :file:`/usr/local/share/data/natural_earth/HYP_50M_SR_W` (**2**)
+#. In the file chooser, select the file :file:`HYP_50M_SR_W.tif` from the directory :file:`/usr/local/share/data/natural_earth2/` (**2**)
 
 #. Press the *Ok* button to load the selected image file (**3**)
 
@@ -146,15 +146,15 @@ We're going to load a database table as an example:
      
    * Port: 5432
     
-   * Database name: natural_earth
+   * Database name: natural_earth2
     
    * User name: user
     
    * Password: user        
 
-#. Press the *Connect* button to load the tables present at the *natural_earth* database (**2**)
+#. Press the *Connect* button to load the tables present at the *natural_earth2* database (**2**)
 
-#. Select the checkbox corresponding to the table *10m_populated_places_simple* (**3**)
+#. Select the checkbox corresponding to the table *ne_10m_populated_places* (**3**)
 
 #. Press the *Ok* button to load the selected database table (**4**)
 
@@ -280,7 +280,7 @@ Styling
 
 In this section we're going to style a layer by range using the country population as styling attribute:
 
-#. Select the layer `10m_admin_0_countries` in the layer tree
+#. Select the layer `ne_10m_admin_0_countries` in the layer tree
 
 #. Right click on it and select the option *Simbology > Change Styles...*
 

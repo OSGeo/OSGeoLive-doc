@@ -33,14 +33,14 @@ Edit QGIS project
 
    * You should see a world map.
 
-#. Check **10m_populated_places_simple** in the Layers tree
+#. Check **ne_10m_populated_places** in the Layers tree
 
    * Populated places are now displayed:
 
      .. image:: ../../images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
-#. Double click **10m_rivers_lake_centerlines** in the Layers tree.
+#. Double click **ne_10m_rivers_lake_centerlines** in the Layers tree.
 
 #. Change the color in Outline Options to a different blue tone.
 
@@ -56,7 +56,7 @@ Create a new QGIS project
 
 #. Click :menuselection:`Layer --> Add Vector Layer...`.
 
-#. Browse to dataset :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
+#. Browse to dataset :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
 
 #. Press :guilabel:`Open`.
 

@@ -195,7 +195,7 @@ functionality:
 	> library(maptools)
 
 	> countries = readShapeSpatial("/usr/local/share/data/natural_earth2/ne_10m_admin_0_countries.shp")
-	> places = readShapeSpatial("/usr/local/share/data/natural_earth2/10m_populated_places.shp")
+	> places = readShapeSpatial("/usr/local/share/data/natural_earth2/ne_10m_populated_places.shp")
 	> plot(countries)
 
 This gives us a simple map of the world:

@@ -150,8 +150,8 @@ Using |UG| to create simple styles
    For more details on how to use |UG| see the :doc:`uDig Quickstart <../quickstart/udig_quickstart>`
 
 Once I opened |UG| up and added the shapefiles (using the
-add data button in the top left hand corner). I dragged the 10m_land
-and 10m_ocean tables into the map window. |UG| automatically applies
+add data button in the top left hand corner). I dragged the ne_10m_land
+and ne_10m_ocean tables into the map window. |UG| automatically applies
 a style (so you can see the data).
 
 .. image:: ../../images/screenshots/800x600/geoserver-udig_startup.png
@@ -230,7 +230,7 @@ Adding the Style to the Layer
 --------------------------------------------------------------------------------
 
 Click on the :guilabel:`Layers` link in the Menu on the left of the
-|GS| window. Click on the layer (e.g. *10m_land*), then select the 
+|GS| window. Click on the layer (e.g. *ne_10m_land*), then select the 
 :guilabel:`Publishing` tab and change the :guilabel:`Default Style`
 box to the name of the style you uploaded in the previous section.
 Now go to the Layer Preview page to check that it looks good.
@@ -245,7 +245,7 @@ Now go to the Layer Preview page to check that it looks good.
     contains a raster image. You can serve this up in |GS| directly by
     going to the stores page and selecting :menuselection:`New Stores --> World Image` 
     and type
-    :file:`/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif`
+    :file:`/home/user/data/natural_earth2/HYP_50M_SR_W.tif`
     into the :guilabel:`URL` box.
 
     .. image:: ../../images/screenshots/800x600/geoserver-raster.png

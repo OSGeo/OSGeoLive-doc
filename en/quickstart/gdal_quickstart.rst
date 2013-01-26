@@ -49,10 +49,10 @@ directory.
   cp -R /usr/local/share/data/natural_earth2/ ./gdal_natural_earth 
 
  
-You find a NaturalEarth Raster file and a tfw-file at:
+You will then find a NaturalEarth Raster file and a .tfw World-file at:
 :: 
 
- cd /home/user/gdal_natural_earth/HYP_50M_SR_W
+ ls /home/user/gdal_natural_earth/HYP_50M_SR_W.*
 
 
 .. tip:: Open the file with a Desktop GIS like QGIS. And have a look.

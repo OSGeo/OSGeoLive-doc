@@ -58,7 +58,7 @@ Edit QGIS project
    * You should see the same world map rendered by QGIS.
      We will now change river styling and look at the result in the web map viewer. 
 
-#. Double click :file:`10m_rivers_lake_centerlines` in the Layers tree.
+#. Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree.
 
 #. Change the color in Outline Options to a different blue tone.
 
@@ -84,7 +84,7 @@ Create a new QGIS project
 
 #. Click :menuselection:`Layer --> Add Vector Layer...`.
 
-#. Browse to dataset :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
+#. Browse to dataset :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
 
 #. Press :guilabel:`Open`.
 
@@ -94,7 +94,7 @@ Create a new QGIS project
 
 #. Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`.
 
-#. Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_.
+#. Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_.
 
    * You should see all world countries, this time rendered by QGIS Server.
 

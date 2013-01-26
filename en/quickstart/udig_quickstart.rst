@@ -16,18 +16,17 @@
    Open Street Map:
      /home/user/data/osm/
    Vector Data: Available as .shp files
-     /home/user/data/natural_earth/
-       cultural/10m-populated-places-simple
-       cultural/10m-admin-0-countries
-       cultural/10m-populated-places-simple
-       cultural/10m-urban-area
-       physical/10m-land
-       physical/10m-ocean
-       physical/10m-lakes
-       physical/10m-rivers-lake-centerlines
+     /home/user/data/natural_earth2/
+       cultural/ne_10m-populated-places
+       cultural/ne_10m-admin-0-countries
+       cultural/ne_10m-urban-area
+       physical/ne_10m-land
+       physical/ne_10m-ocean
+       physical/ne_10m-lakes
+       physical/ne_10m-rivers-lake-centerlines
    Raster Raster basemap Cross Blended Hypso with Shaded Relief and Water
      1:50 million (40mb). Available as .tif
-     /home/user/data/natural_earth/HYP_50M_SR_W/
+     /home/user/data/natural_earth2/HYP_50M_SR_W.*
 
 .. Writing Tip:
   Metadata about this document
@@ -140,30 +139,30 @@ To start out with we are going to load some of the sample data included on the D
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
-#. Select the following file from the :file:`natural_earth` folder:
+#. Select the following file from the :file:`natural_earth2` folder:
    
-   * :file:`10m_admin_0_countries.shp`
+   * :file:`ne_10m_admin_0_countries.shp`
    
 #. Press :guilabel:`Open`
    
    * A new Map editor will be opened based on the contents of your shapefile. The default name and
      projection of the Map has been taken from your shapefile.
    
-   * You can see the **Catalog view** has been updated with an entry for :file:`10m_admin_0_countries.shp`. This
+   * You can see the **Catalog view** has been updated with an entry for :file:`ne_10m_admin_0_countries.shp`. This
      view is used to track the use of resources by the uDig application.
    
    * The **Layers** view shows a single layer is displayed on this map. This view is used to change
      the order and appearance of information in your Map.
    
-   * The **Projects** view has been updated to show that your map is stored in `projects > 10m admin 0 countries`.
+   * The **Projects** view has been updated to show that your map is stored in `projects > ne 10m admin 0 countries`.
      You can have multiple projects open at a time, each project can have several maps.
 
-#. Open up the :file:`~/data/natural_earth/HYP_50M_SR_W` folder on the desktop
+#. Open up the :file:`~/data/natural_earth2/` folder on the desktop
 
 #. Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to to the map.
 
 #. You can see the order the layers are drawn in the layer view. Right now the `HYP_50M_SR_W` layer is drawn
-   on top of the `10m admin 0 countries` layer.
+   on top of the `ne 10m admin 0 countries` layer.
 
 #. Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the bottom of the list
   
@@ -276,11 +275,11 @@ available layers of information that you can mix into your own maps.
 Style
 ================================================================================
 
-#. Select the `project > 10m admin 0 countries`, you can double click to open this Map, or Right Click and choose Open Map
+#. Select the `project > ne 10m admin 0 countries`, you can double click to open this Map, or Right Click and choose Open Map
 
 #. Select the countries layer in the Layer view
 
-#. Open up the **Style Editor** by right clicking on `10m admin 0 countries` layer and choosing :guilabel:`Change Style`
+#. Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries` layer and choosing :guilabel:`Change Style`
 
 #. We are going to change a few things about how countries are displayed
    

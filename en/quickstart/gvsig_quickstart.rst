@@ -113,7 +113,7 @@ Open the add layer dialog
 #. Click on the 'Add layer' icon in the main toolbar to open the **Add layer** dialog.
 #. Select [Add] in the **Add layer** dialog. By default the first tab is *File* 
    so the **Open** file dialog will appear.
-#. Drill down to the ``/usr/local/share/data/natural_earth/HYP_50M_SR_W`` directory.
+#. Drill down to the ``/usr/local/share/data/natural_earth2/`` directory.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
    :scale: 55 
@@ -136,10 +136,10 @@ Selecting vector files
 #. Select the [Add] button to add some vector files. The **Open** files dialog 
    will appear.
 #. Select the [Up one level] button in the menu to change the directory to the 
-   ``/usr/local/share/data/natural_earth`` directory.
+   ``/usr/local/share/data/natural_earth2/`` directory.
 #. Select *gvSIG shp driver* from the file type dropdown list.
-#. Select the ``10m_admin_1_states_provinces.shp``, ``10m_populated_places_simple.shp`` and 
-   ``10m_rivers_lake_centerlines.shp`` shapefiles from the list. Hold down the control 
+#. Select the ``ne_10m_admin_1_states_provinces.shp``, ``ne_10m_populated_places.shp`` and 
+   ``ne_10m_rivers_lake_centerlines.shp`` shapefiles from the list. Hold down the control 
    key to select multiple files.
 #. Click on the [OK] button to return to the **Add layer** dialog.
 #. Click on the [OK] button on the **Add layer** dialog to return to the view.
@@ -186,7 +186,7 @@ The View - changing how layers look
 Making a polygon transparent
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_admin_1_states_provinces.shp`` layer using the 
+#. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the 
    left-mouse-button and click again with the right-mouse-button.
 #. Select the *Properties* submenu.
 #. The **Layer properties** dialog box will appear.
@@ -241,7 +241,7 @@ Simple analysis - select towns within a region
 Selecting the region
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_admin_1_states_provinces.shp`` layer using the 
+#. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the 
    left-mouse-button.
 #. Select the 'Select by point' icon in the main toolbar.
 #. Click the polygon representing the State of Victoria. The polygon will 
@@ -253,7 +253,7 @@ Selecting the region
 Selecting the towns contained within a region
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_populated_places_simple.shp`` layer using the left-mouse-button.
+#. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
 #. Select ``View > Selection > Selection by layer`` to open the **Selection by Layer** dialog
 #. Change the two selection criteria using the dropdown boxes on the left-hand 
    side of the **Selection by Layer** dialog. Click the [New set] button to 
@@ -267,7 +267,7 @@ Selecting the towns contained within a region
 Unselect the polygon so you can see what has happened
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_admin_1_states_provinces.shp`` layer using the left-mouse-button.
+#. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the left-mouse-button.
 #. Select the 'Clear selection' icon in the main toolbar.
 #. You can now see that the only those towns within Victoria are selected.
 
@@ -277,7 +277,7 @@ Unselect the polygon so you can see what has happened
 Export the selected towns to a new shapefile
 --------------------------------------------------------------------------------
    
-#. Select the ``10m_populated_places_simple.shp`` layer using the left-mouse-button.
+#. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
 #. Select ``Layer > Export to... > SHP`` to start the export.
 #. The **Export to...** dialog appears. gvSIG recognises that only 26 features 
    are selected so warns you that only a subset of the shapefile will be 
@@ -295,7 +295,7 @@ Export the selected towns to a new shapefile
 Showing only towns within a region
 --------------------------------------------------------------------------------
 
-#. Once you return to the view, uncheck ``10m_populated_places_simple.shp`` in 
+#. Once you return to the view, uncheck ``ne_10m_populated_places.shp`` in 
    the Table-of-Contents.
 #. Change the symbology and labelling of ``test.shp`` to match the screenshot 
    below. 
