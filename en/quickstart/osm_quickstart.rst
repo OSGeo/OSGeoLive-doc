@@ -80,7 +80,7 @@ manually import it with:
   bzip2 -dc /usr/local/share/data/osm/Nottingham_CBD.osm.bz2 | gosmore rebuild
 
 This will create gosmore.pak and only needs to be run once. You can then
-search for locations within the OSM dataset, for example "Jubilee Campus".
+search for locations within the OSM dataset, for example "Beeston Lane".
 Use the middle and right mouse buttons to set the origin and
 destination for shortest path routing. Use the "O" button to access the
 program options, and the "3D" button to get a perspective view useful
