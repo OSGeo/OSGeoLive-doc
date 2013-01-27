@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-osm.png
@@ -41,11 +41,24 @@ Core Features
 Data Sets included in OSGeo-Live
 --------------------------------------------------------------------------------
 
-Nottingham.osm.bz2:
+- Nottingham.osm.bz2:
  A large extract of the greater city area as a BZip2 compressed XML text file.
 
-Nottingham_CBD.osm.bz2:
+- Nottingham_CBD.osm.bz2:
  A smaller subset covering just the central business district.
+
+- feature_city.osm.bz2
+
+- feature_city_CBD.osm.bz2
+
+- feature_city_poi.db
+
+OSM data imported into PostGIS Databases: 
+
+- osm_local
+
+- osm_local_smerc
+
 
 Details
 --------------------------------------------------------------------------------

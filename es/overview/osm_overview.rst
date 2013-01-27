@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Translator: Javier Sánchez
-:Version: osgeo-live4.0
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. _osm-overview-es:
@@ -62,21 +62,23 @@ Detalles
 
 **Versiones de Software:**
 
-* JOSM: Latest Testing (svn r3329)
+* JOSM: estable (svn r5608)
 
-* Merkaartor: 0.14+
+* Merkaartor: 0.17.2
 
-* Gosmore: 2009/06/24
+* Gosmore: 2010/07/11
 
-* Osmarender: SVN mid-2010
+* Osmarender: SVN mid-2011
 
-* osm2pgsql: 0.69 (svn r22215)
+* osm2pgsql: SVN version 0.81.0
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+* TileMill: 0.10.1
 
-**API Interfaces (data):** REST (via Xapi), XML
+**Plataformas soportada:** GNU/Linux, Mac OSX, MS Windows
 
-**Support:** http://wiki.openstreetmap.org/
+**Interfaces API (datos):** REST (via Xapi), XML
+
+**Soporte:** http://wiki.openstreetmap.org/
 
 
 Guía de inicio rápido

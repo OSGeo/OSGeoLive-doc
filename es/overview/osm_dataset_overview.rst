@@ -1,8 +1,9 @@
 ﻿:Author: Hamish Bowman
 :Reviewer: Cameron Shorter
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :Translator: David Mateos
 :Translator: Jorge Arévalo
+:Translator: Javi Sánchez
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _osm_dataset-overview:
@@ -48,11 +49,23 @@ Características principales
 Conjuntos de datos incluidos en la distribución OSGeo-Live
 --------------------------------------------------------------------------------
 
-Denver.osm.bz2:
- Un extracto del área urbana más grande de Denver en un fichero de texto XML comprimido con BZip2.
+Nottingham.osm.bz2:
+ Un extracto del área urbana más grande de Nottingham en un fichero de texto XML comprimido con BZip2.
 
-Denver_CBD.osm.bz2:
- Un subconjunto más pequeño de datos que cubre únicamente el distrito de negocios central de Denver.
+Nottingham_CBD.osm.bz2:
+ Un subconjunto más pequeño de datos que cubre únicamente el distrito de negocios central de Nottingham.
+
+- feature_city.osm.bz2
+
+- feature_city_CBD.osm.bz2
+
+- feature_city_poi.db
+
+Datos OSM importados en Bases de Datos PostGIS: 
+
+- osm_local
+
+- osm_local_smerc
 
 Detalles
 --------------------------------------------------------------------------------
