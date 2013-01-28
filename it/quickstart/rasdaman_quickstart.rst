@@ -2,7 +2,8 @@
 :Author: Michael Owonibi (o.michael@jacobs-university.de)
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
 :Author: Dimitar Misev (d.misev@jacobs-university.de)
-:Version: osgeo-live6.0
+:Author: Alan Beccati (a.beccati@jacobs-university.de)
+:Version: osgeo-live6.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
@@ -27,16 +28,16 @@ Prima di questi esempi, il server rasdaman deve essere avviato
 Esplorare esempi da 1-D a 4-D
 ================================================================================
 
-    * Andate nella demo di `Earthlook <http://localhost:8080/earthlook/index.php>`_ 
-    per esplorare i dati demo di vari set. The small ones are part of OSGeo-Live, 
-    those utilizing larger sets forward directly to the `Earthlook site <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ .
+    * Potete accedere alla `demo locale <http://localhost:8080/earthlook/index.php>`_ di
+      rasdaman per esplorare i dati demo di vari set. Una piccola parte sono contenute in OSGeo-Live, 
+      queste utilizzano i larghi set di dati direttamente dal `sito Earthlook <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ (richiede una connessione internet attiva).
 
 Eseguire interrogazioni localmente
 ================================================================================
 
     * Aprire una console e aprire il database di esempio installata localmente
     * usare l'applicazione :command:`rasql` per spedire interrogazioni e ricevere i 
-    risultati, per esempio::
+      risultati, per esempio::
 
       $ rasql -q "select png((char)(c.red / (c.red + c.green) - c.green / (c.red + c.green)) > 0.6 * 255) from rgb AS c" --out file
 
@@ -47,7 +48,8 @@ Creare il vostro database
 ================================================================================
 
     * Aprire una console
-    * `Scaricare e installare rasdaman <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/Download>`_ e `i suoi prerequisiti<http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/RequiredPackages>`_
+    * `Scaricare e installare rasdaman <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/Download>`_
+      e `i suoi prerequisiti <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/RequiredPackages>`_
     * eseguire lo script ingestion demo::
 
       $ install_demo.sh

@@ -27,7 +27,8 @@ Service (WPS) per creare e concatenare Web Processing Services.
 Un WPS fornisce accesso web a funzione che eseguo algoritmi spaziali.
 ZOO-Project supporta molti linguaggi di programmazione e viene distribuito
 con due applicazioni demo usando semplici servizi di servizi spaziali
-(una libreria shared in C e un modulo Python) basato sulle librerie GEOS and OGR.
+(una libreria shared in C e un modulo Python) basato sulle librerie 
+:doc:`GEOS <geos_overview>` and :doc:`OGR <gdal_overview>`.
 
 ZOO è composto di tre parti:
 

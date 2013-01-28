@@ -47,9 +47,9 @@ sulla barra degli strumenti (dove trovate 'Applicazioni' e 'Places') e seleziona
  
 2) Usare i bottoni per l'importazione e aggiungente sorgenti di dati ESRI Shapefiles o/e PostGIS al vostro progetto. 
 
-3) Per importare PostGIS, le impostazioni corrette del database sono già presenti nel dialogo. Basta solo inserire la password 'user' per aggiungere il layer '10m_land'.
+3) Per importare PostGIS, le impostazioni corrette del database sono già presenti nel dialogo. Basta solo inserire la password 'user' per aggiungere il layer 'ne_10m_land'.
 
-4) Per importare uno Shapefile, scegliere '/home/user/data/natural_earth/10m_lakes.shp' per esempio. 
+4) Per importare uno Shapefile, scegliere '/home/user/data/natural_earth2/ne_10m_lakes.shp' per esempio. 
 
 5) Cliccare sull'icona strumenti nella legenda dei layer e selezionate stile. La finestra principale di AtlasStyler sarà aperta. Mentre si cambia to stile, l'opzione 'preview automatica' in fondo vi permetterà di visualizzare i vostri cambiamenti al volo. Se i dati sono troppo grandi (o il sistema troppo lento) disattivate il checkbox 'preview automatica'.
 

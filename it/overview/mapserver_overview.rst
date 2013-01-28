@@ -2,6 +2,7 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
   :scale: 65 %
@@ -59,6 +60,13 @@ Caratteristiche principali
   * Mappature tematica usando classi basato su espressioni logiche o regolari
   * Supporto per motori di rendering tramite driver AGG, Cairo, GD, OpenGL e altri
   * Dotazione speciale per la produzione di tile
+  * Layer per maschera
+  * Posizionamento preciso dei simboli
+  * Multi simbologia/etichette complesse
+  * Campi vettoriali
+  * Spostamento etichette
+  * Simbologia SVG
+  * Supporto per font multipli
 
 * Supporto per interrogazioni spaziali sofisticate
 
@@ -92,6 +100,8 @@ Standard implementati
 
   * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
+* conforme al INSPIRE View Service
+
 Demo
 --------------------------------------------------------------------------------
 
@@ -100,7 +110,7 @@ Demo
 Documentazione
 --------------------------------------------------------------------------------
 
-* `MapServer 6.0.3 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 6.2 Documentation <../../mapserver/doc/index.html>`_
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -109,7 +119,7 @@ Dettagli
 
 **Licenza:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Versione Software:** 6.0.3
+**Versione Software:** 6.2
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

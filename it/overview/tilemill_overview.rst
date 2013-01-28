@@ -1,44 +1,38 @@
 :Author: OSGeo-Live
-:Author: Javier Sanchez
-:Reviewer: 
+:Author: Javier Sanchez, GeoNaTec
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-tilemill.png
-  :scale: 75 %
+.. image:: ../../images/project_logos/logo-tilemill.svg
+  :scale: 60 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
 
-Design studio per mappe Web
+TileMill
 ================================================================================
 
 
-TileMill
+Design studio per mappe Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/tilemill_interface.png
-  :scale: 55 %
-  :alt: TilleMill user interface
-  :align: right
+TileMill è uno strumento per creare mappe belle, basate per il web e interattive da un vasto range di sorgenti di dati spaziali esistenti.
 
-TileMill è uno strumento per creare mappe velocemente e facilmente per progettare mappe per il web
-usando dati personalizzati. E 'costruito sul potente software per rendering di mappe open-source
-Mapnik ( lo stesso software usato da OpenStreetMap e MapQuest per fare parte delle loro mappe )
-e usa CartoCSS come linguaggio dello stile.
+.. Review Comment
+  If MBTiles is an Open Standard, we probably should provide a link to it.
 
-TileMill supporta sia di dati vettoriali ( csv, shapefile, kml. GeoJson) o raster (GeoTiff), e
-può anche collegarsi a grandi dataset come PostgreSQL con PostGIS e OpenStreetMap. Mappe personalizzate
-possone essere esportate in formati differenti come: .png, .pdf, .svg o MBTiles
+Le mappe web generate possono usare tooltips sovrapposti, popup cliccabili, grafici e immagini interattive, marker SVG, tessiture complesse e layer multipli. Le mappe personalizzate possono essere esportate in differenti formati come: .png, .pdf, .svg and MBTiles. Le specifiche MBTiles difiniscono come salvare tiles in un singolo file, come un database SQLite.
 
-Anche se TileMill è uno studio di design potente, al fine di utilizzare in modo efficace si avrà
-probabilmente bisogno di usare con altre applicazioni GIS desktop (come QuantumGIS) per manipolare i
-dati geospaziali in anticipo o editor di grafica (come GIMP) per creare e modificare le icone, i modelli
-e le texture.
+TileMill supporta sia di dati vettoriali (CSV, shapefile, KML, GeoJSON) o raster (GeoTiff), e può anche collegarsi a grandi sorgenti di dati come OpenStreetMap, PostgreSQL e SQLite.
 
-.. image:: ../../images/screenshots/1024x768/tilemill_mapsexamples.png
-  :scale: 55 %
+Tilemill fa uso della libreria di restituzione di mappe :doc:`Mapnik <mapnik_overview>` (usato da OpenStreetMap) e usa CartoCSS come linguaggio di stile.
+
+Tilemill è tipicamente usato insieme con software GIS desktop (come QuantumGIS) per preparare i dati, e editor grafici (come GIMP) per creare icone, patterns e tessiture.
+
+.. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
+  :scale: 70 %
   :alt: TilleMill user interface
   :align: right
 
@@ -52,6 +46,7 @@ Caratteristiche principali
   * GeoJSON
   * GeoTiff
   * CSV fogli di calcolo
+  * OpenStreetMap
 
 * Connessione di database geospaziali
 
@@ -67,9 +62,10 @@ Caratteristiche principali
 
 * Aggiunta di tooltips e legende
 
-* Esportazione di una mappa
+* Pubblicazione
 
-  * File di immagine
+  * File immagine: .png, .pdf, .svg, MBTiles.
+  * Pubblicazione come pagina internet
   * Mappe incluse su una pagina web o CMS (WordPress, Drupal)
 
 * JavaScript API
@@ -77,9 +73,7 @@ Caratteristiche principali
 Standard implementati
 --------------------------------------------------------------------------------
 
-.. Writing Tip: List OGC or related standards supported.
-
-* TileMill does not support OGC standards, like WMS or WFS. Rather it adheres to the widespread practices of z/x/y tile schemes used by Google and OSM and is based on the MBTiles and UTFGrid specifications.
+* TileMill non supporta standards OGC, come WMS o WFS. Rather it adheres to the widespread practices of z/x/y tile schemes used by Google and OSM and is based on the MBTiles and UTFGrid specifications.
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -101,4 +95,3 @@ Guida rapida
 --------------------------------------------------------------------------------
     
 * :doc:`Documentazione introduttiva <../quickstart/tilemill_quickstart>`
-

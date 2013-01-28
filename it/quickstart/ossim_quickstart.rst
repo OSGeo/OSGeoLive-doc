@@ -26,10 +26,13 @@ Imagelinker
 ================================================================================
 
 * Avviare Imagelinker tramite la sua icona dalla directory "Spatial Tools" sul desktop 
-* Selezionare il file di proiezione, usando :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
+* Selezionare il file della proiezione, usando :menuselection:`File --> Open Project --> /home/user/ossim/landsatrgb.prj`
+* Aprire un file immagine, usando :menuselection:`File --> Open Image --> /home/user/data/raster/p011r031_7t19990918_z19_nn10.tif` 
+* Ripetere l'operazione precedente per i file : `p011r031_7t19990918_z19_nn20.tif and p011r031_7t19990918_z19_nn30.tif` 
+* O semplicemente trascinate le immagini nella finestra principale di Imagelinker
 * Andare a :menuselection:`menu bar --> window --> tile`
 * Selezionare un :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
-* Verificare che si veda 3 immagini satellitary grigie. 
+* Verificare che si veda 3 immagini satellitari a scale di grigio. 
 
   .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
@@ -44,11 +47,12 @@ OssimPlanet
 
 * Avviare OssimPlanet tramite la sua icona dalla directory "Desktop-GIS" sul desktop 
 
-* Selezionare :menuselection:`File --> Open Image --> /home/user/data/raster/band1.tiff`
+* Selezionare :menuselection:`File --> Open Image --> /home/user/data/raster/world.tif` 
+  (o semplicemente trascinate l'immagine nella finestra principale) 
 
 * Aprire file :menuselection:`menu --> Open kml --> /home/user/data/kml/*.kml`
 
-* Andare su :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the band1 image`,
+* Andare su :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the world image`,
   dovreste vedere la scena zoomare alla posizione dell'immagine
 
 * Spostatevi all'interno della scena.

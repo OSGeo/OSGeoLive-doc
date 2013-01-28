@@ -66,7 +66,7 @@ Standard implementati
 
 .. Writing Tip: List OGC or related standards supported.
 
-* standards OGC supportati: GML2, SFS, WMS and SLD; (WFS per deegree)
+* standards OGC supportati: GML2, SFS, WMS and SLD; (WFS per :doc:`deegree <deegree_overview>`)
 
 Dettagli
 --------------------------------------------------------------------------------

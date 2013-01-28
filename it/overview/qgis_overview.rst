@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Pasquale Di Donato
-:Version: osgeo-live6.0draft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -26,7 +26,7 @@ Desktop GIS
 Quantum GIS (QGIS) è un client GIS Desktop user friendly ed open-source per la
 gestione, visualizzazione, modifica, analisi di dati geografici
 e per la composizione di mappe per la stampa. 
-Fornisce potenti funzionalità analitiche grazie all'integrazione con GRASS.
+Fornisce potenti funzionalità analitiche grazie all'integrazione con :doc:`GRASS <grass_overview>`.
 QGIS funziona su Linux, Unix, Mac OSX e Windows e supporta formati di
 dati vettoriali, raster ed i database. 
 
@@ -50,7 +50,7 @@ Caratteristiche principali
 
 * Visualizzazione facile di formati raster e vettoriali
 
-    * tabelle di database PostgreSQL,
+    * tabelle di database PostgreSQL/PostGIS,
     * formati vettoriali come shapefiles ESRI, MapInfo, SDTS e GML,
     * formati raster come modelli digitali di elevazione, aerofotogrammetria ed immagini landsat,
     * location e mapset GRASS,

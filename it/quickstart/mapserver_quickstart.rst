@@ -37,8 +37,8 @@ Configura MapServer utilizzando il file di configurazione "mapfile"
 ================================================================================
 
 .. note:: **Cosa imparerò?** In questa sezione imparerai cos'è un mapfile e come
-configurarlo per permettere a MapServer di restituire uno shapefile come immagine
-usando una richiesta WMS.
+   configurarlo per permettere a MapServer di restituire uno shapefile come immagine
+   usando una richiesta WMS.
 
 Cos'è un MapFile?
 --------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ leggere i dati necessari e come restituirli (es. color, symbol, label, etc...).
 --------------------------------------------------------------- -----------------
 
 #. Apri qualsiasi editor di testo (Mousepad è l'editor di testo di default sul dvd:
-:menuselection:`Applications --> Accessories --> Mousepad`).
+   :menuselection:`Applications --> Accessories --> Mousepad`).
 #. Crea il file "mapserver_quickstart.map" nella tua directory home: :file:`/home/user/mapserver_quickstart.map`
 
 Inseriscici il seguente contenuto::
@@ -59,7 +59,7 @@ Inseriscici il seguente contenuto::
     NAME "MAPSERVER QUICKSTART"
     EXTENT -137 29 -53 88
     UNITS DD
-    SHAPEPATH "/home/user/data/natural_earth/"
+    SHAPEPATH "/home/user/data/natural_earth2/"
     SIZE 800 600
 
     IMAGETYPE PNG24
@@ -78,7 +78,7 @@ Inseriscici il seguente contenuto::
       NAME "Admin Countries"
       STATUS ON
       TYPE POLYGON
-      DATA "10m_admin_0_countries"
+      DATA "ne_10m_admin_0_countries"
       CLASS 
         STYLE
           COLOR 246 241 223
@@ -92,7 +92,7 @@ Inseriscici il seguente contenuto::
 .. note::
     
    L'esempio utilizza il dataset natural earth, che è già installato nel dvd:
-   :file:`~/data/natural_earth` (percorso breve a :file:`/usr/local/share/data/natural_earth`)
+   :file:`~/data/natural_earth2` (percorso breve a :file:`/usr/local/share/data/natural_earth2`)
 
 Ogni oggetto in un mapfile inizia con il suo nome (per esempio **MAP**) e termina con
 un **END**. Un mapfile inizia sempre con l'oggetto **MAP** e dovrebbe contenere una
@@ -102,19 +102,20 @@ abbiamo per il momento definito un solo layer.
 Dai uno sguardo ad alcuni degli oggetti (e proprietà) definiti nel nostro mapfile: 
  * EXTENT : definisce la bounding box di default per questa configurazione
  * LAYER : definisce l'accesso e mostra le proprietà per un dataset spaziale. Aggiungeremo
- un altro layer in seguito.
+   un altro layer in seguito.
  * SHAPEPATH : definisce un percorso di base per i dati basati sul file (es. shapefiles
- o immagini tiff). 
+   o immagini tiff). 
 
-Se osserviamo più da vicino il **LAYER** nel nostro mapfile, noteremo che contiene una 
-serie di proprietà e oggetti. Tra questi:
+Se osserviamo più da vicino il **LAYER** nel nostro mapfile, noteremo che contiene una
+serie di proprietà e oggetti. Tra questi: 
+
  * STATUS : se il layer può essere rappresentato (*ON*), non può essere rappresentato
- (*OFF*) o se deve essere sempre rappresentato (*DEFAULT*).
+   (*OFF*) o se deve essere sempre rappresentato (*DEFAULT*).
  * TYPE : il tipo di geometria che MapServer deve utilizzare  quando riproduce i dati
- come un immagine; nel nostro mapfile i dati saranno rappresentati come *polygons*.
+   come un immagine; nel nostro mapfile i dati saranno rappresentati come *polygons*.
  * DATA : il nome del file di dati spaziali che questo layer, in questo caso uno shapefile.
  * CLASS : determina come rappresentare un layer (styling).  Affronteremo questo oggetto 
- con maggior dettaglio più avanti.
+   con maggior dettaglio più avanti.
 
 .. note:: 
 
@@ -179,7 +180,7 @@ aggiungi la configurazione del layer seguente::
    NAME "Lakes"
    STATUS ON
    TYPE POLYGON
-   DATA "10m_lakes"
+   DATA "ne_10m_lakes"
    CLASS 
      STYLE
        COLOR 153 179 204
@@ -215,12 +216,12 @@ Definire lo stile di un layer usando la configurazione del mapfile
 
 In un MapFile, un layer può contenere un infinito numero di oggetti CLASS. Questi sono
 utilizzati per definire lo stile degli elementi contenuti nel file di dati spaziali (DATA).
-Ad esempio se guardiamo più da vicino il file di dati "10m_lakes" usando uno strumento come
+Ad esempio se guardiamo più da vicino il file di dati "ne_10m_lakes" usando uno strumento come
 `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, vedremo la definizione delle geometrie e degli
 attributi che contiene. I valori di questi attributi possono essere utilizzati come un mezzo
 per rappresentare diversamente gli elementi contenuti in dataset utilizzando diversi oggetti CLASS.
 
-Nel nostro dataset "10m_lakes", abbiamo un attributo *ScaleRank*, che sembra essere correlato
+Nel nostro dataset "ne_10m_lakes", abbiamo un attributo *ScaleRank*, che sembra essere correlato
 alle dimensioni del lago. Possiamo utilizzare i valori di questo attributo per rappresentare in
 modo diverso i laghi. Nell'oggetto LAYER aggiungeremo un altro oggetto CLASS appena prima di
 quello corrente, in questo modo::
@@ -229,7 +230,7 @@ quello corrente, in questo modo::
    NAME "Lakes"
    STATUS DEFAULT
    TYPE POLYGON
-   DATA "10m_lakes"
+   DATA "ne_10m_lakes"
    CLASSITEM "ScaleRank" 
    CLASS 
      EXPRESSION /0|1/  
@@ -276,5 +277,6 @@ contiene molte risorse per aiutarti ad iniziare. Qui ce ne sono alcune da consid
   che contiene diversi esempi di mapfile.
 * Guarda `OGC Support and Configuration <http://www.mapserver.org/ogc/index.html>`_ per sapere
   di più sugli standard OGC in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.).
-* Pronto a usare MapServer?  Allora aggiungiti alla comunity sulla `Mailing Lists <http://www.mapserver.org/community/lists.html>`_ per scambiarsi idee, discutere potenziali
-  miglioramenti del software e porre domande.
+* Pronto a usare MapServer?  Allora aggiungiti alla comunity sulla 
+  `Mailing Lists <http://www.mapserver.org/community/lists.html>`_ per scambiarsi idee, discutere
+  potenziali miglioramenti del software e porre domande.

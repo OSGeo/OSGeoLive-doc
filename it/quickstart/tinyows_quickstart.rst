@@ -95,4 +95,4 @@ Ed ora?
 
 Per imparare di più su TinyOWS, il punto d'inizione è la `documentazione di TinyOWS`_ sulla homepage MapServer.
 
-.. _`TinyOWS Documentation`: http://mapserver.org/trunk/tinyows/
+.. _`documentazione di TinyOWS`: http://mapserver.org/trunk/tinyows/

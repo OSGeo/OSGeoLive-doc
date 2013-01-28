@@ -26,12 +26,12 @@ script su questa macchina.
 Creare mappe in Python è veramente semplice con Mapnik. Digita `python` sulla linea di 
 comando per entrare nell'interprete Python e provate questo::
 
-    >>> import mapnik, os
-    >>> m = mapnik.Map(600,400)
+    >>> import mapnik2, os
+    >>> m = mapnik2.Map(600,400)
     >>> style = '/usr/local/share/mapnik/demo/population.xml'
-    >>> mapnik.load_map(m,style)
+    >>> mapnik2.load_map(m,style)
     >>> m.zoom_all()
-    >>> mapnik.render_to_file(m,'map.png')
+    >>> mapnik2.render_to_file(m,'map.png')
     >>> os.system('xdg-open map.png')
 
 

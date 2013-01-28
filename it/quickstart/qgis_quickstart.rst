@@ -35,14 +35,14 @@ Modificare un progetto QGIS
 
    * Dovreste vedere una mappa del mondo.
 
-#. Attivare **10m_populated_places_simple** nella legenda dei layer
+#. Attivare **ne_10m_populated_places_simple** nella legenda dei layer
 
    * Il layer "Populated places" viene visualizzato:
 
      .. image:: ../../images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
-#. Doppio click su **10m_rivers_lake_centerlines** nella legenda.
+#. Doppio click su **ne_10m_rivers_lake_centerlines** nella legenda.
 
 #. Cambiare il colore in un tono diverso di blu.
 
@@ -57,7 +57,7 @@ Creare un nuovo progetto QGIS
 
 #. Selezionare :menuselection:`Layer --> Aggiungi vettore...`.
 
-#. Selezionare il file :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
+#. Selezionare il file :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
 
 #. Cliccare :guilabel:`Open`.
 

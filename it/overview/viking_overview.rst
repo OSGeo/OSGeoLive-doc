@@ -21,7 +21,7 @@ analizzatore e visualizzatore di dati GPS. Viking ha l'obbiettivo di essere
 facile da usare, ma potente in nel compiete una ampia varietà di attivià
 connessi al GPS. Utilizza un sistema di stratificazione gerarchica per organizzare 
 i dati GPS, mappe, e altri tipi di layer con i dati spaziali, come ad esempio linee.
-Funziona con i dait di OpenStreetMap e vari servizi di tile online.
+Funziona con i dait di :doc:`OpenStreetMap <osm_dataset_overview>` e vari servizi di tile online.
 
 
 Caratteristiche principali
@@ -36,8 +36,8 @@ Caratteristiche principali
 
 * Registrazione di tracce e tracciature GPS in tempo reale.
 
-* Preparare tracce e waypoints per percorsi usando mappe da servizi come OpenStreetMap e 
-  Bing Aerial. Bisognere solo caricare i dati nel vostro GPS prima di partire. Le mappe 
+* Preparare tracce e waypoints per percorsi usando mappe da servizi come :doc:`OpenStreetMap <osm_dataset_overview>`
+  e Bing Aerial. Bisognere solo caricare i dati nel vostro GPS prima di partire. Le mappe 
   insieme alle vostre tracce e waypoints possono anche essere stampate e usate durante il viaggio.
 
 * Dopo i viaggi, tracce e waypoints possono essere scaricati dal GPS, archiviate, 

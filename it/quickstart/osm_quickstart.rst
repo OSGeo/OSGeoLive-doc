@@ -48,7 +48,7 @@ Further reading
 * Guida utente: http://wiki.openstreetmap.org/wiki/JOSM/Guide
 * `Video tutorial <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
 * Online tutorial: http://www.use-it.be/europe/docs/OSMmanual/
-* Oprire i dati di esempio con :menuselection:`File --> Open... --> /usr/local/share/data/osm/feature_city.osm.bz2`
+* Aprire i dati di esempio con :menuselection:`File --> Open... --> /usr/local/share/data/osm/feature_city.osm.bz2`
 * Maggiori istruzioni sono date quando lancerete l'applicazione.
 
 
@@ -72,22 +72,22 @@ recuperare la posizione attuale dell'utente tramite GPS usando
 * Homepage: http://wiki.openstreetmap.org/index.php/Gosmore
 * Aiuto online su wiki: http://wiki.openstreetmap.org/wiki/Gosmore#User_Interface
 * Prima di eseguire Gosmore avrete il bisogno di convertire i dati di un file `planet-*.osm`. 
-Alcuni dati sono forniti nella directory `/usr/local/share/osm/`.
+  Alcuni dati sono forniti nella directory `/usr/local/share/osm/`.
 
-Upon launching Gosmore from the Geospatial menu or Desktop folders, you will
-be given the chance to create the required data file if needed. You can also
-manually import it with:
+Quando viene avviato Gosmore dal menu Geospatial o dalla cartella Desktop, vi verrà
+data l'opportunità di creare i dati richiesti se necessari. Potete anche importarli
+manualmente con:
 
 ::
 
   bzip2 -dc /usr/local/share/data/osm/Nottingham_CBD.osm.bz2 | gosmore rebuild
 
-Questo creerà un gosmore.pak ed è necessario eseguirlo una sola volta. You can then
-search for locations within the OSM dataset, for example "Jubilee Campus".
-Use the middle and right mouse buttons to set the origin and
-destination for shortest path routing. Use the "O" button to access the
-program options, and the "3D" button to get a perspective view useful
-for in-car GPS navigation.
+Questo creerà un gosmore.pak ed è necessario eseguirlo una sola volta. Quindi potete
+cercare località con il dataset OSM, per esempio "Beeston Lane".
+Usate il bottone centrale e destro per impostare l'origine e la destinazione
+per il percorso più breve. Usare il bottone "O" per accedere alle opzione del
+programma, e il pulsante "3D" per ottenere una vista prospettiva utile per la
+navigazione automobilistica.
 
 
 Osmarender
@@ -110,7 +110,8 @@ Esempio:
    per dettagli su come scaricare una parte più piccola salvandola in un file ``.osm``,
    o usare *JOSM* o *Merkaartor* per scaricare un pezzo più piccolo.
    Un insieme più piccolo chiamato `Nottingham_CBD.osm` è stato incluso per 
-   vostra convenienza, but even that still make take a rather long time to process.
+   vostra convenienza, ma comunque può richiedere un lungo tempo per essere 
+   processato.
 
 ::
 
@@ -139,16 +140,14 @@ PostgreSQL per ottenere dati geografici.
 osm2poidb
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**osm2poidb** is a utility program that extracts Point of Interest (POI) data
-from a OpenStreetMap (.osm) data extract. The results are saved into a SQLite
-database file. A processed version of the OSM feature city extract provided with
-this disc can be found in the `/usr/local/share/data/osm` directory, and explored
-with the `SQLite database browser` program in the Databases menu. On this disc
-it is used by the :doc:`GpsDrive <../overview/gpsdrive_overview>` software to
-provide a searchable list of local amenities. To run it manually, do:
+**osm2poidb** è un programma che estrae i dati dei Point of Interest (POI) da
+un estratto dei dati OpenStreetMap (.osm). I risultati sono salvati in un database
+SQLite. Una versione preprocessata delle caratteristiche estratte da OSM della città 
+sono fornite con il disco e possono essere trovate nella directory `/usr/local/share/data/osm`
+e visualizzate con il programma `SQLite database browser` nel menu Databases. Sul disco è
+usato dal software :doc:`GpsDrive <../overview/gpsdrive_overview>` per fornire una lista
+interrogabile di servizi locali. Per eseguirlo manualmente, fate:
 
 ::
 
   bzcat /usr/local/share/data/osm/feature_city.osm.bz2 | osm2poidb -o feature_city_poi.db STDIN
-
-

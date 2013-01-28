@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-osm.png
@@ -24,7 +24,8 @@ da tutto il mondo, usando processi simili al mantenimento dell'enciclopedia Wiki
 
 L'aspetto più visibile di OSM è l'interfaccia online alle web-tile from http://osm.org, 
 ma le mappe possono anche essere viste, importate, o editate in molte applicazioni 
-come Quantum GIS, OpenLayers, ArcGIS e applicazioni dedicate a OSM.
+come :doc:`Quantum GIS <qgis_overview>` , :doc:`OpenLayers <openlayers_overview>`, 
+ArcGIS e applicazioni dedicate a OSM.
 
 Il cuore del progetto è che i dati di base sono aperti a tutti per essere modificati, 
 visualizzati o per creare mappe personalizzate. Fondamentalmente l'attenzione di OSM è 
@@ -43,18 +44,32 @@ Caratteristiche principali
 
 * Gli elementi vettoriali sono taggati con nomi e altri attributi.
 * Estrazione di subsets locali dei dati.
-* I dati sono archiviati come nodi in latitude-longitude WGS84, stringhe di nodi, e meta-elementi creando punti, polilinee, e aree.
+* I dati sono archiviati come nodi in latitude-longitude WGS84, stringhe di nodi, e 
+  meta-elementi creando punti, polilinee, aree e relazioni.
 * Parte alfanumerica molto ricca, spesso più dettagliata di ogni altra risorsa.
 * Un archivio globale di conoscenze a livello locale.
 
 Set di Dati inclusi in OSGeo-Live
 --------------------------------------------------------------------------------
 
-Nottingham.osm.bz2:
- Un largo estratto dell'area della grande città come file di testo compresso in BZip2.
+- Nottingham.osm.bz2:
+  Un largo estratto dell'area della grande città come file di testo compresso in BZip2.
 
-Nottingham_CBD.osm.bz2:
- Un sottoinsieme più piccolo del solo distretto del quartiere centrale.
+- Nottingham_CBD.osm.bz2:
+  Un sottoinsieme più piccolo del solo distretto del quartiere centrale.
+
+- feature_city.osm.bz2
+
+- feature_city_CBD.osm.bz2
+
+- feature_city_poi.db
+
+Dati OSM importati in database PostGIS: 
+
+- osm_local
+
+- osm_local_smerc
+
 
 Dettagli
 --------------------------------------------------------------------------------

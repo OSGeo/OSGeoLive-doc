@@ -35,8 +35,8 @@ un'eccellente flessibilità e controllo, ma tende ad allungare i tempi di
 apprendimento rispetto ai programmi con interfaccia grafica (GUI).
 Fortunatamente R ha una buona documentazione sul sito web che facilita il
 processo di apprendimento. Spesso vengono usati degli script per automatizzare
-le fasi di elaborazione e ci sono progetti che stanno sviluppando GUI open
-source per R (http://rwiki.sciviews.org/doku.php?id=guis:guis).
+le fasi di elaborazione ma esistono anche GUI, la migliore potrebbe essere
+RStudio (http://www.rstudio.com).
 
 R è un'implementazione del linguaggio di programmazione S e c'è una buona
 compatibilità di R con *legacy S* e il codice S-Plus, così come con le moderne
@@ -70,7 +70,7 @@ Dettagli
 
 **Licenza:** GPL
 
-**Versione del software:** 2.15.1
+**Versione del software:** 2.15.2
 
 **Piattaforme supportate:** Windows, Linux, Mac, Unix
 

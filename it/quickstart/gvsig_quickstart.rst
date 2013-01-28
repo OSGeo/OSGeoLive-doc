@@ -116,7 +116,7 @@ Aprire la finestra Aggiungi layer
 #. Selezionare il pulsante [Aggiungi] nella finestra **Aggiungi layer**. Per 
    impostazione predefinita la prima scheda è *File*, pertanto comparirà la 
    finestra di dialogo **Apri** per l'apertura di file.
-#. Esplorare la cartella ``/usr/local/share/data/natural_earth/HYP_50M_SR_W``.
+#. Esplorare la cartella ``/usr/local/share/data/natural_earth2/``.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
    :scale: 55 
@@ -141,10 +141,10 @@ Selezionare un file vettoriale
 #. Selezionare il pulsante [Aggiungi] per aggiungere alcuni layer vettoriali. 
    Comparirà la finestra di dialogo **Apri** per l'apertura di file.
 #. Selezionare il pulsante [Cartella superiore] nel menù per cambiare la cartella 
-   in ``/usr/local/share/data/natural_earth``.
+   in ``/usr/local/share/data/natural_earth2/``.
 #. Selezionare *gvSIG shp driver* dalla lista a discesa dei tipi di file.
-#. Selezionare gli shapefile ``10m_admin_1_states_provinces.shp``, 
-   ``10m_populated_places_simple.shp`` e ``10m_rivers_lake_centerlines.shp`` 
+#. Selezionare gli shapefile ``ne_10m_admin_1_states_provinces.shp``, 
+   ``ne_10m_populated_places.shp`` e ``ne_10m_rivers_lake_centerlines.shp`` 
    dalla lista. Tenere premuto il tasto Ctrl per effettuare una selezione multipla.
 #. Cliccare sul pulsante [Apri] per ritornare alla finestra **Aggiungi layer**.
 #. Cliccare sul pulsante [Accetta] nella finestra **Aggiungi layer** per ritornare 
@@ -195,7 +195,7 @@ Cambiare la modalità di rappresentazione dei layer nella vista
 Rendere un poligono trasparente
 --------------------------------------------------------------------------------
    
-#. Selezionare il layer ``10m_admin_1_states_provinces.shp`` usando il tasto 
+#. Selezionare il layer ``ne_10m_admin_1_states_provinces.shp`` usando il tasto 
    sinistro del mouse e cliccare nuovamente con il tasto destro del mouse.
 #. Selezionare l'opzione *Proprietà* dal menù contestuale.
 #. Apparirà la finestra **Proprietà del layer**.
@@ -253,7 +253,7 @@ Semplice analisi - selezione delle città in una regione
 Selezionare la regione
 --------------------------------------------------------------------------------
    
-#. Selezionare il layer ``10m_admin_1_states_provinces.shp`` usando il tasto  
+#. Selezionare il layer ``ne_10m_admin_1_states_provinces.shp`` usando il tasto  
    sinistro del mouse.
 #. Selezionare l'icona 'Seleziona con punto' nella barra degli strumenti.
 #. Cliccare sul poligono che rappresenta lo Stato di Vittoria. Il poligono 
@@ -265,7 +265,7 @@ Selezionare la regione
 Selezionare le città contenute nella regione
 --------------------------------------------------------------------------------
    
-#. Selezionare il layer ``10m_populated_places_simple.shp`` usando il tasto  
+#. Selezionare il layer ``ne_10m_populated_places.shp`` usando il tasto  
    sinistro del mouse.
 #. Selezionare l'opzione ``Vista > Selezione > Selezione con layer`` dal menù 
    principale per aprire la finestra **Selezione con layer**.
@@ -281,7 +281,7 @@ Selezionare le città contenute nella regione
 Annullare la selezione del poligono in modo da vedere il risultato
 --------------------------------------------------------------------------------
    
-#. Selezionare il layer ``10m_admin_1_states_provinces.shp`` usando il tasto  
+#. Selezionare il layer ``ne_10m_admin_1_states_provinces.shp`` usando il tasto  
    sinistro del mouse.
 #. Cliccare sull'icona 'Deseleziona' nella barra degli strumenti.
 #. Si osserverà che solo le città contenute nello stato di vittoria sono state 
@@ -293,7 +293,7 @@ Annullare la selezione del poligono in modo da vedere il risultato
 Esportare le città selezionate in un nuovo shapefile
 --------------------------------------------------------------------------------
    
-#. Selezionare il layer ``10m_populated_places_simple.shp`` usando il tasto  
+#. Selezionare il layer ``ne_10m_populated_places.shp`` usando il tasto  
    sinistro del mouse.
 #. Selezionare l'opzione ``Layer > Esporta... > SHP`` dal menù principale per 
    iniziare l'esportazione.
@@ -313,7 +313,7 @@ Esportare le città selezionate in un nuovo shapefile
 Mostrare solo le città contenute in una regione
 --------------------------------------------------------------------------------
 
-#. Una volta ritornati alla vista, deselezionare ``10m_populated_places_simple.shp`` 
+#. Una volta ritornati alla vista, deselezionare ``ne_10m_populated_places.shp`` 
    nella ToC.
 #. Cambiare la simbologia e l'etichettatura di ``test.shp`` come nella schermata 
    seguente. 
@@ -402,5 +402,3 @@ Risorse utili
 
 Del materiale didattico in italiano è disponibile sul sito di   
 `gvSIG <https://gvsig.org/web/docusr/learning/cursos-gvsig#italiano>`__ . 
-
-

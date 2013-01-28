@@ -75,7 +75,9 @@ Dettagli
 
 * Osmarender: SVN mid-2011
 
-* osm2pgsql: versione SVN 0.70.5
+* osm2pgsql: versione SVN 0.81.0
+
+* TileMill: 0.10.1 
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows
 

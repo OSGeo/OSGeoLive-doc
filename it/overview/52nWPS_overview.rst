@@ -1,6 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -66,7 +66,7 @@ Dettagli
 
 **Licenza:** GPL
 
-**Versione Software:** WPS 3.0
+**Versione Software:** WPS 3.1.0
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

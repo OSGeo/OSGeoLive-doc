@@ -59,7 +59,7 @@ Modificare un progetto QGIS
    * Dovreste vedere la stessa mappa del mondo.
      Ora modificheremo lo stile dei fiumi e controlleremo il risultato nel visualizzatore di mappe. 
 
-#. Doppio click su :file:`10m_rivers_lake_centerlines` nella legenda.
+#. Doppio click su :file:`ne_10m_rivers_lake_centerlines` nella legenda.
 
 #. Cambiare il colore in un tono diverso di blu.
 
@@ -85,7 +85,7 @@ Creare un nuovo progetto QGIS
 
 #. Selezionare :menuselection:`Layer --> Aggiungi vettore...`.
 
-#. Selezionare il file :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`.
+#. Selezionare il file :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
 
 #. Cliccare :guilabel:`Open`.
 
@@ -95,11 +95,15 @@ Creare un nuovo progetto QGIS
 
 #. Usare come nome del file :file:`/home/user/world.qgs`.
 
-#. Aprire nel browser `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_.
+#. Aprire nel browser `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_.
 
    * Dovreste vedere le stesse nazioni del mondo, ma questa volta renderizzate da QGIS Server.
 
 Per proseguire
 ================================================================================
 
-Un buon punto di partenza per approfondire la conoscenza di QGIS Server è la `Pagina wiki QGIS Server <http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial>`_.
+Un buon punto di partenza per approfondire la conoscenza di QGIS Server sono la `guida utente di QGIS`_
+e la `pagina wiki su QGIS Server`_ 
+
+.. _`guida utente di QGIS`: http://docs.qgis.org/html/en/docs/user_manual/working_with_ogc/ogc_server_support.html 
+.. _`pagina wiki su QGIS Server`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial

@@ -42,8 +42,10 @@ un'interfaccia da linea di comando.
 
 I sotto-progetti che compongono MetaCRS includono:
 
-* PROJ.4 (C++) - usato in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation e molti altri.
-* Proj4js (JavaScript) - usato in OpenLayers.
+* PROJ.4 (C++) - usato in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`,
+  :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, 
+  OGRCoordinateTransformation e molti altri.
+* Proj4js (JavaScript) - usato in :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - usato in MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).

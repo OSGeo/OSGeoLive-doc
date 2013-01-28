@@ -60,7 +60,7 @@ Dettagli
 
 **Licenza:** MPL v1.1 and GPL v3
 
-**Versione Software:** spatialite 3.1.0a / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
+**Versione Software:** spatialite 3.1.0 / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
 
 **Piattaforme Supportate:** Linux, Mac, Windows
 

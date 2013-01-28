@@ -105,7 +105,7 @@ Il blocco di codice seguente mette insieme tutti i pezzi per creare un visualizz
             "http://localhost/cgi-bin/qgis_mapserv.fcgi", 
             {
             'map': '/usr/local/share/qgis/QGIS-NaturalEarth-Example.qgs',
-            'layers':'HYP_50M_SR_W,10m_lakes,10m_rivers_lake_centerline'} );
+            'layers':'HYP_50M_SR_W,ne_10m_lakes,ne_10m_rivers_lake_centerline'} );
           map.addLayer(wms);
           map.zoomToMaxExtent();
         </script>

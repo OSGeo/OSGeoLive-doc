@@ -27,9 +27,9 @@ Avviare R
 Opzioni disponibili:
 
   * Scegliere ``R Statistics`` dalla sezione Spatial Tools del menu - una finestra
-  terminale apparirà con R già avviato.
+    terminale apparirà con R già avviato.
   * Digitare ``R`` al prompt di una riga di comando shell. R verrà avviato nel terminale
-  stesso.
+    stesso.
 
 Non temete la riga di comando - è uno strumento molto potente. Utilizzare le frecce su
 e giù per richiamare i comandi già utilizzati e fare correzioni è di grande aiuto. Nel
@@ -196,8 +196,8 @@ dati di Natural Earth. Usiamo due pacchetti installati (add-on) per ottenere le 
         > library(sp)
         > library(maptools)
 
-        > countries = readShapeSpatial("/usr/local/share/data/natural_earth/10m_admin_0_countries.shp")
-        > places = readShapeSpatial("/usr/local/share/data/natural_earth/10m_populated_places_simple.shp")
+        > countries = readShapeSpatial("/usr/local/share/data/natural_earth/ne_10m_admin_0_countries.shp")
+        > places = readShapeSpatial("/usr/local/share/data/natural_earth/ne_10m_populated_places.shp")
         > plot(countries)
 
 Questo ci dà una semplice mappa del mondo:

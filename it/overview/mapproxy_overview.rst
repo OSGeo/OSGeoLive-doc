@@ -25,8 +25,8 @@ Layers possono essere realizzati transparenti, possono cambiare proiezioni,
 più layers possono essere uniti in uno unico, posso essere aggiunti watermarks, e altro...
 
 MapProxy e flessibile e scalabile per casi d'uso semplici e complessi: da una
-singola cache di tile per un client web OpenLayers a un centrale di nodi SDI che
-combinano, unificano e accelerano dozine di servizi WMS distrbuiti.
+singola cache di tile per un client web :doc:`OpenLayers <openlayers_overview>` a un 
+centrale di nodi SDI che combinano, unificano e accelerano dozine di servizi WMS distrbuiti.
 
 MapProxy è utilizzado per il Broadband Atlas Tedesco per fornire mappe di migliaia
 di utenti e l'Agenzia Federale Tedesca per la Cartografia e Gepdesia utilizza MapProxy
@@ -44,7 +44,7 @@ Caratteristiche principali
   :align: right
 
 Sorgenti di Input:
-  * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, etc.)
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver e Mapnik (directly, without WMS)
   * tutti TileCache, Google Maps o sorgenti compatibili con Bing

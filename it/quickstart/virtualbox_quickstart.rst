@@ -23,7 +23,7 @@ Requisiti di Sistema
 
 Creare una Macchina Virtuale
 --------------------------------------------------------------------------------
-Scaricare e installare `Virtual Box <http://www.virtualbox.org/>`_. Su Linux eseguire le seguenti operazioni:
+Scaricare e installare `Virtual Box <http://www.virtualbox.org/>`_. Su distribuzioni Linux Debian/Ubuntu eseguire le seguenti operazioni:
 
   ``apt-get install virtualbox-ose``
 
