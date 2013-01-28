@@ -47,18 +47,19 @@ Data Sets included in OSGeo-Live
 - Nottingham_CBD.osm.bz2:
  A smaller subset covering just the central business district.
 
-- feature_city.osm.bz2
+- feature_city.osm.bz2 and feature_city_CBD.osm.bz2 are also city extracts. Quickstarts and overviews use these file/path names, despite posible changes of example city among different releases.
 
-- feature_city_CBD.osm.bz2
+- feature_city_poi.db:
+ Sqlite DB of "positions of interest" nodes extracted from the above feature_city.osm.bz2. Contains pubs, fuel stations, restaurants, etc.
 
-- feature_city_poi.db
+OSM data imported to PostGIS Database format: 
 
-OSM data imported into PostGIS Databases: 
+Full feature_city.osm datasetsData imported with osm2pgsql to different projections: 
 
-- osm_local
+- osm_local: Imported to lat/lon (epsg:4326)
 
-- osm_local_smerc
-
+- osm_local_smerc: Imported to "Google spherical mercator" pseudo-projection for
+generating Mapnik webtiles
 
 Details
 --------------------------------------------------------------------------------

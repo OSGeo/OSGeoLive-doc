@@ -1,7 +1,8 @@
 ﻿:Author: Hamish Bowman
 :Reviewer: Cameron Shorter
 :Translator: Jorge Arévalo
-:Version: osgeo-live5.5
+:Translator: Javi Sánchez
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _nc_dataset-overview:

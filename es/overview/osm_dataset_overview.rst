@@ -55,17 +55,19 @@ Nottingham.osm.bz2:
 Nottingham_CBD.osm.bz2:
  Un subconjunto más pequeño de datos que cubre únicamente el distrito de negocios central de Nottingham.
 
-- feature_city.osm.bz2
-
-- feature_city_CBD.osm.bz2
+- feature_city.osm.bz2 y feature_city_CBD.osm.bz2 son los mismos datos de la ciudad.          
+ Documentación de Quickstarts y Overviews muchas veces se refieren a estos nombres de ficheros, independiente de la ciudad de ejemplo utilizada, que puede variar entre las diferentes versiones.
 
 - feature_city_poi.db
+ Base de Datos Sqlite de nodos de "puntos de interés" sacados del fichero feature_city.osm.bz2. Contiene pubs, fuel stations, restaurants, etc.
 
 Datos OSM importados en Bases de Datos PostGIS: 
 
-- osm_local
+Son datos OSM del fichero feature_city.osm, importados con osm2pgsql en dos diferentes proyecciones:
+ 
+- osm_local: Importado en lat/long (epsg:4326)
 
-- osm_local_smerc
+- osm_local_smerc: Importado en la pseudo-projección "Espherical mercator" de Google para generar webtiles de Mapnik.
 
 Detalles
 --------------------------------------------------------------------------------
