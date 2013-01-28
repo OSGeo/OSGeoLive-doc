@@ -45,6 +45,13 @@ Core Features
   * Thematic mapping using logical or regular expression-based classes
   * Plugable renderer support with drivers for AGG, Cairo, GD and OpenGL and others
   * Special provisioning for tiled output generation
+  * Mask Layers
+  * Precise Symbol Placement
+  * Complex Multi Label/Symbol Symbology
+  * Vector Fields
+  * Label Leader Offsetting
+  * SVG Symbology
+  * Multiple Font Support
 
 * Sophisticated spatial query support
 
@@ -78,6 +85,8 @@ Implemented Standards
 
   * WMS (client/server), non-transactional WFS (client/server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
+* INSPIRE View Service compliant
+
 Demo
 --------------------------------------------------------------------------------
 
@@ -86,7 +95,7 @@ Demo
 Documentation
 --------------------------------------------------------------------------------
 
-* `MapServer 6.0.3 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 6.2 Documentation <../../mapserver/doc/index.html>`_
 
 Details
 --------------------------------------------------------------------------------
@@ -95,7 +104,7 @@ Details
 
 **Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 6.0.3
+**Software Version:** 6.2
 
 **Supported Platforms:** Windows, Linux, Mac
 
