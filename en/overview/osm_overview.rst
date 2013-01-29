@@ -70,13 +70,13 @@ Details
 
 * Merkaartor: 0.17.2
 
+* Osmosis: 0.40.1
+
 * Gosmore: 2010/07/11
 
 * Osmarender: SVN mid-2011
 
 * osm2pgsql: SVN version 0.81.0
-
-* TileMill: 0.10.1
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
