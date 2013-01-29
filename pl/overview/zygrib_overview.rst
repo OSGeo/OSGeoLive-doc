@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _zygrib-overview-pl:
@@ -46,7 +46,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 3
 
-**Wersja programu:** 3.9.2
+**Wersja programu:** 6.1.2
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 

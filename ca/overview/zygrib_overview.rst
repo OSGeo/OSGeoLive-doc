@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-zygrib.png
@@ -28,7 +28,7 @@ Característiques principals
 * Visualització de dades meteorològiques d'arxius en format GRIB
 * Descàrrega automàtica de prediccions de temps i d'onatge
 * Descàrrega automàtica de dades IAC Fleet Code
-* Animació de prediccions a 5 dies
+* Animació de prediccions a 8 dies
 * Creació de mapes de temps locals, i visualització d'informacions detallades de prediccions quantitatives per a una determinada ubicació
 * Traçat de dades de vent, pressió, temperatura, humitat, pluja, neu, coberta de núvols, punt de rosada i de dades de gran alçada.
 
@@ -39,7 +39,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 3
 
-**Versió de programari:** 5.0
+**Versió de programari:** 6.1.2
 
 **Sistemes operatius:** GNU/Linux, Mac OSX, MS Windows
 

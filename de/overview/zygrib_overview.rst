@@ -28,7 +28,7 @@ Kernfunktionen
 * Visualisierung von meteorlogischen Daten aus Dokumenten im GRIB format
 * Automatischer Download von Vorhersagemodellen direkt aus NOAA
 * Automatischer Download von IAC (fleetcode) Daten
-* Abspielen von 5-tägigen Vorhersageanimationen
+* Abspielen von 8-tägigen Vorhersageanimationen
 * Enturf von personalisierten lokalen Wetterkarten (welweit) oder Darstellung von detaillierten quantitativen Vorhersagen für einen einzelnen Standort
 * Kartierung von Daten zu Wind, Temperatur, Feuchtigkeit, Regen, Schnee, Wolkenbedeckung, Taupunkt und Höhe.
 
@@ -40,7 +40,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 3
 
-**Software Version:** 5.0
+**Software Version:** 6.1.2
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 

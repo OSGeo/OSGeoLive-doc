@@ -1,6 +1,6 @@
 :Автор: Hamish Bowman
 :Проверил: Cameron Shorter, LISAsoft
-:Версия: osgeo-live5.5
+:Версия: osgeo-live6.5
 :Лицензия: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-zygrib.png
@@ -39,7 +39,7 @@ zyGrib — это программа для загрузки и визуали�
 
 **Лицензия:** `GPL версия 3 <http://www.gnu.org/licenses/gpl.html>`_
 
-**Версия ПО:** 3.9.2
+**Версия ПО:** 6.1.2
 
 **Поддерживаемые платформы:** GNU/Linux, Mac OS X, MS Windows
 

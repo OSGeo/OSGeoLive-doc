@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -60,8 +60,8 @@ the cursor listed in the pane on the left.
 You can change the time by moving the slider along the bottom, or from the
 drop down menu in the top-left of the window.
 
-From the ``Data`` menu you can select the variable to visualize. For example
-Select :menuselection:`Data --> Cloud Cover` and the view should change.
+From the ``Weather map`` menu you can select the variable to visualize. For example
+Select :menuselection:`Weather map --> Cloud cover` and the view should change.
 
 If you downloaded data for the Gulf of Mexico you'll be interested to view
 the CAPE data. "CAPE" stands for Convective Available Potential Energy at

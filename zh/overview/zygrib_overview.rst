@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
-:Version: OSGeo-Live 5.5
+:Version: OSGeo-Live 6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-zygrib.png
@@ -29,7 +29,7 @@ zyGrib
 * GRIB 格式气象数据可视化
 * 气象及海量预报数据自动下载
 * IAC 国际分析码数据自动下载
-* 5 日内预报动画显示
+* 8 日内预报动画显示
 * 创建地区天气预报图及浏览精细的数值预报产品
 * 绘制风力、气压、温度、适度、降雨、降雪、云覆盖、结露点、高空环境等数据
 
@@ -40,7 +40,7 @@ zyGrib
 
 **开源协议：** GNU General Public License (GPL) version 3
 
-**软件版本：** 3.9.2
+**软件版本：** 6.1.2
 
 **平台支持：** GNU/Linux, Mac OSX, MS Windows
 

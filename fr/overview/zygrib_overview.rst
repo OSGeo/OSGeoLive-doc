@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-zygrib.png
@@ -28,7 +28,7 @@ Caractéristiques principales
 * Visualisation de données météorologiques à partir de fichiers au format GRIB
 * Téléchargement automatique de prévisions météorologiques et d'ondes
 * Téléchargement automatique à partir de données IAC (code flottant)
-* Animations de prévisions de  5 jours
+* Animations de prévisions de  8 jours
 * Création de vos propres cartes météorologiques régionales (mondiale), ou vue d'une prévision quantitative détaillée depuis une localisation particulière.
 * Dessin du vent, de pression, de la température, de l'humidité, de la pluie, de la neige, de la couverture nuageuse, points de rosée, et données de haute altitude.
 
@@ -39,7 +39,7 @@ Détails
 
 **Licence:** Licence GNU General Public (GPL) version 3
 
-**Version du logiciel:** 3.9.2
+**Version du logiciel:** 6.1.2
 
 **Plates-formes supportées:** GNU/Linux, Mac OSX, MS Windows
 

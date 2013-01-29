@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Translator: Mauricio Pazos
-:Version: osgeo-live4.0
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. _zygrib-overview-es:
@@ -32,7 +32,7 @@ Características Principales
 * Visualización de datos meteorológicos desde archivos en formato GRIB 
 * Descarga automática de salidas de modelos de predicción directamente desde NOAA
 * Descarga automática de datos desde IAC (fleetcode)  
-* Ejecución de animaciones de predicciones de 5 días.
+* Ejecución de animaciones de predicciones de 8 días.
 * Crear mapas de predicciones en una región (worldwide), o ver una predicción cuantitativa para una localización particular.
 * Gráfica de viento, presión, temperatura, humedad, lluvia, nieve, cobertura de nubes, punto de rocío, y datos de alta altitud.
 
@@ -43,7 +43,7 @@ Detalles
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 5.0.2
+**Software Version:** 6.1.2
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
