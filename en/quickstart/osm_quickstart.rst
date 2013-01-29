@@ -94,7 +94,7 @@ Osmarender
 OSM data. It takes as its input an OpenStreetMap dataset and a rules file.
 It outputs an SVG image that is marked up in accordance with the styles
 defined in the rule file. In future it may be replaced with software
-like `TileMill <http://wiki.openstreetmap.org/wiki/Tilemill>`_.
+like :doc:`TileMill <../overview/tilemill_overview>`.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osmarender
 
