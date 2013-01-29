@@ -121,6 +121,21 @@ You can view the results in a SVG viewer like `Inkscape` or `Firefox`:
   firefox feature_city.svg
 
 
+Osmosis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Osmosis** is a highly capable utility program for performing many tasks at
+a raw level on OSM data. Including data import and export to databases, sorting,
+cleaning, and creating data dumps. See the `detailed usage page <http://wiki.openstreetmap.org/wiki/Osmosis#Usage>`_ for
+more information. A simple report of editing contributions can be performed as
+follows. At a command prompt type the following:
+
+::
+
+  osmosis --read-xml ~/data/osm/feature_city.osm.bz2 --report-entity
+
+Then look in the new `entity-report.txt` file for the report.
+
+
 osm2pgsql
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
