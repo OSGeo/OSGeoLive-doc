@@ -38,17 +38,20 @@ In order to start the application, follow the next steps:
 
 #. In the Welcome dialog, select the option :menuselection:`Create a new project --> With a new view` (**1**) and press the *Ok* button (**2**)
 
-   .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.png
+   .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.jpg
+     :scale: 70 %
 
 #. In the Spatial Reference System selection dialog, press the *...* button
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_srs.png
+     :scale: 70 %
 
 #. Select the option *EPSG* in the SRS type combobox (**1**), insert the text `4326` in the text field and press the *Search* button (**2**)
 
 #. Select the SRS EPSG:4326 - WSG4 (**3**) and press the *Ok* button (**4**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4326.png
+     :scale: 70 %
 
 #. Press the *Ok* button again to select the SRS loaded. The view will start with EPSG:4326 as the base projection
     
@@ -100,6 +103,7 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 #. Press the *Ok* button to load the selected shapefile (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_shape_file.png
+     :scale: 70 %
 
 #. In the layer tree, press the visibility checkbox to make the layer visible, right clicking on the *Working* folder if needed
 
@@ -112,12 +116,14 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 #. Press the *Ok* button to load the selected image file (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_raster_file.png
+    :scale: 70 %   
 
 #. In the layer tree, press the visibility checkbox to make the layer visible
 
 #. You can see that the layer drawing order is from bottom to top in the layer tree: modify the layer order by dragging them in order to show them properly
 
    .. image:: ../../images/screenshots/1024x768/kosmo_load_file_example.jpg
+    :scale: 70 %   
 
 .. note::
   The OSGeo-Live DVD contains some file data examples in the following directories:
@@ -159,6 +165,7 @@ We're going to load a database table as an example:
 #. Press the *Ok* button to load the selected database table (**4**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_database_connection.png
+     :scale: 70 %   
   
 #. In the layer tree, press the visibility checkbox to make the layer visible
 
@@ -176,20 +183,24 @@ OGC services
 #. In the *Select SDI service type* panel, select the option *WMS Service* (**1**) and press the *Next* button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_1.png
+     :scale: 70 %   
 
 #. In the *Select Uniform Resource Locator (URL)*, type the URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 (**1**) in the corresponding text field and press the *Connect* button (**2**)
 
 #. If the connection is successful, press the *Next* button to go to the next panel (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_2.png
+     :scale: 70 %   
 
 #. Select the layer `North America Sample Imagery` (**1**) and press the *>* button (**2**) to move it to the right list. Press *Next* button. (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_3.png
+     :scale: 70 %   
 
 #. Leave the default options loaded and press the *Finish* button (**1**) to start the layer loading
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_4.png
+     :scale: 70 %   
 
 #. In the layer tree, press the visibility checkbox to make the layer visible
 
@@ -198,6 +209,7 @@ OGC services
 #. Reorder the layer tree by dragging the new layer and put it over the *HYP_50M_SR_W* raster layer
 
    .. image:: ../../images/screenshots/1024x768/kosmo_load_wms_results.jpg
+     :scale: 70 %   
 
 
 .. note::
@@ -292,6 +304,7 @@ In this section we're going to style a layer by range using the country populati
 #. Press the *Ok* button to apply the changes (**5**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_basic_style_classification.png
+     :scale: 70 %   
 
 #. The layer will change its style to reflect the changes:
 
@@ -312,34 +325,42 @@ In this section we're going to style a layer with some rules and filters, based 
 #. Select the feature type style `ne_10m_populated_places` (**1**) and press the + button (**2**) to add a new rule to it 
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_feature_type.png
+     :scale: 70 %   
  
 #. Select `Point symbolizer` as symbolizer type (**1**) and press the `Ok` button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_symbolizer.png
+     :scale: 70 %   
 
 #. Select the new rule in the tree (**1**) and edit its properties: set **capital_rule** as `Name` (**2**), **Capitals** as `Title` (**3**),activate its filter (**4**) and edit it (**5**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_capital_rule.png
+     :scale: 70 %   
 
 #. Select **featurecla** as `Field` (**1**), **Equal to (=)** as `Operator` (**2**) and press the `...` button (**3**) to select an attribute value
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_filter.png
+     :scale: 70 %
 
 #. Select the **Admin-0 capital** value (**1**) and press the `Ok` button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_attr_value.png
+     :scale: 70 %   
 
 #. Press the `Add` button (**1**) to add the condition to the filter and the `Ok` button (**2**) to set the filter to the rule
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_filter_2.png
+     :scale: 70 %   
 
 #. Select the capital rule point symbolizer in the tree (**1**) and edit its properties: set its `Size` to **8** (**2**), its `Well Known Mark` type as **circle** (**3**) and `Color` to light green (**4**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_capital_rule_symbolizer.png
+     :scale: 70 %   
 
 #. Select the other rule in the tree (**1**) and edit its properties: set **others_rule** as `Name` (**2**), **Others** as `Title` (**3**), mark the `Else filter` checkbox (**4**) and set its maximum scale to **25,000,000** (**5**) (it's necessary to press ENTER key after setting the value manually to set it)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_others_rule.png
+     :scale: 70 %   
 
 #. Press the *Ok* button to apply the changes
 
@@ -363,10 +384,12 @@ In this section we're going to activate the Sextante toolbox extension:
 #. Mark the Sextante extension checkbox (**1**) and press the `Ok` button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_extension_manager.png
+     :scale: 70 %   
 
 #. A new Sextante button will be available at the right of the main toolbar
 
    .. image:: ../../images/screenshots/800x600/kosmo_sextante_extension.png
+     :scale: 70 %   
 
 .. tip:: 
   If the `Mark as default` option is selected, the extension would be loaded automatically on next application startup
