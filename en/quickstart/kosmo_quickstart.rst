@@ -95,19 +95,19 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 
 #. In the *Format* combobox, select *Shapefile* (**1**)
 
-#. In the file chooser, select the file :file:`ne_10m_admin_0_countries.shp` from the directory :file:`/usr/local/share/data/natural_earth2` (**2**)
+#. In the file chooser, select the file :file:`ne_10m_admin_0_countries.shp` from the directory :file:`/home/user/data/natural_earth2` (**2**)
 
 #. Press the *Ok* button to load the selected shapefile (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_shape_file.png
 
-#. In the layer tree, press the visibility checkbox to make the layer visible, right clicking on the *Working* folder if needed
+#. In the layer tree, press the visibility checkbox to make the layer visible
 
 #. Choose again the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
 
 #. In the *Format* combobox, select *Image file* (**1**)
 
-#. In the file chooser, select the file :file:`HYP_50M_SR_W.tif` from the directory :file:`/usr/local/share/data/natural_earth2/` (**2**)
+#. In the file chooser, select the file :file:`HYP_50M_SR_W.tif` from the directory :file:`/home/user/data/natural_earth2/` (**2**)
 
 #. Press the *Ok* button to load the selected image file (**3**)
 
@@ -122,8 +122,8 @@ To start out, we're going to load some of the sample data included on the OSGeo-
 .. note::
   The OSGeo-Live DVD contains some file data examples in the following directories:
   
-  * :file:`~/data` (a shortcut to :file:`/usr/local/share/data` or :file:`/home/user/data`)
-  * :file:`/usr/local/share/openjump/data`
+  * :file:`/home/user/data` (shapefiles and raster files)
+  * :file:`/usr/local/share/OpenJUMP/sample_data` (shapefiles)
       
   You can try to load more examples from those directories. Remember to select the correct format from the *Format* combobox       
 
@@ -274,8 +274,7 @@ Apart from those tools, it's also available the possibility to zoom in/out by us
   If any tool/menu option is disabled, you can place the cursor over the button/option to see a tooltip where the reason is shown 
 
 
-
-Styling
+Basic Styling
 ================================================================================
 
 In this section we're going to style a layer by range using the country population as styling attribute:
@@ -298,12 +297,86 @@ In this section we're going to style a layer by range using the country populati
 
    .. image:: ../../images/screenshots/1024x768/kosmo_styled_layer_by_range.jpg
      :scale: 70 %
+     
+     
+
+Advanced Styling
+================================================================================
+
+In this section we're going to style a layer with some rules and filters, based on an attribute. The example shows how to create two rules, one for capital populated places and other for the rest of them:
+
+#. Select the layer `ne_10m_populated_places` in the layer tree
+
+#. Right click on it and select the option *Simbology > Advanced Style Editor...*
+
+#. Select the feature type style `ne_10m_populated_places` (**1**) and press the + button (**2**) to add a new rule to it 
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_feature_type.png
+ 
+#. Select `Point symbolizer` as symbolizer type (**1**) and press the `Ok` button (**2**)
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_symbolizer.png
+
+#. Select the new rule in the tree (**1**) and edit its properties: set **capital_rule** as `Name` (**2**), **Capitals** as `Title` (**3**),activate its filter (**4**) and edit it (**5**)
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_capital_rule.png
+
+#. Select **featurecla** as `Field` (**1**), **Equal to (=)** as `Operator` (**2**) and press the `...` button (**3**) to select an attribute value
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_filter.png
+
+#. Select the **Admin-0 capital** value (**1**) and press the `Ok` button (**2**)
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_attr_value.png
+
+#. Press the `Add` button (**1**) to add the condition to the filter and the `Ok` button (**2**) to set the filter to the rule
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_filter_2.png
+
+#. Select the capital rule point symbolizer in the tree (**1**) and edit its properties: set its `Size` to **8** (**2**), its `Well Known Mark` type as **circle** (**3**) and `Color` to light green (**4**)
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_capital_rule_symbolizer.png
+
+#. Select the other rule in the tree (**1**) and edit its properties: set **others_rule** as `Name` (**2**), **Others** as `Title` (**3**), mark the `Else filter` checkbox (**4**) and set its maximum scale to **25,000,000** (**5**) (it's necessary to press ENTER key after setting the value manually to set it)
+
+   .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_others_rule.png
+
+#. Press the *Ok* button to apply the changes
+
+#. The layer will change its style to reflect the changes:
+
+   .. image:: ../../images/screenshots/1024x768/kosmo_styled_layer_by_filter.jpg
+     :scale: 70 %
+     
+     
+.. note::
+  When the map is at full layer scale only capitals are shown. If you zoom in close enough, all the populated places would be shown
+
+
+Extensions
+================================================================================
+
+In this section we're going to activate the Sextante toolbox extension:
+
+#. Choose the option *File > Extension Manager...* or push the button with the `Ext` text from the main toolbar
+
+#. Mark the Sextante extension checkbox (**1**) and press the `Ok` button (**2**)
+
+   .. image:: ../../images/screenshots/800x600/kosmo_extension_manager.png
+
+#. A new Sextante button will be available at the right of the main toolbar
+
+   .. image:: ../../images/screenshots/800x600/kosmo_sextante_extension.png
+
+.. tip:: 
+  If the `Mark as default` option is selected, the extension would be loaded automatically on next application startup
+
 
 
 Things to Try
 ================================================================================
 
-* Use the advanced style editor (`Symbology > Advanced style editor...`) to create more complex styles
+* Use the Advanced Style editor (`Symbology > Advanced style editor...`) to create more complex styles
 
 * Use the `Query wizard` to select those features that accomplish a given criteria
 
@@ -311,7 +384,10 @@ Things to Try
 
 * Generate a set of topology rules for a layer and try to edit it
 
-* Activate the set of extensions that form part of the application and see the new tools that are present
+* Activate the rest of extensions that form part of the application and see the new tools that are present
+
+* Configure the application options through the menu option *File > Configuration...*
+
 
 
 What Next?
