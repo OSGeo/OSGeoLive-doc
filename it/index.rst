@@ -1,7 +1,7 @@
 :Translator: Luca Delucchi
 
 
-Welcome to |osgeo-live-version|
+Benvenuti in |osgeo-live-version|
 ================================================================================
 
 .. only:: latex
@@ -46,7 +46,7 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
 
 .. only:: html
 
-   Quick Starts
+   Guide rapide
    --------------------------------------------------------------------------------
 
    .. toctree::
@@ -77,7 +77,7 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
 
 
 
-Presentation
+Presentazione
 --------------------------------------------------------------------------------
 Un presentazione di mezz'ora, evidenziando tutti i software di OSGeo-Live, è disponibile come un video, insieme alle slides e lo script.
 
