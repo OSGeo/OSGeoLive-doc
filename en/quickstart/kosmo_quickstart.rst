@@ -38,7 +38,7 @@ In order to start the application, follow the next steps:
 
 #. In the Welcome dialog, select the option :menuselection:`Create a new project --> With a new view` (**1**) and press the *Ok* button (**2**)
 
-   .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.jpg
+   .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.png
      :scale: 70 %
 
 #. In the Spatial Reference System selection dialog, press the *...* button
