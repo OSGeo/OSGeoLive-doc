@@ -148,20 +148,3 @@ PostgreSQL for map data, but does not work directly with OSM files.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osm2pgsql
 
-
-osm2poidb
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**osm2poidb** is a utility program that extracts Point of Interest (POI) data
-from a OpenStreetMap (.osm) data extract. The results are saved into a SQLite
-database file. A processed version of the OSM feature city extract provided with
-this disc can be found in the `/usr/local/share/data/osm` directory, and explored
-with the `SQLite database browser` program in the Databases menu. On this disc
-it is used by the :doc:`GpsDrive <../overview/gpsdrive_overview>` software to
-provide a searchable list of local amenities. To run it manually, do:
-
-::
-
-  bzcat /usr/local/share/data/osm/feature_city.osm.bz2 | osm2poidb -o feature_city_poi.db STDIN
-
-
