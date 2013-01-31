@@ -61,7 +61,7 @@ You can zoom in to the map in three ways:
 
         * by dragging a box on the map while holding down the :kbd:`shift key` - this will zoom in to the box selected (or as near as will fit in the screen).
 
-#. Experiment with this view and look at some of the other previews.  Once you are happy with looking at data you can move on to adding some new data.
+Experiment with this view and look at some of the other previews.  Once you are happy with looking at data you can move on to adding some new data.
 
 Loading Data
 ================================================================================
