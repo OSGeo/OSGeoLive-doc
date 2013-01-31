@@ -38,7 +38,7 @@ Start |GS|
 First Views
 ================================================================================
 
-When you first open the |GS| page you will see the screen above, first you need to log in using the username admin and password geoserver. You will now see the *admin page* 
+When you first open the |GS| page you will see the screen above, first you need to log in using the username **admin** and password **geoserver**. You will now see the *admin page* 
 
 .. image:: ../../images/screenshots/800x600/geoserver-welcome.png
     :scale: 70 %
