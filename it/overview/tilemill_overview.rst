@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-tilemill.svg
+.. image:: ../../images/project_logos/logo-tilemill.png
   :scale: 60 %
   :alt: TileMill
   :align: right

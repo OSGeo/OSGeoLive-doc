@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: tutorial from Ivan Sánchez Ortega and Pedro Ferrer Matoses from Spanish OSGeo Chapter
 
-.. image:: ./images/logo-tilemill.png
+.. image:: ../../images/project_logos/logo-tilemill.png
   :scale: 75 %
   :alt: project logo
   :align: right
