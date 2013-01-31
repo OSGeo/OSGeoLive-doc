@@ -1,5 +1,6 @@
 :Author: Gérald Fenoy
 :Reviewer: Angelos Tzotsos
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -11,6 +12,16 @@
 ********************************************************************************
 ZOO Project Quickstart 
 ********************************************************************************
+
+The ZOO-Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.
+A WPS provides web access to functions which run spatial algorithms.
+
+This Quick Start describes how to:
+
+  * Apply processes to a WFS from a web browser.
+
+.. contents:: Contents
+  
 
 Running
 ================================================================================
@@ -42,6 +53,8 @@ Running
   :alt: screenshot
   :align: center
 
+What Next?
+================================================================================
 
 *	You can build your own requests and send them to the ZOO Kernel from the following page:
 		http://localhost/zoo-demo/test_services.html
