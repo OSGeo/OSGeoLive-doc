@@ -1,4 +1,4 @@
-:Author: OSGeo-Live 
+:Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
@@ -40,10 +40,12 @@ Core Features
 * View, filter, subset, and download EO data
 * Register EO data archives
 * Web based and command line administration interface
-* Publish data via Open Geospatial Consortium (OGC) standards:
+* Publish data via :doc:`Open Geospatial Consortium (OGC) standards 
+  <../standards/standards>`:
 
-  * Web Coverage Service (WCS) 1.0, 1.1 and 2.0 & proposed EO-WCS
-  * Web Map Service (WMS) & EO-WMS
+  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 and 
+    2.0 & proposed EO-WCS
+  * :doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS
   * Proposed extensions to WCS including: GeoTIFF encoding, predefined 
     projections (CRSs), scaling, and interpolation.
   * Protocols supported are: KVP and XML/POST (used together with SOAP2POST
