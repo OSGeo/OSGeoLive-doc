@@ -1,6 +1,7 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
+:Reviewer: Angelos Tzotsos
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
 
