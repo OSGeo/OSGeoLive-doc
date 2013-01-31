@@ -244,10 +244,10 @@ resolve this. Read more about this in the RasterTutorial http://trac.osgeo.org/g
 
 
 
-Mosaicing
+Mosaicking
 ================================================================================
 
-gdal_merge.py is a python script that can be used for simple mosaicing
+gdal_merge.py is a python script that can be used for simple mosaicking
 tasks. Mosaic the east.tif and west.tif into a single file:
 
 ::
