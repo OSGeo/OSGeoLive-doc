@@ -1,6 +1,6 @@
 :Author: OSGeo-Live 
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: 
+:Reviewer: Angelos Tzotsos
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
@@ -39,6 +39,11 @@ EOxServer documentation <http://eoxserver.org/doc/>`_ for more information.
 
 Demonstration Instance
 ----------------------
+
+In case you use OSGeoLive with 1GB RAM or less it is recommended to stop default Tomcat service before launching EOxServer
+:: 
+
+  sudo service tomcat6 stop
 
 The icon labeled `EOxServer` filed under `Web Services` launches a browser 
 showing the demonstration instance available at http://localhost/eoxserver/ 
@@ -126,7 +131,7 @@ be found in the `operators' guide
   :scale: 50 %
   :alt: EOxServer demonstration admin client start
 
-It is for example possible to view and alter the `EO Metadata` of the 
+It is for example possible to view and alter the `EO Metadata Entries` of the 
 configured `Dataset Series`.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
