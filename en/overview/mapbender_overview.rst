@@ -52,7 +52,7 @@ Core Features
   * order
   * format
   * caption edit 
-  * extend service meta data (ISO profile) based on Capabilities document for catalog with CS-W interface
+  * extend service meta data (ISO profile) based on Capabilities document for catalog with CSW interface
 * Upload and configure WFS to search, find and highlight geo objects 
 * Bind transactional WFS with WMS to enable online digitizing (with cross service snapping functionality, geometry manipulation like splitting, combining, cloning)
 * Create users and groups, share and grant access to services and modules
