@@ -66,6 +66,7 @@ Implemented Standards
 
 * JOSM views WMS layers, but uses the `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM database.
 
+
 Details
 --------------------------------------------------------------------------------
 
@@ -81,8 +82,10 @@ Details
 
 **Support:** http://www.osgeo.org/search_profile
 
-Quickstart
---------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
+.. Quickstart
+.. --------------------------------------------------------------------------------
+.. 
+.. * :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
+
 
