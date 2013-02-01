@@ -57,7 +57,9 @@ Data Sets included in OSGeo-Live
 
 OSM data imported to PostGIS Database format: 
 
-Full feature_city.osm datasetsData imported with osm2pgsql to different projections: 
+- Full feature_city.osm datasets
+
+Data imported with osm2pgsql to different projections: 
 
 - osm_local: Imported to lat/lon (epsg:4326)
 
