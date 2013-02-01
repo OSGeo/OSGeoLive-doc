@@ -36,10 +36,15 @@ Core Features
   :align: right
 
 * Global massively crowd-sourced dataset
+
 * A number of editors to choose from
-* A number of renderers to choose from (including online)
+
+* A number of renderers to choose from (including custom and online)
+
 * Free to use
+
 * Widespread geo-application integration
+
 
 Details
 --------------------------------------------------------------------------------

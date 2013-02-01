@@ -29,28 +29,31 @@ The OSGeo-Live distribution includes a city sized extract of OSM data which is u
   :alt: OSM screenshot
   :align: right
 
+
 Core Features
 --------------------------------------------------------------------------------
 
 * Vector features are tagged with names and other attributes.
+
 * Extract local subsets of the data.
+
 * Data is stored as latitude-longitude WGS84 nodes, strings of nodes, and meta-features allowing for point, polyline, area coverage and relations.
+
 * Rich attribute tagging, often far more detailed than any other source.
+
 * A global repository of local knowledge.
+
 
 Data Sets included in OSGeo-Live
 --------------------------------------------------------------------------------
 
-- Nottingham.osm.bz2:
- A large extract of the greater city area as a BZip2 compressed XML text file.
+- Nottingham.osm.bz2: A large extract of the greater city area as a BZip2 compressed XML text file.
 
-- Nottingham_CBD.osm.bz2:
- A smaller subset covering just the central business district.
+- Nottingham_CBD.osm.bz2: A smaller subset covering just the central business district.
 
 - feature_city.osm.bz2 and feature_city_CBD.osm.bz2 are also city extracts. Quickstarts and overviews use these file/path names, despite posible changes of example city among different releases.
 
-- feature_city_poi.db:
- Sqlite DB of "positions of interest" nodes extracted from the above feature_city.osm.bz2. Contains pubs, fuel stations, restaurants, etc.
+- feature_city_poi.db: Sqlite DB of "positions of interest" nodes extracted from the above feature_city.osm.bz2. Contains pubs, fuel stations, restaurants, etc.
 
 OSM data imported to PostGIS Database format: 
 
@@ -60,6 +63,7 @@ Full feature_city.osm datasetsData imported with osm2pgsql to different projecti
 
 - osm_local_smerc: Imported to "Google spherical mercator" pseudo-projection for
 generating Mapnik webtiles
+
 
 Details
 --------------------------------------------------------------------------------

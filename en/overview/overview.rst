@@ -94,6 +94,7 @@ Applications targeted at a specific domain:
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe
 * :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Weather Forecast Maps
 
+
 Data
 --------------------------------------------------------------------------------
 Spatial data sets:
@@ -101,6 +102,7 @@ Spatial data sets:
 * :doc:`naturalearth_overview` - Global Data Sets 
 * :doc:`nc_dataset_overview`
 * :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap 
+
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
@@ -112,19 +114,23 @@ Geospatial Libraries
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations 
 * :doc:`liblas_overview` - LiDAR Data Access 
 
+
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
 Available on microsoft windows only:
 
 .. MapWindow is windows based (.net) and won't run on Ubuntu
+
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS
 
 Available from prior OSGeo-Live releases:
 
 .. MapGuide temporarily disabled to save on disc space;
+
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
+
 
 Windows and Apple Installers
 --------------------------------------------------------------------------------
