@@ -281,8 +281,8 @@ Get information about the vector data with ogrinfo
 :: 
 
   ogrinfo -ro /home/user/gdal_natural_earth
-INFO: Open of `/home/user/gdal_natural_earth'
-      using driver `ESRI Shapefile' successful.
+  INFO: Open of `/home/user/gdal_natural_earth'
+        using driver `ESRI Shapefile' successful.
     1: ne_10m_populated_places (3D Point)
     2: ne_10m_geography_regions_polys (3D Polygon)
     3: ne_10m_admin_1_states_provinces_shp (3D Polygon)

@@ -47,7 +47,7 @@ Start Cartaro
   #. A hash numbers instructions. There should be only one instruction per
      hash.
 
-#. Choose |osgeolive-Other-Start Cartaro| from menu
+#. Choose |osgeolive-appmenupath-Start Cartaro| from menu
 #. The application will take a few moments to start up
 #. Go to the Cartaro web page at http://localhost/cartaro (this should happen automatically)
 
