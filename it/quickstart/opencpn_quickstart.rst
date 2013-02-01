@@ -31,8 +31,8 @@ vi sarà presentata di scegliere l'opzione per fare questa operazione
 automaticamente
 
 .. Per fare ciò manualmente, aprire un Terminale dal menu principale delle 
-Applicazioni ed eseguire :command:`opencpn_noaa_agreement.sh` at the command prompt. 
-La password dell'utente è distribuite in un file sul desktop.
+   applicazioni ed eseguire :command:`opencpn_noaa_agreement.sh` dalla linea di comando. 
+   La password dell'utente è distribuita in un file sul desktop.
 
 É possibile scaricare addizionali carte nautiche US da NOAA sul sito
 http://www.charts.noaa.gov
@@ -60,7 +60,7 @@ to read up about the no-probe option.
 
 
 * '`xgps`' è un buon programma per controllare che Gpsd veda correttamente il 
-vostro GPS.
+  vostro GPS.
 
 
 Documentazione

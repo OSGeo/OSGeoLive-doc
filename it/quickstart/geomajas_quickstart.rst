@@ -29,13 +29,13 @@ usando la tecnologia Geomajas.
 * Entrate nella cartella "Browser Clients" sul desktop.
 
 * Cliccate sull'icona "Start Geomajas". Questo lancerà il browser FireFox che vi porterà
-automaticamente all'indirizzo corretto.
+  automaticamente all'indirizzo corretto.
 
 * Sul lato sinistro vedrete una lista di piccoli esempi di quali funzionalità Geomajas
-supporta out-of-the-box. Cliccando su questio sarà aperto l'esempio associato.
+  supporta out-of-the-box. Cliccando su questio sarà aperto l'esempio associato.
 
 * Per ogni esempio, troverete una breve descrizione/spiegazione sul lato destro.
-È raccomandato leggere questi poichè vi chiarificheranno ogni esempio.
+  È raccomandato leggerla poichè vi chiarificheranno ogni esempio.
 
 
 Creare una nuova applicazione Geomajas
