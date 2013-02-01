@@ -61,8 +61,7 @@ Full feature_city.osm datasetsData imported with osm2pgsql to different projecti
 
 - osm_local: Imported to lat/lon (epsg:4326)
 
-- osm_local_smerc: Imported to "Google spherical mercator" pseudo-projection for
-generating Mapnik webtiles
+- osm_local_smerc: Imported to "Google spherical mercator" pseudo-projection for generating Mapnik webtiles
 
 
 Details
