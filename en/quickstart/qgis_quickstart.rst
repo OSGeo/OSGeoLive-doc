@@ -1,13 +1,23 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+
+.. TBD: Cameron's review comments:
+  This document is in "DRAFT" state until these comments have been removed.
+  I've added a number of review comments, starting with TBD: ...
+  Overall: Each section needs to explain what it is about to do and the
+  benefits of it. (target audience is a new user).
+  We also need screen shots after each significant step.
+  Once these comments have been addressed, please remove my comment.
 
 .. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
+
 
 ********************************************************************************
 QGIS Quickstart 
@@ -18,18 +28,32 @@ you visualize, manage, edit, analyse data and compose printable maps.
 
 This Quick Start describes how to:
 
-  * update an existing QGIS project
-  * create a new QGIS project with a simple vector layer
+  * Update an existing QGIS project
+  * Create a new QGIS project with a simple vector layer
+  * Load QGIS plugins
 
+.. TBD: Cameron's review comments:
+  Describe the other sections include:
+  * Analyse data with GRASS and Sextante plugins
+  * Load data from Open Street Map
+
+.. contents:: Contents
+ 
 
 Edit QGIS project
 ================================================================================
 
-#. Click :menuselection:`Desktop --> Desktop GIS --> Quantum GIS`.
+Lets start by opening up an existing QGIS project, and turning layers on and
+off.
+
+#. Click :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
 
 #. Choose :menuselection:`File --> Open Project...` from the menu bar.
 
 #. Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
+
+.. TBD: Cameron's review comments:
+  Screen shot here (showing menu selection with NaturalEarth highlighted)
 
    * You should see a world map.
 
@@ -38,19 +62,42 @@ Edit QGIS project
    * Populated places are now displayed:
 
      .. image:: ../../images/screenshots/1024x768/qgis.png
-        :scale: 50 %
+        :scale: 70 %
+
+#. Try dragging layers up and down in the legend and see how that
+   effects visiblity of the layers below.
+
+#. Have a look at the tools on the tool bar. Try panning, zooming in,
+   and zooming back out to full extent again.  Find these tools next
+   to the :guilabel:`hand` icon.
+
+.. TBD: Cameron's review comments:
+  Screen shot here, touched up with a red circle around the "hand" icon.
+  http://wiki.osgeo.org/wiki/Live_GIS_Add_Project#Screen_Shot
+
+Style a layer
+================================================================================
+
+Now lets try customising the style of the map.
 
 #. Double click **ne_10m_rivers_lake_centerlines** in the Layers tree.
 
-#. Change the color in Outline Options to a different blue tone.
+#. Change the color in Outline Options to a different color, say yellow.
+
+.. TBD: Cameron's review comments:
+  Screen shot here
 
 #. Press :guilabel:`OK`.
 
-   * Rivers are now rendered in a new color.
+   * Notice that rivers are now rendered in your new color.
 
+.. TBD: Cameron's review comments:
+  Screen shot here
 
 Create a new QGIS project
 ================================================================================
+
+Lets now create a new QGIS project and load our own data.
 
 #. Choose :menuselection:`File --> New Project`.
 
@@ -62,48 +109,81 @@ Create a new QGIS project
 
    * You should see all world countries.
 
+.. TBD: Cameron's review comments:
+  Screen shot here
 
 Connect to a PostGIS spatial database
 ================================================================================
 
-#. Choose :menuselection:`File --> New Project`.
+.. TBD: Cameron's review comments:
+  For Info of author: I've switched from OSM dataset to Natural Earth,
+  as OSM extent changes between releases, which means screenshots from
+  this quickstart would become dated.
+
+Lets now include a layer from a Postgres database.
 
 #. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
 
-   * Both Natural Earth and OpenStreetMap databases will be available.
+   * On OSGeo-Live, both Natural Earth and OpenStreetMap Postgis databases
+     are already available. We will use the Natural Earth database.
+     If you wanted to add a new database, you would select the :guilabel:`New`
+     button and fill in the database parameters.
 
-#. With the OpenStreetMap connection selected, press :guilabel:`Connect`.
+.. TBD: Cameron's review comments:
+  Screen shot here
+
+#. Select the "Natural Earth" connection and press :guilabel:`Connect`.
 
    * A list of database tables will appear.
 
-#. Select ``planet_osm_roads`` and click :guilabel:`Add`.
+.. TBD: Cameron's review comments:
+  Screen shot here
 
-   * See the :doc:`PostGIS Quickstart <postgis_quickstart>` for a more detailed exercise.
+#. Select ``ne_10_populated_places`` and click :guilabel:`Add`.
+
+   * For more details about selecting a Postgis database, see the :doc:`PostGIS Quickstart <postgis_quickstart>`.
 
 Using the GRASS Toolbox
 ================================================================================
+
+There have been many plugins written for QGIS which extend QGIS's core
+functionality. We will now look at the GRASS plugin.
+
+.. TBD: Cameron's review comments:
+  Explain what functionality the GRASS function provides.
+
+.. TBD: Cameron's review comments:
+  In some of the steps below, we need to explain why we are about to do the step. "In order to XXX, press the YYY button, then ..." or "We will now XXX. Open the ..."
 
 #. Choose :menuselection:`File --> New Project`.
 
 #. Choose :menuselection:`Plugins --> Manage Plugins`.
 
-#. Type ``grass`` into the Filter box and select the `GRASS` plugin. Then click :guilabel:`Ok`.
+.. TBD: Cameron's review comments:
+  Screen shot here, show menu, which has been scrolled to show GRASS, ticked.
 
-   * A new `GRASS` menu with in the `Plugin` menu and a new toolbar will appear.
+#. Select the `GRASS` plugin. Then click :guilabel:`Ok`.
+
+   * Notice that a new `GRASS` menu icon has been added to the Toolbar.
+
+.. TBD: Cameron's review comments:
+  What does the follow step do?
 
 #. Choose :menuselection:`Plugins --> GRASS --> Open mapset`.
 
    * The GRASS GIS data base will be automatically set to `~/grassdata` on the disc.
 
+.. TBD: Cameron's review comments:
+  What does the follow step do?
+
 #. Choose the `nc_basic_smp` Location and `user1` working mapset, then click :guilabel:`Ok`.
 
 #. Choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
 
-   * From the PERMANENT mapset select the `elevation_shade` map and click :guilabel:`Ok`.
+   * Select the PERMANENT mapset, then select the `elevation_shade` map and click :guilabel:`Ok`.
 
-#. Choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
-
-   * From the PERMANENT mapset select the `elevation` map and click :guilabel:`Ok`.
+.. TBD: Cameron's review comments:
+  Screen shot here.
 
    * Double click on the `elevation` map in the QGIS layer list and set its transparency to 65%.
 
@@ -113,7 +193,16 @@ Using the GRASS Toolbox
 
 You also have access to many of the powerful GRASS analysis modules.
 
+.. TBD: Earlier review comments:
 .. maybe describe a raster processing task instead of a NVIZ one?
+
+.. TBD: Cameron review comments:
+  We need to describe what this algorithm is going to do for us. Eg:
+  "A commonly used GRASS algorithm is the XXX, which is used for YYY. Lets
+  try that now. ..."
+  I'm not going to comment further on this, as we might decide to change
+  the algorithm. Whatever algorithm is chosen, it will require more
+  screen shots.
 
 #. Choose :menuselection:`Plugins --> GRASS --> Open GRASS tools`.
 
@@ -133,6 +222,13 @@ You also have access to many of the powerful GRASS analysis modules.
 Using the Sextante Toolbox
 ================================================================================
 
+.. TBD: Cameron's review comments:
+  I'd suggest that we should either include GRASS or Sextante, as I assume
+  they introduce similar concepts of using plugins?
+  If we are to include Sextante, then we need to describe using one of the
+  Sextane features.
+  I suggest that it would be better to say: "Why don't you now explore other
+  QGIS plugins. For instance, why not try the XXX algorithm in the Sextante plugin."
 #. Choose :menuselection:`Plugins --> Manage Plugins`.
 
 #. Type ``sextante`` into the Filter box and select the `SEXTANTE` plugin. Then click :guilabel:`Ok`.
@@ -144,33 +240,10 @@ Using the Sextante Toolbox
    * A new toolbar will open on the right side of the screen with many processing tools to choose from.
 
 
-Using the OpenStreetMap plugin
-================================================================================
+.. TBD: Cameron's review comments:
+  I've removed the section describing how to add an OpenStreetMap plugin
+  as it is not describing anything specifically different to the other plugins.
 
-#. Open the Terminal Emulator from the Xubutu :menuselection:`Applications --> Accessories` menu.
-
-   * Make a working copy of the OSM data in the home directory:
-
-::
-
-  cp data/osm/feature_city_CBD.osm.bz2 .
-  bzip2 -d feature_city_CBD.osm.bz2
-
-#. In QGIS, choose :menuselection:`File --> New Project`.
-
-#. Choose :menuselection:`Plugins --> Manage Plugins`.
-
-#. Type ``open`` into the Filter box and select the `OpenStreetMap` plugin. Then click :guilabel:`Ok`.
-
-   * A new `Web` menu and toolbar will appear.
-
-#. Choose :menuselection:`Web --> OpenStreetMap --> Load OSM from file`.
-
-#. Select the `feature_city_CBD.osm` file you just copied into the home directory.
-
-#. Tick the `name`, `highway`, and `amenity` check boxes.
-
-#. Choose :guilabel:`Medium scale` rendering, then click :guilabel:`Ok`.
 
 
 What Next?
@@ -179,10 +252,10 @@ What Next?
 Tutorials for more advanced features of QGIS are collected
 as `OSGeo-Live QGIS tutorials`_.
 
-To learn more about QGIS, a starting point is the `Documentation page`_ on
+To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage.
 
-`A Gentle Introduction to GIS`_ and the `QGIS User Guide`_ are also included on OSGeo-Live `[1]`_ `[2]`_.
+`A Gentle Introduction to GIS`_ `[1]`_ and the `QGIS User Guide`_ `[2]`_ are also included on OSGeo-Live.
 
 .. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
