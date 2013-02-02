@@ -10,6 +10,8 @@
 Ushahidi Quick Start 
 ================================================================================
 
+.. As sugestion to improve the quickstart: anothre point to descrbie main administrative functionality may be incluided
+
 This guide describes how to:
 
 * Getting Ushahidi Up and Running 
@@ -81,5 +83,10 @@ Getting Ushahidi Up and Running
    :scale: 50%
    :alt: ushahidi admin login
    :align: center
+
+.. 
+	As sugestion to improve the quickstart: Back-end screenshots should be included, 
+	describing main functionality or administrative areas included. It is a great part of the application to
+	be described in the quickstart.
 
 The setup up README page is available locally in the `/var/www/ushahidi/readme.html <../../ushahidi/readme.html>`_ file.
