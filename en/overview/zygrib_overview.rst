@@ -31,7 +31,7 @@ Core Features
 * Automatic download from IAC (fleetcode) data
 * Play animations of 8-day forecasts
 * Create your own regional weather maps (worldwide), or view a detailed quantitative forecast for a particular location.
-* Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude data.
+* Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, wave height, and high altitude data.
 
 Details
 --------------------------------------------------------------------------------
