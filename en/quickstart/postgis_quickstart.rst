@@ -311,7 +311,7 @@ You will now get a list of the spatial tables in the database:
   :alt: Natural Earth Layers
   :align: center
 
-Choose the lakes and hit ``Add`` at the bottom (not ``Load`` at the
+Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load`` at the
 top - that loads database connection parameters), and it should be
 loaded into QGIS:
 
@@ -332,7 +332,7 @@ Most of the OSGeo desktop tools have functions for importing spatial data in fil
 into PostGIS databases. Again we'll use QGIS to show this.
 
 Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
-Plugins menu, select ``Fetch Plugins``. QGIS will then get the latest list of plugins from the 
+Plugins menu, select ``Fetch Python Plugins``. QGIS will then get the latest list of plugins from the 
 repository (you will need a working internet connection for this). Then find the ``PostGIS Manager`` and
 hit the ``Install plugin`` button.
 
@@ -341,13 +341,13 @@ hit the ``Install plugin`` button.
   :alt: Fetch PostGIS Manager Plugin
   :align: center
 
-Now on the Plugin menu you should have a PostGIS Manager entry which gives you an option
+Now on the Database menu you should have a PostGIS Manager entry which gives you an option
 to start the manager. You can also click the PostGIS logo button (the elephant with the globe) on the toolbar.
 
 It will then  connect to the Natural Earth database. Leave
 the password blank if it asks. You'll see the main manager window. On the left you can select 
 tables from the database and use the tabs on the right find out about them. The Preview tab
-will show you a little map. Here I've selected the populated places layer
+will show you a little map. Here I've selected the ne_10m_populated_places layer
 and zoomed in on a little island I know:
 
 .. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
@@ -360,7 +360,8 @@ the North Carolina sudden infant death syndrome (SIDS) data that is included wit
 of the R statistics package add-ons.
 
 From the ``Data`` menu choose the ``Load data from shapefile`` option. 
-Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package:
+Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
+(located in /usr/local/lib/R/site-library/):
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
@@ -393,18 +394,66 @@ Get to know pgAdmin III
 ================================================================================
 
 You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This
-is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables.
+is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
+from the Databases folder, existing on the OSGeo Live Desktop.
+
+.. image:: ../../images/screenshots/1024x768/postgis_pgadmin_main_window.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
+
+Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
+In this case, we are going to connect to the predefined ``local`` server.
+
+
+After connection established, you can see the list of the databases already existing in the system.
+
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
+
+The red "X" on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only
+to the default ``postgres`` database).
+At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
+on the name of a database. Do it for the natural_earth2 database.
+
+You can see now that the red X disappeared and a "+" appeared on the left. By pressing it a tree is going to appear,
+displaying the contents of the database.
+
+Navigate at the ``schemas`` subtree, expand it. Afterwards expand the 
+``public`` schema. By navigating and expanding the 
+``Tables``, you can see all the tables contained within this schema.
+
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
 
+  
+
+
+Executing a SQL Query from pgAdmin III
+================================================================================
+pgAdmin III, offers the capability of executing queries to a relational database.
+
+To perform a query on the database, you have to press the ``SQL`` button from the main toolbar (the one with the 
+yellow Magnifying lens).
+
+We are going to find the rate of the SIDS over the births for the 1974 for each city.
+Furthermore we are going to sort the result, based on the computed rate. To do that,we need to perform the following query (submit it
+on the text editor of the SQL Window):
+
+select name, 1000*sid74/bir74 as rate from sids order by rate.
+
+Afterwards, you should press the green arrow button, pointing to the right (execute query).
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
+  
 
 Things to try
 ================================================================================
