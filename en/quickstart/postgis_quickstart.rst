@@ -1,15 +1,28 @@
 :Author: Barry Rowlingson
 :Author: Astrid Emde
-:Author: Cameron Shorter
-:Version: osgeo-live5.0
+:Reviewer: Argyros Argyridis
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+
+.. TBD Cameron Review Comment:
+  For this quickstart, which targets new users who might not be familiar with
+  databases or SQL, I suggest we drop section describing command line
+  control of Postgres. If we do keep command line information, I suggest
+  it is moved to the end of the quickstart, possibly added into "Things you
+  could try".
+  Instead, I think the Quickstart should cover:
+    * Keep Client/Server overview
+    * Create a database in pgAdmin
+    * Load a dataset, probably from a shapefile
+    * Do some SQL queries on the dataset
+    * Use QGis to view data from PostGIS (using the existing Natural Earth data). We should be able to keep most of the existing QGis sections
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.org/
-
 
 ********************************************************************************
 PostGIS Quickstart
@@ -19,6 +32,14 @@ PostGIS adds spatial capabilities to the PostgreSQL relational database. It exte
 PostgreSQL so it can store, query, and manipulate spatial data. In this Quickstart we will
 use 'PostgreSQL' when describing general database functions, and 'PostGIS' when
 describing the additional spatial functionality provided by PostGIS.
+
+This Quick Start describes how to:
+
+  * Create and query a spatial database from the command line and :doc:`Quantum GIS <../overview/qgis_overview>` graphical client.
+  * Manage data from the ``pgAdmin`` client.
+
+
+.. contents:: Contents
 
 Client-server Architecture
 ================================================================================
@@ -33,9 +54,6 @@ There is nothing to stop the server being on the same computer as the client, an
 enables you to use PostgreSQL on a single machine. Your client connects to the server
 via the internal 'loopback' network connection, and is not visible to other computers
 unless you configure it to be so.
-
-Three clients will be illustrated here: the command-line client,
-:doc:`Quantum GIS <../overview/qgis_overview>`, and the ``pgAdmin`` graphical database client.
 
 Creating A Spatially-Enabled database
 ================================================================================
