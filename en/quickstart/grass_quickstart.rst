@@ -279,11 +279,9 @@ slider around to get different views.
 To drape satellite or aerial imagery over the top of the DEM, in the
 **Raster Surfaces** controls click on the **Surface Attributes**
 drop down menu and select "color". Select "New Map" to pick the overlay
-image. In the Spearfish dataset "`spot.image`" in PERMANENT is a
-good choice; in the North Carolina dataset "`lsat7_2002_50`"
-in PERMANENT is a good choice. Finally, click "*Accept*" and then once
-back at the main window click on the "*Draw*" button in the top-left, just 
-under the File menu.
+image; "`spot.image`" in the PERMANENT mapset is a good choice.
+Finally, click "*Accept*" and then once back at the main window click on
+the "*Draw*" button in the top-left, just under the File menu.
 
 Other things to try
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
