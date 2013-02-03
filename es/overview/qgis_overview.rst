@@ -1,8 +1,8 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Roberto Antolín
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _qgis-overview-es:
 
 .. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
@@ -23,11 +23,12 @@ Quantum GIS (QGIS)
 SIG de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) es un cliente SIG de escritorio amigable de código abierto donde 
-se puede visualizar, administrar, editar, analizar datos y componer mapas.
-Incluye una potente funcionalidad de análisis mediante la integración con GRASS.
-Funciona en Linux, Unix, Mac OSX y Windows, soporta numerosas funcionalidades y formatos vector,
-raster y bases de datos.
+Quantum GIS (QGIS) es un cliente SIG de escritorio amigable de código abierto
+donde se puede visualizar, administrar, editar, analizar datos y componer mapas.
+Incluye una potente funcionalidad de análisis mediante la integración con
+:doc:`GRASS <grass_overview>`. Funciona en Linux, Unix, Mac OSX y Windows,
+soporta numerosas funcionalidades y formatos vectoriales, raster y bases de
+datos.
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
@@ -48,35 +49,35 @@ Características principales
     * agregar una capa de grilla,
     * y más ...
 
-* Fácil visualización de numerosos formatos vector y raster
+* Fácil visualización de numerosos formatos vectoriales y raster
 
-    * Tablas de bases de datos PostgreSQL
-    * mayor parte de formatos vectoriales: incluyendo ESRI shapefiles, MapInfo, SDTS y GML.
-    * formatos raster como modelos digital de elevación, fotografías aéreas o imágenes landsat,
+    * tablas de bases de datos PostgreSQL/PostGIS
+    * mayor parte de los formatos vectoriales: incluyendo `shapefiles` de ESRI, MapInfo, SDTS y GML.
+    * formatos raster como modelos digitales de elevación, fotografías aéreas o imágenes landsat,
     * GRASS `locations` y `mapsets`,
-    * datos espaciales servidos en línea como OGC-compatibles WMS o WFS;
+    * datos espaciales servidos en línea como los compatibles con los servicios estándar OGC: WMS o WFS;
 
 * Crear, editar y exportar datos espaciales usando:
 
-    * herramientas de digitalización para formatos de GRASS y shapefile,
-    * el complemento de georeferenciación,
+    * herramientas de digitalización para formatos de GRASS y `shapefile`,
+    * el complemento para la georeferenciación,
     * herramientas GPS para importar y exportar formato GPX, convertir otro formato GPS a GPX, o descargar/cargar directamente a una unidad GPS
 
-* Ejecutar análisis espacial usando los complementos de fTools o GRASS
+* Realizar análisis espacial usando los complementos de fTools o GRASS
 
     * álgebra de mapas,
     * análisis del terreno,
-    * modelamiento hidrológico,
+    * modelado hidrológico,
     * análisis de redes,
     * y muchos otros
 
 * Publicar en Internet
-* Extensible arquitectura de complementos.
+* Arquitectura de complementos extensible.
 
 Implementación de estándares
 --------------------------------------------------------------------------------
 
-* Estándares OGC compatibles (WMS,WFS(Complemento))
+* Compatible con estándares OGC (WMS, WFS (Complemento))
 
 Detalles
 --------------------------------------------------------------------------------
@@ -85,11 +86,11 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión software:** 1.7.4
+**Versión del software:** 1.8.0
 
 **Plataformas soportadas:** Windows, Linux, Mac, Unix
 
-**Soporte a la comunidad:** http://qgis.org/en/community.html
+**Soporte de la comunidad:** http://qgis.org/en/community.html
 
 **Soporte comercial:** http://qgis.org/en/commercial-support.html
 
@@ -97,6 +98,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Documentación guía de inicio rápido <../quickstart/qgis_quickstart.html>`_
-
-
+* :doc:`Guía de inicio rápido <../quickstart/qgis_quickstart.html>`_

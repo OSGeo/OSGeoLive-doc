@@ -1,9 +1,8 @@
 :Author: Hamish Bowman
 :Translator: Mauricio Pazos
-:Version: osgeo-live4.0
+:Translator: Roberto Antolín
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _marble-overview-es:
 
 .. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
@@ -11,17 +10,22 @@
   :align: right
   :target: http://edu.kde.org/marble/
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100 %
+  :alt: OSGeo Project in Incubation
+  :align: right
+  :target: http://www.osgeo.org/incubator/process/principles.html
 
 Marble
 ================================================================================
 
-Globo de Escritorio 3D 
+Globo 3D de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Marbel es un proyecto de Educación de KDE similar a 
 `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ o a Google Earth.
-Además de permitir elegir cualquier número de mapas para ver en su 
-globo (incluyendo `OpenStreetMaps <http://www.osm.org>`_), los animamos a incluir 
+Además de poder elegir cualquier número de mapas para ver en su
+globo (incluyendo `OpenStreetMaps <http://www.osm.org>`_), le animamos a incluir 
 una ventana KDE Marble en su aplicación.
 
 
@@ -37,7 +41,7 @@ Principales Características
 * Navegación del globo en 3D
 * Un click del ratón revela artículos de Wikipedia para el sitio indicado.
 * Múltiples mapas (y planetas, lunas) para seleccionar.
-* Superposición de día y noche solar
+* Superposición de día y noche solares
 * Medición de distancias
 * Cambio entre vista desde el espacio y vistas de mapas proyectados 
 * Integración con `OpenStreetMap <http://www.osm.org>`_ 
@@ -46,22 +50,20 @@ Principales Características
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://edu.kde.org/marble/
+**Sitio Web:** http://edu.kde.org/marble/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2.1
+**Licencia:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 0.9.5
+**Versión del software:** 1.3.4
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Plataformas soportadas:** GNU/Linux, Mac OSX, MS Windows
 
-**API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
+**Interfaces API:** Qt designer, C++, Python, D-BUS, Shell script
 
-**Support:** http://techbase.kde.org/Projects/Marble
+**Soporte:** http://techbase.kde.org/Projects/Marble
 
 
 Inicio Rápido
 --------------------------------------------------------------------------------
 
-* `Documentación de Inicio Rápido <../quickstart/marble_quickstart.html>`_
-
-
+* :doc:`Guía de inicio rápido <../quickstart/marble_quickstart.html>`_

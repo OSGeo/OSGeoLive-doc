@@ -1,9 +1,8 @@
 :Author: Sergio Baños Calvo
 :Translator: Javier Sánchez
-:Version: osgeo-live5.0
+:Translator: Roberto Antolín
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _kosmo-overview-es:
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
   :scale: 100 %
@@ -18,7 +17,7 @@ SIG de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Kosmo - Cliente de Escritorio es una aplicación SIG de escritorio amigable que permite explorar, editar
-y analizar datos espaciales desde una variedad de bases de datos, formatos vectoriales y formatos ráster.
+y analizar datos espaciales desde gran variedad de bases de datos, formatos vectoriales y formatos raster.
 
 Kosmo - Cliente de Escritorio cumple los estándares OGC y proporciona una excelente integridad topológica.
 Su arquitectura de extensiones permite personalizarlo fácilmente para fines específicos.
@@ -33,9 +32,9 @@ Características principales
 
 Formatos soportados:
 
-* Formatos de archivo vectorial: Shapefiles, GML, DXF, DWG, DGN, CSV (por extensión)
+* Formatos de archivo vectorial: Shapefiles, GML, DXF, DWG, DGN, CSV (mediante el uso de extensión)
 * Bases de datos vectoriales: PostgreSQL + PostGIS, Oracle, MySQL
-* Formatos de archivos ráster: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
+* Formatos de archivos raster: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
 * Servicios OGC: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
 
 Características clave:
@@ -44,7 +43,7 @@ Características clave:
 * Disponible en 12 idiomas (inglés, español, italiano, alemán, croata, checo, ruso, eslovaco, catalán, euskera, portugués brasileño y finlandés)
 * Módulo de impresión avanzado basado en la suite de ofimática OpenOffice (mediante el uso de extensión)
 * Reglas de coherencia topologica: antes/durante/después de la edición
-* Validación de topología y herramientas de limpieza (intersección/eliminar/limpiar)
+* Validación de topología y herramientas de limpieza (intersecar/eliminar/limpiar)
 * Asistente para operaciones de geoprocesamiento: búfer/disolver/juntar/recortar/intersección espacial/diferencia (mediante el uso de extensión)
 * Herramienta de georeferenciación raster (mediante el uso de extensión)
 * Sextante 0.6 integrado (mediante el uso de extensión)
@@ -60,7 +59,7 @@ Estándares implementados
 Detalles
 --------------------------------------------------------------------------------
 
-**Web:** http://www.opengis.es
+**Sitio web:** http://www.opengis.es
 
 **Licencia:** GNU General Public License (GPL) version 2
 
@@ -76,4 +75,4 @@ Detalles
 Inicio rápido
 --------------------------------------------------------------------------------
     
-* `Documentación de inicio rápido <../quickstart/kosmo_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/kosmo_quickstart.html>`_

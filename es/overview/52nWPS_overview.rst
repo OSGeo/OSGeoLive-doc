@@ -1,6 +1,7 @@
 :Author: Bastian Schaeffer, Kristof Lange
 :Translator: Agustín Díez
-:Version: osgeo-live4.5
+:Translator: Javi Sánchez
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _52nWPS-overview-es:
@@ -18,10 +19,8 @@
 Servicio Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-El Servicio Web de Procesamiento (WPS) de 52°North <../standards/wps_overview.html>`_ habilita el acceso web a
-algoritmos de procesamiento geospacial provistos por Sextante, ArcGIS Serer, o desarrollos de funciones propias.
-Los algoritmos pueden ser tan simples como determinar la diferencia en casos de influenza entre dos estaciones diferentes, o
-tan complejos como un modelo de cambio climático global.
+El Servicio Web de Procesamiento (WPS) de 52°North <../standards/wps_overview>`_ habilita el acceso web a algoritmos de procesamiento geospacial provistos por Sextante, ArcGIS Server, R, GRASS 7, o desarrollos de funciones propias.
+Los algoritmos pueden ser tan simples como determinar la diferencia en casos de influenza entre dos estaciones diferentes, o tan complejos como un modelo de cambio climático global.
 
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
@@ -32,22 +31,25 @@ tan complejos como un modelo de cambio climático global.
 Caracerísticas básicas
 --------------------------------------------------------------------------------
 
-
 Funciones básicas SIG:
 
 * SimpleBufferAlgorithm
 * DouglasPeuckerAlgorithm
 * IntersectionAlgorithm
+* AddRasterValuesAlgorithm
+* CoordinateTransformAlgorithm
 
 Algoritmos de backend disponibles a través de:
 	
 * Sextante
 * ArcGIS Server
+* R
+* GRASS 7
 
 Formatos de entrada/salida soportados:
 
-* Vector: GML2, GML3, SHP files, KML, WKT (Well-known Text)
-* Raster: Geotiff, AsciiGrid
+* Vectoriales: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
+* Raster: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
 
 Cliente basado en navegador (browser)
 
@@ -67,7 +69,7 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión del Software:** WPS 2.0 RC6
+**Versión del Software:** WPS 3.1.0
 
 **Plataformas Soportadas:** Windows, Linux, Mac
 
