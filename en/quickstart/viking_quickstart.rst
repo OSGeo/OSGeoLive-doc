@@ -35,7 +35,7 @@ on it and click "Goto". You can pan by dragging the map canvas with the left
 or middle mouse buttons, and zoom in and out with the mouse wheel.
 
 3) Now add a map layer (:menuselection:`Layers --> New Map Layer`), to begin
-with *OpenStreetMap (Mapnik)* is a good place to start, as they have good
+with *OpenStreetMap (Mapnik)* is a good place to start as they have good
 coverage for much of the planet. Next choose a suitable cache directory
 where you would like to store your downloaded maps, the default is fine.
 Adjust the alpha slider if you would like to change the transparency level
