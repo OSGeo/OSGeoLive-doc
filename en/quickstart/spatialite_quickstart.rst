@@ -1,7 +1,21 @@
 :Author: OSGeo-Live
 :Author: Micha Silver
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+
+
+.. TBD: Cameron Review
+  My review comments can be removed once actioned.
+
+.. TBD: Cameron Review
+  We need to explain in words what we aim to achieve by each 
+  step. Eg: "Lets find all Villas which include have a geometry and ..."
+  This will require an extra sentence for most steps.
+
+.. TBD: Cameron Review
+  Somewhere we need to explain what the difference is between spatialite-gui
+  and spatialite-gis. Why would you use one over the other.
 
 .. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %
@@ -14,11 +28,16 @@ SpatiaLite Quickstart
 
 SpatiaLite is an SQLite database engine with spatial functions added. 
 
-This Quick Start describes how to open a database with the command line and the GUI application.
+SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
+This Quick Start describes how to open a spatialite database from both the command line and from a GUI application.
 
-Running spatialite
+.. contents:: Contents
+  
+Running spatialite from the command line
 ================================================================================
+
+* Before working from the command line, we need to open a console window: :menuselection:`Applications -> Accessories -> Terminal Emulator`.
 
 * Open a console and open a sample database with **spatialite**::
 
@@ -43,21 +62,35 @@ Running spatialite
         FROM LocalCouncils AS lc, MunicipalHalls AS mh 
         WHERE mh.COMU=lc.COM ORDER BY "Provence Name" LIMIT 10;
       
+.. TBD: Cameron Review
+  For the information of the author:
+  I've removed the section on creating a new database as this step is
+  only valuable if we go on to create tables and populate with data
+  (which was not in the quickstart)
+  This comment can be removed once read.
 
-Create a new database with **spatialite-gui**
+Using spatialite-gui
 ================================================================================
 
-* From the Databases folder on the Desktop, Start **spatialite_gui**
-* Select :menuselection:`File --> Creating a new SQLite DB`
-* Click Browse and go to the /home/user/data/spatialite/ directory. Enter a name such as "Test.sqlite" and click Save.
+Lets now have a look at a Spatialite database through a Graphical User Interface (GUI).
 
-Open an existing database with **spatialite-gui**
-================================================================================
+* Open the Spatialite GUI :menuselection:`Geospatial->Databases->Spatialite GUI`
 
-* Click the "Disconnecting current SQLite DB" button
-* Click the "Connect existing SQLite DB" button
+.. TBD: Cameron Review
+  Screenshot here
+
+* Select :menuselection:`File->Connecting an existing SQLite DB`
 * Browse to the /home/user/data/spatialite directory and choose trento.sqlite
+
+.. TBD: Cameron Review
+  Screenshot here
+  Explain the different windows you see
+
 * Right click on the MunicipalHallsView table and select "Show Columns"
+
+.. TBD: Cameron Review
+  Screenshot here
+
 * Right Click on the PopulatedPlaces table and select "Edit table rows"
 * In the upper SQL pane type::
 
@@ -68,8 +101,11 @@ Open an existing database with **spatialite-gui**
   and click the "Execute SQL" button at the right
 
 
-Running spatialite-gis
+Using spatialite-gis
 ================================================================================
+
+.. TBD: Cameron Review
+  Explain what spatialite-gis is used for, and include screen shots.
 
 * From the Desktop GIS folder on the Desktop run spatialite-gis
 * Click the "Connecting existing SQLite DB" button and connect to /home/user/data/spatialite/trento.sqlite
