@@ -1,5 +1,5 @@
 :Author: Sergio Baños Calvo
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
@@ -9,7 +9,7 @@
   :target: http://www.opengis.es/index.php?lang=en
 
 ********************************************************************************
-Kosmo Desktop Quick Start 
+Kosmo Desktop Quickstart
 ********************************************************************************
 
 Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
@@ -21,8 +21,9 @@ This Quick Start describes how to:
 * load layers from files, databases and OGC services
 * navigate through the map
 * apply your styling to the loaded layers
+* load an extension
 
-
+.. contents:: Contents
 
 Start Kosmo Desktop
 ================================================================================
@@ -36,24 +37,24 @@ In order to start the application, follow the next steps:
    .. image:: ../../images/screenshots/800x600/kosmo_splash_screen.png
      :scale: 70 %
 
-#. In the Welcome dialog, select the option :menuselection:`Create a new project --> With a new view` (**1**) and press the *Ok* button (**2**)
+#. In the Welcome dialog, select the option :menuselection:`Create a new project --> With a new view` (**1**) and press the :guilabel:`Ok` button (**2**)
 
    .. image:: ../../images/screenshots/1024x768/kosmo_welcome_dialog.png
      :scale: 70 %
 
-#. In the Spatial Reference System selection dialog, press the *...* button
+#. In the Spatial Reference System selection dialog, press the :guilabel:`...` button
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_srs.png
      :scale: 70 %
 
-#. Select the option *EPSG* in the SRS type combobox (**1**), insert the text `4326` in the text field and press the *Search* button (**2**)
+#. Select the option *EPSG* in the SRS type combobox (**1**), insert the text `4326` in the text field and press the :guilabel:`Search` button (**2**)
 
-#. Select the SRS EPSG:4326 - WSG4 (**3**) and press the *Ok* button (**4**)
+#. Select the SRS EPSG:4326 - WSG4 (**3**) and press the :guilabel:`Ok` button (**4**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4326.png
      :scale: 70 %
 
-#. Press the *Ok* button again to select the SRS loaded. The view will start with EPSG:4326 as the base projection
+#. Press the :guilabel:`Ok` button again to select the SRS loaded. The view will start with EPSG:4326 as the base projection
     
   
 .. tip::
@@ -94,26 +95,26 @@ Files
 
 To start out, we're going to load some of the sample data included on the OSGeo-Live DVD:
 
-#. Choose the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
+#. Choose the option :menuselection:`View > Load Dataset...` or push the button with the green plus from the main toolbar
 
 #. In the *Format* combobox, select *Shapefile* (**1**)
 
 #. In the file chooser, select the file :file:`ne_10m_admin_0_countries.shp` from the directory :file:`/home/user/data/natural_earth2` (**2**)
 
-#. Press the *Ok* button to load the selected shapefile (**3**)
+#. Press the :guilabel:`Ok` button to load the selected shapefile (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_shape_file.png
      :scale: 70 %
 
 #. In the layer tree, press the visibility checkbox to make the layer visible, right clicking on the *Working* folder if needed
 
-#. Choose again the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
+#. Choose again the option :menuselection:`View > Load Dataset...` or push the button with the green plus from the main toolbar
 
 #. In the *Format* combobox, select *Image file* (**1**)
 
 #. In the file chooser, select the file :file:`HYP_50M_SR_W.tif` from the directory :file:`/home/user/data/natural_earth2/` (**2**)
 
-#. Press the *Ok* button to load the selected image file (**3**)
+#. Press the :guilabel:`Ok` button to load the selected image file (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_select_raster_file.png
     :scale: 70 %   
@@ -142,7 +143,7 @@ Databases
 
 We're going to load a database table as an example:
 
-#. Choose the option *View > Load Dataset...* or push the button with the green plus from the main toolbar
+#. Choose the option :menuselection:`View > Load Dataset...` or push the button with the green plus from the main toolbar
 
 #. In the *Format* combobox, select *Database* (**1**)
 
@@ -158,11 +159,11 @@ We're going to load a database table as an example:
     
    * Password: user        
 
-#. Press the *Connect* button to load the tables present at the *natural_earth2* database (**2**)
+#. Press the :guilabel:`Connect` button to load the tables present at the *natural_earth2* database (**2**)
 
 #. Select the checkbox corresponding to the table *ne_10m_populated_places* (**3**)
 
-#. Press the *Ok* button to load the selected database table (**4**)
+#. Press the :guilabel:`Ok` button to load the selected database table (**4**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_database_connection.png
      :scale: 70 %   
@@ -178,33 +179,33 @@ OGC services
 
 #. Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeo-Live DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start GeoServer icon)
 
-#. Press the *Load SDI Service* (IDE) button at the main toolbar to open the wizard
+#. Press the :guilabel:`Load SDI Service (IDE)` button at the main toolbar to open the wizard
 
-#. In the *Select SDI service type* panel, select the option *WMS Service* (**1**) and press the *Next* button (**2**)
+#. In the *Select SDI service type* panel, select the option *WMS Service* (**1**) and press the :guilabel:`Next` button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_1.png
      :scale: 70 %   
 
-#. In the *Select Uniform Resource Locator (URL)*, type the URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 (**1**) in the corresponding text field and press the *Connect* button (**2**)
+#. In the *Select Uniform Resource Locator (URL)*, type the URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 in the corresponding text field (**1**) and press the :guilabel:`Connect` button (**2**)
 
-#. If the connection is successful, press the *Next* button to go to the next panel (**3**)
+#. If the connection is successful, press the :guilabel:`Next` button to go to the next panel (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_2.png
      :scale: 70 %   
 
-#. Select the layer `North America Sample Imagery` (**1**) and press the *>* button (**2**) to move it to the right list. Press *Next* button. (**3**)
+#. Select the layer `North America Sample Imagery` (**1**) and press the :guilabel:`>` button (**2**) to move it to the right list. Press :guilabel:`Next` button. (**3**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_3.png
      :scale: 70 %   
 
-#. Leave the default options loaded and press the *Finish* button (**1**) to start the layer loading
+#. Leave the default options loaded and press the :guilabel:`Finish` button (**1**) to start the layer loading
 
    .. image:: ../../images/screenshots/800x600/kosmo_wms_4.png
      :scale: 70 %   
 
 #. In the layer tree, press the visibility checkbox to make the layer visible
 
-#. Select the layer in the layer tree and press the *Zoom To Layer* button to center the map in the WMS layer view
+#. Select the layer in the layer tree and press the :guilabel:`Zoom To Layer` button to center the map in the WMS layer view
 
 #. Reorder the layer tree by dragging the new layer and put it over the *HYP_50M_SR_W* raster layer
 
@@ -215,6 +216,7 @@ OGC services
 .. note::
   Kosmo Desktop contains a list of WMS servers by default (most of them are from Spain). 
   If you're connected to internet, you can use them as described in the example with the local server.
+
 
 
 Map navigation tools
@@ -286,6 +288,7 @@ Apart from those tools, it's also available the possibility to zoom in/out by us
   If any tool/menu option is disabled, you can place the cursor over the button/option to see a tooltip where the reason is shown 
 
 
+
 Basic Styling
 ================================================================================
 
@@ -293,7 +296,7 @@ In this section we're going to style a layer by range using the country populati
 
 #. Select the layer `ne_10m_admin_0_countries` in the layer tree
 
-#. Right click on it and select the option *Simbology > Change Styles...*
+#. Right click on it and select the option :menuselection:`Simbology > Change Styles...`
 
 #. Click on the tab `Colour theming`
 
@@ -301,7 +304,7 @@ In this section we're going to style a layer by range using the country populati
 
 #. Select `POP_EST` as *Attribute* (**2**), 8 as *Range count* (**3**) and RYG (Color Brewer) as *Color schema* (**4**)
 
-#. Press the *Ok* button to apply the changes (**5**)
+#. Press the :guilabel:`Ok` button to apply the changes (**5**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_basic_style_classification.png
      :scale: 70 %   
@@ -320,14 +323,14 @@ In this section we're going to style a layer with some rules and filters, based 
 
 #. Select the layer `ne_10m_populated_places` in the layer tree
 
-#. Right click on it and select the option *Simbology > Advanced Style Editor...*
+#. Right click on it and select the option :menuselection:`Simbology > Advanced Style Editor...`
 
-#. Select the feature type style `ne_10m_populated_places` (**1**) and press the + button (**2**) to add a new rule to it 
+#. Select the feature type style `ne_10m_populated_places` (**1**) and press the :guilabel:`+` button (**2**) to add a new rule to it 
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_feature_type.png
      :scale: 70 %   
  
-#. Select `Point symbolizer` as symbolizer type (**1**) and press the `Ok` button (**2**)
+#. Select `Point symbolizer` as symbolizer type (**1**) and press the :guilabel:`Ok` button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_symbolizer.png
      :scale: 70 %   
@@ -337,17 +340,17 @@ In this section we're going to style a layer with some rules and filters, based 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_capital_rule.png
      :scale: 70 %   
 
-#. Select **featurecla** as `Field` (**1**), **Equal to (=)** as `Operator` (**2**) and press the `...` button (**3**) to select an attribute value
+#. Select **featurecla** as `Field` (**1**), **Equal to (=)** as `Operator` (**2**) and press the :guilabel:`...` button (**3**) to select an attribute value
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_filter.png
      :scale: 70 %
 
-#. Select the **Admin-0 capital** value (**1**) and press the `Ok` button (**2**)
+#. Select the **Admin-0 capital** value (**1**) and press the :guilabel:`Ok` button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_attr_value.png
      :scale: 70 %   
 
-#. Press the `Add` button (**1**) to add the condition to the filter and the `Ok` button (**2**) to set the filter to the rule
+#. Press the :guilabel:`Add` button (**1**) to add the condition to the filter and the `:guilabel:`Ok` button (**2**) to set the filter to the rule
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_filter_2.png
      :scale: 70 %   
@@ -357,12 +360,12 @@ In this section we're going to style a layer with some rules and filters, based 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_capital_rule_symbolizer.png
      :scale: 70 %   
 
-#. Select the other rule in the tree (**1**) and edit its properties: set **others_rule** as `Name` (**2**), **Others** as `Title` (**3**), mark the `Else filter` checkbox (**4**) and set its maximum scale to **25,000,000** (**5**) (it's necessary to press ENTER key after setting the value manually to set it)
+#. Select the other rule in the tree (**1**) and edit its properties: set **others_rule** as `Name` (**2**), **Others** as `Title` (**3**), mark the `Else filter` checkbox (**4**) and set its maximum scale to **25,000,000** (**5**) (it's necessary to press :guilabel:`ENTER` key after setting the value manually to set it)
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_others_rule.png
      :scale: 70 %   
 
-#. Press the *Ok* button to apply the changes
+#. Press the :guilabel:`Ok` button to apply the changes
 
 #. The layer will change its style to reflect the changes:
 
@@ -379,9 +382,9 @@ Extensions
 
 In this section we're going to activate the Sextante toolbox extension:
 
-#. Choose the option *File > Extension Manager...* or push the button with the `Ext` text from the main toolbar
+#. Choose the option :menuselection:`File > Extension Manager...` or push the button with the :guilabel:`Ext` label from the main toolbar
 
-#. Mark the Sextante extension checkbox (**1**) and press the `Ok` button (**2**)
+#. Mark the Sextante extension checkbox (**1**) and press the :guilabel:`Ok` button (**2**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_extension_manager.png
      :scale: 70 %   
@@ -399,17 +402,19 @@ In this section we're going to activate the Sextante toolbox extension:
 Things to Try
 ================================================================================
 
-* Use the Advanced Style editor (`Symbology > Advanced style editor...`) to create more complex styles
+Here are some additional challenges for you to try:
 
-* Use the `Query wizard` to select those features that accomplish a given criteria
+#. Use the Advanced Style editor to create more complex styles
 
-* Activate the layer editing mode and use the available tools to edit it
+#. Use the `Query wizard` to select those features that accomplish a given criteria
 
-* Generate a set of topology rules for a layer and try to edit it
+#. Activate the layer editing mode and use the available tools to edit any of the vectorial layers
 
-* Activate the rest of extensions that form part of the application and see the new tools that are present
+#. Generate a set of topology rules for a layer and try to edit it
 
-* Configure the application options through the menu option *File > Configuration...*
+#. Activate the rest of extensions that form part of the application and see the new tools that are present
+
+#. Configure the application options through the menu option :menuselection:`File > Configuration...`
 
 
 
