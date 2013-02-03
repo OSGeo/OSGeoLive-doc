@@ -7,7 +7,7 @@
   :scale: 75 %
   :alt: project logo
   :align: right
-  :target: http://edu.kde.org/marble/
+  :target: http://marble.kde.org/
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -49,7 +49,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://edu.kde.org/marble/
+**Website:** http://marble.kde.org
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
