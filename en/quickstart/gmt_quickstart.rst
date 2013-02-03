@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -16,7 +16,7 @@ GMT Quickstart
 Running
 ================================================================================
 
-Included on this LiveDVD are the GMT documentation (HTML and PDF),
+Included on this Live DVD are the GMT documentation (HTML and PDF),
 example scripts (including a low resolution worldwide coastline),
 tutorial (HTML and PDF), and data sets for the tutorial.
 
@@ -39,7 +39,7 @@ The low resolution coastline can be found in :file:`/usr/share/gmt/coast/`.
 Examples
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are 29 example jobs built in, and a script to run them all:
+There are 30 example jobs built in, and a script to run them all:
 
 Open a terminal, then
 
