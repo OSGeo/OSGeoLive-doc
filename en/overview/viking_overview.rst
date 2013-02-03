@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-viking.png
@@ -20,7 +20,8 @@ GPS data editor, analyzer and viewer. Viking aims to be easy to use,
 yet powerful in accomplishing a wide variety of GPS related tasks.
 It uses a hierarchical layering system to organize GPS data, maps,
 and other layer types with spatial data, such as coordinate lines.
-It works with :doc:`OpenStreetMap <osm_dataset_overview>` data and various online tile servers.
+It works with :doc:`OpenStreetMap <osm_dataset_overview>` data and
+various online tile servers.
 
 
 Core Features
@@ -31,21 +32,22 @@ Core Features
   :alt: screenshot
   :align: right
 
-* Uploading and downloading waypoints, tracks to/from GPS.
+* Upload and download waypoints, tracks to and from your GPS.
 
 * Realtime GPS tracking and track recording.
 
-* Preparing tracks and waypoints for trips using maps from services such as :doc:`OpenStreetMap <osm_dataset_overview>` and Bing Aerial. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
+* Prepare tracks and waypoints for trips using maps from services such as :doc:`OpenStreetMap <osm_dataset_overview>` and Bing Aerial. You only need to upload the data to your GPS before you leave. The maps together with your tracks and waypoints can also be printed and used during the trip.
 
 * After trips, tracks and waypoints from GPS can be downloaded, stored, managed and reused in later trips.
 
-* Analyzing OHV and hiking trips, understanding where you went and how close you came to an object.
+* Analyze OHV and hiking trips, understand where you went and how close you came to an object.
 
-* Making waypoints and tracks to follow to easily get someplace you've never been before or don't have GPS data for but Terraserver maps exist for it.
+* Create waypoints and track lines to follow to easily get someplace you've never been before or don't have GPS data for, but for which Terraserver maps exist.
 
-* Making maps with coordinate lines.
+* Create maps with coordinate lines.
 
-* Analyzing speed at different places, adding waypoints where you forgot to mark one but did slow down or stop.
+* Analyze speed at different places, add waypoints where you forgot to mark one but did slow down or stop.
+
 
 Details
 --------------------------------------------------------------------------------
