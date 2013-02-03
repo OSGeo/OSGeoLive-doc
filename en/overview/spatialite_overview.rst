@@ -18,9 +18,7 @@ Spatial Database
 
 SpatiaLite is an SQLite_ database engine with spatial functions added. 
 
-SQLite is a popular DBMS, simple, robust, easy to use and really lightweight. Each SQLite database is simply a file; you can freely copy it, compress it, send it on a LAN or WEB with no complication at all.
-
-The files are also portable; the same database file will work on Windows, Linux, MacOs etc.
+SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
 .. _SQLite: http://www.sqlite.org/
 
