@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -29,6 +29,40 @@ automatically selected, allowing for efficient processing and seamless mixing
 of datasets collected at different times, by different ships, in different
 data formats. Cartographic output and advanced 3D data cleaning software is also
 included.
+
+Open a terminal, then
+
+* View information about a datafile: (similar to `gdalinfo`)
+
+::
+
+  cd /usr/local/mbsystem/examples/
+  cd mbinfo
+  ./mbinfo.cmd
+
+
+* Process and prepare 3D plots from the sample data files:
+
+::
+
+  cd /usr/local/mbsystem/examples/
+  cd mbgrid
+  export PATH="$PATH:."
+  ./mbgrid.cmd
+
+.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+  :scale: 35 %
+  :alt: 2D shaded relief
+  :align: right
+
+* Process and prepare a 2D shaded relief image:
+
+::
+
+  cd /usr/local/mbsystem/examples/
+  cd mbm_plot
+  export PATH="$PATH:."
+  ./mbm_plot_5.cmd
 
 
 Documentation
