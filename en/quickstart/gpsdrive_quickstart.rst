@@ -91,7 +91,13 @@ Finding amenities
 With the *Find POI* tool you can search out for the nearest points of interest
 loaded into your SQLite waypoint database. To get you started OpenStreetMap
 data for the city of Nottingham has been loaded. e.g. *Find all pubs within 2 km
-of the conference hall*.
+of the conference hall*. If you don't see the *Find POI* button in the bottom
+of the left side toolbar try maximizing the window or pressing the "more"
+arrow button just above the compass. Set "max. Distance" to 2.0 km from the
+current position, and POI-Types to :menuselection:`Food --> Pub`. Then click
+the *Find* button in the top right of the dialog window. Look down the list
+of pubs, select one which looks interesting, and click on
+the *Select target* button.
 
 
 Downloading maps
@@ -100,7 +106,8 @@ Use the :menuselection:`Options --> Maps --> Download` tool to preview
 and download new map tiles. Currently the OpenStreetMap web-tiles and
 NASA OnEarth T-WMS server are available as sources. There are a few command
 line programs which come with GpsDrive which will let you bulk-download
-a set of tiles covering your local area.
+a set of tiles covering your local area. You will need to disable Mapnik
+mode in the *Map Control* window to view these static maps.
 
 
 Keeping tabs on your friends
