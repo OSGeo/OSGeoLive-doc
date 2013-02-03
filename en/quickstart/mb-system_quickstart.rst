@@ -40,6 +40,10 @@ Open a terminal, then
   cd mbinfo
   ./mbinfo.cmd
 
+.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+  :scale: 35 %
+  :alt: 2D shaded relief
+  :align: right
 
 * Process and prepare 3D plots from the sample data files:
 
@@ -49,11 +53,6 @@ Open a terminal, then
   cd mbgrid
   export PATH="$PATH:."
   ./mbgrid.cmd
-
-.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
-  :scale: 35 %
-  :alt: 2D shaded relief
-  :align: right
 
 * Process and prepare a 2D shaded relief image:
 
