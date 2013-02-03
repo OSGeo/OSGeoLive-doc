@@ -44,7 +44,7 @@ zoomed-in map canvas.
 
 Now select :menuselection:`File --> Download GRIB` and select the features
 you want to download. If in doubt the defaults are ok. When ready click
-the ``Download GRIB file`` button at the bottom, and save the file to disk.
+the ``Download`` button at the bottom, and save the file to disk.
 
 All going well you should now see a weather map with a time slider along
 the bottom, set for right now. You can use the mouse wheel to zoom in if
