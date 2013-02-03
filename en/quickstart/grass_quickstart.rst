@@ -269,7 +269,8 @@ and mesas show up in the ``Map Display``.
   :align: right
 
 Start the 3D visualization suite from the :menuselection:`File --> NVIZ`
-menu item. Select an `elevation` map as the raster elevation.
+menu item. Select the `elevation.10m` map as the raster elevation and
+click [*Run*].
 Once the 3D display interface loads, maximize the window.
 Next select :menuselection:`Visualize --> Raster Surfaces` from the top menu,
 and set the fine resolution to "1", then move the positioning puck and height
@@ -280,8 +281,8 @@ To drape satellite or aerial imagery over the top of the DEM, in the
 drop down menu and select "color". Select "New Map" to pick the overlay
 image. In the Spearfish dataset "`spot.image`" in PERMANENT is a
 good choice; in the North Carolina dataset "`lsat7_2002_50`"
-in PERMANENT is a good choice. Finally, click "Accept" and then once
-back at the main window click on the "Draw" button in the top-left, just 
+in PERMANENT is a good choice. Finally, click "*Accept*" and then once
+back at the main window click on the "*Draw*" button in the top-left, just 
 under the File menu.
 
 Other things to try
@@ -296,11 +297,11 @@ the `wxGUI <../../grass/wxGUI.html>`_ help pages.
 The new GUI is written in Python, and if you're a fan of Python programming
 there are a number of great tools available to you. In the bottom of the
 `Layer Manager` window click on the `Python shell` tab and
-type ``help(grass.core)`` to see a listing of the functions available in
-the core GIS python library. Besides the core GIS functions there is
+type ``help(grass.core)`` to see a listing of the many functions available
+in the core GIS python library. Besides the core GIS functions there is
 also `array` (NumPy), `db` (database), `raster`, and `vector` libraries
 available. For advanced use `Pythons CTypes` is supported allowing the
-Python programmer access to GRASS's extensive C libraries.
+Python programmer direct access to GRASS's extensive C libraries.
 
 Shutdown and the command line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -312,13 +313,13 @@ of module options. The GRASS command line is where the true power of
 the GIS comes into its own. GRASS is designed to allow all commands
 to be tied together in scripts for large bulk processing jobs. Popular
 scripting languages are Bourne Shell and Python, and many neat tricks
-to making scripting easier are included for both. With these tools
+to help make scripting easier are included for both. With these tools
 you can make a new GRASS module with only about 5 minutes of coding,
 complete with powerful parser, GUI, and help page template.
 
-"``g.manual -i``" will launch a web browser
-with the module help pages. When done close the browser and type "exit"
-at the GRASS terminal prompt to leave the GIS environment.
+"``g.manual -i``" will launch a web browser with the module help pages.
+When you are done close the browser and type "exit" at the GRASS terminal
+prompt to leave the GIS environment.
 
 Further reading
 ================================================================================
