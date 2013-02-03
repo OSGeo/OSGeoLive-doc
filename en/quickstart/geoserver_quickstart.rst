@@ -1,6 +1,7 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
 :Reviewer: Angelos Tzotsos
+:Reviewer: Cameron Shorter
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
@@ -26,12 +27,13 @@ This Quick Start describes how to:
   * test the layers in a simple web map
   * learn about clients that can display your maps
 
+.. contents:: Contents
+  
 Start |GS|
 ================================================================================
 
 #. Select the |osgeolive-appmenupath-geoserver| in the menu.
-#. The application will take a few moments to start up
-#. Go to the GeoServer web page at http://localhost:8082/geoserver/web 
+#. The application will take a few moments to start up and will open a web page at http://localhost:8082/geoserver/web 
 
 .. image:: ../../images/screenshots/800x600/geoserver-login.png
     :scale: 70 %
@@ -39,12 +41,12 @@ Start |GS|
 First Views
 ================================================================================
 
-When you first open the |GS| page you will see the screen above, first you need to log in using the username **admin** and password **geoserver**. You will now see the *admin page* 
+When you first open the |GS| page you will see the screen above, first you need to log in using the username **admin** and password **geoserver**. You will now see the *admin page*.
 
 .. image:: ../../images/screenshots/800x600/geoserver-welcome.png
     :scale: 70 %
 
-The **Layer Preview** link at the top of the *Data* section in the left hand menu allows you to see a preview of the layers that are loaded on the server. 
+Select the **Layer Preview** link at the top of the *Data* section in the left hand menu to see a preview of the layers that are loaded on the server. 
   
 .. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
     :scale: 70 %
@@ -62,7 +64,7 @@ You can zoom in to the map in three ways:
 
         * by dragging a box on the map while holding down the :kbd:`shift key` - this will zoom in to the box selected (or as near as will fit in the screen).
 
-Experiment with this view and look at some of the other previews.  Once you are happy with looking at data you can move on to adding some new data.
+#. Experiment with this view and look at some of the other previews.  Once you are comfortable viewing existing data you can move on to adding some new data.
 
 Loading Data
 ================================================================================
@@ -70,12 +72,11 @@ Loading Data
 .. note::
     You will not be able to carry out the following steps if you are
     running with a **read only** file system (such as the DVD). You
-    will either need to install GeoServer from the DVD to your
-    hard drive or  create a USB stick based system.
-
+    will either need to run in a Virtual Machine, or from a USB, or install
+    OSGeo-Live (or just GeoServer) onto your hard drive.
 
 In this example we are going to use the :doc:`Natural Earth data set <../overview/naturalearth_overview>`
-that is included on the Live-DVD (:file:`/usr/local/share/data/natural_earth2/`).
+that is included on OSGeo-Live (:file:`/usr/local/share/data/natural_earth2/`).
 
 We need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
@@ -122,8 +123,8 @@ native bounds` to fill in the Bounding Boxes. Finally hit :guilabel:`save`
 and you have published your first layer.
 
 .. note::
-    If you look at this layer in the layer preview it doesn't look
-    very good but that is just the default style. In the next section
+    Don't worry if the layer preview doesn't look
+    very good as it is using the default style. In the next section
     we will look at producing a nicer style.
 
 You can follow the same step with the other layers in the directory by using the :guilabel:`Add a new resource` button on the layers page. Just select the natural earth store from the drop down box to get back to the store's page.
@@ -260,7 +261,6 @@ Now go to the Layer Preview page to check that it looks good.
     can see the new image. 
 
 
-
 Clients for WMS layers
 ================================================================================
 
@@ -270,7 +270,5 @@ from |GS|. This is a list of just some of them
     * :doc:`uDig <../overview/udig_overview>`
 
     * :doc:`OpenLayers <../overview/openlayers_overview>`
-
-    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
 
     * :doc:`MapBender <../overview/mapbender_overview>`
