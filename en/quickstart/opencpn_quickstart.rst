@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -25,7 +25,8 @@ Setting up your charts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Before running OpenCPN on the LiveDVD you should activate the sample data.
 This is a condition of redistributing NOAA's free nautical charts.
-The first time you run OpenCPN from the `Geospatial` menu or Desktop icon
+The first time you run OpenCPN from
+the :menuselection:`Geospatial --> Navigation and Maps` menu or Desktop icon
 you will be presented with the option to do this automatically.
 
 .. To do this manually, open a Terminal from the main Applications menu and
@@ -78,9 +79,9 @@ charts using the GRIB plugin. The :doc:`zyGrib software <../overview/zygrib_over
 (also on this disc) is an easy way to download that. See
 the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` for details.
 Enable the plugin from the right most tab of the OpenCPN configuration menu;
-a new icon will appear at the right end of the main toolbar.
+a new windsock icon will appear at the right end of the main toolbar.
 
-If you saved the zyGRIB file into your home directory, navigate
+If you saved the zyGrib file into your home directory, navigate
 to :file:`/home` and select your ``user`` directory as the GRIB data directory.
 Then right click on the file listing's background to show hidden files, including
 the ``.zygrib`` directory that contains the GRIB download files.
