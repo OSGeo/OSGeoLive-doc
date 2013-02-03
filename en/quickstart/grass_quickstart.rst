@@ -206,7 +206,7 @@ Vector modules
 The above tasks have only covered a few raster modules. Don't let this
 give you the idea that GRASS is just for raster maps -- the vector engine
 and modules are every bit as full-featured as the raster ones. GRASS
-maintains a fully topological vector engine which allows it to do all sorts
+maintains a fully topological vector engine which allows all sorts
 of very powerful analyses.
 
 .. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
@@ -216,22 +216,22 @@ of very powerful analyses.
 
 Continuing with the watershed basins created above, next we'll convert
 them into vector polygons. In the Raster menu select :menuselection:`Map type conversions --> Raster to vector`.
-In the `r.to.vect` dialog that opens make sure that ``basins @user1`` is
+In the `r.to.vect` dialog that opens make sure that ``elev.basins @user1`` is
 selected for the input map, give a name for the output map like ``basins_areas``
 (vector map names must be SQL compliant), and change feature type to `area`.
-In the Attributes tab tick the box to use raster values as category numbers,
+In the `Attributes` tab tick the box to use raster values as category numbers,
 since these will match the values in our stream segment raster map created
-earlier. Then click on [Run]. Once the new vector map is displayed, you
-might right click on it in the Layer Manager list and change its opacity
+earlier. Then click on [*Run*]. Once the new vector map is displayed, you
+might right click on it in the `Layer Manager` list and change its opacity
 level. Also if you right click on the ``basins_areas`` vector map in the
 `Layer List` you can turn off rendering of area centroids by going into
 `Properties` and un-ticking it in the `Selection` tab.
 
 Next we'll add some attributes to those new areas, containing the average
 elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`
-to launch the ``v.rast.stats`` module. Use ``basin_areas`` as the vector
-polygon map, the `elevation` raster to calculate the statistics from,
-make the column prefix ``ele``, and click [Run] then close the dialog when
+to launch the *v.rast.stats* module. Use ``basin_areas`` as the vector
+polygon map, the ``elevation.10m`` raster to calculate the statistics from,
+make the column prefix ``ele``, and click [*Run*] then close the dialog when
 it is finished. You can query the values in the `Map Display` window using
 the fifth icon from the left and after verifying that the vector-areas map
 is selected in the `Layer List`, clicking on a vector area in the map canvas.
@@ -240,19 +240,19 @@ You can colorize the areas based on the average elevation values using the
 ``v.colors`` module. In the Vector menu select :menuselection:`Manage colors --> Color tables`.
 Select ``basin_areas`` for the input vector map, the ``ele_mean`` attribute
 column for the column containing the numeric range, and in the `Colors` tab
-have it copy the colors from the `elevation` raster map. After running that
-right-click on the ``basin_areas`` map in the Layer List and select `Properties`.
+have it copy the colors from the `elevation.10m` raster map. After running that
+right-click on the ``basin_areas`` map in the `Layer List` and select `Properties`.
 In the `Colors` tab tick the box for getting colors from the map table column.
-Once you click [Apply] you should see the colors change in the `Map Display`
+Once you click [*Apply*] you should see the colors change in the `Map Display`
 window.
 
 Now let's look at the attribute table and SQL builder in more detail. In the
 `Layer Manager` click the table icon, it's second from the left on the bottom
 row. This will open a view of the attached database table. For now we'll just
-do a simple database query to find watershed basins without a lot of variation
+do a *Simple* database query to find watershed basins without a lot of variation
 in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``ele_stddev``
 from the pull down list for the standard deviation statistic, then in the
-text box to its right enter ``< 50`` and click [Apply]. You'll notice the
+text box to its right enter ``< 50`` and click [*Apply*]. You'll notice the
 number of loaded records in the information bar along the bottom of the window
 has shrunk, and that all of the rows with large values for std. dev. are now
 gone from the displayed table. Right-click on the table data and choose
