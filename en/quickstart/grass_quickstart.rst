@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Version: osgeo-live6.5
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC By-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
@@ -17,27 +17,36 @@ GRASS GIS Quickstart
 Running
 ================================================================================
 
-To run GRASS on the Live DVD, click on the GRASS link on the desktop.
-From the "Welcome to GRASS" window select either the Spearfish or simplified North
-Carolina (nc_basic_spm) dataset for the location, and "user1" for the mapset,
-then click on [Start Grass]. The values given in this tutorial were written
-for the Spearfish dataset, some slight adjustments may be needed for the NC
-dataset.
+.. author's note: Location now focusing on Spearfish as there wasn't
+ enough disc space for the full NC dataset.
+
+To run GRASS on the Live DVD, click on the GRASS link in
+the :menuselection:`Geospatial --> Desktop GIS` menu.
+From the "Welcome to GRASS" window select the Spearfish dataset for the
+location, and "user1" for the mapset, then click on [*Start Grass*].
 
 .. image:: ../../images/screenshots/800x600/grass-startup.png
-  :scale: 40 %
+  :scale: 60 %
   :alt: screenshot
   :align: right
 
-This will launch GRASS with our `brand new GUI written in wxPython <../../grass/wxGUI.html>`_.
+This will launch GRASS into the `updated GUI written in wxPython <../../grass/wxGUI.html>`_.
 
 .. tip::  If you are on a netbook with a very small display (800x600 resolution)
- the startup screen might get a little scrunched and the [Start GRASS]
+ the startup screen might get a little scrunched and the [*Start GRASS*]
  button hidden behind the location and mapset lists. If this happens to
  you the solution is to drag the corner of the window to make it a little
  bigger. You might have to move the window up past the top of the screen
  a bit to get the room (hold down the Alt key and left-click drag the
  window to move it).
+
+A simplified version of the rich North Carolina (nc_basic_spm) sample dataset
+has also been provided on the Disc, if you choose to use it you will have 
+to make some slight adjustments as the map names given in this quick tutorial 
+were written for the Spearfish dataset. Regardless of the dataset you choose
+it is recommended that you always use a `user` mapset for your everyday work
+instead of the special PERMANENT mapset.
+
 
 Displaying maps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,15 +56,15 @@ Displaying maps
   :alt: screenshot
   :align: left
 
-Once inside add a raster map layer such as "`elevation.10m`" or "`elevation`"
-from the PERMANENT mapset, depending on which dataset `Location` you chose.
-To do this go into the GIS Layer Manager window and click on the checkerboard
-toolbar button with a "+" on it. Then select the map name you want from
-the "*map to be displayed*" pull-down list, and click [Ok].
+Once inside add a raster map layer such as "`elevation.10m`" from the
+PERMANENT mapset. To do this go into the `GIS Layer Manager` window
+and click on the checkerboard toolbar button with a "+" on it. Then
+select the map name you want from the "*map to be displayed*" pull-down
+list, and click [Ok].
 
-In a similar fashion add the "`roads`" (or "`roadsmajor`") vector layer
-from the PERMANENT mapset by clicking on the toolbar button with a "+" and
-a bent poly-line which looks a bit like a "V".
+In a similar fashion add the "`roads`" vector layer from the PERMANENT mapset
+by clicking on the toolbar button with a "+" and a bent poly-line which
+looks a bit like a "V".
 
 If you need to, right click on the raster map layer and choose "Zoom to
 selected map(s)".
@@ -70,26 +79,28 @@ Plot an elevation profile
   :alt: screenshot
   :align: right
 
-Back in the GIS Layer Manager window click on your `elevation` raster
-map name to select it. Then in the Map Display window, to the right of the
-zooming buttons on the Map Display toolbar is an icon with a line graph
+Back in the `GIS Layer Manager` window click on the `elevation.10m` raster
+map name to select it. Then in the `Map Display` window, to the right of the
+zooming buttons on the `Map Display` toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile surface map**.
-If it isn't automatically listed again pick an elevation map as the raster
-layer and press [Ok]. The second button in from the left allows you to
-set out the profile line, click it then mark out a few points on the Map
-Display canvas. When done go back to the Profile window and click on the
-eyeball button to create the plot. Click on the I/O button of the far
+The `@PERMANENT` mapset is automatically searched, so you can remove the qualifier.
+If the map isn't automatically listed, again pick the `elevation.10m` map
+as the raster layer and press [*Ok*]. The second button in from the left allows
+you to set out the profile line, click it then mark out a few points on
+the `Map Display` canvas. When done go back to the Profile window and click
+on the eyeball button to create the plot. Click on the I/O button of the far
 right to close the profile window.
 
 Create a random surface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now let's create a new map. First set the computational region to the default
+Now let's create a new map. First set the *computational region* to the default
 bounds with :menuselection:`Settings --> Region --> Set region`, ticking
-"Set from default region", and clicking [Run]. Next select :menuselection:`Raster --> Generate 
-surfaces --> Fractal surface` from the menu (it's near the bottom);
+"*Set from default region*", and clicking [*Run*].
+Next select :menuselection:`Raster --> Generate surfaces --> Fractal surface` from
+the menu (it's near the bottom);
 give your new map a name; and adjust any options you like in the "Optional"
-tab (the defaults are fine); and click [Run]. You can then [Close] the
+tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the
 *r.surf.fractal* module's dialog window.
 
 .. image:: ../../images/screenshots/800x600/grass-fractal.png
@@ -100,24 +111,20 @@ tab (the defaults are fine); and click [Run]. You can then [Close] the
 Adjust colors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now you'll see your new raster added to the layer list along with
+Now you'll see your new raster map added to the layer list along with
 the elevation raster map, except this time it will be in your "user1"
-working mapset. You might un-tick the elevation layer check-box
-now so that the two don't draw over the top of each other. Click on the
-eyeball to view your new map if it doesn't render automatically.
+working mapset. You might un-tick the `elevation.10m` layer's visibility
+check-box now so that the two don't draw over the top of each other. Click
+on the eyeball to view your new map if it doesn't render automatically.
 The colors might not be as you'd like so let's change them. With the
 fractal DEM selected in the layer list, in the
 `Raster` menu select :menuselection:`Manage colors --> Color tables`.
 In the "Colors" tab click on the pull-down list for the "Type of color
 table" option, and pick one from the list. "srtm" is a nice choice. Once
-done click the [Run] button and close the *r.colors* dialog window.
+done click the [*Run*] button and close the *r.colors* dialog window.
+The colors should then update automatically.
 
-The colors should then update automatically. If they don't, because you
-have altered the map's metadata this time to re-render it by force
-you will have to fully flush the display cache. So click on the little
-refresh button next to the eyeball button to re-render all layers and you
-should see your map with its new colors.
-  
+
 Create a shaded relief map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
