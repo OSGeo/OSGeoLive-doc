@@ -6,16 +6,10 @@
 
 
 .. TBD: Cameron Review
-  My review comments can be removed once actioned.
-
-.. TBD: Cameron Review
   We need to explain in words what we aim to achieve by each 
   step. Eg: "Lets find all Villas which include have a geometry and ..."
   This will require an extra sentence for most steps.
 
-.. TBD: Cameron Review
-  Somewhere we need to explain what the difference is between spatialite-gui
-  and spatialite-gis. Why would you use one over the other.
 
 .. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %
@@ -30,7 +24,7 @@ SpatiaLite is an SQLite database engine with spatial functions added.
 
 SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
-This Quick Start describes how to open a spatialite database from both the command line and from a GUI application.
+This Quick Start describes how to open a spatialite database from both the command line and from a GUI application. Some sample SQL queries are shown. Use of spatialite-gis, a light weight spatialite viewer, is also demonstrated.  
 
 .. contents:: Contents
   
@@ -82,11 +76,20 @@ Lets now have a look at a Spatialite database through a Graphical User Interface
 * Select :menuselection:`File->Connecting an existing SQLite DB`
 * Browse to the /home/user/data/spatialite directory and choose trento.sqlite
 
+  .. image:: ../../images/screenshots/800x600/spatialite-gui-trento.png
+    :scale: 70 %
+
+
 .. TBD: Cameron Review
   Screenshot here
   Explain the different windows you see
 
 * Right click on the MunicipalHallsView table and select "Show Columns"
+
+
+  .. image:: ../../images/screenshots/800x600/spatialite-gui-columns.png
+      :scale: 70 %
+
 
 .. TBD: Cameron Review
   Screenshot here
@@ -101,8 +104,14 @@ Lets now have a look at a Spatialite database through a Graphical User Interface
   and click the "Execute SQL" button at the right
 
 
+  .. image:: ../../images/screenshots/800x600/spatialite-gui-select.png
+      :scale: 70 %
+
+
 Using spatialite-gis
 ================================================================================
+
+Spatialite-gis is a simple viewer for spatialite based layers.
 
 .. TBD: Cameron Review
   Explain what spatialite-gis is used for, and include screen shots.
