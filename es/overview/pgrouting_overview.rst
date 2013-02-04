@@ -1,9 +1,9 @@
 :Author: Daniel Kastl
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Mauricio Miranda
-:Version: osgeo-live4.0
+:Translator: Roberto AntolÌn
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _pgrouting-overview-es:
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
@@ -17,13 +17,13 @@ pgRouting
 Herramientas SIG
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting extiende :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ para proveer funcionalidades de ruteo espacial.
+pgRouting extiende la base de datos :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ para proveer funcionalidades de ruteo espacial.
 
 Las ventajas del ruteo en base de datos son:
 
-* Los datos y atributos pueden ser modificados desde varios clientes, como :doc:`Quantum GIS <qgis_overview>` y :doc:`uDig <udig_overview>` a trav√©s de JDBC, ODBC, o directamente usando Pl/pgSQL. Los clientes pueden ser PCs o dispositivos m√≥viles.
-* Los cambios pueden ser reflejados instant√°neamente a trav√©s del motor de ruteo. No hay necesidad de hacer c√°lculos previos.
-* El par√°metro de "costo" puede ser calculado din√°micamente a trav√©s de SQL y su valor puede provenir de m√∫ltiples campos y tablas.
+* Los datos y atributos pueden ser modificados desde varios clientes, como :doc:`Quantum GIS <qgis_overview>` y :doc:`uDig <udig_overview>` a travÈs de JDBC, ODBC, o directamente usando Pl/pgSQL. Los clientes pueden ser PCs o dispositivos mÛviles.
+* Los cambios pueden ser reflejados instant·neamente a travÈs del motor de ruteo. No hay necesidad de hacer c·lculos previos.
+* El par·metro de "costo" puede ser calculado din·micamente a travÈs de SQL y su valor puede provenir de m˙ltiples campos y tablas.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
@@ -35,11 +35,11 @@ Funcionalidades principales
 
 pgRouting provee funciones para:
 
-* Camino m√≠nimo (Dijkstra): algoritmo de ruteo sin heur√≠stica
-* Camino m√≠nimo (A-Star): routeo para conjunto de datos grandes (con heur√≠stica)
-* Camino m√≠nimo (Shooting-Star): ruteo con restricciones de giro (con heur√≠stica)
+* Camino mÌnimo (Dijkstra): algoritmo de ruteo sin heurÌstica
+* Camino mÌnimo (A-Star): routeo para conjunto de datos grandes (con heurÌstica)
+* Camino mÌnimo (Shooting-Star): ruteo con restricciones de giro (con heurÌstica)
 * El problema del viajante (TSP: Traveling Salesperon Problem) 
-* C√°lculo de ruta (Isol√≠neas)
+* C·lculo de ruta (IsolÌneas)
 
 .. Implemented Standards
    ---------------------
@@ -53,17 +53,17 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versi√≥n del Software:** 1.05
+**VersiÛn del Software:** 1.05
 
 **Plataformas soportadas:** Linux, Windows, Mac
 
-**Soporte a lenguajes de programaci√≥n:** SQL
+**Soporte a lenguajes de programaciÛn:** SQL
 
 **Soporte:** http://www.pgrouting.org
 
-Gu√≠a de Inicio R√°pido
+GuÌa de Inicio R·pido
 --------------------------------------------------------------------------------
 
-* :doc:`Gu√≠a de Inicio R√°pido <../quickstart/pgrouting_quickstart>`
+* :doc:`GuÌa de inicio r·pido <../quickstart/pgrouting_quickstart>`
 
 

@@ -1,9 +1,10 @@
 :Author: OSGeo-Live
+:Author: Tom Kralidis, Angelos Tzotsos
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Samuel Mesa
-:Version: osgeo-live6.0
+:Translator: Roberto Antolín
+:Version: osgeo-live6.5
 :License: Creative Commons
-
-.. _pycsw-overview-es:
 
 .. image:: ../../images/project_logos/logo-pycsw.png
   :scale: 100 %
@@ -13,43 +14,71 @@
 
 
 pycsw
-=====
+===============================================================================
 
-CatÃ¡logo de Metadatos
-~~~~~~~~~~~~~~~~~~~~~
+Catálogo de metadatos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pycsw es una implementaciÃ³n de servidor OGC CSW escrito en Python.
+pycsw permite al usuario publicar catálogos de metadatos en la web, usando
+interfaces y formatos basado en estándares, el modo que pueden ser consultados y
+actualizados por clientes de catálogos. pycsw es fácil de configurar en un
+servidor web Apache y puede acceder a metadatos almacenados como archivos XML en
+una base de datos.
 
-pycsw implementa la clausula 10 (protocolo de conexiÃ³n HTTP (Servicios de catÃ¡logos para la Web, CSW)) de  la EspecificaciÃ³n de ImplementaciÃ³n OpenGIS de Servicio de CatÃ¡logo, versiÃ³n 2.0.2. Desarrollo iniciado en 2010 (formalmente anunciado en 2011).
+Metadatos son 'datos sobre los datos', recogiendo información como fecha de
+creación, autor, título, área de interés, etc., y está normalmente codificado
+como ficheros XML, siguiendo estándares internacionales como ISO 19115, ISO
+19139 y FGDC CSDGM.
 
-pycsw permite la publicaciÃ³n y descubrimiento de metadatos geoespaciales.  Los repositorios existentes de metadatos geoespaciales pueden estar expuestos en OGC:CSW 2.0.2.
+pycsw una implementación en `python`_ del :doc:`Estándar de servicio de
+catálogos web (CSW) de OGC <../standards/csw_overview>`. El proyecto está
+certificado como que `cumple con los estándares OGC`_, y es una `referencia de
+implementación OGC`_. El estándar CSW define interfaces comunes para encontrar,
+explorar y consultar metadatos sobre datos espaciales, servicios web y recursos
+relacionados.
 
-pycsw es software de cÃ³digo abierto, liberado bajo la licencia MIT, y soporta la mayor parte de las plataformas (Windows, Linux, Mac OS X).
+pycsw es software de código abierto, liberado bajo la licencia MIT, y es ejecutable
+en las mayores plataformas (Windows, Linux, Mac OS X).
 
+.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+  :scale: 50 %
+  :alt: project logo
+  :align: right
 
-CaracterÃ­sticas principales
----------------------------
+Características principales
+--------------------------------------------------------------------------------
 
+* cumple enteramente con OGC CSW 2.0.2
 * pasa completamente las herramientas de prueba OGC CITE CSW (103/103)
 * implementa los Servicios de Descubrimiento INSPIRE 3.0
-* implementa el Perfil de AplicaciÃ³n de Metadatos ISO 1.0.0
-* implementa el Perfil de AplicaciÃ³n FGDC CSDGM para CSW 2.0
+* implementa el Perfil de Aplicación de Metadatos ISO 1.0.0
+* implementa el Perfil de Aplicación FGDC CSDGM para CSW 2.0
+* implementa el protocolo de búsqueda via URL (SRU) Búsqueda/Recuperación 
+* implementa OpenSearch
 * soporta modelos de metadatos ISO, Dublin Core, DIF, FGDC
-* configuraciÃ³n simple
+* utilización de CGI o WSGI
+* configuración simple
 * capacidades transaccionales (CSW-T)
-* configuraciÃ³n flexible de repositorios
-* bÃºsqueda distribuida de catÃ¡logos institucionales
-* validaciÃ³n de esquemas XML en tiempo real
+* configuración flexible de repositorios
+* conectividad con GeoNode
+* concectividad con `Open Data Catalog`
+* búsqueda distribuida de catálogos institucionales
+* validación de esquemas XML en tiempo real
 * arquitectura de extensiones (`plugis`) para para perfiles extensibles
 * muy ligero (Python + CGI)
 
-EstÃ¡ndares implementados
+Estándares implementados
 ------------------------
 
-* OGC CSW 	2.0.2
-* OGC Filter 	1.1.0
-* OGC OWS Common 	1.0.0
-* OGC GML 	3.1.1
+Estándares OGC:
+
+* CSW 	2.0.2
+* Filter 	1.1.0
+* OWS Common 	1.0.0
+* GML 	3.1.1
+
+Estándares de metadatos:
+
 * Dublin Core 	1.1
 * SOAP 	1.2
 * ISO 19115 	2003
@@ -57,23 +86,32 @@ EstÃ¡ndares implementados
 * ISO 19119 	2005
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
-
+* SRU   1.1
+* A9 OpenSearch 1.1
 
 Detalles 
 --------
 
-**Sitio Web:** http://pycsw.org
+**Sitio web:** http://pycsw.org
 
 **Licencia:** `MIT`_
 
-**VersiÃ³n de Software:** 1.2.0
+**Versión del software:** 1.4.0
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
 **Interfaces API:** Python
 
-**Soporte:** http://pycsw.org/support.html
+**Soporte:** http://pycsw.org/docs/support.html
 
-
+.. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
+.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`OGC Reference Implementation`: http://demo.pycsw.org/
+
+
+Guía rápida
+------------------------------------------------------------------------------
+
+* :doc:`Guía de inicio rápido <../quickstart/pycsw_quickstart>`
 

@@ -1,25 +1,25 @@
 .. Consejo para redactar:
-  Los "consejos para redactar" describen el tipo de contenido que deber√≠a aparecer en la secci√≥n que aparece a continuaci√≥n.
+  Los "consejos para redactar" describen el tipo de contenido que deberÌa aparecer en la secciÛn que aparece a continuaciÛn.
   El documento postgis_overview.rst se usa como ejemplo de referencia para otros overviews.
-  En todos los otros overviews se deber√≠an eliminar los "consejos para redactar" para que esos documentos
-  sean m√°s f√°ciles de traducir.
+  En todos los otros overviews se deberÌan eliminar los "consejos para redactar" para que esos documentos
+  sean m·s f·ciles de traducir.
 
 .. Consejo para redactar:
    Metadatos sobre este documento
 
 :Author: OSGeo Live
-:Translator: Luc√≠a Sanjaime
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: LucÌa Sanjaime
+:Translator: Roberto AntolÌn
+:Version: osgeo-live6.5
 :Licence: Creative Commons
 
 
 .. Consejo para redactar:
-   El siguiente elemento es un ancla HTML para enlazar con esta p√°gina 
-
-.. _postigs-overview:
+   El siguiente elemento es un ancla HTML para enlazar con esta p·gina 
 
 .. Consejo para redactar:
-   Los logos del proyecto est√°n almacenados en:
+   Los logos del proyecto est·n almacenados en:
    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
    y se puede acceder a ellos en:
    ../../images/project_logos/<filename>
@@ -31,8 +31,8 @@
   :target: http://postgis.refractions.net/
 
 .. Consejo para redactar:
-   Incluya un logo de OSGeo si el proyecto es un proyecto de OSGeo o si est√° en incubaci√≥n.
-   Hay una lista de los proyectos de OSGeo en esta p√°gina: http://www.osgeo.org/
+   Incluya un logo de OSGeo si el proyecto es un proyecto de OSGeo o si est· en incubaciÛn.
+   Hay una lista de los proyectos de OSGeo en esta p·gina: http://www.osgeo.org/
    .. image:: images/logos/OSGeo_incubation.png
    .. image:: images/logos/OSGeo_project.png
 
@@ -42,50 +42,54 @@
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
-.. Consejo para redactar: Nombre de la aplicaci√≥n
+.. Consejo para redactar: Nombre de la aplicaciÛn
 
 PostGIS
 ================================================================================
 
 .. Consejo para redactar:
-   Descripci√≥n de la categor√≠a de la aplicaci√≥n:
+   DescripciÛn de la categorÌa de la aplicaciÛn:
 
 Base de datos Espacial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Consejo para redactar:
-   Se deben tratar cuestiones de los usuarios como "¬øQu√© hace la aplicaci√≥n?",
-   "¬øCu√°ndo deber√≠a usarla?", "¬øPor qu√© deber√≠a usar √©sta y no otra aplicaci√≥n?",
-   "¬øQu√© grado de madurez y de uso tiene la aplicaci√≥n?".
-   No se debe mencionar el tema de la licencia ni del software libre en esta secci√≥n.
-   El p√∫blico objetivo son los profesionales SIG o los estudiantes que se inician en el software libre.
-   * La primera oraci√≥n deber√≠a explicar la aplicaci√≥n.
-   * Como generalmente el lector no estar√° familiarizado con el √°mbito de uso de la aplicaci√≥n, 
-     las siguientes  l√≠neas (1 o 2) deber√≠an explicar su √°mbito de uso. Ej. en el caso de GeoKettle,
-     las siguientes l√≠neas deber√≠an explicar en qu√© consiste la Inteligencia de negocios geoespacial.
-   * Los p√°rrafos restantes (1 o 2) de esta secci√≥n del overview deber√≠an proporcionar
-     una descripci√≥n m√°s amplia y las ventajas desde la perspectiva del usuario.
+   Se deben tratar cuestiones de los usuarios como "øQuÈ hace la aplicaciÛn?",
+   "øCu·ndo deberÌa usarla?", "øPor quÈ deberÌa usar Èsta y no otra aplicaciÛn?",
+   "øQuÈ grado de madurez y de uso tiene la aplicaciÛn?".
+   No se debe mencionar el tema de la licencia ni del software libre en esta secciÛn.
+   El p˙blico objetivo son los profesionales SIG o los estudiantes que se inician en el software libre.
+   * La primera oraciÛn deberÌa explicar la aplicaciÛn.
+   * Como generalmente el lector no estar· familiarizado con el ·mbito de uso de la aplicaciÛn, 
+     las siguientes una o dos lÌneas deberÌan explicar su ·mbito de uso. Ej. en el caso de GeoKettle,
+     las siguientes lÌneas deberÌan explicar en quÈ consiste la inteligencia de negocios geoespacial.
+   * Los p·rrafos restantes (1 o 2) de esta secciÛn del overview deberÌan proporcionar
+     una descripciÛn m·s amplia y las ventajas desde la perspectiva del usuario.
 
-PostGIS da el soporte espacial a la popular base de datos objeto-relacional PostgreSQL. Con lo cual, puede usarse como base de datos subyacente para sistemas de informaci√≥n geogr√°fica (SIG) y aplicaciones de cartograf√≠a web de la misma forma que Oracle Spatial hace con la base de datos Oracle.
+PostGIS ofrece soporte espacial a la popular base de datos objeto-relacional PostgreSQL. Puede ser usada como base de datos subyacente para sistemas de informaciÛn geogr·fica (SIG) y aplicaciones de cartografÌa web de la misma forma que Oracle Spatial hace con la base de datos Oracle.
 
-PostGIS es estable, r√°pido, compatible con est√°ndares, tiene cientos de funciones espaciales y actualmente es la base de datos espacial de c√≥digo abierto m√°s ampliamente utilizada. Diversas organizaciones de todo el mundo usan PostGIS, incluyendo agencias gubernamentales de riesgos adversos y organizaciones que almacenan terabytes de datos y sirven millones de peticiones web al d√≠a.
+PostGIS es estable, r·pido, compatible con est·ndares, con cientos de funciones espaciales y actualmente es la base de datos espacial de cÛdigo abierto m·s ampliamente utilizada. Diversas organizaciones de todo el mundo usan PostGIS, incluyendo agencias gubernamentales de riesgos adversos y organizaciones que almacenan terabytes de datos y sirven millones de peticiones web al dÌa.
 
-La administraci√≥n de la base de datos est√° disponible a trav√©s de pgAdmin y phpPgAdmin, entre otros. Varias herramientas conversoras (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) permiten importar y exportar datos. Adem√°s, hay numerosos clientes SIG de escritorio y web para visualizar datos PostGIS.
+La administraciÛn de la base de datos es posible a travÈs de pgAdmin y
+phpPgAdmin, entre otros. Es posible importar y exportar datos mediante
+herramientas en lÌnea de comandos (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) o
+a travÈs de clientes SIG de escritorio o web. Adem·s, estos clientes pueden
+crear visualizar y manipular tablas espaciales PostGIS.
 
 .. Consejo para redactar:
-   Incluye una imagen de la aplicaci√≥n, generalmente una captura de pantalla 
+   Incluye una imagen de la aplicaciÛn, generalmente una captura de pantalla 
    o un collage de capturas de pantalla.
    Guarda la imagen en image/<application>_<name>.png . Ej.: udig_main_page.png
-   Las capturas de pantalla se deber√≠an realizar a partir de una visualizaci√≥n de 1024x768.
-   No debe aparecer el fondo de escritorio porque cambia con cada versi√≥n
-   y se podr√° datar.
+   Las capturas de pantalla se deberÌan realizar a partir de una visualizaciÛn de 1024x768.
+   No debe aparecer el fondo de escritorio porque cambia con cada versiÛn
+   y se podr· datar.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: project logo
   :align: right
 
-Caracter√≠sticas principales
+CaracterÌsticas principales
 --------------------------------------------------------------------------------
 
 * Cientos de funciones espaciales
@@ -93,42 +97,42 @@ Caracter√≠sticas principales
   * Buffers, uniones, overlays, distancia, etc.
 
 * Integridad transaccional ACID 
-* √çndice espacial R-Tree
+* Õndice espacial R-Tree
 * Soporte multiusuario
 * Bloqueo a nivel de fila
-* Replicaci√≥n
+* ReplicaciÛn
 * Particionado
 * Seguridad basada en roles
 * Table-spaces, esquemas
 
-Est√°ndares implementados
+Est·ndares implementados
 --------------------------------------------------------------------------------
 
-.. Consejo para redactar: Lista de los est√°ndares OGC o relacionados que son soportados.
+.. Consejo para redactar: Lista los est·ndares OGC o relacionados que estÈn soportados.
 
-* Compatible con los est√°ndares de OGC (SFSQL)
+* Compatible con los est·ndares OGC (SFSQL)
 
 Detalles
 --------------------------------------------------------------------------------
 
-**P√°gina Web:** http://postgis.refractions.net/
+**Sitio Web:** http://postgis.refractions.net/
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versi√≥n del software:** 2.0
+**VersiÛn del software:** 2.0
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
 **Interfaces del API:** SQL
 
 .. Consejo para redactar:
-   Enlace a la p√°gina Web que inculye un listado de los detalles de soporte b√°sico para la aplicaci√≥n.
-   Este listado deber√≠a incluir tanto contactos comerciales como de la comunidad.
+   Enlace a la p·gina Web que inculye un listado de los detalles de soporte b·sico para la aplicaciÛn.
+   Este listado deberÌa incluir tanto contactos comerciales como de la comunidad.
 
 **Soporte:** http://www.osgeo.org/search_profile
 
 
-Gu√≠a de inicio r√°pido
+GuÌa de inicio r·pido
 --------------------------------------------------------------------------------
     
-* `Documentaci√≥n de la Gu√≠a de Inicio R√°pido <../quickstart/postgis_quickstart.html>`_
+* :doc:`GuÌa de inicio r·pido <../quickstart/postgis_quickstart.html>`_
