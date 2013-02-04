@@ -1,9 +1,8 @@
 :Author: Pieter De Graef
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _geomajas-overview-es:
 
 .. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px
@@ -12,9 +11,9 @@
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100
-  :alt: OSGeo Incubation Project
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -51,7 +50,7 @@ Propiedades Fundamentales
 Estándardes implementados
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0, 1.1.1
+* OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0
 
 Detalles
@@ -61,7 +60,7 @@ Detalles
 
 **Licencia:** AGPL
 
-**Versión de Software:** 1.6
+**Versión de Software:** 1.8
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
@@ -73,5 +72,5 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Guía de inicio rápido <../quickstart/geomajas_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/geomajas_quickstart>`_
 

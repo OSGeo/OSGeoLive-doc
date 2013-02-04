@@ -1,7 +1,9 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Jorge Sanz
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geoserver-overview-es:
@@ -109,3 +111,8 @@ Detalles
 **Interfaces API:** WMS, WFS, WCS, REST
 
 **Soporte:** http://geoserver.org/display/GEOS/Commercial+Support
+
+Quickstart
+--------------------------------------------------------------------------------
+    
+* :doc:`Guía de inicio rápido <../quickstart/geoserver_quickstart>`

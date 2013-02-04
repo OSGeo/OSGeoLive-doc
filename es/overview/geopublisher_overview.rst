@@ -1,6 +1,8 @@
 :Author: Stefan Tzeggai
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Pedro-Juan Ferrer
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geopublisher-overview-es:

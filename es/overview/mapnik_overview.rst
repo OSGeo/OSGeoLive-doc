@@ -1,6 +1,8 @@
 :Author: Dane Springmeyer
+Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapnik-overview-es:
@@ -41,7 +43,7 @@ Detalles
 
 **Licencia:** LGPL (GNU Lesser General Public Licence)
 
-**Versión Software:** 0.7.0
+**Versión Software:** 2.0.0
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
@@ -49,9 +51,9 @@ Detalles
 
 
 
-Guía rápida
+Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Documentación de inicio rápido <../quickstart/mapnik_quickstart.html>`_
+* :doc:`Documentación de inicio rápido <../quickstart/mapnik_quickstart>`_
 
 

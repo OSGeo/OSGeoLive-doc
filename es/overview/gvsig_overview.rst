@@ -1,6 +1,7 @@
 :Author: Jorge Sanz
 :Translator: Jorge Sanz
-:Version: osgeo-live5.0
+:Translator: David Mateos
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gvsig-overview-es:
@@ -116,9 +117,14 @@ Detalles
 
 **Versión Software:** 1.12
 
-**Plataforemas Soportadas:** Windows, GNU/Linux
+**Plataformas Soportadas:** Windows, GNU/Linux
 
 **Soporte:** http://www.gvsig.org/web/organization/services
 
 
 .. _gvSIG: http://www.gvsig.org
+
+Quickstart
+--------------------------------------------------------------------------------
+    
+* :doc:Guía de inicio rápido <../quickstart/gvsig_quickstart>`

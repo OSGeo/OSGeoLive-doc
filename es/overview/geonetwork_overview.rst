@@ -1,6 +1,8 @@
 ﻿:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Òscar Fonts
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geonetwork-overview-es:

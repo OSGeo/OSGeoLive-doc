@@ -2,12 +2,10 @@
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Jorge Sanz
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _geomoose-overview-es:
-
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: ../../images/project_logos/logo-geomoose_w-title.png 
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -43,9 +41,8 @@ publicación, simbología, plantillas así como datos de origen.
 La interfaz de usuario es fácilmente configurable, y gracias a su arquitectura
 modular se pueden agregar servicios adicionales.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
-  :scale: 55 %
-  :alt: geomoose-screenshot-800x600.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+  :alt: GeoMoose Screenshot
   :align: right
 
 
@@ -61,6 +58,7 @@ Características principales
   reproyección, zoom, visualización de coordenadas, ...
 * Visualización: visor de mapas, ojo de pájaro, menú lateral, navegación,
   controles de usuario en pestañas.
+* Fichero de configuración MapBook basado en XML para la Interfaz de Usuario, Capas Fuente y Herramientas.
 * Integración con MapServer.
 * Diseño modular que facilita la integración con sistemas no geoespaciales 
   (como la gestión de activos).
@@ -71,7 +69,8 @@ Características principales
 Estándares implementados
 --------------------------------------------------------------------------------
 * WMS
-
+* WFS (client)
+* WFS-T (client)
 
 Detalles
 --------------------------------------------------------------------------------
@@ -80,7 +79,7 @@ Detalles
 
 **Licencia:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Versión del Software:** 2.4
+**Versión del Software:** 2.6.1
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

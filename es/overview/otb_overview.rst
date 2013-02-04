@@ -1,5 +1,6 @@
 :Author: OSGeo-Live 
 :Translator: Samuel Mesa
+:Translator: David Mateos
 :Version: osgeo-live4.0 
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -61,7 +62,7 @@ Detalles
 **Licencia:** CeCILL (CeCILL es compactible con GPL y mejorado en orientación de 
   la ley Francesa)
 
-**Versión de software:** 3.10
+**Versión de software:** 3.14.1 (liberada en octubre de 2012)
 
 **Plataformas soportadas:** Linux, Mac, Windows
 

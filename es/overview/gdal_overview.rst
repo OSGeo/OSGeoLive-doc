@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Mauricio Miranda
-:Version: osgeo-live4.5
+:Translator: David Mateos
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _gdal-overview-es:
 
 .. image:: ../../images/project_logos/logo-GDAL.png
   :scale: 60 %
@@ -72,7 +72,7 @@ Detalles
 
 **Licencia:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Versión del Software:** 1.7.0 (1.9.1)
+**Versión del Software:** 1.7.0 (1.9.2)
 
 **Platformas soportadas:** Windows, Linux, Mac
 
@@ -84,3 +84,5 @@ Guía de Inicio Rápido
 --------------------------------------------------------------------------------
     
 * `Guía de Inicio Rápido <../quickstart/gdal_quickstart.html>`_
+
+

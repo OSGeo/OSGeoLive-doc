@@ -1,6 +1,8 @@
 :Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Mauricio Pazos
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _udig_overview-es:
@@ -34,6 +36,7 @@ uDig es:
 Para los desarrolladores uDig provee una plataforma Java común para la construcción de aplicaciones espaciales con componentes open source. El sitio web provee una serie de claras tutorías que permiten construir desde una simple herramienta hasta una aplicación personalizada
 
 Características Principales
+
 --------------------------------------------------------------------------------
 
 * Cliente de Escritorio con integración de tipo arrastrar y soltar tanto para explorador de archivos como navegador web
@@ -79,9 +82,9 @@ Detalles
 **Developers:** http://udig.refractions.net/developers/
 
 
-Inicio Rápido
+Guía de inicio Rápido
 --------------------------------------------------------------------------------
 
-* `Documentacion de Inicio Rápido <../quickstart/udig_quickstart.html>`_
+* :doc:`Documentacion de Inicio Rápido <../quickstart/udig_quickstart>`
 
 

@@ -1,7 +1,8 @@
 :Author: Jody Garnett
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Samuel Mesa
-:Version: osgeo-live4.5
+:Translator: David Mateos
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geotools-overview-es:
@@ -116,7 +117,7 @@ Detalles
 
 **Licencia:** LGPL
 
-**Versión del Software:** 2.7.1
+**Versión del Software:** 8.0
 
 **Platformas soportadas:** Java Multiplataforma
 

@@ -1,6 +1,7 @@
 :Author: Thierry Badard 
 :Translator: Pedro-Juan Ferrer
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geokettle-overview-es:
@@ -35,7 +36,7 @@ Características Principales
 
 * Extracción de información de: 
 
-  * 35+ gestores de bases de datos: MySQL, PostgreSQL, Oracle, ...
+  * Más de 35 gestores de bases de datos: MySQL, PostgreSQL, Oracle, ...
   * Archivos XML
   * Archivos XLS
   * Archivos Xbase (dBase, Foxpro, etc)
@@ -44,33 +45,39 @@ Características Principales
   * Archivos MS Access
   * LDAP
   * Formatos de datos geoespaciales: Shapefile, ...
+  * Servicios OGC Web: Web Feature Service (WFS), Sensor Observation Service (SOS), Catalogue Web Service (CSW)
 
 * Transformación de datos:
 
-  * Transferencia de datos entre DBMS (sin generar código) 
-  * Búsqueda de coincidencias en bases de datos, archivos o memoria
-  * Calculos
-  * Scripting: Javascript, SQL, RegExp
-  * Separación
-  * Mapeados
-  * Selección
-  * Particionado
-  * Filtrado
-  * Fusión
-  * Unión
-  * Duplicado
-  * Agrupación (MPP)
-  * Pivote
-  * Analisis y procesado geoespacial
+  * Transferencia de datos entre DBMS (sin generar código). 
+  * Búsqueda de coincidencias en bases de datos, archivos o memoria.
+  * Calculos.
+  * Scripting: Javascript, SQL, RegExp.
+  * Separación.
+  * Mapeados.
+  * Selección.
+  * Particionado.
+  * Filtrado.
+  * Fusión.
+  * Unión.
+  * Duplicado.
+  * Agrupación (MPP).
+  * Pivote.
+  * Analisis y procesado geoespacial:  buffer, centroide, distancia, intersección, unión, ...
+  * Geoprocesamiento avanzado: *clipping*, triangulación de Delaunay, simplificación/suavizado de geometrías, recorte de *features*, ...
+  * Agregación espacial.
+  * Previsualización cartografica.
 
 * Carga de datos en el formato destino:
 
-  * Carga en bases de datos
-  * Carga en almacenes de datos
-  * Carga segmentada
-  * Carga automatizada
-  * Carga en paralelo
-  * Agrupación
+  * Carga en bases de datos: MySQL, PostgreSQL/PostGIS, Oracle, ...
+  * Carga en almacenes de datos.
+  * Formatos de datos Geospaciales: Shapefile, GML 3.1.1, KML 2.2, todos los formatos soportados por OGR.
+  * OGC Web services: Catalogue Web Service (CSW), ...
+  * Carga segmentada.
+  * Carga automatizada.
+  * Carga en paralelo.
+  * Agrupación.
 
 * Entorno:
   
@@ -83,7 +90,7 @@ Características Principales
 Estándares implementados
 --------------------------------------------------------------------------------
 
-* Cumple con los estándares SFS del OGC
+* Cumple con los estándares SFS del OGC (SFS, CSW, SOS)
 
 Detalles
 --------------------------------------------------------------------------------
@@ -92,7 +99,7 @@ Detalles
 
 **Licencia:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Versión de software :** 3.2.0-20090609
+**Versión de software :** 2.0
 
 **Platformas soportadas:** Windows, Linux, Mac, Solaris
 

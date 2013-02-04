@@ -1,8 +1,10 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Andrés Herrera
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Translator: David Mateos
+:Version: osgeo-live6.0
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _gmt-overview-es:
 
@@ -48,7 +50,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) versión 2
 
-**Versión de Software:** 4.5.1
+**Versión de Software:** 4.5.6
 
 **Plataformas soportadas:** GNU/Linux, Mac OSX, MS Windows
 

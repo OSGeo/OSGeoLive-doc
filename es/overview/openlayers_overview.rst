@@ -1,7 +1,10 @@
 :Author: Chris Schmidt
 :Author: OSGeo-Live
+:Author: Roald de Wit 
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _openlayers-overview-es:
@@ -39,13 +42,14 @@ Propiedades Fundamentales
 * Soporte de protocolos estandar y customizados para interactuar con los servidores
 * Herramientas para crear interfaces de usuario a medida
 * Soporta renderización de datos en el navegador (utilizando tecnologías tipo SVG, VML, o Canvas), permitiendo el desarrollo de mapas avanzados en navegador Web.
+* Soporte para dispositivos móviles (en especial dispositivos táctiles)
 * Carga de fuentes de mapas de diversas fuentes:
   
   * Capas comerciales: Google, Bing, Yahoo
   
   * Estándares OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Otros: ArcGIS Images, MapGuide, MapServer, TileCache
+  * Otros:  OpenStreetMap (OSM), ArcGIS, Images, MapGuide, MapServer, TileCache
 
 * Capacidad de parseo de datos vectoriales y metadatos en muchos formatos:
   
@@ -56,18 +60,18 @@ Detalles
 
 **Website:** http://openlayers.org
 
-**License:** MIT-style license
+**Licencia:** Licencia BSD de 2 claúsulas (también conocida como licencia *FreeBSD*) 
 
-**Software Version:** 2.11
+**Versión de Software :** 2.12
 
 **API Interface:** JavaScript
 
-**Support:** http://trac.openlayers.org 
+**Soporte:** https://github.com/openlayers/openlayers 
 
 
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Guia de inicio rápido <../quickstart/openlayers_quickstart.html>`_
+* :doc:`Guia de inicio rápido <../quickstart/openlayers_quickstart>`
 
 
