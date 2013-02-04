@@ -208,6 +208,8 @@ Configure OpenLayers
 * Choose :menuselection:`Structure --> OpenLayers` from the menu bar to visit the OpenLayers configuration page
 * Choose :menuselection:`Maps` and look for *frontmap* which is used as default map
 
+.. note:: An OpenLayers version warning appears only the first time you visit the OpenLayers configuration page and can be ignored.  
+
 .. image:: ../../images/screenshots/1024x768/cartaro_openlayers_entry.png
     :scale: 70 %
     :align: center
