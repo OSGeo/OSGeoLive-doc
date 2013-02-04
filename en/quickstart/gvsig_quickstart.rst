@@ -1,5 +1,6 @@
 :Author: Simon Cropper
-:Reviewer: Jorge sanz
+:Reviewer: Jorge Sanz
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -11,43 +12,37 @@
 gvSIG Quickstart 
 ********************************************************************************
 
-Project description
-================================================================================
-
-"gvSIG is a Geographic Information System (GIS), that is, a desktop application 
+gvSIG is a Geographic Information System (GIS), that is, a desktop application 
 designed for capturing, storing, handling, analyzing and deploying any kind of 
 referenced geographic information in order to solve complex management and 
 planning problems. gvSIG is known for having a user-friendly interface, being 
 able to access the most common formats, both vector and raster ones. It 
 features a wide range of tools for working with geographic-like information 
 (query tools, layout creation, geoprocessing, networks, etc.), which turns 
-gvSIG into the ideal tool for users working in the land realm." 
-`gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`__ 2011
+gvSIG into the ideal tool for users working in the land realm.
 
 This quickstart describes how to...
-=================================== 
 
-* Start gvSIG and create a view;
-* Define the projection of a view;
-* Add raster and vector data to a view;
-* Navigate around a view;
-* Change how layers are presented in a view;
-* Select the towns that occur within a particular region and export 
-  these to a new file;
-* To create a map with a graticule; and
-* Save the current project or exit gvSIG. 
+* Add projection, raster and vector data to a view;
+* Navigate around;
+* Change layers;
+* Select features;
+* Create a map with a graticule;
 
+.. contents:: Contents
 
 Start gvSIG and create a view
 ================================================================================
 
-Select gvSIG from the application menu. The application usually takes about
-a minute to startup.
+Select gvSIG from the application menu,
+:menuselection:`Geospatial->Desktop GIS->gvSIG`. The application usually takes
+about a minute to startup.
 
 #. By default gvSIG opens with an empty project file with the 'View' document 
-   type selected. On the other hand, the gvSIG installation on the OSGeo Live
-   starts with a default project. Click on the :guilabel:`New Project` button or go to
-   :menuselection:`File --> New Project`.
+   type selected. However, on OSGeo-Live, gvSIG has been configured to 
+   start with a default project. Click on the :guilabel:`New Project` button or go to
+   :menuselection:`File --> New Project`. When prompted, you can select 
+   :menuselection:`Discard Changes` as we won't be using the last project.
 
 #. Click on the :guilabel:`New` button to create a view.
 
@@ -197,7 +192,7 @@ Making a polygon transparent
    
 #. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the 
    left-mouse-button and click again with the right-mouse-button.
-#. Select the :menunavigation:`Properties` submenu.
+#. Select the :menuselection:`Properties` submenu.
 #. The **Layer properties** dialog box will appear.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_011.png
