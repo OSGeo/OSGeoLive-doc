@@ -65,5 +65,3 @@ Guía de Inicio Rápido
 --------------------------------------------------------------------------------
 
 * :doc:`Guía de inicio rápido <../quickstart/pgrouting_quickstart>`
-
-

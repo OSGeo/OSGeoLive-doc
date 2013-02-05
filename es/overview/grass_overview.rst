@@ -80,6 +80,6 @@ Detalles
 Guía rápida
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/grass_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/grass_quickstart>`
 
 

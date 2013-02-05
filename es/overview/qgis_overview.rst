@@ -98,4 +98,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/qgis_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/qgis_quickstart>`

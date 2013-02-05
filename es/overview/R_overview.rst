@@ -81,4 +81,4 @@ Detalles
 Guía rápida
 --------------------------------------------------------------------------------
     
-* :doc:`Guía de inicio rápido <../quickstart/R_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/R_quickstart>`

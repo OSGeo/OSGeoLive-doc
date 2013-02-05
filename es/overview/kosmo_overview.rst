@@ -75,4 +75,4 @@ Detalles
 Inicio rápido
 --------------------------------------------------------------------------------
     
-* :doc:`Guía de inicio rápido <../quickstart/kosmo_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/kosmo_quickstart>`

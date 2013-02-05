@@ -66,4 +66,4 @@ Detalles
 Inicio Rápido
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/marble_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/marble_quickstart>`

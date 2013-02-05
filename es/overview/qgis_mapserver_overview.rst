@@ -69,4 +69,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/qgis_mapserver_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/qgis_mapserver_quickstart>`

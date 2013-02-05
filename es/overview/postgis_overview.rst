@@ -135,4 +135,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
     
-* :doc:`Guía de inicio rápido <../quickstart/postgis_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/postgis_quickstart>`
