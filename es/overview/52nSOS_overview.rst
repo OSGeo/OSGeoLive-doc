@@ -1,9 +1,9 @@
-﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)i, Daniel Nüst (d.nuest@52north.org) 
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Agustín Díez
-:Version: osgeo-live4.0
+:Translator: Roberto Antolín
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _52nSOS-overview-es:
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
@@ -18,8 +18,8 @@
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-El `Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>`_ 
-52ºNorth puede leer y guardar datos actuales o archivados de sensores remotos in-situ. Un sensor puede ser una cámara de un satélite o el medidor de caudal de un río.
+El :doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>` 
+de 52ºNorth puede leer y guardar datos actuales o archivados de sensores remotos in-situ. Un sensor puede ser una cámara de un satélite o el medidor de caudal de un río.
  
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
@@ -29,13 +29,18 @@ El `Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>`
 Características
 --------------------------------------------------------------------------------
 
-La versión actual de 52ºNorth SOS (version 3.1.1) se rige por el núcleo, transacciones y partes del èrfil mejorjardo de la especificación SOS. La versión actual lleva el esquema más recieciente (versión 1.0.0) y las siguientes operaciones:
+* Implementa los estándares 1.0.0 y 2.0.0 de SOS 
+
+* Un navegador proporciona consultas XML de prueba para todas las operaciones disponibles.
+
+OGC SOS 1.0.0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Operaciones del núcleo SOS**:
 
 * GetCapabilities, para hacer una petición que describa el servicio.
-* GetObservation, para solicitar datos puros del sensor codificados en Observaciones y Medidas (O&M)
-* DescribeSensor, para solicitar metadatos sobre el sensor, codificados en un documento escrito en Lenguaje Modelo Sensor (SensorML) instance document.
+* GetObservation, para solicitar datos puros del sensor codificados en Observaciones y Medidas (O&M).
+* DescribeSensor, para solicitar metadatos sobre el sensor, codificados en un documento escrito en Lenguaje Modelo Sensor (SensorML).
 
 **Operaciones transaccionales SOS**:
 
@@ -49,36 +54,47 @@ La versión actual de 52ºNorth SOS (version 3.1.1) se rige por el núcleo, tran
 * GetFeatureOfInterest, para solicitar el elemento final de la observación en formato GML.
 * GetFeatureOfInterestTime, para determinar la disponibilidad temporal del sensor
 
-**Cliente**:
+OGC SOS 1.0.0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Un navegador proporciona consultas XML de todas las operaciones disponibles.
+* GetCapabilities, para hacer una petición que describa el servicio.
+* GetObservation, para solicitar datos puros del sensor codificados en Observaciones y Medidas (O&M).
+* DescribeSensor, para solicitar metadatos sobre el sensor, codificados en un documento escrito en Lenguaje Modelo Sensor (SensorML).
+* GetFeatureOfInterest, para solicitar el elemento final de la observación en formato GML.
 
-Estándares
+Es posible filtrar las peticiones mediante los siguientes operadores:
+
+* Spatial filter: BBOX, usando un rectángulo de coordenadas.
+* Temporal filter: During, con un periodo temporal.
+* Temporal filter: TEquals, con un tiempo determinado.
+
+Estándares relacionados
 --------------------------------------------------------------------------------
 
-* `Servicio Observación Sensor (SOS) OGC <http://www.ogcnetwork.net/SOS>`_
+*:doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>`
+*:doc:`Lenguaje de Marcado Geográfico (GML) <../standards/gml_overview>`
+*:doc:`Lenguaje Modelo Sensor (SensorML) <../standards/sensorml_overview>`
 
 Detalles
 --------------------------------------------------------------------------------
 
-* **Dirección electrónica:** http://52north.org/communities/sensorweb/sos
+* **Sitio Web:** http://52north.org/communities/sensorweb/sos
 
-* **Licencia:** GNU GPL v2.0
+* **Licencia:** GNU General Public License (GPL) versión 2
 
-* **Versión del software:** SOS 3.1.1
+* **Versión del software:** SOS 3.5.0
 
-* **Plataformas en las que corre:** Windows, Linux, Mac
+* **Plataformas soportadas:** Windows, Linux, Mac
 
 * **Interfaces API:** Java
 
-* **Soporte Comercial:** http://52north.org/
+* **Soporte comercial:** http://52north.org/
 
-* **Comunidad:** http://sensorweb.forum.52north.org/
+* **Soporte:** http://sensorweb.forum.52north.org/
 
-* **Página de la comunidad:** http://52north.org/communities/sensorweb/
+* **Soporte de la comunidad:** http://52north.org/communities/sensorweb/
 
 Guía rápida
 --------------------------------------------------------------------------------
 
-* `Documentación de la guía rápida <../quickstart/52nSOS_quickstart.html>`_
-
+* :doc:`Guía de inicio rápido <../quickstart/52nSOS_quickstart.html>`
