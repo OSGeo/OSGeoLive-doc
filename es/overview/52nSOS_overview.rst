@@ -38,35 +38,35 @@ OGC SOS 1.0.0
 
 **Operaciones del núcleo SOS**:
 
-* GetCapabilities, para hacer una petición que describa el servicio.
-* GetObservation, para solicitar datos puros del sensor codificados en Observaciones y Medidas (O&M).
-* DescribeSensor, para solicitar metadatos sobre el sensor, codificados en un documento escrito en Lenguaje Modelo Sensor (SensorML).
+* `GetCapabilities`, para hacer una petición que describa el servicio.
+* `GetObservation`, para solicitar datos puros del sensor codificados en Observaciones y Medidas (O&M).
+* `DescribeSensor`, para solicitar metadatos sobre el sensor, codificados en un documento escrito en Lenguaje Modelo Sensor (SensorML).
 
 **Operaciones transaccionales SOS**:
 
-* RegisterSensor, para suscribirse a nuevos sensores.
-* InsertObservation, para insertar nuevas observaciones de sensores registrados.
+* `RegisterSensor`, para suscribirse a nuevos sensores.
+* `InsertObservation`, para insertar nuevas observaciones de sensores registrados.
 
 **Operaciones SOS adicionales**:
 
-* GetResult, para facilitar consultas periódicas del sensor.
-* GetObservationById, para obtener observaciones específicas.
-* GetFeatureOfInterest, para solicitar el elemento final de la observación en formato GML.
-* GetFeatureOfInterestTime, para determinar la disponibilidad temporal del sensor
+* `GetResult`, para facilitar consultas periódicas del sensor.
+* `GetObservationById`, para obtener observaciones específicas.
+* `GetFeatureOfInterest`, para solicitar el elemento final de la observación en formato GML.
+* `GetFeatureOfInterestTime`, para determinar la disponibilidad temporal del sensor
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* GetCapabilities, para hacer una petición que describa el servicio.
-* GetObservation, para solicitar datos puros del sensor codificados en Observaciones y Medidas (O&M).
-* DescribeSensor, para solicitar metadatos sobre el sensor, codificados en un documento escrito en Lenguaje Modelo Sensor (SensorML).
-* GetFeatureOfInterest, para solicitar el elemento final de la observación en formato GML.
+* `GetCapabilities`, para hacer una petición que describa el servicio.
+* `GetObservation`, para solicitar datos puros del sensor codificados en Observaciones y Medidas (O&M).
+* `DescribeSensor`, para solicitar metadatos sobre el sensor, codificados en un documento escrito en Lenguaje Modelo Sensor (SensorML).
+* `GetFeatureOfInterest`, para solicitar el elemento final de la observación en formato GML.
 
 Es posible filtrar las peticiones mediante los siguientes operadores:
 
-* Spatial filter: BBOX, usando un rectángulo de coordenadas.
-* Temporal filter: During, con un periodo temporal.
-* Temporal filter: TEquals, con un tiempo determinado.
+* `Spatial filter`: BBOX, usando un rectángulo de coordenadas.
+* `Temporal filter`: During, con un periodo temporal.
+* `Temporal filter`: TEquals, con un tiempo determinado.
 
 Estándares relacionados
 --------------------------------------------------------------------------------
