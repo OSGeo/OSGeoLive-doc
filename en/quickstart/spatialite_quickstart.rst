@@ -22,40 +22,78 @@ SpatiaLite Quickstart
 
 SpatiaLite is an SQLite database engine with spatial functions added. 
 
+.. TBD: Cameron Review Comment:
+  Please check my rewording below, then remove this comment.
 SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
-This Quick Start describes how to open a spatialite database from both the command line and from a GUI application. Some sample SQL queries are shown. Use of spatialite-gis, a light weight spatialite viewer, is also demonstrated.  
+This Quick Start describes how to open a spatialite database from both GUI applications and the command line. Some sample SQL queries are shown.
 
 .. contents:: Contents
   
 Using spatialite-gui
 ================================================================================
 
-Lets now have a look at a Spatialite database through a Graphical User Interface (GUI).
+Spatialite-gui provides a visual interface for viewing and maintaining a
+spatialite database. You can easily see the structure of the tables and data
+contents using point and click functions, many of which construct
+common SQL queries, or craft your own SQL queries.
 
-* Open the Spatialite GUI :menuselection:`Geospatial->Databases->Spatialite GUI`
+Lets start by viewing a spatialite database, and looking at columns within a
+table:
+
+* Open the Spatialite GUI by selecting :menuselection:`Geospatial->Databases->Spatialite GUI`
+
+.. TBD: Cameron Review Comment:
+  We should have continuity in our examples. Ie, Use the same scenario for
+  all spaital-gui steps. Use the same table, where each step builds upon the
+  previous step. I'd suggest our examples should aim to have a GIS focus to
+  them too.
 
 * Select :menuselection:`File->Connecting an existing SQLite DB`
-* Browse to the /home/user/data/spatialite directory and choose trento.sqlite
+* Browse to the :file:`/home/user/data/spatialite` directory and choose :file:`trento.sqlite`.
 
   .. image:: ../../images/screenshots/800x600/spatialite-gui-trento.png
     :scale: 70 %
 
-* Right click on the MunicipalHallsView table and select "Show Columns"
+.. TBD: Cameron Review Comment:
+  As above, lets keep the table consistant, to maybe MunicipalHalls
 
+* Right click on the MunicipalHallsView table and select "Show Columns"
 
   .. image:: ../../images/screenshots/800x600/spatialite-gui-columns.png
       :scale: 70 %
 
-* Right Click on the PopulatedPlaces table and select "Edit table rows"
-* In the upper SQL pane type::
+* You will notice the display broken into 3 areas:
+
+  #. The left panel displays the database hierachy, such as a list of tables, and columns within the table. Right click on elements of the left panel to select from a list of common database actions.
+
+  #. The top right panel shows SQL for the action selected. You can enter your own customised SQL into this panel.
+
+  #. The bottom right panel shows the results of the SQL query.
+
+* Right Click on the MunicipalHalls table and select "Edit table rows". Notice
+  the SQL query which has been created for you in the top right pane, and
+  results in the bottom right.::
+
+    SELECT ROWID, "PK_UID", "AREA", "PERIMETER", "COMU", "Geometry"
+        FROM "MunicipalHalls"
+        ORDER BY ROWID
+
+.. TBD: Cameron Review Comment:
+  As above, lets try to keep consistancy. I suggest continue using the
+  MunicipalHalls table, but how about constrain by a GIS query, such as
+  a Bounding Box query instead.
+
+* Now lets try tweaking this SQL statement to get NOME and (Lat,Long) for only
+  the NOME_PROV fields include "BRESCIA", this time using the
+  MunicipalHallsView.  In the upper right SQL pane type::
 
    SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
         FROM "MunicipalHallsView"
         WHERE NOME_PROV LIKE "BRESCIA";
 
-  and click the "Execute SQL" button at the right
-
+  and click the "Execute SQL" button at the right, and see the results in
+  the bottom right pane.
 
   .. image:: ../../images/screenshots/800x600/spatialite-gui-select.png
       :scale: 70 %
@@ -64,7 +102,18 @@ Lets now have a look at a Spatialite database through a Graphical User Interface
 Using spatialite-gis
 ================================================================================
 
+.. TBD: Cameron Review Comment:
+  I'm mildly in favour of removing this spatialite-gis section.
+  Should we be recommending people to use QGIS instead?
+  I'd suggest that the "Things to try" section should suggest trying
+  spatialite-gis
+
 Spatialite-gis is a simple viewer for spatialite based layers.
+
+.. TBD: Cameron Review Comment:
+  In OSGeo-Livebeta1, spatialite-gis is not selectable from the OSGeo-Live menu.
+  It needs to be selected from the command line.
+  If this section is included, it requires a number of screen shots.
 
 * From the Desktop GIS folder on the Desktop run spatialite-gis
 * Click the "Connecting existing SQLite DB" button and connect to /home/user/data/spatialite/trento.sqlite
@@ -80,7 +129,7 @@ You should see a map of Trento Provence in Italy
 Running spatialite from the command line
 ================================================================================
 
-Users needing to script or automate queries will learn the advantages of working with a spatialite database from the command line interface. Here are some examples.
+Users needing to script or automate queries will learn the advantages of working with a spatialite database from the command line interface. In this example, we will load a shapefile, and search for schools which are near highway 42. 
 
 * Before working from the command line, we need to open a terminal window: :menuselection:`Applications -> Accessories -> Terminal Emulator`.
 
@@ -88,30 +137,16 @@ Users needing to script or automate queries will learn the advantages of working
 
    spatialite /home/user/data/spatialite/trento.sqlite
 
-* Helpful commands in the CLI interface::
+* Helpful commands from the command line::
 
    .help
    .tables
    .quit   
 
-* Some sample spatial queries::
-
-   SELECT lc.NOME, lc.NOME_PROV, lc.COM, mh.Perimeter 
-        FROM LocalCouncils AS lc, MunicipalHalls AS mh 
-        WHERE CONTAINS(lc.Geometry,mh.Geometry) AND lc.NOME LIKE 'VILLA%' 
-        ORDER BY lc.NOME;
-   .headers ON
-   SELECT COMUNE, LOCALITA, Area(Geometry)/1000000 AS "Area Sq.km." 
-        FROM PopulatedPlaces ORDER BY "Area Sq.km." DESC LIMIT 10 ; 
-   SELECT lc.NOME AS "Provence Name", X(mh.Geometry) AS X_COORD, Y(mh.Geometry) AS Y_COORD 
-        FROM LocalCouncils AS lc, MunicipalHalls AS mh 
-        WHERE mh.COMU=lc.COM ORDER BY "Provence Name" LIMIT 10;
-      
 .. TBD: Cameron Review
   For the information of the author:
-  I've removed the section on creating a new database as this step is
-  only valuable if we go on to create tables and populate with data
-  (which was not in the quickstart)
+  I've removed the "Sample spatial queries". While useful, a quickstart
+  should just focus on the specific example being presented.
   This comment can be removed once read.
 
 * Creating a new spatialite database and loading a shapefile
@@ -174,7 +209,7 @@ Things to Try
 
 Here are some additional challenges for you to try:
 
-* Inspect geometries with spatialite-gui`
+* Inspect geometries with spatialite-gui
 * Open and edit SpatiaLite layers in QGIS
 
 What Next?
