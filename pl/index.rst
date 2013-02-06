@@ -2,12 +2,27 @@
 Witaj w |osgeo-live-version|
 ================================================================================
 
+.. only:: latex
+
+   .. toctree::
+     :maxdepth: 1
+     :glob:
+
+     overview/toc
+     quickstart/toc
+     standards/standards
+     download
+     contact
+     copyright
+     disclaimer
+     sponsors
+     sponsors_osgeo
 `OSGeo-Live <http://live.osgeo.org>`_  jest to startowe DVD, PenDrive USB lub wirtualna maszyna z systemem
 `Xubuntu <http://www.xubuntu.org/>`_. Pozwala na wypróbowanie szerokiego wachlarza oprogramowania open source do zastosowań geoprzestrzennych, bez konieczności ich instalowania. Na płycie znajduje się wyłącznie oprogramowanie opatrzone wolnymi licencjami, uprawniającymi do powielania i rozpowszechniania go.
 
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
-  :alt: boot select	
+  :alt: boot select
   :align: right
 
 OSGeo-Live zawiera wstępnie skonfigurowane aplikacje przydatne w wielu zadaniach geoprzestrzennych, takich jak przechowywanie, publikowanie, przeglądanie, analizy i przetwarzanie danych. Płyta zawiera również zestawy danych do ćwiczeń i dokumentację.
@@ -27,7 +42,7 @@ Szybkie wprowadzenia
 --------------------------------------------------------------------------------
 
 .. toctree::
-   :maxdepth: 1
+     :maxdepth: 1
 
    Jak zacząć z OSGeo-Live DVD <quickstart/osgeolive_quickstart>
    Zmiana języka i ustawiń klawiatury <quickstart/internationalisation_quickstart>
@@ -42,7 +57,7 @@ Szybkie wprowadzenia
    :glob:
 
    overview/overview
-   quickstart/*quickstart
+   quickstart/quickstart
    standards/standards
    contact
    copyright
@@ -51,6 +66,7 @@ Szybkie wprowadzenia
    sponsors
    sponsors_osgeo
    presentation
+   test
 
 Prezentacja
 --------------------------------------------------------------------------------
