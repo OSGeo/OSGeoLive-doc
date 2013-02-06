@@ -1,7 +1,7 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -66,7 +66,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** WPS 3.0
+**Wersja programu:** WPS 3.1.0
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
