@@ -2,7 +2,7 @@
 :Author: Stephan Meissl, Stephan Krause
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer:
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver.png
@@ -17,8 +17,8 @@ EOxServer
 Usługi sieciowe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EOxServer is a server for presenting big Earth Observation (EO) data 
-archives and metadata via Open Standards.
+EOxServer jest serwerem służącym do prezentowania dużych archiwów danych
+Earth Observation (EO) i ich metadanych z użyciem Otwartych Standardów.
 
 Earth Observation data currently supported includes 2D raster data generally 
 acquired using sensors on satellites or aircrafts and including information 
@@ -38,26 +38,27 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
 Główne funkcje
 --------------------------------------------------------------------------------
 
-* View, filter, subset, and download EO data
-* Upload and/or register external EO datasets
+* Przeglądanie, filtrowanie, wybieranie i pobieranie danych EO
+* Rejestracja archiwów danych EO
 * Web based and command line administration interface
-* Publish data via Open Geospatial Consortium (OGC) standards:
+* Publikowanie danych :doc:`Open Geospatial Consortium (OGC) standards 
+  <../standards/standards>`:
 
-  * Web Coverage Service (WCS) 1.0, 1.1 and 2.0 & proposed EO-WCS
-  * Web Map Service (WMS) & EO-WMS
+  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 and 
+    2.0 & proposed EO-WCS
+  * :doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS
   * Proposed extensions to WCS including: GeoTIFF encoding, predefined 
     projections (CRSs), scaling, and interpolation.
-  * Protocols supported are KVP, XML/POST (used together with SOAP2POST
-    Proxy to provide an XML/SOAP interface).
-
-* Publish using the following formats and groupings:
+  * Protocols supported are: KVP and XML/POST (used together with SOAP2POST
+    Proxy to provide also XML/SOAP)
+* Publikowanie przy użyciu poniższych formatów i zgrupowań:
 
   * 2-D EO Coverages derived from gmlcov:RectifiedGridCoverage
   * 2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage
   * Dataset Series as a collection of EO Coverages e.g. in a time series
-  * Stitched Mosaic of Rectified EO Coverages including contributingFootprint
+  * Stitched Mosaics of Rectified EO Coverages including contributingFootprint
 
-* Obsługivane formaty pokrycia:
+* Obsługiwane formaty pokrycia:
 
  * GeoTIFF
  * Formaty obsługiwane przez bibliotekę GDAL
@@ -76,7 +77,7 @@ Szczegóły
 
 **Licencja:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Wersja programu:** 0.2.2
+**Wersja programu:** 0.2.3
 
 **Systemy operacyjne:** Linux, Windows, Mac
 
