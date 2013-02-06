@@ -1,5 +1,7 @@
 :Author: activityworkshop
-:Version: osgeo-live4.5
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gpsprune-overview-pl:
@@ -17,27 +19,30 @@ Narzedzia do edycji śladów GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsPrune <http://gpsprune.activityworkshop.net/>`_ jest narzędziem do przeglądania,
-edycji i konwertowania danych posiadających georeferencje, z systemów GPS. Do wyświetlania
-zapisanych śladów i punktów tras używa podkładów z OpenStreetMap. Dostarcza również wielu
+edycji i konwertowania danych posiadających georeferencje, z systemów GPS. 
+Do wyświetlania zapisanych śladów i punktów tras używa podkładów z 
+:doc:`OpenStreetMap <osm_dataset_overview>`. Dostarcza również wielu
 narzędzi do edycji i wycinania danych punktowych. Posiada funkcje do korelowania 
 zdjęć ze współrzędnymi za pomocą znaczników czasowych zdjęcia.
 
-Jeśli jest dostępna biblioteka Gpsbabel, GpsPrune korzysta z niej do czytania danych bezpośrednio z odbiornika GPS,
-a także umożliwia wysłanie wyedytownych danych z powrotem do urządzenia GPS.
+Jeśli jest dostępna biblioteka Gpsbabel, GpsPrune korzysta z niej do czytania 
+danych bezpośrednio z odbiornika GPS, a także umożliwia wysłanie wyedytownych 
+danych z powrotem do urządzenia GPS.
 
-GpsPrune działa na Mac OSX, Windows i Linux, i jest dostępne w dziesięciu różnych językach.
+GpsPrune działa na Mac OSX, Windows i Linux, i jest dostępne w dziesięciu 
+różnych językach.
 
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_barcelona.png
+.. image:: ../../images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right
 
 * Wczytywanie danych z plików tekstowych, plików gpx, kml/kmz lub bezpośrednio z urządzenia GPS
 * Skalowalny podkład mapy z OpenStreetMap lub jakiegokolwiek kompatybilnego serwera (OpenCycleMap, CloudMade etc.)
-* Widok profilu wysokośi lub prędkości
+* Widok profilu wysokości lub prędkości
 * Narzędzia edycyjne do usuwania, cofania i pakowania śladów
 * Interaktywny widok 3D danych lub eksport do formatu POV w celu późniejszego renderowania 3D
 * Zapis danych do plików tekstowych, kml/kmz, lub bezpośrednio do odbiornika GPS
