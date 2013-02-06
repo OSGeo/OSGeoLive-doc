@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GRASS.png
@@ -72,7 +72,7 @@ Szczegóły
 
 **Interfejsy API:** C, Python, Bourne Shell
 
-**Wsparcie:** http://grass.osgeo.org/community/support.php
+**Wsparcie:** http://grass.osgeo.org/support
 
 Szybkie wprowadzenie
 --------------------------------------------------------------------------------
