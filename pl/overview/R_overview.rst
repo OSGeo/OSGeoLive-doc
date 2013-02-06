@@ -16,32 +16,34 @@ R do danych przestrzennych
 Programowanie Statystyczne
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-R is a powerful, widely used software environment for statistical
-computing and graphics which excels at analyzing and processing
-geographic data sets. Geospatial analysis capabilities within R are
-available in R packages (modules that extend the capabilities of R)
-that provide access to a large number of traditional and state of the
-art algorithms, often before they are available in other open source
-or proprietary software. R and its packages are able to process point,
-line, polygon and grid data. Users can accomplish a broad array of
-tasks such as: image classification, statistical analysis to infer
-spatial relationships and patterns of features, and others listed in
-the core features below. The functions available via R complement and
-advance capabilities found in GIS and image processing software.
+R jest potężnym, szeroko stosowanym środowiskiem dla obliczeń
+statystycznych i grafiki, który przoduje w analizach i przetwarzaniu
+geograficznych zestawów danych. Geoprzestrzenne narzędzia do analiz są
+dostępne w R w pakietach R (modułach rozszerzających możliwości R),
+które zapewniają dostęp do dużej liczby tradycyjnych i wyszukanych
+algorytmów, często zanim będą one dostępne w innych programach 
+open source lub własnościowych. R i jego pakiety przetwarzają
+punkty, linie, wieloboki, oraz siatki. Użytkownicy mogą wykonywać 
+szeroki wachlarz zadań, takich jak: klasyfikacja obrazów, analiza 
+statystyczna tworząca relacje przestrzenne i schematy obiektów oraz
+inne, wymienione poniżej. Funkcje dostępne w R uzupełniają i 
+rozszerzają możliwości dostępne w narzędziach GIS i programach
+do przetwarzania zobrazowań.
 
-The core R interface is a command line window which provides excellent
-flexibility and control but tends to lengthen the time required to
-become a proficient user when compared to software with a graphical
-user interface (GUI). Fortunately R is well documented on the web site
-which eases the learning process. Scripts are often used to automate
-processing steps and there are projects that are developing open
-source GUIs for R (http://rwiki.sciviews.org/doku.php?id=guis:guis).
+Właściwy interfejs R to okno wiersza poleceń, które zapewnia 
+doskonałą elastyczność i kontrolę, ale zdaje się, w porównaniu
+z graficznym interfejsem użytkownika (GUI), wydłużać czas
+potrzebny na uzyskanie użytkownikowi biegłości obsługi. 
+Szczęśliwie R jest dobrze udokumentowane na stronie internetowej, 
+co stanowi dużą pomoc w nauce obsługi. Skrypty są często używane 
+do automatyzacji kroków przetwarzania, ale są dostępne także 
+GUI programu, wiodący nazywa się RStudio (http://www.rstudio.com).
 
-R is an implementation of the S programming language and there is
-significant compatibility between R and legacy S and S-Plus code as
-well as between R and the modern commercial version of S, TIBCO
-Spotfire S+. This makes it possible to convert different
-versions of S code to run on R without major code modifications.
+R jest implementacją języka programowania S. Jest znaczna zgodność
+pomiędzy R a spuścizną po S oraz kodem S-Plus, a także pomiędzy R a 
+nową komercyjną wersją S, TIBCO Spotfire S+. Pozwala to na konwersję
+różnych wersji kodu S w celu ich uruchomienia w R bez znaczących 
+modyfikacji.
 
 .. image:: ../../images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
@@ -58,7 +60,7 @@ Główne funkcje
 * Czytanie i zapis danych przestrznych
 * Analizy rozkładu punktów
 * Geostatystyka
-* Disease mapping and areal data analysis
+* Mapy chorób i analizy danych obszarowych
 * Regresja przestrzenna
 * Analizy ekologczne
 
@@ -69,7 +71,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** 2.15.1
+**Wersja programu:** 2.15.2
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 
