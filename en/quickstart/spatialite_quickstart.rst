@@ -189,6 +189,8 @@ Users needing to script or automate queries will learn the advantages of working
 
    - Here's how it looks in the terminal window:
 
+.. please consider to put the following in a <code> text box, and free up the disc space. It doesn't need to be a graphic.
+
    .. image:: ../../images/screenshots/800x600/spatialite-cli.png
       :scale: 70 %
 
