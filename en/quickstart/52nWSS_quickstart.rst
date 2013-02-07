@@ -39,8 +39,8 @@ To get a list of protected services follow these steps:
   
 #. The 52°North WSS management interface will open in a browser window. Click *Manage WSS* (**1**) to get a list of those services, that can be connected using the WSS.
 
-   .. image:: ../../images/screenshots/800x600/52nWSS_start_manager.png
-     :scale: 70 %
+  .. image:: ../../images/screenshots/800x600/52nWSS_start_manager.png
+    :scale: 70 %
      
 .. tip:: 
   If it's requested, authenticate as user/user
@@ -53,8 +53,8 @@ WSS manager
 For each protected service, called *Enforcement Point*, the table contains the base links to the service by authentication method (*httpauth*, *saml*, *WSS*, ...).
 The table has the following columns:
 
-   .. image:: ../../images/screenshots/800x600/52nWSS_manager_interface.png
-     :scale: 70 %
+  .. image:: ../../images/screenshots/800x600/52nWSS_manager_interface.png
+    :scale: 70 %
 
 * Enforcement Point Identifier
  
@@ -91,36 +91,39 @@ Create a new enforcement point
    * `Type` : WMS (**3**)
    * `Autenthication Scheme` : HTTP Basic (**4**)
 
-   .. image:: ../../images/screenshots/800x600/52nWSS_create_new_enforcement_point_properties.png
-     :scale: 70 %
+  .. image:: ../../images/screenshots/800x600/52nWSS_create_new_enforcement_point_properties.png
+    :scale: 70 %
 
 #. Press the :guilabel:`Create` button to create the new `Enforcement Point`. A new row will appear in the manager main window
 
-   .. image:: ../../images/screenshots/800x600/52nWSS_new_enforcement_point_added.png
-     :scale: 70 %
+  .. image:: ../../images/screenshots/800x600/52nWSS_new_enforcement_point_added.png
+    :scale: 70 %
 
 
 
 Create a new user
 --------------------------------------------------------------------------------     
      
-#. Open a new terminal emulator by selecting the menu option :menuselection:`Applications -> Accessories --> Terminal Emulator` 
+#. Open a new terminal emulator by selecting the menu option :menuselection:`Applications --> Accessories --> Terminal Emulator` 
 
-#. Navigate to the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/` using the command `cd /var/lib/tomcat6/webapps/wss/WEB-INF/classes/`
-  
-#. Edit the file :file:`users.xml` using the command `sudo medit users.xml`
+#. Edit the file :file:`users.xml` present at the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/`:
+
+.. code-block:: bash
+  $ cd /var/lib/tomcat6/webapps/wss/WEB-INF/classes/
+  $ sudo medit users.xml
 
 .. note::
   The users.xml file is only available to users with access to root privileges, which is achieved when using the "sudo" command. You will need to use the password "user" when prompted.  
 
 #. Add a new user called 'livedvd' by adding the next text as a new entry at <UserRepository> level (**1**):
 
+.. code-block:: none
   <User  username="livedvd" password="livedvd" realname="LiveDVD">
-        <Role name="livedvd"/>
+    <Role name="livedvd"/>
   </User>
   
-   .. image:: ../../images/screenshots/800x600/52nWSS_users_xml.png
-     :scale: 70 %
+  .. image:: ../../images/screenshots/800x600/52nWSS_users_xml.png
+    :scale: 70 %
   
 #. Save the changes and exit medit
 
@@ -129,11 +132,19 @@ Create a new user
 Adjust new user policies
 --------------------------------------------------------------------------------
 
+We're going to set up the next policies to the new protected WMS:
+
+* User `livedvd` -> Full access to all the layers from the WMS
+* Users `bob` and `guest` -> Access only to the layer `tasmania`
+* Other users -> Access not authorized to the WMS 
+
+
 #. Return to the terminal emulator window.
 
-#. Navigate to the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/` using the command `cd /var/lib/tomcat6/webapps/wss/WEB-INF/classes/`
+#. Edit the file :file:`permissions.xml` present at the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/`:
 
-#. Edit the file :file:`permissions.xml` using the command `sudo medit permissions.xml` 
+.. code-block:: bash
+  $ sudo medit permissions.xml
 
 #. Add a new permission set called `Geoserver localhost` by adding the next text as a new entry at <SimplePermissions> level (**1**):
 
@@ -146,27 +157,29 @@ Adjust new user policies
   We should also mention some of the different types of restrictions could be
   applied. 
 
-        <ResourceDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
-        <ActionDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
-        <SubjectDomain value="urn:n52:security:subject:role"/>
-        <Permission name="livedvd_all_geoserver">
-            <Resource value="layers/*"/>
-            <!-- Any layers -->
-            <Action value="operations/*"/>
-            <!-- Any operations -->
-            <Subject value="livedvd"/>
-        </Permission>
-	      <Permission name="bobAndGuest_most_GetMap_GetCaps_geoserver">
-            <Resource value="layers/tasmania"/>
-            <Action value="operations/GetCapabilities"/>
-            <Action value="operations/GetMap"/>
-            <Subject value="bob"/>
-            <Subject value="guest"/>
-        </Permission>
+.. code-block:: none
+  <PermissionSet name="WMS Geoserver">
+    <ResourceDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
+    <ActionDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
+    <SubjectDomain value="urn:n52:security:subject:role"/>
+    <Permission name="livedvd_all_geoserver">
+      <Resource value="layers/*"/>
+      <!-- Any layers -->
+      <Action value="operations/*"/>
+      <!-- Any operations -->
+      <Subject value="livedvd"/>
+    </Permission>
+	  <Permission name="bobAndGuest_most_GetMap_GetCaps_geoserver">
+      <Resource value="layers/tasmania"/>
+      <Action value="operations/GetCapabilities"/>
+      <Action value="operations/GetMap"/>
+      <Subject value="bob"/>
+      <Subject value="guest"/>
+    </Permission>
   </PermissionSet>
   
   .. image:: ../../images/screenshots/800x600/52nWSS_permissions_xml.png
-     :scale: 70 %
+    :scale: 70 %
 
 #. Save the changes and exit medit
 
@@ -178,40 +191,78 @@ In order to load the users and permissions changes, it's necessary to restart th
 
 #. Return to the terminal emulator window.
 
-#. Type the command `sudo tomcat service stop` and press :guilabel:`ENTER`
+#. Restart the tomcat service: 
 
-#. Type the command `sudo tomcat service start` and press :guilabel:`ENTER`
+.. code-block:: bash
+  $ sudo service tomcat6 restart
 
 
 
 Load a protected OGC Service
 ================================================================================
 
-In order to request the capabilities of the protected Demis WMS, follow the next steps:  
+In order to request the capabilities of the protected Geoserver WMS, follow the next steps:  
 
 #. Type http://localhost:8080/wss/service/geoserver_localhost/httpauth?SERVICE=WMS&REQUEST=GetCapabilities in a browser
 
-#. Authenticate as `livedvd`/`livedvd` to get access with full permissions or authenticate as `guest`/`guest` to access the service under limited permissions (only `tasmania` layer will be available)
+#. Authenticate as `livedvd`/`livedvd` to get access with full permissions or authenticate as `bob`/`bob` to access the service under limited permissions (only `tasmania` layer will be available)
 
-.. TBD: Cameron Review Comment
-  Image below shows a username of "alice". It should be "livedvd".
-  Please remove this comment once the image has been updated.
-
-   .. image:: ../../images/screenshots/800x600/52nWSS_authorization_required.png
-     :scale: 70 %
+  .. image:: ../../images/screenshots/800x600/52nWSS_authorization_required.png
+    :scale: 70 %
 
 .. note::
   If you'd like to request the capabilities with a different user account you have to restart the browser in order to invalidate current user cached credentials
 
-.. TBD: Cameron Review Comment
-  I think we need 2 images here to show the different access you get
-  based upon the 2 different user privileges.
-  I suspect these would be best shown by using 2 clients with different
-  privileges accessing the same WMS. QGIS is the usual client used for these
-  demos, but you can use Udig if you prefer.
 
 To further test the protected service, load http://localhost:8080/wss/service/geoserver_localhost/httpauth as WMS into any desktop mapping client that supports HTTP
-Basic Authentication, e.g. :doc:`uDig <../overview/udig_overview>`, and use it as you would with any other WMS.
+Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_overview>`:
+
+#. From the start menu, select :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS` 
+
+#. The application will take a few seconds to start (a splash screen is shown while loading)
+
+#. Press the :guilabel:`Add WMS Layer` button from the main toolbar (**1**):
+
+  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_add_wms_layer.png
+    :scale: 70 %
+
+#. Press the :guilabel:`New` button (**1**) in order to create a new WMS connection:
+
+  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_new_wms_connection.png
+    :scale: 70 %
+
+#. Set the connection properties and press :guilabel:`Ok` button (**5**) to create the connection:  
+
+  * `Name` : geoserver (**1**),
+  * `URL` : http://localhost:8080/wss/service/geoserver_localhost/httpauth (**2**)
+  * `User name` : livedvd (**3**)
+  * `Password` : livedvd (**4**)
+
+  .. image:: ../../images/screenshots/800x600/52nWSS_livedvd_wms_connection_properties.png
+    :scale: 70 %
+
+#. Press the :guilabel:`Connect` button (**1**) to load the WMS layers. The full list of layers will be available for the user `livedvd`:
+
+  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_livedvd_wms_layers.png
+    :scale: 70 %
+
+#. Press the :guilabel:`Edit` button (**1**) to edit the connection properties:
+
+  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_edit_wms_connection.png
+    :scale: 70 %
+
+#. Set the connection properties again and press :guilabel:`Ok` button (**3**) to edit the connection:  
+
+  * `User name` : bob (**1**)
+  * `Password` : bob (**2**)
+
+  .. image:: ../../images/screenshots/800x600/52nWSS_bob_wms_connection_properties.png
+    :scale: 70 %
+
+#. Press the :guilabel:`Connect` button (**1**) to reload the WMS layers. Only `tasmania` layer will be available for the user `bob`:
+
+  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_bob_wms_layers.png
+    :scale: 70 %
 
 
 
