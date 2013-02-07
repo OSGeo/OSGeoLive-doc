@@ -1,16 +1,16 @@
 :Author: Hamish Bowman
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _marble-overview-pl:
+.. _marble-overview-pl:	
 
 .. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
   :alt: project logo
   :align: right
-  :target: http://edu.kde.org/marble/
+  :target: http://marble.kde.org/
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -51,7 +51,7 @@ Główne funkcje
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://edu.kde.org/marble/
+**Strona internetowa:** http://marble.kde.org
 
 **Licencja:** GNU Mniejsza Ogólna Powszechna Licencja (LGPL) wersja 2.1
 
