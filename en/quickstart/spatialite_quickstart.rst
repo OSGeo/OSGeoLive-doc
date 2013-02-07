@@ -187,13 +187,6 @@ Users needing to script or automate queries will learn the advantages of working
       FUQUAY-VARINA|109|N Ennis St
       LINCOLN HEIGHTS|307|Bridge St
 
-   - Here's how it looks in the terminal window:
-
-.. please consider to put the following in a <code> text box, and free up the disc space. It doesn't need to be a graphic.
-
-   .. image:: ../../images/screenshots/800x600/spatialite-cli.png
-      :scale: 70 %
-
    - Finally, we output the query to a "comma separated values" text file "schools_rt42.txt" with the following commands::
 
       spatialite> .mode csv
