@@ -1,7 +1,7 @@
 :Author: Jody Garnett
 :Author: Astrid Emde
 :Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoTools.png
@@ -44,6 +44,9 @@ Kernfunktionalität
   * kann mir einer erweiterbaren Pallette von Kartenprojektionen umgehen
   * Filterung und Analyse bezogen auf rämliche Daten und Daten, die keine räumliche Komponente besitzen
 
+* Zustandsloser, wenig Speicher nutzender Renderer, vor allem hilfreich auf serverseitigen Umgebungen.
+  
+  * Erzeugen und Anzeigen von Larten mit komplexem Styling
 
 * Ein zustandsloser Renderer, der wenig Arbeitsspeicher benötigt und somit insbesondere für serverseitige Anwendungen geeignet ist.
   
@@ -113,7 +116,7 @@ Details
 
 **Lizenz:** LGPL
 
-**Software Version:** 2.7.1
+**Software Version:** 8.0
 
 **Unterstütze Plattformen:** Java
 

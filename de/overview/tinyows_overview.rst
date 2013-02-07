@@ -1,14 +1,20 @@
 :Author: OSGeo-Live
 :Author: Frank Gasdorf
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: Projekt Logo
   :align: right
-  :target: http://www.tinyows.org/
+  :target: http://mapserver.org/tinyows/
+
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 TinyOWS
 ================================================================================
@@ -23,7 +29,8 @@ TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender 
   :alt: digitizing
   :align: right
 
-TinyOWS wird häufig in Verbindung mit einem :doc:`MapServer <mapserver_overview>` eingesetzt, um Daten über WFS-T und schnelle WFS Dienste für :doc:`QGIS <qgis_overview>` und/oder :doc:`OpenLayers <openlayers_overview>` Clients bereitzustellen. TinyOWS ist produktiv in Organsationen und Regierungsbehörden weltweit im Einsatz. WFS 1.0 und WFS 1.1 sind präzise implementiert, alle OGC CITE Tests - ca.  1000 - wurden erfolgreich durchlaufen.
+TinyOWS wird häufig in Verbindung mit einem :doc:`MapServer <mapserver_overview>` eingesetzt, um Daten über WFS-T und schnelle WFS Dienste für :doc:`QGIS <qgis_overview>` und/oder :doc:`OpenLayers <openlayers_overview>` Clients bereitzustellen. TinyOWS ist produktiv in Organsationen und Regierungsbehörden weltweit im Einsatz. 
+WFS 1.0 und WFS 1.1 sind präzise implementiert, alle OGC CITE Tests - ca.  1000 - wurden erfolgreich durchlaufen.
 
 Kernfunktionen
 --------------------------------------------------------------------------------
@@ -43,17 +50,18 @@ Umgesetzte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.tinyows.org/
+**Website:** http://mapserver.org/tinyows/
 
 **Lizenz:** MIT
 
-**Software Version:** 1.0
+**Software Version:** 1.1.0
 
 **Unterstützte Plattformen:** Linux, Unix, Mac, Windows
 
 **API Schnittstellen:** CGI/FastCGI
 
-**Support:** http://lists.maptools.org/pipermail/tinyows-users/
+**Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
+
 
 Quickstart
 --------------------------------------------------------------------------------

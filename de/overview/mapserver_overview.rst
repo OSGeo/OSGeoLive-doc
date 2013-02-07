@@ -1,4 +1,5 @@
 :Author: Alan Boudreault, Steve Lime
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -44,6 +45,13 @@ Kernfunktionen
   * Thematische Karten durch die Nutzung von logischen Klassen oder über reguläre Ausdrücke definierte Klassen
   * Erweiterung um weitere Ausgabeformate durch Treiber für AGG, Cairo, GD und OpenGL und andere
   * Spezielle Generierung von Kacheln
+  * Maskieren von Ebenen
+  * Präzise Symbolplatzierung
+  * Komplexe Mehrfachbeschriftung/komplexe Symbolik
+  * Vektorfelder
+  * Label Leader Offsetting
+  * Unterstützung von SVG-Symbolen
+  * Multiple Font Support  
 
 * Unterstützung anspruchsvoller räumlicher Abfragen
 
@@ -96,7 +104,7 @@ Details
 
 **Lizenz:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:**  6.0.3
+**Software Version:** 6.2
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
