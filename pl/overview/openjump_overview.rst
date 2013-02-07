@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-openjump.png
@@ -35,7 +35,7 @@ Główne funkcje
 
     * odczyt (pliki): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG,
 	 JPEG2000*, MrSID*, ECW*
-    * odczyt (bazy danych): PostGIS, ArcSDE*, Oracle* *, MySQL* and SpatiaLite*
+    * odczyt (bazy danych): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
     * odczyt (standardy OGC): WKT, WMS
     * zapis: GML, SHP, DXF*, PostGIS*, JML & JPG
     * zapis: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF and SVG*
@@ -71,7 +71,7 @@ Zaimplementowane standardy
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS i SLD; (WFS dla deegree)
+* OGC standards supported: GML2, SFS, WMS i SLD; (WFS dla :doc:`deegree <deegree_overview>`)
 
 Szczegóły
 --------------------------------------------------------------------------------
@@ -93,5 +93,5 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* :doc:`Przejdź do wprowadzenia <../quickstart/openjump_quickstart.html>`
+* :doc:`Przejdź do wprowadzenia <../quickstart/openjump_quickstart>`
 
