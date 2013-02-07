@@ -1,7 +1,7 @@
 :Author: Dane Springmeyer
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _mapnik-overview-pl:
@@ -53,7 +53,7 @@ Szczegóły
 
 **Licencja:** Mniejsza Powszechna Licencja Publiczna GNU (LGPL)
 
-**Wersja programu:** 0.7.1
+**Wersja programu:** 2.0.0
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
