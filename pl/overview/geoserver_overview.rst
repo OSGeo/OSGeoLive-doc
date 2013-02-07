@@ -29,8 +29,8 @@ przeglądarki internetowe i programy desktop GIS. To oznacza,
 że możesz przechowywać swoje dane przestrzenne w prawie każdym `formacie
 <http://docs.geoserver.org/stable/en/user/data/index.html>`_ 
 jakim chcesz, a twoi użytkownicy nie muszą wiedzieć nic na temat danych GIS.
-Na najprostrzym poziomie, wszystko, czego potrzebują to przeglądarka internetowa, która pokaże im mapy w taki sposób, 
-w jaki chcesz. 
+Na najprostrzym poziomie, wszystko, czego potrzebują to przeglądarka internetowa, 
+która pokaże im mapy w taki sposób, w jaki chcesz. 
 
 GeoServer jest referencyjną implementacją `Open Geospatial 
 Consortium <http://www.opengeospatial.org>`_ (OGC), 
@@ -49,30 +49,47 @@ GeoServer forms a core component of the Geospatial Web.
 Główne funkcje
 --------------------------------------------------------------------------------
 
-**Serve data from a variety of data stores:**
+**Udostępnianie danych przechowywanych za pomocą różnych narzędzi:**
     * Wektor
 
-        - Shapefiles, External WFS
+        - Shapefile, zewnętrzny WFS
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
-        - GeoTiff, JPG i PNG (z plikiem world), piramidy obrazów, formaty GDAL, Image Mosaic, Oracle GeoRaster
+        - GeoTiff, JPG i PNG (z plikiem world), piramidy obrazów, formaty GDAL, 
+		Image Mosaic, Oracle GeoRaster
 
-**Data is served as safe and quick images using the WMS protocol:**
-    As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
-    The appearance of each map layer can be controlled using the SLD standard which allows features to be coloured and labeled. By combining these rules with OGC Filters scale dependent styling can be implemented allowing more detail to be added as a user zooms in. Label collision management, grouping and priorities are also implemented.
+**Dane są udostępniane jako bezpiecznie i szybkieobrazy przy pomocy
+protokołów WMS i WMTS:**
+    Ponieważ dane są udostępniane jako obrazy, twoje dane są całkowicie
+	bezpieczne i chronione. Jedynym sposobem na ich kradzież jest ich wektoryzacja.
+	Sposób wyświetlania każdej warstwy mapy może być zarządzany poprzez
+	standard SLD, który pozwala na stylizację i etykietowanie obiektów
+	Poprzez łączenie tych zasad z filtrami OGC, istnieje możliwość zastosowania 
+	stylizacji zależnej od skali, która pozwala na uzyskanie większej ilości szczegółów
+	mapy przy zbliżeniu. Zarządzanie rozmieszczeniem etykiet, grupowaniem i
+	ich wanością jest również zaimplementowane.
 
-**Full vector data can be sent to a client using the WFS protocol:**
-     A WFS client can download vector data and use it for mapping, spatial analysis and other operations. Also if authorised the user can modify the data and send it back to the server to update the stored data using the WFS-T protocol.
-     The data can be transmitted using GML (compressed) as well as other standard data formats like shapefile and json.
+**Pełne dane wektorowe moga być przesłane do klienta za pomocą protokołu WFS:**
+     Klient WFS może pobrać dane wektorowe i używać ich do tworzenia map, analiz
+	 przestrzennych i innych operacji. Autoryzowany użytkownik ma możliwość
+	 modyfikacji danych i przesłania ich z powerotem na serwer protokołem
+	 WFS-T w celu aktualizacji zgromadzonych danych.
+     Dane mogą być transmitowane przy pomocy GML (spakowane) oraz za pomocą
+	 innych standardowych formatów danych jak shapefile i json.
 
-**Raster data values can be sent to a client using the WCS protocol:**
-     A GIS client can request the actual raster data for use in spatial analysis. This allows a user to create applications which can model the process described by your data.
+**Wartođci danzch rastrowzch mog bz pryesane do klienta pryz pomocz protokou WCS:**
+     Klient GIS może zażądać aktualnych danych rastrowych do wykonania analiz przestrzennych.
+	 Pozwala to użytkownikowi na tworzenie aplikacji, które mogą modelować proces opisany przez twoje dane.
 
-**On the fly reprojection:**
-     GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server. 
+**Reprojekcja w locie:**
+     GeoServer obsługuje większość odwzorowań bazy EPSG i jest w stanie przeliczać 
+	 pomiędzy nimi na żądanie, aby ułatwić pracę klientom z ograniczonym dostępnem do reprojekcji. 
 
-**WMS Tiling Cache**
-    `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
+**Cache kafli WMSg **
+    `GeoWebCache <http://geowebcache.org/>`_ jest usługą tworzenia kafli map dla WMS, która 
+	zwiększa prędkość aplikacji mapowych. Działa jako serwer proxy pomiędzyklientem map a serwerem map,
+	keszująć kafle w trakcie ich żądania, eliminując powielone żądania i oszczędzając czas przetważania
+	żądania. GeoWebCache został zintegrowany z GeoServerem.
 
 Zaimplementowane standardy
 --------------------------------------------------------------------------------
@@ -80,8 +97,10 @@ Zaimplementowane standardy
 * Wsparcie wielu standardów Open Geospatial Consortium (OGC):
 
   * :doc:`../standards/wms_overview`
-  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
+  * Web Map Tile Service (WMTS)
+  * :doc:`../standards/wfs_overview`, WFS-T (transakcyjny)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
@@ -93,7 +112,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 2.1.3
+**Wersja programu:** 2.2.2
 
 **Systemy operacyjne:** All Java 1.5 platforms: - Windows, Linux, Mac
 
