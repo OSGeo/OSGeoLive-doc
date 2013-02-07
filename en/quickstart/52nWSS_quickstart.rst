@@ -39,8 +39,8 @@ To get a list of protected services follow these steps:
   
 #. The 52°North WSS management interface will open in a browser window. Click *Manage WSS* (**1**) to get a list of those services, that can be connected using the WSS.
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_start_manager.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_start_manager.png
+     :scale: 70 %
      
 .. tip:: 
   If it's requested, authenticate as user/user
@@ -53,8 +53,8 @@ WSS manager
 For each protected service, called *Enforcement Point*, the table contains the base links to the service by authentication method (*httpauth*, *saml*, *WSS*, ...).
 The table has the following columns:
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_manager_interface.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_manager_interface.png
+     :scale: 70 %
 
 * Enforcement Point Identifier
  
@@ -91,13 +91,13 @@ Create a new enforcement point
    * `Type` : WMS (**3**)
    * `Autenthication Scheme` : HTTP Basic (**4**)
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_create_new_enforcement_point_properties.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_create_new_enforcement_point_properties.png
+     :scale: 70 %
 
 #. Press the :guilabel:`Create` button to create the new `Enforcement Point`. A new row will appear in the manager main window
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_new_enforcement_point_added.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_new_enforcement_point_added.png
+     :scale: 70 %
 
 
 
@@ -116,15 +116,15 @@ Create a new user
     <User  username="livedvd" password="livedvd" realname="LiveDVD">
       <Role name="livedvd"/>
     </User>
-  
-  .. image:: ../../images/screenshots/800x600/52nWSS_users_xml.png
-    :scale: 70 %
-  
+
+   .. image:: ../../images/screenshots/800x600/52nWSS_users_xml.png
+     :scale: 70 %
+
 #. Save the changes and exit medit
 
 .. note::
   The users.xml file is only available to users with access to root privileges, which is achieved when using the "sudo" command. You will need to use the password "user" when prompted.
-  
+
 
 Adjust new user policies
 --------------------------------------------------------------------------------
@@ -164,8 +164,8 @@ We're going to set up the next policies to the new protected WMS:
       </Permission>
     </PermissionSet>
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_permissions_xml.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_permissions_xml.png
+     :scale: 70 %
 
 #. Save the changes and exit medit
 
@@ -192,8 +192,8 @@ In order to request the capabilities of the protected Geoserver WMS, follow the 
 
 #. Authenticate as `livedvd`/`livedvd` to get access with full permissions or authenticate as `bob`/`bob` to access the service under limited permissions (only `tasmania` layer will be available)
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_authorization_required.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_authorization_required.png
+     :scale: 70 %
 
 .. note::
   If you'd like to request the capabilities with a different user account you have to restart the browser in order to invalidate current user cached credentials
@@ -208,8 +208,8 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
 
 #. Press the :guilabel:`Add WMS Layer` button from the main toolbar (**1**)
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_add_wms_layer.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_add_wms_layer.png
+     :scale: 70 %
 
 #. Press the :guilabel:`New` button (**1**) in order to create a new WMS connection
 
@@ -223,13 +223,13 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
   * `User name` : livedvd (**3**)
   * `Password` : livedvd (**4**)
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_livedvd_wms_connection_properties.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_livedvd_wms_connection_properties.png
+     :scale: 70 %
 
 #. Press the :guilabel:`Connect` button (**1**) to load the WMS layers. The full list of layers will be available for the user `livedvd`
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_livedvd_wms_layers.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_livedvd_wms_layers.png
+     :scale: 70 %
 
 #. Press the :guilabel:`Edit` button (**1**) to edit the connection properties
 
@@ -241,13 +241,13 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
   * `User name` : bob (**1**)
   * `Password` : bob (**2**)
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_bob_wms_connection_properties.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_bob_wms_connection_properties.png
+     :scale: 70 %
 
 #. Press the :guilabel:`Connect` button (**1**) to reload the WMS layers. Only `tasmania` layer will be available for the user `bob`
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_bob_wms_layers.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_bob_wms_layers.png
+     :scale: 70 %
 
 
 
