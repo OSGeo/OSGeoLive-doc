@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Manuel Grizonnet
-:Version: osgeo-live4.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-otb.png
@@ -19,12 +19,15 @@ This Quick Start describes how to:
   * Get metadata informations in an image
   * Perform mathematical operations between image bands
   * Open raster images with the application monteverdi, perform segmentation (mean-shift clustering) and visualize the result
+  * Perform supervised classification based on Support Vector Machine algorithm
 
-The OTB-Applications package provide lot's of interesting tools which facilitate the manipulation of images. All these tools are available through:
+The OTB applications provide lot's of interesting tools which facilitate the manipulation of images. All these tools are available through:
 
   * CLI : command line interface 
-  * QT GUI : in a standalone graphical user interface 
-  * QGIS plugin : as plugin directly usable in Quantum GIS 
+  * GUI : in a standalone graphical user interface (in Qt)
+  * QGIS plugin : available through Sextante
+
+See
 
 Sample data used in this quickstart can be found here:
   * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
@@ -32,17 +35,17 @@ Sample data used in this quickstart can be found here:
 Display metadata informations in an image 
 ================================================================================
 
-You can get all the metadata informations contained in an image with the command : `otbReadImageInfo-cli`
-The unique parameter is the Input image file name, for example : `otbReadImageInfo-cli -in qb_RoadExtract.tif`
+You can get all the metadata informations contained in an image with the command : `otbcli_ReadImageInfo`
+The unique parameter is the Input image file name, for example : `otbcli_ReadImageInfo -in qb_RoadExtract.tif`
 
 Calculator on image bands
 ================================================================================
 
-The `otbBandMath-cli` provides an efficient way to perform mathematical operation on monoband images.
-The syntax is quite simple, for example substrating two bands to study the image differences on the images SpotBefore.tif and SpotAfter.tif, just use the command : `otbBandMath-cli -ims SpotBefore.tif SpotAfter.tif -out difference.tif -exp "im1b1-im2b1"`
+The `otbcli_otbBandMath` provides an efficient way to perform mathematical operation on monoband images.
+The syntax is quite simple, for example substrating two bands to study the image differences on the images SpotBefore.tif and SpotAfter.tif, just use the command : `otbcli_BandMath -il SpotBefore.tif SpotAfter.tif -out difference.tif -exp "im1b1-im2b1"`
 The application is able to perform complex mathematical operations over images (threshold, logarithmic rescaling...).
 This homebrewed digital calculator is also bundled with custom functions allowing to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing:
-`otbBandMath-cli -ims qb_RoadExtract.tif -out ndvi.tif -exp "ndvi(im1b3,im1b4)"`
+`otbcli_BandMath -il qb_RoadExtract.tif -out ndvi.tif -exp "ndvi(im1b3,im1b4)"`
 
 
 Perform segmentation with Monteverdi
@@ -108,9 +111,13 @@ What Next?
 
 .. _tutorials: http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II
 
-* Documentation on DVD
+* OTB Applications documentation
 
-  See also the included documentation_ on this DVD.
+  See also detailed documentation about OTB applications_
+.. _applications: http://orfeo-toolbox.org/Applications/
 
-.. _documentation: ../../otb/
+* OTB courses with Pleiades images
 
+  Follow the courses_ to learn more about OTB.
+
+.. _courses: http://blog.orfeo-toolbox.org/news/new-courses-on-pleiades-images-analysis-with-the-orfeo-toolbox
