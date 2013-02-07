@@ -53,7 +53,7 @@ Core Features
     * Raster
         - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
 
-**Data is served as safe and quick images using the WMS protocol:**
+**Data is served as safe and quick images using WMS and WMTS protocols:**
     As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
     The appearance of each map layer can be controlled using the SLD standard which allows features to be coloured and labeled. By combining these rules with OGC Filters scale dependent styling can be implemented allowing more detail to be added as a user zooms in. Label collision management, grouping and priorities are also implemented.
 
@@ -68,7 +68,10 @@ Core Features
      GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server. 
 
 **WMS Tiling Cache**
-    `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling client. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
+    `GeoWebCache <http://geowebcache.org/>`_ is a WMS tiling service which increases the speed of mapping applications. It runs as a proxy server between a map client and map server, caching tiles as they are requested, eliminating redundant requests and saving large amounts of processing time. GeoWebCache has been integrated into GeoServer.
+
+**Web Processing Service (WPS)**
+    Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can be called through GeoServer's :doc:`WPS <../standards/wps_overview>` interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -76,8 +79,10 @@ Implemented Standards
 Support of numerous Open Geospatial Consortium  (OGC) standards:
 
   * :doc:`../standards/wms_overview`
+  * Web Map Tile Service (WMTS)
   * :doc:`../standards/wfs_overview`, WFS-T (transactional)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
@@ -89,7 +94,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1.3
+**Software Version:** 2.2.2
 
 **Supported Platforms:** All Java 1.5 platforms: - Windows, Linux, Mac
 
