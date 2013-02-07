@@ -350,7 +350,7 @@ In this section we're going to style a layer with some rules and filters, based 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_attr_value.png
      :scale: 70 %   
 
-#. Press the :guilabel:`Add` button (**1**) to add the condition to the filter and the `:guilabel:`Ok` button (**2**) to set the filter to the rule
+#. Press the :guilabel:`Add` button (**1**) to add the condition to the filter and the :guilabel:`Ok` button (**2**) to set the filter to the rule
 
    .. image:: ../../images/screenshots/800x600/kosmo_advanced_style_filter_2.png
      :scale: 70 %   
