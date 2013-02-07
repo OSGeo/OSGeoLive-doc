@@ -84,7 +84,7 @@ Create a new enforcement point
    .. image:: ../../images/screenshots/800x600/52nWSS_create_enforcement_point.png
      :scale: 70 %
 
-#. Fill the new protected server properties:
+#. Fill the new protected server properties
 
    * `ID` : geoserver_localhost (**1**),
    * `Protected Service URL` : http://localhost:8082/geoserver/ows? (**2**)
@@ -106,28 +106,25 @@ Create a new user
      
 #. Open a new terminal emulator by selecting the menu option :menuselection:`Applications --> Accessories --> Terminal Emulator` 
 
-#. Edit the file :file:`users.xml` present at the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/`:
+#. Edit the file :file:`users.xml` present at the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/`::
 
-.. code-block:: bash
-  $ cd /var/lib/tomcat6/webapps/wss/WEB-INF/classes/
-  $ sudo medit users.xml
+    $ cd /var/lib/tomcat6/webapps/wss/WEB-INF/classes/
+    $ sudo medit users.xml
 
-.. note::
-  The users.xml file is only available to users with access to root privileges, which is achieved when using the "sudo" command. You will need to use the password "user" when prompted.  
+#. Add a new user called 'livedvd' by adding the next text as a new entry at <UserRepository> level (**1**)::
 
-#. Add a new user called 'livedvd' by adding the next text as a new entry at <UserRepository> level (**1**):
-
-.. code-block:: none
-  <User  username="livedvd" password="livedvd" realname="LiveDVD">
-    <Role name="livedvd"/>
-  </User>
+    <User  username="livedvd" password="livedvd" realname="LiveDVD">
+      <Role name="livedvd"/>
+    </User>
   
   .. image:: ../../images/screenshots/800x600/52nWSS_users_xml.png
     :scale: 70 %
   
 #. Save the changes and exit medit
 
-
+.. note::
+  The users.xml file is only available to users with access to root privileges, which is achieved when using the "sudo" command. You will need to use the password "user" when prompted.
+  
 
 Adjust new user policies
 --------------------------------------------------------------------------------
@@ -141,43 +138,32 @@ We're going to set up the next policies to the new protected WMS:
 
 #. Return to the terminal emulator window.
 
-#. Edit the file :file:`permissions.xml` present at the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/`:
+#. Edit the file :file:`permissions.xml` present at the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/`::
 
-.. code-block:: bash
-  $ sudo medit permissions.xml
+    $ sudo medit permissions.xml
 
-#. Add a new permission set called `Geoserver localhost` by adding the next text as a new entry at <SimplePermissions> level (**1**):
+#. Add a new permission set called `Geoserver localhost` by adding the next text as a new entry at <SimplePermissions> level (**1**)::
 
-.. TBD: Cameron Review Comment
-  We need a sentence or two describing what restrictions we are about to impose.
-  I think this quickstart describes how to restrict an entire layer? If not too
-  hard to describe, it would be good if we could provide a more advanced
-  restriction. Eg: Restrict access to a particular region that a user has read
-  access to. Or maybe restrict access to a subset of attributes.
-  We should also mention some of the different types of restrictions could be
-  applied. 
+    <PermissionSet name="WMS Geoserver">
+      <ResourceDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
+      <ActionDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
+      <SubjectDomain value="urn:n52:security:subject:role"/>
+      <Permission name="livedvd_all_geoserver">
+        <Resource value="layers/*"/>
+        <!-- Any layers -->
+        <Action value="operations/*"/>
+        <!-- Any operations -->
+        <Subject value="livedvd"/>
+      </Permission>
+      <Permission name="bobAndGuest_most_GetMap_GetCaps_geoserver">
+        <Resource value="layers/tasmania"/>
+        <Action value="operations/GetCapabilities"/>
+        <Action value="operations/GetMap"/>
+        <Subject value="bob"/>
+        <Subject value="guest"/>
+      </Permission>
+    </PermissionSet>
 
-.. code-block:: none
-  <PermissionSet name="WMS Geoserver">
-    <ResourceDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
-    <ActionDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
-    <SubjectDomain value="urn:n52:security:subject:role"/>
-    <Permission name="livedvd_all_geoserver">
-      <Resource value="layers/*"/>
-      <!-- Any layers -->
-      <Action value="operations/*"/>
-      <!-- Any operations -->
-      <Subject value="livedvd"/>
-    </Permission>
-	  <Permission name="bobAndGuest_most_GetMap_GetCaps_geoserver">
-      <Resource value="layers/tasmania"/>
-      <Action value="operations/GetCapabilities"/>
-      <Action value="operations/GetMap"/>
-      <Subject value="bob"/>
-      <Subject value="guest"/>
-    </Permission>
-  </PermissionSet>
-  
   .. image:: ../../images/screenshots/800x600/52nWSS_permissions_xml.png
     :scale: 70 %
 
@@ -191,9 +177,8 @@ In order to load the users and permissions changes, it's necessary to restart th
 
 #. Return to the terminal emulator window.
 
-#. Restart the tomcat service: 
+#. Restart the tomcat service::
 
-.. code-block:: bash
   $ sudo service tomcat6 restart
 
 
@@ -221,17 +206,17 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
 
 #. The application will take a few seconds to start (a splash screen is shown while loading)
 
-#. Press the :guilabel:`Add WMS Layer` button from the main toolbar (**1**):
+#. Press the :guilabel:`Add WMS Layer` button from the main toolbar (**1**)
 
   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_add_wms_layer.png
     :scale: 70 %
 
-#. Press the :guilabel:`New` button (**1**) in order to create a new WMS connection:
+#. Press the :guilabel:`New` button (**1**) in order to create a new WMS connection
 
   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_new_wms_connection.png
     :scale: 70 %
 
-#. Set the connection properties and press :guilabel:`Ok` button (**5**) to create the connection:  
+#. Set the connection properties and press :guilabel:`Ok` button (**5**) to create the connection
 
   * `Name` : geoserver (**1**),
   * `URL` : http://localhost:8080/wss/service/geoserver_localhost/httpauth (**2**)
@@ -241,17 +226,17 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
   .. image:: ../../images/screenshots/800x600/52nWSS_livedvd_wms_connection_properties.png
     :scale: 70 %
 
-#. Press the :guilabel:`Connect` button (**1**) to load the WMS layers. The full list of layers will be available for the user `livedvd`:
+#. Press the :guilabel:`Connect` button (**1**) to load the WMS layers. The full list of layers will be available for the user `livedvd`
 
   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_livedvd_wms_layers.png
     :scale: 70 %
 
-#. Press the :guilabel:`Edit` button (**1**) to edit the connection properties:
+#. Press the :guilabel:`Edit` button (**1**) to edit the connection properties
 
   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_edit_wms_connection.png
     :scale: 70 %
 
-#. Set the connection properties again and press :guilabel:`Ok` button (**3**) to edit the connection:  
+#. Set the connection properties again and press :guilabel:`Ok` button (**3**) to edit the connection
 
   * `User name` : bob (**1**)
   * `Password` : bob (**2**)
@@ -259,7 +244,7 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
   .. image:: ../../images/screenshots/800x600/52nWSS_bob_wms_connection_properties.png
     :scale: 70 %
 
-#. Press the :guilabel:`Connect` button (**1**) to reload the WMS layers. Only `tasmania` layer will be available for the user `bob`:
+#. Press the :guilabel:`Connect` button (**1**) to reload the WMS layers. Only `tasmania` layer will be available for the user `bob`
 
   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_bob_wms_layers.png
     :scale: 70 %
