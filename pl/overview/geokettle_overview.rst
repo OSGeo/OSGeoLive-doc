@@ -92,12 +92,12 @@ Główne funkcje
   * Ekosystem wtyczek
 
 Zaimplementowane standardy
----------------------
+--------------------------
 
 * Zgodny ze standardami OGC (SFS, CSW, SOS)
 
 Szczegóły
--------
+-------------
 
 **Strona internetowa:** http://www.geokettle.org/
 
