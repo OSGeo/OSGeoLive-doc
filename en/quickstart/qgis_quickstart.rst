@@ -147,103 +147,124 @@ Using the GRASS Toolbox
 ================================================================================
 
 There have been many plugins written for QGIS which extend QGIS's core
-functionality. We will now look at the GRASS plugin.
+functionality. One of the more powerful is the GRASS plugin, which taps
+into the hundreds of geospatial processing modules available
+from :doc:`GRASS GIS <../overview/grass_overview>`.
 
-.. TBD: Cameron's review comments:
-  Explain what functionality the GRASS function provides.
+#. Clear the slate with :menuselection:`File --> New Project`.
 
-.. TBD: Cameron's review comments:
-  In some of the steps below, we need to explain why we are about to do the step. "In order to XXX, press the YYY button, then ..." or "We will now XXX. Open the ..."
-
-#. Choose :menuselection:`File --> New Project`.
-
-#. Choose :menuselection:`Plugins --> Manage Plugins`.
+#. Choose :menuselection:`Plugins --> Manage Plugins`, then scroll down or type ``grass`` into the Filter box, and select the `GRASS` plugin.
 
 .. TBD: Cameron's review comments:
   Screen shot here, show menu, which has been scrolled to show GRASS, ticked.
 
-#. Select the `GRASS` plugin. Then click :guilabel:`Ok`.
+   * Notice that a new `GRASS` icon has been added to the Toolbar, and a new `GRASS` menu item has been added to the `Plugins` menu.
 
-   * Notice that a new `GRASS` menu icon has been added to the Toolbar.
+#. Connect to an existing `GRASS` workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
 
-.. TBD: Cameron's review comments:
-  What does the follow step do?
+   * The `GRASS GIS` data base (Gisdbase) has already been set to `~/grassdata` on the disc for you.
 
-#. Choose :menuselection:`Plugins --> GRASS --> Open mapset`.
+#. Within the central `GRASS` data base are a number of sample datasets. We'll load the North Carolina location, and the ``user1`` mapset within it. Choose the `nc_basic_smp` Location and `user1` working mapset, then click :guilabel:`Ok`.
 
-   * The GRASS GIS data base will be automatically set to `~/grassdata` on the disc.
+#. To add a map to the QGIS layer list, choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
 
-.. TBD: Cameron's review comments:
-  What does the follow step do?
+   * In the PERMANENT mapset select the `elevation_shade` map and click :guilabel:`Ok`.
 
-#. Choose the `nc_basic_smp` Location and `user1` working mapset, then click :guilabel:`Ok`.
+.. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
+  :scale: 40 %
+  :alt: screenshot of GRASS GIS layers loaded into QGIS
+  :align: right
 
-#. Choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
-
-   * Select the PERMANENT mapset, then select the `elevation_shade` map and click :guilabel:`Ok`.
-
-.. TBD: Cameron's review comments:
-  Screen shot here.
+#. Add another `GRASS` raster layer, this time the `elevation` map from the PERMANENT mapset.
 
    * Double click on the `elevation` map in the QGIS layer list and set its transparency to 65%.
 
-#. Choose :menuselection:`Plugins --> GRASS --> Add GRASS vector layer`.
+#. To add a vector map, choose :menuselection:`Plugins --> GRASS --> Add GRASS vector layer`.
 
    * From the PERMANENT mapset select the `roadsmajor` map and click :guilabel:`Ok`.
 
-You also have access to many of the powerful GRASS analysis modules.
+The plugin also gives you access to many of the powerful GRASS analysis
+modules and visualization tools.
 
-.. TBD: Earlier review comments:
-.. maybe describe a raster processing task instead of a NVIZ one?
+.. HB: We could go through a grass processing module here (e.g. r.sun), but
+  probably it gets too long and a fTools or SEXTANTE module could take on that
+  role. Here we show off NVIZ as it brings 3D visualization capability to
+  QGIS, and people do like the shiny. It is helpful to go through the g.region
+  housecleaning step next, so for now we'll use that as the example of how to
+  run a module.
 
-.. TBD: Cameron review comments:
-  We need to describe what this algorithm is going to do for us. Eg:
-  "A commonly used GRASS algorithm is the XXX, which is used for YYY. Lets
-  try that now. ..."
-  I'm not going to comment further on this, as we might decide to change
-  the algorithm. Whatever algorithm is chosen, it will require more
-  screen shots.
+#. From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS tools` and drag the edge to make the window a bit bigger.
 
-#. Choose :menuselection:`Plugins --> GRASS --> Open GRASS tools`.
+   * A long list of analysis tools will appear. Go to the `Module Tree` tab and select :menuselection:`Region settings --> g.region.multiple.raster`. Clicking on it will open a new tab. Simply type ``elevation`` for the raster map name and press :guilabel:`Ok`. The `elevation` map will now have a thin red line around it, indicating the extent of GRASS's `computational region` bounds.
 
-   * A long list of analysis tools will appear.
+#. Back in the `Module Tree` tab of the `GRASS Tools` window, go down to :menuselection:`3d Visualization` and select `NVIZ`. You may need to drag the corner of the toolbox window again to make it a bit larger to see all the options.
 
-#. Type ``nviz`` into the Modules List's Filter box then select `NVIZ`. You may need to drag the corner of the toolbox window to make it a bit larger.
-
-#. In the new module tab that pops open, select the `elevation` map as the map for elevation. Then depress the rectangle with red corners button on the right of the map name to use the region bounds and resolution of that map. The computational region is a core theme in GRASS raster processing.
+#. In the new module tab that pops open, select the `elevation` map as the map for elevation. Then depress the rectangle with red corners button on the right of the map name to use the region bounds and resolution of that map. As mentioned earlier, the `computational region` is a core theme in GRASS raster processing.
 
 #. Select `roadsmajor` for the vector overlay, then click :guilabel:`Run`.
 
 #. Once the NVIZ 3D view opens, maximize the window and drag the positioning puck in the compass box on the left to a nice view.
 
-#. Choose :menuselection:`Visualize --> Raster surfaces` and set the `fine` resolution to 1, then click the green :guilabel:`DRAW` button in the top left and wait while it renders.
+#. Choose :menuselection:`Visualize --> Raster surfaces` and set the `fine` resolution to 1, then if needed click the green :guilabel:`DRAW` button in the top left and wait while it renders.
 
 
-Using the Sextante Toolbox
+Using the SEXTANTE Toolbox
 ================================================================================
 
+Another major plugin for QGIS which opens the door to a large family of
+processing tools is the `SEXTANTE <http://www.sextantegis.com/>`_ Toolbox.
+It acts as a standardized wrapper around a number of other sets to tools.
+
 .. TBD: Cameron's review comments:
-  I'd suggest that we should either include GRASS or Sextante, as I assume
-  they introduce similar concepts of using plugins?
   If we are to include Sextante, then we need to describe using one of the
   Sextane features.
-  I suggest that it would be better to say: "Why don't you now explore other
-  QGIS plugins. For instance, why not try the XXX algorithm in the Sextante plugin."
-#. Choose :menuselection:`Plugins --> Manage Plugins`.
 
-#. Type ``sextante`` into the Filter box and select the `SEXTANTE` plugin. Then click :guilabel:`Ok`.
+#. To enable it, choose :menuselection:`Plugins --> Manage Plugins`, then scroll down or type ``sextante`` into the Filter box and select the `SEXTANTE` plugin. Then click :guilabel:`Ok`.
 
    * A new `Analysis` menu and toolbar will appear.
 
 #. Choose :menuselection:`Analysis --> Sextante Toolbox`.
 
-   * A new toolbar will open on the right side of the screen with many processing tools to choose from.
+   * A new toolbar will open on the right side of the screen with many processing tools to choose from. Take some time and have a look around.
 
 
-.. TBD: Cameron's review comments:
-  I've removed the section describing how to add an OpenStreetMap plugin
-  as it is not describing anything specifically different to the other plugins.
+Using the OpenStreetMap plugin
+================================================================================
 
+.. HB: I've re-added the OSM plugin as it's the richest vector data set on the
+  disc and it's just a darn pretty demo within QGIS.
+
+#. Open the Terminal Emulator from the Xubutu :menuselection:`Applications --> Accessories` menu.
+
+   * Cut and paste the following commands into the Terminal window to create a working copy of the OSM data in the home directory:
+
+::
+
+  cp data/osm/feature_city_CBD.osm.bz2 .
+  bzip2 -d feature_city_CBD.osm.bz2
+
+#. In QGIS, choose :menuselection:`File --> New Project`. If you had the SEXTANTE Toolbox open you might want to close it.
+
+#. Choose :menuselection:`Plugins --> Manage Plugins`.
+
+.. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
+  :scale: 40 %
+  :alt: screenshot of GRASS GIS layers loaded into QGIS
+  :align: right
+
+#. Scroll down or type ``open`` into the Filter box and select the `OpenStreetMap` plugin. Then click :guilabel:`Ok`.
+
+   * A new `Web` menu and toolbar will appear and a toolbar on the right side of the map canvas.
+
+#. Choose :menuselection:`Web --> OpenStreetMap --> Load OSM from file`.
+
+#. Click on the "..." button and select the `feature_city_CBD.osm` file you just copied into the home directory.
+
+#. Tick the `name`, `highway`, and `amenity` check boxes.
+
+#. Choose :guilabel:`Medium scale` rendering, then click :guilabel:`Ok`.
+
+#. You can now explore this rich dataset. Use the ``i`` information cursor button in the `OSM Feature Manger` side-toolbar to query individal map features.
 
 
 What Next?
@@ -255,7 +276,7 @@ as `OSGeo-Live QGIS tutorials`_.
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage.
 
-`A Gentle Introduction to GIS`_ `[1]`_ and the `QGIS User Guide`_ `[2]`_ are also included on OSGeo-Live.
+`A Gentle Introduction to GIS eBook`_ `[1]`_ and the `QGIS User Guide`_ `[2]`_ are also included on OSGeo-Live.
 
 .. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
@@ -263,3 +284,4 @@ the QGIS homepage.
 .. _`QGIS User Guide`: http://docs.qgis.org/html/en/docs/user_manual/index.html
 .. _`[1]`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
 .. _`[2]`: ../../qgis/QGIS-1.8-UserGuide-en.pdf
+
