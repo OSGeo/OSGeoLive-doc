@@ -111,7 +111,7 @@ Create a new user
     $ cd /var/lib/tomcat6/webapps/wss/WEB-INF/classes/
     $ sudo medit users.xml
 
-#. Add a new user called 'livedvd' by adding the next text as a new entry at <UserRepository> level (**1**)::
+#. Add a new user called `livedvd` by adding the next text as a new entry at <UserRepository> level (**1**)::
 
     <User  username="livedvd" password="livedvd" realname="LiveDVD">
       <Role name="livedvd"/>
@@ -178,7 +178,7 @@ In order to load the users and permissions changes, it's necessary to restart th
 
 #. Restart the tomcat service::
 
-  $ sudo service tomcat6 restart
+    $ sudo service tomcat6 restart
 
 
 
