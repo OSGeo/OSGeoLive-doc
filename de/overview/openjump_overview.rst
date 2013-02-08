@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-openjump.png
@@ -21,17 +22,17 @@ Es ist außerdem sehr gut zur schnellen Entwicklung von Prototypen mit angepasst
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
-  :align: center
+  :align: right
 
 Kernfunktionen
 --------------------------------------------------------------------------------
 
 * Datenformate
 
-    * lesend (dateibasiert): GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
-    * lesend (DB): PostGIS, ArcSDE*, Oracle* und MySQL*
-    * schreibend: GML, SHP, DXF*, PostGIS*, JML & JPG
-    * unterstützt: OGC WMS & WFS (-T), GML 2, SLD
+    * lesend (dateibasiert): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW*
+    * lesend (DB): PostGIS, ArcSDE*, Oracle*, MySQL* und SpatiaLite*
+    * lesend: (OGC Standards) : WKT, WMS
+    * schreibend: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF und SVG*
     * beachten Sie, dass die mit * markierten Formate über ein extra Plugin eingebunden werden
 
 * Bearbeitung & Vereinigung
@@ -52,6 +53,7 @@ Kernfunktionen
 
 * Anpassungen
 
+    * internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
     * Bereitstellung einer API, Skripting über BeanShell und Java Python
     * (Java) Plugin-System
    
@@ -61,7 +63,7 @@ Implementierte Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
+* OGC standards supported: GML2, SFS, WMS und SLD; (WFS für :doc:`deegree <deegree_overview>`)
 
 Details
 --------------------------------------------------------------------------------
@@ -70,13 +72,15 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 1.5.1
+**Software Version:** 1.5.2 (Core Edition)
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
 **Community Support:** http://www.openjump.org/support.html
 
-**Kommerzieller Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+**Komerzieller Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+
+**Download:** http://sourceforge.net/projects/jump-pilot/files/ 
 
 Quickstart
 --------------------------------------------------------------------------------
