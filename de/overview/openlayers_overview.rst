@@ -1,6 +1,8 @@
 :Author: Chris Schmidt
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Author: Roald de Wit 
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
@@ -47,7 +49,7 @@ Kernfunktionen
   
   * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
   
-  * Andere: ArcGIS, Images, MapGuide, MapServer, TileCache
+  * Andere: OpenStreetMap (OSM), ArcGIS, Images, MapGuide, MapServer, TileCache
 
 * Fähigkeit, Vektordaten und Metadaten in verschiedenen Formaten zu lesen:
   
@@ -60,11 +62,12 @@ Details
 
 **Lizenz:** MIT-style license
 
-**Software Version:** 2.11
+**Software Version:** 2.12
 
 **API Schnittstellen:** JavaScript
 
-**Support:** http://trac.openlayers.org 
+**Support:** https://github.com/openlayers/openlayers 
+
 
 Quickstart
 --------------------------------------------------------------------------------
