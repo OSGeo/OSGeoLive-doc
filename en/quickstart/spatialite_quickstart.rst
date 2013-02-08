@@ -111,8 +111,6 @@ Using spatialite-gis
 Spatialite-gis is a simple viewer for spatialite based layers.
 
 .. TBD: Cameron Review Comment:
-  In OSGeo-Livebeta1, spatialite-gis is not selectable from the OSGeo-Live menu.
-  It needs to be selected from the command line.
   If this section is included, it requires a number of screen shots.
 
 * From the Desktop GIS folder on the Desktop run spatialite-gis
@@ -142,12 +140,6 @@ Users needing to script or automate queries will learn the advantages of working
    .help
    .tables
    .quit   
-
-.. TBD: Cameron Review
-  For the information of the author:
-  I've removed the "Sample spatial queries". While useful, a quickstart
-  should just focus on the specific example being presented.
-  This comment can be removed once read.
 
 * Creating a new spatialite database and loading a shapefile
   
