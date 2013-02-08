@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
-:Version: osgeo-live5.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-R.jpg
@@ -22,7 +23,7 @@ Mit R wird hauptsächlich auf der Kommandozeile gearbeitet. Dies bietet eine gro
 
 R ist eine Implemetierung der S Programmiersprache und es besteht eine signifikante Kompatibilität zwischen R und dem älteren S und S-Plus Code, sowie zwischen R und der modernen kommerziellen Versionen von S, TIBCO Spotfire S+. Diese Kompatibilität ermöglicht es, verschiedene Versionen von S Code als R ohne große Anpassungen laufen zu lassen.
 
-.. image:: ../../images/screenshots/1024x768/r-perspective.png
+.. image:: ../../images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -48,7 +49,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 2.14.1
+**Software Version:** 2.15.2
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
