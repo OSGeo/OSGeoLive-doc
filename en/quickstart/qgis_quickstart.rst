@@ -46,14 +46,14 @@ Edit QGIS project
 Let's start by opening up an existing QGIS project, and turning layers on and
 off.
 
+.. TBD: Cameron's review comments:
+  Screen shot here (showing menu selection with NaturalEarth highlighted)
+
 #. Click :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
 
 #. Choose :menuselection:`File --> Open Project...` from the menu bar.
 
 #. Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
-
-.. TBD: Cameron's review comments:
-  Screen shot here (showing menu selection with NaturalEarth highlighted)
 
    * You should see a world map.
 
@@ -80,19 +80,17 @@ Style a layer
 
 Now lets try customising the style of the map.
 
+.. TBD: Cameron's review comments:
+  Screen shot or two here
+
 #. Double click **ne_10m_rivers_lake_centerlines** in the Layers tree.
 
 #. Change the color in Outline Options to a different color, say yellow.
-
-.. TBD: Cameron's review comments:
-  Screen shot here
 
 #. Press :guilabel:`OK`.
 
    * Notice that rivers are now rendered in your new color.
 
-.. TBD: Cameron's review comments:
-  Screen shot here
 
 Create a new QGIS project
 ================================================================================
@@ -122,26 +120,27 @@ Connect to a PostGIS spatial database
 
 Let's now include a layer from a Postgres database.
 
+.. TBD: Cameron's review comments:
+  Screen shot here
+
 #. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
 
-   * On OSGeo-Live, both Natural Earth and OpenStreetMap Postgis databases
+   * Both Natural Earth and OpenStreetMap Postgis databases
      are already available. We will use the Natural Earth database.
      If you wanted to add a new database, you would select the :guilabel:`New`
      button and fill in the database parameters.
-
-.. TBD: Cameron's review comments:
-  Screen shot here
 
 #. Select the "Natural Earth" connection and press :guilabel:`Connect`.
 
    * A list of database tables will appear.
 
-.. TBD: Cameron's review comments:
-  Screen shot here
-
 #. Select ``ne_10_populated_places`` and click :guilabel:`Add`.
 
    * For more details about selecting a Postgis database, see the :doc:`PostGIS Quickstart <postgis_quickstart>`.
+
+.. TBD: Cameron's review comments:
+  Screen shot here
+
 
 Using the GRASS Toolbox
 ================================================================================
@@ -151,31 +150,31 @@ functionality. One of the more powerful is the GRASS plugin, which taps
 into the hundreds of geospatial processing modules available
 from :doc:`GRASS GIS <../overview/grass_overview>`.
 
+.. TBD: Cameron's review comments:
+  Screen shot here, show toolbox menu, which has been scrolled down to show GRASS, ticked.
+
 #. Clear the slate with :menuselection:`File --> New Project`.
 
 #. Choose :menuselection:`Plugins --> Manage Plugins`, then scroll down or type ``grass`` into the Filter box, and select the `GRASS` plugin.
 
-.. TBD: Cameron's review comments:
-  Screen shot here, show menu, which has been scrolled to show GRASS, ticked.
+   * Notice that a new GRASS icon has been added to the Toolbar, and a new `GRASS` menu item has been added to the `Plugins` menu.
 
-   * Notice that a new `GRASS` icon has been added to the Toolbar, and a new `GRASS` menu item has been added to the `Plugins` menu.
+#. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
 
-#. Connect to an existing `GRASS` workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
+   * The GRASS GIS data base (Gisdbase) has already been set to `~/grassdata` on the disc for you.
 
-   * The `GRASS GIS` data base (Gisdbase) has already been set to `~/grassdata` on the disc for you.
-
-#. Within the central `GRASS` data base are a number of sample datasets. We'll load the North Carolina location, and the ``user1`` mapset within it. Choose the `nc_basic_smp` Location and `user1` working mapset, then click :guilabel:`Ok`.
+#. Within the central GRASS data base are a number of sample datasets. We'll load the North Carolina location, and the ``user1`` mapset within it. Choose the `nc_basic_smp` Location and `user1` working mapset, then click :guilabel:`Ok`.
 
 #. To add a map to the QGIS layer list, choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
 
    * In the PERMANENT mapset select the `elevation_shade` map and click :guilabel:`Ok`.
 
-.. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
-  :scale: 40 %
-  :alt: screenshot of GRASS GIS layers loaded into QGIS
-  :align: right
+     .. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
+       :scale: 50 %
+       :alt: screenshot of GRASS GIS layers loaded into QGIS
+       :align: right
 
-#. Add another `GRASS` raster layer, this time the `elevation` map from the PERMANENT mapset.
+#. Add another GRASS raster layer, this time the `elevation` map from the PERMANENT mapset.
 
    * Double click on the `elevation` map in the QGIS layer list and set its transparency to 65%.
 
@@ -183,8 +182,9 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
    * From the PERMANENT mapset select the `roadsmajor` map and click :guilabel:`Ok`.
 
+
 The plugin also gives you access to many of the powerful GRASS analysis
-modules and visualization tools.
+modules and visualization tools:
 
 .. HB: We could go through a grass processing module here (e.g. r.sun), but
   probably it gets too long and a fTools or SEXTANTE module could take on that
@@ -238,19 +238,19 @@ Using the OpenStreetMap plugin
 
    * Cut and paste the following commands into the Terminal window to create a working copy of the OSM data in the home directory:
 
-::
-
-  cp data/osm/feature_city_CBD.osm.bz2 .
-  bzip2 -d feature_city_CBD.osm.bz2
+     ::
+     
+       cp data/osm/feature_city_CBD.osm.bz2 .
+       bzip2 -d feature_city_CBD.osm.bz2
 
 #. In QGIS, choose :menuselection:`File --> New Project`. If you had the SEXTANTE Toolbox open you might want to close it.
 
 #. Choose :menuselection:`Plugins --> Manage Plugins`.
 
-.. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
-  :scale: 40 %
-  :alt: screenshot of GRASS GIS layers loaded into QGIS
-  :align: right
+   .. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
+     :scale: 50 %
+     :alt: screenshot of GRASS GIS layers loaded into QGIS
+     :align: right
 
 #. Scroll down or type ``open`` into the Filter box and select the `OpenStreetMap` plugin. Then click :guilabel:`Ok`.
 
@@ -276,7 +276,7 @@ as `OSGeo-Live QGIS tutorials`_.
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage.
 
-`A Gentle Introduction to GIS eBook`_ `[1]`_ and the `QGIS User Guide`_ `[2]`_ are also included on OSGeo-Live.
+`A Gentle Introduction to GIS`_ `[1]`_ eBook and the `QGIS User Guide`_ `[2]`_ are also included on OSGeo-Live.
 
 .. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentation page`: http://www.qgis.org/en/documentation.html
