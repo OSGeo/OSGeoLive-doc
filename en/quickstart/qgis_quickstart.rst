@@ -43,7 +43,7 @@ This Quick Start describes how to:
 Edit QGIS project
 ================================================================================
 
-Lets start by opening up an existing QGIS project, and turning layers on and
+Let's start by opening up an existing QGIS project, and turning layers on and
 off.
 
 #. Click :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
@@ -97,7 +97,7 @@ Now lets try customising the style of the map.
 Create a new QGIS project
 ================================================================================
 
-Lets now create a new QGIS project and load our own data.
+Let's now create a new QGIS project and load our own data.
 
 #. Choose :menuselection:`File --> New Project`.
 
@@ -120,7 +120,7 @@ Connect to a PostGIS spatial database
   as OSM extent changes between releases, which means screenshots from
   this quickstart would become dated.
 
-Lets now include a layer from a Postgres database.
+Let's now include a layer from a Postgres database.
 
 #. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
 

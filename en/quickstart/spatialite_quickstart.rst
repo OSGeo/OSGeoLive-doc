@@ -7,7 +7,7 @@
 
 .. TBD: Cameron Review
   We need to explain in words what we aim to achieve by each 
-  step. Eg: "Lets find all Villas which include have a geometry and ..."
+  step. Eg: "Let's find all Villas which include have a geometry and ..."
   This will require an extra sentence for most steps.
 
 
@@ -38,7 +38,7 @@ spatialite database. You can easily see the structure of the tables and data
 contents using point and click functions, many of which construct
 common SQL queries, or craft your own SQL queries.
 
-Lets start by viewing a spatialite database, and looking at columns within a
+Let's start by viewing a spatialite database, and looking at columns within a
 table:
 
 * Open the Spatialite GUI by selecting :menuselection:`Geospatial->Databases->Spatialite GUI`
