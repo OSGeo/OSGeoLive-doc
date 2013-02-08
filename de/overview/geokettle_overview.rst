@@ -1,6 +1,7 @@
 :Author: Thierry Badard 
 :Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geokettle.png
@@ -98,7 +99,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 2.0-RC1
+**Software Version:** 2.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Solaris
 

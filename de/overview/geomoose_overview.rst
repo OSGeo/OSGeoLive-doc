@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: ../../images/project_logos/logo-geomoose_w-title.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -30,9 +30,8 @@ Die Daten können von unterschiedlichen Verwaltern mit unterschiedliche Werkzeug
 
 Das Benutzerinterface ist leicht zu konfigurieren und zusätzliche Dienste können über eine modulare Architektur hinzugefügt werden.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
-  :scale: 55 %
-  :alt: Bildschirmfoto GeoMOOSE
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+  :alt: GeoMoose Screenshot
   :align: right
 
 Kernfunktionen
@@ -53,6 +52,8 @@ Kernfunktionen
 Implementierte Standards
 --------------------------------------------------------------------------------
 * WMS
+* WFS (client)
+* WFS-T (client)
 
 Details
 --------------------------------------------------------------------------------
@@ -61,7 +62,7 @@ Details
 
 **Lizenz:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Software Version:** 2.4
+**Software Version:** 2.6.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
