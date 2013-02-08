@@ -1,6 +1,7 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
@@ -63,12 +64,16 @@ Kernfunktionen
 **WMS Kachelung**
     `GeoWebCache <http://geowebcache.org/>`_ ist ein WMS Kachelungs-Client. GeoWebCache fungiert als Proxy Server zwischen einem Karten-Client und einem Karten-Server, wobei Karten beim Anfordern gespeichert werden, redundante Anfragen werden umgangen und es wird ein großer Anteil der Prozessierungszeit eingespart. GeoWebCache wurde in GeoServer integriert.
 
+**Web Processing Service (WPS)**
+    Räumliche Algorithmen, inklusive der :doc:`JTS <jts_overview>` Algorithme, können über GeoServer's :doc:`WPS <../standards/wps_overview>` Interface aufgerufen werden. Dies beinhaltet das Verketten von Prozessen und verwendet Renderingtransformationen, um eine beeindruckende Darstellungdurch das WMS Interface zu erzeugen.
+
 Implementierte Standards
 --------------------------------------------------------------------------------
 
 * Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards:
 
   * :doc:`../standards/wms_overview`
+  * Web Map Tile Service (WMTS)
   * :doc:`../standards/wfs_overview`, WFS-T (transaktional)
   * :doc:`../standards/wcs_overview`
   * :doc:`../standards/fe_overview`
@@ -82,7 +87,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.1.3
+**Software Version:** 2.2.2
 
 **Unterstützte Plattformen:** Alle Java 1.5 Plattformen: - Windows, Linux, Mac
 
