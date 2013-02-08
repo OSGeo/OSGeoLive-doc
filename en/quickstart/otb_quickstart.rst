@@ -114,6 +114,7 @@ What Next?
 * OTB Applications documentation
 
   See also detailed documentation about OTB applications_
+
 .. _applications: http://orfeo-toolbox.org/Applications/
 
 * OTB courses with Pleiades images
@@ -121,3 +122,4 @@ What Next?
   Follow the courses_ to learn more about OTB.
 
 .. _courses: http://blog.orfeo-toolbox.org/news/new-courses-on-pleiades-images-analysis-with-the-orfeo-toolbox
+
