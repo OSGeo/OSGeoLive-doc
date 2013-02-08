@@ -123,18 +123,17 @@ Create a new user
 #. Save the changes and exit medit
 
 .. note::
-  The users.xml file is only available to users with access to root privileges, which is achieved when using the "sudo" command. You will need to use the password "user" when prompted.
+  The users.xml file is only available to users with access to root privileges, which is achieved when using the "sudo" command. You will need to use the password "user" if prompted.
 
 
 Adjust new user policies
 --------------------------------------------------------------------------------
 
-We're going to set up the next policies to the new protected WMS:
+Now we will set up the following access policies for the newly protected WMS:
 
 * User `livedvd` -> Full access to all the layers from the WMS
 * Users `bob` and `guest` -> Access only to the layer `tasmania`
 * Other users -> Access not authorized to the WMS 
-
 
 #. Return to the terminal emulator window.
 
@@ -142,7 +141,7 @@ We're going to set up the next policies to the new protected WMS:
 
     $ sudo medit permissions.xml
 
-#. Add a new permission set called `Geoserver localhost` by adding the next text as a new entry at <SimplePermissions> level (**1**)::
+#. Add a new permission set called `Geoserver localhost` by adding the following text as a new entry at <SimplePermissions> level (**1**)::
 
     <PermissionSet name="Geoserver localhost">
       <ResourceDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
