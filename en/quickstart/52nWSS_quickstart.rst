@@ -144,7 +144,7 @@ We're going to set up the next policies to the new protected WMS:
 
 #. Add a new permission set called `Geoserver localhost` by adding the next text as a new entry at <SimplePermissions> level (**1**)::
 
-    <PermissionSet name="WMS Geoserver">
+    <PermissionSet name="Geoserver localhost">
       <ResourceDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
       <ActionDomain value="http://localhost:8080/wss/service/geoserver_localhost/*"/>
       <SubjectDomain value="urn:n52:security:subject:role"/>
@@ -213,15 +213,15 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
 
 #. Press the :guilabel:`New` button (**1**) in order to create a new WMS connection
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_new_wms_connection.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_new_wms_connection.png
+     :scale: 70 %
 
 #. Set the connection properties and press :guilabel:`Ok` button (**5**) to create the connection
 
-  * `Name` : geoserver (**1**),
-  * `URL` : http://localhost:8080/wss/service/geoserver_localhost/httpauth (**2**)
-  * `User name` : livedvd (**3**)
-  * `Password` : livedvd (**4**)
+   * `Name` : geoserver (**1**),
+   * `URL` : http://localhost:8080/wss/service/geoserver_localhost/httpauth (**2**)
+   * `User name` : livedvd (**3**)
+   * `Password` : livedvd (**4**)
 
    .. image:: ../../images/screenshots/800x600/52nWSS_livedvd_wms_connection_properties.png
      :scale: 70 %
@@ -233,13 +233,13 @@ Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_ove
 
 #. Press the :guilabel:`Edit` button (**1**) to edit the connection properties
 
-  .. image:: ../../images/screenshots/800x600/52nWSS_qgis_edit_wms_connection.png
-    :scale: 70 %
+   .. image:: ../../images/screenshots/800x600/52nWSS_qgis_edit_wms_connection.png
+     :scale: 70 %
 
 #. Set the connection properties again and press :guilabel:`Ok` button (**3**) to edit the connection
 
-  * `User name` : bob (**1**)
-  * `Password` : bob (**2**)
+   * `User name` : bob (**1**)
+   * `Password` : bob (**2**)
 
    .. image:: ../../images/screenshots/800x600/52nWSS_bob_wms_connection_properties.png
      :scale: 70 %
