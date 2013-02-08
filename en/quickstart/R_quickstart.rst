@@ -95,7 +95,7 @@ generate these things. Here's a simple sequence:
 
 ::
 
-    > seq(1,5,len=10)
+    > seq(1, 5, len=10)
     [1] 1.000000 1.444444 1.888889 2.333333 2.777778 3.222222 3.666667 4.111111
     [9] 4.555556 5.000000
 
@@ -106,7 +106,7 @@ If you construct a matrix you get row and column labels:
 
 ::
 
-	> m=matrix(1:12,3,4)
+	> m = matrix(1:12, 3, 4)
 	> m
 	     [,1] [,2] [,3] [,4]
 	[1,]    1    4    7   10
@@ -141,7 +141,7 @@ using $-notation:
 
 ::
 
-	> d = data.frame(x=1:10,y=1:10,z=runif(10)) # z is 10 random numbers
+	> d = data.frame(x=1:10, y=1:10, z=runif(10)) # z is 10 random numbers
 	> d
 	        x  y          z 
 	    1   1  1 0.44128080 
@@ -208,7 +208,7 @@ field to subset the world data and just get the UK:
 
 ::
 
-	> uk = countries[countries$admin=="United Kingdom",]
+	> uk = countries[countries$admin == "United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
 .. image:: ../../images/screenshots/1024x768/r_plot2.png
@@ -228,14 +228,14 @@ to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:
 
 ::
 
-	> proj4string(uk)=CRS("+init=epsg:4326")
+	> proj4string(uk) = CRS("+init=epsg:4326")
 	> library(rgdal)
-	> ukos = spTransform(uk,CRS("+init=epsg:27700"))
+	> ukos = spTransform(uk, CRS("+init=epsg:27700"))
 	> proj4string(ukos)
 	[1] " +init=epsg:27700 +proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +datum=OSGB36 +units=m +no_defs
 	+towgs84=446.448,-125.157,542.060,0.1502,0.2470,0.8421,-20.4894"
 
-	> plot(ukos);axis(1);axis(2)
+	> plot(ukos); axis(1); axis(2)
 
 This plots the base map of the transformed data. Now we want to add some points from the 
 populated place data set. Again we subset the points we want and transform them to
@@ -243,16 +243,16 @@ Ordnance Survey Grid Reference coordinates:
 
 ::
 
-	> ukpop = places[places$ADM0NAME=="United Kingdom",]
-	> proj4string(ukpop)=CRS("+init=epsg:4326")
-	> ukpop = spTransform(ukpop,CRS("+init=epsg:27700"))
+	> ukpop = places[places$ADM0NAME == "United Kingdom",]
+	> proj4string(ukpop) = CRS("+init=epsg:4326")
+	> ukpop = spTransform(ukpop, CRS("+init=epsg:27700"))
 
 We add these points to the base map, scaling their size by scaled square root of the 
 population (because that makes a symbol with area proportional to population), set the
 colour to red and the plotting character to a solid blob:
 ::
 
-	> points(ukpop,cex=sqrt(ukpop$POP_MAX/1000000),col="red",pch=19)
+	> points(ukpop, cex=sqrt(ukpop$POP_MAX/1000000), col="red", pch=19)
 	> title("UK Population centre sizes")
 
 and our final image appears:
