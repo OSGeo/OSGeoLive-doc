@@ -1,9 +1,8 @@
 :Author: Johannes Wilden
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
-:Version: osgeo-live4.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _deegree-overview-es:
 
 .. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
@@ -24,13 +23,22 @@ deegree
 Servicios Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-deegree es libre, estable, potente y fácil de usar. deegree es
-el conjunto más completo de implementaciones de estándares del Open Geospatial
-Consortium (OGC) en software libre y abierto, abarcando desde Servicios Transaccionales *Web Feature Service* a la visualización de datos tridimensionales a través de Servicios *Web Terrain*, y muchos más!
+deegree es libre, estable, potente y fácil de usar. deegree es el conjunto más
+completo de implementaciones de estándares del Open Geospatial Consortium (OGC)
+en software libre y abierto, abarcando desde Servicios Transaccionales *Web
+Feature Service* a la visualización de datos tridimensionales a través de
+Servicios *Web Terrain*, y muchos más!
 
-deegree es una solución de Sistemas de Información Geográfica e Infraestructuras de Datos Espaciales (IDE's) basada tanto en Web, como desktop. Está compuesto de un conjunto Interfaces de Aplicación (API's) Java y un potente mapeo objeto-relacional para esquemas espaciales simples y complejos. deegree también proporciona un conjunto de Web Services estándar de mapas, entidades (*features*) y servicios de catálogo, así como sensores y servicios de procesamiento.
+deegree es una solución para Sistemas de Información Geográfica (SIG) e
+Infraestructuras de Datos Espaciales (IDE's) basada tanto en Web, como
+escritorio. Está compuesto de un conjunto Interfaces de Aplicación (API's) Java
+y un potente mapeo objeto-relacional para esquemas espaciales simples y
+complejos. deegree también proporciona un conjunto de servicios web estándar de
+mapas, entidades (*features*) y servicios de catálogo, así como servicios de
+procesamiento y de sensores.
 
-deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando desde el principo, utilizando tus datos y cumpliendo tus requerimientos.
+deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando
+desde el principo, utilizando sus datos y cumpliendo sus requerimientos.
 
 
 .. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
@@ -46,17 +54,18 @@ Algunas catacterísticas de ejemplo
   * Contenidos de capas flexible
   * Soporta y utiliza definición de estilos (SLD 1.0)
   * Capacidad de generación de gráficos (tartas, barras, lineas) 
-  * Fuentes de datos: Todos los Servicios Web comunes OGC (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, y arbitrariamente sentencias SQL se pueden utlizar para crear contenidos de capas WMS
+  * Fuentes de datos: Todos los Servicios Web comunes OGC (WMS, WFS, WCS),
+  * PostgreSQL/PostGIS, Oracle Spatial, y sentencias SQL arbitrarias se pueden utlizar para crear contenidos de capas WMS
   * Muy estable, incluso para grandes escalas
-  * Soporta HTTP GET, HTTP POST y peticiones de información de geometrías (*features*)
+  * Soporta HTTP GET, HTTP POST y peticiones de información de geometrías 
   * Certificado de soporte OGC
 
 * Web Feature Service
 
-  * Soporta entidades (*features*) simples y complejas
-  * Transformación de coordenadas al vuelo para más de 3000 Sistemas de Referencia de Coordenadas.
-  * Soporte de formatos de salidas flexibles
-  * Soporte de directiva INSPIRE
+  * Soporta entidades simples y complejas
+  * Transformación de coordenadas al vuelo para más de 3000 sistemas de referencia de coordenadas.
+  * Soporta formatos de salida flexibles
+  * Soporta de directiva INSPIRE
 
 * Web Coverage Service
 
@@ -74,7 +83,7 @@ Algunas catacterísticas de ejemplo
   * Soporte de diferentes formatos de impresión (HTML, PDF, PNG)
   * Procesamiento de trabajos de larga duración
   * Soporta peticiones asíncronas para permitir ploteos de gran escala
-  * Las peticiones se almacenan dentro de la Base de Datos y se podrán procesar incluso si un administrador para el WMPS o si la máquina falla
+  * Las peticiones se almacenan dentro de la base de datos y se podrán procesar incluso si un administrador para el WMPS o si la máquina falla
 
 * Web Perspective View Service
 
@@ -98,11 +107,11 @@ Estándardes implementados
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://deegree.org
+**Sitio web:** http://deegree.org
 
 **Licencia:** LGPL
 
-**Versión del Software:** 2.3
+**Versión de software:** 3.2-pre3
 
 **Plataformas soportadas:** Windows, Linux
 
@@ -114,6 +123,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Guía de inicio rápido <../quickstart/deegree_quickstart.html>`_
-
-
+* :doc:`Guía de inicio rápido <../quickstart/deegree_quickstart.html>`
