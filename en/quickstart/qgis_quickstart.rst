@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
+:Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -132,10 +133,10 @@ Let's now include a layer from a Postgres database.
 #. In the layer list on the left, untick the ``ne_10m_admin_0_countries`` visibility
    check box to temporarily hide it.
 
-.. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
-   :scale: 70 %
-   :alt: Connecting to a PostGIS DB
-   :align: right
+   .. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
+      :scale: 70 %
+      :alt: Connecting to a PostGIS DB
+      :align: right
 
 #. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
 
@@ -164,7 +165,7 @@ Let's now include a layer from a Postgres database.
    slider to **50%**, press the :guilabel:`Advanced` button and select
    :menuselection:`Size scale field`, then choose **elevation** 
    (it's in about the middle of the list), and finally set the
-   symbol `Size` scaling to **0.01**. Then click :guilabel:`Ok`
+   symbol `Size` scaling to **0.01**. Then click :guilabel:`Ok`.
 
 
 Using the GRASS Toolbox
