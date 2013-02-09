@@ -167,6 +167,10 @@ Let's now include a layer from a Postgres database.
    (it's in about the middle of the list), and finally set the
    symbol `Size` scaling to **0.01**. Then click :guilabel:`Ok`.
 
+#. You can then click on the query button on the toolbar (cursor arrow with
+   a blue "i") and then on the map canvas bubbles to view information about
+   the individual cities.
+
 
 Using the GRASS Toolbox
 ================================================================================
