@@ -133,7 +133,7 @@ Let's now include a layer from a Postgres database.
    check box to temporarily hide it.
 
 .. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
-   :scale: 50 %
+   :scale: 70 %
    :alt: Connecting to a PostGIS DB
    :align: right
 
