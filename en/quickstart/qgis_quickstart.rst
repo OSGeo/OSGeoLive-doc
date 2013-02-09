@@ -26,10 +26,11 @@ QGIS Quickstart
 Quantum GIS (QGIS) is a user friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
 
-You can launch it from the :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS` menu.
+You can launch it from the menus with :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
 Also on this disc is the very nice `QGIS Data Browser <http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in
-the :menuselection:`Databases` menu and the :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in
-the :menuselection:`Web Services` menu.
+the :menuselection:`Geospatial --> Databases` menu and
+the :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in
+the :menuselection:`Geospatial --> Web Services` menu.
 
 .. redundant due to the TOC; This Quick Start focuses on the Desktop GIS application and describes how to:
   * Update an existing QGIS project
@@ -58,7 +59,7 @@ off.
 
    * You should see a world map.
 
-#. Check **ne_10m_populated_places** in the Layers tree
+#. Tick the ``ne_10m_populated_places`` check box in the Layers tree.
 
    * Populated places are now displayed as many green dots:
 
@@ -110,7 +111,7 @@ Let's now create a new QGIS project and load our own data.
 
 #. Browse to dataset :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
 
-#. Press :guilabel:`Open`.
+#. Press :guilabel:`Open` then :guilabel:`Open` again.
 
    * You should see all world countries.
 
@@ -129,14 +130,14 @@ Connect to a PostGIS spatial database
 Let's now include a layer from a Postgres database.
 
 .. TBD: Cameron's review comments:
-  Screen shot here
+  Screen shot here [HB: of the connect to database window with the table selected]
 
 #. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
 
    * Both Natural Earth and OpenStreetMap Postgis databases
-     are already available. We will use the Natural Earth database.
-     If you wanted to add a new database, you would select the :guilabel:`New`
-     button and fill in the database parameters.
+     are already available; we will be using use the Natural Earth database.
+     If you wanted to connect to a different database, you would select
+     the :guilabel:`New` button and fill in the database parameters.
 
 #. Select the "Natural Earth" connection and press :guilabel:`Connect`.
 
@@ -144,10 +145,8 @@ Let's now include a layer from a Postgres database.
 
 #. Select ``ne_10_populated_places`` and click :guilabel:`Add`.
 
-   * For more details about selecting a Postgis database, see the :doc:`PostGIS Quickstart <postgis_quickstart>`.
-
-.. TBD: Cameron's review comments:
-  Screen shot here
+   * For more details about working with PostGIS databases see
+     the :doc:`PostGIS Quickstart <postgis_quickstart>`.
 
 
 Using the GRASS Toolbox
