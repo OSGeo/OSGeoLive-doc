@@ -129,8 +129,13 @@ Connect to a PostGIS spatial database
 
 Let's now include a layer from a Postgres database.
 
-.. TBD: Cameron's review comments:
-  Screen shot here [HB: of the connect to database window with the table selected]
+#. In the layer list on the left, untick the ``ne_10m_admin_0_countries`` visibility
+   check box to temporarily hide it.
+
+.. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
+   :scale: 50 %
+   :alt: Connecting to a PostGIS DB
+   :align: right
 
 #. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
 
@@ -147,6 +152,19 @@ Let's now include a layer from a Postgres database.
 
    * For more details about working with PostGIS databases see
      the :doc:`PostGIS Quickstart <postgis_quickstart>`.
+
+#. Zoom in on the United States using the mouse wheel and left-click drag
+   to navigate.
+
+#. Right click on ``ne_10m_populated_places`` in the layer list to get a context
+   menu, then select :menuselection:`Properties`.
+
+#. Let's represent one of the database attributes in the data as a bubble plot.
+   In the middle of the `Layer Properties` window, drag the Transparency
+   slider to **50%**, press the :guilabel:`Advanced` button and select
+   :menuselection:`Size scale field`, then choose **elevation** 
+   (it's in about the middle of the list), and finally set the
+   symbol `Size` scaling to **0.01**. Then click :guilabel:`Ok`
 
 
 Using the GRASS Toolbox
@@ -183,7 +201,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
      .. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
        :scale: 50 %
-       :alt: screenshot of GRASS GIS layers loaded into QGIS
+       :alt: GRASS GIS layers loaded into QGIS
        :align: right
 
 #. Add another GRASS raster layer, this time the `elevation` map from the
@@ -284,7 +302,7 @@ Using the OpenStreetMap plugin
 
    .. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
      :scale: 50 %
-     :alt: screenshot of GRASS GIS layers loaded into QGIS
+     :alt:  The OpenStreetMap plugin
      :align: right
 
 #. Scroll down or type ``open`` into the Filter box and select
