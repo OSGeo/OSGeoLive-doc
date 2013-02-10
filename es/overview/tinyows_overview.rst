@@ -1,16 +1,20 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Jorge Arévalo
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _tinyows-overview-es:
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.tinyows.org/
+
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 TinyOWS
 ================================================================================
@@ -51,13 +55,13 @@ Detalles
 
 **Licencia:** MIT
 
-**Versión del software:** 1.0
+**Versión del software:** 1.1.0
 
 **Plataformas soportadas:** Linux, Unix, Mac, Windows
 
-**Interfaces de programación:** CGI/FastCGI
+**Interfaces API:** CGI/FastCGI
 
-**Soporte:** http://lists.maptools.org/pipermail/tinyows-users/
+**Soporte:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
 Guía de inicio rápido

@@ -1,10 +1,9 @@
-:Autor: Howard Butler
+:Author: Howard Butler
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
-:Revisado por: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
-:Licencia: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _liblas-overview-es:
+:Translator: Nacho Uve
+:Version: osgeo-live6.5
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-libLAS.png
   :alt: project logo
@@ -17,7 +16,7 @@ libLAS
 Acceso a datos LiDAR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-libLAS es una librería C/C++ para lectura y escritura en el formato común `LiDAR`_ denominado `LAS` El `formato ASPRS LAS`_ es un formato binario secuencial utilizado para almacenar datos previnientes de sensores LiDAR y de software de procesamiento de datos para intercambio y archivo.
+libLAS es una librería C/C++ para lectura y escritura en el formato común `LiDAR`_ denominado `LAS` El `formato ASPRS LAS`_ es un formato binario secuencial utilizado para almacenar datos procedentes de sensores LiDAR y de software de procesamiento de datos para intercambio y archivado.
 
 .. image:: ../../images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
@@ -25,7 +24,7 @@ libLAS es una librería C/C++ para lectura y escritura en el formato común `LiD
   :scale: 80 %
   
 LiDAR (en Inglés Light Detection and Ranging) es una forma de detección de rangos de alta precisión, muy parecida a los sistemas de radar, que utiliza laser como emisión electromagnética. Uno de los productos de los sistemas LiDAR 
-es la "nube de puntos". La "nube de puntos" se puede conceptualizar como una serie de puntos de medida que representan distancia desde el sensor a la emisión de vuelta.  El formato ASPRS LAS es el formato más común para almacenar nubes de puntos.
+es una "nube de puntos". La "nube de puntos" se puede definir como una serie de puntos de medida que representan distancia desde el sensor a la emisión de vuelta.  El formato ASPRS LAS es el formato más común para almacenar nubes de puntos.
 
 Características principales
 --------------------------------------------------------------------------------
