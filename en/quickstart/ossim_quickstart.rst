@@ -35,7 +35,7 @@ Imagelinker
   and `p011r031_7t19990918_z19_nn30.tif`
 
   .. image:: ../../images/screenshots/1024x768/ossim_imagelinker3.jpg
-     :scale: 70 %
+     :scale: 60 %
      :align: right
 
 * Another way to load all the images at once is to simply drag and drop
