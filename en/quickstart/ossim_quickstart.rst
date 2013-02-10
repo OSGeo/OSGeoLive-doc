@@ -18,8 +18,9 @@ image processing, geographical information system (GIS) and photogrammetry.
 
 This Quick Start describes how to:
 
-  * View raster images with Imagelinker
-  * Run ossimPlanet
+  * Multi-view multiband raster satellite images with Imagelinker
+  * Drape a georeferenced raster map on a 3D globe with ossimPlanet
+
 
 Imagelinker
 ================================================================================
