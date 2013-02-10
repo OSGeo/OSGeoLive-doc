@@ -62,6 +62,9 @@ Funcionalidades principales
 - Temas
 - Planificador
 - Caché
+- Soporte para subida de Video.
+- Soporte de *insignias* para puntuar a usuarios de la plataforma Ushahidi.
+
 
 
 Demostración
@@ -76,7 +79,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 3
 
-**Versión del Software:** 2.0.1
+**Versión del Software:** 2.1
 
 **Interfaces API:** PHP
 

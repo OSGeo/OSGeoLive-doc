@@ -1,9 +1,8 @@
 :Author: Gérald Fenoy
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Jorge Sanz
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _zoo-overview:
 
 .. image:: ../../images/project_logos/logo-Zoo.png
   :scale: 50 %
@@ -11,6 +10,12 @@
   :align: right
   :target: http://zoo-project.org/
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
+  
 ZOO Project
 ================================================================================
 
@@ -23,7 +28,7 @@ geoprocesamiento *web*. Un WPS proporciona acceso a funciones que ejecutan
 algoritmos geoespaciales. El proyecto ZOO da soporte a muchos lenguajes de 
 programación y viene con dos aplicaciones de demostración usando sencillos 
 proveedores de servicios con *spatialtools* (una biblioteca compartida y un 
-módulo para Python) basado en las librerías GEOS y OGR.
+módulo para Python) basado en las librerías :doc:`GEOS <geos_overview>` y :doc:`OGR <gdal_overview>`.
 
 ZOO está compuesto de tres partes diferenciadas:
 

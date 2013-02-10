@@ -1,9 +1,9 @@
 :Author: Alan Boudreault, Steve Lime
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Diego González
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapguide-overview:
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
   :scale: 65 %
@@ -26,7 +26,7 @@ Servicio Web
 
 MapServer es un motor de renderización de datos geográficos `Open Source <http://www.opensource.org>`_ escrito en C. Más allá de la navegación por datos GIS, MapServer permite crear "mapas de imágenes geográficas", es decir, mapas de contenidos para los usuarios. Por ejemplo, en Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ se proporciona a los usuarios más de 10.000 páginas Web, informes y mapas, a través de una única aplicación. La misma aplicación hace de "motor de mapas", proporcionando los contenidos spaciales a otras partes del sitio Web que las necesitan.
 
-MapServer fué desarrollado inicialmente por el proyecto *ForNet* de la Universidad de Minnesota (UMN) en cooperación con la NASA, y el Departamento de Recursos Naturales de Minnesota, el MNDR (Minnesota Department of Natural Resources). Más tarde, se hosteó en el proyecto TerraSIP project, un proyecto esponsorizado por la NASA, entre la UMN y un consorcio de actores con intereses en gestión del territorio.
+MapServer fue desarrollado inicialmente por el proyecto *ForNet* de la Universidad de Minnesota (UMN) en cooperación con la NASA, y el Departamento de Recursos Naturales de Minnesota, el MNDR (Minnesota Department of Natural Resources). Más tarde, se alojó en el proyecto *TerraSIP project*, un proyecto financiado por la NASA, entre la UMN y un consorcio de actores con intereses en gestión del territorio.
 
 MapServer es ahora un proyecto de `OSGeo <http://www.osgeo.org>`_, y lo mantiene un grupo creciente de desarrolladores (cerca de 20) distribuidos por todo el mundo. Un diverso grupo de organizaciones dan soporte al proyecto, proporcionando mejoras y mantenimiento, y se administra dentro de OSGeo por el *MapServer Project Steering Committee*, formado por desarrolladores y otros contribuidores.
 
@@ -38,21 +38,36 @@ Características clave
   :alt: screenshot
   :align: right
 
-* Advanced cartographic output
 
-  * Dibujado de *features* dependientes de la escala y ejecución de aplicación
-  * Etiquetación de *Features*,  incluyendo mediación de colisión de etiquetas
-  * Salida conducida por plantillas totalment customizables
+* Salida cartográfica avanzada
 
-* Fuentes TrueType
+  * Dibujado de elementos (*features*) dependientes de la escala y ejecución de aplicación.
+  * Etiquetado de elementos,  incluyendo gestión de colisión de etiquetas.
+  * Soporte de fuentes TrueType para etiquetado y simbología.
+  * Automatización de elementos de mapa (barra de escala, mapa de referencia y leyenda).
+  * Mapas temáticos utilizano clases basadas en lógica de programación o en expresiones regulares.
+  * Soporte de renderizado extensible con drivers para AGG, Cairo, GD y OpenGL, y otros.
+  * Funciones especiales para generar *tiles* de salida. 
+  * Capas de máscara (*mask*).
+  * Colocación de simbolos precisa.
+  * Simbología compleja multi etiqueta/símbolo.
+  * Campos de vectores.
+  * *Label Leader Offsetting*.
+  * Simbología SVG. 
+  * Soporte Fuentes Multiples.
 
-  * Automatización de elementos de mapa (scalebar, reference map, and legend)
-  * Mapas temáticos utilizano clases basadas en lógica de programación o en expresiones regulares 
+* Soporte para consultas (*query*) espaciales sofisticadas
 
+  * Identificación de elementos por atributos, por punto, por rectángulo envolvente o cruces geométricos de una o más capas.
+  * Soporte para consultas raster. 
+  * Salida basada en plantillas totalmente personalizables.
+  * Generación de consultas basadas en OGR.
+ 
 * Soporte para lenguajes de *scripting* y entornos de desarrollo populares
 
-  * PHP, Python, Perl, Ruby, Java, y .NET
-
+  * CGI/FastCGI
+  * PHP, Python, Perl, Ruby, Java, y .NET 
+  
 * Soporte Multi-plataforma
 
   * Linux, Windows, Mac OS X, Solaris, y mas
@@ -62,10 +77,9 @@ Características clave
   * TIFF/GeoTIFF, EPPL7, y muchos otros vía GDAL
   * ESRI shapefiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL y OGR
 
-
 * Soporte de proyecciones de Mapa
 
-  * Proyecciones 'al vuelo' con capacidad para más de 1000 proyecciones proporcionadas por la librería Proj.4
+  * Proyecciones 'al vuelo' con capacidad para más de 1000 proyecciones proporcionadas por la librería Proj.4.
 
 Standares Implementados
 --------------------------------------------------------------------------------
@@ -73,6 +87,8 @@ Standares Implementados
 * Soporta numerosos estándares  (OGC)
 
   * WMS (cliente/servidor), WFS no-transaccional (cliente/servidor), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
+  
+  * Servicios de visores conforme a INSPIRE.
 
 Demo
 --------------------------------------------------------------------------------
@@ -82,7 +98,7 @@ Demo
 Documentación
 --------------------------------------------------------------------------------
 
-* `Documentación MapServer 6.0.3  <../../mapserver/doc/index.html>`_
+* `Documentación MapServer 6.2  <../../mapserver/doc/index.html>`_
 
 
 Detalles
@@ -92,7 +108,7 @@ Detalles
 
 **Licencia:** `licencia estilo MIT <http://mapserver.org/copyright.html#license>`_
 
-**Versión Software:** 6.0.3
+**Versión Software:** 6.2
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
