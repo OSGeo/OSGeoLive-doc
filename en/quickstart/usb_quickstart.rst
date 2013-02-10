@@ -46,7 +46,7 @@ Select :menuselection:`Applications --> System --> Startup Disk Creator`, or sea
 
 Select the osgeo-live or osgeo-live-mini ISO Image that you downloaded earlier.
 
-Select the USB flash drive. If you have extra room you might adjust the slider to create persistent storage space on the USB drive (recommended).
+Select the USB flash drive. If you have extra room you might adjust the slider to create persistent storage space on the USB drive (recommended). In order for this option to be available you will need a 8 GB USB flash drive.
 
 Select :guilabel:`Make Startup Disk`
 
