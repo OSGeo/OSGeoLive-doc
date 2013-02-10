@@ -1,6 +1,9 @@
 :Author: OSGeo-Live
-:Author: Alan Boudreault, Steve Lime
-:Version: osgeo-live5.5
+:Author: Alan Boudreault
+:Author: Steve Lime
+:Reviewer: Stephan Meissl
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
@@ -19,12 +22,17 @@
 MapServer Quickstart
 ================================================================================
 
-MapServer ist eine `Open Source <http://www.opensource.org>`_ serverbasierte Anwendung, mit der geografische Kartenbilder und Vektordaten im Internet mittels `OGC standards <http://www.opengeospatial.org/standards>`_ wie etwa `WMS <http://www.opengeospatial.org/standards/wms>`_ und `WFS <http://www.opengeospatial.org/standards/wfs>`_ veröffentlicht werden können.
+MapServer ist eine `Open Source <http://www.opensource.org>`_ serverbasierte Anwendung, 
+mit der geografische Kartenbilder und Vektordaten 
+im Internet mittels `OGC standards <http://www.opengeospatial.org/standards>`_ 
+wie etwa `WMS <http://www.opengeospatial.org/standards/wms>`_ , `WFS <http://www.opengeospatial.org/standards/wfs>`_ 
+und :doc:`WCS <../standards/wcs_overview>` veröffentlicht werden können.
 
 Dieser Quickstart beschreibt:
      
   * :ref:`mapserver-quickstart-configure-with-mapfile-de`
   * :ref:`mapserver-quickstart-wms-request-de`
+  * :ref:`mapserver-quickstart-add-new-layer-de`
   * :ref:`mapserver-quickstart-add-new-layer-de`
   * :ref:`mapserver-quickstart-styling-a-layer-de`
 
@@ -33,7 +41,10 @@ Dieser Quickstart beschreibt:
 MapServer mit einem "mapfile" konfigurieren
 ================================================================================
 
-.. note:: **Was werden wir lernen ?** In diesem Abschnitt werden Sie lernen, was ein mapfile ist und wie man ihn so konfiguriert, dass MapServer ein Shapefile als Bilder bereitstellt, die mittels einer WMS Anfrage abgerufen werden können.
+.. note:: 
+
+  **Was werden wir lernen ?** In diesem Abschnitt werden Sie lernen, was ein 
+   mapfile ist und wie man ihn so konfiguriert, dass MapServer ein Shapefile als Bilder bereitstellt, die mittels einer WMS Anfrage abgerufen werden können.
 
 Was ist ein MapFile ?
 --------------------------------------------------------------------------------
@@ -43,8 +54,10 @@ Der `Mapfile <http://mapserver.org/mapfile/index.html>`_ ist die Konfigurationsd
 Erstellen eines ersten MapFile
 --------------------------------------------------------------------------------
 
-#. Öffnen Sie einen Texteditor (Mousepad ist der Standard Editor auf der live dvd: :menuselection:`Applications --> Accessories --> Mousepad`).
-#. Erstellen Sie eine Datei "mapserver_quickstart.map" in Ihrem Home Verzeichnis: :file:`/home/user/mapserver_quickstart.map`
+#. Öffnen Sie einen Texteditor (e.g. :menuselection:`Applications --> Accessories --> 
+   Leafpad`).
+#. Erstellen Sie eine Datei "mapserver_quickstart.map" in Ihrem Home Verzeichnis: 
+   :file:`/home/user/mapserver_quickstart.map`
 
 Fügen Sie folgenden Text ein::
 
@@ -52,7 +65,7 @@ Fügen Sie folgenden Text ein::
     NAME "MAPSERVER QUICKSTART"
     EXTENT -137 29 -53 88
     UNITS DD
-    SHAPEPATH "/home/user/data/natural_earth/"
+    SHAPEPATH "/home/user/data/natural_earth2/"
     SIZE 800 600
 
     IMAGETYPE PNG24
@@ -71,7 +84,7 @@ Fügen Sie folgenden Text ein::
       NAME "Admin Countries"
       STATUS ON
       TYPE POLYGON
-      DATA "10m_admin_0_countries"
+      DATA "ne_10m_admin_0_countries"
       CLASS 
         STYLE
           COLOR 246 241 223
@@ -83,7 +96,7 @@ Fügen Sie folgenden Text ein::
   END
 
 .. note::
-   Das Beispiel verwendet den natural earth Datensatz, der bereits auf der Live-DVD installiert ist: :file:`~/data/natural_earth` (eine Abkürzung für: :file:`/usr/local/share/data/natural_earth`)
+   Das Beispiel verwendet den natural earth Datensatz, der bereits auf der Live-DVD installiert ist: :file:`~/data/natural_earth2` (eine Abkürzung für: :file:`/usr/local/share/data/natural_earth2`)
 
 Jedes Objekt einem mapfile beginnt mit seinem Namen (z.B. **MAP**) und endet mit einem **END**. Ein mapfile beginnt immer mit dem Objekt **MAP** und sollte eine Liste von **LAYER** Objekten enthalten, die der Mapfile lesen und zeichnen kann. In unserem mapfile haben wir nur eine Karte definiert.
 
@@ -143,7 +156,7 @@ Wir ergänzen jetzt einen weiteren layer zu unserem mapfile. Vor dem letzten *EN
    NAME "Lakes"
    STATUS ON
    TYPE POLYGON
-   DATA "10m_lakes"
+   DATA "ne_10m_lakes"
    CLASS 
      STYLE
        COLOR 153 179 204
@@ -175,9 +188,9 @@ Im "10m_lakes" Datensatz haben wir das *ScaleRank* Attribut, welches in Bezug zu
 
   LAYER
    NAME "Lakes"
-   STATUS DEFAULT
+   STATUS ON
    TYPE POLYGON
-   DATA "10m_lakes"
+   DATA "ne_10m_lakes"
    CLASSITEM "ScaleRank" 
    CLASS 
      EXPRESSION /0|1/  
