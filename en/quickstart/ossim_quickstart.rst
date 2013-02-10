@@ -83,6 +83,10 @@ OssimPlanet
   mouse button pans; dragging the middle mouse button rolls; and dragging
   the right mouse button zooms in and out.
 
+* Try loading the supplied North Carolina LANDSAT image
+  from ``/home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif``.
+  Again, double click on it's name from the Layer tree panel to zoom over to it.
+
 * If you get lost, double clicking on the Blue Marble image in the Layer
   tree will zoom back out to a view of the whole planet, resetting the view.
 
