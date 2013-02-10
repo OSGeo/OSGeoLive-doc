@@ -60,7 +60,7 @@ Once inside add a raster map layer such as "`elevation.10m`" from the
 PERMANENT mapset. To do this go into the `GIS Layer Manager` window
 and click on the checkerboard toolbar button with a "+" on it. Then
 select the map name you want from the "*map to be displayed*" pull-down
-list, and click [Ok].
+list, and click :guilabel:`Ok`.
 
 In a similar fashion add the "`roads`" vector layer from the PERMANENT mapset
 by clicking on the toolbar button with a "+" and a bent poly-line which
@@ -85,7 +85,7 @@ zooming buttons on the `Map Display` toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile surface map**.
 The `@PERMANENT` mapset is automatically searched, so you can remove the qualifier.
 If the map isn't automatically listed, again pick the `elevation.10m` map
-as the raster layer and press [*Ok*]. The second button in from the left allows
+as the raster layer and press :guilabel:`Ok`. The second button in from the left allows
 you to set out the profile line, click it then mark out a few points on
 the `Map Display` canvas. When done go back to the Profile window and click
 on the eyeball button to create the plot. Click on the I/O button of the far
@@ -179,19 +179,19 @@ basins map layer, and make sure to tick its visibility box to view it as a backd
 In the `GIS Layer Manager` window click on the second button in from the right
 on the top row and `Add a grid layer`. For size of grid put 0:03 for 0 degrees and
 3 minutes (format is D:M:S), then in the "Optional" tab tick Draw geographic
-grid and press [*Ok*] and re-render. You may need to drag the new grid layer
+grid and press :guilabel:`Ok` and re-render. You may need to drag the new grid layer
 higher up on the layer list to see it.
 
 To add a scalebar go to the `Map Display` window and press the "Add
 map elements" button to the right of where you selected the Profile tool
-earlier and select "Add scalebar and north arrow" then click [*Ok*].
+earlier and select "Add scalebar and north arrow" then click :guilabel:`Ok`.
 A scalebar will appear in the top left of the map canvas.
 Drag it down to the bottom left. From the same toolbar menu select
 "Add legend" and in the instructions window click the `Set Options`
 button to set the raster map name to create the legend for. If you
 pick the `elev.basins` map you will want to set the *Thinning factor* to
 10 in the `Advanced` tab, and the *Placement* position to `5,95,2,5` in
-the `Optional` tab. After you are done click [*Ok*] and [*Ok*] again.
+the `Optional` tab. After you are done click :guilabel:`Ok` and :guilabel:`Ok` again.
 Drag your new legend over to the right side of the map canvas.
 
 Now you may be thinking to yourself that these fonts are a bit bare.
