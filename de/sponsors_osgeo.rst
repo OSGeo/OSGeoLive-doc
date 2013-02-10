@@ -16,37 +16,21 @@ Die OSGeo Foundation empfiehlt weder die damit in Bezug stehende Software, deren
 
 `Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK.`
 
-OSGeo Sustaining Sponsors
-================================================================================
 
-.. image:: ../images/logos/autodesk.jpg
-  :width: 144
-  :height: 38
-  :alt: Autodesk
-  :target: http://www.osgeo.org/sponsors/autodesk/
-  
-
-
-OSGeo Supporting Sponsors
+OSGeo unterstützende Sponsoren
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/inpe.png
-  :alt: INPE
-  :target: http://www.inpe.br/
-
-.. image:: ../images/logos/ingres.png
-  :alt: INGRES
-  :target: http://www.ingres.com
-
-.. image:: ../images/logos/osuk.png
+.. image:: ../images/logos/ordnance-survey_logo.png
   :alt: Ordnance Survey
   :target: http://www.ordnancesurvey.co.uk
 
+
 OSGeo Associate Sponsors
 --------------------------------------------------------------------------------
-.. image:: ../images/logos/geocat.png
+
+.. image:: ../images/logos/geocat_logo.png
   :alt: GeoCat
-  :align: center
+  :align: left
   :target: http://geocat.net/
 
 .. image:: ../images/logos/astun.png
@@ -56,12 +40,12 @@ OSGeo Associate Sponsors
 
 .. image:: ../images/logos/borealis.jpg
   :alt: BOREALIS
-  :align: center
+  :align: right
   :target: http://www.boreal-is.com
 
 .. image:: ../images/logos/ign_france.png
   :alt: IGN
-  :align: center
+  :align: left
   :target: http://www.ign.fr
 
 .. image:: ../images/logos/pci.jpg
@@ -69,14 +53,15 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://www.pcigeomatics.com
 
-.. image:: ../images/logos/c2c_logo.jpg
+.. image:: ../images/logos/camptocamp_logo.png
+  :scale: 80 %
   :alt: Camptocamp
-  :align: center
+  :align: right
   :target: http://camptocamp.com
 
 .. image:: ../images/logos/lizardtech_logo_sml.png
   :alt: LizardTech
-  :align: center
+  :align: left
   :target: http://www.lizardtech.com
 
 .. image:: ../images/logos/1spatial_sml.jpg
@@ -84,15 +69,10 @@ OSGeo Associate Sponsors
   :align: center
   :target: http://www.1spatial.com
 
-.. image:: ../images/logos/fbslogo_sml.png
+.. image:: ../images/logos/first-base-solutions_logo.png
   :alt: First Base Solutions
-  :align: center
+  :align: right
   :target: http://www.firstbasesolutions.com
-
-.. image:: ../images/logos/metaspatial_sml.png
-  :alt: Metaspatial
-  :align: center
-  :target: http://www.metaspatial.net/
 
 Weitere Informationen
 --------------------------------------------------------------------------------
