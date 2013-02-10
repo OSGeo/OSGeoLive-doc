@@ -1,9 +1,8 @@
 :Author: OSGeo-Live
-:Translator: Javier Sánchez
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Aitor Freire Astray
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _ossim-overview-es:
 
 .. image:: ../../images/project_logos/logo-ossim.png
   :scale: 100 %
@@ -21,18 +20,18 @@
 OSSIM
 ================================================================================
 
-Procesamiento de imágenes
+Procesado de imágenes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-El software de imágenes de mapas Open Source (en Inglés *Open Source Software Image Map*), OSSIM, es un motor de alto rendimiento para *Remote Sensing*, procesado de imágenes, Sistemas de Información Geográfica y Fotogrametría.
+Open Source Software Image Map (OSSIM) es un motor de alto rendimiento para la teledetección, procesado de imágenes, sistemas de información geográfica y fotogrametría.
 
-OSSIM se ha fundado por varias agencias gubernamentales de Estados Unidos en la comunidad de defensa e inteligencia y la tecnología esta actualmente desplegada tanto en sitios operacionales, como en entornos de investigación. Se ha desarrollado activamente desde 1996. 
+OSSIM fue fundado por varias agencias gubernamentales de EEUU en  la comunidad de inteligencia y defensa y actualmente es empleada en centros de investigación y en centros operativos. Se emplean activamente desde 1996. 
 
-Diseñado como una serie de librerías de alto rendimiento, esta escrita en C++ empleando las últimas metodologías de desarrollo de software orientado a objetos.
-Se han desarrollado muchas utilidades de línea de comando, aplicaciones de interface de usuario, y sistemas integrados - muchas de las cuales se incluyen en la distribución de software.
+Diseñado como una serie de librerías de alto rendimiento, está escrito en C++ empleando las últimas técnicas en diseño de software orientado a objetos.
+Se han implementado muchas utilidades en la línea de comandos, aplicaciones GUI y sistemas integrados - muchos de los cuales se incluyen con el software.
 
 
-Características clave
+Funciones principales
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
@@ -40,38 +39,36 @@ Características clave
   :alt: screenshot
   :align: right
 
-* Capaciad de procesamiento paralelo con librerías mpi
-* Modelo de sensores riguroso
-* Modelos de Sensores Universales (RPCs)
-* Soporte a un amplio rango de proyecciones de mapas y datums
-* Cadenas de imágenes basadas en parámetros
-* Acceso nativo a ficheros
-* Corrección de precisión del terreno y orto rectificación
-* Mosaicos avanzados, composición y fusión
-* Soporte a elevación
-* Soporte vectorial y *shapelib*
-* Proyección y resolución independiente
-* Editores de ecuaciones
+* Capacidades de procesado en paralelo con librerías mpi
+* Sensor de modelado riguroso
+* Universal Sensor Models (RPCs)
+* Soporte de una amplia gama de Proyecciones y Datums
+* Non-destructive, parameter based image chains
+* Acceso a archivos nativos
+* Corrección de Terreno precisa y ortorectificación
+* Tratamiento avanzado de mosaicos, composición y fusiones
+* Soporte de elevaciones
+* Soporte vectorial y libreriía shape
+* Projection and resolution independent
+* Editor de ecuaciones
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://www.ossim.org/
+**Página web:** http://www.ossim.org/
 
-**Licencia:** GPL v3
+**Licencia:** GNU General Public License (GPL) version 3
 
 **Versión de Software:** 1.8.6
 
-**Plataformas Soportadas:** Linux, Mac, Windows
+**Plataformas compatibles:** Linux, Mac, Windows
 
-**Interfaces API:** C++
+**API Interfaces:** C++
 
-**Soporte comercial:** http://www.osgeo.org/search_profile
-
-
-Guía rápida
---------------------------------------------------------------------------------
-
-* `Documentación de inicio rápido <../quickstart/ossim_quickstart.html>`_
+**Soporte Comercial:** http://www.osgeo.org/search_profile
 
 
+.. Quickstart
+.. --------------------------------------------------------------------------------
+.. 
+.. * :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`

@@ -1,11 +1,10 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
-:Translator: José Antonio Canalejo
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Aitor Freire Astray
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapfish-overview-es:
 
 .. image:: ../../images/project_logos/logo-mapfish.png
   :scale: 100 %
@@ -23,23 +22,21 @@
 MapFish
 ================================================================================
 
-Entorno de desarrollo de Mapas en la Web
+Web Mapping Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapFish es un flexible y completo entorno de desarrollo de software para construir 
-aplicaciones de mapas en la Web enriquecidas. Enfatiza en la alta productividad 
-y calidad de desarrollo.
+MapFish es un marco completo y muy flexible para construir aplicaciones web-mapping.
+Destaca la alta productividad, y el desarrollo de alta calidad. 
 
-MapFish se basa en el entorno de desarrollo web Python `Pylons <http://pylonshq.com>`_.
-Extiende a Pylons con funcionalidad geoespacial específica. Por ejemplo provee 
-herramientas específicas para la creación de servicios web que permita consultar 
-y editar elementos geográficos.
+MapFish está basado en la estructura web Pythos `Pylons <http://pylonshq.com>`_ .
+MapFish amplía Pylons con funcionalidades geoespaciales específicas. Por ejemplo
+MapFish provee herramientas específicas para la creación de servicios web que
+permiten consultar y editar objetos geográficos.
 
-MapFish también provee una completo `toolbox` JavaScript orientado a Aplicaciones 
-de Internet Enriquecidas (`RIA`), un entorno de pruebas JavaScript, y herramientas 
-para comprimir código JavaScript. El `toolbox` JavaScript está compuesto de las 
-herramientas `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` y 
-`GeoExt <http://www.geoext.org>`_.
+MapFish también provee una completa caja de herramientas JavaScript orientada a RIA, un
+entorno de pruebas para JavaScript y herramientas para comprimir el código JavaScript.
+La caja de herramientas JavaScript está compuesta por los kits de herramientas
+`ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` y `GeoExt <http://www.geoext.org>`_ JavaScript.
 
 .. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
@@ -49,27 +46,27 @@ herramientas `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>
 Estándares implementados
 --------------------------------------------------------------------------------
 
-MapFish es compatible con los estándares de la `Open Geospatial Consortium
-<http://www.opengeospatial.org/>`_.  Esto se logra a través del soporte de varias 
-normas OGC con  OpenLayers o GeoExt, como WMS, WFS, WMC, KML, GML etc.
+MapFish es compatible con los estándares `Open Geospatial Consortium
+<http://www.opengeospatial.org/>`_. Gracias a que OpenLayers o GeoExt
+soportan varias normas OGC, como WMS, WFS, WMC, KML, GML, etc.
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio Web:** http://www.mapfish.org
+**Página Web:** http://www.mapfish.org
 
 **Licencia:** BSD License
 
-**Versión de Software:** 2.0
+**Versión de Software:** 2.2
 
-**Plataformas soportadas:** Windows, Linux, Mac
+**Plataformas compatibles:** Windows, Linux, Mac
 
 **Soporte:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Guía de inicio rápido
+Quickstart
 --------------------------------------------------------------------------------
 
-* `Documentación guía de inicio rápido <../quickstart/mapfish_quickstart.html>`_
+* :doc:`Quickstart documentation <../quickstart/mapfish_quickstart>`
 
 

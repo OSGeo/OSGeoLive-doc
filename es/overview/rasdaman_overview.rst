@@ -1,9 +1,12 @@
-:Author: Peter Baumann , Michael Owonibi, Jinsongdi Yu
-:Translator: José Antonio Canalejo
-:Version: osgeo-live6.0
+:Author: Peter Baumann
+:Author: Jinsongdi Yu
+:Author: Dimitar Misev
+:Author: Michael Owonibi
+:Author: Alan Beccati
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Aitor Freire Astray
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _rasdaman-overview-es:
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
  :scale: 100 %
@@ -11,38 +14,39 @@
   :align: right
   :target: http://rasdaman.org
 
-
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
 
 Rasdaman
 ================================================================================
 
-Base de datos raster multidimensional
+Base de datos Ráster MultidimensionalMulti-Dimensional Raster Database
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Rasdaman proporciona la posibilidad de almacenar datos raster multidimensionales (p.e.. arrays) en bases de datos relacionales sin limite de tamaño usando un lenguaje de consultas SQL con alta efectividad y poder de optimizacion desde el servidor.
-Los datos estan almacenados en una base de datos PostgreSQL.
-El driver rasdaman es una parte de la biblioteca GDAL (Geospatial Data Abstraction Library) para geodatos. Existe una version beta disponible que integra Mapserver.
-El acceso a datos soporta OGC WCS, WCPS, y WPS, así como C++ y Java APIs junto con el lenguaje de consultas raster de rasdaman.
-La version 8.2 integra IQL (Integrated Query Language), un aporte SQL que soporta tanto consultas vectoriales como raster.
-Por consiguiente, rasdaman es una base de datos raster flexible y escalable que permite la navegacion, extracción, agregracion y el analisis temporal de sensores, imágenes y datos estadísticos.
-La tecnología rasdaman es estable y madura, utilizandose en producción desde hace mas de 10 años. En el instituto geográfico nacional de Francia se utiliza rasdaman para servir mapas de mas de una docena de terrabits de datos raster.
-En la conferencia ACM Principles of Database Systems del 2007, Rona Machlin caracterizó rasdaman como la implementación mas adecuada de este tipo de sistemas.
+Rasdaman es una implementación de varios modelos de bases de datos que permite a las bases datos relacionales estándar, como PostgreSQL, almacenar y recuperar datos ráster multidimensionales de tamaño ilimitado. Los datos pueden ser almacenados y recuperados empleando una consulta en lenguaje estilo SQL ráster, con una alta optimización de la efectividad del servidor. Este componente también proporciona interfaces basadas en la web para los datos adecuadas para aplicaciones geoespaciales y basadas en los estándares OGC como WCS, WCPS y WPS. También están disponibles APIs promagadoras para lenguajes C++ y Java.
+Un driver rasdaman es parte de :doc:`GDAL <gdal_overview>` (Geospatial Data Abstraction Library) librería para formatos de datos geoespaciales, está disponible una integración de :doc:`MapServer <mapserver_overview>` en beta.
+
+La tecnología rasdaman es estable y madura, es empleada en producción desde hace más de 10 años; el Instituto Francés Nacional de Geografía emplea rasdaman con una docena de Terabytes de mapas de imágenes aéreas. En los principios del ACM de la Conferencia de Sistemas de Bases de Datos en 2007, Rona Machlin describió rasdaman como "la implementación más completa de un sistema".
 
 .. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
-  :scale: 100 %
+  :scale: 50 %
   :align: right
 
-Principales funcionalidades
+Funciones principales
 --------------------------------------------------------------------------------
 
-    * soporte de varias dimensiones: 1-D, 2-D, 3-D y 4-D
-    * flexible y potente lenguaje de consultas para tareas de visualización, clasificación, adición y otras tantas funciones geoespaciales
-    * indice espacial y tiling para el acceso rápido a los datos
-    * tile streaming para escalabilidad y una utilizacion óptima de hardware
-    * soporte multiusuario a traves de multiplexing server
-    * completa integración de datos raster con cualquier otro tipo de geodatos almacenados en PostgreSQL
+    * multidimensionalidad verdadera - desde 1-D pasando por 2-D hasta 3-D, 4-D, y más allá
+    * potente, flexible, lenguaje de consulta estilo SQL para tareas como: visualización, clasificación, agregación y muchas más funciones geoespaciales
+    * indexado espacial y *tiling* adaptativo para un rápido acceso a los datos
+    * *tile streaming* para mayor rendimiento y escalabilidad en hardware moderado
+    * soporte multiusuario mediante multiplexado del servidor
+    * integración completa de la información de los datos ráster con otros datos geográficos presentes en la base de datos PostgreSQL
+    * acceso a capas de servicios Web vía estándares OGC para acceso a coberturas y procesados
 
-Standards implementados
+Estándares implementados
 --------------------------------------------------------------------------------
 
     * OGC WCS 2.0, WCPS 1.0, WPS 1.0
@@ -50,18 +54,24 @@ Standards implementados
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** www.rasdaman.org
+**Página web:** www.rasdaman.org
 
 **Licencia:**
 
-* clients y petascope: GNU Lesser General Public License (LGPL) version 3
-* server engine: GNU General Public License (GPL) version 3
+* clientes y petascope: GNU Lesser General Public License (LGPL) version 3
+* núcleo del servidor: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.3
+**Versión de Software:** 8.3.1
 
-**Sistemas operativos soportados:** Linux, Mac, Solaris
+**Plataformas compatibles:** Linux, Mac, Solaris
 
-**API Interfaces:** rasql, C++, Java; OGC-based WCS, WCPS, WCS-T, y WPS interfaces
+**API Interfaces:** rasql (CLI), C++, Java; OGC-based WCS, WCPS, WCS-T, and WPS interfaces
 
-**Support:**  www.rasdaman.com
+**Soporte:**  www.rasdaman.com
+
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`
+
 
