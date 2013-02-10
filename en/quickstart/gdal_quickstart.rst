@@ -1,5 +1,5 @@
 :Author: Astrid Emde, material from Frank Warmedam's RasterTutorial
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
