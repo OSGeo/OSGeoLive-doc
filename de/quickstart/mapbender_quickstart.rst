@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Christoph Baudson
 :Author: Arnulf Christl
-:Version: osgeo-live5.0draft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
@@ -22,6 +22,7 @@ Administrationsoberflächen ermöglichen es Administratoren Karten- und Datendie
 Sie brauchen lediglich einen Standard Browser für die folgenden Übungen.
 
 Diese Kurzeinführung beschreibt:
+
   * das Erstellen einer Mapbender Anwendung
   * das Veröffentlichen von Web Map Services (OGC WMS)
   * das Konfigurieren von WMS in Mapbender
