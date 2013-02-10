@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gpsdrive.png
   :scale: 80 %
@@ -50,7 +51,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.11
+**Software Version:** 2.12svn
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX
 

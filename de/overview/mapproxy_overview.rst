@@ -1,6 +1,7 @@
 :Author: Oliver Tonnhofer
 :Author: Dominik Helle
-:Version: osgeo-live5.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
@@ -14,17 +15,15 @@ MapProxy
 WMS- & Kachel-Proxy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: ../../images/screenshots/800x600/mapproxy.png
+  :alt: MapProxy diagram
+  :align: right
+
 MapProxy beschleunigt Kartenanwendungen durch das Vorgenerieren und Zwischenspeichern von Karten in einem lokalen Cache. Karten können durch MapProxy kombiniert, umtransformiert und manipuliert werden. So verfügt MapProxy zum Beispiel über die Möglichkeit Transparenz hinzuzufügen oder Wasserzeichen in der Karte einzublenden.
 
 MapProxy ist flexibel einsetzbar und kann bei einfachen, aber auch bei komplexen Anwendungsfällen zum Einsatz kommen: Vom einfachen Zwischenspeicher für eine OpenLayers Web-Anwendung bis hin zum Einsatz als zentraler Knotenpunkt in einer GDI, bei dem MapProxy  dutzende WMS Dienste kombiniert, vereinheitlicht und beschleunigt.
 
 Beispiele aus der Praxis: MapProxy wird im Breitbandatlas des BMWi verwendet um Karten an tausende Benutzer so schnell wie möglich auszuliefern. Außerdem wird MapProxy vom Bundesamt für Kartographie und Geodäsie verwendet um unterschiedliche WMS Dienste aller 16 Bundesländern on-the-fly zusammenzufassen.
-
-
-.. image:: ../../images/screenshots/800x600/mapproxy.png
-  :alt: MapProxy diagram
-  :align: center
-
 
 
 Funktionen von MapProxy
@@ -38,7 +37,7 @@ Funktionen von MapProxy
   :align: right
 
 Quellen:
-  * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, etc.)
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver und Mapnik (direkt, ohne WMS)
   * jeder TileCache, Google Maps oder Bing kompatible Quellen
@@ -96,6 +95,7 @@ MapProxy unterstützt folgende offene Spezifikationen:
 * OGC WMTS 1.0.0 (KVP und RESTful)
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
+
 
 Details
 --------------------------------------------------------------------------------

@@ -15,7 +15,7 @@
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Der 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ ermöglicht den webbasierten Zugang auf raumbezogene 
+Der 52°North `Web Processing Service (WPS) <../standards/wps_overview>`_ ermöglicht den webbasierten Zugang auf raumbezogene 
 Verarbeitungsalgorithmen, die verfügbar sind in Sextante, ArcGIS Server oder auch eigene definierte Algorithmen.
 Dabei können die Algorithmen einfach sein wie eine Bestimmung der unterschiedlichen Einflüsse der verschiedenen Jahreszeiten
 bis hin zu komplizierten globalen Klimaänderungsmodellen.
@@ -46,7 +46,7 @@ Backend Algorithmen stehen zur Verfügung in:
 
 unterstützte Input- und Outputformate:
 
-* Vektor Daten: GML2, GML3, SHP files, KML, WKT (Well-known Text)
+* Vektor Daten: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
 * Raster Daten: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
 
 Browserbasierter Client
@@ -65,7 +65,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** WPS 3.0
+**Software Version:** WPS 3.1.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

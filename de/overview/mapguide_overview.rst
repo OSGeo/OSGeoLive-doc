@@ -1,5 +1,7 @@
+:Author: Trevor Wekel
 :Author: Dominik Helle
-:Version: osgeo-live5.0draft
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
@@ -31,7 +33,6 @@ MapGuide ist unter Linux oder Windows lauffähig und unterstützt den Apache- un
   :scale: 50%
   :alt: screenshot
   :align: right
-
 
 .. note:: Aufgrund von Platzbeschränkungen ist MapGuide derzeit nicht auf der DVD installiert.
 
