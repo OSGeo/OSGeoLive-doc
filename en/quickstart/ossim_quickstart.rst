@@ -13,8 +13,9 @@
 Ossim Quickstart 
 ********************************************************************************
 
-Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing,
-image processing, geographical information system (GIS) and photogrammetry.
+Open Source Software Image Map (OSSIM) is a high performance engine for
+remote sensing, image processing, geographical information system (GIS)
+tasks and photogrammetry.
 
 This Quick Start describes how to:
 
