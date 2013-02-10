@@ -1,15 +1,15 @@
-:Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Author: Gavin Treadgold
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-sahana-eden.png
-  :scale: 60 %
+  :scale: 100 %
   :alt: Projekt Logo
   :align: right
   :target: http://www.sahanafoundation.org
 
-
-Sahana Agasti
+Sahana Eden
 ================================================================================
 
 Katastrophenmanagement Webdienst
@@ -39,22 +39,27 @@ Kernfunktionen
 * Benachrichtigungssystem
 * Katalogsystem
 * Berichtssystem
+* Ushahidi Integration
 
+Demo
+--------------------------------------------------------------------------------
+
+* `Sahana Eden demo <http://demo.eden.sahanafoundation.org/>`_
 
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.sahanafoundation.org
+**Webseite:** http://eden.sahanafoundation.org/
 
-**Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
+**Lizenz:** MIT License
 
-**Software Version:** 0.6.4
+**Software Version:** 0.5.5
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
-**API Schnittstellen:** Web, PHP (Sahana Agasti), Python (Sahana Eden)
+**API Schnittstellen:** Web, Python
 
-**Support:** http://www.sahanafoundation.org/support
+**Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
 
 Quickstart
 --------------------------------------------------------------------------------

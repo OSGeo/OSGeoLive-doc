@@ -1,13 +1,19 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
   :alt: Projekt Logo
   :align: right
-  :target: http://edu.kde.org/marble/
+  :target: http://marble.kde.org/
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100 %
+  :alt: OSGeo Project in Incubation
+  :align: right
+  :target: http://www.osgeo.org/incubator/process/principles.html
 
 Marble
 ================================================================================
@@ -43,11 +49,11 @@ Kernfunktionen
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://edu.kde.org/marble/
+**Website:** http://marble.kde.org
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 0.9.2
+**Software Version:** 1.3.4
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 

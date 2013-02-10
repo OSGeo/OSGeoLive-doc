@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
@@ -13,7 +14,6 @@
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
-
 
 QGIS Server
 ================================================================================
@@ -38,8 +38,8 @@ Kernfunktionen
 * Integrierte PDF Ausgabe
 * Gute Integration mit dem Desktop GIS (QGIS)
 * Einfach zu benutzen
-* Unterstützt Styled Layer Descriptor (SLD)
 * Fortgeschrittene kartographische Darstellung
+* Unterstützt Styled Layer Descriptor (SLD)
 
 Implementierte Standards
 --------------------------------------------------------------------------------
@@ -54,7 +54,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 1.7.4
+**Software Version:** 1.8.0
 
 **Unterstützte Plattformen:** Windows, Linux
 

@@ -1,5 +1,6 @@
 :Author: Gérald Fenoy
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Zoo.png
@@ -8,7 +9,13 @@
   :align: right
   :target: http://zoo-project.org/
 
-ZOO Projekt
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
+
+ZOO-Project
 ================================================================================
 
 WPS Server
@@ -64,7 +71,7 @@ Details
 
 **Lizenz:** MIT x/11
 
-**Software Version:** 1.0
+**Software Version:** 1.2.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

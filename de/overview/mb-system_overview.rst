@@ -1,5 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-mb-system.png
@@ -22,6 +23,9 @@ ausgiebig die :doc:`GMT <gmt_overview>` Software.
 
 MB-System wird seit 1993 durch aktive Unterstützung einiger Forschungs- und Wissenschaftsorganisationen entwickelt.
 
+.. comment .. note:: Due to space constraints on the DVD, MB-System is currently
+.. comment  not installed. To install it open up a terminal and
+.. comment  run ``cd gisvm/bin; sudo ./install_mb-system.sh``
 
 Kernfunktionen
 --------------------------------------------------------------------------------
@@ -55,7 +59,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) Version 3
 
-**Software Version:** 5.3.1917
+**Software Version:** 5.3.1982
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows (mit Cygwin)
 

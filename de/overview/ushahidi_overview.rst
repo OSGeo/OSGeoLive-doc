@@ -1,5 +1,6 @@
 :Author: Henry Addo
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
@@ -7,7 +8,6 @@
   :alt: Project Logo
   :align: right
   :target: http://www.ushahidi.com
-
 
 Ushahidi
 ================================================================================
@@ -38,6 +38,15 @@ Kernfunktionen
 * Möglichkeit KML/KMZ Dateien auf der Karte in Ebenen zu verwalten.
 * Unterstützung von individuell angepassten Seiten und Reitern.
 * Seitenstatistiken und Analytik
+* Plugin-System.
+* One-Klick-Upgrade.
+* Unterstützung verschiedener SMS Anbieter.
+* Trusted Reporter functionality.
+* Themes.
+* Scheduler.
+* Cache.
+* Unterstützung von Video-Upload.
+* Supports Badges for awarding users of the Ushahidi platform.
 
 Demo
 --------------------------------------------------------------------------------
@@ -51,7 +60,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.1.0
+**Software Version:** 2.1
 
 **API Schnittstellen:** PHP
 

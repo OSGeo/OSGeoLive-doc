@@ -1,5 +1,6 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-viking.png
@@ -7,7 +8,6 @@
   :alt: Project Logo
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
-
 
 Viking
 ================================================================================
@@ -52,13 +52,14 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 0.9.94
+**Software Version:** 1.2.1
 
 **Unterstützte Plattformen:** GNU/Linux, MS Windows
 
 **API Schnittstellen:** C, GTK+ 2
 
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
+
 
 Quickstart
 --------------------------------------------------------------------------------

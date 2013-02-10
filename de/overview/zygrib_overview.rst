@@ -1,13 +1,13 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-zygrib.png
   :scale: 150 %
   :alt: Projekt Logo
   :align: right
   :target: http://www.zygrib.org
-
 
 zyGrib
 ================================================================================

@@ -1,4 +1,7 @@
-:Author: OSGeo-Live :Version: osgeo-live4.0 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-otb.png
   :scale: 100 %
@@ -25,7 +28,7 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.jpg
-  :scale: 80 %
+  :scale: 50 %
   :alt: screenshot
   :align: right
 
@@ -51,7 +54,7 @@ Details
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
   für französisches Recht)
 
-**Software Version:** 3.8
+**Software Version:** 3.14.1 (Release Oktober 2012)
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 

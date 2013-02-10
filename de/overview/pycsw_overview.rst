@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -25,18 +25,27 @@ pycsw ist eine `Python`_ Implementierung des :doc:`OGC Catalogue Services for th
  
 pycsw ist Open Source Software und wurde unter der MIT Lizenz veröffentlicht. pycsw ist auf allen gängigen Plattformen (Windows, Linux, Mac OS X) lauffähig.
 
+.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+  :scale: 50 %
+  :alt: project logo
+  :align: right
 
 Kernfunktionen
 --------------------------------------------------------------------------------
 
+* vollständige OGC CSW 2.0.2 konform
 * vollständiges Bestehen der OGC CITE CSW Test Suite (103/103)
 * implementiert den INSPIRE Discovery Services 3.0
 * implementiert das ISO Metadata Application Profile 1.0.0
 * implementiert das FGDC CSDGM Application Profile for CSW 2.0
+* implementiert das Search/Retrieval via URL (SRU) Suchprotokoll
+* implementiert OpenSearch
 * unterstützt die Metadatenmodelle ISO, Dublin Core, DIF, FGDC
+* CGI oder WSGI
 * einfache Konfiguration
 * Transaktionale Fähigkeiten (CSW-T)
 * flexible Repository Konfiguration
+* GeoNode Verbindung
 * Absetzen von Suchanfragen an verschiedene Kataloge
 * XML Schema Validierung in Echtzeit
 * erweiterbare Profil Plugin Architektur
@@ -52,6 +61,7 @@ OGC Standards:
 * Filter 	1.1.0
 * OWS Common 	1.0.0
 * GML 	3.1.1
+* OGC SFSQL 	1.2.1
 
 Metadata Standards:
 
@@ -62,6 +72,8 @@ Metadata Standards:
 * ISO 19119 	2005
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
+* SRU 	1.1
+* A9 OpenSearch 	1.1
 
 Details
 --------------------------------------------------------------------------------
@@ -70,7 +82,7 @@ Details
 
 **Licence:** `MIT`_
 
-**Software Version:** 1.0.0
+**Software Version:** 1.4.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
@@ -80,6 +92,8 @@ Details
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
+.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`OGC Reference Implementation`: http://demo.pycsw.org/
 
 Quickstart
 --------------------------------------------------------------------------------
