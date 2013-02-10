@@ -2,10 +2,8 @@
 :Revisor: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
 :Product: MapWindow GIS 4.8.6
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-
-.. _mapwindow-overview-es:
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
@@ -17,10 +15,10 @@
 MapWindow GIS
 ================================================================================
 
-GIS Desktop 
+GIS de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapWindow GIS es un cliente GIS basado en windows y Open Source, con el que se puede visualizar, gestionar, editar y analizar datos, así como componer mapas para imprimir.
+MapWindow GIS es un cliente GIS basado en windows y de código abierto, con el que se puede visualizar, gestionar, editar y analizar datos, así como componer mapas para imprimir.
 Incluye funciones de análisis avanzado a través de la intergración con GEOS y GDAL/OGR.
 MapWindow es fácil de incorporar dentro de la familia de productos basados en MS-Office como MS-Excel y MS-Access, así como programas basados en VB6, C++, C#, VB.NET, y Delphi, ya que utiliza tecnología de controles ActiveX.
 
@@ -34,39 +32,39 @@ MapWindow es fácil de incorporar dentro de la familia de productos basados en M
 Características principales
 --------------------------------------------------------------------------------
 
-* Interface gráfica de usuario amigable:
+* Interfaz gráfica de usuario amigable:
 
-    * identificar/seleccionar features,
+    * identificar/seleccionar entidades,
     * editar/visualzar/buscar atributos,
-    * Proyeccion 'al vuelo',
-    * Capas de impresión,
-    * Etiquetado de features,
-    * Cambiar simbología vectorial y raster,
-    * y mas ...
+    * proyeccion 'al vuelo',
+    * capas de impresión,
+    * etiquetado de entidades,
+    * cambiar simbología vectorial y raster,
+    * y más ...
 
 * Fácil visualización de muchos formatos vectoriales y raster:
 
     * Soporte de la mayoría de formatos vectoriales: incluyendo ficheros shape de ESRI, MapInfo, SDTS y GML,
-    * Formatos raster como modelos digitales del terreno, fotografía aérea o imagenes landsat,
-    * Servicios de Tiles, como OpenStreetMap, ArcGIS Online.
+    * formatos raster como modelos digitales del terreno, fotografía aérea o imagenes landsat,
+    * servicios de teselas, como OpenStreetMap, ArcGIS Online.
 
 * Crear, editar y exportar datos spaciales usando:
 
     * Herramientas de digitalización para formatos shape,
-    * El plugin georeferenciador,
-    * Herramientas GPS para importar y exportar formato GPX, convertir otros formatos GPS a GPX, o subir/bajar directamente a una unidad GPS.
+    * el plugin para georeferenciar,
+    * herramientas GPS para importar y exportar formato GPX, convertir otros formatos GPS a GPX, o subir/bajar directamente a una unidad GPS.
 
 * Realizar análisis espacial usando plugins:
 
-    * algebra de mapas,
-    * analisis del terreno,
-    * Modelos hidrológicos (TauDEM),
-    * analisis de redes,
+    * álgebra de mapas,
+    * análisis del terreno,
+    * modelos hidrológicos (TauDEM),
+    * análisis de redes,
     * y otros muchos.
 
-* arquitectura orientada a plugines extensible:
+* arquitectura extensible orientada a plugins:
 
-    * La arquitectura orientada a Plug-in facilita la adición de funcionalidad. Los Plug-ins se pueden escribir en cualquier lenguaje .NET (C#, VB.NET) utilizando Visual Studio Pro o el free SharpDevelop o Visual Studio Express.  
+    * La arquitectura orientada a Plug-in facilita la adición de funcionalidad. Los Plug-ins se pueden escribir en cualquier lenguaje .NET (C#, VB.NET) utilizando Visual Studio Pro o el SharpDevelop o Visual Studio Express.  
  
 * Control ActiveX:
 
@@ -83,13 +81,13 @@ Estandares implementados
 Detalles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Sitio Web:** http://www.mapwindow.org
+**Sitio web:** http://www.mapwindow.org
 
 **Licencia:** MPLv1.1
 
-**Version Software:** 4.8.6
+**Version del software:** 4.8.6
 
-**Plataforma:** Windows
+**Plataformas soportadas:** Windows
 
 **Interfaces API:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
 
@@ -101,4 +99,4 @@ Detalles
 Guía rápida
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :doc:`Documentacion de guia rapida <../quickstart/mapwindow_quickstart>`
+* :doc:`Guía de inicio rápido <../quickstart/mapwindow_quickstart>`
