@@ -54,11 +54,11 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.ossim.org/
+**Website:** http://www.ossim.org
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.8.1
+**Software Version:** 1.8.14
 
 **Supported Platforms:** Linux, Mac, Windows
 
