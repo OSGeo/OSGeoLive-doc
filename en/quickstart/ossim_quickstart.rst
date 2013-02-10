@@ -14,36 +14,57 @@ Ossim Quickstart
 ********************************************************************************
 
 Open Source Software Image Map (OOSIM) is a high performance engine for remote sensing,
-image processing, geographical information system and photogrammetry.
+image processing, geographical information system (GIS) and photogrammetry.
 
 This Quick Start describes how to:
 
-  * View raster images with imagelinker
+  * View raster images with Imagelinker
   * Run ossimPlanet
 
 Imagelinker
 ================================================================================
 
-* Start Imagelinker from its icon from the directory "Spatial Tools" on the desktop 
-* Open Image file, using :menuselection:`File --> Open Image --> /home/user/data/raster/p011r031_7t19990918_z19_nn10.tif`
-* Repeat previous operation for the files : `p011r031_7t19990918_z19_nn20.tif and p011r031_7t19990918_z19_nn30.tif`
-* Or simply drag and drop the images into the Imagelinker main window
-* Go to the :menuselection:`menu bar --> window --> tile`
-* Select an :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
-* Verify you see a 3 gray-scale satelite images. 
+* Start Imagelinker from its icon from the "Spatial Tools" folder on
+  the desktop 
 
-  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
-     :scale: 100 %
+* Open an image file, using :menuselection:`File --> Open Image --> /home/user/data/raster/cape_cod/p011r031_7t19990918_z19_nn10.tif`
 
-For the full tutorial see this `blog article`_.
+* Repeat the previous operation for the files : `p011r031_7t19990918_z19_nn20.tif`
+  and `p011r031_7t19990918_z19_nn30.tif`
 
-.. _`blog article`: http://www.geofemengineering.it/GeofemEngineering/Blog/Voci/2010/3/15_OSGEO_-_Live_-_DVD_-_%22running_imagelinker%22.html
+  .. image:: ../../images/screenshots/1024x768/ossim_imagelinker3.jpg
+     :scale: 70 %
+     :align: right
+
+* Another way to load all the images at once is to simply drag and drop
+  them into the Imagelinker main window
+
+* To tidy up the windows, maximize the main window, then in the top menu
+  bar go to :menuselection:`Window --> Tile`
+
+* You can keep all the satellite band views in sync by clicking :guilabel:`Fit` in
+  one of the smaller windows, then :guilabel:`Propagate` in that same window.
+  Try doing the same in the larger window.
+
+* Again in the large image window make sure the zoom button (magnifying
+  glass) is depressed and click in middle of the Cape (that's Wellfleet Harbor).
+  Then click again for a closer view, and again click the :guilabel:`Propagate`
+  button in the large image window to sync that view with the other band windows.
+  In a similar way you can press the pan button (hand icon) and then click on
+  the end of the Cape, and then the :guilabel:`Propagate` button to align the
+  other windows. 
+
+A more in depth tutorial covering merging bands into an RGB composite
+is `available online`_.
+
+.. _`available online`: http://www.geofemengineering.it/GeofemEngineering/Blog/Voci/2010/3/15_OSGEO_-_Live_-_DVD_-_%22running_imagelinker%22.html
 
 
 OssimPlanet
 ================================================================================
 
-* Start OssimPlanet from its icon from the directory "Desktop-GIS" on the desktop 
+* Launch OssimPlanet from its icon in the "Desktop GIS" folder on the
+  desktop 
 
 * Select :menuselection:`File --> Open Image --> /home/user/data/raster/world.tif` (or simply drag and drop the image into the main window)
 
