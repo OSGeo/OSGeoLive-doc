@@ -1,8 +1,22 @@
 :Author: Barry Rowlingson
 :Author: Astrid Emde
-:Author: Cameron Shorter
-:Version: osgeo-live5.0
-:License: Creative Commons
+:Reviewer: Argyros Argyridis
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+
+.. TBD Cameron Review Comment:
+  For this quickstart, which targets new users who might not be familiar with
+  databases or SQL, I suggest we drop section describing command line
+  control of Postgres. If we do keep command line information, I suggest
+  it is moved to the end of the quickstart, possibly added into "Things you
+  could try".
+  Instead, I think the Quickstart should cover:
+    * Keep Client/Server overview
+    * Create a database in pgAdmin
+    * Load a dataset, probably from a shapefile
+    * Do some SQL queries on the dataset
+    * Use QGis to view data from PostGIS (using the existing Natural Earth data). We should be able to keep most of the existing QGis sections
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
@@ -10,15 +24,19 @@
   :align: right
   :target: http://postgis.org/
 
-
-******************
+********************************************************************************
 PostGIS Quickstart
-******************
+********************************************************************************
 
 PostGIS ist die räumliche Erweiterung der relationalen Datenbank PostgreSQL. PostGIS ermöglicht die 
 Speicherung, Abfrage und Bearbeitung von räumlichen Daten. In diesem Zusammenhang werden wir 'PostgreSQL' 
 verwenden, wenn wir über generelle Datenbankfunktionen sprechen und 'PostGIS', wenn wir über die zusätzlichen 
 Funktionalitäten, die die Erweiterung bereitstellt, reden. 
+
+Diese Kurzeinführung beschreibt:
+
+ * Das Anlegen und Abfragen einer räumlichen Datenbank von der Kommandzeile und über :doc:`Quantum GIS <../overview/qgis_overview>` als grafischen Client.
+ * Das Datenmanagement über den grafische Datenbank-Client ``pgAdmin``.
 
 Client-Server Architektur
 =========================
@@ -35,14 +53,8 @@ Dies ermöglicht es Ihnen, PostgreSQL auf einer einzigen Maschine laufen zu lass
 Ihr Client verbindet sich mit dem Server über die interne 'loopback' Network Verbindung und ist 
 für andere Rechner nicht sichtbar außer Sie konfigurieren dies.
 
-Drei verschiedene Clients kommen hier zum Einsatz: Der Kommandozeilen-Client, Quantum GIS und der 
-grafische Datenbank-Client ``pgAdmin``.
-
 Erzeugen einer Räumlichen Datenbank
 ===================================
-
-.. review comment: Suggest providing a screen grab (or 2) which shows how to select
-   and open an xterm. Cameron
 
 Das Kommandozeilen Tool läuft innerhalb einer Terminal Session. Öffnen Sie hierfür ein Terminal über 
 :menuselection:`Applications --> Accessories --> Terminal Emulator`. geben sie hier::
@@ -107,6 +119,7 @@ können Sie aber auch direkt innerhalb von ``psql`` eine Verbindung zu einer and
 ::
 
  postgres=# \c demo
+
 
 .. tip:: 
    Wenn die psql Eingabe auch nach dem Drücken der Return Taste erscheint, können Sie über :kbd:`CTRL` + kbd:`C` 
@@ -318,7 +331,7 @@ Im Anschluss daran erscheint eine Liste der Datenbanktabellen mit räumlichen In
    :alt: Natural Earth Layers 
    :align: center
 
-Wählen Sie das Thema lakes (Seen) und klicken Sie ``Hinzufügen`` (nicht ``Abfrage erstellen``). 
+Wählen Sie das ne_10m_lakes table (Seen) und klicken Sie ``Hinzufügen`` (nicht ``Abfrage erstellen``). 
 Die Daten sollten nun in QGIS geladen werden:
 
 .. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
@@ -337,26 +350,30 @@ Erzeugen einer Tabelle mit räumlicher Erweiterung - der einfache Weg
 Die meisten OSGeo Desktop GIS Tools bieten Schnittstellen zum Import von räumlichen Daten nach PostGIS, 
 beispielsweise Shape Dateien. Wir wollen wieder Quantum GIS zur Demonstration nutzen.
 
-Der Import kann über das komfortable PostGIS Manager Plugin erfolgen. Das Plugin muss aktiviert werden. Dies 
-erfolgt über ``Erweiterungen - Erweiterungen verwalten``. Suchen Sie nach ``PostGIS Manager``, wählen Sie das 
-Plugin aus und klicken Sie ok. Sie sollten den PostGIS Manager nun im Menü finden und können ihn starten.
+Der Import von Shapedateien kann über das komfortable PostGIS Manager Plugin erfolgen. Das Plugin muss aktiviert werden. Dies 
+erfolgt über ``Erweiterungen - Python Erweiterung herunterladen...``. QGIS holt dann die aktuelle Liste der Plugins
+ aus dem Repositories (Achtung: Sie benötigen eine Internetverbindung).
+Suchen Sie nach ``PostGIS Manager``, wählen Sie das 
+Plugin aus und klicken Sie ok. 
+
+Sie sollten den PostGIS Manager nun im Menü finden und können ihn starten.
 
 Das Plugin verwendet die vorher eingegebenen Daten zur Verbindung mit der Natural Earth Datenbank. Lassen Sie 
 das Passwort-Feld leer, falls Sie danach gefragt werden. Sie werden das Hauptfenster sehen.
 
 .. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
   :scale: 50%
-  :alt: PostGIS Manager Plugin
+  :alt: Suche nach dem PostGIS Manager Plugin
   :align: center
 
 Hat alles soweit funktioniert, sollten Sie einen Entrag vorfinden, um den PostGIS Maganger zu starten. Sie können
 ebenso auf den PostGIS Button mitdem Logo (der Elephant mit dem Globus) in der Toolbar klicken. Dies wird eine
 Verbindung zur Natural Earth Datenbank öffnen. Geben Sie kein Kennwort an, wenn dieses angefragt wird. Sie werden
-das Hauptfenster des Managers sehen. In der Voransicht werden Sie einen kleine Karte zu sehen bekommen. Hier können
-Sie den ``populated places`` Layer auswählen.
+das Hauptfenster des Managers sehen. In der Voransicht werden Sie einen kleine Karte zu sehen bekommen. 
+Hier habe ich den Layer ne_10m_populated_places  Layer ausgewählt und bin zu einer Insel, die ich kenne gezoomt.
 
 .. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
-  :scale: 50%
+  :scale: 50 %
   :alt: PostGIS Manager Vorschau
   :align: center
 
@@ -364,7 +381,8 @@ Nun wollen wir den PostGIS Manager zum Import von Shape in die Datenbank nutzen.
 `North Carolina sudden infant death syndrome (SIDS)` nutzen, die in einem der R Statistikpakete enthalten sind.
 
 Wählen Sie über das Menü ``Data`` die Option ``Load data from shapefile``.
-Klicken Sie den Button ``...`` und wählen Sie die Shapedatei ``sids.shp`` in dem R ``Maptools`` Paket aus:
+Klicken Sie den Button ``...`` und wählen Sie die Shapedatei ``sids.shp`` in dem R ``Maptools`` Paket 
+(dies befindet sich unter /usr/local/lib/R/site-library/) aus:
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50%
@@ -396,12 +414,49 @@ Der grafische Datenbankclient pgAdmin III
 Sie können den grafischen Datenbankclient ``pgAdmin III`` vom Datenbankmenü nutzen, um SQLs abzusetzen und um 
 Ihre Daten zu verwalten.  pgAdmin III verfügt außerdem über einen Plugin zum Shapeimport. pgAdmin III bietet 
 ein komfortables Datenmanagement.
+Sie können pgAdmin III im Datenbank-Ordner auf dem OSGeo-Live Desktop finden und starten.
+
+.. image:: ../../images/screenshots/1024x768/postgis_pgadmin_main_window.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
+
+Hier haben Sie die Möglichkeit eine neue Verbindung zu einem PostgreSQl Server aufzubauen oder sich mit einem bestehenden Server zu verbinden. In unserem Fall verbinden wir uns mit dem vordefinierten Server ``local``.
+
+Nachdem die Verbindung aufgebaut wurde, sehen Sie die Liste der Datenbanken, die bereits vorliegen.
+
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
+
+Das rote "X" vor dem Symbol der meisten Datenbanken zeigt an, dass Sie sich mit keiner dieser Datenbanken bisher verbunden haben (Sie sind mit der default Datenbank ``postgres`` verbunden).
+
+An dieser Stelle sehen Sie lediglich die existierenden Datenbanken auf dem System. Sie können sich per Doppelklick auf dem Namen einer Datenbank mit dieser verbinden. Verbinden Sie sich mit der Datenbank natural_earth2.
+
+Das rote "X" verschwindet nun und links erscheint ein "+". Per Klick auf das "+" erscheint ein Baum, der den Inhalt der Datenbank anzeigt.
+
+Navigieren Sie zu ``Schemata`` und öffnen Sie den Unterbaum. Öffnen Sie danach das Schema ``public``. Öffnen Sie anschließend ``Tabellen``. Sie sehen hier alle Tabellen dieses Schemas.
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
    :scale: 50%
    :alt: pgAdmin III
    :align: center
 
+
+Ausführen von SQL Abfragen mit pgAdmin III
+================================================================================
+pgAdmin III bietet die Möglichkeit Abfragen an relationale Datenbanken abzusetzen.
+
+Um eine Abfrage an die Datenbank zu schicken, müssen Sie den ``SQL``-Button der Hauptwerkzeugleiste klicken (Button mit gelber Lupe).
+
+Wir werden das Verhältnis der SIDS zu den Geburten des Jahres 1974 in jeder Stadt ausgeben. 
+Darüberhinaus wird das Ergebnis sortiert nach dem berechneten Wert sortiert. 
+Um dies zu tun, wird die folgende Abfrage benötigt (geben Sie die Abfrage im Texteditor des SQL-Fensters ein):
+
+select name, 1000*sid74/bir74 as rate from sids order by rate;
+
+Über den grünen Pfeil wird die Abfrage ausgeführt.
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png 
    :scale: 50% 
