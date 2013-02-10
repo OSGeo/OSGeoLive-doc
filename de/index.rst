@@ -27,12 +27,13 @@ Um die Programme auszuprobieren, einfach:
 Viele Anwendungen sind auch erhältlich als ausführbare Programme für 
 `Apple OSX <../MacInstallers/>`_ und `Microsoft Windows <../WindowsInstallers/>`_.
 
+.. only:: html
 
-Quickstart
---------------------------------------------------------------------------------
+   Quick Starts
+   --------------------------------------------------------------------------------
 
-.. toctree::
-   :maxdepth: 1
+   .. toctree::
+     :maxdepth: 1
 
    Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>
    Spracheinstellungen und Tastaturbelegung ändern <quickstart/internationalisation_quickstart>
@@ -59,6 +60,6 @@ Quickstart
 Präsentation
 --------------------------------------------------------------------------------
 
-Eine 25-minütige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
+Eine halbstündige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
 
 Weitere Details :doc:`hier <presentation>`.
