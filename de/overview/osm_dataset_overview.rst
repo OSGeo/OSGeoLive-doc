@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-osm.png
@@ -33,26 +33,46 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 * Vektordaten sind mit Namen und anderen Attributen gekennzeichnet.
+
 * Lokale Auszüge der Daten möglich.
+
 * Daten sind als WGS84 Knotenpunkte, Liste von Knoten und Metafeatures die Punkte, Polylinien und Flächen ermöglichen.
+
 * Reichhaltige Zuweisung von Attributen, häufig viel detaillierter als jede andere Quelle.
+
 * Ein globales Archiv von lokalem Wissen.
+
 
 Datensätze in OSGeo-Live
 --------------------------------------------------------------------------------
 
-Denver.osm.bz2:
- Ein großer Auszug der Gegend um die Stadt Denver als BZip2-komprimierte XML-Textdatei.
+- Nottingham.osm.bz2: ein großflächigerer Bereich der Stadtfläche als komprimierte BZip2-Datei einer XML Textdatei.
 
-Denver_CBD.osm.bz2:
- Ein kleinerer Auschnitt, der lediglich das zentrale Geschäftsviertel von Denver abdeckt.
+- Nottingham_CBD.osm.bz2: kleinerer Auszug der lediglich den zentralen Geschäftsbereich abdeckt.
+
+- feature_city.osm.bz2 und feature_city_CBD.osm.bz2 sind ebenfalls Auszüge des Stadtbereichs. Quickstarts und Overviews benutzen diese Dateien/Pfadname, ungeachtet von möglichen Änderungen der Beispielstadt zwischen verschiedenen Releases.
+despite posible changes of example city among different releases.
+
+- feature_city_poi.db: Sqlite DB der POI ("positions of interests") Knoten aus der soeben genannten feature_city.osm.bz2. Diese beinhaltet Kneipen (pubs), Tankstellen (fuel stations), 
+Restaurants usw.
+
+Die OSM Daten wurden nach PostGIS importiert: 
+
+- Vollständige feature_city.osm Datasätze
+
+Datenimport mit osm2pgsql in verschiedene Projektionen: 
+
+- osm_local: Import nach lat/lon (EPSG:4326)
+
+- osm_local_smerc: Import nach "Google Spherical Mercator" Pseudo-Projektion zur Generierung von Mapnik Webkacheln
+
 
 Details
 --------------------------------------------------------------------------------
 
 **Webseite:** http://www.osm.org
 
-**Lizenz:** Creative Commons CC-By-SA
+**Lizenz:** CC-By-SA, Open Data Commons Open Database License (ODbL)
 
 **Datenversion:** Live database
 
