@@ -66,30 +66,34 @@ OssimPlanet
 * Launch OssimPlanet from its icon in the "Desktop GIS" folder on the
   desktop 
 
-* Select :menuselection:`File --> Open Image --> /home/user/data/raster/world.tif` (or simply drag and drop the image into the main window)
+* Select :menuselection:`File --> Open Image --> /home/user/data/raster/cape_cod/cape_cod/p011r031_7t19990918_z19_nn10.tif`
+  to load a LANDSAT image (or simply drag and drop the image into the main window).
 
-* Go on the :menuselection:`legend tree --> Image Layers --> open the trees --> double-click on the world image`,
-  you should see the scene zoom to the image's location 
-
-* Navigate the scene.
-
+* In the `Layer` tree panel on the left side, click on the small triangle to
+  the left of *Image Layers* to expand it. Next double-click on ``p011r031_7t19990918_z19_nn10.tif``.
+  You should now see the scene zoom to the image's location.
 
 .. note::
-   To turn off the daylight auto-shading, un-check :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
+   To turn off the daylight auto-shading, `un`-check
+   :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
+
+* Experiment with navigating the scene using the mouse. Dragging the left
+  mouse button pans; dragging the middle mouse button rolls; and dragging
+  the right mouse button zooms in and out.
+
+* If you get lost, double clicking on the Blue Marble image in the Layer
+  tree will zoom back out to a view of the whole planet, resetting the view.
 
 
 What Next?
 ================================================================================
 
-* Ossim Tutorials
-
-  Follow the tutorials_ to learn more about Ossim.
+* We have prepared a number of tutorials_ demonstrating more of
+  Ossim's capabilities.
 
 .. _tutorials: http://download.osgeo.org/ossim/tutorials/pdfs/
 
-* Documentation on DVD
-
-  See also the included documentation_ on this DVD.
+* See also the included documentation_ on this Live DVD.
 
 .. _documentation: ../../ossim/
 
