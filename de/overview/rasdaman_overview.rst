@@ -1,5 +1,10 @@
-:Author: Peter Baumann , Michael Owonibi, Jinsongdi Yu
-:Version: osgeo-live6.0
+:Author: Peter Baumann
+:Author: Jinsongdi Yu
+:Author: Dimitar Misev
+:Author: Michael Owonibi
+:Author: Alan Beccati
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
@@ -8,7 +13,11 @@
   :align: right
   :target: http://rasdaman.org
 
-
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
 
 Rasdaman
 ================================================================================
@@ -41,7 +50,7 @@ Wichtigste Merkmale
 Implementierte Standards
 --------------------------------------------------------------------------------
 
-    * OGC WCS 2.0, WCS-T 1.4, WCPS 1.0, WPS 1.0
+    * OGC WCS 2.0, WCPS 1.0, WPS 1.0
 
 Details
 --------------------------------------------------------------------------------
@@ -53,13 +62,13 @@ Details
 * Clients und Petascope: GNU Lesser General Public License (LGPL) version 3
 * Server-Engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.3 (`release notes <http://rasdaman.eecs.jacobs-university.de/trac/rasdaman/wiki/Versions#Version8.3>`_)
+**Software Version:** 8.3.1
 
 **Unterstützte Plattformen:** Linux, Mac, Solaris
 
-**API Schnittstellens:** rasql, C++, Java
-
-.. siehe Implementierte Standards OGC-basierte WCS, WCPS, WCS-T, und WPS Schnittstellen
+**API Schnittstellens:** rasql (CLI), C++, Java; OGC-basierte WCS, WCPS, WCS-T, und WPS Schnittstellen
 
 **Support:**  www.rasdaman.com
 
+Quickstart
+--------------------------------------------------------------------------------
