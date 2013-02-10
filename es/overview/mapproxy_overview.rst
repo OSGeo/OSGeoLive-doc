@@ -1,10 +1,8 @@
 :Author: Oliver Tonnhofer
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Mauricio Miranda
-:Version: osgeo-live5.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapproxy-overview-es:
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
   :alt: project logo
@@ -14,19 +12,22 @@
 MapProxy
 ================================================================================
 
-Servicio de tiles y Proxy WMS
+Servicio de teselas y Proxy WMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-MapProxy acelera las aplicaciones de mapas a través de la pregeneración de tiles integrando múltiples fuentes de datos y almacenándolos en una caché local.
-Las capas pueden hacerse transparentes, se pueden cambiar las proyecciones, se pueden convertir múltiples capas en una sola, se pueden agregar marcas de agua, y más!
-
-MapProxy es flexible y soluciona tanto simples, como complejos casos de uso: desde una simple caché para una aplicación web con OpenLayers hasta un nodo central de IDE que combina, unifica y acelera docenas de servicios WMS distribuidos.
-
-Algunos ejemplos del mundo real: MapProxy es usado por el atlas de banda ancha alemán para proveer mapas a miles de usuarios lo más rápido posible y la Agencia Federal Alemana de Cartografía y Geodesia usa MapProxy para incorporar servicios WMS de los 16 estados.
 
 .. image:: ../../images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: right
+
+MapProxy acelera las aplicaciones de mapas a través de la pregeneración de teselas integrando múltiples fuentes de datos y almacenándolos en una caché local.
+Las capas pueden hacerse transparentes, se pueden cambiar las proyecciones, se pueden convertir múltiples capas en una sola, se pueden agregar marcas de agua, y más!
+
+MapProxy es flexible y soluciona casos de uso tanto simples como complejos:
+desde una simple caché para una aplicación web con `OpenLayers
+<openlayers_overview>`, hasta un nodo central de IDE que combina, unifica y
+acelera docenas de servicios WMS distribuidos.
+
+Algunos ejemplos del mundo real: MapProxy es usado por el atlas de banda ancha alemán para proveer mapas a miles de usuarios lo más rápido posible y la Agencia Federal Alemana de Cartografía y Geodesia usa MapProxy para incorporar servicios WMS de los 16 estados.
 
 Funcionalidades de MapProxy
 --------------------------------------------------------------------------------
@@ -39,8 +40,8 @@ Funcionalidades de MapProxy
   :align: right
 
 Fuentes de entrada:
-  * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
-  * TMS (TileCache, GeoWebcache, etc.)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, etc.)
+  * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver y Mapnik (directamente, sin WMS)
   * Cualquier fuente de datos compatible con TileCache, Google Maps o Bing
 
@@ -50,9 +51,10 @@ Servicios:
   * WMTS
   * KML SuperOverlays
 
-Caché de Tiles:
-  * Las imágenes idénticas son almacenadas sólo una vez (ej: tiles del océano)
-  * Agrega marcas de agua a los tiles
+Caché de teselas:
+  * Las imágenes idénticas son almacenadas sólo una vez (ej: teselas del océano)
+  * Las teselas son almacenadas en el sistema de archivos, ficheros MBTile o CouchDB
+  * Agrega marcas de agua a las teselas
 
 Opciones de fuente:
   * Limita las fuentes a geometrías (por ejemplo desde archivos Shape)
@@ -69,13 +71,23 @@ Funcionalidades WMS:
   * Reproyección al vuelo
   * Convierte versiones de WMS y formatos de imagen
 
+Seguridad:
+  * Una API de autorización flexible y potente
+  * Soporta autorización personalizada con control de alta granularidad sobre servicios y capas.
+  * Acceso restringido a áreas (para WMS y servicios de teselas)
+  * Integración con bases de datos de usuarios y métodos de autenticación ya existentes 
+
+Potentes herramientas:
+  * Herramienta del tipo semilla para llenar la cache que puede iniciar polígonos de áreas
+  * Exportar la cache de las teselas a otros formatos
+  * Calcular escalas y mostrar configuraciones de rejillas
+
 Otras funcionalidades:
   * Formato de configuración simple pero poderos (YAML/JSON)
-  * Demo de cliente basado en OpenLayers (ver a la derecha)
+  * Demo de cliente basado en OpenLayers
   * Corre múltiples servicios WMS en una instancia de MapProxy
   * Agrega texto de atribución a las imágenes
-  * Soporta datos raster que no son imágenes como los MDTs (Modelos Digitales de Terreno)
-  * Soporta autorización personalizada con control de alta granularidad sobre servicios y capas.
+  * Soporta datos raster que no son imágenes como MDEs (Modelos Digitales de Elevación)
   * Mucho más...
 
 Estándares Implementados
@@ -84,25 +96,27 @@ Estándares Implementados
 MapProxy implementa las siguientes especificaciones abiertas:
 
 * OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC WMTS 1.0.0
+* OGC WMTS 1.0.0 (KVP y RESTful)
 * OSGeo TMS 1.0.0
 * OGC KML 2.2 SuperOverlays
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio Web:** http://mapproxy.org/
+**Sitio web:** http://mapproxy.org/
 
 **Licencia:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versión del Software:** 1.5.0
+**Versión del software:** 1.5.0
 
-**Platformas Soportadas:** Linux, Mac, Windows
+**Platformas soportadas:** Linux, Mac, Windows
 
 **Soporte:** http://mapproxy.org/support.html
 
+**Documentación** `<../../mapproxy/index.html>`_
 
-Guía de Inicio Rápido
+
+Guía rápida
 --------------------------------------------------------------------------------
 
-* `Guía de Inicio Rápido <../quickstart/mapproxy_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/mapproxy_quickstart>`
