@@ -1,16 +1,15 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Diego González
-:Version: osgeo-live5.0
-:License: Creative Commons
+:Version: osgeo-live6.5
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _metacrs-overview-es:
-
-.. image:: ../../images/project_logos/logo-GDAL.png
-  :scale: 60 %
-  :alt: project logo
-  :align: right
-  :target: http://gdal.org/
+.. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
+..  :scale: 60 %
+..  :alt: project logo
+..  :align: right
+..  :target: http://trac.osgeo.org/metacrs/wiki
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -21,29 +20,29 @@
 MetaCRS
 ================================================================================
 
-Transformaciones entre Sistemas de referencia de coordenadas
+Transformaciones entre sistemas de referencia de coordenadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. comentario: ¿Podría alguien conseguir una imagen? Quizás un collage de diferentes proyecciones. Asegurarse de que la imagen tiene los derechos para incluirse en un documento "creative commons".
+.. image:: ../../images/project_logos/logo-metacrs.png
+  :scale: 100 %
+  :alt: map projection example
+  :align: right
+  :target: http://trac.osgeo.org/metacrs/wiki
 
-El grupo de proyectos MetaCRS proporciona librerías de métodos de transformación entre distintos sistemas de coordenadas.
-Un sistema de referencia espacial permite que cualquier punto sobre la superficie terrestre pueda ser descrito como un conjunto de coordenadas (latitud, longitud y altura). Se utilizan numerosos sistemas para representar la Tierra, figura tridimensional, sobre un mapa, plano.
+`El grupo de proyectos MetaCRS <http://trac.osgeo.org/metacrs/wiki>`_ proporciona librerías de métodos de transformación entre distintos sistemas de coordenadas. Un sistema de referencia de coordenadas geográficas permite que cualquier punto sobre la superficie terrestre pueda ser descrito como un conjunto de coordenadas (latitud, longitud y altura). Se utilizan numerosos sistemas para representar la Tierra, figura tridimensional, sobre un mapa, plano.
 
 Las librerías MetaCRS se incluyen en otros proyectos y algunas también están disponibles a través de una interfaz de línea de comandos.
 
 Los subproyectos que están englobados dentro de MetaCRS son:
 
-.. comentario: Encontrar ejemplos para los que se utilicen todas las librerías, si no no mencionar ninguna.
-.. comentario: Asumo "camel case" debería ser Proj4JS o Proj4js en vez de Proj4Js? (Lo he cambiado más abajo)
-
-* PROJ.4 (C++) - se usa en MapServer, GRASS GIS, PostGIS, Mapnik y numerosos otros.
-* Proj4js (JavaScript) - se usa en OpenLayers.
+* PROJ.4 (C++) - se usa en :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGrCoordinateTransformation y varios más.
+* Proj4js (JavaScript) - se usa en :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - se usa en MapGuide.
-* GeoTIFF/libgeotiff (C++) - .
-* Proj4J (Java) - ¿se usa en...?.
+* GeoTIFF/libgeotiff (C++).
+* Proj4J (Java).
 * `SpatialReference.org <http://spatialreference.org/>`_  - página web donde obtener definiciones de los sistemas de coordenadas.
 
-Características básicas
+Características principales
 --------------------------------------------------------------------------------
 
 * Proporciona transformaciones de un sistema de referencia a otro.
@@ -58,86 +57,79 @@ Los proyectos normalmente usan las definiciones de los sistemas de coordenadas a
 `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ y definidas en
 formato Well Known Text (WKT).
 
-Detalles
---------------------------------------------------------------------------------
-
-.. comentario: Para Proj4js debería haber sólo una página web. He eliminado la referencia (los usuarios la pueden encontrar en la página web principal)
-.. comentario: Se necesita trabajar sobre la licencia de Proj4J
-
-
 PROJ.4
 --------------------------------------------------------------------------------
 
-  **Página web:**  http://trac.osgeo.org/proj/
+  **Sitio web:**  http://trac.osgeo.org/proj/
   
   **Licencia:** `Licencia de código fuente libre de estilo X/MIT <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 4.7.0
+  **Versión del software:** 4.7.0
   
-  **Plataformas en las que corre:** Windows, Linux, Mac
+  **Plataformas soportadas:** Windows, Linux, Mac
   
   **Interfaces API:** C, C++, Python, Java, Ruby
   
-  **Ayuda:** http://lists.maptools.org/mailman/listinfo/proj
+  **Soporte:** http://lists.maptools.org/mailman/listinfo/proj
 
 Proj4js
 --------------------------------------------------------------------------------
 
-  **Página web:**  http://trac.osgeo.org/proj4js/ and http://proj4js.org
+  **Sitio web:**  http://proj4js.org
   
-  **Licencia:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
+  **Licencia:** `Licencia de código fuente libre de estilo X/MIT <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Versión del programa:** 1.0.1
+  **Versión del software:** 1.1.0
   
-  **Plataformas en las que corre:** Windows, Linux, Mac
+  **Plataformas soportadas:** Windows, Linux, Mac
   
   **Interfaces API:** JavaScript
   
-  **Ayuda:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
+  **Soporte:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 CS-Map
 --------------------------------------------------------------------------------
 
-  **Página web:**  http://proj4js.org
+  **Sitio web:**  http://proj4js.org
   
   **Licencia:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
   
-  **Versión del programa:** 13.0
+  **Versión del software:** 13.0
   
   **Plataformas en las que corre:** Windows, Linux, Mac
   
   **Interfaces API:** C, C++
 
-  **Ayuda:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
+  **Soporte:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 GeoTIFF/libgeotiff
 --------------------------------------------------------------------------------
 
-  **Página web:**  http://trac.osgeo.org/geotiff/
+  **Sitio web:**  http://trac.osgeo.org/geotiff/
   
   **Licencia:** `Licencia de código fuente libre de estilo X/MIT <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Versión del programa:** 1.3.0
+  **Versión del software** 1.4.0
   
-  **Ayuda:** http://lists.maptools.org/mailman/listinfo/geotiff
+  **Soporte:** http://lists.maptools.org/mailman/listinfo/geotiff
   
 Proj4J
 --------------------------------------------------------------------------------
 
-  **Página web:**  http://trac.osgeo.org/proj4j/
+  **Sitio web:**  http://trac.osgeo.org/proj4j/
   
   **Licencia:** `Licencia Apache, Versión 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
   
-  **Versión del programa:** 
+  **Versión del software:** 
   
   **Plataformas en las que corre:** Windows, Linux, Mac
   
   **Interfaces API:** Java
   
-  **Ayuda:** http://lists.osgeo.org/mailman/listinfo/proj4j
+  **Soporte:** http://lists.osgeo.org/mailman/listinfo/proj4j
   
 
 Guía rápida
 --------------------------------------------------------------------------------
     
-* `Documentación de la Guía rápida <../quickstart/metacrs_quickstart.html>`_
+* :doc:`Guía de inicio rápid <../quickstart/metacrs_quickstart>`

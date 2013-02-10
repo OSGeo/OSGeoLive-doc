@@ -1,9 +1,8 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Pedro Juan Ferrer
-:Version: osgeo-live4.5
+:Version: osgeo-live6.5
 :License: Creative Commons
-
-.. _mb-system-overview-es:
 
 .. image:: ../../images/project_logos/logo-mb-system.png
   :scale: 30 %
@@ -18,9 +17,13 @@ MB-System
 Cartografiando el lecho marino
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MB-System es un paquete de sóftware open source para el procesamiento y representación de información batimétrica y procedente de sónares. Hace un uso extensivo de `GMT <gmt_overview.html>`_ .
+MB-System es un paquete de software de código abierto para el procesamiento y representación de información batimétrica y procedente de sónares multi-haz, interferométricos y de barrido lateral. Hace un uso extensivo de la aplicación :doc:`GMT <gmt_overview>`.
 
 MB-System lleva en continuo desarrollo desde 1993, y tiene el apoyo activo de diversas organizaciones de investigación y ciencia.
+
+.. comment .. note:: Debido a problemas de espacio en el DVD, MB-Systems no está
+.. comment actualmente instalada. Para instalarla, abra un terminal y ejecute el
+.. comment comando ``cd gisvm/bin; sudo ./install_mb-system.sh``
 
 Características Principales
 --------------------------------------------------------------------------------
@@ -34,12 +37,12 @@ Características Principales
 * Proceso en bloque de grandes juegos de datos
 * Cálculo y compensación de perfiles de velocidad de sonido
 * Análisis y edición de datos de navegación e inerciales
-* Analisis de patrones de test
+* Análisis de patrones de test
 * Limpieza automática o manual de datos batimétricos
 * Herramientas de limpieza y visualización interactivas para datos 3D
 * Obtención de rejillas, análisis estadísticos y extracción de datos batimétricos depurados
 * Reproyección de mapas
-* Reprocesao y teselado de datos de radar lateral y de datos de amplitud
+* Reprocesado y teselado de datos de radar de barrido lateral y de datos de amplitud
 * Visualización de rejilla
 * Planificación de levantamientos
 * Gráficos PostScript 
@@ -50,13 +53,13 @@ Características Principales
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://www.ldeo.columbia.edu/res/pi/MB-System/
+**Sitio web:** http://www.ldeo.columbia.edu/res/pi/MB-System/
 
 **Licencia:** GNU General Public License (GPL) version 3
 
-**Versión de Software:** 5.3.1917
+**Versión del software:** 5.3.1982
 
-**Platformas Soportadas:** GNU/Linux, Mac OSX, MS Windows (con Cygwin)
+**Platformas soportadas:** GNU/Linux, Mac OSX, MS Windows (con Cygwin)
 
 **Interfaces API:** Línea de comandos
 
