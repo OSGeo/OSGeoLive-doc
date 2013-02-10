@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-viking.png
@@ -47,7 +47,7 @@ Caratteristiche principali
   vi siete avvicinati ad un determinato oggetto.
 
 * Creare waypoints e tracce da seguire facilmente per raggiungere qualche posto dove 
-  non siete mai stati e non possedete dati GPS data ma le mappe di Terraserver esistono per questo.
+  non siete mai stati e non possedete dati GPS, ma le mappe di Terraserver esistono per questo.
 
 * Realizzare mappe con linee.
 

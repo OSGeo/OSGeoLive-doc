@@ -1,14 +1,14 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
   :alt: project logo
   :align: right
-  :target: http://edu.kde.org/marble/
+  :target: http://marble.kde.org/ 
 
 .. image:: ../../images/logos/OSGeo_incubation.png 
   :scale: 100 % 
@@ -50,7 +50,7 @@ Caratteristiche principali
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://edu.kde.org/marble/
+**Sito web:** http://marble.kde.org/ 
 
 **Licenza:** GNU Lesser General Public License (LGPL) version 2.1
 

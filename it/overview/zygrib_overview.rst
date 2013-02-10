@@ -31,8 +31,10 @@ Caratteristiche principali
 * Scaricamento automatico di previsione del meteo e wave
 * Scaricamento automatico da dati IAC (fleetcode)
 * Esegue animazioni di 8 giorni di previsioni
-* Crea le vostre mappe regionali del meteo (per tutto il mondo), o visualizzare una previsione quantitativa dettagliata per una posizione particolare.
-* Grafico del vento, pressione, temperatura, umidità, pioggia, neve, copertura nuvolosa, punto di rugiada, e dati ad alta quota.
+* Crea le vostre mappe regionali del meteo (per tutto il mondo), o visualizzare
+  una previsione quantitativa dettagliata per una posizione particolare.
+* Grafico del vento, pressione, temperatura, umidità, pioggia, neve, copertura
+  nuvolosa, punto di rugiada, altezza delle onde, e dati ad alta quota.
 
 Dettagli
 --------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :Translator: Luca Delucchi
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
@@ -72,7 +72,7 @@ Dettagli
 
 **Interfacce API:** C, Python, Bourne Shell
 
-**Supporto:** http://grass.osgeo.org/community/support.php
+**Supporto:** http://grass.osgeo.org/support
 
 
 Guida rapida

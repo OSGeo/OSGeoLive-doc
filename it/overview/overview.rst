@@ -34,6 +34,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul browser:
 * :doc:`mapbender_overview` - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali 
 * :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping 
 * :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
+* :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - CMS geospaziale
 
 Servizi Web
 --------------------------------------------------------------------------------
@@ -94,6 +95,7 @@ Applicazioni mirate ad uno specifico campo:
 * :doc:`marble_overview` - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Spinning Globe
 * :doc:`zygrib_overview` - [:doc:`Guida rapida <../quickstart/zygrib_quickstart>`] - Mappe delle previsioni del tempo
 
+
 Dati
 --------------------------------------------------------------------------------
 Set di dati spaziali:
@@ -101,6 +103,7 @@ Set di dati spaziali:
 * :doc:`naturalearth_overview` - Set di dati globali 
 * :doc:`nc_dataset_overview`
 * :doc:`osm_dataset_overview` - Estatto d'esempio di OpenStreetMap 
+
 
 Librerie geospaziali
 --------------------------------------------------------------------------------
@@ -112,17 +115,20 @@ Librerie geospaziali
 * :doc:`metacrs_overview` - Trasformazioni del sistema di riferimento delle coordinate
 * :doc:`liblas_overview` - Accesso ai LiDAR
 
+
 Altri software di interesse (non disponibili nella Live)
 --------------------------------------------------------------------------------
 Disponibile solo su microsoft windows:
 
 * :doc:`mapwindow_overview` - [:doc:`Guida rapida <../quickstart/mapwindow_quickstart>`] - GIS per Microsoft Windows
 
+
 Disponibile nelle precedenti versioni di OSGeo-Live:
 
 * :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0
 * :doc:`geopublisher_overview` - [:doc:`Guida rapida <../quickstart/geopublisher_quickstart>`] - Catalogo, ritirato dopo 6.0
 * :doc:`atlasstyler_overview` - [:doc:`Guida rapida <../quickstart/atlasstyler_quickstart>`] - Editor per stili, ritirato dopo 6.0
+
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

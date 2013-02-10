@@ -18,7 +18,9 @@ Database spaziale
 
 SpatiaLite rappresenta l'estensione spaziale per il motore di database SQLite.
 
-SQLite è un DBMS molto diffuso, semplice, robusto, facile da usare e molto leggero. 
+SQLite è un Database Management System (DBMS) che è semplice, robusto, facile da
+usare è molto leggero. Ogni database SQLite è semplicemente un file. È possibile
+facilmente copiare, comprimere e portare tra Windows, Linux, MacOs ecc.
 Ogni database SQLite è semplicemente un file; lo potete liberamente copiare, comprimere, 
 trasferire su una LAN o sul WEB senza alcuna complicazione.
 
