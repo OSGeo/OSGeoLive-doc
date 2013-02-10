@@ -27,20 +27,6 @@ QGIS Quickstart
 Quantum GIS (QGIS) is a user friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
 
-You can launch it from the menus with :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
-Also on this disc is the very nice `QGIS Data Browser <http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in
-the :menuselection:`Geospatial --> Databases` menu and
-the :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in
-the :menuselection:`Geospatial --> Web Services` menu.
-
-.. redundant due to the TOC; This Quick Start focuses on the Desktop GIS application and describes how to:
-  * Update an existing QGIS project
-  * Create a new QGIS project with a simple vector layer
-  * Load QGIS plugins
-  * Analyse data with GRASS and Sextante plugins
-  * Load data from Open Street Map
-
-
 .. contents:: Contents
 
 
@@ -53,8 +39,7 @@ off.
 .. TBD: Cameron's review comments:
   Screen shot here (showing menu selection with NaturalEarth highlighted)
 
-#. With QGIS launched from the :menuselection:`Desktop GIS` menu,
-   select :menuselection:`File --> Open Project...` from the menu bar.
+#. Lauch QGIS from :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS` and select :menuselection:`File --> Open Project...` from the menu bar.
 
 #. Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
 
@@ -86,7 +71,7 @@ off.
 Style a layer
 ================================================================================
 
-Now lets try customising the style of the map.
+Now let's try customising the style of the map.
 
 .. TBD: Cameron's review comments:
   Screen shot or two here
@@ -287,8 +272,8 @@ It acts as a standardized wrapper around a number of other sets to tools.
 Using the OpenStreetMap plugin
 ================================================================================
 
-.. HB: I've re-added the OSM plugin as it's the richest vector data set
-   on the disc and it's just a darn pretty demo within QGIS.
+.. TBD: Cameron comment
+  Need a sentence here introducing what the OpenStreetMap tools provide.
 
 #. Open the Terminal Emulator from the Xubutu :menuselection:`Applications --> Accessories` menu.
 
@@ -327,6 +312,13 @@ Using the OpenStreetMap plugin
 
 #. You can now explore this rich dataset. Use the ``i`` information cursor
    button in the `OSM Feature Manger` side-toolbar to query individal map features.
+
+Things to Try
+================================================================================
+
+* Try viewing data sources in the `QGIS Data Browser <http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in the :menuselection:`Geospatial --> Databases` menu
+
+* Try publishing your QGIS map to the web using :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial --> Web Services` menu.
 
 
 What Next?
