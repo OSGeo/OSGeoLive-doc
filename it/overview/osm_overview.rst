@@ -37,9 +37,14 @@ Caratteristiche principali
   :align: right
 
 * Set di dati global completamente crowd-sourced
+
 * Un numero di software per editare tra cui scegliere
-* Un numero di software per restituzione cartografiche tra cui scegliere (incluso online)
+
+* Un numero di software per restituzione cartografiche tra cui scegliere (inclusi 
+  personalizzato e online)
+  
 * Libero da usare
+
 * La diffusa integrazione delle applicazioni geospaziali
 
 Dettagli
@@ -59,6 +64,8 @@ Dettagli
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
+* Osmosis: 0.40.1 
+
 * Gosmore: Public Domain and GPLv2
 
 .. <!-- see /usr/share/doc/gosmore/copyright -->
@@ -76,8 +83,6 @@ Dettagli
 * Osmarender: SVN mid-2011
 
 * osm2pgsql: versione SVN 0.81.0
-
-* TileMill: 0.10.1 
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows
 

@@ -41,10 +41,12 @@ Caratteristiche principali
 * Visualizzazione, filtro, subset e scaricamento EO data
 * Caricamento e/o registrazione di set di dati EO esterni 
 * Interfaccia di amministrazione sul web e da linea di comando
-* Pubblicazione dei dati attraverso standard Open Geospatial Consortium (OGC):
+* Pubblicazione dei dati attraverso standard :doc:`Open Geospatial Consortium (OGC) 
+  <../standards/standards>`:
 
-  * Web Coverage Service (WCS) 1.0, 1.1 and 2.0 e proposto EO-WCS
-  * Web Map Service (WMS) & EO-WMS
+  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 e 2.0
+    e il proposto EO-WCS
+  * :doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS
   * Proposta estensione al WCS per includere: codifica GeoTIFF, proiezioni 
     predefinite (CRSs), riscalamento, e interpolazione.
   * Protocolli supportati sono KVP, XML/POST (usato insieme con SOAP2POST

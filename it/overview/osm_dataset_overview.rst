@@ -43,32 +43,41 @@ Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Gli elementi vettoriali sono taggati con nomi e altri attributi.
+
 * Estrazione di subsets locali dei dati.
+
 * I dati sono archiviati come nodi in latitude-longitude WGS84, stringhe di nodi, e 
   meta-elementi creando punti, polilinee, aree e relazioni.
+  
 * Parte alfanumerica molto ricca, spesso più dettagliata di ogni altra risorsa.
+
 * Un archivio globale di conoscenze a livello locale.
 
 Set di Dati inclusi in OSGeo-Live
 --------------------------------------------------------------------------------
 
-- Nottingham.osm.bz2:
-  Un largo estratto dell'area della grande città come file di testo compresso in BZip2.
+- Nottingham.osm.bz2: Un largo estratto dell'area della grande città come file di
+  testo compresso in BZip2.
 
-- Nottingham_CBD.osm.bz2:
-  Un sottoinsieme più piccolo del solo distretto del quartiere centrale.
+- Nottingham_CBD.osm.bz2: Un sottoinsieme più piccolo del solo distretto del
+  quartiere centrale.
 
-- feature_city.osm.bz2
-
-- feature_city_CBD.osm.bz2
+- feature_city.osm.bz2 e feature_city_CBD.osm.bz2 sono anche estratti della città.
+  Le guide rapide e le overview usano questi i nomi di questi file al fine di evitare
+  possibili cambiamenti delle città di esempio a seconda dei diversi rilasci.
 
 - feature_city_poi.db
 
 Dati OSM importati in database PostGIS: 
 
-- osm_local
+- Il dataset completo di feature_city.osm
 
-- osm_local_smerc
+Dati importortati con osm2pgsql in due differenti sistemi di proiezione
+
+- osm_local: importato in lat/lon (epsg:4326) 
+
+- osm_local_smerc: importato nella pseudo-proiezione "Google spherical mercator" per
+  generate tile web con Mapnik
 
 
 Dettagli
