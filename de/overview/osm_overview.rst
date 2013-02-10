@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons
 
@@ -56,23 +57,25 @@ Details
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
-.. <!-- see /usr/share/doc/gosmore/copyright -->
-
 * Gosmore: Public Domain and GPLv2
+
+.. <!-- see /usr/share/doc/gosmore/copyright -->
 
 * Osmarender: GNU General Public License (GPL) version 2
 
 **Software Versionen:**
 
-* JOSM: Latest stable snapshot (svn r4878)
+* JOSM: Latest stable snapshot (svn r5608)
 
 * Merkaartor: 0.17.2
+
+* Osmosis: 0.40.1
 
 * Gosmore: 2010/07/11
 
 * Osmarender: SVN mid-2011
 
-* osm2pgsql: 0.69 (svn r22215)
+* osm2pgsql: SVN version 0.81.0
 
 **Unterstützte Schnittstellen:** GNU/Linux, Mac OSX, MS Windows
 
