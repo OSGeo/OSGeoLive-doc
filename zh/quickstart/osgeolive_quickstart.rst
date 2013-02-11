@@ -1,70 +1,65 @@
-:Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
-:Version: osgeo-live5.5
+:Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
+:Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeo-Live Quickstart
+OSGeo-Live 启动指南
 ********************************************************************************
 
-This Quick Start describes how to start OSGeo-Live from a DVD or USB.
+　　本文介绍如何从 DVD 或 USB 启动 OSGeo-Live 系统。
 
-System Requirements
+系统要求
 --------------------------------------------------------------------------------
 
-Your computer should have at least:
+　　对硬件的最低要求是：
 
-* RAM: 1 GB.
-* CPU: 1 GHz i686 or compatible (Intel/AMD)
-* Hard Disk: 
+* 内存：1 GB
+* CPU：1 GHz i686 兼容（Intel/AMD）
+* 硬盘：
 
- * None required if running directly from the DVD 
- * |osgeo-live-hdspace| if you wish to install the operating system. 
+ * 直接从 DVD/USB 启动时不需要；
+ * 在硬盘安装需要 |osgeo-live-hdspace| 的空间。
 
-* Mouse: a 3-button mouse is useful, especially for Mac trackpad users. 
+* 鼠标：建议使用三键鼠标操作（特别是苹果用户）
 
-Run:
+运行：
 --------------------------------------------------------------------------------
 
-  Source an OSGeo-Live DVD, ISO available from: http://download.osgeo.org/livedvd 
-  Put the DVD into your computer's CD drive, then reboot your computer.
+　　从 http://download.osgeo.org/livedvd 可以下载 OSGeo-Live DVD 的 ISO 镜像。将光盘或 U 盘插入并重启。
 
-  If your computer is set to boot from CD (as is often the case) you should
-  boot up into an Xubuntu system, with Geospatial applications installed.
-  Otherwise you'll have to adjust the BIOS boot settings or press the boot
-  menu button just after powering-up.
+　　通常的系统会设置为默认从 CD 启动。这样应当载入 Xubuntu 操作系统和各款地理信息软件。如果不能直接载入，则需要调整 BIOS 设置或选择临时启动项。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
-  Press :kbd:`ENTER` to get to next screen.
+　　点击 :kbd:`回车` 继续。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
-  Select :guilabel:`live - boot the Live System`
+　　选择 :guilabel:`live - boot the Live System` 。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
-  At the login page, simply press :kbd:`ENTER` or wait for the countdown to timeout.
+　　直接点击 :kbd:`回车` 即可登录默认账户。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 
-  Try the many applications from the :menuselection:`Geospatial` menu. 
+　　从 :menuselection:`Geospatial` 菜单可以选择众多的软件。
 
-  Getting started with the Xfce desktop: (an online work in progress)
-    http://docs.xfce.org/start
+　　Xfce 图形界面环境教程（英语）： http://docs.xfce.org/start
 
-  Getting started with the Ubuntu operating system: (a nice PDF e-book)
-    `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_
+　　Ubuntu 操作系统教程（PDF 电子书，英语）： `/usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_10.10.pdf>`_ 。
 
-  Further online help with the Ubuntu operating system: (n.b. we use the traditional Xfce desktop interface, not the tablet-like Unity desktop interface)
+　　线上的 Ubuntu 帮助（我们使用的传统的 Xfce 界面，而非带有平板风格的 Unity）：
+
     https://help.ubuntu.com/11.04/
 
     https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
@@ -72,7 +67,7 @@ Run:
     https://help.ubuntu.com/11.04/serverguide/C/
 
 
-See Also:
+相关信息：
 --------------------------------------------------------------------------------
 
  * :doc:`virtualbox_quickstart`

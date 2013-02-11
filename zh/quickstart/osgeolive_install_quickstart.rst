@@ -1,8 +1,7 @@
-:Author: OSGeo-Live
 :Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Version: OSGeo Live 6.0
+:Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Translator: tanner
 
 ********************************************************************************
 在硬盘安装 OSGeo-Live
@@ -46,7 +45,7 @@
   .. image:: ../../images/screenshots/800x600/osgeolive_install4_disk.png
     :scale: 70 %
 
-选择安装分区。请注意，该分区原有的数据会被删除。
+选择安装分区。请注意，该分区原有的数据会被 **删 除** 。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_install5_username.png
     :scale: 70 %
