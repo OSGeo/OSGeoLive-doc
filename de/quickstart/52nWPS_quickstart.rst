@@ -1,6 +1,6 @@
-:Author: Kristof Lange
+:Author: Benjamin Pross, Kristof Lange
 :Author: Frank Gasdorf
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -47,6 +47,7 @@ Starten und verwenden
   :scale: 100 %
   :alt: screenshot
   :align: center
+  
 
 * Probieren Sie auch den Capabilities-Request gegen den 52°North WPS Service aus:
 
