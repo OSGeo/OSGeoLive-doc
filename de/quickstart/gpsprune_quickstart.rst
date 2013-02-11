@@ -5,7 +5,7 @@
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
-  :target: http://gpsactivityworkshop.net/
+  :target: http://gpsprune.activityworkshop.net/
 
 ********************************************************************************
 GpsPrune Quickstart 
@@ -17,7 +17,8 @@ Laufen lassen
 Um GpsPrune auf diesem live DVD laufen zu lassen, wählen Sie den Ikon "GpsPrune" im Menü "Navigation und Karten" aus.
 Um Daten zu verarbeiten, benötigen Sie eine Datei einzulesen, oder Daten aus einem GPS-Gerät mittels *Gpsbabel* auszulesen,
 oder Koordinaten manuell einzugeben.  Am einfachsten ladet man eine beliebige Gpx-, Kml- oder Kmzdatei mit der Menüoption
-:menuselection:`Datei --> Datei öffnen` und wählt man eine Datei aus.
+:menuselection:`Datei --> Datei öffnen` und wählt man eine Datei aus. Eine geeignete GPX-Datei mit einigen Tracks finden Sie unter :file:`~/data/vector/R/test_trk2.gpx`.
+
 
 Jetzt sehen Sie den Track blau aufgezeichnet, und Wegpunkte (falls vorhanden) schwarz markiert.
 Falls eine Netzwerkverbindung vorhanden ist, empfiehlt es sich die Karten einzuschalten mit dem Globus Ikon oben
