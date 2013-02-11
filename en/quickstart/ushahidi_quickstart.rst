@@ -38,7 +38,9 @@ Getting Ushahidi Up and Running
    database and maps, and send automated reports from. For now set it to 
    something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**.
 
-   **Note:** If Ushahidi complains about this **"Oops! We couldn't make a 
+.. note::
+
+   If Ushahidi complains about this **"Oops! We couldn't make a 
    connection to the database server with the credentials given. Please make 
    sure they are correct."**. This means the installer script couldn't create 
    the database credentials. This has to be done manually before you can continue 
