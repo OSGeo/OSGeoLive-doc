@@ -44,8 +44,8 @@ Getting Ushahidi Up and Running
    connection to the database server with the credentials given. Please make 
    sure they are correct."**. This means the installer script couldn't create 
    the database credentials. This has to be done manually before you can continue 
-   with the installation. Issue these commands assuming you have logged into the 
-   system as root.
+   with the installation. Issue the following commands assuming you have
+   logged into the system as root:
 
    **"mysql -uroot -p"** -- This should prompt you for mysql server's root
    password. Enter the root password if there is one, otherwise hit the enter key.
