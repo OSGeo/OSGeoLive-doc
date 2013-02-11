@@ -61,8 +61,9 @@ Kernfunktionen
 **On-the-fly Umprojektion:**
      GeoServer unterstützt die Mehrzahl der EPSG Projektionen und kann Daten in jedes dieser Projektionssysteme umprojezieren. Hierdurch können Anwendungen mit begrenzter Umprojektionsunterstützung die Last auf den Server verlagern.
 
-**WMS Kachelung**
-    `GeoWebCache <http://geowebcache.org/>`_ ist ein WMS Kachelungs-Client. GeoWebCache fungiert als Proxy Server zwischen einem Karten-Client und einem Karten-Server, wobei Karten beim Anfordern gespeichert werden, redundante Anfragen werden umgangen und es wird ein großer Anteil der Prozessierungszeit eingespart. GeoWebCache wurde in GeoServer integriert.
+**Tiling Cache**
+    `GeoWebCache <http://geowebcache.org/>`_ wurde in GeoServer integriert.
+GeoWebCache kachelt und legt eine Zwischenspeicher von Kartenbilder von einer Vielzahl von Quellen beispielweise WMS an. Es wurden verschiedene Service Interfaces geschaffen (WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth), um die Bildauslieferung zu beschleunigen und zu optimieren. Kacheln können ebenso wieder zusammengefügt werden, um mit gängigen WMS Clients zu arbeiten.
 
 **Web Processing Service (WPS)**
     Räumliche Algorithmen, inklusive der :doc:`JTS <jts_overview>` Algorithme, können über GeoServer's :doc:`WPS <../standards/wps_overview>` Interface aufgerufen werden. Dies beinhaltet das Verketten von Prozessen und verwendet Renderingtransformationen, um eine beeindruckende Darstellungdurch das WMS Interface zu erzeugen.
@@ -76,8 +77,9 @@ Implementierte Standards
   * Web Map Tile Service (WMTS)
   * :doc:`../standards/wfs_overview`, WFS-T (transaktional)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
-  * :doc:`../standards/sld_overview`
+  * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
 
 Details
