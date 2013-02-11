@@ -5,7 +5,7 @@
 下载
 ================================================================================
 
-最后一个 |osgeo-live-version| 稳定版本:
+最新的 |osgeo-live-version| 稳定版本:
 
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: Download iso file with windows installers
