@@ -1,14 +1,13 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: Projektlogo
   :align: right
-  :target: http://www.tinyows.org/
+  :target: http://mapserver.org/trunk/tinyows/
 
 ********************************************************************************
 TinyOWS Quickstart 
@@ -65,9 +64,8 @@ WFS Layer mit QGIS anzeigen
 
    * Der WFS Layer wird jetzt angezeigt:
 
-     .. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
-        :scale: 80 %
-
+.. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
+  :scale: 80 %
 
 Daten editieren mit WFS-T
 ================================================================================
@@ -88,6 +86,6 @@ Daten editieren mit WFS-T
 Wie geht es weiter?
 ================================================================================
 
-Um mehr über TinyOWS zu erfahren, dient die Seite `User Documentation`_ auf der TinyOWS Homepage als Ausgangspunkt.
+Um mehr über TinyOWS zu erfahren, dient die Seite `TinyOWS Documentation`_ auf der MapServer Homepage.
 
-.. _`User Documentation`: http://tinyows.org/trac/wiki/UserDocumentation
+.. _`TinyOWS Documentation`: http://mapserver.org/trunk/tinyows/
