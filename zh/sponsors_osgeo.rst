@@ -66,10 +66,11 @@ OSGeo Associate Sponsors
   :align: right
   :target: http://www.firstbasesolutions.com
 
-.. image:: ../images/logos/metaspatial_sml.png
-  :alt: Metaspatial
-  :align: center
-  :target: http://www.metaspatial.net/
+.. image:: ../images/logos/2ndquadrant_logo.png
+  :alt: 2ndQuadrant
+  :align: left
+  :target: http://www.2ndquadrant.com/
+
 
 更多相关信息
 --------------------------------------------------------------------------------
