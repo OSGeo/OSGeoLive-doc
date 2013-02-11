@@ -16,26 +16,17 @@
    Opensreetmap:
      /home/user/data/osm/
    Vektordaten als Shape (*.shp) -Dateien : 
-     /home/user/data/natural_earth/
-       cultural/10m-populated-places-simple
-       cultural/10m-admin-0-countries
-       cultural/10m-populated-places-simple
-       cultural/10m-urban-area
-       physical/10m-land
-       physical/10m-ocean
-       physical/10m-lakes
-       physical/10m-rivers-lake-centerlines
+     /home/user/data/natural_earth2/
+       cultural/ne_10m-populated-places
+       cultural/ne_10m-admin-0-countries
+       cultural/ne_10m-urban-area
+       physical/ne_10m-land
+       physical/ne_10m-ocean
+       physical/ne_10m-lakes
+       physical/ne_10m-rivers-lake-centerlines
    Rasterdaten als TIFF (*.tif)
      Basiskarte 1:50 Millionen (40mb -  Cross Blended Hypso with Shaded Relief and Water) :
-     /home/user/data/natural_earth/HYP_50M_SR_W/
-
-  Bilder sollten skaliert werden:
-   50% bei einer Auflösung von 1024x768 (bevorzugt) oder
-   70% bei einer Auflösung von 800x600.
-  und gespeichert werden unter:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
-  bzw.
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/800x600/
+     /home/user/data/natural_earth2/HYP_50M_SR_W.*
 
 .. Writing Tip:
   Metadaten des Dokumentes 
@@ -46,7 +37,7 @@
 :Author: Frank Gasdorf
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Thanks: geotools-user list
+:Thanks: udig-devel list
 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %
@@ -70,8 +61,7 @@ uDig (User Friendly Internet Desktop GIS) ist ein Desktop GIS-Client zum Anzeige
 
 Mit dem Quickstart Guide soll folgendes erreicht werden:
 
-  * Hinzufügen von Vektordaten als Layer zur Karte (Shapefile)
-  * Hinzufügen eines Layers von einem :doc:`Web Map Service (WMS) <../standards/wms_overview>` Server
+  * Hinzufügen von Vektordaten als Layer zur Karte von einer Shapedatei und von einem :doc:`Web Map Service (WMS) <../standards/wms_overview>` Server
   * Verwenden der Standardwerkzeuge zum Navigieren in der Karte
   * Anpassen der Farbe für die Darstellung von Objekten (Style)
 
@@ -93,7 +83,7 @@ uDig starten
 #. |osgeolive-appmenupath-udig| im Startmenü des Desktops wählen
 #. nach einem Moment wird die Anwendung gestartet und ein Begrüßungsbildschirm angezeigt
 
-  .. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
+.. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
    :scale: 70 %
 
 Willkommensansicht
@@ -141,25 +131,25 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
-#. Wählen Sie die folgende Datei aus dem Ordner :file:`natural_earth`  aus:
+#. Wählen Sie die folgende Datei aus dem Ordner :file:`natural_earth2`  aus:
    
-   * :file:`10m_admin_0_countries.shp`
+   * :file:`ne_10m_admin_0_countries.shp`
    
 #. Klicken Sie auf die Schaltfläche :guilabel:`Open`
    
    * Eine neue Karte wird geöffnet, die den Inhalt des Shapefiles anzeigt. Der Name und die Projektion für die Karte wurden vom Shapefile übernommen (Standardverhalten)
 
-   * Die Katalogansicht (**Catalog view**) wurde aktualisiert und enthält nun einen Eintrag für das Shapefile :file:`10m_admin_0_countries.shp`. Diese Ansicht enthält als Liste alle Resourcen, die in den unterschiedlichsten Karten der uDig Anwendung verwendet werden.
+   * Die Katalogansicht (**Catalog view**) wurde aktualisiert und enthält nun einen Eintrag für das Shapefile :file:`ne_10m_admin_0_countries.shp`. Diese Ansicht enthält als Liste alle Resourcen, die in den unterschiedlichsten Karten der uDig Anwendung verwendet werden.
    
    * In der Layeransicht (**Layers**) sehen Sie einen einzigen Eintrag für den Layer der in der Karte angezeigt wird. Diese Ansicht wird verwendet, um die Reihenfolge mehrerer Layer anzupassen und das Darstellungsverhalten eines Layer zu ändern.
    
    * Die Projektansicht (**Projects**) wurde ebenfalls aktualisiert und zeigt nun die hinzugefügte Karte unter `project > 10m admin 0 countries`. Es können mehrere Projekte geöffnet sein. Jedes Projekt kann wiederum mehrere Karten enthalten.
 
-#. Öffnen Sie den Ordner :file:`~/data/natural_earth/HYP_50M_SR_W` im Home -Verzeichnis mit dem **File Manager**
+#. Öffnen Sie den Ordner :file:`~/data/natural_earth2/` auf dem Desktop
 
 #. Ziehen Sie per Drag&Drop die Datei :file:`HYP_50M_SR_W.tif` in die Karte. Ein neuer Layer wird er Karte hinzugefügt.
 
-#. In welcher Reihenfolge die Layer in der Karte dargestellt werden, sehen Sie in der Layeransicht. Im Moment wird der Layer `HYP_50M_SR_W` über den Ländergrenzen des Layers `10m admin 0 countries` gezeichnet.
+#. In welcher Reihenfolge die Layer in der Karte dargestellt werden, sehen Sie in der Layeransicht. Im Moment wird der Layer `HYP_50M_SR_W` über den Ländergrenzen des Layers `ne 10m admin 0 countries` gezeichnet.
 
 #. Wählen Sie den Layer `HYP_50M_SR_W` in der Layeransicht und schieben diesen per Drag&Drop an das Ende der Liste.
   
@@ -234,7 +224,7 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 #. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
 
 	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
-		:scale: 70 %
+		:scale: 50 %
 
 #. Wählen Sie innerhalb der **Web** Ansicht den Link WMS\:`dm solutions`_ aus
 
