@@ -1,12 +1,12 @@
 :Author: activityworkshop
-:Version: osgeo-live4.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
-
 
 GpsPrune
 ================================================================================
@@ -15,7 +15,7 @@ GPS Datenverarbeitungssoftware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsPrune <http://gpsprune.activityworkshop.net/>`_ ist ein Tool für die Visualisierung,
-das Editieren und das Konvertieren von Koordinatendaten aus GPS Systemen.  GpsPrune verwendet OpenStreetMap
+das Editieren und das Konvertieren von Koordinatendaten aus GPS Systemen.  GpsPrune verwendet :doc:`OpenStreetMap <osm_dataset_overview>` 
 Karten um aufgenommenen Tracks und Wegpunkte zu zeigen, und stellt eine Reihe von Funktionen zur Verfügung
 um die Punkte zu editieren, löschen und kombinieren.  GpsPrune kann auch Fotos und Audiodateien mit den
 Koordinaten verbinden anhand von den Zeitstempeln.
