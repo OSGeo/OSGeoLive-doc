@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -47,7 +47,7 @@ Die Daten der Küstenlinien mit geringer Genauigkeit finden sie unter :file:`/us
 Beispiele
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es sind 29 Beispiel-Jobs vorhanden, die alle über ein Skript ausgeführt werden können:
+Es sind 30 Beispiel-Jobs vorhanden, die alle über ein Skript ausgeführt werden können:
 
 Öffnen Sie ein Terminal und geben Sie folgendes ein:
 
