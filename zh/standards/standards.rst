@@ -1,33 +1,34 @@
-﻿.. Geospatial Standards documentation master file, created by
+.. Geospatial Standards documentation master file, created by
    sphinx-quickstart on Mon Jul 19 08:52:52 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-开源地理信息基金会 （Open Geospatial Consortium） 标准
+Open Geospatial Consortium 开放地理空间信息联盟标准
 ================================================================================
 
-介绍
+简介
 --------------------------------------------------------------------------------
-为了让地理信息成为全球信息基础设施的一个组成部分， 开源地理信息基金会 (OGC) 成立于1994年. OGC的成员 – 技术提供商和技术使用者 -- 合作开发的开放式接口标准和相关的编码标准, 以及最佳做法, 使开发人员能够创建可以很容易地与其他信息系统交换"地理信息"的信息系统。 从复杂的地球观测卫星调度控制系统， 到在网络上显示简单的地图图像以及用几个字节来编码地理位置，您只要看一下 `OGC区域工作组 <http://www.opengeospatial.org/projects/groups/wg>`_ ， 您就会知道OGC当前活动的范围之广。
+　　开放地理空间信息联盟 Open Geospatial Consortium (OGC) 成立于 1994 年，其认为是将地理空间信息融入的到世界信息服务的框架之中。OGC 成员包括技术开发者和用户。他们在全球范围内合作建立地理信息技术的开放标准和最佳实践，为地理信息交换的便捷提供技术支持。这些技术从人造地球观测卫星复杂的运行设计和控制到简单的地理坐标编码和地图图像显示。您可以访问 `OGC Domain Working Groups <http://www.opengeospatial.org/projects/groups/wg>`_ 了解该组织各个部门当前的工作内容。
 
-OGC基准和OGC参考模型
+OGC 基准与 OGC 参考模型
 --------------------------------------------------------------------------------
 
-OGC对于接口，编码，型材，应用模式，基准，和最佳实践文件都有标准， 参见http://www.opengeospatial.org/standards。 OGC参考模型 (ORM) (参见http://www.opengeospatial.org/standards/orm) 描述了这些标准， 以及这些标准和相关ISO标准的关系。 ORM提供了一个OGC标准的概述，并给一些专业项目的设计工作提供了有用的资源。
+　　OGC 标准化包含了 OGC `标准 http://www.opengeospatial.org/standards>`_ 用于规范接口、编码、功能描述、应用类型和最佳实践文档。OGC 参考模型 (ORM) (http://www.opengeospatial.org/standards/orm) 描述了这些标准相互间以及与 ISO 标准的关系。ORM 提供了对 OGC 标准群的概览，并适用于描述各类应用体系。
 
-在使用OGC标准开发web service时 (以及学习OGC的不同标准的关系时），应该将发布(publish)，查找(find)和绑定(bind)看作web service环境关键功能。
+　　使用 OGC 标准开发应用并了解各个标准间的关系有利于促进在网络环境下发布、发现和连接重要的地理空间服信息务功能。
 
-* 发布（Publish）: 资源提供者宣传他们的资源.
-* 查找（Find）: 最终用户和他们的应用程序可以在运行时发现他们需要的资源.
-* 绑定（Bind）: 最终用户和他们的应用程序可以在运行时使用资源.
+* 发布：信息源所有者提供其信息
+* 发现：用户可以在业务运行时找到所需的资源
+* 连接：用户可以在业务运行时获取资源
 
-近几年制定的OGC标准大部分都是给web service环境的。 这些标准统称为OGC Web Services (OWS). OWS框架见下图。 图中显示了运用到地理处理（geoprocessing）等方面的通用web service class. 
+　　最近一些年来发展的多数标准都是基于网络服务的。这些标准合成 OGC 网络服务（OGC Web Services, OWS）。下面所展示的是基本框架，包含了在各种地理空间信息处理和地理相关活动中的应用模式。
+
 
 .. figure:: ../../images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Web services framework of OGC geoprocessing standards
 
-图中的缩略语定义见下段。 它们其中有些是 “OGC标准”， 其它是公开的“讨论文件”，“请求”和“推荐论文”。 (注释: 有一些正在制定的标准还未公开， 但OGC 的成员可看到.) 
+　　其中的名称解释如下。其中某些是确定的 OGC 标注，另一些则是待议论文（Discussion Papers）、请求（Requests）和建议论文（Discussion Papers）。其中有一部分目前只对 OGC 成员开放。
 
 .. add all standard overview documents to the toc and add all others right behind
 
@@ -37,24 +38,24 @@ OGC对于接口，编码，型材，应用模式，基准，和最佳实践文�
    
    *_overview
 
-* Sensor Planning Service (SPS)
-* Web Terrain Service (WTS)
-* Grid Coverage Service
-* Coordinate Transformation Service
-* Web Coverage Processing Service (WCPS)
-* Web Map Tile Service (WMTS)
-* Simple Features (SF)
-* Sensor Web Enablement (SWE)
-* XML for Image and Map Annotation (XIMA)
-* CityGML
-* GeosciML
-* GML in JPEG 2000
-* Observations and Measurements (O&M)
-* Symbology Encoding
-* Transducer Markup Language (TML)
+* Sensor Planning Service (SPS) 传感器使用规划
+* Web Terrain Service (WTS) 网络地形数据服务
+* Grid Coverage Service 地理格网系统
+* Coordinate Transformation Service 坐标转换
+* Web Coverage Processing Service (WCPS) 网络地理编录处理
+* Web Map Tile Service (WMTS) 网络地图切片
+* Simple Features (SF) 简单地理要素
+* Sensor Web Enablement (SWE) 网络传感器控制
+* XML for Image and Map Annotation (XIMA) 用于图像和地图注记的 XML 文档
+* CityGML 城市地理信息标注语言
+* GeosciML 地学信息标注语言
+* GML in JPEG 2000 地理编码（用于 JPEG 2000 图像）
+* Observations and Measurements (O&M) 观测和测量
+* Symbology Encoding 图形符号编码
+* Transducer Markup Language (TML) 传感器标注语言
 
 
-.. links to standards
+.. 各个标准的说明链接
   * :doc:`wms_overview` (http://www.opengeospatial.org/standards/wms)
   * :doc:`wfs_overview` (http://www.opengeospatial.org/standards/wfs)
   * :doc:`wcs_overview` (http://www.opengeospatial.org/standards/wcs)
@@ -83,9 +84,9 @@ OGC对于接口，编码，型材，应用模式，基准，和最佳实践文�
   * Symbology Encoding (http://www.opengeospatial.org/standards/symbol)
   * Transducer Markup Language (TML) (http://www.opengeospatial.org/standards/tml)
 
-更多参考:
+其它信息
 --------------------------------------------------------------------------------
 
-* OGC标准的综合列表: http://www.opengeospatial.org/standards/
-* 在IGARSS 2010会议上作的OGC教程介绍: http://www.ogcnetwork.net/node/1481 
-* OGC的网络学习网页 (http://www.ogcnetwork.net/learn).
+* OGC 标准完整列表 http://www.opengeospatial.org/standards/
+* OGC 教程（IGARSS 2010） http://www.ogcnetwork.net/node/1481 
+* OGC 线上教程 http://www.ogcnetwork.net/learn
