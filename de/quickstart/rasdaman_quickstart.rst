@@ -3,7 +3,8 @@
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
 :Author: Dimitar Misev (d.misev@jacobs-university.de)
 :Author: Frank Gasdorf
-:Version: osgeo-live6.0
+:Author: Alan Beccati (a.beccati@jacobs-university.de)
+:Version: osgeo-live6.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
@@ -25,9 +26,7 @@ Um mit den Beispielen arbeiten zu können, ist der rasdaman Server zu starten (:
 Erkunden der 1-D bis 4-D Beispiele
 ==================================
 
-    * Gehen Sie auf `EarthLook Demo Seite <http://localhost:8080/earthlook/index.php>`_ um die verschiedenen 
-      Demo-Datensätze zu erkunden. Die kleineren sind Teil von OSGeo-Live, möchten Sie hingegen die größeren 
-      nutzen, werden Sie direkt auf die `Earthlook Webseite <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ weitergeleitet.
+    * Sie können die rasdaman `Demo <http://localhost/rasdaman-demo/index-osgeolive.php>`_ lokal aufrufen, um einige Demodatensätze anzuschauen. Die kleineren sind Teil von OSGeo-Live, die die größere Datensätze verwenden verweisen direkt auf die `Earthlook Demo Seite <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ (Internetzugang wird benötigt).
 
 Anfragen lokal ausführen
 ========================
@@ -53,7 +52,7 @@ Erstellen einer eigenen Datenbank
 
       $ rasql -q "select png( NIR ) from NIR" --out file
 
-Was kann man noch probieren?
+Wie geht es weiter?
 ============================
 
 Weitere Herausforderungen, die Sie meistern können:
