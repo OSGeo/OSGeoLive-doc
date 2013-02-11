@@ -80,7 +80,8 @@ Getting Ushahidi Up and Running
    In the setup page you might want to select **"Settings"**
    (top right) and then the **"Map"** tab, and change the 
    **"Map provider"** to OpenStreetMaps Cycling Map (no API key 
-   necessary for OSM, as it's Open :-) ).
+   necessary for OSM, as it's Open :-) ). Then click the :guilabel:`SAVE SETTINGS`
+   button at the bottom of the page.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
