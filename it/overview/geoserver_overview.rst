@@ -56,7 +56,7 @@ Caratteristiche di base
     * Raster
         - GeoTiff, JPG e PNG, piramidi, formati GDAL, Image Mosaic, Oracle GeoRaster
 
-**I dati sono mostrati come immagini veloci e sicure utilizzando il protocollo WMS:**
+**I dati sono mostrati come immagini veloci e sicure utilizzando il protocollo WMS e WMST:**
     Poiche` il dato e` mostrato come un'immagine il dato e` completamente salvo e sicuro. A meno di non digitalizzare il dato, non c'e` nessuna possibilita` che il dato venga sottratto.
     L'apparenza di ciascun layer puo` essere controllata usando lo standard SLD che consente di colorare ed etichettare gli oggetti. Combinando queste regole con Filtri OGC e` possibile implementare uno stile dipendente dalla scala, che permette di visualizzare maggiori dettagli aumentando lo zoom. Inoltre sono implementati la gestione delle collisioni delle etichette, il raggruppamento e le priorita`. 
 
@@ -70,8 +70,11 @@ Caratteristiche di base
 **Riproiezione al volo:**
      GeoServer supporta la gran parte delle proiezioni del database EPSG e puo` riproiettare qualsiasi dato a richiesta per consentire ai client con limitate capacita` di riproiezione di passare il caricamento del server. 
 
-**WMS Tiling Cache**
-    `GeoWebCache <http://geowebcache.org/>`_ e` un WMS tiling client. Gira su un server proxy tra la mappa client e la mappa server, effettuando la cache dei tile quando vengono richiesti, eliminando le richieste ridondanti e risparmiando moltissimo tempo di processo. GeoWebCache e` stato integrato in GeoServer.
+**Tiling Cache**
+    `GeoWebCache <http://geowebcache.org/>`_, che è integrato in GeoServer, crea tiles e caches di immagini di mappe da diverse sorgenti come un WMS. Implementa varie interfacce ai servizi (come WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) al fine di accellerare e ottimizzare la fornitura di immagini. Può anche ricombinare tiles per lavorare con client WMS standard
+    
+**Web Processing Service (WPS)** 
+    Algoritmi geospaziali, inclusi quelli di :doc:`JTS <jts_overview>`, possono essere richiamati tramite l'interfaccia :doc:`WPS <../standards/wps_overview>` di GeoServer. Questo include il concatenamento di processi, e utilizza le trasformazioni di rappresentazioni di mappe per creare potetenti visualizzazioni attraverso l'interfaccia WMS
 
 Standard implementati
 --------------------------------------------------------------------------------
@@ -79,8 +82,10 @@ Standard implementati
 Supporto di numerosi standard Open Geospatial Consortium  (OGC):
 
   * :doc:`../standards/wms_overview`
+  * Web Map Tile Service (WMTS)
   * :doc:`../standards/wfs_overview`, WFS-T (transactional)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
@@ -92,7 +97,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione software:** 2.1.3
+**Versione software:** 2.2.2
 
 **Piattaforme supportate:** Tutte le piattaforme con Java 1.5: - Windows, Linux, Mac
 
