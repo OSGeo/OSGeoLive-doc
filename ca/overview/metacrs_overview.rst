@@ -2,6 +2,7 @@
 :Author: Mike Adair
 :Translator: Assumpció Termens
 :Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -42,8 +43,9 @@ també disponibles via interfície de comandes.
 
 Els subprojectes que composen MetaCRS inclouen:
 
-* PROJ.4 (C++) - usat en MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation i altres.
-* Proj4js (JavaScript) - usat en OpenLayers.
+* PROJ.4 (C++) - usat en :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>', 
+:doc:'PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation i altres.
+* Proj4js (JavaScript) - usat en :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - usat en MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).
@@ -84,9 +86,9 @@ Proj4js
 
   **Lloc web:**  http://proj4js.org
   
-  **Llicència:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
+  **Llicència:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Versió de programari:** 1.0.1
+  **Versió de programari:** 1.1.0
   
   **Plataformes compatibles:** Windows, Linux, Mac
   
@@ -97,7 +99,7 @@ Proj4js
 CS-Map
 --------------------------------------------------------------------------------
 
-  **Lloc web:**  http://proj4js.org
+  **Lloc web:**  http://trac.osgeo.org/csmap/
   
   **Llicència:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
   
@@ -116,7 +118,7 @@ GeoTIFF/libgeotiff
   
   **Llicència:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Versió de programari:** 1.3.0
+  **Versió de programari:** 1.4.0
   
   **Suport:** http://lists.maptools.org/mailman/listinfo/geotiff
   

@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -22,7 +23,9 @@ Quantum GIS (QGIS)
 SIG d'escriptori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) és un client SIG amigable i de codi obert amb el qual es pot visualitzar, gestionar, editar i analitzar dades, i generar mapes per imprimir. Inclou funcions analítiques potents a través de la integració amb GRASS. Es pot emprar a Linux, Unix, Mac OSX, i Windows i suporta nombrosos formats i funcions tant per vector com per ràster com per bases de dades.
+Quantum GIS (QGIS) és un client SIG amigable i de codi obert amb el qual es pot visualitzar, gestionar, editar i analitzar dades, i generar mapes per imprimir. 
+Inclou funcions analítiques potents a través de la integració amb :doc:`GRASS <grass_overview>`.  
+Es pot emprar a Linux, Unix, Mac OSX, i Windows i suporta nombrosos formats i funcions tant per vector com per ràster com per bases de dades.
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
@@ -44,7 +47,7 @@ Característiques principals
 
 * Visualització senzilla de molts formats ràster i vector
 
-    * taules de bases de dades PostgreSQL
+    * taules de bases de dades PostgreSQL/PostGIS
     * la majoria de formats vector: incloent shapefiles d'ESRI, MapInfo, SDTS i GML.
     * formats ràster com els dels models digitals del terreny, les imatges aèries o les de satèl·lit,
     * llocs i conjunts de mapes de GRASS
@@ -79,7 +82,7 @@ Detalls
 
 **Llicència:** GPL
 
-**Versió de programari:** 1.7.4
+**Versió de programari:** 1.8.0
 
 **Sistemes operatius:** Windows, Linux, Mac, Unix
 

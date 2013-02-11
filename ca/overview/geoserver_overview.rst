@@ -1,7 +1,8 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
@@ -47,7 +48,7 @@ Característiques principals
     * Raster
         - GeoTiff, JPG i PNG (amb arxiu extern), imatges piramidals, formats GDAL, mosaics d'imatges, Oracle GeoRaster
 
-**Les dades es serveixen com imatges ràpidament i de forma segura emprant el protocol WMS:**
+**Les dades es serveixen ràpidament i de forma segura com imatges emprant els protocols WMS i WMTS:**
     Donat que les dades es serveixen com una imatge, les vostres dades estàn protogides. A menys que algú les digitalitzi, no hi ha manera de prendre les vostres dades.
     L'aspecte de cada capa del mapa es pot controlar emprant l'estàndard SLD, que permet donar color i posar etiquetes als elements. Combinant aquestes normes amb filtres OGC es pot implementar estils diferents segons l'escala, cosa que permet afegir detall a mida que l'usuari s'acosta al mapa. També s'implementen la gestió de la col·lisió d'etiquetes, l'agrupament i la priorització.
 
@@ -61,17 +62,28 @@ Característiques principals
 **Reprojecció al vol:**
      GeoServer suporta la majoria de codis EPSG de projeccions i pot reprojectar a qualsevol d'ells sota demanda per permetre als client descarregar al servidor les tasques de reprojecció.
 
-**Cau de tessel·les WMS**
-    `GeoWebCache <http://geowebcache.org/>`_ és un client WMS de tessel·lat. S'executa com un servidor proxy entre un client de mapes i un servidor de mapes, desant les tessel·les a mida que es demanen, per eliminar peticions redundants i estalviar gran quantitat de temps de procés. GeoWebCache ha estat integrat a GeoServer.
-
+**Cau de tessel·les** 
+    `GeoWebCache <http://geowebcache.org/>`_, el qual està integrat dins Geoserver, tesel·lat imatges de mapa
+	des de diverses fonts com per exemple WMS. Implementa diverses interfaces (tals com WMS-C, WMTS, TMS, Google Maps KML,
+	Virtuañ Earth) per tal d'accelerar i optimitzar l'enviament de les imatges. A més pot recombinar tesel·les per tal de 
+	treballar amb clients usuals de WMS.
+	
+**Web Processing Service (WPS)** 
+	Algorismes geoespacials, incloent els :doc:`JTS <jts_overview>`, 
+	que es poden cridar a traves de la interface de :doc:`WPS <../standards/wps_overview>` de Geoserver.
+	Inclou l'encadenament de processos, així com l'ús de transformacions de renderitzat per tal de crear
+	visualitzacions de mapes a través de WMS.
+	
 Estàndards implementats
 --------------------------------------------------------------------------------
 
 Suporta nombrosos estàndards de l'Open Geospatial Consortium  (OGC):
 
   * :doc:`../standards/wms_overview`
+  * Web Map Tile Service (WMTS)
   * :doc:`../standards/wfs_overview`, WFS-T (transaccional)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
@@ -83,7 +95,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 2
 
-**Versió de programari:** 2.1.3
+**Versió de programari:** 2.2.2
 
 **Sistemes operatius:** All Java 1.5 platforms: - Windows, Linux, Mac
 

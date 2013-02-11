@@ -1,7 +1,8 @@
 :Author: activityworkshop
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Anna Muñoz Bollas
-:Version: osgeo-live5.5
+:Translator: Anna Muñoz Bollas (a.munyoz.b@gmail.com)
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-prune.png
@@ -16,7 +17,7 @@ Programari d'edició de Tracks GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `GpsPrune <http://gpsprune.activityworkshop.net/>`_ és una eina per a la visualització, edició i transformació de les coordenades de dades provinents de sistemes GPS. 
-Utilitza les imatges d'OpenStreetMap per mostrar els tracks i waypoints registrats, i proporciona una gran varietat d'eines que permeten la recopilació i l'edició de punts.
+Utilitza les imatges de :doc:`OpenStreetMap <osm_dataset_overview>` per mostrar els tracks i waypoints registrats, i proporciona una gran varietat d'eines que permeten la recopilació i l'edició de punts.
 També disposa de de funcions per correlacionar arxius d'imatge i so a les coordenades usant el *timestamp* de les fotos.
 
 GpsPrune utilitza GPSBabel, en cas que estigui disponible, per a la lectura directa de dades del dispositiu GPS. També pot enviar les dades editades de tornada al receptor

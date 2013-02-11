@@ -1,8 +1,9 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
 :Traductor: Assumpcio Termens
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GMT.png

@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Assumpcio Termens
+:Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

@@ -1,7 +1,8 @@
-﻿:Author: Dane Springmeyer
+:Author: Dane Springmeyer
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Anna Muñoz
-:Version: osgeo-live5.5
+:Translator: Anna Muñoz Bollas
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapnik.png
@@ -55,7 +56,7 @@ Detalls
 
 **Llicències:** LGPL (GNU Lesser General Public Licence)
 
-**Versió del programari:** 0.7.1
+**Versió del programari:** 2.0.0
 
 **Plataformes suportades:** Windows, Linux, Mac
 

@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Author: Frank Warmerdam
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GEOS.png
@@ -29,7 +30,7 @@ GEOS és la llibreria geoespacial en C++ d'ús més extés, i s'utilitza per a p
 Estàndards implementats
 --------------------------------------------------------------------------------
 
-* Funcions Simples d'OpenGIS per als operadors espacials i les funcions de predicat espacial d'SQL
+* `Funcions Simples d'OpenGIS per als operadors espacials i les funcions de predicat espacial d'SQL <http://www.opengeospatial.org/standards/sfs>`_.
 
 Característiques principals
 --------------------------------------------------------------------------------

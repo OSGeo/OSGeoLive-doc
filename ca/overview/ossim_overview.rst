@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ossim.png
@@ -54,11 +55,11 @@ Característiques principals
 Detalls
 --------------------------------------------------------------------------------
 
-**Lloc web:** http://www.ossim.org/
+**Lloc web:** http://www.ossim.org
 
 **Llicència:** GNU General Public License (GPL) version 3
 
-**Versió de programari:** 1.8.6
+**Versió de programari:** 1.8.14
 
 **Sistemes operatius:** Linux, Mac, Windows
 

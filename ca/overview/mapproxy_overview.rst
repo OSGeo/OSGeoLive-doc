@@ -1,7 +1,8 @@
 :Author: Oliver Tonnhofer
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Assumpcio Termens
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
@@ -26,7 +27,7 @@ cartogràfiques poden ser transformades en una altra, es poden afegir marques
 d'aigua, i més...
 
 MapProxy és flexible i escala des del senzill cas d'ús fins al més complex: des d'una única
-rajola de memòria cau per a un client web OpenLayers fins a un node central SDI que combina,
+rajola de memòria cau per a un client web :doc:`OpenLayers <openlayers_overview>` fins a un node central SDI que combina,
 unifica i accelera desenes de serveis WMS distribuïts.
 
 MapProxy és utilitzat per l'atles de banda ampla alemany per distribuir mapes de milers
@@ -45,7 +46,7 @@ Característiques Principals
   :align: right
 
 Fonts d'entrada:
-  * WMS 1.0.0–1.3.0 (MapServer, GeoServer, etc.)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, etc.)
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver i Mapnik (directament, sense WMS)
   * qualsevol font compatible amb TileCache, Google Maps o Bing

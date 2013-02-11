@@ -1,13 +1,20 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.tinyows.org/
+  :target: http://mapserver.org/tinyows/
+
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 TinyOWS
 ================================================================================
@@ -36,24 +43,24 @@ Característiques principals
 
 Estàndards implementats
 --------------------------------------------------------------------------------
-* WFS 1.0 i WFS 1.1: perfil Basic i perfil Transaccional
+* WFS 1.0 i WFS 1.1: perfil Basic i Transaccional
 * FE 1.0.0 i FE 1.1.0
 * GML 2.1.2 i 3.1.1: Perfil Simple (SF-0)
 
 Detalls
 --------------------------------------------------------------------------------
 
-**Lloc web:** http://www.tinyows.org/
+**Lloc web:** http://mapserver.org/tinyows/
 
 **Llicència:** MIT
 
-**Versió de programari:** 1.0
+**Versió de programari:** 1.1.0
 
 **Sistemes operatius:** Linux, Unix, Mac, Windows
 
 **Interfícies API:** CGI/FastCGI
 
-**Suport:** http://lists.maptools.org/pipermail/tinyows-users/
+**Suport:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
 Guia ràpida

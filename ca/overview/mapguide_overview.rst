@@ -1,6 +1,7 @@
 :Author: Trevor Wekel
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Anna Muñoz Bollas
+:Translator: Anna Muñoz Bollas (a.munyoz.b@gmail.com)
+:Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -35,7 +36,7 @@ MapGuide es pot implementar en Linux o Windows, així com en els servidors web A
   :align: right
 
 .. note :: 
-   A causa de les limitacions d'espai en el DVD, actualment MapGuide no està instal·lat al DVD.
+   A causa de les limitacions d'espai, actualment MapGuide no està instal·lat en el DVD d'OSGeo-Live.
    
 .. cal comentar que actualment no funciona la instal·lació manual. Per instal·lar-lo 
    obriu una finestra de consola i executeu ``cd gisvm/bin; sudo ./install_mapguide.sh``

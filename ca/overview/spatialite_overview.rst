@@ -1,13 +1,14 @@
 :Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %
   :alt: project logo
   :align: right
-  :target: http://www.gaia-gis.it/spatialite/
+  :target: http://www.gaia-gis.it/gaia-sins/
 
 
 SpatiaLite
@@ -18,9 +19,8 @@ Base de dades espacial
 
 SpatiaLite és una base de dades SQLite amb funcions espacials afegides.
 
-SQLite és un gestor de bases de dades molt popular, simple, robust, fàcil d'utilitzar i realment lleuger. Cada bases de dades SQLite és només un arxiu; el podeu copiar, comprimir, enviar per xarxa o a la web sense cap complicació.
-
-Els arxius també són portables; la mateixa base de dades funcionarà a Windows, Linux, MacOs, etc.
+SQLite és un gestor de bases de dades (DBMS) simple, robust, fàcil d'utilitzar i realment lleuger.
+Cada Base de Dades SQLite és simplement un fitxer. El podeu copiar, comprimir, enviar entre sistemes Windows, Linux, MacOS, etc
 
 .. _SQLite: http://www.sqlite.org/
 
@@ -57,11 +57,11 @@ Detalls
 
 **Llicència:** MPL v1.1 and GPL v3
 
-**Versió de programari:** spatialite 3.0.0 / librasterlite 1.0 / spatialite-gui 1.3.0 / spatialite-gis 1.0.0
+**Versió de programari:** spatialite 3.1.0 / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
 
 **Sistemes operatius:** Linux, Mac, Windows
 
-**Interfícies API:** C++
+**Interfícies API:** C
 
 
 Guia ràpida

@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Anna Muñoz Bollas
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-openjump.png
@@ -38,7 +39,7 @@ Característiques Principals
 
 * Edició i Fusió
 
-    * dibuix de punts, línies, polígons, grups de geometries, col·leccions i cercles (de vegades barrejats en una única capa)
+    * dibuix de punts, línies, polígons, multi-geometries, col·leccions i cercles (de vegades barrejats en una única capa)
     * afegir, moure, esborrar vèrtexs
     * rotar, escalar i funció d'autocompletat de polígons
     * tallar, unir, simplificar polígons i línies
@@ -49,13 +50,13 @@ Característiques Principals
     * Funcions de consulta espacial i per atributs
     * Anàlisi : àrea d'influència (buffer), union, overlay, centroid, envoltant mínima ...
     * Eines estadístiques : longitud, àrea, atributs estadístics, gràfics ...
-    * Eines de topologia : nodes en una línia, dibuixar polígon, gràfic en el mateix pla, ...
+    * Eines de topologia : nodes en una línia, dibuixar polígon, gràfic en el mateix pla, neteja de topologia en l'edició PLUS ...
     * Eines per transferència d'atributs : join (n:1), matching(1:1)*
     * Anàlisi raster via SEXTANTE inclòs en la versió PLUS
 
 * Personalització
 
-    * internacionalització (cz, de, en, ed, fi, fr, hu, it, ja, pt, ta, zh)
+    * internacionalització (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
     * proporciona un API, scripts via BeanShell i Java Python
     * (Java) plugin-system
    
@@ -65,9 +66,7 @@ Estàndards Implementats
 
 .. Writing Tip: List OGC or related standards supported.
 
-* Estàndards OGC: GML2, SFS, WMS and SLD
-
-
+* Estàndards OGC: GML2, SFS, WMS and SLD; (WFS per :doc:`deegree <deegree_overview>`)
 Detalls
 --------------------------------------------------------------------------------
 
@@ -75,7 +74,7 @@ Detalls
 
 **Llicència:** GPL
 
-**Versió de Programari:** 1.5.1
+**Versió de Programari:** 1.5.2 (Core Edition)
 
 **Plataformes suportades:** Windows, Linux, Mac, Unix
 

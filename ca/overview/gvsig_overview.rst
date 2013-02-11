@@ -1,6 +1,7 @@
-﻿:Author: Jorge Sanz 
+:Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Reconeixement 3.0 No adaptada (CC BY 3.0)
 
 .. _gvsig-overview-ca:

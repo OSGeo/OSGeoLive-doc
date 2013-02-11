@@ -1,5 +1,6 @@
 :Author: Henry Addo
 :Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -43,6 +44,8 @@ Característiques bàsiques
 * Temes.
 * Planificador.
 * Memòria cau.
+* Support d'actualitació de video
+* Supports Badges for awarding userrs of the Ushaidi platform (???)
 
 Demostració
 --------------------------------------------------------------------------------

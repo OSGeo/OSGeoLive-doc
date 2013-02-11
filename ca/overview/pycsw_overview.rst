@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -20,7 +21,8 @@ pycsw permet als usuaris publicar a la web un catàleg de descripcions de conjun
 
 Les metadades són "dades sobre les dades", i emmagatzemen coses com ara la data de creació, autor, títol, àrea d'interès, etc, i normalment es codifiquen com a fitxers XML, seguint els estàndards internacionals com ISO 19115, ISO 19139 i FGDC CSDGM.
 
-pycsw és una implementació en `Python`_  de :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`. L'estàndard CSW defineix interfícies comunes per descobrir, navegar i interrogar metadades de dades espacials, serveis web i recursos relacionats.
+pycsw és una implementació en `Python`_  de :doc:`OGC Catalogue Services for the Web (CSW) standard<../standards/csw_overview>`. 
+El projecte està certificat com a `OGC Compliant`_, i és una `OGC Reference Implementation`_. L'estàndard CSW defineix interfícies comunes per descobrir, navegar i interrogar metadades de dades espacials, serveis web i recursos relacionats.
 
 pycsw és codi obert, amb una llicència MIT, i es pot executar a la majoria de sistemes operatius (Windows, Linux, Mac OS X).
 
@@ -32,14 +34,20 @@ pycsw és codi obert, amb una llicència MIT, i es pot executar a la majoria de 
 Característiques principals
 --------------------------------------------------------------------------------
 
+* segueix totalment l'estàndard OGC CSW 2.0.2
 * supera completament el conjunt de proves OGC CITE CSW (103/103)
 * implementa INSPIRE Discovery Services 3.0
 * implementa ISO Metadata Application Profile 1.0.0
 * implementa FGDC CSDGM Application Profile for CSW 2.0
-* suporta models de metadades ISO, Dublin Core, DIF, i FGDC
+* Implementa Search/Retrieval via protocol de recerca URL (SRU)
+* implemnenta OpenSearch
+* suporta models de metadades ISO, Dublin Core, DIF, FGDC i Atom
+* desplegament CGI o WSGI
 * configuració senzilla
 * capacitat transaccional (CSW-T)
 * configuració del repositori flexible
+* Conectivitat a GeoNode
+* Conectivitat a Open Data Catalog
 * cerca distribuïda a catàlegs federats
 * validació d'esquemes XML en temps real
 * arquitectura de perfils extensible amb plugin
@@ -55,6 +63,7 @@ Estàndards OGC:
 * Filter 	1.1.0
 * OWS Common 	1.0.0
 * GML 	3.1.1
+* OGC SFSQL		1.2.1
 
 Estàndards de metadades
 
@@ -65,6 +74,8 @@ Estàndards de metadades
 * ISO 19119 	2005
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
+* SRU	1.1
+* A9 OpenSearch		1.1
 
 Detalls
 --------------------------------------------------------------------------------
@@ -73,7 +84,7 @@ Detalls
 
 **Llicència:** `MIT`_
 
-**Versió de programari:** 1.2.0
+**Versió de programari:** 1.4.0
 
 **Sistemes operatius:** Windows, Linux, Mac
 
@@ -83,6 +94,8 @@ Detalls
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
+.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104 
+.. _`OGC Reference Implementation`: http://demo.pycsw.org/ 
 
 Guia ràpida
 --------------------------------------------------------------------------------

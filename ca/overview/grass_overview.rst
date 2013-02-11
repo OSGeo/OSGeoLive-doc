@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GRASS.png
@@ -33,7 +34,7 @@ GRASS, és un Sistema d'Informació Geogràfica (SIG) que proporciona poderoses 
 GRASS s'utilitza arreu del món en ambients acadèmics i comercials, així com a moltes agències del govern i a empreses consultores de medi ambient. Es pot executar a un gran nombre de plataformes de maquinari ben populars i és gratuït i de codi obert amparat en la llicència GNU General Public License.
 
 GRASS incorpora més de 400 mòduls d'anàlisi. També disposa de més de 100 móduls i eines desenvolupats per la comunitat, que es poden obtenir gratuïtament des del lloc wiki de la comunitat.
-Després de 28 anys de desenvolupament continu GRASS és alhora el més antic i el més complet SIG de codi obert disponible. 
+Després gaurebé 30 anys de desenvolupament continu GRASS és alhora el més antic i el més complet SIG de codi obert disponible. 
 Es pot controlar fàcilment amb seqüències de comandes i és prou versàtil per ser usat en processos per lots en supercomputadors de processament paral·lel, i és també un SIG pràctic per a l'escriptori d'ordinadors de mà (PDA) i portàtils netbook.
 
 .. _GRASS: http://grass.osgeo.org
@@ -51,13 +52,13 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 2
 
-**Versió de programari:** 6.4.1
+**Versió de programari:** 6.4.2
 
 **Sistemes operatius:** GNU/Linux, Mac OSX, MS Windows
 
 **Interfícies API Interfaces:** C, Python, Bourne Shell
 
-**Suport:** http://grass.osgeo.org/community/
+**Suport:** http://grass.osgeo.org/support/
 
 
 Guia ràpida

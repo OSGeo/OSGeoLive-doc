@@ -1,8 +1,8 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
-:Translator: Anna Muñoz Bollas
-:Reviewer: 
-:Version: osgeo-live6.0
+:Translator: Anna Muñoz Bollas (a.munyoz.b@gmail.com)
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver-2.png
@@ -71,10 +71,10 @@ Aquestes són les característiques principals:
 Estàndards Implementats
 --------------------------------------------------------------------------------
 
-* Suport per a un gran número d'estàndards de l'Open Geospatial Consortium  (OGC)
+* Suport per a un gran número d'estàndards de :doc:`Open Geospatial Consortium  (OGC) <../standards/standards>`:
 
-  * WCS, EO-WCS
-  * WMS, EO-WMS
+  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 i 2.0, EO-WCS
+  * :doc:`Web Map Service (WMS)  <../standards/wms_overview>`, EO-WMS
   * GML, GMLCOV, EO-O&M
 
 Demo

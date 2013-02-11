@@ -1,6 +1,7 @@
 :Author: Jody Garnett
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoTools.png
@@ -112,7 +113,7 @@ Detalls
 
 **Llicència:** LGPL
 
-**Versió de programari:** 2.7.1
+**Versió de programari:** 8.0
 
 **Sistemes operatius:** Cross Platform Java
 

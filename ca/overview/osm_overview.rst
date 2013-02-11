@@ -1,6 +1,7 @@
-﻿:Author: Hamish Bowman
+:Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Anna Muñoz
+:Translator: Anna Muñoz Bollas
+:Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons
 
@@ -35,9 +36,13 @@ Característiques Principals
   :align: right
 
 * Gran conjunt de dades d'àmbit global generat de manera col·laborativa
+
 * Permet escollir entre varios editors.
-* Permet escollir entre varios renderitzadors (incloent on-line)
+
+* Permet escollir entre varios renderitzadors (incloent custom i on-line)
+
 * Ús lliure
+
 * Integració generalitzada en aplicacions geoespacials
 
 Detalls
@@ -66,15 +71,17 @@ Detalls
 
 **Versions del programari:**
 
-* JOSM: Latest stable snapshot (svn r5697)
+* JOSM: Latest stable snapshot (svn r5608)
 
 * Merkaartor: 0.17.2
+
+* Osmosis: 0.40.1
 
 * Gosmore: 2010/07/11
 
 * Osmarender: SVN mid-2011
 
-* osm2pgsql: 0.69 (svn r22215)
+* osm2pgsql: SVN version 0.81.0
 
 **Plataformes suportades:** GNU/Linux, Mac OSX, MS Windows
 

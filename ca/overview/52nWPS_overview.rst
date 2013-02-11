@@ -1,7 +1,7 @@
 :Author: Bastian Schaeffer, Kristof Lange
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Anna Muñoz
-:Version: osgeo-live5.5
+:Translator: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -18,8 +18,7 @@ Servei Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 El `Servei Web de Processament <../standards/wps_overview.html>`_ (Web Processing Service, WPS) del projecte 52°North  
-permet l'accés web als algorismes de processament geoespacial de Sextante i ArcGIS Server, 
-així com a funcions pròpies. Els algorismes poden ser tan simples com determinar la diferència 
+permet l'accés web als algorismes de processament geoespacial de Sextante, ArcGIS Server, R, Grass 7, així com a funcions pròpies. Els algorismes poden ser tan simples com determinar la diferència 
 entre els casos de grip en dues estacions de l'any diferents, o tan complexos com un model global de canvi climàtic.
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
@@ -62,7 +61,7 @@ Detalls
 
 **Llcència:** GPL
 
-**Versió del programari:** WPS 2.0 RC6
+**Versió del programari:** WPS 3.1.0
 
 **Plataformes suportades:** Windows, Linux, Mac
 

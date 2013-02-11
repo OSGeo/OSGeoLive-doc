@@ -4,6 +4,7 @@
    menys hauria de contenir la directiva arrel `toctree`.
 
 :Translator: Anna Muñoz Bollas
+:Reviewer: Anna Muñoz Bollas
 
 Continguts |osgeo-live-version|
 ================================================================================
@@ -15,28 +16,10 @@ Continguts |osgeo-live-version|
 
    *_overview
 
-Clients lleugers o de navegador web
---------------------------------------------------------------------------------
-* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Client GIS de Navegador Web
-* :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Client GIS de Navegador Web
-* :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Geoportal
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Web Mapping
-* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portal web SIG
-
-Gestió de Crisis
---------------------------------------------------------------------------------
-* :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Gestió de Catàstrofes
-* :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - *Mapping* i línia de temps per a esdeveniments
-
-Bases de Dades
---------------------------------------------------------------------------------
-* :doc:`postgis_overview`  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Base de Dades Espacial
-* :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Base de Dades Lleugera
-* :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Base de Dades Raster Multi-Dimensional 
-* :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing per PostGIS
-
 GIS d'escriptori
 --------------------------------------------------------------------------------
+Visualitzar, editar i analitzat dades GIS en escriptori:
+
 * :doc:`qgis_overview` - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
@@ -44,37 +27,27 @@ GIS d'escriptori
 * :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`QuickStart <../quickstart/saga_quickstart>`]
-* :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Procés d'Imatge
-* :doc:`geopublisher_overview` - [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Catàleg
-* :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Editor d'Estils
-* :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Render del Terreny 3D
-* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - *Mapping* del fons del mar
 
-Navegació i Mapes
+Navegador d'estil GIS
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - Navegació GPS
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Globus
-* :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Plotter de GPS Marí
-* :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Eines OpenStreetMap
-* :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Veure, editar i convertir els tracks de GPS
-* :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - Anàlisi i visualització de dades GPS
-* :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Mapes de predicció meteorológica
 
-Eines Espacials
+Visualitzar, editar i analitzat dades GIS en un navegador web:
 --------------------------------------------------------------------------------
-* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Integració de Dade (Eina ETL)
-* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Eines de transformació de dades Geoespacials
-* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Render Cartogràfic
-* :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Render Cartogràfic
-* :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Creació de *Map Tiles*
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Processament d'imatges
-* :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Programació Estadística
+* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library 
+* :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client 
+* :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework 
+* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework 
+* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal 
+* :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS 
 
 Serveis Web
 --------------------------------------------------------------------------------
+Piblicació de dades espacials en internet:
+
 * :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
+* :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catàleg de Metadades
 * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catàleg de Metadades
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS i serveis de tesel·les
@@ -85,35 +58,85 @@ Serveis Web
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servei WFS-T 
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servei de Processament Web
 
+Magatzem de dades
+--------------------------------------------------------------------------------
+Emmagatzemant dades espacials:
+
+
+* :doc:`postgis_overview`  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Spatial Database 
+* :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Lightweight Database 
+* :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database 
+* :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS 
+
+Navegació i Mapes
+--------------------------------------------------------------------------------
+* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation 
+* :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks 
+* :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter 
+* :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools 
+* :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer 
+
+Eines Espacials
+--------------------------------------------------------------------------------
+Eines específiques per anàlisi:
+
+* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool 
+* :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Cartographic Rendering 
+* :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering 
+* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing 
+* :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Create Map Tiles 
+* :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing 
+* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing 
+* :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistical Programming 
+
+Domini Específic de GIS
+--------------------------------------------------------------------------------
+Aplicacions orientades a un tema específic:
+
+* :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management 
+* :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events 
+* :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering 
+* :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping 
+* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe 
+* :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Weather Forecast Maps 
+
 Dades
 --------------------------------------------------------------------------------
+Conjunts de dades Espacials
 
-.. toctree::
-   :maxdepth: 1
-
-   Natural Earth - Conjunts de Dades Geogràfics <naturalearth_overview>
-   nc_dataset_overview
-   OpenStreetMap - Extracte de dades d'exemple d'OpenStreetMap <osm_dataset_overview>
+* :doc:`naturalearth_overview` - Global Data Sets  
+* :doc:`nc_dataset_overview` 
+* :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap  
 
 Llibreries Geospacials
 --------------------------------------------------------------------------------
 
-.. toctree::
-   :maxdepth: 1
-
-   GeoTools - Java GIS Toolkit <geotools_overview>
-   GEOS - C/C++ Spatial Library <geos_overview> 
-   MetaCRS - Transformacions de Sistemes de Referencia de Coordenades <metacrs_overview>
-   libLAS - libLAS accés dades LIDAR <liblas_overview>
+* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools 
+* :doc:`jts_overview` - Java Topology Suite 
+* :doc:`geotools_overview` - Java GIS Toolkit  
+* :doc:`geos_overview` - C/C++ Spatial Library  
+* :doc:`metacrs_overview` - Coordinate Reference System Transformations  
+* :doc:`liblas_overview` - LiDAR Data Access  
 
 Altres programaris d'interés (no instal·lats)
 --------------------------------------------------------------------------------
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Servei Web de Mapes
-* :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - SIG per Microsoft Windows
+Disponiblitat només per a Microsoft Windows:
 
-.. MapGuide inhabilitat temporalment per estalviar espai en disc; MapWindow no funciona en Ubuntu
+.. MapWindow es basa en windows (.net) i no es pot executar sobre Ubuntu
+
+* :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS 
+
+Disponible en versions anteriors dels releases d'OSGeo-Live: 
+
+.. MapGuide temporalment desabilitat per estalviar espai en disc; 
+
+* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, no inclós després d'OSGeo-Live 5.0 
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retirat després d'OSGeo-Live 6.0
+* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retirat després d'OSGeo-Live 6.0
 
 Instal·ladors per Windows i Apple
 --------------------------------------------------------------------------------
+Inclosos en la imatge completa del OSGeo-Live:
+
 * `Instal·ladors per Microsoft Windows <../../WindowsInstallers/>`_
 * `Instal·ladors per Apple OSX <../../MacInstallers/>`_

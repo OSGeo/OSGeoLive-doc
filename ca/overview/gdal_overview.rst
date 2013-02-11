@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Anna Muñoz
-:Version: osgeo-live5.5
+:Translator: Anna Muñoz Bollas (a.munyoz.b@gmail.com)
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
@@ -71,7 +72,7 @@ Detalls
 
 **Llicència:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Versió del programari:** 1.7.0 (1.9.1)
+**Versió del programari:** 1.7.0 (1.9.2)
 
 **Plataformes suportades:** Windows, Linux, Mac
 

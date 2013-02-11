@@ -1,6 +1,7 @@
 :Author: Alan Boudreault, Steve Lime
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
@@ -45,6 +46,13 @@ Característiques principals
   * Mapes temàtics emprant classes lògiques o definides amb expressions regulars
   * Suport de renderitzador extern via mòdul per AGG, Cairo, GD i OpenGL i altres
   * Proveïment especial per a la generació de tessel·les
+  * Capes per generar màscares
+  * Ubicació precisa de simbologia
+  * Simbologia complexa Etiqueta/Simbol
+  * Camps vectorials
+  * Label Leading Offsetting
+  * Simbologia SVG
+  * Suport de múltiples fonts
 
 * Suport sofisticat per a la consulta espacial
 
@@ -77,6 +85,8 @@ Estàndards implementats
 * Suport de nombrosos estàndards de l'Open Geospatial Consortium (OGC)
 
   * WMS (client/servidor), WFS no transaccional (client/servidor), WMC, WCS, codificació per filtre, SLD, GML, SOS, OM
+  
+  * Suport de l'estàndard INSPIRE View Service
 
 Demostració
 --------------------------------------------------------------------------------
@@ -86,7 +96,7 @@ Demostració
 Documentació
 --------------------------------------------------------------------------------
 
-* `Documentació de MapServer 6.0.3  <../../mapserver/doc/index.html>`_
+* `Documentació de MapServer 6.2  <../../mapserver/doc/index.html>`_
 
 Detalls
 --------------------------------------------------------------------------------
@@ -95,7 +105,7 @@ Detalls
 
 **Llicència:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Versió de programari:** 6.0.3
+**Versió de programari:** 6.2
 
 **Sistemes operatius:** Windows, Linux, Mac
 

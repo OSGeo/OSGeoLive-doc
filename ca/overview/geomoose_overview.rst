@@ -1,10 +1,11 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: ../../images/project_logos/logo-geomoose_w-title.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -29,9 +30,8 @@ GeoMOOSE és ràpid, amb un bon rendiment gestionant centenars de capes i/o serv
 
 L'interfície de l'usuari es pot configurar fàcilment, i es poden afegir serveis addicionals gràcies a l'arquitectura modular.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
-  :scale: 55 %
-  :alt: geomoose-screenshot-800x600.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+  :alt: Geomoose Screenshot
   :align: right
 
 Característiques principals
@@ -52,6 +52,8 @@ Característiques principals
 Estàndards implementats
 --------------------------------------------------------------------------------
 * WMS
+* WFS (client)
+* WFS-T (client)
 
 Detalls
 --------------------------------------------------------------------------------
@@ -60,7 +62,7 @@ Detalls
 
 **Llicència:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Versió de programari:** 2.4
+**Versió de programari:** 2.6.1
 
 **Sistemes operatius:** Windows, Linux, Mac
 

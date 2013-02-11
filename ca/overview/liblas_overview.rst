@@ -1,7 +1,8 @@
 :Author: Howard Butler
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Anna Muñoz Bollas
-:Version: osgeo-live5.5
+:Translator: Anna Muñoz Bollas (a.munyoz.b@gmail.com)
+:Reviewer: Anna Muñoz Bollas
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-libLAS.png
