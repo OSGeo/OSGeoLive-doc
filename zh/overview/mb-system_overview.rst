@@ -5,6 +5,7 @@
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-mb-system.png
+
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -21,7 +22,7 @@ MB-System
 
 　　MB-System 从 1993 年开始开发，一直受到多个大学和科研机构的积极支持。
 
-.. comment .. 注:: 由于空间的限制，MB-System 目前没有安装在 OSGeo-Live 上。请在命令行（Ctrl+Alt+T）中输入“cd gisvm/bin; sudo ./install_mb-system.sh”安装。
+.. comment .. 注:: 由于空间的限制，MB-System 目前没有安装在 OSGeo-Live 上。请在命令行（Terminal Emulator）中输入“cd gisvm/bin; sudo ./install_mb-system.sh”安装。
 
 核心功能
 --------------------------------------------------------------------------------
@@ -43,7 +44,7 @@ MB-System
 * 测视声纳数据和反射强度数据分析与拼接
 * 格网化模型渲染
 * 勘测线设计
-* 基于 Post Script 语言的图像
+* 基于 Post Script 语言的图像输出
 * 数据输出至 GIS 系统及可视化工具等
 * 海床盖层测深数据处理
 * 潮汐建模和矫正

@@ -136,8 +136,12 @@ Windows 和 Apple Mac 安装
 文档创作与翻译
 --------------------------------------------------------------------------------
 　　OSGeo Live 文档是由 OSGeo 社区成员和各个软件项目的开发团队共同完成的。非英语版本来自于 Live 翻译团队。
+
 　　中文版本主要由以下三位成员翻译：
+
 　　　　Xianfeng Song　（song.osgeo@gmail.com）
+
 　　　　Jing Wangwang　（jing-2008-jing@163.com）
+
 　　　　Zhengfan Lin　（public.t.lin@gmail.com）
 

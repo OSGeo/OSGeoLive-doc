@@ -24,8 +24,6 @@ Geomajas
 网页 GIS 前端应用
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geomajas is an extensible web mapping framework which seamlessly integrates powerful server side algorithms into the web browser.
-
 　　Geomajas 是一套可扩展的网页地图服务框架，可将各种服务器端的处理分析算法无缝集成到浏览器中。
 
 　　Geomajas 的核心是为**服务器端集成**提供一个平台，使得不同的用户可以从各自的浏览器端操作和管理数据。Geomajas 提供了一系列强有力的基础组件，使得高度复杂的 GIS 应用也能轻松建立。
@@ -58,21 +56,29 @@ Geomajas is an extensible web mapping framework which seamlessly integrates powe
 其它信息
 --------------------------------------------------------------------------------
 
-**Website:** http://www.geomajas.org/
 
-**Licence:** AGPL
-
-**Software Version:** 1.8
-
-**Supported Platforms:** Windows, Linux, Mac
-
-**API Interfaces:** Java
-
-**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
+**官方网站：** http://www.geomajas.org/
 
 
-快速开始
+**版权协议：** AGPL
+
+
+**软件版本：** 1.8
+
+
+**平台支持：** MS Windows, GNU/Linux, Mac
+
+
+**API 接口：** Java
+
+
+**技术支持：** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
+
+
+
+快速入门
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`
+
+* :doc:`快速入门文档 <../quickstart/geomajas_quickstart>`
 

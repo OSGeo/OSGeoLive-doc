@@ -1,6 +1,6 @@
 ﻿:Author: Bastian Schaeffer, Kristof Lange
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live4.5
+:Version: osgeo-live 6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -13,11 +13,10 @@
 52°North WPS
 ================================================================================
 
-Web服务
+Web 服务
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-52°North WPS 'Web Processing Service (WPS) <../standards/wps_overview>'支持从网络访问由Sextane、ArcGIS Server、或定制开发功能提供的地理空间数据处理算法。
-算法可能如区分两个季节的流感病例一样简单，也可能如全球变化模型般复杂。
+　　52° North WPS 'Web Processing Service (WPS) <../standards/wps_overview>' 网络地理数据处理服务支持从网络访问由 Sextane、ArcGIS Server、或定制开发功能提供的地理空间数据处理算法。算法可能如区分两个季节的流感病例一样简单，也可能如全球变化模型般复杂。
 
 .. image:: ../../images/screenshots/1024x768/52n_test_client.png
   :scale: 50 %
@@ -32,16 +31,20 @@ Web服务
 * 简单缓冲算法
 * 道格拉斯-普克算法
 * 求交算法
+* 由栅格数据获得参数
+* 投影变换
 	
 后端算法的支持软件:
 
 * Sextante
 * ArcGIS 服务器
+* R
+* GRASS 7
 
 支持输入和输出格式:
 
-* 矢量数据: GML2, GML3, SHP 文件, KML, WKT (Well-known Text)
-* 栅格数据: Geotiff, AsciiGrid
+* 矢量数据: GML2, GML3, SHP files, KML, WKT, DGN
+* 栅格数据: GeoTiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
 
 基于浏览器的客户端
 
@@ -56,9 +59,9 @@ Web服务
 详情请见
 --------------------------------------------------------------------------------
 
-**网站:** http://52north.org/wps
+**官方网站:** http://52north.org/wps
 
-**版权:** GPL
+**版权协议:** GPL
 
 **软件版本:** WPS 2.0 RC6
 
@@ -67,9 +70,9 @@ Web服务
 **商业支持:** http://www.52north.org
 
 
-快速启动
+快速入门
 --------------------------------------------------------------------------------
 
-* :doc:Quickstart documentation  <../quickstart/52nWPS_quickstart>`
+* :doc:快速入门文档  <../quickstart/52nWPS_quickstart>`
 
 

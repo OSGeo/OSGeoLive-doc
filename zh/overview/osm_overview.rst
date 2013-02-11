@@ -72,7 +72,7 @@ Open Street Map 工具组
 
 **平台支持：** GNU/Linux, Mac OSX, MS Windows
 
-**API 接口：** REST (via Xapi), XML
+**API 接口：** REST（通过 Xapi），XML
 
 **技术支持：** http://wiki.openstreetmap.org/
 
