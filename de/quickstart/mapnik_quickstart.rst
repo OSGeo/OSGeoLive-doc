@@ -1,4 +1,5 @@
 :Author: OSGeo-Live
+:Author: Dane Springmeyer
 :Author: Dominik Helle
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -21,12 +22,12 @@ Mapnik und die dazugehörigen Python-Abhängigkeiten sind auf dem aktuellen Syst
 
 Karten über Python zu erstellen ist mit Mapnik ganz einfach. Öffnen Sie das Terminal und tippen Sie `python` in der Kommandozeile. Nach dem Bestätigen öffnet sich der Python-Interpreter. Geben Sie dort folgendes ein:: 
 
-    >>> import mapnik, os
-    >>> m = mapnik.Map(600,400)
+    >>> import mapnik2, os
+    >>> m = mapnik2.Map(600,400)
     >>> style = '/usr/local/share/mapnik/demo/population.xml'
-    >>> mapnik.load_map(m,style)
+    >>> mapnik2.load_map(m,style)
     >>> m.zoom_all()
-    >>> mapnik.render_to_file(m,'map.png')
+    >>> mapnik2.render_to_file(m,'map.png')
     >>> os.system('xdg-open map.png')
 
 
