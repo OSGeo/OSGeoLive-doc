@@ -52,7 +52,7 @@ Kernfunktionen
   * Sortierung
   * Formatauswahl
   * Anpassung der Layertitel
-  * Erweiterung der Metadaten der Dienste des Capabilities-Dokuments (ISO Standard) zur Katalogsuche mit einer CS-W Anwendung
+  * Erweiterung der Metadaten der Dienste des Capabilities-Dokuments (ISO Standard) zur Katalogsuche mit einer CSW Anwendung
 * WFS laden und konfigurieren zum Suchen, Finden und Hervorheben von Geoobjekten 
 * Kopplung von transactionalen WFS an einen WMS, um eine webbasierte Digitalisierung zu ermöglichen. Diese Digitalisierung ermöglicht ein diensteübergreifendes snapping, Geometrieanpassungen wie Teilungen, Verschmelzung und Klonen
 * Benutzerverwaltung: Anlegen von Benutzern und Gruppen. Dienste und modulbasierte Rechtezuweisung
