@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
-:Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Author: Alex Mandel, Cameron Shorter
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -24,21 +25,26 @@ Einen startbaren USB-Stick unter Ubuntu erstellen
 (dies ist die empfohlene Vorgehensweise und kann auch für andere Ubuntu Distributionen, wie Xubuntu oder OSGeo-Live, angewendet werden)
 
 .. note::
-   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 5.0/5.5 müssen Sie Ubuntu 11.04 oder höher verwenden.
+   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 6.0 müssen Sie Ubuntu 12.04 oder höher verwenden.
+
+Laden Sie `download <http://live.osgeo.org/en/download.html>`_ osgeo-live oder osgeo-live-mini auf ihren Computer herunter. 
+
+Booten Sie ihren Computer in einer Ubuntu/Xbuntu Distribution. Sie können dies über den Start von einer OSGeo-Live DVD durchführen, siehe Dokumentation :doc:`osgeolive_quickstart`.
+
 
 Schließen Sie einen USB-Stick an Ihren Rechner an.
 
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Wählen Sie :menuselection:`System --> Administration --> Startup Disk Creator` oder suchen Sie nach `Startup Disk Creator` vom Unity-Desktop.
+Wählen Sie :menuselection:`Applications --> System --> Startup Disk Creator` oder suchen Sie nach `Startup Disk Creator` vom Unity-Desktop.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
-Wählen Sie das ISO-Abbild osgeo-live oder osgeo-live-mini. 
+Wählen Sie das ISO-Abbild osgeo-live oder osgeo-live-mini ISO Image, das Sie zuvor heruntergeladen haben. 
 
-Wählen Sie den USB-Stick.
+Wählen Sie den USB-Stick. Sofern Sie über weiteren Platz verfügen können Sie über den Schieber persistenten Speicher auf dem USB-Stick erzeugen (empfohlen). Damit diese Option verfügbar ist, benötigen Sie einen 8 GB USB Stick.
 
 Wählen Sie :guilabel:`Make Startup Disk`
 
@@ -47,61 +53,33 @@ Wählen Sie :guilabel:`Make Startup Disk`
 
 Warten Sie ca. 20 Minuten, während der USB-Stick bearbeitet wird.
 
-Einen startbaren USB-Stick unter Windows erstellen
+Booten über USB 
 --------------------------------------------------------------------------------
 
-Schließen Sie einen USB-Stick an Ihren Rechner an.
+#. Beginnen Sie mit einem ausgeschalteten Rechner
+#. Schließen Sie einen USB-Stick an Ihren Rechner an.
+#. Starten Sie den Rechner und wählen Sie Start vom USB.
 
-Laden Sie den Universal USB Installer von: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ und starten ihn.
+   * Die meisten Computer sind nicht so eingestellt, das sie per default von einem USB-Laufwerk starten.
+   * Um dies zu ändern starten Sie Ihren Rechner und drücken Sie die entsprechende Taste um ins BIOS zu gelangen (üblicherweise durch F12).
+   * Wenn ihr Computer kein Boot-Menü besitzt, booten Sie in ihr Sytem-BIOS. Die Taste, um ins BIOS zu gelangen, variiert nach Marke und Modell. Wenn Sie es nicht herausfinden sollten, schauen Sie auf der folgenden Webseite nach http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
+#. Wählen Sie vom USB Laufwerk booten.
 
-Akzeptieren Sie die Nutzungsbedingungen.
-
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
-
-Schritt 1: Distribution: Wählen Sie die Xubuntu i386 Distribution, die für das OSGeo-live Image benutzt wird. (Für OSGeo-Live 5.5 wählen Sie Xubuntu 10.04 Desktop i386)
-
-Schritt 2: Wählen Sie die aktuelle OSGeo-Live ISO-Datei, die Sie hoffentlich local abgespeichert haben. Achtung: Sie müssen den Pfad zur ISO-Datei manuell eingeben, da der :guilabel:`Browse`-Button nur Xubuntu ISO-Dateien anzeigt.
-
-Schritt 3: Wählen Sie Ihr USB-Laufwerk.
-
-Schritt 4: Wählen Sie "Persistence", wenn Sie Daten zwischen Ihren Sessions abspeichern wollen.
-
-Wählen Sie :guilabel:`Create`
-
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
-
-Warten Sie ca. 20 Minuten, während der USB-Stick bearbeitet wird.
-
-Einstellen der Startreihenfolge im BIOS:
---------------------------------------------------------------------------------
-
-Die meisten Computer sind nicht so eingestellt, das sie von einem USB-Laufwerk starten.
-
-Um dies zu ändern starten Sie Ihren Rechner und drücken Sie die entsprechende Taste um ins BIOS zu gelangen (üblicherweise durch die <Entf>-Taste oder einen der F-Tasten.
-
-Ändern Sie die Bootreihenfolge, so dass der Rechner vom USB-Stick gestartet werden kann.
-
-Bei manchen Rechnern lässt sich die nur einstellen, wenn der USB-Stick währenddessen angeschlossen ist.
-
-Das USB-Laufwerk ist häufig unter Festplatten aufgeführt und nicht unter Wechselplatten.
+   * Hinweis: Bei manchen Rechnern lässt sich die nur einstellen, wenn der USB-Stick währenddessen angeschlossen ist.
+   * Hinweis: Das USB-Laufwerk ist häufig unter Festplatten aufgeführt und nicht unter Wechselplatten.
+   * `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstriert das Boten von USB.
 
 Starten:
 --------------------------------------------------------------------------------
 
 Starten Sie wie unter: :doc:`osgeolive_quickstart` beschrieben.
 
-Bekannte Probleme:
---------------------------------------------------------------------------------
-
-* Mac Computer starten nicht von diesen USB-Sticks, benutzen Sie stattdessen die LiveDVD.
-
 Siehe auch:
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
- * Wenn Sie Probleme haben, tragen Sie diese bitte auf dieser Wiki-Seite ein: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB und diskutieren Sie auf unserer Mailingliste: http://lists.osgeo.org/mailman/listinfo/live-demo
- * Für weitere USB Startoptionen lesen Sie http://pendrivelinux.com 
+ * Wenn Sie Probleme haben, tragen Sie diese bitte auf dieser Wiki-Seite ein: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_ 
+ * Fragen können auch an unsere Mailingliste gestellt werden: http://lists.osgeo.org/mailman/listinfo/live-demo
