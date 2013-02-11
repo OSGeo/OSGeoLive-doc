@@ -57,5 +57,5 @@ rasdaman 快速入门
 　　您可以尝试以下内容：
 
     * 浏览 `rasql 查询语言指南 <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/browser/manuals_and_examples/manuals/pdf/ql-guide.pdf>`_ 中的示例。
-    * 通过 `文档和教程 <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ 学习 OGC `Web Coverage Processing Service 网络地理场查询服务 <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) 语言规范。
+    * 通过 `文档和教程 <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ 学习 OGC `Web Coverage Processing Service 网络栅格数据查询服务 <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) 语言规范。
 
