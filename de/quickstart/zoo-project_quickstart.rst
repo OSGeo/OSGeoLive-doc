@@ -1,5 +1,7 @@
 :Author: Gérald Fenoy
-:Version: osgeo-live4.0
+:Reviewer: Angelos Tzotsos
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-ZOO-Project.png
@@ -11,10 +13,18 @@
 ZOO Projekt Quickstart 
 ********************************************************************************
 
+Das ZOO-Project stellt ein entwicklerfreundliches Web Processing Service (WPS) Framework 
+zum Erstellen und Verbinden von Web Processing Services zur Verfügung. Ein WPS stellt Web Zugriff auf Funktionen, die räumliche Algorithmen ausführen, bereit.
+
+Diese Kurzeinführung beschreibt:
+
+  * Das Erstellen von Anfragen an einen WFS über einen Browser.
+
+
 Ablauf
 ================================================================================
 
-*	Um die ZOO-Projekt Demoanwendung von der OSGeo-Live DVD auszuführen, starte zuerst :doc:`GeoServer <../overview/geoserver_overview>` und hiernach "Zoo Projekt", entweder durch Klick auf die Desktop Icons oder Aufruf im Programmmenü.
+*	Um die ZOO-Projekt Demoanwendung von der OSGeo-Live DVD auszuführen, starte zuerst |osgeolive-appmenupath-geoserver| und hiernach "Zoo Projekt", entweder durch Klick auf die Desktop Icons oder Aufruf im Programmmenü.
 
 *	Die "ZOO Project Spatial Tools Demo" öffnet sich hierauf in Firefox.
 
@@ -39,6 +49,8 @@ Ablauf
   :alt: Zoo Projekt Demo
   :align: center
 
+What Next?
+================================================================================
 
 *	Man kann eigene Anfragen erstellen und von folgender Seite an den ZOO Kernel senden:
 		http://localhost/zoo-demo/test_services.html
