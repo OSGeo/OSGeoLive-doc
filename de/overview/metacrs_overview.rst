@@ -1,14 +1,14 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.0
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
-  :scale: 60 %
-  :alt: project logo
-  :align: right
-  :target: http://trac.osgeo.org/metacrs/wiki
+.. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
+..  :scale: 60 %
+..  :alt: project logo
+..  :align: right
+..  :target: http://trac.osgeo.org/metacrs/wiki
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -29,16 +29,18 @@ Transformation von verschiedenen Koordinatensystemen
   :target: http://trac.osgeo.org/metacrs/wiki
 
 
-Das Projekt MetaCRS stellt Bibliotheken und Methoden zur Transformation zwischen verschiedenen Koordinatensystem zur Verfügung.
-Ein Koordinatensystem ordnet jedem Punkt auf der Erde einen Koordinatenwert zu, bestehend auf Hoch- und Rechtswert sowie einer Höhe.
+Das `Projekt MetaCRS <http://trac.osgeo.org/metacrs/wiki>`_ stellt Bibliotheken und Methoden zur Transformation 
+zwischen verschiedenen Koordinatensystem zur Verfügung.
+Ein Koordinatensystem ordnet jedem Punkt auf der Erde einen Koordinatenwert 
+zu, bestehend auf Hoch- und Rechtswert sowie einer Höhe.
 Zur Repräsentation der dreidimensionalen Erde auf einer flachen, zweidimensionalen Karte kommen verschiedene Koordinatensysteme zum Einsatz.
 
 Die MetaCRS-Bibliotheken sind in vielen anderen Projekten enthalten und teilweise auch über die Kommandozeile verfügbar.
 
 Folgende Unterprojekte sind Bestandteil von MetaCRS:
 
-* PROJ.4 (C++) - benutzt in MapServer, GRASS GIS, PostGIS, Mapnik, Thuban, OGDI, TopoCad, OGRCoordinateTransformation und vielen anderen.
-* Proj4js (JavaScript) - benutzt in OpenLayers.
+* PROJ.4 (C++) - benutzt in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation und vielen anderen.
+* Proj4js (JavaScript) - benutzt in :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - benutzt in MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).
@@ -79,9 +81,9 @@ Proj4js
 
   **Webseite:**  http://proj4js.org
   
-  **Lizenz:** `LPGL <http://www.gnu.org/copyleft/lesser.html>`_
+  **Lizenz:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 1.0.1
+  **Software Version:** 1.1.0
   
   **Unterstützte Plattformen:** Windows, Linux, Mac
   
@@ -92,7 +94,7 @@ Proj4js
 CS-Map
 --------------------------------------------------------------------------------
 
-  **Webseite:**  http://proj4js.org
+  **Webseite:** http://trac.osgeo.org/csmap/
   
   **Lizenz:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
   
@@ -111,7 +113,7 @@ GeoTIFF/libgeotiff
   
   **Lizenz:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 1.3.0
+  **Software Version:** 1.4.0
   
   **Support:** http://lists.maptools.org/mailman/listinfo/geotiff
   
