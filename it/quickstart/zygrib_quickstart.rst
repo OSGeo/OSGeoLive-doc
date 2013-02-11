@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 :Translator: Luca Delucchi
@@ -44,7 +44,7 @@ magnifying glass with a small box underneath it), and again mark out a box
 of interest with a left-click drag, but this time covering most or all of the
 zoomed-in map canvas.
 
-Ora selezionate :menuselection:`File --> Download GRIB` e selezionate gli elementi
+Ora selezionate :menuselection:`File --> Download` e selezionate gli elementi
 che volete scaricare. Se avete dubbio i valori di defaults vanno bene. Quando
 siete pronti cliccate sul pulsante ``Scarica file GRIB`` in basso e salvate il file
 sul disco.
@@ -63,8 +63,8 @@ elencate nel pannello a sinistra.
 Potete cambiare il tempo muovendo lo slider lungo la barra in basso, o da uno dei
 menu a scomprarsa in alto a sinistra nella finestra.
 
-Dal menu ``Data`` potete visualizzare le variabili da visuallizzare. Per esempio
-selezionate :menuselection:`Data --> Cloud Cover` e la visualizzazione dovrebbe
+Dal menu ``Weather map`` potete visualizzare le variabili da visuallizzare. Per esempio
+selezionate :menuselection:`Weather map --> Cloud Cover` e la visualizzazione dovrebbe
 cambiare.
 
 Se scaricate i dati per il Golfo del Messico potreste essere interessati nel vedere

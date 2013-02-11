@@ -1,5 +1,7 @@
 :Author: Gérald Fenoy
-:Version: osgeo-live4.0
+:Reviewer: Angelos Tzotsos
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
@@ -11,6 +13,17 @@
 ********************************************************************************
 Guida rapida su ZOO Project 
 ********************************************************************************
+
+ZOO-Project fornisce un semplice ambiente di sviluppo Web Processing Service (WPS)
+per creare e concatenare Web Processing Services.
+Un WPS fornisce accesso web a funzioni che eseguiscono algoritmi spaziali
+
+La guida rapida descrive come:
+
+  * Applicare processi ad un WFS da un browser web
+  
+.. contents:: Contents 
+
 
 Running
 ================================================================================
@@ -48,6 +61,8 @@ Running
   :alt: screenshot
   :align: center
 
+Ed ora?
+================================================================================
   
 * Potete creare la vostra richiesta e inviarla al ZOO Kernel dalla seguente pagina:
 	http://localhost/zoo-demo/test_services.html

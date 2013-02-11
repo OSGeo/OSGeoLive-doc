@@ -1,14 +1,14 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Marco Curreli
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ossim.png
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.ossim.org/
+  :target: http://www.ossim.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -60,11 +60,11 @@ Caratteristiche principali
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito:** http://www.ossim.org/
+**Sito:** http://www.ossim.org
 
 **Licenza:** GNU General Public License (GPL) version 3
 
-**Versione del software:** 1.8.6
+**Versione del software:** 1.8.14
 
 **Piattaforme supportate:** Linux, Mac, Windows
 

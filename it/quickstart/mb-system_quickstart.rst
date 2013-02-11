@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 :Translator: Luca Delucchi
@@ -29,6 +29,39 @@ automaticamente, permettendo efficienti processamenti e miscelare diversi
 set di dati collezionati in momenti differenti, da barche differenti, in formati di
 dati differenti. Sono inclusi anche software per output cartografico e pulizia di 
 dati 3D avanzati.
+
+Aprite un terminale, quindi
+
+* Visualizzate informazioni su un file di dati: (simile a `gdalinfo`)
+
+::
+
+  cd /usr/local/mbsystem/examples/
+  cd mbinfo
+  ./mbinfo.cmd
+
+.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+  :scale: 35 %
+  :alt: 2D shaded relief
+  :align: right
+
+* Processate e preparate grafici 3D per gli stessi file di dati di esempio:
+
+::
+
+  cd /usr/local/mbsystem/examples/
+  cd mbgrid
+  export PATH="$PATH:."
+  ./mbgrid.cmd
+
+* Processate e preparate un immagine 2D dei rilievi ombreggiati:
+
+::
+
+  cd /usr/local/mbsystem/examples/
+  cd mbm_plot
+  export PATH="$PATH:."
+  ./mbm_plot_5.cmd
 
 
 Documentazione

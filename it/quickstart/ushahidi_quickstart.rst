@@ -36,7 +36,9 @@ Configurare Ushahidi e eseguirlo
    e inviare reports automatici. Per ora impostatela a qualcosa di simile a
    **"ushahidi@localhost.localdomain"** o **"ushahidi@example.org"** e **"Continue"**.
 
-   **Nota:** Se Ushahidi riporta **"Oops! We couldn't make a connection to the database 
+.. note::
+
+   Se Ushahidi riporta **"Oops! We couldn't make a connection to the database 
    server with the credentials given. Please make sure they are correct."**. Questo
    significa che lo script di installazione non può collegarsi con le credenziali
    al database. Questo può essere fatto manualmente prima di continuare con l'installazione

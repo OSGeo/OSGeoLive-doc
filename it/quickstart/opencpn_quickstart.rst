@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 :Translator: Luca Delucchi
@@ -26,9 +26,9 @@ Impostare la vostra carta nautica
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Prima di eseguire OpenCPN sul LiveDVD dovrete attivare i dati di esempio.
 Questa è una condizione di redistribuzione delle carte nautiche libere di NOAA.
-La prima volta che eseguirete OpenCPN dal `Geospatial` menu o dll'icona sul Desktop
-vi sarà presentata di scegliere l'opzione per fare questa operazione 
-automaticamente
+La prima volta che eseguirete OpenCPN dal menu :menuselection:`Geospatial --> Navigation and Maps`
+o dall'icona sul Desktop vi sarà presentata di scegliere l'opzione per fare questa
+operazione automaticamente
 
 .. Per fare ciò manualmente, aprire un Terminale dal menu principale delle 
    applicazioni ed eseguire :command:`opencpn_noaa_agreement.sh` dalla linea di comando. 
@@ -79,10 +79,12 @@ Attualmente i dati di previsione meteo e delle onde possono essere scaricati e s
 alle vostre carte usando il plugin GRIB. Il :doc:`software zyGrib <../overview/zygrib_overview>`
 (anch'esso sul disco) è una semplice via per scaricarle. Vedere 
 la :doc:`guida rapida su zyGrib <../quickstart/zygrib_quickstart>` per dettagli.
+Attivare il plugin dalla scheda più a destra del menù di configurazione OpenCPN, 
+una nuova icona apparirà all'estremità destra della barra degli strumenti principale.
 Enable the plugin from the right most tab of the OpenCPN configuration menu;
 a new icon will appear at the right end of the main toolbar.
 
-Se avete salvato il file zyGRIB nella vostra directory home, andate
+Se avete salvato il file zyGrib nella vostra directory home, andate
 alla :file:`/home` e selezionate la directory del vostro ``utente`` come directory
 dei dati GRIB.
 Quindi cliccare sullo sfondo della cartella con il tasto destro per visualizzare i

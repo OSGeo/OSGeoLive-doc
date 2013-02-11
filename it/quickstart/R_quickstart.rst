@@ -98,7 +98,7 @@ molte funzioni che possono generare queste cose. Di seguito una semplice sequenz
 
 ::
 
-    > seq(1,5,len=10)
+    > seq(1, 5, len=10)
     [1] 1.000000 1.444444 1.888889 2.333333 2.777778 3.222222 3.666667 4.111111
     [9] 4.555556 5.000000
 
@@ -108,7 +108,7 @@ Quando si costruisce una matrice verranno mostrate etichette di righe e colonne:
 
 ::
 
-        > m=matrix(1:12,3,4)
+        > m=matrix(1:12, 3, 4)
         > m
              [,1] [,2] [,3] [,4]
         [1,]    1    4    7   10
@@ -144,7 +144,7 @@ colonne per nome utilizzando la notazione $:
 
 ::
 
-        > d = data.frame(x=1:10,y=1:10,z=runif(10)) # z è composto da 10 numeri random
+        > d = data.frame(x=1:10, y=1:10, z=runif(10)) # z è composto da 10 numeri random
         > d
                 x  y          z
             1   1  1 0.44128080
@@ -210,7 +210,7 @@ del mondo e ottenere, ad esempio, la Gran Bretagna (UK, United Kingdom):
 
 ::
 
-        > uk = countries[countries$ADMIN=="United Kingdom",]
+        > uk = countries[countries$ADMIN == "United Kingdom",]
         > plot(uk); axis(1); axis(2)
 
 .. image:: ../../images/screenshots/1024x768/r_plot2.png
@@ -230,14 +230,14 @@ pacchetto rgdal. Trasformiamo in EPSG:27700 che rappresenta l' Ordnance Survey o
 
 ::
 
-        > proj4string(uk)=CRS("+init=epsg:4326")
+        > proj4string(uk) = CRS("+init=epsg:4326")
         > library(rgdal)
-        > ukos = spTransform(uk,CRS("+init=epsg:27700"))
+        > ukos = spTransform(uk, CRS("+init=epsg:27700"))
         > proj4string(ukos)
         [1] " +init=epsg:27700 +proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +datum=OSGB36 +units=m +no_defs
         +towgs84=446.448,-125.157,542.060,0.1502,0.2470,0.8421,-20.4894"
 
-        > plot(ukos);axis(1);axis(2)
+        > plot(ukos); axis(1); axis(2)
 
 Questo comando plotta la mappa di base dei dati trasformati. Ora vogliamo aggiungere qualche punto
 dal data set dei posti popolati (populated places). Ancora una volta operiamo un estrazione di un
@@ -246,16 +246,16 @@ Survey Grid Reference:
 
 ::
 
-        > ukpop = places[places$ADM0NAME=="United Kingdom",]
-        > proj4string(ukpop)=CRS("+init=epsg:4326")
-        > ukpop = spTransform(ukpop,CRS("+init=epsg:27700"))
+        > ukpop = places[places$ADM0NAME == "United Kingdom",]
+        > proj4string(ukpop) = CRS("+init=epsg:4326")
+        > ukpop = spTransform(ukpop, CRS("+init=epsg:27700"))
 
 Aggiungiamo questi punti alla mappa di base, scalando la loro dimensione in base alla radice quadrata
 della popolazione (in modo da rendere l'area del simbolo proporzionale alla popolazione), settiamo i
 colori (col=) in rosso e i caratteri (pch=) come punti pieni:
 ::
 
-        > points(ukpop,cex=sqrt(ukpop$POP_MAX/1000000),col="red",pch=19)
+        > points(ukpop, cex=sqrt(ukpop$POP_MAX/1000000), col="red", pch=19)
         > title("UK Population centre sizes")
 
 e la nostra immagine finale appare:
@@ -268,9 +268,9 @@ Vignettes
 Nel passato la documentazione per R consisteva in pagine di aiuto scritte concisamente per ogni funzione.
 Oggi, gli autori dei pacchetti sono incoraggiati a scrivere 'vignette come introduzione intuitiva al
 pacchetto. Digitando solo la funzione ``vignette()``  senza nessun argomento si ottiene una lista di
-quelle vignette presenti sul proprio sistema. Prova ``vignette("sp")`` per una introduzione poco tecnica
-alle strutture di dati spaziali presenti in R, oppure ``vignette("spdep")`` per un'analisi statistica
-dell'autocorrelazione spaziale. ``vignette("gstat")`` fornisce un tutorial per l'uso del pacchetto per
+quelle vignette presenti sul proprio sistema. Prova ``vignette("intro_sp")`` per una introduzione poco tecnica
+ai pacchetti che utilizzano dati spaziali presenti in R, oppure ``vignette("shapefiles")`` per una spiegazione
+di come utilizzare shapefiles in R. ``vignette("gstat")`` fornisce un tutorial per l'uso del pacchetto per
 l'interpolazione spaziale incluso il Kriging.
 
 Approfondimenti

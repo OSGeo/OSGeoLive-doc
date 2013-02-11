@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 :Translator: Luca Delucchi
@@ -17,7 +17,7 @@ Guida rapida su GMT
 Eseguirlo
 ================================================================================
 
-Incluso sul LiveDVD c'è la documentazione GMT (HTML e PDF),
+Incluso sul Live DVD c'è la documentazione GMT (HTML e PDF),
 script di esempio (incluso una linea di costa mondiale a bassa risoluzione),
 tutorial (HTML e PDF), e i set di dati per i tutorial.
 
@@ -40,7 +40,7 @@ linea di costa mondiale a bassa risoluzione può essere trovate in :file:`/usr/s
 Esempi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ci sono 29 esempi funzionanti, e uno script per eseguirli tutti:
+Ci sono 30 esempi funzionanti, e uno script per eseguirli tutti:
 
 Aprite un terminale, quindi
 
