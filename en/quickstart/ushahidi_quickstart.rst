@@ -43,7 +43,7 @@ Getting Ushahidi Up and Running
    :alt: mapguide desktop icons
    :align: center
 
-`Note:` If Ushahidi complains about this **"Oops! We couldn't make a 
+.. note:: If Ushahidi complains about this **"Oops! We couldn't make a 
    connection to the database server with the credentials given. Please make 
    sure they are correct."**. This means the installer script couldn't create 
    the database credentials. This has to be done manually before you can continue 
@@ -71,12 +71,14 @@ Getting Ushahidi Up and Running
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
+
+.. FIXME -- now wants admin@example.com,admin for credentials?
  
 4. To make changes in the `administration area <http://localhost/ushahidi/admin>`_, 
    the login username is **"admin"** and the password is also **"admin"**. 
    For example in the setup page you might want to select **"Settings"**
    (top right) and then the **"Map"** tab, and change the 
-   **"Map provider"** to OpenStreetMaps (no API key 
+   **"Map provider"** to OpenStreetMaps Cycling Map (no API key 
    necessary for OSM, as it's Open :-) ).
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
