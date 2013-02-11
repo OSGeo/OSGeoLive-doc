@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -9,7 +9,7 @@
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
 
-OSGeo North Carolina, USA Datensatz 
+OSGeo North Carolina, USA Schulungsdatensatz 
 ================================================================================
 
 Kartendaten
