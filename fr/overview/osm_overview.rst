@@ -66,7 +66,7 @@ Détails
 
 **Versions des logiciels:**
 
-* JOSM: Dernière version stable dite "snapshot" (svn r5353)
+* JOSM: Dernière version stable dite "snapshot" (svn r5697)
 
 * Merkaartor: 0.17.2
 

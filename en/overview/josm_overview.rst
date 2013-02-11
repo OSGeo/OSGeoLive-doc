@@ -74,7 +74,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2. Note: JOSM plugins may use other licences.
 
-**Software Version:** 5608
+**Software Version:** 5697
 
 **Supported Platforms:** Windows, Linux, Mac
 

@@ -67,7 +67,7 @@ Szczegóły
 
 **Wersje oprogramowania:**
 
-* JOSM: Latest Testing (svn r3751)
+* JOSM: Latest Testing (svn r5697)
 
 * Merkaartor: 0.14+
 
