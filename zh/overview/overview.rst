@@ -116,6 +116,7 @@
 其它软件（Live 系统未安装）
 --------------------------------------------------------------------------------
 微软 Windows 环境下：
+
 .. MapWindow 为 Windows 专有（.net），不能运行于 Ubuntu
 
 * :doc:`mapwindow_overview` - [:doc:`快速入门 <../quickstart/mapwindow_quickstart>`] — Windows 操作系统下的 GIS 工具
