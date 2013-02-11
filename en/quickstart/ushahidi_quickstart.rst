@@ -10,11 +10,10 @@
 Ushahidi Quick Start 
 ================================================================================
 
-.. As sugestion to improve the quickstart: anothre point to descrbie main administrative functionality may be incluided
+.. As sugestion to improve the quickstart: another point to descrbie main administrative functionality may be incluided
 
-This guide describes how to:
+This guide describes how to get Ushahidi up and running.
 
-* Getting Ushahidi Up and Running 
 
 Getting Ushahidi Up and Running
 --------------------------------------------------------------------------------
