@@ -63,7 +63,7 @@ Ergebnisse anzeigen: (geben Sie :kbd:`q` ein, um :command:`gv` [#gv]_ zu verlass
 
 ::
 
-  for PLOT in `find . -name *.ps` ; do
+  for PLOT in *.ps ; do
      echo "$PLOT"
      gv "$PLOT"
   done
