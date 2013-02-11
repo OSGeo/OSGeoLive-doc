@@ -64,7 +64,9 @@ Getting Ushahidi Up and Running
 
    Now go back to the Ushahidi web installer step 2 and fill in the details.
 
-3. After that is all done it should tell you that installation was
+3. If will then ask you for login email and password. Set the email address to
+   **"admin@example.org"** and the password as **"admin"** (enter it twice).
+   After that is all done it should tell you that installation was
    successful and give you a link to 'View your website'.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
@@ -72,11 +74,10 @@ Getting Ushahidi Up and Running
   :alt: ushahidi installer finishes
   :align: center
 
-.. FIXME -- now wants admin@example.com,admin for credentials?
- 
 4. To make changes in the `administration area <http://localhost/ushahidi/admin>`_, 
-   the login username is **"admin"** and the password is also **"admin"**. 
-   For example in the setup page you might want to select **"Settings"**
+   the login username and password are as you entered above, **"admin@example.org"**
+   and **"admin"**. 
+   In the setup page you might want to select **"Settings"**
    (top right) and then the **"Map"** tab, and change the 
    **"Map provider"** to OpenStreetMaps Cycling Map (no API key 
    necessary for OSM, as it's Open :-) ).
@@ -91,4 +92,5 @@ Getting Ushahidi Up and Running
 	describing main functionality or administrative areas included. It is a great part of the application to
 	be described in the quickstart.
 
-The setup up README page is available locally in the `/var/www/ushahidi/readme.html <../../ushahidi/readme.html>`_ file.
+The setup up README page is available locally in
+the `/var/www/ushahidi/readme.markdown <../../ushahidi/readme.markdown>`_ file.
