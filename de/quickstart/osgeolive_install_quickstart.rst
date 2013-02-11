@@ -76,6 +76,6 @@ See Also:
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`usb_quickstart`
 
