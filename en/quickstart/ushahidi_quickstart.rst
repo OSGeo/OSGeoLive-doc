@@ -20,7 +20,7 @@ Getting Ushahidi Up and Running
 --------------------------------------------------------------------------------
 
 1. Starting Ushahidi via the desktop icon or menu item opens the web 
-   browser and brings you to the Installation page. An Ushahidi site is 
+   browser and brings you to the Installation page. A Ushahidi site is 
    pretty easy to set up
 
 .. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
