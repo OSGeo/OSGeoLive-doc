@@ -1,4 +1,4 @@
-:Author: OSGeo-Live 
+:Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
@@ -43,11 +43,11 @@ Kernfunktionen
 * Ansehen, Filtern, Auswählen und Herunterladen von Erdbeobachtungsdaten
 * Registrieren von Archiven von Erdbeobachtungsdaten
 * Administration via Web und Kommandozeile
-* Zur Verfügung stellen von Daten über offene standardisierte Dienste des 
-  Open Geospatial Consortium (OGC):
+* Zur Verfügung stellen von Daten über :doc:`Open Geospatial Consortium (OGC) standards 
+  <../standards/standards>`:
 
-  * Web Coverage Service (WCS) 1.0, 1.1 und 2.0 & vorgeschlagenes EO-WCS
-  * Web Map Service (WMS) & EO-WMS
+  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 und 2.0 & vorgeschlagenes EO-WCS
+  * :doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS
   * Vorgeschlagene Erweiterungen für WCS wie: GeoTIFF-Codierung, vordefinierte 
     Projektionen (CRSs), Skalierung und Interpolation.
   * Die unterstützen Protokolle sind: KVP und XML/POST (zusammen verwendet mit 
