@@ -1,8 +1,8 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Translator: Roberto Antolín
+:Version: osgeo-live6.5
 :License: Creative Commons
-
-.. _viking-overview-es:
 
 .. image:: ../../images/project_logos/logo-viking.png
   :scale: 100 %
@@ -17,16 +17,15 @@ Viking
 Uso e impresion de datos GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ es un
-editor y visualizador de datos GPS. Viking tiene como objetivo ser
-una herramienta fácil de usar y que que proporcione soporte para una
-gran parte de tareas relacionadas con GPS.
-Utiliza un sistema de capas jerarquicas para organizar datos GPS, mapas,
-y otro tipo de geodatos, como lineas de coordenadas.
-Trabaja con datos de OpenStreetMap y otros tile servers.
+`Viking <http://sourceforge.net/apps/mediawiki/viking/>`_ edita, analiza y
+visualiza datos GPS. Viking tiene como objetivo ser una herramienta fácil de
+usar y que proporcione soporte para una gran cantidad de tareas relacionadas con
+GPS.  Utiliza un sistema de capas jerarquicas para organizar datos GPS, mapas, y
+otro tipo de datos geoespaciales, como líneas de coordenadas. Trabaja con datos
+de :doc:`OpenStreetMap <osm_dataset_overviwe>` y otros servidores de teselas.
 
 
-Principales funcionalidades
+Características principales
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
@@ -34,41 +33,41 @@ Principales funcionalidades
   :alt: screenshot
   :align: right
 
-* Uploading y downloading de waypoints, tracks desde/para GPS.
+* Subida y descarga de puntos de ruta y *tracks* desde y para GPS.
 
-* GPS tracking en tiempo real.
+* GPS *tracking* en tiempo real.
 
-* Preparacion de tracks y waypoints para desplazamientos usando mapas desde servicios como Googlemaps o Terrasever. Simplemente es necesario cargar los datos al GPS antes de salir. Los mapas junto con los tracks y waypoints se pueden imprimir y usar durante tu salida.
+* Preparación de rutas y puntos de ruta para desplazamientos usando mapas desde servicios como :doc:`OpenStreetMap <osm_dataset_overviwe>` y Bing Aerinted. Simplemente es necesario cargar los datos al GPS antes de salir. Los mapas junto con las rutas y los puntos de ruta se pueden imprimir y usar durante la salida.
 
-* Al finalizar la toma de datos, los tracks y waypoints del GPS se pueden guardar y reutilizar en otras salidas.
+* Al finalizar la toma de datos, las rutas y puntos de ruta del GPS se pueden guardar y reutilizar en otras salidas.
 
-* Analizar caminos que ayuden a situarte y te indiquen la cercania de tu objetivo.
+* Analizar caminos que ayuden a situarse y indiquen la cercania de objetivo.
 
-* Crear waypoints y tracks para guiarte a llegar a un sitio donde no estuvistes antes o del que no tienes datos gps para orientarte.
+* Crear puntos de ruta y rutas para guiarle a llegar a un sitio donde no visitado anteriormente o del que no se tienen datos gps para orientarse.
 
 * Crear mapas con líneas de coordenadas.
 
-* Analizar la marcha en diferentes sitios, añadiendo waypoints donde olvidastes marcar alguno.
+* Analizar la marcha en diferentes sitios, añadiendo puntos de ruta que se pudieran olvidar.
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://sourceforge.net/apps/mediawiki/viking/
+**Sitio web:** http://sourceforge.net/apps/mediawiki/viking/
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Software Version:** 0.9.94
+**Versión del software:** 1.2.1
 
-**Sistemas operativos soportados:** GNU/Linux, MS Windows
+**Plataformas soportadas:** GNU/Linux, MS Windows
 
-**API Interfaces:** C, GTK+ 2
+**Interfaces API:** C, GTK+ 2
 
-**Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
+**Suporte:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
-Guia de Inicio rápido
+Guia rápida
 --------------------------------------------------------------------------------
 
-* `Guia de Inicio rápido <../quickstart/viking_quickstart.html>`_
+* :doc:`Guia de inicio rápido <../quickstart/viking_quickstart>`
 
 
