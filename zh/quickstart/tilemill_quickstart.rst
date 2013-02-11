@@ -2,7 +2,7 @@
 :Author: Javier Sanchez
 :Version: osgeo-live6.5d
 :Translator: Zhengfan Lin
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Thanks: tutorial from Ivan Sánchez Ortega and Pedro Ferrer Matoses from Spanish OSGeo Chapter
 
 .. image:: ../../images/project_logos/logo-tilemill.png
@@ -117,7 +117,7 @@ TileMill 快速入门
 
 **SRS:**	Select WGS84
 
-　　在 osm_points 图层中只选择了来自 osm_local 的一个子集，以保证其环境（amenity）属性非空。
+　　在 osm_points 图层中只选择了来自 osm_local 的一个子集，以保证其设施类型（amenity）属性非空。
 
 设置工程的默认渲染方式
 ================================================================================
@@ -152,14 +152,11 @@ TileMill 快速入门
 
 条件性样式
 ================================================================================
-　　条件性样式是根据要素属性变化的样式。
+　　条件性样式是根据要素属性变化的样式。本例配置 osm_points 和 osm_roads 的样式，高亮显示具有特定属性的要素。
 
+　　对于点要素，根据其表示的是 'post_box'（邮箱）、'pub'（酒吧）或 'bicyle_parking'（自行车位）等加以不同的图标。该信息位于设施类型（amenity）字段。道路类型（highway）为自行车道（cycleway）的道路要素将使用专门的符号表示。
 
-Conditional CartoCSS styles allow you to change the appearance of the features on your map, based on data attributes. Here we will customize osm_points and osm_roads, in order to highlight some types of feature, given certain values.
-We will apply different styles to points depending on whether they represent 'post_box', 'pub'or 'bicyle_parking', as we know in advance that those are given values in the field 'amenity' of the table.
-We will define a different style to lines that represent 'cycleway', as we know in advance that 'cycleway' is a given value in the field 'highway' of the table.
-This is our code after changing certain style values and coding some conditional styles:
-
+　　实现上述效果的 CartoCSS 代码如下：
 ::
 
 	Map {
@@ -214,22 +211,21 @@ This is our code after changing certain style values and coding some conditional
 .. image:: ../../images/screenshots/1024x768/tilemill_customizedview.png
    :scale: 70 %
 
-Tooltips
+工具提示
 ================================================================================
 
-Tooltips allow you to make maps interactive with dynamic content that appears when a user hovers over or clicks on a map. They can contain HTML and are useful for revealing additional data, images, and other content.
+　　工具提示是光标位于某些对象上时动态显示的内容。它可以包含 HTML 代码，显示各类数据、图形等。
 
-1. Open the Templates  panel by clicking on the pointer button on the bottom left ( |POINTER|
-) 
+1. 在左下角点击 |POINTER| 开启模板（Templates）配置界面。
 
 .. |POINTER| image:: ../../images/screenshots/1024x768/tilemill_pointerbtn.png
 
-2. Click on the “Teaser” tab. Teaser content appears when you hover over a feature and Full content appears when you click on a feature. You can use the Location field to define a URL to be loaded when a feature is clicked.
+2. 点击摘要（Teaser）选项卡。摘要信息是光标浮于目标之上而未点击时显示的信息。完整（Full）信息则会在点击时显示。在目标地址（Location）一栏可以填入一个希望打开的 URL 。
 
-3. Select the 'osm_point' layer to use it for interaction. TileMill only supports one interactive layer at a time.
-4. The data fields for the layer are displayed wrapped in curly Mustache tags. These tags will be replaced by data when you interact with the map. Locate the fields you want to use.
+3. 选中 'osm_point' 图层作为交互层（interactive）。TileMill 目前只能同时处理一个交互层。
+4. 花括号标注是该图层的各个字段。这些代码在显示时会替换成相应字段。
 
-5. Write your template using the Mustache tags. Paste the following code into the Teaser field and use the preview to make sure it looks good:
+5. 边线工具提示代码。以下示例代码可用于摘要。
 
 ::
 
@@ -239,24 +235,23 @@ Tooltips allow you to make maps interactive with dynamic content that appears wh
 .. image:: ../../images/screenshots/1024x768/tilemill_teaser_frm.png
    :scale: 70 %
 
-6. Click “Save” to save your settings and refresh the map. Close the panel by clicking the close button (X) or by pressing the ESC key. Move your mouse over some points to see the tooltips.
+6. 点击 “Save” 保存配置并刷新。点击 (X) 或键盘 ESC 关闭面板。移动光标查看工具提示的显示情况。
 
 
 .. image:: ../../images/screenshots/1024x768/tilemill_tooltip.png
    :scale: 70 %
 
 
-Legends
+图例
 ================================================================================
 
-A legend is permanently on a map and is useful for displaying titles, descriptions, and keys for what is being mapped. It can be styled using HTML, or it can simply contain an image.
+　　图例可以在地图界面上方便地显示各类要素名称、分类、描述等。它可以使用 HTML，支持图片。
 
-Let’s add a legend that describes the theme of the map.
+　　为示例项目添加一个图例：
 
-#. Open the Templates panel by clicking on the pointer button in the bottom left
-#. The Legend tab is open by default.
-#. Enter your legend text/html in the Legend field:
-
+#. 打开模板试图。
+#. 图例（Legend）选项卡是默认项。
+#. 在 Legend 一栏输入内容。
 ::
 
 	<strong>OSGeo Live TileMill Quick Start</strong><br/>Points locate different amenities in Nottingham</br>
@@ -270,51 +265,49 @@ Let’s add a legend that describes the theme of the map.
    :scale: 70 %
 
 
-Exporting the map
+输出地图
 ================================================================================
-TileMill can export maps to MBTiles, PNG, PDF, SVG, or Mapnik XML formats. A full listing and overview is in the `Exporting documentation <http://mapbox.com/tilemill/docs/manual/exporting/>`_
+　　TileMill 支持输出到 MBTiles、PNG、PDF、SVG 和 Mapnik XML 文件。详见 `输出功能文档 <http://mapbox.com/tilemill/docs/manual/exporting/>`_ 。
 
-If you want to export to MBTiles:
+　　输出到 MBTiles：
 
-#. Click the “Export” button. A drop down menu will appear.
-#. Click “MBTiles”. The window will transition to the export tool.
-#. Choose a “Filename”“. The name of the project will be placed here by default.
-#. Select Zoom levels. Set the furthest zoom to 1 by dragging the left end to the right. Set the closest zoom to 6 by dragging the right end to the left.
-#. Select the “Center” of the map. This determines the starting center and zoom level of the map when it is first loaded. You can manually enter these values or click a point in the map preview. Zoom to level three and click the center of the United States.
-#. Select the map “Bounds”. This is the area of the map to be exported. By default the entire world is selected. If your map is allocated to a smaller region of the globe, you can save processing time and disk space by cropping to that area. This can be done by manually entering values in the Bounds fields, or by holding the SHIFT key and clicking and dragging on the map. Leave the default value.
-#. Click “Export”.
-#. When the export process is complete, the progress bar will be replaced by a Save button. This will save a copy of the file locally to a specified location.
+#. 点击 “Export” 按钮。出现一个下拉菜单。
+#. 选择 “MBTiles”。显示相应的输出设置。
+#. 设置文件名（Filename），默认为工程名。
+#. 选择可用的缩放尺寸，本例使用 1-6 较为合适。
+#. 设置中心点（Center）。该设置影响载入时默认的中心位置和缩放尺寸。手工输入坐标和点击图形均可，
+#. 设置边界（Bounds）。只有边界框内的数据会被输出。手工输入坐标或按住 SHIFT 拖拽均可。默认为全球范围。
+#. 点击 “Export” 执行。
+#. 完成后，进度条会变为保存（Save）按钮，点击保存至指定目录。
 
 
 .. image:: ../../images/screenshots/1024x768/tilemill_viewexports.png
    :scale: 70 %
-   
-You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
 
-Things to Try
+　　在菜单中选择 :menuselection:`Help --> Welcome` 可以回到欢迎界面。
+
+其它尝试
 ================================================================================
 
-Here are some additional challenges for you to try:
+　　您可以继续尝试其它操作：
 
-#. Try changing fixed or conditional styles on your own
-#. Try importing data from other sources, like .CSV file or sqlite ( You can follow `on-line TileMill crashcourse documentation <http://mapbox.com/tilemill/docs/crashcourse/introduction/>`_)
+#. 添加您自己的样式配置。
+#. 从 *.CSV 等其它数据源获取数据。您可以参考 `TileMill 线上教程 <http://mapbox.com/tilemill/docs/crashcourse/introduction/>`_ 。
 
 
-What Next?
+其它信息
 ================================================================================
 
 .. Writing tip
   Provide links to further tutorials and other documentation.
 
-This is only the first step on the road to using TileMill. There is a lot more great material (and ability) left for you to discover:
+　　除了以上演示的基本操作，TileMill 还有众多的功能：
 
-* Get more help from the environment, click on help button (|HELP|)
+* 在操作中随时可以点击 |HELP| 获取帮助。
 
 .. |HELP| image:: ../../images/screenshots/1024x768/tilemill_helpbtn.png
 
-* Learn more about cartocss languaje on `API Documentation <http://mapbox.com/carto/api/2.1.0/>`_
+* CartoCSS 语言 `API 文档 <http://mapbox.com/carto/api/2.1.0/>`_
 
-* Learno how to run `TileMill as an Ubuntu Service <http://mapbox.com/tilemill/docs/guides/ubuntu-service/>`_
-
-
+* 学习如何 `将 TileMill 作为 Ubuntu 环境下的服务 <http://mapbox.com/tilemill/docs/guides/ubuntu-service/>`_
 
