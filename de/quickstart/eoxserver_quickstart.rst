@@ -1,6 +1,6 @@
 :Author: OSGeo-Live 
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: 
+:Reviewer: Angelos Tzotsos
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Translator: Stephan Meissl
@@ -43,6 +43,11 @@ verfügbaren EOxServer Dokumentation <http://eoxserver.org/doc/>`_.
 Demonstrationsinstanz
 ---------------------
 
+Für den Fall, dass Sie OSGeoLive mit 1GB RAM oder weniger laufen lassen, ist es ratsam den default Tomcat Service vor dem Aufruf von EOxServer zu stoppen.
+:: 
+
+  sudo service tomcat6 stop
+
 Unter `Web Services` finden Sie ein mit `EOxServer` beschriftetes Symbol 
 welches einen Browser startet der die Demonstrationsinstanz anzeigt. Diese 
 ist unter http://localhost/eoxserver/ verfügbar und stellt dieselben Daten 
@@ -50,7 +55,7 @@ zur Verfügung wie die `online Demo <https://eoxserver.org/demo_stable/>`_
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
-  :alt: EOxServer Demonstration
+  :alt: Stat der EOxServer Demonstration
 
 Unter `Web Services` finden Sie auch ein mit `EOxServer Documentation` 
 beschriftetes Symbol welches einen pdf Betrachter startet der die verfügbare 
@@ -133,7 +138,7 @@ Administrationsklienten erkunden. Weiterführende Informationen liefert der
   :scale: 50 %
   :alt: EOxServer Demonstration des Administrationsklienten Beginn
 
-Zum Beispiel ist es möglich die `EO Metadaten` der konfigurierten `Dataset 
+Zum Beispiel ist es möglich die `EO Metadaten Einträge` der konfigurierten `Dataset 
 Series` anzuzeigen und zu ändern.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
