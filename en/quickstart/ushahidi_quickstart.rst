@@ -93,4 +93,4 @@ Getting Ushahidi Up and Running
 	be described in the quickstart.
 
 The setup up README page is available locally in
-the `/var/www/ushahidi/readme.markdown <../../ushahidi/readme.markdown>`_ file.
+the `/var/www/ushahidi/README.markdown <../../ushahidi/README.markdown>`_ file.
