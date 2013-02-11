@@ -1,5 +1,5 @@
 :Author: GeoNetwork Community
-:Version: osgeo-live4.5draft
+:Version: osgeo-live5.0final
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: GeoNetwork Community 
 
@@ -24,7 +24,12 @@ Diese Anleitung beschreibt die Einrichtung von |GN|, und zusätzlich:
 Eine ausführliche Anleitung kann unter http://localhost:8880/geonetwork/docs/eng/users/index.html gefunden werden. Sie können auch den 'Hilfe' Link auf der |GN| Webseite anklicken.
 
 Start |GN|
-----------
+--------------------------------------------------------------------------------
+
+- Für den Fall, dass Sie OSGeoLive mit 1GB RAM oder weniger laufen lassen, ist es ratsam den default Tomcat Service vor dem Aufruf von GN zu stoppen.
+:: 
+
+  sudo service tomcat6 stop
 
 - Wählen Sie "Start GeoNetwork" Icon.
 - Die Anwendung braucht ein paar Minuten zum starten
