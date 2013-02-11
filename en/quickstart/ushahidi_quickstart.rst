@@ -39,11 +39,11 @@ Getting Ushahidi Up and Running
    something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
-  :scale: 50 %
-  :alt: mapguide desktop icons
-  :align: center
+   :scale: 50 %
+   :alt: mapguide desktop icons
+   :align: center
 
-.. note:: If Ushahidi complains about this **"Oops! We couldn't make a 
+`Note:` If Ushahidi complains about this **"Oops! We couldn't make a 
    connection to the database server with the credentials given. Please make 
    sure they are correct."**. This means the installer script couldn't create 
    the database credentials. This has to be done manually before you can continue 
