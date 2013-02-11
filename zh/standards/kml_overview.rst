@@ -26,30 +26,31 @@
 
 .. Writing Tip: Name of application
 
-KML Encoding Standard (KML)
+KML Encoding Standard (KML) 地理注记
 ================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-The OGC KML Encoding Standard is an XML language focused on geographic visualization, including annotation of maps and images. Geographic visualization includes not only the presentation of graphical data on the globe, but also the control of the user’s navigation in the sense of where to go and where to look. (http://www.opengeospatial.org/standards/KML)
+　　OGC KML Encoding Standard 是一种用于地理信息可视化的 XML 语法。它用于注记地图和影像。这一格式可用于标注地理要素并指导用于的导航操作。(http://www.opengeospatial.org/standards/KML)
 
 .. image:: ../../images/standards/kml.jpg
   :scale: 55%
   :alt: KML in Context
 
-In 2006, Google submitted KML (formerly Keyhole Markup Language) to the OGC for consideration as a standard. KML was the first instance of a de-facto standard being submitted into the OGC standards process and as such the OGC modified our standards approval process to accommodate standards that have been developed externally from the OGC and then submitted into the OGC process. There were four objectives for this standards work:
+　　在 2006 年，Google 向 OGC 提交了 KML（原意为 Keyhole Markup Language）作为备选标准。KML 是 OGC 接受的第一个事实标准。它有四项目标：
 
-That there be one international standard language for expressing geographic annotation and visualization on existing or future web-based online maps (2d) and earth browsers (3d).
-That KML be aligned with international best practices and standards, thereby enabling greater uptake and interoperability of earth browser implementations.
-That the OGC and KML community will work collaboratively to insure that the KML implementer community is properly engaged in the process and that the KML community is kept informed of progress and issues.
-That the OGC process will be used to insure proper life-cycle management of the KML candidate specification, including such issues as backwards compatibility.
+　　实现一种全球统一的地理注记语言用于二位地图和三维地理场景的应用。
 
-KML was approved as an OGC standard in 2008 because the Membership believed that having KML as an OGC standard would encourage broader implementation and greater interoperability and sharing of earth browser content and context.
- 
-KML is complementary to most of the existing OGC specifications including key standards such as GML (Geography Markup Language), WFS (Web Feature Service) and WMS (Web Map Service). Currently, KML (v2.1) utilizes certain geometry elements derived from GML (version 2.1.2). These elements include point, line-string, linear-ring, and polygon.
+　　确立全球通用的标准与最佳实现，保证良好的兼容性。
 
-See Also
+　　OGC 和 KML 社区紧密合作，保证 XML 实现的开发者随时了解该语言的发展及可能的问题。
+
+　　以单一的 OGC 流程管理 KML 备选标准并保证向下兼容能力。
+
+　　KML 于 2008 年成为 OGC 标准。它与其他 OGC 标准，如 GML、WFS 和 WMS 互补。目前，KML v2.1 使用了从 GML v2.1.2 引入的一些内容。
+
+相关信息
 --------------------------------------------------------------------------------
 
 .. Writing Tip:

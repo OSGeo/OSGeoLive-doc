@@ -26,37 +26,36 @@
 
 .. Writing Tip: Name of application
 
-Web Processing Service (WPS)
+Web Processing Service (WPS) 网络地理信息处理服务
 ================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-The WPS standard provides rules for standardizing inputs and outputs (requests and responses) for geospatial processing services, such as polygon overlays and their inputs and outputs.
+　　WPS 标准为网络地理信息处理服务提供了标准化的输入和输出。
 
 .. image:: ../../images/standards/wps.jpg
   :scale: 55%
   :alt: WPS in Context
 
-The OGC® Web Processing Service (WPS) Standard describes how to access geospatial processes from a web interface.
-Processes include any algorithm, calculation or model that operates on spatially referenced vector or raster data. A WPS may offer calculations as simple as subtracting one set of spatially referenced numbers from another (e.g., determining the difference in influenza cases between two different seasons), or as complicated as a global climate change model.  (http://www.opengeospatial.org/standards/wps) 
+　　OGC® Web Processing Service (WPS) 标准描述了如何通过远程的任何算法和模型处理获得地理空间的栅格或矢量信息产品。WPS 提供的服务可以是简单的空间定位ｉｄｅ两份数据相减，也可以是复杂大气模型等运算。(http://www.opengeospatial.org/standards/wps)。
 
-A WPS is particularly useful for:
+　　WPS 可用于：
 
-* Reducing complexity in data processing by providing plug & play algorithms.
-* Enabling processes to be chained together.
-* Enabling processing to be deployed once then used everywhere.
-* Streamlined maintenance. Processes/models are maintained in a central place by the entities who created them.
-* Taking advantage of high-speed computational capabilities on a central server.
-* Easy and interoperable access to highly complex processes, such as climate change models.
+* 使用即插即用的机制降低数据处理流程的复杂性。
+* 连接不同的处理操作。
+* 开发可以被其它用户重用的处理过程。
+* 处理流程和模型集中与服务提供者，方便维护。
+* 利用中央服务器集群的高运算性能。
+* 方便对复杂模型的公共使用。
 
-See Also
+相关信息
 --------------------------------------------------------------------------------
 
 .. Writing Tip:
   Describe Similar standard
 
-Other OGC data service standards: 
+　　其它 OGC 数据服务标准：
 
 * Web Coverage Processing Service
 * Sensor Planning Service

@@ -26,30 +26,30 @@
 
 .. Writing Tip: Name of application
 
-Web Feature Service (WFS)
+Web Feature Service (WFS) 网络地理要素服务
 ================================================================================
 
 .. Writing Tip:
   1 paragraph or 2 defining what the standard is.
 
-The OGC® Web Feature Service Interface Standard (WFS) defines  web interface operations for querying and editing vector geographic features, such as roads or lake outlines.  (http://www.opengeospatial.org/standards/wfs)
+　　OGC® Web Feature Service Interface Standard (WFS) 定义了一套接口用于传输矢量地理要素数据，比如道路和湖泊等(http://www.opengeospatial.org/standards/wfs)。
 
 .. image:: ../../images/standards/wfs.jpg
   :scale: 55%
   :alt: WFS in Context
 
-The WFS standard defines operations that enable clients to:
+　　WFS 标准使用户可以：
 
-* Discover which feature collections are available (GetCapabilities)
-* Describe the attribute fields available for  features (DescribeFeatureType)
-* Query a collection for a subset of features based on a provided filter (GetFeature)
-* Add, edit or delete features (Transaction)
+* 发现存储的要素类型(GetCapabilities)
+* 获得其属性描述(DescribeFeatureType)
+* 以一定的过滤器获得一部分要素(GetFeature)
+* 添加、编辑和删除要素(Transaction)
 
-All WFSs support input and output data using Geography Markup Language (GML). Some WFSs also support other encodings, such as GeoRSS or shapefiles.
+　　所有 WFS 系统都支持 Geography Markup Language (GML) 地理主机语言。某些 WFS 也支持 GeoRSS 或 shp 等。
 
-Users typically interact with WFSs through browser based or desktop geospatial clients, which allows them to access vector map layers from external agencies, over the Internet. An excellent example of using a WFS service to provide open and interoperable access to large amounts of geospatial content via a government portal is the USGS Framework Web Feature Services offered in support of the development of the National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.gov/). Selected US Framework map layers are available as WFS layers and also available through a browser interface provided by the USGS.
+　　用户通常使用网页客户端或桌面 GIS 系统使用 WFS 服务，通过网络获取来自其它机构的数据。例如，美国地质调查局使用 WFS 作为其 National Spatial Data Infrastructure (NSDI) (http://frameworkwfs.usgs.gov/) 地理数据基础服务工程的一部分。其数据以 WFS 图层和网页客户端两种形式提供。
 
-See Also
+其它信息
 --------------------------------------------------------------------------------
 
 .. Writing Tip:
