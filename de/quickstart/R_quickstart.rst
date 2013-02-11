@@ -94,7 +94,7 @@ erzeugen können. Hier ist eine einfache Sequenz:
 
 ::
 
-    > seq(1,5,len=10)
+    > seq(1,5, len=10)
     [1] 1.000000 1.444444 1.888889 2.333333 2.777778 3.222222 3.666667 4.111111
     [9] 4.555556 5.000000
 
@@ -105,7 +105,7 @@ Wenn Sie eine Matrix konstruieren, bekommen Sie Zeilen- und Spaltenbeschriftunge
 
 ::
 
-	> m=matrix(1:12,3,4)
+	> m = matrix(1:12, 3, 4)
 	> m
 	     [,1] [,2] [,3] [,4]
 	[1,]    1    4    7   10
@@ -141,7 +141,7 @@ auch über Namen ansprechen mit $-Notation:
 
 ::
 
-	> d = data.frame(x=1:10,y=1:10,z=runif(10)) # z is 10 random numbers
+	> d = data.frame(x=1:10, y=1:10, z=runif(10)) # z sind 10 Zufallszahlen
 	> d
 	        x  y          z 
 	    1   1  1 0.44128080 
@@ -195,8 +195,8 @@ Pakete, um die notwendige Funktionalität zu bekommen:
 	> library(sp)
 	> library(maptools)
 
-	> countries = readShapeSpatial("/usr/local/share/data/natural_earth/10m_admin_0_countries.shp")
-	> places = readShapeSpatial("/usr/local/share/data/natural_earth/10m_populated_places_simple.shp")
+	> countries = readShapeSpatial("/usr/local/share/data/natural_earth2/ne_10m_admin_0_countries.shp")
+	> places = readShapeSpatial("/usr/local/share/data/natural_earth2/ne_10m_populated_places.shp")
 	> plot(countries)
 
 Damit stellen wir eine einfache Weltkarte dar:
@@ -209,7 +209,7 @@ dass sich in vielerlei Hinsicht wie ein Daten Frame verhält. Wir können die Sp
 
 ::
 
-	> uk = countries[countries$COUNTRY=="United Kingdom",]
+	> uk = countries[countries$admin == "United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
 .. image:: ../../images/screenshots/1024x768/r_plot2.png
@@ -225,19 +225,18 @@ Funktionen überprüfen:
 	[1] NA
 
 ``NA`` steht für fehlende Daten. Wir müssen also dem Objekt ein KBS zuweisen, bevor wir 
-es mit der spTransform Funktion aus dem rgdal Paket zum EPSG-Code: 27700 transformieren 
-können, was dann dem Ordnance Survey of Great Britain Grid-System entspricht:
+es mit der spTransform Funktion aus dem rgdal Paket transformieren. Wir transformieren nach EPSG-Code: 27700, was dann dem Ordnance Survey of Great Britain Grid-System entspricht:
 
 ::
 
-	> proj4string(uk)=CRS("+init=epsg:4326")
+	> proj4string(uk) = CRS("+init=epsg:4326")
 	> library(rgdal)
-	> ukos = spTransform(uk,CRS("+init=epsg:27700"))
+	> ukos = spTransform(uk, CRS("+init=epsg:27700"))
 	> proj4string(ukos)
 	[1] " +init=epsg:27700 +proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +datum=OSGB36 +units=m +no_defs
 	+towgs84=446.448,-125.157,542.060,0.1502,0.2470,0.8421,-20.4894"
 
-	> plot(ukos);axis(1);axis(2)
+	> plot(ukos); axis(1); axis(2)
 
 Dies zeichnet eine Karte der transformierten Daten. Nun wollen wir einige Punkte aus dem 
 besiedelte Orte Datensatz ergänzen. Wieder erstellen wir eine Teilmenge der Punkte und 
@@ -245,9 +244,9 @@ transformieren sie zu Ordnance Survey Grid Reference-Koordinaten:
 
 ::
 
-	> ukpop = places[places$ADM0NAME=="United Kingdom",]
-	> proj4string(ukpop)=CRS("+init=epsg:4326")
-	> ukpop = spTransform(ukpop,CRS("+init=epsg:27700"))
+	> ukpop = places[places$ADM0NAME == "United Kingdom",]
+	> proj4string(ukpop) = CRS("+init=epsg:4326")
+	> ukpop = spTransform(ukpop, CRS("+init=epsg:27700"))
 
 Wir fügen diese Punkte auf die Karte und skalieren die Größe der Punkte entsprechend der 
 skalierten Quadratwurzel der Bevölkerung (denn das macht ein Symbol mit einer Fläche 
@@ -256,7 +255,7 @@ einen soliden blob:
 
 ::
 
-	> points(ukpop,cex=sqrt(ukpop$POP_MAX/1000000),col="red",pch=19)
+	> points(ukpop, cex=sqrt(ukpop$POP_MAX/1000000), col="red", pch=19)
 	> title("UK Population centre sizes")
 
 und unsere Ausgabekarte erscheint:
