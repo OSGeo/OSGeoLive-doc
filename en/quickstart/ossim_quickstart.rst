@@ -75,9 +75,7 @@ OssimPlanet
   the left of *Image Layers* to expand it. Next double-click on ``p011r031_7t19990918_z19_nn10.tif``.
   You should now see the scene zoom to the image's location.
 
-.. note::
-   To turn off the daylight auto-shading, `un`-check
-   :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
+.. note:: To turn off the daylight auto-shading, `un`-check :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
 
 * Experiment with navigating the scene using the mouse. Dragging the left
   mouse button pans; dragging the middle mouse button rolls; and dragging
