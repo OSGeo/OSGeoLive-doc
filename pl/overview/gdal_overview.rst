@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer:
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
@@ -22,18 +22,19 @@ GDAL/OGR
 Geospatial Data Translation Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geospatial Data Abstraction Library (GDAL/OGR) provides command-line
-utilities to translate and process a wide range of raster and vector
-geospatial data formats.
+Geospatial Data Abstraction Library (GDAL/OGR) dostarcza narzêdzi wiersza poleceñ
+do przeliczania i przekszta³cania szerokiego spektrum danych przestrzennych
+zapisanych w formatach rastrowych i wektorowych.
 
-The utilities are based upon a cross platform, C++ library, accessible
-via numerous programming languages.  As a library, it presents a single
-abstract data model to the calling application for all supported formats.
+Narzêdzia zbudowane s¹ w oparciu o wieloplatformow¹ bibliotekê C++ 
+dostêpn¹ z poziomu wielu jêzyków programowania. Biblioteka prezentuje aplikacjom
+wywo³uj¹cym ujednolicony model danych dla wszystkich obs³ugiwanych formatów.
 
-GDAL/OGR is the most widely used geospatial data access library. It provides
-the primary data access engine for many applications including MapServer,
-GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM,
-Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
+GDAL/OGR jest najszerzej stosowan¹ geoprzestrzenn¹ bibliotek¹ dostêpu do danych.
+Zapewnia silnik dostêpu do danych, wielu aplikacjom, w tym korzysta z niej 
+MapServer, GRASS, QGIS, i OpenEV. Jest równie¿ wykorzystywana przez takie 
+programy jak OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, 
+MapGuide and ArcGIS.
 
 .. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
@@ -43,18 +44,18 @@ Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 G³ówne funkcje
 --------------------------------------------------------------------------------
 
-* Command-line utilities for data translation, image warping, subsetting, and various other common tasks
-* Highly efficient raster data access, taking advantage of tiling and overviews
-* Support for large files - larger than 4GB
-* Library access from Python, Java, C#, Ruby, VB6 and Perl
-* Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate system descriptions
+* Narzêdzia wiersza poleceñ do przeliczania, odkszta³cania obrazów, selekcji informacji, i wielu innych powszechnych zadañ
+* Bardzo wydajny dostêp do danych rastrowych, wykorzystuj¹cy kaflowanie i podgl¹dy
+* Obs³uga du¿ych plików - wiêkszych ni¿ 4GB
+* Dostêp do biblioteki za pomoc¹ jêzyków Python, Java, C#, Ruby, VB6 and Perl
+* System obs³ugi uk³adów odniesienia oparty na bibliotekach PROJ.4 oraz OGC Well Known Text
 
 Popularne obs³ugiwane formaty
 --------------------------------------------------------------------------------
 
-GDAL supports over 50 raster formats, i OGR over 20 vector formats.
+GDAL obs³uguje ponad 50 formatów danych rastrowych, OGR ponad 20 wektorowych.
 
-These include:
+Miêdzy innymi s¹ to:
 
 * **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, i wicej ...
 * **Wektor:** MapInfo (tab i mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, i wicej ...
@@ -71,7 +72,7 @@ Szczegó³y
 
 **Licencja:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Wersja programu:** 1.7.0 (1.9.1)
+**Wersja programu:** 1.7.0 (1.9.2)
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
