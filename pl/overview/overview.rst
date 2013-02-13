@@ -13,28 +13,10 @@ Zawartość |osgeo-live-version|
 
    *_overview
 
-Klienci w przeglądarce internetowej
---------------------------------------------------------------------------------
-* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeglądarce internetowej
-* :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeglądarce internetowej
-* :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu
-* :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
-* :doc:`geomoose_overview` - [:doc:`Wprowadzenie <../quickstart/geomoose_quickstart>`] - portal Web GIS
-
-Zarządzanie kryzysowe
---------------------------------------------------------------------------------
-* :doc:`sahana_overview` - [:doc:`Wprowadzenie <../quickstart/sahana_quickstart>`] - zarządzanie pomocą w czasie katastrof
-* :doc:`ushahidi_overview` - [:doc:`Wprowadzenie <../quickstart/ushahidi_quickstart>`] - mapy zdarzeń oraz ciągi czasowe
-
-Systemy zarządzania bazami danych
---------------------------------------------------------------------------------
-* :doc:`postgis_overview` - [:doc:`Wprowadzenie <../quickstart/postgis_quickstart>`] - przestrzenna baza danych
-* :doc:`spatialite_overview` - [:doc:`Wprowadzenie <../quickstart/spatialite_quickstart>`] - lekka przestrzenna baza danych
-* :doc:`rasdaman_overview` - [:doc:`Wprowadzenie <../quickstart/rasdaman_quickstart>`] - wielowymiarowa rastrowa baza danych
-* :doc:`pgrouting_overview` - [:doc:`Wprowadzenie <../quickstart/pgrouting_quickstart>`] - trasowanie dla PostGIS
-
 Desktop GIS
 --------------------------------------------------------------------------------
+Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy na desktopie:
+
 * :doc:`qgis_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - [:doc:`Wprowadzenie <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`Wprowadzenie <../quickstart/gvsig_quickstart>`]
@@ -42,34 +24,22 @@ Desktop GIS
 * :doc:`kosmo_overview` - [:doc:`Wprowadzenie <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`Wprowadzenie <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`Wprowadzenie <../quickstart/saga_quickstart>`]
-* :doc:`ossim_overview` - [:doc:`Wprowadzenie <../quickstart/ossim_quickstart>`] - przetwarzanie zobrazowań 
-* :doc:`geopublisher_overview` - [:doc:`Wprowadzenie <../quickstart/geopublisher_quickstart>`] - atlasy multimedialne
-* :doc:`atlasstyler_overview` - [:doc:`Wprowadzenie <../quickstart/atlasstyler_quickstart>`] - edytor stylów (SLD)
-* :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
-* :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
 
-Nawigacja i Mapy
+Klienci w przeglądarce internetowej
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
-* :doc:`gpsprune_overview` - [:doc:`Wprowadzenie <../quickstart/gpsprune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
-* :doc:`marble_overview` - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - wirtualny glob na KDE
-* :doc:`opencpn_overview` - [:doc:`Wprowadzenie <../quickstart/opencpn_quickstart>`] - GPS do zastosowań marynistycznych
-* :doc:`osm_overview` - [:doc:`Wprowadzenie <../quickstart/osm_quickstart>`] - narzędzia Open Street Map
-* :doc:`viking_overview` - [:doc:`Wprowadzenie <../quickstart/viking_quickstart>`] - przeglądanie i analiza danych GPS
-* :doc:`zygrib_overview` - [:doc:`Wprowadzenie <../quickstart/zygrib_quickstart>`] - mapy prognoz pogody
+Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądarce internetowej:
 
-Narzędzia przestrzenne
---------------------------------------------------------------------------------
-* :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
-* :doc:`gdal_overview`  - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
-* :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
-* :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
-* :doc:`maptiler_overview` - [:doc:`Wprowadzenie <../quickstart/maptiler_quickstart>`] - tworzenie kafli map
-* :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
-* :doc:`R_overview` - [:doc:`Wprowadzenie <../quickstart/R_quickstart>`] - programowanie statystyczne
+* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeglądarce internetowej
+* :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeglądarce internetowej
+* :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu
+* :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
+* :doc:`geomoose_overview` - [:doc:`Wprowadzenie <../quickstart/geomoose_quickstart>`] - portal Web GIS
+* :doc:`cartaro_overview` - [:doc:`Wprowadzenie <../quickstart/cartaro_quickstart>`] - Geoprzestrzenny CMS
 
 Usługi sieciowe
 --------------------------------------------------------------------------------
+Publikowanie danych przestrzennych w Internecie:
+
 * :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
@@ -84,36 +54,84 @@ Usługi sieciowe
 * :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - usługa WFS-T
 * :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-Dane
+Systemy zarządzania bazami danych
+--------------------------------------------------------------------------------
+Przechowywanie danych przestrzennych:
+
+* :doc:`postgis_overview` - [:doc:`Wprowadzenie <../quickstart/postgis_quickstart>`] - przestrzenna baza danych
+* :doc:`spatialite_overview` - [:doc:`Wprowadzenie <../quickstart/spatialite_quickstart>`] - lekka przestrzenna baza danych
+* :doc:`rasdaman_overview` - [:doc:`Wprowadzenie <../quickstart/rasdaman_quickstart>`] - wielowymiarowa rastrowa baza danych
+* :doc:`pgrouting_overview` - [:doc:`Wprowadzenie <../quickstart/pgrouting_quickstart>`] - trasowanie dla PostGIS
+
+Nawigacja i Mapy
 --------------------------------------------------------------------------------
 
-.. toctree::
-   :maxdepth: 1
+* :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
+* :doc:`gpsprune_overview` - [:doc:`Wprowadzenie <../quickstart/gpsprune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
+* :doc:`opencpn_overview` - [:doc:`Wprowadzenie <../quickstart/opencpn_quickstart>`] - GPS do zastosowań marynistycznych
+* :doc:`osm_overview` - [:doc:`Wprowadzenie <../quickstart/osm_quickstart>`] - narzędzia Open Street Map
+* :doc:`viking_overview` - [:doc:`Wprowadzenie <../quickstart/viking_quickstart>`] - przeglądanie i analiza danych GPS
 
-   Natural Earth - zestaw danych geograficznych <naturalearth_overview>
-   nc_dataset_overview
-   OpenStreetMap - próbka danych z OpenStreetMap <osm_dataset_overview>
-   
+Narzędzia przestrzenne
+--------------------------------------------------------------------------------
+Narzędzia do zaawansowanych analiz:
+
+* :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
+* :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
+* :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
+* :doc:`tilemill_overview` - [:doc:`Wprowadzenie <../quickstart/tilemill_quickstart>`] - stylizacja i publikacja
+* :doc:`maptiler_overview` - [:doc:`Wprowadzenie <../quickstart/maptiler_quickstart>`] - tworzenie kafli map
+* :doc:`ossim_overview` - [:doc:`Wprowadzenie <../quickstart/ossim_quickstart>`] - przetwarzanie zobrazowań 
+* :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
+* :doc:`R_overview` - [:doc:`Wprowadzenie <../quickstart/R_quickstart>`] - programowanie statystyczne
+
+GIS specjalizowany
+--------------------------------------------------------------------------------
+Aplikacje specjalistyczne:
+
+* :doc:`sahana_overview` - [:doc:`Wprowadzenie <../quickstart/sahana_quickstart>`] - zarządzanie pomocą w czasie katastrof
+* :doc:`ushahidi_overview` - [:doc:`Wprowadzenie <../quickstart/ushahidi_quickstart>`] - mapy zdarzeń oraz ciągi czasowe
+* :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
+* :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
+* :doc:`marble_overview` - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - wirtualny glob na KDE
+* :doc:`zygrib_overview` - [:doc:`Wprowadzenie <../quickstart/zygrib_quickstart>`] - mapy prognoz pogody
+
+Dane
+--------------------------------------------------------------------------------
+Zestawy danych przestrzennych:
+
+* :doc:`naturalearth_overview` - zestaw danych geograficznych 
+* :doc:`nc_dataset_overview`
+* :doc:`osm_dataset_overview` - próbka danych z OpenStreetMap 
+
 Biblioteki geoprzestrzenne
 --------------------------------------------------------------------------------
 
-.. toctree::
-   :maxdepth: 1
-   
-   GeoTools - zestaw narzędzi GIS w Javie <geotools_overview>
-   GEOS - C/C++ Biblioteka przestrzenna <geos_overview>
-   MetaCRS - przeliczenia pomiędzy układami odniesienia <metacrs_overview>
-   libLAS - dostęp do danych LiDAR <liblas_overview>
-   JTS - narzędzia topologiczne <jts_overview>
-   
+* :doc:`gdal_overview` - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
+* :doc:`jts_overview` - narzędzia topologiczne Java Topology Suite
+* :doc:`geotools_overview` - zestaw narzędzi GIS w Javaie
+* :doc:`geos_overview` - Biblioteka przestrzenna C/C++ 
+* :doc:`metacrs_overview` - przeliczenia pomiędzy układami odniesienia
+* :doc:`liblas_overview` - dostęp do danych LiDAR 
+
 Inne programy warte zainteresowania (niedostępne Live)
 --------------------------------------------------------------------------------
-* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe
+
+Dostępne tylko na microsoft windows:
+.. MapWindow bazuje na windows (.net) i nie uruchomi się na Ubuntu
+
 * :doc:`mapwindow_overview` - [:doc:`Wprowadzenie <../quickstart/mapwindow_quickstart>`] - GIS na Microsoft Windows
+
+Dostępne w poprzednich wydaniach OSGeo-Live:
 
 .. MapGuide jest czasowo wyłączony w celu zaoszczędzenia przestrzeni dyskowej; MapWindow nie zadziała na Ubuntu
 
+* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe, niedostępny po OSGeo-Lice 5.0
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - atlasy multimedialne, niedostępny po OSGeo-Live 6.0
+* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - edytor stylów (SLD), niedostępny po OSGeo-Live 6.0
+
 Instalatory dla Windows i Apple
 --------------------------------------------------------------------------------
+Dołączone do pełnego obrazu OSGeo-Live:
 * `Instalatory Microsoft Windows <../../WindowsInstallers/>`_
 * `Instalatory Apple OSX <../../MacInstallers/>`_
