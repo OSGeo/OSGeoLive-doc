@@ -40,7 +40,8 @@ To try out the applications, simply:
 #. Press "Enter" to startup & login.
 #. Select and run applications from the "Geospatial" menu.
 
-Many applications are also provided with installers for :doc:`Apple OSX <../MacInstallers/index>` and :doc:`Microsoft Windows <../WindowsInstallers/index>`.
+Many applications are also provided with installers for 
+`Apple OSX <../MacInstallers/>`_ and `Microsoft Windows <../WindowsInstallers/>`_.
 
 .. only:: html
 
