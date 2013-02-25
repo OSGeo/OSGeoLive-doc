@@ -24,12 +24,12 @@
 
 　　本的内容包括：
      
-  * :ref:`mapserver-quickstart-configure-with-mapfile-en`
-  * :ref:`mapserver-quickstart-wms-request-en`
-  * :ref:`mapserver-quickstart-add-new-layer-en`
-  * :ref:`mapserver-quickstart-styling-a-layer-en`
+  * :ref:`mapserver-quickstart-configure-with-mapfile-zh`
+  * :ref:`mapserver-quickstart-wms-request-zh`
+  * :ref:`mapserver-quickstart-add-new-layer-zh`
+  * :ref:`mapserver-quickstart-styling-a-layer-zh`
 
-.. _mapserver-quickstart-configure-with-mapfile-en:
+.. _mapserver-quickstart-configure-with-mapfile-zh:
 
 使用 "mapfile" 配置文件配置 MapServer
 ================================================================================
@@ -103,7 +103,7 @@ MapFile 配置文件
 
 .. note:: 　　详细的 `Mapfile <http://mapserver.org/mapfile/index.html>`_ 对象与属性说明可以在 MapServer 文档中找到。
 
-.. _mapserver-quickstart-wms-request-en:
+.. _mapserver-quickstart-wms-request-zh:
 
 
 在 MapServer 以命令行渲染图像
@@ -135,7 +135,7 @@ MapFile 配置文件
 
 .. note:: 除了 "*?map=/home/user/mapserver_quickstart.map*" 参数针对 MapServer 外，其它参数都是 WMS 标准规定的。
 
-.. _mapserver-quickstart-add-new-layer-en:
+.. _mapserver-quickstart-add-new-layer-zh:
 
 在 mapfile 添加本地 shp 文件图层
 ================================================================================
@@ -169,7 +169,7 @@ MapFile 配置文件
   .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
-.. _mapserver-quickstart-styling-a-layer-en:
+.. _mapserver-quickstart-styling-a-layer-zh:
 
 在 mapfile 中设置样式配置
 ================================================================================

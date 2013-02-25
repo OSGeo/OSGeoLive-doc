@@ -26,12 +26,12 @@ internet utilizzando `standards OGC <http://www.opengeospatial.org/standards>`_ 
 
 Questa guida rapida descrive come:
 
-  * :ref:`mapserver-quickstart-configure-with-mapfile-en`
-  * :ref:`mapserver-quickstart-wms-request-en`
-  * :ref:`mapserver-quickstart-add-new-layer-en`
-  * :ref:`mapserver-quickstart-styling-a-layer-en`
+  * :ref:`mapserver-quickstart-configure-with-mapfile-it`
+  * :ref:`mapserver-quickstart-wms-request-it`
+  * :ref:`mapserver-quickstart-add-new-layer-it`
+  * :ref:`mapserver-quickstart-styling-a-layer-it`
   
- .. _mapserver-quickstart-configure-with-mapfile-en:
+ .. _mapserver-quickstart-configure-with-mapfile-it:
  
 Configura MapServer utilizzando il file di configurazione "mapfile"
 ================================================================================
@@ -204,7 +204,7 @@ l'aggiunta dei laghi del nostro nuovo layer:
   .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
-.. _mapserver-quickstart-styling di un layer-en:
+.. _mapserver-quickstart-styling di un layer-it:
 
 Definire lo stile di un layer usando la configurazione del mapfile
 ================================================================================

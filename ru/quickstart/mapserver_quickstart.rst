@@ -28,12 +28,12 @@ MapServer — это серверное приложение `с открыты�
 
 Данное "введение" содержит описание следующих операций:
 
-  * :ref:`mapserver-quickstart-configure-with-mapfile-en`
-  * :ref:`mapserver-quickstart-wms-request-en`
-  * :ref:`mapserver-quickstart-add-new-layer-en`
-  * :ref:`mapserver-quickstart-styling-a-layer-en`
+  * :ref:`mapserver-quickstart-configure-with-mapfile-ru`
+  * :ref:`mapserver-quickstart-wms-request-ru`
+  * :ref:`mapserver-quickstart-add-new-layer-ru`
+  * :ref:`mapserver-quickstart-styling-a-layer-ru`
 
-.. _mapserver-quickstart-configure-with-mapfile-en:
+.. _mapserver-quickstart-configure-with-mapfile-ru:
 
 Конфигурирование MapServer с использованием map-файла
 =====================================================
@@ -114,7 +114,7 @@ MapServer — это серверное приложение `с открыты�
 
 .. note:: Полный список разделов map-файла и их свойств доступен на странице `официальной документации <http://mapserver.org/mapfile/index.html>`_.
 
-.. _mapserver-quickstart-wms-request-en:
+.. _mapserver-quickstart-wms-request-ru:
 
 
 Отрисовка данных с использованием командной строки MapServer
@@ -153,7 +153,7 @@ MapServer — это серверное приложение `с открыты�
 
 .. note:: Все параметры запроса определяются в стандарте WMS, за исключением "*?map=/home/user/mapserver_quickstart.map*", который является специфичным для MapServer.
 
-.. _mapserver-quickstart-add-new-layer-en:
+.. _mapserver-quickstart-add-new-layer-ru:
 
 Добавление нового слоя в map-файл
 =================================
@@ -191,7 +191,7 @@ MapServer — это серверное приложение `с открыты�
 .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
-.. _mapserver-quickstart-styling-a-layer-en:
+.. _mapserver-quickstart-styling-a-layer-ru:
 
 Настройка символики слоя
 ========================
