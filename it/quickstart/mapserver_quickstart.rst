@@ -48,7 +48,7 @@ che MapServer usa per rappresentare dati geospaziali come immagini o dati vettor
 Il suo scopo principale è di definire quali layer possono essere rappresentati, come
 leggere i dati necessari e come restituirli (es. color, symbol, label, etc...).
 
---------------------------------------------------------------- -----------------
+--------------------------------------------------------------------------------
 
 #. Apri qualsiasi editor di testo (Mousepad è l'editor di testo di default sul dvd:
    :menuselection:`Applications --> Accessories --> Mousepad`).
