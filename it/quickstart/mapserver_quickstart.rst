@@ -29,7 +29,7 @@ Questa guida rapida descrive come:
   * :ref:`mapserver-quickstart-configure-with-mapfile-it`
   * :ref:`mapserver-quickstart-wms-request-it`
   * :ref:`mapserver-quickstart-add-new-layer-it`
-  * :ref:`mapserver-quickstart-styling-a-layer-it`
+  * :ref:`mapserver-quickstart-styling-di-un-layer-it`
   
  .. _mapserver-quickstart-configure-with-mapfile-it:
  
@@ -139,6 +139,9 @@ Apri un terminale (Applications/Accessories/Terminal Emulator) e digita
 
 Se il comando viene eseguito con successo potrai vedere la tua mappa nel :file:`/home/user/mymap.png` .
 
+
+.. _mapserver-quickstart-wms-request-it:
+
 Riprodurre una mappa immagine con MapServer usando una richiesta WMS **GetMap** 
 ================================================================================
 
@@ -167,6 +170,9 @@ saranno riprodotti.  Il risultato dovrebbe assomigliare al seguente:
   "*?map=/home/user/mapserver_quickstart.map*", che è specifico di MapServer.  
 
 .. _mapserver-quickstart-aggiungere un nuovo layer:
+
+
+.. _mapserver-quickstart-add-new-layer-it:
 
 Aggiungere un nuovo layer al mapfile per fornire uno shapefile locale
 ================================================================================
@@ -204,7 +210,7 @@ l'aggiunta dei laghi del nostro nuovo layer:
   .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
-.. _mapserver-quickstart-styling di un layer-it:
+.. _mapserver-quickstart-styling-di-un-layer-it:
 
 Definire lo stile di un layer usando la configurazione del mapfile
 ================================================================================
