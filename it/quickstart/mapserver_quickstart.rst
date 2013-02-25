@@ -47,6 +47,7 @@ Il `Mapfile <http://mapserver.org/mapfile/index.html>`_ è il file di configuraz
 che MapServer usa per rappresentare dati geospaziali come immagini o dati vettoriali.
 Il suo scopo principale è di definire quali layer possono essere rappresentati, come
 leggere i dati necessari e come restituirli (es. color, symbol, label, etc...).
+
 --------------------------------------------------------------- -----------------
 
 #. Apri qualsiasi editor di testo (Mousepad è l'editor di testo di default sul dvd:
