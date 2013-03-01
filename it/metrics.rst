@@ -21,7 +21,6 @@ GIS generali visualizzazione, editing, and analisi sul desktop:
 
 .. raw:: html
 
-  <script type="text/javascript" src="http://www.ohloh.net/p/qgis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/3663/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/grass_gis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop/widgets/project_factoids_stats.js"></script>
