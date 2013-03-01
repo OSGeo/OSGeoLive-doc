@@ -23,7 +23,7 @@ GIS generali visualizzazione, editing, and analisi sul desktop:
 
   <script type="text/javascript" src="http://www.ohloh.net/p/qgis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/3663/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/grass-gis/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/grass_gis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop-2/widgets/project_factoids_stats.js"></script>  
   <script type="text/javascript" src="http://www.ohloh.net/p/udig/widgets/project_factoids_stats.js"></script>
