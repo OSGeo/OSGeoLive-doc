@@ -64,10 +64,12 @@ You can zoom in to the map in three ways:
 
         * by dragging a box on the map while holding down the :kbd:`shift key` - this will zoom in to the box selected (or as near as will fit in the screen).
 
-#. Experiment with this view and look at some of the other previews.  Once you are comfortable viewing existing data you can move on to adding some new data.
+Experiment with this view and look at some of the other previews.  Once you are comfortable viewing existing data you can move on to adding some new data.
 
 Loading Data
 ================================================================================
+
+.. HB comment: is the following still true? 6.5rc2 worked for me from a DVD+R
 
 .. note::
     You will not be able to carry out the following steps if you are
@@ -212,7 +214,7 @@ This gives me a nice looking basic world map
 Adding the Style to |GS|
 ````````````````````````
 
-Now I need to transfer these styles to |GS| - on the style window
+Now we need to transfer these styles to |GS| - on the style window
 there is an export button which allows me to save the SLD file that
 defines my style. Once I've saved the two styles I can go to the |GS|
 admin page again and select ``Styles`` (at the bottom of the ``Data``
@@ -220,7 +222,10 @@ section). Then I select the ``Add New Style`` link, at the bottom of
 that page is a file upload box and a browse button. Clicking this
 allows me to hunt around on my hard drive to find the files I just
 saved. Once I've found one I want, I click the upload link (next to the browse
-button) and a copy of my file appears in the editor. If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don't do anything).
+button) and a copy of my file appears in the editor. If you click on the
+validate button the highlighted lines will give you an error but you can
+safely ignore the error (or delete those lines as they don't do anything).
+When you are ready press the :guilabel:`Submit` at the bottom of the page.
 
 .. image:: ../../images/screenshots/800x600/geoserver-add-style.png
    :align: center
@@ -235,7 +240,7 @@ Click on the :guilabel:`Layers` link in the Menu on the left of the
 |GS| window. Click on the layer (e.g. *ne_10m_land*), then select the 
 :guilabel:`Publishing` tab and change the :guilabel:`Default Style`
 box to the name of the style you uploaded in the previous section.
-Now go to the Layer Preview page to check that it looks good.
+Now click :guilabel:`Save` and go to the Layer Preview page to check that it looks good.
 
 .. note:: There are example style files for all of the example Natural Earth layers in :file:`/usr/local/share/geoserver`. 
 
