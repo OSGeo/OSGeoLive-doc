@@ -98,7 +98,7 @@ In the VirtualBox window, open the :menuselection:`Devices` menu and click :menu
 
 Once the CD folder appears, open a terminal and run the following commands:
 
-``user@osgeolive:~$ sudo apt-get install linux-headers-`uname -r```
+``user@osgeolive:~$ sudo apt-get install build-essential linux-headers-generic``
 
 ``user@osgeolive:~$ cd /media/VBOXADDITIONS_4.1.18_78361/``
 
