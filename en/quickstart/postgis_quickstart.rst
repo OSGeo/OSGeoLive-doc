@@ -22,7 +22,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://postgis.org/
+  :target: http://www.postgis.net
 
 ********************************************************************************
 PostGIS Quickstart
@@ -478,7 +478,7 @@ Things to try
 
 Here are some additional challenges for you to try:
 
-#. Try some more spatial functions like ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)`` - you will find full documentation at http://postgis.org/documentation/
+#. Try some more spatial functions like ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)`` - you will find full documentation at http://www.postgis.net/documentation/
 
 #. Export your tables to shapefiles with ``pgsql2shp`` on the command line.
 
@@ -492,8 +492,8 @@ This is only the first step on the road to using PostGIS. There is a lot more fu
 
 PostGIS Project home
 
- http://postgis.org
+ http://www.postgis.net
 
 PostGIS Documentation
 
- http://postgis.org/documentation/
+ http://www.postgis.net/documentation/
