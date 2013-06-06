@@ -94,7 +94,6 @@ OpenStreetMap tools
 
   <script type="text/javascript" src="http://www.ohloh.net/p/josm/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
 
 Missing:
 

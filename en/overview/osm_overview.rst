@@ -22,9 +22,9 @@ you think of as free actually have legal or technical restrictions on their
 use, holding back people from using them in creative, productive or
 unexpected ways.
 
-Five programs have been included: JOSM, Merkaartor, Gosmore, Osmarender, and
-Osm2pgsql. In addition recent sample data for the host city and a number
-of JOSM plugins have been included.
+A number of programs have been included: JOSM, Merkaartor, Osmosis, Osm2pgsql,
+and a number of small command utilities. In addition recent sample data for
+the host city and a number of JOSM plugins have been included.
 
 
 Core Features
@@ -63,11 +63,6 @@ Details
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
-* Gosmore: Public Domain and GPLv2
-
-.. <!-- see /usr/share/doc/gosmore/copyright -->
-
-* Osmarender: GNU General Public License (GPL) version 2
 
 **Software Versions:**
 
@@ -77,11 +72,8 @@ Details
 
 * Osmosis: 0.40.1
 
-* Gosmore: 2010/07/11
-
-* Osmarender: SVN mid-2011
-
 * osm2pgsql: SVN version 0.81.0
+
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
