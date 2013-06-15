@@ -104,7 +104,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión Software:** 2.1.3
+**Versión Software:** |version-geoserver|
 
 **Plataformas soportadas:** Todas las plataformas Java 1.5: - Windows, Linux, Mac
 

@@ -74,7 +74,7 @@ Details
 
 **Licence:** Older versions: GNU Lesser General Public License (LGPL) version 2; Newer versions: dual BSD / EPL (Eclipse Foundation)
 
-**Software Version:** 1.2.2
+**Software Version:** |version-udig|
 
 **Supported Platforms:** Windows, Linux, Mac
 

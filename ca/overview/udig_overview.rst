@@ -71,7 +71,7 @@ Detalls
 
 **Llicència:** GNU Lesser General Public License (LGPL) versió 2
 
-**Versió de programari:** 1.2.2
+**Versió de programari:** |version-udig|
 
 **Plataformes suportades:** Windows, Linux, Mac
 

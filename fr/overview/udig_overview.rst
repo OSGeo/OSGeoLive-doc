@@ -73,7 +73,7 @@ Détails
 
 **Licence:** Licence GNU Lesser General Public (LGPL) version 2
 
-**Version du logiciel:** 1.2.2
+**Version du logiciel:** |version-udig|
 
 **Plates-formes supportées:** Windows, Linux, Mac
 

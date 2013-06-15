@@ -112,7 +112,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 2.2.2
+**Wersja programu:** |version-geoserver|
 
 **Systemy operacyjne:** All Java 1.5 platforms: - Windows, Linux, Mac
 

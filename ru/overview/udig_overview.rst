@@ -70,7 +70,7 @@ uDig — это:
 
 **Лицензия:** `LGPL версия 2 <http://www.gnu.org/copyleft/lesser.html>`_
 
-**Версия ПО:** 1.2.2
+**Версия ПО:** |version-udig|
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 

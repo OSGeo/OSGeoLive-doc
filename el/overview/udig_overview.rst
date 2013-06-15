@@ -67,7 +67,7 @@ User-friendly Desktop Internet GIS (uDig)
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2
 
-**Έκδοση Λογισμικού:** 1.2.2
+**Έκδοση Λογισμικού:** |version-udig|
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

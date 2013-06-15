@@ -95,7 +95,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 2
 
-**Versió de programari:** 2.2.2
+**Versió de programari:** |version-geoserver|
 
 **Sistemes operatius:** All Java 1.5 platforms: - Windows, Linux, Mac
 

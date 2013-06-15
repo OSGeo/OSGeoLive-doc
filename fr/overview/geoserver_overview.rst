@@ -89,7 +89,7 @@ Détails
 
 **Licence:** Licence GNU General Public (GPL) version 2
 
-**Version du logiciel:** 2.1.3
+**Version du logiciel:** |version-geoserver|
 
 **Plates-formes supportées:** Toutes les plates-formes utilisant Java 1.5 et plus: - Windows, Linux, Mac
 

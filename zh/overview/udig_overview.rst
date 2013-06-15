@@ -71,7 +71,7 @@ uDig 具有以下特性：
 
 **开源协议：** GNU Lesser General Public License (LGPL) version 2
 
-**软件版本：** 1.2.2
+**软件版本：** |version-udig|
 
 **平台支持：** MS Windows, GNU/Linux, Mac
 

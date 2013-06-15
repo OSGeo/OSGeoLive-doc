@@ -82,7 +82,7 @@ GeoServer已成了Geospatial Web的一个核心组件。
 
 **版权:** GNU General Public License (GPL) version 2
 
-**软件版本:** 2.1.3
+**软件版本:** |version-geoserver|
 
 **支持平台:** All Java 1.5 platforms: - Windows, Linux, Mac
 

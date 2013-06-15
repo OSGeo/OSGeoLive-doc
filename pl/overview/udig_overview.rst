@@ -70,7 +70,7 @@ Szczegóły
 
 **Licencja:** Mniejsza Powszechna Licencja Publiczna GNU (LGPL) wersja 2
 
-**Wersja programu:** 1.2.2
+**Wersja programu:** |version-udig|
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
