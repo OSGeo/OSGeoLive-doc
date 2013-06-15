@@ -237,7 +237,7 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |version-geoserver| replace:: 2.3.2
-.. |version-udig| replace:: 1.2.2
+.. |version-udig| replace:: 1.4.0
 """ % {
   'projectname':project,
   'projectversion': version, 
