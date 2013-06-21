@@ -62,5 +62,4 @@ Detalles
 Guía rápida
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/gpsprune_quickstart.html>`
-
+* :doc:`Guía de inicio rápido <../quickstart/gpsprune_quickstart>`

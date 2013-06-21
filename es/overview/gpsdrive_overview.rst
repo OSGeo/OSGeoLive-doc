@@ -64,4 +64,4 @@ Detalles
 Guía rápida
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/gpsdrive_quickstart.html>`
+* :doc:`Guía de inicio rápido <../quickstart/gpsdrive_quickstart>`

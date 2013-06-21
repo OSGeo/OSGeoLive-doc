@@ -22,7 +22,7 @@ visualiza datos GPS. Viking tiene como objetivo ser una herramienta fácil de
 usar y que proporcione soporte para una gran cantidad de tareas relacionadas con
 GPS.  Utiliza un sistema de capas jerarquicas para organizar datos GPS, mapas, y
 otro tipo de datos geoespaciales, como líneas de coordenadas. Trabaja con datos
-de :doc:`OpenStreetMap <osm_dataset_overviwe>` y otros servidores de teselas.
+de :doc:`OpenStreetMap <osm_dataset_overview>` y otros servidores de teselas.
 
 
 Características principales
@@ -37,7 +37,7 @@ Características principales
 
 * GPS *tracking* en tiempo real.
 
-* Preparación de rutas y puntos de ruta para desplazamientos usando mapas desde servicios como :doc:`OpenStreetMap <osm_dataset_overviwe>` y Bing Aerinted. Simplemente es necesario cargar los datos al GPS antes de salir. Los mapas junto con las rutas y los puntos de ruta se pueden imprimir y usar durante la salida.
+* Preparación de rutas y puntos de ruta para desplazamientos usando mapas desde servicios como :doc:`OpenStreetMap <osm_dataset_overview>` y Bing Aerinted. Simplemente es necesario cargar los datos al GPS antes de salir. Los mapas junto con las rutas y los puntos de ruta se pueden imprimir y usar durante la salida.
 
 * Al finalizar la toma de datos, las rutas y puntos de ruta del GPS se pueden guardar y reutilizar en otras salidas.
 

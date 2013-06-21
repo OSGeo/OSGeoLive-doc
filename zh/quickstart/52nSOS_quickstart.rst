@@ -32,7 +32,7 @@ Getting Started
 
 3) 演示客户端将会显示。
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1.0.0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: center

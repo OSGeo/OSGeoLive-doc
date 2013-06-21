@@ -123,4 +123,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/deegree_quickstart.html>`
+* :doc:`Guía de inicio rápido <../quickstart/deegree_quickstart>`

@@ -18,7 +18,7 @@
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-El :doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>` 
+El :doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview>` 
 de 52ºNorth puede leer y guardar datos actuales o archivados de sensores remotos in-situ. Un sensor puede ser una cámara de un satélite o el medidor de caudal de un río.
  
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
@@ -71,7 +71,7 @@ Es posible filtrar las peticiones mediante los siguientes operadores:
 Estándares relacionados
 --------------------------------------------------------------------------------
 
-*:doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview.html>`
+*:doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview>`
 *:doc:`Lenguaje de Marcado Geográfico (GML) <../standards/gml_overview>`
 *:doc:`Lenguaje Modelo Sensor (SensorML) <../standards/sensorml_overview>`
 
@@ -97,4 +97,4 @@ Detalles
 Guía rápida
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/52nSOS_quickstart.html>`
+* :doc:`Guía de inicio rápido <../quickstart/52nSOS_quickstart>`

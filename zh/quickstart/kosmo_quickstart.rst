@@ -47,7 +47,7 @@ Kosmo 快速入门文档
 
 #. 选择 SRS EPSG:4326 - WSG4 (**3**) 并点击 *Ok* (**4**) 。
 
-   .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4236.png
+   .. image:: ../../images/screenshots/800x600/kosmo_select_srs_epsg_4326.png
 
 #. 点击 *Ok* ，以 EPSG:4326 作为显示坐标系开启显示。
     
@@ -208,7 +208,7 @@ OGC 服务
 
 1. |ZOOM| Zoom In/Out 缩放
 
-  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.gif
+  .. |ZOOM| image:: ../../images/screenshots/800x600/kosmo_zoom.png
   
   * 这是开启新对话后的默认工具；
   * 鼠标左键用于放大；
@@ -217,50 +217,50 @@ OGC 服务
   
 2. |PAN| Pan 移动
   
-  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.gif
+  .. |PAN| image:: ../../images/screenshots/800x600/kosmo_pan.png
 
   * 用于平移视窗；
   * 点击左键拖拽操作；
       
 3. |ZOOM_PREV| Zoom Previous 缩放回退
 
-  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.gif
+  .. |ZOOM_PREV| image:: ../../images/screenshots/800x600/kosmo_zoom_prev.png
   
   * 回退到上个选择的缩放比率；
   
 4. |ZOOM_NEXT| 缩放复进
 
-  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.gif
+  .. |ZOOM_NEXT| image:: ../../images/screenshots/800x600/kosmo_zoom_next.png
 
   * 复进到回退前的缩放比率；
     
 5. |ZOOM_FULL_EXTENT| Zoom To Full Extent 全局视图
 
-  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.gif
+  .. |ZOOM_FULL_EXTENT| image:: ../../images/screenshots/800x600/kosmo_zoom_to_full_extent.png
   
   * 浏览整个工程涉及的范围；
   
 6. |ZOOM_TO_LAYER| Zoom To Layer 缩放至图层；
 
-  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.gif
+  .. |ZOOM_TO_LAYER| image:: ../../images/screenshots/800x600/kosmo_zoom_to_layer.png
   
   * 缩放至某个图层的数据范围；
     
 7. |ZOOM_TO_SELECTED_ITEMS| Zoom To Selected Items 缩放至所选对象
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.gif
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: ../../images/screenshots/800x600/kosmo_zoom_to_selected_items.png
   
   * 缩放至被选择的对象；
     
 8. |PAN_TO_CLICK| Pan To Click 点击居中
 
-  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.gif
+  .. |PAN_TO_CLICK| image:: ../../images/screenshots/800x600/kosmo_pan_to_click.png
   
   * 将视窗居中到点击位置；
   
 9. |COORDINATE_LOCALIZATION| Coordinate Localization 坐标居中
 
-  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.gif
+  .. |COORDINATE_LOCALIZATION| image:: ../../images/screenshots/800x600/kosmo_coordinate_localization.png
   
   * 以给定坐标居中；
 

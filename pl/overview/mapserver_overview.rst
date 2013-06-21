@@ -103,4 +103,4 @@ Szczegóły
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* :doc:`Przejdź do wprowadzenia <../quickstart/mapserver_quickstart.html>`
+* :doc:`Przejdź do wprowadzenia <../quickstart/mapserver_quickstart>`

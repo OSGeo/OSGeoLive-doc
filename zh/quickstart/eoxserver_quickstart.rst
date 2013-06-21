@@ -70,31 +70,31 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
 
 　　选择其中一个项目，你将看到可用数据的外框显示。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
 　　通过标准的 OpenLayers 控制方式，你也可以进行预览。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
 　　通过时间控制轴可以控制所显示的 Dataset 的时间段。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client date change
 
 　　点击 **Download**（下载）按钮将显示可以下载的数据列表。此处下载数据的范围是当前视图空间范围和时间段。你也可以控制下载数据的尺寸、格式和波段组合。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download selection
 
 　　点击 **Start Download** 开始下载。取决于范围选择，可能会一次下载多幅影象。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download
 
@@ -115,7 +115,7 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
 
 　　作为实例，你可以浏览和编辑各个 Dataset Series 的 EO Metadata 元数据信息。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.jpg
+.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client 
 
