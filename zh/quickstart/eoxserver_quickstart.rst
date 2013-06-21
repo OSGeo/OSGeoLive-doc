@@ -86,7 +86,7 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
   :scale: 50 %
   :alt: EOxServer demonstration embedded client date change
 
-　　点击 **Download**（下载）按钮将显示可以下载的数据列表。此处下载数据的范围是当前视图空间范围和时间段。你也可以控制下载数据的尺寸、格式和波段组合。
+　　点击 **Download** （下载）按钮将显示可以下载的数据列表。此处下载数据的范围是当前视图空间范围和时间段。你也可以控制下载数据的尺寸、格式和波段组合。
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
@@ -101,7 +101,7 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
 管理员客户端
 ~~~~~~~~~~~~
 
-　　点击 **Admin Client**（管理员客户端）链接可开启其登录界面。演示用的用户名和密码均为“Admin”。
+　　点击 **Admin Client** （管理员客户端）链接可开启其登录界面。演示用的用户名和密码均为“Admin”。
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient1.png
   :scale: 50 %

@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver.png
@@ -77,7 +77,7 @@ Details
 
 **Licence:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Software Version:** 0.2.3
+**Software Version:** 0.3.0
 
 **Supported Platforms:** Linux, Windows, Mac
 

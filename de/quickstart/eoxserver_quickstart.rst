@@ -1,7 +1,7 @@
 :Author: OSGeo-Live 
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Angelos Tzotsos
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Translator: Stephan Meissl
 
@@ -33,20 +33,25 @@ Dieses Quickstart beschreibt das:
 * Registrieren von Archiven von Erdbeobachtungsdaten unter Verwendung des in 
   EOxServer eingebauten Administrationsklienten
 
+.. contents:: Contents
+
 Weiterführende Informationen finden Sie im :doc:`EOxServer Overview 
 <../overview/eoxserver_overview>`, in der `lokalen EOxServer Dokumentation 
 <../../eoxserver-docs/EOxServer_documentation.pdf>`_ oder der `online 
 verfügbaren EOxServer Dokumentation <http://eoxserver.org/doc/>`_.
 
-.. contents:: Contents
+.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
+  :scale: 50 %
+  :alt: EOxServer Dokumentation
 
 Demonstrationsinstanz
 ---------------------
 
-Für den Fall, dass Sie OSGeoLive mit 1GB RAM oder weniger laufen lassen, ist es ratsam den default Tomcat Service vor dem Aufruf von EOxServer zu stoppen.
-:: 
+.. Commented since Tomcat isn't started automatically anymore (#1032).
+    Für den Fall, dass Sie OSGeoLive mit 1GB RAM oder weniger laufen lassen, ist es ratsam den default Tomcat Service vor dem Aufruf von EOxServer zu stoppen.
+    :: 
 
-  sudo service tomcat6 stop
+      sudo service tomcat6 stop
 
 Unter `Web Services` finden Sie ein mit `EOxServer` beschriftetes Symbol 
 welches einen Browser startet der die Demonstrationsinstanz anzeigt. Diese 
@@ -56,14 +61,6 @@ zur Verfügung wie die `online Demo <https://eoxserver.org/demo_stable/>`_
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
   :alt: Stat der EOxServer Demonstration
-
-Unter `Web Services` finden Sie auch ein mit `EOxServer Documentation` 
-beschriftetes Symbol welches einen pdf Betrachter startet der die verfügbare 
-Dokumentation anzeigt.
-
-.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
-  :scale: 50 %
-  :alt: EOxServer Dokumentation
 
 Web Klient
 ~~~~~~~~~~
