@@ -351,8 +351,8 @@ Die meisten OSGeo Desktop GIS Tools bieten Schnittstellen zum Import von räumli
 beispielsweise Shape Dateien. Wir wollen wieder Quantum GIS zur Demonstration nutzen.
 
 Der Import von Shapedateien kann über das komfortable PostGIS Manager Plugin erfolgen. Das Plugin muss aktiviert werden. Dies 
-erfolgt über ``Erweiterungen - Python Erweiterung herunterladen...``. QGIS holt dann die aktuelle Liste der Plugins
- aus dem Repositories (Achtung: Sie benötigen eine Internetverbindung).
+erfolgt über ``Erweiterungen - Python Erweiterung herunterladen...``. QGIS holt dann die aktuelle Liste der Plugins 
+aus dem Repositories (Achtung: Sie benötigen eine Internetverbindung).
 Suchen Sie nach ``PostGIS Manager``, wählen Sie das 
 Plugin aus und klicken Sie ok. 
 

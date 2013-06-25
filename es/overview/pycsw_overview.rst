@@ -106,8 +106,8 @@ Detalles
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
-.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104
-.. _`OGC Reference Implementation`: http://demo.pycsw.org/
+.. _`cumple con los estándares OGC`: http://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`referencia de implementación OGC`: http://demo.pycsw.org/
 
 
 Guía rápida

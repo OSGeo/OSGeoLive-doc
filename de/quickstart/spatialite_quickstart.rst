@@ -23,8 +23,8 @@ Erstellen Sie eine neue Datenbank mit spatialite-gui
 ================================================================================
 
 Spatialite-gui stellt eine grafische Oberfläche zur Anzeige und Verwaltung von 
-SpaltiaLite Datenbanken. Sie können einfach die Struktur der Tabellen und die Daten
- über Funktionen anzeigen lassen. Darüberhinaus können Sie auch eigene SQL Abfragen absetzen.
+SpaltiaLite Datenbanken. Sie können einfach die Struktur der Tabellen und die Daten 
+über Funktionen anzeigen lassen. Darüberhinaus können Sie auch eigene SQL Abfragen absetzen.
 
 Auf geht's! Wir wollen damit beginnen, eine SpaltiaLite Datenbank anzuschauen und 
 wollen einen Blick auf die Spalten einer Tabelle werfen.

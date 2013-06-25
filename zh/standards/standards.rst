@@ -13,7 +13,7 @@ Open Geospatial Consortium 开放地理空间信息联盟标准
 OGC 基准与 OGC 参考模型
 --------------------------------------------------------------------------------
 
-　　OGC 标准化包含了 OGC `标准 http://www.opengeospatial.org/standards>`_ 用于规范接口、编码、功能描述、应用类型和最佳实践文档。OGC 参考模型 (ORM) (http://www.opengeospatial.org/standards/orm) 描述了这些标准相互间以及与 ISO 标准的关系。ORM 提供了对 OGC 标准群的概览，并适用于描述各类应用体系。
+　　OGC 标准化包含了 OGC 标准 (http://www.opengeospatial.org/standards) 用于规范接口、编码、功能描述、应用类型和最佳实践文档。OGC 参考模型 (ORM) (http://www.opengeospatial.org/standards/orm) 描述了这些标准相互间以及与 ISO 标准的关系。ORM 提供了对 OGC 标准群的概览，并适用于描述各类应用体系。
 
 　　使用 OGC 标准开发应用并了解各个标准间的关系有利于促进在网络环境下发布、发现和连接重要的地理空间服信息务功能。
 

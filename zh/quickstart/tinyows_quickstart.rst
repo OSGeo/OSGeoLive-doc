@@ -92,5 +92,5 @@ TinyOWS 快速入门文档
 
 　　请访问 MapServer 主页的 `TinyOWS 文档`_ 了解进一步的信息。
 
-.. _`TinyOWS Documentation`: http://mapserver.org/trunk/tinyows/
+.. _`TinyOWS 文档`: http://mapserver.org/trunk/tinyows/
 

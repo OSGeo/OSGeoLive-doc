@@ -6,8 +6,8 @@ OSGeo-Live Sponsoren
   :target: http://www.osgeo.org
 
 Die Open Source Geospatial Foundation (OSGeo) stellt die primäre 
-Entwicklungs- und Hostinginfrastruktur und personelle Unterstützung für das Projekt
- sowie für viele der Software Teams, die Beiträge leisten, bereit.
+Entwicklungs- und Hostinginfrastruktur und personelle Unterstützung für das Projekt 
+sowie für viele der Software Teams, die Beiträge leisten, bereit.
 
 
 .. image:: ../images/logos/lisasoftlogo.jpg

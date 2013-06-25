@@ -31,7 +31,7 @@ GEOS jest najszerzej stosowaną geoprzestrzenną biblioteką geometrii w C++.
 Jest używana w takich porojektach open source, jak :doc:`PostGIS <postgis_overview>`, 
 :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` i 
 :doc:`MapServer <mapserver_overview>`, oraz przez produkty komercyjne, np.
- `FME <http://www.safe.com/fme/fme-technology/>`_.
+`FME <http://www.safe.com/fme/fme-technology/>`_.
 
 Zaimplementowane standardy
 --------------------------------------------------------------------------------

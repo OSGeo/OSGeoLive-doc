@@ -370,7 +370,7 @@ Assign users to group
 #. Choose one or more users you want to add to the group at :menuselection:`Users`.
 
 #. Assign a user by :menuselection:`Users --> Edit-Button--> Groups` to a group. 
-http://doc.mapbender3.org/en/book/quickstart.html
+
   .. image:: ../../images/screenshots/800x600/mapbender3_assign_user_to_group.png
      :scale: 80
  

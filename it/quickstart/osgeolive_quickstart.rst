@@ -60,8 +60,7 @@ Esecuzione:
   Incominciare con il sistema operativo Ubuntu: (un utile e-book PDF)
     `/usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_
 
-  Maggiori aiuti online sul sistema operativo Ubuntu: (n.b. noi usiamo la tradizionale interfaccia grafica
-  Xfce, non l'interfaccia tablet-like Unity desktop)
+  Maggiori aiuti online sul sistema operativo Ubuntu: (n.b. noi usiamo la tradizionale interfaccia grafica Xfce, non l'interfaccia tablet-like Unity desktop)
     https://help.ubuntu.com/12.04/
 
     https://help.ubuntu.com/12.04/ubuntu-classic/gnome-classic-index/C/

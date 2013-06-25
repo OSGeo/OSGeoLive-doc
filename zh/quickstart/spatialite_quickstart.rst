@@ -218,7 +218,7 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
 
 　　您可以访问 `SpatiaLite 项目主页`_ 获取更多的信息。
 
-.. _`SpatiaLite project page`: https://www.gaia-gis.it/fossil/libspatialite/index
+.. _`SpatiaLite 项目主页`: https://www.gaia-gis.it/fossil/libspatialite/index
 
 　　这份 `Spatialite Cookbook`_ 提供了帮助您学习 SpatiaLite 的许多信息。
 

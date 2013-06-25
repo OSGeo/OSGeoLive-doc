@@ -51,45 +51,45 @@ Główne funkcje
 
 **Udostępnianie danych przechowywanych za pomocą różnych narzędzi:**
     * Wektor
-
         - Shapefile, zewnętrzny WFS
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
         - GeoTiff, JPG i PNG (z plikiem world), piramidy obrazów, formaty GDAL, 
-		Image Mosaic, Oracle GeoRaster
+          Image Mosaic, Oracle GeoRaster
 
 **Dane są udostępniane jako bezpiecznie i szybkieobrazy przy pomocy
 protokołów WMS i WMTS:**
+
     Ponieważ dane są udostępniane jako obrazy, twoje dane są całkowicie
-	bezpieczne i chronione. Jedynym sposobem na ich kradzież jest ich wektoryzacja.
-	Sposób wyświetlania każdej warstwy mapy może być zarządzany poprzez
-	standard SLD, który pozwala na stylizację i etykietowanie obiektów
-	Poprzez łączenie tych zasad z filtrami OGC, istnieje możliwość zastosowania 
-	stylizacji zależnej od skali, która pozwala na uzyskanie większej ilości szczegółów
-	mapy przy zbliżeniu. Zarządzanie rozmieszczeniem etykiet, grupowaniem i
-	ich wanością jest również zaimplementowane.
+    bezpieczne i chronione. Jedynym sposobem na ich kradzież jest ich wektoryzacja.
+    Sposób wyświetlania każdej warstwy mapy może być zarządzany poprzez
+    standard SLD, który pozwala na stylizację i etykietowanie obiektów
+    Poprzez łączenie tych zasad z filtrami OGC, istnieje możliwość zastosowania 
+    stylizacji zależnej od skali, która pozwala na uzyskanie większej ilości szczegółów
+    mapy przy zbliżeniu. Zarządzanie rozmieszczeniem etykiet, grupowaniem i
+    ich wanością jest również zaimplementowane.
 
 **Pełne dane wektorowe moga być przesłane do klienta za pomocą protokołu WFS:**
-     Klient WFS może pobrać dane wektorowe i używać ich do tworzenia map, analiz
-	 przestrzennych i innych operacji. Autoryzowany użytkownik ma możliwość
-	 modyfikacji danych i przesłania ich z powerotem na serwer protokołem
-	 WFS-T w celu aktualizacji zgromadzonych danych.
-     Dane mogą być transmitowane przy pomocy GML (spakowane) oraz za pomocą
-	 innych standardowych formatów danych jak shapefile i json.
+    Klient WFS może pobrać dane wektorowe i używać ich do tworzenia map, analiz
+    przestrzennych i innych operacji. Autoryzowany użytkownik ma możliwość
+    modyfikacji danych i przesłania ich z powerotem na serwer protokołem
+    WFS-T w celu aktualizacji zgromadzonych danych.
+    Dane mogą być transmitowane przy pomocy GML (spakowane) oraz za pomocą
+    innych standardowych formatów danych jak shapefile i json.
 
 **Wartođci danzch rastrowzch mog bz pryesane do klienta pryz pomocz protokou WCS:**
-     Klient GIS może zażądać aktualnych danych rastrowych do wykonania analiz przestrzennych.
-	 Pozwala to użytkownikowi na tworzenie aplikacji, które mogą modelować proces opisany przez twoje dane.
+    Klient GIS może zażądać aktualnych danych rastrowych do wykonania analiz przestrzennych.
+    Pozwala to użytkownikowi na tworzenie aplikacji, które mogą modelować proces opisany przez twoje dane.
 
 **Reprojekcja w locie:**
-     GeoServer obsługuje większość odwzorowań bazy EPSG i jest w stanie przeliczać 
-	 pomiędzy nimi na żądanie, aby ułatwić pracę klientom z ograniczonym dostępnem do reprojekcji. 
+    GeoServer obsługuje większość odwzorowań bazy EPSG i jest w stanie przeliczać 
+    pomiędzy nimi na żądanie, aby ułatwić pracę klientom z ograniczonym dostępnem do reprojekcji. 
 
-**Cache kafli WMSg **
+**Cache kafli WMSg:**
     `GeoWebCache <http://geowebcache.org/>`_ jest usługą tworzenia kafli map dla WMS, która 
-	zwiększa prędkość aplikacji mapowych. Działa jako serwer proxy pomiędzyklientem map a serwerem map,
-	keszująć kafle w trakcie ich żądania, eliminując powielone żądania i oszczędzając czas przetważania
-	żądania. GeoWebCache został zintegrowany z GeoServerem.
+    zwiększa prędkość aplikacji mapowych. Działa jako serwer proxy pomiędzyklientem map a serwerem map,
+    keszująć kafle w trakcie ich żądania, eliminując powielone żądania i oszczędzając czas przetważania
+    żądania. GeoWebCache został zintegrowany z GeoServerem.
 
 Zaimplementowane standardy
 --------------------------------------------------------------------------------
