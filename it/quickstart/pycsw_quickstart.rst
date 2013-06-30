@@ -144,9 +144,6 @@ Capabilities Document e configurazione
 
 Le capacità dell'installazione di pycsw può essere trovate all'indirizzo ``http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities``.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
-  :scale: 75 %
-
 Per modificare il servizio web dei metadati, inclusi nel documento delle capabilities, 
 l'utente può modificare il file ``/var/www/pycsw/default.cfg`` sotto il tag ``[metadata:main]``.
 Se l'utente vuole abilitare il supporto INSPIRE Discovery Service, i metadati sotto il tag
@@ -167,18 +164,12 @@ attraverso le implementazioni open source della direttiva INSPIRE per i metadati
 Source Metadata Editor (EUOSME). Questo software può essere trovato ``http://inspire-geoportal.ec.europa.eu/editor/``.
 Il codice sorgente è disponibile ``https://joinup.ec.europa.eu/svn/euosme/trunk``
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_homepage.png
-  :scale: 75 %
-
 L'utente compila i campi dei metadati obbligatori, attraverso le tabelle dell'applicazione, 
 aggiungendo informazioni come il nome del proprietario dei dati, parole chiavi, la posizione
 della risorsa del web, la posizione geografica (usando una bounding box o il nome di uno stato) etc. 
 
 .. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 % 
-
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_bbox.png
-  :scale: 75 %
 
 Dopo che l'utente ha aggiunto tutte le informazioni disponibili, bisogna spingere il pulsante di
 validazione in alto della pagina, questo controllo può essere eseguito per consistenza con la
@@ -189,8 +180,6 @@ direttiva INSPIRE.
 
 Dopo una validazione andata a buon fine, il file XML può essere salvato nel disco locale e visto attraverso une editor testuale o un browser.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_xml.png
-  :scale: 75 %
 
 Usando GIMED
 ---------------
@@ -243,8 +232,6 @@ Importare Metadata
 
 Questo importerà tutti i file ``*.xml`` da ``/path/to/records`` in ``records.db`` e configura il repository per essere interrogabile come per Table 53 di OGC:CSW.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_import_metadata.png
-  :scale: 75 %
 
 Installazione del client CSW di QGIS
 ======================================

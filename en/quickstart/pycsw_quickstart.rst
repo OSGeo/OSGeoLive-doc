@@ -9,13 +9,19 @@
   :align: right
   :target: http://pycsw.org/
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 pycsw Quickstart
 ********************************************************************************
 
 pycsw is an OGC CSW server implementation written in `Python`_.
 
-pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) of the `OpenGIS Catalogue Service Implementation Specification`_, version 2.0.2.  Initial development started in 2010 (more formally announced in `2011`_).
+pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) of the `OpenGIS Catalogue Service Implementation Specification`_, version 2.0.2.  Initial development started in 2010 (more formally announced in `2011`_).The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_.
 
 pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2.
 
@@ -37,6 +43,8 @@ Installation
 System Requirements
 -------------------
 
+pycsw is written in `Python <http://python.org>`_, and works with (tested) version 2.6 and 2.7
+
 pycsw requires the following supporting libraries:
 
 - `lxml`_ (version >= 2.2.3) for XML support
@@ -44,14 +52,15 @@ pycsw requires the following supporting libraries:
 - `Shapely`_ (version >= 1.2.8) for spatial query / geometry support
 - `pyproj`_ (version >= 1.8.9) for coordinate transformations
 
+
 Installing from Source
 ----------------------
 
-`Download pycsw`_ the latest version or fetch svn trunk:
+`Download pycsw`_ the latest version or clone from `GitHub`_:
 
 .. code-block:: bash
 
-  $ svn co https://pycsw.svn.sourceforge.net/svnroot/pycsw pycsw 
+  $ git clone https://github.com/geopython/pycsw.git pycsw 
 
 Ensure that CGI is enabled for your install directory.  For example, on Apache, if you setup pycsw in ``/srv/www/htdocs/pycsw`` (where your URL will be ``http://host/pycsw/csw.py``), add the following to ``httpd.conf``:
 
@@ -63,31 +72,40 @@ Ensure that CGI is enabled for your install directory.  For example, on Apache, 
    AddHandler cgi-script .py
   </Location>
 
-Installing on Ubuntu/Xubuntu/Kubuntu
-------------------------------------
-
-In order to install pycsw to an Ubuntu based distribution, one can use the OSGeo-Live installation script located in ``pycsw/etc/dist``:
+Installing from the Python Package Index (PyPi)
+-----------------------------------------------
 
 .. code-block:: bash
 
-  $ cd pycsw/etc/dist
-  $ sudo ./install_pycsw.sh
+  # easy_install or pip will do the trick
+  $ easy_install pycsw
+  # or
+  $ pip install pycsw
 
-The script installs the dependencies (Apache, lxml, sqlalchemy, shapely, pyproj) and then pycsw to ``/var/www``.
+Installing on Ubuntu/Xubuntu/Kubuntu
+------------------------------------
+
+In order to install pycsw to an Ubuntu based distribution, one can run the following commands:
+
+.. code-block:: bash
+
+  # sudo add-apt-repository ppa:pycsw/stable
+  # sudo apt-get update
+  # sudo apt-get install python-pycsw pycsw-cgi
 
 Installing on openSUSE
 ----------------------
 
-In order to install the OBS package in openSUSE 12.1, one can run the following commands as user ``root``:
+In order to install the OBS package in openSUSE 12.3, one can run the following commands as user ``root``:
 
 .. code-block:: bash
 
-  $ zypper -ar http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.1/ GEO
-  $ zypper -ar http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.1/ python
+  $ zypper -ar http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.3/ GEO
+  $ zypper -ar http://download.opensuse.org/repositories/devel:/languages:/python/openSUSE_12.3/ python
   $ zypper refresh
-  $ zypper install pycsw
+  $ zypper install python-pycsw pycsw-cgi
 
-For earlier openSUSE versions change ``12.1`` with ``11.4``. For future openSUSE version use ``Factory``. Rolling version ``Tumbleweed`` is also supported.
+For earlier openSUSE versions change ``12.3`` with ``12.2``. For future openSUSE version use ``Factory``. Rolling version ``Tumbleweed`` is also supported.
 pycsw is included in the official Application::Geo repository of OpenSUSE Build Service.
 
 Tester Application
@@ -118,17 +136,15 @@ Also, the user can search for data records, performing a spatial bounding box qu
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
-The user can go through all the available requests and perform various requests from this testing application. A more robust and graphical way to perform such queries is described in a following chapter of this tutorial.
+The user can go through all the available requests and perform various requests from this testing application.
 
 Capabilities Document and Configuration
 =======================================
 
 The capabilities of the pycsw installation can be found at ``http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities``.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
-  :scale: 75 %
-
 To edit the web service metadata, included in the capabilities document, the user can modify the file ``/var/www/pycsw/default.cfg`` under the tag ``[metadata:main]``.
+
 If the user wants to enable INSPIRE Discovery Service support, the metadata under the tag ``[metadata:inspire]`` has to be filled in and the ``enabled`` property has to be set to ``true``.
 
 For full functionality and configuration options, please consult the `documentation`_ on the pycsw website.
@@ -141,16 +157,10 @@ Using European Open Source Metadata Editor (EUOSME)
 
 Metadata files for a spatial dataset or a spatial web service can be created through the open source implementation of inspire directive for metadata, European Open Source Metadata Editor (EUOSME). This application can be found at ``http://inspire-geoportal.ec.europa.eu/editor/``. Source code is available at ``https://joinup.ec.europa.eu/svn/euosme/trunk``
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_homepage.png
-  :scale: 75 %
-
 The user fills the mandatory metadata fields going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country) etc. 
 
 .. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 % 
-
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_bbox.png
-  :scale: 75 %
 
 After the user has added all the information available, must push the validation button on top of the page, so that a check to be performed for consistency with the INSPIRE directive. 
 
@@ -159,8 +169,6 @@ After the user has added all the information available, must push the validation
 
 After a sucessful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_xml.png
-  :scale: 75 %
 
 Using GIMED
 -----------
@@ -189,18 +197,43 @@ Metadata Repository Setup
 pycsw supports the following databases:
 
 - SQLite3
-- PostgreSQL
+- PostgreSQL (PostGIS optional)
 - MySQL
 
-In OSGeo-Live, a simple SQLite setup has been implemented. The database can be found in ``/var/www/pycsw/data/cite``
+In OSGeo-Live, a simple SQLite setup has been implemented. The database can be found in ``/var/www/pycsw/tests/suites/cite/data/records.db``
 
-In case of a new db, the setup process is:
+Create new database
+-------------------
+
+In order to create a new SQLite database we need to:
+
+1. Edit ``default.cfg``:
+
+**[repository]**
+
+- **database**: the full file path to the metadata database, in database URL format (see http://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)
+- **table**: the table name for metadata records (default is ``records``)
+
+2. Setup the database:
 
 .. code-block:: bash
 
-  $ cd /path/to/pycsw
-  $ export PYTHONPATH=`pwd`
-  $ python ./sbin/setup_db.py sqlite:////path/to/records.db
+  $ cd /var/www/pycsw
+  $ export PYTHONPATH=`pwd` 
+  $ sudo python ./sbin/pycsw-admin.py -c setup_db -f default.cfg
+
+This will create the necessary tables and values for the repository.
+
+The database created is an `OGC SFSQL`_ compliant database, and can be used with any implementing software.  For example, to use with `OGR`_:
+
+.. code-block:: bash
+
+  $ ogrinfo /path/to/records.db
+  INFO: Open of 'records.db'
+  using driver 'SQLite' successful.
+  1: records (Polygon)
+  $ ogrinfo -al /path/to/records.db
+  # lots of output
 
 Importing Metadata
 ------------------
@@ -209,27 +242,23 @@ Importing Metadata
 
   $ cd /path/to/pycsw
   $ export PYTHONPATH=`pwd`
-  $ python ./sbin/load_records.py /path/to/records sqlite:////path/to/records.db
+  $ sudo ./sbin/pycsw-admin.py -c load_records -f default.cfg -p /path/to/records -r
 
-This will import all ``*.xml`` records from ``/path/to/records`` into ``records.db`` and configure the repository to expose queryables as per Table 53 of OGC:CSW.
-
-.. image:: ../../images/screenshots/1024x768/pycsw_import_metadata.png
-  :scale: 75 %
+This will import all ``*.xml`` records from ``/path/to/records`` into the new database and configure the repository to expose queryables as per Table 53 of OGC:CSW.
 
 QGIS CSW Client Installation
 ============================
 
 The HTTP request/response mechanism is not friendly enough to the end user in order to perform queries to the Catalogue Service.
-For this reason, there are several CSW Clients in the form of web applications like the `INSPIRE Geoportal <http://inspire-geoportal.ec.europa.eu/discovery/discovery/>`_ or :doc:`GeoNetwork <../overview/geonetwork_overview>`.
 For this tutorial, we will use the :doc:`QGIS <../overview/qgis_overview>` `OGC Catalogue Service Client <https://sourceforge.net/apps/trac/qgiscommunitypl/wiki/qgcsw>`_ plugin.
 
-To install the plugin:
+To install the plugin in OSGeoLive:
 
 .. code-block:: bash
 
-  $ cd ~
-  $ cd .qgis/python/plugins
-  $ svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw/trunk qgcsw
+  $ cd /usr/share/qgis/python/plugins
+  $ sudo svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw/trunk/ qgcsw
+
 
 Data Discovery
 ==============
@@ -267,6 +296,25 @@ Perform search using the catalogue, either by a string value or with a bounding 
 .. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
+Data Discovery through GeoExt
+-----------------------------
+
+Another way to use a pycsw server is through a web application, acting like a CSW client.
+Such functionality is available through :doc:`OpenLayers <../overview/openlayers_overview>`_ and `GeoExt <http://www.geoext.org/>`_ Javascript libraries.
+
+For this tutorial we have hacked a small demonstration in GeoExt (thanks `Bart van den Eijnden <https://github.com/bartvde>`_) using a demo pycsw installation at http://demo.pycsw.org/services/csw: 
+
+- Go to http://demo.pycsw.org/demos/gxp/examples/catalogue.html
+- Click icon "find layers"
+- Enter "airports" (without double quotes)
+- Click "search" or hit Enter
+- See results
+- Click the "add to map" icon beside the last result on that result set ("1 Million Scale - Airports")
+- See layer added to map panel
+
+.. image:: ../../images/screenshots/1024x768/pycsw_client_gxp.png
+  :scale: 60 %
+
 Tester Application
 ------------------
 
@@ -288,4 +336,9 @@ For more information on pycsw, please consult the `documentation`_ on the pycsw 
 .. _`pyproj`: http://code.google.com/p/pyproj/
 .. _`Download pycsw`: http://pycsw.org/download.html
 .. _`GIMED`: http://sourceforge.net/projects/gimed/
+.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`OGC Reference Implementation`: http://demo.pycsw.org/
+.. _`GitHub`: https://github.com/geopython/pycsw
+.. _`OGR`: http://www.gdal.org/ogr
+.. _`OGC SFSQL`: http://www.opengeospatial.org/standards/sfs
 

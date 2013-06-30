@@ -124,9 +124,6 @@ OpenSUSE 系统下安装
 
 　　pycsw 的功能文档页面在 ``http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities`` 。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
-  :scale: 75 %
-
 　　在该文档中包含着该服务的元数据。通过编辑 ``/var/www/pycsw/default.cfg`` 中 ``[metadata:main]`` 下的内容可以修改元数据。对于需要 INSPIRE Discovery Service 服务（见后述）的用户，请在 ``[metadata:inspire]`` 下编辑元数据并保证 ``enabled`` 为 ``true`` 。
 
 　　详尽的配置说明请参考 pycsw `文档`_ 。
@@ -139,16 +136,10 @@ OpenSUSE 系统下安装
 
 　　pycsw 服务下的空间数据集或数据服务的元数据可以通过 INSPIRE 元数据标准的开源实现，European Open Source Metadata Editor (EUOSME) 编辑器来操作。该程序可以在 ``http://inspire-geoportal.ec.europa.eu/editor/`` 获得。其源码库位于 ``https://joinup.ec.europa.eu/svn/euosme/trunk`` 。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_homepage.png
-  :scale: 75 %
-
 　　首先，用户需要选择各个选项卡，输入必需的元数据条目。这些信息包括数据所有者名称、关键字、数据源地址、数据覆盖地理范围（地名或坐标范围）等。
 
 .. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 % 
-
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_bbox.png
-  :scale: 75 %
 
 　　输入后点击“validation”按键可以测试数据是否符合 INSPIRE 元数据规范。
 
@@ -157,8 +148,6 @@ OpenSUSE 系统下安装
 
 　　若测试通过，元数据可以存储为 XML 文档，可由文本编辑器或浏览器查看和编辑。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_xml.png
-  :scale: 75 %
 
 GIMED 的使用
 -----------
@@ -210,8 +199,6 @@ GIMED 的使用
 
 　　以上操作从 ``/path/to/records`` 载入全部 ``*.xml`` 文件，生成 ``records.db`` 。这个数据库可以以符合 OGC:CSW Table 53 的请求检索。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_import_metadata.png
-  :scale: 75 %
 
 QGIS CSW 客户端的安装
 ============================

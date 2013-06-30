@@ -125,9 +125,6 @@ Capabilities Document and Configuration
 
 Το έγγραφο δυνατοτήτων της υπηρεσίας μπορούν να βρεθούν στο: http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_getcapabilities_response.png
-  :scale: 75 %
-
 Για να επεξεργαστείτε τα μεταδεδομένα της υπηρεσίας που περιλαμβάνονται στο κείμενο δυνατοτήτων, μπορείτε να αλλάξετε τα περιεχόμενα του αρχείου ``/var/www/pycsw/default.cfg`` κάτω από την ετικέτα ``[metadata:main]``.
 Εαν θέλετε να ενεργοποιήσετε την υποστήριξη INSPIRE Discovery Service, τα μεταδεδομένα κάτω από την ετικέτα ``[metadata:inspire]`` πρέπει να συμπληρωθούν και η ιδιότητα ``enabled`` πρέπει να τεθεί σε τιμή ``true``.
 
@@ -141,16 +138,10 @@ Capabilities Document and Configuration
 
 Αρχεία μεταδεδομένων για χωρικά δεδομένα ή για σύνολα χωρικών δεδομένων μπορούν να δημιουργηθούν μέσω της επίσημης ελεύθερης υλοποίησης επεξεργαστή μεταδεδομένων του INSPIRE, την εφαρμογή European Open Source Metadata Editor (EUOSME). Η εφαρμογή αυτή είναι διαθέσιμη στο ``http://inspire-geoportal.ec.europa.eu/editor/``. Ο πηγαίος κώδικας βρίσκεται στο ``https://joinup.ec.europa.eu/svn/euosme/trunk``
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_homepage.png
-  :scale: 75 %
-
 Μπορείτε να συμπληρώσετε τα απαραίτητα πεδία μεταδεδομένων μέσω της εφαρμογής, προσθέτωντας πληροφορίες όπως το όνομα του ιδιοκτήτη των δεδομένων, λέξεις κλειδιά, ιστοσελίδα των δεδομένων στο διαδίκτυο, την γεωγραφική θέση κλπ. 
 
 .. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 % 
-
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_bbox.png
-  :scale: 75 %
 
 Μετά την συμπλήρωση των μεταδεδομένων, πραγματοποιείται πιστοποίηση των μεταδεδομένων μέσα από το κουμπί (validation) στην αρχή της σελίδας, ώστε να εκτελεστούν οι απαραίτητοι έλεγχοι σε σχέση με τη οδηγία INSPIRE. 
 
@@ -159,8 +150,6 @@ Capabilities Document and Configuration
 
 Μετά απο επιτυχημένη πιστοποίηση των μεταδεδομένων, το αρχείο XML μπορεί να αποθηκευτεί στον τοπικό δίσκο και να παρουσιαστεί μέσω ενός επεξεργαστή κειμένου ή ενός φυλλομετρητή.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_xml.png
-  :scale: 75 %
 
 Με χρήση του λογισμικού GIMED
 -----------------------------
@@ -212,8 +201,6 @@ Capabilities Document and Configuration
 
 Αυτή η διαδικασία θα εισάγει όλα τα αρχεία ``*.xml`` από τον φάκελο ``/path/to/records`` στην βάση δεδομένων ``records.db`` και θα ρυθμίσει την υπηρεσία να διαφημίσει τους τίτλους των πεδίων των μεταδεδομένων όπως περιγράφεται στον Πίνακα 53 του προτύπου OGC:CSW.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_import_metadata.png
-  :scale: 75 %
 
 Εγκατάσταση εφαρμογής QGIS CSW
 ==============================
