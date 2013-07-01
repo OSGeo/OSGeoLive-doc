@@ -30,8 +30,8 @@ account. After you have your own username and password, you will be able
 to add your first points to the map, learn how to do street surveys and
 work with aerial imagery.
 
-This quickstart introduces some of the off-line software used to edit and
-render OSM data.
+The remainder of this quickstart introduces some of the off-line software
+used to edit and render OSM data.
 
 
 Programs
