@@ -19,7 +19,7 @@
 pycsw Quickstart
 ********************************************************************************
 
-pycsw is an OGC CSW server implementation written in `Python`_.
+pycsw is an OGC CSW server implementation written in `Python <http://python.org>`_.
 
 pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for the Web, CSW)) of the `OpenGIS Catalogue Service Implementation Specification`_, version 2.0.2.  Initial development started in 2010 (more formally announced in `2011`_).The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_.
 
@@ -300,7 +300,7 @@ Data Discovery through GeoExt
 -----------------------------
 
 Another way to use a pycsw server is through a web application, acting like a CSW client.
-Such functionality is available through :doc:`OpenLayers <../overview/openlayers_overview>`_ and `GeoExt <http://www.geoext.org/>`_ Javascript libraries.
+Such functionality is available through `OpenLayers <http://openlayers.org>`_ and `GeoExt <http://www.geoext.org/>`_ Javascript libraries.
 
 For this tutorial we have hacked a small demonstration in GeoExt (thanks `Bart van den Eijnden <https://github.com/bartvde>`_) using a demo pycsw installation at http://demo.pycsw.org/services/csw: 
 
@@ -325,7 +325,6 @@ Discovery of data can be also performed through the Tester application by settin
 
 For more information on pycsw, please consult the `documentation`_ on the pycsw website.
 
-.. _`Python`: http://www.python.org/
 .. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
 .. _`2011`: http://www.kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
 .. _`Open Source`: http://www.opensource.org/
