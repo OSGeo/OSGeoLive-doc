@@ -47,6 +47,19 @@ The application is able to perform complex mathematical operations over images (
 This homebrewed digital calculator is also bundled with custom functions allowing to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing:
 `otbcli_BandMath -il qb_RoadExtract.tif -out ndvi.tif -exp "ndvi(im1b3,im1b4)"`
 
+Pixel based classification
+================================================================================
+The classification in the application framework provides a supervised pixel-wise
+classification chain based on learning from multiple images, and using one 
+specified machine learning method like SVM, Bayes, KNN, Random Forests, Artificial 
+Neural Network, and others...(see application help of 
+`TrainImagesClassifier` for further details about all the available 
+classifiers). 
+It supports huge images through streaming and multi-threading. The 
+classification chain performs a training step based on the intensities of each 
+pixel as features. Please note that all the input images must have the same number 
+of bands to be comparable.
+
 
 Perform segmentation with Monteverdi
 ================================================================================

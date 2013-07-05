@@ -37,17 +37,17 @@ Core Features
 
 * image access: optimized read/write access for most remote sensing (including Jpeg2000 imagery)
   image formats, meta-data access and visualization;
-* orthorectification and map reprojection
+* orthorectification, map reprojection and sensor model refinement
 * calibration
 * image fusion
 * filtering: blurring, denoising, enhancement...
 * feature extraction: interest points, alignments, lines...
 * object detection
 * large scale image segmentation: region growing, mean-shift, watershed, level sets...
-* classification: K-means, SVM, Markov random fields
+* classification: K-means, Markov random fields, access to machine learning algorithms from OpenCV
 * object-based image analysis
 * geospatial analysis
-* stereoscopic reconstruction from optical images pair
+* stereoscopic reconstruction from optical images
 * SAR data analysis
 * change detection.
 
@@ -59,7 +59,7 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 3.14.1 (released in October 2012)
+**Software Version:** 3.18 (released in July 2013)
 
 **Supported Platforms:** Linux, Mac, Windows
 
