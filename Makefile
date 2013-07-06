@@ -36,10 +36,9 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	rm -f licenses.csv
+	-rm licenses.csv index.rst
 	# remove symbolic linked files
 	rm -f `find ./*/ -type l -print`
-	rm index.rst
 
 link_to_en_docs:
 	# For quickstart, standards and overview docs which have not been
