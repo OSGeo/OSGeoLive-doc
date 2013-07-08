@@ -39,7 +39,7 @@ off.
 .. TBD: Cameron's review comments:
   Screen shot here (showing menu selection with NaturalEarth highlighted)
 
-#. Lauch QGIS from :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS` and select :menuselection:`File --> Open Project...` from the menu bar.
+#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS` and select :menuselection:`File --> Open Project...` from the menu bar.
 
 #. Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
 
@@ -53,7 +53,7 @@ off.
         :scale: 70 %
 
 #. Try dragging layers up and down in the legend and see how that
-   effects visiblity of the layers below.
+   affects visibility of the layers below.
 
 #. Have a look at the tools on the tool bar. Try panning, zooming in,
    and zooming back out to full extent again.  Find these tools next
@@ -218,14 +218,14 @@ modules and visualization tools:
 #. From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS tools` and
    drag the edge to make the window a bit bigger.
 
-   * A long list of analysis tools will appear. Go to the `Module Tree` tab and
+   * A long list of analysis tools will appear. Go to the `Modules Tree` tab and
      select :menuselection:`Region settings --> g.region.multiple.raster`.
      Clicking on it will open a new tab. Simply type ``elevation`` for the
      raster map name and press :guilabel:`Ok`. The `elevation` map will
      now have a thin red line around it, indicating the extent of
      GRASS's `computational region` bounds.
 
-#. Back in the `Module Tree` tab of the `GRASS Tools` window, go down
+#. Back in the `Modules Tree` tab of the `GRASS Tools` window, go down
    to :menuselection:`3d Visualization` and select `NVIZ`. You may need to
    drag the corner of the toolbox window again to make it a bit larger to
    see all the options.
