@@ -1,6 +1,6 @@
 :Author: Peter Baumann
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Version: osgeo-live7.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _rasdaman-overview:
 
@@ -62,4 +62,9 @@ Details
 **API Interfaces:** OGC WMS, WCS, WCS-T, WCPS, WPS; rasql, C++, Java
 
 **Support:**  http://www.rasdaman.com
+
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`
 
