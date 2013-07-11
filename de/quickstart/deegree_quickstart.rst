@@ -21,10 +21,7 @@ für die Java-Plattform.
 
 Verfügbare Komponenten sind:
 
-  * Web-Services: WFS, WMS, WCS, CSW, WPS, SOS, WPVS 
-  * Desktop-Anwendungen: iGeoDesktop 
-  * Web-Anwendungen: iGeoPortal 
-  * Kommandozeilen-Tools 
+  * Web-Services: WFS, WMS, CSW, WPS
   * Security
 
 
@@ -65,15 +62,15 @@ deegree 3 workspaces
 ================================================================================
 
 deegree 3 hat ein einheitliches Konfigurationskonzept, das von allen deegree 3
-basierten Anwendungen (Web Services, Web-Anwendungen, Desktop-Anwendungen, 
-Kommandozeilen-Tools) die gemeinsame Basis darstellt. Die verschiedenen 
-Konfigurationsaspekte sind im deegree workspace definiert. Ein deegree workspace
-ist somit ein Konfigurationsverzeichnis mit einem standardisierten Layout. 
+basierten Web Services unterstützt wird. Die verschiedenen 
+Konfigurationen sind im so genannten deegree workspace definiert. Ein deegree 
+workspace ist somit ein Konfigurationsverzeichnis mit einem standardisierten 
+Layout. 
 
 Innerhalb der deegree 3 services console erhalten sie eine Übersicht der 
-mitgelieferten, vorkonfigurierten deegree 3 workspaces, indem sie auf die 
+mitgelieferten und vorkonfigurierten deegree 3 workspaces, indem sie auf die 
 Schaltfläche "workspace" (linke Seite) klicken. Sie befinden sich nun im
-workspace-management von deegree. Hier haben sie eine Übersicht über den
+workspace-Management von deegree. Hier haben sie eine Übersicht über den
 zur Zeit aktiven workspace (es kann immer nur ein workspace aktiv sein),
 weitere inaktive workspaces und offizielle workspaces, welche Sie 
 importieren können (Internetzugang ist erforderlich).
@@ -82,45 +79,41 @@ importieren können (Internetzugang ist erforderlich).
 deegree 3 workspaces auf der OSGeo-Live GIS Disc
 ================================================================================
 
-  * deegree-workspace-utah
+  * deegree-workspace-inspire
 
-Beim Start von deegree ist der deegree-workspace-utah aktiviert.
-Die sogenannte Utah Demo stellt einen idealen Einstiegspunkt für die
-Erstellung eigener deegree basierter Web-Mapping-Setups dar.
-Der deegree-workspace-utah beinhaltet die Konfiguration eines
-Web Map Service (WMS) und eines Web Feature Service (WFS).
+Dieser workspace beinhaltet eine Basiskonfiguration von INSPIRE View- und 
+Download-Services. 
+Er besteht aus einem transaktionalem WFS (2.0.0 and 1.1.0) für alle Annex I Data
+Themes und einem WMS (1.3.0 and 1.1.1) der drei Ebenen der Annex I Data Themes
+anbietet. 
+Als Daten werden einige harmonisierte niederländische Administrative Einheiten
+(Administrative Units) sowie Katasterpläne (Cadastral Parcels) und Adressen
+(Addresses) angeboten.
+Der WFS verhält sich hierbei als INSPIRE Download service (Direct Access) und
+liefert die Basisdaten als valides, harmonisiertes INSPIRE GML aus und 
+unterstützt zahlreiche Anfragemöglichkeiten.
 
-Sie haben die Möglichkeit sich die Konfiguration des workspaces über die
-Schaltflächen "coverages", "feature stores", "jdbc connections", "metadata stores",
-"observation stores", "processes", "remote OWS", "render styles", "web services"
-anzuschauen und anzupassen. Falls sie Änderungen an einer Konfigurationsdatei vornehmen
-(z.B. hinzufügen eines Layer-Styles oder eines Layers), müssen sie über die
-Schaltfläche "[Reload]" in der oberen linken Ecke den deegree workspace neu laden,
-damit die Änderungen regisitriert werden.
+.. tip::
+Dieser workspace lädt harmonisiertes INSPIRE GML aus lokalen Dateien in den 
+Speicher, dies kann jedoch einfach auf PostGIS, Oracle Spatial oder Microsoft 
+SQL Server Datenbanken als Backend umgestellt werden.
 
-Über die Schaltfläche "send request" gelangen Sie zu einem generischen Klienten,
-mit dem sie Request gegen den WFS des utah-workspaces senden können und dessen Antwort
-im XML-Feld darunter angezeigt bekommen. Durch einen Klick auf die Schaltfläche "see layers"
-öffnet sich ein OpenLayers-Klient, mit dem Sie sich die Kartenebenen des WMS des 
-utah-workspaces anzeigen lassen. Klicken Sie dafür auf das das kleine Plus-Symbol
-in der oberen rechten Ecke und aktivieren Sie die gewünschten Kartenebenen. Sowohl beim
-generischen Klienten als auch beim OpenLayers-Klienten gelangen sie durch einen Klick auf
-die Zurück-Schaltfläche im Firefox zurück zur deegree 3 services console.
+Nach der Aktivierung des "deegree-workspace-inspire" kann unter dem 
+**see layers** link ein simpler Map-Client eingesehen werden, der eine Basemap
+zeigt (gerendert von OpenStreetMap).
 
-Informationen und Step-By-Step Tutorials zur Konfiguration der Utah Demo finden sie in
-ausführlicher Form im deegree-wiki unter der Seite: http://wiki.deegree.org/deegreeWiki/deegree3/UtahDemo
+Ein Klick auf das **+** auf der rechten Seite öffnet eine Liste der verfügbaren 
+Ebenen. Hier kann die vom deegree WMS angebotene INSPIRE Ebene aktiviert werden.
 
+.. tip::
+Der Karten-Client basiert auf `OpenLayers <http://openlayers.org/>`_. 
+Die Karte kann durch die gedrückte linke Maustaste bewegt werden.
+Der Zoom funktioniert entweder mit dem Mausrad oder mit den Steuerungselementen
+auf der linken Seite. Als Alternative kann durch halten der Umschalt-Taste und
+einem Mausklick ein Rechteck gezogen werden, auf das gezoomt wird.
 
-Weitere deegree 3 workspaces auf der OSGeo-Live GIS Disc:
-
-  * deegree-workspace-csw (Catalogue Service / wiki Seite: http://wiki.deegree.org/deegreeWiki/deegree3/CatalogueService)
-  * deegree-workspace-wps (Web Processing Service / wiki Seite: http://wiki.deegree.org/deegreeWiki/deegree3/ProcessingService)
-  * deegree-workspace-inspire (Inspire / wiki Seite: http://wiki.deegree.org/deegreeWiki/InspireNode)
-  * deegree-workspace-xplan40 (XPlanung / wiki Seite: http://wiki.deegree.org/deegreeWiki/XplanNode) 
-
-Für weitergehende Informationen zu den deegree 3 workpaces und deren Konfiguration,
-besuchen sie bitte das deegree-wiki.
-
+Informationen und Step-By-Step Tutorials zur Konfiguration des INSPIRE workspaces finden sie in
+ausführlicher Form in der Dokumentation unter http://download.deegree.org/documentation/3.3.1/html/lightly.html#example-workspace-1-inspire-network-services
 
 Wie geht es weiter?
 ================================================================================
@@ -128,10 +121,6 @@ Wie geht es weiter?
 Dies war nur ein kurzer Überblick über die Funktionen von deegree. Weitere 
 Informationen erhalten Sie über das deegree-Wiki, die Online-Demo und die
 deegree-Webseite. 
-
-  * deegree wiki
-
-    Abrufbar unter: http://wiki.deegree.org
 
   * deegree online demo
 
