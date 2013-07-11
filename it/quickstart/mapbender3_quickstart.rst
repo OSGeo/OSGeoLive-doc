@@ -10,7 +10,7 @@
   :align: right
 
 ********************************************************************************
-Mapbender3 Quickstart 
+Guida rapida su Mapbender3
 ********************************************************************************
 
 Mapbender é un framework web per pubblicare, registrare, vedere, navigare, monitorare e consentire l'accesso sicuro a servizi SDI (spatial data infrastructures - infrastrutture di dati spaziali). 
@@ -27,9 +27,9 @@ Con questo nuovo codice di base, portiamo avanti l'idea di Mapbender come framew
 	* i diritti di accesso sono facili da mantenere, sia per utenti individuali che per gruppi, sia che vengano memorizzati dentro un database o dentro un LDAP.
 
 
-Per svolgere questo quickstart necessiti solo di un browser.
+Per svolgere questa breve introduzione all'uso di Mapbender3 necessiti solo di un browser.
 
-Questo quickstart descrive come:
+Questa guida rapida descrive come:
 
 	* avviare Mapbender
 	* creare una nuova applicazione
@@ -65,22 +65,24 @@ Symfony mette a disposizione degli sviluppatori una modalità di debug che mostr
   .. image:: ../../images/screenshots/800x600/mapbender3_app_dev.png
      :scale: 80
 
+
 #. Avvia la modalità debug: http://localhost/mapbender3/app_dev.php
 
 #. Dai un'occhiata alle informazioni offerte da questa modalità.
+
 
   .. image:: ../../images/screenshots/800x600/mapbender3_symfony_profiler.png
      :scale: 80
 
 
-Welcome Page
+Welcome page
 ================================================================================
 
-#. La Welcome Page elenca le applicazioni che sono pubbliche e che possono essere utilizzate da tutti gli utenti. Le applicazioni vengono elencate attraverso un piccolo screenshot, un titolo e una descrizione.
+#. La Welcome page elenca le applicazioni che sono pubbliche e che possono essere utilizzate da tutti gli utenti. Le applicazioni vengono elencate attraverso un piccolo screenshot, un titolo e una descrizione.
 
 #. Puoi avviare una applicazione cliccando sul titolo oppure sul pulsante start.
 
-#. Per poter gestire applicazioni con Mapbender, devi prima effettuare il login per accedere alla schermata di amministrazione.
+#. Per iniziare a gestire applicazioni con Mapbender, devi prima effettuare il login per accedere alla schermata di amministrazione.
 
 #. Clicca su Login in alto a destra per aprire la pagina di login.
 
@@ -89,11 +91,12 @@ Welcome Page
   .. image:: ../../images/screenshots/800x600/mapbender3_welcome.png
      :scale: 80
 
-Effettuato il login sarai indirizzato alla pagina di :guilabel:`Mapbender administration`.
+
+Effettuato il login sarai indirizzato alla pagina di :guilabel:`amministrazione di Mapbender`.
 
 
 
-Application overview
+Panoramica sull'applicazione
 ================================================================================
 Dopo il login, sarai indirizzato alla pagina :guilabel:`Applications`, che presenta una lista di applicazioni alle quali ti é permesso accedere.
 
@@ -105,7 +108,7 @@ La panoramica di riepilogo dell'applicazione fornisce le seguenti informazioni e
  	* pulsante per la pubblicazione e l'annullamento della pubblicazione dell'applicazione
  	* pulsante per eliminare l'applicazione
  	* pulsante per creare una nuova applicazione
- 	* con il filtro sul campo di testo si possono cercare applicazioni per nome
+ 	* il filtro sul campo di testo permette di cercare applicazioni per nome
 
   .. NON ANCORA IMPLEMENTATO: In Mapbender hai a disposizione dei template di applicazioni, che puoi usare per creare le tue nuove applicazioni.
 
@@ -115,8 +118,7 @@ La panoramica di riepilogo dell'applicazione fornisce le seguenti informazioni e
 
 Creare una nuova applicazione
 ================================================================================
-
-Crea una nuova applicazione fornendo alcune informazioni di base sulla tua applicazione. Utilizza poi la modalità di modifica per aggiungere elementi, layers e informazioni relative alla sicurezza.
+Ora puoi creare una nuova applicazione fornendo alcune informazioni di base su di essa. Utilizza poi la modalità di modifica per aggiungere elementi, layers e informazioni relative alla sicurezza.
 
 #. scegli :menuselection:`Applications --> New Application`
 
@@ -126,9 +128,9 @@ Crea una nuova applicazione fornendo alcune informazioni di base sulla tua appli
 
 #. clicca sul pulsante **Create** per creare l'applicazione
 
-#. clicca sul pulsante :menuselection:`Edit-Button` sulla nuova applicazione per modificare l'applicazione
+#. clicca sul :menuselection:`pulsante Edit` sulla nuova applicazione per modificare l'applicazione
 
-#. la tua applicazione é stata creata. Adesso hai bisogno di una mappa WMS da visualizzare nella tua applicazione. Questo sarà descritto nella sezione **WMS Management**.
+#. la tua applicazione é stata creata. Adesso hai bisogno di una mappa WMS da visualizzare nella tua applicazione. Questo sarà descritto nella sezione **Amministrazione di fonti di dati**.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_create_application.png
      :scale: 80
@@ -142,7 +144,7 @@ Crea una nuova applicazione fornendo alcune informazioni di base sulla tua appli
 
 Eliminare una applicazione
 ================================================================================
-Puoi eliminare una applicazione dalla pagina :menuselection:`Applications` con il :menuselection:`pulsanteX`.
+Puoi eliminare una applicazione dalla pagina :menuselection:`Applications`, cliccando sul :menuselection:`pulsante X`.
 
 ..
   NON ANCORA IMPLEMENTATO
@@ -153,7 +155,7 @@ Puoi eliminare una applicazione dalla pagina :menuselection:`Applications` con i
   .. tip:: L'esportazione di una applicazione non contiene le informazioni relative ai servizi e le informazioni riguardanti l'accesso di utenti e gruppi.
 
 
-Amministrazione di fonti di dati (Data Sources)
+Amministrazione di fonti di dati (Data sources)
 ================================================================================
 Mapbender può gestire differenti servizi, come OGC WMS, OGC WMTS oppure OGC WFS. Ogni servizio deve essere gestito in modo differente. Gli strumenti di amministrazione forniscono una interfaccia per l'amministrazione di ogni fonte di dati (per il momento solo WMS).
 
@@ -161,28 +163,28 @@ Mapbender può gestire differenti servizi, come OGC WMS, OGC WMTS oppure OGC WFS
 Panoramica sul repository di supporto
 ================================================================================
 
-#. Vai a :guilabel:`Services` e dai un'occhiata al repository di supporto.
+#. Scegli :guilabel:`Services` e dai un'occhiata al repository di supporto.
 
 #. Questa pagina dà una panoramica sulle fonti di dati che sono caricate su Mapbender.
 
 #. Tipo (es. WMS, WMTS), Titolo, Descrizione offrono una prima informazione sui servizi.
 
-#. Premendo sul pulsante :menuselection:`View-Button` puoi ottenere ulteriori informazioni sulla fonte di dati.
+#. Premendo sul :menuselection:`pulsante View` puoi ottenere ulteriori informazioni sulla fonte di dati.
 
-#. Con il pulsante :menuselection:`Delete-Button` puoi eliminare la fonte di dati dal tuo repository.
+#. Con il :menuselection:`pulsante Delete` puoi eliminare la fonte di dati dal tuo repository.
 
 
 Aggiungere Web Map Services
 ================================================================================
-E' possibile aggiungere OGC Web Map Services (WMS) alla tua applicazione.
+Ora puoi aggiungere OGC Web Map Services (WMS) alla tua applicazione.
 
 Un servizio WMS restituisce un file XML quando viene effettuata una richiesta getCapabilities. Mapbender esegue il parsing di questa informazione e ottiene così, dal file XML, tutte le informazioni necessarie sul servizio.
 
 .. tip:: Dovresti controllare il documento Capabilities prima di caricarlo in Mapbender
 
-#. Scegli il menu :menuselection:`Services --> Add Service` oppure usa il pulsante+. Collegati al servizio WMS inserendo l'URL della richiesta getCapabilities nel campo testo :menuselection:`Serviceurl`. 
+#. Scegli il menu :menuselection:`Services --> Add Service` oppure usa il :menuselection:`pulsante+`. Collegati al servizio WMS inserendo l'URL della richiesta getCapabilities nel campo testo :menuselection:`Serviceurl`. 
 
-#. Inserisci username e password se il servizio necessita una autenticazione.
+#. Inserisci username e password se il servizio richiede una autenticazione.
 
 #. Clicca su **Load** per caricare il servizio nel repository.
 
@@ -210,7 +212,7 @@ http://osm.omniscale.net/proxy/service?
   .. tip:: Create a container application and upload every WMS just once to this container application. You can transfer the WMS from this container to other aplications. When you update the WMS the possible changes will appear in all applications that contain this WMS. You easily can copy a WMS from one to another application with the menu entry *Link WMS to application*.
 
 
-Aggiungere il servizio all'applicazione
+Aggiungere un servizio a una applicazione
 ================================================================================
 Dopo avere caricato il servizio WMS, puoi aggiungere il WMS alla tua applicazione.
 
@@ -227,18 +229,19 @@ Dopo avere caricato il servizio WMS, puoi aggiungere il WMS alla tua applicazion
   .. image:: ../../images/screenshots/800x600/mapbender3_add_source_to_application.png
      :scale: 80
 
-Configura il tuo WMS
+Configurare il servizio WMS
 ================================================================================
 Puoi configurare il servizio WMS secondo le necessità della tua specifica applicazione. Magari non hai bisogno di fornire tutti i layers, oppure vorresti cambiare l'ordine o il nome dei layers, o disabilitare la richiesta feature info, oppure cambiare la scala massima di un layer.
 
 #. Scegli :menuselection:`Applications --> edit-Button --> Layers --> edit-Button` per configurare l'istanza del servizio.
 
-#. A questo punto apparirà una tabella con i layers relativi al servizio.
+#. A questo punto apparirà una tabella con tutti i layers relativi al servizio.
 
 #. Puoi cambiare l'ordine dei layers con un drag & drop
 
 .. image:: ../../images/screenshots/800x600/mapbender3_wms_application_settings.png
   :scale: 80
+
 
 Configurazione del servizio
 
@@ -268,9 +271,9 @@ Configurazione dei layers
 * style - se un servizio WMS fornisce più di uno stile, puoi scegliere uno stile differente da quello predefinito
 
 
-Aggiungere elementi alla tua applicazione
+Aggiungere elementi a una applicazione
 ================================================================================
-Mapbender mette a disposizione un insieme di elementi. E' possibile aggiungere questi elementi alla tua applicazione. Esistono differenti regioni (Toolbar, Sidepane, Content, Footer) alle quali puoi aggiungere elementi.
+Mapbender mette a disposizione un insieme di elementi. Puoi aggiungere questi elementi alla tua applicazione. Esistono differenti regioni (Toolbar, Sidepane, Content, Footer) nelle quali puoi inserire gli elementi.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_add_element.png
      :scale: 80
@@ -314,7 +317,7 @@ Alcuni degli elementi messi a disposizione da Mapbender3 sono:
 * Navigation Toolbar (Zoombar)
 * WMS Loader
 
-Puoi trovare informazioni dettagliate su ogni elemento nella documentazione riguardante `l'elemento MapbenderCoreBundle <../../../documentation/en/bundles/Mapbender/CoreBundle/index.html>`_.
+Puoi trovare informazioni dettagliate su ogni elemento nella documentazione riguardante `l'elemento MapbenderCoreBundle <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_.
 
 
 Ora prova da solo
@@ -322,7 +325,7 @@ Ora prova da solo
 
 * aggiungi un elemento Map al contenuto della tua applicazione
 * aggiungi un elemento Layertree al contenuto della tua applicazione
-* aggiungi un pulsante che apra il Layertree nella parte superiore della tua applicazione
+* aggiungi un pulsante che apre il Layertree nella parte superiore della tua applicazione
 * aggiungi una Navigation Toolbar al contenuto
 * aggiungi un elemento Copyright e modifica il testo al suo interno
 * aggiungi un SRS Selector nel footer
@@ -341,7 +344,7 @@ Ogni utente può avere il permesso di accedere a una oppure ad un insieme di app
 Creare un profilo utente
 ================================================================================
 
-#. Per creare un utente clicca su :guilabel:`New User` oppure sul :menuselection:`pulsante+`.
+#. Per creare un profilo utente clicca su :guilabel:`New User` oppure sul :menuselection:`pulsante+`.
 
 #. Scegli un nome e una password per il tuo profilo utente. 
 
@@ -370,7 +373,6 @@ Assegnare utenti a un gruppo
 #. Scegli uno o più utenti da aggiungere al gruppo attraverso il tab :menuselection:`Users`.
 
 #. Assegna un utente a un gruppo cliccando sul pulsante :menuselection:`Users --> Edit-Button--> Groups`.
-http://doc.mapbender3.org/en/book/quickstart.html
 
   .. image:: ../../images/screenshots/800x600/mapbender3_assign_user_to_group.png
      :scale: 80
@@ -384,7 +386,7 @@ Mapbender3 fornisce differenti ruoli per l'assegnazione a un gruppo.
 * Può amministrare utenti e gruppi
 * Può amministrare applicazioni
 
-#. Assegna ruoli a un utente attraverso il tab :menuselection:`Users --> Edit your User --> Security`.
+Assegna ruoli a un utente attraverso il tab :menuselection:`Users --> Edit your User --> Security`.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_roles.png
      :scale: 80 
