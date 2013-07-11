@@ -13,12 +13,24 @@
 ncWMS Quickstart
 ********************************************************************************
 
-ncWMS is a Web Map Service which allows the fast visualisation of data from NetCDF files and other sources of environmental data.  This quickstart guide describes how to explore the sample data provided using the Godiva2 web client.  For configuration and adding other data sources to the server, please consult the overview provided with OSGeo-Live, or the FAQ on the `ncWMS website <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/FrequentlyAskedQuestions>`.
+ncWMS is a Web Map Service which allows the fast visualisation of data from NetCDF files and other sources of environmental data.  This quickstart guide describes how to explore the sample data provided using the Godiva2 web client.  For configuration and adding other data sources to the server, please consult the documentation on the `ncWMS website <http://www.resc.rdg.ac.uk/trac/ncWMS>`_.
 
+.. contents:: Contents
+
+Start ncWMS
+===========
+
+* Select :menuselection:`Geospatial --> Web Services --> ncWMS --> Start ncWMS`
+
+* After a few moments the application will start up and open a web browser at http://localhost:8080/ncWMS/godiva2.html
+
+.. image:: ../../images/screenshots/1024x768/ncWMS-01-start_screen.png
+    :scale: 55 %
+    
 Basic usage
 ===========
 
-Use the left-hand menu to select a variable for viewing (click on the variable's name in the tree view). The data should appear on the interactive map after a short delay (a progress bar may appear showing the progress of loading image tiles from the WMS server(s)). Currently only one variable can be displayed at a time. Future versions of the interface will support the display of multiple variables for intercomparison purposes.
+Use the left-hand menu to choose a dataset to view.  Clicking a dataset (or the + icon to the left of it) will expand the dataset to show the available variables to plot.  Choose a variable by clicking on it.  The data should appear on the interactive map after a short delay (a progress bar may appear showing the progress of loading image tiles from the WMS server(s)).
 
 Navigating the map
 ------------------
@@ -34,9 +46,14 @@ Selecting the timestep
 ----------------------
 
 If the displayed variable has a time dimension a calendar control will appear above the map. Click on this control to select the date you wish to focus on. If there are several timesteps available for this day, use the drop-down box above the map to select the time. See below for instructions on creating animations and timeseries plots.
+
 Finding the data value at a point
+---------------------------------
 
 Once a variable has been displayed on the map, you can click on the map to discover the data value at that point. The data value, along with the latitude and longitude of the point you clicked, will appear in a small pop-up window at the point where you clicked.
+
+.. image:: ../../images/screenshots/1024x768/ncWMS-02-variable_view.png
+    :scale: 55 %
 
 Changing the style of the data display
 ======================================
@@ -76,6 +93,9 @@ Timeseries plots
 
 Follow steps 1. to 4. in "Creating animations" above. Then click on the map to select a data point and bring up the small pop-up, which will have a link "Create timeseries plot". Click this to bring up a pop-up window displaying a timeseries of the data value at the selected point over the selected time range.
 
+.. image:: ../../images/screenshots/1024x768/ncWMS-03-timeseries.png
+    :scale: 55 %
+
 Vertical sections and transects along arbitrary paths
 -----------------------------------------------------
 
@@ -90,6 +110,9 @@ Changing the map projection
 ---------------------------
 
 The map projection is changed by selecting a new background map as above. If the background map is in a different projection then the data overlay will be automatically reprojected into the new coordinate system. Commonly, Godiva2 websites will give the option to select a background map in north or south polar stereographic projection. There may be a delay before the map appears in the new projection.
+
+.. image:: ../../images/screenshots/1024x768/ncWMS-04-north_pole.png
+    :scale: 55 %
 
 Saving and emailing the view
 ----------------------------
