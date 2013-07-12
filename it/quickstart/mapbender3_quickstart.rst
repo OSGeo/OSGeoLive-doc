@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -440,10 +440,6 @@ Puoi trovare alcuni tutorials ai seguenti indirizzi:
   http://doc.mapbender3.org
 
   http://api.mapbender3.org
-
-Impara altre cose su Mapbender: 
-	
-	http://projects.mapbender.osgeo.org
 
 Collabora con il progetto:
 

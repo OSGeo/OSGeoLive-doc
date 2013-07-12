@@ -438,11 +438,6 @@ You find tutorials at
 
   http://api.mapbender3.org
 
-
-Get to know Mapbender on 
-	
-	http://projects.mapbender.osgeo.org
-
 Get involved in the project
 
 	http://www.mapbender.org/Community
