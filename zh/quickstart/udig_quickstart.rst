@@ -160,7 +160,7 @@ uDig 快速入门
 
 #. 选择 `HYP_50M_SR_W` 图层拖拽至列表底部。
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
 .. Writing Tip:
@@ -282,7 +282,7 @@ Map
 
 　　若图层较多，编辑样式时可能难以看清效果。点击 :menuselection:`Map --> Mylar` 并在 *Layer* 试图关闭一些图层可能有助于编辑。再次选取 :menuselection:`Map --> Mylar` 可以关闭这一效果。
   
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 .. Writing tip

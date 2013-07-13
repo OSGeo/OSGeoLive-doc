@@ -166,7 +166,7 @@ To start out with we are going to load some of the sample data included on the D
 
 #. Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the bottom of the list
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
 .. Writing Tip:
@@ -301,7 +301,7 @@ Style
 
 Sometimes it is a bit hard to see what is going on with layer providing much details. To get focused on the task you like to work on, you can choose :menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view select different layers in turn to see the effect. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar.
   
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 .. Writing tip

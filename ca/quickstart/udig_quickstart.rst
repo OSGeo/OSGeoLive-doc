@@ -137,7 +137,7 @@ Per començar carregarem algunes de les dades d'exemple incloses en el DVD.
 
 #. Seleccioneu la capa `HYP_50M_SR_W` en la vista de catàleg i arrossegueu-la al final de la llista.
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
 .. note::
@@ -261,7 +261,7 @@ Podeu focalitzar la vostra tasca en l'aspecte que més us interessi seleccionant
 Usant la vista *Layer* podeu seleccionar diferents capes per veure els efectes de l'aplicació dels estils.
 Per desactivar aquest efecte podeu fer servir en qualssevol moment l'opció :menuselection:`Map --> Mylar` de la barra de menú.
   
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 Coses per provar

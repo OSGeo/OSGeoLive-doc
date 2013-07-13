@@ -162,7 +162,7 @@ Para comenzar vamos a cargar algunos de los datos de ejemplo incluidos en el DVD
 
 #. Seleccione la capa clouds.jpg en la vista de catálogo y arrastrela al pie de la lista
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
 
 .. Writing Tip:
   Notes are used to provide descriptions and background information without
@@ -302,7 +302,7 @@ Estilo
 
 #. Utilizar la vista *Layer* para seleccionar timezone, counties y clouds.jpg sucesivamente para ver el efecto  
 
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 #. Se puede cambiar a apagado (off) este efecto en cualquier momento usando :menuselection:`Map --> Mylar` en la barra de menú  

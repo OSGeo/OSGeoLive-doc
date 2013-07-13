@@ -101,7 +101,7 @@ view). Αυτές οι όψεις περιγράφονται στη συνέχε
 
 #. Επιλέγουμε το επίπεδο clouds.jpg στον κατάλογο και στο σέρνουμε στο τέλος της λίστας
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.jpg
+  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
 
 .. note::
    Ένα από τα πρώτα ερωτήματα που συναντάμε όταν το uDig είναι υποψήφιο για χρήση από κάποιον οργανισμό είναι πόση μνήμη
@@ -233,7 +233,7 @@ Web Map Server
 
 #. Χρησιμοποιώντας την όψη  *επιπέδων (Layer)* επιλέξτε ζώνη ώρας, χώρες και το clouds.jpg με τη σειρά για να παρατηρήσετε το αποτέλεσμα
 
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.jpg
+	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 #. Μπορείτε να απενεργοποιήσετε αυτό το εφέ ανα πάσα στιγμή επιλέγοντας :menuselection:`Map --> Mylar` από το μενού εντολών
