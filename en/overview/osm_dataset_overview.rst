@@ -44,26 +44,23 @@ Core Features
 * A global repository of local knowledge.
 
 
-Data Sets included in OSGeo-Live
+Data Sets included in OSGeo Live
 --------------------------------------------------------------------------------
 
 - Nottingham.osm.bz2: A large extract of the greater city area as a BZip2 compressed XML text file.
 
 - Nottingham_CBD.osm.bz2: A smaller subset covering just the central business district.
 
-- feature_city.osm.bz2 and feature_city_CBD.osm.bz2 are also city extracts. Quickstarts and overviews use these file/path names, despite posible changes of example city among different releases.
+- Nottingham_poi.db: Sqlite DB of "positions of interest" nodes extracted from the above larger city OSM extract. Contains locations of pubs, fuel stations, restaurants, supermarkets, etc.
 
-- feature_city_poi.db: Sqlite DB of "positions of interest" nodes extracted from the above feature_city.osm.bz2. Contains pubs, fuel stations, restaurants, etc.
+- feature_city.osm.bz2, feature_city_CBD.osm.bz2, and feature_city_poi.db are the same data as in the above extracts. Quickstarts and overviews use these generic file names since the example city can change with each new release.
 
-OSM data imported to PostGIS Database format: 
-
-- Full feature_city.osm datasets
-
-Data imported with osm2pgsql to different projections: 
-
-- osm_local: Imported to lat/lon (epsg:4326)
-
-- osm_local_smerc: Imported to "Google spherical mercator" pseudo-projection for generating Mapnik webtiles
+The OSM feature city data has been imported into a PostGIS database called
+"osm_local" using the osm2pgsql tool. The spatial reference system used for
+this database is latitude-longitude with the WGS84 datum (EPSG code 4326)
+and can be reprojected to other SRSs, such as Spherical-mercator, on demand.
+The smaller CBD extract is loaded into another PostGIS database called
+"pgrouting".
 
 
 Details
@@ -71,13 +68,13 @@ Details
 
 **Website:** http://www.osm.org
 
-**License:** CC-By-SA, Open Data Commons Open Database License (ODbL)
+**License:** Open Data Commons Open Database License (ODbL)
 
 **Data Version:** Live database
 
 **Data format:** XML
 
-**Spatial coordinate system:** Lat-Long WGS84
+**Spatial coordinate system:** Latitude-Longitude WGS84
 
 **Support:** http://wiki.osm.org
 
