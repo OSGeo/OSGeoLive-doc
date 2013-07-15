@@ -22,7 +22,7 @@ Erforsche die 1-D to 4-D Beispiele
 ==================================
 
 OSGeo Live enthält eine Vielzahl interaktiver 1D bis 4D rasdaman-Demos.
-    * Erforsche die `multi-dimensionalen Demos <http://localhost:8080/earthlook/index.php>`_.
+    * Erforsche die `multi-dimensionalen Demos <http://localhost/rasdaman-demo>`_.
     * Die kleineren Demos sind Teil von OSGeo-Live, die größeren (jenseits der Kapazität dieses Laufwerks), leiten weiter zum `Showcase für OGC Standards <http://standards.rasdaman.org>`_ .
 
 

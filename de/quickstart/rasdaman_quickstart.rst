@@ -26,7 +26,7 @@ Um mit den Beispielen arbeiten zu können, ist der rasdaman Server zu starten (:
 Erkunden der 1-D bis 4-D Beispiele
 ==================================
 
-    * Sie können die rasdaman `Demo <http://localhost/rasdaman-demo/index-osgeolive.php>`_ lokal aufrufen, um einige Demodatensätze anzuschauen. Die kleineren sind Teil von OSGeo-Live, die die größere Datensätze verwenden verweisen direkt auf die `Earthlook Demo Seite <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ (Internetzugang wird benötigt).
+    * Sie können die rasdaman `Demo <http://localhost/rasdaman-demo>`_ lokal aufrufen, um einige Demodatensätze anzuschauen. Die kleineren sind Teil von OSGeo-Live, die die größere Datensätze verwenden verweisen direkt auf die `Earthlook Demo Seite <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ (Internetzugang wird benötigt).
 
 Anfragen lokal ausführen
 ========================
