@@ -297,7 +297,7 @@ Selecting the output file format
    
 #. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
 #. Select :menuselection:`Layer --> Export to... --> Shapefile` to start the export.
-#. Select *Shape Format".
+#. Select *Shape Format*.
 #. Click on *Next*.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_023_.png

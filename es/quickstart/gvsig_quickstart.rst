@@ -44,7 +44,7 @@ Esta guía de inicio rápido describe como...
 .. contents:: Contents
 
 .. note:: Si el interfaz de gvSIG deja de responder pruebe a presionar :kbd:`Alt+f`.
-          Esto abrirá el menú *File" y a partir de ese momento el interfaz volverá
+          Esto abrirá el menú *File* y a partir de ese momento el interfaz volverá
           a responder. Este error es propio de la distribución de gvSIG para OSGeo-Live
           No se produce en una instalación normal.
 
@@ -245,7 +245,7 @@ Añadiendo una capa al localizador
 #. En la ventana de añadir capa, haga click en el botón :guilabel:`Add`.
 #. Seleccione el fichero ``HYP_50M_SR_W.tif``.
 #. Haga clic en el botón :guilabel:`Open` para volver a la ventana de añadir capa.
-#. Haga clic en el botón :guidable:`Ok` y cierre el configurador del localizador.
+#. Haga clic en el botón :guilabel:`Ok` y cierre el configurador del localizador.
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_017_.png
    :scale: 55 
