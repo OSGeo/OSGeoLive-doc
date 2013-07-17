@@ -109,7 +109,7 @@ A selection of background maps are available on which data can be projected. Sel
 Changing the map projection
 ---------------------------
 
-The map projection is changed by selecting a new background map as above. If the background map is in a different projection then the data overlay will be automatically reprojected into the new coordinate system. Commonly, Godiva2 websites will give the option to select a background map in north or south polar stereographic projection. There may be a delay before the map appears in the new projection.
+The map projection is changed by selecting a new background map as above. If the background map is in a different projection then the data overlay will be automatically reprojected into the new coordinate system. Godiva2 provides the option to select a background map in north or south polar stereographic projection. There may be a delay before the map appears in the new projection.
 
 .. image:: ../../images/screenshots/1024x768/ncWMS-04-north_pole.png
     :scale: 55 %
