@@ -1,7 +1,8 @@
 :Author: Simon Cropper
 :Reviewer: Jorge Sanz
+:Reviewer: Manuel Madrid
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -23,13 +24,21 @@ gvSIG into the ideal tool for users working in the land realm.
 
 This quickstart describes how to...
 
-* Add projection, raster and vector data to a view;
-* Navigate around;
-* Change layers;
-* Select features;
-* Create a map with a graticule;
+* Add projection, raster and vector data to a view
+* Navigate around
+* Change layers
+* Select features
+* Create a map with a graticule
+* Save the project and exit gvSIG
+* Install an add-on (OpenStreetMap service)
+* Load a WTMS layer
 
 .. contents:: Contents
+
+.. note:: If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open
+          the file menu for example. User interface should work again, then. This
+          bug only happens in the gvSIG distro for OSGeo-Live. It doesn't appear
+          in a normal gvSIG installation.
 
 Start gvSIG and create a view
 ================================================================================
@@ -44,9 +53,9 @@ about a minute to startup.
    :menuselection:`File --> New Project`. When prompted, you can select 
    :menuselection:`Discard Changes` as we won't be using the last project.
 
-#. Click on the :guilabel:`New` button to create a view.
+#. Click on the :guilabel:`New` button to create a view. It will be opened automatically.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_001.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_001_.png
    :scale: 55 
 
 Define the projection of your view
@@ -55,18 +64,16 @@ Define the projection of your view
 Open the view properties dialog
 --------------------------------------------------------------------------------
 
-#. Select the newly created view. By default it is titled ``Untitled - 0`` but
-   may be ``Untitled - 1`` if you created then deleted a view already. 
-#. Click on the :guilabel:`Properties` button to open the **View properties** dialog.
-#. Click on the :guilabel:`...` button following the :guilabel:`Current projection`. 
-   This will open the **New CRS** dialog.
+#. Select :menuselection:`View --> Properties`. 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_002.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_002_.png
    :scale: 55 
 
 Defining your Coordinate Reference System
 --------------------------------------------------------------------------------
 
+#. Click on the :guilabel:`...` button following the :guilabel:`Current projection`. 
+   This will open the **New CRS** dialog.
 #. Using the dropdown list for :guilabel:`Type`, select EPSG.
 #. Enter the EPSG code for the Coordinate Reference System. For this example 
    we are using EPSG=4326, which is the WGS84 2D Geographic Projection. Then
@@ -74,24 +81,17 @@ Defining your Coordinate Reference System
    below the search input field.
 #. Select :guilabel:`OK` to return to the **View Properties** dialog.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_003.png
-   :scale: 55 
+Note that the EPSG code is now 4326 and that the map units have changed to degrees.
 
-Saving the view properties
---------------------------------------------------------------------------------
-
-#. Note that the EPSG code is now 4326 and that the map units have changed to 
-   degrees.
 #. Select :guilabel:`OK` to return to the **Project Manager**.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_004.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_003_.png
    :scale: 55 
 
-Open the view
+
+Knowing the parts of a view
 --------------------------------------------------------------------------------
    
-#. Select the newly created view.
-#. Click on the :guilabel:`Open` button to open the *View*.
 #. The view window consists of three zones.
 #. The top-left cell contains a list of vector or raster layers being used in 
    the view (i.e. Table-of-Contents).
@@ -99,67 +99,44 @@ Open the view
    vector file.
 #. The right cell is the main display area where raster and vector data is 
    rendered.
-#. Select the :guilabel:`Maximise window` icon to have the view occupy the entire screen.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_005.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_005_.png
    :scale: 55 
 
 The View - adding raster and vector data
 ================================================================================
 
-Open the add layer dialog
+Adding layers from files
 --------------------------------------------------------------------------------
    
 #. Click on the :guilabel:`Add layer` icon in the main toolbar to open the **Add layer** dialog.
 #. Select :guilabel:`Add` in the **Add layer** dialog. By default the first tab is *File* 
    so the **Open** file dialog will appear.
 #. Drill down to the ``/usr/local/share/data/natural_earth2/`` directory.
-
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
-   :scale: 55 
-
-Selecting a raster file
---------------------------------------------------------------------------------
-   
-#. Select *gvSIG Raster Driver* from the file type dropdown list. By default 
-   the shapefile driver is used so the directory may appear empty. 
-#. Select ``HYP_50M_SR_W.tif``.
-#. Click on the :guilabel:`OK` button to return to the **Add layer** dialog.
-
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_007.png
-   :scale: 55 
-
-Selecting vector files
---------------------------------------------------------------------------------
-  
-#. The **Add layer** dialog now has the raster file listed.
-#. Select the :guilabel:`Add` button to add some vector files. The **Open** files dialog 
-   will appear.
-#. Select the :guilabel:`Up one level` button in the menu to change the directory to the 
-   ``/usr/local/share/data/natural_earth2/`` directory.
-#. Select :guilabel:`gvSIG shp driver` from the file type dropdown list.
-#. Select the ``ne_10m_admin_1_states_provinces.shp``, ``ne_10m_populated_places.shp`` and 
-   ``ne_10m_rivers_lake_centerlines.shp`` shapefiles from the list. Hold down the control 
-   key to select multiple files.
+#. Select the files as shown in the picture. Note that by default all formats are shown so we can
+   select both vector and raster files at a time by keeping pressed the *control* key.
 #. Click on the :guilabel:`OK` button to return to the **Add layer** dialog.
 #. Click on the :guilabel:`OK` button on the **Add layer** dialog to return to the view.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_008.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_006_.png
    :scale: 55 
 
 The View - basic navigation
 ================================================================================
 
-.. note:: If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open
-          the file menu for example. User interface should work again, then.
+Preparing the view
+--------------------------------------------------------------------------------
 
+#. Click on the :guilabel:`Maximize` icon for a better viewing of the data.
+#. The size of the Table-of-Contents column can be adjusted using the mouse to 
+   help see long file names.
+#. In case the raster layer is on the top it should be moved manually to the bottom.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_008_.png
+   :scale: 55 
 
 Zoom into a region
 --------------------------------------------------------------------------------
-
-Once back at the main view you'll see the vector files super-imposed over 
-the raster file. The colours shown in this screen shot may differ from yours 
-depending on the user preferences.
        
 #. By default the *Zoom in* tool is selected on the main toolbar. 
 #. Use the mouse pointer to draw a bounding box around South-east Australia. 
@@ -168,20 +145,7 @@ depending on the user preferences.
    the bounding box over the selected area. Release the left-mouse button once 
    you have the approximate area defined. 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_009.png
-   :scale: 55 
-
-Fine-scale navigation
---------------------------------------------------------------------------------
-   
-The view will automatically change to show the area within the selected bounding box. 
-
-#. The size of the Table-of-Contents column can be adjusted using the mouse to 
-   help see long file names.
-#. Adjust what is shown in the view by using the highlighted tools, so that 
-   Victoria is central. 
-
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_010.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_009_.png
    :scale: 55 
 
 The View - changing how layers look
@@ -195,7 +159,7 @@ Making a polygon transparent
 #. Select the :menuselection:`Properties` submenu.
 #. The **Layer properties** dialog box will appear.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_011.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_010_.png
    :scale: 55 
 
 Changing the symbology of a vector layer
@@ -203,10 +167,17 @@ Changing the symbology of a vector layer
    
 #. Select the :guilabel:`Symbols` tab at the top of the **Layers properties** dialog.
 #. Select :guilabel:`Choose symbol` button so the **Symbol selector** dialog appears.
+
+Removing the fill symbol and changing the border color
+---------------------------------------------------------------------------------
+
 #. Uncheck the :guilabel:`Fill color` box so the polygons are transparent.
+#. Click on the :guilabel:`...` close to :guilabel:`Border color:`.
+#. Choose white as color.
+#. Click on the :guilabel:`OK` button to return to the **Symbol selector** dialog.
 #. Click on the :guilabel:`OK` button to return to the **Layers properties** dialog.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_012.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_012_.png
    :scale: 55 
 
 Changing the labelling of a vector layer
@@ -216,7 +187,7 @@ Changing the labelling of a vector layer
 #. Change the text attributes to those shown on the image, then click on the 
    :guilabel:`Accept` button.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_013.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_013_.png
    :scale: 55 
 
 The result
@@ -227,7 +198,7 @@ file superimposed over a raster file. It is just as easy to have an aerial
 photograph or Digital Terrain Model as a backdrop to your vector data, or
 to show other vector data stored in different formats.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_014.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_014_.png
    :scale: 55 
 
 A user exercise - change the symbology and labelling of the point and line layers
@@ -236,8 +207,40 @@ A user exercise - change the symbology and labelling of the point and line layer
 Following the previous few steps change the symbols, colour and labelling 
 of the rivers and towns to generally match the following screen shot.  
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_015.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_015_.png
    :scale: 55 
+
+Adding an overview or locator
+================================================================================
+
+Opening the Locator setup
+--------------------------------------------------------------------------------
+
+#. Select :menuselection:`View --> Locator setup`.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_016_.png
+   :scale: 55 
+
+Adding a layer to the overview zone
+--------------------------------------------------------------------------------
+
+#. Click on the :guilabel:`Add layer…` button.
+#. Within the Add layer window, click on the :guilabel:`Add` button.
+#. Select the ``HYP_50M_SR_W.tif`` layer.
+#. Click on the :guilabel:`Open` button to return to the Add layer window.
+#. Click on the :guilabel:`Ok` button and close the Configure locator window.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_017_.png
+   :scale: 55 
+
+The result
+--------------------------------------------------------------------------------
+
+Now we can easily know where the view is located in the world.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_018_.png
+   :scale: 55 
+
 
 Simple analysis - select towns within a region
 ================================================================================
@@ -248,24 +251,32 @@ Selecting the region
 #. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the 
    left-mouse-button.
 #. Select the :guilabel:`Select by point` icon in the main toolbar.
-#. Click the polygon representing the State of Victoria. The polygon will 
+#. Click the polygon representing the State of New South Wales. The polygon will 
    go yellow or some other colour depending on your user preferences.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_016.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_019_.png
+   :scale: 55 
+
+Opening the Selection by layer tool
+--------------------------------------------------------------------------------
+   
+#. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
+#. Select :menuselection:`Selection --> Select by layer` to open the **Selection by Layer** dialog
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_020_.png
    :scale: 55 
 
 Selecting the towns contained within a region
 --------------------------------------------------------------------------------
-   
-#. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
-#. Select :menuselection:`View --> Selection --> Selection by layer` to open the **Selection by Layer** dialog
-#. Change the two selection criteria using the dropdown boxes on the left-hand 
-   side of the **Selection by Layer** dialog. Click the :guilabel:`New set` button to 
-   select towns within the selected polygon. 
+
+#. Change the first selection criteria using the dropdown boxes on the left-hand 
+   side of the **Selection by Layer** dialog as shown in the picture.
+#. Change the second selection criteria as shown in the picture.
+#. Click the :guilabel:`New set` button to select towns within the selected polygon. 
 #. Select the :guilabel:`Cancel` button in the **Selection by Layer** dialog to return 
    to the view. 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_017.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_021_.png
    :scale: 55 
 
 Unselect the polygon so you can see what has happened
@@ -273,41 +284,52 @@ Unselect the polygon so you can see what has happened
    
 #. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the left-mouse-button.
 #. Select the 'Clear selection' icon in the main toolbar.
-#. You can now see that the only those towns within Victoria are selected.
+#. You can now see that the only those towns within New South Wales are selected.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_018.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_022_.png
    :scale: 55 
 
-Export the selected towns to a new shapefile
+Export selected features to a new shapefile
+===============================================================================
+
+Selecting the output file format
 --------------------------------------------------------------------------------
    
 #. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
 #. Select :menuselection:`Layer --> Export to... --> Shapefile` to start the export.
-#. The **Export to...** dialog appears. gvSIG recognises that only 26 features 
-   are selected so warns you that only a subset of the shapefile will be 
-   exported. Select the :guilabel:`Yes` button to continue.
-#. The **Save** dialog appears. Give the file a name and save in a 
-   directory of choice. Select the :guilabel:`Save` button to continue. 
-   Note that if you already have a file by the name chosen a warning message 
-   will be shown. 
-#. The **Add layer** dialog appears. Select the :guilabel:`Yes` button to add the new 
-   shapefile to the Table-of-Contents.
+#. Select *Shape Format".
+#. Click on *Next*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_019.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_023_.png
    :scale: 55 
 
-Showing only towns within a region
+Selecting the output file name
 --------------------------------------------------------------------------------
 
-#. Once you return to the view, uncheck ``ne_10m_populated_places.shp`` in 
-   the Table-of-Contents.
-#. Change the symbology and labelling of ``test.shp`` to match the screenshot 
-   below. 
-#. Now the view only includes towns and that occur within the State of Victoria.
-#. Select the :guilabel:`Close window` icon to return to the **Project manager** so we
-   can create a map using this view.
+#. Choose a folder and type the file name.
+#. Click on *Open* and then on *Next*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_020.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_024_.png
+   :scale: 55 
+
+Export options
+--------------------------------------------------------------------------------
+
+#. Choose the option *Selected features* in order to export only the towns of
+   New South Wales.
+#. Click on *Export*.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_025_.png
+   :scale: 55 
+
+The Result
+--------------------------------------------------------------------------------
+
+#. The new layer has been added to the view.
+#. In order to check that the export was ok set the original file as invisible.
+   Only the towns of New South Wales should be shown.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_026_.png
    :scale: 55 
    
 How to create a map
@@ -318,8 +340,6 @@ Create a new map and open it
 
 #. Select the *Map* document type in the **Project Manager**.
 #. Click on the :guilabel:`New` button to create a map.
-#. Select the newly created map. By default it is titled ``Untitled - 0``.
-#. Click on the :guilabel:`Open` button.
 #. An empty map will appear in its own window titled ``Map: Untitled - 0``.
    Note that a series of points are placed over the page. This is called a
    grid or guides and are used to snap elements to while formatting your
@@ -327,10 +347,10 @@ Create a new map and open it
 #. Select the :guilabel:`Maximise window` icon to have the map occupy the entire 
    screen. 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_021.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_027_.png
    :scale: 55 
 
-Insert a view with a grid/graticule
+Insert a view inside the map
 ----------------------------------- 
    
 #. Click on the :guilabel:`Insert view` icon in the main menu
@@ -339,33 +359,21 @@ Insert a view with a grid/graticule
    dragging out the box, only letting go once the the area to be used is 
    complete. This opens the **Properties of view framework** dialog.
 #. Select the *view* created earlier.
-#. Check the :guilabel:`Show Grid` option (this actually creates a graticule).
-#. Click on the :guilabel:`Configure` grid button to open the **Grid settings** dialog.
-#. In the **Grid settings** dialog change the grid interval to 1.0, that is 
-   1 degree between lines representing latitude and longitude.
-#. Select the grid format (use lines rather than points for ease of viewing).
-#. Increase the font size to 14.
-#. Select the :guilabel:`Ok` button to return to the **Properties of view framework** dialog then 
-   select the :guilabel:`Accept` button to exit and return to your map.
+#. Select the :guilabel:`Accept` button to exit and return to your map.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_022.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_028_.png
    :scale: 55 
 
 What else can you do to a map?
 --------------------------------------------------------------------------------
    
-#. Select :menuselection:`Map --> Properties` from the main menu to open the 
-   **Map Properties** dialog box. Unselect the *Visualise Grid* checkbox then 
-   select the :guilabel:`OK` button. The 'snap-to' guides/grid used while formatting 
-   should now be removed from the page and the image should match what is 
-   shown below.  
 #. Additional elements like a scale and north arrow can be added to the map 
    using the icons in the main toolbar or with the submenus in the :menuselection:`Map` menu.
 #. The map can be printed or exported to PDF or Postscript for incorporation 
    into other works.
 #. Select the :guilabel:`Close window` icon to return to the **Project manager**
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_023.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_029_.png
    :scale: 55 
 
 Saving your project or exiting gvSIG
@@ -375,13 +383,119 @@ Saving your project or exiting gvSIG
    menu option, or
 #. Projects can be exited or closed by using the :menuselection:`File --> Exit` menu option.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_024.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_030_.png
+   :scale: 55 
+
+Installing an add-on
+================================================================================
+
+Opening the add-ons manager
+--------------------------------------------------------------------------------
+
+#. Select :menuselection:`Tools --> Addons manager`. After a while it will a appear the
+   *Install package* window.
+#. Within the *Install package* window, select the option *Installation from URL*.
+#. Choose the repo URL shown in the picture.
+#. Click on the *Next* button.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_031_.png
+   :scale: 55 
+
+Finding an add-on
+--------------------------------------------------------------------------------
+
+#. Type 'OpenStreetMap' in the *Fast filter* text box.
+#. Check the add-on called *Formats: OpenStreetMap raster tiles support*.
+#. Click on *Next*.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_032_.png
+   :scale: 55 
+
+Finishing the installation
+--------------------------------------------------------------------------------
+
+#. Click on *Start downloading*.
+#. Then click on *Next*.
+#. Finally click on *Finish*.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_033_.png
+   :scale: 55 
+
+Trying the new add-on: adding a OpenStreetMap layer
+--------------------------------------------------------------------------------
+
+As estated in the message we find after the installation of the add-on, a restart
+is needed.
+
+#. Coming back in gvSIG, within a new view, click on the :guilabel:`Add layer…` button.
+#. Choose the *OSM* tab.
+#. Select one of the available layers.
+#. Click on *Ok*.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_036_.png
+   :scale: 55 
+
+The result
+--------------------------------------------------------------------------------
+
+A new layer has been added to the view. Just doing zoom over a region we could see
+the detailed Open Street Map data.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_037_.png
+   :scale: 55 
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_038_.png
+   :scale: 55 
+
+Adding a WMTS layer
+================================================================================
+
+WMTS is a evolution of WMS OGC standard based on tile management.
+
+Selecting a server
+--------------------------------------------------------------------------------
+
+#. Within a view, click on the :guilabel:`Add layer…` button.
+#. Choose the *WMTS* tab.
+#. Choose the URL shown in the picture.
+#. Click on *Connect*.
+#. Click on *Next*.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_039_.png
+   :scale: 55 
+
+Selecting one of the available layers
+--------------------------------------------------------------------------------
+
+#. Select one of the available layers (e.g. bluemarble)
+#. Click on *Add*.
+#. Click on *Next*.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_040_.png
+   :scale: 55 
+
+Selecting image format and reference system
+--------------------------------------------------------------------------------
+
+#. Select *image/jpeg* as image format.
+#. Select *EPSG:4326* (notice that the view must have the same SRS. If not then
+   cancel, change it and start again).
+#. Click on *Accept*.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_041_.png
+   :scale: 55 
+
+The result
+--------------------------------------------------------------------------------
+
+A new layer has been added to the view.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_042_.png
    :scale: 55 
 
 Where to from here...
 ================================================================================
 
-Some English help and tutorials are available on the 
-`gvSIG <http://www.gvsig.org/web/docusr/learning/>`__ website. 
-
-
+* `User manuals <http://www.gvsig.org/web/projects/gvsig-desktop/docs/user/view?set_language=en>`_
+* `Courses and tutorials <http://www.gvsig.org/web/docusr/learning/gvsig-courses-1/view?set_language=en>`_
+* `Videos <http://www.gvsig.org/web/projects/gvsig-desktop/tour/videos/view?set_language=en>`_
+* `gvSIG Blog <http://blog.gvsig.org/category/languages/english/>`_

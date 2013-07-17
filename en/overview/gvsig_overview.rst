@@ -1,6 +1,6 @@
 :Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -38,7 +38,7 @@ gvSIG is known for:
   enhancement, as well as enabling the development of tailor-made solutions.
 * being available in over 20 languages (Spanish, English, German, French, 
   Italian,...) .
-* being available for Windws, Linux, and Mac OS X platforms:
+* being available for Windows and Linux (there are also non-oficial Mac OS X distros though):
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -57,8 +57,8 @@ Core Features
 
 * Interoperable: able to work with most known data formats:
 
-  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * vector & CAD: shapefile, GML, KML, DGN, DXF, DWG
+  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
+  * vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG,
   * databases: PostGIS, MySQL, Oracle, ArcSDE
   * remote: ECWP, ArcIMS, OGC standards
 
@@ -95,7 +95,7 @@ Implemented Standards
 
 Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 
-* Load WMS, WFS and WCS layers
+* Load WMS, WMTS, WFS and WCS layers
 * Export/import of SLD legends
 * Export/import of Web Map Context (WMC)
 * Search on catalogues with  CSW (ISO/19115 and ebRIM)
@@ -108,9 +108,9 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.12
+**Software Version:** 2.0
 
-** Supported Platforms:** Windows, Linux, Mac
+** Supported Platforms:** Windows, Linux
 
 **Support:** http://www.gvsig.org/web/organization/services
 

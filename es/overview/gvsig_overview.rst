@@ -1,7 +1,7 @@
 :Author: Jorge Sanz
 :Translator: Jorge Sanz
 :Translator: David Mateos
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _gvsig-overview-es:
@@ -63,8 +63,8 @@ Características principales
   
 * Interoperable: es posible trabajarcon los formatos de datos más comunes:
 
-  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * vectorial & CAD: shapefile, GML, KML, DGN, DXF, DWG
+  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
+  * vectorial & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * bases de datos geográficas: PostGIS, MySQL, Oracle, ArcSDE
   * datos remotos: ECWP, ArcIMS, estándares OGC
 
@@ -74,7 +74,7 @@ Características principales
   * Catálogo: Z3950, SRW, CSW (ISO/19115 y ebRIM)
   * Nomenclátor: ADL, WFS, WFS-G
 
-* Más de 340 algoritmos de geoprocesamiento a través de la biblioteca SEXTANTE
+* Más de 300 herramientas de geoprocesamiento, incluidos los algoritmos de la biblioteca SEXTANTE
 
 * Herramientas CAD integradas:
 
@@ -102,7 +102,7 @@ Estándares implementados
 Cliente avanzado con soporte para numerosos estándares del 
 *Open Geospatial Consortium* (OGC)
 
-- Carga de capas WMS, WFS y WCS
+- Carga de capas WMS, WMTS, WFS y WCS
 - Exportación/importación de leyendas SLD
 - Exportación/importación de *Web Map Context* (WMC)
 - Búsqueda en catálogos mediante el estándar CSW (ISO/19115 y ebRIM)
@@ -115,7 +115,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión Software:** 1.12
+**Versión Software:** 2.0
 
 **Plataformas Soportadas:** Windows, GNU/Linux
 
