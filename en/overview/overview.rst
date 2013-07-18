@@ -115,7 +115,7 @@ Geospatial Libraries
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - C/C++ Spatial Library 
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations 
-* :doc:`liblas_overview` - LiDAR Data Access 
+* :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 
 
 Other software of interest (not available Live)
