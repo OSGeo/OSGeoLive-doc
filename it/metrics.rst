@@ -24,7 +24,7 @@ GIS generali visualizzazione, editing, and analisi sul desktop:
   <script type="text/javascript" src="http://www.ohloh.net/p/3663/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/grass_gis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop-2/widgets/project_factoids_stats.js"></script>  
+  <script type="text/javascript" src="http://www.ohloh.net/p/gvsig-desktop-2/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/udig/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/9819/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/saga-gis/widgets/project_factoids_stats.js"></script>
@@ -97,7 +97,6 @@ Strumenti OpenStreetMap
 
   <script type="text/javascript" src="http://www.ohloh.net/p/josm/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
 
 Mancanti:
 
@@ -109,6 +108,7 @@ Strumenti specifici per analisi:
 
 .. raw:: html
 
+  <script type="text/javascript" src="http://www.ohloh.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/GMT/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapnik/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/maptiler/widgets/project_factoids_stats.js"></script>
@@ -123,7 +123,6 @@ Applicazioni mirate ad uno specifico ambito:
 
 .. raw:: html
 
-  <script type="text/javascript" src="http://www.ohloh.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/sahanapy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/ushahidi/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/osgearth/widgets/project_factoids_stats.js"></script>
@@ -159,10 +158,10 @@ Mancanti:
 * GeoTIFF/libgeotiff (C++). 
 * Proj4J (Java). 
 
-
 Altri software di interesse (non disponibile Live)
 --------------------------------------------------------------------------------
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/mapwindowgis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapguide/widgets/project_factoids_stats.js"></script>
+

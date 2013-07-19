@@ -1,6 +1,7 @@
 .. Writing Tip:
   there a several replacements defined in conf.py in the root doc folder
   do not replace |osgeolive-iso-size|, |osgeolive-iso-mini-size| and |osgeolive-vm-7z-size|
+  La dimensione attuale ISO sono definite in setting.py.
 
 Download
 ================================================================================
@@ -8,7 +9,7 @@ Download
 L'ultima versione stabile di |osgeo-live-version| :
 
 .. image:: ../images/download_buttons/download-dvd.png
-  :alt: Scarica file iso con l'installer per windows e mac
+  :alt: Scarica file iso con l'installer per windows
   :align: left
   :target: http://download.osgeo.org/livedvd/release/6.5/osgeo-live-6.5.iso/download
 

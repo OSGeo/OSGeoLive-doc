@@ -52,10 +52,10 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
    .. toctree::
      :maxdepth: 1
 
-     Iniziare con il OSGeo-Live DVD <quickstart/osgeolive_quickstart>
+     Iniziare con OSGeo-Live DVD <quickstart/osgeolive_quickstart>
      Cambiare il linguaggio o il tipo di tastiera <quickstart/internationalisation_quickstart>
      Installare OSGeo-Live nel vostro hard disk <quickstart/osgeolive_install_quickstart>
-     Eseguire OSGeo-Live in una Macchina Virtuale <quickstart/virtualbox_quickstart>
+     Eseguire OSGeo-Live in una Macchina Virtuale <quickstart/virtualization_quickstart>
      Creare una OSGeo-Live avviabile su una unità USB <quickstart/usb_quickstart>
 
    .. toctree::
