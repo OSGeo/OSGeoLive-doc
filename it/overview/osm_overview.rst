@@ -23,9 +23,9 @@ che tu pensi essere libere attualmente hanno restrizioni legali o tecniche nei l
 usi, holding back people from using them in creative, productive or
 unexpected ways.
 
-Cinque programmi sono stati inclusi: JOSM, Merkaartor, Gosmore, Osmarender e
-Osm2pgsql. Inoltre sono inclusi dati di esempio per una città e un vasto numero
-di plugins per JOSM.
+Diversi programmi sono stati inclusi: JOSM, Merkaartor, Osmosis, Osm2pgsql e alcuni
+piccoli strumenti da linea di comando. Inoltre sono inclusi dati di esempio per una
+città e un vasto numero di plugins per JOSM.
 
 
 Caratteristiche principali
@@ -40,9 +40,8 @@ Caratteristiche principali
 
 * Un numero di software per editare tra cui scegliere
 
-* Un numero di software per restituzione cartografiche tra cui scegliere (inclusi 
-  personalizzato e online)
-  
+* Un numero di software per restituzione cartografiche tra cui scegliere (inclusi personalizzato e online)
+
 * Libero da usare
 
 * La diffusa integrazione delle applicazioni geospaziali
@@ -64,13 +63,6 @@ Dettagli
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
-* Osmosis: 0.40.1 
-
-* Gosmore: Public Domain and GPLv2
-
-.. <!-- see /usr/share/doc/gosmore/copyright -->
-
-* Osmarender: GNU General Public License (GPL) version 2
 
 **Versioni dei Software:**
 
@@ -78,11 +70,10 @@ Dettagli
 
 * Merkaartor: 0.17.2
 
-* Gosmore: 2010/07/11
+* Osmosis: 0.40.1
 
-* Osmarender: SVN mid-2011
+* osm2pgsql: SVN version 0.81.0
 
-* osm2pgsql: versione SVN 0.81.0
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows
 

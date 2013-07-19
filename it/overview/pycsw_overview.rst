@@ -2,7 +2,7 @@
 :Author: Tom Kralidis, Angelos Tzotsos
 :Translator: Margherita Di Leo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0-draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -10,6 +10,12 @@
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
+
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
 
 pycsw
 ================================================================================
@@ -33,8 +39,8 @@ pycsw e` Open Source, rilasciato con una licenza MIT, e funziona su tutte le pri
 Caratteristiche di base
 --------------------------------------------------------------------------------
 
-* completamente conforme OGC CSW 2.0.2 
-* supera completamente la test suite OGC CITE CSW (103/103)
+* certificato OGC Compliant e OGC Reference Implementation per OGC CSW 2.0.2
+* supporto per WMS, WFS, WCS, WPS, WAF, CSW, SOS 
 * implementa INSPIRE Discovery Services 3.0
 * implementa ISO Metadata Application Profile 1.0.0
 * implementa FGDC CSDGM Application Profile per CSW 2.0
@@ -42,7 +48,7 @@ Caratteristiche di base
 * implementa OpenSearch 
 * supporta i modelli di metadati ISO, Dublin Core, DIF, FGDC e Atom
 * sviluppo CGI o WSGI
-* configurazione semplice 
+* configurazione semplice
 * capacità transazionali (CSW-T)
 * Configurazione repository flessibile
 * Connessione con GeoNode 
@@ -51,6 +57,7 @@ Caratteristiche di base
 * validazione dello schema XML in tempo reale
 * architettura dei plugin a profilo estendibile 
 * Molto leggero (Python + CGI)
+
 
 Standard implementati
 --------------------------------------------------------------------------------
@@ -61,7 +68,7 @@ Standard OGC:
 * Filter 	1.1.0
 * OWS Common 	1.0.0
 * GML 	3.1.1
-* OGC SFSQL     1.2.1 
+* OGC SFSQL 	1.2.1
 
 Standard di metadati:
 
@@ -72,8 +79,8 @@ Standard di metadati:
 * ISO 19119 	2005
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
-* SRU   1.1 
-* A9 OpenSearch         1.1 
+* SRU 	1.1
+* A9 OpenSearch 	1.1
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -82,7 +89,7 @@ Dettagli
 
 **Licenza:** `MIT`_
 
-**Versione software:** 1.4.0
+**Versione software:** 1.6.0
 
 **Piattaforme supportate:** Windows, Linux, Mac
 
@@ -92,8 +99,8 @@ Dettagli
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
-.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104 
-.. _`OGC Reference Implementation`: http://demo.pycsw.org/ 
+.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`OGC Reference Implementation`: http://demo.pycsw.org/
 
 Guida rapida
 --------------------------------------------------------------------------------

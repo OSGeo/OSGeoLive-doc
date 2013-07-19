@@ -1,7 +1,7 @@
 :Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Antonio Falciano
-:Version: osgeo-live6
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -40,7 +40,8 @@ gvSIG è noto per:
   così come lo sviluppo di soluzioni su misura.
 * è disponibile in oltre 20 linguaggi (spagnolo, inglese, tedesco, francese, 
   italiano, ecc.).
-* è disponibile per i sistemi operativi Windows, Linux e Mac OS X:
+* è disponibile per i sistemi operativi Windows, Linux (esistono anche distribuzione
+  non ufficiali per Mac OS X):
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -59,18 +60,17 @@ Caratteristiche principali
 
 * Interoperabilità: è in grado di lavorare con i formati di dati più comuni:
 
-  * raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * vettoriali: shapefile, GML, KML, DGN, DXF, DWG
+  * raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
+  * vettoriali: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * database: PostGIS, MySQL, Oracle, ArcSDE
   * remoti: ECWP, ArcIMS, OGC standards
 
-* Comprende client di ricerca di geodati (servizi di catalogo e gazeteer)
+* Comprende client di ricerca per localizzare risorse di dati con una SDI (servizi di catalogo e gazeteer)
   
   * Cataloghi: Z3950, SRW, CSW (ISO/19115 e ebRIM)
   * Gazetteer: ADL, WFS, WFS-G
   
-* Comprende diverse centinaia di geoalgoritmi tramite la libreria SEXTANTE e 
-  l'integrazione con GRASS, SAGA ed R.
+* Più di 340 geoalgoritmi tramite la libreria SEXTANTE
   
 * Comprende strumenti CAD avanzati:
 
@@ -78,7 +78,7 @@ Caratteristiche principali
   * riga di comando tipica dei software CAD
   * strumenti come l'help, grid, lista dei comandi, selezione complessa di elementi
   * strumenti per l'inserimento di elementi come punti, poligoni, linee, ellissi, ecc.
-  * strumenti per modificare le proprietà degli elementi (rotazione, simmetria, ecc.)
+  * strumenti per modificare le proprietà rotazione, simmetria,...
     
 * Comprende strumenti raster avanzati:
 
@@ -89,7 +89,6 @@ Caratteristiche principali
   * gestione delle piramidi e delle regioni di interesse (ROI)
 
 * Supporto scripting
-
 * Potente motore di riproiezione via PROJ4
 
 
@@ -98,7 +97,7 @@ Standard implementati
 
 Supporto client avanzato di numerosi standard dell'Open Geospatial Consortium (OGC)
 
-* Caricamento di layer WMS, WFS e WCS
+* Caricamento di layer WMS, WMTS, WFS e WCS
 * Esportazione/importazione di legende SLD
 * Esportazione/importazione di Web Map Context (WMC)
 * Ricerca su cataloghi con CSW (ISO/19115 e ebRIM)
@@ -111,9 +110,9 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Ultima versione stabile del software:** 1.12
+**Ultima versione stabile del software:** 2.0
 
-**Sistemi operativi supportati:** Windows, Linux, Mac
+**Sistemi operativi supportati:** Windows, Linux
 
 **Supporto:** http://www.gvsig.org/web/organization/services
 

@@ -62,36 +62,33 @@ Set di Dati inclusi in OSGeo-Live
 - Nottingham_CBD.osm.bz2: Un sottoinsieme più piccolo del solo distretto del
   quartiere centrale.
 
-- feature_city.osm.bz2 e feature_city_CBD.osm.bz2 sono anche estratti della città.
+- Nottingham_poi.db: Database Sqlite con "punti di interesse" estratti dal precedente
+  estratto della grande città OSM. Contiene la localizzazione di pub, distributori,
+  ristoranti, supermarket, ecc.
+
+- feature_city.osm.bz2, feature_city_CBD.osm.bz2 e feature_city_poi.db sono anche estratti della città.
   Le guide rapide e le overview usano questi i nomi di questi file al fine di evitare
   possibili cambiamenti delle città di esempio a seconda dei diversi rilasci.
 
-- feature_city_poi.db
-
-Dati OSM importati in database PostGIS: 
-
-- Il dataset completo di feature_city.osm
-
-Dati importortati con osm2pgsql in due differenti sistemi di proiezione
-
-- osm_local: importato in lat/lon (epsg:4326) 
-
-- osm_local_smerc: importato nella pseudo-proiezione "Google spherical mercator" per
-  generate tile web con Mapnik
-
+I dati OSM degli elementi della città sono stati importati dentro un database PostGIS chiamato
+"osm_local" usando lo strumento osm2pgsql. Il sistema di riferimento spaziale usato per
+questo database è latitude-longitude con il datum WGS84 (EPSG code 4326)
+e può essere riproittato in altri SRSs, per esempio Spherical-mercator, su richiesta.
+L'estratto più piccolo CBD è caricato in un altro database PostGIS chiamato
+"pgrouting".
 
 Dettagli
 --------------------------------------------------------------------------------
 
 **Sito Web:** http://www.osm.org
 
-**Licenza:** CC-By-SA, Open Data Commons Open Database License (ODbL)
+**Licenza:** Open Data Commons Open Database License (ODbL)
 
 **Versione dei Dati:** Live database
 
 **Formato dei Dati:** XML
 
-**Sistema di coordinate spaziali:** Lat-Long WGS84
+**Sistema di coordinate spaziali:** Latitudine-Longitudine WGS84
 
 **Supporto:** http://wiki.osm.org
 

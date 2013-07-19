@@ -30,11 +30,12 @@ Web GIS clients
 GIS generali per visualizzazione, modifiche, e analisi sul browser:
 
 * :doc:`openlayers_overview` - [:doc:`Guida rapida <../quickstart/openlayers_quickstart>`] - Client GIS per browser internet
+* :doc:`leaflet_overview` - Mappa interattive mobile semplici
 * :doc:`geomajas_overview` - [:doc:`Guida rapida <../quickstart/geomajas_quickstart>`] - Client GIS per browser internet
 * :doc:`mapbender3_overview` - [:doc:`Guida rapida <../quickstart/mapbender3_quickstart>`] - Ambiente per geo portali 
 * :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping 
 * :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
-* :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - CMS geospaziale
+* :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
 
 Servizi Web
 --------------------------------------------------------------------------------
@@ -48,11 +49,12 @@ Publicare dati spaziali su internet:
 * :doc:`pycsw_overview` - [:doc:`Guida rapida <../quickstart/pycsw_quickstart>`] - Catalogo per i Metadati
 * :doc:`mapproxy_overview` - [:doc:`Guida rapida <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
 * :doc:`qgis_mapserver_overview` - [:doc:`Guida rapida <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* :doc:`52nWSS_overview` - [:doc:`Guida rapida <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview` - [:doc:`Guida rapida <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`Guida rapida <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Guida rapida <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`Guida rapida <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`ncWMS_overview` - [:doc:`Guida rapida <../quickstart/ncWMS_quickstart>`] - Web Map Service
+.. disabled: * :doc:`52nWSS_overview` - [:doc:`Guida rapida <../quickstart/52nWSS_quickstart>`] - Web Security Service
 
 Database
 --------------------------------------------------------------------------------
@@ -78,7 +80,7 @@ Strumenti speficici per analisi:
 * :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 * :doc:`gmt_overview` - [:doc:`Guida rapida <../quickstart/gmt_quickstart>`] - Restituzione cartografica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
+* :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
 * :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Creazione di Map Tiles
 * :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
@@ -108,26 +110,29 @@ Set di dati spaziali:
 Librerie geospaziali
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
+* :doc:`gdal_overview`  - [:doc:`Guida rapida <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - Libreria spaziale C/C++ 
 * :doc:`metacrs_overview` - Trasformazioni del sistema di riferimento delle coordinate
-* :doc:`liblas_overview` - Accesso ai LiDAR
+* :doc:`liblas_overview` - [:doc:`Guida rapida <../quickstart/liblas_quickstart>`] - Accesso ai LiDAR
 
 
 Altri software di interesse (non disponibili nella Live)
 --------------------------------------------------------------------------------
 Disponibile solo su microsoft windows:
 
-* :doc:`mapwindow_overview` - [:doc:`Guida rapida <../quickstart/mapwindow_quickstart>`] - GIS per Microsoft Windows
+.. MapWindow is windows based (.net) and won't run on Ubuntu
 
+* :doc:`mapwindow_overview` - [:doc:`Guida rapida <../quickstart/mapwindow_quickstart>`] - GIS per Microsoft Windows
 
 Disponibile nelle precedenti versioni di OSGeo-Live:
 
+.. MapGuide temporarily disabled to save on disc space;
+
 * :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0
-* :doc:`geopublisher_overview` - [:doc:`Guida rapida <../quickstart/geopublisher_quickstart>`] - Catalogo, ritirato dopo 6.0
-* :doc:`atlasstyler_overview` - [:doc:`Guida rapida <../quickstart/atlasstyler_quickstart>`] - Editor per stili, ritirato dopo 6.0
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo 6.0
+* `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo 6.0
 
 
 Programmi d'installazione per Windows e Apple

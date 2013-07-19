@@ -29,7 +29,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://postgis.refractions.net/
+  :target: http://www.postgis.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -69,7 +69,6 @@ ed è attualmente il database spaziale libero più diffuso. PostGIS è usato da 
 organizzazioni in tutto il mondo, compresi agenzie governative avversi al rischio e 
 organizzazioni che memorizzano terabyte di dati e che servono milioni di richieste Web al giorno 
 
-.. including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day.
 
 L'amministrazione del database è possibile per desktop e web attraverso pgAdmin, phpPgAdmin, e altri.
 Importazione/esportazione dei dati può essere fatta con strumenti a linea di comando 
@@ -115,7 +114,7 @@ Standard implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito Web:** http://postgis.refractions.net/
+**Sito Web:** http://www.postgis.net
 
 **Licenza:** GNU General Public License (GPL) version 2
 

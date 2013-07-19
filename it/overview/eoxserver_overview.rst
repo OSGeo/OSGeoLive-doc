@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
@@ -39,7 +39,7 @@ Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Visualizzazione, filtro, subset e scaricamento EO data
-* Caricamento e/o registrazione di set di dati EO esterni 
+* Registrazione di set di dati EO
 * Interfaccia di amministrazione sul web e da linea di comando
 * Pubblicazione dei dati attraverso standard :doc:`Open Geospatial Consortium (OGC) 
   <../standards/standards>`:
@@ -56,15 +56,13 @@ Caratteristiche principali
 
     * 2-D EO Coverages derivato da gmlcov:RectifiedGridCoverage
     * 2-D EO Coverages derivato da gmlcov:ReferenceableGridCoverage
-    * Dataset Series come un collezione di EO Coverages es. in una 
-      serie temporale
+    * Dataset Series come un collezione di EO Coverages es. in una serie temporale
     * Stitched Mosaic of Rectified EO Coverages including contributingFootprint
 
 * Formati supportati per Coverage:
 
  * GeoTIFF
- * Formati supportati della libreria GDAL (il supporto necissita che ogni formato
-   sia verificato singolarmente) 
+ * Formati supportati della libreria GDAL
 
 Standard implementati
 --------------------------------------------------------------------------------
@@ -73,7 +71,6 @@ Standard implementati
   * WMS, EO-WMS
   * GML, GMLCOV, EO-O&M
 
-
 Dettagli
 --------------------------------------------------------------------------------
 
@@ -81,7 +78,7 @@ Dettagli
 
 **Licenza:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Versione Software:** 0.2.3
+**Versione Software:** 0.3.0
 
 **Piattaforme Supportate:** Linux, Windows, Mac
 

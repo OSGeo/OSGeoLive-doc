@@ -64,11 +64,11 @@ Dettagli
 
 **Licenza:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
-**Versione software:** 2.0.8
+**Versione software:** 2.1.0
 
 **Piattaforme supportate:** Windows, Linux, FreeBSD
 
-**Interfacce API:** C++
+**Interfacce API:** C++, Python, R
 
 **Supporto:** http://www.saga-gis.org
 

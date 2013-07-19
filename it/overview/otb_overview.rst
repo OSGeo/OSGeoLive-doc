@@ -36,18 +36,19 @@ Caratteristiche principali
   :alt: screenshot
   :align: right
 
-* accesso alle immagini: accesso ottimizzato in lettura/scrittura per la maggior parte dei formati di immagini telerilevate (incluso Jpeg2000), accesso e visualizzazione dei metadata
-* ortorettificazione e riproizione di mappe
+* accesso alle immagini: accesso ottimizzato in lettura/scrittura per la maggior parte dei
+ formati di immagini telerilevate (incluso Jpeg2000), accesso e visualizzazione dei metadata
+* ortorettificazione, riproizione di mappe e miglioramento dei modelli dei sensori
 * calibrazione
 * fusione di immagini
 * filtraggio: blurring, denoising, enhancement...
 * estrazione di elementi: punti d'interesse, allineamenti, linee...
 * rilevamento oggetti
 * segmentazione d'immagine a larga scala: region growing, mean-shift, watershed, level sets...
-* classificazione: K-means, SVM, Markov random fields
+* classificazione: K-means, SVM, Markov random fields, accesso ad algoritmi di machine learning da OpenCV 
 * analisi di immagini basato sugli oggeti
 * analisi geospaziali
-* ricostruzione stereografica per coppie di immagini
+* ricostruzione stereografica per immagini
 * analisi dati SAR
 * rilevamento dei cambiamenti
 
@@ -56,9 +57,9 @@ Dettagli
 
 **Sito Web:** http://www.orfeo-toolbox.org/
 
-**Licenza:** CeCILL (CeCILL è compatibile con GPL e enhanced to  address French law)
+**Licenza:** CeCILL (CeCILL è compatibile con GPL e indirizzato alla legge francese)
 
-**Versione Software:** 3.14.1 (rilasciato nel Ottobre 2012)
+**Versione Software:** 3.18 (rilasciato nel Luglio 2013)
 
 **Piattaforme Supportate:** Linux, Mac, Windows
 
