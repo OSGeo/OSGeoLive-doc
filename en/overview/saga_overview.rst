@@ -67,7 +67,7 @@ Details
 
 **Supported Platforms:** Windows, Linux, FreeBSD
 
-**API Interfaces:** C++, python, R
+**API Interfaces:** C++, Python, R
 
 **Support:** http://www.saga-gis.org
 
