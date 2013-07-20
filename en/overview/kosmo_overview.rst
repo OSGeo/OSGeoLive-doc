@@ -62,7 +62,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0.1
+**Software Version:** 3.0 RC2
 
 **Supported Platforms:** Windows, Linux
 
