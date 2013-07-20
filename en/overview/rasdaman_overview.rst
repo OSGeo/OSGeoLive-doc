@@ -55,7 +55,7 @@ Details
 * clients and APIs: GNU Lesser General Public License (LGPL) version 3
 * server engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.4
+**Software Version:** 8.4.2
 
 **Supported Platforms:** Linux, MacOS, Solaris
 
