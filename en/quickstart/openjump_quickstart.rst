@@ -10,8 +10,7 @@ OpenJUMP Quickstart
 ********************************************************************************
 
 OpenJUMP is a desktop GIS program that allows for easy viewing and editing 
-of vector GIS data. It also has limited support for the viewing of raster
-data.
+of vector GIS data. The PLUS edition also support analysis of raster data.
 
 This Quick Start describes how to:
 
@@ -40,7 +39,7 @@ The OpenJUMP user interface has four (4) basic components as most other desktop 
 second is a main toolbar that sits just below the menu bar. The buttons give 
 access to the most important display and navigation functions. (iii) The third 
 is a tree view on the left that shows the layer list of the active project. 
-(iv) The fourth is the layer view. This is the actual map where a graphical 
+(iv) The fourth is the map view. This is the actual map where a graphical 
 representation of the spatial data in each layer is given. Finally there is an 
 information bar at the bottom displaying mouse pointer coordinates, processing 
 reports, and memory usage. A project window contains a layer list and a layer 
@@ -61,7 +60,7 @@ to open files containing geospatial data. In our example, you want to browse for
 an ESRI shapefile. Look for a file with the .shp extension (e.g. on the LiveDVD 
 under `/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`). Select the file 
 and click the [Finish] button on the dialog. After a few moments, you will be able 
-to see the data from your shapefile in the Layer View. You will also see a new 
+to see the data from your shapefile in the Map View. You will also see a new 
 layer created for your data in the Layer List. The name of the layer will match 
 the name of the shapefile.
 
@@ -78,11 +77,11 @@ This section of the quick start briefly explains how to style a layer.
 In the Layer List, right click* on the layer name. This will show a pop-up menu. 
 Go to the [Style] menu entry and then choose [Change Styles...]. The Change Styles 
 dialog has five (5) tabs that allow you to change how the layer is displayed in 
-the Layer View. This includes changing the stroke color, the fill color, line
+the Map View. This includes changing the stroke color, the fill color, line
 style and line thickness, transparency, adding labels, and determining at which 
 maximum and minimum scales the layer is displayed at.
 
-* MacOSX users press the :guilabel:`Apple` key to access this menu.
+* MacOSX users press the :guilabel:`Ctrl` key to access this menu.
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_03.png
    :scale: 55 
@@ -94,8 +93,8 @@ Edit Feature Geometries in a Layer
 ================================================================================
 
 In the Layer List, right click on the layer name, as in the previous example. 
-This will show a pop-up menu. Check the box next to the Editable menu entry 
-called "Editable". This will open a new floating toolbar over the Layer View 
+This will show a pop-up menu. Click on the menu entry "Editable" so that a check mark
+is shown. This will open a new floating toolbar over the Map View 
 on the right side. This toolbar has a set of buttons that you can use to edit 
 the geometry of a geographic feature.
 
@@ -118,7 +117,7 @@ point (vertex) in the feature geometry.
 Next, click on the button that shows a blue crosshair with a yellow square in the 
 middle, the :guilabel:`Move Vertex Tool` (Hoovering over the buttons gives you a 
 button description). You should now see your mouse cursor change to a small black 
-crosshair when you move it over the Layer View. 
+crosshair when you move it over the Map View. 
 
 .. image:: ../../images/screenshots/1024x768/openjump_ss_08.png
    :scale: 55 
