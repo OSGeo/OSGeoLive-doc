@@ -30,11 +30,11 @@ Features (Core Features and PlugIns*)
 
 * Data Formats
 
-    * reads (files): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW*
+    * reads (files): GML, SHP, DXF+, MIF*, CSV+, KML+ & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
     * reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
-    * reads (OGC standards): WKT, WMS
-    * writes: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF and SVG*
-    * note that formats marked with a (*) come with an extra plugin
+    * reads (OGC standards): WKT, WMS, KML+
+    * writes: GML, SHP, WKT, DXF+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
+    * note, formats marked with a (*) require an additional plugin, and with (+) are part of the PLUS edition.
 
 * Editing & Conflation
 
@@ -48,7 +48,7 @@ Features (Core Features and PlugIns*)
 
     * spatial and attribute query functions
     * analysis : buffer, union, overlay, centroid, convex hull...
-    * statistics : length, area, layer statistics, attribute statistics, graphs...
+    * statistics : length, area, layer statistics, attribute statistics, plots...
     * editing tools : converter, noder, polygonizer, planar graph, topology cleaning in PLUS edition, ...
     * attribute transfer tools : join, matching*
     * SEXTANTE raster analysis toolbox included in PLUS edition
@@ -56,16 +56,24 @@ Features (Core Features and PlugIns*)
 * Customization
 
     * internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
-    * provides an API, scripting via BeanShell and Java Python
+    * provides an API, scripting via BeanShell and Java Python/Ython
     * (Java) plugin-system
    
+
+* Selected new features since last LiveDVD version (OJ 1.5.2 to 1.6.3)
+
+    * creating point layer from attribute table
+    * new triangulation and Voronoi diagram functions
+    * PostGIS read/write now part of the OJ Core
+    * raster layer properties display and pixel inspector
+
 
 Implemented Standards
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS and SLD; (WFS for :doc:`deegree <deegree_overview>`)
+* OGC standards supported: GML2, SFS, WMS, KML and SLD; (WFS for :doc:`deegree <deegree_overview>`)
 
 Details
 --------------------------------------------------------------------------------
