@@ -53,7 +53,7 @@ Core Features
  * 3D visualisation
 
 * Straightforward C++ API for creating new modules
-* Scripting through command line, bindings for python
+* Scripting through command line, bindings for Python
 * SAGA can be accessed from the R statistical language through the RSAGA module
 
 Details
