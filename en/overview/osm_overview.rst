@@ -66,7 +66,7 @@ Details
 
 **Software Versions:**
 
-* JOSM: Latest stable snapshot (svn r5697)
+* JOSM: Latest stable snapshot (svn r6060)
 
 * Merkaartor: 0.17.2
 
