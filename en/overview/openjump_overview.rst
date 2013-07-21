@@ -58,15 +58,6 @@ Features (Core Features and PlugIns*)
     * internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
     * provides an API, scripting via BeanShell and Java Python/Ython
     * (Java) plugin-system
-   
-
-* Selected new features since last LiveDVD version (OJ 1.5.2 to 1.6.3)
-
-    * creating point layer from attribute table
-    * new triangulation and Voronoi diagram functions
-    * PostGIS read/write now part of the OJ Core
-    * raster layer properties display and pixel inspector
-
 
 Implemented Standards
 --------------------------------------------------------------------------------
