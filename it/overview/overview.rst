@@ -32,7 +32,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul browser:
 * :doc:`openlayers_overview` - [:doc:`Guida rapida <../quickstart/openlayers_quickstart>`] - Client GIS per browser internet
 * :doc:`leaflet_overview` - Mappa interattive mobile semplici
 * :doc:`geomajas_overview` - [:doc:`Guida rapida <../quickstart/geomajas_quickstart>`] - Client GIS per browser internet
-* :doc:`mapbender3_overview` - [:doc:`Guida rapida <../quickstart/mapbender3_quickstart>`] - Ambiente per geo portali 
+* :doc:`mapbender_overview` - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali 
 * :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping 
 * :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
 * :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
