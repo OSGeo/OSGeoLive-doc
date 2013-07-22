@@ -1,74 +1,64 @@
 :Author: Peter Baumann
-:Author: Jinsongdi Yu
-:Author: Dimitar Misev
-:Author: Michael Owonibi
-:Author: Alan Beccati
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
-:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Version: osgeo-live4.5
+:License: Creative Commons
+
+.. _rasdaman-overview:
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
  :scale: 100 %
  :alt: project logo
   :align: right
-  :target: http://rasdaman.org
+  :target: http://www.rasdaman.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100
-  :alt: OSGeo Incubation Project
-  :align: right
-  :target: http://www.osgeo.org
 
+********
 Rasdaman
-================================================================================
+********
 
-Multi-Dimensionale Raster-Datenbank
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Multi-dimensionale Big Data Analytics Engine
+============================================
 
-Rasdaman erweitert relationale Standard-Datenbanken um Speicherung und Retrieval von multi-dimensionalen Rasterdatan (also "Arrays") unbegrenzeter Größe unter Verwendung einer SQL-artigen Raster-Anfragesprache mit hocheffektiver server-seitiger Optimierung. Die Daten werden in einer PostgreSQL-Datenbank abgelegt, sodass sich eine enge Informationsintegration ergibt. Ein rasdaman-Treiber ist Bestandteil von GDAL (Geospatial Data Abstraction Library) für Geodatenformate, eine MapServer-Anbindung ist in beta verfügbar.
-Zugriffsschnittstellen umfassen - neben der rasdaman Raster-Anfragesprache - OGC WCS, WCPS und WPS sowie C++ und Java APIs.
-Version 8.2 ist mit IQL (Integrated Query Language) um eine SQL-Integration erweitert, welche gemischte Meta-, Vektor- und Rasteranfragen erlaubt (in Beta).
+Rasdaman ist ein Array-Datenbanksystem für flexible, performante, skalierbare Geo-Dienste auf multi-dimensionalen raum-zeitlichen Sensor-, Bild-, Simulations- und Statistikdaten unbegrenzter Größe.  Ad-hoc Zugriff, Extraktion, Aggregation sowie Remix und Analyse erfolgt durch eine NewSQL Raster-Anfragesprache mit hocheffektiver server-seitiger Optimierung.  Cloud/Cluster-Parallelisierung erfolgt in gesicherter, vom Administrator steuerbarer Weise.  Die Daten werden in einer PostgreSQL-Datenbank abgelegt, sodass sich eine enge Informationsintegration ergibt.
 
-Somit stellt rasdaman eine flexible, schnelle und skalierbare Rasterdatenbank dar, welche Navigation, Extraktion, Aggregation und ad-hoc raum-zeitlicheAnalysen auf Sensor-, Bild- und Statistikdaten erlaubt.
+Neben der Raster-Anfragesprache unterstützt rasdaman OGC WMS, WCS, WCPS und WPS sowie C++ und Java APIs.  Unter http://standards.rasdaman.org steht eine Sammlung interaktiver Demos bereit.  Ein rasdaman-Treiber ist Bestandteil von GDAL und MapServer.
 
-Die rasdaman-Technologie ist stabil und ausgereift, sie ist seit mehr als 10 Jahren im praktischen Einsatz. Das französische Nationale Geographische Institut betreibt rasdaman auf einem Dutzend-Terabyte blattschnittfreien Luftbild. Auf der ACM "Principles of Database Systems" Konferenz 2007 hat die Rasterdatenbank-Expertin Rona Machlin rasdaman als "die umfassendste Implementierung eines solchen Systems" charakterisiert.
+Rasdaman hat eine Reihe internationaler Innovationspreise erhalten, darunter den renommierten European IT Prize und Geospatial Innovation Award.  Die Technologie ist stabil und ausgereift und seit mehr als 10 Jahren im operativen Einsatz. Zu den Betreibern von rasdaman-Diensten zählen Vermessungsämter und Klima-Datencenter.
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
-  :scale: 50 %
+.. image:: ../../images/project_logos/apps-collage.jpg
+  :scale: 100 %
+  :alt: project logo
   :align: right
 
 Wichtigste Merkmale
---------------------------------------------------------------------------------
+-------------------
 
-    * echte Multi-Dimensionalität - von 1D über 2D, 3D, 4D und darüber hinaus
-    * mächtige, flexible Anfragesprache für Aufgaben wie Visualisierung, Klassifikation, Konvolutionen/Kernel, Aggregation und viele weitere Geo-Funktionen
+    * echte Multi-Dimensionalität - 1D, 2D, 3D, 4D und mehr
+    * mächtige, flexible Raster-Anfragesprache für Visualisierung, Klassifikation, Konvolutionen/Kernel, Aggregation und viele weitere Geo-Funktionen
     * räumliche Indexierung und adaptive Kachelung für schnellen Datenzugriff
-    * "tile streaming" für Skalierbarkeit und hohe Performance auch auf moderater Hardware
-    * Mehrbenutzer-Zugriff durch Server-Multiplexing
-    * volle Informationsintegration der Rasterdaten mit allen anderen Geodaten in ein und derselben PostgreSQL-Datenbank
+    * Parallelisierung und "tile streaming" für unbeschränkte Skalierbarkeit von Laptop bis Cluster und Cloud
+    * volle Informationsintegration der Rasterdaten mit allen anderen Geodaten in ein- und derselben PostgreSQL-Datenbank
+    * Unterstützung der raster-relevanten OGC-Standards, Referenz-Implementierung für WCS Core und WCPS
 
 Implementierte Standards
---------------------------------------------------------------------------------
+------------------------
 
-    * OGC WCS 2.0, WCPS 1.0, WPS 1.0
+    * OGC WMS 1.3, WCS 2.0, WCS-T 1.4, WCPS 1.0, WPS 1.0
 
 Details
---------------------------------------------------------------------------------
+-------
 
-**Webseite:** www.rasdaman.org
+**Website:** http://www.rasdaman.org
 
 **Lizenz:**
 
-* Clients und Petascope: GNU Lesser General Public License (LGPL) version 3
+* Clients und APIs: GNU Lesser General Public License (LGPL) version 3
 * Server-Engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.3.1
+**Software Version:** 8.4.2
 
-**Unterstützte Plattformen:** Linux, Mac, Solaris
+**Unterstützte Plattformen:** Linux, MacOS, Solaris
 
-**API Schnittstellens:** rasql (CLI), C++, Java; OGC-basierte WCS, WCPS, WCS-T, und WPS Schnittstellen
+**APIs:** OGC WMS, WCS, WCS-T, WCPS, WPS; rasql, C++, Java
 
-**Support:**  www.rasdaman.com
+**Support:**  http://www.rasdaman.com
 
-Quickstart
---------------------------------------------------------------------------------
