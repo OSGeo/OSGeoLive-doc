@@ -1,6 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -46,8 +46,9 @@ Backend algorithms available through:
 
 Input and Output formats supported:
 
-* Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
+* Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON
 * Raster Data: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
+* Outputs can be stored in GeoServer/MapServer
 
 A browser based client
 
@@ -63,9 +64,9 @@ Details
 
 **Website:** http://52north.org/wps
 
-**Licence:** GPL
+**Licence:** GPL 2
 
-**Software Version:** WPS 3.1.0
+**Software Version:** WPS 3.2.0
 
 **Supported Platforms:** Windows, Linux, Mac
 
