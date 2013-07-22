@@ -49,7 +49,7 @@ Core Features
   as required for display, interaction and editing
 * Printing and PDF Generation
 * For Developers
-  
+
   * Java Application built using the :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform
   * Use of native widgets
@@ -69,7 +69,7 @@ Details
 
 **Website:** http://udig.refractions.net/
 
-**Licence:** Older versions: GNU Lesser General Public License (LGPL) version 2; Newer versions: dual BSD / EPL (Eclipse Foundation)
+**Licence:** Dual BSD / EPL (Eclipse Foundation)
 
 **Software Version:** |version-udig|
 

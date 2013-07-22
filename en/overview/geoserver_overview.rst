@@ -28,15 +28,15 @@ GIS programs. This means that you can store your spatial data in
 almost any `format
 <http://docs.geoserver.org/stable/en/user/data/index.html>`_ you prefer but that your users do not need to know
 anything about GIS data. At the simplest level all they need is a web
-browser to see your maps exactly as you want. 
+browser to see your maps exactly as you want.
 
-GeoServer is the reference implementation of the `Open Geospatial 
-Consortium <http://www.opengeospatial.org>`_ (OGC) 
-:doc:`../standards/wfs_overview` and 
-:doc:`../standards/wcs_overview` standards, 
-as well as a high performance certified compliant 
-:doc:`../standards/wms_overview`. 
-GeoServer forms a core component of the Geospatial Web. 
+GeoServer is the reference implementation of the `Open Geospatial
+Consortium <http://www.opengeospatial.org>`_ (OGC)
+:doc:`../standards/wfs_overview` and
+:doc:`../standards/wcs_overview` standards,
+as well as a high performance certified compliant
+:doc:`../standards/wms_overview`.
+GeoServer forms a core component of the Geospatial Web.
 
 .. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
@@ -65,7 +65,7 @@ Core Features
      A GIS client can request the actual raster data for use in spatial analysis. This allows a user to create applications which can model the process described by your data.
 
 **On the fly reprojection:**
-     GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server. 
+     GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server.
 
 **Tiling Cache**
     `GeoWebCache <http://geowebcache.org/>`_, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.
@@ -84,7 +84,7 @@ Support of numerous Open Geospatial Consortium  (OGC) standards:
   * :doc:`../standards/wcs_overview`
   * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
-  * :doc:`../standards/sld_overview` 
+  * :doc:`../standards/sld_overview`
   * :doc:`../standards/gml_overview`
 
 Details
@@ -96,7 +96,7 @@ Details
 
 **Software Version:** |version-geoserver|
 
-**Supported Platforms:** All Java 1.5 platforms: - Windows, Linux, Mac
+**Supported Platforms:** Cross Platform Java 6
 
 **API Interfaces:** WMS, WFS, WCS, REST
 
@@ -104,5 +104,5 @@ Details
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`
