@@ -63,7 +63,7 @@ GeoNetwork
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 2.6.4
+**Έκδοση Λογισμικού:** 2.10.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
