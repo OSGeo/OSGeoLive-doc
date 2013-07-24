@@ -1,5 +1,5 @@
 :Author: Benjamin Pross, Kristof Lange
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -21,31 +21,43 @@ Running
 .. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 100 %
   :alt: screenshot
-  :align: center
-
-* Click on the link to open the 52nWPS-TestClient. 
-* Make sure that you have started :doc:`GeoServer <../overview/geoserver_overview>` since the demonstrations require data from the local GeoServer installation.
-
-
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
-  :scale: 100 %
-  :alt: screenshot
-  :align: center
-  
-  
-* Push the Send-Button and the request will be transmitted to the 52°North WPS which will
-  generate a xml-representation for a buffer around the major roads of Tasmania with a width of 0.05 degrees.
-
-.. image:: ../../images/screenshots/1024x768/52n_wps_response.png
-  :scale: 100 %
-  :alt: screenshot
-  :align: center
-  
+  :align: right
 
 * Check out the capabilities of the 52°North WPS with this request:
 
   http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS
 
+* Click on the link to open the 52nWPS-TestClient. 
+* Make sure that you have started :doc:`GeoServer <../overview/geoserver_overview>` since the demonstrations require data from the local GeoServer installation.
+
+
+.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+  :scale: 100 %
+  :alt: screenshot
+  :align: right
+  
+  
+* Push the Send-Button and the request will be transmitted to the 52°North WPS which will
+  generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
+  the result in GeoServer. 
+
+.. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+  :scale: 100 %
+  :alt: screenshot
+  :align: right
+  
+* Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the
+  following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
+  You should get the following result:
+
+.. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+  :scale: 100 %
+  :alt: screenshot
+  :align: right
+
+* Try out other example requests from the dropdown list of the WPS test client.
+
+* You could also install the WPS plugin for QGIS and try it out with the 52°North WPS.
 	
 * For further questions you can contact the 52°North WPS mailing list:
 
