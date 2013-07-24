@@ -81,7 +81,6 @@ Strumenti speficici per analisi:
 * :doc:`gmt_overview` - [:doc:`Guida rapida <../quickstart/gmt_quickstart>`] - Restituzione cartografica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
-* :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Creazione di Map Tiles
 * :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
 * :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
@@ -133,7 +132,7 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 * :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo 6.0
-
+* :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Creazione di Map Tiles, non incluso dopo OSGeo-Live 6.5
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

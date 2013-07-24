@@ -1,6 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -22,7 +22,7 @@ Sextante, ArcGIS Server, R, GRASS 7, o funzioni personalizzate. Gli algoriti pos
 essere semplici come determinare la differenza in casi di influenza tra due diverse 
 stagioni, o complicato come una modello di cambiamento climatico.
 
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -45,10 +45,11 @@ Algoritmi di back-end disponibili attraverso:
 * R
 * GRASS 7
 
-Formati di input e eutput supportati:
+Formati di input e output supportati:
 
-* Dati vettoriali: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
+* Dati vettoriali: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON
 * Dati raster: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
+* Output possono essere salvati in GeoServer/MapServer 
 
 Un client internet
 
@@ -64,13 +65,13 @@ Dettagli
 
 **Sito Web:** http://52north.org/wps
 
-**Licenza:** GPL
+**Licenza:** GPL 2
 
-**Versione Software:** WPS 3.1.0
+**Versione Software:** WPS 3.2.0
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 
-**Supporto Commerciale:** http://www.52north.org
+**Supporto Commerciale:** http://52north.org
 
 
 Guida Rapida

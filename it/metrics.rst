@@ -111,7 +111,6 @@ Strumenti specifici per analisi:
   <script type="text/javascript" src="http://www.ohloh.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/GMT/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapnik/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/maptiler/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/ossim/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/otb/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/R-project_/widgets/project_factoids_stats.js"></script>

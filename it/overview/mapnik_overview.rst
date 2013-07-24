@@ -17,13 +17,13 @@ Mapnik
 Motore per restituzione cartografiche
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik è uno strumento per renderizzare belle le mappe, con bordi morbidi 
-caratteristica fornita da dalla qualità grafica anti-aliasing , posizionamento 
-delle etichette intelligenti e simboli SVG scalabili. Il più famoso utilizzo di Mapnik è 
+Mapnik è uno strumento per renderizzare belle le mappe, con bordi morbidi
+caratteristica fornita da dalla qualità grafica anti-aliasing , posizionamento
+delle etichette intelligenti e simboli SVG scalabili. Il più famoso utilizzo di Mapnik è
 per renderizzare lo stile del layer principale di OpenStreetMap.
 
-Mapnik solitamente viene utilizzato in applicazioni python per distribuire le 
-proprie mappe attraverso internet anche se i miglioramenti alla scala hanno fatto 
+Mapnik solitamente viene utilizzato in applicazioni Python per distribuire le
+proprie mappe attraverso internet anche se i miglioramenti alla scala hanno fatto
 sì che mapnik è stato recentemente usato per creare mappe cartacee ad alta risoluzione.
 
 .. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
@@ -33,11 +33,11 @@ sì che mapnik è stato recentemente usato per creare mappe cartacee ad alta ris
 
 Essenzialmente è una colleione di oggetti geografici (mappe, layer, datasource,
 feature, geometry),  la libreria non si basa su "sistemi a finestre" e
-può essere implementata in qualunque ambiente server. Esso è destinato a essere 
+può essere implementata in qualunque ambiente server. Esso è destinato a essere
 eseguito in un ambiente multithread e mira principalmente, ma non
 esclusivamente, allo sviluppo basato sul web.
 
-Bindings ad alto livello in Python (Boost.Python) facilitano lo sviluppo rapido 
+Bindings ad alto livello in Python (Boost.Python) facilitano lo sviluppo rapido
 di applicazioni, mirando a zope3, django ecc.
 
 Mapnik è multipiattaforma. I pacchetti sono disponibili per le maggiori distribuzioni
@@ -51,7 +51,7 @@ Dettagli
 
 **Licenza:** LGPL (GNU Lesser General Public Licence)
 
-**Versione Software:** 0.7.1
+**Versione Software:** 2.0.0
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

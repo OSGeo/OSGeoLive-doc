@@ -24,7 +24,7 @@ Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GeoServer è un web server che permette di fornire mappe e dati da
-una varietà di formati a client standard, come i browser web e GIS desktop. 
+una varietà di formati a client standard, come i browser web e GIS desktop.
 Ciò significa che è possibile memorizzare i dati spaziali in quasi
 qualsiasi `formato
 <http://docs.geoserver.org/stable/en/user/data/index.html>`_
@@ -32,14 +32,12 @@ si preferisce, ma gli utenti non hanno bisogno di sapere
 nulla dei dati GIS. Al livello più semplice tutto ciò che serve è un browser web
 per visualizzare le mappe esattamente come si desidera.
 
-GeoServer e` l'implementazione di riferimento degli standard 
-`Open Geospatial 
-Consortium <http://www.opengeospatial.org>`_ (OGC) 
-:doc:`../standards/wfs_overview` e 
-:doc:`../standards/wcs_overview`,
-nonche`  conforme
-:doc:`../standards/wms_overview` certificato con alte prestazioni. 
-GeoServer costituisce una componente di base del Geospatial Web. 
+GeoServer e` l'implementazione di riferimento degli standard
+`Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC)
+:doc:`../standards/wfs_overview` e
+:doc:`../standards/wcs_overview`, nonche` conforme
+:doc:`../standards/wms_overview` certificato con alte prestazioni.
+GeoServer costituisce una componente di base del Geospatial Web.
 
 .. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
@@ -58,14 +56,14 @@ Caratteristiche di base
 
 **I dati sono mostrati come immagini veloci e sicure utilizzando il protocollo WMS e WMST:**
     Poiche` il dato e` mostrato come un'immagine il dato e` completamente salvo e sicuro. A meno di non digitalizzare il dato, non c'e` nessuna possibilita` che il dato venga sottratto.
-    L'apparenza di ciascun layer puo` essere controllata usando lo standard SLD che consente di colorare ed etichettare gli oggetti. Combinando queste regole con Filtri OGC e` possibile implementare uno stile dipendente dalla scala, che permette di visualizzare maggiori dettagli aumentando lo zoom. Inoltre sono implementati la gestione delle collisioni delle etichette, il raggruppamento e le priorita`. 
+    L'apparenza di ciascun layer puo` essere controllata usando lo standard SLD che consente di colorare ed etichettare gli oggetti. Combinando queste regole con Filtri OGC e` possibile implementare uno stile dipendente dalla scala, che permette di visualizzare maggiori dettagli aumentando lo zoom. Inoltre sono implementati la gestione delle collisioni delle etichette, il raggruppamento e le priorita`.
 
 **Interi dati vettoriali possono essere inviati al client usando il protocollo WFS:**
      Un client WFS puo` scaricare i dati vettoriali e usarli per mapping, analisi spaziale ed altre operazioni. Inoltre, se autorizzato, l'utente puo` modificare il dato e mandarlo indietro al server per aggiornare il dato conservato utilizzando il protocollo WFS-T.
      Il dato puo` essere trasmesso usando GML (compresso) nonche` altri formati standard come shapefile e json.
 
 **I valori dei dati raster possono essere inviati al client usando il protocollo WCS:**
-     Un client GIS puo` richiedere il dato raster reale per l'uso nell'analisi spaziale. Questo permette all'utente di creare applicazioni che possono modellare i processi descritti dai vostri dati. 
+     Un client GIS puo` richiedere il dato raster reale per l'uso nell'analisi spaziale. Questo permette all'utente di creare applicazioni che possono modellare i processi descritti dai vostri dati.
 
 **Riproiezione al volo:**
      GeoServer supporta la gran parte delle proiezioni del database EPSG e puo` riproiettare qualsiasi dato a richiesta per consentire ai client con limitate capacita` di riproiezione di passare il caricamento del server. 
@@ -99,7 +97,7 @@ Dettagli
 
 **Versione software:** |version-geoserver|
 
-**Piattaforme supportate:** Tutte le piattaforme con Java 1.5: - Windows, Linux, Mac
+**Piattaforme supportate:** Tutte le piattaforme Java 6 
 
 **Interfacce API:** WMS, WFS, WCS, REST
 
@@ -107,5 +105,5 @@ Dettagli
 
 Guida rapida
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Documentazione introduttiva <../quickstart/geoserver_quickstart>`

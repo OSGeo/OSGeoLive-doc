@@ -22,7 +22,7 @@ di immagini di batimetria e backscatter derivati da sonars
 multibeam, interferometry, e sidescan. Fa uso estensivo del
 software :doc:`GMT <gmt_overview>`.
 
-MB-System è sotto sviluppo fin dal 1993, con un attivo supporto da un 
+MB-System è sotto sviluppo fin dal 1993, con un attivo supporto da un
 numero di organizzazioni di ricerca e scientifiche.
 
 .. comment .. nota:: Causa limiti di spazio sul DVD, MB-System non è
@@ -61,7 +61,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 3
 
-**Versione Software:** 5.3.2017
+**Versione Software:** 5.4.2128
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows (with Cygwin)
 

@@ -31,10 +31,10 @@ Caratteristiche (Principali e PlugIns*)
 
 * Formati dati
 
-    * legge (file): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW*
-    * legge (DB): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
-    * legge (standards OGC): WKT, WMS
-    * scrive: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF and SVG*
+    * legge (file): GML, SHP, DXF*, MIF*, CSV+, KML+ & TIFF, ASCII grid, JPG, PNG, JPEG2000*, MrSID*, ECW*
+    * legge (DB): PostGIS, ArcSDE*, Oracle*, MySQL* e SpatiaLite*
+    * legge (standards OGC): WKT, WMS, KML+ 
+    * scrive: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF, ASCII grid*, SVG+
     * si noti che i formati marcati con (*) funzionano con plugin extra
 
 * Editing & Unione
@@ -57,7 +57,7 @@ Caratteristiche (Principali e PlugIns*)
 * Personalizzazione
 
     * internazionalizzazione (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
-    * fornisce una API, utilizzabile tramite script in BeanShell, Java and Python
+    * fornisce una API, utilizzabile tramite script in BeanShell, Java e Python/Ython
     * Sistema di plugin (Java)
    
 
@@ -66,7 +66,7 @@ Standard implementati
 
 .. Writing Tip: List OGC or related standards supported.
 
-* standards OGC supportati: GML2, SFS, WMS and SLD; (WFS per :doc:`deegree <deegree_overview>`)
+* standards OGC supportati: GML2, SFS, WMS, KML e SLD; (WFS per :doc:`deegree <deegree_overview>`)
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ Dettagli
 
 **Licenza:** GPL
 
-**Versione Software:** 1.5.2 (Core Edition)
+**Versione Software:** 1.6.3 (Core Edition)
 
 **Piattaforma Supportate:** Windows, Linux, Mac, Unix
 
