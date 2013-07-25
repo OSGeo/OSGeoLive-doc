@@ -47,7 +47,7 @@ L'immagine che segue mostra come può apparire l'interfaccia di una applicazione
 
 Installazione
 ================================================================================
-Per l'installazione di Mapbender, leggi la documentazione disponibile alla pagina :doc:`installation <installation>` della documentazione di Mapbender3.
+Per l'installazione di Mapbender, leggi la documentazione disponibile alla pagina http://doc.mapbender3.org/en/book/installation.html della documentazione di Mapbender3.
 
 
 Avviare Mapbender
@@ -318,7 +318,7 @@ Alcuni degli elementi messi a disposizione da Mapbender3 sono:
 * Navigation Toolbar (Zoombar)
 * WMS Loader
 
-Puoi trovare informazioni dettagliate su ogni elemento nella documentazione riguardante `l'elemento MapbenderCoreBundle <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_.
+Puoi trovare informazioni dettagliate su ogni elemento nella documentazione riguardante il `bundle MapbenderCoreBundle <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_.
 
 
 Ora prova da solo
@@ -444,4 +444,4 @@ Puoi trovare alcuni tutorials ai seguenti indirizzi:
 
 Collabora con il progetto:
 
-  http://www.mapbender.org/Community
+  http://www.mapbender3.org/Community

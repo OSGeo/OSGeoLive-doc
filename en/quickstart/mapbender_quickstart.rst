@@ -45,7 +45,7 @@ This is how a Mapbender application can look like:
 
 Installation
 ================================================================================
-For the installation of Mapbender have a look at :doc:`installation <installation>`.
+For the installation of Mapbender3 have a look at http://doc.mapbender3.org/en/book/installation.html.
 
 
 Start Mapbender
@@ -314,7 +314,7 @@ Examples for elements Mapbender3 offers:
 * Navigation Toolbar (Zoombar)
 * WMS Loader
 
-You find detailed information on every element at the `MapbenderCoreBundle element documentation <../../../documentation/en/bundles/Mapbender/CoreBundle/index.html>`_.
+You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_.
 
 
 Try it yourself
@@ -440,4 +440,4 @@ You find tutorials at
 
 Get involved in the project
 
-	http://www.mapbender.org/Community
+  http://www.mapbender3.org/Community
