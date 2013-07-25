@@ -1,10 +1,11 @@
 :Author: OSGeo-Live
 :Author: Astrid Emde
+:Translator: Diego Migliavacca
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: ../../images/project_logos/logo-Mapbender.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -46,7 +47,7 @@ L'immagine che segue mostra come può apparire l'interfaccia di una applicazione
 
 Installazione
 ================================================================================
-Per l'installazione di Mapbender, leggi la documentazione disponibile a questo link: :doc:`installation <installation>`.
+Per l'installazione di Mapbender, leggi la documentazione disponibile alla pagina :doc:`installation <installation>` della documentazione di Mapbender3.
 
 
 Avviare Mapbender
@@ -66,7 +67,7 @@ Symfony mette a disposizione degli sviluppatori una modalità di debug che mostr
      :scale: 80
 
 
-#. Avvia la modalità debug: http://localhost/mapbender3/app_dev.php
+#. Avvia in modalità debug: http://localhost/mapbender3/app_dev.php
 
 #. Dai un'occhiata alle informazioni offerte da questa modalità.
 
@@ -75,7 +76,7 @@ Symfony mette a disposizione degli sviluppatori una modalità di debug che mostr
      :scale: 80
 
 
-Welcome page
+Pagina di benvenuto
 ================================================================================
 
 #. La Welcome page elenca le applicazioni che sono pubbliche e che possono essere utilizzate da tutti gli utenti. Le applicazioni vengono elencate attraverso un piccolo screenshot, un titolo e una descrizione.
@@ -443,4 +444,4 @@ Puoi trovare alcuni tutorials ai seguenti indirizzi:
 
 Collabora con il progetto:
 
-	http://www.mapbender.org/Community
+  http://www.mapbender.org/Community
