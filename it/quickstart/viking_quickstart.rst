@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
@@ -32,24 +32,25 @@ Viking proverà a cambiare l'area di visualizzazione nel centro del layer (file)
 ma alcune volte se avete waypoints e tracce che sono molto distanti potrebbe
 capitare di vedere niente. In questo caso, espandete il layer (nel Pannello dei
 Layers a sinistra), quindi espandete "Waypoints", trovate un waypoint e cliccate
-con il testo destro e poi "Goto".
+con il testo destro e poi "Goto". Potete spostare la mappa con il tasto sinistro
+o centrale del mouse e fare zoom in e out con la rotella del mouse
 
-3) Ora aggiungte una mappa (:menuselection:`Layers --> New Map Layer`), scegliete una
-directory per la cache dove possiate archiviare le vostre tracce e cliccate OK. Fare uno 
-zoom ad un livello confortevole (si suggerisce 4 mpp) cliccando i bottoni sinistra e destra
-nell'area grigia dove si trovano le tracce. Ora dal menu scegliere 
-:menuselection:`Tools --> Maps Download`, cliccare dove volete scaricare una mappa. 
-Potete impostare come auto-scaricamento delle tiles cliccando con pulsante destro su
-"Map" layer, selezionando `Properties`, e attivando il checkbox `Autodownload maps`. 
-Indipendentemente da quello strumento che si sta utilizzando, il pulsante centrale del
-mouse funziona sempre. 
+3) Ora aggiungte una mappa (:menuselection:`Layers --> New Map Layer`), iniziare con
+*OpenStreetMap (Mapnik)* è una buona scelta visto che ha una buona copertura per la 
+maggior parte del mondo. Poi scegliete una directory per la cache dove possiate archiviare
+le vostre mappe scaricate, quella di default va bene. Aggiustare il livello dello
+slider di opacità per cambiare il livello di trasparenza del layer della mappa e
+selezionate il checkbox `Autodownload map`. Potete sempre scaricare manualmente le mappe
+da :menuselection:`Tools --> Maps Download`, cliccare dove volete scaricare una mappa.
+In ultimo per impostare la scala ad un livello confortabile dello zoom corrente impostate
+`Zoom level` a *Use Viking Zoom Level*.
 
-4) Potete notare che le mappe sono disegnate sopra le tracce, che probabilmente
-non è quello che desiderate. Guardate al Pannello dei layers a sinistra. Notate come il 
-layer denominato "Map" è sopra al vostro layer TrackWaypoint che contiene i vostri dati
-del GPS. Questo significa che sarà disegnato per ultimo, o sopra gli altri layers. 
-Selezionate il layer Map dalla lista e cliccate il bottono con la freccia in basso beneath 
-the list. La tracca sarà ora rappresentato sopra la mappa.
+4) Potete notare che le tile sono disegnate sopra le tracce, che probabilmente
+non è quello che desiderate. Guardate al Pannello dei layers a sinistra. Notate come
+il layer denominato "Map" è sopra al layer TrackWaypoint che contiene i vostri dati
+del GPS. Questo significa che sarà disegnato per ultimo, o sopra gli altri layers.
+Selezionate il layer *Map* dalla lista e cliccate il bottone con la freccia in basso.
+La traccia sarà ora rappresentata sopra la mappa.
 
 .. TODO: some explanation of the layers, etc. is required.
 

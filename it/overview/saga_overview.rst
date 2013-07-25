@@ -54,7 +54,7 @@ Caratteristiche principali
  * Visualizzazione 3D
 
 * Semplice API C++ per la creazione di nuovi moduli
-* Scripting attraverso la riga di comando, binding per python
+* Scripting attraverso la riga di comando, binding per Python
 * SAGA può accedere al linguaggio statistico R mediante il modulo RSAGA
 
 Dettagli

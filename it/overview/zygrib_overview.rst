@@ -43,7 +43,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 3
 
-**Versione Software:** 6.1.2
+**Versione Software:** 6.1.4
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows
 

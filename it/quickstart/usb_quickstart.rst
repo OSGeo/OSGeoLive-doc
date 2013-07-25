@@ -39,9 +39,9 @@ Selezionare :menuselection:`System --> Administration --> Startup Disk Creator`,
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
-Selezionare l'immagine ISO di osgeo-live o osgeo-live-mini.
+Selezionare l'immagine ISO di osgeo-live o osgeo-live-mini che avete scaricato precedentemente.
 
-Selezionare il dispositivo USB.
+Selezionare il dispositivo USB. Se avete spazio extra potete aggiustare lo slider per creare archiazione persistente sul drive USB (raccomandato). Per attivare questa opzione dovrete avere un penna USB da almeno 8GB.
 
 Selezionare :guilabel:`Make Startup Disk`
 
