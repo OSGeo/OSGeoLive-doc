@@ -22,7 +22,7 @@ Mapbender
 Geoportal Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Mapbender <http://www.mapbender.org>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
+`Mapbender <http://mapbender3.org/en>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
 
 Mapbender is the tip of the iceberg, a meta layer of software providing access to SDI components adhering to international standards. Mapbender allows users to easily create customised browser clients from a wide range of widgets (without any/with minimal) programming required. Widgets integrate with server functionality to provide advanced functionality like security proxying, digitizing, auto snapping and more.
 
@@ -30,7 +30,7 @@ Mapbender management applications are straight forward and easy to use providing
 
 The Mapbender3 is based on the framework Symfony2 and OpenLayers, Mapproxy and jQuery. 
 
-.. image:: ../../images/screenshots/800x600/mapbender_demo3.png
+.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right
@@ -73,12 +73,12 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Support:** http://www.mapbender.org/Support
+**Support:** http://www.mapbender3.org/en/community
 
 
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/mapbender3_quickstart>`
+* :doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`
 
 
