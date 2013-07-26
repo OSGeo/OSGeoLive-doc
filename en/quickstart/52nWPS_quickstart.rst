@@ -21,7 +21,7 @@ Running
 .. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 100 %
   :alt: screenshot
-  :align: right
+  :align: left
 
 * Check out the capabilities of the 52°North WPS with this request:
 
@@ -34,7 +34,7 @@ Running
 .. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
   :scale: 100 %
   :alt: screenshot
-  :align: right
+  :align: left
   
   
 * Push the Send-Button and the request will be transmitted to the 52°North WPS which will
@@ -44,16 +44,16 @@ Running
 .. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
   :scale: 100 %
   :alt: screenshot
-  :align: right
+  :align: left
   
 * Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the
   following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
   You should get the following result:
 
-.. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+.. image:: ../../images/screenshots/800x600/52nWPS_result_in_geoserver.png
   :scale: 100 %
   :alt: screenshot
-  :align: right
+  :align: left
 
 * Try out other example requests from the dropdown list of the WPS test client.
 
