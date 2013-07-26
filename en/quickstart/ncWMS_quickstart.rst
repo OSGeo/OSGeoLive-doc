@@ -71,7 +71,7 @@ Sometimes, when comparing two datasets, you might want to fix the colour scale r
 Changing the colour palette
 ---------------------------
 
-The colour palette can be changed by clicking on the colour scale bar. A pop-up window will appear with the available palettes. Click on one to load the new palette. The window also contains a drop-down box to select the number of colour bands to use, from 10 (giving a contoured appearance) to 254 (smoothed).
+The colour palette can be changed by clicking on the colour scale bar. A pop-up window will appear with the available palettes. Click on one to load the new palette. The window also contains a drop-down box to select the number of colour bands to use, from 10 (giving a contoured appearance) to 253 (smoothed).
 
 Other parameters
 ----------------

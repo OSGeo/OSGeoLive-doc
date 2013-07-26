@@ -39,10 +39,10 @@ Core Features
 * Support for export to Google Earth KML format
 
 * Input formats supported:
-  - NetCDF, GRIB, OPeNDAP
+  NetCDF, GRIB, OPeNDAP
 
 * Output formats supported:
-  - PNG, JPEG, animated GIF, KML
+  PNG, JPEG, animated GIF, KML
 
 Implemented Standards
 ---------------------
