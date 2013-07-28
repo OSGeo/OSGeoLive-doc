@@ -33,26 +33,34 @@ Supported formats:
 
 * Vectorial file formats: Shapefiles, GML, DXF, DWG, DGN, CSV (by an extension)
 * Vectorial databases: PostgreSQL + PostGIS, Oracle, MySQL
-* Raster file formats: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
-* OGC services: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
+* Raster file formats: ECW (*), MrSID (*), (Geo)Tiff, Erdas IMG, ENVI hdr, JPG, GIF, PNG, BMP,...
+* OGC services: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0 (including WFS-T)
 
 Key features:
 
 * User friendly GUI, focused on an easy learning curve
-* Available in 12 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brassilian Portuguese, Finnish)
+* Available in 13 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brazilian Portuguese, Finnish, Portuguese)
+* Advanced edition capabilities:
+
+  * Multiple drawing tools: draw point, draw linestring, draw polygon, ...
+  * CAD style tools: rotate, rotate by angle, symmetry, perpendicular, paralell, ... (by an extension)
+  * Multiple snapping modes: to vertexes, to vertexes and lines, to segment mid points, to centroids, to grid, ...
+  * Geometry tracking mode
 * Advanced printing module based on OpenOffice offimatic suite (by an extension)
 * Topology consistency rules: pre/during/post edition
 * Topology validation and cleaning tools (intersect/eliminate/clean)
 * Geoprocessing wizard extension: buffer/dissolve/merge/clip/intersection/spatial join/difference (by an extension)
 * Raster georreferencing tool (by an extension)
-* Sextante 0.6 integrated (by an extension)
+* Sextante 1.0 integrated (by an extension)
+* Massive import/export operations wizard (by an extension)
+
 
 Implemented Standards
 --------------------------------------------------------------------------------
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
-* Styled Layer Descriptor (SLD) (import/export)
+* Styled Layer Descriptor (SLD) 1.0/1.1 (import/export)
 
 
 Details
