@@ -12,7 +12,7 @@
 :Author: Friedjoff Trautwein (http://www.geops.de)
 :Author: Augustus Kling (http://www.geops.de)
 :Author: Patric Hafner (http://www.geops.de)
-:Version: osgeo-live6.5draft
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-cartaro.png
@@ -29,27 +29,27 @@ Cartaro is a geo-enabled Content Management System (CMS) to manage and publish g
 
 
 
-This Quick Start will guide you through the following tasks:
+This Quickstart will guide you through the following tasks:
 
-  * Create a new geo-enabled content type
-  * Configure Cartaro to display the new content type 
-  * Add new content
+#. Create a new geo-enabled content type
+#. Configure Cartaro to display the new content type with a new content element
+#. Add new geospatial content 
 
 .. contents:: Contents
   
-Start Cartaro
+Starting Cartaro
 ================================================================================
 
 .. Writing Tip:
   Describe steps to start the application
-  This should include a graphic of the pull-down list, with a red circle
+  This should include a graphic of the pull-down list, with a green circle
   around the application menu option.
   #. A hash numbers instructions. There should be only one instruction per
      hash.
 
-#. Choose :menuselection:`Geospatial --> Browser Clients --> Start Cartaro`.
-#. The application will take a few moments to start up
-#. Go to the Cartaro web page at http://localhost/cartaro (this should happen automatically)
+#. Start the OSGeoLive DVD
+#. Choose in your new OSGeoLive installation :menuselection:`Geospatial --> Browser Clients --> Start Cartaro`
+#. The Cartaro web page http://localhost/cartaro will automatically open
 
 .. Writing Tip:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
@@ -61,14 +61,14 @@ Start Cartaro
 Front Page
 ================================================================================
 
-When you open the Cartaro page, you will see the screen above. The front page contains an example map with capital cities.
+When the Cartaro page is opened, you will see the screen above. The front page contains a global map with capital cities as an example.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
     :scale: 60 %
     :align: center
 
 
-* Click on **Log in** on the upper right corner to access the administrative interface. Please use *admin* as username and *geoserver* as password. You will now see the admin tool bar on top.
+* Please **Log in** on the upper right corner to access the administrative interface with *admin* as username and *geoserver* as password. You will now see the administration menu bar on top.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_userpage.png
     :scale: 60 %
@@ -77,55 +77,63 @@ When you open the Cartaro page, you will see the screen above. The front page co
 .. tip::  You can return to the Front Page anytime by clicking on the home icon in the upper left corner.
 
 
-Create new content type
+Creating a new Content type
 ================================================================================
 
-Content types are describing the fields and the structure of a specific kind of content (e.g. the content type *Capital* contains the fields name and location).
+Content types define the structure and fields of a specific kind of content (e.g. the content type *Capital* contains the fields "name" and "location" to generate content elements for the respective capitals displayed on the map).
 To create a new content type, just follow the steps below.
 
 * Choose :menuselection:`Structure --> Content types` from the menu bar and click on **Add content type** 
 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_contenttypes.png
+.. image:: ../../images/screenshots/1024x768/cartaro_addcontenttype.png
     :scale: 80 %
     :align: center
 
-* Type a name for the new content type and describe it if you want
+* Type a name for the new content type and describe it if you want.
+
+.. image:: ../../images/screenshots/1024x768/cartaro1.png
+    :scale: 50 %
+    :align: center
+
 * Finish by clicking on **Save and add fields**
 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_new_contenttype.png
-    :scale: 80 %
-    :align: center
+* Add a new field for your content type by entering a descriptive name. We want to create a geospatial field with the name  *Geometry* . Select  *Geospatial data*  as field type and  *OpenLayers Map*  as widget.
 
-* Add new field by choosing a descriptive name, select  *Geospatial data*  as field type and  *OpenLayers Map*  as widget
-* Finish by clicking on **Save**
-
-
-.. image:: ../../images/screenshots/1024x768/cartaro_new_field.png
+.. image:: ../../images/screenshots/1024x768/cartaro2.png
     :scale: 70 %
     :align: center
 
-* Select the geometry type that describes the kind of geospatial information you want to store. Choose *Polygon* to follow our example.
+* Finish by clicking on **Save**
+
+* In the new window choose your field settings: select the geometry type that describes the kind of geospatial information you want to store. Choose *Polygone* to follow our example.
+
+.. tip::  Other types of geometry are also available. Choose the type that fits best for your needs. Read the information below in the *Geometry type* drop-box for additional help.
+
+.. image:: ../../images/screenshots/1024x768/cartaro3.png
+    :scale: 70 % 
+    :align: center
+
 * Finish by clicking on **Save field settings**
 
-.. tip::  Other types of geometry are also available. Choose the type that fits best for your needs. Read the information below the *Geometry type* drop-box for additional help.
-
-
-.. image:: ../../images/screenshots/1024x768/cartaro_field_settings.png
+.. image:: ../../images/screenshots/1024x768/cartaro4.png
     :scale: 70 % 
     :align: center
 
-* Press *Save settings* to finally finish the field creation
+* Press *Save settings* to finish the field creation
 
-.. image:: ../../images/screenshots/1024x768/cartaro_manage_field.png
+.. image:: ../../images/screenshots/1024x768/cartaro5.png
     :scale: 70 % 
     :align: center
 
-Configure GeoServer
+* In the field manager you would create further non-geospatial fields. We don't need to create a new one for our example. 
+
+
+Configuring GeoServer
 ================================================================================
 
-:doc:`GeoServer <../overview/geoserver_overview>` is used to provide the geospatial fields of your new content type as layer via :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` and :doc:`Web Map Service (WMS) <../standards/wms_overview>`.
+:doc:`GeoServer <../overview/geoserver_overview>` is used to provide layers via :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` and :doc:`Web Map Service (WMS) <../standards/wms_overview>` with the geospatial field of your content type.
 
 * Choose :menuselection:`Structure --> GeoServer` from the menu bar to visit the GeoServer configuration page
 
@@ -133,147 +141,105 @@ Configure GeoServer
     :scale: 70 %
     :align: center
 
-Styling
+Creating a new layer in GeoServer
 ``````````````````````````````````
-.. note:: This subsection is optional. Just go the next subsection if you want to speed up.  
+* Layers display your geodata in your OpenLayers map. Layers are provided and stored by your GeoServer. 
+* Choose :menuselection:`Structure --> GeoServer` from the menu bar to visit the GeoServer configuration page again
+* Select :menuselection:`Layers` and click **Add** to add a new layer
 
-To change the symbolization of your geospatial fields within a map layer you can define your own style. This is done with the :doc:`Styled Layer Descriptors (SLD) <../standards/sld_overview>` as XML files. 
-There are several ways on how create them which is not covered here. The :doc:`GeoServer <../quickstart/geoserver_quickstart>` documentation describes one way on how the create them.  
-For the sake convenience we created an example styling that can be used here.
-
-* Choose :menuselection:`Styles` on the right side 
-
-.. image:: ../../images/screenshots/1024x768/cartaro_geoserver_style.png
+.. image:: ../../images/screenshots/1024x768/cartaro_geoserver_addnewlayer.png
     :scale: 70 %
     :align: center
 
-* Choose a name for your new style
-* Copy the following example SLD into the *SLD* text box and click *Save*
-* Mind to adjust the content of the *Name* and *Title* tags in the SLD to match *Style Title* and *Style Description* respectively
-
-::
-
-  <?xml version="1.0" encoding="ISO-8859-1"?><StyledLayerDescriptor version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NamedLayer>
-    <Name>wildlife</Name>
-     <UserStyle>
-        <Title>Wildlife</Title>
-            <FeatureTypeStyle>
-                <Rule>
-                    <PolygonSymbolizer>
-                        <Fill>
-                            <CssParameter name="fill">#00aa00</CssParameter>
-                            <CssParameter name="fill-opacity">0.5</CssParameter>
-                        </Fill>
-                    </PolygonSymbolizer>
-                </Rule>
-            </FeatureTypeStyle>
-        </UserStyle>
-    </NamedLayer>
-  </StyledLayerDescriptor>
-
-.. image:: ../../images/screenshots/1024x768/cartaro_new_style.png
-    :scale: 70 %
-    :align: center
-
-Layers
-``````````````````````````````````
-* Choose :menuselection:`Structure --> GeoServer` from the menu bar to visit the GeoServer configuration page
-* Select :menuselection:`Layers` and click **Add** to add your new layer
-
-.. image:: ../../images/screenshots/1024x768/cartaro_geoserver_layer.png
-    :scale: 70 %
-    :align: center
-
-#. Type a suitable layer title
-#. Select *PostGIS Field* as Layer type
+#. Type a suitable layer title (e.g. lakes) 
+#. Select the layer type. We choose *PostGIS Field* for advanced geospatial operations and geodata storage 
 #. If you have created your own style one step before, select it as *Style*
-#. Select your fresh created content type as Source
-#. Check  *Provide an OpenLayers WFS layer*  within the OpenLayers section
+#. As source select your created content type (Drupal) which will be associated with your new layer (GeoServer). The term in brakets is the name of your created geospatial field of your content type required to store geodata in your PostGIS database.
+#. Make a checkmark  *Provide an OpenLayers WFS layer*  within the OpenLayers section
 #. Finish configuration by clicking on **Save**
 
-
-.. image:: ../../images/screenshots/1024x768/cartaro_new_layer.png
-    :scale: 90 %
+.. image:: ../../images/screenshots/1024x768/cartaro7.png
+    :scale: 70 %
     :align: center
 
-.. tip:: You can now also access the geospatial fields of your content type via WFS or WMS with other applications (e.g. with :doc:`QGis <../overview/qgis_overview>`)  
+
+* Congratulation! Your new GeoServer layer was added to GeoServer. In the next step we are configuring your OpenLayers map.
+
+.. tip:: You can now also access the geospatial fields of your content type via WFS or WMS with other applications (e.g. with :doc:`QGis <../overview/qgis_overview>`) 
 
 
-Configure OpenLayers
+Configuring OpenLayers to activate your GeoServer layer in a map
 ================================================================================
 
-:doc:`OpenLayers <../overview/openlayers_overview>` is used to display your new layer.
+:doc:`OpenLayers <../overview/openlayers_overview>` is used to display your new layer in a map. You will now associate your GeoServer layer with your OpenLayers map. 
 
-* Choose :menuselection:`Structure --> OpenLayers` from the menu bar to visit the OpenLayers configuration page
-* Choose :menuselection:`Maps` and look for *frontmap* which is used as default map
+* Go to :menuselection:`Structure --> OpenLayers` from the menu bar to visit the OpenLayers configuration page
 
-.. note:: An OpenLayers version warning appears only the first time you visit the OpenLayers configuration page and can be ignored.  
-
-.. image:: ../../images/screenshots/1024x768/cartaro_openlayers_entry.png
+.. image:: ../../images/screenshots/1024x768/cartaro_openlayers_settings.png
     :scale: 70 %
     :align: center
 
+* Please choose :menuselection:`Maps` to activate your layer in a map
+* Look for *frontmap* - a pre-generated, default map and select **Edit** on the right side.
 
-* Look for *frontmap* which is used as default map and select **Edit** on the right side
-
-.. image:: ../../images/screenshots/1024x768/cartaro_openlayers_maps.png
+.. image:: ../../images/screenshots/1024x768/cartaro_openl_maps_frontmapedit.png
     :scale: 70 %
     :align: center
 
-* Frontmap's configuration page will be appear as shown on the screenshot below. 
-* Select :menuselection:`Layers & Styles` on the left side to add our newly created layer to the map.
+* frontmap's configuration page appears shown on the screenshot below. 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_edit_map.png
+.. image:: ../../images/screenshots/1024x768/cartaro_openlayers_frontmapediting.png
     :scale: 70 %
     :align: center
 
-* Look for your new created layer (Wildlife habitats in our example)
-* Check the boxes *Enabled*, *Activated* and *In Switcher* to show your new layer by default
-* Finish configuration by clicking on **Save** at the bottom of the page
+* Select :menuselection:`Layers & Styles` in the left sidebar to add our newly created layer to this frontmap. 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_edit_map2.png
+* Look for your created GeoServer layer ('lakes' in our example)
+* Make checkmarks for *Enabled*, *Activated* and *In Switcher* to activate your new layer *lakes* in your map
+
+.. image:: ../../images/screenshots/1024x768/cartaro_openl_layersstylessettings.png
     :scale: 70 %
     :align: center
 
-Add content
+* Finish configuration by clicking on **Save** at the bottom
+
+Adding geospatial content
 ================================================================================
 
-After creating your content type you can now add as many elements of this type as you want.
+After creating your content type and configuring GeoServer and OpenLayers you can now add as many content elements of this type as you want.
 
-* Choose :menuselection:`Content` from the menu bar to see all exisiting content elements within your Cartaro installation
-* Select **Add content** to add more content
-* Choose your new content type 
+* Choose :menuselection:`Content` from the menu bar to see all existing content elements within your Cartaro installation
 
-.. image:: ../../images/screenshots/1024x768/cartaro_content_overview.png
+.. image:: ../../images/screenshots/1024x768/cartaro_contentlist.png
     :scale: 70 %
     :align: center
 
-#. Type a name for your new content element 
-#. You can now draw the geometry for your element. Choose the draw symbol on the upper right corner of the map. Note that tool tips are shown when you hover the toolbar icons.
-#. Simply click on the map to create a new geometry. Every click will produce a new edge. Finish the drawing with double click.
-#. When you are ready, click on **Save** at the bottom.
+* Select **Add content** to add more content and choose your new content type in the appearing window (not shown). In the configuration page of your new content element make the following settings: 
+
+#. Type a name
+#. You can draw the geometry for your content element. Choose the draw symbol on the upper right corner of the map. Note that tool tips are shown when you hover the toolbar icons. Click on the map to create a new geometry. Finish the drawing with double click.
+#. **Save** your geometry.
 
 .. note:: Only one geometry per content element can be drawn in our example configuration. Create additional content elements to add more polygons.  
 
-.. image:: ../../images/screenshots/1024x768/cartaro_create_content2.png
+.. image:: ../../images/screenshots/1024x768/cartaro8.png
     :scale: 70 %
     :align: center
 
 * You should now see your new content element
+
+.. image:: ../../images/screenshots/1024x768/cartaro_addedcontent_lakefr.png
+    :scale: 50 %
+    :align: center
+
 * To view your new content element on the front map, click on the house icon in the upper left corner
 
-.. tip:: If you are not satisfied with your result, you can easily edit your new content element and change the geometry   
-
-.. image:: ../../images/screenshots/1024x768/cartaro_content_preview2.png
+.. image:: ../../images/screenshots/1024x768/cartaro_addedcontent_frontmap.png
     :scale: 50 %
     :align: center
 
-Congratulations, you have just finished the quickstart tutorial. Your first content element is now ready. To add more content elements simply peform the steps of this section again.
+Congratulations, you have just finished the quickstart tutorial. Your first content element is now ready. To add more content elements simply peform the steps of this section again. 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontmap_new.png
-    :scale: 50 %
-    :align: center
 
 
 Things to Try
