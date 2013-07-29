@@ -1,6 +1,6 @@
 :Author: Sergio Baños Calvo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
@@ -54,6 +54,9 @@ Key features:
 * Sextante 1.0 integrated (by an extension)
 * Massive import/export operations wizard (by an extension)
 
+.. note::
+  ECW and MrSID raster formats require an extra download to work: due to licensing restrictions their libraries can't be distributed
+
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -66,7 +69,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.opengis.es
+**Website:** http://www.opengis.es/index.php?lang=en
 
 **Licence:** GNU General Public License (GPL) version 2
 
