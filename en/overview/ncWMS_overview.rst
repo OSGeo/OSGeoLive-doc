@@ -1,13 +1,13 @@
 :Author: Guy Griffiths (guy.griffiths@reading.ac.uk)
-:Version: osgeo-live7.0draft
+:Reviewer: Cameron Shorter
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ncWMS.png
  :scale: 100 %
  :alt: project logo
-  :align: right
-  :target: http://www.resc.rdg.ac.uk/trac/ncWMS/
-
+ :align: right
+ :target: http://www.resc.rdg.ac.uk/trac/ncWMS/
 
 ncWMS
 ================================================================================
@@ -15,14 +15,12 @@ ncWMS
 Web Map Service
 ~~~~~~~~~~~~~~~
 
-ncWMS is a web server which allows envrionmental and other spatial data to be served as georeferenced image files
-to be viewed over the internet.  A key focus in ncWMS is efficient data extraction - although the source data
-files might be many gigabytes in size, an image can nonetheless be generated very quickly.
+ncWMS publishes multi-dimensional data (such as environmental and weather data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and efficiently extracts the map images from the very the large data files typically associated with environmental data.
 
 Core Features
 -------------
 
-* Fast extraction of relevant data
+* Fast extraction of data
 
 * Generation of timeseries and vertical profile plots
 
@@ -38,11 +36,11 @@ Core Features
 
 * Support for export to Google Earth KML format
 
-* Input formats supported:
-  NetCDF, GRIB, OPeNDAP
+* Input formats:
+** NetCDF, GRIB, OPeNDAP
 
-* Output formats supported:
-  PNG, JPEG, animated GIF, KML
+* Output formats:
+** PNG, JPEG, animated GIF, KML
 
 Implemented Standards
 ---------------------
@@ -56,7 +54,7 @@ Details
 
 **Website:** http://www.resc.rdg.ac.uk/trac/ncWMS/
 
-**Licence:** Modified BSD License (http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage for further details)
+**Licence:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_
 
 **Software Version:** 1.1
 
