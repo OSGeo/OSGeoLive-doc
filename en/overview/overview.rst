@@ -141,3 +141,8 @@ Included on the full OSGeo-Live image:
 
 * `Microsoft Windows Installers <../../WindowsInstallers/>`_
 * `Apple OSX Installers <../../MacInstallers/>`_
+
+Metrics
+--------------------------------------------------------------------------------
+
+* :doc:`Project Metrics <../metrics>` from Ohloh
