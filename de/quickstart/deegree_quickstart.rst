@@ -1,5 +1,5 @@
-:Author: Johannes Küpper
-:Version: OSGeo-Live DVD, Version 5.0
+:Author: Johannes Wilden
+:Version: OSGeo-Live DVD, Version 7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-deegree.png
@@ -9,7 +9,7 @@
   :target: http://deegree.org/
 
 ********************************************************************************
-deegree 3 Quickstart 
+deegree 3 webservices quickstart 
 ********************************************************************************
 
 

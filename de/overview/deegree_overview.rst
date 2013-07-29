@@ -1,5 +1,5 @@
-﻿:Author: Johannes Wilden
-:Version: osgeo-live5.0
+:Author: Johannes Wilden
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-deegree.png
@@ -29,7 +29,7 @@ breites Spektrum an Diensten angeboten, wie z.B. ein transaktionaler 'Web
 Feature Service' (WFS-T) oder ein Dienst, der die Möglichkeit bietet dreidimensionale Daten über
 den 'Web  Terrain Service' zu visualisieren. 
 
-deegree ist sowohl eine Lösung für web- und desktop-basierte Geographische
+deegree ist sowohl eine Lösung für web-basierte Geographische
 Informationssysteme (GIS) als auch für Geodateninfrastrukturen (GDI). Das
 Framework umfasst eine umfangreiche  Java-API sowie ein mächtiges
 objekt-relationales Mapping für simple und komplexe räumliche Schemata.   
@@ -77,19 +77,6 @@ Ausgewählte Features
   * Datenquellen: PostgreSQL-Datenbank; Oracle-Datenbank
   * unterstützte Requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
 
-* Web Map Print Service
-
-  * Unterstützung für diverse Druck-Fromate (HTML, PDF, PNG)
-  * Unterstützt lange Laufzeiten für Druckaufträge
-  * Unterstützung für asynchrone Requests zur Erstellung großformatiger Plots
-  * Requests werden in der Datenbank gehalten und sind verfügbar, selbst wenn der WMPS vom Administrator angehalten wird oder die Maschine ausfällt
-
-* Web Perspective View Service
-
-   * Datenquellen: remote/lokaler-WMS, remote/lokaler-WFS, lokaler-WCS, Postgres/PostGIS, Oracle Spatial
-   * Höhenmodelle können  als Vektor- oder Rasterdaten vorliegen  
-   * Requests: Get3DFeatureInfo, GetView
-
 
 Implementierte Standards
 --------------------------------------------------------------------------------
@@ -110,7 +97,7 @@ Details
 
 **Lizenz:** LGPL
 
-**Software Version:** 3.0
+**Software Version:** 3.3.1
 
 **Unterstützte Plattformen:** Windows, Linux
 

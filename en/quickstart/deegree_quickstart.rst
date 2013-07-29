@@ -1,5 +1,5 @@
-:Author: Johannes Küpper
-:Version: OSGeo-Live DVD, Version 5.0
+:Author: Johannes Wilden
+:Version: OSGeo-Live DVD, Version 7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-deegree.png
@@ -12,55 +12,99 @@
 deegree 3 webservices quickstart 
 ********************************************************************************
 
+
 Project description
 ================================================================================
 
-deegree is open source software for spatial data infrastructures and the geospatial web. deegree includes components for geospatial data management, including data access, visualization, discovery and security. Open standards are at the heart of deegree. The software is built on the standards of the Open Geospatial Consortium (OGC) and the ISO Technical Committee 211.
+deegree is open source software for spatial data infrastructures and the 
+geospatial web.
 
-This Quick Start describes how to:
+Available components are:
+ 
+  * Web-Services: WFS, WMS, CSW, WPS
+  * Security
+
+
+This quickstart describes how to:
    * start deegree 3 webservices on the Live DVD
    * use the deegree 3 services console to activate example configurations
    * find more information
 
 
-Start deegree webservices
+About deegree 3
+================================================================================
+
+deegree 3 is the new generation of the deegree Java framework for GIS 
+applications and OGC-service implementations.
+It can be used to build web-based geospatial-data-infrastructures (GDI).
+
+
+Start deegree 3 webservices
 ================================================================================
 
 Choose "Start deegree" from the start menu.
 The application will take a few moments to start up.
 
 
-deegree services console
+deegree 3 services console
 ================================================================================
 
-When you start deegree for the first time, firefox should open (otherwise open it manually and point your browser to http://localhost:8033). Please wait until you can see the deegree 3 services console. This is a simple web-based GUI for editing the configuration files of the so-called deegree workspace.
+When you start deegree for the first time, firefox should open (otherwise open 
+it manually and point your browser to http://localhost:8033). Please wait until 
+you can see the deegree 3 services console. 
+This is a simple web-based GUI for editing the configuration files of the 
+so-called deegree workspace.
+Please enter the password "deegree" to gain access to the services console.
 
 
-deegree webservices example workspaces
+deegree 3 workspaces on OSGeo-Live GIS Disc
 ================================================================================
 
-deegree 3 is based on a unified configuration concept that's shared by all deegree 3-based applications (web services, web applications, desktop applications, command line tools). The different configuration aspects are built on the notion of a deegree workspace -- a configuration directory with a standardised layout. Within the deegree 3 services console, you get an overview of the supplied, or available preconfigured deegree 3 workspaces by clicking on the "workspaces" link (left side).
+  * deegree-workspace-inspire
 
-You are now in the workspace-management of the services console. At the top, the currently active workspace is displayed (a single workspace is active at any given time). The workspace view displays inactive local workspaces and official workspaces, which you can import (internet access required).
+This workspace includes an example configuration for INSPIRE View- and 
+Download-Services.
+It consists of a transactional WFS (2.0.0 and 1.1.0) for all Annex I Data Themes
+and a WMS (1.3.0 and 1.1.1) which serves three layers of those Annex I Data 
+Themes.
+Included are some harmonized dutch administrative units, cadastral parcels and 
+addresses.
+The WFS in this example acts as an INSPIRE Download service (direct access) and 
+outputs valid, harmonized INSPIRE GML.
+Additionally it supports multiple request types and querys.
 
-The Live DVD ships with an example INSPIRE workspace (pre-configured View and Download Service). Things to try:
+.. tip::
+This workspace loads harmonized INSPIRE GML from local files.
+This can easily changed to PostGIS, Oracle Spatial or Microsoft SQL Server as 
+backend.
 
- * Start the INSPIRE workspace. In the "workspaces" view, click on "Start" right to "deegree-workspace-inspire-3.2-pre9". (this will take a while as several dozens of megabytes of rich INSPIRE GML are loaded)
- * Click on "see layers" -> click the "+" and activate the AdministrativeUnit layer. This layer is rendered straight from the rich INSPIRE data model and served using the configured deegree INSPIRE View Service.
- * Go back to the console and click "send requests". A simple interface for sending raw WFS requests will open up. It contains several examples (including transactions for inserting valid INSPIRE GML).
- * If you want to learn more (e.g. configuring SQL backends / relational mapping), please refer to the official handbook (see below).
+After activating the "deegree-workspace-inspire" you can open a simple 
+map-client by clicking on "see layers".
+The service is configured to visualize the data and a basemap (rendered by 
+OpenStreetMap).
 
-Alternatively, you may want to download other example workspace to get and idea of what else deegree webservices can do for you:
+A click on the "+" on the right side opens a layer tree showing all available 
+layers. You can activate the INSPIRE layer served by the deegree WMS here.
 
-  * deegree utahDemo: A web mapping setup (WFS/WMS/WMTS) based on data from Utah (warning: about 100 MB download)
-  * deegree CSW demo: A catalogue service setup that is compliant to the ISO Application Profile and the INSPIRE Discovery Service specification
-  * deegree WPS demo: A processing service setup with some simple example processes
+.. tip::
+The map client is based on `OpenLayers <http://openlayers.org/>`_. 
+You can pan through the map holding the left mouse button and drag the map.
+Zooming is possible via mouse wheel or the navigation elements on the left side.
 
-For further information on these example workspaces, please refer to the official deegree webservices documentation (see below).
+More information and step-by-step tutorials about the INSPIRE workspace can be 
+found under http://download.deegree.org/documentation/3.3.1/html/lightly.html#example-workspace-1-inspire-network-services
 
-NOTE: Unfortunately, the INSPIRE configuration included on the Live DVD is missing the configuration of the Address and CadastralParcels layer. You may download a fixed version or get support from the deegree community to learn how to fix it (http://www.deegree.org/Community).
 
-What Next?
+Want more?
 ================================================================================
 
-In order to learn more about the configuration of deegree webservices, please refer to: http://www.deegree.org/Documentation. It's still work in progress. Contributions, comments and funding is welcome.
+This was just a short intro on the features of deegree 3. 
+There is more information in the demo installations and on the deegree website.
+
+  * deegree online demo
+
+    Available here: http://demo.deegree.org
+
+  * deegree home
+
+    Available here: http://deegree.org/

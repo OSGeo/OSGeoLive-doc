@@ -1,6 +1,6 @@
 :Author: Johannes Wilden
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-deegree.png
@@ -28,7 +28,7 @@ Consortium (OGC) standards in free and open source software, ranging
 from a transactional Web Feature Service to three-dimensional data
 display through a Web Terrain Service and many more!
 
-deegree is a solution for web- and desktop-based
+deegree is a solution for web-based
 Geographic Information Systems (GIS) and Spatial Data Infrastructures
 (SDI). It is comprised of a comprehensive yet powerful Java Application
 Programming Interface (API) and a powerful object-relational mapping for
@@ -76,19 +76,6 @@ Some example features
   * datasources: PostgreSQL-Database; Oracle-Database
   * supported requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
 
-* Web Map Print Service
-
-  * supports different print formats (HTML, PDF, PNG)
-  * long time running jobs
-  * supports asynchronous requests to enable large-scale plots
-  * requests are stored within a database and will be available even if WMPS is stopped by an administrator or the machine fails
-
-* Web Perspective View Service
-
-   * datasources: remote/local-WMS, remote/local-WFS, local-WCS, Postgres/PostGIS, Oracle Spatial
-   * elevation models can be vector data or raster data
-   * requests: Get3DFeatureInfo, GetView
-
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -109,7 +96,7 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 3.2-pre3
+**Software Version:** 3.3.1
 
 **Supported Platforms:** Windows, Linux
 
