@@ -21,7 +21,7 @@ geospatial web.
 
 Available components are:
  
-  * Web-Services: WFS, WMS, CSW, WPS
+  * Web-Services: WFS, WMS, WMTS, CSW, WPS
   * Security
 
 

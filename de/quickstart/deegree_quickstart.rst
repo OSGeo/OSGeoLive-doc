@@ -21,7 +21,7 @@ für die Java-Plattform.
 
 Verfügbare Komponenten sind:
 
-  * Web-Services: WFS, WMS, CSW, WPS
+  * Web-Services: WFS, WMS, WMTS, CSW, WPS
   * Security
 
 
@@ -35,9 +35,8 @@ Diese Quickstart-Anleitung beschreibt wie man...
 Über deegree 3
 ================================================================================
 
-deegree 3 ist die neue Generation des deegree Java-Framework für GIS-Anwendungen
-und OGC-Service-Implementierungen. Es kann für den Aufbau webbasierter
-Geodateninfrastrukturen (GDI) verwendet werden.
+deegree 3 ist ein Java-Framework für GIS-Anwendungen und OGC-Service-Implementierungen. Es kann für den Aufbau webbasierter
+Geodateninfrastrukturen (GDIs) verwendet werden.
 
 
 deegree 3 starten

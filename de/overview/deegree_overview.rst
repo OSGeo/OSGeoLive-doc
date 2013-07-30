@@ -15,80 +15,108 @@
   :target: http://www.osgeo.org
 
 
-deegree
+deegree webservices
 ================================================================================
 
-Web Services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Die deegree Webservices sind Implementierungen der Webservice Spezifikationen des `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ und der `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_. deegree webservices 3.3 enthält die folgenden Dienste:
 
+* `Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`_: Ermöglicht den direkten Zugriff auf räumliche Datenobjekte (Features)
+* `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_: Liefert Karten, die aus räumlichen Daten gerendert werden
+* `Web Map Tile Service (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Liefert vorberechnete Kartenkacheln (Tiles)
+* `Catalogue Service for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Durchführung von Suchen nach räumlichen Datensätzen und Diensten
+* `Web Processing Service (WPS) <http://www.opengeospatial.org/standards/wps>`_: Führt Berechnungen auf räumlichen Daten aus
 
-deegree ist frei, stabil, mächtig und einfach zu nutzen. deegree stellt
-derzeit die umfassendste Implementierung von Standards des 'Open Geospatial
-Consortium' (OGC) in freier und opensource Software dar. Dabei wird ein
-breites Spektrum an Diensten angeboten, wie z.B. ein transaktionaler 'Web
-Feature Service' (WFS-T) oder ein Dienst, der die Möglichkeit bietet dreidimensionale Daten über
-den 'Web  Terrain Service' zu visualisieren. 
+Mit einer deegree Webservices Installation können Sie sowohl einzelne dieser Dienste, alle, oder auch mehrere des gleichen Typs betreiben.
 
-deegree ist sowohl eine Lösung für web-basierte Geographische
-Informationssysteme (GIS) als auch für Geodateninfrastrukturen (GDI). Das
-Framework umfasst eine umfangreiche  Java-API sowie ein mächtiges
-objekt-relationales Mapping für simple und komplexe räumliche Schemata.   
-Die Software umfasst weiterhin standard-konforme Webdienste
-für Kartenanwendungen, Feature-Verarbeitung, Geokataloge, Sensoren und
-Prozessierung. 
-
-deegree ermöglicht den Aufbau ihrer GDI, mit ihren Daten und ihren
-spezifischen Anforderungen. 
-
-
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
-  :scale: 50%
-  :alt: project logo
-  :align: right
-
-Ausgewählte Features
+Eigenschaften des deegree WFS
 --------------------------------------------------------------------------------
 
-* Web Map Service
+Der deegree WFS ist eine Implementierung der `OGC Web Feature Service Spezifikation <http://www.opengeospatial.org/standards/wfs>`_. Einige Eigenschaften:
 
-  * sehr flexibel hinsichtlich der Layer-Eigenschaften
-  * unterstützt und nutzt Style-Definitionen 
-  * Erzeugung thematischer Karten mit Diagrammen als 'point symbolizers'
-  * Datenquellen: alle verbreiteten OGC Web Services (WMS, WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, frei wählbare SQL-Statements können zur WMS-Layer Erstellung genutzt werden
-  * sehr stabil, gut skalierbar 
-  * unterstützt HTTP GET, HTTP POST und 'feature info' Requests
-  * zertifiziert als  OGC-compliant
+* Implements WFS standards 1.0.0, 1.1.0 and 2.0.0
+* Fully transactional (even for rich data models)
+* Supports KVP, XML and SOAP requests
+* GML 2/3.0/3.1/3.2 output/input
+* Support for GetGmlObject requests and XLinks
+* High performance and excellent scalability
+* On-the-fly coordinate transformation
+* Designed for rich data models from the bottom up
+* Backends support flexible mapping of GML application schemas to relational models
+* ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear curves)
+* Advanced filter expression support based on XPath 1.0
+* Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, Shapefiles or GML instance documents
 
-* Web Feature Service
+Eigenschaften des deegree WMS
+--------------------------------------------------------------------------------
 
-  * unterstützt  simple und komplexe Features
-  * on-the-fly Koordinatentransformation für über  3000 Koordinaten-Referenzsysteme
-  * unterstützt flexible Ausgabeformate
-  * einfach an INSPIRE-Vorgaben anpassbar
+Der deegree WMS ist eine Implementierung der `OGC Web Map Service Spezifikation <http://www.opengeospatial.org/standards/wms>`_. Einige Eigenschaften:
 
-* Web Coverage Service
+* Implements WMS standards 1.1.1 and 1.3.0
+* Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0
+* High performance and excellent scalability
+* High quality rendering
+* Scale dependent styling
+* Support for SE removes the need for a lot of proprietary extensions
+* Easy configuration of HTML and other output formats for GetFeatureInfo responses
+* Uses stream-based data access, minimal memory footprint
+* Nearly complete support for raster symbolizing as defined in SE (with some extensions)
+* Complete support for TIME/ELEVATION and other dimensions for both feature and raster data
+* Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or GML instance documents
+* Can render rich data models directly
 
-  * unterstützt HTTP GET und HTTP POST Requests
-  * Datenquellen: Rasterbilder (tif, png, jpeg, gif, bmp); GeoTIFF; ECW-Dateien; Oracle GeoRaster
-  * schneller Zugriff auf große Coverages
+Eigenschaften des deegree WMTS
+--------------------------------------------------------------------------------
 
-* Catalogue Service
+Der deegree WMTS ist eine Implementierung der `OGC Web Map Tile Service Spezifikation <http://www.opengeospatial.org/standards/wmts>`_. Einige Eigenschaften:
 
-  * Datenquellen: PostgreSQL-Datenbank; Oracle-Datenbank
-  * unterstützte Requests: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
+* Implements Basic WMTS standard 1.0.0 (KVP)
+* High performance and excellent scalability
+* Supports different backends, such as GeoTIFF, remote WMS or file system tile image hierarchies
+* Supports on-the-fly caching (using EHCache)
+* Supports GetFeatureInfo for remote WMS backends
 
+Eigenschaften des deegree CSW
+--------------------------------------------------------------------------------
+
+Der deegree CSW ist eine Implementierung der `OGC Catalogue Service Spezifikation <http://www.opengeospatial.org/standards/cat>`_. Einige Eigenschaften:
+
+* Implements CSW standard 2.0.2
+* Fully transactional
+* Supports KVP, XML and SOAP requests
+* High performance and excellent scalability
+* ISO Metadata Application Profile 1.0.0
+* Pluggable and modular dataaccess layer allows to add support for new APs and backends
+* Modular inspector architecture allows to validate records to be inserted against various criteria
+* Standard inspectors: schema validity, identifier integrity, INSPIRE requirements
+* Handles all defined queryable properties (for Dublin Core as well as ISO profile) 
+* Complex filter expressions
+
+Eigenschaften des deegree WPS
+--------------------------------------------------------------------------------
+
+Der deegree WPS ist eine Implementierung der `OGC Processing Service Spezifikation <http://www.opengeospatial.org/standards/wps>`_. Einige Eigenschaften:
+
+* Implements WPS standard 1.0.0
+* Supports KVP, XML and SOAP requests
+* Pluggable process provider layer
+* Easy-to-use API for implementing Java processes
+* Supports all variants of input/output parameters: literal, bbox, complex (binary and xml)
+* Streaming access for complex input/output parameters
+* Processing of huge amounts of data with minimal memory footprint
+* Supports storing of response documents/output parameters
+* Supports input parameters given inline and by reference
+* Supports RawDataOutput/ResponseDocument responses
+* Supports asynchronous execution (with polling of process status)
 
 Implementierte Standards
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 in progress)
-* OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 in progress)
-* OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; including OGC ISOAP 1.0 and INSPIRE profile
-* OGC Web Perspective View Service (WPVS) Draft 6
-* OGC Web Coordinate Transformation Service (WCTS) 0.4.0
-* OGC Web Processing Service (WPS) 0.4.0, 1.0.0
-* OGC Sensor Observation Service (SOS) 1.0.0
+* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 and 2.0.0
+* OGC Web Map Service (WMS) 1.1.1 and 1.3.0
+* OGC Web Map Tile Service (WMTS) 1.1.0
+* OGC Catalogue Service-Web (CSW) 2.0.2
+* OGC Web Processing Service (WPS) 1.0.0
+* OGC GML 2.12, 3.0.1, 3.1.1 and 3.2.1
 
 Details
 --------------------------------------------------------------------------------
