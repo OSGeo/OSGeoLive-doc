@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Version: osgeo-live6.0
+:Version: osgeo-live7.0-draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-pycsw.png
