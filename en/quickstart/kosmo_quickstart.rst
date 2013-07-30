@@ -1,5 +1,5 @@
 :Author: Sergio Baños Calvo
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
@@ -186,7 +186,7 @@ OGC services
    .. image:: ../../images/screenshots/800x600/kosmo_wms_1.png
      :scale: 70 %   
 
-#. In the *Select Uniform Resource Locator (URL)*, type the URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 in the corresponding text field (**1**) and press the :guilabel:`Connect` button (**2**)
+#. In the *Select Uniform Resource Locator (URL)*, type the URL http://localhost:8082/geoserver/ows? in the corresponding text field (**1**) and press the :guilabel:`Connect` button (**2**)
 
 #. If the connection is successful, press the :guilabel:`Next` button to go to the next panel (**3**)
 
@@ -214,7 +214,7 @@ OGC services
 
 
 .. note::
-  Kosmo Desktop contains a list of WMS servers by default (most of them are from Spain). 
+  Kosmo Desktop contains a set of lists of WMS servers by default, divided into locations (most of them are from Spain). 
   If you're connected to internet, you can use them as described in the example with the local server.
 
 
@@ -300,11 +300,11 @@ In this section we're going to style a layer by range using the country populati
 
 #. Click on the tab `Colour theming`
 
-#. Activate the options *Enable colour theming* and *by range* (**1**)
+#. Activate the options *Enable colour theming* (**1**) and *by range* (**2**)
 
-#. Select `POP_EST` as *Attribute* (**2**), 8 as *Range count* (**3**) and RYG (Color Brewer) as *Color schema* (**4**)
+#. Select `pop_est` as *Attribute* (**3**), 11 as *Range count* (**4**) and RYG (Color Brewer) as *Color schema* (**5**)
 
-#. Press the :guilabel:`Ok` button to apply the changes (**5**)
+#. Press the :guilabel:`Ok` button to apply the changes (**6**)
 
    .. image:: ../../images/screenshots/800x600/kosmo_basic_style_classification.png
      :scale: 70 %   
@@ -371,8 +371,12 @@ In this section we're going to style a layer with some rules and filters, based 
 
    .. image:: ../../images/screenshots/1024x768/kosmo_styled_layer_by_filter.jpg
      :scale: 70 %
-     
-     
+          
+#. If you make enough zoom in to reach the given scale, both rules would be rendered:
+
+   .. image:: ../../images/screenshots/1024x768/kosmo_styled_layer_by_filter_2.jpg
+     :scale: 70 %
+
 .. note::
   When the map is at full layer scale only capitals are shown. If you zoom in close enough, all the populated places would be shown
 
