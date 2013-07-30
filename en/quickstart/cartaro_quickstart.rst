@@ -31,7 +31,7 @@ Cartaro is a geo-enabled Content Management System (CMS) to manage and publish g
 
 This Quickstart will guide you through the following tasks:
 
-#. Create a new geo-enabled content type
+#. Create a new geospatial content type
 #. Configure Cartaro to display the new content type with a new content element
 #. Add new geospatial content 
 
@@ -80,8 +80,8 @@ When the Cartaro page is opened, you will see the screen above. The front page c
 Creating a new Content type
 ================================================================================
 
-Content types define the structure and fields of a specific kind of content (e.g. the content type *Capital* contains the fields "name" and "location" to generate content elements for the respective capitals displayed on the map).
-To create a new content type, just follow the steps below.
+Content types define the structure and fields of a specific content (e.g. the content type *Capital* contains the fields "name" and "location" to generate content elements for the respective capitals displayed on the map).
+To create a new content type, follow the steps below.
 
 * Choose :menuselection:`Structure --> Content types` from the menu bar and click on **Add content type** 
 
@@ -107,9 +107,9 @@ To create a new content type, just follow the steps below.
 
 * Finish by clicking on **Save**
 
-* In the new window choose your field settings: select the geometry type that describes the kind of geospatial information you want to store. Choose *Polygone* to follow our example.
+* In the new window choose your field settings: select the geometry type that describes the kind of geospatial information you want to store. Choose *Polygon* to follow our example.
 
-.. tip::  Other types of geometry are also available. Choose the type that fits best for your needs. Read the information below in the *Geometry type* drop-box for additional help.
+.. tip::  Read the text below in the *Geometry type* drop-box to find the geometry type that fits your needs.
 
 .. image:: ../../images/screenshots/1024x768/cartaro3.png
     :scale: 70 % 
@@ -127,13 +127,13 @@ To create a new content type, just follow the steps below.
     :scale: 70 % 
     :align: center
 
-* In the field manager you would create further non-geospatial fields. We don't need to create a new one for our example. 
+* Under the tab *Manage fields* you could create further non-geospatial fields. We don't need to create a new one for our example. 
 
 
 Configuring GeoServer
 ================================================================================
 
-:doc:`GeoServer <../overview/geoserver_overview>` is used to provide layers via :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` and :doc:`Web Map Service (WMS) <../standards/wms_overview>` with the geospatial field of your content type.
+:doc:`GeoServer <../overview/geoserver_overview>` is used to provide layers via :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` and :doc:`Web Map Service (WMS) <../standards/wms_overview>` with the geospatial field from your newly created content type.
 
 * Choose :menuselection:`Structure --> GeoServer` from the menu bar to visit the GeoServer configuration page
 
