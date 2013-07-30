@@ -1,12 +1,9 @@
-:Author: Jinsongdi Yu (j.yu@jacobs-university.de)
-:Author: Michael Owonibi (o.michael@jacobs-university.de)
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
-:Author: Dimitar Misev (d.misev@jacobs-university.de)
-:Author: Frank Gasdorf
-:Author: Alan Beccati (a.beccati@jacobs-university.de)
-:Version: osgeo-live6.5draft
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Version: osgeo-live4.0
+:License: LGPLv3 ?
 
+.. _rasdaman-quickstart:
+ 
 .. image:: ../../images/project_logos/logo-rasdaman.png
   :scale: 100 %
   :alt: project logo
@@ -14,48 +11,52 @@
   :target: http://www.rasdaman.org
 
 
-*******************
+********************
 rasdaman Quickstart
-*******************
+********************
 
-rasdaman ist ein Rasterserver, der es erlaubt, Anfragen an n-D Datensätze, die in einer relationalen Datenbank gespeichert sind, zu stellen.
+rasdaman ist eine Big Data Engine für flexible ad-hoc Analyse von multi-dimensionalen raum-zeitliche Sensor-, Bild-, Simulations- und Statistikdaten unbeschränkter Größe.
 
-Dieser Quickstart Guide beschreibt, wie Anfragen an eine "Spielwiese" von Rasterobjekten gestellt werden können.
-Um mit den Beispielen arbeiten zu können, ist der rasdaman Server zu starten (:menuselection:`Geospatial --> Databases --> Rasdaman --> Start Rasdaman Server`).
 
-Erkunden der 1-D bis 4-D Beispiele
+Erforsche die 1-D to 4-D Beispiele
 ==================================
 
-    * Sie können die rasdaman `Demo <http://localhost/rasdaman-demo>`_ lokal aufrufen, um einige Demodatensätze anzuschauen. Die kleineren sind Teil von OSGeo-Live, die die größere Datensätze verwenden verweisen direkt auf die `Earthlook Demo Seite <http://kahlua.eecs.jacobs-university.de/~earthlook/demos/index.php>`_ (Internetzugang wird benötigt).
-
-Anfragen lokal ausführen
-========================
-
-    * Öffnen Sie eine Konsole und die lokal installierte Beispieldatenbank
-    * Verwenden Sie :command:`rasql` um die Abfragen auszuführen und die Ergebnisse zu erhalten, zum Beispiel::
-
-      $ rasql -q "select png((char)(c.red / (c.red + c.green) - c.green / (c.red + c.green)) > 0.6 * 255) from rgb AS c" --out file
-
-    * Verwenden Sie die favorisierte Bild-Programm, um das generierte Datei zu öffnen.
+OSGeo Live enthält eine Vielzahl interaktiver 1D bis 4D rasdaman-Demos.
+    * Erforsche die `multi-dimensionalen Demos <http://localhost:8080/earthlook/index.php>`_.
+    * Die kleineren Demos sind Teil von OSGeo-Live, die größeren (jenseits der Kapazität dieses Laufwerks), leiten weiter zum `Showcase für OGC Standards <http://standards.rasdaman.org>`_ .
 
 
-Erstellen einer eigenen Datenbank
-=================================
+Queries auf der OSGeo database
+==============================
 
-    * Öffnen Sie eine Konsole
-    * `Laden und installieren Sie rasdaman <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/Download>`_ und dessen `Abhängigkeiten <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/RequiredPackages>`_
-    * Starten sie das Demo-Installationsscript::
+    * Öffne eine Konsole, sende Anfragen an die Datenbanke. Hier ist ein Beispiel, in dem roter und blauer Kanal eines RGB-Bilds kombiniert werden::
+
+      $ rasql -q "select png( rgb.red + rgb.blue ) from rgb" --out file --filename osgeo.png
+
+    * Verwende Dein Lieblings-Werkzeug zur Bildinspektion, um das generierte Bild anzuzeigen.
+
+
+Dinge zum Ausprobieren
+======================
+
+Hier sind einige weitere Herausforderungen zum Ausprobieren:
+    * Experimentiere mit eigenen Anfragen; der `rasql query language guide <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/browser/manuals_and_examples/manuals/pdf/ql-guide.pdf>`_ ist Dein Freund.
+    * Lerne mehr über die OGC `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Anfragesprache (sie ist startk von rasdaman beeinflusst); ein guter Startpunkt sind `Dokumentation und Tutorial <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ . 
+    * Interessiert in Coverage Daten und Diensten im allgemeinen? Besuche das Wiki der OGC `Coverages Domain Working Group <http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`.
+
+
+Erzeuge Deine eigene Datenbank
+==============================
+
+    * Öffne eine Konsole, `lade rasdaman herunter und installiere es <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/Download>`_ zusammen mit den `erforderlichen Paketen <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/wiki/RequiredPackages>`_, starte das Einfüge-Skript für die Demos::
 
       $ install_demo.sh
 
-    * Verwenden Sie :command:`rasql` um die Abfragen auszuführen und die Ergebnisse zu erhalten, zum Beispiel::
+    * Verwende die rasql utility für Anfrage, beispielsweise die oben genannte oder diese::
 
-      $ rasql -q "select png( NIR ) from NIR" --out file
+      $ rasql -q "select csv( marray bucket in [0:255] values count_cells( rgb.red = bucket ) ) from rgb --out string"
 
-Wie geht es weiter?
-============================
+    * Füge eigene Daten hinzu (siehe `http://www.rasdaman.org/wiki/PetascopeUserGuide`_ für Details), publiziere sie über OGC Dienste.
 
-Weitere Herausforderungen, die Sie meistern können:
 
-    * Erkunden sie die Demo-Datensätze unter Verwendung des `rasql query language guide <http://kahlua.eecs.jacobs-university.de/trac/rasdaman/browser/manuals_and_examples/manuals/pdf/ql-guide.pdf>`_
-    * Um mehr über den OGC `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Sprach-Standard (starker Einfluss von rasdaman) zu erfahren, sind die `Dokumentations- und die Tutorial- Seiten <http://kahlua.eecs.jacobs-university.de/~earthlook/tech/interface-wcps.php>`_ zu empfehlen. 
+
