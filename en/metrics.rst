@@ -6,9 +6,13 @@
 |osgeo-live-version| Project Metrics
 ================================================================================
 
-Metrics provided by `Ohloh <https://www.ohloh.net/>`_ which are derived from the project's code repository. Note these metrics have know deficiencies (such as caused by repositories moving), and only provide partial indications about the project's status.
+Metrics provided by `Ohloh <https://www.ohloh.net/>`_ which are derived
+from the projects' code repositories. Note these metrics have know deficiencies
+(such as caused by repositories moving), and only provide partial indications
+about the projects' development. Lack of change in smaller, concise packages
+and libraries may simply reflect a level of maturity and completeness.
 
-This page requires an internet connection to access Ohloh metrics.
+Viewing the metrics requires an Internet connection and Javascript to be enabled.
 
 .. raw:: html
 
@@ -92,6 +96,7 @@ Navigation and Maps
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/gpsdrive/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/viking/widgets/project_factoids_stats.js"></script>
@@ -135,12 +140,11 @@ Applications targeted at a specific domain:
   <script type="text/javascript" src="http://www.ohloh.net/p/sahanapy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/ushahidi/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/osgearth/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script>
 
 Missing:
 
 * :doc:`overview/mb-system_overview` - Sea Floor Mapping
-* :doc:`overview/zygrib_overview` - - Weather Forecast Maps
+* :doc:`overview/zygrib_overview` - Weather Forecast Maps
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
