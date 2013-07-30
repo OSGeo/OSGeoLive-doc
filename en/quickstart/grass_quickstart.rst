@@ -153,7 +153,10 @@ other raster layers.
 Watersheds and streams
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once again select the `elevation.10m` *@PERMANENT* map and in the `Raster` menu
+Once again select the `elevation.10m` *@PERMANENT* map. Once its name is
+highlighted in the `GIS Layer Manager` list right click on its name and
+click on :menuselection:`Set computational region from selected map(s)` from
+the context menu. Then in the `Raster` menu
 choose :menuselection:`Hydrologic modeling --> Watershed analysis`. This
 will open the ``r.watershed`` module. Select the `elevation.10m` layer as your
 input map, in the 'Input options' tab set the minimum size of the exterior
