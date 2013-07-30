@@ -14,7 +14,7 @@ pgRouting
 GIS Werkzeuge
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting erweitert eine :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
+pgRouting erweitert eine :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing) und andere netzorientierte Algorithmen.
 
 Vorteile des Datenbank-Routing Konzepts sind:
 
@@ -22,6 +22,7 @@ Vorteile des Datenbank-Routing Konzepts sind:
 * Änderungen an den Daten wirken sich unmittelbar auf das Routingergebnis aus. Es besteht keine Notwendigkeit, Daten vorzuberechnen. 
 * Der "Kosten" Parameter kann dynamisch mittels SQL berechnet werden und aus verschiedenen Attributen aus unterschiedlichen Tabellen zusammengesetzt sein.
 
+pgRouting steht unter GPLv2 Lizens und wird von einer wachsenden Zahl von Nutzern, Organisationen und Unternehmen unterstützt.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
   :scale: 60 %
@@ -33,11 +34,24 @@ Kernfunktionen
 
 pgRouting stellt Funktionen zur Verfügung für:
 
-* "Kürzeste-Wege" Berechnung Dikstra: Routing Algorithmus ohne heuristische Komponente
-* "Kürzeste-Wege" Berechnung A-Star: Routing für große Netzwerke (mit heuristischer Komponente)
-* "Kürzeste-Wege" Berechnung Shooting-Star: Routing mit Unterstützung von Abbiegebeziehungen (mit heuristischer Komponente)
-* Problem des Handlungsreisenden (Traveling Salesperson Problem, TSP)
+* All Pairs Shortest Path, Johnson’s Algorithm :sup:`[1]`
+* All Pairs Shortest Path, Floyd-Warshall Algorithm :sup:`[1]`
+* "Kürzeste-Wege" Berechnung mit A* Algorithmus
+* Bi-directional Dijkstra Shortest Path :sup:`[1]`
+* Bi-directional A* Shortest Path :sup:`[1]`
+* "Kürzeste-Wege" Berechnung mit Dijkstra Algorithmus
 * Einzugsbereichberechnung (Isolinien)
+* K-Shortest Path, Alternative Routen :sup:`[1]`
+* K-Dijkstra, One-to-Many Shortest Path :sup:`[1]`
+* Problem des Handlungsreisenden (Traveling Salesperson Problem, TSP)
+* Turn Restriction Shortest Path (TRSP) :sup:`[1]`
+* "Kürzeste-Wege" Berechnung mit Shooting Star Algorithmus :sup:`[2]`
+
+Weitere Details zu pgRouting finden sich in der `Projektdokumentation <http://docs.pgrouting.org>`_.
+
+| :sup:`[1]` **Neu** in pgRouting 2.0
+| :sup:`[2]` Eingestellt mit pgRouting 2.0
+
 
 .. Implementierte Standards
    ---------------------
@@ -51,13 +65,13 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.05
+**Software Version:** 2.0
 
 **Unterstützte Plattformen:** Linux, Windows, Mac
 
 **API Schnittstellen:** SQL
 
-**Kommerzieller Support:** http://www.pgrouting.org
+**Commercial Support:** http://www.pgrouting.org/support.html
 
 Quickstart
 --------------------------------------------------------------------------------
