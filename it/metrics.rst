@@ -9,7 +9,8 @@
 Metriche provviste da `Ohloh <https://www.ohloh.net/>`_ che sono derivate dai repository 
 del codice dei progetti. È da notare che queste metriche possono avere delle mancanze
 (causate per esempio da uno spostamento del repository), e forniscono solo un indicatore
-parziale sullo stato del progetto.
+parziale sullo stato del progetto. La mancanza di modifiche in pacchetti piccoli e concisi
+e in librerie può semplicemente riflettere un livello di maturità e di completezza.
 
 .. raw:: html
 
@@ -40,33 +41,36 @@ GIS generali visualizzazione, editing, and analisi sul browser:
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/openlayers/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/Leaflet/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/geomajas/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapbender/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapfish/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/geomoose/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/geonode/widgets/project_factoids_stats.js"></script> 
 
 Servizi Web
 --------------------------------------------------------------------------------
-Pubblicazione di dati spaziali su internete:
+Pubblicazione di dati spaziali su internet:
 
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/geoserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/deegree/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/asasciences_ncWMS/widgets/project_factoids_stats.js"></script> 
   <script type="text/javascript" src="http://www.ohloh.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/4657/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/pycsw/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapproxy/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/fiftytwonorth_security/widgets/project_factoids_stats.js"></script>
+  <!--<script type="text/javascript" src="http://www.ohloh.net/p/fiftytwonorth_security/widgets/project_factoids_stats.js"></script>-->
+  <script type="text/javascript" src="http://www.ohloh.net/p/n52-wps/widgets/project_factoids_stats.js"></script> 
+  <script type="text/javascript" src="http://www.ohloh.net/p/SensorObservationService/widgets/project_factoids_stats.js"></script> 
   <script type="text/javascript" src="http://www.ohloh.net/p/tinyows/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/zoo-project/widgets/project_factoids_stats.js"></script>
 
 Mancanti:
 
-* :doc:`overview/qgis_mapserver_overview`
-* :doc:`overview/52nWPS_overview`
-* :doc:`overview/52nSOS_overview`
+* :doc:`overview/qgis_mapserver_overview` (Incorporato nel codice di Quantum GIS
 
 Archivi di dati
 --------------------------------------------------------------------------------
@@ -86,6 +90,7 @@ Navigazione e Mappe
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/gpsdrive/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script> 
   <script type="text/javascript" src="http://www.ohloh.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/viking/widgets/project_factoids_stats.js"></script>
@@ -111,11 +116,15 @@ Strumenti specifici per analisi:
   <script type="text/javascript" src="http://www.ohloh.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/GMT/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapnik/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/maptiler/widgets/project_factoids_stats.js"></script> 
   <script type="text/javascript" src="http://www.ohloh.net/p/ossim/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/otb/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/R-project_/widgets/project_factoids_stats.js"></script>
 
+Mancanti:
 
+* :doc:`overview/tilemill_overview` - Rappresentazioni cartografiche e pubblicazione
+  
 GIS specifici per uno specifico ambito
 --------------------------------------------------------------------------------
 Applicazioni mirate ad uno specifico ambito:
@@ -125,12 +134,11 @@ Applicazioni mirate ad uno specifico ambito:
   <script type="text/javascript" src="http://www.ohloh.net/p/sahanapy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/ushahidi/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/osgearth/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script>
 
 Mancanti:
 
 * :doc:`overview/mb-system_overview` - Mappatura del livello del mare
-* :doc:`overview/zygrib_overview` - - Mappe previsioni del tempo
+* :doc:`overview/zygrib_overview` - Mappe previsioni del tempo
 
 Librerie geospaziali
 --------------------------------------------------------------------------------

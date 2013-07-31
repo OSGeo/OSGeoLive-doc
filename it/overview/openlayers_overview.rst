@@ -3,7 +3,7 @@
 :Author: Roald de Wit 
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
@@ -63,7 +63,7 @@ Dettagli
 
 **Licenza:** 2-clause BSD License (aka FreeBSD License) 
 
-**Versione Software:** 2.12
+**Versione Software:** 2.13.1
 
 **Interfaccia API:** JavaScript
 

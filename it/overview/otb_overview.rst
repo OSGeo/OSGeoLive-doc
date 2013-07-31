@@ -37,7 +37,7 @@ Caratteristiche principali
   :align: right
 
 * accesso alle immagini: accesso ottimizzato in lettura/scrittura per la maggior parte dei
- formati di immagini telerilevate (incluso Jpeg2000), accesso e visualizzazione dei metadata
+  formati di immagini telerilevate (incluso Jpeg2000 attraverso OpenJPEG), accesso e visualizzazione dei metadata
 * ortorettificazione, riproizione di mappe e miglioramento dei modelli dei sensori
 * calibrazione
 * fusione di immagini
@@ -59,7 +59,7 @@ Dettagli
 
 **Licenza:** CeCILL (CeCILL è compatibile con GPL e indirizzato alla legge francese)
 
-**Versione Software:** 3.18 (rilasciato nel Luglio 2013)
+**Versione Software:** 3.18.1 (rilasciato nel Luglio 2013)
 
 **Piattaforme Supportate:** Linux, Mac, Windows
 

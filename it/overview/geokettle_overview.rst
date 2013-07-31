@@ -1,6 +1,6 @@
 :Author: Thierry Badard 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
@@ -75,6 +75,7 @@ Caratteristiche principali
   * Pivotting
   * Analisi di dati geospaziali: buffer, centroid, distance, intersection, union, ...
   * Eleborazione geografica avanzata: clipping, delaunay, simplify/smooth geometry, split features, ...
+  * Può eseguire qualsiasi Web Processing Service (WPS)
   * Aggregazione spaziale
   * Anteprima cartografica
 
@@ -83,7 +84,7 @@ Caratteristiche principali
   * Database: MySQL, PostgreSQL/PostGIS, Oracle, ...
   * Popolazione di data warehouse
   * Formati di dati geospaziali: Shapefile, GML 3.1.1, KML 2.2, tutti i formati supportati da OGR
-  * OGC Web services: Catalogue Web Service (CSW), ...
+  * Servizi OGC Web: Catalogue Web Service (CSW), Web Feature Service (WFS), ...
   * Partitioned loading
   * Bulk loading
   * Parallel loading
@@ -101,7 +102,7 @@ Caratteristiche principali
 Standard implementati
 --------------------------------------------------------------------------------
 
-* OGC standards compliant (SFS, CSW, SOS)
+* OGC standards compliant (SFS, WFS-T, WPS, CSW, SOS, GML, KML)
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -110,7 +111,7 @@ Dettagli
 
 **Licenza:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Versione Software:** 2.0
+**Versione Software:** 2.5
 
 **Piattaforme Supportate:** Windows, Linux, Mac, Solaris
 
