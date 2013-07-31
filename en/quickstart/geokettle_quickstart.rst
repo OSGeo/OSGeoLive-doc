@@ -2,7 +2,7 @@
 :Author: Thierry Badard
 :Reviewer: Sergio Baños Calvo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-geokettle.png
@@ -134,4 +134,4 @@ Here are some additional challenges for you to try:
 What Next?
 ================================================================================
 
-Take a look at the GeoKettle user and developer documentation and tutorials available on the `wiki <http://wiki.spatialytics.org>`_ of the project. Do not hesitate also to ask for help on the Spatialytics `forum <http://www.spatialytics.com/forum>`_.
+Take a look at the documentation available on the Spatialytics `documentation center <http://docs.spatialytics.com/doku.php?id=en:spatialytics_etl>`_. Do not hesitate also to ask for help on the Spatialytics `forum <http://forum.spatialytics.com>`_.
