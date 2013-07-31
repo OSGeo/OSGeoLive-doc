@@ -110,7 +110,7 @@ Details
 
 **Software Version:** 2.0
 
-** Supported Platforms:** Windows, Linux
+**Supported Platforms:** Windows, Linux
 
 **Support:** http://www.gvsig.org/web/organization/services
 
