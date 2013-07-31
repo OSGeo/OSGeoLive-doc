@@ -1,5 +1,5 @@
 :Author: Chris Schmidt
-:Version: osgeo-live7.0
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
