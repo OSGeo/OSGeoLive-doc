@@ -54,7 +54,24 @@ it manually and point your browser to http://localhost:8033). Please wait until
 you can see the deegree 3 services console. 
 This is a simple web-based GUI for editing the configuration files of the 
 so-called deegree workspace.
-Please enter the password "deegree" to gain access to the services console.
+
+
+deegree 3 workspaces
+================================================================================
+
+deegree 3 uses configurations conformant to all deegree 3 based webservices. 
+Those configurations are stored in the so called workspace.
+
+Inside the deegree services console you find a section to manage the included 
+and ready-to-use workspaces.
+To enter this section, click on "workspaces" on the left side.
+
+You are now in the workspace management of the running deegre instance.
+You can see which workspace is currently active (only one can be active at a 
+time) workspace, inactive locally available workspaces and offical workspaces 
+which can be imported if you have a internet connection.
+
+Please start the deegree-inspire-workspace now.
 
 
 deegree 3 workspaces on OSGeo-Live GIS Disc
@@ -79,11 +96,11 @@ This can easily changed to PostGIS, Oracle Spatial or Microsoft SQL Server as
 backend.
 
 After activating the "deegree-workspace-inspire" you can open a simple 
-map-client by clicking on "see layers".
+map-client by clicking on **see layers**.
 The service is configured to visualize the data and a basemap (rendered by 
 OpenStreetMap).
 
-A click on the "+" on the right side opens a layer tree showing all available 
+A click on the **+** on the right side opens a layer tree showing all available 
 layers. You can activate the INSPIRE layer served by the deegree WMS here.
 
 .. tip::

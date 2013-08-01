@@ -53,8 +53,6 @@ Wenn Sie deegree zum ersten mal starten, öffnet sich der Internetbrowser Firefo
 Bitte warten Sie, bis die deegree 3 services console angezeigt wird. 
 Die deegree 3 services console ist eine webbasierte GUI zum Editieren 
 der Konfigurationsdateien in den sogenannten deegree workspaces.
-Bitte geben sie das Passwort "deegree" (ohne Anführungsstriche) ein,
-um Zugang zur deegree 3 services console zu erhalten.
 
 
 deegree 3 workspaces
@@ -73,6 +71,8 @@ workspace-Management von deegree. Hier haben sie eine Übersicht über den
 zur Zeit aktiven workspace (es kann immer nur ein workspace aktiv sein),
 weitere inaktive workspaces und offizielle workspaces, welche Sie 
 importieren können (Internetzugang ist erforderlich).
+
+Starten Sie nun den deegree-inspire-workspace.
 
 
 deegree 3 workspaces auf der OSGeo-Live GIS Disc
