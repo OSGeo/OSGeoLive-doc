@@ -91,9 +91,9 @@ outputs valid, harmonized INSPIRE GML.
 Additionally it supports multiple request types and querys.
 
 .. tip::
-This workspace loads harmonized INSPIRE GML from local files.
-This can easily changed to PostGIS, Oracle Spatial or Microsoft SQL Server as 
-backend.
+   This workspace loads harmonized INSPIRE GML from local files.
+   This can easily changed to PostGIS, Oracle Spatial or Microsoft SQL Server as 
+   backend.
 
 After activating the "deegree-workspace-inspire" you can open a simple 
 map-client by clicking on **see layers**.
@@ -104,9 +104,9 @@ A click on the **+** on the right side opens a layer tree showing all available
 layers. You can activate the INSPIRE layer served by the deegree WMS here.
 
 .. tip::
-The map client is based on `OpenLayers <http://openlayers.org/>`_. 
-You can pan through the map holding the left mouse button and drag the map.
-Zooming is possible via mouse wheel or the navigation elements on the left side.
+   The map client is based on `OpenLayers <http://openlayers.org/>`_. 
+   You can pan through the map holding the left mouse button and drag the map.
+   Zooming is possible via mouse wheel or the navigation elements on the left side.
 
 More information and step-by-step tutorials about the INSPIRE workspace can be 
 found under http://download.deegree.org/documentation/3.3.1/html/lightly.html#example-workspace-1-inspire-network-services
