@@ -116,6 +116,7 @@ To create a new content type, follow the steps below.
     :align: center
 
 .. tip::  Read the text below the *Geometry type* drop-down box to find the geometry type that fits your needs.
+
 * Finish by click on **Save field settings**
 
 .. image:: ../../images/screenshots/1024x768/cartaro4.png
