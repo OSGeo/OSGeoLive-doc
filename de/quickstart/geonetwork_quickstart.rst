@@ -27,6 +27,7 @@ Start |GN|
 --------------------------------------------------------------------------------
 
 - Für den Fall, dass Sie OSGeoLive mit 1GB RAM oder weniger laufen lassen, ist es ratsam den default Tomcat Service vor dem Aufruf von GN zu stoppen.
+
 :: 
 
   sudo service tomcat6 stop
