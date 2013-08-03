@@ -32,7 +32,7 @@ Eseguire
   la dimostrazione richiede dati dall'installazione locale di GeoServer.
 
 
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52n_test_client.png
   :scale: 100 %
   :alt: screenshot
   :align: center

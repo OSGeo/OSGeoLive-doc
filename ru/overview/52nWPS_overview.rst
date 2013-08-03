@@ -20,7 +20,7 @@ The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` д
 Алгоритм может быть простым, как, например, подсчёт разницы заболеваемости гриппом для разных сезонов, 
 так и сложным, как, например, глобальная модель изменения климата.
 
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52n_test_client.png
   :scale: 50 %
   :alt: снимок экрана
   :align: right

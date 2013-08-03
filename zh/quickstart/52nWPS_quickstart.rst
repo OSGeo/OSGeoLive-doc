@@ -28,7 +28,7 @@
 * 请确保 :doc:`GeoServer <../overview/geoserver_overview>` 处于运行状态。以下需要用到来自 GeoServer 的数据支持。
 
 
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52n_test_client.png
   :scale: 100 %
   :alt: screenshot
   :align: center

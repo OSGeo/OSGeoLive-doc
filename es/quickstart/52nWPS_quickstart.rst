@@ -23,7 +23,7 @@ Ejecutar la aplicación
 
 * Firefox abrirá el 52WPS-TestClient (cliente de prueba).
 
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52n_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right

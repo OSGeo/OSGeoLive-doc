@@ -27,7 +27,7 @@
 * Убедитесь, что запущен :doc:`GeoServer <../overview/geoserver_overview>`, демонстрация использует данные от локально установленного GeoServer.
 
 
-.. image:: ../../images/screenshots/1024x768/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52n_test_client.png
   :scale: 100 %
   :alt: снимок экрана
   :align: center
