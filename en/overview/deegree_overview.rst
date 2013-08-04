@@ -15,23 +15,28 @@
   :align: right
   :target: http://www.osgeo.org
 
-deegree webservices
+deegree
 ================================================================================
 
-deegree webservices are implementations of the geospatial webservice specifications of the `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ and the `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_. deegree webservices 3.3 includes the following services:
+Web Services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`_: Provides access to raw geospatial data objects
-* `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_: Serves maps rendered from geospatial data
-* `Web Map Tile Service (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Serves pre-rendered map tiles
-* `Catalogue Service for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services
-* `Web Processing Service (WPS) <http://www.opengeospatial.org/standards/wps>`_: Executes geospatial processes
+deegree provides geospatial webservices based upon `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ and `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ specifications. deegree supports:
 
-With a single deegree webservices installation, you can set up one of the above services, all of them or even multiple services of the same type.
+* `Web Map Services (WMS) <http://www.opengeospatial.org/standards/wms>`_: Serves maps rendered from geospatial data
+* `Web Map Tile Services (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Serves pre-rendered map tiles
+* `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services
+* `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Executes geospatial processes
 
-Characteristics of deegree WFS
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
+  :scale: 55 %
+  :alt: TBD
+  :align: right
+
+Core Features
 --------------------------------------------------------------------------------
 
-deegree WFS is an implementation of the `OGC Web Feature Service specification <http://www.opengeospatial.org/standards/wfs>`_. Notable features:
+**WFS**
 
 * Implements WFS standards 1.0.0, 1.1.0 and 2.0.0
 * Fully transactional (even for rich data models)
@@ -46,10 +51,7 @@ deegree WFS is an implementation of the `OGC Web Feature Service specification <
 * Advanced filter expression support based on XPath 1.0
 * Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, Shapefiles or GML instance documents
 
-Characteristics of deegree WMS
---------------------------------------------------------------------------------
-
-deegree WMS is an implementation of the `OGC Web Map Service specification <http://www.opengeospatial.org/standards/wms>`_. Notable features:
+**WMS**
 
 * Implements WMS standards 1.1.1 and 1.3.0
 * Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0
@@ -64,10 +66,7 @@ deegree WMS is an implementation of the `OGC Web Map Service specification <http
 * Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or GML instance documents
 * Can render rich data models directly
 
-Characteristics of deegree WMTS
---------------------------------------------------------------------------------
-
-deegree WMTS is an implementation of the `OGC Web Map Tile Service specification <http://www.opengeospatial.org/standards/wmts>`_. Notable features:
+**WMTS**
 
 * Implements Basic WMTS standard 1.0.0 (KVP)
 * High performance and excellent scalability
@@ -75,10 +74,7 @@ deegree WMTS is an implementation of the `OGC Web Map Tile Service specification
 * Supports on-the-fly caching (using EHCache)
 * Supports GetFeatureInfo for remote WMS backends
 
-Characteristics of deegree CSW
---------------------------------------------------------------------------------
-
-deegree CSW is an implementation of the `OGC Catalogue Service specification <http://www.opengeospatial.org/standards/cat>`_. Notable features:
+**CSW**
 
 * Implements CSW standard 2.0.2
 * Fully transactional
@@ -91,10 +87,7 @@ deegree CSW is an implementation of the `OGC Catalogue Service specification <ht
 * Handles all defined queryable properties (for Dublin Core as well as ISO profile) 
 * Complex filter expressions
 
-Characteristics of deegree WPS
---------------------------------------------------------------------------------
-
-deegree WPS is an implementation of the `OGC Processing Service specification <http://www.opengeospatial.org/standards/wps>`_. Notable features:
+**WPS**
 
 * Implements WPS standard 1.0.0
 * Supports KVP, XML and SOAP requests
