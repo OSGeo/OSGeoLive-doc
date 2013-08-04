@@ -51,10 +51,8 @@ Datensätze in OSGeo-Live
 - Nottingham_CBD.osm.bz2: kleinerer Auszug der lediglich den zentralen Geschäftsbereich abdeckt.
 
 - feature_city.osm.bz2 und feature_city_CBD.osm.bz2 sind ebenfalls Auszüge des Stadtbereichs. Quickstarts und Overviews benutzen diese Dateien/Pfadname, ungeachtet von möglichen Änderungen der Beispielstadt zwischen verschiedenen Releases.
-despite posible changes of example city among different releases.
 
-- feature_city_poi.db: Sqlite DB der POI ("positions of interests") Knoten aus der soeben genannten feature_city.osm.bz2. Diese beinhaltet Kneipen (pubs), Tankstellen (fuel stations), 
-Restaurants usw.
+- feature_city_poi.db: Sqlite DB der POI ("positions of interests") Knoten aus der soeben genannten feature_city.osm.bz2. Diese beinhaltet Kneipen (pubs), Tankstellen (fuel stations), Restaurants usw.
 
 Die OSM Daten wurden nach PostGIS importiert: 
 

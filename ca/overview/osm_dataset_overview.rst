@@ -47,7 +47,7 @@ Característiques Principals
 * És possible extreure subconjunts locals de les dades.
 
 * Les dades s'emmagatzemen com a nodes WGS84 (latitud-longitud) i cadenes de nodes, 
-així com les metadades es poden guardar a nivell de punt, polilínia, cobertura completa i relacions.
+  així com les metadades es poden guardar a nivell de punt, polilínia, cobertura completa i relacions.
 
 * Etiquetatge enriquit, normalment molt més detallat que qualsevol altra font de dades.
 
