@@ -8,6 +8,8 @@
 
 Τα στατιστικα παρέχονται από το `Ohloh <https://www.ohloh.net/>`_ και τα οποία υπολογίζονται από τα αποθετήρια κώδικα κάθε λογισμικού. Σημειώστε ότι τα στατιστικά αυτά έχουν γνωστές ελλείψεις (που προκαλούνται για παράδειγμα από την μετακίνηση αποθετηρίων κώδικα), και παρέχουν μόνο μερικές ενδείξεις σχετικά με την κατάσταση κάθε λογισμικού.
 
+Για τη θέαση των στατιστικών απαιτείται σύνδεση στο διαδίκτυο και ενεργοποιημένη Javascript.
+
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/OSGeo-Live/widgets/project_factoids_stats.js"></script><br/>
@@ -37,10 +39,12 @@
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/openlayers/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/Leaflet/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/geomajas/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapbender/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapfish/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/geomoose/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/geonode/widgets/project_factoids_stats.js"></script>
 
 Διαδικτυακές Υπηρεσίες
 --------------------------------------------------------------------------------
@@ -50,11 +54,14 @@
 
   <script type="text/javascript" src="http://www.ohloh.net/p/geoserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapserver/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/asasciences_ncWMS/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/deegree/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/4657/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/pycsw/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapproxy/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/n52-wps/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/SensorObservationService/widgets/project_factoids_stats.js"></script>  
   <script type="text/javascript" src="http://www.ohloh.net/p/fiftytwonorth_security/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/tinyows/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/zoo-project/widgets/project_factoids_stats.js"></script>
@@ -84,6 +91,7 @@
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/gpsdrive/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/viking/widgets/project_factoids_stats.js"></script>
