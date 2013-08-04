@@ -48,7 +48,7 @@ Web Feature Service
 * FE 1.0.0 και FE 1.1.0
 * GML 2.1.2 και 3.1.1 Simple Profile (SF-0)
 
-Details
+Λεπτομέρειες
 --------------------------------------------------------------------------------
 
 **Αρχική Ιστοσελίδα:** http://mapserver.org/trunk/tinyows/
