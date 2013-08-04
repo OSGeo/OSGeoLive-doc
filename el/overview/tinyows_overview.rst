@@ -8,7 +8,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://mapserver.org/trunk/tinyows/
+  :target: http://mapserver.org/tinyows/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -51,11 +51,11 @@ Web Feature Service
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Αρχική Ιστοσελίδα:** http://mapserver.org/trunk/tinyows/
+**Αρχική Ιστοσελίδα:** http://mapserver.org/tinyows/
 
 **Άδεια:** MIT
 
-**Έκδοση Λογισμικού:** 1.0.0
+**Έκδοση Λογισμικού:** 1.1.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Unix, Mac, Windows
 

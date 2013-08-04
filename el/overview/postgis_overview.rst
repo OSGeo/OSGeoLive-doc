@@ -1,7 +1,7 @@
 :Author: OSGeo Live
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -9,7 +9,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://postgis.refractions.net/
+  :target: http://www.postgis.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -59,7 +59,7 @@ PostGIS
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Αρχική ιστοσελίδα:** http://postgis.refractions.net/
+**Αρχική ιστοσελίδα:** http://www.postgis.net/
 
 **Άδεια:** GNU General Public License (GPL) version 2
 

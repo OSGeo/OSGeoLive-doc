@@ -1,5 +1,5 @@
 :Author: OSGeo Live
-:Version: osgeo-live6.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -59,7 +59,7 @@ Quantum GIS (QGIS)
 
 * Εύκολη προεπισκόπηση πολλών διανυσματικών και εικονιστικών προτύπων ψηφιακών αρχείων
 
-    * Πίνακες της βάσης δεδομένων PostgreSQL
+    * Πίνακες της βάσης δεδομένων PostgreSQL/PostGIS
     * Υποστήριξη για τα περισσότερα διανυσματικά πρότυπα: περιλαμβανομένου των ESRI shapefiles, MapInfo, SDTS και GML.
     * Υποστήριξη για εικονιστικά δεδομένα όπως Ψηφιακά Μοντέλα Εδάφους, αεροφωτογραφίες και δορυφορικές εικόνες,
     * Υποστήριξη προτύπων του GRASS,

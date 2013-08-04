@@ -1,6 +1,6 @@
 :Author: Henry Addo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -69,15 +69,15 @@ Ushahidi είχε συνολικά 45,000 χρήστες στην Κένυα, κ
 
 **Κεντρική Ιστοσελίδα:** http://www.ushahidi.com
 
-**Άδεια:** GNU General Public License (GPL) version 3
+**Άδεια:** GNU Lesser General Public License (GPL) version 3
 
-**Έκδοση Λογισμικού:** 2.0.1
+**Έκδοση Λογισμικού:** 2.7 (Bamako)
 
 **Προγραμματιστικές διεπαφές:** PHP
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 
-**Υποστήριξη:** http://forums.ushahidi.com
+**Υποστήριξη:** https://wiki.ushahidi.com/display/forums/Ushahidi+Forums
 
 
 Γρήγορη εκκίνηση

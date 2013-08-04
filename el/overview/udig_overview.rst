@@ -45,7 +45,7 @@ User-friendly Desktop Internet GIS (uDig)
 * Βαθιά ενσωμάτωση προτύπων, επιτρέπει στην εφαρμογή να εναλλάσεται μεταξύ διαφορετικών προτύπων για την εύρεση του καταλληλότερου σχετικά με την απαραίτητη οπτικοποίηση, ολοκλήρωση και επεξεργασία
 * Εκτύπωση και δημιουργία PDF
 * Για προγραμματιστές
-  
+
   * Εφαρμογή Java υλοποιημένη με τις βιβλιοθήκες :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ και GeoAPI
   * Επαγγελματικές δυνατότητες που παρέχονται από την πλατφόρμα Eclipse Rich Client Platform με τη δυνατότητα πρόσθετων λειτουργιών (add-ons) 
   * Χρήση εγγενών παραθυρικών διεπαφών
@@ -65,7 +65,7 @@ User-friendly Desktop Internet GIS (uDig)
 
 **Κεντική ιστοσελίδα:** http://udig.refractions.net/
 
-**Άδεια:** GNU Lesser General Public License (LGPL) version 2
+**Άδεια:** Διπλή BSD / EPL (Eclipse Foundation)
 
 **Έκδοση Λογισμικού:** |version-udig|
 

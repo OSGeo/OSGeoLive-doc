@@ -61,13 +61,13 @@ Sahana Eden
 
 **Άδεια:** MIT Άδεια
 
-**Έκδοση Λογισμικού:** 0.5.5
+**Έκδοση Λογισμικού:** 1.0.1
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OS X, Microsoft Windows
 
 **Προγραμματιστικές διεπαφές (API):** Web, Python
 
-**Υποστήριξη:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
+**Υποστήριξη:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://wiki.sahanafoundation.org/doku.php/community:chat>`_.
 
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------

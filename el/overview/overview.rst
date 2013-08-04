@@ -30,10 +30,13 @@
 Λογισμικά με δυνατότητες θέασης, επεξεργασίας και ανάλυσης δεδομένων GIS στο διαδίκτυο:
 
 * :doc:`openlayers_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart>`] - Διαδικτυακή εφαρμογή GIS
+* :doc:`leaflet_overview` - Διαδραστικοί Χάρτες Φορητών Συσκευών
 * :doc:`geomajas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
 * :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας
 * :doc:`geomoose_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomoose_quickstart>`] - Διαδικτυακή πύλη GIS
+* :doc:`cartaro_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/cartaro_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
+* :doc:`geonode_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonode_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
 
 Διαδικτυακές Υπηρεσίες
 --------------------------------------------------------------------------------
@@ -42,12 +45,12 @@
 * :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
+* :doc:`ncWMS_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου
 * :doc:`pycsw_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/pycsw_quickstart>`] - Υπηρεσία Καταλόγου
 * :doc:`mapproxy_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapproxy_quickstart>`]
 * :doc:`qgis_mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* :doc:`52nWSS_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart>`] - WFS-T Service
@@ -67,6 +70,7 @@
 
 * :doc:`gpsdrive_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart>`] - Πλοήγηση GPS
 * :doc:`gpsprune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsprune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
+* :doc:`marble_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Εικονική Υδρόγειος
 * :doc:`opencpn_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart>`] - Ναυτικός Πλοηγός GPS
 * :doc:`osm_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart>`] - Εργαλεία Open Street Map
 * :doc:`viking_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart>`] - Οπτικοποίηση σημείων GPS
@@ -92,7 +96,6 @@
 * :doc:`ushahidi_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ushahidi_quickstart>`] - Χαρτοχράφηση και δημιουργία χρονοσειρών για γεγονότα
 * :doc:`osgearth_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart>`] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
 * :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
-* :doc:`marble_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Περιστρεφόμενη Υδρόγειος
 * :doc:`zygrib_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zygrib_quickstart>`] - Χάρτες πρόγνωσης καιρού
 
 Δεδομένα
@@ -111,7 +114,7 @@
 * :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
 * :doc:`geos_overview` - Γεωχωρική βιβλιοθήκη C/C++ 
 * :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς 
-* :doc:`liblas_overview` - Πρόσβαση δεδομένων LiDAR 
+* :doc:`liblas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/liblas_quickstart>`] - Πρόσβαση δεδομένων LiDAR 
 
 Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
 --------------------------------------------------------------------------------
@@ -126,3 +129,8 @@
 
 * `Προγράμματα εγκατάστασης Microsoft Windows <../../WindowsInstallers/>`_
 * `Προγράμματα εγκατάστασης Apple OSX <../../MacInstallers/>`_
+
+Στατιστικά
+--------------------------------------------------------------------------------
+
+* :doc:`Στατιστικά Λογισμικών <../metrics>` από το Ohloh

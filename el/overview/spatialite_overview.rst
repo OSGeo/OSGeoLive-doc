@@ -8,7 +8,7 @@
   :scale: 50 %
   :alt: project logo
   :align: right
-  :target: http://www.gaia-gis.it/spatialite/
+  :target: http://www.gaia-gis.it/gaia-sins/
 
 
 SpatiaLite
@@ -20,8 +20,6 @@ SpatiaLite
 Η SpatiaLite είναι βασισμένη στην βάση δεδομένων SQLite_ με την προσθήκη χωρικών λειτουργιών. 
 
 Η SQLite είναι μια δημοφιλής βάση δεδομένων, απλή, δυνατή, εύκολη στη χρήση και πραγματικά ελαφριά (από πλευράς απαιτήσεων υπολογιστικών πόρων). Κάθε βάση δεδομένων SQLite είναι απλά ένα αρχείο; μπορείτε να το αντιγράψετε, να το συμπιέσετε, να το μεταφέρετε μέσω δικτύου χωρίς κανένα πρόβλημα.
-
-Τα αρχεία είναι φορητά, η ίδια βάση δεδομένων θα λειτουργήσει σε Windows, Linux, MacOs κλπ.
 
 .. _SQLite: http://www.sqlite.org/
 
@@ -58,7 +56,7 @@ SpatiaLite
 
 **Άδεια:** MPL v1.1 και GPL v3
 
-**Έκδοση Λογισμικού:** spatialite 3.1.0a / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
+**Έκδοση Λογισμικού:** spatialite 3.1.0 / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 

@@ -10,7 +10,7 @@
  Can the logo please be edited to only include the icon.
   
 .. image:: ../../images/project_logos/logo-tilemill.png
-  :scale: 75 %
+  :scale: 60 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com

@@ -1,15 +1,20 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live7.0draft
 :License: Creative Commons
-
 
 .. image:: ../../images/project_logos/logo-pycsw.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
+
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 pycsw
@@ -35,7 +40,8 @@ pycsw
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-* Πιστοποιημένα συμβατό με το OGC CSW 2.0.2
+* Πιστοποιημένα συμβατό με το OGC CSW 2.0.2 και Υλοποίηση Αναφοράς
+* Υποστήριξη εξόρυξης (harvesting) μεταδεδομένων από WMS, WFS, WCS, WPS, WAF, CSW, SOS
 * Περνάει με επιτυχία τη σουίτα δοκιμής OGC CITE CSW (103/103)
 * Υλοποιεί την οδηγία INSPIRE Discovery Services 3.0
 * Υλοποιεί το πρότυπο ISO Metadata Application Profile 1.0.0
@@ -86,7 +92,7 @@ pycsw
 
 **Άδεια:** `MIT`_
 
-**Έκδοση Λογισμικού:** 1.4.0
+**Έκδοση Λογισμικού:** 1.6.0
 
 **Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 
