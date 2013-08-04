@@ -93,9 +93,9 @@ liefert die Basisdaten als valides, harmonisiertes INSPIRE GML aus und
 unterstützt zahlreiche Anfragemöglichkeiten.
 
 .. tip::
-Dieser workspace lädt harmonisiertes INSPIRE GML aus lokalen Dateien in den 
-Speicher, dies kann jedoch einfach auf PostGIS, Oracle Spatial oder Microsoft 
-SQL Server Datenbanken als Backend umgestellt werden.
+    Dieser workspace lädt harmonisiertes INSPIRE GML aus lokalen Dateien in den 
+    Speicher, dies kann jedoch einfach auf PostGIS, Oracle Spatial oder Microsoft 
+    SQL Server Datenbanken als Backend umgestellt werden.
 
 Nach der Aktivierung des "deegree-workspace-inspire" kann unter dem 
 **see layers** link ein simpler Map-Client eingesehen werden, der eine Basemap
@@ -105,11 +105,11 @@ Ein Klick auf das **+** auf der rechten Seite öffnet eine Liste der verfügbare
 Ebenen. Hier kann die vom deegree WMS angebotene INSPIRE Ebene aktiviert werden.
 
 .. tip::
-Der Karten-Client basiert auf `OpenLayers <http://openlayers.org/>`_. 
-Die Karte kann durch die gedrückte linke Maustaste bewegt werden.
-Der Zoom funktioniert entweder mit dem Mausrad oder mit den Steuerungselementen
-auf der linken Seite. Als Alternative kann durch halten der Umschalt-Taste und
-einem Mausklick ein Rechteck gezogen werden, auf das gezoomt wird.
+    Der Karten-Client basiert auf `OpenLayers <http://openlayers.org/>`_. 
+    Die Karte kann durch die gedrückte linke Maustaste bewegt werden.
+    Der Zoom funktioniert entweder mit dem Mausrad oder mit den Steuerungselementen
+    auf der linken Seite. Als Alternative kann durch halten der Umschalt-Taste und
+    einem Mausklick ein Rechteck gezogen werden, auf das gezoomt wird.
 
 Informationen und Step-By-Step Tutorials zur Konfiguration des INSPIRE workspaces finden sie in
 ausführlicher Form in der Dokumentation unter http://download.deegree.org/documentation/3.3.1/html/lightly.html#example-workspace-1-inspire-network-services
