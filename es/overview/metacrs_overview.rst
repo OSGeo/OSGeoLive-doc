@@ -127,9 +127,4 @@ Proj4J
   **Interfaces API:** Java
   
   **Soporte:** http://lists.osgeo.org/mailman/listinfo/proj4j
-  
 
-Guía rápida
---------------------------------------------------------------------------------
-    
-* :doc:`Guía de inicio rápid <../quickstart/metacrs_quickstart>`
