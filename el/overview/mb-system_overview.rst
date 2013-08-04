@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-mb-system.png
@@ -55,7 +55,7 @@ MB-System
 
 **Άδεια:** GNU General Public License (GPL) version 3
 
-**Έκδοση Λογισμικού:** 5.3.1982
+**Έκδοση Λογισμικού:** 5.4.2128
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows (με Cygwin)
 

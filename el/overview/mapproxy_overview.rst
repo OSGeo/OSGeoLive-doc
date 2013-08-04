@@ -38,7 +38,7 @@ MapProxy
   :align: right
 
 Πηγές δεδομένων:
-  * WMS 1.0.0–1.3.0 (MapServer, GeoServer, κλπ.)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`_, :doc:`GeoServer <geoserver_overview>`_, κλπ)
   * TMS, WMTS(TileCache, GeoWebcache, etc.)
   * Mapserver και Mapnik (απευθείας, χωρίς WMS)
   * κάθε ένα από τα TileCache, Google Maps, Bing ή συμβατή πηγή

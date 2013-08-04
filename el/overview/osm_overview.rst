@@ -21,7 +21,7 @@ OpenStreetMap
 που γνωρίζετε ως δωρεάν έχουν νομικά ή τεχνικά εμπόδια στη χρήση τους, εμποδίζοντας τους χρήστες τους να
 τους χρησιμοποιούν με τρόπο δημιουργικό, παραγωγικό ή ακόμα και απρόσμενο.
 
-Πέντε εφαρμογές περιλαμβάνονται: JOSM, Merkaartor, Gosmore, Osmarender, και
+Μερικές εφαρμογές περιλαμβάνονται: JOSM, Merkaartor, Osmosis, Gosmore, Osmarender, και
 Osm2pgsql. Επιπρόσθετα, ορισμένα πρόσφατα δεδομένα για την πόλη που φιλοξενεί το συνέδριο FOSS4G και ένας αριθμός επεκτάσεων του 
 JOSM περιλαμβάνονται.
 
@@ -57,15 +57,9 @@ JOSM περιλαμβάνονται.
 
 * Merkaartor: GNU General Public License (GPL) έκδοση 2
 
-* Gosmore: Κοινόχρηστη και GPLv2
-
-.. <!-- see /usr/share/doc/gosmore/copyright -->
-
-* Osmarender: GNU General Public License (GPL) έκδοση 2
-
 **Εκδόσεις Λογισμικού:**
 
-* JOSM: Τελευταία δοκιμαστική (svn r5697)
+* JOSM: Τελευταία δοκιμαστική (svn r6060)
 
 * Merkaartor: 0.17.2
 
@@ -73,7 +67,9 @@ JOSM περιλαμβάνονται.
 
 * Osmarender: SVN μέσα του 2011
 
-* osm2pgsql: SVN v0.70.5
+* Osmosis: 0.40.1
+
+* osm2pgsql: SVN version 0.81.0
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 

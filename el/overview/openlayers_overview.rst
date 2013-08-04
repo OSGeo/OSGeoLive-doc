@@ -2,7 +2,7 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
@@ -62,7 +62,7 @@ OpenLayers
 
 **Άδεια:** FreeBSD
 
-**Έκδοση Λογισμικού:** 2.12
+**Έκδοση Λογισμικού:** 2.13.1
 
 **Προγραμματιστική διεπαφή:** JavaScript
 
