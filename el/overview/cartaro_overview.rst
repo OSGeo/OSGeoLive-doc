@@ -70,4 +70,4 @@ To Cartaro είναι σχεδιασμένο για χρήση σε ιστοχώ
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/cartaro_quickstart>`
+* :doc:`Εγχειρίδιο γρήγορης εκκίνησης <../quickstart/cartaro_quickstart>`
