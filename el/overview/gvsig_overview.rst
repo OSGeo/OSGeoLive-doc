@@ -1,6 +1,6 @@
-:Author: OSGeo-Live
+:Author: Jorge Sanz
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -31,7 +31,7 @@ gvSIG Desktop
   καθώς και επιτρέπει ιδιοποιημένων εφαρμογών ανάλογα με τις ανάγκες του χρήστη.
 * Είναι διαθέσιμο σε πάνω από 20 γλώσσες (Ισπανικά, Αγγλικά, Γερμανικά, Γαλλικά, 
   Ιταλικά,...) .
-* Είναι διαθέσιμο για Windws, Linux, και Mac OS X:
+* Είναι διαθέσιμο για Windows και Linux (υπάρχουν και ανεπίσημες πηγές για Mac OS X):
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -50,8 +50,8 @@ gvSIG Desktop
 
 * Διαλειτουργικό: μπορεί να δουλέψει σχεδόν με όλα τα γνωστά πρότυπα αρχείων:
 
-  * Εικόνες: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * Διανυσματικά και CAD: shapefile, GML, KML, DGN, DXF, DWG
+  * Εικόνες: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF ...
+  * Διανυσματικά και CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * Βάσεις Δεδομένων: PostGIS, MySQL, Oracle, ArcSDE
   * Απομακρυσμένα: ECWP, ArcIMS, πρότυπα OGC
 
@@ -61,7 +61,7 @@ gvSIG Desktop
   * Κατάλογοι: Z3950, SRW, CSW (ISO/19115 και ebRIM)
   * Gazetteers: ADL, WFS, WFS-G
   
-* Περισσότεροι από 340 αλγόριθμοι μέσω διασύνδεσης SEXTANTE_
+* Περισσότεροι από 340 αλγόριθμοι μέσω του SEXTANTE
 
 * Ενσωματωμένα ισχυρά εργαλεία CAD:
 
@@ -88,7 +88,7 @@ gvSIG Desktop
 
 Προχωρημένη υποστήριξη για πολλά πρότυπα του Open Geospatial Consortium (OGC)
 
-* Φόρτωση WMS, WFS και επιπέδων WCS
+* Φόρτωση WMS, WMTS, WFS και επιπέδων WCS
 * Εξαγωγή/Εισαγωγή υπομνημάτων SLD
 * Εξαγωγή/Εισαγωγή Web Map Context (WMC)
 * Αναζήτηση σε καταλόγους με  CSW (ISO/19115 και ebRIM)
@@ -101,15 +101,14 @@ gvSIG Desktop
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.12
+**Έκδοση Λογισμικού:** 2.0
 
-**Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
+**Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 
 **Υποστήριξη:** http://www.gvsig.org/web/organization/services
 
 
 .. _gvSIG: http://www.gvsig.org
-.. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
 Γρήγορη εκκίνηση
 --------------------------------------------------------------------------------

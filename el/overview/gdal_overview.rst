@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
@@ -62,7 +62,7 @@ GDAL/OGR
 
 **Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Έκδοση Λογισμικού:** 1.7.0 (1.9.1)
+**Έκδοση Λογισμικού:** 1.10.0
 
 **Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 

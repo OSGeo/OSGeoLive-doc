@@ -20,7 +20,7 @@
 Η 52°North επιτρέπει την πρόσβαση σε αλγορίθμους επεξεργασίας χωρικών δεδομένων μέσω διαδικτύου με την υπηρεσία :doc:`Web Processing Service (WPS) <../standards/wps_overview>` .Τέτοιοι αλγόριθμοι μπορεί να προέρχονται από το Sextante, τον ArcGIS Server, R, GRASS 7 ή από ιδιοποιημένες εφαρμογές. Οι αλγόριθμοι μπορεί να είναι απλοί όσο ο προσδιορισμός της διαφοράς των κρουσμάτων γρίπης μεταξύ δύο εποχών, 
 ή περίπλοκοι όσο ένα παγκόσμιο μοντέλο κλίματος.
 
-.. image:: ../../images/screenshots/800x600/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -47,6 +47,7 @@
 
 * Διανυσματικά δεδομένα: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN
 * Εικονιστικά δεδομένα: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
+* Τα δεδομένα εξόδου μπορούν να αποθηκευτούν στο GeoServer/MapServer 
 
 Μια εφαρμογή στον περιηγητή
 
@@ -62,13 +63,13 @@
 
 **Αρχική ιστοσελίδα:** http://52north.org/wps
 
-**Άδεια:** GPL
+**Άδεια:** GPL 2.0
 
-**Έκδοση Λογισμικού:** WPS 3.0
+**Έκδοση Λογισμικού:** WPS 3.2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**ΕΜπορική Υποστήριξη:** http://www.52north.org
+**Εμπορική Υποστήριξη:** http://52north.org
 
 
 Γρήγορη εκκίνηση

@@ -1,6 +1,6 @@
 :Author: Thierry Badard 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5draft
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geokettle.png
@@ -63,6 +63,7 @@ GeoKettle
   * Περιστροφή
   * Ανάλυση και επεξεργασία χωρικών δεδομένων : ζώνες επιρροής, κεντροειδές, απόσταση, τομή, ένωση, ...
   * Προχωρημένη επεξεργασία: αποκοπή, ομαλοποίηση/γενίκευση, διάσπαση χαρακτηριστικών, ...
+  * Μπορεί να χρησιμοποιήσει οποιοδήποτε Web Processing Services (WPS)
   * Χαρτογραφική προεπισκόπηση
 
 * Φόρτωση δεδομένων σε επιθυμητό πρότυπο:
@@ -70,7 +71,7 @@ GeoKettle
   * Σε βάση δεδομένων MySQL, PostgreSQL/PostGIS, Oracle, ...
   * Συμπλήρωση σε αποθήκη δεδομένων
   * Πρότυπα χωρικών δεδομένων: Shapefile, GML 3.1.1, KML 2.2, όλα τα πρότυπα που υποστηρίζει το OGR
-  * Υπηρεσίες OGC: Catalogue Web Service (CSW), ...
+  * Υπηρεσίες OGC: Catalogue Web Service (CSW), Web Feature Service (WFS), ...
   * Φόρτωση δεδομένων τμηματικά
   * Φόρτωση όγκου δεδομένων
   * Παράλληλη φόρτωση
@@ -88,7 +89,7 @@ GeoKettle
 Υλοποιημένα Πρότυπα
 --------------------------------------------------------------------------------
 
-* Συμβατό με πρότυπα OGC (SFS, CSW, SOS)
+* Συμβατό με πρότυπα OGC (SFS, WFS-T, WPS, CSW, SOS, GML, KML)
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -97,7 +98,7 @@ GeoKettle
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Έκδοση Λογισμικού:** 2.0
+**Έκδοση Λογισμικού:** 2.5
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Solaris
 

@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver-2.png
@@ -39,10 +39,10 @@ EOxServer
 * Θέαση, επιλογή, κόψιμο και μεταφόρτωση τηλεπισκοπικών δεδομένων
 * Καταγραφή τηλεπισκοπικών δεδομένων αρχείου
 * Διαχειριστική διαδικτυακή εφαρμογή
-* Δημοσίευση δεδομένων μέσω προτύπων του Open Geospatial Consortium (OGC):
+* Δημοσίευση δεδομένων μέσω :doc:`προτύπων του Open Geospatial Consortium (OGC) <../standards/standards>`:
 
-  * Web Coverage Service (WCS) 1.0, 1.1, 2.0 και προτεινόμενου EO-WCS
-  * Web Map Service (WMS) και EO-WMS
+  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>`_ 1.0, 1.1, 2.0 και προτεινόμενου EO-WCS
+  * :doc:`Web Map Service (WMS) <../standards/wms_overview>`_ και EO-WMS
   * Προτεινόμενες επεκτάσεις του WCS περιλαμβάνουν: κωδικοποίηση GeoTIFF, προεπιλεγμενες 
     χαρτογραφικές προβολές (CRSs), μετατροπή κλίμακας και δειγματοληψία.
   * Τα προτόκολα που υποστηρίζονται είναι: KVP και XML/POST (σε συνεργασία με SOAP2POST
@@ -74,7 +74,7 @@ EOxServer
 
 **Άδεια:** `MIT <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Έκδοση Λογισμικού:** 0.2.3
+**Έκδοση Λογισμικού:** 0.3.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows, Mac
 
