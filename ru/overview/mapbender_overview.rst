@@ -50,7 +50,7 @@ SDI-компонентами. Это инструмент для  админис
 Mapbender предоставляет полностью новую перспективу управления SDI с использованием
 только стандартного веб-браузера. 
 
-.. image:: ../../images/screenshots/800x600/mapbender_demo.png
+.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Приложение Mapbender
   :align: right

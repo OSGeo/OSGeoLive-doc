@@ -32,7 +32,7 @@ The Mapbender client side is based on HTML and JavaScript using the jQuery and j
 
 Mapbender gives a whole new perspective to SDI management using nothing but a standard web browser. 
 
-.. image:: ../../images/screenshots/800x600/mapbender_demo.png
+.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

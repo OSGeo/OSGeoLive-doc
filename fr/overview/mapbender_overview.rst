@@ -32,7 +32,7 @@ La partie client de Mapbender est basée sur HTML et JavaScript en utilisant les
 
 Mapbender donne complètement une nouvelle perspective à la gestion d'IDS en n'utilisant rien d'autre qu'un navigateur web classique. 
 
-.. image:: ../../images/screenshots/800x600/mapbender_demo.png
+.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Application Mapbender
   :align: right

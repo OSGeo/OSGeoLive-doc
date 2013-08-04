@@ -34,7 +34,7 @@ El costat del client Mapbender es basa en HTML i JavaScript usant les bibliotequ
 
 Mapbender dóna una perspectiva totalment nova a la gestió de les IDE usant res més que un navegador web estàndard. 
 
-.. image:: ../../images/screenshots/800x600/mapbender_demo.png
+.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right
