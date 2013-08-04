@@ -21,7 +21,7 @@ Dabei können die Algorithmen einfach sein wie eine Bestimmung der unterschiedli
 bis hin zu komplizierten globalen Klimaänderungsmodellen.
 
 
-.. image:: ../../images/screenshots/800x600/52n_test_client.png
+.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
