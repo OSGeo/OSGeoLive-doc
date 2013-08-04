@@ -17,6 +17,10 @@ Witaj w |osgeo-live-version|
      disclaimer
      sponsors
      sponsors_osgeo
+     metrics
+     mac_installers
+     win_installers
+
 `OSGeo-Live <http://live.osgeo.org>`_  jest to startowe DVD, PenDrive 
 USB lub wirtualna maszyna z systemem
 `Xubuntu <http://www.xubuntu.org/>`_. Pozwala na wypróbowanie 
@@ -75,6 +79,9 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla
      sponsors_osgeo
      presentation
      test
+     metrics
+     mac_installers
+     win_installers
 
 	 
 Prezentacja

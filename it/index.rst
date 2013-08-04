@@ -19,6 +19,9 @@ Benvenuti in |osgeo-live-version|
      disclaimer
      sponsors
      sponsors_osgeo
+     metrics
+     mac_installers
+     win_installers
 
 `OSGeo-Live <http://live.osgeo.org>`_ è un DVD, unità USB o Virtual Machine avviabile basato su
 `Xubuntu <http://www.xubuntu.org/>`_, che permette di provare una grande varietà di software
@@ -74,6 +77,9 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      sponsors_osgeo
      presentation
      test
+     metrics
+     mac_installers
+     win_installers
 
 
 

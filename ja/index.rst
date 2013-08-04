@@ -49,6 +49,9 @@ OSGeo-Live は様々な地理空間関連の保管、配布、表示、分析、
    sponsors
    sponsors_osgeo
    presentation
+   metrics
+   mac_installers
+   win_installers
 
 プレゼンテーション
 --------------------------------------------------------------------------------

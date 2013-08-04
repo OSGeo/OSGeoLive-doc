@@ -73,6 +73,9 @@ Many applications are also provided with installers for
      sponsors_osgeo
      presentation
      test
+     metrics
+     mac_installers
+     win_installers
 
 
 

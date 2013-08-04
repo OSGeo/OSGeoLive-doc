@@ -17,6 +17,9 @@
      disclaimer
      sponsors
      sponsors_osgeo
+     metrics
+     mac_installers
+     win_installers
 
 Το `OSGeo-Live <http://live.osgeo.org>`_ είναι ένα αυτόνομο εκκινήσιμο DVD, USB ή Εικονική Μηχανή
 βασισμένη στη διανομή `Xubuntu <http://www.xubuntu.org/>`_, που σας επιτρέπει να δοκιμάσετε μια μεγάλη ποικιλία γεωχωρικών λογισμικών ανοιχτού κώδικα
@@ -71,6 +74,9 @@
      sponsors
      sponsors_osgeo
      presentation
+     metrics
+     mac_installers
+     win_installers
 
 Παρουσίαση
 --------------------------------------------------------------------------------

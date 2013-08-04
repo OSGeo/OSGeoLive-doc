@@ -55,7 +55,10 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
    download
    sponsors
    sponsors_osgeo
-   presentation
+   presentation  
+   metrics
+   mac_installers
+   win_installers
 
 Präsentation
 --------------------------------------------------------------------------------

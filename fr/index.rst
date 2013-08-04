@@ -59,6 +59,9 @@ Guides de démarrage rapide
    sponsors
    sponsors_osgeo
    presentation
+   metrics
+   mac_installers
+   win_installers
 
 Présentation
 --------------------------------------------------------------------------------
