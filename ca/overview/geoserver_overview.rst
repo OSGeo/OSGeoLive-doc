@@ -23,8 +23,7 @@ GeoServer
 Servei web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoServer és un servidor web que permet servir mapes i dades de diversos formats diferents a clients estàndard com navegadors web i programes SIG d'escriptori. Això vol dir que pot emmagatzemar les vostres dades espacials en el `format
-<http://docs.geoserver.org/stable/en/user/data/index.html>`_ que preferiu i que els vostres usuaris no han de saber res de dades SIG. En el nivell més simple tot el què necessiten és un navegador web per veure els mapes exactament com els heu creat.
+GeoServer és un servidor web que permet servir mapes i dades de diversos formats diferents a clients estàndard com navegadors web i programes SIG d'escriptori. Això vol dir que pot emmagatzemar les vostres dades espacials en el format que preferiu i que els vostres usuaris no han de saber res de dades SIG. En el nivell més simple tot el què necessiten és un navegador web per veure els mapes exactament com els heu creat.
 
 GeoServer és la implementació de referència dels estàndards de l'`Open Geospatial 
 Consortium <http://www.opengeospatial.org>`_ (OGC) 

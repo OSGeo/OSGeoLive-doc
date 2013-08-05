@@ -25,8 +25,7 @@ Service Web
 GeoServer est un serveur web qui permet de servir des cartes et des données 
 depuis une variété de formats, des clients standards web ou bureautique jusqu'aux 
 programmes SIG avancés. Cela signifie que vous pouvez stocker vos données spatiales 
-dans presque n'importe lequel de vos `formats
-<http://docs.geoserver.org/stable/en/user/data/index.html>`_ préférés mais aussi 
+dans presque n'importe lequel de vos formats préférés mais aussi 
 que vos utilisateurs n'ont pas besoin de savoir exactement ce que sont des données 
 SIG. Au niveau le plus basique, tout ce dont ils ont besoin est un navigateur web 
 pour voir les cartes comme vous voulez. 

@@ -26,8 +26,7 @@ Usługi sieciowe
 GeoServer jest serwerem webowym, który pozwala na udostępniania map
 i danych z różnych formatów dla standardowych klientów tkaich jak
 przeglądarki internetowe i programy desktop GIS. To oznacza, 
-że możesz przechowywać swoje dane przestrzenne w prawie każdym `formacie
-<http://docs.geoserver.org/stable/en/user/data/index.html>`_ 
+że możesz przechowywać swoje dane przestrzenne w prawie każdym formacie
 jakim chcesz, a twoi użytkownicy nie muszą wiedzieć nic na temat danych GIS.
 Na najprostrzym poziomie, wszystko, czego potrzebują to przeglądarka internetowa, 
 która pokaże im mapy w taki sposób, w jaki chcesz. 

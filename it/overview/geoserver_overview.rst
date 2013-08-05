@@ -26,9 +26,7 @@ Web Service
 GeoServer è un web server che permette di fornire mappe e dati da
 una varietà di formati a client standard, come i browser web e GIS desktop.
 Ciò significa che è possibile memorizzare i dati spaziali in quasi
-qualsiasi `formato
-<http://docs.geoserver.org/stable/en/user/data/index.html>`_
-si preferisce, ma gli utenti non hanno bisogno di sapere
+qualsiasi formato si preferisce, ma gli utenti non hanno bisogno di sapere
 nulla dei dati GIS. Al livello più semplice tutto ciò che serve è un browser web
 per visualizzare le mappe esattamente come si desidera.
 
