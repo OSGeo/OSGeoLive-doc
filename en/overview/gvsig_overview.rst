@@ -37,8 +37,8 @@ gvSIG is known for:
 * being easily extendible, allowing continuous application 
   enhancement, as well as enabling the development of tailor-made solutions.
 * being available in over 20 languages (Spanish, English, German, French, 
-  Italian,...) .
-* being available for Windows and Linux (there are also non-oficial Mac OS X distros though):
+  Italian,...).
+* being available for Windows and Linux (there are also non-oficial Mac OS X versions).
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -58,7 +58,7 @@ Core Features
 * Interoperable: able to work with most known data formats:
 
   * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
-  * vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG,
+  * vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * databases: PostGIS, MySQL, Oracle, ArcSDE
   * remote: ECWP, ArcIMS, OGC standards
 
