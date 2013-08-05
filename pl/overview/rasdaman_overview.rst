@@ -34,7 +34,7 @@ The rasdaman technology is stable and mature, deployed in production since over 
   :scale: 50 %
   :align: right
 
-G≥Ûwne funkcje
+G≈Ç√≥wne funkcje
 --------------------------------------------------------------------------------
 
     * true multi-dimensionality - from 1-D over 2-D to 3-D, 4-D, and beyond
@@ -49,7 +49,7 @@ Zaimplementowane standardy
 
     * OGC WCS 2.0, WCPS 1.0, WPS 1.0
 
-SzczegÛ≥y
+Szczeg√≥≈Çy
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** www.rasdaman.org
@@ -70,6 +70,6 @@ SzczegÛ≥y
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* :doc:`Przejdü do wprowadzenia <../quickstart/rasdaman_quickstart>`
+* :doc:`Przejd≈∫ do wprowadzenia <../quickstart/rasdaman_quickstart>`
 
 

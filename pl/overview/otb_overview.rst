@@ -13,7 +13,7 @@
 OTB
 ================================================================================
 
-Przetwarzanie zobrazowañ
+Przetwarzanie zobrazowaÅ„
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ORFEO Toolbox Library (OTB) is a high performance image processing
@@ -28,7 +28,7 @@ Methodological Part of the ORFEO Accompaniement Program and has been
 actively developed since 2006. It is based on the established medical
 image processing library ITK and is distributed as open source.
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/otb-mapping.jpg
@@ -36,23 +36,23 @@ G³ówne funkcje
   :alt: screenshot
   :align: right
 
-* dostêp do obrazów: zoptymalizowany dostêp read/write access do wiêkszoœci 
-  formatów zobrazowañ (równie¿ Jpeg2000), dostêp do metadanych i wizualizacji;
+* dostÄ™p do obrazÃ³w: zoptymalizowany dostÄ™p read/write access do wiÄ™kszoÅ›ci 
+  formatÃ³w zobrazowaÅ„ (rÃ³wnieÅ¼ Jpeg2000), dostÄ™p do metadanych i wizualizacji;
 * ortorektifikacja i reprojekcja map
 * kalibracja
-* ³¹czenie zobrazowañ
+* Å‚Ä…czenie zobrazowaÅ„
 * filtracja: blurring, denoising, enhancement...
 * feature extraction: interest points, alignments, lines...
-* detekcja obiektów
+* detekcja obiektÃ³w
 * large scale image segmentation: region growing, mean-shift, watershed, level sets...
 * classification: K-means, SVM, Markov random fields
 * object-based image analysis
 * analizy geoprzestrzenne
-* stereoskopowa rekonstrukcja z optycznych par zdjêæ
+* stereoskopowa rekonstrukcja z optycznych par zdjÄ™Ä‡
 * analizy danych SAR
 * change detection.
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** http://www.orfeo-toolbox.org/
@@ -72,5 +72,5 @@ Szczegó³y
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* :doc:`PrzejdŸ do wprowadzenia <../quickstart/otb_quickstart>`
+* :doc:`PrzejdÅº do wprowadzenia <../quickstart/otb_quickstart>`
 

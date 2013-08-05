@@ -12,12 +12,12 @@
 libLAS
 ================================================================================
 
-Dostêp do danych LiDAR
+DostÄ™p do danych LiDAR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-libLAS jest bibliotek¹ C/C++ przeznaczon¹ do odczytu i zapisu bardzo
+libLAS jest bibliotekÄ… C/C++ przeznaczonÄ… do odczytu i zapisu bardzo
 popularnego formatu `LAS` `LiDAR`_. `ASPRS LAS format`_ jest binarnym formatem 
-przechowywania danych pochodz¹cych z sensorów LiDAR lub programów przetwarzaj¹cych 
+przechowywania danych pochodzÄ…cych z sensorÃ³w LiDAR lub programÃ³w przetwarzajÄ…cych 
 dane LiDAR w celu wymiany lub archiwizacji danych.
 
 .. image:: ../../images/screenshots/800x600/liblas.jpg
@@ -31,14 +31,14 @@ products is a "point cloud" data product that can be conceptualized as a
 series of point measurements representing distance from the sensor to a returned 
 emission.  A common storage format for these point cloud data is ASPRS LAS format.
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
 * C/C++/Python APIs for reading, writing, and manipulating LAS data
 * `Command line utilities`_ for manipulating LAS data based on `LAStools`_
 * Coordinate reprojection via `GDAL <http://gdal.org>`__
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
  
 **Strona internetowa:** http://liblas.org
@@ -56,7 +56,7 @@ Szczegó³y
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* :doc:`PrzejdŸ do wprowadzenia <../quickstart/liblas_quickstart>`
+* :doc:`PrzejdÅº do wprowadzenia <../quickstart/liblas_quickstart>`
 
 .. _`LIDAR`: http://en.wikipedia.org/wiki/LIDAR
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/

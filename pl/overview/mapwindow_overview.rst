@@ -30,17 +30,17 @@ MapWindow is easy to incorporate into MS-Office based products such as MS-Excel 
   :scale: 50 %
   :align: right
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
-* Przyjazny graficzny interfejs u¿ytkownika:
+* Przyjazny graficzny interfejs uÅ¼ytkownika:
 
-    * identyfikacja/wybór obiektów,
-    * edycja/wyœwietlanie/przeszukiwanie atrybutów,
+    * identyfikacja/wybÃ³r obiektÃ³w,
+    * edycja/wyÅ›wietlanie/przeszukiwanie atrybutÃ³w,
     * reprojekcja w locie,
-    * kreator wydruków,
-    * etykietowanie obiektów,
-    * zmiana stylizacji wektorów i rastrów,
+    * kreator wydrukÃ³w,
+    * etykietowanie obiektÃ³w,
+    * zmiana stylizacji wektorÃ³w i rastrÃ³w,
     * i wicej ...
 
 * Easy Viewing of many Vector and Raster Formats:
@@ -75,11 +75,11 @@ Zaimplementowane standardy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Standardy OGC: 
     * WMS (v1.1, v1.3)
-    * WFS v1.1 (poprzez zewnêtrzn¹ wtyczkê)
+    * WFS v1.1 (poprzez zewnÄ™trznÄ… wtyczkÄ™)
     * Web Map Tile Service (WMTS)
     * GML    
 
-Szczegó³y
+SzczegÃ³Å‚y
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Strona internetowa:** http://www.mapwindow.org
@@ -92,7 +92,7 @@ Szczegó³y
 
 **Interfejsy API:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
 
-**Wsparcie spo³ecznoœci:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
+**Wsparcie spoÅ‚ecznoÅ›ci:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
 
 **Wsparcie komercyjne:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
 
@@ -100,4 +100,4 @@ Szczegó³y
 Wprowadzenie
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :doc:`PrzejdŸ do wprowadzenia <../quickstart/mapwindow_quickstart>`
+* :doc:`PrzejdÅº do wprowadzenia <../quickstart/mapwindow_quickstart>`

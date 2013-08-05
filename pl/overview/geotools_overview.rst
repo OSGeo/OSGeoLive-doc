@@ -19,17 +19,17 @@
 GeoTools
 ================================================================================
 
-GeoTools jest otwart¹ (LGPL) bibliotek¹ Java, która dostarcza zgodnych ze sandardami metod do przetwarzania danych geoprzestrzennych. U¿ywa ona struktur danych opartych o specyfikacje Open Geospatial Consortium (OGC).
+GeoTools jest otwartÄ… (LGPL) bibliotekÄ… Java, ktÃ³ra dostarcza zgodnych ze sandardami metod do przetwarzania danych geoprzestrzennych. UÅ¼ywa ona struktur danych opartych o specyfikacje Open Geospatial Consortium (OGC).
 
 .. image:: ../../images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
 
-GeoTools znajduje zastosowanie w wielu projektach, w³¹czaj¹c us³ugi sieciowe, narzêdzia wiersza poleceñ i aplikacje desktopowe. Aplikacje OSGeo-Live, które u¿ywaj¹ GeoTools, to: 
+GeoTools znajduje zastosowanie w wielu projektach, wÅ‚Ä…czajÄ…c usÅ‚ugi sieciowe, narzÄ™dzia wiersza poleceÅ„ i aplikacje desktopowe. Aplikacje OSGeo-Live, ktÃ³re uÅ¼ywajÄ… GeoTools, to: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
 * Definition of interfaces for key spatial concepts and data structures
@@ -71,7 +71,7 @@ G³ówne funkcje
   
   * Some highlights are swing support (used in geotools tutorials), swt, local and web process support, additional symbology, additional data formats, generation of grids and a couple of implementations of ISO Geometry.
 
-Obs³ugiwane formaty
+ObsÅ‚ugiwane formaty
 -------------------
 
 * raster formats and data access:
@@ -105,7 +105,7 @@ Support of numerous Open Geospatial Consortium (OGC) standards:
 * Clients for Web Feature Service (WFS), Web Map Service (WMS) and experimental support for Web Process Service (WPS)
 * ISO 19107 Geometry
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
  
 **Strona internetowa:** http://geotools.org/
@@ -123,4 +123,4 @@ Szczegó³y
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `PrzejdŸ do wprowadzenia <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
+* `PrzejdÅº do wprowadzenia <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_

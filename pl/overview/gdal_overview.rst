@@ -22,17 +22,17 @@ GDAL/OGR
 Geospatial Data Translation Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geospatial Data Abstraction Library (GDAL/OGR) dostarcza narzêdzi wiersza poleceñ
-do przeliczania i przekszta³cania szerokiego spektrum danych przestrzennych
+Geospatial Data Abstraction Library (GDAL/OGR) dostarcza narzÄ™dzi wiersza poleceÅ„
+do przeliczania i przeksztaÅ‚cania szerokiego spektrum danych przestrzennych
 zapisanych w formatach rastrowych i wektorowych.
 
-Narzêdzia zbudowane s¹ w oparciu o wieloplatformow¹ bibliotekê C++ 
-dostêpn¹ z poziomu wielu jêzyków programowania. Biblioteka prezentuje aplikacjom
-wywo³uj¹cym ujednolicony model danych dla wszystkich obs³ugiwanych formatów.
+NarzÄ™dzia zbudowane sÄ… w oparciu o wieloplatformowÄ… bibliotekÄ™ C++ 
+dostÄ™pnÄ… z poziomu wielu jÄ™zykÃ³w programowania. Biblioteka prezentuje aplikacjom
+wywoÅ‚ujÄ…cym ujednolicony model danych dla wszystkich obsÅ‚ugiwanych formatÃ³w.
 
-GDAL/OGR jest najszerzej stosowan¹ geoprzestrzenn¹ bibliotek¹ dostêpu do danych.
-Zapewnia silnik dostêpu do danych, wielu aplikacjom, w tym korzysta z niej 
-MapServer, GRASS, QGIS, i OpenEV. Jest równie¿ wykorzystywana przez takie 
+GDAL/OGR jest najszerzej stosowanÄ… geoprzestrzennÄ… bibliotekÄ… dostÄ™pu do danych.
+Zapewnia silnik dostÄ™pu do danych, wielu aplikacjom, w tym korzysta z niej 
+MapServer, GRASS, QGIS, i OpenEV. Jest rÃ³wnieÅ¼ wykorzystywana przez takie 
 programy jak OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, 
 MapGuide and ArcGIS.
 
@@ -41,21 +41,21 @@ MapGuide and ArcGIS.
   :alt: GDAL supports many geodata formats
   :align: right
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
-* Narzêdzia wiersza poleceñ do przeliczania, odkszta³cania obrazów, selekcji informacji, i wielu innych powszechnych zadañ
-* Bardzo wydajny dostêp do danych rastrowych, wykorzystuj¹cy kaflowanie i podgl¹dy
-* Obs³uga du¿ych plików - wiêkszych ni¿ 4GB
-* Dostêp do biblioteki za pomoc¹ jêzyków Python, Java, C#, Ruby, VB6 and Perl
-* System obs³ugi uk³adów odniesienia oparty na bibliotekach PROJ.4 oraz OGC Well Known Text
+* NarzÄ™dzia wiersza poleceÅ„ do przeliczania, odksztaÅ‚cania obrazÃ³w, selekcji informacji, i wielu innych powszechnych zadaÅ„
+* Bardzo wydajny dostÄ™p do danych rastrowych, wykorzystujÄ…cy kaflowanie i podglÄ…dy
+* ObsÅ‚uga duÅ¼ych plikÃ³w - wiÄ™kszych niÅ¼ 4GB
+* DostÄ™p do biblioteki za pomocÄ… jÄ™zykÃ³w Python, Java, C#, Ruby, VB6 and Perl
+* System obsÅ‚ugi ukÅ‚adÃ³w odniesienia oparty na bibliotekach PROJ.4 oraz OGC Well Known Text
 
-Popularne obs³ugiwane formaty
+Popularne obsÅ‚ugiwane formaty
 --------------------------------------------------------------------------------
 
-GDAL obs³uguje ponad 50 formatów danych rastrowych, OGR ponad 20 wektorowych.
+GDAL obsÅ‚uguje ponad 50 formatÃ³w danych rastrowych, OGR ponad 20 wektorowych.
 
-Miêdzy innymi s¹ to:
+MiÄ™dzy innymi sÄ… to:
 
 * **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, i wicej ...
 * **Wektor:** MapInfo (tab i mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, i wicej ...
@@ -63,9 +63,9 @@ Miêdzy innymi s¹ to:
 Zaimplementowane standardy
 --------------------------------------------------------------------------------
 
-Model danych OGR jest zgodny ze specyfikacj¹ OGC Simple Feature.
+Model danych OGR jest zgodny ze specyfikacjÄ… OGC Simple Feature.
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
 
 **Strona internetowa:**  http://www.gdal.org
@@ -83,4 +83,4 @@ Szczegó³y
 Wprowadzenie
 --------------------------------------------------------------------------------
     
-* :doc:`PrzejdŸ do wprowadzenia <../quickstart/gdal_quickstart>`
+* :doc:`PrzejdÅº do wprowadzenia <../quickstart/gdal_quickstart>`

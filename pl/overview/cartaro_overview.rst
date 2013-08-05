@@ -16,25 +16,25 @@ Cartaro
 
 Geoprzestrzenny CMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cartaro dostarcza geoprzestrzennej funkcjonalnoœci i us³ug sieciowych poprzez
-System Zarz¹dzania Treœci¹ (CMS) Drupal. Za pomoc¹ kilku klikniêæ w Cartaro,
-jesteœ w stanie stworzyæ i uruchomiæ us³ugi sieciowe w standardach OGC oraz
-stworzyæ mapy na stronach internetowych. Cartaro jest zbudowane na komponentach
-Open Source: bazie danych :doc:`PostGIS <../overview/postgis_overview>`, us³ugach 
-GeoWebCache :doc:`GeoServer <../overview/geoserver_overview>` , mapach w przegl¹darce
+Cartaro dostarcza geoprzestrzennej funkcjonalnoÅ›ci i usÅ‚ug sieciowych poprzez
+System ZarzÄ…dzania TreÅ›ciÄ… (CMS) Drupal. Za pomocÄ… kilku klikniÄ™Ä‡ w Cartaro,
+jesteÅ› w stanie stworzyÄ‡ i uruchomiÄ‡ usÅ‚ugi sieciowe w standardach OGC oraz
+stworzyÄ‡ mapy na stronach internetowych. Cartaro jest zbudowane na komponentach
+Open Source: bazie danych :doc:`PostGIS <../overview/postgis_overview>`, usÅ‚ugach 
+GeoWebCache :doc:`GeoServer <../overview/geoserver_overview>` , mapach w przeglÄ…darce
 internetowej :doc:`OpenLayers <../overview/openlayers_overview>`, wszystko 
-zarz¹dzane za pomoc¹ potê¿nego systemu zarz¹dzania treœci¹ `Drupal <http://drupal.org>`_ CMS.
+zarzÄ…dzane za pomocÄ… potÄ™Å¼nego systemu zarzÄ…dzania treÅ›ciÄ… `Drupal <http://drupal.org>`_ CMS.
 
-Cartaro jest zaprojektowane dla stron CMS, które musz¹ obs³ugiwaæ dane przestrzenne,
-i dla organizacji chc¹cych lekkiej infrastruktury Danych Przestrzennych (SDI) 
-przy minimalnych nak³adach na konfiguracjê i programowanie.
+Cartaro jest zaprojektowane dla stron CMS, ktÃ³re muszÄ… obsÅ‚ugiwaÄ‡ dane przestrzenne,
+i dla organizacji chcÄ…cych lekkiej infrastruktury Danych Przestrzennych (SDI) 
+przy minimalnych nakÅ‚adach na konfiguracjÄ™ i programowanie.
 
 .. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
 Most SDI functionality comes right out of the box through the close integration 
@@ -63,7 +63,7 @@ Zaimplementowane standardy
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** http://cartaro.org/

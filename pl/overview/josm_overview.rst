@@ -17,7 +17,7 @@ JOSM
 Desktopowy edytor danych OpenStreetMap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-JOSM jest napisanym w Javie, bogatym w narzêdaia, skalowalym, desktopowym (offline) edytorem
+JOSM jest napisanym w Javie, bogatym w narzÄ™daia, skalowalym, desktopowym (offline) edytorem
 danych OpenStreetMap (OSM).
 
 It supports loading stand-alone GPX tracks and GPX track data as well as editing 
@@ -32,17 +32,17 @@ A number of specialised plugins have been written for JSOM, which are available 
   :alt: JOSM Editor.
   :align: right
 
-G³ówne funkcje
+GÅ‚Ã³wne funkcje
 --------------------------------------------------------------------------------
 
-* Normalne narzêdzia interfejsu desktop GIS:
+* Normalne narzÄ™dzia interfejsu desktop GIS:
 
-  * Personalizacja paska narzêdzi, kontrolki widoku (zoom, ca³y widok. etc.), 
-    zarz¹dzanie stylami, ikonami i warstwami.
+  * Personalizacja paska narzÄ™dzi, kontrolki widoku (zoom, caÅ‚y widok. etc.), 
+    zarzÄ…dzanie stylami, ikonami i warstwami.
 
-* Pobieranie i ³adowanie wektorowych danych OSM.
+* Pobieranie i Å‚adowanie wektorowych danych OSM.
 
-* Otwieranie w³asnych danych:
+* Otwieranie wÅ‚asnych danych:
 
   * pliki NMEA-0183: .nmea, .nme, .nma, .log, .txt
   * pliki OSM: .osm, .xlm, .osmbz2, .osmbz
@@ -51,20 +51,20 @@ G³ówne funkcje
 
 * Zobrazowania:
   
-  * Wizualizacja map podk³adowych z OSM, Bingsat, Lansat, MapBox satellite, 
-    MapQuest Open Aerial lub jakichkolwiek innych Ÿróde³ WMS.
+  * Wizualizacja map podkÅ‚adowych z OSM, Bingsat, Lansat, MapBox satellite, 
+    MapQuest Open Aerial lub jakichkolwiek innych ÅºrÃ³deÅ‚ WMS.
 
-* Narzêdzia edycji:
+* NarzÄ™dzia edycji:
 
   * Nodes: merge, join, unglue, distribute, align in circle, align in line, join node to way, and more.
   * Ways: split, combine, reverse, simplify, unglue ways, and more.
-  * Obszary: ³¹czenie nak³adaj¹cych siê obszarów, tworzenie multi-poligonów, i inne.
+  * Obszary: Å‚Ä…czenie nakÅ‚adajÄ…cych siÄ™ obszarÃ³w, tworzenie multi-poligonÃ³w, i inne.
 
 * Audio mapping: survey recording management.
 
 * Photo mapping: survey pictures management.
  
-* Wtyczki: Lista specjalistycznych wtyczek dostêpnych do pobrania.
+* Wtyczki: Lista specjalistycznych wtyczek dostÄ™pnych do pobrania.
 
 
 Zaimplementowane standardy
@@ -73,12 +73,12 @@ Zaimplementowane standardy
 * JOSM views WMS layers, but uses the `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM database.
 
 
-Szczegó³y
+SzczegÃ³Å‚y
 --------------------------------------------------------------------------------
 
 **Strona internetowa:** http://http://josm.openstreetmap.de/
 
-**Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2. Uwaga: Wtyczki JOSM mog¹ mieæ inne licencje.
+**Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2. Uwaga: Wtyczki JOSM mogÄ… mieÄ‡ inne licencje.
 
 **Wersja programu:** 5697
 
