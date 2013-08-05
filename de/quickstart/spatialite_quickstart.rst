@@ -171,5 +171,4 @@ Wenn Sie mehr über SpatiaLite erfahren möchten, ist die `SpatiaLite Projektsei
 und besuchen Sie unbedingt das Tutorial `Spatialite cookbook`_
 
 .. _`Spatialite cookbook`: http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/index.html
-PopulatedPlaces
 
