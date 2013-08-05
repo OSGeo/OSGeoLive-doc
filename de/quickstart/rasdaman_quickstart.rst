@@ -56,7 +56,7 @@ Erzeuge Deine eigene Datenbank
 
       $ rasql -q "select csv( marray bucket in [0:255] values count_cells( rgb.red = bucket ) ) from rgb --out string"
 
-    * Füge eigene Daten hinzu (siehe `http://www.rasdaman.org/wiki/PetascopeUserGuide`_ für Details), publiziere sie über OGC Dienste.
+    * Füge eigene Daten hinzu (siehe `<http://www.rasdaman.org/wiki/PetascopeUserGuide>`_ für Details), publiziere sie über OGC Dienste.
 
 
 
