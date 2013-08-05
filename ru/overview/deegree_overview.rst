@@ -56,8 +56,8 @@ deegree запустит вашу ИПД, используя ваши собст
   * Возможности тематического картографирования с помощью графиков
     (круговые, столбчатые, линейные диаграммы) как точечной символики
   * Источники данных: все обычные веб-сервисы OGC (WMS, WFS, WCS),
-  PostgreSQL/PostGIS, Oracle Spatial, любые пользовательские SQL
-  запросы, используемые для создания содержания слоя WMS
+    PostgreSQL/PostGIS, Oracle Spatial, любые пользовательские SQL
+    запросы, используемые для создания содержания слоя WMS
   * Очень стабилен, даже на больших масштабах 
   * Поддержка HTTP GET, HTTP POST и объектовых запросов
   * Сертифицированное соответствие OGC
@@ -73,7 +73,7 @@ deegree запустит вашу ИПД, используя ваши собст
 
   * Поддержка запросов HTTP GET и HTTP POST
   * Источники данных: images (tif, png, jpeg,.png, bmp); GeoTIFF; ECW;
-  Oracle GeoRaster
+    Oracle GeoRaster
   * Высокоскоростной доступ к большим покрытиям.
 
 * Catalogue Service
@@ -88,7 +88,7 @@ deegree запустит вашу ИПД, используя ваши собст
   * Длительные по времени задачи
   * Поддержка асинхронных запросов для крупноформатной печати
   * Сохранение запросов в базе и их доступность даже после остановки 
-  WMPS администратором или аппаратного сбоя.
+    WMPS администратором или аппаратного сбоя.
 
 * Web Perspective View Service
 
@@ -107,7 +107,7 @@ deegree запустит вашу ИПД, используя ваши собст
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 in progress)
 * OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 in progress)
 * OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; включая OGC
-ISOAP 1.0 and INSPIRE profile
+  ISOAP 1.0 and INSPIRE profile
 * OGC Web Perspective View Service (WPVS) Draft 6
 * OGC Web Coordinate Transformation Service (WCTS) 0.4.0
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
@@ -133,3 +133,4 @@ ISOAP 1.0 and INSPIRE profile
 --------------------------------------------------------------------------------
 
 * :doc:`Введение <../quickstart/deegree_quickstart>`
+

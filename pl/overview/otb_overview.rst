@@ -37,7 +37,7 @@ G³ówne funkcje
   :align: right
 
 * dostêp do obrazów: zoptymalizowany dostêp read/write access do wiêkszoœci 
-formatów zobrazowañ (równie¿ Jpeg2000), dostêp do metadanych i wizualizacji;
+  formatów zobrazowañ (równie¿ Jpeg2000), dostêp do metadanych i wizualizacji;
 * ortorektifikacja i reprojekcja map
 * kalibracja
 * ³¹czenie zobrazowañ

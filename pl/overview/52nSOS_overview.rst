@@ -33,7 +33,7 @@ Funkcje
 * Zaimplementowane standardy SOS 1.0.0 i 2.0.0.
 
 * Klient w przeglądarce internetowej dostarcza testowych zapytań
-XML dla wszystkich obsługiwanych operacji.
+  XML dla wszystkich obsługiwanych operacji.
 
 
 OGC SOS 1.0.0

@@ -56,10 +56,10 @@ Niektóre przykładowe funkcje
   * very flexible concerning layer contents
   * obsługa i stosowanie definicji stylów (SLD 1.0)
   * możliwości map tematycznych poprzez wykresy (okrągłe, słupkowe, 
-  liniowe) jako symbolizacja punktowa
+    liniowe) jako symbolizacja punktowa
   * źródła danych: wszystkie powszechne usługi sieciowe OGC (WMS, 
-  WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, wszystkie zapytania 
-  SQL mogą być użyte do utworzenia zawartości warstwy WMS
+    WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, wszystkie zapytania 
+    SQL mogą być użyte do utworzenia zawartości warstwy WMS
   * bardzo stabilny, nawet przy dużych skalach
   * obsługa żądań HTTP GET, HTTP POST oraz feature info
   * certyfikat zgodności ze standardami OGC
@@ -81,7 +81,7 @@ Niektóre przykładowe funkcje
 
   * źródła danych: PostgreSQL-Database; Oracle-Database
   * obsługa żądań: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; 
-  Transaction - Insert, Update, Delete; Harvesting
+    Transaction - Insert, Update, Delete; Harvesting
 
 * Web Map Print Service
 
@@ -89,12 +89,12 @@ Niektóre przykładowe funkcje
   * obsługa wydruków długich w czasie
   * obsługa żądań asynchronicznych umożliwiające wydruki wielkoskalowe
   * żądania przechowywane w bazie zanychmogą być dostępne nawet jeśli WMPS 
-  jest zatrzymane przez administratora lub błąd komputera
+    jest zatrzymane przez administratora lub błąd komputera
 
 * Web Perspective View Service
 
    * źródła danych: zdalny/lokalny-WMS, zdalny/lokalny-WFS, lokalny-WCS, 
-   Postgres/PostGIS, Oracle Spatial
+     Postgres/PostGIS, Oracle Spatial
    * modelami terenu mogą być dane wektorowe lub rastrowe
    * zapytania: Get3DFeatureInfo, GetView
 

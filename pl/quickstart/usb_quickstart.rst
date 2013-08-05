@@ -20,8 +20,7 @@ Wymagania
 --------------------------------------------------------------------------------
 
 * PenDrive USB (conajmniej 4GB, 8GB jest zalecane).
-* OSGeo-Live obraz ISO (pobrany z: 
-http://live.osgeo.org/pl/download.html) lub przekonwertowany z DVD.
+* OSGeo-Live obraz ISO (pobrany z: http://live.osgeo.org/pl/download.html) lub przekonwertowany z DVD.
 
  * Dla PenDrive 4 GB USB, użyj ISO osgeo-live-mini (bez instalatorów Windows i Mac)
  * Dla PenDrive 8 GB USB, użyj ISO osgeo-live-mini lub osgeo-live ISO (z instalatorami Windows i Mac)

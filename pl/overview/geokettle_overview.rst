@@ -115,8 +115,5 @@ Szczegóły
 Quickstart
 --------------------------------------------------------------------------------
     
-* :doc:`Przejdź do wprowadzenia 
-<../quickstart/geokettle_quickstart>`
-
-
+* :doc:`Przejdź do wprowadzenia <../quickstart/geokettle_quickstart>`
 

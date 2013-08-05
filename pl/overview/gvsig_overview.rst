@@ -37,11 +37,11 @@ geograficzną.
 gvSIG jest znany z:
 
 * możliwości integrowania w tym samym widoku zarówno lokalnych jak i zdalnych 
-danych z pomocą standardów OGC.
+  danych z pomocą standardów OGC.
 * bycia łatwo rozszerzalnym, co pozwala na nieprzerwane doskonalenie 
-aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
+  aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
 * bycia dostępnym w ponad 20 językach (hiszpańskim, angielskim, 
-niemieckim, francuskim, włoskim, ...).
+  niemieckim, francuskim, włoskim, ...).
 * bycia dostępnym dla platform Windws, Linux, i Mac OS X:
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
@@ -53,12 +53,12 @@ Główne funkcje
 --------------------------------------------------------------------------------
 
 * Dostarcza popularnych narzędzi GIS, służących do wczytywania danych, 
-nawigacji po mapie, odpytywania informacji takich jak informacje 
-alfanumeryczne, pomiaru odległości, kartografii tematycznej, edycji 
-legendy z użyciem typowych rodzajów legendy, etykietowania, wybierania 
-obiektów za pomocą różnych sposobów selekcji, tabel danych z ich statystykami, 
-segregowania według kolejności, relacji między tabelami, łączenia tabel, 
-zarządzania treścią mapy, geoprocesingu, CAD, przetwarzania rastrów itp.
+  nawigacji po mapie, odpytywania informacji takich jak informacje 
+  alfanumeryczne, pomiaru odległości, kartografii tematycznej, edycji 
+  legendy z użyciem typowych rodzajów legendy, etykietowania, wybierania 
+  obiektów za pomocą różnych sposobów selekcji, tabel danych z ich statystykami, 
+  segregowania według kolejności, relacji między tabelami, łączenia tabel, 
+  zarządzania treścią mapy, geoprocesingu, CAD, przetwarzania rastrów itp.
 
 * Interopercyjność: może pracować na większości znanych formatów danych:
 
@@ -80,7 +80,7 @@ zarządzania treścią mapy, geoprocesingu, CAD, przetwarzania rastrów itp.
   * typowy dla programów CAD wiersz poleceń
   * narzędzia typu pomoc, grid, command stack, compleksowe wybieranie obiektów
   * narzędzia do wprowadzania obiektów typu punktowego, poligonowego, 
-  liniowego, eliptycznego, etc...
+    liniowego, eliptycznego, etc...
   * narzędzia do modyfikacji ich kąta obrotu i symetrii, ...
   
 * Zintegrowane zaawansowane narzędzia rastrowe:

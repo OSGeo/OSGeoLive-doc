@@ -38,7 +38,7 @@ G³ówne funkcje
 * Normalne narzêdzia interfejsu desktop GIS:
 
   * Personalizacja paska narzêdzi, kontrolki widoku (zoom, ca³y widok. etc.), 
-  zarz¹dzanie stylami, ikonami i warstwami.
+    zarz¹dzanie stylami, ikonami i warstwami.
 
 * Pobieranie i ³adowanie wektorowych danych OSM.
 
@@ -52,7 +52,7 @@ G³ówne funkcje
 * Zobrazowania:
   
   * Wizualizacja map podk³adowych z OSM, Bingsat, Lansat, MapBox satellite, 
-  MapQuest Open Aerial lub jakichkolwiek innych Ÿróde³ WMS.
+    MapQuest Open Aerial lub jakichkolwiek innych Ÿróde³ WMS.
 
 * Narzêdzia edycji:
 

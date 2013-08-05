@@ -67,6 +67,7 @@ Estàndards Implementats
 .. Writing Tip: List OGC or related standards supported.
 
 * Estàndards OGC: GML2, SFS, WMS and SLD; (WFS per :doc:`deegree <deegree_overview>`)
+
 Detalls
 --------------------------------------------------------------------------------
 

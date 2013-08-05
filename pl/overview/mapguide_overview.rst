@@ -69,16 +69,16 @@ Główne funkcje
 **Build-in Resource Database for Manageability**
 
 * Hierarchical storage of XML resource documents that define maps, layers, 
-data connections
+  data connections
 * Define data sources and layers once and use them in multiple maps
 * Access-based security model with inheritable permissions
 
 **Uniform Data Access**
 
 * Exclusive use of the Feature Data Objects (FDO) API for vector and 
-raster data
+  raster data
 * Provides a standardized way to access a variety of data sources including 
-SHP, SDF, Oracle, MySQL, and PostGIS.
+  SHP, SDF, Oracle, MySQL, and PostGIS.
 
 **Flexible Application Development**
 
@@ -128,5 +128,4 @@ Wprowadzenie
 --------------------------------------------------------------------------------
 
 * :doc:`Przejdź do wprowadzenia <../quickstart/mapguide_quickstart>`
-
 

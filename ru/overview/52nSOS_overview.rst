@@ -38,8 +38,7 @@ OGC SOS 1.0.0
 **Базовые операции SOS**:
 
 * GetCapabilities для запроса информации о сервисе.
-* GetObservation для запроса чистых данных с сенсора в виде Наблюдений и Измерений
-(Observations & Measurements (O&M).
+* GetObservation для запроса чистых данных с сенсора в виде Наблюдений и Измерений (Observations & Measurements (O&M).
 * DescribeSensor для запроса метаданных о самом сенсоре в виде документа на языке описания сенсорной модели (Sensor Model Language (SensorML).
 
 **Транзакционные операции SOS**:
@@ -51,8 +50,7 @@ OGC SOS 1.0.0
 
 * GetResult для более эффективного периодического получения данных сенсора.
 * GetObservationById для получения определенных отдельных наблюдений.
-* GetFeatureOfInterest для получения представлений целевого объекта наблюдений
-в формате GML.
+* GetFeatureOfInterest для получения представлений целевого объекта наблюдений в формате GML.
 * GetFeatureOfInterestTime для определения временной доступности данных сенсора.
 
 OGC SOS 2.0.0
@@ -60,9 +58,9 @@ OGC SOS 2.0.0
 
 * GetCapabilities для запроса информации о сервисе.
 * GetObservation для запроса чистых данных с сенсора в виде Наблюдений и Измерений
-(Observations & Measurements (O&M).
+  (Observations & Measurements (O&M).
 * DescribeSensor для запроса метаданных о самом сенсоре в виде документа на языке 
-описания сенсорной модели (Sensor Model Language (SensorML).
+  описания сенсорной модели (Sensor Model Language (SensorML).
 * GetFeatureOfInterest для получения представлений целевого объекта наблюдений в формате GML.
 
 В рамках этих запросов также возможны следующие операции фильтрации:
