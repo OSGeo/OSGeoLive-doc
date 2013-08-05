@@ -55,7 +55,7 @@ Key features:
 * Massive import/export operations wizard (by an extension)
 
 .. note::
-  ECW and MrSID raster formats require an extra download to work: due to licensing restrictions their libraries can't be distributed
+  (*) ECW and MrSID raster formats require an extra download to work: due to licensing restrictions their libraries can't be distributed
 
 
 Implemented Standards
