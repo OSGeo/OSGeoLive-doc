@@ -8,8 +8,6 @@ Witaj w |osgeo-live-version|
      :maxdepth: 1
      :glob:
 
-     overview/toc
-     quickstart/toc
      standards/standards
      download
      contact
@@ -69,7 +67,6 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla
      :glob:
 
      overview/overview
-     quickstart/quickstart
      standards/standards
      contact
      copyright
@@ -78,7 +75,6 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla
      sponsors
      sponsors_osgeo
      presentation
-     test
      metrics
      mac_installers
      win_installers

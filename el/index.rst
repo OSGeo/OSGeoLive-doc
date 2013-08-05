@@ -8,8 +8,6 @@
      :maxdepth: 1
      :glob:
 
-     overview/toc
-     quickstart/toc
      standards/standards
      download
      contact

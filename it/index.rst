@@ -10,8 +10,6 @@ Benvenuti in |osgeo-live-version|
      :maxdepth: 1
      :glob:
 
-     overview/toc
-     quickstart/toc
      standards/standards
      download
      contact
@@ -67,7 +65,6 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      :glob:
 
      overview/overview
-     quickstart/quickstart
      standards/standards
      contact
      copyright
@@ -76,7 +73,6 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      sponsors
      sponsors_osgeo
      presentation
-     test
      metrics
      mac_installers
      win_installers

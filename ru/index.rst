@@ -57,7 +57,6 @@
    sponsors
    sponsors_osgeo
    presentation
-   test
    metrics
    mac_installers
    win_installers

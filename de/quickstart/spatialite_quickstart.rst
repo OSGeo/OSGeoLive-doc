@@ -49,15 +49,16 @@ wollen einen Blick auf die Spalten einer Tabelle werfen.
   #. Der untere rechte Bereich zeigt das Ergebnis der SQL Abfrage.
 
 * Klicken Sie mit der rechten Maustaste auf die Tabelle MunicipalHalls und wählen Sie "Edit table rows". Beachten Sie, 
-dass die SQL Abfrage für Sie im oberen rechten Bereich generiert wurde 
-und dass die Ergebnisse im unteren rechten Bereich erscheinen.::
+  dass die SQL Abfrage für Sie im oberen rechten Bereich generiert wurde 
+  und dass die Ergebnisse im unteren rechten Bereich erscheinen.::
 
     SELECT ROWID, "PK_UID", "AREA", "PERIMETER", "COMU", "Geometry"
         FROM "MunicipalHalls"
         ORDER BY ROWID
 
 * Passen Sie nun diese SQL-Abfrage an, so dass NOME und (Lat,Long)
-nur für die NOME_PROV mit dem Eintrag "BRESCIA" unter Verwendung des MunicipalHallsViews ausgegeben werden. Geben Sie folgenden Befehl im oberen SQL-Fenster ein::
+  nur für die NOME_PROV mit dem Eintrag "BRESCIA" unter Verwendung des MunicipalHallsViews ausgegeben werden. 
+  Geben Sie folgenden Befehl im oberen SQL-Fenster ein::
 
    SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
         FROM "MunicipalHallsView"
@@ -171,3 +172,4 @@ und besuchen Sie unbedingt das Tutorial `Spatialite cookbook`_
 
 .. _`Spatialite cookbook`: http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/index.html
 PopulatedPlaces
+
