@@ -2,7 +2,7 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0draft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers-large.png
