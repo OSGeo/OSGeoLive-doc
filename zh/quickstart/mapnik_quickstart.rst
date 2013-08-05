@@ -48,8 +48,9 @@ Mapnik 与 OpenLayers
   #. 选择 :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileLite` ；
 
     * 服务器会以一个命令行界面输出运行状态；
-        
+
     * 如果没有命令行界面显示，通过以下命令执行安装：
+
 ::
       
         $ sudo easy_install tilelite
