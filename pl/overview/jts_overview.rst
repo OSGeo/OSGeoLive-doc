@@ -68,7 +68,7 @@ Główne funkcje
 * High-Precision Arithmetic
 
 Obsługiwane formaty
------------------
+--------------------------------------------------------------------------------
 
 * well-known text (WKT) i well-known-binary (WKB)
 * GML 2

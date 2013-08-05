@@ -39,7 +39,7 @@ Características principales
 * Aritmética de alta precisión
 
 Formatos soportados
------------------
+--------------------------------------------------------------------------------
 
 * Well Known Text (WKT) y Well Known Binary (WKB)
 * GML 2

@@ -128,10 +128,10 @@ OpenSUSE 系统下安装
 
 　　详尽的配置说明请参考 pycsw `文档`_ 。
 
-创建元数据
+创
 =================
 
-使用 European Open Source Metadata Editor (EUOSME) 创建
+European Open Source Metadata Editor (EUOSME) 创建
 ---------------------------------------------------
 
 　　pycsw 服务下的空间数据集或数据服务的元数据可以通过 INSPIRE 元数据标准的开源实现，European Open Source Metadata Editor (EUOSME) 编辑器来操作。该程序可以在 ``http://inspire-geoportal.ec.europa.eu/editor/`` 获得。其源码库位于 ``https://joinup.ec.europa.eu/svn/euosme/trunk`` 。
@@ -149,7 +149,7 @@ OpenSUSE 系统下安装
 　　若测试通过，元数据可以存储为 XML 文档，可由文本编辑器或浏览器查看和编辑。
 
 
-GIMED 的使用
+GIMED
 -----------
 
 　　 `GIMED`_ 是一款用于编辑 INSPIRE 元数据 XML 文档的编辑器。安装 GIMED 可在命令行输入：
@@ -166,10 +166,10 @@ GIMED 的使用
   :scale: 75 %
 
 
-载入元数据
+载
 ================
 
-元数据库的配置
+库
 -------------------------
 
 　　pycsw 支持以下数据库：
@@ -188,7 +188,7 @@ GIMED 的使用
   $ export PYTHONPATH=`pwd`
   $ python ./sbin/setup_db.py sqlite:////path/to/records.db
 
-载入操作
+载
 ------------------
 
 .. code-block:: bash
@@ -200,7 +200,7 @@ GIMED 的使用
 　　以上操作从 ``/path/to/records`` 载入全部 ``*.xml`` 文件，生成 ``records.db`` 。这个数据库可以以符合 OGC:CSW Table 53 的请求检索。
 
 
-QGIS CSW 客户端的安装
+QGIS CSW 客户
 ============================
 
 　　单纯的 HTTP request/response 机制对用户不友好。有多款 CSW 服务客户端可以方便用户进行 CSW 查询，例如 `INSPIRE Geoportal <http://inspire-geoportal.ec.europa.eu/discovery/discovery/>`_ 和 :doc:`GeoNetwork <../overview/geonetwork_overview>` 。
@@ -215,10 +215,10 @@ QGIS CSW 客户端的安装
   $ cd .qgis/python/plugins
   $ svn co https://qgiscommunitypl.svn.sourceforge.net/svnroot/qgiscommunitypl/python/plugins/qgcsw/trunk qgcsw
 
-数据检索
+检
 ==============
 
-QGIS CSW 插件
+QGIS CSW
 ---------------
 
 　　从 Desktop GIS group 启动 QGIS 并选择 "Manage Plugins"。
@@ -251,7 +251,7 @@ QGIS CSW 插件
 .. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
-测试程序
+测试
 ------------------
 
 　　利用测试程序也可以进行数据检索。例如以下使用字符串 "imagery" 检索得到相应的由 EUOSME 创建的 XML 文档。
