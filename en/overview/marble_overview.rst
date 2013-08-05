@@ -31,7 +31,7 @@ Explore the neighborhood with Marble's rich set of city and street
 level maps. Search for addresses and places of interest. Marble takes 
 care of querying various search backends and presents their results in 
 a unified view. Calculate pedestrian, bike and motorcar routes with 
-ease — online and offline, with an arbitrary number of via points.
+ease - online and offline, with an arbitrary number of via points.
 
 Start exploring the world. View clouds and sun shadow, follow satellites 
 and space stations and display their orbits, all updated in real-time. 
