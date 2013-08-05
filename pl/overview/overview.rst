@@ -12,6 +12,7 @@ Zawartość |osgeo-live-version|
    :glob:
 
    *_overview
+   ../quickstart/*_quickstart
 
 Desktop GIS
 --------------------------------------------------------------------------------

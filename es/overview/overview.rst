@@ -12,6 +12,7 @@ Contenidos |osgeo-live-version|
    :glob:
 
    *_overview
+   ../quickstart/*_quickstart
 
 Clientes ligeros o de navegador Web
 --------------------------------------------------------------------------------

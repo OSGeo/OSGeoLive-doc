@@ -15,6 +15,7 @@ Continguts |osgeo-live-version|
    :glob:
 
    *_overview
+   ../quickstart/*_quickstart
 
 GIS d'escriptori
 --------------------------------------------------------------------------------
