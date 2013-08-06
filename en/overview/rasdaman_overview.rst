@@ -1,33 +1,37 @@
 :Author: Peter Baumann
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _rasdaman-overview:
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
- :scale: 100 %
- :alt: project logo
+  :scale: 100 %
+  :alt: project logo
   :align: right
   :target: http://www.rasdaman.org
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org/incubator/process/principles.html
 
-********
 Rasdaman
-********
+========
 
 Multi-Dimensional Big Data Analytics Engine
-===========================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Rasdaman is an Array Database System for flexible, fast, scalable geo services on multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited volume.  Ad-hoc access, extraction, aggregation, as well as remix and analytics is enabled through a NewSQL raster query language with highly effective server-side optimization.  Cloud/cluster parallelization is accomplished in a secure, administrator-controlled way.  Data are stored in a PostgreSQL database, thereby achieving full information integration.
+Rasdaman is an Array Database System which provides flexible, fast, scalable geo services for multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited volume.  Ad-hoc access, extraction, aggregation, as well as remix and analytics is enabled through a NewSQL raster query language with highly effective server-side optimization.  Cloud/cluster parallelization is accomplished in a secure, administrator-controlled way.  Data is stored in a PostgreSQL database, thereby achieving full information integration.
 
-In addition to the raster query language, rasdaman supports OGC WMS, WCS, WCPS, and WPS as well as C++ and Java APIs.  At http://standards.rasdaman.org a collection of interactive demos is available.  A rasdaman driver is part of GDAL and MapServer.
+In addition to the raster query language, rasdaman supports OGC's WMS, WCS, WCPS and WPS web service standards, as well as C++ and Java APIs.  At http://standards.rasdaman.org a collection of interactive demos is available.  A rasdaman driver is part of GDAL and MapServer.
 
-Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational use since more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers.
+Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational for more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers.
 
-
-.. image:: ../../images/project_logos/apps-collage.png
-  :scale: 100 %
-  :alt: project logo
+.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+  :scale: 50 %
+  :alt: rasdaman screenshot collage
   :align: right
 
 Core Features
@@ -59,7 +63,7 @@ Details
 
 **Supported Platforms:** Linux, MacOS, Solaris
 
-**API Interfaces:** OGC WMS, WCS, WCS-T, WCPS, WPS; rasql, C++, Java
+**API Interfaces:** rasql, C++, Java
 
 **Support:**  http://www.rasdaman.com
 
