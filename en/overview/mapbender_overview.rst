@@ -1,6 +1,6 @@
 :Author: Astrid Emde
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0-draft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Mapbender3.png
@@ -28,13 +28,12 @@ Mapbender is the tip of the iceberg, a meta layer of software providing access t
 
 Mapbender management applications are straight forward and easy to use providing highly focused functionality for the operation of large scale distributed SDI components. It is the tool of choice for SDI administrators who need to maintain, categorize and monitor map and feature services. Mapbender grants access to individuals, groups and manages machine to machine access. Adherence to standardized services, such as OGC WMS allows to take advantage of interoperable services from a multitude of server platforms.
 
-The Mapbender3 is based on the framework Symfony2 and OpenLayers, Mapproxy and jQuery. 
+Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery. 
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right
-
 
 Core Features
 --------------------------------------------------------------------------------
@@ -65,9 +64,7 @@ Details
 
 **Website:** http://www.mapbender3.org/
 
-**Licence:** Mapbender is dual licensed under the GNU General Public License and Simplified BSD license
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
+**Licence:** Dual licensed under the `GNU General Public License <http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt>`_ and `Simplified BSD license <http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt>`_.
 
 **Software Version:** 3.0.0.2
 
