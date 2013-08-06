@@ -31,7 +31,7 @@ Mapbender management applications are straight forward and easy to use providing
 Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery. 
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-  :scale: 50%
+  :scale: 70%
   :alt: Mapbender application
   :align: right
 
