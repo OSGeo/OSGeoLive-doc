@@ -98,7 +98,7 @@ JOSM
 
 **Υποστήριξη:** http://www.osgeo.org/search_profile
 
-Εγχειρίδιο Γρήγορης Εκκίνησης
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
+.. Εγχειρίδιο Γρήγορης Εκκίνησης
+.. --------------------------------------------------------------------------------
+.. 
+.. * :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
