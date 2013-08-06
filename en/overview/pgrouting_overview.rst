@@ -26,7 +26,7 @@ Advantages of the database routing approach are:
 pgRouting is available under the GPLv2 license and is supported by a growing community of individuals, businesses and organizations.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
-  :scale: 60 %
+  :scale: 70 %
   :alt: pgRouting query in pgAdminIII
   :align: right
 
@@ -35,23 +35,19 @@ Core Features
 
 pgRouting provides functions for:
 
-* All Pairs Shortest Path, Johnson’s Algorithm :sup:`[1]`
-* All Pairs Shortest Path, Floyd-Warshall Algorithm :sup:`[1]`
+* All Pairs Shortest Path, Johnson’s Algorithm
+* All Pairs Shortest Path, Floyd-Warshall Algorithm
 * Shortest Path A*
-* Bi-directional Dijkstra Shortest Path :sup:`[1]`
-* Bi-directional A* Shortest Path :sup:`[1]`
+* Bi-directional Dijkstra Shortest Path
+* Bi-directional A* Shortest Path
 * Shortest Path Dijkstra
 * Driving Distance
-* K-Shortest Path, Multiple Alternative Paths :sup:`[1]`
-* K-Dijkstra, One to Many Shortest Path :sup:`[1]`
+* K-Shortest Path, Multiple Alternative Paths
+* K-Dijkstra, One to Many Shortest Path
 * Traveling Sales Person
-* Turn Restriction Shortest Path (TRSP) :sup:`[1]`
-* Shortest Path Shooting Star :sup:`[2]`
+* Turn Restriction Shortest Path (TRSP)
 
 Learn more about using pgRouting in your application by reading the `documentation <http://docs.pgrouting.org>`_.
-
-| :sup:`[1]` **New** in pgRouting 2.0
-| :sup:`[2]` Discontinued in pgRouting 2.0
 
 
 .. Implemented Standards
@@ -78,5 +74,4 @@ Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
-
 
