@@ -10,11 +10,11 @@
   :align: right
   :target: http://geoserver.org/display/GEOS/Welcome
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoServer
 ================================================================================
@@ -95,7 +95,7 @@ Details
 
 **Software Version:** |version-geoserver|
 
-**Supported Platforms:** Cross Platform Java 6
+**Supported Platforms:** Cross Platform Java 6 - Windows, Linux, Mac
 
 **API Interfaces:** WMS, WFS, WCS, REST
 
