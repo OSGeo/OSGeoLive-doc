@@ -21,7 +21,7 @@ NetCDF
 
 NetCDF (Network Common Data Form) is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. NetCDF version 4.0 and above work with the HDF5 format, designed to store and organize large amounts of numerical data.
 
-This sample dataset supplies annual maximum of daily maximum temperature and annual maximum consecutive five-day precipitation, both historical and predicted (see accompanying text files for details).
+This sample dataset supplies annual maximum of daily high temperature, and annual maximum consecutive five-day precipitation, both historical and predicted, for the years 1850-2012 and 2006-2100 (see accompanying text files for details).
 
 Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consortium), in cooperation with AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
 
