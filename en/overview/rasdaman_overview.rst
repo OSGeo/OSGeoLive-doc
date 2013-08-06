@@ -25,7 +25,7 @@ In addition to the raster query language, rasdaman supports OGC WMS, WCS, WCPS, 
 Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational use since more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers.
 
 
-.. image:: ../../images/project_logos/apps-collage.jpg
+.. image:: ../../images/project_logos/apps-collage.png
   :scale: 100 %
   :alt: project logo
   :align: right
