@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-mb-system.png
@@ -59,7 +59,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) Version 3
 
-**Software Version:** 5.3.1982
+**Software Version:** 5.4.2128
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows (mit Cygwin)
 
