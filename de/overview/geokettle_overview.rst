@@ -1,7 +1,7 @@
 :Author: Thierry Badard 
 :Author: Frank Gasdorf
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geokettle.png
@@ -64,6 +64,7 @@ Kernfunktionen
   * Pivotting
   * Geospatial Datenanalyse: Puffer, Schwerpunkt, Abstand, Schnitt, Vereinigung, ...
   * Erweiterte Geoverarbeitungs: Clipping, Delaunay, vereinfachen / glätten von Geometrien, aufteilen von Objekten (Features), ...
+  * Verarbeitung jeglicher any Web Processing Services (WPS) 
   * Räumliche Aggregation
   * Kartographische Vorschau
 
@@ -72,7 +73,7 @@ Kernfunktionen
   * in Datenbanken: MySQL, PostgreSQL / PostGIS, Oracle, ...
   * unterschiedliche Data-Warehouses
   * räumliche Datenformate: Shapefile, GML 3.1.1, KML 2.2 sowie aller Formate, die von OGR unterstützt werden
-  * OGC Web Services: Katalog Web Service (CSW), ...
+  * OGC Web Services: Katalog Web Service (CSW), Web Feature Service (WFS), ...
   * Partitioniertes Laden
   * Bulk-Laden
   * Parallel loading
@@ -90,8 +91,7 @@ Kernfunktionen
 Implementierte Standards
 --------------------------------------------------------------------------------
 
-* OGC Standardkonform (SFS, CSW, SOS)
-
+* OGC Standardkonform (SFS, WFS-T, WPS, CSW, SOS, GML, KML) 
 Details
 --------------------------------------------------------------------------------
 
@@ -99,7 +99,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 2.0
+**Software Version:** 2.5
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Solaris
 
