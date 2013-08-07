@@ -10,6 +10,11 @@
   :align: right
   :target: http://www.rasdaman.org
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org/incubator/process/principles.html
 
 ********
 Rasdaman
