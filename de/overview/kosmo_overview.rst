@@ -1,5 +1,6 @@
 :Author: Sergio Baños Calvo
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
@@ -31,19 +32,29 @@ Unterstützte Formate:
 
 * Vectordaten Formate: Shapefiles, GML, DXF, DWG, DGN, CSV (als Erweiterung)
 * Vector-Datenbanken: PostgreSQL + PostGIS, Oracle, MySQL
-* Rasterdaten Formate: ECW, MrSID, Tiff, JPG, GIF, PNG, BMP
-* OGC Dienste: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0
+* Rasterdaten Formate: ECW (*), MrSID (*), (Geo)Tiff, Erdas IMG, ENVI hdr, JPG, GIF, PNG, BMP,...
+* OGC Dienste: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0 (including WFS-T)
 
 Hauptmerkmale:
 
 * Benutzerfreundliches GUI, konzentriert auf eine einfache Lernkurve
-* Verfügbar in 11 Sprachen (englisch, spanisch, italienisch, deutsch, kroatisch, tschechisch, russisch, slovakisch, katalanisch, baskisch, brasilianisch und portugiesisch)
+* Verfügbar in 13 Sprachen (englisch, spanisch, italienisch, deutsch, kroatisch, tschechisch, russisch, slovakisch, katalanisch, baskisch, brasilianisches portugisisch, finnisch und portugiesisch)
+* Erweitere Möglichkeiten:
+
+  * zahlreiche Zeichenwerkzeuge: Punkt zeichnen, Linie zeichnen, Polygon zeichnen, ...
+  * CAD Stilwerkzeuge: rotieren, rotieren über Winkel, Symmetrie, Spiegelung, Paralelle, ... (als Extension)
+  * zahlreiche Snapping Einstellungen: an Stützpunkte, an Stützpunkte und Linien, an Segmentmittelpunkte, an Mittelpunkte, an Grid, ...
+  * Geometrie Tracking Modus
 * Erweitertes Druckmodul basierend auf OpenOffice Suite (als Erweiterung)
 * Topologie Konsistenz-Regeln: vor/during/post edition
 * Topologie Validierungs- und Reinigungswerkzeuge (intersect/eliminate/clean)
 * Geoprocessing Wizard: buffer/dissolve/merge/clip/intersection/spatial join/difference (als Erweiterung)
 * Werkzeug zur Raster-Georeferenzierung (als Erweiterung)
-* Sextante 0.5 Integration (als Erweiterung)
+* Sextante 1.0 Integration (als Erweiterung)
+* Import/Export Wizard (als Erweiterung)
+
+.. note::
+  (*) ECW und MrSID Raster Formate benötigen einen extra download um zu laufen: durch Lizenzeinschränkungen können deren Bibliotheken nicht mit ausgeliefert werden.
 
 
 Implementierte Standards
@@ -51,7 +62,7 @@ Implementierte Standards
 
 * Web Map Service (WMS) 1.0.0/1.1.0/1.3.0
 * Web Feature Service (WFS) 1.0.0/1.1.0
-* Styled Layer Descriptor (SLD) (Import/Export)
+* Styled Layer Descriptor (SLD) 1.0/1.1 (Import/Export)
 
 
 Details
@@ -61,7 +72,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Software Version:** 3.0 RC2
 
 **Unterstützte Plattformen:** Windows, Linux
 
