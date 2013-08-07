@@ -39,6 +39,11 @@ werden. Es ist beabsichtigt, Multi-threaded Umgebungen gleichermaßen zu
 unterstützten. Eine web-basierte Verwendung wird bevorzugt, jedoch nicht
 ausschließlich, angestrebt.
 
+High-level Python Bindings (boost.python) sorgen für schnelle Anwendungesentwicklung, verweisen auf zope3, django etc.
+
+Mapnik ist plattformunabhängig. Packete sind für die meisten Linux Distributionen verfügbar. 
+Installers werden vornehmlich unter Mac OS X und Windows verwendet.
+
 
 Details
 --------------------------------------------------------------------------------
@@ -47,7 +52,7 @@ Details
 
 **Lizenz:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 0.7.0
+**Software Version:** 2.0.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
