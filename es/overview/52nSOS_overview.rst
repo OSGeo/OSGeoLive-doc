@@ -71,28 +71,28 @@ Es posible filtrar las peticiones mediante los siguientes operadores:
 Estándares relacionados
 --------------------------------------------------------------------------------
 
-*:doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview>`
-*:doc:`Lenguaje de Marcado Geográfico (GML) <../standards/gml_overview>`
-*:doc:`Lenguaje Modelo Sensor (SensorML) <../standards/sensorml_overview>`
+* :doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview>`
+* :doc:`Lenguaje de Marcado Geográfico (GML) <../standards/gml_overview>`
+* :doc:`Lenguaje Modelo Sensor (SensorML) <../standards/sensorml_overview>`
 
 Detalles
 --------------------------------------------------------------------------------
 
-* **Sitio Web:** http://52north.org/communities/sensorweb/sos
+**Sitio Web:** http://52north.org/communities/sensorweb/sos
 
-* **Licencia:** GNU General Public License (GPL) versión 2
+**Licencia:** GNU General Public License (GPL) versión 2
 
-* **Versión del software:** SOS 3.5.0
+**Versión del software:** SOS 3.5.0
 
-* **Plataformas soportadas:** Windows, Linux, Mac
+**Plataformas soportadas:** Windows, Linux, Mac
 
-* **Interfaces API:** Java
+**Interfaces API:** Java
 
-* **Soporte comercial:** http://52north.org/
+**Soporte comercial:** http://52north.org/
 
-* **Soporte:** http://sensorweb.forum.52north.org/
+**Soporte:** http://sensorweb.forum.52north.org/
 
-* **Soporte de la comunidad:** http://52north.org/communities/sensorweb/
+**Soporte de la comunidad:** http://52north.org/communities/sensorweb/
 
 Guía rápida
 --------------------------------------------------------------------------------

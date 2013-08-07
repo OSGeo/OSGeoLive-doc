@@ -104,7 +104,7 @@ Detalles
 
 **Versión del Software:** 0.2.1
 
-****Plataformas Soportadas:** Windows, Linux, Mac:**
+**Plataformas Soportadas:** Windows, Linux, Mac:
 
 **Interfaces API:** Python
 

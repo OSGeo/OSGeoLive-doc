@@ -54,7 +54,7 @@ PostgreSQL 서버에 연결할 때에는 데이터 베이스를 명시하여야 
 시스템의 프로젝트가 사용하는 데이터 베이스들을 확인하여야 합니다. 새로운 데이터 베이스를 만들어 보겠습니다.
 
 .. tip:: 
-   리스트는 표준 unix pager를 이용합니다 - 다음 페이지를 보기 위해서는 space를 누르십시오. for next page, :kbd:`b`는 뒤로, :kbd:`q`는 중지, 
+   리스트는 표준 unix pager를 이용합니다 - 다음 페이지를 보기 위해서는 space를 누르십시오. for next page, :kbd:`b` 는 뒤로, :kbd:`q` 는 중지, 
    h는 도움말.
 
 PostgreSQL은 데이터 베이스를 만들기 위한 유틸리티 프로그램을 제공합니다 ``createdb``.
@@ -96,8 +96,8 @@ SQL 커맨드 인터프리터에 연결합니다:
 
 .. tip:: 
    리턴 버튼을 누른 후 psql 프롬프트가 계속 나타나면 :kbd:`CTRL` + :kbd:`C` 를 입력하십시오. 이로써 입력어가 삭제되고 새로운 시작을 합니다. 덧붙여 끝마침표나 세미콜론 등을 입력해야 하기도 합니다.  
-   
-인포메이션 메시지를 보게 될 것이고, 프롬프트가 ``demo`` 데이터 베이스로 연결되었음을 알릴 것입니다. 이를 확인하기 위해서, 데이터 베이스의 테이블을 나열하기 위해 ``\dt``를 입력하십시오. 그러면 다음과 같은 사항을 볼 수 있습니다 :
+
+인포메이션 메시지를 보게 될 것이고, 프롬프트가 ``demo`` 데이터 베이스로 연결되었음을 알릴 것입니다. 이를 확인하기 위해서, 데이터 베이스의 테이블을 나열하기 위해 ``\dt`` 를 입력하십시오. 그러면 다음과 같은 사항을 볼 수 있습니다 :
 
 ::
 
@@ -246,8 +246,8 @@ PostGIS는 PostgreSQL에 많은 공간적 기능을 추가하였습니다. 우�
 PostGIS 데이터를 이용하여 지도화하기 위해서는 정보를 얻을 수 있는 클라이언트가 필요합니다. 대부분의 오픈 소스 데스크탑 GIS 프로그램들은 예를 들어 다음과 같은 프로그램을 실행할 수 있습니다 - Quantum GIS, gvSIG, uDig.
 Quantum GIS를 이용하여 지도화하는 방법을 보여드리겠습니다.
 
-데스크탑 메뉴에서 Quantum GIS를 실행한 후 layer 메뉴에서 ``Add PostGIS layers``를 선택하십시오. PostGIS에서 Natural Earth 데이터로 연결하는 변수들은 Connections drop-down 메뉴에서 이미 정의되었습니다. 새로운 서버 연결을 지정할 수 있고, 설정 내용을 저장하여 쉽게 불러올 수도 있습니다. 
-어떤 변수들이 Natural Earth에 이용되는지를 확인하고 싶으면 ``Edit``을 클릭하고, 계속하기를 원하면  ``Connect``를 클릭하십시오 :
+데스크탑 메뉴에서 Quantum GIS를 실행한 후 layer 메뉴에서 ``Add PostGIS layers`` 를 선택하십시오. PostGIS에서 Natural Earth 데이터로 연결하는 변수들은 Connections drop-down 메뉴에서 이미 정의되었습니다. 새로운 서버 연결을 지정할 수 있고, 설정 내용을 저장하여 쉽게 불러올 수도 있습니다. 
+어떤 변수들이 Natural Earth에 이용되는지를 확인하고 싶으면 ``Edit`` 을 클릭하고, 계속하기를 원하면  ``Connect`` 를 클릭하십시오 :
 
 .. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50 %
@@ -261,7 +261,7 @@ Quantum GIS를 이용하여 지도화하는 방법을 보여드리겠습니다.
   :alt: Natural Earth Layers
   :align: center
 
-아랫 부분의 lakes를 선택하고 ``Add``를 클릭하면 (윗 부분의 ``Load``는 데이터 베이스 연결 변수입니다), QGIS로 로딩됩니다:
+아랫 부분의 lakes를 선택하고 ``Add`` 를 클릭하면 (윗 부분의 ``Load`` 는 데이터 베이스 연결 변수입니다), QGIS로 로딩됩니다:
 
 .. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
@@ -277,8 +277,8 @@ Quantum GIS를 이용하여 지도화하는 방법을 보여드리겠습니다.
 대부분의 OSGeo 데스크탑 툴은 PostGIS 데이터 베이스에 셰이프 파일과 같은 공간적 데이터를 불러오는 기능을 갖고 있습니다.
 이를 위해 다시 QGIS를 이용할 것입니다.
 
-간편한 PostGIS Manager plugin을 통해서 QGIS에 셰이프 파일을 불러올 수 있습니다. 이를 위해서 Plugins 메뉴에서 ``Fetch Plugins``를 선택합니다. QGIS는 repository에서 최근의 plugins 리스트를 불러옵니다 (이를 위해서는 인터넷이 연결되어 있어야 합니다).
-``PostGIS Manager``를 찾아 ``Install plugin`` 버튼을 클릭합니다.
+간편한 PostGIS Manager plugin을 통해서 QGIS에 셰이프 파일을 불러올 수 있습니다. 이를 위해서 Plugins 메뉴에서 ``Fetch Plugins`` 를 선택합니다. QGIS는 repository에서 최근의 plugins 리스트를 불러옵니다 (이를 위해서는 인터넷이 연결되어 있어야 합니다).
+``PostGIS Manager`` 를 찾아 ``Install plugin`` 버튼을 클릭합니다.
 
 .. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
   :scale: 50 %
@@ -299,14 +299,14 @@ Preview 탭은 작은 지도를 보여줍니다. 여기에서 저는 제가 아�
 우리는 이제 데이터 베이스에 셰이프 파일을 불러오기 위해서 PostGIS 매니져를 이용할 것입니다.
 우리는 R 통계 패키지 add-ons의 North Carolina sudden infant death syndrome (SIDS) 데이터를 이용할 것입니다.
 
-``Data`` 메뉴에서 ``Load data from shapefile``을 선택하십시오. ``...`` 버튼을 클릭하고 R ``maptools`` 패키지의 ``sids.shp`` 셰이프 파일을 찾으십시오 : 
+``Data`` 메뉴에서 ``Load data from shapefile`` 을 선택하십시오. ``...`` 버튼을 클릭하고 R ``maptools`` 패키지의 ``sids.shp`` 셰이프 파일을 찾으십시오 : 
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Find the shapefile
   :align: center
 
-디폴트 값을 그대로 쓰고 ``Load``를 클릭하십시오.
+디폴트 값을 그대로 쓰고 ``Load`` 를 클릭하십시오.
 
 .. image:: ../../images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
@@ -328,7 +328,7 @@ PostGIS에 에러없이 셰이프 파일이 불러와져야 합니다. PostGIS �
 pgAdmin III 알기
 ================================================================================
 
-데이터 베이스를 비공간적으로 질의하고 수정하기 위해서 Databases 메뉴의 graphical database client ``pgAdmin III``를 이용할 수 있습니다. 이는 PostgreSQL의 공식적인 클라이언트이며, 데이터 테이블을 가공하기 위해 SQL을 이용할 수 있도록 합니다. 
+데이터 베이스를 비공간적으로 질의하고 수정하기 위해서 Databases 메뉴의 graphical database client ``pgAdmin III`` 를 이용할 수 있습니다. 이는 PostgreSQL의 공식적인 클라이언트이며, 데이터 테이블을 가공하기 위해 SQL을 이용할 수 있도록 합니다. 
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
@@ -345,11 +345,11 @@ pgAdmin III 알기
 
 추가적으로 다음도 실행해 보십시오 :
 
-#. ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)``와 같은 공간적 기능들을 더 시도해 보십시오 - http://postgis.org/documentation/ 에서 자세한 내용을 알 수 있습니다.
+#. ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)`` 와 같은 공간적 기능들을 더 시도해 보십시오 - http://postgis.org/documentation/ 에서 자세한 내용을 알 수 있습니다.
 
-#. 커맨드 라인에서 ``pgsql2shp``를 이용하여 테이블을 셰이프 파일로 보내 보십시오. 
+#. 커맨드 라인에서 ``pgsql2shp`` 를 이용하여 테이블을 셰이프 파일로 보내 보십시오. 
 
-#. 데이터 베이스의 데이터를 불러오고 내보내기 위해서 커맨트 라인에 ``ogr2ogr``을 실행해 보십시오. 
+#. 데이터 베이스의 데이터를 불러오고 내보내기 위해서 커맨트 라인에 ``ogr2ogr`` 을 실행해 보십시오. 
 
 
 다음은?

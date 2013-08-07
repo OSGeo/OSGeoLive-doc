@@ -16,7 +16,7 @@ Cartaro
 
 CMS Geoespacial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cartaro proporciona funcionalidad geoespacial y servicios web dentro del Sistema de Gestión de Contenidos (en Inglés CMS) Drupal. En unos pocos clicks se pueden configurar Servicios Web basados en estándares OGC, así como construir mapas dentro de páginas Web.  Cartaro está construido sobre componentes Open Source robustos: La base de datos :doc:`PostGIS <../overview/postgis_overview>`_ , :doc:`GeoServer <../overview/geoserver_overview>`_ y Servicios Web GeoWebCache, mapas de :doc:`OpenLayers <../overview/openlayers_overview>`_, todo gestionado dentro del entorno de Gestor de Contenidos `Drupal <http://drupal.org>`_ .
+Cartaro proporciona funcionalidad geoespacial y servicios web dentro del Sistema de Gestión de Contenidos (en Inglés CMS) Drupal. En unos pocos clicks se pueden configurar Servicios Web basados en estándares OGC, así como construir mapas dentro de páginas Web.  Cartaro está construido sobre componentes Open Source robustos: La base de datos :doc:`PostGIS <../overview/postgis_overview>` , :doc:`GeoServer <../overview/geoserver_overview>` y Servicios Web GeoWebCache, mapas de :doc:`OpenLayers <../overview/openlayers_overview>`, todo gestionado dentro del entorno de Gestor de Contenidos `Drupal <http://drupal.org>`_ .
 
 Cartaro está diseñado para portales tipo CMS que necesiten gestionar datos Geoespaciales, o crear una Infraestructura de Datos Espaciales (IDE) ligera con la configuración y programación mínima.
 

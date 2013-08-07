@@ -1,5 +1,5 @@
 :Author: Dane Springmeyer
-Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
 :Translator: David Mateos
 :Version: osgeo-live6.0
@@ -54,6 +54,6 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* :doc:`Documentación de inicio rápido <../quickstart/mapnik_quickstart>`_
+* :doc:`Documentación de inicio rápido <../quickstart/mapnik_quickstart>`
 
 

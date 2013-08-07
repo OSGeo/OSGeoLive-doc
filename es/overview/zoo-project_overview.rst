@@ -101,6 +101,6 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Guía de inicio rápido <../quickstart/zoo-project_quickstart.html>`_
+* :doc:`Guía de inicio rápido <../quickstart/zoo-project_quickstart>`
 
 

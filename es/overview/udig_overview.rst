@@ -87,4 +87,3 @@ Guía de inicio Rápido
 
 * :doc:`Documentacion de Inicio Rápido <../quickstart/udig_quickstart>`
 
-

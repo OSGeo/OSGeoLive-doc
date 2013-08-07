@@ -128,3 +128,4 @@ Quickstart
 --------------------------------------------------------------------------------
     
 * :doc:Guía de inicio rápido <../quickstart/gvsig_quickstart>`
+

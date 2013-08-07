@@ -69,6 +69,6 @@ Detalles
 Guía de Inicio Rápido
 --------------------------------------------------------------------------------
 
-* `Guía de Inicio Rápido <../quickstart/spatialite_quickstart.html>`_
+* :doc:`Guía de Inicio Rápido <../quickstart/spatialite_quickstart>`
 
 

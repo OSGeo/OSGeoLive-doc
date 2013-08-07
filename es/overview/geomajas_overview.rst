@@ -72,5 +72,5 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/geomajas_quickstart>`_
+* :doc:`Guía de inicio rápido <../quickstart/geomajas_quickstart>`
 

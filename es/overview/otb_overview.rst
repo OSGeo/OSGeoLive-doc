@@ -74,5 +74,5 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Documentación de Guía de incio rápido <../quickstart/otb_quickstart.html>`_
+* :doc:`Documentación de Guía de incio rápido <../quickstart/otb_quickstart>`
 

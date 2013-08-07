@@ -100,3 +100,4 @@ Guía rápida
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * :doc:`Guía de inicio rápido <../quickstart/mapwindow_quickstart>`
+

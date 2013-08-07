@@ -70,4 +70,4 @@ Detalles
 Guía rápida
 --------------------------------------------------------------------------------
 
-* `Documentación de inicio rápido <../quickstart/sahana_quickstart.html>`_
+* :doc:`Documentación de inicio rápido <../quickstart/sahana_quickstart>`

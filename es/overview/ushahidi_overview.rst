@@ -91,6 +91,5 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Guía de inicio rápido <../quickstart/ushahidi_quickstart.html>`_
-
+* :doc:`Guía de inicio rápido <../quickstart/ushahidi_quickstart>`
 

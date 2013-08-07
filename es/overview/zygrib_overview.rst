@@ -53,5 +53,5 @@ Detalles
 Inicio Rápido
 --------------------------------------------------------------------------------
 
-* `Documentación de Inicio Rápido <../quickstart/zygrib_quickstart.html>`_
+* :doc:`Documentación de Inicio Rápido <../quickstart/zygrib_quickstart>`
 
