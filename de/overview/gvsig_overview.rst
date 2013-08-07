@@ -1,5 +1,6 @@
-﻿:Author: Jorge Sanz 
-:Version: osgeo-live4.0
+:Author: Jorge Sanz 
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -35,7 +36,7 @@ gvSIG ist bekannt für:
 * Integration und Kombination von lokalen und entfernten Daten nach OGC-Standards.
 * skalierbar und flexibel und bietet damit eine kontinuierliche Erweiterung
 * in über 20 Sprachen verfügbar (Spanisch, Englisch, Deutsch, Französisch, Italienisch,...)
-* plattformunabhängig (Windows, Linux, und Mac OS X)
+* verfügbar für Windows und Linux (es liegen nicht offizielle Mac OS X Versionen vor).
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -53,8 +54,8 @@ Kernelemente
 
 * Interoperabilität: Verarbeitung gängiger Datenformate:
 
-  * Raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * Vektor & CAD: shapefile, GML, KML, DGN, DXF, DWG
+  * Raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
+  * Vektor & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * Datenbanken: PostGIS, MySQL, Oracle, ArcSDE
   * Dienste: ECWP, ArcIMS, OGC standards
 
@@ -91,7 +92,7 @@ Implementierte Standards
 
 Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGIS unterstützt:
 
-* Laden von WMS, WFS und WCS Layern
+* Laden von WMS, WMTS, WFS und WCS Layern
 * Export/Import von SLD Legenden
 * Export/Import von Web Map Context (WMC)
 * Suchfunktion nach Catalog-Diensten durch CSW (ISO/19115 und ebRIM)
@@ -104,9 +105,9 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.12
+**Software Version:** 2.0
 
-**Unterstützte Plattformen:** Windows, Linux, Mac
+**Unterstützte Plattformen:** Windows, Linux
 
 **Support:** http://www.gvsig.org/web/organization/services
 
