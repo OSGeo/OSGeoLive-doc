@@ -29,10 +29,10 @@ Mapbender ist die Spitze des Eisbergs, eine Software, die als Zwischenschicht f�
 
 Mapbender ist das Werkzeug der Wahl für GIS Administratoren, die Karten- und Datendienste veröffentlichen, unterhalten, kategorisieren und überwachen müssen. Mapbender bietet eine Rechteverwaltung mit der Vergabe von Rechten für einzelne Benutzer und Gruppen. Mapbender bietet Komponenten mit Serverfunktionalität beispielsweise für den gesicherten Zugriff auf Dienste, Digitalisierung und mehr.
 
-Der Mapbender3 basiert auf dem Framework Symfony und OpenLayers, Mapproxy und jQuery.
+Der Mapbender basiert auf Symfony und OpenLayers, Mapproxy und jQuery.
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-  :scale: 50%
+  :scale: 70%
   :alt: Mapbender Anwendung
   :align: right
 
@@ -67,9 +67,7 @@ Details
 
 **Webseite:** http://www.mapbender.org/ 
 
-**Lizenz:** Mapbender verfügt über eine duale Linzenz und zwar über die GNU General Public Lizenz und die Simplified BSD Lizenz
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
+**Lizenz:** Mapbender verfügt über eine duale Linzenz und zwar über die `GNU General Public Lizenz<http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt>`_ und die `Simplified BSD Lizenz <http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt>`_.
 
 **Software Version:** 3.0.0.2
 
