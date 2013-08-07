@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
-:Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-opencpn.png
   :scale: 70 %
@@ -48,7 +48,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.3.1
+**Software Version:** 3.2.2
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
