@@ -1,7 +1,9 @@
 :Author: Jean Mathieu
 :Author: Thierry Badard
 :Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
+:Reviewer: Sergio Baños Calvo 
+:Reviewer: Cameron Shorter, LISAsoft 
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-geokettle.png
@@ -14,8 +16,7 @@
 GeoKettle Quickstart 
 ********************************************************************************
 
-GeoKettle ist ein leistungsfähiges, Metadaten-gesteuertes ETL -Werkzeug (Extract, Transform & Load) 
-für räumliche Daten und kann zur Integration verschiedenster Datenquellen, die Erstellung und 
+GeoKettle ist eine “räumlich-erweiterte” Version von Pentaho Data Integration (auch bekannt als Kettle). Es ist ein sehr leistungsfähiges, Metadaten-gesteuertes räumliche ETL-Werkzeug (Extrahieren, Transformieren und Laden) und kann zur Integration verschiedenster Datenquellen, die Erstellung und 
 Aktualisierung von Geodatenbeständen, Data Warehouses und Web Services genutzt werden.
 
 GeoKettle ermöglicht die Extraktion von Daten aus Datenquellen und deren Transformation, 
@@ -24,6 +25,8 @@ standardkonform zu verwalten. Darüber hinaus können die transformierten Daten 
 geschieben werden, zum Beispiel in Datenbank Management Systeme (DBMS), in Dateien GIS 
 spezifischer Formate oder Raumbezogenen Web 
 Services.
+
+GeoKettle ist vor allem für die Automatisierung von komplexen und sich wiederholdenden Datenprozessierungen hilfreich. Konvertierungen zwischen Datenformaten, Migration von Daten zwischen Datenbanken, Einlesen von Daten in Datenbanken usw. können durchgeführt werden, ohne speziellen Code erzeugen zu müssen. 
 
 Dieser Quickstart Guide beschreibt, wie:
 
@@ -57,12 +60,11 @@ Laden einer vorhanden Transformation
 ================================================================================
 
 Um eine vorhandenen Transformation zu laden, wählen Sie :menuselection:`File --> Open`. 
-Navigieren Sie zu den Beispiel-Transformationen im Unterverzeichnis :file:`samples/transformations/geokettle`, 
+Navigieren Sie zu den Beispiel-Transformationen im Unterverzeichnis :file:`/opt/geokettle/samples/transformations/geokettle`, 
 wählen Sie eine verfügbare Beispiel-Transformation aus und klicken dann :guilabel:`OK`. GeoKettle speichert 
 Transformationen in Dateien mit der Endung `*.ktr`.
 
-Das folgende Bild zeigt die Beispiel-Transformation « intersection ». Nachdem die Transformation geladen wurde, 
-haben sich, wie Sie vielleicht schon festgestellt haben, die Inhalte der beiden Workbench-Teile verändert.
+Das folgende Bild zeigt die Beispiel-Transformation « intersection ».
 
   .. image:: ../../images/screenshots/1024x768/geokettle_intersection_transformation.png
 
@@ -162,6 +164,4 @@ Weitere Herausforderungen, die Sie meistern können:
 Wie geht es weiter?
 ================================================================================
 
-Werfen Sie einen Blick auf die GeoKettle Benutzer- und Entwickler-Dokumentation sowie den Tutorials im 
-`Wiki <http://wiki.spatialytics.org>`_ des Projektes. Zögern Sie nicht Fragen im `Forum <http://www.spatialytics.com/forum>`_ 
-von Spatialytics zu stellen.
+Werfen Sie einen Blick auf die GeoKettle Dokumentation im Spatialytics `Dokumentations-Center<http://wiki.spatialytics.org>`_. Zögern Sie nicht Fragen im `Spatialytics Forum <http://www.spatialytics.com/forum>`_ zu stellen.
