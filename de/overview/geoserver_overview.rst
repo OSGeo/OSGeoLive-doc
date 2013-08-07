@@ -1,7 +1,7 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
@@ -10,11 +10,11 @@
   :align: right
   :target: http://geoserver.org/display/GEOS/Welcome
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoServer
 ================================================================================
