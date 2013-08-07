@@ -89,7 +89,7 @@ Details
 
 **Software Version:** |version-geoserver|
 
-**Unterstützte Plattformen:** Alle Java 1.5 Plattformen: - Windows, Linux, Mac
+**Unterstützte Plattformen:** Alle Java 6 Plattformen: - Windows, Linux, Mac
 
 **API Schnittstellen:** WMS, WFS, WCS, REST
 
