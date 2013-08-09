@@ -77,7 +77,7 @@ PostGIS 공간 데이터 베이스로 연결
 
 #. ``planet_osm_roads`` 선택 후, :guilabel:`Add` 클릭.
 
-   * 더 자세한 내용은 :doc:`PostGIS Quickstart <postgis_quickstart>`를 참고하십시오.
+   * 더 자세한 내용은 :doc:`PostGIS Quickstart <postgis_quickstart>` 를 참고하십시오.
 
 GRASS 툴박스 이용하기
 ================================================================================
@@ -92,9 +92,9 @@ GRASS 툴박스 이용하기
 
 #. :menuselection:`Plugins --> GRASS --> Open mapset` 선택.
 
-   * GRASS GIS 데이터 베이스는 자동적으로 디스크의 `~/grassdata`로 설정됩니다.
+   * GRASS GIS 데이터 베이스는 자동적으로 디스크의 `~/grassdata` 로 설정됩니다.
 
-#. `nc_basic_smp` Location과 `user1` working mapset을 선택한 후, click :guilabel:`Ok`를 클릭하세요.
+#. `nc_basic_smp` Location과 `user1` working mapset을 선택한 후, click :guilabel:`Ok` 를 클릭하세요.
 
 #. :menuselection:`Plugins --> GRASS --> Add GRASS raster layer` 선택.
 
@@ -118,15 +118,15 @@ GRASS 툴박스 이용하기
 
    * analysis 툴의 리스트가 출력됩니다.
 
-#. Modules List의 Filter box에 ``nviz``를 입력한 후 `NVIZ`를 선택하십시오. 툴박스 창을 더 크게 보이려면 창의 모퉁이쪽을 드래그해 보십시오.
+#. Modules List의 Filter box에 ``nviz`` 를 입력한 후 `NVIZ` 를 선택하십시오. 툴박스 창을 더 크게 보이려면 창의 모퉁이쪽을 드래그해 보십시오.
 
 #. 나타나는 새로운 모듈 탭에서 map for elevation으로 `elevation` 지도를 선택하십시오.
 
-#. 벡터 오버레이에 `roadsmajor`를 선택한 후, :guilabel:`Run` 클릭.
+#. 벡터 오버레이에 `roadsmajor` 를 선택한 후, :guilabel:`Run` 클릭.
 
 #. NVIZ 3D view가 나타나면 창을 최대화하고 왼쪽의 compass 박스에서 positioning puck을 드래그하십시오.
 
-#. :menuselection:`Visualize --> Raster surfaces`를 선택한 후, `fine` 해상도를 1로 설정하고, 상단 왼쪽의 초록색 DRAW 버튼을 클릭하고 잠시 기다리십시오.
+#. :menuselection:`Visualize --> Raster surfaces` 를 선택한 후, `fine` 해상도를 1로 설정하고, 상단 왼쪽의 초록색 DRAW 버튼을 클릭하고 잠시 기다리십시오.
 
 
 Sextante 툴박스 이용하기

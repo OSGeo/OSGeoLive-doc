@@ -59,7 +59,7 @@ PostgreSQL 서버에 연결할 때에는 데이터 베이스를 명시하여야 
 
 PostgreSQL은 데이터 베이스를 만들기 위한 유틸리티 프로그램을 제공합니다 ``createdb``.
 PostGIS 익스텐션을 통해 데이터 베이스를 만들어야 하며, 어떤 템플릿으로 시작할 지를 지정해야 합니다. 
-데이터 베이스 ``demo``를 실행시키겠습니다. 명령어는 다음과 같습니다:
+데이터 베이스 ``demo`` 를 실행시키겠습니다. 명령어는 다음과 같습니다:
 
 .. review comment: createdb is a utility programm not a unix command
 

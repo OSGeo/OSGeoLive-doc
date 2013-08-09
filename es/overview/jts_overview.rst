@@ -15,7 +15,8 @@ JTS Topology Suite (JTS)
 JTS es una biblioteca open source de funciones espaciales para el procesamiento de geometrías. Proporciona una implementación completa, consistente y robusta de los algoritmos fundamentales para procesar geometrías lineales en espacios cartesianos de dos dimensiones.  
 
 JTS incluye el "JTS Test Builder" que permite a los usuarios ejecutar tests y experimentar con geometrias a través de una interfaz de escritorio interactiva.  
-La estabilidad de JTS está asegurada gracias a un **stability is ensured through an extensive test suite.
+
+.. TODO La estabilidad de JTS está asegurada gracias a un **stability is ensured through an extensive test suite.
 
 JTS es utilizada por la mayoría de las aplicaciones geoespaciales Open Source basadas en Java, y  :doc:`geos_overview`, que es una versión de JTS para C++, se usa en la mayoría de aplicaciones basadas en C. Existen además otras versiones para C# y JavaScript.
 

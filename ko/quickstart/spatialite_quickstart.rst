@@ -20,7 +20,7 @@ SpatiaLite는 공간적 기능이 추가된 SQLite 데이터 베이스 엔진입
 spatialite 실행
 ================================================================================
 
-* 콘솔을 열어 **spatialite**로 견본 데이터 베이스를 엽니다::
+* 콘솔을 열어 **spatialite** 로 견본 데이터 베이스를 엽니다::
 
    spatialite /home/user/data/spatialite/trento.sqlite
 
@@ -44,21 +44,21 @@ spatialite 실행
         WHERE mh.COMU=lc.COM ORDER BY "Provence Name" LIMIT 10;
       
 
-**spatialite-gui**로 새로운 데이터 베이스 만들기
+**spatialite-gui** 로 새로운 데이터 베이스 만들기
 ================================================================================
 
-* 데스크탑의 Databases 폴더에서 **spatialite_gui**를 실행합니다.
+* 데스크탑의 Databases 폴더에서 **spatialite_gui** 를 실행합니다.
 * :menuselection:`File --> Creating a new SQLite DB`
 * Browse를 클릭하고 /home/user/data/spatialite/ directory 로 갑니다. "Test.sqlite"와 같은 이름을 입력하고 Save를 클릭하십시오.
 
-**spatialite-gui**로 기존 데이터 베이스 열기
+**spatialite-gui** 로 기존 데이터 베이스 열기
 ================================================================================
 
 * "Disconnecting current SQLite DB" 버튼을 클릭합니다.
 * "Connect existing SQLite DB" 버튼을 클릭합니다.
 * /home/user/data/spatialite 를 열어 trento.sqlite를 선택합니다.
-* MunicipalHallsView 테이블 위에서 마우스 오른쪽 버튼을 클릭하고 "Show Columns"를 선택합니다.
-* PopulatedPlaces 테이블 위에서 마우스 오른쪽 버튼을 클릭하고 "Edit table rows"를 선택합니다.
+* MunicipalHallsView 테이블 위에서 마우스 오른쪽 버튼을 클릭하고 "Show Columns" 를 선택합니다.
+* PopulatedPlaces 테이블 위에서 마우스 오른쪽 버튼을 클릭하고 "Edit table rows" 를 선택합니다.
 * 윗쪽 SQL pane에 다음을 입력하십시오::
 
    SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
@@ -76,10 +76,10 @@ spatialite-gis 실행
 
 그러면 이탈리아의 Trento 지역 지도를 볼 수 있습니다.
 
-   - Highways 레이어 위에서 마우스 오른쪽 버튼을 클릭하고 :menuselection:`Hide`를 선택하십시오.
-   - LocalCouncilsTrento 레이어 위에서 마우스 오른쪽 버튼을 클릭하고 :menuselection:`Layer Configuration->Classify` 를 선택한 후에 "Shape Area"를 선택하십시오. 4 Classes를 선택하고 dark and light color를 선택하기 위해서 Min and Max color patches를 선택하십시오. 이 지역의 Choropleth display를 볼 수 있습니다.
-   - LocalCouncils 위에서 마우스 오른쪽 버튼을 누르고 :menuselection:`Layer configuration->Graphics`로 가서 경계의 색을 바꿀 수 있습니다. Border Graphics 아래에서 다른 색을 선택하십시오.
-   - 약간 지도를 확대해 보십시오. PopulatedPlaces 레이어 위에서 마우스 오른쪽 버튼을 클릭하고 :menuselection:`Indentify on`을 선택하십시오. Populated Places의 한 곳을 선택해서 속성을 볼 수 있습니다.
+   - Highways 레이어 위에서 마우스 오른쪽 버튼을 클릭하고 :menuselection:`Hide` 를 선택하십시오.
+   - LocalCouncilsTrento 레이어 위에서 마우스 오른쪽 버튼을 클릭하고 :menuselection:`Layer Configuration --> Classify` 를 선택한 후에 "Shape Area"를 선택하십시오. 4 Classes를 선택하고 dark and light color를 선택하기 위해서 Min and Max color patches를 선택하십시오. 이 지역의 Choropleth display를 볼 수 있습니다.
+   - LocalCouncils 위에서 마우스 오른쪽 버튼을 누르고 :menuselection:`Layer configuration --> Graphics` 로 가서 경계의 색을 바꿀 수 있습니다. Border Graphics 아래에서 다른 색을 선택하십시오.
+   - 약간 지도를 확대해 보십시오. PopulatedPlaces 레이어 위에서 마우스 오른쪽 버튼을 클릭하고 :menuselection:`Indentify on` 을 선택하십시오. Populated Places의 한 곳을 선택해서 속성을 볼 수 있습니다.
 
 
 시도해 보기
