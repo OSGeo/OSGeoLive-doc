@@ -51,7 +51,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.12svn
+**Software Version:** 2.12
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX
 
