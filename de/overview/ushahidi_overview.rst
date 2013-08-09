@@ -1,6 +1,6 @@
 :Author: Henry Addo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
@@ -60,13 +60,14 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 3
 
-**Software Version:** 2.1
+**Software Version:** 2.7 (Bamako)
 
 **API Schnittstellen:** PHP
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 
-**Support:** http://forums.ushahidi.com
+**Support:** https://wiki.ushahidi.com/display/forums/Ushahidi+Forums
+
 
 Quickstart
 --------------------------------------------------------------------------------
