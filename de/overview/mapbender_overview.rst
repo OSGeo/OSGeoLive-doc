@@ -67,7 +67,7 @@ Details
 
 **Webseite:** http://www.mapbender.org/ 
 
-**Lizenz:** Mapbender verfügt über eine duale Linzenz und zwar über die `GNU General Public Lizenz<http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt>`_ und die `Simplified BSD Lizenz <http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt>`_.
+**Lizenz:** Mapbender verfügt über eine duale Linzenz und zwar über die `GNU General Public Lizenz <http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt>`_ und die `Simplified BSD Lizenz <http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt>`_.
 
 **Software Version:** 3.0.0.2
 
