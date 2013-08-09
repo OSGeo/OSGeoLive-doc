@@ -53,13 +53,13 @@ Details
 
 **Lizenz:** MIT License
 
-**Software Version:** 0.5.5
+**Software Version:** 1.0.1
 
-**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, Microsoft Windows
 
 **API Schnittstellen:** Web, Python
 
-**Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://www.sahanafoundation.org/chat>`_.
+**Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://wiki.sahanafoundation.org/doku.php/community:chat>`_.
 
 Quickstart
 --------------------------------------------------------------------------------
