@@ -1,7 +1,7 @@
 :Author: Astrid Emde
 :Translator: Diego Migliavacca
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0-draft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Mapbender3.png
@@ -29,7 +29,7 @@ Mapbender é la cosiddetta punta dell'iceberg, uno strato software in grado di f
 
 Le applicazioni amministrate con Mapbender sono facili da usare, e forniscono funzionalità fortemente dirette all'operatività su componenti SDI distribuiti su larga scala. Esso é uno strumento utile ad amministratori di SDI che hanno bisogno di mantenere, classificare e monitorare servizi relativi a mappe (map services) e ad oggetti geografici (feature services). Mapbender garantisce l'accesso a persone, gruppi e gestisce anche l'accesso da parte di altri servizi. L'aderenza a servizi standardizzati, come ad es. OGC WMS, permette di beneficiare dei servizi interoperabili forniti da una moltitudine di piattaforme server.
 
-Il software Mapbender3 si basa sul framework Symfony2 e OpenLayers, Mapproxy e jQuery. 
+Il software Mapbender3 si basa su Symfony2 e OpenLayers, Mapproxy e jQuery. 
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
@@ -66,18 +66,18 @@ Dettagli
 
 **Sito web:** http://www.mapbender3.org/
 
-**Licenza:** Mapbender é dual licensed sotto la GNU General Public License e la Simplified BSD license
+**Licenza:** Doppia licenza sotto la GNU General Public License e la Simplified BSD license
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Versione del Software:** 3.0.0.2
+**Versione software:** 3.0.0.2
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 
 **Supporto:** http://www.mapbender3.org/en/community
 
 
-Quickstart
+Guida rapida
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/mapbender_quickstart>`

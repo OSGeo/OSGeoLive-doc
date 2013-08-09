@@ -57,7 +57,7 @@ Caratteristiche chiave:
 * Operazioni di importazione/esportazione massive (tramite un'estensione)
 
 .. note::
-  I formati raster ECW e MrSID richiedono un ulteriore pacchetto per funzionare: a causa di
+  (*) I formati raster ECW e MrSID richiedono un ulteriore pacchetto per funzionare: a causa di
   restrizione della licenza le loro librerie non possono essere distribuite
 
 Standard implementati
@@ -84,7 +84,7 @@ Dettagli
 **Supporto Commerciale:** http://www.saig.es/index.php?lang=en
 
 
-Presentazione Veloce
+Guida rapida
 --------------------------------------------------------------------------------
     
 * :doc:`Documentazione introduttiva <../quickstart/kosmo_quickstart>`

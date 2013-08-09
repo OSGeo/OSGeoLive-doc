@@ -40,7 +40,7 @@ gvSIG è noto per:
   così come lo sviluppo di soluzioni su misura.
 * è disponibile in oltre 20 linguaggi (spagnolo, inglese, tedesco, francese, 
   italiano, ecc.).
-* è disponibile per i sistemi operativi Windows, Linux (esistono anche distribuzione
+* è disponibile per i sistemi operativi Windows, Linux (esistono anche versioni
   non ufficiali per Mac OS X):
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
