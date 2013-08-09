@@ -29,11 +29,11 @@ Kernfunktionen
 
 * Datenformate
 
-    * lesend (dateibasiert): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW*
+    * lesend (dateibasiert): GML, SHP, DXF+, MIF*, CSV+, KML+ & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
     * lesend (DB): PostGIS, ArcSDE*, Oracle*, MySQL* und SpatiaLite*
-    * lesend: (OGC Standards) : WKT, WMS
-    * schreibend: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF und SVG*
-    * beachten Sie, dass die mit * markierten Formate über ein extra Plugin eingebunden werden
+    * lesend: (OGC Standards) : WKT, WMS, KML
+    * schreibend: GML, SHP, WKT, DXF+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
+    * beachten Sie, dass die mit * markierten Formate über ein extra Plugin eingebunden werden, die mit + markierten sind dagegen Teil der PLUS Edition.
 
 * Bearbeitung & Vereinigung
 
@@ -46,15 +46,16 @@ Kernfunktionen
 * (Vektoren) Analysen & Abfragen
 
     * Abfragefunktionen für räumliche Daten und Attribute
-    * Längen- und Flächenberechnung, Mittelpunkt, Puffer, Convex Hull,...
-    * Topologie Werkzeuge: line noder, polygonizer, planar graph,...
-    * Werkzeuge zur Attributübertragung (1:1 Transfer oder n:1 Transfer)
+    * Analysen: Mittelpunkt, Puffer, Union, Overly, Mittelpunkt, Convex Hull,...
+    * Statistiken: Längen- und Flächenberechnung, Attributstatistik, planar graph, Topologiebereinigung über die PLUS edition, 
+    * Editierwerkzeuge: converter, noder, polygonizer, planar graph, topology cleaning in PLUS edition, ...
+    * Werkzeuge zur Attributübertragung: join, matching*
     * Rasteranalyse über den SEXTANTE Connector
 
 * Anpassungen
 
     * internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)
-    * Bereitstellung einer API, Skripting über BeanShell und Java Python
+    * Bereitstellung einer API, Skripting über BeanShell und Java Python/Ython
     * (Java) Plugin-System
    
 
@@ -63,7 +64,7 @@ Implementierte Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS und SLD; (WFS für :doc:`deegree <deegree_overview>`)
+* OGC standards supported: GML2, SFS, WMS, KML und SLD; (WFS für :doc:`deegree <deegree_overview>`)
 
 Details
 --------------------------------------------------------------------------------
@@ -72,7 +73,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 1.5.2 (Core Edition)
+**Software Version:** 1.6.3
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
