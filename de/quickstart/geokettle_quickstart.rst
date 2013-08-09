@@ -164,4 +164,4 @@ Weitere Herausforderungen, die Sie meistern können:
 Wie geht es weiter?
 ================================================================================
 
-Werfen Sie einen Blick auf die GeoKettle Dokumentation im Spatialytics `Dokumentations-Center<http://wiki.spatialytics.org>`_. Zögern Sie nicht Fragen im `Spatialytics Forum <http://www.spatialytics.com/forum>`_ zu stellen.
+Werfen Sie einen Blick auf die GeoKettle Dokumentation im Spatialytics `Dokumentations-Center <http://wiki.spatialytics.org>`_. Zögern Sie nicht Fragen im `Spatialytics Forum <http://www.spatialytics.com/forum>`_ zu stellen.
