@@ -50,12 +50,11 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.12svn
+**Software Version:** 2.12
 
 **Supported Platforms:** GNU/Linux, Mac OSX
 
 **Support:** http://gpsdrive.de/support.shtml
-
 
 Quickstart
 --------------------------------------------------------------------------------
