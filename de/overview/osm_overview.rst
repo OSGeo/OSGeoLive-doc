@@ -22,8 +22,7 @@ Benutzern lizenzkostenfrei zur Verfügung, um daraus zum Beispiel Straßen-,
 Wander- oder Fahrradkarten, Routenplaner oder andere wissenswerte Informationen 
 zu erstellen.
 
-Fünf Anwendungen wurden ausgewählt: JOSM, Merkaartor, Gosmore, Osmarender und
-Osm2pgsql. Darüber hinaus sind Beispieldaten und eine Reihe von JOSM Plugins enthalten.
+Einige Anwendungen wurden ausgewählt: JOSM, Merkaartor, Osmosis, Osm2pgsql sowie einige kleine kommandozeilenbasierte Werkzeuge. Darüber hinaus sind Beispieldaten und eine Reihe von JOSM Plugins enthalten.
 
 
 Kernfunktionen
@@ -36,7 +35,7 @@ Kernfunktionen
 
 * Global massively crowdsouced dataset
 * Es stehen einige Editoren zur Auswahl
-* Es gibt einige Werkzeuge zur Visualisierung (auch Online)
+* Es gibt einige Werkzeuge zur Visualisierung (inklusive benutzerdefiniert sowie Online)
 * Freie Nutzung
 * Weit verbreitete Integration in Geo-Anwendungen
 
@@ -49,31 +48,22 @@ Details
 
 * OpenStreetMap Daten: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
 
-.. <!-- siehe /usr/share/doc/josm/copyright -->
-
 * JOSM: GNU General Public License (GPL) version 2
+
+.. <!-- see /usr/share/doc/josm/copyright -->
 
 * JOSM Plugins: Reichen von Public Domain bis zu GPLv3
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
-* Gosmore: Public Domain and GPLv2
-
-.. <!-- see /usr/share/doc/gosmore/copyright -->
-
-* Osmarender: GNU General Public License (GPL) version 2
 
 **Software Versionen:**
 
-* JOSM: Latest stable snapshot (svn r5697)
+* JOSM: Latest stable snapshot (svn r6060)
 
 * Merkaartor: 0.17.2
 
 * Osmosis: 0.40.1
-
-* Gosmore: 2010/07/11
-
-* Osmarender: SVN mid-2011
 
 * osm2pgsql: SVN version 0.81.0
 

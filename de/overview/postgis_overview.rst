@@ -1,14 +1,16 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Author: Barry Rowlingson
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: Projekt Logo
   :align: right
-  :target: http://postgis.refractions.net/
+  :target: http://www.postgis.net/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +30,7 @@ Die Datenbank-Administration ist unter anderem möglich über pgAdmin und phpPgA
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
   :scale: 55 %
-  :alt: Bildschirmfoto
+  :alt: pgAdmin database manager
   :align: right
 
 Kernfunktionen
@@ -55,7 +57,7 @@ Implementierte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://postgis.refractions.net/
+**Website:** http://www.postgis.net
 
 **Lizenz:** GNU General Public License (GPL) version 2
 

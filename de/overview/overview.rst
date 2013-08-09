@@ -14,6 +14,7 @@
    *_overview
    ../quickstart/*_quickstart
 
+
 Desktop GIS
 --------------------------------------------------------------------------------
 Generelle Geodaten Anzeige, Barbeitung und Analyse über den Desktop:
@@ -32,6 +33,7 @@ Browser Anwendungen
 Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser GIS Client
+* :doc:`leaflet_overview` - Interactive Karten für mobile Geräte geeignet
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
@@ -45,16 +47,18 @@ Veröffentlichung von Geodaten im Netz:
 * :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
+* :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Katalog und Katalogdienst für das Web
 * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Katalog
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy für WMS und Tile-Dienste
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`]
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+
+.. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
 
 Datenbanken
 --------------------------------------------------------------------------------
@@ -69,6 +73,7 @@ Navigation und Karten
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Anzeige, Bearbeitung und Konvertierung von GPS Tracks
+* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Datenanalyse und -anzeige
@@ -93,7 +98,6 @@ GIS Werkzeuge
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Kartendarstellung und Zeitachsen für Ereignisse
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
 * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe
 * :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Wettervorhersagekarten
 
 
@@ -104,6 +108,7 @@ Auwahl räumlicher Daten:
 * :doc:`naturalearth_overview` - Globale Daten 
 * :doc:`nc_dataset_overview`
 * :doc:`osm_dataset_overview` - Beispiel-Extrakt von OpenStreetMap 
+* :doc:`netcdf_dataset_overview` - Zeitserien zu Temperatur und Niederschlag
 
 GIS Bibliotheken
 --------------------------------------------------------------------------------
@@ -113,7 +118,7 @@ GIS Bibliotheken
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - C/C++ Spatial Library 
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations 
-* :doc:`liblas_overview` - LiDAR Data Access 
+* :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 
 Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------
@@ -123,7 +128,7 @@ Nur unter Microsoft Windows verfügbar:
 
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows basiertes GIS
 
-Auf füheren OSGeo-Live Releases verfügbar:
+Auf früheren OSGeo-Live Releases verfügbar:
 
 .. MapGuide wurde temporär deaktiviert um Platz zu sparen; 
 

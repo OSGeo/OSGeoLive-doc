@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0-draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -10,6 +10,11 @@
   :align: right
   :target: http://pycsw.org/
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Incubation Project
+  :align: right
+  :target: http://www.osgeo.org
 
 pycsw
 ================================================================================
@@ -34,14 +39,14 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 * vollständige OGC CSW 2.0.2 konform
-* vollständiges Bestehen der OGC CITE CSW Test Suite (103/103)
+* Harvesting Support für WMS, WFS, WCS, WPS, WAF, CSW, SOS
 * implementiert den INSPIRE Discovery Services 3.0
 * implementiert das ISO Metadata Application Profile 1.0.0
 * implementiert das FGDC CSDGM Application Profile for CSW 2.0
 * implementiert das Search/Retrieval via URL (SRU) Suchprotokoll
 * implementiert OpenSearch
 * unterstützt die Metadatenmodelle ISO, Dublin Core, DIF, FGDC
-* CGI oder WSGI
+* CGI oder WSGI Deployment
 * einfache Konfiguration
 * Transaktionale Fähigkeiten (CSW-T)
 * flexible Repository Konfiguration
@@ -82,7 +87,7 @@ Details
 
 **Licence:** `MIT`_
 
-**Software Version:** 1.4.0
+**Software Version:** 1.6.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

@@ -1,4 +1,5 @@
 :Author: Daniel Kastl
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -25,7 +26,7 @@ Vorteile des Datenbank-Routing Konzepts sind:
 pgRouting steht unter GPLv2 Lizens und wird von einer wachsenden Zahl von Nutzern, Organisationen und Unternehmen unterstützt.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
-  :scale: 60 %
+  :scale: 70 %
   :alt: pgRouting Abfrage in pgAdmin III
   :align: right
 
@@ -34,23 +35,19 @@ Kernfunktionen
 
 pgRouting stellt Funktionen zur Verfügung für:
 
-* All Pairs Shortest Path, Johnson’s Algorithm :sup:`[1]`
-* All Pairs Shortest Path, Floyd-Warshall Algorithm :sup:`[1]`
+* All Pairs Shortest Path, Johnson’s Algorithm
+* All Pairs Shortest Path, Floyd-Warshall Algorithm
 * "Kürzeste-Wege" Berechnung mit A* Algorithmus
-* Bi-directional Dijkstra Shortest Path :sup:`[1]`
-* Bi-directional A* Shortest Path :sup:`[1]`
+* Bi-directional Dijkstra Shortest Path
+* Bi-directional A* Shortest Path
 * "Kürzeste-Wege" Berechnung mit Dijkstra Algorithmus
 * Einzugsbereichberechnung (Isolinien)
-* K-Shortest Path, Alternative Routen :sup:`[1]`
-* K-Dijkstra, One-to-Many Shortest Path :sup:`[1]`
+* K-Shortest Path, Multiple Alternative Paths
+* K-Dijkstra, One to Many Shortest Path
 * Problem des Handlungsreisenden (Traveling Salesperson Problem, TSP)
-* Turn Restriction Shortest Path (TRSP) :sup:`[1]`
-* "Kürzeste-Wege" Berechnung mit Shooting Star Algorithmus :sup:`[2]`
+* Turn Restriction Shortest Path (TRSP)
 
 Weitere Details zu pgRouting finden sich in der `Projektdokumentation <http://docs.pgrouting.org>`_.
-
-| :sup:`[1]` **Neu** in pgRouting 2.0
-| :sup:`[2]` Eingestellt mit pgRouting 2.0
 
 
 .. Implementierte Standards
@@ -77,5 +74,4 @@ Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart Dokumentation <../quickstart/pgrouting_quickstart>`
-
 

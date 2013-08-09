@@ -32,7 +32,7 @@ Kernfunktionen
   :alt: screenshot
   :align: right
 
-* Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten Fernerkundungsdatenformate, Metadatenzugriff und Visualisierung
+* Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten Fernerkundungsdatenformate (inklusive Jpeg2000 über OpenJPEG), Metadatenzugriff und Visualisierung
 * Orthorectification und Kartenumprojektion
 * Kalibierung
 * Bildfusion
@@ -41,8 +41,9 @@ Kernfunktionen
 * Objekterkennung
 * Bildsegmentierung: Region Growing, Watershed, Niveaumengenmethoden (Level Sets)
 * Klassifizierung: K-Means, SVM, MRF (Markov Random Fields)
-* objebasierte Bildanalyse
+* objektbasierte Bildanalyse
 * räumliche Analyse
+* Stereoskopische Rekonstruktion von optischen Bildern
 * SAR Datenanalyse
 * Änderungsverfolgung
 
@@ -54,13 +55,14 @@ Details
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
   für französisches Recht)
 
-**Software Version:** 3.14.1 (Release Oktober 2012)
+**Software Version:** 3.18.1 (Release Juli 2013)
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 
-**API Schnittstellen:** C++
+**API Schnittstellen:** C++ (verfügbare Bindings in Java und Python)
 
 **Support:** http://www.osgeo.org/search_profile
+
 
 Quickstart
 --------------------------------------------------------------------------------

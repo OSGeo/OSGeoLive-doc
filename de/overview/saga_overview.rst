@@ -1,5 +1,6 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-saga.png
@@ -57,11 +58,11 @@ Details
 
 **Lizenz:** LGPL v2.1 (api); GPLv2 (GUI und Module)
 
-**Software Version:** 2.0.8
+**Software Version:** 2.1.0
 
 **Unterstützte Plattformen:** Windows, Linux, FreeBSD
 
-**API Schnittstellen:** C++
+**API Schnittstellen:** C++, Python, R
 
 **Support:** http://www.saga-gis.org
 
