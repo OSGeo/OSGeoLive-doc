@@ -109,7 +109,7 @@ Spatial data sets:
 * :doc:`naturalearth_overview` - Global Data Sets 
 * :doc:`nc_dataset_overview`
 * :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap 
-
+* :doc:`netcdf_dataset_overview` - Time series temperature and precipitation
 
 Geospatial Libraries
 --------------------------------------------------------------------------------
