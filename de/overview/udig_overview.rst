@@ -1,13 +1,15 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
+
 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 30
   :alt: udig Logo
   :align: right
   :target: http://udig.refractions.net/
-
 
 User-friendly Desktop Internet GIS (uDig)
 ================================================================================
@@ -65,7 +67,7 @@ Details
 
 **Webseite:** http://udig.refractions.net/
 
-**Lizenz:** GNU Lesser General Public License (LGPL) version 2
+**Lizenz:** Dual BSD / EPL (Eclipse Foundation)
 
 **Software Version:** |version-udig|
 
