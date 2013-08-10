@@ -6,7 +6,7 @@
 |osgeo-live-version| Statystyki projektu
 ================================================================================
 
-WskaŸniki tworzone przez `Ohloh <https://www.ohloh.net/>`_ na podstawie repozytoriów kodu Ÿród³owego projektów. Maj¹ one nieznaczne ró¿nice od stanu faktycznego (spowodowane na przyk³ad przenoszeniem repozytoriów), i dostarczaj¹ jedynie czêœciowej informacji na temat stanu projektu.
+WskaÅºniki tworzone przez `Ohloh <https://www.ohloh.net/>`_ na podstawie repozytoriÃ³w kodu ÅºrÃ³dÅ‚owego projektÃ³w. MajÄ… one nieznaczne rÃ³Å¼nice od stanu faktycznego (spowodowane na przykÅ‚ad przenoszeniem repozytoriÃ³w), i dostarczajÄ… jedynie czÄ™Å›ciowej informacji na temat stanu projektu.
 
 .. raw:: html
 
@@ -14,7 +14,7 @@ WskaŸniki tworzone przez `Ohloh <https://www.ohloh.net/>`_ na podstawie repozyto
 
 Desktop GIS
 --------------------------------------------------------------------------------
-GIS ogólnego zastosowania - przegl¹danie, edycja, analizy na komputerze:
+GIS ogÃ³lnego zastosowania - przeglÄ…danie, edycja, analizy na komputerze:
 
 .. raw:: html
 
@@ -26,13 +26,13 @@ GIS ogólnego zastosowania - przegl¹danie, edycja, analizy na komputerze:
   <script type="text/javascript" src="http://www.ohloh.net/p/9819/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/saga-gis/widgets/project_factoids_stats.js"></script>
 
-Brakuj¹ce:
+BrakujÄ…ce:
 
 * :doc:`overview/kosmo_overview`
 
-GIS w przegl¹darce internetowej
+GIS w przeglÄ…darce internetowej
 --------------------------------------------------------------------------------
-GIS ogólnego zastosowania - przegl¹danie, edycja, analizy w przegl¹darce internetowej:
+GIS ogÃ³lnego zastosowania - przeglÄ…danie, edycja, analizy w przeglÄ…darce internetowej:
 
 .. raw:: html
 
@@ -42,7 +42,7 @@ GIS ogólnego zastosowania - przegl¹danie, edycja, analizy w przegl¹darce interne
   <script type="text/javascript" src="http://www.ohloh.net/p/mapfish/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/geomoose/widgets/project_factoids_stats.js"></script>
 
-Us³ugi sieciowe
+UsÅ‚ugi sieciowe
 --------------------------------------------------------------------------------
 Publikacja danych przestrzennych w internecie:
 
@@ -87,7 +87,7 @@ Nawigacja i mapy
   <script type="text/javascript" src="http://www.ohloh.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/viking/widgets/project_factoids_stats.js"></script>
 
-Narzêdzia OpenStreetMap
+NarzÄ™dzia OpenStreetMap
 --------------------------------------------------------------------------------
 
 .. raw:: html
@@ -96,13 +96,13 @@ Narzêdzia OpenStreetMap
   <script type="text/javascript" src="http://www.ohloh.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
 
-Brakuj¹ce:
+BrakujÄ…ce:
 
 * `overview/osmarender <http://wiki.openstreetmap.org/wiki/Osmarender>`_
 
-Narzêdzia geoprzestrzenne
+NarzÄ™dzia geoprzestrzenne
 --------------------------------------------------------------------------------
-Zaawansowane narzêdzia analityczne:
+Zaawansowane narzÄ™dzia analityczne:
 
 .. raw:: html
 
@@ -115,9 +115,9 @@ Zaawansowane narzêdzia analityczne:
   <script type="text/javascript" src="http://www.ohloh.net/p/R-project_/widgets/project_factoids_stats.js"></script>
 
 
-GIS szczególnych zastosowañ
+GIS szczegÃ³lnych zastosowaÅ„
 --------------------------------------------------------------------------------
-Aplikacje bran¿owe:
+Aplikacje branÅ¼owe:
 
 .. raw:: html
 
@@ -126,7 +126,7 @@ Aplikacje bran¿owe:
   <script type="text/javascript" src="http://www.ohloh.net/p/osgearth/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script>
 
-Brakuj¹ce:
+BrakujÄ…ce:
 
 * :doc:`overview/mb-system_overview` - Sea Floor Mapping
 * :doc:`overview/zygrib_overview` - - Weather Forecast Maps
@@ -142,14 +142,14 @@ Biblioteki geoprzestrzenne
   <script type="text/javascript" src="http://www.ohloh.net/p/geos/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/liblas/widgets/project_factoids_stats.js"></script>
 
-Biblioteki odniesieñ przestrzennych 
+Biblioteki odniesieÅ„ przestrzennych 
 --------------------------------------------------------------------------------
 
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/proj4/widgets/project_factoids_stats.js"></script>
 
-Brakuj¹ce:
+BrakujÄ…ce:
 
 * Proj4js (JavaScript) - used in OpenLayers.
 * CS-Map (C++) - used in MapGuide.
