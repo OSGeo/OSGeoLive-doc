@@ -49,7 +49,7 @@ development. MapGuide Open Source is licensed under the LGPL.
 
 .. commented out as manual install doesn't currently work: To install
   it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``
-Główne funkcje
+  Główne funkcje
 --------------------------------------------------------------------------------
 
 **Interaktywne przeglądanie map**

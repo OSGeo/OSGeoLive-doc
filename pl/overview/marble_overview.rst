@@ -17,6 +17,7 @@
   :alt: OSGeo Project in Incubation
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
+
 Marble
 ================================================================================
 

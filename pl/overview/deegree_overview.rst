@@ -106,7 +106,7 @@ Zaimplementowane standardy
 * OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 w trakcie)
 * OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 w trakcie)
 * OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; łącznie z OGC ISOAP 1.0 
-i profilem INSPIRE
+  i profilem INSPIRE
 * OGC Web Perspective View Service (WPVS) Draft 6
 * OGC Web Coordinate Transformation Service (WCTS) 0.4.0
 * OGC Web Processing Service (WPS) 0.4.0, 1.0.0
