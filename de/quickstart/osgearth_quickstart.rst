@@ -20,7 +20,7 @@ Diese Kurzanleitung beschreibt, wie ein 3D-Globus mit verschiedenen Overlays ges
 Running osgearth_viewer
 ================================================================================
 
-* Öffnen Sie die Konsole und starten Se den osgearth Viewer::
+* Öffnen Sie die Konsole und starten Sie den osgearth Viewer::
 
    export OSG_FILE_PATH=/usr/share/osgearth
    osgearth_viewer --window 50 50 900 700 /usr/share/osgearth/maps/srtm.earth
@@ -32,13 +32,13 @@ Sie sollten im Anschluss einen Globus mit Satellitenbildern sehen.
 * Verwenden Sie die rechte Maustaste, für ``Zoom Out``, 
 * mit dem Mausrad können sie ebenso hinein- bzw. herauszuzoomen.
 * Kippen : Ziehen Sie die Maus, wenn Sie die rechte und linke Maustaste gedrückt halten.
-* Drücken Sie :kbd:`h` für ie Hilfe.
+* Drücken Sie :kbd:`h` für die Hilfe.
 * Drücken Sie :kbd:`ESCAPE`, um die Anwendung zu beenden.
 
 osgviewer mit einem OpenStreetMap Overlay starten
 ================================================================================
 
-* Geben Sie In der Konsole folgendes ein::
+* Geben Sie in der Konsole Folgendes ein::
 
    osgviewer /usr/share/osgearth/maps/openstreetmap.earth
 
