@@ -104,7 +104,7 @@ Details
 
 **Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 6.2
+**Software Version:** 6.2.1
 
 **Supported Platforms:** Windows, Linux, Mac
 
