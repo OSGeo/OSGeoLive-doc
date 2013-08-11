@@ -85,7 +85,7 @@ Details
 
 **Licence:** MPLv1.1
 
-**Software Version:** 4.8.6
+**Software Version:** 4.8.8
 
 **Supported Platforms:** Windows
 
