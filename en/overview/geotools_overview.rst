@@ -111,8 +111,6 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 9.3
-
 **Supported Platforms:** Cross Platform Java 6
 
 **API Interfaces:** Java
