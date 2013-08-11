@@ -75,7 +75,7 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
   and will become dated.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
-  :scale: 55 %
+  :scale: 70 %
   :alt: pgAdmin database manager
   :align: right
 
