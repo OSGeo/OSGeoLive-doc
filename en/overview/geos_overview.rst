@@ -50,8 +50,6 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 3.3.8
-
 **Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** C, C++
