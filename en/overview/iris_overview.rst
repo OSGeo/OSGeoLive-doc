@@ -1,41 +1,28 @@
 :Author: darkblueb
-:Reviewer: tbd
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-IRIS.png
-  :alt: project logo
+  :alt: IRIS project logo
   :align: right
-  :target: http://liblas.org/
+  :target: http://scitools.org.uk/iris/
 
 IRIS
 ================================================================================
 
-IRIS - A Python library for Meteorology and Climatology
+Meteorology and Climatology
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Iris is a powerful, easy to use, community-driven Python library for analysing 
-and visualising meteorological and oceanographic data sets.
+Iris is a powerful, Python library for analysing and visualising meteorological and oceanographic data sets.  It includes data manipulation operations, such as arithmetic, interpolation, and statistics; and a range of integrated plotting options.
 
+Iris currently supports read/write access to a range of data formats, including (CF-)netCDF, GRIB, and PP files.
 
 .. image:: ../../images/screenshots/800x600/iris.jpg
   :alt: IRIS
   :align: right
   :scale: 80 %
   
-The Iris library implements a data model to create a data abstraction layer which 
-isolates analysis and visualisation code from data format specifics. The data model 
-we have chosen is the CF Data Model. The implementation of this model we have 
-called an Iris Cube.
-
-Iris currently supports read/write access to a range of data formats, 
-including (CF-)netCDF, GRIB, and PP; fundamental data manipulation operations, 
-such as arithmetic, interpolation, and statistics; and a range of integrated 
-plotting options.
-
-Iris is published under an LGPLv3 licence.
-
-
 Core Features
 --------------------------------------------------------------------------------
 
@@ -43,11 +30,10 @@ Core Features
 * Read and write (CF-)netCDF, GRIB, and PP files.
 * Easily produce graphs and maps via integration with matplotlib and cartopy.
 
-
 Details
 --------------------------------------------------------------------------------
  
-**Website:** http://scitools.org.uk/iris/docs/latest/index.html
+**Website:** http://scitools.org.uk/iris/
 
 **Licence:** LGPLv3
 
