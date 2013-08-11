@@ -56,7 +56,7 @@
 
 Подробную информацию о сервисе 52°North SOS и/или сообществе 52°North Sensor Web можно найти по следующим ссылкам:
 
-* Обзор 52°North :doc:`SOS <../overview/52nSOS_overview>`,
+* Обзор :doc:`52°North SOS <../overview/52nSOS_overview>`,
 * Список рассылки 52°North Sensor Web: swe@52north.org, 
 * Форум сообщества 52°North `Sensor Web <http://sensorweb.forum.52north.org/>`_, 
 * Клиент для 52°North `SOS <http://sensorweb.demo.52north.org/SOSclient/>`_,
