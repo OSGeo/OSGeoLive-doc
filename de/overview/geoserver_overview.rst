@@ -10,7 +10,7 @@
   :align: right
   :target: http://geoserver.org/display/GEOS/Welcome
 
-.. image:: ../../images/logos/OSGeo.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
