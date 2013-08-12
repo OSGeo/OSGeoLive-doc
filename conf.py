@@ -240,6 +240,7 @@ rst_epilog="""
 .. |version-udig| replace:: 1.4.0b
 .. |version-52nWPS| replace:: 3.2.0 
 .. |version-52nSOS| replace:: 3.5.0 
+.. |version-eoxserver| replace:: 0.3.0
 """ % {
   'projectname':project,
   'projectversion': version, 

@@ -93,7 +93,7 @@ EOxServer はオープンな規格を使用してオンラインの膨大な地�
 
 **ライセンス:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**バージョン:** 0.2.1
+**バージョン:** |version-eoxserver|
 
 **動作プラットフォーム:** Linux, Windows, Mac
 

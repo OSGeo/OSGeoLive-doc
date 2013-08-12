@@ -86,7 +86,7 @@ EOxServer 的核心功能包括：
 
 **开源协议：** `MIT 麻省理工学院协议 <http://eoxserver.org/doc/copyright.html#license>`_
 
-**软件版本：** 0.2.0
+**软件版本：** |version-eoxserver|
 
 **支持平台：** Linux, Windows, Mac
 

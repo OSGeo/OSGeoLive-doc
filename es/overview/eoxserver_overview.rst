@@ -102,7 +102,7 @@ Detalles
 
 **Licencia:** `Estilo MIT <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Versión del Software:** 0.2.1
+**Versión del Software:** |version-eoxserver|
 
 **Plataformas Soportadas:** Windows, Linux, Mac:
 

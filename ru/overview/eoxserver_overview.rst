@@ -88,7 +88,7 @@ EOxServer — это сервер для просмотра данных дис
 
 **Лицензия:** `Лицензия, основанная на MIT <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Версия ПО:** 0.2.1
+**Версия ПО:** |version-eoxserver|
 
 **Поддерживаемые платформы:** Linux, Windows, Mac
 

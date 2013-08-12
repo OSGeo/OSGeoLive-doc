@@ -95,7 +95,7 @@ Detalls
 
 **Llicència:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Versió del Programari:** 0.2.1
+**Versió del Programari:** |version-eoxserver|
 
 **Plataformes suportades:** Linux, Windows, Mac
 

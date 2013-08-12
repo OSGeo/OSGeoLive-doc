@@ -78,7 +78,7 @@ Dettagli
 
 **Licenza:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Versione Software:** 0.3.0
+**Versione Software:** |version-eoxserver|
 
 **Piattaforme Supportate:** Linux, Windows, Mac
 

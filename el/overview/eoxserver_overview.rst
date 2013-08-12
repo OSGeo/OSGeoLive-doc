@@ -74,7 +74,7 @@ EOxServer
 
 **Άδεια:** `MIT <http://eoxserver.org/doc/copyright.html#license>`_
 
-**Έκδοση Λογισμικού:** 0.3.0
+**Έκδοση Λογισμικού:** |version-eoxserver|
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Windows, Mac
 
