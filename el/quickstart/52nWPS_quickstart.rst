@@ -26,19 +26,17 @@
   χρησιμοποιούν δεδομένα από την τοπική εγκατάσταση.
 
 
-.. image:: ../../images/screenshots/800x600/52n_test_client.png
-  :scale: 50 %
+.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+  :scale: 70 %
   :alt: screenshot
-  :align: right
   
   
 * Πατήστε το Send-Button και το 52°North WPS το οποίο θα
   δημιουργήσει μία αναπαράσταση σε μορφή xml ενός buffer πλάτους 20 γύρω από τους παιδότοπους.
 
-.. image:: ../../images/screenshots/1024x768/52n_wps_response.png
-  :scale: 50 %
+.. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+  :scale: 70 %
   :alt: screenshot
-  :align: right
 
 * Για να δημιουργήσετε τα δικά σας αιτήματα θα χρειαστείτε τις δυνατότητες της 52°North WPS:
 

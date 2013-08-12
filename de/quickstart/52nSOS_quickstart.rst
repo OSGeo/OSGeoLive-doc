@@ -1,30 +1,37 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer: TBD
-:Version: osgeo-live4.0
+:Reviewer: Frank Gasdorf
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons - logo
-  :align: right
   :target: http://52north.org/sos
+  :align: right
 
 ********************************************************************************
 52°North SOS Quickstart 
 ********************************************************************************
 
-Erste Schritte
-================================================================================
-
 Der 52°North SOS ermöglicht den Zugriff und die Bereitstellung von raumbezogenen
 Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
-1) Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` auf, 
+Dieses Quickstart-Dokument umfasst:
+
+  * Eine Anfrage eines 52°North SOS Capabilities-Dokumentes, um festzustellen, welche Anfragen unterstützt werden.
+  * eine Detail-Anfrage zu Observationen des SOS.
+
+.. contents:: Inhalt
+
+Erste Schritte
+================================================================================
+
+1. Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` auf, 
    um den 52°North SOS zu starten oder benutzen sie diesen `direkten Link <http://localhost:8080/52nSOS/>`_.
    (Sollte der Dienst nicht erreichbar sein, so versuchen Sie, den Tomcat Web 
    Service Container zu starten. Hinweise hierzu finden Sie am Ende dieser Seite.)
 
-2) Es öffnet sich ein Browser-Fenster, welches die Willkommens-Seite der
+2. Es öffnet sich ein Browser-Fenster, welches die Willkommens-Seite der
    52°North SOS Test-Anwendung anzeigt (siehe Abb. 1). Bitte wählen Sie die
    Version der Spezifikation, die Sie verwenden wollen, z.B. 1.0.0:
 
@@ -35,7 +42,7 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
 **Abb. 1**: 52°North SOS Test-Anwendung - Willkommens-Seite
 
-3) Jetzt sehen Sie die Test-Anwendung für die Spezifikations-Version 1.0.0. 
+3. Jetzt sehen Sie die Test-Anwendung für die Spezifikations-Version 1.0.0. 
    Verwenden Sie sie um Anfragen an den SOS zu schicken.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
@@ -45,10 +52,10 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
   
 **Fig. 2**: 52°North SOS Test-Anwendung - Spezifikations-Version 1.0.0 
   
-4) Wählen Sie als erstes Beispiel die Anfrage **GetCapabilities_allSections.xml** aus der Drop-Down-Liste 
+4. Wählen Sie als erstes Beispiel die Anfrage **GetCapabilities_allSections.xml** aus der Drop-Down-Liste 
    "Request Examples" (siehe Nummer [1] in Fig. 2).
   
-5) Drücken Sie den **Send button** (siehe Nummer [2] in Fig. 2) damit die Anfrage an den 52°North SOS 
+5. Drücken Sie den **Send button** (siehe Nummer [2] in Fig. 2) damit die Anfrage an den 52°North SOS 
    gesendet wird. Als Antwort erhalten Sie ein XML-Dokument, welches die 
    Eigenschaften und Inhalte des SOS (sogenannte “Capabilities”) beschreibt (siehe Abb. 3).
    Um die Rohantwort des Servers zu sehen, schauen Sie sich die Quellen der Seite an (Strg + u).
@@ -60,7 +67,7 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
 **Abb. 3**: 52°North SOS – GetCapabilities-Antwort des SOS (XML-kodiert)
   
-6) Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des
+6. Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des
    52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_.
    Mit Hilfe der Inhalte des Capabilities-Dokuments können die Beispielanfragen
    aus der Beispielliste individuell angepasst werden.

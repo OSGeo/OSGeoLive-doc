@@ -1,6 +1,6 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer: TBD
-:Version: osgeo-live6.0
+:Reviewer: Frank Gasdorf
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -19,7 +19,7 @@ Web Service
 Der 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein Sensor kann dabei z.B. ein Satellit, eine Wetterstation oder ein Pegel an einem Fluss sein.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
-  :scale: 100 %
+  :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right
 
@@ -92,7 +92,7 @@ Details
 
 **Community Webseite:** http://52north.org/communities/sensorweb/
 
-**Andere 52°North Projekte auf OSGeo Live:** :doc:`52°North WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
+**Andere 52°North Projekte auf OSGeo Live:** :doc:`WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
 
 Quickstart
 --------------------------------------------------------------------------------

@@ -1,6 +1,7 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org)
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Reviewer: Frank Gasdorf
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -90,6 +91,8 @@ Details
 **Community Support:** http://sensorweb.forum.52north.org/
 
 **Community Website:** http://52north.org/communities/sensorweb/
+
+**Other 52°North projects:** :doc:`WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
 
 Quickstart
 --------------------------------------------------------------------------------
