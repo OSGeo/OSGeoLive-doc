@@ -34,18 +34,18 @@ Der aktuelle 52°North SOS (Version 3.5.0) implementiert die aktuellste Spezifik
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Operationen des “SOS Core Profile”**:
+**“SOS Core Profile”**:
 
 * GetCapabilities, zum Abrufen einer Selbstbeschreibung des Dienstes.
 * GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC Observations & Measurements (O&M) Spezifikation.
 * DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend der OGC Sensor Model Language (SensorML) Spezifikation.
 
-** Operationen des “SOS Transactional Profile”**:
+**Operationen des “SOS Transactional Profile”**:
 
 * RegisterSensor, zum Registrieren neuer Sensoren in einer SOS-Instanz.
 * InsertObservation, zum Einfügen neuer Messdaten, welche durch zuvor registrierte Sensoren geliefert wurden.
 
-** Operationen des “SOS Enhanced Profile”**:
+**Operationen des “SOS Enhanced Profile”**:
 
 * GetResult, zum vereinfachten Abfragen vordefinierter Mengen von Sensordaten.
 * GetObservationById, zum gezielten Abfragen bestimmter, einzelner Messungen.
