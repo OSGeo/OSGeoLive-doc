@@ -61,11 +61,11 @@ Kernfunktionen
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.ossim.org/
+**Webseite:** http://www.ossim.org
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.8.1
+**Software Version:** 1.8.16
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 

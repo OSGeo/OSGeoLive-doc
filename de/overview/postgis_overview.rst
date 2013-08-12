@@ -29,7 +29,7 @@ PostGIS ist stabil, schnell, standard-konform, mit Hunderten von räumlichen Fun
 Die Datenbank-Administration ist unter anderem möglich über pgAdmin und phpPgAdmin. Das Importieren und Exportieren von Daten wird von verschiedenen Konverter-Tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) unterstützt. Und es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen zur Anzeige von PostGIS-Daten.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
-  :scale: 55 %
+  :scale: 70 %
   :alt: pgAdmin database manager
   :align: right
 

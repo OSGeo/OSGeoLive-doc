@@ -86,7 +86,7 @@ Details
 
 **Lizenz:** MPLv1.1
 
-**Software Version:** 4.8.6
+**Software Version:** 4.8.8
 
 **Unterstützte Plattformen:** Windows
 
