@@ -1,6 +1,6 @@
 :Author: Benjamin Pross, Kristof Lange
 :Author: Frank Gasdorf
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
