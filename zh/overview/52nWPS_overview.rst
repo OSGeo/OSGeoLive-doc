@@ -63,7 +63,7 @@ Web 服务
 
 **版权协议:** GPL
 
-**软件版本:** WPS 2.0 RC6
+**软件版本:** WPS |version-52nWPS|
 
 **支持平台:** Windows, Linux, Mac
 

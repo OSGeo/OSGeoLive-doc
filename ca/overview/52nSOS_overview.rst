@@ -69,7 +69,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) versió 2
 
-**Versió del programari:** SOS 3.2.0
+**Versió del programari:** SOS |version-52nSOS|
 
 **Plataformes suportades:** Windows, Linux, Mac
 

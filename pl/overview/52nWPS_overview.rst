@@ -66,7 +66,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** WPS 3.1.0
+**Wersja programu:** WPS |version-52nWPS|
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

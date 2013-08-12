@@ -83,7 +83,7 @@ OGC SOS 2.0.0
 
 **Лицензия:** `GPL версия 2 <http://www.gnu.org/licenses/gpl-2.0.html>`_
 
-**Версия ПО:** SOS 3.5.0
+**Версия ПО:** SOS |version-52nSOS|
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 

@@ -65,7 +65,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** WPS 3.1.0
+**Software Version:** WPS |version-52nWPS|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

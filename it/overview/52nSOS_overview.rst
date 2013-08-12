@@ -86,7 +86,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** SOS 3.5.0
+**Versione Software:** SOS |version-52nSOS|
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

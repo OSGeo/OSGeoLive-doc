@@ -64,7 +64,7 @@ Web服务
 
 **版权:** GNU General Public License (GPL) version 2
 
-**软件版本:** SOS 3.2.0
+**软件版本:** SOS |version-52nSOS|
 
 **支持平台:** Windows, Linux, Mac
 

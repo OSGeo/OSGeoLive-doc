@@ -61,7 +61,7 @@ Detalls
 
 **Llcència:** GPL
 
-**Versió del programari:** WPS 3.1.0
+**Versió del programari:** WPS |version-52nWPS|
 
 **Plataformes suportades:** Windows, Linux, Mac
 

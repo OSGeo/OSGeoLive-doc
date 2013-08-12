@@ -66,7 +66,7 @@
 
 * **ライセンス:** GNU GPL v2.0
 
-* **バージョン:** SOS 3.2.0
+* **バージョン:** SOS |version-52nSOS|
 
 * **対応プラットフォーム:** Windows, Linux, Mac
 

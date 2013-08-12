@@ -59,7 +59,7 @@ Webサービス
 
 **ライセンス:** GPL
 
-**ソフトウェアバージョン:** WPS 2.0 RC6
+**ソフトウェアバージョン:** WPS |version-52nWPS|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

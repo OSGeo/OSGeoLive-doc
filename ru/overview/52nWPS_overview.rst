@@ -64,7 +64,7 @@ The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` д
 
 **Лицензия:** `GPL <http://www.gnu.org/licenses/gpl.html>`_
 
-**Версия ПО:** WPS 3.0
+**Версия ПО:** WPS |version-52nWPS|
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 
