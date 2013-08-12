@@ -34,10 +34,9 @@ Dieser Quickstart beschreibt, wie Sie:
   * eine Anwendung erstellen
   * einen Web Map Service (OGC WMS) laden
   * WMS konfigurieren
-  * eine eigene Anwendung erstellen
   * Benutzer und Gruppen anlegen und Anwendungen zuweisen
 
-Eine Mapbenderanwendung wie folgt aussehen:
+Eine Mapbender Anwendung kann wie folgt aussehen:
 
   .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
      :scale: 80
@@ -54,7 +53,7 @@ Starten Sie Mapbender
 #. Wählen Sie :menuselection:`Mapbender` aus dem Startmenü oder besuchen Sie http://localhost/mapbender3/app.php
 
 
-#. Die Anwendung braucht ein eine kurze Zeit, um zu starten.
+#. Die Anwendung braucht eine kurze Zeit, um zu starten.
 
 Falls Sie Schwierigkeiten haben, Mapbender zu starten, überprüfen Sie ob der Apache Web Server und die PostgreSQL Datenbank laufen.
 
@@ -85,7 +84,7 @@ Die Willkommensseite
 
 #. Klicken Sie auf das Mapbender-Logo links, um die Loginseite aufzurufen.
 
-#. Sie können sich mit den Benutzer anmelden, der während der Installation erzeugt wurde. Es kann :guilabel:`root` heißen mit dem Kennwort :guilabel:`root`  (Dies ist der Standardbenutzer und Kennwort nach der Installation von Mapbender auf der OSGeo-Live. Bitte ändern Sie das Kennwort, wenn Sie eine Produktivumgebung betreiben. Löschen Sie den Benutzer :guilabel:`root` nicht.).
+#. Sie können sich mit dem Benutzer anmelden, der während der Installation erzeugt wurde. Er kann :guilabel:`root` heißen mit dem Kennwort :guilabel:`root` (Dies ist der Standardbenutzer/Kennwort nach der Installation von Mapbender auf der OSGeo-Live. Bitte ändern Sie das Kennwort, wenn Sie eine Produktivumgebung betreiben. Löschen Sie den Benutzer :guilabel:`root` nicht.).
   
   .. image:: ../../images/screenshots/800x600/mapbender3_welcome.png
      :scale: 80
@@ -95,17 +94,17 @@ Nach erfolgreicher Anmeldung werden Sie zur :guilabel:`Mapbender Administration`
 
 Anwendungsübersicht
 ================================================================================
-Nach der Anmeldung werden Sie zum :guilabel:`Applications` mit einer Liste von für Sie freigegebenen Anwendungen weiter geleitet.
+Nach der Anmeldung werden Sie zur Anwendungsübersicht (:guilabel:`Applications`) mit einer Liste von den für Sie freigegebenen Anwendungen weiter geleitet.
 
 Die Anwendungsübersicht bietet folgende Funktionen:
 
 
  * Titel und Beschreibung
- * Ein Link zur Anwendung
- * Eine Schaltfläche um die Anwendung zu bearbeiten
- * Ein Icon zum Veröffentlichen der Anwendung
- * Eine Schaltfläche um eine neue Anwendung anzulegen
- * Eine Schaltfläche um die Anwendung zu löschen
+ * Link zur Anwendung
+ * Schaltfläche, um die Anwendung zu bearbeiten
+ * Icon zum Veröffentlichen der Anwendung
+ * Schaltfläche, um eine neue Anwendung anzulegen
+ * Schaltfläche, um die Anwendung zu löschen
 
   .. NOCH NICHT IMPLEMENTIERT: In Mapbender gibt es Anwendungsvorlagen, mit denen eigene Anwendungen erstellt werden können.
 
@@ -116,7 +115,7 @@ Die Anwendungsübersicht bietet folgende Funktionen:
 Erstellen Sie eine eigene Anwendung
 ================================================================================
 
-Erstellen Sie eine neue Anwendung, indem Sie einige grundlegende Informationen eingeben. Anschließend können die den Editiermodus benutzen, um Elemente, Layer und Sicherheitseinstellungen zu verwalten.
+Erstellen Sie eine neue Anwendung, indem Sie einige grundlegende Informationen eingeben. Anschließend können Sie den Editiermodus verwenden, um Elemente, Layer und Sicherheitseinstellungen zu verwalten.
 
 #. Wählen Sie :menuselection:`Applications --> New Application`
 
@@ -128,7 +127,7 @@ Erstellen Sie eine neue Anwendung, indem Sie einige grundlegende Informationen e
 
 #. Gehen Sie zu :menuselection:`Edit-Button` neben der Anwendung und wählen Sie die neue Anwendung aus.
 
-#. Ihre Anwendung wurde erstellt. Jetzt brauchen Sie WMSs, die in Ihrer Anwendung dargestellt werden. Dies wird im Abschnitt **WMS Management** beschrieben.
+#. Ihre Anwendung wurde erstellt. Jetzt brauchen Sie Elemente (z.B. ein Kartenelement, Navigation, Legende) und Kartendienste.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_create_application.png
      :scale: 80
@@ -141,7 +140,7 @@ Erstellen Sie eine neue Anwendung, indem Sie einige grundlegende Informationen e
 
 Löschen einer Anwendung
 ================================================================================
-Sie können eine Anwendung aus der Liste :menuselection:`Applications` über den :menuselection:`+-button` löschen. Nur die Anwendung wird gelöscht, nicht die Dienste, die in der Anwendung eingebunden waren.
+Sie können eine Anwendung aus der Liste :menuselection:`Applications` über den :menuselection:`+-Button` löschen. Nur die Anwendung wird gelöscht, nicht die Dienste, die in der Anwendung eingebunden waren.
 
 ..
   NOCH NICHT IMPLEMENTIERT
@@ -157,7 +156,7 @@ Verwaltung von Datenquellen
 Mapbender kann verschiedene Dienste wie OGC WMS, OGC WMTS oder OGC WFS verwalten. Jeder Service muss anders verwaltet werden. Die Administration bietet für jede Quelle eine Administrationsoberfläche (im Moment lediglich WMS).
 
 
-Überblick des Service Repository
+Das Service Repository
 ====================================
 
 #. Gehen Sie auf :guilabel:`Services` und schauen sich die Dienstquellen an.
@@ -173,11 +172,11 @@ Mapbender kann verschiedene Dienste wie OGC WMS, OGC WMTS oder OGC WFS verwalten
 
 Laden von Web Map Services
 ================================================================================
-Sie können OGC Web Map Services (WMS) in Ihre Applikation laden.
+Sie können OGC Web Map Services (WMS) in Ihre Anwendung laden.
 
-Ein WMS liefert eine XML-Datei, wenn das getCapabilities-Dokument angefordert wird. Diese Information wird von Mapbender analysiert, wodurch er alle notwendigen Informationen über den Dienst aus diesem XML erhält.
+Ein WMS liefert ein XML, wenn das getCapabilities-Dokument angefordert wird. Diese Information wird von Mapbender ausgelesen. Der Client erhält alle notwendigen Informationen über den Dienst aus diesem XML.
 
-.. tip:: Sie sollten das Capabilities-Dokument zuerst in Ihrem Browser überprüfen, bevor Sie versuchen, es in Mapbender zu laden.
+.. tip:: Sie sollten das Capabilities-Dokument zuerst in Ihrem Browser überprüfen, bevor Sie versuchen, den Dienst in Mapbender zu laden.
 
 #. Wählen Sie :menuselection:`Services --> Add Service`. Geben Sie den Link zur WMS getCapabilities URL in das Textfeld :menuselection:`Originurl` ein.
 
@@ -185,7 +184,7 @@ Ein WMS liefert eine XML-Datei, wenn das getCapabilities-Dokument angefordert wi
 
 #. Klicken Sie **Load**, um den Dienst in das Repository zu laden.
 
-#. Nach erfolgreicher Registrierung des Dienstes zeigt Mapbender eine Übersicht der Informationen an, die der Service geliefert hat.
+#. Nach erfolgreicher Registrierung des Dienstes zeigt Mapbender eine Übersicht der Informationen an, die der Dienst geliefert hat.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_wms_load.png
      :scale: 80
@@ -216,20 +215,20 @@ Nach dem erfolgreichen Hochladen eines WMS möchten Sie diesen zu einer Anwendun
 
 #. Wählen Sie :menuselection:`Applications --> Edit-Button --> Layers --> Edit-Button`.
 
-#. Wählen Sie den :menuselection:`+-button` um ein layerset hinzuzufügen. Ein Layerset präsentiert mehrere Layer (ein möglicher Name könnte main sein)
+#. Wählen Sie den :menuselection:`+-Button` um ein Layerset hinzuzufügen. Ein Layerset präsentiert mehrere Layer (ein möglicher Name könnte main oder overview sein)
 
-#. Jetzt können Sie Dienste zum layerset hinzufügen.
+#. Jetzt können Sie Dienste zum Layerset hinzufügen.
 
-#. Wählen Sie den :menuselection:`+-button` um dem neuen layerset Dienste hinzuzufügen.
+#. Wählen Sie den :menuselection:`+-Button`, um dem neuen Layerset Dienste hinzuzufügen.
 
 #. Sie können die Reihenfolge der Dienste in Ihrer Anwendung über  drag & drop ändern.
 	
   .. image:: ../../images/screenshots/800x600/mapbender3_add_source_to_application.png
      :scale: 80
 
-Konfigurieren von Diensten
+Konfiguration von Diensten
 ================================================================================
-Sie können Dienste für Ihre Anwendung konfigurieren. Vielleicht möchten Sie nicht alle Layer anbieten oder Sie möchten die Reihenfolge oder den Titel des Layers ändern, die Info-Abfrage für einzelne Layer verhindern oder den Maximalmaßstab ändern.
+Sie können Dienste für Ihre Anwendung konfigurieren. Vielleicht möchten Sie nicht alle Ebenen anzeigen oder Sie möchten die Reihenfolge oder den Titel der Ebenen ändern, die Info-Abfrage für einzelne Ebenen verhindern oder den Maximalmaßstab ändern.
 
 #. Wählen Sie :menuselection:`Applications --> edit-Button --> Layers --> edit-Button`, um eine Instanz zu konfigurieren.
 
@@ -244,53 +243,52 @@ Servicekonfiguration
 
 * format - wählen Sie das Format für den getMap-Requests
 * infoformat - wählen Sie das Format für getFeatureInfo-Requests
-* exceptionformat - wählen Sie das Format für exceptions
+* exceptionformat - wählen Sie das Format für Fehlermeldungen
 * opacity - wählen Sie die Opazität (Deckkraft) in Prozent
 * visible
-* proxy
-* transparency
-* tiled - Sie können eine WMS in Kacheln anfordern, Standard ist nicht gekachelt.
+* proxy - bei Aktivierung wird der Dienst über den Proxy angefordert
+* transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)
+* tiled - Dienst wird in Kacheln angefordert, Standard ist nicht gekachelt.
 
 
 Layerkonfiguration
 
-* title - layer title von der Service Information
-* active (on/off) - schaltet einen Layer in dieser Anwendung ein/aus
-* select on - auswählbar im Geodatenexplorer (Layerbaum)
-* select allow - Layer ist bei Anwendungsstart aktiv
-* info on - der Layer reagiert auf feature info requests, info default aktiviert diese Funktionalität in der Anwendung
-* info allow 
-* minscale / maxscale - Der Maßstabsbereich, in dem der Layer angezeigt wird. 0 bedeutet keine Maßstabsbeschränkung
+* title - Layertitel der Service Information
+* active (on/off) - deaktiviert einen Layer in dieser Anwendung ein/aus
+* select allow - Layer ist auswählbar im Geodatenexplorer (Layerbaum)
+* select on - Layer ist bei Anwendungsstart aktiv
+* info allow - Infoabfrage wird für diesen Layer zugelassen
+* info on - Layer Infoabfrage wird beim Start aktiviert
+* minscale / maxscale - Der Maßstabsbereich, in dem der Layer angezeigt wird.
 * toggle
-* reorder
+* reorder - Ebenen können über drag&drop in der Anwendung verschoben werden
 * ... -> öffnet einen Dialog mit weiteren Informationen
-* name
-* style - wenn ein WMS mehr als einen Style anbietet, können Sie einen anderen Style als den default Style wählen.
+* name - Layername der Service Information (wird beim getMap-Request verwendet und ist nicht veränderbar)
+* style - wenn ein WMS mehr als einen Stil anbietet, können Sie einen anderen Stil als den default Stil wählen.
 
 
 
 Fügen Sie Elemente zu Ihrer Anwendung hinzu
 =================================================
-Mapbender biete eine Reihe von Elementen. Sie können diese Anwendung in verschiedene Bereiche (Toolbar, Sidepane, Content, Footer) ihrer Anwendung hinzufügen.
+Mapbender bietet eine Reihe von Elementen (Modulen) an. Ihre Anwendung verfügt wiederum über verschiedene Bereiche (Toolbar, Sidepane, Content, Footer), die Sie mit Elementen bestücken können.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_add_element.png
      :scale: 80
 
-#. Wählen Sie :menuselection::menuselection:`Applications --> edit-Button --> Layers --> +-Button` um eine Übersicht über die Mapbender3-Elemente zu erhalten.
+#. Wählen Sie :menuselection:`Applications --> edit-Button --> Layers --> +-Button`, um eine Übersicht über die Mapbender3-Elemente zu erhalten.
 
 #. Wählen Sie ein Element aus der Liste aus.
 
-#. Beachten Sie die verschienden Bereiche, die Sie in Ihrer Anwendung haben. Stellen Sie sicher, dass sie das Element zum richtigen Bereich hinzufügen.
+#. Beachten Sie die verschiedenen Bereiche Ihrer Anwendung. Stellen Sie sicher, dass sie das Element zum richtigen Bereich hinzufügen.
 
-#. Sehen Sie sich ihre Anwendung an. Öffnen Sie Ihre Anwendung über :menuselection:`Applications --> Applications Overview`
+#. Schauen Sie sich Ihre Anwendung an. Öffnen Sie Ihre Anwendung über :menuselection:`Applications --> Applications Overview`
 
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_elements.png
      :scale: 80
 
  
-Wenn Sie ein Element, z.B. **map** auswählen, sehen Sie die Optionen für dieses Element und können es entsprechend konfigurieren.
-
+Wenn Sie ein Element z.B. **map** auswählen, sehen Sie lediglich die Optionen für dieses Element und können es entsprechend konfigurieren.
 
 Beispiele für Elemente, die Mapbender3 anbietet:
 
@@ -315,23 +313,23 @@ Beispiele für Elemente, die Mapbender3 anbietet:
 * Navigation Toolbar (Zoombar)
 * WMS Loader
 
-Sie finden detaillierte Informationen zu jedem Element unter `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_.
+Sie finden detaillierte Informationen zu jedem Element unter `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_ http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html.
 
 Versuchen Sie es selber
 ================================================================================
 
-* Fügen Sie eine Karte (Map-Element) zum content-Bereich Ihrer Anwendung hinzu.
+* Fügen Sie ein Kartenelement (Map-Element) zum content-Bereich Ihrer Anwendung hinzu.
 * Fügen Sie ein Inhaltsverzeichnis (Layertree) zum content-Bereich Ihrer Anwendung hinzu.
-* Fügen Sie einen Butten hinzu, der das den Layertree öffnet.
-* Fügen Sie das Navigationselement in den content-Bereich hinzu
-* Fügen Sie ein copyright-Element hinzu und ändern Sie den Copyright-Text.
-* Fügen Sie einen SRS Selector in den footer-Bereich ein.
+* Fügen Sie einen Button in die Toolbar, der den Layertree öffnet.
+* Fügen Sie das Navigationselement (Navigation Toolbar) in den content-Bereich hinzu
+* Fügen Sie ein Copyright-Element hinzu und ändern Sie den Copyright-Text.
+* Fügen Sie einen SRS Selector in den Footer-Bereich ein.
 
 
 
 Benutzer- und Gruppenverwaltung
 =================================
-Zugriff auf eine Mapbenderanwendung benötigt Authentifizierung. Nur öffentliche Anwendungen können von allen genutzt werden.
+Zugriff auf eine Mapbender Anwendung benötigt Authentifizierung. Nur öffentliche Anwendungen können von allen genutzt werden.
 
 Ein Benutzer hat Berechtigungen, um auf eine oder mehrere Anwendungen und Dienste zuzugreifen.
 
@@ -376,15 +374,18 @@ Benutzer einer Gruppe zuweisen
      :scale: 80
  
 
-Rollen
+Rechte
 ========
-Mapbender3 bietet verschiedene Rollen an, die Sie einer Gruppe zuweisen können.
+Mapbender3 bietet verschiedene Rechte an, die Sie vergeben können.
 
-* Kann alles administrieren (super admin)
-* Kann Benutzer & Gruppen administrieren
-* Kann Anwendungen administrieren
+* view - anzeigen
+* edit - editieren
+* delete - löschen
+* operator - 
+* master - 
+* owner - Besitzer, darf alles
 
-#. Weisen Sie einer Gruppe eine Rolle über :menuselection:`Users --> Edit your User --> Security` zu.
+#. Weisen Sie einem Benutzer über :menuselection:`Users --> Edit your User --> Security` Rechte zu.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_roles.png
      :scale: 80 
@@ -396,9 +397,9 @@ Zuweisen einer Anwendung zu einem Benutzer/einer Gruppe
 
 #. Wählen Sie :menuselection:`Security`
 
-#. Setzten Sie Berechtigungen wie view edit delete operator master owner 
+#. Setzen Sie Berechtigungen wie view, edit, delete, operator, master, owner 
 
-#. Weisen Sie eine Anwendung einem Benutzern/einer Gruppe zu
+#. Weisen Sie eine Anwendung einem Benutzern / einer Gruppe zu
 
 #. Testen Sie die Konfiguration!
 
@@ -413,7 +414,7 @@ Zuweisen einer Anwendung zu einem Benutzer/einer Gruppe
 Weitere Aufgaben
 ================================================================================
 
-Hier sind einige weiter Dinge, die Sie ausprobieren sollten:
+Hier sind weitere Aufgaben, die Sie ausprobieren können:
 
 #. Versuchen Sie, einige WMS in Ihre Anwendung zu laden. Versuchen Sie Ihre WMS zu konfigurieren.
 
