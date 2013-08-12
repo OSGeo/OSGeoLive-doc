@@ -72,12 +72,10 @@ Holen Sie sich einen Kaffee, während die Installation durchgeführt wird.
 
 Das war es schon.
 
-Installations-Tip
---------------------------------------------------------------------------------
-
-* Wenn Sie die Installation mit einem anderen Benutzernamen als "user" durchführen,
-benötigen Tomcat Anwendungen Berechtigungen, um den Dienst zu starten. 
-Eine Beschreibung zur Einrichtung finden Sie unter http://trac.osgeo.org/osgeo/ticket/1153
+.. tip:: Installations-Tip
+      Wenn Sie die Installation mit einem anderen Benutzernamen als "user" durchführen,
+      benötigen Tomcat Anwendungen Berechtigungen, um den Dienst zu starten.  Eine 
+      Beschreibung zur Einrichtung finden Sie unter http://trac.osgeo.org/osgeo/ticket/1153
 
 See Also:
 --------------------------------------------------------------------------------

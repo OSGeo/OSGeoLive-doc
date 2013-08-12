@@ -43,7 +43,7 @@ Web サービス
 * :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`]
-* :doc:`eoxserver_overview` - [:doc:`クイックスタート <../quickstart/eoxserver_overview>`] - Web Coverage Service
+* :doc:`eoxserver_overview` - [:doc:`クイックスタート <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ
 * :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
 * :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`]
@@ -106,7 +106,7 @@ Web サービス
 地理空間情報ライブラリ
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview` - [:doc:`クイックスタート <../quickstart/gdal_overview>`] - 気象予想図
+* :doc:`gdal_overview` - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 気象予想図
 * :doc:`jts_overview` - Java トポロジスイーツ
 * :doc:`geotools_overview` - Java GIS ツールキット 
 * :doc:`geos_overview` - C/C++ 地理空間ライブラリ
@@ -118,7 +118,7 @@ Live に収録していないその他のソフトウェア
 
 .. MapWindow は Windowsでのみ動作し、 (.net) Ubuntu では動作しません。
 
-* :doc:`mapwindow_quickstart` - [:doc:`クイックスタート <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS
+* :doc:`mapwindow_overview` - [:doc:`クイックスタート <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS
 
 .. MapGuide はディスク容量節約のため一時的に収録していません
 

@@ -58,11 +58,10 @@
 
 * Обзор :doc:`52°North SOS <../overview/52nSOS_overview>`,
 * Список рассылки 52°North Sensor Web: swe@52north.org, 
-* Форум сообщества 52°North `Sensor Web <http://sensorweb.forum.52north.org/>`_, 
-* Клиент для 52°North `SOS <http://sensorweb.demo.52north.org/SOSclient/>`_,
-* Официальная страница 52°North `SOS <http://52north.org/communities/sensorweb/sos/>`_, or 
+* `Форум сообщества 52°North Sensor Web <http://sensorweb.forum.52north.org/>`_, 
+* `Клиент для 52°North SOS <http://sensorweb.demo.52north.org/SOSclient/>`_,
+* `Официальная страница 52°North SOS <http://52north.org/communities/sensorweb/sos/>`_, or 
 * Веб-сайт сообщества `52°North Sensor Web <http://52north.org/communities/sensorweb/>`_.
-
 * Если сервис SOS недоступен, проверьте, запущен ли контейнер сервлетов Tomcat, используя следующие команды:
 
 ::
