@@ -44,14 +44,14 @@ Start gvSIG and create a view
 ================================================================================
 
 Select gvSIG from the application menu,
-:menuselection:`Geospatial->Desktop GIS->gvSIG`. The application usually takes
+:menuselection:`Geospatial --> Desktop GIS --> gvSIG`. The application usually takes
 about a minute to startup.
 
 #. By default gvSIG opens with an empty project file with the 'View' document 
    type selected. However, on OSGeo-Live, gvSIG has been configured to 
    start with a default project. Click on the :guilabel:`New Project` button or go to
    :menuselection:`File --> New Project`. When prompted, you can select 
-   :menuselection:`Discard Changes` as we won't be using the last project.
+   :guilabel:`Discard Changes` as we won't be using the last project.
 
 #. Click on the :guilabel:`New` button to create a view. It will be opened automatically.
 
