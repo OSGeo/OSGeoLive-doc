@@ -24,34 +24,35 @@ Starten und verwenden
 * Die 52n WPS Willkommenseite wird erscheinen.
 
 .. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: screenshot
-  :align: center
 
 * Klicken Sie auf den Link in der Sektion :guilabel:`Test Client`, um einen Test-Client zu öffnen.
 
 * Stellen Sie sicher, dass der :doc:`GeoServer <../overview/geoserver_overview>` gestartet ist, 
   da die Demo Daten dieses lokalen Services verwendet.
 
-.. image:: ../../images/screenshots/800x600/52n_test_client.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+  :scale: 70 %
   :alt: screenshot
-  :align: center
   
   
 * Drücken Sie den :guilabel:`Send` -Button und die Anfrage wird an den 52°North WPS Service 
   übermittelt. Dieser wird eine XML-Repräsentation der Puffer um die Hauptstraßen von Tasmanien mit 
   einem Abstand von 0.05 Grad zurückliefern.
 
-.. image:: ../../images/screenshots/1024x768/52n_wps_response.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+  :scale: 70 %
   :alt: screenshot
-  :align: center
-  
 
-* Probieren Sie auch den Capabilities-Request gegen den 52°North WPS Service aus:
+* Kopieren Sie den Wert der  ResourceID vom zurückgelieferten Dokument. Dies ist der Name des GeoServer Layers. Fügen Sie die ID zum folgender Anfrage hinzu: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Fügen-Sie-hier-die-ResourceID-ein
+  Folgendes Ergebnis sollte zu sehen sein:
 
-  http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS
+  .. image:: ../../images/screenshots/800x600/52nWPS_result_in_geoserver.png
+    :scale: 70 %
+    :alt: screenshot
+
+* Probieren Sie auch QGIS mit dem WPS Plugin gegen den 52°North WPS Service aus
 
 * Haben Sie weitere Fragen? Nehmen Sie Kontakt über die 52°North WPS mailing list auf:
 
