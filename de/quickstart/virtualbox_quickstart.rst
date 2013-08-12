@@ -24,9 +24,10 @@ Systemvoraussetzungen
 Erstellen der Virtualisierungsumgebung
 --------------------------------------------------------------------------------
 
-Herunterladen und Installieren von `Virtual Box <http://www.virtualbox.org/>`_. Unter Linux mache Folgendes:
+Herunterladen und Installieren von `Virtual Box <http://www.virtualbox.org/>`_. Unter Debian/Ubuntu Linux mache Folgendes:
 
   ``apt-get install virtualbox-ose``
+
 
 Öffne Virtual Box 
 
