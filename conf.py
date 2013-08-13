@@ -236,6 +236,7 @@ rst_epilog="""
 .. |osgeolive-vm-7z-size| replace:: %(vm_7z_size).1f GB
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
+.. |version-deegree| replace:: 3.3.1
 .. |version-geoserver| replace:: 2.3.4
 .. |version-udig| replace:: 1.4.0b
 .. |version-52nWPS| replace:: 3.2.0 

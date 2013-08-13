@@ -101,7 +101,7 @@ deegree提供用户SDI，支持用户自己的数据，满足各种需求.
 
 **版权:** LGPL
 
-**软件版本:** 3.0
+**软件版本:** |version-deegree|
 
 **支持平台:** Windows, Linux
 

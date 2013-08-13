@@ -119,7 +119,7 @@ Szczegóły
 
 **Licencja:** GNU Mniejsza Powszechna Licencja Publiczna (LGPL)
 
-**Wersja programu:** 3.2-pre3
+**Wersja programu:** |version-deegree|
 
 **Systemy operacyjne:** Windows, Linux
 

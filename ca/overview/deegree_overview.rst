@@ -104,7 +104,7 @@ Detalls
 
 **Llicències:** LGPL
 
-**Versió del programari:** 3.2-pre3
+**Versió del programari:** |version-deegree|
 
 **Plataformes suportades:** Windows, Linux
 

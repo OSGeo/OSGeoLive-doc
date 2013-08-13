@@ -125,7 +125,7 @@ Details
 
 **Lizenz:** LGPL
 
-**Software Version:** 3.3.1
+**Software Version:** |version-deegree|
 
 **Unterstützte Plattformen:** Windows, Linux
 

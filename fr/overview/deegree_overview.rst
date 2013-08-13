@@ -107,7 +107,7 @@ Détails
 
 **Licence:** LGPL
 
-**Version du logiciel:** 3.2-pre3
+**Version du logiciel:** |version-deegree|
 
 **Plates-formes supportées:** Windows, Linux
 

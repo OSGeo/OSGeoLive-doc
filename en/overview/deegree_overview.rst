@@ -118,7 +118,7 @@ Details
 
 **Licence:** LGPL
 
-**Software Version:** 3.3.1
+**Software Version:** |version-deegree|
 
 **Supported Platforms:** Windows, Linux
 
