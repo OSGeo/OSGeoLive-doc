@@ -81,7 +81,7 @@ Defining your Coordinate Reference System
    below the search input field.
 #. Select :guilabel:`OK` to return to the **View Properties** dialog.
 
-Note that the EPSG code is now 4326 and that the map units have changed to degrees.
+.. note:: The EPSG code is now 4326 and that the map units have changed to degrees.
 
 #. Select :guilabel:`OK` to return to the **Project Manager**.
 
@@ -110,16 +110,18 @@ Adding layers from files
 --------------------------------------------------------------------------------
    
 #. Click on the :guilabel:`Add layer` icon in the main toolbar to open the **Add layer** dialog.
-#. Select :guilabel:`Add` in the **Add layer** dialog. By default the first tab is *File* 
+#. Select :guilabel:`Add` in the **Add layer** dialog. By default the first tab is :guilabel:`File` 
    so the **Open** file dialog will appear.
 #. Drill down to the ``/usr/local/share/data/natural_earth2/`` directory.
-#. Select the files as shown in the picture. Note that by default all formats are shown so we can
-   select both vector and raster files at a time by keeping pressed the *control* key.
-#. Click on the :guilabel:`OK` button to return to the **Add layer** dialog.
-#. Click on the :guilabel:`OK` button on the **Add layer** dialog to return to the view.
+#. Select the files as shown in the picture. 
 
 .. image:: ../../images/screenshots/1024x768/gvsig_qs_006_.png
    :scale: 55 
+
+.. note:: By default all formats are shown so we can select both vector and raster files at a time by keeping pressed the :kbd:`CTRL` key.
+
+#. Click on the :guilabel:`OK` button to return to the **Add layer** dialog.
+#. Click on the :guilabel:`OK` button on the **Add layer** dialog to return to the view.
 
 The View - basic navigation
 ================================================================================

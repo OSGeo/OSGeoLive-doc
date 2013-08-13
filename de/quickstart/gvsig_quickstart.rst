@@ -20,28 +20,40 @@ Projektbeschreibung
 `gvSIG <http://www.gvsig.org/web/projects/gvsig-desktop/description2/view?set_language=en>`__ 2011
 
 Dieses Dokument zeigt wie man...
-================================================================================
 
     * gvSIG öffnet und eine Ansicht erstellt;
     * Die Projektion für die Ansicht festlegt ;
     * Raster- und Vektordaten zu einer Ansicht hinzufügt;
     * In einer Ansicht navigiert;
     * Die Anzeige der Ebenen in einem View ändert;
-    * Städte auswählt die sich in einer bestimmten Region befinden und diese           in eine neue Datei exportiert;
+    * Städte auswählt die sich in einer bestimmten Region befinden und diese
+      in eine neue Datei exportiert;
     * Eine Karte mit einem Gitternetz erstellt; und
     * Das aktuelle Projekt speichert oder gvSIG beendet.
+    * die Installation eines Add-On's (OpenStreetMap Service)
+    * Laden eines WTMS Layers
 
+.. contents:: Inhalt
+
+.. note:: Sollte die Benutzetoberfläche nicht mehr reagieren, versuchen Sie :kbd:`Alt+f`, um zum Beispiel das
+          Datei-Menü zu öffnen. Die Oberfläche sollte nun wieder reagieren. Dieser Fehler tritt nur auf der 
+          OSGeo-Live distribution. Bei normalen gvSIG Installationen kommt es nicht zu diesem Problem
 
 gvSIG öffnen und eine Ansicht erstellen
 ================================================================================
 
-Wählen Sie gvSIG im entsprechenden Anwendungsmenü oder klicken Sie auf das entsprechende Symbol. Die Anwendung benötigt etwa eine Minute um zu starten.
+Wählen Sie gvSIG im entsprechenden Anwendungsmenü (:menuselection:`Geospatial --> Desktop GIS --> gvSIG`) oder klicken Sie auf das entsprechende Symbol. Die Anwendung benötigt etwa eine Minute um zu starten.
 
-   #. In der Standardeinstellung startet gvSIG mit einem leeren Projekt sowie einer leeren ausgewählten Ansicht.
-   #. Klicken Sie auf den Button [Neu] um eine Ansicht zu erstellen.
+   #. In der Standardeinstellung startet gvSIG mit einem leeren Projekt sowie einer leeren ausgewählten 
+      Ansicht. In diesem Fall jedoch startet gvSIG mit einem vorkonfiguriertem Projekt. Klicken Sie auf 
+      :guilabel:`New Project` oder legen sie ein neuse Projekt über :menuselection:`File --> New Project` 
+      an. Sollte eine Nachfrage zur Speicherung des aktuellen Projektes kommen, können diese mit 
+      :guilabel:`Discard Changes` verworfen werden.
+
+   #. Klicken Sie auf den Button :guilabel:`New` (Neu) um eine Ansicht zu erstellen.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_001.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_001_.png
    :scale: 55 
 
 Die Projektion für die Ansicht festlegen
@@ -50,49 +62,49 @@ Die Projektion für die Ansicht festlegen
 Öffnen sie den Dialog Eigenschaften der Ansicht
 --------------------------------------------------------------------------------
 
-   #. Wählen Sie die neu erstellte Ansicht. In der Standardeinstellung hat sie den Namen Ohne Titel-0 - 0 aber es kann auch Ohne Titel-1 - 1 sein falls sie zuvor bereits eine Ansicht erstellt und wieder gelöscht haben.
-   #. Klicken Sie den Button [Eigenschaften] an um den Dialog Eigenschaften Ansicht zu öffnen
-   #. Klicken Sie auf den Button [...] rechts vom Eintrag "Aktuelle Projektion". Damit wird der Dialog **Neues Raumbezugssystem (CRS)** geöffnet.
+#. Wählen Sie die neu erstellte Ansicht. In der Standardeinstellung hat sie den Namen Ohne Titel-0 - 0 aber es kann auch Ohne Titel-1 - 1 sein falls sie zuvor bereits eine Ansicht erstellt und wieder gelöscht haben.
+#. Wählen Sie :menuselection:`View --> Properties`, um den Dialog Eigenschaften Ansicht zu öffnen
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_002.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_002_.png
    :scale: 55 
 
 Definieren Sie das Raumbezugssystem
 --------------------------------------------------------------------------------
 
-   #. Verwenden Sie die Dropdownliste für "Typ", und wählen Sie EPSG.
-   #. Geben Sie den EPSG code für das Koordinatensystem ein. In diesem Beispiel verwenden wir EPSG=4326, dies ist die WGS84 2D Geographic Projection. Klicken Sie dann auf den Button [Suchen]. Das gesuchte CRS erscheint in der Tabelle unterhalb des Suchfeldes.
-   #. Wählen Sie [OK] um zum Dialog **Eigenschaften Ansicht** zurückzukehren.
+#. Klicken Sie auf den Button :guilabel:`...` rechts vom Eintrag :guilabel:`Current projection` (Aktuelle Projektion). Damit wird der Dialog **New CRS** (Neues Raumbezugssystem (CRS)) geöffnet.
+#. Verwenden Sie die Dropdownliste für :guilabel:`Type`, und wählen Sie EPSG.
+#. Geben Sie den EPSG code für das Koordinatensystem ein. In diesem Beispiel verwenden wir EPSG=4326, dies ist die WGS84 2D Geographic Projection. Klicken Sie dann auf den Button :guilabel:`Search` (Suchen). Das gesuchte CRS erscheint in der Tabelle unterhalb des Suchfeldes.
+#. Wählen Sie :guilabel:`OK` um zum Dialog **Eigenschaften Ansicht** zurückzukehren.
 
+.. note:: Beachten Sie dass der EPSG Code nun 4326 lautet und dass die Karteneinheiten nun in Grad angegeben sind.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_003.png
+#. Klicken Sie auf :guilabel`OK` um zum **Projektverwalter** zurückzukehren.
+
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_003_.png
    :scale: 55 
 
-Die Eigenschaften der Ansicht speichern
---------------------------------------------------------------------------------
-
-   #. Beachten Sie dass der EPSG Code nun 4326 lautet und dass die Karteneinheiten nun in Grad angegeben sind.
-   #. Klicken Sie auf [OK] um zum **Projektverwalter** zurückzukehren.
-
-
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_004.png
-   :scale: 55 
 
 Öffnen Sie die Ansicht
 --------------------------------------------------------------------------------
    
-   #. Wählen Sie die neu erstellte Ansicht aus.
-   #. Klicken Sie auf den Buttton [Öffnen] um die Ansicht zu öffnen.
-   #. Das Ansichtsfenster ist in drei Bereiche unterteilt.
-   #. Der Abschnitt links oben enthält eine List von Vektor-oder Rasterebenen die in der Ansicht verwendet werden (eine Art Inhaltsverzeichnis)
-   #. Der linke untere Abschnitt zeigt -für Vektordateien- die Position der dargestellen Ansicht innerhalb der Ausdehnung der gesamten Datei
-   #. Der rechte Bereich ist der Hauptanzeigebereich in dem Raster- und Vektordaten dargestellt werden.
-   #. Wählen Sie das Symbol ‘Maxieren’ um den ganzen Bildschirm für die Darstellung der Ansicht zu nutzen.
+#. Wählen Sie die neu erstellte Ansicht aus.
+#. Klicken Sie auf den Buttton :guilabel:`Open` (Öffnen) um die Ansicht zu öffnen.
+#. Das Ansichtsfenster ist in drei Bereiche unterteilt.
+#. Der Abschnitt links oben enthält eine List von Vektor-oder Rasterebenen die in der Ansicht verwendet werden (eine Art Inhaltsverzeichnis)
+#. Der linke untere Abschnitt zeigt -für Vektordateien- die Position der dargestellen Ansicht innerhalb der Ausdehnung der gesamten Datei
+#. Der rechte Bereich ist der Hauptanzeigebereich in dem Raster- und Vektordaten dargestellt werden.
+#. Wählen Sie das Symbol ‘Maximieren’ um den ganzen Bildschirm für die Darstellung der Ansicht zu nutzen.
 
+Bereiche der Ansicht kennenlernen
+--------------------------------------------------------------------------------
+#. Das Fenster besteht aus drei Bereiche
+#. Oben links ist die Liste der Vektor- und Rasterlayer, die in der Ansicht verwendet werden. Diese Liste wird auch als "Table-of-Content" bezeichnet
+#. Unten links ist der Übersichtsbereich zu finden, worin der Ausschnitt des Hauptfensters dargestellt wird
+#. Der rechte Bereich ist das Kartenfenster, wo die Vektor- und Rasterdaten gerendert werden
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_005.png
-   :scale: 55 
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_005_.png
+   :scale: 55
 
 Die Ansicht - Raster- und Vektordaten hinzufügen
 ================================================================================
@@ -100,13 +112,18 @@ Die Ansicht - Raster- und Vektordaten hinzufügen
 Öffnen Sie den Dialog "Layer hinzufügen"
 --------------------------------------------------------------------------------
    
-   #. Klicken Sie auf das Symbol "Layer hinzufügen" in der Hauptwerkzeugleiste um den **Layer Hinzufügen** Dialog zu öffnen.
-   #. Wählen Sie [Hinzufügen] im Dialog **Layer Hinzufügen**. In der Standardeinstellung heißt der erste Reiter Datei, somit erscheint der Dialog **Öffnen**.
-   #. Folgen Sie dem Verzeichnisbaum bis zum Verzeichnis ``/usr/local/share/data/natural earth/HYP_50M_SR_W``
+#. Klicken Sie auf :guilabel:`Add layer` (Layer hinzufügen) in der Hauptwerkzeugleiste um den **Layer Hinzufügen** Dialog zu öffnen.
+#. Wählen Sie :guilabel:`Add` (Hinzufügen) im Dialog **Layer Hinzufügen**. In der Standardeinstellung heißt der erste Reiter :guilabel:`File` (Datei), somit erscheint der Dialog **Öffnen**.
+#. Folgen Sie dem Verzeichnisbaum bis zum Verzeichnis ``/usr/local/share/data/natural_earth2/``
+#. Wählen Sie die Dateien, wie in der folgenden Abbildung zu sehen. 
 
-
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
+.. image:: ../../images/screenshots/1024x768/gvsig_qs_006_.png
    :scale: 55 
+
+.. note:: Es werden standardmäßig alle unterstützen Formate angezeigt. Es können Raster- und Vektordaten 
+          zusammen ausgewählt werden, in dem man die Taste :kbd:`CRTL` gedrückt hält.
+#. Wählen Sie :guilabel:`OK` um zum vorhergehenden Dialog zu gelangen
+#. Wählen Sie im **Layer Hinzufügen** Dialog auch hier :guilabel:`OK`, um zur Hauptansicht zu kommen.
 
 Eine Rasterdatei auswählen
 --------------------------------------------------------------------------------
