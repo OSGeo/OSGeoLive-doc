@@ -1,5 +1,6 @@
-:Author: Guy Griffiths (guy.griffiths@reading.ac.uk)
-:Version: osgeo-live7.0draft
+:Author: Guy Griffiths (guy.griffiths@rdg.ac.uk)
+:Reviewer: Jane Lewis (j.p.lewis@rdg.ac.uk)
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-ncWMS.png
@@ -42,6 +43,9 @@ Selecting the vertical level
 
 If the variable you are viewing has a vertical dimension you will be able to select the vertical level using the drop-down box above the map.
 
+.. image:: ../../images/screenshots/800x600/ncWMS-01-vertical_time.png
+    :scale: 55%
+
 Selecting the timestep
 ----------------------
 
@@ -66,12 +70,12 @@ When you first load up a variable it will appear with a default colour scale ran
 Locking the scale range
 -----------------------
 
-Sometimes, when comparing two datasets, you might want to fix the colour scale range so that when you select a new variable, that variable is shaded with exactly the same colour scale. To do this, click the "lock" link, which is to the right of the colour scale bar. The colour scale range will then not be changed when a new variable is loaded and the scale range cannot be edited manually. Click "unlock" to make the colour scale editable again.
+Sometimes, when comparing two datasets, you might want to fix the colour scale range so that when you select a new variable, that variable is shaded with exactly the same colour scale. To do this, click the "lock" link, which is to the right of the colour scale bar. The colour scale range will then not be changed when a new variable is loaded and the scale range cannot be edited manually. However, the colour palette and the number of colour bands can still be modified while the scale range is locked. Click "unlock" to make the colour scale editable again.
 
 Changing the colour palette
 ---------------------------
 
-The colour palette can be changed by clicking on the colour scale bar. A pop-up window will appear with the available palettes. Click on one to load the new palette. The window also contains a drop-down box to select the number of colour bands to use, from 10 (giving a contoured appearance) to 253 (smoothed).
+The colour palette can be changed by clicking on the colour scale bar. A pop-up window will appear with the available palettes. Click on one to load the new palette. The window also contains a drop-down box to select the number of colour bands to use, from 10 (giving a contoured appearance) to 253 (smoothed).  Note that if the number of colour bands is changed, you will need to click on the desired palette to effect the change.
 
 Other parameters
 ----------------
@@ -104,7 +108,7 @@ At the top of the map itself, select the icon that looks like a line joining fou
 Changing the background map
 ---------------------------
 
-A selection of background maps are available on which data can be projected. Select a different background map by clicking the small plus sign in the top right-hand corner of the interactive map.
+A selection of background maps is available on which data can be projected. Select a different background map by clicking the small plus sign in the top right-hand corner of the interactive map.
 
 Changing the map projection
 ---------------------------
