@@ -95,7 +95,7 @@ Geokettle сравнивают с FME, проприетарным ETL-инстр
 
 **Лицензия:** LGPL version 2.1 http://www.gnu.org/copyleft/lesser.html
 
-**Версия ПО:** 2.0
+**Версия ПО:** |version-geokettle|
 
 **Поддерживаемые платформы:** Windows, Linux, Mac, Solaris
 

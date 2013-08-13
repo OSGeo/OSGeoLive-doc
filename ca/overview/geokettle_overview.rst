@@ -96,7 +96,7 @@ Detalls
 
 **Llicència:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Versió de programari:** 2.0
+**Versió de programari:** |version-geokettle|
 
 **Sistemes operatius:** Windows, Linux, Mac, Solaris
 

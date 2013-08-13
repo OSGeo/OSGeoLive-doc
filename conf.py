@@ -238,6 +238,7 @@ rst_epilog="""
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |version-deegree| replace:: 3.3.1
 .. |version-geoserver| replace:: 2.3.4
+.. |version-geokettle| replace:: 2.5
 .. |version-udig| replace:: 1.4.0b
 .. |version-52nWPS| replace:: 3.2.0 
 .. |version-52nSOS| replace:: 3.5.0 

@@ -95,7 +95,7 @@ GeoKettle はソースからデータを抽出し、誤り修正のために変�
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 2.1
 
-**バージョン:** 2.0
+**バージョン:** |version-geokettle|
 
 **動作環境:** Windows, Linux, Mac, Solaris
 

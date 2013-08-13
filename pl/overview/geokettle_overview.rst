@@ -103,7 +103,7 @@ Szczegóły
 
 **Licencja:** GNU Mniejsza Ogólna Powszechna Licencja (LGPL) wersja 2.1
 
-**Wersja programu:** 2.0
+**Wersja programu:** |version-geokettle|
 
 **Systemy operacyjne:** Windows, Linux, Mac, Solaris
 

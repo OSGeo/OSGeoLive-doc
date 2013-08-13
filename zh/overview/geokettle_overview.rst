@@ -95,7 +95,7 @@ GeoKettle
 
 **发布协议：** GNU Lesser General Public License (LGPL) version 2.1
 
-**软件版本：** 2.0
+**软件版本：** |version-geokettle|
 
 **平台支持：** Windows, Linux, Mac, Solaris
 

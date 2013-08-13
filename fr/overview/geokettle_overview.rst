@@ -96,7 +96,7 @@ Détails
 
 **Licence:** License GNU Lesser General Public (LGPL) version 2.1
 
-**Version du logiciel:** 2.0
+**Version du logiciel:** |version-geokettle|
 
 **Plates-formes supportées:** Windows, Linux, Mac, Solaris
 

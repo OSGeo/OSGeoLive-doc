@@ -98,7 +98,7 @@ GeoKettle
 
 **Άδεια:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Έκδοση Λογισμικού:** 2.5
+**Έκδοση Λογισμικού:** |version-geokettle|
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Solaris
 
