@@ -30,7 +30,7 @@ Funktionalität
 
 * Der SOS wird zusammen mit einem Browser-basierten Test-Anwendung ausgeliefert, welcher Beispiel-Anfragen für alle SOS-Operationen enthält.
 		
-Der aktuelle 52°North SOS (Version 3.5.0) implementiert die aktuellste Spezifikationsversion (2.0.0 und die Vorgängering 1.0.0). In der folgenden Liste sind entsprechend der Version die implementierten Operationen aufgelistet:
+Der aktuelle 52°North SOS implementiert die aktuellste Spezifikationsversion (2.0.0 und die Vorgängering 1.0.0). In der folgenden Liste sind entsprechend der Version die implementierten Operationen aufgelistet:
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

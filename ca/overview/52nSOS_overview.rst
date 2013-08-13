@@ -31,7 +31,7 @@ bé un dispositiu per mesurar el cabdal d'un riu.
 Característiques
 --------------------------------------------------------------------------------
 
-L'actual projecte 52°North SOS (versió 3.1.1) implementa el nucli, les operacions transaccionals,
+L'actual projecte 52°North SOS implementa el nucli, les operacions transaccionals,
 i parts de l'especificació SOS que s'han millorat. Aquesta versió implementa la darrera versió 
 de l'esquema (1.0.0) i les següents operacions:
 
