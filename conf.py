@@ -227,6 +227,9 @@ linkcheck_anchors = False
 # TODO (fgdrf) read the values from flat text file
 # global replacements that will be included at the end of every source file 
 # see http://sphinx.readthedocs.org/en/latest/config.html#confval-rst_epilog
+#
+# TODO export versions into an extra app-versions file
+#
 rst_epilog="""
 .. |osgeo-live-project| replace:: %(projectname)s
 .. |osgeo-live-version| replace:: %(projectname)s %(projectversion)s
@@ -239,6 +242,7 @@ rst_epilog="""
 .. |version-deegree| replace:: 3.3.1
 .. |version-geoserver| replace:: 2.3.4
 .. |version-geokettle| replace:: 2.5
+.. |version-gvsig| replace:: 2.0
 .. |version-udig| replace:: 1.4.0b
 .. |version-52nWPS| replace:: 3.2.0 
 .. |version-52nSOS| replace:: 3.5.0 

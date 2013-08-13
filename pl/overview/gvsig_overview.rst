@@ -113,7 +113,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 1.12
+**Wersja programu:** |version-gvsig|
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

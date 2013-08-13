@@ -108,7 +108,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Software Version:** |version-gvsig|
 
 **Supported Platforms:** Windows, Linux
 

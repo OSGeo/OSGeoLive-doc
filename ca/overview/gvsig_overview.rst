@@ -106,7 +106,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) versió 2
 
-**Versió del Software:** 1.12
+**Versió del Software:** |version-gvsig|
 
 **Plataformes suportades:** Windows, Linux, Mac
 

@@ -110,7 +110,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Ultima versione stabile del software:** 2.0
+**Ultima versione stabile del software:** |version-gvsig|
 
 **Sistemi operativi supportati:** Windows, Linux
 

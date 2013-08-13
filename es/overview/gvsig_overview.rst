@@ -115,7 +115,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión Software:** 2.0
+**Versión Software:** |version-gvsig|
 
 **Plataformas Soportadas:** Windows, GNU/Linux
 
