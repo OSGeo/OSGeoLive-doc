@@ -39,11 +39,31 @@ Ushahidi zum Laufen bekommen
    oder **"ushahidi@example.org"** oder so ähnlich und wählen Sie **"Continue"**.
    
 .. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
-  :scale: 50 %
-  :alt: mapguide desktop icons
-  :align: center
+   :scale: 50 %
+   :alt: mapguide desktop icons
+   :align: center
 
-3. Danach ist alles erledigt ist, und es wird Ihnen mitgeteilt, dass die Installation 
+.. note:: Es kann sein, dass Ushahidi meldet **"Oops! We couldn't make a 
+   connection to the database server with the credentials given. Please make 
+   sure they are correct."**. Dies bedeutet, dass das Installationsskript die Datenbankverbindung nicht aufbauen konnte.
+   Dies muss nun manuell erfolgen, bevor die Installtion fortgeführt werden kann.
+   Geben Sie die folgenden Befehle an (es wird angenommen, dass Sie als root angemeldet sind).
+
+   **"mysql -uroot -p"** -- Sie werden nach dem MySQL Servers root <Passwort gefragt. Geben Sie das root Passwort ein. Liegt kein Passwort vor, drücken Sie enter.
+
+   Über die folgenden Befehle erzeugen Sie anschließend eine neue Datenbank und einen neuen Benutzer. 
+   **"CREATE DATABASE ushahidi;"** -- Der Befehl legt eine neue Datenbank mit Namen ushahidi an.
+   
+   Nun folgt der Befehl.
+   
+   **"GRANT ALL PRIVILEGES ON ushahidi.* TO 'user'@'localhost' IDENTIFIED BY 'user';"**
+   
+   -- Der Befehl legt einen Benutzer **"user"** mit Passwort **"user"** an.
+
+   Gehen Sie nun zurück zum Ushahidi Web Installer Schritt 2 und geben Sie die Details ein.
+
+3. Anschließend werden Sie nach einer Anmelde-Email und Passwort gefragt. Setzen Sie die Emailadressen auf
+**"admin@example.org"** und das Passwort auf **"admin"** (zweimal eingeben). Danach ist alles erledigt ist, und es wird Ihnen mitgeteilt, dass die Installation 
    erfolgreich war, sowie unter welchem Link Ihre Webseite aufrufbar ist.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
@@ -52,15 +72,15 @@ Ushahidi zum Laufen bekommen
   :align: center
  
 4. Um Änderungen im `Administrationsbereich <http://localhost/ushahidi/admin>`_ 
-   vorzunehmen, lautet der Benutzername **"admin"** und das Passwort ebenfalls 
-   **"admin"**. Zum Beispiel finden Sie auf der Setup-Seite den Link **"Settings"** 
+   vorzunehmen, melden Sie sich mit dem eingerichteten Benutzer **"admin@example.org"** und das Passwort **"admin"** an. 
+   Auf der Setup-Seite finden Sie nun den Link **"Settings"** 
    (oben rechts) und können dort unter der **"Map"** Registerkarte den 
    **"Map provider"** zu OpenStreetMaps ändern (keine API Schlüssel erforderlich 
-   für OSM :-) ).
+   für OSM :-) ). Speichern Sie die Einstellungen über :guilabel:`SAVE SETTINGS`.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center
 
-Die Setup README-Seite ist auch lokal verfügbar unter `/var/www/ushahidi/readme.html <../../ushahidi/readme.html>`_.
+Die Setup README-Seite ist auch lokal verfügbar unter `/var/www/ushahidi/README.markdown <../../ushahidi/README.markdown>`_.
