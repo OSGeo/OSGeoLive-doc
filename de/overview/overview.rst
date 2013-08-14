@@ -33,7 +33,7 @@ Browser Anwendungen
 Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser GIS Client
-* :doc:`leaflet_overview` - Interactive Karten für mobile Geräte geeignet
+* :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] - Interactive Karten für mobile Geräte geeignet
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
