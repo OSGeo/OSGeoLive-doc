@@ -51,7 +51,7 @@ Let’s create a map of Europe with an indication of the FOSS4G conference. Firs
 
 .. code-block:: javascript 
 
- var map = L.map('map').setView([51.505, -0.09], 13);
+ var map = L.map('map').setView([52.939, -1.203], 5);
 
 By default (as we didn’t pass any options when creating the map instance), all mouse and touch interactions on the map are enabled, and it has zoom and attribution controls.
 
@@ -75,8 +75,7 @@ If you have online access you may want to use a nicer tilemap as the background:
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
 		}).addTo(map);
 
-Make sure all the code is called after the div and leaflet.js inclusion. That’s it! You have a working Leaflet map now.
-
+Make sure all the code is called after the **div** and **leaflet.js** inclusion. That’s it! You have a working Leaflet map now.
 
 It’s worth noting that Leaflet is provider-agnostic, meaning that it doesn’t enforce a particular choice of providers for tiles, and it doesn’t even contain a single provider-specific line of code, so you’re free to use other providers if you need to.
 
@@ -88,13 +87,13 @@ Let's add a marker:
 
 .. code-block:: javascript 
 
- var marker = L.marker([52.939, -1.203).addTo(map);
+ var marker = L.marker([52.939, -1.203]).addTo(map);
 
 Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:
 
 .. code-block:: javascript
 
- var circle = L.circle([51.508, -0.11], 500, {
+ var circle = L.circle([51.508, -0.11], 25000, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
@@ -105,9 +104,9 @@ Adding a polygon is as easy:
 .. code-block:: javascript
 
  var polygon = L.polygon([
-    [51.509, -0.08],
-    [51.503, -0.06],
-    [51.51, -0.047]
+    [56.3895, -0.439],
+    [52.74959, 3.07617],
+    [57.06463, 6.19629]
  ]).addTo(map);
 
 
