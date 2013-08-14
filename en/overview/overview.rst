@@ -32,7 +32,7 @@ Browser Facing GIS
 General GIS viewing, editing and analysis in the browser:
 
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library
-* :doc:`leaflet_overview` - Mobile Friendly Interactive Maps
+* :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Mobile Friendly Interactive Maps
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
