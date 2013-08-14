@@ -15,8 +15,8 @@ Leaflet
 Browser/Mobile Map Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TBD Add the following image:
-  .. image:: ../../images/screenshots/1024x768/leaflet-overview.png
+
+.. image:: ../../images/screenshots/1024x768/leaflet-overview.png
   :scale: 50
   :alt: leaflet
   :align: right
@@ -86,7 +86,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://leaflet.cloudmade.com
+**Website:** http://leafletjs.com
 
 **Licence:** BSD
 
