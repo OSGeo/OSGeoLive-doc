@@ -72,6 +72,10 @@ Avviare e andare a prendere un tazza di caffè mentre l'installazione è in avan
 
 Questo è tutto.
 
+.. tip:: Suggerimenti per l'installazione
+      Nel caso state installando un nome utente diverso da "user", l'applicazione tomcat
+      richiede di avere i permessi per il comando come descritto in http://trac.osgeo.org/osgeo/ticket/1153
+
 Vedere anche:
 --------------------------------------------------------------------------------
 

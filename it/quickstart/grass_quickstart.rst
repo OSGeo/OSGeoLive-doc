@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
 :Version: osgeo-live6.5
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC By-SA 3.0)
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
+:Translato: Elena Mezzini, Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :scale: 100 %
@@ -153,8 +154,19 @@ mappa di input cliccare [*Run*]. Ora aggiungere la nuova mappa `elevation.shade`
 Bacini idrografici e fiumi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ancora una volta selezionare la mappa `elevation.10m` *@PERMANENT* e nel menù 
-`Raster` scegliere :menuselection:`Hydrologic modeling --> Watershed analysis`. 
+Ancora una volta selezionare la mappa `elevation.10m` *@PERMANENT*. Se avete cambiato
+la regione dall'ultimo passaggio, cliccate col tasto destro del mouse di nuovo sul
+nome del layer e cliccate su :menuselection:`Set computational region from selected map(s)`
+dal menu.
+
+.. note:: La visualizzazione e lo zoom del map display nella WxGUI sono indipendenti
+          e non interessano i processi di calcolo. Controllare la regione computazionale
+          con :menuselection:`Settings --> Region --> Display Region`; questo è di
+          fondamentale importanza per ogni operazione sui raster. La mappe raster di
+          diversa estensione e risoluzione saranno risemplificate all'attuale regione
+          computazionale al volo.
+
+Dopo, nel menù `Raster` scegliere :menuselection:`Hydrologic modeling --> Watershed analysis`. 
 Questo aprirà il modulo ``r.watershed``. Impostare il layer `elevation.10m` come 
 mappa di input, nel tab 'Input options' impostare come dimensione minima del 
 bacino idrografico esterno *threshold* 10000 celle, poi nelle 'Output options' 

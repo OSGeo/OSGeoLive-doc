@@ -20,16 +20,16 @@
 GEOS
 ================================================================================
 
-Spatial Library
+Libreria spaziale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) è un port C++ di `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_. 
-Include il OpenGIS Simple Features per funzioni con predicato spaziale SQL e operatori 
+GEOS (Geometry Engine - Open Source) è un port C++ di `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_.
+Include OpenGIS Simple Features per funzioni con predicato spaziale SQL e operatori
 spaziali, cosi come le funzioni specifiche della topologia avanzata JTS.
 
-GEOS è la libreria geometrica geospaziale C++ più usata, essendo utilizzata da progetti 
-open source come :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, 
-:doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`, e propdotti 
+GEOS è la libreria geometrica geospaziale C++ più usata, essendo utilizzata da progetti
+open source come :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`,
+:doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`, e propdotti
 proprietari tipo `FME <http://www.safe.com/fme/fme-technology/>`_.
 
 Standard implementati
@@ -39,10 +39,10 @@ Standard implementati
 
 Caratteristiche principali
 --------------------------------------------------------------------------------
-    
+
 * Geometrie: Punto, Linea, Poligono, MultiPunto, MultiLinea, MultiPoligono, GeometryCollection
 * Predicati: Interseziona, Tocca, Scompone, Incrocia, Within, Contiene, Sovrappone, Uguale, Copre
-* Operazioni: Unione, Distaza, Intersezione, Differenza simmetrica, Poligono convesso, Envelope, Buffer, Semplificazione, Unione Poligoni, Validità, Area, Lunghezza, 
+* Operazioni: Unione, Distaza, Intersezione, Differenza simmetrica, Poligono convesso, Envelope, Buffer, Semplificazione, Unione Poligoni, Validità, Area, Lunghezza,
 * Geometrie Preparate (indicizzate pre-spazialmente)
 * Indice spaziale STR
 * Codificatori e decodificatori per OGC Well Known Text (WKT) e Well Known Binary (WKB).

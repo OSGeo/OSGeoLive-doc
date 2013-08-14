@@ -119,7 +119,7 @@ Dettagli
 
 **Licenza:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Versione Software:** 6.2
+**Versione Software:** 6.2.1
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

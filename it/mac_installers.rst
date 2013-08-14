@@ -37,4 +37,12 @@ sicurezza senza rendere gli altri programmi inutilizzabili.
 * http://cran.stat.ucla.edu/bin/macosx/R-2.15.2.pkg
 * http://github.com/downloads/mapbox/tilemill/TileMill-0.10.1.zip
 
+
+   .. toctree::
+     :maxdepth: 1
+     :hidden:
+     :glob:
+
+     ../MacInstallers/index
+
 :Translator:Elena Mezzini

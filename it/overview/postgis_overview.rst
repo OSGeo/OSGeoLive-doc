@@ -84,7 +84,7 @@ clients possono anche gestire tabelle spaziali di PostGIS.
   and will become dated.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
-  :scale: 55 %
+  :scale: 70 %
   :alt: pgAdmin database manager
   :align: right
 
@@ -118,7 +118,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** 2.0
+**Versione Software:** 2.0.3
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

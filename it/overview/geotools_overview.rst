@@ -19,8 +19,8 @@
 GeoTools
 ================================================================================
 
-GeoTools è una libreria Java open source (LGPL) che fornisce metodi conformi agli 
-standard per gestire dati geospaziali, e le strutture dei dati sono basate sulle 
+GeoTools è una libreria Java open source (LGPL) che fornisce metodi conformi agli
+standard per gestire dati geospaziali, e le strutture dei dati sono basate sulle
 specifiche del Open Geospatial Consortium (OGC).
 
 .. image:: ../../images/screenshots/800x600/geotools-overview.png
@@ -28,8 +28,8 @@ specifiche del Open Geospatial Consortium (OGC).
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
 
-GeoTools è usata da un gran numero di progetti incluso servizi web, strumenti da 
-linea di comando e applicazioni desktop. Le applicazio di OSGeo-Live che includono 
+GeoTools è usata da un gran numero di progetti incluso servizi web, strumenti da
+linea di comando e applicazioni desktop. Le applicazio di OSGeo-Live che includono
 GeoTools: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, 
 :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, e :doc:`udig_overview`.
@@ -42,7 +42,7 @@ Caratteristiche principali
   * Supporto alle geometrie integrate fornite da `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
   * Filtri sugli attributi e spaziali usando la specifica OGC Filter Encoding
 
-* Una API di accesso ai dati pulita che supporta accesso agli oggetti, supporto 
+* Una API di accesso ai dati pulita che supporta accesso agli oggetti, supporto
   transazionale e locking between threads
 
   * Accesso ai dati GIS in differenti formati e database spaziali
@@ -67,7 +67,7 @@ Caratteristiche principali
 
 * GeoTools Estensioni
 
-  * Fornisce funzionalità addizionali costruite usando le funzionalità spaziali 
+  * Fornisce funzionalità addizionali costruite usando le funzionalità spaziali
     della libreria principala.
 
   .. image:: ../../images/screenshots/800x600/geotools-extension.png
@@ -116,7 +116,7 @@ Supporto di numerosi standard Open Geospatial Consortium (OGC):
 * OGC General Feature Model incluso il supporto Simple Feature
 * OGC Grid Coverage rappresentazion di informazioni raster
 * OGC Filter and Common Constraint Language (CQL)
-* Clients for Web Feature Service (WFS), Web Map Service (WMS) e supporto sperimentale Web Process Service (WPS)
+* Clients per Web Feature Service (WFS), Web Map Service (WMS) e supporto sperimentale Web Process Service (WPS)
 * ISO 19107 Geometry
 
 Dettagli

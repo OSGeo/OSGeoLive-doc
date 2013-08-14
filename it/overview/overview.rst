@@ -106,7 +106,7 @@ Set di dati spaziali:
 * :doc:`naturalearth_overview` - Set di dati globali 
 * :doc:`nc_dataset_overview`
 * :doc:`osm_dataset_overview` - Estatto d'esempio di OpenStreetMap 
-
+* :doc:`netcdf_dataset_overview` - Serie temporali di temperature e precipitazioni
 
 Librerie geospaziali
 --------------------------------------------------------------------------------

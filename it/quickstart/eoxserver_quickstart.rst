@@ -1,7 +1,7 @@
 :Author: OSGeo-Live 
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: 
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
@@ -29,14 +29,25 @@ Questa guida rapida descrive come:
 * Visualizzare, filtrare, crea subset, e scaricare dati EO attraverso EOxServer's Web Client
 * Registrare archivi di dati EO attraverso EOxServer's Admin Client
 
+.. contents:: Contents
+
 Per maggiori informazioni vedere :doc:`EOxServer Overview <../overview/eoxserver_overview>`,
 la `documentazione in locale di EOxServer <../../eoxserver-docs/EOxServer_documentation.pdf>`_,
 o la `documentazione online di EOxServer <http://eoxserver.org/doc/>`_.
 
-.. contents:: Contents
+.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
+  :scale: 50 %
+  :alt: EOxServer documentation
 
 Demonstration Instance
 ------------------------
+
+.. Commentato visto che Tomcat non si avvia più automaticamente (#1032)
+   Nel caso la vostra OSGeoLive ha 1GB di RAM o meno si raccomanda di fermare il servizio
+   di Tomcat prima di lanciare EOxServer
+   ::
+
+     sudo service tomcat6 stop
 
 L'icona `EOxServer` che si trova sotto `Web Services` lancia un browser che visualizza
 l'esempio dimostrativo disponibile all'indirizzo http://localhost/eoxserver/ 
@@ -46,13 +57,6 @@ che fornisce alcuni dati di prova come `disponibile online
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
   :alt: EOxServer demonstration start
-
-L'icona denominata `Documentazione EOxServer` disponibile anch'esso sotto `Web Services` 
-lancia un visualizzatore pdf che mostrerà la documentazione disponibile.
-
-.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
-  :scale: 50 %
-  :alt: EOxServer documentation
 
 Client Web
 ~~~~~~~~~~~~~~~~~~

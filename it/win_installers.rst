@@ -37,3 +37,10 @@ per funzionare.
 * http://download.osgeo.org/livedvd/data/zygrib/zyGrib_win-6.1.2.zip
 * http://download.osgeo.org/livedvd/data/mapwindow/MapWindowx86Full-v48Final-installer.exe
 * http://downloads.gvsig.org/download/gvsig-desktop/dists/1.12.0/builds/1417/gvSIG-desktop-1.12.0-1417-final-win-x86-standard.exe
+
+   .. toctree::
+     :maxdepth: 1
+     :hidden:
+     :glob:
+
+     ../WindowsInstallers/index

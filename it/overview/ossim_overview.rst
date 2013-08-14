@@ -64,7 +64,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 3
 
-**Versione del software:** 1.8.14
+**Versione del software:** 1.8.16
 
 **Piattaforme supportate:** Linux, Mac, Windows
 
