@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Author: Frank Gasdorf
-:Version: osgeo-live5.0draft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -14,13 +14,19 @@
 OpenCPN Quickstart 
 ********************************************************************************
 
-Ablauf
+OpenCPN ist ein präziser Diagramm Drucker und Navigator (CPN). Wie immer: verwende nie eine Software 
+oder electronische Ausrüstung als alleiniges Navigationswerkzeug. Halte die Augen offen.
+
 ================================================================================
 
 Seekarten vorbereiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Bevor Sie mit OpenCPN auf der LiveDVD arbeiten können, sind die Beispieldaten zu 
-einzurichten. Hierzu öffnen Sie ein Terminal vom Applikationsmenü und geben 
+einzurichten. Dies ist eine Bedingung für die Weiterverbreitung der NOAA nautischen Diagramme.
+Wenn Sie OpenCPN das erste Mal über den Menüeintrag :menuselection:`Geospatial --> Navigation and Maps` oder das Desktop Icon
+starten, wird Ihnen diese Option automatisch angeboten.
+
+.. Um die Einstellung manuell durchzuführen, öffnen Sie ein Terminal vom Applikationsmenü und geben 
 :command:`opencpn_noaa_agreement.sh` per Tastatur ein. Das Passwort für den Benutzer
 *user* ist in der Passwort-Datei auf dem Desktop zu finden.
 
@@ -53,10 +59,10 @@ automaitisch gestartet.
 Dokumentation
 ================================================================================
 
-* Dokumentation ist verfügbar über das `Help Icon <../../opencpn/doc/help_en_US.html>`_, oder direkt Online unter 
-  http://www.opencpn.org/docwiki
+* Dokumentation ist verfügbar über das `Help Icon <../../opencpn/help_en_US.html>`_, oder direkt Online unter 
+ http://www.opencpn.org/ocpn/opencpn_manual
 
-*  `Tipps zum Einstieg <../../opencpn/doc/tips.html>`_
+*  `Tipps zum Einstieg <../../opencpn/tips.html>`_
 
 Was kann man noch probieren?
 ================================================================================
@@ -67,9 +73,15 @@ eingebunden werden, so dass diese über den Seekarten dargestellt werden.  Die
 können Sie verwenden, um die Daten einfach herunterzuladen. Weitere Details können Sie 
 in der :doc:`zyGrib Quickstart Dokumentation <../quickstart/zygrib_quickstart>` finden.
 Aktivieren Sie das GRIB Plugin im Konfigurationsmenü auf dem äußerst rechten Tab; 
+
 Klicken Sie mit der rechten Maustaste auf ein GRIB Verzeichnis, um versteckte Dateien 
 und Verzeichnisse anzuzeigen, wie auch den :file:`.zygrib` Ordner, der standardmäßig 
-die heruntergeladenen GRIB Daten enthält. Haben Sie die GRIB Daten im Home-Verzeichnis 
-des Benutzers gespeichert, navigieren sie nach :file:`/home` und wählen Sie ``user`` als
-GRIB Datenverzeichnis. Die Datei muss nicht dekomprimiert werden. Klicken Sie auf "+" 
+die heruntergeladenen GRIB Daten enthält.
+
+Haben Sie die GRIB Daten im Home-Verzeichnis 
+des Benutzers gespeichert, navigieren Sie nach :file:`/home` und wählen Sie Ihr ``user``-Verzeichnis
+ als das GRIB Datenverzeichnis. Versteckte Dateien inklusive des ``.zygrib``-Verzeichnissen mit den GRIB
+download Dateien werden über den rechten Klick auf die Dateieigenschaften angezeigt.
+
+Die Datei muss nicht dekomprimiert werden. Klicken Sie auf ">" 
 links neben dem Dateinamen und wählen Sie aus der Liste der Vorhersagenzeiten.
