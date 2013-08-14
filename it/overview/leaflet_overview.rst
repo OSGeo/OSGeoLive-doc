@@ -16,8 +16,7 @@ Leaflet
 Browser/Mobile Map Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TBD Add the following image:
-  .. image:: ../../images/screenshots/1024x768/leaflet-overview.png
+.. image:: ../../images/screenshots/1024x768/leaflet-overview.png
   :scale: 50
   :alt: leaflet
   :align: right
