@@ -10,9 +10,9 @@ Running
 Prior to running this quick start you should start TileLite. On the live dvd this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileLite**.
 This will provide background tiles that will be used in this demo. 
 
-View the demo
+View the example_
 
-.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start.html
+.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start.html, since this demo uses tilelite on the live dvd.
 
 Preparing your page
 ===================
