@@ -1,10 +1,10 @@
 :Author: Daniel Kastl
-:Version: osgeo-live5.0
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
 	:scale: 100 %
-	:alt: pgRouting logo
+	:alt: pgRouting Logo
 	:align: right
 	:target: http://www.pgrouting.org
 
@@ -12,12 +12,12 @@
 pgRouting Quickstart
 ********************************************************************************
 
-pgRouting erweitert eine :doc:`PostGIS <../overview/postgis_overview>`/` PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für "Kürzeste-Wege" Berechnung (Routing).
+pgRouting erweitert eine :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ Geo-Datenbank um Funktionen für “Kürzeste-Wege” Berechnung (Routing).
 
-Diese Quickstart Anleitung beschreibt, wie man eine Routingdatenbank öffnet und darauf einfache "Kürzeste-Wege" Berechnungen von der Kommandozeile aus durchführt.
+Diese Quickstart Anleitung beschreibt, wie man eine Routingdatenbank öffnet und darauf einfache “Kürzeste-Wege” Berechnungen von der Kommandozeile aus durchführt. 
 
 
-pgRouting Starten
+Running Starten
 ================================================================================
 
 * Starte ein :menuselection:`Applications --> Accessories --> Terminal` Fenster und stelle eine Verbindung mit der ``pgrouting`` Datenbank her:
@@ -26,7 +26,7 @@ pgRouting Starten
 
 	psql -U user pgrouting
 
-* Gib :command:`\\d` ein, um alle vorhandenen Tabellen aufzulisten:
+Gib :command:`\\d` ein, um alle vorhandenen Tabellen aufzulisten:
 
 .. code-block:: sql
 
@@ -47,10 +47,10 @@ pgRouting Starten
 	 public | vertices_tmp_id_seq | sequence | user
 	 public | way_tag             | table    | user
 	 public | ways                | table    | user
-	(14 Zeilen)
+	(14 rows)
 
 
-* Führe die "Dijkstra-Shortest-Path" Funktion aus:
+* Führe die “Dijkstra-Shortest-Path” Funktion aus:
 
 .. code-block:: sql
 
@@ -60,7 +60,6 @@ pgRouting Starten
 				length::float8 as cost FROM ways', 
 			100, 600, false, false
 		);
-
 
 .. code-block:: sql
 
@@ -72,7 +71,7 @@ pgRouting Starten
 	 ... |  ... |   ... |                 ...
 	  52 |  599 |   732 |  0.0390125147117973
 	  53 |  600 |    -1 |                   0
-    (54 Zeilen)
+	(54 rows)
 
 
 * Um die Route als Linie anzuzeigen, kann man das Ergebnis der Abfrage mit der ursprünglichen Tabelle verknüpfen:
@@ -96,7 +95,7 @@ pgRouting Starten
 	   2 |  3783 | 0102000020E610000002000000BD4571D8C7B4F2BFB2648EE55D7A4A4062
 	 ... |   ... |                                                          ...
 	  52 |   732 | 0102000020E6100000020000006B48DC63E903F3BF84CCDFCECF7B4A40E9
-	(53 Zeilen)
+	(53 rows)
 
 
 * Mit dem Kommando :command:`\\q` verlässt man die PostgreSQL Shell wieder.
@@ -107,9 +106,6 @@ Wie geht es weiter?
 
 * **pgRouting Webseite** - Besuche die Projektseite unter http://www.pgrouting.org, um mehr über pgRouting zu erfahren.
 
-* **Workshop auf DVD** - Auf dieser LiveDVD enthalten ist der FOSS4G 2011 pgRouting Workshop `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoExt"`, zu finden unter: :file:`/usr/share/pgrouting/workshop/`
+* **pgRouting Dokumentation** - Die aktuelle Dokumentation ist zu finden auf http://docs.pgrouting.org
 
-.. note::
-
-	Um mit der aktuellen Version des Workshops zu arbeiten, öffne ein Terminal Fenster und führe ``sudo apt-get update && apt-get upgrade pgrouting-workshop`` aus.
-
+* **pgRouting Workshop** - Der Workshop “FOSS4G routing with pgRouting tools and OpenStreetMap road data” findet sich auf: http://workshop.pgrouting.org
