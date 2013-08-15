@@ -11,29 +11,29 @@
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: Κατεβάστε το αρχείο iso συμπεριλαμβανομένων προγραμμάτων εγκατάστασης για Windows
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.5/osgeolive-6.5.iso/download
+  :target: http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0.iso/download
 
-`osgeo-live-6.5.iso <http://download.osgeo.org/livedvd/release/6.5/osgeolive-6.5.iso/download>`_ : |osgeolive-iso-size|
+`osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0.iso/download>`_ : |osgeolive-iso-size|
 
-Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Xubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-6.5.iso.md5) <http://download.osgeo.org/livedvd/release/6.5/osgeolive-6.5.iso.md5/download>`_.
+Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Xubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Κατεβάστε το αρχείο χωρίς τα αρχεία για Windows και Mac
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.5/osgeolive-6.5-mini.iso/download
+  :target: http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0-mini.iso/download
 
-`osgeo-live-mini-6.5.iso <http://download.osgeo.org/livedvd/release/6.5/osgeolive-6.5-mini.iso/download>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0-mini.iso/download>`_ : |osgeolive-iso-mini-size|
 
-Το ίδιο με το osgeo-live-6.5.iso, με τη διαφορά ότι δεν περιλαμβάνει τις εγκαταστάσεις για  Windows και Mac και μπορεί να αντιγραφεί σε USB αυτόματης εκκίνησης  μεγέθους 4 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-mini-6.5.iso.md5) <http://download.osgeo.org/livedvd/release/6.5/osgeolive-6.5.iso.md5/download>`_.
+Το ίδιο με το osgeo-live-7.0.iso, με τη διαφορά ότι δεν περιλαμβάνει τις εγκαταστάσεις για  Windows και Mac και μπορεί να αντιγραφεί σε USB αυτόματης εκκίνησης  μεγέθους 4 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-mini-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Κατεβάστε το αρχείο 7-zip μεγέθους 2.6 GB μιας εικονικής μηχανής χωρίς αρχεία εγκατάστασης Windows και Mac
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.5/osgeo-live-6.5-vm.7z/download
+  :target: http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0-vm.7z/download
 
-`osgeo-live-6.5-vm.7z <http://download.osgeo.org/livedvd/release/6.5/osgeo-live-6.5-vm.7z/download>`_ : |osgeolive-vm-7z-size|
+`osgeo-live-7.0-vm.7z <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0-vm.7z/download>`_ : |osgeolive-vm-7z-size|
 
-Εικονική μηχανή (.vmdk) κατάλληλη για χρήση με τα VirtualBox, VMWare, KVM και άλλα λογισμικά εικονικών μηχανών. Δεν περιλαμβάνει προγράμματα εγκατάστασης για windows και mac. Επιβεβαιώστε το αρχείο με το md5sum checksum `(osgeo-live-vm-6.0.7z.md5) <http://download.osgeo.org/livedvd/release/6.5/osgeo-live-6.5.7z.md5/download>`_.
+Εικονική μηχανή (.vmdk) κατάλληλη για χρήση με τα VirtualBox, VMWare, KVM και άλλα λογισμικά εικονικών μηχανών. Δεν περιλαμβάνει προγράμματα εγκατάστασης για windows και mac. Επιβεβαιώστε το αρχείο με το md5sum checksum `(osgeo-live-vm-6.0.7z.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.7z.md5/download>`_.
 
 Για μια πλήρη λίστα από εκδόσεις αρχείων, επιλογές μεταφόρτωσης και εναλλακτικούς παρόχους μεταφόρτωσης επισκεφθείτε: http://download.osgeo.org/livedvd
 
