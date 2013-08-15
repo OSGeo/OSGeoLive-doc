@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -53,23 +54,13 @@ Run:
 
   Try the many applications from the :menuselection:`Geospatial` menu. 
 
-  Getting started with the Xfce desktop: (an online work in progress)
-    http://docs.xfce.org/start
-
-  Getting started with the Ubuntu operating system: (a nice PDF e-book)
-    `/usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_
-
-  Further online help with the Ubuntu operating system: (n.b. we use the traditional Xfce desktop interface, not the tablet-like Unity desktop interface)
-    https://help.ubuntu.com/12.04/
-
-    https://help.ubuntu.com/12.04/serverguide/C/
-
-    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
-
-
 See Also:
 --------------------------------------------------------------------------------
 
+ * Getting started with the Xfce desktop (which is used by OSGeo-Live):
+    http://docs.xfce.org/xfce/getting-started
+ * Getting started with the Ubuntu operating system:
+    `local version </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ and `Online version <http://ubuntu-manual.org/>`_
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
