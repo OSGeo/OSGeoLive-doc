@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Alex Mandel, Cameron Shorter
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -28,7 +28,7 @@ Creating bootable USB drive from Ubuntu
 (This is the recommended process for creating a USB. It is applicable to Ubuntu and Ubuntu variants such as Xubuntu and OSGeo-Live.)
 
 .. note::
-   The version of Ubuntu you are running, needs to be the same or newer than the version of Xubuntu being installed onto your USB.  If installing OSGeo-Live 6.0 onto a USB, then you will need to be running Ubuntu 12.04 or newer.
+   The version of Ubuntu you are running, needs to be the same or newer than the version of Xubuntu being installed onto your USB.  If installing OSGeo-Live 7.0 onto a USB, then you will need to be running Ubuntu 12.04 or newer.
 
 `Download <http://live.osgeo.org/en/download.html>`_ osgeo-live or osgeo-live-mini to your computer's hard drive. 
 
