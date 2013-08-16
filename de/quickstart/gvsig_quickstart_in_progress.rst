@@ -122,6 +122,7 @@ Die Ansicht - Raster- und Vektordaten hinzufügen
 
 .. note:: Es werden standardmäßig alle unterstützen Formate angezeigt. Es können Raster- und Vektordaten 
           zusammen ausgewählt werden, in dem man die Taste :kbd:`CRTL` gedrückt hält.
+
 #. Wählen Sie :guilabel:`OK` um zum vorhergehenden Dialog zu gelangen
 #. Wählen Sie im **Layer Hinzufügen** Dialog auch hier :guilabel:`OK`, um zur Hauptansicht zu kommen.
 
