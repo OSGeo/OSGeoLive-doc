@@ -23,7 +23,7 @@ entirely of free software, allowing it to be freely distributed, duplicated
 and passed around.
 
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
-  :scale: 60 %
+  :scale: 70 %
   :alt: boot select
   :align: right
 
