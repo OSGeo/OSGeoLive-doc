@@ -1,67 +1,79 @@
 :Author: Daniel Kastl
 :Reviewer: Cameron Shorter, LISAsoft
+:Translator: Celia Virginia Vergara Castillo
 :Translator: Mauricio Miranda
 :Translator: Roberto Antolín
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
-  :alt: pgRouting logo
+  :alt: Logo de pgRouting 
   :align: right
   :target: http://www.pgrouting.org/
 
 pgRouting
 ================================================================================
 
-Herramientas SIG
+Herramientas SIG.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting extiende la base de datos :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ para proveer funcionalidades de ruteo espacial.
+pgRouting extiende las bases de datos geoespaciales :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://postgresql.org>`_  proporcionando enrutamiento geoespacial y otras funcionalidad de análisis de redes.
 
-Las ventajas del ruteo en base de datos son:
+Las ventajas del enfoque de base de datos de enrutamiento son:
 
-* Los datos y atributos pueden ser modificados desde varios clientes, como :doc:`Quantum GIS <qgis_overview>` y :doc:`uDig <udig_overview>` a través de JDBC, ODBC, o directamente usando Pl/pgSQL. Los clientes pueden ser PCs o dispositivos móviles.
-* Los cambios pueden ser reflejados instantáneamente a través del motor de ruteo. No hay necesidad de hacer cálculos previos.
-* El parámetro de "costo" puede ser calculado dinámicamente a través de SQL y su valor puede provenir de múltiples campos y tablas.
+* Datos y atributos pueden ser modificados por muchos clientes, como :doc:`Quantum GIS <qgis_overview>` y :doc:`uDig <udig_overview>` a través de JDBC, ODBC o directamente utilizando Pl/pgSQL. Los clientes pueden ser PCs o dispositivos móviles.
+* Cambios en los datos pueden ser reflejados instantáneamente a través del motor de enrutamiento. No hay ninguna necesidad de precálculos.
+* El parámetro  "cost" puede ser calculado dinámicamente a través de consultas SQL y su valor puede provenir de múltiples campos o tablas.
+
+pgRouting está disponible bajo la licencia GPLv2 y es apoyado por una comunidad creciente de individuos, empresas y organizaciones.
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
-  :scale: 60 %
-  :alt: pgRouting query in pgAdminIII
+  :scale: 70 %
+  :alt: consulta de pgRouting en pgAdminIII
   :align: right
 
-Funcionalidades principales
+Características principales
 --------------------------------------------------------------------------------
 
-pgRouting provee funciones para:
+pgRouting proporciona funciones para:
 
-* Camino mínimo (Dijkstra): algoritmo de ruteo sin heurística
-* Camino mínimo (A-Star): routeo para conjunto de datos grandes (con heurística)
-* Camino mínimo (Shooting-Star): ruteo con restricciones de giro (con heurística)
-* El problema del viajante (TSP: Traveling Salesperon Problem) 
-* Cálculo de ruta (Isolíneas)
+* Camino más corto de todos los pares, algoritmo de Johnson
+* Camino más corto de todos los pares, algoritmo de Floyd-Warshall
+*  Camino más corto A*
+* Camino más corto bidireccional de Dijkstra 
+* Camino más corto bidireccional A*
+* Camino más corto  de Dijkstra
+* Distancia de Manejo
+* K caminos más cortos, Múltiples rutas alternativas.
+* K-Dijkstra, Camino más corto uno a muchos.
+* Problema del Vendedor Viajante
+* Camino más corto con restricción de giros (TRSP)
 
-.. Implemented Standards
+Aprenda más acerca del uso de pgRouting en su aplicación leyendo la `Documentación <http://docs.pgrouting.org>`_.
+
+
+.. Implementación de normas
    ---------------------
 
-.. * OGC standards compliant
+.. * Compatible con los estándares OGC
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio Web:** http://www.pgrouting.org
+**Página Web:** http://www.pgrouting.org
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión del Software:** 1.05
+**Version del Software:** 2.0
 
-**Plataformas soportadas:** Linux, Windows, Mac
+**Platformas apoyadas:** Linux, Windows, Mac
 
-**Soporte a lenguajes de programación:** SQL
+**Interfaces API:** SQL
 
-**Soporte:** http://www.pgrouting.org
+**Soporte comercial:** http://www.pgrouting.org/support.html
 
-Guía de Inicio Rápido
+Iniciando rápidamente
 --------------------------------------------------------------------------------
 
-* :doc:`Guía de inicio rápido <../quickstart/pgrouting_quickstart>`
+* :doc:`Documentation de Inicio rápido  <../quickstart/pgrouting_quickstart>`
