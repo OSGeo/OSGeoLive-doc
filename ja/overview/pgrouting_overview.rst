@@ -1,12 +1,11 @@
-:Author: Daniel Kastl
-:Version: osgeo-live4.0
+:Author: Daniel Kastl, Hal Seki, Ko Nagase
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _pgrouting-overview-ja:
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
   :scale: 100 %
-  :alt: pgRouting logo
+  :alt: pgRouting ロゴ
   :align: right
   :target: http://www.pgrouting.org/
 
@@ -16,53 +15,62 @@ pgRouting
 GIS ツール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting は :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ 地理空間データベースに経路探索機能を提供するための拡張ライブラリです。
+pgRouting は地理空間における経路探索や他のネットワーク解析機能を提供するために :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://postgresql.org>`_ 地理空間データベースを拡張します。
 
-データベース上でルート検索を行う方法の利点には、以下のようなものがあります。
+データベース上で経路探索を行う方法の利点には、以下のようなものがあります。
 
-* 多くのクライアントアプリケーション、例えば :doc:`Quantum GIS <qgis_overview>` や :doc:`uDig <udig_overview>` のようなプログラムからJDBCやODBC経由、もしくは直接PL/pgSQLを発行することでデータ及び属性を更新することができます。クライアントは、PCやモバイルデバイスでもかまいません。
-* データへの変更は、ルート探索エンジン経由で、すぐに反映させることができます。ルート探索の為の事前の計算処理は必要ありません。
-* "cost" パラメータは動的にSQLで計算され、その値は複数のテーブルのフィートから計算することも可能です。
+* データや属性を、多くのクライアント、例えば  :doc:`Quantum GIS <qgis_overview>` や :doc:`uDig <udig_overview>` から、JDBC や ODBC、もしくは 直接 Pl/pgSQL を発行することで、変更することが可能です。クライアントは PC やモバイル端末でもかまいません。
+* データの変更は、経路探索エンジン経由ですぐに反映させることが可能です。事前の計算処理は必要ありません。
+* "コスト" パラメータは SQL 経由で動的に計算可能で、複数の列やテーブルからの値を使用することも可能です。
+
+pgRouting は GPLv2 ライセンスで提供され、個人、企業及び団体からなる、成長中のコミュニティによってサポートされています。
 
 .. image:: ../../images/screenshots/800x600/pgrouting.png
-  :scale: 60 %
+  :scale: 70 %
   :alt: pgRouting query in pgAdminIII
   :align: right
 
 主な機能
 --------------------------------------------------------------------------------
 
-pgRouting は以下のファンクションを提供します。
+pgRouting は以下の機能を提供します。
 
-* Shortest Path Dikstra: ヒューリスティック手法を使わない、最短経路アルゴリズム
-* Shortest Path A-Star: ヒューリスティック手法を利用した、大規模データセットの為の最短経路探索
-* Shortest Path Shooting-Star: ヒューリスティック手法を利用した、一方通行を考慮した最短経路探索
-* Traveling Salesperson Problem (TSP) :巡回セールスマン問題
-* Driving Distance calculation (Isolines): 到達圏検索
+* 全点対間最短経路探索 - ジョンソンのアルゴリズム
+* 全点対間最短経路探索 - ワーシャル-フロイド法
+* A* アルゴリズムによる最短経路探索
+* 双方向ダイクストラ法による最短経路探索
+* 双方向 A* アルゴリズムによる最短経路探索
+* ダイクストラ法による最短経路探索
+* 到達圏探索
+* K-最短経路探索 - 複数の代替経路探索
+* K-ダイクストラ法 - 1対多の最短経路探索
+* 巡回セールスマン問題
+* 交差点での進入制限付き最短経路探索 (TRSP)
 
-.. 準拠している標準
+あなたのアプリケーションでの pgRouting の利用について、もっと知りたい場合は、 `documentation <http://docs.pgrouting.org>`_ を参照してください。
+
+
+.. Implemented Standards
    ---------------------
 
-.. * OGC standards 準拠
+.. * OGC standards compliant
 
 詳細
 --------------------------------------------------------------------------------
 
-**Website:** http://www.pgrouting.org
+**ウェブサイト:** http://www.pgrouting.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**ライセンス:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.05
+**ソフトウェアバージョン:** 2.0
 
-**Supported Platforms:** Linux, Windows, Mac
+**対応プラットフォーム:** Linux, Windows, Mac
 
-**API Interfaces:** SQL
+**API インターフェース:** SQL
 
-**Commercial Support:** http://www.pgrouting.org
+**商用サポート:** http://www.pgrouting.org/support.html
 
 クイックスタート
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
-
-
