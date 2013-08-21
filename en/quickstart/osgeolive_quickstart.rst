@@ -60,7 +60,7 @@ See Also:
  * Getting started with the Xfce desktop (which is used by OSGeo-Live):
     http://docs.xfce.org/xfce/getting-started
  * Getting started with the Ubuntu operating system:
-    `local version </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ and `Online version <http://ubuntu-manual.org/>`_
+    `local eBook </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ and `extended online help <http://https://help.ubuntu.com/12.04/>`_
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
