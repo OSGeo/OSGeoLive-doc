@@ -50,7 +50,7 @@ anschließend :guilabel:`Propagate` zur Synchronisation.
 
 Ein teifergehendes Tutorial finden Sie `Online`_.
 
-.. _`blog article`: http://www.geofemengineering.it/GeofemEngineering/Blog/Voci/2010/3/15_OSGEO_-_Live_-_DVD_-_%22running_imagelinker%22.html
+.. _`Online`: http://www.geofemengineering.it/GeofemEngineering/Blog/Voci/2010/3/15_OSGEO_-_Live_-_DVD_-_%22running_imagelinker%22.html
 
 
 OssimPlanet

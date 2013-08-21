@@ -63,8 +63,7 @@ Ushahidi zum Laufen bekommen
    Gehen Sie nun zurück zum Ushahidi Web Installer Schritt 2 und geben Sie die Details ein.
 
 3. Anschließend werden Sie nach einer Anmelde-Email und Passwort gefragt. Setzen Sie die Emailadressen auf
-**"admin@example.org"** und das Passwort auf **"admin"** (zweimal eingeben). Danach ist alles erledigt ist, und es wird Ihnen mitgeteilt, dass die Installation 
-   erfolgreich war, sowie unter welchem Link Ihre Webseite aufrufbar ist.
+**"admin@example.org"** und das Passwort auf **"admin"** (zweimal eingeben). Danach ist alles erledigt ist, und es wird Ihnen mitgeteilt, dass die Installation erfolgreich war, sowie unter welchem Link Ihre Webseite aufrufbar ist.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%

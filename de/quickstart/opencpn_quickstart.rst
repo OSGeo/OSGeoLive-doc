@@ -80,7 +80,7 @@ die heruntergeladenen GRIB Daten enthält.
 
 Haben Sie die GRIB Daten im Home-Verzeichnis 
 des Benutzers gespeichert, navigieren Sie nach :file:`/home` und wählen Sie Ihr ``user``-Verzeichnis
- als das GRIB Datenverzeichnis. Versteckte Dateien inklusive des ``.zygrib``-Verzeichnissen mit den GRIB
+als das GRIB Datenverzeichnis. Versteckte Dateien inklusive des ``.zygrib``-Verzeichnissen mit den GRIB
 download Dateien werden über den rechten Klick auf die Dateieigenschaften angezeigt.
 
 Die Datei muss nicht dekomprimiert werden. Klicken Sie auf ">" 
