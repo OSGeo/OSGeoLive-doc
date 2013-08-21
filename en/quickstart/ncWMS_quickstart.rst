@@ -43,7 +43,7 @@ Selecting the vertical level
 
 If the variable you are viewing has a vertical dimension you will be able to select the vertical level using the drop-down box above the map.
 
-.. image:: ../../images/screenshots/800x600/ncWMS-01-vertical_time.png
+.. image:: ../../images/screenshots/800x600/ncWMS-01b-vertical_time.png
     :scale: 55%
 
 Selecting the timestep
