@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-tilemill.png
-  :scale: 60 %
+  :scale: 100 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -31,7 +31,7 @@ Tilemill makes use of the :doc:`Mapnik <mapnik_overview>` map rendering library 
 TileMill is typically used in conjunction with a desktop GIS (like QuantumGIS) for preparing data, and a graphics editor (like GIMP) for creating icons, patterns and textures.
 
 .. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
-  :scale: 70 %
+  :scale: 50 %
   :alt: TilleMill user interface
   :align: right
 
