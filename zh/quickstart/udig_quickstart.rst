@@ -219,7 +219,7 @@ Map
 
 .. note:: 若没有英特网连接，运行 |osgeolive-appmenupath-geoserver| 可以获得一个本地 WMS 服务。该脚本会开启一个 "Service Capabilities" 并显示两个 WMS URL 。将其拖拽至 uDig 即可。
 
-.. tip:: 使用 **Add Data**（:menuselection:`Layer --> Add...`）也可以连接 WMS 。
+.. tip:: 使用 **Add Data** （:menuselection:`Layer --> Add...`）也可以连接 WMS 。
 
 #. 从菜单选择 :menuselection:`File --> New --> New Map` 。
 

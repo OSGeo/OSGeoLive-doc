@@ -252,6 +252,7 @@ TileMill 快速入门
 #. 打开模板试图。
 #. 图例（Legend）选项卡是默认项。
 #. 在 Legend 一栏输入内容。
+
 ::
 
 	<strong>OSGeo Live TileMill Quick Start</strong><br/>Points locate different amenities in Nottingham</br>
@@ -292,7 +293,7 @@ TileMill 快速入门
 　　您可以继续尝试其它操作：
 
 #. 添加您自己的样式配置。
-#. 从 *.CSV 等其它数据源获取数据。您可以参考 `TileMill 线上教程 <http://mapbox.com/tilemill/docs/crashcourse/introduction/>`_ 。
+#. 从 \*.CSV 等其它数据源获取数据。您可以参考 `TileMill 线上教程 <http://mapbox.com/tilemill/docs/crashcourse/introduction/>`_ 。
 
 
 其它信息

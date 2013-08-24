@@ -27,8 +27,8 @@ Wenn Sie OpenCPN das erste Mal über den Menüeintrag :menuselection:`Geospatial
 starten, wird Ihnen diese Option automatisch angeboten.
 
 .. Um die Einstellung manuell durchzuführen, öffnen Sie ein Terminal vom Applikationsmenü und geben 
-:command:`opencpn_noaa_agreement.sh` per Tastatur ein. Das Passwort für den Benutzer
-*user* ist in der Passwort-Datei auf dem Desktop zu finden.
+  :command:`opencpn_noaa_agreement.sh` per Tastatur ein. Das Passwort für den Benutzer
+  *user* ist in der Passwort-Datei auf dem Desktop zu finden.
 
 Weitere US Seekarten können Sie von der Webseite des amerikanischen Ministeriums für 
 Ozeanik und Atmosphäre (NOAA - National Oceanic and Atmospheric Administration) 
@@ -60,7 +60,7 @@ Dokumentation
 ================================================================================
 
 * Dokumentation ist verfügbar über das `Help Icon <../../opencpn/help_en_US.html>`_, oder direkt Online unter 
- http://www.opencpn.org/ocpn/opencpn_manual
+  http://www.opencpn.org/ocpn/opencpn_manual
 
 *  `Tipps zum Einstieg <../../opencpn/tips.html>`_
 

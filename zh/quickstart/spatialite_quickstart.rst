@@ -25,7 +25,7 @@ SpatiaLite 快速入门
 
 .. TBD: Cameron Review Comment:
   Please check my rewording below, then remove this comment.
-SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
+  SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
 　　本文演示如何通过图形界面或命令行打开一个 SpatiaLite 数据库并执行简单查询。
 
@@ -69,7 +69,8 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
   #. 右下角面板显示所执行的 SQL 命令的结果。
 
 * 右击 MunicipalHalls 表单并选择 "Edit table rows" 。注意右上角即时生成的 SQL 命令以及右下角显示的结果：
-::
+
+  ::
 
     SELECT ROWID, "PK_UID", "AREA", "PERIMETER", "COMU", "Geometry"
         FROM "MunicipalHalls"
@@ -81,7 +82,8 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
   a Bounding Box query instead.
 
 * 可以调整该 SQL 命令，从而只从 MunicipalHallsView 的 NOME_PROV 中包含 "BRESCIA" 的记录获取 NOME 。在右上角 SQL 面板中：
-::
+
+  ::
 
    SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
         FROM "MunicipalHallsView"
@@ -128,12 +130,14 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
 * 从桌面选择 :menuselection:`Applications -> Accessories -> Terminal Emulator` 可以开启命令行界面。
 
 * 以 **spatialite** 打开示例数据库：
-::
+
+  ::
 
    spatialite /home/user/data/spatialite/trento.sqlite
 
 * 基本命令：
-::
+
+  ::
 
    .help（帮助信息）
    .tables（显示表单）
@@ -148,7 +152,8 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
 * 创建一个数据库并读取 shp：
   
    - 创建一个新的数据库并从 north_carolina 数据集读取两个 shp 文件。
-::
+
+     ::
 
       user@osgeo-6:~$ spatialite test.sqlite
       SpatiaLite version ..: 3.1.0-RC2      Supported Extensions:
@@ -174,7 +179,8 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
    - 在 .loadshp 命令中第一项为目标文件名（无 .shp 扩展名），第二项为目标表单，然后是字符编码和投影系统的 EPSG 代码。
 
    - 查询 42 高速公路周围的学校：
-::
+
+     ::
  
       spatialite> SELECT s.NAMESHORT, s.ADDRNUMBER, s.ADDRROOT
            ...> FROM schools AS s, roads AS r
@@ -187,13 +193,9 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
 
    - 输出：
 
-.. please consider to put the following in a <code> text box, and free up the disc space. It doesn't need to be a graphic.
-
-   .. image:: ../../images/screenshots/800x600/spatialite-cli.png
-      :scale: 70 %
-
    - 最后，我们可以对逗号分隔的 "schools_rt42.txt" 文本文件作查询：
-::
+
+     ::
 
       spatialite> .mode csv
       spatialite> .output "schools_rt42.txt"

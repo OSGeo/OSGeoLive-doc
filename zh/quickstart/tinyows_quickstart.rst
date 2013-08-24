@@ -62,7 +62,7 @@ TinyOWS 快速入门文档
 
 #. 在图层列表选择 **ows:ways** 。
 
-#. 选中 :guilabel:`Only request features overlapping the current view extent`（只获取当前显示范围内的要素）。
+#. 选中 :guilabel:`Only request features overlapping the current view extent` （只获取当前显示范围内的要素）。
 
 #. 点击 :guilabel:`OK` 。
 

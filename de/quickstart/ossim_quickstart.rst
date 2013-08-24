@@ -40,13 +40,13 @@ Imagelinker
 * gehe zu :menuselection:`menu bar --> window --> tile`
 
 * Sie können die gesamten Satelliten Band Sichten synchron halten, indem Sie :guilabel:`Fit` in einem 
-der kleineren Fenster klicken anschließend wählen Sie :guilabel:`Propagate` im selben Fenster. Versuchen Sie diese Schritte in einem größeren Fenster.
+  der kleineren Fenster klicken anschließend wählen Sie :guilabel:`Propagate` im selben Fenster. Versuchen Sie diese Schritte in einem größeren Fenster.
 
 * Stellen Sie im großen Fenster sicher, dass der Zoom-Button nicht ausgewählt ist und klicken Sie in die Mitte des Kaps (Wellfleet Harbor). 
-Klicken Sie dann nochmals für eine nähere Ansicht. Klicken Sie wiederum den :guilabel:`Propagate`
-Button im großen Fenster, um die Ansicht der anderen Fenster zu synchronisieren.
-In ähnlicher Weise können Sie den Pan-Button (Verschieben) verwenden. Klicken Sie auf die Spitze des Kaps und klicken 
-anschließend :guilabel:`Propagate` zur Synchronisation.
+  Klicken Sie dann nochmals für eine nähere Ansicht. Klicken Sie wiederum den :guilabel:`Propagate`
+  Button im großen Fenster, um die Ansicht der anderen Fenster zu synchronisieren.
+  In ähnlicher Weise können Sie den Pan-Button (Verschieben) verwenden. Klicken Sie auf die Spitze des Kaps und klicken 
+  anschließend :guilabel:`Propagate` zur Synchronisation.
 
 Ein teifergehendes Tutorial finden Sie `Online`_.
 
@@ -61,13 +61,13 @@ OssimPlanet
 * Wähle :menuselection:`File --> Open Image --> /home/user/data/raster/cape_cod/cape_cod/p011r031_7t19990918_z19_nn10.tif`
 
 * Klicken Sie im Layerbaum auf das kleine Dreieck links *Image Layers*, um den Bereich zu vergrößern. 
-Doppelklicken Sie auf ``p011r031_7t19990918_z19_nn10.tif``.
+  Doppelklicken Sie auf ``p011r031_7t19990918_z19_nn10.tif``.
 
 .. note:: Zur Deaktivierung des Tageslicht auto-shading, deaktivieren :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
 
 * Experimentieren Sie mit der Navigation mit Hilfe der Maus. Verschieben Sie die Ansicht über das Drücken der 
-linken Maustaste; rollen Sie über das Drücken der mittleren Maustaste; zoomen Sie rein und raus 
-über die rechte Maustaste.
+  linken Maustaste; rollen Sie über das Drücken der mittleren Maustaste; zoomen Sie rein und raus 
+  über die rechte Maustaste.
 
 * Laden Sie die North Carolina LANDSAT Bilder von ``/home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif``.
   Doppelklicken Sie aberals auf den Namen im Layerbaum, um zu dem Bereich zu zoomen.

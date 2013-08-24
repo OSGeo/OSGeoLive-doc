@@ -50,7 +50,7 @@ AtlasViewer（如何使用 GeoPublisher 生成的地图集）
 
 * `AtlasViewer 手册（法语），基于 1.3 版本 <../../geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
 * `AtlasViewer 手册（英语），基于 1.3 版本 <../../geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_ 
-* `AtlasViewer 手册（英语），基于 1.3 版本 <../../geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_  
+* `AtlasViewer 手册（英语），基于 1.3 版本 <../../geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`__  
 
 
 运行 GeoPublisher

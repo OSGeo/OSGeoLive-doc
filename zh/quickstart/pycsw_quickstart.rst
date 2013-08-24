@@ -1,6 +1,6 @@
 :Author: Tom Kralidis, Angelos Tzotsos
 :Version: OSGeo-Live 6.0
-Translator: Zhengfan Lin
+:Translator: Zhengfan Lin
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png

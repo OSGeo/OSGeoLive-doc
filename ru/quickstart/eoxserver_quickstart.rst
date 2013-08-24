@@ -124,7 +124,7 @@ EOxServer — это сервер для работы со снимками Ear
 
 Служба управления (`Admin Client`), стандартная для Django функция администрирования,
 позволяет настраивать данные. Больше информации можно найти в
-`онлайн-документации <http://eoxserver.org/doc/en/users/operators.html>`_.
+`онлайн-документации <http://eoxserver.org/doc/en/users/operators.html>`__.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient2.png
   :scale: 50 %

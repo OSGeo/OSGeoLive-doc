@@ -75,7 +75,7 @@ Desde el menú  :menuselection:`Applications --> Accessories --> Terminal` y con
 	(54 rows)
 
 
-*Para obtener la geometría, ligar los resultados con la geometría de los caminos:
+* Para obtener la geometría, ligar los resultados con la geometría de los caminos:
 
 .. code-block:: sql
 

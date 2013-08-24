@@ -107,7 +107,7 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
   :scale: 50 %
   :alt: EOxServer demonstration admin client login
 
-　　这套管理用客户端是 Djangos 的标准客户端，用于配置数据服务。更多信息请访问 `线上文档 <http://eoxserver.org/doc/en/users/operators.html>`_ 。
+　　这套管理用客户端是 Djangos 的标准客户端，用于配置数据服务。更多信息请访问 `线上文档 <http://eoxserver.org/doc/en/users/operators.html>`__ 。
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient2.png
   :scale: 50 %

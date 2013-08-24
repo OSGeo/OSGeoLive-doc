@@ -52,7 +52,7 @@ OssimPlanet
 
 
 .. 注：::
-　　取消 :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris` 的勾选可以关闭光影渲染。
+  　　取消 :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris` 的勾选可以关闭光影渲染。
 
 
 更多内容
