@@ -304,7 +304,7 @@ Such functionality is available through `OpenLayers <http://openlayers.org>`_ an
 
 For this tutorial we have hacked a small demonstration in GeoExt (thanks `Bart van den Eijnden <https://github.com/bartvde>`_) using a demo pycsw installation at http://demo.pycsw.org/services/csw: 
 
-- Go to http://demo.pycsw.org/demos/gxp/examples/catalogue.html
+- Go to http://demo.pycsw.org/viewer/index2.html
 - Click icon "find layers"
 - Enter "airports" (without double quotes)
 - Click "search" or hit Enter
