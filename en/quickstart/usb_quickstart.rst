@@ -71,7 +71,7 @@ Booting from the USB drive:
 
    * Note, that for some computers you will need to have the USB drive inserted into the computer in order to select it.
    * Note also, the USB drive is often listed under hard drives rather than removable devices. 
-   * `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from USB.
+   * This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from USB.
 
 Run:
 --------------------------------------------------------------------------------
