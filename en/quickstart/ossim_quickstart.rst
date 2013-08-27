@@ -29,10 +29,10 @@ Imagelinker
 * Start Imagelinker from its icon from the "Spatial Tools" folder on
   the desktop 
 
-* Open an image file, using :menuselection:`File --> Open Image --> /home/user/data/raster/cape_cod/p011r031_7t19990918_z19_nn10.tif`
+* Open an image file, using :menuselection:`File --> Open Image --> /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif`
 
-* Repeat the previous operation for the files : `p011r031_7t19990918_z19_nn20.tif`
-  and `p011r031_7t19990918_z19_nn30.tif`
+* Repeat the previous operation for the files : `lsat7_2002_20.tif`
+  and `lsat7_2002_30.tif`
 
   .. image:: ../../images/screenshots/1024x768/ossim_imagelinker3.jpg
      :scale: 60 %
@@ -49,11 +49,11 @@ Imagelinker
   Try doing the same in the larger window.
 
 * Again in the large image window make sure the zoom button (magnifying
-  glass) is depressed and click in middle of the Cape (that's Wellfleet Harbor).
-  Then click again for a closer view, and again click the :guilabel:`Propagate`
+  glass) is depressed and click in middle of the big road intersection.
+  With the closer view in the window, again click the :guilabel:`Propagate`
   button in the large image window to sync that view with the other band windows.
-  In a similar way you can press the pan button (hand icon) and then click on
-  the end of the Cape, and then the :guilabel:`Propagate` button to align the
+  In a similar way you can press the pan button (hand icon) and then click to
+  move along the road, and then the :guilabel:`Propagate` button to align the
   other windows. 
 
 A more in depth tutorial covering merging bands into an RGB composite
@@ -68,11 +68,11 @@ OssimPlanet
 * Launch OssimPlanet from its icon in the "Desktop GIS" folder on the
   desktop 
 
-* Select :menuselection:`File --> Open Image --> /home/user/data/raster/cape_cod/cape_cod/p011r031_7t19990918_z19_nn10.tif`
+* Select :menuselection:`File --> Open Image --> /home/user/data/raster/meris/mosaic_MER...RGB_reduced/mosaic_ENVISAT-MER...RGB_reduced.tif`
   to load a LANDSAT image (or simply drag and drop the image into the main window).
 
 * In the `Layer` tree panel on the left side, click on the small triangle to
-  the left of *Image Layers* to expand it. Next double-click on ``p011r031_7t19990918_z19_nn10.tif``.
+  the left of *Image Layers* to expand it. Next double-click on ``mosaic_ENVISAT-MER_FRS...``.
   You should now see the scene zoom to the image's location.
 
 .. note:: To turn off the daylight auto-shading, `un`-check :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
