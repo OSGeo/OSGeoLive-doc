@@ -27,8 +27,6 @@ The OTB applications provide lot's of interesting tools which facilitate the man
   * GUI : in a standalone graphical user interface (in Qt)
   * QGIS plugin : available through Sextante
 
-See
-
 Sample data used in this quickstart can be found here:
   * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
 
