@@ -81,7 +81,7 @@ E poi?
 
   Segui i tutorials_ per imparare di più su Mapnik.
 
-.. _tutorials: http://trac.mapnik.org/wiki/MapnikTutorials
+.. _tutorials: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
 * Esplora i files sul DVD
 

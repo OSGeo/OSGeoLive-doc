@@ -73,7 +73,7 @@ Para ejecutar la demo simplemente sigue estos pasos:
 
   Sigue los tutoriales_ para aprender más sobre Mapnik.
 
-.. _tutoriales: http://trac.mapnik.org/wiki/MapnikTutorials
+.. _tutoriales: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
 * Explora los ficheros en el DVD
 

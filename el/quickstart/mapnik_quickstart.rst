@@ -72,7 +72,7 @@
 
   Ακολουθείστε τον σύνδεσμο tutorials_ για να μάθετε περισσότερα για το Mapnik.
 
-.. _tutorials: http://trac.mapnik.org/wiki/MapnikTutorials
+.. _tutorials: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
 * Εξερευνήστε τα αρχεία στο DVD
 

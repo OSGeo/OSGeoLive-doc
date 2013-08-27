@@ -83,7 +83,7 @@ Mapnik.
 
   Изучите руководства_, чтобы узнать подробнее о Mapnik.
 
-.. _руководства: http://trac.mapnik.org/wiki/MapnikTutorials
+.. _руководства: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
 * Изучите файлы на DVD
 

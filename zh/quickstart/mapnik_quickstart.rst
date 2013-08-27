@@ -71,7 +71,7 @@ Mapnik 与 OpenLayers
 
   跟随 教程_ 学习 Mapnik 的具体应用。
 
-.. _教程: http://trac.mapnik.org/wiki/MapnikTutorials
+.. _教程: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
 * 尝试 Live 上的其它数据
 

@@ -71,7 +71,7 @@ Wie geht es weiter?
 
   Lesen Sie das Tutorial_ um mehr über Mapnik zu lernen.
 
-.. _Tutorial: http://trac.mapnik.org/wiki/MapnikTutorials
+.. _Tutorial: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
 * Erkunden Sie die Dateien auf der DVD
 

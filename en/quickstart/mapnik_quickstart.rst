@@ -72,7 +72,7 @@ What Next?
 
   Follow the tutorials_ to learn more about Mapnik.
 
-.. _tutorials: http://trac.mapnik.org/wiki/MapnikTutorials
+.. _tutorials: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
 * Explore files on the DVD
 
