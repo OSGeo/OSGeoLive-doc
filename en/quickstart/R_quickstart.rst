@@ -266,9 +266,10 @@ In the past the documentation for R packages tended to be tersely-written help p
 for each function. Now package authors are encouraged to write a 'vignette' as a friendly
 introduction to the package. If you just run the ``vignette()`` function with no arguments
 you will get the list of those vignettes on your system. Try ``vignette("intro_sp")`` for a
-slightly technical introduction to the R spatial package, or ``vignette("shapefiles")`` for 
-explanations of using shapefiles in R. The ``vignette("gstat")`` gives a tutorial
-in the use of that package for spatial interpolation including Kriging.
+slightly technical introduction to the R spatial package. The ``vignette("gstat")`` gives a
+tutorial in the use of that package for spatial interpolation including Kriging.
+
+.. comment: doesn't work// or ``vignette("shapefiles")`` for explanations of using shapefiles in R.
 
 Further Reading
 ================================================================================
