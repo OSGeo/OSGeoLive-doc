@@ -13,7 +13,9 @@
 TinyOWS Quickstart 
 ********************************************************************************
 
-TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or FastCGI interface and using :doc:`PostGIS <../overview/postgis_overview>` for data storage.
+TinyOWS is a high performance, Transactional Web Feature Service (WFS-T)
+which is light weight and easy to deploy, using a CGI or FastCGI interface
+and using :doc:`PostGIS <../overview/postgis_overview>` for data storage.
 
 This Quick Start describes how to:
 
@@ -43,10 +45,6 @@ Display a WFS layer with QGIS
 #. Press :guilabel:`Add`.
 
 #. Zoom in
-
-#. Select :menuselection:`Plugins -> Manage Plugins -> WFS Plugin -> OK`
-
-   * Enable the WFS Layer plugin.
 
 #. Click :menuselection:`Layer --> Add WFS Layer...`.
 
