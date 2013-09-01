@@ -8,7 +8,7 @@ Standards de l'Open Geospatial Consortium (OGC)
 
 Introduction
 --------------------------------------------------------------------------------
-L'Open Geospatial Consortium (OGC) a été fondé en 1994 pour rendre l'information géographique partie intégrale des infrastructures du monde de l'information. Les membres de l'OGC – des développeurs et des utilisateurs de ces technologies -- développent de manière collaborative  des standards d'interfaces ouvertes avec des standards d'encodage associés, et aussi des "bonnes manières", qui permettent aux développeurs de créer des systèmes d'informations qui puissent facilement échanger de l'information "géospatial" et des instructions avec d'autres systèmes  d'information. Les besoins couvrent aussi bien des calendriers complexes et le contrôle de satellites d'observation de la Terre à l'affichage de simples images de carte sur le web et à l'encodage de position en quelques octets pour le géo-tagage et la messagerie. Un coup d'oeil sur les groupes de travail OGC par domaine (http://www.opengeospatial.org/projects/groups/wg) montre l'étendue large que couvre l'activité actuelle au sein de l'OGC.
+L'Open Geospatial Consortium (OGC) a été fondé en 1994 pour rendre l'information géographique partie intégrale des infrastructures du monde de l'information. Les membres de l'OGC – des développeurs et des utilisateurs de ces technologies -- développent de manière collaborative  des standards d'interfaces ouvertes avec des standards d'encodage associés, et aussi des "bonnes pratiques", qui permettent aux développeurs de créer des systèmes d'informations qui puissent facilement échanger de l'information "géospatial" et des instructions avec d'autres systèmes d'information. Les besoins couvrent aussi bien des calendriers complexes et le contrôle de satellites d'observation de la Terre à l'affichage de simples images de carte sur le web et à l'encodage de position en quelques octets pour le géo-tagage et la messagerie. Un coup d'oeil sur les groupes de travail OGC par domaine (http://www.opengeospatial.org/projects/groups/wg) montre la large étendue que couvre l'activité actuelle au sein de l'OGC.
 
 La ligne de base de l'OGC  et le modèle de référence de l'OGC
 --------------------------------------------------------------------------------
@@ -84,7 +84,7 @@ Les acronymes dans la figure sont définis ci-dessous. Certains d'entre eux sont
   * Symbology Encoding (http://www.opengeospatial.org/standards/symbol)
   * Transducer Markup Language (TML) (http://www.opengeospatial.org/standards/tml)
 
-See Also:
+Voir aussi :
 --------------------------------------------------------------------------------
 
 * Comprehensive list of OGC standards: http://www.opengeospatial.org/standards/
