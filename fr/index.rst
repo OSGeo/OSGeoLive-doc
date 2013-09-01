@@ -5,7 +5,8 @@ Bienvenue sur |osgeo-live-version|
 `OSGeo-Live <http://live.osgeo.org>`_ est un DVD, une clé USB bootable ou une
 image disque virtuelle indépendante basée sur `Xubuntu  
 <http://www.xubuntu.org/>`_, qui vous permet d'essayer une large variété de
-logiciels opensource géospatiaux sans n'installer quoi que ce soit. Il repose
+logiciels opensource géospatiaux sans avoir à installer quoi que ce 
+soit. Il repose
 entièrement sur des logiciels libres, ce qui permet de le redistribuer,
 dupliquer gratuitement et de le passer à n'importe qui.
 
@@ -65,7 +66,7 @@ Guides de démarrage rapide
 
 Présentation
 --------------------------------------------------------------------------------
-Une présentation d'une demi-heure, mettant en avant toutes les application de OSGeo-Live,
+Une présentation d'une demi-heure, mettant en avant toutes les applications de OSGeo-Live,
 est disponible en vidéo, avec les sources des slides et les scripts.
 
 Voir les détails sur la partie :doc:`presentation`.
