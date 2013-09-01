@@ -1,20 +1,20 @@
 :Author: Chris Schmidt
-:Version: osgeo-live4.0
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OpenLayers Guide de démarrage rapide 
+Guide de démarrage rapide OpenLayers
 ********************************************************************************
 
-OpenLayers Exemples
+Exemples OpenLayers
 --------------------------------------------------------------------------------
 Parfois, le meilleur moyen de comprendre comment OpenLayers fonctionne est de regarder les 
 exemples qui sont situés à: `http://localhost/openlayers/examples <../../openlayers/examples>`_.
 
-Creation de votre première carte
+Créer votre première carte
 --------------------------------------------------------------------------------
 L'API OpenLayers a deux concepts qui sont importants de comprendre afin de construire votre 
-première carte: «Map», et «Layer». La balise «Map» d'OpenLayers stocke des informations sur 
+première carte : «Map», et «Layer». La balise «Map» d'OpenLayers stocke des informations sur 
 la projection par défaut, l'étendue de la map, les unités, et d'autres informations sur la 
 map. À l'intérieur de la map, les données sont affichées via la balise «Layer». Un layer 
 comprend une source de données, l'information sur la façon qu'OpenLayers doit interroger les 
