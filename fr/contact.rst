@@ -1,4 +1,4 @@
-Nous contactez
+Nous contacter
 ================================================================================
 
 Le développement de OSGeo-Live est coordonné par email et chat internet (IRC)
