@@ -26,7 +26,7 @@ Maps and print templates created in QGIS desktop can be published as web maps si
 QGIS Server is usually run as CGI/FastCGI module within the Apache Webserver.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 40 %
+  :scale: 70 %
   :alt: project logo
   :align: right
 
