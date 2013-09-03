@@ -44,7 +44,7 @@ link_to_en_docs:
 	# For quickstart, standards and overview docs which have not been
 	# translated, link to english doc
 	for LANG in $(TRANSLATIONS) ; do \
-	  for DOC in en/*/* ; do \
+	  for DOC in en/overview/* en/quickstart/* en/standards/* ; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../../#"` ; \
 	    if [ ! -f $$TRANSLATED_DOC ] ; then \
@@ -173,7 +173,7 @@ link_to_en_docs_pdf:
 	# For quickstart, standards and overview docs which have not been
 	# translated, link to english doc
 	for LANG in $(PDF_LANG) ; do \
-	  for DOC in en/*/* ; do \
+	  for DOC in en/overview/* en/quickstart/* en/standards/* ; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../../#"` ; \
 	    if [ ! -f $$TRANSLATED_DOC ] ; then \
