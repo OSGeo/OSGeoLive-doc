@@ -24,9 +24,16 @@ Centre d'Informations pour l'Environnement de l'Université de Californie,
 Davis fournit des ressources matérielles et du support de développement pour le projet
 OSGeo-Live.
 
+.. image:: ../images/logos/ntua_logo.jpg
+  :scale: 40 %
+  :alt: National Technical University of Athens
+  :target: http://www.ntua.gr/index_en.html
+
+Le Laboratoire de Télédétection à l'Université Technique d'Athènes, fournit des ressources matérielles et un support de développement pour le projet OSGeo-Live.
+
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %
-  :alt: Les projets DebianGIS et UbuntuGIS
+  :alt: The DebianGIS and UbuntuGIS projects
   :target: http://wiki.debian.org/DebianGis
 
 Les projets DebianGIS et UbuntuGIS fournissent et vérifient la qualité de nombreux 
@@ -36,7 +43,7 @@ paquets principaux.
   :alt: Le bureau du gouvernement australien de gestion des données spatiales
   :target: http://www.osdm.gov.au
 
-Le bureau du gouvernement australien de gestion des données spatiales a sponsorisé
+Le bureau du gouvernement Australien de gestion des données spatiales a sponsorisé
 la relecture par LISAsoft des vues d'ensemble logicielles, pour assurer une écriture
 plus consistante et pertinente de la description des projets.
 
