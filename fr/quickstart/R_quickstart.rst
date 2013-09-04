@@ -8,7 +8,7 @@
   :align: right
 
 ********************************************************************************
-R Quickstart
+Démarrage rapide R
 ********************************************************************************
 
 R est un environnement libre dédié au calcul statistique et à la création de graphiques
@@ -20,19 +20,19 @@ Ce guide de démarrage rapide décrit comment :
   * faire un changement de système de projection
   * afficher des points sur une carte
   
-Start R
+Démarrer R
 ================================================================================
 
 Pour commencer deux solutions: 
 
-  * choisir ``R Statistics`` dans le menu Outils spatial - une fenêtre de terminal apparait dans laquelle R fonctionne.
-  * Entrer ``R`` comme ligne de commande dans le prompte du shell. R démarrera dans ce terminale 
+  * choisir ``R Statistics`` dans le menu Outils spatial - une fenêtre de terminal apparaît dans laquelle R fonctionne.
+  * Entrer ``R`` comme ligne de commande dans le prompt du terminal. R démarrera dans ce terminal.
   
-Ne vous fiez pas à la ligne de commande - c'est un outil d'une très grande puissance. Utilisez les flèches haut et bas
+Ne vous effrayez pas de la ligne de commande - c'est un outil d'une très grande puissance. Utilisez les flèches haut et bas
 pour rappeler des commandes que vous avez déjà effectuées, vous pouvez comme ça corriger des erreurs, ce qui pourra vous aider
 beaucoup. Taper CTRL-C si vous êtes bloqué en cours d'exécution pour abandonner l'action en cours et revenir au prompt.
 
-Quit R
+Quitter R
 ================================================================================
 
 Tout dans R est une fonction, y compris la fonction pour quitter . Tapez ``q()`` suivi de la touche entrée.
@@ -40,10 +40,10 @@ Si vous ne saisissez que ``q`` vous verrez s'afficher le code source de la fonct
 
 R vous demandera si vous voulez sauvegarder votre espace de travail comme une image de données R. 
 Quand vous redémarrerez R depuis un répertoire contenant un fichier ``.RData`` il devrait restaurer 
-toutes les données telles que vous les aurez alors laissés.
+toutes les données telles que vous les aurez alors laissées.
 
 
-Beginning R
+Débuter avec R
 ================================================================================
 
 R est essentiellement un programme en ligne de commande, bien que
@@ -73,7 +73,7 @@ intégrées dans R et des centaines d'autres sont disponibles depuis les package
 les archives `CRAN <http://cran.r-project.org/>`
 
 L'indicateur de prompt courant dans R est ``>``, mais il existe aussi le prompt de
-continuation ``+``, qui apparait si R attend plus d'entrées pour avoir une expression
+continuation ``+``, qui apparaît si R attend plus d'entrées pour avoir une expression
 valide. Vous pouvez retrouver ce signe si vous avez oublié de fermer un crochet ou
 une parenthèse.
 
@@ -85,18 +85,18 @@ une parenthèse.
    [1] 1.414214
 
 
-Building Data
+Construire des Données
 ================================================================================
 
-Vous vous demandez peut-être ce que le mystérieux 'un' dans des crochets faits dans
-vous résultats. C'est pour vous dire que le résultat est un nombre. R peut aussi 
+Vous vous demandez peut-être ce que le mystérieux 'un' entre crochets fait dans
+la sortie. C'est pour vous dire que le résultat est un nombre. R peut aussi 
 stocker des "choses" dans un vecteur à une dimension, dans une matrice à deux dimensions, 
-et dans des tableaux multi-dimentionels. Il y a plusieurs fonctions pour générer ce
+et dans des tableaux multi-dimensionnels. Il y a plusieurs fonctions pour générer ce
 genre de choses. Ici une simple séquence : 
 
 ::
 
-    > seq(1,5,len=10)
+    > seq(1, 5, len=10)
     [1] 1.000000 1.444444 1.888889 2.333333 2.777778 3.222222 3.666667 4.111111
     [9] 4.555556 5.000000
 
@@ -106,7 +106,7 @@ du vecteur.
 Si vous construisez une matrice vous avez alors les étiquettes des lignes et des colonnes.
 ::
 
-	> m=matrix(1:12,3,4)
+	> m=matrix(1:12, 3, 4)
 	> m
 	     [,1] [,2] [,3] [,4]
 	[1,]    1    4    7   10
@@ -144,7 +144,7 @@ ou les lignes en utilisant la notation $-notation :
 
 ::
 
-	> d = data.frame(x=1:10,y=1:10,z=runif(10)) # z is 10 random numbers
+	> d = data.frame(x=1:10, y=1:10, z=runif(10)) # z is 10 random numbers
 	> d
 	        x  y          z 
 	    1   1  1 0.44128080 
@@ -182,14 +182,14 @@ ou les lignes en utilisant la notation $-notation :
 
 
 
-Loading Map Data
+Charger des Données Cartographiques
 ================================================================================
 
-Il y a beaucoup de packages pour la manipulation de données spatiale et pour faire
+Il y a beaucoup de packages pour la manipulation de données spatiales et pour faire
 de la géostatistique. Quelques-uns sont inclus ici, et d'autres sont téléchargeables
-depuis le CRAN
+depuis le CRAN.
 
-Ici nous allons charger deux shapefiles - les pays et les zones peupler depuis 
+Ici nous allons charger deux shapefiles - les pays et les zones peuplées depuis 
 le jeu de données "the Natural Earth". Nous utilisons deux packages add-on pour
 avoir des fonctionnalités spatiales.
 
@@ -206,7 +206,7 @@ Nous donne une simple carte du monde :
 
 .. image:: ../../images/screenshots/1024x768/r_plot1.png
 
-Quand un datatset OGR est lu dans R nous pouvons de cette manière récupérer
+Quand un jeu de données OGR est lu dans R nous pouvons de cette manière récupérer
 un objet qui ressemble de plusieurs manières à un data frame. Nous pouvons
 juste utiliser le champ ``ADMIN`` pour récupère seulement le royaume uni.
 
@@ -217,7 +217,7 @@ juste utiliser le champ ``ADMIN`` pour récupère seulement le royaume uni.
 
 .. image:: ../../images/screenshots/1024x768/r_plot2.png
 
-Cela peut sembler un peu tirer par les cheveux pour celui qui arrive ici sans être
+Cela peut sembler un peu compliqué pour celui qui arrive ici sans être
 un peu familier avec les systèmes de coordonnées centrés sur nos latitudes. Actuellement
 l'objet n'a pas de système de coordonnées assigné - et nous pouvons le vérifier avec
 quelques fonctions : 
@@ -243,7 +243,7 @@ en l'EPSG:27700 qui est en vigueur dans le système de référence de Grande-Bre
 
 	> plot(ukos);axis(1);axis(2)
 
-Cela va afficher la carte de base des données transformée. Maintenant nous voulons ajouter 
+Cela va afficher la carte de base des données transformées. Maintenant nous voulons ajouter 
 quelques points issus des données sur les zones peuplées. Encore une fois on découpe les données
 des points et leurs appliquons une transformation dans le système de coordonnées "rdnance Survey Grid".
 
@@ -253,7 +253,7 @@ des points et leurs appliquons une transformation dans le système de coordonné
 	> proj4string(ukpop)=CRS("+init=epsg:4326")
 	> ukpop = spTransform(ukpop,CRS("+init=epsg:27700"))
 
-Nous ajoutons ces points a la carte, et ajustons l'échelle des symboles en utilisant 
+Nous ajoutons ces points à la carte, et ajustons l'échelle des symboles en utilisant 
 la racine carrée de la population (pour avoir des symboles proportionnels), définissons
 la couleur de contour en rouge et la forme du point en "blob solid".
 
@@ -262,7 +262,7 @@ la couleur de contour en rouge et la forme du point en "blob solid".
 	> points(ukpop,cex=sqrt(ukpop$POP_MAX/1000000),col="red",pch=19)
 	> title("UK Population centre sizes")
 
-et au final l'image apparait.
+et au final l'image apparaît.
 
 .. image:: ../../images/screenshots/1024x768/r_plot3.png
 
@@ -270,21 +270,21 @@ Vignettes
 ================================================================================
 
 Par le passé la documentation pour les packages R avait tendance à être laconique sur bien des points
-pour chaque fonction. Aujourd'hui les auteurs de packages sont très largement encouragés à écrire
+pour chaque fonction. Aujourd’hui les auteurs de packages sont très largement encouragés à écrire
 une 'vignette' pour aider à la prise en main des fonctions de leurs packages. Si vous entrez juste 
 ``vignette()`` sans arguments cela devrait vous renvoyer une liste de tous les arguments que peut
 prendre la fonction sur votre système. Essayez ``vignette("sp")`` pour une petite introduction technique
 aux structures spatiales dans R, ou ``vignette("spdep")`` pour une explication des analyses statistiques
-ou de l'autocorrélation spatiale. La ``vignette("gstat")`` renvoie un tutoriel pour l'usage de ce package
+ou de l'auto-corrélation spatiale. La ``vignette("gstat")`` renvoie un tutoriel pour l'usage de ce package
 pour des interpolations spatiales et une introduction au Kriging.
 
-Further Reading
+Lecture avancée
 ================================================================================
 
 Pour des informations générales au sujet de R essayez le site officiel : `Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_
 ou toute documentation venant des pages `R Project <http://www.r-project.org/>`_
 
-Pour plus d'informations sur les aspects spatiaux de R le meilleur endroit pour commencer est probablement 
+Pour plus d'informations sur les aspects spatiaux de R, le meilleur endroit pour commencer est probablement 
 `R Spatial Task View <http://cran.r-project.org/web/views/Spatial.html>`_
 
 Vous serez peut-être aussi intéressé par la page `R-Spatial <http://r-spatial.sourceforge.net/>`_
