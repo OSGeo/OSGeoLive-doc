@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GRASS.png
@@ -16,24 +16,24 @@
   :target: http://www.osgeo.org
 
 
-GRASS GIS
+SIG GRASS
 ================================================================================
 
 SIG complet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Le "Geographic Resources Analysis Support System", communément appelé GRASS est un Système
-d'information géographique (SIG) qui propose un puissant moteur de traitement raster, vecteur, 
-et traitement géospatial regroupé dans une unique suite logiciel. GRASS intègre des outils 
+d'Information Géographique (SIG) qui propose un puissant moteur de traitement raster, vecteur, 
+et traitement géospatial regroupé dans une unique suite logicielle. GRASS intègre des outils 
 pour la modélisation spatiale, la visualisation de rasters et de vecteurs, la gestion et 
 l'analyse de donnée géospatiale, et le traitement de données d'images satellites et images aériennes. 
 Il est également capable de produire des représentations graphiques sophistiquées pour l'impression
-papier. GRASS est aujourd'hui traduit dans 20 langues et supporte un très grand nombre de formats
+papier. GRASS est aujourd'hui traduit dans vingt langues et supporte un très grand nombre de formats
 de données.
 
 .. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
-   :alt: Capture d'écran
+   :alt: capture d'écran
    :align: right
 
 GRASS est utilisé dans le monde entier aussi bien pour des usages académiques que commerciaux, et 
@@ -46,36 +46,35 @@ Le logiciel GRASS intègre nativement plus de 400 modules d'analyses. De plus, p
 wiki de la communauté. Après près de 30 ans de développements continus, 
 GRASS est parmi les plus vieux et plus gros projets SIG libres disponibles. Il est facilement
 scriptable et assez polyvalent pour être utilisé tant pour traiter des données 
-par lots sur ​​des supercalculateurs massivement parallélisés que pour être utilisé sur des SIG de bureau, 
-des PDA ou sur des netbooks
+par lots sur ​​des supercalculateurs massivement parallélisés que pour être utilisé sur des SIG de bureau, des PDA ou sur des netbooks
 
 
 .. _GRASS: http://grass.osgeo.org
 
-Caractéristiques principales
+Fonctionnalités principales
 --------------------------------------------------------------------------------
 
-* Vous nommez un fonction, vous trouverez un outil pour ça dans Grass.
+* Vous nommez une fonction, vous trouverez un outil pour ça dans Grass.
 * Explorez la `collection de captures d'écran <http://grass.osgeo.org/screenshots/>`_.
 
 Détails
 --------------------------------------------------------------------------------
 
-**Site web:** http://grass.osgeo.org
+**Site web :** http://grass.osgeo.org
 
-**Licence:** Licence GNU General Public (GPL) version 2
+**Licence :** Licence GNU General Public (GPL) version 2
 
-**Version du logiciel:** 6.4.2
+**Version du logiciel :** 6.4.3
 
-**Plates-formes supportées:** GNU/Linux, Mac OSX, MS Windows
+**Plates-formes supportées :** GNU/Linux, Mac OSX, MS Windows
 
-**Interfaces de l'API:** C, Python, Bourne Shell
+**Interfaces de l'API :** C, Python, Bourne Shell
 
-**Support:** http://grass.osgeo.org/community/support.php
+**Support :** http://grass.osgeo.org/community/support.php
 
 
 Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/grass_quickstart>`
+* :doc:`Documentation de démarrage rapide <../quickstart/grass_quickstart>`
 
