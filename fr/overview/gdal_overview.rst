@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
@@ -22,17 +22,17 @@ Outils de transformation de données géospatiales
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geospatial Data Abstraction Library (GDAL/OGR) fournit des utilitaires en ligne 
-de commandes pour transformer et traiter un large éventail de formats de données 
+de commande pour transformer et traiter un large éventail de formats de données 
 géospatiales raster et vecteur.
 
-Les utilitaires sont vasées sur une bibliothèque en C++, multiplates-formes, accessible
-par de nombreux languages de programmation.  Comme bibliothèque, elle s'appuie sur 
+Les utilitaires sont basées sur une bibliothèque en C++, multi plates-formes, accessible
+par de nombreux langages de programmation.  Comme une bibliothèque, elle s'appuie sur 
 un seul modèle de données pour les applications qui se connectent dessus pour tous 
 les formats supportés.
 
 GDAL/OGR est la bibliothèque la plus utilisée pour l'accès aux données spatiales. Il 
 fournit le moteur d'accès principal aux données pour de nombreuses applications 
-dont MapServer, GRASS, QGIS, et OpenEV. Il est aussi utilisé par des logiciels comme 
+dont MapServer, GRASS, QGIS, et OpenEV. Elle est aussi utilisé par des logiciels comme 
 OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide et ArcGIS.
 
 .. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
@@ -71,7 +71,7 @@ Détails
 
 **Licence:** `license opensource style X/MIT <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Version du logiciel:** 1.7.0 (1.9.1)
+**Version du logiciel:** 1.10.0
 
 **Plates-formes supportées:** Windows, Linux, Mac
 
@@ -82,4 +82,4 @@ Détails
 Guide de démarrage rapide
 --------------------------------------------------------------------------------
     
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/gdal_quickstart>`
+* :doc:`Documentation de démarrage rapide <../quickstart/gdal_quickstart>`
