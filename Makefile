@@ -137,7 +137,18 @@ licenses.csv :
 fix_index:
 	cp index.template index.rst
 
-html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs link_to_en_docs
+presentation: 
+	for LANG in en $(TRANSLATIONS) ; do \
+	  mkdir -p $(BUILDDIR)/html/$$LANG; \
+	  if [ -d $$LANG/presentation ] ; then \
+	    ../bin/make_presentation.sh $$LANG/presentation $(BUILDDIR)/html/$$LANG/presentation ; \
+	  else  \
+	    rm -f $(BUILDDIR)/html/$$LANG/presentation; \
+	    ln -s ../en/presentation $(BUILDDIR)/html/$$LANG/presentation; \
+	  fi; \
+	done; \
+
+html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs link_to_en_docs presentation
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
