@@ -82,7 +82,7 @@ Details
 
 **Website:** http://www.qgis.org
 
-**Licence:** GPL
+**Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** 1.8.0
 
