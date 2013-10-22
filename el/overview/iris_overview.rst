@@ -3,22 +3,22 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-IRIS.png
+.. image:: ../../images/project_logos/logo-iris.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
 
-IRIS
+Iris
 ================================================================================
 
-IRIS - Μια βιβλιοθήκη Python για Μετεωρολογία και Κλιματολογία
+Iris - Μια βιβλιοθήκη Python για Μετεωρολογία και Κλιματολογία
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Η Iris είναι μια ισχυρή και εύκολη στη χρήση βιβλιοθήκη Python για την ανάλυση
 και την οπτικοποίηση μετεωρολογικών και οκεανοφραφικών δεδομένων.
 
 .. image:: ../../images/screenshots/800x600/iris.jpg
-  :alt: IRIS
+  :alt: Iris
   :align: right
   :scale: 80 %
   

@@ -3,14 +3,14 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-IRIS.png
+.. image:: ../../images/project_logos/logo-iris.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://scitools.org.uk/iris/docs/latest/index.html
 
 ********************************************************************************
-Getting Started with IRIS
+Getting Started with Iris
 ********************************************************************************
 
 .. contents::

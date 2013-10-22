@@ -3,12 +3,12 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-IRIS.png
-  :alt: IRIS project logo
+.. image:: ../../images/project_logos/logo-iris.png
+  :alt: Iris project logo
   :align: right
   :target: http://scitools.org.uk/iris/
 
-IRIS
+Iris
 ================================================================================
 
 Meteorologie und Klimatologie
@@ -19,7 +19,7 @@ Iris ist eine leistungsstarke Python Bibliothek für die Analyse und Visualisier
 Derzeit unterstützt Iris read/write Zugriff auf eine Reihe von Datenformaten inklusive (CF-)netCDF, GRIB, und PP Dateien.
 
 .. image:: ../../images/screenshots/800x600/iris.jpg
-  :alt: IRIS
+  :alt: Iris
   :align: right
   :scale: 80 %
   
