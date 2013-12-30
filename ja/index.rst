@@ -1,5 +1,5 @@
 
-|osgeo-live-version| −Ｌｉｖｅへようこそ
+|osgeo-live-version| -Live へようこそ
 ================================================================================
 `OSGeo-Live <http://live.osgeo.org>`_ は仮想マシン `Xubuntu <http://www.xubuntu.org/>`_ をベースとした起動可能なブータブルDVD／USBメディアです。これを利用することで、幅広く多様なオープンソースの地理空間ソフトウェアを、インストールなどの必要無しに試すことができます。OSGeo-Live は全てフリーソフトで構成されており、自由に複製、配布することができます。
 
@@ -40,7 +40,6 @@ OSGeo-Live は様々な地理空間関連の保管、配布、表示、分析、
    :glob:
 
    overview/overview
-   quickstart/*quickstart
    standards/standards
    contact
    copyright
