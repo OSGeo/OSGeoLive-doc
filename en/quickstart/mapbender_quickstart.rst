@@ -54,6 +54,7 @@ Start Mapbender
 #. Choose  :menuselection:`Mapbender` from the start menu or visit http://localhost/mapbender3/app.php
 
 
+#. The application will take a few moments to start up
 
 If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running.
 
@@ -101,13 +102,13 @@ The Application overview provides the following functionality:
 
  * title and description
  * link to the application
- * button to edit the application 
+ * button to duplicate the application
+ * button to edit the application
  * button to publish/unpublish the application
- * button to delete the application 
- * button to create a new application 
+ * button to delete the application
+ * button to create a new application
  * with the filter textfield you can search for applications
 
-  .. NOT IMPLEMENTED YET: In Mapbender you have template applications, that you can use to set up your own applications.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_overview.png
      :scale: 80
@@ -124,6 +125,8 @@ Create a new application by providing basic information about your application. 
 
 #. define an URL title which will be used in the URL to open te application. It can be the same as the title
 
+#. choose a template for your application
+
 #. choose the button **Create** to create the application
 
 #. click the :menuselection:`Edit-Button` at the new application to edit the application
@@ -133,11 +136,12 @@ Create a new application by providing basic information about your application. 
   .. image:: ../../images/screenshots/800x600/mapbender3_create_application.png
      :scale: 80
 
-..
-  NOT IMPLEMENTED YET
-  Copy or rename an application
-  ================================================================================
- You also can create a new application by copying an existing application. Go t  o :menuselection:`Application Management --> Rename/copy application`, choose the application you want to copy and define a name for the new application. This functionality not only copies the application, it also copies the services of the application and the user/groups (optional). That means that the new application already has map services and the user and groups which have access to the copied application will have access to the new application too.
+.. tip:: Please note, that the style-, icon- and layoutconfiguration has to be done in css- and twig-files at the moment. Read more about template generation at http://doc.mapbender3.org/en/book/templates.html
+
+
+Copy or rename an application
+================================================================================
+You also can create a new application by copying an existing application. Every application with write access can be copied. It provides a button to duplicate the application with all the services. The new application will get a derived name which can be changed in the next step.
 
 
 Delete an application
@@ -281,15 +285,16 @@ Mapbender offers a set of elements. You can add the elements to your application
 
 #. Notice that you have different areas in your application. Make sure to add the element to a region that makes sense.
 
+#. Configure the element. Notice: When you select an element for example **map** you see that the element has a set of attributes. Each element offers individual attributes for configuration.
+
+#. You can change the position of the element via drag & drop
+
 #. Have a look at your application. Open your application from :menuselection:`Applications --> Applications Overview`
 
 Now you should get an idea how easy it is to change a Mapbender application without changes in the code. 
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_elements.png
      :scale: 80
-
-.. NOT IMPLEMENTED YET 
- When you select an element for example **map** you see that the element has a set of attributes. These attributes are HTML attributes. By defining a Mapbender element you define an HTML element. On start of your application Mapbender will create an HTML page from all defined elements.
 
 Examples for elements Mapbender3 offers:
 
@@ -314,7 +319,7 @@ Examples for elements Mapbender3 offers:
 * Navigation Toolbar (Zoombar)
 * WMS Loader
 
-You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_.
+You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
 
 
 Try it yourself
@@ -349,6 +354,8 @@ Create a user
 
 #. Save your new user.
 
+#. You can provide more information about the user in the tab :menuselection:`Profile`.
+
 .. image:: ../../images/screenshots/800x600/mapbender3_create_user.png
      :scale: 80 
 
@@ -377,11 +384,14 @@ Assign users to group
 
 Roles
 =====
-Mapbender3 provides different roles you can assign to a group.
+Mapbender3 provides different rights. They refer to the Symfony ACL System http://symfony.com/doc/2.1/cookbook/security/acl_advanced.html#built-in-permission-map
 
-* Can administrate everything (super admin) 
-* Can administrate users & groups 
-* Can administrate applications 
+* view - Whether someone is allowed to view the object.
+* edit - Whether someone is allowed to make changes to the object.
+* delete - Whether someone is allowed to delete the object.
+* operator - Whether someone is allowed to perform all of the above actions.
+* master - Whether someone is allowed to perform all of the above actions, and in addition is allowed to grant any of the above permissions to others.
+* owner - Whether someone owns the object. An owner can perform any of the above actions and grant master and owner permissions.
 
 #. Assign roles to a user by :menuselection:`Users --> Edit your User --> Security`.
 
@@ -438,6 +448,11 @@ You find tutorials at
 
   http://api.mapbender3.org
 
+
+Get to know Mapbender on 
+	
+	http://projects.mapbender.osgeo.org
+
 Get involved in the project
 
-  http://www.mapbender3.org/Community
+    http://www.mapbender.org/Community
