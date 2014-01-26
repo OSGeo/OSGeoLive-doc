@@ -84,7 +84,7 @@ Detalls
 
 **Llicència:** `MIT`_
 
-**Versió de programari:** 1.4.0
+**Versió de programari:** 1.6.1
 
 **Sistemes operatius:** Windows, Linux, Mac
 

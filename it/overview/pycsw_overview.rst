@@ -89,7 +89,7 @@ Dettagli
 
 **Licenza:** `MIT`_
 
-**Versione software:** 1.6.0
+**Versione software:** 1.6.1
 
 **Piattaforme supportate:** Windows, Linux, Mac
 

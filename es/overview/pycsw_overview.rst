@@ -96,7 +96,7 @@ Detalles
 
 **Licencia:** `MIT`_
 
-**Versión del software:** 1.4.0
+**Versión del software:** 1.6.1
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

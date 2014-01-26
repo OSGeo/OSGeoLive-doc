@@ -74,7 +74,7 @@ Szczegóły
 
 **Licencja:** `MIT`_
 
-**Wersja programu:** 1.2.0
+**Wersja programu:** 1.6.1
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
