@@ -1,6 +1,7 @@
-:Author: Jorge Sanz 
+:Author: Jorge Sanz
+:Author: Manuel Madrid
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -22,22 +23,13 @@ gvSIG Desktop
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-gvSIG_ is a Geographic Information System (GIS) desktop application
-designed for capturing, storing, handling, analysing and deploying any kind of
-referenced geographic information in order to solve complex management and
-planning problems. gvSIG is known for its user-friendly interface and being
-able to access all common vector and raster formats. It features
-a wide range of tools for working with geographic information (query,
-layout creation, geoprocessing, networks, etc.), which turns gvSIG into the
-ideal tool for users working in the land realm.
+gvSIG_ is a Geographic Information System (GIS) desktop application designed for capturing, storing, handling, analysing and deploying any kind of referenced geographic information in order to solve complex management and planning problems. gvSIG is known for its user-friendly interface and being able to access all common vector and raster formats. It features a wide range of tools for working with geographic information (query, layout creation, geoprocessing, networks, etc.), which turns gvSIG into the ideal tool for users working in the land realm.
 
 gvSIG is known for:
 
 * integrating in the same view both local and remote data through OGC standards.
-* being easily extendible, allowing continuous application 
-  enhancement, as well as enabling the development of tailor-made solutions.
-* being available in over 20 languages (Spanish, English, German, French, 
-  Italian,...).
+* being easily extendible, allowing continuous application enhancement, as well as enabling the development of tailor-made solutions.
+* being available in over 20 languages (Spanish, English, German, French, Italian,...).
 * being available for Windows and Linux (there are also non-oficial Mac OS X versions).
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
@@ -48,36 +40,30 @@ gvSIG is known for:
 Core Features
 --------------------------------------------------------------------------------
 
-* Provides common GIS tools like data loading, map navigation, query 
-  map information like alphanumeric information, distance measurement, thematic
-  cartography, legend edition using common legend types, labelling,
-  feature selection by many selection types, data tables with statistics,
-  ordering, table relations, table linking, layout manager, geoprocessing tools,
-  CAD, raster processing, etc.
+* Provides common GIS tools like data loading, map navigation, query map information like alphanumeric information, distance measurement, thematic cartography, legend edition using common legend types, labelling, feature selection by many selection types, data tables with statistics, ordering, table relations, table linking, layout manager, geoprocessing tools, CAD, raster processing, etc.
 
 * Interoperable: able to work with most known data formats:
 
-  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
+  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF...
   * vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * databases: PostGIS, MySQL, Oracle, ArcSDE
-  * remote: ECWP, ArcIMS, OGC standards
+  * remote: OGC standards (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS
 
-* Discovery services client to localize data resources within an
-  SDI (catalogue and gazeteer services)
-  
+* Discovery services client to localize data resources within an SDI (catalogue and gazeteer services)
+
   * Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteers: ADL, WFS, WFS-G
-  
-* More than 340 geoalgorithms via SEXTANTE library
-  
+
+* More than 300 geoalgorithms via SEXTANTE library
+
 * Integrated advanced CAD tools:
 
   * vector data: modify, create and delete elements
   * command console typical element in CAD software
   * tools like help, grid, command stack, complex element selections
   * tools for inserting elements like points, polygons, lines, ellipses, etc...
-  * tools to modify its rotation, symmetry,...
-  
+  * tools to modify its rotation, scale, symmetry,...
+
 * Integrated advanced raster tools:
 
   * georeferencing and reprojecting
@@ -86,9 +72,14 @@ Core Features
   * filters, vectorization
   * overviews and regions of interest management
 
-* Scripting support
-* Powerful reprojection engine via PROJ4
-
+* Other features
+  * Scripting support (for both vector and raster data)
+  * Powerful reprojection engine via PROJ4
+  * Import/export symbol sets
+  * Map sheets composer
+  * Charts
+  * Advanced symbology tools
+  * Advanced labelling tools
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -119,5 +110,5 @@ Details
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`
