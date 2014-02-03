@@ -1,4 +1,3 @@
-
 .. .. meta::
 ..   :http-equiv=refresh: 0;url=http://cameronshorter.blogspot.com/2010/09/osgeolive-40-lightening-overview.html
 
