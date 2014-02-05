@@ -1,4 +1,6 @@
-﻿.. OSGeo-Live documentation master file, created by
+﻿:Translator: Bu Kun (OSGeo ID: bukun)
+
+.. OSGeo-Live documentation master file, created by
    sphinx-quickstart on Tue Jul  6 14:54:20 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -26,16 +28,18 @@
 * :doc:`openjump_overview` - [:doc:`快速入门 <../quickstart/openjump_quickstart>`] — 轻量化桌面 GIS
 * :doc:`saga_overview` - [:doc:`快速入门 <../quickstart/saga_quickstart>`] — 桌面 GIS
 
-网页 GIS
+网页 GIS（Browser Facing GIS）
 --------------------------------------------------------------------------------
 用于浏览器环境的 GIS 信息浏览、编辑和分析工具
 
 * :doc:`openlayers_overview` - [:doc:`快速入门  <../quickstart/openlayers_quickstart>`] — 网页 GIS 服务
+* :doc:`leaflet_overview` - [:doc:`快速入门 <../quickstart/leaflet_quickstart>`] -  Mobile Friendly Interactive Maps
 * :doc:`geomajas_overview` - [:doc:`快速入门  <../quickstart/geomajas_quickstart>`] — 网页 GIS 服务
 * :doc:`mapbender_overview` - [:doc:`快速入门  <../quickstart/mapbender_quickstart>`] — 网络地图服务集成框架
 * :doc:`mapfish_overview` - [:doc:`快速入门  <../quickstart/mapfish_quickstart>`] — 网页制图服务框架
 * :doc:`geomoose_overview` - [:doc:`快速入门 <../quickstart/geomoose_quickstart>`] — 网页 GIS 服务集成
 * :doc:`cartaro_overview` - [:doc:`快速入门 <../quickstart/cartaro_quickstart>`] - 具备空间功能的内容管理系统
+* :doc:`geonode_overview` - [:doc:`快速入门  <../quickstart/geonode_quickstart>`] - 地理空间内容管理系统
 
 网络服务
 --------------------------------------------------------------------------------
@@ -44,6 +48,7 @@
 * :doc:`geoserver_overview` - [:doc:`快速入门 <../quickstart/geoserver_quickstart>`] — 空间数据网络发布
 * :doc:`mapserver_overview` - [:doc:`快速入门 <../quickstart/mapserver_quickstart>`] — 空间数据图形表达和管理
 * :doc:`deegree_overview` - [:doc:`快速入门 <../quickstart/deegree_quickstart>`] — 网络空间数据服务
+* :doc:`ncWMS_overview` - [:doc:`快速入门 <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`快速入门 <../quickstart/eoxserver_quickstart>`] - 网络地理信息编录服务
 * :doc:`geonetwork_overview` - [:doc:`快速入门 <../quickstart/geonetwork_quickstart>`] — 元数据编目管理
 * :doc:`pycsw_overview` - [:doc:`快速入门 <../quickstart/pycsw_quickstart>`] — 元数据编目发布
@@ -137,13 +142,12 @@ Windows 和 Apple Mac 安装
 
 文档创作与翻译
 --------------------------------------------------------------------------------
-　　OSGeo Live 文档是由 OSGeo 社区成员和各个软件项目的开发团队共同完成的。非英语版本来自于 Live 翻译团队。
 
-　　中文版本主要由以下三位成员翻译：
+OSGeo Live 文档是由 OSGeo 社区成员和各个软件项目的开发团队共同完成的。非英语版本来自于 Live 翻译团队。
 
-　　　　Xianfeng Song　（song.osgeo@gmail.com）
+中文版本主要由以下成员翻译（排序按加入时间）：
 
-　　　　Jing Wangwang　（jing-2008-jing@163.com）
-
-　　　　Zhengfan Lin　（public.t.lin@gmail.com）
-
+ * Xianfeng Song　(song.osgeo@gmail.com)
+ * Jing Wangwang　(jing-2008-jing@163.com)
+ * Zhengfan Lin　(public.t.lin@gmail.com)
+ * Bu Kun ( bukun <at> live.cn )
