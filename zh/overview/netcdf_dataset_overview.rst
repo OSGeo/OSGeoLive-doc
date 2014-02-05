@@ -27,7 +27,7 @@ NetCDF数据集
 
 .. Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consortium), in cooperation with AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
 
-NetCDF（网络通用数据格式）是支持创建科学数据的一组程序库和自描述的，与机器无关的数据格式。NetCDF版本4.0及以上支持HDF5格式，设计用来存储和组织大量的数值数据。
+NetCDF（网络通用数据格式）是支持创建科学数据的一组程序库和自描述的，与机器无关的数据格式。NetCDF版本4.0及以上支持HDF5格式，设计用来存储和管理大量的数值数据。
 
 此示例数据集提供全年每天最高温度高，年最大连续五天的降水，包括历史和预测数据，为1850年至2012年和2006年至2100年（见附带的文本文件的详细信息）。
 
@@ -40,7 +40,6 @@ JAMSTEC（日本海洋 - 地球科学技术代理署，神奈川县，日本）�
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right
-
 
 
 
