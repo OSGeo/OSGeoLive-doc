@@ -54,11 +54,13 @@
 * :doc:`pycsw_overview` - [:doc:`快速入门 <../quickstart/pycsw_quickstart>`] — 元数据编目发布
 * :doc:`mapproxy_overview` - [:doc:`快速入门 <../quickstart/mapproxy_quickstart>`] — 网页地图及切片服务代理
 * :doc:`qgis_mapserver_overview` - [:doc:`快速入门 <../quickstart/qgis_mapserver_quickstart>`] — 网页地图服务
-* :doc:`52nWSS_overview` - [:doc:`快速入门 <../quickstart/52nWSS_quickstart>`] — 网络空间数据安全管理
 * :doc:`52nWPS_overview` - [:doc:`快速入门 <../quickstart/52nWPS_quickstart>`] — 网页空间数据处理服务
 * :doc:`52nSOS_overview` - [:doc:`快速入门 <../quickstart/52nSOS_quickstart>`] — 传感器观测数据获取
 * :doc:`tinyows_overview` - [:doc:`快速入门 <../quickstart/tinyows_quickstart>`] — 基于事务的网页空间要素服务
 * :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
+
+
+.. disabled: * :doc:`52nWSS_overview` - [:doc:`快速入门 <../quickstart/52nWSS_quickstart>`] — 网络空间数据安全管理
 
 数据库
 --------------------------------------------------------------------------------
@@ -74,11 +76,12 @@
 
 * :doc:`gpsdrive_overview` - [:doc:`快速入门 <../quickstart/gpsdrive_quickstart>`] — GPS 导航
 * :doc:`gpsprune_overview` - [:doc:`快速入门 <../quickstart/gpsprune_quickstart>`] — GPS 航迹编辑器
+* :doc:`marble_overview` - [:doc:`快速入门 <../quickstart/marble_quickstart>`] - 虚拟地球
 * :doc:`opencpn_overview` - [:doc:`快速入门 <../quickstart/opencpn_quickstart>`] — 海图导航
 * :doc:`osm_overview` - [:doc:`快速入门 <../quickstart/osm_quickstart>`] — Open Street Map 相关工具
 * :doc:`viking_overview` - [:doc:`快速入门 <../quickstart/viking_quickstart>`] — GPS 数据编辑与分析
 
-空间分析工具
+空间工具
 --------------------------------------------------------------------------------
 空间信息分析系统
 
@@ -87,10 +90,11 @@
 * :doc:`mapnik_overview` - [:doc:`快速入门 <../quickstart/mapnik_quickstart>`] — 地图制作
 * :doc:`tilemill_overview` - [:doc:`快速入门 <../quickstart/tilemill_quickstart>`] - 地图渲染和发布
 * :doc:`maptiler_overview`  - [:doc:`快速入门 <../quickstart/maptiler_quickstart>`] — 栅格地图切片化
+* :doc:`ossim_overview` [:doc:`快速入门 <../quickstart/ossim_quickstart>`] - 影像处理
 * :doc:`otb_overview` - [:doc:`快速入门 <../quickstart/otb_quickstart>`] — 图像处理
 * :doc:`R_overview`  - [:doc:`快速入门 <../quickstart/R_quickstart>`] — 空间数据统计
 
-专门用途 GIS 系统
+专门领域 GIS 系统
 --------------------------------------------------------------------------------
 特定 GIS 应用领域的专业工具
 
@@ -98,8 +102,9 @@
 * :doc:`ushahidi_overview` - [:doc:`快速入门 <../quickstart/ushahidi_quickstart>`] — 
 * :doc:`osgearth_overview` - [:doc:`快速入门 <../quickstart/osgearth_quickstart>`] — 3D 地形渲染函数库
 * :doc:`mb-system_overview` - [:doc:`快速入门 <../quickstart/mb-system_quickstart>`] — 海底地图制作
-* :doc:`marble_overview` - [:doc:`快速入门 <../quickstart/marble_quickstart>`] — 3D 虚拟地球
 * :doc:`zygrib_overview` - [:doc:`快速入门 <../quickstart/zygrib_quickstart>`] — 天气预报的图形表达
+
+
 
 数据
 --------------------------------------------------------------------------------
@@ -108,6 +113,7 @@
 * :doc:`naturalearth_overview` — 地学基础数据集
 * :doc:`nc_dataset_overview` — 北卡罗莱纳州地理数据集
 * :doc:`osm_dataset_overview` — Open Street Map 的数据样本
+* :doc:`netcdf_dataset_overview` - 时间序列气温和降水
 
 地理空间操作函数库
 --------------------------------------------------------------------------------
@@ -117,11 +123,11 @@
 * :doc:`geotools_overview` - Java GIS 工具箱
 * :doc:`geos_overview` - C/C++ 空间操作
 * :doc:`metacrs_overview` - 坐标投影转换
-* :doc:`liblas_overview` - LiDAR 激光立体扫描数据处理
+* :doc:`liblas_overview` -  [:doc:`快速入门 <../quickstart/liblas_quickstart>`]  - LiDAR 激光立体扫描数据处理
 
-其它软件（Live 系统未安装）
+其它相关软件（未包含在Live 系统）
 --------------------------------------------------------------------------------
-微软 Windows 环境下：
+微软 Windows 环境专有：
 
 .. MapWindow 为 Windows 专有（.net），不能运行于 Ubuntu
 
@@ -137,8 +143,14 @@
 
 Windows 和 Apple Mac 安装
 --------------------------------------------------------------------------------
+包含在OSGeo-Live 完整镜像中：
 * `Microsoft Windows 安装包 <../../WindowsInstallers/>`_
 * `Apple OSX 安装包 <../../MacInstallers/>`_
+
+Metrics
+--------------------------------------------------------------------------------
+
+* :doc:`Project Metrics <../metrics>` from Ohloh
 
 文档创作与翻译
 --------------------------------------------------------------------------------
