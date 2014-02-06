@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
+:Translator(Zh): Bu Kun (OSGeo ID: bukun)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -23,7 +24,7 @@ OSSIM
 影象处理
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-　　Open Source Software Image Map（OSSIM）是一套高性能的软件系统，用于处理遥感影响、地理数据和摄影测量信息。
+　　Open Source Software Image Map（OSSIM）是一套高性能引擎，用于遥感、图像处理、地理信息系统和摄影测量信息。
 
 　　OSSIM 项目从 1996 年开始开发。它由美国政府资助，并在其研究和事务机构使用。
 
@@ -44,10 +45,10 @@ OSSIM
 * 支持众多的地理坐标系统和投影
 * 本地数据访问
 * 精确的地形与正射矫正系统
-* 高级影象与融合功能
-* 数字高程信息处理
+* 高级镶嵌、合成与融合功能
+* 支持数字高程信息
 * 矢量数据（包括 `shapelib <http://shapelib.maptools.org/>`_ ）支持。
-* 投影与分辨率适应性
+* 投影与分辨率独立性
 * 数学公式编辑
 
 详细信息
