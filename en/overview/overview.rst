@@ -120,7 +120,7 @@ Geospatial Libraries
 * :doc:`geos_overview` - C/C++ Spatial Library 
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations 
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
-* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - LiDAR Data Access 
+* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
