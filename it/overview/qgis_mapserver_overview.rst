@@ -29,7 +29,7 @@ ad un server web (es. Apache, Lighttpd).
 
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 40 %
+  :scale: 70 %
   :alt: project logo
   :align: right
 

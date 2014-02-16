@@ -1,7 +1,7 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
 :Reviewer: Cameron Shorter, http://lisasoft.com
-:Version: osgeo-live6.5draft
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
@@ -67,7 +67,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** 1.0
+**Versione Software:** 1.2
 
 **Piattaforme supportate:** Windows, Linux, Mac
 

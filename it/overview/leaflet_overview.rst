@@ -88,7 +88,7 @@ Caratteristiche principali
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://leaflet.cloudmade.com
+**Sito web:** http://leafletjs.com
 
 **Licenza:** BSD
 

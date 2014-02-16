@@ -1,7 +1,8 @@
-:Author: Jorge Sanz 
+:Author: Jorge Sanz
+:Author: Manuel Madrid
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Antonio Falciano
-:Version: osgeo-live7.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png

@@ -20,16 +20,16 @@ l'utilizzo della minima quota di spazio sul disco da parte di programmi che cond
 librerie di supporto, e che in futuro queste componenti possono essere aggiornate in 
 sicurezza senza rendere gli altri programmi inutilizzabili.
 
-* http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.9.dmg
+* http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.10.dmg
 * http://www.kyngchaos.com/files/software/frameworks/FreeType_Framework-2.4.10-1.dmg
 * http://www.kyngchaos.com/files/software/frameworks/cairo_Framework-1.12.2-1.dmg
-* http://www.kyngchaos.com/files/software/frameworks/GSL_Framework-1.15-2.dmg
+* http://www.kyngchaos.com/files/software/frameworks/GSL_Framework-1.16-1.dmg
 * http://www.kyngchaos.com/files/software/frameworks/TclTk_Aqua-8.5.8-2.dmg
 * http://www.kyngchaos.com/files/software/frameworks/Spatialite_Tools-3.0.zip
-* http://www.kyngchaos.com/files/software/frameworks/rgdal-0.7.20-1.dmg
-* http://www.kyngchaos.com/files/software/postgresql/PostgreSQL-9.1.6-1.dmg
-* http://www.kyngchaos.com/files/software/grass/GRASS-6.4.2-5-Snow.dmg
-* http://www.kyngchaos.com/files/software/postgresql/PostGIS-2.0.2-1.dmg
+* http://www.kyngchaos.com/files/software/frameworks/rgdal-0.8.8-1.dmg
+* http://www.kyngchaos.com/files/software/postgresql/PostgreSQL-9.2.4-2.dmg
+* http://www.kyngchaos.com/files/software/grass/GRASS-6.4.3-1-Snow.dmg
+* http://www.kyngchaos.com/files/software/postgresql/PostGIS-2.0.3-4.dmg
 * http://www.kyngchaos.com/files/software/qgis/QGIS-1.8.0-2.dmg
 * http://udig.refractions.net/files/downloads/udig-1.3.2.macosx.cocoa.x86_64.zip
 * http://download.osgeo.org/ossim/installers/mac/imagelinker-1.7.15-appbundle.dmg

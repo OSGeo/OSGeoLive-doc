@@ -1,10 +1,7 @@
 :Author: Peter Baumann
-:Author: Jinsongdi Yu
-:Author: Dimitar Misev
-:Author: Michael Owonibi
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live6.0
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
