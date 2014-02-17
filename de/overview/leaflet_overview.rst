@@ -15,8 +15,8 @@ Leaflet
 Browser/Mobile Map Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. TBD Add the following image:
-  .. image:: ../../images/screenshots/1024x768/leaflet-overview.png
+
+.. image:: ../../images/screenshots/1024x768/leaflet-overview.png
   :scale: 50
   :alt: leaflet
   :align: right
@@ -35,7 +35,7 @@ Kernfunktionen
 
 * Kartenebenen
 
-    * Kacheln, Marker, Popups, Image Overlays, WMS, GeoJSON, 
+    * Kacheln, Marker, Popups, Image Overlays, WMS, GeoJSON
     * Vectoren: Polylinien, Polygone, Kreise, Rechtecke, Kreismarker
     * Layergruppen
 
@@ -45,6 +45,14 @@ Kernfunktionen
     * Image- and HTML-based markers
     * Custom map layers, controls, projections
     * Powerful OOP facilities for extending existing classes
+
+* Interaktion und visuelle Features
+    * Drag panning with inertia
+    * Keyboard Navigation
+    * Multi-Touch
+    * Zoom/Panning Animation
+    * Ansprechendes Standarddesign der Marker, Popups und anderer Kartenkontrollelemente
+    * Retina Resolution Unterstützung für gekachelte Ebenen und Marker
 
 * Performance Features
 
@@ -63,22 +71,21 @@ Kernfunktionen
     * Chrome
     * Firefox
     * Safari 5+
-    * Opera 11.11+
-    * IE 7–10
-    * IE 6 (nicht perfekt aber zugreifbar)
+    * Opera 12+
+    * IE 7–11
 
 * Mobiler Browser Support
 
-    * Safari für iOS 3/4/5/6+
+    * Safari für iOS 3-7+
     * Android Browser 2.2+, 3.1+, 4+
     * Chrome für Android 4+ und iOS
     * Firefox für Android
     * Andere webkit-basierte Browser (webOS, Blackberry 7+, etc.)
-    * IE10 für Win8-basierte Geräte
+    * IE10/IE11 für Win8-basierte Geräte
 
 * Weiteres
 
-    * Extremely leicht — etwa 31 KB JS Code als gzip
+    * Extremely leicht — etwa 34 KB JS Code als gzip
     * Keine externen Abhängigkeiten
     * Hält Ihre JS Umgebung sauber — kleine globalen oder nativen Prototype Verunreinigungen
 
@@ -86,11 +93,11 @@ Kernfunktionen
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://leaflet.cloudmade.com
+**Website:** http://leafletjs.com
 
 **Lizenz:** BSD
 
-**Software Version:** 0.6.2
+**Software Version:** 0.7.2
 
 **Unterstützte Plattformen:** Windows, Mac, Linux, Android, iOS
 
