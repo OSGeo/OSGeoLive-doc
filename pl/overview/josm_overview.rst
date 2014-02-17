@@ -80,7 +80,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2. Uwaga: Wtyczki JOSM mogą mieć inne licencje.
 
-**Wersja programu:** 5697
+**Wersja programu:** r6060
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
@@ -89,9 +89,9 @@ Szczegóły
 **Wsparcie:** http://www.osgeo.org/search_profile
 
 
-.. Quickstart
+.. Wprowadzenie
 .. --------------------------------------------------------------------------------
 .. 
-.. * :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
+.. * :doc:`Przejdź do wprowadzenia <../quickstart/josm_quickstart>`
 
 

@@ -66,13 +66,13 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 6.4.2
+**Wersja programu:** 6.4.3
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 
 **Interfejsy API:** C, Python, Bourne Shell
 
-**Wsparcie:** http://grass.osgeo.org/support
+**Wsparcie:** http://grass.osgeo.org/support/
 
 Szybkie wprowadzenie
 --------------------------------------------------------------------------------

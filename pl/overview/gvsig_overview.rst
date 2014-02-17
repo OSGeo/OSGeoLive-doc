@@ -1,7 +1,7 @@
 :Author: Jorge Sanz 
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -42,7 +42,7 @@ gvSIG jest znany z:
   aplikacji, jak i dopasowywanie jej do potrzeb różnych użytkowników.
 * bycia dostępnym w ponad 20 językach (hiszpańskim, angielskim, 
   niemieckim, francuskim, włoskim, ...).
-* bycia dostępnym dla platform Windws, Linux, i Mac OS X:
+* bycia dostępnym dla platform Windws, Linux (sa również nieoficjalne wydania na Mac OS X).
 
 .. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
@@ -63,7 +63,7 @@ Główne funkcje
 * Interopercyjność: może pracować na większości znanych formatów danych:
 
   * rastrowych: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, ...
-  * wektorowych & CAD: shapefile, GML, KML, DGN, DXF, DWG
+  * wektorowych & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * bazodanowych: PostGIS, MySQL, Oracle, ArcSDE
   * zdalnych: ECWP, ArcIMS, standardy OGC
 
@@ -72,7 +72,7 @@ Główne funkcje
   * Katalogi: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetery: ADL, WFS, WFS-G
   
-* Ponad 340 algorytmów przestrzennych poprzez integrację biblioteki SEXTANTE i systemu GRASS 
+* Ponad 340 algorytmów przestrzennych poprzez integrację biblioteki SEXTANTE
   
 * Zintegrowane zaawansowane narzędzia CAD:
 
@@ -100,7 +100,7 @@ Zaimplementowane standardy
 
 Zaawansowane wsparcie klienta wielu standardów Open Geospatial Consortium (OGC)
 
-* Wczytywanie warstw WMS, WFS i WCS
+* Wczytywanie warstw WMS, WMTS, WFS i WCS
 * Eksport/import legend SLD
 * Eksport/import Web Map Context (WMC)
 * Przeszukiewnie katalogów CSW (ISO/19115 i ebRIM)
