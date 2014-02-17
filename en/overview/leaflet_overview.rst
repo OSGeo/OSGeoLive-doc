@@ -35,7 +35,7 @@ Core Features
 
 * Map Layers
 
-    * Tiles, Markers, Popups, Image overlays, WMS, GeoJSON, 
+    * Tiles, Markers, Popups, Image overlays, WMS, GeoJSON 
     * Vectors: polylines, polygons, circles, rectangles, circle markers
     * Layer groups
 
@@ -45,6 +45,14 @@ Core Features
     * Image- and HTML-based markers
     * Custom map layers, controls, projections
     * Powerful OOP facilities for extending existing classes
+
+* Interaction and Visual Features
+    * Drag panning with inertia
+    * Keyboard navigation
+    * Multi-touch
+    * Zoom/Panning animation
+    * Very nice default design for markers, popups and other map controls
+    * Retina resolution support for tile layers and markers
 
 * Performance Features
 
@@ -63,22 +71,21 @@ Core Features
     * Chrome
     * Firefox
     * Safari 5+
-    * Opera 11.11+
-    * IE 7–10
-    * IE 6 (not perfect but accessible)
+    * Opera 12+
+    * IE 7–11
 
 * Mobile Browser Support
 
-    * Safari for iOS 3/4/5/6+
+    * Safari for iOS 3-7+
     * Android browser 2.2+, 3.1+, 4+
     * Chrome for Android 4+ and iOS
     * Firefox for Android
     * Other webkit-based browsers (webOS, Blackberry 7+, etc.)
-    * IE10 for Win8-based devices
+    * IE10/IE11 for Win8-based devices
 
 * Misc
 
-    * Extremely lightweight — around 31 KB of gzipped JS code
+    * Extremely lightweight — around 34 KB of gzipped JS code
     * No external dependencies
     * Keeps your JS environment clean — no global or native prototypes pollution
 
@@ -90,7 +97,7 @@ Details
 
 **Licence:** BSD
 
-**Software Version:** 0.6.2
+**Software Version:** 0.7.2
 
 **Supported Platforms:** Windows, Mac, Linux, Android, iOS
 
