@@ -1,10 +1,8 @@
 :Author: Johannes Wilden
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _deegree-overview:
 
 .. image:: ../../images/project_logos/logo-deegree.png
   :scale: 80 %
@@ -18,99 +16,101 @@
   :align: right
   :target: http://www.osgeo.org
 
-
 deegree
 ================================================================================
 
 Usługi sieciowe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-deegree is free, stable, powerful and easy to use. deegree is
-the most comprehensive set of implementations of Open Geospatial
-Consortium (OGC) standards in free and open source software, ranging
-from a transactional Web Feature Service to three-dimensional data
-display through a Web Terrain Service and many more!
+deegree dostarcza geoprzestrzennych usług sieciowych bazujących na specyfikacjach `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ i `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ . deegree wspiera:
 
-deegree is a solution for web- and desktop-based
-Geographic Information Systems (GIS) and Spatial Data Infrastructures
-(SDI). It is comprised of a comprehensive yet powerful Java Application
-Programming Interface (API) and a powerful object-relational mapping for
-simple and complex spatial schemas. deegree also provides a set of
-standards-compliant webservices for web mapping, feature and catalogue
-services as well as sensor and processing services.
-
-deegree gets your SDI up and running, using your own data and fulfilling
-your requirements.
-
+* `Web Map Services (WMS) <http://www.opengeospatial.org/standards/wms>`_: Serves maps rendered from geospatial data
+* `Web Map Tile Services (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Serves pre-rendered map tiles
+* `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services
+* `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Executes geospatial processes
 
 .. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
-  :scale: 50%
-  :alt: project logo
+  :scale: 55 %
+  :alt: TBD
   :align: right
 
-Niektóre przykładowe funkcje
+Główne funkcje
 --------------------------------------------------------------------------------
 
-* Web Map Service
+**WFS**
 
-  * very flexible concerning layer contents
-  * obsługa i stosowanie definicji stylów (SLD 1.0)
-  * możliwości map tematycznych poprzez wykresy (okrągłe, słupkowe, 
-    liniowe) jako symbolizacja punktowa
-  * źródła danych: wszystkie powszechne usługi sieciowe OGC (WMS, 
-    WFS, WCS), PostgreSQL/PostGIS, Oracle Spatial, wszystkie zapytania 
-    SQL mogą być użyte do utworzenia zawartości warstwy WMS
-  * bardzo stabilny, nawet przy dużych skalach
-  * obsługa żądań HTTP GET, HTTP POST oraz feature info
-  * certyfikat zgodności ze standardami OGC
+* Implements WFS standards 1.0.0, 1.1.0 and 2.0.0
+* Fully transactional (even for rich data models)
+* Supports KVP, XML and SOAP requests
+* GML 2/3.0/3.1/3.2 output/input
+* Support for GetGmlObject requests and XLinks
+* High performance and excellent scalability
+* On-the-fly coordinate transformation
+* Designed for rich data models from the bottom up
+* Backends support flexible mapping of GML application schemas to relational models
+* ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear curves)
+* Advanced filter expression support based on XPath 1.0
+* Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, Shapefiles or GML instance documents
 
-* Web Feature Service
+**WMS**
 
-  * obsługa prostych jak i złożonych obiektów
-  * transformacja współrzędnych w locie dla ponad 3000 ukłdów współrzędnych
-  * supports flexible output formats
-  * easily enhanced to support INSPIRE directive
+* Implements WMS standards 1.1.1 and 1.3.0
+* Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0
+* High performance and excellent scalability
+* High quality rendering
+* Scale dependent styling
+* Support for SE removes the need for a lot of proprietary extensions
+* Easy configuration of HTML and other output formats for GetFeatureInfo responses
+* Uses stream-based data access, minimal memory footprint
+* Nearly complete support for raster symbolizing as defined in SE (with some extensions)
+* Complete support for TIME/ELEVATION and other dimensions for both feature and raster data
+* Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or GML instance documents
+* Can render rich data models directly
 
-* Web Coverage Service
+**WMTS**
 
-  * obsługa żądań HTTP GET i HTTP POST
-  * bazy danych: obrazy (tif, png, jpeg, gif, bmp); GeoTIFF; pliki ECW; Oracle GeoRaster
-  * szybki dostęp do do dużych pokryć
+* Implements Basic WMTS standard 1.0.0 (KVP)
+* High performance and excellent scalability
+* Supports different backends, such as GeoTIFF, remote WMS or file system tile image hierarchies
+* Supports on-the-fly caching (using EHCache)
+* Supports GetFeatureInfo for remote WMS backends
 
-* Catalogue Service
+**CSW**
 
-  * źródła danych: PostgreSQL-Database; Oracle-Database
-  * obsługa żądań: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; 
-    Transaction - Insert, Update, Delete; Harvesting
+* Implements CSW standard 2.0.2
+* W pełni tranzakcyjny
+* Obsługa zapytań KVP, XML i SOAP
+* High performance and excellent scalability
+* ISO Metadata Application Profile 1.0.0
+* Pluggable and modular dataaccess layer allows to add support for new APs and backends
+* Modular inspector architecture allows to validate records to be inserted against various criteria
+* Standard inspectors: schema validity, identifier integrity, INSPIRE requirements
+* Handles all defined queryable properties (for Dublin Core as well as ISO profile) 
+* Kompleksowe zapytania filtrujące
 
-* Web Map Print Service
+**WPS**
 
-  * obsługa wielu formatów wydruku (HTML, PDF, PNG)
-  * obsługa wydruków długich w czasie
-  * obsługa żądań asynchronicznych umożliwiające wydruki wielkoskalowe
-  * żądania przechowywane w bazie zanychmogą być dostępne nawet jeśli WMPS 
-    jest zatrzymane przez administratora lub błąd komputera
-
-* Web Perspective View Service
-
-   * źródła danych: zdalny/lokalny-WMS, zdalny/lokalny-WFS, lokalny-WCS, 
-     Postgres/PostGIS, Oracle Spatial
-   * modelami terenu mogą być dane wektorowe lub rastrowe
-   * zapytania: Get3DFeatureInfo, GetView
-
+* Zaimplementowany standard WPS 1.0.0
+* Obsługa zapytań KVP, XML i SOAP
+* Pluggable process provider layer
+* Łatwe w użyciu API do implementowania procesów Java
+* Supports all variants of input/output parameters: literal, bbox, complex (binary and xml)
+* Streaming access for complex input/output parameters
+* Processing of huge amounts of data with minimal memory footprint
+* Supports storing of response documents/output parameters
+* Supports input parameters given inline and by reference
+* Supports RawDataOutput/ResponseDocument responses
+* Supports asynchronous execution (with polling of process status)
 
 Zaimplementowane standardy
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 w trakcie)
-* OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 w trakcie)
-* OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; łącznie z OGC ISOAP 1.0 
-  i profilem INSPIRE
-* OGC Web Perspective View Service (WPVS) Draft 6
-* OGC Web Coordinate Transformation Service (WCTS) 0.4.0
-* OGC Web Processing Service (WPS) 0.4.0, 1.0.0
-* OGC Sensor Observation Service (SOS) 1.0.0
+* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 i 2.0.0
+* OGC Web Map Service (WMS) 1.1.1 i 1.3.0
+* OGC Web Map Tile Service (WMTS) 1.1.0
+* OGC Catalogue Service-Web (CSW) 2.0.2
+* OGC Web Processing Service (WPS) 1.0.0
+* OGC GML 2.12, 3.0.1, 3.1.1 i 3.2.1
 
 Szczegóły
 --------------------------------------------------------------------------------

@@ -16,18 +16,20 @@
 O produkcie
 --------------------------------------------------------------------------------
 
-The 52North Web Security Service (WSS) lets you easily restrict access to spatial services and
-their resources using role-based permissions.
+52North Web Security Service (WSS) pozwala w łatwy sposób
+zastrzec dostęp do przestrzennych usług sieciowych oraz ich
+zasobów przez przydzielenie ról i uprawnień
 
-With 52North WSS you can define access policies like:
+Za pomocą 52North WSS możesz zdefiniować rodzaje dostępu:
 
-  *All users in role 'external' are allowed to access just layers A and B of the WMS with GetMap.*
+  *Wszyscy użytkownicy w roli 'external' mają możliwość
+  dostępu tylko do warstw A i B usługi WMS poprzez GetMap.*
 
-or
+lub
 
-  *GetFeatureInfo is only allowed on layer A in a specific area defined by a bounding box.*
+  *GetFeatureInfo jest dopuszczalne dla warstwy A w zadanym obszarze zdefiniowanym przez zasięg bounding box.*
 
-The 52North WSS is a Java Web Application which usually runs in a Apache Tomcat Servlet container.
+52North WSS  jest to Java Web Application, która zwykle działa w Apache Tomcat Servlet container.
 It acts as a proxy for an arbitrary number of OGC Web Services, receiving all requests and acting 
 upon the defined policies. Thus, existing service implementations don't need to be changed.
 Policies and users are defined in XML configuration files, which are maintained from a general management interface.
@@ -42,20 +44,20 @@ Funkcje
 
 **Autoryzacja**
 
-Includes protection of:
+Pozwala na ochronę:
 
-* Web Mapping Service (WMS): layers, spatial extents
-* Web Feature Service (WFS): feature types, features and their attributes, spatial extents
+* Web Mapping Service (WMS): warstw, zasięgów przestrzennych
+* Web Feature Service (WFS): typów obiektów, obiektów i ich atrybutów, zasięgów przestrzennych
 * Sensor Observation Service (SOS): offerings, procedures, spatial extents, temporal extents
-* Web Processing Service (WPS): processes
+* Web Processing Service (WPS): procesów
 
-**Authentication**
+**Autentykacja**
 
 Multiple user authentication methods supported, such as:
 
 * HTTP Basic Authentication
 * SAML Assertions (Security Assertions Markup Language)
-* ... and others
+* ... i inne
 
 
 Szczegóły

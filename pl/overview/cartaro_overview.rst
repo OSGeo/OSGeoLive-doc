@@ -2,7 +2,7 @@
 :Author: Patric Hafner, http://www.geops.de
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer:
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-cartaro.png
@@ -21,7 +21,7 @@ System Zarządzania Treścią (CMS) Drupal. Za pomocą kilku kliknięć w Cartar
 jesteś w stanie stworzyć i uruchomić usługi sieciowe w standardach OGC oraz
 stworzyć mapy na stronach internetowych. Cartaro jest zbudowane na komponentach
 Open Source: bazie danych :doc:`PostGIS <../overview/postgis_overview>`, usługach 
-GeoWebCache :doc:`GeoServer <../overview/geoserver_overview>` , mapach w przeglądarce
+GeoWebCache :doc:`GeoServer <../overview/geoserver_overview>`, mapach w przeglądarce
 internetowej :doc:`OpenLayers <../overview/openlayers_overview>`, wszystko 
 zarządzane za pomocą potężnego systemu zarządzania treścią `Drupal <http://drupal.org>`_ CMS.
 
@@ -70,7 +70,7 @@ Szczegóły
 
 **Licencja:** GNU General Public License (GPL) wersja 2
 
-**Wersja programu:** 1.0-beta4
+**Wersja programu:** 1.2
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
@@ -81,4 +81,4 @@ Szczegóły
 Quickstart
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/cartaro_quickstart>`
+* :doc:`Przejdź do wprowadzenia  <../quickstart/cartaro_quickstart>`

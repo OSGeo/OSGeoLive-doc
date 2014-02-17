@@ -2,7 +2,7 @@
 :Author: Stephan Meissl, Stephan Krause
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer:
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver.png
@@ -41,7 +41,7 @@ Główne funkcje
 * Przeglądanie, filtrowanie, wybieranie i pobieranie danych EO
 * Rejestracja archiwów danych EO
 * Web based and command line administration interface
-* Publikowanie danych :doc:`Open Geospatial Consortium (OGC) standards 
+* Publikowanie danych z wykorzystaniem standardów :doc:`Open Geospatial Consortium (OGC)  
   <../standards/standards>`:
 
   * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 and 
