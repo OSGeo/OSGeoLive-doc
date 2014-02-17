@@ -1,7 +1,7 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -47,8 +47,9 @@ Odległe algorytmy dostępne z:
 
 Obsługiwane formaty wejścia i wyjścia:
 
-* Dane wektorowe: GML2, GML3, pliki SHP, KML, WKT (Well-known Text), DGN
+* Dane wektorowe: GML2, GML3, pliki SHP, KML, WKT (Well-known Text), DGN, JSON
 * Dane rastrowe: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA
+* Wyniki mogą być przechowywane w GeoServer/MapServer
 
 Klient w przeglądarce internetowej
 
@@ -64,13 +65,13 @@ Szczegóły
 
 **Strona internetowa:** http://52north.org/wps
 
-**Licencja:** Powszechna Licencja Publiczna GNU (GPL)
+**Licencja:** Powszechna Licencja Publiczna GNU (GPL 2)
 
 **Wersja programu:** WPS |version-52nWPS|
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
-**Wsparcie komercyjne:** http://www.52north.org
+**Wsparcie komercyjne:** http://52north.org
 
 
 Wprowadzenie

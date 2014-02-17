@@ -1,7 +1,7 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org)
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer:
-:Version: osgeo-live6.0
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _52nSOS-overview-pl:
@@ -20,7 +20,9 @@ Usługi sieciowe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
-pozwala na czytanie zarówno archiwalnych, jak i danych odbieranych bezpośrednio przez sensory zdalne bądź in-situ. Sensorem może być kamera znajdująca się na satelicie lub wodomierz w strumieniu.
+pozwala na czytanie zarówno archiwalnych, jak i danych odbieranych bezpośrednio 
+przez sensory zdalne bądź in-situ. Sensorem może być kamera znajdująca się 
+na satelicie lub wodomierz w strumieniu.
  
 .. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 60 %
@@ -41,8 +43,10 @@ OGC SOS 1.0.0
 **Główne funkcje SOS**:
 
 * GetCapabilities - zapytanie o opis usługi.
-* GetObservation - zapytanie o czyste dane z sensora, zakodowane w Observations & Measurements (O&M).
-* DescribeSensor - zapytanie o informacje o samym sensorze, zakodowane w standardzie Sensor Model Language (SensorML).
+* GetObservation - zapytanie o czyste dane z sensora, zakodowane 
+w Observations & Measurements (O&M).
+* DescribeSensor - zapytanie o informacje o samym sensorze, zakodowane 
+w standardzie Sensor Model Language (SensorML).
 
 **Transakcyjne operacje SOS**:
 
@@ -51,24 +55,28 @@ OGC SOS 1.0.0
 
 **Dodatkowe funkcje SOS**:
 
-* GetResult - umożliwia cykliczne pobieranie danych z sensora.
+* GetResult - cykliczne pobieranie danych z sensora.
 * GetObservationById - pobieranie konkretnych, pojedynczych obserwacji.
-* GetFeatureOfInterest - pobieranie informacji w postacji zakodowanej w GML o funkcji, która jest przedmiotem obserwacji.
+* GetFeatureOfInterest - pobieranie informacji w postacji zakodowanej 
+w GML o funkcji, która jest przedmiotem obserwacji.
 * GetFeatureOfInterestTime - czasowa dostępność danych z sensora.
 
 OGC SOS 2.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* GetCapabilities, for requesting a self-description of the service.
-* GetObservation, for requesting the pure sensor data encoded in Observations & Measurements (O&M).
-* DescribeSensor, for requesting meta information about the sensor itself, encoded in a Sensor Model Language (SensorML) instance document.
-* GetFeatureOfInterest, for requesting the GML encoded representation of the feature that is the target of the observation.
+* GetCapabilities- zapytanie o opis usługi.
+* GetObservation - zapytanie o czyste dane z sensora, zakodowane 
+w Observations & Measurements (O&M).
+* DescribeSensor- zapytanie o informacje o samym sensorze, zakodowane 
+w standardzie Sensor Model Language (SensorML).
+* GetFeatureOfInterest - zapytanie o zakodowaną w GML reprezentację 
+obiektu będącego celem obserwacji.
 
-Within these requests the following filter operators are possible:
+Z powyższymi zapytaniami możliwe są następujące operatory filtrujące:
 
-* Spatial filter: BBOX, using a bounding box.
-* Temporal filter: During, with time period.
-* Temporal filter: TEquals, with time instant.
+* Filtr przestrzenny: BBOX, stosujący zasięg ograniczający.
+* Filtr temporalny: During, z okresem czasu.
+* Filtr temporalny: TEquals, z konkretnym czasem.
 
 Zaimplementowane standardy
 --------------------------------------------------------------------------------
@@ -95,6 +103,8 @@ Szczegóły
 **Wsparcie społeczności:** http://sensorweb.forum.52north.org/
 
 **Strona internetowa społeczności:** http://52north.org/communities/sensorweb/
+
+**Inne projekty 52°North:** :doc:`WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
 
 Wprowadzenie
 --------------------------------------------------------------------------------
