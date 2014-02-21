@@ -37,7 +37,7 @@ Caratteristiche principali
 
 * Map Layers
 
-    * Tiles, Markers, Popups, Immagini, WMS, GeoJSON, 
+    * Tiles, Markers, Popups, Immagini, WMS, GeoJSON
     * Vettoriali: polilinee, poligoni, cerchi, rettangoli, markers circolari
     * Gruppi di layer
 
@@ -47,6 +47,15 @@ Caratteristiche principali
     * Markes basati su immagini e HTML
     * Map layers, controlli, proiezioni personalizzabili
     * Potente struttura OOP per estendere le classi esistenti
+
+* Caratteristiche visuali e di interazione:
+
+    * Muovere la mappa con inerzia
+    * Navigazione da tastiera
+    * Multi-touch 
+    * Animazione per zoom e spostamento
+    * Design preimpostato per markers, popup e altri controlli accattivante
+    * Retina resolution support for tile layers and markers 
 
 * Caratteristiche per le prestazioni
 
@@ -65,22 +74,21 @@ Caratteristiche principali
     * Chrome
     * Firefox
     * Safari 5+
-    * Opera 11.11+
-    * IE 7–10
-    * IE 6 (non perfetto ma accessibile)
+    * Opera 12+
+    * IE 7–11
 
 * Mobile Browser supportati
 
-    * Safari per iOS 3/4/5/6+
+    * Safari per iOS 3-7+
     * Android browser 2.2+, 3.1+, 4+
     * Chrome per Android 4+ and iOS
     * Firefox per Android
     * Altri browser basati su webkit (webOS, Blackberry 7+, etc.)
-    * IE10 per dispositivi basati su Win8
+    * IE10/IE11 per dispositivi basati su Win8
 
 * Varie
 
-    * Estremamente leggero — circa 31 KB codice JavaScript zippato
+    * Estremamente leggero — circa 34 KB codice JavaScript zippato
     * Nessuna dipendenza esterna
     * Mantiene il vostro ambiente di JavaScript pulito - nessun inquinamento con prototipi globale o nativi
 
@@ -92,7 +100,7 @@ Dettagli
 
 **Licenza:** BSD
 
-**Versione software:** 0.6.2
+**Versione software:** 0.7.2
 
 **Piattaforme Supportate:** Windows, Mac, Linux, Android, iOS
 

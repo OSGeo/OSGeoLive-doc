@@ -1,6 +1,6 @@
 :Author: Barbara Angerer, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
@@ -81,7 +81,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2.0
 
-**Versione software:** 2.0 RC1
+**Versione software:** 2.0
 
 **Piattaforme supportate:** Windows, Linux, Mac
 

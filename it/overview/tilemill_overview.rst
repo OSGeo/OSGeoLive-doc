@@ -6,7 +6,7 @@
 :Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-tilemill.png
-  :scale: 60 %
+  :scale: 100 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -32,7 +32,7 @@ Tilemill fa uso della libreria di restituzione di mappe :doc:`Mapnik <mapnik_ove
 Tilemill è tipicamente usato insieme con software GIS desktop (come QuantumGIS) per preparare i dati, e editor grafici (come GIMP) per creare icone, patterns e tessiture.
 
 .. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
-  :scale: 70 %
+  :scale: 50 %
   :alt: TilleMill user interface
   :align: right
 
