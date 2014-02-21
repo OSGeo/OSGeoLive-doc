@@ -269,9 +269,8 @@ Nel passato la documentazione per R consisteva in pagine di aiuto scritte concis
 Oggi, gli autori dei pacchetti sono incoraggiati a scrivere 'vignette come introduzione intuitiva al
 pacchetto. Digitando solo la funzione ``vignette()``  senza nessun argomento si ottiene una lista di
 quelle vignette presenti sul proprio sistema. Prova ``vignette("intro_sp")`` per una introduzione poco tecnica
-ai pacchetti che utilizzano dati spaziali presenti in R, oppure ``vignette("shapefiles")`` per una spiegazione
-di come utilizzare shapefiles in R. ``vignette("gstat")`` fornisce un tutorial per l'uso del pacchetto per
-l'interpolazione spaziale incluso il Kriging.
+ai pacchetti che utilizzano dati spaziali presenti in R. ``vignette("gstat")`` fornisce un tutorial per
+l'uso del pacchetto per l'interpolazione spaziale incluso il Kriging.
 
 Approfondimenti
 ================================================================================

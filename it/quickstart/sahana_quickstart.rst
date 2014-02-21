@@ -16,14 +16,15 @@ Guida rapida su Sahana
 Come incominciare
 ================================================================================
 
-Sahana Eden è già installato e configurato quando incomincerete con OSGeo-Live. 
-Per accedere a  Sahana Eden, `cliccare qui <http://127.0.0.1:8007/eden>`_, o cliccate 
-sul menu Geospatial, quindi Crisis Management, infine Sahana Eden. Di default,
-dovreste avere solo i permessi di visualizzazione per accedere ai dati. Se volete
-creare nuovi record, o modificare quelli esistenti, dovrete essere loggati come un
-utente - usare le seguenti credenziali per incominciare.
+Sahana Eden è già installato e configurato quando incomincerete con OSGeo-Live.
+Per accedere a  Sahana Eden, cliccare sul menu Geospatial, quindi Crisis Management,
+infine Sahana Eden. Se avete è già stato avviato in precedenza basta
+`cliccare qui <http://127.0.0.1:8007/eden>`_. Di default, dovreste avere solo i
+permessi di visualizzazione per accedere ai dati. Se volete creare nuovi record,
+o modificare quelli esistenti, dovrete essere loggati come un utente - usare le
+seguenti credenziali per incominciare.
 
-* Username: admin
+* E-mail: admin
 * Password: admin
 
 Se avete inserito dati crowd-sourced di esempio in Ushahidi, è possibile accedere a 

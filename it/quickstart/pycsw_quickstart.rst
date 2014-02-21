@@ -345,7 +345,7 @@ e `GeoExt <http://www.geoext.org/>`_.
 Per questo tutorial abbiamo creato una piccola dimostrazione in GeoExt (grazie `Bart van den Eijnden <https://github.com/bartvde>`_)
 usando un'installazione demo di pycsw in http://demo.pycsw.org/services/csw: 
 
-- Andare http://demo.pycsw.org/demos/gxp/examples/catalogue.html
+- Andare http://demo.pycsw.org/viewer/index2.html
 - Cliccare l'icona "find layers"
 - Inserire "airports" (senza doppie virgolette)
 - Cliccare "search" o premente Enter

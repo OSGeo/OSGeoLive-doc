@@ -47,10 +47,6 @@ Visualizzare un layer WFS con QGIS
 
 #. Aumentare lo zoom
 
-#. Selezionare :menuselection:`Plugins -> Manage Plugins -> WFS Plugin -> OK`
-
-   * Abilitare il plugin WFS Layer.
-
 #. Cliccare :menuselection:`Layer --> Add WFS Layer...`.
 
    * Ora si aggiunge un layer WFS basato sulla stessa tabella
