@@ -22,7 +22,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://www.postgis.net
+  :target: http://postgis.net
 
 ********************************************************************************
 PostGIS Quickstart
@@ -180,23 +180,19 @@ Creating A Spatial Table The Hard Way
 Now we have a spatial database we can make some spatial tables.
 
 First we create an ordinary database table to store some city data.
-This table has two fields - one for a numeric ID and one for the city
-name:
+This table has three fields - one for a numeric ID identifying the city, 
+one for the city name, and another for the geometry column:
 
 ::
 
-  demo=# CREATE TABLE cities ( id int4, name varchar(50) );
+  demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), the_geom geometry(POINT,4326) );
 
-Next we add a geometry column to store the city locations.
-Conventionally this is called
-``the_geom``. This tells PostGIS what kind of geometry
+Conventionally this geometry column is called
+``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry
 each feature has (points, lines, polygons etc), how many dimensions
-(in this case two), and the spatial reference
-system. We'll be using EPSG:4326 coordinates for our cities.
+(in this case, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
+system. We used EPSG:4326 coordinates for our cities.
 
-::
-
-  demo=# SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
 
 Now if you check the cities table you should see the new column, and be informed
 that the table currently contains no rows.
@@ -478,7 +474,7 @@ Things to try
 
 Here are some additional challenges for you to try:
 
-#. Try some more spatial functions like ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)`` - you will find full documentation at http://www.postgis.net/documentation/
+#. Try some more spatial functions like ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``st_x(the_geom)`` - you will find full documentation at http://postgis.net/documentation/
 
 #. Export your tables to shapefiles with ``pgsql2shp`` on the command line.
 
@@ -492,8 +488,8 @@ This is only the first step on the road to using PostGIS. There is a lot more fu
 
 PostGIS Project home
 
- http://www.postgis.net
+ http://postgis.net
 
 PostGIS Documentation
 
- http://www.postgis.net/documentation/
+ http://postgis.net/documentation/
