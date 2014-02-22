@@ -28,7 +28,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://www.postgis.net/
+  :target: http://postgis.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -105,7 +105,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.postgis.net
+**Website:** http://postgis.net
 
 **Licence:** GNU General Public License (GPL) version 2
 
