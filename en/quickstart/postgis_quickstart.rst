@@ -1,5 +1,6 @@
 :Author: Barry Rowlingson
 :Author: Astrid Emde
+:Author: Regina Obe
 :Reviewer: Argyros Argyridis
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
