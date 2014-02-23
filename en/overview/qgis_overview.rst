@@ -49,11 +49,11 @@ Core Features
 
 * Easy Viewing of many Vector and Raster Formats
 
-    * PostgreSQL/PostGIS Database tables
+    * PostgreSQL/PostGIS, Oracle Spatial Database tables
     * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML.
     * raster formats such as digital elevation models, aerial photography or landsat imagery,
     * GRASS locations and mapsets,
-    * online spatial data served as OGC-compliant WMS or WFS;
+    * online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS;
 
 * Create, edit and export spatial data using:
 
