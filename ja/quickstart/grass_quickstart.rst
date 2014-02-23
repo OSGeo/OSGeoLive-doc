@@ -14,7 +14,7 @@
 GRASS GISクィックスタート
 ********************************************************************************
 
-Running
+起動のしかた
 ================================================================================
 
 .. author's note: Location now focusing on Spearfish as there wasn't
@@ -47,7 +47,7 @@ it is recommended that you always use a `user` mapset for your everyday work
 instead of the special PERMANENT mapset.
 
 
-Displaying maps
+マップの表示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-layerman.png
@@ -70,7 +70,7 @@ selected map(s)".
 
 You should now see the maps displayed.
 
-Plot an elevation profile
+標高プロファイルの表示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-profile.png
@@ -90,7 +90,7 @@ the `Map Display` canvas. When done go back to the Profile window and click
 on the eyeball button to create the plot. Click on the I/O button of the far
 right to close the profile window.
 
-Create a random surface
+ランダムサーフェスの作成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. HB comment: this quickstart is getting kinda long, maybe retire this section.
@@ -109,7 +109,7 @@ tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the
   :alt: screenshot
   :align: right
 
-Adjust colors
+色の調整
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now you'll see your new raster map added to the layer list along with
@@ -149,7 +149,7 @@ click [*Run*]. Now add the new `elevation.shade` *@user1* map into your
 layer list as you did for the `elevation.10m` map earlier, and un-tick the
 other raster layers.
 
-Watersheds and streams
+集水域と水系
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once again select the `elevation.10m` *@PERMANENT* map. If you changed the
@@ -208,7 +208,7 @@ one (for example DroidSans), and then [*Apply*] in the Preferences window. You w
 have to do a full re-render to see the change so click on the re-render button
 next to the eyeball in the `Map Display` window. The fonts will now be much prettier.
 
-Vector modules
+ベクターモジュール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 The above tasks have only covered a few raster modules. Don't let this
@@ -268,7 +268,7 @@ gone from the displayed table. Right-click on the table data and choose
 ``Highlight selected features``. You should see e.g. alluvial flood basins
 and mesas show up in the ``Map Display``.
 
-3D visualization
+3D 可視化
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/1024x768/grass-nviz.png
@@ -291,7 +291,7 @@ image; "`spot.image`" in the PERMANENT mapset is a good choice.
 Finally, click "*Accept*" and then once back at the main window click on
 the "*Draw*" button in the top-left, just under the File menu.
 
-Other things to try
+その他には
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 While not covered here, you may like to experiment with the new
@@ -309,7 +309,7 @@ also `array` (NumPy), `db` (database), `raster`, and `vector` libraries
 available. For advanced use `Pythons CTypes` is supported allowing the
 Python programmer direct access to GRASS's extensive C libraries.
 
-Shutdown and the command line
+終了のしかたとコマンドライン
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When finished, exit the GRASS GUI with :menuselection:`File --> Exit GUI`.
@@ -327,11 +327,11 @@ complete with powerful parser, GUI, and help page template.
 When you are done close the browser and type "exit" at the GRASS terminal
 prompt to leave the GIS environment.
 
-Further reading
+参照情報
 ================================================================================
-* Visit the GRASS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* Visit the GRASS Wiki help site at `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
-* More tutorials and overviews can be found `here <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* GRASS ホームページは `http://grass.osgeo.org <http://grass.osgeo.org>`_
+* GRASS Wiki ヘルプサイトは `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
+* チュートリアルや概要は `こちら <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
 * A `synopsis of the GRASS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
   GUI menu position. (`HTML version <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
