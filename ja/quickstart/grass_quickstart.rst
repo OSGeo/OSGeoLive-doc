@@ -29,15 +29,13 @@ Live DVDでGRASSを起動するには, :menuselection:`Geospatial --> デスク�
   :alt: screenshot
   :align: right
 
-このようにして, `wxPythonで書かれた新しいGUI <../../grass/wxGUI.html>`_ のGRASSが起動されます.
+このようにすると, `wxPythonで書かれた新しいGUI <../../grass/wxGUI.html>`_ のGRASSが起動します.
 
-.. tip::  If you are on a netbook with a very small display (800x600 resolution)
- the startup screen might get a little scrunched and the [*Start GRASS*]
- button hidden behind the location and mapset lists. If this happens to
- you the solution is to drag the corner of the window to make it a little
- bigger. You might have to move the window up past the top of the screen
- a bit to get the room (hold down the Alt key and left-click drag the
- window to move it).
+.. tip::  画面の小さい (800 x 600 解像度) ネットブックの場合は起動画面がくずれて
+[*Start GRASS*] ボタンがロケーションやマップセットのリストに隠れてしまうかもしれません.
+その場合はウィンドウの端をドラッグしてウィンドウを大きくしてください.
+ウィンドウを画面の上にずらす必要があるかもしれません
+(Altキーを押しながら左クリックでドラッグするとウィンドウを動かせます).
 
 A simplified version of the rich North Carolina (nc_basic_spm) sample dataset
 has also been provided on the Disc, if you choose to use it you will have 
@@ -125,7 +123,7 @@ table" option, and pick one from the list. "srtm" is a nice choice. Once
 done click the [*Run*] button and close the *r.colors* dialog window.
 The colors should then update automatically.
 
-Create a shaded relief map
+陰影図の作成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
@@ -291,7 +289,7 @@ image; "`spot.image`" in the PERMANENT mapset is a good choice.
 Finally, click "*Accept*" and then once back at the main window click on
 the "*Draw*" button in the top-left, just under the File menu.
 
-その他には
+その他
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 While not covered here, you may like to experiment with the new
@@ -332,7 +330,6 @@ prompt to leave the GIS environment.
 * GRASS ホームページは `http://grass.osgeo.org <http://grass.osgeo.org>`_
 * GRASS Wiki ヘルプサイトは `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
 * チュートリアルや概要は `こちら <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* A `synopsis of the GRASS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
-  GUI menu position. (`HTML version <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
-* If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
-  add-ons at `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_
+* GUIメニューと`GRASS モジュール概要 <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_. (`HTML 版 <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
+* もし 400 個の GRASS モジュールでも物足りない場合は第三者により開発されたアドオンもあります
+  `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_
