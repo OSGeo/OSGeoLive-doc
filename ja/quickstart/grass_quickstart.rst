@@ -37,12 +37,9 @@ Live DVDでGRASSを起動するには, :menuselection:`Geospatial --> デスク�
 ウィンドウを画面の上にずらす必要があるかもしれません
 (Altキーを押しながら左クリックでドラッグするとウィンドウを動かせます).
 
-A simplified version of the rich North Carolina (nc_basic_spm) sample dataset
-has also been provided on the Disc, if you choose to use it you will have 
-to make some slight adjustments as the map names given in this quick tutorial 
-were written for the Spearfish dataset. Regardless of the dataset you choose
-it is recommended that you always use a `user` mapset for your everyday work
-instead of the special PERMANENT mapset.
+ディスクにはノースカロライナ (nc_basic_spm) の簡易版データも収録されています, このクィックチュートリアルは
+Spearfish データセット用に作成されているので使用データごとに読み替えて下さい.
+また, 使用するデータに関わらず作業には PERMANENT マップセットではなく `user` マップセットの使用をお勧めします.
 
 
 マップの表示
@@ -53,20 +50,17 @@ instead of the special PERMANENT mapset.
   :alt: screenshot
   :align: left
 
-Once inside add a raster map layer such as "`elevation.10m`" from the
-PERMANENT mapset. To do this go into the `GIS Layer Manager` window
-and click on the checkerboard toolbar button with a "+" on it. Then
-select the map name you want from the "*map to be displayed*" pull-down
-list, and click :guilabel:`Ok`.
+PERMANENT マップセットから "`elevation.10m`" といったラスターレイヤーを加えます.
+`GIS レイヤマネージャ` ウィンドウにて "+" 記号のついたツールバーボタンをクリックして下さい.
+そして "*表示するマップ*" リストからマップ名を選択して, :guilabel:`Ok` をクリックして下さい.
 
-In a similar fashion add the "`roads`" vector layer from the PERMANENT mapset
-by clicking on the toolbar button with a "+" and a bent poly-line which
-looks a bit like a "V".
+同様に "`roads`" ベクターレイヤーも PERMANENT マップセットから
+"+" 記号のついたV字に見える線のツールバーボタンをクリックして追加して下さい.
 
-If you need to, right click on the raster map layer and choose "Zoom to
-selected map(s)".
+必要なら, ラスターマップ名を右クリックして "選択したマップのズーム" を選択して下さい.
 
-You should now see the maps displayed.
+マップが表示されていますよね.
+
 
 標高プロファイルの表示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
