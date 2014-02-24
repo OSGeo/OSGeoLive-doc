@@ -29,10 +29,13 @@ On this OSGeo Live DVD we have included a ready-to-use Geomajas Application. Thi
 Starting the Geomajas Application
 ================================================================================
 
-* Go to the “Browser Clients” folder on the desktop.
-* Click on the desktop icon “Start Geomajas”. 
-This will launch the FireFox browser which will navigate to the correct location automatically.
-* Play with it and have fun!
+  * Go to the “Browser Clients” folder on the desktop.
+
+  * Click on the desktop icon “Start Geomajas”. 
+  
+    This will launch the FireFox browser which will navigate to the correct location automatically.
+
+  * Play with it and have fun!
 
 
 Customizing the Geomajas Application
