@@ -32,13 +32,14 @@ Browser Anwendungen
 --------------------------------------------------------------------------------
 Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 
-* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser GIS Client
+* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Bibliothek
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] - Interactive Karten für mobile Geräte geeignet
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS
+* :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 
 Internet Dienste
 --------------------------------------------------------------------------------
@@ -119,6 +120,7 @@ GIS Bibliotheken
 * :doc:`geos_overview` - C/C++ Spatial Library 
 * :doc:`metacrs_overview` - Coordinate Reference System Transformations 
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
+* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorologie und Klimatologie
 
 Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------
@@ -136,10 +138,14 @@ Auf früheren OSGeo-Live Releases verfügbar:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 
-
 Ausführbare Programme für Apple und Windows
 --------------------------------------------------------------------------------
 Vorliegend auf dem vollständigen OSGeo-Live Image:
 
 * `Programme für Microsoft Windows <../../WindowsInstallers/>`_
 * `Programme für Apple OSX <../../MacInstallers/>`_
+
+Metrik
+--------------------------------------------------------------------------------
+
+* :doc:`Projekt Metrik <../metrics>` auf Ohloh
