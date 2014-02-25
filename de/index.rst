@@ -41,24 +41,25 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
    OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualbox_quickstart>
    Bootfähigen OSGeo-Live USB Stick erstellen <quickstart/usb_quickstart>
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
+   .. toctree::
+     :maxdepth: 1
+     :hidden:
+     :glob:
 
-   overview/overview
-   quickstart/*quickstart
-   standards/standards
-   contact
-   copyright
-   disclaimer
-   download
-   sponsors
-   sponsors_osgeo
-   presentation  
-   metrics
-   mac_installers
-   win_installers
+     overview/overview
+     standards/standards
+     contact
+     copyright
+     disclaimer
+     download
+     sponsors
+     sponsors_osgeo
+     presentation
+     metrics
+     mac_installers
+     win_installers
+
+
 
 Präsentation
 --------------------------------------------------------------------------------
