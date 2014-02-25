@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Alex Mandel, Cameron Shorter
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -15,9 +15,11 @@ Die USB Installation ist noch ziemlich neu. Wir haben zwar bereits eine Menge an
 Systemvoraussetzungen
 --------------------------------------------------------------------------------
 
-* Einen 4 GB USB-Stick, wenn osgeo-live-mini genutzt wird (ohne Windows und Mac Installationsprogrammen). 
-* Einen 8 GB USB-Stick, wenn osgeo-live genutzt wird (mit Windows und Mac Installationsprogrammen).  
-* Eine OSGeo-Live DVD oder ein ISO Abbild (heruntergeladen von: http://live.osgeo.org/download.html)
+* Ein USB Stick (mindestens 4 GB, 8 GB wird empfohlen)
+* Eine OSGeo-Live DVD oder ein ISO Abbild (heruntergeladen von: http://live.osgeo.org/en/download.html) oder von DVD.
+
+ * Einen 4 GB USB-Stick, wenn osgeo-live-mini genutzt wird (ohne Windows und Mac Installationsprogrammen). 
+ * Einen 8 GB USB-Stick, wenn osgeo-live genutzt wird (mit Windows und Mac Installationsprogrammen).  
 
 Einen startbaren USB-Stick unter Ubuntu erstellen
 --------------------------------------------------------------------------------
@@ -25,7 +27,7 @@ Einen startbaren USB-Stick unter Ubuntu erstellen
 (dies ist die empfohlene Vorgehensweise und kann auch für andere Ubuntu Distributionen, wie Xubuntu oder OSGeo-Live, angewendet werden)
 
 .. note::
-   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 6.0 müssen Sie Ubuntu 12.04 oder höher verwenden.
+   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 7.0 müssen Sie Ubuntu 12.04 oder höher verwenden.
 
 Laden Sie `download <http://live.osgeo.org/en/download.html>`_ osgeo-live oder osgeo-live-mini auf ihren Computer herunter. 
 
