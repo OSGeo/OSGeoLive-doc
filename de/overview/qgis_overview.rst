@@ -47,11 +47,11 @@ Kernfunktionen
 
 * Einfaches anzeigen zahlreicher Vektor- and Rasterformate
 
-    * PostgreSQL/PostGIS und SpatiaLite Datenbanken.
+    * PostgreSQL/PostGIS, Oracle Spatial
     * zahlreiche Vektorformate, welche durch die OGR Bibliothek unterstützt werden, inklusive ESRI shapefiles, MapInfo, SDTS und GML.
     * zahlreiche Rasterformate, welche durch die GDAL Bibliothek unterstützt werden, z.B. digitale Höhenmodelle, Luft- und Satelitenbilder.
     * GRASS Locations und Mapsets,
-    * Online Geodaten, die als OGC-Dienste WMS oder WFS bereitgestellt werden;
+    * Online Geodaten, die als OGC-Dienste WMS, WMTS, WFS oder WCS bereitgestellt werden;
 
 * Erstellen, editieren und exportieren räumlicher Daten mit:
 
@@ -80,9 +80,9 @@ Details
 
 **Webseite:** http://www.qgis.org
 
-**Lizenz:** GPL
+**Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.8.0
+**Software Version:** 2.0.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
