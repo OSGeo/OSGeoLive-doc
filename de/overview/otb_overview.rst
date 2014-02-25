@@ -33,7 +33,7 @@ Kernfunktionen
   :align: right
 
 * Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten Fernerkundungsdatenformate (inklusive Jpeg2000 über OpenJPEG), Metadatenzugriff und Visualisierung
-* Orthorectification und Kartenumprojektion
+* Orthorectification unter Verwendung von DEM und Kartenumprojektion
 * Kalibierung
 * Bildfusion
 * Filtern: Blurring, Denoising, Verbesserungen
@@ -55,7 +55,7 @@ Details
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
   für französisches Recht)
 
-**Software Version:** 3.18.1 (Release Juli 2013)
+**Software Version:** 3.20
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 

@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-marble.png
@@ -9,11 +9,11 @@
   :align: right
   :target: http://marble.kde.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Projekt
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 Marble
 ================================================================================
@@ -53,7 +53,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 1.3.4
+**Software Version:** 1.6.0
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
