@@ -1,6 +1,6 @@
 :Author: Jorge Sanz 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
@@ -57,7 +57,7 @@ Kernelemente
   * Raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
   * Vektor & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * Datenbanken: PostGIS, MySQL, Oracle, ArcSDE
-  * Dienste: ECWP, ArcIMS, OGC standards
+  * Dienste: OGC Standards (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS
 
 * Dient als Client zur Lokalisierung von Datenquellen innerhalb einer GDI
   SDI (catalogue and gazeteer services)
@@ -65,7 +65,7 @@ Kernelemente
   * Catalog-Services: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteer-Services: ADL, WFS, WFS-G
   
-* Bietet mehr als 340 Geoalgorithmen durch die Integration von SEXTANTE_
+* Bietet mehr als 300 Geoalgorithmen durch die Integration von SEXTANTE_
   
 * Fortschrittlich durch integrierte CAD Werkzeuge:
 
@@ -83,8 +83,14 @@ Kernelemente
   * Filter, Vektorisierung
   * Pyramidengenerierung und Management von ROI (region of interest)
 
-* Scripting Support (Jython)
-* Leistungsstarker Mechanismus zur Umprojizierung durch PROJ4
+* weitere Features
+  * Scripting Support (Jython)
+  * Leistungsstarker Mechanismus zur Umprojizierung durch PROJ4
+  * Import/Export von Symbolen
+  * Map Sheets Composer
+  * Diagramme
+  * Erweiterte Werkzeuge zur Symbolerstellung
+  * Erweiterte Werkzeuge zur Beschriftungserstellung
 
 
 Implementierte Standards
@@ -113,7 +119,6 @@ Details
 
 
 .. _gvSIG: http://www.gvsig.org
-.. _SEXTANTE: http://forge.osor.eu/projects/sextante/
 
 Quickstart
 --------------------------------------------------------------------------------
