@@ -8,6 +8,8 @@
 
 Die Statistiken werden über `Ohloh <https://www.ohloh.net/>`_ zur Verfügung gestellt. Sie werden vom Code-Repository der Projekte abgeleitet. Beachten Sie, dass die Statistiken auch fehlerhaft sein können (beispielsweise durch Umzug von Repositories) und nur teilweise eine Aussage über den Status der Projekte geben können.
 
+Für die Anzeige der Statistiken benötigen Sie eine Internetverbindung und Javascript muss aktiviert sein.
+
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/OSGeo-Live/widgets/project_factoids_stats.js"></script><br/>
@@ -37,10 +39,16 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/openlayers/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/Leaflet/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/geomajas/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapbender/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapfish/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/geomoose/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/geonode/widgets/project_factoids_stats.js"></script>
+
+Fehlend:
+
+* :doc:`overview/cartaro_overview`
 
 Web Services
 --------------------------------------------------------------------------------
@@ -51,19 +59,20 @@ Veröffentlichung von Geodaten im Netz:
   <script type="text/javascript" src="http://www.ohloh.net/p/geoserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/deegree/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/asasciences_ncWMS/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/4657/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/pycsw/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/mapproxy/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/fiftytwonorth_security/widgets/project_factoids_stats.js"></script>
+  <!--script type="text/javascript" src="http://www.ohloh.net/p/fiftytwonorth_security/widgets/project_factoids_stats.js"></script-->
+  <script type="text/javascript" src="http://www.ohloh.net/p/n52-wps/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/SensorObservationService/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/tinyows/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/zoo-project/widgets/project_factoids_stats.js"></script>
 
 Fehlend:
 
-* :doc:`overview/qgis_mapserver_overview`
-* :doc:`overview/52nWPS_overview`
-* :doc:`overview/52nSOS_overview`
+* :doc:`overview/qgis_mapserver_overview` (Integriert in die Quantum GIS Codebasis)
 
 Datenbanken
 --------------------------------------------------------------------------------
@@ -83,6 +92,7 @@ Navigation und Karten
 .. raw:: html
 
   <script type="text/javascript" src="http://www.ohloh.net/p/gpsdrive/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/viking/widgets/project_factoids_stats.js"></script>
@@ -94,7 +104,6 @@ OpenStreetMap Werkzeuge
 
   <script type="text/javascript" src="http://www.ohloh.net/p/josm/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/gosmore/widgets/project_factoids_stats.js"></script>
 
 Fehlend:
 
@@ -114,6 +123,9 @@ Spezielle Analysewerkzeuge:
   <script type="text/javascript" src="http://www.ohloh.net/p/otb/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/R-project_/widgets/project_factoids_stats.js"></script>
 
+Fehlend:
+
+* :doc:`overview/tilemill_overview`
 
 Spezifische GIS Software
 --------------------------------------------------------------------------------
@@ -124,7 +136,6 @@ Spezielle Anwendungen
   <script type="text/javascript" src="http://www.ohloh.net/p/sahanapy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/ushahidi/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.ohloh.net/p/osgearth/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.ohloh.net/p/marble/widgets/project_factoids_stats.js"></script>
 
 Fehlend:
 
