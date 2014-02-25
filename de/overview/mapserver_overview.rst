@@ -86,6 +86,8 @@ Implementierte Standards
 
   * WMS (Client/Server), nicht-transaktionaler WFS (Client/Server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
 
+* INSPIRE View Service
+
 Demo
 --------------------------------------------------------------------------------
 
@@ -94,7 +96,7 @@ Demo
 Dokumentation
 --------------------------------------------------------------------------------
 
-* `MapServer Dokumentation <../../mapserver/doc/index.html>`_
+* `MapServer 6.4 Dokumentation <../../mapserver/doc/index.html>`_
 * `MapServer Dokumentation in deutscher Sprache <http://mapserver.org/de/>`_
 
 Details
@@ -104,7 +106,7 @@ Details
 
 **Lizenz:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 6.2.1
+**Software Version:** 6.4.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
