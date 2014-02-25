@@ -1,5 +1,6 @@
 :Author: Barry Rowlingson
 :Author: Astrid Emde
+:Author: Regina Obe
 :Reviewer: Argyros Argyridis
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
@@ -22,7 +23,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://postgis.org/
+  :target: http://postgis.net
 
 ********************************************************************************
 PostGIS Quickstart
@@ -39,7 +40,7 @@ Diese Kurzeinführung beschreibt:
  * Das Datenmanagement über den grafische Datenbank-Client ``pgAdmin``.
 
 Client-Server Architektur
-=========================
+================================================================================
 
 PostgreSQL arbeitet wie viele Datenbanksysteme als Server in einem Client-Server-System.
 Dabei stellt der Client die Anfragen an den Server und bekommt vom Server eine Antwort zurück.
@@ -54,7 +55,7 @@ Ihr Client verbindet sich mit dem Server über die interne 'loopback' Network Ve
 für andere Rechner nicht sichtbar außer Sie konfigurieren dies.
 
 Erzeugen einer Räumlichen Datenbank
-===================================
+================================================================================
 
 Das Kommandozeilen Tool läuft innerhalb einer Terminal Session. Öffnen Sie hierfür ein Terminal über 
 :menuselection:`Applications --> Accessories --> Terminal Emulator`. geben sie hier::
@@ -135,7 +136,6 @@ Weiter umfassen PostGIS 2.0:
  demo=# create extension postgis;
 
 
-
 Über ``\dt`` können Sie dies prüfen und die Liste der Tabellen in der Datenbank ausgeben lassen.
 Es sollte diese Ausgabe erfolgen:
 
@@ -175,28 +175,24 @@ Erweiterung. Hierzu erfahren Sie mehr im nächsten Abschnitt.
 
 
 Erzeugen einer Tabelle mit räumlicher Erweiterung - die harte Tour
-==================================================================
+================================================================================
 
 Wir haben nun eine Datenbank mit räumlicher Erweiterung vorliegen und können daher eine Tabelle mit 
 räumlichen Daten erzeugen.
 
 Zuerst erzeugen wir eine gewöhnliche Tabelle, in der wir einige Daten über Städte speichern wollen.
-Diese Tabelle hat zwei Spalten - ein numerisches Feld id für die laufende Nummer und ein Feld für den 
-Namen der Stadt:
+Diese Tabelle hat drei Spalten - ein numerisches Feld id für die laufende Nummer, ein Feld für den 
+Namen der Stadt und ein Feld für die Geometriespalte:
 
 ::
 
-  demo=# CREATE TABLE cities ( id int4, name varchar(50) );
+  demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), the_geom geometry(POINT,4326) );
 
-Als Nächstes fügen wir eine Geometriespalte hinzu, um in dieser Spalte die Lage der Stadt zu speichern.
-In der Regel wird diese Spalte ``the_geom`` genannt. 
-Der folgende Aufruf gibt an, welcher Geometrietyp angelegt werden soll (Punkte, Linien. Polygone etc), wie 
-viele Dimensionen unterstützt werden sollen (in unserem Falls zwei) und welches Koordinatenreferenzsystem 
-genutzt werden soll. Wir werden EPSG:4326 für unsere Städte verwenden.
+In der Regel wird diese Spalte ``geom`` genannt (Die ältere PostGIS Konvention war ``the_geom``). 
+Der Aufruf gibt an, welcher Geometrietyp angelegt werden soll (Punkte, Linien. Polygone etc), wie 
+viele Dimensionen unterstützt werden sollen (bei 3 oder 4 Dimensionen würde die Angabe POINTZ, POINTM, oder POINTZM lauten) und welches Koordinatenreferenzsystem 
+genutzt werden soll. Wir haben EPSG:4326 für unsere Städte verwendet.
 
-::
-
-  demo=# SELECT AddGeometryColumn ( 'cities', 'the_geom', 4326, 'POINT', 2);
 
 Wenn Sie sich nun die Tabelle cities anschauen, sollten Sie die neue Spalte sehen. Sie sehen ebenfalls, dass 
 die Tabelle derzeit leer ist.
@@ -227,7 +223,7 @@ und können mit diesen arbeiten.
 
 
 Einfache Abfragen
-=================
+================================================================================
 
 Alle üblichen SQL Operationen können angewendet werden, um Daten aus einer PostGIS Tabelle abzufragen.
 
@@ -260,7 +256,7 @@ verwenden, um die Koordinaten auszugeben:
 
 
 Räumliche Abfragen
-==================
+================================================================================
 
 PostGIS erweitert PostgreSQL um zahlreiche räumliche Funktionen.
 Die Funktion ST_GeomFromText zur Konvertierung von WKT in eine Geometrie haben wir schon kennen gelernt.
@@ -305,7 +301,7 @@ Namen des Sphäroids, die große Halbachse und die inverse Abplattung angeben:
 
 
 Mapping
-=======
+================================================================================
 
 Um eine Karte aus Ihren PostGIS Daten zu erzeugen, brauchen Sie einen Client, der auf die Daten zugreifen kann.
 Die meisten der Open Source Desktop GIS Programme unterstützen PostGIS - wie z. B. Quantum GIS, gvSIG, uDig. 
@@ -385,14 +381,14 @@ Klicken Sie den Button ``...`` und wählen Sie die Shapedatei ``sids.shp`` in de
 (dies befindet sich unter /usr/local/lib/R/site-library/) aus:
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
-  :scale: 50%
+  :scale: 50 %
   :alt: Auswahl der Shapedatei
   :align: center
 
 Belassen Sie die übrigen Angaben und klicken Sie ``Load``
 
 .. image:: ../../images/screenshots/1024x768/postgis_importsids.png
-  :scale: 50%
+  :scale: 50 %
   :alt: Import der Shapedatei
   :align: center
 
@@ -404,7 +400,7 @@ Laden Sie nun die SIDS Daten über 'PostGIS-Layer hinzufügen' in Ihre Karte.
 SIDS in North Carolina erzeugen können;
 
 .. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
-  :scale: 50%
+  :scale: 50 %
   :alt: thematische Karte zu SIDS
   :align: center
 
@@ -439,10 +435,11 @@ Das rote "X" verschwindet nun und links erscheint ein "+". Per Klick auf das "+"
 Navigieren Sie zu ``Schemata`` und öffnen Sie den Unterbaum. Öffnen Sie danach das Schema ``public``. Öffnen Sie anschließend ``Tabellen``. Sie sehen hier alle Tabellen dieses Schemas.
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
-   :scale: 50%
-   :alt: pgAdmin III
-   :align: center
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
 
+  
 
 Ausführen von SQL Abfragen mit pgAdmin III
 ================================================================================
@@ -458,17 +455,17 @@ select name, 1000*sid74/bir74 as rate from sids order by rate;
 
 Über den grünen Pfeil wird die Abfrage ausgeführt.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png 
-   :scale: 50% 
-   :alt: pgAdmin III 
-   :align: center
+.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+  :scale: 50 %
+  :alt: pgAdmin III
+  :align: center
 
 Weitere Aufgaben
-================
+================================================================================
 
 Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
-#. Testen Sie weitere räumliche Funktionen beispielsweise ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``x(the_geom)``. Eine ausführliche Dokumentation finden Sie unter http://postgis.org/documentation/
+#. Testen Sie weitere räumliche Funktionen beispielsweise ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``st_x(the_geom)``. Eine ausführliche Dokumentation finden Sie unter http://postgis.net/documentation/
 
 #. Exportieren Sie Ihre Tabellen mit ``pgsql2shp`` in das Shape-Format
 
@@ -476,15 +473,14 @@ Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
 
 Der nächste Schritt
-===================
+===================================================================================================
 
 Dies war lediglich der erste Einstieg in PostGIS. Es gibt sehr viele weitere Funktionalitäten zu entdecken.
 
 PostGIS Projektseite
 
- http://postgis.org
+ http://postgis.net
 
 PostGIS Dokumentation
 
-http://postgis.org/documentation/
-
+ http://postgis.net/documentation/
