@@ -18,10 +18,10 @@
   :target: http://www.osgeo.org/incubator/process/principles.html
 
 GEOS
-====
+================================================================================
 
 Bibliothek für räumliche Daten
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GEOS (Geometry Engine - Open Source) ist eine C++ -Portierung der `JTS Topology Suite (JTS) 
 <http://tsusiatsoftware.net/jts/main.html>`_. Sie deckt dabei die OpenGIS Simple Features für 
@@ -34,13 +34,13 @@ wie zum Beispiel :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`,
 Produkten wie zum Beispiel `FME <http://www.safe.com/fme/fme-technology/>`_ verwendet wird.
 
 Implementierte Standards
-------------------------
+--------------------------------------------------------------------------------
 
 * `OpenGIS Simple Features für SQL <http://www.opengeospatial.org/standards/sfs>`_ 
 
 Kernfunktionen
---------------
-    
+--------------------------------------------------------------------------------    
+
 * Geometrien: Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, GeometryCollection
 * Beziehungseigenschaften: Intersects, Touches, Disjoint, Crosses, Within, Contains, Overlaps, Equals, Covers
 * Operatoren: Union, Distance, Intersection, Symmetric Difference, Convex Hull, Envelope, Buffer, Simplify, 
@@ -52,13 +52,11 @@ Kernfunktionen
 * Thread-sicher (mit dem Reentrant API)
 
 Details
--------
+--------------------------------------------------------------------------------
 
 **Webseite:** http://geos.osgeo.org/
 
 **Lizenz:** LGPL
-
-**Software Version:** 3.3.2
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

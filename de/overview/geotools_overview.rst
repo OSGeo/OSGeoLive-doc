@@ -116,8 +116,6 @@ Details
 
 **Lizenz:** LGPL
 
-**Software Version:** 9.3
-
 **Unterstütze Plattformen:** Alle Java 6 Plattformen
 
 **API Schnittstellen:** Java
