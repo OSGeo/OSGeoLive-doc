@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -43,29 +44,19 @@ Wenn Sie den oberen Bildschirm sehen können Sie die Leertaste drücken, um zum 
 
 Lehnen Sie sich zurück, während das System startet.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
-    :scale: 70 %
-    :alt: boot select
+   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+     :scale: 70 %
+     :alt: boot select
 
   Testen Sie die vielen Anwendungen aus dem :menuselection:`Geospatial` Menü. 
-
-  Einstieg in Xfce Desktop: (Eine Onlineversion ist in Arbeit)
-    http://docs.xfce.org/start
-
-  Einstieg in das Ubuntu Betriebssystem: (nettes PDF e-book)
-    `/usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_
-
-  Weitere Onlinehilfe zum Ubuntu Betriebssystem: (Anmerkung: es wird der klassische Xfce Desktop verwendet, nicht der tablet-artige Unity Desktop)
-    https://help.ubuntu.com/12.04/
-
-    https://help.ubuntu.com/12.04/serverguide/C/
-
-    https://help.ubuntu.com/11.04/ubuntu-classic/gnome-classic-index/C/
-
 
 Siehe auch:
 --------------------------------------------------------------------------------
 
+ *  Einstieg in Xfce Desktop: (wird von OSGeo-Live verwendet):
+    http://docs.xfce.org/xfce/getting-started
+ * Einstieg in das Ubuntu Betriebssystem:
+    `local eBook </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ and `extended online help <http://help.ubuntu.com/12.04/>`_
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
