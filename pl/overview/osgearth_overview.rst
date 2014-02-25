@@ -16,7 +16,7 @@
 osgEarth
 ================================================================================
 
-Narzędzia do modelowania terenu Terrain rendering toolkit
+Narzędzia do renderowania terenu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 osgEarth jest zestawem skalowalnych narzędzi do renderowania terenu
@@ -78,7 +78,7 @@ Szczegóły
 
 **Licencja:** GNU Mniejsza Powszechna Licencja Publiczna (LGPL) 
 
-**Wersja programu:** 2.0
+**Wersja programu:** 2.4.0
 
 **Systemy operacyjne:** Linux, Mac, Windows
 
