@@ -26,7 +26,7 @@ Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-An
 QGIS Server läuft in der Regel als CGI/FastCGI Modul innerhalb des Apache Webservers.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 40 %
+  :scale: 70 %
   :alt: project logo
   :align: right
 
@@ -44,7 +44,7 @@ Kernfunktionen
 Implementierte Standards
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.1, 1.3.0
+* OGC Web Map Service (WMS) 1.3.0
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Details
