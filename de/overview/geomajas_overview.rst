@@ -46,11 +46,13 @@ Kernfunktionen
 * Unterschiedliche Front-End Technologien
 * Vielfältige Browserunterstützung, ohne die Verwendung von Browser-Plugins
 
-Implementierte Standards
+Enterprise Server Funktionalität
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
+* Erweiterete Sicherheit auf unterschiedlichen Ebenen (Layer, Feature, Attribute, Funktionalität, …)
+* Seamless Integration mit dem eigenen Domain Model – Persistenz über Hibernate, Web Services, Java RMI, ...
+* Enterprise Integration mit anderen Business Anwendungen wie JBPM, Activiti, JasperReports, CMS, Alfresco über ndustrie Standards (SOAP, REST, ESB, JNDI, …)
+* Leicht erweiterbar über das Spring Framework
 
 Details
 --------------------------------------------------------------------------------
@@ -59,11 +61,11 @@ Details
 
 **Lizenz:** AGPL
 
-**Software Version:** 1.8
+**Software Version:** 1.14.0
 
 **Unterstütze Plattformen:** Windows, Linux, Mac
 
-**API Schnittstellen:** Java
+**API Schnittstellen:** Java und Javascript
 
 **Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
