@@ -1,14 +1,14 @@
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: Projekt Logo
   :align: right
-  :target: http://www.postgis.net/
+  :target: http://postgis.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -57,17 +57,18 @@ Implementierte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.postgis.net
+**Website:** http://postgis.net
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Software Version:** 2.1.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** SQL
 
 **Support:** http://www.osgeo.org/search_profile
+
 
 Quickstart
 --------------------------------------------------------------------------------
