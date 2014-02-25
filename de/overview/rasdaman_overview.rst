@@ -1,6 +1,7 @@
 :Author: Peter Baumann
-:Version: osgeo-live4.5
-:License: Creative Commons
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _rasdaman-overview:
 
@@ -16,12 +17,11 @@
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
-********
 Rasdaman
-********
+========
 
 Multi-dimensionale Big Data Analytics Engine
-============================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Rasdaman ist ein Array-Datenbanksystem für flexible, performante, skalierbare Geo-Dienste auf multi-dimensionalen raum-zeitlichen Sensor-, Bild-, Simulations- und Statistikdaten unbegrenzter Größe.  Ad-hoc Zugriff, Extraktion, Aggregation sowie Remix und Analyse erfolgt durch eine NewSQL Raster-Anfragesprache mit hocheffektiver server-seitiger Optimierung.  Cloud/Cluster-Parallelisierung erfolgt in gesicherter, vom Administrator steuerbarer Weise.  Die Daten werden in einer PostgreSQL-Datenbank abgelegt, sodass sich eine enge Informationsintegration ergibt.
 
@@ -59,11 +59,16 @@ Details
 * Clients und APIs: GNU Lesser General Public License (LGPL) version 3
 * Server-Engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.5
+**Software Version:** 8.5.2
 
 **Unterstützte Plattformen:** Linux, MacOS, Solaris
 
-**APIs:** OGC WMS, WCS, WCS-T, WCPS, WPS; rasql, C++, Java
+**APIs:** rasql, C++, Java
 
 **Support:**  http://www.rasdaman.com
+
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`
 
