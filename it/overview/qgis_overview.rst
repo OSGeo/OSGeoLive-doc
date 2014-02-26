@@ -50,11 +50,11 @@ Caratteristiche principali
 
 * Visualizzazione facile di formati raster e vettoriali
 
-    * tabelle di database PostgreSQL/PostGIS,
+    * tabelle di database PostgreSQL/PostGIS, Oracle Spatial
     * formati vettoriali come shapefiles ESRI, MapInfo, SDTS e GML,
     * formati raster come modelli digitali di elevazione, aerofotogrammetria ed immagini landsat,
     * location e mapset GRASS,
-    * dato online distribuiti tramite servizi OGC WMS o WFS;
+    * dato online distribuiti tramite servizi OGC WMS, WMTS, WFS o WCS
 
 * Creare, modificare ed esportare dati spaziali tramite:
 
@@ -85,7 +85,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** 1.8.0
+**Versione Software:** 2.0.1
 
 **Piattaforme supportate:** Windows, Linux, Mac, Unix
 

@@ -37,6 +37,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul browser:
 * :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping 
 * :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
 * :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
+* :doc:`geonode_overview` - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
 
 Servizi Web
 --------------------------------------------------------------------------------
@@ -45,6 +46,7 @@ Publicare dati spaziali su internet:
 * :doc:`geoserver_overview` - [:doc:`Guida rapida <../quickstart/geoserver_quickstart>`]
 * :doc:`mapserver_overview` - [:doc:`Guida rapida <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`]
+* :doc:`ncWMS_overview` - [:doc:`Guida rapida <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`Guida rapida <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`Guida rapida <../quickstart/geonetwork_quickstart>`] - Catalogo per i Metadati
 * :doc:`pycsw_overview` - [:doc:`Guida rapida <../quickstart/pycsw_quickstart>`] - Catalogo per i Metadati
@@ -54,7 +56,6 @@ Publicare dati spaziali su internet:
 * :doc:`52nSOS_overview` - [:doc:`Guida rapida <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Guida rapida <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`Guida rapida <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-* :doc:`ncWMS_overview` - [:doc:`Guida rapida <../quickstart/ncWMS_quickstart>`] - Web Map Service
 
 .. disabled: * :doc:`52nWSS_overview` - [:doc:`Guida rapida <../quickstart/52nWSS_quickstart>`] - Web Security Service
 
@@ -71,6 +72,7 @@ Navigazione e Mappe
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Guida rapida <../quickstart/gpsdrive_quickstart>`] - Navigatore GPS
 * :doc:`gpsprune_overview` - [:doc:`Guida rapida <../quickstart/gpsprune_quickstart>`] - Visualizza, modifica e converte tracce GPS
+* :doc:`marble_overview` - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Globo virtuale
 * :doc:`opencpn_overview` - [:doc:`Guida rapida <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
 * :doc:`osm_overview` - [:doc:`Guida rapida <../quickstart/osm_quickstart>`] - Strumenti per OpenStreetMap
 * :doc:`viking_overview` - [:doc:`Guida rapida <../quickstart/viking_quickstart>`] - Visualizza e analizza dati GPS
@@ -83,6 +85,7 @@ Strumenti speficici per analisi:
 * :doc:`gmt_overview` - [:doc:`Guida rapida <../quickstart/gmt_quickstart>`] - Restituzione cartografica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
+* :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Crea Map Tiles
 * :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
 * :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
@@ -95,7 +98,6 @@ Applicazioni mirate ad uno specifico campo:
 * :doc:`ushahidi_overview` - [:doc:`Guida rapida <../quickstart/ushahidi_quickstart>`] - Mapping e Timeline per eventi
 * :doc:`osgearth_overview` - [:doc:`Guida rapida <../quickstart/osgearth_quickstart>`] - Rendering superficie 3D
 * :doc:`mb-system_overview` - [:doc:`Guida rapida <../quickstart/mb-system_quickstart>`] - Mappatura del fondo marino
-* :doc:`marble_overview` - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Spinning Globe
 * :doc:`zygrib_overview` - [:doc:`Guida rapida <../quickstart/zygrib_quickstart>`] - Mappe delle previsioni del tempo
 
 
@@ -134,7 +136,6 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 * :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo 6.0
-* :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Creazione di Map Tiles, non incluso dopo OSGeo-Live 6.5
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------
@@ -142,3 +143,8 @@ Inclusi nell'immagine completa di OSGeo-Live:
 
 * `Microsoft Windows Installers <../../WindowsInstallers/>`_
 * `Apple OSX Installers <../../MacInstallers/>`_
+
+Metrica
+--------------------------------------------------------------------------------
+
+* :doc:`Metrica dei progetti <../metrics>` da Ohloh

@@ -12,7 +12,7 @@
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -29,7 +29,7 @@
   :scale: 30 %
   :alt: project logo
   :align: right
-  :target: http://www.postgis.net/
+  :target: http://postgis.net/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -114,11 +114,11 @@ Standard implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito Web:** http://www.postgis.net
+**Sito Web:** http://postgis.net
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** 2.0.3
+**Versione Software:** 2.1.1
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 
