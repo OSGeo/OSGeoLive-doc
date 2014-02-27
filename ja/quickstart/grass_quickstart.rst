@@ -70,17 +70,15 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
   :alt: screenshot
   :align: right
 
-Back in the `GIS Layer Manager` window click on the `elevation.10m` raster
-map name to select it. Then in the `Map Display` window, to the right of the
-zooming buttons on the `Map Display` toolbar is an icon with a line graph
-and checkerboard on it. Click on that and select **Profile surface map**.
-The `@PERMANENT` mapset is automatically searched, so you can remove the qualifier.
-If the map isn't automatically listed, again pick the `elevation.10m` map
-as the raster layer and press :guilabel:`Ok`. The second button in from the left allows
-you to set out the profile line, click it then mark out a few points on
-the `Map Display` canvas. When done go back to the Profile window and click
-on the eyeball button to create the plot. Click on the I/O button of the far
-right to close the profile window.
+`GIS レイヤマネージャ` ウィンドウに戻って`elevation.10m`ラスターを選択するために名前をクリックして下さい.
+`マップディスプレイ` ウィンドウで `マップ表示` ツールバーのズームボタンの右にある線と縞目模様のあるアイコンを見て下さい.
+**Profile surface map** をクリックして選択して下さい.
+`@PERMANENT` マップセットは自動的に検索されて, ファイル名で絞り込むことができます.
+もし自動的にリストに表示がされない場合は, 再び `elevation.10m` マップをラスターレイヤーとして選択して
+:guilabel:`Ok` をクリックして下さい.
+左から2番目のボタンをクリックして, `Map Display` キャンバスのの複数点をクリックすることでプロファイルを取ることができます.
+何点かクリックしたのちプロファイルウィンドウの目玉ボタンをクリックするとプロファイルを表示することができます.
+終了するには右端にあるスイッチボタンをクリックして下さい.
 
 ランダムサーフェスの作成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -104,11 +102,9 @@ tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the
 色の調整
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now you'll see your new raster map added to the layer list along with
-the elevation raster map, except this time it will be in your "user1"
-working mapset. You might un-tick the `elevation.10m` layer's visibility
-check-box now so that the two don't draw over the top of each other. Click
-on the eyeball to view your new map if it doesn't render automatically.
+新しいラスターマップが標高マップとともにレイヤーリストないしは "user1" マップセットに加わっているとのが見えると思います.
+`elevation.10m` レイヤの表示チェックボックスをオフにすることで表示を制御することができます.
+自動的に表示されない場合は目玉をクリックすると表示がされるようになります.
 The colors might not be as you'd like so let's change them. With the
 fractal DEM selected in the layer list, in the
 `Raster` menu select :menuselection:`Manage colors --> Color tables`.
