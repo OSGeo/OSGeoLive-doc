@@ -17,15 +17,15 @@ In this Quickstart guide you will learn the following:
     #. create a map using your new layer
     #. share your map with others
     
-To start GeoNode on your OSGeoLive DVD you have to choose *Geospatial* => *Browser Clients* => *Start GeoNode* and the GeoNode webpage will automatically
-be opened at http://localhost:8000/ (I assume!). The page will look like shown in the image below.
+To start GeoNode on your OSGeoLive DVD you have to choose :menuselection:`Geospatial --> Browser Clients --> Start GeoNode` and the GeoNode webpage will automatically
+be opened at http://geonode. The page will look like the image below.
 
     .. figure:: ../../images/screenshots/800x600/geonode_start_page.png
 
 1. Register a new account
 --------------------------
 
-From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to have create an account first.
+From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to create an account first.
 
 #. From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link.
 
