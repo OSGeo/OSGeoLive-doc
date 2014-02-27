@@ -27,7 +27,7 @@ be opened at http://geonode. The page will look like the image below.
 
 From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to create an account first.
 
-#. From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link.
+#. From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link. (if the Register Now link is missing try "admin" and "admin" for the Username and Password)
 
    .. figure:: ../../images/screenshots/800x600/geonode_signin_quickstart.png
 
