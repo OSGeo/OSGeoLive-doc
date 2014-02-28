@@ -1,25 +1,25 @@
 :Author: OSGeo-Live
 :Author: Alex Mandel, Cameron Shorter
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
 Creating an OSGeo-Live Bootable USB flash drive
 ********************************************************************************
 
-This quickstart describes the preferred method for creating a Bootable OSGeo-Live USB flash drive. Booting from a flash drive is faster than from a DVD, and the USB drive can be configured to store data between sessions.
+This quickstart describes the preferred method for creating a Bootable OSGeo-Live USB flash drive. Booting from a flash drive is faster than from a DVD, and the USB drive can be configured to store data between sessions (called persistence).
 
 We have have found that there are a number of quirks and tricks involved in successfully building a USB drive. We have documented what we know, but there are likely more tricks and issues. Look for latest tips here: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
 
 Requirements
 --------------------------------------------------------------------------------
 
-* A USB flash drive (at least 4 Gig, 8 Gig is recommended).
+* A USB flash drive (at least 4 Gig, 8+ Gig is recommended).
 * An OSGeo-Live ISO image (downloaded from: http://live.osgeo.org/en/download.html) or converted from a DVD.
 
- * For a 4 GB USB flash drive, use osgeo-live-mini ISO (without Windows and Mac installers)
- * For a 8 GB USB flash drive, use either osgeo-live-mini ISO, osgeo-live ISO (with Windows and Mac installers)
+ * For a 4 GB USB flash drive, use osgeo-live-mini ISO (without Windows and Mac installers), without persistence.
+ * For a 8+ GB USB flash drive, use either osgeo-live-mini ISO, or osgeo-live ISO (with Windows and Mac installers). 8+ GB is recommended if you wish to support persistence.
 
 
 Creating bootable USB drive from Ubuntu
@@ -28,7 +28,7 @@ Creating bootable USB drive from Ubuntu
 (This is the recommended process for creating a USB. It is applicable to Ubuntu and Ubuntu variants such as Xubuntu and OSGeo-Live.)
 
 .. note::
-   The version of Ubuntu you are running, needs to be the same or newer than the version of Xubuntu being installed onto your USB.  If installing OSGeo-Live 7.0 onto a USB, then you will need to be running Ubuntu 12.04 or newer.
+   The version of Ubuntu you are running, needs to be the same or newer than the version of Xubuntu being installed onto your USB.  If installing OSGeo-Live 7.9 onto a USB, then you will need to be running Ubuntu 12.04 or newer.
 
 `Download <http://live.osgeo.org/en/download.html>`_ osgeo-live or osgeo-live-mini to your computer's hard drive. 
 
@@ -46,7 +46,7 @@ Select :menuselection:`Applications --> System --> Startup Disk Creator`, or sea
 
 Select the osgeo-live or osgeo-live-mini ISO Image that you downloaded earlier.
 
-Select the USB flash drive. If you have extra room you might adjust the slider to create persistent storage space on the USB drive (recommended). In order for this option to be available you will need a 8 GB USB flash drive.
+Select the USB flash drive. If you have extra room you might adjust the slider to create persistent storage space on the USB drive (recommended). In order for this option to be available you will need an 8+ GB USB flash drive.
 
 Select :guilabel:`Make Startup Disk`
 
