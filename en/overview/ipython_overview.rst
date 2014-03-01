@@ -47,8 +47,8 @@ Core Features
 The IPython Notebook is a web-based interactive computational environment where you can combine code execution, text, mathematics, plots and rich media into a single document:
 
 
-.. image:: ../../images/screenshots/800x600/ipython-notebook2.png
-  :scale: 50 %
+.. image:: ../../images/screenshots/1024x768/ipython-notebook2.jpg
+  :scale: 33 %
   :alt: screenshot
   :align: right
 
