@@ -39,7 +39,7 @@ off.
 .. TBD: Cameron's review comments:
   Screen shot here (showing menu selection with NaturalEarth highlighted)
 
-#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`File --> Open Project...` from the menu bar.
+#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`Project --> Open` from the menu bar.
 
 #. Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
 
@@ -91,7 +91,7 @@ Create a new QGIS project
 
 Let's now create a new QGIS project and load our own data.
 
-#. Choose :menuselection:`File --> New Project`.
+#. Choose :menuselection:`Project --> New`.
 
 #. Click :menuselection:`Layer --> Add Vector Layer...`.
 
@@ -150,7 +150,7 @@ Let's now include a layer from a Postgres database.
    slider to **50%**, press the :guilabel:`Advanced` button and select
    :menuselection:`Size scale field`, then choose **elevation** 
    (it's in about the middle of the list), and finally set the
-   symbol `Size` scaling to **0.01**. Then click :guilabel:`Ok`.
+   symbol `Size` scaling to **0.02**. Then click :guilabel:`Ok`.
 
 #. You can then click on the query button on the toolbar (cursor arrow with
    a blue "i") and then on the map canvas bubbles to view information about
@@ -168,10 +168,10 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 .. TBD: Cameron's review comments:
   Screen shot here, show toolbox menu, which has been scrolled down to show GRASS, ticked.
 
-#. Clear the slate with :menuselection:`File --> New Project`.
+#. Clear the slate with :menuselection:`Project --> New`.
 
-#. Choose :menuselection:`Plugins --> Manage Plugins`, then scroll down or
-   type ``grass`` into the Filter box, and select the `GRASS` plugin.
+#. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
+   type ``grass`` into the Search box, and select the `GRASS` plugin.
 
    * Notice that a new GRASS icon has been added to the Toolbar, and
      a new `GRASS` menu item has been added to the `Plugins` menu.
@@ -182,27 +182,27 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
      the disc for you.
 
 #. Within the central GRASS data base are a number of sample datasets. We'll
-   load the North Carolina location, and the ``user1`` mapset within it. Choose
-   the `nc_basic_smp` Location and `user1` working mapset, then click :guilabel:`Ok`.
+   load the Spearfish location, and the ``user1`` mapset within it. Choose
+   the `spearfish60` Location and `user1` working mapset, then click :guilabel:`Ok`.
 
 #. To add a map to the QGIS layer list, choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
 
-   * In the PERMANENT mapset select the `elevation_shade` map and click :guilabel:`Ok`.
+   * In the PERMANENT mapset select the `aspect` map and click :guilabel:`Ok`.
 
      .. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
        :scale: 50 %
        :alt: GRASS GIS layers loaded into QGIS
        :align: right
 
-#. Add another GRASS raster layer, this time the `elevation` map from the
+#. Add another GRASS raster layer, this time the `elevation.10m` map from the
    PERMANENT mapset.
 
-   * Double click on the `elevation` map in the QGIS layer list and set its
-     transparency to 65%.
+   * Double click on the `elevation.10m` map in the QGIS layer list and in
+     the Transparency tab set its global transparency to 50%.
 
 #. To add a vector map, choose :menuselection:`Plugins --> GRASS --> Add GRASS vector layer`.
 
-   * From the PERMANENT mapset select the `roadsmajor` map and click :guilabel:`Ok`.
+   * From the PERMANENT mapset select the `roads` map and click :guilabel:`Ok`.
 
 
 The plugin also gives you access to many of the powerful GRASS analysis
@@ -220,8 +220,8 @@ modules and visualization tools:
 
    * A long list of analysis tools will appear. Go to the `Modules Tree` tab and
      select :menuselection:`Region settings --> g.region.multiple.raster`.
-     Clicking on it will open a new tab. Simply type ``elevation`` for the
-     raster map name and press :guilabel:`Ok`. The `elevation` map will
+     Clicking on it will open a new tab. Simply type ``elevation.10m`` for the
+     raster map name and press :guilabel:`Run`. The `elevation.10m` map will
      now have a thin red line around it, indicating the extent of
      GRASS's `computational region` bounds.
 
@@ -230,13 +230,13 @@ modules and visualization tools:
    drag the corner of the toolbox window again to make it a bit larger to
    see all the options.
 
-#. In the new module tab that pops open, select the `elevation` map as the
+#. In the new module tab that pops open, select the `elevation.10m` map as the
    map for elevation. Then depress the rectangle with red corners button on
    the right of the map name to use the region bounds and resolution of that
    map. As mentioned earlier, the `computational region` is a core theme in
    GRASS raster processing.
 
-#. Select `roadsmajor` for the vector overlay, then click :guilabel:`Run`.
+#. Select `roads` for the vector overlay, then click :guilabel:`Run`.
 
 #. Once the NVIZ 3D view opens, maximize the window and drag the positioning
    puck in the compass box on the left to a nice view.
@@ -257,7 +257,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
   If we are to include Sextante, then we need to describe using one of the
   Sextane features.
 
-#. To enable it, choose :menuselection:`Plugins --> Manage Plugins`, then
+#. To enable it, choose :menuselection:`Plugins --> Manage and Install Plugins...`, then
    scroll down or type ``sextante`` into the Filter box and select
    the `SEXTANTE` plugin. Then click :guilabel:`Ok`.
 
@@ -285,7 +285,7 @@ Using the OpenStreetMap plugin
        cp data/osm/feature_city_CBD.osm.bz2 .
        bzip2 -d feature_city_CBD.osm.bz2
 
-#. In QGIS, choose :menuselection:`File --> New Project`. If you had the
+#. In QGIS, choose :menuselection:`Project --> New`. If you had the
    SEXTANTE Toolbox open you might want to close it.
 
 #. Choose :menuselection:`Plugins --> Manage Plugins`.
@@ -295,7 +295,7 @@ Using the OpenStreetMap plugin
      :alt:  The OpenStreetMap plugin
      :align: right
 
-#. Scroll down or type ``open`` into the Filter box and select
+#. Scroll down or type ``open`` into the Search box and select
    the `OpenStreetMap` plugin. Then click :guilabel:`Ok`.
 
    * A new `Web` menu and toolbar will appear and a toolbar on the right
@@ -324,8 +324,7 @@ Things to Try
 What Next?
 ================================================================================
 
-Tutorials for more advanced features of QGIS are collected
-as `OSGeo-Live QGIS tutorials`_.
+Tutorials for more advanced features of QGIS are collected as `OSGeo-Live QGIS tutorials`_.
 
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage.
@@ -334,9 +333,9 @@ the QGIS homepage.
 also included on OSGeo-Live.
 
 .. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
-.. _`Documentation page`: http://www.qgis.org/en/documentation.html
-.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/html/en/docs/gentle_gis_introduction/index.html
-.. _`QGIS User Guide`: http://docs.qgis.org/html/en/docs/user_manual/index.html
+.. _`Documentation page`: http://docs.qgis.org/
+.. _`A Gentle Introduction to GIS`: http://www.qgis.org/en/docs/gentle_gis_introduction/index.html
+.. _`QGIS User Guide`: http://www.qgis.org/en/docs/user_manual/index.html
 .. _`[1]`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`[2]`: ../../qgis/QGIS-1.8-UserGuide-en.pdf
+.. _`[2]`: ../../qgis/QGIS-2.0-UserGuide-en.pdf
 
