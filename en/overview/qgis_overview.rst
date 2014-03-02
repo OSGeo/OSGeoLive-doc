@@ -16,13 +16,13 @@
   :target: http://www.osgeo.org
 
 
-Quantum GIS (QGIS)
+QGIS
 ================================================================================
 
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) is a user friendly, Open Source, GIS client where
+QGIS is a user friendly, Open Source, GIS client where
 you can visualize, manage, edit, analyse data, and compose printable maps.
 It includes powerful analytical functionality through integration with :doc:`GRASS <grass_overview>`.
 It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,
