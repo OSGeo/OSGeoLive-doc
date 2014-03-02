@@ -4,9 +4,9 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ipython.png
-  :scale: 70 %
+  :scale: 90 %
   :alt: project logo
-  :align: right
+  :align: center
   :target: http://ipython.org/
 
 
@@ -51,7 +51,7 @@ While the focus of the project is Python, the IPython architecture is designed i
 
 To get started with the IPython Notebook, see the official-example-collection_. The notebook-gallery_ is an excellent way to see the many things can be done with IPython while learning about a variety of topics, from basic programming to advanced statistics or quantum mechanics.
 
-To learn more about IPython, there are videos-and-screencasts_ available or download talks-and-presentations_, or read our extensive-documentation_. IPython is open source (BSD license), and is used by a range of other-projects_; add your project to that list if it uses IPython as a library, and please don’t forget to cite the project.
+To learn more about IPython, there are videos-and-screencasts_ available or download talks-and-presentations_, or read the extensive-documentation_. IPython is open source (BSD license), and is used by a range of other-projects_; add your project to that list if it uses IPython as a library, and please don’t forget to cite the project.
 
 IPython supports Python 2.6 to 2.7 and 3.2 or newer. Our older 0.10 series supports Python 2.5, and can be used with Python 2.4.
 
@@ -90,7 +90,7 @@ On OSGeoLive a number of python libraries and command line tools are installed (
 Details
 --------------------------------------------------------------------------------
 
-Website_ 
+IPython Website_ 
 
 .. _Website: http://ipython.org/
 
