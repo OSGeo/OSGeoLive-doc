@@ -47,13 +47,13 @@ Core Features
 Data Sets included in OSGeo Live
 --------------------------------------------------------------------------------
 
-- Nottingham.osm.bz2: A large extract of the greater city area as a BZip2 compressed XML text file.
+- feature_city.osm.bz2: A large extract of the greater city area as a BZip2 compressed XML text file.
 
-- Nottingham_CBD.osm.bz2: A smaller subset covering just the central business district.
+- feature_city_CBD.osm.bz2: A smaller subset covering just the central business district.
 
-- Nottingham_poi.db: Sqlite DB of "positions of interest" nodes extracted from the above larger city OSM extract. Contains locations of pubs, fuel stations, restaurants, supermarkets, etc.
+- feature_city_poi.db: Sqlite DB of "positions of interest" nodes extracted from the above larger city OSM extract. Contains locations of pubs, fuel stations, restaurants, supermarkets, etc.
 
-- feature_city.osm.bz2, feature_city_CBD.osm.bz2, and feature_city_poi.db are the same data as in the above extracts. Quickstarts and overviews use these generic file names since the example city can change with each new release.
+- Files referencing the name of the featured city contain the same data as the above files. Quickstarts and overviews use the generic file names so that the example city can change with each new release.
 
 The OSM feature city data has been imported into a PostGIS database called
 "osm_local" using the osm2pgsql tool. The spatial reference system used for
@@ -70,7 +70,7 @@ Details
 
 **License:** Open Data Commons Open Database License (ODbL)
 
-**Data Version:** Live database extract 2013-07-13
+**Data Version:** Live database extract 2014-02-16
 
 **Data format:** XML
 
