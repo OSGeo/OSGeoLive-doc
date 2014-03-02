@@ -77,8 +77,4 @@ Many applications are also provided with installers for
 
 Presentation
 --------------------------------------------------------------------------------
-A half hour presentation, highlighting all OSGeo-Live applications, is available as a video, along with source slides and script.
-
-View the slides now: `on this disc <presentation/>`_, or `online <http://adhoc.osgeo.osuosl.org/livedvd/docs/en/presentation/>`_
-
-Details at :doc:`presentation`.
+A half hour `presentation <presentation/index.html>`_, highlighting all OSGeo-Live applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
