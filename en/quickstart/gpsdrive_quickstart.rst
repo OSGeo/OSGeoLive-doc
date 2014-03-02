@@ -90,7 +90,7 @@ Finding amenities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 With the *Find POI* tool you can search out for the nearest points of interest
 loaded into your SQLite waypoint database. To get you started OpenStreetMap
-data for the city of Nottingham has been loaded. e.g. *Find all pubs within 2 km
+data for the featured city has been loaded. e.g. *Find all bars within 2 km
 of the conference hall*. If you don't see the *Find POI* button in the bottom
 of the left side toolbar try maximizing the window or pressing the "more"
 arrow button just above the compass. Set "max. Distance" to 2.0 km from the
