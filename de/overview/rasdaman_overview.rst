@@ -21,7 +21,7 @@ Rasdaman
 ========
 
 Multi-dimensionale Big Data Analytics Engine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Rasdaman ist ein Array-Datenbanksystem für flexible, performante, skalierbare Geo-Dienste auf multi-dimensionalen raum-zeitlichen Sensor-, Bild-, Simulations- und Statistikdaten unbegrenzter Größe.  Ad-hoc Zugriff, Extraktion, Aggregation sowie Remix und Analyse erfolgt durch eine NewSQL Raster-Anfragesprache mit hocheffektiver server-seitiger Optimierung.  Cloud/Cluster-Parallelisierung erfolgt in gesicherter, vom Administrator steuerbarer Weise.  Die Daten werden in einer PostgreSQL-Datenbank abgelegt, sodass sich eine enge Informationsintegration ergibt.
 
