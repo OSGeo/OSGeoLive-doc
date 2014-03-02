@@ -250,7 +250,7 @@ Using the Processing Toolbox
 ================================================================================
 
 A core plugin for QGIS which opens the door to a large family of
-processing tools is the Processing Toolbox.
+processing tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox).
 It acts as a standardized wrapper around a number of other sets to tools.
 
 .. TBD: Cameron's review comments:
@@ -280,32 +280,52 @@ Using the OpenStreetMap plugin
        bzip2 -d feature_city_CBD.osm.bz2
 
 #. In QGIS, choose :menuselection:`Project --> New`. If you had the
-   SEXTANTE Toolbox open you might want to close it.
+   Processing Toolbox open you might want to close it.
 
-#. Choose :menuselection:`Plugins --> Manage Plugins`.
 
    .. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
      :scale: 50 %
      :alt:  The OpenStreetMap plugin
      :align: right
 
-#. Scroll down or type ``open`` into the Search box and select
-   the `OpenStreetMap` plugin. Then click :guilabel:`Ok`.
+#. Choose :menuselection:`Vector --> OpenStreetMap --> Import toplogy from XML`.
 
-   * A new `Web` menu and toolbar will appear and a toolbar on the right
-     side of the map canvas.
+#. Click on the "..." button next to "Input XML file (.osm)" and select
+   the `feature_city_CBD.osm` file you just copied into the home directory.
+   The "Output SpatialLite DB file" name will be automatically set. Click
+   :guilabel:`Ok` to convert the dataset to SpatiaLite format and create
+   a connection to the SpatialLite DB within QGIS.
 
-#. Choose :menuselection:`Web --> OpenStreetMap --> Load OSM from file`.
+#. Next we need to extract points, lines, and areas, then add topology to
+   each of these three new layers. To do this we need to run the tool three times.
+   Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy to SpatiaLite` and
+   use the "..." button to select the newly created `feature_city_CBD.osm.db` file.
+   The `Output layer name` will be automatically filled in for you depending
+   on the `Export type` selected. Click the :guilabel:`Load from DB` button
+   to load in the available tags. For the "points" layer tick the `amentity` box;
+   for the "polylines" layer tick the `highway` layer; and for
+   the "polygon" layer select the `building` layer. You may wish to change
+   the `Output layer name` to reflect the feature tags that you've selected.
+   When you are ready, press :guilabel:`Ok` to load in the layer. You will
+   need to again press the :guilabel:`Load from DB` button after changing
+   the export type from points to polylines, and polylines to polygons.
 
-#. Click on the "..." button and select the `feature_city_CBD.osm` file you
-   just copied into the home directory.
-
-#. Tick the `name`, `highway`, and `amenity` check boxes.
-
-#. Choose :guilabel:`Medium scale` rendering, then click :guilabel:`Ok`.
+#. Once topology is loaded, you can also refine the SpatiaLite layer by
+   querying just certain features from within it.
+   Select :menuselection:`Layer --> Add SpatiaLite Layer...` from the
+   menu and from the `Databases` list select `feature_city_CBD@...` and
+   then click on :guilabel:`Connect`. Double click on
+   the `feature_city_cbd_polylines` table and then double click on "highway"
+   to start building your SQL query. Then click on the :guilabel:`=` button,
+   then the :guilabel:`All` button, and double click on `motorway` from the
+   Values list. Click the :guilabel:`Test` button to verify the result,
+   and finally click on :guilabel:`Ok`. Back in the `Add SpatiaLite Table`
+   window click :guilabel:`Add` to restrict the rendering to just major
+   highways. You can repeat this process with new layers to render different
+   road types with different widths and styles.
 
 #. You can now explore this rich dataset. Use the ``i`` information cursor
-   button in the `OSM Feature Manger` side-toolbar to query individal map features.
+   button in the QGIS toolbar to query individal map features.
 
 Things to Try
 ================================================================================
