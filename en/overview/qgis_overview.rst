@@ -61,13 +61,15 @@ Core Features
     * the georeferencer plugin,
     * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit
 
-* Perform spatial analysis using fTools or GRASS plugins
+* Perform spatial analysis using integrated support for SAGA, OTB, MMGIS, fTools and GRASS 
 
     * map algebra,
     * terrain analysis,
     * hydrologic modeling,
     * network analysis,
-    * and many others
+    * comprehensive searchable toolbox of functions,
+    * define and run reusable analysis routines by chaining functions using a graphical modelling tool,
+    * and many others.
 
 * Publish to the internet
 * Extensible plugin architecture.
