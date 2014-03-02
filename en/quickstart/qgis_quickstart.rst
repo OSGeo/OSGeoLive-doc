@@ -263,7 +263,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
      processing tools to choose from. Take some time and have a look around.
 
 
-Using the OpenStreetMap plugin
+Importing OpenStreetMap data
 ================================================================================
 
 .. TBD: Cameron comment
