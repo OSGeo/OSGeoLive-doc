@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
@@ -70,7 +70,7 @@ PROJ.4
   
   **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 4.7.0
+  **Software Version:** 4.8.0
   
   **Supported Platforms:** Windows, Linux, Mac
   
@@ -85,8 +85,6 @@ Proj4js
   
   **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 1.1.0
-  
   **Supported Platforms:** Windows, Linux, Mac
   
   **API Interfaces:** JavaScript
@@ -99,8 +97,6 @@ CS-Map
   **Website:**  http://trac.osgeo.org/csmap/
   
   **Licence:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
-  
-  **Software Version:** 13.0
   
   **Supported Platforms:** Windows, Linux, Mac
   
@@ -125,8 +121,6 @@ Proj4J
   **Website:**  http://trac.osgeo.org/proj4j/
   
   **Licence:** `Apache License, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
-  
-  **Software Version:** 
   
   **Supported Platforms:** Windows, Linux, Mac
   
