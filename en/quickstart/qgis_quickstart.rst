@@ -39,7 +39,7 @@ off.
 .. TBD: Cameron's review comments:
   Screen shot here (showing menu selection with NaturalEarth highlighted)
 
-#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS` and select :menuselection:`File --> Open Project...` from the menu bar.
+#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`File --> Open Project...` from the menu bar.
 
 #. Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
 
