@@ -34,7 +34,7 @@ Creating maps in python is easy with Mapnik. Type `python` on the command line t
     
       The above code depends on having an XML stylesheet that Mapnik can read, defining the layers
       to read data from and the styles to apply to those layers. You can create one of these inside QGIS
-      with the Quantumnik plugin: http://bitbucket.org/springmeyer/quantumnik/
+      with the Quantumnik plugin: http://plugins.qgis.org/plugins/quantumnik/
 
 
 Mapnik & OpenLayers
@@ -44,7 +44,7 @@ In addition a basic demo application is available, which highlights using Mapnik
 
 The demo uses a tileserver designed for Mapnik called "TileLite"
 
-  * More information about TileLite: http://bitbucket.org/springmeyer/tilelite/
+  * More information about TileLite: https://github.com/springmeyer/tilelite
 
 To run the demo just follow these steps:
 
