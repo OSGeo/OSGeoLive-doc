@@ -19,6 +19,10 @@ Many common languages are included on OSGeo-Live. To switch languages:
    #. Select user="user", password="user"
    #. Repeat the process if wish to change languages again.
 
+   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
+     :scale: 70 %
+     :alt: login screen
+
 The system menus and many of the applications will now appear in the language chosen. If a specific program continues to display in English, then the program doesn't have a translation available - please consider volunteering to write a translation. Contact the program of interest directly for more information.
 
 For additional languages see :menuselection:`Applications --> System --> Language Support` (Requires an internet connection).
