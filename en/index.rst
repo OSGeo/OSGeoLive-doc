@@ -80,5 +80,5 @@ Presentation
 
 A half hour `presentation <presentation/index.html>`_, highlighting all OSGeo-Live applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
 
-View the slides now: `on this disc <presentation/>`_, or `online <http://adhoc.osgeo.osuosl.org/livedvd/docs/en/presentation/>`_
+View the slides now: `on this disc <presentation/>`_, or `online <http://live.osgeo.org/en/presentation/>`_
 
