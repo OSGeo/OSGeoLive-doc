@@ -24,7 +24,7 @@ IPython provides a rich architecture for interactive computing with:
 * Easy to use, high performance tools for parallel computing.
 
 .. image:: ../../images/screenshots/800x600/ipython-notebook1.png
-  :scale: 70 %
+  :scale: 100 %
   :alt: screenshot
   :align: right
   
