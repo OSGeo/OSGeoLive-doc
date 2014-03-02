@@ -246,24 +246,18 @@ modules and visualization tools:
    left and wait while it renders.
 
 
-Using the SEXTANTE Toolbox
+Using the Processing Toolbox
 ================================================================================
 
-Another major plugin for QGIS which opens the door to a large family of
-processing tools is the `SEXTANTE <http://www.sextantegis.com/>`_ Toolbox.
+A core plugin for QGIS which opens the door to a large family of
+processing tools is the Processing Toolbox.
 It acts as a standardized wrapper around a number of other sets to tools.
 
 .. TBD: Cameron's review comments:
   If we are to include Sextante, then we need to describe using one of the
   Sextane features.
 
-#. To enable it, choose :menuselection:`Plugins --> Manage and Install Plugins...`, then
-   scroll down or type ``sextante`` into the Filter box and select
-   the `SEXTANTE` plugin. Then click :guilabel:`Ok`.
-
-   * A new `Analysis` menu and toolbar will appear.
-
-#. Choose :menuselection:`Analysis --> Sextante Toolbox`.
+#. Choose :menuselection:`Processing --> Toolbox`.
 
    * A new toolbar will open on the right side of the screen with many
      processing tools to choose from. Take some time and have a look around.
