@@ -65,7 +65,7 @@ Kernelemente
   * Catalog-Services: Z3950, SRW, CSW (ISO/19115 and ebRIM)
   * Gazetteer-Services: ADL, WFS, WFS-G
   
-* Bietet mehr als 300 Geoalgorithmen durch die Integration von SEXTANTE_
+* Bietet mehr als 300 Geoalgorithmen durch die Integration von SEXTANTE bibliothek
   
 * Fortschrittlich durch integrierte CAD Werkzeuge:
 
