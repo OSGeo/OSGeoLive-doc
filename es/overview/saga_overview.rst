@@ -54,7 +54,7 @@ Funciones principales
  * Visualización 3D
 
 * Sencilla API C++ para la creación de nuevos módulos
-* *Scripting* mediante línea de comandos, enlaces para *python*
+* *Scripting* mediante línea de comandos, enlaces para *Phyton*.
 * Acceso a SAGA desde el lenguaje estadístico R a través del módulo RSAGA
 
 Detalles
@@ -64,11 +64,11 @@ Detalles
 
 **Licencia:** LGPL v2.1 (api); GPLv2 (GUI y módulos)
 
-**Version de software:** 2.0.8
+**Version de software:** 2.1.1
 
 **Plataformas compatibles:** Windows, Linux, FreeBSD
 
-**Interfaces API:** C++
+**Interfaces API:** C++, Python, R 
 
 **Soporte:** http://www.saga-gis.org
 

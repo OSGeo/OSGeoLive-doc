@@ -51,8 +51,6 @@ Detalles
 
 **Licencia:** LGPL
 
-**Versión el Software:** 3.3.2
-
 **Plataformas Soportadas:** Windows, Linux, Mac
 
 **Interfaces API:** C, C++

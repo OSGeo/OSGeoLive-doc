@@ -1,4 +1,4 @@
-:Author: Jody Garnett
+ :Author: Jody Garnett
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Samuel Mesa
 :Translator: David Mateos
@@ -119,7 +119,7 @@ Detalles
 
 **Versión del Software:** 8.0
 
-**Platformas soportadas:** Java Multiplataforma
+**Platformas soportadas:** Java 6 Multiplataforma
 
 **Soporte a lenguajes de programación:** Java
 

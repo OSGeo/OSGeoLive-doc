@@ -40,7 +40,7 @@ Características principales
 
 * acceso a imágenes: acceso lectura/escritura optimizado  para la mayoría de los
   formatos de imágenes de teledetección, acceso a metadatos y visualización;
-* ortorectificación y proyección de mapas
+* ortorectificación usando MDE, proyección de mapas y ajuste de modelos de sensores
 * calibración
 * fusión de imágenes
 * filtrado: desenfoque, eliminación de ruido, mejoramiento
@@ -62,7 +62,7 @@ Detalles
 **Licencia:** CeCILL (CeCILL es compactible con GPL y mejorado en orientación de 
   la ley Francesa)
 
-**Versión de software:** 3.14.1 (liberada en octubre de 2012)
+**Versión de software:** 3.20
 
 **Plataformas soportadas:** Linux, Mac, Windows
 
