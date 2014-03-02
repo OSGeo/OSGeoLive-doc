@@ -4,12 +4,10 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ipython.png
-  :scale: 80 %
+  :scale: 70 %
   :alt: project logo
   :align: right
   :target: http://ipython.org/
-
-
 
 
 
@@ -25,7 +23,7 @@ IPython provides a rich architecture for interactive computing with:
 * Flexible, embeddable interpreters to load into your own projects.
 * Easy to use, high performance tools for parallel computing.
 
-.. image:: ../../images/screenshots/800x600/ipython-notebook2.png
+.. image:: ../../images/screenshots/800x600/ipython-notebook1.png
   :scale: 70 %
   :alt: screenshot
   :align: right
