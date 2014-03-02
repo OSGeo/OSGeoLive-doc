@@ -88,14 +88,13 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://qgis.org/en/community.html
+**Community Support:** http://qgis.org/en/site/forusers/support.html
 
-**Commercial Support:** http://qgis.org/en/commercial-support.html
+**Commercial Support:** http://qgis.org/en/site/forusers/commercial_support.html
 
 
 Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
-
 
