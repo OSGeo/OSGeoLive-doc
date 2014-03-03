@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
@@ -79,7 +79,7 @@ Mapnik rendering of OpenStreetMap data
 If you have a local PostGIS database running (for example the one that comes
 with this Live DVD) you can setup GpsDrive to render very pretty street maps
 on the fly from OpenStreetMap.org data using the Mapnik renderer. The
-PostgreSQL database it looks for on this disc is called "osm_local_smerc".
+PostgreSQL database it looks for on this disc is called "osm_local".
 As this OpenStreetMap extract has only been loaded for the city hosting
 the FOSS4G conference, you may wish to add your own Planet.osm data with the
 `osm2pgsql` program or switch off *Mapnik Mode* from the *Map Control*
@@ -90,7 +90,7 @@ Finding amenities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 With the *Find POI* tool you can search out for the nearest points of interest
 loaded into your SQLite waypoint database. To get you started OpenStreetMap
-data for the featured city has been loaded. e.g. *Find all bars within 2 km
+data for the featured city has been loaded. e.g. *Find all pubs within 2 km
 of the conference hall*. If you don't see the *Find POI* button in the bottom
 of the left side toolbar try maximizing the window or pressing the "more"
 arrow button just above the compass. Set "max. Distance" to 2.0 km from the
