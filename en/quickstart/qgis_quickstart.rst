@@ -344,7 +344,7 @@ To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage.
 
 `A Gentle Introduction to GIS`_ `[1]`_ eBook and the `QGIS User Guide`_ `[2]`_ are
-also included on OSGeo-Live.
+also included on the OSGeo-Live disc.
 
 .. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
 .. _`Documentation page`: http://docs.qgis.org/
