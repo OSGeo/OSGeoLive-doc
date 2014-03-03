@@ -32,22 +32,24 @@ Core Features
 
 The SpatiaLite extension enables SQLite to support spatial data conformant to OGC specifications.
 
-* Supports standard WKT and WKB formats
-* Implements SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() and alike
-* The complete set of OpenGis functions is supported via GEOS, this comprehending sophisticated spatial analysis functions such as Overlaps(), Touches(), Union(), Buffer() ..
-* Supports full Spatial metadata along the OpenGis specifications
-* Supports alternative Geometry notations - EWKT, GML, KML, and GeoJSON
-* Supports importing and exporting to shapefiles
-* Supports coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
-* Supports locale charsets via GNU libiconv
-* Implements a true Spatial Index based on the SQLite's RTree extension
-* The VirtualShape extension enables SQLite to access shapefiles as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external shapefiles, with no need for importing or converting them
-* The VirtualText extension enables SQLite to access CSV/TxtTab files as VIRTUAL TABLEs 
-* The VirtualXL extension enables SQLite to access xls spreadsheet tables as VIRTUAL TABLEs 
-* You can then perform standard SQL queries on external CSV/TxtTab files or Excel tables, with no need for importing or converting them
-* The GUI tool supports all this, in an user friendly way
+Highlights:
 
+* User friendly GUI 
+* Standard WKT and WKB formats
+* SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() ...
+* OpenGis spatial analysis functions provided via GEOS, such as Overlaps(), Touches(), Union(), Buffer() ...
+* Full Spatial metadata in line with OpenGis specifications
+* Numerous Geometry notations - EWKT, GML, KML, and GeoJSON
+* Importing and exporting to shapefiles
+* Coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset
+* Locale charsets via GNU libiconv
+* Spatial Index based on the SQLite's RTree extension
+* Access shapefiles as VIRTUAL TABLEs, enabling standard SQL queries on external shapefiles, without importing or converting them
+* Access external CSV/TxtTab files or xls spreadsheets as VIRTUAL TABLEs 
+* Access XML documents, stored BLOB compressed binary objects, including syntactic "well formed" and XSF schema validation constrained checks. Specific support for ISO-Metadata, SLD/SE styles and SVG graphics.XML documents can be queried using standard XPath syntax.
+* Query external WFS servers.
+* Parse external DXF files (all versions) and store layers and geometries found.
+* Generate and Export DXF files
 
 Details
 --------------------------------------------------------------------------------
