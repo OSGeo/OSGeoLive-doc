@@ -1,6 +1,6 @@
 :Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-spatialite.png
@@ -34,6 +34,8 @@ Kernfunktionen
 
 Die SpatiaLite Erweiterung ermöglicht SQLite die Unterstützung von geographischen Daten nach OGC Spezifikationen.
 
+Highlights:
+
 * Unterstützung von WKT und WKB Standardformaten
 * Implementierung von räumlichen Funktionen wie AsText(), GeomFromText(), Area(), PointN() und ähnlichen
 * Komplette Unterstützung von OpenGis Funktionen via GEOS, wie z.B. Funktionen zur räumlichen Analyse Overlaps(), Touches(), Union(), Buffer() ...
@@ -47,7 +49,11 @@ Die SpatiaLite Erweiterung ermöglicht SQLite die Unterstützung von geographisc
 * Zugang zu CSV/TxtTab-Dateien als VIRTUAL TABLES durch die VirtualText Erweiterung
 * Durchführung von standardkonformen SQL Abfragen auf externen CSV/TxtTab-Dateien, ohne diese zu importieren oder zu konvertieren
 * Ein GUI Werkzeug unterstützt all Funktionen auf eine benutzerfreundliche Art und Weise
-
+* Zugriff auf XML Dokumente, gespeicherte BLOB (komprimierte Binär-Objekte), inklusiver syntaktisch "wohlgeformter" 
+und XSF Schema Validation Constrained Prüfungen. Spezifische Unterstützung für ISO-Metadata, SLD/SE Styles und SVG Grafiken. XML Dokumente können über Standard XPath Syntax abgefragt werden.
+* Abfrage externer WFS
+* Parsen externer DXF Dateien (alle Versionen) und Speichern der Themen und Geometrien 
+* Generierung und Export von DXF Dateien
 
 Details
 --------------------------------------------------------------------------------
@@ -56,7 +62,7 @@ Details
 
 **Lizenz:** MPL v1.1 und GPL v3
 
-**Software Version:** spatialite 3.1.0 / librasterlite 1.1 / spatialite-gui 1.5.0 / spatialite-gis 1.0.0
+**Software Version:** spatialite 4.1.0 / spatialite-gui 1.6.0
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 
