@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
@@ -26,7 +26,7 @@ Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-An
 QGIS Server läuft in der Regel als CGI/FastCGI Modul innerhalb des Apache Webservers.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 70 %
+  :scale: 50 %
   :alt: project logo
   :align: right
 
@@ -45,6 +45,7 @@ Implementierte Standards
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.3.0
+* OGC Web Feature Service (WFS) 1.0.0
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Details
@@ -54,7 +55,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 1.8.0
+**Software Version:** 2.0.1
 
 **Unterstützte Plattformen:** Windows, Linux
 
