@@ -1,6 +1,6 @@
 :Author: Gérald Fenoy
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Zoo.png
@@ -23,7 +23,8 @@ WPS Server
 
 Das ZOO Projekt liefert ein entwicklerfreundliches Web Processing Service (WPS) Framework, um Web Processing Services zu erstellen und miteinander zu verknüpfen (Chaining).
 Ein WPS stellt den Zugang zu Funktionen bereit, die in der Lage sind, räumliche Algorithmen auszuführen.
-Das ZOO Projekt unterstützt zahlreiche Programmiersprachen und enthält zwei Beispielanwendungen, die von einfachen GIS Funktionen der Webdienste (einer Bibliothek in C und einem Python-Modul) Gebrauch machen, basierend auf den GEOS und OGR Bibliotheken.
+Das ZOO Projekt unterstützt zahlreiche Programmiersprachen und enthält zwei Beispielanwendungen, die von einfachen GIS Funktionen der Webdienste (einer Bibliothek in C und einem Python-Modul) 
+Gebrauch machen, basierend auf den  :doc:`GEOS <geos_overview>` und :doc:`OGR <gdal_overview>` Bibliotheken.
 
 ZOO besteht aus drei Komponenten:
 
@@ -71,13 +72,14 @@ Details
 
 **Lizenz:** MIT x/11
 
-**Software Version:** 1.2.0
+**Software Version:** 1.3.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
 **API Schnittstellen:** C, Python, Java, PHP, Fortran, Javascript
 
 **Support:** http://zoo-project.org/trac
+
 
 Quickstart
 --------------------------------------------------------------------------------
