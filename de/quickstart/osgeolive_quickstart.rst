@@ -56,7 +56,7 @@ Siehe auch:
  *  Einstieg in Xfce Desktop: (wird von OSGeo-Live verwendet):
     http://docs.xfce.org/xfce/getting-started
  * Einstieg in das Ubuntu Betriebssystem:
-    `local eBook </usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ and `extended online help <http://help.ubuntu.com/12.04/>`_
+    `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ und `Erweiterte Online Hilfe <http://help.ubuntu.com/12.04/>`_
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
