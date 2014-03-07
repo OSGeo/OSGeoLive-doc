@@ -16,14 +16,14 @@
   :target: http://www.osgeo.org
 
 
-Quantum GIS (QGIS)
+QGIS
 ================================================================================
 
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) ist ein benutzerfreundliches, quelloffenes Geographisches Informationssystem, mit dem man Geodaten visualisieren, managen, editieren und analysieren sowie druckfertige Karten erstellen kann. 
-Über eine direkte Schnittstelle zu GRASS stellt es umfangreiche analytische Module bereit.
+QGIS ist ein benutzerfreundliches, quelloffenes Geographisches Informationssystem, mit dem man Geodaten visualisieren, managen, editieren und analysieren sowie druckfertige Karten erstellen kann. 
+Über eine direkte Schnittstelle zu  :doc:`GRASS <grass_overview>` stellt es umfangreiche analytische Module bereit.
 Es läuft unter Linux, Unix, Mac OS X und Windows und unterstützt eine Vielzahl an Vektor-, Raster- und Datenbankformaten sowie Funktionalitäten.
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
@@ -47,7 +47,7 @@ Kernfunktionen
 
 * Einfaches anzeigen zahlreicher Vektor- and Rasterformate
 
-    * PostgreSQL/PostGIS, Oracle Spatial
+    * Datenbank Tabellen: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, SpatiaLite
     * zahlreiche Vektorformate, welche durch die OGR Bibliothek unterstützt werden, inklusive ESRI shapefiles, MapInfo, SDTS und GML.
     * zahlreiche Rasterformate, welche durch die GDAL Bibliothek unterstützt werden, z.B. digitale Höhenmodelle, Luft- und Satelitenbilder.
     * GRASS Locations und Mapsets,
@@ -65,10 +65,12 @@ Kernfunktionen
     * Reliefanalyse,
     * hydrologische Modellierung,
     * Netzwerkanalyse,
+    * komfortable, durchsuchbare Funktionssammlung
+    * Grafisches Modellieruengswerkzeug zur Definition von wiederverwendbaren Funktionen zur Ausführung von Analysen
     * und vieles mehr
 
-* Karten über das Internet bereitstellen mit dem MapServer Export Plugin
-* erweiterbaren Plugin Architektur.
+* Karten über das Internet bereitstellen
+* erweiterbare Plugin Architektur.
 
 Implementierte Standards
 --------------------------------------------------------------------------------
