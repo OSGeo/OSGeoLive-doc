@@ -24,7 +24,7 @@ Systemvoraussetzungen
 Erstellen der Virtualisierungsumgebung
 --------------------------------------------------------------------------------
 
-Herunterladen und Installieren von `Virtual Box <http://www.virtualbox.org/>`_. Unter Debian/Ubuntu Linux mache Folgendes:
+Herunterladen und Installieren von `Virtual Box <http://www.virtualbox.org/>`_. Unter Debian/Ubuntu Linux sind folgende Schritte durchzuführen:
 
   ``apt-get install virtualbox-ose``
 
@@ -49,7 +49,7 @@ Gebe einen Namen für das Image an und wähle "Linux", "Ubuntu".
   .. image:: ../../images/screenshots/800x600/virtualbox_memory.png
     :scale: 70 %
 
-Setze den Arbeitsspeicher auf mindestens 768 MB.
+Setze den Arbeitsspeicher auf mindestens 768 MB, 1 GB ist besser zum Test von Java basierten Anwendungen.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_no_hard_disk.png
     :scale: 70 %
