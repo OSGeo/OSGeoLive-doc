@@ -1,25 +1,25 @@
 :Author: OSGeo-Live
 :Author: Alex Mandel, Cameron Shorter
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
 Bootfähigen OSGeo-Live USB-Stick erstellen
 ********************************************************************************
 
-Hier beschreiben wir, wie ein bootbarer OSGeo-Live USB-Stick erstellt werden kann. Von einem USB-Stick zu starten ist schneller als von einer DVD zu starten und das USB-Laufwerk zusätzlich kann zur Sicherung der Daten zwischen Sessions genutzt werden.
+Hier beschreiben wir, wie ein bootbarer OSGeo-Live USB-Stick erstellt werden kann. Von einem USB-Stick zu starten ist schneller als von einer DVD zu starten und das USB-Laufwerk zusätzlich kann zur Sicherung der Daten zwischen Sessions genutzt werden (dies wird persistent genannt).
 
 Die USB Installation ist noch ziemlich neu. Wir haben zwar bereits eine Menge an positiven Rückmeldungen erhalten, allerdings ist die Installation noch nicht ausgiebig getestet. Es wurde alles Dokumentiert, was bisher zu Schwierigkeiten geführt hat, darüber hinaus können Sie auch aktuelle Hinweise hier ansehen : http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB 
 
 Systemvoraussetzungen
 --------------------------------------------------------------------------------
 
-* Ein USB Stick (mindestens 4 GB, 8 GB wird empfohlen)
+* Ein USB Stick (mindestens 4 GB, 8+ GB wird empfohlen)
 * Eine OSGeo-Live DVD oder ein ISO Abbild (heruntergeladen von: http://live.osgeo.org/en/download.html) oder von DVD.
 
  * Einen 4 GB USB-Stick, wenn osgeo-live-mini genutzt wird (ohne Windows und Mac Installationsprogrammen). 
- * Einen 8 GB USB-Stick, wenn osgeo-live genutzt wird (mit Windows und Mac Installationsprogrammen).  
+ * Einen 8+ GB USB-Stick, wenn osgeo-live genutzt wird (mit Windows und Mac Installationsprogrammen). 8+ GB werden empfohlen, wenn Sie eine persistente Umgebung aufbauen wollen. 
 
 Einen startbaren USB-Stick unter Ubuntu erstellen
 --------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ Einen startbaren USB-Stick unter Ubuntu erstellen
 (dies ist die empfohlene Vorgehensweise und kann auch für andere Ubuntu Distributionen, wie Xubuntu oder OSGeo-Live, angewendet werden)
 
 .. note::
-   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 7.0 müssen Sie Ubuntu 12.04 oder höher verwenden.
+   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 7.9 müssen Sie Ubuntu 12.04 oder höher verwenden.
 
 Laden Sie `download <http://live.osgeo.org/en/download.html>`_ osgeo-live oder osgeo-live-mini auf ihren Computer herunter. 
 
@@ -46,7 +46,7 @@ Wählen Sie :menuselection:`Applications --> System --> Startup Disk Creator` od
 
 Wählen Sie das ISO-Abbild osgeo-live oder osgeo-live-mini ISO Image, das Sie zuvor heruntergeladen haben. 
 
-Wählen Sie den USB-Stick. Sofern Sie über weiteren Platz verfügen können Sie über den Schieber persistenten Speicher auf dem USB-Stick erzeugen (empfohlen). Damit diese Option verfügbar ist, benötigen Sie einen 8 GB USB Stick.
+Wählen Sie den USB-Stick. Sofern Sie über weiteren Platz verfügen können Sie über den Schieber persistenten Speicher auf dem USB-Stick erzeugen (empfohlen). Damit diese Option verfügbar ist, benötigen Sie einen 8+ GB USB Stick.
 
 Wählen Sie :guilabel:`Make Startup Disk`
 
