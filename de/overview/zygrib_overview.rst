@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-zygrib.png
@@ -32,7 +32,6 @@ Kernfunktionen
 * Enturf von personalisierten lokalen Wetterkarten (welweit) oder Darstellung von detaillierten quantitativen Vorhersagen für einen einzelnen Standort
 * Kartierung von Daten zu Wind, Temperatur, Feuchtigkeit, Regen, Schnee, Wolkenbedeckung, Taupunkt und Höhe.
 
-
 Details
 --------------------------------------------------------------------------------
 
@@ -40,8 +39,15 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 3
 
-**Software Version:** 6.1.4
+**Software Version:** 6.2.1
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **Support:** http://zygrib.org/forum/
+
+
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`
+
