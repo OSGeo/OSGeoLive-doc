@@ -64,6 +64,5 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
 Präsentation
 --------------------------------------------------------------------------------
 
-Eine halbstündige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als Video verfügbar sowie als Präsentationsfolien mit Manuskript.
-
-Weitere Details :doc:`hier <presentation>`.
+Eine halbstündige Einführung mit Erläuterungen zu allen OSGeo-Live Programmen ist als `Video Präsentation <presentation/index.html>`_, verfügbar 
+sowie als Präsentationsfolien mit Manuskript und `Einführung <presentation/abstract.txt>`_.
