@@ -10,30 +10,29 @@ Die aktuelle stabile Version von |osgeo-live-version| enthält:
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: iso-Datei mit windows Installer herunterladen
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso/download
+  :target: http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso/download
 
-`osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso/download>`_ : |osgeolive-iso-size|
+`osgeo-live-7.9.iso <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso/download>`_ : |osgeolive-iso-size|
 
-Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_.
+Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: ISO Datei ohne Windows und MacOS Installationsprogramme herunterladen.
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso/download
+  :target: http://download.osgeo.org/livedvd/release/7.9/osgeo-live-mini-7.9.iso/download
 
-`osgeo-live-mini-6.0.iso <http://download.osgeo.org/livedvd/release/6.0/osgeo-live-mini-6.0.iso/download>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-7.9.iso <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-mini-7.9.iso/download>`_ : |osgeolive-iso-mini-size|
 
-Der gleiche Inhalt wie osgeo-live-6.0.iso,  mit Ausnahme der Windows- und MacOS-Installationsprogramme. Außerdem kann es auf ein bootfähiges USB-Laufwerk kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-mini-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-mini-7.0.iso.md5/download>`_.
+Der gleiche Inhalt wie osgeo-live-7.9.iso,  mit Ausnahme der Windows- und MacOS-Installationsprogramme. Außerdem kann es auf ein bootfähiges USB-Laufwerk kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-mini-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-mini-7.9.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Download 7-zip of a Virtual Machine without Windows and Mac installers
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/7.0/osgeo-live-vm-7.0.7z/download
+  :target: http://download.osgeo.org/livedvd/release/7.9/osgeo-live-vm-7.9.7z/download
 
-`osgeo-live-vm-7.0.7z <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-vm-7.0.7z/download>`_ : |osgeolive-vm-7z-size|
+`osgeo-live-vm-7.9.7z <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-vm-7.9.7z/download>`_ : |osgeolive-vm-7z-size|
 
-Eine mit `7-Zip <http://www.7-zip.org/>`_ komprimierte Virtual Disk .vmdk Abbilddatei zum Laden in einer virtuellen Maschine wie VirtualBox, VMWare Player, KVM und andere Anwendungen. Enthält keinen Windows oder Mac Installer. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-vm-7.0.7z.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-vm-7.0.7z.md5/download>`_.
-
+Eine mit `7-Zip <http://www.7-zip.org/>`_ komprimierte Virtual Disk .vmdk Abbilddatei zum Laden in einer virtuellen Maschine wie VirtualBox, VMWare Player, KVM und andere Anwendungen. Enthält keinen Windows oder Mac Installer. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-vm-7.9.7z.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-vm-7.9.7z.md5/download>`_.
 
 Eine vollständige Liste aller Versionen, Downloadoptionen und Spiegelserver finden Sie unter http://download.osgeo.org/livedvd
 
