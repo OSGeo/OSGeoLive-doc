@@ -34,7 +34,7 @@ Karten über Python zu erstellen ist mit Mapnik ganz einfach. Öffnen Sie das Te
 .. note::
 	Der oben dargestellte Code beruht darauf, dass ein XML Stylesheet an den Mapnik übergeben wird. 
 	Hieraus werden die Layerdaten und die dazugehörigen Stylings gelesen. Diese können zum Beispiel 
-	innerhalb von QGIS mit dem Quantumnik erstellt werden: http://bitbucket.org/springmeyer/quantumnik/
+	innerhalb von QGIS mit dem Quantumnik erstellt werden: http://plugins.qgis.org/plugins/quantumnik/
 
 Mapnik & OpenLayers
 --------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ Außerdem ist eine Basis-Demo Anwendung vorhanden. Hier wird Mapnik dazu genutzt
 
 Die Demo benutzt den für den Mapnik entwickelten Tileserver "TileLite"
 
-  * Mehr Informationen über TileLite: http://bitbucket.org/springmeyer/tilelite/
+  * Mehr Informationen über TileLite: https://github.com/springmeyer/tilelite
 
 Um die Demo zu starten müssen folgende Schritte durchgeführt werden:
 
@@ -57,7 +57,7 @@ Um die Demo zu starten müssen folgende Schritte durchgeführt werden:
         $ liteserv.py /usr/local/share/mapnik/demo/population.xml
 
 
-  #.  Um sicher zu gehen, dass der Server läuft besuchen Sie die TileLite Willkommens-Seite auf http://localhost:8000
+  #.  Um sicher zu gehen, dass der Server läuft besuchen Sie die TileLite Willkommens-Seite auf http://localhost:8012
 
   #. Nun rufen Sie das TileLite OpenLayers Beispiel "World Population" auf:
     
