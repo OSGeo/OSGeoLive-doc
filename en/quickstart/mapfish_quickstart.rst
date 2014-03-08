@@ -25,7 +25,8 @@ This Quickstart describes how to
 Run the sample application
 ================================================================================
 
-To run the sample application click on the MapFish link on the Desktop. This
+To run the sample application click
+on :menuselection:`Browser Clients --> MapFish --> MapFish Start`. This
 will open a FireFox tab pointing to the application served by mod_wsgi in
 apache (http://localhost/mapfishsample/osgeolive/wsgi/).
 
@@ -34,6 +35,7 @@ Printing.
 To see the MapFish REST protocol in action you can open the Firebug debugger 
 and look at the requests/responses exchanged between the browser and the
 MapFish web services.
+:menuselection:`Tools --> Web Developer --> Toggle Tools`
 
 Install MapFish
 ================================================================================
