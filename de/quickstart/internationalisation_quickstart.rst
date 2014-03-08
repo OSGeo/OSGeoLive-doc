@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter
 :Author: Frank Gasdorf 
-:Version: osgeo-live5.0draft
+:Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -17,6 +17,10 @@ Es wurden viele geläufige Sprachen installiert. Um die Sprache auf Ihre Belange
    #. Im unteren Bereich werden Sie ein Menü finden, in dem Sie eine andere Sprache auswählen können
    #. Wählen Sie Ihre bevorzugte Sprache und geben Sie das Passwort "user" für den Benutzer "user" wie gewohnt für die Anmeldung ein
    #. Wiederholen Sie den Vorgang, wenn Sie eine andere Sprache einstellen möchten
+
+   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
+     :scale: 70 %
+     :alt: login screen
 
 Die Systemmenüs und viele Applikationen werden nun mit der ausgewählten Sprache erscheinen. Sollte einen Anwendung 
 weiterhin englische Menüs darstellen, liegt dafür aktuell keine Übersetzung vor. Möchten Sie eventuell eine Übersetzung
