@@ -269,10 +269,11 @@ In der Vergangenheit waren die Dokumentation für R-Pakete eher lapidar geschrie
 für jede Funktion. Jetzt werden Autoren aufgefordert, eine "Vignette", als ein freundliches 
 Schreiben zur Einführung in das Paket zu erstellen. Wenn Sie die ``vignette()`` Funktion 
 ohne Argumente starten, bekommen Sie eine Liste der Vignetten auf Ihrem System. Versuchen 
-Sie ``vignette("sp")`` für eine kurze technische Einführung in die räumlichen Datenstrukturen 
-von R, oder ``vignette("spdep")`` für eine Einführung in statistische Analysen der räumlichen 
-Autokorrelation. Die ``vignette("gstat")`` gibt ein Tutorial in der Verwendung dieses Paket 
+Sie ``vignette("intro_sp")`` für eine kurze technische Einführung in die räumlichen Datenstrukturen 
+von R. Die ``vignette("gstat")`` gibt ein Tutorial in der Verwendung dieses Paket 
 für räumliche Interpolation mit Kriging aus.
+
+.. comment: doesn't work// or ``vignette("shapefiles")`` for explanations of using shapefiles in R.
 
 Weiterführende Links
 ================================================================================
