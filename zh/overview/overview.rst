@@ -93,6 +93,8 @@
 * :doc:`ossim_overview` [:doc:`快速入门 <../quickstart/ossim_quickstart>`] - 影像处理
 * :doc:`otb_overview` - [:doc:`快速入门 <../quickstart/otb_quickstart>`] — 图像处理
 * :doc:`R_overview`  - [:doc:`快速入门 <../quickstart/R_quickstart>`] — 空间数据统计
+* :doc:`ipython_overview`  - [:doc:`快速入门 <../quickstart/ipython_quickstart>`] — IPython交互编程环境
+
 
 专门领域 GIS 系统
 --------------------------------------------------------------------------------
