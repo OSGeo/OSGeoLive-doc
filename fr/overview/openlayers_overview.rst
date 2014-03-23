@@ -5,8 +5,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers-large.png
-  :scale: 50 %
+.. image:: ../../images/project_logos/logo-OpenLayers.png
   :alt: Logo du projet
   :align: right
   :target: http://openlayers.org/

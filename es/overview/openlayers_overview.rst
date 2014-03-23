@@ -9,8 +9,7 @@
 
 .. _openlayers-overview-es:
 
-.. image:: ../../images/project_logos/logo-OpenLayers-large.png
-  :scale: 50 %
+.. image:: ../../images/project_logos/logo-OpenLayers.png
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
