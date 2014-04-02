@@ -124,7 +124,7 @@ Geospatial Libraries
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
-Available on microsoft windows only:
+Available on Microsoft Windows only:
 
 .. MapWindow is windows based (.net) and won't run on Ubuntu
 
@@ -149,3 +149,4 @@ Metrics
 --------------------------------------------------------------------------------
 
 * :doc:`Project Metrics <../metrics>` from Ohloh
+
