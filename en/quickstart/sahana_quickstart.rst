@@ -15,7 +15,7 @@ Sahana Quickstart
 Getting Started
 ================================================================================
 
-Sahana Eden is already installed and configured when you start OSGeo-Live. To access Sahana Eden click on the Geospatial menu, then Crisis Management, then Sahana Eden. If you started it earlier you can simply `click here <http://127.0.0.1:8007/eden>`_. By default, you will have view-only rights to access the data. If you wish to create new records, or edit existing records, you will need to be logged in as a user - use the following credentials to get started.
+Sahana Eden is already installed and configured when you start OSGeo-Live. To access Sahana Eden click on the :menuselection:`Geospatial menu --> Crisis Management --> Sahana`. If you started it earlier you can simply `click here <http://127.0.0.1:8007/eden>`_. By default, you will have view-only rights to access the data. If you wish to create new records, or edit existing records, you will need to be logged in as a user - use the following credentials to get started.
 
 * E-mail: admin
 * Password: admin
