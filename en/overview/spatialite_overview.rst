@@ -58,7 +58,7 @@ Details
 
 **Licence:** MPL v1.1 and GPL v3
 
-**Software Version:** spatialite 4.1.0 / spatialite-gui 1.6.0
+**Software Version:** spatialite 4.1.1 / spatialite-gui 1.7.1
 
 **Supported Platforms:** Linux, Mac, Windows
 
