@@ -31,7 +31,7 @@ Run:
   Put the DVD into your computer's CD drive, then reboot your computer.
 
   If your computer is set to boot from CD (as is often the case) you should
-  boot up into an Xubuntu system, with Geospatial applications installed.
+  boot up into a Lubuntu system, with Geospatial applications installed.
   Otherwise you'll have to adjust the BIOS boot settings or press the boot
   menu button just after powering-up.
 

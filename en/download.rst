@@ -15,7 +15,7 @@ The latest stable release of |osgeo-live-version| :
 
 `osgeo-live-7.9.iso <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso/download>`_ : |osgeolive-iso-size|
 
-An Xubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 GB bootable USB thumb drive. Verify your download with its md5sum checksum `(osgeo-live-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso.md5/download>`_.
+A Lubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 GB bootable USB thumb drive. Verify your download with its md5sum checksum `(osgeo-live-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Download iso without Windows and Mac installers

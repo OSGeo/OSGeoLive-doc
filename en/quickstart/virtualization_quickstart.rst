@@ -26,7 +26,7 @@ Virtual Machine Advantages
 System Requirements
 --------------------------------------------------------------------------------
 
-* RAM: 2 GB at least. The Xubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for your host system. So a total of 2 GB will be needed for smooth operation.
+* RAM: 2 GB at least. The Lubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for your host system. So a total of 2 GB will be needed for smooth operation.
 * Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And you'll want more space to allow some room to work on the virtual machine. So 20 GB is a good recommendation.
 * CPU: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. You can check your computer CPU `here <http://www.intel.com/support/processors/sb/cs-030729.htm>`_.
 

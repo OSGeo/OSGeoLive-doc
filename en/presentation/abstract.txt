@@ -20,7 +20,7 @@ http://adhoc.osgeo.osuosl.org/livedvd/docs/en/presentation.html
 This presentation provides a lightning overview of the breadth of quality geospatial open source applications, which are available for the full range of geospatial use cases, including storage, publishing, viewing, analysis and manipulation of data.
 
 The presentation is based upon documentation from OSGeo-Live, which is a
-self-contained DVD, USB thumb drive and Virtual Machine, based on Xubuntu.  It
+self-contained DVD, USB thumb drive and Virtual Machine, based on Lubuntu.  It
 includes over 50 of the best geospatial, open source applications,
 pre-configured with data, project overviews and quick-starts, translated into
 multiple languages. It is an excellent tool for demonstrating GeoSpatial Open
