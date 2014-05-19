@@ -24,18 +24,7 @@ Web Service
 
 GeoServer is a web server that allows you to serve maps and data from
 a variety of formats to standard clients such as web browsers and desktop
-GIS programs. This means that you can store your spatial data in
-almost any format you prefer but that your users do not need to know
-anything about GIS data. At the simplest level all they need is a web
-browser to see your maps exactly as you want.
-
-GeoServer is the reference implementation of the `Open Geospatial
-Consortium <http://www.opengeospatial.org>`_ (OGC)
-:doc:`../standards/wfs_overview` and
-:doc:`../standards/wcs_overview` standards,
-as well as a high performance certified compliant
-:doc:`../standards/wms_overview`.
-GeoServer forms a core component of the Geospatial Web.
+GIS programs. Data is published via standards based interfaces, such as WMS, WFS, WCS, WPS, Tile Caching and more.  GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end.
 
 .. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
