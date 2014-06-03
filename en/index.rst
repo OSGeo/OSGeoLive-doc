@@ -16,8 +16,9 @@ Welcome to |osgeo-live-version|
      sponsors
      sponsors_osgeo
 
-`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual
-Machine based on `Lubuntu <http://lubuntu.net`_, that allows you to try a wide variety of open
+`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB
+thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_,
+that allows you to try a wide variety of open
 source geospatial software without installing anything. It is composed
 entirely of free software, allowing it to be freely distributed, duplicated
 and passed around.

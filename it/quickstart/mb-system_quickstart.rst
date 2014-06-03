@@ -74,7 +74,7 @@ La versione HTML online del Cookbook tutorial può essere trovata
  http://www.ldeo.columbia.edu/res/pi/MB-System/mb-cookbook/
 
 La versione PostScript della documentazione può essere trovata su questo LiveDVD in
- `/usr/share/doc/mbsystem-doc/docs/ <../../mbsystem/docs/`_
+ `/usr/share/doc/mbsystem-doc/docs/ <../../mbsystem/docs/>`_
 
 La versione PDF del cookbook è inclusa su questo disco in
  `/usr/local/mbsystem/mbcookbook.pdf <../../mbsystem/mbcookbook.pdf>`_
