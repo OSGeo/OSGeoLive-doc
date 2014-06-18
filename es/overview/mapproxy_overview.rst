@@ -75,7 +75,7 @@ Seguridad:
   * Una API de autorización flexible y potente
   * Soporta autorización personalizada con control de alta granularidad sobre servicios y capas.
   * Acceso restringido a áreas (para WMS y servicios de teselas)
-  * Integración con bases de datos de usuarios y métodos de autenticación ya existentes 
+  * Integración con bases de datos de usuarios y métodos de autenticación ya existentes
 
 Potentes herramientas:
   * Herramienta del tipo semilla para llenar la cache que puede iniciar polígonos de áreas
@@ -107,7 +107,7 @@ Detalles
 
 **Licencia:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versión del software:** 1.5.0
+**Versión del software:** 1.6.0
 
 **Platformas soportadas:** Linux, Mac, Windows
 

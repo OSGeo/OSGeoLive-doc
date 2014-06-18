@@ -25,7 +25,7 @@ Layers possono essere realizzati transparenti, possono cambiare proiezioni,
 più layers possono essere uniti in uno unico, posso essere aggiunti watermarks, e altro...
 
 MapProxy e flessibile e scalabile per casi d'uso semplici e complessi: da una
-singola cache di tile per un client web :doc:`OpenLayers <openlayers_overview>` a un 
+singola cache di tile per un client web :doc:`OpenLayers <openlayers_overview>` a un
 centrale di nodi SDI che combinano, unificano e accelerano dozine di servizi WMS distrbuiti.
 
 MapProxy è utilizzado per il Broadband Atlas Tedesco per fornire mappe di migliaia
@@ -107,7 +107,7 @@ Dettagli
 
 **Licenza:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versione Software:** 1.5.0
+**Versione Software:** 1.6.0
 
 **Piattaforme Supportate:** Linux, Mac, Windows
 
