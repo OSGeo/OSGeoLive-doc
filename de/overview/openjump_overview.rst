@@ -29,10 +29,10 @@ Kernfunktionen
 
 * Datenformate
 
-    * lesend (dateibasiert): GML, SHP, DXF+, MIF*, CSV+, KML+ & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
+    * lesend (dateibasiert): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
     * lesend (DB): PostGIS, ArcSDE*, Oracle*, MySQL* und SpatiaLite*
     * lesend: (OGC Standards) : WKT, WMS, KML
-    * schreibend: GML, SHP, WKT, DXF+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
+    * schreibend: GML, SHP, WKT, PostGIS, DXF+, CSV+ & JPG, TIFF, ASCII grid*, SVG+
     * beachten Sie, dass die mit * markierten Formate über ein extra Plugin eingebunden werden, die mit + markierten sind dagegen Teil der PLUS Edition.
 
 * Bearbeitung & Vereinigung
@@ -64,7 +64,7 @@ Implementierte Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS, KML und SLD; (WFS für :doc:`deegree <deegree_overview>`)
+* OGC standards supported: GML2, SFS, WMS, KML und SLD;
 
 Details
 --------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 1.6.3
+**Software Version:** 1.7.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
