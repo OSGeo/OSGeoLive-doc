@@ -31,11 +31,11 @@ Caractéristiques (principales et avec plugins*)
 
 * Formats de données
 
-    * lecture (fichier): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW*
+    * lecture (fichier): GML, SHP, DXF+, CSV+, MIF* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW+
     * lecture (base de données): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
     * lecture (standards OGC): WKT, WMS
-    * écriture: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF and SVG*
-    * notez que les formats avec un astérisque (*) sont fournies par un plugin supplémentaire
+    * écriture: GML, SHP, WKT, PostGIS, DXF+, CSV+ & JPG, TIFF and SVG*
+    * notez que les formats avec un (+) sont fournis avec la version PLUS et les formats avec un astérisque (*) sont fournies par un plugin supplémentaire
 
 * Edition et traitements
 
@@ -66,7 +66,7 @@ Standards implémentés
 
 .. Writing Tip: List OGC or related standards supported.
 
-* Standards OGC supportés: GML2, SFS, WMS et SLD; (WFS pour Deegree)
+* Standards OGC supportés: GML2, SFS, WMS et SLD;
 
 Détails
 --------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ Détails
 
 **Licence:** GPL
 
-**Version du logiciel:** 1.5.2 (Edition CORE)
+**Version du logiciel:** 1.7.1 (Edition CORE)
 
 **Plates-formes supportées:** Windows, Linux, Mac, Unix
 
