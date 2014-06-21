@@ -31,11 +31,11 @@ Característiques Principals
 
 * Formats de Dades
 
-    * Llegeix (arxius): GML, SHP, DXF*, MIF*, CSV* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW*
+    * Llegeix (arxius): GML, SHP, DXF+, MIF*, CSV+ & TIFF, JPG, PNG, JPEG2000+, MrSID*, ECW+
     * Llegeix (Bases de Dades): PostGIS, ArcSDE*, Oracle*, MySQL* i SpatiaLite*
     * Llegeix (Estàndards OGC): WKT, WMS
-    * Escriu: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF i SVG*
-    * Observeu que els arxius marcats amb (*) necessiten instal·lar un plugin addicional
+    * Escriu: GML, SHP, WKT, PostGIS, DXF+, CSV+ & JPG, TIFF i SVG*
+    * Observeu que els arxius marcats amb (*) necessiten instal·lar un plugin addicional (+ PLUS edition)
 
 * Edició i Fusió
 
@@ -66,7 +66,7 @@ Estàndards Implementats
 
 .. Writing Tip: List OGC or related standards supported.
 
-* Estàndards OGC: GML2, SFS, WMS and SLD; (WFS per :doc:`deegree <deegree_overview>`)
+* Estàndards OGC: GML2, SFS, WMS and SLD;
 
 Detalls
 --------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ Detalls
 
 **Llicència:** GPL
 
-**Versió de Programari:** 1.5.2 (Core Edition)
+**Versió de Programari:** 1.7.1 (Core Edition)
 
 **Plataformes suportades:** Windows, Linux, Mac, Unix
 
