@@ -38,7 +38,7 @@ Główne funkcje
     * odczyt (bazy danych): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
     * odczyt (standardy OGC): WKT, WMS
     * zapis: GML, SHP, DXF*, PostGIS*, JML & JPG
-    * zapis: GML, SHP, WKT, DXF*, PostGIS* & JPG, TIFF and SVG*
+    * zapis: GML, SHP, WKT, DXF*, PostGIS*, CSV* & JPG, TIFF and SVG*
     * uwaga, formaty oznaczone (*) obsługiwane są przez wtyczki
 
 * Edycja & nanoszenie poprawek
@@ -71,7 +71,7 @@ Zaimplementowane standardy
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS i SLD; (WFS dla :doc:`deegree <deegree_overview>`)
+* OGC standards supported: GML2, SFS, WMS i SLD;
 
 Szczegóły
 --------------------------------------------------------------------------------
@@ -80,7 +80,7 @@ Szczegóły
 
 **Licencja:** GNU General Public License (GPL)
 
-**Wersja programu:** 1.5.2 (Core Edition)
+**Wersja programu:** 1.7.1 (Core Edition)
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 

@@ -31,7 +31,7 @@ Característiques Principals
 
 * Formats de Dades
 
-    * Llegeix (arxius): GML, SHP, DXF+, MIF*, CSV+ & TIFF, JPG, PNG, JPEG2000+, MrSID*, ECW+
+    * Llegeix (arxius): GML, SHP, DXF+, MIF*, CSV+, OSM* & TIFF, JPG, PNG, JPEG2000+, MrSID*, ECW+
     * Llegeix (Bases de Dades): PostGIS, ArcSDE*, Oracle*, MySQL* i SpatiaLite*
     * Llegeix (Estàndards OGC): WKT, WMS
     * Escriu: GML, SHP, WKT, PostGIS, DXF+, CSV+ & JPG, TIFF i SVG*

@@ -1,4 +1,4 @@
-Ôªø:Author: OSGeo-Live
+:Author: OSGeo-Live
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -16,53 +16,53 @@ OpenJUMP GIS
 SIG de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-OpenJUMP es un SIG de escritorio poderoso y f√°cil de usar que permite a los usuarios editar, analizar, combinar, guardar y visualizar datos geogr√°ficos.
-Tamb√≠en es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
+OpenJUMP es un SIG de escritorio poderoso y f·cil de usar que permite a los usuarios editar, analizar, combinar, guardar y visualizar datos geogr·ficos.
+TambÌen es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
 
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: center
 
-Caracter√≠sticas Principales
+CaracterÌsticas Principales
 --------------------------------------------------------------------------------
 
 * Formatos
 
-    * lee (ficheros): GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
-    * lee (DB): PostGIS, ArcSDE*, Oracle* and MySQL*
-    * guarda en: GML, SHP, DXF*, PostGIS*, JML & JPG
-    * es compatible con: OGC WMS & WFS (-T), GML 2, SLD
-    * Los ficheros marcados con (*) necesitan instalar un nuevo plugin 
+    * lee (ficheros): GML, SHP, JML, DXF+, CSV+, OSM*, MIF* & TIFF, JPG, MrSID*, ECW+, JPeg2000+
+    * lee (DB): PostGIS, ArcSDE*, Oracle* and MySQL*, SpatiaLite
+    * guarda en: GML, SHP, PostGIS, JML, CSV+, DXF+ & JPG
+    * es compatible con: OGC WMS & GML 2, SLD
+    * Los ficheros marcados con (*) necesitan instalar un nuevo plugin (+ in PLUS EDITION)
 
 * Editando y Combinando
 
-    * dibujando puntos, l√≠neas, pol√≠gonos, c√≠rculos
-    * a√±adiendo, desplazando, y borrando v√©rtices
-    * rotando, escalando, y autocompletando pol√≠gonos
-    * cortar, juntar, simplificar pol√≠gonos y l√≠neas
+    * dibujando puntos, lÌneas, polÌgonos, cÌrculos
+    * aÒadiendo, desplazando, y borrando vÈrtices
+    * rotando, escalando, y autocompletando polÌgonos
+    * cortar, juntar, simplificar polÌgonos y lÌneas
     * ajustar, herramientas para asegurar la calidad de los datos*
 
-* (Vector) An√°lisis y Consulta
+* (Vector) An·lisis y Consulta
 
     * funciones de consulta espacial y por atributos
-    * c√°lculo de: longitud, √°rea, centroid, √°rea de influencia, envolvente m√≠nima, ...
-    * Herramientas de topolog√≠a: nodos en una l√≠nea, dibujar pol√≠gono, gr√°fico en el mismo plano,...
+    * c·lculo de: longitud, ·rea, centroid, ·rea de influencia, envolvente mÌnima, ...
+    * Herramientas de topologÌa: nodos en una lÌnea, dibujar polÌgono, gr·fico en el mismo plano,...
     * attribute transfer tools (1:1 transfer, or n:1 transfer)
     * raster analysis via SEXTANTE connector
 
-* Personalizaci√≥n
+* PersonalizaciÛn
 
     * Proporciona un API, scripts via BeanShell y Java Python
     * (Java) plugin-system
    
 
-Est√°ndares con los que con cumple
+Est·ndares con los que con cumple
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
-* Est√°ndares OGC: GML 2, SFS, WMS, WFS (Plugin), WFS-T (Plugin), SLD
+* Est·ndares OGC: GML 2, SFS, WMS, SLD
 
 Detalles
 --------------------------------------------------------------------------------
@@ -71,7 +71,7 @@ Detalles
 
 **Licencia:** GPL
 
-**Versi√≥n del Software:** 1.5.1
+**VersiÛn del Software:** 1.7.1
 
 **Plataformas en las que corre:** Windows, Linux, Mac, Unix
 
@@ -79,8 +79,8 @@ Detalles
 
 **Soporte comercial:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
 
-Gu√≠a r√°pida
+GuÌa r·pida
 --------------------------------------------------------------------------------
     
-* `Gu√≠a r√°pida <../quickstart/openjump_quickstart.html>`_
+* `GuÌa r·pida <../quickstart/openjump_quickstart.html>`_
 

@@ -31,7 +31,7 @@ Caractéristiques (principales et avec plugins*)
 
 * Formats de données
 
-    * lecture (fichier): GML, SHP, DXF+, CSV+, MIF* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW+
+    * lecture (fichier): GML, SHP, DXF+, CSV+, MIF*, OSM* & TIFF, JPG, PNG, JPEG2000*, MrSID*, ECW+
     * lecture (base de données): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
     * lecture (standards OGC): WKT, WMS
     * écriture: GML, SHP, WKT, PostGIS, DXF+, CSV+ & JPG, TIFF and SVG*

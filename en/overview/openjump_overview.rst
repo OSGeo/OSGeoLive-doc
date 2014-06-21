@@ -30,7 +30,7 @@ Features (Core Features and PlugIns*)
 
 * Data Formats
 
-    * reads (files): GML, SHP, DXF+, MIF*, CSV+, KML+ & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
+    * reads (files): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
     * reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
     * reads (OGC standards): WKT, WMS, KML+
     * writes: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
