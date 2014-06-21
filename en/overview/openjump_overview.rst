@@ -33,7 +33,7 @@ Features (Core Features and PlugIns*)
     * reads (files): GML, SHP, DXF+, MIF*, CSV+, KML+ & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
     * reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
     * reads (OGC standards): WKT, WMS, KML+
-    * writes: GML, SHP, WKT, DXF+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
+    * writes: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
     * note, formats marked with a (*) require an additional plugin, and with (+) are part of the PLUS edition.
 
 * Editing & Conflation
@@ -64,7 +64,7 @@ Implemented Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS, KML and SLD; (WFS for :doc:`deegree <deegree_overview>`)
+* OGC standards supported: GML2, SFS, WMS, KML and SLD;
 
 Details
 --------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.6.3
+**Software Version:** 1.7.1
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
