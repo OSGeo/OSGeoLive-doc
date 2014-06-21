@@ -22,10 +22,10 @@ Requisiti
 Creare un dispositivo USB avviabile da Ubuntu
 --------------------------------------------------------------------------------
 
-(Questo è il processo raccomandato per creare un USB, ed è anche applicabile alle derivate di Ubuntu, come Xubuntu o OSGeo-Live.)
+(Questo è il processo raccomandato per creare un USB, ed è anche applicabile alle derivate di Ubuntu, come Lubuntu o OSGeo-Live.)
 
 .. note::
-   La versione di Ubuntu che si sta utilizzando, dev'essere la stessa o più nuova della versione di Xubuntu che si sta andando ad installare all'interno del dispositivo USB. Se installate OSGeo-Live 5.0/5.5 in un USB, dovrete avere un sistema operativo con Ubuntu 11.04 o più recente.
+   La versione di Ubuntu che si sta utilizzando, dev'essere la stessa o più nuova della versione di Lubuntu che si sta andando ad installare all'interno del dispositivo USB. Se installate OSGeo-Live 5.0/5.5 in un USB, dovrete avere un sistema operativo con Ubuntu 11.04 o più recente.
 
 Scaricate osgeo-live o osgeo-live-mini nell'hard disk del vostro computer.
 
@@ -65,7 +65,7 @@ Accettare i termini della licenza.
 
 Step 1: Distribuzione: Selezionare la distribuzione xubuntu i386 usata per l'immagine osgeo-live. (per OSGeo-Live 5.5, selezionare xubuntu 11.04 Desktop i386)
 
-Step 2: Selezionare l'ultima immagine ISO osgeo-live che avete scaricato localmente. Nota: Bisognerà inserire manualmente il percorso al file ISO, poichè il pulsante :guilabel:`Browse` trova solo file ISO di Xubuntu.
+Step 2: Selezionare l'ultima immagine ISO osgeo-live che avete scaricato localmente. Nota: Bisognerà inserire manualmente il percorso al file ISO, poichè il pulsante :guilabel:`Browse` trova solo file ISO di Lubuntu.
 
 Step 3: Selezionare il vostro dispositivo USB
 

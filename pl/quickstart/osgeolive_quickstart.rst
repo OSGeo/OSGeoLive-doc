@@ -33,7 +33,7 @@ Uruchomienie:
 
   Jeśli ustawienia Twojego komputera pozwalają na uruchamianie 
   systemu z napędu CD (a tak jest zazwyczaj) powinien uruchomić 
-  się system Xubuntu, z zainstalowanymi aplikacjami 
+  się system Lubuntu, z zainstalowanymi aplikacjami 
   Geoprzestrzennymi. Jeśli tak się nie stało, należy dostosować 
   ustawienia BIOS-u lub zaraz po uruchomieniu komputera wcisnąć 
   klawisz wyświetlający menu bootowania.

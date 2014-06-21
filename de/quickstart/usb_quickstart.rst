@@ -24,10 +24,10 @@ Systemvoraussetzungen
 Einen startbaren USB-Stick unter Ubuntu erstellen
 --------------------------------------------------------------------------------
 
-(dies ist die empfohlene Vorgehensweise und kann auch für andere Ubuntu Distributionen, wie Xubuntu oder OSGeo-Live, angewendet werden)
+(dies ist die empfohlene Vorgehensweise und kann auch für andere Ubuntu Distributionen, wie Lubuntu oder OSGeo-Live, angewendet werden)
 
 .. note::
-   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Xubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 7.9 müssen Sie Ubuntu 12.04 oder höher verwenden.
+   Die eingesetzte Ubuntu-Version Ihres Systems muss der Version des Lubuntu, welches auf dem USB-Laufwerk installiert ist, entsprechen oder aktueller sein. Bei der Installation von OSGeo-Live in der Version 7.9 müssen Sie Ubuntu 12.04 oder höher verwenden.
 
 Laden Sie `download <http://live.osgeo.org/en/download.html>`_ osgeo-live oder osgeo-live-mini auf ihren Computer herunter. 
 

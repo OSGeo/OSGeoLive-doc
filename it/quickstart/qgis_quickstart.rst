@@ -143,7 +143,7 @@ Usare la barra degli strumenti Sextante
 Usare il plugin OpenStreetMap
 ================================================================================
 
-#. Aprire un terminale dal menu Xubuntu :menuselection:`Applicazioni --> Accessori`.
+#. Aprire un terminale dal menu Lubuntu :menuselection:`Applicazioni --> Accessori`.
 
    * Fare una copia dei dati OSM nella cartella `home`:
 

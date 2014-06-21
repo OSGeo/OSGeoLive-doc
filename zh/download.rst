@@ -14,7 +14,7 @@
 
 `osgeo-live-7.9.iso <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso/download>`_ : |osgeolive-iso-size|
 
-这是一个基于 Xubuntu 建立的 DVD 镜像，其中也包含了部分软件在 Windows 或 Mac 下的安装程序。它也可以安装在 8G 的 USB 盘上。下载前请检查文件的 MD5 值 `(osgeo-live-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso.md5/download>`_ 。
+这是一个基于 Lubuntu 建立的 DVD 镜像，其中也包含了部分软件在 Windows 或 Mac 下的安装程序。它也可以安装在 8G 的 USB 盘上。下载前请检查文件的 MD5 值 `(osgeo-live-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso.md5/download>`_ 。
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Download iso without Windows and Mac installers

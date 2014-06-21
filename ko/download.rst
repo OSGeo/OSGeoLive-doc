@@ -14,7 +14,7 @@
 
 `osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso/download>`_ : |osgeolive-iso-size|
 
-Xubuntu 기반의 DVD로서 윈도우와 맥 사용자 모두 이용할 수 있습니다. 8 GB의 USB 드라이브에 복사가능하며, 다운로드시 md5sum checksum `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_ 이 포함되었는지 확인하십시오. 
+Lubuntu 기반의 DVD로서 윈도우와 맥 사용자 모두 이용할 수 있습니다. 8 GB의 USB 드라이브에 복사가능하며, 다운로드시 md5sum checksum `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_ 이 포함되었는지 확인하십시오. 
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Download iso without Windows and Mac installers

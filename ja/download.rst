@@ -14,7 +14,7 @@
 
 `osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso/download>`_ : |osgeolive-iso-size|
 
-Xubuntu ベースの Mac および Windows へのインストーラを含んだブータブル DVD です。8 GBの ブータブル USB ドライブとしても使用できます。ダウンロードしたファイルの md5 チェックサムをご確認ください。  `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_.
+Lubuntu ベースの Mac および Windows へのインストーラを含んだブータブル DVD です。8 GBの ブータブル USB ドライブとしても使用できます。ダウンロードしたファイルの md5 チェックサムをご確認ください。  `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Windows と Mac 用のインストーラーを含まない ISO イメージをダウンロード

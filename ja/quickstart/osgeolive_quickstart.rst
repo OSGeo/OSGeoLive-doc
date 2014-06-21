@@ -29,7 +29,7 @@ OSGeo-Live クイックスタート
   OSGeo-Live DVD の ISO イメージは http://download.osgeo.org/livedvd からダウンロードできます。
   イメージを DVD に焼いたメディアを DVD ドライブに挿入して、コンピュータを再起動してください。
   
-  コンピューターが CD から起動可能になっていれば、地空間アプリケーションをインストールした Xubuntu のシステムが起動します。
+  コンピューターが CD から起動可能になっていれば、地空間アプリケーションをインストールした Lubuntu のシステムが起動します。
   CD から起動可能になっていない場合には BIOS の設定を変更するか、電源投入時に起動メニューボタンを押してください。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png

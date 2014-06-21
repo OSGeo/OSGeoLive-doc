@@ -3,7 +3,7 @@ Willkommen |osgeo-live-version|
 ================================================================================
 
 `OSGeo-Live <http://live.osgeo.org>`_ ist eine getrennt bootfähige DVD, ein USB-Stick 
-oder eine virtuelle Maschine basierend auf `Xubuntu <http://www.xubuntu.org/>`_, die Ihnen 
+oder eine virtuelle Maschine basierend auf `Lubuntu <http://www.xubuntu.org/>`_, die Ihnen 
 ermöglicht, eine Vielzahl von Open Source GIS Software auszuprobieren, ohne 
 etwas installieren zu müssen. Sie besteht ausschließlich aus Freier Software, die
 Sie beliebig weitergeben, verteilen und vervielfältigen dürfen.

@@ -34,7 +34,7 @@ Lancement:
   votre ordinateur.
 
   Si votre ordinateur est configuré pour démarrer depuis un CD (comme c'est 
-  souvent le cas), vous devriez démarrer sous un sytème Xubuntu, avec les
+  souvent le cas), vous devriez démarrer sous un sytème Lubuntu, avec les
   applications géospatiales installées.
   Dans le cas contraire, vous devrez ajuster vos paramètres de démarrage dans le
   BIOS ou appuyer sur le bouton de menu juste après démarrage de l'ordinateur.

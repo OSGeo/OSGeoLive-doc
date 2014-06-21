@@ -30,7 +30,7 @@ Starten:
   Laden Sie eine OSGeo-Live DVD von: http://download.osgeo.org/livedvd 
   Brennen Sie das Abbild auf eine DVD und legen Sie diese in das Laufwerk ihres Rechners, anschließend starten Sie ihn neu.
 
-  Wenn ihr Computer entsprechend eingestellt ist (wie es häufig der Fall ist) startet er jetzt von der DVD ein Xubuntu mit installierten Geodaten-Anwendungen. Ansonsten müssen Sie die im BIOS die Starteinstellungen ändern oder den Bootmenü-Button (sofern vorhanden) direkt nach dem Einschalten drücken.
+  Wenn ihr Computer entsprechend eingestellt ist (wie es häufig der Fall ist) startet er jetzt von der DVD ein Lubuntu mit installierten Geodaten-Anwendungen. Ansonsten müssen Sie die im BIOS die Starteinstellungen ändern oder den Bootmenü-Button (sofern vorhanden) direkt nach dem Einschalten drücken.
 
    .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
      :scale: 70 %

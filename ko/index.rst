@@ -2,7 +2,7 @@
 |osgeo-live-version| 의 이용을 환영합니다 .
 ================================================================================
 
-`OSGeo-Live <http://live.osgeo.org>`_ 는  `Xubuntu <http://www.xubuntu.org/>`_ 에 기반을 두어,  다양한 오픈 소스 GIS 프로그램들을 DVD나 USB에 담아서 설치 없이 바로 실행해 볼 수 있도록 하는
+`OSGeo-Live <http://live.osgeo.org>`_ 는  `Lubuntu <http://www.xubuntu.org/>`_ 에 기반을 두어,  다양한 오픈 소스 GIS 프로그램들을 DVD나 USB에 담아서 설치 없이 바로 실행해 볼 수 있도록 하는
  프로젝트로, 완전히 무료 소프트웨어로 구성되어 있기 때문에 분포, 복사 등이 자유롭습니다. 
 
  

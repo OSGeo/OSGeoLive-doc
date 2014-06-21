@@ -3,7 +3,7 @@ Bienvenido a |osgeo-live-version|
 ================================================================================
 
 `OSGeo-Live <http://live.osgeo.org>`_ es un DVD, disco USB o Máquina Virtual
-basada en `Xubuntu <http://www.xubuntu.org/>`_ que nos permite probar una amplia
+basada en `Lubuntu <http://www.xubuntu.org/>`_ que nos permite probar una amplia
 variedad de *software* libre geoespacial sin instalar nada. Está compuesto
 enteramente por *software* libre, permitiendo ser distribuido libremente,
 duplicado, etc.

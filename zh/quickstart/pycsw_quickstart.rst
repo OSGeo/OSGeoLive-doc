@@ -63,7 +63,7 @@ pycsw 快速入门
    AddHandler cgi-script .py
   </Location>
 
-Ubuntu/Xubuntu/Kubuntu 系统下安装
+Ubuntu/Lubuntu/Kubuntu 系统下安装
 ------------------------------------
 
 　　在 Ubuntu 或基于其的系统环境下安装 pycsw 可以使用位于 ``pycsw/etc/dist`` 的 OSGeo-Live 安装脚本：

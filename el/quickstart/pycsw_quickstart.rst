@@ -63,7 +63,7 @@ To pycsw υλοποιεί την οδηγία 10 (πρωτόκολο επικο�
    AddHandler cgi-script .py
   </Location>
 
-Εγκατάσταση σε Ubuntu/Xubuntu/Kubuntu
+Εγκατάσταση σε Ubuntu/Lubuntu/Kubuntu
 -------------------------------------
 
 Για να εγκαταστήσετε το pycsw σε μια διανομή βασισμένη στο Ubuntu, μπορείτε να χρησιμοποιήσετε το script εγκατάστασης του OSGeo-Live DVD που βρίσκεται στο ``pycsw/etc/dist``:

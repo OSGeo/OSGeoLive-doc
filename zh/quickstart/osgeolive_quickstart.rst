@@ -28,7 +28,7 @@ OSGeo-Live 启动指南
 
 　　从 http://download.osgeo.org/livedvd 可以下载 OSGeo-Live DVD 的 ISO 镜像。将光盘或 U 盘插入并重启。
 
-　　通常的系统会设置为默认从 CD 启动。这样应当载入 Xubuntu 操作系统和各款地理信息软件。如果不能直接载入，则需要调整 BIOS 设置或选择临时启动项。
+　　通常的系统会设置为默认从 CD 启动。这样应当载入 Lubuntu 操作系统和各款地理信息软件。如果不能直接载入，则需要调整 BIOS 设置或选择临时启动项。
 
   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %

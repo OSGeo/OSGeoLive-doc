@@ -91,7 +91,7 @@ Installare dal Python Package Index (PyPi)
   # or
   $ pip install pycsw
 
-Installare su Ubuntu/Xubuntu/Kubuntu
+Installare su Ubuntu/Lubuntu/Kubuntu
 --------------------------------------
 
 Al fine di installare pycsw su una distribuzione basata su Ubuntu, potete usare lo script

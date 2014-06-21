@@ -14,7 +14,7 @@ Die aktuelle stabile Version von |osgeo-live-version| enthält:
 
 `osgeo-live-7.9.iso <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso/download>`_ : |osgeolive-iso-size|
 
-Eine auf Xubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso.md5/download>`_.
+Eine auf Lubuntu basierende bootfähige DVD, die auch Installationsprogramme für Windows und MacOS enthält. Die Datei kann auch auf ein 8 GB großes bootfähigen USB-Stick kopiert werden. Validieren Sie Ihren Download mit der md5sum Prüfsumme `(osgeo-live-7.9.iso.md5) <http://download.osgeo.org/livedvd/release/7.9/osgeo-live-7.9.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: ISO Datei ohne Windows und MacOS Installationsprogramme herunterladen.

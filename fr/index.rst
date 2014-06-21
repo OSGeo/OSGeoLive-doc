@@ -3,7 +3,7 @@ Bienvenue sur |osgeo-live-version|
 ================================================================================
 
 `OSGeo-Live <http://live.osgeo.org>`_ est un DVD, une clé USB bootable ou une
-image disque virtuelle indépendante basée sur `Xubuntu  
+image disque virtuelle indépendante basée sur `Lubuntu  
 <http://www.xubuntu.org/>`_, qui vous permet d'essayer une large variété de
 logiciels opensource géospatiaux sans avoir à installer quoi que ce 
 soit. Il repose

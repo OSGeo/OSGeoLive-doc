@@ -26,11 +26,11 @@ Requeriments
 Crear un disc USB d'arrencada a Ubuntu
 --------------------------------------------------------------------------------
 
-(Aquest és el procediment recomanat per crear l'USB, i també s'aplica a les variants d'Ubuntu, com Xubuntu o OSGeo-Live.)
+(Aquest és el procediment recomanat per crear l'USB, i també s'aplica a les variants d'Ubuntu, com Lubuntu o OSGeo-Live.)
 
 .. note::
    La versió d'Ubuntu que executeu ha de ser la mateixa o bé més nova que la
-   versió de Xubuntu que instal·lareu al vostre USB. Si voleu instal·lar
+   versió de Lubuntu que instal·lareu al vostre USB. Si voleu instal·lar
    OSGeo-Live 5.0/5.5 en un USB, llavors heu d'estar executamt Ubuntu 11.04 o
    més recent.
 

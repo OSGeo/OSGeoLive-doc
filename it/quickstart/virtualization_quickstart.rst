@@ -30,7 +30,7 @@ Vantaggi della macchina virtuale
 Requisiti di sistema
 --------------------------------------------------------------------------------
 
-* RAM: al minimo 2 GB. Il sistema Xubuntu gira bene anche solo 1 GB di RAM, e dovete lasciare altrettanta 
+* RAM: al minimo 2 GB. Il sistema Lubuntu gira bene anche solo 1 GB di RAM, e dovete lasciare altrettanta 
   memoria per la macchina che esegue la virtualizzazione. Perciò un totale di 2 GB sarà necessario per smooth operation.
 * Spare Hard Disk Space: Il file del disco virtuale (vmdk) da:  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_
   decompresso occupa circa 10 GB. Inoltre vorrete più spazio per permettervi di lavorare con la macchina virtuale.

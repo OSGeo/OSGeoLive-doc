@@ -14,7 +14,7 @@
 
 `osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso/download>`_ : |osgeolive-iso-size|
 
-Загрузочный DVD на базе Xubuntu, который содержит также установщики приложений для Windows и Mac OSX. 
+Загрузочный DVD на базе Lubuntu, который содержит также установщики приложений для Windows и Mac OSX. 
 Он может быть скопирован на загрузочный USB-диск размером от 8 Гб. Проверяйте загруженные файлы с 
 помощью контрольной суммы md5sum `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_.
 

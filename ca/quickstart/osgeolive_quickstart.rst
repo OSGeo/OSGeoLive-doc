@@ -30,7 +30,7 @@ Instruccions:
   Fiqueu el DVD al lector del vostre ordinador, i reinicieu-lo.
 
   Si el vostre ordinador està configurat per arrencar des del CD (com és el cas habitual),
-  s'iniciara un sistema operatiu Xubuntu amb aplicacions geoespacials instal·lades.
+  s'iniciara un sistema operatiu Lubuntu amb aplicacions geoespacials instal·lades.
   Altrament, haureu d'ajustar la configuració d'inici al vostre BIOS o pressionar el botó
   de menú d'arrencada just després d'engegar la màquina.
 

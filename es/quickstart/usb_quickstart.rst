@@ -39,7 +39,7 @@ Creación de la unidad USB desde Ubuntu
 .. note :: Este es el proceso recomendado para crear el USB
 
 .. note:: La versión de Ubuntu que esté utilizando debe de ser la misma o más
-  reciente que la versión de Xubuntu que va a instalar en su USB. Si está
+  reciente que la versión de Lubuntu que va a instalar en su USB. Si está
   instalando OSGeo-Live 5.0 o 5.5 en el USB, necesitará ejecutar este proceso
   sobre Ubuntu 11.04 o posterior.
 
@@ -89,7 +89,7 @@ Una vez instalado proceda de la siguiente forma:
 
    .. note::  Necesitará introducir manualmente la ruta al fichero ``.iso``,
               ya que el botón :guilabel:`Browse` solo sirve para encontrar
-              ficheros ISO de Xubuntu.
+              ficheros ISO de Lubuntu.
 
 #. Seleccione su unidad USB
 

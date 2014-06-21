@@ -21,10 +21,10 @@ Exigences
 Créer une clé flash USB depuis Ubuntu
 --------------------------------------------------------------------------------
 
-(Ceci est le processus recommandé pour créer une clé USB, et s'applique aussi pour les variantes d'Ubuntu, telles que Xubuntu ou OSGeo-Live.)
+(Ceci est le processus recommandé pour créer une clé USB, et s'applique aussi pour les variantes d'Ubuntu, telles que Lubuntu ou OSGeo-Live.)
 
 .. note::
-   La version d'Ubuntu que vous utilisez, nécessite d'être la même ou plus récente à la version de Xubuntu installée sur votre clé USB. Si vous installez OSGeo-Live 5.0/5.5 sur une clé USB, vous avez alors besoin d'Ubuntu 11.04 ou d'une version plus récente.
+   La version d'Ubuntu que vous utilisez, nécessite d'être la même ou plus récente à la version de Lubuntu installée sur votre clé USB. Si vous installez OSGeo-Live 5.0/5.5 sur une clé USB, vous avez alors besoin d'Ubuntu 11.04 ou d'une version plus récente.
 
 Téléchargez osgeo-live ou osgeo-live-mini sur le disque dur de votre ordinateur.
 

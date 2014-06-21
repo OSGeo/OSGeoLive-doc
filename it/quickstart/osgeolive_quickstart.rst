@@ -32,7 +32,7 @@ Esecuzione:
   Inserire il DVD nel dispositivo CD del vostro computer, quindi riavviare il computer.
 
   Se il vostro computer è impostato per avviarsi dal CD (la maggior parte dei casi) dovreste avere
-  il boot in un sistema Xubuntu, con le applicazione geospaziali installate.
+  il boot in un sistema Lubuntu, con le applicazione geospaziali installate.
   Altrimenti dovrete aggiustare le impostazioni di avvio all'interno del BIOS premendo il pulsante
   del menu di boot appena acceso il computer.
 

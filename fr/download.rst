@@ -14,7 +14,7 @@ La dernière version stable de |osgeo-live-version| :
 
 `osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso/download>`_ : |osgeolive-iso-size|
 
-Un DVD bootable basé sur Xubuntu, qui inclut aussi les installateurs windows et mac. Il peut aussi être copié sur une clé USB 8 GB bootable. Vérifier votre téléchargement avec sa somme md5 `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_.
+Un DVD bootable basé sur Lubuntu, qui inclut aussi les installateurs windows et mac. Il peut aussi être copié sur une clé USB 8 GB bootable. Vérifier votre téléchargement avec sa somme md5 `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Télécharger le fichier iso sans les installateurs windows et mac

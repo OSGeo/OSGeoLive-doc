@@ -14,7 +14,7 @@ La última versión estable de |osgeo-live-version| contiene:
 
 `osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso/download>`_ : |osgeolive-iso-size|
 
-Un DVD de arranque basado en Xubuntu, que también incluye instaladores para
+Un DVD de arranque basado en Lubuntu, que también incluye instaladores para
 Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la descarga con su suma de verificación `osgeo-live-7.0.iso.md5 <http://download.osgeo.org/livedvd/release/7.0/osgeo-live-7.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png

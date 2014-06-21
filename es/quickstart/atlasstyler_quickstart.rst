@@ -37,7 +37,7 @@ Primeros pasos
 
 AtlasStyler es una aplicación para usuario final, que permite crear archivos .SLD para datos vectoriales.
 
-0) El Live DVD utiliza el sistema operativo Xubuntu, el cual tiene temporalmente un pequeño problema con las aplicaciones basadas en Java: como solución, por favor de click derecho en la barra del menú
+0) El Live DVD utiliza el sistema operativo Lubuntu, el cual tiene temporalmente un pequeño problema con las aplicaciones basadas en Java: como solución, por favor de click derecho en la barra del menú
 (donde se listan 'Applications' y 'Places') y seleccione 'Customize Panel'. Aquí, seleccione la opción 'Autohide'. Con esto, la barra de menú se oculta, excepto cuando el ratón alcance la parte superior de 
 la pantalla.
 

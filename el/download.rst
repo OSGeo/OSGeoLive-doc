@@ -15,7 +15,7 @@
 
 `osgeo-live-7.0.iso <http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0.iso/download>`_ : |osgeolive-iso-size|
 
-Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Xubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0.iso.md5/download>`_.
+Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Lubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-7.0.iso.md5) <http://download.osgeo.org/livedvd/release/7.0/osgeolive-7.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Κατεβάστε το αρχείο χωρίς τα αρχεία για Windows και Mac

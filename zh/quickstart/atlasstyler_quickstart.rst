@@ -35,7 +35,7 @@ AtlasStyler（使用 SLD 标准的图册渲染风格控制）
 
 　　AtlasStyler 用于让终端用户创建 .SLD 样式文件以控制矢量要素渲染。
 
-0) OSGeo-Live DVD 使用的 Xubuntu 系统目前在显示 Java 程序时存在一些兼容性问题。建议右键单击屏幕顶部状态栏，选择“Customize Panel“选项，并开启“Autohide”（自动隐藏）功能以回避这一问题。将光标移至屏幕顶部可以临时显示状态栏。
+0) OSGeo-Live DVD 使用的 Lubuntu 系统目前在显示 Java 程序时存在一些兼容性问题。建议右键单击屏幕顶部状态栏，选择“Customize Panel“选项，并开启“Autohide”（自动隐藏）功能以回避这一问题。将光标移至屏幕顶部可以临时显示状态栏。
 
 1) 选择 :menuselection:`Geospatial --> Desktop GIS --> AtlasStyler` 开启 AtlasStyler 。
  

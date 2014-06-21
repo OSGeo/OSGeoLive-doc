@@ -36,7 +36,7 @@ Introducció
 
 AtlasStyler és una aplicació d'usuari final, que permet crear arxius .SLD per a dades vectorials.
 
-0) El Live-DVD d'OSGeo utilitza el sistema operatiu Xubuntu, que té un petit problema amb les aplicacions Java: 
+0) El Live-DVD d'OSGeo utilitza el sistema operatiu Lubuntu, que té un petit problema amb les aplicacions Java: 
 com a solució, si us plau, feu click amb el botó dret del ratolí sobre la barra de menú (on trobareu els llistats 'Applications' i 'Places')
 i seleccioneu 'Customize Panel'. A continuació seleccioneu l'opció 'Autohide'. D'aquesta manera la barra de menú quedarà oculta excepte quan 
 el ratolí estigui en la part superior de la pantalla.
