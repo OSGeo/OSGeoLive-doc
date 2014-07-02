@@ -30,7 +30,7 @@ Getting Started
 2. This will open the 52°North SOS client welcome page in firefox at http://localhost:8080/52nSOS/.  Open the test client by selecting the version you would like to use, 1.0.0 for example:
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_install_start.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: screenshot of 52°North SOS client welcome page
   :align: center
 
@@ -42,7 +42,7 @@ Getting Started
    2.0 installed.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_insert_test_data.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: screenshot of 52°North SOS client - test client with batch operation
   :align: center
   
