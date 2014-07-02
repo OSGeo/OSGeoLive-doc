@@ -1,6 +1,6 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: 
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -27,39 +27,35 @@ Getting Started
 
 1. Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS.
    
-2. This will open the 52°North SOS test client welcome page in firefox at http://localhost:8080/52nSOS/.  Open the test client by selecting the version you would like to use, 1.0.0 for example:
+2. This will open the 52°North SOS client welcome page in firefox at http://localhost:8080/52nSOS/.  Open the test client by selecting the version you would like to use, 1.0.0 for example:
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_install_start.png
   :scale: 100 %
-  :alt: screenshot of 52°North SOS test client welcome page
+  :alt: screenshot of 52°North SOS client welcome page
   :align: center
 
-**Fig. 1**: 52°North SOS test client - welcome page
+**Fig. 1**: 52°North SOS client - welcome page
 
-3. The test client can be used to send requests to the service using a simple form. A drop-drown list allows you to select from a collection of predefined requests, which are adapted to the respective service version selected in the step before.
+3. Follow the set-up and configuration instructions. As datasource select as needed. For short test, 
+   select H2/GeoDB (in memory). During workshops or for installing a database server like PostgreSQL
+   should be used. Hence, select PostgreSQL/PostGIS. This requires an existing database with PostGIS
+   2.0 installed.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_insert_test_data.png
   :scale: 100 %
-  :alt: screenshot of 52°North SOS test client version 1.0.0
+  :alt: screenshot of 52°North SOS client - test client with batch operation
   :align: center
   
-**Fig. 2**: 52°North SOS test client - specification version 1.0.0 
+**Fig. 2**: 52°North SOS client - test client with batch operation
   
-4. Lets start by determining what data can be queried from the SOS by sending a GetCapabilities request.  Select the GetCapabilities_allSections.xml request from the drop-down list next to "Request Examples" (see number [1] in Fig. 2).
+4. Let's insert some test data after installing the 52°North SOS. Hence, select the batch operation
+   in the test client and click on the send button (see Fig. 2)
   
-5. Push the **Send button** (number [2] in Fig. 2) and the request will be transmitted to the 52°North SOS. As result, a XML document is returned (see Fig. 3), which shows the capabilities of the SOS (service metadata such as keywords or provider, available operations and filters, contained observation data,...). To see the original response open the source view (Ctrl+U).
+5. Once you know `the capabilities of a SOS<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_,
+   you can craft appropriate queries. Again, this is made easier by selecting sample queries from the test client pull down list.
+   Using the information from the capabilities, you can adjust the available example queries.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_response.png
-  :scale: 70 %
-  :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
-  :align: center
-  
-**Fig. 3**: 52°North SOS - GetCapabilities response (XML encoded)
-  
-6. Once you know the capabilities of a SOS, you can craft appropriate queries. Again, this is made easier by selecting sample queries from the test client pull down list.  For instance, lets get details about the latest Observation by selecting the :file:`GetObs_latestObs.xml` request from the drop down menu and press the **Send button**.
 
-.. TBD Cameron's comment.
-  I suggest adding another screenshot here.
 
 Things to Try
 ================================================================================
@@ -92,10 +88,5 @@ To learn more about 52°North SOS and/or the 52°North Sensor Web Community, pot
   
 **Listing 1:** Tomcat Status and Start (password for sudo: user)
 
-* The development of this version of the 52°North SOS was supported by the European FP7 research project `EO2HEAVEN <http://www.eo2heaven.org/>`_ (co-funded by the European Commission under the under grant agreement n°244100):
-
-.. image:: ../../images/project_logos/logo_52North_other_200px.png
-  :scale: 100 %
-  :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
-  :align: center
-  :target: http://www.eo2heaven.org/
+* The development of this version of the 52°North SOS was supported by different projects, organizations, and persons. 
+  More details can be found in the `52°North SOS client<http://localhost:8080/52nSOS/index`_.

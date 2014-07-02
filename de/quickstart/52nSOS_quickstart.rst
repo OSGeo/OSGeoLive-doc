@@ -1,6 +1,6 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer: Frank Gasdorf
-:Version: osgeo-live7.0
+:Reviewer: 
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -18,59 +18,55 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
 Dieses Quickstart-Dokument umfasst:
 
+  * Abschluss der Installation und Konfiguration der SOS-Instanz
+  * Einfügen von Testdaten
   * Eine Anfrage eines 52°North SOS Capabilities-Dokumentes, um festzustellen, welche Anfragen unterstützt werden.
-  * eine Detail-Anfrage zu Observationen des SOS.
+  * Eine Detail-Anfrage zu Messdaten des SOS.
 
 .. contents:: Inhalt
 
 Erste Schritte
 ================================================================================
 
-1. Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` auf, 
-   um den 52°North SOS zu starten oder benutzen sie diesen `direkten Link <http://localhost:8080/52nSOS/>`_.
-   (Sollte der Dienst nicht erreichbar sein, so versuchen Sie, den Tomcat Web 
-   Service Container zu starten. Hinweise hierzu finden Sie am Ende dieser Seite.)
+1. Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS`.
 
 2. Es öffnet sich ein Browser-Fenster, welches die Willkommens-Seite der
-   52°North SOS Test-Anwendung anzeigt (siehe Abb. 1). Bitte wählen Sie die
-   Version der Spezifikation, die Sie verwenden wollen, z.B. 1.0.0:
+   52°North SOS-Anwendung anzeigt (siehe Abb. 1). Bitte klicken sie auf den 
+   Link zur Vervollständigung der Installation (in der rot hinterlegten Meldung):
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_install_start.png
   :scale: 100 %
-  :alt: Bildschirmfoto der 52°North SOS-Test-Anwendung-Willkommens-Seite
+  :alt: Bildschirmfoto der 52°North SOS-Anwendung-Willkommens-Seite
   :align: center
 
 **Abb. 1**: 52°North SOS Test-Anwendung - Willkommens-Seite
 
-3. Jetzt sehen Sie die Test-Anwendung für die Spezifikations-Version 1.0.0. 
-   Verwenden Sie sie um Anfragen an den SOS zu schicken.
+3. Folgen Sie den Schritten der Installation und Konfiguration. Als Datasource sollten sie entsprechend
+   ihren Bedürfnissen wählen. Für einen kurzen Test bietet sich die Wahl von H2/GeoDB (in memory) an. Workshops oder
+   Installationen sollten einen Datenbankserver wie z.B. PostgreSQL nutzen. Dazu wählen Sie PostgreSQL/PostGIS aus.
+   Es wird eine existierende Datenbank mit PostGIS 2.0 erwartet. 
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_insert_test_data.png
   :scale: 100 %
-  :alt: Bildschirmfoto der 52°North SOS Test-Anwendung - Spezifikations-Version 1.0.0
+  :alt: Bildschirmfoto der 52°North SOS Anwendung - Test Client mit Batch-Operation
   :align: center
   
-**Fig. 2**: 52°North SOS Test-Anwendung - Spezifikations-Version 1.0.0 
+**Fig. 2**: 52°North SOS Anwendung - Test Client mit Batch-Operation 
   
-4. Wählen Sie als erstes Beispiel die Anfrage **GetCapabilities_allSections.xml** aus der Drop-Down-Liste 
-   "Request Examples" (siehe Nummer [1] in Fig. 2).
-  
-5. Drücken Sie den **Send button** (siehe Nummer [2] in Fig. 2) damit die Anfrage an den 52°North SOS 
-   gesendet wird. Als Antwort erhalten Sie ein XML-Dokument, welches die 
-   Eigenschaften und Inhalte des SOS (sogenannte “Capabilities”) beschreibt (siehe Abb. 3).
-   Um die Rohantwort des Servers zu sehen, schauen Sie sich die Quellen der Seite an (Strg + u).
-
-.. image:: ../../images/screenshots/1024x768/52n_sos_response.png
-  :scale: 70 %
-  :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
-  :align: center
-
-**Abb. 3**: 52°North SOS – GetCapabilities-Antwort des SOS (XML-kodiert)
-  
-6. Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des
+4. Nach der Installation werden als nächstes die Testdaten eingefügt. Dazu wählen Sie die Operation Batch
+   im Test Client aus und klicken anschließend auf Send (siehe Abb. 2).
+    
+5. Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des
    52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_.
    Mit Hilfe der Inhalte des Capabilities-Dokuments können die Beispielanfragen
    aus der Beispielliste individuell angepasst werden.
+
+Ausprobieren
+================================================================================
+
+* Versuchen Sie weitere Abfragen des Test Clients.
+* Nutzen Sie den `View Client<http://localhost:8080/52nSOS/viewclient>`_.
+* Passen Sie die Beispielanfragen an um andere Daten zu bekommen.
 
 Weitere Informationen
 ================================================================================
@@ -96,12 +92,5 @@ Weitere Informationen
   
 **Listing 1:** Befehlte zum Abfragen des Status von Tomcat und zum Starten (Passwort für sudo: user)
 
-* Die Entwicklung dieser Version des 52°North SOS wurde durch das Europäische FP7 Projekt `EO2HEAVEN <http://www.eo2heaven.org/>`_ 
-  
-  Unterstützt (co-finanziert durch die Europäische Kommission unter der Grant Agreement Nummer 244100):
-
-.. image:: ../../images/project_logos/logo_52North_other_200px.png
-  :scale: 100 %
-  :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
-  :align: center
-  :target: http://www.eo2heaven.org/
+* Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene Projekte, Organisationen und Personen unterstützt. 
+  Mehr Informationen in der `52°North SOS Anwendung<http://localhost:8080/52nSOS/index`_.
