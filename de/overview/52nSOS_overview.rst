@@ -26,11 +26,12 @@ Der 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>
 Funktionalität
 --------------------------------------------------------------------------------
 
-**Test-Anwendung**:
-
-* Der SOS wird zusammen mit einem Browser-basierten Anwendung ausgeliefert. Diese ermöglicht die Administration, Konfiguration der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen; entspr. Vorlagen sind enthalten.
-		
-Der aktuelle 52°North SOS implementiert die aktuellste Spezifikationsversion (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind entsprechend der Version die implementierten Operationen aufgelistet:
+* **Test-Anwendung**: Der SOS wird zusammen mit einem Browser-basierten Anwendung ausgeliefert.
+  Diese ermöglicht die Administration, Konfiguration der Service-Instanz, sowie das Senden von
+  Testanfragen für SOS-Operationen; entspr. Vorlagen sind enthalten.
+* Der aktuelle 52°North SOS implementiert die aktuellste Spezifikationsversion (2.0.0 und die
+  Vorgängerversion 1.0.0). In der folgenden Liste sind entsprechend der Version die 
+  implementierten Operationen aufgelistet.
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
