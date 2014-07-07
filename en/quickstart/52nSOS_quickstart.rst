@@ -92,7 +92,7 @@ To learn more about 52°North SOS and/or the 52°North Sensor Web Community, pot
 * 52°North `SOS website <http://52north.org/communities/sensorweb/sos/>`_, or 
 * The website of the `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
 * The development of this version of the 52°North SOS was supported by different projects, organizations, and persons. 
-  More details can be found in the `52°North SOS client <http://localhost:8080/52nSOS/index`_.
+  More details can be found in the `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
 * When the SOS is not available, please check if the tomcat servlet engine is running using the following command:
 
 ::

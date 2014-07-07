@@ -95,7 +95,7 @@ Weitere Informationen
 * 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, oder 
 * Website der `52°North Sensor-Web-Community <http://52north.org/communities/sensorweb/>`_.
 * Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene Projekte, Organisationen und Personen unterstützt. 
-  Mehr Informationen in der `52°North SOS Anwendung <http://localhost:8080/52nSOS/index`_.
+  Mehr Informationen in der `52°North SOS Anwendung <http://localhost:8080/52nSOS/index>`_.
 * Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl, ob der Tomcat Web Service-Container läuft:
 
 ::
