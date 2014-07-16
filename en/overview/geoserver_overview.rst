@@ -74,6 +74,7 @@ Support of numerous Open Geospatial Consortium  (OGC) standards:
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview`
   * :doc:`../standards/gml_overview`
+  * :doc:`../standards/kml_overview`
 
 Details
 --------------------------------------------------------------------------------
