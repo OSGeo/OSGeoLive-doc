@@ -84,7 +84,8 @@ Implementierte Standards
 
 * Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards
 
-  * WMS (Client/Server), nicht-transaktionaler WFS (Client/Server), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
+  * :doc:`../standards/wms_overview` (Client/Server), :doc:`../standards/wfs_overview` (nicht-transaktional, Client/Server), WMC, :doc:`../standards/wcs_overview`, :doc:`../standards/fe_overview`, :doc:`../standards/sld_overview`, :doc:`../standards/gml_overview`, SOS, OM
+
 
 * INSPIRE View Service
 
