@@ -46,7 +46,7 @@ Kernfunktionen
   
   * Kommerzielle Layer: Google, Bing, Yahoo
   
-  * OGC Standards: WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  * OGC Standards: :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (transactional), GeoRS, :doc:`../standards/gml_overview` 
   
   * Andere: OpenStreetMap (OSM), ArcGIS, Images, MapGuide, MapServer, TileCache
 
