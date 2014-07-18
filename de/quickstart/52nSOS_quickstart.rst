@@ -48,7 +48,8 @@ Erste Schritte
    gemacht werden. Als letztes muss ein Admininstrations-Nutzer mit Nutzername und Passwort eingerichtet werden.
 
 4. Nach der Installation werden als nächstes die Testdaten eingefügt. Dazu wählen Sie die Operation Batch
-   im Test Client aus und klicken anschließend auf Send (siehe Abb. 2).
+   im Test Client aus und klicken anschließend auf Send (siehe Abb. 2). Dieser Vorgang kann auf Grund der Menge der Daten
+   eine gewisse Zeit in Anspruch nehmen.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_insert_test_data.png
   :scale: 100 %

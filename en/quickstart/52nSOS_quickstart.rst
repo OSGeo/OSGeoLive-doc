@@ -30,7 +30,7 @@ Getting Started
 1. Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS.
    
 2. This will open the 52°North SOS client welcome page in firefox at http://localhost:8080/52nSOS/ (see Fig. 1).  
-   Please click on the link labelled with “here” to complete the installation process (in the red highlighted message):
+   Please click on the link labeled with “here” to complete the installation process (in the red highlighted message):
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_install_start.png
   :scale: 100 %
@@ -45,7 +45,8 @@ Getting Started
    2.0 installed.
 
 4. Let's insert some test data after installing the 52°North SOS. Hence, select the batch operation
-   in the test client and click on the send button (see Fig. 2)
+   in the test client and click on the send button (see Fig. 2). This process might take a while 
+   because of the amount of date being transferred. 
    
 .. image:: ../../images/screenshots/1024x768/52n_sos_insert_test_data.png
   :scale: 100 %
