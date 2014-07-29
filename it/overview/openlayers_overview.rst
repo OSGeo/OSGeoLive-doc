@@ -47,7 +47,7 @@ Caratteristiche principali
   
   * Layers commerciali: Google, Bing
   
-  * Standards OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  * Standards OGC: :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (transactional), GeoRS, :doc:`../standards/gml_overview` 
   
   * Altri: OpenStreetMap (OSM), ArcGIS, Images, MapGuide, MapServer, TileCache
 

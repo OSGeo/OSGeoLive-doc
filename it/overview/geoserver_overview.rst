@@ -50,7 +50,7 @@ Caratteristiche di base
         - Shapefiles, WFS esterni
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
-        - GeoTiff, JPG e PNG, piramidi, formati GDAL, Image Mosaic, Oracle GeoRaster
+        - GeoTiff, JPG e PNG (con world file), piramidi, formati GDAL, Image Mosaic, Oracle GeoRaster
 
 **I dati sono mostrati come immagini veloci e sicure utilizzando il protocollo WMS e WMST:**
     Poiche` il dato e` mostrato come un'immagine il dato e` completamente salvo e sicuro. A meno di non digitalizzare il dato, non c'e` nessuna possibilita` che il dato venga sottratto.
@@ -85,6 +85,7 @@ Supporto di numerosi standard Open Geospatial Consortium  (OGC):
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview` 
   * :doc:`../standards/gml_overview`
+  * :doc:`../standards/kml_overview`
 
 Dettagli
 --------------------------------------------------------------------------------
