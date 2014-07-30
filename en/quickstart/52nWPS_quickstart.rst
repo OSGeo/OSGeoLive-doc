@@ -1,5 +1,5 @@
 :Author: Benjamin Pross, Kristof Lange
-:Version: osgeo-live7.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -11,10 +11,17 @@
 52°North WPS Quickstart 
 ********************************************************************************
 
+The 52°North WPS is a framework for web-based processing of (geospatial) data. 
+The service implements the OGC Web Processing Service 1.0 interface standard.
+
+This quickstart describes how to process data and store the result in another web service using WPS operations. 
+
+.. contents:: Contents
+
 Running
 ================================================================================
 
-* To run 52°North WPS on the Live DVD, go to :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`	to start the 52°North WPS or use this `direct link <http://localhost:8080/52nWPS/>`_. (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
+* To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-52nWPS| to start the 52°North WPS or use this `direct link <http://localhost:8080/52nWPS/>`_. (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
 
 * The 52n WPS welcome page will appear. 
 
@@ -22,14 +29,28 @@ Running
     :scale: 70 %
     :alt: screenshot
 
+Get information about the service
+================================================================================
+
 * Check out the capabilities of the 52°North WPS with this request:
 
   http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS
 
+Process data
+================================================================================
+
 * Click on the link to open the 52nWPS-TestClient. 
-* Make sure that you have started :doc:`GeoServer <../overview/geoserver_overview>` since the demonstrations require data from the local GeoServer installation.
 
+  .. image:: ../../images/screenshots/800x600/52nWPS_welcome_page_2.png
+    :scale: 70 %
+    :alt: screenshot
 
+* Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running since the demonstration requires data from the local GeoServer installation.
+  To do this, try to open the page http://localhost:8082/geoserver/web. If the page could not be found, select |osgeolive-appmenupath-geoserver| in the menu.
+  The GeoServer should be running after a few moments.
+
+* Select the example request "SimpleBuffer_out_wfs.xml" from the dropdown list:
+  
   .. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
     :scale: 70 %
     :alt: screenshot
@@ -51,11 +72,24 @@ Running
     :scale: 70 %
     :alt: screenshot
 
-* Try out other example requests from the dropdown list of the WPS test client.
+Things to Try
+================================================================================
 
-* You could also install the WPS plugin for QGIS and try it out with the 52°North WPS.
+* Try out other example requests from the dropdown list of the WPS test client.
+* You could also install the WPS plugin for :doc:`QGIS <../overview/qgis_overview>` and try it out with the 52°North WPS.
+
+What Next?
+================================================================================
+
+* Create your own processes and execute them using various clients.
+
+* Set up the WPS to execute GRASS GIS 7 processes.
+
+* Set up the WPS to execute :doc:`R <../overview/R_overview>` scripts as processes.
+
+Available in the 52°North wiki: https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials
 	
-* For further questions you can contact the 52°North WPS mailing list:
+For further questions you can contact the 52°North WPS mailing list:
 
   geoprocessingservices@52north.org
 
