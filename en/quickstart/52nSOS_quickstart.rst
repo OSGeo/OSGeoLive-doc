@@ -17,8 +17,6 @@ The 52°North SOS is a web service, that allows you to provide and collect spati
 
 This Quick Start describes how to:
 
-  * Completing the installation of the 52°North SOS.
-  * Insertion of example data using the test client.
   * Query the 52°North SOS Capabilities to determine what queries it supports.
   * Query details about an Observation from the SOS.
 
@@ -39,24 +37,8 @@ Getting Started
 
 **Fig. 1**: 52°North SOS client - welcome page
 
-3. Follow the set-up and configuration instructions. As datasource select as needed. For short test, 
-   select H2/GeoDB (in memory). During workshops or for installing a database server like PostgreSQL
-   should be used. Hence, select PostgreSQL/PostGIS. This requires an existing database with PostGIS
-   2.0 installed.
-
-4. Let's insert some test data after installing the 52°North SOS. Hence, select the batch operation
-   in the test client and click on the send button (see Fig. 2). This process might take a while 
-   because of the amount of date being transferred. 
-   
-.. image:: ../../images/screenshots/1024x768/52n_sos_insert_test_data.png
-  :scale: 100 %
-  :alt: screenshot of 52°North SOS client - test client with batch operation
-  :align: center
-  
-**Fig. 2**: 52°North SOS client - test client with batch operation
-  
-5. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_,
-   (see Fiq. 3) you can craft appropriate queries. Again, this is made easier by selecting
+3. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_,
+   (see Fiq. 2) you can craft appropriate queries. Again, this is made easier by selecting
    sample queries from the test client pull down list. Using the information from the
    capabilities, you can adjust the available example queries.
 
@@ -65,21 +47,55 @@ Getting Started
   :alt: screenshot of 52°North SOS client - test client with GetCapabilities response
   :align: center
   
-**Fig. 3**: 52°North SOS client - test client with GetCapabilities response
+**Fig. 2**: 52°North SOS client - test client with GetCapabilities response
+
+4. To get for each time series the available observation data within the time interval from 
+   2010-01-01T00:00:00.000+01:00 to 2010-01-01T01:59:00.000+01:00 insert the following request after
+   selecting service "SOS" --> version "2.0.0" --> binding "/soap" --> operation "GetObservation" in
+   the `test client <http://localhost:8080/52nSOS/client>`_ in the field request:
+   
+::
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <env:Envelope
+      xmlns:env="http://www.w3.org/2003/05/soap-envelope"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2003/05/soap-envelope http://www.w3.org/2003/05/soap-envelope/soap-envelope.xsd">
+      <env:Body>
+          <sos:GetObservation service="SOS" version="2.0.0"
+              xmlns:sos="http://www.opengis.net/sos/2.0"
+              xmlns:fes="http://www.opengis.net/fes/2.0"
+              xmlns:gml="http://www.opengis.net/gml/3.2"
+              xmlns:swe="http://www.opengis.net/swe/2.0"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:swes="http://www.opengis.net/swes/2.0" xsi:schemaLocation="http://www.opengis.net/sos/2.0 http://schemas.opengis.net/sos/2.0/sos.xsd">
+              <sos:temporalFilter>
+                  <fes:During>
+                      <fes:ValueReference>phenomenonTime</fes:ValueReference>
+                      <gml:TimePeriod gml:id="tp_1">
+                          <gml:beginPosition>2010-01-01T00:00:00.000+01:00</gml:beginPosition>
+                          <gml:endPosition>2010-01-01T01:59:00.000+01:00</gml:endPosition>
+                      </gml:TimePeriod>
+                  </fes:During>
+              </sos:temporalFilter>
+          </sos:GetObservation>
+      </env:Body>
+  </env:Envelope>
+  
+**Listing 1:** Request of observations
 
 Things to Try
 ================================================================================
 
 * Try some of the other example queries from the pull down list.
-* Try the `View Client <http://localhost:8080/52nSOS/viewclient>`_ (see Fiq. 4).
 * Try tweaking some of these queries to get different information.
+* Try the `View Client <http://localhost:8080/52nSOS/viewclient>`_ (see Fiq. 4).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS client - view client with time series data
   :align: center
   
-**Fig. 4**: 52°North SOS client - view client with tiem series data
+**Fig. 3**: 52°North SOS client - view client with tiem series data
 
 What Next?
 ================================================================================
