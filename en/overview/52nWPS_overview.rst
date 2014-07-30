@@ -1,6 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -21,7 +21,7 @@ processing algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom
 functions. Algorithms may be as simple as determining the difference in 
 influenza cases between two different seasons, or as complicated as a global climate change model.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right
