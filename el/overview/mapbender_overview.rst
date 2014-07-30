@@ -63,17 +63,17 @@ Mapbender
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Κεντρική ιστοσελίδα:** http://www.mapbender3.org/ 
+**Κεντρική ιστοσελίδα:** http://mapbender3.org/ 
 
 **Άδεια:** Ο Mapbender διανέμεται κάτω από διπλή άδεια, την GNU General Public License και την απλοποιημένη άδεια BSD
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Έκδοση Λογισμικού:** 3.0.0.2
+**Έκδοση Λογισμικού:** 3.0.3.2
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
-**Υποστήριξη:** http://www.mapbender3.org/en/community
+**Υποστήριξη:** http://mapbender3.org/en/community
 
 
 Γρήγορη εκκίνηση

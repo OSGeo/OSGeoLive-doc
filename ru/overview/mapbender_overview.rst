@@ -92,17 +92,17 @@ Mapbender предоставляет полностью новую перспе�
 Дополнительная информация
 --------------------------------------------------------------------------------
 
-**Веб-сайт:** http://www.mapbender.org/ 
+**Веб-сайт:** http://mapbender3.org/ 
 
 **Лицензия:** Mapbender is dual licensed under the GNU General Public License and Simplified BSD license
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Версия ПО:** 2.7.3
+**Версия ПО:** 3.0.3.2
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 
-**Поддержка:** http://www.mapbender.org/Support
+**Поддержка:** http://mapbender3.org/en/community
 
 
 Начало работы

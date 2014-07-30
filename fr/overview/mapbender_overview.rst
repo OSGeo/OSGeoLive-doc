@@ -74,17 +74,17 @@ Standards implémentés
 Détails
 --------------------------------------------------------------------------------
 
-**Site web:** http://www.mapbender.org/ 
+**Site web:** http://mapbender3.org/ 
 
 **Licence:** La licence Mapbender est double d'une part sous licence GNU General Public et d'autre part sous licence BSD simplifiée
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Version du logiciel:** 2.7.3
+**Version du logiciel:** 3.0.3.2
 
 **Plates-formes supportées:** Windows, Linux, Mac
 
-**Support:** http://www.mapbender.org/Support
+**Support:** http://mapbender3.org/en/community
 
 
 Guide de démarrage rapide

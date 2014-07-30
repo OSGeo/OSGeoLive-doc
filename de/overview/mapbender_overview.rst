@@ -65,7 +65,7 @@ Unterstützte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.mapbender.org/ 
+**Webseite:** http://mapbender3.org/ 
 
 **Lizenz:** Mapbender verfügt über eine duale Linzenz und zwar über die `GNU General Public Lizenz <http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt>`_ und die `Simplified BSD Lizenz <http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt>`_.
 
@@ -73,7 +73,7 @@ Details
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
-**Support:** http://www.mapbender3.org/en/community
+**Support:** http://www.mapbender3.org/de/community
 
 
 Quickstart

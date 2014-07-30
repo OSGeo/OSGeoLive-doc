@@ -66,11 +66,11 @@ Zaimplementowane standardy
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://www.mapbender3.org/
+**Strona internetowa:** http://mapbender3.org/
 
 **Licencja:** Mapbender jest wydany na podwójnej licencji: Powszechnej Licencji Publicznej GNU (GPL) <http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt>`_ i uproszczonej licencji BSD <http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt>`_.
 
-**Wersja programu:** 3.0.0.2
+**Wersja programu:** 3.0.3.2
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

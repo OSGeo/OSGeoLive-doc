@@ -101,17 +101,17 @@ Estándares Implementados
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio web:** http://www.mapbender.org/ 
+**Sitio web:** http://mapbender3.org/ 
 
 **Licencia:** Mapbender se encuentra bajo una licencia dual compuesta por la la licencia GNU General Public License y la licencia Simplified BSD license
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Version del software:** 2.7.3
+**Version del software:** 3.0.3.2
 
 **Platformas soportadas:** Windows, Linux, Mac
 
-**Soporte:** http://www.mapbender.org/Support
+**Soporte:** http://mapbender3.org/en/community
 
 
 Guía rápida

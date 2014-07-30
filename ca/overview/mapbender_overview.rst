@@ -78,17 +78,17 @@ Estàndards implementats
 Detalls
 --------------------------------------------------------------------------------
 
-**Lloc Web:** http://www.mapbender.org/ 
+**Lloc Web:** http://mapbender3.org/ 
 
 **Llicència:** Mapbender es troba sota una llicència dual composta per la llicència GNU General Public License i la llicència Simplified BSD license
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
   * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
 
-**Versió del Programari:** 2.7.3
+**Versió del Programari:** 3.0.3.2
 
 **Plataformes suportades:** Windows, Linux, Mac
 
-**Suport:** http://www.mapbender.org/Support
+**Suport:** http://mapbender3.org/en/community
 
 
 Guia d'inici ràpid

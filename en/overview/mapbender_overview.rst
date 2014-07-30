@@ -62,7 +62,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.mapbender3.org/
+**Website:** http://mapbender3.org/
 
 **Licence:** Dual licensed under the `GNU General Public License <http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt>`_ and `Simplified BSD license <http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt>`_.
 

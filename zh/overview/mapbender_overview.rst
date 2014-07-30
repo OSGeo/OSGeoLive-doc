@@ -77,17 +77,17 @@ MapBender
 详细信息
 --------------------------------------------------------------------------------
 
-**官方网站：** http://www.MapBender.org/ 
+**官方网站：** http://mapbender3.org/ 
 
 **开源协议：** MapBender 以 GNU General Public License 和 简化 BSD License 双协议发布
   * http://svn.osgeo.org/MapBender/trunk/MapBender/license/gpl.txt  
   * http://svn.osgeo.org/MapBender/trunk/MapBender/license/simplified_bsd.txt
 
-**软件版本：** 2.7.3
+**软件版本：** 3.0.3.2
 
 **平台支持：** Windows, Linux, Mac
 
-**技术支持：** http://www.MapBender.org/Support
+**技术支持：** http://mapbender3.org/en/community
 
 
 快速入门
