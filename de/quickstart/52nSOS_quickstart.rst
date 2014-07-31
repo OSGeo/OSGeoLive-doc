@@ -26,12 +26,12 @@ Dieses Quickstart-Dokument umfasst:
 Erste Schritte
 ================================================================================
 
-1. Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS`.
+1. Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` auf.
 
 2. Es öffnet sich ein Browser-Fenster, welches die Willkommens-Seite der
    52°North SOS-Anwendung anzeigt (siehe Abb. 1).
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_install_start.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_start.png
   :scale: 100 %
   :alt: Bildschirmfoto der 52°North SOS-Anwendung-Willkommens-Seite
   :align: center
@@ -45,13 +45,13 @@ Erste Schritte
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
-  :alt: Bildschirmfoto der 52°North SOS Anwendung - Test Client mit GetCapabilities-Antwort
+  :alt: Bildschirmfoto der 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
   :align: center
   
-**Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-Antwort
+**Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
 
-4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von 2010-01-01T00:00:00.000+01:00 bis 2010-01-01T01:59:00.000+01:00 abzufragen,
-   muss im `Test Client <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" --> 
+4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von 1.1.2010 00:00 bis 1:59 in der Zeitzone +1 abzufragen,
+   dann muss im `Test Client <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" --> 
    Version "2.0.0" --> Binding "/soap" --> Operation "GetObservation" folgende Abfrage im Feld "Request" stehen:
    
 ::
@@ -88,6 +88,7 @@ Ausprobieren
 
 * Versuchen Sie weitere Abfragen der Test-Anwendung.
 * Passen Sie die Beispielanfragen an um andere Daten zu bekommen.
+* Lernen Sie den `SOS-Administrator <http://localhost:8080/52nSOS/admin/index>`_ kennen. Die Zugangsdaten lauten: "user" mit Passwort "user".
 * Nutzen Sie den `View Client <http://localhost:8080/52nSOS/viewclient>`_ (siehe Abb. 3).
 
 
@@ -101,24 +102,26 @@ Ausprobieren
 Weitere Informationen
 ================================================================================
 
-* Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie 
-  über folgende Wege:
+Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie über folgende Wege:
 
 * 52°North `SOS-Überblick <../overview/52nSOS_overview.html>`_,
 * 52°North Sensor-Web-E-Mail-Liste: swe@52north.org, 
 * Forum der 52°North `Sensor-Web-Community <http://sensorweb.forum.52north.org/>`_, 
 * 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, oder 
 * Website der `52°North Sensor-Web-Community <http://52north.org/communities/sensorweb/>`_.
-* Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene Projekte, Organisationen und Personen unterstützt. 
-  Mehr Informationen in der `52°North SOS Anwendung <http://localhost:8080/52nSOS/index>`_.
-* Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl, ob der Tomcat Web Service-Container läuft:
+
+Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene Projekte, Organisationen und Personen unterstützt. 
+Mehr Informationen finden Sie in der `52°North SOS Anwendung <http://localhost:8080/52nSOS/index>`_.
+
+Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl, ob der Tomcat Web Service-Container läuft:
 
 ::
 
-  user@osgeolive:~$ sudo /etc/init.d/tomcat6 status
-  * Tomcat servlet engine is running with pid 1234          <-- Tomcat läuft  [...]
+  user@osgeolive:~$ sudo service tomcat6 status
+  * Tomcat servlet engine is running with pid 1234          <-- Tomcat läuft
+  [...]
   * Tomcat servlet engine is not running.                   <-- Tomcat läuft nicht, starten Sie Tomcat über folgenden befehl:
-  user@osgeolive:~$ sudo /etc/init.d/tomcat6 start
+  user@osgeolive:~$ sudo service tomcat6 start
   * Starting Tomcat servlet engine tomcat6           [ OK ] <-- Tomcat läuft nun
   
 **Listing 2:** Befehle zum Abfragen des Status und zum Starten des Tomcat-Dienstes (Passwort für sudo: user)
