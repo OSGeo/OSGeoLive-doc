@@ -72,7 +72,7 @@ Detalls
 
 **Llicència:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Versió del programari:** 1.7.0 (1.9.2)
+**Versió del programari:** 1.10.1
 
 **Plataformes suportades:** Windows, Linux, Mac
 

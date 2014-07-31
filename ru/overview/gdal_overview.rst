@@ -67,7 +67,7 @@ GDAL поддерживает более 50 растровых форматов,
 
 **Лицензия:** `основанная на MIT <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Версия ПО:** 1.7.0 (1.9.1)
+**Версия ПО:** 1.10.1
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 
