@@ -74,13 +74,13 @@ To learn more about using the IPython Notebook, you can visit our example collec
 
 Geospatial Data Analysis and IPython
 --------------------------------------------------------------------------------
-.. _Data_and_Visualization_Integration_Via_Web-based_Resources: http://nbviewer.ipython.org/gist/anonymous/5678081
+.. _Data_and_Visualization_Integration_Via_Web-based_Resources: http://tw.rpi.edu/media/2013/09/25/a48/The_Perfect_Storm_1991.html
 
 .. _Exploring_seafloor_habitats_geographic_analysis_using_IPython_Notebook_with_GRASS_and_R: http://nbviewer.ipython.org/gist/epifanio/7598354
 
 .. _slideshow: http://orion.tw.rpi.edu/~epifanio/AGU-2013/AGU-2013-H52E02-MDS.slides.html
 
-.. _geo-notebook: https://github.com/epifanio/geo-notebook
+.. _geo-notebook: https://github.com/OSGeo/IPython_notebooks
 
 On OSGeoLive a number of python libraries and command line tools are installed (GDAL, GRASS, )and ready to be used, IPython provides a rich interface for such kind of tools, example usage can be found in the geo-notebook_ git repository other examples are available online on the IPython notebook gallery see : Data_and_Visualization_Integration_Via_Web-based_Resources_ and Exploring_seafloor_habitats_geographic_analysis_using_IPython_Notebook_with_GRASS_and_R_ , and an IPython Notebook can be also rendered as a slideshow_
 
