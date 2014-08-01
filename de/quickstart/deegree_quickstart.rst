@@ -112,7 +112,7 @@ Ebenen. Hier kann die vom deegree WMS angebotene INSPIRE Ebene aktiviert werden.
     einem Mausklick ein Rechteck gezogen werden, auf das gezoomt wird.
 
 Informationen und Step-By-Step Tutorials zur Konfiguration des INSPIRE workspaces finden sie in
-ausführlicher Form in der Dokumentation unter http://download.deegree.org/documentation/3.3.1/html/lightly.html#example-workspace-1-inspire-network-services
+ausführlicher Form in der Dokumentation unter http://download.deegree.org/documentation/3.3.10/html/lightly.html#example-workspace-1-inspire-network-services
 
 Wie geht es weiter?
 ================================================================================

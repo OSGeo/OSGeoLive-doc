@@ -240,13 +240,13 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
-.. |version-deegree| replace:: 3.3.1
+.. |version-deegree| replace:: 3.3.10
 .. |version-geoserver| replace:: 2.5
 .. |version-geokettle| replace:: 2.6
 .. |version-gvsig| replace:: 2.1
 .. |version-udig| replace:: 1.4.0b
 .. |version-52nWPS| replace:: 3.3.0
-.. |version-52nSOS| replace:: 4.0.0
+.. |version-52nSOS| replace:: 3.5.0
 .. |version-eoxserver| replace:: 0.3.2
 """ % {
   'projectname':project,

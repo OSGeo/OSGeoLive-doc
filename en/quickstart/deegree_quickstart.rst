@@ -109,7 +109,7 @@ layers. You can activate the INSPIRE layer served by the deegree WMS here.
    Zooming is possible via mouse wheel or the navigation elements on the left side.
 
 More information and step-by-step tutorials about the INSPIRE workspace can be 
-found under http://download.deegree.org/documentation/3.3.1/html/lightly.html#example-workspace-1-inspire-network-services
+found under http://download.deegree.org/documentation/3.3.10/html/lightly.html#example-workspace-1-inspire-network-services
 
 
 Want more?
