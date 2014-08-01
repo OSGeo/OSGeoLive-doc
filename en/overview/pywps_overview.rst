@@ -63,7 +63,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** WPS |version-PyWPS|
+**Software Version:** 3.2.2
 
 **Supported Platforms:** Windows, Linux, Mac
 
