@@ -66,7 +66,7 @@ Details
 
 **Lizenz:** Open Data Commons Open Database License (ODbL)
 
-**Datenversion:** Live database extract 2014-02-16
+**Datenversion:** Live database extract 2014-07-31
 
 **Datenformat:** XML
 
