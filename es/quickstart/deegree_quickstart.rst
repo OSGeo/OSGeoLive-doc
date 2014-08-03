@@ -1,4 +1,4 @@
-:Author: Johannes Küpper
+:Author: Johannes Küpper, Danilo Bretschneider
 :Translator: Jorge Sanz
 :Version: OSGeo-Live DVD, Version 5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -7,7 +7,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org/
+  :target: http://www.deegree.org
 
 ********************************************************************************
 Guía de inicio rápido de los servicios web deegree 3

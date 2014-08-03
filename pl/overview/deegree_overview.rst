@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Translator: Milena Nowotarska, OSGeo
 :Reviewer: Milena Nowotarska, OSGeo
 :Version: osgeo-live7.0
@@ -8,7 +8,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org
+  :target: http://www.deegree.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
@@ -115,7 +115,7 @@ Zaimplementowane standardy
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://deegree.org
+**Strona internetowa:** http://www.deegree.org
 
 **Licencja:** GNU Mniejsza Powszechna Licencja Publiczna (LGPL)
 

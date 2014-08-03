@@ -1,4 +1,4 @@
-:Author: Hamish Bowman
+/:Author: Hamish Bowman
 :Translator: Javier Sánchez
 :Version: osgeo-live6.5
 :License: Creative Commons
@@ -9,7 +9,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://wwww.openstreetmap.org
+  :target: http://www.openstreetmap.org
 
 OpenStreetMap
 ================================================================================

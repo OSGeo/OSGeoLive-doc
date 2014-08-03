@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Margherita Di Leo
 :Version: osgeo-live5.5
@@ -8,7 +8,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org
+  :target: http://www.deegree.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
@@ -105,7 +105,7 @@ Standard implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://deegree.org
+**Sito web:** http://www.deegree.org
 
 **Licenza:** LGPL
 

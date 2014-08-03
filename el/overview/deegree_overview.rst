@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -7,7 +7,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org
+  :target: http://www.deegree.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
@@ -101,7 +101,7 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Κεντρική ιστοσελίδα:** http://deegree.org
+**Κεντρική ιστοσελίδα:** http://www.deegree.org
 
 **Άδεια:** LGPL
 

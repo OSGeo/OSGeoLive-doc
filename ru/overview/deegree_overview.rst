@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -7,7 +7,7 @@
   :scale: 80 %
   :alt: логотип проекта
   :align: right
-  :target: http://deegree.org
+  :target: http://www.deegree.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
@@ -116,7 +116,7 @@ deegree запустит вашу ИПД, используя ваши собст
 Дополнительная информация
 --------------------------------------------------------------------------------
 
-**Веб-сайт:** http://deegree.org
+**Веб-сайт:** http://www.deegree.org
 
 **Лицензия:** LGPL
 

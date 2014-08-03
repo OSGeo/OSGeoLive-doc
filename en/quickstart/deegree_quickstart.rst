@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Version: OSGeo-Live DVD, Version 7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -6,7 +6,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org/
+  :target: http://www.deegree.org
 
 ********************************************************************************
 deegree 3 webservices quickstart 
@@ -124,4 +124,4 @@ There is more information in the demo installations and on the deegree website.
 
   * deegree home
 
-    Available here: http://deegree.org/
+    Available here: http://www.deegree.org

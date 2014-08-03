@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -8,7 +8,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org
+  :target: http://www.deegree.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
@@ -94,7 +94,7 @@ deegreeは貴方のSDIの価値を高め、貴方自身のデータを実行、�
 詳細
 --------------------------------------------------------------------------------
 
-**ウェッブサイト:** http://deegree.org
+**ウェッブサイト:** http://www.deegree.org
 
 **ライセンス:** LGPL
 

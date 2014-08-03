@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -6,7 +6,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org
+  :target: http://www.deegree.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
@@ -121,7 +121,7 @@ Implementierte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://deegree.org
+**Webseite:** http://www.deegree.org
 
 **Lizenz:** LGPL
 

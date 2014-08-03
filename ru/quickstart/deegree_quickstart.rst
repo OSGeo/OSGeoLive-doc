@@ -1,4 +1,4 @@
-:Author: Johannes Küpper
+:Author: Johannes Küpper, Danilo Bretschneider
 :Version: OSGeo-Live DVD, Version 5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -6,7 +6,7 @@
   :scale: 100 %
   :alt: логотип проекта
   :align: right
-  :target: http://deegree.org/
+  :target: http://www.deegree.org
 
 ********************************************************************************
 Начало работы с deegree

@@ -1,4 +1,4 @@
-:Author: Johannes Wilden
+:Author: Johannes Wilden, Danilo Bretschneider
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geotools-user list
@@ -59,11 +59,7 @@ Web Coverage Service
 Τί αναμένεται στη συνέχεια?
 ===========================
 
-Αυτή ήταν μια σύντομη ανασκόπηση του προγράμματος  deegree. Από τα degree wiki,deegree online demo και το deegree.org home μπορεί κανείς να μάθει περισσότερα σχετικά με περαιτέρω υπηρεσίες και λειτουργικότητες του deegree.
-
-* deegree wiki
-
-  Διαθέσιμο στο: http://wiki.deegree.org
+Αυτή ήταν μια σύντομη ανασκόπηση του προγράμματος deegree. Από τα deegree online demo και το deegree.org home μπορεί κανείς να μάθει περισσότερα σχετικά με περαιτέρω υπηρεσίες και λειτουργικότητες του deegree.
 
 * deegree online demo
 
@@ -71,4 +67,4 @@ Web Coverage Service
 
 * deegree home
 
-  Διαθέσιμο στο: http://deegree.org/
+  Διαθέσιμο στο: http://www.deegree.org

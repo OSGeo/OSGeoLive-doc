@@ -1,4 +1,4 @@
-﻿:Author: Johannes Wilden
+﻿:Author: Johannes Wilden, Danilo Bretschneider
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -7,7 +7,7 @@
   :scale: 80 %
   :alt: project logo
   :align: right
-  :target: http://deegree.org
+  :target: http://www.deegree.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
@@ -97,7 +97,7 @@ deegree提供用户SDI，支持用户自己的数据，满足各种需求.
 详情请见
 --------------------------------------------------------------------------------
 
-**网站:** http://deegree.org
+**网站:** http://www.deegree.org
 
 **版权:** LGPL
 
