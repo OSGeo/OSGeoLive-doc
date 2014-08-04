@@ -57,10 +57,11 @@ Run:
 See Also:
 --------------------------------------------------------------------------------
 
- * Getting started with the Xfce desktop (which is used by OSGeo-Live):
-    http://docs.xfce.org/xfce/getting-started
+ * Getting started with Lubuntu and the LXDE desktop (which is used by OSGeo-Live):
+    https://help.ubuntu.com/community/Lubuntu/Documentation
+    http://wiki.lxde.org/en/
  * Getting started with the Ubuntu operating system:
-    `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ and `extended online help <http://help.ubuntu.com/12.04/>`_
+    `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and `extended online help <http://help.ubuntu.com/14.04/>`_
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
