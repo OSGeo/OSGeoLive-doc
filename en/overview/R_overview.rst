@@ -61,7 +61,7 @@ Core Features
 * Disease mapping and areal data analysis
 * Spatial regression
 * Ecological analysis
-* Excellent raster processing capabilities with easy access to powerful algorithms
+* Powerful raster processing algorithms
 
 Details
 --------------------------------------------------------------------------------
