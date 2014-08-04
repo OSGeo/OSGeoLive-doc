@@ -61,6 +61,7 @@ Core Features
 * Disease mapping and areal data analysis
 * Spatial regression
 * Ecological analysis
+* Excellent raster processing capabilities with easy access to powerful algorithms
 
 Details
 --------------------------------------------------------------------------------
@@ -69,7 +70,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 3.0.2
+**Software Version:** 3.1.0
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
