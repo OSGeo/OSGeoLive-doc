@@ -5,11 +5,11 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.mapbender.org
+  :target: http://www.mapbender3.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 90 %
@@ -24,7 +24,7 @@ Mapbender
 Geoportal Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Mapbender <http://www.mapbender.org>`_ es un proyecto graduado en OSGeo.
+`Mapbender <http://mapbender3.org/en>`_ es un proyecto graduado en OSGeo.
 Consiste de un entorno de geoportales  para publicar, registrar, visualizar,
 navegar, seguir y conceder accesos seguros a servicios de Infraestrctura de
 Datos Espaciales (IDE's).
@@ -49,7 +49,7 @@ estándares de los servicios, tales como WMS y WFS Transaccional de OGC (Open
 Geospatial Consortium) le permite sacar provecho de los servicios interoperables
 de una multitud de plataformas disponibles a nivel de servidor.
 
-El lado del cliente de Mapbender se basa en HTML y JavaScript usando las
+El lado del cliente de Mapbender se basa en Symfony2, OpenLayers, Mapproxy usando las
 librerías jQuery y jQuery UI, que proporcionan gran cantidad de aplicaciones
 tipo *widgets* al navegador web. El lado del servidor Mapbender está
 implementado en PHP y PostgreSQL/PostGIS.
@@ -58,7 +58,7 @@ Mapbender da una nueva perspectiva a la gestión de las IDE al utilizar nada má
 que un navegador web estándar.
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-  :scale: 50%
+  :scale: 70%
   :alt: Mapbender application
   :align: right
 
@@ -94,9 +94,7 @@ Propiedades principales
 Estándares Implementados
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
-* OGC Web Map Context (WMC) 1.1.0 
+* OGC Web Map Service (WMS) 1.1.1, 1.3.0
 
 Detalles
 --------------------------------------------------------------------------------

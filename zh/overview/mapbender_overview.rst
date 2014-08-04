@@ -4,11 +4,11 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.MapBender.org
+  :target: http://www.mapbender3.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 90 %
@@ -17,25 +17,25 @@
   :target: http://www.osgeo.org
 
 
-MapBender
+Mapbender
 ================================================================================
 
 地理信息集成框架
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-　　 `MapBender <http://www.MapBender.org>`_ 是一个成熟的 OSGeo 项目。作为一个基于网页的地理信息集成服务，它可以用于发布、注册、浏览、监控和管理各种空间数据服务。
+　　 `Mapbender <http://www.Mapbender.org>`_ 是一个成熟的 OSGeo 项目。作为一个基于网页的地理信息集成服务，它可以用于发布、注册、浏览、监控和管理各种空间数据服务。
 
-　　MapBender 前端服务是整个地理空间信息服务体系的“冰山一角”，作为整套应用中的一层，参与和组成一套符合国际通用标准的地理信息服务系统。MapBender 让用户可以轻松地的建立针对具体应用需求的网页客户端，而只需少量甚至无需编程工作。这些客户端同远程服务交互，实现安全代理、数字化、对象自动吸附（“捕捉”）等高级的功能。
+　　Mapbender 前端服务是整个地理空间信息服务体系的“冰山一角”，作为整套应用中的一层，参与和组成一套符合国际通用标准的地理信息服务系统。Mapbender 让用户可以轻松地的建立针对具体应用需求的网页客户端，而只需少量甚至无需编程工作。这些客户端同远程服务交互，实现安全代理、数字化、对象自动吸附（“捕捉”）等高级的功能。
 
-　　基于 MapBender 的信息管理应用简介高效，功能专一，适用于大型的分布式空间数据服务体系，是需要对地图和地理要素服务进行的维护、分类、监控的数据服务管理人员的理想选择。
+　　基于 Mapbender 的信息管理应用简介高效，功能专一，适用于大型的分布式空间数据服务体系，是需要对地图和地理要素服务进行的维护、分类、监控的数据服务管理人员的理想选择。
 
-　　MapBender 前端通过 HTML 和 JavaScript 实现，并采用了应用广泛的 jQuery 及 jQuery UI 开发框架。服务器断则是通过 PHP 和 PostgreSQL/PostGIS 实现的。
+　　Mapbender 前端通过 HTML 和 JavaScript 实现，并采用了应用广泛的 jQuery 及 jQuery UI 开发框架。服务器断则是通过 PHP 和 PostgreSQL/PostGIS 实现的。
 
-　　MapBender 为空间数据服务体系的管理提供了完全依赖标准网页浏览器实现的全新解决方案。
+　　Mapbender 为空间数据服务体系的管理提供了完全依赖标准网页浏览器实现的全新解决方案。
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
-  :alt: MapBender application
+  :alt: Mapbender application
   :align: right
 
 
@@ -70,18 +70,16 @@ MapBender
 标准实现
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service（网页地图服务）1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service（网页地理要素服务）1.0.0, 1.1.0
-* OGC Web Map Context（网页地图数据索引）1.1.0 
+* OGC Web Map Service（网页地图服务）1.1.1, 1.3.0
 
 详细信息
 --------------------------------------------------------------------------------
 
 **官方网站：** http://mapbender3.org/ 
 
-**开源协议：** MapBender 以 GNU General Public License 和 简化 BSD License 双协议发布
-  * http://svn.osgeo.org/MapBender/trunk/MapBender/license/gpl.txt  
-  * http://svn.osgeo.org/MapBender/trunk/MapBender/license/simplified_bsd.txt
+**开源协议：** Mapbender 以 GNU General Public License 和 简化 BSD License 双协议发布
+  * http://svn.osgeo.org/Mapbender/trunk/Mapbender/license/gpl.txt  
+  * http://svn.osgeo.org/Mapbender/trunk/Mapbender/license/simplified_bsd.txt
 
 **软件版本：** 3.0.3.2
 

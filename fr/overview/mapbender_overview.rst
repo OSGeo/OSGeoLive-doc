@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: Logo du projet
   :align: right
@@ -22,18 +22,18 @@ Mapbender
 Framework pour géoportail
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Mapbender <http://www.mapbender.org>`_ est un projet reconnu par OSGeo. C'est un framework de cartographie pour le web pour publier, enregistrer, voir, naviguer, suivre et donner des droits d'accès à des services d'Infrastructures de Données Spatiales (IDS).
+`Mapbender <http://mapbender3.org/en>`_ est un projet reconnu par OSGeo. C'est un framework de cartographie pour le web pour publier, enregistrer, voir, naviguer, suivre et donner des droits d'accès à des services d'Infrastructures de Données Spatiales (IDS).
 
 Mapbender est le sommet de l'iceberg, un métacouche logicielle fournissant un accès à des composants d'IDS adhérant à des standards internationaux. Mapbender permet aux utilisateurs de facilement créer des clients web personnalisés à partir d'un large éventail de widgets (avec peu/un minimum de connaissances en programmation requises). Les widgets s'intègrent avec des fonctions serveur pour fournir des fonctionnalités avancées comme la sécurité basé sur un proxy, la digitalisation, l'auto-accrochage et plus.
 
 Les applications de gestion de Mapbender sont simples et faciles à utiliser pour fournir des fonctionnalités fortement ciblées pour l'exploitation de composants d'IDS distribués à large échelle. C'est un outil de choix pour les administrateurs d'IDS qui ont besoin de maintenir, catégoriser et suivre des services de cartes WMS, WFS. Mapbender accorde des accès à des personnes, des groupes et gère les accès machine avec machine. La prise en compte des services standardisés, comme le WMS et le WFS-T de l'OGC permet de tirer avantage des services interopérables d'une multitude de plates-formes de serveur.
 
-La partie client de Mapbender est basée sur HTML et JavaScript en utilisant les bibliothèques jQuery et jQuery UI qui fournissent de nombreux widgets. La partie serveur est implémentée avec PHP et PostgreSQL/PostGIS. 
+La partie client de Mapbender est basée sur Symfony2, OpenLayers, Mapproxy en utilisant les bibliothèques jQuery et jQuery UI qui fournissent de nombreux widgets. La partie serveur est implémentée avec PHP et PostgreSQL/PostGIS. 
 
 Mapbender donne complètement une nouvelle perspective à la gestion d'IDS en n'utilisant rien d'autre qu'un navigateur web classique. 
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-  :scale: 50%
+  :scale: 70%
   :alt: Application Mapbender
   :align: right
 
@@ -67,9 +67,7 @@ Caractéristiques principales
 Standards implémentés
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
-* OGC Web Map Context (WMC) 1.1.0 
+* OGC Web Map Service (WMS) 1.1.1, 1.3.0
 
 Détails
 --------------------------------------------------------------------------------

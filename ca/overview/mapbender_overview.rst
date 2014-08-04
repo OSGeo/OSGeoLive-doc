@@ -5,11 +5,11 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: ../../images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.mapbender.org
+  :target: http://www.mapbender3.org
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 90 %
@@ -24,18 +24,18 @@ Mapbender
 Geoportal Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Mapbender <http://www.mapbender.org>`_ és un projecte graduat en OSGeo. Consisteix d'un entorn per a la publicació de Geoportals, i per al registre, visualització, navegació, monitoratge i maneig de nivells d'accés segurs a serveis de Infraestructura de Dades Espacials.
+`Mapbender <http://mapbender3.org/en>`_ és un projecte graduat en OSGeo. Consisteix d'un entorn per a la publicació de Geoportals, i per al registre, visualització, navegació, monitoratge i maneig de nivells d'accés segurs a serveis de Infraestructura de Dades Espacials.
 
 Mapbender és la punta del iceberg, una mena de metacapa que proporciona un programari per facilitar l'accés als components d'una IDE (Infraestructura de Dades Espacials) que s'adhereixen als estàndards internacionals d'interoperabilitat per a serveis d'informació geogràfica.
 
 Mapbender permet als usuaris crear fàcilment navegadors web de mapes o Geoportals personalitzats a partir d'una àmplia gamma d'aplicacions o *widgets* sense cap necessitat de programació o en alguns casos molt mínima. Les aplicacions integrades amb les funcionalitats de tipus servidor proveeixen funcionalitats avançades com seguretat de tipus *proxy*, digitalització en línia a través del navegador **web** (o *browser*), *acte snapping* i molt més.
 
-El costat del client Mapbender es basa en HTML i JavaScript usant les biblioteques jQuery i jQuery UI que proporcionen gran quantitat d'aplicacions al navegador web. El costat del servidor està implementat en PHP i PostgreSQL / PostGIS. 
+El costat del client Mapbender es basa en Symfony2, OpenLayers, Mapproxy usant les biblioteques jQuery i jQuery UI que proporcionen gran quantitat d'aplicacions al navegador web. El costat del servidor està implementat en PHP. 
 
 Mapbender dóna una perspectiva totalment nova a la gestió de les IDE usant res més que un navegador web estàndard. 
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-  :scale: 50%
+  :scale: 70%
   :alt: Mapbender application
   :align: right
 
@@ -71,9 +71,7 @@ Característiques Principals
 Estàndards implementats
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.0.0, 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
-* OGC Web Map Context (WMC) 1.1.0 
+* OGC Web Map Service (WMS) 1.1.1, 1.3.0
 
 Detalls
 --------------------------------------------------------------------------------

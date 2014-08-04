@@ -32,7 +32,7 @@ Le applicazioni amministrate con Mapbender sono facili da usare, e forniscono fu
 Il software Mapbender3 si basa su Symfony2 e OpenLayers, Mapproxy e jQuery. 
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-  :scale: 50%
+  :scale: 70%
   :alt: Mapbender application
   :align: right
 
