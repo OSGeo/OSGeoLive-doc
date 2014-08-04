@@ -15,6 +15,25 @@
 Guida rapida su OpenStreetMap 
 ********************************************************************************
 
+About
+===============================
+
+.. HB comment: Il seguente paragrafo è in CC0 da learnosm.org 
+
+OpenStreetMap è una mappa gratuita a livello stradale del mondo, creata da una
+comunità sempre crescente di mappatori.
+
+Chiunque può modificare OpenStreetMap. Qui si può imparare con `LearnOSM <http://learnosm.org>`_
+vi fornisce guide passo-dopo-passo facili da capire per iniziare a contribuire ad OpenStreetMap
+e per utilizzare OpenStreetMap ed i suoi dati.
+La guida Learn OSM al link sopra mostra come navigare il sito web di OpenStreetMap
+vedere e stampare mappe, e registrarsi per un nuovo account utente. Dopo che avrete
+il vostro utente e password, potrete aggiungere il primo punto alla mappa.
+Imparate a fare campionamenti in strada e lavorare con immagini aeree.
+
+Il rimanente di questa guida rapida introduce alcuni dei software usati per modificare
+e renderizzare i dati di OSM.
+
 Programmi
 ================================================================================
 
@@ -61,69 +80,22 @@ Merkaartor
 * Homepage: http://merkaartor.be
 * Aiuto online: http://merkaartor.be/wiki/merkaartor/Documentation
 
-Gosmore
+Osmosis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Gosmore** è un client in sviluppo che serve come visualizzatore con possibilità 
-di fare ricerche basato su OpenStreetMap con il supporto per speech synthesis e 
-recuperare la posizione attuale dell'utente tramite GPS usando 
-`gpsd <http://savannah.nongnu.org/projects/gpsd>`_.
-
-* Homepage: http://wiki.openstreetmap.org/index.php/Gosmore
-* Aiuto online su wiki: http://wiki.openstreetmap.org/wiki/Gosmore#User_Interface
-* Prima di eseguire Gosmore avrete il bisogno di convertire i dati di un file `planet-*.osm`. 
-  Alcuni dati sono forniti nella directory `/usr/local/share/osm/`.
-
-Quando viene avviato Gosmore dal menu Geospatial o dalla cartella Desktop, vi verrà
-data l'opportunità di creare i dati richiesti se necessari. Potete anche importarli
-manualmente con:
+**Osmosis** è un programma molto potente per eseguire molte operazioni sui dati grezzi
+di OSM. QUesto include l'importazione ed esportazione dei dati in database, ordinamento,
+pulizia e creazione di copie dei dati. Per maggiori informazioni vedere la 
+`pagina dettaglia sull'utilizzo <http://wiki.openstreetmap.org/wiki/Osmosis#Usage>`_.
+Un semplice report sulla contribuzione degli autori può essere calcolato come segue.
+Aprire un terminale, e sulla linea di comando digitare:
 
 ::
 
-  bzip2 -dc /usr/local/share/data/osm/Nottingham_CBD.osm.bz2 | gosmore rebuild
+  osmosis --read-xml ~/data/osm/feature_city.osm.bz2 --report-entity
 
-Questo creerà un gosmore.pak ed è necessario eseguirlo una sola volta. Quindi potete
-cercare località con il dataset OSM, per esempio "Beeston Lane".
-Usate il bottone centrale e destro per impostare l'origine e la destinazione
-per il percorso più breve. Usare il bottone "O" per accedere alle opzione del
-programma, e il pulsante "3D" per ottenere una vista prospettiva utile per la
-navigazione automobilistica.
-
-
-Osmarender
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Osmarender** è un strumento per rendering basato su regole per generare immagini 
-SVG di dati OSM. Prende come input un set di dati OpenStreetMap e un file di regole.
-Restituisce un'immagine SVG che è rappresentate secondo gli stili definiti nel 
-file delle regole. In futuro potrebbe essere rimpiazzato da software tipo
-`TileMill <http://wiki.openstreetmap.org/wiki/Tilemill>`_.
-
-* Homepage: http://wiki.openstreetmap.org/wiki/Osmarender
-
-Esempio:
-
-.. note:: Richiede circa 1 GB di RAM libera e impieghera un paio di giorni per
-   creare la città completa. L'estratto di un singolo villaggio o quartiere 
-   dovrebbe essere molto più gestibile.
-   Vedere `Xapi <http://wiki.openstreetmap.org/wiki/Xapi>`_ nel wiki di OSM 
-   per dettagli su come scaricare una parte più piccola salvandola in un file ``.osm``,
-   o usare *JOSM* o *Merkaartor* per scaricare un pezzo più piccolo.
-   Un insieme più piccolo chiamato `Nottingham_CBD.osm` è stato incluso per 
-   vostra convenienza, ma comunque può richiedere un lungo tempo per essere 
-   processato.
-
-::
-
-  cp /usr/local/share/data/osm/feature_city_CBD.osm.bz2 .
-  bzip2 -d feature_city_CBD.osm.bz2
-  osmarender feature_city_CBD.osm
-
-È possibile vedere i risultati in un visualizzatore SVG come `Inkscape` o `Firefox`:
-
-::
-
-  firefox feature_city.svg
+Quindi guardate il nuovo file `entity-report.txt` nella directory principale dell'utente
+per i dettagli del report.
 
 
 osm2pgsql
@@ -135,19 +107,3 @@ per renderizzare i dati di OSM usando Mapnik, poichè Mapnik può interrogare
 PostgreSQL per ottenere dati geografici.
 
 * Homepage: http://wiki.openstreetmap.org/wiki/Osm2pgsql
-
-
-osm2poidb
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**osm2poidb** è un programma che estrae i dati dei Point of Interest (POI) da
-un estratto dei dati OpenStreetMap (.osm). I risultati sono salvati in un database
-SQLite. Una versione preprocessata delle caratteristiche estratte da OSM della città 
-sono fornite con il disco e possono essere trovate nella directory `/usr/local/share/data/osm`
-e visualizzate con il programma `SQLite database browser` nel menu Databases. Sul disco è
-usato dal software :doc:`GpsDrive <../overview/gpsdrive_overview>` per fornire una lista
-interrogabile di servizi locali. Per eseguirlo manualmente, fate:
-
-::
-
-  bzcat /usr/local/share/data/osm/feature_city.osm.bz2 | osm2poidb -o feature_city_poi.db STDIN

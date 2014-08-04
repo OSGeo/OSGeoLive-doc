@@ -1,6 +1,6 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org)
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -21,7 +21,7 @@ la lettura dei dati in tempo reale e archiviati catturati da sensori in-situ e r
 Un sensore può essere un camera su un satellite o un misuratore del livello dell'acqua
 in un fiume.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v4_0_0_GetCapabilities_json.png
   :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right
@@ -31,7 +31,7 @@ Caratteristiche
 
 * Implementa gli standard SOS 1.0.0 e 2.0.0.
 
-* Un client browser fornisce le interrogazioni di test XML per tutte le operazioni supportate.
+* Un client basato su browser offre gli strumenti per l'amministrazione e la configurazione dell'istanza del servizio. Inoltre, sono previste le query di prova per tutte le operazioni supportate.
 
 
 OGC SOS 1.0.0
@@ -97,6 +97,8 @@ Dettagli
 **Supporto della Comunità:** http://sensorweb.forum.52north.org/
 
 **Sito Web della Comunità:** http://52north.org/communities/sensorweb/
+
+**Altri progetti 52°North:** :doc:`WPS <./52nWPS_overview>` 
 
 Guida rapida
 --------------------------------------------------------------------------------
