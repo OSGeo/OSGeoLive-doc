@@ -25,7 +25,7 @@ matching, optic/radar complementarities,).
 OTB has been funded the French Space Agency (CNES) in the frame of the
 Methodological Part of the ORFEO Accompaniement Program and has been
 actively developed since 2006. It is based on the established medical
-image processing library ITK and is distributed as open source.
+image processing library ITK(v4) and is distributed as open source.
 
 Core Features
 --------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 3.20
+**Software Version:** 4.0
 
 **Supported Platforms:** Linux, Mac, Windows
 
