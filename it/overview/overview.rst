@@ -123,7 +123,7 @@ Librerie geospaziali
 
 Altri software di interesse (non disponibili nella Live)
 --------------------------------------------------------------------------------
-Disponibile solo su microsoft windows:
+Disponibile solo su Microsoft Windows:
 
 .. MapWindow is windows based (.net) and won't run on Ubuntu
 

@@ -62,6 +62,7 @@ Caratteristiche principali
 * Mappe sanitarie e analisi di dati areali
 * Regressione spaziale
 * Analisi ecologiche
+* Eccellenti capacità di elaborazione raster con facile accesso a potenti algoritmi
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -70,7 +71,7 @@ Dettagli
 
 **Licenza:** GPL
 
-**Versione del software:** 3.0.2
+**Versione del software:** 3.1.0
 
 **Piattaforme supportate:** Windows, Linux, Mac, Unix
 

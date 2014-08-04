@@ -1,7 +1,7 @@
 :Author: Gérald Fenoy
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live6.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Zoo.png
@@ -86,7 +86,7 @@ Dettagli
 
 **Licenza:** MIT x/11
 
-**Versione Software:** 1.2.0
+**Versione Software:** 1.3.0
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

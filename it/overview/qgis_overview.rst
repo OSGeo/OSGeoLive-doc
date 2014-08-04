@@ -23,7 +23,7 @@ Quantum GIS (QGIS)
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) è un client GIS Desktop user friendly ed open-source per la
+QGIS è un client GIS Desktop user friendly ed open-source per la
 gestione, visualizzazione, modifica, analisi di dati geografici
 e per la composizione di mappe per la stampa. 
 Fornisce potenti funzionalità analitiche grazie all'integrazione con :doc:`GRASS <grass_overview>`.
@@ -50,7 +50,7 @@ Caratteristiche principali
 
 * Visualizzazione facile di formati raster e vettoriali
 
-    * tabelle di database PostgreSQL/PostGIS, Oracle Spatial
+    * tabelle di database: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, SpatiaLite
     * formati vettoriali come shapefiles ESRI, MapInfo, SDTS e GML,
     * formati raster come modelli digitali di elevazione, aerofotogrammetria ed immagini landsat,
     * location e mapset GRASS,
@@ -62,12 +62,14 @@ Caratteristiche principali
     * Georeferenziatore
     * strumenti GPS per importare ed esportare dati in formato GPX, convertire altri formati GPS in GPX, caricare/scaricare dati direttamente su/da un'unità GPS
 
-* Analisi spaziale tramite i plugin fTools o GRASS
+* Analisi spaziale tramite il supporto integrato per SAGA, OTB, MMGIS, fTools e GRASS
 
     * map algebra,
     * analisi geomorfologica,
     * modellizzazione idrologica,
     * analisi di rete,
+    * lista completa di funzioni ricercabili
+    * definire ed eseguire routine di analisi riutilizzabili concatenando funzioni attraverso uno strumento di modellazione grafica,
     * e molto di più;
 
 * Pubblicare dati su internet
@@ -89,14 +91,12 @@ Dettagli
 
 **Piattaforme supportate:** Windows, Linux, Mac, Unix
 
-**Comunità di supporto:** http://qgis.org/en/community.html
+**Comunità di supporto:** http://qgis.org/en/site/forusers/support.html
 
-**Supporto commerciale:** http://qgis.org/en/commercial-support.html
+**Supporto commerciale:** http://qgis.org/en/site/forusers/commercial_support.html
 
 
 Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/qgis_quickstart>`
-
-

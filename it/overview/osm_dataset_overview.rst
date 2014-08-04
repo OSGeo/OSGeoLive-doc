@@ -56,19 +56,19 @@ Caratteristiche principali
 Set di Dati inclusi in OSGeo-Live
 --------------------------------------------------------------------------------
 
-- Nottingham.osm.bz2: Un largo estratto dell'area della grande città come file di
+- feature_city.osm.bz2: Un largo estratto dell'area della grande città come file di
   testo compresso in BZip2.
 
-- Nottingham_CBD.osm.bz2: Un sottoinsieme più piccolo del solo distretto del
+- feature_city_CBD.osm.bz2: Un sottoinsieme più piccolo del solo distretto del
   quartiere centrale.
 
-- Nottingham_poi.db: Database Sqlite con "punti di interesse" estratti dal precedente
+- feature_city_poi.db: Database Sqlite con "punti di interesse" estratti dal precedente
   estratto della grande città OSM. Contiene la localizzazione di pub, distributori,
   ristoranti, supermarket, ecc.
 
-- feature_city.osm.bz2, feature_city_CBD.osm.bz2 e feature_city_poi.db sono anche estratti della città.
-  Le guide rapide e le overview usano questi i nomi di questi file al fine di evitare
-  possibili cambiamenti delle città di esempio a seconda dei diversi rilasci.
+- I file che fanno riferimento al nome della città contengono gli stessi dati come i file
+  di cui sopra. Quickstarts e overview utilizzano i nomi di file generici in modo che
+  l'esempio di città può cambiare con ogni nuova release.
 
 I dati OSM degli elementi della città sono stati importati dentro un database PostGIS chiamato
 "osm_local" usando lo strumento osm2pgsql. Il sistema di riferimento spaziale usato per
@@ -84,7 +84,7 @@ Dettagli
 
 **Licenza:** Open Data Commons Open Database License (ODbL)
 
-**Versione dei Dati:** Live database estratto il 2013-07-13
+**Versione dei Dati:** Live database estratto il 2014-07-31
 
 **Formato dei Dati:** XML
 

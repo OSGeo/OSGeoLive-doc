@@ -2,7 +2,7 @@
 :Author: Mike Adair
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
@@ -70,43 +70,39 @@ PROJ.4
 --------------------------------------------------------------------------------
 
   **Sito Web:**  http://trac.osgeo.org/proj/
-  
+
   **Licenza:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
-  
-  **Versione Software:** 4.7.0
-  
+
+  **Versione Software:** 4.8.0
+
   **Piattaforme Supportate:** Windows, Linux, Mac
-  
+
   **Interfacce API:** C, C++, Python, Java, Ruby
-  
+
   **Supporto:** http://lists.maptools.org/mailman/listinfo/proj
 
 Proj4js
 --------------------------------------------------------------------------------
 
   **Sito Web:**  http://proj4js.org
-  
+
   **Licenza:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
-  
-  **Versione Software:** 1.1.0
-  
+
   **Piattaforme Supportate:** Windows, Linux, Mac
-  
+
   **Interfacce API:** JavaScript
-  
+
   **Supporto:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 CS-Map
 --------------------------------------------------------------------------------
 
   **Sito Web:**  http://trac.osgeo.org/csmap/
-  
+
   **Licenza:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
-  
-  **Versione Software:** 13.0
-  
+
   **Piattaforme Supportate:** Windows, Linux, Mac
-  
+
   **Interfacce API:** C, C++
 
   **Supporto:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
@@ -115,25 +111,22 @@ GeoTIFF/libgeotiff
 --------------------------------------------------------------------------------
 
   **Sito Web:**  http://trac.osgeo.org/geotiff/
-  
+
   **Licenza:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
-  
+
   **Versione Software:** 1.4.0
-  
+
   **Supporto:** http://lists.maptools.org/mailman/listinfo/geotiff
-  
+
 Proj4J
 --------------------------------------------------------------------------------
 
   **Sito Web:**  http://trac.osgeo.org/proj4j/
-  
+
   **Licenza:** `Apache License, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
-  
-  **Versione Software:** 
-  
+
   **Piattaforme Supportate:** Windows, Linux, Mac
-  
+
   **Interfacce API:** Java
-  
+
   **Supporto:** http://lists.osgeo.org/mailman/listinfo/proj4j
-  

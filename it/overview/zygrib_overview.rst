@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-zygrib.png
@@ -43,7 +43,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 3
 
-**Versione Software:** 6.1.4
+**Versione Software:** 6.2.1
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows
 
