@@ -307,7 +307,7 @@ This is only the first step on the road to using TileMill. There is a lot more g
 
 .. |HELP| image:: ../../images/screenshots/1024x768/tilemill_helpbtn.png
 
-* Learn more about cartocss languaje on `API Documentation <http://mapbox.com/carto/api/2.1.0/>`_
+* Learn more about cartocss language on `API Documentation <http://mapbox.com/carto/api/2.1.0/>`_
 
 * Learn how to run `TileMill as an Ubuntu Service <http://mapbox.com/tilemill/docs/guides/ubuntu-service/>`_
 
