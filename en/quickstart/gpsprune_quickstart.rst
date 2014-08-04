@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: ../../images/project_logos/logo-gpsprune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -34,7 +34,7 @@ Customizing the display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You can change the map with the menu option :menuselection:`Settings --> Set map background`.
 You can select one of the maps already defined, or you can add your own custom server if you
-know the URL.  You can also add a Cloudmade map if you know the style number.
+know the URL.
 
 The default colours can be changed with the menu option :menuselection:`Settings --> Set colours`.
 
