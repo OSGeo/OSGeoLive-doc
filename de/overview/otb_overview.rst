@@ -22,7 +22,7 @@ OTB stellt Werkzeuge für Future Optic und Radarbilder
 OTB wurde von der French Space Agency (CNES) im Rahmen des
 methodischen Bereichs des ORFEO Accompaniement Programms gegründet und 
 wurde aktiv seit 2006 entwickelt. Es basiert auf der bewährten medizinischen Bildprozesierungsbibliothek
-ITK und ist Open Source.
+ITK(v4) und ist Open Source.
 
 Kernfunktionen
 --------------------------------------------------------------------------------
@@ -55,7 +55,7 @@ Details
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
   für französisches Recht)
 
-**Software Version:** 3.20
+**Software Version:** 4.0
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 
