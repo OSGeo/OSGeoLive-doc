@@ -59,7 +59,7 @@ See Also:
 
  * Getting started with Lubuntu and the LXDE desktop (which is used by OSGeo-Live):
     https://help.ubuntu.com/community/Lubuntu/Documentation and
-    http://wiki.lxde.org/en/
+    http://wiki.lxde.org
  * Getting started with the Ubuntu operating system:
     `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and `extended online help <http://help.ubuntu.com/14.04/>`_
  * :doc:`virtualization_quickstart`
