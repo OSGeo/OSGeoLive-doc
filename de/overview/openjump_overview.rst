@@ -24,7 +24,7 @@ Es ist außerdem sehr gut zur schnellen Entwicklung von Prototypen mit angepasst
   :alt: project screenshots
   :align: right
 
-Kernfunktionen
+Funktionen (Kerfunktionen und Plugins*)
 --------------------------------------------------------------------------------
 
 * Datenformate
