@@ -39,11 +39,13 @@ Kernfunktionen
 
 * Virtueller Globus und Weltatlas 
 * Navigation auf einem Globus in 3D
-* Mouse-Klick zeigt Wikipedia-Artikel zum Zielort 
-* Mehrere Karten (und Planeten, Monde) zur Auswahl 
-* Sonnentag/Nacht-Overlay 
-* Entfernungen messen 
+* Kartenpräsentation (Globus, Atlas Ansicht, Straßenkarte, Satellitenkarte, Topographische Karte, Bildungskarten, andere Planeten)
+* Information Layers (Wetter, aktuelle Wolken, Tag/Nacht-Ansicht, aktuelle Satelliten, Wikipedia Artikel, Fotos, Postleitzahlen, Erdbeben)
+* Suche (Online Adresssuche, Online POI Suche)
+* Positionierung & Tracking (GPS Lokalisation, Track Export nach KML)
 * Umschalten zwischen Kartenansichten in "Weltraumperspektive" und 2D-Projektion
+* Routing & Navigation (Sprachnavigation, Online Auto Routing, Online Rad Rountingouting, Online Fußgänger Routing, Offline Routing mit optionalem Download, Schritt für Schritt Navigation)
+* Werkzeuge (Distanzmessung, Lesezeichen, Zeit-Simulation, Offline Modus)
 * `OpenStreetMap <http://www.osm.org>`_ Integration
 
 Details
@@ -53,7 +55,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 1.6.0
+**Software Version:** 1.7.97
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
