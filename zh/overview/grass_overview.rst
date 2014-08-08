@@ -49,7 +49,7 @@ GRASS GIS
 
 **版权协议：** GNU General Public License (GPL) version 2
 
-**软件版本：** 6.4.2
+**软件版本：** 6.4.4
 
 **支持平台：** GNU/Linux, Mac OSX, MS Windows
 
