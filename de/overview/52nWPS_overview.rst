@@ -1,5 +1,6 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
-:Version: osgeo-live6.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -20,8 +21,7 @@ Verarbeitungsalgorithmen, die verfügbar sind in Sextante, ArcGIS Server oder au
 Dabei können die Algorithmen einfach sein wie eine Bestimmung der unterschiedlichen Einflüsse der verschiedenen Jahreszeiten
 bis hin zu komplizierten globalen Klimaänderungsmodellen.
 
-
-.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -36,7 +36,7 @@ GIS Kernfunktionen:
 * IntersectionAlgorithm
 * AddRasterValuesAlgorithm
 * CoordinateTransformAlgorithm
-	
+    
 Backend Algorithmen stehen zur Verfügung in:
 
 * Sextante
@@ -63,13 +63,13 @@ Details
 
 **Webseite:** http://52north.org/wps
 
-**Lizenz:** GPL
+**Lizenz:** GPL 2
 
 **Software Version:** WPS |version-52nWPS|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
-**Kommerzieller Support:** http://www.52north.org
+**Kommerzieller Support:** http://52north.org
 
 
 Quickstart
