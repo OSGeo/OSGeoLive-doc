@@ -28,7 +28,6 @@ Dieser anfängliche Einsatz von Ushahidi hatte 45000 Benutzer in Kenia, und dies
 
 Kernfunktionen
 --------------------------------------------------------------------------------
-
 * Interaktive Landkarte.
 * Zeitachse.
 * Möglichkeit der Benachrichtigung durch entfernungsbasierte Warnmeldungen.
@@ -58,9 +57,9 @@ Details
 
 **Webseite:** http://www.ushahidi.com
 
-**Lizenz:** GNU General Public License (GPL) version 3
+**Lizenz:** GNU Lesser General Public License (GPL) version 3
 
-**Software Version:** 2.7 (Bamako)
+**Software Version:** 2.7.4 (Bamako)
 
 **API Schnittstellen:** PHP
 
