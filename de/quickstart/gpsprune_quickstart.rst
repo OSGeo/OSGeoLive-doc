@@ -2,7 +2,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: ../../images/project_logos/logo-gpsprune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -19,7 +19,6 @@ Um Daten zu verarbeiten, benötigen Sie eine Datei einzulesen, oder Daten aus ei
 oder Koordinaten manuell einzugeben.  Am einfachsten ladet man eine beliebige Gpx-, Kml- oder Kmzdatei mit der Menüoption
 :menuselection:`Datei --> Datei öffnen` und wählt man eine Datei aus. Eine geeignete GPX-Datei mit einigen Tracks finden Sie unter :file:`~/data/vector/R/test_trk2.gpx`.
 
-
 Jetzt sehen Sie den Track blau aufgezeichnet, und Wegpunkte (falls vorhanden) schwarz markiert.
 Falls eine Netzwerkverbindung vorhanden ist, empfiehlt es sich die Karten einzuschalten mit dem Globus Ikon oben
 oder mit der Menüoption :menuselection:`Ansicht --> Karte zeigen`.
@@ -33,7 +32,6 @@ Anpassen des Ansichts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Andere Kartendarstellungen sind unter der Menüoption :menuselection:`Einstellungen --> Karten Hintergrund setzen`.
 Verschiedene Karten sind vordefinitert, oder Sie können einen anderen Server hinzufügen falls Sie die URL kennen.
-Sie können auch eine Cloudmade Karte hinzufügen in dem Sie die Stilnummer eingeben.
 
 Die Farben der Datendarstellung können mit der Menüoption :menuselection:`Einstellungen --> Farben einstellen`
 angepasst werden.
