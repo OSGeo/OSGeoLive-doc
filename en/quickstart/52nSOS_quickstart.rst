@@ -1,4 +1,4 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
 :Reviewer: 
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -9,16 +9,19 @@
   :align: right
   :target: http://52north.org/sos
   
-********************************************************************************
+*******************************************************************************
 52°North SOS Quickstart 
-********************************************************************************
+*******************************************************************************
 
-The 52°North SOS is a web service, that allows you to provide and collect spatial sensor data (including metadata and measurements/observations).
+The 52°North SOS is a web service, that allows to provide interoperable access 
+to (spatial) observation data and associated metadata.
 
 This Quick Start describes how to:
 
   * Query the 52°North SOS Capabilities to determine what queries it supports.
   * Query details about an Observation from the SOS.
+  * Use a lightweight visualisation tool delivered together with the SOS to 
+    explore the available data.
 
 .. contents:: Contents
   
@@ -27,7 +30,8 @@ Getting Started
 
 1. Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS.
    
-2. This will open the 52°North SOS client welcome page in firefox at http://localhost:8080/52nSOS/ (see Fig. 1).
+2. This will open the 52°North SOS client welcome page in firefox at 
+   http://localhost:8080/52nSOS/ (see Fig. 1).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_start.png
   :scale: 100 %
@@ -37,9 +41,10 @@ Getting Started
 **Fig. 1**: 52°North SOS client - welcome page
 
 3. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_,
-   (see Fiq. 2) you can craft appropriate queries. Again, this is made easier by selecting
-   sample queries from the test client pull down list. Using the information from the
-   capabilities, you can adjust the available example queries.
+   (see Fiq. 2) you can craft appropriate queries. Again, this is made easier 
+   by selecting sample queries from the test client pull down list. Using the 
+   information from the capabilities, you can adjust the available example 
+   queries.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
@@ -48,10 +53,11 @@ Getting Started
   
 **Fig. 2**: 52°North SOS client - test client with GetCapabilities request
 
-4. To get for each time series the available observation data within the time interval from 
-   2010-01-01T00:00:00.000+01:00 to 2010-01-01T01:59:00.000+01:00 insert the following request after
-   selecting service "SOS" --> version "2.0.0" --> binding "/soap" --> operation "GetObservation" in
-   the `test client <http://localhost:8080/52nSOS/client>`_ in the field request:
+4. To get for each time series the available observation data within the time 
+   interval from 2010-01-01T00:00:00.000+01:00 to 2010-01-01T01:59:00.000+01:00
+   , insert the following request after selecting service "SOS" --> version 
+   "2.0.0" --> binding "/soap" --> operation "GetObservation" in the `test 
+   client <http://localhost:8080/52nSOS/client>`_ in the field request:
    
 ::
 
@@ -83,11 +89,12 @@ Getting Started
 **Listing 1:** Request of observations
 
 Things to Try
-================================================================================
+===============================================================================
 
 * Try some of the other example queries from the pull down list.
 * Try tweaking some of these queries to get different information.
-* Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ using username "user" and password "user".
+* Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ using
+   username "user" and password "user".
 * Try the `View Client <http://localhost:8080/52nSOS/viewclient>`_ (see Fiq. 4).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
@@ -95,24 +102,28 @@ Things to Try
   :alt: screenshot of 52°North SOS client - view client with time series data
   :align: center
   
-**Fig. 3**: 52°North SOS client - view client with tiem series data
+**Fig. 3**: 52°North SOS client - view client with time series data
 
 What Next?
 ================================================================================
 
-To learn more about 52°North SOS and/or the 52°North Sensor Web Community, potential starting points are:
+To learn more about 52°North SOS and/or the 52°North Sensor Web Community, 
+potential starting points are:
 
 * 52°North :doc:`SOS overview <../overview/52nSOS_overview>`,
 * 52°North Sensor Web mailing list: swe@52north.org, 
 * 52°North `Sensor Web community forum <http://sensorweb.forum.52north.org/>`_, 
 * 52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_,
-* 52°North `SOS website <http://52north.org/communities/sensorweb/sos/>`_, or 
-* The website of the `52°North Sensor Web Community <http://52north.org/communities/sensorweb/>`_.
+* 52°North `SOS Web site <http://52north.org/communities/sensorweb/sos/>`_, or 
+* The website of the `52°North Sensor Web Community 
+  <http://52north.org/communities/sensorweb/>`_.
 
-The development of this version of the 52°North SOS was supported by different projects, organizations, and persons. 
-More details can be found in the `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
+The development of this version of the 52°North SOS was supported by different 
+projects, organizations, and persons. More details can be found in the 
+`52°North SOS client <http://localhost:8080/52nSOS/index>`_.
 
-When the SOS is not available, please check if the tomcat servlet engine is running using the following command:
+When the SOS is not available, please check if the tomcat servlet engine is 
+running using the following command:
 
 ::
 

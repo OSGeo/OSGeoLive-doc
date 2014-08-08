@@ -1,4 +1,4 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
+﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
 :Reviewer: 
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -9,22 +9,25 @@
   :target: http://52north.org/sos
   :align: right
 
-********************************************************************************
+*******************************************************************************
 52°North SOS Quickstart 
-********************************************************************************
+*******************************************************************************
 
 Der 52°North SOS ermöglicht den Zugriff und die Bereitstellung von raumbezogenen
 Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
 Dieses Quickstart-Dokument umfasst:
 
-  * Eine Anfrage eines 52°North SOS Capabilities-Dokumentes, um festzustellen, welche Anfragen unterstützt werden.
-  * Eine Detail-Anfrage zu Messdaten des SOS.
+  * Beispiel eines Capabilities-Dokumentes des 52°North SOS, um festzustellen, 
+    welche Operationen/Abfrageparameter unterstützt werden.
+  * Beispiel-Anfrage um Messdaten des SOS abzurufen.
+  * Informationen zur Datenvisualisierung in einem einfachen, mit dem SOS 
+    mitgelieferten Viewer.
 
 .. contents:: Inhalt
 
 Erste Schritte
-================================================================================
+===============================================================================
 
 1. Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` auf.
 
@@ -40,8 +43,8 @@ Erste Schritte
 
 3. Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des
    52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_.
-   Mit Hilfe der Inhalte des Capabilities-Dokuments (siehe Abb. 2) können die Beispielanfragen
-   aus der Beispielliste individuell angepasst werden.
+   Mit Hilfe der Inhalte des Capabilities-Dokuments (siehe Abb. 2) können die 
+   Beispielanfragen aus der Beispielliste individuell angepasst werden.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
@@ -50,9 +53,11 @@ Erste Schritte
   
 **Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
 
-4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von 1.1.2010 00:00 bis 1:59 in der Zeitzone +1 abzufragen,
-   dann muss im `Test Client <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" --> 
-   Version "2.0.0" --> Binding "/soap" --> Operation "GetObservation" folgende Abfrage im Feld "Request" stehen:
+4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von 
+   1.1.2010 00:00 bis 1:59 in der Zeitzone +1 abzufragen, muss im `Test Client 
+   <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" --> 
+   Version "2.0.0" --> Binding "/soap" --> Operation "GetObservation" folgende 
+   Abfrage im Feld "Request" stehen:
    
 ::
 
@@ -84,11 +89,12 @@ Erste Schritte
 **Listing 1:** Abfrage für Messdaten
 
 Ausprobieren
-================================================================================
+===============================================================================
 
 * Versuchen Sie weitere Abfragen der Test-Anwendung.
-* Passen Sie die Beispielanfragen an um andere Daten zu bekommen.
-* Lernen Sie den `SOS-Administrator <http://localhost:8080/52nSOS/admin/index>`_ kennen. Die Zugangsdaten lauten: "user" mit Passwort "user".
+* Passen Sie die Beispielanfragen an, um andere Daten zu erhalten
+* Lernen Sie den `SOS-Administrator <http://localhost:8080/52nSOS/admin/index>`_ kennen.
+   Die Zugangsdaten lauten: "user" mit Passwort "user".
 * Nutzen Sie den `View Client <http://localhost:8080/52nSOS/viewclient>`_ (siehe Abb. 3).
 
 
@@ -100,9 +106,10 @@ Ausprobieren
 **Abb. 3**: 52°North SOS Anwendung - View-Client mit Zeitreihendaten
 
 Weitere Informationen
-================================================================================
+===============================================================================
 
-Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie über folgende Wege:
+Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie über
+ folgende Wege:
 
 * 52°North `SOS-Überblick <../overview/52nSOS_overview.html>`_,
 * 52°North Sensor-Web-E-Mail-Liste: swe@52north.org, 
@@ -110,10 +117,12 @@ Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie ü
 * 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, oder 
 * Website der `52°North Sensor-Web-Community <http://52north.org/communities/sensorweb/>`_.
 
-Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene Projekte, Organisationen und Personen unterstützt. 
-Mehr Informationen finden Sie in der `52°North SOS Anwendung <http://localhost:8080/52nSOS/index>`_.
+Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene 
+Projekte, Organisationen und Personen unterstützt. Mehr Informationen 
+finden Sie in der `52°North SOS Anwendung <http://localhost:8080/52nSOS/index>`_.
 
-Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl, ob der Tomcat Web Service-Container läuft:
+Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl,
+ ob der Tomcat Web Service-Container läuft:
 
 ::
 
