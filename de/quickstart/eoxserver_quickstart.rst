@@ -60,7 +60,7 @@ zur Verfügung wie die `online Demo <https://eoxserver.org/demo_stable/>`_
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
-  :alt: Stat der EOxServer Demonstration
+  :alt: Start der EOxServer Demonstration
 
 Web Klient
 ~~~~~~~~~~
