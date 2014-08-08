@@ -41,6 +41,7 @@ Kernfunktionen
 * Disease-Mapping und räumliche Datenanalyse
 * Räumliche Rückgänge
 * Ökologische Analysen
+* Rasterprozessierungsalgorithmen
 
 Details
 --------------------------------------------------------------------------------
@@ -49,7 +50,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 3.0.2
+**Software Version:** 3.1.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
