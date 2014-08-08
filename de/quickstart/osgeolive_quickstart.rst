@@ -53,10 +53,11 @@ Lehnen Sie sich zurück, während das System startet.
 Siehe auch:
 --------------------------------------------------------------------------------
 
- *  Einstieg in Xfce Desktop: (wird von OSGeo-Live verwendet):
-    http://docs.xfce.org/xfce/getting-started
+ *  Einstieg in Lubuntu and the LXDE desktop (wird von OSGeo-Live verwendet):
+    https://help.ubuntu.com/community/Lubuntu/Documentation and
+    http://wiki.lxde.org
  * Einstieg in das Ubuntu Betriebssystem:
-    `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_12.04.pdf>`_ und `Erweiterte Online Hilfe <http://help.ubuntu.com/12.04/>`_
+    `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ und `Erweiterte Online Hilfe <http://help.ubuntu.com/14.04/>`_
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
