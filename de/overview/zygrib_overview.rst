@@ -30,7 +30,7 @@ Kernfunktionen
 * Automatischer Download von IAC (fleetcode) Daten
 * Abspielen von 8-tägigen Vorhersageanimationen
 * Enturf von personalisierten lokalen Wetterkarten (welweit) oder Darstellung von detaillierten quantitativen Vorhersagen für einen einzelnen Standort
-* Kartierung von Daten zu Wind, Temperatur, Feuchtigkeit, Regen, Schnee, Wolkenbedeckung, Taupunkt und Höhe.
+* Kartierung von Daten zu Wind, Temperatur, Feuchtigkeit, Regen, Schnee, Wolkenbedeckung, Taupunkt, Wellenhöhe und Höhe.
 
 Details
 --------------------------------------------------------------------------------
