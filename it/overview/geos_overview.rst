@@ -56,7 +56,7 @@ Dettagli
 
 **Licenza:** LGPL
 
-**Versione Software:** 3.3.2
+**Versione Software:** 3.4.2
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 

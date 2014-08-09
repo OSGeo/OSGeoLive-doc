@@ -51,7 +51,7 @@ Detalls
 
 **Llicència:** LGPL
 
-**Versió de programari:** 3.3.2
+**Versió de programari:** 3.4.2
 
 **Sistemes operatius:** Windows, Linux, Mac
 

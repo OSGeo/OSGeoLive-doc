@@ -56,7 +56,7 @@ Detalls
 
 **Llicències:** LGPL (GNU Lesser General Public Licence)
 
-**Versió del programari:** 2.0.0
+**Versió del programari:** 2.2.0
 
 **Plataformes suportades:** Windows, Linux, Mac
 

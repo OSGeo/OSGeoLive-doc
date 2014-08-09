@@ -57,7 +57,7 @@ Szczegóły
 
 **Licencja:** LGPL
 
-**Wersja programu:** 3.3.2
+**Wersja programu:** 3.4.2
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

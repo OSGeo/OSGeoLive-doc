@@ -40,7 +40,7 @@ Mapnik
 
 **版权:** LGPL (GNU Lesser General Public Licence)
 
-**软件版本:** 0.7.1
+**软件版本:** 2.2.0
 
 **支持平台:** Windows, Linux, Mac
 

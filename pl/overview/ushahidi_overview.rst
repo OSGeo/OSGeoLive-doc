@@ -68,7 +68,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 3
 
-**Wersja programu:** 2.1
+**Wersja programu:** 2.7.4 (Bamako)
 
 **Interfejsy API:** PHP
 

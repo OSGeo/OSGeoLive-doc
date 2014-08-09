@@ -59,7 +59,7 @@ Ushahidi
 
 **开源协议：** GNU General Public License (GPL) version 3
 
-**软件版本：** 2.1
+**软件版本：** 2.7.4 (Bamako)
 
 **API 接口：** PHP
 

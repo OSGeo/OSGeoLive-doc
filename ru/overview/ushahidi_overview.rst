@@ -58,7 +58,7 @@ Ushahidi на языке суахили означает "свидетельск
 
 **Лицензия:** GNU General Public License (GPL) version 3
 
-**Версия ПО:** 2.1
+**Версия ПО:** 2.7.4 (Bamako)
 
 **Интерфейсы API:** PHP
 

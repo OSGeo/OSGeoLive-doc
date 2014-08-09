@@ -53,7 +53,7 @@ Szczegóły
 
 **Licencja:** Mniejsza Powszechna Licencja Publiczna GNU (LGPL)
 
-**Wersja programu:** 2.0.0
+**Wersja programu:** 2.2.0
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

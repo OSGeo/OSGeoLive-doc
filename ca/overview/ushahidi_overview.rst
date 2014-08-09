@@ -59,7 +59,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 3
 
-**Versió de programari:** 2.1
+**Versió de programari:** 2.7.4 (Bamako)
 
 **Intefície de l'API:** PHP
 

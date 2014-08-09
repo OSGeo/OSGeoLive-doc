@@ -44,7 +44,7 @@ Mapnik
 
 **Άδεια:** LGPL (GNU Lesser General Public Licence)
 
-**Έκδοση Λογισμικού:** 2.0.0
+**Έκδοση Λογισμικού:** 2.2.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

@@ -43,7 +43,7 @@ Detalles
 
 **Licencia:** LGPL (GNU Lesser General Public Licence)
 
-**Versión Software:** 2.0.0
+**Versión Software:** 2.2.0
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
