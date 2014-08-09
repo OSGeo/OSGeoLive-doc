@@ -78,7 +78,7 @@ Szczegóły
 
 **Licencja:** GNU Mniejsza Powszechna Licencja Publiczna (LGPL) 
 
-**Wersja programu:** 2.4.0
+**Wersja programu:** 2.5.0
 
 **Systemy operacyjne:** Linux, Mac, Windows
 

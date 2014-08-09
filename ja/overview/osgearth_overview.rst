@@ -70,7 +70,7 @@ osgEarthでは地形をレンダリングする以上のことができます:
 
 **ライセンス:** GNU Lesser General Public License (LGPL) 
 
-**バージョン:** 2.0
+**バージョン:** 2.5.0
 
 **動作環境:** Linux, Mac, Windows
 

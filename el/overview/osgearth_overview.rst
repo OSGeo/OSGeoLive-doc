@@ -71,7 +71,7 @@ osgEarth
 
 **Άδεια:** GNU Lesser General Public License (LGPL) 
 
-**Έκδοση Λογισμικού:** 2.0
+**Έκδοση Λογισμικού:** 2.5.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 

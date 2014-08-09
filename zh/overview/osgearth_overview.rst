@@ -72,7 +72,7 @@ osgEarth 可以渲染：
 
 **开源协议：** GNU Lesser General Public License (LGPL) 
 
-**软件版本：** 2.0
+**软件版本：** 2.5.0
 
 **平台支持：** GNU/Linux, Mac, Windows
 

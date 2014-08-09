@@ -78,7 +78,7 @@ Detalls
 
 **Llicència:** GNU Lesser General Public License (LGPL) 
 
-**Versió de Programari:** 2.0
+**Versió de Programari:** 2.5.0
 
 **Plataformes suportades:** Linux, Mac, Windows
 
