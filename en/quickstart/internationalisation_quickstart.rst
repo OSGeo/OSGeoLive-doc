@@ -15,7 +15,7 @@ Switching Language
 Many common languages are included on OSGeo-Live. To switch languages:
 
    #. Log out
-   #. Select another language from the bottom panel menu.
+   #. Select another language from the top panel menu.
    #. Select user="user", password="user"
    #. Repeat the process if wish to change languages again.
 
