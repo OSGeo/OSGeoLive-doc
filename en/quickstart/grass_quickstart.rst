@@ -40,7 +40,7 @@ This will launch GRASS into the `updated GUI written in wxPython <../../grass/wx
  a bit to get the room (hold down the Alt key and left-click drag the
  window to move it).
 
-A simplified version of the rich North Carolina (nc_basic_spm) sample dataset
+.. A simplified version of the rich North Carolina (nc_basic_spm) sample dataset
 has also been provided on the Disc, if you choose to use it you will have 
 to make some slight adjustments as the map names given in this quick tutorial 
 were written for the Spearfish dataset. Regardless of the dataset you choose
