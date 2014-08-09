@@ -47,6 +47,10 @@ were written for the Spearfish dataset. Regardless of the dataset you choose
 it is recommended that you always use a `user` mapset for your everyday work
 instead of the special PERMANENT mapset.
 
+* If you would like to try out a preview of the upcoming GRASS 7.0 release,
+  open a Terminal from the `Accessories` menu and type "`install_grass7` at
+  the prompt. You will need a network connection able to download a couple
+  hundred megabytes for the program and sample dataset.
 
 Displaying maps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
