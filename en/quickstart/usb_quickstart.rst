@@ -39,7 +39,7 @@ Insert the USB flash drive into your computer.
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Select :menuselection:`Applications --> System --> Startup Disk Creator`, or search for `Startup Disk Creator` from the Unity desktop.
+Select :menuselection:`System Tools --> Startup Disk Creator`, or search for `Startup Disk Creator` from the Unity desktop.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
