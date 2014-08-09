@@ -56,7 +56,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión del software:** 1.2.1
+**Versión del software:** 1.4.2
 
 **Plataformas soportadas:** GNU/Linux, MS Windows
 

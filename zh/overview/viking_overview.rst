@@ -49,7 +49,7 @@ GPS 数据管理与显示
 
 **开源协议：** GNU General Public License (GPL) version 2
 
-**软件版本：** 1.2.1
+**软件版本：** 1.4.2
 
 **平台支持：** GNU/Linux, MS Windows
 
