@@ -25,18 +25,19 @@ Many common languages are included on OSGeo-Live. To switch languages:
 
 The system menus and many of the applications will now appear in the language chosen. If a specific program continues to display in English, then the program doesn't have a translation available - please consider volunteering to write a translation. Contact the program of interest directly for more information.
 
-For additional languages see :menuselection:`Applications --> System --> Language Support` (Requires an internet connection).
+For additional languages see :menuselection:`Preferences --> Language Support` from
+the main menu. (Requires an internet connection).
 
 Keyboard Support
 --------------------------------------------------------------------------------
-International keyboard support is installed, but you will need to configure the system for your specific keyboard. 
-To change settings open :menuselection:`Applications --> Settings --> Settings Manager` in the menu and double-click on :guilabel:`Keyboard`
-in the following dialog. Your password will be requested to allow configuration update, type "user" for the current user "user".
+International keyboard support is installed, but you will need to configure the
+system for your specific keyboard. 
+To change settings open :menuselection:`Preferences --> Keyboard Input Methods` from
+the main menu and click on the :guilabel:`Input Method` tab. Next click
+on :guilabel:`Customize active input methods` and then on
+the :guilabel:`Select an input method` button.
+Now click the :guilabel:`Add` button on the right to add an additional layout
+and then :guilabel:`Close` the IBus Preferences window.
 
-   #. Choose :guilabel:`Layout` tab in the Keyboard dialog
-   #. Disable the option :guilabel:`Use system defaults`
-   #. Click on button :guilabel:`Add` to add an additional layout
-   #. Choose the preferred layout and
-   #. Select it in the Keyboard dialog
-   #. Go back to the main settings page (:guilabel:`Overview`)
-   #. :guilabel:`Close` the Settings Dialog and log out to apply
+You can now click on the keyboard icon on the lower desktop menu bar to select
+the active keyboard layout.

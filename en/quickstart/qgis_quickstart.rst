@@ -269,7 +269,7 @@ Importing OpenStreetMap data
 .. TBD: Cameron comment
   Need a sentence here introducing what the OpenStreetMap tools provide.
 
-#. Open the Terminal Emulator from the Xubutu :menuselection:`Applications --> Accessories` menu.
+#. Open the LX Terminal Emulator from the main :menuselection:`Accessories` menu.
 
    * Cut and paste the following commands into the Terminal window to create
      a working copy of the OSM data in the home directory:

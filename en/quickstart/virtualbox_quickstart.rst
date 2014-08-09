@@ -121,9 +121,9 @@ Mark "virtualbox-ose-guest-utils" for installation.
 Apply the changes.
 
 Reboot the virtual machine and the display settings should match your host
-computer's display settings. These can be changed via:
+computer's display settings. These can be changed from the main menu via:
 
-Select: :menuselection:`LXDE Menu --> Preferences --> Monitor Settings`
+Select: :menuselection:`Preferences --> Monitor Settings` or `ARandR`
 
 See Also:
 --------------------------------------------------------------------------------
