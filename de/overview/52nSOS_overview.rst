@@ -31,11 +31,11 @@ Funktionalität
 
 * **Test-Anwendung**: Der SOS wird zusammen mit einem Browser-basierten 
   Anwendung ausgeliefert. Diese ermöglicht die Administration und Konfiguration
-   der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen; 
+  der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen; 
   entsprechende Beispiel-Anfragen sind enthalten.
 * Der vorliegende 52°North SOS implementiert die aktuelle Spezifikationsversion
-   (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die 
-   beiden Standard-Versionen die jeweils implementierten Operationen aufgelistet.
+  (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die 
+  beiden Standard-Versionen die jeweils implementierten Operationen aufgelistet.
 
 OGC SOS 2.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,7 +67,7 @@ OGC SOS 2.0.0
 * GetResultTemplate, zum Abfragen von einer Messdaten-Struktur-Vorlage.
 * GetResult, zum Abfragen von Messdaten mit reduzierter Metadatenmenge (die 
   Metadaten sind in diesem Fall in der Antwort auf die GetResultTemplate-Anfrage
-   enthalten).
+  enthalten).
 
 **Operationen des “SOS Transactional Profiles”**:
 
@@ -77,7 +77,7 @@ OGC SOS 2.0.0
   registrierte Sensoren geliefert werden.
 * UpdateSensorDescription, zum Aktualisieren von bestehenden Sensorbeschreibungen.
 * DeleteSensor, zum Entfernen von Sensoren inkl. aller Messdaten und zugehörigen
-   Datenstrukturen (z.B. Offering).
+  Datenstrukturen (z.B. Offering).
 
 **Operation “Data Availability”**:
 
