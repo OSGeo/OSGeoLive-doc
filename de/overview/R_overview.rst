@@ -50,7 +50,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 3.1.0
+**Software Version:** 3.1.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 

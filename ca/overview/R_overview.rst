@@ -49,7 +49,7 @@ Detalls
 
 **Llicència:** GPL
 
-**Versió del Programari:** 2.14.1
+**Versió del Programari:** 3.1.1
 
 **Plataformes suportades:** Windows, Linux, Mac, Unix
 
