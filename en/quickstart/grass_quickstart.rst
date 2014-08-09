@@ -41,11 +41,11 @@ This will launch GRASS into the `updated GUI written in wxPython <../../grass/wx
  window to move it).
 
 .. A simplified version of the rich North Carolina (nc_basic_spm) sample dataset
-has also been provided on the Disc, if you choose to use it you will have 
-to make some slight adjustments as the map names given in this quick tutorial 
-were written for the Spearfish dataset. Regardless of the dataset you choose
-it is recommended that you always use a `user` mapset for your everyday work
-instead of the special PERMANENT mapset.
+ has also been provided on the Disc, if you choose to use it you will have 
+ to make some slight adjustments as the map names given in this quick tutorial 
+ were written for the Spearfish dataset. Regardless of the dataset you choose
+ it is recommended that you always use a `user` mapset for your everyday work
+ instead of the special PERMANENT mapset.
 
 * If you would like to try out a preview of the upcoming GRASS 7.0 release,
   open a Terminal from the `Accessories` menu and type "`install_grass7` at
