@@ -46,7 +46,7 @@ PC上の地球儀に `OpenStreetMaps <http://www.osm.org>`_ を含む様々な�
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 2.1
 
-**バージョン:** 0.9.5
+**バージョン:** 1.7.97
 
 **対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 

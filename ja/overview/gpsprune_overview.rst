@@ -48,7 +48,7 @@ Mac OSX, Windows, Linux で動作し、多くの言語に対応しています�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 13.1
+**バージョン:** 15.1
 
 **動作プラットフォーム:** GNU/Linux, Mac OSX, Windows
 

@@ -52,7 +52,7 @@ GpsPrune
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 13.1
+**Έκδοση Λογισμικού:** 15.1
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, Windows
 

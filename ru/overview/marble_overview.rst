@@ -48,7 +48,7 @@ Google Earth. Помимо выбора любого количества кар
 
 **Лицензия:** `LGPL версия 2.1 <http://www.gnu.org/copyleft/lesser.html>`_
 
-**Версия ПО:** 1.3.4
+**Версия ПО:** 1.7.97
 
 **Поддерживаемые платформы:** GNU/Linux, Mac OS X, MS Windows
 

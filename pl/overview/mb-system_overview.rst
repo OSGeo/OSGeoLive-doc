@@ -64,7 +64,7 @@ Szczegóły
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 3
 
 
-**Wersja programu:** 5.3.1982
+**Wersja programu:** 5.4.2191
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows (with Cygwin)
 

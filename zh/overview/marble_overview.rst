@@ -46,7 +46,7 @@ Google Earth 的开源 KDE 教育项目计划。除了可以用于查看各种�
 
 **版权协议：** GNU Lesser General Public License (LGPL) version 2.1
 
-**软件版本：** 1.0.2
+**软件版本：** 1.7.97
 
 **支持平台：** GNU/Linux, Mac OSX, MS Windows
 

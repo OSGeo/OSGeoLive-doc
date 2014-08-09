@@ -55,7 +55,7 @@ MB-System
 
 **Άδεια:** GNU General Public License (GPL) version 3
 
-**Έκδοση Λογισμικού:** 5.4.2128
+**Έκδοση Λογισμικού:** 5.4.2191
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows (με Cygwin)
 

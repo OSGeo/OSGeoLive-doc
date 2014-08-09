@@ -45,7 +45,7 @@ GPS 航迹编辑器
 
 **开源协议：** GNU General Public License (GPL) version 2
 
-**软件版本：** 13.1
+**软件版本：** 15.1
 
 **平台支持：** GNU/Linux, Mac OSX, Windows
 

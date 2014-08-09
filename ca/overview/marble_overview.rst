@@ -54,7 +54,7 @@ Detalls
 
 **Llicència:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Versió de programari:** 1.3.4
+**Versió de programari:** 1.7.97
 
 **Sistemes operatius:** GNU/Linux, Mac OSX, MS Windows
 

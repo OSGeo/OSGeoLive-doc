@@ -51,7 +51,7 @@ GPS ナビソフト
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 2.11
+**バージョン:** 2.12
 
 **サポートするプラットフォーム:** GNU/Linux, Mac OSX
 

@@ -44,7 +44,7 @@ GpsPrune работает на Mac OS X, Windows и Linux, имеет подде
 
 **Лицензия:** `GPL версия 2 <http://www.gnu.org/licenses/gpl-2.0.html>`_
 
-**Версия ПО:** 13.1
+**Версия ПО:** 15.1
 
 **Поддерживаемые платформы:** GNU/Linux, Mac OS X, Windows
 

@@ -60,7 +60,7 @@ OpenCPN поддерживает:
 
 **Лицензия:** GNU General Public License (GPL) version 2
 
-**Версия ПО:** 2.5.0
+**Версия ПО:** 3.2.2
 
 **Поддерживаемые платформы:** GNU/Linux, Mac OSX, MS Windows
 

@@ -57,7 +57,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 3
 
-**Versión del software:** 5.3.1982
+**Versión del software:** 5.4.2191
 
 **Platformas soportadas:** GNU/Linux, Mac OSX, MS Windows (con Cygwin)
 

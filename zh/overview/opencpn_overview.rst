@@ -50,7 +50,7 @@ Open CPN 能够支持：
 
 **开源协议：** GNU General Public License (GPL) version 2
 
-**软件版本：** 2.5.0
+**软件版本：** 3.2.2
 
 **支持平台：** GNU/Linux, Mac OSX, MS Windows
 

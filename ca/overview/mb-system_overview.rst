@@ -58,7 +58,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 3
 
-**Versió de programari:** 5.3.1917
+**Versió de programari:** 5.4.2191
 
 **Sistemes operatius:** GNU/Linux, Mac OSX, MS Windows (with Cygwin)
 

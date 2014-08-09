@@ -56,7 +56,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 13.1
+**Wersja programu:** 15.1
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, Windows
 
