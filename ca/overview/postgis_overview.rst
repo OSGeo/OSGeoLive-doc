@@ -123,7 +123,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 2
 
-**Versió de programari:** 2.0
+**Versió de programari:** 2.1.3
 
 **Plataformes suportades:** Windows, Linux, Mac
 

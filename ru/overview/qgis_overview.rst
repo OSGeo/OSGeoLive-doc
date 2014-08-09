@@ -88,7 +88,7 @@ QGIS работает в Linux, Unix, Mac OSX и Windows, поддерживае
 
 **Лицензия:** `GPL <http://www.gnu.org/licenses/gpl.html>`_
 
-**Версия ПО:** 1.8.0
+**Версия ПО:** 2.4.0
 
 **Поддерживаемые платформы:** Windows, Linux, Mac, Unix
 

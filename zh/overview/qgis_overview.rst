@@ -80,7 +80,7 @@ Quantum GIS (QGIS)是一个用户界面友好、开源代码的GIS客户端程�
 
 **版权:** GPL
 
-**软件版本:** 1.7.3
+**软件版本:** 2.4.0
 
 **支持平台:** Windows, Linux, Mac, Unix
 

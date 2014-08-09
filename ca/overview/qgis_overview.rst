@@ -82,7 +82,7 @@ Detalls
 
 **Llicència:** GPL
 
-**Versió de programari:** 1.8.0
+**Versió de programari:** 2.4.0
 
 **Sistemes operatius:** Windows, Linux, Mac, Unix
 

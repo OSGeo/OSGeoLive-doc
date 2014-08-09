@@ -84,7 +84,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL)
 
-**Wersja programu:** 1.8.0
+**Wersja programu:** 2.4.0
 
 **Systemy operacyjne:** Windows, Linux, Mac, Unix
 

@@ -40,7 +40,7 @@ zyGrib
 
 **开源协议：** GNU General Public License (GPL) version 3
 
-**软件版本：** 6.1.2
+**软件版本：** 6.2.1
 
 **平台支持：** GNU/Linux, Mac OSX, MS Windows
 

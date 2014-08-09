@@ -79,7 +79,7 @@ QGIS는 GRASS와 통합하여 강력한 분석 기능을 포함하고 있습니�
 
 **Licence:** GPL
 
-**Software Version:** 1.8.0
+**Software Version:** 2.4.0
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 

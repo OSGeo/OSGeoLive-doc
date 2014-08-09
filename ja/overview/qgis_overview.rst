@@ -83,7 +83,7 @@ Linux，Unix，Mac OSX，Windowsで動作し，多くのベクタ，ラスタ，
 
 **ライセンス：** GPL
 
-**バージョン：** 1.8.0
+**バージョン：** 2.4.0
 
 **対応プラットフォーム：** Windows, Linux, Mac, Unix
 
