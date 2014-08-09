@@ -66,13 +66,13 @@ Dettagli
 
 **Versioni dei Software:**
 
-* JOSM: L'ultimo snapshot stabile (svn r6891)
+* JOSM: L'ultimo snapshot stabile (svn r7347)
 
-* Merkaartor: 0.17.2
+* Merkaartor: 1.18.1
 
 * Osmosis: 0.40.1
 
-* osm2pgsql: SVN version 0.81.0
+* osm2pgsql: 0.85.0
 
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows

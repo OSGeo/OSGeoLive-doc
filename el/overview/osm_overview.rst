@@ -59,17 +59,17 @@ JOSM περιλαμβάνονται.
 
 **Εκδόσεις Λογισμικού:**
 
-* JOSM: Τελευταία δοκιμαστική (svn r6060)
+* JOSM: Τελευταία δοκιμαστική (svn r7347)
 
-* Merkaartor: 0.17.2
+* Merkaartor: 1.18.1
 
-* Gosmore: 2010/07/11
 
-* Osmarender: SVN μέσα του 2011
+
+
 
 * Osmosis: 0.40.1
 
-* osm2pgsql: SVN version 0.81.0
+* osm2pgsql: 0.85.0
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 

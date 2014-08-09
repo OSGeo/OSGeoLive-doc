@@ -58,23 +58,23 @@ Détails
 
 * Merkaartor: License GNU General Public (GPL) version 2
 
-* Gosmore: Public Domain et GPLv2
+
 
 .. <!-- see /usr/share/doc/gosmore/copyright -->
 
-* Osmarender: License GNU General Public (GPL) version 2
+
 
 **Versions des logiciels:**
 
-* JOSM: Dernière version stable dite "snapshot" (svn r5697)
+* JOSM: Dernière version stable dite "snapshot" (svn r7347)
 
-* Merkaartor: 0.17.2
+* Merkaartor: 1.18.1
 
-* Gosmore: 2010/07/11
 
-* Osmarender: SVN mid-2011
 
-* osm2pgsql: 0.69 (svn r22215)
+
+
+* osm2pgsql: 0.85.0
 
 **Plates-formes supportées:** GNU/Linux, Mac OSX, MS Windows
 

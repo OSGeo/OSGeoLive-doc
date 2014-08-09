@@ -51,23 +51,23 @@ OpenStreetMap
 
 * Merkaartor: GPL версия 2 
 
-* Gosmore: Public Domain и GPL версия 2
+
 
 .. <!-- see /usr/share/doc/gosmore/copyright -->
 
-* Osmarender: GPL версия 2
+
 
 **Версии ПО:**
 
-* JOSM: Последняя стабильная версия (svn r5697)
+* JOSM: Последняя стабильная версия (svn r7347)
 
-* Merkaartor: 0.17.2
+* Merkaartor: 1.18.1
 
-* Gosmore: 2010/07/11
 
-* Osmarender: SVN mid-2011
 
-* osm2pgsql: 0.69 (svn r22215)
+
+
+* osm2pgsql: 0.85.0
 
 **Поддерживаемые платформы:** GNU/Linux, Mac OS X, MS Windows
 

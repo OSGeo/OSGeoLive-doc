@@ -52,23 +52,21 @@ Open Street Map 工具组
 
 * Merkaartor: GNU General Public License (GPL) version 2
 
-* Gosmore: Public Domain and GPLv2
-
 .. <!-- see /usr/share/doc/gosmore/copyright -->
 
-* Osmarender: GNU General Public License (GPL) version 2
+
 
 **软件版本：**
 
-* JOSM: 最新的稳定版（SVN 版本 r5697）
+* JOSM: 最新的稳定版（SVN 版本 r7347）
 
-* Merkaartor: 0.17.2
+* Merkaartor: 1.18.1
 
-* Gosmore: 2010/07/11
 
-* Osmarender: SVN 2011 中旬
 
-* osm2pgsql: 0.69 (svn r22215)
+
+
+* osm2pgsql: 0.85.0
 
 **平台支持：** GNU/Linux, Mac OSX, MS Windows
 
