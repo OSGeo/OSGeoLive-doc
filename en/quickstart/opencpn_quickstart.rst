@@ -29,7 +29,7 @@ The first time you run OpenCPN from
 the :menuselection:`Geospatial --> Navigation and Maps` menu or Desktop icon
 you will be presented with the option to do this automatically.
 
-.. To do this manually, open a Terminal from the main Applications menu and
+.. To do this manually, open a Terminal from the main Accessories menu and
  run :command:`opencpn_noaa_agreement.sh` at the command prompt. The user's
  password is given in the file on the main desktop.
 
