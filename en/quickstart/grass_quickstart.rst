@@ -48,7 +48,7 @@ This will launch GRASS into the `updated GUI written in wxPython <../../grass/wx
  instead of the special PERMANENT mapset.
 
 * If you would like to try out a preview of the upcoming GRASS 7.0 release,
-  open a LXTerminal from the `Accessories` menu and type "`install_grass7` at
+  open a LXTerminal from the `Accessories` menu and type "`install_grass7`" at
   the prompt. You will need a network connection able to download a couple
   hundred megabytes for the program and sample dataset.
 
