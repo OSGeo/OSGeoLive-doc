@@ -123,7 +123,7 @@ Apply the changes.
 Reboot the virtual machine and the display settings should match your host
 computer's display settings. These can be changed via:
 
-Select: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
+Select: :menuselection:`LXDE Menu --> Preferences --> Monitor Settings`
 
 See Also:
 --------------------------------------------------------------------------------
