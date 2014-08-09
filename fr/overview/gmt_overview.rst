@@ -45,7 +45,7 @@ Détails
 
 **Licence:** Licence GNU General Public (GPL) version 2
 
-**Version de logiciel:** 4.5.6
+**Version de logiciel:** 4.5.11
 
 **Plate-formes supportées:** GNU/Linux, Mac OSX, MS Windows
 

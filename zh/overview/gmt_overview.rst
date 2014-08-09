@@ -40,7 +40,7 @@ GMT (Generic Mapping Tools)
 
 **开源协议：** GNU General Public License (GPL) version 2
 
-**软件版本：** 4.5.6
+**软件版本：** 4.5.11
 
 **平台支持：** GNU/Linux, Mac OSX, MS Windows
 

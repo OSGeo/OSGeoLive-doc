@@ -44,7 +44,7 @@ GMT
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 4.5.6
+**Έκδοση Λογισμικού:** 4.5.11
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 
