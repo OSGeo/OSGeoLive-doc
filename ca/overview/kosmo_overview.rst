@@ -62,7 +62,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 2
 
-**Versió de programari:** 2.0.1
+**Versió de programari:** 3.1
 
 **Sistemes operatius:** Windows, Linux
 

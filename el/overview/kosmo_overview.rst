@@ -73,7 +73,7 @@ Kosmo Desktop
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 3.0 RC2
+**Έκδοση Λογισμικού:** 3.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux
 

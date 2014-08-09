@@ -75,7 +75,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** 3.0 RC2
+**Versione Software:** 3.1
 
 **Piattaforme Supportate:** Windows, Linux
 
