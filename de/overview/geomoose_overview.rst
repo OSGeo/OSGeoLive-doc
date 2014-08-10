@@ -38,7 +38,7 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 * Verteilte Datenwartung für mehrere Eigentümer.
-* Zugriff auf Karten von: MapServer, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST, WMS.
+* Zugriff auf Karten von: MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, WMS.
 * Konfiguration verschiedener Ansichten von Datenquellen.
 * Anzeige und Filterung von Datenkatalogen.
 * Werkzeuge: Messen, Zeichnen, Abfragen, Abblenden, Umsortierung, Umprojektion, Springen auf Zoomstufe, Koordinatenausgabe, ...
