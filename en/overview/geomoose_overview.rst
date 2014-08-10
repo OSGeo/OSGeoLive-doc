@@ -37,7 +37,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * Distributed data maintenance amongst multiple owners.
-* Access maps from: MapServer, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST, WMS.
+* Access maps from: MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, WMS.
 * Configure multiple views of data sources.
 * Discover and filter from data catalogs.
 * Tools: measure, drawing, query, fading, re-order, reprojection, jump-to zoom, coordinate readouts, ...
