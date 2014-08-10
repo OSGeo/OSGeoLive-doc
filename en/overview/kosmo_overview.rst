@@ -1,6 +1,6 @@
 :Author: Sergio Baños Calvo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
@@ -31,8 +31,8 @@ Core Features
 
 Supported formats:
 
-* Vectorial file formats: Shapefiles, GML, DXF, DWG, DGN, CSV (by an extension)
-* Vectorial databases: PostgreSQL + PostGIS, Oracle, MySQL
+* Vectorial file formats: Shapefiles, GML, DXF, DWG, DGN, CSV (by an extension), KML (by an extension)
+* Vectorial databases: PostgreSQL + PostGIS, Oracle, MySQL, SpatiaLite (by an extension)
 * Raster file formats: ECW (*), MrSID (*), (Geo)Tiff, Erdas IMG, ENVI hdr, JPG, GIF, PNG, BMP,...
 * OGC services: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0 (including WFS-T)
 
@@ -46,6 +46,7 @@ Key features:
   * CAD style tools: rotate, rotate by angle, symmetry, perpendicular, paralell, ... (by an extension)
   * Multiple snapping modes: to vertexes, to vertexes and lines, to segment mid points, to centroids, to grid, ...
   * Geometry tracking mode
+  * Advanced snap manager (by an extension)  
 * Advanced printing module based on OpenOffice offimatic suite (by an extension)
 * Topology consistency rules: pre/during/post edition
 * Topology validation and cleaning tools (intersect/eliminate/clean)
@@ -53,6 +54,8 @@ Key features:
 * Raster georreferencing tool (by an extension)
 * Sextante 1.0 integrated (by an extension)
 * Massive import/export operations wizard (by an extension)
+* PDF printing module (by an extension)
+* GPS tools (by an extension)
 
 .. note::
   (*) ECW and MrSID raster formats require an extra download to work: due to licensing restrictions their libraries can't be distributed
@@ -71,7 +74,7 @@ Details
 
 **Website:** http://www.opengis.es/index.php?lang=en
 
-**Licence:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 3
 
 **Software Version:** 3.1
 
