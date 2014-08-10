@@ -1,8 +1,7 @@
 :Author: Hamish Bowman
-:Version: osgeo-live5.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
-
-.. _grass-overview-ja:
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :scale: 100 %
@@ -20,7 +19,7 @@
 GRASS GIS
 ================================================================================
 
-Fully featured GIS
+フル機能のGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GRASS（Geographic Resources Analysis Support System、地理空間情報リソースの解析補助システム）
@@ -37,11 +36,11 @@ GRASSは現在20の言語に翻訳されており、多数のデータフォー�
 
 GRASS は教育機関、企業、行政機関、環境コンサルティング会社など
 世界中のあらゆる所で使用されています。一般的なハードウェア環境の多くで動作する、
-GPL (GNU General Public License) でライセンスされたフリーでオープンソースのソフトウェアです。
+GNU General Public Licenseでライセンスされたフリーでオープンソースのソフトウェアです。
 
 GRASSは400以上の解析モジュールを内蔵しています。また、100を超えるモジュール、
 ツールボックスが利用者コミュニティのWikiサイトから自由に利用可能となっています。
-GRASSの開発は28年続いており、最も歴史ある、最も巨大なオープンソースGISです。
+GRASSの開発は30年近く続いており、最も歴史ある、最も巨大なオープンソースGISです。
 スーパーコンピューターで並列処理する場合にも、モバイルPCやネットブックで動作する場合にも
 どちらにも使用できる、応用範囲が広いデータのバッチ処理を簡単に記述することができます。
 
@@ -51,7 +50,7 @@ GRASSの開発は28年続いており、最も歴史ある、最も巨大なオ�
 主な機能
 --------------------------------------------------------------------------------
 
-* You name it, there's a tool for it.
+* どんなものでも、処理するツールがあります。
 *  `スクリーンショット集 <http://grass.osgeo.org/screenshots/>`_ をご覧下さい。
 
 詳細
@@ -61,11 +60,11 @@ GRASSの開発は28年続いており、最も歴史ある、最も巨大なオ�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 6.4.4
+**バージョン:** 6.4.3
 
-**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
+**対応プラットフォーム:** GNU/Linux、Mac OSX、MS Windows
 
-**API:** C, Python, Bourne Shell
+**API インターフェース:** C、Python、Bourne Shell
 
 **サポート:** http://grass.osgeo.org/community/
 
@@ -73,6 +72,6 @@ GRASSの開発は28年続いており、最も歴史ある、最も巨大なオ�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `QuickStart <../quickstart/grass_quickstart.html>`_
+* `クイックスタート文書 <../quickstart/grass_quickstart.html>`_
 
 

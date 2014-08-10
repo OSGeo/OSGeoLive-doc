@@ -76,15 +76,15 @@ GeoNodeはGeoServer, GeoExplorer, pycsw, Django, GeoExt上に構築されてい�
 
 **ライセンス:** GNU General Public License (GPL) version 2.0
 
-**バージョン:** 2.0
+**ソフトウェアバージョン:** 2.0
 
-**サポートするプラットフォーム:** Windows, Linux, Mac
+**対応プラットフォーム:** Windows, Linux, Mac
 
-**API:** Python (Django)
+**APIインターフェース:** Python (Django)
 
 **サポート:** http://opengeo.org/technology/geonode/
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/geonode_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/geonode_quickstart>`

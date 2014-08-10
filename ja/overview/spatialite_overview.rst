@@ -1,14 +1,13 @@
 :Author: Pirmin Kalberer
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _spatialite-overview-ja:
 
 .. image:: ../../images/project_logos/logo-spatialite.png
   :scale: 50 %
   :alt: project logo
   :align: right
-  :target: http://www.gaia-gis.it/spatialite/
+  :target: http://www.gaia-gis.it/gaia-sins/
 
 
 SpatiaLite
@@ -19,12 +18,7 @@ SpatiaLite
 
 SpatiaLite は地理空間情報を扱う関数を追加した SQLite データベースエンジンです。
 
-SQLite は動作が軽く、シンプルで堅牢、簡単に使える人気のある DBMS です。
-それぞれのデータベースは一つのファイルに格納されます。
-コピー、圧縮、LANやWeb経由でのやりとりも簡単にできます。
-
-データベースのファイルはプラットフォームに依存しないフォーマットを採用しており、
-Windows、Linux、MacOSなどいずれの環境でも使用できるフォーマットとなっています。
+SQLite は動作が軽く、シンプルで堅牢、簡単に使える人気のあるデータベース管理システム(DBMS)です。それぞれのデータベースは一つのファイルに格納されます。コピー、圧縮や、Windows、Linux、MacOS 等のOS間の移行も簡単にできます。
 
 .. _SQLite: http://www.sqlite.org/
 
@@ -36,41 +30,43 @@ Windows、Linux、MacOSなどいずれの環境でも使用できるフォーマ
 主な機能
 --------------------------------------------------------------------------------
 
-SQLite で OGC の仕様に準拠した地理空間情報を扱えるようにしたものが SpatiaLite の拡張です。
+SQLite で OGC の仕様に準拠した空間データを扱えるようにしたものが SpatiaLite の拡張です。
 
+ハイライト:
 
-* WKT 及び WKB フォーマットをサポート
-* AsText(), GeomFromText(), Area(), PointN() などの地理空間 SQL 関数を実装
-* GEOS を使用して全ての OpenGis 関数をサポートしています。これは Overlaps(), Touches(), Union(), Buffer() などの複雑な地理空間解析関数を司っています。
-* OpenGis の仕様に沿った完全な空間メタデータをサポート
-* シェープファイルのインポート、エクスポートをサポート
-* PROJ4 と EPSG 測地系データベースを利用した測地系変換をサポート
-* GNU libiconv によるロケール、文字コードのサポート
-* SQLite の RTree 拡張を利用した地理空間インデックスの完全な実装
-* VirtualShape拡張を利用すると、シェープファイルをVIRTUAL TABLE としてSQLite から使用できます
-* importやデータ変換なしにシェープファイルに直接SQLクエリを発行できるようになります
-* VirtualText拡張をり追うすると、SQLiteからcsvやタブ区切りテキストをVIRTUAL TABLE としてSQLite から使用できます
-* importやデータ変換なしに CSVやタブ区切りテキストに対して、直接SQLクエリを発行できるようになります
-* これらの機能をすべてユーザーフレンドリに扱えるよGUIツールをサポート
-
+* ユーザフレンドリーな GUI
+* 標準の WKT 及び WKB フォーマット
+* SQL 空間関数 - AsText()、GeomFromText()、Area()、PointN() など
+* GEOS 経由で提供される OpenGis 空間解析関数 - Overlaps()、Touches()、Union()、Buffer() など
+* OpenGis の仕様に沿った完全な空間メタデータ
+* 多くのジオメトリ記法 - EWKT、GML、KML、GeoJSON
+* シェープファイルのインポート、エクスポート
+* PROJ.4 と EPSG 測地系パラメータデータセットを利用した測地系変換
+* GNU libiconv によるロケール、文字コード
+* SQLite の RTree 拡張を利用した地理空間インデックス
+* シェープファイルに VIRTUAL TABLE としてアクセスすると、インポートや変換なしにシェープファイルに SQL クエリを発行可能
+* 外部の CSV/タブ区切りテキストや xls スプレッドシートに VIRTUAL TABLE としてアクセス
+* XML ドキュメントやストアド BLOB 圧縮バイナリオブジェクトへの、"well formed" 構文、及び XSF スキーマ妥当性検証チェック付きアクセス。特別に ISOメタデータ、SLD/SE スタイル、SVG グラフィックスをサポート。XML ドキュメントは標準の XPath 構文でクエリ可能。
+* 外部 WFS サーバへのクエリ。
+* 外部の DXF ファイル(全バージョン)のパースと、検出したレイヤとジオメトリの格納。
+* DXF ファイルの生成とエクスポート
 
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://www.gaia-gis.it/spatialite/
+**ウェブサイト:** http://www.gaia-gis.it/gaia-sins/
 
 **ライセンス:** MPL v1.1 and GPL v3
 
-**バージョン:** 2.3.1 / 2.4 beta
+**ソフトウェアバージョン:** spatialite 4.1.1 / spatialite-gui 1.7.1
 
-**サポートするプラットフォーム:** Linux, Mac, Windows
+**サポートするプラットフォーム:** Linux、Mac、Windows
 
-**API:** C++
+**API インタフェース:** C++
 
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/spatialite_quickstart.html>`_
-
+* :doc:`クイックスタート <../quickstart/spatialite_quickstart>`
 
