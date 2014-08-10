@@ -24,11 +24,11 @@ TileMill is a design studio for creating beautiful, web based, interactive maps 
 
 Generated webmaps can use hover tooltips, clickable pop ups, interactive graphs and images, SVG markers, rich textures, and multiple layers.  Customized maps can be exported to different formats like: .png, .pdf, .svg and MBTiles. The MBTiles spec defines how to store tiles as a single file, as a SQLite database.
 
-Data can be sourced from vector data (CSV, shapefile, KML, GeoJSON), raster (GeoTiff), as well as large data sources like OpenStreetMap, Postgres and SQLite.
+Data can be sourced from vector data (CSV, shapefile, KML, GeoJSON), raster (GeoTiff), as well as large data sources like OpenStreetMap, PostgreSQL/PostGIS and SQLite.
 
 Tilemill makes use of the :doc:`Mapnik <mapnik_overview>` map rendering library (as used by OpenStreeMap) and uses the CartoCSS as a stylesheet language.
 
-TileMill is typically used in conjunction with a desktop GIS (like QuantumGIS) for preparing data, and a graphics editor (like GIMP) for creating icons, patterns and textures.
+TileMill is typically used in conjunction with a desktop GIS (like QGIS) for preparing data, and a graphics editor (like GIMP) for creating icons, patterns and textures.
 
 .. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
   :scale: 50 %
@@ -72,7 +72,8 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* TileMill does not support OGC standards, like WMS or WFS. Rather it adheres to the widespread practices of z/x/y tile schemes used by Google and OSM and is based on the MBTiles and UTFGrid specifications.
+* TileMill does not support OGC standards, like WMS or WFS. 
+Rather it adheres to the widespread practices of z/x/y tile schemes used by Google and OSM and is based on the MBTiles and UTFGrid specifications.
 
 Details
 --------------------------------------------------------------------------------
