@@ -1,7 +1,7 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
 :Reviewer: Cameron Shorter, http://lisasoft.com
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-cartaro.png
@@ -59,7 +59,7 @@ To Cartaro είναι σχεδιασμένο για χρήση σε ιστοχώ
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 1.0
+**Έκδοση Λογισμικού:** 1.4
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
