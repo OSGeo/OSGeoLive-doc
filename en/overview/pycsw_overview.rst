@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0-draft
+:Version: osgeo-live8.0-draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -44,7 +44,7 @@ Core Features
 * implements ISO Metadata Application Profile 1.0.0
 * implements FGDC CSDGM Application Profile for CSW 2.0
 * implements the Search/Retrieval via URL (SRU) search protocol
-* implements OpenSearch
+* implements OGC OpenSearch Geo/Time extensions
 * supports ISO, Dublin Core, DIF, FGDC and Atom metadata models
 * CGI or WSGI deployment
 * simple configuration
@@ -88,7 +88,7 @@ Details
 
 **Licence:** `MIT`_
 
-**Software Version:** 1.6.1
+**Software Version:** 1.8.2
 
 **Supported Platforms:** Windows, Linux, Mac
 
