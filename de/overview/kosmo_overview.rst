@@ -1,6 +1,6 @@
 :Author: Sergio Baños Calvo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
@@ -30,8 +30,8 @@ Kernfunktionen
 
 Unterstützte Formate:
 
-* Vectordaten Formate: Shapefiles, GML, DXF, DWG, DGN, CSV (als Erweiterung)
-* Vector-Datenbanken: PostgreSQL + PostGIS, Oracle, MySQL
+* Vectordaten Formate: Shapefiles, GML, DXF, DWG, DGN, CSV (als Erweiterung), KML (als Erweiterung)
+* Vector-Datenbanken: PostgreSQL + PostGIS, Oracle, MySQL, SpatiaLite als Erweiterung
 * Rasterdaten Formate: ECW (*), MrSID (*), (Geo)Tiff, Erdas IMG, ENVI hdr, JPG, GIF, PNG, BMP,...
 * OGC Dienste: WMS 1.0.0/1.1.0/1.3.0, WFS 1.0.0/1.1.0 (including WFS-T)
 
@@ -45,6 +45,7 @@ Hauptmerkmale:
   * CAD Stilwerkzeuge: rotieren, rotieren über Winkel, Symmetrie, Spiegelung, Paralelle, ... (als Extension)
   * zahlreiche Snapping Einstellungen: an Stützpunkte, an Stützpunkte und Linien, an Segmentmittelpunkte, an Mittelpunkte, an Grid, ...
   * Geometrie Tracking Modus
+  * Verbesserter Snapp-Manager (über Erweiterung)   
 * Erweitertes Druckmodul basierend auf OpenOffice Suite (als Erweiterung)
 * Topologie Konsistenz-Regeln: vor/during/post edition
 * Topologie Validierungs- und Reinigungswerkzeuge (intersect/eliminate/clean)
@@ -52,6 +53,8 @@ Hauptmerkmale:
 * Werkzeug zur Raster-Georeferenzierung (als Erweiterung)
 * Sextante 1.0 Integration (als Erweiterung)
 * Import/Export Wizard (als Erweiterung)
+* PDF Druckmoduel (als Erweiterung) 
+* GPS Werkzeug (als Erweiterung) 
 
 .. note::
   (*) ECW und MrSID Raster Formate benötigen einen extra download um zu laufen: durch Lizenzeinschränkungen können deren Bibliotheken nicht mit ausgeliefert werden.
@@ -70,7 +73,7 @@ Details
 
 **Webseite:** http://www.opengis.es
 
-**Lizenz:** GNU General Public License (GPL) version 2
+**Lizenz:** GNU General Public License (GPL) version 3
 
 **Software Version:** 3.1
 
