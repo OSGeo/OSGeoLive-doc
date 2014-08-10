@@ -48,7 +48,7 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart Kokumentation <../quickstart/iris_quickstart>`
+* :doc:`Quickstart Dokumentation <../quickstart/iris_quickstart>`
 
 .. _`GitHub`: https://github.com/SciTools/iris
 
