@@ -76,7 +76,7 @@ OGR ベクタデータモデルは OGC Simple Features 仕様に準拠してい�
 
 **API インタフェース:** C、C++、Python、Java、C#、Ruby、VB6、Perl
 
-**サポート:** http://lists.osgeo.org/mailman/listinfo/gdal-dev、http://www.osgeo.org/search_profile
+**サポート:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
 クイックスタート
 --------------------------------------------------------------------------------

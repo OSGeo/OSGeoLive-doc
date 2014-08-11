@@ -45,7 +45,7 @@ OpenLayers は多数のソースで構成しており、 Google Maps API のよ�
   
   * 商用レイヤ: Google、Bing、Yahoo
   
-  * OGC標準:  :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (transactional), GeoRS, :doc:`../standards/gml_overview`
+  * OGC標準:  :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (トランザクショナル), GeoRS, :doc:`../standards/gml_overview`
   
   * その他: OpenStreetMap (OSM)、ArcGIS、Images、MapGuide、MapServer、TileCache
   

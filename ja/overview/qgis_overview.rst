@@ -1,8 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _qgis-overview-ja:
 
 .. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
@@ -17,15 +16,17 @@
   :target: http://www.osgeo.org
 
 
-Quantum GIS (QGIS)
+QGIS
 ================================================================================
 
 デスクトップGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) はユーザーフレンドリーなGISクライアントで，データの可視化，編集，分析，印刷用地図の作成が出来ます。
-GRASSを利用した強力な分析機能を含んでいます。
-Linux，Unix，Mac OSX，Windowsで動作し，多くのベクタ，ラスタ，データベースのフォーマットと機能に対応しています。
+QGIS はユーザーフレンドリーな GIS クライアントで、データの可視化、管理、編集、分析、印刷用地図の作成が出来ます。
+:doc:`GRASS <grass_overview>` を統合した強力な分析機能を含んでいます。
+Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、データベースのフォーマットと機能に対応しています。
+
+
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
@@ -37,65 +38,65 @@ Linux，Unix，Mac OSX，Windowsで動作し，多くのベクタ，ラスタ，
 
 * 使いやすいグラフィカルなユーザーインターフェイス。
 
-    * 地物の選択と特定
-    * 属性の編集，表示，検索
+    * 地物の選択と特定、
+    * 属性の編集、表示、検索
     * 動的な投影変換
-    * プリント・コンポーザー
-    * 地物に対するラベル表示
-    * ベクタとラスタのシンボルの変更
-    * 経緯度線レイヤの追加
-    * その他。。。
+    * プリント・コンポーザー、
+    * 地物に対するラベル表示、
+    * ベクタとラスタのシンボルの変更、
+    * 経緯度線レイヤの追加、
+    * その他 ...
 
 * 様々なベクタとラスタフォーマットの容易な表示
 
-    * PostgreSQLデータベースのテーブル
-    * ほとんどのベクタフォーマット：ESRIシェイプファイル，MapInfo，SDTS，GMLを含みます
-    * デジタル標高モデル（DEM），空中写真，ランドサット画像などのラスタフォーマット
-    * GRASSのロケーションとマップセット
-    * OGCのWMSまたはWFSに準拠してオンラインで提供される空間データ
+    * データベーステーブル: PostgreSQL/PostGIS、Oracle Spatial、MS SQL Spatial、SpatiaLite
+    * ほとんどのベクタフォーマット: ESRI シェープファイル、MapInfo、SDTS、GML、OpenStreetMap ベクタデータ
+    * デジタル標高モデル(DEM)、空中写真、ランドサット画像などのラスタフォーマット、
+    * GRASS のロケーションとマップセット、
+    * OGC準拠の WMS、WMTS、WFS、WCS などのオンラインで提供される空間データ
 
 * 空間データの作成，編集とエクスポート
 
-    * GRASSとシェイプファイルでのデジタイズ
+    * GRASS とシェープファイルでのデジタイズ
     * 幾何補正プラグイン
-    * GPXフォーマットのインポートとエクスポート，他のGPSフォーマットのGPXへの変換，またはGPS機器からの直接ダウンロード・アップロード
+    * GPX フォーマットのインポートとエクスポート、他の GPS フォーマットの GPX への変換、または GPS 機器からの直接ダウンロード・アップロード
 
-* fToolsとGRASSプラグインを利用した空間解析の実行
+* SAGA、OTB、MMGIS、fTools、GRASS プラグインを利用した空間解析の実行
 
-    * マップ・アルジェブラ，
-    * 地形解析，
-    * 水文モデリング，
-    * ネットワーク分析
-    * その他多数
+    * 地図演算、
+    * 地形解析、
+    * 水文モデリング、
+    * ネットワーク分析、
+    * 包括的に検索可能な機能のツールボックス、
+    * グラフィカルなモデリングツールを使用した、機能を連鎖による再利用可能な解析ルーチンの定義と実行、
+    * その他多数。
 
 * インターネットでの公開
-* 拡張可能なプラグイン機能
+* 拡張可能なプラグイン機能。
 
 準拠している標準規格
 --------------------------------------------------------------------------------
 
-* OGCスタンダードに準拠 (WMS, WFS(プラグイン))
+* OGCスタンダードに準拠 (WMS、WFS(プラグイン))
 
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト：** http://www.qgis.org
+**ウェブサイト:** http://www.qgis.org
 
-**ライセンス：** GPL
+**ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン：** 2.4.0
+**ソフトウェアバージョン:** 2.4.0
 
-**対応プラットフォーム：** Windows, Linux, Mac, Unix
+**サポートするプラットフォーム:** Windows、Linux、Mac、Unix
 
-**コミュニティサポート：** http://qgis.org/en/community.html
+**コミュニティサポート:** http://qgis.org/en/site/forusers/support.html
 
-**商業サポート** http://qgis.org/en/commercial-support.html
-
+**商用サポート:** http://qgis.org/en/site/forusers/commercial_support.html
 
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/qgis_quickstart.html>`_
-
+* :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
 
