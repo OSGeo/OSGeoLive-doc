@@ -14,7 +14,7 @@ JTS Topology Suite (JTS)
 
 JTS ist eine Open Source Bibliothek für räumliche Eigenschaften 
 und Funktionen für die Geometrieprozessierung. Sie bietet ein komplette, konsistente und robuste
- Implementatierung grundlegender Algorithmen zur Prozessierung linearer Geometrien im 2-dimensionalen kartesischen Ebene.
+Implementatierung grundlegender Algorithmen zur Prozessierung linearer Geometrien im 2-dimensionalen kartesischen Ebene.
 
 JTS beinhaltet den "JTS Test Builder", der es Anwendern erlaubt, 
 Tests zu durchlaufen und mit den Geometrien über eine interaktive Desktop Oberfläche zu experimentieren. 

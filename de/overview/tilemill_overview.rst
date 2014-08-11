@@ -33,11 +33,11 @@ Raster (GeoTiff) oder große Datenquellen wie OpenStreetMap, PostgreSQL/PostGIS 
 
 Tilemill nutzt die :doc:`Mapnik <mapnik_overview>` Karten 
 Rendering Bibliothek (die auch von OpenStreeMap verwendet wird) und
- außerdem CartoCSS als Stylesheet-Sprache.
+außerdem CartoCSS als Stylesheet-Sprache.
 
 TileMill wird typischerweise in Verbindung mit einem Desktop GIS (wie 
 beispielsweise QGIS) für die Vorbereitung der Daten und einem Graphikprogramm
- (wie GIMP) für die Erzeugung von Symbolen, Mustern und Texten verwendet.
+(wie GIMP) für die Erzeugung von Symbolen, Mustern und Texten verwendet.
 
 .. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
   :scale: 50 %
