@@ -63,4 +63,4 @@ What Next?
 		http://localhost/zoo/?Request=GetCapabilities&Service=WPS
 	
 *	For further questions you can contact the ZOO Project mailing list:
-	zoo-discuss@gisws.media.osaka-cu.ac.jp
+	zoo-discuss@lists.osgeo.org
