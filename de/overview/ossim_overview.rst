@@ -41,7 +41,7 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
-  :scale: 50 %
+  :scale: 70 %
   :alt: Bildschirmfoto
   :align: right
 
