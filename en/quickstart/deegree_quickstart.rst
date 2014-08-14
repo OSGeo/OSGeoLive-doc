@@ -25,9 +25,9 @@ Available components are:
 
 This quickstart describes how to:
 
-   * start *deegree 3 webservices* on the Live DVD
-   * use the *deegree 3 services console* to activate example configurations
-   * find more information
+   * Start *deegree 3 webservices* on the Live DVD
+   * Use the *deegree 3 services console* to activate example configurations
+   * Find more information
 
 
 About deegree 3
@@ -41,7 +41,8 @@ It can be used to build web-based geospatial-data-infrastructures (GDI).
 Start deegree 3 webservices
 ================================================================================
 
-Choose *'Start deegree'* from the start menu.
+Choose *'Start deegree'* from
+the :menuselection:`Geospatial --> Web Services --> deegree` menu.
 The application will take a few moments to start up.
 
 
