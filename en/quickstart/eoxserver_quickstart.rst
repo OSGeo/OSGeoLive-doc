@@ -81,7 +81,9 @@ the available `Datasets`.
   :alt: EOxServer demonstration embedded client outlines
 
 Using the standard OpenLayers controls you can enable also previews of the 
-available data.
+available data. Click on the **(+** on the upper right side of the window
+to get a later selection listing; to zoom either use the mouse wheel or
+hold down the shift key while left-click dragging a box on the map canvas.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
