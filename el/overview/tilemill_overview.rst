@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. Review Comment
@@ -10,7 +10,7 @@
  Can the logo please be edited to only include the icon.
   
 .. image:: ../../images/project_logos/logo-tilemill.png
-  :scale: 60 %
+  :scale: 100 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -27,14 +27,14 @@ Design studio for Web Maps
 
 Οι διαδικτυακοί χάρτες που δημιουργούνται μπορούν να χρησιμοποιήσουν πτυσσόμενες εργαλειοθήκες, ενεργά με κλίκ παράθυρα, διαδραστικά γραφικά και εικόνες, σχήματα SVG, πλούσιες υφές και πολλαπλά επίπεδα. Οι τροποποιημένοι χάρτες μπορούν να εξαχθούν σε διάφορα πρότυπα όπως: .png, .pdf, .svg και MBTiles. Τα MBTiles είναι ένα ανοιχτό πρότυπο που παρέχει έναν τρόπο για αποθήκευση χιλιάδων πλακιδίων σε μία μοναδική SQLite βάση δεδομένων, κάνοντας εφικτή την αποθήκευση και μεταφορά των διαδικτυακών χαρτών σε ένα μόνο αρχείο. Και αφού η SQLite είναι διαθέσιμη σε πολλές πλατφόρμες, τα MBTiles είναι ένα ιδανικό πρότυπο για διάβασμα των πλακιδίων απευθείας στο διαδίκτυο ή για εμφάνιση σε κινητές συσκευές. 
 
-Τα δεδομένα μπορεί να προέρχονται από διανυσματικά δεδομένα (CSV, shapefile, KML, GeoJSON), ψηφιδωτά δεδομένα (GeoTiff), όπως επίσης και μεγάλες πηγές δεδομένων όπως OpenStreetMap, Postgres and SQLite. 
+Τα δεδομένα μπορεί να προέρχονται από διανυσματικά δεδομένα (CSV, shapefile, KML, GeoJSON), ψηφιδωτά δεδομένα (GeoTiff), όπως επίσης και μεγάλες πηγές δεδομένων όπως OpenStreetMap, PostgreSQL/PostGIS and SQLite. 
 
 Το Tilemill χρησιμοποιεί ένα :doc:`Mapnik <mapnik_overview>` χάρτη που παρέχεται από την βιβλιοθήκη (όπως χρησιμοποιείται από το OpenStreeMap) και χρησιμοποιεί το CartoCSS ως γλώσσα μορφοποίησης των φύλλων.
 
-Το TileMill τυπικά χρησιμοποιείται σε σύνδεση με το GIS (όπως το QuantumGIS) για προετοιμασία δεδομένων και με ένα γραφικό συντάκτη (όπως το GIMP) για δημιουργία εικονιδίων, προτύπων και υφής.
+Το TileMill τυπικά χρησιμοποιείται σε σύνδεση με το GIS (όπως το QGIS) για προετοιμασία δεδομένων και με ένα γραφικό συντάκτη (όπως το GIMP) για δημιουργία εικονιδίων, προτύπων και υφής.
 
 .. image:: ../../images/screenshots/1024x768/tilemill_interface.png
-  :scale: 90 %
+  :scale: 50 %
   :alt: TilleMill user interface
   :align: right
 
@@ -84,7 +84,7 @@ Design studio for Web Maps
 
 **Άδεια:** BSD
 
-**Έκδοση Λογισμικού:** 0.10.1
+**Έκδοση Λογισμικού:** 0.10.2
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 
