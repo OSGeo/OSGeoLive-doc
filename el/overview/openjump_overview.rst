@@ -29,9 +29,9 @@ OpenJUMP GIS
 
 * Πρότυπα δεδομένων
 
-    * Ανάγνωση αρχείων: GML, SHP, DXF*, JML, MIF* & TIFF, JPG, MrSID, ECW
+    * Ανάγνωση αρχείων: GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+ 
     * Ανάγνωση βάσεων δεδομένων: PostGIS, ArcSDE*, Oracle*, MySQL* και SpatiaLite*
-    * Εγγραφή: GML, SHP, DXF*, PostGIS*, TIFF, JPG και SVG
+    * Εγγραφή: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
     * Υποστήριξη: OGC WMS & WFS (-T), GML 2, SLD
     * Τα πρότυπα που σημειώνονται με (*) παρέχονται με κάποιο πρόσθετο
 
@@ -63,7 +63,7 @@ OpenJUMP GIS
 
 .. Συμβουλή: Δημιουργία λίστας σχετικά με τα υποστηριζόμενα πρότυπα.
 
-* Υποστήριξη προτύπων OGC: GML 2, SFS, WMS, KML και SLD, (WFS για το deegree)
+* Υποστήριξη προτύπων OGC: GML 2, SFS, WMS, KML και SLD
 
 Λεπτομέρειες
 --------------------------------------------------------------------------------
@@ -72,7 +72,7 @@ OpenJUMP GIS
 
 **Άδεια:** GPL
 
-**Έκδοση Λογισμικού:** 1.6.3
+**Έκδοση Λογισμικού:** 1.7.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac, Unix
 

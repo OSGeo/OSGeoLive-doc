@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0draft
+:Version: osgeo-live8.0draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -47,7 +47,7 @@ pycsw
 * Υλοποιεί το πρότυπο ISO Metadata Application Profile 1.0.0
 * Υλοποιεί το πρότυπο FGDC CSDGM Application Profile για το CSW 2.0
 * Υλοποιεί το πρότυπο αναζήτηση/ανάκτηση μέσω URL (SRU)
-* Υλοποιεί το πρότυπο OpenSearch
+* Υλοποιεί το πρότυπο OpenSearch και την επέκταση OGC Geo/Time
 * Υποστηρίζει εγκατάσταση τύπου CGI ή WSGI
 * Υποστηρίζει τα μοντέλα μεταδεδομένων ISO, Dublin Core, DIF, FGDC
 * Εγκαθίσταται και ρυθμίζεται απλά
@@ -92,7 +92,7 @@ pycsw
 
 **Άδεια:** `MIT`_
 
-**Έκδοση Λογισμικού:** 1.6.1
+**Έκδοση Λογισμικού:** 1.8.2
 
 **Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 

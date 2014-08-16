@@ -1,6 +1,7 @@
 :Author: Johan Van de Wauw
 :Author: Vladimir Agafonkin
-:Version: osgeo-live7.0
+:Reviewer: Cameron Shorter
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-leaflet.png 
@@ -41,7 +42,7 @@ Leaflet
 
 **Άδεια:** BSD
 
-**Έκδοση Λογισμικού:** 0.6.2
+**Έκδοση Λογισμικού:** 0.7.3
 
 .. **Supported Platforms:** 
 .. 

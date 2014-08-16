@@ -46,7 +46,7 @@ OpenLayers
   
   * Εμπορικά επίπεδα: Google, Bing, Yahoo
   
-  * Πρότυπα OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  * Πρότυπα OGC: :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (transactional), GeoRS, :doc:`../standards/gml_overview`
   
   * Άλλα: OpenStreetMap (OSM), ArcGI, Images, MapGuide, MapServer, TileCache
 

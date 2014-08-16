@@ -85,7 +85,7 @@ MapServer
 
 * Υποστήριξη μεγάλου αριθμού προτύπων του Open Geospatial Consortium  (OGC)
 
-  * WMS (πελάτης/εξυπηρετητής), WFS (πελάτης/εξυπηρετητής) με δυνατότητα ανάγνωσης μόνο, WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
+  * :doc:`../standards/wms_overview` (πελάτης/εξυπηρετητής), :doc:`../standards/wfs_overview` (πελάτης/εξυπηρετητής με δυνατότητα ανάγνωσης μόνο), WMC, :doc:`../standards/wcs_overview`, :doc:`../standards/fe_overview`, :doc:`../standards/sld_overview`, :doc:`../standards/gml_overview`, SOS, OM
 
 * Συμβατός με Υπηρεσία Θέασης της οδηγίας INSPIRE
 
@@ -97,7 +97,7 @@ MapServer
 Τεκμηρίωση
 --------------------------------------------------------------------------------
 
-* `Τεκμηρίωση MapServer 6.2 <../../mapserver/doc/index.html>`_
+* `Τεκμηρίωση MapServer 6.4 <../../mapserver/doc/index.html>`_
 
 
 Λεπτομέρειες
@@ -107,7 +107,7 @@ MapServer
 
 **Άδεια:** `άδεια τύπου MIT <http://mapserver.org/copyright.html#license>`_
 
-**Έκδοση Λογισμικού:** 6.2
+**Έκδοση Λογισμικού:** 6.4.1
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

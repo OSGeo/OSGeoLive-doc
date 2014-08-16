@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -38,8 +38,8 @@ MetaCRS
 Στα πακέτα του MetaCRS περιλαμβάνονται:
 
 
-* PROJ.4 (C++) - χρησιμοποιείται από τα: MapServer, GRASS GIS, PostGIS, Mapnik και πολλά άλλα.
-* Proj4js (JavaScript) - χρησιμοποιείται από το OpenLayers.
+* PROJ.4 (C++) - χρησιμοποιείται από τα: :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation και πολλά άλλα.
+* Proj4js (JavaScript) - χρησιμοποιείται από το :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - χρησιμοποιείται από το MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).
@@ -67,7 +67,7 @@ PROJ.4
   
   **Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Έκδοση Λογισμικού:** 4.7.0
+  **Έκδοση Λογισμικού:** 4.8.0
   
   **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
   
@@ -82,8 +82,6 @@ Proj4js
   
   **Άδεια:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Έκδοση Λογισμικού:** 1.1.0
-  
   **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
   
   **Προγραμματιστικές διεπαφές:** JavaScript
@@ -96,8 +94,6 @@ CS-Map
   **Αρχική Ιστοσελίδα:**  http://trac.osgeo.org/csmap/
   
   **Άδεια:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
-  
-  **Έκδοση Λογισμικού:** 13.0
   
   **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
   
@@ -122,8 +118,6 @@ Proj4J
   **Αρχική Ιστοσελίδα:**  http://trac.osgeo.org/proj4j/
   
   **Άδεια:** `Apache License, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
-  
-  **Έκδοση Λογισμικού:** 
   
   **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
   
