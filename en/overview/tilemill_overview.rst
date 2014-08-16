@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-tilemill.png
@@ -82,7 +82,7 @@ Details
 
 **Licence:** BSD
 
-**Software Version:** 0.10.1
+**Software Version:** 0.10.2
 
 **Supported Platforms:** Windows, Linux, Mac
 
