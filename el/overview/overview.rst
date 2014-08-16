@@ -31,10 +31,9 @@
 Λογισμικά με δυνατότητες θέασης, επεξεργασίας και ανάλυσης δεδομένων GIS στο διαδίκτυο:
 
 * :doc:`openlayers_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart>`] - Διαδικτυακή εφαρμογή GIS
-* :doc:`leaflet_overview` - Διαδραστικοί Χάρτες Φορητών Συσκευών
+* :doc:`leaflet_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/leaflet_quickstart>`] -  Διαδραστικοί Χάρτες Φορητών Συσκευών
 * :doc:`geomajas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
-* :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας
 * :doc:`geomoose_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomoose_quickstart>`] - Διαδικτυακή πύλη GIS
 * :doc:`cartaro_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/cartaro_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
 * :doc:`geonode_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonode_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
@@ -105,7 +104,8 @@
 
 * :doc:`naturalearth_overview` - Παγκόσμια σύνολα δεδομένων
 * :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - Τμήμα δεδομένων από το OpenStreetMap 
+* :doc:`osm_dataset_overview` - Τμήμα δεδομένων από το OpenStreetMap
+* :doc:`netcdf_dataset_overview` - Χρονοσειρές θερμοκρασίας και ύψους βροχής
 
 Γεωχωρικές Βιβλιοθήκες
 --------------------------------------------------------------------------------
@@ -116,6 +116,7 @@
 * :doc:`geos_overview` - Γεωχωρική βιβλιοθήκη C/C++ 
 * :doc:`metacrs_overview` - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς 
 * :doc:`liblas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/liblas_quickstart>`] - Πρόσβαση δεδομένων LiDAR 
+* :doc:`iris_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/iris_quickstart>`] - Μετεωρολογία και Κλιματολογία
 
 Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
 --------------------------------------------------------------------------------
@@ -123,6 +124,7 @@
 * :doc:`mapwindow_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapwindow_quickstart>`] - GIS βασισμένο στο περιβάλλον .NET των Microsoft Windows
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
 * :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
+* :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------------------
