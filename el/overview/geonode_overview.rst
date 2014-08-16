@@ -1,5 +1,5 @@
 :Author: Angelos Tzotsos
-:Version: osgeo-live7.0-draft
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geonode.jpg
@@ -91,7 +91,7 @@ GeoNode
 
 **Άδεια:** GNU General Public License (GPL) έκδοση 2.0
 
-**Έκδοση Λογισμικού:** 2.0 RC1
+**Έκδοση Λογισμικού:** 2.4a5
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

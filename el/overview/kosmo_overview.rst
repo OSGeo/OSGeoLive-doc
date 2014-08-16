@@ -1,6 +1,6 @@
 :Author: Sergio Baños Calvo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -31,8 +31,8 @@ Kosmo Desktop
 
 Υποστηριζόμενα πρότυπα:
 
-* Πρότυπα διανυσματικών δεδομένων: Shapefiles, GML, DXF, DWG, DGN, CSV
-* Βάσεις δεδομένων: PostgreSQL + PostGIS, Oracle, MySQL
+* Πρότυπα διανυσματικών δεδομένων: Shapefiles, GML, DXF, DWG, DGN, CSV, KML
+* Βάσεις δεδομένων: PostgreSQL + PostGIS, Oracle, MySQL, SpatiaLite
 * Πρότυπα αρχείων εικόνων: ECW (*), MrSID (*), (Geo)Tiff, Erdas IMG, ENVI hdr, JPG, GIF, PNG, BMP,...
 * Πρότυπα υπηρεσιών OGC: WMS 1.0.0/1.1.0/1.3.0, WFS(-T) 1.0.0/1.1.0
 
@@ -46,6 +46,7 @@ Kosmo Desktop
   * Εργαλεία τύπου CAD: περιστροφή, περιστροφή σε γωνία, συμμετρία, καθετότητα, παραλληλία, ... (μέσω επέκτασης)
   * Πολλαπλή δυνατότητα αγκίστρωσης (snap): σε σημεία, σε γραμμές, σε κόμβους, σε μέσους, σε κεντροειδή και σε κάναβο
   * Διαδικασία παρακολούθησης γεωμετρίας (tracking)
+  * Εργαλεία Snapping
 * Ισχυρή υποστήριξη εκτυπώσεων μέσω της σουίτας OpenOffice
 * Τοπολογικοί κανόνες ακεραιότητας: πριν/κατά/μετά την επεξεργασία
 * Τοπολογική επικαιροποίηση και εργαλεία καθαρισμού (intersect/eliminate/clean)
@@ -53,6 +54,8 @@ Kosmo Desktop
 * Γεωαναφορά εικόνων
 * Ενσωμάτωση Sextante 1.0
 * Μαζική εισαγωγή/εξαγωγή δεδομένων με χρήση οδηγού
+* Εκτύπωση PDF
+* Εργαλεία GPS
 
 .. note::
   Τα πρότυπα ECW και MrSID δεν είναι διαθέσιμα στο OSGeoLive λόγω περιορισμών της άδειας τους
@@ -71,7 +74,7 @@ Kosmo Desktop
 
 **Κεντρική ιστοσελίδα:** http://www.opengis.es/index.php?lang=en
 
-**Άδεια:** GNU General Public License (GPL) version 2
+**Άδεια:** GNU General Public License (GPL) version 3
 
 **Έκδοση Λογισμικού:** 3.1
 
