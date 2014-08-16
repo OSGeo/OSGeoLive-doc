@@ -37,7 +37,7 @@ Details
 
 **Licence:** LGPLv3
 
-**Software Version:** 1.4
+**Software Version:** 1.6.1
 
 **Supported Platforms:** Cross Platform Python-- Mac OS X, Windows, and Linux
 
