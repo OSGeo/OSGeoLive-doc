@@ -43,8 +43,9 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0
+* OGC Web Map Service (WMS) 1.1.1 and 1.3.0
+* OGC Web Feature Service (WFS) 1.0.0 and Transactional WFS (WFS-T) 1.0.0
+* OGC Web Coverage Service (WCS)
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Details
@@ -54,7 +55,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 2.0.1
+**Software Version:** 2.4.0
 
 **Supported Platforms:** Windows, Linux
 
