@@ -35,7 +35,6 @@
 * :doc:`leaflet_overview` - [:doc:`クイックスタート <../quickstart/leaflet_quickstart>`] -  モバイルフレンドリーなインタラクティブ地図
 * :doc:`geomajas_overview` - [:doc:`クイックスタート <../quickstart/geomajas_quickstart>`] -ブラウザ GIS クライアント
 * :doc:`mapbender_overview` - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - ジオポータルフレームワーク
-* :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク
 * :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
 * :doc:`cartaro_overview` - [:doc:`クイックスタート <../quickstart/cartaro_quickstart>`] - 地理空間 CMS
 * :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 CMS
@@ -137,6 +136,8 @@ Microsoft Windows のみで利用可能:
 * :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`] - Web サービス、OSGeo-Live 5.0 以降未収録
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
+* :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
+
 
 Windows 及び Apple インストーラー
 --------------------------------------------------------------------------------

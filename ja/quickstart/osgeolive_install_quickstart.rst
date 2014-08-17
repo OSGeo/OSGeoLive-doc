@@ -67,11 +67,16 @@ OSGeo-Live のインストール
 
 インストールが終わるまでしばらくお待ちください。
 
+これで終了です。
+
+.. tip:: インストール Tips
+      ユーザ名に "user" 以外を指定してインストールした場合、Tomcat アプリケーションでは
+      http://trac.osgeo.org/osgeo/ticket/1153 に記載のように、サービスコマンドへの権限が必要となります
 
 参照:
 --------------------------------------------------------------------------------
 
  * :doc:`osgeolive_quickstart`
- * :doc:`virtualbox_quickstart`
+ * :doc:`virtualization_quickstart`
  * :doc:`usb_quickstart`
 

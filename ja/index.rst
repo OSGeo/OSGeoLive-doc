@@ -1,7 +1,22 @@
 
-|osgeo-live-version| -Live へようこそ
+|osgeo-live-version| へようこそ
 ================================================================================
-`OSGeo-Live <http://live.osgeo.org>`_ は仮想マシン `Lubuntu <http://www.xubuntu.org/>`_ をベースとした起動可能なブータブルDVD／USBメディアです。これを利用することで、幅広く多様なオープンソースの地理空間ソフトウェアを、インストールなどの必要無しに試すことができます。OSGeo-Live は全てフリーソフトで構成されており、自由に複製、配布することができます。
+
+.. only:: latex
+
+   .. toctree::
+     :maxdepth: 1
+     :glob:
+
+     standards/standards
+     download
+     contact
+     copyright
+     disclaimer
+     sponsors
+     sponsors_osgeo
+
+`OSGeo-Live <http://live.osgeo.org>`_ は仮想マシン `Lubuntu <http://lubuntu.net>`_ をベースとした起動可能なブータブルDVD／USBメディアです。これを利用することで、幅広く多様なオープンソースの地理空間ソフトウェアを、インストールなどの必要無しに試すことができます。OSGeo-Live は全てフリーソフトで構成されており、自由に複製、配布することができます。
 
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
@@ -22,41 +37,38 @@ OSGeo-Live は様々な地理空間関連の保管、配布、表示、分析、
 多くのアプリケーションは、 `Apple OSX <../MacInstallers/>`_ や  `Microsoft Windows <../WindowsInstallers/>`_
 フォルダ内のインストーラ形式でも提供されています。
 
-クイックスタート
---------------------------------------------------------------------------------
+.. only:: html
 
-.. toctree::
-   :maxdepth: 1
+   クイックスタート
+   --------------------------------------------------------------------------------
 
-   OSGeo-Live DVD を始める <quickstart/osgeolive_quickstart>
-   キーボードや言語を変更する <quickstart/internationalisation_quickstart>
-   OSGeo-Live をハードディスク上にインストールする <quickstart/osgeolive_install_quickstart>
-   OSGeo-Live を仮想マシンで動作させる <quickstart/virtualbox_quickstart>
-   OSGeo-Live のブータブルUSBドライブを作成する <quickstart/usb_quickstart>
+   .. toctree::
+     :maxdepth: 1
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
+     OSGeo-Live DVD を始める <quickstart/osgeolive_quickstart>
+     キーボードや言語を変更する <quickstart/internationalisation_quickstart>
+     OSGeo-Live をハードディスク上にインストールする <quickstart/osgeolive_install_quickstart>
+     OSGeo-Live を仮想マシンで動作させる <quickstart/virtualization_quickstart>
+     OSGeo-Live のブータブルUSBドライブを作成する <quickstart/usb_quickstart>
+   .. toctree::
+     :maxdepth: 1
+     :hidden:
+     :glob:
 
-   overview/overview
-   standards/standards
-   contact
-   copyright
-   disclaimer
-   download
-   sponsors
-   sponsors_osgeo
-   presentation
-   metrics
-   mac_installers
-   win_installers
+     overview/overview
+     standards/standards
+     contact
+     copyright
+     disclaimer
+     download
+     sponsors
+     sponsors_osgeo
+     presentation
+     metrics
+     mac_installers
+     win_installers
 
 プレゼンテーション
 --------------------------------------------------------------------------------
 
-全ての OSGeo-Live アプリケーションを取り上げた30分間のプレゼンテーションがビデオとして閲覧できます。加えて、基になったスライドや原稿が利用可能です。
-
-詳細はこちら :doc:`presentation`.
-
-
+全ての OSGeo-Live アプリケーションを取り上げた30分間の `プレゼンテーション <presentation/index.html>`_ がスライドや原稿、 `アブストラクト <presentation/abstract.txt>`_ とともに、利用可能です。

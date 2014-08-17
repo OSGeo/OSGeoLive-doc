@@ -17,20 +17,24 @@ OSGeo-Live は標準で多くの言語に対応しています。言語を切り
    #. ログアウトします。
    #. 画面下部のパネルメニューから別の言語を選択してください。
    #. user="user", password="user" でログインしてください。
-   #. ほかの言語に変更したいときは再度言語を選択してください。
+  #. ほかの言語に変更したいときは再度言語を選択してください。
+
+   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
+     :scale: 70 %
+     :alt: login screen
 
 言語を選択すると、システムメニューと多くのアプリケーションが選択した言語で表示されるようになります。
 翻訳ができていないアプリケーションでは一部、または全てが英語で表示します。
 ボランティアでの翻訳作成のご参加検討をお願い致します。
 詳しくは各アプリケーションまでお問い合わせください。
 
-その他の言語についてはインターネットに接続した状態で :menuselection:`Applications --> System --> Language Support` をご覧下さい。
+その他の言語についてはインターネットに接続した状態で :menuselection:`Preferences --> Language Support` をご覧下さい。
 
 キーボードサポート
 --------------------------------------------------------------------------------
 各国際化キーボード環境はインストール済みです。
 使用するにはあなたが使用するキーボードに合わせて設定する必要があります。
-設定の変更にはメニューから :menuselection:`Applications --> Settings --> Settings Manager` を開き、ダイアログから、 :guilabel:`Keyboard` をクリックしてください。パスワードを要求されるので、ユーザ名 user にはパスワード user と入力してください。
+設定の変更にはメニューから :menuselection:`Preferences --> Keyboard Input Methods` を開き、ダイアログから、 :guilabel:`Keyboard` をクリックしてください。パスワードを要求されるので、ユーザ名 user にはパスワード user と入力してください。
 
    #. キーボードダイアログから :guilabel:`Layout` タブを選択してください。
    #. :guilabel:`Use system defaults` オプションを無効にしてください。
