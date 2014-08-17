@@ -63,6 +63,7 @@ Publishing spatial data to the internet:
   <script type="text/javascript" src="http://www.openhub.net/p/geoserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/deegree/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/ncwms/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/asasciences_ncWMS/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/4657/widgets/project_factoids_stats.js"></script>
@@ -156,6 +157,7 @@ Geospatial Libraries
   <script type="text/javascript" src="http://www.openhub.net/p/geotools/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geos/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/liblas/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/python-iris/widgets/project_factoids_stats.js"></script>
 
 Coordinate Reference System Libraries 
 --------------------------------------------------------------------------------
