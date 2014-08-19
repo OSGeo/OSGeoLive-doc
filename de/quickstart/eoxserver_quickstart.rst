@@ -85,7 +85,9 @@ Fußabdrücke der verfügbaren `Datasets` angezeigt werden.
   :alt: EOxServer Demonstration des eingebauten Klienten Fußabdrücke
 
 Die verfügbaren Daten selbst können unter Verwendung der Standard-OpenLayers 
-Bedienelemente zur Anzeige gebracht werden.
+Bedienelemente zur Anzeige gebracht werden. Klicken Sie auf das **(+** oben rechts im Fenster, um später eine Auflistung der 
+Selektion zu erhalten. Zum Zoomen können Sie entweder das Mausrad verwenden oder
+oder bei gedrückter Shift Taste mit der linken Maustaste ein Rechteck auf der Karte aufziehen.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
