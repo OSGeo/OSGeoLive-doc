@@ -37,7 +37,7 @@ Details
 
 **Lizenz:** LGPLv3
 
-**Software Version:** 1.4
+**Software Version:** 1.6.1
 
 **Unterstützte Plattformen:** Plattformunabhängiges Python-- Mac OS X, Windows und Linux
 

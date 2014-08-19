@@ -36,7 +36,6 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] - Interactive Karten für mobile Geräte geeignet
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS
 * :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
@@ -137,6 +136,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
+* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
 
 Ausführbare Programme für Apple und Windows
 --------------------------------------------------------------------------------
@@ -148,4 +148,4 @@ Vorliegend auf dem vollständigen OSGeo-Live Image:
 Metrik
 --------------------------------------------------------------------------------
 
-* :doc:`Projekt Metrik <../metrics>` auf Ohloh
+* :doc:`Projekt Metrik <../metrics>` auf Open HUB
