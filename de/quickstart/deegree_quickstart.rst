@@ -40,7 +40,7 @@ Geodateninfrastrukturen (GDIs) verwendet werden.
 deegree 3 starten
 ================================================================================
 
-Wählen Sie *'Start deegree'* aus dem Startmenü.
+Wählen Sie *'Start deegree'* aus dem Startmenü unter :menuselection:`Geospatial --> Web Services --> deegree` .
 Die Anwendung benötigt einen Moment um zu starten.
 
 
