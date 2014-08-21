@@ -49,9 +49,9 @@ We will now change the map styling using QGIS.
 Edit QGIS project
 ================================================================================
 
-#. Click :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
+#. Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`.
 
-#. Choose :menuselection:`File --> Open Project...` from the menu bar.
+#. Choose :menuselection:`Project --> Open...` from the menu bar.
 
 #. Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
 
@@ -66,7 +66,7 @@ Edit QGIS project
 
    * Rivers are now rendered in a new color.
 
-#. Save the project with :menuselection:`File --> Save Project`.
+#. Save the project with :menuselection:`Project --> Save`.
 
 #. Reopen the web browser
 
@@ -80,7 +80,7 @@ Create a new QGIS project
 
 #. Reopen QGIS
 
-#. Choose :menuselection:`File --> New Project`.
+#. Choose :menuselection:`Project --> New`.
 
 #. Click :menuselection:`Layer --> Add Vector Layer...`.
 
@@ -90,7 +90,7 @@ Create a new QGIS project
 
    * You should see all world countries.
 
-#. Save the project with :menuselection:`File --> Save Project`.
+#. Save the project with :menuselection:`Project --> Save`.
 
 #. Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`.
 
@@ -105,5 +105,5 @@ What Next?
 To learn more about QGIS Server, a good starting point are the `QGIS User Guide`_ and the `QGIS Server Wiki page`_.
 
 
-.. _`QGIS User Guide`: http://docs.qgis.org/html/en/docs/user_manual/working_with_ogc/ogc_server_support.html
+.. _`QGIS User Guide`: http://docs.qgis.org/2.4/en/docs/user_manual/working_with_ogc/ogc_server_support.html
 .. _`QGIS Server Wiki page`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial
