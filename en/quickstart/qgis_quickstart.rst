@@ -346,10 +346,10 @@ the QGIS homepage.
 `A Gentle Introduction to GIS`_ `[1]`_ eBook and the `QGIS User Guide`_ `[2]`_ are
 also included on the OSGeo-Live disc.
 
-.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/
 .. _`Documentation page`: http://docs.qgis.org/
-.. _`A Gentle Introduction to GIS`: http://www.qgis.org/en/docs/gentle_gis_introduction/index.html
-.. _`QGIS User Guide`: http://www.qgis.org/en/docs/user_manual/index.html
+.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.4/en/docs/gentle_gis_introduction/
+.. _`QGIS User Guide`: http://docs.qgis.org/2.4/en/docs/user_manual/
 .. _`[1]`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`[2]`: ../../qgis/QGIS-2.0-UserGuide-en.pdf
+.. _`[2]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
 
