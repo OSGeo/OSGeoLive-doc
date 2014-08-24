@@ -2,7 +2,7 @@
 :Author: Frank Gasdorf
 :Author: Cameron Shorter
 :Reviewer: Cameron Shorter
-:Version: osgeo-live5.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -15,15 +15,20 @@ Switching Language
 Many common languages are included on OSGeo-Live. To switch languages:
 
    #. Log out
-   #. Select another language from the top panel menu.
    #. Select user="user", password="user"
-   #. Repeat the process if wish to change languages again.
+   #. Select another language from the top panel menu.
+   #. Press the :guilabel:`Log in` button.
+   #. Repeat the process if needed or if you wish to change languages again.
 
    .. image:: ../../images/screenshots/800x600/osgeolive_login.png
      :scale: 70 %
      :alt: login screen
 
-The system menus and many of the applications will now appear in the language chosen. If a specific program continues to display in English, then the program doesn't have a translation available - please consider volunteering to write a translation. Contact the program of interest directly for more information.
+The system menus and many of the applications will now appear in the language
+chosen. If a specific program continues to display in English, then the
+program doesn't have a translation available - please consider volunteering
+to write a translation. Contact the program of interest directly for more
+information.
 
 For additional languages see :menuselection:`Preferences --> Language Support` from
 the main menu. (Requires an internet connection).
