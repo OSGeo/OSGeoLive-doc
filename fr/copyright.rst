@@ -1,14 +1,14 @@
-Copyright OSGeo-Live 
+Copyright OSGeo-Live
 ================================================================================
 
 OSGeo-Live repose entièrement sur des logiciels libres, ce qui permet de le redistribuer, dupliquer gratuitement et de le passer à n'importe qui.
 
-* Les vues d'ensemble de projet et les traductions afférentes sont fournies sous une 
+* Les vues d'ensemble de projet et les traductions afférentes sont fournies sous une
   `license Creative Commons Attribution 3.0 non transposé (CC BY 3.0) <http://creativecommons.org/licenses/by/3.0/deed.fr>`_.
-* Les guides de démarrage rapide et les traductions afférentes sont fournies sous une 
+* Les guides de démarrage rapide et les traductions afférentes sont fournies sous une
   `license Creative Commons Paternité - Partage dans les Mêmes Conditions 3.0 non transposé (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.
 * La documentation peut aussi être disponible sous d'autres licences, comme listées dessous.
-* Les logiciels de OSGeo-Live sont disponibles sous différentes licences libres et opensource, comme 
+* Les logiciels de OSGeo-Live sont disponibles sous différentes licences libres et opensource, comme
   listées dans les vues d'ensemble des projets.
 * Les données sur OSGeo-Live sont disponibles sous différentes licences ouvertes.
 
@@ -23,7 +23,7 @@ Vous êtes susceptibles d'utiliser un texte d'attribution similaire à l'un des 
 
 **Verbeux, adapté pour un rapport d'une centaine de pages:**
 
-  |CC-By-SA-med| Ce document inclut le contenu du "guide de démarrage rapide gvSIG" créé par Simon Cropper sous la license Creative Commons Attribution 3.0 non transposé, http://creativecommons.org/licenses/by-sa/3.0/deed.fr disponible sur le projet OSGeo-Live, http://live.osgeo.org/fr/quickstart/gvsig_quickstart.html, et téléchargé le 25 Juillet 2011. Le travail original a été traduit de l'anglais à l'allemand.
+  |CC-By-SA-med| Ce document inclut le contenu du "guide de démarrage rapide gvSIG" créé par Simon Cropper sous la license Creative Commons Attribution 3.0 non transposé, http://creativecommons.org/licenses/by-sa/3.0/deed.fr disponible sur le projet OSGeo-Live, http://live.osgeo.org/fr/quickstart/gvsig_quickstart.html, et téléchargé le 25 Juillet 2011. Le travail original a été traduit de l'anglais au français.
 
   .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/deed.fr
