@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-|osgeo-live-version| Métriques du projet
+Métriques du projet |osgeo-live-version|
 ================================================================================
 
-Les métriques fournies par `OpenHUB <https://www.openhub.net/>`_ sont dérivées à partir des dépôts du code du projet. Notez que ces métriques ont connu des déficiences (causées par des changements de dépôts), et fournissent seulement des indications partielles à propos du développement du projet. Un manque de changement dans des paquets plus petits concis et librairies peuvent simplement refléter un niveau de maturité et de complétude. 
+Les métriques fournies par `OpenHUB <https://www.openhub.net/>`_ sont dérivées à partir des dépôts du code du projet. Notez que ces métriques ont connu des déficiences (causées par des changements de dépôts), et fournissent seulement des indications partielles à propos du développement du projet. Un manque de changement dans des paquets plus petits concis et librairies peuvent simplement refléter un niveau de maturité et de complétude.
 
 L'affichage des métriques requiert une connexion Internet et Javascript doit être activé.
 
@@ -153,7 +153,7 @@ Librairies Géospatiales
   <script type="text/javascript" src="http://www.openhub.net/p/geos/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/liblas/widgets/project_factoids_stats.js"></script>
 
-Librairies de Système de Référence de Coordonnées 
+Librairies de Système de Référence de Coordonnées
 --------------------------------------------------------------------------------
 
 .. raw:: html
