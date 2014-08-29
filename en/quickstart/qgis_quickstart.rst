@@ -1,8 +1,9 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Author: Hamish Bowman
+:Author: Zoltan Siki
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -24,7 +25,7 @@
 QGIS Quickstart 
 ********************************************************************************
 
-Quantum GIS (QGIS) is a user friendly Desktop GIS client which lets
+QGIS is a user friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
 
 .. contents:: Contents
@@ -36,8 +37,9 @@ Edit QGIS project
 Let's start by opening up an existing QGIS project, and turning layers on and
 off.
 
-.. TBD: Cameron's review comments:
-  Screen shot here (showing menu selection with NaturalEarth highlighted)
+     .. image:: ../../images/screenshots/1024x768/qgis_project_open.png
+       :scale: 70 %
+       :alt: Open a QGIS project
 
 #. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`Project --> Open` from the menu bar.
 
@@ -51,6 +53,7 @@ off.
 
      .. image:: ../../images/screenshots/1024x768/qgis.png
         :scale: 70 %
+        :alt: Map in QGIS
 
 #. Try dragging layers up and down in the legend and see how that
    affects visibility of the layers below.
@@ -62,36 +65,35 @@ off.
    You can also zoom in and out with the mouse wheel, and pan with a
    left-click drag.
 
-.. TBD: Cameron's review comments:
-  Screen shot here, touched up with a red circle around the "hand" icon.
-  http://wiki.osgeo.org/wiki/Live_GIS_Add_Project#Screen_Shot
-  HB: toolbars are all on top of each other by default, it's not ideal..
-
-
 Style a layer
 ================================================================================
 
 Now let's try customising the style of the map.
 
-.. TBD: Cameron's review comments:
-  Screen shot or two here
+     .. image:: ../../images/screenshots/1024x768/qgis_style_set.png
+        :scale: 70 %
+        :alt: Style setting
 
 #. Zoom in a little on the map, then double click ``ne_10m_rivers_lake_centerlines`` in
    the Layers tree.
 
-#. Change the color in `Outline Options` to a different color, say yellow.
+#. In the `Layer Properties` dialog on the `Style` tab click on the 
+`Color` to select a different color, say yellow.
 
 #. Press :guilabel:`OK`.
 
    * Notice that rivers are now rendered in your new color.
 
+     .. image:: ../../images/screenshots/1024x768/qgis_style.png
+        :scale: 70
+        :alt: Map in QGIS
 
 Create a new QGIS project
 ================================================================================
 
 Let's now create a new QGIS project and load our own data.
 
-#. Choose :menuselection:`Project --> New`.
+#. Choose :menuselection:`Project --> New`. You will be asked whether to save the previous project, you can press :guilabel:`Close without Saving`.
 
 #. Click :menuselection:`Layer --> Add Vector Layer...`.
 
@@ -101,8 +103,13 @@ Let's now create a new QGIS project and load our own data.
 
    * You should see all world countries.
 
-.. TBD: Cameron's review comments:
-  Screen shot here
+     .. image:: ../../images/screenshots/1024x768/qgis_add_layer.png
+        :scale: 70
+        :alt: Add layer
+
+     .. image:: ../../images/screenshots/1024x768/qgis_countries.png
+        :scale: 70
+        :alt: Add layer result
 
 
 Connect to a PostGIS spatial database
@@ -146,16 +153,18 @@ Let's now include a layer from a Postgres database.
    menu, then select :menuselection:`Properties`.
 
 #. Let's represent one of the database attributes in the data as a bubble plot.
-   In the middle of the `Layer Properties` window, drag the Transparency
+   In the middle of the `Style` tab, drag the Transparency
    slider to **50%**, press the :guilabel:`Advanced` button and select
-   :menuselection:`Size scale field`, then choose **elevation** 
-   (it's in about the middle of the list), and finally set the
-   symbol `Size` scaling to **0.02**. Then click :guilabel:`Ok`.
+   :menuselection:`Size scale field`, then choose **scalerank** 
+   (it's near to the beginning of the list). Then click :guilabel:`Ok`.
 
 #. You can then click on the query button on the toolbar (cursor arrow with
    a blue "i") and then on the map canvas bubbles to view information about
    the individual cities.
 
+     .. image:: ../../images/screenshots/1024x768/qgis_bubble.png
+        :scale: 70
+        :alt: Scale field map
 
 Using the GRASS Toolbox
 ================================================================================
@@ -165,10 +174,12 @@ functionality. One of the more powerful is the GRASS plugin, which taps
 into the hundreds of geospatial processing modules available
 from :doc:`GRASS GIS <../overview/grass_overview>`.
 
-.. TBD: Cameron's review comments:
-  Screen shot here, show toolbox menu, which has been scrolled down to show GRASS, ticked.
-
 #. Clear the slate with :menuselection:`Project --> New`.
+
+   .. image:: ../../images/screenshots/800x600/qgis_plugin.png
+      :scale: 70 %
+      :alt: Enable GRASS plugin
+      :align: right
 
 #. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
    type ``grass`` into the Search box, and select the `GRASS` plugin.
@@ -178,7 +189,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
 #. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
 
-   * The GRASS GIS data base (Gisdbase) has already been set to `~/grassdata` on
+   * The GRASS GIS data base (Gisdbase) has already been set to `/home/user/grassdata` on
      the disc for you.
 
 #. Within the central GRASS data base are a number of sample datasets. We'll
@@ -198,12 +209,13 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
    PERMANENT mapset.
 
    * Double click on the `elevation.10m` map in the QGIS layer list and in
-     the Transparency tab set its global transparency to 50%.
+     the Transparency tab set its global transparency to 30%.
 
 #. To add a vector map, choose :menuselection:`Plugins --> GRASS --> Add GRASS vector layer`.
 
    * From the PERMANENT mapset select the `roads` map and click :guilabel:`Ok`.
 
+#. Change the layer order if neccessary (roads, elevation, aspect).
 
 The plugin also gives you access to many of the powerful GRASS analysis
 modules and visualization tools:
@@ -245,6 +257,10 @@ modules and visualization tools:
    to 1, then if needed click the green :guilabel:`DRAW` button in the top
    left and wait while it renders.
 
+   .. image:: ../../images/screenshots/800x600/qgis_3d.jpg
+      :scale: 70 %
+      :alt: 3D visualization
+
 
 Using the Processing Toolbox
 ================================================================================
@@ -261,6 +277,10 @@ It acts as a standardized wrapper around a number of other sets to tools.
 
    * A new toolbar will open on the right side of the screen with many
      processing tools to choose from. Take some time and have a look around.
+
+   .. image:: ../../images/screenshots/800x600/qgis_toolbox.png
+      :scale: 70 %
+      :alt: Processing Toolbox
 
 
 Importing OpenStreetMap data
