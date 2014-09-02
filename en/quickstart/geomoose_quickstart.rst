@@ -20,7 +20,7 @@ GeoMoose is a GIS data portal management framework. The installed version of Geo
 
 * Go to the "Browser Clients" folder on the desktop.
 
-* Click on the desktop icon "Start GeoMoose". This will launch the Default browser which will navigate to the correct location automatically.
+* Click on the desktop icon "Start GeoMoose". This will launch the default browser which will navigate to the correct location automatically.
 
 * You will be presented with a web page displaying a demo interface of a GeoMoose instance.
 

@@ -16,9 +16,11 @@ In this Quickstart guide you will learn the following:
     #. add a new layer
     #. create a map using your new layer
     #. share your map with others
-    
-To start GeoNode on your OSGeoLive DVD you have to choose :menuselection:`Geospatial --> Browser Clients --> Start GeoNode` and the GeoNode webpage will automatically
-be opened at http://geonode. The page will look like the image below.
+
+To start GeoNode on your OSGeoLive DVD you have to
+choose :menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start GeoNode` and
+after a few moments the GeoNode webpage will automatically
+open at http://geonode. The page will look like the image below.
 
     .. figure:: ../../images/screenshots/800x600/geonode_start_page.png
 
