@@ -15,7 +15,7 @@ Ushahidi
 出来事のタイムラインとマッピング
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-「Ushahidi <http://www.ushahidi.com/>_」エンジンは、SMS、eメールまたはWebを介してデータの収集に誰でも貢献できるオープンソース・プラットフォームです。また、データは地図やタイムラインとして視覚化できます。Ushahidi（ウシャヒディ）の目標は、民主的な情報を生成するツールとなること、透明性を高めること、そして物語を共有するための参加障壁を下げることにあります。
+「`Ushahidi <http://www.ushahidi.com/>`_」エンジンは、SMS、eメールまたはWebを介してデータの収集に誰でも貢献できるオープンソース・プラットフォームです。また、データは地図やタイムラインとして視覚化できます。Ushahidi（ウシャヒディ）の目標は、民主的な情報を生成するツールとなること、透明性を高めること、そして物語を共有するための参加障壁を下げることにあります。
 
 .. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
@@ -55,9 +55,9 @@ Ushahidi
 
 **ウェブサイト:** http://www.ushahidi.com
 
-**ライセンス:** GNU General Public License (GPL) version 3
+**ライセンス:** GNU Lesser General Public License (GPL) version 3 
 
-**ソフトウェアのバージョン:** 2.7 (Bamako)
+**ソフトウェアのバージョン:** 2.7.4 (Bamako)
 
 **APIのインターフェース:** PHP
 
@@ -69,6 +69,6 @@ Ushahidi
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`クイックスタート文書 <../quickstart/ushahidi_quickstart>`
+* :doc:`クイックスタート <../quickstart/ushahidi_quickstart>`
 
 
