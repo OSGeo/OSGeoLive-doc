@@ -41,7 +41,7 @@ deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando
 desde el principo, utilizando sus datos y cumpliendo sus requerimientos.
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
   :scale: 50%
   :alt: project logo
   :align: right

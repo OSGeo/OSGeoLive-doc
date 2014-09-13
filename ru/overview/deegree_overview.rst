@@ -41,7 +41,7 @@ deegree
 
 deegree запустит вашу ИПД, используя ваши собственные данные и согласно вашим требованиям.
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
   :scale: 50%
   :alt: логотип проекта
   :align: right

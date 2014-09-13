@@ -40,7 +40,7 @@ deegree gets your SDI up and running, using your own data and fulfilling
 your requirements.
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.jpg
+.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
   :scale: 50%
   :alt: project logo
   :align: right
