@@ -77,11 +77,9 @@ Mapbender
 
 **官方网站：** http://mapbender3.org/ 
 
-**开源协议：** Mapbender 以 GNU General Public License 和 简化 BSD License 双协议发布
-  * http://svn.osgeo.org/Mapbender/trunk/Mapbender/license/gpl.txt  
-  * http://svn.osgeo.org/Mapbender/trunk/Mapbender/license/simplified_bsd.txt
+**开源协议：** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**软件版本：** 3.0.3.2
+**软件版本：** 3.0.4.0
 
 **平台支持：** Windows, Linux, Mac
 

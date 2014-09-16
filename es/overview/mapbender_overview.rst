@@ -101,11 +101,9 @@ Detalles
 
 **Sitio web:** http://mapbender3.org/ 
 
-**Licencia:** Mapbender se encuentra bajo una licencia dual compuesta por la la licencia GNU General Public License y la licencia Simplified BSD license
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
+**Licencia:** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**Version del software:** 3.0.3.2
+**Version del software:** 3.0.4.0
 
 **Platformas soportadas:** Windows, Linux, Mac
 

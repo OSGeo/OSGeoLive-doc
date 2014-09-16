@@ -78,11 +78,9 @@ Detalls
 
 **Lloc Web:** http://mapbender3.org/ 
 
-**Llicència:** Mapbender es troba sota una llicència dual composta per la llicència GNU General Public License i la llicència Simplified BSD license
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/gpl.txt  
-  * http://svn.osgeo.org/mapbender/trunk/mapbender/license/simplified_bsd.txt
+**Llicència:** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**Versió del Programari:** 3.0.3.2
+**Versió del Programari:** 3.0.4.0
 
 **Plataformes suportades:** Windows, Linux, Mac
 
