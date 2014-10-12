@@ -64,7 +64,7 @@ Details
 
 **Licence:** MIT License
 
-**Software Version:** 1.0.1
+**Software Version:** Latest trunk
 
 **Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows
 

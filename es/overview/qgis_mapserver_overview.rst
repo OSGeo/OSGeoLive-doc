@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: ../../images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right

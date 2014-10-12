@@ -1,11 +1,10 @@
 :Author: Brian Hamlin
-:Reviewer: tbd
+:Reviewer: Cameron Shorter
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/logos/OSGeo_compass_with_text_square.png 
-  :scale: 90 %
+.. image:: ../../images/project_logos/logo-netcdf.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -17,8 +16,6 @@ NetCDF Data Set
 
 Map Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Comment: change me
 
 NetCDF (Network Data Form comune) è un insieme di librerie software e di formati di dati
 che si auto-descrivono, macchine-indipendenti che supportano la creazione, l'accesso e

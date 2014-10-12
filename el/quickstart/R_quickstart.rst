@@ -2,8 +2,7 @@
 :Έκδοση: osgeo-live5.5
 :Άδεια: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-R.jpg
-  :scale: 60 %
+.. image:: ../../images/project_logos/logo-R.png
   :alt: project logo
   :align: right
 

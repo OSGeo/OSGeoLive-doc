@@ -4,8 +4,7 @@
 
 .. _r-overview:
 
-.. image:: ../../images/project_logos/logo-R.jpg
-  :scale: 100 %
+.. image:: ../../images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org

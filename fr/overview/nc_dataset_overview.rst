@@ -3,8 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/logos/OSGeo_compass_with_text_square.png 
-  :scale: 90 %
+.. image:: ../../images/project_logos/logo-ncdataset.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
