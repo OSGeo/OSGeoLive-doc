@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
-  :scale: 65 %
   :alt: логотип проекта
   :align: right
   :target: http://mapserver.org/

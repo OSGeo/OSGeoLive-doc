@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-deegree.png
-  :scale: 80 %
   :alt: логотип проекта
   :align: right
   :target: http://www.deegree.org

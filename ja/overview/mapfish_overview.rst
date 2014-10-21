@@ -7,7 +7,6 @@
 .. _mapfish-overview-ja:
 
 .. image:: ../../images/project_logos/logo-mapfish.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.mapfish.org

@@ -8,7 +8,6 @@
 .. _udig_overview-es:
 
 .. image:: ../../images/project_logos/logo-uDig.png
-  :scale: 30
   :alt: udig logo
   :align: right
   :target: http://udig.refractions.net/

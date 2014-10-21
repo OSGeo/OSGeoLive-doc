@@ -7,7 +7,6 @@
 .. _52nSOS-overview-pl:
 
 .. image:: ../../images/project_logos/logo_52North_160.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://52north.org/sos

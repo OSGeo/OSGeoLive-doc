@@ -4,7 +4,6 @@
 
 
 .. image:: ../../images/project_logos/logo-QGIS.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org

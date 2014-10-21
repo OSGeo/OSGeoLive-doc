@@ -5,7 +5,6 @@
 :Translato: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-leaflet.png 
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://leafletjs.com

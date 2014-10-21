@@ -5,7 +5,6 @@
 
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://mapserver.org/tinyows/

@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
-  :scale: 100 %
   :alt: логотип проекта 
   :align: right
   :target: http://52north.org/security

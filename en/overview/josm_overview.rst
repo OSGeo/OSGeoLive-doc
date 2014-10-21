@@ -5,7 +5,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-josm.png
-  :scale: 45 %
   :alt: project logo
   :align: right
   :target: http://josm.openstreetmap.de

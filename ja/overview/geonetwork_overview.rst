@@ -5,7 +5,6 @@
 .. _geonetwork-overview-ja:
 
 .. image:: ../../images/project_logos/logo-GeoNetwork.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/

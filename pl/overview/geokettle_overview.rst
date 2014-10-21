@@ -7,7 +7,6 @@
 .. _geokettle-overview-pl:
 
 .. image:: ../../images/project_logos/logo-geokettle.png
-  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/

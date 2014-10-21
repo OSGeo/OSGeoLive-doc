@@ -5,7 +5,6 @@
 .. _mapguide-overview-ja:
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/

@@ -6,7 +6,6 @@
 .. _sahana-overview-es:
 
 .. image:: ../../images/project_logos/logo-sahana-eden.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.sahanafoundation.org

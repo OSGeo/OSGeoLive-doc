@@ -7,7 +7,6 @@
 .. _mapbender-overview-pl:
 
 .. image:: ../../images/project_logos/logo-Mapbender3.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org

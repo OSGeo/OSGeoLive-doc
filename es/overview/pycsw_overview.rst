@@ -7,7 +7,6 @@
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/

@@ -8,7 +8,6 @@
 .. _geopublisher-overview-es:
 
 .. image:: ../../images/project_logos/logo-Geopublisher.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/Geopublisher

@@ -5,7 +5,6 @@
 
 
 .. image:: ../../images/project_logos/logo-openjump.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.openjump.org

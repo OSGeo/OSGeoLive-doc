@@ -8,7 +8,6 @@
 .. _gvsig-overview-es:
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
-  :scale: 75 %
   :alt: project logo
   :align: right
   :target: http://www.gvsig.org/

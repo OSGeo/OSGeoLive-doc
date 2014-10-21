@@ -5,7 +5,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geomoose.png
-  :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/

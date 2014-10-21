@@ -7,7 +7,6 @@
 .. _otb-overview-es:
 
 .. image:: ../../images/project_logos/logo-otb.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.orfeo-toolbox.org/

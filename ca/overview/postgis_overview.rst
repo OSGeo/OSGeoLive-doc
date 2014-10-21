@@ -28,7 +28,6 @@
     ../../images/project_logos/<filename>
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
-  :scale: 30 %
   :alt: logo del projecte
   :align: right
   :target: http://postgis.refractions.net/

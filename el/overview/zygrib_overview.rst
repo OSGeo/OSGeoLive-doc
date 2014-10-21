@@ -5,7 +5,6 @@
 
 
 .. image:: ../../images/project_logos/logo-zygrib.png
-  :scale: 150 %
   :alt: project logo
   :align: right
   :target: http://www.zygrib.org

@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-marble.png
-  :scale: 75 %
   :alt: логотип проекта
   :align: right
   :target: http://edu.kde.org/marble/

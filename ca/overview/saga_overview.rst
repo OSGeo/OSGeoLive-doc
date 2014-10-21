@@ -5,7 +5,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-saga.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org

@@ -4,7 +4,6 @@
 :Лицензия: Creative Commons
 
 .. image:: ../../images/project_logos/logo-osm.png
-  :scale: 80 %
   :alt: Логотип проекта
   :align: right
   :target: http://www.openstreetmap.org

@@ -6,7 +6,6 @@
 :Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-tilemill.png
-  :scale: 100 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com

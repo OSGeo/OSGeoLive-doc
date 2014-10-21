@@ -6,7 +6,6 @@
 
 
 .. image:: ../../images/project_logos/logo-opencpn.png
-  :scale: 70 %
   :alt: project logo
   :align: right
   :target: http://www.opencpn.org

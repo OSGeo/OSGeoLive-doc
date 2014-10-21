@@ -5,7 +5,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
-..  :scale: 60 %
 ..  :alt: project logo
 ..  :align: right
 ..  :target: http://trac.osgeo.org/metacrs/wiki
@@ -23,7 +22,6 @@ Transformation von verschiedenen Koordinatensystemen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/project_logos/logo-metacrs.png
-  :scale: 100 %
   :alt: Beispiel Kartenprojektion
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki

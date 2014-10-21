@@ -7,7 +7,6 @@
 .. _gpsdrive-overview-pl:
 
 .. image:: ../../images/project_logos/logo-gpsdrive.png
-  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://www.gpsdrive.de

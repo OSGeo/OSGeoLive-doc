@@ -6,7 +6,6 @@
 :Translator: Frank Gasdorf, Stephan Meissl
 
 .. image:: ../../images/project_logos/logo-eoxserver.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://eoxserver.org/

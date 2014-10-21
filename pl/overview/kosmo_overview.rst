@@ -7,7 +7,6 @@
 .. _kosmo-overview-pl:
 
 .. image:: ../../images/project_logos/logo-Kosmo.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en

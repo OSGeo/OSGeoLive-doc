@@ -6,7 +6,6 @@
 :Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-geomoose_w-title.png
-  :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/

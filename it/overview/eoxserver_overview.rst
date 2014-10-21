@@ -6,7 +6,6 @@
 :Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-eoxserver.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://eoxserver.org/

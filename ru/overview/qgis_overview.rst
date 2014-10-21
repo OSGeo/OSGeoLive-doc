@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
-  :scale: 100 %
   :alt: Лого проекта
   :align: right
   :target: http://www.qgis.org

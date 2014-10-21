@@ -5,7 +5,6 @@
 
 
 .. image:: ../../images/project_logos/logo-ossim.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.ossim.org/

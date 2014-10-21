@@ -6,7 +6,6 @@
 .. _atlasstyler-overview-es:
 
 .. image:: ../../images/project_logos/logo-AtlasStyler.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler

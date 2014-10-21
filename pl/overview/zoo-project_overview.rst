@@ -6,7 +6,6 @@
 
 
 .. image:: ../../images/project_logos/logo-Zoo.png
-  :scale: 50 %
   :alt: project logo
   :align: right
   :target: http://zoo-project.org/

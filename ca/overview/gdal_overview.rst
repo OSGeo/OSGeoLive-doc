@@ -6,7 +6,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
-  :scale: 60 %
   :alt: logo del projecte
   :align: right
   :target: http://gdal.org/

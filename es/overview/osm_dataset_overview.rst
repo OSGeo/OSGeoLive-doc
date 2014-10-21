@@ -9,7 +9,6 @@
 .. _osm_dataset-overview:
 
 .. image:: ../../images/project_logos/logo-osm.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.osm.org/

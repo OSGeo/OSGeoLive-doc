@@ -8,7 +8,6 @@
 .. _pgrouting-overview:
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
-  :scale: 100 %
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/

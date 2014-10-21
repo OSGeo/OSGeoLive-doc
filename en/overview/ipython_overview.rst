@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ipython.png
-  :scale: 90 %
   :alt: project logo
   :align: center
   :target: http://ipython.org/

@@ -6,7 +6,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-osgearth.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://osgearth.org/

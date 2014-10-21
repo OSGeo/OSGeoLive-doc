@@ -7,7 +7,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
-  :scale: 100 %
   :alt: Logo de pgRouting 
   :align: right
   :target: http://www.pgrouting.org/

@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-opencpn.png
-  :scale: 70 %
   :alt: project logo
   :align: right
   :target: http://www.opencpn.org

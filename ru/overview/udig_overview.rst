@@ -6,7 +6,6 @@
 
 
 .. image:: ../../images/project_logos/logo-uDig.png
-  :scale: 30
   :alt: Логотип udig
   :align: right
   :target: http://udig.refractions.net/

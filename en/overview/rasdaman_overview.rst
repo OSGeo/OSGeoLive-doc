@@ -6,7 +6,6 @@
 .. _rasdaman-overview:
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.rasdaman.org

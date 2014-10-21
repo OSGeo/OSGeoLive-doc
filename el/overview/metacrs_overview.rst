@@ -6,7 +6,6 @@
 
 
 .. image:: ../../images/project_logos/logo-GDAL.png
-  :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki
@@ -24,7 +23,6 @@ MetaCRS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/project_logos/logo-metacrs.png
-  :scale: 100 %
   :alt: map projection example
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki

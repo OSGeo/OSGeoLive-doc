@@ -5,7 +5,6 @@
 .. _mapnik-overview-ja:
 
 .. image:: ../../images/project_logos/logo-mapnik.png
-  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://mapnik.org/

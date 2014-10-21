@@ -7,7 +7,6 @@
 .. _marble-overview-pl:	
 
 .. image:: ../../images/project_logos/logo-marble.png
-  :scale: 75 %
   :alt: project logo
   :align: right
   :target: http://marble.kde.org/

@@ -8,7 +8,6 @@
 .. _geotools-overview-es:
 
 .. image:: ../../images/project_logos/logo-GeoTools.png
-  :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://geotools.org/

@@ -5,7 +5,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-spatialite.png
-  :scale: 50 %
   :alt: project logo
   :align: right
   :target: http://www.gaia-gis.it/spatialite/

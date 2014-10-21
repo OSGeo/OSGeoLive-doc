@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/jts_project.png
-  :scale: 60 %
   :alt: project logo
   :align: right
 

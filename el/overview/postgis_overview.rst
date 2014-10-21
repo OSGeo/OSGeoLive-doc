@@ -6,7 +6,6 @@
 
 
 .. image:: ../../images/project_logos/logo-PostGIS.png
-  :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://www.postgis.net/

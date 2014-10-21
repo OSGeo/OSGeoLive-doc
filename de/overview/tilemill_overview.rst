@@ -6,7 +6,6 @@ Translator: Astrid Emde
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-tilemill.png
-  :scale: 100 %
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com

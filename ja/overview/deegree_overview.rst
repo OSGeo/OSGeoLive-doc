@@ -5,7 +5,6 @@
 .. _deegree-overview-ja:
 
 .. image:: ../../images/project_logos/logo-deegree.png
-  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://www.deegree.org

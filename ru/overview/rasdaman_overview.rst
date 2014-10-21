@@ -7,7 +7,6 @@
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-rasdaman.png
- :scale: 100 %
  :alt: Логотип проекта
   :align: right
   :target: http://rasdaman.org

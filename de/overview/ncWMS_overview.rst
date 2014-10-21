@@ -5,7 +5,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ncWMS.png
- :scale: 100 %
  :alt: Projekt Logo
  :align: right
  :target: http://www.resc.rdg.ac.uk/trac/ncWMS/

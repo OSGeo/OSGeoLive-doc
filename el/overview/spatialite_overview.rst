@@ -5,7 +5,6 @@
 
 
 .. image:: ../../images/project_logos/logo-spatialite.png
-  :scale: 50 %
   :alt: project logo
   :align: right
   :target: http://www.gaia-gis.it/gaia-sins/

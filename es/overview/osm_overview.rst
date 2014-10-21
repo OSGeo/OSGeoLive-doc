@@ -6,7 +6,6 @@
 .. _osm-overview-es:
 
 .. image:: ../../images/project_logos/logo-osm.png
-  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://www.openstreetmap.org

@@ -4,7 +4,6 @@
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-viking.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/

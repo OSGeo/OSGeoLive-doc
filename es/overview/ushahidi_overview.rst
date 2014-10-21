@@ -6,7 +6,6 @@
 .. _ushahidi-overview-es:
 
 .. image:: ../../images/project_logos/logo-ushahidi.png
-  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com

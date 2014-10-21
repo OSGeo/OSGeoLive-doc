@@ -5,7 +5,6 @@
 
 
 .. image:: ../../images/project_logos/logo-saga.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org

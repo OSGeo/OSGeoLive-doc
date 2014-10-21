@@ -4,7 +4,6 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Zoo.png
-  :scale: 50 %
   :alt: Логотип
   :align: right
   :target: http://zoo-project.org/

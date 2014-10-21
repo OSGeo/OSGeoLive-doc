@@ -5,7 +5,6 @@
 :Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/jts_project.png
-  :scale: 60 %
   :alt: project logo
   :align: right
 

@@ -8,7 +8,6 @@
 .. _geonetwork-overview-es:
 
 .. image:: ../../images/project_logos/logo-GeoNetwork.png
-  :scale: 100 %
   :alt: logo del proyecto
   :align: right
   :target: http://geonetwork-opensource.org/

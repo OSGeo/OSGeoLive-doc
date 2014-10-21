@@ -7,7 +7,6 @@
 .. _naturalearth-overview-es:
 
 .. image:: ../../images/project_logos/logo-naturalearth.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.naturalearthdata.com/

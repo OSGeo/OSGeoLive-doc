@@ -7,7 +7,6 @@
 .. _geoserver-overview-el:
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
-  :scale: 100%
   :alt: project logo
   :align: right
   :target: http://geoserver.org/display/GEOS/Welcome

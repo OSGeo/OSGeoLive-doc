@@ -6,7 +6,6 @@
 :Translator: Luca Delucchi
 
 .. image:: ../../images/project_logos/logo-josm.png
-  :scale: 45 %
   :alt: project logo
   :align: right
   :target: http://josm.openstreetmap.de

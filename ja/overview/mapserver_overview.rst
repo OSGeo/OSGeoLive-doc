@@ -5,7 +5,6 @@
 .. _mapguide-overview:
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
-  :scale: 65 %
   :alt: project logo
   :align: right
   :target: http://mapserver.org/
