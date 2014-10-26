@@ -102,7 +102,7 @@ Detalles
 
 **Licencia:** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**Version del software:** 3.0.4.0
+**Version del software:** |version-mapbender|
 
 **Platformas soportadas:** Windows, Linux, Mac
 

@@ -66,7 +66,7 @@ Mapbender
 
 **Άδεια:** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**Έκδοση Λογισμικού:** 3.0.4.0
+**Έκδοση Λογισμικού:** |version-mapbender|
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
 

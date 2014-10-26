@@ -78,7 +78,7 @@ Mapbender
 
 **开源协议：** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**软件版本：** 3.0.4.0
+**软件版本：** |version-mapbender|
 
 **平台支持：** Windows, Linux, Mac
 

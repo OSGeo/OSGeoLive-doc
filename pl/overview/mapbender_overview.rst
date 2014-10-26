@@ -68,7 +68,7 @@ Szczegóły
 
 **Licencja:** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**Wersja programu:** 3.0.4.0
+**Wersja programu:** |version-mapbender|
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

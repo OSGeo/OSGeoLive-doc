@@ -79,7 +79,7 @@ Detalls
 
 **Llicència:** `MIT license <http://opensource.org/licenses/MIT>`_
 
-**Versió del Programari:** 3.0.4.0
+**Versió del Programari:** |version-mapbender|
 
 **Plataformes suportades:** Windows, Linux, Mac
 
