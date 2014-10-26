@@ -77,9 +77,9 @@ Symfony offers a developer mode with lot of information about your application (
 Welcome page
 ================================================================================
 
-#. The Welcome page lists applications that are public and can be used by all users. The applications are listed with a little screenshot, a title and a description.
+#. The Welcome page lists applications that are public and can be used by all users. The applications are listed with a screenshot, a title and a description.
 
-#. You can open an application by click on the title or the start button.
+#. You can open an application by click on the title, the screenshot or the start button.
 
 #. Before you can administrate with Mapbender you have to login to get access to the administration.
 
@@ -101,6 +101,7 @@ After the login you are directed to the :guilabel:`Applications` with a list of 
 The Application overview provides the following functionality:
 
  * title and description
+ * screenshot for the application (if provided)
  * link to the application
  * button to duplicate the application
  * button to edit the application
@@ -125,6 +126,8 @@ Create a new application by providing basic information about your application. 
 
 #. define an URL title which will be used in the URL to open te application. It can be the same as the title
 
+#. upload an image file as screenshot for the application overview
+
 #. choose a template for your application
 
 #. choose the button **Create** to create the application
@@ -148,19 +151,24 @@ Delete an application
 ================================================================================
 You can delete an application from the menu item :menuselection:`Applications` with the :menuselection:`+-button`.
 
-..
-  NOT IMPLEMENTED YET
-  Export an application
-  ================================================================================
-  You can export an application as SQL with :menuselection:`Applications --> Export  application (SQL)`. The SQL contains all the definitions of the application elements and can be imported in another Mapbender installation. 
 
-  .. tip:: The export of an application does not contain the service information and the informations about user and group access.
+Export / Import applications and sources
+================================================================================
+You can export applications as JSON or YAML with :menuselection:`Applications --> Export. You can chose one or more applications to export and you can also export the sources which are published in the applications.
 
+  .. image:: ../../images/screenshots/800x600/mapbender3_application_export.png
+     :scale: 80
+
+The exportfile contains all the definitions of the application/s (sources) and can be imported via :menuselection:`Applications --> Import` in another Mapbender3 installation or in the same installation. 
+
+  .. image:: ../../images/screenshots/800x600/mapbender3_application_import.png
+     :scale: 80
 
 
 Management of Data Sources
 ================================================================================
-Mapbender can handle different Services like OGC WMS or OGC WMTS or OGC WFS. Every Service has to be handled differently. The administration provides an administration interface for every source (at the moment only WMS). 
+Mapbender can handle different Services like OGC WMS or OGC WMTS or OGC WFS. Every Service has to be handled differently. The administration provides an administration interface for every source (at the moment only WMS).
+
 
 Service Repository overview
 ================================================================================
@@ -251,10 +259,12 @@ Service configuration
 * exceptionformat - choose the format for exceptions
 * opacity - choose opacity in percent
 * visible
-* proxy
-* transparency
-* tiled - you can request a WMS in tiles, default is not tiled
-
+* basesource
+* proxy - if active the service will be requested by Mapbender and not directly
+* transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)
+* tiled - you can request a WMS in tiles, default is not tiled (may be a good choice if you map is very big an the WMS service does not support the width/height)
+* BBOX factor
+* tile buffer
 
 Layer configuration
 
@@ -265,8 +275,8 @@ Layer configuration
 * info on - layer provides feature info requests, info default activates the feature info functionality
 * info allow 
 * minscale / maxscale - the scale range in which the layer should be displayed, 0 means no scale limitation
-* toggle
-* reorder
+* toggle - open folder on start of the application
+* reorder - allows to reorder the layers with drag & drop while using the application
 * ... -> opens a dialog with more information
 * name
 * style - if a WMS provides more than one style you can choose a different style than the default style
@@ -300,11 +310,13 @@ Examples for elements Mapbender3 offers:
 
 * About Dialog
 * Activity Indicator
+* BaseSourceSwitcher
 * Button
 * Coordinates Display
 * Copyright
 * Feature Info
 * GPS-Position
+* HTML
 * Legend
 * Layertree - Table of Content
 * Map
@@ -313,11 +325,15 @@ Examples for elements Mapbender3 offers:
 * Ruler Line/Area
 * Scale Selector
 * ScaleBar
+* SimpleSearch
 * Search Router
 * SRS Selector
 * Spatial Reference System Selector (SRS Selector)
 * Navigation Toolbar (Zoombar)
 * WMS Loader
+* WMC Editor
+* WMC Loader
+* WMC List 
 
 You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
 
@@ -383,7 +399,7 @@ Assign users to group
  
 
 Roles
-=====
+================================================================================
 Mapbender3 provides different rights. They refer to the Symfony ACL System http://symfony.com/doc/2.1/cookbook/security/acl_advanced.html#built-in-permission-map
 
 * view - Whether someone is allowed to view the object.
@@ -455,4 +471,4 @@ Get to know Mapbender on
 
 Get involved in the project
 
-    http://www.mapbender.org/Community
+	http://www.mapbender.org/Community
