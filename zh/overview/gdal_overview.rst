@@ -62,7 +62,7 @@ OGR矢量数据模型兼容 OGC Simple Features 标准规范
 
 **版权:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**软件版本:** 1.10.1
+**软件版本:** |version-gdal|
 
 **支持平台:** Windows, Linux, Mac
 

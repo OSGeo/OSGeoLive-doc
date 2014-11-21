@@ -69,7 +69,7 @@ OGR ベクタデータモデルは OGC Simple Features 仕様に準拠してい�
 
 **ライセンス:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**バージョン:** 1.10.1
+**バージョン:** |version-gdal|
 
 **動作プラットフォーム:** Windows、Linux、Mac
 

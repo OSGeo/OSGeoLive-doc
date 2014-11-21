@@ -70,11 +70,11 @@ Détails
 
 **Licence:** `license opensource style X/MIT <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
-**Version du logiciel:** 1.10.1
+**Version du logiciel:** |version-gdal|
 
 **Plates-formes supportées:** Windows, Linux, Mac
 
-*Interfaces de l'API:** C, C++, Python, Java, C#, Ruby, VB6 et Perl
+**Interfaces de l'API:** C, C++, Python, Java, C#, Ruby, VB6 et Perl
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
