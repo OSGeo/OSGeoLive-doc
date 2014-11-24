@@ -30,6 +30,9 @@ The OTB applications provide lot's of interesting tools which facilitate the man
 Sample data used in this quickstart can be found here:
   * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
 
+Please download the data and extract them in the folder `/home/user/otb/`.
+
+
 Display metadata informations in an image 
 ================================================================================
 
