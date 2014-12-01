@@ -58,11 +58,11 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 4.0
+**Software Version:** 4.2.1
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**API Interfaces:** C++ (bindings in Java and Python available)
+**API Interfaces:** C++
 
 **Commercial Support:** http://www.osgeo.org/search_profile
 
