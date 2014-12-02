@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geomoose_w-title.png
@@ -61,7 +61,7 @@ Details
 
 **Lizenz:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Software Version:** 2.6.1
+**Software Version:** 2.7.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

@@ -2,7 +2,7 @@
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
 :Reviewer: Anna Muñoz Bollas
-:Version: osgeo-live6.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geomoose_w-title.png
@@ -61,7 +61,7 @@ Detalls
 
 **Llicència:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Versió de programari:** 2.6.1
+**Versió de programari:** 2.7.1
 
 **Sistemes operatius:** Windows, Linux, Mac
 
