@@ -247,7 +247,7 @@ rst_epilog="""
 .. |version-gvsig| replace:: 2.1
 .. |version-mapbender| replace:: 3.0.4.0
 .. |version-udig| replace:: 1.4.0b
-.. |version-52nWPS| replace:: 3.3.0
+.. |version-52nWPS| replace:: 3.3.1
 .. |version-52nSOS| replace:: 4.0.0
 .. |version-eoxserver| replace:: 0.3.2
 """ % {
