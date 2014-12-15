@@ -1,5 +1,5 @@
 :Author: Pieter De Graef
-:Version: osgeo-live4.0
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-geomajas.png
@@ -41,5 +41,5 @@ Starting the Geomajas Application
 Customizing the Geomajas Application
 ================================================================================
 
-If you want to use this sample application to build and customize your own Web GIS solution … please visit `<http://www.geomajas.org/download/>`_.
+If you want to use this sample application to build and customize your own Web GIS solution … please visit `<http://www.geomajas.org/client-gwt>`_.
 The download page always features the latest and greatest sample applications, documentation, tips and tricks to roll-your-own.
