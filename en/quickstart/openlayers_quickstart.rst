@@ -1,171 +1,256 @@
+:Author: Antonio Santiago
 :Author: Chris Schmidt
-:Version: osgeo-live7.0draft
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
 OpenLayers Quickstart 
 ********************************************************************************
 
+Previous concepts
+--------------------------------------------------------------------------------
+
+Before start working with OpenLayers we need to understand how it organize and represents all the concepts related to GIS application.
+
+The main concept is the *map*, which allows to organize and render geographic 
+information. Each map has a *view* attached that determines how map is 
+rendered. It is used to set the resolution, the center location, etc. It is like 
+a camera through which we look the map content.
+
+*Layers* allows us to organize data into sets. We can found two distinct types 
+of layers: *raster layers* and *vector layers*. Layers are added to the map in
+a stacked order, that is, lower layers are rendered before upper layers.
+
+Each layer has a *source* attached, which knows how to load the layer content.
+In the case of vector layers, its sources are responsible to read vector data 
+using a given *format* class (for example GeoJSON or KML) and fill the layer 
+with a set of *features*.
+
+OpenLayers offers an extensive set of sources, both for raster and vector data,
+among we can found raster sources to load from MapQuest, OpenStreetMap, Stamen, 
+Bing or WMS compliant servers, or vector sources to load from GeoJSON, TopoJSON, 
+WFS compliant servers or KML.
+
+*Features* represent real world things and can be rendered using different 
+*geometries* (like point, line or polygon) using a given *style*, which determines
+its look (line color, fill color, etc).
+
+
+Basic code structure
+--------------------------------------------------------------------------------
+
+Application can be as complex as you want, but a the basic code structure you 
+need to set up an OpenLayers page looks as follows:
+
+.. code-block:: html
+  
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <title>Your app title</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width">
+
+          <!-- OpenLayers CSS -->
+          <link rel="stylesheet" href="http://ol3js.org/en/master/build/ol.css" type="text/css">
+          
+          <!-- Your app custom styles -->
+          <style>
+            #map {
+              width: 100%;
+              height: 500px;
+            }
+          </style>
+      </head>
+      <body>
+          <!-- Your app HTML tags here -->
+          <div id="map"></div>
+
+          <!-- OpenLayers JS-->
+          <script src="http://ol3js.org/en/master/build/ol.js" type="text/javascript"></script>
+          
+          <!-- your app code -->
+          <script>
+          </script>
+          
+      </body>
+  </html>
+
+**Ex. 1**: Basic code structure
+
+Note, the code follows the best practice of loading JavaScipt code at the end.
+
+A basic map
+--------------------------------------------------------------------------------
+
+Let's go to see the code needed to create a basic map:
+
+.. code-block:: html
+  
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <title>Basic map</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width">
+
+          <!-- OpenLayers CSS -->
+          <link rel="stylesheet" href="http://ol3js.org/en/master/build/ol.css" type="text/css">
+          
+          <!-- Custom styles -->
+          <style>
+            #map {
+              width: 100%;
+              height: 500px;
+            }
+          </style>
+      </head>
+      <body>
+          <h1>Basic map</h1>
+
+          <div id="map"></div>
+
+          <!-- OpenLayers JS-->
+          <script src="http://ol3js.org/en/master/build/ol.js" type="text/javascript"></script>
+          
+          <!-- App code -->
+          <script>
+            var map = new ol.Map({
+              target: 'map',
+              renderer: 'canvas',
+              layers: [
+                new ol.layer.Tile({
+                  source: new ol.source.OSM()
+                })
+              ],
+              view: new ol.View({
+                center: ol.proj.transform([2.1833, 41.3833], 'EPSG:4326', 'EPSG:3857'),
+                zoom: 6
+              })
+            });
+          </script>
+          
+      </body>
+  </html>
+
+**Ex. 2:** A basic map
+
+An OpenLayers map is always related with a DOM element, so we have created a 
+``<div>`` element identified by the *map* tag.
+
+Maps are represented by the ``ol.Map`` class. It requires we specify at construction
+time the DOM element where to render the map and its content. This is done through
+the **target** property.
+
+OpenLayers allows to render map using different three different mechanisms: Canvas, WebGL and DOM. Here we are forcing to use *canvas* by setting it in the **renderer**
+property.
+
+A map shows data contained within layers, so we have created a tiled layer (represented
+by the ``ol.layer.Tile`` class) that loads content from the OpenStreetMap 
+project, using the ``ol.source.OSM`` source class.
+
+Finally, we need to set the initial position of the *camera*, that is the map's 
+view, to render the map. The map's view is represented by the ``ol.View`` class
+and requires we set the initial zoom level and center location.
+
+
+Adding raster layers
+--------------------------------------------------------------------------------
+
+One of the most used kind of raster layers are tiled provided layers, like 
+OpenStreetMap, MapQuest, Bing, etc. Tiled layers are represented by the 
+``ol.layer.Tile`` class and must use a source that knows how to load tiles from
+a given provider, like ``ol.source.OSM`` or ``ol.source.MapQuest`:
+
+.. code-block:: javascript
+
+  var osm = new ol.layer.Tile({
+    source: new ol.source.OSM()
+  });
+
+  var mq = new ol.layer.Tile({
+    source: new ol.source.MapQuest({
+      layer: 'osm'
+    })
+  });
+
+**Ex. 3:** Raster layers
+
+Layers can be added to the map in two ways:
+
+1. Passing to the map at construction time with the ``layers`` property:
+
+.. code-block:: javascript
+
+  var map = new ol.Map({
+    ...
+    layers: [osm, mq]
+    ...
+  });
+
+**Ex. 4:** Adding layers on map initialization
+
+2. Adding manually with the ``map.addLayer()`` method:
+
+.. code-block:: javascript
+
+  map.addLayer(osm);
+  map.addLayer(mq);
+
+**Ex. 5:** Adding layers manually
+
+Adding vector layers
+--------------------------------------------------------------------------------
+
+Vector layers are represented by the ``ol.layer.Vector`` and must use a kind of 
+source suitable to read a vector data format, like ``ol.source.GeoJSON``,
+``ol.source.KML`` or ``ol.source.TopoJSON``.
+
+.. code-block:: javascript
+
+  var vectorLayer = new ol.layer.Vector({
+    source: new ol.source.GeoJSON({
+      url: 'url_to_file'
+    })
+  });
+
+**Ex. 6:** A GeoJSON vector layer
+
+Note, in the previous code we must change the ``url_to_file`` to point to a 
+valid GeoJSON file placed in our server (note you must be aware of cross domain 
+issues).
+
+Features can also be created manually. In this case we need to create a geometry
+that represents the feature:
+
+.. code-block:: javascript
+
+  // Geometries
+  var point = new ol.geom.Point(
+      ol.proj.transform([3,50], 'EPSG:4326', 'EPSG:3857')
+  );
+  var circle = new ol.geom.Circle(
+      ol.proj.transform([2.1833, 41.3833], 'EPSG:4326', 'EPSG:3857'),
+      1000000
+  );
+
+  // Features
+  var pointFeature = new ol.Feature(point);
+  var circleFeature = new ol.Feature(circle);
+
+  // Source
+  var vectorSource = new ol.source.Vector({
+      projection: 'EPSG:4326'
+  });
+  vectorSource.addFeatures([pointFeature, circleFeature]);
+
+  // Vector layer
+  var vectorLayer = new ol.layer.Vector({
+    source: vectorSource
+  });
+
+**Ex. 7:** Adding features by hand
+
 OpenLayers Examples
 --------------------------------------------------------------------------------
 Sometimes the quickest way to work out how OpenLayers works is to look at examples, which are installed at: `http://localhost/openlayers/examples <../../openlayers/examples>`_.
-
-Creating Your First Map
---------------------------------------------------------------------------------
-The OpenLayers API has two concepts which are important to understand in
-order to build your first map: 'Map', and 'Layer'. An OpenLayers Map
-stores information about the default projection, extents, units, and so
-on of the map. Inside the map, data is displayed via 'Layer's. A Layer
-is a data source -- information about how OpenLayers should request data
-and display it.
-
-Crafting HTML
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Building an OpenLayers viewer requires crafting HTML in which your
-viewer will be seen. OpenLayers supports putting a map inside of any
-block level element -- this means that it can be used to put a map in
-almost any HTML element on your page.
-
-In addition to a single block level element, it is also required to
-include a script tag which includes the OpenLayers library to the
-page. 
-
-.. code-block:: html
-  
-  <html>
-  <head>
-    <title>OpenLayers Example</title>
-      <script src="http://localhost/openlayers/OpenLayers.js"></script>
-      </head>
-      <body>
-        <div style="width:100%; height:100%" id="map"></div>
-      </body>
-  </html>
-    
-**Ex. 1**: Creating your first HTML Page   
-
-Creating the Map Viewer
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-In order to create the viewer, you must first create a map. The
-OpenLayers.Map constructor requires one argument: This argument must
-either be an HTML Element, or the ID of an HTML element. This is the
-element in which the map will be placed.
-
-.. code-block:: javascript
-
-  var map = new OpenLayers.Map('map');
-  
-**Ex. 2:** Map Constructor
-
-The next step to creating a viewer is to add a layer to the Map.
-OpenLayers supports many different data sources, from WMS to Yahoo! Maps
-to WorldWind. In this example, the WMS layer is used. The WMS layer is
-an example provided by MetaCarta.
-
-.. code-block:: javascript
-
-  var wms = new OpenLayers.Layer.WMS(
-    "WMS",
-    "http://localhost/cgi-bin/qgis_mapserv.fcgi", 
-    {
-    'map': '/usr/local/share/qgis/QGIS-NaturalEarth-Example.qgs',
-    'layers':'HYP_50M_SR_W,ne_10m_lakes,ne_10m_rivers_lake_centerline'} );
-  map.addLayer(wms);
-
-**Ex. 3:** Layer Constructor
-
-The first parameter in this constructor is the name of the layer,
-which is used for some display purposes. The second 
-argument is the URL of the WMS server.
-The third argument is an object containing the parameters to be 
-appended to the WMS request.
-
-Finally, in order to display the map, you must set a center and zoom
-level. In order to zoom to fit the map into the window, you can use the
-zoomToMaxExtent function, which will zoom as close as possible while
-still fitting the full extents within the window.
-
-Putting it All Together
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-The following code block puts all the pieces together to create an 
-OpenLayers viewer.
-
-.. code-block:: html
-
-  <html>
-  <head>
-    <title>OpenLayers Example</title>
-      <script src="http://localhost/openlayers/OpenLayers.js"></script>
-      </head>
-      <body>
-        <div style="width:100%; height:100%" id="map"></div>
-        <script defer="defer" type="text/javascript">
-          var map = new OpenLayers.Map('map');
-          var wms = new OpenLayers.Layer.WMS(
-            "WMS",
-            "http://localhost/cgi-bin/qgis_mapserv.fcgi", 
-            {
-            'map': '/usr/local/share/qgis/QGIS-NaturalEarth-Example.qgs',
-            'layers':'HYP_50M_SR_W,ne_10m_lakes,ne_10m_rivers_lake_centerline'} );
-          map.addLayer(wms);
-          map.zoomToMaxExtent();
-        </script>
-  
-  </body>
-  </html>
-
-**Ex. 4:** Full HTML and Javascript for simple WMS browser
-
-Adding an Overlay WMS
---------------------------------------------------------------------------------
-
-WMS layers have the capability to be overlaid on top of other WMS layers in
-the same projection. There are several ways to mark a layer as an overlay,
-rather than a base layer. With WMS, the best way to do this is by setting the
-'transparent' parameter to 'true'. The example here uses a political borders
-WMS to demonstrate overlaying a transparent WMS.
-
-.. code-block:: javascript
-
-    var twms = new OpenLayers.Layer.WMS( "World Map", 
-        "http://world.freemap.in/cgi-bin/mapserv?", 
-        { map: '/www/freemap.in/world/map/factbooktrans.map', 
-          transparent: 'true', layers: 'factbook'} 
-        );
-    map.addLayer(twms);
-
-**Ex. 5:** How to add a transparent WMS overlay to your map.
-
-Using the transparent: 'true' parameter sets two flags automatically:
- 
- * format parameter. The format option of the WMS layer is set to image/png if
-   the browser supports transparent PNG images. (This is all browsers except
-   for Internet Explorer 6.) In Internet Explorer 6, this will instead be set
-   to image/gif.
-   
- * isBaseLayer option. The isBaseLayer option controls whether the layer
-   can be displayed at the same time as other layers. This option defaults
-   to false for the WMS layer, but setting transparent to true changes
-   it to true by default.
-
-Adding a Vector Marker to the Map
---------------------------------------------------------------------------------
-
-To add a single marker at a latitude and longitude to the map, you can use
-a Vector Layer to add an overlay.
-
-.. code-block:: html  
-   
-   var vectorLayer = new OpenLayers.Layer.Vector("Overlay");
-   var feature = new OpenLayers.Feature.Vector(
-    new OpenLayers.Geometry.Point(-71, 42),
-    {some:'data'},
-    {externalGraphic: 'img/marker.png', graphicHeight: 21, graphicWidth: 16});
-   vectorLayer.addFeatures(feature);
-   map.addLayer(vectorLayer);
-
-This is a simple demonstration -- more information is available on overlays,
-how to interact with them, and how to control and style them via the
-OpenLayers documentation on openlayers.org.
