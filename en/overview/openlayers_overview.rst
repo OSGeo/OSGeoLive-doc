@@ -89,8 +89,6 @@ Details
 
 **API Interface:** JavaScript
 
-**Source code:** https://github.com/openlayers/ol3
-
 **Support:** https://groups.google.com/forum/#!forum/ol3-dev
 
 
