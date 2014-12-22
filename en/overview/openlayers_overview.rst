@@ -7,6 +7,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
+  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
@@ -25,7 +26,7 @@ Browser/Mobile Map Library And GIS Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: screenshot
   :align: right
 
@@ -44,9 +45,7 @@ Core Features
 
 * Layers
 
-  * Raster: WMS/WMTS compliant servers, cached tiles and proprietary providers
-  (OpenStreetMap, MapQuest, Stamen, Bing and support for any XYZ cached tiles
-  provider), static images, etc.
+  * Raster: WMS/WMTS compliant servers, cached tiles and proprietary providers (OpenStreetMap, MapQuest, Stamen, Bing and support for any XYZ cached tiles provider), static images, etc.
   * Vector: WFS compliant servers, KML, GeoJSON, TopoJSON, GPX, and IGC.
   * Heatmaps.
   * Support to render vector layers as raster.
@@ -75,8 +74,7 @@ Core Features
 * Misc
 
   * Mobile browser support.
-  * Light weight library, 390kb the whole library with all features. Possibility
-  to build customized packages to reduce size.
+  * Light weight library, 390kb the whole library with all features. Possibility to build customized packages to reduce size.
   * Possibility to render maps using different technologies: Canvas, WebGL, DOM.
   * Raster analysis (change hue/saturation).
 
