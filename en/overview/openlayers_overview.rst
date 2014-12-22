@@ -1,6 +1,6 @@
 :Author: Chris Schmidt
 :Author: OSGeo-Live
-:Author: Roald de Wit 
+:Author: Roald de Wit
 :Author: Antonio Santiago
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live8.5
@@ -18,10 +18,10 @@
   :target: http://www.osgeo.org
 
 
-OpenLayers
+OpenLayers3
 ================================================================================
 
-Browser GIS Client
+Browser/Mobile Map Library And GIS Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
@@ -29,38 +29,63 @@ Browser GIS Client
   :alt: screenshot
   :align: right
 
-OpenLayers makes it easy for web developers to embed dynamic maps, from a
-multitude of sources, in any web page. OpenLayers provides an extensive set of
-mapping tools and widgets, similar to the Google Maps API. All functionally
-runs inside the web browser, which makes OpenLayers easy to install, without
-any server side dependencies.
+OpenLayers3 is a light weight library, mobile ready out of the box that
+relies on latest browser technologies like HTML5, WebGL and CSS3.
+
+OpenLayers3 is a completely rewritten from scratch version of the predecesor
+OpenLayers2 library, which aims to be a high performance and feature-packed
+library for all the mapping needs.
+
+OpenLayers3 offers an extensive set of features that covers from basic to
+advanced requirements needed by any kind of web mapping and GIS development.
 
 Core Features
 --------------------------------------------------------------------------------
 
-* Simple to use Javascript API, designed to make development easy
-* Support for standard and customized protocols for interacting with servers
-* Tools to create custom user interfaces simply
-* Support for in-browser data rendering (using Canvas, WebGL and DOM technologies), supporting the development of advanced in-browser maps
-* Support for mobile devices (with a focus on touch devices)
-* Ability to load map layers from many sources:
-  
-  * Commercial Layers: MapQuest, Stamen, Bing
-  
-  * OGC Standards: :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (transactional), :doc:`../standards/gml_overview` 
-  
-  * Others: OpenStreetMap (OSM), static images, Zoomify
+* Layers
 
-* Ability to parse vector data and metadata in many formats:
-  
-  * GeoJSON, TopoJSON, KML, OSMXML
+  * Raster: WMS/WMTS compliant servers, cached tiles and proprietary providers
+  (OpenStreetMap, MapQuest, Stamen, Bing and support for any XYZ cached tiles
+  provider), static images, etc.
+  * Vector: WFS compliant servers, KML, GeoJSON, TopoJSON, GPX, and IGC.
+  * Heatmaps.
+  * Support to render vector layers as raster.
+
+* Controls and Interactions
+
+  * Map overview, zoom slider, zoom in/out buttons, scale line, rotation, etc.
+  * Map pan, zoom and rotation, feature selection, modification, etc.
+
+* Styling and customization
+
+  * Powerful mechanism to style features: points, lines, polygons and icons.
+  * Flexibility to customize controls look and feel using CSS3.
+
+* Overlays
+
+  * Render any DOM element at any map's place.
+  * Great flexibility to create tooltips and markers.
+  * Mix the power of HTML5 capabilities with a mapping application.
+
+* Events
+
+  * Attach listener functions to react against map events.
+  * Create your custom controls or interactions.
+
+* Misc
+
+  * Mobile browser support.
+  * Light weight library, 390kb the whole library with all features. Possibility
+  to build customized packages to reduce size.
+  * Possibility to render maps using different technologies: Canvas, WebGL, DOM.
+  * Raster analysis (change hue/saturation).
 
 Details
 --------------------------------------------------------------------------------
 
 **Website:** http://openlayers.org
 
-**License:** 2-clause BSD License (aka FreeBSD License) 
+**License:** 2-clause BSD License (aka FreeBSD License)
 
 **Software Version:** 3.0.0
 
