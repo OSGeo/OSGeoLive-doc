@@ -85,6 +85,10 @@ A basic map
 
 Let's go to see the code needed to create a basic map:
 
+.. image:: ../../images/openlayers-basic-map.png
+  :alt: Basic map
+  :align: right
+
 .. code-block:: html
   
   <!DOCTYPE html>
@@ -210,11 +214,15 @@ source suitable to read a vector data format, like ``ol.source.GeoJSON``,
 
   var vectorLayer = new ol.layer.Vector({
     source: new ol.source.GeoJSON({
-      url: 'url_to_file'
+      url: 'url_to_geojson_file'
     })
   });
 
 **Ex. 6:** A GeoJSON vector layer
+
+.. image:: ../../images/openlayers-vector.png
+  :alt: Vector layer
+  :align: right
 
 Note, in the previous code we must change the ``url_to_file`` to point to a 
 valid GeoJSON file placed in our server (note you must be aware of cross domain 
@@ -251,6 +259,71 @@ that represents the feature:
 
 **Ex. 7:** Adding features by hand
 
+Styling features
+--------------------------------------------------------------------------------
+
+Vector layers or, better said, the features within a vector layer can be styled.
+The style is determined by a combination of fill, stroke, text  and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.
+
+An style is represented by the ``ol.style.Style`` class which has properties to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. Next example shows the World's administrative limits styled to use a green fill and stroke:
+
+.. image:: ../../images/openlayers-styling.png
+  :alt: Styling features
+  :align: right
+
+.. code-block:: javascript
+
+  var limitsLayer = new ol.layer.Vector({
+    source: new ol.source.StaticVector({
+      url: 'data/world_limits.json',
+      format: new ol.format.TopoJSON(),
+      projection: 'EPSG:3857'
+    }),
+    style: new ol.style.Style({
+      fill: new ol.style.Fill({
+        color: 'rgba(55, 155, 55, 0.3)'
+      }),
+      stroke: new ol.style.Stroke({
+        color: 'rgba(55, 155, 55, 0.8)',
+        width: 1
+      }),
+      image: new ol.style.Circle({
+        radius: 7,
+        fill: new ol.style.Fill({
+          color: 'rgba(55, 155, 55, 0.5)',
+        })
+      })
+    })
+  });
+
+**Ex. 8:** Styling features
+
+In the code, we have loaded a TopoJSON file and styled it trough the ``style``property.
+We have set a ``fill`` and ``stroke``, required for lines and polygons, and an 
+``image`` (in this case a circle) used for point features.
+
+Working with events
+--------------------------------------------------------------------------------
+
+Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time mouse is moved over the map, when a featured is added to a vector layer, etc.
+
+Events can be easily registered on object with the ``on()`` method and unregistered with ``un()``.
+
+Next code, registers an event on a map instance that is notified each time the pointer is moved. Within the callback function we obtain the pointer coordinates and print in the browser console in two different projections.
+
+.. code-block:: javascript
+
+  map.on('pointermove', function(event) {
+    var coord3857 = event.coordinate;
+    var coord4326 = ol.proj.transform(coord3857, 'EPSG:3857', 'EPSG:4326');
+
+    console.log(coord3857, coord4326);
+  });
+
+**Ex. 9:** Printing pointer position.
+
+
 OpenLayers Examples
 --------------------------------------------------------------------------------
-Sometimes the quickest way to work out how OpenLayers works is to look at examples, which are installed at: `http://localhost/openlayers/examples <../../openlayers/examples>`_.
+Sometimes the quickest way to work out how OpenLayers works is to look at examples
+and its source code. You can find OpenLayers3 examples installed at: `http://localhost/openlayers/examples <../../openlayers/examples>`_.
