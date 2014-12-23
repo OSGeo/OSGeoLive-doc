@@ -160,23 +160,23 @@ The list of icons beneath the summary for each record indicates the links that t
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-summarylinks.png
 
-#. Yellow star: This is a link to the metadata record that can be copied into the brower bookmarks.
+*Yellow star:* This is a link to the metadata record that can be copied into the brower bookmarks.
 
-#. Globe: If the record has a link to an OGC Web Map Service (WMS), then clicking on this icon will generate a kml file that can be opened in google earth.
+*Globe:* If the record has a link to an OGC Web Map Service (WMS), then clicking on this icon will generate a kml file that can be opened in google earth.
 
-#. Green plus sign:  If the record has a link to an OGC Web Map Service (WMS), then clicking on this icon will add the WMS link as a layer to the GeoNetwork web map viewer and open the *Map* tab with the layer displayed.
+*Green plus sign:*  If the record has a link to an OGC Web Map Service (WMS), then clicking on this icon will add the WMS link as a layer to the GeoNetwork web map viewer and open the *Map* tab with the layer displayed.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-openlinktowms.png
     
         *Clicking on a link to a WMS*
 
-#. Orange down arrow: This is a link to a file for download that has been attached to a metadata record as an online resource. Clicking on this link will start a download dialogue.
+*Orange down arrow:* This is a link to a file for download that has been attached to a metadata record as an online resource. Clicking on this link will start a download dialogue.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-downloaddialog.png
     
         *Clicking on a link to a file for download*
 
-#. Blue right arrow: This is a link to a web resource that has been attached to the metadata record. The resource could be a downloadable file or another html page or any type of html link. The web resource will open in a new browser tab.
+*Blue right arrow:* This is a link to a web resource that has been attached to the metadata record. The resource could be a downloadable file or another html page or any type of html link. The web resource will open in a new browser tab.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-weblink.png
     
