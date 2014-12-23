@@ -85,9 +85,8 @@ A basic map
 
 Let's go to see the code needed to create a basic map:
 
-.. image:: ../../images/openlayers-basic-map.png
-  :alt: Basic map
-  :align: right
+.. image:: ../../images/screenshots/800x600/openlayers-basic-map.png
+  :scale: 70 %
 
 .. code-block:: html
   
@@ -164,7 +163,7 @@ Adding raster layers
 One of the most used kind of raster layers are tiled provided layers, like 
 OpenStreetMap, MapQuest, Bing, etc. Tiled layers are represented by the 
 ``ol.layer.Tile`` class and must use a source that knows how to load tiles from
-a given provider, like ``ol.source.OSM`` or ``ol.source.MapQuest`:
+a given provider, like ``ol.source.OSM`` or ``ol.source.MapQuest``:
 
 .. code-block:: javascript
 
@@ -220,9 +219,8 @@ source suitable to read a vector data format, like ``ol.source.GeoJSON``,
 
 **Ex. 6:** A GeoJSON vector layer
 
-.. image:: ../../images/openlayers-vector.png
-  :alt: Vector layer
-  :align: right
+.. image:: ../../images/screenshots/800x600/openlayers-vector.png
+  :scale: 70 %
 
 Note, in the previous code we must change the ``url_to_file`` to point to a 
 valid GeoJSON file placed in our server (note you must be aware of cross domain 
@@ -267,9 +265,8 @@ The style is determined by a combination of fill, stroke, text  and image, which
 
 An style is represented by the ``ol.style.Style`` class which has properties to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. Next example shows the World's administrative limits styled to use a green fill and stroke:
 
-.. image:: ../../images/openlayers-styling.png
-  :alt: Styling features
-  :align: right
+.. image:: ../../images/screenshots/800x600/openlayers-styling.png
+  :scale: 70 %
 
 .. code-block:: javascript
 
