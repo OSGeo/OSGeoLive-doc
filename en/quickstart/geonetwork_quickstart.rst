@@ -86,9 +86,9 @@ Pressing the search button (magnifying glass/search icon) will do the search and
 
 There are also two filters that you can apply to the results of any search:
 
-*Web services*: Ticking this checkbox will filter the results and return only those results that have a link to an OGC Web Map Service (WMS)
+*Web Services*: Ticking this checkbox will filter the results and return only those results that have a link to an OGC Web Map Service (WMS)
 
-*Data for download*: Ticking this checkbox will filter the results and return only those results that have a file attached to the metadata record for download 
+*Data Available*: Ticking this checkbox will filter the results and return only those results that have a file attached to the metadata record for download from GeoNetwork.
   
 Advanced Search
 --------------------------------------------------------------------------------
