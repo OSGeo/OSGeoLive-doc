@@ -35,203 +35,178 @@ Start |GN|
 
 - Select the "Start GeoNetwork" icon.
 - The application will take a few moments to start up
-- Go to the |GN| home page at http://localhost:8880/geonetwork. Your first view of |GN| should look like the screenshot below.
+- Go to the |GN| home page at http://localhost:8880/geonetwork. Your first view (an empty *Home* tab) of |GN| should look like the screenshot below.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-firstviews.png
 
-- To get to know |GN| we are going to load the sample metadata. Log in to |GN| using the username *admin* and password *admin* in the dedicated fields on the top right corner, then click the login button.
+- To get to know |GN| (and provide a much more interesting *Home* page!) we are going to load the sample metadata. Log in to |GN| using the username *admin* and password *admin* by clicking on *Sign in* at the end of the left hand menu at the top of the page.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-login.png
 
-- You should now see an *Administration* link in the banner. Click on it.
+- You should now see an *Administration* link appear next to the logged in user details in the left hand menu at the top of the *Home* page. Click on it. 
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-administration-banner.png
 
-- When the *Administration* page appears, scroll to the bottom of the page and load the sample data by clicking on the 'Add sample metadata' button.
+- When the *Administration* page appears in a new browser tab, select the iso19139 schema from the list and load the sample data by clicking on the 'Add sample metadata' button.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-addsampledatabutton.png
 
-- Return to the 'Home' page after the sample metadata has been loaded to continue the rest of the quick start guide. When you return to the homepage your screen should look something like the one shown below.
+- After the sample metadata has been loaded, return to the *Home* page by either closing the Administration tab in the browser or clicking on the tab to the left of the Administration tab. Refresh the page using the browser refresh icon and your screen should look something like the one shown below.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-returntohomepage.png
 
 Searching
 --------------------------------------------------------------------------------
 
-There are many different ways to search the catalogue for maps and other geographic data. This guide will introduce you to the most popular search methods: default, advanced and by category. Whichever search you choose, remember that you will see results based on your privileges and assigned work group (more on this later).
+There are many different ways to search the catalogue for maps and other geographic data. This guide will introduce you to the most popular search methods: free text and advanced. Whichever search you choose, remember that you will see results based on your privileges and assigned work group (more on this later).
 
 .. note:: 
 	The term *data* refers to datasets, maps, tables, documents, etc, in fact anything that can be linked to the metadata record that describes it.
 
-Default Search
+To access Search functions, click on the *Catalogue* tab.
+
+.. figure:: ../../images/screenshots/800x600/geonetwork-catalogtab.png
+
+Free Text Search
 --------------------------------------------------------------------------------
 
-The default search allows you to search text within the entire record, such as
-keywords of the metadata and/or geographic location.
+Free text search allows you to search text extracted from all fields in the metadata record and indexed in the GeoNetwork lucene index.
 
-**Free text search.** *Type* a search term in the *What?* field. You can type anything here
-(free text). You can use quotes around text to find exact combinations of words.
+*Type* a search term in the search box next to the magnifying glass/search icon. You can type anything here (free text). You can use quotes around text to find exact combinations of words. When you type 3 or more characters GeoNetwork will search the index and offer you alternatives from the metadata record text to complete your search.
 
-Text and operators (and, or, not) are not case sensitive. 
+.. figure:: ../../images/screenshots/800x600/geonetwork-freetext1.png
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-what.png
+  *The Search Box and some alternatives from the index*
 
-  *The free text field.*
-	
-**Geographic search.** For the geographic search, two options are available for selecting a particular
-region to limit the search:
+Pressing the search button (magnifying glass/search icon) will do the search and find those records that contain the entered text. 
 
-You can select a **region** from a predefined list;
+.. figure:: ../../images/screenshots/800x600/geonetwork-freetext2.png
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-where1.png
-  
-  *The region field*
+  *Search results*
 
-You can select your own *area of interest* in a more interactive way. A small global map is shown on the screen from which you can drag and drop the frame of your location area. Just click on the button on the upper right of the map screen.
-
-.. figure:: ../../images/screenshots/800x600/geonetwork-where2.png
-  
-  *Interactive Area Of Interest map*
-
-**Perform search.** Both types of search, free text search and geographic search can be combined to
-restrict the query further.
-
-Click the *Search* button to proceed and show the results.
-
-.. figure:: ../../images/screenshots/800x600/geonetwork-search_button.png
-
-  *The Search button*
-
-Searching by Categories
---------------------------------------------------------------------------------
-
-An additional way to search data within the |GN| database, from the home page, is searching by **Category**. A list of categories is provided to the user to identify data at a more generic level: **Applications**, **Audio/Video**, **Case study and best practises**, **Conference proceedings**, **Datasets**, **Directories**, **Interactive resources**, **Maps and graphics**, **Other information resources**, **Photo**.
-
-To search only for maps, click on **Maps and Graphics**. A list of maps will be displayed from which you
-may view details of every single map; just clicking on the **Metadata** button of the map you wish to review.
-
-.. figure:: ../../images/screenshots/800x600/geonetwork-Categories.png
-
-  *Search by Category*
   
 Advanced Search
 --------------------------------------------------------------------------------
 
-The advanced search option works similarly to the default search. However, you can be more specific in your search criteria as it offers different elements to look for data, each of them focusing one of the following aspects: *What?, Where?, When?*
+Advanced search allows you to search on text from specific fields in the metadata record (eg. title, keywords, temporal and spatial extent) or administrative data about the metadata records such as categories, groups or owners. Advanced search is activated by clicking on the *show advanced options* button just next to the magnifying glass/search icon:
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search1.png
+.. figure:: ../../images/screenshots/800x600/geonetwork-advancedsearchbutton.png
+
+  *show advanced options button*
+
+
+The advanced search options are divided into three (four with the inspire option, see User Manual for more) sections: *What, Where, When*
+
+.. figure:: ../../images/screenshots/800x600/geonetwork-advancedsearchoptions.png
 
   *Advanced search options*
 
-To perform an **advanced search**, from the home page **click Advanced** just below the search bottom.
+In the **What** section the elements are all related to the contents of the metadata record. The fields are populated from the index so that you can restrict your search to content that is actually in the index.  
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_button.png
+- To search on any of the **What** fields start typing text into the field or choose the drop down arrow at the right and choose one of the choices in the list populated from the index. If you do not want to search by a given field, simply leave it blank;
 
-  *Show advanced search options*
+.. figure:: ../../images/screenshots/800x600/geonetwork-what1.png
 
-In the **WHAT?** section the elements are all related to the data content. Through them, in addition to searching only free keywords in the entire metadata content, you can also search directly in the title or abstract fields and add more keywords to customise your search further. You can also specify the level of accuracy you wish to reach in performing your search.
+  *Typing b into the Keyword field, limits choices to metadata keywords beginning with b*
 
-- To search by **Title, Abstract, Free Text, or Keyword(s)** type any text into the respective field. You can enter information in one or multiple field(s). If you do not want to search by a given field, simply leave it blank;
+.. figure:: ../../images/screenshots/800x600/geonetwork-what2.png
 
-- You can choose the **accuracy of your search**, in terms of spelling words, from **Precise** = 1 to **Imprecise** = 0.2, through 3 more consecutive steps which are equal to 0.8, 0.6, 0.4.
+  *Choosing the drop down arrow to show organisation choices from metadata records*
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_what.png
+.. figure:: ../../images/screenshots/800x600/geonetwork-what3.png
 
-  *"What" section in the Advanced search*
+  *Choosing the drop down arrow to show categories of metadata records*
 
-The **WHERE?** parameters, which are related to the spatial extent, allow you, as in the default search, either to select your own area of interest or to select a predefined region from the drop-down list. In this section you can also type the geographic coordinates of a specific location that is not available from the above list.
+The **Where** fields, allow you to draw a box and search for metadata records whose extents overlap this box. 
 
-- To select **your own area of interest**, drag and drop the frame of your area on the global map using the appropriate tool on the bottom left of the map screen;
+- To draw a box, use the tool at the top right of the map;
 
-- To use **free coordinates**, type the lat-long geographic references in the appropriate fields around the map screen, without any limitation of decimal figures;
+.. figure:: ../../images/screenshots/800x600/geonetwork-where1.png
 
-- To use the coordinates of a **predefined region**, select the region from the drop-down list.
+  *To draw a search box*
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_where.png
+.. figure:: ../../images/screenshots/800x600/geonetwork-where2.png
 
-  *"Where" section in the Advanced search*
+  *Drawing a search box to apply in an advanced search*
 
-Whatever type of geographic search you decide to perform, in the **Spatial search type** field, you can choose from different options: **is**, **overlaps**, **encloses**, **is fully outside of**. If you use this field, be cautious as this limits your output data as follows:
+The **When** fields, allow you to select metadata records based on:
 
-- If you choose **Spatial search type** *is* “Country”, only maps for the selected country will be displayed. In other words, a city map within that country will not show in the output results.
+- the date when they were last modified (*Change date*)
+- their temporal extent
+- creation, modification, publication date
 
-- If you choose **Spatial search type** *overlaps* “Country”, all maps with the bounding box overlapping that country will be displayed in the results, i.e. the neighbouring countries, the continent of which that country is part of and the global maps.
+To activate any of these search fields, simply select a *From:* and *To:* date using the date widgets provided at the right hand side of the fields:
 
-- If you choose **Spatial search type** *encloses* “Country” you will get, in the output results, maps of that country first and then all maps within its bounding box.
+.. figure:: ../../images/screenshots/800x600/geonetwork-when1.png
 
-- Similarly, if you choose **Spatial search type** *is fully outside of* a selected region, only maps that follow that exact criteria will show in the output results.
+  *Searching on Change date in an advanced search*
 
-The **WHEN?** section gives you the possibility to restrict your search in terms of temporal extent, indicating a specific range of time referred to the data creation or publication date.
+The examples above have shown how to specify individual advanced search fields. Obviously these fields can be combined with each other and with the free text search fields to limit the search results as required. To search on any combination of free text and/or advanced search fields click the magnifying glass/search icon next to the free text search field.
 
-- To specify a range of time, click on the date selector button next to **From – To** fields. Make use of the symbols **>** and **>>** on top of the calendar to select the month and the year first and then click on the exact day; a complete date will be filled in using the following standard order: YY-MM-DD.
+.. figure:: ../../images/screenshots/800x600/geonetwork-advancedandfreesearch.png
 
-- To clean the time fields, simply click on the white cross on their right; the box **Any** will be automatically selected and the search will be performed without any restriction on the time period.
-
-.. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_when.png
-
-  *"When" section in the Advanced search*
-
-Finally, the advanced search allows you to apply further restrictions on the basis
-of additional parameters as data source, data categories and data format.
-
-- To limit your queries to only one **Catalogue** out of those made available by the installation through the harvesting process, highlight the catalogue of preference or just keep **Any** selected to search all sites.
-
-- To search for data organised by **Category**, such as Applications, Datasets, etc., simply highlight the category you wish to search in from the related drop-down list, otherwise we suggest to leave this field in **Any** Category.
-
-- You can search for **Digital** or **Hard Copy** maps. To search in one or the other, simply check the box next to the one you wish to search. If no box is checked, all content will be searched.
-
-At last, you can customise the number of output results per page in the *Hits Per Page* field. Simply highlight the number of records to be displayed or leave the field set on the default number (10).
-
-- Click the **Search** button.
-
-.. figure:: ../../images/screenshots/800x600/geonetwork-advanced_search_morerest.png
-
-  *Other options in the Advanced search*
+  *Searching on advanced and free text search fields*
 
 Search Results
 --------------------------------------------------------------------------------
 
-The output of a search provides you a list of the metadata records that should fit
-your request. For each record, the result page shows the title, an abstract and the
-keywords. According to the privileges that have been set for each metadata, a
-maximum of four sections can be consulted, as shown below.
-
-.. figure:: ../../images/screenshots/800x600/geonetwork-search_output2.png
-
-    *Search results*
-
-#. **Metadata**: The metadata section describes the dataset (e.g.: citation, data owner, temporal/spatial/methodological information) and could contain links to other web sites that could provide further information about the dataset.
-
-#. **Download**: Depending on the privileges that have been set for each record, when this button is present, the dataset is available and downloadable. The process for retrieving data is simple and quick by  just clicking the download button or by using the proper link in the specific metadata section for distribution info in the full metadata view.
+The output of a search provides you a list of the metadata records that should fit your request. For each record, a summary is presented showing the title, abstract, keywords, thumbnail (if any), owner (according to privileges) and date of modification. The bounding box of the metadata record is shown in the *Preview* window at the lower right of the screen.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-search_output1.png
-    
-        *A single search result*
-    
-.. figure:: ../../images/screenshots/800x600/geonetwork-download.png
-    
-        *Available services related to the resource*
 
-#. **Interactive Map**: The map service is also optional. When this button is shown, an interactive map for this layer is available and, by default, it will be displayed on the map screen of the simple search. To better visualise the map through the map viewer, **click** on **Show Map** on the top of search results panel.
+    *Search results: a summary of each record is presented*
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-interactive_map.png
+The list of icons beneath the summary for each record indicates the links that the record has available to online resources, permanent etc. The icons that appear here will depend upon the privileges that the current user has been assigned. Hovering over the icon will present a tooltip that describes what clicking on the icon will do.
+
+.. figure:: ../../images/screenshots/800x600/geonetwork-summarylinks.png
+
+#. Yellow star: This is a link to the metadata record that can be copied into the brower bookmarks.
+
+#. Globe: If the record has a link to an OGC Web Map Service (WMS), then clicking on this icon will generate a kml file that can be opened in google earth.
+
+#. Green plus sign:  If the record has a link to an OGC Web Map Service (WMS), then clicking on this icon will add the WMS link as a layer to the GeoNetwork web map viewer and open the *Map* tab with the layer displayed.
+
+.. figure:: ../../images/screenshots/800x600/geonetwork-openlinktowms.png
     
-        *The interactive map viewer*
+        *Clicking on a link to a WMS*
 
-#. **Graphic Overviews**: There are small and large overviews of the map used to properly evaluate usefulness of the data, especially if the interactive map is not available. Simply click on the small figure to enlarge it.
+#. Orange down arrow: This is a link to a file for download that has been attached to a metadata record as an online resource. Clicking on this link will start a download dialogue.
 
-.. figure:: ../../images/screenshots/800x600/geonetwork-thumbnail.png
+.. figure:: ../../images/screenshots/800x600/geonetwork-downloaddialog.png
     
-        *Large figure (graphic overview)*
+        *Clicking on a link to a file for download*
+
+#. Blue right arrow: This is a link to a web resource that has been attached to the metadata record. The resource could be a downloadable file or another html page or any type of html link. The web resource will open in a new browser tab.
+
+.. figure:: ../../images/screenshots/800x600/geonetwork-weblink.png
+    
+        *Hovering over a link to a web resource*
+
+Refining your search results using the Filter section (Faceted Searching)
+--------------------------------------------------------------------------------
+
+As discussed above, the output of a search provides you with a list of the metadata records that should fit your request. In GeoNetwork 2.10.x, additional information from the search results is also returned and summarized in the *Filter* sidebar. These pieces of information (known as facets) can be used indivdiually or in sequence to refine the search results and produce a smaller, more useful set of results. 
+
+.. figure:: ../../images/screenshots/800x600/geonetwork-filtersidebar.png
+    
+        *The Filter sidebar for the search results*
+
+This feature is obviously useful when the catalog has more than a few metadata records in it, however an idea of how it works is useful as the ability to refine your search by analyzing facets of information from the search results is a powerful tool. To refine your search simply select one of the facets from the categories shown in the filter sidebar:
+
+.. figure:: ../../images/screenshots/800x600/geonetwork-refinesearchwithfacets.png
+    
+        *Refining your search to datasets using facets in the Filter sidebar*
+
+To get a better idea of how useful this facility can be, try searching the Dutch National GeoRegister at http://www.nationaalgeoregister.nl/geonetwork
 
 Privileges, roles and user groups
 --------------------------------------------------------------------------------
 
 |GN| uses a system of *Privileges*, *Roles* and *User groups*.
 
-There are no restrictions for users to search and access **public information** in a |GN| opensource based catalogue. To get access to **restricted information** or advanced functionality, an account to log in is required. This should be provided by the |GN| administrator.
+There are no restrictions for users to search and access **public information** in a |GN| catalogue. To get access to **restricted information** or advanced functionality, an account to log in is required. This should be provided by the |GN| administrator.
 
-To log in, simply go to the home page and enter your username and password in the dedicated fields on the top right corner, then click the login button.
+Log in to |GN| using the username *admin* and password *admin* by clicking on *Sign in* at the end of the left hand menu at the top of the page.
 
 .. figure:: ../../images/screenshots/800x600/geonetwork-login.png
 
