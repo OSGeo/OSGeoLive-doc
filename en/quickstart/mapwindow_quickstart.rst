@@ -1,6 +1,6 @@
 :Author: Richard R. Schneider Dept. Biological Sciences University of Alberta Edmonton, Alberta, Canada 
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Product: MapWindow GIS 4.9
+:Product: MapWindow GIS Lite
 :Version: osgeo-live8.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Editor: http://rst.ninjs.org/
@@ -16,12 +16,12 @@
 ===============
 1. Introduction
 ===============
-This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9. 
+This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9.3. 
 A similar custom GIS application can be built based on this app or on the barebone 
 MapWinGIS control in a matter of days, using Visual Studio (Pro, Express or Community edition) or SharpDevelop.
 MapWinGIS v4.9 has a lot of improvements and bug fixes. The two biggest improvement are probably the support for 
 GeoSpation databases like PostGIS and the native Shapefile editor. Numerous memory leaks have been identified and solved,
-making this version more stable and faster. MapWinGIS v4.9 and thus this demo use GDAL v2.0.
+making this version of MapWinGIS more stable and faster. MapWinGIS v4.9.3 and thus this demo use GDAL v2.0.
 
 The development of this project depends on the public donations. Our plans include further development of 
 MapWinGIS core library and also releasing a new version of MapWindow desktop GIS based on it, 

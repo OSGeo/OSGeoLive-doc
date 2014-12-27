@@ -1,7 +1,7 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Reviewer: Cameron Shorter, LISAsoft
-:Product: MapWindow GIS 4.8.6
-:Version: osgeo-live5.5
+:Reviewer: 
+:Product: MapWindow GIS Lite
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
@@ -17,12 +17,25 @@ MapWindow GIS
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapWindow GIS is a Windows based, Open Source GIS client where
-you can visualize, manage, edit, analyse data, and compose printable maps.
-It includes powerful analytical functions through integration with GEOS and GDAL/OGR.
-MapWindow is easy to incorporate into MS-Office based products such as MS-Excel and MS-Access, as well as programs written in VB6, C++, C#, VB.NET, and Delphi, as MapWindow is based upon ActiveX controls.
+MapWindow GIS is a Windows based, Open Source GIS client where you can visualize, 
+manage, edit, analyse data, and compose printable maps.
+It includes powerful analytical functions through integration with GEOS and GDAL/OGR (v2).
+MapWindow is easy to incorporate into MS-Office based products such as MS-Excel 
+and MS-Access, as well as programs written in VB6, C++, C#, VB.NET, and Delphi, 
+as MapWindow is based upon an ActiveX control called MapWinGIS.
+This version is MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.3. The two 
+biggest improvement of this version are probably the support for GeoSpation databases 
+like PostGIS and the native Shapefile editor. Numerous memory leaks have been 
+identified and solved, making this version of MapWinGIS more stable and faster.
+The version included on this DVD is a Lite version because not all functionality 
+of MapWindow Desktop v4.8.8 are included. For instance the toolbox and plug-ins 
+are not included. This Lite version does has a fully functional shapefile editor 
+and support for GeoDatabases. MapWindow v5 (first version due mid 2015) will have 
+the toolbox and plug-in architecture again. 
 
-.. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be downloaded from http://mapwindow4.codeplex.com/releases.
+.. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. 
+Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be 
+downloaded from http://mapwindow4.codeplex.com/releases.
    
 .. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
@@ -35,46 +48,29 @@ Core Features
 * Friendly graphical user interface:
 
     * identify/select features,
-    * edit/view/search attributes,
     * on the fly projection,
-    * print layout,
     * feature labeling,
     * change vector and raster symbology,
+    * shapefile editor,
+    * geodatabase support,        
     * and more ...
 
-* Easy Viewing of many Vector and Raster Formats:
+* Easy viewing of many vector and raster formats:
 
     * most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML,
     * raster formats such as digital elevation models, aerial photography or landsat imagery,
-    * Tiles services, like OpenStreetMap, ArcGIS Online.
-
-* Create, edit and export spatial data using:
-
-    * digitizing tools for shapefile format,
-    * the georeferencer plugin,
-    * GPS tools to import and export GPX format, convert other GPS formats to GPX, or down/upload directly to a GPS unit.
-
-* Perform spatial analysis using plugins:
-
-    * map algebra,
-    * terrain analysis,
-    * hydrologic modeling (TauDEM),
-    * network analysis,
-    * and many others.
-
-* Extensible plugin architecture:
-
-    * Plug-in architecture makes it easy to add additional functionality to MapWindow. Plug-ins can be written in any .NET language (C#, VB.NET) using Visual Studio Pro or the free SharpDevelop or Visual Studio Express.  
+    * Tiles services, like OpenStreetMap, ArcGIS Online, Google maps.
  
 * ActiveX control:
 
-    * Uses an ActiveX control written in C++. This control can be used in custom applications written in languages like VB6, C++, C#, VB.NET, and Delphi, and can be used in MS-Office products like MS-Access and MS-Excel.
+    * Uses an ActiveX control written in C++. This control can be used in custom 
+      applications written in languages like VB6, C++, C#, VB.NET, and Delphi, and 
+      can be used in MS-Office products like MS-Access and MS-Excel.
 
 Implemented Standards
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * OGC Standards: 
-    * WMS (v1.1, v1.3)
-    * WFS v1.1 (through a separate plug-in)
+    * TMS
     * Web Map Tile Service (WMTS)
     * GML    
 
@@ -85,15 +81,15 @@ Details
 
 **Licence:** MPLv1.1
 
-**Software Version:** 4.8.8
+**Software Version:** 4.9
 
 **Supported Platforms:** Windows
 
 **API Interfaces:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
 
-**Community Support:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
+**Community Support:** http://www.mapwindow.org/documentation/mapwingis4.9/getting_started.html
 
-**Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
+**Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/documentation/mapwingis4.9/MapWindow49.html
 
 
 Quickstart
