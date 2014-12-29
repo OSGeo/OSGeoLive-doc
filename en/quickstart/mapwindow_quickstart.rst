@@ -16,19 +16,25 @@
 ===============
 1. Introduction
 ===============
+.. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
+  :alt: Mapwindow Open Source GIS Lite
+  :scale: 50 %
+  :align: right
 This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9.3. 
 A similar custom GIS application can be built based on this app or on the barebone 
 MapWinGIS control in a matter of days, using Visual Studio (Pro, Express or Community edition) or SharpDevelop.
-MapWinGIS v4.9 has a lot of improvements and bug fixes. The two biggest improvement are probably the support for 
-GeoSpation databases like PostGIS and the native Shapefile editor. Numerous memory leaks have been identified and solved,
-making this version of MapWinGIS more stable and faster. MapWinGIS v4.9.3 and thus this demo use GDAL v2.0.
+To showcase all the new features of MapWinGIS v4.9.3 this demo application was created. MapWindow Lite can do some basic stuff, 
+like opening and closing layers, show tiles, change symbology and labeling. Also new features like the new selection tool, 
+loading data from a PostGIS datavase and the Shapefile Editor are added. Of course the source code is also available so you can 
+use it to create your own application.
+Stability has been improved, making this version of MapWinGIS more stable and faster than ever. MapWinGIS v4.9.3 and thus MapWindows Lite use GDAL v2.0.
 
 The development of this project depends on the public donations. Our plans include further development of 
 MapWinGIS core library and also releasing a new version of MapWindow desktop GIS based on it, 
 which will be called MapWindow 5. This lite version can be considered the first version of it. 
 More info about our future plans can be found here: http://www.mapwindow.org/documentation/mapwingis4.9/MapWindow49.html
 
-The MapWindow desktop software is available for free download as a single ready-to-install
+MapWindow Lite is available for free download as a single ready-to-install
 .exe file from the MapWindow CodePlex website: https://mapwindow4.codeplex.com/releases. 
 MapWindow is a **native Windows** application that requires installation of the Microsoft .NET framework. 
 It runs on XP, Vista, Windows 7 and Windows 8 and works fine on 64-bit machines. The program is quite 

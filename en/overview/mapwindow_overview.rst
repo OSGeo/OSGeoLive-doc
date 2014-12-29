@@ -21,24 +21,24 @@ MapWindow GIS is a Windows based, Open Source GIS client where you can visualize
 manage, edit, analyse data, and compose printable maps.
 It includes powerful analytical functions through integration with GEOS and GDAL/OGR (v2).
 MapWindow is easy to incorporate into MS-Office based products such as MS-Excel 
-and MS-Access, as well as programs written in VB6, C++, C#, VB.NET, and Delphi, 
+and MS-Access, as well as programs written in C++, C#, VB.NET and Delphi, 
 as MapWindow is based upon an ActiveX control called MapWinGIS.
 This version is MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.3. The two 
-biggest improvement of this version are probably the support for GeoSpation databases 
-like PostGIS and the native Shapefile editor. Numerous memory leaks have been 
-identified and solved, making this version of MapWinGIS more stable and faster.
+biggest improvement of this version are probably the support for the GeoSpatial database 
+PostGIS and the native Shapefile editor. Numerous bug fixes make this version of 
+MapWinGIS the most stable and fastest ever.
 The version included on this DVD is a Lite version because not all functionality 
 of MapWindow Desktop v4.8.8 are included. For instance the toolbox and plug-ins 
 are not included. This Lite version does has a fully functional shapefile editor 
-and support for GeoDatabases. MapWindow v5 (first version due mid 2015) will have 
+and support for PostGIS. MapWindow v5 (first version due mid 2015) will have 
 the toolbox and plug-in architecture again. 
 
 .. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. 
 Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be 
 downloaded from http://mapwindow4.codeplex.com/releases.
    
-.. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
-  :alt: Mapwindow Screenshot
+.. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
+  :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right
 
@@ -79,13 +79,15 @@ Details
 
 **Website:** http://www.mapwindow.org
 
+**Code repository:** https://mapwingis.codeplex.com
+
 **Licence:** MPLv1.1
 
-**Software Version:** 4.9
+**Software Version:** 4.9.3
 
 **Supported Platforms:** Windows
 
-**API Interfaces:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
+**API Interfaces:** .NET (C#, VB.NET), C++, Delphi, VBA (MS-Access, MS-Excel)  
 
 **Community Support:** http://www.mapwindow.org/documentation/mapwingis4.9/getting_started.html
 
