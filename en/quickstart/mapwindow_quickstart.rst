@@ -7,15 +7,15 @@
 :Copyright: 2011 Richard R. Schneider
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
-  :alt: MapWindow GIS
+  :alt: MapWindow GIS website
   :align: right
   :width: 220
   :height: 38
   :target: http://www.mapwindow.org
   
-===============
-1. Introduction
-===============
+=======================
+1. MapWindow GIS Lite
+=======================
 .. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
@@ -23,11 +23,13 @@
 This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9.3. 
 A similar custom GIS application can be built based on this app or on the barebone 
 MapWinGIS control in a matter of days, using Visual Studio (Pro, Express or Community edition) or SharpDevelop.
-To showcase all the new features of MapWinGIS v4.9.3 this demo application was created. MapWindow Lite can do some basic stuff, 
+To showcase all the new features of MapWinGIS v4.9.3 this demo application was created. 
+
+MapWindow Lite can do some basic stuff, 
 like opening and closing layers, show tiles, change symbology and labeling. Also new features like the new selection tool, 
-loading data from a PostGIS datavase and the Shapefile Editor are added. Of course the source code is also available so you can 
+loading data from a PostGIS database and the Shapefile Editor are added. Of course the source code is also available so you can 
 use it to create your own application.
-Stability has been improved, making this version of MapWinGIS more stable and faster than ever. MapWinGIS v4.9.3 and thus MapWindows Lite use GDAL v2.0.
+Stability has been improved, making this version of MapWinGIS more stable and faster than ever. MapWinGIS v4.9.3 and thus MapWindows Lite use **GDAL v2.0**.
 
 The development of this project depends on the public donations. Our plans include further development of 
 MapWinGIS core library and also releasing a new version of MapWindow desktop GIS based on it, 
@@ -36,7 +38,7 @@ More info about our future plans can be found here: http://www.mapwindow.org/doc
 
 MapWindow Lite is available for free download as a single ready-to-install
 .exe file from the MapWindow CodePlex website: https://mapwindow4.codeplex.com/releases. 
-MapWindow is a **native Windows** application that requires installation of the Microsoft .NET framework. 
+MapWindow is a **native Windows** application that requires installation of the Microsoft .NET framework v4. 
 It runs on XP, Vista, Windows 7 and Windows 8 and works fine on 64-bit machines. The program is quite 
 intuitive to use and new users will be up and running quickly. With only a couple of exceptions it provides 
 a user experience that meets or exceeds that of ArcMap. 
@@ -72,7 +74,7 @@ changes to these settings so they will not be discussed here.
 MapWindow Open Source GIS v4.8.8 has a plug-in architecture. This architecture is not available in this Lite 
 version, so we will not discuss it here.
 With the upcoming version 5, the plug-in architecture will return but in a more modern capacity. We will use 
-the Managed Extensibility Framework, making it more easy and flexible to create plug-ins.
+the Managed Extensibility Framework, making it more easy and flexible to create and maintain plug-ins.
  
 ----------------------
 2.3 Adding data layers
@@ -102,11 +104,11 @@ and points), rasters (rectangular grids of data) and images. Many different file
 supported, including .shp, .asc, .aux, .bgd, .bil, .dem, dt1, .hdr, .img, .jpg, .sid, .std, .tif
 and others. The ESRI shapefile (.shp) is the vector format used by MapWindow when generating new
 vector files. It uses GeoTiff and the .bgd format when generating new raster files. 
-In this Lite version MapWindow can also connect to GeoDatabases like PostGIS or MySQL Spatial.
+In this Lite version MapWindow can also connect to a PostGIS GeoDatabase.
 
 By default 
 **Tiles** are enabled and can show tiles from a long list of providers like OpenStreetMap (default), 
-*Google maps and Bing maps.
+MapQuest Aerial and Bing maps. For the latter you need a valid API key.
 Tiles will be warped to the projection of the map, which is determined by the first layer opened.  
 
 -----------------
@@ -118,11 +120,11 @@ and appropriate uses. A detailed discussion of projections is beyond the scope o
 basic points need to be covered. The main issue is that the various layers in your project all need to 
 use the same projection if the overlays are to line up. In MapWindow, the projection of a layer is defined in
 a supplemental file carrying the .prj extension. This is a common format for projections, also
-used in ArcMap. A layers projection can be viewed in the 
+used in ArcMap and QGis. A layers projection can be viewed in the 
 **General** tab of the 
 **Layer Properties** dialog, which is opened by double-clicking the layer in the
 legend or right-click on the layer and select 
-**Properties** 
+**Properties**. 
 
 The first map that you add to a project defines the projection for the entire project. Each
 subsequent layer must have the same projection or MapWindow will display a warning dialog. This
@@ -137,19 +139,24 @@ reproject to a new file, rather than overwriting the old.
 A suite of basic map functions is accessed through a set of toolbar buttons. Their use is quite intuitive so 
 only a brief explanation is provided here. Note that several functions require the user to first select
 a target layer, which is done by clicking it in the legend. You can move the toolbars (click and
-drag at the dotted line). 
+drag at the dotted line). Also several keyboard shortcuts are available.
 
 ================================================================================  =================================================================
 ================================================================================  =================================================================
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomout.png         Zoom out.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png  Zoom to the full extent of all visible layers.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png       Zoom to the extent of the target layer.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-pan.png             Click and drag the map within the display window.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel. Shortcut: 'z' key.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomout.png         Zoom out. Shortcut: 'z' key, if you are already in zoom mode the 'z' key will toggle between zoom in and zoom out. 
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png  Zoom to the full extent of all visible layers. Shortcut: 'Home' key.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png       Zoom to the extent of the target layer. Shortcut: 'CTLR-Home' keys.        
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-pan.png             Click and drag the map within the display window. Shortcut: 'Spacebar', after release the spacebar the previous tool is selected again.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-identify.png        Click to view the attributes of shapes in the target layer.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure.png         Opens a dialog used to display the perimeter and area of shapes selected from the target layer or shapes drawn with the mouse.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure.png         Opens a dialog used to display the perimeter and area of shapes selected from the target layer or shapes drawn with the mouse. Shortcit: 'm' key.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-select.png          Select shapes from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. See section 4.2 for more information on selections.
 ================================================================================  =================================================================
+
+================================  =================================================================
+================================  =================================================================
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Test, will this make the first column smaller???
+================================ =================================================================
 
 ==============================
 3. Producing a Map for Export
@@ -278,19 +285,13 @@ Before creating a new shapefile you should load a layer into your project to set
 serve as a spatial reference when adding your new shapes. Advanced techniques for georeferencing are beyond
 the scope of this guide. 
 
-.. image:: ../../images/screenshots/800x600/mapwindow-coordinates.png
-  :alt: Coordinates
-  :align: right
-  :width: 285 
-  :height: 47
-
 When a shapefile is created it is empty. To add freeform shapes use the 
 **Add shape** toolbar button. While using the mouse each time you left-click a new vertex is added. 
 When all the vertices have been defined, right-click the mouse and select
 **Finish operation** to finish. The context menu has more options, like 
 **Undo point** to remove the last point, this can be done until all points are removed again,
-**Snapping** to snap the current layer, all layers or no snapping
-**Highlighting** to highlight the current layer, all layers or no highlighting
+**Snapping** to snap the current layer, all layers or no snapping,
+**Highlighting** to highlight the current layer, all layers or no highlighting,
 **Cancel** to remove the shape you are drawing.
 
 +++++++++++++++++++++++++++++++++
@@ -299,7 +300,7 @@ When all the vertices have been defined, right-click the mouse and select
 The shapefile toolbar has a 
 **Vertex editor** button for changing the shape of existing shapes. 
 Vertices will be visible when using the vertex editor. When your click on the shape you want to edit
-it because semi-transparent and the vertices will be clickable. When you click on a vertex (its color changes from blue to red) you can drag it to another location.
+it becomes semi-transparent and the vertices will be clickable. When you click on a vertex (its color changes from blue to red) you can drag it to another location.
 When you double-click on the line a new vertex will be added. When you select a vertex and hit the delete button on your keyboard it will be deleted (after confirmation).
 This shapefile editor comes with an undo/redo option. Using the associated buttons on the toolbar you can 
 undo/redo actions. The changes won't be saved to disk until you leave the Edit mode of the layer.
