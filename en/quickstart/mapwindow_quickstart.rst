@@ -23,15 +23,15 @@
 This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9.3. 
 A similar custom GIS application can be built based on this app or on the barebone 
 MapWinGIS control in a matter of days, using Visual Studio (Pro, Express or Community edition) or SharpDevelop.
-To showcase all the new features of MapWinGIS v4.9.3 this demo application was created. 
+To showcase all the new features of MapWinGIS v4.9.3 this **demo** application was created. 
 
 MapWindow Lite can do some basic stuff, 
 like opening and closing layers, show tiles, change symbology and labeling. Also new features like the new selection tool, 
 loading data from a PostGIS database and the Shapefile Editor are added. Of course the source code is also available so you can 
 use it to create your own application.
-Stability has been improved, making this version of MapWinGIS more stable and faster than ever. MapWinGIS v4.9.3 and thus MapWindows Lite use **GDAL v2.0**.
+Stability has been improved, making this version of MapWinGIS more stable and faster than ever. MapWinGIS v4.9.3 and thus MapWindow Lite use **GDAL v2.0**.
 
-The development of this project depends on the public donations. Our plans include further development of 
+The development of this project depends on public donations. Our plans include further development of 
 MapWinGIS core library and also releasing a new version of MapWindow desktop GIS based on it, 
 which will be called MapWindow 5. This lite version can be considered the first version of it. 
 More info about our future plans can be found here: http://www.mapwindow.org/documentation/mapwingis4.9/MapWindow49.html
@@ -79,6 +79,12 @@ the Managed Extensibility Framework, making it more easy and flexible to create 
 ----------------------
 2.3 Adding data layers
 ----------------------
+.. image:: ../../images/screenshots/800x600/Mapwindow_LayerProperties.png
+  :alt: Layer properties
+  :align: right
+  :width: 632 
+  :height: 424
+
 The maps you produce will usually be composed of several GIS data layers. These layers are added either by 
 dragging and dropping files from Windows Explorer onto the map display window or by clicking the 
 **Add** toolbar buttons. Each layer that is added is listed in the legend window. Double clicking the layer 
@@ -114,6 +120,12 @@ Tiles will be warped to the projection of the map, which is determined by the fi
 -----------------
 2.4 Projections
 -----------------
+.. image:: ../../images/screenshots/800x600/Mapwindow_SetMapProjection.png
+  :alt: Set map projection
+  :align: right
+  :width: 502 
+  :height: 287
+  
 A projection is a mathematical transformation used to display the 3-dimensional earth onto your 
 2-dimensional computer screen. Different projections are available, each with its own benefits, costs, 
 and appropriate uses. A detailed discussion of projections is beyond the scope of this guide, but a few 
@@ -133,6 +145,8 @@ misaligned). Note that reprojecting a layer involves more than just changing the
 .prj file, there are also changes to the shape of the polygons. Therefore, it is best to
 reproject to a new file, rather than overwriting the old.
 
+You can also set the map projection before you add any layers.
+
 ----------------------------
 2.5 Basic toolbar functions
 ----------------------------
@@ -141,22 +155,30 @@ only a brief explanation is provided here. Note that several functions require t
 a target layer, which is done by clicking it in the legend. You can move the toolbars (click and
 drag at the dotted line). Also several keyboard shortcuts are available.
 
-================================================================================  =================================================================
-================================================================================  =================================================================
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel. Shortcut: 'z' key.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomout.png         Zoom out. Shortcut: 'z' key, if you are already in zoom mode the 'z' key will toggle between zoom in and zoom out. 
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png  Zoom to the full extent of all visible layers. Shortcut: 'Home' key.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png       Zoom to the extent of the target layer. Shortcut: 'CTLR-Home' keys.        
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-pan.png             Click and drag the map within the display window. Shortcut: 'Spacebar', after release the spacebar the previous tool is selected again.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-identify.png        Click to view the attributes of shapes in the target layer.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure.png         Opens a dialog used to display the perimeter and area of shapes selected from the target layer or shapes drawn with the mouse. Shortcit: 'm' key.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-select.png          Select shapes from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. See section 4.2 for more information on selections.
-================================================================================  =================================================================
-
-================================  =================================================================
-================================  =================================================================
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Test, will this make the first column smaller???
-================================ =================================================================
+================================================================================== =================================================================
+================================================================================== =================================================================
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-new-map.png          Start with a blank map. Shortcut 'CTRL-N'.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-load-project.png     Load a project.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-save.png             Save the current project.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-save-as.png          Save the current project under a different name.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-add.png        Add a layer, all formats can be selected. Shortcut: 'CTRL-O'.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-vector-add.png Add a vector layer, defaults to ESRI shapefile format. Other vector formats can be selected.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-raster-add.png Add a raster layer. Image and grid formats can be selected.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-db-add.png     Add a PostGIS layer. Fill in the connection details and select a PostGIS layer.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-create.png     Creates a new shapefile layer with the extent and projection of the current map.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-remove.png     Removes the selected layer from the map.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png           Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel. Shortcut: 'z' key.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomout.png          Zoom out. Shortcut: 'z' key, if you are already in zoom mode the 'z' key will toggle between zoom in and zoom out. 
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png   Zoom to the full extent of all visible layers. Shortcut: 'Home' key.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png        Zoom to the extent of the target layer. Shortcut: 'CTLR-Home' keys.        
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-pan.png              Click and drag the map within the display window. Shortcut: 'Spacebar', after release the spacebar the previous tool is selected again.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-projection.png       Click to set the projection of the map, only enabled when no layers have been loaded yet.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-find-location.png    Click to find a location, uses OpenStreetMap Nominatim.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-identify.png         Click to view the attributes of shapes in the target layer.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure.png          After selecting this button, click on the map to measure distances. Shortcut: 'm' key, also toggles between distance and area.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure-area.png     After selecting this button, click on the map to measure areas. Shortcut: 'm' key, also toggles between distance and area.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-select.png           Select shapes from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. See section 4.2 for more information on selections.
+================================================================================== =================================================================
 
 ==============================
 3. Producing a Map for Export
@@ -207,25 +229,19 @@ palette options (see example below). Do not check the
 ------------------
 3.3 Adding labels
 ------------------
-Labels are added by right-click on the layer and select
-**Labels** When you first open this dialog the label preview window will be empty.
+.. image:: ../../images/screenshots/800x600/mapwindow-labels-setup.png
+  :alt: Label style
+  :align: right
+  :width: 636 
+  :height: 427
+
+Labels are added or modified by right-click on the layer and select **Labels**. 
+When you first open this dialog the label preview window will be empty.
 The first step is to select the attribute that holds the label values. The available attributes 
 are listed in the 
 **Fields** window. Double-click on the appropriate attribute and it will show up in the 
 **Expression** window, indicating that it has been selected. Click 
 **Apply** and a pop-up will ask you how you want to anchor the labels. 
-
-.. image:: ../../images/screenshots/800x600/mapwindow-labels-setup.png
-  :alt: Label set-up
-  :align: right
-  :width: 833 
-  :height: 507
-
-.. image:: ../../images/screenshots/800x600/mapwindow-label-expression.png
-  :alt: Label expression
-  :align: right
-  :width: 833 
-  :height: 507
 
 Next, open the 
 **Font** tab and select a font. Note that the default font may not be set, so you
@@ -262,6 +278,7 @@ This option is not available in this Lite version, but will be back in MapWindow
 4.1 The attribute table
 ------------------------
 This option is not available in this Lite version, but will be back in MapWindow Open Source GIS v5.
+This lite version does have a simple identify tool which will show the attributes of the selected shape.
 
 ----------------
 4.2 Selections
@@ -271,9 +288,30 @@ The advanced selection option is not available in this Lite version, but will be
 ------------------------------------
 4.3 Creating and editing shapefiles
 ------------------------------------
-The shapefile editor in newly introduced in this Lite version. In older version  was a sepearate plug-in for 
+The shapefile editor is newly introduced in this Lite version. In older version  was a sepearate plug-in for 
 MapWindow, now the editor is in MapWinGIS, the mapping engine.
 This makes the editor much more stable and responsive. It can also handle much larger vector data.
+
+The editor toolbar has several buttons which will be briefly explained below:
+================================================================================== =================================================================
+================================================================================== =================================================================
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-start.png             Start editing the shapefile.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-save.png              Save your changes to the shapefile.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-vector-create.png     Draw a new shape.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-vertex-tool.png       Vertex editor. Add, delete or move nodes.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-merge.png             Merge the selected shapes.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-split.png             Split the selected shape.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-move.png              Move the selected shape
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-rotate.png            Rotate the selected shape.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-polygon-overlay.png   Erase, clip or split by polygon
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-clip-by-line.png      Split by polyline
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-copy.png              Copy the selected shape.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-cut.png               Cut the selected shape.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-paste.png             Paste a new shape.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-undo.png              Undo last action.
+.. image:: ../../images/screenshots/800x600/mapwindow-editor-redo.png              Redo last action.
+================================================================================== =================================================================
+
 
 +++++++++++++++++++++++++++++++
 4.3.1 Creating a new shapefile
@@ -303,7 +341,7 @@ Vertices will be visible when using the vertex editor. When your click on the sh
 it becomes semi-transparent and the vertices will be clickable. When you click on a vertex (its color changes from blue to red) you can drag it to another location.
 When you double-click on the line a new vertex will be added. When you select a vertex and hit the delete button on your keyboard it will be deleted (after confirmation).
 This shapefile editor comes with an undo/redo option. Using the associated buttons on the toolbar you can 
-undo/redo actions. The changes won't be saved to disk until you leave the Edit mode of the layer.
+undo/redo actions. The changes won't be saved to disk until save the changes using the **Save** button in the editor toolbar.
 
 ------------------
 4.4 Geoprocessing
