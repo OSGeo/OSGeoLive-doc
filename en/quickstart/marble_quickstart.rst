@@ -1,7 +1,7 @@
-:Author: Hamish Bowman
-:Version: osgeo-live6.5
+:Author: Sergey Popov
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Copyright: 2011 by The OSGeo Foundation
+:Copyright: 2015 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-marble.png
   :scale: 75 %
