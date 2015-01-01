@@ -4,7 +4,8 @@
 :Version: osgeo-live8.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Editor: http://rst.ninjs.org/
-:Copyright: 2011 Richard R. Schneider
+:Copyright: 2011 Richard R. Schneider, 2015 Paul Meems
+
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS website
@@ -20,6 +21,7 @@
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right
+
 This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9.3. 
 A similar custom GIS application can be built based on this app or on the barebone 
 MapWinGIS control in a matter of days, using Visual Studio (Pro, Express or Community edition) or SharpDevelop.
@@ -202,13 +204,9 @@ It will be empty when you begin, indicating that no symbology has been defined.
 
 - Select **Unique values**
 - Under **Fields** select the attribute you want to use for assigning different colors to shapes
-- **Color scheme** is used to select the color palette for your shapes. Click the triangle to the 
-right to select a different palette. The option button on the far right can be used to edit the palettes and 
-define new ones.
-- If **Random colors** is **not** checked, colors are sequentially assigned from left to right across the 
-entire palette.
-- If **Gradient** is checked a gradient from dark to light is applied to *each polygon*. This effect is 
-really only apparent when polygons are large.
+- **Color scheme** is used to select the color palette for your shapes. Click the triangle to the right to select a different palette. The option button on the far right can be used to edit the palettes and define new ones.
+- If **Random colors** is **not** checked, colors are sequentially assigned from left to right across the entire palette.
+- If **Gradient** is checked a gradient from dark to light is applied to *each polygon*. This effect is really only apparent when polygons are large.
 - The other entries in the dialog are not used for unique values.
 - Click **Generate** to create the categories
 - Click **Ok** to finish and close the dialog
