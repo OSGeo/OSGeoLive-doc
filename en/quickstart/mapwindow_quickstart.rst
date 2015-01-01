@@ -44,8 +44,8 @@ intuitive to use and new users will be up and running quickly. With only a coupl
 a user experience that meets or exceeds that of ArcMap. 
 
 The MapWindow Lite desktop program that is the focus of this guide is just one part of a larger
-Open Source project. The core software is also available as an ActiveX component (called MapWinGIS), allowing
-programmers to develop customized GIS applications. It is also possible for advanced users to
+Open Source project. The core software is also available as an ActiveX component (called MapWinGIS, download it at https://mapwingis.codeplex.com/releases), 
+allowing programmers to develop customized GIS applications. It is also possible for advanced users to
 modify and extend the desktop program to fit individual needs. More information on the MapWindow
 project and its various facets can be obtained from the MapWindow website: http://www.mapwindow.org/ 
 
@@ -58,9 +58,9 @@ project and its various facets can be obtained from the MapWindow website: http:
 The project file maintains a record of the different layers, labels, colors and
 styles you have defined for your map. When MapWindow starts it loads the last opened project. You can
 also start a new project at any time by clicking the
-**New** toolbar button. Any changes that you make to a project are not stored until you click the
-**Save** toolbar button, or save when prompted on exit. Previous projects are accessed by clicking the
-**Open** toolbar button or selecting
+**New project** toolbar button. Any changes that you make to a project are not stored until you click the
+**Save project** toolbar button, or save when prompted on exit. Previous projects are accessed by clicking the
+**Load project** toolbar button or selecting
 **File** from the top menu and clicking
 **Load Project**. Project files carry the extension .mwprj.
 
@@ -82,8 +82,7 @@ the Managed Extensibility Framework, making it more easy and flexible to create 
 .. image:: ../../images/screenshots/800x600/Mapwindow_LayerProperties.png
   :alt: Layer properties
   :align: right
-  :width: 632 
-  :height: 424
+  :scale: 80 % 
 
 The maps you produce will usually be composed of several GIS data layers. These layers are added either by 
 dragging and dropping files from Windows Explorer onto the map display window or by clicking the 
@@ -95,7 +94,7 @@ properties. For example, to change the name displayed in the legend select the
 **General** tab and modify the text in the 
 **Name** textbox. Other properties will be dealt with in subsequent sections. To
 remove a map layer right-click the layer and select 
-**Remove**
+**Remove**.
 
 The colored icons displayed in the legend illustrate the type of data in the layers
 (polygon, line or point) and the current symbology. The order of the layers in the legend
@@ -109,8 +108,8 @@ MapWindow will display different kinds of GIS data, including: vectors (polygons
 and points), rasters (rectangular grids of data) and images. Many different file formats are
 supported, including .shp, .asc, .aux, .bgd, .bil, .dem, dt1, .hdr, .img, .jpg, .sid, .std, .tif
 and others. The ESRI shapefile (.shp) is the vector format used by MapWindow when generating new
-vector files. It uses GeoTiff and the .bgd format when generating new raster files. 
-In this Lite version MapWindow can also connect to a PostGIS GeoDatabase.
+vector files. For grids a GeoTiff proxy image is used. 
+In this Lite version MapWindow can also connect to a **PostGIS** GeoDatabase.
 
 By default 
 **Tiles** are enabled and can show tiles from a long list of providers like OpenStreetMap (default), 
@@ -123,8 +122,7 @@ Tiles will be warped to the projection of the map, which is determined by the fi
 .. image:: ../../images/screenshots/800x600/Mapwindow_SetMapProjection.png
   :alt: Set map projection
   :align: right
-  :width: 502 
-  :height: 287
+  :scale: 80 %
   
 A projection is a mathematical transformation used to display the 3-dimensional earth onto your 
 2-dimensional computer screen. Different projections are available, each with its own benefits, costs, 
@@ -158,8 +156,8 @@ drag at the dotted line). Also several keyboard shortcuts are available.
 ================================================================================== =================================================================
 ================================================================================== =================================================================
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-new-map.png          Start with a blank map. Shortcut 'CTRL-N'.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-load-project.png     Load a project.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-save.png             Save the current project.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-load-project.png     Load a project. Shortcut 'CTRL-L'.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-save.png             Save the current project. Shortcut 'CTRL-S'.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-save-as.png          Save the current project under a different name.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-add.png        Add a layer, all formats can be selected. Shortcut: 'CTRL-O'.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-layer-vector-add.png Add a vector layer, defaults to ESRI shapefile format. Other vector formats can be selected.
@@ -170,14 +168,14 @@ drag at the dotted line). Also several keyboard shortcuts are available.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomin.png           Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel. Shortcut: 'z' key.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomout.png          Zoom out. Shortcut: 'z' key, if you are already in zoom mode the 'z' key will toggle between zoom in and zoom out. 
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png   Zoom to the full extent of all visible layers. Shortcut: 'Home' key.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png        Zoom to the extent of the target layer. Shortcut: 'CTLR-Home' keys.        
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png        Zoom to the extent of the target layer.        
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-pan.png              Click and drag the map within the display window. Shortcut: 'Spacebar', after release the spacebar the previous tool is selected again.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-projection.png       Click to set the projection of the map, only enabled when no layers have been loaded yet.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-find-location.png    Click to find a location, uses OpenStreetMap Nominatim.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-identify.png         Click to view the attributes of shapes in the target layer.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure.png          After selecting this button, click on the map to measure distances. Shortcut: 'm' key, also toggles between distance and area.
 .. image:: ../../images/screenshots/800x600/mapwindow-toolbar-measure-area.png     After selecting this button, click on the map to measure areas. Shortcut: 'm' key, also toggles between distance and area.
-.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-select.png           Select shapes from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. See section 4.2 for more information on selections.
+.. image:: ../../images/screenshots/800x600/mapwindow-toolbar-select.png           Select shapes by rectangle from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. You can also select by hand-drawn polygon.
 ================================================================================== =================================================================
 
 ==============================
@@ -193,27 +191,37 @@ symbology (color scheme, outlines, style, etc.) by using the
 +++++++++++++++++++++++++
 3.1.1 Unique values
 +++++++++++++++++++++++++
-If your layer is made of shapes that represent distinct entities, say herds of
-caribou, then proceed as follows. Select the 
+.. image:: ../../images/screenshots/800x600/mapwindow-unique-categories.png
+  :alt: Create unique categories
+  :align: right
+  :scale: 80 % 
+
+If your layer is made of shapes that represent distinct entities, say state names, then proceed as follows. Select the 
 **Categories** tab of the **Layer Properties** dialog. 
 It will be empty when you begin, indicating that no symbology has been defined.
-+ Select **Unique values**
-+ Under **Fields** select the attribute you want to use for assigning different colors to shapes
-+ **Color scheme** is used to select the color palette for your shapes. Click the triangle to the 
+
+- Select **Unique values**
+- Under **Fields** select the attribute you want to use for assigning different colors to shapes
+- **Color scheme** is used to select the color palette for your shapes. Click the triangle to the 
 right to select a different palette. The option button on the far right can be used to edit the palettes and 
 define new ones.
-+ If **Random colors** is **not** checked, colors are sequentially assigned from left to right across the 
+- If **Random colors** is **not** checked, colors are sequentially assigned from left to right across the 
 entire palette.
-+ If **Gradient** is checked a gradient from dark to light is applied to *each polygon*. This effect is 
+- If **Gradient** is checked a gradient from dark to light is applied to *each polygon*. This effect is 
 really only apparent when polygons are large.
-+ The other entries in the dialog are not used for unique values.
-+ Click **Generate** to create the categories
-+ Click **Ok** to finish and close the dialog
+- The other entries in the dialog are not used for unique values.
+- Click **Generate** to create the categories
+- Click **Ok** to finish and close the dialog
 
 +++++++++++++++++++++++++
 3.1.2 Continuous data
 +++++++++++++++++++++++++
-If your layer contains continuous data, say the height of trees within stands, then you
+.. image:: ../../images/screenshots/800x600/mapwindow-continuous-categories.png
+  :alt: Create continiuous categories
+  :align: right
+  :scale: 80 % 
+
+If your layer contains continuous data, say the population in 1997, then you
 must define categories into which the shapes are assigned. Begin by opening the 
 **Layer Properties** dialog and selecting the classification field and color
 scheme as described in 3.1.1 Set the number of categories you want in the 
@@ -222,7 +230,7 @@ scheme as described in 3.1.1 Set the number of categories you want in the
 
 If you wish to display the categories using a color ramp, say light red for low values
 grading to dark red for high values, select a smoothly grading color palette from the list of
-palette options (see example below). Do not check the 
+palette options. Do not check the 
 **Set gradient** option because this refers to color gradients 
 **within** polygons, something else entirely. 
 
@@ -232,8 +240,7 @@ palette options (see example below). Do not check the
 .. image:: ../../images/screenshots/800x600/mapwindow-labels-setup.png
   :alt: Label style
   :align: right
-  :width: 636 
-  :height: 427
+  :scale: 80 % 
 
 Labels are added or modified by right-click on the layer and select **Labels**. 
 When you first open this dialog the label preview window will be empty.
@@ -293,6 +300,7 @@ MapWindow, now the editor is in MapWinGIS, the mapping engine.
 This makes the editor much more stable and responsive. It can also handle much larger vector data.
 
 The editor toolbar has several buttons which will be briefly explained below:
+
 ================================================================================== =================================================================
 ================================================================================== =================================================================
 .. image:: ../../images/screenshots/800x600/mapwindow-editor-start.png             Start editing the shapefile.
@@ -330,7 +338,7 @@ When all the vertices have been defined, right-click the mouse and select
 **Undo point** to remove the last point, this can be done until all points are removed again,
 **Snapping** to snap the current layer, all layers or no snapping,
 **Highlighting** to highlight the current layer, all layers or no highlighting,
-**Cancel** to remove the shape you are drawing.
+**Cancel** to remove the shape you are drawing without saving it.
 
 +++++++++++++++++++++++++++++++++
 4.3.2 Modifying existing shapes
@@ -341,7 +349,7 @@ Vertices will be visible when using the vertex editor. When your click on the sh
 it becomes semi-transparent and the vertices will be clickable. When you click on a vertex (its color changes from blue to red) you can drag it to another location.
 When you double-click on the line a new vertex will be added. When you select a vertex and hit the delete button on your keyboard it will be deleted (after confirmation).
 This shapefile editor comes with an undo/redo option. Using the associated buttons on the toolbar you can 
-undo/redo actions. The changes won't be saved to disk until save the changes using the **Save** button in the editor toolbar.
+undo/redo actions. The changes won't be saved to disk until save the changes using the **Save changes** button in the editor toolbar.
 
 ------------------
 4.4 Geoprocessing
