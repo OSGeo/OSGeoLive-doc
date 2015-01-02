@@ -38,7 +38,7 @@ You can:
     - Temperature (December)
     - Temperature (July).
 
-     To switch them click one of entries in "Theme" list in "Map View" tab.
+   To switch them click one of entries in "Theme" list in "Map View" tab.
 
      .. image:: ../../images/screenshots/800x600/marble-quickstart-2.png
 
