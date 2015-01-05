@@ -53,7 +53,7 @@ Core Features
 * Fully Free and Open Source
 * Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps)
 * Navigate Globe In 3D
-* 3 Different Projections Are Available (3D Globe, Flat Map, Mercator)
+* 3 Different Projections Are Available (Globe, Flat Map, Mercator)
 * Information Layers (Weather, Real-time clouds, Day/Night View, Real-time Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)
 * Search (Online address search, Online POI search)
 * Positioning & Tracking (GPS and WLAN localization, Track export in KML)
