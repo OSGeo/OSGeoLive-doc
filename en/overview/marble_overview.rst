@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
+:Author: Hamish Bowman, Sergey Popov
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0draft
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-marble.png
@@ -47,15 +47,38 @@ Core Features
   :alt: screenshot
   :align: right
 
-* Virtual globe and world atlas
-* Navigate globe in 3D
-* Map Presentation (Globe View, Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps, Other Planets)
-* Information Layers (Weather, Real-time clouds, Day/Night View, Real-time satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)
+* Virtual Globe And World Atlas
+* The Best Solution For The Geography Lessons
+* Easy to Use
+* Fully Free and Open Source
+* Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps)
+* Navigate Globe In 3D
+* 3 Different Projections Are Available (3D Globe, Flat Map, Mercator)
+* Information Layers (Weather, Real-time clouds, Day/Night View, Real-time Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)
 * Search (Online address search, Online POI search)
-* Positioning & Tracking (GPS localization, Track export in KML)
+* Positioning & Tracking (GPS and WLAN localization, Track export in KML)
 * Routing & Navigation (Voice navigation, Online motorcar routing, Online bike routing, Online pedestrian routing, Offline routing optional download, Turn-by-turn navigation)
-* Tools (Distance measurement, Bookmarks, Time Simulation, Offline Mode)
-* `OpenStreetMap <http://www.osm.org>`_ integration
+* Interactive KML Tours (Creating, editing, viewing)
+* Integrating With Many Online Services (Amateur Radio Aprs, OpenCaching.com, etc.)
+* WMS & TMS Support
+* Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)
+* `OpenStreetMap <http://www.osm.org>`_ Integration
+
+
+Screenshots
+--------------------------------------------------------------------------------
+
+.. image:: ../../images/screenshots/800x600/marble-quickstart-2.png
+  :scale: 75 %
+  :alt: screenshot
+  
+.. image:: ../../images/screenshots/800x600/marble-quickstart-4.png
+  :scale: 75 %
+  :alt: screenshot
+
+.. image:: ../../images/screenshots/800x600/marble-quickstart-5.png
+  :scale: 75 %
+  :alt: screenshot
 
 
 Details
@@ -65,9 +88,9 @@ Details
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 1.7.97
+**Software Version:** 1.9.2
 
-**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
+**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows, Maemo 5
 
 **API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
 
