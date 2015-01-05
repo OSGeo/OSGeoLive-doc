@@ -42,27 +42,27 @@ of the moon and other planets.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/marble-history.png
-  :scale: 50 %
+.. image:: ../../images/screenshots/800x600/marble-history.png
+  :scale: 64 %
   :alt: screenshot
   :align: right
 
 * Virtual Globe And World Atlas
-* The Best Solution For The Geography Lessons
-* Easy to Use
-* Fully Free and Open Source
+* A great solution for the geography lessons
+* Easy to use
+* Fully free and Open Source
 * Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps)
-* Navigate Globe In 3D
-* 3 Different Projections Are Available (3D Globe, Flat Map, Mercator)
-* Information Layers (Weather, Real-time clouds, Day/Night View, Real-time Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)
+* Navigate globe in 3D
+* 3 different projections are available (3D Globe, Flat Map, Mercator)
+* Information layers (Weather, Real-time clouds, Day/Night View, Real-time Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)
 * Search (Online address search, Online POI search)
 * Positioning & Tracking (GPS and WLAN localization, Track export in KML)
 * Routing & Navigation (Voice navigation, Online motorcar routing, Online bike routing, Online pedestrian routing, Offline routing optional download, Turn-by-turn navigation)
-* Interactive KML Tours (Creating, editing, viewing)
-* Integrating With Many Online Services (Amateur Radio Aprs, OpenCaching.com, etc.)
-* WMS & TMS Support
+* Interactive KML tours (Creating, editing, viewing)
+* Integrating with many online services (Amateur Radio Aprs, OpenCaching.com, etc.)
+* WMS & TMS support
 * Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)
-* `OpenStreetMap <http://www.osm.org>`_ Integration
+* `OpenStreetMap <http://www.osm.org>`_ integration
 
 
 Screenshots
@@ -95,6 +95,8 @@ Details
 **API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
 
 **Support:** http://techbase.kde.org/Projects/Marble
+
+**More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en
 
 
 Quickstart
