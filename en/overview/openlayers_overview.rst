@@ -30,25 +30,21 @@ Browser/Mobile Map Library And GIS Client
   :alt: screenshot
   :align: right
 
-OpenLayers3 is a light weight library, mobile ready out of the box that
-relies on latest browser technologies like HTML5, WebGL and CSS3.
+OpenLayers3 is a light-weight mapping library for web and mobile clients which users modern browser technologies, such as HTML5, WebGL and CSS3.
 
-OpenLayers3 is a completely rewritten from scratch version of the predecesor
-OpenLayers2 library, which aims to be a high performance and feature-packed
-library for all the mapping needs.
-
-OpenLayers3 offers an extensive set of features that covers from basic to
-advanced requirements needed by any kind of web mapping and GIS development.
+OpenLayers3 is a complete rewrite the previous robust and widely deployed 
+OpenLayers2 library. They both offer an extensive set of features that cover
+basic to advanced web mapping and GIS requirements.
 
 Core Features
 --------------------------------------------------------------------------------
 
 * Layers
 
-  * Raster: WMS/WMTS compliant servers, cached tiles and proprietary providers (OpenStreetMap, MapQuest, Stamen, Bing and support for any XYZ cached tiles provider), static images, etc.
+  * Raster: WMS/WMTS compliant servers, cached tiles and proprietary providers (OpenStreetMap, MapQuest, Stamen, Bing and support for cached tile providers), static images, etc.
   * Vector: WFS compliant servers, KML, GeoJSON, TopoJSON, GPX, and IGC.
   * Heatmaps.
-  * Support to render vector layers as raster.
+  * Render vector layers as raster.
 
 * Controls and Interactions
 
@@ -57,12 +53,12 @@ Core Features
 
 * Styling and customization
 
-  * Powerful mechanism to style features: points, lines, polygons and icons.
-  * Flexibility to customize controls look and feel using CSS3.
+  * Powerful styling of features: points, lines, polygons and icons.
+  * Customize controls look and feel using CSS3.
 
 * Overlays
 
-  * Render any DOM element at any map's place.
+  * Render any DOM element at any place on the map.
   * Great flexibility to create tooltips and markers.
   * Mix the power of HTML5 capabilities with a mapping application.
 
@@ -74,8 +70,8 @@ Core Features
 * Misc
 
   * Mobile browser support.
-  * Light weight library, 390kb the whole library with all features. Possibility to build customized packages to reduce size.
-  * Possibility to render maps using different technologies: Canvas, WebGL, DOM.
+  * Light weight library. Build customized packages to reduce size.
+  * Render maps using different technologies: Canvas, WebGL, DOM.
   * Raster analysis (change hue/saturation).
 
 Details
