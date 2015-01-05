@@ -68,15 +68,15 @@ Core Features
 Screenshots
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/marble-quickstart-2.png
+.. image:: ../../images/screenshots/800x600/marble-overview-1.png
   :scale: 75 %
   :alt: screenshot
   
-.. image:: ../../images/screenshots/800x600/marble-quickstart-4.png
+.. image:: ../../images/screenshots/800x600/marble-overview-2.png
   :scale: 75 %
   :alt: screenshot
 
-.. image:: ../../images/screenshots/800x600/marble-quickstart-5.png
+.. image:: ../../images/screenshots/800x600/marble-overview-3.png
   :scale: 75 %
   :alt: screenshot
 
