@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
-:Reviewer: Massimo Di Stefano, Center for Coastal and Ocean Mapping - UNH
-:Version: osgeo-live7.9
+:Reviewer: Massimo Di Stefano, Brian M Hamlin
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ipython.png
@@ -13,37 +13,33 @@
 IPython
 ================================================================================
 
-
 IPython provides a rich architecture for interactive computing with:
 
 * Powerful interactive shells (terminal and Qt-based).
 * A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.
 * Support for interactive data visualization and use of GUI toolkits.
 * Flexible, embeddable interpreters to load into your own projects.
-* Easy to use, high performance tools for parallel computing.
+* Consistant, reliable high performance tools for parallel computing.
 
 .. image:: ../../images/screenshots/800x600/ipython-notebook1.png
-  :scale: 100 %
+  :scale: 92 %
   :alt: screenshot
   :align: right
   
 
-.. _notebook-gallery: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
+** Online Resources Include: **
 
-.. _videos-and-screencasts : http://ipython.org/videos.html#videos
+* `notebook gallery <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`_:
 
-.. _talks-and-presentations: http://ipython.org/presentation.html
+* `videos and screencasts <http://ipython.org/videos.html#videos>`_:
 
-.. _extensive-documentation: http://ipython.org/documentation.html
+* `talks and presentations <http://ipython.org/presentation.html>`_:
 
-.. _protocol: http://ipython.org/ipython-doc/stable/development/messaging.html
+* `extensive documentation <http://ipython.org/documentation.html>`_:
 
-.. _other-projects: https://github.com/ipython/ipython/wiki/Projects-using-IPython
+* `machine protocol <http://ipython.org/ipython-doc/stable/development/messaging.html>`_:
 
-
-
-<<new verbage here>>
-
+* `projects using IPython <https://github.com/ipython/ipython/wiki/Projects-using-IPython>`_:
 
 
 
@@ -67,7 +63,7 @@ Geospatial Data Analysis and IPython
 
 .. _geo-notebook: https://github.com/OSGeo/IPython_notebooks
 
-On OSGeoLive a number of python libraries and command line tools are installed (GDAL, GRASS, )and ready to be used, IPython provides a rich interface for such kind of tools, example usage can be found in the geo-notebook_ git repository other examples are available online on the IPython notebook gallery see : Data_and_Visualization_Integration_Via_Web-based_Resources_ and Exploring_seafloor_habitats_geographic_analysis_using_IPython_Notebook_with_GRASS_and_R_ , and an IPython Notebook can be also rendered as a slideshow_
+On OSGeoLive a number of python libraries and command line tools are installed (GDAL, GRASS, et al), ready to be used, IPython provides a rich interface for such kind of tools -- example usage can be found in the geo-notebook_ git repository. other examples are available online on the IPython notebook gallery see : Data_and_Visualization_Integration_Via_Web-based_Resources_. An IPython Notebook can be also rendered as a slideshow_
 
 
 
@@ -97,7 +93,7 @@ COMMUNITY
 
 Stack-Overflow_ 
 
-.. _Mailing-list: http://projects.scipy.org/mailman/listinfo/ipython-dev
+.. _Mailing-list: http://projects.scipy.org/mailman/listinfo/ipython-user
 
 Mailing-list_
 
