@@ -26,13 +26,12 @@ Browser/Mobile Map Library And GIS Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
-  :scale: 70 %
   :alt: screenshot
   :align: right
 
 OpenLayers3 is a light-weight mapping library for web and mobile clients which users modern browser technologies, such as HTML5, WebGL and CSS3.
 
-OpenLayers3 is a complete rewrite the previous robust and widely deployed 
+OpenLayers3 is a complete rewrite the previous robust and widely deployed
 OpenLayers2 library. They both offer an extensive set of features that cover
 basic to advanced web mapping and GIS requirements.
 
