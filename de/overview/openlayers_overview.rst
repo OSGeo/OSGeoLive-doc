@@ -1,11 +1,13 @@
 :Author: Chris Schmidt
 :Author: OSGeo-Live
-:Author: Roald de Wit 
+:Author: Roald de Wit
+:Author: Antonio Santiago
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
+  :scale: 80 %
   :alt: Projekt Logo
   :align: right
   :target: http://openlayers.org/
@@ -17,14 +19,13 @@
   :target: http://www.osgeo.org
 
 
-OpenLayers
+OpenLayers3
 ================================================================================
 
-Browser GIS Anwendung
+Browser/Mobile Map Biliothek und GIS Anwendung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
-  :scale: 100 %
   :alt: Bildschirmfoto
   :align: right
 
@@ -38,34 +39,53 @@ einfach macht, OpenLayers ohne serverseitige Abhängigkeiten zu installieren,
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Einfach zu benutzende Javascript API, um Entwicklung einfach zu machen
-* Support für Standard- und kundenspezifische Protokolle zur Kommunikation mit Servern
-* Werkzeuge zur einfachen Erstellung kundenspezifischer Benutzeroberflächen
-* Support für in-Browser-Daten Rendering (mit SVG, VML oder Canvas Technologien), zur Unterstützung der Entwicklung erweiterter Online-Karten
-* Fähigkeit, Kartenlayer von verschiedenen Quellen zu laden
-  
-  * Kommerzielle Layer: Google, Bing, Yahoo
-  
-  * OGC Standards: :doc:`../standards/wms_overview`, WMTS, :doc:`../standards/wfs_overview`, WFS-T (transactional), GeoRS, :doc:`../standards/gml_overview` 
-  
-  * Andere: OpenStreetMap (OSM), ArcGIS, Images, MapGuide, MapServer, TileCache
+* Ebenen
 
-* Fähigkeit, Vektordaten und Metadaten in verschiedenen Formaten zu lesen:
-  
-  * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
+  * Raster: WMS/WMTS konforme Server, gecachete Kacheln und proprietäre Anbieter (OpenStreetMap, MapQuest, Stamen, Bing sowie Unterstützung für gecachete Kachel-Anbieter), statische Bilder usw.
+  * Vektor: WFS konforme Server, KML, GeoJSON, TopoJSON, GPX, und IGC.
+  * Heatmaps.
+  * Darstellung von Vektorthemen als Raster.
+
+* Bedienelemente (Controls) und Interaktionen
+
+  * Übersichtskarte, Schieberegler zum Zoomen, Zoom +/- Buttons, Maßstabsleiste, Rotation usw.
+  * Hauptkarte: Verschieben, Zoom und Rotation, Objektauswahl, Modifikation usw.
+
+* Styling und Anpassungen
+
+  * Leistungsstarkes Styling von Objekten: Punkte, Linien, Polygone swoie Icons.
+  * Anpassung der Bedienelemente via CSS3.
+
+* Overlays
+
+  * Darstellung der DOM Elemente an jeder Position der Karte.
+  * Große Flexibilität bei der Erzeugung von Tooltips und Marker.
+  * Vermischung der Stärken von HTML5 mit der Kartenanwendung.
+
+* Ereignisse
+
+  * Anbringen von Listener Funktionen zur Reaktion auf Ereignisse auf der Karte.
+  * Erzeugen eigener angepasster Bedienelemente (Controls) oder Interaktionen.
+
+* Weiteres
+
+  * Unterstützung Mobiler Browser.
+  * Leichtgewichtige Bibliothek. Erstellung angepasster Pakete zur Gewichtsreduzierung.
+  * Kartenerstellung über verschiedene Technologien: Canvas, WebGL, DOM.
+  * Raster Analyse (Veränderung Farbton/Farbsättigung).
 
 Details
 --------------------------------------------------------------------------------
 
 **Webseite:** http://openlayers.org
 
-**Lizenz:** MIT-style license
+**Lizenz:** 2-klausige BSD Lizenz (aka FreeBSD Lizenz)
 
-**Software Version:** 2.13.1
+**Software Version:** 3.0.0
 
 **API Schnittstellen:** JavaScript
 
-**Support:** https://github.com/openlayers/openlayers 
+**Support:** https://groups.google.com/forum/#!forum/ol3-dev
 
 
 Quickstart
