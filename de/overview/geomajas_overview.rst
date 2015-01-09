@@ -1,7 +1,7 @@
 :Author: Pieter De Graef
 :Author: Dominik Helle
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geomajas.png
@@ -61,7 +61,7 @@ Details
 
 **Lizenz:** AGPL
 
-**Software Version:** 1.14.0
+**Software Version:** 2.2.0
 
 **Unterstütze Plattformen:** Windows, Linux, Mac
 
