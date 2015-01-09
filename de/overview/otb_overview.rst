@@ -54,11 +54,11 @@ Details
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
   für französisches Recht)
 
-**Software Version:** 4.0
+**Software Version:** 4.2.1
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 
-**API Schnittstellen:** C++ (verfügbare Bindings in Java und Python)
+**API Schnittstellen:** C++
 
 **Support:** http://www.osgeo.org/search_profile
 
