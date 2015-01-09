@@ -1,6 +1,6 @@
-:Author: Hamish Bowman
+:Author: Hamish Bowman, Sergey Popov
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0draft
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-marble.png
@@ -31,21 +31,45 @@ Widget.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/marble-history.png
-  :scale: 50 %
+.. image:: ../../images/screenshots/800x600/marble-history.png
+  :scale: 64 %
   :alt: Bildschirmfoto
   :align: right
 
-* Virtueller Globus und Weltatlas 
-* Navigation auf einem Globus in 3D
+* Virtueller Globus und Weltatlas
+* Eine großartige Anwendung für den Geographieuntericht
+* Leicht zu bedienen
+* Völlig frei und Open Source
 * Kartenpräsentation (Globus, Atlas Ansicht, Straßenkarte, Satellitenkarte, Topographische Karte, Bildungskarten, andere Planeten)
+* Navigation auf einem Globus in 3D
+* 3 verschiedene Projektionen stehen zur Verfügung (3D Globe, Flat Map, Mercator)
 * Information Layers (Wetter, aktuelle Wolken, Tag/Nacht-Ansicht, aktuelle Satelliten, Wikipedia Artikel, Fotos, Postleitzahlen, Erdbeben)
 * Suche (Online Adresssuche, Online POI Suche)
-* Positionierung & Tracking (GPS Lokalisation, Track Export nach KML)
+* Positionierung & Tracking (GPS und WLAN Lokalisation, Track Export nach KML)
 * Umschalten zwischen Kartenansichten in "Weltraumperspektive" und 2D-Projektion
 * Routing & Navigation (Sprachnavigation, Online Auto Routing, Online Rad Rountingouting, Online Fußgänger Routing, Offline Routing mit optionalem Download, Schritt für Schritt Navigation)
+* Interaktive KML Tours (Erzeugung, Bearbeitung, Ansicht)
+* Integration vieler Online-Dienste möglich (Amateur Radio Aprs, OpenCaching.com usw.)
+* WMS & TMS Unterstützung
 * Werkzeuge (Distanzmessung, Lesezeichen, Zeit-Simulation, Offline Modus)
 * `OpenStreetMap <http://www.osm.org>`_ Integration
+
+
+Screenshots
+--------------------------------------------------------------------------------
+
+.. image:: ../../images/screenshots/800x600/marble-overview-1.png
+  :scale: 75 %
+  :alt: screenshot
+  
+.. image:: ../../images/screenshots/800x600/marble-overview-2.png
+  :scale: 75 %
+  :alt: screenshot
+
+.. image:: ../../images/screenshots/800x600/marble-overview-3.png
+  :scale: 75 %
+  :alt: screenshot
+
 
 Details
 --------------------------------------------------------------------------------
@@ -54,13 +78,15 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 1.7.97
+**Software Version:** 1.9.2
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen:** Qt designer, C++, Python, D-BUS, Shell script
 
 **Support:** http://techbase.kde.org/Projects/Marble
+
+**Weitere Informationen:** http://www.slideshare.net/marbleglobe/marble-1-6en
 
 
 Quickstart
