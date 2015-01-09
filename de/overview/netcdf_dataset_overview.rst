@@ -1,24 +1,19 @@
 :Author: Brian Hamlin
-:Reviewer: tbd
+:Reviewer: Cameron Shorter
 :Translator: Astrid Emde
-:Version: osgeo-live7.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/logos/OSGeo_compass_with_text_square.png 
-  :scale: 90 %
+.. image:: ../../images/project_logos/logo-netcdf.png 
   :alt: Projekt Logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
-
-
 
 NetCDF Datensatz
 ================================================================================
 
 Kartendaten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. Comment: change me
 
 NetCDF (Network Common Data Form) ist eine Sammlung von Software Bibliotheken sowie selbsterklärenden, systemunabhängigen Datenformaten, die die 
 Erzeugung, den Zugriff und den Austausch von Array-orientierten wissenschaftlichen Daten ermöglicht. NetCDF Version 4.0 und höher unterstützt 
@@ -36,8 +31,6 @@ in Kooperation mit AORI (Atmosphere and Ocean Research Institute, The University
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right
-
-
 
 
 Details
