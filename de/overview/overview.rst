@@ -82,14 +82,15 @@ Spezielle GIS Software
 --------------------------------------------------------------------------------
 Spezielle Anwendungen
 
-* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Kartographisches Rendering
+* :doc:`IPython_overview` - [:doc:`QuickStart <../quickstart/IPython_quickstart>`] - Interactive Computing
+* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Bildprozessierung
+* :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Kartographisches Rendering
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing
 * :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Erzeuge Bildkacheln (Tiles)
 * :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Bildprozessierung
-* :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
+* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
 
 GIS Werkzeuge
 --------------------------------------------------------------------------------
