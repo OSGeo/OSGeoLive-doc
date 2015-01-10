@@ -128,7 +128,7 @@ Markieren Sie "virtualbox-ose-guest-utils" für die Installation.
 Rebooten Die die Virtualisierungsumgebung. Danach sollten die Bildschirmeinstellungen 
 denen ihres Hosts entsprechen. Sie können dies ändern durch:
 
-Selektieren von: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
+Selektieren von: :menuselection:Settings Manager --> Display``Preferences --> Monitor Settings` oder `ARandR`
 
 Weiterführende Links
 --------------------------------------------------------------------------------

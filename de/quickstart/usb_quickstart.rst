@@ -39,7 +39,7 @@ Schließen Sie einen USB-Stick an Ihren Rechner an.
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Wählen Sie :menuselection:`Applications --> System --> Startup Disk Creator` oder suchen Sie nach `Startup Disk Creator` vom Unity-Desktop.
+Wählen Sie :menuselection:`System Tools --> Startup Disk Creator` oder suchen Sie nach `Startup Disk Creator` vom Unity-Desktop.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
