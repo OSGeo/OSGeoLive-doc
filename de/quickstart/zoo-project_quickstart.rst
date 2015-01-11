@@ -59,4 +59,4 @@ What Next?
 		http://localhost/zoo/?Request=GetCapabilities&Service=WPS
 	
 *	Community Mitgliegder beantworten auf der ZOO Projekt Mailingliste gerne weitere Fragen:
-	zoo-discuss@gisws.media.osaka-cu.ac.jp
+	zoo-discuss@lists.osgeo.org
