@@ -9,17 +9,16 @@
   :target: http://ipython.org/
 
 
-
 IPython
 ================================================================================
 
-IPython provides a rich architecture for interactive computing with:
+IPython provides a rich architecture for interactive computing in the python language:
 
 * Powerful interactive shells (terminal and Qt-based).
-* A browser-based notebook with support for code, text, mathematical expressions, inline plots and other rich media.
+* A browser-based notebook with support for code, text, mathematical expressions, inline plots and rich media.
 * Support for interactive data visualization and use of GUI toolkits.
 * Flexible, embeddable interpreters to load into your own projects.
-* Consistant, reliable high performance tools for parallel computing.
+* Straightforward tools for parallel computing.
 
 .. image:: ../../images/screenshots/800x600/ipython-notebook1.png
   :scale: 92 %
@@ -27,30 +26,17 @@ IPython provides a rich architecture for interactive computing with:
   :align: right
   
 
-** Online Resources Include: **
 
-* `notebook gallery <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`_:
-
-* `videos and screencasts <http://ipython.org/videos.html#videos>`_:
-
-* `talks and presentations <http://ipython.org/presentation.html>`_:
-
-* `extensive documentation <http://ipython.org/documentation.html>`_:
-
-* `machine protocol <http://ipython.org/ipython-doc/stable/development/messaging.html>`_:
-
-* `projects using IPython <https://github.com/ipython/ipython/wiki/Projects-using-IPython>`_:
-
-
-
-Core Features - Notebook
+IPython Notebook
 --------------------------------------------------------------------------------
 
+The IPython Notebook is a web-based interactive computational environment combining code execution, text, mathematics, plots, maps and rich media into a single document. The python environment supplied on the OSGeo Live
+includes: SciPy Matplotlib plus IRIS Cartopy, and others, for mapping; mapnik, gdal2tiles for map tile generaton;
+data tools gdal, Geopandas, pyshp, Fiona, netCDF4, PostgreSQL psycopg2, R rpy2; the complete standard Python libraries,
+and more.
 
-The IPython Notebook is a web-based interactive computational environment where you can combine code execution, text, mathematics, plots and rich media into a single document:
-
-
-These notebooks are normal files that can be shared with colleagues, converted to other formats such as HTML or PDF, etc. You can share any publicly available notebook by using the IPython Notebook Viewer service which will render it as a static web page. This makes it easy to give your colleagues a document they can read immediately without having to install anything.
+On disk, Notebooks are normal files that can be shared with colleagues, and converted to other formats such as HTML or PDF. You can share any publicly available notebook by using the IPython Notebook Viewer service to render a read-only 
+web page which retains inline diagrams, maps and other output. This service makes it easy to give colleagues a document they can read immediately without having to install anything.
 
 To learn more about using the IPython Notebook, visit the example collection, and you can read the documentation for all the details on how to use and configure the system. The Notebook Gallery showcases many interesting notebooks covering a variety of topics, from basic programming to advanced scientific computing.
 
@@ -62,9 +48,6 @@ Geospatial Data Analysis and IPython
 .. _slideshow: http://orion.tw.rpi.edu/~epifanio/AGU-2013/AGU-2013-H52E02-MDS.slides.html
 
 .. _geo-notebook: https://github.com/OSGeo/IPython_notebooks
-
-On OSGeoLive a number of python libraries and command line tools are installed (GDAL, GRASS, et al), ready to be used, IPython provides a rich interface for such kind of tools -- example usage can be found in the geo-notebook_ git repository. other examples are available online on the IPython notebook gallery see : Data_and_Visualization_Integration_Via_Web-based_Resources_. An IPython Notebook can be also rendered as a slideshow_
-
 
 
 
@@ -87,8 +70,6 @@ IPython Website_
 COMMUNITY
 --------------------------------------------------------------------------------
 
-
-
 .. _Stack-Overflow: http://stackoverflow.com/questions/tagged/ipython
 
 Stack-Overflow_ 
@@ -108,6 +89,23 @@ Reddit_
 .. _File_a_bug: https://github.com/ipython/ipython/issues
 
 File_a_bug_
+
+
+Online Resources Include:
+--------------------------------------------------------------------------------
+
+* `notebook gallery <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`
+
+* `videos and screencasts <http://ipython.org/videos.html#videos>`
+
+* `talks and presentations <http://ipython.org/presentation.html>`
+
+* `extensive documentation <http://ipython.org/documentation.html>`
+
+* `machine protocol <http://ipython.org/ipython-doc/stable/development/messaging.html>`
+
+* `projects using IPython <https://github.com/ipython/ipython/wiki/Projects-using-IPython>`
+
 
 
 Quickstart
