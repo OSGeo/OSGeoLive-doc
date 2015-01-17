@@ -5,13 +5,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OpenLayers Quickstart 
+OpenLayers Quickstart
 ********************************************************************************
-
-.. TBD: Cameron's review comments:
-  This document is in "DRAFT" state until these comments have been removed.
-  I've added a number of review comments, starting with TBD: ...
-  Once these comments have been addressed, please remove my comment.
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
   :scale: 80 %
@@ -19,10 +14,9 @@ OpenLayers Quickstart
   :align: right
   :target: http://openlayers.org/
 
-OpenLayers3 is a light-weight mapping library for web and mobile clients which users modern browser technologies, such as HTML5, WebGL and CSS3.
+This Quick Start describes some basic steps on how to start working with OpenLayers3 creating a basic map, adding raster and vector layers and styling features.
 
-.. TBD: Cameron's review comments:
-  Add a sentence or 2 starting: "This Quick Start describes how to ..." (See UDig Quickstart for an example.
+OpenLayers3 is a light-weight mapping library for web and mobile clients which users modern browser technologies, such as HTML5, WebGL and CSS3.
 
 .. contents:: Contents
 
@@ -43,18 +37,14 @@ Before we start working with OpenLayers it helps to understand how OpenLayers co
 
 **Source**
   Each layer has a *source* attached, which knows how to load the layer content.
-  In the case of *vector layers*, its sources read vector data 
-  using a *format* class (for example GeoJSON or KML) and fill the layer 
+  In the case of *vector layers*, its sources read vector data
+  using a *format* class (for example GeoJSON or KML) and fill the layer
   with a set of *features*.
 
 **Features**
-  *Features* represent real world things and can be rendered using different 
+  *Features* represent real world things and can be rendered using different
   *geometries* (like point, line or polygon) using a given *style*, which
   determines its look (line color, fill color, etc).
-
-.. TBD: Cameron's review comments:
-  I've removed the section "Basic Code Structure" as it is covered by "A basic map" section, and as such not required.
-  This comment can be removed once read.
 
 A basic map
 --------------------------------------------------------------------------------
@@ -64,7 +54,7 @@ In this step we will create a basic map.
 Create a file in say /home/user/ called basic-map.html , and copy the following into the file.
 
 .. code-block:: html
-  
+
   <!DOCTYPE html>
   <html lang="en">
       <head>
@@ -74,7 +64,7 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
 
           <!-- OpenLayers CSS -->
           <link rel="stylesheet" href="http://ol3js.org/en/master/build/ol.css" type="text/css">
-          
+
           <!-- Custom styles -->
           <style>
             #map {
@@ -90,7 +80,7 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
 
           <!-- OpenLayers JS-->
           <script src="http://ol3js.org/en/master/build/ol.js" type="text/javascript"></script>
-          
+
           <!-- App code -->
           <script>
             var map = new ol.Map({
@@ -107,7 +97,7 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
               })
             });
           </script>
-          
+
       </body>
   </html>
 
@@ -115,16 +105,10 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
 
 Now try opening basic-map.html from a web browser. You should see the following:
 
-.. TBD: Cameron's review comments:
-  In the image, show the browser borders. In particular, we should ensure the
-  image includes the URL of the file, file:///home/user/basic-map.html
-  Note that I've changed scale to 100%, as we are taking screenshots
-  from smaller screens (800x600).
-
 .. image:: ../../images/screenshots/800x600/openlayers-basic-map.png
   :scale: 100 %
 
-Note: 
+Note:
 
 * The code follows the best practice of loading JavaScipt code at the end of the html file.
 
@@ -142,7 +126,7 @@ Adding raster layers
 --------------------------------------------------------------------------------
 
 The most used raster layers are the tiled layers, provided by the likes of
-OpenStreetMap, MapQuest, Bing, etc. Tiled layers are represented by the 
+OpenStreetMap, MapQuest, Bing, etc. Tiled layers are represented by the
 ``ol.layer.Tile`` class and must use a source that knows how to load tiles from
 a given provider, like ``ol.source.OSM`` or ``ol.source.MapQuest``:
 
@@ -186,7 +170,7 @@ Layers can be added to the map in two ways:
 Adding vector layers
 --------------------------------------------------------------------------------
 
-Vector layers are represented by the ``ol.layer.Vector`` and must use a 
+Vector layers are represented by the ``ol.layer.Vector`` and must use a
 source suitable for reading the vector format, like ``ol.source.GeoJSON``,
 ``ol.source.KML`` or ``ol.source.TopoJSON``.
 
@@ -203,14 +187,9 @@ source suitable for reading the vector format, like ``ol.source.GeoJSON``,
 .. image:: ../../images/screenshots/800x600/openlayers-vector.png
   :scale: 100 %
 
-Note, in the previous code we must change the ``url_to_file`` to point to a 
+Note, in the previous code we must change the ``url_to_file`` to point to a
 valid GeoJSON file placed in our server.
-.. TBD: Cameron's review comments:
-  Deleted: (note you must be aware of cross domain issues).
-  I've provided words below to explain cross-domain issues. (The target audience is a new
-  user who probably won't know what cross-domain means.)
-  Please check, is my following sentence correct?
-Note that Javascript security will prevents sourcing of datasets from an external URL. 
+Note that Javascript security will prevents sourcing of datasets from an external URL on a different domain.
 
 Features can also be created manually. In this case we need to create a geometry
 that represents the feature:
@@ -282,7 +261,7 @@ An style is represented by the ``ol.style.Style`` class which has properties to 
 **Ex. 7:** Styling features
 
 In the code, we have loaded a TopoJSON file and styled it through the ``style`` property.
-We have set a ``fill`` and ``stroke``, required for lines and polygons, and an 
+We have set a ``fill`` and ``stroke``, required for lines and polygons, and an
 ``image`` (in this case a circle) used for point features.
 
 Working with events
@@ -304,10 +283,6 @@ The next code registers an event on a map instance, and is notified each time th
   });
 
 **Ex. 8:** Printing pointer position.
-
-.. TBD: Cameron's review comments
-  One of the highlights of OpenLayers 3 is 3D functionality. Could we add a simple
-  3D example?
 
 What Next?
 --------------------------------------------------------------------------------
