@@ -30,15 +30,12 @@ IPython provides a rich architecture for interactive computing in the python lan
 IPython Notebook
 --------------------------------------------------------------------------------
 
-The IPython Notebook is a web-based interactive computational environment combining code execution, text, mathematics, plots, maps and rich media into a single document. The python environment supplied on the OSGeo Live
-includes: SciPy Matplotlib plus IRIS Cartopy, and others, for mapping; mapnik, gdal2tiles for map tile generaton;
-data tools gdal, Geopandas, pyshp, Fiona, netCDF4, PostgreSQL psycopg2, R rpy2; the complete standard Python libraries,
-and more.
+The IPython Notebook is a web-based interactive computational environment combining code execution, text, mathematics, plots, maps and rich media into a single document. 
 
 On disk, Notebooks are normal files that can be shared with colleagues, and converted to other formats such as HTML or PDF. You can share any publicly available notebook by using the IPython Notebook Viewer service to render a read-only 
 web page which retains inline diagrams, maps and other output. This service makes it easy to give colleagues a document they can read immediately without having to install anything.
 
-To learn more about using the IPython Notebook, visit the example collection, and you can read the documentation for all the details on how to use and configure the system. The Notebook Gallery showcases many interesting notebooks covering a variety of topics, from basic programming to advanced scientific computing.
+The Notebook Gallery showcases many interesting notebooks covering a variety of topics, from basic programming to advanced scientific computing. To learn more about using the IPython Notebook, use the built-in help system, and online resources listed below. 
 
 
 Geospatial Data Analysis and IPython
@@ -47,7 +44,10 @@ Geospatial Data Analysis and IPython
 
 .. _slideshow: http://orion.tw.rpi.edu/~epifanio/AGU-2013/AGU-2013-H52E02-MDS.slides.html
 
-.. _geo-notebook: https://github.com/OSGeo/IPython_notebooks
+.. _geo-notebooks: https://github.com/OSGeo/IPython_notebooks
+
+
+The python environment supplied on the OSGeo Live includes: **SciPy Matplotlib** plus **IRIS Cartopy** and others, for mapping; data tools include **gdal**, **Geopandas**, **pyshp**, **Fiona**, **netCDF4**, PostgreSQL **psycopg2**, R **rpy2**; the complete standard Python libraries, and more. Some online examples of geospatial data analysis include Data_and_Visualization_Integration_Via_Web-based_Resources_, Massimo Di Stefano and Margherita Di Leo's 2013 American Geophysical Union (AGU) demo slideshow_, and a github repo of geo-notebooks_ .
 
 
 
@@ -94,17 +94,19 @@ File_a_bug_
 Online Resources Include:
 --------------------------------------------------------------------------------
 
-* `notebook gallery <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`
+* `notebook gallery <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`_
 
-* `videos and screencasts <http://ipython.org/videos.html#videos>`
+* `videos and screencasts <http://ipython.org/videos.html#videos>`_
 
-* `talks and presentations <http://ipython.org/presentation.html>`
+* `talks and presentations <http://ipython.org/presentation.html>`_
 
-* `extensive documentation <http://ipython.org/documentation.html>`
+* `extensive documentation <http://ipython.org/documentation.html>`_
 
-* `machine protocol <http://ipython.org/ipython-doc/stable/development/messaging.html>`
+* `machine protocol <http://ipython.org/ipython-doc/stable/development/messaging.html>`_
 
-* `projects using IPython <https://github.com/ipython/ipython/wiki/Projects-using-IPython>`
+* `projects using IPython <https://github.com/ipython/ipython/wiki/Projects-using-IPython>`_
+
+* `IRIS Cartopy Tutorial <https://github.com/SciTools/courses>`_
 
 
 
