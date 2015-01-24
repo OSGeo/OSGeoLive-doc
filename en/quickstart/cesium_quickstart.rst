@@ -11,40 +11,65 @@
 ********************************************************************************
 Cesium Quickstart 
 ********************************************************************************
-Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization. Cesium is open source under the Apache 2.0 license. It is free for commercial and non-commercial use. 
+This document shows how to get around cesium webinterface and how easy is it to get application written for 3D (Globe), 2.5D (Columbus View) and 2D (map) .
 
-Core Features
-================================================================================
-Dynamic Geospatial Visualization
---------------------------------
-* Create data-driven time-dynamic scenes with `CZML <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_
-* Visualize high-resolution worldwide terrain. 
-* Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri standards. 
-* Draw vector data from GeoJSON and TopoJSON. 
-* Draw 3D models using COLLADA and glTF. 
-* Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium. 
+Starting Cesium
+===============
+* **Step1:** Open a terminal and become root with “sudo su”.
+* **Step2:** Run the cesium installation script by running “/trunk/bin/install_cesium.sh”
+* **Step3:** Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html
 
-Built for Performance and Precision
------------------------------------
-* Optimized WebGL with batching and culling efficiently uses hardware-accelerated graphics. 
-* Draw a wide range of geometries including polylines, polygons, billboards, labels, extrusions, and corridors. 
-* Control the camera and create flight paths. 
-* Use standard widgets to control animation time, select imagery layers, and zoom to a location. 
+Searching for locations
+=======================
+You can click on the magnifying glass and type in the location you are looking for.  In this case I have looked up for India.
 
-One API, Three Views 
---------------------
-* Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same API. 
+.. image:: ../../images/screenshots/1024x768/cesium_1_SearchingLocation.png
+  :scale: 100 %
+  :alt: Cesium Searching Location
+  :align: right
 
-Implemented Standards
-=====================
-* WMS and WMTS. KML is expected in early 2015.
+Switching between 3D, 2.5D and 2D
+=================================
+You can click on the wire framed globe like icon and select on what you want.  I have currently clicked on 2.5D Columbus view.
 
+.. image:: ../../images/screenshots/1024x768/cesium_2_2253d.png
+  :scale: 100 %
+  :alt: Cesium switching between 3D, 2.5D and 2D
+  :align: right
 
-Details
-=======
-* **Website:** http://cesiumjs.org
-* **Licence:** Apache 2.0 license
-* **Software Version:** 1.4
-* **Supported Platforms:**  Platform independent, depends only on browser with support to WebGL.
-* **Community Support:** Mailing list cesium-dev@googlegroups.com
+Now I have selected a 2D map.
+
+.. image:: ../../images/screenshots/1024x768/cesium_3_2D.png
+  :scale: 100 %
+  :alt: Cesium 2D map
+  :align: right
+
+Selecting the Image layer
+=========================
+We can click on the last icon and select the type of image service we want.  In our case I have selected Natural Earth II, you can see how the maps image layer has changed.
+
+.. image:: ../../images/screenshots/1024x768/cesium_4_Layer.png
+  :scale: 100 %
+  :alt: Cesium 2D map
+  :align: right
+
+Video Tutorial
+==============
+For more indepth video on using cesium I would recommend you to take a look at these set of videos `here <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_
+
+Web based Tutorial
+==================
+You can get more static tutorial at this `website <http://cesiumjs.org/tutorials.html>`_
+
+Developing quick applications
+=============================
+You can develop some quick applications using the Sandcastle website by following this `link <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_
+
+Documentation
+=============
+For in-depth documentation follow this link on `localhost <http://localhost/cesium/>`_ on your browser after installing cesium.
+
+More Help
+=========
+For more help with respect to coding please post your queries to the mailing list cesium-dev@googlegroups.com where the community is always alive and ready to help you.
 
