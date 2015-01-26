@@ -9,54 +9,45 @@
   :target: http://ipython.org/
 
 
-IPython
-================================================================================
-
-IPython provides a rich architecture for interactive computing in the python language:
-
-* Powerful interactive shells (terminal and Qt-based).
-* A browser-based notebook with support for code, text, mathematical expressions, inline plots and rich media.
-* Support for interactive data visualization and use of GUI toolkits.
-* Flexible, embeddable interpreters to load into your own projects.
-* Straightforward tools for parallel computing.
-
-.. image:: ../../images/screenshots/800x600/ipython-notebook1.png
-  :scale: 92 %
-  :alt: screenshot
-  :align: right
-  
-
-
 IPython Notebook
 --------------------------------------------------------------------------------
 
-The IPython Notebook is a web-based interactive computational environment combining code execution, text, mathematics, plots, maps and rich media into a single document. 
+.. image:: ../../images/screenshots/800x600/ipython-notebook1.png
+  :scale: 100 %
+  :alt: screenshot
+  :align: right
+  
+.. TBD: The image should show use of iPython Notebook with maps, possibly as
+   collage. Show an [In] cell with code. Show a heading or 2 and text
+   demonstrating how it is easy to build an publish powerful web pages.
 
-On disk, Notebooks are normal files that can be shared with colleagues, and converted to other formats such as HTML or PDF. You can share any publicly available notebook by using the IPython Notebook Viewer service to render a read-only 
-web page which retains inline diagrams, maps and other output. This service makes it easy to give colleagues a document they can read immediately without having to install anything.
+IPython Notebook is a web-based application for creating and publishing IPython notebooks. IPython notebooks contain a list of input/output cells which can contain code, text, mathematics, plots, maps and other media.
 
-The Notebook Gallery showcases many interesting notebooks covering a variety of topics, from basic programming to advanced scientific computing. To learn more about using the IPython Notebook, use the built-in help system, and online resources listed below. 
+They are a bit like a spreadsheet in that each cell can contain code or a formula, and a bit like a web page in that authors can create structured text along with easily embedding rich and sophisticated media. This includes a comprehensive range of geospatial functions from a number of libraries. 
 
-
-Geospatial Data Analysis and IPython
---------------------------------------------------------------------------------
-.. _Data_and_Visualization_Integration_Via_Web-based_Resources: http://tw.rpi.edu/media/2013/09/25/a48/The_Perfect_Storm_1991.html
-
-.. _slideshow: http://orion.tw.rpi.edu/~epifanio/AGU-2013/AGU-2013-H52E02-MDS.slides.html
-
-.. _geo-notebooks: https://github.com/OSGeo/IPython_notebooks
-
-
-The python environment supplied on the OSGeo Live includes: **SciPy Matplotlib** plus **IRIS Cartopy** and others, for mapping; data tools include **gdal**, **Geopandas**, **pyshp**, **Fiona**, **netCDF4**, PostgreSQL **psycopg2**, R **rpy2**; the complete standard Python libraries, and more. Some online examples of geospatial data analysis include Data_and_Visualization_Integration_Via_Web-based_Resources_, Massimo Di Stefano and Margherita Di Leo's 2013 American Geophysical Union (AGU) demo slideshow_, and a github repo of geo-notebooks_ .
+IPython notebooks are particularly useful for quick prototyping; embedding presentation text, code, formulas, plots, maps, and more all from the one document; sharing this document easily; publishing this complex information professionally as interactive web pages, presentation slides, PDF, and more.
 
 
+Core Features
+================================================================================
+
+* Create iPython notebooks which contain:
+
+    * Marked up text (with headings, styles, paragraphs, etc)
+    * Formulas, mathematics, plots, maps, ...
+    * Ability to import external libraries to add extra functionality,
+    * Ability to incorporate code from multiple programming languages, including python, R, Julia, Haskell and many more.
+
+* Access a wide range of geospatial functions:
+
+    * SciPy Matplotlib, IRIS Cartopy, gdal, Geopandas, pyshp, Fiona, netCDF4, PostgreSQL psycopg2, R rpy2, and more.
+
+.. TBD: Review list above.
 
 Details
 --------------------------------------------------------------------------------
 
-IPython Website_ 
-
-.. _Website: http://ipython.org/
+**Website:** http://ipython.org/
 
 **Licence:** BSD license
 
@@ -66,48 +57,7 @@ IPython Website_
 
 **API Interfaces:** Python
 
-
-COMMUNITY
---------------------------------------------------------------------------------
-
-.. _Stack-Overflow: http://stackoverflow.com/questions/tagged/ipython
-
-Stack-Overflow_ 
-
-.. _Mailing-list: http://projects.scipy.org/mailman/listinfo/ipython-user
-
-Mailing-list_
-
-.. _Wiki: https://github.com/ipython/ipython/wiki
-
-Wiki_
-
-.. _Reddit: http://www.reddit.com/r/IPython
-
-Reddit_
-
-.. _File_a_bug: https://github.com/ipython/ipython/issues
-
-File_a_bug_
-
-
-Online Resources Include:
---------------------------------------------------------------------------------
-
-* `notebook gallery <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`_
-
-* `videos and screencasts <http://ipython.org/videos.html#videos>`_
-
-* `talks and presentations <http://ipython.org/presentation.html>`_
-
-* `extensive documentation <http://ipython.org/documentation.html>`_
-
-* `machine protocol <http://ipython.org/ipython-doc/stable/development/messaging.html>`_
-
-* `projects using IPython <https://github.com/ipython/ipython/wiki/Projects-using-IPython>`_
-
-* `IRIS Cartopy Tutorial <https://github.com/SciTools/courses>`_
-
+**Support:**  http://ipython.org/ (Under Community heading)
 
 
 Quickstart
