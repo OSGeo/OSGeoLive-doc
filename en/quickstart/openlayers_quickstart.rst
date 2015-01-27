@@ -14,7 +14,7 @@ OpenLayers Quickstart
   :align: right
   :target: http://openlayers.org/
 
-This Quick Start describes some basic steps on how to start working with OpenLayers3 creating a basic map, adding raster and vector layers and styling features.
+This Quick Start describes some basic steps required to start working with OpenLayers3: creating a basic map, adding raster and vector layers and styling features.
 
 OpenLayers3 is a light-weight mapping library for web and mobile clients which users modern browser technologies, such as HTML5, WebGL and CSS3.
 
@@ -23,17 +23,16 @@ OpenLayers3 is a light-weight mapping library for web and mobile clients which u
 Core Concepts
 --------------------------------------------------------------------------------
 
-Before we start working with OpenLayers it helps to understand how OpenLayers core concepts.
+Before we start working with OpenLayers it helps to understand OpenLayers core concepts:
 
 **Map**
   The *map* is the core component of OpenLayers. For a *map* to render, a *view*, one or more *layers*, and a target container are needed.
 
 **View**
-  The *view* determines how map is rendered. It is used to set the resolution, the center location, etc. It is like a camera through which we look the map content.
+  The *view* determines how the map is rendered. It is used to set the resolution, the center location, etc. It is like a camera through which we look at the map's content.
 
 **Layers**
- *Layers* can be added to the map in a stacked order, that is, lower layers are rendered before upper layers.
-  Layers can be either *raster layers* (images), or *vector layers* (points/lines/polygons).
+ *Layers* can be added to the map in a stacked order, that is, lower layers are rendered before upper layers.  Layers can be either *raster layers* (images), or *vector layers* (points/lines/polygons).
 
 **Source**
   Each layer has a *source* attached, which knows how to load the layer content.
@@ -44,7 +43,7 @@ Before we start working with OpenLayers it helps to understand how OpenLayers co
 **Features**
   *Features* represent real world things and can be rendered using different
   *geometries* (like point, line or polygon) using a given *style*, which
-  determines its look (line color, fill color, etc).
+  determines its look (line thinkness, fill color, etc).
 
 A basic map
 --------------------------------------------------------------------------------
