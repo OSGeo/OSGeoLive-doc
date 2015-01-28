@@ -16,7 +16,7 @@ OpenLayers Quickstart
 
 This Quick Start describes some basic steps required to start working with OpenLayers3: creating a basic map, adding raster and vector layers and styling features.
 
-OpenLayers3 is a light-weight mapping library for web and mobile clients which users modern browser technologies, such as HTML5, WebGL and CSS3.
+OpenLayers3 is a light-weight mapping library for web and mobile clients which uses modern browser technologies, such as HTML5, WebGL and CSS3.
 
 .. contents:: Contents
 
@@ -36,7 +36,7 @@ Before we start working with OpenLayers it helps to understand OpenLayers core c
 
 **Source**
   Each layer has a *source* attached, which knows how to load the layer content.
-  In the case of *vector layers*, its sources read vector data
+  In the case of *vector layers*, its source read vector data
   using a *format* class (for example GeoJSON or KML) and fill the layer
   with a set of *features*.
 
@@ -266,7 +266,7 @@ We have set a ``fill`` and ``stroke``, required for lines and polygons, and an
 Working with events
 --------------------------------------------------------------------------------
 
-Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, when a featured is added to a vector layer, etc.
+Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, when a feature is added to a vector layer, etc.
 
 Events can be easily registered on object with the ``on()`` method and unregistered with ``un()``.
 
