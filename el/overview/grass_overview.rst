@@ -48,7 +48,7 @@ GRASS GIS
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
-**Έκδοση Λογισμικού:** 6.4.4
+**Έκδοση Λογισμικού:** 7.0.0RC1
 
 **Υποστηριζόμενες πλατφόρμες:** GNU/Linux, Mac OSX, MS Windows
 

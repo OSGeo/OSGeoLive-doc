@@ -315,7 +315,7 @@ Spearfish хорошим выбором будет растр "`spot.image`" в 
 Подробности
 ================================================================================
 * Посетите официальный сайт GRASS `http://grass.osgeo.org <http://grass.osgeo.org>`_.
-* Посетите вики GRASS `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_.
-* Больше материалов и обзоров могут быть найдены `здесь <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* `Обзор модулей GRASS <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, включая расположение модулей в меню (`HTML-версия <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_).
-* Если более чем 400 встроенных модулей GRASS недостаточно для решения ваших задач, обратите внимание на модули, написанные и поддерживаемые членами сообщества `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_.
+* Посетите вики GRASS `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_.
+* Больше материалов и обзоров могут быть найдены `здесь <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* `Обзор модулей GRASS <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, включая расположение модулей в меню (`HTML-версия <http://grass.osgeo.org/grass70/manuals/full_index.html>`_).
+* Если более чем 400 встроенных модулей GRASS недостаточно для решения ваших задач, обратите внимание на модули, написанные и поддерживаемые членами сообщества `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_.

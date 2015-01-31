@@ -348,13 +348,13 @@ per lasciare l'ambiente GIS.
 Ulteriori letture
 ================================================================================
 * Visita il sito di GRASS `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* Visita il sito di aiuto nel GRASS Wiki `http://grass.osgeo.org/wiki 
-  <http://grass.osgeo.org/wiki>`_
+* Visita il sito di aiuto nel GRASS Wiki `http://grasswiki.osgeo.org/wiki/ 
+  <http://grasswiki.osgeo.org/wiki/>`_
 * Ulteriori tutorials e riassunti possono essere trovati `here <http://grass.
   osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
 * Un'anteprima dei moduli GRASS <http://grass.osgeo.org/gdp/grassmanuals/grass64
   _module_list.pdf>`_, compresa la posizione nei menù della GUI. (`HTML version 
-  <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
+  <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
 * Se i 400 moduli GIS  compresi in GRASS non sono abbastanza dai uno sguardo ai 
-  molti add-ons sviluppati `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.
+  molti add-ons sviluppati `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.
   org/wiki/AddOns>`_

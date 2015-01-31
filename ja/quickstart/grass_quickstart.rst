@@ -318,8 +318,8 @@ prompt to leave the GIS environment.
 参照情報
 ================================================================================
 * GRASS ホームページは `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* GRASS Wiki ヘルプサイトは `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
-* チュートリアルや概要は `こちら <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* GUIメニューと`GRASS モジュール概要 <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_. (`HTML 版 <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
+* GRASS Wiki ヘルプサイトは `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
+* チュートリアルや概要は `こちら <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* GUIメニューと`GRASS モジュール概要 <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_. (`HTML 版 <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
 * もし 400 個の GRASS モジュールでも物足りない場合は第三者により開発されたアドオンもあります
-  `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_
+  `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_

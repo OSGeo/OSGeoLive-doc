@@ -243,9 +243,9 @@ Weiterführende Links
 ================================================================================
 
 * Besuchen Sie die GRASS Webseite unter `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* Besuchen Sie die GRASS Wiki Hilfeseiten unter `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
-* Mehr Tutorials und Übersichten finden Sie unter <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* Besuchen Sie die GRASS Wiki Hilfeseiten unter `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
+* Mehr Tutorials und Übersichten finden Sie unter <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
 * Eine `Synopsis der GRASS Module' <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, inklusive
-  GUI Menü Position. (`HTML version <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
+  GUI Menü Position. (`HTML version <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
 * Wenn die 400 GIS Module in GRASS nicht ausreichen, werfen Sie mal einen Blick auf die vielen add-ons 
-  unter `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_
+  unter `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_

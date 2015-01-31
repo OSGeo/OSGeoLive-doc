@@ -1,7 +1,7 @@
 ﻿:Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
-:Version: OSGeo-Live 5.5
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GRASS.png
@@ -48,7 +48,7 @@ GRASS GIS
 
 **版权协议：** GNU General Public License (GPL) version 2
 
-**软件版本：** 6.4.4
+**软件版本：** 7.0.0RC1
 
 **支持平台：** GNU/Linux, Mac OSX, MS Windows
 

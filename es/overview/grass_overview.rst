@@ -67,7 +67,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión del software:** 6.4.4
+**Versión del software:** 7.0.0RC1
 
 **Plataformas soportadas:** GNU/Linux, Mac OSX, MS Windows
 

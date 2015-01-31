@@ -18,9 +18,10 @@ Running
 ================================================================================
 
 .. author's note: Location now focusing on Spearfish as there wasn't
- enough disc space for the full NC dataset.
+ enough disc space for the full NC dataset. 
+ Update osgeo-live8.5: light NC dataset is included
 
-To run GRASS on the Live DVD, click on the GRASS link in
+To run GRASS GIS on the Live DVD, click on the GRASS link in
 the :menuselection:`Geospatial --> Desktop GIS` menu.
 From the "Welcome to GRASS" window select the Spearfish dataset for the
 location, and "user1" for the mapset, then click on [*Start Grass*].
@@ -336,9 +337,9 @@ prompt to leave the GIS environment.
 Further reading
 ================================================================================
 * Visit the GRASS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* Visit the GRASS Wiki help site at `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
-* More tutorials and overviews can be found `here <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* Visit the GRASS Wiki help site at `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
+* More tutorials and overviews can be found `here <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
 * A `synopsis of the GRASS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
-  GUI menu position. (`HTML version <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
+  GUI menu position. (`HTML version <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
-  add-ons at `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_
+  add-ons at `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_

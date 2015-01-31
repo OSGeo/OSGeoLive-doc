@@ -157,9 +157,9 @@ grid`，点击 [Ok] 并刷新。
 其它信息
 ================================================================================
 * GRASS 官方网站 `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* GRASS Wiki `http://grass.osgeo.org/wiki <http://grass.osgeo.org/wiki>`_
-* 更多介绍与教程 `here <http://grass.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* GRASS Wiki `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
+* 更多介绍与教程 `here <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
 * GRASS 功能模块详解 <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
-  图形界面选项位置参考 (`HTML 版本 <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.html>`_)
-* 除了内建的约 400 个模块，GRASS 还提供大量用户制作的附加模块 `http://grass.osgeo.org/wiki/AddOns <http://grass.osgeo.org/wiki/AddOns>`_
+  图形界面选项位置参考 (`HTML 版本 <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
+* 除了内建的约 400 个模块，GRASS 还提供大量用户制作的附加模块 `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_
 

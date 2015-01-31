@@ -49,7 +49,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 6.4.4
+**Software Version:** 7.0.0RC1
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
