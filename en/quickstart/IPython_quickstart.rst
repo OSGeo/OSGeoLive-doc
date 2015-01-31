@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-ipython.png
   :scale: 100 %
   :alt: project logo
-  :align: right
+  :align: center
   :target: http://ipython.org/
 
 
@@ -50,11 +50,11 @@ file ending in suffix .ipynb, and are displayed by their filename.
 Renaming a Notebook simply changes the filename. Creating a new directory will automatically become visible in the IPython Notebook tree browser.
 
  
-Remote IPython
+Remote IPython Notebook
 ---------------------------------------------------------------------------------
 
 * open a terminal window by clicking on the green terminal icon
-* execute `ipython notebook --ip=* --matplotlib=inline --no-browser`
+* execute `ipython notebook ---ip=* ---matplotlib=inline ---no-browser`
 * determine the IP address of your computer or VM, for example using: 
   *ifconfig -a | grep 192*
   
