@@ -8,7 +8,7 @@
   :alt: project logo
   :align: center
   :target: http://ipython.org/
-
+  :figwidth: 166 %
 
 ********************************************************************************
 Getting Started with IPython Notebook
