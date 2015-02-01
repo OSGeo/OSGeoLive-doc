@@ -25,24 +25,24 @@ OpenLayers3
 Browser/Mobile Map Biliothek und GIS Anwendung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
-  :alt: Bildschirmfoto
-  :align: right
-
 OpenLayers macht es einfach für Webentwickler, dynamischen Karten aus einer 
 Vielzahl von Quellen in jede beliebige Webseite einzubetten. OpenLayers bietet 
 ein umfangreiches Set von Mapping-Werkzeugen und Widgets, ähnlich wie die der 
 Google Maps API. Alle Funktionen laufen innerhalb des Web-Browsers, was 
 einfach macht, OpenLayers ohne serverseitige Abhängigkeiten zu installieren, 
 
+.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+  :scale: 70 %
+  :alt: Bildschirmfoto
+  :align: right
 
 Kernfunktionen
 --------------------------------------------------------------------------------
 
 * Ebenen
 
-  * Raster: WMS/WMTS konforme Server, gecachete Kacheln und proprietäre Anbieter (OpenStreetMap, MapQuest, Stamen, Bing sowie Unterstützung für gecachete Kachel-Anbieter), statische Bilder usw.
-  * Vektor: WFS konforme Server, KML, GeoJSON, TopoJSON, GPX, und IGC.
+  * Raster: WMS/WMTS, OpenStreetMap, MapQuest, Stamen, Bing, statische Bilder, usw.
+  * Vektor: WFS, KML, GeoJSON, TopoJSON, GPX, und IGC.
   * Heatmaps.
   * Darstellung von Vektorthemen als Raster.
 
