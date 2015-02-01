@@ -43,6 +43,17 @@ Das DebianGIS und UbuntuGIS Projekt stellen viele der Hauptprojekte bereit und s
 
 Das Australian Government's Office of Spatial Data Management unterstützte LISAsoft's bei der Prüfung der Anwendungsübersichten, um einheitliche und hochwertige Beschreibngen zu erhalten.
 
+.. image:: ../images/logos/okeanos-logo.jpg
+  :alt: The Greek Academic cloud service
+  :target: https://okeanos.grnet.gr
+
+Okeanos ist der Griechische Akademische Cloud Dienst (IaaS), der den griechischen 
+Universitäten und öffentlichen Forschungszentren virtualisierte 
+Computerresourcen kostenfrei zur Verfügung stellt. Okeanos baut 
+auf existierende bewährte Open Source Software (beispielsweise Synnefo, 
+Google Ganeti) auf. Okeanos stellt freundlicherweise die Virtuellen 
+Maschinen, auf denen die OSGeoLive iso-Images gebaut werden.
+
 .. include :: sponsors_osgeo.rst
 
 Mitwirkende
