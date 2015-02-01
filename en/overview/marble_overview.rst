@@ -48,9 +48,8 @@ Core Features
   :align: right
 
 * Virtual Globe And World Atlas
-* A great solution for the geography lessons
 * Easy to use
-* Fully free and Open Source
+* A great solution for the geography lessons
 * Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps)
 * Navigate globe in 3D
 * 3 different projections are available (3D Globe, Flat Map, Mercator)
@@ -59,26 +58,10 @@ Core Features
 * Positioning & Tracking (GPS and WLAN localization, Track export in KML)
 * Routing & Navigation (Voice navigation, Online motorcar routing, Online bike routing, Online pedestrian routing, Offline routing optional download, Turn-by-turn navigation)
 * Interactive KML tours (Creating, editing, viewing)
-* Integrating with many online services (Amateur Radio Aprs, OpenCaching.com, etc.)
+* Integration with many online services (Amateur Radio Aprs, OpenCaching.com, etc.)
 * WMS & TMS support
 * Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)
 * `OpenStreetMap <http://www.osm.org>`_ integration
-
-
-Screenshots
---------------------------------------------------------------------------------
-
-.. image:: ../../images/screenshots/800x600/marble-overview-1.png
-  :scale: 75 %
-  :alt: screenshot
-  
-.. image:: ../../images/screenshots/800x600/marble-overview-2.png
-  :scale: 75 %
-  :alt: screenshot
-
-.. image:: ../../images/screenshots/800x600/marble-overview-3.png
-  :scale: 75 %
-  :alt: screenshot
 
 
 Details
