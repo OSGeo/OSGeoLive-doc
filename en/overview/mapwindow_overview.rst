@@ -1,5 +1,5 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Reviewer: 
+:Reviewer: Cameron Shorter, LISAsoft
 :Product: MapWindow GIS Lite
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -23,19 +23,10 @@ It includes powerful analytical functions through integration with GEOS and GDAL
 MapWindow is easy to incorporate into MS-Office based products such as MS-Excel 
 and MS-Access, as well as programs written in C++, C#, VB.NET and Delphi, 
 as MapWindow is based upon an ActiveX control called MapWinGIS.
-This version is MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.3. 
+MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.3. 
 
-The two biggest improvement of this version are probably the support for the GeoSpatial database 
-PostGIS and the native Shapefile editor. Numerous bug fixes make this version of 
-MapWinGIS the most stable and fastest ever.
-
-The version included on this DVD is a Lite version because not all functionality 
-of MapWindow Desktop v4.8.8 are included. For instance the toolbox and plug-ins 
-are not included. This Lite version does has a fully functional shapefile editor 
-and support for PostGIS. 
-
-MapWindow v5 (first version due mid 2015) will have 
-the toolbox and plug-in architecture again. 
+The MapWindow Lite version installed on OSGeo-Live doesn't include all MapWindow Desktop functionality (such as 
+toolbox, plug-ins, fully functional shapefile editor, or support for PostGIS). 
 
 .. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. 
 Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be 
@@ -87,7 +78,7 @@ Details
 
 **Licence:** MPLv1.1
 
-**Software Version:** 4.9.3
+**Software Version:** MapWindowLite 4.9.3
 
 **Supported Platforms:** Windows (XP or higher)
 
