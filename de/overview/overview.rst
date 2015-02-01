@@ -34,6 +34,7 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Bibliothek
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] - Interactive Karten für mobile Geräte geeignet
+* :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 2D Karten und 3D Globen im Browser
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
@@ -52,7 +53,7 @@ Veröffentlichung von Geodaten im Netz:
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Katalog und Katalogdienst für das Web
 * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Katalog
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy für WMS und Tile-Dienste
-* :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`]
+* :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
@@ -83,7 +84,7 @@ Spezielle GIS Software
 Spezielle Anwendungen
 
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Kartographisches Rendering
-* :doc:`IPython_overview` - [:doc:`QuickStart <../quickstart/IPython_quickstart>`] - Interactive Computing
+* :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/IPython_quickstart>`] - Interactive Computing
 * :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Bildprozessierung
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Kartographisches Rendering
