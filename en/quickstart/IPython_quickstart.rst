@@ -32,8 +32,9 @@ useful when running **OSGeo Live** in a Virtual Machine (VM).
 Local IPython Notebook
 ---------------------------------------------------------------------------------
 
-* from the application launch menu in the lower left corner, 
-  choose  *Geospatial* -> *Spatial Tools* -> *Start IPython Notebook*
+Use the application launch menu in the lower left corner.
+ 
+* Choose  *Geospatial* -> *Spatial Tools* -> *Start IPython Notebook*
   
 A terminal window will open and a startup log will begin to scroll.
 Next
@@ -72,12 +73,12 @@ web browser, showing the Notebook interface. Try moving the mouse over
 each button in the toolbar and hold it there, to see the tooltip titles. Also
 take a moment to click on the menus to begin to become familiar with their contents.
 
-Take particular note of the **Help** menu, however you will need an active Internet connection to use the built-in help menus.
+
+Take particular note of the **Help** menu. You can try the clever User Interface Tour and open the Keyboard Shortcuts
+cheatsheet, however you will need an active Internet connection to use the other Help topics.
 
 The Notebook interface is a list of *cells*. Each cell has a type, for
 example a heading or python code, and consists of one or more lines of text, code, inline image tags or other script. Any cell of type code can be executed by making it *active* and then clicking on the *run* button, or using the Run keyboard shortcut Shift-Return.
-(see Help -> Keyboard Shortcuts for more information)
-
 
 Try clicking on the first code cell, which includes **Import numpy as np**
 and executing it. You should see no error messages, and the next cell downwards
