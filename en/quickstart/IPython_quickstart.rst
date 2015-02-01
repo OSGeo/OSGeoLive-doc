@@ -58,8 +58,9 @@ Remote IPython Notebook
 * determine the IP address of your computer or VM, for example using: 
   *ifconfig -a | grep 192*
   
-Use a web browser from another computer and enter the IP address from above, along with the IPython Notebook port ':8883'. e.g.  192.168.1.13:8883
-  
+Use a web browser from another computer and enter the IP address from above, 
+along with the IPython Notebook port ':8888'. e.g.  192.168.1.13:8888
+
 
 
 Using the IPython Notebook
