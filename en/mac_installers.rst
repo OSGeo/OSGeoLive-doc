@@ -36,7 +36,8 @@ upgraded in future without rendering the other programs unusable.
 * http://download.osgeo.org/ossim/installers/mac/ossimplanet-appbundle-1.8.4.dmg
 * http://cran.stat.ucla.edu/bin/macosx/R-2.15.2.pkg
 * http://github.com/downloads/mapbox/tilemill/TileMill-0.10.1.zip
-
+* http://grassmac.wikidot.com/frameworks
+* http://grassmac.wikidot.com/downloads
 
    .. toctree::
      :maxdepth: 1

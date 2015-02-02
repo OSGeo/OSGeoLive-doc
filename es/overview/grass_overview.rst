@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
 :Translator: Roberto Antolín
-:Version: osgeo-liver6.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -73,7 +74,7 @@ Detalles
 
 **Interfaces API:** C, Python, Bourne Shell
 
-**Soporte:** http://grass.osgeo.org/community/support.php
+**Soporte:** http://grass.osgeo.org/support/
 
 
 Guía rápida

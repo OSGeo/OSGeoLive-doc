@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: Logo du projet
@@ -69,7 +70,7 @@ Détails
 
 **Interfaces de l'API :** C, Python, Bourne Shell
 
-**Support :** http://grass.osgeo.org/community/support.php
+**Support :** http://grass.osgeo.org/support/
 
 
 Guide de démarrage rapide

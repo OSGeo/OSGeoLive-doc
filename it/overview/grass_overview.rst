@@ -2,7 +2,8 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
 :Translator: Luca Delucchi
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo

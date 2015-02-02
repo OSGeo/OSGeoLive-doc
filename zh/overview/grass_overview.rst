@@ -2,7 +2,8 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: osgeo-live5.5
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -54,7 +55,7 @@ GRASS GIS
 
 **接口语言：** C / Python / Bourne Shell
 
-**社区支持：** http://grass.osgeo.org/community/
+**社区支持：** http://grass.osgeo.org/support/
 
 
 快速入门

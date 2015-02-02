@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live5.5
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -59,7 +60,7 @@ GRASS 소프트웨어는 400개 이상의 분석 모듈을 포함하고 있습�
 
 **API Interfaces:** C, Python, Bourne Shell
 
-**Support:** http://grass.osgeo.org/community/support.php
+**Support:** http://grass.osgeo.org/support/
 
 
 Quickstart

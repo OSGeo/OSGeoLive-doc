@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
-:Version: OSGeo-Live 6.0
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Version: osgeo-live6.0
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png

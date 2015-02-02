@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -28,9 +29,9 @@ GRASS GIS (Geographic Resources Analysis Support System) ist ein Geographisches 
    :alt: screenshot
    :align: right
 
-GRASS wird aktuell weltweit in zahllosen akademischen und kommerziellen Einrichtungen sowie in staatlichen Behörden und privaten Unternehmen verwendet. Die Software kann unter allen derzeit verbreiteten Hardware Plattformen eingesetzt werden. Als Freie Open Source Software (FOSS) ist GRASS unter der GNU General Public License (GPL) lizensiert.
+GRASS GIS wird aktuell weltweit in zahllosen akademischen und kommerziellen Einrichtungen sowie in staatlichen Behörden und privaten Unternehmen verwendet. Die Software kann unter allen derzeit verbreiteten Hardware Plattformen eingesetzt werden. Als Freie Open Source Software (FOSS) ist GRASS GIS unter der GNU General Public License (GPL) lizensiert.
 
-GRASS stellt mehr als 400 Module mit Analysefunktionen zur Verfügung. Zusätzlich stehen mehr als 100 weitere, von der Community bereitgestellte Module und Werkzeuge kostenlos über das GRASS Wiki bereit. Nach mehr als 27 Jahren kontinuierlicher Entwicklung ist GRASS heute das älteste und gleichzeitig umfangreichste Open Source GIS der Welt.
+GRASS GIS stellt mehr als 400 Module mit Analysefunktionen zur Verfügung. Zusätzlich stehen mehr als 100 weitere, von der Community bereitgestellte Module und Werkzeuge kostenlos über das GRASS Wiki bereit. Nach mehr als 27 Jahren kontinuierlicher Entwicklung ist GRASS heute das älteste und gleichzeitig umfangreichste Open Source GIS der Welt.
 GRASS ist einfach zu skripten und vielseitig genug, um für das Batch Processing auf großen, parallelen Architekturen von Supercomputern oder als handliches Desktop GIS auf Handheld PDAs oder Netbooks eingesetzt zu werden.
 
 
@@ -39,7 +40,7 @@ GRASS ist einfach zu skripten und vielseitig genug, um für das Batch Processing
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Suche eine Funktionalität und GRASS bietet das passende Modul.
+* Suche eine Funktionalität und GRASS GIS bietet das passende Modul.
 * Entdecke die `Screenshot Gallerie <http://grass.osgeo.org/screenshots/>`_.
 
 Details

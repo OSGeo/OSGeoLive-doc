@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Version: osgeo-live4.0
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
@@ -247,5 +247,5 @@ Weiterführende Links
 * Mehr Tutorials und Übersichten finden Sie unter <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
 * Eine `Synopsis der GRASS Module' <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, inklusive
   GUI Menü Position. (`HTML version <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
-* Wenn die 400 GIS Module in GRASS nicht ausreichen, werfen Sie mal einen Blick auf die vielen add-ons 
+* Wenn die 400 GIS Module in GRASS nicht ausreichen, werfen Sie mal einen Blick auf die vielen Add-ons 
   unter `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_

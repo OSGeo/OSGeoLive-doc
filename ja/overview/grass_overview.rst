@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live6.5
-:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -59,13 +60,13 @@ GRASSの開発は30年近く続いており、最も歴史ある、最も巨大�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 6.4.3
+**バージョン:** 7.0.0RC1
 
 **対応プラットフォーム:** GNU/Linux、Mac OSX、MS Windows
 
 **API インターフェース:** C、Python、Bourne Shell
 
-**サポート:** http://grass.osgeo.org/community/
+**サポート:** http://grass.osgeo.org/support/
 
 
 クイックスタート
