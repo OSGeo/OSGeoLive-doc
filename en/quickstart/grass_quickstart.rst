@@ -264,43 +264,41 @@ map.
   :alt: screenshot
   :align: right
 
-
-.. MN comment: done up to here. Work in PROGRESS
-
 Managing attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Next we'll add some attributes to those new areas, containing the average
-elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`
-to launch the *v.rast.stats* module. Use ``basin_areas`` as the vector
-polygon map, the ``elevation`` raster to calculate the statistics from,
-make the column prefix ``ele``, and click [*Run*] then close the dialog when
+elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`.
+Use ``basin_areas`` as the vector polygon map, and select the ``elevation``
+raster map to calculate the statistics from; set the the "Column prefix for
+new attribute columns" to ``elev``, and click [*Run*]; then close the dialog when
 it is finished. You can query the values in the `Map Display` window using
 the fifth icon from the left and after verifying that the vector-areas map
 is selected in the `Layer List`, clicking on a vector area in the map canvas.
 
-You can colorize the areas based on the average elevation values using the
+You can now re-colorize the areas based on the average elevation values using the
 ``v.colors`` module. In the Vector menu select :menuselection:`Manage colors --> Color tables`.
-Select ``basin_areas`` for the input vector map, the ``ele_mean`` attribute
-column for the column containing the numeric range, and in the `Colors` tab
-have it copy the colors from the `elevation` raster map. After running that
-right-click on the ``basin_areas`` map in the `Layer List` and select `Properties`.
-In the `Colors` tab tick the box for getting colors from the map table column.
-Once you click [*Apply*] you should see the colors change in the `Map Display`
-window.
+Select ``basin_areas`` for the input vector map, as "Source value" select
+``attr`` instead of ``cat``. Then, in the "Define" tab choose the ``elev_average``
+attribute column for the column containing the numeric range. The colors we
+want to copy from the `elevation` raster map, so we select it as the name for
+"Raster map from which to copy color table". After clicking [*Run*] you
+need to refresh the map display (second icon from left) to see the updated
+basins map.
 
 Now let's look at the attribute table and SQL builder in more detail. In the
-`Layer Manager` click the table icon, it's second from the left on the bottom
-row. This will open a view of the attached database table. For now we'll just
+`Layer Manager` click the table icon ("Show attribute data for selected vector
+map"), it is second from the left on the bottom row. This will open a view
+of the database table attached to the selected vector map. For now we'll just
 do a *Simple* database query to find watershed basins without a lot of variation
-in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``ele_stddev``
+in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stddev``
 from the pull down list for the standard deviation statistic, then in the
 text box to its right enter ``< 50`` and click [*Apply*]. You'll notice the
 number of loaded records in the information bar along the bottom of the window
-has shrunk, and that all of the rows with large values for std. dev. are now
-gone from the displayed table. Right-click on the table data and choose
-``Select all``. Again right-click on the table data and this time choose
-``Highlight selected features``. You should see e.g. alluvial flood basins
+has shrunk, and that all of the rows with large values for standard deviation
+(std. dev.) are now gone from the displayed table. Right-click on the table data
+and choose ``Select all``. Again right-click on the table data and this time
+choose ``Highlight selected features``. You should see e.g. alluvial flood basins
 and mesas show up in the ``Map Display``.
 
 3D visualization
@@ -311,38 +309,43 @@ and mesas show up in the ``Map Display``.
   :alt: screenshot
   :align: right
 
-Start the 3D visualization suite from the :menuselection:`File --> NVIZ`
-menu item. Select the `elevation` map as the raster elevation and
-click [*Run*].
-Once the 3D display interface loads, maximize the window.
-Next select :menuselection:`Visualize --> Raster Surfaces` from the top menu,
-and set the fine resolution to "1", then move the positioning puck and height
-slider around to get different views.
+In order to start the 3D visualization suite, select the `elevation` map
+as the raster elevation in the `Layer list` and additionally highlight the
+entry, then select in the `Map Display` window the "3D view" (at the right
+end of the toolbar). Once the 3D display interface loads, you will see
+several tabs for the display control of the 3D view.
+Next select the "Data" tab and set the fine resolution to "1" (the lower
+the value, the finer the resolution), then move the positioning puck and
+height slider around to get different views.
 
-To drape satellite or aerial imagery over the top of the DEM, in the
-**Raster Surfaces** controls click on the **Surface Attributes**
-drop down menu and select "color". Select "New Map" to pick the overlay
-image; "`spot.image`" in the PERMANENT mapset is a good choice.
-Finally, click "*Accept*" and then once back at the main window click on
-the "*Draw*" button in the top-left, just under the File menu.
+To drape maps, satellite or aerial imagery over the top of the DEM, in the
+"Data" tab select as name for the **Surface Attributes** map the overlay
+image "`landuse`" in the PERMANENT mapset is a good choice. The new view
+is rendered immediately.
+Since the area is relatively flat, you can go back to the "View" tab and
+increase the Z exaggeration ("z-Exag").
+
+For easy navigation in the 3D view, switch on the "Rotate 3D scene" in
+the map display toolbar, then use the mouse to move the view around.
 
 Other things to try
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-While not covered here, you may like to experiment with the new
-Cartographic Composer and object-oriented Graphical Modeling Tool;
-you'll find icons to launch them on the lower row of icons in the
-`Layer Manager` window. Further details can be found in
+While not covered here, you may like to experiment with the
+Cartographic Composer and object-oriented Graphical Modelling Tool (offers
+export to Python); you'll find icons to launch them on the lower row of
+icons in the `Layer Manager` window. Further details can be found in
 the `wxGUI <../../grass/wxGUI.html>`_ help pages.
 
-The new GUI is written in Python, and if you're a fan of Python programming
-there are a number of great tools available to you. In the bottom of the
-`Layer Manager` window click on the `Python shell` tab and
+The wxGUI is written in Python, and if you're a fan of Python programming
+there are a number of great tools and an API available to you. In the bottom
+of the `Layer Manager` window click on the `Python shell` tab and
 type ``help(grass.core)`` to see a listing of the many functions available
 in the core GIS python library. Besides the core GIS functions there is
 also `array` (NumPy), `db` (database), `raster`, and `vector` libraries
-available. For advanced use `Pythons CTypes` is supported allowing the
-Python programmer direct access to GRASS's extensive C libraries.
+available. For advanced use `Pythons Ctypes` is supported allowing the
+Python programmer direct access to GRASS GIS' extensive C libraries.
+See the manual pages for an extensive description of the programming options.
 
 Shutdown and the command line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -364,10 +367,10 @@ prompt to leave the GIS environment.
 
 Further reading
 ================================================================================
-* Visit the GRASS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* Visit the GRASS Wiki help site at `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
+* Visit the GRASS GIS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
+* Visit the GRASS GIS Wiki help site at `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
 * More tutorials and overviews can be found `here <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* A `synopsis of the GRASS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
+* A `synopsis of the GRASS GIS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
   GUI menu position. (`HTML version <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
   add-ons at `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_
