@@ -1,16 +1,19 @@
-:Author: OSGeo-Live
-:Reviewer: Massimo Di Stefano, Brian M Hamlin
+:Author: 
+:Author: Massimo Di Stefano, Brian M Hamlin
+:Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ipython.png
+.. image:: ../../images/project_logos/logo-ipnb.png
   :alt: project logo
-  :align: center
-  :target: http://ipython.org/
-
+  :align: right
+  :target: http://ipython.org/notebook.html
 
 IPython Notebook
 --------------------------------------------------------------------------------
+
+Mixing rich media in presentations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/ipython-notebook1.png
   :scale: 100 %
@@ -42,12 +45,11 @@ Core Features
 
     * SciPy Matplotlib, IRIS Cartopy, gdal, Geopandas, pyshp, Fiona, netCDF4, PostgreSQL psycopg2, R rpy2, and more.
 
-.. TBD: Review list above.
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://ipython.org/
+**Website:** http://ipython.org/notebook.html
 
 **Licence:** BSD license
 
