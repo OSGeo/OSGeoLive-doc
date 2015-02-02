@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live8.0-draft
+:Version: osgeo-live8.5-draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -86,7 +86,7 @@ Details
 
 **Licence:** `MIT`_
 
-**Software Version:** 1.8.2
+**Software Version:** 1.10.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
