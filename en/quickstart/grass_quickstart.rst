@@ -21,7 +21,7 @@ geospatial data.
 .. contents:: Contents
 
 
-Running
+Quick tour
 ================================================================================
 
 .. author's note: Update in osgeo-live8.5: light NC dataset is included, tutorial
@@ -33,7 +33,7 @@ From the "Welcome to GRASS GIS " window select the North Carolina dataset
 for the location, and "user1" for the mapset, then click on [*Start GRASS*].
 
 .. image:: ../../images/screenshots/800x600/grass-startup.png
-  :scale: 60 %
+  :scale: 50 %
   :alt: screenshot
   :align: right
 
@@ -231,7 +231,7 @@ maintains a fully topological vector engine which allows all sorts
 of very powerful analyses.
 
 .. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
-  :scale: 30 %
+  :scale: 50 %
   :alt: screenshot
   :align: right
 
@@ -260,7 +260,7 @@ dialog window. You may need to re-draw the map to see the colorized vector
 map.
 
 .. image:: ../../images/screenshots/800x600/grass-vector-basins.png
-  :scale: 30 %
+  :scale: 50 %
   :alt: screenshot
   :align: right
 
@@ -305,7 +305,7 @@ and mesas show up in the ``Map Display``.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/1024x768/grass-nviz.png
-  :scale: 30 %
+  :scale: 50 %
   :alt: screenshot
   :align: right
 
