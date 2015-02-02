@@ -1,7 +1,7 @@
 :Author: Pieter De Graef
 :Reviewer: Cameron Shorter, LISAsoft
-:Translator: Javier Sánchez
-:Version: osgeo-live4.0
+:Translator: David Mateos
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geomajas.png
@@ -24,11 +24,8 @@ Geomajas
 Cliente ligero GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geomajas es un entorno de desarrollo (en inglés *framework*) capaz de integrar algoritmos potentes a través de la parte servidora del sistema.
 
-El foco de Geomajas es proporcionar un plataforma para **integración de lado servidor** de datos geoespaciales (basado principalmente en :doc:`GeoTools <geotools_overview>` e Hibernate), permitiendo a múltiples usuarios el control y gestión de datos desde el navegador Web. En esencia, Geomajas proporciona unas potentes librerías para la construcción de las más avanzadas aplicaciones GIS fácilmente.
-
-Lo que hace único a Geomajas es la potencia de la parte servidora. El procesado, generación de estilos, filtrado, cacheado, etc. de datos geoespaciales se gestiona dentro de un contexto securizado. Todo esto proporciona rendimiento y escalabilidad al proyecto Geomajas, manteniendo el cliente ligero como un **verdadero cliente ligero**.
+El cliente permite a los desarrolladores crear potentes aplicaciones SIG incluyendo mapas interactivos, *widgets* extensibles y casos de uso personalizados. Permite el acceso a un amplio rango de fuentes de dato y funcionalidades a través de un navegador web.
 
 .. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
@@ -38,20 +35,23 @@ Lo que hace único a Geomajas es la potencia de la parte servidora. El procesado
 Propiedades Fundamentales
 --------------------------------------------------------------------------------
 
-* Arquitectura cliente-servidor integrada
-* Edición geométrica y de atributos
-* Definición de atributos a medida
-* Capacidades de consulta avanzada (CQL)
-* Seguridad *Out-of-the-box*
-* Mecanismo de extensión orientado a plugines
-* Tecnologías *front-end* múltiples
-* Soporte multi navegador, sin necesidad de plugines
+* Programable usando Java a través de GWT.
+* Soporta muchos tipos de capa (incl. WMS, WFS, WMTS, TMS, OSM, Google Maps, Shape, PostGIS, Oracle, JDBC, etc).
+* Útil colección de widgets ya incorporada (incl. Edición y lectura, Impresión, Geocodificación, Árbol de capas, ...).
+* Construcción de ejemplos propios y de nuevos widgets.
+* Apariencia fácil de personalizar usando CSS.
+* No se necesitan plugins en el navegador. 
+* Funciona en un amplio abanico de dispositivos de internet usando HTML5. 
+* Para quien no sea un entusiasta de GWT, oferece también acceso a los elementos principales a través de una API de Javascript.
 
-Estándardes implementados
+Propiedades del Enterprise Server
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
+* Seguridad avanzada en diferentes niveles (capa, elemento, atributo, funcionalidad).
+* Integración perfecta con el Modelo de Dominio que se use - persistencia via Hibernate, servicios web, Java RMI, ...
+* Integración con otras aplicaciones empresariales como JBPM, Activiti, JasperReports, CMS, Alfresco a través de estándares de la industria (SOAP, REST, ESB, JNDI, …).
+* Fácilmente extensible a través del framework Spring.
+
 
 Detalles
 --------------------------------------------------------------------------------
@@ -60,11 +60,11 @@ Detalles
 
 **Licencia:** AGPL
 
-**Versión de Software:** 1.8
+**Versión de Software:** 2.2.0 
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
-**API de Interfaces:** Java
+**API de Interfaces:** Java and Javascript
 
 **Soporte:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 

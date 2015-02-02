@@ -1,7 +1,7 @@
-:Author: Hamish Bowman
+:Author: Hamish Bowman, Sergey Popov 
 :Translator: Mauricio Pazos
 :Translator: Roberto Antolín
-:Version: osgeo-live6.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-marble.png
@@ -31,20 +31,26 @@ una ventana KDE Marble en su aplicación.
 Principales Características
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/marble-history.png
-  :scale: 50 %
+.. image:: ../../images/screenshots/800x600/marble-history.png
+  :scale: 64 %
   :alt: screenshot
   :align: right
 
-* Globo virtual y atlas del mundo
-* Navegación del globo en 3D
-* Un click del ratón revela artículos de Wikipedia para el sitio indicado.
-* Múltiples mapas (y planetas, lunas) para seleccionar.
-* Superposición de día y noche solares
-* Medición de distancias
-* Cambio entre vista desde el espacio y vistas de mapas proyectados 
-* Integración con `OpenStreetMap <http://www.osm.org>`_ 
-
+* Globo Virtual y Atlas del Mundo.
+* Fácil de usar.
+* Un gran producto para las lecciones de geografía. 
+* Presentación de Mapas (Atlas View, Callejeros, Mapas Satelite, Topográficos y  Educativos).
+* Navegación del globo en 3D.
+* Disponibles 3 proyecciones diferentes (Globo 3D, Mapa Plano y Mercator).
+* Capas de información (Tiempo meteorológico, , nubes a tiempo real, Vista Dia/Noche, Satélites a tiempo real, Artículos de wikipedia, Fotos, Códigos postales, Terremotos) 
+* Búsquedas (búqueda online de direcciones o puntos de interés).
+* Posicionamiento y seguimiento (localización por GPS y WLAN, exportación de *tracks* en KML).
+* Rutas y Navegación (Navegación por voz, Rutas de automóvíl, bicicleta y peatones  *online*. Descarga opcional de rutas *offline*)
+* Tours KML Interactivos (Creación, edición, visualización).
+* Integración con otros muchos servicios online (Amateur Radio Aprs, OpenCaching.com, etc.)
+* Soporta WMS y TMS.
+* HerramientasTools (Medición de distancias, Marcadores, Simulación de tiempo, Modo desconectado (*offline*).
+* Integración con `OpenStreetMap <http://www.osm.org>`_ .
 
 Detalles
 --------------------------------------------------------------------------------
@@ -53,13 +59,15 @@ Detalles
 
 **Licencia:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Versión del software:** 1.7.97
+**Versión del software:** 1.9.2
 
-**Plataformas soportadas:** GNU/Linux, Mac OSX, MS Windows
+**Plataformas soportadas:** GNU/Linux, Mac OSX, MS Windows, Maemo 5 
 
 **Interfaces API:** Qt designer, C++, Python, D-BUS, Shell script
 
-**Soporte:** http://techbase.kde.org/Projects/Marble
+**Apoyo:** http://techbase.kde.org/Projects/Marble 
+
+**Más información:** http://www.slideshare.net/marbleglobe/marble-1-6en 
 
 
 Inicio Rápido

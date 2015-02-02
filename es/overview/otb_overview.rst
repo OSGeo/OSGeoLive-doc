@@ -1,7 +1,8 @@
 :Author: OSGeo-Live 
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Samuel Mesa
 :Translator: David Mateos
-:Version: osgeo-live4.0 
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _otb-overview-es:
@@ -61,7 +62,7 @@ Detalles
 **Licencia:** CeCILL (CeCILL es compactible con GPL y mejorado en orientación de 
   la ley Francesa)
 
-**Versión de software:** 3.20
+**Versión de software:** 4.2.1
 
 **Plataformas soportadas:** Linux, Mac, Windows
 

@@ -7,10 +7,6 @@
 :Author: OGC
 :License: Creative Commons
 
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
-.. _sld-overview-es:
 
 .. Writing Tip: 
   Project logos are stored here:
