@@ -2,9 +2,17 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-********************************************************************************
+.. image:: ../../images/project_logos/logo-cesium.png 
+  :alt: project logo
+  :align: right
+  :target: http://cesiumjs.org
+
 Cesium
-********************************************************************************
+================================================================================
+
+3D Globes and 2D Maps in a Browser
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
 
 .. image:: ../../images/screenshots/1024x768/cesiumjs_3in1.png
@@ -47,7 +55,7 @@ Details
 
 **Software Version:** 1.4
 
-**Supported Platforms:**  Platform independent, depends only on browser with support for WebGL
+**Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL
 
 **Community Support:** Mailing list cesium-dev@googlegroups.com
 
