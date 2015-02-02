@@ -12,27 +12,32 @@
 
 
 ********************************************************************************
-GRASS GIS Quickstart 
+GRASS GIS 7 Quickstart 
 ********************************************************************************
+
+GRASS GIS is a powerful GIS which lets you visualize, manage, analyse and edit
+geospatial data.
+
+.. contents:: Contents
+
 
 Running
 ================================================================================
 
-.. author's note: Location now focusing on Spearfish as there wasn't
- enough disc space for the full NC dataset. 
- Update osgeo-live8.5: light NC dataset is included
+.. author's note: Update in osgeo-live8.5: light NC dataset is included, tutorial
+ rewritten
 
 To run GRASS GIS on the Live DVD, click on the GRASS link in
 the :menuselection:`Geospatial --> Desktop GIS` menu.
-From the "Welcome to GRASS" window select the Spearfish dataset for the
-location, and "user1" for the mapset, then click on [*Start Grass*].
+From the "Welcome to GRASS GIS " window select the North Carolina dataset
+for the location, and "user1" for the mapset, then click on [*Start GRASS*].
 
 .. image:: ../../images/screenshots/800x600/grass-startup.png
   :scale: 60 %
   :alt: screenshot
   :align: right
 
-This will launch GRASS into the `updated GUI written in wxPython <../../grass/wxGUI.html>`_.
+This will launch GRASS into the `graphical user interface (written in wxPython) <../../grass/wxGUI.html>`_.
 
 .. tip::  If you are on a netbook with a very small display (800x600 resolution)
  the startup screen might get a little scrunched and the [*Start GRASS*]
@@ -42,18 +47,10 @@ This will launch GRASS into the `updated GUI written in wxPython <../../grass/wx
  a bit to get the room (hold down the Alt key and left-click drag the
  window to move it).
 
-.. A simplified version of the rich North Carolina (nc_basic_spm) sample dataset
- has also been provided on the Disc, if you choose to use it you will have 
- to make some slight adjustments as the map names given in this quick tutorial 
- were written for the Spearfish dataset. Regardless of the dataset you choose
- it is recommended that you always use a `user` mapset for your everyday work
- instead of the special PERMANENT mapset.
+.. Regardless of the dataset you choose it is recommended that you always
+ use a `user` mapset for your everyday work instead of the special PERMANENT
+ mapset which contains the projection metadata and base cartography.
 
-* If you would like to try out a preview of the upcoming GRASS 7.0 release,
-  open a LX Terminal from the main LXDE `Accessories` menu and
-  type "`install_grass7`" at the prompt. You will need a network
-  connection able to download a couple hundred megabytes for the
-  program and sample dataset.
 
 Displaying maps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -63,15 +60,17 @@ Displaying maps
   :alt: screenshot
   :align: left
 
-Once inside add a raster map layer such as "`elevation.10m`" from the
-PERMANENT mapset. To do this go into the `GIS Layer Manager` window
+Once inside select for display a raster map layer such as "`elevation`" from
+the PERMANENT mapset. To do this go into the `GIS Layer Manager` window
 and click on the checkerboard toolbar button with a "+" on it. Then
 select the map name you want from the "*map to be displayed*" pull-down
 list, and click :guilabel:`Ok`.
 
-In a similar fashion add the "`roads`" vector layer from the PERMANENT mapset
-by clicking on the toolbar button with a "+" and a bent poly-line which
+In a similar fashion add the "`roadsmajor`" vector layer from the PERMANENT
+mapset by clicking on the toolbar button with a "+" and a bent poly-line which
 looks a bit like a "V".
+
+The icon tooltips (shown with mouse-over) will guide you easily.
 
 If you need to, right click on the raster map layer and choose "Zoom to
 selected map(s)".
@@ -86,12 +85,12 @@ Plot an elevation profile
   :alt: screenshot
   :align: right
 
-Back in the `GIS Layer Manager` window click on the `elevation.10m` raster
+Back in the `GIS Layer Manager` window click on the `elevation` raster
 map name to select it. Then in the `Map Display` window, to the right of the
 zooming buttons on the `Map Display` toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile surface map**.
-The `@PERMANENT` mapset is automatically searched, so you can remove the qualifier.
-If the map isn't automatically listed, again pick the `elevation.10m` map
+The `@PERMANENT` mapset is automatically searched.
+If the map isn't automatically listed, again pick the `elevation` map
 as the raster layer and press :guilabel:`Ok`. The second button in from the left allows
 you to set out the profile line, click it then mark out a few points on
 the `Map Display` canvas. When done go back to the Profile window and click
@@ -117,21 +116,22 @@ tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the
   :alt: screenshot
   :align: right
 
-Adjust colors
+Adjust raster map colors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now you'll see your new raster map added to the layer list along with
 the elevation raster map, except this time it will be in your "user1"
-working mapset. You might un-tick the `elevation.10m` layer's visibility
-check-box now so that the two don't draw over the top of each other. Click
+working mapset. You might un-tick the `elevation` layer's visibility check-box
+now so that the two raster layers don't draw over the top of each other. Click
 on the eyeball to view your new map if it doesn't render automatically.
 The colors might not be as you'd like so let's change them. With the
-fractal DEM selected in the layer list, in the
-`Raster` menu select :menuselection:`Manage colors --> Color tables`.
-In the "Colors" tab click on the pull-down list for the "Type of color
-table" option, and pick one from the list. "srtm" is a nice choice. Once
-done click the [*Run*] button and close the *r.colors* dialog window.
-The colors should then update automatically.
+fractal DEM selected in the layer list, right click on the this raster map
+layer name and choose "Set color table". As an alternative, you can manage
+color tables in the `Raster` menu select :menuselection:`Manage colors --> Color tables`.
+In the 'Define' tab click on the pull-down list for the "Name of color
+table" option, and pick one from the list. "terrain" or "srtm" are nice
+choices. Once done click the [*Run*] button and close the *r.colors* dialog
+window. The colors should then update automatically.
 
 Create a shaded relief map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,72 +141,77 @@ Create a shaded relief map
   :alt: screenshot
   :align: right
 
-Next we'll create a shaded relief map of the elevation layer we saw
+Next we'll create a shaded relief map of the "elevation" layer we saw
 earlier. Start by verifying that the *computational region* is set match
-the raster map of interest, "`elevation.10m`" in the PERMANENT mapset. To
+the raster map of interest, "`elevation`" in the PERMANENT mapset. To
 do this, make sure it is loaded into the layer list of the main `GIS Layer
 Manager` window, right click on its name and select "Set computation region
 from selected map(s)". You will notice the Layer Manage tab will switch to
 a text console to display the new settings. Click on the "*Map layers*" tab
 at the bottom to get back to the layer list.
 
-In the `Raster` menu select :menuselection:`Terrain analysis --> Shaded
-relief` (Terrain analysis is about half way down), and the module control
-dialog will appear. With the elevation map name selected as the input map
-click [*Run*]. Now add the new `elevation.shade` *@user1* map into your
-layer list as you did for the `elevation.10m` map earlier, and un-tick the
-other raster layers.
+In the `Raster` menu select :menuselection:`Terrain analysis --> Compute
+shaded relief` (Terrain analysis is about half way down the `Raster` menu),
+and the module control dialog will appear. Select as the input name the
+"elevation" *@PERMANENT* map and as the output map you may specify "shaded_relief".
+Once done click [*Run*]. Now you should fine the new `shaded_relief` *@user1*
+map added into your layer list. Un-tick the other raster layers to only
+display the newly created shaded relief raster layer.
 
 Watersheds and streams
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once again select the `elevation.10m` *@PERMANENT* map. If you changed the
+Once again select the `elevation` *@PERMANENT* map. If you changed the
 region since the last step, again right click on the layer name and click
 on :menuselection:`Set computational region from selected map(s)` from the
-context menu.
+context menu in order to consider the full map for the watsershed calculation.
 
 .. note:: The wxGUI map display's view and zoom is independent and does not affect processing calculations. Check the computational region at any time with :menuselection:`Settings --> Region --> Display Region`; this is of fundamental importance to any raster grid operations. Raster maps of differing bounds and resolution will be resampled to the current computational region on-the-fly.
 
 Next, in the `Raster` menu
 choose :menuselection:`Hydrologic modeling --> Watershed analysis`. This
-will open the ``r.watershed`` module. Select the `elevation.10m` layer as your
-input map, in the 'Input options' tab set the minimum size of the exterior
-watershed basin *threshold* to
-10000 cells, then in the 'Output options' tab enter "elev.basins" for the
-watershed basin option and "elev.streams" for the stream segments option
-just below it. Then click [*Run*].
+will open the ``r.watershed`` module. Select the `elevation` layer as your
+input map, in the same 'Inputs' tab set the "Minimum size of the exterior
+watershed basin" *threshold* to
+10000 cells, then in the 'Outputs' tab enter "elev.basins" for the "Name for
+basins raster map" *basins* option and "elev.streams" for the "Name for
+output stream segments raster map" *streams* option just below it. Then click [*Run*].
 
 Back in the `GIS Layer Manager` window check that those two new raster maps are 
 in the layer list and make sure that the basins map is ticked for display in
 the box to the left of the layer name. You might untick the streams map for now.
 Next, right click on the "`elev.basins`" raster map layer name and
 select "`Change opacity level`". Set it to about 50% which will re-render the
-Map Display. Drag a map layer (such as the earlier shaded relief map) to
-lower down in the layer list if you wish for it to be drawn behind the watershed
-basins map layer, and make sure to tick its visibility box to view it as a backdrop.
+Map Display. Drag a map layer (such as the earlier created shaded relief map)
+to lower down in the layer list if you wish for it to be drawn behind the
+watershed basins map layer, and make sure to tick its visibility box to
+view it as a backdrop.
 
 .. image:: ../../images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
 
-In the `GIS Layer Manager` window click on the second button in from the right
-on the top row and `Add a grid layer`. For size of grid put 0:03 for 0 degrees and
-3 minutes (format is D:M:S), then in the "Optional" tab tick Draw geographic
-grid and press :guilabel:`Ok` and re-render. You may need to drag the new grid layer
-higher up on the layer list to see it.
+In the `GIS Layer Manager` window click on the `Add various overlays` button
+and `Add grid layer`. For size of grid put 5000 (in map units, here meter).
+.. MN comment: UNUSED  0:03 for 0 degrees and 3 minutes (format is D:M:S), then in the "Optional" tab tick Draw geographic grid.
+Once done press :guilabel:`OK`. Optionally you may change the colors for
+the grid lines and the text labels.
 
 To add a scalebar go to the `Map Display` window and press the "Add
 map elements" button to the right of where you selected the Profile tool
-earlier and select "Add scalebar and north arrow" then click :guilabel:`Ok`.
+earlier and select "Show/hide scalebar" then click :guilabel:`Ok`.
 A scalebar will appear in the top left of the map canvas.
-Drag it down to the bottom left. From the same toolbar menu select
-"Add legend" and in the instructions window click the `Set Options`
-button to set the raster map name to create the legend for. If you
-pick the `elev.basins` map you will want to set the *Thinning factor* to
-10 in the `Advanced` tab, and the *Placement* position to `5,95,2,5` in
-the `Optional` tab. After you are done click :guilabel:`Ok` and :guilabel:`Ok` again.
-Drag your new legend over to the right side of the map canvas.
+Drag it down to the bottom right.
+
+.. MN comment: UNUSED TOO MANY BASINS
+  From the same toolbar menu select
+  "Add legend" and in the instructions window click the `Set Options`
+  button to set the raster map name to create the legend for. If you
+  pick the `elev.basins` map you will want to set the *Thinning factor* to
+  10 in the `Advanced` tab, and the *Placement* position to `5,95,2,5` in
+  the `Optional` tab. After you are done click :guilabel:`Ok` and :guilabel:`Ok` again.
+  Drag your new legend over to the right side of the map canvas.
 
 Now you may be thinking to yourself that these fonts are a bit bare.
 That's easily fixed in the `GIS Layer Manager` menus
@@ -220,8 +225,8 @@ Vector modules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 The above tasks have only covered a few raster modules. Don't let this
-give you the idea that GRASS is just for raster maps -- the vector engine
-and modules are every bit as full-featured as the raster ones. GRASS
+give you the idea that GRASS GIS is just for raster maps -- the vector engine
+and modules are every bit as full-featured as the raster ones. GRASS GIS
 maintains a fully topological vector engine which allows all sorts
 of very powerful analyses.
 
@@ -231,22 +236,44 @@ of very powerful analyses.
   :align: right
 
 Continuing with the watershed basins created above, next we'll convert
-them into vector polygons. In the Raster menu select :menuselection:`Map type conversions --> Raster to vector`.
+them into vector polygons. In the `Raster` menu select :menuselection:`Map type conversions --> Raster to vector`.
 In the `r.to.vect` dialog that opens make sure that ``elev.basins @user1`` is
 selected for the input map, give a name for the output map like ``basins_areas``
-(vector map names must be SQL compliant), and change feature type to `area`.
-In the `Attributes` tab tick the box to use raster values as category numbers,
+(vector map names must be SQL compliant, hence not all characters are allowed),
+and change "Output feature type" to `area`. In the `Attributes` tab tick
+the box to use raster values as category numbers (i.e., the IDs),
 since these will match the values in our stream segment raster map created
 earlier. Then click on [*Run*]. Once the new vector map is displayed, you
 might right click on it in the `Layer Manager` list and change its opacity
-level. Also if you right click on the ``basins_areas`` vector map in the
-`Layer List` you can turn off rendering of area centroids by going into
-`Properties` and un-ticking it in the `Selection` tab.
+level to 50%.
+
+Adjust vector map colors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+As we did earlier with a raster map we will change the color table of the
+new watershed basins vector map. With the ``basins_areas`` selected in the
+layer list, right click on the this vector map layer name and choose
+"Set color table". In the 'Define' tab click on the pull-down list for the
+"Name of color table" option, and pick for example "bcyr" (blue-cyan-yellow-red)
+from the list. Once done click the [*Run*] button and close the *v.colors*
+dialog window. You may need to re-draw the map to see the colorized vector
+map.
+
+.. image:: ../../images/screenshots/800x600/grass-vector-basins.png
+  :scale: 30 %
+  :alt: screenshot
+  :align: right
+
+
+.. MN comment: done up to here. Work in PROGRESS
+
+Managing attributes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Next we'll add some attributes to those new areas, containing the average
 elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`
 to launch the *v.rast.stats* module. Use ``basin_areas`` as the vector
-polygon map, the ``elevation.10m`` raster to calculate the statistics from,
+polygon map, the ``elevation`` raster to calculate the statistics from,
 make the column prefix ``ele``, and click [*Run*] then close the dialog when
 it is finished. You can query the values in the `Map Display` window using
 the fifth icon from the left and after verifying that the vector-areas map
@@ -256,7 +283,7 @@ You can colorize the areas based on the average elevation values using the
 ``v.colors`` module. In the Vector menu select :menuselection:`Manage colors --> Color tables`.
 Select ``basin_areas`` for the input vector map, the ``ele_mean`` attribute
 column for the column containing the numeric range, and in the `Colors` tab
-have it copy the colors from the `elevation.10m` raster map. After running that
+have it copy the colors from the `elevation` raster map. After running that
 right-click on the ``basin_areas`` map in the `Layer List` and select `Properties`.
 In the `Colors` tab tick the box for getting colors from the map table column.
 Once you click [*Apply*] you should see the colors change in the `Map Display`
@@ -285,7 +312,7 @@ and mesas show up in the ``Map Display``.
   :align: right
 
 Start the 3D visualization suite from the :menuselection:`File --> NVIZ`
-menu item. Select the `elevation.10m` map as the raster elevation and
+menu item. Select the `elevation` map as the raster elevation and
 click [*Run*].
 Once the 3D display interface loads, maximize the window.
 Next select :menuselection:`Visualize --> Raster Surfaces` from the top menu,
