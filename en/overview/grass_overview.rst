@@ -30,9 +30,9 @@ suite. GRASS GIS includes tools for spatial modeling, visualization of raster
 and vector data, management and analysis of geospatial data, and the
 processing of satellite and aerial imagery. It comes with a temporal framework
 for advanced time series processing and a Python API for rapid geospatial
-programming. Over the past years GRASS GIS has been optimized for performance
-and large geospatial data analysis. The software also provides the capability
-to produce sophisticated presentation graphics and hardcopy maps. GRASS GIS has
+programming. GRASS GIS has been optimized for performance
+and large geospatial data analysis. It also can
+produce sophisticated presentation graphics and hardcopy maps. GRASS GIS has
 been translated into many languages and supports a huge array of data
 formats.
 
