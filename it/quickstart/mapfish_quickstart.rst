@@ -11,11 +11,11 @@
 
 
 ********************************************************************************
-Guida rapida su MapFish 
+Guida rapida su MapFish
 ********************************************************************************
 
 MapFish è un ambiente flessibile e completo per sviluppare applicazioni webgis
-complesse. It emphasizes high productivity, and high-quality development. 
+complesse. It emphasizes high productivity, and high-quality development.
 
 Questa guida rapida descrive come
 
@@ -26,15 +26,16 @@ Questa guida rapida descrive come
 Eseguire l'applicazione di esempio
 ================================================================================
 
-Per eseguire l'applicazione di esempio cliccare sul collegamento a MapFish sul Desktop. 
+Per eseguire l'applicazione di esempio cliccare su :menuselection:`Browser Clients --> MapFish --> MapFish Start`.
 Questo aprirà una pagina FireFox puntando all'applicazione distribuita da mod_wsgi in
 Apache (http://localhost/mapfishsample/osgeolive/wsgi/).
 
-Questa applicazione demo ha le seguenti caratteristiche: Interrogazione, Modifica, 
+Questa applicazione demo ha le seguenti caratteristiche: Interrogazione, Modifica,
 Ricerca, Stampa.
 Per vedere il protoccol REST di MapFish in azione potete aprire il debugger Firebug
 e visualizzare le richieste/risponste scambiate tra il browser e i servizi web
 di MapFish.
+:menuselection:`Tools --> Web Developer --> Toggle Tools`
 
 Installare MapFish
 ================================================================================
@@ -91,11 +92,11 @@ A questo punto dovreste essere in grado di eseguire l'applicazione con::
 
 Aprite http://localhost:5000 nel vostro browser. Dovreste vedere un'applicazione
 minimale che include una mappa con due `OSM layers
-<http://www.openstreetmap.org/>`_, una barra degli strumenti sopra la mappa e 
+<http://www.openstreetmap.org/>`_, una barra degli strumenti sopra la mappa e
 un layer tree.
 
 L'ambiente MapFish offre più che questo. In particolare permette facilmente di
-creare servizi web RESTful per creare, leggere, aggiornare ed eliminare elementi 
+creare servizi web RESTful per creare, leggere, aggiornare ed eliminare elementi
 geometrici. Visitare http://mapfish.org/doc/2.2/quickstart.html per imparare di più
 su come creare questi servizi web RESTful e http://mapfish.org per sapere di più
 su MapFish.

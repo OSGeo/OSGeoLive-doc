@@ -30,8 +30,8 @@ La prima volta che eseguirete OpenCPN dal menu :menuselection:`Geospatial --> Na
 o dall'icona sul Desktop vi sarà presentata di scegliere l'opzione per fare questa
 operazione automaticamente
 
-.. Per fare ciò manualmente, aprire un Terminale dal menu principale delle 
-   applicazioni ed eseguire :command:`opencpn_noaa_agreement.sh` dalla linea di comando. 
+.. Per fare ciò manualmente, aprire un Terminale dal menu principale degli
+   accessori ed eseguire :command:`opencpn_noaa_agreement.sh` dalla linea di comando.
    La password dell'utente è distribuita in un file sul desktop.
 
 É possibile scaricare addizionali carte nautiche US da NOAA sul sito
@@ -59,7 +59,7 @@ to read up about the no-probe option.
 .. no longer true? : (for this reason we have not started gpsd automatically)
 
 
-* '`xgps`' è un buon programma per controllare che Gpsd veda correttamente il 
+* '`xgps`' è un buon programma per controllare che Gpsd veda correttamente il
   vostro GPS.
 
 
@@ -75,11 +75,11 @@ Documentazione
 Vedere anche
 ================================================================================
 
-Attualmente i dati di previsione meteo e delle onde possono essere scaricati e sovrapporsi 
+Attualmente i dati di previsione meteo e delle onde possono essere scaricati e sovrapporsi
 alle vostre carte usando il plugin GRIB. Il :doc:`software zyGrib <../overview/zygrib_overview>`
-(anch'esso sul disco) è una semplice via per scaricarle. Vedere 
+(anch'esso sul disco) è una semplice via per scaricarle. Vedere
 la :doc:`guida rapida su zyGrib <../quickstart/zygrib_quickstart>` per dettagli.
-Attivare il plugin dalla scheda più a destra del menù di configurazione OpenCPN, 
+Attivare il plugin dalla scheda più a destra del menù di configurazione OpenCPN,
 una nuova icona apparirà all'estremità destra della barra degli strumenti principale.
 Enable the plugin from the right most tab of the OpenCPN configuration menu;
 a new icon will appear at the right end of the main toolbar.

@@ -34,13 +34,13 @@ QGIS Web Client:
 Avviare il visualizzatore GeoExt
 ================================================================================
 
-OSGeo-Live contiene un esempio di visualizzatore di mappe web basato sul framework Javascript GeoExt e che 
+OSGeo-Live contiene un esempio di visualizzatore di mappe web basato sul framework Javascript GeoExt e che
 utilizza QGIS Server per la restituzione della mappa.
 
 * Cliccare :menuselection:`Geospatial --> Web Services --> QGIS Server`
 
 Dovreste vedere una finestra di un browser con un visualizzatore di mappe contenente una mappa del mondo.
-   
+
 .. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 Altrimenti potete accedere all'applicazione usando un browser all'indirizzo http://localhost/qgis_server
@@ -52,12 +52,12 @@ Modificare un progetto QGIS
 
 #. Cliccare :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`.
 
-#. Selezionare :menuselection:`File --> Apri progetto...`.
+#. Selezionare :menuselection:`Progetto --> Apri...`.
 
 #. Selezionare :file:`QGIS-NaturalEarth-Example.qgs` e cliccare su :guilabel:`Open`.
 
    * Dovreste vedere la stessa mappa del mondo.
-     Ora modificheremo lo stile dei fiumi e controlleremo il risultato nel visualizzatore di mappe. 
+     Ora modificheremo lo stile dei fiumi e controlleremo il risultato nel visualizzatore di mappe.
 
 #. Doppio click su :file:`ne_10m_rivers_lake_centerlines` nella legenda.
 
@@ -67,7 +67,7 @@ Modificare un progetto QGIS
 
    * Ora i fiumi sono visualizzati con un nuovo colore.
 
-#. Salvare il progetto con :menuselection:`File --> Salva progetto`.
+#. Salvare il progetto con :menuselection:`Progetto --> Salva`.
 
 #. Riaprire il browser web
 
@@ -81,7 +81,7 @@ Creare un nuovo progetto QGIS
 
 #. Riaprire QGIS
 
-#. Selezionare :menuselection:`File --> Nuovo progetto`.
+#. Selezionare :menuselection:`Progetto --> Nuovo`.
 
 #. Selezionare :menuselection:`Layer --> Aggiungi vettore...`.
 
@@ -91,7 +91,7 @@ Creare un nuovo progetto QGIS
 
    * Dovreste vedere le nazioni del mondo.
 
-#. Salvare il progetto con :menuselection:`File --> Salva progetto`.
+#. Salvare il progetto con :menuselection:`Progetto --> Salva`.
 
 #. Usare come nome del file :file:`/home/user/world.qgs`.
 
@@ -103,7 +103,7 @@ Per proseguire
 ================================================================================
 
 Un buon punto di partenza per approfondire la conoscenza di QGIS Server sono la `guida utente di QGIS`_
-e la `pagina wiki su QGIS Server`_ 
+e la `pagina wiki su QGIS Server`_
 
-.. _`guida utente di QGIS`: http://docs.qgis.org/html/en/docs/user_manual/working_with_ogc/ogc_server_support.html 
+.. _`guida utente di QGIS`: http://docs.qgis.org/html/en/docs/user_manual/working_with_ogc/ogc_server_support.html
 .. _`pagina wiki su QGIS Server`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial

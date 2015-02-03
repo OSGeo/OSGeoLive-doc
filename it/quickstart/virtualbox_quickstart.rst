@@ -27,7 +27,7 @@ Scaricare e installare `Virtual Box <http://www.virtualbox.org/>`_. Su distribuz
 
   ``apt-get install virtualbox-ose``
 
-Aprire Virtual Box 
+Aprire Virtual Box
 
   .. image:: ../../images/screenshots/800x600/virtualbox.png
     :scale: 70 %
@@ -56,7 +56,7 @@ Installazione semplice: Deselezionare "Boot Hard Disk", la Macchina Virtuale sar
 avviata da un DVD simulato.
 
 Se volete avere una macchina virtuale persistente, che salva lo stato
-tra le sessioni e che può avere salvato un'impostazione migliore per lo schermo 
+tra le sessioni e che può avere salvato un'impostazione migliore per lo schermo
 e altri strumenti, includete l'hard disk, e installate dopo.
 
   .. image:: ../../images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
@@ -93,13 +93,13 @@ Ora potete avviare la macchina virtuale secondo :doc:`osgeolive_quickstart`
 
 Creare una Macchina Virtuale permanente
 --------------------------------------------------------------------------------
-Se avete pianificato di usare intensamente OSGeo-Live DVD, si consiglia di 
+Se avete pianificato di usare intensamente OSGeo-Live DVD, si consiglia di
 creare una Macchina Virtuale permanente, secondo: :doc:`osgeolive_install_quickstart`.
 
 Incrementare la Dimensione dello Schermo
 --------------------------------------------------------------------------------
-Dovrete aggiungere i virtual boots tools che supportano una risoluzione 
-maggiore per lo schermo, copia e incollare tra guest e host, 
+Dovrete aggiungere i virtual boots tools che supportano una risoluzione
+maggiore per lo schermo, copia e incollare tra guest e host,
 accelerazione grafica, e altro.
 
 Siate sicuri che il vostro computer sia connesso a internet.
@@ -122,9 +122,9 @@ Selezionare "virtualbox-ose-guest-utils" per l'installazione.
 Applicare i cambiamenti.
 
 Riavviare la macchina virtuale e le impostazioni dello schermo dovrebbero essere le stesse
-di quelle della macchina fisica. Questo può essere cambiato attraverso:
+di quelle della macchina fisica. Questo può essere cambiato tramite il menu principale attraverso:
 
-Selezionare: :menuselection:`Applications --> Settings --> Xfce 4 Settings Manager --> Display`
+Selezionare: :menuselection:`Preferences --> Monitor Settings` o `ARandR`
 
 Vedere anche:
 --------------------------------------------------------------------------------

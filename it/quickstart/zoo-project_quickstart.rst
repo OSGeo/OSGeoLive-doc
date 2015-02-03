@@ -11,7 +11,7 @@
   :align: right
 
 ********************************************************************************
-Guida rapida su ZOO Project 
+Guida rapida su ZOO Project
 ********************************************************************************
 
 ZOO-Project fornisce un semplice ambiente di sviluppo Web Processing Service (WPS)
@@ -21,14 +21,14 @@ Un WPS fornisce accesso web a funzioni che eseguiscono algoritmi spaziali
 La guida rapida descrive come:
 
   * Applicare processi ad un WFS da un browser web
-  
-.. contents:: Contents 
+
+.. contents:: Contents
 
 
 Running
 ================================================================================
 
-* Per eseguire la demo di ZOO Project dal OSGeo-Live DVD, cliccare in successione su 
+* Per eseguire la demo di ZOO Project dal OSGeo-Live DVD, cliccare in successione su
   |osgeolive-appmenupath-geoserver| infine sul collegamento "ZOO Project" sul desktop
   oppure quello che si trove nel menu
 
@@ -39,18 +39,18 @@ Running
   :scale: 50 %
   :alt: screenshot
   :align: center
-  
-  
+
+
 * Cliccare sulla mappa per selezionare un elemento dal :doc:`GeoServer <../overview/geoserver_overview>`
   WFS Server, l'elemento sarà visualizzato in blu, quindi cliccare su uno dei pulsanti di
-  processi con geometria semplice come Buffer, Centroid, ConvexHull o Boundary e il 
+  processi con geometria semplice come Buffer, Centroid, ConvexHull o Boundary e il
   risultato sarà visualizzato in giallo.
 
 .. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
-  
+
 
 * Ora selezionate un altro elemento vicino al primo che avete selezionato e cliccate su
   un pulsante dei pocressi geometrie multiple come Union, Intersection, Symmetric
@@ -63,7 +63,7 @@ Running
 
 Ed ora?
 ================================================================================
-  
+
 * Potete creare la vostra richiesta e inviarla al ZOO Kernel dalla seguente pagina:
 	http://localhost/zoo-demo/test_services.html
 
@@ -71,4 +71,4 @@ Ed ora?
 	http://localhost/zoo/?Request=GetCapabilities&Service=WPS
 
 * Per maggiori informazioni potete contattare la mailing list ZOO Project:
-  zoo-discuss@gisws.media.osaka-cu.ac.jp
+  zoo-discuss@lists.osgeo.org
