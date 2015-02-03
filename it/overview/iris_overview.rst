@@ -38,12 +38,12 @@ Caratteristiche di base
 
 Dettagli
 --------------------------------------------------------------------------------
- 
+
 **Sito web:** http://scitools.org.uk/iris/
 
 **Licenza:** LGPLv3
 
-**Versione software:** 1.4
+**Versione software:** 1.6.1
 
 **Piattaforme supportate:** Cross Platform Python-- Mac OS X, Windows, and Linux
 

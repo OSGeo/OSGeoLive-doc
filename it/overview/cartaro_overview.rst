@@ -56,7 +56,7 @@ Standards implementati
   * :doc:`../standards/wfs_overview`
   * :doc:`../standards/wcs_overview`
   * :doc:`../standards/fe_overview`
-  * :doc:`../standards/sld_overview` 
+  * :doc:`../standards/sld_overview`
   * :doc:`../standards/gml_overview`
 
 Dettagli
@@ -66,7 +66,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** 1.2
+**Versione Software:** 1.5
 
 **Piattaforme supportate:** Windows, Linux, Mac
 
@@ -76,5 +76,5 @@ Dettagli
 
 Guida rapida
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Documentazione introduttiva <../quickstart/cartaro_quickstart>`

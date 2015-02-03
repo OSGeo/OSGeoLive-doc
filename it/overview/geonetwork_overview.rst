@@ -23,31 +23,30 @@ Catalogo per i metadati
 
 GeoNetwork OpenSource è una applicazione di catalogo per la gestione delle risorse spazialmente georiferite. Esso fornisce potenti funzioni per la modifica e la  ricerca dei metadati, un visualizzatore di mappe web interattivo integrato, e si basa su standard aperti.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right
 
 Caratteristiche di base
 --------------------------------------------------------------------------------
-* Accesso alla ricerca immediato a cataloghi geospaziali locali e distribuiti 
+* Accesso alla ricerca immediato a cataloghi geospaziali locali e distribuiti
 * Upload e download dei dati, grafici, documentazione, files pdf e ogni altro tipo di contenuto
-* Un visualizzatore di mappe web interattivo che combina servizi Web Map da server distribuiti nel mondo 
+* Un visualizzatore di mappe web interattivo che combina servizi Web Map da server distribuiti nel mondo
 * Le voci aggiornate recentemente sono accessibili come feed RSS e come GeoRSS.
 * Editing online dei metadati con un potente sistema template
-* Supporto nativo per metadati formattati con ISO19115/ISO19119/ISO19139/ISO19110, FGDC e Dublin Core 
+* Supporto nativo per metadati formattati con ISO19115/ISO19119/ISO19139/ISO19110, FGDC e Dublin Core
 * Raccolta programmata e sincronizzazione dei metadati tra cataloghi distribuiti (GeoNetwork, CSW, OGC WxS GetCapabilities, Z39.50, WebDav, ArcSDE, Thredds, OGC WFS, OAI-PMH)
 * controllo di accesso raffinato
 * gestione degli utenti e dei gruppi
 * interfaccia utente multi-lingua
-* Una mappa selezionata casualmente in primo piano.
 
 Standard implementati
 --------------------------------------------------------------------------------
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
-* Z39.50 
+* Z39.50
 * OpenSearch-Geo
 * OAI-PMH
 * Standards di metadati:
@@ -63,7 +62,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione software:** 2.10.0
+**Versione software:** 2.10.4
 
 **Piattaforme supportate:** Windows, Linux, Mac
 
@@ -74,5 +73,5 @@ Dettagli
 
 Guida rapida
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Documentazione introduttiva <../quickstart/geonetwork_quickstart>`

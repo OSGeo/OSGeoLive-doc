@@ -22,7 +22,7 @@ pycsw
 Catalogo per i metadati
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pycsw consente agli utenti di pubblicare un catalogo delle descrizioni dei set di dati (metadati) per il web, utilizzando interfacce e formati basati su standard, tali da poter essere interrogati e aggiornati dai clients del catalogo. pycsw è semplice da configurare all'interno di un server web Apache e può accedere ai record dei metadati memorizzati come file XML all'interno di un database.
+pycsw consente agli utenti di pubblicare un catalogo delle descrizioni dei set di dati (metadati) per il web, utilizzando interfacce e formati basati su standard, tali da poter essere interrogati e aggiornati dai clients del catalogo. pycsw è semplice da configurare all'interno di un server web Apache (o qualsiasi server WSGI) e può accedere ai record dei metadati memorizzati come file XML all'interno di un database.
 
 Il metadato e` un 'dato sul dato', memorizzando cose quali la data di creazione, l'autore, il titolo, l'area d'interesse, ecc, e di solito è codificato come file XML, secondo gli standard internazionali quali ISO 19115, ISO 19139 e FGDC CSDGM.
 
@@ -39,22 +39,22 @@ Caratteristiche di base
 --------------------------------------------------------------------------------
 
 * certificato OGC Compliant e OGC Reference Implementation per OGC CSW 2.0.2
-* supporto per WMS, WFS, WCS, WPS, WAF, CSW, SOS 
+* supporto per WMS, WFS, WCS, WPS, WAF, CSW, SOS
 * implementa INSPIRE Discovery Services 3.0
 * implementa ISO Metadata Application Profile 1.0.0
 * implementa FGDC CSDGM Application Profile per CSW 2.0
 * implementa il protocollo di ricerca Search/Retrieval attraverso URL (SRU)
-* implementa OpenSearch 
+* implementa OpenSearch
 * supporta i modelli di metadati ISO, Dublin Core, DIF, FGDC e Atom
 * sviluppo CGI o WSGI
 * configurazione semplice
 * capacità transazionali (CSW-T)
 * Configurazione repository flessibile
-* Connessione con GeoNode 
+* Connessione con GeoNode
 * Connessione con Open Data Catalog
 * Catalogo federato di ricerca distribuita
 * validazione dello schema XML in tempo reale
-* architettura dei plugin a profilo estendibile 
+* architettura dei plugin a profilo estendibile
 * Molto leggero (Python + CGI)
 
 
@@ -88,7 +88,7 @@ Dettagli
 
 **Licenza:** `MIT`_
 
-**Versione software:** 1.6.1
+**Versione software:** 1.10.0
 
 **Piattaforme supportate:** Windows, Linux, Mac
 

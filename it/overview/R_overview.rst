@@ -61,7 +61,7 @@ Caratteristiche principali
 * Mappe sanitarie e analisi di dati areali
 * Regressione spaziale
 * Analisi ecologiche
-* Eccellenti capacità di elaborazione raster con facile accesso a potenti algoritmi
+* Potenti algoritmi per il processamento di raster
 
 Dettagli
 --------------------------------------------------------------------------------

@@ -8,16 +8,16 @@ Per Mac OSX molte delle versioni più recenti delle apps più comuni si trovano 
 Per installare:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Per prima cosa installare i pacchetti base (Frameworks), in seguito i pacchetti 
+Per prima cosa installare i pacchetti base (Frameworks), in seguito i pacchetti
 di supporto, ed infine i programmi utili all'utente finale. I pacchetti base
 devono essere installati in ordine.
 
 Non tutti i pacchetti Frameworks e di supporto sono necessari per tutti i programmi
 utili all'utente finale. Si consulti il sito web riportato sopra per ulteriori dettagli.
 
-Il metodo di framework packaging è chiaramente un po' più complicato, ma assicura 
-l'utilizzo della minima quota di spazio sul disco da parte di programmi che condividono 
-librerie di supporto, e che in futuro queste componenti possono essere aggiornate in 
+Il metodo di framework packaging è chiaramente un po' più complicato, ma assicura
+l'utilizzo della minima quota di spazio sul disco da parte di programmi che condividono
+librerie di supporto, e che in futuro queste componenti possono essere aggiornate in
 sicurezza senza rendere gli altri programmi inutilizzabili.
 
 * http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.10.dmg
@@ -36,6 +36,8 @@ sicurezza senza rendere gli altri programmi inutilizzabili.
 * http://download.osgeo.org/ossim/installers/mac/ossimplanet-appbundle-1.8.4.dmg
 * http://cran.stat.ucla.edu/bin/macosx/R-2.15.2.pkg
 * http://github.com/downloads/mapbox/tilemill/TileMill-0.10.1.zip
+* http://grassmac.wikidot.com/frameworks
+* http://grassmac.wikidot.com/downloads
 
 
    .. toctree::
@@ -45,4 +47,4 @@ sicurezza senza rendere gli altri programmi inutilizzabili.
 
      ../MacInstallers/index
 
-:Translator:Elena Mezzini
+:Translator: Elena Mezzini

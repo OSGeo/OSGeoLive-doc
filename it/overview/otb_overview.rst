@@ -15,17 +15,17 @@ OTB
 Image Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ORFEO Toolbox Library (OTB) è una libreria ad alte prestazioni per l'eleborazione 
-delle immagini. È prevalentemente utilizzata per l'elaborazione di immagini 
-telerilevate come quelle raccolte da radar, satelliti e fotografie aeree. OTB 
-fornisce strumenti per le future immagini ottiche e radar (aspetti tridimensionali, 
-segmentazione, classificazione, rilevamento dei cambiamenti, analisi delle tessiture, 
+ORFEO Toolbox Library (OTB) è una libreria ad alte prestazioni per l'eleborazione
+delle immagini. È prevalentemente utilizzata per l'elaborazione di immagini
+telerilevate come quelle raccolte da radar, satelliti e fotografie aeree. OTB
+fornisce strumenti per le future immagini ottiche e radar (aspetti tridimensionali,
+segmentazione, classificazione, rilevamento dei cambiamenti, analisi delle tessiture,
 pattern matching, optic/radar complementarities,).
 
 OTB è stato fondato dall'Agenzia Spaziale Francese (CNES) nel riquadro della
 Parte metodologica del Programma Accompaniement ORFEO ed è stato
 attivamente sviluppato dal 2006. Si basa sulla libreria di elaborazione di immagini
-medici ITK e viene distribuito come sorgente aperto.
+medici ITK(v4) e viene distribuito come sorgente aperto.
 
 Caratteristiche principali
 --------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ Caratteristiche principali
 * estrazione di elementi: punti d'interesse, allineamenti, linee...
 * rilevamento oggetti
 * segmentazione d'immagine a larga scala: region growing, mean-shift, watershed, level sets...
-* classificazione: K-means, SVM, Markov random fields, accesso ad algoritmi di machine learning da OpenCV 
+* classificazione: K-means, SVM, Markov random fields, accesso ad algoritmi di machine learning da OpenCV
 * analisi di immagini basato sugli oggeti
 * analisi geospaziali
 * ricostruzione stereografica per immagini
@@ -58,11 +58,11 @@ Dettagli
 
 **Licenza:** CeCILL (CeCILL è compatibile con GPL e indirizzato alla legge francese)
 
-**Versione Software:** 3.20
+**Versione Software:** 4.2.1
 
 **Piattaforme Supportate:** Linux, Mac, Windows
 
-**Interfacce API:** C++ (bindings disponibili in Java e Python)
+**Interfacce API:** C++
 
 **Supporto Commerciale:** http://www.osgeo.org/search_profile
 
