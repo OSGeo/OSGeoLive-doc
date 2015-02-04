@@ -26,10 +26,15 @@ Methodological Part of the ORFEO Accompaniement Program and has been
 actively developed since 2006. It is based on the established medical
 image processing library ITK(v4) and is distributed as open source.
 
+Orfeo ToolBox aims at enabling large images state-of-the-art processing even on
+limited resources laptops, and is shipped with a set of extensible ready-to-use
+tools for classical remote sensing tasks, as well as a fully integrated,
+end-users oriented software called Monteverdi2.
+
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
+.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-loupe.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
