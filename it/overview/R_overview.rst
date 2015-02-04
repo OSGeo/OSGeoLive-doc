@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Marco Curreli
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-R.png
@@ -70,7 +70,7 @@ Dettagli
 
 **Licenza:** GPL
 
-**Versione del software:** 3.1.1
+**Versione del software:** 3.1.2
 
 **Piattaforme supportate:** Windows, Linux, Mac, Unix
 
@@ -79,5 +79,5 @@ Dettagli
 
 Guida rapida
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Documentazione introduttiva <../quickstart/R_quickstart>`

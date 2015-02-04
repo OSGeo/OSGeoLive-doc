@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Pasquale Di Donato
-:Version: osgeo-live6.0
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -21,14 +21,17 @@ QGIS Server
 Servizio web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-QGIS Server è un’implementazione WMS 1.3 open source con caratteristiche molto 
-avanzate per la produzione di carte tematiche. QGIS Server è un’applicazione 
-FastCGI/CGI (Common Gateway Interface) scritta in C++ e lavora in accoppiata 
-ad un server web (es. Apache, Lighttpd).
+QGIS Server fornisce servizi per mappe e feature sul web (WMS & WFS) usando
+le stesse librerie del software desktop GIS (QGIS).
+
+Mappe e template di stampe create su QGIS desktop possono essere pubblicate
+come mappe semplicimente copiando il file di progetto di QGIS nella directory
+del server. Le mappe web risultati appaiono esattamente come nel desktop.
+QGIS Server è usualmente eseguito come module CGI/FastCGI con il Webserver Apache.
 
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 70 %
+  :scale: 50 %
   :alt: project logo
   :align: right
 
@@ -36,7 +39,8 @@ ad un server web (es. Apache, Lighttpd).
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-* Implementazione Web Map Service (WMS)
+* Web Map Service (WMS) - immagini
+* Web Feature Service (WFS) - vettori
 * Output PDF `built-in`
 * Creazione di mappe WYSIWYG con QGIS
 * Simbolizzazione cartografica avanzata
@@ -45,7 +49,9 @@ Caratteristiche principali
 Standard implementati
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.3.0
+* OGC Web Map Service (WMS) 1.1.1 e 1.3.0
+* OGC Web Feature Service (WFS) 1.0.0 e Transactional WFS (WFS-T) 1.0.0
+* OGC Web Coverage Service (WCS)
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Dettagli
@@ -55,7 +61,7 @@ Dettagli
 
 **Licenza:** GPL
 
-**Versione Software:** 1.8.0
+**Versione Software:** 2.6.1
 
 **Piattaforme Supportate:** Windows, Linux
 

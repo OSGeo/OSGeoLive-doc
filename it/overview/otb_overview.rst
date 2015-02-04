@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
@@ -16,21 +16,24 @@ Image Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ORFEO Toolbox Library (OTB) è una libreria ad alte prestazioni per l'eleborazione
-delle immagini. È prevalentemente utilizzata per l'elaborazione di immagini
+delle immagini. È prevalentemente utilizzata per l'elaborazione di grandi immagini
 telerilevate come quelle raccolte da radar, satelliti e fotografie aeree. OTB
 fornisce strumenti per le future immagini ottiche e radar (aspetti tridimensionali,
 segmentazione, classificazione, rilevamento dei cambiamenti, analisi delle tessiture,
 pattern matching, optic/radar complementarities,).
 
+OTB è fornito con un'interfaccia utente completamente integrata chiamata Moneverdi
+che consente agli utenti di selezionare le catene di elaborazione OTB da una serie di menu.
+
 OTB è stato fondato dall'Agenzia Spaziale Francese (CNES) nel riquadro della
 Parte metodologica del Programma Accompaniement ORFEO ed è stato
 attivamente sviluppato dal 2006. Si basa sulla libreria di elaborazione di immagini
-medici ITK(v4) e viene distribuito come sorgente aperto.
+ITK(v4) e viene distribuito come sorgente aperto.
 
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
+.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-loupe.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
