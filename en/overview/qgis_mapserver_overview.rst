@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -54,7 +54,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 2.4.0
+**Software Version:** 2.6.1
 
 **Supported Platforms:** Windows, Linux
 
