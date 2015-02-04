@@ -32,9 +32,9 @@ GRASS GIS include strumenti per modelli spaziali, visualizzazione di dati raster
 vettoriali, gestione e analisi di dati geospaziali, e il trattamento di immagini
 aeree e satellitari. Viene distribuito un framework temporale per il processamento
 avanzato di serie temporali e un API Python per un sviluppo rapido di analisi
-geospaziali. Nel corso degli anni GRASS GIS è stato ottimizzato per performance
-e analisi di grossi dati geospaziali. Il software inoltre permette di produrre
-sofisticate rappresentazioni grafiche e hardcopy maps. GRASS GIS è attualmente
+geospaziali. GRASS GIS è stato ottimizzato nelle performance per analisi di
+grossi dati geospaziali. Il software inoltre permette di produrre sofisticate
+rappresentazioni grafiche e mappe stampabili. GRASS GIS è attualmente
 tradotto in molte lingue e supporta un grande numero di formati di dati.
 
 .. image:: ../../images/screenshots/1024x768/grass-vectattrib.png

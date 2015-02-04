@@ -32,9 +32,9 @@ GIS generali per visualizzazione, modifiche, e analisi sul browser:
 
 * :doc:`openlayers_overview` - [:doc:`Guida rapida <../quickstart/openlayers_quickstart>`] - Client GIS per browser internet
 * :doc:`leaflet_overview` - [:doc:`Guida rapida <../quickstart/leaflet_quickstart>`] - Semplice mappa interattive mobile
+* :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Globi 3D e mappe 2D in un browser
 * :doc:`geomajas_overview` - [:doc:`Guida rapida <../quickstart/geomajas_quickstart>`] - Client GIS per browser internet
-* :doc:`mapbender_overview` - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali 
-* :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping 
+* :doc:`mapbender_overview` - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali
 * :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
 * :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
 * :doc:`geonode_overview` - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
@@ -81,14 +81,15 @@ Strumenti spaziali
 --------------------------------------------------------------------------------
 Strumenti speficici per analisi:
 
-* :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 * :doc:`gmt_overview` - [:doc:`Guida rapida <../quickstart/gmt_quickstart>`] - Restituzione cartografica
+* :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/ipython_quickstart>`] - Mixing rich media in presentations
+* :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
+* :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
 * :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Crea Map Tiles
 * :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
-* :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
-* :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
+* :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 
 Domain Specific GIS
 --------------------------------------------------------------------------------
@@ -105,9 +106,9 @@ Dati
 --------------------------------------------------------------------------------
 Set di dati spaziali:
 
-* :doc:`naturalearth_overview` - Set di dati globali 
+* :doc:`naturalearth_overview` - Set di dati globali
 * :doc:`nc_dataset_overview`
-* :doc:`osm_dataset_overview` - Estatto d'esempio di OpenStreetMap 
+* :doc:`osm_dataset_overview` - Estatto d'esempio di OpenStreetMap
 * :doc:`netcdf_dataset_overview` - Serie temporali di temperature e precipitazioni
 
 Librerie geospaziali
@@ -115,8 +116,8 @@ Librerie geospaziali
 
 * :doc:`gdal_overview`  - [:doc:`Guida rapida <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
 * :doc:`jts_overview` - Java Topology Suite
-* :doc:`geotools_overview` - Java GIS Toolkit 
-* :doc:`geos_overview` - Libreria spaziale C/C++ 
+* :doc:`geotools_overview` - Java GIS Toolkit
+* :doc:`geos_overview` - Libreria spaziale C/C++
 * :doc:`metacrs_overview` - Trasformazioni del sistema di riferimento delle coordinate
 * :doc:`liblas_overview` - [:doc:`Guida rapida <../quickstart/liblas_quickstart>`] - Accesso ai LiDAR
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Metereologia e Climatologia
@@ -134,8 +135,10 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 .. MapGuide temporarily disabled to save on disc space;
 
 * :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0
-* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo 6.0
-* `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo 6.0
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
+* `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
+* :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
+
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------
