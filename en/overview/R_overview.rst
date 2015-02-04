@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-R.png
@@ -69,7 +69,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 3.1.1
+**Software Version:** 3.1.2
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
