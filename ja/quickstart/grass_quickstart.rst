@@ -21,7 +21,7 @@ GRASS GISクィックスタート
 .. author's note: Location now focusing on Spearfish as there wasn't
  enough disc space for the full NC dataset.
 
-Live DVDでGRASSを起動するには、:menuselection:`Geospatial --> デスクトップ　GIS` メニューをクリックして下さい。
+Live DVDでGRASSを起動するには、:menuselection:`Geospatial --> デスクトップ GIS` メニューをクリックして下さい。
 "GRASSへようこそ" と書かれた起動画面にて、ロケーションにSpearfishデータセット、マップセットに "user1" を選択し,
 [*Start Grass*] をクリックしてください。
 
@@ -178,7 +178,7 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
 凡例内のラスターレイヤ名を設定してください。
 
 もし `elev.basins` を選択した場合は、 `Advanced` タブにて *Thinning factor* を10に設定し、
-`Optional` タブにて、 *Placement*　を `5,95,2,5` に設定する必要があるかもしれません。
+`Optional` タブにて、 *Placement* を `5,95,2,5` に設定する必要があるかもしれません。
 設定後は :guilabel:`Ok` 、そしてもう一度 :guilabel:`Ok` をクリックしてください。
 新しく追加された凡例をマップキャンバスの右側にドラッグをしてみてください。
 
@@ -208,7 +208,7 @@ GRASSのトポロジーエンジンは多くの強力な解析を可能にして
 ここまでの集水域作成の作業の続きとして、次はこれらをベクターポリゴンへの変換を行います。
 ラスターメニューにて、 :menuselection:`Map type conversions --> Raster to vector` を選択します。
 `r.to.vect` ダイアログの入力データとして ``elev.basins @user1`` を選択してから、
-出力ファイル名に ``basins_areas``　のような名前 (ベクターファイル名はSQL準拠するべきでしょう) を入力し、
+出力ファイル名に ``basins_areas`` のような名前 (ベクターファイル名はSQL準拠するべきでしょう) を入力し、
 フィーチャタイプを `area` にしてください。
 前に作成した水流セグメントラスターの値に合わせるため、
 `Attributes` タブにて、 "use raster values as category numbers" にチェックを入れてください。
