@@ -2,7 +2,7 @@
 ================================================================================
 
 Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived
-from the projects' code repositories. Note these metrics have know deficiencies
+from the projects' code repositories. Note these metrics have known deficiencies
 (such as caused by repositories moving), and only provide partial indications
 about the projects' development. Lack of change in smaller, concise packages
 and libraries may simply reflect a level of maturity and completeness.
