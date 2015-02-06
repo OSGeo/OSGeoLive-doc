@@ -30,7 +30,7 @@ image processing library and is distributed as open source.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-loupe.jpg
+.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
