@@ -58,7 +58,6 @@ Publishing spatial data to the internet:
   <script type="text/javascript" src="http://www.openhub.net/p/mapserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/deegree/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/ncwms/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/asasciences_ncWMS/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/4657/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/pycsw/widgets/project_factoids_stats.js"></script>
