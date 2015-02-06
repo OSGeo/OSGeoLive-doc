@@ -42,7 +42,6 @@ the core packages.
 
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
-  :target: http://www.osdm.gov.au
 
 The Australian Government's Office of Spatial Data Management sponsored
 LISAsoft's review of Application Overviews, to achieve consistent,
