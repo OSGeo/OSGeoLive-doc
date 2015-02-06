@@ -56,7 +56,7 @@ Publishing spatial data to the internet:
 
   <script type="text/javascript" src="http://www.openhub.net/p/geoserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapserver/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/deegree/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/deegree3/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/ncwms/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/4657/widgets/project_factoids_stats.js"></script>
@@ -171,6 +171,6 @@ Other software of interest (not available Live)
 --------------------------------------------------------------------------------
 .. raw:: html
 
-  <script type="text/javascript" src="http://www.openhub.net/p/mapwindowgis/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/mapwingis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapguide/widgets/project_factoids_stats.js"></script>
 
