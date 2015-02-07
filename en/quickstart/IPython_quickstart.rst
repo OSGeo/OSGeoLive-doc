@@ -54,13 +54,16 @@ Remote IPython Notebook
 ---------------------------------------------------------------------------------
 
 * open a terminal window by clicking on the green terminal icon
-* execute `ipython notebook ---ip=* ---matplotlib=inline ---no-browser`
+* execute `ipython notebook ---ip=* ---matplotlib=inline ---no-browser --port=8883`
 * determine the IP address of your computer or VM, for example using: 
   *ifconfig -a | grep 192*
   
 Use a web browser from another computer and enter the IP address from above, 
-along with the IPython Notebook port ':8888'. e.g.  192.168.1.13:8888
+along with the IPython Notebook port ':8888'. e.g.  192.168.1.13:8883
 
+Note: the default http port number for IPython Notebook is 8888. On the 
+OSGeo-Live the Notebook port is set to 8883 to prevent address conflicts
+with other web applications that use this common number. 
 
 
 Using the IPython Notebook
