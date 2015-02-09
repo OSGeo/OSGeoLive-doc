@@ -91,7 +91,7 @@ spatialite auf der Kommandozeile ausführen
 
 Anwender die skriptbasiert arbeiten müssen oder automatisierte Abfragen absetzen wollen, werden die Vorteile SpaltiaLite Datenbanken kommandozeielnbasiert anzusprechen kennenlernen. In diesem Beispiel werden wir eine Shapedatei laden und nach Schulen in der Nähe des Highways 42 suchen.
 
-* Für das Arbeiten auf der Konsole benötigen Sie ein Terminal. Öffnen Sie ein Terminal über :menuselection:`Applications -> Accessories -> Terminal Emulator`.
+* Für das Arbeiten auf der Konsole benötigen Sie ein Terminal. Öffnen Sie ein Terminal über :menuselection:`LXDE Menu -> Accessories -> LXTerminal`.
 
 * Öffnen Sie die Beispiel-Datenbank im Terminal über spatialite::
 
@@ -171,4 +171,3 @@ Wenn Sie mehr über SpatiaLite erfahren möchten, ist die `SpatiaLite Projektsei
 und besuchen Sie unbedingt das Tutorial `Spatialite cookbook`_
 
 .. _`Spatialite cookbook`: http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/index.html
-
