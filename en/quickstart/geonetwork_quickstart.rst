@@ -1,5 +1,6 @@
 :Author: GeoNetwork Community
-:Version: osgeo-live5.0final
+:Version: osgeo-live8.5
+:Reviewer: Cameron Shorter, LISAsoft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: GeoNetwork Community 
 
@@ -22,18 +23,18 @@ Apart from how to start |GN|, this Quick Start describes:
 - how to download and display data from the search results
 - the system of privileges, roles and user groups that |GN| uses.
 
-Detailed documentation can be found in http://localhost:8880/geonetwork/docs/eng/users/index.html or by clicking on the 'Help' link on the |GN| home page.
+Detailed documentation can be found in http://localhost:8880/geonetwork/docs/eng/users/index.html (once |GN| has been started), or by clicking on the 'Help' link on the |GN| home page.
 
 Start |GN|
 --------------------------------------------------------------------------------
 
-- In case you use OSGeoLive with 1GB RAM or less it is recommended to stop default Tomcat service before launching GN
+- OSGeoLive is memory constrained. As such, it is recommended to stop default Tomcat service before launching |GN|. On OSGeoLive, |GN| will typically use up to 1GB of RAM.
 
 :: 
 
   sudo service tomcat6 stop
 
-- Select the "Start GeoNetwork" icon.
+- Select the "GeoSpatial -> Web Services -> GeoNetwork -> Start GeoNetwork".
 - The application will take a few moments to start up
 - Go to the |GN| home page at http://localhost:8880/geonetwork. Your first view (an empty *Home* tab) of |GN| should look like the screenshot below.
 
