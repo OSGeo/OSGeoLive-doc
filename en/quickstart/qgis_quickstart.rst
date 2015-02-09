@@ -282,6 +282,14 @@ It acts as a standardized wrapper around a number of other sets to tools.
       :scale: 70 %
       :alt: Processing Toolbox
 
+   * You may need to enable a Processing provider in order to use it.
+     The following screenshot shows how to enable GRASS GIS 7 support in
+     the processing tools.
+
+   .. image:: ../../images/screenshots/800x600/qgis_enable_provider.png
+      :scale: 70 %
+      :alt: Enabling the GRASS GIS 7 provider in the Processing settings.
+
 
 Importing OpenStreetMap data
 ================================================================================
