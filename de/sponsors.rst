@@ -39,7 +39,6 @@ Das DebianGIS und UbuntuGIS Projekt stellen viele der Hauptprojekte bereit und s
 
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
-  :target: http://www.osdm.gov.au
 
 Das Australian Government's Office of Spatial Data Management unterstützte LISAsoft's bei der Prüfung der Anwendungsübersichten, um einheitliche und hochwertige Beschreibngen zu erhalten.
 
