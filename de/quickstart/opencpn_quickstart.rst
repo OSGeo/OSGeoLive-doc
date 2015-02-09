@@ -26,7 +26,7 @@ einzurichten. Dies ist eine Bedingung für die Weiterverbreitung der NOAA nautis
 Wenn Sie OpenCPN das erste Mal über den Menüeintrag :menuselection:`Geospatial --> Navigation and Maps` oder das Desktop Icon
 starten, wird Ihnen diese Option automatisch angeboten.
 
-.. Um die Einstellung manuell durchzuführen, öffnen Sie ein Terminal vom Applikationsmenü und geben 
+.. Um die Einstellung manuell durchzuführen, öffnen Sie ein Terminal über Öffnen Sie ein Terminal über :menuselection:`LXDE Menu -> Zubehör -> LXTerminal` und geben 
   :command:`opencpn_noaa_agreement.sh` per Tastatur ein. Das Passwort für den Benutzer
   *user* ist in der Passwort-Datei auf dem Desktop zu finden.
 
