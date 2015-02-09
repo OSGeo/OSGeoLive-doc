@@ -45,9 +45,9 @@ Internet Dienste
 --------------------------------------------------------------------------------
 Veröffentlichung von Geodaten im Netz:
 
-* :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
-* :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
+* :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`] - OGC Web Services
+* :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`] - OGC Web Services
+* :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`] - OGC Web Services
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Katalog und Katalogdienst für das Web
@@ -84,12 +84,11 @@ Spezielle GIS Software
 Spezielle Anwendungen
 
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Kartographisches Rendering
-* :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/IPython_quickstart>`] - Interactive Computing
+* :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/IPython_quickstart>`] - Vermischung von Medien in Präsentationen
 * :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Bildprozessierung
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Kartographisches Rendering
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing
-* :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Erzeuge Bildkacheln (Tiles)
 * :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
 
@@ -139,6 +138,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
+* :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Erzeugung von Kacheln, zuletzt auf der Version OSGeo-Live 8.0 enthalten
 
 Ausführbare Programme für Apple und Windows
 --------------------------------------------------------------------------------
