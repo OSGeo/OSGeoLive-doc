@@ -43,9 +43,9 @@ Servizi Web
 --------------------------------------------------------------------------------
 Publicare dati spaziali su internet:
 
-* :doc:`geoserver_overview` - [:doc:`Guida rapida <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`Guida rapida <../quickstart/mapserver_quickstart>`]
-* :doc:`deegree_overview` - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`]
+* :doc:`geoserver_overview` - [:doc:`Guida rapida <../quickstart/geoserver_quickstart>`] - Servizi Web OGC
+* :doc:`mapserver_overview` - [:doc:`Guida rapida <../quickstart/mapserver_quickstart>`] - Servizi Web OGC
+* :doc:`deegree_overview` - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`] - Servizi Web OGC
 * :doc:`ncWMS_overview` - [:doc:`Guida rapida <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`Guida rapida <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`Guida rapida <../quickstart/geonetwork_quickstart>`] - Catalogo per i Metadati
@@ -87,7 +87,6 @@ Strumenti speficici per analisi:
 * :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
-* :doc:`maptiler_overview`  - [:doc:`Guida rapida <../quickstart/maptiler_quickstart>`] - Crea Map Tiles
 * :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 
@@ -134,11 +133,11 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 
 .. MapGuide temporarily disabled to save on disc space;
 
-* :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0
+* :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0 (per salvare spazio nel disco)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
 * :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
-
+* :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Crea Map Tiles, ritirato dopo OSGeo-Live 8.0
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

@@ -1,8 +1,3 @@
-.. OSGeo-Live documentation master file, created by
-   sphinx-quickstart on Tue Jul  6 14:54:20 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 |osgeo-live-version| Metriche dei progetti
 ================================================================================
 
@@ -24,7 +19,6 @@ GIS generali visualizzazione, editing, and analisi sul desktop:
 
   <script type="text/javascript" src="http://www.openhub.net/p/3663/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/grass_gis/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/gvsig-desktop/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/gvsig-desktop-2/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/udig/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/9819/widgets/project_factoids_stats.js"></script>
@@ -42,9 +36,9 @@ GIS generali visualizzazione, editing, and analisi sul browser:
 
   <script type="text/javascript" src="http://www.openhub.net/p/openlayers/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/Leaflet/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/cesiumjs/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geomajas/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapbender/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/mapfish/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geomoose/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geonode/widgets/project_factoids_stats.js"></script>
 
@@ -56,9 +50,8 @@ Pubblicazione di dati spaziali su internet:
 
   <script type="text/javascript" src="http://www.openhub.net/p/geoserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapserver/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/deegree/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/deegree3/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/ncwms/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/asasciences_ncWMS/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/eoxserver/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/4657/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/pycsw/widgets/project_factoids_stats.js"></script>
@@ -116,8 +109,8 @@ Strumenti specifici per analisi:
 
   <script type="text/javascript" src="http://www.openhub.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/GMT/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/ipython/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapnik/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/maptiler/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/ossim/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/otb/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/R-project_/widgets/project_factoids_stats.js"></script>
@@ -171,6 +164,6 @@ Altri software di interesse (non disponibile Live)
 --------------------------------------------------------------------------------
 .. raw:: html
 
-  <script type="text/javascript" src="http://www.openhub.net/p/mapwindowgis/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/mapwingis/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapguide/widgets/project_factoids_stats.js"></script>
 

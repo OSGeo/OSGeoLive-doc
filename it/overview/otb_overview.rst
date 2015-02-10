@@ -26,14 +26,14 @@ OTB è fornito con un'interfaccia utente completamente integrata chiamata Moneve
 che consente agli utenti di selezionare le catene di elaborazione OTB da una serie di menu.
 
 OTB è stato fondato dall'Agenzia Spaziale Francese (CNES) nel riquadro della
-Parte metodologica del Programma Accompaniement ORFEO ed è stato
+Parte metodologica del Programma Accompaniement ORFEO/Pleiades ed è stato
 attivamente sviluppato dal 2006. Si basa sulla libreria di elaborazione di immagini
-ITK(v4) e viene distribuito come sorgente aperto.
+ITK e viene distribuito come sorgente aperto.
 
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-loupe.jpg
+.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

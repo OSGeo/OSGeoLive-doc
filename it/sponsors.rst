@@ -44,7 +44,6 @@ pacchetti base.
 
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
-  :target: http://www.osdm.gov.au
 
 L'uffico del Governo Australiano di Gestione dei Dati Spaziali ha sponsorizzato
 la revisione delle Overview dei software per raggiungere consistenza e
