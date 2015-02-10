@@ -17,10 +17,9 @@ Image Processing
 ORFEO Toolbox Library (OTB) is a high performance image processing library. It
 is primarily used for processing large remote sensing images such as those
 gathered by radars, satellites and aerial photography. OTB provides tools for
-the future optic and radar images (tridimensional aspects, segmentation,
-classification, changes detection, texture analysis, pattern matching, and
-optic/radar complementarities), many of which can be run on limited-resourced
-laptops.
+optic and radar images (tridimensional aspects, segmentation, classification,
+changes detection, texture analysis, pattern matching, and optic/radar
+complementarities), many of which can be run on limited-resourced laptops.
 
 OTB is shipped with a fully integrated user interface called Monteverdi which
 allows users to select OTB processing chains from a set of menus.
