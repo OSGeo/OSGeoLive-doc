@@ -1,7 +1,7 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Reviewer: Cameron Shorter, LISAsoft
-:Product: MapWindow GIS 4.8.6
-:Version: osgeo-live5.5
+:Product: MapWindow GIS Lite
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
@@ -11,8 +11,8 @@
   :width: 220
   :height: 38
   :target: http://www.mapwindow.org
- 
-MapWindow GIS
+
+MapWindow GIS Lite
 ================================================================================
 
 Desktop GIS
@@ -20,18 +20,23 @@ Desktop GIS
 
 MapWindow GIS è un client GIS Open Source, basato su Windows, dov'è possibile
 visualizzare, gestire, modificare, analizzare i dati, e comporre mappe da stampare.
-Include potenti funzioni analitiche attraverso l'integrazione con GEOS e GDAL/OGR.
-MapWindow è facile da incorporare in prodotti basati su MS-Office come MS-Excel e 
-MS-Access, così come tutti i programmi scritti in VB6, C++, C#, VB.NET, e Delphi, 
-essendo MapWindow basato sui controlli ActiveX.
+Include potenti funzioni analitiche attraverso l'integrazione con GEOS e GDAL/OGR (v2).
+MapWindow è facile da incorporare in prodotti basati su MS-Office come MS-Excel e
+MS-Access, così come tutti i programmi scritti in C++, C#, VB.NET e Delphi,
+MapWindow è basato sui controlli ActiveX chiamati MapWinGIS.
+MapWindow Open Source GIS Lite, è basato su MapWinGIS v4.9.3.
 
-.. note:: MapWindow richiede l'installazione su un sistema Microsoft Windows prima 
-	  di poterlo utilizzare. I file di installazione sono inclusi nella versione 
-	  full ISO di `OSGeo-Live <http://live.osgeo.org>`_ o posso essere scaricati 
+La versione di MapWindow Lite installata su OSGeo-Live non include tutte le
+funzionalità (come, toolbox, plug-ins, tutte le funzionalità dell'editor di
+shapefile, o il supporto a PostGIS)
+
+.. note:: MapWindow richiede l'installazione su un sistema Microsoft Windows prima
+	  di poterlo utilizzare. I file di installazione sono inclusi nella versione
+	  full ISO di `OSGeo-Live <http://live.osgeo.org>`_ o posso essere scaricati
 	  da http://mapwindow4.codeplex.com/releases.
-   
-.. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
-  :alt: Mapwindow Screenshot
+
+.. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
+  :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right
 
@@ -41,40 +46,19 @@ Caratteristiche principali
 * Interfaccia grafica:
 
     * identificare/selezionare oggetti,
-    * modificare/visualizzare/cercare attributi,
     * riproiezione al volo,
-    * layout di stampa,
     * etichettature degli oggetti,
     * cambiare simbologia di vettoriali e raster,
+    * editor di shapefile,
+    * supporto ai geodatabase,
     * e molto altro...
 
 * Facile visualizzazione di molti formati vettoriali e raster:
 
-    * la maggiorparte di formati vettoriali: includendo ESRI shapefiles, MapInfo, SDTS e GML,
+    * la maggior parte di formati vettoriali: includendo ESRI shapefiles, MapInfo, SDTS e GML,
     * formati raster come modelli digitali dell'elevazione, fotografie aeree o immagini landsat,
-    * servizi di tile, come OpenStreetMap, ArcGIS Online.
+    * servizi di tile, come OpenStreetMap, MapQuest Aerial, Bing Maps.
 
-* Creare, modificare ed esportare dati spaziali usando:
-
-    * strumenti di digitalizzazione per il formato shapefile,
-    * plugin di georeferenziazione,
-    * Strumenti GPS per importare e esportare il formato GPX, convertire da altri 
-      formati GPS a GPX, o scaricare e caricare direttamente su un'unità GPS.
-
-* Effettiare analisi spaziali usando plugin:
-
-    * map algebra,
-    * analisi del terreno,
-    * modelli idrologici (TauDEM),
-    * analisi di reti,
-    * e molti altri.
-
-* Architettura estendibile a plugin:
-
-    * Architettura a plugin permette di aggiungere facilmente funzionalita aggiuntive a 
-      MapWindow. Plugin possono essere scritti in ogni linguaggio .NET (C#, VB.NET) usando
-      Visual Studio Pro o i liberi SharpDevelop o Visual Studio Express.  
- 
 * Controllo ActiveX:
 
     * Usa un controllo ActiveX scritto C++. Questo controllo può essere usato in applicazioni
@@ -83,28 +67,29 @@ Caratteristiche principali
 
 Standard implementati
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* Standard OGC: 
-    * WMS (v1.1, v1.3)
-    * WFS v1.1 (attraverso un plugin esterno)
+* Standard OGC:
+    * TMS
     * Web Map Tile Service (WMTS)
-    * GML    
+    * GML
 
 Dettagli
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Sito Web:** http://www.mapwindow.org
 
+**Repository del codice:** https://mapwingis.codeplex.com
+
 **Licenza:** MPLv1.1
 
-**Versione Software:** 4.8.8
+**Versione Software:** MapWindowLite 4.9.3
 
-**Piattaforme Supportate:** Windows
+**Piattaforme Supportate:** Windows (XP or higher)
 
-**Interfacce API:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
+**Interfacce API:** .NET (C#, VB.NET), C++, Delphi, VBA (MS-Access, MS-Excel)
 
-**Supporto della comunità:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
+**Supporto della comunità:** http://www.mapwindow.org/documentation/mapwingis4.9/getting_started.html
 
-**Supporto commerciale:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
+**Supporto commerciale:** http://www.mapwindow.nl, http://www.mapwindow.org/documentation/mapwingis4.9/MapWindow49.html
 
 
 Guida rapida

@@ -15,14 +15,14 @@ OTB
 Image Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ORFEO Toolbox Library (OTB) è una libreria ad alte prestazioni per l'eleborazione
+ORFEO Toolbox Library (OTB) è una libreria ad alte prestazioni per l'elaborazione
 delle immagini. È prevalentemente utilizzata per l'elaborazione di grandi immagini
 telerilevate come quelle raccolte da radar, satelliti e fotografie aeree. OTB
-fornisce strumenti per le future immagini ottiche e radar (aspetti tridimensionali,
+fornisce strumenti per immagini ottiche e radar (aspetti tridimensionali,
 segmentazione, classificazione, rilevamento dei cambiamenti, analisi delle tessiture,
 pattern matching, optic/radar complementarities,).
 
-OTB è fornito con un'interfaccia utente completamente integrata chiamata Moneverdi
+OTB è fornito con un'interfaccia utente completamente integrata chiamata Monteverdi
 che consente agli utenti di selezionare le catene di elaborazione OTB da una serie di menu.
 
 OTB è stato fondato dall'Agenzia Spaziale Francese (CNES) nel riquadro della
@@ -48,7 +48,7 @@ Caratteristiche principali
 * rilevamento oggetti
 * segmentazione d'immagine a larga scala: region growing, mean-shift, watershed, level sets...
 * classificazione: K-means, SVM, Markov random fields, accesso ad algoritmi di machine learning da OpenCV
-* analisi di immagini basato sugli oggeti
+* analisi di immagini basato sugli oggetti
 * analisi geospaziali
 * ricostruzione stereografica per immagini
 * analisi dati SAR
