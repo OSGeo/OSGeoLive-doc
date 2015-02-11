@@ -60,7 +60,7 @@ as well as a handy desktop GIS for handheld PDAs or netbooks.
 Core Features
 --------------------------------------------------------------------------------
 
-* You name it, there's a tool for it.
+* You name it, there's a `tool for it <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
 * Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
 
 Details

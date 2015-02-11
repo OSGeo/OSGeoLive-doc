@@ -56,7 +56,7 @@ przyjazny GIS desktopowy na palmtopach i netbookach.
 Główne funkcje
 --------------------------------------------------------------------------------
 
-* Powiedz czego Ci trzeba, na pewno znajdziesz tu odpowiednie narzędzie.
+* Powiedz czego Ci trzeba, na pewno znajdziesz tu `odpowiednie narzędzie <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
 * Przejrzyj `kolekcję zrzutów ekranu <http://grass.osgeo.org/screenshots/>`_.
 
 Szczegóły

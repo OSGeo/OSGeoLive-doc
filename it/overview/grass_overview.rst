@@ -61,7 +61,7 @@ parallelizzati, sia un comodo GIS desktop per palmari o netbook.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-* Tu lo nomini, ed esiste uno strumento per quello.
+* Tu lo nomini, ed esiste uno `strumento per quello <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
 * Esplora la `galleria di screenshot <http://grass.osgeo.org/screenshots/>`_.
 
 Dettagli

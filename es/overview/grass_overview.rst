@@ -58,7 +58,7 @@ escritorio, disponible también para PDA's y netbooks.
 Características clave
 --------------------------------------------------------------------------------
 
-* Sea lo que sea que necesite, existe una herramienta ello.
+* Sea lo que sea que necesite, existe `una herramienta ello <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
 * Explore la `colección de pantallazos de la aplicación <http://grass.osgeo.org/screenshots/>`_.
 
 Detalles

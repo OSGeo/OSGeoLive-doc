@@ -54,7 +54,7 @@ par lots sur ​​des supercalculateurs massivement parallélisés que pour êt
 Fonctionnalités principales
 --------------------------------------------------------------------------------
 
-* Vous nommez une fonction, vous trouverez un outil pour ça dans Grass.
+* Vous nommez une fonction, vous trouverez `un outil pour ça <http://grass.osgeo.org/grass70/manuals/keywords.html>`_ dans GRASS.
 * Explorez la `collection de captures d'écran <http://grass.osgeo.org/screenshots/>`_.
 
 Détails

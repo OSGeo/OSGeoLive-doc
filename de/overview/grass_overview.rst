@@ -62,7 +62,7 @@ GIS auf Handheld PDAs oder Netbooks eingesetzt zu werden.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Suche eine Funktionalität und GRASS GIS bietet das passende Modul.
+* Suche eine Funktionalität und GRASS GIS bietet das `passende Modul <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
 * Entdecke die `Screenshot Gallerie <http://grass.osgeo.org/screenshots/>`_.
 
 Details
