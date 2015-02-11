@@ -23,20 +23,38 @@ GRASS GIS
 Voll funktionsfähiges GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GRASS GIS (Geographic Resources Analysis Support System) ist ein Geographisches Informationssystem (GIS) und bietet umfangreiche Raster-, topologische Vektordaten-Funktionalität sowie Bildverarbeitung und Visualisierungsmöglichkeiten. GRASS stellt Werkzeuge für Geodaten Management, räumliche Modellierung, Visualisierung von Raster- und Vektordaten als auch Prozessierung von Satelliten- und Luftbilddaten zur Verfügung. Darüberhinaus ermöglicht es das Ertstellen anspruchsvoller Präsentationsgrafiken und druckfertiger Karten. GRASS wurde bisher in mehr als 20 Sprachen übersetzt und unterstützt eine Vielzahl unterschiedlichster Geodaten-Formate.
+GRASS GIS (Geographic Resources Analysis Support System) ist ein 
+Geographisches Informationssystem (GIS) und bietet umfangreiche 
+Raster-, topologische Vektordaten-Funktionalität sowie Bildverarbeitung 
+und Visualisierungsmöglichkeiten. GRASS GIS stellt Werkzeuge für Geodaten 
+Management, räumliche Modellierung, Visualisierung von Raster- und 
+Vektordaten als auch Prozessierung von Satelliten- und Luftbilddaten 
+zur Verfügung. Darüberhinaus ermöglicht es das Erstellen 
+anspruchsvoller Präsentationsgrafiken und druckfertiger Karten. GRASS 
+wurde bisher in mehr als 20 Sprachen übersetzt und unterstützt eine 
+Vielzahl unterschiedlichster Geodaten-Formate.
 
 .. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
 
-GRASS GIS wird aktuell weltweit in zahllosen akademischen und kommerziellen Einrichtungen sowie in staatlichen Behörden und privaten Unternehmen verwendet. Die Software kann unter allen derzeit verbreiteten Hardware Plattformen eingesetzt werden. Als Freie Open Source Software (FOSS) ist GRASS GIS unter der GNU General Public License (GPL) lizensiert.
+GRASS GIS wird aktuell weltweit in zahllosen akademischen und 
+kommerziellen Einrichtungen sowie in staatlichen Behörden und privaten 
+Unternehmen verwendet. Die Software kann unter allen derzeit 
+verbreiteten Hardware Plattformen eingesetzt werden. Als Freie Open 
+Source Software (FOSS) ist GRASS GIS unter der GNU General Public 
+License (GPL) lizensiert.
 
-GRASS GIS stellt mehr als 400 Module mit Analysefunktionen zur Verfügung. 
-Zusätzlich stehen mehr als 100 weitere, von der Community bereitgestellte Module und Werkzeuge kostenlos über das GRASS Add-On Repository bereit. 
-Nach mehr als 30 Jahren kontinuierlicher Entwicklung ist GRASS 
-heute das am längsten entwickelte und gleichzeitig umfangreichste Open Source GIS der Welt.
-GRASS ist einfach zu skripten und vielseitig genug, um für das Batch Processing auf großen, parallelen Architekturen von Supercomputern oder als handliches Desktop GIS auf Handheld PDAs oder Netbooks eingesetzt zu werden.
+GRASS GIS stellt mehr als 400 Module mit Analysefunktionen zur 
+Verfügung. Zusätzlich stehen mehr als 100 weitere, von der Community 
+bereitgestellte Module und Werkzeuge kostenlos über das GRASS Add-On 
+Repository bereit. Nach mehr als 30 Jahren kontinuierlicher Entwicklung 
+ist GRASS heute das am längsten entwickelte und gleichzeitig 
+umfangreichste Open Source GIS der Welt. GRASS ist einfach zu skripten 
+und vielseitig genug, um für das Batch Processing auf großen, 
+parallelen Architekturen von Supercomputern oder als handliches Desktop 
+GIS auf Handheld PDAs oder Netbooks eingesetzt zu werden.
 
 
 .. _GRASS GIS: http://grass.osgeo.org

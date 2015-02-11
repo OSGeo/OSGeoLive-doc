@@ -1,9 +1,14 @@
 |osgeo-live-version| Project Statistiken
 ================================================================================
 
-Die Statistiken werden über `OpenHUB <https://www.openhub.net/>`_ zur Verfügung gestellt. Sie werden vom Code-Repository der Projekte abgeleitet. Beachten Sie, dass die Statistiken auch fehlerhaft sein können (beispielsweise durch Umzug von Repositories) und nur teilweise eine Aussage über den Status der Projekte geben können.
+Die Statistiken werden über `OpenHUB <https://www.openhub.net/>`_ zur 
+Verfügung gestellt. Sie werden aus dem jeweiligen Code-Repository der 
+Projekte generiert. Beachten Sie, dass die Statistiken auch fehlerhaft 
+sein können (beispielsweise durch Umzug von Repositories) und nur 
+teilweise eine Aussage über den Status der Projekte geben können.
 
-Für die Anzeige der Statistiken benötigen Sie eine Internetverbindung und Javascript muss aktiviert sein.
+Für die Anzeige der Statistiken benötigen Sie eine Internetverbindung 
+bestehen und Javascript muss aktiviert sein.
 
 .. raw:: html
 
@@ -11,7 +16,7 @@ Für die Anzeige der Statistiken benötigen Sie eine Internetverbindung und Java
 
 Desktop GIS
 --------------------------------------------------------------------------------
-Generelle Geodaten Anzeige, Barbeitung und Analyse über den Desktop:
+Generelle Geodaten Anzeige, Barbeitung und Analyse auf einer Desktopmaschine:
 
 .. raw:: html
 
@@ -28,7 +33,7 @@ Fehlend:
 
 Browser GIS Anwendungen
 --------------------------------------------------------------------------------
-Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
+Generelle Geodaten Anzeige, Barbeitung und Analyse im Browser:
 
 .. raw:: html
 
@@ -123,7 +128,7 @@ Fehlend:
 
 Spezifische GIS Software
 --------------------------------------------------------------------------------
-Spezielle Anwendungen
+Spezielle Anwendungen:
 
 .. raw:: html
 
