@@ -136,7 +136,7 @@ Available from prior OSGeo-Live releases:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, retired after OSGeo-Live 7.9
-* :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Create Map Tiles, retired after OSGeo-Live 8.0
+* :doc:`maptiler_overview` - retired after OSGeo-Live 8.0. Open Source branch stopped being maintained.
 
 
 Windows and Apple Installers

@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-maptiler.png
   :alt: project logo
   :align: right
-  :target: http://www.maptiler.org/
+..  :target: http://www.maptiler.org/
 
 
 MapTiler
@@ -15,7 +15,10 @@ MapTiler
 Map Publishing
 --------------------------------------------------------------------------------
 
-MapTiler is a desktop application for the creation of map tiles for rapid raster map publishing. Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
+.. note:: 
+  There is a proprietary version of MapTiler by the same name, which is based on the original open source MapTiler codebase. This document refers to the Open Source version of MapTiler.
+
+MapTiler is a desktop application for the creation of map tiles for rapid raster map publishing.  Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
 
 No extensive configuration on the server side is necessary, any simple file hosting is fine. Dynamic interaction such as panning and zooming, overlay of markers and vector data is provided by powerful browser functionality.
 
@@ -37,7 +40,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.maptiler.org/
+.. **Website:** http://www.maptiler.org/
 
 **Licence:** New BSD License
 
@@ -45,11 +48,11 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Community:** http://groups.google.com/group/maptiler 
+.. **Community:** http://groups.google.com/group/maptiler 
 
-**Commercial support and applications:** http://www.maptiler.com/
+.. **Commercial support and applications:** http://www.maptiler.com/
 
-Quickstart
---------------------------------------------------------------------------------
+.. Quickstart
+.. --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/maptiler_quickstart>`
+.. * :doc:`Quickstart documentation <../quickstart/maptiler_quickstart>`
