@@ -1,8 +1,9 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: Markus Neteler
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-:Copyright: 2011 by The OSGeo Foundation
+:Copyright: 2011-2015 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -45,12 +46,12 @@ GRASSの開発は30年近く続いており、最も歴史ある、最も巨大�
 どちらにも使用できる、応用範囲が広いデータのバッチ処理を簡単に記述することができます。
 
 
-.. _GRASS: http://grass.osgeo.org
+.. _GRASS GIS: http://grass.osgeo.org
 
 主な機能
 --------------------------------------------------------------------------------
 
-* どんなものでも、処理するツールがあります。
+* どんなものでも、 `処理するツール  <http://grass.osgeo.org/grass70/manuals/keywords.html>`_ があります。
 *  `スクリーンショット集 <http://grass.osgeo.org/screenshots/>`_ をご覧下さい。
 
 詳細
@@ -72,6 +73,6 @@ GRASSの開発は30年近く続いており、最も歴史ある、最も巨大�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/grass_quickstart.html>`_
+* :doc:`クイックスタート文書 <../quickstart/grass_quickstart>`
 
 

@@ -1,6 +1,7 @@
 :Author: Johan Van de Wauw
 :Author: Vladimir Agafonkin
-:Version: osgeo-live7.0
+:Reviewer: Cameron Shorter
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-leaflet.png 
@@ -96,7 +97,7 @@ Leaflet はシンプル、パフォーマンス、ユーザビリティを念頭
 
 **ライセンス:** BSD
 
-**ソフトウェアバージョン:** 0.7.2
+**ソフトウェアバージョン:** 0.7.3
 
 **サポートするプラットフォーム:** Windows, Mac, Linux, Android, iOS
 

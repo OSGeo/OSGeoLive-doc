@@ -33,6 +33,7 @@
 
 * :doc:`openlayers_overview` - [:doc:`クイックスタート <../quickstart/openlayers_quickstart>`] - ブラウザマッピングライブラリ
 * :doc:`leaflet_overview` - [:doc:`クイックスタート <../quickstart/leaflet_quickstart>`] -  モバイルフレンドリーなインタラクティブ地図
+* :doc:`cesium_overview` - [:doc:`クイックスタート <../quickstart/cesium_quickstart>`] - ブラウザ内での3D地球儀と2D地図
 * :doc:`geomajas_overview` - [:doc:`クイックスタート <../quickstart/geomajas_quickstart>`] -ブラウザ GIS クライアント
 * :doc:`mapbender_overview` - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - ジオポータルフレームワーク
 * :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
@@ -43,9 +44,9 @@ Web サービス
 --------------------------------------------------------------------------------
 インターネットで地理空間データ公開:
 
-* :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`]
-* :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`]
+* :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`] - OGC Web サービス
+* :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`] - OGC Web サービス
+* :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`] - OGC Web サービス
 * :doc:`ncWMS_overview` - [:doc:`クイックスタート <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`クイックスタート <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ
@@ -81,14 +82,14 @@ Web サービス
 --------------------------------------------------------------------------------
 特定解析ツール:
 
-* :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
 * :doc:`gmt_overview` - [:doc:`クイックスタート <../quickstart/gmt_quickstart>`] - 地図レンダリング
-* :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
-* :doc:`tilemill_overview` - [:doc:`クイックスタート <../quickstart/tilemill_quickstart>`] - スタイリングとパブリッシング
-* :doc:`maptiler_overview`  - [:doc:`クイックスタート <../quickstart/maptiler_quickstart>`] - 地図タイル生成
-* :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
+* :doc:`ipython_overview` - [:doc:`クイックスタート <../quickstart/ipython_quickstart>`] - プレゼンテーション内で豊富なメディアを混合
 * :doc:`otb_overview` - [:doc:`クイックスタート <../quickstart/otb_quickstart>`] -画像処理
 * :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
+* :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
+* :doc:`tilemill_overview` - [:doc:`クイックスタート <../quickstart/tilemill_quickstart>`] - スタイリングとパブリッシング
+* :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
+* :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
 
 特定用途向け GIS
 --------------------------------------------------------------------------------
@@ -113,12 +114,12 @@ Web サービス
 地理空間ライブラリ
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview` - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール
+* :doc:`gdal_overview`  - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール
 * :doc:`jts_overview` - Java トポロジスイート
 * :doc:`geotools_overview` - Java GIS ツールキット 
 * :doc:`geos_overview` - C/C++ 空間ライブラリ
 * :doc:`metacrs_overview` - 座標参照系の変換
-* :doc:`liblas_overview` - LiDAR データへのアクセス
+* :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR データへのアクセス
 * :doc:`iris_overview` - [:doc:`クイックスタート <../quickstart/iris_quickstart>`] - 気象学と気候学
 
 その他の関連ソフトウェア (Live 未収録)
@@ -131,13 +132,11 @@ Microsoft Windows のみで利用可能:
 
 以前の OSGeo-Live リリースで利用可能:
 
-.. MapGuide はディスク容量節約のため一時的に収録していません
-
-* :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`] - Web サービス、OSGeo-Live 5.0 以降未収録
+* :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`] - Web サービス、OSGeo-Live 5.0 以降未収録 (ディスク容量節約のため)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
 * :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
-
+* :doc:`maptiler_overview`  - OSGeo-Live 8.0 以後未収録。オープンソースブランチはメンテナンスを停止。
 
 Windows 及び Apple インストーラー
 --------------------------------------------------------------------------------

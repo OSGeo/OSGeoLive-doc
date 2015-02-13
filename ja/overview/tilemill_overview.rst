@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-tilemill.png
@@ -80,7 +80,7 @@ TileMillは通常、アイコン、パターンやテクスチャを作成する
 
 **ライセンス:** BSD
 
-**バージョン:** 0.10.1
+**バージョン:** 0.10.2
 
 **サポートするプラットフォーム:** Windows, Linux, Mac
 

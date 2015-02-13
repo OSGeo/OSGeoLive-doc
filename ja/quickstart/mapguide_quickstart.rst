@@ -32,7 +32,7 @@ MapGuideの起動と実行
 .. note:: DVDスペースの節約のため、MapGuide は現在インストールされていません。
 
 .. commented out as manual install doesn't currently work: To install
-　ターミナルを開き、``cd gisvm/bin; sudo ./install_mapguide.sh`` を実行します。
+　ターミナルを開き、 ``cd gisvm/bin; sudo ./install_mapguide.sh`` を実行します。
 
 2. サンプルアプリケーションを表示するには http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php をブラウザで開きます。 
 

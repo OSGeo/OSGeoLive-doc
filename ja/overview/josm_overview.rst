@@ -75,7 +75,7 @@ A number of specialised plugins have been written for JSOM, which are available 
 
 **ライセンス:** GNU General Public License (GPL) バージョン2。ノート: JOSMプラグインは他のライセンスで利用されます。
 
-**ソフトウェアバージョン:** r6060
+**ソフトウェアバージョン:** r7347
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
