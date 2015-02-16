@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Roberto Antolin
-:Version: osgeo-live6.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -22,34 +22,36 @@ QGIS Server
 Servicio Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-QGIS Server ofrece un servicio web de mapas (WMS) basado en la librerías de la
-aplicación de escritorio de Quantum GIS (QGIS). La estrecha relación con QGIS
-permite que los mapas y plantillas el software de escritorio se puedan publicar
-fácilmente como mapas web solamente copiando el archivo de proyecto QGIS en el
-directorio del servidor, y ver así los mapas web exactamente como en el
+QGIS Server ofrece un servicio web de mapas (WMS y WFS) basado en la librerías de la
+aplicación de escritorio de Quantum GIS (QGIS). Se pueden publicar mapas y plantillas
+de impresión creadas en QGIS como mapas web simplemente copiando el fichero de proyecto
+QGIS en el directorio del servidorr, y ver así los mapas web exactamente como en el
 escritorio. QGIS Server normalmente es ejecutado como un módulo CGI/FastCGI
 dentro de Apache Webserver.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 40 %
+  :scale: 50 %
   :alt: project logo
   :align: right
-
 
 Características principales
 --------------------------------------------------------------------------------
 
-* Implementación de un Servicio Web de Mapas (WMS)
-* Salida en PDF
-* Una buena integración con el SIG de escritorio (QGIS)
-* Simbolización cartográfica avanzada
-* Soporta el Descriptor de Estilos de Capa (SLD)
+* Servicio Web de Mapas (WMS) - imágenes.
+* Servicio Web de Fenómenos (WFS) - vectores.
+* Salida en PDF.
+* Creación de mapas WYSIWYG con QGIS.
+* Simbolización cartográfica avanzada.
+* Soporta el Descriptor de Estilos de Capa (SLD).
+
 
 Implementación de estándares
 --------------------------------------------------------------------------------
 
-* Servicio Web de Mapas OGC (WMS) 1.3.0
-* Descriptor de Estilos de Capa OGC (SLD) 1.0
+* Servicios Web de Mapas OGC (WMS) 1.1.1 y 1.3.0.
+* Servicios Web de Fenómenos (WFS) 1.0.0 y Transactional WFS (WFS-T) 1.0.0.
+* Servicios Web de Coberturas (WCS).
+* Descriptor de Estilos de Capa OGC (SLD) 1.0.
 
 Detalles
 --------------------------------------------------------------------------------
@@ -58,7 +60,7 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión software:** 1.8.0
+**Versión software:** 2.6.1
 
 **Plataformas soportadas:** Windows, Linux
 

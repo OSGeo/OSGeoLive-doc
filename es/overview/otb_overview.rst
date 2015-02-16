@@ -18,22 +18,28 @@ OTB
 Procesamiento de imágenes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Acrónimo del inglés de `ORFEO Toolbox Library (OTB)` es una librería para el 
-procesamiento de imágenes de alto rendimiento. Es utilizado principalmente para 
-el procesamiento de imágenes de sensores remotos como los capturados por radares, 
-satélites o plataformas aéreas. OTB proporciona herramientas para el futuro de las 
-imágenes ópticas y radar (aspectos tridimensionales, detección de cambios, análisis
-de texturas, similitud de patrones, complementarios óptico/radar). 
+Acrónimo del inglés de `ORFEO Toolbox Library (OTB)`, es una biblioteca de alto rendimiento
+para procesamiento de imágenes. Se usa principalmente para procesar imágenes grandes
+de teledetección como las capturados por radares, satélites o plataformas aéreas. 
+OTB proporciona herramientas para imágenes ópticas y radar (aspectos tridimensionales,
+segmentación, clasificación, detección de cambios, análisis de texturas, similitud de 
+patrones y  complementariedades óptico/radar), muchas de las cuales se pueden ejecutar
+en portátiles de recursos limitados.
 
-OTB ha sido fundado por la Agencia Espacial Francesa (CNES) en el marco Metodológico
-del Programa de Acompañamiento ORFEO y se desarrolla activamente desde el año 2006. 
-Se basa en la librería ITK para el procesamiento de imágenes médicas y es distribuido 
+OTB está disponible con una interfaz de usuario completamente integrada llamada 
+Monteverdi que permite a los usuarios seleccionar cadenas de procesos OTB en un conjunto
+de menús. 
+
+OTB fue fundado por la Agencia Espacial Francesa (CNES) en el marco Metodológico
+del Programa de Acompañamiento ORFEO/Pleiades y se desarrolla activamente desde el año 2006. 
+Se basa en la biblioteca de procesamiento de imágenes ITK  y se distribuye 
 como código de fuente abierta.
+
 
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
+.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg 
   :scale: 80 %
   :alt: screenshot
   :align: right

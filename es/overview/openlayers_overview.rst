@@ -1,15 +1,17 @@
 :Author: Chris Schmidt
 :Author: OSGeo-Live
-:Author: Roald de Wit 
+:Author: Roald de Wit
+:Author: Antonio Santiago
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
 :Translator: David Mateos
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _openlayers-overview-es:
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
+  :scale: 80 % 
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
@@ -21,51 +23,74 @@
   :target: http://www.osgeo.org
 
 
-OpenLayers
+OpenLayers 3
 ================================================================================
 
-Cliente ligero GIS
+Biblioteca de mapas para navegador/móvil y Cliente ligero GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+OpenLayers3 es una biblioteca ligera de mapeo para la web y clientes móviles que 
+usa tecnologías de los navegadores modernos como HTML5, WebGL y CSS3.
+
+OpenLayers3 supone una reescritura completa de la biblioteca anterior, OpenLayers2,
+robusta y ampliamente implementada. Ambas ofrecen un gran conjunto de funcionalidades
+que cubren los requisitos básicos y avanzados de SIG y mapeo web.
+
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: screenshot
   :align: right
-
-OpenLayers permite a los desarrolladores Web integrar componente de mapas dinámicos fácilmente, desde multitud de fuentes de información, en una página Web. OpenLayers proporciona un conjunto de componentes y herramientas de desarrollo de funcionalidades de *mapping* similara al API de Google Maps. Toda la funcionalidad corre en el navegador Web, lo que hace fácil la instalación de OpenLayers sin ningún tipo de dependencia de la parte servidora.
 
 Propiedades Fundamentales
 --------------------------------------------------------------------------------
 
-* Uso simple de un API Javascript, diseñado para el desarrollo fácil de aplicaciones
-* Soporte de protocolos estandar y customizados para interactuar con los servidores
-* Herramientas para crear interfaces de usuario a medida
-* Soporta renderización de datos en el navegador (utilizando tecnologías tipo SVG, VML, o Canvas), permitiendo el desarrollo de mapas avanzados en navegador Web.
-* Soporte para dispositivos móviles (en especial dispositivos táctiles)
-* Carga de fuentes de mapas de diversas fuentes:
-  
-  * Capas comerciales: Google, Bing, Yahoo
-  
-  * Estándares OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
-  
-  * Otros:  OpenStreetMap (OSM), ArcGIS, Images, MapGuide, MapServer, TileCache
+* Capas
 
-* Capacidad de parseo de datos vectoriales y metadatos en muchos formatos:
-  
-  * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
+  * Raster: WMS/WMTS, OpenStreetMap, MapQuest, Stamen, Bing, static images, etc.
+  * Vectores: WFS, KML, GeoJSON, TopoJSON, GPX, y IGC.
+  * Mapas de calor.
+  * Renderizado de capas vectoriales como raster.
+
+* Controles e interacciones
+
+  * Vista general, deslizador de zoom, botones de zoom in/out, barra de escala, rotación, etc.
+  * Desplazamiento de mapa, zoom y rotation, selección de entidades, modificación, etc.
+
+* Definición de estilos y personalización
+
+  * Potente definición de estilos de entidades: puntos, líneas, polígonos e iconos.
+  * Personalización de la apariencia de los controles usando CSS3.
+
+* Overlays
+
+  * Renderiza cualquier elemento del DOM en cualquier lugar del mapa.
+  * Gran flexibilidad para crear *tooltips* (descripciones emergentes) y marcadores.
+  * Mezcla la potencia de las capacidades de HTML5 con una aplicación de mapeo.
+
+* Eventos
+
+  * Enlazado de funciones *listener* para atender a los eventos del mapa.
+  * Creación de controles o interacciones personalizadas.
+
+* Varios
+
+  * Soporta navegadores de móviles.
+  * Biblioteca ligera. Construcción de paquetes personalizados para reducir el tamaño.
+  * Renderizado de mapas usa diferentes tecnologías: Canvas, WebGL, DOM.
+  * Análisis ráster (cambio tono/saturación).
 
 Detalles
 --------------------------------------------------------------------------------
 
 **Website:** http://openlayers.org
 
-**Licencia:** Licencia BSD de 2 claúsulas (también conocida como licencia *FreeBSD*) 
+**Licencia:** Licencia BSD de 2 claúsulas (también conocida como licencia *FreeBSD*)
 
-**Versión de Software :** 2.12
+**Versión de Software :** 3.0.0
 
 **API Interface:** JavaScript
 
-**Soporte:** https://github.com/openlayers/openlayers 
+**Soporte:** https://groups.google.com/forum/#!forum/ol3-dev
 
 
 Guía de inicio rápido

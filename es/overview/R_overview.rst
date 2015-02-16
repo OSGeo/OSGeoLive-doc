@@ -1,7 +1,7 @@
 ﻿:Author: OSGeo-Live
 :Translator: Agustín Díez
 :Translator: Roberto Antolín
-:Version: osgeo-live6.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-R.png
@@ -70,7 +70,7 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión del Software:** 3.1.1
+**Versión del Software:** 3.1.2
 
 **Plataformas soportadas:** Windows, Linux, Mac, Unix
 
