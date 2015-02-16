@@ -10,13 +10,13 @@
   :align: right
 
 ********************************************************************************
-OTB Quickstart 
+Guida rapida su OTB 
 ********************************************************************************
 
 ORFEO Toolbox library (OTB) e` una libreria ad alte prestazioni per il processamento 
 di immagini per il telerilevamento. 
 
-Questo Quick Start illustra come:
+Questa guida rapida illustra come:
 
   * Ottenere i metadati di un'immagine
   * Eseguire operazioni matematiche tra le bande dell'immagine
@@ -32,7 +32,7 @@ delle immagini. Questi strumenti sono disponibili attraverso:
   * GUI : interfaccia grafica (graphical user interface) (in Qt)
   * QGIS plugin : disponibile attraverso Sextante
 
-I dati utilizzati in questo quickstart possono essere scaricati da:
+I dati utilizzati in questa guida rapida possono essere scaricati da:
   * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
 
 Scarica i dati e decomprimili nella cartella `/home/user/otb/`.
