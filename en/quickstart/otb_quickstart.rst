@@ -83,9 +83,9 @@ Perform supervised classification based on SVM  with Monteverdi
 * Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
 * Go to the :menuselection:`Learning --> SVM classification`
 * Select the input raster image (Reader0) from the input window selection
-* You can add classes (`Add Class` button), select learning samples by drawing polygons in the 
+* You can add classes (`Add Class` button), select learning samples by drawing polygons 
 * Go to the :menuselection:`Setup --> SVM` to set the classification algorithm parameters 
-* Click on the `Learn` button to create a classification model fron the input learning classes 
+* Click on the `Learn` button to create a classification model from the input learning classes 
 * Click on the `Display` button to show the result of the supervised classification on the entire image
 
   .. image:: ../../images/screenshots/800x600/otb-svm.jpg
