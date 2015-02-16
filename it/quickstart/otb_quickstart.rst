@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Manuel Grizonnet
 :Translator: Margherita Di Leo
-:Version: osgeo-live6.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-otb.png
