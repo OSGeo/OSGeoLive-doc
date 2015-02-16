@@ -38,6 +38,8 @@ Details
 
 **Licence:** New BSD License
 
+**Source Code:** https://github.com/geopython/mapslicer
+
 **Software Version:** 1.0.rc1
 
 **Supported Platforms:** Windows, Linux, Mac
