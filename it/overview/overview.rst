@@ -87,6 +87,7 @@ Strumenti speficici per analisi:
 * :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
+* :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Crea Map Tiles
 * :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 
@@ -137,7 +138,6 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
 * :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
-* :doc:`maptiler_overview`  - [:doc:`QuickStart <../quickstart/maptiler_quickstart>`] - Crea Map Tiles, ritirato dopo OSGeo-Live 8.0
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

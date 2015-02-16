@@ -11,11 +11,11 @@
   :alt: project logo
   :align: right
 
-Guida rapida su MapSlicer 
+Guida rapida su MapSlicer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ offre un semplice strumento per dividere una mappa
-georiferita in diverse parti (tile). I tile possono essere presentati come una sovrapposizione 
+georiferita in diverse parti (tile). I tile possono essere presentati come una sovrapposizione
 georiferita su un server web.
 Segue le specifiche `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_
 della fondazione `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.org/>`_ .
@@ -23,11 +23,11 @@ della fondazione `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.or
 
 * **Opzioni input**: Qualsiasi immagine georiferita, p.es. TIFF, JPEG da ArcGIS, QGIS.
 * **Opzioni output**: Una serie di cartelle con le immagini che possono essere copiate su un server web
-per essere presentati come una sovrapposizione georiferita. 
+per essere presentati come una sovrapposizione georiferita.
 * **Punti di forza**: MapSlicer e` semplice, e` software libero, con un semplice wizard, descritto di seguito,
-per guidarti attraverso le opzioni. 
+per guidarti attraverso le opzioni.
 
-MapSlicer approfitta del fatto che `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , e altri provider di mappe online, compreso `OpenStreetMap <http://www.openstreetmap.org/>`_  usano la stessa proiezione e profilo di tiling e quindi i tile sono compatibili. MapSlicer prepara i tile usando questa specifica come un modo facile e veloce per preparare una mappa georiferita per un mash up su una pagina web. 
+MapSlicer approfitta del fatto che `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , e altri provider di mappe online, compreso `OpenStreetMap <http://www.openstreetmap.org/>`_  usano la stessa proiezione e profilo di tiling e quindi i tile sono compatibili. MapSlicer prepara i tile usando questa specifica come un modo facile e veloce per preparare una mappa georiferita per un mash up su una pagina web.
 
 Avviare MapSlicer
 --------------------------------------------------------------------------------
@@ -69,12 +69,12 @@ Avviare MapSlicer
 .. image:: ../../images/screenshots/1024x768/mapslicer7.jpg
     :align: center
 
-9. Clicca **Render** per cominciare a rappresentare l'immagine. 
+9. Clicca **Render** per cominciare a rappresentare l'immagine.
 
 .. image:: ../../images/screenshots/1024x768/mapslicer8.jpg
     :align: center
 
-10. Una volta completato, MapSlicer fornisce un link al gruppo di tile completo. 
+10. Una volta completato, MapSlicer fornisce un link al gruppo di tile completo.
 
 .. image:: ../../images/screenshots/1024x768/mapslicer9.jpg
     :align: center
@@ -85,17 +85,17 @@ Avviare MapSlicer
     :align: center
 
 
-Utilizzare gdal2tiles per creare un database MBTiles 
+Utilizzare gdal2tiles per creare un database MBTiles
 --------------------------------------------------------------------------------
 
 MapSlicer non e` altro che un'interfaccia grafica per lo script `gdal2tiles.py`.
 Sul disco della Live e` anche presente una versione aggiornata di `gdal2tiles.py`.
-I tile tree creati con questo programma possono essere usati con il programma 
+I tile tree creati con questo programma possono essere usati con il programma
 `mb-util` per creare un database mbtiles, da utilizzare con i software per
 smartphone come `Geopaparazzi <http://geopaparazzi.github.io/geopaparazzi/>`_.
 
-Per creare un database SQLite MBTiles dal nuovo tile tree appena creato, apri un 
-terminale e 
+Per creare un database SQLite MBTiles dal nuovo tile tree appena creato, apri un
+terminale e
 
 ::
 
@@ -104,5 +104,5 @@ terminale e
   mb-util --scheme=tms --image_format=jpg bluemarble bluemarble.mbtiles
   qgis bluemarble.mbtiles
 
-Consulta `gdal2tiles.py --help` e `mb-util --help` per ulteriori informazioni su questi programmi. 
+Consulta `gdal2tiles.py --help` e `mb-util --help` per ulteriori informazioni su questi programmi.
 

@@ -23,20 +23,10 @@ Geomajas
 Client GIS per browser internet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geomajas è un framework estensibile per web GIS che si integra nel browser 
-perfettamente con potenti algoritmi lato server.
-
-L'obbiettivo di Geomajas è quello di fornire una piattaforma per **l'integrazione 
-lato server** di dati geospaziali  (attraverso :doc:`GeoTools <geotools_overview>` 
-o Hibernate), permettendo a più utenti di controllare e gestire i dati direttamente 
-dal loro browser. In sostanza, Geomajas fornisce un insieme di blocchi potenti, 
-da cui può essere costruita facilmente un'applicazione GIS più avanzata.
-
-Ciò che rende unico Geomajas è la sua forte attenzione lato server. 
-L'elaborazione, la vestizione, il filtraggio, la memorizzazione, ecc. di dati 
-geospaziali avviene sempre in un constesto sicuro. Tutto questo fa di Geomajas 
-un'applicazione incredibilemente scalabile e performante, mantendendo il client 
-un **client realmente leggero**.
+Il client permette agli sviluppatori di creare potenti applicazioni web GIS includento
+mappe interattive, widget estendibili e casi d'uso personalizzati. Permette di
+accedere ad un vasto range di sorgenti di dati e funzionalità attraverso un
+browser web.
 
 .. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
@@ -46,20 +36,25 @@ un **client realmente leggero**.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-* Architettura integrata client-server
-* Modifica di geometria e attributi
-* Definizioni personalizzate degli attributi
-* Avanzate capacità di interrogazione (CQL)
-* Sicurezza Out-of-the-box
-* Meccanismo espansible di plug-in
-* Diverse tecnologie di front-end
-* Supporto multi-browser, senza il bisogno di plug-ins per il browser
+* Programmabile usando Java attraverso GWT
+* Supporta molte tipologie di layer (incluso WMS, WFS, WMTS, TMS, OSM, Google Maps, Shape, PostGIS, Oracle, JDBC, )
+* Una collezione di widget preconfigurati (incluso Editing e redlining, Stampa, Geocodifica, Layer tree, ...)
+* Costruite i vostri casi d'uso e create nuovi widgets
+* Vestizione facilmente modificabile tramite CSS personalizzati
+* Nessun bisogno di plugins per il browser
+* Funziona su un vasto range di device internet utilizzando HTML5
+* Non siete entusiasti di GWT? Accedete alle caratteristiche principali
+  attraverso le API Javascript
 
-Standard implementati
+Caratteristiche del server enterprise
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
+* Sicurezza disponibile a diversi livelli (layer, elementi, attributi, funzionalità)
+* Integrazione semplice senza con il vostro Domain Model persistent via Hibernate,
+  servizi web, Java RMI, ...
+* Integrazione enterprise con altre applicazioni business come JBPM, Activiti,
+  JasperReports, CMS, Alfresco tramite standard industriali (SOAP, REST, ESB, JNDI,
+* Facilmente estendibile attraverso il framework Spring
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -68,11 +63,11 @@ Dettagli
 
 **Licenza:** AGPL
 
-**Versione Software:** 1.8
+**Versione Software:** 2.2.0
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 
-**Interfacce API:** Java
+**Interfacce API:** Java e Javascript
 
 **Supporto:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
@@ -81,4 +76,3 @@ Guida rapida
 --------------------------------------------------------------------------------
 
 * :doc:`Documentazione introduttiva <../quickstart/geomajas_quickstart>`
-
