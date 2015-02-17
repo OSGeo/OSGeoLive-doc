@@ -13,7 +13,7 @@
 MapSlicer Quickstart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mit `MapSlicer <http://www.mapslicer.org/>`_ kann man Kacheln ausgehend von georeferenzierten Kartenbildern erzeugen.
+Mit `MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ kann man Kacheln ausgehend von georeferenzierten Kartenbildern erzeugen.
 Die Kacheln können dann über einen Webserver als georeferenzierte Karte eingebunden und präsentiert werden.
 MapSlicer folgt dabei der `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ 
 Spezifikation der `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.org/>`_.
@@ -31,7 +31,7 @@ MapSlicer nutzt den Vorteil, dass `Google Maps <http://maps.google.com/>`_ , `Mi
 `OpenStreetMap <http://www.openstreetmap.org/>`_ , die gleiche Kartenprojektion und das Kachelschema verwenden. 
 Somit sind die Kacheln kompatibel.
 
-Die Seite `Kacheln à la Google Maps <http://www.mapslicer.org/google-maps-coordinates-tile-bounds-projection/>`_ 
+Die Seite `Kacheln à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ 
 beschreibt und verdeutlicht dies. MapSlicer bereitet die Kacheln soweit vor, dass diese zur Spezfikation passen 
 und ist somit ein einfaches Tool, um georeferenzierte Karten in einer Mashup Webseite einzubinden.
 

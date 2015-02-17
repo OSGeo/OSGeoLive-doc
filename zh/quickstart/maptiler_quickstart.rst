@@ -11,13 +11,13 @@
 MapSlicer 快速入门文档
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-　　 `MapSlicer <http://www.mapslicer.org/>`_ 提供了一套简单的解决方案，用于对任何具备地理参考的地图图像生成切片。这些切片可以用于网络地图服务。它遵循 `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.org/>`_ 的 `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ 标准。
+　　 `MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ 提供了一套简单的解决方案，用于对任何具备地理参考的地图图像生成切片。这些切片可以用于网络地图服务。它遵循 `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.org/>`_ 的 `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ 标准。
 
 * **数据输入**: 任何具备地理配准信息的栅格图像，例如 TIFF 、JPEG 等。可以利用 ArcGIS 、QGIS 等 GIS 系统准备数据。
 * **数据输出**: 一组目录包含图像切片，可导入网络服务中。部分示例位于 `官方网站 <http://examples.mapslicer.org/>`_ 。 
 * **软件特点**: MapSlicer 是一款简单易用的自由/开源软件。它提供方便的向导服务用于用户进行配置。
 
-　　MapSlicer 的开发者注意到 `Google Maps <http://maps.google.com/>`_ 、 `Microsoft Bing Maps <http://maps.bing.com>`_ 、 `Yahoo Maps <http://maps.yahoo.com/>`_ 及包括 `Open Street Map <http://www.openstreetmap.org/>`_  在内的一系列服务使用了同样的投影系统和切片格网，切片数据可以兼容。在 `Tiles à la Google Maps <http://www.mapslicer.org/google-maps-coordinates-tile-bounds-projection/>`_ 页面可以看到对此的详细说明。MapSlicer 可以使用这一切片格网定义进行快速的切片服务配置。
+　　MapSlicer 的开发者注意到 `Google Maps <http://maps.google.com/>`_ 、 `Microsoft Bing Maps <http://maps.bing.com>`_ 、 `Yahoo Maps <http://maps.yahoo.com/>`_ 及包括 `Open Street Map <http://www.openstreetmap.org/>`_  在内的一系列服务使用了同样的投影系统和切片格网，切片数据可以兼容。在 `Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ 页面可以看到对此的详细说明。MapSlicer 可以使用这一切片格网定义进行快速的切片服务配置。
 
 启动 MapSlicer
 --------------------------------------------------------------------------------

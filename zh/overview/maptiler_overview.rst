@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.mapslicer.org/
+  :target: https://wiki.osgeo.org/wiki/MapSlicer
 
 
 MapSlicer
@@ -37,7 +37,7 @@ MapSlicer是一个多平台桌面应用程序。安装程序版本有Windows, Ma
 详情请见
 --------------------------------------------------------------------------------
 
-**网站:** http://www.mapslicer.org/
+**网站:** https://wiki.osgeo.org/wiki/MapSlicer
 
 **版权:** New BSD License
 
@@ -47,7 +47,7 @@ MapSlicer是一个多平台桌面应用程序。安装程序版本有Windows, Ma
 
 **社团:** http://groups.google.com/group/mapslicer 
 
-**商业支持和应用:** http://www.mapslicer.com/
+**商业支持和应用:** https://wiki.osgeo.org/wiki/MapSlicer
 
 快速入门
 --------------------------------------------------------------------------------

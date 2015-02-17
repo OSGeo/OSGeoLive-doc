@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.mapslicer.org/
+  :target: https://wiki.osgeo.org/wiki/MapSlicer
 
 
 MapSlicer
@@ -37,7 +37,7 @@ MapSlicer
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Κεντρική ιστοσελίδα:** http://www.mapslicer.org/
+**Κεντρική ιστοσελίδα:** https://wiki.osgeo.org/wiki/MapSlicer
 
 **Άδεια:** New BSD
 
@@ -47,7 +47,7 @@ MapSlicer
 
 **Κοινότητα:** http://groups.google.com/group/mapslicer 
 
-**Εμπορική Υποστήριξη και εφαρμογές:** http://www.mapslicer.com/
+**Εμπορική Υποστήριξη και εφαρμογές:** https://wiki.osgeo.org/wiki/MapSlicer
 
 
 Γρήγορη εκκίνηση

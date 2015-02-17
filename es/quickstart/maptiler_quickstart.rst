@@ -13,13 +13,13 @@
 Inicio Rápido de Maptiler
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`MapSlicer <http://www.mapslicer.org/>`_ Provee una forma sencilla de crear un conjunto de mosaicos a partir de cualquier mapa de imagen georeferenciado. Los mosaicos pueden ser representados como una capa de mapas georeferenciados en un servidor web. De acuerdo a la especificación de la `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_.
+`MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ Provee una forma sencilla de crear un conjunto de mosaicos a partir de cualquier mapa de imagen georeferenciado. Los mosaicos pueden ser representados como una capa de mapas georeferenciados en un servidor web. De acuerdo a la especificación de la `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_.
 
 * **Opciones de Origen**: Cualquier archivo de imagen georeferenciado, eg. a TIFF, JPEG from ArcGIS, QGIS.
 * **Opciones de Salida**: Un conjunto de directorios con mosaicos de imagenes que pueden ser copiadas a un servidor web para representación como capa georeferenciada. `Ejemplos <http://examples.mapslicer.org/>`_. 
 * **Fortalezas**: MapSlicer es simple, gratis, software de fuente abierta, con un aistente fácil, descrito a continuación, para guía a través de las opciones.
 
-MapSlicer toma ventaja del hecho de que  `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , y otros proveedores de mapas online como `OpenStreetMap <http://www.openstreetmap.org/>`_  utilizan la misma proyección y la misma forma, por lo tanto los mosaicos son compatibles. La página `Tiles à la Google Maps <http://www.mapslicer.org/google-maps-coordinates-tile-bounds-projection/>`_ describe e ilustra acerca de esto. MapSlicer prepara los mosaicos usando esta especificación como una forma fácil y rápida de preparar un mapa georeferenciado en una página web híbrida.
+MapSlicer toma ventaja del hecho de que  `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , y otros proveedores de mapas online como `OpenStreetMap <http://www.openstreetmap.org/>`_  utilizan la misma proyección y la misma forma, por lo tanto los mosaicos son compatibles. La página `Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ describe e ilustra acerca de esto. MapSlicer prepara los mosaicos usando esta especificación como una forma fácil y rápida de preparar un mapa georeferenciado en una página web híbrida.
 
 Inicio de MapSlicer
 --------------------------------------------------------------------------------

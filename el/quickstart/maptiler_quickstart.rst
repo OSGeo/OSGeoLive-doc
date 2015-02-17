@@ -12,14 +12,14 @@
 Εγχειρίδιο Γρήγορης Εκκίνησης MapSlicer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Το `MapSlicer <http://www.mapslicer.org/>`_ προσφέρει έναν απλό τρόπο για δημιουργία συνόλου τετράγωνων από γεωαναφερμένες εικόνες χαρτών. Τα τετράγωνα μπορεί να παρουσιαστούν σαν γεωαναφερμένα στρώματα χαρτών σε ένα διαδικτυακό εξυπηρετητή. Ακολουθεί τις προδιαγραφές του `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`.
+Το `MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ προσφέρει έναν απλό τρόπο για δημιουργία συνόλου τετράγωνων από γεωαναφερμένες εικόνες χαρτών. Τα τετράγωνα μπορεί να παρουσιαστούν σαν γεωαναφερμένα στρώματα χαρτών σε ένα διαδικτυακό εξυπηρετητή. Ακολουθεί τις προδιαγραφές του `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`.
 
 * **Input options**: Οποιοδήποτε γεωαναφερμένο αρχείο εικόνας π.χ. από TIFF, JPEG μέχρι ArcGIS, QGIS.
 * **Output options**: Ένα σύνολο από φακέλους αρχείων με τις τετράγωνες εικόνες που μπορεί να αντιγραφούν σε ένα διαδικτυακό εξυπηρετητή για παρουσίαση σαν γεωαναφερμένα στρώματα.`View examples <http://examples.mapslicer.org/>`_. 
 * **Strengths**: Το MapSlicer είναι ένα ελεύθερο, ανοιχτού κώδικα λογισμικό με εύκολο οδηγό, που παρουσιάζεται παρακάτω, για καθοδήγηση στις επιμέρους επιλογές. 
 
 
-Το MapSlicer εκμεταλλεύεται το γεγονός ότι τα `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , και άλλα εργαλεία για χάρτες στο διαδίκτυο συμπεριλαμβάνοντας το `OpenStreetMap <http://www.openstreetmap.org/>`_ χρησιμοποιούν την ίδια προβολή, τα ίδια προφίλ τετραγώνων και έτσι τα τετράγωνα είναι συμβατά. Η σελίδα `Tiles à la Google Maps <http://www.mapslicer.org/google-maps-coordinates-tile-bounds-projection/>`_ το περιγράφει και το εξηγεί. Το MapSlicer φτιάχνει τα τετράγωνα χρησιμοποιώντας αυτές τις προδιαγραφές σαν έναν εύκολο και γρήγορο τρόπο για δημιουργία γεωαναφερμένων χαρτών σε διαδικτυακές σελίδες.
+Το MapSlicer εκμεταλλεύεται το γεγονός ότι τα `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , και άλλα εργαλεία για χάρτες στο διαδίκτυο συμπεριλαμβάνοντας το `OpenStreetMap <http://www.openstreetmap.org/>`_ χρησιμοποιούν την ίδια προβολή, τα ίδια προφίλ τετραγώνων και έτσι τα τετράγωνα είναι συμβατά. Η σελίδα `Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_ το περιγράφει και το εξηγεί. Το MapSlicer φτιάχνει τα τετράγωνα χρησιμοποιώντας αυτές τις προδιαγραφές σαν έναν εύκολο και γρήγορο τρόπο για δημιουργία γεωαναφερμένων χαρτών σε διαδικτυακές σελίδες.
 
 
 Αρχίζοντας με το MapSlicer

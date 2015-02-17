@@ -7,7 +7,7 @@
 .. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.mapslicer.org/
+  :target: https://wiki.osgeo.org/wiki/MapSlicer
 
 
 MapSlicer
@@ -38,7 +38,7 @@ MapSlicerはマルチプラットフォームのデスクトップアプリケ�
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://www.mapslicer.org/
+**ウェブサイト:** https://wiki.osgeo.org/wiki/MapSlicer
 
 **ライセンス:** New BSD License
 
@@ -48,4 +48,4 @@ MapSlicerはマルチプラットフォームのデスクトップアプリケ�
 
 **団体:** http://groups.google.com/group/mapslicer 
 
-**商用のサポートおよび応用例:** http://www.mapslicer.com/
+**商用のサポートおよび応用例:** https://wiki.osgeo.org/wiki/MapSlicer

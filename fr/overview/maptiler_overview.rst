@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: Logo du projet
   :align: right
-  :target: http://www.mapslicer.org/
+  :target: https://wiki.osgeo.org/wiki/MapSlicer
 
 
 MapSlicer
@@ -37,7 +37,7 @@ Caractéristiques principales
 Détails
 --------------------------------------------------------------------------------
 
-**Site web:** http://www.mapslicer.org/
+**Site web:** https://wiki.osgeo.org/wiki/MapSlicer
 
 **Licence:** Licence New BSD
 
@@ -47,7 +47,7 @@ Détails
 
 **Communauté:** http://groups.google.com/group/mapslicer 
 
-**Support commercial et applications:** http://www.mapslicer.com/
+**Support commercial et applications:** https://wiki.osgeo.org/wiki/MapSlicer
 
 Guide de démarrage rapide
 --------------------------------------------------------------------------------

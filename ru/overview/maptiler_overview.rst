@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: логотип проекта
   :align: right
-  :target: http://www.mapslicer.org/
+  :target: https://wiki.osgeo.org/wiki/MapSlicer
 
 
 MapSlicer
@@ -46,7 +46,7 @@ Windows и Mac OS X и пакеты для Linux (Debian/Ubuntu).
 Дополнительная информация
 --------------------------------------------------------------------------------
 
-**Веб-сайт:** http://www.mapslicer.org/
+**Веб-сайт:** https://wiki.osgeo.org/wiki/MapSlicer
 
 **Лицензия:** `BSD <http://ru.wikipedia.org/wiki/BSD_License>`_
 
@@ -56,7 +56,7 @@ Windows и Mac OS X и пакеты для Linux (Debian/Ubuntu).
 
 **Сообщество:** http://groups.google.com/group/mapslicer 
 
-**Коммерческая поддержка и приложения:** http://www.mapslicer.com/
+**Коммерческая поддержка и приложения:** https://wiki.osgeo.org/wiki/MapSlicer
 
 Начало работы
 --------------------------------------------------------------------------------
