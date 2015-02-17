@@ -65,7 +65,7 @@
 * :doc:`gdal_overview`  - [:doc:`Введение <../quickstart/gdal_quickstart>`] - Многофункциональный инструмент для работы с геоданными
 * :doc:`gmt_overview` - [:doc:`Введение <../quickstart/gmt_quickstart>`] - Картография и работа с геоданными
 * :doc:`mapnik_overview` - [:doc:`Введение <../quickstart/mapnik_quickstart>`] - Картографический рендеринг
-* :doc:`maptiler_overview`  - [:doc:`Введение <../quickstart/maptiler_quickstart>`] - Создание картографических тайлов 
+* :doc:`mapslicer_overview`  - [:doc:`Введение <../quickstart/mapslicer_quickstart>`] - Создание картографических тайлов 
 * :doc:`otb_overview` - [:doc:`Введение <../quickstart/otb_quickstart>`] - Обработка изображений
 * :doc:`R_overview`  - [:doc:`Введение <../quickstart/R_quickstart>`] - Статистика и программирование
 

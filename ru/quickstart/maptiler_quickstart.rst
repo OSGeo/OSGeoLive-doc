@@ -4,15 +4,15 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-mapslicer.png
   :scale: 100 %
   :alt: project logo
   :align: right
 
-Начало работы с MapTiler
+Начало работы с MapSlicer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`MapTiler <http://www.maptiler.org/>`_ предоставляет простой способ создания
+`MapSlicer <http://www.mapslicer.org/>`_ предоставляет простой способ создания
 тайлов на базе геопривязанных растровых изображений. Созданные тайлы в
 дальнейшем могут быть использованы в различных Web-приложениях. Структура
 хранения тайлов соответствует спецификации `Tile Map Service (TMS)
@@ -20,25 +20,25 @@
 `Open Source Geospatial Foundation (OSGeo's) <http://www.osgeo.org/>`_.
 
 * **Входные данные**: Любой геопривязанный растр, например, TIFF или JPEG.
-* **Выходные данные**: Набор директорий, содержащих тайлы, которые в дальнейшем могут быть скопированы на Web-сервер для использования в различных приложения. Примером может служить формирование отдельного слоя в клиентском приложении, `пример <http://examples.maptiler.org/>`_.
-* **Сильные стороны**: MapTiler — это открытое программное обеспечение, простота работы с которым обеспечивается наличием специального Мастера, позволяющего с использованием графического интерфейса задавать необходимые настройки.
+* **Выходные данные**: Набор директорий, содержащих тайлы, которые в дальнейшем могут быть скопированы на Web-сервер для использования в различных приложения. Примером может служить формирование отдельного слоя в клиентском приложении, `пример <http://examples.mapslicer.org/>`_.
+* **Сильные стороны**: MapSlicer — это открытое программное обеспечение, простота работы с которым обеспечивается наличием специального Мастера, позволяющего с использованием графического интерфейса задавать необходимые настройки.
 
 Поскольку `Google Maps <http://maps.google.com/>`_ , 
 `Microsoft Bing <http://maps.bing.com>`_,  `Yahoo Maps <http://maps.yahoo.com/>`_
 и другие публичные картографические Web-сервисы, включая `OpenStreetMap <http://www.openstreetmap.org/>`_, 
 используют одну и ту же проекцию Меркатора (но разные способы адресации), то тайлы,
 применяемые в них, взаимозаменяемы. На странице
-`Tiles à la Google Maps <http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/>`_
+`Tiles à la Google Maps <http://www.mapslicer.org/google-maps-coordinates-tile-bounds-projection/>`_
 наглядно представлено сравнение различных способов адресации одних и тех
-же тайлов. MapTiler также поддерживает возможность создания тайлов
+же тайлов. MapSlicer также поддерживает возможность создания тайлов
 в проекции Меркатора. Это позволяет легко использовать тайлы, подготовленные
 с его помощью, в различных Wеб-приложениях, объединяющих данные из
 нескольких источников в один интегрированный инструмент ("мэшап").
 
-Запуск MapTiler
+Запуск MapSlicer
 --------------------------------------------------------------------------------
 
-1. `Загрузите MapTiler <http://help.maptiler.org/betatest/>`_ на свой компьютер
+1. `Загрузите MapSlicer <http://help.mapslicer.org/betatest/>`_ на свой компьютер
 или запустите его непосредственно с LiveDVD.
 
 2. Выберите профиль тайлов **Tile Profile**. Отметьте *Google Maps Compatible
@@ -46,7 +46,7 @@
 (KML SuperOverlay)*, если вы хотите создать KML-файл для использования в
 Google Earth. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler1.jpg
+.. image:: ../../images/screenshots/1024x768/mapslicer1.jpg
     :width: 90 %
     :align: center
 
@@ -54,7 +54,7 @@ Google Earth. Нажмите *Continue*.
 разбить на тайлы. Здесь же можно задать цвет участков NODATA, который будет отображаться
 прозрачным в выходных тайлах. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler2.jpg
+.. image:: ../../images/screenshots/1024x768/mapslicer2.jpg
     :width: 90 %
     :align: center
 
@@ -62,17 +62,17 @@ Google Earth. Нажмите *Continue*.
 входного изображения. Выберите пункт **Specify the id-number from the EPSG/ESRI database**,
 укажите необходимый идентификатор и нажмите **Set**. В случае необходимости
 (например, если ваш растр в системе координат Великобритании), то описание
-проекции должно включать параметр `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_.
+проекции должно включать параметр `EPSG:27700 with TOWGS84 <http://help.mapslicer.org/coordinates/europe/uk>`_.
 Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler3.jpg
+.. image:: ../../images/screenshots/1024x768/mapslicer3.jpg
     :width: 90 %
     :align: center
 
 5. Укажите настройки масштабных уровней **Tile Pyramid**. Настроек по умолчанию зачастую
 бывает достаточно. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler4.jpg
+.. image:: ../../images/screenshots/1024x768/mapslicer4.jpg
     :width: 90 %
     :align: center
 
@@ -80,7 +80,7 @@ Google Earth. Нажмите *Continue*.
 URLs** выберите выходную директорию и опционально
 URL для публикации. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler5.jpg
+.. image:: ../../images/screenshots/1024x768/mapslicer5.jpg
     :width: 90 %
     :align: center
 
@@ -90,7 +90,7 @@ URL для публикации. Нажмите *Continue*.
 Для создания "KML SuperOverlay" для Google Earth отметьте соответствующий пункт.
 Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler6.jpg
+.. image:: ../../images/screenshots/1024x768/mapslicer6.jpg
     :width: 90 %
     :align: center
 
@@ -100,12 +100,12 @@ URL для публикации. Нажмите *Continue*.
 текущем этапе, она может быть добавлена позже вручную путём редактирования
 файлов *googlemaps.html / openlayers.html*. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/maptiler7.jpg
+.. image:: ../../images/screenshots/1024x768/mapslicer7.jpg
     :width: 90 %
     :align: center
 
 9. Нажмите **Render** для запуска процесса создания
-тайлов. По окончании данного процесса MapTiler предоставит ссылку на
+тайлов. По окончании данного процесса MapSlicer предоставит ссылку на
 получившийся набор тайлов. Откройте *googlemaps.html* или *openlayers.html*
 в Web-браузере для просмотра результата на фоне различных базовых слоёв, предоставляемых
 публичными картографическими Web-сервисами. Для публикации полученных данных
