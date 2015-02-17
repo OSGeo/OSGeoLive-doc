@@ -15,7 +15,7 @@ Bild Prozessierung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ORFEO Toolbox Library (OTB) ist eine hochperformante Bildprozessierungsbibliothek. OTB wurde anfangs
 zur Prozessierung von Fernerkundungsdaten (Remote Sensing) wie Radaraufnahmen, Satellitenaufnahmen und Luftbildern. 
-OTB stellt Werkzeuge für Future Optic und Radarbilder
+OTB stellt Werkzeuge für Optic und Radarbilder
 (3D Aspekte, Erkennung von Änderungen, Texturanalysen, Musterabgleich, optische/radar Komplementaritäten) zur Verfügung.
 Viele der Prozesse können auf weniger leistungsstarken Notebooks laufen.
 
