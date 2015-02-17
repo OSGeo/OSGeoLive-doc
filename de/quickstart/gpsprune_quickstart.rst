@@ -1,5 +1,5 @@
 :Author: activityworkshop
-:Version: osgeo-live4.5
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-gpsprune.png
@@ -11,34 +11,54 @@
 GpsPrune Quickstart 
 ********************************************************************************
 
-Laufen lassen
+GpsPrune ist eine Java Anwendung für die Visualisierung und das Editieren von Koordinatendaten.
+
+In diesem Quickstart werden wir Daten die sich lokal auf OSGeo-Live befinden laden und anzeigen. Außerdem werden wir online auf Informationen zugreifen. Daher ist es sinnvoll eine Internetverbindung vorliegen zu haben.
+
+Erste Schritte 
 ================================================================================
 
-Um GpsPrune auf diesem live DVD laufen zu lassen, wählen Sie den Ikon "GpsPrune" im Menü "Navigation und Karten" aus.
-Um Daten zu verarbeiten, benötigen Sie eine Datei einzulesen, oder Daten aus einem GPS-Gerät mittels *Gpsbabel* auszulesen,
-oder Koordinaten manuell einzugeben.  Am einfachsten ladet man eine beliebige Gpx-, Kml- oder Kmzdatei mit der Menüoption
-:menuselection:`Datei --> Datei öffnen` und wählt man eine Datei aus. Eine geeignete GPX-Datei mit einigen Tracks finden Sie unter :file:`~/data/vector/R/test_trk2.gpx`.
+Um GpsPrune auf OSGeo-Live laufen zu lassen, wählen Sie "GpsPrune" im Menü "Navigation und Karten" aus. Sie erhalten ein leeren Fenster wie im folgenden Bild.
 
-Jetzt sehen Sie den Track blau aufgezeichnet, und Wegpunkte (falls vorhanden) schwarz markiert.
-Falls eine Netzwerkverbindung vorhanden ist, empfiehlt es sich die Karten einzuschalten mit dem Globus Ikon oben
-oder mit der Menüoption :menuselection:`Ansicht --> Karte zeigen`.
+.. image:: ../../images/screenshots/1024x768/gpsprune_emptywindow.png
+   :scale: 55
+
+Nun werden wir eine Datei über den Menüeintrag :menuselection:`Datei --> Datei öffnen` laden.
+Wählen Sie eine Datei. Die Datei kann entweder eine GPX-, KML- oder KMZ-Datei sein
+Darüberhinaus können kommaseparierte oder tab-separierte Dateien geladen werden.
+Eine geeignete GPX-Datei mit einigen Tracks findet sich unter :file:`~/data/vector/R/test_trk2.gpx`. Laden Sie diese Datei.
+
+.. image:: ../../images/screenshots/1024x768/gpsprune_trackselect.png
+
+Da die Datei zwei Tracks enthält, werden wir aufgefordert welche geladen werden soll/en.
+Wählen Sie nur den ersten Track aus und klicken Sie ok.
+
+Jetzt sollten Sie den Track in blau auf einem weißen Hintergrund sehen.
+Sofern dieser Track über Wegpunkte verfügen würde (die er nicht hat), würden diese
+ebenfalls mit ihren Namen angezeigt. Unter Hauptkarte wird ein Höhendiagramm angezeigt, sofern der Track über Höhenangaben verfügt.
+
+.. image:: ../../images/screenshots/1024x768/gpsprune_test_trk2.png
+   :scale: 55
+
+Falls eine Netzwerkverbindung vorliegt, können Sie Karten über den Globus Button oder über die Menüoption :menuselection:`Ansicht --> Karte zeigen` hinzuschalten.
+
+.. image:: ../../images/screenshots/1024x768/gpsprune_mapnik.png
+   :scale: 55
 
 Jetzt können Sie die Karte mit der Maus rumschieben und ein- und auszoomen.
 Beim Klicken auf einem Punkt sieht man die Details, inklusive Höhe und Zeitstempeln falls vorhanden.
 Unterhalb der Karte findet man das Höhenprofildiagramm, das den Profil zeigt falls die Daten Höheninformation enthalten.
 Wenn man darauf klickt, wird der entsprechender Datenpunkt ausgewählt.
 
-Anpassen des Ansichts
+Anpassen der Ansicht
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Andere Kartendarstellungen sind unter der Menüoption :menuselection:`Einstellungen --> Karten Hintergrund setzen`.
-Verschiedene Karten sind vordefinitert, oder Sie können einen anderen Server hinzufügen falls Sie die URL kennen.
+Andere Kartendarstellungen sind unter der Menüoption :menuselection:`Einstellungen --> Kartenhintergrund setzen`. Schauen Sie sich 
+einmal eine alternative Karte an wie beispielsweise die "Cyclemap" (Radkarte).
+Diese verwendet Karten von OpenCycleMap, um für das Wandern und Rad fahren zusätzliche nützliche Information 
+wie Höhenlinien und Radwege anzuzeigen.
 
-Die Farben der Datendarstellung können mit der Menüoption :menuselection:`Einstellungen --> Farben einstellen`
-angepasst werden.
-
-Wenn Sie die Einstellungen mit der Menüoption :menuselection:`Einstellungen --> Einstellungen speichern` speichern,
-werden sie beim nächsten Aufruf von GpsPrune wiederverwendet.  Allerdings mit diesem live DVD
-gehen alle lokal gespeicherten Dateien verloren wenn man das System herunterfährt.
+.. image:: ../../images/screenshots/1024x768/gpsprune_cyclemap.png
+   :scale: 55
 
 Karten herunterladen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,16 +67,59 @@ Um die heruntergeladenen Kartenkacheln auf Disk zu speichern, können Sie die Me
 Mit dieser Option muss GpsPrune die Bilder nur einmal herunterladen, was das Anzeigen beschleunigt.  Aber diese Option
 macht auf einem installierten System mehr Sinn als auf einem live DVD.
 
+Wikipedia
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lassen Sie uns nun ein paar mehr Informationen
+über die Lage des Tracks finden.
+Wir können dies indem wir einen Punkt auswählen und anschließend den 
+Menüeintrag :menuselection:`Track --> Get nearby Wikipedia articles` auswählen.
+Diese Aktion zeigt eine Liste von Artikeln, deren Koordinaten am nächsten 
+zum ausgewählten Punkt liegen. Per Klick auf einen Eintrag werden
+weitere Informationen in der unteren Box angezeigt.
+
+.. image:: ../../images/screenshots/1024x768/gpsprune_wikipedialist.png
+
+Sie können über den Button `Laden` diesen Punkt in GpsPrune laden, oder
+ über `Webseite anzeigen` die Wikipedia-Seite im Browser öffnen.
+
+Gpsies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lassen Sie uns abschließend einen anderen Track der selben Region runterladen.
+Wir können dazu den Menüeintrag :menuselection:`Track --> Get Gpsies tracks` 
+verwenden und auf der Webseite gpsies.com nach Tracks suchen.  
+Wieder erhalten wir eine Liste von passenden Einträgen. Bei Auswahl eines Tracks 
+wird eine Beschreibung zum Track angezeigt.
+
+.. image:: ../../images/screenshots/1024x768/gpsprune_gpsieslist.png
+
+Klicken Sie auf `Laden`, um den Track zu den bereits vorhandenen Daten zu laden.  
+Nun sehen Sie beide Tracks in einer Ansicht.
+
+Distanzmessungen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Um herauszufinden wie lang der Anstieg ist, klicken wir auf den Start
+nördlich von Dunedin und wählen :menuselection:`Range --> Set range start`.
+Anschließend wählen wir den höchsten Punkt des Tracks am höchsten Punkt des 
+Höhendiagramms und wählen :menuselection:`Range --> Set range end`. Nun können 
+wir im "Range details" Bereich sehen, dass dieser Teil des Tracks 8.55 km 
+lang ist, Aufstieg 346 m und Abstieg lediglich 10 m.
+
+.. image:: ../../images/screenshots/1024x768/gpsprune_rangedetails.png
+   :scale: 55
+
+
 GpsPrune auf anderen Systemen verwenden
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Nachdem Sie GpsPrune mit diesem live DVD ausprobiert haben, kann es sein dass Sie GpsPrune auf einem anderen System
+Nachdem Sie GpsPrune ausprobiert haben, kann es sein dass Sie GpsPrune auf einem anderen System
 benutzen wollen, egal ob das System Linux oder Mac OSX oder Windows ist.  Manche Linuxdistributionen enthalten
 GpsPrune in den normalen Software Tools, Sie müssen nur nach "Prune" oder "Gpsprune" suchen.  Anderenfalls können
-Sie die aktuelle Version als Jardatei von der Homeseite herunterladen.
+Sie die aktuelle Version als Jardatei von der Webseite herunterladen.
 
-GpsPrune braucht normalerweise nicht, installiert zu werden, aber es braucht einen Java-Laufzeitumgebung, Version 1.5
-oder höher.  Die Funktionalität lässt sich erweitern wenn Sie zusätzlich andere freie Software installieren, wie
-zum Beispiel *Gpsbabel*, *Gnuplot*, *Exiftool* oder *Java3d*.
+GpsPrune muss normalerweise nicht installiert werden Es braucht einen Java-Laufzeitumgebung in der Version 1.5 oder höher.  Die Funktionalität kann erweitert werden, indem Sie zusätzlich andere freie Software installieren, wie zum Beispiel *Gpsbabel*, *Gnuplot*, *Exiftool* oder *Java3d* installieren.
+
+Sobald Sie GpsPrune auf Ihrem System installiert haben, können Sie Ihre Einstellungen über
+den Menüeintrag :menuselection:`Einstellungen --> Einstellungen speichern` speichern.
+Ihrem Einstellungen sind liegen beim nächsten Start von GpsPrune weiterhin vor. 
 
 Weiterführende Literatur
 ================================================================================
