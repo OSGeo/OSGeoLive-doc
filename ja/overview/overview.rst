@@ -136,7 +136,7 @@ Microsoft Windows のみで利用可能:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
 * :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
-* :doc:`maptiler_overview`  - OSGeo-Live 8.0 以後未収録。オープンソースブランチはメンテナンスを停止。
+* :doc:`mapslicer_overview`  - OSGeo-Live 8.0 以後未収録。オープンソースブランチはメンテナンスを停止。
 
 Windows 及び Apple インストーラー
 --------------------------------------------------------------------------------

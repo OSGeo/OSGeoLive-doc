@@ -84,7 +84,7 @@
 * :doc:`ossim_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ossim_quickstart>`] - Επεξεργασία Εικόνας
 * :doc:`mapnik_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart>`] - Χαρτογραφική Σύνθεση
 * :doc:`tilemill_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tilemill_quickstart>`] - Δημοσίευση Χαρτών με Στύλ
-* :doc:`maptiler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/maptiler_quickstart>`] - Δημιουργία Τετραγωνιδίων Χαρτών
+* :doc:`mapslicer_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapslicer_quickstart>`] - Δημιουργία Τετραγωνιδίων Χαρτών
 * :doc:`otb_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/otb_quickstart>`] - Ανάλυση Εικόνας
 * :doc:`R_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/R_quickstart>`] - Στατιστικός Προγραμματισμός
 
