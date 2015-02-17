@@ -4,19 +4,19 @@
 :Versión: osgeo-live6.5
 :Licencia: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.maptiler.org/
+  :target: http://www.mapslicer.org/
 
 
-MapTiler
+MapSlicer
 ================================================================================
 
 Publicación de mapas
 --------------------------------------------------------------------------------
 
-MapTiler es una aplicación de escritorio para la creación de mosaicos de mapas
+MapSlicer es una aplicación de escritorio para la creación de mosaicos de mapas
 para la rápida publicación de cartografía raster. Los datos geográficos se
 transforman en teselas compatibles con Google Maps y Google Earth listos para
 ser publicados a través de la carga directa en cualquier servidor web o
@@ -26,7 +26,7 @@ No es necesaria una configuración extensa del servidor, cualquier alojamiento d
 
 La aplicación genera directamente un visor basado en OpenLayers y la API de Google Maps listo para usarse y fácilmente personalizable.
 
-MapTiler es una aplicación de escritorio multiplataforma. Hay disponibles archivos de instalación para Windows, Mac OS X y ficheros linux (Debian/Ubuntu).
+MapSlicer es una aplicación de escritorio multiplataforma. Hay disponibles archivos de instalación para Windows, Mac OS X y ficheros linux (Debian/Ubuntu).
 
 Características principales
 --------------------------------------------------------------------------------
@@ -42,7 +42,7 @@ Características principales
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio web:** http://www.maptiler.org/
+**Sitio web:** http://www.mapslicer.org/
 
 **Licencia:** New BSD License
 
@@ -50,11 +50,11 @@ Detalles
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
-**Comunidad:** http://groups.google.com/group/maptiler 
+**Comunidad:** http://groups.google.com/group/mapslicer 
 
-**Ayuda comercial y aplicaciones:** http://www.maptiler.com/
+**Ayuda comercial y aplicaciones:** http://www.mapslicer.com/
 
 Guía rápida
 --------------------------------------------------------------------------------
     
-* :doc:`Guía de inicio rápid <../quickstart/maptiler_quickstart>`
+* :doc:`Guía de inicio rápid <../quickstart/mapslicer_quickstart>`

@@ -2,21 +2,21 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _maptiler-overview-pl:
+.. _mapslicer-overview-pl:
 
-.. image:: ../../images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.maptiler.org/
+  :target: http://www.mapslicer.org/
 
 
-MapTiler
+MapSlicer
 ================================================================================
 
 Publikacja map
 --------------------------------------------------------------------------------
 
-MapTiler jest desktopową aplikacją służącą do tworzenia kafli map 
+MapSlicer jest desktopową aplikacją służącą do tworzenia kafli map 
 i natychmiastowej publikacji map rastrowych. Dane przestrzenne są 
 transformowane na kafle kompatybilne z Google Maps i Earth - gotowe 
 do publikacji przez bezpośrednie wgranie na jakikolwiek serwer sieciowy 
@@ -30,7 +30,7 @@ potężną funkcjonalność przeglądarki.
 Aplikacja bezpośrednio generuje gotową do użycia prostą przeglądarkę bazującą 
 na OpenLayers i Google Maps API, możliwą do łatwego dostosowania do potrzeb.
 
-MapTiler jest wieloplatformową aplikacja desktopową. Instalatory są dostępne 
+MapSlicer jest wieloplatformową aplikacja desktopową. Instalatory są dostępne 
 na systemy Windows, Mac OS X, są też pakiety na system Linux (Debian/Ubuntu).
 
 Główne funkcje
@@ -50,7 +50,7 @@ Główne funkcje
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://www.maptiler.org/
+**Strona internetowa:** http://www.mapslicer.org/
 
 **Licencja:** New BSD License
 
@@ -58,12 +58,12 @@ Szczegóły
 
 **Systemy operacyjne:** Windows, Linux, Mac
 
-**Społeczność:** http://groups.google.com/group/maptiler 
+**Społeczność:** http://groups.google.com/group/mapslicer 
 
-**Wsparcie komercyjne i aplikacje:** http://www.maptiler.com/
+**Wsparcie komercyjne i aplikacje:** http://www.mapslicer.com/
 
 Wprowadzenie
 --------------------------------------------------------------------------------
 
-* `Przejdź do wprowadzenia <../quickstart/maptiler_quickstart.html>`_
+* `Przejdź do wprowadzenia <../quickstart/mapslicer_quickstart.html>`_
 

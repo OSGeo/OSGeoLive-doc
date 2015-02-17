@@ -3,25 +3,25 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: Logo du projet
   :align: right
-  :target: http://www.maptiler.org/
+  :target: http://www.mapslicer.org/
 
 
-MapTiler
+MapSlicer
 ================================================================================
 
 Publication de carte
 --------------------------------------------------------------------------------
 
-MapTiler est une application bureautique pour la création de tuiles de carte pour la publication de carte raster rapides. La géodonnée est transformée en tuiles compatibles avec Google Maps et Earth - prêtes pour la publication par un upload direct vers n'importe quel serveur web ou stockage dans le "cloud" (comme Amazon S3).
+MapSlicer est une application bureautique pour la création de tuiles de carte pour la publication de carte raster rapides. La géodonnée est transformée en tuiles compatibles avec Google Maps et Earth - prêtes pour la publication par un upload direct vers n'importe quel serveur web ou stockage dans le "cloud" (comme Amazon S3).
 
 Aucune importante configuration n'est nécessaire côté serveur, n'importe quel hébergement de fichiers est suffisant. Les interactions dynamiques comme le déplacement, le zoom, la superposition de marqueurs et de données vecteur est fournie par les fonctionnalités puissantes du navigateur.
 
 L'application génère directement un visualisateur simple, prêt à l'emploi, basé sur OpenLayers et l'API Google Maps, qui peut être facilement personnalisé.
 
-MapTiler est une application bureautique multiplates-formes. Des installateurs sont disponibles pour Windows, Mac OS X ainsi que des paquets pour linux (Debian/Ubuntu).
+MapSlicer est une application bureautique multiplates-formes. Des installateurs sont disponibles pour Windows, Mac OS X ainsi que des paquets pour linux (Debian/Ubuntu).
 
 Caractéristiques principales
 --------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ Caractéristiques principales
 Détails
 --------------------------------------------------------------------------------
 
-**Site web:** http://www.maptiler.org/
+**Site web:** http://www.mapslicer.org/
 
 **Licence:** Licence New BSD
 
@@ -45,11 +45,11 @@ Détails
 
 **Plates-formes supportées:** Windows, Linux, Mac
 
-**Communauté:** http://groups.google.com/group/maptiler 
+**Communauté:** http://groups.google.com/group/mapslicer 
 
-**Support commercial et applications:** http://www.maptiler.com/
+**Support commercial et applications:** http://www.mapslicer.com/
 
 Guide de démarrage rapide
 --------------------------------------------------------------------------------
     
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/maptiler_quickstart>`
+* :doc:`Documentation du guide de démarrage rapide <../quickstart/mapslicer_quickstart>`

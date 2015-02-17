@@ -3,19 +3,19 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.maptiler.org/
+  :target: http://www.mapslicer.org/
 
 
-MapTiler
+MapSlicer
 ================================================================================
 
 Map Publishing
 --------------------------------------------------------------------------------
 
-MapTiler è una applicazione desktop per la creazione di tile per la pubblicazione 
+MapSlicer è una applicazione desktop per la creazione di tile per la pubblicazione 
 rapida di mappe raster. I geodati sono transformati in tile compatibili con Google 
 Maps e Earth - pronti per essere pubblicati caricando le tile su ogni Webserver o 
 cloud storage (come Amazon S3).
@@ -27,7 +27,7 @@ di markers e dati vettoriali è fornita da una potente funzionalità per il brow
 L'applicazione genera direttamente un semplice visualizzatore basato su OpenLayers 
 e Google Maps API e può essere facilmete modificabile.
 
-MapTiler applicazione desktop multi-piattaforma. Eseguibili sono disponibile per
+MapSlicer applicazione desktop multi-piattaforma. Eseguibili sono disponibile per
 Windows, Mac OS X and packages for linux (Debian/Ubuntu).
 
 Core Features
@@ -44,7 +44,7 @@ Core Features
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito Web:** http://www.maptiler.org/
+**Sito Web:** http://www.mapslicer.org/
 
 **Licenza:** New BSD License
 
@@ -52,11 +52,11 @@ Dettagli
 
 **Piattaforme Supportate:** Windows, Linux, Mac
 
-**Communità:** http://groups.google.com/group/maptiler 
+**Communità:** http://groups.google.com/group/mapslicer 
 
-**Supporto e applicazioni commerciali:** http://www.maptiler.com/
+**Supporto e applicazioni commerciali:** http://www.mapslicer.com/
 
 Guida Rapida
 --------------------------------------------------------------------------------
     
-* :doc:`Documentazione introduttiva <../quickstart/maptiler_quickstart>`
+* :doc:`Documentazione introduttiva <../quickstart/mapslicer_quickstart>`

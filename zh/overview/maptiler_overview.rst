@@ -3,25 +3,25 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.maptiler.org/
+  :target: http://www.mapslicer.org/
 
 
-MapTiler
+MapSlicer
 ================================================================================
 
 地图发布
 --------------------------------------------------------------------------------
 
-MapTiler是一款桌面版应用程序，用于创建地图切片，支持快速栅格地图发布。它将地理数据转换成同Google Maps和Earth相兼容的切片，可直接上载到任何WEB服务器或云存储装置（如Amazon S3）进行发布。
+MapSlicer是一款桌面版应用程序，用于创建地图切片，支持快速栅格地图发布。它将地理数据转换成同Google Maps和Earth相兼容的切片，可直接上载到任何WEB服务器或云存储装置（如Amazon S3）进行发布。
 
 在服务器端无需额外配置，任何简单文件配置即可。诸如平移与缩放、标记和矢量数据的重叠等动态交互均由强大的浏览器功能提供。
 
 该应用程序直接产生一个基于OpenLayers和Google Mapserver API的即生即用式的简单查看器，可以容易地进行再定制。
 
-MapTiler是一个多平台桌面应用程序。安装程序版本有Windows, Mac OS X和linux (Debian/Ubuntu).
+MapSlicer是一个多平台桌面应用程序。安装程序版本有Windows, Mac OS X和linux (Debian/Ubuntu).
 
 主要功能
 --------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ MapTiler是一个多平台桌面应用程序。安装程序版本有Windows, Mac
 详情请见
 --------------------------------------------------------------------------------
 
-**网站:** http://www.maptiler.org/
+**网站:** http://www.mapslicer.org/
 
 **版权:** New BSD License
 
@@ -45,11 +45,11 @@ MapTiler是一个多平台桌面应用程序。安装程序版本有Windows, Mac
 
 **支持平台:** Windows, Linux, Mac
 
-**社团:** http://groups.google.com/group/maptiler 
+**社团:** http://groups.google.com/group/mapslicer 
 
-**商业支持和应用:** http://www.maptiler.com/
+**商业支持和应用:** http://www.mapslicer.com/
 
 快速入门
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/maptiler_quickstart>`
+* :doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`

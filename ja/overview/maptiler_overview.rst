@@ -2,27 +2,27 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _maptiler-overview-ja:
+.. _mapslicer-overview-ja:
 
-.. image:: ../../images/project_logos/logo-maptiler.png
+.. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: http://www.maptiler.org/
+  :target: http://www.mapslicer.org/
 
 
-MapTiler
+MapSlicer
 ================================================================================
 
 マップ編集
 --------------------------------------------------------------------------------
 
-MapTiler はラスターマップを迅速にパブリッシュし、タイル状のマップを作成するデスクトップアプリケーションです。地理データはGoogle Maps およびGoogle Earthと互換のあるタイルに変換され、ウェブサーバあるいはクラウドストレージ(例としてAmazon S3)に直接アップロードを通じてパブリッシュする事が出来ます。
+MapSlicer はラスターマップを迅速にパブリッシュし、タイル状のマップを作成するデスクトップアプリケーションです。地理データはGoogle Maps およびGoogle Earthと互換のあるタイルに変換され、ウェブサーバあるいはクラウドストレージ(例としてAmazon S3)に直接アップロードを通じてパブリッシュする事が出来ます。
 
 サーバサイド上の大規模な配置ではなく、単純なファイルホスティングで対応します。パン、ズームのような動的な機能、マーカーやベクターデータのオーバーレイ機能は強力なブラウザにより実現しています。
 
 OpenLayers および Google Maps APIをベースにしたシンプルなビューアが直接扱え、簡単にカスタマイズすることが可能です。
 
-MapTilerはマルチプラットフォームのデスクトップアプリケーションです。Windows, Mac OS X および linux 用のパッケージ(Debian/Ubuntu)を用意しています。
+MapSlicerはマルチプラットフォームのデスクトップアプリケーションです。Windows, Mac OS X および linux 用のパッケージ(Debian/Ubuntu)を用意しています。
 
 主要機能
 --------------------------------------------------------------------------------
@@ -38,7 +38,7 @@ MapTilerはマルチプラットフォームのデスクトップアプリケー
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://www.maptiler.org/
+**ウェブサイト:** http://www.mapslicer.org/
 
 **ライセンス:** New BSD License
 
@@ -46,6 +46,6 @@ MapTilerはマルチプラットフォームのデスクトップアプリケー
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
-**団体:** http://groups.google.com/group/maptiler 
+**団体:** http://groups.google.com/group/mapslicer 
 
-**商用のサポートおよび応用例:** http://www.maptiler.com/
+**商用のサポートおよび応用例:** http://www.mapslicer.com/
