@@ -27,6 +27,19 @@ Neben der Möglichkeit, eine beliebige Zahl von Kartenlayern (einschließlich
 unterstützt Marble die Integration in andere Anwendungen durch das KDE Marble 
 Widget.
 
+Erkunden Sie die Nachbarschaft mit Marble's reichhaltigen Städte und 
+Straßenkarten.Suchen Sie nach Adressen und Pois. Marble kümmert sich darum die 
+unterschiedlichen Suchen im Hintergrund anzufragen und präsentiert deren 
+Ergebnisse in einer einheitlichen Ansicht. 
+Berechnen Sie leicht Fußgänger-, Fahrrad- und Motorradrouten - online und offline.
+
+Fangen Sie an die Welt zu erkunden. Sehen Sie Wolken und Sonneschatten, folgen Sie 
+Satelliten und Weltraumstationen und visualisieren Sie deren Orbits, 
+alles aktualisiert in Echtzeit. Reisen Sie in der Zeit zurück und lernen Sie
+mehr über vergangene Ansichten unseres Planeten mit Hilfe von Karten der letzten 
+Jahrhunderte. Die Welt reicht Ihnen nicht aus? Kein Problem - Marble bietet auch 
+Karten vom Mond und anderen Planeten.
+
 
 Kernfunktionen
 --------------------------------------------------------------------------------
@@ -37,9 +50,8 @@ Kernfunktionen
   :align: right
 
 * Virtueller Globus und Weltatlas
-* Eine großartige Anwendung für den Geographieuntericht
 * Leicht zu bedienen
-* Völlig frei und Open Source
+* Eine großartige Anwendung für den Geographieuntericht
 * Kartenpräsentation (Globus, Atlas Ansicht, Straßenkarte, Satellitenkarte, Topographische Karte, Bildungskarten, andere Planeten)
 * Navigation auf einem Globus in 3D
 * 3 verschiedene Projektionen stehen zur Verfügung (3D Globe, Flat Map, Mercator)
@@ -55,22 +67,6 @@ Kernfunktionen
 * `OpenStreetMap <http://www.osm.org>`_ Integration
 
 
-Screenshots
---------------------------------------------------------------------------------
-
-.. image:: ../../images/screenshots/800x600/marble-overview-1.png
-  :scale: 75 %
-  :alt: screenshot
-  
-.. image:: ../../images/screenshots/800x600/marble-overview-2.png
-  :scale: 75 %
-  :alt: screenshot
-
-.. image:: ../../images/screenshots/800x600/marble-overview-3.png
-  :scale: 75 %
-  :alt: screenshot
-
-
 Details
 --------------------------------------------------------------------------------
 
@@ -80,7 +76,7 @@ Details
 
 **Software Version:** 1.9.2
 
-**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
+**Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows, Maemo 5
 
 **API Schnittstellen:** Qt designer, C++, Python, D-BUS, Shell script
 
