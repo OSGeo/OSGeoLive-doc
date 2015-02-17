@@ -3,6 +3,6 @@
 
 Präsentation
 ================================================================================
-Eine 30-minütige Präsentation, die alle OSGeo-Live Applikationen vorstellt, ist inklusive der Folien und Handzettel verfügbar.
+Eine 30-minütige Präsentation, die alle OSGeo-Live Anwendungen vorstellt, ist als Folien und Handzettel verfügbar.
 
 Details unter: https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/
