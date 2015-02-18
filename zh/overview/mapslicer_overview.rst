@@ -41,7 +41,7 @@ MapSlicer是一个多平台桌面应用程序。安装程序版本有Windows, Ma
 
 **版权:** New BSD License
 
-**软件版本:** 1.0beta2
+**软件版本:** 1.0
 
 **支持平台:** Windows, Linux, Mac
 

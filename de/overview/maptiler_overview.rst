@@ -52,7 +52,7 @@ Details
 
 **Lizenz:** New BSD License
 
-**Software Version:** 1.0beta2
+**Software Version:** 1.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

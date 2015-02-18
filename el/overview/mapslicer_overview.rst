@@ -41,11 +41,9 @@ MapSlicer
 
 **Άδεια:** New BSD
 
-**Έκδοση Λογισμικού:** 1.0beta2
+**Έκδοση Λογισμικού:** 1.0
 
 **Υποστηριζόμενες πλατφόρμες:** Windows, Linux, Mac
-
-**Κοινότητα:** http://groups.google.com/group/mapslicer 
 
 **Εμπορική Υποστήριξη και εφαρμογές:** https://wiki.osgeo.org/wiki/MapSlicer
 

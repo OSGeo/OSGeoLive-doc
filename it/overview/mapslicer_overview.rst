@@ -48,11 +48,9 @@ Dettagli
 
 **Licenza:** New BSD License
 
-**Versione Software:** 1.0beta2
+**Versione Software:** 1.0
 
 **Piattaforme Supportate:** Windows, Linux, Mac
-
-**Communità:** http://groups.google.com/group/mapslicer 
 
 **Supporto e applicazioni commerciali:** https://wiki.osgeo.org/wiki/MapSlicer
 

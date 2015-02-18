@@ -42,7 +42,7 @@ Detalls
 
 **Llicència:** New BSD License
 
-**Versió de programari:** 1.0beta2
+**Versió de programari:** 1.0
 
 **Sistemes operatius:** Windows, Linux, Mac
 

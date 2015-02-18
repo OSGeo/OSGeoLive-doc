@@ -54,7 +54,7 @@ Szczegóły
 
 **Licencja:** New BSD License
 
-**Wersja programu:** 1.0beta2
+**Wersja programu:** 1.0
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

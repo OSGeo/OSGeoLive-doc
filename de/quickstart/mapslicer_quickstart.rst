@@ -21,7 +21,7 @@ Spezifikation der `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.o
 * **Eingangsparameter**: Beliebige georeferenzierte Bilddateien, z.B. TIFF, JPEG von ArcGIS, QGIS.
 
 * **Ausgabeoptionen**: Verzeichnisse mit gekachelten Bildern, die in einen Webserver kopiert werden 
-  können. `Beispiel ansehen <http://examples.mapslicer.org/>`_. 
+  können.
 
 * **Stärken**: MapSlicer is einfach, frei, Open-Source Software mit einem mit einem einfachen Assistenten, 
   der untern beschrieben und auf die Optionen eingegangen wird.
@@ -39,8 +39,7 @@ und ist somit ein einfaches Tool, um georeferenzierte Karten in einer Mashup Web
 MapSlicer starten
 --------------------------------------------------------------------------------
 
-#. `Download MapSlicer <http://help.mapslicer.org/betatest/>`_ oder starten Sie das Programm direkt von der 
-   OSGeo-Live Distribution.
+#. Download MapSlicer oder starten Sie das Programm direkt von der OSGeo-Live Distribution.
 
 #. Wählen Sie **Tile Profile** aus. Nutzen Sie *Google Maps Compatible (Spherical Mercator)* als Standard 
    für die Veröffentlichung ins Web. Wählen Sie *Google Earth (KML SuperOverlay)*, wenn Sie ebenso KML 
@@ -60,7 +59,7 @@ MapSlicer starten
 
 #. Legen Sie das Koordinatensystem des Bildes fest (**Spatial Reference System / Coordinate System**). Geben 
    Sie den Code der EPSG/ESRI Datenbank an. Sind zum Beispiel die Karten aus Großbritanien, sollten Sie für 
-   die Transfromation die Information `EPSG:27700 with TOWGS84 <http://help.mapslicer.org/coordinates/europe/uk>`_ 
+   die Transfromation die Information `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ 
    als Parameter enthalten. licken Sie auf *Continue* 
 
    .. image:: ../../images/screenshots/1024x768/mapslicer3.jpg

@@ -19,7 +19,7 @@ MapSlicer ist eine Desktop-Anwendung für schnelles Rasterkarten-Publishing durc
 das Erstellen von Kartenkacheln (Tiles). Geodaten werden umgewandelt zu Tiles, die kompatibel sind mit Google Maps und Google Earth - bereit für die Veröffentlichung per direktem Upload auf jeden beliebigen Webserver oder ein Cloud-Storage (wie Amazon S3).
 Serverseitig ist keine aufwändige Konfiguration notwendig. 
 
-Dynamische Interaktion wie Verschieben und Zoomen, Überlagerung von Markern und Vektordaten wird über eine leistungsstarke Bowserfunktionalität bereitgestellt.
+Dynamische Interaktion wie Verschieben und Zoomen, Überlagerung von Markern und Vektordaten wird über eine leistungsstarke Browserfunktionalität bereitgestellt.
 
 Die Anwendung generiert einen einfachen auf OpenLayers und der Google Maps API basierenden Kartenclient, der leicht angepasst werden kann.
 

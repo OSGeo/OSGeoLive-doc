@@ -50,7 +50,7 @@ Windows и Mac OS X и пакеты для Linux (Debian/Ubuntu).
 
 **Лицензия:** `BSD <http://ru.wikipedia.org/wiki/BSD_License>`_
 
-**Версия ПО:** 1.0beta2
+**Версия ПО:** 1.0
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 
