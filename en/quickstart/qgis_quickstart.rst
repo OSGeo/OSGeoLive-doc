@@ -284,7 +284,9 @@ It acts as a standardized wrapper around a number of other sets to tools.
 
    * You may need to enable a Processing provider in order to use it.
      The following screenshot shows how to enable GRASS GIS 7 support in
-     the processing tools.
+     the processing tools. Be sure to disable GRASS support (i.e., GRASS 6).
+     Additionally, switch to the "Advanced Interface" (see lower right corner
+     in the screenshot) in order to see the providers:
 
    .. image:: ../../images/screenshots/800x600/qgis_enable_provider.png
       :scale: 70 %
