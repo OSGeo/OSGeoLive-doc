@@ -2,6 +2,7 @@
 欢迎访问 |osgeo-live-version|
 ================================================================================
 
+
 　　欢迎来到 `OSGeo-Live <http://live.osgeo.org/>`_ 。这是一套基于 `Lubuntu <http://www.xubuntu.org/>`_ 操作系统建立的，可从 DVD、USB 盘或虚拟机启动并独立运行的演示环境。它让用户可以不用预先安装任何软件系统就使用众多的开源空间信息软件。OSGeo-Live 完全是由自由软件构成，可以自由地部署、复制和分发。
 
 .. image:: ../images/screenshots/800x600/osgeolive_menu.png
@@ -27,6 +28,10 @@
 
 ..  k`Link Apple OS-X <MacInstallers/index.html>`_ 和 `Link Microsoft Windows <WindowsInstallers/index.html>`_ 
 
+欢迎访问 OSGeo Live 中国镜像
+================================================================================
+
+　　欢迎访问 `中国镜像 <http://lab.osgeo.cn/osgeo-live/>`_ ，由 `OSGeo中国中心 <http://www.osgeo.cn/>`_ ， `开放地理空间实验室维护 <http://lab.osgeo.cn/>`_ 。
 
 
 快速入门

@@ -27,3 +27,12 @@
 　　OSGeo-Live 所包含的大部分软件都具备社区性质和商业性质的支持服务。详见 :doc:`Contents <./overview/overview>` 页面。
 
 　　同时，很多咨询机构也为 OSGeo 基金会的各个会员项目提供支持，详见 `osgeo.org/search_profile <http://www.osgeo.org/search_profile>`_ 页面。
+
+OSGeo 中国中心（中文）
+======================================
+
+　　为了方便中文用户的使用，可以使用 `中国镜像 <http://lab.osgeo.cn/osgeo-live/>`_ 。
+
+　　更多的信息，可以访问 `OSGeo中国中心 <http://www.osgeo.cn/>`_ 以及 `开放地理空间实验室 <http://lab.osgeo.cn/>`_ 。
+
+
