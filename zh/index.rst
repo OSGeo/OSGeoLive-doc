@@ -21,7 +21,12 @@
 
 　　4. 在“Geospatial”菜单中选择你想使用的程序。
 
-　　其中许多程序也提供 `Apple OS-X <../MacInstallers/>`_ 和 `Microsoft Windows <../WindowsInstallers/>`_ 操作系统下的安装包。
+　　其中许多程序也提供 
+`Apple OSX <./mac_installers.html>`_ 和 `Microsoft Windows <./win_installers.html>`_
+操作系统下的安装包。
+
+..  k`Link Apple OS-X <MacInstallers/index.html>`_ 和 `Link Microsoft Windows <WindowsInstallers/index.html>`_ 
+
 
 
 快速入门
