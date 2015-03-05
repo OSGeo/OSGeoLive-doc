@@ -1,9 +1,9 @@
-OSGeo Windows installers
+在 Windows 操作系统中安装 OSGeo 套件 
 ================================================================================
 
 **Important!**: It is recommended that you visit the homepage of the software you are interested in and download the latest version from there.
 
-To Install:
+安装步骤:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To install the application simply double click on the appropriate exe or unzip a zip and read the README for each application. Some applications have 64bit version but only 32bit have been included here for compatibility, check the web for newer or alternate versions. For more information about the projects please read the help included in the live disc or visit http://live.osgeo.org
 
@@ -30,10 +30,4 @@ vcredist_x86.exe is the  Runtime from Microsoft, it is required for many of the 
 * http://download.osgeo.org/livedvd/data/mapwindow/MapWindowx86Full-v48Final-installer.exe
 * http://download.osgeo.org/gvsig/gvsig-desktop/dists/2.0.0/builds/2066/gvSIG-desktop-2.0.0-2066-final-win-x86-standard.exe
 
-   .. toctree::
-     :maxdepth: 1
-     :hidden:
-     :glob:
-
-     ../WindowsInstallers/index
 

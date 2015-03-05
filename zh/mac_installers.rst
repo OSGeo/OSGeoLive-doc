@@ -1,11 +1,11 @@
-OSGeo Macintosh installers for OSX Snow Leopard
+在 OSX Snow Leopard 操作系统中安装 OSGeo Macintosh 
 ================================================================================
 
 **Important!**: It is recommended that you visit the homepage of the software you are interested in and download the latest version from there.
 
 For Mac OSX many of the most common apps most recent versions are at http://www.kyngchaos.com
 
-To Install:
+安装步骤:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Install the base packages (Frameworks) first, followed by the support
@@ -39,9 +39,4 @@ upgraded in future without rendering the other programs unusable.
 * http://grassmac.wikidot.com/frameworks
 * http://grassmac.wikidot.com/downloads
 
-   .. toctree::
-     :maxdepth: 1
-     :hidden:
-     :glob:
 
-     ../MacInstallers/index
