@@ -87,7 +87,7 @@ Details
 
 **Licence:** `MIT`_
 
-**Software Version:** 1.10.0
+**Software Version:** 1.10.1
 
 **Supported Platforms:** Windows, Linux, Mac
 
