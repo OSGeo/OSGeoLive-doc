@@ -197,9 +197,9 @@ Un servizio WMS restituisce un file XML quando viene effettuata una richiesta ge
 
 Quelli che seguono sono alcuni esempi di indirizzi WMS:
 
-Germany demo 
+Germany workshop demo 
 
-http://wms.wheregroup.com/cgi-bin/germany.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
 
 WhereGroup OSM WMS
 

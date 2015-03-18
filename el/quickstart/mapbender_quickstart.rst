@@ -142,9 +142,7 @@ WMS εφαρμογές
 
 #. Εδώ παρατίθενται κάποια παραδείγματα WMS τα οποία μπορείτε να χρησιμοποιήσετε για να τα φορτώσετε στην εφαρμογή σας
 
-   * Demis World Map http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
-   * Bird Studies Canada http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
-   * Germany demo http://wms.wheregroup.com/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+   * Germany workshop demo http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
    * WhereGroup OSM WMS http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
    
 .. image:: ../../images/screenshots/800x600/mapbender_wms_application_settings.png

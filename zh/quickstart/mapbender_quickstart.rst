@@ -177,17 +177,9 @@ Geoportal Barcelona 巴塞罗那地理数据服务门户 (Geoportalbcn - 详见�
 
 http://www.bcn.cat/geoportal/es/geoserveis.html
 
-Demis World Map 世界地图
+Germany Workshop Demo 德国演示数据
 
-http://www2.demis.nl/wms/wms.asp?wms=WorldMap&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
-
-Bird Studies Canada 加拿大鸟类研究数据
-
-http://www.bsc-eoc.org/cgi-bin/bsc_ows.asp?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS
-
-Germany Demo 德国演示数据
-
-http://wms.wheregroup.com/cgi-bin/mapserv?map=/data/umn/germany/germany.map&VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
 
 WhereGroup OSM WMS Open Street Map 数据服务
 

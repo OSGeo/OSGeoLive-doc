@@ -209,9 +209,9 @@ Ein WMS liefert ein XML, wenn das getCapabilities-Dokument angefordert wird. Die
 
 Hier sind einige Beispiel WMS:
 
-Germany demo 
+Germany workshop demo 
 
-http://wms.wheregroup.com/cgi-bin/germany.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
 
 WhereGroup OSM WMS
 

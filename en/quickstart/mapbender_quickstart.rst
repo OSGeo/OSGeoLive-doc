@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Astrid Emde
-:Version: osgeo-live7.0
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
@@ -206,9 +206,9 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 
 Here are some example WMS:
 
-Germany demo 
+Germany workshop demo 
 
-http://wms.wheregroup.com/cgi-bin/germany.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
 
 WhereGroup OSM WMS
 
