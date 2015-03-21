@@ -37,6 +37,7 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: udig-devel list
+:Reviewer: Cameron Shorter, LISAsoft
 
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %
