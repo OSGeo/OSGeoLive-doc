@@ -40,6 +40,9 @@ Core Features
 * Easily create web mapping interfaces using template applications  
 
   * add/remove/customize applications
+* Create applications with digitze functionality
+* Create mobile Applications
+* Print high-quality maps using your own PDF templates.
 
 * Upload and share remote OGC WMS (Capabilities caching) 
 
@@ -50,7 +53,6 @@ Core Features
 * Create users and groups, share and grant access to services and modules
 * Restrict user access with the OWS security proxy module via trusted servers
 * Encrypted protocols monitoring and status notification and auto-update service for remote OGC services 
-* Print high-quality maps using your own PDF templates.
 * ... and more!
 
 Implemented Standards

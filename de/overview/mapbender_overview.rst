@@ -42,6 +42,9 @@ Kernfunktionen
 * leichtes Erzeugen von Web Mapping Anwendungen über Anwendungsvorlagen
 
   * hinzufügen/entfernen/anpassen Anwendungen
+* Erzeugung von Anwendungen mit Digitalisierfunktionalität
+* Erzeugung von mobilen Anwendungen
+* Hochqualitativer Druck unter Verwendung eigener PDF Vorlagen.
 
 * Laden und Verwalten von OGC WMS (Capabilities caching) 
 
@@ -53,7 +56,6 @@ Kernfunktionen
 * Benutzerverwaltung: Anlegen von Benutzern und Gruppen. Dienste und modulbasierte Rechtezuweisung
 * Beschränketen Benutzerzugriff mit dem OWS Security Proxy Modul über gesicherte Dienste
 * Monitoring und Status Benachrichtigung sowie auto-update Service für OGC Services
-* Hochqualitativer Druck unter Verwendung eigener PDF Vorlagen.
 * ... und mehr!
 
 Unterstützte Standards
