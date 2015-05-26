@@ -132,7 +132,7 @@ css:
 
 licenses.csv :
 	echo `pwd`
-	../bin/extract_licenses.sh > licenses.csv
+	bin/extract_licenses.sh > licenses.csv
 
 fix_index:
 	cp index.template index.rst
@@ -141,7 +141,7 @@ presentation:
 	for LANG in en $(TRANSLATIONS) ; do \
 	  mkdir -p $(BUILDDIR)/html/$$LANG; \
 	  if [ -d $$LANG/presentation ] ; then \
-	    ../bin/make_presentation.sh $$LANG/presentation $(BUILDDIR)/html/$$LANG/presentation ; \
+	    bin/make_presentation.sh $$LANG/presentation $(BUILDDIR)/html/$$LANG/presentation ; \
 	  else  \
 	    rm -f $(BUILDDIR)/html/$$LANG/presentation; \
 	    ln -s ../en/presentation $(BUILDDIR)/html/$$LANG/presentation; \
