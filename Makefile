@@ -107,7 +107,7 @@ index2: sphinxbuild
 	  done; \
 	done
 
-win_installer_links: sphinxbuild 
+win_installer_links: sphinxbuild
 	# Create symbolic link to windows and mac installer directories,
 	# otherwise remove hyperlink to the directory in index.html
 	if [ -e /cdrom/WindowsInstallers ] ; then \
@@ -132,16 +132,16 @@ css:
 
 licenses.csv :
 	echo `pwd`
-	../bin/extract_licenses.sh > licenses.csv
+	bin/extract_licenses.sh > licenses.csv
 
 fix_index:
 	cp index.template index.rst
 
-presentation: 
+presentation:
 	for LANG in en $(TRANSLATIONS) ; do \
 	  mkdir -p $(BUILDDIR)/html/$$LANG; \
 	  if [ -d $$LANG/presentation ] ; then \
-	    ../bin/make_presentation.sh $$LANG/presentation $(BUILDDIR)/html/$$LANG/presentation ; \
+	    bin/make_presentation.sh $$LANG/presentation $(BUILDDIR)/html/$$LANG/presentation ; \
 	  else  \
 	    rm -f $(BUILDDIR)/html/$$LANG/presentation; \
 	    ln -s ../en/presentation $(BUILDDIR)/html/$$LANG/presentation; \
@@ -209,7 +209,7 @@ fix_index_pdf:
 	for LANG in $(PDF_LANG) ; do \
 		cat index_pdf.template | sed "s/LANG_PDF/$$LANG/#"  > index.rst ; \
 	done
-	
+
 latex: fix_index_pdf licenses.csv link_to_en_docs_pdf
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo
@@ -238,3 +238,4 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
+
