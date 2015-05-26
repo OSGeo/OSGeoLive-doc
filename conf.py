@@ -22,7 +22,7 @@ execfile('settings.py')
 
 # -- General configuration -----------------------------------------------------
 
-fileIN = open("../VERSION.txt", "r")
+fileIN = open("VERSION.txt", "r")
 version = fileIN.readline()
 fileIN.close()
 
