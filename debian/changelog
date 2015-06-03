@@ -1,0 +1,5 @@
+osgeolive-docs (9.0~prerelease-20150603) trusty; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Johan Van de Wauw <johan.vandewauw@gmail.com>  Thu, 17 Jul 2014 11:20:46 +0200
