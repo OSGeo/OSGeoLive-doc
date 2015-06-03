@@ -2,12 +2,14 @@ Source: osgeolive-docs
 Section: doc
 Priority: optional
 Maintainer: Johan Van de Wauw <johan.vandewauw@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), python-sphinx
-Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 8.0.0), 
+               python-sphinx,
+Standards-Version: 3.9.6
 Homepage: http://live.osgeo.org
 
 Package: osgeolive-docs
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
+Depends: ${misc:Depends},
+         ${sphinxdoc:Depends},
+Description: Documentation for the OSGeo Live DVD
  <insert long description, indented with spaces>
