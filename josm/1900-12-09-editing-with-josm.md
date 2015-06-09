@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Editing Field Data
-permalink: /en/beginner/editing-with-josm/
+permalink: /en/josm/editing-with-josm/
 lang: en
-category: beginner
+category: josm
 ---
 
 Editing Field Data
