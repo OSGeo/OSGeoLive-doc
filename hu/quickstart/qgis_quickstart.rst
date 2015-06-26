@@ -97,11 +97,15 @@ Próbáljuk meg a térkép stílusát módosítani.
 
 Hozzunk létre egy új QGIS projektet és tölsük be saját adatainkat.
 
-#. Válassza a menüből :menuselection:`Project --> New`. A program megkérdezi, hogy mentse-e az előző projektet, megnyomhatja a :guilabel:`Close without Saving` gombot.
+#. Válassza a menüből :menuselection:`Project --> New`. A program megkérdezi,
+   hogy mentse-e az előző projektet, megnyomhatja a 
+   :guilabel:`Close without Saving` gombot.
 
-#. Kattinson a menüben a :menuselection:`Layer --> Add Vector Layer...` lehetőségre.
+#. Kattinson a menüben a :menuselection:`Layer --> Add Vector Layer...`
+   lehetőségre.
 
-#. Tallózzon a :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp` fájlhoz.
+#. Tallózzon a
+   :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp` fájlhoz.
 
 #. Nyomja meg a :guilabel:`Open` gombot, majd ismét az :guilabel:`Open` gombot.
 
