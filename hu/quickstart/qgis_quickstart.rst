@@ -37,15 +37,18 @@ QGIS projekt szerkesztése
 ================================================================================
 
 Kezdjünk egy létező QGIS projekt megnyitásával és kapcsoljunk be és ki
-rétegeket
+rétegeket.
 
      .. image:: ../../images/screenshots/1024x768/qgis_project_open.png
        :scale: 70 %
        :alt: Egy QGIS projekt megnyitása
 
-#. Indítsa el a QGIS-t a menüből :menuselection:`Geospatial --> Desktop GIS --> QGIS` és válassza a QGIS menüből :menuselection:`Project --> Open`.
+#. Indítsa el a QGIS-t a menüből
+   :menuselection:`Geospatial --> Desktop GIS --> QGIS` és válassza a QGIS
+   menüből a :menuselection:`Project --> Open` opciót.
 
-#. Válassza a :file:`QGIS-NaturalEarth-Example.qgs` és kattintson az :guilabel:`Open` gombra.
+#. Válassza a :file:`QGIS-NaturalEarth-Example.qgs` és kattintson az
+   :guilabel:`Open` gombra.
 
    * Egy világtérképnek kell megjelennie.
 
@@ -57,8 +60,8 @@ rétegeket
         :scale: 70 %
         :alt: Térkép a QGIS-ben
 
-#. Próbálja meg a rétegeket fel és le húzni a jelmagyarázatban és figyelje meg
-   hogyan változik az alatta levő rétegek láthatósága.
+#. Próbálja meg felfelé és lefelé húzni a rétegeket a jelmagyarázatban és
+   figyelje meg hogyan változik az alatta levő rétegek láthatósága.
 
 #. Vessen egy pillantást az eszközökre az eszköztárban. Próbálja ki az
    eltolást, a nagyítást és térjen vissza ismét a teljes terjedelem
@@ -66,7 +69,7 @@ rétegeket
    találja. Ha zsúfoltnak tűnnek az eszközsorok más helyre húzhatja és
    ki illetve bekapcsolhatja jobb egérgomb kattintással.
    Az egérgörgővel is nagyíthat és kicsinyíthet, mozgathatja a térképet
-   a közérpső egérgombbal megragadva.
+   a középső egérgombbal megragadva.
 
 Réteg stílus beállítás
 ================================================================================
@@ -79,7 +82,6 @@ Próbáljuk meg a térkép stílusát módosítani.
 
 #. Nagyítson bele egy kicsit a térképbe, majd kattinson duplán a
    ``ne_10m_rivers_lake_centerlines`` rétegre a réteg fában.
-   the Layers tree.
 
 #. A `Layer Properties` párbeszédablakban a `Style` fülön kattintson a 
    `Color` mezőre és válasszon egy másik színt, például sárgát.
@@ -95,7 +97,7 @@ Próbáljuk meg a térkép stílusát módosítani.
 Új QGIS projekt létrehozása
 ================================================================================
 
-Hozzunk létre egy új QGIS projektet és tölsük be saját adatainkat.
+Hozzunk létre egy új QGIS projektet és töltsük be saját adatainkat.
 
 #. Válassza a menüből :menuselection:`Project --> New`. A program megkérdezi,
    hogy mentse-e az előző projektet, megnyomhatja a 
@@ -140,7 +142,7 @@ Töltsünk be egy réteget a Postgres adatbázisból.
 #. Válassza a menüből :menuselection:`Layer --> Add PostGIS Layers...`.
 
    * A Natural Earth és az OpenStreetMap PostGIS adatbázisok érhetők el;
-     a Natural Earth adatbázis fogjuk használni.
+     a Natural Earth adatbázist fogjuk használni.
      Ha egy másik adatbázishoz akar kapcsolódni, akkor nyomja meg a
      :guilabel:`New` gombot és töltse ki az adatbázis paramétereit.
 
@@ -180,10 +182,10 @@ Töltsünk be egy réteget a Postgres adatbázisból.
 GRASS eszköztár használata
 ================================================================================
 
-Már sok modult készítettek a QGIS-hez, melyek az alap funcionalitást 
-bővítik. A GRASS modul az egyik leghasznosabb ezek közül, mely a 
+A QGIS alap funcionalitását bővítendő már számos modult készítettek. 
+A GRASS modul az egyik leghasznosabb ezek közül, mely a 
 :doc:`GRASS GIS <../overview/grass_overview>`-ben százával rendelkezésre álló 
-térinformatikai feldolgozó modulokat teszi elérhetővé.
+térinformatikai feldolgozó modult teszi elérhetővé.
 
 #. Induljunk tiszta lappal :menuselection:`Project --> New`.
 
@@ -194,9 +196,9 @@ térinformatikai feldolgozó modulokat teszi elérhetővé.
 
 #. Válassza a :menuselection:`Plugins --> Manage and Install Plugins...`, 
    majd görgesse a listát lefelé vagy gépelje be a ``grass`` szót a kereső
-   mezőbe, és válassza ki a `GRASS` modult.
+   mezőbe, és kapcsolja be a `GRASS` modult.
 
-   * Vegye észre, hogy egy új GRASS ikon került be az eszközsorba és
+   * Vegye észre, hogy egy új GRASS ikon jelenik meg az eszközsorban és
      egy új `GRASS` menüpont került a `Plugins` menübe.
 
 #. Kapcsolódjon egy létező GRASS munkaterülethez:
@@ -205,10 +207,10 @@ térinformatikai feldolgozó modulokat teszi elérhetővé.
    * A GRASS GIS adatbázist (Gisdbase) a lemezen már beállítottuk a
      `/home/user/grassdata` könyvtárra.
 
-#. A központi GRASS adatbázisban több mint adathalmaz található. A Spearfish
-   munkaterületet éss ezen belül a  ``user1`` térképhalmazt fogjuk használni.
+#. A központi GRASS adatbázisban több minta adathalmaz található. A Spearfish
+   munkaterületet és ezen belül a  ``user1`` térképhalmazt fogjuk használni.
    Válassza a `spearfish60` munkaterületet és a `user1` térképhalmazt, majd
-   kattintson az :guilabel:`Ok` gonbra.
+   kattintson az :guilabel:`Ok` gombra.
 
 #. Egy térkép QGIS réteglistához adásához válassza a 
    :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`-t a menüből.
@@ -301,7 +303,7 @@ Ez úgy működik mint egy szabványosított felület számos más eszközkészl
 
    .. image:: ../../images/screenshots/800x600/qgis_toolbox.png
       :scale: 70 %
-      :alt: Processing Toolbox
+      :alt: Feldolgozás eszköztár
 
    * Lehet, hogy engedélyeznie kell a feldolgozás szolgáltatót, hogy használni 
      tudja. A következő képernyő kép a GRASS GIS 7 támogatás bekapcsolását 
@@ -338,7 +340,7 @@ OpenStreetMap adatok importálása
      :alt:  Az OpenStreetMap modul
      :align: right
 
-#. Válassza ki a :menuselection:`Vector --> OpenStreetMap --> Import toplogy from XML` menüpontot.
+#. Válassza ki a :menuselection:`Vector --> OpenStreetMap --> Import topology from XML` menüpontot.
 
 #. Kattintson a "..." gombra az "Input XML file (.osm)" mellett és válassza ki
    a `feature_city_CBD.osm` fájlt, amit az előbb másolt a saját könyvtárába.
@@ -348,7 +350,7 @@ OpenStreetMap adatok importálása
    SpatialLite DB-hez
 
 #. Ezután a pontokat, vonalakat, felületeket kell kinyernünk és mindhárom
-   új réteghez topológiát kell hozzáadnunk. Ennek elérésére háromszor kell 
+   új réteghez topológiát kell hozzáadnunk. Ennek eléréséhez háromszor kell 
    futtatnunk az eszközt. Válassza a 
    :menuselection:`Vector --> OpenStreetMap --> Export toplogy to SpatiaLite`
    menüpontot és használja a "..." gombot az újonnal létrehozott 
@@ -364,8 +366,8 @@ OpenStreetMap adatok importálása
    típust módosította a pontokról törvonalra illetve felületre.
 
 
-#. Ha már betöltötte a topológiát, akkor finomíthatja a SpatiaLite réteget,
-   csak bizonyos elemeket lekérdezve abból. Válassza a 
+#. Ha már betöltötte a topológiát, akkor finomíthatja a SpatiaLite réteg
+   tartalmát, csak bizonyos elemeket lekérdezve abból. Válassza a 
    :menuselection:`Layer --> Add SpatiaLite Layer...` opciót a menüből és a
    `Databases` listából válassza a `feature_city_CBD@...`-t és kattintson a
    a :guilabel:`Connect` gombra. Kattintson duplán a 
@@ -375,11 +377,11 @@ OpenStreetMap adatok importálása
    listában duplán kattintson a `motorway`-re. Kattintson a :guilabel:`Test`
    gombra az eredmény ellenőrzésére és végül az  :guilabel:`Ok`-ra kattintson.
    Visszatérve az `Add SpatiaLite Table` ablakba kattintson az :guilabel:`Add` 
-   gombra, hogy a megjelenítést csak az autopályákra korlátozza. Megismételheti
-   ezt az eljárást új rétegekre a különböző úttípusok eltérő szélességgel és
-   és stílussal megjelenítéséhez.
+   gombra, hogy a megjelenítést csak az autópályákra korlátozza. Megismételheti
+   ezt az eljárást új rétegekre, hogy a különböző úttípusok eltérő szélességgel
+   és stílussal jelenjenek meg.
 
-#. Most felfedezheti ezt a gazdat adathalmazt. Használja az ``i`` információ
+#. Most felfedezheti ezt a gazdag adathalmazt. Használja az ``i`` információ
    gombot a QGIS eszköztárból, az egyes térképi elemek adatainak lekérdezéséhez.
 
 Kipróbálandó dolgok
