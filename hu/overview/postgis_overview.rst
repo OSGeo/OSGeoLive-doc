@@ -69,8 +69,8 @@ használt nyílt forráskódú táradatbázis. A szervezetek széles köre haszn
 világszerte, a kockázat kerülő kormányzati intézmények és terabájtos adatokból
 milliónyi internetes lekérdezést kiszolgáló cégek is.
 
-Az adatbázis adminisztráció elérhető a kozvetlenül a gépről vagy webes
-kapcsolaton keresztül, pgAdminnal, phpPgAdminnal vagy mással.
+Az adatbázis adminisztráció elérhető közvetlenül a gépről vagy webes
+kapcsolaton keresztül, pgAdmin, phpPgAdmin vagy más programmal.
 Adatok importálása és exportálása parancssori eszközökkel (shp2pgsql, pgsql2shp,
 ogr2ogr, dxf2postgis) vagy asztali és webes GIS kliensekkel valósíthtó meg.
 Ezek a kliensek képesek megjeleníteni és manipulálni a PostGIS téradatokat
@@ -92,7 +92,7 @@ tartalmazó táblákat.
 Alapfunkciók
 --------------------------------------------------------------------------------
 
-* Térbeli függvének százai
+* Térbeli függvények százai
   
   * Övezet, unió, átfedésvizsgálat, távolság és még továbbiak
 
