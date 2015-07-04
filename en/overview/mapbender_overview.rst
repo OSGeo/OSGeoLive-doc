@@ -43,6 +43,7 @@ Core Features
 * Create applications with digitze functionality
 * Create mobile Applications
 * Print high-quality maps using your own PDF templates.
+* Digitizing via SQL
 
 * Upload and share remote OGC WMS (Capabilities caching) 
 
