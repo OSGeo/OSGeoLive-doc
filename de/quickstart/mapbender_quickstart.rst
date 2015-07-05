@@ -22,9 +22,13 @@ Mapbender3 ist die nächste Version in der Mapbender Serie. Es wurde unter Verwe
 Auf der Clientseite finden Sie OpenLayers und jQuery (UI) verbunden über MapQuery.
 
 Mit dieser neuen Code-Grundlage setzen wir die Mapbender Idee eines Geoportal Frameworks fort.
-  * Anwendungen können direkt im Browser erstellt und konfiguriert werden.
+  * Anwendungen können direkt im Browser erstellt, konfiguriert und gestylt werden.
   * Dienste wie WMS können in einem Service Repository verwaltet und mit Anwendungen verbunden werden. 
   * Das Rechtemanagement ist sowohl für einzelne Benutzer als auch Gruppen einfach zu verwalten, egal ob sie in einer Datenbank oder über LDAP gespeichert werden.
+  * Suchen (SQL oder Solr) können konfiguriert werden.
+  * Anwendungen zur Digitalisierung können aufgebaut werden
+  * Ein Mobiles Template kann für das Erstellen von Anwendung für Smartphones und Tablets verwendet werden
+
 
 Sie brauchen nichts weiter als einen Standard Webbrowser für diesen Schnellstart.
 
@@ -219,10 +223,7 @@ http://osm-demo.wheregroup.com/service
 
 Omniscale OSM WMS (siehe auch http://osm.omniscale.de/)
 http://osm.omniscale.net/proxy/service?
- 
 
-.. NOCH NICHT IMPLEMENTIERT
-  .. tip:: Erzeugen Sie eine Containeranwendung und laden Sie jeden WMS nur einmal hier hinein. Sie können die WMS aus diesem Container in andere Anwendungen übernehmen. Wenn Sie diesen WMS aktualisieren werden mögliche Änderungen in allen Anwendungen übernommen, die diesen WMS beinhalten. Sie können einen WMS einfach von einer Anwendung zu einer anderen über den Menüeintrag *Link WMS to application* kopieren.
 
 
 Fügen Sie Dienste zur Anwendung hinzu
