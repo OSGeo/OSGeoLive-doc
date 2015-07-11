@@ -24,8 +24,8 @@ On the client-side expect to find OpenLayers and jQuery (UI) nicely glued togeth
 With this new code base we will continue the Mapbender idea of being a Geoportal Framework:
   * Applications can be setup, configured and styled right from within the browser
   * Services like WMS can be managed inside a service repository and linked to applications
-  * Rights management are easy to maintain, for individual users and groups, whether you store them inside the database or in an LDAP.
-  * Search modules (SQL oder Solr) can be configured
+  * Rights management is easy to maintain, for individual users and groups, whether you store them inside the database or in an LDAP.
+  * Search modules (SQL or Solr) can be configured
   * Applications for digitaliszation can be setup.
   * Mobile template can be used to provide applications for smartphones and tablets
 
