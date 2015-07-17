@@ -1,7 +1,7 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Reviewer: Cameron Shorter, LISAsoft
 :Product: MapWindow GIS Lite
-:Version: osgeo-live8.5
+:Version: osgeo-live9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
@@ -23,14 +23,14 @@ It includes powerful analytical functions through integration with GEOS and GDAL
 MapWindow is easy to incorporate into MS-Office based products such as MS-Excel 
 and MS-Access, as well as programs written in C++, C#, VB.NET and Delphi, 
 as MapWindow is based upon an ActiveX control called MapWinGIS.
-MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.3. 
+MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.5. 
 
 The MapWindow Lite version installed on OSGeo-Live doesn't include all MapWindow Desktop functionality (such as 
 toolbox, plug-ins, fully functional shapefile editor, or support for PostGIS). 
 
 .. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. 
 Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be 
-downloaded from http://mapwindow4.codeplex.com/releases.
+downloaded from https://mapwindow4.codeplex.com/releases/view/542097.
    
 .. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
@@ -59,7 +59,7 @@ Core Features
 * ActiveX control:
 
     | Uses an ActiveX control written in C++. This control can be used in custom 
-    | applications written in languages like C#, C++, vB.NET and Delphi,  
+    | applications written in languages like C#, C++, VB.NET and Delphi,  
     | and can be used in MS-Office products like MS-Access and MS-Excel.
 
 Implemented Standards
@@ -78,7 +78,7 @@ Details
 
 **Licence:** MPLv1.1
 
-**Software Version:** MapWindowLite 4.9.3
+**Software Version:** MapWindowLite 4.9.5
 
 **Supported Platforms:** Windows (XP or higher)
 
@@ -86,7 +86,7 @@ Details
 
 **Community Support:** http://www.mapwindow.org/documentation/mapwingis4.9/getting_started.html
 
-**Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.org/documentation/mapwingis4.9/MapWindow49.html
+**Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.org/documentation/mapwindow5/support.html
 
 
 Quickstart
