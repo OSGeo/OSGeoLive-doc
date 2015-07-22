@@ -45,14 +45,19 @@ Features
   service. Background information is provided in a `blog post 
   <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_ 
   and in the `wiki 
-  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ 
-  .
+  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
 * **Air Quality Data e-Reporting Extension**: Starting with version 4.3.0 is an 
   extension available that allows to provide for the Air Quality Data Flows E1a,
   E1b and E2a compliant data (the instance on OSGeo-Live is not configured 
   accordingly). In 52°North Wiki the `installation and configuration
   <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ 
   is documented.
+* **RESTful API for numeric Timeseries**: Starting with Version 4.1.1. is an
+  bundle version available, that directly brings the 
+  `RESTful API <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ .
+  Hence, numeric timeseries can be requested in a RESTful way in JSON encoded 
+  requests. More details incl. documentation can be found in the
+  `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
 * **Read more**: The track of the `details of the implemented functionalities 
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_ 
   can be found in the 52°North Wiki.

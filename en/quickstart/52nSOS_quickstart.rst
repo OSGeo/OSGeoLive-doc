@@ -1,6 +1,6 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
 :Reviewer: 
-:Version: osgeo-live8.0
+:Version: osgeo-live9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -22,6 +22,7 @@ This Quick Start describes how to:
   * Query details about an Observation from the SOS.
   * Use a lightweight visualisation tool delivered together with the SOS to 
     explore the available data.
+  * Explore REST API endpoint for client developers.
 
 .. contents:: Contents
   
@@ -102,7 +103,56 @@ Things to Try
   :alt: screenshot of 52°North SOS client - view client with time series data
   :align: center
   
-**Fig. 3**: 52°North SOS client - view client with time series data
+**Fig. 3**: 52°North SOS client - view client with time series data.
+
+* Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):
+
+.. code-block:: js
+
+    [
+        {
+            id: "services",
+            label: "Service Provider",
+            description: "A service provider offers timeseries data."
+        },
+        {
+            id: "stations",
+            label: "Station",
+            description: "A station is the place where measurement takes place."
+        },
+        {
+            id: "timeseries",
+            label: "Timeseries",
+            description: "Represents a sequence of data values measured over time."
+        },
+        {
+            id: "categories",
+            label: "Category",
+            description: "A category group available timeseries."
+        },
+        {
+            id: "offerings",
+            label: "Offering",
+            description: "An organizing unit to filter resources."
+        },
+        {
+            id: "features",
+            label: "Feature",
+            description: "An organizing unit to filter resources."
+        },
+        {
+            id: "procedures",
+            label: "Procedure",
+            description: "An organizing unit to filter resources."
+        },
+        {
+            id: "phenomena",
+            label: "Phenomenon",
+            description: "An organizing unit to filter resources."
+        }
+    ]
+    
+**Listing 2:** Output of REST API endpoint.
 
 What Next?
 ================================================================================

@@ -52,6 +52,12 @@ Funktionalität
   `Installation und Konfiguration
   <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ 
   dokumentiert.
+* **REST-Schnittstelle für numerische Zeitreihen**: Ab Version 4.1.1. steht eine
+  Bundle-Version des SOS zur Verfügung, die direkt die 
+  `REST Schnittstelle <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ mitliefert.
+  Dadurch können numerische Zeitreihen über eine REST basierte Schnittstelle im 
+  JSON-Format abgerufen werden. Mehr Details inkl. Dokumentation in der 
+  `SOS-Web-Anwendung <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
 * **Weitere Informationen**: Die aktuelle Übersicht über die `Details der implementierten Funktionalitäten
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
   (in englisch) ist im 52°North Wiki zu finden.
@@ -149,21 +155,21 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** SOS |version-52nSOS|
+**Software-Version:** SOS |version-52nSOS|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
 **Unterstützte DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL-Server 2012
 
-**API Schnittstellen:** Java
+**API-Schnittstellen:** Java
 
-**Kommerzieller Support:** http://52north.org/
+**Kommerzielle Unterstützung:** http://52north.org/
 
-**Community Support:** http://sensorweb.forum.52north.org/
+**Community-Unterstützung:** http://sensorweb.forum.52north.org/
 
-**Community Webseite:** http://52north.org/communities/sensorweb/
+**Community-Webseite:** http://52north.org/communities/sensorweb/
 
-**Andere 52°North Projekte auf OSGeo Live:** :doc:`WPS <./52nWPS_overview>`
+**Andere 52°North Projekte auf OSGeo-Live:** :doc:`WPS <./52nWPS_overview>`
 
 Quickstart
 -------------------------------------------------------------------------------
