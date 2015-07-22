@@ -5,7 +5,7 @@
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :scale: 100 %
-  :alt: 52°North - exploring horizons - logo
+  :alt: 52°North - exploring horizons
   :target: http://52north.org/sos
   :align: right
 
@@ -37,7 +37,7 @@ Erste Schritte
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_start.png
   :scale: 100 %
-  :alt: Bildschirmfoto der 52°North SOS-Anwendung-Willkommens-Seite
+  :alt: 52°North SOS-Anwendung - Willkommens-Seite
   :align: center
 
 **Abb. 1**: 52°North SOS Anwendung - Willkommens-Seite.
@@ -49,7 +49,7 @@ Erste Schritte
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
-  :alt: Bildschirmfoto der 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
+  :alt: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
   :align: center
   
 **Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage.
@@ -102,7 +102,7 @@ Ausprobieren
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 100 %
-  :alt: 52°North SOS Anwendung - View-Client mit Zeitreihendaten
+  :alt: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten
   :align: center
   
 **Abb. 3**: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten.
@@ -184,4 +184,4 @@ Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl,
   user@osgeolive:~$ sudo service tomcat7 start
   * Starting Tomcat servlet engine tomcat7           [ OK ] <-- Tomcat läuft nun
   
-**Listing 2:** Befehle zum Abfragen des Status und zum Starten des Tomcat-Dienstes (Passwort für sudo: user)
+**Listing 3:** Befehle zum Abfragen des Status und zum Starten des Tomcat-Dienstes (Passwort für sudo: user).

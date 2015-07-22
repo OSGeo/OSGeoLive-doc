@@ -36,10 +36,10 @@ Getting Started
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_start.png
   :scale: 100 %
-  :alt: screenshot of 52°North SOS client welcome page
+  :alt: 52°North SOS client welcome page
   :align: center
 
-**Fig. 1**: 52°North SOS client - welcome page
+**Fig. 1**: 52°North SOS client - welcome page.
 
 3. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,
    (see Fiq. 2) you can craft appropriate queries. Again, this is made easier 
@@ -49,10 +49,10 @@ Getting Started
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
-  :alt: screenshot of 52°North SOS client - test client with GetCapabilities request
+  :alt: 52°North SOS client - test client with GetCapabilities request
   :align: center
   
-**Fig. 2**: 52°North SOS client - test client with GetCapabilities request
+**Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
 
 4. To get for each time series the available observation data within the time 
    interval from 2015-05-01T00:30:00.000+00:00 to 2015-05-31T23:00:00.000+00:00
@@ -87,7 +87,7 @@ Getting Started
       </env:Body>
   </env:Envelope>
   
-**Listing 1:** Request of observations
+**Listing 1:** Request of observations.
 
 Things to Try
 ===============================================================================
@@ -100,10 +100,10 @@ Things to Try
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 100 %
-  :alt: screenshot of 52°North SOS client - view client with time series data
+  :alt: 52°North SOS client - JavaScript client with time series data
   :align: center
   
-**Fig. 3**: 52°North SOS client - view client with time series data.
+**Fig. 3**: 52°North SOS client - JavaScript client with time series data.
 
 * Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):
 
@@ -173,7 +173,7 @@ projects, organizations, and persons. More details can be found in the
 `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
 
 When the SOS is not available, please check if the tomcat servlet engine is 
-running using the following command:
+running using the following commands:
 
 ::
 
@@ -184,4 +184,4 @@ running using the following command:
   user@osgeolive:~$ sudo service tomcat6 start
   * Starting Tomcat servlet engine tomcat6           [ OK ] <-- Tomcat is running, now
   
-**Listing 1:** Tomcat Status and Start (password for sudo: user)
+**Listing 3:** Tomcat Status and Start (password for sudo: user).

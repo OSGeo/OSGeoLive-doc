@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
-  :alt: project logo
+  :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
 
@@ -22,7 +22,7 @@ Station zur Messung der Luftqualität sein.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
-  :alt: screenshot of 52°North SOS and JavaScript client
+  :alt: 52°North SOS and JavaScript client
   :align: right
 
 Funktionalität
