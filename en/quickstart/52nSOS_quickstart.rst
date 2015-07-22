@@ -40,7 +40,7 @@ Getting Started
 
 **Fig. 1**: 52°North SOS client - welcome page
 
-3. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_,
+3. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,
    (see Fiq. 2) you can craft appropriate queries. Again, this is made easier 
    by selecting sample queries from the test client pull down list. Using the 
    information from the capabilities, you can adjust the available example 

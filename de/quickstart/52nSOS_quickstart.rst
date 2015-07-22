@@ -1,6 +1,6 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
 :Reviewer: 
-:Version: osgeo-live8.0
+:Version: osgeo-live9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -42,7 +42,7 @@ Erste Schritte
 **Abb. 1**: 52°North SOS Anwendung - Willkommens-Seite
 
 3. Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des
-   52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=1.0.0>`_.
+   52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_.
    Mit Hilfe der Inhalte des Capabilities-Dokuments (siehe Abb. 2) können die 
    Beispielanfragen aus der Beispielliste individuell angepasst werden.
 
