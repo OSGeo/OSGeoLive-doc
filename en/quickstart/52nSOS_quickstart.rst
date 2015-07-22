@@ -60,12 +60,13 @@ Getting Started
    "2.0.0" --> binding "/soap" --> operation "GetObservation" in the `test 
    client <http://localhost:8080/52nSOS/client>`_ in the field request:
    
-::
+.. code-block:: xml
 
   <?xml version="1.0" encoding="UTF-8"?>
   <env:Envelope
       xmlns:env="http://www.w3.org/2003/05/soap-envelope"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2003/05/soap-envelope http://www.w3.org/2003/05/soap-envelope/soap-envelope.xsd">
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/2003/05/soap-envelope http://www.w3.org/2003/05/soap-envelope/soap-envelope.xsd">
       <env:Body>
           <sos:GetObservation service="SOS" version="2.0.0"
               xmlns:sos="http://www.opengis.net/sos/2.0"
@@ -73,7 +74,8 @@ Getting Started
               xmlns:gml="http://www.opengis.net/gml/3.2"
               xmlns:swe="http://www.opengis.net/swe/2.0"
               xmlns:xlink="http://www.w3.org/1999/xlink"
-              xmlns:swes="http://www.opengis.net/swes/2.0" xsi:schemaLocation="http://www.opengis.net/sos/2.0 http://schemas.opengis.net/sos/2.0/sos.xsd">
+              xmlns:swes="http://www.opengis.net/swes/2.0"
+              xsi:schemaLocation="http://www.opengis.net/sos/2.0 http://schemas.opengis.net/sos/2.0/sos.xsd">
               <sos:temporalFilter>
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
