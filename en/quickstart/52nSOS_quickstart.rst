@@ -98,7 +98,7 @@ Things to Try
 * Try tweaking some of these queries to get different information.
 * Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ using
    username "user" and password "user".
-* Try the `View Client <http://localhost:8080/52nSOS/viewclient>`_ (see Fiq. 4).
+* Try the `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (see Fiq. 3).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 100 %
@@ -179,11 +179,11 @@ running using the following commands:
 
 ::
 
-  user@osgeolive:~$ sudo service tomcat6 status
+  user@osgeolive:~$ sudo service tomcat7 status
   * Tomcat servlet engine is running with pid 1234          <-- Tomcat is running
   [...]
   * Tomcat servlet engine is not running.                   <-- Tomcat not runing, so please start:
-  user@osgeolive:~$ sudo service tomcat6 start
-  * Starting Tomcat servlet engine tomcat6           [ OK ] <-- Tomcat is running, now
+  user@osgeolive:~$ sudo service tomcat7 start
+  * Starting Tomcat servlet engine tomcat7           [ OK ] <-- Tomcat is running, now
   
 **Listing 3:** Tomcat Status and Start (password for sudo: user).
