@@ -54,7 +54,7 @@ Erste Schritte
 **Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
 
 4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von 
-   1.1.2010 00:00 bis 1:59 in der Zeitzone +1 abzufragen, muss im `Test Client 
+   1.5.2015 00:30 bis 23:00 in der Zeitzone +0 abzufragen, muss im `Test Client 
    <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" --> 
    Version "2.0.0" --> Binding "/soap" --> Operation "GetObservation" folgende 
    Abfrage im Feld "Request" stehen:
@@ -77,8 +77,8 @@ Erste Schritte
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2010-01-01T00:00:00.000+01:00</gml:beginPosition>
-                          <gml:endPosition>2010-01-01T01:59:00.000+01:00</gml:endPosition>
+                          <gml:beginPosition>2015-05-01T00:30:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2015-05-31T23:00:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>
