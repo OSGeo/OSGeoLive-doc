@@ -71,6 +71,8 @@ Details
 
 **Commercial Support:** http://52north.org
 
+**Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`
+
 
 Quickstart
 --------------------------------------------------------------------------------

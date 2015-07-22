@@ -70,6 +70,8 @@ Details
 
 **Kommerzieller Support:** http://52north.org
 
+**Andere 52°North-Projekte auf OSGeo-Live:** :doc:`SOS <./52nSOS_overview>`
+
 
 Quickstart
 --------------------------------------------------------------------------------
