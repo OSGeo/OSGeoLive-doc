@@ -12,6 +12,7 @@
 52°North SOS
 ===============================================================================
 
+
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -25,16 +26,17 @@ Station zur Messung der Luftqualität sein.
   :alt: 52°North SOS and JavaScript client
   :align: right
 
+
 Funktionalität
 -------------------------------------------------------------------------------
 
-* **Browser-Anwendung**: Der SOS wird zusammen mit einem Browser-basierten 
+* **Browser-Anwendung**: Der SOS wird zusammen mit einer Browser-basierten 
   Anwendung ausgeliefert. Diese ermöglicht die Administration und Konfiguration
   der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen; 
   entsprechende Beispiel-Anfragen sind enthalten.
 * **JavaScript-Anwendung**: Der SOS beinhaltet eine JavaScript-Anwendung
-  zur Darstellung von Zeitreihen-Daten. Mit dessen Hilfe können numerische 
-  Zeitreihen ohne zusätzliche Software visualisiert werden.
+  zur Darstellung von Zeitreihen-Daten. Mit dessen Hilfe können Zeitreihen ohne 
+  zusätzliche Software visualisiert werden.
 * **Spezifikation**: Der vorliegende 52°North SOS implementiert die aktuelle Spezifikationsversion
   (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die 
   beiden Standard-Versionen die jeweils implementierten Operationen aufgelistet.
@@ -52,15 +54,16 @@ Funktionalität
   `Installation und Konfiguration
   <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ 
   dokumentiert.
-* **REST-Schnittstelle für numerische Zeitreihen**: Ab Version 4.1.1. steht eine
+* **REST-Schnittstelle für Zeitreihen**: Ab Version 4.1.1. steht eine
   Bundle-Version des SOS zur Verfügung, die direkt die 
-  `REST Schnittstelle <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ mitliefert.
-  Dadurch können numerische Zeitreihen über eine REST basierte Schnittstelle im 
+  `REST Schnittstelle <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ 
+  mitliefert. Dadurch können Zeitreihen über eine REST basierte Schnittstelle im 
   JSON-Format abgerufen werden. Mehr Details inkl. Dokumentation in der 
   `SOS-Web-Anwendung <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
 * **Weitere Informationen**: Die aktuelle Übersicht über die `Details der implementierten Funktionalitäten
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
   (in englisch) ist im 52°North Wiki zu finden.
+
 
 OGC SOS 2.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -107,8 +110,9 @@ OGC SOS 2.0.0
 **Operation “Data Availability”**:
 
 * GetDataAvailability, zum Abfragen von Datenverfügbarkeit für verschiedene 
-  Konstellationen von Abfrageparametern (noch kein Bestandteil der offiziellen 
-  SOS 2.0 Spezifikation).
+  Konstellationen von Abfrageparametern (spezifiziert in `SOS 2.0 Hydrology 
+  Profile - OGC Best Practice 
+  <http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_).
 
 **Operation “Delete Observation”**:
 
@@ -122,6 +126,7 @@ Einige Operationen erlauben die Anwendungen folgender Filter-Operatoren, soweit
 * Räumlicher Filter: BBOX, mit einem Begrenzungsrahmen.
 * Zeitlicher Filter: During, mit einem Zeitraum.
 * Zeitlicher Filter: TEquals, mit einem Zeitpunkt.
+
 
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -148,6 +153,7 @@ Zugehörige Standards
 * :doc:`Geography Markup Language (GML) <../standards/gml_overview>`
 * :doc:`Sensor Model Language (SensorML) <../standards/sensorml_overview>`
 
+
 Details
 -------------------------------------------------------------------------------
 
@@ -170,6 +176,7 @@ Details
 **Community-Webseite:** http://52north.org/communities/sensorweb/
 
 **Andere 52°North-Projekte auf OSGeo-Live:** :doc:`WPS <./52nWPS_overview>`
+
 
 Quickstart
 -------------------------------------------------------------------------------

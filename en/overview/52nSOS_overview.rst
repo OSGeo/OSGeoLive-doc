@@ -29,14 +29,13 @@ an air quality monitoring station.
 Features
 -------------------------------------------------------------------------------
 
-
 * **Browser Client**: The SOS is delivered with a browser based application.
   This provides means for administration and configuration of the service 
   instance, as well as sending test requests for SOS operations; appropriate
   sample requests are included.
 * **JavaScript Client**: The SOS contains a JavaScript application for 
-  displaying time series data. With its help, numerical time series will be 
-  visualized without any additional software.
+  displaying time series data. With its help, time series will be visualized 
+  without any additional software.
 * **Specifications**: The 52°North SOS implements the current specification version 2.0.0 and the 
   previous version 1.0.0 (here no transactional operations). Listed below are 
   implemented operations for each standard version.
@@ -52,15 +51,16 @@ Features
   accordingly). In 52°North Wiki the `installation and configuration
   <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ 
   is documented.
-* **RESTful API for numeric Timeseries**: Starting with Version 4.1.1. is an
-  bundle version available, that directly brings the 
-  `RESTful API <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ .
-  Hence, numeric timeseries can be requested in a RESTful way in JSON encoded 
-  requests. More details incl. documentation can be found in the
+* **RESTful API for Timeseries**: Starting with Version 4.1.1. is an bundle 
+  version available, that directly brings the `RESTful API 
+  <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ .
+  Hence, timeseries can be requested in a RESTful way in JSON encoded requests. 
+  More details incl. documentation can be found in the
   `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
 * **Read more**: The track of the `details of the implemented functionalities 
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_ 
   can be found in the 52°North Wiki.
+
 
 SOS Operations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,8 +75,9 @@ SOS Operations
 * GetResult (from 2.0): for requesting sensor data.
 * GetResultTemplate (from 2.0): for requesting a template of the result 
   structure that will be returned by a GetResult request.
-* GetDataAvailability (extension for 2.0): for requesting the data availability 
-  for certain configurations.
+* GetDataAvailability (from `SOS 2.0 Hydrology Profile - OGC Best Practice 
+  <http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_): for 
+  requesting the data availability for certain configurations.
 
 **Transactions**:
 
@@ -104,6 +105,7 @@ Applicable Standards
 * :doc:`Geography Markup Language (GML) <../standards/gml_overview>`
 * :doc:`Sensor Model Language (SensorML) <../standards/sensorml_overview>`
 
+
 Details
 --------------------------------------------------------------------------------
 
@@ -126,6 +128,7 @@ Details
 **Community Website:** http://52north.org/communities/sensorweb/
 
 **Other 52°North projects:** :doc:`WPS <./52nWPS_overview>`
+
 
 Quickstart
 --------------------------------------------------------------------------------

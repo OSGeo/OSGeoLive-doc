@@ -57,7 +57,7 @@ Erste Schritte
 4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von 
    1.5.2015 00:30 bis 23:00 in der Zeitzone +0 abzufragen, muss im `Test Client 
    <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" --> 
-   Version "2.0.0" --> Binding "/soap" --> Operation "GetObservation" folgende 
+   Version "2.0.0" --> Binding "SOAP" --> Operation "GetObservation" folgende 
    Abfrage im Feld "Request" stehen:
    
 .. code-block:: xml
@@ -156,6 +156,7 @@ Ausprobieren
     
 **Listing 2:** Ausgabe der REST-Schnittstelle.
 
+
 Weitere Informationen
 ===============================================================================
 
@@ -165,8 +166,10 @@ Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie ü
 * 52°North `SOS-Überblick <../overview/52nSOS_overview.html>`_,
 * 52°North Sensor-Web-E-Mail-Liste: swe@52north.org, 
 * Forum der 52°North `Sensor-Web-Community <http://sensorweb.forum.52north.org/>`_, 
+* 52°North `SOS-Client <http://sensorweb.demo.52north.org/SOSclient/>`_,
 * 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, oder 
-* Website der `52°North Sensor-Web-Community <http://52north.org/communities/sensorweb/>`_.
+* Website der `52°North Sensor-Web-Community 
+  <http://52north.org/communities/sensorweb/>`_.
 
 Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene 
 Projekte, Organisationen und Personen unterstützt. Mehr Informationen 

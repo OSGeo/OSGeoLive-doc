@@ -22,9 +22,10 @@ This Quick Start describes how to:
   * Query details about an Observation from the SOS.
   * Use a lightweight visualisation tool delivered together with the SOS to 
     explore the available data.
-  * Explore REST API endpoint for client developers.
+  * Explore the REST API endpoint for client developers.
 
 .. contents:: Contents
+  
   
 Getting Started
 ================================================================================
@@ -55,9 +56,9 @@ Getting Started
 **Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
 
 4. To get for each time series the available observation data within the time 
-   interval from 2015-05-01T00:30:00.000+00:00 to 2015-05-31T23:00:00.000+00:00
-   , insert the following request after selecting service "SOS" --> version 
-   "2.0.0" --> binding "/soap" --> operation "GetObservation" in the `test 
+   interval from 2015-05-01T00:30:00.000+00:00 to 2015-05-31T23:00:00.000+00:00,
+   insert the following request after selecting service "SOS" --> version 
+   "2.0.0" --> binding "SOAP" --> operation "GetObservation" in the `test 
    client <http://localhost:8080/52nSOS/client>`_ in the field request:
    
 .. code-block:: xml
@@ -90,6 +91,7 @@ Getting Started
   </env:Envelope>
   
 **Listing 1:** Request of observations.
+
 
 Things to Try
 ===============================================================================
@@ -155,6 +157,7 @@ Things to Try
     ]
     
 **Listing 2:** Output of REST API endpoint.
+
 
 What Next?
 ================================================================================
