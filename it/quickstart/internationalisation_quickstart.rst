@@ -3,7 +3,7 @@
 :Author: Cameron Shorter
 :Reviewer: Cameron Shorter
 :Translator: Luca Delucchi
-:Version: osgeo-live5.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -16,32 +16,37 @@ Cambiare Lingua
 Molte lingue comuni sono incluse nella OSGeo-Live. Per cambiare lingua:
 
    #. Log out
-   #. Selezionare altra lingua dal menu in basso nello schermo.
    #. Selezionare user="user", password="user"
-   #. Ripetere il processo se volete cambiare lingua di nuovo.
+   #. Selezionare altra lingua dal menu in alto nello schermo.
+   #. Premere il pulsante :guilabel:`Log in`.
+   #. Ripetere il processo se necessitate o volete cambiare lingua di nuovo.
 
-   .. image:: ../../images/screenshots/800x600/osgeolive_login.png 
-     :scale: 70 % 
-     :alt: login screen 
+   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
+     :scale: 70 %
+     :alt: login screen
 
-I menu di sistema e molte delle applicazioni appariranno nella lingua scelta. 
+I menu di sistema e molte delle applicazioni appariranno nella lingua scelta.
 Se uno specifico programma continua ad essere in Inglese, vuol dire che il programma
-non possiede quella traduzione disponibile - per favore considerate di contribuire 
-volantariamente alla traduzione. Contattare il progetto considerato direttamente per maggiori informazioni.
+non possiede quella traduzione disponibile - per favore considerate di contribuire
+volantariamente alla traduzione. Contattare il progetto considerato direttamente
+per maggiori informazioni.
 
-Per maggiori lingue vedere :menuselection:`Applications --> System --> Language Support` (Richiede una connessione ad internet).
+Per maggiori lingue vedere :menuselection:`Applications --> Language Support`
+dal menù principale. (Richiede una connessione ad internet)
 
 Supporto alla tastiera
 --------------------------------------------------------------------------------
-Il supporto alle tastiere internazionali è installato, ma si dovrà configurare 
+Il supporto alle tastiere internazionali è installato, ma si dovrà configurare
 il sistema per la vostra specifica tastiera.
-Per cambiare le impostazioni aprire :menuselection:`Applications --> Settings --> Settings Manager` quindi fate doppio click su :guilabel:`Tastiera` nella finestra seguente. 
-La vostra password sarà richiesta per permettere l'aggiornamento della configurazione, digitare "user" per l'attuale utente "user".
+Per cambiare le impostazioni aprire :menuselection:`Preferences --> Keyboard Input Methods`
+dal menù principale quindi cliccare sul pannello :guilabel:`Input Method`.
+Dopo cliccare su :guilabel:`Customize active input methods` e quindi sul
+pulsante :guilabel:`Select an input method`.
+Ora cliccare sul pulsante :guilabel:`Add` sulla destra e aggiungere un
+layout addizionate e quindi :guilabel:`Close` per chiudere la finestra
+delle preferenze IBus.
+La vostra password sarà richiesta per permettere l'aggiornamento della configurazione,
+digitare "user" per l'attuale utente "user".
 
-   #. Scegliere la scheda :guilabel:`Layout` nella finestra Tastiera
-   #. Disabilitare l'opzione :guilabel:`Use system defaults`
-   #. Cliccare sul pulsante :guilabel:`Add` per aggiungere un ulteriore layout
-   #. Scegliere il layout preferito e
-   #. Selezionarlo nella finestra Tastiera
-   #. Tornare indietro alla pagina principale delle impostazioni (:guilabel:`Overview`)
-   #. :guilabel:`Close` la finestra delle Impostazioni e log out per applicare le modifiche
+Ora cliccare sull'icona della tastiera nel menu del desktop in basso per selezionare
+il layout attivo
