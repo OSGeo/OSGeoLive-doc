@@ -25,7 +25,7 @@ The OTB applications provide lot's of interesting tools which facilitate the man
 
   * CLI : command line interface 
   * GUI : in a standalone graphical user interface (in Qt)
-  * QGIS plugin : available through Sextante
+  * QGIS plugin : available through the processing framework
 
 Sample data used in this quickstart can be found here:
   * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
@@ -62,39 +62,32 @@ pixel as features. Please note that all the input images must have the same numb
 of bands to be comparable.
 
 
-Perform segmentation with Monteverdi
+Perform segmentation
 ================================================================================
+The OTB *Segmentation* application allows to produce a raster segmentation
+output with different algorithms and to scale up to large raster by producing
+vector outputs that you can import in a GIS software.
+There are four segmentation methods available in the application:
+  * Mean-Shift (two different implementations)
+  * Watershed (ITK implementation)
+  * Connected-Components
+  * Morphological profiles
 
-* Start Monteverdi from its icon from the Spatial Tools folder on the desktop
-* Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
-* Go to the :menuselection:`Filtering --> Mean Shift clustering`
-* Select the input raster image (Reader0) from the input window selection
-* Verify you can tune parameters of the segmentation and see the result on the region of interest by clicking on "Run"
-* Select "Close" when you are satisfied by the result.
-* In the main window, right click on the "Clustered Image" in the resulting dataset "MeanShift0" and select "Display in viewer" 
+Moreover the application can work in two different modes:
+
+* Raster mode: allows to segment a small image and produces a raster where each
+        component of the segmentation is labeled with a unique integer
+* Vector mode: segment larger images and produces a vector file where each
+        segment of the segmentation is represented by a polygon
 
   .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
      :scale: 100 %
 
-Perform supervised classification based on SVM  with Monteverdi
-================================================================================
+OTB includes also a framework to perform tile-wise segmentation of very large
+image with theoretical guarantees of getting identical results to those without
+tiling called LSMS_.
 
-* Start Monteverdi from its icon from the Spatial Tools folder on the desktop 
-* Select an raster image, using :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`
-* Go to the :menuselection:`Learning --> SVM classification`
-* Select the input raster image (Reader0) from the input window selection
-* You can add classes (`Add Class` button), select learning samples by drawing polygons 
-* Go to the :menuselection:`Setup --> SVM` to set the classification algorithm parameters 
-* Click on the `Learn` button to create a classification model from the input learning classes 
-* Click on the `Display` button to show the result of the supervised classification on the entire image
-
-  .. image:: ../../images/screenshots/800x600/otb-svm.jpg
-     :scale: 100 %
-
-For the full tutorial see the  `article`_.
-
-.. _`article`: http://www.orfeo-toolbox.org/otb/monteverdi.html
-
+.. _LSMS: https://www.orfeo-toolbox.org/CookBook/CookBooksu42.html
 
 What Next?
 ================================================================================
@@ -107,17 +100,18 @@ What Next?
   heavily illustrated with results from real remote sensing
   processing. 
   
-  * `OTBSoftwareGuide.pdf <http://orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
-  * `Online html version <http://orfeo-toolbox.org/SoftwareGuide/>`_
+  * `OTBSoftwareGuide.pdf <http://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
+  * `Online html version <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
 
 * OTB CookBook
 
-  A guide for OTB-Applications and Monteverdi dedicated for
+  A guide for OTB-Applications and Monteverdi2 dedicated for
   non-developers is also available.This guide is composed of a brief
   tour of of OTB-Applications and Monteverdi, followed by a set of
   recipes to perform usual remote sensing tasks with both tools. 
   
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
+  * `Online html version <https://www.orfeo-toolbox.org/CookBook/CookBook.html>`_  
 
 * OTB Tutorials
 
@@ -131,9 +125,9 @@ What Next?
 
 .. _applications: http://orfeo-toolbox.org/Applications/
 
-* OTB courses with Pleiades images
+* OTB courses with Pleiades images to learn how to use OTB applications and Monteverdi2
 
-  Follow the courses_ to learn more about OTB.
+  Follow the courses_ to learn more about OTB (see section Tutorials).
 
-.. _courses: http://blog.orfeo-toolbox.org/news/new-courses-on-pleiades-images-analysis-with-the-orfeo-toolbox
+.. _courses: https://www.orfeo-toolbox.org/documentation/
 
