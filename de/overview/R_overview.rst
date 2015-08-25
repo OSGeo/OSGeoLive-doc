@@ -49,7 +49,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 3.1.2
+**Software Version:** 3.2.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
