@@ -1,4 +1,4 @@
-:Author: OSGeo-Live 
+:Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Angelos Tzotsos
 :Version: osgeo-live7.0
@@ -50,8 +50,8 @@ Demonstration Instance
      sudo service tomcat6 stop
 
 L'icona `EOxServer` che si trova sotto `Web Services` lancia un browser che visualizza
-l'esempio dimostrativo disponibile all'indirizzo http://localhost/eoxserver/ 
-che fornisce alcuni dati di prova come `disponibile online 
+l'esempio dimostrativo disponibile all'indirizzo http://localhost/eoxserver/
+che fornisce alcuni dati di prova come `disponibile online
 <https://eoxserver.org/demo_stable/>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
@@ -78,13 +78,16 @@ Selezionando una lista di provider si visualizzeranno i contorni dei `Dataset` d
   :alt: EOxServer demonstration embedded client outlines
 
 Usando i controlli standard di OpenLayers sarete in grado anche di vedere in anteprima i
-dati disponibili.
+dati disponibili.Cliccare su **(+** in alto a destra della finestra per ottenere
+un'ulteriore lista di selezione; per effeuare zoom è possibile usare sia la rotellina del
+mouse oppure tenendo premuto il pulsante shift mentre tenendo premuto il
+pulsante destro si disegna un box nell'area della map.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
-With the **Date slider** the `Datasets` shown can be limited to the time 
+With the **Date slider** the `Datasets` shown can be limited to the time
 interval of interest.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
@@ -93,7 +96,7 @@ interval of interest.
 
 Il pulsante **Download** fornisce una lista dei `Datasets` scaricabili.
 Scaricabili significa che la Bounding Box impostata o l'estension della mappa attuale
-se non è impostata e l'intervallo di tempo impostato. Potete selezionare quale `Datasets` 
+se non è impostata e l'intervallo di tempo impostato. Potete selezionare quale `Datasets`
 da scaricare in che dimensione, proiezione, formato e sottoinsieme di bande.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
@@ -110,24 +113,24 @@ se multipli `Dataset` sono stati selezionati.
 Client di amministrazione
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il link **Client di amministrazione** vi porterà alla pagina di accesso per il 
+Il link **Client di amministrazione** vi porterà alla pagina di accesso per il
 `Client di amministrazione` La password per l'utente `admin` è `admin`.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient1.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client login
 
-Il `Client di amministrazione` è un client standard di amministrazione di Djangos 
-che vi permetterà di configurare i dati disponibili. Sentitevi liberi di 
+Il `Client di amministrazione` è un client standard di amministrazione di Djangos
+che vi permetterà di configurare i dati disponibili. Sentitevi liberi di
 esplorare il client come più vi piace. Maggiori informazioni possono essere
-trovate nella `guida degli operatori 
+trovate nella `guida degli operatori
 <http://eoxserver.org/doc/en/users/operators.html>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client start
 
-Per esempio è possibile visualizzare e modificare i `Metadati di EO` delle 
+Per esempio è possibile visualizzare e modificare i `Metadati di EO` delle
 `Serie di dati` configurate.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
@@ -137,7 +140,7 @@ Per esempio è possibile visualizzare e modificare i `Metadati di EO` delle
 Visualizzatore dei log
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il link al **visualizzatore dei log** fornisce una semplice via per visualizzare 
+Il link al **visualizzatore dei log** fornisce una semplice via per visualizzare
 gli ultimi log registrati.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_logviewer.png
@@ -154,9 +157,9 @@ risorse da controllare dopo aver letto questa guida:
 * Leggere la `Guida per gli operatori di EOxServer
   <http://eoxserver.org/doc/en/users/operators.html>`_.
 * Leggere la `documentazione completa per gli utenti di EOxServer
-  <http://eoxserver.org/doc/en/users/index.html>`_ incominciando da le 
+  <http://eoxserver.org/doc/en/users/index.html>`_ incominciando da le
   `basi di EOxServer <http://eoxserver.org/doc/en/users/basics.html>`_.
 * Pronti a usare EOxServer? Quindi unitevi alla comunità attraverso le
-  `mailing lists <http://eoxserver.org/doc/en/users/mailing_lists.html>`_ 
+  `mailing lists <http://eoxserver.org/doc/en/users/mailing_lists.html>`_
   per scambiare idee, discutere potenziali miglioramenti del software e
   fare domande.

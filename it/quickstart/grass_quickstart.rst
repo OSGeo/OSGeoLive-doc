@@ -197,8 +197,10 @@ assicurarsi di selezionare il box per la visibilità per vederla come sfondo.
 Nella finestra `GIS Layer Manager` cliccare sul bottone `Add various overlay`
 e `Add a grid layer`. Come dimensione della griglia inserire 5000 (nelle unità
 di mappa, qui in metri).
+
 .. MN comment: UNUSED mettere 0:03 0 per i gradi e 3 per i minuti (il formato è
    D:M:S), poi nel tab "Optional" selezionare Disegna una griglia geografica.
+
 Una volta fatto premere :guilabel:`Ok`. Opzionalmente si potrebbe cambiare i colori
 per le linee della griglia e il testo delle etichette.
 

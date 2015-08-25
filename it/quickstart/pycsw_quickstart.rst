@@ -10,9 +10,9 @@
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -118,21 +118,21 @@ come utente ``root``:
   $ zypper refresh
   $ zypper install pycsw
 
-Per le versioni precedenti di openSUSE cambiare ``12.3`` con ``12.2``. Per le versioni 
+Per le versioni precedenti di openSUSE cambiare ``12.3`` con ``12.2``. Per le versioni
 future di openSUSE usare ``Factory``. La versione Rolling ``Tumbleweed`` è anch'essa supportata.
 pycsw è inclusa nel repository ufficiale Application::Geo del OpenSUSE Build Service.
 
 Testare l'applicazione
 ==========================
 
-Per testare pycsw, usare il launcher pycsw dal gruppo Web Services, o aprire Firefox e andate 
+Per testare pycsw, usare il launcher pycsw dal gruppo Web Services, o aprire Firefox e andate
 all'indirizzo ``http://localhost/pycsw/tester/index.html``:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_startup.png
   :scale: 75 %
 
 Selezionando la lista drop-down a sinistra, l'utente può vedere diverse richieste POST predefinite,
-codificate come XML, che possono essere spedire a pycsw: 
+codificate come XML, che possono essere spedire a pycsw:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_tester_selection.png
   :scale: 75 %
@@ -165,7 +165,7 @@ Funzionalità Document e Configurazione
 
 Le funzionalità dell'installazione di pycsw può essere trovate all'indirizzo ``http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities``.
 
-Per modificare il servizio web dei metadati, inclusi nel documento delle capabilities, 
+Per modificare il servizio web dei metadati, inclusi nel documento delle capabilities,
 l'utente può modificare il file ``/var/www/pycsw/default.cfg`` sotto il tag ``[metadata:main]``.
 
 Se l'utente vuole abilitare il supporto INSPIRE Discovery Service, i metadati sotto il tag
@@ -186,12 +186,12 @@ attraverso le implementazioni open source della direttiva INSPIRE per i metadati
 Source Metadata Editor (EUOSME). Questo software può essere trovato ``http://inspire-geoportal.ec.europa.eu/editor/``.
 Il codice sorgente è disponibile ``https://joinup.ec.europa.eu/svn/euosme/trunk``
 
-L'utente compila i campi dei metadati obbligatori, attraverso le tabelle dell'applicazione, 
+L'utente compila i campi dei metadati obbligatori, attraverso le tabelle dell'applicazione,
 aggiungendo informazioni come il nome del proprietario dei dati, parole chiavi, la posizione
-della risorsa del web, la posizione geografica (usando una bounding box o il nome di uno stato) etc. 
+della risorsa del web, la posizione geografica (usando una bounding box o il nome di uno stato) etc.
 
 .. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
-  :scale: 75 % 
+  :scale: 75 %
 
 Dopo che l'utente ha aggiunto tutte le informazioni disponibili, bisogna spingere il pulsante di
 validazione in alto della pagina, questo controllo può essere eseguito per consistenza con la
@@ -252,7 +252,7 @@ Al fine di creare un nuovo database SQLite dovrete:
 .. code-block:: bash
 
   $ cd /var/www/pycsw
-  $ export PYTHONPATH=`pwd` 
+  $ export PYTHONPATH=`pwd`
   $ sudo python ./sbin/pycsw-admin.py -c setup_db -f default.cfg
 
 Questo creerà le tabelle necessarie e i valori per il repository.
@@ -278,7 +278,7 @@ Importare Metadata
   $ export PYTHONPATH=`pwd`
   $ python ./sbin/pycsw-admin.py -c load_records -f default.cfg -p /path/to/records -r
 
-Questo importerà tutti i file ``*.xml`` da ``/path/to/records`` nel nuovo database e 
+Questo importerà tutti i file ``*.xml`` da ``/path/to/records`` nel nuovo database e
 configura il repository per essere interrogabile come per Table 53 di OGC:CSW.
 
 
@@ -338,12 +338,12 @@ Eseguire la ricerca utilizzando il catalogo, o tramite valore stringa o con un r
 Scoperta dati attraverso GeoExt
 --------------------------------
 
-Un'altra possibilità di usare il server pycsw è attraverso un'applicazione web, agendo come clientCSW. 
+Un'altra possibilità di usare il server pycsw è attraverso un'applicazione web, agendo come clientCSW.
 Questa funzionalità è disponibile attraverso le librerie Javascript `OpenLayers <http://openlayers.org>`_
 e `GeoExt <http://www.geoext.org/>`_.
 
 Per questo tutorial abbiamo creato una piccola dimostrazione in GeoExt (grazie `Bart van den Eijnden <https://github.com/bartvde>`_)
-usando un'installazione demo di pycsw in http://demo.pycsw.org/services/csw: 
+usando un'installazione demo di pycsw in http://demo.pycsw.org/services/csw:
 
 - Andare http://demo.pycsw.org/viewer/index2.html
 - Cliccare l'icona "find layers"
@@ -355,7 +355,7 @@ usando un'installazione demo di pycsw in http://demo.pycsw.org/services/csw:
 
 .. image:: ../../images/screenshots/1024x768/pycsw_client_gxp.png
   :scale: 60 %
-  
+
 Test dell'applicazione
 ------------------------
 

@@ -21,8 +21,9 @@ optic and radar images (tridimensional aspects, segmentation, classification,
 changes detection, texture analysis, pattern matching, and optic/radar
 complementarities), many of which can be run on limited-resourced laptops.
 
-OTB is shipped with a fully integrated user interface called Monteverdi which
-allows users to select OTB processing chains from a set of menus.
+OTB is also shipped with a set of extensible ready-to-use tools for classical
+remote sensing tasks and a fully integrated user interface called Monteverdi2
+which allows users to select OTB processing chains from a set of menus.
 
 OTB has been funded the French Space Agency (CNES) in the frame of the
 Methodological Part of the ORFEO/Pleiades Accompaniement Program and has been
@@ -61,7 +62,7 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 4.2.1
+**Software Version:** 5.0.0
 
 **Supported Platforms:** Linux, Mac, Windows
 

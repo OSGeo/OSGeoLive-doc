@@ -62,7 +62,7 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
           <meta name="viewport" content="width=device-width">
 
           <!-- OpenLayers CSS -->
-          <link rel="stylesheet" href="http://ol3js.org/en/master/build/ol.css" type="text/css">
+          <link rel="stylesheet" href="http://localhost/ol3/dist/ol.css" type="text/css">
 
           <!-- Custom styles -->
           <style>
@@ -78,7 +78,7 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
           <div id="map"></div>
 
           <!-- OpenLayers JS-->
-          <script src="http://ol3js.org/en/master/build/ol.js" type="text/javascript"></script>
+          <script src="http://localhost/ol3/dist/ol-debug.js" type="text/javascript"></script>
 
           <!-- App code -->
           <script>
@@ -181,6 +181,9 @@ source suitable for reading the vector format, like ``ol.source.GeoJSON``,
     })
   });
 
+  // Add Vector layer to map
+  map.addLayer(vectorLayer);
+
 **Ex. 5:** Constructing a GeoJSON vector layer
 
 .. image:: ../../images/screenshots/800x600/openlayers-vector.png
@@ -218,6 +221,9 @@ that represents the feature:
   var vectorLayer = new ol.layer.Vector({
     source: vectorSource
   });
+
+  // Add Vector layer to map
+  map.addLayer(vectorLayer);
 
 **Ex. 6:** Adding features by hand
 
@@ -286,4 +292,10 @@ The next code registers an event on a map instance, and is notified each time th
 What Next?
 --------------------------------------------------------------------------------
 Sometimes the quickest way to work out how OpenLayers works is to look at examples
-and its source code. You can find OpenLayers3 examples installed at: `http://localhost/openlayers/examples <../../openlayers/examples>`_.
+and its source code. You can find more OpenLayers3 information here:
+
+* `API Docs <../../ol3/apidoc/>`_
+
+* `Examples <../../ol3/examples/>`_
+
+* `OpenLayers.org Website <http://openlayers.org/>`_

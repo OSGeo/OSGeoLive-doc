@@ -23,9 +23,9 @@ della fondazione `Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.or
 
 * **Opzioni input**: Qualsiasi immagine georiferita, p.es. TIFF, JPEG da ArcGIS, QGIS.
 * **Opzioni output**: Una serie di cartelle con le immagini che possono essere copiate su un server web
-per essere presentati come una sovrapposizione georiferita.
+  per essere presentati come una sovrapposizione georiferita.
 * **Punti di forza**: MapSlicer e` semplice, e` software libero, con un semplice wizard, descritto di seguito,
-per guidarti attraverso le opzioni.
+  per guidarti attraverso le opzioni.
 
 MapSlicer approfitta del fatto che `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , e altri provider di mappe online, compreso `OpenStreetMap <http://www.openstreetmap.org/>`_  usano la stessa proiezione e profilo di tiling e quindi i tile sono compatibili. MapSlicer prepara i tile usando questa specifica come un modo facile e veloce per preparare una mappa georiferita per un mash up su una pagina web.
 

@@ -1,7 +1,7 @@
 :Author: Richard R. Schneider Dept. Biological Sciences University of Alberta Edmonton, Alberta, Canada 
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Product: MapWindow GIS Lite
-:Version: osgeo-live8.5draft
+:Version: osgeo-live9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Editor: http://rst.ninjs.org/
 :Copyright: 2011 Richard R. Schneider, 2015 Paul Meems
@@ -22,24 +22,24 @@
   :scale: 50 %
   :align: right
 
-This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9.3. 
+This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX control version 4.9.5. 
 A similar custom GIS application can be built based on this app or on the barebone 
 MapWinGIS control in a matter of days, using Visual Studio (Pro, Express or Community edition) or SharpDevelop.
-To showcase all the new features of MapWinGIS v4.9.3 this **demo** application was created. 
+To showcase all the new features of MapWinGIS v4.9.5 this **demo** application was created. 
 
 MapWindow Lite can do some basic stuff, 
 like opening and closing layers, show tiles, change symbology and labeling. Also new features like the new selection tool, 
 loading data from a PostGIS database and the Shapefile Editor are added. Of course the source code is also available so you can 
 use it to create your own application.
-Stability has been improved, making this version of MapWinGIS more stable and faster than ever. MapWinGIS v4.9.3 and thus MapWindow Lite use **GDAL v2.0**.
+Stability has been improved, making this version of MapWinGIS more stable and faster than ever. MapWinGIS v4.9.5 and thus MapWindow Lite use **GDAL v2.0**.
 
 The development of this project depends on public donations. Our plans include further development of 
 MapWinGIS core library and also releasing a new version of MapWindow desktop GIS based on it, 
 which will be called MapWindow 5. This lite version can be considered the first version of it. 
-More info about our future plans can be found here: http://www.mapwindow.org/documentation/mapwingis4.9/MapWindow49.html
+More info about our future plans can be found here: http://www.mapwindow.org/documentation/mapwindow5/index2.html
 
 MapWindow Lite is available for free download as a single ready-to-install
-.exe file from the MapWindow CodePlex website: https://mapwindow4.codeplex.com/releases. 
+.exe file from the MapWindow CodePlex website: https://mapwindow4.codeplex.com/releases/view/542097. 
 MapWindow is a **native Windows** application that requires installation of the Microsoft .NET framework v4. 
 It runs on XP, Vista, Windows 7 and Windows 8 and works fine on 64-bit machines. The program is quite 
 intuitive to use and new users will be up and running quickly. With only a couple of exceptions it provides 
