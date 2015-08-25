@@ -1,16 +1,17 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer: Frank Gasdorf
-:Version: osgeo-live8.0
+:Reviewer: 
+:Version: osgeo-live9.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
-  :alt: project logo
+  :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
 
 
 52°North SOS
 ===============================================================================
+
 
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,21 +21,49 @@ erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein
 Sensor kann dabei z.B. eine Wetterstation, ein Pegel an einem Fluss oder eine 
 Station zur Messung der Luftqualität sein.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v4_0_0_GetCapabilities_json.png
+.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
-  :alt: screenshot of 52°North SOS test client version 4.0
+  :alt: 52°North SOS and JavaScript client
   :align: right
+
 
 Funktionalität
 -------------------------------------------------------------------------------
 
-* **Test-Anwendung**: Der SOS wird zusammen mit einem Browser-basierten 
+* **Browser-Anwendung**: Der SOS wird zusammen mit einer Browser-basierten 
   Anwendung ausgeliefert. Diese ermöglicht die Administration und Konfiguration
   der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen; 
   entsprechende Beispiel-Anfragen sind enthalten.
-* Der vorliegende 52°North SOS implementiert die aktuelle Spezifikationsversion
+* **JavaScript-Anwendung**: Der SOS beinhaltet eine JavaScript-Anwendung
+  zur Darstellung von Zeitreihen-Daten. Mit dessen Hilfe können Zeitreihen ohne 
+  zusätzliche Software visualisiert werden.
+* **Spezifikation**: Der vorliegende 52°North SOS implementiert die aktuelle Spezifikationsversion
   (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die 
   beiden Standard-Versionen die jeweils implementierten Operationen aufgelistet.
+* **INSPIRE-Download-Dienst-Erweiterung**: Ab Version 4.2.0 steht eine 
+  Erweiterung zur Verfügung, die es erlaubt den SOS als INSPIRE-Download-Dienst
+  zu verwenden. Hintergrundinformationen stehen in einem `Blogpost 
+  <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_ 
+  und im `Wiki 
+  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ 
+  zur Verfügung.
+* **Air-Quality-Data-e-Reporting-Erweiterung**: Ab Version 4.3.0 steht eine 
+  Erweiterung zur Verfügung, die es erlaubt für die Air-Quality-Data-Flows E1a,
+  E1b und E2a konforme Daten zu liefern (die Instanz auf OSGeo-Live ist nicht 
+  entsprechend konfiguriert). Im 52°North Wiki ist die 
+  `Installation und Konfiguration
+  <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ 
+  dokumentiert.
+* **REST-Schnittstelle für Zeitreihen**: Ab Version 4.1.1. steht eine
+  Bundle-Version des SOS zur Verfügung, die direkt die 
+  `REST Schnittstelle <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ 
+  mitliefert. Dadurch können Zeitreihen über eine REST basierte Schnittstelle im 
+  JSON-Format abgerufen werden. Mehr Details inkl. Dokumentation in der 
+  `SOS-Web-Anwendung <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
+* **Weitere Informationen**: Die aktuelle Übersicht über die `Details der implementierten Funktionalitäten
+  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
+  (in englisch) ist im 52°North Wiki zu finden.
+
 
 OGC SOS 2.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -81,8 +110,9 @@ OGC SOS 2.0.0
 **Operation “Data Availability”**:
 
 * GetDataAvailability, zum Abfragen von Datenverfügbarkeit für verschiedene 
-  Konstellationen von Abfrageparametern (noch kein Bestandteil der offiziellen 
-  SOS 2.0 Spezifikation).
+  Konstellationen von Abfrageparametern (spezifiziert in `SOS 2.0 Hydrology 
+  Profile - OGC Best Practice 
+  <http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_).
 
 **Operation “Delete Observation”**:
 
@@ -97,6 +127,7 @@ Einige Operationen erlauben die Anwendungen folgender Filter-Operatoren, soweit
 * Zeitlicher Filter: During, mit einem Zeitraum.
 * Zeitlicher Filter: TEquals, mit einem Zeitpunkt.
 
+
 OGC SOS 1.0.0
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Operationen des “SOS Core Profiles”**:
@@ -107,22 +138,12 @@ OGC SOS 1.0.0
 * DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend 
   der OGC Sensor Model Language (SensorML) Spezifikation.
 
-**Operationen des “SOS Transactional Profiles”**:
-
-* RegisterSensor, zum Einfügen neuer Sensoren (d.h. zum Registrieren ihrer 
-  Metadaten) in einer SOS-Instanz.
-* InsertObservation, zum Einfügen neuer Messdaten, welche durch zuvor 
-  registrierte Sensoren geliefert werden.
-
 **Operationen des “SOS Enhanced Profiles”**:
 
-* GetResult, zum vereinfachten Abfragen vordefinierter Mengen von Sensordaten.
 * GetObservationById, zum gezielten Abfragen bestimmter, einzelner Messungen.
 * GetFeatureOfInterest, zum Abfragen der Geometrien von Mess-Standorten (z.B. 
   Sensorstandorten), kodiert ensprechend der OGC Geography Markup Language 
   (GML) Spezifikation.
-* GetFeatureOfInterestTime, zur Abfrage der zeitlichen Verfügbarkeit von 
-  Messdaten.
 
 
 Zugehörige Standards
@@ -132,6 +153,7 @@ Zugehörige Standards
 * :doc:`Geography Markup Language (GML) <../standards/gml_overview>`
 * :doc:`Sensor Model Language (SensorML) <../standards/sensorml_overview>`
 
+
 Details
 -------------------------------------------------------------------------------
 
@@ -139,19 +161,22 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** SOS |version-52nSOS|
+**Software-Version:** SOS |version-52nSOS|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
-**API Schnittstellen:** Java
+**Unterstützte DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL-Server 2012
 
-**Kommerzieller Support:** http://52north.org/
+**API-Schnittstellen:** Java
 
-**Community Support:** http://sensorweb.forum.52north.org/
+**Kommerzielle Unterstützung:** http://52north.org/
 
-**Community Webseite:** http://52north.org/communities/sensorweb/
+**Community-Unterstützung:** http://sensorweb.forum.52north.org/
 
-**Andere 52°North Projekte auf OSGeo Live:** :doc:`WPS <./52nWPS_overview>`
+**Community-Webseite:** http://52north.org/communities/sensorweb/
+
+**Andere 52°North-Projekte auf OSGeo-Live:** :doc:`WPS <./52nWPS_overview>`
+
 
 Quickstart
 -------------------------------------------------------------------------------
