@@ -1,19 +1,19 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: ../../images/project_logos/logo-geomoose_w-title.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 GeoMoose
@@ -28,16 +28,15 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 
 ユーザインターフェースは簡単にカスタマイズでき、モジュールを用いて新たなサービスを追加していくことができます。
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
-  :scale: 55 %
-  :alt: geomoose-screenshot-800x600.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+  :alt: GeoMoose Screenshot
   :align: right
 
 主な機能
 --------------------------------------------------------------------------------
 
-* 複数のオーナーによる配布データのメンタンンス
-* MapServer, Google, VirtualEarth, YahooMaps, Tilecache, ArcGIS REST, WMS などの地図へのアクセス
+* 複数のオーナーによる配布データのメンテナンス
+* MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, WMS などの地図へのアクセス
 * 複数ソースのデータのビュー設定
 * データカタログからの探索とフィルタ
 * ツール: measure, drawing, query, fading, re-order, reprojection, jump-to zoom, coordinate readouts, ...
@@ -51,6 +50,8 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 準拠している標準規格
 --------------------------------------------------------------------------------
 * WMS
+* WFS (client)
+* WFS-T (client)
 
 詳細
 --------------------------------------------------------------------------------
@@ -59,7 +60,7 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 
 **ライセンス:** MIT based license. http://www.geomoose.org/info/license.html
 
-**バージョン:** 2.4
+**バージョン:** 2.8.0
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
