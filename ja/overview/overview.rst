@@ -88,6 +88,7 @@ Web サービス
 * :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
 * :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
 * :doc:`tilemill_overview` - [:doc:`クイックスタート <../quickstart/tilemill_quickstart>`] - スタイリングとパブリッシング
+* :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - 地図タイルの作成
 * :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
 * :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
 
@@ -136,7 +137,7 @@ Microsoft Windows のみで利用可能:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
 * :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
-* :doc:`mapslicer_overview`  - OSGeo-Live 8.0 以後未収録。オープンソースブランチはメンテナンスを停止。
+
 
 Windows 及び Apple インストーラー
 --------------------------------------------------------------------------------
