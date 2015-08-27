@@ -1,7 +1,7 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Reviewer: Cameron Shorter, LISAsoft
-:Product: MapWindow GIS 4.8.6
-:Version: osgeo-live5.5
+:Product: MapWindow GIS Lite
+:Version: osgeo-live9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
@@ -11,26 +11,36 @@
   :height: 38
   :target: http://www.mapwindow.org
  
-MapWindow GIS
+MapWindow GIS Lite
 ================================================================================
 
-デスクトップ GIS 
+デスクトップ GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapWindow GIS は、 Windows をベースとして 視覚化、管理、編集、データ分析、そして印刷可能な地図を構成するためのオープンソース GIS クライアントです。それは、 GEOS や GDAL/OGR を統合することでｍ強力な分析機能を備えています。
-MapWindow は、 MS-Excel や MS-Access のような MS-Office をベースとする製品と同様に、 VB6 、 C++ 、 C# 、 VB.NET、 Delphi で書かれたプログラムに組み込むことが容易で、 MapWindow は、 ActiveX コントロールに基づいています。
+MapWindow GIS は、 Windows ベースの、視覚化、管理、編集、データ分析、そして印刷可能な地図を構成するための
+オープンソース GIS クライアントです。
+GEOS や GDAL/OGR (v2) を統合することで強力な分析機能を備えています。
+MapWindow は、 MS-Excel や MS-Access のような MS-Office ベースの製品に組み込むことが容易で、
+同様に、C++, C#, VB.NET や Delphi で書かれたプログラムに組み込むことも容易です。
+なぜなら、 MapWindow は MapWinGIS と呼ばれる ActiveX コントロールをベースとしているからとなります。
+MapWindow Open Source GIS Lite は、 MapWinGIS v4.9.5 をベースとしています。
+ 
+OSGeo-Live にインストールされている MapWindow Lite バージョンは、すべての MapWindows デスクトップ版の機能を含んでいません。
+(例えば、ツールボックス、プラグイン、フル機能のシェープファイルエディタや PostGIS のサポート等)。
 
-.. note:: MapWindow は、実行に際し Microsoft Windows のインストールを必要とします。インスールファイルは、 `OSGeo-Live <http://live.osgeo.org>`_ のフルバージョンのISOに含まれているほか、 http://mapwindow4.codeplex.com/releases からもダウンロード可能でしょう。
+.. note:: MapWindow は、実行に際し Microsoft Windows のインストールを必要とします。
+インストールファイルは、 `OSGeo-Live <http://live.osgeo.org>`_ のフルバージョンのISOに含まれているほか、
+https://mapwindow4.codeplex.com/releases/view/542097 からもダウンロード可能でしょう。
    
-.. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
-  :alt: Mapwindow Screenshot
+.. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
+  :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right
 
 主な機能
 --------------------------------------------------------------------------------
 
-* 使いやすいなグラフィカル・ユーザー・インターフェース:
+* 使いやすいグラフィカル・ユーザー・インターフェース:
 
     * 地物の識別/選択機能
     * 属性の編集/閲覧/検索
@@ -42,37 +52,20 @@ MapWindow は、 MS-Excel や MS-Access のような MS-Office をベースと�
 
 * 多数のベクターやラスター形式を容易に閲覧:
 
-    * 多数のベクター形式: ESRI シェープファイル 、 MapInfo 、 SDTS 、 GML を含む
+    * 多数のベクター形式: ESRI シェープファイル, MapInfo, SDTS や GML
     * デジタル標高モデル、空中写真、ランドサット画像のようなラスター形式
-    * OpenStreetMap や ArcGIS Online のようなタイルサービス
-
-* 空間データの生成、編集、出力:
-
-    * シェープファイル軽視のためのデジタイジング・ツール
-    * ジオレファレンス・プラグイン
-    * GPX 形式でのインポート/アウトプット、 他の GPS 形式から GPX への変換、 GPS ユニットへの直接的なダウンロード/アップロードのための GPS ツール
-
-* プラグインによる空間解析の実行:
-
-    * マップ代数演算
-    * 地形解析
-    * 水理モデリング (TauDEM),
-    * ネットワーク解析
-    * さらに多くの解析
-
-* 拡張可能なプラグイン・アーキテクチャ:
-
-    * プラグイン・アーキテクチャは、 MapWindow に機能を容易に追加することが可能です。 プラグインは、 Visual Studio Pro またはフリーの SharpDevelop または Visual Studio Expressを用いて .NET language (C#, VB.NET) で書くことができます。
+    * OpenStreetMap, MapQuest Aerial, Bing Maps のようなタイルサービス
  
 * ActiveX コントロール:
 
-    * C++ で書かれた ActiveX コントロールを使用します。このコントロールは、VB6 、 C++ 、 C# 、 VB.NET、 Delphi といった言語で書かれたカスタム・アプリケーションで使用できます。また、MS-Excel や MS-Access のような MS-Office 製品で使用できます。
+    | C++ で書かれた ActiveX コントロールを使用します。このコントロールは、
+    | C#, C++, VB.NET や Delphi といった言語で書かれたカスタム・アプリケーションで使用できます。
+    | また、MS-Access や MS-Excel のような MS-Office 製品で使用できます。
 
 実装している標準規格
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * OGC 標準: 
-    * WMS (v1.1, v1.3)
-    * WFS v1.1 (through a separate plug-in)
+    * TMS
     * Web Map Tile Service (WMTS)
     * GML    
 
@@ -81,20 +74,22 @@ MapWindow は、 MS-Excel や MS-Access のような MS-Office をベースと�
 
 **ウェブサイト:** http://www.mapwindow.org
 
+**コードリポジトリ:** https://mapwingis.codeplex.com
+
 **ライセンス:** MPLv1.1
 
-**バージョン:** 4.8.6
+**バージョン:** MapWindowLite 4.9.5
 
-**動作環境:** Windows
+**動作環境:** Windows (XP or higher)
 
-**API:** Visual Basic 6, VBA (MS-Access, MS-Excel), C++, .NET (C#, VB.NET)
+**API インタフェース:** .NET (C#, VB.NET), C++, Delphi, VBA (MS-Access, MS-Excel)  
 
-**コミュニティサポート:** http://www.mapwindow.org/apps/wiki/doku.php?id=forums
+**コミュニティサポート:** http://www.mapwindow.org/documentation/mapwingis4.9/getting_started.html
 
-**商用サポート:** http://www.mapwindow.nl, http://www.mapwindow.in/, http://www.mapwindow.org/pages/donate.php
+**商用サポート:** http://www.mapwindow.nl, http://www.mapwindow.org/documentation/mapwindow5/support.html
 
 
 クイックスタート
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :doc:`Quickstart documentation <../quickstart/mapwindow_quickstart>`
+* :doc:`クイックスタート <../quickstart/mapwindow_quickstart>`
