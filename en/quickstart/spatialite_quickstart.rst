@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Micha Silver
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live 9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 
@@ -21,9 +21,6 @@ SpatiaLite Quickstart
 ********************************************************************************
 
 SpatiaLite is an SQLite database engine with spatial functions added. 
-
-.. TBD: Cameron Review Comment:
-  Please check my rewording below, then remove this comment.
 
 SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
