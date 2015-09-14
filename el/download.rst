@@ -20,7 +20,7 @@
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Κατεβάστε το αρχείο iso χωρίς τα αρχεία για Windows και Mac
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-mini.iso/download
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download
 
 `osgeo-live-mini-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-mini.iso/download>`_ : |osgeolive-iso-mini-size|
 
