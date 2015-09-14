@@ -25,7 +25,7 @@
 tmp=/tmp/make_presentation.tmp
 
 # script assumes it is being run in the bin directory
-cd "`dirname '$0'`/.."
+#cd "`dirname '$0'`/.."
 
 cols=8 # Number of table columns
 source="en/presentation" # source presentation file
