@@ -28,7 +28,7 @@ BUILD_DIR=`pwd`
 # Title
 #echo '"Document","Authors(s)", Reviewer(s),"License(s)"'
 
-for DIR in  ../doc/en/overview ../doc/en/quickstart ;  do
+for DIR in  ../en/overview ../en/quickstart ;  do
   cd "$BUILD_DIR/$DIR"
 
   for FILE in *.rst ;  do
