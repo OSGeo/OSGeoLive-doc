@@ -11,11 +11,11 @@
 .. image:: ../images/download_buttons/download-dvd.png
   :alt: Κατεβάστε το αρχείο iso συμπεριλαμβανομένων προγραμμάτων εγκατάστασης για Windows
   :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.0/osgeolive-9.0.iso/download
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0.iso/download
 
-`osgeo-live-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeolive-9.0.iso/download>`_ : |osgeolive-iso-size|
+`osgeo-live-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0.iso/download>`_ : |osgeolive-iso-size|
 
-Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Lubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeolive-9.0.iso.md5/download>`_.
+Ένα DVD αυτόματης εκκίνησης βασισμένο στην διανομή Lubuntu, το οποίο περιλαμβάνει αρχεία για τα λειτουργικά Windows και Mac. Μπορεί επιπλέον να αντιγραφεί σε USB αυτόματης εκκίνησης μεγέθους 8 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-mini.png
   :alt: Κατεβάστε το αρχείο iso χωρίς τα αρχεία για Windows και Mac
@@ -24,7 +24,7 @@
 
 `osgeo-live-mini-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-mini.iso/download>`_ : |osgeolive-iso-mini-size|
 
-Το ίδιο με το osgeo-live-9.0.iso, με τη διαφορά ότι δεν περιλαμβάνει τις εγκαταστάσεις για  Windows και Mac και μπορεί να αντιγραφεί σε USB αυτόματης εκκίνησης  μεγέθους 4 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-mini-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeolive-9.0.iso.md5/download>`_.
+Το ίδιο με το osgeo-live-9.0.iso, με τη διαφορά ότι δεν περιλαμβάνει τις εγκαταστάσεις για  Windows και Mac και μπορεί να αντιγραφεί σε USB αυτόματης εκκίνησης  μεγέθους 4 GB. Επιβεβαιώστε το κατεβασμένο αρχείο σας με το md5sum checksum `(osgeo-live-mini-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0.iso.md5/download>`_.
 
 .. image:: ../images/download_buttons/download-vm.png
   :alt: Κατεβάστε το αρχείο 7-zip μεγέθους 2.6 GB μιας εικονικής μηχανής χωρίς αρχεία εγκατάστασης Windows και Mac
