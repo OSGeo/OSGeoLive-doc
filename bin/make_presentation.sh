@@ -54,8 +54,8 @@ insertLine=`grep -n "Contributors and translators table is inserted here" "$sour
 
 # Replace space with @ so the name string is treated as one token in the for
 # loop
-cut -d"," -f1 ../doc/contributors.csv | sed -e "s/ /@/g ; s/Name//" > "$tmp"
-cut -d"," -f3 ../doc/translators.csv | sed -e "s/ /@/g ; s/Name//" >> "$tmp"
+cut -d"," -f1 ../contributors.csv | sed -e "s/ /@/g ; s/Name//" > "$tmp"
+cut -d"," -f3 ../translators.csv | sed -e "s/ /@/g ; s/Name//" >> "$tmp"
 
 # print top of the presentation file
 head -n "$insertLine" "$source/index.html" > "$target/index.html"
