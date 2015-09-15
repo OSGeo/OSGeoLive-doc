@@ -13,7 +13,14 @@ A legújabb stabil kiadás |osgeo-live-version| :
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download
 
-`osgeo-live-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+`osgeo-live-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+
+.. image:: ../images/download_buttons/download-dvd.png
+  :alt: iso fájl letöltés windows telepítőkkel
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download
+
+`osgeo-live-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download>`_ : |osgeolive-iso-size|
 
 A Lubuntu based bootable DVD, which also includes windows and mac installers. It can also be copied to an 8 GB bootable USB thumb drive. Verify your download with its md5sum checksum `(osgeo-live-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso.md5/download>`_.
 
@@ -22,7 +29,14 @@ A Lubuntu based bootable DVD, which also includes windows and mac installers. It
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download
 
-`osgeo-live-mini-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+
+.. image:: ../images/download_buttons/download-mini.png
+  :alt: Download iso without Windows and Mac installers
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download
+
+`osgeo-live-mini-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download>`_ : |osgeolive-iso-mini-size|
 
 Same as osgeo-live-9.0.iso, except it doesn't contain windows and mac installers and can be copied onto a 4 GB bootable USB thumb drive. Verify your download with its md5sum checksum `(osgeo-live-mini-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso.md5/download>`_.
 

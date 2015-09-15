@@ -12,7 +12,14 @@ La darrera versió estable d' |osgeo-live-version| :
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download
 
-`osgeo-live-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+`osgeo-live-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+
+.. image:: ../images/download_buttons/download-dvd.png
+  :alt: Descarrega l'arxiu iso amb instal·ladors per Windows
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download
+
+`osgeo-live-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download>`_ : |osgeolive-iso-size|
 
 Un DVD d'arrancada basat en Lubuntu, que també inclou instal·ladors per a Windows i Mac. També es pot copiar a un disc USB d'arrancada de 8 GB. Verifiqueu la descàrrega amb la corresponent suma de comprovació `(osgeo-live-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso.md5/download>`_.
 
@@ -21,7 +28,14 @@ Un DVD d'arrancada basat en Lubuntu, que també inclou instal·ladors per a Wind
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download
 
-`osgeo-live-mini-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+
+.. image:: ../images/download_buttons/download-mini.png
+  :alt: Descarrega l'arxiu iso sense instal·ladors per Windows ni per Mac
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download
+
+`osgeo-live-mini-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download>`_ : |osgeolive-iso-mini-size|
 
 El mateix que osgeo-live-9.0.iso, però no conté instal·ladors per Windows ni per Mac i es pot copiar a un disc USB d'arrancada de 4 GB. Verifiqueu la descàrrega amb la corresponent suma de comprovació `(osgeo-live-mini-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso.md5/download>`_.
 
