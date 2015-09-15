@@ -9,6 +9,6 @@
 
 override_dh_auto_build-indep:
 	#make sure english presentation is build
-	rm -rf de/presentation*
+	#rm -rf de/presentation*
 	$(MAKE) html
 	debian/fix_sphinx.sh
