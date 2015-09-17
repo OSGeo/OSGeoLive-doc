@@ -13,7 +13,14 @@ L'ultima versione stabile di |osgeo-live-version| :
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download
 
-`osgeo-live-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+`osgeo-live-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+
+.. image:: ../images/download_buttons/download-dvd.png
+  :alt: Scarica file iso con l'installer per windows
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download
+
+`osgeo-live-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download>`_ : |osgeolive-iso-size|
 
 Un DVD bootable basato su Lubuntu, che contiene anche l'installer per windows e mac. Può essere anche copiata in una unità USB avviabile di almeno 8 GB. Si può verificare il download con questo md5sum file `(osgeo-live-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso.md5/download>`_.
 
@@ -22,7 +29,14 @@ Un DVD bootable basato su Lubuntu, che contiene anche l'installer per windows e 
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download
 
-`osgeo-live-mini-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+
+.. image:: ../images/download_buttons/download-mini.png
+  :alt: Scarica file iso senza l'installer per windows e mac
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download
+
+`osgeo-live-mini-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download>`_ : |osgeolive-iso-mini-size|
 
 Stessa cosa del osgeo-live-9.0.iso,  al di fuori che non contiene l'installer per windows e mac e può essere copiato in una unità USB avviabile di almeno 4 GB. Si può verificare il download con questo md5sum file `(osgeo-live-mini-9.0.iso.md5) <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso.md5/download>`_.
 

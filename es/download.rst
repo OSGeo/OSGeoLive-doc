@@ -12,7 +12,14 @@ La última versión estable de |osgeo-live-version| contiene:
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download
 
-`osgeo-live-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+`osgeo-live-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso/download>`_ : |osgeolive-iso-size|
+
+.. image:: ../images/download_buttons/download-dvd.png
+  :alt: Descarga el fichero iso con instaladores windows
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download
+
+`osgeo-live-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-amd64.iso/download>`_ : |osgeolive-iso-size|
 
 Un DVD de arranque basado en Lubuntu, que también incluye instaladores para
 Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la descarga con su suma de verificación `osgeo-live-9.0.iso.md5 <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-9.0-i386.iso.md5/download>`_.
@@ -22,7 +29,14 @@ Windows y Mac. También se puede copiar a una memoria USB de 8GB. Verificar la d
   :align: left
   :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download
 
-`osgeo-live-mini-9.0.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+`osgeo-live-mini-9.0-i386.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso/download>`_ : |osgeolive-iso-mini-size|
+
+.. image:: ../images/download_buttons/download-mini.png
+  :alt: Descarga iso sin instalador Windows o Mac
+  :align: left
+  :target: http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download
+
+`osgeo-live-mini-9.0-amd64.iso <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-amd64.iso/download>`_ : |osgeolive-iso-mini-size|
 
 Igual que osgeo-live-9.0.iso, excepto que no contiene instaladores para Windows y Mac y se puede copiar en una memoria USB de arranque de 4GB. Verificar la descarga con su suma de verificación `osgeo-live-mini-9.0.iso.md5 <http://download.osgeo.org/livedvd/release/9.0/osgeo-live-mini-9.0-i386.iso.md5/download>`_.
 
