@@ -81,7 +81,7 @@ Details
 
 **License:** 2-clause BSD License (aka FreeBSD License)
 
-**Software Version:** 3.0.0
+**Software Version:** 3.7.0
 
 **API Interface:** JavaScript
 

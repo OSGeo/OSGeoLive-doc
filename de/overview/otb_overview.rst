@@ -19,8 +19,8 @@ OTB stellt Werkzeuge für Optic und Radarbilder
 (3D Aspekte, Erkennung von Änderungen, Texturanalysen, Musterabgleich, optische/radar Komplementaritäten) zur Verfügung.
 Viele der Prozesse können auf weniger leistungsstarken Notebooks laufen.
 
-OTB wird mit einer vollständig integrierten Benutzeroberfläche mit dem Namen Monteverdi 
-ausgeliefert. Diese ermöglicht es dem Anwender OTB Prozessketten über das Menü auszuwählen.
+OTB wird mit erweiterbaren direkt einsatzfähigen Werkzeugen für klassische Remote Sensing Fragestellungen sowie mit einer vollständig integrierten Benutzeroberfläche mit dem Namen Monteverdi2 
+ausgeliefert. Monteverdi2 ermöglicht es dem Anwender OTB Prozessketten über das Menü auszuwählen.
 
 OTB wurde von der French Space Agency (CNES) im Rahmen des
 methodischen Bereichs des ORFEO/Pleiades Accompaniement Programms gegründet und 
@@ -58,7 +58,7 @@ Details
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
   für französisches Recht)
 
-**Software Version:** 4.2.1
+**Software Version:** 5.0.0
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 

@@ -1,3 +1,15 @@
+osgeolive-docs (9.0~rc3) trusty; urgency=medium
+
+  * Web Site version
+
+ -- Johan Van de Wauw <johan.vandewauw@gmail.com>  Thu, 15 Sep 2015 11:15:00 +0200
+
+osgeolive-docs (9.0~rc2) trusty; urgency=medium
+
+  * Final version, ready for release 
+
+ -- Johan Van de Wauw <johan.vandewauw@gmail.com>  Thu, 03 Sep 2015 01:15:30 +0200
+
 osgeolive-docs (9.0~prerelease-20150603) trusty; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>

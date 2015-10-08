@@ -12,12 +12,13 @@
       <link rel="stylesheet" href="../../reveal.js/css/reveal.min.css">
       <link rel="stylesheet" href="../../reveal.js/css/theme/osgeo.css" id="theme">
       <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
-      <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">      
+      <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
       <!-- For syntax highlighting -->
       <link rel="stylesheet" href="../../reveal.js/lib/css/zenburn.css">
    </head>
    <body>
       <div class="reveal">
+         <img src="../../images/CC-By-SA-med.png" alt="Creative Commons License Share Alike 3.0" target="https://creativecommons.org/licenses/by-sa/3.0/" id=license>
          <div class="slides">
             <section>
                <h1>OSGeoLive</h1>
@@ -81,7 +82,7 @@
                   </aside>
                </section>
                <section>
-                  <h2>Production &amp; Marketing Pipeline</h2>
+                  <h2>Production &amp; Marketing </br> Pipeline</h2>
                   <a class="image" target="_blank">
                   <img width="600" src="../../images/presentation/pipeline.png">
                   </a>
@@ -104,43 +105,24 @@
                       <li>built using the official Ubuntu spin-off tools</li>
                       <li>Continous Integration / nightly builds</li>
                       <li>Source Code Management in Subversion + Trac</li>
-                  </ul>            
+                  </ul>
                   <aside class="notes">
                   </aside>
                   </section-->
                <section>
-                  <h2>New in 8.5?</h2>
+                  <h2>New in 9.0?</h2>
                     <ul>
-                    Added:
-                      <ul>
-                        <li>Cesium - 3D Rendering in a browser</li>
-                        <li>IPython Notebooks</li>
-                      </ul>
-                     Major Updates:
-                      <ul>
-                        <li>GRASS 7.0</li>                        
-                        <li>OpenLayers 3.0</li> 
-                      </ul>
+                        <li>Source code control moved to <a href="https://github.com/OSGeo/OSGeoLive">git</a></li>
+                        <li>64-bit architecture support available along 32-bit</li>
+                        <li>We have steadily been moving more of our projects to <a href="https://launchpad.net/~osgeolive">deb packaging</a>, which makes it easier to install programs on debian based systems</li>
+                        <li>32 geospatial applications have been updated to newer versions</li>
                     </ul>
+                  <br/>
                   <a class="image" target="_blank">
-                  <img src="../../images/screenshots/1024x768/cesiumjs_3in1.png" height="400" alt="" />
+                     <img width="600" align="right" src="../../images/screenshots/800x600/osgeolive_menu.png">
                   </a>
                   <aside class="notes">
-<p>The 8.5 release adds Cesium, which provides 3D rendering in the browser and IPython Notebooks, which allow you to mix rich media, a bit like a cross between a spreadsheet and a webpage.</p>
-<p>GRASS has had a major upgrade to 7.0, and OpenLayers 3.0 has been completely rewritten from the ground up.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>Coming in Version 9.0</h2>
-                    <ul>
-                        <li>Ready for FOSS4G 2015 in Seoul</li>
-                        <li>planned release date: 30 August 2015 </li>
-                        <li>code moved to git</li>
-                        <li>64bit version available</li>
-                        <li><b>Support us with testing!</b></li>
-                    </ul>
-                  <aside class="notes">
-<p>OSGeo-live Version 9.0 is coming soon. Will be ready for FOSS4G 2015 in Seoul. OSGeo-Live code is now in git not svn. OSGeo-Live will be available as 64bit version and 32bit version. </p>
+<p>With OSGeo-live Version 9.0 we have focused on the infrastructure side of the project, moving the code from subversion to git, and releasing a 64 bit images as well as the previous 32 bit images.</p>
                   </aside>
                </section>
             </section>
@@ -185,15 +167,15 @@
                   <small>
                      <table>
                         <tr>
-                           <td>QGIS<br/><img src="../../images/project_logos/logo-QGIS.png" width="150"/></td>
-                           <td>GRASS GIS<br/><img src="../../images/project_logos/logo-GRASS.png" width="150"/></td>
-                           <td>gvSIG<br/><img src="../../images/project_logos/logo-gvSIG.png" width="150"/></td>
-                           <td>uDig<br/><img src="../../images/project_logos/logo-uDig.png" width="150"/></td>
+                           <td>QGIS<br/><img src="../../images/project_logos/logo-QGIS.png" width="135"/></td>
+                           <td>GRASS GIS<br/><img src="../../images/project_logos/logo-GRASS.png" width="130"/></td>
+                           <td>gvSIG<br/><img src="../../images/project_logos/logo-gvSIG.png" width="140"/></td>
                         </tr>
                         <tr>
-                           <td>Kosmo<br/><img src="../../images/project_logos/logo-Kosmo.png" width="200"/></td>
+                           <td>uDig<br/><img src="../../images/project_logos/logo-uDig.png" width="150"/></td>
                            <td>OpenJUMP<br/><img src="../../images/project_logos/logo-openjump.png" width="150"/></td>
                            <td>SAGA<br/><img src="../../images/project_logos/logo-saga.png" width="150"/></td>
+                           <td>Kosmo<br/><img src="../../images/project_logos/logo-Kosmo.png" width="200"/></td>
                         </tr>
                      </table>
                   </small>
@@ -227,7 +209,7 @@
                   </aside>
                </section>
                <section>
-                  <h2>uDig: User-friendly Desktop Internet GIS</h2>
+                  <h2>uDig: User-friendly Desktop </br> Internet GIS</h2>
                   <p><img src="../../images/screenshots/1024x768/udig-overview.png" width="800" height="600" alt="" /></p>
                   <aside class="notes">
                      <p>uDig is a java-based spatial data viewer and editor, which is based upon the geotools library and powerful Eclipse development environment, making uDig a common choice for developers wishing to integrate mapping into java based applications.</p>
@@ -265,14 +247,14 @@
                   <small>
                      <table>
                         <tr>
-                           <td>OpenLayers<br/><img src="../../images/project_logos/logo-OpenLayers.png"/></td>
+                           <td>OpenLayers3<br/><img src="../../images/project_logos/logo-OpenLayers.png"/></td>
                            <td>Leaflet<br/><img src="../../images/project_logos/logo-leaflet.png"/></td>
                            <td>Cesium<br/><img src="../../images/project_logos/logo-cesium.png"/></td>
                            <td>Geomajas<br/><img src="../../images/project_logos/logo-geomajas.png"/></td>
                         </tr>
                         <tr>
                            <!--td>MapFish<br/><img src="../../images/project_logos/logo-mapfish.png"/></td-->
-                           <td>Mapbender<br/><img src="../../images/project_logos/logo-Mapbender3.png"/></td>
+                           <td>Mapbender3<br/><img src="../../images/project_logos/logo-Mapbender3.png"/></td>
                            <td>GeoMOOSE<br/><img src="../../images/project_logos/logo-geomoose.png"/></td>
                            <td>Cartaro<br/><img src="../../images/project_logos/logo-cartaro.png"/></td>
                            <td>GeoNode<br/><img src="../../images/project_logos/logo-geonode.png"/></td>
@@ -500,7 +482,7 @@
                   </aside>
                </section>
                <section>
-                  <h2>SpatiaLite - Lightweight Database</h2>
+                  <h2>SpatiaLite - Lightweight </br> Database</h2>
                   <p><img src="../../images/screenshots/1024x768/spatialite.jpg" width="700" alt="" /></p>
                   <aside class="notes">
                     <p>SpatiaLite adds spatial functionality to the popular SQLite database. </p>
@@ -538,6 +520,7 @@
                            <td>OpenCPN<br/><img src="../../images/project_logos/logo-opencpn.png"/></td>
                            <td>Open Street Map<br/><img src="../../images/project_logos/logo-osm.png"/></td>
                            <td>Viking<br/><img src="../../images/project_logos/logo-viking.png"/></td>
+                           <td>zyGrib<br/><img src="../../images/project_logos/logo-zygrib.png"/></td>
                         </tr>
                      </table>
                   </small>
@@ -587,6 +570,13 @@
                   <p><img src="../../images/screenshots/1024x768/viking-0_9_8-europe.jpg" width="800" height="600" alt="" /></p>
                   <aside class="notes">
                      <p>Viking is a GPS data editor, analyser and viewer. It allows you to import and plot tracks and waypoints, show OpenStreetMap and Terraserver maps, download geocaches for a map area, make new tracks and waypoints, see your real time GPS position and more.</p>
+                  </aside>
+               </section>
+               <section>
+                  <h2>zyGrib - Weather Forecast Maps</h2>
+                  <p><img src="../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg" width="800" height="600" alt="" /></p>
+                  <aside class="notes">
+                     <p>zyGrib is a program to download and visualize weather forecast data from GRIB data sources, the standard format for storing meteorological forecast and historical data. Among other things, it supports playing forecast animations, plotting wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude pressure data.</p>
                   </aside>
                </section>
             </section>
@@ -702,7 +692,6 @@ They are a bit like a spreadsheet in that each cell can contain code or a formul
                         </tr>
                         <tr>
                            <td>MB-System<br/><img src="../../images/project_logos/logo-mb-system.png"/></td>
-                           <td>zyGrib<br/><img src="../../images/project_logos/logo-zygrib.png"/></td>
                         </tr>
                      </table>
                   </small>
@@ -738,13 +727,6 @@ They are a bit like a spreadsheet in that each cell can contain code or a formul
                   <p><img src="../../images/screenshots/1024x768/mb-system_screenshot.png" width="800" height="600" alt="" /></p>
                   <aside class="notes">
                     <p>MB-System processes and displays bathymetry and backscatter imagery data derived from multibeam, interferometry, and sidescan sonars.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>zyGrib - Weather Forecast Maps</h2>
-                  <p><img src="../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg" width="800" height="600" alt="" /></p>
-                  <aside class="notes">
-                     <p>zyGrib is a program to download and visualize weather forecast data from GRIB data sources, the standard format for storing meteorological forecast and historical data. Among other things, it supports playing forecast animations, plotting wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude pressure data.</p>
                   </aside>
                </section>
             </section>
@@ -960,10 +942,10 @@ They are a bit like a spreadsheet in that each cell can contain code or a formul
              progress: true,
              history: true,
              center: true,
-         
+
              theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
              transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-         
+
              // Optional libraries used to extend on reveal.js
              dependencies: [
                  { src: '../../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -977,7 +959,7 @@ They are a bit like a spreadsheet in that each cell can contain code or a formul
                  // { src: '../../reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
              ]
          });
-         
+
       </script>
    </body>
 </html>

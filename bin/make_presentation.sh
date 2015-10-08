@@ -21,20 +21,23 @@
 # Usage:
 # ======
 # make_presentation <source dir> <target dir>
+# script assumes it is being run in the main directory
 
 tmp=/tmp/make_presentation.tmp
 
-# script assumes it is being run in the bin directory
-cd "`dirname '$0'`/../doc"
-
 cols=8 # Number of table columns
 source="en/presentation" # source presentation file
+target="_build/html/en/presentation" # target presentation file
+
 if [ -d "$1" ] ; then
   source="$1";
-fi
-target="_build/html/en/presentation" # target presentation file
-if [ -d "$2" ] ; then
-  target="$2";
+  if [ "$2" ] ; then
+    target="$2";
+  else
+    echo "You have to pass to variables, a source and a target directories"
+    exit
+  fi
+
 fi
 
 mkdir -p "$target"
@@ -54,8 +57,8 @@ insertLine=`grep -n "Contributors and translators table is inserted here" "$sour
 
 # Replace space with @ so the name string is treated as one token in the for
 # loop
-cut -d"," -f1 ../doc/contributors.csv | sed -e "s/ /@/g ; s/Name//" > "$tmp"
-cut -d"," -f3 ../doc/translators.csv | sed -e "s/ /@/g ; s/Name//" >> "$tmp"
+cut -d"," -f1 contributors.csv | sed -e "s/ /@/g ; s/Name//" > "$tmp"
+cut -d"," -f3 translators.csv | sed -e "s/ /@/g ; s/Name//" >> "$tmp"
 
 # print top of the presentation file
 head -n "$insertLine" "$source/index.html" > "$target/index.html"
@@ -63,13 +66,13 @@ head -n "$insertLine" "$source/index.html" > "$target/index.html"
 j=0
 echo "<table>" >> "$target/index.html"
 for name in `cat "$tmp" | sort -u` ; do
-  if [ $((j % cols )) -eq 0 ]; then 
+  if [ $((j % cols )) -eq 0 ]; then
     echo "<tr>" >> "$target/index.html"
   fi
   # insert space back into name string
   echo "<td>$name</td>" | sed -e "s/@/ /g" >> "$target/index.html"
   j=$((j + 1 ))
-  if [ $((j % cols )) -eq 0 ]; then 
+  if [ $((j % cols )) -eq 0 ]; then
     echo "</tr>" >> "$target/index.html"
   fi
 done

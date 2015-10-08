@@ -2,7 +2,7 @@
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Toshikazu Seto
-:Version: osgeo-live7.0-draft
+:Version: osgeo-live8.5-draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -10,9 +10,9 @@
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -85,7 +85,7 @@ OGC標準:
 
 **ライセンス:** `MIT`_
 
-**ソフトウェア・バージョン:** 1.6.1
+**ソフトウェア・バージョン:** 1.10.1
 
 **ソフトウェア・プラットフォーム:** Windows, Linux, Mac
 

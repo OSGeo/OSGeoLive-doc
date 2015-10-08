@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Micha Silver
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live 9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 
@@ -21,9 +21,6 @@ SpatiaLite Quickstart
 ********************************************************************************
 
 SpatiaLite is an SQLite database engine with spatial functions added. 
-
-.. TBD: Cameron Review Comment:
-  Please check my rewording below, then remove this comment.
 
 SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
@@ -98,31 +95,6 @@ table:
 
   .. image:: ../../images/screenshots/800x600/spatialite-gui-select.png
       :scale: 70 %
-
-
-Using spatialite-gis
-================================================================================
-
-.. TBD: Cameron Review Comment:
-  I'm mildly in favour of removing this spatialite-gis section.
-  Should we be recommending people to use QGIS instead?
-  I'd suggest that the "Things to try" section should suggest trying
-  spatialite-gis
-
-Spatialite-gis is a simple viewer for spatialite based layers.
-
-.. TBD: Cameron Review Comment:
-  If this section is included, it requires a number of screen shots.
-
-* From the Desktop GIS folder on the Desktop run spatialite-gis
-* Click the "Connecting existing SQLite DB" button and connect to /home/user/data/spatialite/trento.sqlite
-
-You should see a map of Trento Provence in Italy
-
-   - Right click on the Highways layer and select :menuselection:`Hide`
-   - Right Click on the LocalCouncilsTrento layer and select :menuselection:`Layer Configuration->Classify` and choose "Shape Area" for the column. Select 4 Classes and click on the Min and Max color patches to choose a dark and light color. Now click to see a Choropleth display of the provence areas.
-   - Change border color by right click on LocalCouncils and select :menuselection:`Layer configuration->Graphics` and select a different color under Border Graphics.
-   - Zoom in slightly. Right click on the PopulatedPlaces layer and select :menuselection:`Indentify on`. Now click on one of the Populated Places to see the attributes for that feature.
 
 
 Running spatialite from the command line

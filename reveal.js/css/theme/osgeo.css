@@ -24,6 +24,11 @@ body {
   background: #49a942;
   text-shadow: none; }
 
+#license {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
 /*********************************************
  * HEADERS
  *********************************************/
