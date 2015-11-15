@@ -1,8 +1,8 @@
-:Author: OSGeo-Live
+:Author: OSGeo-Live 
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: 
-:Version: osgeo-live6.0
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+:Reviewer: Angelos Tzotsos
+:Version: osgeo-live7.0
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver-2.png
   :scale: 65 %
@@ -15,22 +15,39 @@
 ================================================================================
 
 Введение
---------
+----------
 
-EOxServer — это сервер для работы со снимками Earth Observation (EO). Точнее, это фреймворк написаный на Python для визуализации EO и метаданных.
+EOxServer — это сервер для работы со снимками Earth Observation (EO) с помощью
+открытых стандартов. Он создан на основе набора свободного ПО, который включает Python, :doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL 
+<../overview/gdal_overview>`, PROJ.4 и базы данных :doc:`SpatiaLite <../overview/spatialite_overview>` или :doc:`PostGIS <../overview/postgis_overview>`.
 
-Из данного документа вы узнаете, как:
+Данное «введение» описывает:
 
-* Установить EOxServer в OSGeo-Live
-* Загрузить и посмотреть пример данных
-
-Посмотрите также :doc:`Обзор EOxServer <../overview/eoxserver_overview>`, 
-`документацию EOxServer 0.2.1  <../../eoxserver-docs/EOxServer_documentation.pdf>`_, or the `онлайн-документацию <http://eoxserver.org/doc/>`_ для более полного ознакомления.
+* Как просматривать данные EO, фильтровать, делать выборки и загружать через
+  веб-клиент EOxServer.
+* Как регистрировать данные EO через паенль администрирования EOxServer.
 
 .. contents:: Contents
 
-Установка
-------------
+Посмотрите также :doc:`Обзор EOxServer <../overview/eoxserver_overview>`, the 
+`локальную документацию EOxServer <../../eoxserver-docs/EOxServer_documentation.pdf>`_ или `онлайн документацию <http://eoxserver.org/doc/>`_ для более подробной информации.
+
+.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
+  :scale: 50 %
+  :alt: EOxServer documentation
+
+.. contents:: Contents
+
+			  
+Демонстрационный пример
+---------------------------
+
+.. Commented since Tomcat isn't started automatically anymore (#1032).
+    In case you use OSGeoLive with 1GB RAM or less it is recommended to stop default Tomcat service before launching EOxServer
+    :: 
+
+      sudo service tomcat6 stop
+
 
 Чтобы установить EOxServer, запустите следующую команду::
 
@@ -47,22 +64,17 @@ EOxServer — это сервер для работы со снимками Ear
 Демонстрационные примеры
 ------------------------
 
-На рабочем столе появилась иконка `EOxServer`. Щёлкните по ней, появится
-демонстрационный пример из http://localhost/eoxserver/.
+Щёлкните по значку `EOxServer` из раздела `Web Services`. Запустится браузер,
+показывающий демонстрационную страницу http://localhost/eoxserver/ с теми же
+данными, которые доступны `онлайн <https://eoxserver.org/demo_stable/>`_.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
   :alt: EOxServer demonstration start
 
-Ещё одна иконка на рабочем столе называется `EOxServer Documentation`,
-открывается любым PDF-ридером. Внутри — документация.
-
-.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
-  :scale: 50 %
-  :alt: EOxServer documentation
 
 Веб-клиент
-~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 Ссылка **Web Client** позволит вам увидеть список доступных серий данных (`Dataset Series`) 
 и мозаик (`Stitched Mosaics`). В примере есть один `Dataset Series`, который называется
@@ -81,15 +93,18 @@ EOxServer — это сервер для работы со снимками Ear
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
-Использование стандартных контролов OpenLayers позволяет включить также превью
-имеющихся данных.
+Использование стандартных контролов OpenLayers позволяет включить также
+предпросмотр имеющихся данных (preview). Нажмите на **(+** в верхнем правом углу
+окна, чтобы получить список для выбора слоя; чтобы изменить масштаб, используйте
+или колесо мыши, или удердивайте нажатой кнопку Shift и кликните левой кнопкой
+мыши, рисуя регион на карте.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
-С **Date slider** наборы данных `Datasets` могут быть ограничены по времени 
-с помощью интересующих вас интервалов.
+Слайдером (**Date slider**) наборы данных `Datasets` могут быть
+ограничены по времени с помощью интересующих вас интервалов.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
@@ -113,7 +128,7 @@ EOxServer — это сервер для работы со снимками Ear
   :alt: EOxServer demonstration embedded client download
 
 Служба управления (Admin Client)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ссылка **Admin Client**  приводит на страницу входа в службу управления (`Admin Client`). 
 В нашем случае пароль для пользователя `admin` — `admin`.

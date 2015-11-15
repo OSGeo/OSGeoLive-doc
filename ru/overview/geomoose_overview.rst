@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geomoose.png
@@ -28,9 +28,8 @@ GeoMOOSE — быстрое приложение, отлично работаю
 
 Пользовательский интерфейс легко настраивается, а модульная архитектура позволяет добавлять дополнительные сервисы.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
-  :scale: 55 %
-  :alt: geomoose-screenshot-800x600.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+  :alt: GeoMoose Screenshot
   :align: right
 
 Основные возможности
@@ -51,7 +50,9 @@ GeoMOOSE — быстрое приложение, отлично работаю
 Реализованные стандарты
 --------------------------------------------------------------------------------
 * WMS
-
+* WFS (клиент)
+* WFS-T (клиент)
+  
 Дополнительная информация
 --------------------------------------------------------------------------------
 
@@ -59,7 +60,7 @@ GeoMOOSE — быстрое приложение, отлично работаю
 
 **Лицензия:** основанная на MIT, http://www.geomoose.org/info/license.html
 
-**Версия ПО:** 2.4
+**Версия ПО:** 2.8.0
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 
@@ -72,3 +73,4 @@ GeoMOOSE — быстрое приложение, отлично работаю
 --------------------------------------------------------------------------------
     
 * :doc:`Введение <../quickstart/geomoose_quickstart>`
+
