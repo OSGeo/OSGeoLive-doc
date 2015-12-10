@@ -143,7 +143,7 @@ presentation:
 	  if [ -d $$LANG/presentation ] ; then \
 	    bin/make_presentation.sh $$LANG/presentation $(BUILDDIR)/html/$$LANG/presentation ; \
 	  else  \
-	    rm -f $(BUILDDIR)/html/$$LANG/presentation; \
+	    rm -rf $(BUILDDIR)/html/$$LANG/presentation; \
 	    ln -s ../en/presentation $(BUILDDIR)/html/$$LANG/presentation; \
 	  fi; \
 	done; \
