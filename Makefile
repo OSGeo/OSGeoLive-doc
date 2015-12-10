@@ -36,7 +36,12 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	-rm licenses.csv index.rst
+	if [ -e licenses.csv ] ; then \
+	  rm -f licenses.csv ; \
+	fi ; \
+	if [ -e index.rst ] ; then \
+	  rm -f index.rst ; \
+	fi ; \
 	# remove symbolic linked files
 	rm -f `find ./*/ -type l -print`
 
