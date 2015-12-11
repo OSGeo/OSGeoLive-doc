@@ -49,8 +49,8 @@ http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-Выберите :menuselection:`Applications --> System --> Startup Disk Creator` или
-найдите `Startup Disk Creator` в интерфейсе Unity.
+Выберите :menuselection:`System Tools --> Startup Disk Creator` или
+найдите `Startup Disk Creator` через интерфейс Unity.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %

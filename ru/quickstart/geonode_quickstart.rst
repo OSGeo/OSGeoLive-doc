@@ -1,0 +1,1 @@
+../../en/quickstart/geonode_quickstart.rst
