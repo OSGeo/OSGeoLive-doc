@@ -32,6 +32,10 @@ Sample data used in this quickstart can be found here:
 
 Please download the data and extract them in the folder `/home/user/otb/`.
 
+If you want to use the OTB library and compile your C++ code inside OSGeo-Live,
+you will need to install development package **libotb-dev** and most probably
+cmake also. 
+
 
 Display metadata informations in an image 
 ================================================================================
