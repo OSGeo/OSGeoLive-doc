@@ -117,7 +117,7 @@ Questo monterà i Guest Additions come CD drive nella vostra OSGeo Live VM.
 
 Quando la cartella del CD appare, aprite un terminale ed eseguite i seguenti comandi:
 
-``user@osgeolive:~$ suThis t-get install build-essential linux-headers-generic``
+``user@osgeolive:~$ su apt-get install build-essential linux-headers-generic``
 
 ``user@osgeolive:~$ cd /media/VBOXADDITIONS_4.1.18_78361/``
 
