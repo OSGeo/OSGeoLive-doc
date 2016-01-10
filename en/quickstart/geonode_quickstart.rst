@@ -24,27 +24,14 @@ open at http://geonode. The page will look like the image below.
 
     .. figure:: ../../images/screenshots/800x600/geonode_start_page.png
 
-1. Register a new account
---------------------------
+1. Sign in as a registered user
+-------------------------------
 
-From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to create an account first.
+From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to sign in first.
 
-#. From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, click the *Register now* link. (if the Register Now link is missing try "admin" and "admin" for the Username and Password)
+From any page in the web interface, you will see a *Sign in* link. Click that link, and in the dialog that displays, fill in the user credentials. Try "admin" and "admin" for the Username and Password.
 
    .. figure:: ../../images/screenshots/800x600/geonode_signin_quickstart.png
-
-
-#. On the next page, fill out the form. Enter a user name and password in the fields. Also, enter your email address for verification.
-
-   .. figure:: ../../images/screenshots/800x600/geonode_signup.png
-
-
-#. You will be returned to the welcome page. An email will be sent confirming that you have signed up. While you are now logged in, you will need to confirm your account. Navigate to the link that was sent in the email.
-
-   .. figure:: ../../images/screenshots/800x600/geonode_confirm.png
-   
-
-#. By clicking *Confirm* you will be returned to the homepage. Now you've registered an account, you are able to add layers to it as well as create maps and share those with other users. 
 
 
 2. Add a new layer
