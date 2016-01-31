@@ -25,7 +25,6 @@ General GIS viewing, editing, and analysis on the desktop:
   <script type="text/javascript" src="http://www.openhub.net/p/udig/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/9819/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/saga-gis/widgets/project_factoids_stats.js"></script>
-  <script type='text/javascript' src='https://www.openhub.net/p/wwj/widgets/project_factoids_stats?format=js'></script>
 
 Missing:
 
@@ -96,6 +95,7 @@ Navigation and Maps
   <script type="text/javascript" src="http://www.openhub.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/viking/widgets/project_factoids_stats.js"></script>
+  <script type='text/javascript' src='https://www.openhub.net/p/wwj/widgets/project_factoids_stats?format=js'></script>
 
 OpenStreetMap tools
 --------------------------------------------------------------------------------
