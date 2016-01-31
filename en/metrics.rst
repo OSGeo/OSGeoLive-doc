@@ -43,6 +43,7 @@ General GIS viewing, editing and analysis in the browser:
   <script type="text/javascript" src="http://www.openhub.net/p/mapbender/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geomoose/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geonode/widgets/project_factoids_stats.js"></script>
+  <script type='text/javascript' src='https://www.openhub.net/p/WebWorldWind/widgets/project_factoids_stats?format=js'></script>
 
 Missing:
 
@@ -94,6 +95,7 @@ Navigation and Maps
   <script type="text/javascript" src="http://www.openhub.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/viking/widgets/project_factoids_stats.js"></script>
+  <script type='text/javascript' src='https://www.openhub.net/p/wwj/widgets/project_factoids_stats?format=js'></script>
 
 OpenStreetMap tools
 --------------------------------------------------------------------------------
