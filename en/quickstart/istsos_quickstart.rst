@@ -3,7 +3,7 @@
 :Version: osgeo-live9.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-... image:: ../../images/project_logos/logo-istsos.png
+.. image:: ../../images/project_logos/logo-istsos.png
   :alt: project logo
   :align: right
   :target: http://istsos.org
@@ -74,7 +74,7 @@ This format is a CSV represented by a header as the first line containing the UR
 
 
 .. image:: ../../images/screenshots/1024x768/istsos_viewer.png
-  :scale: 80 %
+  :scale: 50 %
 
 Edit data with the CALCULATOR
 ================================================================================
@@ -129,10 +129,10 @@ What Next?
 ================================================================================
 
 To learn more about istSOS, a starting point is the `istSOS Documentation`_
- and the `istSOS Tutorial`_
+ and the `istSOS Tutorial`_.
  
-.. _`istSOS Documentation`:http://istsos.org/en/trunk/doc/index.html
-.. _`istSOS Tutorial`:http://istsos.org/tutorial/
+.. _`istSOS Documentation`: http://istsos.org/en/trunk/doc/index.html
+.. _`istSOS Tutorial`: http://istsos.org/tutorial/
 
 
 
