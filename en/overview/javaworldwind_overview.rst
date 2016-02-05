@@ -1,33 +1,43 @@
 :Author: Gabriele Prestifilippo
-:Version: World Wind Java SDK 2.0
-:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html/>`_ 
-
-
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live9.5
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logoNasaJWW.png
   :alt: project logo
   :align: right
   :target: http://goworldwind.org/
 
-World Wind Java SDK
+Java World Wind
 ================================================================================
 
 
 Features
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+World Wind is a set of Application Programming Interface (API) to display and interact with a virtual globe. 
+
+Written in Java so as to be cross-platform and easy-to-use, World Wind allows developers to quickly and easily create interactive visualizations of 3 dimensional globe, map and geographical information.
+
 World Wind provides a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects.
+
+Organizations across the world use World Wind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the Earth.
+
+In November 2009 was awarded NASA Software of the Year.  Since then it has developed a global community of users, from government, education, the non-profit sector, as well as private industry.
+
+.. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
+ :scale: 50 %
+ :alt: Web World Wind Example
+ :align: left
 
 _____________________________
 General Features
 _____________________________
 
-* Open-source, high-performance 3D Virtual globe API and SDK
-* Adds 3D geographic visualization to any application
-* Runs on Windows, Mac OS X, Linux, iOS (partial) and Android (partial)
+* High-performance 3 dimensional Virtual globe API and Software Development Kit (SDK)
+* Adds 3 dimensional geographic visualization to any application
+* Runs on Windows, Mac OS X, Linux, iOS and Android
 * Runs in web pages in Java applets
-* Free run-time and development license
-* Unencumbered use on any number of devices
 * Huge collection of high-resolution imagery and terrain from NASA servers
 * Displays high-resolution imagery, terrain and geographic information from any open-standard public or private source
 * Open-standard interfaces to GIS services and databases
@@ -45,7 +55,7 @@ _____________________________
 * Airspaces: Box, Cake, Capped Cylinder (full and partial), Curtain, Orbit, PolyArc, Polygon, Route, Sphere, Track
 * Annotation: Text, Text Balloon, HTML5 web-browser Balloon, Image, Icons, all with geo-located and screen versions
 * Placenames, Political boundaries
-* 2.5D ìFlat Globeî with terrain
+* 2.5D ‚ÄúFlat Globe‚Äù with terrain
 * Transparency
 * Picking, Selection
 * Navigation and Viewing: Orbit View, First Person, Stereo, application-defined
@@ -72,22 +82,16 @@ _____________________________
 * Terrain intersection
 * Shape interactions
 
-_____________________________
-Miscellaneous Capabilities
-_____________________________
 
-* Deploy as Java Application, Java Applet or Java Web Start Application
-* GIS web service protocols: WMS, WFS
-* Swing, AWT and JOGL integration
-* Layer model with visibility and transparency control
-* Highly configurable and customizable
-* Automatic image and terrain retrieval from web services
-* Animation: View, globe, object
-* Local data cache
-* Automatic region sorting
-* Over 100 programming examples
-* API documentation
-* Community support forum
+Implemented Standards
+--------------------------------------------------------------------------------
+* GML 2.0, 1
+* KML 2.3, 2.2
+* WFS 2.0, 1.0
+* WMS 1.1, 1.3
+* WMTS 1.0
+* OWS 1.0
+
 
 
 Details
@@ -99,11 +103,11 @@ Details
 
 **Software Version:** World Wind Java SDK 2.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac, Android, iOS
 
 **Forum:** http://forum.worldwindcentral.com/
 
 Quickstart
 --------------------------------------------------------------------------------
     
-:doc: `Quickstart documentation <../quickstart/javaworldwind_quickstart>`_
+:doc: `Quickstart documentation <../quickstart/NasaJWW_quickstart>`_
