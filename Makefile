@@ -49,6 +49,7 @@ link_to_en_docs:
 	# For quickstart, standards and overview docs which have not been
 	# translated, link to english doc
 	for LANG in $(TRANSLATIONS) ; do \
+	  mkdir -p $$LANG/overview $$LANG/quickstart $$LANG/standards ; \
 	  for DOC in en/overview/* en/quickstart/* en/standards/* ; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../../#"` ; \
