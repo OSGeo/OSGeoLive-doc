@@ -16,11 +16,10 @@ istSOS is an OGC SOS server implementation written in Python using :doc:`PostGIS
 istSOS allows for managing and dispatch observations from monitoring sensors according to the Sensor Observation Service standard.
 The project provides also a Graphical user Interface that allows for easing the daily operations and a RESTFull Web api for automatizing administration procedures.
 
-This Quick Start describes how to:
+istSOS is installed by default on the OSGeo-Live DVD. This QuickStart will describe how to:
 
-  * add new observations
-  * view and edit data
-
+  * add new observations using a python script and the RestFul API
+  * view and edit data with the administration interface
 
 Add new observations
 ================================================================================
