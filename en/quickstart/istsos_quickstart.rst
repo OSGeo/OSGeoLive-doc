@@ -1,6 +1,6 @@
 :Author: Massimiliano Cannata, Milan Antonovic - SUPSI
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live9.0
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-istsos.png
@@ -12,24 +12,21 @@
 istSOS Quickstart 
 ********************************************************************************
 
-istSOS is an OGC SOS server implementation written in Python using :doc:`PostGIS <../overview/postgis_overview>` for data storage.
-istSOS allows for managing and dispatch observations from monitoring sensors according to the Sensor Observation Service standard.
-The project provides also a Graphical user Interface that allows for easing the daily operations and a RESTFull Web api for automatizing administration procedures.
+istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` standard.
 
-istSOS is installed by default on the OSGeo-Live DVD. This QuickStart will describe how to:
+This QuickStart describes how to:
 
-  * add new observations using a python script and the RestFul API
-  * view and edit data with the administration interface
+  * Add new observations using a python script and the RestFul API.
+  * View and edit data with the administration interface.
 
 Add new observations
 ================================================================================
 
-#. Create a text files with sensor data formatted according to "text/csv, subtype=istSOS".
-This format is a CSV represented by a header as the first line containing the URI names of the observed properties, the following lines contains the data.
+#. First we will create a text file with sensor data, formatted according to "text/csv, subtype=istSOS". The file uses a Comma Separated Values (CSV) format. The first line contains header information, including URI names of the observed properties. The following lines contain the data.
 
-    #. Click :menuselection:`Accessories --> Leafpad`.
+    #. Open a text editor by selecting :menuselection:`Accessories --> Leafpad`.
 
-    #. Copy and paste the follwing text:
+    #. Copy and paste the follwing text into the text editor window:
     
     .. code-block:: rest
     
@@ -46,11 +43,11 @@ This format is a CSV represented by a header as the first line containing the UR
         2014-06-03T16:00:00.00Z,18.00
         2014-06-03T16:10:00.00Z,17.20
 
-    #. Save the file as "T_LUGANO_20140603161000000.dat" on the Desktop (PROCEDURENAME_YYYYMMDDhhmmssfff.dat)
+    #. Save the file as "T_LUGANO_20140603161000000.dat" on the Desktop. The filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat
     
-    #. Click :menuselection:`Accessories --> LXTerminal`.
+    #. Open a terminal by selecting :menuselection:`Accessories --> LXTerminal`.
     
-    #. Write "cd /usr/share/istsos/" and press ENTER
+    #. In the terminal, enter: "cd /usr/share/istsos/" and press ENTER
     
     #. Write "python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos -s demo -w ~/Desktop" and press ENTER
     
@@ -69,7 +66,7 @@ This format is a CSV represented by a header as the first line containing the UR
       
     #. Click the Add button
     
-    #. Click the Plot button and check that the data have been added (whatch out at your time zone!)
+    #. Click the Plot button and check that the data have been added (watch out at your time zone!)
 
 
 .. image:: ../../images/screenshots/1024x768/istsos_viewer.png
