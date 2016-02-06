@@ -44,6 +44,7 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse im Browser:
   <script type="text/javascript" src="http://www.openhub.net/p/mapbender/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geomoose/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/geonode/widgets/project_factoids_stats.js"></script>
+  <script type='text/javascript' src='https://www.openhub.net/p/WebWorldWind/widgets/project_factoids_stats?format=js'></script>
 
 Fehlend:
 
@@ -64,6 +65,7 @@ Veröffentlichung von Geodaten im Netz:
   <script type="text/javascript" src="http://www.openhub.net/p/pycsw/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapproxy/widgets/project_factoids_stats.js"></script>
   <!--script type="text/javascript" src="http://www.openhub.net/p/fiftytwonorth_security/widgets/project_factoids_stats.js"></script-->
+  <script type="text/javascript" src="http://www.openhub.net/p/istsos/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/n52-wps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/SensorObservationService/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/tinyows/widgets/project_factoids_stats.js"></script>
@@ -95,6 +97,7 @@ Navigation und Karten
   <script type="text/javascript" src="http://www.openhub.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/opencpn/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/viking/widgets/project_factoids_stats.js"></script>
+  <script type='text/javascript' src='https://www.openhub.net/p/wwj/widgets/project_factoids_stats?format=js'></script>
 
 OpenStreetMap Werkzeuge
 --------------------------------------------------------------------------------
