@@ -1,6 +1,6 @@
 :Author: Massimiliano Cannata, Milan Antonovic, SUPSI
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live9.0
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-istsos.png
