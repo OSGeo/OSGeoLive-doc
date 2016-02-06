@@ -245,7 +245,7 @@ rst_epilog="""
 .. |version-geoserver| replace:: 2.6.1
 .. |version-geokettle| replace:: 2.6
 .. |version-gvsig| replace:: 2.1
-.. |version-mapbender| replace:: 3.0.5.0
+.. |version-mapbender| replace:: 3.0.5.3
 .. |version-udig| replace:: 1.4.0b
 .. |version-52nWPS| replace:: 3.3.1
 .. |version-52nSOS| replace:: 4.3.0
