@@ -21,7 +21,7 @@ istSOS
 Data Management Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) `Sensor Observation Service (SOS) <../standards/sos_overview>` standard.
+istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` standard.
 
 .. image:: ../../images/screenshots/1024x768/screenshot_istsos.png
   :scale: 60 %
@@ -34,13 +34,13 @@ Core Features
 --------------------------------------------------------------------------------
 
 * Publish sensor data in accordance with the Sensor Observation Service (SOS) standard.
-* Administer sensors and your data with an **intuitive web-based interface**.
-* Use a complete **RestFul API** to access istSOS functionality from external clients to create interactive charts, display sensor on a dinamic map or just write some maintainance scripts.
-* Get notified through mail, twitter or other social when your sensor data meet specific conditions.
-* **User authentication and authorization** with different access levels (administrator, network manager, data manager and visitor).
-* Create **Virtual Procedures** that look like normal stations but whose data result from on-the-fly elaboration of other sensor data.
-* Associate quality indexes to each observation thanks to **embedded validation tests**.
-* **Online editing** of your data with a seamless interface and advanced observation calculator.
+* Administer sensors and data with an intuitive web-based interface.
+* Use a complete RestFul API to access istSOS functionality from external clients to create interactive charts, display sensor on a dinamic map or just write some maintainance scripts.
+* Get notified through mail, twitter or other social media when sensor data meets specific conditions.
+* User authentication and authorization with different access levels (administrator, network manager, data manager and visitor).
+* Create Virtual Procedures that looks like normal stations but whose data results from on-the-fly elaboration of other sensor data.
+* Associate quality indexes to each observation thanks to embedded validation tests.
+* Online editing of data with a seamless interface and advanced observation calculator.
 
 
 Implemented Standards
