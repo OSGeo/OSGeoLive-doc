@@ -1,43 +1,59 @@
 :Author: Gabriele Prestifilippo
-:Version: World Wind Java SDK 2.0
-:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html/>`_ 
-
-
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live9.5
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logoNasaJWW.png
   :alt: project logo
   :align: right
   :target: http://goworldwind.org/
 
-World Wind Java SDK
+Java World Wind
 ================================================================================
-
-
-Features
+Desktop Virtual Globe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Cameron Comment: This implies that Java World Wind is not a product in its
+  own right, but just an API. Ie, before I can use Java World Wind, I need to
+  write a program. Is that correct? (This would be an issue for many new users)
+
+Java World Wind provides an Application Programming Interface (API) to display and interact with a virtual globe. 
+
+.. Cameron Comment: There is overlap with sentence above and below. I think these sentences could merge.
+
+Written in Java so as to be cross-platform and easy-to-use, Java World Wind allows developers to quickly and easily create interactive visualizations of a 3 dimensional globe and geographical information.
 
 World Wind provides a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects.
 
-_____________________________
-General Features
-_____________________________
+Organizations across the world use World Wind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth.
 
-* Open-source, high-performance 3D Virtual globe API and SDK
-* Adds 3D geographic visualization to any application
-* Runs on Windows, Mac OS X, Linux, iOS (partial) and Android (partial)
+.. Cameron Comment: I sugges that referencing an award in 2009, without noting a more recent achievement implies the project was great once, but is no longer relevant. Might be better to remove the reference. 
+
+In November 2009 was awarded NASA Software of the Year.  Since then it has developed a global community of users, from government, education, the non-profit sector, as well as private industry.
+
+.. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
+ :scale: 50 %
+ :alt: Java World Wind Example
+ :align: right
+
+Core Features
+--------------------------------------------------------------------------------
+
+* High-performance 3 dimensional Virtual globe API and Software Development Kit (SDK)
+* Adds 3 dimensional geographic visualization to any application
+* Runs on Windows, Mac OS X, Linux, iOS and Android
 * Runs in web pages in Java applets
-* Free run-time and development license
-* Unencumbered use on any number of devices
-* Huge collection of high-resolution imagery and terrain from NASA servers
+* Accesses a huge collection of high-resolution imagery and terrain from NASA servers
 * Displays high-resolution imagery, terrain and geographic information from any open-standard public or private source
+
+.. Cameron comment: Try not to duplicate statements, this "open standard" line below can probably be removed or merged with one above.
+
 * Open-standard interfaces to GIS services and databases
 * Large collection of geometric and geographic shapes
-* Simple to extend and modify, designed to be extensible
+* Simple to extend and modify
 * Uses Java and OpenGL
 
-_____________________________
-Graphics Capabilities
-_____________________________
+Graphics Capabilities:
 
 * Point, Path, Polygon, Curtain
 * Volumes: Extruded Polygon, Ellipsoid, Sphere, Cylinder, Cone, Pyramid, Box, Airspaces (see below)
@@ -45,7 +61,7 @@ _____________________________
 * Airspaces: Box, Cake, Capped Cylinder (full and partial), Curtain, Orbit, PolyArc, Polygon, Route, Sphere, Track
 * Annotation: Text, Text Balloon, HTML5 web-browser Balloon, Image, Icons, all with geo-located and screen versions
 * Placenames, Political boundaries
-* 2.5D ìFlat Globeî with terrain
+* 2.5D ‚ÄúFlat Globe‚Äù with terrain
 * Transparency
 * Picking, Selection
 * Navigation and Viewing: Orbit View, First Person, Stereo, application-defined
@@ -53,9 +69,7 @@ _____________________________
 * Interactive shape editors
 * 2525C Tactical Symbols and Tactical Graphics
 
-_____________________________
-Data Formats
-_____________________________
+Data Formats:
 
 * Imagery: JPG, PNG, GeoTIFF, JPEG2000 and many others
 * Government formats: NITF, MrSID, RPF (CADRG, CIB, etc.), DTED and many others
@@ -63,43 +77,33 @@ _____________________________
 * Coordinate Systems: Lat/Lon, UTM, MGRS.
 * Datums: WGS84, NAD27 and many others
 
-_____________________________
-Analysis Capabilities
-_____________________________
+Analysis Capabilities:
 
 *  Measurement,  geometric and terrain following
 * Line of site with high-resolution terrain and shapes
 * Terrain intersection
 * Shape interactions
 
-_____________________________
-Miscellaneous Capabilities
-_____________________________
+Implemented Standards
+--------------------------------------------------------------------------------
 
-* Deploy as Java Application, Java Applet or Java Web Start Application
-* GIS web service protocols: WMS, WFS
-* Swing, AWT and JOGL integration
-* Layer model with visibility and transparency control
-* Highly configurable and customizable
-* Automatic image and terrain retrieval from web services
-* Animation: View, globe, object
-* Local data cache
-* Automatic region sorting
-* Over 100 programming examples
-* API documentation
-* Community support forum
-
+* GML 2.0, 1
+* KML 2.3, 2.2
+* WFS 2.0, 1.0
+* WMS 1.1, 1.3
+* WMTS 1.0
+* OWS 1.0
 
 Details
 --------------------------------------------------------------------------------
 
 **Website:** http://goworldwind.org/
 
-**Licence:** NASA OPEN SOURCE AGREEMENT VERSION 1.3
+**Licence:** NASA Open Source Agreement Version 1.3
 
 **Software Version:** World Wind Java SDK 2.0
 
-**Supported Platforms:** Windows, Linux, Mac
+**Supported Platforms:** Windows, Linux, Mac, Android, iOS
 
 **Forum:** http://forum.worldwindcentral.com/
 
