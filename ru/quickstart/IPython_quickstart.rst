@@ -1,1 +1,0 @@
-../../en/quickstart/IPython_quickstart.rst
