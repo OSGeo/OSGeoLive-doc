@@ -71,4 +71,4 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
 
-:doc: `Quickstart documentation <../quickstart/webworldwind_quickstart>`
+:doc: `Quickstart documentation <../quickstart/webworldwind_quickstart>`_
