@@ -1,1 +1,0 @@
-../../en/quickstart/ncWMS_quickstart.rst
