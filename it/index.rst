@@ -80,4 +80,4 @@ Presentazione
 --------------------------------------------------------------------------------
 Un presentazione di mezz'ora, evidenziando tutti i software di OSGeo-Live, è disponibile come un video, insieme alle slides e lo script.
 
-Dettagli su :doc:`presentation`.
+Dettagli su `presentation <../en/presentation/index.html>`_.
