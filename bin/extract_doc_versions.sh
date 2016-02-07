@@ -5,7 +5,7 @@
 # Author:  Cameron Shorter
 #
 #################################################
-# Copyright (c) 2010 Open Source Geospatial Foundation (OSGeo)
+# Copyright (c) 2010-2016 Open Source Geospatial Foundation (OSGeo)
 # Copyright (c) 2009 LISAsoft
 #
 # Licensed under the GNU LGPL.
@@ -20,20 +20,17 @@
 # in the "LICENSE.LGPL.txt" file distributed with this software or at
 # web page "http://www.fsf.org/licenses/lgpl.html".
 ##################################################
-
-# This script extracts out the subversion version of osgeo-live documents in
+# This script extracts out the git version of osgeo-live documents in
 # a format suitable to be copied into the OSGeo-Live translation status
 # stored here:
 # https://spreadsheets.google.com/ccc?key=0AlRFyY1XenjJdFRDbjFyWHg1MlNTRm10QXk0UWEzWlE&hl=en_GB&authkey=CPTB6uIE#gid=7
-
-
 
 # Store the script root directory for later
 cd `dirname ${0}`
 scriptDir=`pwd`
 
 # cd to the svn document directory
-cd ${scriptDir}/../doc
+cd ${scriptDir}/../
 
 echo "dir/file,docname,version,directory,language,username,date,project,last updated:" `date`
 
@@ -62,32 +59,49 @@ echo "dir/file,docname,version,directory,language,username,date,project,last upd
 # | sed -e's/.rst$//' \
 
 
-#cat list.txt \
-# old awk line was: awk '{print $7"/"$8"/"$9","$9","$1","$8","$7","$2",",$4,$5,$6","$9}' \ --jsanchez
-svn list -v -R \
-  | grep ".rst$" \
+# #cat list.txt \
+# svn list -v -R \
+#   | grep ".rst$" \
+#   | grep -v "/template_" \
+#   | grep -v " index.rst$" \
+#   | grep -v "/$"  \
+#   | sed -e's#\( [^/]*\)/\([^/]*$\)#\1/./\2#' \
+#   | sed -e's#/# #g' \
+#   | awk '{print $8"/"$9"/"$10","$10","$1","$9","$8","$2",",$4,$5,$6,$7","$10}' \
+#   | sed -e's/,\.,/,".",/' \
+#   | sed -e's/_overview.rst$//' \
+#   | sed -e's/_quickstart.rst$//' \
+#   | sed -e's/.rst$//' \
+
+# List files from git
+git ls-tree -r --name-only HEAD | while read filename; do
+  echo "$filename,$(git log -1 --format="%h,%an,%ai" -- $filename)" \
+  | grep ".rst" \
+  | sed -e's#.rst#.rst #g' \
   | grep -v "/template_" \
   | grep -v " index.rst$" \
-  | grep -v "/$"  \
-  | sed -e's#\( [^/]*\)/\([^/]*$\)#\1/./\2#' \
-  | sed -e's#/# #g' \
-  | awk '{print $8"/"$9"/"$10","$10","$1","$9","$8","$2",",$4,$5,$6,$7","$10}' \
+  | grep -v "/$" \
+  | sed -e's#^\([^/]*\)/\([^/]*$\)#\1/./\2#' \
+  | sed -e's#/#,#g' \
+  | sed -e's#.rst #.rst#g' \
+  | awk -F',' '{print $1"/"$2"/"$3","$3","$4","$1"/"$2"/,"$1","$5","$6","$3";"}' \
   | sed -e's/,\.,/,".",/' \
-  | sed -e's/_overview.rst$//' \
-  | sed -e's/_quickstart.rst$//' \
-  | sed -e's/.rst$//' \
+  | sed -e's/_overview.rst;//' \
+  | sed -e's/_quickstart.rst;//' \
+  | sed -e's/.rst$//'
+done
 
-# cd to the svn bin directory
-cd ${scriptDir}
+# # cd to the svn bin directory
+# cd ${scriptDir}
 
-echo "INSTALL SCRIPTS:"
-echo "dir/file,docname,version,directory,language,username,date,project,last updated:" `date`
+# echo "INSTALL SCRIPTS:"
+# echo "dir/file,docname,version,directory,language,username,date,project,last updated:" `date`
 
-#cat list2.txt \
-#ols line was | awk '{print "bin/"$7","$7","$1",bin,,"$2","$4" "$5" "$6","$7}' \
-svn list -v -R \
-  | grep -v "/$"  \
-  | awk '{print "bin/"$8","$8","$1",bin,,"$2","$4" "$5" "$6,$7","$8}' \
-  | sed -e's#,install_\([^,]*\).sh$#,\1#' \
-  | sed -e's/,\.,/,".",/' \
-  #| sed -e's#\(install_\)\([^,]*[.sh$\)#\2#' \
+# #cat list2.txt \
+# #ols line was | awk '{print "bin/"$7","$7","$1",bin,,"$2","$4" "$5" "$6","$7}' \
+# svn list -v -R \
+#   | grep -v "/$"  \
+#   | awk '{print "bin/"$8","$8","$1",bin,,"$2","$4" "$5" "$6,$7","$8}' \
+#   | sed -e's#,install_\([^,]*\).sh$#,\1#' \
+#   | sed -e's/,\.,/,".",/' \
+#   #| sed -e's#\(install_\)\([^,]*[.sh$\)#\2#' \
