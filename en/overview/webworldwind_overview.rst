@@ -3,13 +3,6 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. Cameron Comment:
-.. Logo size needs to be 125x125 pixles (Currently it is 250x250)
-.. Cameron Comment:
-.. The logo for Web World Wind, and World Wind Java are the same. 
-.. I suggest making them different.
-
-.. Gabriele Comment: Resized the logo and add the "WWW" in the web version. Even If i'm waiting to have an official one that will come   .. soon.
 
 .. image:: ../../images/project_logos/logoNasaWWW.png
   :alt: project logo
@@ -22,13 +15,9 @@ Web World Wind
 Virtual Globe in a browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. Cameron comment: there is overlap between introduction setence and following
-  The statement about Web World Wind use is the same for both Java World Wind
-  and Web World Wind. (It is a good statement). But it looks like a
-  cut-and-paste, which reduces its credibility. Better to select different use
-  cases for each.
 
-Web World Wind is a browser based, 3 dimensional virtual globe. It allows users to zoom from satellite altitude to any place on earth, experiencing the earth in 3 dimensions, as if really there. It is easy to use, only requiring a two button mouse.  It is used to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the Earth.
+Web World Wind is a browser based, 3 dimensional virtual globe. It allows users to zoom from satellite altitude to any place on earth, experiencing the earth in 3 dimensions, as if really there. 
+It is easy to use, only requiring a two button mouse.  It is used to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the Earth.
 
 Web World Wind provides an extensible, javascript platform which enables web developers to quickly create custom globes and 2 dimensional maps which can express, manipulate and analyze spatial data.  You can show terrain and high-resolution imagery, include a compass, map coordinates, and view controls.
 
