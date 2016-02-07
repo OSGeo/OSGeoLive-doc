@@ -67,4 +67,4 @@
 
 简介
 --------------------------------------------------------------------------------
-　　这份时长大约半小时的简介（英语）简明扼要地介绍了 OSGeo-Live 中包含的应用程序。简介包括视频，幻灯片（ODP 格式）和纯文本三种形式。详情请见 `presentation <https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/>`_ 目录。
+　　这份时长大约半小时的简介（英语）简明扼要地介绍了 OSGeo-Live 中包含的应用程序。简介包括视频，幻灯片（ODP 格式）和纯文本三种形式。详情请见 `presentation <../en/presentation/index.html>`_  目录。

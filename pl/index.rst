@@ -84,4 +84,4 @@ Prezentacja
 --------------------------------------------------------------------------------
 Półgodzinna prezentacja omawiająca wszystkie zawarte na OSGeo-Live programy, dostępna jest w postaci wideo oraz slajdów i notatek.
 
-Szczegóły na stronie :doc:`presentation`.
+Szczegóły na stronie `presentation <../en/presentation/index.html>`_.
