@@ -69,4 +69,4 @@ Présentation
 Une présentation d'une demi-heure, mettant en avant toutes les applications de OSGeo-Live,
 est disponible en vidéo, avec les sources des slides et les scripts.
 
-Voir les détails sur la partie :doc:`presentation`.
+Voir les détails sur la partie `presentation <../en/presentation/index.html>`_.

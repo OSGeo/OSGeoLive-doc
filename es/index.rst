@@ -67,4 +67,4 @@ Está disponible una presentación de aproximadamente media hora (en Inglés), q
 destaca todas las aplicaciones OSGeo-Live, junto con las diapositivas originales
 y el guión. 
 
-Ver detalles en :doc:`presentation`.
+Ver detalles en `presentation <../en/presentation/index.html>`_.
