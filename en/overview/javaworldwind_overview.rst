@@ -14,13 +14,11 @@ Desktop Virtual Globe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Java World Wind is a virtual globe containing a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects thanks to  an Application Programming Interface (API).
+Java World Wind is a virtual globe containing a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects.
 
-Thanks to the usage of elevation model (DEM) is possible to see topographic features, for example, the Grand Canyon or Mount Everest in three dimensions.
+Thanks to the use of Digital Elevation Models (DEM), it is possible to view topographic features, such as the Grand Canyon or Mount Everest in three dimensions.
 
 Organizations across the world use World Wind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth.
-
-
 
 .. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
  :scale: 50 %
