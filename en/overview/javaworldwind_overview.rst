@@ -13,23 +13,12 @@ Java World Wind
 Desktop Virtual Globe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. Cameron Comment: This implies that Java World Wind is not a product in its
-  own right, but just an API. Ie, before I can use Java World Wind, I need to
-  write a program. Is that correct? (This would be an issue for many new users)
 
-Java World Wind provides an Application Programming Interface (API) to display and interact with a virtual globe. 
+Java World Wind is a virtual globe containing a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects.
 
-.. Cameron Comment: There is overlap with sentence above and below. I think these sentences could merge.
-
-Written in Java so as to be cross-platform and easy-to-use, Java World Wind allows developers to quickly and easily create interactive visualizations of a 3 dimensional globe and geographical information.
-
-World Wind provides a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects.
+Thanks to the use of Digital Elevation Models (DEM), it is possible to view topographic features, such as the Grand Canyon or Mount Everest in three dimensions.
 
 Organizations across the world use World Wind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth.
-
-.. Cameron Comment: I sugges that referencing an award in 2009, without noting a more recent achievement implies the project was great once, but is no longer relevant. Might be better to remove the reference. 
-
-In November 2009 was awarded NASA Software of the Year.  Since then it has developed a global community of users, from government, education, the non-profit sector, as well as private industry.
 
 .. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
  :scale: 50 %
@@ -45,10 +34,6 @@ Core Features
 * Runs in web pages in Java applets
 * Accesses a huge collection of high-resolution imagery and terrain from NASA servers
 * Displays high-resolution imagery, terrain and geographic information from any open-standard public or private source
-
-.. Cameron comment: Try not to duplicate statements, this "open standard" line below can probably be removed or merged with one above.
-
-* Open-standard interfaces to GIS services and databases
 * Large collection of geometric and geographic shapes
 * Simple to extend and modify
 * Uses Java and OpenGL
