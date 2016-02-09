@@ -72,7 +72,6 @@ Storing spatial data:
 
 Navigation and Maps
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 * :doc:`javaworldwind_overview` - [:doc:`QuickStart <../quickstart/javaworldwind_quickstart>`] - Desktop Virtual Globe
@@ -139,6 +138,7 @@ Available from prior OSGeo-Live releases:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, retired after OSGeo-Live 7.9
+* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, retired after OSGeo-Live 9.0
 
 
 Windows and Apple Installers
@@ -147,9 +147,4 @@ Included on the full OSGeo-Live image:
 
 * `Microsoft Windows Installers <../../WindowsInstallers/>`_
 * `Apple OSX Installers <../../MacInstallers/>`_
-
-Metrics
---------------------------------------------------------------------------------
-
-* :doc:`Project Metrics <../metrics>` from Ohloh
 

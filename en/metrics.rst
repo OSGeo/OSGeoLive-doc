@@ -91,7 +91,7 @@ Navigation and Maps
 
 .. raw:: html
 
-  <script type="text/javascript" src="http://www.openhub.net/p/gpsdrive/widgets/project_factoids_stats.js"></script>
+  <!--script type="text/javascript" src="http://www.openhub.net/p/gpsdrive/widgets/project_factoids_stats.js"></script-->
   <script type="text/javascript" src="http://www.openhub.net/p/marble/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/prune-gps/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/opencpn/widgets/project_factoids_stats.js"></script>
