@@ -13,6 +13,7 @@ Jupyter Notebook
 --------------------------------------------------------------------------------
 
 Project Jupyter was born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/screenshots/800x600/jupyter-screenshot.png
