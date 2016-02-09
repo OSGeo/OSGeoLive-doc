@@ -1,10 +1,10 @@
-:Author: 
-:Author: Massimo Di Stefano, jupyter developpers team
+:Author: jupyter developers team
+:Author: Massimo Di Stefano
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-jupyter.svg
+.. image:: ../../images/project_logos/logo-jupyter.png
   :alt: project logo
   :align: right
   :target: http://jupyter.org/
