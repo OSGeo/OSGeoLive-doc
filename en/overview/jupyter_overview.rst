@@ -41,7 +41,7 @@ Core Features
     * Ability to import external libraries to add extra functionality,
     * Ability to incorporate code from multiple programming languages, including python, R, Julia, Bash and many more.
 
-* Access a wide range of geospatial functions:
+* The jupter notebook user on the OSGeoLive will have access a wide range of geospatial functions like:
 
     * Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, netCDF4, PostgreSQL, psycopg2, R, rpy2, and more.
 
