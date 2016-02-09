@@ -9,9 +9,6 @@
   :align: right
   :target: http://jupyter.org/
 
-Jupyter Notebook
---------------------------------------------------------------------------------
-
 Project Jupyter was born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,6 +23,7 @@ Project Jupyter was born out of the IPython Project in 2014 as it evolved to sup
    demonstrating how it is easy to build an publish powerful web pages.
 
 Jupyter Notebook
+--------------------------------------------------------------------------------
 
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.
 
