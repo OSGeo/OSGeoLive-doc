@@ -13,6 +13,9 @@ Project Jupyter was born out of the IPython Project in 2014 as it evolved to sup
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Jupyter Notebook
+--------------------------------------------------------------------------------
+
 .. image:: ../../images/screenshots/800x600/jupyter-screenshot.png
   :scale: 100 %
   :alt: screenshot
@@ -21,10 +24,8 @@ Project Jupyter was born out of the IPython Project in 2014 as it evolved to sup
 .. TBD: The image should show use of iPython Notebook with maps, possibly as
    collage. Show an [In] cell with code. Show a heading or 2 and text
    demonstrating how it is easy to build an publish powerful web pages.
-
-Jupyter Notebook
---------------------------------------------------------------------------------
-
+   
+   
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.
 
 Using the Jupyter Notebook, you can author engaging documents that combine live-code with narrative text, equations, images, video, and visualizations. By encoding a complete and reproducible record of a computation, the documents can be shared with others on GitHub, Dropbox, and the [Jupyter Notebook Viewer](https://nbviewer.jupyter.org/).
