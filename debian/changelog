@@ -1,3 +1,9 @@
+osgeolive-docs (9.5~beta1) trusty; urgency=medium
+
+  * Preparing beta release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Sun, 07 Feb 2016 15:21:00 +0200
+
 osgeolive-docs (9.5~alpha2) trusty; urgency=medium
 
   * Git master version

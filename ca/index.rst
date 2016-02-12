@@ -64,4 +64,4 @@ Presentació
 Existeix una presentació de 30 minuts on es mostren totes les aplicacions d'OSGeo-Live,
 disponible com a vídeo junt amb les diapositives i el guió de la presentació.
 
-Detalls a :doc:`presentation`.
+Detalls a `presentation <../en/presentation/index.html>`_.

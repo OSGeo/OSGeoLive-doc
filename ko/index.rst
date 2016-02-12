@@ -59,4 +59,4 @@ Presentation
 --------------------------------------------------------------------------------
 모든 OSGeo-Live 이용을 아우르는 30분의 발표내용을 보시려면 다음을 참고하세요.
 
-자세한 사항은 :doc:`presentation`.
+자세한 사항은 `presentation <../en/presentation/index.html>`_.
