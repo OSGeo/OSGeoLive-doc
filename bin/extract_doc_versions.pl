@@ -80,10 +80,10 @@ sub extract_git_info() {
   # Store the script root directory for later
   my $scriptDir = dirname($0);
 
-  my @files = split(/\n/, `git ls-tree -r --name-only HEAD`);
-
   # cd to the git document directory
   chdir("$scriptDir/..");
+
+  my @files = split(/\n/, `git ls-tree -r --name-only HEAD`);
 
   foreach (@files) {
     if (
@@ -103,18 +103,19 @@ sub extract_git_info() {
         $dir=".";
       }
       
-      # Extract $commit_id,$author, $date, $version
+      # Extract $commit_hash,$author, $date, $version
       my @atribs= split (/,/, `git log -1 --format="%h,%an,%ai,%at" -- filename $dir_file`);
 
       # Extract info into a hash array
       $gitinfo{$lang}{"$dir/$file"}{"dir"}=$dir;
       $gitinfo{$lang}{"$dir/$file"}{"file"}=$file;
-      $gitinfo{$lang}{"$dir/$file"}{"commit_id"}=$atribs[0];
+      $gitinfo{$lang}{"$dir/$file"}{"commit_hash"}=$atribs[0];
       $gitinfo{$lang}{"$dir/$file"}{"author"}=$atribs[1];
       $gitinfo{$lang}{"$dir/$file"}{"date"}=$atribs[2];
       $gitinfo{$lang}{"$dir/$file"}{"version"}=$atribs[3];
 
-      #print $outfile "lang=$lang,dir=$dir,file=$file,version=$atribs[0],author=$atribs[1],date=$atribs[2],version=$atribs[3]\n";
+      #print $outfile "lang=$lang,dir=$dir,file=$file,commit_hash=$atribs[0],author=$atribs[1],date=$atribs[2],version=$atribs[3]\n";
+      #exit;
     }
   }
 }
@@ -176,7 +177,7 @@ sub print_lang_versions() {
   print $outfile "<a name='lang_versions'/><h2>Per file translation status</h2>\n";
   print $outfile "<p>Hyperlinks point to the difference in the English document since last translated.</p>\n";
   print $outfile "<table border='1'>\n";
-  print $outfile "<tr><th>dir/file</th><th>date</th><th>en</th>\n";
+  print $outfile "<tr><th>dir/file</th><th>en</th>\n";
   foreach my $lang (sort keys %gitinfo) {
     $lang =~ /en/ && next;
     print $outfile "<th>$lang</th>";
@@ -195,10 +196,10 @@ sub print_lang_versions() {
     print $outfile "$dir_file</a></td>";
 
     # print date
-    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
+    #print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
 
     # print english version
-    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'version'}</td>";
+    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
 
     # loop through languages
     foreach my $lang (sort keys %gitinfo) {
@@ -207,35 +208,13 @@ sub print_lang_versions() {
       # print language's version
       print $outfile "<td>";
       if (exists $gitinfo{$lang}{$dir_file} ) {
+        my $color="red";
         if ($gitinfo{$lang}{$dir_file}{'version'} >= $gitinfo{"en"}{$dir_file}{'version'}) {
-          print $outfile '<font color="green">';
-          print $outfile "$gitinfo{$lang}{$dir_file}{'date'}";
-          print $outfile "</font>";
-        }else{
-
-          # create a URL for the diff in en doc since last translated
-          # Eg: http://trac.osgeo.org/osgeo/changeset?new=9055%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fde%2Foverview%2F52nSOS_overview.rst&old=9054%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fde%2Foverview%2F52nSOS_overview.rst
-          my $url="http://trac.osgeo.org/osgeo/changeset?new=";
-          $url .= $gitinfo{'en'}{$dir_file}{'version'};
-          $url .= "%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fen%2F";
-          if (!($gitinfo{'en'}{$dir_file}{'dir'} eq ".")) {
-            $url .= $gitinfo{'en'}{$dir_file}{'dir'};
-            $url .= "%2F";
-          }
-          $url .= $gitinfo{'en'}{$dir_file}{'file'};
-          $url .= "&old=";
-          $url .= $gitinfo{$lang}{$dir_file}{'version'};
-          $url .= "%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fen%2F";
-          if (!($gitinfo{'en'}{$dir_file}{'dir'} eq ".")) {
-            $url .= $gitinfo{'en'}{$dir_file}{'dir'};
-            $url .= "%2F";
-          }
-          $url .= $gitinfo{'en'}{$dir_file}{'file'};
-
-          print $outfile "<a href='$url'>";
-          print $outfile "$gitinfo{$lang}{$dir_file}{'date'}";
-          print $outfile "</a>";
+          $color="green";
         }
+        print $outfile "<font color=$color>";
+        print $outfile "$gitinfo{$lang}{$dir_file}{'date'}";
+        print $outfile "</font>";
       }
       print $outfile "</td>";
     }
