@@ -41,6 +41,10 @@ if ($options{o}) {
   open $outfile, ">", $options{o} || die "can't open output file $options{o}: $!\n";
 }
 
+# cd to the git document directory
+chdir(dirname($0)."/..");
+
+&extract_app_version;
 &extract_git_info;
 
 #&extract_review_status;
@@ -73,16 +77,10 @@ sub print_footer() {
 }
 
 ###############################################################################
-# Extract information for osgeo-live document files and store in
+# Extract git info for osgeo-live document files and store in
 # a hash array @gitlist
 ###############################################################################
 sub extract_git_info() {
-  # Store the script root directory for later
-  my $scriptDir = dirname($0);
-
-  # cd to the git document directory
-  chdir("$scriptDir/..");
-
   my @files = split(/\n/, `git ls-tree -r --name-only HEAD`);
 
   foreach (@files) {
@@ -103,7 +101,7 @@ sub extract_git_info() {
         $dir=".";
       }
       
-      # Extract $commit_hash,$author, $date, $version
+      # Extract $commit_hash,$author, $date, $date_id
       my @atribs= split (/,/, `git log -1 --format="%h,%an,%ai,%at" -- filename $dir_file`);
 
       # Extract info into a hash array
@@ -112,11 +110,30 @@ sub extract_git_info() {
       $gitinfo{$lang}{"$dir/$file"}{"commit_hash"}=$atribs[0];
       $gitinfo{$lang}{"$dir/$file"}{"author"}=$atribs[1];
       $gitinfo{$lang}{"$dir/$file"}{"date"}=$atribs[2];
-      $gitinfo{$lang}{"$dir/$file"}{"version"}=$atribs[3];
+      $gitinfo{$lang}{"$dir/$file"}{"date_id"}=$atribs[3];
 
-      #print $outfile "lang=$lang,dir=$dir,file=$file,commit_hash=$atribs[0],author=$atribs[1],date=$atribs[2],version=$atribs[3]\n";
+      #print $outfile "lang=$lang,dir=$dir,file=$file,commit_hash=$atribs[0],author=$atribs[1],date=$atribs[2],date_id=$atribs[3]\n";
       #exit;
     }
+  }
+}
+
+###############################################################################
+# Extract git info for osgeo-live document files and store in
+# a hash array @gitlist
+###############################################################################
+sub extract_app_version() {
+  # Check docs have been built
+  if (!-d "_build") {
+    print $outfile, "Docs haven't been built yet. Run 'make html' from root directory\n";
+    exit;
+  }
+  
+  my @lines = `grep " Version:" _build/html/en/overview/*`;
+  foreach (@lines) {
+    $_ =~ m#(^.*overview/)(.+)(_overview.html.* Version:.+strong>*) *(.*)(</p>.*)#;
+    $gitinfo{"en"}{"overview/$2_overview.rst"}{"app_version"}=$4;
+    #print $outfile "$2,$4\n";
   }
 }
 
@@ -155,7 +172,7 @@ sub print_summary() {
     my $up_to_date=0;
     foreach my $dir_file (keys %{$gitinfo{"en"}}) {
       if (exists $gitinfo{$lang}{$dir_file}) {
-        if ($gitinfo{$lang}{$dir_file}{'version'} >= $gitinfo{"en"}{$dir_file}{'version'}) {
+        if ($gitinfo{$lang}{$dir_file}{'date_id'} >= $gitinfo{"en"}{$dir_file}{'date_id'}) {
           $up_to_date++;
         }
       }
@@ -177,7 +194,7 @@ sub print_lang_versions() {
   print $outfile "<a name='lang_versions'/><h2>Per file translation status</h2>\n";
   print $outfile "<p>Hyperlinks point to the difference in the English document since last translated.</p>\n";
   print $outfile "<table border='1'>\n";
-  print $outfile "<tr><th>dir/file</th><th>en</th>\n";
+  print $outfile "<tr><th>dir/file</th><th>App Version in Overivew</td><th>en</th>\n";
   foreach my $lang (sort keys %gitinfo) {
     $lang =~ /en/ && next;
     print $outfile "<th>$lang</th>";
@@ -198,7 +215,10 @@ sub print_lang_versions() {
     # print date
     #print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
 
-    # print english version
+    # print app version
+    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'app_version'}</td>";
+
+    # print english doc date
     print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
 
     # loop through languages
@@ -209,7 +229,7 @@ sub print_lang_versions() {
       print $outfile "<td>";
       if (exists $gitinfo{$lang}{$dir_file} ) {
         my $color="red";
-        if ($gitinfo{$lang}{$dir_file}{'version'} >= $gitinfo{"en"}{$dir_file}{'version'}) {
+        if ($gitinfo{$lang}{$dir_file}{'date_id'} >= $gitinfo{"en"}{$dir_file}{'date_id'}) {
           $color="green";
         }
         print $outfile "<font color=$color>";
