@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 ###############################################################################
 # 
-# Purpose: Provide translation status of OSGeoLive docs, extracted from svn
+# Purpose: Provide translation status of OSGeoLive docs, extracted from git
 # Author:  Cameron Shorter
 # Usage: extract_doc_versions -o outputfile.html
 #
@@ -30,7 +30,7 @@ use Getopt::Std;
 
 # initialise variables
 my $osgeolive_docs_url="http://adhoc.osgeo.osuosl.org/livedvd/docs/";
-my %svninfo;
+my %gitinfo;
 my $line;
 
 # Get output file from the -o option, otherwise print to stdout
@@ -41,7 +41,12 @@ if ($options{o}) {
   open $outfile, ">", $options{o} || die "can't open output file $options{o}: $!\n";
 }
 
-&extract_svn_info;
+# cd to the git document directory
+chdir(dirname($0)."/..");
+
+&extract_app_version;
+&extract_git_info;
+
 #&extract_review_status;
 &print_header;
 &print_summary;
@@ -60,7 +65,7 @@ sub print_header() {
   print $outfile "    <h1>OSGeo-Live Documentation translation status</h1>\n";
   print $outfile "    <p>Help translate - <a href='http://wiki.osgeo.org/wiki/Live_GIS_Translate'>click here!</a></p>\n";
   print $outfile "    <p><b>Last Updated:</b> ", `date`;
-  print $outfile ". This page is calculated from document version numbers in subversion.</p>\n";
+  print $outfile ". This page is calculated from document version numbers in git.</p>\n";
 }
 
 ###############################################################################
@@ -72,48 +77,63 @@ sub print_footer() {
 }
 
 ###############################################################################
-# Extract subversion information for osgeo-live document files and store in
-# a hash array @svnlist
+# Extract git info for osgeo-live document files and store in
+# a hash array @gitlist
 ###############################################################################
-sub extract_svn_info() {
-  # Store the script root directory for later
-  my $scriptDir = dirname($0);
+sub extract_git_info() {
+  my @files = split(/\n/, `git ls-tree -r --name-only HEAD`);
 
-  #my @svnlist = split(/\n/, `cat list.txt`);
-
-  # cd to the svn document directory
-  chdir("$scriptDir/../doc");
-
-  # update to the latest version of docs
-  `svn update`;
-  my @svnlist = split(/\n/, `svn list -v -R`);
-
-  foreach (@svnlist) {
-    my $line2=$_;
+  foreach (@files) {
     if (
-      m#/# # Ignore files in the root directory
-      && m/.rst$/ # Only look at rst source docs
-      && ! m/template_/ # The template files have been removed from subversion, but are still pickedup by svn list.
+      m#^[a-z][a-z]/# # Match directories starting with 2 letter country code
+      #&& m#.rst## # Only look at rst source docs
     ) {
-      $line = $_;
+      my $dir_file = $_;
 
-      #Change en/contact.rst to en/./contact.rst (so all files have 2 dirs)
-      $line =~ s#( [^/]*)/([^/]*$)#$1/./$2#;
-
-      #Insert space delimiters between dirs
-      $line =~ s#/# #g;
-
-      my @args = split /\s+/, $line;
-      my $lang=$args[7];
-      my $dir_file="$args[8]/$args[9]";
+      # extract $lang/$dir/$file
+      my @file_bits = split /\//, $dir_file;
+      my $lang=$file_bits[0];
+      my $file=$file_bits[$#file_bits];
+      my $dir;
+      if ($#file_bits==2) {
+        $dir=$file_bits[1];
+      } else {
+        $dir=".";
+      }
+      
+      # Extract $commit_hash,$author, $date, $date_id
+      my @atribs= split (/,/, `git log -1 --format="%h,%an,%ai,%at" -- filename $dir_file`);
 
       # Extract info into a hash array
-      $svninfo{$lang}{$dir_file}{"version"}=$args[1];
-      $svninfo{$lang}{$dir_file}{"author"}=$args[2];
-      $svninfo{$lang}{$dir_file}{"date"}="$args[4] $args[5] $args[6]";
-      $svninfo{$lang}{$dir_file}{"dir"}=$args[8];
-      $svninfo{$lang}{$dir_file}{"file"}=$args[9];
+      $gitinfo{$lang}{"$dir/$file"}{"dir"}=$dir;
+      $gitinfo{$lang}{"$dir/$file"}{"file"}=$file;
+      $gitinfo{$lang}{"$dir/$file"}{"commit_hash"}=$atribs[0];
+      $gitinfo{$lang}{"$dir/$file"}{"author"}=$atribs[1];
+      $gitinfo{$lang}{"$dir/$file"}{"date"}=$atribs[2];
+      $gitinfo{$lang}{"$dir/$file"}{"date_id"}=$atribs[3];
+
+      #print $outfile "lang=$lang,dir=$dir,file=$file,commit_hash=$atribs[0],author=$atribs[1],date=$atribs[2],date_id=$atribs[3]\n";
+      #exit;
     }
+  }
+}
+
+###############################################################################
+# Extract git info for osgeo-live document files and store in
+# a hash array @gitlist
+###############################################################################
+sub extract_app_version() {
+  # Check docs have been built
+  if (!-d "_build") {
+    print $outfile, "Docs haven't been built yet. Run 'make html' from root directory\n";
+    exit;
+  }
+  
+  my @lines = `grep " Version:" _build/html/en/overview/*`;
+  foreach (@lines) {
+    $_ =~ m#(^.*overview/)(.+)(_overview.html.* Version:.+strong>*) *(.*)(</p>.*)#;
+    $gitinfo{"en"}{"overview/$2_overview.rst"}{"app_version"}=$4;
+    #print $outfile "$2,$4\n";
   }
 }
 
@@ -144,20 +164,20 @@ sub print_summary() {
   print $outfile "<tr><th>language</th><th>Sum up to date</th><th>Sum translated</th></tr>\n";
 
   # number of english files to translate
-  my $sum_files=scalar keys %{$svninfo{"en"}};
+  my $sum_files=scalar keys %{$gitinfo{"en"}};
 
   # loop through languages
-  foreach my $lang (sort keys %svninfo) {
+  foreach my $lang (sort keys %gitinfo) {
     # loop through filenames
     my $up_to_date=0;
-    foreach my $dir_file (keys %{$svninfo{"en"}}) {
-      if (exists $svninfo{$lang}{$dir_file}) {
-        if ($svninfo{$lang}{$dir_file}{'version'} >= $svninfo{"en"}{$dir_file}{'version'}) {
+    foreach my $dir_file (keys %{$gitinfo{"en"}}) {
+      if (exists $gitinfo{$lang}{$dir_file}) {
+        if ($gitinfo{$lang}{$dir_file}{'date_id'} >= $gitinfo{"en"}{$dir_file}{'date_id'}) {
           $up_to_date++;
         }
       }
     }
-    my $translations=scalar keys %{$svninfo{$lang}};
+    my $translations=scalar keys %{$gitinfo{$lang}};
     my $translations_percent=int($translations*100/$sum_files);
     my $up_to_date_percent=int($up_to_date*100/$sum_files);
     print $outfile "<tr><td>$lang</td><td>$up_to_date ($up_to_date_percent%)</td>";
@@ -174,66 +194,47 @@ sub print_lang_versions() {
   print $outfile "<a name='lang_versions'/><h2>Per file translation status</h2>\n";
   print $outfile "<p>Hyperlinks point to the difference in the English document since last translated.</p>\n";
   print $outfile "<table border='1'>\n";
-  print $outfile "<tr><th>dir/file</th><th>date</th><th>en</th>\n";
-  foreach my $lang (sort keys %svninfo) {
+  print $outfile "<tr><th>dir/file</th><th>App Version in Overivew</td><th>en</th>\n";
+  foreach my $lang (sort keys %gitinfo) {
     $lang =~ /en/ && next;
     print $outfile "<th>$lang</th>";
   }
   print $outfile "</tr>\n";
 
   # loop through filenames
-  foreach my $dir_file (sort keys %{$svninfo{"en"}}) {
+  foreach my $dir_file (sort keys %{$gitinfo{"en"}}) {
 
     # print file/dir and url
-    my $html_file=$svninfo{'en'}{$dir_file}{'file'};
+    my $html_file=$gitinfo{'en'}{$dir_file}{'file'};
     $html_file=~s#.rst$#.html#;
     print $outfile "<tr><td>";
     print $outfile "<a href='$osgeolive_docs_url/en/";
-    print $outfile "$svninfo{'en'}{$dir_file}{'dir'}/$html_file'>";
+    print $outfile "$gitinfo{'en'}{$dir_file}{'dir'}/$html_file'>";
     print $outfile "$dir_file</a></td>";
 
     # print date
-    print $outfile "<td>$svninfo{'en'}{$dir_file}{'date'}</td>";
+    #print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
 
-    # print english version
-    print $outfile "<td>$svninfo{'en'}{$dir_file}{'version'}</td>";
+    # print app version
+    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'app_version'}</td>";
+
+    # print english doc date
+    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
 
     # loop through languages
-    foreach my $lang (sort keys %svninfo) {
+    foreach my $lang (sort keys %gitinfo) {
       $lang =~ /en/ && next;
 
       # print language's version
       print $outfile "<td>";
-      if (exists $svninfo{$lang}{$dir_file} ) {
-        if ($svninfo{$lang}{$dir_file}{'version'} >= $svninfo{"en"}{$dir_file}{'version'}) {
-          print $outfile '<font color="green">';
-          print $outfile "$svninfo{$lang}{$dir_file}{'version'}";
-          print $outfile "</font>";
-        }else{
-
-          # create a URL for the diff in en doc since last translated
-          # Eg: http://trac.osgeo.org/osgeo/changeset?new=9055%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fde%2Foverview%2F52nSOS_overview.rst&old=9054%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fde%2Foverview%2F52nSOS_overview.rst
-          my $url="http://trac.osgeo.org/osgeo/changeset?new=";
-          $url .= $svninfo{'en'}{$dir_file}{'version'};
-          $url .= "%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fen%2F";
-          if (!($svninfo{'en'}{$dir_file}{'dir'} eq ".")) {
-            $url .= $svninfo{'en'}{$dir_file}{'dir'};
-            $url .= "%2F";
-          }
-          $url .= $svninfo{'en'}{$dir_file}{'file'};
-          $url .= "&old=";
-          $url .= $svninfo{$lang}{$dir_file}{'version'};
-          $url .= "%40livedvd%2Fgisvm%2Ftrunk%2Fdoc%2Fen%2F";
-          if (!($svninfo{'en'}{$dir_file}{'dir'} eq ".")) {
-            $url .= $svninfo{'en'}{$dir_file}{'dir'};
-            $url .= "%2F";
-          }
-          $url .= $svninfo{'en'}{$dir_file}{'file'};
-
-          print $outfile "<a href='$url'>";
-          print $outfile "$svninfo{$lang}{$dir_file}{'version'}";
-          print $outfile "</a>";
+      if (exists $gitinfo{$lang}{$dir_file} ) {
+        my $color="red";
+        if ($gitinfo{$lang}{$dir_file}{'date_id'} >= $gitinfo{"en"}{$dir_file}{'date_id'}) {
+          $color="green";
         }
+        print $outfile "<font color=$color>";
+        print $outfile "$gitinfo{$lang}{$dir_file}{'date'}";
+        print $outfile "</font>";
       }
       print $outfile "</td>";
     }
