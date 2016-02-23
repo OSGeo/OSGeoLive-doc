@@ -23,7 +23,7 @@
 
 if [ "$#" -lt 2 ] || [ "$#" -gt 2 ]; then
     echo "Wrong number of arguments"
-    echo "Usage: diff_last_translation.sh LANG(de) DOCUMENT(overview/overview.rst)"
+    echo "Usage: sh bin/diff_last_translation.sh LANG(de) DOCUMENT(overview/overview.rst)"
     exit 1
 fi
 
@@ -31,10 +31,10 @@ LANG="$1"
 FILE_PATH="$2"
 
 # # Time based
-# LAST_MOD_DATE=`git log -1 --format="%ai" -- ../"$LANG"/"$FILE_PATH"`
+# LAST_MOD_DATE=`git log -1 --format="%ai" -- "$LANG"/"$FILE_PATH"`
 # FIRST_COMMIT=`git rev-list --after="$LAST_MOD_DATE" master | tail -n 1`
-# git diff "$FIRST_COMMIT" -- ../en/"$FILE_PATH"
+# git diff "$FIRST_COMMIT" -- en/"$FILE_PATH"
 
 # SHA based
-LAST_COMMIT=`git log -1 --format="%H" -- ../"$LANG"/"$FILE_PATH"`
-git diff "$LAST_COMMIT" -- ../en/"$FILE_PATH"
+LAST_COMMIT=`git log -1 --format="%H" -- "$LANG"/"$FILE_PATH"`
+git diff "$LAST_COMMIT" -- en/"$FILE_PATH"
