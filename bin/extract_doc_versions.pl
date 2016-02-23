@@ -27,6 +27,7 @@ use strict;
 use warnings;
 use File::Basename;
 use Getopt::Std;
+use Cwd;
 
 # initialise variables
 my $osgeolive_docs_url="http://adhoc.osgeo.osuosl.org/livedvd/docs/";
@@ -42,6 +43,10 @@ if ($options{o}) {
 }
 
 # cd to the git document directory
+my $thisdir;
+my $newdirfile;
+$thisdir = cwd();
+my $outstd = *STDOUT;
 chdir(dirname($0)."/..");
 
 &extract_app_version;
@@ -57,9 +62,15 @@ chdir(dirname($0)."/..");
 # Print Header html
 ###############################################################################
 sub print_header() {
+  print $outfile "<!DOCTYPE HTML>\n";
   print $outfile "<html>\n";
   print $outfile "  <head>\n";
+  print $outfile "    <meta charset='utf-8'>\n";
   print $outfile "    <title>OSGeo-Live Documentation translation status</title>\n";
+  print $outfile "    <style>";
+  print $outfile "        a:link.colored {color: red;}\n";
+  print $outfile "        a:visited.colored {color: orange;}\n";
+  print $outfile "    </style>";
   print $outfile "  </head>\n";
   print $outfile "  <body>\n";
   print $outfile "    <h1>OSGeo-Live Documentation translation status</h1>\n";
@@ -194,7 +205,7 @@ sub print_lang_versions() {
   print $outfile "<a name='lang_versions'/><h2>Per file translation status</h2>\n";
   print $outfile "<p>Hyperlinks point to the difference in the English document since last translated.</p>\n";
   print $outfile "<table border='1'>\n";
-  print $outfile "<tr><th>dir/file</th><th>App Version in Overivew</td><th>en</th>\n";
+  print $outfile "<tr><th>dir/file</th><th>App Version in Overview</td><th>en</th>\n";
   foreach my $lang (sort keys %gitinfo) {
     $lang =~ /en/ && next;
     print $outfile "<th>$lang</th>";
@@ -233,7 +244,19 @@ sub print_lang_versions() {
           $color="green";
         }
         print $outfile "<font color=$color>";
-        print $outfile "$gitinfo{$lang}{$dir_file}{'date'}";
+        if ($color eq "red"){
+            $newdirfile = $dir_file;
+            $newdirfile =~ s:/:_:;
+            $newdirfile =~ s:.::;
+            system("echo '<!DOCTYPE HTML>\n<html>\n  <head>\n    <meta charset='utf-8'>\n    <title>OSGeo-Live diff $lang $dir_file</title>\n  </head>\n  <body>\n    <h1>OSGeo-Live diff $lang $dir_file</h1>\n    <pre>\n' > $thisdir/$lang.$newdirfile.html");
+            system("sh $thisdir/diff_last_translation.sh $lang $dir_file >> $thisdir/$lang.$newdirfile.html");
+            system("echo '    </pre>\n  </body>\n</html>\n' >> $thisdir/$lang.$newdirfile.html");
+            print $outfile "<a href='$lang.$newdirfile.html' target='_blank' class='colored'>";
+            print $outfile "$gitinfo{$lang}{$dir_file}{'date'}";
+            print $outfile "</a>";
+        } else {
+            print $outfile "$gitinfo{$lang}{$dir_file}{'date'}";
+        }
         print $outfile "</font>";
       }
       print $outfile "</td>";
