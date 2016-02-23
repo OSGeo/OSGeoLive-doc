@@ -84,17 +84,24 @@ There are four segmentation methods available in the application:
   * Morphological profiles
 
 You can test the segmentation with these commands:
-* Creation of a multichannel Red-Green-Blue-Nir image::
+
+* Creation of a multichannel Red-Green-Blue-Nir image
+
+::
 
   otbcli_ConcatenateImages -il lsat7_2002_30.tif lsat7_2002_20.tif lsat7_2002_10.tif lsat7_2002_40.tif -out ~/lsat7_rgbn.tif
 
-* Apply segmentation::
+* Apply segmentation
+
+::
 
   otbcli_Segmentation -in ~/lsat7_rgbn.tif -filter meanshift -mode raster -mode.raster.out ~/segmentation.tif
 
-* Generate colors instead of labels::
+* Generate colors instead of labels
 
-otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif
+::
+
+  otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif
 
 
 Moreover the application can work in two different modes:
