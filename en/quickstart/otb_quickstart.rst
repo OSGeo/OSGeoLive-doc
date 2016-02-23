@@ -39,17 +39,24 @@ Display metadata informations in an image
 ================================================================================
 
 You can get all the metadata informations contained in an image with the command : `otbcli_ReadImageInfo`
-The unique parameter is the Input image file name, for example : `otbcli_ReadImageInfo -in ortho_2001_t792_1m.tif`
+The unique parameter is the Input image file name, for example::
+
+  otbcli_ReadImageInfo -in ortho_2001_t792_1m.tif
 
 Calculator on image bands
 ================================================================================
 
 The `otbcli_otbBandMath` provides an efficient way to perform mathematical operation on image bands.
-The syntax is quite simple, for example substrating two bands to study the image differences on the images lsat7_2002_10.tif and lsat7_2002_20.tif, just use the command : `otbcli_BandMath -il lsat7_2002_10.tif lsat7_2002_20.tif -out difference.tif -exp "im1b1-im2b1"`
+The syntax is quite simple, for example substrating two bands to study the image differences on the images `lsat7_2002_10.tif` and `lsat7_2002_20.tif`, just use the command::
+
+  otbcli_BandMath -il lsat7_2002_10.tif lsat7_2002_20.tif -out difference.tif -exp "im1b1-im2b1"
+
 The application is able to perform complex mathematical operations over images (threshold, logarithmic rescaling...).
-This homebrewed digital calculator is also bundled with custom functions allowing to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing:
-`otbcli_BandMath -il lsat7_2002_30.tif lsat7_2002_40.tif -out ~/ndvi.tif -exp "ndvi(im1b1,im2b1)"`
-The file lsat7_2002_30.tif corresponds to Landsat 7 red channel, lsat7_2002_40.tif corresponds to Near Infra-Red.
+This homebrewed digital calculator is also bundled with custom functions allowing to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing::
+
+  otbcli_BandMath -il lsat7_2002_30.tif lsat7_2002_40.tif -out ~/ndvi.tif -exp "ndvi(im1b1,im2b1)"
+
+The file `lsat7_2002_30.tif` corresponds to Landsat 7 red channel, `lsat7_2002_40.tif` corresponds to Near Infra-Red.
 
 Pixel based classification
 ================================================================================
@@ -76,13 +83,18 @@ There are four segmentation methods available in the application:
   * Connected-Components
   * Morphological profiles
 
-You can test the segmentation with these commands :
-* Creation of a multichannel Red-Green-Blue-Nir image
-`otbcli_ConcatenateImages -il lsat7_2002_30.tif lsat7_2002_20.tif lsat7_2002_10.tif lsat7_2002_40.tif -out ~/lsat7_rgbn.tif`
-* Apply segmentation
-`otbcli_Segmentation -in ~/lsat7_rgbn.tif -filter meanshift -mode raster -mode.raster.out ~/segmentation.tif`
-* Generate colors instead of labels
-`otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif`
+You can test the segmentation with these commands:
+* Creation of a multichannel Red-Green-Blue-Nir image::
+
+  otbcli_ConcatenateImages -il lsat7_2002_30.tif lsat7_2002_20.tif lsat7_2002_10.tif lsat7_2002_40.tif -out ~/lsat7_rgbn.tif
+
+* Apply segmentation::
+
+  otbcli_Segmentation -in ~/lsat7_rgbn.tif -filter meanshift -mode raster -mode.raster.out ~/segmentation.tif
+
+* Generate colors instead of labels::
+
+otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif
 
 
 Moreover the application can work in two different modes:
