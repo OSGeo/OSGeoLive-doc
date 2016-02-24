@@ -125,7 +125,7 @@ OTB in QGis
 
 The same set of OTB applications can also be used from the Processing menu in QGis. The applications are sorted by tag.
 
-  .. image:: ../../images/screenshots/800x600/qgis_toolbox.png
+  .. image:: ../../images/screenshots/800x600/otb-processing-qgis.png
 
 
 What Next?
