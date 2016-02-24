@@ -24,7 +24,7 @@ This Quick Start describes how to:
 The OTB applications provide lot's of interesting tools which facilitate the manipulation of images. All these tools are available through:
 
   * CLI (command line interface) : all applications can be called from a terminal starting with `otbcli_` plus the application name
-  * GUI (a standalone graphical user interface in Qt) : the applications can be called from a terminal with the alias `otbgui_` plus the application name. An other option is to use a small launcher called Mapla (available in the menu -> Geospatial -> Spatial Tools -> Mapla)
+  * GUI (a standalone graphical user interface in Qt) : the applications can be called from a terminal with the alias `otbgui_` plus the application name. An other option is to use a small launcher (available in the menu -> Geospatial -> Spatial Tools -> OTB Launcher)
   * QGIS plugin : available through the processing framework
 
 Sample data used in this quickstart can be found in :
