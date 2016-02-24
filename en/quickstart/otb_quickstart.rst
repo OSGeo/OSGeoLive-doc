@@ -30,10 +30,6 @@ The OTB applications provide lot's of interesting tools which facilitate the man
 Sample data used in this quickstart can be found in :
   * /home/user/data/north_carolina/rast_geotiffs
 
-If you want to use the OTB library and compile your C++ code inside OSGeo-Live,
-you will need to install development package **libotb-dev** and most probably
-cmake also. 
-
 
 Display metadata informations in an image 
 ================================================================================
@@ -123,9 +119,21 @@ tiling called LSMS_.
 OTB in QGis
 ================================================================================
 
-The same set of OTB applications can also be used from the Processing menu in QGis. The applications are sorted by tag.
+The same set of OTB applications can also be used from the Processing -> Toolbox menu in QGis. The applications are sorted by tag.
 
   .. image:: ../../images/screenshots/800x600/otb-processing-qgis.png
+
+
+Developing with OTB
+================================================================================
+
+If you want to use the OTB library and compile your C++ code inside OSGeo-Live,
+you will need to install development package **libotb-dev** and **libqt4-dev** .
+Also check that **cmake** is installed.
+The OTB_DIR location should be found automatically (usually in
+*/usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you should
+link the libraries in the variable OTB_LIBRARIES. More information can be found
+in the SoftwareGuide.
 
 
 What Next?
