@@ -34,13 +34,11 @@ my $osgeolive_docs_url="http://adhoc.osgeo.osuosl.org/livedvd/docs/";
 my %gitinfo;
 my $line;
 
-# Get output file from the -o option, otherwise print to stdout
-my %options=();
-getopts("o:", \%options);
-my $outfile = *STDOUT;
-if ($options{o}) {
-  open $outfile, ">", $options{o} || die "can't open output file $options{o}: $!\n";
-}
+# Open output files
+my $html_file=dirname($0)."/index.html";
+my $csv_file=dirname($0)."/index.csv";
+open(my $outfile, ">", $html_file) || die "can't open output file : $html_file\n";
+open(my $outfile_csv, ">", $csv_file) || die "can't open output file : $csv_file\n";
 
 # cd to the git document directory
 my $thisdir;
@@ -112,6 +110,12 @@ sub extract_git_info() {
         $dir=".";
       }
       
+      # Extract the name of the application
+      my $app;
+      if ($file =~ m#(^.+)(_overview.rst)# ) {
+        $app=$1;
+      }
+
       # Extract $commit_hash,$author, $date, $date_id
       my @atribs= split (/,/, `git log -1 --format="%h,%an,%ai,%at" -- filename $dir_file`);
 
@@ -122,6 +126,11 @@ sub extract_git_info() {
       $gitinfo{$lang}{"$dir/$file"}{"author"}=$atribs[1];
       $gitinfo{$lang}{"$dir/$file"}{"date"}=$atribs[2];
       $gitinfo{$lang}{"$dir/$file"}{"date_id"}=$atribs[3];
+      if ($app) {
+        $gitinfo{$lang}{"$dir/$file"}{"app"}=$app;
+      } else {
+        $gitinfo{$lang}{"$dir/$file"}{"app"}="";
+      }
 
       #print $outfile "lang=$lang,dir=$dir,file=$file,commit_hash=$atribs[0],author=$atribs[1],date=$atribs[2],date_id=$atribs[3]\n";
       #exit;
@@ -205,7 +214,7 @@ sub print_lang_versions() {
   print $outfile "<a name='lang_versions'/><h2>Per file translation status</h2>\n";
   print $outfile "<p>Hyperlinks point to the difference in the English document since last translated.</p>\n";
   print $outfile "<table border='1'>\n";
-  print $outfile "<tr><th>dir/file</th><th>App Version in Overview</td><th>en</th>\n";
+  print $outfile "<tr><th>dir/file</th><th>Application</th><th>App Version in Overview</td><th>en</th>\n";
   foreach my $lang (sort keys %gitinfo) {
     $lang =~ /en/ && next;
     print $outfile "<th>$lang</th>";
@@ -215,31 +224,41 @@ sub print_lang_versions() {
   # loop through filenames
   foreach my $dir_file (sort keys %{$gitinfo{"en"}}) {
 
+    print $outfile "<tr>\n";
+
     # print file/dir and url
     my $html_file=$gitinfo{'en'}{$dir_file}{'file'};
     $html_file=~s#.rst$#.html#;
-    print $outfile "<tr><td>";
-    print $outfile "<a href='$osgeolive_docs_url/en/";
+    print $outfile "  <td><a href='$osgeolive_docs_url/en/";
     print $outfile "$gitinfo{'en'}{$dir_file}{'dir'}/$html_file'>";
-    print $outfile "$dir_file</a></td>";
+    print $outfile "$dir_file</a></td>\n";
 
     # print date
-    #print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
+    #print $outfile "  <td>$gitinfo{'en'}{$dir_file}{'date'}</td>\n";
+
+    # print app
+    print $outfile "  <td>";
+    if ( $gitinfo{'en'}{$dir_file}{'app'} ) {
+      print $outfile "$gitinfo{'en'}{$dir_file}{'app'}";
+    }
+    print $outfile "</td>\n";
 
     # print app version
+    print $outfile "  <td>";
     if ( $gitinfo{'en'}{$dir_file}{'app_version'} ) {
-      print $outfile "<td>$gitinfo{'en'}{$dir_file}{'app_version'}</td>";
+      print $outfile "$gitinfo{'en'}{$dir_file}{'app_version'}";
     }
+    print $outfile "  </td>\n";
 
     # print english doc date
-    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
+    print $outfile "  <td>$gitinfo{'en'}{$dir_file}{'date'}</td>\n";
 
     # loop through languages
     foreach my $lang (sort keys %gitinfo) {
       $lang =~ /en/ && next;
 
       # print language's version
-      print $outfile "<td>";
+      print $outfile "  <td>";
       if (exists $gitinfo{$lang}{$dir_file} ) {
         my $color="red";
         if ($gitinfo{$lang}{$dir_file}{'date_id'} >= $gitinfo{"en"}{$dir_file}{'date_id'}) {
