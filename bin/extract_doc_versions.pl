@@ -136,15 +136,15 @@ sub extract_git_info() {
 sub extract_app_version() {
   # Check docs have been built
   if (!-d "_build") {
-    print $outfile, "Docs haven't been built yet. Run 'make html' from root directory\n";
-    exit;
-  }
+    print STDERR "Warning: Docs haven't been built yet. Doc version has not been extracted. Run 'make html' from root directory\n";
+  } else {
   
-  my @lines = `grep " Version:" _build/html/en/overview/*`;
-  foreach (@lines) {
-    $_ =~ m#(^.*overview/)(.+)(_overview.html.* Version:.+strong>*) *(.*)(</p>.*)#;
-    $gitinfo{"en"}{"overview/$2_overview.rst"}{"app_version"}=$4;
-    #print $outfile "$2,$4\n";
+    my @lines = `grep " Version:" _build/html/en/overview/*`;
+    foreach (@lines) {
+      $_ =~ m#(^.*overview/)(.+)(_overview.html.* Version:.+strong>*) *(.*)(</p>.*)#;
+      $gitinfo{"en"}{"overview/$2_overview.rst"}{"app_version"}=$4;
+      #print $outfile "$2,$4\n";
+    }
   }
 }
 
@@ -227,7 +227,9 @@ sub print_lang_versions() {
     #print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
 
     # print app version
-    print $outfile "<td>$gitinfo{'en'}{$dir_file}{'app_version'}</td>";
+    if ( $gitinfo{'en'}{$dir_file}{'app_version'} ) {
+      print $outfile "<td>$gitinfo{'en'}{$dir_file}{'app_version'}</td>";
+    }
 
     # print english doc date
     print $outfile "<td>$gitinfo{'en'}{$dir_file}{'date'}</td>";
