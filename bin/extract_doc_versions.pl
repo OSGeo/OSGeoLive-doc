@@ -233,9 +233,6 @@ sub print_lang_versions() {
     print $outfile "$gitinfo{'en'}{$dir_file}{'dir'}/$html_file'>";
     print $outfile "$dir_file</a></td>\n";
 
-    # print date
-    #print $outfile "  <td>$gitinfo{'en'}{$dir_file}{'date'}</td>\n";
-
     # print app
     print $outfile "  <td>";
     if ( $gitinfo{'en'}{$dir_file}{'app'} ) {
@@ -287,3 +284,49 @@ sub print_lang_versions() {
   print $outfile "</table>\n";
 }
 
+###############################################################################
+# print table showing file versions for each language as CSV
+###############################################################################
+sub print_lang_versions_csv() {
+
+  print $outfile_csv "dir/file,Application,App Version in Overview,en\n";
+  foreach my $lang (sort keys %gitinfo) {
+    $lang =~ /en/ && next;
+    print $outfile_csv ",$lang";
+  }
+  print $outfile_csv "\n";
+
+  # loop through filenames
+  foreach my $dir_file (sort keys %{$gitinfo{"en"}}) {
+
+    # print file/dir and url
+    print $outfile_csv ",$gitinfo{'en'}{$dir_file}{'dir'}/$html_file";
+
+    # print app
+    print $outfile_csv ",";
+    if ( $gitinfo{'en'}{$dir_file}{'app'} ) {
+      print $outfile_csv "$gitinfo{'en'}{$dir_file}{'app'}";
+    }
+
+    # print app version
+    print $outfile_csv ",";
+    if ( $gitinfo{'en'}{$dir_file}{'app_version'} ) {
+      print $outfile_csv "$gitinfo{'en'}{$dir_file}{'app_version'}";
+    }
+
+    # print english doc date
+    print $outfile_csv ",$gitinfo{'en'}{$dir_file}{'date'}";
+
+    # loop through languages
+    foreach my $lang (sort keys %gitinfo) {
+      $lang =~ /en/ && next;
+
+      # print language's version
+      print $outfile_csv ",";
+      if (exists $gitinfo{$lang}{$dir_file} ) {
+        print $outfile_csv "$gitinfo{$lang}{$dir_file}{'date'}";
+      }
+    }
+    print $outfile_csv "\n";
+  }
+}
