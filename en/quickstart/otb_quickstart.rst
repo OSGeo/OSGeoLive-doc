@@ -23,34 +23,36 @@ This Quick Start describes how to:
 
 The OTB applications provide lot's of interesting tools which facilitate the manipulation of images. All these tools are available through:
 
-  * CLI : command line interface 
-  * GUI : in a standalone graphical user interface (in Qt)
+  * CLI (command line interface) : all applications can be called from a terminal starting with `otbcli_` plus the application name
+  * GUI (a standalone graphical user interface in Qt) : the applications can be called from a terminal with the alias `otbgui_` plus the application name. An other option is to use a small launcher (available in the menu -> Geospatial -> Spatial Tools -> OTB Launcher)
   * QGIS plugin : available through the processing framework
 
-Sample data used in this quickstart can be found here:
-  * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
-
-Please download the data and extract them in the folder `/home/user/otb/`.
-
-If you want to use the OTB library and compile your C++ code inside OSGeo-Live,
-you will need to install development package **libotb-dev** and most probably
-cmake also. 
+Sample data used in this quickstart can be found in :
+  * /home/user/data/north_carolina/rast_geotiffs
 
 
 Display metadata informations in an image 
 ================================================================================
 
 You can get all the metadata informations contained in an image with the command : `otbcli_ReadImageInfo`
-The unique parameter is the Input image file name, for example : `otbcli_ReadImageInfo -in qb_RoadExtract.tif`
+The unique parameter is the Input image file name, for example::
+
+  otbcli_ReadImageInfo -in ortho_2001_t792_1m.tif
 
 Calculator on image bands
 ================================================================================
 
-The `otbcli_otbBandMath` provides an efficient way to perform mathematical operation on monoband images.
-The syntax is quite simple, for example substrating two bands to study the image differences on the images SpotBefore.tif and SpotAfter.tif, just use the command : `otbcli_BandMath -il SpotBefore.tif SpotAfter.tif -out difference.tif -exp "im1b1-im2b1"`
+The `otbcli_otbBandMath` provides an efficient way to perform mathematical operation on image bands.
+The syntax is quite simple, for example substrating two bands to study the image differences on the images `lsat7_2002_10.tif` and `lsat7_2002_20.tif`, just use the command::
+
+  otbcli_BandMath -il lsat7_2002_10.tif lsat7_2002_20.tif -out difference.tif -exp "im1b1-im2b1"
+
 The application is able to perform complex mathematical operations over images (threshold, logarithmic rescaling...).
-This homebrewed digital calculator is also bundled with custom functions allowing to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing:
-`otbcli_BandMath -il qb_RoadExtract.tif -out ndvi.tif -exp "ndvi(im1b3,im1b4)"`
+This homebrewed digital calculator is also bundled with custom functions allowing to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing::
+
+  otbcli_BandMath -il lsat7_2002_30.tif lsat7_2002_40.tif -out ~/ndvi.tif -exp "ndvi(im1b1,im2b1)"
+
+The file `lsat7_2002_30.tif` corresponds to Landsat 7 red channel, `lsat7_2002_40.tif` corresponds to Near Infra-Red.
 
 Pixel based classification
 ================================================================================
@@ -72,10 +74,31 @@ The OTB *Segmentation* application allows to produce a raster segmentation
 output with different algorithms and to scale up to large raster by producing
 vector outputs that you can import in a GIS software.
 There are four segmentation methods available in the application:
-  * Mean-Shift (two different implementations)
+  * Mean-Shift
   * Watershed (ITK implementation)
   * Connected-Components
   * Morphological profiles
+
+You can test the segmentation with these commands:
+
+* Creation of a multichannel Red-Green-Blue-Nir image
+
+::
+
+  otbcli_ConcatenateImages -il lsat7_2002_30.tif lsat7_2002_20.tif lsat7_2002_10.tif lsat7_2002_40.tif -out ~/lsat7_rgbn.tif
+
+* Apply segmentation
+
+::
+
+  otbcli_Segmentation -in ~/lsat7_rgbn.tif -filter meanshift -mode raster -mode.raster.out ~/segmentation.tif
+
+* Generate colors instead of labels
+
+::
+
+  otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif
+
 
 Moreover the application can work in two different modes:
 
@@ -84,14 +107,34 @@ Moreover the application can work in two different modes:
 * Vector mode: segment larger images and produces a vector file where each
         segment of the segmentation is represented by a polygon
 
-  .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
-     :scale: 100 %
+  .. image:: ../../images/screenshots/800x600/otb-meanshift-lsat7.png
 
 OTB includes also a framework to perform tile-wise segmentation of very large
 image with theoretical guarantees of getting identical results to those without
 tiling called LSMS_.
 
 .. _LSMS: https://www.orfeo-toolbox.org/CookBook/CookBooksu42.html
+
+
+OTB in QGis
+================================================================================
+
+The same set of OTB applications can also be used from the Processing -> Toolbox menu in QGis. The applications are sorted by tag.
+
+  .. image:: ../../images/screenshots/800x600/otb-processing-qgis.png
+
+
+Developing with OTB
+================================================================================
+
+If you want to use the OTB library and compile your C++ code inside OSGeo-Live,
+you will need to install development package **libotb-dev** and **libqt4-dev** .
+Also check that **cmake** is installed.
+The OTB_DIR location should be found automatically (usually in
+*/usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you should
+link the libraries in the variable OTB_LIBRARIES. More information can be found
+in the SoftwareGuide.
+
 
 What Next?
 ================================================================================
