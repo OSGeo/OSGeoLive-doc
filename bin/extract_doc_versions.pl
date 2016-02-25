@@ -130,8 +130,8 @@ sub extract_git_info() {
 }
 
 ###############################################################################
-# Extract git info for osgeo-live document files and store in
-# a hash array @gitlist
+# Extract application version as documented in documentation Project Overviews
+# and store in hash array @gitlist
 ###############################################################################
 sub extract_app_version() {
   # Check docs have been built
