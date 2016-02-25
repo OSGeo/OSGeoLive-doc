@@ -42,6 +42,10 @@ Funzionalità di base
 * Creare facilmente interfacce per il web mapping attraverso l'uso di templates  
 
   * aggiungere/rimuovere/personalizzare applicazioni
+* Creare applicazioni con funzionalità di digitalizzazione
+* Creare applicationi mobile
+* Stampa mappe con alta qualità usando i propri template PDF
+* Digitalizzazione attraverso SQL
 
 * Caricare e condividere servizi OGC WMS remoti (capabilities caching) 
 
@@ -52,7 +56,6 @@ Funzionalità di base
 * Creare utenti e gruppi, condividere e garantire l'accesso a servizi e componenti
 * Restringere l'accesso a utenti attraverso il modulo OWS security proxy via trusted servers
 * Protocolli criptati, monitoraggio e notifica dello stato, e servizio di auto-aggiornamento per servizi OGC remoti
-* Stampare mappe di alta qualità utilizzando i propri template PDF.
 * ... e altro ancora!
 
 Standards Implementati
