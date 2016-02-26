@@ -40,7 +40,7 @@ Core Features
 * Easily create web mapping interfaces using template applications  
 
   * add/remove/customize applications
-* Create applications with digitze functionality
+* Create applications with digitize functionality
 * Create mobile Applications
 * Print high-quality maps using your own PDF templates.
 * Digitizing via SQL
