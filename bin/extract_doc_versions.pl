@@ -296,6 +296,7 @@ sub print_lang_versions_csv() {
     print $outfile_csv ",$lang";
   }
   print "\n";
+  print "\n";
 
   # loop through filenames
   foreach my $dir_file (sort keys %{$gitinfo{"en"}}) {
@@ -312,7 +313,7 @@ sub print_lang_versions_csv() {
     # print app version
     print $outfile_csv ",";
     if ( $gitinfo{'en'}{$dir_file}{'app_version'} ) {
-      print $outfile_csv "\"$gitinfo{'en'}{$dir_file}{'app_version'}\"";
+      print $outfile_csv "\'$gitinfo{'en'}{$dir_file}{'app_version'}";
     }
 
     # print english doc date
