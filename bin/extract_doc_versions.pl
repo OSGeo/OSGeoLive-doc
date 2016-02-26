@@ -55,6 +55,7 @@ chdir(dirname($0)."/..");
 &print_summary;
 &print_lang_versions;
 &print_footer;
+&print_lang_versions_csv;
 
 ###############################################################################
 # Print Header html
@@ -289,18 +290,18 @@ sub print_lang_versions() {
 ###############################################################################
 sub print_lang_versions_csv() {
 
-  print $outfile_csv "dir/file,Application,App Version in Overview,en\n";
+  print $outfile_csv "dir/file,Application,App Version in Overview,en";
   foreach my $lang (sort keys %gitinfo) {
     $lang =~ /en/ && next;
     print $outfile_csv ",$lang";
   }
-  print $outfile_csv "\n";
+  print "\n";
 
   # loop through filenames
   foreach my $dir_file (sort keys %{$gitinfo{"en"}}) {
 
     # print file/dir and url
-    print $outfile_csv ",$gitinfo{'en'}{$dir_file}{'dir'}/$html_file";
+    print $outfile_csv "$gitinfo{'en'}{$dir_file}{'dir'}/$gitinfo{'en'}{$dir_file}{'file'}";
 
     # print app
     print $outfile_csv ",";
@@ -311,7 +312,7 @@ sub print_lang_versions_csv() {
     # print app version
     print $outfile_csv ",";
     if ( $gitinfo{'en'}{$dir_file}{'app_version'} ) {
-      print $outfile_csv "$gitinfo{'en'}{$dir_file}{'app_version'}";
+      print $outfile_csv "\"$gitinfo{'en'}{$dir_file}{'app_version'}\"";
     }
 
     # print english doc date
