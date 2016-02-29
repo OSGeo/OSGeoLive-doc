@@ -106,7 +106,7 @@ MapProxy
 
 **Άδεια:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Έκδοση Λογισμικού:** 1.6.0
+**Έκδοση Λογισμικού:** 1.8.0
 
 **Υποστηριζόμενες πλατφόρμες:** Linux, Mac, Windows
 

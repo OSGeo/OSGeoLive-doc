@@ -100,7 +100,7 @@ Map Proxy 实现了以下开放地信技术标准：
 
 **开源协议：** `Apache 协议 2.0 版本 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**软件版本：** 1.6.0
+**软件版本：** 1.8.0
 
 **平台支持：** GNU/Linux, Mac, Windows
 

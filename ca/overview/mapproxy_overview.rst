@@ -104,7 +104,7 @@ Detalls
 
 **Llicència:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versió de programari:** 1.6.0
+**Versió de programari:** 1.8.0
 
 **Sistemes operatius:** Linux, Mac, Windows
 
