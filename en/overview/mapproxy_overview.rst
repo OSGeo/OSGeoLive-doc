@@ -1,6 +1,6 @@
 :Author: Oliver Tonnhofer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
@@ -22,8 +22,6 @@ MapProxy speeds up mapping applications by pre-rendering and integrating maps fr
 Layers can be made transparent, projections can be changed, multiple map layers can be transformed into one, watermarks can be added, and more...
 
 MapProxy is flexible and scales from simple to complex use-cases: from a single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client to a central SDI node that combines, unifies and accelerates dozens of distributed WMS services.
-
-MapProxy is used for the German broadband atlas to deliver maps for thousands of users and the German Federal Agency for Cartography an Geodesy uses MapProxy to aggregate WMS services from all 16 states on the fly.
 
 
 Core Features
@@ -110,8 +108,6 @@ Details
 **Supported Platforms:** Linux, Mac, Windows
 
 **Support:** http://mapproxy.org/support.html
-
-**Documentation:** <../../mapproxy/index.html>`_
 
 
 Quickstart
