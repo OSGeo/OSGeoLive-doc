@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ossim.png
@@ -57,7 +57,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.8.16
+**Software Version:** 1.8.20
 
 **Supported Platforms:** Linux, Mac, Windows
 
