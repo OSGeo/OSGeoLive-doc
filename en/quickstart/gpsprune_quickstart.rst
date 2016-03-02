@@ -41,7 +41,7 @@ icon at the top of the main map display, or with the menu option :menuselection:
 .. image:: ../../images/screenshots/1024x768/gpsprune_mapnik.png
    :scale: 55
 
-You can drag the map around with the mouse, and zoom in and out with the mousewheel or the right-click menu to see greater details.  Clicking on a point will show the details including altitude and timestamp if available.  You can also click on the altitude profile to select the corresponding point.
+You can drag the map around with the mouse, and zoom in and out with the mousewheel or by double-clicking.  Dragging with the right mouse button defines a rectangle to zoom to, and the right-click menu offers further options.  Clicking on a point will show the details including altitude and timestamp if available.  You can also click on the altitude profile to select the corresponding point.
 
 Customizing the display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
