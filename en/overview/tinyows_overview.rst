@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-TinyOWS.png
@@ -52,7 +52,7 @@ Details
 
 **Licence:** MIT
 
-**Software Version:** 1.1.0
+**Software Version:** 1.1.1
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 
