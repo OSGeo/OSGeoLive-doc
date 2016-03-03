@@ -1,6 +1,6 @@
 :Author: Guy Griffiths (guy.griffiths@reading.ac.uk)
 :Reviewer: Cameron Shorter
-:Version: osgeo-live7.0
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ncWMS.png
@@ -60,7 +60,7 @@ Details
 
 **Licence:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_
 
-**Software Version:** 1.1.1
+**Software Version:** 1.2
 
 **Supported Platforms:** All Java 1.5 platforms: Windows, Linux, Mac
 
