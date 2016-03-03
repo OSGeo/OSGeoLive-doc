@@ -35,13 +35,13 @@ Mostrar una capa WFS en QGIS
 
 #. Pulsar :guilabel:`Nuevo`.
 
-#. Escribir  **pgrouting** como nombre de la Conexión y Base de Datos. 
+#. Escribir  **tinyows_demo** como nombre de la Conexión y Base de Datos. 
 
 #. Pulsar :guilabel:`Aceptar`.
 
 #. Pulsar :guilabel:`Conectar`.
 
-#. Seleccionar **ways** en el listado de tablas.
+#. Seleccionar **france** en el listado de tablas.
 
 #. Presionar :guilabel:`Añadir`.
 
@@ -63,7 +63,7 @@ Mostrar una capa WFS en QGIS
 
 #. Pulsar :guilabel:`Conectar`.
 
-#. Seleccionar **ows:ways** en la lista de capas.
+#. Seleccionar **ows:france** en la lista de capas.
 
 #. Habilitar la opción :guilabel:`Solicitar sólo objetos espaciales que solapen con la extensión de la vista actual`.
 
@@ -85,7 +85,7 @@ Editar datos con WFS-T en QGIS
 
 #. Hacer clic :menuselection:`Capa --> Guardar Edición`.
 
-#. Oculta la capa desmarcando **tows:ways** en el listado de capas.
+#. Oculta la capa desmarcando **tows:france** en el listado de capas.
 
    * El elemento editado se debería ver con un color diferente procedente directamente de la base de datos PostGIS.
 

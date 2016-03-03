@@ -38,14 +38,15 @@ Core Features
   :align: right
 
 * Load data from text files, gpx files, kml/kmz files, or directly from a GPS receiver
-* Zoomable map imagery from OpenStreetMap or any compatible server (OpenCycleMap, OpenPisteMap etc)
+* Zoomable map imagery from OpenStreetMap or any compatible server (OpenCycleMap, Reit- und Wanderkarte etc)
 * Altitude or speed profile view
 * Editing tools for creating, modifying, deleting, reversing and compressing tracks
-* Interactive 3d view of the data including terrain, or export to POV format for 3D rendering
+* Interactive 3d view of the data or export to POV format for 3D rendering, both including map imagery painted onto the terrain
 * Save data to text files, gpx files, kml/kmz files, or directly to a GPS receiver
 * Automatic correlation of photographs and audio files with the loaded data using timestamps
 * Creation of charts such as altitude against distance, speed against time
 * Distances, climbs, descents, time estimates and more
+* Online resources such as wikipedia, gpsies and local weather forecasts
 
 Details
 --------------------------------------------------------------------------------
@@ -54,7 +55,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 15.1
+**Software Version:** 17.2
 
 **Supported Platforms:** GNU/Linux, Mac OSX, Windows
 

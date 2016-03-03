@@ -241,10 +241,10 @@ rst_epilog="""
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
 .. |version-deegree| replace:: 3.3.13
-.. |version-gdal| replace:: 1.11.0
+.. |version-gdal| replace:: 1.11.3
 .. |version-geoserver| replace:: 2.6.1
 .. |version-geokettle| replace:: 2.6
-.. |version-gvsig| replace:: 2.1
+.. |version-gvsig| replace:: 2.2
 .. |version-mapbender| replace:: 3.0.5.3
 .. |version-udig| replace:: 1.4.0b
 .. |version-52nWPS| replace:: 3.3.1

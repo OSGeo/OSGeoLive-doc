@@ -34,13 +34,13 @@ WFS Layer mit QGIS anzeigen
 
 #. Klicken Sie auf die Schaltfläche :guilabel:`Neu`.
 
-#. **pgrouting** als Name und Datenbank der Verbindung eingeben
+#. **tinyows_demo** als Name und Datenbank der Verbindung eingeben
 
 #. Klicken Sie auf die Schaltfläche :guilabel:`OK`.
 
 #. Klicken Sie auf die Schaltfläche :guilabel:`Verbinden`.
 
-#. Zeile **ways** der Tabellen Liste auswählen
+#. Zeile **france** der Tabellen Liste auswählen
 
 #. Klicken Sie auf die Schaltfläche :guilabel:`Hinzufügen`.
 
@@ -58,7 +58,7 @@ WFS Layer mit QGIS anzeigen
 
 #. Klicken Sie auf die Schaltfläche :guilabel:`Verbinden`.
 
-#. **ows:ways** in der Layer-Liste auswählen
+#. **ows:france** in der Layer-Liste auswählen
 
 #. Setzen Sie einen Haken bei der Option :guilabel:`Nur Objekte, die den aktuellen Ausschnitt scheiden laden`.
 
@@ -80,7 +80,7 @@ Daten editieren mit WFS-T
 
 #. Wählen Sie :menuselection:`Layer --> Änderungen speichern`.
 
-#. Deselektieren Sie **tows:ways** in der Layer Liste, um den WFS-Layer auszublenden
+#. Deselektieren Sie **tows:france** in der Layer Liste, um den WFS-Layer auszublenden
 
    * Sie sollten den eben editierten Linienzug in einer anderen Farbe sehen, direkt von PostGIS geliefert.
 

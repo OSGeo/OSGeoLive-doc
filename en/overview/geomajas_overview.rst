@@ -56,7 +56,7 @@ Details
 
 **Licence:** AGPL
 
-**Software Version:** 2.2.0
+**Software Version:** 2.4.0
 
 **Supported Platforms:** Windows, Linux, Mac
 

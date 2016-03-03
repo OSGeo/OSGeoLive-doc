@@ -79,8 +79,6 @@ Details
 
 **API Interfaces:** Java
 
-**Support:** http://www.osgeo.org/search_profile
-
 
 .. Quickstart
 .. --------------------------------------------------------------------------------

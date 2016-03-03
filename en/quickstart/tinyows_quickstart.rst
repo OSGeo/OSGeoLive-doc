@@ -34,13 +34,13 @@ Display a WFS layer with QGIS
 
 #. Press :guilabel:`New`.
 
-#. Fill in  **pgrouting** as Connection name and Database
+#. Fill in  **tinyows_demo** as Connection name and Database
 
 #. Press :guilabel:`OK`.
 
 #. Press :guilabel:`Connect`.
 
-#. Select **ways** in the table list
+#. Select **france** in the table list
 
 #. Press :guilabel:`Add`.
 
@@ -58,7 +58,7 @@ Display a WFS layer with QGIS
 
 #. Press :guilabel:`Connect`.
 
-#. Select **ows:ways** in the layer list
+#. Select **ows:france** in the layer list
 
 #. Check :guilabel:`Only request features overlapping the current view extent`.
 
@@ -80,7 +80,7 @@ Edit data with WFS-T
 
 #. Click :menuselection:`Layer --> Save edits`.
 
-#. Hide layer unchecking **tows:ways** in the layer list
+#. Hide layer unchecking **tows:france** in the layer list
 
    * You should see the edited way in an other color, coming directly from PostGIS.
 

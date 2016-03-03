@@ -32,13 +32,13 @@
 
 #. Επιλέξτε :guilabel:`New`.
 
-#. Πληκτρολογήστε  **pgrouting** σαν όνομα σύνδεσης (Connection name) και Database
+#. Πληκτρολογήστε  **tinyows_demo** σαν όνομα σύνδεσης (Connection name) και Database
 
 #. Πιέστε :guilabel:`OK`.
 
 #. Πιέστε :guilabel:`Connect`.
 
-#. Επιλέξτε **ways** στην λίστα πινάκων
+#. Επιλέξτε **france** στην λίστα πινάκων
 
 #. Επιλέξτε :guilabel:`Add`.
 
@@ -60,7 +60,7 @@
 
 #. Πιέστε :guilabel:`Connect`.
 
-#. Επιλέξτε **ows:ways** στη λίστα επιπέδων
+#. Επιλέξτε **ows:france** στη λίστα επιπέδων
 
 #. Ενεργοποιήστε :guilabel:`Only request features overlapping the current view extent`.
 
@@ -82,7 +82,7 @@
 
 #. Πιέστε :menuselection:`Layer --> Save edits`.
 
-#. Κρύψτε το επίπεδο απενεργοποιώντας **tows:ways** στη λίστα επιπέδων
+#. Κρύψτε το επίπεδο απενεργοποιώντας **tows:france** στη λίστα επιπέδων
 
    * Μπορείτε να δείτε τις επεξεργασίες με άλλο χρώμα μέσω της απευθείας σύνδεσης με την PostGIS.
 

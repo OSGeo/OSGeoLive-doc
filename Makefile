@@ -156,6 +156,20 @@ presentation:
 
 html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs link_to_en_docs presentation
 
+# Just build the English documentation, by moving translations into TMP dir
+# Use this to quickly check new documentation
+# Do "make revert" to copy translations back
+small: css
+	mkdir -p $(TMP)
+	if [ -e ca ] ; then \
+	  mv $(TRANSLATIONS) $(TMP) ; \
+	fi 
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+
+# Move translation files back from TMP direct. Run after "make small"
+revert:
+	mv $(TMP)/* .
+
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
 	@echo
