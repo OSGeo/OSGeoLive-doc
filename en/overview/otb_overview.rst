@@ -49,10 +49,11 @@ Core Features
 * object detection
 * large scale image segmentation: region growing, mean-shift, watershed, level sets...
 * classification: K-means, Markov random fields, access to machine learning algorithms from OpenCV
+* regression using machine learning methods from OpenCV (SVM, Random Forest, ...)
 * object-based image analysis
 * geospatial analysis
 * stereoscopic reconstruction from optical images
-* SAR data analysis
+* SAR data analysis : calibration, polarimetry analysis
 * change detection.
 
 Details
@@ -63,7 +64,7 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 5.0.0
+**Software Version:** 5.2.0
 
 **Supported Platforms:** Linux, Mac, Windows
 
