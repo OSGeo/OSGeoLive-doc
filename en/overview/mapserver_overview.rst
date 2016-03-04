@@ -42,7 +42,7 @@ Core Features
   * TrueType font support for labeling and symbolization
   * Map element automation (scalebar, reference map, and legend)
   * Thematic mapping using logical or regular expression-based classes
-  * Plugable renderer support with drivers for AGG, Cairo, GD and OpenGL and others
+  * Plugable renderer support with drivers for AGG, Cairo and others
   * Special provisioning for tiled output generation
   * Mask Layers
   * Precise Symbol Placement
@@ -70,7 +70,7 @@ Core Features
 
 * A multitude of raster and vector data formats
 
-  * Native support for ESRI shapefiles, PostGIS, ESRI ArcSDE and Oracle Spatial
+  * Native support for ESRI shapefiles, PostGIS and Oracle Spatial
   * Many other formats via GDAL and OGR
 
 * Map projection support
