@@ -94,7 +94,7 @@ Demo
 Documentation
 --------------------------------------------------------------------------------
 
-* `MapServer 6.4 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 7.0 Documentation <../../mapserver/doc/index.html>`_
 
 Details
 --------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ Details
 
 **Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 6.4.1
+**Software Version:** 7.0.1
 
 **Supported Platforms:** Windows, Linux, Mac
 
