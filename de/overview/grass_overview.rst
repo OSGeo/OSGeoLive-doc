@@ -72,7 +72,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 7.0.0RC1
+**Software Version:** 7.0.3
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
