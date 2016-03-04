@@ -51,6 +51,9 @@ Core Features
   * Label Leader Offsetting
   * SVG Symbology
   * Multiple Font Support
+  * Dynamic Heatmaps
+  * UTF Grid Support
+  * Layer Compositing
 
 * Sophisticated spatial query support
 
