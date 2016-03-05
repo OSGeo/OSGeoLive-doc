@@ -1,7 +1,7 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
 :Reviewer: Cameron Shorter, http://lisasoft.com
-:Version: osgeo-live7.9
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-cartaro.png
@@ -58,7 +58,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.5
+**Software Version:** 1.9
 
 **Supported Platforms:** Windows, Linux, Mac
 
