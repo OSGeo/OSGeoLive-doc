@@ -7,7 +7,7 @@
 .. image:: ../../images/project_logos/logo-eoxserver.png
   :alt: project logo
   :align: right
-  :target: http://eoxserver.org/
+  :target: https://eoxserver.readthedocs.org/
 
 EOxServer
 ================================================================================
@@ -15,17 +15,17 @@ EOxServer
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EOxServer is a server for presenting big Earth Observation (EO) data 
+EOxServer is a server for presenting big Earth Observation (EO) data
 archives and metadata via Open Standards.
 
-Earth Observation data currently supported includes 2D raster data generally 
-acquired using sensors on satellites or aircrafts and including information 
-about the time of acquisition and the footprint on planet Earth. It is 
+Earth Observation data currently supported includes 2D raster data generally
+acquired using sensors on satellites or aircrafts and including information
+about the time of acquisition and the footprint on planet Earth. It is
 typically used to monitor Earth's natural and built environment.
 
-EOxServer builds upon an Open Source stack of software which includes 
-Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL 
-<gdal_overview>`, PROJ.4, and a :doc:`SpatiaLite <spatialite_overview>` or 
+EOxServer builds upon an Open Source stack of software which includes
+Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
+<gdal_overview>`, PROJ.4, and a :doc:`SpatiaLite <spatialite_overview>` or
 :doc:`PostGIS <postgis_overview>` database.
 
 .. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
@@ -39,13 +39,13 @@ Core Features
 * View, filter, subset, and download EO data
 * Register EO data archives
 * Web based and command line administration interface
-* Publish data via :doc:`Open Geospatial Consortium (OGC) standards 
+* Publish data via :doc:`Open Geospatial Consortium (OGC) standards
   <../standards/standards>`:
 
-  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 and 
+  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 and
     2.0 & proposed EO-WCS
   * :doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS
-  * Proposed extensions to WCS including: GeoTIFF encoding, predefined 
+  * Proposed extensions to WCS including: GeoTIFF encoding, predefined
     projections (CRSs), scaling, and interpolation.
   * Protocols supported are: KVP and XML/POST (used together with SOAP2POST
     Proxy to provide also XML/SOAP)
@@ -67,14 +67,16 @@ Implemented Standards
 
   * WCS, EO-WCS
   * WMS, EO-WMS
+  * WPS
   * GML, GMLCOV, EO-O&M
+  * OpenSearch
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://eoxserver.org/
+**Website:** https://eoxserver.readthedocs.org/
 
-**Licence:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
+**Licence:** `MIT-style license <https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_
 
 **Software Version:** |version-eoxserver|
 
@@ -82,9 +84,9 @@ Details
 
 **API Interfaces:** Python
 
-**Support:** http://eoxserver.org/doc/en/users/basics.html#where-can-i-get-support
+**Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html#where-can-i-get-support
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`

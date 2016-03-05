@@ -54,7 +54,7 @@ GRASS 소프트웨어는 400개 이상의 분석 모듈을 포함하고 있습�
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 7.0.0RC1
+**Software Version:** 7.0.3
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
