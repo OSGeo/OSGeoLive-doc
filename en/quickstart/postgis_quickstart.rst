@@ -3,7 +3,8 @@
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD Cameron Review Comment:
@@ -60,7 +61,7 @@ Creating A Spatially-Enabled database
 ================================================================================
 
 Command-line clients run from within a Terminal Emulator window. Start a Terminal
-Emulator from the Applications menu in the Accessories section. This gives you a
+Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a
 Unix shell command prompt. Type::
 
    psql -V
@@ -186,7 +187,7 @@ one for the city name, and another for the geometry column:
 
 ::
 
-  demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), the_geom geometry(POINT,4326) );
+  demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );
 
 Conventionally this geometry column is called
 ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry
@@ -201,7 +202,7 @@ that the table currently contains no rows.
 ::
 
   demo=# SELECT * from cities;
-   id | name | the_geom 
+   id | name | geom 
   ----+------+----------
   (0 rows)
 
@@ -211,9 +212,9 @@ from a text format that gives the coordinates and a spatial reference system id:
 
 ::
 
-  demo=# INSERT INTO cities (id, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
-  demo=# INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
-  demo=# INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
+  demo=# INSERT INTO cities (id, geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
+  demo=# INSERT INTO cities (id, geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
+  demo=# INSERT INTO cities (id, geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
 
 .. tip:: 
    Use the arrow keys to recall and edit command lines.
@@ -231,7 +232,7 @@ All the usual SQL operations can be applied to select data from a PostGIS table:
 ::
 
  demo=# SELECT * FROM cities;
-  id |      name       |                      the_geom                      
+  id |      name       |                      geom                      
  ----+-----------------+----------------------------------------------------
    1 | London, England | 0101000020E6100000BBB88D06F016C0BF1B2FDD2406C14940
    2 | London, Ontario | 0101000020E6100000F4FDD478E94E54C0E7FBA9F1D27D4540
@@ -241,12 +242,12 @@ All the usual SQL operations can be applied to select data from a PostGIS table:
 This gives us an encoded hexadecimal version of the coordianates, not so useful for humans.
 
 If you want to have a look at your geometry in WKT format again, you
-can use the functions ST_AsText(the_geom) or ST_AsEwkt(the_geom). You can also
-use ST_X(the_geom), ST_Y(the_geom) to get the numeric value of the coordinates:
+can use the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also
+use ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:
 
 ::
 
- demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM cities;
+ demo=# SELECT id, ST_AsText(geom), ST_AsEwkt(geom), ST_X(geom), ST_Y(geom) FROM cities;
   id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
  ----+------------------------------+----------------------------------------+-------------+-----------
    1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
@@ -268,8 +269,8 @@ assuming a spherical earth?
 
 ::
 
- demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
-       name       |      name       | st_distance_sphere 
+ demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
+       name       |      name       | st_distancesphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
   East London,SA  | London, England |   9789646.96784908
@@ -288,18 +289,28 @@ spheroid name, semi-major axis and inverse flattening parameters:
 
 ::
 
-  demo=# SELECT p1.name,p2.name,ST_Distance_Spheroid(
-          p1.the_geom,p2.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
+  demo=# SELECT p1.name,p2.name,ST_DistanceSpheroid(
+          p1.geom,p2.geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
           ) 
          FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
-        name       |      name       | st_distance_spheroid 
+        name       |      name       | st_distancespheroid 
   -----------------+-----------------+----------------------
    London, Ontario | London, England |     5892413.63776489
    East London,SA  | London, England |     9756842.65711931
    East London,SA  | London, Ontario |     13884149.4140698
   (3 rows)
 
+To quit PostgreSQL command line, enter:
 
+::
+
+\q
+
+You are now back to system console:
+
+::
+
+user@osgeolive:~$
 
 Mapping
 ================================================================================
@@ -309,9 +320,9 @@ of the open source desktop GIS programs can do this - Quantum GIS, gvSIG, uDig f
 show you how to make a map from Quantum GIS.
 
 Start Quantum GIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
-parameters for connecting to the Natural Earth data in PostGIS is already defined in the Connections
+parameters for connecting to the OpenStreetMap data in PostGIS is already defined in the Connections
 drop-down menu. You can define new server connections here, and store the settings for easy
-recall. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
+recall. Clic on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
 hit ``Connect`` to continue:
 
 .. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
@@ -346,9 +357,9 @@ Creating A Spatial Table The Easy Way
 Most of the OSGeo desktop tools have functions for importing spatial data in files, such as shapefiles,
 into PostGIS databases. Again we'll use QGIS to show this.
 
-Importing shapefiles to QGIS can be done via a handy PostGIS Manager plugin. To set it up, go to the 
+Importing shapefiles to QGIS can be done via a handy DataBase Manager plugin. To set it up, go to the 
 Plugins menu, select ``Fetch Python Plugins``. QGIS will then get the latest list of plugins from the 
-repository (you will need a working internet connection for this). Then find the ``PostGIS Manager`` and
+repository (you will need a working internet connection for this). Then find the ``DB Manager``. It should be already installed (like in the picture), if not,
 hit the ``Install plugin`` button.
 
 .. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
@@ -359,8 +370,8 @@ hit the ``Install plugin`` button.
 Now on the Database menu you should have a PostGIS Manager entry which gives you an option
 to start the manager. You can also click the PostGIS logo button (the elephant with the globe) on the toolbar.
 
-It will then  connect to the Natural Earth database. Leave
-the password blank if it asks. You'll see the main manager window. On the left you can select 
+Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave
+the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select 
 tables from the database and use the tabs on the right find out about them. The Preview tab
 will show you a little map. Here I've selected the ne_10m_populated_places layer
 and zoomed in on a little island I know:
@@ -370,11 +381,11 @@ and zoomed in on a little island I know:
   :alt: PostGIS Manager Preview
   :align: center
 
-We will now use the PostGIS Manager to import a shapefile into the database. We'll use
+We will now use the DB Manager to import a shapefile into the database. We'll use
 the North Carolina sudden infant death syndrome (SIDS) data that is included with one
 of the R statistics package add-ons.
 
-From the ``Data`` menu choose the ``Load data from shapefile`` option. 
+From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
 (located in /usr/local/lib/R/site-library/):
 
@@ -390,7 +401,7 @@ Leave everything else as it is and hit ``Load``
   :alt: Import a shapefile
   :align: center
 
-The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
+Let the Coordinate Reference System Selector to default (WGS 84 EPSG:4326) and hit ``OK``. The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
 get back to the main QGIS window.
 
 Now load the SIDS data into the map using the 'Add PostGIS Layer'
@@ -460,7 +471,8 @@ We are going to find the rate of the SIDS over the births for the 1974 for each 
 Furthermore we are going to sort the result, based on the computed rate. To do that,we need to perform the following query (submit it
 on the text editor of the SQL Window):
 
-select name, 1000*sid74/bir74 as rate from sids order by rate.
+::
+select name, 1000*sid74/bir74 as rate from sids order by rate;
 
 Afterwards, you should press the green arrow button, pointing to the right (execute query).
 
@@ -475,7 +487,7 @@ Things to try
 
 Here are some additional challenges for you to try:
 
-#. Try some more spatial functions like ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``st_x(the_geom)`` - you will find full documentation at http://postgis.net/documentation/
+#. Try some more spatial functions like ``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full documentation at http://postgis.net/documentation/
 
 #. Export your tables to shapefiles with ``pgsql2shp`` on the command line.
 
