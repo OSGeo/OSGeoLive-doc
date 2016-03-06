@@ -1,6 +1,6 @@
 :Author: Massimo Di Stefano
 :Contact: epiesasha at me dot com
-:Version: osgeo-live8.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-jupyter.png
@@ -54,7 +54,7 @@ and chose the Introduction notebook (Fig 3), an introductive notebok will be ren
   .. image:: ../../images/screenshots/1024x768/jupyter3.png
      :scale: 60 %
      :align: right
-**Figure 2**
+**Figure 3**
 
 From the introductive notebook you can explore some of the topic, as example, scroll down to the "Simple-web-gis-products" click on "CESIUM", a new notebook will be opened in a new tab (Fig. 4)
 
