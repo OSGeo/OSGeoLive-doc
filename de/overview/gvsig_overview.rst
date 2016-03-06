@@ -94,6 +94,9 @@ Kernelemente
   * Diagramme
   * Erweiterte Werkzeuge zur Symbolerstellung
   * Erweiterte Werkzeuge zur Beschriftungserstellung
+  * Erweiterung zur Veröffentlichung
+  * Portable Ansichten
+  * Angepasste Ausgaben
 
 
 Implementierte Standards
