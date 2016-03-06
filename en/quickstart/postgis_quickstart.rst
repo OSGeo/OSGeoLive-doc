@@ -322,7 +322,7 @@ show you how to make a map from Quantum GIS.
 Start Quantum GIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
 parameters for connecting to the OpenStreetMap data in PostGIS is already defined in the Connections
 drop-down menu. You can define new server connections here, and store the settings for easy
-recall. Clic on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
+recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
 hit ``Connect`` to continue:
 
 .. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
@@ -401,7 +401,7 @@ Leave everything else as it is and hit ``Load``
   :alt: Import a shapefile
   :align: center
 
-Let the Coordinate Reference System Selector to default (WGS 84 EPSG:4326) and hit ``OK``. The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
+Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) and hit ``OK``. The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
 get back to the main QGIS window.
 
 Now load the SIDS data into the map using the 'Add PostGIS Layer'
