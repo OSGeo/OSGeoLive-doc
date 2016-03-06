@@ -31,7 +31,7 @@ Next
 A web browser is automatically launched pointing to the localhost URL at
 the Jupyter notebook port number (you should see the Notebook main page) (fig. 1 (c)).
 
-  .. image:: ../../images/screenshots/1024x768/jupyter1.jpg
+  .. image:: ../../images/screenshots/1024x768/jupyter1.png
      :scale: 60 %
      :align: right
 	 
@@ -39,17 +39,17 @@ From the main page (notebook dashboard) is possible to navigate the directory tr
 
 From the main page click on the directory GSOC (Fig 2) and chose the Introduction notebook (Fig 3), an introductive notebok will be rendered fig4 listing some of the notebooks avalialble
 
-  .. image:: ../../images/screenshots/1024x768/jupyter2.jpg
+  .. image:: ../../images/screenshots/1024x768/jupyter2.png
      :scale: 60 %
      :align: right
 
-  .. image:: ../../images/screenshots/1024x768/jupyter3.jpg
+  .. image:: ../../images/screenshots/1024x768/jupyter3.png
      :scale: 60 %
      :align: right
 
 From the introductive notebook you can explore some of the topic, as example, scroll down to the "Simple-web-gis-products" click on "CESIUM", a new notebook will be opened in a new tab (Fig. 4)
 
-  .. image:: ../../images/screenshots/1024x768/jupyter4.jpg
+  .. image:: ../../images/screenshots/1024x768/jupyter4.png
      :scale: 60 %
      :align: right
 	 
@@ -57,6 +57,6 @@ From the introductive notebook you can explore some of the topic, as example, sc
 Here there are a series of example using the cesium js library, click on "CesiumWidget Interact-Example", a new notebook whch make wide use of the  widget extension, some python libraries and cesium-js will be rendered.
 From the toolbar on top of the notebook chose: cell->run all. If everything worked as planned ... you shoul be able to see the results at the bottom of the page (Fig 5)
 
-  .. image:: ../../images/screenshots/1024x768/jupyter5.jpg
+  .. image:: ../../images/screenshots/1024x768/jupyter5.png
      :scale: 60 %
      :align: right
