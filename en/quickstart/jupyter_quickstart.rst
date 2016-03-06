@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-jupyter.png
-  :scale: 100 %
+  :scale: 50 %
   :alt: project logo
   :align: center
   :target: http://jupyter.org/
