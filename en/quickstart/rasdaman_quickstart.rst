@@ -1,5 +1,5 @@
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
-:Version: osgeo-live8.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. _rasdaman-quickstart:
@@ -24,8 +24,8 @@ Running WCPS Queries
 ================================================================================
 
 Either:
-  * Go to `WCPS servlet page <http://localhost:8080/petascope_earthlook>`_ and enter you query in the query boxes and press send.
-  * Add your query in this url: http://localhost:8080/petascope_earthlook?query=your_query and run it using a browser.    
+  * Go to `WCPS servlet page <http://localhost:8080/rasdaman/ows>`_ and enter you query in the query boxes and press send.
+  * Add your query in this url: http://localhost:8080/rasdaman/ows?query=your_query and run it using a browser.    
 
 
 Running Coverage
@@ -45,7 +45,7 @@ The WCPS query to access the full coverage is as follows:
 
    for c in (NIR) return encode(c, "png")
 
-Click on `coverage <http://localhost:8080/petascope_earthlook?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_ to execute it on the browser.
+Click on `coverage <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_ to execute it on the browser.
    	
 
 Select a Subset of the Coverage
@@ -57,7 +57,7 @@ The WCPS query to access a subset of the coverage is as follows:
 
    for c in (NIR) return encode(c[i(0:500),j(0:500)], "png")
 
-Click on the `subsetting <http://localhost:8080/petascope_earthlook?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500), j(0:500)],%20%22png%22%29>`_ to execute it on the browser.
+Click on the `subsetting <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500), j(0:500)],%20%22png%22%29>`_ to execute it on the browser.
 
 The query result is an image as follows:
 
@@ -74,7 +74,7 @@ The WCPS query to access the red band of the coverage is as follows:
 
    for c in (NIR) return encode(c.red, "png")
 
-Click on `band extraction <http://localhost:8080/petascope_earthlook?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_ to execute it on the browser.
+Click on `band extraction <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_ to execute it on the browser.
 
 You should see the following image in the browser:
 
