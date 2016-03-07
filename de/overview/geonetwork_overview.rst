@@ -46,14 +46,12 @@ Implementierte Standards
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
-* Z39.50 
 * OpenSearch-Geo
 * OAI-PMH
 * Metadaten standards:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 und ISO Profiles
  * Dublin Core
- * FGDC
 
 Details
 --------------------------------------------------------------------------------
@@ -62,7 +60,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.10.4
+**Software Version:** 3.0.3
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
@@ -72,5 +70,5 @@ Details
 
 Quickstart
 --------------------------------------------------------------------------------
-
+    
 * :doc:`Quickstart Dokumentation <../quickstart/geonetwork_quickstart>`
