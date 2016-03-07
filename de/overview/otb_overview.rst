@@ -19,8 +19,10 @@ OTB stellt Werkzeuge für Optic und Radarbilder
 (3D Aspekte, Erkennung von Änderungen, Texturanalysen, Musterabgleich, optische/radar Komplementaritäten) zur Verfügung.
 Viele der Prozesse können auf weniger leistungsstarken Notebooks laufen.
 
-OTB wird mit erweiterbaren direkt einsatzfähigen Werkzeugen für klassische Remote Sensing Fragestellungen sowie mit einer vollständig integrierten Benutzeroberfläche mit dem Namen Monteverdi2 
-ausgeliefert. Monteverdi2 ermöglicht es dem Anwender OTB Prozessketten über das Menü auszuwählen.
+OTB wird mit erweiterbaren direkt einsatzfähigen Werkzeugen für klassische Remote Sensing Fragestellungen sowie mit einer vollständig integrierten Benutzeroberfläche mit
+ dem Namen Monteverdi 
+ausgeliefert. Monteverdi ist ein performates Anzeigewerkzeug, das es dem Anwender ermöglicht zahlreiche Layer zu visualisieren und
+ OTB Prozessketten über das Menü auszuwählen.
 
 OTB wurde von der French Space Agency (CNES) im Rahmen des
 methodischen Bereichs des ORFEO/Pleiades Accompaniement Programms gegründet und 
@@ -30,14 +32,16 @@ ITK(v4) und ist Open Source.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-* Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten Fernerkundungsdatenformate (inklusive Jpeg2000 über OpenJPEG), Metadatenzugriff und Visualisierung
+* Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten 
+Fernerkundungsrasterdatenformate 
+(inklusive Jpeg2000), Metadatenzugriff und Visualisierung
 * Orthorectification unter Verwendung von DEM und Kartenumprojektion
-* Kalibrierung
+* optische und SAR Kalibrierung
 * Bildfusion
 * Filtern: Blurring, Denoising, Verbesserungen
 * Erzeugen von Objekten: Einfügen von Punkten, Anpassungen, Linien
@@ -47,7 +51,7 @@ Kernfunktionen
 * objektbasierte Bildanalyse
 * räumliche Analyse
 * Stereoskopische Rekonstruktion von optischen Bildern
-* SAR Datenanalyse
+* SAR Datenanalyse: Kalibrierung, polarimetry analysis
 * Änderungsverfolgung
 
 Details
@@ -58,7 +62,7 @@ Details
 **Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
   für französisches Recht)
 
-**Software Version:** 5.0.0
+**Software Version:** 5.2.0
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 
