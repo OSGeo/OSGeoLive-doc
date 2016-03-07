@@ -8,21 +8,21 @@
   :align: right
   :target: http://goworldwind.org/
 
-Java World Wind
+WorldWind Java
 ================================================================================
 Desktop Virtual Globe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Java World Wind is a virtual globe containing a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects.
+WorldWind Java is a virtual globe containing a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects.
 
 Thanks to the use of Digital Elevation Models (DEM), it is possible to view topographic features, such as the Grand Canyon or Mount Everest in three dimensions.
 
-Organizations across the world use World Wind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth.
+Organizations across the world use WorldWind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth.
 
 .. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
  :scale: 50 %
- :alt: Java World Wind Example
+ :alt: WorldWind Java Example
  :align: right
 
 Core Features
@@ -86,7 +86,7 @@ Details
 
 **Licence:** NASA Open Source Agreement Version 1.3
 
-**Software Version:** World Wind Java SDK 2.0
+**Software Version:** WorldWind Java SDK 2.0
 
 **Supported Platforms:** Windows, Linux, Mac, Android, iOS
 
