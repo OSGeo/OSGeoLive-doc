@@ -30,8 +30,8 @@ Features (Core Features and PlugIns*)
 * Data Formats
 
     * reads (files): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
-    * reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL* and SpatiaLite*
-    * reads (OGC standards): WKT, WMS, KML+
+    * reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL*, SpatiaLite+, H2 Spatial+, MariaDB+
+    * reads (OGC standards): WKT, WMS, KML+, GeoPackage
     * writes: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
     * note, formats marked with a (*) require an additional plugin, and with (+) are part of the PLUS edition.
 
@@ -42,6 +42,7 @@ Features (Core Features and PlugIns*)
     * rotating, scaling, auto-complete polygon
     * cut, merge, simplify polygons and lines
     * warping, quality assurance tools
+    * coordinate conversions between CRS'
 
 * Analysis & Query
 
@@ -63,7 +64,7 @@ Implemented Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS, KML and SLD;
+* OGC standards supported: GML2, SFS, WMS, KML, SLD, GeoPackage (reading);
 
 Details
 --------------------------------------------------------------------------------
@@ -78,7 +79,7 @@ Details
 
 **Community Support:** http://www.openjump.org/support.html
 
-**Commercial Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+**Commercial Support:** http://ojwiki.soldin.de/index.php?title=Professional_Support_Page
 
 **Download Page:** http://sourceforge.net/projects/jump-pilot/files/ 
 
