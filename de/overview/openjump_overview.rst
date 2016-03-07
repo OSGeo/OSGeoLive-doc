@@ -29,9 +29,9 @@ Funktionen (Kerfunktionen und Plugins*)
 * Datenformate
 
     * lesend (dateibasiert): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
-    * lesend (DB): PostGIS, ArcSDE*, Oracle*, MySQL* und SpatiaLite*
-    * lesend: (OGC Standards) : WKT, WMS, KML
-    * schreibend: GML, SHP, WKT, PostGIS, DXF+, CSV+ & JPG, TIFF, ASCII grid*, SVG+
+    * lesend (DB): PostGIS, ArcSDE*, Oracle*, MySQL*, SpatiaLite+, H2 Spatial+, MariaDB+
+    * lesend: (OGC Standards): WKT, WMS, KML+, GeoPackage
+    * schreibend: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
     * beachten Sie, dass die mit * markierten Formate über ein extra Plugin eingebunden werden, die mit + markierten sind dagegen Teil der PLUS Edition.
 
 * Bearbeitung & Vereinigung
@@ -40,16 +40,17 @@ Funktionen (Kerfunktionen und Plugins*)
     * Hinzufügen, Verschiebenm, Löschen von Stützpunkten
     * Drehen, Skalieren und auto-vervollständigen von Polygonen
     * Verschneiden, Zusammenführen, Vereinfachen von Polygonen und Linien
-    * Warping, Werkzeuge zur Qualitätsprüfung*
+    * Warping, Werkzeuge zur Qualitätsprüfung
+    * Koordinatentransformation
 
 * (Vektoren) Analysen & Abfragen
 
     * Abfragefunktionen für räumliche Daten und Attribute
     * Analysen: Mittelpunkt, Puffer, Union, Overly, Mittelpunkt, Convex Hull,...
-    * Statistiken: Längen- und Flächenberechnung, Attributstatistik, planar graph, Topologiebereinigung über die PLUS edition, 
+    * Statistiken: Längen- und Flächenberechnung, Attributstatistik, Drucke
     * Editierwerkzeuge: converter, noder, polygonizer, planar graph, topology cleaning in PLUS edition, ...
     * Werkzeuge zur Attributübertragung: join, matching*
-    * Rasteranalyse über den SEXTANTE Connector
+    * Rasteranalyse über den SEXTANTE Toolbox als Teil der PLUS Edition
 
 * Anpassungen
 
@@ -63,7 +64,7 @@ Implementierte Standards
 
 .. Writing Tip: List OGC or related standards supported.
 
-* OGC standards supported: GML2, SFS, WMS, KML und SLD;
+* OGC standards supported: GML2, SFS, WMS, KML, SLD, GeoPackage (lesend);
 
 Details
 --------------------------------------------------------------------------------
@@ -78,7 +79,7 @@ Details
 
 **Community Support:** http://www.openjump.org/support.html
 
-**Komerzieller Support:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+**Komerzieller Support:** http://ojwiki.soldin.de/index.php?title=Professional_Support_Page
 
 **Download:** http://sourceforge.net/projects/jump-pilot/files/ 
 
