@@ -95,4 +95,4 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
     
-:doc: `Quickstart documentation <../quickstart/javaworldwind_quickstart>`_
+:doc: `Quickstart documentation <../quickstart/worldwindjava_quickstart>`_
