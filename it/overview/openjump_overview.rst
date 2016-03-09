@@ -30,11 +30,11 @@ Caratteristiche (Principali e PlugIns*)
 
 * Formati dati
 
-    * legge (file): GML, SHP, DXF*, MIF*, CSV+, KML+ & TIFF, ASCII grid, JPG, PNG, JPEG2000*, MrSID*, ECW*
-    * legge (DB): PostGIS, ArcSDE*, Oracle*, MySQL* e SpatiaLite*
-    * legge (standards OGC): WKT, WMS, KML+ 
-    * scrive: GML, SHP, WKT, PostGIS, DXF+, CSV+ & JPG, TIFF, ASCII grid*, SVG+
-    * si noti che i formati marcati con (*) funzionano con plugin extra (+ in PLUS edition)
+    * legge (file): GML, SHP, DXF*, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid, JPG, PNG, JPEG2000+, MrSID*, ECW+
+    * legge (DB): PostGIS, ArcSDE*, Oracle*, MySQL* SpatiaLite*, H2 Spatial+, MariaDB+
+    * legge (standards OGC): WKT, WMS, KML+, GeoPackage
+    * scrive: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+
+    * si noti che i formati marcati con (*) funzionano con plugin extra, con (+) sono invece parte della versione PLUS.
 
 * Editing & Unione
 
@@ -42,7 +42,8 @@ Caratteristiche (Principali e PlugIns*)
     * aggiungere, muovere, eliminare vertici
     * ruotare, scalare, auto-completare poligoni
     * tagliare, unire, simplificare poligoni e linee
-    * warping, quality assurance tools
+    * warping, strumenti per controllo di qualità
+    * conversione di coordinate attraverso CRS
 
 * Analisi & Interrogazione
 
@@ -65,7 +66,7 @@ Standard implementati
 
 .. Writing Tip: List OGC or related standards supported.
 
-* standards OGC supportati: GML2, SFS, WMS, KML e SLD
+* standards OGC supportati: GML2, SFS, WMS, KML, SLD, GeoPackage (reading);
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -74,13 +75,13 @@ Dettagli
 
 **Licenza:** GPL
 
-**Versione Software:** 1.7.1 (Core Edition)
+**Versione Software:** 1.9.0
 
 **Piattaforma Supportate:** Windows, Linux, Mac, Unix
 
 **Supporto della communità:** http://www.openjump.org/support.html
 
-**Supporto Commerciale:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+**Supporto Commerciale:** http://ojwiki.soldin.de/index.php?title=Professional_Support_Page
 
 **Page per lo scaricamento:** http://sourceforge.net/projects/jump-pilot/files/ 
 
