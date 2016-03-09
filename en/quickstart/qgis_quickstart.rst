@@ -3,7 +3,8 @@
 :Author: Hamish Bowman
 :Author: Zoltan Siki
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live8.0
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -37,11 +38,13 @@ Edit QGIS project
 Let's start by opening up an existing QGIS project, and turning layers on and
 off.
 
+
+#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`Project --> Open` from the menu bar.
+
      .. image:: ../../images/screenshots/1024x768/qgis_project_open.png
        :scale: 70 %
        :alt: Open a QGIS project
 
-#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`Project --> Open` from the menu bar.
 
 #. Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
 
@@ -64,6 +67,11 @@ off.
    can drag them around and turn them on and off by right clicking.
    You can also zoom in and out with the mouse wheel, and pan with a
    left-click drag.
+
+     .. image:: ../../images/screenshots/1024x768/qgis_zoom_toolbar.png
+        :scale: 70 %
+        :alt: Map in QGIS
+
 
 Style a layer
 ================================================================================
@@ -95,7 +103,7 @@ Let's now create a new QGIS project and load our own data.
 
 #. Choose :menuselection:`Project --> New`. You will be asked whether to save the previous project, you can press :guilabel:`Close without Saving`.
 
-#. Click :menuselection:`Layer --> Add Vector Layer...`.
+#. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...`.
 
 #. Browse to dataset :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
 
@@ -130,14 +138,15 @@ Let's now include a layer from a Postgres database.
       :alt: Connecting to a PostGIS DB
       :align: right
 
-#. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
+#. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
 
    * Both Natural Earth and OpenStreetMap Postgis databases
      are already available; we will be using use the Natural Earth database.
      If you wanted to connect to a different database, you would select
      the :guilabel:`New` button and fill in the database parameters.
 
-#. Select the "Natural Earth" connection and press :guilabel:`Connect`.
+#. Select the "Natural Earth" connection and press :guilabel:`Connect`. Then 
+click on the Public schema to deploy it:
 
    * A list of database tables will appear.
 
@@ -154,9 +163,14 @@ Let's now include a layer from a Postgres database.
 
 #. Let's represent one of the database attributes in the data as a bubble plot.
    In the middle of the `Style` tab, drag the Transparency
-   slider to **50%**, press the :guilabel:`Advanced` button and select
+   slider to **50%**. Click on the small button at the right of the size field and select
    :menuselection:`Size scale field`, then choose **scalerank** 
    (it's near to the beginning of the list). Then click :guilabel:`Ok`.
+
+   .. image:: ../../images/screenshots/1024x768/qgis_bubble_size.png
+      :scale: 70 %
+      :alt: Scale field choose
+      :align: right
 
 #. You can then click on the query button on the toolbar (cursor arrow with
    a blue "i") and then on the map canvas bubbles to view information about
@@ -166,8 +180,16 @@ Let's now include a layer from a Postgres database.
         :scale: 70
         :alt: Scale field map
 
-Using the GRASS Toolbox
+Using the GRASS Toolbox (deprecated section)
 ================================================================================
+
+.. TBD: Nicolas's review comments:
+  All the GRASS toolbox section is deprecated. i wasn't able to find the tools 
+  used in that section in QGIS 2.14. The GRASS toolbar is only 2 buttons now. 
+  Can't find how to add the raster layer. No simple option anymore. Where is the
+  Spearfish location ? Grass tool and data are messed, this section needs a 
+  rebuilding by someone who know how to use grass. Which I don't, one goal of 
+  this review was to learn more about grass too.
 
 There have been many plugins written for QGIS which extend QGIS's core
 functionality. One of the more powerful is the GRASS plugin, which taps
@@ -278,7 +300,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
    * A new toolbar will open on the right side of the screen with many
      processing tools to choose from. Take some time and have a look around.
 
-   .. image:: ../../images/screenshots/800x600/qgis_toolbox.png
+   .. image:: ../../images/screenshots/1024x768/qgis_toolbox.png
       :scale: 70 %
       :alt: Processing Toolbox
 
@@ -288,7 +310,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
      Additionally, switch to the "Advanced Interface" (see lower right corner
      in the screenshot) in order to see the providers:
 
-   .. image:: ../../images/screenshots/800x600/qgis_enable_provider.png
+   .. image:: ../../images/screenshots/1024x768/qgis_enable_provider.png
       :scale: 70 %
       :alt: Enabling the GRASS GIS 7 provider in the Processing settings.
 
@@ -318,7 +340,7 @@ Importing OpenStreetMap data
      :alt:  The OpenStreetMap plugin
      :align: right
 
-#. Choose :menuselection:`Vector --> OpenStreetMap --> Import toplogy from XML`.
+#. Choose :menuselection:`Vector --> OpenStreetMap --> Import topology from XML`.
 
 #. Click on the "..." button next to "Input XML file (.osm)" and select
    the `feature_city_CBD.osm` file you just copied into the home directory.
@@ -342,7 +364,7 @@ Importing OpenStreetMap data
 
 #. Once topology is loaded, you can also refine the SpatiaLite layer by
    querying just certain features from within it.
-   Select :menuselection:`Layer --> Add SpatiaLite Layer...` from the
+   Select :menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the
    menu and from the `Databases` list select `feature_city_CBD@...` and
    then click on :guilabel:`Connect`. Double click on
    the `feature_city_cbd_polylines` table and then double click on "highway"
