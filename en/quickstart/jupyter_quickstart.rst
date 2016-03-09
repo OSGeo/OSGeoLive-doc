@@ -21,22 +21,29 @@ Starting jupyter notebook
 
 From the application launch menu in the lower left corner.
  
-* Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook* (fig. 1.1)
+* Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*
+
+  .. image:: ../../images/screenshots/1024x768/jupyter1-1.png
+     :scale: 100 %
+     :align: right
   
 A terminal window will open and a startup log will begin to scroll.
 Next
 
-* Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook * (fig. 1.2)
+* Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook * 
 
-A web browser is automatically launched pointing to the localhost URL at
-the Jupyter notebook port number (you should see the Notebook main page) (fig. 1.3).
 
-  .. image:: ../../images/screenshots/1024x768/jupyter1.png
+  .. image:: ../../images/screenshots/1024x768/jupyter1-2.png
      :scale: 60 %
      :align: right
 
-**Figure 1**	 
-	 
+A web browser is automatically launched pointing to the localhost URL at
+the Jupyter notebook port number (you should see the Notebook main page).
+
+
+  .. image:: ../../images/screenshots/1024x768/jupyter1-3.png
+     :scale: 60 %
+     :align: right
 	 
 	 
 	
