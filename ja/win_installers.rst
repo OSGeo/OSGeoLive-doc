@@ -1,27 +1,28 @@
 OSGeo Windows用インストーラ
 ================================================================================
 
-**Important!**: It is recommended that you visit the homepage of the software you are interested in and download the latest version from there.
+**重要!**: それぞれのWebサイトにて最新版の確認・ダウンロードすることをおすすめします。
 
-インストール:
+インストール方法:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 アプリケーションをインストールするためにはそれぞれの exe ファイルをダブルクリックするか zip　を解凍して README を読んで下さい。
 いくつかのアプリケーションは 64 bit バージョンもありますが、互換性のためにここでは 32 bit しか含んでいません。　
-最新版あるいは代替版はWebでチェックしてください。
-プロジェクトに関する詳しい情報は Live ディスクのヘルプファイルを読むか http://live.osgeo.org を訪れてください。
+最新版あるいは代替版はWebで確認してください。
+プロジェクトに関する詳しい情報は Live ディスクのヘルプファイルを読むか http://live.osgeo.org にて確認してください。
+
 
 osgeo4w-setup.exe はWindows用アプリケーションのインストールを簡単にしてくれます。
 ここで紹介しているアプリケーションのいくつかは OSGeo4w からも利用可能です。
 OSGeo4w ツールはアプリケーションの更新管理、追加ライブラリのインストール、互換性の確保の機能も備えています。
+詳しい情報は、 http://trac.osgeo.org/osgeo4w/ にて確認してください。
 
-詳しいな情報は、 http://trac.osgeo.org/osgeo4w/ をご覧になってください。
 
 vcredist_x86.exe は Microsoft によるランタイムで、多くのアプリケーションを動かすために必要となります。
 
 * http://download.osgeo.org/osgeo4w/osgeo4w-setup.exe
 * http://qgis.org/downloads/QGIS-OSGeo4W-1.8.0-2-Setup.exe
 * http://home.gdal.org/tmp/vcredist_x86.exe
-* http://grass.osgeo.org/grass64/binary/mswindows/native/WinGRASS-6.4.3-1-Setup.exe
+* http://grass.osgeo.org/grass70/binary/mswindows/native/
 * http://download.osgeo.org/livedvd/data/gpsbabel/GPSBabel-1.4.4-Setup.exe
 * http://github.com/downloads/mapbox/tilemill/TileMill-v0.10.1-Setup.exe
 * http://gpsvp.googlecode.com/files/gpsVPxp_0.4.24.zip
