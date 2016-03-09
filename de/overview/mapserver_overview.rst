@@ -50,7 +50,10 @@ Kernfunktionen
   * Vektorfelder
   * Label Leader Offsetting
   * Unterstützung von SVG-Symbolen
-  * Multiple Font Support  
+  * Multiple Font Support
+  * Dynamische Heatmaps
+  * UTF Grid Support
+  * Layer Compositing
 
 * Unterstützung anspruchsvoller räumlicher Abfragen
 
@@ -60,6 +63,8 @@ Kernfunktionen
   * Unterstützung von Abfragen auf Rasterdaten
   * Vollständig anpassbare vorlagenbasierte Ausgabe
   * OGR-basierte Ausgabe von Abfrageergebnissen
+
+* Unterstützung für beliebte scripting und Entwicklungsumgebungen
 
   * CGI/FastCGI
   * PHP, Python, Perl, Ruby, Java, und .NET
@@ -85,7 +90,6 @@ Implementierte Standards
 
   * :doc:`../standards/wms_overview` (Client/Server), :doc:`../standards/wfs_overview` (nicht-transaktional, Client/Server), WMC, :doc:`../standards/wcs_overview`, :doc:`../standards/fe_overview`, :doc:`../standards/sld_overview`, :doc:`../standards/gml_overview`, SOS, OM
 
-
 * INSPIRE View Service
 
 Demo
@@ -106,7 +110,7 @@ Details
 
 **Lizenz:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 6.4.1
+**Software Version:** 7.0.1
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

@@ -3,7 +3,8 @@
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD Cameron Review Comment:
@@ -129,7 +130,7 @@ können Sie aber auch direkt innerhalb von ``psql`` eine Verbindung zu einer and
 
 Sie sollten eine Meldung sehen, die Eingabe wechselt und zeigt an, dass Sie mit der Datenbank ``demo`` verbunden sind. 
 
-Weiter umfassen PostGIS 2.0:
+Fügen Sie nun die PostGIS Erweiterung hinzu:
 
 ::
 
@@ -174,6 +175,7 @@ Die Ausgabe bestätigt, dass wir eine Datenbank mit räumlicher Erweiterung vorl
 Erweiterung. Hierzu erfahren Sie mehr im nächsten Abschnitt.
 
 
+
 Erzeugen einer Tabelle mit räumlicher Erweiterung - die harte Tour
 ================================================================================
 
@@ -186,7 +188,7 @@ Namen der Stadt und ein Feld für die Geometriespalte:
 
 ::
 
-  demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), the_geom geometry(POINT,4326) );
+  demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );
 
 In der Regel wird diese Spalte ``geom`` genannt (Die ältere PostGIS Konvention war ``the_geom``). 
 Der Aufruf gibt an, welcher Geometrietyp angelegt werden soll (Punkte, Linien. Polygone etc), wie 
@@ -200,7 +202,7 @@ die Tabelle derzeit leer ist.
 ::
 
   demo=# SELECT * from cities;
-   id | name | the_geom 
+   id | name | geom 
   ----+------+----------
   (0 rows)
 
@@ -210,9 +212,9 @@ Text und als zweiten Parameter den EPSG-Code:
 
 ::
 
-  demo=# INSERT INTO cities (id, the_geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
-  demo=# INSERT INTO cities (id, the_geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
-  demo=# INSERT INTO cities (id, the_geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
+  demo=# INSERT INTO cities (id, geom, name) VALUES (1,ST_GeomFromText('POINT(-0.1257 51.508)',4326),'London, England');
+  demo=# INSERT INTO cities (id, geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
+  demo=# INSERT INTO cities (id, geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
 
 .. tip:: 
    Verwenden Sie die Pfeiltaste, um den Befehl erneut aufzurufen und anzupassen.
@@ -230,7 +232,7 @@ Alle üblichen SQL Operationen können angewendet werden, um Daten aus einer Pos
 ::
 
  demo=# SELECT * FROM cities;
-  id |      name       |                      the_geom                      
+  id |      name       |                      geom                      
  ----+-----------------+----------------------------------------------------
    1 | London, England | 0101000020E6100000BBB88D06F016C0BF1B2FDD2406C14940
    2 | London, Ontario | 0101000020E6100000F4FDD478E94E54C0E7FBA9F1D27D4540
@@ -239,13 +241,13 @@ Alle üblichen SQL Operationen können angewendet werden, um Daten aus einer Pos
 
 Diese Ausgabe gibt uns die hexadezimale Version der Koordinaten aus, die für uns schwer lesbar ist.
 
-Wenn Sie Ihre Geoemetrien wieder im WKT Format ausgeben möchten, können Sie die Funktionen ST_AsText(the_geom) 
-oder ST_AsEwkt(the_geom) verwenden. Sie können außerdem die Funktionen ST_X(the_geom) und ST_Y(the_geom) 
+Wenn Sie Ihre Geoemetrien wieder im WKT Format ausgeben möchten, können Sie die Funktionen ST_AsText(geom) 
+oder ST_AsEwkt(geom) verwenden. Sie können außerdem die Funktionen ST_X(geom) und ST_Y(geom) 
 verwenden, um die Koordinaten auszugeben:
 
 ::
 
- demo=# SELECT id, ST_AsText(the_geom), ST_AsEwkt(the_geom), ST_X(the_geom), ST_Y(the_geom) FROM cities;
+ demo=# SELECT id, ST_AsText(geom), ST_AsEwkt(geom), ST_X(geom), ST_Y(geom) FROM cities;
   id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
  ----+------------------------------+----------------------------------------+-------------+-----------
    1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
@@ -268,7 +270,7 @@ gehen von einer sphärischen Erde aus.
 
 ::
 
- demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.the_geom,p2.the_geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
+ demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
        name       |      name       | st_distance_sphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657

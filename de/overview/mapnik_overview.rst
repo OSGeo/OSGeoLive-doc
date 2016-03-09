@@ -1,6 +1,6 @@
 :Author: Dane Springmeyer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapnik.png
@@ -51,7 +51,7 @@ Details
 
 **Lizenz:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 2.2.0
+**Software Version:** 2.3.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

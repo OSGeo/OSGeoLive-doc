@@ -138,11 +138,11 @@ You can download tutorials for the OpenJUMP here:
 http://sourceforge.net/projects/jump-pilot/files/Documentation/
 
 You can read the OpenJUMP wiki here:
-http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Main_Page
+http://ojwiki.soldin.de/index.php?title=Main_Page
 
 And you can get help fast on the OpenJUMP users mailing list:
 http://groups.google.com/group/openjump-users
 
 Finally, the latest OpenJUMP version can be found here:
-http://sourceforge.net/projects/jump-pilot/files/
+http://sourceforge.net/projects/jump-pilot/files/OpenJUMP/
 

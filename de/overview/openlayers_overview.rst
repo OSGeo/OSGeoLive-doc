@@ -3,7 +3,7 @@
 :Author: Roald de Wit
 :Author: Antonio Santiago
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live8.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
@@ -53,7 +53,7 @@ Kernfunktionen
 
 * Styling und Anpassungen
 
-  * Leistungsstarkes Styling von Objekten: Punkte, Linien, Polygone swoie Icons.
+  * Leistungsstarkes Styling von Objekten: Punkte, Linien, Polygone sowie Icons.
   * Anpassung der Bedienelemente via CSS3.
 
 * Overlays
@@ -81,7 +81,7 @@ Details
 
 **Lizenz:** 2-klausige BSD Lizenz (aka FreeBSD Lizenz)
 
-**Software Version:** 3.7.0
+**Software Version:** 3.13.1
 
 **API Schnittstellen:** JavaScript
 

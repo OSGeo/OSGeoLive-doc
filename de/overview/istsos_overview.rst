@@ -22,26 +22,26 @@ istSOS
 Daten-Managementwerkzeug
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-istSOS ist ein Managementwerkzeug für Sensordaten, das das Sammeln, Unterhalten und Monitoren von Beobachtungen mit Hilfe des Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` Standards ermöglicht.
+istSOS ist ein Managementwerkzeug für Sensordaten, das das Sammeln, Pflegen und Monitoren von Beobachtungen mit Hilfe der Standards des Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` ermöglicht.
 
 .. image:: ../../images/screenshots/1024x768/screenshot_istsos.png
   :scale: 60 %
   :alt: Datenviewer
   :align: right
 
-istSOS implementiert streng den SOS 1.0.0 Standard und hat die OGC CITE (Compliance + Interopability Testing + Evaluation) Units Tests bestanden.
+istSOS folgt streng dem SOS 1.0.0 Standard und hat die OGC CITE (Compliance + Interopability Testing + Evaluation) Units Tests bestanden.
 
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Veröffentlichen von Sensordaten gemäß des Sensor Observation Service (SOS) Standard.
-* Administration von Sensordaten und Daten mit der intuitiven webbasierten Oberfläche
+* Veröffentlichen von Sensordaten gemäß des Sensor Observation Service (SOS) Standards.
+* Administration von Sensordaten und anderen Daten mit der intuitiven webbasierten Oberfläche.
 * Verwendung einer kompletten Restful API für den Zugriff auf istSOS Funktionalität von externen Clients zur Erzeugung von interaktiven Diagrammen, zur Anzeige von Sensordaten auf einer dynamischen Karte oder lediglich zum einfachen Schreiben von Wartungsskripten.
 * Benachrichtigung per Mail, twitter oder über andere soziale Medien, wenn Sensordaten bestimmte Bedingungen erfüllen.
-* Benutzerauthentikation und Authorisierung mit unterschiedlichen Zugriffsstufen (Administrator, Netzwerkmanager, Datenmanager und Besucher).
-* Erzeugung von Virtuellen Prozeduren, die wie normale Stationen aussehen, deren Daten aber aus on-the-fly Darstellungen von anderen Sensordaten resultieren 
+* Benutzerauthentifikation und Authorisierung mit unterschiedlichen Zugriffsstufen (Administrator, Netzwerkmanager, Datenmanager und Besucher).
+* Erzeugung von Virtuellen Prozeduren, die wie normale Stationen aussehen, deren Daten aber aus on-the-fly Darstellungen von anderen Sensordaten resultieren. 
 * Verbinden von Qualitätsindices für jede Beobachtung durch eingebaute Plausibilitätsprüfungen.
-* Onlineerfassung von Daten mit einer übergangslosen Oberfläche und erweitertem Beobachtungsrechner
+* Onlineerfassung von Daten mit einer übergangslosen Oberfläche und erweitertem Beobachtungsrechner.
 
 Implementierte Standards
 --------------------------------------------------------------------------------
