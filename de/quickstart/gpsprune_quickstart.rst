@@ -45,7 +45,8 @@ Falls eine Netzwerkverbindung vorliegt, können Sie Karten über den Globus Butt
 .. image:: ../../images/screenshots/1024x768/gpsprune_mapnik.png
    :scale: 55
 
-Jetzt können Sie die Karte mit der Maus rumschieben und ein- und auszoomen.
+Jetzt können Sie die Karte mit der Maus rumschieben und ein- und auszoomen. Das Zoomen kann per Mausrad oder über Doppelklick erfolgen. Über den gedrückten rechten Mausbutton kann ein Rechteck aufgezogen werden. Über das Kontextmenü stehen weitere Optionen zur Auswahl.
+
 Beim Klicken auf einem Punkt sieht man die Details, inklusive Höhe und Zeitstempeln falls vorhanden.
 Unterhalb der Karte findet man das Höhenprofildiagramm, das den Profil zeigt falls die Daten Höheninformation enthalten.
 Wenn man darauf klickt, wird der entsprechender Datenpunkt ausgewählt.
@@ -59,13 +60,6 @@ wie Höhenlinien und Radwege anzuzeigen.
 
 .. image:: ../../images/screenshots/1024x768/gpsprune_cyclemap.png
    :scale: 55
-
-Karten herunterladen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Um die heruntergeladenen Kartenkacheln auf Disk zu speichern, können Sie die Menüoption
-:menuselection:`Einstellungen --> Karten auf Disk speichern` benutzen und einen Ordner für die Bilder auswählen.
-Mit dieser Option muss GpsPrune die Bilder nur einmal herunterladen, was das Anzeigen beschleunigt.  Aber diese Option
-macht auf einem installierten System mehr Sinn als auf einem live DVD.
 
 Wikipedia
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -106,7 +100,6 @@ lang ist, Aufstieg 346 m und Abstieg lediglich 10 m.
 
 .. image:: ../../images/screenshots/1024x768/gpsprune_rangedetails.png
    :scale: 55
-
 
 GpsPrune auf anderen Systemen verwenden
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
