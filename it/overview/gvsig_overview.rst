@@ -1,16 +1,18 @@
 :Author: Jorge Sanz
 :Author: Manuel Madrid
+:Author: Mario Carrera
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Antonio Falciano
+:Translator: Luca Delucchi
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
-  :target: http://www.gvsig.org/
+  :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -60,17 +62,17 @@ Caratteristiche principali
 
 * Interoperabilità: è in grado di lavorare con i formati di dati più comuni:
 
-  * raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,...
-  * vettoriali: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
+  * raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF...
+  * vettoriali & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * database: PostGIS, MySQL, Oracle, ArcSDE
-  * remoti: ECWP, ArcIMS, OGC standards
+  * remoti: OGC standards (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS
 
 * Comprende client di ricerca per localizzare risorse di dati con una SDI (servizi di catalogo e gazeteer)
   
   * Cataloghi: Z3950, SRW, CSW (ISO/19115 e ebRIM)
   * Gazetteer: ADL, WFS, WFS-G
   
-* Più di 340 geoalgoritmi tramite la libreria SEXTANTE
+* Più di 300 geoalgoritmi tramite la libreria SEXTANTE
   
 * Comprende strumenti CAD avanzati:
 
@@ -86,11 +88,22 @@ Caratteristiche principali
   * esportazione, ritaglio
   * tabelle dei colori, istogrammi
   * filtri, vettorizzazione
-  * gestione delle piramidi e delle regioni di interesse (ROI)
+  * gestione delle piramidi e delle regioni di interesse
 
-* Supporto scripting
-* Potente motore di riproiezione via PROJ4
+* 3D View
 
+* Other features:
+
+  * Supporto scripting
+  * Potente motore di riproiezione via PROJ4
+  * Importazione/esportazione di set di simboli
+  * Compositore di mappe
+  * Grafici
+  * Strumenti avanzati della simbologia
+  * Strumenti avanzati per le etichette
+  * Estensione per la pubblicazione
+  * Viste portabili
+  * Distribuzioni personalizzate
 
 Standard implementati
 --------------------------------------------------------------------------------
@@ -106,18 +119,18 @@ Supporto client avanzato di numerosi standard dell'Open Geospatial Consortium (O
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://www.gvsig.org/
+**Sito web:** http://www.gvsig.com/
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Ultima versione stabile del software:** |version-gvsig|
+**Versione software:** |version-gvsig|
 
-**Sistemi operativi supportati:** Windows, Linux
+**Piattaforme supportate:** Windows, Linux
 
-**Supporto:** http://www.gvsig.org/web/organization/services
+**Supporto:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists
 
 
-.. _gvSIG: http://www.gvsig.org
+.. _gvSIG: http://www.gvsig.com
 
 Guida rapida
 --------------------------------------------------------------------------------
