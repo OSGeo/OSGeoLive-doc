@@ -1,1 +1,1 @@
-../../en/quickstart/ipython_quickstart.rst
+../../en/quickstart/IPython_quickstart.rst
