@@ -63,10 +63,42 @@ From the introductive notebook you can explore some of the topic, as example, sc
      :align: right
 **Figure 4**
 	 
+	 
 Here there are a series of example using the cesium js library, click on "CesiumWidget Interact-Example", a new notebook whch make wide use of the  widget extension, some python libraries and cesium-js will be rendered.
+
 From the toolbar on top of the notebook chose: cell->run all. If everything worked as planned ... you shoul be able to see the results at the bottom of the page (Fig 5)
 
   .. image:: ../../images/screenshots/1024x768/jupyter5.png
      :scale: 60 %
      :align: right
 **Figure 5**
+
+Now Interact with the code:
+
+In the code cell ``in [8]`` we generated a python dictionary based on some keywords (location names) with empty values:
+
+``in [8]:  myplace = {'Eboli, IT':'', 'Woods Hole, MA':'', 'Durham, NH':''}``
+``        {'Durham, NH': '', 'Eboli, IT': '', 'Woods Hole, MA': ''}``
+
+and at the code input cell ``in [9]``, we loop over the dictionary keys and making use of a geocoding library ``geocoder``, we add the location information inside the previously created python dictionary ``my place``:
+
+``
+in [9]: import geocoder
+	import time
+        for i in myplace.keys():
+            g = geocoder.google(i)
+            print(g.latlng)
+            myplace[i]=g.latlng
+``
+with output:
+``
+[41.5264977, -70.6730857]
+[40.6179234, 15.0564332]
+[43.1339545, -70.9264393]
+``
+
+Now try to add or replace new keywords like we did in ``In [8]``
+
+``in []:  mynewplace = {'Cairns, AU':'', 'Cooktown, AU':'', 'Darvin, AU':''}``
+
+and re run ``In [9] [10] [11]`` you will see the newly dictionary is now used in the brop down menu to select the new location and zoom-to withing the Cesium globe.
