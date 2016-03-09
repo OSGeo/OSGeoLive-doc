@@ -37,14 +37,14 @@ Eine Besonderheit von Geomajas ist die starke serverseitge Fokussierung. Das Ver
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Integrierte Client-Server Architektur
-* Geometrie und Attribute editieren
-* Eigene Attribute definieren 
-* Fortgeschrittene Abfrage-Möglichkeiten (CQL)
-* gebrauchsfertige Sicherheitseinstellungen
-* Erweiterbarer Plug-In Mechanismus
-* Unterschiedliche Front-End Technologien
-* Vielfältige Browserunterstützung, ohne die Verwendung von Browser-Plugins
+* Programmierbar mit reinem Java über GWT
+* Unterstützt verschiedene Datenquellen (incl. WMS, WFS, WMTS, TMS, OSM, Google Maps, Shape, PostGIS, Oracle, JDBC, …)
+* Kollection von built-in Widgets (incl. Editieren Und Redlining, Druck, Geocoding, Ebenenbaum, ...)
+* Aufbau von eigenen Use-Cases und neuen Widgets 
+* Leicht anpassbar über CSS
+* Keine Verwendung von Browser-Plugins
+* Läuft auf zahlreichen internettauglichen Geräten die HTML5 verwenden
+* Noch kein GWT Enthusiast? Zugriff auf die Kernfunktionen über die Javascript API
 
 Enterprise Server Funktionalität
 --------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ Details
 
 **Lizenz:** AGPL
 
-**Software Version:** 2.2.0
+**Software Version:** 2.4.0
 
 **Unterstütze Plattformen:** Windows, Linux, Mac
 

@@ -8,7 +8,7 @@
 .. image:: ../../images/project_logos/logo-eoxserver.png
   :alt: project logo
   :align: right
-  :target: http://eoxserver.org/
+  :target: https://eoxserver.readthedocs.org/
 
 EOxServer
 ================================================================================
@@ -72,14 +72,16 @@ Implementierte Standards
 
   * WCS, EO-WCS
   * WMS, EO-WMS
+  * WPS
   * GML, GMLCOV, EO-O&M
+  * OpenSearch
 
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://eoxserver.org/
+**Webseite:** https://eoxserver.readthedocs.org/
 
-**Lizenz:** `MIT-style license <http://eoxserver.org/doc/copyright.html#license>`_
+**Lizenz:** `MIT-style license <https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_
 
 **Software Version:** |version-eoxserver|
 
@@ -87,7 +89,7 @@ Details
 
 **API Schnittstellen:** Python
 
-**Support:** http://eoxserver.org/doc/en/users/basics.html#where-can-i-get-support
+**Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html#where-can-i-get-support
 
 Quickstart
 --------------------------------------------------------------------------------

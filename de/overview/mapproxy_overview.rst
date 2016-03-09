@@ -1,7 +1,7 @@
 :Author: Oliver Tonnhofer
 :Author: Dominik Helle
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
@@ -110,7 +110,6 @@ Details
 
 **Support:** http://mapproxy.org/support.html
 
-**Dokumentation:** <../../mapproxy/index.html>`_
 
 Quickstart
 --------------------------------------------------------------------------------
