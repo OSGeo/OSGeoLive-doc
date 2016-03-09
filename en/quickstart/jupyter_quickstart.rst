@@ -93,10 +93,16 @@ and at the code input cell ``in [9]``, we loop over the dictionary keys and maki
                 print(g.latlng)
                 myplace[i]=g.latlng
 
-Now try to add or replace new keywords like we did in ``In [8]``
+Try to add or replace new keywords like we did in ``In [8]``
 
 .. code-block:: python
 
     in []:  mynewplace = {'Cairns, AU':'', 'Cooktown, AU':'', 'Darvin, AU':''}
 
-and re run ``In [9] [10] [11]`` you will see the newly dictionary is now used in the brop down menu to select the new location and zoom-to withing the Cesium globe.
+and re run ``In [9] [10] [11]`` you will see the newly crerated dictionary is now used in the drop down menu to select the new location and zoom-to withing the Cesium globe.
+
+For more information about the jupyter notebook, please refer to the `jupyter official documentation`_.
+More notebook examples are available from the notebook root directory (Gigure 1.3)
+
+
+.. _jupyter official documentation: http://jupyter.readthedocs.org/en/latest/index.html
