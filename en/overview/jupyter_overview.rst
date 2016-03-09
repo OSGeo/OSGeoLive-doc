@@ -9,15 +9,15 @@
   :align: right
   :target: http://jupyter.org/
 
-Project Jupyter was born out of the IPython Project in 2014 as it evolved to support interactive data science and scientific computing across all programming languages.
+Project Jupyter aims to support interactive data science and scientific computing across all programming languages.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Jupyter Notebook
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/jupyter-screenshot.png
-  :scale: 100 %
+.. image:: ../../images/screenshots/1024x768/jupyter6.png
+  :scale: 70 %
   :alt: screenshot
   :align: right
   
