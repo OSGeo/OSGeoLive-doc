@@ -77,28 +77,30 @@ Now Interact with the code:
 
 In the code cell ``in [8]`` we generated a python dictionary based on some keywords (location names) with empty values:
 
-``in [8]:  myplace = {'Eboli, IT':'', 'Woods Hole, MA':'', 'Durham, NH':''}``
-``        {'Durham, NH': '', 'Eboli, IT': '', 'Woods Hole, MA': ''}``
+```
+in [8]:  myplace = {'Eboli, IT':'', 'Woods Hole, MA':'', 'Durham, NH':''}
+        {'Durham, NH': '', 'Eboli, IT': '', 'Woods Hole, MA': ''}
+```
 
 and at the code input cell ``in [9]``, we loop over the dictionary keys and making use of a geocoding library ``geocoder``, we add the location information inside the previously created python dictionary ``my place``:
 
-``
+```
 in [9]: import geocoder
 	import time
         for i in myplace.keys():
             g = geocoder.google(i)
             print(g.latlng)
             myplace[i]=g.latlng
-``
+```
 with output:
-``
+```
 [41.5264977, -70.6730857]
 [40.6179234, 15.0564332]
 [43.1339545, -70.9264393]
-``
+```
 
 Now try to add or replace new keywords like we did in ``In [8]``
 
-``in []:  mynewplace = {'Cairns, AU':'', 'Cooktown, AU':'', 'Darvin, AU':''}``
+```in []:  mynewplace = {'Cairns, AU':'', 'Cooktown, AU':'', 'Darvin, AU':''}```
 
 and re run ``In [9] [10] [11]`` you will see the newly dictionary is now used in the brop down menu to select the new location and zoom-to withing the Cesium globe.
