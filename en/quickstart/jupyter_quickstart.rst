@@ -102,7 +102,7 @@ Try to add or replace new keywords like we did in ``In [8]``
 and re run ``In [9] [10] [11]`` you will see the newly crerated dictionary is now used in the drop down menu to select the new location and zoom-to withing the Cesium globe.
 
 For more information about the jupyter notebook, please refer to the `jupyter official documentation`_.
-More notebook examples are available from the notebook root directory (Gigure 1.3)
+More notebook examples are available from the notebook root directory (Figure 1.3)
 
 
 .. _jupyter official documentation: http://jupyter.readthedocs.org/en/latest/index.html
