@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-jupyter.png
   :alt: project logo
-  :align: right
+  :align: center
   :target: http://jupyter.org/
 
 Jupyter Notebook
@@ -22,7 +22,7 @@ It combines two components:
 .. image:: ../../images/screenshots/800x600/jupyter-screenshot.png
   :scale: 70 %
   :alt: screenshot
-  :align: right
+  :align: center
   
 .. Cameron Comment: Reverted to prior screenshot
   New image was: .. image:: ../../images/screenshots/1024x768/jupyter6.png
