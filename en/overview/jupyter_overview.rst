@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-jupyter.png
   :alt: project logo
-  :align: right
+  :align: center
   :target: http://jupyter.org/
 
 Project Jupyter aims to support interactive data science and scientific computing across all programming languages.
@@ -17,13 +17,13 @@ Jupyter Notebook
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/1024x768/jupyter6.png
-  :scale: 70 %
+  :scale: 60 %
   :alt: screenshot
-  :align: right
+  :align: center
   
 .. TBD: The image should show use of iPython Notebook with maps, possibly as
    collage. Show an [In] cell with code. Show a heading or 2 and text
-   demonstrating how it is easy to build an publish powerful web pages.
+   demonstrating how it is easy to build an publish powerful web pages. < Done
    
    
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.

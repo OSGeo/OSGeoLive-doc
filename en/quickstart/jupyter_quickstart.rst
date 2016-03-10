@@ -31,7 +31,7 @@ From the application launch menu in the lower left corner.
 
   .. image:: ../../images/screenshots/1024x768/jupyter1-1.png
      :scale: 100 %
-     :align: right
+     :align: center
   
 A terminal window will open and a startup log will begin to scroll.
 Next
@@ -41,7 +41,7 @@ Next
 
   .. image:: ../../images/screenshots/1024x768/jupyter1-2.png
      :scale: 60 %
-     :align: right
+     :align: center
 
 A web browser is automatically launched pointing to the localhost URL at
 the Jupyter notebook port number (you should see the Notebook main page).
@@ -49,7 +49,7 @@ the Jupyter notebook port number (you should see the Notebook main page).
 
   .. image:: ../../images/screenshots/1024x768/jupyter1-3.png
      :scale: 60 %
-     :align: right
+     :align: center
 	 
 	 
 	
@@ -59,21 +59,21 @@ From the main page click on the directory GSOC
 
   .. image:: ../../images/screenshots/1024x768/jupyter2.png
      :scale: 60 %
-     :align: right
+     :align: center
 
 
 and chose the Introduction notebook (Fig 3), an introductive notebok will be rendered listing some of the notebooks avalialble
  
   .. image:: ../../images/screenshots/1024x768/jupyter3.png
      :scale: 60 %
-     :align: right
+     :align: center
 
 
 From the introductive notebook you can explore some of the topic, as example, scroll down to the "Simple-web-gis-products" click on "CESIUM", a new notebook will be opened in a new tab (Fig. 4)
 
   .. image:: ../../images/screenshots/1024x768/jupyter4.png
      :scale: 60 %
-     :align: right
+     :align: center
 
 	 
 	 
@@ -83,14 +83,14 @@ From the toolbar on top of the notebook chose: cell->run all. If everything work
 
   .. image:: ../../images/screenshots/1024x768/jupyter5.png
      :scale: 60 %
-     :align: right
+     :align: center
 
 
 Now Interact with the code:
 
 In the code cell ``in [8]`` we generated a python dictionary based on some keywords (location names) with empty values:
 
-.. code-block:: python
+.. code-block:: center
 
     in [8]:  myplace = {'Eboli, IT':'', 'Woods Hole, MA':'', 'Durham, NH':''}
 
