@@ -128,7 +128,8 @@ What Next?
 ================================================================================
 
 For more information about the jupyter notebook, please refer to the `jupyter official documentation`_.
-More notebook examples are available from the notebook root directory. 
+More notebook examples are available from the notebook root directory.
+For a quick introduction on how to use the jupyter-notebook interface, from the start page, check the notebook: "Introduction to jupyter notebook"
 
 
 .. _jupyter official documentation: http://jupyter.readthedocs.org/en/latest/index.html
