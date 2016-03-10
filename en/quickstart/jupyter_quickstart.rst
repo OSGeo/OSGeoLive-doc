@@ -55,14 +55,7 @@ the Jupyter notebook port number (you should see the Notebook main page).
 	
 From the main page (notebook dashboard) is possible to navigate the directory tree (starting point is the notebook root directory, which is set in the notebook configuration) or start nerw notebooks, create files and directory, as well as rename, delete and upload files.
 
-From the main page click on the directory GSOC
-
-  .. image:: ../../images/screenshots/1024x768/jupyter2.png
-     :scale: 60 %
-     :align: center
-
-
-and chose the Introduction notebook (Fig 3), an introductive notebok will be rendered listing some of the notebooks avalialble
+From the main page click on the directory "Educational material - GSoC-2015", an introductive notebok will be rendered listing some of the notebooks avalialble
  
   .. image:: ../../images/screenshots/1024x768/jupyter3.png
      :scale: 60 %
@@ -115,7 +108,8 @@ Try to add or replace new keywords like we did in ``In [8]``
 and re run ``In [9] [10] [11]`` you will see the newly crerated dictionary is now used in the drop down menu to select the new location and zoom-to withing the Cesium globe.
 
 For more information about the jupyter notebook, please refer to the `jupyter official documentation`_.
-More notebook examples are available from the notebook root directory. 
+More notebook examples are available from the notebook root directory.
+For a quick introduction on how to use the jupyter-notebook interface, from the start page, check the notebook: "Introduction to jupyter notebook"
 
 
 .. _jupyter official documentation: http://jupyter.readthedocs.org/en/latest/index.html
