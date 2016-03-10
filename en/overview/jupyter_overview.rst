@@ -6,7 +6,7 @@
 
 .. image:: ../../images/project_logos/logo-jupyter.png
   :alt: project logo
-  :align: right
+  :align: center
   :target: http://jupyter.org/
 
 Project Jupyter aims to support interactive data science and scientific computing across all programming languages.
@@ -19,7 +19,7 @@ Jupyter Notebook
 .. image:: ../../images/screenshots/1024x768/jupyter6.png
   :scale: 70 %
   :alt: screenshot
-  :align: right
+  :align: center
   
 .. TBD: The image should show use of iPython Notebook with maps, possibly as
    collage. Show an [In] cell with code. Show a heading or 2 and text
