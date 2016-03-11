@@ -19,11 +19,14 @@ The Jupyter Notebook is a web application that allows you to create and share do
 
 It combines two components:
 
-.. image:: ../../images/screenshots/1024x768/jupyter6.png
+.. image:: ../../images/screenshots/800x600/jupyter-screenshot.png
   :scale: 70 %
   :alt: screenshot
   :align: right
   
+.. Cameron Comment: Reverted to prior screenshot
+  New image was: .. image:: ../../images/screenshots/1024x768/jupyter6.png
+  The new image is too big, and has too much white space. Either it will need to be one snapshot, or layered over each other. The GeoServer image might provide some good inspiration: http://adhoc.osgeo.osuosl.org/livedvd/docs/_images/geoserver3.png
 .. TBD: The image should show use of iPython Notebook with maps, possibly as
    collage. Show an [In] cell with code. Show a heading or 2 and text
    demonstrating how it is easy to build an publish powerful web pages.
