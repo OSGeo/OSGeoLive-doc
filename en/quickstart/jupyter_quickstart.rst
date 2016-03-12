@@ -31,19 +31,12 @@ From the application launch menu in the lower left corner.
  
 * Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*
 
-.. Cameron Comment: Menu selection shouldn't contain all the background,
-  as it dates the image to the release (and should be updated with each release)
-  Note: I've removed ":align: right from images."
-
 .. image:: ../../images/screenshots/1024x768/jupyter1-1.png
-   :scale: 100 %
+   :scale: 60 %
   
 A terminal window will open and a startup log will begin to scroll.
 
 * Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* 
-
-.. Cameron Comment: Menu selection shouldn't contain all the background,
-  as it dates the image to the release (and should be updated with each release)
 
 .. image:: ../../images/screenshots/1024x768/jupyter1-2.png
    :scale: 60 %
@@ -68,7 +61,7 @@ Let's open an existing notebook. From the main page click on the directory GSOC.
   Cesium example. We should be able to select Cesium from the first TOC.
 
 .. image:: ../../images/screenshots/1024x768/jupyter2.png
-   :scale: 60 %
+   :scale: 80 %
 
 Choose the Introduction notebook. 
  
