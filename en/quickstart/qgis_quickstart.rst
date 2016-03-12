@@ -175,16 +175,8 @@ click on the Public schema to deploy it:
         :scale: 70
         :alt: Scale field map
 
-Using the GRASS Toolbox (deprecated section)
+Using the GRASS Toolbox
 ================================================================================
-
-.. TBD: Nicolas's review comments:
-  All the GRASS toolbox section is deprecated. i wasn't able to find the tools 
-  used in that section in QGIS 2.14. The GRASS toolbar is only 2 buttons now. 
-  Can't find how to add the raster layer. No simple option anymore. Where is the
-  Spearfish location ? Grass tool and data are messed, this section needs a 
-  rebuilding by someone who know how to use grass. Which I don't, one goal of 
-  this review was to learn more about grass too.
 
 There have been many plugins written for QGIS which extend QGIS's core
 functionality. One of the more powerful is the GRASS plugin, which taps
@@ -199,10 +191,9 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
       :align: right
 
 #. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
-   type ``grass`` into the Search box, and select the `GRASS` plugin.
+   type ``grass`` into the Search box, and select the `GRASS 7` plugin.
 
-   * Notice that a new GRASS icon has been added to the Toolbar, and
-     a new `GRASS` menu item has been added to the `Plugins` menu.
+   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has apeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
 
 #. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
 
@@ -210,73 +201,56 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
      the disc for you.
 
 #. Within the central GRASS data base are a number of sample datasets. We'll
-   load the Spearfish location, and the ``user1`` mapset within it. Choose
-   the `spearfish60` Location and `user1` working mapset, then click :guilabel:`Ok`.
+   load the North Carolina location, and the ``user1`` mapset within it. Choose
+   the `nc_basic_spm_grass7` Location and `user1` working mapset, then click :guilabel:`Ok`.
 
-#. To add a map to the QGIS layer list, choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
+#. To add a raster map to the QGIS layer list, navigate from QGIS Browser Panel to Home/grassdata/nc_basic_spm_grass7.
 
-   * In the PERMANENT mapset select the `aspect` map and click :guilabel:`Ok`.
+   * In the PERMANENT mapset select the `elevation` map and double click to add to the map.
 
      .. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
        :scale: 50 %
        :alt: GRASS GIS layers loaded into QGIS
        :align: right
 
-#. Add another GRASS raster layer, this time the `elevation.10m` map from the
+#. Add another GRASS raster layer, this time the `geology` map from the
    PERMANENT mapset.
 
-   * Double click on the `elevation.10m` map in the QGIS layer list and in
-     the Transparency tab set its global transparency to 30%.
+   * Double click on the `geology` map in the QGIS Layers list and in
+     the Transparency tab set its global transparency to 70%.
 
-#. To add a vector map, choose :menuselection:`Plugins --> GRASS --> Add GRASS vector layer`.
+#. To add a vector map, select a vector layer from the QGIS Browser, similar to the previous steps.
 
-   * From the PERMANENT mapset select the `roads` map and click :guilabel:`Ok`.
+   * From the PERMANENT mapset select the `roadsmajor` map with a double click.
 
-#. Change the layer order if neccessary (roads, elevation, aspect).
+#. Change the layer order if neccessary (roadsmajor, geology, elevation).
 
 The plugin also gives you access to many of the powerful GRASS analysis
 modules and visualization tools:
-
-.. HB: We could go through a grass processing module here (e.g. r.sun), but
-  probably it gets too long and a fTools or SEXTANTE module could take on that
-  role. Here we show off NVIZ as it brings 3D visualization capability to
-  QGIS, and people do like the shiny. It is helpful to go through the g.region
-  housecleaning step next, so for now we'll use that as the example of how to
-  run a module.
 
 #. From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS tools` and
    drag the edge to make the window a bit bigger.
 
    * A long list of analysis tools will appear. Go to the `Modules Tree` tab and
      select :menuselection:`Region settings --> g.region.multiple.raster`.
-     Clicking on it will open a new tab. Simply type ``elevation.10m`` for the
-     raster map name and press :guilabel:`Run`. The `elevation.10m` map will
+     Clicking on it will open a new tab. Select ``elevation`` from the
+     menu list and press :guilabel:`Run`. The `elevation` map will
      now have a thin red line around it, indicating the extent of
      GRASS's `computational region` bounds.
 
 #. Back in the `Modules Tree` tab of the `GRASS Tools` window, go down
-   to :menuselection:`3d Visualization` and select `NVIZ`. You may need to
-   drag the corner of the toolbox window again to make it a bit larger to
-   see all the options.
+   to :menuselection:`Raster` and select :menuselection:`Surface Management --> Generate Vector contour lines`.
 
-#. In the new module tab that pops open, select the `elevation.10m` map as the
-   map for elevation. Then depress the rectangle with red corners button on
-   the right of the map name to use the region bounds and resolution of that
-   map. As mentioned earlier, the `computational region` is a core theme in
-   GRASS raster processing.
+#. In the new module tab that pops open, select the `elevation` map as the
+   input.
 
-#. Select `roads` for the vector overlay, then click :guilabel:`Run`.
+#. Add some contour levels (e.g. 20, 40, 60, 80, 100)
 
-#. Once the NVIZ 3D view opens, maximize the window and drag the positioning
-   puck in the compass box on the left to a nice view.
+#. Select the output layer name (e.g. contour_lines), then click :guilabel:`Run`.
 
-#. Choose :menuselection:`Visualize --> Raster surfaces` and set the `fine` resolution
-   to 1, then if needed click the green :guilabel:`DRAW` button in the top
-   left and wait while it renders.
-
-   .. image:: ../../images/screenshots/800x600/qgis_3d.jpg
+   .. image:: ../../images/screenshots/1024x768/qgis_contours.jpg
       :scale: 70 %
-      :alt: 3D visualization
+      :alt: Contour creation
 
 
 Using the Processing Toolbox
