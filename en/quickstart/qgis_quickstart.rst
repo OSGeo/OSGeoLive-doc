@@ -104,15 +104,15 @@ Let's now create a new QGIS project and load our own data.
 
 #. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...`.
 
+     .. image:: ../../images/screenshots/1024x768/qgis_add_layer.png
+        :scale: 70
+        :alt: Add layer
+
 #. Browse to dataset :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
 
 #. Press :guilabel:`Open` then :guilabel:`Open` again.
 
    * You should see all world countries.
-
-     .. image:: ../../images/screenshots/1024x768/qgis_add_layer.png
-        :scale: 70
-        :alt: Add layer
 
      .. image:: ../../images/screenshots/1024x768/qgis_countries.png
         :scale: 70
@@ -122,11 +122,6 @@ Let's now create a new QGIS project and load our own data.
 Connect to a PostGIS spatial database
 ================================================================================
 
-.. TBD: Cameron's review comments:
-  For Info of author: I've switched from OSM dataset to Natural Earth,
-  as OSM extent changes between releases, which means screenshots from
-  this quickstart would become dated.
-
 Let's now include a layer from a Postgres database.
 
 #. In the layer list on the left, untick the ``ne_10m_admin_0_countries`` visibility
@@ -135,7 +130,6 @@ Let's now include a layer from a Postgres database.
    .. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
       :scale: 70 %
       :alt: Connecting to a PostGIS DB
-      :align: right
 
 #. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
 
@@ -147,7 +141,7 @@ Let's now include a layer from a Postgres database.
 #. Select the "Natural Earth" connection and press :guilabel:`Connect`. Then 
 click on the Public schema to deploy it:
 
-   * A list of database tables will appear.
+  * A list of database tables will appear.
 
 #. Select ``ne_10_populated_places`` and click :guilabel:`Add`.
 
@@ -187,7 +181,6 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
    .. image:: ../../images/screenshots/800x600/qgis_plugin.png
       :scale: 70 %
       :alt: Enable GRASS plugin
-      :align: right
 
 #. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
    type ``grass`` into the Search box, and select the `GRASS 7` plugin.
@@ -210,7 +203,6 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
      .. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
        :scale: 50 %
        :alt: GRASS GIS layers loaded into QGIS
-       :align: right
 
 #. Add another GRASS raster layer, this time the `geology` map from the
    PERMANENT mapset.
@@ -306,7 +298,6 @@ Importing OpenStreetMap data
    .. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
      :scale: 50 %
      :alt:  The OpenStreetMap plugin
-     :align: right
 
 #. Choose :menuselection:`Vector --> OpenStreetMap --> Import topology from XML`.
 
