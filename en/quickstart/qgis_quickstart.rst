@@ -16,7 +16,6 @@
   Once these comments have been addressed, please remove my comment.
 
 .. image:: ../../images/project_logos/logo-QGIS.png
-  :scale: 25 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
