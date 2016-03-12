@@ -16,7 +16,7 @@
   Once these comments have been addressed, please remove my comment.
 
 .. image:: ../../images/project_logos/logo-QGIS.png
-  :scale: 100 %
+  :scale: 25 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
@@ -166,11 +166,6 @@ click on the Public schema to deploy it:
    slider to **50%**. Click on the small button at the right of the size field and select
    :menuselection:`Size scale field`, then choose **scalerank** 
    (it's near to the beginning of the list). Then click :guilabel:`Ok`.
-
-   .. image:: ../../images/screenshots/1024x768/qgis_bubble_size.png
-      :scale: 70 %
-      :alt: Scale field choose
-      :align: right
 
 #. You can then click on the query button on the toolbar (cursor arrow with
    a blue "i") and then on the map canvas bubbles to view information about
