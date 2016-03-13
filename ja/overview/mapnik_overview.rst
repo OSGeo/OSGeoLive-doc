@@ -50,4 +50,4 @@ Mapnik は Python との親和性が高い Zope3 や Django などを使った�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/mapnik_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/mapnik_quickstart>`

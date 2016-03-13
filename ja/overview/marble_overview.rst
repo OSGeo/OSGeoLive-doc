@@ -75,6 +75,6 @@ PC上の地球儀に `OpenStreetMaps <http://www.osm.org>`_ を含む様々な�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/marble_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/marble_quickstart>`
 
 

@@ -174,4 +174,4 @@ Core Features
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/deegree_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/deegree_quickstart>`

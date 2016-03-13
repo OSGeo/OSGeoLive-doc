@@ -112,6 +112,6 @@ MapGuideはLinux または Windows上で動作し、Apache および IISウェ�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/mapguide_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/mapguide_quickstart>`
 
 

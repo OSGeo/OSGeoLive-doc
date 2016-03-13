@@ -63,6 +63,6 @@ WMS, WFS, WMC, KML, GML 等の多くの OGC 標準への対応は OpenLayers、G
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/mapfish_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/mapfish_quickstart>`
 
 

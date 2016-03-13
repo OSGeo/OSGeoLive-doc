@@ -59,5 +59,6 @@ AtlasStyler
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/atlasstyler_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/atlasstyler_quickstart>`
+
 

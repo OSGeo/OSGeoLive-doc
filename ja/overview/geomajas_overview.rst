@@ -82,5 +82,5 @@ Enterprise Server features
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文書 <../quickstart/geomajas_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/geomajas_quickstart>`
 
