@@ -43,9 +43,9 @@ pgRouting を実行する
 	 public | relations           | table    | user
 	 public | spatial_ref_sys     | table    | user
 	 public | types               | table    | user
-	 public | vertices_tmp | table | user
+	 public | vertices_tmp        | table    | user
 	 public | vertices_tmp_id_seq | sequence | user
-	 public | way_tag | table | user
+	 public | way_tag             | table    | user
 	 public | ways                | table    | user
 	(14 rows)
 

@@ -105,14 +105,12 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 
 Details
 --------------------------------------------------------------------------------
- 
+
 **Website:** http://geotools.org/
 
 **Licence:** LGPL
 
-**Software Version:** 8.0
-
-**Supported Platforms:** Cross Platform Java
+**Supported Platforms:** Cross Platform Java 6
 
 **API Interfaces:** Java
 

@@ -42,7 +42,7 @@ GMT は、多くの一般的な地図投影法に加えて、線形、対数、�
 
 **動作環境:** GNU/Linux, Mac OSX, MS Windows
 
-**API:** Command line
+**API インターフェース:** Command line
 
 **サポート:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
 
@@ -50,6 +50,6 @@ GMT は、多くの一般的な地図投影法に加えて、線形、対数、�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/gmt_quickstart>`
 
 

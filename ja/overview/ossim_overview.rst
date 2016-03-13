@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-ossim.png
@@ -27,11 +27,12 @@ OSSIMは、諜報および防衛コミュニティにおける幾つかの米国
 
 高性能なソフトウェア・ライブラリの一種として設計され、オブジェクト指向ソフトウェアの最新技術を採用し、C++で書かれています。多くのコマンドライン・ユーティリティやGUIアプリケーション、そして統合型システムーそのうちの幾つかがソフトウェアの配布に含まれるーが実装されています。
 
+
 主な機能
 --------------------------------------------------------------------------------
 
 .. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
-  :scale: 50 %
+  :scale: 70 %
   :alt: screenshot
   :align: right
 
@@ -51,15 +52,15 @@ OSSIMは、諜報および防衛コミュニティにおける幾つかの米国
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://www.ossim.org/
+**ウェブサイト:** http://www.ossim.org
 
 **ライセンス:** GNU General Public License (GPL) version 3
 
-**バージョン:** 1.8.6
+**バージョン:** 1.8.20
 
 **動作環境:** Linux, Mac, Windows
 
-**API:** C++
+**API インターフェース:** C++
 
 **サポート:** http://www.osgeo.org/search_profile
 
@@ -67,4 +68,4 @@ OSSIMは、諜報および防衛コミュニティにおける幾つかの米国
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/ossim_quickstart>`

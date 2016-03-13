@@ -54,11 +54,11 @@ Ushahidi
 
 **ウェブサイト:** http://www.ushahidi.com
 
-**ライセンス:** GNU Lesser General Public License (GPL) version 3 
+**ライセンス:** GNU Lesser General Public License (GPL) version 3
 
 **ソフトウェアのバージョン:** 2.7.4 (Bamako)
 
-**APIのインターフェース:** PHP
+**API インターフェース:** PHP
 
 **対応プラットフォーム:** Linux, Mac, Windows
 
@@ -68,6 +68,6 @@ Ushahidi
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`クイックスタート <../quickstart/ushahidi_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/ushahidi_quickstart>`
 
 

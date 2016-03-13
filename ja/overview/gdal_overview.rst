@@ -35,7 +35,7 @@ OSSIM、Cadcorp SIS、FME、Google Earth、VTP、Thuban、ILWIS、MapGuide、Arc
 
 .. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
-  :alt: GDAL supports many geodata formats GDALは数多くのフォーマットをサポートしています
+  :alt: GDALは数多くのフォーマットをサポートしています
   :align: right
 
 主な機能
@@ -80,4 +80,4 @@ OGR ベクタデータモデルは OGC Simple Features 仕様に準拠してい�
 クイックスタート
 --------------------------------------------------------------------------------
     
-* :doc:`クイックスタート <../quickstart/gdal_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/gdal_quickstart>`

@@ -65,7 +65,7 @@ ncWMSはOGC準拠のWebマップサービス（WMS）として多次元データ
 
 **対応プラットフォーム:** 全てのJava 1.5プラットフォーム: Windows、Linux、Mac
 
-**APIインターフェース:** Java; WMS
+**API インターフェース:** Java; WMS
 
 **サポート:** http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/MailingLists
 

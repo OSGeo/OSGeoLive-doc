@@ -1,8 +1,7 @@
-:Author: Alan Boudreault
-:Version: osgeo-live4.0
+:Author: Alan Boudreault, Steve Lime
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapguide-overview:
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
   :alt: project logo
@@ -41,26 +40,42 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 
   * 縮尺に依存したフィーチャ描画および機能実行
   * 重複を回避するフィーチャのラベル付け
-  * フルカスタマイズ可能、テンプレート利用の出力
-
-* TrueTypeフォント
-
+  * TrueTypeフォント
   * マップ要素の自動化(スケールバー, マップ参照, 凡例)
   * 論理またはクラスに基づいた正規表現を利用する主題マッピング
+  * Plugable renderer support with drivers for AGG, Cairo and others
+  * Special provisioning for tiled output generation
+  * Mask Layers
+  * Precise Symbol Placement
+  * Complex Multi Label/Symbol Symbology
+  * Vector Fields
+  * Label Leader Offsetting
+  * SVG Symbology
+  * Multiple Font Support
+  * Dynamic Heatmaps
+  * UTF Grid Support
+  * Layer Compositing
+
+* Sophisticated spatial query support
+
+  * Identify features by attributes, point, bounding box or geometry across one or more layers
+  * Support for raster queries
+  * Fully customizable, template driven output
+  * OGR-based query output generation 
 
 * 一般的なスクリプトおよび開発環境のサポート
 
-　* PHP, Python, Perl, Ruby, Java および .NET
+  * CGI/FastCGI
+  * PHP, Python, Perl, Ruby, Java および .NET
 
 * OSに依存しない環境をサポート
 
-　* Linux, Windows, Mac OS X, Solarisなど
+  * Linux, Windows, Mac OS X, Solarisなど
 
 * 多くのラスタおよびベクターデータフォーマットのサポート
 
-  * TIFF/GeoTIFF, EPPL7 および GDALを利用したデータ
-  * ESRI shapeファイル, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL および OGR
-
+  * ESRI shapeファイル, PostGIS and Oracle Spatial
+  * Many other formats via GDAL and OGR
 
 * マップ投影のサポート
 
@@ -71,8 +86,9 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 
 * Open Geospatial Consortium  (OGC)の標準仕様のサポート
 
+  * :doc:`../standards/wms_overview` (クライアント/サーバ), :doc:`../standards/wfs_overview` (トランザクションなし, クライアント/サーバ), WMC, :doc:`../standards/wcs_overview`, :doc:`../standards/fe_overview`, :doc:`../standards/sld_overview`, :doc:`../standards/gml_overview`, SOS, OM
 
-  * WMS (クライアント/サーバ), トランザクションなしの WFS (クライアント/サーバ), WMC, WCS, フィルタエンコーディング, SLD, GML, SOS, OM
+* INSPIRE View Service compliant
 
 デモ
 --------------------------------------------------------------------------------
@@ -82,7 +98,7 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 ドキュメント
 --------------------------------------------------------------------------------
 
-* `MapServer 6.0.3 ドキュメント <../../mapserver/doc/index.html>`_
+* `MapServer 7.0 ドキュメント <../../mapserver/doc/index.html>`_
 
 
 詳細
@@ -92,7 +108,7 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 
 **ライセンス:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**ソフトウェアバージョン:** 6.0.3
+**ソフトウェアバージョン:** 7.0.1
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
@@ -100,3 +116,7 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 
 **サポート:** http://mapserver.org/community/
 
+クイックスタート
+--------------------------------------------------------------------------------
+    
+* :doc:`クイックスタート文書 <../quickstart/mapserver_quickstart>`

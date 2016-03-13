@@ -28,10 +28,15 @@ OpenStreetMap
   :align: right
 
 * グローバルで大規模なクラウドソース型のデータセット
+
 * 幾つかのエディタを選択できます
+
 * 幾つかのレンダラを選択できます (オンラインのものを含めて)
+
 * 自由な利用
+
 * 広範な地理的アプリケーションを統合
+
 
 詳細
 --------------------------------------------------------------------------------
@@ -51,22 +56,16 @@ OpenStreetMap
 * Merkaartor: GNU General Public License (GPL) version 2
 
 
-
-.. <!-- see /usr/share/doc/gosmore/copyright -->
-
-
-
 **ソフトウェアのバージョン:**
 
 * JOSM: Latest stable snapshot (svn r7347)
 
 * Merkaartor: 1.18.1
 
-
-
-
+* Osmosis: 0.40.1
 
 * osm2pgsql: 0.85.0
+
 
 **対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 
@@ -78,6 +77,6 @@ OpenStreetMap
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/osm_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/osm_quickstart>`
 
 

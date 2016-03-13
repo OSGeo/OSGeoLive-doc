@@ -3,7 +3,7 @@
 :Author: Roald de Wit
 :Author: Antonio Santiago
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live8.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
@@ -80,7 +80,7 @@ OpenLayers3 は以前の堅牢で広く利用されていた OpenLayers2 ライ�
 
 **ライセンス:** 2-clause BSD License (aka FreeBSD License)
 
-**ソフトウェアバージョン:** 3.7.0
+**ソフトウェアバージョン:** 3.13.1
 
 **API インタフェース:** JavaScript
 
@@ -90,4 +90,4 @@ OpenLayers3 は以前の堅牢で広く利用されていた OpenLayers2 ライ�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`クイックスタート <../quickstart/openlayers_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/openlayers_quickstart>`

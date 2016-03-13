@@ -1,8 +1,7 @@
 :Author: Pieter De Graef
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _geomajas-overview-ja:
 
 .. image:: ../../images/project_logos/logo-geomajas.png
   :width: 100px
@@ -11,12 +10,11 @@
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100
-  :alt: OSGeo Incubation Project
+.. image:: ../../images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org
-
+  :target: http://www.osgeo.org/incubator/process/principles.html
 
 Geomajas
 ================================================================================
@@ -39,19 +37,31 @@ Geomajas の独特で強力なサーバサイドに注目すると、処理、�
 主な機能
 --------------------------------------------------------------------------------
 
-* クライアントとサーバでのアーキテクチャの統合
-* ジオメトリと属性の編集
-* ユーザ定義属性の定義
-* 拡張クエリのサポート (CQL)
-* 独創的なセキュリティ
-* マルチフロントエンド技術
-* プラグインを用ずにクロスブラウザのサポート
+* Programmable using pure Java through GWT
+* Supports many layer types (incl. WMS, WFS, WMTS, TMS, OSM, Google Maps, Shape, PostGIS, Oracle, JDBC, …)
+* Handy collection of built-in widgets (incl. Editing and redlining, Print, Geocoding, Layer tree, ...)
+* Build your own use cases and create new widgets 
+* Easy skinnable through custom CSS
+* No need for browser plug-ins
+* Runs on a wide range of internet devices using HTML5 
+* Not a GWT enthusiast? Access core features through the Javascript API
 
-実装している標準規格
+..
+  * クライアントとサーバでのアーキテクチャの統合
+  * ジオメトリと属性の編集
+  * ユーザ定義属性の定義
+  * 拡張クエリのサポート (CQL)
+  * 独創的なセキュリティ
+  * マルチフロントエンド技術
+  * プラグインを用ずにクロスブラウザのサポート
+
+Enterprise Server features
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0, 1.1.1, 1.3.0
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0
+* Advanced security on different levels (layer, feature, attribute, functionality, …)
+* Seamless integration with your own Domain Model – persistence via Hibernate, web services, Java RMI, ...
+* Enterprise integration with other business applications such as JBPM, Activiti, JasperReports, CMS, Alfresco through industry standards (SOAP, REST, ESB, JNDI, …)
+* Easy extensible through the Spring framework
 
 詳細
 --------------------------------------------------------------------------------
@@ -60,11 +70,11 @@ Geomajas の独特で強力なサーバサイドに注目すると、処理、�
 
 **ライセンス:** AGPL
 
-**バージョン:** 1.8
+**バージョン:** 2.4.0
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
-**API:** Java
+**API インターフェース:** Java and Javascript
 
 **サポート:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
@@ -72,5 +82,5 @@ Geomajas の独特で強力なサーバサイドに注目すると、処理、�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/geomajas_quickstart.html>`_
+* :doc:`クイックスタート文書 <../quickstart/geomajas_quickstart>`
 

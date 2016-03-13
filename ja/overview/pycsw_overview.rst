@@ -2,7 +2,7 @@
 :Author: Tom Kralidis, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Toshikazu Seto
-:Version: osgeo-live8.5-draft
+:Version: osgeo-live9.5
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -21,6 +21,7 @@ pycsw
 
 メタデータカタログ
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 pycswは、ウェブへのデータセットの説明（メタデータ）のカタログを公開することを可能にするもので、 標準的なインターフェースやフォーマットをベースに使用でき、カタログ・クライアントによって照会および更新することができるようになっています。メタデータは、作成日時、作成者、タイトル、注目される領域などのようなものでも保存する「データについてのデータ」であり、通常、ISO 19115、ISO 19139やFGDC CSDGMなどの国際標準に従って、XMLファイルとしてエンコードされます。
 
 pycsw は、:doc:`OGC Catalogue Services for the Web (CSW) 標準<../standards/csw_overview>` の `Python`_ による実装です。Tプロジェクトは `OGC Compliant`_ と `OGC Reference Implementation`_ に認定されています。CSW規格は、空間データ、Webサービスや関連するリソースについてのメタデータの発見、ブラウズ、クエリーのための共通のインターフェースを定義します。
@@ -85,13 +86,13 @@ OGC標準:
 
 **ライセンス:** `MIT`_
 
-**ソフトウェア・バージョン:** 1.10.1
+**ソフトウェア・バージョン:** 1.10.3
 
 **ソフトウェア・プラットフォーム:** Windows, Linux, Mac
 
-**APIインターフェース:** Python
+**API インターフェース:** Python
 
-**コミュニティのサポート:** http://pycsw.org/docs/support.html
+**コミュニティサポート:** http://pycsw.org/docs/support.html
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
@@ -101,5 +102,5 @@ OGC標準:
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`クイックスタート <../quickstart/pycsw_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/pycsw_quickstart>`
 

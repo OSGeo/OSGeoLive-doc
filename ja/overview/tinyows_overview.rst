@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-TinyOWS.png
   :alt: project logo
   :align: right
-  :target: http://mapserver.org/trunk/tinyows/
+  :target: http://mapserver.org/tinyows/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -48,15 +48,15 @@ TinyOWS は WFS 1.0 と 1.1 に厳密に準拠して実装しており、すべ�
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://mapserver.org/trunk/tinyows/
+**ウェブサイト:** http://mapserver.org/tinyows/
 
 **ライセンス:** MIT
 
-**バージョン:** 1.0.0
+**バージョン:** 1.1.0
 
 **動作プラットフォーム:** Linux, Unix, Mac, Windows
 
-**API:** CGI/FastCGI
+**API インターフェース:** CGI/FastCGI
 
 **サポート:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
@@ -64,5 +64,5 @@ TinyOWS は WFS 1.0 と 1.1 に厳密に準拠して実装しており、すべ�
 クイックスタート
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/tinyows_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/tinyows_quickstart>`
 

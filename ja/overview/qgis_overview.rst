@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -53,6 +54,7 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
     * デジタル標高モデル(DEM)、空中写真、ランドサット画像などのラスタフォーマット、
     * GRASS のロケーションとマップセット、
     * OGC準拠の WMS、WMTS、WFS、WCS などのオンラインで提供される空間データ
+    * 2.5D レンダリングサポート
 
 * 空間データの作成，編集とエクスポート
 
@@ -85,7 +87,7 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.4.0
+**ソフトウェアバージョン:** 2.14.0
 
 **サポートするプラットフォーム:** Windows、Linux、Mac、Unix
 
@@ -97,5 +99,5 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/qgis_quickstart>`
 

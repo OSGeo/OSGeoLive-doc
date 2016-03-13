@@ -1,8 +1,10 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
 :Author: Hamish Bowman
+:Author: Zoltan Siki
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -14,7 +16,6 @@
   Once these comments have been addressed, please remove my comment.
 
 .. image:: ../../images/project_logos/logo-QGIS.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
@@ -36,10 +37,11 @@ QGIS プロジェクトを編集する
 既存の QGIS プロジェクト を開き、レイヤのオンとオフを切り替えるところから始めましょう。
 
 
-.. TBD: Cameron's review comments:
-  Screen shot here (showing menu selection with NaturalEarth highlighted)
-
 #. :menuselection:`Geospatial --> Desktop GIS --> QGIS` から QGIS を起動し、メニューバーから :menuselection:`Project --> Open` を選択してください。
+
+     .. image:: ../../images/screenshots/1024x768/qgis_project_open.png
+       :scale: 70 %
+       :alt: Open a QGIS project
 
 #. ファイル :file:`QGIS-NaturalEarth-Example.qgs` を選択し、 :guilabel:`Open` をクリックしてください。
 
@@ -51,6 +53,7 @@ QGIS プロジェクトを編集する
 
      .. image:: ../../images/screenshots/1024x768/qgis.png
         :scale: 70 %
+        :alt: Map in QGIS
 
 #. Try dragging layers up and down in the legend and see how that
    affects visibility of the layers below.
@@ -62,10 +65,9 @@ QGIS プロジェクトを編集する
    You can also zoom in and out with the mouse wheel, and pan with a
    left-click drag.
 
-.. TBD: Cameron's review comments:
-  Screen shot here, touched up with a red circle around the "hand" icon.
-  http://wiki.osgeo.org/wiki/Live_GIS_Add_Project#Screen_Shot
-  HB: toolbars are all on top of each other by default, it's not ideal..
+     .. image:: ../../images/screenshots/1024x768/qgis_zoom_toolbar.png
+        :scale: 70 %
+        :alt: Map in QGIS
 
 
 Style a layer
@@ -73,11 +75,14 @@ Style a layer
 
 Now let's try customising the style of the map.
 
-.. TBD: Cameron's review comments:
-  Screen shot or two here
+     .. image:: ../../images/screenshots/1024x768/qgis_style_set.png
+        :scale: 70 %
+        :alt: Style setting
 
 #. 地図上で少しズームインし、レイヤツリーで ``ne_10m_rivers_lake_centerlines`` をダブルクリックしてください。
 
+#. In the `Layer Properties` dialog on the `Style` tab click on the 
+`Color` to select a different color, say yellow.
 
 #. `Outline Options` で異なる色(ここでは黄色)に変更してください。
 
@@ -85,15 +90,22 @@ Now let's try customising the style of the map.
 
    * 川が選択した色で表示されます。
 
+     .. image:: ../../images/screenshots/1024x768/qgis_style.png
+        :scale: 70
+        :alt: Map in QGIS
 
 新規の QGIS プロジェクトを作成する
 ================================================================================
 
 Let's now create a new QGIS project and load our own data.
 
-#. メニューから :menuselection:`Project --> New` を選択してください。
+#. メニューから :menuselection:`Project --> New` を選択してください。You will be asked whether to save the previous project, you can press :guilabel:`Close without Saving`.
 
 #. :menuselection:`Layer --> Add Vector Layer...` をクリックしてください。
+
+     .. image:: ../../images/screenshots/1024x768/qgis_add_layer.png
+        :scale: 70
+        :alt: Add layer
 
 #. データセット :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp` を選択してください。
 
@@ -101,17 +113,13 @@ Let's now create a new QGIS project and load our own data.
 
    * 世界の国が表示されます。
 
-.. TBD: Cameron's review comments:
-  Screen shot here
+     .. image:: ../../images/screenshots/1024x768/qgis_countries.png
+        :scale: 70
+        :alt: Add layer result
 
 
 Connect to a PostGIS spatial database
 ================================================================================
-
-.. TBD: Cameron's review comments:
-  For Info of author: I've switched from OSM dataset to Natural Earth,
-  as OSM extent changes between releases, which means screenshots from
-  this quickstart would become dated.
 
 Let's now include a layer from a Postgres database.
 
@@ -121,18 +129,18 @@ Let's now include a layer from a Postgres database.
    .. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
       :scale: 70 %
       :alt: Connecting to a PostGIS DB
-      :align: right
 
-#. Choose :menuselection:`Layer --> Add PostGIS Layers...`.
+#. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
 
    * Both Natural Earth and OpenStreetMap Postgis databases
      are already available; we will be using use the Natural Earth database.
      If you wanted to connect to a different database, you would select
      the :guilabel:`New` button and fill in the database parameters.
 
-#. Select the "Natural Earth" connection and press :guilabel:`Connect`.
+#. Select the "Natural Earth" connection and press :guilabel:`Connect`. Then 
+click on the Public schema to deploy it:
 
-   * A list of database tables will appear.
+  * A list of database tables will appear.
 
 #. Select ``ne_10_populated_places`` and click :guilabel:`Add`.
 
@@ -146,16 +154,18 @@ Let's now include a layer from a Postgres database.
    menu, then select :menuselection:`Properties`.
 
 #. Let's represent one of the database attributes in the data as a bubble plot.
-   In the middle of the `Layer Properties` window, drag the Transparency
-   slider to **50%**, press the :guilabel:`Advanced` button and select
-   :menuselection:`Size scale field`, then choose **elevation** 
-   (it's in about the middle of the list), and finally set the
-   symbol `Size` scaling to **0.02**. Then click :guilabel:`Ok`.
+   In the middle of the `Style` tab, drag the Transparency
+   slider to **50%**. Click on the small button at the right of the size field and select
+   :menuselection:`Size scale field`, then choose **scalerank** 
+   (it's near to the beginning of the list). Then click :guilabel:`Ok`.
 
 #. You can then click on the query button on the toolbar (cursor arrow with
    a blue "i") and then on the map canvas bubbles to view information about
    the individual cities.
 
+     .. image:: ../../images/screenshots/1024x768/qgis_bubble.png
+        :scale: 70
+        :alt: Scale field map
 
 Using the GRASS Toolbox
 ================================================================================
@@ -165,85 +175,72 @@ functionality. One of the more powerful is the GRASS plugin, which taps
 into the hundreds of geospatial processing modules available
 from :doc:`GRASS GIS <../overview/grass_overview>`.
 
-.. TBD: Cameron's review comments:
-  Screen shot here, show toolbox menu, which has been scrolled down to show GRASS, ticked.
-
 #. Clear the slate with :menuselection:`Project --> New`.
 
-#. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
-   type ``grass`` into the Search box, and select the `GRASS` plugin.
+   .. image:: ../../images/screenshots/800x600/qgis_plugin.png
+      :scale: 70 %
+      :alt: Enable GRASS plugin
 
-   * Notice that a new GRASS icon has been added to the Toolbar, and
-     a new `GRASS` menu item has been added to the `Plugins` menu.
+#. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
+   type ``grass`` into the Search box, and select the `GRASS 7` plugin.
+
+   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has apeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
 
 #. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
 
-   * The GRASS GIS data base (Gisdbase) has already been set to `~/grassdata` on
+   * The GRASS GIS data base (Gisdbase) has already been set to `/home/user/grassdata` on
      the disc for you.
 
 #. Within the central GRASS data base are a number of sample datasets. We'll
-   load the Spearfish location, and the ``user1`` mapset within it. Choose
-   the `spearfish60` Location and `user1` working mapset, then click :guilabel:`Ok`.
+   load the North Carolina location, and the ``user1`` mapset within it. Choose
+   the `nc_basic_spm_grass7` Location and `user1` working mapset, then click :guilabel:`Ok`.
 
-#. To add a map to the QGIS layer list, choose :menuselection:`Plugins --> GRASS --> Add GRASS raster layer`.
+#. To add a raster map to the QGIS layer list, navigate from QGIS Browser Panel to Home/grassdata/nc_basic_spm_grass7.
 
-   * In the PERMANENT mapset select the `aspect` map and click :guilabel:`Ok`.
+   * In the PERMANENT mapset select the `elevation` map and double click to add to the map.
 
      .. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
        :scale: 50 %
        :alt: GRASS GIS layers loaded into QGIS
-       :align: right
 
-#. Add another GRASS raster layer, this time the `elevation.10m` map from the
+#. Add another GRASS raster layer, this time the `geology` map from the
    PERMANENT mapset.
 
-   * Double click on the `elevation.10m` map in the QGIS layer list and in
-     the Transparency tab set its global transparency to 50%.
+   * Double click on the `geology` map in the QGIS Layers list and in
+     the Transparency tab set its global transparency to 70%.
 
-#. To add a vector map, choose :menuselection:`Plugins --> GRASS --> Add GRASS vector layer`.
+#. To add a vector map, select a vector layer from the QGIS Browser, similar to the previous steps.
 
-   * From the PERMANENT mapset select the `roads` map and click :guilabel:`Ok`.
+   * From the PERMANENT mapset select the `roadsmajor` map with a double click.
 
+#. Change the layer order if neccessary (roadsmajor, geology, elevation).
 
 The plugin also gives you access to many of the powerful GRASS analysis
 modules and visualization tools:
-
-.. HB: We could go through a grass processing module here (e.g. r.sun), but
-  probably it gets too long and a fTools or SEXTANTE module could take on that
-  role. Here we show off NVIZ as it brings 3D visualization capability to
-  QGIS, and people do like the shiny. It is helpful to go through the g.region
-  housecleaning step next, so for now we'll use that as the example of how to
-  run a module.
 
 #. From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS tools` and
    drag the edge to make the window a bit bigger.
 
    * A long list of analysis tools will appear. Go to the `Modules Tree` tab and
      select :menuselection:`Region settings --> g.region.multiple.raster`.
-     Clicking on it will open a new tab. Simply type ``elevation.10m`` for the
-     raster map name and press :guilabel:`Run`. The `elevation.10m` map will
+     Clicking on it will open a new tab. Select ``elevation`` from the
+     menu list and press :guilabel:`Run`. The `elevation` map will
      now have a thin red line around it, indicating the extent of
      GRASS's `computational region` bounds.
 
 #. Back in the `Modules Tree` tab of the `GRASS Tools` window, go down
-   to :menuselection:`3d Visualization` and select `NVIZ`. You may need to
-   drag the corner of the toolbox window again to make it a bit larger to
-   see all the options.
+   to :menuselection:`Raster` and select :menuselection:`Surface Management --> Generate Vector contour lines`.
 
-#. In the new module tab that pops open, select the `elevation.10m` map as the
-   map for elevation. Then depress the rectangle with red corners button on
-   the right of the map name to use the region bounds and resolution of that
-   map. As mentioned earlier, the `computational region` is a core theme in
-   GRASS raster processing.
+#. In the new module tab that pops open, select the `elevation` map as the
+   input.
 
-#. Select `roads` for the vector overlay, then click :guilabel:`Run`.
+#. Add some contour levels (e.g. 20, 40, 60, 80, 100)
 
-#. Once the NVIZ 3D view opens, maximize the window and drag the positioning
-   puck in the compass box on the left to a nice view.
+#. Select the output layer name (e.g. contour_lines), then click :guilabel:`Run`.
 
-#. Choose :menuselection:`Visualize --> Raster surfaces` and set the `fine` resolution
-   to 1, then if needed click the green :guilabel:`DRAW` button in the top
-   left and wait while it renders.
+   .. image:: ../../images/screenshots/1024x768/qgis_contours.jpg
+      :scale: 70 %
+      :alt: Contour creation
 
 
 Using the Processing Toolbox
@@ -261,6 +258,20 @@ It acts as a standardized wrapper around a number of other sets to tools.
 
    * A new toolbar will open on the right side of the screen with many
      processing tools to choose from. Take some time and have a look around.
+
+   .. image:: ../../images/screenshots/1024x768/qgis_toolbox.png
+      :scale: 70 %
+      :alt: Processing Toolbox
+
+   * You may need to enable a Processing provider in order to use it.
+     The following screenshot shows how to enable GRASS GIS 7 support in
+     the processing tools. Be sure to disable GRASS support (i.e., GRASS 6).
+     Additionally, switch to the "Advanced Interface" (see lower right corner
+     in the screenshot) in order to see the providers:
+
+   .. image:: ../../images/screenshots/1024x768/qgis_enable_provider.png
+      :scale: 70 %
+      :alt: Enabling the GRASS GIS 7 provider in the Processing settings.
 
 
 Importing OpenStreetMap data
@@ -286,9 +297,8 @@ Importing OpenStreetMap data
    .. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
      :scale: 50 %
      :alt:  The OpenStreetMap plugin
-     :align: right
 
-#. Choose :menuselection:`Vector --> OpenStreetMap --> Import toplogy from XML`.
+#. Choose :menuselection:`Vector --> OpenStreetMap --> Import topology from XML`.
 
 #. Click on the "..." button next to "Input XML file (.osm)" and select
    the `feature_city_CBD.osm` file you just copied into the home directory.
@@ -312,7 +322,7 @@ Importing OpenStreetMap data
 
 #. Once topology is loaded, you can also refine the SpatiaLite layer by
    querying just certain features from within it.
-   Select :menuselection:`Layer --> Add SpatiaLite Layer...` from the
+   Select :menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the
    menu and from the `Databases` list select `feature_city_CBD@...` and
    then click on :guilabel:`Connect`. Double click on
    the `feature_city_cbd_polylines` table and then double click on "highway"
@@ -340,16 +350,14 @@ Things to Try
 
 より進んだ QGIS のチュートリアルを `OSGeo-Live QGIS tutorials`_ に集めてあります。
 
-QGIS について詳細の開始ページは QGIS ホームページの `Documentation page`_ になります。
+To learn more about QGIS, a good starting point is the `Documentation page`_ on
+the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
 
+The `QGIS User Guide`_ `[1]`_ is also included on the OSGeo-Live disc.
 
-`A Gentle Introduction to GIS`_ `[1]`_ eBook と `QGIS User Guide`_ `[2]`_ は
-OSGeo-Live のディスクに含まれています。
-
-.. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/en/
+.. _`OSGeo-Live QGIS tutorials`: ../../qgis/
 .. _`Documentation page`: http://docs.qgis.org/
-.. _`A Gentle Introduction to GIS`: http://www.qgis.org/en/docs/gentle_gis_introduction/index.html
-.. _`QGIS User Guide`: http://www.qgis.org/en/docs/user_manual/index.html
-.. _`[1]`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
-.. _`[2]`: ../../qgis/QGIS-2.0-UserGuide-en.pdf
+.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
+.. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/
+.. _`[1]`: ../../qgis/QGIS-2.8-UserGuide-en.pdf
 

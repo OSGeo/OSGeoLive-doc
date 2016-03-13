@@ -1,8 +1,8 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Reviewer: Cameron Shorter, LISAsoft
 :Product: MapWindow GIS Lite
-:Version: osgeo-live9.0
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Version: osgeo-live9.5
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
@@ -92,4 +92,4 @@ https://mapwindow4.codeplex.com/releases/view/542097 からもダウンロード
 クイックスタート
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :doc:`クイックスタート <../quickstart/mapwindow_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/mapwindow_quickstart>`

@@ -1,6 +1,6 @@
 :Author: Howard Butler
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-libLAS.png
@@ -41,18 +41,18 @@ LiDAR システムは "point cloud" データのように、センサからの�
 
 **ライセンス:** BSD
 
-**バージョン:** 1.7.0
+**バージョン:** 1.8.0
 
-**対応プラットフォーム:** Cross Platform C++ -- Mac OS X, Windows (`OSGeo4W`), Linux
+**対応プラットフォーム:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), and Linux
 
-**API:** C, C++, Python
+**API インターフェース:** C, C++, Python
 
 **サポート:** `Communication and Support <http://liblas.org/community.html>`_
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`クイックスタート <../quickstart/liblas_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/liblas_quickstart>`
 
 .. _`LIDAR`: http://en.wikipedia.org/wiki/LIDAR
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/

@@ -108,7 +108,7 @@ pgAdmin、phpPgAdmin、その他のプログラムを利用してデータベー
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.1.3
+**ソフトウェアバージョン:** 2.2.1
 
 **サポートするプラットフォーム:** Windows、Linux、Mac
 
@@ -124,4 +124,4 @@ pgAdmin、phpPgAdmin、その他のプログラムを利用してデータベー
 クイックスタート
 --------------------------------------------------------------------------------
     
-* :doc:`クイックスタート <../quickstart/postgis_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/postgis_quickstart>`

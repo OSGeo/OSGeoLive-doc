@@ -84,12 +84,12 @@ TileMillは通常、アイコン、パターンやテクスチャを作成する
 
 **サポートするプラットフォーム:** Windows, Linux, Mac
 
-**API:** JavaScript
+**API インターフェース:** JavaScript
 
 **サポート:** http://www.tilemill.com
 
 
-クイックスタート  
+クイックスタート
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/tilemill_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/tilemill_quickstart>`

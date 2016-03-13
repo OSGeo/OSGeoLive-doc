@@ -81,9 +81,9 @@ ZOOサービスは、メタデータファイル（.zcfg）と対応する実装
 **サポート:** http://zoo-project.org/trac
 
 
-Quickstart
+クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/zoo-project_quickstart>`
 
 

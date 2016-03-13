@@ -1,8 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _geonetwork-overview-ja:
 
 .. image:: ../../images/project_logos/logo-GeoNetwork.png
   :alt: project logo
@@ -23,8 +22,8 @@ GeoNetwork
 
 GeoNetwork OpenSource は空間的に参照されるリソースを管理するためのカタログアプリケーションです.このソフトウェアは強力なメタデータ編集機能と検索機能、組み込みインタラクティブウェッブ地図ビューアーを提供し、それらはオープンスタンダードに準拠しています. 
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
-  :scale: 50 %
+.. image:: ../../images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
+  :width: 150 px
   :alt: project logo
   :align: right
 
@@ -35,8 +34,8 @@ GeoNetwork OpenSource は空間的に参照されるリソースを管理する�
 * 世界中の遠隔サーバのWEBマップサービスを混在して表示することができる対話型WEB地図ビューアがあります
 * 最近の更新内容をRSSニュースとGeoRSSで取得できます.
 * 強力なテンプレートシステムでオンラインメタデータ編集を行うことができます
-* メタデータの形式としてISO19115/ISO19119/ISO19139/ISO19110, FGDC と Dublin Core を利用できます
-* 遠隔地のカタログ間でメタデータの収集と同期をスケジュールできます(GeoNetwork, CSW, OGC WxS, Z39.50, WebDav, ArcSDE, Thredds)
+* メタデータの形式としてISO19115/ISO19119/ISO19139/ISO19110 と Dublin Core を利用できます
+* 遠隔地のカタログ間でメタデータの収集と同期をスケジュールできます(GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, Thredds, OGC WFS Features, OAI-PMH)
 * 適切な単位でのアクセスコントロールができます
 * グループとユーザの管理ができます
 * マルチ言語ユーザーインターフェース
@@ -47,14 +46,12 @@ GeoNetwork OpenSource は空間的に参照されるリソースを管理する�
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
-* Z39.50 
 * OpenSearch-Geo
 * OAI-PMH
 * メタデータの標準:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles
  * Dublin Core
- * FGDC
 
 詳細
 --------------------------------------------------------------------------------
@@ -63,11 +60,16 @@ GeoNetwork OpenSource は空間的に参照されるリソースを管理する�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.10.0
+**ソフトウェアバージョン:** 3.0.3
 
 **サポートするプラットフォーム:** Windows, Linux, Mac
 
-**API:** Java
+**API インターフェース:** Java
 
 **サポート:** http://www.osgeo.org/search_profile
 
+
+クイックスタート
+--------------------------------------------------------------------------------
+    
+* :doc:`クイックスタート文書 <../quickstart/geonetwork_quickstart>`
