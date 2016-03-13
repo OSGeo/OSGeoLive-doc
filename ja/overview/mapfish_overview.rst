@@ -1,10 +1,9 @@
 :Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapfish-overview-ja:
 
 .. image:: ../../images/project_logos/logo-mapfish.png
   :alt: project logo
@@ -47,7 +46,6 @@ MapFish は `Open Geospatial Consortium
 <http://www.opengeospatial.org/>`_ 標準に完全に準拠しています。
 WMS, WFS, WMC, KML, GML 等の多くの OGC 標準への対応は OpenLayers、GeoExt を利用することで実現しています。
 
-
 詳細
 --------------------------------------------------------------------------------
 
@@ -65,6 +63,6 @@ WMS, WFS, WMC, KML, GML 等の多くの OGC 標準への対応は OpenLayers、G
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文章 <../quickstart/mapfish_quickstart.html>`_
+* `クイックスタート文書 <../quickstart/mapfish_quickstart>`
 
 

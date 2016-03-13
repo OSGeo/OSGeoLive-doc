@@ -2,7 +2,7 @@
 :Author: Frank Gasdorf
 :Author: Cameron Shorter
 :Reviewer: Cameron Shorter
-:Version: osgeo-live5.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -15,9 +15,10 @@ OSGeo-Live 国際化 クイックスタート
 OSGeo-Live は標準で多くの言語に対応しています。言語を切り替えるには以下のように実行してください。
 
    #. ログアウトします。
-   #. 画面下部のパネルメニューから別の言語を選択してください。
    #. user="user", password="user" でログインしてください。
-  #. ほかの言語に変更したいときは再度言語を選択してください。
+   #. 画面下部のパネルメニューから別の言語を選択してください。
+   #. :guilabel:`Log in` ボタンをクリックしてください。
+   #. ほかの言語に変更したいときは再度言語を選択してください。
 
    .. image:: ../../images/screenshots/800x600/osgeolive_login.png
      :scale: 70 %

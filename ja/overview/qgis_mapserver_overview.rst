@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -26,15 +26,15 @@ QGIS で作成した地図、印刷テンプレートをサーバにプロジェ
 QGIS Server は Apache Webserver 上の CGI/FastCGI モジュールとして動作します。
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 40 %
+  :scale: 50 %
   :alt: project logo
   :align: right
-
 
 主な機能
 --------------------------------------------------------------------------------
 
-* ウェブ地図サービス（Web Map Service - WMS） の実装
+* Web Map Service (WMS) - images
+* Web Feature Service (WFS) - vectors
 * PDF 出力の内蔵
 * QGIS での WYSIWYG 環境での地図制作
 * 拡張カートグラフ記号
@@ -43,7 +43,9 @@ QGIS Server は Apache Webserver 上の CGI/FastCGI モジュールとして動�
 準拠している標準規格
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.3.0
+* OGC Web Map Service (WMS) 1.1.1 and 1.3.0
+* OGC Web Feature Service (WFS) 1.0.0 and Transactional WFS (WFS-T) 1.0.0
+* OGC Web Coverage Service (WCS)
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 詳細
@@ -53,16 +55,14 @@ QGIS Server は Apache Webserver 上の CGI/FastCGI モジュールとして動�
 
 **ライセンス:** GPL
 
-**バージョン:** 1.7.4
+**バージョン:** 2.14.0
 
 **対応プラットフォーム:** Windows, Linux
 
-**コマーシャル支援:** http://www.sourcepole.com/
+**商用サポート:** http://www.sourcepole.com/
 
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`
-
-
+* :doc:`クイックスタート文書 <../quickstart/qgis_mapserver_quickstart>`

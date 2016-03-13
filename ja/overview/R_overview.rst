@@ -61,19 +61,19 @@ R で実行できるよう変換可能です。
 詳細
 --------------------------------------------------------------------------------
 
-**Webサイト：** http://cran.r-project.org
+**ウェブサイト:** http://cran.r-project.org
 
-**ライセンス：** GPL
+**ライセンス:** GPL
 
-**ソフトウェア・バージョン：** 3.2.1
+**ソフトウェア・バージョン:** 3.2.1
 
-**ソフトウェア・プラットフォーム：** Windows, Linux, Mac, Unix
+**対応プラットフォーム:** Windows, Linux, Mac, Unix
 
-**コミュニティのサポート：** http://cran.r-project.org/web/views/Spatial.html
+**コミュニティサポート:** http://cran.r-project.org/web/views/Spatial.html
 
 
 クイックスタート
 --------------------------------------------------------------------------------
     
-* :doc:`クイックスタート <../quickstart/R_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/R_quickstart>`
 

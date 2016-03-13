@@ -1,8 +1,7 @@
 :Author: Stefan Tzeggai
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _atlasstyler-overview-ja:
 
 .. image:: ../../images/project_logos/logo-AtlasStyler.png
   :alt: project logo
@@ -51,7 +50,7 @@ AtlasStyler
 
 **利用可能プラットフォーム:** Windows, Linux
 
-**API:** Java, Swing, Geotools
+**API インターフェース:** Java, Swing, Geotools
 
 **サポート:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
@@ -60,5 +59,5 @@ AtlasStyler
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート文章 <../quickstart/atlasstyler_quickstart.html>`_
+* `クイックスタート文書 <../quickstart/atlasstyler_quickstart>`
 

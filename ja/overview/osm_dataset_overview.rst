@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-osm.png
@@ -28,30 +28,46 @@ OSGeo-Liveのディストリビューションには、いくつかのアプリ�
   :alt: OSM screenshot
   :align: right
 
+
 主な特徴
 --------------------------------------------------------------------------------
 
 * ベクトルのフィーチャは、名前と他の属性によってタグづけされます。
+
 * データのローカルなサブセットを抽出します
+
 * データは、緯度経度WGS84のノード、ノードの文字列、そしてポイント・ポリライン・エリアカバレッジを可能にするメタ地物として格納されています。
+
 * 他のソースよりもはるかに詳しい豊富な属性タグ
+
 * ローカルな知識の地球規模のリポジトリ
+
 
 OSGeo-Liveに含まれるデータセット
 --------------------------------------------------------------------------------
 
-Denver.osm.bz2:
- BZip2として圧縮されたXMLテキストファイルとして、デンバーの市街の大部分を抜き出したもの。
+- feature_city.osm.bz2: A large extract of the greater city area as a BZip2 compressed XML text file.
 
-Denver_CBD.osm.bz2:
- デンバーの中心業務地区をちょうどカバーする最小のサブセット。
- 
+- feature_city_CBD.osm.bz2: A smaller subset covering just the central business district.
+
+- feature_city_poi.db: Sqlite DB of "positions of interest" nodes extracted from the above larger city OSM extract. Contains locations of pubs, fuel stations, restaurants, supermarkets, etc.
+
+- Files referencing the name of the featured city contain the same data as the above files. Quickstarts and overviews use the generic file names so that the example city can change with each new release.
+
+The OSM feature city data has been imported into a PostGIS database called
+"osm_local" using the osm2pgsql tool. The spatial reference system used for
+this database is latitude-longitude with the WGS84 datum (EPSG code 4326)
+and can be reprojected to other SRSs, such as Spherical-mercator, on demand.
+The smaller CBD extract is loaded into another PostGIS database called
+"pgrouting".
+
+
 詳細
 --------------------------------------------------------------------------------
 
 **ウェブサイト:** http://www.osm.org
 
-**ライセンス:** Creative Commons CC-By-SA
+**ライセンス:** Open Data Commons Open Database License (ODbL)
 
 **データのバージョン:** Live database
 

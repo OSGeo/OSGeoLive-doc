@@ -62,4 +62,4 @@ WPS は、空間アルゴリズムを実行する機能への Web アクセス�
 		http://localhost/zoo/?Request=GetCapabilities&Service=WPS
 	
 *	ご質問はZOOプロジェクトのメーリングリストに連絡ください:
-	zoo-discuss@gisws.media.osaka-cu.ac.jp
+	zoo-discuss@lists.osgeo.org

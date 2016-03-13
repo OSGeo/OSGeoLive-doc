@@ -1,8 +1,7 @@
 :Author: Dane Springmeyer
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapnik-overview-ja:
 
 .. image:: ../../images/project_logos/logo-mapnik.png
   :alt: project logo
@@ -42,17 +41,13 @@ Mapnik は Python との親和性が高い Zope3 や Django などを使った�
 
 **ライセンス:** LGPL (GNU Lesser General Public Licence)
 
-**ソフトウェアバージョン:** 2.2.0
+**ソフトウェアバージョン:** 2.3.0
 
 **サポートプラットフォーム:** Windows, Linux, Mac
 
-**APIインターフェース:** C++, Python
-
-
+**API インターフェース:** C++, Python
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタートドキュメント <../quickstart/mapnik_quickstart.html>`_
-
-
+* `クイックスタート文書 <../quickstart/mapnik_quickstart>`

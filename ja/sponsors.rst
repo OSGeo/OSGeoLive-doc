@@ -46,7 +46,15 @@ DebianGISとUbuntuGISプロジェクトは、コアパッケージの多くを�
 
 オーストラリア政府空間データ管理事務所は、LISAsoftのアプリケーション概要のレビューを支援しています。それは、一貫した質のプロジェクトをアーカイブするためです。
 
+.. image:: ../images/logos/okeanos-logo.jpg
+  :alt: The Greek Academic cloud service
+  :target: https://okeanos.grnet.gr
 
+Okeanos is the Greek Academic cloud service (IaaS) which is providing 
+virtualized computing resources free of charge to the Greek Universities 
+and public Research Centres. Okeanos is build on top of existing proven 
+open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly 
+providing Virtual Machines for building the OSGeoLive iso images.
 
 .. include :: sponsors_osgeo.rst
 

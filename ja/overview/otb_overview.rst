@@ -59,13 +59,13 @@ OTB はフランス国立宇宙研究センター (CNES) で開発されてき�
 
 **動作プラットフォーム:** Linux, Mac, Windows
 
-**API:** C++
+**API インターフェース:** C++
 
-**コマーシャル支援:** http://www.osgeo.org/search_profile
+**商用サポート:** http://www.osgeo.org/search_profile
 
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/otb_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/otb_quickstart>`
 

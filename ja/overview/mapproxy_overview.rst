@@ -1,6 +1,6 @@
 :Author: Oliver Tonnhofer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
@@ -35,8 +35,8 @@ MapProxy は、何千ものユーザーに地図を配信するために、ド�
   :align: right
 
 入力ソース:
-  * WMS 1.0.0–1.3.0 (MapServer, GeoServerなど)
-  * TMS, WMTS (TileCache, GeoWebcacheなど)
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>` など)
+  * TMS, WMTS (TileCache, GeoWebcache など)
   * Mapserver and Mapnik (WMS無しで直接的に)
   * あらゆる TileCache, Google Maps または Bing ソース互換
 
@@ -72,6 +72,11 @@ WMS機能:
   * ポリゴン領域へのアクセス制限
   * 既存のユーザーのデータベースや認証との統合
 
+Powerful tools:
+  * efficient seed tool for cache pre-filling that can seed polygon areas
+  * export cached tiles to other formats
+  * calculate scales and show grid configurations
+
 他の機能:
   * 単純ながら強力な設定フォーマット (YAML/JSON)
   * OpenLayers をベースとしたデモ・クライアント
@@ -104,10 +109,9 @@ MapProxyは、以下のオープンな仕様を実装しています:
 
 **サポート:** http://mapproxy.org/support.html
 
-**文書:** <../../mapproxy/index.html>`_
 
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/mapproxy_quickstart>`

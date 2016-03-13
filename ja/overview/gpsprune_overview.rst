@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: ../../images/project_logos/logo-gpsprune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -48,7 +48,7 @@ Mac OSX, Windows, Linux で動作し、多くの言語に対応しています�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 15.1
+**バージョン:** 17.2
 
 **動作プラットフォーム:** GNU/Linux, Mac OSX, Windows
 
@@ -56,5 +56,5 @@ Mac OSX, Windows, Linux で動作し、多くの言語に対応しています�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/gpsprune_quickstart>`
 

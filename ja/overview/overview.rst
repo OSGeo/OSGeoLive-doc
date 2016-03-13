@@ -38,7 +38,7 @@
 * :doc:`mapbender_overview` - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - ジオポータルフレームワーク
 * :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
 * :doc:`cartaro_overview` - [:doc:`クイックスタート <../quickstart/cartaro_quickstart>`] - 地理空間 CMS
-* :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 CMS
+* :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 コンテンツ管理システム
 
 Web サービス
 --------------------------------------------------------------------------------
@@ -53,10 +53,11 @@ Web サービス
 * :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
 * :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`] - プロキシ WMS & タイルサービス
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* :doc:`52nWPS_overview` - [:doc:`クイックスタート <../quickstart/52nWPS_quickstart>`] - Web Processing Service
+* :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
 * :doc:`52nSOS_overview` - [:doc:`クイックスタート <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
-* :doc:`tinyows_overview` - [:doc:`クイックスタート <../quickstart/tinyows_quickstart>`] - WFS-T サービス
+* :doc:`52nWPS_overview` - [:doc:`クイックスタート <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`tinyows_overview` - [:doc:`クイックスタート <../quickstart/tinyows_quickstart>`] - WFS-T サービス
 
 .. disabled: * :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web セキュリティサービス
 
@@ -83,7 +84,6 @@ Web サービス
 特定解析ツール:
 
 * :doc:`gmt_overview` - [:doc:`クイックスタート <../quickstart/gmt_quickstart>`] - 地図レンダリング
-* :doc:`ipython_overview` - [:doc:`クイックスタート <../quickstart/ipython_quickstart>`] - プレゼンテーション内で豊富なメディアを混合
 * :doc:`otb_overview` - [:doc:`クイックスタート <../quickstart/otb_quickstart>`] -画像処理
 * :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
 * :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
@@ -137,6 +137,7 @@ Microsoft Windows のみで利用可能:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
 * :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
+* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
 
 
 Windows 及び Apple インストーラー
@@ -145,9 +146,4 @@ OSGeo-Live の完全なイメージに含まれているもの:
 
 * `Microsoft Windows インストーラー <../../WindowsInstallers/>`_
 * `Apple OSX インストーラー <../../MacInstallers/>`_
-
-数値化
---------------------------------------------------------------------------------
-
-* :doc:`プロジェクトの数値化 <../metrics>` from Ohloh
 

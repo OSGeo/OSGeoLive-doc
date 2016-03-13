@@ -73,7 +73,7 @@ osgEarthでは地形をレンダリングする以上のことができます:
 
 **動作環境:** Linux, Mac, Windows
 
-**API:** C++
+**API インターフェース:** C++
 
 **商用のサポート:** http://osgearth.org/#ProfessionalServices
 
@@ -81,6 +81,6 @@ osgEarthでは地形をレンダリングする以上のことができます:
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/osgearth_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/osgearth_quickstart>`
 
 

@@ -1,6 +1,6 @@
 :Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-spatialite.png
@@ -57,7 +57,7 @@ SQLite で OGC の仕様に準拠した空間データを扱えるようにし�
 
 **ライセンス:** MPL v1.1 and GPL v3
 
-**ソフトウェアバージョン:** spatialite 4.1.1 / spatialite-gui 1.7.1
+**ソフトウェアバージョン:** 4.3.0
 
 **サポートするプラットフォーム:** Linux、Mac、Windows
 
@@ -67,5 +67,5 @@ SQLite で OGC の仕様に準拠した空間データを扱えるようにし�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`クイックスタート <../quickstart/spatialite_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/spatialite_quickstart>`
 
