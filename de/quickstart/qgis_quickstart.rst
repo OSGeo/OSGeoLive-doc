@@ -1,10 +1,13 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
-:Version: osgeo-live5.0
+:Author: Hamish Bowman
+:Author: Zoltan Siki
+:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
-  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
@@ -13,7 +16,7 @@
 QGIS Quickstart 
 ********************************************************************************
 
-Quantum GIS (QGIS) ist ein benutzerfreundliches, quelloffenes Geographisches Informationssystem, mit dem man Geodaten visualisieren, managen, editieren und analysieren sowie druckfertige Karten erstellen kann.
+QGIS ist ein benutzerfreundliches, quelloffenes Geographisches Informationssystem, mit dem man Geodaten visualisieren, managen, editieren und analysieren sowie druckfertige Karten erstellen kann.
 
 Dieser Quickstart Guide beschreibt folgende Schritte:
 
@@ -37,7 +40,8 @@ Bearbeiten eines QGIS Projektes
    * Es werden Städte der Welt angezeigt:
 
      .. image:: ../../images/screenshots/1024x768/qgis.png
-        :scale: 50 %
+        :scale: 70 %
+        :alt: Map in QGIS
 
 #. Machen Sie einen Doppelklick auf **10m_rivers_lake_centerlines** im Layer-Fenster
 
@@ -47,6 +51,10 @@ Bearbeiten eines QGIS Projektes
 
    * Die Flüsse werden jetzt in der gewählten Farbe dargestellt
 
+     .. image:: ../../images/screenshots/1024x768/qgis_zoom_toolbar.png
+        :scale: 70 %
+        :alt: Map in QGIS
+
 
 Neues QGIS Projekt erstellen
 ================================================================================
@@ -55,12 +63,19 @@ Neues QGIS Projekt erstellen
 
 #. Wählen Sie :menuselection:`Layer --> Vektorlayer hinzufügen...`
 
+     .. image:: ../../images/screenshots/1024x768/qgis_add_layer.png
+        :scale: 70
+        :alt: Add layer
+
 #. Klicken Sie auf die Schaltfläche :guilabel:`Durchsuchen` und wählen Sie den Datensatz :file:`/home/user/data/natural_earth/10m_admin_0_countries.shp`
 
 #. Klicken Sie auf die Schaltfläche :guilabel:`Öffnen`
 
    * Sie sollten jetzt alle Länder der Welt sehen
 
+     .. image:: ../../images/screenshots/1024x768/qgis_countries.png
+        :scale: 70
+        :alt: Add layer result
 
 Weitere Informationen
 ================================================================================
@@ -72,8 +87,8 @@ Die englische Einführung `A Gentle Introduction to GIS`_ und der `QGIS User Gui
 
 
 .. _`OSGeo-Live QGIS tutorials`: ../../qgis/tutorials/de/
-.. _`QGIS Dokumentation`: http://www.qgis.org/de/dokumentation.html
-.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/html/de/docs/gentle_gis_introduction/index.html
-.. _`QGIS User Guide`: http://docs.qgis.org/html/de/docs/user_manual/index.html
-.. _`[1]`: ../../qgis/qgis-1.0.0_a-gentle-gis-introduction_en.pdf
+.. _`QGIS Dokumentation`: http://www.qgis.org/de/docs/index.html
+.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/de/docs/gentle_gis_introduction/
+.. _`QGIS User Guide`: http://docs.qgis.org/2.8/de/docs/user_manual/
+.. _`[1]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
 .. _`[2]`: ../../qgis/QGIS-1.8-UserGuide-en.pdf
