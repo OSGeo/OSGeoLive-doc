@@ -28,13 +28,12 @@ Mapbender é la cosiddetta punta dell'iceberg, uno strato software in grado di f
 
 Le applicazioni amministrate con Mapbender sono facili da usare, e forniscono funzionalità fortemente dirette all'operatività su componenti SDI distribuiti su larga scala. Esso é uno strumento utile ad amministratori di SDI che hanno bisogno di mantenere, classificare e monitorare servizi relativi a mappe (map services) e ad oggetti geografici (feature services). Mapbender garantisce l'accesso a persone, gruppi e gestisce anche l'accesso da parte di altri servizi. L'aderenza a servizi standardizzati, come ad es. OGC WMS, permette di beneficiare dei servizi interoperabili forniti da una moltitudine di piattaforme server.
 
-Il software Mapbender3 si basa su Symfony2 e OpenLayers, Mapproxy e jQuery. 
+Il software Mapbender si basa su Symfony2 e OpenLayers, Mapproxy e jQuery. 
 
 .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender application
   :align: right
-
 
 Funzionalità di base
 --------------------------------------------------------------------------------
@@ -42,6 +41,10 @@ Funzionalità di base
 * Creare facilmente interfacce per il web mapping attraverso l'uso di templates  
 
   * aggiungere/rimuovere/personalizzare applicazioni
+* Creare applicazioni con funzionalità di digitalizzazione
+* Creare applicazioni mobile
+* Stampa mappe con alta qualità utilizzando i propri template PDF
+* Digitalizzazione attraverso SQL
 
 * Caricare e condividere servizi OGC WMS remoti (capabilities caching) 
 
@@ -52,7 +55,6 @@ Funzionalità di base
 * Creare utenti e gruppi, condividere e garantire l'accesso a servizi e componenti
 * Restringere l'accesso a utenti attraverso il modulo OWS security proxy via trusted servers
 * Protocolli criptati, monitoraggio e notifica dello stato, e servizio di auto-aggiornamento per servizi OGC remoti
-* Stampare mappe di alta qualità utilizzando i propri template PDF.
 * ... e altro ancora!
 
 Standards Implementati

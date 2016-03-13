@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -53,6 +54,7 @@ Core Features
     * raster formats such as digital elevation models, aerial photography or landsat imagery,
     * GRASS locations and mapsets,
     * online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS
+    * 2.5D rendering support
 
 * Create, edit and export spatial data using:
 
@@ -85,7 +87,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.4.0
+**Software Version:** 2.14.0
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 

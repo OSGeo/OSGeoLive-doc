@@ -9,19 +9,19 @@
   :align: right
   :target: http://goworldwind.org/
 
-Java World Wind
+WorldWind Java
 ================================================================================
 Desktopanwendung Virtual Globe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Java World Wind ist ein virtueller Globus, der zahlreiche Werkzeuge zur 
+WorldWind Java ist ein virtueller Globus, der zahlreiche Werkzeuge zur 
 Anzeige und Interaktion räumlicher Daten bietet und die Representation geometrischer Objekte ermöglicht.
 
 Durch die Nutzung von Digitalen Höhenmodellen (DEM) ist es möglich, topographische Objekte
  wie den Grand Canyon oder den Mount Everest 3-dimensional anzuzeigen.
 
-Weltweit nutzen Organisation World Wind um Wettermuster, Städte und Gelände, 
+Weltweit nutzen Organisation WorldWind um Wettermuster, Städte und Gelände, 
 die Bewegungen von Flugzeugen, Fahrzeugen und Schiffen zu visulalisieren und 
 räumliche Daten zu analysieren sowie in der Lehre.
 
@@ -93,7 +93,7 @@ Details
 
 **Lizenz:** NASA Open Source Agreement Version 1.3
 
-**Software Version:** World Wind Java SDK 2.0
+**Software Version:** WorldWind Java SDK 2.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Android, iOS
 
@@ -102,4 +102,4 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
     
-:doc: `Quickstart Dokumentation <../quickstart/javaworldwind_quickstart>`_
+:doc: `Quickstart Dokumentation <../quickstart/worldwindjava_quickstart>`_

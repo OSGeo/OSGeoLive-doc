@@ -131,7 +131,7 @@ way of switching within the ``psql`` command line:
 You should see an informational message, and the prompt will change to show that you are now
 connected to the ``demo`` database. 
 
-Next, add PostGIS 2.0:
+Next, add PostGIS extension:
 
 ::
 
@@ -155,7 +155,7 @@ on valid spatial reference systems, and we can use some SQL to have a quick look
 
 ::
 
-  demo=# SELECT srid,auth_name,proj4text FROM spatial_ref_sys LIMIT 10;
+  demo=# SELECT srid, auth_name, proj4text FROM spatial_ref_sys LIMIT 10;
 
    srid | auth_name |          proj4text                                            
   ------+-----------+--------------------------------------
@@ -269,7 +269,7 @@ assuming a spherical earth?
 
 ::
 
- demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
+ demo=# SELECT p1.name,p2.name,ST_DistanceSphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
        name       |      name       | st_distancesphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
@@ -316,10 +316,10 @@ Mapping
 ================================================================================
 
 To produce a map from PostGIS data, you need a client that can get at the data. Most 
-of the open source desktop GIS programs can do this - Quantum GIS, gvSIG, uDig for example. Now we'll
+of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we'll
 show you how to make a map from Quantum GIS.
 
-Start Quantum GIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
+Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
 parameters for connecting to the OpenStreetMap data in PostGIS is already defined in the Connections
 drop-down menu. You can define new server connections here, and store the settings for easy
 recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
@@ -357,28 +357,16 @@ Creating A Spatial Table The Easy Way
 Most of the OSGeo desktop tools have functions for importing spatial data in files, such as shapefiles,
 into PostGIS databases. Again we'll use QGIS to show this.
 
-Importing shapefiles to QGIS can be done via a handy DataBase Manager plugin. To set it up, go to the 
-Plugins menu, select ``Fetch Python Plugins``. QGIS will then get the latest list of plugins from the 
-repository (you will need a working internet connection for this). Then find the ``DB Manager``. It should be already installed (like in the picture), if not,
-hit the ``Install plugin`` button.
-
-.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
-  :scale: 50 %
-  :alt: Fetch PostGIS Manager Plugin
-  :align: center
-
-Now on the Database menu you should have a PostGIS Manager entry which gives you an option
-to start the manager. You can also click the PostGIS logo button (the elephant with the globe) on the toolbar.
+Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager -> DB Manager``.
 
 Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave
 the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select 
 tables from the database and use the tabs on the right find out about them. The Preview tab
-will show you a little map. Here I've selected the ne_10m_populated_places layer
-and zoomed in on a little island I know:
+will show you a little map.
 
 .. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
-  :alt: PostGIS Manager Preview
+  :alt: QGIS Manager Preview
   :align: center
 
 We will now use the DB Manager to import a shapefile into the database. We'll use
@@ -387,7 +375,7 @@ of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
-(located in /usr/local/lib/R/site-library/):
+(located in /usr/lib/R/site-library/maptools/shapes/):
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
@@ -472,7 +460,8 @@ Furthermore we are going to sort the result, based on the computed rate. To do t
 on the text editor of the SQL Window):
 
 ::
-select name, 1000*sid74/bir74 as rate from sids order by rate;
+
+ select name, 1000*sid74/bir74 as rate from sids order by rate;
 
 Afterwards, you should press the green arrow button, pointing to the right (execute query).
 

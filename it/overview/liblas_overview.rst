@@ -1,7 +1,7 @@
 :Author: Howard Butler
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live5.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-libLAS.png
@@ -45,7 +45,7 @@ Dettagli
 
 **Licenza:** BSD
 
-**Versione Software:** 1.7.0
+**Versione Software:** 1.8.0
 
 **Piattaforme Supportate:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), and Linux
 
