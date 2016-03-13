@@ -358,7 +358,7 @@ The `QGIS User Guide`_ `[1]`_ is also included on the OSGeo-Live disc.
 
 .. _`OSGeo-Live QGIS tutorials`: ../../qgis/
 .. _`Documentation page`: http://docs.qgis.org/
-.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.4/en/docs/gentle_gis_introduction/
-.. _`QGIS User Guide`: http://docs.qgis.org/2.4/en/docs/user_manual/
+.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
+.. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/
 .. _`[1]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
 
