@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -51,6 +52,7 @@ Kernfunktionen
     * zahlreiche Rasterformate, welche durch die GDAL Bibliothek unterstützt werden, z.B. digitale Höhenmodelle, Luft- und Satelitenbilder.
     * GRASS Locations und Mapsets,
     * Online Geodaten, die als OGC-Dienste WMS, WMTS, WFS oder WCS bereitgestellt werden;
+    * 2.5D Anzeige 
 
 * Erstellen, editieren und exportieren räumlicher Daten mit:
 
@@ -83,7 +85,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.4.0
+**Software Version:** 2.14.0
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 

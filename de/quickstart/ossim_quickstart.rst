@@ -26,10 +26,10 @@ Imagelinker
 
 * Starte Imagelinker über sein Icon aus dem Menü "Spatial Tools" auf dem Desktop 
 
-* Öffne die Bilddatei über :menuselection:`File --> Open Image --> /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif`
+* Öffne die Bilddatei über :menuselection:`File --> Open Image --> /home/user/data/landsat/clip10.tif`
 
-* Wieder hole die vorherige Operation für die Dateien : `lsat7_2002_20.tif`
-  und `lsat7_2002_30.tif`
+* Wiederhole die vorherige Operation für die Dateien : `clip20.tif`
+  und `clip30.tif`
 
   .. image:: ../../images/screenshots/1024x768/ossim_imagelinker3.jpg
      :scale: 60 %
@@ -42,7 +42,7 @@ Imagelinker
 * Sie können die gesamten Satelliten Band Sichten synchron halten, indem Sie :guilabel:`Fit` in einem 
   der kleineren Fenster klicken anschließend wählen Sie :guilabel:`Propagate` im selben Fenster. Versuchen Sie diese Schritte in einem größeren Fenster.
 
-* Stellen Sie im großen Fenster sicher, dass der Zoom-Button nicht ausgewählt ist und klicken Sie in die Mitte des Kaps (Wellfleet Harbor). 
+* Stellen Sie im großen Fenster sicher, dass der Zoom-Button nicht ausgewählt ist.
   Klicken Sie in die Mitte der großen Straßenkreuzung. Klicken Sie bei vergrößerter Ansicht wiederum den :guilabel:`Propagate`
   Button im großen Fenster, um die Ansicht der anderen Fenster zu synchronisieren.
   In ähnlicher Weise können Sie den Pan-Button (Verschieben) verwenden. Bewegen Sie sich per klick entlang der Straße und klicken 
@@ -58,10 +58,10 @@ OssimPlanet
 
 * Starte OssimPlanet über sein Icon aus dem Menü "Desktop GIS" auf dem Desktop 
 
-* Wähle :menuselection:`File --> Open Image --> /home/user/data/raster/meris/mosaic_MER...RGB_reduced/mosaic_ENVISAT-MER...RGB_reduced.tif`, um die LANDSAT Daten zu laden (oder laden Sie die Daten per drag & drop in das Hauptfenster).
+* Wähle :menuselection:`File --> Open Image --> /home/user/data/landsat/clip10.tif`, um die LANDSAT Daten zu laden (oder laden Sie die Daten per drag & drop in das Hauptfenster).
 
 * Klicken Sie im Layerbaum auf das kleine Dreieck links *Image Layers*, um den Bereich zu vergrößern. 
-  Doppelklicken Sie auf ``mosaic_ENVISAT-MER_FRS...``.
+  Doppelklicken Sie auf ``clip10``.
 
 .. note:: Zur Deaktivierung des Tageslicht auto-shading, deaktivieren :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
 
@@ -69,8 +69,7 @@ OssimPlanet
   linken Maustaste; rollen Sie über das Drücken der mittleren Maustaste; zoomen Sie rein und raus 
   über die rechte Maustaste.
 
-.. commented * Laden Sie die North Carolina LANDSAT Bilder von ``/home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif``.
-  Doppelklicken Sie aberals auf den Namen im Layerbaum, um zu dem Bereich zu zoomen.
+.. commented * Try follow the Imagelinker tutorial, generate an RGB image from the original  single band images and load the result in ossimplanet.
 
 * Wenn Sie sich verirren, doppelklicken Sie auf das Blue Marble Bild im Layerbaum auf auf die Ansicht des gesamten Globus zu gelangen.
 
@@ -80,9 +79,7 @@ Wie geht es weiter?
 
 * Ossim Tutorials
 
-  Folgen Sie den Tutorials_ um mehr über OSSIM zu lernen.
-
-.. _tutorials: http://download.osgeo.org/ossim/tutorials/pdfs/
+.. _Tutorials: http://download.osgeo.org/ossim/tutorials/pdfs/
 
 * Dokumentation auf der DVD
 
