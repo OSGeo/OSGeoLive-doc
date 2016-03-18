@@ -78,6 +78,7 @@ sphinxbuild: link_to_en_docs licenses.csv
 
 fix_header_links: sphinxbuild
 	# Correct relative links for the headers for the top level directory
+	rm -fr $(TMP)
 	for FILE in $(BUILDDIR)/html/*/*.html ; do \
 	  for ITEM in \
 	    contact.html \
@@ -124,6 +125,7 @@ win_installer_links: sphinxbuild
 	fi
 
 banner_links: sphinxbuild
+	rm -fr $(TMP)
 	# Copy the banner to the _images directory
 	cp images/banner.png $(BUILDDIR)/html/_images/banner.png
 	# Correct relative links to banner in top pages
@@ -154,21 +156,19 @@ presentation:
 	  fi; \
 	done; \
 
-html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs link_to_en_docs presentation
+html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs presentation
 
-# Just build the English documentation, by moving translations into TMP dir
-# Use this to quickly check new documentation
-# Do "make revert" to copy translations back
-small: css
+# Just build the English documentation
+# Use this to quickly check new English documentation
+small: fix_index
+	rm -fr $(TMP)
 	mkdir -p $(TMP)
-	if [ -e ca ] ; then \
-	  mv $(TRANSLATIONS) $(TMP) ; \
-	fi 
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
-
-# Move translation files back from TMP direct. Run after "make small"
-revert:
-	mv $(TMP)/* .
+	ln -s $(START_DIR)/*.css $(START_DIR)/images $(START_DIR)/*.py $(START_DIR)/index.rst $(START_DIR)/en $(START_DIR)/*.txt $(START_DIR)/*.csv $(START_DIR)/themes $(TMP)
+	cd $(TMP) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	rm -fr _build
+	mv $(TMP)/_build .
+	cp osgeolive.css $(BUILDDIR)/html/
+	rm -fr $(TMP)
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
