@@ -7,8 +7,10 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
 TMP           = /tmp/osgeolive_make
-TRANSLATIONS  = ca de el es id it fr ja ko pl ru zh
-LANGUAGES     = en $(TRANSLATIONS)
+#LANGUAGES     = ca de el en es hu id it fr ja ko pl ru zh
+#TRANSLATIONS  = ca de el es hu id it fr ja ko pl ru zh
+LANGUAGES     = $(shell ls -d [a-z][a-z])
+TRANSLATIONS  = $(shell echo $(LANGUAGES) | sed -e "s/en //")
 PDF_LANG      = en
 START_DIR     = $(shell pwd)
 
