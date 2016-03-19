@@ -88,7 +88,8 @@ What Next?
 * We have prepared a number of tutorials_ demonstrating more of
   Ossim's capabilities.
 
-.. _tutorials: http://download.osgeo.org/ossim/tutorials/pdfs/
+.. _tutorials: http://download.osgeo.org/ossim/docs/pdfs/
+
 
 * See also the included documentation_ on this Live DVD.
 
