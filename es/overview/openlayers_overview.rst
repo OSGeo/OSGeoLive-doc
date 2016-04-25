@@ -5,10 +5,8 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
 :Translator: David Mateos
-:Version: osgeo-live8.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _openlayers-overview-es:
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
   :scale: 80 % 
@@ -32,9 +30,7 @@ Biblioteca de mapas para navegador/móvil y Cliente ligero GIS
 OpenLayers3 es una biblioteca ligera de mapeo para la web y clientes móviles que 
 usa tecnologías de los navegadores modernos como HTML5, WebGL y CSS3.
 
-OpenLayers3 supone una reescritura completa de la biblioteca anterior, OpenLayers2,
-robusta y ampliamente implementada. Ambas ofrecen un gran conjunto de funcionalidades
-que cubren los requisitos básicos y avanzados de SIG y mapeo web.
+OpenLayers3 supone una reescritura completa de la biblioteca anterior, OpenLayers2, robusta y ampliamente implementada. Ambas ofrecen un gran conjunto de funcionalidades que cubren los requisitos básicos y avanzados de SIG y mapeo web.
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic.png
   :scale: 70 %
@@ -84,11 +80,11 @@ Detalles
 
 **Website:** http://openlayers.org
 
-**Licencia:** Licencia BSD de 2 claúsulas (también conocida como licencia *FreeBSD*)
+**Licencia:** Licencia BSD de 2 claúsulas (también conocida como licencia *FreeBSD*).
 
-**Versión de Software :** 3.0.0
+**Versión de Software :** 3.13.1.
 
-**API Interface:** JavaScript
+**API Interface:** JavaScript.
 
 **Soporte:** https://groups.google.com/forum/#!forum/ol3-dev
 
