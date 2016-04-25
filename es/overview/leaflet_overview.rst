@@ -1,7 +1,8 @@
 :Author: Johan Van de Wauw
 :Author: Vladimir Agafonkin
+:Reviewer: Cameron Shorter
 :Translator: David Mateos
-:Version: osgeo-live7.0
+:Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-leaflet.png 
@@ -12,7 +13,7 @@
 Leaflet
 ================================================================================
 
-Biblioteca de Mapas para NAvegador/Móvil
+Biblioteca de Mapas para Navegador/Móvil
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -31,50 +32,57 @@ Características principales
 
 * Capas de mapas
 
-    * Teselas, Marcadores, Popups, Image overlays, WMS, GeoJSON, 
+    * Teselas, Marcadores, Popups, imágenes superpuestas, WMS, GeoJSON.
     * Vectores: polilíneas, polígonos, circulos, rectángulos, marcadores.
-    * Grupos de capas
+    * Grupos de capas.
 
 * Elementos de personalización
 
-    * Controles y popups de CSS3 puro para easy restyling
+    * Controles y popups de CSS3 puro.
     * Marcadores basados en imágen (y HTML).
-    * Custom map layers, controls, projections
-    * Powerful OOP facilities for extending existing classes
+    * Capas, controles y proyecciones personalizables.
+    * Potentes opciones de POO para extender las clases existentes.
 
-* Performance Features
+* Interacción y elementos visuales
+    * Arrastre y desplazamiento con efecto de inercia.
+    * Navegación con el teclado.
+    * Multi-toques.
+    * Animación para Zoom/Desplazamiento.
+    * Diseño por defecto para marcadores, popups y otros controles del mapa muy cuidado. 
+    * Soporta resolución Retina para capas de teselas y marcadores.
+
+* Características de rendimiento
 
     * Aceleración de Hardware.
-    * Utilización de elementos CSS3 para que los 'paneos' y zoom sean realmente suaves. 
+    * Utilización de elementos CSS3 para que los desplazamientos y zoom sean realmente suaves.
     * Renderizado inteligente de polilíneas/polígonos. 
-    * Diseño modular que permite incluir sólo  required features
+    * Diseño modular que permite incluir sólo las funcionalidades necesarias.
     * Tap delay elimination on mobile devices
 
 * Controles del mapa
 
-    * Botones de zoom, Atribución, Layer switcher, escala.
+    * Botones de zoom, Atribución, selector de capas, escala.
 
 * Navegadores de escritorio soportados
 
     * Chrome
     * Firefox
     * Safari 5+
-    * Opera 11.11+
-    * IE 7–10
-    * IE 6 (no perfecto, pero accesible)
+    * Opera 12+
+    * IE 7-11
 
 * Navegadores móviles soportados
 
-    * Safari para iOS 3/4/5/6+.
+    * Safari para iOS 3-7.
     * Navegador Android 2.2+, 3.1+, 4+.
     * Chrome para Android 4+ y iOS.
     * Firefox para Android.
-    * Otros navegadores basados en webkit-based (webOS, Blackberry 7+, etc.)
-    * IE10 para dispositivos basados en Win8.
+    * Otros navegadores basados en webkit (webOS, Blackberry 7+, etc.)
+    * IE10/IE11 para dispositivos basados en Win8.
 
 * Varios
 
-    * Extremadamente ligero — alrededor de 31 KB de código JS comprimido.
+    * Extremadamente ligero -alrededor de 34 KB de código JS comprimido.
     * Sin dependencias externas.
     * Mantiene el entorno JS limpio - sin contaminación de prototipos globales o nativos. 
 
@@ -86,16 +94,16 @@ Detalles
 
 **Licencia:** BSD
 
-**Version del Software :** 0.6.2
+**Version del Software :** 0.7.3
 
 **Plataformas soportadas:** Windows, Mac, Linux, Android, iOS
 
 **Interfaces API :** Javascript
 
-**Support:** https://groups.google.com/forum/#!forum/leaflet-js
+**Apoyo:** https://groups.google.com/forum/#!forum/leaflet-js
 
 Guía de inicio rápido:
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`
+* :doc:`Guía de inicio rápido <../quickstart/leaflet_quickstart>`
 
