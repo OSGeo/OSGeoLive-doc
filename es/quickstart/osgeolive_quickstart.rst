@@ -1,7 +1,8 @@
 :Autor: OSGeo-Live
-:Autor: Cameron Shorter
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Autor: Cameron Shorter, Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
 Guía de inicio rápido OSGeo-Live
@@ -9,7 +10,7 @@ Guía de inicio rápido OSGeo-Live
 
 Esta guía de inicio rápido describe cómo arrancar el DVD 'OSGeo-Live'.
 
-Requerimientos de Sistema
+Requerimientos de Sistema (cómo mínimo)
 --------------------------------------------------------------------------------
 
 * RAM: 1 GB.
@@ -33,29 +34,22 @@ Pasos:
     :scale: 70 %
     :alt: boot
 
-  Presionar :kbd:`ENTER` para acceder a la siguiente pantalla.
-
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
-    :scale: 70 %
-    :alt: boot select
-
-  Seleccionar :guilabel:`live - boot the Live System`
-
-  .. image:: ../../images/screenshots/800x600/osgeolive_login.png
-    :scale: 70 %
-    :alt: boot select
-
-  En la página de login, simplemente presionar :kbd:`ENTER` o esperar a que la cuenta atrás finalice.
+  Esperar mientras el sistema se inicia.
 
   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 
-  Probar las aplicaciones desde el menú :menuselection:`Geospatial`. 
+Probar las aplicaciones desde el menú :menuselection:`Geospatial`. 
 
 Ver también:
 --------------------------------------------------------------------------------
 
+ * Para empezar con Lubuntu y el escritorio LXDE (que son los que usa OSGeo-Live):
+    https://help.ubuntu.com/community/Lubuntu/Documentation y
+    http://wiki.lxde.org
+ * Para empezar con el sistema operativo Ubuntu:
+    `eBook local <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ y `ayuda online más detallada <http://help.ubuntu.com/14.04/>`_
  * :doc:`virtualbox_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
