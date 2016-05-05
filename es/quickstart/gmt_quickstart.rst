@@ -1,8 +1,8 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
+:Version: osgeo-live6.5
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Copyright: 2011 by The OSGeo Foundation
 
-.. _gmt-quickstart-es:
  
 .. image:: ../../images/project_logos/logo-GMT.png
   :scale: 100 %
@@ -40,7 +40,7 @@ La línea costera de todo el mundo a baja resolución se puede encontrar en :fil
 Ejemplos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Hay 29 rutinas de ejemplo construidas y un script para ejecutarlas todas:
+Hay 30 rutinas de ejemplo construidas y un script para ejecutarlas todas:
 
 Abrir una ventana de terminal, y después escribir:
 
@@ -56,7 +56,7 @@ Vea los resultados: ( Escriba :kbd:`q` para salir de :command:`gv` [#gv]_ )
 
 ::
 
-  for PLOT in `find . -name *.ps` ; do
+  for PLOT in *.ps ; do
      echo "$PLOT"
      gv "$PLOT"
   done

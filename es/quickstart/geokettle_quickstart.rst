@@ -1,7 +1,9 @@
 :Author: Jean Mathieu
 :Author: Thierry Badard
 :Translator: Jorge Sanz
-:Version: osgeo-live5.5draft
+:Reviewer: Sergio Baños Calvo
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-geokettle.png
@@ -14,13 +16,16 @@
 Guía de inicio rápido de GeoKettle
 ********************************************************************************
 
+GeoKettle es una versión de Pentaho Data Integration (también conocida como Kettle) con capacidades espaciaes. Es una potente herramienta dirigida por metadatos de ETL (Extracción, Transformación y Carga, *Extract, Transform and Load*). Está enfocada en la integración de diferentes orígenes de datos para la construcción y actualización de bases de datos, almacenes de datos geoespaciales y servicios web.
 
-GeoKettle es una potente herramienta dirigida por metadatos de ETL (Extracción, Transformación y Carga, *Extract, Transform and Load*). Está enfocada en la integración de diferentes orígenes de datos para la construcción y actualización de bases de datos y almacenes de datos geoespaciales. Permite la extracción de datos desde diferentes orígenes, la transformación de los datos para la corrección de errores, limpia los datos, cambia su estructura, hace que cumplan estándares definidos, y carga estos datos transformados en Sistemas Gestores de Bases de Datos (SGBD), ficheros SIG o servicios web geoespaciales.
+GeoKettle permite la extracción de datos desde diferentes orígenes, la transformación de los datos para la corrección de errores, limpia los datos, cambia su estructura, hace que cumplan estándares definidos, y carga estos datos transformados en Sistemas Gestores de Bases de Datos (SGBD), ficheros SIG o servicios web geoespaciales. GeoKettle resulta particularmente útil cuando se pretende pretende automatizar procesos complejos y repetitivos sin tener que generar para ello código de programación, para convertir entre diversos formatos de datos, para migrar datos de un SGBD a otro, o para alimentar con datos varias bases de datos, etc.
 
 Esta guía de inicio rápido describe cómo:
 
   * Cargar y transforma datos existentes
   * Crear una transformación de datos nueva
+
+.. contents:: Contents
 
 Iniciar GeoKettle 
 ================================================================================
@@ -42,7 +47,7 @@ Tal y como se muestra en la captura de pantalla siguiente, el espacio de trabajo
 
 La parte izquierda actúa como un catálogo que contiene todos los pasos que pueden formar parte de una transformación de datos. La parte derecha del espacio de trabajo es el área donde la transformación propiamente dicha será diseñada y ejecutada/inspeccionada
 
-Más adelante se describirá los contenidos de estos paneles conforme se demuestre su uso.
+Más adelante se describirá los contenidos de estos paneles conforme se muestre su uso.
 
 Cargando una transformación previa
 ================================================================================
@@ -130,4 +135,5 @@ Aquí hay algunos retos adicionales que puedes probar:
 ¿Qué es lo siguiente?
 ================================================================================
 
-Echa un vistazo a la documentación de usuario y desarrollo de GeoKettle, así como los tutoriales disponibles en el `wiki <http://wiki.spatialytics.org>`_ del proyecto. No dudes también en preguntar por ayuda en el `foro <http://www.spatialytics.com/forum>`_ de Spatialytics.
+Echa un vistazo a la documentación de usuario y desarrollo de GeoKettle, así como los tutoriales disponibles en el `wiki <http://docs.spatialytics.com/doku.php?id=en:spatialytics_etl>`_ del proyecto. 
+No dudes también en pedir ayuda en el `foro <http://forum.spatialytics.com>`_ de Spatialytics.

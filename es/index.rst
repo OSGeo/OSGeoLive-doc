@@ -2,6 +2,22 @@
 Bienvenido a |osgeo-live-version|
 ================================================================================
 
+.. only:: latex
+
+   .. toctree::
+     :maxdepth: 1
+     :glob:
+
+     standards/toc
+     overview/toc
+     quickstart/toc
+     download
+     contact
+     copyright
+     disclaimer
+     sponsors
+     sponsors_osgeo
+
 `OSGeo-Live <http://live.osgeo.org>`_ es un DVD, disco USB o Máquina Virtual
 basada en `Lubuntu <http://www.xubuntu.org/>`_ que nos permite probar una amplia
 variedad de *software* libre geoespacial sin instalar nada. Está compuesto
@@ -28,9 +44,11 @@ Para probar las aplicaciones, se puede hacer simplemente lo siguiente:
 Muchas aplicaciones también son proporcionadas con instaladores para 
 `Apple OSX <../MacInstallers/>`_ y `Microsoft Windows <../WindowsInstallers/>`_.
 
+.. only:: html
 
 Guías de inicio rápido
-------------------------------------	
+
+--------------------------------------------------------------------------------	
 
 .. toctree::
    :maxdepth: 1
@@ -47,7 +65,6 @@ Guías de inicio rápido
    :glob:
 
    overview/overview
-   quickstart/*quickstart
    standards/standards
    contact
    copyright
@@ -60,11 +77,9 @@ Guías de inicio rápido
    mac_installers
    win_installers
 
+
+
 Presentación
 --------------------------------------------------------------------------------
 
-Está disponible una presentación de aproximadamente media hora (en Inglés), que
-destaca todas las aplicaciones OSGeo-Live, junto con las diapositivas originales
-y el guión. 
-
-Ver detalles en `presentation <../en/presentation/index.html>`_.
+Está disponible una  `presentación <presentation/index.html>`_de aproximadamente media hora, que destaca todas las aplicaciones OSGeo-Live, junto con las diapositivas originales,el guión y un `resumen <presentation/abstract.txt>`_.

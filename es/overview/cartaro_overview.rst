@@ -2,7 +2,7 @@
 :Author: Patric Hafner, http://www.geops.de
 :Reviewer: Cameron Shorter, http://lisasoft.com
 :Translator: Javi Sánchez, http://geonatec.com
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-cartaro.png
@@ -59,7 +59,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión Software:** 1.5
+**Versión Software:** 1.9
 
 **Plataformas Soportadas:** Windows, Linux, Mac
 
@@ -70,4 +70,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/cartaro_quickstart>`
+* :doc:`Guía de inicio rápido <../quickstart/cartaro_quickstart>`

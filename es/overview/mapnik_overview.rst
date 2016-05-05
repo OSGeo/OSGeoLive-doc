@@ -2,10 +2,8 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
 :Translator: David Mateos
-:Version: osgeo-live6.0
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapnik-overview-es:
 
 .. image:: ../../images/project_logos/logo-mapnik.png
   :alt: project logo
@@ -19,16 +17,16 @@ Mapnik
 Motor de renderizado cartográfico
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mapnik es una herramienta para el renderizado de bonitos mapas, con bordes de geometrías limpios y suaves, provisto de un sistema gráfico con anti-aliasing de calidad, posicionamiento inteligente de etiqueas, y simbolización SVG escalable. La mayor fama de mapnik viene por ser utilizado como render de la capa principal de Open Street Map.
+Mapnik es una herramienta para el renderizado de bonitos mapas, con bordes de geometrías limpios y suaves, provisto de un sistema gráfico con anti-aliasing de calidad, posicionamiento inteligente de etiqueas, y simbolización SVG escalable. La fama de mapnik viene sobre todo por su uso como render de la capa principal de Open Street Map.
 
-Mapnik se suele embeber típicamente en aplicaciones python que publican mapas en Internet, aunque las últimas mejoras incorporadas han permitido que Mapnik también se utilice para crear mapas de alta resolución en papel.
+Mapnik se suele embeber típicamente en aplicaciones Python que publican mapas en Internet, aunque las últimas mejoras incorporadas han permitido que Mapnik también se utilice para crear mapas de alta resolución en papel.
 
 .. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right
 
-Esencialmente una colección de objetos geográficos (mapa, capa, fuente de datos, entidad, geometría), la librería no necesita un display de ventanas y se puede desplegar en cualquier entorno servidor.  Esta diseñado para entornos multi-hilo e inicialmente pensado, aunque no en exclusividad, para desarrollo basado en web.
+Esencialmente una colección de objetos geográficos (mapa, capa, fuente de datos, entidad, geometría), la biblioteca no necesita una interfaz de ventanas y se puede desplegar en cualquier entorno servidor.  Esta diseñado para entornos multi-hilo e inicialmente pensado, aunque no exclusivamente, para desarrollo basado en web.
 
 Los bindings de alto nivel de Python (boost.python) facilitan el desarrollo rápido,  para zope3, django etc.
 
@@ -42,7 +40,7 @@ Detalles
 
 **Licencia:** LGPL (GNU Lesser General Public Licence)
 
-**Versión Software:** 2.2.0
+**Versión Software:** 2.3.0
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
@@ -53,6 +51,6 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* :doc:`Documentación de inicio rápido <../quickstart/mapnik_quickstart>`
+* :doc:`Guía de inicio rápido <../quickstart/mapnik_quickstart>`
 
 
