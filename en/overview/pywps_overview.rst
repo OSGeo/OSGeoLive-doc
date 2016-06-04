@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Jachym Cepicky, Jorge de Jesus, Tom Kralidis
 :Reviewer: 
-:Version: osgeo-live10.0
+:Version: osgeo-live10.0-draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pywps.png
@@ -21,8 +21,8 @@ PyWPS
 Web Processing Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PyWPS enables integration, publishing and execution of Python processes via
-the WPS standard.
+PyWPS :doc:`(WPS) <../standards/wps_overview>` enables integration, publishing
+and execution of Python processes via the WPS standard.
 
 PyWPS enables you to created and deploy custom geospatial operations (referred
 to as Processes) on the server. Processes can be written in Python.  Within

@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Jachym Cepicky, Tom Kralidis
-:Version: osgeo-live10.0
+:Version: osgeo-live10.0-draft
 :License: Creative Commons Attribution
 
 .. image:: ../../images/project_logos/logo-pywps.png
