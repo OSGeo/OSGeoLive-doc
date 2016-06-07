@@ -22,17 +22,19 @@ Web Processing Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 PyWPS :doc:`(WPS) <../standards/wps_overview>` enables integration, publishing
-and execution of Python processes via the WPS standard.
+and execution of Python processes via the Web Processing Service standard.
 
 PyWPS enables you to created and deploy custom geospatial operations (referred
 to as Processes) on the server. Processes can be written in Python.  Within
-this environment, you can integrate tools such as GRASS GIS, R, GDAL/OGR,
-proj.4 and other libraries with Python bindings.
+this environment, you can integrate tools such as
+:doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR
+<gdal_overview.rst>`, :doc:`proj.4 <proj4_overview>` and other libraries with
+Python bindings.
 
 PyWPS is an implementation of the Web Processing Service standard from the
 Open Geospatial Consortium. PyWPS is written in Python.
 
-PyWPS is Open Source and released under an MIT license.
+PyWPS is Open Source and released under an GNU/GPL license.
 
 ..  .. image:: ../../images/screenshots/800x600/pywps_client.png
     :scale: 50 %
@@ -80,4 +82,5 @@ Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pywps_quickstart>`
+* :doc:`PyWPS Tutorial <http://jachym.github.io/pywps-tutorial/build/html/index.html>`
 
