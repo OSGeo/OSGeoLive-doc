@@ -185,7 +185,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 #. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
    type ``grass`` into the Search box, and select the `GRASS 7` plugin.
 
-   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has apeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
+   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has appeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
 
 #. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
 
