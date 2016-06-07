@@ -12,3 +12,7 @@ override_dh_auto_build-indep:
 	#rm -rf de/presentation*
 	$(MAKE) html
 	debian/fix_sphinx.sh
+	for i in i $(cut -d ";" -f1 debian/tocompress.txt)
+	do
+	 pngquant -f --ext .png --quality 70-95 "$i"
+	done
