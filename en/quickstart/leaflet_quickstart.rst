@@ -53,7 +53,7 @@ Let's create a map of Europe with an indication of the 2013 FOSS4G conference. F
 
 .. code-block:: javascript 
 
- var map = L.map('map').setView([45.52875, -122.6632], 5);
+ var map = L.map('map').setView([50.7035, 7.0972], 5);
 
 By default (as we didn't pass any options when creating the map instance), all mouse and touch interactions on the map are enabled, and it has zoom and attribution controls.
 
@@ -89,13 +89,13 @@ Let's add a marker:
 
 .. code-block:: javascript 
 
- var marker = L.marker([45.52875, -122.6632]).addTo(map);
+ var marker = L.marker([50.7035, 7.0972]).addTo(map);
 
 Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:
 
 .. code-block:: javascript
 
- var circle = L.circle([44.056287, -123.07572], 25000, {
+ var circle = L.circle([49.70, 6.12], 25000, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
@@ -106,9 +106,9 @@ Adding a polygon is as easy:
 .. code-block:: javascript
 
  var polygon = L.polygon([
-    [46.01, -130.01],
-    [40.81, -128.76],
-    [44.15, -133.23]
+    [51.01, -1.01],
+    [45.81, 1.76],
+    [49.15, -4.23]
  ]).addTo(map);
 
 
@@ -120,7 +120,7 @@ Popups are usually used when you want to attach some information to a particular
 .. code-block:: javascript 
 
  var popup = L.popup()
-    .setLatLng([45.52875, -122.6632])
+    .setLatLng([50.7035, 7.0972])
     .setContent("I am a standalone popup.")
     .openOn(map);
 
