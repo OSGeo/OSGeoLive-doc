@@ -56,7 +56,7 @@ Running pgRouting
 
 	SELECT seq, node, edge, cost 
 		FROM pgr_dijkstra('
-			SELECT gid::int as id, source, target, 
+			SELECT gid as id, source, target, 
 				length::float8 as cost FROM ways', 
 			100, 600, false
 		);
