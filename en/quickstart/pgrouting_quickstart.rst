@@ -1,4 +1,5 @@
-:Author: Daniel Kastl, Regina Obe
+:Author: Daniel Kastl
+:Author: Regina Obe
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
