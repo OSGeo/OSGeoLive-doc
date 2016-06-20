@@ -15,11 +15,12 @@
   :align: right
   :target: http://www.osgeo.org
 
-********************************************************************************
+****************
 PyWPS Quickstart
-********************************************************************************
+****************
 
-PyWPS is an OGC WPS server implementation written in `Python <http://python.org>`_.
+PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written
+in `Python <http://python.org>`_.
 
 PyWPS is installed by default on the OSGeo-Live DVD.  This Quickstart will describe how to:
 
@@ -27,14 +28,14 @@ PyWPS is installed by default on the OSGeo-Live DVD.  This Quickstart will descr
 * test PyWPS installation
 * basic configuration of PyWPS instance
 * create and deploy process in PyWPS
-* perform GetCapabilities, DescribeProcess and Execute operations
+* perform `GetCapabilities`, `DescribeProcess` and `Execute` operations
 
 Tester Application
 ==================
 
 To run the PyWPS tester, use the PyWPS launcher from the Web Services group, or open Firefox and navigate to ``http://localhost/pywps/wps.py``:
 
-From Application menu, start Terminal application and test GetCapabilities
+From Application menu, start Terminal application and test `GetCapabilities`
 operation::
 
     $ wget -O - "http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=GetCapabilities"
@@ -74,7 +75,7 @@ according to it's description, able to *Answer to Life, the Universe and Everyth
     </wps:ExecuteResponse>
 
 As you might know, it takes a while, before the process is calculated. In our
-case, it's about 10s. At the and, we can see the answer to life, universe and
+case, it's about 10s. At the end, we can see the answer to life, universe and
 everyting.
 
 Configuration
