@@ -21,10 +21,6 @@ PyWPS Quickstart
 
 PyWPS is an OGC WPS server implementation written in `Python <http://python.org>`_.
 
-PyWPS allows for the expose geospatial operations (refered as processes).
-
-PyWPS is `Open Source`_, released under an GNU/GPL license, and runs on all major platforms (Windows, Linux, Mac OS X).
-
 PyWPS is installed by default on the OSGeo-Live DVD.  This Quickstart will describe how to:
 
 * perform a fresh installation of PyWPS
@@ -32,29 +28,6 @@ PyWPS is installed by default on the OSGeo-Live DVD.  This Quickstart will descr
 * basic configuration of PyWPS instance
 * create and deploy process in PyWPS
 * perform GetCapabilities, DescribeProcess and Execute operations
-
-Installation
-============
-
-System Requirements
--------------------
-
-PyWPS is written in `Python <http://python.org>`_, and works with (tested) version 2.6 and 2.7
-
-PyWPS requires the following supporting libraries:
-
-- `lxml`_ (version >= 2.2.3) for XML support
-
-Installing from Source
-----------------------
-
-`Download`_ the latest version of PyWPS or clone from `GitHub`_:
-
-.. code-block:: bash
-
-  $ git clone https://github.com/geopython/pywps.git pywps 
-
-Ensure that CGI is enabled for your install directory.  
 
 Tester Application
 ==================
