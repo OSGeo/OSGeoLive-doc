@@ -63,7 +63,7 @@ Here is how you use osm2pgrouting version 2.1.0+
 
 .. code-block:: bash
 
-	osm2pgrouting -f BONN_DE.osm -h localhost -d pgrouting -p 5432 --conf=mapconfig_for_cars.xml
+	osm2pgrouting -f BONN_DE.osm -h localhost -d bonn_routing -p 5432 --conf=mapconfig_for_cars.xml
 	
 	
 Output should be something like:
