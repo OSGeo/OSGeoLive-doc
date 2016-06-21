@@ -59,7 +59,7 @@ Here is how you use osm2pgrouting version 2.1.0+
 	
 Output should be something like:
 
-.. code-block
+.. code-block::
 
 	Opening data file: BONN_DE.osm
 	    Parsing data
