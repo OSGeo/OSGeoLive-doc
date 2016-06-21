@@ -20,18 +20,26 @@ This Quick Start describes how to open a database with the command line and run 
 Enabling pgRouting in a database
 ===============================================================================
 You should have PostGIS 2+ installed in database already.  In this example we will
-enable pgRouting in a database called pgrouting.
+create a database called `bonn_routing` and enable pgRouting in the database.
 
-* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``pgrouting`` database:
+* Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql:
+(psql is the commandline tool packaged with PostgreSQL)
+
 .. code-block:: bash
 
-  	psql -U postgres pgrouting
+  	psql
   
 At psql prompt type:
  
 .. code-block:: sql
 
+	CREATE DATABASE bonn_routing;
+	\connect bonn_routing;
+	CREATE EXTENSION postgis;
 	CREATE EXTENSION pgrouting;
+	
+
+If you are running PostgreSQL 9.6+, you can skip the postgis line and do :code:`CREATE EXTENSION pgrouting CASCADE;`
 	
 You can verify your installion by running this:
 
@@ -41,11 +49,12 @@ You can verify your installion by running this:
 	
 .. code-block::
 
-	version  |       tag       | build |  hash   | branch | boost
-	---------+-----------------+-------+---------+--------+--------
-	 2.1.0   | pgrouting-2.1.0 | 1     | b38118a | master | 1.59.0
+	 version |       tag       |  hash   | branch | boost
+	---------+-----------------+---------+--------+--------
+	 2.2.2   | pgrouting-2.2.2 | 7141904 | master | 1.59.0
 	(1 row)
-	
+
+Your version should be 2.1.0 or higher to use examples in this quickstart.	
 	
 Loading OSM data with osm2pgrouting
 ===========================================================================
