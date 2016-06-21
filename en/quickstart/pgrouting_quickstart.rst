@@ -17,6 +17,84 @@ pgRouting is an extension and adds routing and other network analysis functional
 
 This Quick Start describes how to open a database with the command line and run a basic shortest path query with the sample test data.
 
+Enabling pgRouting in a database
+===============================================================================
+You should have PostGIS 2+ installed in database already.  In this example we will
+enable pgRouting in a database called pgrouting.
+
+* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``pgrouting`` database:
+.. code-block:: bash
+
+  	psql -U postgres pgrouting
+  
+At psql prompt type:
+ 
+.. code-block:: sql
+
+	CREATE EXTENSION pgrouting;
+	
+You can verify your installion by running this:
+
+.. code-block:: sql
+
+	SELECT  * FROM pgr_version();
+	
+.. code-block::
+
+	version  |       tag       | build |  hash   | branch | boost
+	---------+-----------------+-------+---------+--------+--------
+	 2.1.0   | pgrouting-2.1.0 | 1     | b38118a | master | 1.59.0
+	(1 row)
+	
+	
+Loading OSM data with osm2pgrouting
+===========================================================================
+osm2pgorouting is a command-line tool for loading .osm files into pgRouting compatible format.
+Here is how you use osm2pgrouting version 2.1.0+
+
+.. code-block:: bash
+
+	osm2pgrouting -f BONN_DE.osm -h localhost -d pgrouting -p 5432 --conf=mapconfig_for_cars.xml
+	
+	
+Output should be something like:
+
+.. code-block
+
+	Opening data file: BONN_DE.osm
+	    Parsing data
+	
+	Spliting ways
+	
+	Dropping tables...
+	NOTICE:  table "ways" does not exist, skipping
+	NOTICE:  table "ways_vertices_pgr" does not exist, skipping
+	NOTICE:  table "relations_ways" does not exist, skipping
+	Creating tables...
+	Creating 'ways_vertices_pgr': OK
+	   Adding Geometry: Creating 'ways': OK
+	   Adding Geometry: Creating 'relations_ways': OK
+	Creating 'osm_nodes': OK
+	   Adding Geometry: Creating 'osm_relations': OK
+	Creating 'osm_way_tags': OK
+	Creating 'osm_way_types': OK
+	Creating 'osm_way_classes': OK
+	Adding auxiliary tables to database...
+	    Processing 1 way types:  Inserted 1 way types
+	    Processing way's classes:  Inserted 16 way's classes
+	    Processing way's relations:  Inserted: 83874way's relations
+	    Processing way's tags:  Inserted 10455 way's tags
+	    Processing 10455 ways:
+	Vertices inserted 9165    Ways inserted: 10455
+	Creating topology...
+	#########################
+	size of streets: 4904
+	size of splitted ways : 10455
+	Execution started at: Tue Jun 21 17:57:57 2016
+	Execution ended at:   Tue Jun 21 17:58:02 2016
+	Elapsed time: 5.084 Seconds.
+	User CPU time: -> 5.084 seconds
+	#########################
 
 Running pgRouting
 ================================================================================
