@@ -108,34 +108,36 @@ Output should be something like:
 Running pgRouting
 ================================================================================
 
-* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``pgrouting`` database:
+* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``bonn_routing`` database:
 
 .. code-block:: bash
 
-	psql -U user pgrouting
+	psql -U postgres bonn_routing
 
 * Type :command:`\\d` will list you all available tables:
 
 .. code-block:: sql
 
-	                List of relations
-	 Schema |        Name         |   Type   | Owner 
-	--------+---------------------+----------+-------
-	 public | classes             | table    | user
-	 public | geography_columns   | view     | user
-	 public | geometry_columns    | view     | user
-	 public | nodes               | table    | user
-	 public | raster_columns      | view     | user
-	 public | raster_overviews    | view     | user
-	 public | relation_ways       | table    | user
-	 public | relations           | table    | user
-	 public | spatial_ref_sys     | table    | user
-	 public | types               | table    | user
-	 public | vertices_tmp        | table    | user
-	 public | vertices_tmp_id_seq | sequence | user
-	 public | way_tag             | table    | user
-	 public | ways                | table    | user
-	(14 rows)
+	                    List of relations
+	 Schema |           Name           |   Type   |  Owner
+	--------+--------------------------+----------+----------
+	 public | geography_columns        | view     | postgres
+	 public | geometry_columns         | view     | postgres
+	 public | osm_nodes                | table    | postgres
+	 public | osm_nodes_node_id_seq    | sequence | postgres
+	 public | osm_relations            | table    | postgres
+	 public | osm_way_classes          | table    | postgres
+	 public | osm_way_tags             | table    | postgres
+	 public | osm_way_types            | table    | postgres
+	 public | raster_columns           | view     | postgres
+	 public | raster_overviews         | view     | postgres
+	 public | relations_ways           | table    | postgres
+	 public | spatial_ref_sys          | table    | postgres
+	 public | ways                     | table    | postgres
+	 public | ways_gid_seq             | sequence | postgres
+	 public | ways_vertices_pgr        | table    | postgres
+	 public | ways_vertices_pgr_id_seq | sequence | postgres
+	(16 rows)
 
 
 * Run the Dijkstra shortest path function:
