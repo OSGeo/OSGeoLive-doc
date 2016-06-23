@@ -211,7 +211,7 @@ your query to below:
 	SELECT seq, node, edge, cost 
 	FROM pgr_dijkstra('
 		SELECT gid as id, source_osm AS source, target_osm AS target, 
-			length::float8 as cost FROM ways', 
+			length as cost FROM ways', 
 		1896068597, 31369798, false
 	);
 	
