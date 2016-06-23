@@ -63,14 +63,17 @@ Here is how you use osm2pgrouting version 2.1.0+
 
 .. code-block:: bash
 
-	osm2pgrouting -f BONN_DE.osm -h localhost -d bonn_routing -p 5432 --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml
+	 cd 
+	 bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
+	 osm2pgrouting -f /tmp/feature_city.osm -h localhost -U user -d bonn_routing -p 5432 -W user --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml
+	 rm /tmp/feature_city.osm
 	
 	
 Output should be something like:
 
 .. code-block::
 
-	Opening data file: BONN_DE.osm
+	Opening data file: feature_city.osm
 	    Parsing data
 	
 	Spliting ways
