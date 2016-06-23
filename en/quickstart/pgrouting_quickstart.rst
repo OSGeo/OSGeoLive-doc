@@ -66,6 +66,12 @@ First verify version of osm2pgrouting you have installed. Should read 2.1 or hig
 .. code-block:: bash
 
 	osm2pgrouting --version
+	
+Output shows:
+
+.. code-block::
+
+	This is osm2pgrouting Version 2.1
 
 Now load the data from osm file
 
