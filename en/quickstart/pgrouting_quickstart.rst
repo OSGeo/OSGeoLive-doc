@@ -61,6 +61,14 @@ Loading OSM data with osm2pgrouting
 osm2pgorouting is a command-line tool for loading .osm files into pgRouting compatible format.
 Here is how you use osm2pgrouting version 2.1.0+
 
+First verify version of osm2pgrouting you have installed. Should read 2.1 or higher.
+
+.. code-block:: bash
+
+	osm2pgrouting --version
+
+Now load the data from osm file
+
 .. code-block:: bash
 
 	 cd 
