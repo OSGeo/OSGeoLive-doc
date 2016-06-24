@@ -47,7 +47,7 @@ You can verify your installion by running this:
 
 	SELECT  * FROM pgr_version();
 	
-.. code-block::
+.. code-block:: bash
 
 	 version |       tag       |  hash   | branch | boost
 	---------+-----------------+---------+--------+--------
@@ -69,7 +69,7 @@ First verify version of osm2pgrouting you have installed. Should read 2.1 or hig
 	
 Output shows:
 
-.. code-block::
+.. code-block:: bash
 
 	This is osm2pgrouting Version 2.1
 
@@ -85,7 +85,7 @@ Now load the data from osm file
 	
 Output should be something like:
 
-.. code-block::
+.. code-block:: bash
 
 	Opening data file: feature_city.osm
 	    Parsing data
@@ -194,7 +194,7 @@ To look up the corresponding osm_ids for our nodes, we would use this query:
 		
 Which outputs:
 
-.. code-block:: 
+.. code-block:: bash
 
 	 id  |   osm_id
 	-----+------------
@@ -215,7 +215,7 @@ your query to below:
 		1896068597, 31369798, false
 	);
 	
-Note: the SQL statement must always have field names id, source, target, and cost`.
+Note: the SQL statement must always have field names `id, source, target, and cost`.
 Since we are using fields `source_osm` and `target_osm`, we need to alias them so resulting pgr_dijkstra query columns are named source and target
 
 Output is:
