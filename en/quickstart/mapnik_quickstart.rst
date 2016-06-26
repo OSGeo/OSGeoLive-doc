@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Dane Springmeyer
-:Version: osgeo-live4.0
+:Version: osgeo-live10.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-mapnik.png
@@ -42,25 +42,19 @@ Mapnik & OpenLayers
 
 In addition a basic demo application is available, which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
 
-The demo uses a tileserver designed for Mapnik called "TileLite"
+The demo uses a tileserver designed for Mapnik called "TileStache"
 
-  * More information about TileLite: https://github.com/springmeyer/tilelite
+  * More information about TileStache: http://tilestache.org/
 
 To run the demo just follow these steps:
 
-  #. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileLite`
+  #. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileStache`
 
     * The server should start in a terminal window (which stays open and outputs basic debugging information).
-        
-    * If the terminal window does not open, then try to re-installing TileLite and starting the server from the command line::
-      
-        $ sudo easy_install tilelite
-        $ liteserv.py /usr/local/share/mapnik/demo/population.xml
 
+  #. Check to make sure the server is working by requesting a tile from the server at http://localhost:8012/example/0/0/0.png
 
-  #. Check to make sure the server is working by visiting the TileLite welcome page at http://localhost:8012
-
-  #. Then visit the example TileLite OpenLayers "World Population" demo application page:
+  #. Then visit the OpenLayers "World Population" demo application page:
     
     * This page is at `http://localhost/mapnik/local.html <../../mapnik/local.html>`_
 
