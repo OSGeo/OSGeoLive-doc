@@ -20,7 +20,7 @@ This Quick Start describes install pgrouting, load data with osm2pgrouting, and 
 Enabling pgRouting in a database
 ===============================================================================
 You should have PostGIS 2+ installed in database already.  In this example we will
-create a database called `bonn_routing` and enable pgRouting in the database.
+create a database called `city_routing` and enable pgRouting in the database.
 
 * Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql:
 (psql is the commandline tool packaged with PostgreSQL)
@@ -33,8 +33,8 @@ At psql prompt type:
  
 .. code-block:: sql
 
-	CREATE DATABASE bonn_routing;
-	\connect bonn_routing;
+	CREATE DATABASE city_routing;
+	\connect city_routing;
 	CREATE EXTENSION postgis;
 	CREATE EXTENSION pgrouting;
 	
@@ -79,7 +79,7 @@ Now load the data from osm file
 
 	 cd 
 	 bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
-	 osm2pgrouting -f /tmp/feature_city.osm -h localhost -U user -d bonn_routing -p 5432 -W user --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml
+	 osm2pgrouting -f /tmp/feature_city.osm -h localhost -U user -d city_routing -p 5432 -W user --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml
 	 rm /tmp/feature_city.osm
 	
 	
@@ -125,11 +125,11 @@ Output should be something like:
 Running pgRouting
 ==============================================================================
 
-* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``bonn_routing`` database:
+* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``city_routing`` database:
 
 .. code-block:: bash
 
-	psql -U postgres bonn_routing
+	psql -U postgres city_routing
 
 * Type :command:`\\d` will list you all available tables:
 
