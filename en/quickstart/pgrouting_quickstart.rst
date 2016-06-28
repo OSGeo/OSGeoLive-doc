@@ -15,7 +15,7 @@ pgRouting Quickstart
 
 pgRouting is an extension and adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ databases.
 
-This Quick Start describes install pgrouting, load data with osm2pgrouting, and run a basic shortest path query with the sample test data.
+This Quick Start describes how to enable pgrouting in a PostgreSQL database, load data with osm2pgrouting, and run a basic shortest path query with the sample test data.
 
 Enabling pgRouting in a database
 ===============================================================================
