@@ -252,7 +252,7 @@ been changed to use bigints, so osm_ids can't be used with all functions.
 	SELECT seq, edge, rpad(b.the_geom::text,60,' ') AS "the_geom (truncated)" 
 		FROM pgr_dijkstra('
 			SELECT gid as id, source, target, 
-				length::float8 as cost FROM ways', 
+				length as cost FROM ways', 
 			100, 600, false
 		) a INNER JOIN ways b ON (a.edge = b.gid) ORDER BY seq;
 
