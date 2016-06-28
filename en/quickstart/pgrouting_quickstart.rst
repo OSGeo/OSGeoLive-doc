@@ -13,14 +13,13 @@
 pgRouting Quickstart
 ********************************************************************************
 
-pgRouting is an extension and adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ databases.
+pgRouting is an extension that adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ databases.
 
 This Quick Start describes how to enable pgrouting in a PostgreSQL database, load data with osm2pgrouting, and run a basic shortest path query with the sample test data.
 
 Enabling pgRouting in a database
 ===============================================================================
-You should have PostGIS 2+ installed in database already.  In this example we will
-create a database called `city_routing` and enable pgRouting in the database.
+In this example we will create a database called `city_routing` and enable pgRouting in the database.
 
 * Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql:
 (psql is the commandline tool packaged with PostgreSQL)
