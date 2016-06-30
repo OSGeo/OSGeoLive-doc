@@ -270,6 +270,14 @@ been changed to use bigints, so osm_ids can't be used with all functions.
 	  38 |  2013 | 0102000020E6100000020000008849B89047701C406DF7BC2C375D4940E8
 	  39 |  6801 | 0102000020E610000002000000E82E89B322721C40A85890C1E55C494059
 	(39 rows)
+	
+	
+* You can view the routes using a graphical tool 
+such as :doc:`OpenJump <../overview/openjump_overview>` or
+the :doc:`QGIS <../overview/qgis_overview>` DbManager extension.
+
+To use the DbManager extension of QGIS open up QGIS then go to Go to ``Database -> DB Manager -> DB Manager``.
+Select the SQL Window icon and cut and paste the above pgRouting Query. 
 
 * Run the Dijkstra shortest path function with considering direction.
 
@@ -300,4 +308,5 @@ What next?
 
 * **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: http://workshop.pgrouting.org
 * **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1
+* **QGIS pgRouting Layer Plugin** - https://plugins.qgis.org/plugins/pgRoutingLayer/ provides GUI for pgRouting functions and interacts with map so you don't have to write SQL.
 
