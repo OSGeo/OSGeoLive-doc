@@ -37,7 +37,7 @@ describing the additional spatial functionality provided by PostGIS.
 
 This Quick Start describes how to:
 
-  * Create and query a spatial database from the command line and :doc:`Quantum GIS <../overview/qgis_overview>` graphical client.
+  * Create and query a spatial database from the command line and :doc:`QGIS <../overview/qgis_overview>` graphical client.
   * Manage data from the ``pgAdmin`` client.
 
 
@@ -137,8 +137,22 @@ Next, add PostGIS extension:
 
  demo=# create extension postgis;
 
+ 
+To verify you have postgis now installed, run the following query:
 
-To check this has worked, type ``\dt`` to list the
+::
+	
+	demo=# SELECT postgis_version();
+	
+	postgis_full_version
+	-----------------------------------------------------------
+	POSTGIS="2.2.2 r14797" GEOS="3.5.0-CAPI-1.9.0 r4090" ...
+	(1 row)
+
+	
+PostGIS installs many functions, a table, and several views
+
+Type ``\dt`` to list the
 tables in the database. You should see something like this:
 
 ::
@@ -150,7 +164,8 @@ tables in the database. You should see something like this:
    public | spatial_ref_sys  | table | user
   (1 row)
 
-That table is used by PostGIS. The ``spatial_ref_sys`` table stores information
+The ``spatial_ref_sys`` table is used by PostGIS for converting between different spatial reference systems. 
+The ``spatial_ref_sys`` table stores information
 on valid spatial reference systems, and we can use some SQL to have a quick look:
 
 ::
@@ -171,8 +186,43 @@ on valid spatial reference systems, and we can use some SQL to have a quick look
    4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
   (10 rows)
 
-This confirms we have a spatially-enabled database. The ``geometry_columns`` view has the 
-job of telling PostGIS which tables are spatially-enabled. This is the next step.
+This confirms we have a spatially-enabled database. 
+
+In addition to this table, you'll find several views created when you enable postgis in your database.
+
+Type ``\dv`` to list the
+views in the database. You should see something like this:
+
+::
+	
+	demo=# \dv
+									List of relations
+	 Schema |       Name        | Type |  Owner
+	--------+-------------------+------+----------
+	 public | geography_columns | view | postgres
+	 public | geometry_columns  | view | postgres
+	 public | raster_columns    | view | postgres
+	 public | raster_overviews  | view | postgres
+	(4 rows)
+
+PostGIS supports several spatial data types:
+
+	`geometry` - is a data type that stores data as vectors drawn on a flat surface
+	
+	`geography` - is a data type that stores data as vectors drawn on a spheroidal surface
+	
+	`raster` - is a data type that stores data as an n-dimensional matrix where each position (pixel) represents 
+		an area of space, and each band (dimension) has a value for each pixel space.
+		
+The ``geometry_columns``, ``geography_columns``, and ``raster_columns`` views have the 
+job of telling PostGIS which tables have PostGIS geometry, geography, and raster columns.
+
+Overviews are lower resolution tables for raster data. 
+The ``raster_overviews`` lists such tables and their raster column and the table each is an overview for.
+Raster overview tables are used by tools such as QGIS to provide lower resolution versions of raster data for faster loading.
+
+PostGIS geometry type is the first and still most popular type used by PostGIS users.
+We'll be focussing our attention on that type.
 
 
 
@@ -189,7 +239,7 @@ one for the city name, and another for the geometry column:
 
   demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );
 
-Conventionally this geometry column is called
+Conventionally this geometry column is named
 ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry
 each feature has (points, lines, polygons etc), how many dimensions
 (in this case, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
@@ -481,6 +531,11 @@ Here are some additional challenges for you to try:
 #. Export your tables to shapefiles with ``pgsql2shp`` on the command line.
 
 #. Try ``ogr2ogr`` on the command line to import/export data to your database.
+
+#. Try to import data with ``shp2pgsql`` on the command line to your database.
+
+#. Try to do road routing using :doc:`pgrouting_overview`.
+
 
 
 What Next?
