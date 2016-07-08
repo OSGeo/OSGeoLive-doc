@@ -1,6 +1,6 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer: 
-:Version: osgeo-live9.0
+:Reviewer:
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -16,9 +16,9 @@
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Der 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
-erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein 
-Sensor kann dabei z.B. eine Wetterstation, ein Pegel an einem Fluss oder eine 
+Der 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`
+erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein
+Sensor kann dabei z.B. eine Wetterstation, ein Pegel an einem Fluss oder eine
 Station zur Messung der Luftqualität sein.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
@@ -30,35 +30,35 @@ Station zur Messung der Luftqualität sein.
 Funktionalität
 -------------------------------------------------------------------------------
 
-* **Browser-Anwendung**: Der SOS wird zusammen mit einer Browser-basierten 
+* **Browser-Anwendung**: Der SOS wird zusammen mit einer Browser-basierten
   Anwendung ausgeliefert. Diese ermöglicht die Administration und Konfiguration
-  der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen; 
+  der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen;
   entsprechende Beispiel-Anfragen sind enthalten.
 * **JavaScript-Anwendung**: Der SOS beinhaltet eine JavaScript-Anwendung
-  zur Darstellung von Zeitreihen-Daten. Mit dessen Hilfe können Zeitreihen ohne 
+  zur Darstellung von Zeitreihen-Daten. Mit dessen Hilfe können Zeitreihen ohne
   zusätzliche Software visualisiert werden.
 * **Spezifikation**: Der vorliegende 52°North SOS implementiert die aktuelle Spezifikationsversion
-  (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die 
+  (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die
   beiden Standard-Versionen die jeweils implementierten Operationen aufgelistet.
-* **INSPIRE-Download-Dienst-Erweiterung**: Ab Version 4.2.0 steht eine 
+* **INSPIRE-Download-Dienst-Erweiterung**: Ab Version 4.2.0 steht eine
   Erweiterung zur Verfügung, die es erlaubt den SOS als INSPIRE-Download-Dienst
-  zu verwenden. Hintergrundinformationen stehen in einem `Blogpost 
-  <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_ 
-  und im `Wiki 
-  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ 
+  zu verwenden. Hintergrundinformationen stehen in einem `Blogpost
+  <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
+  und im `Wiki
+  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_
   zur Verfügung.
-* **Air-Quality-Data-e-Reporting-Erweiterung**: Ab Version 4.3.0 steht eine 
+* **Air-Quality-Data-e-Reporting-Erweiterung**: Ab Version 4.3.0 steht eine
   Erweiterung zur Verfügung, die es erlaubt für die Air-Quality-Data-Flows E1a,
-  E1b und E2a konforme Daten zu liefern (die Instanz auf OSGeo-Live ist nicht 
-  entsprechend konfiguriert). Im 52°North Wiki ist die 
+  E1b und E2a konforme Daten zu liefern (die Instanz auf OSGeo-Live ist nicht
+  entsprechend konfiguriert). Im 52°North Wiki ist die
   `Installation und Konfiguration
-  <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ 
+  <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_
   dokumentiert.
 * **REST-Schnittstelle für Zeitreihen**: Ab Version 4.1.1. steht eine
-  Bundle-Version des SOS zur Verfügung, die direkt die 
-  `REST Schnittstelle <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_ 
-  mitliefert. Dadurch können Zeitreihen über eine REST basierte Schnittstelle im 
-  JSON-Format abgerufen werden. Mehr Details inkl. Dokumentation in der 
+  Bundle-Version des SOS zur Verfügung, die direkt die
+  `REST Schnittstelle <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_
+  mitliefert. Dadurch können Zeitreihen über eine REST basierte Schnittstelle im
+  JSON-Format abgerufen werden. Mehr Details inkl. Dokumentation in der
   `SOS-Web-Anwendung <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
 * **Weitere Informationen**: Die aktuelle Übersicht über die `Details der implementierten Funktionalitäten
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
@@ -71,37 +71,37 @@ OGC SOS 2.0.0
 **Operationen des “SOS Core Profiles“**:
 
 * GetCapabilities, zum Abrufen einer Selbstbeschreibung des Dienstes.
-* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC 
+* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC
   Observations & Measurements (O&M) Spezifikation.
-* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend 
+* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend
   der OGC Sensor Model Language (SensorML) Spezifikation.
 
 **Operationen des “SOS Enhanced Profiles”**:
 
-* GetFeatureOfInterest, zum Abfragen der Geometrien von Mess-Standorten (z.B. 
-  Sensorstandorten), kodiert ensprechend der OGC Geography Markup Language 
+* GetFeatureOfInterest, zum Abfragen der Geometrien von Mess-Standorten (z.B.
+  Sensorstandorten), kodiert ensprechend der OGC Geography Markup Language
   (GML) Spezifikation.
 * GetObservationById, zum gezielten Abfragen bestimmter, einzelner Messungen.
 
 **Operationen des “SOS Result Handling Profiles”**:
 
-* InsertResultTemplate, zum Einfügen einer Beschreibung der Struktur von 
-  Messungen eines Sensors (z.B. grundlegende Metadaten, Felder des 
+* InsertResultTemplate, zum Einfügen einer Beschreibung der Struktur von
+  Messungen eines Sensors (z.B. grundlegende Metadaten, Felder des
   Messergebnisses).
-* InsertResult, zum Einfügen von Messdaten unter Nutzung einer vorher 
-  eingefügten Struktur-Beschreibung (d.h. grundlegende Metadaten müssen erneut 
-  eingefügt werden, sondern können aus der Struktur-Beschreibung entnommen 
+* InsertResult, zum Einfügen von Messdaten unter Nutzung einer vorher
+  eingefügten Struktur-Beschreibung (d.h. grundlegende Metadaten müssen erneut
+  eingefügt werden, sondern können aus der Struktur-Beschreibung entnommen
   werden).
 * GetResultTemplate, zum Abfragen von einer Messdaten-Struktur-Vorlage.
-* GetResult, zum Abfragen von Messdaten mit reduzierter Metadatenmenge (die 
+* GetResult, zum Abfragen von Messdaten mit reduzierter Metadatenmenge (die
   Metadaten sind in diesem Fall in der Antwort auf die GetResultTemplate-Anfrage
   enthalten).
 
 **Operationen des “SOS Transactional Profiles”**:
 
-* InsertSensor, zum Einfügen neuer Sensoren (d.h. zum Registrieren ihrer 
+* InsertSensor, zum Einfügen neuer Sensoren (d.h. zum Registrieren ihrer
   Metadaten) in einer SOS-Instanz.
-* InsertObservation, zum Einfügen neuer Messdaten, welche durch zuvor 
+* InsertObservation, zum Einfügen neuer Messdaten, welche durch zuvor
   registrierte Sensoren geliefert werden.
 * UpdateSensorDescription, zum Aktualisieren von bestehenden Sensorbeschreibungen.
 * DeleteSensor, zum Entfernen von Sensoren inkl. aller Messdaten und zugehörigen
@@ -109,14 +109,14 @@ OGC SOS 2.0.0
 
 **Operation “Data Availability”**:
 
-* GetDataAvailability, zum Abfragen von Datenverfügbarkeit für verschiedene 
-  Konstellationen von Abfrageparametern (spezifiziert in `SOS 2.0 Hydrology 
-  Profile - OGC Best Practice 
+* GetDataAvailability, zum Abfragen von Datenverfügbarkeit für verschiedene
+  Konstellationen von Abfrageparametern (spezifiziert in `SOS 2.0 Hydrology
+  Profile - OGC Best Practice
   <http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_).
 
 **Operation “Delete Observation”**:
 
-* DeleteObservation, zum Löschen von Messdaten via Messdaten-Identifier (kein 
+* DeleteObservation, zum Löschen von Messdaten via Messdaten-Identifier (kein
   Teil der SOS 2.0 Spezifikation).
 
 
@@ -133,16 +133,16 @@ OGC SOS 1.0.0
 **Operationen des “SOS Core Profiles”**:
 
 * GetCapabilities, zum Abrufen einer Selbstbeschreibung des Dienstes.
-* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC 
+* GetObservation, zum Abfragen von Messdaten, kodiert entsprechend der OGC
   Observations & Measurements (O&M) Spezifikation.
-* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend 
+* DescribeSensor, zum Abfragen von Sensorbeschreibungen, kodiert entsprechend
   der OGC Sensor Model Language (SensorML) Spezifikation.
 
 **Operationen des “SOS Enhanced Profiles”**:
 
 * GetObservationById, zum gezielten Abfragen bestimmter, einzelner Messungen.
-* GetFeatureOfInterest, zum Abfragen der Geometrien von Mess-Standorten (z.B. 
-  Sensorstandorten), kodiert ensprechend der OGC Geography Markup Language 
+* GetFeatureOfInterest, zum Abfragen der Geometrien von Mess-Standorten (z.B.
+  Sensorstandorten), kodiert ensprechend der OGC Geography Markup Language
   (GML) Spezifikation.
 
 
