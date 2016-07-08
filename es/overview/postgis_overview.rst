@@ -8,11 +8,12 @@
    Metadatos sobre este documento
 
 :Author: OSGeo Live
+:Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Lucía Sanjaime
 :Translator: Roberto Antolín
-:Version: osgeo-live6.5
-:Licence: Creative Commons
+:Version: osgeo-live7.9
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
 .. Consejo para redactar:
@@ -27,7 +28,7 @@
 .. image:: ../../images/project_logos/logo-PostGIS.png
   :alt: project logo
   :align: right
-  :target: http://postgis.refractions.net/
+  :target: http://postgis.net/
 
 .. Consejo para redactar:
    Incluya un logo de OSGeo si el proyecto es un proyecto de OSGeo o si está en incubación.
@@ -35,7 +36,7 @@
    .. image:: images/logos/OSGeo_incubation.png
    .. image:: images/logos/OSGeo_project.png
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -84,8 +85,8 @@ crear visualizar y manipular tablas espaciales PostGIS.
    y se podrá datar.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
-  :scale: 55 %
-  :alt: project logo
+  :scale: 70 %
+  :alt: pgAdmin database manager
   :align: right
 
 Características principales
@@ -93,32 +94,32 @@ Características principales
 
 * Cientos de funciones espaciales
   
-  * Buffers, uniones, overlays, distancia, etc.
+  * Áreas de influencia, uniones, superposiciones, distancia, etc.
 
-* Integridad transaccional ACID 
-* Índice espacial R-Tree
-* Soporte multiusuario
-* Bloqueo a nivel de fila
-* Replicación
-* Particionado
-* Seguridad basada en roles
-* Table-spaces, esquemas
+* Integridad transaccional ACID. 
+* Índice espacial R-Tree.
+* Soporte multiusuario.
+* Bloqueo a nivel de fila.
+* Replicación.
+* Particionado.
+* Seguridad basada en roles.
+* Table-spaces, esquemas.
 
 Estándares implementados
 --------------------------------------------------------------------------------
 
 .. Consejo para redactar: Lista los estándares OGC o relacionados que estén soportados.
 
-* Compatible con los estándares OGC (SFSQL)
+* Compatible con los estándares OGC (SFSQL).
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio Web:** http://postgis.refractions.net/
+**Sitio Web:** http://postgis.net
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión del software:** 2.1.3
+**Versión del software:** 2.2.1
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

@@ -36,13 +36,16 @@ Caratteristiche principali
   :align: right
 
 * Carica dati da file di testo, file gpx, file kml/kmz, o direttamente da un ricevitore GPS
-* Mappa zoomabile da OpenStreetMap o o qualsiasi server compatibile (OpenCycleMap, CloudMade ecc)
+* Mappa zoomabile da OpenStreetMap o o qualsiasi server compatibile (OpenCycleMap, Reit- und Wanderkarte ecc)
 * Profili dell'altitudine o della velocità
 * Strumenti per editing: eliminare, invertire e comprimete tracce
-* Vista interattiva 3d dei dati, o esportazione al formato POV per rappresentazioni 3D
+* Vista interattiva 3d dei dati, o esportazione al formato POV per rappresentazioni 3D,
+  entrambi includendo la mappa rappresentata sul terreno
 * Salva dati in file di testo, file gpx, file kml/kmz, o direttamente da un ricevitore GPS
 * Correlazione automatica di fotografie e file audio con i dati caricati utilizzando il timestamps
 * Creazione di grafici come altitudine in relazione alla distanza, oppure velocità in relazione al tempo
+* Distanze, salita, discesa, tempi stimati e molto altro
+* Risorse online tipo wikipedia, gps e previsioni meteo locali
 
 Dettagli
 --------------------------------------------------------------------------------
@@ -51,7 +54,7 @@ Dettagli
 
 **Licenza:** GNU General Public License (GPL) version 2
 
-**Versione Software:** 15.1
+**Versione Software:** 17.2
 
 **Piattaforme Supportate:** GNU/Linux, Mac OSX, Windows
 

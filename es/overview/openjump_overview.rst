@@ -1,8 +1,7 @@
 :Author: OSGeo-Live
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _openjump-overview-es:
 
 .. image:: ../../images/project_logos/logo-openjump.png
   :alt: project logo
@@ -16,6 +15,7 @@ SIG de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 OpenJUMP es un SIG de escritorio poderoso y fácil de usar que permite a los usuarios editar, analizar, combinar, guardar y visualizar datos geográficos.
+Tiene una versión CORE y una versión PLUS, teneiendo la última añadidos montones de complementos útiles.
 Tambíen es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
 
 .. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
@@ -28,32 +28,35 @@ Características Principales
 
 * Formatos
 
-    * lee (ficheros): GML, SHP, JML, DXF+, CSV+, OSM*, MIF* & TIFF, JPG, MrSID*, ECW+, JPeg2000+
-    * lee (DB): PostGIS, ArcSDE*, Oracle* and MySQL*, SpatiaLite
-    * guarda en: GML, SHP, PostGIS, JML, CSV+, DXF+ & JPG
-    * es compatible con: OGC WMS & GML 2, SLD
-    * Los ficheros marcados con (*) necesitan instalar un nuevo plugin (+ in PLUS EDITION)
+    * lee (ficheros): GML, SHP, DXF+, , MIF*, CSV+, KML+, OSM* & TIFF,ASCII grid, JPG,PNG, JPEG2000+, MrSID*, ECW+.
+    * lee (DB): PostGIS, ArcSDE*, Oracle*, MySQL*, SpatiaLite+, H2 Spatial+, MariaDB+.
+	* lee (estándares OGC): WKT, WMS, KML+, GeoPackage.
+    * guarda en: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+.
+    * Los ficheros marcados con (*) necesitan instalar un nuevo plugin; los marcados con (+) son parte de la versión PLUS.
 
-* Editando y Combinando
+* Editción y Combinando
 
-    * dibujando puntos, líneas, polígonos, círculos
-    * añadiendo, desplazando, y borrando vértices
-    * rotando, escalando, y autocompletando polígonos
-    * cortar, juntar, simplificar polígonos y líneas
-    * ajustar, herramientas para asegurar la calidad de los datos*
+    * dibujo de puntos, líneas, polígonos, multi-geometrías, colecciones de geometrías y círculos (con posibilidad de mezclarlos en una sola capa).
+    * añaddir, desplazar, y borranr vértices.
+    * rotar, escalar, y autocompletar polígonos.
+    * cortar, juntar, simplificar polígonos y líneas.
+    * ajustar, herramientas para asegurar la calidad de los datos.
+	* conversiones de coordenadas entre CRS.
 
 * (Vector) Análisis y Consulta
 
-    * funciones de consulta espacial y por atributos
-    * cálculo de: longitud, área, centroid, área de influencia, envolvente mínima, ...
-    * Herramientas de topología: nodos en una línea, dibujar polígono, gráfico en el mismo plano,...
-    * attribute transfer tools (1:1 transfer, or n:1 transfer)
-    * raster analysis via SEXTANTE connector
+    * funciones de consulta espacial y por atributos.
+	* análisis: zonas de influencia, unión, superposición, centroides, envolvente convexa, ...
+    * estadísticas: longitud, área, estadísticas de capa, estadísticas de atributos, gráficos, ...
+	* Herramientas de edición: conversión, edición de nodos, dibujar polígono, gráfico en el mismo plano, limpieza de topología en la versión PLUS, ...
+    * herramienas de transferencia de atributos ( transferencia 1:1 transfer, o n:1).
+    * análisis raster con la caja de herramientas SEXTANTE incluida en la versión PLUS.
 
 * Personalización
 
-    * Proporciona un API, scripts via BeanShell y Java Python
-    * (Java) plugin-system
+    * Internacionalización (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh).
+	* Proporciona un API, scripts via BeanShell y Java Python/Ython.
+    * sistema de plugins (Java).
    
 
 Estándares con los que con cumple
@@ -61,25 +64,27 @@ Estándares con los que con cumple
 
 .. Writing Tip: List OGC or related standards supported.
 
-* Estándares OGC: GML 2, SFS, WMS, SLD
+* Estándares OGC: ML2, SFS, WMS, KML, SLD, GeoPackage (lectura);
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://www.openjump.org
+**Página web:** http://www.openjump.org
 
 **Licencia:** GPL
 
-**Versión del Software:** 1.7.1
+**Versión del Software:** 1.9.0
 
 **Plataformas en las que corre:** Windows, Linux, Mac, Unix
 
 **Comunidad dispuesta a ayudar:** http://www.openjump.org/support.html
 
-**Soporte comercial:** http://sourceforge.net/apps/mediawiki/jump-pilot/index.php?title=Professional_Support_Page
+**Soporte comercial:** http://ojwiki.soldin.de/index.php?title=Professional_Support_Page
 
-Guía rápida
+**Página de descarga:** http://sourceforge.net/projects/jump-pilot/files/ 
+
+Guía de inicio rápido
 --------------------------------------------------------------------------------
     
-* `Guía rápida <../quickstart/openjump_quickstart.html>`_
+* `Guía de inicio rápido <../quickstart/openjump_quickstart.html>`_
 

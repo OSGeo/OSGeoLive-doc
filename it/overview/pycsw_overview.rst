@@ -2,7 +2,7 @@
 :Author: Tom Kralidis, Angelos Tzotsos
 :Translator: Margherita Di Leo
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0-draft
+:Version: osgeo-live8.5-draft
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pycsw.png
@@ -10,9 +10,9 @@
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -88,7 +88,7 @@ Dettagli
 
 **Licenza:** `MIT`_
 
-**Versione software:** 1.10.0
+**Versione software:** 1.10.1
 
 **Piattaforme supportate:** Windows, Linux, Mac
 

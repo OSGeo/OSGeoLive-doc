@@ -1,8 +1,7 @@
 :Author: Hamish Bowman
-:Version: osgeo-live4.0
-:License: Creative Commons
-
-.. _gpsdrive-overview-ja:
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live7.0
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gpsdrive.png
   :alt: project logo
@@ -60,6 +59,6 @@ GPS ナビソフト
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート <../quickstart/gpsdrive_quickstart.html>`_
+* :doc:`クイックスタート文書 <../quickstart/gpsdrive_quickstart>`
 
 

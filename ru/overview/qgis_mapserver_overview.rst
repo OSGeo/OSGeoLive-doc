@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -25,7 +25,7 @@ QGIS Server реализует WMS-сервис, используя те же б
 QGIS Server обычно работает как CGI/FastCGI модуль веб-сервера Apache.
 
 .. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
-  :scale: 40 %
+  :scale: 50 %
   :alt: снимок экрана QGIS Mapserver
   :align: right
 
@@ -33,7 +33,8 @@ QGIS Server обычно работает как CGI/FastCGI модуль веб
 Базовые функции
 --------------------------------------------------------------------------------
 
-* Реализация WMS
+* WMS — изображения
+* Web Feature Service (WFS) — векторные данные
 * Встроенный генератор PDF
 * Создание карт в QGIS в стиле WYSIWYG 
 * Расширенная картографическая символика
@@ -42,7 +43,9 @@ QGIS Server обычно работает как CGI/FastCGI модуль веб
 Реализованные стандарты
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.3.0
+* OGC Web Map Service (WMS) 1.1.1 and 1.3.0
+* OGC Web Feature Service (WFS) 1.0.0 and Transactional WFS (WFS-T) 1.0.0
+* OGC Web Coverage Service (WCS)
 * OGC Styled Layer Descriptor (SLD) 1.0
 
 Дополнительная информация
@@ -52,7 +55,7 @@ QGIS Server обычно работает как CGI/FastCGI модуль веб
 
 **Лицензия:** `GPL версия 2 <http://www.gnu.org/licenses/gpl-2.0.html>`_
 
-**Версия ПО:** 1.8.0
+**Версия ПО:** 2.6.1
 
 **Поддерживаемые платформы:** Windows, Linux
 

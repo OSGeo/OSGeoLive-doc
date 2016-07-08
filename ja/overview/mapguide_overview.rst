@@ -1,8 +1,7 @@
-:Author: Huawei Luo and Trevor Wekel
-:Version: osgeo-live4.0
+:Author: Trevor Wekel
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _mapguide-overview-ja:
 
 .. image:: ../../images/project_logos/logo-MapGuideOS.png
   :alt: project logo
@@ -31,6 +30,12 @@ MapGuideはLinux または Windows上で動作し、Apache および IISウェ�
   :scale: 50%
   :alt: screenshot
   :align: right
+
+.. note:: Due to space constraints, MapGuide is currently
+  not installed on OSGeo-Live.
+
+.. commented out as manual install doesn't currently work: To install
+  it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``
 
 代表的な機能
 --------------------------------------------------------------------------------
@@ -97,7 +102,7 @@ MapGuideはLinux または Windows上で動作し、Apache および IISウェ�
 
 **ライセンス:** GNU Lesser General Public License (LGPL) 
 
-**ソフトウェアバージョン:** 2.2.0
+**ソフトウェアバージョン:** 2.4.0 Pre-Release
 
 **対応プラットフォーム:** Linux, Windows
 
@@ -107,7 +112,6 @@ MapGuideはLinux または Windows上で動作し、Apache および IISウェ�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `クイックスタート ドキュメント <../quickstart/mapguide_quickstart.html>`_
-
+* :doc:`クイックスタート文書 <../quickstart/mapguide_quickstart>`
 
 

@@ -53,7 +53,7 @@ Details
 
 **Licence:** Apache 2.0 license
 
-**Software Version:** 1.4
+**Software Version:** 1.18
 
 **Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL
 

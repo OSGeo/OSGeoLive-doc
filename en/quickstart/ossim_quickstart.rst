@@ -29,10 +29,10 @@ Imagelinker
 * Start Imagelinker from its icon from the "Spatial Tools" folder on
   the desktop 
 
-* Open an image file, using :menuselection:`File --> Open Image --> /home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif`
+* Open an image file, using :menuselection:`File --> Open Image --> /home/user/data/landsat/clip10.tif`
 
-* Repeat the previous operation for the files : `lsat7_2002_20.tif`
-  and `lsat7_2002_30.tif`
+* Repeat the previous operation for the files : `clip20.tif`
+  and `clip30.tif`
 
   .. image:: ../../images/screenshots/1024x768/ossim_imagelinker3.jpg
      :scale: 60 %
@@ -56,11 +56,6 @@ Imagelinker
   move along the road, and then the :guilabel:`Propagate` button to align the
   other windows. 
 
-A more in depth tutorial covering merging bands into an RGB composite
-is `available online`_.
-
-.. _`available online`: http://www.geofemengineering.it/GeofemEngineering/Blog/Voci/2010/3/15_OSGEO_-_Live_-_DVD_-_%22running_imagelinker%22.html
-
 
 OssimPlanet
 ================================================================================
@@ -68,11 +63,11 @@ OssimPlanet
 * Launch OssimPlanet from its icon in the "Desktop GIS" folder on the
   desktop 
 
-* Select :menuselection:`File --> Open Image --> /home/user/data/raster/meris/mosaic_MER...RGB_reduced/mosaic_ENVISAT-MER...RGB_reduced.tif`
+* Select :menuselection:`File --> Open Image --> /home/user/data/landsat/clip10.tif`
   to load a LANDSAT image (or simply drag and drop the image into the main window).
 
 * In the `Layer` tree panel on the left side, click on the small triangle to
-  the left of *Image Layers* to expand it. Next double-click on ``mosaic_ENVISAT-MER_FRS...``.
+  the left of *Image Layers* to expand it. Next double-click on ``clip10``.
   You should now see the scene zoom to the image's location.
 
 .. note:: To turn off the daylight auto-shading, `un`-check :menuselection:`File --> Preferences --> Environment --> Enable Ephemeris`
@@ -81,9 +76,7 @@ OssimPlanet
   mouse button pans; dragging the middle mouse button rolls; and dragging
   the right mouse button zooms in and out.
 
-.. commented * Try loading the supplied North Carolina LANDSAT image
-  from ``/home/user/data/north_carolina/rast_geotiff/lsat7_2002_10.tif``.
-  Again, double click on it's name from the Layer tree panel to zoom over to it.
+.. commented * Try follow the Imagelinker tutorial, generate an RGB image from the original  single band images and load the result in ossimplanet.
 
 * If you get lost, double clicking on the Blue Marble image in the Layer
   tree will zoom back out to a view of the whole planet, resetting the view.
@@ -95,7 +88,8 @@ What Next?
 * We have prepared a number of tutorials_ demonstrating more of
   Ossim's capabilities.
 
-.. _tutorials: http://download.osgeo.org/ossim/tutorials/pdfs/
+.. _tutorials: http://download.osgeo.org/ossim/docs/pdfs/
+
 
 * See also the included documentation_ on this Live DVD.
 

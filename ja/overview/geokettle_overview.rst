@@ -1,6 +1,6 @@
 :Author: Thierry Badard 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5draft
+:Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-geokettle.png
@@ -85,7 +85,7 @@ GeoKettle はソースからデータを抽出し、誤り修正のために変�
 準拠している標準規格
 --------------------------------------------------------------------------------
 
-* OGC 標準 (SFS, CSW, SOS)
+* OGC 標準 (SFS, WFS-T, WPS, CSW, SOS, GML, KML)
 
 詳細
 --------------------------------------------------------------------------------
@@ -98,7 +98,7 @@ GeoKettle はソースからデータを抽出し、誤り修正のために変�
 
 **動作環境:** Windows, Linux, Mac, Solaris
 
-**API:** Java, Javascript
+**API インターフェース:** Java, Javascript
 
 **サポート:** http://www.spatialytics.org & http://www.spatialytics.com
 
@@ -106,4 +106,4 @@ GeoKettle はソースからデータを抽出し、誤り修正のために変�
 クイックスタート
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/geokettle_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/geokettle_quickstart>`

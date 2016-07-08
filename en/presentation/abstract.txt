@@ -1,7 +1,7 @@
 This is a suggested abstract for inclusion within a conference program. You are welcome to customise as you see fit.
 
 The abstract, slides and script are maintained at:
-https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/en/presentation
+https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation
 
 The latest stable version of the slides can be viewed at:
 http:///livedvd/docs/en/presentation/

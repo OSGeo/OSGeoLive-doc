@@ -7,8 +7,10 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
 TMP           = /tmp/osgeolive_make
-TRANSLATIONS  = ca de el es id it fr ja ko pl ru zh
-LANGUAGES     = en $(TRANSLATIONS)
+#LANGUAGES     = ca de el en es hu id it fr ja ko pl ru zh
+#TRANSLATIONS  = ca de el es hu id it fr ja ko pl ru zh
+LANGUAGES     = $(shell ls -d [a-z][a-z])
+TRANSLATIONS  = $(shell echo $(LANGUAGES) | sed -e "s/en //")
 PDF_LANG      = en
 START_DIR     = $(shell pwd)
 
@@ -36,7 +38,12 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	-rm licenses.csv index.rst
+	if [ -e licenses.csv ] ; then \
+	  rm -f licenses.csv ; \
+	fi ; \
+	if [ -e index.rst ] ; then \
+	  rm -f index.rst ; \
+	fi ; \
 	# remove symbolic linked files
 	rm -f `find ./*/ -type l -print`
 
@@ -44,6 +51,7 @@ link_to_en_docs:
 	# For quickstart, standards and overview docs which have not been
 	# translated, link to english doc
 	for LANG in $(TRANSLATIONS) ; do \
+	  mkdir -p $$LANG/overview $$LANG/quickstart $$LANG/standards ; \
 	  for DOC in en/overview/* en/quickstart/* en/standards/* ; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../../#"` ; \
@@ -72,6 +80,7 @@ sphinxbuild: link_to_en_docs licenses.csv
 
 fix_header_links: sphinxbuild
 	# Correct relative links for the headers for the top level directory
+	rm -fr $(TMP)
 	for FILE in $(BUILDDIR)/html/*/*.html ; do \
 	  for ITEM in \
 	    contact.html \
@@ -118,6 +127,7 @@ win_installer_links: sphinxbuild
 	fi
 
 banner_links: sphinxbuild
+	rm -fr $(TMP)
 	# Copy the banner to the _images directory
 	cp images/banner.png $(BUILDDIR)/html/_images/banner.png
 	# Correct relative links to banner in top pages
@@ -143,12 +153,24 @@ presentation:
 	  if [ -d $$LANG/presentation ] ; then \
 	    bin/make_presentation.sh $$LANG/presentation $(BUILDDIR)/html/$$LANG/presentation ; \
 	  else  \
-	    rm -f $(BUILDDIR)/html/$$LANG/presentation; \
+	    rm -rf $(BUILDDIR)/html/$$LANG/presentation; \
 	    ln -s ../en/presentation $(BUILDDIR)/html/$$LANG/presentation; \
 	  fi; \
 	done; \
 
-html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs link_to_en_docs presentation
+html: fix_index sphinxbuild fix_header_links banner_links win_installer_links css link_to_en_docs presentation
+
+# Just build the English documentation
+# Use this to quickly check new English documentation
+small: fix_index
+	rm -fr $(TMP)
+	mkdir -p $(TMP)
+	ln -s $(START_DIR)/*.css $(START_DIR)/images $(START_DIR)/*.py $(START_DIR)/index.rst $(START_DIR)/en $(START_DIR)/*.txt $(START_DIR)/*.csv $(START_DIR)/themes $(TMP)
+	cd $(TMP) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	rm -fr _build
+	mv $(TMP)/_build .
+	cp osgeolive.css $(BUILDDIR)/html/
+	rm -fr $(TMP)
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml

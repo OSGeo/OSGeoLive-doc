@@ -1,4 +1,6 @@
-:Author: Jorge Sanz 
+:Author: Jorge Sanz
+:Author: Manuel Madrid
+:Author: Mario Carrera 
 :Reviewer: Cameron Shorter, LISAsoft
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -6,9 +8,9 @@
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
-  :target: http://www.gvsig.org/
+  :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -82,6 +84,8 @@ Kernelemente
   * Filter, Vektorisierung
   * Pyramidengenerierung und Management von ROI (region of interest)
 
+* 3D Ansicht
+
 * weitere Features
   * Scripting Support (Jython)
   * Leistungsstarker Mechanismus zur Umprojizierung durch PROJ4
@@ -90,6 +94,9 @@ Kernelemente
   * Diagramme
   * Erweiterte Werkzeuge zur Symbolerstellung
   * Erweiterte Werkzeuge zur Beschriftungserstellung
+  * Erweiterung zur Veröffentlichung
+  * Portable Ansichten
+  * Angepasste Ausgaben
 
 
 Implementierte Standards
@@ -106,7 +113,7 @@ Zahlreiche Open Geospatial Consortium (OGC) Standards werden durch das DesktopGI
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.gvsig.org/
+**Webseite:** http://www.gvsig.com/
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
@@ -114,10 +121,10 @@ Details
 
 **Unterstützte Plattformen:** Windows, Linux
 
-**Support:** http://www.gvsig.org/web/organization/services
+**Support:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists
 
 
-.. _gvSIG: http://www.gvsig.org
+.. _gvSIG: http://www.gvsig.com
 
 Quickstart
 --------------------------------------------------------------------------------

@@ -55,7 +55,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 2.6.1
+**Software Version:** 2.14.0
 
 **Unterstützte Plattformen:** Windows, Linux
 

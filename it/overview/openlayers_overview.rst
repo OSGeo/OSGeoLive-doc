@@ -4,7 +4,7 @@
 :Author: Antonio Santiago
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Luca Delucchi
-:Version: osgeo-live8.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
@@ -83,7 +83,7 @@ Dettagli
 
 **Licenza:** 2-clause BSD License (aka FreeBSD License)
 
-**Versione Software:** 3.0.0
+**Versione Software:** 3.13.1
 
 **Interfaccia API:** JavaScript
 

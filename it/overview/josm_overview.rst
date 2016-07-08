@@ -80,8 +80,6 @@ Dettagli
 
 **Interfacce API:** Java
 
-**Supporto:** http://www.osgeo.org/search_profile
-
 
 .. Quickstart
 .. --------------------------------------------------------------------------------

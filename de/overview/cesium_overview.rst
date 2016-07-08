@@ -55,7 +55,7 @@ Details
 
 **Lizenz:** Apache 2.0 Lizenz
 
-**Software Version:** 1.4
+**Software Version:** 1.18
 
 **Unterstützte Plattformen:** Plattform unabhängig, benötigt ledgiglich einen Browser mit WebGL Unterstützung
 

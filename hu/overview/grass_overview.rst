@@ -71,7 +71,7 @@ Részletek
 
 **Licenc:** GNU General Public License (GPL) version 2
 
-**Szoftver verzió:** 7.0.0
+**Szoftver verzió:** 7.0.3
 
 **Támogatott rendszerek:** GNU/Linux, Mac OSX, MS Windows
 

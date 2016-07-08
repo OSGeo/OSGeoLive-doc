@@ -10,6 +10,8 @@
 Начало работы с Ushahidi
 ================================================================================
 
+.. As sugestion to improve the quickstart: another point to descrbie main administrative functionality may be incluided
+
 В данном руководстве приведена информация о том как:
 
 * установить и запустить Ushahidi 
@@ -37,6 +39,11 @@
    Сейчас задайте просто что-то вроде **"ushahidi@localhost.localdomain"**
    или **"ushahidi@example.org"** и нажмите **"Continue"**.
 
+.. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+   :scale: 50 %
+   :alt: mapguide desktop icons
+   :align: center
+
    **Примечание:** Если Ushahidi выдаёт сообщение **"Oops! We couldn't make a 
    connection to the database server with the credentials given. Please make 
    sure they are correct."**, это означает, что у установочного скрипта не
@@ -56,17 +63,17 @@
    ему необходимые права:
    
    **"GRANT ALL PRIVILEGES ON ushahidi.* TO 'user'@'localhost' IDENTIFIED BY 'user';"**
+
+   Это действие должно создать пользователя **"user"** и пароль **"user"**.
    
-   Теперь можно вернуться в Веб-установщик и продолжить установку.
+   Теперь можно вернуться в веб-установщик к шагу 2 и обратить внимание на
+   детали.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
-  :scale: 50 %
-  :alt: mapguide desktop icons
-  :align: center
-
-3. После того как всё выполнится, появится сообщение о том, что установка
-   успешно завершена и появится ссылка 'View your website', по которой следует
-   перейти.
+3. Вас попросят указать в качестве логина адрес электронной почты, а также
+   пароль. Укажите в качестве логина **"admin@example.org"** и в качестве пароля
+   **"admin"** (введите его дважды). После того как всё выполнится, появится
+   сообщение о том, что установка успешно завершена и появится ссылка 'View your
+   website', по которой следует перейти.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
@@ -77,12 +84,17 @@
    войдите в систему, используя имя пользователя **"admin"** и пароль **"admin"**. 
    Например на странице настроек вы можете выбрать **"Settings"**
    (справа сверху), перейти во вкладку **"Map"** и изменить провайдер 
-   **"Map provider"** на OpenStreetMaps (для OSM не требуется API-ключ).
+   **"Map provider"** на OpenStreetMaps Cycling Map (для OSM не требуется API-ключ). Затем кликните на кнопке :guilabel:`SAVE SETTINGS` внизу страницы.
 
 .. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center
 
-Файл README с описанием процесса установки доступен локально по адресу
-`/var/www/ushahidi/readme.html <../../ushahidi/readme.html>`_.
+.. 
+	As sugestion to improve the quickstart: Back-end screenshots should be included, 
+	describing main functionality or administrative areas included. It is a great part of the application to
+	be described in the quickstart.
+		   
+
+Файл README с описанием процесса установки доступен локально: `/var/www/ushahidi/README.markdown <../../ushahidi/README.markdown>`_.

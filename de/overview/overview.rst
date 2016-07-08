@@ -34,7 +34,7 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Bibliothek
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] - Interactive Karten für mobile Geräte geeignet
-* :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 2D Karten und 3D Globen im Browser
+* :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 3D Globen und 2D Karten im Browser
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
@@ -54,6 +54,8 @@ Veröffentlichung von Geodaten im Netz:
 * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Katalog
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy für WMS und Tile-Dienste
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
+* :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
+* :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
@@ -72,9 +74,9 @@ Speicherung von räumlichen Daten:
 
 Navigation und Karten
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Anzeige, Bearbeitung und Konvertierung von GPS Tracks
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
+* :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Datenanalyse und -anzeige
@@ -84,7 +86,7 @@ Spezielle GIS Software
 Spezielle Anwendungen
 
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Kartographisches Rendering
-* :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/IPython_quickstart>`] - Vermischung von Medien in Präsentationen
+* :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/ipython_quickstart>`] - Vermischung von Medien in Präsentationen
 * :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Bildprozessierung
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Kartographisches Rendering
@@ -95,6 +97,7 @@ Spezielle Anwendungen
 
 GIS Werkzeuge
 --------------------------------------------------------------------------------
+Anwendungen mit besonderem Schwerpunkt
 
 * :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Katastrophenmanagement
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Kartendarstellung und Zeitachsen für Ereignisse
@@ -133,12 +136,12 @@ Nur unter Microsoft Windows verfügbar:
 
 Auf früheren OSGeo-Live Releases verfügbar:
 
-.. MapGuide wurde temporär deaktiviert um Platz zu sparen; 
-
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
+* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, nicht enthalten nach OSGeo-Live 5.0 (zum Sparen von Speicher)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, eingestellt nach der OSGeo-Live Version 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, eingestellt nach der OSGeo-Live Version 6.0
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach der OSGeo-Live Version 7.9
+* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
+* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, eingestellt nach OSGeo-Live 9.0
+
 
 Ausführbare Programme für Apple und Windows
 --------------------------------------------------------------------------------
@@ -147,7 +150,3 @@ Vorliegend auf dem vollständigen OSGeo-Live Image:
 * `Programme für Microsoft Windows <../../WindowsInstallers/>`_
 * `Programme für Apple OSX <../../MacInstallers/>`_
 
-Metrik
---------------------------------------------------------------------------------
-
-* :doc:`Projekt Metrik <../metrics>` auf Open HUB

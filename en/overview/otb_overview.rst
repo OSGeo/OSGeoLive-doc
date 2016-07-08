@@ -22,8 +22,9 @@ changes detection, texture analysis, pattern matching, and optic/radar
 complementarities), many of which can be run on limited-resourced laptops.
 
 OTB is also shipped with a set of extensible ready-to-use tools for classical
-remote sensing tasks and a fully integrated user interface called Monteverdi2
-which allows users to select OTB processing chains from a set of menus.
+remote sensing tasks and a fully integrated application called Monteverdi, which
+is a fast viewer that allows users to vizualise multiple layers, and call OTB
+processing tools from a menu entry.
 
 OTB has been funded the French Space Agency (CNES) in the frame of the
 Methodological Part of the ORFEO/Pleiades Accompaniement Program and has been
@@ -33,25 +34,26 @@ and is distributed as open source.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg
+.. image:: ../../images/screenshots/1024x768/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
 
-* image access: optimized read/write access for most remote sensing (including Jpeg2000 imagery through OpenJPEG)
-  image formats, meta-data access and visualization;
+* image access: optimized read/write access for most remote sensing raster
+  formats (also JPEG2000 formats), meta-data access and visualization;
 * orthorectification using DEM, map reprojection and sensor model refinement
-* calibration
+* optical and SAR calibration
 * image fusion
 * filtering: blurring, denoising, enhancement...
 * feature extraction: interest points, alignments, lines...
 * object detection
 * large scale image segmentation: region growing, mean-shift, watershed, level sets...
 * classification: K-means, Markov random fields, access to machine learning algorithms from OpenCV
+* regression using machine learning methods from OpenCV (SVM, Random Forest, ...)
 * object-based image analysis
 * geospatial analysis
 * stereoscopic reconstruction from optical images
-* SAR data analysis
+* SAR data analysis : calibration, polarimetry analysis
 * change detection.
 
 Details
@@ -62,7 +64,7 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 5.0.0
+**Software Version:** 5.2.0
 
 **Supported Platforms:** Linux, Mac, Windows
 

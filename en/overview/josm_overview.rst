@@ -20,7 +20,7 @@ JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap (OS
 It supports loading stand-alone GPX tracks and GPX track data as well as editing existing nodes (points), ways (lines), metadata tags (name/value information) and relations (ordered sequence of points and lines) from the OSM database.
 GPX tracks, are usually downloaded in advance from a GPS receiver or from other sources.
 
-A number of specialised plugins have been written for JSOM, which are available for download and install.
+A number of specialised plugins have been written for JOSM, which are available for download and install.
 
 .. image:: ../../images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
@@ -78,8 +78,6 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** Java
-
-**Support:** http://www.osgeo.org/search_profile
 
 
 .. Quickstart

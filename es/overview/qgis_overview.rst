@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Roberto Antolín
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -16,18 +17,16 @@
   :target: http://www.osgeo.org
 
 
-Quantum GIS (QGIS)
+QGIS
 ================================================================================
 
 SIG de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Quantum GIS (QGIS) es un cliente SIG de escritorio amigable de código abierto
-donde se puede visualizar, administrar, editar, analizar datos y componer mapas.
+Quantum GIS (QGIS) es un cliente SIG de escritorio amigable de código abierto donde se puede visualizar, administrar, editar, analizar datos y componer mapas.
 Incluye una potente funcionalidad de análisis mediante la integración con
-:doc:`GRASS <grass_overview>`. Funciona en Linux, Unix, Mac OSX y Windows,
-soporta numerosas funcionalidades y formatos vectoriales, raster y bases de
-datos.
+:doc:`GRASS <grass_overview>`. 
+Funciona en Linux, Unix, Mac OSX y Windows, soporta numerosas funcionalidades y formatos vectoriales, raster y bases de datos.
 
 .. image:: ../../images/screenshots/1024x768/qgis.png
   :scale: 50 %
@@ -50,11 +49,12 @@ Características principales
 
 * Fácil visualización de numerosos formatos vectoriales y raster
 
-    * tablas de bases de datos PostgreSQL/PostGIS
+    * tablas de bases de datos PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, SpatiaLite
     * mayor parte de los formatos vectoriales: incluyendo `shapefiles` de ESRI, MapInfo, SDTS y GML.
     * formatos raster como modelos digitales de elevación, fotografías aéreas o imágenes landsat,
     * GRASS `locations` y `mapsets`,
     * datos espaciales servidos en línea como los compatibles con los servicios estándar OGC: WMS o WFS;
+	* soporte para renderizado 2.5D.
 
 * Crear, editar y exportar datos espaciales usando:
 
@@ -62,12 +62,14 @@ Características principales
     * el complemento para la georeferenciación,
     * herramientas GPS para importar y exportar formato GPX, convertir otro formato GPS a GPX, o descargar/cargar directamente a una unidad GPS
 
-* Realizar análisis espacial usando los complementos de fTools o GRASS
+* Realizar análisis espacial usando los complementos integrados de SAGA, OTB, MMGIS, fTools y GRASS
 
     * álgebra de mapas,
     * análisis del terreno,
     * modelado hidrológico,
     * análisis de redes,
+	* caja de herramientas de funciones en la que se pueden hacer búsquedas,
+    * definir y ejecutar rutinas de análisis reutilizables encadenando funciones a través de una herramienta gráfica de modelado,
     * y muchos otros
 
 * Publicar en Internet
@@ -83,15 +85,15 @@ Detalles
 
 **Sitio Web:** http://www.qgis.org
 
-**Licencia:** GPL
+**Licencia:**  GNU General Public License (GPL) version 2
 
-**Versión del software:** 2.4.0
+**Versión del software:** 2.14.0
 
 **Plataformas soportadas:** Windows, Linux, Mac, Unix
 
-**Soporte de la comunidad:** http://qgis.org/en/community.html
+**Soporte de la comunidad:** http://qgis.org/en/site/forusers/support.html
 
-**Soporte comercial:** http://qgis.org/en/commercial-support.html
+**Soporte comercial:** http://qgis.org/en/site/forusers/commercial_support.html
 
 
 Guía de inicio rápido

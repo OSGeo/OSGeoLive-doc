@@ -1,14 +1,16 @@
-:Author: Jorge Sanz 
+:Author: Jorge Sanz
+:Author: Manuel Madrid
+:Author: Mario Carrera 
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
-  :target: http://www.gvsig.org/
+  :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -70,8 +72,24 @@ gvSIG は次のような点で知られています:
   * フィルタ、ベクタ化
   * 利害管理の概要と地域
 
-* スクリプトのサポート
-* PROJ4 を用いた強力な再投影エンジン
+* 3D View 
+
+* Other features: 
+
+  * Scripting support (for both vector and raster data)
+  * Powerful reprojection engine via PROJ4
+  * Import/export symbol sets
+  * Map sheets composer
+  * Charts
+  * Advanced symbology tools
+  * Advanced labelling tools 
+  * Publishing extension 
+  * Portable views 
+  * Customized distributions  
+
+..
+  * スクリプトのサポート
+  * PROJ4 を用いた強力な再投影エンジン
 
 
 実装している標準規格
@@ -88,20 +106,20 @@ gvSIG は次のような点で知られています:
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://www.gvsig.org/
+**ウェブサイト:** http://www.gvsig.com/
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
 **バージョン:** |version-gvsig|
 
-**動作環境:** Windows, Linux, Mac
+**動作環境:** Windows, Linux
 
-**サポート:** http://www.gvsig.org/web/organization/services
+**サポート:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists
 
 
-.. _gvSIG: http://www.gvsig.org
+.. _gvSIG: http://www.gvsig.com
 
 クイックスタート
 --------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`
+
+* :doc:`クイックスタート文書 <../quickstart/gvsig_quickstart>`

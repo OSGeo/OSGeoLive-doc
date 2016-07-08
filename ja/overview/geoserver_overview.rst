@@ -1,62 +1,25 @@
-.. Writing Tip:
-  Writing tips describe what content should be in the following section.
-
-.. Writing Tip:
-  Metadata about this document
-
 :Author: Ian Turton
-:Version: osgeo-live4.0
+:Author: Frank Gasdorf
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. Writing Tip:
-  The following becomes a HTML anchor for hyperlinking to this page
-
-.. _geoserver-overview-ja:
-
-.. Writing Tip: 
-  Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
-  and accessed here:
-    ../../images/project_logos/<filename>
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
   :target: http://geoserver.org/display/GEOS/Welcome
 
-.. Writing Tip: 
-  Include an OSGeo logo if the project is an OSGeo project、 or is in
-  incubation:
-  .. image:: ../../images/logos/OSGeo_incubation.png
-  .. image:: ../../images/logos/OSGeo_project.png
-
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
-
-
-.. Writing Tip: Name of application
+  :target: http://www.osgeo.org
 
 GeoServer
 ================================================================================
 
-.. Writing Tip:
-  Application Category Description:
-  * Spatial Database
-  * Web Service
-  * Metadata Web Service
-  * Desktop GIS
-  * Browser GIS client
-  * Business Intelligence
-  * GIS Tools
-  * ...
-
 Webサービス
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 GeoServer は、多彩な形式の地図とデータを Web ブラウザやデスクトップ GIS プログラム等の標準的なクライアントに配信する Web サーバです。ユーザーは GIS データについて全く知ることなく、ほとんど全ての `フォーマット <http://docs.geoserver.org/stable/en/user/data/index.html>`_ で空間データを保存することができます。地図をみるには Web ブラウザだけが必要となります。
 
@@ -65,7 +28,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 
 .. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %
-  :alt: GeoServerのスクリーンショット
+  :alt: Screen Shot of GeoServer
   :align: right
 
 主な機能
@@ -79,35 +42,39 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
         - GeoTiff、 JPG and PNG (ワールドファイル付き)、 image pyramid、 GDAL formats、 Image Mosaic、 Oracle GeoRaster
 
 **WMS プロトコルを利用して安全かつ迅速にデータ配信:**
-   データは画像の状態で保存し、完全に安全でセキュアに配信します。データを再入力しない限り、あなたのデータを盗み出すことはできないでしょう。
-   それぞれの地図のレイヤは SLD を用いて表示を変更できます。SLD 標準により地物の色やラベル表示を設定できます。これに、縮尺によって変化する OGC フィルターにを合わせると、ユーザーが拡大表示すると、より詳細を表示するような実装が可能です。ラベルの描画衝突の管理、グループ化、優先順位も実装されています。
+    データは画像の状態で保存し、完全に安全でセキュアに配信します。データを再入力しない限り、あなたのデータを盗み出すことはできないでしょう。
+    それぞれの地図のレイヤは SLD を用いて表示を変更できます。SLD 標準により地物の色やラベル表示を設定できます。これに、縮尺によって変化する OGC フィルターにを合わせると、ユーザーが拡大表示すると、より詳細を表示するような実装が可能です。ラベルの描画衝突の管理、グループ化、優先順位も実装されています。
 
 **WFS プロトコルを利用したクライアントへのベクタデータ送信:**
-   WFS クライアントは、ベクタデータをダウンロードして地図表示や空間解析等の用途に使用できます。さらにWFS-Tプロトコルを利用して、認証されたユーザがサーバのデータを編集、アップロードすることで更新できます。
-   shapefile や json のような標準規格同様に、データは圧縮した GML で送受信を行います。
+    WFS クライアントは、ベクタデータをダウンロードして地図表示や空間解析等の用途に使用できます。さらにWFS-Tプロトコルを利用して、認証されたユーザがサーバのデータを編集、アップロードすることで更新できます。
+    shapefile や json のような標準規格同様に、データは圧縮した GML で送受信を行います。
 
 **WCS プロトコルを利用したクライアントへのラスタデータ送信:**
-   GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザーが活用することができます。
+    GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザーが活用することができます。
 
 **オンザフライ投影変換:**
-   GeoServer は EPSG データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限され手いる場合にはサーバ側でその処理を行うこともできます。
+    GeoServer は EPSG データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限され手いる場合にはサーバ側でその処理を行うこともできます。
 
 **WMS タイルキャッシュ**
-   `GeoWebCache <http://geowebcache.org/>`_ は WMS タイリングクライアントです。これは地図クライアントと地図サーバーの間のプロキシサーバとして動作し要求に応じてタイルをキャッシュします。余分なリクエストをまとめて莫大なCPU時間を減少させます。GeoWebCache は GeoServer に統合されています。
+    `GeoWebCache <http://geowebcache.org/>`_ は WMS タイリングクライアントです。これは地図クライアントと地図サーバーの間のプロキシサーバとして動作し要求に応じてタイルをキャッシュします。余分なリクエストをまとめて莫大なCPU時間を減少させます。GeoWebCache は GeoServer に統合されています。
 
+**Web Processing Service (WPS)**
+    Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can be called through GeoServer's :doc:`WPS <../standards/wps_overview>` interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.
 
 準拠している標準規格
 --------------------------------------------------------------------------------
 
-
 * 多くの Open Geospatial Consortium (OGC) 標準をサポートしています:
 
   * :doc:`../standards/wms_overview`
-  * :doc:`../standards/wfs_overview`, WFS-T (transacional)
+  * Web Map Tile Service (WMTS)
+  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview`
   * :doc:`../standards/gml_overview`
+  * :doc:`../standards/kml_overview`
 
 詳細
 --------------------------------------------------------------------------------
@@ -118,16 +85,13 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 
 **バージョン:** |version-geoserver|
 
-**サポートするプラットフォーム:** All Java 1.5 platforms: - Windows、 Linux、 Mac
+**サポートするプラットフォーム:** クロスプラットフォーム Java 6 - Windows、 Linux、 Mac
 
-**API:** WMS、 WFS、 WCS、 REST
-
-
+**API インターフェース:** WMS、 WFS、 WCS、 REST
 
 **サポート:** http://geoserver.org/display/GEOS/Commercial+Support
 
 クイックスタート
 --------------------------------------------------------------------------------
-    
-* `Quickstart documentation <../quickstart/geoserver_quickstart.html>`_
 
+* :doc:`クイックスタート文書 <../quickstart/geoserver_quickstart>`

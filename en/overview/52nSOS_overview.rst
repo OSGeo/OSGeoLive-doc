@@ -113,7 +113,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** SOS |version-52nSOS|
+**Software Version:** |version-52nSOS|
 
 **Supported Platforms:** Windows, Linux, Mac
 

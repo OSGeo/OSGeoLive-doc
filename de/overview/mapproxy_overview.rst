@@ -1,7 +1,7 @@
 :Author: Oliver Tonnhofer
 :Author: Dominik Helle
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
@@ -104,13 +104,12 @@ Details
 
 **Lizenz:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.6.0
+**Software Version:** 1.8.0
 
 **Unterstütze Plattformen:** Linux, Mac, Windows
 
 **Support:** http://mapproxy.org/support.html
 
-**Dokumentation:** <../../mapproxy/index.html>`_
 
 Quickstart
 --------------------------------------------------------------------------------

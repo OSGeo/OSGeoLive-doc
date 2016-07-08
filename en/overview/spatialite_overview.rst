@@ -1,6 +1,6 @@
 :Author: Pirmin Kalberer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-spatialite.png
@@ -57,7 +57,7 @@ Details
 
 **Licence:** MPL v1.1 and GPL v3
 
-**Software Version:** spatialite 4.1.1 / spatialite-gui 1.7.1
+**Software Version:** 4.3.0
 
 **Supported Platforms:** Linux, Mac, Windows
 

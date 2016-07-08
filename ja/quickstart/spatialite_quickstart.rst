@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Micha Silver
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live 9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 
@@ -21,9 +21,6 @@ SpatiaLite クイックスタート
 ********************************************************************************
 
 SpatiaLite は地理空間関数を追加した SQLite データベースエンジンです。
-
-.. TBD: Cameron Review Comment:
-  Please check my rewording below, then remove this comment.
 
 SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
@@ -100,29 +97,21 @@ table:
       :scale: 70 %
 
 
-spatialite-gis の実行
-================================================================================
+..
+  spatialite-gis の実行
+  ================================================================================
 
-.. TBD: Cameron Review Comment:
-  I'm mildly in favour of removing this spatialite-gis section.
-  Should we be recommending people to use QGIS instead?
-  I'd suggest that the "Things to try" section should suggest trying
-  spatialite-gis
+  Spatialite-gis is a simple viewer for spatialite based layers.
 
-Spatialite-gis is a simple viewer for spatialite based layers.
+  * デスクトップの Desktop GIS フォルダから spatialite-gis を実行してください。
+  * "Connecting existing SQLite DB" ボタンをクリックして /home/user/data/spatialite/trento.sqlite に接続してください。
 
-.. TBD: Cameron Review Comment:
-  If this section is included, it requires a number of screen shots.
+  イタリアのトレント自治県の地図を見ることができるでしょう。
 
-* デスクトップの Desktop GIS フォルダから spatialite-gis を実行してください。
-* "Connecting existing SQLite DB" ボタンをクリックして /home/user/data/spatialite/trento.sqlite に接続してください。
-
-イタリアのトレント自治県の地図を見ることができるでしょう。
-
-   - Highways レイヤで右クリックして :menuselection:`Hide` を選択してください。
-  - LocalCouncilsTrento レイヤで右クリックして :menuselection:`Layer Configuration->Classify` を選択してください。 "Shape Area" を選択してください。4 つのクラスを選択して最小と最大に割り当てる色を選択してください。県の範囲の階級区分図が表示されます。
-   - LocalCouncils で右クリックして境界線の色を選択し、メニューから :menuselection:`Layer configuration->Graphics` を選択して、境界線と異なる色を選択してください。
-   - 表示をすこし拡大し、PopulatedPlaces レイヤを右クリックし、 :menuselection:`Indentify on` を選択してください。人口の多い地域をクリックして、地物の属性を確認してください。
+     - Highways レイヤで右クリックして :menuselection:`Hide` を選択してください。
+     - LocalCouncilsTrento レイヤで右クリックして :menuselection:`Layer Configuration->Classify` を選択してください。 "Shape Area" を選択してください。4 つのクラスを選択して最小と最大に割り当てる色を選択してください。県の範囲の階級区分図が表示されます。
+     - LocalCouncils で右クリックして境界線の色を選択し、メニューから :menuselection:`Layer configuration->Graphics` を選択して、境界線と異なる色を選択してください。
+     - 表示をすこし拡大し、PopulatedPlaces レイヤを右クリックし、 :menuselection:`Indentify on` を選択してください。人口の多い地域をクリックして、地物の属性を確認してください。
 
 
 spatialite をコマンドラインから起動する

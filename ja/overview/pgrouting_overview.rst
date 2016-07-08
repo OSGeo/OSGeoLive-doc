@@ -72,4 +72,4 @@ pgRouting は以下の機能を提供します。
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/pgrouting_quickstart>`

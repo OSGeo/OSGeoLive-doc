@@ -50,7 +50,7 @@ Iris は気象や海洋データの解析及び可視化するための Python �
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/iris_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/iris_quickstart>`
 
 .. _`GitHub`: https://github.com/SciTools/iris
 

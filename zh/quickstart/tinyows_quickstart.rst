@@ -32,13 +32,13 @@ TinyOWS 快速入门文档
 
 #. 选择 :guilabel:`New` 新建。
 
-#. 以 **pgrouting** 为连接名称。
+#. 以 **tinyows_demo** 为连接名称。
 
 #. 点击 :guilabel:`OK` 。
 
 #. 点击 :guilabel:`Connect` 连接。
 
-#. 在表单列表中选择 **ways** 。
+#. 在表单列表中选择 **france** 。
 
 #. 点击 :guilabel:`Add` 添加。
 
@@ -60,7 +60,7 @@ TinyOWS 快速入门文档
 
 #. 点击 :guilabel:`Connect` 连接。
 
-#. 在图层列表选择 **ows:ways** 。
+#. 在图层列表选择 **ows:france** 。
 
 #. 选中 :guilabel:`Only request features overlapping the current view extent` （只获取当前显示范围内的要素）。
 
@@ -82,7 +82,7 @@ TinyOWS 快速入门文档
 
 #. 点击 :menuselection:`Layer --> Save edits` 保存。
 
-#. 取消勾选 **tows:ways** 图层。
+#. 取消勾选 **tows:france** 图层。
 
    * 新的数据将直接从 PostGIS 载入，以新的颜色显示。
 

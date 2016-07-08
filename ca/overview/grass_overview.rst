@@ -52,7 +52,7 @@ Detalls
 
 **Llicència:** GNU General Public License (GPL) version 2
 
-**Versió de programari:** 7.0.0RC1
+**Versió de programari:** 7.0.3
 
 **Sistemes operatius:** GNU/Linux, Mac OSX, MS Windows
 

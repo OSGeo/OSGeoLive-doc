@@ -11,85 +11,54 @@ Este Live DVD y Máquina Virtual ha sido configurado por miembros de la comunida
 
 `Estas aplicaciones se distribuyen con la esperanza de que sean útiles, pero SIN NINGUNA GARANTÍA; incluso sin la garantía de COMERCIABILIDAD o ADECUACIÓN A UN PROPÓSITO CONCRETO.`
 
-OSGeo Sustaining Sponsors
-================================================================================
-
-.. image:: ../images/logos/autodesk.jpg
-  :width: 144
-  :height: 38
-  :alt: Autodesk
-  :target: http://www.osgeo.org/sponsors/autodesk/
-  
-
 
 OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/inpe.png
-  :alt: INPE
-  :target: http://www.inpe.br/
-
-.. image:: ../images/logos/ingres.png
-  :alt: INGRES
-  :target: http://www.ingres.com
-
-.. image:: ../images/logos/osuk.png
+.. image:: ../images/logos/ordnance-survey_logo.png
   :alt: Ordnance Survey
   :target: http://www.ordnancesurvey.co.uk
 
 
-
 OSGeo Associate Sponsors
 --------------------------------------------------------------------------------
-.. image:: ../images/logos/geocat.png
-  :alt: GeoCat
-  :align: center
-  :target: http://geocat.net/
+
+.. image:: ../images/logos/first-base-solutions_logo.png
+  :alt: First Base Solutions
+  :target: http://www.firstbasesolutions.com
 
 .. image:: ../images/logos/astun.png
   :alt: Astun Technology
-  :align: center
   :target: http://www.isharemaps.com
 
-.. image:: ../images/logos/borealis.jpg
-  :alt: BOREALIS
-  :align: center
-  :target: http://www.boreal-is.com
-
-.. image:: ../images/logos/ign_france.png
-  :alt: IGN
-  :align: center
-  :target: http://www.ign.fr
-
-.. image:: ../images/logos/pci.jpg
-  :alt: PCI Geomatics
-  :align: center
-  :target: http://www.pcigeomatics.com
-
-.. image:: ../images/logos/c2c_logo.jpg
-  :alt: Camptocamp
-  :align: center
-  :target: http://camptocamp.com
+.. image:: ../images/logos/geocat_logo.png
+  :alt: GeoCat
+  :target: http://geocat.net/
 
 .. image:: ../images/logos/lizardtech_logo_sml.png
   :alt: LizardTech
-  :align: center
   :target: http://www.lizardtech.com
-
-.. image:: ../images/logos/1spatial_sml.jpg
-  :alt: 1Spatial
-  :align: center
-  :target: http://www.1spatial.com
-
-.. image:: ../images/logos/fbslogo_sml.png
-  :alt: First Base Solutions
-  :align: center
-  :target: http://www.firstbasesolutions.com
 
 .. image:: ../images/logos/2ndquadrant_logo.png
   :alt: 2ndQuadrant
-  :align: left
   :target: http://www.2ndquadrant.com/
+
+.. image:: ../images/logos/karttakeskus.png
+  :alt: Karttakeskus
+  :target: http://www.karttakeskus.fi/
+
+.. image:: ../images/logos/borealis.jpg
+  :alt: BOREALIS
+  :target: http://www.boreal-is.com
+
+.. image:: ../images/logos/camptocamp_logo.png
+  :scale: 80 %
+  :alt: Camptocamp
+  :target: http://camptocamp.com
+
+.. image:: ../images/logos/ign_france.png
+  :alt: IGN
+  :target: http://www.ign.fr
 
 
 Para más información
@@ -99,3 +68,4 @@ Para patrocinar OSGeo o conversar sobre las oportunidades de patrocinio en
 detalle, puede ponerse en contacto con:
 
 .. include :: ../osgeo_contact.rst
+

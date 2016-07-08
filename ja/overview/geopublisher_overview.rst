@@ -56,7 +56,7 @@ Geopublisherのユニークな特徴は、国際的な調査や、参加型GIS�
 
 **対応プラットフォーム:** GNU/Linux, MS Windows 
 
-**APIインターフェース:** Java, Swing, Geotools
+**API インターフェース:** Java, Swing, Geotools
 
 **サポート:** http://www.wikisquare.de
 
@@ -64,6 +64,6 @@ Geopublisherのユニークな特徴は、国際的な調査や、参加型GIS�
 クイックスタート
 --------------------------------------------------------------------------------
 
-* :doc:`クイックスタート文章 <../quickstart/geopublisher_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/geopublisher_quickstart>`
 
 

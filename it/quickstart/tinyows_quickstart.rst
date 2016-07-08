@@ -35,13 +35,13 @@ Visualizzare un layer WFS con QGIS
 
 #. Premere :guilabel:`New`.
 
-#. Inserite **pgrouting** come Connection name e Database
+#. Inserite **tinyows_demo** come Connection name e Database
 
 #. Premere :guilabel:`OK`.
 
 #. Premere :guilabel:`Connect`.
 
-#. Selezionare **ways** nella lista delle tabelle
+#. Selezionare **france** nella lista delle tabelle
 
 #. Premere :guilabel:`Add`.
 
@@ -59,7 +59,7 @@ Visualizzare un layer WFS con QGIS
 
 #. Premere :guilabel:`Connect`.
 
-#. Selezionare **ows:ways** nella lista dei layer
+#. Selezionare **ows:france** nella lista dei layer
 
 #. Controllare :guilabel:`Only request features overlapping the current view extent`.
 
@@ -81,7 +81,7 @@ Editare dati con WFS-T
 
 #. Cliccare :menuselection:`Layer --> Save edits`.
 
-#. Nascondere il layer disattivando **tows:ways** nella lista dei layer
+#. Nascondere il layer disattivando **tows:france** nella lista dei layer
 
    * Dovreste vedere la via editate in un altro colore, poichè viene letto direttamente da PostGIS.
 

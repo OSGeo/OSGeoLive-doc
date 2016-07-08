@@ -1,6 +1,6 @@
 :Author: Dane Springmeyer
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Version: osgeo-live10.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapnik.png
@@ -36,7 +36,6 @@ development,  targeting zope3, django etc.
 Mapnik is cross platform. Packages are available for most linux
 distributions and installers are commonly used on Mac OS X and windows.
 
-
 Details
 --------------------------------------------------------------------------------
 
@@ -44,17 +43,13 @@ Details
 
 **Licence:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 2.2.0
+**Software Version:** 3.0.11
 
 **Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** C++, Python
 
-
-
 Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`
-
-

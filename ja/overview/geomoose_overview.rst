@@ -72,4 +72,4 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 クイックスタート
 --------------------------------------------------------------------------------
     
-* :doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`
+* :doc:`クイックスタート文書 <../quickstart/geomoose_quickstart>`

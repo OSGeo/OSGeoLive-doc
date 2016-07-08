@@ -79,14 +79,12 @@ A number of specialised plugins have been written for JSOM, which are available 
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
-**APIインターフェース:** Java
-
-**サポート:** http://www.osgeo.org/search_profile
+**API インターフェース:** Java
 
 
-.. Quickstart
+.. クイックスタート
 .. --------------------------------------------------------------------------------
 .. 
-.. * :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
+.. * :doc:`クイックスタート文書 <../quickstart/josm_quickstart>`
 
 

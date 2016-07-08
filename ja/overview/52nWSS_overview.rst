@@ -1,14 +1,12 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
-:Version: osgeo-live4.0
+:Reviewer: Cameron Shorter, LISAsoft
+:Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-
-.. _52nWSS-overview-ja:
 
 .. image:: ../../images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/security
-
 
 52°North WSS
 ================================================================================
@@ -49,7 +47,6 @@ XML の設定ファイルで設定を行います。
 * SOS: 提供、手順、地理的範囲、現在値
 * WPS: プロセス
 
-
 **認証**
 
 52North WSS はユーザーによって異なる認証方式を選択できます。
@@ -58,24 +55,25 @@ XML の設定ファイルで設定を行います。
 * SAMLプロトコルによる認証
 * その他
 
+
 詳細
 --------------------------------------------------------------------------------
 
-* **ウェブサイト:** http://52north.org/communities/security
+**ウェブサイト:** http://52north.org/communities/security
 
-* **ライセンス:** GNU GPL v2.0
+**ライセンス:** GNU General Public License (GPL) version 2
 
-* **バージョン:** WSS 2.2.0
+**バージョン:** WSS 2.2.0
 
-* **対応プラットフォーム:** Windows, Linux, Mac
+**対応プラットフォーム:** Windows, Linux, Mac
 
-* **API:** Java
+**API インターフェース:** Java
 
-* **コミュニティサポート:** http://52north.org/
+**商用サポート:** http://52north.org/
 
 
 クイックスタート
 --------------------------------------------------------------------------------
 
-* `Quickstart documentation <../quickstart/52nWSS_quickstart.html>`_
+* :doc:`クイックスタート文書 <../quickstart/52nWSS_quickstart>`
 

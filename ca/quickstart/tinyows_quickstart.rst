@@ -34,13 +34,13 @@ Mostrar una capa WFS en un projecte de QGIS
 
 #. Prémer :guilabel:`New`.
 
-#. Posar **pgrouting** com a nom de la Connexió i de la base de dades
+#. Posar **tinyows_demo** com a nom de la Connexió i de la base de dades
 
 #. Prémer :guilabel:`OK`.
 
 #. Prémer :guilabel:`Connect`.
 
-#. Escollir **ways** a la llista de la taula
+#. Escollir **france** a la llista de la taula
 
 #. Prémer :guilabel:`Add`.
 
@@ -62,7 +62,7 @@ Mostrar una capa WFS en un projecte de QGIS
 
 #. Prémer :guilabel:`Connect`.
 
-#. Escollilr **ows:ways** a la llista de capes
+#. Escollilr **ows:france** a la llista de capes
 
 #. Marcar :guilabel:`Only request features overlapping the current view extent`.
 
@@ -84,7 +84,7 @@ Editar la capa amb WFS-T
 
 #. Clic :menuselection:`Layer --> Save edits`.
 
-#. Amaga la capa desmarcant **tows:ways** a la llista de capes
+#. Amaga la capa desmarcant **tows:france** a la llista de capes
 
    * Ara hauries de veure el vial editat en un color diferent, tret directament
      de PostGIS.

@@ -63,7 +63,7 @@ Dettagli
 
 **Licenza:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
-**Versione software:** 2.1.2
+**Versione software:** 2.2.3
 
 **Piattaforme supportate:** Windows, Linux, FreeBSD
 

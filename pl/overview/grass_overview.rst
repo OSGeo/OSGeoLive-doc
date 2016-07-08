@@ -66,7 +66,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
-**Wersja programu:** 7.0.0RC1
+**Wersja programu:** 7.0.3
 
 **Systemy operacyjne:** GNU/Linux, Mac OSX, MS Windows
 

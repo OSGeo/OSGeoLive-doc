@@ -1,3 +1,39 @@
+osgeolive-docs (10.0~beta1) xenial; urgency=medium
+
+  * Preparing 10.0 beta1 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Tue, 28 Jun 2016 12:00:00 +0200
+
+osgeolive-docs (10.0~alpha3) xenial; urgency=medium
+
+  * Preparing 10.0 alpha3 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Wed, 15 Jun 2016 16:00:00 +0200
+
+osgeolive-docs (10.0~alpha1) xenial; urgency=medium
+
+  * Preparing xenial alpha release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Wed, 01 Jun 2016 13:24:00 +0200
+
+osgeolive-docs (9.5~rc1) trusty; urgency=medium
+
+  * Preparing rc1 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Fri, 04 Mar 2016 18:18:00 +0200
+
+osgeolive-docs (9.5~beta1) trusty; urgency=medium
+
+  * Preparing beta release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Sun, 07 Feb 2016 15:21:00 +0200
+
+osgeolive-docs (9.5~alpha2) trusty; urgency=medium
+
+  * Git master version
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Fri, 22 Jan 2016 15:07:00 +0200
+
 osgeolive-docs (9.0~rc3) trusty; urgency=medium
 
   * Web Site version
