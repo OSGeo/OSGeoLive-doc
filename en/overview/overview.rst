@@ -1,7 +1,3 @@
-:Author: OSGeo-Live
-:Reviewer: Nicolas Roelandt
-:Version: osgeo-live10.0
-
 .. OSGeo-Live documentation master file, created by
    sphinx-quickstart on Tue Jul  6 14:54:20 2010.
    You can adapt this file completely to your liking, but it should at least
