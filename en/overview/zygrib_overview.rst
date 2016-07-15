@@ -39,7 +39,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 6.2.1
+**Software Version:** |version-zygrib|
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 

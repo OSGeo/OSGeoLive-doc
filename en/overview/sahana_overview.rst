@@ -63,7 +63,7 @@ Details
 
 **Licence:** MIT License
 
-**Software Version:** Latest trunk
+**Software Version:** |version-sahana|
 
 **Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows
 

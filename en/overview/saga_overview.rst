@@ -62,7 +62,7 @@ Details
 
 **Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
-**Software Version:** 2.2.4
+**Software Version:** |version-saga|
 
 **Supported Platforms:** Windows, Linux, FreeBSD
 

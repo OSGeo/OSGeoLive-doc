@@ -86,7 +86,7 @@ Details
 
 **Licence:** NASA Open Source Agreement Version 1.3
 
-**Software Version:** WorldWind Java SDK 2.0
+**Software Version:** |version-worldwindjava|
 
 **Supported Platforms:** Windows, Linux, Mac, Android, iOS
 

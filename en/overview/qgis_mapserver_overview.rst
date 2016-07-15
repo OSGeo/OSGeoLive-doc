@@ -54,7 +54,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 2.14.0
+**Software Version:** |version-qgis_mapserver|
 
 **Supported Platforms:** Windows, Linux
 

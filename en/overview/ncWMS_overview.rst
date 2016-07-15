@@ -60,7 +60,7 @@ Details
 
 **Licence:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_
 
-**Software Version:** 1.1.1
+**Software Version:** |version-ncWMS|
 
 **Supported Platforms:** All Java 1.5 platforms: Windows, Linux, Mac
 

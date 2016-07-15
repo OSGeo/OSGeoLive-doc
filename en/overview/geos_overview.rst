@@ -49,6 +49,8 @@ Details
 
 **Licence:** LGPL
 
+**Software Version:** |version-geos|
+
 **Supported Platforms:** Windows, Linux, Mac
 
 **API Interfaces:** C, C++

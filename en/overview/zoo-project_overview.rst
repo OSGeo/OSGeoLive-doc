@@ -83,7 +83,7 @@ Details
 
 **Licence:** MIT x/11
 
-**Software Version:** 1.3.0
+**Software Version:** |version-zoo-project|
 
 **Supported Platforms:** Windows, Linux, Mac
 

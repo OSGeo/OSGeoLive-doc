@@ -58,7 +58,7 @@ Details
 * clients and APIs: GNU Lesser General Public License (LGPL) version 3
 * server engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 9.2.0
+**Software Version:** |version-rasdaman|
 
 **Supported Platforms:** Linux, MacOS, Solaris
 

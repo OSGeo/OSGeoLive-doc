@@ -53,7 +53,7 @@ Details
 
 **Licence:** Apache 2.0 license
 
-**Software Version:** 1.18
+**Software Version:** |version-cesium|
 
 **Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL
 
