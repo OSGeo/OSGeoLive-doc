@@ -60,7 +60,7 @@ Details
 
 **Licence:** revised BSD license
 
-**Software Version:** 4.1
+**Software Version:** |version-jupyter|
 
 **Supported Platforms:** Linux, Mac, Windows
 

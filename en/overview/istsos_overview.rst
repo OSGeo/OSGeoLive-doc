@@ -54,7 +54,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.3.0
+**Software Version:** |version-istsos|
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 

@@ -40,7 +40,7 @@ Details
 
 **Source Code:** https://github.com/geopython/mapslicer
 
-**Software Version:** 1.0.rc1
+**Software Version:** |version-mapslicer|
 
 **Supported Platforms:** Windows, Linux, Mac
 

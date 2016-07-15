@@ -56,7 +56,7 @@ Details
 
 **Licence:** AGPL
 
-**Software Version:** 2.4.0
+**Software Version:** |version-geomajas|
 
 **Supported Platforms:** Windows, Linux, Mac
 

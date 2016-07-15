@@ -108,7 +108,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.2
+**Software Version:** |version-postgis|
 
 **Supported Platforms:** Windows, Linux, Mac
 

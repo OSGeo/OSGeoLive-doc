@@ -103,7 +103,7 @@ Details
 
 **Licence:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.8.0
+**Software Version:** |version-mapproxy|
 
 **Supported Platforms:** Linux, Mac, Windows
 

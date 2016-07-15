@@ -52,7 +52,7 @@ Details
 
 **Licence:** MIT
 
-**Software Version:** 1.1.0
+**Software Version:** |version-tinyows|
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 
