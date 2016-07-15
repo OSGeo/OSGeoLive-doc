@@ -37,7 +37,7 @@ Creating maps in python is easy with Mapnik. Type `python` on the command line t
       with the Quantumnik plugin: http://plugins.qgis.org/plugins/quantumnik/
 
 
-Mapnik & OpenLayers
+Mapnik & Leaflet
 --------------------------------------------------------------------------------
 
 In addition a basic demo application is available, which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
