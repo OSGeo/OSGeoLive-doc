@@ -11,7 +11,7 @@
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
