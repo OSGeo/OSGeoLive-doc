@@ -11,7 +11,7 @@
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -108,9 +108,9 @@ pgAdmin、phpPgAdmin、その他のプログラムを利用してデータベー
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.2.1
+**ソフトウェアバージョン:** |version-postgis|
 
-**サポートするプラットフォーム:** Windows、Linux、Mac
+**対応プラットフォーム:** Windows、Linux、Mac
 
 **API インターフェース:** SQL
 

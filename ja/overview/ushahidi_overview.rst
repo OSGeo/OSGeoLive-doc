@@ -56,7 +56,7 @@ Ushahidi
 
 **ライセンス:** GNU Lesser General Public License (GPL) version 3
 
-**ソフトウェアのバージョン:** 2.7.4 (Bamako)
+**ソフトウェアバージョン:** |version-ushahidi|
 
 **API インターフェース:** PHP
 

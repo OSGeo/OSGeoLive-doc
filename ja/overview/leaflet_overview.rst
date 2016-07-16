@@ -97,9 +97,9 @@ Leaflet はシンプル、パフォーマンス、ユーザビリティを念頭
 
 **ライセンス:** BSD
 
-**ソフトウェアバージョン:** 0.7.3
+**ソフトウェアバージョン:** |version-leaflet|
 
-**サポートするプラットフォーム:** Windows, Mac, Linux, Android, iOS
+**対応プラットフォーム:** Windows, Mac, Linux, Android, iOS
 
 **API インタフェース:** Javascript
 

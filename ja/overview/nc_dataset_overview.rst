@@ -61,7 +61,7 @@ OSGeo North Carolina, USA Educational dataset
 
 **ライセンス:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
 
-**バージョン:** 2008
+**ソフトウェアバージョン:** 2008
 
 **データ形式:** GeoTIFF, Shapefiles, KML
 

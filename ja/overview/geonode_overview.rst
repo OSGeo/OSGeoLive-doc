@@ -75,7 +75,7 @@ GeoNodeはGeoServer, GeoExplorer, pycsw, Django, GeoExt上に構築されてい�
 
 **ライセンス:** GNU General Public License (GPL) version 2.0
 
-**ソフトウェアバージョン:** 2.4.0
+**ソフトウェアバージョン:** |version-geonode|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

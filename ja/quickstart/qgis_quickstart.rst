@@ -4,7 +4,7 @@
 :Author: Zoltan Siki
 :Reviewer: Cameron Shorter, LISAsoft
 :Reviewer: Nicolas Roelandt
-:Version: osgeo-live9.5
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -101,7 +101,8 @@ Let's now create a new QGIS project and load our own data.
 
 #. メニューから :menuselection:`Project --> New` を選択してください。You will be asked whether to save the previous project, you can press :guilabel:`Close without Saving`.
 
-#. :menuselection:`Layer --> Add Vector Layer...` をクリックしてください。
+#. :menuselection:`Layer --> Add Layer--> Add Vector Layer...` をクリック、もしくは 'Add Vector Layer' ボタン(V型のボタンで、画像の赤枠内のもの)をクリック。
+キーボードショートカット 'Ctrl+Shift+V' を使用することも可能です。
 
      .. image:: ../../images/screenshots/1024x768/qgis_add_layer.png
         :scale: 70
@@ -126,11 +127,11 @@ Let's now include a layer from a Postgres database.
 #. In the layer list on the left, untick the ``ne_10m_admin_0_countries`` visibility
    check box to temporarily hide it.
 
-   .. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
-      :scale: 70 %
-      :alt: Connecting to a PostGIS DB
+
 
 #. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
+
+   *You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
 
    * Both Natural Earth and OpenStreetMap Postgis databases
      are already available; we will be using use the Natural Earth database.
@@ -141,6 +142,10 @@ Let's now include a layer from a Postgres database.
 click on the Public schema to deploy it:
 
   * A list of database tables will appear.
+
+   .. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
+      :scale: 70 %
+      :alt: Connecting to a PostGIS DB
 
 #. Select ``ne_10_populated_places`` and click :guilabel:`Add`.
 
@@ -184,7 +189,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 #. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
    type ``grass`` into the Search box, and select the `GRASS 7` plugin.
 
-   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has apeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
+   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has appeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
 
 #. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
 
@@ -301,7 +306,7 @@ Importing OpenStreetMap data
 #. Choose :menuselection:`Vector --> OpenStreetMap --> Import topology from XML`.
 
 #. Click on the "..." button next to "Input XML file (.osm)" and select
-   the `feature_city_CBD.osm` file you just copied into the home directory.
+   the `feature_city.osm` file you just copied into the home directory.
    The "Output SpatialLite DB file" name will be automatically set. Click
    :guilabel:`Ok` to convert the dataset to SpatiaLite format and create
    a connection to the SpatialLite DB within QGIS.
@@ -309,7 +314,7 @@ Importing OpenStreetMap data
 #. Next we need to extract points, lines, and areas, then add topology to
    each of these three new layers. To do this we need to run the tool three times.
    Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy to SpatiaLite` and
-   use the "..." button to select the newly created `feature_city_CBD.osm.db` file.
+   use the "..." button to select the newly created `feature_city.osm.db` file.
    The `Output layer name` will be automatically filled in for you depending
    on the `Export type` selected. Click the :guilabel:`Load from DB` button
    to load in the available tags. For the "points" layer tick the `amentity` box;
@@ -323,9 +328,9 @@ Importing OpenStreetMap data
 #. Once topology is loaded, you can also refine the SpatiaLite layer by
    querying just certain features from within it.
    Select :menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the
-   menu and from the `Databases` list select `feature_city_CBD@...` and
+   menu and from the `Databases` list select `feature_city@...` and
    then click on :guilabel:`Connect`. Double click on
-   the `feature_city_cbd_polylines` table and then double click on "highway"
+   the `feature_city_polylines` table and then double click on "highway"
    to start building your SQL query. Then click on the :guilabel:`=` button,
    then the :guilabel:`All` button, and double click on `motorway` from the
    Values list. Click the :guilabel:`Test` button to verify the result,
@@ -333,6 +338,10 @@ Importing OpenStreetMap data
    window click :guilabel:`Add` to restrict the rendering to just major
    highways. You can repeat this process with new layers to render different
    road types with different widths and styles.
+
+   .. image:: ../../images/screenshots/1024x768/QGIS_spatialite_add_layer.png
+     :scale: 50 %
+     :alt:  The OpenStreetMap add layer
 
 #. You can now explore this rich dataset. Use the ``i`` information cursor
    button in the QGIS toolbar to query individal map features.

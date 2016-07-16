@@ -110,9 +110,9 @@ gvSIG は次のような点で知られています:
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** |version-gvsig|
+**ソフトウェアバージョン:** |version-gvsig|
 
-**動作環境:** Windows, Linux
+**対応プラットフォーム:** Windows, Linux
 
 **サポート:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists
 

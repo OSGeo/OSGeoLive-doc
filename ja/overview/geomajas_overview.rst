@@ -70,7 +70,7 @@ Enterprise Server features
 
 **ライセンス:** AGPL
 
-**バージョン:** 2.4.0
+**ソフトウェアバージョン:** |version-geomajas|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

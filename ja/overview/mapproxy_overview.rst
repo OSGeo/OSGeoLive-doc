@@ -103,9 +103,9 @@ MapProxyは、以下のオープンな仕様を実装しています:
 
 **ライセンス:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**バージョン:** 1.8.0
+**ソフトウェアバージョン:** |version-mapproxy|
 
-**動作環境:** Linux, Mac, Windows
+**対応プラットフォーム:** Linux, Mac, Windows
 
 **サポート:** http://mapproxy.org/support.html
 

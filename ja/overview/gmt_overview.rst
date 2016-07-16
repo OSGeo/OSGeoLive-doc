@@ -38,9 +38,9 @@ GMT は、多くの一般的な地図投影法に加えて、線形、対数、�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 4.5.11
+**ソフトウェアバージョン:** |version-gmt|
 
-**動作環境:** GNU/Linux, Mac OSX, MS Windows
+**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 
 **API インターフェース:** Command line
 

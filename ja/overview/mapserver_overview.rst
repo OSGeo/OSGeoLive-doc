@@ -108,7 +108,7 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 
 **ライセンス:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**ソフトウェアバージョン:** 7.0.1
+**ソフトウェアバージョン:** |version-mapserver|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
