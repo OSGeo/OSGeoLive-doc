@@ -108,9 +108,9 @@ pgAdmin、phpPgAdmin、その他のプログラムを利用してデータベー
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.2.1
+**ソフトウェアバージョン:** |version-postgis|
 
-**サポートするプラットフォーム:** Windows、Linux、Mac
+**対応プラットフォーム:** Windows、Linux、Mac
 
 **API インターフェース:** SQL
 

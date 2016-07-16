@@ -49,7 +49,9 @@ GEOS は最も広く使われている地理空間の C++ 幾何ライブラリ�
 
 **ライセンス:** LGPL
 
-**サポートするプラットフォーム:** Windows、Linux、Mac
+**ソフトウェアバージョン:** |version-geos|
+
+**対応プラットフォーム:** Windows、Linux、Mac
 
 **API インタフェース:** C、C++
 

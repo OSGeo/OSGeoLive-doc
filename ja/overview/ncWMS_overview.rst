@@ -61,7 +61,7 @@ ncWMSはOGC準拠のWebマップサービス（WMS）として多次元データ
 
 **ライセンス:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_
 
-**ソフトウェアバージョン	:** 1.1.1
+**ソフトウェアバージョン:** |version-ncWMS|
 
 **対応プラットフォーム:** 全てのJava 1.5プラットフォーム: Windows、Linux、Mac
 

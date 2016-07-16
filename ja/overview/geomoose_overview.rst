@@ -60,7 +60,7 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 
 **ライセンス:** MIT based license. http://www.geomoose.org/info/license.html
 
-**バージョン:** 2.8.0
+**ソフトウェアバージョン:** |version-geomoose|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

@@ -72,7 +72,7 @@ ZOOサービスは、メタデータファイル（.zcfg）と対応する実装
 
 **ライセンス:** MIT x/11
 
-**ソフトウェア Version:** 1.3.0
+**ソフトウェア Version:** |version-zoo-project|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

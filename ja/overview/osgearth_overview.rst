@@ -69,9 +69,9 @@ osgEarthでは地形をレンダリングする以上のことができます:
 
 **ライセンス:** GNU Lesser General Public License (LGPL) 
 
-**バージョン:** 2.5.0
+**ソフトウェアバージョン:** |version-osgearth|
 
-**動作環境:** Linux, Mac, Windows
+**対応プラットフォーム:** Linux, Mac, Windows
 
 **API インターフェース:** C++
 

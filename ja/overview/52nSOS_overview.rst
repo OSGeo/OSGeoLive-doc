@@ -138,11 +138,11 @@ applicable:
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** |version-52nSOS|
+**ソフトウェアバージョン:** |version-52nSOS|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
-**Supported DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012
+**対応DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012
 
 **API インターフェース:** Java
 

@@ -86,9 +86,9 @@ OGC標準:
 
 **ライセンス:** `MIT`_
 
-**ソフトウェア・バージョン:** 1.10.3
+**ソフトウェアバージョン:** |version-pycsw|
 
-**ソフトウェア・プラットフォーム:** Windows, Linux, Mac
+**対応プラットフォーム:** Windows, Linux, Mac
 
 **API インターフェース:** Python
 

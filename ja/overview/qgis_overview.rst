@@ -87,9 +87,9 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.14.0
+**ソフトウェアバージョン:** |version-qgis|
 
-**サポートするプラットフォーム:** Windows、Linux、Mac、Unix
+**対応プラットフォーム:** Windows、Linux、Mac、Unix
 
 **コミュニティサポート:** http://qgis.org/en/site/forusers/support.html
 

@@ -61,7 +61,7 @@ pgRouting は以下の機能を提供します。
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.0
+**ソフトウェアバージョン:** |version-pgrouting|
 
 **対応プラットフォーム:** Linux, Windows, Mac
 

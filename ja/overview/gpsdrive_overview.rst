@@ -49,9 +49,9 @@ GPS ナビソフト
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 2.12
+**ソフトウェアバージョン:** 2.12
 
-**サポートするプラットフォーム:** GNU/Linux, Mac OSX
+**対応プラットフォーム:** GNU/Linux, Mac OSX
 
 **サポート:** http://gpsdrive.de/support.shtml
 

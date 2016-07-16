@@ -56,7 +56,7 @@ OpenStreetMap
 * Merkaartor: GNU General Public License (GPL) version 2
 
 
-**ソフトウェアのバージョン:**
+**ソフトウェアバージョン:**
 
 * JOSM: Latest stable snapshot (svn r7347)
 
