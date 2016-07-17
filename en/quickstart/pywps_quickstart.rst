@@ -1,10 +1,11 @@
 :Author: OSGeo-Live
 :Author: Jachym Cepicky, Tom Kralidis
-:Version: osgeo-live10.0-draft
+:Reviewer: Cameron Shorter
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution
 
 .. image:: ../../images/project_logos/logo-pywps.png
-  :scale: 80 %
+  :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://pywps.org
@@ -22,102 +23,94 @@ PyWPS Quickstart
 PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written
 in `Python <http://python.org>`_.
 
-PyWPS is installed by default on the OSGeo-Live DVD.  This Quickstart will describe how to:
+PyWPS is installed by default on OSGeo-Live.  This Quickstart describes how to:
 
-* perform a fresh installation of PyWPS
-* test PyWPS installation
-* basic configuration of PyWPS instance
-* create and deploy process in PyWPS
-* perform `GetCapabilities`, `DescribeProcess` and `Execute` operations
+* test the PyWPS installation
+* configure the PyWPS instance
+* create and deploy processes in PyWPS
+* perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` operations
+
+.. contents:: Contents
 
 Tester Application
 ==================
 
-To run the PyWPS tester, use the PyWPS launcher from the Web Services group, or open Firefox and navigate to ``http://localhost/pywps/wps.py``:
+To run the PyWPS tester, use the PyWPS launcher from the Web Services group.  This opens
+Firefox displaying ``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=GetCapabilities``. The
+XML response provides an overview of the Service (title, abstract, keywords), the Service
+point of contact as well as a list of processes supported by the PyWPS installation.
 
-From Application menu, start Terminal application and test `GetCapabilities`
-operation::
+Lets select the ``ultamitequestionprocess`` process from the list and
+display its description by calling the `DescribeProcess` operation. In Firefox,
+enter the following URL: ``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=DescribeProcess&identifier=ultimatequestionprocess``
 
-    $ wget -O - "http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=GetCapabilities"
+You should see WPS DescribeProcess response document. The XML response provides a description
+of what the process does as well as specifics (name, type) on the inputs and outputs. We can
+see in the above response that the ``ultimatequestionprocess`` process (according to its description) is able
+to provide the *Answer to Life, the Universe and Everything*, takes no inputs and provides
+a single integer output.
 
-    <wps:Capabilities service="WPS"
-    ...
-    </wps:Capabilities>
+Now let's run the ``ultimatequestionprocess`` process on the server. In Firefox,
+enter the following URL: ``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=Execute&identifier=ultimatequestionprocess``
 
-You should see full WPS Capabilites response document. You can also see similar
-response using `browser <http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=GetCapabilities>`_
-
-Select some process from the list, for example `ultimatequestionprocess`, and
-display it's description by calling `DescribeProcess` operation.::
-
-    $ wget -O - "http://localhost/pywps/wps.py?service=wps&version=1.0.0&request=DescribeProcess&identifier=ultimatequestionprocess"
-
-    <wps:ProcessDescriptions
-    ...
-    </wps:ProcessDescriptions>
-
-Again, you should see WPS DescribeProcess response document. You can also see similar
-response using `browser <http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=DescribeProcess&identifier=ultimatequestionprocess>`_
-
-Now let us Execute `ultimatequestionprocess`, on the server. The process is,
-according to it's description, able to *Answer to Life, the Universe and Everything*. No inputs are requied.::
-
-    $ wget -O - "http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=Execute&identifier=ultimatequestionprocess"
-
-    # wait about 10s
-
-    <wps:ExecuteResponse
-    ...
-         <wps:Data>
-                <wps:LiteralData dataType="integer">42</wps:LiteralData>
-        </wps:Data>  
-    ...
-    </wps:ExecuteResponse>
-
-As you might know, it takes a while, before the process is calculated. In our
-case, it's about 10s. At the end, we can see the answer to life, universe and
-everyting.
+Here we can see the answer to life, universe and everyting is 42.
 
 Configuration
 =============
 
-You can configure PyWPS instance in the `/etc/pywps/pywps.cfg`
-configuration file. The values are self explaining, but you can always refer to
-`standard documentation <http://geopython.github.io/pywps/doc/build/html/configuration/index.html#configuration-of-pywps-instance>`_
+You can configure the PyWPS instance in the `/etc/pywps/pywps-wsgi.cfg`
+configuration file. More information on the configuration option can be
+found in the `standard documentation <http://geopython.github.io/pywps/doc/build/html/configuration/index.html#configuration-of-pywps-instance>`_
 
 Processes
 ---------
 
-You can find some example processes in the `/etc/pywps/processes`
+You can find some more example processes in the `/etc/pywps/processes`
 directory. Every process is usually stored in separate file and is represented
-by Python class, with constructor and `execute()` method::
+by a Python class, with constructor and `execute()` methods::
 
-    
+
     # Example of PyWPS process (shorten)
     from pywps.Process import WPSProcess                               
     class Process(WPSProcess):
      def __init__(self):
          WPSProcess.__init__(self,
-                             identifier="ultimatequestionprocess", #the same as the file name
+                             identifier="ultimatequestionprocess",  # the same as the file name
                              ....
-                                           
+
      def execute(self):
          import time
          self.status.set("Preparing....", 0)
          for i in xrange(1, 11):
              time.sleep(2)
              self.status.set("Thinking.....", i*10) 
-         #The final answer    
+         # final answer    
          self.Answer.setValue("42")
 
 Directory of your process deployment is configured within the
 `PYWPS_PROCESSES` environment variable.
 
-For more information on PyWPS, please consult the `documentation`_ on the PyWPS website.
+Things to Try
+=============
 
-.. _`OpenGIS Web Processing Service`: http://www.opengeospatial.org/standards/wps
-.. _`Open Source`: http://www.opensource.org/
+Here are some additional challenges for you to try:
+
+#. Try updating some of the configuration values to see how they are updated in the ``GetCapabilities`` requess
+#. Try running the ``DescribeProcess`` and ``Execute`` requests against other processes
+
+What's Next
+===========
+
+PyWPS gives you the freedom and flexibility to write your own Python processes and expose them
+accordingly.
+
+* Official documentation
+
+  For further information on PyWPS configuration and the API, consult the `documentation`_ on the PyWPS website.
+
+* Tutorial
+
+  Try out the `course`_, which includes setting up an OpenLayers based web client.
+
+.. _`course`: http://jachym.github.io/pywps-tutorial/build/html/index.html
 .. _`documentation`: http://pywps.org/docs
-.. _`lxml`: http://lxml.de/
-.. _`Download`: http://pywps.org/download
-.. _`GitHub`: https://github.com/geopython/PyWPS
