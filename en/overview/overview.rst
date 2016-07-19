@@ -57,9 +57,8 @@ Publishing spatial data to the internet:
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
-
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
 
 Data Stores
 --------------------------------------------------------------------------------
@@ -136,13 +135,8 @@ Available from prior OSGeo-Live releases:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, retired after OSGeo-Live 7.9
+* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retired after OSGeo-Live 8.0
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, retired after OSGeo-Live 9.0
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing
+* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing, retired after OSGeo-Live 9.5
 
-Windows and Apple Installers
---------------------------------------------------------------------------------
-Included on the full OSGeo-Live image:
-
-* `Microsoft Windows Installers <../../WindowsInstallers/>`_
-* `Apple OSX Installers <../../MacInstallers/>`_
 
