@@ -61,15 +61,15 @@ Ein kleinerer CBD Auszug wurde in die PostGIS Datenbank "pg_routing" geladen.
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.osm.org
+**Webseite:** http://www.openstreetmap.org/ 
 
-**Lizenz:** Open Data Commons Open Database License (ODbL)
+**Lizenz:** `Open Data Commons Open Database License (ODbL) <http://opendatacommons.org/licenses/odbl/>`_
 
-**Datenversion:** Live database extract 2014-07-31
+**Datenversion:** Live database extract
 
 **Datenformat:** XML
 
-**Räumliches Koordinatensystem:** Lat-Lon WGS84
+**Räumliches Koordinatensystem:** Latitude-Longitude WGS84
 
-**Support:** http://wiki.osm.org
+**Support:** http://wiki.openstreetmap.org/
 

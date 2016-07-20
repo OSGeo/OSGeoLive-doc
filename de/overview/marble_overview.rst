@@ -74,7 +74,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 1.9.2
+**Software Version:** |version-marble|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows, Maemo 5
 

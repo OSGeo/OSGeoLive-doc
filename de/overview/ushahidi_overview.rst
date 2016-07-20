@@ -58,7 +58,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (GPL) version 3
 
-**Software Version:** 2.7.4 (Bamako)
+**Software Version:** |version-ushahidi|
 
 **API Schnittstellen:** PHP
 

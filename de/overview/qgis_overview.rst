@@ -85,7 +85,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.14.0
+**Software Version:** |version-qgis|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 

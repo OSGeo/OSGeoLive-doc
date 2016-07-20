@@ -61,7 +61,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Software Version:** |version-pgrouting|
 
 **Unterstützte Plattformen:** Linux, Windows, Mac
 

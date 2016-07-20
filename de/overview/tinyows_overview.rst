@@ -53,7 +53,7 @@ Details
 
 **Lizenz:** MIT
 
-**Software Version:** 1.1.0
+**Software Version:** |version-tinyows|
 
 **Unterstützte Plattformen:** Linux, Unix, Mac, Windows
 
