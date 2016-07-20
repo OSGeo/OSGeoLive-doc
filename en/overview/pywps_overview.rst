@@ -62,7 +62,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 3.2.5
+**Software Version:** |version-pywps|
 
 **Supported Platforms:** Windows, Linux, Mac
 
