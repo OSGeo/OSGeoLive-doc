@@ -51,7 +51,7 @@ Details
 
 **Lizenz:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 2.3.0
+**Software Version:** |version-mapnik|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

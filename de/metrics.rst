@@ -119,7 +119,6 @@ Spezielle Analysewerkzeuge:
 
   <script type="text/javascript" src="http://www.openhub.net/p/geokettle/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/GMT/widgets/project_factoids_stats.js"></script>
-  <script type="text/javascript" src="http://www.openhub.net/p/ipython/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/mapnik/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/ossim/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/otb/widgets/project_factoids_stats.js"></script>

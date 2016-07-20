@@ -3,7 +3,7 @@ Willkommen |osgeo-live-version|
 ================================================================================
 
 `OSGeo-Live <http://live.osgeo.org>`_ ist eine getrennt bootfähige DVD, ein USB-Stick 
-oder eine virtuelle Maschine basierend auf `Lubuntu <http://www.xubuntu.org/>`_, die Ihnen 
+oder eine virtuelle Maschine basierend auf `Lubuntu <http://lubuntu.net>`_, die Ihnen 
 ermöglicht, eine Vielzahl von Open Source GIS Software auszuprobieren, ohne 
 etwas installieren zu müssen. Sie besteht ausschließlich aus Freier Software, die
 Sie beliebig weitergeben, verteilen und vervielfältigen dürfen.
@@ -38,7 +38,7 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
      Erste Schritte mit der OSGeo-Live DVD <quickstart/osgeolive_quickstart>
      Spracheinstellungen und Tastaturbelegung ändern <quickstart/internationalisation_quickstart>
      OSGeo-Live auf Festplatte installieren <quickstart/osgeolive_install_quickstart>
-     OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualbox_quickstart>
+     OSGeo-Live in einer Virtuellen Maschine starten <quickstart/virtualization_quickstart>
      Bootfähigen OSGeo-Live USB Stick erstellen <quickstart/usb_quickstart>
 
    .. toctree::

@@ -64,7 +64,7 @@ Details
 
 **Lizenz:** GPL 2
 
-**Software Version:** WPS |version-52nWPS|
+**Software Version:** |version-52nWPS|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

@@ -97,7 +97,7 @@ Details
 
 **Lizenz:** BSD
 
-**Software Version:** 0.7.3
+**Software Version:** |version-leaflet|
 
 **Unterstützte Plattformen:** Windows, Mac, Linux, Android, iOS
 

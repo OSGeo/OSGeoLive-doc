@@ -72,7 +72,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 7.0.3
+**Software Version:** |version-grass| 
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 

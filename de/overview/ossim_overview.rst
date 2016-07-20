@@ -64,7 +64,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 1.8.20
+**Software Version:** |version-ossim|
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 

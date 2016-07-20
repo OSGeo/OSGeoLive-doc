@@ -60,7 +60,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 3.0.3
+**Software Version:** |version-geonetwork|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

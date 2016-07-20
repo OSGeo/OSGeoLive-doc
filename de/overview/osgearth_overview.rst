@@ -69,7 +69,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) 
 
-**Software Version:** 2.5.0
+**Software Version:** |version-osgearth|
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 

@@ -86,7 +86,7 @@ Details
 
 **Licence:** `MIT`_
 
-**Software Version:** 1.10.3
+**Software Version:** |version-pycsw|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

@@ -60,7 +60,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.2.1
+**Software Version:** |version-postgis|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
