@@ -7,7 +7,7 @@
 .. image:: ../../images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
-  :target: http://gmt.soest.hawaii.edu
+  :target: https://gmt.soest.hawaii.edu
 
 
 GMT
@@ -42,7 +42,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://gmt.soest.hawaii.edu
+**Website:** https://gmt.soest.hawaii.edu
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -52,7 +52,7 @@ Details
 
 **API Interfaces:** Command line
 
-**Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
 Quickstart
