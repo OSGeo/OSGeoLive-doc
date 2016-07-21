@@ -16,18 +16,11 @@ GMT Quickstart
 Running
 ================================================================================
 
-Included on this Live DVD are the GMT documentation (HTML and PDF),
-example scripts (including a low resolution worldwide coastline),
-tutorial (HTML and PDF), and data sets for the tutorial.
 
-HTML and PDF documentation and tutorial can be found in
+Local documentation can be found in
   `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 examples can be found in
-  `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
-and tutorial data can be found in
-  `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
-
-The low resolution coastline can be found in :file:`/usr/share/gmt/coast/`.
+  `/usr/share/doc/gmt/examples <../../gmt/examples/>`_,
 
 .. packages:
   gmt-doc (and -pdf)
@@ -45,9 +38,9 @@ Open a terminal, then
 
 ::
 
-  cp -r /usr/share/doc/gmt-examples/examples/ gmt-examples
-  cd gmt-examples/
-  ./do_examples.csh
+  cp -R /usr/share/doc/gmt/examples gmt-examples
+  cd gmt-examples/ex20
+  ./example_20.sh
 
 `[whiz .. bang .. whirl]`
 
@@ -55,10 +48,7 @@ View results: (within :command:`gv` [#gv]_, type :kbd:`q` to quit)
 
 ::
 
-  for PLOT in *.ps ; do
-     echo "$PLOT"
-     gv "$PLOT"
-  done
+  gv example_20.ps
 
 .. Rubric:: Footnotes
 .. [#gv] Ghostview  http://www.gnu.org/software/gv/
