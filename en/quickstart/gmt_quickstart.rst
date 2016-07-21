@@ -22,6 +22,7 @@ Local documentation can be found in
 examples can be found in
   `/usr/share/doc/gmt/examples <../../gmt/examples/>`_,
 
+
 .. packages:
   gmt-doc (and -pdf)
   gmt-coast-low
@@ -32,7 +33,7 @@ examples can be found in
 Examples
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are 30 example jobs built in, and a script to run them all:
+There are 30 example jobs built in:
 
 Open a terminal, then
 
