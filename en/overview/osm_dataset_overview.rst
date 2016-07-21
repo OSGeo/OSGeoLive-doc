@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
-  :target: http://www.osm.org/
+  :target: https://www.openstreetmap.org/
 
 
 OpenStreetMap (OSM)
@@ -17,7 +17,7 @@ Map Data
 
 OpenStreetMap is a crowd sourced map of the world which has grown to become one of the most detailed sources of local-scale map data available. Source map data is created and maintained by thousands of volunteers from around the world, using processes similar to the maintaining of the wikipedia encyclopedia.
 
-The most visible aspect to OSM is the online web-tile interface from http://www.openstreetmap.org, but the maps can also be viewed, imported, or edited in many applications such as :doc:`Quantum GIS <qgis_overview>` , :doc:`OpenLayers <openlayers_overview>`, ArcGIS and dedicated OSM applications.
+The most visible aspect to OSM is the online web-tile interface from https://www.openstreetmap.org, but the maps can also be viewed, imported, or edited in many applications such as :doc:`QGIS <qgis_overview>` , :doc:`OpenLayers <openlayers_overview>`, ArcGIS and dedicated OSM applications.
 
 The heart of the project is the underlying data which is open for all to edit, view, or create custom rendered maps. Fundamentally OSM's focus is on the data, the rich maps simply fall out of this.
 
@@ -61,7 +61,7 @@ The smaller CBD extract is loaded into another PostGIS database called "pgroutin
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.openstreetmap.org/ 
+**Website:** https://www.openstreetmap.org/
 
 **License:** `Open Data Commons Open Database License (ODbL) <http://opendatacommons.org/licenses/odbl/>`_
 
@@ -71,5 +71,5 @@ Details
 
 **Spatial coordinate system:** Latitude-Longitude WGS84
 
-**Support:** http://wiki.openstreetmap.org/
+**Support:** https://www.openstreetmap.org/help
 
