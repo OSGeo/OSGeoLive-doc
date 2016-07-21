@@ -1,15 +1,15 @@
-:Author: Hamish Bowman
+:Authors: Hamish Bowman, Marco Brancolini
 :Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
-  :target: http://www.osm.org/
+  :target: https://www.openstreetmap.org/
 
 
-OpenStreetMap
+OpenStreetMap (OSM)
 ================================================================================
 
 Kartendaten
@@ -17,7 +17,7 @@ Kartendaten
 
 OpenStreepMap (OSM) ist eine Wiki-Weltkarte, die sich zur einer der detailliertesten Quellen für Kartendaten im lokalen Maßstab entwickelt hat. Die Ausgangskartendaten werden von Tausenden von Freiwilligen auf der ganzen Welt erstellt und gepflegt, in einem Verfahren, das der Pflege der Wikipedia ähnelt.
 
-Der offensichtlichste Anwendung von OSM ist das Webinterface unter http://www.osm.org, aber Karten können in vielen verschiedenen Anwendungen wie :doc:`QGIS <qgis_overview>` , :doc:`OpenLayers <openlayers_overview>`, ArcGIS und dezidierten OSM Anwendungen betrachtet, importiert oder editiert werden.
+Der offensichtlichste Anwendung von OSM ist das Webinterface unter https://www.openstreetmap.org, aber Karten können in vielen verschiedenen Anwendungen wie :doc:`QGIS <qgis_overview>` , :doc:`OpenLayers <openlayers_overview>`, ArcGIS und dezidierten OSM Anwendungen betrachtet, importiert oder editiert werden.
 
 Das Herz des Projekts sind die zugrunde liegenden Daten, die von allen zur Bearbeitung, Betrachtung oder Erzeugung eigener Karten dienen können. Im Grunde liegt der Schwerpunkt von OSM auf den Daten, die reichhaltigen Karten sind sozusagen Nebenprodukt hiervon.
 
@@ -27,6 +27,7 @@ Die OSGeo-Live ditribution beinhaltet einen Auszug der OSM Daten, die für einig
   :scale: 55 %
   :alt: OSM screenshot
   :align: right
+
 
 Kernfunktionen
 --------------------------------------------------------------------------------
@@ -61,7 +62,7 @@ Ein kleinerer CBD Auszug wurde in die PostGIS Datenbank "pg_routing" geladen.
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.openstreetmap.org/ 
+**Webseite:** https://www.openstreetmap.org/
 
 **Lizenz:** `Open Data Commons Open Database License (ODbL) <http://opendatacommons.org/licenses/odbl/>`_
 
@@ -71,5 +72,5 @@ Details
 
 **Räumliches Koordinatensystem:** Latitude-Longitude WGS84
 
-**Support:** http://wiki.openstreetmap.org/
+**Support:** https://www.openstreetmap.org/help
 
