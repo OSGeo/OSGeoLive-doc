@@ -16,7 +16,8 @@ render reSt documents as HTML from the online SVN browser.
 
 2. The included make file will generate the documentation
 ::
-   cd trunk/doc
+   git clone https://github.com/OSGeo/OSGeoLive-doc.git
+   cd OSGeoLive-doc
    make html
 
    View output in _build/html/en/index.html
