@@ -23,6 +23,7 @@ Habilitar pgRouting en la base de datos
 En este ejemplo se crea la base de datos llamada `city_routing` y se habilita pgRouting en la base de datos.
 
 * Abre la ventana :menuselection:`Applications --> Accessories --> Terminal` y ejecuta psql:
+
 (psql es una herramienta de línea de comandos empaquetada junto con PostgreSQL)
 
 .. code-block:: bash
