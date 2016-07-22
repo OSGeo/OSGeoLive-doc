@@ -53,13 +53,12 @@ Web サービス
 * :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
 * :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`] - プロキシ WMS & タイルサービス
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
+* :doc:`istsos_overview` - [:doc:`クイックスタート <../quickstart/istsos_quickstart>`] - Sensor Observation Service
 * :doc:`52nSOS_overview` - [:doc:`クイックスタート <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`52nWPS_overview` - [:doc:`クイックスタート <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`pywps_overview` - [:doc:`クイックスタート <../quickstart/pywps_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`クイックスタート <../quickstart/tinyows_quickstart>`] - WFS-T サービス
-
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web セキュリティサービス
 
 データストア
 --------------------------------------------------------------------------------
@@ -87,7 +86,7 @@ Web サービス
 * :doc:`otb_overview` - [:doc:`クイックスタート <../quickstart/otb_quickstart>`] -画像処理
 * :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
 * :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
-* :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - 地図タイルの作成
+* :doc:`mapslicer_overview`  - [:doc:`クイックスタート <../quickstart/mapslicer_quickstart>`] - 地図タイルの作成
 * :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
 * :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
 
@@ -119,7 +118,7 @@ Web サービス
 * :doc:`geotools_overview` - Java GIS ツールキット 
 * :doc:`geos_overview` - C/C++ 空間ライブラリ
 * :doc:`metacrs_overview` - 座標参照系の変換
-* :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR データへのアクセス
+* :doc:`liblas_overview` - [:doc:`クイックスタート <../quickstart/liblas_quickstart>`] - LiDAR データへのアクセス
 * :doc:`iris_overview` - [:doc:`クイックスタート <../quickstart/iris_quickstart>`] - 気象学と気候学
 
 その他の関連ソフトウェア (Live 未収録)
@@ -135,15 +134,9 @@ Microsoft Windows のみで利用可能:
 * :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`] - Web サービス、OSGeo-Live 5.0 以降未収録 (ディスク容量節約のため)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
+* :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web Security Service、OSGeo-Live 6.5 以後未収録
 * :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
-* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
-* :doc:`tilemill_overview` - [:doc:`クイックスタート <../quickstart/tilemill_quickstart>`] - スタイリングとパブリッシング
+* :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
+* :doc:`tilemill_overview` - [:doc:`クイックスタート <../quickstart/tilemill_quickstart>`] - スタイリングとパブリッシング、OSGeo-Live 9.5 以降未収録
 
-
-Windows 及び Apple インストーラー
---------------------------------------------------------------------------------
-OSGeo-Live の完全なイメージに含まれているもの:
-
-* `Microsoft Windows インストーラー <../../WindowsInstallers/>`_
-* `Apple OSX インストーラー <../../MacInstallers/>`_
 

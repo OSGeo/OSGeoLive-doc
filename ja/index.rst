@@ -34,8 +34,7 @@ OSGeo-Live は様々な地理空間関連の保管、配布、表示、分析、
 #. Enter ボタンを押しスタート、ログインを行う
 #. Geospatial メニューからアプリケーションを試す
 
-多くのアプリケーションは、 `Apple OSX <../MacInstallers/>`_ や  `Microsoft Windows <../WindowsInstallers/>`_
-フォルダ内のインストーラ形式でも提供されています。
+OSGeo-Live は `OSGeo 財団 <http://osgeo.org/>`_ のプロジェクトです。OSGeo 財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、及び `教育 <http://www.geoforall.org/>`_ をサポートしています。
 
 .. only:: html
 

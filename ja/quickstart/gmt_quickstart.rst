@@ -17,18 +17,12 @@ GMT クイックスタート
 実行
 ================================================================================
 
-この Live DVD に含まれているものはGMTのドキュメント (HTMLとPDF)、
-サンプルスクリプト (低解像度の海岸線データ含む)、
-チュートリアル (HTMLとPDF)、そしてチュートリアル用のデータです。
 
-HTMLとPDFのドキュメントは以下の場所にあります
+ローカルのドキュメントは以下の場所にあります
   `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
-サンプルスクリプトは
+サンプルスクリプトは以下の場所にあります
   `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_,
-そしてチュートリアルデータは
-  `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_.
 
-低解像度の海岸線データは :file:`/usr/share/gmt/coast/`.
 
 .. packages:
   gmt-doc (and -pdf)
@@ -46,9 +40,9 @@ HTMLとPDFのドキュメントは以下の場所にあります
 
 ::
 
-  cp -r /usr/share/doc/gmt-examples/examples/ gmt-examples
-  cd gmt-examples/
-  ./do_examples.csh
+  cp -R /usr/share/doc/gmt/examples gmt-examples
+  cd gmt-examples/ex20
+  ./example_20.sh
 
 `[.. 処理が終わるのを待って ..]`
 
@@ -56,10 +50,7 @@ HTMLとPDFのドキュメントは以下の場所にあります
 
 ::
 
-  for PLOT in *.ps ; do
-     echo "$PLOT"
-     gv "$PLOT"
-  done
+  gv example_20.ps
 
 .. Rubric:: 参照情報
 .. [#gv] Ghostview  http://www.gnu.org/software/gv/
