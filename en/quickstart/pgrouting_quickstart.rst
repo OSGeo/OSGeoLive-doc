@@ -40,7 +40,7 @@ At psql prompt type:
 
 If you are running PostgreSQL 9.6+, you can skip the postgis line and do :code:`CREATE EXTENSION pgrouting CASCADE;`
 
-You can verify your installion by running this:
+You can verify your installation by running this:
 
 .. code-block:: sql
 
