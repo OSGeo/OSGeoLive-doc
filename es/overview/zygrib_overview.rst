@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Translator: Mauricio Pazos
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons
 
 .. _zygrib-overview-es:
@@ -42,7 +42,7 @@ Detalles
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 6.2.1
+**Software Version:** |version-zygrib|
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
