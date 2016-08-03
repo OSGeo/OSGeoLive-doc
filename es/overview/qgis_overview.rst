@@ -2,7 +2,7 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Roberto Antolín
 :Reviewer: Angelos Tzotsos
-:Version: osgeo-live9.5
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -87,7 +87,7 @@ Detalles
 
 **Licencia:**  GNU General Public License (GPL) version 2
 
-**Versión del software:** 2.14.0
+**Versión del software:** |version-qgis|
 
 **Plataformas soportadas:** Windows, Linux, Mac, Unix
 
