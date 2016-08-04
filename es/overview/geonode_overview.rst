@@ -1,10 +1,10 @@
 :Author: Barbara Angerer, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: David Mateos
-:Version: osgeo-live7.0
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geonode.jpg
+.. image:: ../../images/project_logos/logo-geonode.png
   :alt: project logo
   :align: right
   :target: http://geonode.org
@@ -76,7 +76,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2.0
 
-**Versión de Software :** 2.0 RC1
+**Versión de Software :** |version-geonode|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
