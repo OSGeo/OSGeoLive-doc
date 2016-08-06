@@ -8,7 +8,7 @@
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -106,7 +106,7 @@ Zaimplementowane standardy
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://geoserver.org/display/GEOS/Welcome
+**Strona internetowa:** http://geoserver.org/
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
@@ -116,7 +116,7 @@ Szczegóły
 
 **Interfejsy API:** WMS, WFS, WCS, REST
 
-**Wsparcie:** http://geoserver.org/display/GEOS/Commercial+Support
+**Wsparcie:** http://geoserver.org/support/
 
 Szybkie wprowadzenie
 --------------------------------------------------------------------------------
