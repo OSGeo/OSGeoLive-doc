@@ -7,7 +7,7 @@
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: Logo du projet
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -83,7 +83,7 @@ Support de nombreux standards de l'Open Geospatial Consortium  (OGC):
 Détails
 --------------------------------------------------------------------------------
 
-**Site web:** http://geoserver.org/display/GEOS/Welcome
+**Site web:** http://geoserver.org/
 
 **Licence:** Licence GNU General Public (GPL) version 2
 
@@ -93,7 +93,7 @@ Détails
 
 **Interfaces de l'API:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/display/GEOS/Commercial+Support
+**Support:** http://geoserver.org/support/
 
 Guide de démarrage rapide
 --------------------------------------------------------------------------------

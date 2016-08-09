@@ -7,7 +7,7 @@
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -79,7 +79,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://geoserver.org/display/GEOS/Welcome
+**ウェブサイト:** http://geoserver.org/
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
@@ -89,7 +89,7 @@ GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC
 
 **API インターフェース:** WMS、 WFS、 WCS、 REST
 
-**サポート:** http://geoserver.org/display/GEOS/Commercial+Support
+**サポート:** http://geoserver.org/support/
 
 クイックスタート
 --------------------------------------------------------------------------------

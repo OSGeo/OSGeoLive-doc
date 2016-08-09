@@ -11,7 +11,7 @@
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_project.png 
   :scale: 100 %
@@ -98,7 +98,7 @@ Standares Implementados
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio Web:** http://geoserver.org/display/GEOS/Welcome
+**Sitio Web:** http://geoserver.org/
 
 **Licencia:** GNU General Public License (GPL) version 2
 
@@ -108,7 +108,7 @@ Detalles
 
 **Interfaces API:** WMS, WFS, WCS, REST
 
-**Soporte:** http://geoserver.org/display/GEOS/Commercial+Support
+**Soporte:** http://geoserver.org/support/
 
 Quickstart
 --------------------------------------------------------------------------------
