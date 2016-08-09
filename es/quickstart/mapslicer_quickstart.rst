@@ -1,8 +1,10 @@
 :Author: OSGeo-Live
 :Author: Petr Pridal
 :Author: Christopher Fleet
+:Author: Angelos Tzotsos
 :Translator: Mario Andino
-:Version: osgeo-live4.5
+:Translator: David Mateos
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-mapslicer.png
@@ -15,7 +17,7 @@ Inicio Rápido de MapSlicer
 
 `MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ Provee una forma sencilla de crear un conjunto de mosaicos a partir de cualquier mapa de imagen georeferenciado. Los mosaicos pueden ser representados como una capa de mapas georeferenciados en un servidor web. De acuerdo a la especificación de la `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_.
 
-* **Opciones de Origen**: Cualquier archivo de imagen georeferenciado, eg. a TIFF, JPEG from ArcGIS, QGIS.
+* **Opciones de Origen**: Cualquier archivo de imagen georeferenciado, ej. un TIFF, JPEG de ArcGIS, QGIS.
 * **Opciones de Salida**: Un conjunto de directorios con mosaicos de imagenes que pueden ser copiadas a un servidor web para representación como capa georeferenciada.
 * **Fortalezas**: MapSlicer es simple, gratis, software de fuente abierta, con un aistente fácil, descrito a continuación, para guía a través de las opciones.
 
@@ -69,3 +71,30 @@ Inicio de MapSlicer
     :align: center
 
 9. Click en **Render** para iniciar la preparación de la imagen. Cuando termine, MapSlicer muestra un link al conjunto de mosaicos terminado. Abre el archivo *googlemaps.html* o *openlayers.html*  en un navegador para ver el conjunto de mosaicos superpuesta en el mapa en vivo. Para publicarlo en la web, solo copia el conjunto de mosaicos entero y todos los subdirectorios a un servidor web, y edita el archivo googlemaps.html o openlayers.html como lo desees.
+
+10. Cuando termine, MapSlicer muestra un link al conjunto de mosaicos terminado.
+
+.. image:: ../../images/screenshots/1024x768/mapslicer9.jpg
+    :align: center
+
+11. Abre el archivo *openlayers.html*  en un navegador para ver el conjunto de mosaicos superpuesta en el mapa en vivo. Para publicarlo en la web, solo copia el conjunto de mosaicos entero y todos los subdirectorios a un servidor web, y edita el archivo googlemaps.html o openlayers.html como lo desees.
+
+.. image:: ../../images/screenshots/1024x768/mapslicer10.jpg
+    :align: center
+
+Uso de gdal2tiles para crear una base de datos MBTiles
+--------------------------------------------------------------------------------
+
+MapSlicer es esencialmente una interfaz gráfica para el script `gdal2tiles.py`. En el DVD Live también está presente una versión actualizada de  `gdal2tiles.py`. Los árboles de teselas resultantes creados por ese programa se pueden usar con el programa `mb-util` para crear una base de datos mbtiles, para su uso con software de smartphone como  `Geopaparazzi <http://geopaparazzi.github.io/geopaparazzi/>`.
+
+Para crear una base de datos SQLite de MBTiles a partir del arbol de teselas (mosaicos) recientemente creado, abrir una terminal 
+
+::
+
+  cp data/raster/bluemarble.tif .
+  mapslicer    # (seleccionar /home/user/bluemarble.tif para la entrada, JPEG como formato)
+  mb-util --scheme=tms --image_format=jpg bluemarble bluemarble.mbtiles
+  qgis bluemarble.mbtiles
+
+Ver `gdal2tiles.py --help` y `mb-util --help` para información adicional sobre el uso de estas herramientas. 
+
