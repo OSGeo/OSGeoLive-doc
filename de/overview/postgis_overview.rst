@@ -23,7 +23,7 @@ Räumliche Datenbank
 
 PostGIS erweitert PostgreSQL um geografische Objekte und Funktionen. Es eignet sich für als Back-End-Datenbank für geografische Informationssysteme (GIS) und Web-Mapping Anwendungen. 
 
-PostGIS ist stabil, schnell, standard-konform, mit Hunderten von räumlichen Funktionen und ist derzeit die am weitesten verbreitete Open Source Datenbank mit Unterstützung geografischer Objekte und Funktionen. PostGIS ist die am weitest verbreitete räumliche Datenbank. Es ist stabil, schnell, standard-konform und stellt eine Vielezahl räumlicher Funktionen bereit. 
+PostGIS ist die am weitest verbreitete räumliche Datenbank. Es ist stabil, schnell, standard-konform und biete eine Vielezahl von räumlicher Funktionen. 
 
 PostGIS wird weltweit von vielen großen Organisationen und Firmen eingestetzt um große Datenmengen zu verwalten und online zu Verfügung zu stellen. 
 Die Datenbank-Administration ist unter anderem mit pgAdmin und phpPgAdmin möglich. Der Im- und Export von Daten wird von verschiedenen Konverter-Tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) unterstützt. Es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen zur Anzeige von PostGIS-Daten.
