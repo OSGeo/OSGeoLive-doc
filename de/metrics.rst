@@ -16,7 +16,7 @@ bestehen und Javascript muss aktiviert sein.
 
 Desktop GIS
 --------------------------------------------------------------------------------
-Generelle Geodaten Anzeige, Barbeitung und Analyse auf einer Desktopmaschine:
+Darstellung, Bearbeitung und Analyse von Geodaten auf Desktop-Computern:
 
 .. raw:: html
 
@@ -33,8 +33,7 @@ Fehlend:
 
 Browser GIS Anwendungen
 --------------------------------------------------------------------------------
-Generelle Geodaten Anzeige, Barbeitung und Analyse im Browser:
-
+Darstellung, Bearbeitung und Analyse von Geodaten im Browser:
 .. raw:: html
 
   <script type="text/javascript" src="http://www.openhub.net/p/openlayers/widgets/project_factoids_stats.js"></script>
