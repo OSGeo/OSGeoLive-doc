@@ -77,7 +77,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC standards compliant (WMS,WFS(Plugin))
+* OGC standards compliant (WMS, WFS, ... )
 
 Details
 --------------------------------------------------------------------------------
