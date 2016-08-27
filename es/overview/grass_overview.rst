@@ -1,8 +1,10 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Markus Neteler
 :Translator: Roberto Antolín
-:Version: osgeo-live6.5
+:Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-:Copyright: 2011 by The OSGeo Foundation
+:Copyright: 2011-2015 by The OSGeo Foundation
 
 .. image:: ../../images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -37,23 +39,13 @@ idiomas diferentes y soporta una enorme variedad de formátos de datos.
    :alt: screenshot
    :align: right
 
-GRASS se utiliza actualmente en todo el mundo, tanto en actividades académicas,
-como comerciales, así­ como en muchas agencias gubernamentales y consultorías de
-Medio Ambiente. Corre en variadas plataformas hardware y es un software libre y
-de código abierto, publicado bajo los términos de licencia `GNU General Public
-License`.
+GRASS se utiliza actualmente en todo el mundo, tanto en actividades académicas, como comerciales, así­ como en muchas agencias gubernamentales y consultorías de Medio Ambiente. Corre en variadas plataformas hardware y es un software libre y de código abierto, publicado bajo los términos de licencia `GNU General Public License`.
 
 El software GRASS incluye más de 400 módulos de análisis integrados.
-Adicionalmente, más de 100 módulos y herramientas comunitarias están disponibles
-libremente en el sitio Wiki de la comunidad. Tras 30 años de desarrollo
-contínuo, GRASS es el mayor y más antiguo GIS de código abierto disponible. Se
-puede desarrollar fácilmente con él a través de scripting, siendo
-suficientemente versátil tanto para ser utilizado en procesos por lotes de datos
-en paralelo sobre supercomputadoras, como manualmente a través de la interfaz de
-escritorio, disponible también para PDA's y netbooks.
+Adicionalmente, más de 100 módulos y herramientas comunitarias están disponibles libremente en el sitio Wiki de la comunidad. Tras 30 años de desarrollo contínuo, GRASS es el mayor y más antiguo GIS de código abierto disponible. Se puede desarrollar fácilmente con él a través de scripting, siendo suficientemente versátil tanto para ser utilizado en procesos por lotes de datos en paralelo sobre supercomputadoras, como manualmente a través de la interfaz de escritorio, disponible también para PDA's y netbooks.
 
 
-.. _GRASS: http://grass.osgeo.org
+.. _GRASS GIS: http://grass.osgeo.org
 
 Características clave
 --------------------------------------------------------------------------------
@@ -68,7 +60,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión del software:** 7.0.3
+**Versión del software:** |version-grass|
 
 **Plataformas soportadas:** GNU/Linux, Mac OSX, MS Windows
 

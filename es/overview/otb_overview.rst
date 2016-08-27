@@ -5,8 +5,6 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _otb-overview-es:
-
 .. image:: ../../images/project_logos/logo-otb.png
   :alt: project logo
   :align: right
@@ -39,7 +37,7 @@ como código de fuente abierta.
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg 
+.. image:: ../../images/screenshots/1024x768/otb-mvd3-screenshot.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right
@@ -68,7 +66,7 @@ Detalles
 **Licencia:** CeCILL (CeCILL es compactible con GPL y mejorado en orientación de 
   la ley Francesa)
 
-**Versión de software:** 4.2.1
+**Versión de software:**  |version-otb|
 
 **Plataformas soportadas:** Linux, Mac, Windows
 
