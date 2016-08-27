@@ -106,6 +106,7 @@ OpenStreetMap tools
 
   <script type="text/javascript" src="http://www.openhub.net/p/josm/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/osmosis/widgets/project_factoids_stats.js"></script>
 
 Spatial Tools
 --------------------------------------------------------------------------------
