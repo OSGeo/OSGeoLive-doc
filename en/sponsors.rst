@@ -35,7 +35,7 @@ provides hardware resources and development support to the OSGeo-Live project.
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
-  :target: http://wiki.debian.org/DebianGis
+  :target: https://wiki.debian.org/DebianGis
 
 The DebianGIS and UbuntuGIS projects provide and quality-assure many of
 the core packages.
