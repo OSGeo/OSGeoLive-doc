@@ -69,6 +69,7 @@ Publishing spatial data to the internet:
   <script type="text/javascript" src="http://www.openhub.net/p/SensorObservationService/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/tinyows/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/zoo-project/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/pyWPS/widgets/project_factoids_stats.js"></script>
 
 Missing:
 
@@ -105,10 +106,8 @@ OpenStreetMap tools
 
   <script type="text/javascript" src="http://www.openhub.net/p/josm/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/merkaartor/widgets/project_factoids_stats.js"></script>
-
-Missing:
-
-* `overview/osmarender <http://wiki.openstreetmap.org/wiki/Osmarender>`_
+  <script type="text/javascript" src="http://www.openhub.net/p/osmosis/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/osm2pgsql/widgets/project_factoids_stats.js"></script>
 
 Spatial Tools
 --------------------------------------------------------------------------------
@@ -123,10 +122,6 @@ Specific analysis tools:
   <script type="text/javascript" src="http://www.openhub.net/p/otb/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/R-project_/widgets/project_factoids_stats.js"></script>
 
-Missing:
-
-* :doc:`overview/tilemill_overview` - Styling and Publishing
-
 Domain Specific GIS
 --------------------------------------------------------------------------------
 Applications targeted at a specific domain:
@@ -135,11 +130,11 @@ Applications targeted at a specific domain:
 
   <script type="text/javascript" src="http://www.openhub.net/p/sahanapy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/ushahidi/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/mb-system/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/osgearth/widgets/project_factoids_stats.js"></script>
 
 Missing:
 
-* :doc:`overview/mb-system_overview` - Sea Floor Mapping
 * :doc:`overview/zygrib_overview` - Weather Forecast Maps
 
 Geospatial Libraries
