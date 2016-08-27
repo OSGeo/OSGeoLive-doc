@@ -123,10 +123,6 @@ Specific analysis tools:
   <script type="text/javascript" src="http://www.openhub.net/p/otb/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/R-project_/widgets/project_factoids_stats.js"></script>
 
-Missing:
-
-* :doc:`overview/tilemill_overview` - Styling and Publishing
-
 Domain Specific GIS
 --------------------------------------------------------------------------------
 Applications targeted at a specific domain:
@@ -135,11 +131,11 @@ Applications targeted at a specific domain:
 
   <script type="text/javascript" src="http://www.openhub.net/p/sahanapy/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/ushahidi/widgets/project_factoids_stats.js"></script>
+  <script type="text/javascript" src="http://www.openhub.net/p/mb-system/widgets/project_factoids_stats.js"></script>
   <script type="text/javascript" src="http://www.openhub.net/p/osgearth/widgets/project_factoids_stats.js"></script>
 
 Missing:
 
-* :doc:`overview/mb-system_overview` - Sea Floor Mapping
 * :doc:`overview/zygrib_overview` - Weather Forecast Maps
 
 Geospatial Libraries
