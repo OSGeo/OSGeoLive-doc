@@ -244,7 +244,7 @@ rst_epilog="""
 .. |version-52nWPS| replace:: 3.4.0 
 .. |version-cartaro| replace:: 1.9
 .. |version-cesium| replace:: 1.18
-.. |version-deegree| replace:: 3.3.13
+.. |version-deegree| replace:: 3.3.18
 .. |version-eoxserver| replace:: 0.4.0
 .. |version-gdal| replace:: 2.1.0
 .. |version-geokettle| replace:: 2.6
