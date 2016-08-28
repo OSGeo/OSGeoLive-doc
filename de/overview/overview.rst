@@ -140,3 +140,4 @@ Auf früheren OSGeo-Live Releases verfügbar:
 * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, eingestellt nach OSGeo-Live 6.5
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, eingestellt nach OSGeo-Live 9.0
+* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Kartengestaltung und Veröffentlichung, eingestellt nach OSGeo-Live 9.5
