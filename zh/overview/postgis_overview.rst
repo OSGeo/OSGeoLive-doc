@@ -16,7 +16,7 @@
 
 .. Writing Tip:
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
     ../../images/project_logos/<filename>
 

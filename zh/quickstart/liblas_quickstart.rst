@@ -115,7 +115,7 @@ LAS 文件重投影
 .. _`LLVM`: http://llvm.org/
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
 .. _`Boost`: http://www.boost.org/
-.. _`DebianGIS`: http://wiki.debian.org/DebianGis
+.. _`DebianGIS`: https://wiki.debian.org/DebianGis
 .. _`gdal_translate`: http://www.gdal.org/gdal_translate.html
 .. _`EPSG`: http://www.epsg-registry.org/
 .. _`EPSG:4326`: http://spatialreference.org/ref/epsg/4326/

@@ -21,7 +21,7 @@
 
 .. Consejo para redactar:
    Los logos del proyecto están almacenados en:
-   https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+   https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
    y se puede acceder a ellos en:
    ../../images/project_logos/<filename>
 

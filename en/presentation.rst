@@ -5,4 +5,4 @@ Presentation
 ================================================================================
 A 30 minute presentation highlighting all OSGeo-Live applications is available with slides and script.
 
-Details at: https://svn.osgeo.org/osgeo/livedvd/promo/trunk/en/presentation/
+Details at: https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation
