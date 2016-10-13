@@ -1,7 +1,7 @@
 :Author: Oliver Tonnhofer
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Mauricio Miranda
-:Version: osgeo-live6.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapproxy.png
@@ -40,54 +40,54 @@ Funcionalidades de MapProxy
   :align: right
 
 Fuentes de entrada:
-  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, etc.)
-  * TMS, WMTS (TileCache, GeoWebcache, etc.)
-  * Mapserver y Mapnik (directamente, sin WMS)
-  * Cualquier fuente de datos compatible con TileCache, Google Maps o Bing
+  * WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer <geoserver_overview>`, etc).
+  * TMS, WMTS (TileCache, GeoWebcache, etc.).
+  * Mapserver y Mapnik (directamente, sin WMS).
+  * Cualquier fuente de datos compatible con TileCache, Google Maps o Bing.
 
 Servicios:
-  * WMS (1.0.0-1.3.0)
-  * TMS
-  * WMTS
-  * KML SuperOverlays
+  * WMS (1.0.0-1.3.0).
+  * TMS.
+  * WMTS.
+  * KML SuperOverlays.
 
 Caché de teselas:
-  * Las imágenes idénticas son almacenadas sólo una vez (ej: teselas del océano)
-  * Las teselas son almacenadas en el sistema de archivos, ficheros MBTile o CouchDB
-  * Agrega marcas de agua a las teselas
+  * Las imágenes idénticas son almacenadas sólo una vez (ej: teselas del océano).
+  * Las teselas son almacenadas en el sistema de archivos, ficheros MBTile o CouchDB.
+  * Agrega marcas de agua a las teselas.
 
 Opciones de fuente:
-  * Limita las fuentes a geometrías (por ejemplo desde archivos Shape)
-  * Agrega transparencia a capas opacas
-  * Une múltiples fuentes
-  * Reproyecta a otro SRS
+  * Limita las fuentes a geometrías (por ejemplo desde archivos Shape).
+  * Agrega transparencia a capas opacas.
+  * Une múltiples fuentes.
+  * Reproyecta a otro SRS.
 
 Funcionalidades WMS:
-  * Construye árboles de capas desde diferentes fuentes
-  * Crea respuestas ``GetMap`` desde caché con soporte de zoom libre y cualquier proyección (para cualquier SIG de escritorio)
-  * Acelera servicios de WMS existentes de 10 a 100 veces
-  * Responde a consultas ``GetLegendGraphic``
-  * Responde a consultas ``GetFeatureInfo`` en cascada con transformaciones XSL opcionales
-  * Reproyección al vuelo
-  * Convierte versiones de WMS y formatos de imagen
+  * Construye árboles de capas desde diferentes fuentes.
+  * Crea respuestas ``GetMap`` desde caché con soporte de zoom libre y cualquier proyección (para cualquier SIG de escritorio).
+  * Acelera servicios de WMS existentes de 10 a 100 veces.
+  * Responde a consultas ``GetLegendGraphic``.
+  * Responde a consultas ``GetFeatureInfo`` en cascada con transformaciones XSL opcionales.
+  * Reproyección al vuelo.
+  * Convierte versiones de WMS y formatos de imagen.
 
 Seguridad:
-  * Una API de autorización flexible y potente
+  * Una API de autorización flexible y potente.
   * Soporta autorización personalizada con control de alta granularidad sobre servicios y capas.
-  * Acceso restringido a áreas (para WMS y servicios de teselas)
-  * Integración con bases de datos de usuarios y métodos de autenticación ya existentes
+  * Acceso restringido a áreas (para WMS y servicios de teselas).
+  * Integración con bases de datos de usuarios y métodos de autenticación ya existentes.
 
 Potentes herramientas:
-  * Herramienta del tipo semilla para llenar la cache que puede iniciar polígonos de áreas
-  * Exportar la cache de las teselas a otros formatos
-  * Calcular escalas y mostrar configuraciones de rejillas
+  * Herramienta del tipo semilla para llenar la cache que puede iniciar polígonos de áreas.
+  * Exportar la cache de las teselas a otros formatos.
+  * Calcular escalas y mostrar configuraciones de rejillas.
 
 Otras funcionalidades:
-  * Formato de configuración simple pero poderos (YAML/JSON)
-  * Demo de cliente basado en OpenLayers
-  * Corre múltiples servicios WMS en una instancia de MapProxy
-  * Agrega texto de atribución a las imágenes
-  * Soporta datos raster que no son imágenes como MDEs (Modelos Digitales de Elevación)
+  * Formato de configuración simple pero poderos (YAML/JSON).
+  * Demo de cliente basado en OpenLayers.
+  * Corre múltiples servicios WMS en una instancia de MapProxy.
+  * Agrega texto de atribución a las imágenes.
+  * Soporta datos raster que no son imágenes como MDEs (Modelos Digitales de Elevación).
   * Mucho más...
 
 Estándares Implementados
@@ -107,7 +107,7 @@ Detalles
 
 **Licencia:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Versión del software:** 1.8.0
+**Versión del software:** |version-mapproxy|
 
 **Platformas soportadas:** Linux, Mac, Windows
 
