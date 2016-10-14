@@ -1,8 +1,9 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Mauricio Pazos
 :Translator: Javi Sanchez
 :Verson: osgeo-live6.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _naturalearth-overview-es:
 
@@ -57,9 +58,9 @@ Detalles
 
 **Licencia:** Ninguna, los datos son de dominio público.
 
-**Versión de los datos:** 2.0
+**Versión de los datos:** 2.0.
 
-**Formato de los datos:** SHP y TIF+TFW
+**Formato de los datos:** SHP y TIF+TFW.
 
 **Sistema de coordenadas:** WGS84.
 
