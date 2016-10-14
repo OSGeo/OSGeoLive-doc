@@ -1,13 +1,13 @@
-:Autor: Klokan Petr Pridal
+:Autor: Klokan Petr Pridal, Angelos Tzotsos
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Javier Sánchez
-:Versión: osgeo-live6.5
+:Versión: osgeo-live8.5
 :Licencia: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
-  :target: https://wiki.osgeo.org/wiki/MapSlicer
+..  :target: https://wiki.osgeo.org/wiki/MapSlicer
 
 
 MapSlicer
@@ -26,35 +26,32 @@ No es necesaria una configuración extensa del servidor, cualquier alojamiento d
 
 La aplicación genera directamente un visor basado en OpenLayers y la API de Google Maps listo para usarse y fácilmente personalizable.
 
-MapSlicer es una aplicación de escritorio multiplataforma. Hay disponibles archivos de instalación para Windows, Mac OS X y ficheros linux (Debian/Ubuntu).
-
 Características principales
 --------------------------------------------------------------------------------
 
-* APIs de Javascript conocidas disponibles: OpenLayers, Google Maps API
-* No es necesaria ninguna instalación adicional de software en el servidor
-* Alojamiento en casi cualquier ubicación: almacenamiento en la nube como Amazon S3 o cualquier alojamiento web barato "sin limitación" con acceso a FTP
-* Fácil *mashup* con capas comerciales (Google, Bing, Yahoo) o OpenStreetMap
-* Las teselas se adecúan al Servicio de especificación de mosaicos cartográficos de OSGEO TMS (Tile Map Service Specification)
-* Habilidad para procesar datos raster en diversos formatos: TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG y más...
-* Ayuda comercial disponible y representación paralela en procesadores multinúcleo o en Amazon EC2
+* APIs de Javascript conocidas disponibles: OpenLayers, Google Maps API.
+* No es necesaria ninguna instalación adicional de software en el servidor.
+* Alojamiento en casi cualquier ubicación: almacenamiento en la nube como Amazon S3 o cualquier alojamiento web barato "sin limitación" con acceso a FTP.
+* Fácil *mashup* con capas comerciales (Google, Bing, Yahoo) o OpenStreetMap.
+* Las teselas se adecúan al Servicio de especificación de mosaicos cartográficos de OSGEO TMS (Tile Map Service Specification).
+* Habilidad para procesar datos raster en diversos formatos: TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG y más....
 
 Detalles
 --------------------------------------------------------------------------------
 
 **Sitio web:** https://wiki.osgeo.org/wiki/MapSlicer
 
-**Licencia:** New BSD License
+**Licencia:** New BSD License.
 
-**Versión del software:** 1.0
+**Código fuente:** https://github.com/geopython/mapslicer
 
-**Plataformas soportadas:** Windows, Linux, Mac
+**Versión del software:** |version-mapslicer|
 
-**Comunidad:** http://groups.google.com/group/mapslicer 
+**Plataformas soportadas:** Windows, Linux, Mac.
 
-**Ayuda comercial y aplicaciones:** https://wiki.osgeo.org/wiki/MapSlicer
+**Comunidad:** http://groups.google.com/group/mapslicer .
 
 Guía rápida
 --------------------------------------------------------------------------------
     
-* :doc:`Guía de inicio rápid <../quickstart/mapslicer_quickstart>`
+* :doc:`Guía de inicio rápido <../quickstart/mapslicer_quickstart>`
