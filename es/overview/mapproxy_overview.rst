@@ -113,8 +113,6 @@ Detalles
 
 **Soporte:** http://mapproxy.org/support.html
 
-**Documentación** `<../../mapproxy/index.html>`_
-
 
 Guía rápida
 --------------------------------------------------------------------------------

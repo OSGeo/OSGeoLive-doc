@@ -60,7 +60,7 @@ Detalles
 
 **Licencia:** AGPL
 
-**Versión de Software:** 2.2.0 
+**Versión de Software:** |version-geomajas|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

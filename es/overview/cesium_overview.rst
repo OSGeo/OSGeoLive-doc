@@ -54,7 +54,7 @@ Detalles
 
 **Licencia:** licencia Apache 2.0.
 
-**Versión del software:** 1.18.
+**Versión del software:** |version-cesium|.
 
 **Plataformas soportadas:**  Es independiente de la plataforma, sólo depende de un navegador con soporte para WebGL.
 

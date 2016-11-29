@@ -10,11 +10,11 @@
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 GeoMoose
@@ -44,7 +44,6 @@ modular se pueden agregar servicios adicionales.
   :alt: GeoMoose Screenshot
   :align: right
 
-
 Características principales
 --------------------------------------------------------------------------------
 
@@ -64,21 +63,20 @@ Características principales
 * Publicación de un número casi ilimitado de capas.
 * Impresión en PDF.
 
-
 Estándares implementados
 --------------------------------------------------------------------------------
-* WMS
-* WFS (client)
-* WFS-T (client)
+* WMS.
+* WFS (client).
+* WFS-T (client).
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Dirección Electrónica:** http://www.geomoose.org/
+**Página web:** http://www.geomoose.org/
 
 **Licencia:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Versión del Software:** 2.7.1
+**Versión del Software:** |version-geomoose|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

@@ -46,11 +46,7 @@ Detalles
 
 **Interfaces API:** C++, Python
 
-
-
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
 * :doc:`Guía de inicio rápido <../quickstart/mapnik_quickstart>`
-
-
