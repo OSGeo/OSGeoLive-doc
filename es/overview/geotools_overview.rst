@@ -37,7 +37,7 @@ Funcionalidades básicas
 
 * Definición de interfaces para las estructuras y conceptos espaciales clave
 
-  * Soporte integrado para geometrías proporcionado por `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Soporte integrado para geometrías proporcionado por `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Atributos y filtros espaciales usando la especificación OGC Filter Encoding
   
 * Una limpia API de acceso a datos soportando el acceso a entidades, soporte de transacciones y bloqueo entre hilos de ejecución

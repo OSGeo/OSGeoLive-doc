@@ -58,7 +58,7 @@ Standards implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://tsusiatsoftware.net/jts/main.html
+**Sito web:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licenza:** LGPL
 
@@ -66,4 +66,4 @@ Dettagli
 
 **Interfacce API:** Java
 
-**Supporto:** http://tsusiatsoftware.net/jts/main.html
+**Supporto:** https://sourceforge.net/projects/jts-topo-suite/

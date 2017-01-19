@@ -6,7 +6,7 @@
 .. image:: ../../images/project_logos/jts_project.png
   :alt: project logo
   :align: right
-  :target: http://tsusiatsoftware.net/jts/main.html
+  :target: https://sourceforge.net/projects/jts-topo-suite/
 
 Σουίτα Τοπολογίας JTS
 ================================================================================
@@ -55,7 +55,7 @@
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Κεντρική ιστοσελίδα:** http://tsusiatsoftware.net/jts/main.html
+**Κεντρική ιστοσελίδα:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Άδεια:** LGPL
 
@@ -63,4 +63,4 @@
 
 **Προγραμματιστικές διεπαφές:** Java
 
-**Υποστήριξη:** http://tsusiatsoftware.net/jts/main.html
+**Υποστήριξη:** https://sourceforge.net/projects/jts-topo-suite/
