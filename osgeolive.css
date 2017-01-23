@@ -52,6 +52,11 @@ h2 {
 	font-size:1.5em;	
 }
 
+/* for consistency with "div.admonition, div.warning" from sphinxdoc.css (".. note::" and ".. warning::") */
+.highlight {
+	margin: 1em 0 1em 0 !important;
+}
+
 .contents {
 	font-size:0.9em;
 	line-height:1.4em;
