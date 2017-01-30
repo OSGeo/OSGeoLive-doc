@@ -22,7 +22,7 @@ GEOS
 Librería espacial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) es un port a C++ de `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_. Incluye las OpenGIS Simple Features para funciones de predicado espacial SQL y operadores espaciales, así como funciones topológicas específicas de JTS.
+GEOS (Geometry Engine - Open Source) es un port a C++ de `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. Incluye las OpenGIS Simple Features para funciones de predicado espacial SQL y operadores espaciales, así como funciones topológicas específicas de JTS.
 
 GEOS es la librería C++ geoespacial más ampliamente utilizada, siendo usada en proyectos como :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`, y por productos propietarios incluyendo `FME <http://www.safe.com/fme/fme-technology/>`_.
 
