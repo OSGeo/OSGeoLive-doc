@@ -252,7 +252,7 @@ rst_epilog="""
 .. |version-geomoose| replace:: 2.9.0
 .. |version-geonetwork| replace:: 3.0.3
 .. |version-geonode| replace:: 2.4.0
-.. |version-geoserver| replace:: 2.8.2
+.. |version-geoserver| replace:: 2.10.1
 .. |version-geos| replace:: 3.5.0
 .. |version-gvsig| replace:: 2.2
 .. |version-gmt| replace:: 5.2.1
