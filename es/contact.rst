@@ -31,10 +31,11 @@ Soporte comercial
 .. image:: ../images/logos/lisasoftlogo.jpg
   :scale: 100%
   :alt: LISAsoft
+  :target: http://lisasoft.com
 
 LISAsoft proporciona soporte comercial para la construcción del Live DVD, así
 como muchas de las aplicaciones empaquetadas en él. Más detalles en
-http://www.lisasoft.com/LISAsoft/support.html
+http://lisasoft.com
 
 Muchas de las aplicaciones empaquetadas tienen tanto soporte de la comunidad
 como soporte comercial. Puede visitar `las páginas  <overview/overview.html>`_
