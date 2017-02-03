@@ -1,4 +1,4 @@
-..:Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
+:Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Agustín Díez
 :Translator: Javi Sánchez
@@ -79,7 +79,7 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Guía de inicio rápido <../quickstart/52nWPS_quickstart.html>`_
+* `Guía de inicio rápido  <../quickstart/52nWPS_quickstart>`
 
 
 
