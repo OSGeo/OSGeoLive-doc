@@ -7,7 +7,7 @@
 .. image:: ../../images/project_logos/jts_project.png
   :alt: project logo
   :align: right
-  :target: http://tsusiatsoftware.net/jts/main.html
+  :target: https://sourceforge.net/projects/jts-topo-suite/
 
 JTS Topology Suite (JTS)
 ================================================================================
@@ -83,7 +83,7 @@ Obsługa wielu standardów Open Geospatial Consortium (OGC):
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://tsusiatsoftware.net/jts/main.html
+**Strona internetowa:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licencja:** LGPL
 

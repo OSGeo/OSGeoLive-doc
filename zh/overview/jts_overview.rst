@@ -50,7 +50,7 @@ JTS Topology Suite (JTS) 拓扑运算函数库
 其它信息
 --------------------------------------------------------------------------------
 
-**官方网站：** http://tsusiatsoftware.net/jts/main.html
+**官方网站：** https://sourceforge.net/projects/jts-topo-suite/
 
 **开源协议：** LGPL
 
@@ -58,5 +58,5 @@ JTS Topology Suite (JTS) 拓扑运算函数库
 
 **接口语言：** Java
 
-**技术支持：** http://tsusiatsoftware.net/jts/main.html
+**技术支持：** https://sourceforge.net/projects/jts-topo-suite/
 

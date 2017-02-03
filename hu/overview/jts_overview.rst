@@ -59,7 +59,7 @@ Implementált szabványok
 Részletek
 --------------------------------------------------------------------------------
 
-**Honlap:** http://tsusiatsoftware.net/jts/main.html
+**Honlap:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licenc:** LGPL
 
@@ -67,4 +67,4 @@ Részletek
 
 **API Interfészek:** Java
 
-**Támogatás:** http://tsusiatsoftware.net/jts/main.html
+**Támogatás:** https://sourceforge.net/projects/jts-topo-suite/

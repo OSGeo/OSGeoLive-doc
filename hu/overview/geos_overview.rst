@@ -23,7 +23,7 @@ Térinformatikai könyvtár
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A GEOS (Geometry Engine - Open Source) a 
-`JAVA Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ C++
+`JAVA Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ C++
 átírása. Tartalmazza az OpenGIS Simple Features for SQL térbeli függvényeit és
 térbeli operátorait, mint ahogy a JTS topológiai függvényeit.
 

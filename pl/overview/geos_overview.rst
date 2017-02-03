@@ -23,7 +23,7 @@ Biblioteka przestrzenna
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GEOS (Geometry Engine - Open Source) jest portem C++ API `JTS Topology Suite 
-(JTS) <http://tsusiatsoftware.net/jts/main.html>`_. Zawiera funkcje i operatory
+(JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. Zawiera funkcje i operatory
 przestrzenne OpenGIS Simple Feature for SQL, oraz zaawansowane funkcje topologiczne dostpne w JTS.
 
 GEOS jest najszerzej stosowaną geoprzestrzenną biblioteką geometrii w C++. 
