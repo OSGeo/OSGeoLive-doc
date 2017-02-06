@@ -1,5 +1,5 @@
 :Author: Bob Basques
-:Version: GeoMoose 2.8.0
+:Version: GeoMoose 2.9.2
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-geomoose_w-title.png
