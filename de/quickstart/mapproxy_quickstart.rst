@@ -24,7 +24,7 @@ Demo starten
 
 MapProxy kann flexibel in vorhandene Systeme eingebaut werden. So ist zum Beispiel eine Integration in den Apache Webserver möglich. Zusätzlich kann MapProxy aber auch als eigener Dienst gestartet werden. Dies ist die einfachste Methode um zu Beginn mit dem MapProxy zu arbeiten.
 
-Um MapProxy als eigenen Service zu starten klicken Sie im Menü unter :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
+Um MapProxy als eigenen Service zu starten, klicken Sie im Menü unter :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
 
 
 MapProxy Demo
@@ -37,7 +37,7 @@ Sie können die Demo im Firefox öffnen: `<http://localhost:8011/demo>`_
 MapProxy im Desktop GIS
 --------------------------------------------------------------------------------
 
-Die Dienste, die über den MapProxy zu Verfügung gestellt werden, können Sie in das Desktop GIS ihrer Wahl zum Beispiel uDig, QGIS oder gvSIG einbinden. Die WMS-URL lautet: `<http://localhost:8011/service?>`_
+Die Dienste, die über MapProxy zu Verfügung gestellt werden, können Sie in das Desktop GIS ihrer Wahl zum Beispiel uDig, QGIS oder gvSIG einbinden. Die WMS-URL lautet: `<http://localhost:8011/service?>`_
 
 Die Beispiel-Konfiguration des MapProxy beinhaltet einige Layer die unterschiedliche Kartenserver und Kartendaten verwenden. Im Folgenden sind nähere Einzelheiten zu den einzelnen Layern beschrieben:
 
@@ -51,22 +51,22 @@ Verfügbare Layer
 --------------------------------------------------------------------------------
 
 **mapnik**:
-  Der Mapnik stellt die Weltbevölkerung graphisch dar. Hierfür muss der Mapnik-Dienst nicht gestartet werden, da der Layer über die direkte Mapnik-Unterstützung in den MapProxy eingebunden ist. 
+  Mapnik stellt die Weltbevölkerung graphisch dar. Hierfür muss der Mapnik-Dienst nicht gestartet werden, da der Layer über eine direkte Mapnik-Unterstützung in MapProxy eingebunden ist. 
 
 **tilelite**:
-  TileLite ist ein einfacher Server zum Ausliefern von Kacheln über den Mapnik. Dieser Layer demonstriert die Fähigkeit bestehende Kachel-Dienste in den MapProxy einzufügen und diese als WMS zur Verfügung zu stellen. 
-  Um den Layer anzuzeigen müssen sie TileLite über *Start Mapnik & TileLite* starten.
+  TileLite ist ein einfacher Server zum Ausliefern von Kacheln über Mapnik. Dieser Layer demonstriert die Fähigkeit, bestehende Kachel-Dienste in MapProxy einzufügen und diese als WMS zur Verfügung zu stellen. 
+  Um den Layer anzuzeigen, müssen Sie TileLite über *Start Mapnik & TileLite* starten.
  
 **geoserver**:
-  In diesem Layer wird die US Bevölkerung mit Hilfe des :doc:`GeoServer <../overview/geoserver_overview>` WMS dargestellt. Der Layer unterstützt ``GetFeatureInfo`` anfragen, welche von mehreren Quellen zusammengefasst wurden. 
-  Um den Layer anzuzeigen müssen sie den GeoServer über |osgeolive-appmenupath-geoserver| starten.
+  In diesem Layer wird die US Bevölkerung mit Hilfe des :doc:`GeoServer <../overview/geoserver_overview>` WMS dargestellt. Der Layer unterstützt ``GetFeatureInfo`` Anfragen, welche von mehreren Quellen zusammengefasst wurden. 
+  Um den Layer anzuzeigen müssen Sie GeoServer über |osgeolive-appmenupath-geoserver| starten.
 
 **mapnik_geoserver**:
-  Dieser Layer demonstriert die Fähigkeit unterschiedliche Quellen in einem Layer zu kombinieren. Der Layer kombiniert die Weltbevölkerung vom Mapnik mit der US Bevölkerung vom GeoServer. Die Unterstützung vom ``GetFeatureInfo`` für den US Bevölkerungs-Layer ist weiterhin verfügbar.
-  Um den Layer anzuzeigen müssen sie den GeoServer über |osgeolive-appmenupath-geoserver| starten.
+  Dieser Layer demonstriert die Fähigkeit, unterschiedliche Quellen in einem Layer zu kombinieren. Der Layer kombiniert die Weltbevölkerung vom Mapnik mit der US Bevölkerung vom GeoServer. Die Unterstützung vom ``GetFeatureInfo`` für den US Bevölkerungs-Layer ist weiterhin verfügbar.
+  Um den Layer anzuzeigen, müssen Sie GeoServer über |osgeolive-appmenupath-geoserver| starten.
 
 **mapserver**:
-  Dieser Layer bindet den Mapserver Itasca Demo-Datensatz ein. Dieses ist ein lokaler Datensatz, der mittels der *Coverage*-Funktion von MapProxy auf die BBOX von Itasca, IL limitiert wurde.
+  Dieser Layer bindet den Mapserver Itasca Demo-Datensatz ein. Es handelt sich hierbei um einen lokalen Datensatz, der mittels der *Coverage*-Funktion von MapProxy auf die BBOX von Itasca, IL limitiert wurde.
 
 
 Eigene MapProxy Konfiguration erstellen
@@ -78,12 +78,12 @@ Neue Konfiguration erstellen:
 
   mapproxy-util create -t base-config ~/mapproxy
 
-MapProxy-Testserver unter Port 8011 und mit der Beispiel Konfiguration starten:
+MapProxy-Testserver unter Port 8011 und mit der Beispiel-Konfiguration starten:
 
   mapproxy-util serve-develop ~/mapproxy/mapproxy.yaml -b 0.0.0.0:8011
 
 Sie können nun die Demo aufrufen: http://127.0.0.1:8011/demo/.
-MapProxy startet automatisch neu wenn Sie Änderungen an der Konfigurationsdatei durchgeführt haben. 
+MapProxy startet automatisch neu, wenn Sie Änderungen an der Konfigurationsdatei durchgeführt haben. 
 
 Der nächste Schritt
 --------------------------------------------------------------------------------
