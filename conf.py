@@ -23,7 +23,9 @@ execfile('settings.py')
 # -- General configuration -----------------------------------------------------
 
 fileIN = open("VERSION.txt", "r")
-version = fileIN.readline()
+extract = fileIN.readline()
+line = extract.split()
+version =  line[0] + " " + line[1]
 fileIN.close()
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
@@ -241,7 +243,7 @@ rst_epilog="""
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
 .. |version-52nSOS| replace:: 4.3.9
-.. |version-52nWPS| replace:: 3.4.0 
+.. |version-52nWPS| replace:: 3.4.0
 .. |version-cartaro| replace:: 1.9
 .. |version-cesium| replace:: 1.18
 .. |version-deegree| replace:: 3.3.18
@@ -280,7 +282,7 @@ rst_epilog="""
 .. |version-otb| replace:: 5.8.0
 .. |version-pgrouting| replace:: 2.3.2
 .. |version-postgis| replace:: 2.3.2
-.. |version-proj4| replace:: 4.4.9 
+.. |version-proj4| replace:: 4.4.9
 .. |version-pycsw| replace:: 2.0.2
 .. |version-pywps| replace:: 4.0.0
 .. |version-qgis_mapserver| replace:: 2.14.11
