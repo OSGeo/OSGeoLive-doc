@@ -423,7 +423,7 @@ Nun wollen wir DB Manager zum Import von Shape in die Datenbank nutzen. Wir werd
 
 Wählen Sie über das Menü ``Tabelle` die Option ``Layer/Datei importieren``.
 Klicken Sie den Button ``...`` und wählen Sie die Shapedatei ``sids.shp`` in dem R ``Maptools`` Paket 
-(dies befindet sich unter /usr/lib/R/site-library/maptools/shapes/) aus:
+(dies befindet sich unter /usr/lib/R/site-library/spdep/etc/shapes/) aus:
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
