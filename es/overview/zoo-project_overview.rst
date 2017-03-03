@@ -1,7 +1,7 @@
 :Author: Gérald Fenoy
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Jorge Sanz
-:Version: osgeo-live6.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-Zoo.png
@@ -64,9 +64,9 @@ momento pueden implementarse en C/C++, Fortran, Java, Python, PHP y JavaScript.
 Funcionalidades principales
 --------------------------------------------------------------------------------
 
-- Servidor WPS multi-lenguaje
-- Sencillo procedimiento de creación y despliegue de servicios *web*
-- Sencillo encadenamiento de WPS usando la ZOO API 
+- Servidor WPS multi-lenguaje.
+- Sencillo procedimiento de creación y despliegue de servicios *web*.
+- Sencillo encadenamiento de WPS usando la ZOO API.
 
 Estándares implementados
 --------------------------------------------------------------------------------
@@ -88,7 +88,7 @@ Detalles
 
 **Licencia:** MIT x/11
 
-**Versión del Software:** 1.2.0
+**Versión del Software:** |version-zoo-project|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

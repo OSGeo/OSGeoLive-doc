@@ -1,4 +1,5 @@
 :Author: Gavin Treadgold
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Jesús Gómez
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -28,7 +29,6 @@ El sistema fue utilizado oficialmente por el Gobierno de Sri Lanka y se liberó 
   :scale: 80 %
   :alt: screenshot
   :align: right
-
 
 Características principales
 --------------------------------------------------------------------------------

@@ -41,7 +41,7 @@ Características principales
 
 * Una API, tres Vistas: 
 
-  * Cesium soporta im globo 3D, mapa 2D y una vista Columbus 2.5D con la misma API.
+  * Cesium soporta un globo 3D, un mapa 2D y una vista Columbus 2.5D con la misma API.
 
 Estándares implementados
 --------------------------------------------------------------------------------

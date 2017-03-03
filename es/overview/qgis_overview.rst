@@ -2,6 +2,7 @@
 :Reviewer: Cameron Shorter, LISAsoft
 :Translator: Roberto Antolín
 :Reviewer: Angelos Tzotsos
+:Reviewer: Nicolas Roelandt
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -78,7 +79,7 @@ Características principales
 Implementación de estándares
 --------------------------------------------------------------------------------
 
-* Compatible con estándares OGC (WMS, WFS (Complemento))
+* Compatible con estándares OGC (WMS, WFS, ...)
 
 Detalles
 --------------------------------------------------------------------------------
