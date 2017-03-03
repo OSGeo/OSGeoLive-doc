@@ -24,6 +24,9 @@ execfile('settings.py')
 
 fileIN = open("VERSION.txt", "r")
 version = fileIN.readline()
+#extract = fileIN.readline()
+#line = extract.split()
+#version =  line[0] + " " + line[1]
 fileIN.close()
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
@@ -240,54 +243,54 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
-.. |version-52nSOS| replace:: 4.3.6
-.. |version-52nWPS| replace:: 3.4.0 
+.. |version-52nSOS| replace:: 4.3.9
+.. |version-52nWPS| replace:: 3.4.0
 .. |version-cartaro| replace:: 1.9
 .. |version-cesium| replace:: 1.18
 .. |version-deegree| replace:: 3.3.18
 .. |version-eoxserver| replace:: 0.4.0
-.. |version-gdal| replace:: 2.1.0
+.. |version-gdal| replace:: 2.1.3
 .. |version-geokettle| replace:: 2.6
 .. |version-geomajas| replace:: 2.4.0
-.. |version-geomoose| replace:: 2.9.0
+.. |version-geomoose| replace:: 2.9.2
 .. |version-geonetwork| replace:: 3.0.3
 .. |version-geonode| replace:: 2.4.0
 .. |version-geoserver| replace:: 2.10.1
-.. |version-geos| replace:: 3.5.0
+.. |version-geos| replace:: 3.5.1
 .. |version-gvsig| replace:: 2.2
 .. |version-gmt| replace:: 5.2.1
 .. |version-gpsprune| replace:: 18.3.0
-.. |version-grass| replace:: 7.0.4
+.. |version-grass| replace:: 7.2.0
 .. |version-iris| replace:: 1.9.2
 .. |version-istsos| replace:: 2.3.0
 .. |version-jupyter| replace:: 4.1
 .. |version-kosmo| replace:: 3.1
 .. |version-leaflet| replace:: 0.7.3
-.. |version-liblas| replace:: 1.8.0
+.. |version-liblas| replace:: 1.8.1
 .. |version-mapbender| replace:: 3.0.5.3
 .. |version-mapnik| replace:: 3.0.11
-.. |version-mapproxy| replace:: 1.8.2
-.. |version-mapserver| replace:: 7.0.1
+.. |version-mapproxy| replace:: 1.9.0
+.. |version-mapserver| replace:: 7.0.4
 .. |version-mapslicer| replace:: 1.0.rc2
 .. |version-marble| replace:: 15.12.3
 .. |version-mb-system| replace:: 5.5.2274
 .. |version-ncWMS| replace:: 1.2
 .. |version-opencpn| replace:: 4.2.0
-.. |version-openjump| replace:: 1.9.0
+.. |version-openjump| replace:: 1.10.0
 .. |version-openlayers| replace:: 3.13.1
 .. |version-osgearth| replace:: 2.5.0
 .. |version-ossim| replace:: 1.8.20-3
-.. |version-otb| replace:: 5.4.0
-.. |version-pgrouting| replace:: 2.2.3
-.. |version-postgis| replace:: 2.2.2
-.. |version-proj4| replace:: 4.4.9 
-.. |version-pycsw| replace:: 1.10.4
-.. |version-pywps| replace:: 3.2.5
-.. |version-qgis_mapserver| replace:: 2.14.3
-.. |version-qgis| replace:: 2.14.3
-.. |version-rasdaman| replace:: 9.2.0
+.. |version-otb| replace:: 5.8.0
+.. |version-pgrouting| replace:: 2.3.2
+.. |version-postgis| replace:: 2.3.2
+.. |version-proj4| replace:: 4.4.9
+.. |version-pycsw| replace:: 2.0.2
+.. |version-pywps| replace:: 4.0.0
+.. |version-qgis_mapserver| replace:: 2.14.11
+.. |version-qgis| replace:: 2.14.11
+.. |version-rasdaman| replace:: 9.3.2
 .. |version-R| replace:: 3.3.1
-.. |version-saga| replace:: 2.2.7
+.. |version-saga| replace:: 2.3.1
 .. |version-sahana| replace:: snapshot 1-1-2015
 .. |version-spatialite| replace:: 4.3.0a
 .. |version-tinyows| replace:: 1.1.1
@@ -296,7 +299,7 @@ rst_epilog="""
 .. |version-ushahidi| replace:: 2.7.4
 .. |version-viking| replace:: 1.6.0
 .. |version-worldwindjava| replace:: 2.0.0
-.. |version-zoo-project| replace:: 1.5.0
+.. |version-zoo-project| replace:: 1.6.0
 .. |version-zygrib| replace:: 7.0.0
 """ % {
   'projectname':project,
