@@ -17,9 +17,9 @@ Globo Virtual de Escritorio
 
 WorldWind Java es un globo virtual que contiene un gran conjunto de funcionalidades para visualizar e interactuar con información geográfica y representar un amplio abanico de objetos geográficos.
 
-Gracias al uso de Modelos Digitales de Elevaciones (MDE, *DEM* por sus siglas en inglés), es posible ver elementos topográficos, como el Gran Cañón o el Everest, en tres dimensiones. t
+Gracias al uso de Modelos Digitales de Elevaciones (MDE, *DEM* por sus siglas en inglés), es posible ver elementos topográficos, como el Gran Cañón o el Everest, en tres dimensiones.
 
-Organizaciones de todo el mundo utilizan WorldWind para hacer seguimiento de patrones meteorológicos, visualizar ciudades y terrenos, monitorizar el movimiento de aviones, vehículos y barcos, analizar información geoespacial y es usado en proyectos de educación sobre la Tierra. t
+Organizaciones de todo el mundo utilizan WorldWind para hacer seguimiento de patrones meteorológicos, visualizar ciudades y terrenos, monitorizar el movimiento de aviones, vehículos y barcos, analizar información geoespacial y es usado en proyectos de educación sobre la Tierra.
 
 .. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
  :scale: 50 %
@@ -86,12 +86,11 @@ Detalles
 
 **Página web:** http://goworldwind.org/
 
-**Licencia:** NASA Open Source Agreement Version 1.3
+**Licencia:** NASA Open Source Agreement Version 1.3.
 
 **Software Version:** |version-worldwindjava|
 
-**Platformas soportadas:** Windows, Linux, Mac, Android, iOS
-
+**Platformas soportadas:** Windows, Linux, Mac, Android, iOS.
 
 **Foro:** http://forum.worldwindcentral.com/
 
@@ -99,5 +98,3 @@ Guía de inicio rápido
 --------------------------------------------------------------------------------
 
 :doc: `Guía de inicio rápido <../quickstart/worldwindjava_quickstart>`_
-
-

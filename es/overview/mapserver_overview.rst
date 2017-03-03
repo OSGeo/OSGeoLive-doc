@@ -37,8 +37,7 @@ Características clave
   :alt: screenshot
   :align: right
 
-
-* Salida cartográfica avanzada
+* Salida cartográfica avanzada:
 
   * Dibujado de elementos (*features*) dependientes de la escala y ejecución de aplicación.
   * Etiquetado de elementos,  incluyendo gestión de colisión de etiquetas.
@@ -54,6 +53,9 @@ Características clave
   * *Label Leader Offsetting*.
   * Simbología SVG. 
   * Soporte Fuentes Multiples.
+  * Mapas de calor (*Heatmaps*) dinámicos.
+  * Soporte para rejilla UTF.
+  * Composición de capas.
 
 * Soporte para consultas (*query*) espaciales sofisticadas
 
@@ -62,31 +64,31 @@ Características clave
   * Salida basada en plantillas totalmente personalizables.
   * Generación de consultas basadas en OGR.
  
-* Soporte para lenguajes de *scripting* y entornos de desarrollo populares
+* Soporte para lenguajes de *scripting* y entornos de desarrollo populares:
 
-  * CGI/FastCGI
-  * PHP, Python, Perl, Ruby, Java, y .NET 
-  
-* Soporte Multi-plataforma
+  * CGI/FastCGI.
+  * PHP, Python, Perl, Ruby, Java, y .NET.
 
-  * Linux, Windows, Mac OS X, Solaris, y mas
+* Soporte Multi-plataforma:
 
-* Multitud de formatos raster y vectoriales
+  * Linux, Windows, Mac OS X, Solaris, y mas.
 
-  * TIFF/GeoTIFF, EPPL7, y muchos otros vía GDAL
-  * ESRI shapefiles, PostGIS, ESRI ArcSDE, Oracle Spatial, MySQL y OGR
+* Multitud de formatos raster y vectoriales:
 
-* Soporte de proyecciones de Mapa
+  * Soporte nativo para shapefiles de ESRI, PostGIS y Oracle Spatial.
+  * Muchos otros formatos a través de OGR y GDAL.
 
-  * Proyecciones 'al vuelo' con capacidad para más de 1000 proyecciones proporcionadas por la librería Proj.4.
+* Soporte de proyecciones de Mapa:
+
+  * Proyecciones 'al vuelo' con capacidad para más de 1000 proyecciones proporcionadas por la biblioteca Proj.4.
 
 Standares Implementados
 --------------------------------------------------------------------------------
 
 * Soporta numerosos estándares  (OGC)
 
-  * WMS (cliente/servidor), WFS no-transaccional (cliente/servidor), WMC, WCS, Filter Encoding, SLD, GML, SOS, OM
-  
+  * :doc:`WMS (cliente/servidor) <../standards/wms_overview>`, :doc:`WFS no-transaccional (cliente/servidor) <../standards/wfs_overview>`, WMC, :doc:`WCS <../standards/wcs_overview>`, :doc:`Filter Encoding <../standards/fe_overview>`, :doc:`SLD <../standards/sld_overview>`, :doc:`GML <../standards/gml_overview>`, SOS, OM.
+
   * Servicios de visores conforme a INSPIRE.
 
 Demo
@@ -97,8 +99,7 @@ Demo
 Documentación
 --------------------------------------------------------------------------------
 
-* `Documentación MapServer 6.2  <../../mapserver/doc/index.html>`_
-
+* `Documentación MapServer 7.0  <../../mapserver/doc/index.html>`_
 
 Detalles
 --------------------------------------------------------------------------------
@@ -107,7 +108,7 @@ Detalles
 
 **Licencia:** `licencia estilo MIT <http://mapserver.org/copyright.html#license>`_
 
-**Versión Software:** 6.2
+**Versión Software:**  |version-mapserver|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
@@ -115,3 +116,7 @@ Detalles
 
 **Soporte:** http://mapserver.org/community/
 
+Quickstart
+--------------------------------------------------------------------------------
+    
+* :doc:`Guía de inicio rápido <../quickstart/mapserver_quickstart>`

@@ -37,6 +37,7 @@ usuarios  en Kenia, y fue el catalizador para los desarrolladores para darse
 cuenta de la existencia de una necesidad real de una plataforma basada en este
 producto que pudiera ser utilizada por otro alrededor de todo el mundo.
 
+
 Funcionalidades principales
 --------------------------------------------------------------------------------
 - Mapa interactivo

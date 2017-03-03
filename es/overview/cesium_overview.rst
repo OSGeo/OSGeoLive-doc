@@ -41,7 +41,7 @@ Características principales
 
 * Una API, tres Vistas: 
 
-  * Cesium soporta im globo 3D, mapa 2D y una vista Columbus 2.5D con la misma API.
+  * Cesium soporta un globo 3D, un mapa 2D y una vista Columbus 2.5D con la misma API.
 
 Estándares implementados
 --------------------------------------------------------------------------------
@@ -54,7 +54,7 @@ Detalles
 
 **Licencia:** licencia Apache 2.0.
 
-**Versión del software:** 1.18.
+**Versión del software:** |version-cesium|.
 
 **Plataformas soportadas:**  Es independiente de la plataforma, sólo depende de un navegador con soporte para WebGL.
 
