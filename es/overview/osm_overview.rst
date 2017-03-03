@@ -56,9 +56,7 @@ Detalles
 
 **Versiones de Software:**
 
-* JOSM: estable (svn r10526).
-
-* Merkaartor: 1.18.2
+* JOSM: estable (svn r11427)
 
 * Osmosis: 0.44.1
 
@@ -75,5 +73,3 @@ Guía de inicio rápido
 --------------------------------------------------------------------------------
 
 * :doc:`Guía de inicio rápido <../quickstart/osm_quickstart>`
-
-

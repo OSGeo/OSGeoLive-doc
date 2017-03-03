@@ -269,7 +269,7 @@ Get to know OGR
 
 :: 
   
-  cd /home/usr/gdal_natural_earth/
+  cd /home/user/gdal_natural_earth/
 
 
 .. tip:: Open the shape file with a Desktop GIS like QGIS. And have a look.
