@@ -367,7 +367,7 @@ Mapping
 
 To produce a map from PostGIS data, you need a client that can get at the data. Most 
 of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we'll
-show you how to make a map from Quantum GIS.
+show you how to make a map from QGIS.
 
 Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
 parameters for connecting to the OpenStreetMap data in PostGIS is already defined in the Connections
@@ -425,7 +425,7 @@ of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
-(located in /usr/lib/R/site-library/maptools/shapes/):
+(located in /usr/lib/R/site-library/spdep/etc/shapes/):
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
