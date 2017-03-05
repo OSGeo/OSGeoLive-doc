@@ -285,7 +285,7 @@ rst_epilog="""
 .. |version-postgis| replace:: 2.3.2
 .. |version-proj4| replace:: 4.4.9
 .. |version-pycsw| replace:: 2.0.2
-.. |version-pywps| replace:: 4.0.0
+.. |version-pywps| replace:: 3.2.5
 .. |version-qgis_mapserver| replace:: 2.14.11
 .. |version-qgis| replace:: 2.14.11
 .. |version-rasdaman| replace:: 9.3.2
