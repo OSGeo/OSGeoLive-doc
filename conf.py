@@ -23,9 +23,10 @@ execfile('settings.py')
 # -- General configuration -----------------------------------------------------
 
 fileIN = open("VERSION.txt", "r")
-extract = fileIN.readline()
-line = extract.split()
-version =  line[0] + " " + line[1]
+version = fileIN.readline()
+#extract = fileIN.readline()
+#line = extract.split()
+#version =  line[0] + " " + line[1]
 fileIN.close()
 
 # Add any Sphinx extension module names here, as strings. They can be extensions

@@ -110,4 +110,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
     
-* `Guía de inicio rápido <../quickstart/geokettle_quickstart.html>`_
+* `Guía de inicio rápido <../quickstart/geokettle_quickstart>`_

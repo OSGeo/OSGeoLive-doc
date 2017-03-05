@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, LISAsoft
 :Translator: Mauricio Pazos
 :Version: osgeo-live7.9
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _zygrib-overview-es:
 
@@ -9,7 +10,6 @@
   :alt: project logo
   :align: right
   :target: http://www.zygrib.org
-
 
 zyGrib
 ================================================================================

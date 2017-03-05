@@ -34,14 +34,14 @@ Estandares Implementados
 Características Fundamentales
 --------------------------------------------------------------------------------
     
-* Geometrías: Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, GeometryCollection
-* Predicados: Intersects, Touches, Disjoint, Crosses, Within, Contains, Overlaps, Equals, Covers
-* Operaciones: Union, Distance, Intersection, Symmetric Difference, Convex Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length, 
-* Geometrías preparadas (pre-spatially indexed)
-* Indice espacial STR
+* Geometrías: Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, GeometryCollection.
+* Predicados: Intersects, Touches, Disjoint, Crosses, Within, Contains, Overlaps, Equals, Covers.
+* Operaciones: Union, Distance, Intersection, Symmetric Difference, Convex Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length. 
+* Geometrías preparadas (pre-spatially indexed).
+* Indice espacial STR.
 * OGC Well Known Text (WKT) y Well Known Binary (WKB) encoders y decoders.
-* C y C++ API (El API C proporciona estabilidad ABI a largo plazo)
-* Thread safe (utilizando la nueva API)
+* C y C++ API (El API C proporciona estabilidad ABI a largo plazo).
+* Thread safe (utilizando la nueva API).
 
 Detalles
 --------------------------------------------------------------------------------
@@ -49,6 +49,8 @@ Detalles
 **Sitio Web:**  http://geos.osgeo.org/
 
 **Licencia:** LGPL
+
+**Software Version:** |version-geos|
 
 **Plataformas Soportadas:** Windows, Linux, Mac
 

@@ -1,4 +1,4 @@
-﻿:Author: Hamish Bowman
+﻿:Author: Hamish Bowman, Marco Brancolini
 :Reviewer: Cameron Shorter
 :Version: osgeo-live10.0
 :Translator: David Mateos
@@ -11,7 +11,7 @@
 .. image:: ../../images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
-  :target: http://www.osm.org/
+  :target: https://www.openstreetmap.org/
 
 
 OpenStreetMap
@@ -36,6 +36,7 @@ La distribución OSGeo-Live incluye un extracto de los datos de OSM a nivel de c
   :alt: captura de pantalla de OSM 
   :align: right
 
+
 Características principales
 --------------------------------------------------------------------------------
 
@@ -43,7 +44,7 @@ Características principales
 * Es posible extraer subconjuntos locales de los datos.
 * Los datos son almacenados como nodos WGS84 (latitud-longitud) y cadenas de nodos. Los metadatos están permitidos a nivel de punto, polilínea y cobertura completa.
 * Etiquetado enriquecido, normalmente mucho más detallado que en cualquier otra fuente de datos.
-* Repositorio global de conocimiento.
+* Un repositorio global de conocimiento local.
 
 Conjuntos de datos incluidos en la distribución OSGeo-Live
 --------------------------------------------------------------------------------
@@ -63,7 +64,7 @@ feature_city_CBD.osm.bz2 está cargado en otra base de datos PostGIS llamada "pg
 Detalles
 --------------------------------------------------------------------------------
 
-**Página web:** http://www.osm.org
+**Página web:** https://www.openstreetmap.org/
 
 **Licencia:**  `Open Data Commons Open Database License (ODbL) <http://opendatacommons.org/licenses/odbl/>`_
 

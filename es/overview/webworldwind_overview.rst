@@ -20,7 +20,7 @@ Globo Virtual en el navegador
 Web World Wind es un globo virtual tridimensional para navegador. Permite hacer zoom desde la altitud de un satéliite a cualquier lugar en sobre la tierra, experimentando la tierra en 3 dimensiones como si realmente se estuviera allí. 
 Es fácil de usar, sólo necesita un ratón de dos botones. Se usa para monitorizar patrones meteorológicos, visualizar ciudades y terrenos, seguir el movimiento de aviones, vehículos y barcos, analizar datos geoespaciales y para educación sobre la Tierra. 
 
-Web World Wind proporciona una plataforma javascript extensible, que permite a desarrolladores web crear rápidamente globos y mapas bidimensionales personalizados que pueden expresar, manipular y analizar información espacial. Se pueden mostrar terrenos e imágenes de alta resolución espacialjavascript platform which enables web developers to quickly create custom globes and 2 dimensional maps which can express, manipulate and analyze spatial data.  You can show terrain and high-resolution imagery, include a compass, map coordinates, and view controls.
+Web World Wind proporciona una plataforma javascript extensible, que permite a desarrolladores web crear rápidamente globos y mapas bidimensionales personalizados que pueden expresar, manipular y analizar información espacial. Se pueden mostrar terrenos e imágenes de alta resolución espacial, incluyendo una brújula, coordenadas y controles.
 
 .. image:: ../../images/screenshots/1024x768/webworldwind_main.png
  :scale: 50 %
@@ -45,9 +45,9 @@ Capacidades gráficas:
 
 * Marcadores, Trayectos, polígonos y polígonos extruídos, texto. 
 * Formas del terreno: Trayecto, Polígono, Elipse, Cículo, Cuadrilátero, Cuadrado.
-* Imagenes: JPEG, PNG
+* Imagenes: JPEG, PNG.
 * Gratículas.
-* Shapefiles
+* Shapefiles.
 
 Estándares implementados
 --------------------------------------------------------------------------------
@@ -61,11 +61,11 @@ Detalles
 
 **Página web:** http://webworldwind.org/
 
-**Licencia:** NASA Open Source Agreement Version 1.3
+**Licencia:** NASA Open Source Agreement Version 1.3.
 
 **Software Version:** World Wind Pre-release
 
-**Platforms soportadas:** Windows, Linux, Mac
+**Platforms soportadas:** Windows, Linux, Mac.
 
 **Foro:** http://forum.worldwindcentral.com/forumdisplay.php?60-Web-World-Wind
 
