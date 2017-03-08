@@ -56,7 +56,7 @@ Getting Started
 **Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
 
 4. To get for each time series the available observation data within the time
-   interval from 2016-01-01T00:30:00.000+00:00 to 2016-07-01T23:00:00.000+00:00,
+   interval from 2017-02-28T23:45:00.000+00:00 to 2017-03-01T23:45:00.000+00:00,
    insert the following request after selecting service "SOS" --> version
    "2.0.0" --> binding "SOAP" --> operation "GetObservation" in the `test
    client <http://localhost:8080/52nSOS/client>`_ in the field request:
@@ -81,8 +81,8 @@ Getting Started
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2016-07-01T00:30:00.000+00:00</gml:beginPosition>
-                          <gml:endPosition>2015-07-01T23:00:00.000+00:00</gml:endPosition>
+                          <gml:beginPosition>2017-02-28T23:45:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2017-03-01T23:45:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>
