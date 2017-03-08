@@ -69,11 +69,11 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://http://josm.openstreetmap.de/
+**Website:** https://josm.openstreetmap.de/
 
 **Licence:** GNU General Public License (GPL) version 2. Note: JOSM plugins may use other licences.
 
-**Software Version:** r7347
+**Software Version:** r11427
 
 **Supported Platforms:** Windows, Linux, Mac
 

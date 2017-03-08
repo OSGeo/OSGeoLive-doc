@@ -56,9 +56,9 @@ OSSIMは、諜報および防衛コミュニティにおける幾つかの米国
 
 **ライセンス:** GNU General Public License (GPL) version 3
 
-**バージョン:** 1.8.20
+**ソフトウェアバージョン:** |version-ossim|
 
-**動作環境:** Linux, Mac, Windows
+**対応プラットフォーム:** Linux, Mac, Windows
 
 **API インターフェース:** C++
 

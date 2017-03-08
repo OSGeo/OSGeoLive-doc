@@ -58,7 +58,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.9
+**Software Version:** |version-cartaro|
 
 **Supported Platforms:** Windows, Linux, Mac
 

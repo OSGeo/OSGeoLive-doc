@@ -23,7 +23,7 @@ Bibliothek für räumliche Daten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GEOS (Geometry Engine - Open Source) ist eine C++ -Portierung der `JTS Topology Suite (JTS) 
-<http://tsusiatsoftware.net/jts/main.html>`_. Sie deckt dabei die OpenGIS Simple Features für 
+<https://sourceforge.net/projects/jts-topo-suite/>`_. Sie deckt dabei die OpenGIS Simple Features für 
 SQL räumliche Beziehungseigenschaften und räumlichen Operatoren, sowie spezifische durch JTS 
 verbesserte Topologie-Funktionen.
 

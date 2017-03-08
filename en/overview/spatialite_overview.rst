@@ -57,7 +57,7 @@ Details
 
 **Licence:** MPL v1.1 and GPL v3
 
-**Software Version:** 4.3.0
+**Software Version:** |version-spatialite|
 
 **Supported Platforms:** Linux, Mac, Windows
 

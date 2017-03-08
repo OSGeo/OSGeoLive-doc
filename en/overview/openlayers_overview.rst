@@ -81,7 +81,7 @@ Details
 
 **License:** 2-clause BSD License (aka FreeBSD License)
 
-**Software Version:** 3.13.1
+**Software Version:** |version-openlayers|
 
 **API Interface:** JavaScript
 

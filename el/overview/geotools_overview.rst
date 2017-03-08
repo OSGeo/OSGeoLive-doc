@@ -32,7 +32,7 @@ GeoTools
 
 * Ορισμός των διεπαφών για τις χωρικές δομές (spatial concepts) και τις δομές δεδομένων.
   
-  * Ολοκληρωμένη υποστήριξη γεωμετρίας μέσω της `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Ολοκληρωμένη υποστήριξη γεωμετρίας μέσω της `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Χωρικά και φίλτρα χαρακτηριστικών με βάση την προδιαγραφή OGC Filter Encoding
   
 * Καθαρό API με υποστήριξη: πρόσβασης, διαχείρησης και κλειδώματος μεταξύ των νημάτων (threads)

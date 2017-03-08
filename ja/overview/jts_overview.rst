@@ -56,12 +56,12 @@ JTS は Java ベースのオープンソース地理空間アプリケーショ�
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://tsusiatsoftware.net/jts/main.html
+**ウェブサイト:** https://sourceforge.net/projects/jts-topo-suite/
 
 **ライセンス:** LGPL
 
-**サポートするプラットフォーム:** Windows、Linux、Mac
+**対応プラットフォーム:** Windows、Linux、Mac
 
 **API インタフェース:** Java
 
-**サポート:** http://tsusiatsoftware.net/jts/main.html
+**サポート:** https://sourceforge.net/projects/jts-topo-suite/

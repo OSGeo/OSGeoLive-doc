@@ -21,7 +21,7 @@ GEOS
 地理空間情報ライブラリ
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) は `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ を C++ に移植したものです。OpenGISの "Simple Features for SQL" の空間述語関数と空間演算、 JTS 仕様の拡張トポロジ関数を備えています。
+GEOS (Geometry Engine - Open Source) は `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ を C++ に移植したものです。OpenGISの "Simple Features for SQL" の空間述語関数と空間演算、 JTS 仕様の拡張トポロジ関数を備えています。
 
 GEOS は最も広く使われている地理空間の C++ 幾何ライブラリであり、 :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` 及び :doc:`MapServer <mapserver_overview>` などのオープンソースプロジェクトや、 `FME <http://www.safe.com/fme/fme-technology/>`_ などの商用製品で使用されています。
 
@@ -49,7 +49,9 @@ GEOS は最も広く使われている地理空間の C++ 幾何ライブラリ�
 
 **ライセンス:** LGPL
 
-**サポートするプラットフォーム:** Windows、Linux、Mac
+**ソフトウェアバージョン:** |version-geos|
+
+**対応プラットフォーム:** Windows、Linux、Mac
 
 **API インタフェース:** C、C++
 

@@ -64,7 +64,7 @@ Details
 **Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
   address French law)
 
-**Software Version:** 5.2.0
+**Software Version:** |version-otb|
 
 **Supported Platforms:** Linux, Mac, Windows
 

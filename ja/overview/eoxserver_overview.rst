@@ -114,9 +114,9 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
 
 **ライセンス:** `MIT-style license <https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_
 
-**バージョン:** |version-eoxserver|
+**ソフトウェアバージョン:** |version-eoxserver|
 
-**動作プラットフォーム:** Linux, Windows, Mac
+**対応プラットフォーム:** Linux, Windows, Mac
 
 **API インターフェース:** Python
 

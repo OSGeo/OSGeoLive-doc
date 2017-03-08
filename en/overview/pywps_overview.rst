@@ -1,32 +1,34 @@
-
-:Author: Jachym Cepicky, Jorge de Jesus
-:Reviewer: 
-:Version: osgeo-live8.0
-:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Author: OSGeo-Live
+:Author: Jachym Cepicky, Jorge de Jesus, Tom Kralidis
+:Reviewer: Cameron Shorter
+:Version: osgeo-live10.0
+:License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-pywps.png
   :alt: project logo
   :align: right
-  :target: http://pywps.wald.intevation.org/
+  :target: http://pywps.org/
 
+.. image:: ../../images/logos/OSGeo_incubation.png
+  :scale: 100
+  :alt: OSGeo Project in Incubation
+  :align: right
+  :target: http://www.osgeo.org
 
 PyWPS
 ================================================================================
 
-Web Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Web Processing Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PyWPS :doc:`(WPS) <../standards/wps_overview>` enables you to created and deploy
-custom geospatial operations (refered as Process) on the server. The geospatial
-operation shall be written using Python programming language. Within this
-environment, you are allowed to use any tool, you need, such as GRASS GIS, R,
-GDAL/OGR, Proj4 and other libraries with Python bindigs.
+PyWPS provides web access to custom geospatial operations (referred
+to as Processes) via the :doc:`Web Processing Service (WPS) <../standards/wps_overview>` standard.
 
-PyWPS distribution does not contain any process by itself (except for examples
-used for unit testing). Every user has to / can create any process she needs to
-interface on the internet.
+Processes are written in the Python programming language and can integrate tools such as
+:doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <metacrs_overview>` and other libraries with
+Python bindings.  Source data can be provided with WPS requests or accessed from data on the WPS server.
 
-..  .. image:: ../../images/screenshots/800x600/pywps_client.png
+.. image:: ../../images/screenshots/1024x768/pywps_client.png
     :scale: 50 %
     :alt: screenshot
     :align: right
@@ -34,44 +36,41 @@ interface on the internet.
 Core Features
 --------------------------------------------------------------------------------
 
-Core GIS functions:
+* small and lightweight
+* easy and fast to install and setup
+* implemented in pure Python
+* integrates seamlessly with the Python ecosystem of packages:
 
-* Pure Python
-* Small
-* Easy and fast to install and setup
-	
-Backend algorithms available through:
-
-* GRASS 7
-* R
-* GDAL/OGR
-* Proj4
-* NumPy
-* Shapely
-* ...
+  * GRASS 7
+  * R
+  * GDAL/OGR
+  * Proj.4
+  * Numpy
+  * Shapely
 
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC Web Processing Service (WPS)
+OGC Standards:
+
+* WPS 1.0.0
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://pywps.wald.intevation.org
+**Website:** http://pywps.org
 
 **Licence:** GPL
 
-**Software Version:** 3.2.2
+**Software Version:** |version-pywps|
 
 **Supported Platforms:** Windows, Linux, Mac
 
-.. **Commercial Support:** http://les-ejk.cz
+**API Interfaces:** Python
 
+**Support:** http://pywps.org/community/#professional-support
 
 Quickstart
 --------------------------------------------------------------------------------
 
 * :doc:`Quickstart documentation <../quickstart/pywps_quickstart>`
-
-

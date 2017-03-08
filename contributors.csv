@@ -1,5 +1,6 @@
 Name,Email,Country,Osgeo_id
 Activity Workshop,mail activityworkshop net,Switzerland,activityworkshop
+Alan Beccati,a.beccati jacobs-university de,Germany,rasdaman
 Alan Boudreault,aboudreault mapgears.com,Canada,aboudreault
 Alex Mandel,tech wildintellect com,USA,wildintellect
 Alexandre Dube,adube mapgears.com,Canada,adube
@@ -13,6 +14,7 @@ Ariel Núñez,ingenieroariel gmail com,Colombia,ingenieroariel
 Astrid Emde,astrid.emde wheregroup com,Germany,astrid_emde
 Balasubramaniam Natarajan,bala150985 gmail com,India,bullet
 Barry Rowlingson,b.rowlingson gmail com,UK,barryrowlingson
+Ben Caradoc-Davies,ben transient nz,New Zealand,bencaradocdavies
 Benjamin Pross,b.pross 52north org,Germany,spross
 Brian Hamlin,maplabs Light42 com,USA,darkblue_b
 Bruno Binet,bruno.binet camptocamp com,France,bbinet
@@ -20,14 +22,15 @@ Bu Kun,bukun osgeo.cn,China,bukun
 Cameron Shorter,Cameron.Shorter lisasoft com,Australia,camerons
 Dane Springmeyer,dane dbsgeo com,USA,springmeyer
 Daniel Kastl,daniel.kastl georepublic de,Japan,danielkastl
-Danilo Bretschneider,bretschneider geospatialinformation org,Germany,bretschneider
+Danilo Bretschneider,danilo bretsch net,Germany,bretschneider
 Dimitar Misev,d.misev jacobs-university de,Germany,misev
 Edgar Soldin,edgar.soldin web de,Germany,edso
 Eike Hinderk Jürrens,e.h.juerrens 52north org,Germany,ehjuerrens
 Eric Lemoine,eric.lemoine camptocamp com,France,erilem
 Erika Pillu,erika pillu gmail com,France,erikapillu
 Etienne Dube,etdube gmail com,Canada,etdube
-Fabian Schindler,fabian.schindler eox at,fschindler
+Eva Peters,eva.peters geops de,Germany,gevos
+Fabian Schindler,fabian.schindler eox at,Austria,fschindler
 Fran Boon,fran aidiq com,UK,flavour
 Frank Gasdorf,fgdrf users.sourceforge.net,Germany,fgdrf
 Frank Warmerdam,warmerdam pobox.com,USA,warmerdam
@@ -46,12 +49,12 @@ Howard Butler,hobu gmail com,USA,hobu
 Ian Edwards,ian edwards metoffice gov uk,UK,ian
 Ian Turton,ijturton gmail com,UK,ianturton
 Jackie Ng,jumpinjackie gmail com,Australia,jng
+Jakob Miksch,jakob miksch posteo eu,Germany,Magicgate
 Jan Drewnak,j.drewnak 52north com,Germany,drewnak
-Jane Lewis,j p lewis rdg ac uk,? ,
+Jane Lewis,j p lewis rdg ac uk,?,?
 Javier Rodrigo,jrodrigo scolab es,Spain,jrodrigo
 Jim Klassen,klassen.js gmail com,USA,jimk
 Jinsongdi Yu,j.yu jacobs-university de,Germany,rasdaman
-Alan Beccati,a.beccati jacobs-university de,Germany,rasdaman
 Jody Garnett,jgarnett gmail com,Australia,jive
 Johan Van de Wauw,johan vandewauw gmail.com,Belgium,johanvdw
 John Bryant,johnwbryant gmail com,Australia,jbryant
@@ -67,7 +70,7 @@ Mage Whopper,magewhopper gmail com,Japan,Magepa
 Marc-André Barbeau,mbarbeau mapgears com,Canada,mbarbeau
 Manuel Grizonnet,manuel.grizonnet cnes fr,France,manuelgrizonnet
 Margherita Di Leo,dileomargherita gmail com,Italy,madi
-Mario Carrera,mcarrera gvsig com,Spain,mcarrera77 
+Mario Carrera,mcarrera gvsig com,Spain,mcarrera77
 Mark Leslie,mark leslie lisasoft com,Australia,mleslie
 Markus Neteler,neteler osgeo.org,Italy,neteler
 Massimo Di Stefano,massimodisasha yahoo it,Italy,epifanio
@@ -106,4 +109,5 @@ Tom Kralidis,tomkralidis gmail com,Canada,tomkralidis
 Trevor Wekel,trevor_wekel otxsystems com,Canada,trevorwekel
 Matthias Streulens,matthias.streulens geomajas org,Belgium,streulma
 Victor Poughon,victor.poughon cnes fr,France,poughov
+Vlad Merticariu,vkadmerti gmail com,Germany,vmerticariu
 Zoltan Siki, siki agt bme hu,Hungary,Siki

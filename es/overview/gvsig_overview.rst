@@ -10,9 +10,9 @@
 .. image:: ../../images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
-  :target: http://www.gvsig.org/
+  :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -47,58 +47,61 @@ Características principales
 * Interoperable: es posible trabajar con los formatos de datos más comunes:
 
   * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF...
-  * vectorial & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
-  * bases de datos geográficas: PostGIS, MySQL, Oracle, ArcSDE
-  * datos remotos: estándares OGC (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS
+  * vectorial & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG.
+  * bases de datos geográficas: PostGIS, MySQL, Oracle, ArcSDE.
+  * datos remotos: estándares OGC (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS.
 
 * Servicios de descubrimiento para la localización de recursos geográficos en una IDE (servicios de catálogo y nomenclátor)
 
-  * Catálogo: Z3950, SRW, CSW (ISO/19115 y ebRIM)
-  * Nomenclátor: ADL, WFS, WFS-G
+  * Catálogo: Z3950, SRW, CSW (ISO/19115 y ebRIM).
+  * Nomenclátor: ADL, WFS, WFS-G.
 
 * Más de 300 herramientas de geoprocesamiento, incluidos los algoritmos de la biblioteca SEXTANTE
 
 * Herramientas CAD integradas:
 
-  * datos vectoriales: modificar, crear y borrar elementos
-  * consola de entrada de comandos al estilo de las utilizadas en software CAD
-  * herramientas como ayuda, cuadrícula, pila de comandos, selecciones complejas de elementos
+  * datos vectoriales: modificar, crear y borrar elementos.
+  * consola de entrada de comandos al estilo de las utilizadas en software CAD.
+  * herramientas como ayuda, cuadrícula, pila de comandos, selecciones complejas de elementos.
   * herramientas para insertar elementos como puntos, polígonos, líneas, elípses, etc.
   * herramientas para rotar, escalar, simetría, etc.
 
 * Herramientas *raster* integradas:
 
-  * georreferenciación y reproyección
-  * exportación y recorte
-  * tablas de color, histogramas
-  * filtros, vectorización
-  * *overviews* y gestión de regiones de interés (ROI)
+  * Georreferenciación y reproyección.
+  * Exportación y recorte.
+  * Tablas de color, histogramas.
+  * Filtros, vectorización.
+  * *Overviews* y gestión de regiones de interés (ROI).
 
 * Otras funcionalidades
 
-  * Soporte de *scripting* (para datos vectoriales y raster)
-  * Potente herramienta de reproyección basada en PROJ4
-  * Importar/exportar paquetes de símbolos
-  * Generar series de mapas
-  * Gráficas
-  * Herramientas avanzadas de simbología
-  * Herramientas avanzadas de etiquetado
+  * Soporte de *scripting* (para datos vectoriales y raster).
+  * Potente herramienta de reproyección basada en PROJ4.
+  * Importar/exportar paquetes de símbolos.
+  * Generar series de mapas.
+  * Gráficas.
+  * Herramientas avanzadas de simbología.
+  * Herramientas avanzadas de etiquetado.
+  * Extensión de publicación.
+  * Vistas portables.
+  * Distribuciones personalizables.
 
 Estándares implementados
 --------------------------------------------------------------------------------
 
-Cliente avanzado con soporte para numerosos estándares del *Open Geospatial Consortium* (OGC)
+Cliente avanzado con soporte para numerosos estándares del *Open Geospatial Consortium* (OGC):
 
-- Carga de capas WMS, WMTS, WFS y WCS
-- Exportación/importación de leyendas SLD
-- Exportación/importación de *Web Map Context* (WMC)
-- Búsqueda en catálogos mediante el estándar CSW (ISO/19115 y ebRIM)
-- Búsqueda en nomenclátors usando la recomendación WFS-G
+* Carga de capas WMS, WMTS, WFS y WCS.
+* Exportación/importación de leyendas SLD.
+* Exportación/importación de *Web Map Context* (WMC).
+* Búsqueda en catálogos mediante el estándar CSW (ISO/19115 y ebRIM).
+* Búsqueda en nomenclátors usando la recomendación WFS-G.
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Website:** http://www.gvsig.org/
+**Website:** http://www.gvsig.com/
 
 **Licencia:** GNU General Public License (GPL) version 2
 
@@ -106,10 +109,10 @@ Detalles
 
 **Plataformas Soportadas:** Windows, GNU/Linux
 
-**Soporte:** http://www.gvsig.org/web/organization/services
+**Soporte:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists
 
 
-.. _gvSIG: http://www.gvsig.org
+.. _gvSIG: http://www.gvsig.com
 
 Quickstart
 --------------------------------------------------------------------------------

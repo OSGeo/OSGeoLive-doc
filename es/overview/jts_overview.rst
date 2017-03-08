@@ -28,32 +28,32 @@ Características principales
 --------------------------------------------------------------------------------
 
 * Modelo geométrico (punto, línea, área).
-* Operaciones geométricas (e.g., intersección, unión, "dentro de (*within*)", etc.)
-* Manejo de precisiones
+* Operaciones geométricas (e.g., intersección, unión, "dentro de (*within*)", etc.).
+* Manejo de precisiones.
 * Construcciones geométricas. 
-* Funciones métricas (e.g., distancia cartesiana 2D, distancia de Hausdorff)
-* Algorimos espaciales (e.g. creación de bufer, line offsets, simplificación de líneas)
-* Funciones matemáticas geometricas (e.g., ángulos, distancias, etc.)
-* Estrucutas espaciales (e.g. Quadtree y R-tree, triangulación de Delauney )
-* Entrada/Salida (e.g., WKT, GML)
-* Aritmética de alta precisión
+* Funciones métricas (e.g., distancia cartesiana 2D, distancia de Hausdorff).
+* Algorimos espaciales (e.g. creación de bufer, line offsets, simplificación de líneas).
+* Funciones matemáticas geometricas (e.g., ángulos, distancias, etc.).
+* Estrucutas espaciales (e.g. Quadtree y R-tree, triangulación de Delauney ).
+* Entrada/Salida (e.g., WKT, GML).
+* Aritmética de alta precisión.
 
 Formatos soportados
 --------------------------------------------------------------------------------
 
-* Well Known Text (WKT) y Well Known Binary (WKB)
-* GML 2
-* Escritura Java Swing/AWT
+* Well Known Text (WKT) y Well Known Binary (WKB).
+* GML 2.
+* Escritura Java Swing/AWT.
 
 Estándares implementados
 --------------------------------------------------------------------------------
 
-* OGC Simple Features para SQL (SFSQL)
+* OGC Simple Features para SQL (SFSQL).
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Página Web:** http://tsusiatsoftware.net/jts/main.html
+**Página Web:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licencia:** LGPL
 
@@ -61,6 +61,6 @@ Detalles
 
 **Interfaces API:** Java
 
-**Soporte:** http://tsusiatsoftware.net/jts/main.html
+**Soporte:** https://sourceforge.net/projects/jts-topo-suite/
 
 

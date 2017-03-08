@@ -35,23 +35,22 @@ uDig es:
 Para los desarrolladores uDig provee una plataforma Java común para la construcción de aplicaciones espaciales con componentes open source. El sitio web provee una serie de claras tutorías que permiten construir desde una simple herramienta hasta una aplicación personalizada
 
 Características Principales
-
 --------------------------------------------------------------------------------
 
 * Cliente de Escritorio con integración de tipo arrastrar y soltar tanto para explorador de archivos como navegador web
 * Integración con la infraestructura ya existente: ArcSDE, Oracle, DB2 y mas
 * Funciona con archivos locales: Shapefile, jpeg, png, tiff y mas.
 * Trabaja con formatos raster avanzados: ECW, MrSID, JPEG 2000
-* Compatible con servidores de Mapas Web (:doc:`GeoServer <geoserver_overview>`, MapServer probado)
+* Compatible con servidores de Mapas Web (:doc:`GeoServer <geoserver_overview>`, MapServer probado).
 * Experiencia Web Integrada con un navegador embebido que reconoce servicos OGC y agrega los vínculos al mapa en pantalla. 
-* Descriptor de Estilos de Capas que permite publicar su Mapa mediante la configuración de uDig al igual que se hace en los populares Servidores Web de Mapas 
+* Descriptor de Estilos de Capas que permite publicar su Mapa mediante la configuración de uDig al igual que se hace en los populares Servidores Web de Mapas.
 * Profunda integración de estándares que permiten a la aplicación cambiar al servicio apropiado como el requerido para presentación, interacción y edición.
-* Impresión y Generación de PDF
+* Impresión y Generación de PDF.
 * Para Desarrolladores
   
-  * Construcción de Aplicaciones Java utilizando :doc:`GeoTools <geotools_overview>` y `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ 
-  * Sistema de conector industrial plug-in provisto por Eclipse Rich Client Platform
-  * Uso de ventanas nativa
+  * Construcción de Aplicaciones Java utilizando :doc:`GeoTools <geotools_overview>` y `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. 
+  * Sistema de conector industrial plug-in provisto por Eclipse Rich Client Platform.
+  * Uso de ventanas nativa.
 
 Estándares Implantados
 --------------------------------------------------------------------------------
@@ -68,7 +67,7 @@ Detalles
 
 **Website:** http://udig.refractions.net/
 
-**Licence:** GNU Lesser General Public License (LGPL) version 2
+**Licence:** Dual BSD / EPL (Eclipse Foundation)
 
 **Software Version:** |version-udig|
 

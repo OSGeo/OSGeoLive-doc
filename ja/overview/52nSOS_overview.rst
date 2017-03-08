@@ -1,7 +1,7 @@
 
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org), Simon Jirka (s.jirka@52north.org)
 :Reviewer: 
-:Version: osgeo-live9.0
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -138,11 +138,11 @@ applicable:
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** |version-52nSOS|
+**ソフトウェアバージョン:** |version-52nSOS|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
-**Supported DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012
+**対応DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012
 
 **API インターフェース:** Java
 

@@ -51,7 +51,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 17.2
+**Software Version:** |version-gpsprune|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, Windows
 

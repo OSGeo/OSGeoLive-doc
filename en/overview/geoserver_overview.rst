@@ -7,7 +7,7 @@
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -38,7 +38,7 @@ Core Features
         - Shapefiles, External WFS
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
-        - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
+        - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster, NetCDF
 
 **Data is served as safe and quick images using WMS and WMTS protocols:**
     As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
@@ -78,17 +78,17 @@ Support of numerous Open Geospatial Consortium  (OGC) standards:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://geoserver.org/display/GEOS/Welcome
+**Website:** http://geoserver.org/
 
 **Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** |version-geoserver|
 
-**Supported Platforms:** Cross Platform Java 6 - Windows, Linux, Mac
+**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, and Mac
 
 **API Interfaces:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/display/GEOS/Commercial+Support
+**Support:** http://geoserver.org/support/
 
 Quickstart
 --------------------------------------------------------------------------------

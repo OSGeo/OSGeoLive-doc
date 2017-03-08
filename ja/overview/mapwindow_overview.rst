@@ -78,9 +78,9 @@ https://mapwindow4.codeplex.com/releases/view/542097 からもダウンロード
 
 **ライセンス:** MPLv1.1
 
-**バージョン:** MapWindowLite 4.9.5
+**ソフトウェアバージョン:** MapWindowLite 4.9.5
 
-**動作環境:** Windows (XP or higher)
+**対応プラットフォーム:** Windows (XP or higher)
 
 **API インタフェース:** .NET (C#, VB.NET), C++, Delphi, VBA (MS-Access, MS-Excel)  
 

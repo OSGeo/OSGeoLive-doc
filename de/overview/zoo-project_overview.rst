@@ -71,7 +71,7 @@ Details
 
 **Lizenz:** MIT x/11
 
-**Software Version:** 1.3.0
+**Software Version:** |version-zoo-project|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

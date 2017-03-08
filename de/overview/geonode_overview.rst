@@ -77,7 +77,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) Version 2.0
 
-**Software Version:** 2.4.0
+**Software Version:** |version-geonode|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

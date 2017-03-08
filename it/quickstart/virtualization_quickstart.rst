@@ -72,7 +72,7 @@ Nello screen successivo impostate la memoria a 1024 MB (o più se il vostro comp
               :scale: 65 %
 
 Continuate e nella finestra successiva scegliete "Usare un esistente hard disk". Ora cliccate sul bottone 
-(l'icona di una cartella) per navigare fino dove avete salvato il file osgeo-live-vm-6.0.vmdk. Selezionate questo
+(l'icona di una cartella) per navigare fino dove avete salvato il OSGeo-Live file vmdk. Selezionate questo
 file, premente Next e Create.
 
   .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg

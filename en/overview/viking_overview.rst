@@ -55,7 +55,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.4.2
+**Software Version:** |version-viking|
 
 **Supported Platforms:** GNU/Linux, MS Windows
 

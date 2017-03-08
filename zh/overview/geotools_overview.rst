@@ -32,7 +32,7 @@ Core Features
 
 * Definition of interfaces for key spatial concepts and data structures
   
-  * Integrated Geometry support provided by `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Integrated Geometry support provided by `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Attribute and spatial filters using OGC Filter Encoding specification
   
 * A clean data access API supporting feature access, transaction support and locking between threads

@@ -73,7 +73,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.9.0
+**Software Version:** |version-openjump|
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 

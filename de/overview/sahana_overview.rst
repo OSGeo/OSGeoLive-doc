@@ -52,7 +52,7 @@ Details
 
 **Lizenz:** MIT License
 
-**Software Version:** 1.0.1
+**Software Version:** |version-sahana|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, Microsoft Windows
 

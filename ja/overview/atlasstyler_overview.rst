@@ -44,11 +44,11 @@ AtlasStyler
 
 **ウェブサイト:** http://en.geopublishing.org/AtlasStyler
 
-**バージョン:** 1.9
+**ソフトウェアバージョン:** 1.9
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 3.0
 
-**利用可能プラットフォーム:** Windows, Linux
+**対応プラットフォーム:** Windows, Linux
 
 **API インターフェース:** Java, Swing, Geotools
 

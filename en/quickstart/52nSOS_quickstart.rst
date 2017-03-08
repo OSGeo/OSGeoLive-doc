@@ -81,15 +81,15 @@ Getting Started
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2017-02-28T23:45:00.000+00:00</gml:beginPosition>
-                          <gml:endPosition>2017-03-01T23:45:00.000+00:00</gml:endPosition>
+                          <gml:beginPosition>2015-05-01T00:30:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2015-05-31T23:00:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>
           </sos:GetObservation>
       </env:Body>
   </env:Envelope>
-
+  
 **Listing 1:** Request of observations.
 
 
@@ -106,10 +106,10 @@ Things to Try
   :scale: 100 %
   :alt: 52°North SOS client - JavaScript client with time series data
   :align: center
-
+  
 **Fig. 3**: 52°North SOS client - JavaScript client with time series data.
 
-* Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2). If you want to know how to use it, take a deeper look at the `documentation of the REST API <http://localhost:8080/52nSOS/static/doc/api-doc/index.html>`_.
+* Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):
 
 .. code-block:: js
 

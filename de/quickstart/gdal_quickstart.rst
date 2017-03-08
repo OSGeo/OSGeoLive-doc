@@ -126,6 +126,7 @@ GeoTIFF. Über die Angabe `-of` kann ein Ausgabeformat angegeben werden. Über `
   gdal_translate -of JPEG -co QUALITY=40 HYP_50M_SR_W.tif HYP_50M_SR_W.jpg
 
 Der Parameter `-ot` kann zur Veränderung des Ausgabedatentyps verwendet werden.
+
 ::
  
    gdal_translate -ot Int16 HYP_50M_SR_W.tif HYP_50M_SR_W_Int16.tif
@@ -260,7 +261,7 @@ Lernen Sie OGR kennen
 
 :: 
   
-  cd /home/usr/gdal_natural_earth/
+  cd /home/user/gdal_natural_earth/
 
 
 .. tip:: Schauen Sie sich die Shapedatei mit einem Desktop GIS wie QGIS an.
@@ -370,12 +371,14 @@ Lassen Sie sich eine Zusammenfassung zu Ihren Daten mit ogrinfo und `-so` ausgeb
 	tiny: Real (16.6)
 	homepart: Real (16.6)
 
+
 Wenn Sie ogrinfo ohne einen zusätzlichen Parameter aufrufen, erhalten Sie zuerst die Zusammenfassung 
 der Daten gefolgt von einer Sektion für jeden einzelnen Datensatzes.
 
 ::
 
 	ogrinfo -ro ne_10m_admin_0_countries.shp ne_10m_admin_0_countries
+
 
 Sie können die Ergebnisse von ogrinfo an grep weitergeben, um die Daten zu filtern 
 und so beispielsweise nur das Attribut admin auszugeben.

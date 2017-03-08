@@ -32,22 +32,22 @@ Características Principales
   :alt: screenshot
   :align: right
 
-* Leer, listar y transformar diversos formatos de imágenes de rastreo
-* Proceso en bloque de grandes juegos de datos
-* Cálculo y compensación de perfiles de velocidad de sonido
-* Análisis y edición de datos de navegación e inerciales
-* Análisis de patrones de test
-* Limpieza automática o manual de datos batimétricos
-* Herramientas de limpieza y visualización interactivas para datos 3D
-* Obtención de rejillas, análisis estadísticos y extracción de datos batimétricos depurados
-* Reproyección de mapas
-* Reprocesado y teselado de datos de radar de barrido lateral y de datos de amplitud
-* Visualización de rejilla
-* Planificación de levantamientos
-* Gráficos PostScript 
-* Exportación de datos a otros entornos SIG y de visualización
-* Procesado de datos de perfiles subacuáticos
-* Modelado y corrección de mareas
+* Leer, listar y transformar diversos formatos de imágenes de rastreo.
+* Proceso en bloque de grandes juegos de datos.
+* Cálculo y compensación de perfiles de velocidad de sonido.
+* Análisis y edición de datos de navegación e inerciales.
+* Análisis de patrones de test.
+* Limpieza automática o manual de datos batimétricos.
+* Herramientas de limpieza y visualización interactivas para datos 3D.
+* Obtención de rejillas, análisis estadísticos y extracción de datos batimétricos depurados.
+* Reproyección de mapas.
+* Reprocesado y teselado de datos de radar de barrido lateral y de datos de amplitud.
+* Visualización de rejilla.
+* Planificación de levantamientos.
+* Gráficos PostScript .
+* Exportación de datos a otros entornos SIG y de visualización.
+* Procesado de datos de perfiles subacuáticos.
+* Modelado y corrección de mareas.
 
 Detalles
 --------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 3
 
-**Versión del software:** 5.4.2191
+**Versión del software:** |version-mb-system|
 
 **Platformas soportadas:** GNU/Linux, Mac OSX, MS Windows (con Cygwin)
 

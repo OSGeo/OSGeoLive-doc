@@ -47,7 +47,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 3.2.2
+**Software Version:** |version-opencpn|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 

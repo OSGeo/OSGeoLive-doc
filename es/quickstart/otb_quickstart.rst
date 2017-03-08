@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Manuel Grizonnet
 :Translator: David Mateos
-:Version: osgeo-live4.0
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-otb.png
@@ -20,66 +20,101 @@ Esta guía de inicio rápido describe cómo:
   * Conseguir información de los metadatos de una imagen.
   * Desarrollar operaciones matemáticas entre las bandas de una imagen. 
   * Abrir imágenes *raster* con la aplicación monteverdi, desarrollar segmentación (*mean-shift clustering*) y visualizar el resultado. 
-
+  * Desarrollar una clasificación supervisada basada en el algoritmo *Support Vector Machine* (Máquinas de Soporte Vectorial).
+  
 El paquete de Aplicaciones OTB proporciona muchas aplicaciones interesantes que facilitan la manipulación de imágenes. Todas estas herramientas están disponibles a través de:  
 
   * Interfaz de línea de comandos (CLI, por sus siglas en inglés: *command line interface*). 
-  * QT GUI: una interfaz de usuario autónoma.
+  * QT GUI: una interfaz de usuario autónoma. Las -aplicaciones se pueden llamar desde un terminal con el alias `otbgui_` más el nombre de la aplicación. Otra opción es usar un pequeño lanzador (disponible en el menu -> Geospatial -> Spatial Tools -> OTB Launcher).
   * extensión para QGIS: una extensión que se usa directamente desde Quantum GIS .
 
-Los datos de ejemplo usados en esta guía se pueden descargar en:
-  * http://www.orfeo-toolbox.org/packages/OTB-Data-Examples.tgz
+Los datos de ejemplo usados en esta guía se pueden encontrar en:
+  * /home/user/data/north_carolina/rast_geotiffs
 
 Mostrar la información de los metadatos de una imagen
 ================================================================================
 
-Se puede obtener toda la información contenida en los metadatos de una imagen mediante el comando:  `otbReadImageInfo-cli`
-El único parámetro necesario es el nombre de archivo de la imagen de entrada, por ejemplo:  `otbReadImageInfo-cli -in qb_RoadExtract.tif`
+Se puede obtener toda la información contenida en los metadatos de una imagen mediante el comando:  `otbcli_ReadImageInfo`
+El único parámetro necesario es el nombre de archivo de la imagen de entrada, por ejemplo::
+
+  otbcli_ReadImageInfo -in ortho_2001_t792_1m.tif
 
 Calculadora de bandas de imagen
 ================================================================================
 
 La aplicación`otbBandMath-cli` proporciona un método eficiente para desarrollar operaciones matemáticas con imágenes monobanda. 
-La sintaxis es muy simple. Por ejemplo, para restar dos bandas para estudiar las diferencias entre las imágenes SpotBefore.tif y SpotAfter.tif, sólo hay que usar el comando: `otbBandMath-cli -ims SpotBefore.png SpotAfter.png -out difference.tif -exp "im1b1-im2b1"`
+La sintaxis es muy simple. Por ejemplo, para restar dos bandas para estudiar las diferencias entre las imágenes SpotBefore.tif y SpotAfter.tif, sólo hay que usar el comando::
+
+  otbcli_BandMath -il lsat7_2002_10.tif lsat7_2002_20.tif -out difference.tif -exp "im1b1-im2b1"
+  
 La aplicación es capaz de desarrollar operaciones matemáticas complejas sobre imágenes tales como cálculo de umbrales, reescalado logarítmico,...
-Esta calculadora digital "casera" incluye funciones personalizadas que permiten procesar una expresión compleja. Por ejemplo, dado que las imágenes de teledetección miden magnitudes físicas, es posible extraer varios índices como el NDVI (*Normalized Difference Vegetation Index*, Índice de vegetación de diferencia normalizada) para la vegetación. Con la calculadora se puede procesar el NDVI de una imagen de un sensor multispectral escribiendo:
-`otbBandMath-cli -ims qb_RoadExtract.tif -out ndvi.tif -exp "ndvi(im1b3,im1b4)"`
+Esta calculadora digital "casera" incluye funciones personalizadas que permiten procesar una expresión compleja. Por ejemplo, dado que las imágenes de teledetección miden magnitudes físicas, es posible extraer varios índices como el NDVI (*Normalized Difference Vegetation Index*, Índice de vegetación de diferencia normalizada) para la vegetación. Con la calculadora se puede procesar el NDVI de una imagen de un sensor multispectral escribiendo::
+
+  otbcli_BandMath -il lsat7_2002_30.tif lsat7_2002_40.tif -out ~/ndvi.tif -exp "ndvi(im1b1,im2b1)"
+
+El archivo `lsat7_2002_30.tif` corresponde al canal rojo de Landsat 7 red y `lsat7_2002_40.tif` se corresponde con el infrarrojo cercano.
+
+Clasificación a nivel de pixel
+================================================================================
+La clasificación en el marco de trabajo de la aplicación proporciona un flujo de clasificación pixel a pixel basado en el aprendizaje a partir de múltiples imágenes y usando un método específico de aprendizaje automático como SVM, Bayes, KNN, Random Forests, Redes Neuronales Artificiales y otros ... (ver la ayuda de la aplicación `TrainImagesClassifier` para más detalles sobre todos los clasificadores disponibles).
+Soporta imágenes muy grandes a través de *streaming* y *multi-threading*. El flujo de clasificación desarrolla una etapa de entrenamiento basadao en las intensidades de cada pixel como características. Hay que notar que todas las imágenes de entrada deben tener el mismo número de bandas para ser comparables.
 
 
-Realizar segmentación con Monteverdi
+Realizar segmentación
+=============================================================================
+
+La aplicación de *Segmentación* de OTB permite producir una segmentación raster usando diferentes algoritmos y 
+Hay cuatro métodos de segmentación disponibles:
+  * Mean-Shift
+  * Watershed (ITK implementation)
+  * Connected-Components
+  * Perfiles morfológicos.
+
+Se puede probar la segmentación con estos comandos:
+
+* Creatción de una imagen multicanal Roja-Verde-Azul-NIR
+::
+
+  otbcli_ConcatenateImages -il lsat7_2002_30.tif lsat7_2002_20.tif lsat7_2002_10.tif lsat7_2002_40.tif -out ~/lsat7_rgbn.tif
+
+* Aplicar segmentación
+
+::
+
+  otbcli_Segmentation -in ~/lsat7_rgbn.tif -filter meanshift -mode raster -mode.raster.out ~/segmentation.tif
+
+* Generar colores en lugar de etiquetas
+
+::
+
+  otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif
+
+Además la aplicación puede funcionar en dos modos diferentes:
+
+* Modo ráster: permite segmentar una imagen pequeña y producir un ráster donde cada componente de la segmentación está etiquetado con un valor entero único.
+* Modo vectorial: segmenta imágenes más grandes y produce un fichero vectorial donde cada segmento de la segmentación está representado por un polígono. 
+
+  .. image:: ../../images/screenshots/800x600/otb-meanshift-lsat7.png
+
+OTB incluye también un marco de trabajo para desarrollar segmentación basada en teselas de imágenes muy grandes con garantías (en teoría) de obtener idénticos resultados que aquellas sin teselado llamadas LSMS_.
+
+.. _LSMS: https://www.orfeo-toolbox.org/CookBook/CookBooksu42.html
+
+
+OTB en QGis
+================================================================================
+El mismo conjunto de aplicaciones OTB se pueden usar desde el menú  Procesos -> Caja de Herramientas en QGis. Las aplicaciones están ordenadas por etiqueta.
+
+  .. image:: ../../images/screenshots/800x600/otb-processing-qgis.png
+
+
+Desarrollo con OTB
 ================================================================================
 
-* Arrancar Monteverdi desde el menú de inicio en *Geospatial>Spatial Tools>Monteverdi*
-* Seleccionar una imagen *raster* usando: :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif` en el directorio donde se hayan descargado los datos.
-* Ir al menú :menuselection:`Filtering --> Mean Shift clustering`. 
-* Seleccionar la imagen *raster* de entrada (Reader0) en el desplegable de entrada. En "Instance Label", seleccionar el nombre de salida (por defecto "MeanShift0").
-* Comprobar que se pueden modificar los parámetros de la segmentación y ver el resultado sobre la región de interés haciendo click en "Run"
-* Seleccionar "Close" una vez el resultado sea satisfactorio.
-* En la ventana principal, click derecho en la imagen segmentada ("Clustered Image") en el juego de datos de resultado "MeanShift0" (o el nombre que se le haya asignado) y seleccionar "Display in viewer" para visualizarlo.
-
-  .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
-     :scale: 100 %
-
-Ejecutar clasificación supervisada basada en SVM con Monteverdi
-================================================================================
-
-(SVM = *Support Vector Machines*, Máquinas de Soporte Vectorial)
-
-* Arrancar Monteverdi desde el menú de inicio.
-* Seleccionar una imagen *raster*, usando :menuselection:`File --> Open Dataset --> /home/user/otb/qb_RoadExtract.tif`.
-* Ir a :menuselection:`Learning --> SVM classification`
-* Seleccionar la imagen *raster* de entrada (Reader0) en la ventana de selección.
-* Se pueden añadir clases con el botón `Add` dentro del menú `Edit Classes`. Para seleccionar las áreas de entrenamiento se dibujan polígonos cliqueando en los vértices y pulsando "End Polygon" en el menú "Regions of Interest" cuando esté terminado. 
-* Ir a :menuselection:`Setup --> SVM` para establecer los parámetros del algoritmo de clasificación.
-* Cliquear en el botón de `Learn` para crear un modelo de clasificación a partir de las clases de aprendizaje.
-* Cliquear en el botón de `Display` para mostrar el resultado de la clasificación supervisada en la imagen completa. 
-
-  .. image:: ../../images/screenshots/800x600/otb-svm.jpg
-     :scale: 100 %
-
-Para leer el tutorial completo, leer el `artículo`_.
-
-.. _`artículo`: http://www.orfeo-toolbox.org/otb/monteverdi.html
+Para usar la biblioteca OTB library y compilar tu propio código C++ code dentro de OSGeo-Live, se necesita instalar el paquete de desarrollo  **libotb-dev** y **libqt4-dev** .
+También comprobar que **cmake** esté instalado. 
+La localización OTB_DIR debería encontrarse automáticamente (normalmente en
+*/usr/lib/x86_64-linux-gnu/cmake/OTB-...*). En la configuración CMake, se deberían vincular las bibliotecas en la variable OTB_LIBRARIES. Se puede encontrar más información en la SoftwareGuide.
 
 
 ¿Y después?
@@ -97,6 +132,7 @@ Para leer el tutorial completo, leer el `artículo`_.
   También está disponible una guía para las Aplicaciones-OTB y Monteverdi orientada a no-desarrolladores. Esta guía está compuesta por un breve tour por las Aplicaciones-OTB y Monteverdi, seguida de un conjunto de recetas para ejecutar tareas habituales de teledetección con ambas herramientas. 
   
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
+  * `Versión Online html <https://www.orfeo-toolbox.org/CookBook/CookBook.html>`_
 
 * Tutoriales OTB
 
@@ -106,7 +142,6 @@ Para leer el tutorial completo, leer el `artículo`_.
 
 * Documentación en el DVD
 
-  Ver también la documentación_ incluida en este DVD.
+   Consultar la detallada documentación sobre aplicaciones OTB_
 
-.. _documentación: ../../otb/
-
+.. _aplicaciones: http://orfeo-toolbox.org/Applications/

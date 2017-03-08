@@ -45,7 +45,7 @@ uDig 具有以下特性：
 * 打印输出和 PDF 输出
 * 对于开发者而言
   
-  * 系统为基于 :doc:`GeoTools <geotools_overview>` 、 `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ 的 Java 程序
+  * 系统为基于 :doc:`GeoTools <geotools_overview>` 、 `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ 的 Java 程序
   * 由 Eclipse Rich Client 平台提供的工业级插件系统
   * 使用本地界面组件
 

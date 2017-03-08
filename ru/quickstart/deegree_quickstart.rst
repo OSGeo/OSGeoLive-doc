@@ -86,7 +86,7 @@
    Картографический клиент базируется на `OpenLayers <http://openlayers.org/>`_. 
    Вы можете перемещаться по карте, удерживая нажатой левую кнопку мыши и двигаясь. Изменение масштаба карты возможно через колесо мыши или с помощью элементов навигации слева.
 
-Дополнительную информацию и пошаговые руководства о рабочих наборах INSPIRE вы можете найти в `документации <http://download.deegree.org/documentation/3.3.13/html/lightly.html#example-workspace-1-inspire-network-services>`_.
+Дополнительную информацию и пошаговые руководства о рабочих наборах INSPIRE вы можете найти в `документации <http://download.deegree.org/documentation/3.3.18/html/lightly.html#example-workspace-1-inspire-network-services>`_.
 
 
 Что дальше?

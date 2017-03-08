@@ -26,6 +26,7 @@ This Quick Start describes how to:
   * apply color to map features using styling
   * test the layers in a simple web map
   * learn about clients that can display your maps
+  * add a layer from a NetCDF file
 
 .. contents:: Contents
   
@@ -277,3 +278,35 @@ from |GS|. This is a list of just some of them
     * :doc:`OpenLayers <../overview/openlayers_overview>`
 
     * :doc:`MapBender <../overview/mapbender_overview>`
+
+NetCDF
+================================================================================
+
+The GeoServer NetCDF plugin allows the publication of rasters from NetCDF files.
+
+Configure a NetCDF store
+------------------------
+
+After running "Start GeoServer", login as the administrator, click on "Add stores" then "NetCDF". Enter a value for Data Source Name (this example uses "netcdf") and a NetCDF URL. You can use the URL::
+
+    file:///usr/local/lib/geoserver/doc/user/_downloads/polyphemus_20120401.nc
+
+This sample file from the GeoServer documentation is included with OSGeo Live. Press "Save", "Publish" the "O3" layer, then scroll down to the bottom of the "Data" tab and press "Save" again.
+
+    .. image:: ../../images/screenshots/800x600/geoserver-netcdf-store.png
+        :align: center
+        :scale: 100 %
+        :alt: Adding a NetCDF store
+
+Preview the NetCDF layer
+------------------------
+
+Select "Layer Preview" from the menu on the left, scroll down to find the "cite:O3" entry, and click on the "OpenLayers" link to show a preview of the layer. Clicking on points will cause the value of "Ozone_concentration" to be shown in a table at the bottom of the map.
+
+    .. image:: ../../images/screenshots/800x600/geoserver-netcdf-preview.png
+        :align: center
+        :scale: 100 %
+        :alt: OpenLayers preview of a NetCDF layer
+
+.. note::
+    This GeoServer instance has been configured with the ``NETCDF_DATA_DIR`` Java system property to allow the publication of NetCDF files in read-only directories.

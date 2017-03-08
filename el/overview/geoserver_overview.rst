@@ -9,7 +9,7 @@
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_incubation.png
   :scale: 100 %
@@ -78,7 +78,7 @@ GeoServer
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Αρχική Ιστοσελίδα:** http://geoserver.org/display/GEOS/Welcome
+**Αρχική Ιστοσελίδα:** http://geoserver.org/
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
@@ -88,7 +88,7 @@ GeoServer
 
 **Προγραμματιστικές διεπαφές:** WMS, WFS, WCS, REST
 
-**Υποστήριξη:** http://geoserver.org/display/GEOS/Commercial+Support
+**Υποστήριξη:** http://geoserver.org/support/
 
 
 

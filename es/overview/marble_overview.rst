@@ -21,7 +21,7 @@ Marble
 Globo 3D de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Marbel es un proyecto de Educación de KDE similar a 
+Marble es un Proyecto de Educación de KDE similar a 
 `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ o a Google Earth.
 Además de poder elegir cualquier número de mapas para ver en su
 globo (incluyendo `OpenStreetMaps <http://www.osm.org>`_), le animamos a incluir 
@@ -74,3 +74,4 @@ Inicio Rápido
 --------------------------------------------------------------------------------
 
 * :doc:`Guía de inicio rápido <../quickstart/marble_quickstart>`
+

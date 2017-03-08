@@ -7,12 +7,12 @@ Leaflet Quickstart
 Running
 ================================================================================
 
-Prior to running this quick start you should start TileLite. On the live dvd this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileLite**.
+Prior to running this quick start you should start TileStache. On the live dvd this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileStache**.
 This will provide background tiles that will be used in this demo. 
 
 View the example_
 
-.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start.html, since this demo uses tilelite on the live dvd.
+.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start.html, since this demo uses tilestache on the live dvd.
 
 Preparing your page
 ===================
@@ -60,13 +60,13 @@ By default (as we didn't pass any options when creating the map instance), all m
 Note that setView call also returns the map object - most Leaflet methods act like this when they don't return an explicit value, which allows convenient jQuery-like method chaining.
 
 Next we'll add a tile layer to add to our map.
-In this case we will be using the tile images provided by tilelite on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
+In this case we will be using the tile images provided by TileStache on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
 
 Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:
 
 .. code-block:: javascript
 
- L.tileLayer('http://localhost:8012/{z}/{x}/{y}.png,{}).addTo(map);
+ L.tileLayer('http://localhost:8012/example/{z}/{x}/{y}.png,{}).addTo(map);
 
 If you have online access you may want to use a nicer tilemap as the background:
 

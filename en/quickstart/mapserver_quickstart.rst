@@ -106,7 +106,7 @@ Put the following content in it::
   :file:`/usr/local/share/data/natural_earth2`).
 
 Each object in a MapFile starts with its name (for example **MAP**) and ends 
-with an **END**.  A MapFile always start with the **MAP** object and should 
+with an **END**.  A MapFile always starts with the **MAP** object and should 
 contain a list of **LAYER** objects the MapFile can read and draw. In our 
 MapFile, we currently have only one layer defined.
 

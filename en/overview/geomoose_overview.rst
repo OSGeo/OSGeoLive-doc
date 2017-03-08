@@ -60,7 +60,7 @@ Details
 
 **Licence:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Software Version:** 2.8.0
+**Software Version:** |version-geomoose|
 
 **Supported Platforms:** Windows, Linux, Mac
 

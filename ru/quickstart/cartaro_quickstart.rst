@@ -54,7 +54,7 @@ Cartaro — геопространственная CMS (система упра�
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
 
 
 Главная страница

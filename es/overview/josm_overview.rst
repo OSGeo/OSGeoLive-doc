@@ -74,7 +74,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) versión 2. Nota: los plugings de JOSM podrían emplear otra licencia.
 
-**Versión de software:** r7347
+**Versión de software:** r11427
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

@@ -104,10 +104,10 @@ Ausprobieren
   :scale: 100 %
   :alt: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten
   :align: center
-
+  
 **Abb. 3**: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten.
 
-* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (siehe Listing 2). Falls Sie mehr über die Verwendung wissen wollen, dann werfen Sie einen Blick auf die `Documentation der REST API <http://localhost:8080/52nSOS/static/doc/api-doc/index.html>`_.
+* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (siehe Listing 2):
 
 .. code-block:: js
 

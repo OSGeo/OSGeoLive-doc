@@ -75,7 +75,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 3.1
+**Software Version:** |version-kosmo|
 
 **Supported Platforms:** Windows, Linux
 

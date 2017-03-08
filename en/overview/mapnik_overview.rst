@@ -43,7 +43,7 @@ Details
 
 **Licence:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 3.0.11
+**Software Version:** |version-mapnik|
 
 **Supported Platforms:** Windows, Linux, Mac
 

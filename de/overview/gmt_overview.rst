@@ -39,21 +39,20 @@ Kernfunktionen
 * Kartographie nach wissenschaftlichen Qualitätsanforderungen. 
 * Funktionen für Rasterung und Konturierung.
 
-
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://gmt.soest.hawaii.edu
+**Webseite:** https://gmt.soest.hawaii.edu
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 4.5.11
+**Software Version:** |version-gmt|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen:** Kommandozeile
 
-**Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
 Quickstart

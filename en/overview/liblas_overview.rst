@@ -44,7 +44,7 @@ Details
 
 **Licence:** BSD
 
-**Software Version:** 1.8.0
+**Software Version:** |version-liblas|
 
 **Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), and Linux
 

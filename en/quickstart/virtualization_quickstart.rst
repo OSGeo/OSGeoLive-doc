@@ -62,7 +62,7 @@ In the next screen set the memory to 1024 MB (or more if your host computer has 
   .. image:: ../../images/screenshots/800x600/vmdk_memory.jpg
               :scale: 65 %
 
-Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the osgeo-live-vm-6.0.vmdk file. Select this file, press Next and Create.
+Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the OSGeo-Live vmdk-file. Select this file, press Next and Create.
 
   .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
                    :scale: 65 %

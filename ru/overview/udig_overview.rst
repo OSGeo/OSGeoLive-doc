@@ -46,7 +46,7 @@ uDig — это:
 * Печать и генерация PDF.
 * Для разработчиков:
   
-  * Сборка приложений на Java, используя :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_.
+  * Сборка приложений на Java, используя :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_.
   * Продвинутая система плагинов, предоставляемая платформой Eclipse.
   * Использование нативных виджетов.
 
