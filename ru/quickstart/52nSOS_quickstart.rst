@@ -144,7 +144,7 @@
             description: "An organizing unit to filter resources."
         }
     ]
-    
+
 **Листинг 2:** Вывод конечной точки REST API.
 
 Дополнительная информация

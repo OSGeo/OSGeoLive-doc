@@ -89,7 +89,7 @@ Getting Started
           </sos:GetObservation>
       </env:Body>
   </env:Envelope>
-  
+
 **Listing 1:** Request of observations.
 
 
@@ -106,7 +106,7 @@ Things to Try
   :scale: 100 %
   :alt: 52°North SOS client - JavaScript client with time series data
   :align: center
-  
+
 **Fig. 3**: 52°North SOS client - JavaScript client with time series data.
 
 * Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):
