@@ -55,7 +55,7 @@ Erste Schritte
 **Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage.
 
 4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von
-   1.7.2016 00:30 23:00 in der Zeitzone +0 abzufragen, muss im `Test Client
+   28.2.2017 23:45 bis 1.3.2017 23:45 in der Zeitzone +0 abzufragen, muss im `Test Client
    <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" -->
    Version "2.0.0" --> Binding "SOAP" --> Operation "GetObservation" folgende
    Abfrage im Feld "Request" stehen:
@@ -80,8 +80,8 @@ Erste Schritte
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2016-07-01T00:30:00.000+00:00</gml:beginPosition>
-                          <gml:endPosition>2016-07-01T23:00:00.000+00:00</gml:endPosition>
+                          <gml:beginPosition>2017-02-28T23:45:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2017-03-01T23:45:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>
@@ -107,7 +107,7 @@ Ausprobieren
 
 **Abb. 3**: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten.
 
-* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (siehe Listing 2). Falls Sie mehr über die Verwendung wissen wollen, dann werfen Sie einen Blick auf die `Documentation der REST API <http://localhost:8080/52nSOS/static/doc/api-doc/index.html>`_.
+* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (siehe Listing 2):
 
 .. code-block:: js
 
