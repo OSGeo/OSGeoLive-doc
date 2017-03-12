@@ -35,6 +35,7 @@ OSGeo Supporting Sponsors
   :alt: GeoCat
   :target: http://geocat.net/
 
+
 .. image:: ../images/logos/Boundless_Logo.png
   :alt: Boundless
   :target: http://boundlessgeo.com/
