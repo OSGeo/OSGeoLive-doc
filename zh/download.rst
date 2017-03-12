@@ -29,4 +29,4 @@ ISO images are available for recent amd64 hardware (recommended) as well as olde
 
 **System Requirements**
 
-`最低系统配置：768MB 内存（对 Java 程序来说 2GB 更合适）；1GHz 兼容 i686 体系的 CPU；无需硬盘；Mac 用户使用三按键的 USB 鼠标会更容易操作。`
+`最低系统配置：1GB 内存（对 Java 程序来说 2GB 更合适）；1GHz 兼容 i386 or amd64 体系的 CPU；无需硬盘；Mac 用户使用三按键的 USB 鼠标会更容易操作。`
