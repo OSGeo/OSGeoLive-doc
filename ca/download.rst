@@ -1,37 +1,28 @@
 .. Writing Tip:
-  there a several replacements defined in conf.py in the root doc folder
-  do not replace |osgeolive-iso-size|, |osgeolive-iso-mini-size| and |osgeolive-vm-7z-size|
+  There a several replacements defined in conf.py in the root doc folder.
+  Do not replace |osgeolive-iso-size|, and |osgeolive-vm-7z-size|
+  The actual ISO sizes are defined in settings.py.
 
 Descarregar
 ================================================================================
 
-La darrera versió estable d' |osgeo-live-version| :
+La darrera versió estable d' |osgeo-live-version|. Descarregar https://sourceforge.net/projects/osgeo-live/files/10.5/
 
-.. image:: ../images/download_buttons/download-dvd.png
-  :alt: Descarrega l'arxiu iso amb instal·ladors per Windows
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso/download
+**osgeo-live iso**: |osgeolive-iso-size|
 
-`osgeo-live-9.5-i386.iso <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso/download>`_ : |osgeolive-iso-size|
+Un DVD d'arrancada basat en Lubuntu, que també inclou instal·ladors per a Windows i Mac. També es pot copiar a un disc USB d'arrancada de 8 GB.
 
-.. image:: ../images/download_buttons/download-dvd.png
-  :alt: Descarrega l'arxiu iso amb instal·ladors per Windows
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-amd64.iso/download
+**osgeo-live-vm**: |osgeolive-vm-7z-size|
 
-`osgeo-live-9.5-amd64.iso <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-amd64.iso/download>`_ : |osgeolive-iso-size|
+Disc virtual comprimit (.vmdk) en `7-Zip <http://www.7-zip.org/>`_ indicat per ser usat en aplicacions de virtualització com VirtualBox, VMWare, KVM i altres. No conté instal·ladors per Windows ni per Mac.
 
-Un DVD d'arrancada basat en Lubuntu, que també inclou instal·ladors per a Windows i Mac. També es pot copiar a un disc USB d'arrancada de 8 GB. Verifiqueu la descàrrega amb la corresponent suma de comprovació `(osgeo-live-9.5.iso.md5) <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso.md5/download>`_.
+**amd64 or i386 architecture**
 
-.. image:: ../images/download_buttons/download-vm.png
-  :alt: Descarrega la màquina virtual sense instal·ladors Windows ni Mac en un arxiu 7-zip
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z/download
+ISO images are available for recent amd64 hardware (recommended) as well as older i386 hardware.
 
-`osgeo-live-vm-9.5.7z <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z/download>`_ : |osgeolive-vm-7z-size|
+**md5 checksum**
 
-Disc virtual comprimit (.vmdk) en `7-Zip <http://www.7-zip.org/>`_ indicat per ser usat en aplicacions de virtualització com VirtualBox, VMWare, KVM i altres. No conté instal·ladors per Windows ni per Mac. Verifiqueu la descàrrega amb la corresponent suma de comprovació `(osgeo-live-vm-9.5.7z.md5) <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z.md5/download>`_.
+Verifiqueu la descàrrega amb la corresponent suma de comprovació md5.
+**Requeriments de maquinari**
 
-Per tenir una llista completa de versions, opcions de descàrrega i servidors mirall, visiteu: http://download.osgeo.org/livedvd
-
-[*] `Requeriments de maquinari mínims suggerits: 768MB RAM (millor 2 GB si voleu provar aplicacions basades en Java), CPU 1GHz compatible amb i686. No fa falta disc dur. Per als usuaris de Mac fóra convenient disposar d'un ratolí de 3 botons.`
+`Requeriments de maquinari mínims suggerits: 1GB RAM (millor 2 GB si voleu provar aplicacions basades en Java), CPU 1GHz compatible amb i686. No fa falta disc dur. Per als usuaris de Mac fóra convenient disposar d'un ratolí de 3 botons.`
