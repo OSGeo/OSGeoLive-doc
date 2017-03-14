@@ -23,13 +23,13 @@ disponibile un `sistema di bug e wish tracking <a href="https://trac.osgeo.org/o
 Supporto commerciale
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
+  :alt: Jirotech
 
-LISAsoft offre supporto commerciale per la creazione del Live DVD, nonché di molte delle applicazioni in esso contenute.
+Jirotech offre supporto commerciale per la creazione del Live DVD, nonché di molte delle applicazioni in esso contenute.
 Maggiori dettagli sono disponibili sul sito:
-http://www.lisasoft.com/LISAsoft/support.html
+http://www.jirotech.com/Jirotech/support.html
 
 La maggior parte delle applicazioni pacchettizzate offrono sia supporto da parte della comunità sia commerciale. Maggiori dettagli sono disponibili sui siti web dei singoli pacchetti.
 Inoltre, ci sono numerose società di consulenza in tutto il mondo che offrono supporto per i progetti OSGeo.

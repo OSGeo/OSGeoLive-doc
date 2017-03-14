@@ -23,14 +23,14 @@ jest również `system zgłaszania życzeń i błędów <https://trac.osgeo.org/
 Wsparcie komercyjne
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-Firma LISAsoft oferuje usługi w zakresie budowania 
+Firma Jirotech oferuje usługi w zakresie budowania 
 Live DVD, oraz instalatorów wielu programów na nim zawartych.
-Szczegóły na: http://lisasoft.com
+Szczegóły na: http://jirotech.com
 
 Dla większości programów znajdujących się na płycie znajdą Państwo zarówno wsparcie społeczności jak i komercyjne. Szczegóły w opisach poszczególnych programów, które można przeglądać ze strony `Zawartość <overview/overview.html>`_.
 
