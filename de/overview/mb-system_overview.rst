@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons
 

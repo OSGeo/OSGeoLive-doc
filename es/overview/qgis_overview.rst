@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Roberto Antolín
 :Reviewer: Angelos Tzotsos
 :Reviewer: Nicolas Roelandt

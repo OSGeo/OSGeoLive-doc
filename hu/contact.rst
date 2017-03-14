@@ -25,14 +25,14 @@ Rengeteg információ érhető el a
 Kereskedelmi támogatás
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-A LISAsoft kereskedelmi támogatást kínál a Live DVD elkészítéséhez,
+A Jirotech kereskedelmi támogatást kínál a Live DVD elkészítéséhez,
 mint ahogy a rajta található alkalmazásokhoz.
-Részletek: http://lisasoft.com
+Részletek: http://jirotech.com
 
 A csomagban található alkalmazások többségéhez mind közösségi mind kereskedelmi
 támogatás ajánlanak. Lásd az egyes alkalmazások leírását a

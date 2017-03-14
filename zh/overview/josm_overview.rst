@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :Translator: Zhengfan Lin
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

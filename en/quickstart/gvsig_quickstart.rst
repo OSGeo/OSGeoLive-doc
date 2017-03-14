@@ -1,7 +1,7 @@
 :Author: Simon Cropper
 :Reviewer: Jorge Sanz
 :Reviewer: Manuel Madrid
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

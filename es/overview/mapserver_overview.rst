@@ -1,5 +1,5 @@
 :Author: Alan Boudreault, Steve Lime
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Diego González
 :Translator: David Mateos
 :Version: osgeo-live6.5

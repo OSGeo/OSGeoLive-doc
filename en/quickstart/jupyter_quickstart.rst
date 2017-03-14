@@ -2,7 +2,7 @@
 :Contact: epiesasha at me dot com
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 
 .. image:: ../../images/project_logos/logo-jupyter.png
   :alt: project logo

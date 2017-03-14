@@ -11,11 +11,11 @@ Open Source Geospatial Foundation (OSGeo) fornisce il personale e
 l'infrastruttura per l'hosting e lo sviluppo per il progetto,
 e per molte delle comunità dei software che contrinuiscono a questo.
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: ../images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft fornisce le risorse e il personale che sostengono la gestione
+Jirotech fornisce le risorse e il personale che sostengono la gestione
 e il pacchettamento del software sul OSGeo-Live DVD.
 
 .. image:: ../images/logos/ucd_ice_logo.png

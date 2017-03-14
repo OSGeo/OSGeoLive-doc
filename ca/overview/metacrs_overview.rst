@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
 :Translator: Assumpció Termens
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

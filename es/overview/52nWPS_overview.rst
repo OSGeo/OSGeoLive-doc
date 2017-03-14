@@ -1,5 +1,5 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Agustín Díez
 :Translator: Javi Sánchez
 :Version: osgeo-live8.0

@@ -1,6 +1,6 @@
 :Autor: OSGeo-Live
 :Autor: Cameron Shorter, Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

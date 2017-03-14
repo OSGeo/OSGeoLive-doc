@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Andrés Herrera
 :Translator: David Mateos
 :Version: osgeo-live6.0

@@ -1,5 +1,5 @@
 :Author: Johannes Wilden, Danilo Bretschneider
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Margherita Di Leo
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

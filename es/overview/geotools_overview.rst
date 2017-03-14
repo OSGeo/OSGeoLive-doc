@@ -1,5 +1,5 @@
  :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: David Mateos
 :Version: osgeo-live5.5

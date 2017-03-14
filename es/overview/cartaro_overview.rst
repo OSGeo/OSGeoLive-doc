@@ -1,6 +1,6 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
-:Reviewer: Cameron Shorter, http://lisasoft.com
+:Reviewer: Cameron Shorter, http://jirotech.com
 :Translator: Javi Sánchez, http://geonatec.com
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

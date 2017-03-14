@@ -1,5 +1,5 @@
 :Autor: activityworkshop
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: Roberto Antolín
 :Versión: osgeo-live6.5

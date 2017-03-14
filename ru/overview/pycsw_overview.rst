@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5-draft
 :License: Creative Commons
 

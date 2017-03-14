@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: Roberto Antolín
 :Version: osgeo-live6.5

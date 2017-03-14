@@ -10,7 +10,7 @@
 
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Luca Delucchi
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

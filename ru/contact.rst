@@ -23,14 +23,14 @@
 Коммерческая поддержка
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-Компания LISAsoft предоставляет коммерческую поддержку для создания Live DVD, многие 
+Компания Jirotech предоставляет коммерческую поддержку для создания Live DVD, многие 
 приложения были подготовлены с её помощью.
-Детали на сайте http://lisasoft.com
+Детали на сайте http://jirotech.com
 
 Большая часть приложений имеет как поддержку сообщества, так и предложения по их 
 коммерческой поддержке. Детали можно найти в :doc:`описаниях <./overview/overview>` 

@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)

@@ -9,11 +9,11 @@ The Open Source Geospatial Foundation (OSGeo) provides the primary
 development & hosting infrastructure and personnel for the project,
 and for many of the software teams which contribute to it.
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: ../images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft provides sustaining resources and staff toward the management and packaging of software onto the OSGeo-Live DVD.
+Jirotech provides sustaining resources and staff toward the management and packaging of software onto the OSGeo-Live DVD.
 
 .. image:: ../images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
@@ -40,7 +40,7 @@ the core packages.
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
 
-The Australian Government's Office of Spatial Data Management sponsored LISAsoft's review of Application Overviews, to achieve consistent, quality project write ups.
+The Australian Government's Office of Spatial Data Management sponsored Jirotech's review of Application Overviews, to achieve consistent, quality project write ups.
 
 .. image:: ../images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service

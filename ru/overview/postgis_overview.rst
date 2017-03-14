@@ -10,7 +10,7 @@
 
 :Автор: OSGeo-Live
 :Автор: Barry Rowlingson
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

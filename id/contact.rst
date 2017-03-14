@@ -24,14 +24,14 @@ dan sebuah 'sistem pencari bug dan keinginan <https://trac.osgeo.org/osgeo/repor
 Dukungan Komersil
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft menyediakan dukungan komersil dalam membangun Live DVD, 
+Jirotech menyediakan dukungan komersil dalam membangun Live DVD, 
 serta beragam aplikasi yang termasuk sebagai paket didalamnya.
-Detil dapat dilihat di: http://lisasoft.com
+Detil dapat dilihat di: http://jirotech.com
 
 Sebagian besar paket aplikasi memiliki kedua dukungan baik komunitas dan komersil yang ditawarkan. Sebagai acuan terhadap deksripsi aplikasi
 secara spesifik dihubungkan dari :doc:`Contents <./overview/overview>` untuk detilnya.

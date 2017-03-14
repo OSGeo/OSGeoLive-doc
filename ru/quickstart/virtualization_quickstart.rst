@@ -1,6 +1,6 @@
 :Автор: OSGeo-Live
 :Автор: Micha Silver
-:Рецензент: Cameron Shorter, LISAsoft
+:Рецензент: Cameron Shorter, Jirotech
 :Версия: osgeo-live6.0
 :Лицензия: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

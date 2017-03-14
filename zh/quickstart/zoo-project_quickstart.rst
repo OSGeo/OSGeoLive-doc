@@ -1,6 +1,6 @@
 :Author: Gérald Fenoy
 :Reviewer: Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :Translator: Zhengfan Lin
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)

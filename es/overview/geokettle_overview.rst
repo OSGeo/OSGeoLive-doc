@@ -1,5 +1,5 @@
 :Author: Thierry Badard
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Pedro-Juan Ferrer
 :Translator: David Mateos
 :Version: osgeo-live7.0draft
