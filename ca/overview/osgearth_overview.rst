@@ -1,5 +1,5 @@
 :Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5

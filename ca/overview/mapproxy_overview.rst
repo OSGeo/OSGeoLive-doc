@@ -1,5 +1,5 @@
 :Author: Oliver Tonnhofer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Assumpcio Termens
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5

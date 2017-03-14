@@ -7,7 +7,7 @@ Se puede ver la última versión estable de la presentación en:
 http:///livedvd/docs/es/presentation/
 
 :Autoría: <Su nombre>, <Afiliaciónn>
-:Author: Cameron Shorter, LISAsoft
+:Author: Cameron Shorter, Jirotech
 
 :Historia: Este documento se deriva de los resúmenes del proyecto OSGeo-Live, por los autores de OSGeo-Live.
 
@@ -29,5 +29,5 @@ Esta presentación es muy útil para cualquieera que quiera conocer rápidamente
 
 <Ponente1> es ...
 
-Esta presentación fue compilada originalmente por Cameron Shorter, uno de los coordinadores del proyecto OSGeo-Live, y Gestor de Programas Geoespaciales en LISAsoft.
+Esta presentación fue compilada originalmente por Cameron Shorter, uno de los coordinadores del proyecto OSGeo-Live, y Gestor de Programas Geoespaciales en Jirotech.
 

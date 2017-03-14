@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons

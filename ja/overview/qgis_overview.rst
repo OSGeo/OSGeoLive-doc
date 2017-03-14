@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos
 :Reviewer: Nicolas Roelandt
 :Version: osgeo-live10.0

@@ -1,5 +1,5 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)i, Daniel Nüst (d.nuest@52north.org) 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Agustín Díez
 :Translator: Roberto Antolín
 :Version: osgeo-live6.5

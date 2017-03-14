@@ -1,5 +1,5 @@
 :Автор: Hamish Bowman
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons
 

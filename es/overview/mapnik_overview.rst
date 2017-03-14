@@ -1,5 +1,5 @@
 :Author: Dane Springmeyer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: David Mateos
 :Version: osgeo-live10.0draft

@@ -1,6 +1,6 @@
 :Author: Steve Lime
 :Reviewer: Stephan Meissl
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Mauricio Miranda
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)

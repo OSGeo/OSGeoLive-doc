@@ -1,5 +1,5 @@
 :Author: Johannes Wilden, Markus Schneider, Danilo Bretschneider
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: David Mateos
 :Version: osgeo-live7.0

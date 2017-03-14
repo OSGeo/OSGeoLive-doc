@@ -1,5 +1,5 @@
 ﻿:Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Product: MapWindow GIS Lite
 :Version: osgeo-live9.0
 :Version: osgeo-live5.5

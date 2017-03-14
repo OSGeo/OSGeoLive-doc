@@ -1,5 +1,5 @@
 :Author: Jorge Sanz 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Reconeixement 3.0 No adaptada (CC BY 3.0)

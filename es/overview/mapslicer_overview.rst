@@ -1,5 +1,5 @@
 :Autor: Klokan Petr Pridal, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Versión: osgeo-live8.5
 :Licencia: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

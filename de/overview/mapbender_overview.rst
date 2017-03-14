@@ -1,6 +1,6 @@
 :Author: Astrid Emde
 :Translator: Astrid Emde
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

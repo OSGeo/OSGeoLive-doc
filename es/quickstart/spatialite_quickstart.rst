@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Micha Silver
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Mauricio Miranda
 :Translator: David Mateos
 :Version: osgeo-live 9.0

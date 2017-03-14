@@ -1,5 +1,5 @@
 :Author: Daniel Kastl
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Celia Virginia Vergara Castillo
 :Translator: Mauricio Miranda
 :Translator: Roberto Antolín
