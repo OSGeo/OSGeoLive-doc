@@ -1,3 +1,9 @@
+osgeolive-docs (10.5) xenial; urgency=medium
+
+  * Preparing 10.5 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Wed, 15 Mar 2017 17:00:00 +0200
+
 osgeolive-docs (10.5~rc1) xenial; urgency=medium
 
   * Preparing 10.5 rc1 release
