@@ -1,5 +1,5 @@
 :Author: Howard Butler
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: Nacho Uve
 :Version: osgeo-live9.5

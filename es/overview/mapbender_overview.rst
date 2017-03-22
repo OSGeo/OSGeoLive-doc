@@ -1,5 +1,5 @@
 :Author: Astrid Emde
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: Roberto Antolín
 :Version: osgeo-live6.5

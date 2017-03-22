@@ -28,14 +28,14 @@ y también hay disponible un sistema de `gestión de peticiones y errores <https
 Soporte comercial
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft proporciona soporte comercial para la construcción del Live DVD, así
+Jirotech proporciona soporte comercial para la construcción del Live DVD, así
 como muchas de las aplicaciones empaquetadas en él. Más detalles en
-http://lisasoft.com
+http://jirotech.com
 
 Muchas de las aplicaciones empaquetadas tienen tanto soporte de la comunidad
 como soporte comercial. Puede visitar `las páginas  <overview/overview.html>`_

@@ -6,7 +6,7 @@
 #
 #################################################
 # Copyright (c) 2011 Open Source Geospatial Foundation (OSGeo)
-# Copyright (c) 2011 LISAsoft
+# Copyright (c) 2011 Jirotech
 #
 # Licensed under the GNU LGPL.
 # 

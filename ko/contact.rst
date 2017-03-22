@@ -18,13 +18,13 @@ Community Support
 Commercial Support
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft는 Live DVD 개발을 위해 상업적으로 지원을 하며, 많은 응용 프로그램들이 포함되어 있습니다.
-자세한 사항은 http://lisasoft.com
+Jirotech는 Live DVD 개발을 위해 상업적으로 지원을 하며, 많은 응용 프로그램들이 포함되어 있습니다.
+자세한 사항은 http://jirotech.com
 
 대부분의 프로그램은 커뮤니티와 상업적인 지원이 이루어지고 있습니다. 
 특정 프로그램의 자세한 사항은 :doc:`Contents <./overview/overview>` 

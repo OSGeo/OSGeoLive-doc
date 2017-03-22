@@ -17,12 +17,12 @@
 商业性支持（英文）
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-　　LISAsoft 公司为 OSGeo-Live 及其中很多软件系统提供商业性的技术支持。详见 `LISAsoft.com <http://lisasoft.com>`_ 网站。
+　　Jirotech 公司为 OSGeo-Live 及其中很多软件系统提供商业性的技术支持。详见 `Jirotech.com <http://jirotech.com>`_ 网站。
 
 　　OSGeo-Live 所包含的大部分软件都具备社区性质和商业性质的支持服务。详见 :doc:`Contents <./overview/overview>` 页面。
 

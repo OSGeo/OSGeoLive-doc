@@ -2,7 +2,7 @@
 :Автор: Jinsongdi Yu
 :Автор: Dimitar Misev
 :Автор: Michael Owonibi
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live6.0
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

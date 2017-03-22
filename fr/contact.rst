@@ -24,14 +24,14 @@ et un `système de suivi des bugs et des demandes <https://trac.osgeo.org/osgeo/
 Support commercial
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft fournit le support commercial pour la construction du Live DVD, ainsi
+Jirotech fournit le support commercial pour la construction du Live DVD, ainsi
 que pour de nombreuses applications qui sont packagées dedans.
-Plus de détails sur: http://lisasoft.com
+Plus de détails sur: http://jirotech.com
 
 La plupart des applications packagées ont à la fois un support communautaire et
 commercial pour elles. Référez-vous aux descriptions spécifiques aux applications

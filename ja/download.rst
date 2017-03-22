@@ -7,7 +7,7 @@
 ================================================================================
 
 最新の安定版リリースは |osgeo-live-version| でこちらからダウンロード可能です:
-https://sourceforge.net/projects/osgeo-live/files/10.0/
+https://sourceforge.net/projects/osgeo-live/files/10.5/
 
 正しいイメージの選択:
 

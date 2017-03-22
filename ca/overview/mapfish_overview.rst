@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Author: Anna Muñoz Bollas
 :Version: osgeo-live6.5

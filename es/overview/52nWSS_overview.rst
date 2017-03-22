@@ -1,5 +1,5 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Jorge Sanz
 :Translator: Roberto Antolín
 :Version: osgeo-live6.5

@@ -3,7 +3,7 @@
 :Author: Hamish Bowman
 :Author: Zoltan Siki
 :Translator: Zoltan Siki
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

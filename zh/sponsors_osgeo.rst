@@ -9,67 +9,38 @@ OSGeo 开源地理信息基金会
 
 `　　请注意，OSGeo 为您提供这些软件，希望其对您有益，但并不提供任何形式的保证，哪怕是对软件针对某一用途适用性的隐含的保证。`
 
+
 OSGeo 赞助者
---------------------------------------------------------------------------------
-
-.. image:: ../images/logos/ordnance-survey_logo.png
-  :alt: Ordnance Survey
-  :target: http://www.ordnancesurvey.co.uk
-
-
-OSGeo Associate Sponsors
 --------------------------------------------------------------------------------
 
 .. image:: ../images/logos/geocat_logo.png
   :alt: GeoCat
-  :align: left
   :target: http://geocat.net/
+
+
+.. image:: ../images/logos/Boundless_Logo.png
+  :alt: Boundless
+  :target: http://boundlessgeo.com/
+
+.. image:: ../images/logos/gaia3d.png
+  :alt: Gaia3D
+  :target: http://www.gaia3d.com/
 
 .. image:: ../images/logos/astun.png
   :alt: Astun Technology
-  :align: center
-  :target: http://www.isharemaps.com
+  :target: https://astuntechnology.com/
 
-.. image:: ../images/logos/borealis.jpg
-  :alt: BOREALIS
-  :align: right
-  :target: http://www.boreal-is.com
+.. image:: ../images/logos/chameleon-john-logo.png
+  :alt: ChameleonJohn
+  :target: https://www.chameleonjohn.com/
 
-.. image:: ../images/logos/ign_france.png
-  :alt: IGN
-  :align: left
-  :target: http://www.ign.fr
+.. image:: ../images/logos/apps-for-rent-logo.png
+  :alt: Apps4Rent
+  :target: http://www.apps4rent.com/
 
-.. image:: ../images/logos/pci.jpg
-  :alt: PCI Geomatics
-  :align: center
-  :target: http://www.pcigeomatics.com
-
-.. image:: ../images/logos/camptocamp_logo.png
-  :scale: 80 %
-  :alt: Camptocamp
-  :align: right
-  :target: http://camptocamp.com
-
-.. image:: ../images/logos/lizardtech_logo_sml.png
-  :alt: LizardTech
-  :align: left
-  :target: http://www.lizardtech.com
-
-.. image:: ../images/logos/1spatial_sml.jpg
-  :alt: 1Spatial
-  :align: center
-  :target: http://www.1spatial.com
-
-.. image:: ../images/logos/first-base-solutions_logo.png
-  :alt: First Base Solutions
-  :align: right
-  :target: http://www.firstbasesolutions.com
-
-.. image:: ../images/logos/2ndquadrant_logo.png
-  :alt: 2ndQuadrant
-  :align: left
-  :target: http://www.2ndquadrant.com/
+.. image:: ../images/logos/DealIslands.png
+  :alt: Dealslands
+  :target: http://www.dealslands.co.uk/
 
 
 更多相关信息

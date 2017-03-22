@@ -1,37 +1,32 @@
 .. Writing Tip:
-  there a several replacements defined in conf.py in the root doc folder
-  do not replace |osgeolive-iso-size|, |osgeolive-iso-mini-size| and |osgeolive-vm-7z-size|
+  There a several replacements defined in conf.py in the root doc folder.
+  Do not replace |osgeolive-iso-size|, and |osgeolive-vm-7z-size|
+  The actual ISO sizes are defined in settings.py.
 .. Translator: Bu Kun(bukun@osgeo.cn)
+
 下载
 ================================================================================
 
-最新的 |osgeo-live-version| 稳定版本:
+最新的 |osgeo-live-version| 稳定版本. https://sourceforge.net/projects/osgeo-live/files/10.5/:
 
-.. image:: ../images/download_buttons/download-dvd.png
-  :alt: Download iso file with windows installers
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso/download
+Picking the right image for you:
 
-`osgeo-live-9.5-i386.iso <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso/download>`_ : |osgeolive-iso-size|
+**osgeo-live iso**: |osgeolive-iso-size|
 
-.. image:: ../images/download_buttons/download-dvd.png
-  :alt: Download iso file with windows installers
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-amd64.iso/download
+这是一个基于 Lubuntu 建立的 DVD 镜像，其中也包含了部分软件在 Windows 或 Mac 下的安装程序。它也可以安装在 8G 的 USB 盘上。
 
-`osgeo-live-9.5-amd64.iso <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-amd64.iso/download>`_ : |osgeolive-iso-size|
-
-这是一个基于 Lubuntu 建立的 DVD 镜像，其中也包含了部分软件在 Windows 或 Mac 下的安装程序。它也可以安装在 8G 的 USB 盘上。下载前请检查文件的 MD5 值 `(osgeo-live-9.5.iso.md5) <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso.md5/download>`_ 。
-
-.. image:: ../images/download_buttons/download-vm.png
-  :alt: Download 7-zip of a Virtual Machine without Windows and Mac installers
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z/download
-
-`osgeo-live-vm-9.5.7z <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z/download>`_ : |osgeolive-vm-7z-size|
+**osgeo-live-vm**: |osgeolive-vm-7z-size|
 
 用 `7-Zip <http://www.7-zip.org/>`_ 压缩好的虚拟盘（.vmdk），使用于 VirtualBox 、VMWare 、KVM 等虚拟机环境。它不包含 Windows 及 Mac 安装程序。下载前请检查文件的 MD5 值 `(osgeo-live-vm-9.5.7z.md5) <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z.md5/download>`_ 。
 
-完整的下载及镜像列表见 visit: http://download.osgeo.org/livedvd 。
+**amd64 or i386 architecture**
 
-[*] `最低系统配置：768MB 内存（对 Java 程序来说 2GB 更合适）；1GHz 兼容 i686 体系的 CPU；无需硬盘；Mac 用户使用三按键的 USB 鼠标会更容易操作。`
+ISO images are available for recent amd64 hardware (recommended) as well as older i386 hardware.
+
+**md5 checksum**
+
+下载前请检查文件的 MD5 值。
+
+**System Requirements**
+
+`最低系统配置：1GB 内存（对 Java 程序来说 2GB 更合适）；1GHz 兼容 i386 or amd64 体系的 CPU；无需硬盘；Mac 用户使用三按键的 USB 鼠标会更容易操作。`

@@ -1,5 +1,5 @@
 ﻿:Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Òscar Fonts
 :Translator: David Mateos
 :Version: osgeo-live5.5

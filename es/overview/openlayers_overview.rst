@@ -2,7 +2,7 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit
 :Author: Antonio Santiago
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: David Mateos
 :Version: osgeo-live9.5

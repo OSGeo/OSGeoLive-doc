@@ -9,11 +9,11 @@ La fondation OSGeo (Open Source Geospatial) fournit l'infrastructure principale
 d'hébergement et de développement ainsi que du personnel pour le projet mais aussi
 pour beaucoup d'équipes de développement qui contribue à celui-ci.
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: ../images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft fournit des ressources et du personnel pour gérer et packager les
+Jirotech fournit des ressources et du personnel pour gérer et packager les
 logiciels pour créer le DVD OSGeo-Live.
 
 .. image:: ../images/logos/ucd_ice_logo.png
@@ -44,7 +44,7 @@ paquets principaux.
   :target: http://www.osdm.gov.au
 
 Le bureau du gouvernement Australien de gestion des données spatiales a sponsorisé
-la relecture par LISAsoft des vues d'ensemble logicielles, pour assurer une écriture
+la relecture par Jirotech des vues d'ensemble logicielles, pour assurer une écriture
 plus consistante et pertinente de la description des projets.
 
 .. include :: sponsors_osgeo.rst

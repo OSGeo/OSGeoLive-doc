@@ -1,6 +1,6 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Andrés Herrera
 :Translator: Roberto Antolín
 :Version: osgeo-live7.0
