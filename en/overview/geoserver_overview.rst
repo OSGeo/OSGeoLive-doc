@@ -1,7 +1,8 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
@@ -23,7 +24,9 @@ Web Service
 
 GeoServer is a web server that allows you to serve maps and data from
 a variety of formats to standard clients such as web browsers and desktop
-GIS programs. Data is published via standards based interfaces, such as WMS, WFS, WCS, WPS, Tile Caching and more.  GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end.
+GIS programs. Data is published via standards based interfaces, such as WMS,
+WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based
+management interface and connects to multiple data sources at the back end.
 
 .. image:: ../../images/screenshots/800x600/geoserver.png
   :scale: 60 %

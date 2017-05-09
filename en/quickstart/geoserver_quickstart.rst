@@ -2,7 +2,7 @@
 :Author: Frank Gasdorf
 :Reviewer: Angelos Tzotsos
 :Reviewer: Cameron Shorter
-:Version: osgeo-live6.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
 
@@ -310,3 +310,25 @@ Select "Layer Preview" from the menu on the left, scroll down to find the "cite:
 
 .. note::
     This GeoServer instance has been configured with the ``NETCDF_DATA_DIR`` Java system property to allow the publication of NetCDF files in read-only directories.
+
+What Next?
+================================================================================
+
+This is only the first step on the road to using GeoServer. There is
+a lot more functionality you can try.
+
+GeoServer Project home
+
+  http://geoserver.org/
+
+GeoServer User Manual
+
+  http://docs.geoserver.org/latest/en/user/
+
+GeoServer Tutorials
+
+  http://docs.geoserver.org/latest/en/user/tutorials/index.html
+
+GeoServer Styling Workshop
+
+  http://docs.geoserver.org/latest/en/user/styling/workshop/index.html
