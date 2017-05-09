@@ -1,5 +1,6 @@
 :Author: Astrid Emde, material from Frank Warmedam's RasterTutorial
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
@@ -184,21 +185,21 @@ will learn more about ogrinfo later in this tutorial)
 
 ::
 
-  ogrinfo ../HYP_50M_SR_W/ index
-  INFO: Open of `../HYP_50M_SR_W/'
+  ogrinfo index_natural_earth.shp index_natural_earth
+  INFO: Open of `index_natural_earth.shp'
       using driver `ESRI Shapefile' successful.
 
-  Layer name: index
+  Layer name: index_natural_earth
   Geometry: Polygon
   Feature Count: 2
   Extent: (-180.000000, -90.000000) - (180.000000, 90.000000)
   Layer SRS WKT: (unknown)
   location: String (255.0)
-  OGRFeature(index):0
+  OGRFeature(index_natural_earth):0
     location (String) = east.tif
     POLYGON ((-0.00000000001796 90.0,179.999999999964047 90.0,179.999999999964047 -89.999999999982009,-0.00000000001796 -89.999999999982009,-0.00000000001796 90.0))
 
-  OGRFeature(index):1
+  OGRFeature(index_natural_earth):1
     location (String) = west.tif
     POLYGON ((-179.999999999999972 90.0,-0.00000000001796 90.0,-0.00000000001796 -89.999999999982009,-179.999999999999972 -89.999999999982009,-179.999999999999972 90.0))
   
@@ -447,10 +448,10 @@ GDAL Project home
 
   http://www.gdal.org
 
-All about OGR
-
-  http://gdal.org/ogr/index.html
-
-GDAL Tutorial
+GDAL Raster Tutorial
 
   http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial
+
+GDAL Workshop
+
+  http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html

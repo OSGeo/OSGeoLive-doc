@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GDAL.png
@@ -50,12 +51,12 @@ Core Features
 Popular Supported Formats
 --------------------------------------------------------------------------------
 
-GDAL supports over 50 raster formats, and OGR over 20 vector formats.
+GDAL supports over 140 raster formats, and OGR over 80 vector formats.
 
 These include:
 
-* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, and more ...
-* **Vector:** MapInfo (tab and mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial, and more ...
+* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, NITF, GeoPackage and more ...
+* **Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo (tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, Oracle Spatial, and more ...
 
 Implemented Standards
 --------------------------------------------------------------------------------
