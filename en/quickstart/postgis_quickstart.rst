@@ -4,7 +4,8 @@
 :Reviewer: Argyros Argyridis
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
-:Version: osgeo-live9.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD Cameron Review Comment:
@@ -144,9 +145,9 @@ To verify you have postgis now installed, run the following query:
 	
 	demo=# SELECT postgis_version();
 	
-	postgis_full_version
-	-----------------------------------------------------------
-	POSTGIS="2.2.2 r14797" GEOS="3.5.0-CAPI-1.9.0 r4090" ...
+	           postgis_version
+	---------------------------------------
+	 2.3 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
 	(1 row)
 
 	
