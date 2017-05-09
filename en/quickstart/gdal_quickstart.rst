@@ -35,6 +35,7 @@ OGR
   * get information about your data with ogrinfo 
   * use ogr2ogr to transform your data to other formats
  
+.. contents:: Contents
 
 Get to know GDAL
 ================================================================================
