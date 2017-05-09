@@ -377,14 +377,14 @@ recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit
 hit ``Connect`` to continue:
 
 .. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: Connect to Natural Earth
   :align: center
 
 You will now get a list of the spatial tables in the database:
 
 .. image:: ../../images/screenshots/1024x768/postgis_listtables.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: Natural Earth Layers
   :align: center
 
@@ -393,7 +393,7 @@ top - that loads database connection parameters), and it should be
 loaded into QGIS:
 
 .. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: My First PostGIS layer
   :align: center
 
@@ -416,7 +416,7 @@ tables from the database and use the tabs on the right find out about them. The 
 will show you a little map.
 
 .. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: QGIS Manager Preview
   :align: center
 
@@ -429,14 +429,14 @@ Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``mapto
 (located in /usr/lib/R/site-library/spdep/etc/shapes/):
 
 .. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: Find the shapefile
   :align: center
 
 Leave everything else as it is and hit ``Load``
 
 .. image:: ../../images/screenshots/1024x768/postgis_importsids.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: Import a shapefile
   :align: center
 
@@ -448,7 +448,7 @@ option. With a bit of rearranging of the layers and some colouring, you should b
 a choropleth map of the sudden infant death syndrome counts in North Carolina:
 
 .. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: SIDS data mapped
   :align: center
 
@@ -474,7 +474,7 @@ In this case, we are going to connect to the predefined ``local`` server.
 After connection established, you can see the list of the databases already existing in the system.
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: pgAdmin III
   :align: center
 
@@ -492,7 +492,7 @@ Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
 
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: pgAdmin III
   :align: center
 
@@ -517,7 +517,7 @@ on the text editor of the SQL Window):
 Afterwards, you should press the green arrow button, pointing to the right (execute query).
 
 .. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
-  :scale: 50 %
+  :scale: 75 %
   :alt: pgAdmin III
   :align: center
   
