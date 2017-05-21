@@ -272,7 +272,7 @@ rst_epilog="""
 .. |version-mapproxy| replace:: 1.9.0
 .. |version-mapserver| replace:: 7.0.4
 .. |version-mapslicer| replace:: 1.0.rc2
-.. |version-marble| replace:: 15.12.3
+.. |version-marble| replace:: 1.12.20
 .. |version-mb-system| replace:: 5.5.2274
 .. |version-ncWMS| replace:: 1.2
 .. |version-opencpn| replace:: 4.2.0
