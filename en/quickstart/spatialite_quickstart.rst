@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Author: Micha Silver
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live 9.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 
