@@ -1,5 +1,5 @@
  :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: David Mateos
 :Version: osgeo-live5.5
@@ -37,7 +37,7 @@ Funcionalidades básicas
 
 * Definición de interfaces para las estructuras y conceptos espaciales clave
 
-  * Soporte integrado para geometrías proporcionado por `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Soporte integrado para geometrías proporcionado por `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Atributos y filtros espaciales usando la especificación OGC Filter Encoding
   
 * Una limpia API de acceso a datos soportando el acceso a entidades, soporte de transacciones y bloqueo entre hilos de ejecución

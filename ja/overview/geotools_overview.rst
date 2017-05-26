@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -32,7 +32,7 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 
 * キー空間コンセプトへのインターフェースとデータ構造の定義
   
-  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ によって行われています
+  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ によって行われています
   * 属性と空間条件によるフィルタリングは OGC Filter Encoding specificationを利用しています
   
 * クリーンデータアクセス API 使うと地物のアクセスやスレッド中でのロックをサポートするトランザクションを利用できます

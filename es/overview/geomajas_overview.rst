@@ -1,5 +1,5 @@
 :Author: Pieter De Graef
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: David Mateos
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -60,7 +60,7 @@ Detalles
 
 **Licencia:** AGPL
 
-**Versión de Software:** 2.2.0 
+**Versión de Software:** |version-geomajas|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

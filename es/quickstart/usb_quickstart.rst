@@ -1,12 +1,10 @@
-
 :Author: OSGeo-Live
-:Author: Cameron Shorter
+:Author: Alex Mandel, Cameron Shorter
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Jorge Sanz
-:Version: osgeo-live5.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. _usb-quickstart-es:
- 
 ********************************************************************************
 Creando una unidad USB arrancable de OSGeo Live
 ********************************************************************************
@@ -25,140 +23,80 @@ http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
 Requisitos
 --------------------------------------------------------------------------------
 
-- Una unidad USB de 4GB, si se usa osgeo-live-mini (sin los instaladores para
-  Windows y MacH)
-- Una unidad USB de 8GB, si se usa osgeo-live (con los instaladores para
-  Windows y Mac)
-- Un DVD o una imagen ISO de OSGeo-Live (descargada de
-  http://live.osgeo.org/en/download.html)
+* Una unidad USB (de al menos 4 GB, se recomiendan 8 GB o más).
+* Un DVD o una imagen ISO de OSGeo-Live (descargada de
+  http://live.osgeo.org/en/download.html).
+
+* Para una unidad USB de 4GB, usar la ISO osgeo-live-mini (sin los instaladores para Windows y Mac), sin persistencia.
+* Para unidades USB de 8GB o más, usar o la ISO osgeo-live-mini, o osgeo-live ISO (con los instaladores para   Windows y Mac). Se recomiendan más de 8GB si se quiere usar con persistencia.  
 
 
 Creación de la unidad USB desde Ubuntu
 --------------------------------------------------------------------------------
 
-.. note :: Este es el proceso recomendado para crear el USB
+(Este es el proceso recomendado para crear el USB. Es aplicable para Ubuntu y variantes como OsGeo-Live).
 
-.. note:: La versión de Ubuntu que esté utilizando debe de ser la misma o más
-  reciente que la versión de Lubuntu que va a instalar en su USB. Si está
-  instalando OSGeo-Live 5.0 o 5.5 en el USB, necesitará ejecutar este proceso
-  sobre Ubuntu 11.04 o posterior.
+.. note:: 
+	La versión de Ubuntu que esté utilizando debe de ser la misma o más
+reciente que la versión de Lubuntu que va a instalar en su USB. Si está 
+instalando OSGeo-Live 8.0 en el USB, necesitará ejecutar este proceso
+  sobre Ubuntu 14.04 o posterior.
 
-- Descargue osgeo-live u osgeo-live al disco duro de su computadora.
-- Inserte la unidad USB en su computadora
-- Si está usando un DVD entonces colóquelo en la unidad de disco
+`Descargue <http://live.osgeo.org/en/download.html>`_ osgeo-live u osgeo-live al disco duro de su computadora.
+
+Arranque su equipo con una distribución reciente Ubuntu/Xubuntu. Se puede hacer esto desde un DVD OSGeo-Live DVD, como se explicó en  :doc:`osgeolive_quickstart`.
+
+Inserte la unidad USB en su computadora. Si está usando un DVD entonces colóquelo en la unidad de disco.
 
   .. image:: ../../images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
-- Seleccione  :menuselection:`System --> Administration --> Startup Disk Creator`
+Seleccione  :menuselection:`System Tools --> Startup Disk Creator`` o busque `Startup Disk Creator` desde el escritorio Unity.
 
   .. image:: ../../images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
-- Seleccione la imagen ISO osgeo-live u osgeo-live-mini
+Seleccione la imagen ISO osgeo-live u osgeo-live-mini que ha descargado.
 
-- Seleccione la unidad USB
+Seleccione la unidad USB. Si tiene espacio de sobra, se puede ajustar el deslizador para crear espacio de almacenamiento persistente en la unidad USB (recomendado). Para que esta opción esté disponible, se necesita una unidad de ( o más GB.
 
-- Seleccione :guilabel:`Make Startup Disk`
+Seleccione :guilabel:`Make Startup Disk`
 
   .. image:: ../../images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
-- Espere aproximadamente unos 20 minutos para que se vuelque la información
+Espere aproximadamente unos 20 minutos para que se vuelque la información
 
-Creación de la unidad USB desde Windows
+
+Arranque desde la unidad USB
 --------------------------------------------------------------------------------
 
-- Inserte la unidad USB en us computadora
-- Descargue y ejecute *Universal USB Installer* desde 
-  http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+#. Empezar con el equipo apagado.
+#. Insertar el USB en un puerto USB disponible.
+#. Encender el equipo y seleccionar arrancar desde el USB: P
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
+   * Muchas computadoras no establecen por defecto la unidad USB en la secuencia de búsqueda de dispositivos de arranque.
+   * Durante el arranque, buscar un mensaje que indica como acceder "Boot Menu" (suele ser alguna de las teclas de función).
+   * Si el equipo no tiene menú de arranque, entonces arrancar en la BIOS del sistema. El botón para entrar en la BIOS varía según marcas y modelos de PC (generalmente presionando la tecla <Delete>, F12 u otra tecla de función). Si no consigues averiguarlo intenta esta página web que lista muchas de las teclas de acceso a la BIOS. 
+http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
 
-- Acepte los términos de la licencia
+#. Select to boot from the USB device.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
-
-Una vez instalado proceda de la siguiente forma:
-
-#. Distribución: Seleccione la distribución ``xubuntu i386`` usada para la
-   imagen de osgeo-live. Para OSGeo-Live 5.5 seleccione 
-   ``xubuntu 11.04 Desktop i386``
-
-#. Seleccione la última imagen ISO osgeo-live descargada localmente. 
-
-   .. note::  Necesitará introducir manualmente la ruta al fichero ``.iso``,
-              ya que el botón :guilabel:`Browse` solo sirve para encontrar
-              ficheros ISO de Lubuntu.
-
-#. Seleccione su unidad USB
-
-#. Seleccione *Persistence* si desea que se recuerde el estado de la unidad
-   entre sesiones
-   
-#. Seleccione :guilabel:`Create`
-
-   .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
-
-   Espere unos 20 minutos aproximadamente para que la unidad flash de
-   OSgeo-Live se genere completamente
-
-
-Creación de la unidad USB en diferentes sistemas operativos
---------------------------------------------------------------------------------
-
-#. Instalar *UNetbootin* (descargado desde 
-   http://unetbootin.sourceforge.net/)
-
-#. Insertar la unidad USB en su computadora
-
-#. Arrancar *UNetbootin*, seleccionar *Diskimage* (la unidad USB se selecciona
-   automáticamente)
-
-#. Seleccionar el fichero ISO de OSGeo-Live
-
-#. Selecciona :guilabel:`OK`
-
-   .. image:: ../../images/screenshots/1024x768/unetbootin_live_osgeo.png
-
-Establecer el orden de arranque en la BIOS
---------------------------------------------------------------------------------
-
-Muchas computadoras no establecen por defecto la unidad USB en la secuencia de búsqueda de dispositivos de arranque.
-
-Para conseguir esto, arranque su computadora y presione la tecla apropiada cuando se muestre en pantalla los mensajes de la BIOS (generalmente presionando
-la tecla <Delete>, alguna tecla de función o similar).
-
-Seleccione que la máquina arranque desde la unidad de USB antes del disco duro.
-
-.. note:: En algunas computadoras es necesario tener la unidad USB insertada
-          para poder seleccionarla.
-          
-          Nótese también que a menudo la unidad USB se lista junto a los
-          discos duros en lugar de junto a los dispositivos extraíbles.
-          
-
+   * En algunas computadoras es necesario tener la unidad USB insertada    para poder seleccionarla.
+   * Nótese también que a menudo la unidad USB se lista junto a los        discos duros en lugar de junto a los dispositivos extraíbles.
+   * Este `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ muestra el arranque desde un USB.
 
 Ejecución:
 --------------------------------------------------------------------------------
 
 Siga las instrucciones de  :doc:`osgeolive_quickstart`
 
-
-Problemas conocidos:
---------------------------------------------------------------------------------
-
-- Las computadoras Mac no podrán usar esta unidad USB, deberán usar el LiveDVD
-
 Véase también:
 --------------------------------------------------------------------------------
 
-- :doc:`osgeolive_quickstart`
-- :doc:`virtualbox_quickstart`
-- :doc:`osgeolive_install_quickstart`
-- Si conoce otros problemas o incidencias, por favor repórtelas en esta página
-  wiki: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
-  y coméntelas en la lista de correo del proyecto:
-  http://lists.osgeo.org/mailman/listinfo/live-demo
-- Para consultar más opciones sobre unidades USB arrancables visite 
-  http://pendrivelinux.com 
+* :doc:`osgeolive_quickstart`
+* :doc:`virtualbox_quickstart`
+* :doc:`osgeolive_install_quickstart`
+ * Métodos alternativos para la creación de USB y las últimas peculiaridades y trucos están recogidas aquí: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
+ * Puede dirigir sus preguntas a nuestra lista de correo: http://lists.osgeo.org/mailman/listinfo/live-demo
+

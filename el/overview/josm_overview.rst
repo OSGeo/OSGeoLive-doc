@@ -89,7 +89,7 @@ JOSM
 
 **Άδεια:** JOSM, and all its integral parts, are released under the GNU General Public License v2 or later. Note: This is not valid for JOSM plugins. These are not considered an integral part of JOSM and may be under any license.
 
-**Έκδοση Λογισμικού:** r7347
+**Έκδοση Λογισμικού:** r11427
 
 **Υποστηριζόμενες Πλατφόρμες:** Windows, Linux, Mac
 

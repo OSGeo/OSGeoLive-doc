@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons
 
@@ -41,11 +41,11 @@ Kernfunktionen
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://www.openstreetmap.org
+**Webseite:** https://www.openstreetmap.org
 
 **Lizenzen:**
 
-* OpenStreetMap Daten: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
+* OpenStreetMap Daten: https://www.openstreetmap.org/copyright
 
 * JOSM: GNU General Public License (GPL) version 2
 
@@ -58,19 +58,20 @@ Details
 
 **Software Versionen:**
 
-* JOSM: Latest stable snapshot (svn r7347)
+* JOSM: Latest stable snapshot (svn r10526)
 
-* Merkaartor: 1.18.1
+* Merkaartor: 1.18.2
 
-* Osmosis: 0.40.1
+* Osmosis: 0.44.1
 
-* osm2pgsql: 0.85.0
+* osm2pgsql: 0.88.1
+
 
 **Unterstützte Schnittstellen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen (Daten):** REST (via Xapi), XML
 
-**Support:** http://wiki.openstreetmap.org/
+**Support:** https://www.openstreetmap.org/help
 
 
 Quickstart

@@ -2,8 +2,9 @@
 :Author: Alan Boudreault
 :Author: Steve Lime
 :Reviewer: Stephan Meissl
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-mapserver-new.png
@@ -106,7 +107,7 @@ Put the following content in it::
   :file:`/usr/local/share/data/natural_earth2`).
 
 Each object in a MapFile starts with its name (for example **MAP**) and ends 
-with an **END**.  A MapFile always start with the **MAP** object and should 
+with an **END**.  A MapFile always starts with the **MAP** object and should 
 contain a list of **LAYER** objects the MapFile can read and draw. In our 
 MapFile, we currently have only one layer defined.
 

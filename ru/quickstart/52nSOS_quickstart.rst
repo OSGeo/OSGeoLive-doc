@@ -49,7 +49,7 @@
 
 **Рис. 2**: Тестовый клиент 52°North SOS с запросом GetCapabilities.
 
-4) Чтобы получить для каждой временной серии доступные данные наблюдений за временной интервал с 2016-07-01T00:30:00.000+00:00 по 2016-07-31T23:00:00.000+00:00, вставьте следующий запрос после выбора "SOS" --> version
+4) Чтобы получить для каждой временной серии доступные данные наблюдений за временной интервал с 2017-02-28T23:45:00.000+00:00 по 2017-03-01T23:45:00.000+00:00, вставьте следующий запрос после выбора "SOS" --> version
    "2.0.0" --> binding "SOAP" --> operation "GetObservation" в `test client <http://localhost:8080/52nSOS/client>`_ в поле запроса:
 
 .. code-block:: xml
@@ -72,8 +72,8 @@
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2016-07-01T00:30:00.000+00:00</gml:beginPosition>
-                          <gml:endPosition>2016-07-01T23:00:00.000+00:00</gml:endPosition>
+                          <gml:beginPosition>2017-02-28T23:45:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2017-03-01T23:45:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>

@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -47,7 +47,7 @@ Kernfunktionen
 * Druck und PDF Erstellung
 * Für Entwickler 
 
-  * Java-Application mit Hilfe von :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ 
+  * Java-Application mit Hilfe von :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ 
   * Professionelles Plugin-System durch die Eclipse Rich Client Platform
   * Verwendung von nativen Widgets
 

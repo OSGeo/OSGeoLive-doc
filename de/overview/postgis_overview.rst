@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -21,11 +21,12 @@ PostGIS
 Räumliche Datenbank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-PostGIS erweitert die beliebte objekt-relationale Datenbank PostgreSQL um geografische Objekte und Funktionen, so dass sie als Back-End-Datenbank für geografische Informationssysteme (GIS) und Web-Mapping Applikationen in gleicher Weise verwendet werden kann wie Oracle Spatial es einer Oracle-Datenbank ermöglicht.
+PostGIS erweitert PostgreSQL um geografische Objekte und Funktionen. Es eignet sich für als Back-End-Datenbank für geografische Informationssysteme (GIS) und Web-Mapping Anwendungen. 
 
-PostGIS ist stabil, schnell, standard-konform, mit Hunderten von räumlichen Funktionen und ist derzeit die am weitesten verbreitete Open Source Datenbank mit Unterstützung geografischer Objekte und Funktionen. PostGIS wird von verschiedenen Organisationen aus der ganzen Welt eingestetzt, einschließlich risikoscheuen Regierungsbehörden und Organisationen zur Speicherung von Terrabytes an Daten, deren Webdienste Millionen von Datenbankzugriffen pro Tag verzeichnen.
+PostGIS ist die am weitest verbreitete räumliche Datenbank. Es ist stabil, schnell, standard-konform und biete eine Vielezahl von räumlicher Funktionen. 
 
-Die Datenbank-Administration ist unter anderem möglich über pgAdmin und phpPgAdmin. Das Importieren und Exportieren von Daten wird von verschiedenen Konverter-Tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) unterstützt. Und es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen zur Anzeige von PostGIS-Daten.
+PostGIS wird weltweit von vielen großen Organisationen und Firmen eingestetzt um große Datenmengen zu verwalten und online zu Verfügung zu stellen. 
+Die Datenbank-Administration ist unter anderem mit pgAdmin und phpPgAdmin möglich. Der Im- und Export von Daten wird von verschiedenen Konverter-Tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) unterstützt. Es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen zur Anzeige von PostGIS-Daten.
 
 .. image:: ../../images/screenshots/800x600/pgadmin.png
   :scale: 70 %
@@ -35,9 +36,13 @@ Die Datenbank-Administration ist unter anderem möglich über pgAdmin und phpPgA
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Hunderte von räumlichen Funktionen
+* Räumlichen Funktionen
   
-  * Berechnung von Flächen und Distanzen, Verschneidung, Berechnung von Pufferzonen etc.
+  * Berechnung von Flächen und Distanzen
+  * Verschneidung
+  * Berechnung von Pufferzonen 
+  * Transformation von Koordinatensystemen
+  * ... 
 
 * ACID transaktionale Integrität
 * R-Tree räumlicher Index

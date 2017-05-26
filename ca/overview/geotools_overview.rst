@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -33,7 +33,7 @@ Característiques principals
 
 * Definició d'interfícies per a conceptes espacials clau i estructures de dades.
   
-  * Suport integrat de geometries proporcionat per `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Suport integrat de geometries proporcionat per `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Atributs i filtres espacials segons les especificacions OGC Filter Encoding 
 
 * Una interfície API d'accés a dades neta que suporta accés a elements, suport de transaccions i bloqueig entre fils

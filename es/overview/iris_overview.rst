@@ -1,6 +1,6 @@
 :Author: darkblueb
 :Translator: David Mateos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -36,7 +36,7 @@ Detalles
 
 **Licencia:** LGPLv3
 
-**Versión del Software:** 1.9.0
+**Versión del Software:** |version-iris|
 
 **Plataformas soportadas:** Cross Platform Python-- Mac OS X, Windows, and Linux
 

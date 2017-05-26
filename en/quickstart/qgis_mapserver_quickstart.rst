@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Author: Pirmin Kalberer
-:Version: osgeo-live4.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-qgis_mapserver.png
@@ -12,7 +13,7 @@
 QGIS Server Quickstart
 ********************************************************************************
 
-QGIS Server provides a web map service (WMS) based on libraries from the Quantum GIS (QGIS) desktop application.
+QGIS Server provides a web map service (WMS) based on libraries from the QGIS desktop application.
 
 This Quick Start describes how to:
 
@@ -20,7 +21,7 @@ This Quick Start describes how to:
   * create a new QGIS project and open the WMS directly in a browser
 
 Documentation:
-  * http://www.qgis.org/wiki/QGIS_Server_Tutorial
+  * https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html
 
 Quick start for Server Installation on Debian/Ubuntu:
 
@@ -102,8 +103,8 @@ Create a new QGIS project
 What Next?
 ================================================================================
 
-To learn more about QGIS Server, a good starting point are the `QGIS User Guide`_ and the `QGIS Server Wiki page`_.
+To learn more about QGIS Server, a good starting point is the `QGIS User Guide`_.
 
 
-.. _`QGIS User Guide`: http://docs.qgis.org/2.4/en/docs/user_manual/working_with_ogc/ogc_server_support.html
-.. _`QGIS Server Wiki page`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial
+.. _`QGIS User Guide`: https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html
+

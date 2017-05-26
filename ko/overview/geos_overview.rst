@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Frank Warmerdam
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -21,7 +21,7 @@ GEOS
 Spatial Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_. It includes the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions.
+GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. It includes the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions.
 
 GEOS is the most widely used geospatial C++ geometry library, being used by open source projects such as :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`, and by proprietary products including `FME <http://www.safe.com/fme/fme-technology/>`_.
 

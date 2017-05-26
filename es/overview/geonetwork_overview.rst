@@ -1,5 +1,5 @@
 ﻿:Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Òscar Fonts
 :Translator: David Mateos
 :Version: osgeo-live5.5
@@ -9,6 +9,7 @@
 
 .. image:: ../../images/project_logos/logo-GeoNetwork.png
   :alt: logo del proyecto
+  :width: 150 px
   :align: right
   :target: http://geonetwork-opensource.org/
 
@@ -26,9 +27,9 @@ Catálogo de metadatos
 
 GeoNetwork opensource es una aplicación para gestionar catálogos de recursos georreferenciados. Proporciona funciones avanzadas de edición y búsqueda de metadatos, incorpora un visor web de mapas interctivo, y se basa en estándares abiertos.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
-  :scale: 50 %
-  :alt: logo del proyecto
+.. image:: ../../images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
+  :alt: Geonetwork con ejemplos cargados
+  :scale: 50%
   :align: right
 
 Características Principales
@@ -49,13 +50,11 @@ Estándares implementados
 
 * Servicio Web de Catálogo (CSW 2.0.2 ISO) de OGC
 * Protocolo para la Recolección de Metadatos del Open Archives Initiative (OAI-PMH)
-* Z39.50 
 * OpenSearch-Geo
 * Estándares de metadatos:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 y perfiles ISO
  * Dublin Core
- * FGDC
 
 Detalles
 --------------------------------------------------------------------------------
@@ -64,7 +63,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) versión 2
 
-**Versión:** 2.10.4
+**Versión:** |version-geonetwork|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 
@@ -76,4 +75,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
     
-* `Guía de inicio rápido <../quickstart/geonetwork_quickstart.html>`_
+* `Guía de inicio rápido <../quickstart/geonetwork_quickstart>`

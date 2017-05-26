@@ -9,10 +9,10 @@
 
 :Author: OSGeo Live
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Lucía Sanjaime
 :Translator: Roberto Antolín
-:Version: osgeo-live7.9
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -21,7 +21,7 @@
 
 .. Consejo para redactar:
    Los logos del proyecto están almacenados en:
-   https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+   https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
    y se puede acceder a ellos en:
    ../../images/project_logos/<filename>
 
@@ -119,7 +119,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2
 
-**Versión del software:** 2.2.1
+**Versión del software:** |version-postgis|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

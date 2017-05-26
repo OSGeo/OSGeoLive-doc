@@ -1,5 +1,5 @@
 :Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javi Sánchez
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -83,7 +83,7 @@ Detalles
 
 **Licencia:** GNU Lesser General Public License (LGPL) 
 
-**Versión del software:** 2.5.0
+**Versión del software:** |version-osgearth|
 
 **Plataformas soportadas:** Linux, Mac, Windows
 

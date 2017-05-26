@@ -1,6 +1,6 @@
 ﻿:Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -73,7 +73,7 @@ GPX-треки должны быть заранее загружены с GPS-п
 
 **Лицензия:** GNU General Public License (GPL) version 2. Примечание: плагины JOSM могут использовать другие лицензии.
 
-**Версия ПО:** r7347
+**Версия ПО:** r11427
 
 **Поддерживаемые платформы:** Windows, Linux, Mac
 

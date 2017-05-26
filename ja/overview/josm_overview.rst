@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -73,7 +73,7 @@ JOSMのために記述された特殊なプラグインのいくつかは、ダ�
 
 **ライセンス:** GNU General Public License (GPL) バージョン2。ノート: JOSMプラグインは他のライセンスで利用されます。
 
-**ソフトウェアバージョン:** r7347
+**ソフトウェアバージョン:** r11427
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

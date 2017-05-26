@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 : Translator: Astrid Emde
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -71,11 +71,11 @@ Unterstützte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://josm.openstreetmap.de/
+**Webseite:** https://josm.openstreetmap.de/
 
 **Lizenz:** GNU General Public License (GPL) Version 2. Hinweis: JOSM Plugins könnten andere Lizenzen verwenden.
 
-**Software Version:** r7347
+**Software Version:** r11427
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

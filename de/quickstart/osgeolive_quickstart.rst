@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -27,7 +27,7 @@ Ihr Computer sollte mindestens:
 Starten:
 --------------------------------------------------------------------------------
 
-  Laden Sie eine OSGeo-Live DVD von: http://download.osgeo.org/livedvd 
+  Laden Sie eine OSGeo-Live DVD von: [:doc:`Download <../download>`]
   Brennen Sie das Abbild auf eine DVD und legen Sie diese in das Laufwerk ihres Rechners, anschließend starten Sie ihn neu.
 
   Wenn ihr Computer entsprechend eingestellt ist (wie es häufig der Fall ist) startet er jetzt von der DVD ein Lubuntu mit installierten Geodaten-Anwendungen. Ansonsten müssen Sie die im BIOS die Starteinstellungen ändern oder den Bootmenü-Button (sofern vorhanden) direkt nach dem Einschalten drücken.

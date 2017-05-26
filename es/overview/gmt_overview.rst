@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Andrés Herrera
 :Translator: David Mateos
 :Version: osgeo-live6.0
@@ -45,22 +45,22 @@ Caracterícticas principales
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio web:** http://gmt.soest.hawaii.edu
+**Sitio web:** https://gmt.soest.hawaii.edu
 
 **Licencia:** GNU General Public License (GPL) versión 2
 
-**Versión de Software:** 4.5.11
+**Versión de Software:** |version-gmt|
 
 **Plataformas soportadas:** GNU/Linux, Mac OSX, MS Windows
 
 **Interfaces API:** Línea de comandos
 
-**Soporte:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**Soporte:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
 Guía de inicio rápido
 --------------------------------------------------------------------------------
 
-* `Documentación de la Guía de inicio rápido <../quickstart/gmt_quickstart.html>`_
+* `Documentación de la Guía de inicio rápido  <../quickstart/gmt_quickstart>`
 
 

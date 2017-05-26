@@ -9,11 +9,11 @@ OSGeo-Live 赞助者
 
 　
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: ../images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-　　LISAsoft 公司为 OSGeo-Live 中各软件的管理与整合提供了相关资源与人力。
+　　Jirotech 公司为 OSGeo-Live 中各软件的管理与整合提供了相关资源与人力。
 
 　
 
@@ -43,10 +43,10 @@ OSGeo-Live project.
   :target: http://www.osdm.gov.au
 
 The Australian Government's Office of Spatial Data Management sponsored
-LISAsoft's review of Application Overviews, to achieve consistent,
+Jirotech's review of Application Overviews, to achieve consistent,
 quality project write ups.
 
-　　澳大利亚政府的空间信息管理处为 LISAsoft 对 OSGeo-Live 的简介文档编写提供了赞助，保证了稳定和高质量的文档支持。
+　　澳大利亚政府的空间信息管理处为 Jirotech 对 OSGeo-Live 的简介文档编写提供了赞助，保证了稳定和高质量的文档支持。
 
 　
 

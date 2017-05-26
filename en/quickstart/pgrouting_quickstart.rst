@@ -1,6 +1,7 @@
 :Author: Daniel Kastl
 :Author: Regina Obe
-:Version: osgeo-live10.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-pgRouting.png
@@ -40,7 +41,7 @@ At psql prompt type:
 
 If you are running PostgreSQL 9.6+, you can skip the postgis line and do :code:`CREATE EXTENSION pgrouting CASCADE;`
 
-You can verify your installion by running this:
+You can verify your installation by running this:
 
 .. code-block:: sql
 
@@ -48,9 +49,9 @@ You can verify your installion by running this:
 
 .. code-block:: bash
 
-	 version |       tag       |  hash   | branch | boost
-	---------+-----------------+---------+--------+--------
-	 2.2.2   | pgrouting-2.2.2 | 7141904 | master | 1.59.0
+	 version |  tag   |   hash    | branch | boost
+	---------+--------+-----------+--------+--------
+	 2.3.2   | v2.3.2 | 1f2af3c52 | master | 1.58.0
 	(1 row)
 
 Your version should be 2.1.0 or higher to use examples in this quickstart.
@@ -70,7 +71,7 @@ Output shows:
 
 .. code-block:: bash
 
-	This is osm2pgrouting Version 2.1
+	This is osm2pgrouting Version 2.2
 
 Now load the data from osm file
 
@@ -86,39 +87,15 @@ Output should be something like:
 
 .. code-block:: bash
 
-	Opening data file: feature_city.osm
-	    Parsing data
-
-	Spliting ways
-
-	Dropping tables...
-	NOTICE:  table "ways" does not exist, skipping
-	NOTICE:  table "ways_vertices_pgr" does not exist, skipping
-	NOTICE:  table "relations_ways" does not exist, skipping
-	Creating tables...
-	Creating 'ways_vertices_pgr': OK
-	   Adding Geometry: Creating 'ways': OK
-	   Adding Geometry: Creating 'relations_ways': OK
-	Creating 'osm_nodes': OK
-	   Adding Geometry: Creating 'osm_relations': OK
-	Creating 'osm_way_tags': OK
-	Creating 'osm_way_types': OK
-	Creating 'osm_way_classes': OK
-	Adding auxiliary tables to database...
-	    Processing 1 way types:  Inserted 1 way types
-	    Processing way's classes:  Inserted 16 way's classes
-	    Processing way's relations:  Inserted: 83874way's relations
-	    Processing way's tags:  Inserted 10455 way's tags
-	    Processing 10455 ways:
-	Vertices inserted 9165    Ways inserted: 10455
-	Creating topology...
+	Export Ways ...
+	    Processing 45383 ways:
+	[*************************************************| ] (99%)    Ways Processed: 45383	    Split Ways generated: 10483	Vertices inserted 9165 Inserted 10483 split ways
+	Creating Foreign Keys ...
+	Foreign keys for osm_way_classes table created
+	Foreign keys for relations_ways table created
+	Foreign keys for Ways table created
 	#########################
-	size of streets: 4904
-	size of splitted ways : 10455
-	Execution started at: Tue Jun 21 17:57:57 2016
-	Execution ended at:   Tue Jun 21 17:58:02 2016
-	Elapsed time: 5.084 Seconds.
-	User CPU time: -> 5.084 seconds
+	size of streets: 45383
 	#########################
 
 Running pgRouting
@@ -143,7 +120,6 @@ Running pgRouting
 	 public | osm_nodes_node_id_seq    | sequence | postgres
 	 public | osm_relations            | table    | postgres
 	 public | osm_way_classes          | table    | postgres
-	 public | osm_way_tags             | table    | postgres
 	 public | osm_way_types            | table    | postgres
 	 public | raster_columns           | view     | postgres
 	 public | raster_overviews         | view     | postgres
@@ -153,7 +129,7 @@ Running pgRouting
 	 public | ways_gid_seq             | sequence | postgres
 	 public | ways_vertices_pgr        | table    | postgres
 	 public | ways_vertices_pgr_id_seq | sequence | postgres
-	(16 rows)
+	(15 rows)
 
 
 * Run the Dijkstra shortest path function assuming undirected travel:

@@ -1,14 +1,14 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
 :Translator: Margherita Di Leo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -89,7 +89,7 @@ Supporto di numerosi standard Open Geospatial Consortium  (OGC):
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://geoserver.org/display/GEOS/Welcome
+**Sito web:** http://geoserver.org/
 
 **Licenza:** GNU General Public License (GPL) version 2
 
@@ -99,7 +99,7 @@ Dettagli
 
 **Interfacce API:** WMS, WFS, WCS, REST
 
-**Supporto:** http://geoserver.org/display/GEOS/Commercial+Support
+**Supporto:** http://geoserver.org/support/
 
 Guida rapida
 --------------------------------------------------------------------------------

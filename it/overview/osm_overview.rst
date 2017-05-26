@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Luca Delucchi
 :Version: osgeo-live5.5
 :License: Creative Commons
@@ -65,7 +65,7 @@ Dettagli
 
 **Versioni dei Software:**
 
-* JOSM: L'ultimo snapshot stabile (svn r7347)
+* JOSM: L'ultimo snapshot stabile (svn r11427)
 
 * Merkaartor: 1.18.1
 

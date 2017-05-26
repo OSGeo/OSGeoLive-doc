@@ -43,7 +43,7 @@ versión comercial de S, TIBCO Spotfire S+. Esta compatibilidad permite converti
 diferentes versiones de código S para que corran sin grandes modificaciones en
 R.
 
-.. image:: ../../images/screenshots/1024x768/r-perspective.png
+.. image:: ../../images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -52,16 +52,17 @@ Características principales
 --------------------------------------------------------------------------------
 
 * Completo Lenguage de programación orientado a objetos diseñado para la
-* estadística y otras aplicaciones matemáticas 
-* Cientos de paquetes estadísticos para el análisis espacial desarrollados por la comunidad
-* Clases para datos espaciales
-* Manejo de datos espaciales
-* Lectura y escritura de datos espaciales
-* Análisis de patrones de distribución de puntos
-* Geoestadística
-* Mapas de enfermedades y análisis de áreas
-* Regresión espacial
-* Análisis ecológico
+estadística y otras aplicaciones matemáticas. 
+* Cientos de paquetes estadísticos para el análisis espacial desarrollados por la comunidad.
+* Clases para datos espaciales.
+* Manejo de datos espaciales.
+* Lectura y escritura de datos espaciales.
+* Análisis de patrones de distribución de puntos.
+* Geoestadística.
+* Mapas de enfermedades y análisis de áreas.
+* Regresión espacial.
+* Análisis ecológico.
+* Potentes algoritmos de procesamiento ráster.
 
 Detalles
 --------------------------------------------------------------------------------
@@ -70,7 +71,7 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión del Software:** 3.1.2
+**Versión del Software:** |version-R|
 
 **Plataformas soportadas:** Windows, Linux, Mac, Unix
 

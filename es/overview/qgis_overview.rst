@@ -1,8 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Roberto Antolín
 :Reviewer: Angelos Tzotsos
-:Version: osgeo-live9.5
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png
@@ -78,7 +79,7 @@ Características principales
 Implementación de estándares
 --------------------------------------------------------------------------------
 
-* Compatible con estándares OGC (WMS, WFS (Complemento))
+* Compatible con estándares OGC (WMS, WFS, ...)
 
 Detalles
 --------------------------------------------------------------------------------
@@ -87,7 +88,7 @@ Detalles
 
 **Licencia:**  GNU General Public License (GPL) version 2
 
-**Versión del software:** 2.14.0
+**Versión del software:** |version-qgis|
 
 **Plataformas soportadas:** Windows, Linux, Mac, Unix
 

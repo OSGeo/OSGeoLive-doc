@@ -1,6 +1,6 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Jorge Sanz
 :Translator: David Mateos
 :Version: osgeo-live5.5
@@ -11,13 +11,13 @@
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png 
+.. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/
+  :target: http://www.osgeo.org
 
 GeoServer
 ================================================================================
@@ -50,10 +50,10 @@ Características clave
 
 **Servidor de datos de una variedad de orígenes de almacenamiento:**
     * Vector
-        - Ficheros Shape, WFS externo
-        - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
+        - Ficheros Shape, WFS externo.
+        - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server.
     * Raster
-        - GeoTiff, JPG y PNG georreferenciados, imagenes pyramid, formatos GDAL, Imagenes Mosaic, Oracle GeoRaster
+        - GeoTiff, JPG y PNG georreferenciados, imágenes pyramid, formatos GDAL, mosaicos de imágenes, Oracle GeoRaster, NetCDF.
 
 **A través del protocolo WMS se sirven imágenes de forma segura y rápida:**
     Los datos permanecen seguros, ya que se sirven como imágenes renderizadas. 
@@ -83,32 +83,38 @@ Características clave
 	Servidor de Mapas, cacheando los tiles, a medida que se piden, y consiguiendo una mejora considerable en el tiempo de proceso 
 	para la generación de imágenes. GeoWebCache se ha integrado dentro de GeoServer.
 
+**Web Processing Service (WPS)**
+  Se pueden ejecutar Algoritmos Geoespaticiales, incluyendo los de  :doc:`JTS <jts_overview>`, a travçes de la interfaz :doc:`WPS <../standards/wps_overview>` de Geoserver. Se pueden encadenar procesos y usar transformaciones de renderizado para crear potentes visualizaciones a través de la interfaz WMS.
+
 Standares Implementados
 --------------------------------------------------------------------------------
 
-* Soporta numerosos estándares  (OGC):
+* Soporta numerosos estándares OGC (Open Geospatial Consortium ):
 
   * :doc:`../standards/wms_overview`
+  * Web Map Tile Service (WMTS)
   * :doc:`../standards/wfs_overview`, WFS-T (transaccional)
   * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview`
   * :doc:`../standards/gml_overview`
+  * :doc:`../standards/kml_overview`
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Sitio Web:** http://geoserver.org/display/GEOS/Welcome
+**Sitio Web:** http://geoserver.org/
 
-**Licencia:** GNU General Public License (GPL) version 2
+**Licencia:** GNU General Public License (GPL) version 2.
 
 **Versión Software:** |version-geoserver|
 
-**Plataformas soportadas:** Todas las plataformas Java 6: - Windows, Linux, Mac
+**Plataformas soportadas:** Java 8 (Oracle JDK y OpenJDK)en Windows, Linux y Mac.
 
-**Interfaces API:** WMS, WFS, WCS, REST
+**Interfaces API:** WMS, WFS, WCS, REST.
 
-**Soporte:** http://geoserver.org/display/GEOS/Commercial+Support
+**Soporte:** http://geoserver.org/support/
 
 Quickstart
 --------------------------------------------------------------------------------

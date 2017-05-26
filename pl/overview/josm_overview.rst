@@ -79,7 +79,7 @@ Szczegóły
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2. Uwaga: Wtyczki JOSM mogą mieć inne licencje.
 
-**Wersja programu:** r7347
+**Wersja programu:** r11427
 
 **Systemy operacyjne:** Windows, Linux, Mac
 

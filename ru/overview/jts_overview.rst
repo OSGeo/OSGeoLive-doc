@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -60,7 +60,7 @@ C++ , используется в большинстве приложений, �
 Details
 --------------------------------------------------------------------------------
 
-**Веб-сайт:** http://tsusiatsoftware.net/jts/main.html
+**Веб-сайт:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Лицензия:** LGPL
 
@@ -68,5 +68,5 @@ Details
 
 **Интерфейсы API:** Java
 
-**Поддержка:** http://tsusiatsoftware.net/jts/main.html
+**Поддержка:** https://sourceforge.net/projects/jts-topo-suite/
 

@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons
 
@@ -14,7 +14,7 @@ OpenStreetMap
 世界をマッピングするためのツール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`OpenStreetMap <http://www.openstreetmap.org>`_ 道路地図のような地理的データを誰でも利用できるために、自由な地理情報データを作成し提供することを目的としたプロジェクトです。自由だと考えられている地図の多くは、実は法的・技術的な制約があり、人々が創造的に、生産的に、あるいは今まで予期しなかった方法でそれを利用することを妨げているため、このプロジェクトは開始されました。 
+`OpenStreetMap <https://www.openstreetmap.org>`_ は、道路地図のような地理的データを誰でも利用できるために、自由な地理情報データを作成し提供することを目的としたプロジェクトです。自由だと考えられている地図の多くは、実は法的・技術的な制約があり、人々が創造的に、生産的に、あるいは今まで予期しなかった方法でそれを利用することを妨げているため、このプロジェクトは開始されました。
 
 ここには5つのプログラムが含まれています。それは、JOSM、Merkaartor、Gosmore、Osmarender、Osm2pgsqlです。さらに、主要な都市と幾つかの最新のJOSMプラグインからなるサンプルデータが含まれています。
 
@@ -41,11 +41,11 @@ OpenStreetMap
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://www.openstreetmap.org
+**ウェブサイト:** https://www.openstreetmap.org
 
 **ライセンス:**
 
-* OpenStreetMap データ: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
+* OpenStreetMap データ: https://www.openstreetmap.org/copyright
 
 * JOSM: GNU General Public License (GPL) version 2
 
@@ -58,20 +58,20 @@ OpenStreetMap
 
 **ソフトウェアバージョン:**
 
-* JOSM: Latest stable snapshot (svn r7347)
+* JOSM: Latest stable snapshot (svn r10526)
 
-* Merkaartor: 1.18.1
+* Merkaartor: 1.18.2
 
-* Osmosis: 0.40.1
+* Osmosis: 0.44.1
 
-* osm2pgsql: 0.85.0
+* osm2pgsql: 0.88.1
 
 
 **対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 
 **API インターフェース (データ):** REST (via Xapi), XML
 
-**サポート:** http://wiki.openstreetmap.org/
+**サポート:** https://www.openstreetmap.org/help
 
 
 クイックスタート

@@ -7,7 +7,7 @@
   :scale: 100 %
   :alt: project logo
   :align: right
-  :target: http://www.osm.org
+  :target: https://www.openstreetmap.org
 
 
 ********************************************************************************
@@ -45,7 +45,7 @@ written in Java. The current version supports stand alone GPX tracks,
 GPX track data from OSM database and existing nodes, line segments and
 metadata tags from the OSM database.
 
-* Homepage: http://josm.openstreetmap.de
+* Homepage: https://josm.openstreetmap.de
 
 The JOSM plugin collection contains the following plugins:
 
@@ -64,9 +64,8 @@ The JOSM plugin collection contains the following plugins:
 Further reading
 --------------------------------------------------------------------------------
 
-* User guide: http://wiki.openstreetmap.org/wiki/JOSM/Guide
+* User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide
 * `Video tutorial <http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_
-* Online tutorial: http://www.use-it.be/europe/docs/OSMmanual/
 * Open the sample data with :menuselection:`File --> Open... --> /usr/local/share/data/osm/feature_city.osm.bz2`
 * Further instructions are given when you launch the application.
 
@@ -78,7 +77,7 @@ Merkaartor
 It's a bit more user friendly than JOSM, but has a few less features.
 
 * Homepage: http://merkaartor.be
-* Online help: http://merkaartor.be/wiki/merkaartor/Documentation
+* Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation
 
 
 Osmosis
@@ -86,7 +85,7 @@ Osmosis
 **Osmosis** is a highly capable utility program for performing many tasks at
 a raw level on OSM data. This includes data import and export to databases,
 sorting, cleaning, and creating data dumps. See
-the `detailed usage page <http://wiki.openstreetmap.org/wiki/Osmosis#Usage>`_ for
+the `detailed usage page <https://wiki.openstreetmap.org/wiki/Osmosis#Usage>`_ for
 more information. A simple report of author contributions can be performed
 as follows. Open a new Terminal, and at a command prompt type the following:
 
@@ -106,5 +105,5 @@ into a format that can be loaded into PostgreSQL (PostGIS). It is often
 used to render OSM data visually using Mapnik, as Mapnik can query
 PostgreSQL for map data, but does not work directly with OSM files.
 
-* Homepage: http://wiki.openstreetmap.org/wiki/Osm2pgsql
+* Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql
 

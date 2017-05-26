@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Frank Warmerdam
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -21,7 +21,7 @@ GEOS
 Χωρική βιβλιοθήκη
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Η GEOS (Geometry Engine - Open Source) είναι μια υλοποίηση σε C++ της `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_. Περιλαμβάνει τις λειτουργίες της OpenGIS Simple Features και χωρικούς τελεστές SQL καθώς και επαυξημένες τοπολογικές λειτουργίες της JTS.
+Η GEOS (Geometry Engine - Open Source) είναι μια υλοποίηση σε C++ της `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. Περιλαμβάνει τις λειτουργίες της OpenGIS Simple Features και χωρικούς τελεστές SQL καθώς και επαυξημένες τοπολογικές λειτουργίες της JTS.
 
 Η GEOS είναι η πιο διαδεδομένη γεωμετρική γεωχωρική βιβλιοθήκη σε C++  και χρησιμοποιείται από πολλά ανοιχτά πακέτα όπως :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` και :doc:`MapServer <mapserver_overview>` καθώς και πολλά ιδιωτικά λογισμικά όπως το `FME <http://www.safe.com/fme/fme-technology/>`_.
 

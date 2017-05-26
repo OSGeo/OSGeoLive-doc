@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
@@ -38,7 +38,7 @@ Caratteristiche principali
 
 * Definizione delle interfacce per i concetti di chiavi spaziali e strutture dei dati
 
-  * Supporto alle geometrie integrate fornite da `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Supporto alle geometrie integrate fornite da `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Filtri sugli attributi e spaziali usando la specifica OGC Filter Encoding
 
 * Una API di accesso ai dati pulita che supporta accesso agli oggetti, supporto

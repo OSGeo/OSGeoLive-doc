@@ -9,7 +9,7 @@
 
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
@@ -23,7 +23,7 @@
 
 .. Consell per a la redacció:
   Els logos del projecte s'emmagatzemen aquí:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   i també es pot accedir des d'aquí:
     ../../images/project_logos/<filename>
 

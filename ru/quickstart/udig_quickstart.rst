@@ -38,7 +38,7 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: udig-devel list
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 		   
 .. image:: ../../images/project_logos/logo-uDig.png
   :scale: 60 %
@@ -89,7 +89,7 @@ uDig представляет собой программу для просмо�
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
 
 
 Если у вас возникли трудности с запуском uDig, пожалуйста, просмотрите страницу "Запуск uDig".

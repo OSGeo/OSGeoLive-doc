@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Frank Warmerdam
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Luca Delucchi
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -22,7 +22,7 @@ GEOS
 Libreria spaziale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) è un port C++ di `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_.
+GEOS (Geometry Engine - Open Source) è un port C++ di `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_.
 Include OpenGIS Simple Features per funzioni con predicato spaziale SQL e operatori
 spaziali, cosi come le funzioni specifiche della topologia avanzata JTS.
 

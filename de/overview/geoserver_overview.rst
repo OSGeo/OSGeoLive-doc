@@ -1,13 +1,13 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
 .. image:: ../../images/logos/OSGeo_project.png
   :scale: 100 %
@@ -76,7 +76,7 @@ Implementierte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://geoserver.org/display/GEOS/Welcome
+**Webseite:** http://geoserver.org/
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
@@ -86,7 +86,7 @@ Details
 
 **API Schnittstellen:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/display/GEOS/Commercial+Support
+**Support:** http://geoserver.org/support/
 
 Quickstart
 --------------------------------------------------------------------------------

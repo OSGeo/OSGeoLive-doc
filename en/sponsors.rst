@@ -9,11 +9,11 @@ The Open Source Geospatial Foundation (OSGeo) provides the primary
 development & hosting infrastructure and personnel for the project,
 and for many of the software teams which contribute to it.
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: ../images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft provides sustaining resources and staff toward the management
+Jirotech provides sustaining resources and staff toward the management
 and packaging of software onto the OSGeo-Live DVD.
 
 .. image:: ../images/logos/ucd_ice_logo.png
@@ -35,7 +35,7 @@ provides hardware resources and development support to the OSGeo-Live project.
 .. image:: ../images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
-  :target: http://wiki.debian.org/DebianGis
+  :target: https://wiki.debian.org/DebianGis
 
 The DebianGIS and UbuntuGIS projects provide and quality-assure many of
 the core packages.
@@ -44,7 +44,7 @@ the core packages.
   :alt: The Australian Government's Office of Spatial Data Management
 
 The Australian Government's Office of Spatial Data Management sponsored
-LISAsoft's review of Application Overviews, to achieve consistent,
+Jirotech's review of Application Overviews, to achieve consistent,
 quality project write ups.
 
 .. image:: ../images/logos/okeanos-logo.jpg

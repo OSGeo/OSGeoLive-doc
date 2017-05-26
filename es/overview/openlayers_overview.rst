@@ -2,14 +2,14 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit
 :Author: Antonio Santiago
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: David Mateos
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-OpenLayers.png
-  :scale: 80 % 
+  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
@@ -82,7 +82,7 @@ Detalles
 
 **Licencia:** Licencia BSD de 2 claúsulas (también conocida como licencia *FreeBSD*).
 
-**Versión de Software :** 3.13.1.
+**Versión de Software :** |version-openlayers|.
 
 **API Interface:** JavaScript.
 
@@ -93,5 +93,3 @@ Guía de inicio rápido
 --------------------------------------------------------------------------------
 
 * :doc:`Guia de inicio rápido <../quickstart/openlayers_quickstart>`
-
-

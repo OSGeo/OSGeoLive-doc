@@ -1,5 +1,5 @@
 :Автор: Hamish Bowman
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons
 
@@ -58,7 +58,7 @@ OpenStreetMap
 
 **Версии ПО:**
 
-* JOSM: Последняя стабильная версия (svn r7347)
+* JOSM: Последняя стабильная версия (svn r11427)
 
 * Merkaartor: 1.18.1
 

@@ -10,11 +10,11 @@ Entwicklungs- und Hostinginfrastruktur und personelle Unterstützung für das Pr
 sowie für viele der Software Teams, die Beiträge leisten, bereit.
 
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: ../images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft stellt langfristig Resourcen und Mitarbeiter zur Verfügung, die das Projekt unterstützen und die Zusammenstellung auf der OSGeo-Live DVD koordinieren.
+Jirotech stellt langfristig Resourcen und Mitarbeiter zur Verfügung, die das Projekt unterstützen und die Zusammenstellung auf der OSGeo-Live DVD koordinieren.
 
 .. image:: ../images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
@@ -40,7 +40,7 @@ Das DebianGIS und UbuntuGIS Projekt stellen viele der Hauptprojekte bereit und s
 .. image:: ../images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
 
-Das Australian Government's Office of Spatial Data Management unterstützte LISAsoft's bei der Prüfung der Anwendungsübersichten, um einheitliche und hochwertige Beschreibngen zu erhalten.
+Das Australian Government's Office of Spatial Data Management unterstützte Jirotech's bei der Prüfung der Anwendungsübersichten, um einheitliche und hochwertige Beschreibngen zu erhalten.
 
 .. image:: ../images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service

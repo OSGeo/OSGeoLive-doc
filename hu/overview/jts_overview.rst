@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -59,7 +59,7 @@ Implementált szabványok
 Részletek
 --------------------------------------------------------------------------------
 
-**Honlap:** http://tsusiatsoftware.net/jts/main.html
+**Honlap:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licenc:** LGPL
 
@@ -67,4 +67,4 @@ Részletek
 
 **API Interfészek:** Java
 
-**Támogatás:** http://tsusiatsoftware.net/jts/main.html
+**Támogatás:** https://sourceforge.net/projects/jts-topo-suite/

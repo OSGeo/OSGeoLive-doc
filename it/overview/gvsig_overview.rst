@@ -1,7 +1,7 @@
 :Author: Jorge Sanz
 :Author: Manuel Madrid
 :Author: Mario Carrera
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Antonio Falciano
 :Translator: Luca Delucchi
 :Version: osgeo-live7.9

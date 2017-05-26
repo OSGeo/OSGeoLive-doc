@@ -1,6 +1,6 @@
 ﻿:Author: OSGeo-Live
 :Author: Frank Warmerdam
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -21,7 +21,7 @@ GEOS
 Библиотека для работы с пространственными данными
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) — порт на язык программирования C++ библиотеки `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_. Эта библиотека включает функции пространственных предикатов и пространственные операторы, определённые стандартом *OpenGIS Simple Features for SQL*, а также специфические для JTS функции улучшенной работы с топологией.
+GEOS (Geometry Engine - Open Source) — порт на язык программирования C++ библиотеки `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. Эта библиотека включает функции пространственных предикатов и пространственные операторы, определённые стандартом *OpenGIS Simple Features for SQL*, а также специфические для JTS функции улучшенной работы с топологией.
 
 GEOS — наиболее широко используемая библиотека пространственной геометрии для C++, используемая такими открытыми проектами, как :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` и :doc:`MapServer <mapserver_overview>`, и также некоторым проприетарным ПО, например, `FME <http://www.safe.com/fme/fme-technology/>`_.
 

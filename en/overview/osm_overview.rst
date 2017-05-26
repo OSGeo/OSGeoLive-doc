@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-osm.png
@@ -14,7 +15,7 @@ OpenStreetMap
 Tools for mapping the world
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`OpenStreetMap <http://www.openstreetmap.org>`_ is a project aimed
+`OpenStreetMap <https://www.openstreetmap.org>`_ is a project aimed
 squarely at creating and providing free geographic data such as street
 maps to anyone who wants them. The project was started because most maps
 you think of as free actually have legal or technical restrictions on their
@@ -23,7 +24,7 @@ unexpected ways.
 
 A number of programs have been included: JOSM, Merkaartor, Osmosis, Osm2pgsql,
 and a number of small command utilities. In addition recent sample data for
-the host city and a number of JOSM plugins have been included.
+the FOSS4G host city and a number of JOSM plugins have been included.
 
 
 Core Features
@@ -48,11 +49,11 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.openstreetmap.org
+**Website:** https://www.openstreetmap.org
 
 **Licences:**
 
-* OpenStreetMap data: http://wiki.openstreetmap.org/index.php/OpenStreetMap_License
+* OpenStreetMap data: https://www.openstreetmap.org/copyright
 
 * JOSM: GNU General Public License (GPL) version 2
 
@@ -65,20 +66,20 @@ Details
 
 **Software Versions:**
 
-* JOSM: Latest stable snapshot (svn r7347)
+* JOSM: Latest stable snapshot (svn r11427)
 
-* Merkaartor: 1.18.1
+* Merkaartor: 0.18.2
 
-* Osmosis: 0.40.1
+* Osmosis: 0.44.1
 
-* osm2pgsql: 0.85.0
+* osm2pgsql: 0.88.1
 
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces (data):** REST (via Xapi), XML
 
-**Support:** http://wiki.openstreetmap.org/
+**Support:** https://www.openstreetmap.org/help
 
 
 Quickstart

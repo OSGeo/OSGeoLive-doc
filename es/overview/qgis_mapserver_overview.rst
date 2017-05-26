@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Roberto Antolin
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -14,7 +14,6 @@
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
-
 
 QGIS Server
 ================================================================================
@@ -49,7 +48,7 @@ Implementación de estándares
 --------------------------------------------------------------------------------
 
 * Servicios Web de Mapas OGC (WMS) 1.1.1 y 1.3.0.
-* Servicios Web de Fenómenos (WFS) 1.0.0 y Transactional WFS (WFS-T) 1.0.0.
+* Servicios Web de Fenómenos (WFS) 1.0.0 y  WFS Transaccional (WFS-T) 1.0.0.
 * Servicios Web de Coberturas (WCS).
 * Descriptor de Estilos de Capa OGC (SLD) 1.0.
 
@@ -60,7 +59,7 @@ Detalles
 
 **Licencia:** GPL
 
-**Versión software:** 2.6.1
+**Versión software:**  |version-qgis_mapserver|
 
 **Plataformas soportadas:** Windows, Linux
 

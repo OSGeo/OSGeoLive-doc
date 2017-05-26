@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
@@ -58,7 +58,7 @@ Standards implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://tsusiatsoftware.net/jts/main.html
+**Sito web:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licenza:** LGPL
 
@@ -66,4 +66,4 @@ Dettagli
 
 **Interfacce API:** Java
 
-**Supporto:** http://tsusiatsoftware.net/jts/main.html
+**Supporto:** https://sourceforge.net/projects/jts-topo-suite/

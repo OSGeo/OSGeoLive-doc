@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons
@@ -57,7 +57,7 @@ Open Street Map 工具组
 
 **软件版本：**
 
-* JOSM: 最新的稳定版（SVN 版本 r7347）
+* JOSM: 最新的稳定版（SVN 版本 r11427）
 
 * Merkaartor: 1.18.1
 

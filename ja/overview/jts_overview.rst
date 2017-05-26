@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -56,7 +56,7 @@ JTS は Java ベースのオープンソース地理空間アプリケーショ�
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://tsusiatsoftware.net/jts/main.html
+**ウェブサイト:** https://sourceforge.net/projects/jts-topo-suite/
 
 **ライセンス:** LGPL
 
@@ -64,4 +64,4 @@ JTS は Java ベースのオープンソース地理空間アプリケーショ�
 
 **API インタフェース:** Java
 
-**サポート:** http://tsusiatsoftware.net/jts/main.html
+**サポート:** https://sourceforge.net/projects/jts-topo-suite/

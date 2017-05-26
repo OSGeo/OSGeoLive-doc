@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Aitor Freire Astray
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -74,7 +74,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) versión 2. Nota: los plugings de JOSM podrían emplear otra licencia.
 
-**Versión de software:** r7347
+**Versión de software:** r11427
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

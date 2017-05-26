@@ -27,25 +27,25 @@ pgRouting は、経路探索と他のネットワーク解析機能を :doc:`Pos
 .. code-block:: bash
 
   	psql
-  
+
 psql のプロンプトで、以下をタイプします:
- 
+
 .. code-block:: sql
 
 	CREATE DATABASE city_routing;
 	\connect city_routing;
 	CREATE EXTENSION postgis;
 	CREATE EXTENSION pgrouting;
-	
+
 
 もし PostgreSQL 9.6+ を実行している場合は、 postgis の行はスキップ可能で、 :code:`CREATE EXTENSION pgrouting CASCADE;` を実行します。
-	
+
 インストールの確認は、以下の実行により可能です:
 
 .. code-block:: sql
 
 	SELECT  * FROM pgr_version();
-	
+
 .. code-block:: bash
 
 	 version |       tag       |  hash   | branch | boost
@@ -54,7 +54,7 @@ psql のプロンプトで、以下をタイプします:
 	(1 row)
 
 このクイックスタートのサンプルを使用するためには、バージョンは 2.1.0 かそれ以上である必要があります。
-	
+
 osm2pgrouting での OSM データの読み込み
 ===========================================================================
 osm2pgrouting は .osm ファイルを pgRouting の互換フォーマットに読み込むコマンドラインツールです。
@@ -65,7 +65,7 @@ osm2pgrouting は .osm ファイルを pgRouting の互換フォーマットに�
 .. code-block:: bash
 
 	osm2pgrouting --version
-	
+
 出力が表示されます:
 
 .. code-block:: bash
@@ -80,17 +80,17 @@ osm2pgrouting は .osm ファイルを pgRouting の互換フォーマットに�
 	 bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
 	 osm2pgrouting -f /tmp/feature_city.osm -h localhost -U user -d city_routing -p 5432 -W user --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml
 	 rm /tmp/feature_city.osm
-	
-	
+
+
 出力は以下のような形となるはずです:
 
 .. code-block:: bash
 
 	Opening data file: feature_city.osm
 	    Parsing data
-	
+
 	Spliting ways
-	
+
 	Dropping tables...
 	NOTICE:  table "ways" does not exist, skipping
 	NOTICE:  table "ways_vertices_pgr" does not exist, skipping
@@ -191,7 +191,7 @@ pgr_dijkstra はさらにノードとエッジに bigint 型を使用可能で�
 
 	SELECT id, osm_id 
 		FROM ways_vertices_pgr where id IN( 100, 600);
-		
+
 これは以下を出力します:
 
 .. code-block:: bash
@@ -214,7 +214,7 @@ osm_id を使用するために、
 			length as cost FROM ways', 
 		1896068597, 31369798, false
 	);
-	
+
 注意: SQL ステートメントは、常にフィールド名に `id, source, target, 及び cost` を持つ必要があります。
 上記では、フィールドに `source_osm` と `target_osm` を使用しているので、それらのエイリアスを作成することで、
 pgr_dijkstra のクエリカラムが source と target になります。
@@ -272,8 +272,8 @@ pgRouting の全ての関数は、 bigint 型を使用できるよう変更さ�
 	  38 |  2013 | 0102000020E6100000020000008849B89047701C406DF7BC2C375D4940E8
 	  39 |  6801 | 0102000020E610000002000000E82E89B322721C40A85890C1E55C494059
 	(39 rows)
-	
-	
+
+
 * 経路は :doc:`OpenJump <../overview/openjump_overview>` や
 :doc:`QGIS <../overview/qgis_overview>` DbManager プラグインなどの
 グラフィカルツールを使用して表示することができます。

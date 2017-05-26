@@ -19,13 +19,13 @@ IRCユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネ�
 商用サポート
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft は、 Live DVD の構築と同様に、それに含まれる多くのアプリケーションに対して商用サポートを提供しています。
-詳細はこちら: http://lisasoft.com
+Jirotech は、 Live DVD の構築と同様に、それに含まれる多くのアプリケーションに対して商用サポートを提供しています。
+詳細はこちら: http://jirotech.com
 
 同包されているほとんどのアプリケーションは、コミュニティと商用サポートの両方を提供しています。その詳細については、 :doc:`Contents <./overview/overview>` からリンクされている個々のアプリケーションの説明を参照してください。
 

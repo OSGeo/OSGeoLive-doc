@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -38,7 +38,7 @@ Alapfunkciók
 
 * Interfész definíció a kulcsfontosságú térbeli fogalmakhoz és adatstruktúrákhoz
 
-  * A `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>` által biztosított integrált geometria
+  * A `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>` által biztosított integrált geometria
   * Attribútum és térbeli szűrők az OGC Filter Encoding specifikáció felhasználásával
 
 * Egy világos adathozzáférési API az elemek eléréséhez, tranzakció támogatás és a szálak közötti zárolás

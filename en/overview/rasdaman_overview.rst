@@ -1,5 +1,5 @@
 :Author: Peter Baumann
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -9,12 +9,6 @@
   :alt: project logo
   :align: right
   :target: http://www.rasdaman.org
-
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
 
 Rasdaman
 ========

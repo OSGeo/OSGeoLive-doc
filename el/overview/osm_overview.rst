@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons
 
@@ -58,7 +58,7 @@ JOSM περιλαμβάνονται.
 
 **Εκδόσεις Λογισμικού:**
 
-* JOSM: Τελευταία δοκιμαστική (svn r7347)
+* JOSM: Τελευταία δοκιμαστική (svn r11427)
 
 * Merkaartor: 1.18.1
 

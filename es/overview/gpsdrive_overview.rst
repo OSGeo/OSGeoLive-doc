@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Andrés Herrera
 :Translator: Roberto Antolín
-:Version: osgeo-live6.5
-:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Version: osgeo-live7.0
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-gpsdrive.png
   :alt: project logo
@@ -17,14 +17,7 @@ GpsDrive
 Software de navegación GPS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`GpsDrive <http://www.gpsdrive.de>`_ es un sistema de navegación para vehiculos
-(bicicletas, botes, aviones, personas). GpsDrive muestra la posición enviada por
-un dispositivo GPS en un mapa con capacidades de zoom. El archivo del mapa se
-selecciona automáticamente en función de su posición y la escala preferida.
-Todos los receptores GPS que soporten el protocolo NMEA deberían funcionar, así
-como muchos recepores GPS USB mediante el uso de un protocolo binario conocido
-como `Gpsd <http://gpsd.berlios.de>`_ el cual actua como demonio y multiplexor
-de GPS.
+`GpsDrive <http://www.gpsdrive.de>`_ es un sistema de navegación para vehiculos (bicicletas, botes, aviones, personas). GpsDrive muestra la posición enviada por un dispositivo GPS en un mapa con capacidades de zoom. El archivo del mapa se selecciona automáticamente en función de su posición y la escala preferida. Todos los receptores GPS que soporten el protocolo NMEA deberían funcionar, así como muchos recepores GPS USB mediante el uso de un protocolo binario conocido como `Gpsd <http://gpsd.berlios.de>`_ el cual actua como demonio y multiplexor de GPS.
 
 
 Características principales
@@ -35,16 +28,16 @@ Características principales
   :alt: screenshot
   :align: right
 
-* Descargue datos de la Web de LANDSAT u OpenStreetMap, o si prefiere, registre sus propias imágenes
-* Representación en vivo de los datos de OpenStreetMap almacenados en una base de datos PostGIS usando Mapnik
-* Representación en vivo del mosaico de alta resolución de la NASA, Blue Marble
-* Instrucciones verbales usando el sintetizador de voz eSpeak
-* Entorno e interfaz gráfica de usuario (GUI) altamente personalizable
-* Soporte de rutas en formato GPX, una serie de opciones de almacenamiento para sitios de referencia en formato SQLite y archivos planos de texto compatibles con GPSBabel   
-* Busqueda de sitios de interes (POI) en un radio determinado
-* Planificación de rutas
+* Descargue datos de la Web de LANDSAT u OpenStreetMap, o si prefiere, registre sus propias imágenes.
+* Representación en vivo de los datos de OpenStreetMap almacenados en una base de datos PostGIS usando Mapnik.
+* Representación en vivo del mosaico de alta resolución de la NASA, Blue Marble.
+* Instrucciones verbales usando el sintetizador de voz eSpeak.
+* Entorno e interfaz gráfica de usuario (GUI) altamente personalizable.
+* Soporte de rutas en formato GPX, una serie de opciones de almacenamiento para sitios de referencia en formato SQLite y archivos planos de texto compatibles con GPSBabel.   
+* Busqueda de sitios de interes (POI) en un radio determinado.
+* Planificación de rutas.
 * Servidor incluido para realizar seguimiento de las posiciones de sus amigos.
-* Integración con software Kismet Wifi
+* Integración con software Kismet Wifi.
 
 Detalles
 --------------------------------------------------------------------------------
@@ -53,7 +46,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) Versión 2
 
-**Versión del software:** 2.12svn
+**Versión del software:** 2.12
 
 **Plataformas compatibles:** GNU/Linux, Mac OSX
 

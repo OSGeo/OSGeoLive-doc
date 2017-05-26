@@ -15,50 +15,34 @@ Este Live DVD y Máquina Virtual ha sido configurado por miembros de la comunida
 OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/ordnance-survey_logo.png
-  :alt: Ordnance Survey
-  :target: http://www.ordnancesurvey.co.uk
-
-
-OSGeo Associate Sponsors
---------------------------------------------------------------------------------
-
-.. image:: ../images/logos/first-base-solutions_logo.png
-  :alt: First Base Solutions
-  :target: http://www.firstbasesolutions.com
-
-.. image:: ../images/logos/astun.png
-  :alt: Astun Technology
-  :target: http://www.isharemaps.com
-
 .. image:: ../images/logos/geocat_logo.png
   :alt: GeoCat
   :target: http://geocat.net/
 
-.. image:: ../images/logos/lizardtech_logo_sml.png
-  :alt: LizardTech
-  :target: http://www.lizardtech.com
 
-.. image:: ../images/logos/2ndquadrant_logo.png
-  :alt: 2ndQuadrant
-  :target: http://www.2ndquadrant.com/
+.. image:: ../images/logos/Boundless_Logo.png
+  :alt: Boundless
+  :target: http://boundlessgeo.com/
 
-.. image:: ../images/logos/karttakeskus.png
-  :alt: Karttakeskus
-  :target: http://www.karttakeskus.fi/
+.. image:: ../images/logos/gaia3d.png
+  :alt: Gaia3D
+  :target: http://www.gaia3d.com/
 
-.. image:: ../images/logos/borealis.jpg
-  :alt: BOREALIS
-  :target: http://www.boreal-is.com
+.. image:: ../images/logos/astun.png
+  :alt: Astun Technology
+  :target: https://astuntechnology.com/
 
-.. image:: ../images/logos/camptocamp_logo.png
-  :scale: 80 %
-  :alt: Camptocamp
-  :target: http://camptocamp.com
+.. image:: ../images/logos/chameleon-john-logo.png
+  :alt: ChameleonJohn
+  :target: https://www.chameleonjohn.com/
 
-.. image:: ../images/logos/ign_france.png
-  :alt: IGN
-  :target: http://www.ign.fr
+.. image:: ../images/logos/apps-for-rent-logo.png
+  :alt: Apps4Rent
+  :target: http://www.apps4rent.com/
+
+.. image:: ../images/logos/DealIslands.png
+  :alt: Dealslands
+  :target: http://www.dealslands.co.uk/
 
 
 Para más información

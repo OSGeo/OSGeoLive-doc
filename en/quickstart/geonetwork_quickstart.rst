@@ -1,6 +1,6 @@
 :Author: GeoNetwork Community
 :Version: osgeo-live8.5
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: GeoNetwork Community 
 

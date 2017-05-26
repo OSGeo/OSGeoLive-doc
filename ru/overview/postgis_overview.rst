@@ -10,7 +10,7 @@
 
 :Автор: OSGeo-Live
 :Автор: Barry Rowlingson
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -20,7 +20,7 @@
 
 .. Writing Tip:
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
     ../../images/project_logos/<filename>
 

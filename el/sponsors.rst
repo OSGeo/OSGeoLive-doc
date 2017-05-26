@@ -10,11 +10,11 @@
 και τις ομάδες ανάπτυξης των λογισμικών που συνεισφέρουν σε αυτό. 
 
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: ../images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-Η εταιρία LISAsoft παρέχει υποστηριχτικούς πόρους και προσωπικό για τη διαχείρηση και συναρμολόγηση του δοκιμαστικού OSGeo-Live DVD.
+Η εταιρία Jirotech παρέχει υποστηριχτικούς πόρους και προσωπικό για τη διαχείρηση και συναρμολόγηση του δοκιμαστικού OSGeo-Live DVD.
 
 .. image:: ../images/logos/ucd_ice_logo.png
   :alt: Κέντρο Πληροφοριών για το Περιβάλλον (Information Center for the Environment) του πανεπιστημίου Davis στην Καλιφόρνια
@@ -41,7 +41,7 @@
   :target: http://www.osdm.gov.au
 
 Το Κυβερνητικό Γραφείο Διαχείρησης Χωρικών Δεδομένων της Αυστραλίας ήταν χορηγός της σύνταξης των Εγχειριδίων Εφαρμογών από τη 
-LISAsoft, ώστε να παραχθούν κείμενα με συνοχή και ποιότητα.
+Jirotech, ώστε να παραχθούν κείμενα με συνοχή και ποιότητα.
 
 .. include :: sponsors_osgeo.rst
 

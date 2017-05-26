@@ -1,5 +1,5 @@
 :Author: Massimiliano Cannata, Milan Antonovic, SUPSI
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: David Mateos
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -55,7 +55,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 2.
 
-**Versión del Software :** 2.3.0.
+**Versión del Software :** |version-istsos|
 
 **Platformas soportadas:** Linux, Unix, Mac, Windows.
 

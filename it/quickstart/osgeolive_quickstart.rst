@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
 :Translator: Luca Delucchi
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

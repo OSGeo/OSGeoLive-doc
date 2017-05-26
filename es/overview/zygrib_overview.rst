@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Mauricio Pazos
-:Version: osgeo-live6.5
-:License: Creative Commons
+:Version: osgeo-live7.9
+:License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. _zygrib-overview-es:
 
@@ -9,7 +10,6 @@
   :alt: project logo
   :align: right
   :target: http://www.zygrib.org
-
 
 zyGrib
 ================================================================================
@@ -42,7 +42,7 @@ Detalles
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** 6.2.1
+**Software Version:** |version-zygrib|
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 

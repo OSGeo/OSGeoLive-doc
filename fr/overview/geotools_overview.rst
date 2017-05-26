@@ -1,5 +1,5 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -37,7 +37,7 @@ de l'OSGeo-live DVD qui embarque GeoTools sont :
 
 * Définition d'interfaces pour des concepts clefs et la structuration des données
 
-  * Intègre le support de la Géométrie grâce à `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Intègre le support de la Géométrie grâce à `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Filtre spatial et sur les attributs utilisant l'OGC Encoding specification
   
 * Un accès clair à l'API supportant l'accès au éléments, les transactions et le verrouillage entre les threads

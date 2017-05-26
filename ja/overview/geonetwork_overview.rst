@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -23,7 +23,7 @@ GeoNetwork
 GeoNetwork OpenSource は空間的に参照されるリソースを管理するためのカタログアプリケーションです.このソフトウェアは強力なメタデータ編集機能と検索機能、組み込みインタラクティブウェッブ地図ビューアーを提供し、それらはオープンスタンダードに準拠しています. 
 
 .. image:: ../../images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
-  :width: 150 px
+  :scale: 50%
   :alt: project logo
   :align: right
 

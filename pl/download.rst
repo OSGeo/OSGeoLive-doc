@@ -1,37 +1,31 @@
 .. Writing Tip:
-  there a several replacements defined in conf.py in the root doc folder
-  do not replace |osgeolive-iso-size|, |osgeolive-iso-mini-size| and |osgeolive-vm-7z-size|
+  There a several replacements defined in conf.py in the root doc folder.
+  Do not replace |osgeolive-iso-size|, and |osgeolive-vm-7z-size|
+  The actual ISO sizes are defined in settings.py.
 
 Pobierz OSGeo-Live
 ================================================================================
 
-Najnowszą stabilną wersję |osgeo-live-version| :
+Najnowszą stabilną wersję |osgeo-live-version|. Pobierz OSGeo-Live https://sourceforge.net/projects/osgeo-live/files/10.5/ :
 
-.. image:: ../images/download_buttons/download-dvd.png
-  :alt: Pobierz plik iso z instalatorem na Windows
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso/download
+Picking the right image for you:
 
-`osgeo-live-9.5-i386.iso <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso/download>`_ : |osgeolive-iso-size|
+**osgeo-live iso**: |osgeolive-iso-size|
 
-.. image:: ../images/download_buttons/download-dvd.png
-  :alt: Pobierz plik iso z instalatorem na Windows
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-amd64.iso/download
+Rozruchowe DVD z xubuntu, zawierające również instalatory na Windows i Mac. Może być nagrane na rozruchowym ośmiogigowym PenDrive. 
 
-`osgeo-live-9.5-amd64.iso <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-amd64.iso/download>`_ : |osgeolive-iso-size|
+**osgeo-live-vm**: |osgeolive-vm-7z-size|
 
-Rozruchowe DVD z xubuntu, zawierające również instalatory na Windows i Mac. Może być nagrane na rozruchowym ośmiogigowym PenDrive. Sprawdź pobrany plik z jego sumą kontrolną `(osgeo-live-9.5.iso.md5) <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-9.5-i386.iso.md5/download>`_.
+Przygotowany skompresowany dysk wirtualny `7-Zip <http://www.7-zip.org/>`_ (.vmdk) do użycia na VirtualBox, VMWare, KVM i innych aplikacjach wirtualnych maszyn. Nie zawiera istalatorów Windows i Mac. 
 
-.. image:: ../images/download_buttons/download-vm.png
-  :alt: Pobierz plik 7-zip zawierający wirtualną maszynę bez instalatorów Windows i Mac
-  :align: left
-  :target: http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z/download
+**amd64 or i386 architecture**
 
-`osgeo-live-vm-9.5.7z <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z/download>`_ : |osgeolive-vm-7z-size|
+ISO images are available for recent amd64 hardware (recommended) as well as older i386 hardware.
 
-Przygotowany skompresowany dysk wirtualny `7-Zip <http://www.7-zip.org/>`_ (.vmdk) do użycia na VirtualBox, VMWare, KVM i innych aplikacjach wirtualnych maszyn. Nie zawiera istalatorów Windows i Mac. Sprawdź pobrany plik z jego sumą kontrolną `(osgeo-live-vm-9.5.7z.md5) <http://download.osgeo.org/livedvd/release/9.5/osgeo-live-vm-9.5.7z.md5/download>`_.
+**md5 checksum**
 
-Aby zapoznać się z pełną listą wersji, opcji pobierania oraz adresami serwerów lustrzanych, idź do strony: http://download.osgeo.org/livedvd
+Sprawdź pobrany plik z jego sumą kontrolną.
 
-[*] `Sugerowane minimalne wymagania systemowe: 768MB RAM (2 GB jest zalecany dla korzystania z aplikacji bazujących na Javie), CPU kompatybilne z 1GHz i688 CPU. Nie wymaga dostępu do twardego dysku. Użytkownikom Mac przyda się mysz na USB z trzema przyciskami. Do instalacji na pendrive zalecamy pojemność 8GB`
+**Sugerowane wymagania systemowe**
+
+`Sugerowane minimalne wymagania systemowe: 768MB RAM (2 GB jest zalecany dla korzystania z aplikacji bazujących na Javie), CPU kompatybilne z 1GHz i688 CPU. Nie wymaga dostępu do twardego dysku. Użytkownikom Mac przyda się mysz na USB z trzema przyciskami. Do instalacji na pendrive zalecamy pojemność 8GB`

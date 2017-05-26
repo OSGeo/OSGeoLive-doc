@@ -23,13 +23,13 @@ und ein `Tracking System für Probleme und Wünsche <https://trac.osgeo.org/osge
 Kommerzieller Support
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: ../images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
+  :alt: Jirotech
 
-LISAsoft bietet sowohl kommerzielle Unterstützung zur Erstellung der Live DVD als auch für viele auf der DVD enthaltenen Software an.
+Jirotech bietet sowohl kommerzielle Unterstützung zur Erstellung der Live DVD als auch für viele auf der DVD enthaltenen Software an.
 weitere Informationen unter: 
-http://www.lisasoft.com/LISAsoft/support.html
+http://www.jirotech.com/Jirotech/support.html
 
 Für viele der enthaltenen Softwarepakete gibt es sowohl Unterstützung durch die Community als auch kommerziellen Support. Besuchen Sie die Webseiten der Softwareprojekte für weitergehende Informationen.
 Darüber hinaus gibt es eine große Auswahl von Unternehmen, die Support für OSGeo Projekte anbieten.

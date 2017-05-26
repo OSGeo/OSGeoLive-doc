@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
@@ -39,11 +39,10 @@ Kernfunktionen
 * Kartographie nach wissenschaftlichen Qualitätsanforderungen. 
 * Funktionen für Rasterung und Konturierung.
 
-
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://gmt.soest.hawaii.edu
+**Webseite:** https://gmt.soest.hawaii.edu
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
@@ -53,7 +52,7 @@ Details
 
 **API Schnittstellen:** Kommandozeile
 
-**Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
 Quickstart
