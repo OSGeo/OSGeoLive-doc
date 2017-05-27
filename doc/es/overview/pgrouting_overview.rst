@@ -11,7 +11,7 @@
   :align: right
   :target: http://www.pgrouting.org/
 
-pgRouting
+pgRouting - Resúmen
 ================================================================================
 
 Herramientas SIG.

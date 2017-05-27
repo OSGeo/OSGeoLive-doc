@@ -9,7 +9,6 @@
   :align: right
   :target: http://www.pgrouting.org/
 
-.. _pgrouting_overview:
 
 pgRouting
 ================================================================================
