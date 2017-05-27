@@ -148,7 +148,7 @@ What Next?
   processing. 
   
   * `OTBSoftwareGuide.pdf <http://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
-  * `Online html version <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
+  * `Online html version Guide <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
 
 * OTB CookBook
 
@@ -158,7 +158,7 @@ What Next?
   recipes to perform usual remote sensing tasks with both tools. 
   
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
-  * `Online html version <https://www.orfeo-toolbox.org/CookBook/CookBook.html>`_  
+  * `Online html version CookBook <https://www.orfeo-toolbox.org/CookBook/CookBook.html>`_  
 
 * OTB Tutorials
 

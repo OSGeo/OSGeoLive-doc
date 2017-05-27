@@ -355,13 +355,13 @@ To quit PostgreSQL command line, enter:
 
 ::
 
-\q
+    \q
 
 You are now back to system console:
 
 ::
 
-user@osgeolive:~$
+    user@osgeolive:~$
 
 Mapping
 ================================================================================

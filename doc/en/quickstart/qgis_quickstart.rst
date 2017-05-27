@@ -133,7 +133,7 @@ Let's now include a layer from a Postgres database.
 
 #. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
 
-   *You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
+   * You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
 
    * Both Natural Earth and OpenStreetMap Postgis databases
      are already available; we will be using use the Natural Earth database.
