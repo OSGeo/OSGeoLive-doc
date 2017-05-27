@@ -67,7 +67,7 @@ You can:
   .. image:: ../../images/screenshots/800x600/marble-quickstart-6.png
     :scale: 70 %
 
-     Write the name, description and destination folder of the bookmark and click the "Ok" button. Then the bookmark will appear. To manage bookmarks, go to "Bookmarks->Manage Bookmarks". 
+  Write the name, description and destination folder of the bookmark and click the "Ok" button. Then the bookmark will appear. To manage bookmarks, go to "Bookmarks->Manage Bookmarks". 
 
   .. image:: ../../images/screenshots/800x600/marble-quickstart-7.png
     :scale: 70 %

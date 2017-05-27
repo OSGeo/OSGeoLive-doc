@@ -72,6 +72,7 @@ Implemented Standards
 --------------------------------------------------------------------------------
 
 * TileMill does not support OGC standards, like WMS or WFS. 
+
 Rather it adheres to the widespread practices of z/x/y tile schemes used by Google and OSM and is based on the MBTiles and UTFGrid specifications.
 
 Details

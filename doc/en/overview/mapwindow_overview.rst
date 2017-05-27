@@ -29,6 +29,7 @@ The MapWindow Lite version installed on OSGeo-Live doesn't include all MapWindow
 toolbox, plug-ins, fully functional shapefile editor, or support for PostGIS). 
 
 .. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. 
+
 Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be 
 downloaded from https://mapwindow4.codeplex.com/releases/view/542097.
    
