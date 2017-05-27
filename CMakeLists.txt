@@ -90,7 +90,10 @@ set(OSGeoLiveDoc_SUBDIRS
     "presentation"      "quickstart"
     "overview"     "standards")
 
+#---------------------------------------------
 # list of projects with quickstart
+#---------------------------------------------
+
 set(OSGeoLiveDoc_PROJECTS
     "52nSOS"       "geomajas"      "gpsprune"  "liblas"     "mb-system"       "qgis"        "ushahidi"
     "52nWPS"       "geomoose"      "grass"     "mapbender"  "osm"             "rasdaman"    "viking"
@@ -102,6 +105,22 @@ set(OSGeoLiveDoc_PROJECTS
     "eoxserver"    "jupyter"   "mapslicer"  "openjump"        "pycsw"           "tinyows"
     "gdal"         "gmt"           "kosmo"     "mapwindow"  "openlayers"      "pywps"           
     "geokettle"    "gpsdrive"      "leaflet"   "marble"     "osgearth"        "qgis_mapserver"  "udig")
+
+if(false)
+file(STRINGS project_versions.txt OSGeoLiveDoc_PROJECTS_VERSIONS)
+
+foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS})
+    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)" "\\1" pname ${line})
+    string(STRIP ${pname} pname)
+
+    list(APPEND OSGeoLiveDoc_PROJECTS1 "${pname}")
+    message(STATUS "${pname}<-")
+endforeach()
+foreach(line ${OSGeoLiveDoc_PROJECTS1})
+    message(STATUS "${line}<-")
+endforeach()
+message(FATAL_ERROR "foo")
+endif()
 
 
 # Overview only projects 
