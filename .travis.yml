@@ -1,0 +1,54 @@
+# ------------------------------------------------------------------------------
+# Travis CI scripts 
+# Copyright(c) pgRouting Contributors
+#
+# Main configuration
+# ------------------------------------------------------------------------------
+
+group: edge
+dist: trusty    
+sudo: required
+
+
+language: cpp
+
+
+# executed. So things have to be tested oe by one.
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+      # For cmake
+      - kubuntu-backports
+      - boost-latest
+    packages:
+      - cmake
+      - libboost-thread-dev
+      - libboost-graph-dev
+      - libcgal-dev
+      - python-sphinx
+      - graphviz
+      - texlive
+      - texlive-font-utils
+      - texlive-latex-extra
+      - ghostscript
+
+
+
+
+install:
+  - pip install git+https://github.com/sphinx-doc/sphinx@stable
+
+#before_script:
+
+
+script: 
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make html
+
+#after_script: 
+
+#after_success:
+  # blank
