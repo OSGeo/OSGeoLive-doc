@@ -42,7 +42,7 @@ install:
 script: 
   - mkdir build
   - cd build
-  - cmake ..
+  - cmake -D ES=ON ..
   - make html
 
 #after_script: 
