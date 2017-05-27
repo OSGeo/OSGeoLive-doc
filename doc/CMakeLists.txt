@@ -19,8 +19,12 @@ set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 set(SPHINX_CACHE_DIR "${CMAKE_CURRENT_BINARY_DIR}/_doctrees")
 
-file(COPY "static" DESTINATION "${SPHINX_BUILD_DIR}/static")
+file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
+file(COPY "themes" DESTINATION "${SPHINX_BUILD_DIR}")
+file(COPY "static" DESTINATION "${SPHINX_BUILD_DIR}")
 configure_file("conf.py.in" "${SPHINX_BUILD_DIR}/conf.py" @ONLY)
+#TODO index contents depends on configuration
+configure_file("index.rst" "index.rst")
 
 # Internal variables.
 option(LATEX_PAPER_SIZE
@@ -51,7 +55,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             "${CMAKE_CURRENT_BINARY_DIR}"
 
             #where the documentations is written
-            "${SPHINX_BUILD_DIR}/${target}"
+            "${CMAKE_CURRENT_BINARY_DIR}/${target}"
             COMMENT "Generating ${target} documentation ...")
 
     endforeach()

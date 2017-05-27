@@ -107,7 +107,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
 html_theme = 'overview'
-html_theme_path = ['../../themes']
+html_theme_path = ['themes']
 
 if os.environ.get('HTML_THEME_PATH'):
   html_theme_path.append(os.environ.get('HTML_THEME_PATH'))
@@ -136,7 +136,7 @@ html_title='%(projectname)s %(projectversion)s Documentation' % { 'projectname':
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 html_static_path = ['static']
-html_favicon = 'static/images/favicon.ico'
+html_favicon = 'static/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

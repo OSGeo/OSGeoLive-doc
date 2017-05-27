@@ -22,8 +22,7 @@ Enabling pgRouting in a database
 ===============================================================================
 In this example we will create a database called `city_routing` and enable pgRouting in the database.
 
-* Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql:
-(psql is the commandline tool packaged with PostgreSQL)
+* Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql: (psql is the commandline tool packaged with PostgreSQL)
 
 .. code-block:: bash
 
@@ -31,7 +30,7 @@ In this example we will create a database called `city_routing` and enable pgRou
 
 At psql prompt type:
 
-.. code-block:: sql
+.. code-block:: none
 
 	CREATE DATABASE city_routing;
 	\connect city_routing;
@@ -43,7 +42,7 @@ If you are running PostgreSQL 9.6+, you can skip the postgis line and do :code:`
 
 You can verify your installation by running this:
 
-.. code-block:: sql
+.. code-block:: none
 
 	SELECT  * FROM pgr_version();
 
@@ -249,6 +248,7 @@ been changed to use bigints, so osm_ids can't be used with all functions.
 
 
 * You can view the routes using a graphical tool
+
 such as :doc:`OpenJump <../overview/openjump_overview>` or
 the :doc:`QGIS <../overview/qgis_overview>` DbManager extension.
 
