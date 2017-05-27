@@ -78,7 +78,7 @@ endif()
 # Languages to be used
 #set(OSGeoLiveDoc_LANGUAGES "ca"  "de"  "el"  "en" "es"  "fr"  "hu"  "id"  "it"  "ja"  "ko"  "pl"  "ru"  "zh")
 set(OSGeoLiveDoc_ENGLISH "en")
-set(OSGeoLiveDoc_LANGUAGES "en")
+set(OSGeoLiveDoc_LANGUAGES "en" "es")
 
 # File lists (english)
 set(OSGeoLiveDoc_FILES "contact.rst"    "disclaimer.rst"  "index.rst"           "metrics.rst"   "sponsors.rst"  "welcome_message.txt"
