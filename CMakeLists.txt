@@ -10,7 +10,7 @@ endif()
 #---------------------------------------------
 #---------------------------------------------
 
-project(OSGeoLiveDoc)
+project(OSGeoLiveDoc LANGUAGES NONE)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
 #---------------------------------------------
