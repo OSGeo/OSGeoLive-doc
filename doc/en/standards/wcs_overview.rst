@@ -14,7 +14,7 @@
     ../../images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: images/project_logos/logo-OGC-left.png
+.. image:: project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right

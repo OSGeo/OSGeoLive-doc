@@ -9,18 +9,18 @@ foreach (l ${OSGeoLiveDoc_ENGLISH} ${OSGeoLiveDoc_LANGUAGES})
     add_subdirectory(${l})
 endforeach()
 
-configure_file("conf.py.in" "conf.py" @ONLY)
 
 # Always define the target
 
 
-file(COPY "images" DESTINATION "images")
 
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 set(SPHINX_CACHE_DIR "${CMAKE_CURRENT_BINARY_DIR}/_doctrees")
 
+file(COPY "static" DESTINATION "${SPHINX_BUILD_DIR}/static")
+configure_file("conf.py.in" "${SPHINX_BUILD_DIR}/conf.py" @ONLY)
 
 # Internal variables.
 option(LATEX_PAPER_SIZE
@@ -43,7 +43,9 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             COMMAND ${SPHINX_EXECUTABLE}
             -b ${target} 
             -d "${SPHINX_CACHE_DIR}"
-            -c "${SPHINX_DOCUMENTATION_DIR}"
+
+            # Where the conf.py is located
+            -c "${SPHINX_BUILD_DIR}"
 
             # the location of the documentation to be build
             "${CMAKE_CURRENT_BINARY_DIR}"
