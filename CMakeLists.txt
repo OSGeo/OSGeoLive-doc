@@ -24,6 +24,8 @@ set(OSGeoLiveDoc_VERSION_MAJOR "11")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
 set(OSGeoLiveDoc_VERSION_DEV "-dev")
+set(OSGeoLiveDoc_VERSION "${OSGeoLiveDoc_VERSION_MAJOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_DEV}")
+set(OSGeoLiveDoc_NAME "OSGeo-Live")
 
 
 #---------------------------------------------
@@ -94,7 +96,7 @@ set(OSGeoLiveDoc_SUBDIRS
 # list of projects with quickstart
 #---------------------------------------------
 
-set(OSGeoLiveDoc_PROJECTS
+set(OSGeoLiveDoc_PROJECTS1
     "52nSOS"       "geomajas"      "gpsprune"  "liblas"     "mb-system"       "qgis"        "ushahidi"
     "52nWPS"       "geomoose"      "grass"     "mapbender"  "osm"             "rasdaman"    "viking"
     "52nWSS"       "geonetwork"    "gvsig"     "mapfish"    "ossim"           "R"           "webworldwind"
@@ -106,35 +108,39 @@ set(OSGeoLiveDoc_PROJECTS
     "gdal"         "gmt"           "kosmo"     "mapwindow"  "openlayers"      "pywps"           
     "geokettle"    "gpsdrive"      "leaflet"   "marble"     "osgearth"        "qgis_mapserver"  "udig")
 
-if(false)
-file(STRINGS project_versions.txt OSGeoLiveDoc_PROJECTS_VERSIONS)
+file(STRINGS project_versions.txt OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
-foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS})
-    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)" "\\1" pname ${line})
+set (OSGeoLiveDoc_PROJECTS_VERSIONS "")
+foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
+    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\1" pdocumented ${line})
+    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\2" pname ${line})
+    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\3" pversion ${line})
+    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\4" pquick ${line})
+    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\5" poverview ${line})
+
+    string(STRIP ${pdocumented} pdocumented)
     string(STRIP ${pname} pname)
+    string(STRIP ${pversion} pversion)
+    string(STRIP ${pquick} pquick)
+    string(STRIP ${poverview} poverview)
 
-    list(APPEND OSGeoLiveDoc_PROJECTS1 "${pname}")
-    message(STATUS "${pname}<-")
+
+    string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${pname}| replace:: ${pversion}\n")
+    if (NOT "${pdocumented}" MATCHES "Y") 
+        message(STATUS "${pname} is not for documentation")
+        continue()
+    endif()
+
+    message(STATUS "${pdocumented} ${pname} ${pversion} ${pquick} ${poverview}")
+
+    if ("${pquick}" MATCHES "q")
+        list(APPEND OSGeoLiveDoc_PROJECTS "${pname}")
+    endif()
+    if ("${poverview}" MATCHES "o")
+        list(APPEND OSGeoLiveDoc_OVERVIEW "${pname}")
+    endif()
+
 endforeach()
-foreach(line ${OSGeoLiveDoc_PROJECTS1})
-    message(STATUS "${line}<-")
-endforeach()
-message(FATAL_ERROR "foo")
-endif()
-
-
-# Overview only projects 
-set(OSGeoLiveDoc_OVERVIEW
-    "osm_dataset"
-    "metacrs"
-    "naturalearth"
-    "nc_dataset"
-    "josm"
-    "netcdf_dataset"
-    "geos"
-    "jts"
-    "geotools"
-    )
 
 set(OSGeoLiveDoc_STANDARDS
     "csw"  "gml"  "sld"  "wcs"  "wms"
@@ -143,6 +149,7 @@ set(OSGeoLiveDoc_STANDARDS
 
 # Quickstart only
 set(OSGeoLiveDoc_QUICKSTART
+    ${OSGeoLiveDoc_PROJECTS}
     "internationalisation"
     "osgeolive_install"
     "osgeolive"

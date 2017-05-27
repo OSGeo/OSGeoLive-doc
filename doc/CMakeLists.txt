@@ -9,3 +9,4 @@ foreach (l ${OSGeoLiveDoc_LANGUAGES} )
     add_subdirectory(${l})
 endforeach()
 
+configure_file("conf.py.in" "conf.py" @ONLY)
