@@ -48,66 +48,108 @@ elseif (SPHINX_VERSION VERSION_LESS SPHINX_MINIMUM_VERSION)
 endif()
 
 
+#---------------------------------------------
+# Kind of output
+#---------------------------------------------
+option(HTML
+    "Set ON|OFF (default=OFF) to build Documentation library tree" ON)
 
-option(BUILD_LATEX
+option(DIRHTML
     "Set ON|OFF (default=OFF) to build Documentation library tree as PDF" OFF)
 
-option(BUILD_HTML
+option(PICKLE
     "Set ON|OFF (default=ON) to build Documentation library tree as HTML" ON)
 
-option(BUILD_MAN
+option(JSON
     "Set ON|OFF (default=ON) to build Documentation library tree as MAN page" OFF)
 
-option(DOC_USE_BOOTSTRAP
+option(HTMLHELP
     "Set ON|OFF (default=ON) to build Documentation library tree as MAN page" OFF)
 
+option(LATEX
+    "Set ON|OFF (default=ON) to build Documentation library tree as MAN page" OFF)
+
+option(LATEXPDF
+    "Set ON|OFF (default=ON) to build Documentation library tree as MAN page" OFF)
+
+foreach (opt HTML DIRHTML PICKLE JSON HTMLHELP  LATEXPDF)
+    if (${${opt}})
+        string(TOLOWER ${opt} val)
+        list(APPEND OSGeoLiveDoc_DOC_TARGETS ${val})
+    endif()
+endforeach()
+
+message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 
 
 
-if (DOC_USE_BOOTSTRAP)
-    set(SPHINX_INCLUDE "import sphinx_bootstrap_theme")
-    set(SPHINX_THEME "bootstrap")
-    set(SPHINX_THEME_DIR "sphinx_bootstrap_theme.get_html_theme_path()")
-    set(SPHINX_THEME_OPTIONS "'source_link_position': \"none\",")
-else()
-    set(SPHINX_INCLUDE "")
-    set(SPHINX_THEME "haiku")
-    set(SPHINX_THEME_DIR "['']")
-    set(SPHINX_THEME_OPTIONS "")
-endif()
 
-
+#---------------------------------------------
+# Language options
+# English is allways built
+#---------------------------------------------
 # Languages to be used
-#set(OSGeoLiveDoc_LANGUAGES "ca"  "de"  "el"  "en" "es"  "fr"  "hu"  "id"  "it"  "ja"  "ko"  "pl"  "ru"  "zh")
+set(OSGeoLiveDoc_VALID_LANGUAGES "ca"  "de"  "el"  "es"  "fr"  "hu"  "id"  "it"  "ja"  "ko"  "pl"  "ru"  "zh")
 set(OSGeoLiveDoc_ENGLISH "en")
-set(OSGeoLiveDoc_LANGUAGES "en" "es")
 
-# File lists (english)
+foreach(lang ${OSGeoLiveDoc_VALID_LANGUAGES})
+    string(TOUPPER ${lang} val)
+    option(${val}
+        "Set ON|OFF (default=OFF) build ${lang} Documentation" OFF)
+    message(${val})
+endforeach()
+
+
+foreach(lang ${OSGeoLiveDoc_VALID_LANGUAGES})
+    string(TOUPPER ${lang} opt)
+    if (${opt})
+        list(APPEND OSGeoLiveDoc_LANGUAGES ${lang})
+    endif()
+endforeach()
+
+message("STATUS OSGeoLiveDoc_LANGUAGES = ${OSGeoLiveDoc_LANGUAGES}")
+#message(FATAL_ERROR "foo")
+
+
+
+
+#---------------------------------------------
+#---------------------------------------------
+#---------------------------------------------
+
+# Languages directory contents
+
+#---------------------------------------------
+#---------------------------------------------
+#---------------------------------------------
+
+#---------------------
+# Files
+#---------------------
 set(OSGeoLiveDoc_FILES "contact.rst"    "disclaimer.rst"  "index.rst"           "metrics.rst"   "sponsors.rst"  "welcome_message.txt"
-"copyright.rst"  "download.rst"    "mac_installers.rst"       "presentation.rst"  "sponsors_osgeo.rst"       "win_installers.rst")
+    "copyright.rst"  "download.rst"    "mac_installers.rst"       "presentation.rst"  "sponsors_osgeo.rst"       "win_installers.rst")
 
 
-# Directory lists (english)
+#---------------------
+# Directories
+#---------------------
 set(OSGeoLiveDoc_SUBDIRS
     "presentation"      "quickstart"
     "overview"     "standards")
 
+
+
 #---------------------------------------------
-# list of projects with quickstart
+#---------------------------------------------
 #---------------------------------------------
 
-set(OSGeoLiveDoc_PROJECTS1
-    "52nSOS"       "geomajas"      "gpsprune"  "liblas"     "mb-system"       "qgis"        "ushahidi"
-    "52nWPS"       "geomoose"      "grass"     "mapbender"  "osm"             "rasdaman"    "viking"
-    "52nWSS"       "geonetwork"    "gvsig"     "mapfish"    "ossim"           "R"           "webworldwind"
-    "atlasstyler"  "geonode"       "iris"      "mapguide"         "otb"             "saga"        "worldwindjava"
-    "cartaro"      "geopublisher"  "istsos"    "mapnik"     "ncWMS"           "sahana"      "zoo-project"
-    "cesium"       "geoserver"           "mapproxy"     "pgrouting"       "spatialite"  "zygrib"
-    "deegree"      "mapserver"  "opencpn"         "postgis"         "tilemill"
-    "eoxserver"    "jupyter"   "mapslicer"  "openjump"        "pycsw"           "tinyows"
-    "gdal"         "gmt"           "kosmo"     "mapwindow"  "openlayers"      "pywps"           
-    "geokettle"    "gpsdrive"      "leaflet"   "marble"     "osgearth"        "qgis_mapserver"  "udig")
+# The list of projects to be documented
 
+#---------------------------------------------
+#---------------------------------------------
+#---------------------------------------------
+
+# Y = to document | name | version | q = has quickstart | o = has overview
 file(STRINGS project_versions.txt OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
 set (OSGeoLiveDoc_PROJECTS_VERSIONS "")
@@ -159,6 +201,8 @@ set(OSGeoLiveDoc_QUICKSTART
     "vmware"
     )
 
+
+configure_file("settings.py" "settings.py")
 
 add_subdirectory(doc)
 
