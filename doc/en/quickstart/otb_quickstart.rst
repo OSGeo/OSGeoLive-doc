@@ -74,10 +74,11 @@ The OTB *Segmentation* application allows to produce a raster segmentation
 output with different algorithms and to scale up to large raster by producing
 vector outputs that you can import in a GIS software.
 There are four segmentation methods available in the application:
-  * Mean-Shift
-  * Watershed (ITK implementation)
-  * Connected-Components
-  * Morphological profiles
+
+* Mean-Shift
+* Watershed (ITK implementation)
+* Connected-Components
+* Morphological profiles
 
 You can test the segmentation with these commands:
 

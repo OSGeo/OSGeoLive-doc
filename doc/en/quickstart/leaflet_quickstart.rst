@@ -64,7 +64,7 @@ In this case we will be using the tile images provided by TileStache on the live
 
 Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:
 
-.. code-block:: javascript
+::
 
  L.tileLayer('http://localhost:8012/example/{z}/{x}/{y}.png,{}).addTo(map);
 
