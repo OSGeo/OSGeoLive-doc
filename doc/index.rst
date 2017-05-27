@@ -1,17 +1,22 @@
-..
-    ****************************************************************************
-    Copyright(c) Contributors
+.. meta::
+   :http-equiv=refresh: 0;url=en/index.html
 
 
-.. _index:
+.. toctree::
+   :hidden:
 
-*******************************************************************************
-Table of Contents
-*******************************************************************************
-
-
-.. rubric:: Indices and tables
-
-* :ref:`genindex`
-* :ref:`search`
-
+   ca/index
+   de/index
+   el/index
+   en/index
+   es/index
+   fr/index
+   id/index
+   it/index
+   ja/index
+   ko/index
+   pl/index
+   zh/index
+   contributors
+   translators
+   osgeo_contact

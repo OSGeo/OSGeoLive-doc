@@ -24,7 +24,11 @@ file(COPY "themes" DESTINATION "${SPHINX_BUILD_DIR}")
 file(COPY "static" DESTINATION "${SPHINX_BUILD_DIR}")
 configure_file("conf.py.in" "${SPHINX_BUILD_DIR}/conf.py" @ONLY)
 #TODO index contents depends on configuration
+configure_file("translators.rst" "translators.rst")
+configure_file("osgeo_contact.rst" "osgeo_contact.rst")
+configure_file("contributors.rst" "contributors.rst")
 configure_file("index.rst" "index.rst")
+
 
 # Internal variables.
 option(LATEX_PAPER_SIZE
