@@ -17,7 +17,6 @@ configure_file("conf.py.in" "conf.py" @ONLY)
 file(COPY "images" DESTINATION "images")
 
 
-
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 set(SPHINX_CACHE_DIR "${CMAKE_CURRENT_BINARY_DIR}/_doctrees")
