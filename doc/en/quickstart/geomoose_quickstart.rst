@@ -2,7 +2,7 @@
 :Version: GeoMoose 2.9.2
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png
+.. image:: ../../images/project_logos/logo-geomoose.png
   :width: 250px
   :height: 65px
   :alt: project logo
@@ -61,7 +61,7 @@ Measuring in GeoMoose
 
 GeoMoose has two measuring tools installed and activated by default. Clicking the straight ruler icon in the top toolbar, will start the linear measuring tool.  You can click as many points as you like in the map window and a trailing polyline will be drawn.  When you get to your last point, just double click to stop.  The total distance of all lines drawn will be used to generate the "Total Length" in the units of your choice in the side menu. Clicking the other ruler icon in the top toolbar, will allow you measure areas. 
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot004.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot004.png
 
 These user tools are considered services by the GeoMoose interface and can be added to via GeoMoose's MAPBOOK control file.
 

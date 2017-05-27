@@ -1,4 +1,7 @@
-.. csv-table::
+
+.. error:: TODO translators.csv
+
+.. csv-table
     :header-rows: 1
     :file: translators.csv
     :delim: ,

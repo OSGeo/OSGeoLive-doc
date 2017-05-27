@@ -58,12 +58,12 @@ and your login details.
 Go to the ``admin console`` and click on metadata and templates:
 
 
-.. figure:: :: ../../images/screenshots/800x600/geonetwork//metadata-and-templates.png
+.. figure:: ../../images/screenshots/800x600/geonetwork/metadata-and-templates.png
 
 Choose all standards and click ``load samples`` and then ``load templates`` in
 order to load examples:
 
-.. figure:: :: ../../images/screenshots/800x600/geonetwork//templates.png
+.. figure:: ../../images/screenshots/800x600/geonetwork//templates.png
 
 
 Go back to the search page to see examples:

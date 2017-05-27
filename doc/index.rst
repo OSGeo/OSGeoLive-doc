@@ -5,10 +5,14 @@
 .. toctree::
    :hidden:
 
-   ca/index
+   en/index
+   contributors
+   translators
+   osgeo_contact
+
+..   ca/index
    de/index
    el/index
-   en/index
    es/index
    fr/index
    id/index
@@ -17,6 +21,4 @@
    ko/index
    pl/index
    zh/index
-   contributors
-   translators
-   osgeo_contact
+

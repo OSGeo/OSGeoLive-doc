@@ -1,4 +1,7 @@
-.. csv-table::
+
+.. ERROR:: TODO add csv-table
+
+.. csv-table
     :header-rows: 1
     :file: contributors.csv
     :delim: ,
