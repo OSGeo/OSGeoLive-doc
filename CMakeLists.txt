@@ -89,10 +89,10 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 # English is allways built
 #---------------------------------------------
 # Languages to be used
-set(OSGeoLiveDoc_VALID_LANGUAGES "ca"  "de"  "el"  "es"  "fr"  "hu"  "id"  "it"  "ja"  "ko"  "pl"  "ru"  "zh")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "el"  "es"  "fr"  "hu"  "id"  "it"  "ja"  "ko"  "pl"  "ru"  "zh")
 set(OSGeoLiveDoc_ENGLISH "en")
 
-foreach(lang ${OSGeoLiveDoc_VALID_LANGUAGES})
+foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
     string(TOUPPER ${lang} val)
     option(${val}
         "Set ON|OFF (default=OFF) build ${lang} Documentation" OFF)
@@ -100,7 +100,7 @@ foreach(lang ${OSGeoLiveDoc_VALID_LANGUAGES})
 endforeach()
 
 
-foreach(lang ${OSGeoLiveDoc_VALID_LANGUAGES})
+foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
     string(TOUPPER ${lang} opt)
     if (${opt})
         list(APPEND OSGeoLiveDoc_LANGUAGES ${lang})
@@ -108,7 +108,14 @@ foreach(lang ${OSGeoLiveDoc_VALID_LANGUAGES})
 endforeach()
 
 message("STATUS OSGeoLiveDoc_LANGUAGES = ${OSGeoLiveDoc_LANGUAGES}")
-#message(FATAL_ERROR "foo")
+
+
+set(OSGeoLiveDoc_INSTALLED_LANGUAGES ${OSGeoLiveDoc_ENGLISH})
+foreach (lang ${OSGeoLiveDoc_LANGUAGES})
+    set(OSGeoLiveDoc_INSTALLED_LANGUAGES "${OSGeoLiveDoc_INSTALLED_LANGUAGES}, ${lang}")
+endforeach()
+
+message(STATUS "OSGeoLiveDoc_INSTALLED_LANGUAGES = ${OSGeoLiveDoc_INSTALLED_LANGUAGES}")
 
 
 

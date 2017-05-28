@@ -9,9 +9,15 @@ foreach (l ${OSGeoLiveDoc_ENGLISH} ${OSGeoLiveDoc_LANGUAGES})
     add_subdirectory(${l})
 endforeach()
 
+#TODO index contents depends on configuration
+configure_file("translators.rst" "translators.rst")
+configure_file("osgeo_contact.rst" "osgeo_contact.rst")
+configure_file("contributors.rst" "contributors.rst")
+configure_file("index.rst" "index.rst")
+configure_file("conf.py.in" "conf.py" @ONLY)
 
-# Always define the target
-
+add_subdirectory(themes)
+add_subdirectory(static)
 
 
 
@@ -20,14 +26,6 @@ set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 set(SPHINX_CACHE_DIR "${CMAKE_CURRENT_BINARY_DIR}/_doctrees")
 
 file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
-file(COPY "themes" DESTINATION "${SPHINX_BUILD_DIR}")
-file(COPY "static" DESTINATION "${SPHINX_BUILD_DIR}")
-configure_file("conf.py.in" "${SPHINX_BUILD_DIR}/conf.py" @ONLY)
-#TODO index contents depends on configuration
-configure_file("translators.rst" "translators.rst")
-configure_file("osgeo_contact.rst" "osgeo_contact.rst")
-configure_file("contributors.rst" "contributors.rst")
-configure_file("index.rst" "index.rst")
 
 
 # Internal variables.
@@ -53,7 +51,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             -d "${SPHINX_CACHE_DIR}"
 
             # Where the conf.py is located
-            -c "${SPHINX_BUILD_DIR}"
+            -c "${CMAKE_CURRENT_BINARY_DIR}"
 
             # the location of the documentation to be build
             "${CMAKE_CURRENT_BINARY_DIR}"
