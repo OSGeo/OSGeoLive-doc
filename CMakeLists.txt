@@ -58,7 +58,7 @@ option(DIRHTML
     "Set ON|OFF (default=OFF) to build Documentation library tree as PDF" OFF)
 
 option(PICKLE
-    "Set ON|OFF (default=ON) to build Documentation library tree as HTML" ON)
+    "Set ON|OFF (default=ON) to build Documentation library tree as HTML" OFF)
 
 option(JSON
     "Set ON|OFF (default=ON) to build Documentation library tree as MAN page" OFF)
@@ -108,15 +108,6 @@ foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
 endforeach()
 
 message("STATUS OSGeoLiveDoc_LANGUAGES = ${OSGeoLiveDoc_LANGUAGES}")
-
-
-set(OSGeoLiveDoc_INSTALLED_LANGUAGES ${OSGeoLiveDoc_ENGLISH})
-foreach (lang ${OSGeoLiveDoc_LANGUAGES})
-    set(OSGeoLiveDoc_INSTALLED_LANGUAGES "${OSGeoLiveDoc_INSTALLED_LANGUAGES}, ${lang}")
-endforeach()
-
-message(STATUS "OSGeoLiveDoc_INSTALLED_LANGUAGES = ${OSGeoLiveDoc_INSTALLED_LANGUAGES}")
-
 
 
 

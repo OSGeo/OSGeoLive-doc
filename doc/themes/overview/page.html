@@ -22,22 +22,11 @@
 			<a href="../../id/index.html">Bahasa Indonesia</a> |
 			<a href="../../ko/index.html">한국어</a> |
 			<a href="../../ja/index.html">日本語</a>
+			<a href="javascript:defaultRedirect('en')">English</a>
 		-->
 		<!-- geo-order: West to East, UK to Japan -->
-			<a href="javascript:defaultRedirect('en')">English</a> |
-<!--			<a href="javascript:defaultRedirect('pt')">Portugus</a> | -->
-			<a href="javascript:defaultRedirect('es')">Español</a> |
-			<a href="javascript:defaultRedirect('ca')">Català</a> |
-			<a href="javascript:defaultRedirect('fr')">Français</a> |
-			<a href="javascript:defaultRedirect('de')">Deutsch</a> |
-			<a href="javascript:defaultRedirect('it')">Italiano</a> |
-			<a href="javascript:defaultRedirect('pl')">Polski</a> |
-			<a href="javascript:defaultRedirect('el')">Ελληνικά</a> |
-			<a href="javascript:defaultRedirect('ru')">Русский</a> |
-			<a href="javascript:defaultRedirect('zh')">中文</a> |
-<!--			<a href="javascript:defaultRedirect('id')">Bahasa Indonesia</a> | -->
-			<a href="javascript:defaultRedirect('ko')">한국어</a> |
-			<a href="javascript:defaultRedirect('ja')">日本語</a>
+            <a href="{{ pathto('en/index') }}">English</a>
+            ${OSGeoLiveDoc_LANGUAGES_BAR}
 		</div>
 	</font>
     </div>
@@ -63,6 +52,7 @@
 {% block relbar1 %}
     {%- if pagename != 'index' %}{{ customrelbar(True) }}{% endif %}
 {% endblock %}
+
 {%- block relbar2 %}
     {%- if pagename != 'index' %}{{ customrelbar(True) }}{% endif %}
 {% endblock %}

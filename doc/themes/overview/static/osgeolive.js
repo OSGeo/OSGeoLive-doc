@@ -47,7 +47,9 @@ var redirectFromUrlToLang = function(url, lang) {
     } else {
         language = lang.toLowerCase();
     }
-    var pathName = url.pathname;
+    if (false === isLanguageSupported(language)) return;
+
+    var pathName = url.href;
     
     var currentContext = createContextObject(pathName);
 
