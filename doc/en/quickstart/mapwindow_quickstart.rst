@@ -17,6 +17,7 @@
 =======================
 1. MapWindow GIS Lite
 =======================
+
 .. image:: /images/screenshots/1024x768/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
@@ -155,8 +156,8 @@ only a brief explanation is provided here. Note that several functions require t
 a target layer, which is done by clicking it in the legend. You can move the toolbars (click and
 drag at the dotted line). Also several keyboard shortcuts are available.
 
-================================================================================== =================================================================
-================================================================================== =================================================================
+============================================================================= =================================================================
+============================================================================= =================================================================
 .. image:: /images/screenshots/800x600/mapwindow-toolbar-new-map.png          Start with a blank map. Shortcut 'CTRL-N'.
 .. image:: /images/screenshots/800x600/mapwindow-toolbar-load-project.png     Load a project. Shortcut 'CTRL-L'.
 .. image:: /images/screenshots/800x600/mapwindow-toolbar-save.png             Save the current project. Shortcut 'CTRL-S'.
@@ -178,7 +179,7 @@ drag at the dotted line). Also several keyboard shortcuts are available.
 .. image:: /images/screenshots/800x600/mapwindow-toolbar-measure.png          After selecting this button, click on the map to measure distances. Shortcut: 'm' key, also toggles between distance and area.
 .. image:: /images/screenshots/800x600/mapwindow-toolbar-measure-area.png     After selecting this button, click on the map to measure areas. Shortcut: 'm' key, also toggles between distance and area.
 .. image:: /images/screenshots/800x600/mapwindow-toolbar-select.png           Select shapes by rectangle from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. You can also select by hand-drawn polygon.
-================================================================================== =================================================================
+============================================================================= =================================================================
 
 ==============================
 3. Producing a Map for Export
@@ -299,8 +300,8 @@ This makes the editor much more stable and responsive. It can also handle much l
 
 The editor toolbar has several buttons which will be briefly explained below:
 
-================================================================================== =================================================================
-================================================================================== =================================================================
+============================================================================= =================================================================
+============================================================================= =================================================================
 .. image:: /images/screenshots/800x600/mapwindow-editor-start.png             Start editing the shapefile.
 .. image:: /images/screenshots/800x600/mapwindow-editor-save.png              Save your changes to the shapefile.
 .. image:: /images/screenshots/800x600/mapwindow-editor-vector-create.png     Draw a new shape.
@@ -316,7 +317,7 @@ The editor toolbar has several buttons which will be briefly explained below:
 .. image:: /images/screenshots/800x600/mapwindow-editor-paste.png             Paste a new shape.
 .. image:: /images/screenshots/800x600/mapwindow-editor-undo.png              Undo last action.
 .. image:: /images/screenshots/800x600/mapwindow-editor-redo.png              Redo last action.
-================================================================================== =================================================================
+============================================================================= =================================================================
 
 
 +++++++++++++++++++++++++++++++
