@@ -4,7 +4,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver-2.png
+.. image:: /images/project_logos/logo-eoxserver-2.png
   :scale: 65 %
   :alt: project logo
   :align: right
@@ -38,7 +38,7 @@ See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`, the
 EOxServer documentation <https://eoxserver.readthedocs.org/>`_ for more
 information.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
+.. image:: /images/screenshots/1024x768/eoxserver_documentation.png
   :scale: 50 %
   :alt: EOxServer documentation
 
@@ -48,7 +48,7 @@ Demonstration Instance
 The icon labeled `EOxServer` filed under `Web Services` launches a browser 
 showing the demonstration instance available at http://localhost/eoxserver/
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_start.png
+.. image:: /images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
   :alt: EOxServer demonstration start
 
@@ -59,7 +59,7 @@ The **Web Client** link opens the integrated EOxServer client. Within this
 client you can explore the contents of the EOxServer instance. In the
 demonstration instance is filled with ENVISAT MERIS scenes.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient1.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient1.png
   :scale: 50 %
   :alt: Main view of the EOxServer Web Client
 
@@ -70,7 +70,7 @@ On the bottom, you'll find the timeslider widget, that allows you to explore the
 contents in the temporal dimension. Each dataset is displayed as a small filled
 dot 
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
@@ -82,7 +82,7 @@ only reappears once a layer dataset layer is enabled.
 The Tools widget provides three different tools: the Bounding Box Selection Tool,
 the Selection Management Tool and the Download Tool.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
@@ -91,14 +91,14 @@ and select a time of interest by drawing on the area containing the red dots.
 You can also hover on a dot to see the dataset ID. By clicking on the dot, the
 map automatically zooms to the extent of the dataset.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
 When the Bounding Box Tool is enabled, you can draw a bounding box directly on
 the map. The bounding box is used for querying within the Download Tool.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient5.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
@@ -118,7 +118,7 @@ Admin Client
 The **Admin Client** link brings you to the login page for the `Admin 
 Client`. The password for the user `admin` is `admin`.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient1.png
+.. image:: /images/screenshots/1024x768/eoxserver_adminclient1.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client login
 
@@ -127,14 +127,14 @@ available data. Please feel free to explore the client. More information can
 be found in the `operators' guide 
 <https://eoxserver.readthedocs.org/en/latest/users/operators.html>`_.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient2.png
+.. image:: /images/screenshots/1024x768/eoxserver_adminclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client start
 
 You can, for example, inspect the dataset series that is loaded by default by
 navigating to "Dataset Series" and then to "MER_FRS_1P_RGB_reduced".
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
+.. image:: /images/screenshots/1024x768/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client Dataset Series
 
@@ -142,7 +142,7 @@ Here you can also see the included datasets. If you feel like it, you can
 exclude single datasets using the "delete" checkbox on the right and click on
 "Save".
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient4.png
+.. image:: /images/screenshots/1024x768/eoxserver_adminclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client Dataset Series Management
 

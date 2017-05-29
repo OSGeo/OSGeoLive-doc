@@ -3,7 +3,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -108,7 +108,7 @@ Moreover the application can work in two different modes:
 * Vector mode: segment larger images and produces a vector file where each
         segment of the segmentation is represented by a polygon
 
-  .. image:: ../../images/screenshots/800x600/otb-meanshift-lsat7.png
+  .. image:: /images/screenshots/800x600/otb-meanshift-lsat7.png
 
 OTB includes also a framework to perform tile-wise segmentation of very large
 image with theoretical guarantees of getting identical results to those without
@@ -122,7 +122,7 @@ OTB in QGis
 
 The same set of OTB applications can also be used from the Processing -> Toolbox menu in QGis. The applications are sorted by tag.
 
-  .. image:: ../../images/screenshots/800x600/otb-processing-qgis.png
+  .. image:: /images/screenshots/800x600/otb-processing-qgis.png
 
 
 Developing with OTB

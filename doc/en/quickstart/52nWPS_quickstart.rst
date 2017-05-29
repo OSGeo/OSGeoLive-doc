@@ -2,7 +2,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -25,7 +25,7 @@ Running
 
 * The 52n WPS welcome page will appear. 
 
-  .. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
+  .. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
     :scale: 70 %
     :alt: screenshot
 
@@ -41,7 +41,7 @@ Process data
 
 * Click on the link to open the 52nWPS-TestClient. 
 
-  .. image:: ../../images/screenshots/800x600/52nWPS_welcome_page_2.png
+  .. image:: /images/screenshots/800x600/52nWPS_welcome_page_2.png
     :scale: 70 %
     :alt: screenshot
 
@@ -51,7 +51,7 @@ Process data
 
 * Select the example request "SimpleBuffer_out_wfs.xml" from the dropdown list:
   
-  .. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+  .. image:: /images/screenshots/800x600/52nWPS_test_client.png
     :scale: 70 %
     :alt: screenshot
   
@@ -60,7 +60,7 @@ Process data
   generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
   the result in GeoServer. 
 
-  .. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+  .. image:: /images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
     :scale: 70 %
     :alt: screenshot
   
@@ -68,7 +68,7 @@ Process data
   following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
   You should get the following result:
 
-  .. image:: ../../images/screenshots/800x600/52nWPS_result_in_geoserver.png
+  .. image:: /images/screenshots/800x600/52nWPS_result_in_geoserver.png
     :scale: 70 %
     :alt: screenshot
 

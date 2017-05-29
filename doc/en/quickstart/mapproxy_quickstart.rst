@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
@@ -13,7 +13,7 @@ MapProxy Quickstart
 MapProxy is *the* swiss army knife for all WMS and tile services.
 It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client.
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
@@ -41,7 +41,7 @@ You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The servic
 
 The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer. 
 
-.. figure:: ../../images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/800x600/mapproxy_udig.png
   :alt: MapProxy example in uDig
   :align: center
   

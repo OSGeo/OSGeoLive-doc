@@ -4,7 +4,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -34,7 +34,7 @@ Imagelinker
 * Repeat the previous operation for the files : `clip20.tif`
   and `clip30.tif`
 
-  .. image:: ../../images/screenshots/1024x768/ossim_imagelinker3.jpg
+  .. image:: /images/screenshots/1024x768/ossim_imagelinker3.jpg
      :scale: 60 %
      :align: right
 

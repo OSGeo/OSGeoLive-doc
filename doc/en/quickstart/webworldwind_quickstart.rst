@@ -4,7 +4,7 @@
 
 
 
-.. image:: ../../images/project_logos/logoNasaWWW.png
+.. image:: /images/project_logos/logoNasaWWW.png
   :alt: project logo
   :align: right
   :target: http://webworldwind.org/

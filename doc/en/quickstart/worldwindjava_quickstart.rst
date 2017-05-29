@@ -4,7 +4,7 @@
 
 
 
-.. image:: ../../images/project_logos/logoNasaJWW.png
+.. image:: /images/project_logos/logoNasaJWW.png
   :alt: project logo
   :align: right
   :target: http://goworldwind.org/

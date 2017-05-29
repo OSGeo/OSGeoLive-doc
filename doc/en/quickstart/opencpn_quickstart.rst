@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-opencpn.png
+.. image:: /images/project_logos/logo-opencpn.png
   :scale: 75 %
   :alt: project logo
   :align: right

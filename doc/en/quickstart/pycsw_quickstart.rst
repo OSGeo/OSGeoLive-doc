@@ -3,13 +3,13 @@
 :Version: osgeo-live7.0-draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -113,27 +113,27 @@ Tester Application
 
 To run the pycsw tester, use the pycsw launcher from the Web Services group, or open Firefox and navigate to ``http://localhost/pycsw/tester/index.html``:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_startup.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_startup.png
   :scale: 75 %
 
 By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw: 
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_selection.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_selection.png
   :scale: 75 %
 
 For example, by selecting "apiso/DescribeRecord", and pushing the "Send" button, a description of the ISO Application Profile record is presented on the right panel:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
 By selecting "GetCapabilities-SOAP" and pushing the "Send" button, a SOAP request is sent to the server to advertise their web service capabilities:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
 Also, the user can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
 The user can go through all the available requests and perform various requests from this testing application.
@@ -159,12 +159,12 @@ Metadata files for a spatial dataset or a spatial web service can be created thr
 
 The user fills the mandatory metadata fields going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country) etc. 
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 % 
 
 After the user has added all the information available, must push the validation button on top of the page, so that a check to be performed for consistency with the INSPIRE directive. 
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_save_metadata.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_save_metadata.png
   :scale: 75 %
 
 After a sucessful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser.
@@ -184,7 +184,7 @@ To install the application, use the following commands from a terminal:
 
 The user can follow the same workflow as in EUOSME to add and edit metadata, without the need for an internet connection.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_gimed.png
+.. image:: /images/screenshots/1024x768/pycsw_gimed.png
   :scale: 75 %
 
 
@@ -268,32 +268,32 @@ QGIS CSW Plugin
 
 Start QGIS from the Desktop GIS group and go to "Manage Plugins"
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin.png
   :scale: 75 %
 
 Enable the CSW plugin from the list
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
   :scale: 75 %
 
 Then select the CSW button from the toolbar and launch CSW Client
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
   :scale: 75 %
 
 Add the pycsw server by pressing the "New" button and type in ``http://localhost/pycsw/csw.py``
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
   :scale: 75 %
 
 The user can add some default servers using the "Add default servers" button and also get the capabilities of the server using "Server info" button
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
   :scale: 75 %
 
 Perform search using the catalogue, either by a string value or with a bounding box
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
 Data Discovery through GeoExt
@@ -312,7 +312,7 @@ For this tutorial we have hacked a small demonstration in GeoExt (thanks `Bart v
 - Click the "add to map" icon beside the last result on that result set ("1 Million Scale - Airports")
 - See layer added to map panel
 
-.. image:: ../../images/screenshots/1024x768/pycsw_client_gxp.png
+.. image:: /images/screenshots/1024x768/pycsw_client_gxp.png
   :scale: 60 %
 
 Tester Application
@@ -320,7 +320,7 @@ Tester Application
 
 Discovery of data can be also performed through the Tester application by setting the appropriate requests eg. any text search with the string "imagery" leads to discovering the xml data created previously by EUOSME
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_discovery.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_discovery.png
   :scale: 75 %
 
 For more information on pycsw, please consult the `documentation`_ on the pycsw website.
