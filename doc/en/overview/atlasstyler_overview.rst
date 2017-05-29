@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-AtlasStyler.png
+.. image:: /images/project_logos/logo-AtlasStyler.png
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler
@@ -19,7 +19,7 @@ Feature Style Editor
 
 The created SLD files are compatible with all programs which support the OGC SLD standard, including :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` and others. The application provides a multitude of intuitive dialogs to simplify style creation. Users can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally users have integrated access to an online symbol-database. Users can create and save symbols in the SymbolEditor and reused in classifications or other projects.
 
-.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

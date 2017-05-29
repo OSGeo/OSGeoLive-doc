@@ -4,7 +4,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver.png
+.. image:: /images/project_logos/logo-eoxserver.png
   :alt: project logo
   :align: right
   :target: https://eoxserver.readthedocs.org/
@@ -28,7 +28,7 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
 <gdal_overview>`, PROJ.4, and a :doc:`SpatiaLite <spatialite_overview>` or
 :doc:`PostGIS <postgis_overview>` database.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right

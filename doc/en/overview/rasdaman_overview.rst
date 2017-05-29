@@ -5,7 +5,7 @@
 
 .. _rasdaman-overview:
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
   :alt: project logo
   :align: right
   :target: http://www.rasdaman.org
@@ -22,7 +22,7 @@ In addition to the raster query language, rasdaman supports OGC's WMS, WCS, WCPS
 
 Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational for more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers.
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :alt: rasdaman screenshot collage
   :align: right

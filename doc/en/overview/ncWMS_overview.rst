@@ -3,7 +3,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncWMS.png
+.. image:: /images/project_logos/logo-ncWMS.png
  :alt: project logo
  :align: right
  :target: http://www.resc.rdg.ac.uk/trac/ncWMS/
@@ -16,7 +16,7 @@ Web Map Service
 
 ncWMS publishes multi-dimensional data (such as environmental and weather data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and efficiently extracts the map images from the very the large data files typically associated with environmental data.
 
-.. image:: ../../images/screenshots/1024x768/ncWMS-03-timeseries.png
+.. image:: /images/screenshots/1024x768/ncWMS-03-timeseries.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

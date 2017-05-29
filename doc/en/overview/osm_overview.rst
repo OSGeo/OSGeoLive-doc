@@ -4,7 +4,7 @@
 :Version: osgeo-live11.0
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.openstreetmap.org
@@ -30,7 +30,7 @@ the FOSS4G host city and a number of JOSM plugins have been included.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -3,7 +3,7 @@
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/
@@ -20,7 +20,7 @@ GeoKettle enables the Extraction of data from data sources, the Transformation o
 
 In the geospatial domain, Geokettle compares to FME, a proprietary spatial ETL tool. GeoKettle is stable, fast, standards compliant, with hundreds of functions and read/write support for many file formats, services and DBMS. GeoKettle is used by diverse organisations from around the world, including governmental agencies, banks, insurance and geospatial system integrators.
 
-.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

@@ -6,13 +6,13 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -31,7 +31,7 @@ OpenLayers3 is a complete rewrite the previous robust and widely deployed
 OpenLayers2 library. They both offer an extensive set of features that cover
 basic to advanced web mapping and GIS requirements.
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/800x600/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right
