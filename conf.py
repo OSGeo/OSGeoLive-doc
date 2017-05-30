@@ -277,7 +277,7 @@ rst_epilog="""
 .. |version-ncWMS| replace:: 1.2
 .. |version-opencpn| replace:: 4.2.0
 .. |version-openjump| replace:: 1.10.0
-.. |version-openlayers| replace:: 3.13.1
+.. |version-openlayers| replace:: 4.1.1
 .. |version-osgearth| replace:: 2.5.0
 .. |version-ossim| replace:: 1.8.20-3
 .. |version-otb| replace:: 5.8.0
