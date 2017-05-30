@@ -23,7 +23,7 @@ Metadata Catalog
 
 GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards.
 
-.. image:: ../../images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
+.. image:: ../../images/screenshots/1024x768/geonetwork_once-samples-are-loaded.png
   :alt: Geonetwork after samples are loaded
   :scale: 50%
   :align: right
@@ -71,5 +71,5 @@ Details
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`
