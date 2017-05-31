@@ -44,7 +44,6 @@ script:
   - cd build
   - cmake -DHTML=ON ..
   - make html
-  - rm -rf *
   - cmake -DLOCALE=ON ..
   - make locale
 
