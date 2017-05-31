@@ -67,5 +67,5 @@ For more information
 To sponsor OSGeo or discuss sponsorship opportunities further,
 please contact:
 
-.. include :: ../osgeo_contact.rst
+.. include :: osgeo_contact.rst
 

@@ -61,9 +61,9 @@ providing Virtual Machines for building the OSGeoLive iso images.
 
 Contributors
 ================================================================================
-.. include :: ../contributors.rst
+.. include :: contributors.rst
 
 Translators
 ================================================================================
-.. include :: ../translators.rst
+.. include :: translators.rst
 
