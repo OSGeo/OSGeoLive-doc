@@ -182,6 +182,10 @@ html_last_updated_fmt = '%b %d, %Y'
 htmlhelp_basename = '%sdoc' % project
 
 
+# -- Options for locale output --------------------------------------------------
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
+
 # -- Options for LaTeX output --------------------------------------------------
 
 latex_elements = {

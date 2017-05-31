@@ -1,13 +1,20 @@
 
+SET(LOCAL
+    #"make.bat"
+    "standards.rst"
+    "toc.rst")
 
 foreach (f ${OSGeoLiveDoc_STANDARDS} )
-    message(STATUS "        Adding file ${f}_overview.rst")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "        Adding file ${f}_overview.rst")
+    endif()
     configure_file("${f}_overview.rst" "${f}_overview.rst")
 endforeach()
 
-SET(LOCAL "make.bat"  "standards.rst" "toc.rst")
 
 foreach (f ${LOCAL} )
-    message(STATUS "        Adding file ${f}")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "        Adding file ${f}")
+    endif()
     configure_file("${f}" "${f}")
 endforeach()

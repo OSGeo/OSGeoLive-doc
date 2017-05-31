@@ -4,10 +4,7 @@
 # Adding the languages directories
 #---------------------------------------------
 
-foreach (l ${OSGeoLiveDoc_ENGLISH} ${OSGeoLiveDoc_LANGUAGES})
-    message(STATUS "Adding Language= ${l}")
-    add_subdirectory(${l})
-endforeach()
+add_subdirectory(en)
 
 #TODO index contents depends on configuration
 configure_file("translators.rst" "translators.rst")
@@ -19,36 +16,38 @@ configure_file("conf.py.in" "conf.py" @ONLY)
 add_subdirectory(themes)
 add_subdirectory(static)
 
+file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
-set(SPHINX_CACHE_DIR "${CMAKE_CURRENT_BINARY_DIR}/_doctrees")
-
-file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 
 
 # Internal variables.
 option(LATEX_PAPER_SIZE
     "Set a4|letter (default=letter) paper size" "letter")
 
-option(SPHINX_OPTS
+option(SPHINX_OPTIONS
     "Set Sphinx options (default are sphinx defaults)"  "")
 
 set(LATEX_PAPER_SIZE " -D latex_paper_size=${LATEX_PAPER_SIZE}")
 
+add_custom_target(doc 
+    COMMENT "Building documentation with Sphinx")
 
 foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
     add_custom_target(${target} ALL
-        DEPENDS
-        ${OSGeoLiveDoc_INSTALLED_FILES}
-        )
+        COMMENT "Building documentation with Sphinx")
+
     foreach (lang ${OSGeoLiveDoc_ENGLISH} ${OSGeoLiveDoc_LANGUAGES})
+
+        add_custom_target(${target}-${lang} ALL
+            COMMENT "Building ${DOC_TARGET}/${lang} documentation with Sphinx")
+
         add_custom_command(
-            TARGET ${target} POST_BUILD
+            TARGET ${target}-${lang} POST_BUILD
             COMMAND ${SPHINX_EXECUTABLE}
             -b ${target} 
-            -d "${SPHINX_CACHE_DIR}"
 
             # Where the conf.py is located
             -c "${CMAKE_CURRENT_BINARY_DIR}"
@@ -58,8 +57,31 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
             #where the documentations is written
             "${CMAKE_CURRENT_BINARY_DIR}/${target}"
-            COMMENT "Generating ${target} documentation ...")
+            COMMENT "Generating ${target}/${lang} documentation ...")
 
+        add_dependencies("${target}" "${target}-${lang}")
     endforeach()
+        add_dependencies(doc "${target}")
 endforeach()
 
+
+if (LOCALE)
+    add_custom_target(locale ALL
+        COMMENT "Building documentation with Sphinx")
+    add_custom_command(
+        TARGET locale POST_BUILD
+
+        COMMAND ${SPHINX_EXECUTABLE} 
+        -b gettext
+        -c "${CMAKE_CURRENT_BINARY_DIR}"
+
+        # the location of the documentation to be build
+        "${CMAKE_CURRENT_BINARY_DIR}"
+
+        "${SPHINX_BUILD_DIR}/gettext"
+
+
+        COMMENT "Generating pot and po files for ${OSGeoLiveDoc_LOCALE_LANG} ...")
+
+    add_dependencies(doc locale)
+endif()

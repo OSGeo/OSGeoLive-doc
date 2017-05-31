@@ -6,7 +6,9 @@
 
 # over view only projects
 foreach (f ${OSGeoLiveDoc_OVERVIEW})
-    message(STATUS "        Adding overview ${f}")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "        Adding overview ${f}")
+    endif()
     configure_file("${f}_overview.rst" "${f}_overview.rst")
 endforeach()
 
@@ -15,6 +17,8 @@ set(LOCAL
     "overview.rst")
 
 foreach (f ${LOCAL} )
-    message(STATUS "        Adding file ${f}")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "        Adding file ${f}")
+    endif()
     configure_file("${f}" "${f}")
 endforeach()

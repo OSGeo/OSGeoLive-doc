@@ -1,17 +1,23 @@
 
-set (LOCAL "toc.rst" "make.bat")
+set (LOCAL
+    "toc.rst"
+    "make.bat")
 
 #---------------------------------------------
 # Adding the *_quickstarts
 #---------------------------------------------
 
 foreach (f ${OSGeoLiveDoc_QUICKSTART})
-    message(STATUS "        Adding project ${f}")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "        Adding project ${f}")
+    endif()
     configure_file("${f}_quickstart.rst" "${f}_quickstart.rst")
 endforeach()
 
 foreach (f ${LOCAL})
-    message(STATUS "        Adding file ${f}")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "        Adding file ${f}")
+    endif()
     configure_file("${f}" "${f}")
 endforeach()
 
