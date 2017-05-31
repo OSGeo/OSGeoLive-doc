@@ -34,7 +34,7 @@ message(STATUS "SPHINX_OPTS=${SPHINX_OPTS}")
 
 set(LATEX_PAPER_SIZE " -D latex_paper_size=${LATEX_PAPER_SIZE}")
 
-add_custom_target(doc 
+add_custom_target(doc
     COMMENT "Building documentation with Sphinx")
 
 foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
@@ -50,7 +50,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             TARGET "${target}-${lang}" POST_BUILD
             COMMAND ${SPHINX_EXECUTABLE}
 
-            -b ${target} 
+            -b ${target}
             -c "${CMAKE_CURRENT_BINARY_DIR}"
 
 
@@ -73,7 +73,7 @@ if (LOCALE)
     add_custom_command(
         TARGET locale POST_BUILD
 
-        COMMAND ${SPHINX_EXECUTABLE} 
+        COMMAND ${SPHINX_EXECUTABLE}
         -b gettext
         -c "${CMAKE_CURRENT_BINARY_DIR}"
 
@@ -87,7 +87,7 @@ if (LOCALE)
         -p  "${SPHINX_BUILD_DIR}/gettext/pot"
         -d  "${SPHINX_BUILD_DIR}/gettext"
         --language=${SPHINXINTL_LANGUAGE}
-        
+
 
 
         COMMENT "Generating pot files for ${OSGeoLiveDoc_LOCALE_LANG} ...")
@@ -95,6 +95,10 @@ if (LOCALE)
 
     message(STATUS
         "*******************************
+        after:
+
+        make locale
+
         POST PROCESSING
         NOT AUTOMATICALLY DONE YET
         GO TO root/of/repo/locale

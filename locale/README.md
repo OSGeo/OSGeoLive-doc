@@ -11,17 +11,18 @@ make locale
 
 list pot files
 ```
-ls doc/_build/gettext
+ls -R doc/_build/gettext/pot
 ```
 
-build the locale files
+list A language po files
 ```
-sphinx-intl update -p doc/_build/gettext -d doc/_build/locale -l es,en 
+ls -R doc/_build/gettext/es
 ```
-
-Currently the setup is for `en` and `es`
 
 ## Change only what is needed
+
+See the section **Which resources need change** before continuing.
+
 
 * Copy the pot files that changed and all the corresponding po files in other languages
 
@@ -56,7 +57,7 @@ rm -rf *
 cmake  -DWITH_DOC=ON -DBUILD_HTML=ON ..
 ```
 
-## Which resources need change:
+# Which resources need change:
 
 The translation strings are in the po files.
 The Engish transtlations should not change unless the documentation changed
@@ -65,10 +66,11 @@ The Engish transtlations should not change unless the documentation changed
 
 Check the English differences with the commited files
 ```
-diff -r doc/_build/locale/en ../locale/en
+diff -r doc/_build/gettext/en ../locale/en
 ```
 
-Sample output on a file:
+There might be no difference or the only difference is the creation date:
+Sample dff on a file that has not changed output on a file:
 ```
 diff -r doc/_build/locale/en/LC_MESSAGES/withPoints-family.po ../locale/en/LC_MESSAGES/withPoints-family.po
 11c11
@@ -77,9 +79,12 @@ diff -r doc/_build/locale/en/LC_MESSAGES/withPoints-family.po ../locale/en/LC_ME
 > "POT-Creation-Date: 2017-05-30 08:27-0500\n"
 ```
 
+TODO: write a script that generates the names of the files that changed
+
+
 ### Other languages
 
-Check the English differences with the commited files
+Check the laguage differences with the commited files
 ```
 diff -r doc/_build/locale/es ../locale/es
 ```
@@ -98,7 +103,7 @@ Sample output on a translated file:
 
 Check the differences with the commited files
 ```
-diff doc/_build/gettext ../locale/pot
+diff -r doc/_build/gettext/pot ../locale/pot
 ```
 
 Sample output on a file:
