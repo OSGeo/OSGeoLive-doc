@@ -74,6 +74,8 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      metrics
      mac_installers
      win_installers
+     MacInstallers
+     WindowsInstallers
 
 
 

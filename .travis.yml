@@ -42,10 +42,10 @@ install:
 script: 
   - mkdir build
   - cd build
-  - cmake -D HTML=ON ..
+  - cmake -DHTML=ON ..
   - make html
   - rm -rf *
-  - cmake -D LOCALE=ON ..
+  - cmake -DLOCALE=ON ..
   - make locale
 
 
