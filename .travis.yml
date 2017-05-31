@@ -7,10 +7,6 @@
 
 group: edge
 dist: trusty    
-sudo: required
-
-
-language: cpp
 
 
 # executed. So things have to be tested oe by one.
@@ -20,7 +16,6 @@ addons:
       - ubuntu-toolchain-r-test
       # For cmake
       - kubuntu-backports
-      - boost-latest
     packages:
       - cmake
       - python-sphinx
@@ -35,6 +30,7 @@ addons:
 
 install:
   - pip install git+https://github.com/sphinx-doc/sphinx@stable
+  - pip install sphinx-intl
 
 #before_script:
 
