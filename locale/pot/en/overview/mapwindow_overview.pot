@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../en/overview/mapwindow_overview.rst:15
+msgid "MapWindow GIS Lite"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:18
+msgid "Desktop GIS"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:20
+msgid "MapWindow GIS is a Windows based, Open Source GIS client where you can visualize, manage, edit, analyse data, and compose printable maps. It includes powerful analytical functions through integration with GEOS and GDAL/OGR (v2). MapWindow is easy to incorporate into MS-Office based products such as MS-Excel and MS-Access, as well as programs written in C++, C#, VB.NET and Delphi, as MapWindow is based upon an ActiveX control called MapWinGIS. MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.5."
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:28
+msgid "The MapWindow Lite version installed on OSGeo-Live doesn't include all MapWindow Desktop functionality (such as toolbox, plug-ins, fully functional shapefile editor, or support for PostGIS)."
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:31
+msgid "MapWindow requires installation on a Microsoft Windows system before it can be run."
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:33
+msgid "Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be downloaded from https://mapwindow4.codeplex.com/releases/view/542097."
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:42
+msgid "Core Features"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:44
+msgid "Friendly graphical user interface:"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:46
+msgid "identify/select features,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:47
+msgid "on the fly projection,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:48
+msgid "feature labeling,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:49
+msgid "change vector and raster symbology,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:50
+msgid "shapefile editor,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:51
+msgid "geodatabase support,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:52
+msgid "and more ..."
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:54
+msgid "Easy viewing of many vector and raster formats:"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:56
+msgid "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:57
+msgid "raster formats such as digital elevation models, aerial photography or landsat imagery,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:58
+msgid "Tiles services, like OpenStreetMap, MapQuest Aerial, Bing Maps."
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:60
+msgid "ActiveX control:"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:0
+msgid "Uses an ActiveX control written in C++. This control can be used in custom"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:0
+msgid "applications written in languages like C#, C++, VB.NET and Delphi,"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:0
+msgid "and can be used in MS-Office products like MS-Access and MS-Excel."
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:67
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:71
+msgid "OGC Standards:"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:69
+msgid "TMS"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:70
+msgid "Web Map Tile Service (WMTS)"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:71
+msgid "GML"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:74
+msgid "Details"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:76
+msgid "**Website:** http://www.mapwindow.org"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:78
+msgid "**Code repository:** https://mapwingis.codeplex.com"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:80
+msgid "**Licence:** MPLv1.1"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:82
+msgid "**Software Version:** MapWindowLite 4.9.5"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:84
+msgid "**Supported Platforms:** Windows (XP or higher)"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:86
+msgid "**API Interfaces:** .NET (C#, VB.NET), C++, Delphi, VBA (MS-Access, MS-Excel)"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:88
+msgid "**Community Support:** http://www.mapwindow.org/documentation/mapwingis4.9/getting_started.html"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:90
+msgid "**Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.org/documentation/mapwindow5/support.html"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:94
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../en/overview/mapwindow_overview.rst:96
+msgid ":doc:`Quickstart documentation <../quickstart/mapwindow_quickstart>`"
+msgstr ""
+

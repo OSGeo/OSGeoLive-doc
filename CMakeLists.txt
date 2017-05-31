@@ -131,14 +131,15 @@ endif()
 
 message(STATUS "OSGeoLiveDoc_LANGUAGES = ${OSGeoLiveDoc_LANGUAGES} ${OSGeoLiveDoc_ENGLISH}")
 
+set (SPHINXINTL_LANGUAGE  ${OSGeoLiveDoc_ENGLISH})
 if(LOCALE)
-    foreach(lang ${OSGeoLiveDoc_ENGLISH} ${OSGeoLiveDoc_LANGUAGES})
-        set(OSGeoLiveDoc_LOCALE_LANG "${OSGeoLiveDoc_LOCALE_LANG} --language=${lang}")
+    foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
+        set(SPHINXINTL_LANGUAGE "${SPHINXINTL_LANGUAGE},${lang}")
     endforeach()
     set(OSGeoLiveDoc_LANGUAGES ${OSGeoLiveDoc_ENGLISH})
 endif()
 
-message(STATUS "OSGeoLiveDoc_LOCALE_LANG = ${OSGeoLiveDoc_LOCALE_LANG}")
+message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
 
 #---------------------------------------------
 #---------------------------------------------

@@ -80,10 +80,26 @@ if (LOCALE)
         # the location of the documentation to be build
         "${CMAKE_CURRENT_BINARY_DIR}"
 
-        "${SPHINX_BUILD_DIR}/gettext"
+        "${SPHINX_BUILD_DIR}/gettext/pot"
+
+        COMMAND
+        sphinx-intl update
+        -p  "${SPHINX_BUILD_DIR}/gettext/pot"
+        -d  "${SPHINX_BUILD_DIR}/gettext"
+        --language=${SPHINXINTL_LANGUAGE}
+        
 
 
         COMMENT "Generating pot files for ${OSGeoLiveDoc_LOCALE_LANG} ...")
+
+
+    message(STATUS
+        "*******************************
+        POST PROCESSING
+        NOT AUTOMATICALLY DONE YET
+        GO TO root/of/repo/locale
+        And read README.md
+        ********************************")
 
     add_dependencies(doc locale)
 endif()

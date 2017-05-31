@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../en/overview/cesium_overview.rst:11
+msgid "Cesium"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:14
+msgid "3D Globes and 2D Maps in a Browser"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:16
+msgid ""
+"Cesium is a JavaScript library for creating 3D globes and 2D maps in a "
+"web browser without any plugins. It uses WebGL for hardware-accelerated "
+"graphics, and is cross-platform, cross-browser, and tuned for dynamic-"
+"data visualization."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:24
+msgid "Core Features"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:25
+msgid "Dynamic Geospatial Visualization:"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:27
+msgid ""
+"Create data-driven, time-dynamic scenes with `CZML "
+"<https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:28
+msgid "Visualize high-resolution worldwide terrain."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:29
+msgid ""
+"Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri "
+"standards."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:30
+msgid "Draw vector data from GeoJSON and TopoJSON."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:31
+msgid "Draw 3D models using COLLADA and glTF."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:32
+msgid "Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:34
+msgid "Built for Performance and Precision:"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:36
+msgid ""
+"Optimized WebGL with batching and culling efficiently uses hardware-"
+"accelerated graphics."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:37
+msgid ""
+"Draw a wide range of geometries including polylines, polygons, "
+"billboards, labels, extrusions, and corridors."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:38
+msgid "Control the camera and create flight paths."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:39
+msgid ""
+"Use standard widgets to control animation time, select imagery layers, "
+"and zoom to a location."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:41
+msgid "One API, Three Views:"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:43
+msgid ""
+"Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same "
+"API."
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:46
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:47
+msgid "WMS and WMTS"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:50
+msgid "Details"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:52
+msgid "**Website:** http://cesiumjs.org"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:54
+msgid "**Licence:** Apache 2.0 license"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:56
+msgid "**Software Version:** |version-cesium|"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:58
+msgid ""
+"**Supported Platforms:**  Platform independent, depends only on a browser"
+" which supports WebGL"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:60
+msgid "**Community Support:** Mailing list cesium-dev@googlegroups.com"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:63
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../en/overview/cesium_overview.rst:65
+msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
+msgstr ""
+

@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:12
+msgid "Mapnik Quickstart"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:14
+msgid ""
+"Mapnik is an toolkit for developing mapping applications. Above all "
+"Mapnik is about making beautiful maps. It is easily extensible and "
+"suitable for both desktop and web development."
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:18
+msgid "Mapnik & Python"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:20
+msgid ""
+"Mapnik and its python bindings are installed and ready to be used for "
+"scripting on this machine."
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:22
+msgid ""
+"Creating maps in python is easy with Mapnik. Type `python` on the command"
+" line to enter a python interpreter and try this::"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:35
+msgid ""
+"The above code depends on having an XML stylesheet that Mapnik can read, "
+"defining the layers to read data from and the styles to apply to those "
+"layers. You can create one of these inside QGIS with the Quantumnik "
+"plugin: http://plugins.qgis.org/plugins/quantumnik/"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:41
+msgid "Mapnik & Leaflet"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:43
+msgid ""
+"In addition a basic demo application is available, which highlights using"
+" Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile "
+"scheme."
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:45
+msgid "The demo uses a tileserver designed for Mapnik called \"TileStache\""
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:47
+msgid "More information about TileStache: http://tilestache.org/"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:49
+msgid "To run the demo just follow these steps:"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:51
+msgid ""
+"Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & "
+"TileStache`"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:53
+msgid ""
+"The server should start in a terminal window (which stays open and "
+"outputs basic debugging information)."
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:55
+msgid ""
+"Check to make sure the server is working by requesting a tile from the "
+"server at http://localhost:8012/example/0/0/0.png"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:57
+msgid "Then visit the Leaflet demo application page:"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:59
+msgid ""
+"This page is at `http://localhost/leaflet-demo.html <../../../leaflet-"
+"demo.html>`_"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:63
+msgid "What Next?"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:65
+msgid "Mapnik Tutorials"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:67
+msgid "Follow the tutorials_ to learn more about Mapnik."
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:71
+msgid "Explore files on the DVD"
+msgstr ""
+
+#: ../../../en/quickstart/mapnik_quickstart.rst:73
+msgid "See also the included files_ on this DVD."
+msgstr ""
+

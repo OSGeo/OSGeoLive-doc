@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../en/overview/worldwindjava_overview.rst:12
+msgid "WorldWind Java"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:14
+msgid "Desktop Virtual Globe"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:17
+msgid "WorldWind Java is a virtual globe containing a rich set of features for displaying and interacting with geographic data and representing a wide range of geometric objects."
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:19
+msgid "Thanks to the use of Digital Elevation Models (DEM), it is possible to view topographic features, such as the Grand Canyon or Mount Everest in three dimensions."
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:21
+msgid "Organizations across the world use WorldWind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth."
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:29
+msgid "Core Features"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:31
+msgid "High-performance 3 dimensional Virtual globe API and Software Development Kit (SDK)"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:32
+msgid "Adds 3 dimensional geographic visualization to any application"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:33
+msgid "Runs on Windows, Mac OS X, Linux, iOS and Android"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:34
+msgid "Runs in web pages in Java applets"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:35
+msgid "Accesses a huge collection of high-resolution imagery and terrain from NASA servers"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:36
+msgid "Displays high-resolution imagery, terrain and geographic information from any open-standard public or private source"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:37
+msgid "Large collection of geometric and geographic shapes"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:38
+msgid "Simple to extend and modify"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:39
+msgid "Uses Java and OpenGL"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:41
+msgid "Graphics Capabilities:"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:43
+msgid "Point, Path, Polygon, Curtain"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:44
+msgid "Volumes: Extruded Polygon, Ellipsoid, Sphere, Cylinder, Cone, Pyramid, Box, Airspaces (see below)"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:45
+msgid "Terrain conforming shapes: Path, Polygons, Ellipse, Circle, Quadrilateral, Rectangle, Square, Text, Image, Icon"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:46
+msgid "Airspaces: Box, Cake, Capped Cylinder (full and partial), Curtain, Orbit, PolyArc, Polygon, Route, Sphere, Track"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:47
+msgid "Annotation: Text, Text Balloon, HTML5 web-browser Balloon, Image, Icons, all with geo-located and screen versions"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:48
+msgid "Placenames, Political boundaries"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:49
+msgid "2.5D “Flat Globe” with terrain"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:50
+msgid "Transparency"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:51
+msgid "Picking, Selection"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:52
+msgid "Navigation and Viewing: Orbit View, First Person, Stereo, application-defined"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:53
+msgid "Multiple World Wind windows"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:54
+msgid "Interactive shape editors"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:55
+msgid "2525C Tactical Symbols and Tactical Graphics"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:57
+msgid "Data Formats:"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:59
+msgid "Imagery: JPG, PNG, GeoTIFF, JPEG2000 and many others"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:60
+msgid "Government formats: NITF, MrSID, RPF (CADRG, CIB, etc.), DTED and many others"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:61
+msgid "GIS formats: Shapefile, KML, VPF, GML, GeoJSON, GeoRSS, GPX, NMEA and many others"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:62
+msgid "Coordinate Systems: Lat/Lon, UTM, MGRS."
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:63
+msgid "Datums: WGS84, NAD27 and many others"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:65
+msgid "Analysis Capabilities:"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:67
+msgid "Measurement,  geometric and terrain following"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:68
+msgid "Line of site with high-resolution terrain and shapes"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:69
+msgid "Terrain intersection"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:70
+msgid "Shape interactions"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:73
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:75
+msgid "GML 2.0, 1"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:76
+msgid "KML 2.3, 2.2"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:77
+msgid "WFS 2.0, 1.0"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:78
+msgid "WMS 1.1, 1.3"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:79
+msgid "WMTS 1.0"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:80
+msgid "OWS 1.0"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:83
+msgid "Details"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:85
+msgid "**Website:** http://goworldwind.org/"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:87
+msgid "**Licence:** NASA Open Source Agreement Version 1.3"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:89
+msgid "**Software Version:** |version-worldwindjava|"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:91
+msgid "**Supported Platforms:** Windows, Linux, Mac, Android, iOS"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:93
+msgid "**Forum:** http://forum.worldwindcentral.com/"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:96
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:0
+msgid "doc"
+msgstr ""
+
+#: ../../../en/overview/worldwindjava_overview.rst:98
+msgid "`Quickstart documentation <../quickstart/worldwindjava_quickstart>`_"
+msgstr ""
+

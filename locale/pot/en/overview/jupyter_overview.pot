@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../en/overview/jupyter_overview.rst:13
+msgid "Jupyter Notebook"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:16
+msgid "Mixing rich media in documentation"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:18
+msgid "The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:20
+msgid "It combines two components:"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:34
+msgid "A web application providing browser-based, interactive authoring of notebook documents."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:36
+msgid "Notebook documents which store a representation of all content visible in the web application, including inputs and outputs of computations, explanatory text, mathematics, code, images, videos, graphs, maps, and other rich media representations of objects."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:38
+msgid "Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`_."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:40
+msgid "Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:43
+msgid "Core Features"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:45
+msgid "Create Jupyter notebooks which can contain:"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:47
+msgid "Marked up text (with headings, styles, paragraphs, etc)"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:48
+msgid "Formulas, mathematics, plots, maps, ..."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:49
+msgid "Imported external libraries to add functionality."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:50
+msgid "Code from multiple programming languages, including python, R, Julia, Bash and many more."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:52
+msgid "Jupyter notebooks on OSGeo-Live can use geospatial functions from:"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:54
+msgid "Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, netCDF4, PostgreSQL, psycopg2, R, rpy2, and more."
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:57
+msgid "Details"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:59
+msgid "**Website:** http://jupyter.org/"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:61
+msgid "**Licence:** revised BSD license"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:63
+msgid "**Software Version:** |version-jupyter|"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:65
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:67
+msgid "**API Interfaces:** Python"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:69
+msgid "**Support:**  http://jupyter.org/community.html"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:73
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../en/overview/jupyter_overview.rst:75
+msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
+msgstr ""
+

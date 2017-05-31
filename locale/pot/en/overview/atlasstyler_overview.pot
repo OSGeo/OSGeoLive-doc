@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../en/overview/atlasstyler_overview.rst:13
+msgid "AtlasStyler"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:16
+msgid "Feature Style Editor"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:18
+msgid "`AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application for styling geodata. The resulting styles can be saved as OGC standards compliant SLD/SE files."
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:20
+msgid "The created SLD files are compatible with all programs which support the OGC SLD standard, including :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` and others. The application provides a multitude of intuitive dialogs to simplify style creation. Users can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally users have integrated access to an online symbol-database. Users can create and save symbols in the SymbolEditor and reused in classifications or other projects."
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:28
+msgid "Core Features"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:30
+msgid "Build styles using dialogs."
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:31
+msgid "Based on OGC SLD standard."
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:32
+msgid "Run on Windows,and Linux. (Mac support will need a little funding)."
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:33
+msgid "Import from ESRI Shapefiles, OGC WFS and PostGIS databases (vector data) as well as GeoTIFF and ArcASCII files (raster data)."
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:34
+msgid "Translated into German, English, Italian, Turkish, Russian and French."
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:37
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:39
+msgid "OGC Style Layer Descriptor (SLD) 1.0"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:40
+msgid "OGC Symbology Encoding (SE)"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:43
+msgid "Details"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:45
+msgid "**Website:** http://en.geopublishing.org/AtlasStyler"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:47
+msgid "**Software Version:** 1.9"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:49
+msgid "**Licence:** GNU Lesser General Public License (LGPL) version 3.0"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:51
+msgid "**Supported Platforms:** Windows, Linux"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:53
+msgid "**API Interfaces:** Java, Swing, Geotools"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:55
+msgid "**Support:** `www.wikisquare.de <http://www.wikisquare.de>`_"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:60
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../en/overview/atlasstyler_overview.rst:62
+msgid ":doc:`Quickstart documentation <../quickstart/atlasstyler_quickstart>`"
+msgstr ""
+

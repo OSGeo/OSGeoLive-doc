@@ -1,0 +1,906 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:14
+msgid "Mapbender3 Quickstart"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:16
+msgid "Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:18
+msgid "Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:20
+msgid "Mapbender3 is the next version in the Mapbender series. It is rewritten from the ground up, using modern web technologies. The foundation is laid by Symfony 2, the brand-new version of the successful Symfony PHP web application framework."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:22
+msgid "On the client-side expect to find OpenLayers and jQuery (UI) nicely glued together by MapQuery."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:32
+msgid "With this new code base we will continue the Mapbender idea of being a Geoportal Framework:"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:25
+msgid "Applications can be setup, configured and styled right from within the browser"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:26
+msgid "Services like WMS can be managed inside a service repository and linked to applications"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:27
+msgid "Rights management is easy to maintain, for individual users and groups, whether you store them inside the database or in an LDAP."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:28
+msgid "Search modules (SQL or Solr) can be configured"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:29
+msgid "Applications for digitaliszation can be setup."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:30
+msgid "Mobile template can be used to provide applications for smartphones and tablets"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:34
+msgid "You will need nothing but a standard web browser for this quickstart."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:36
+msgid "This Quick Start describes how to:"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:38
+msgid "start Mapbender"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:39
+msgid "create an application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:40
+msgid "load a Web Map Service (OGC WMS)"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:41
+msgid "configure WMS"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:42
+msgid "create an individual application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:43
+msgid "create a user and a group and assign applications to them"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:45
+msgid "This is how a Mapbender application can look like:"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:52
+msgid "Installation"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:53
+msgid "For the installation of Mapbender3 have a look at http://doc.mapbender3.org/en/book/installation.html."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:57
+msgid "Start Mapbender"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:59
+msgid "Choose  :menuselection:`Mapbender` from the start menu or visit http://localhost/mapbender3/app.php"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:62
+msgid "The application will take a few moments to start up"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:64
+msgid "If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:68
+msgid "Start Mapbender in the developer mode app_dev.php"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:69
+msgid "Symfony offers a developer mode with lot of information about your application (logging, exceptions, database queries, memory usage, time and more). This mode is only available from localhost."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:74
+msgid "Start the developer mode: http://localhost/mapbender3/app_dev.php"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:76
+msgid "Have a look at the information that is offered in the developer mode."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:83
+msgid "Welcome page"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:85
+msgid "The Welcome page lists applications that are public and can be used by all users. The applications are listed with a screenshot, a title and a description."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:87
+msgid "You can open an application by click on the title, the screenshot or the start button."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:89
+msgid "Before you can administrate with Mapbender you have to login to get access to the administration."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:91
+msgid "Click on Login at right-top to open the login page."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:93
+msgid "You can login with the user that was generated on installation. It can be :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender on OSGeo-Live. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root`.)."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:98
+msgid "After successful login you are directed to the :guilabel:`Mapbender administration`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:103
+msgid "Application overview"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:104
+msgid "After the login you are directed to the :guilabel:`Applications` with a list of applications you are allowed to access."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:106
+msgid "The Application overview provides the following functionality:"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:108
+msgid "title and description"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:109
+msgid "screenshot for the application (if provided)"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:110
+msgid "link to the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:111
+msgid "button to duplicate the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:112
+msgid "button to edit the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:113
+msgid "button to publish/unpublish the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:114
+msgid "button to delete the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:115
+msgid "button to create a new application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:116
+msgid "with the filter textfield you can search for applications"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:124
+msgid "Create an individual application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:126
+msgid "Create a new application by providing basic information about your application. After that you use the edit mode to add elements, layers and security."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:128
+msgid "choose :menuselection:`Applications --> New Application`"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:130
+msgid "define a title and description for your application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:132
+msgid "define an URL title which will be used in the URL to open te application. It can be the same as the title"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:134
+msgid "upload an image file as screenshot for the application overview"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:136
+msgid "choose a template for your application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:138
+msgid "choose the button **Create** to create the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:140
+msgid "click the :menuselection:`Edit-Button` at the new application to edit the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:142
+msgid "your application is set up. Now you need a WMS to be displayed in your application. This will be described in the section **WMS Management**."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:147
+msgid "Please note, that the style-, icon- and layoutconfiguration has to be done in css- and twig-files at the moment. Read more about template generation at http://doc.mapbender3.org/en/book/templates.html"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:151
+msgid "Copy or rename an application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:152
+msgid "You also can create a new application by copying an existing application. Every application with write access can be copied. It provides a button to duplicate the application with all the services. The new application will get a derived name which can be changed in the next step."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:156
+msgid "Delete an application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:157
+msgid "You can delete an application from the menu item :menuselection:`Applications` with the :menuselection:`+-button`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:161
+msgid "Export / Import applications and sources"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:162
+msgid "You can export applications as JSON or YAML with :menuselection:`Applications --> Export`. You can chose one or more applications to export and you can also export the sources which are published in the applications."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:167
+msgid "The exportfile contains all the definitions of the application/s (sources) and can be imported via :menuselection:`Applications --> Import` in another Mapbender3 installation or in the same installation."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:174
+msgid "Management of Data Sources"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:175
+msgid "Mapbender can handle different Services like OGC WMS or OGC WMTS or OGC WFS. Every Service has to be handled differently. The administration provides an administration interface for every source (at the moment only WMS)."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:179
+msgid "Service Repository overview"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:181
+msgid "Go to :guilabel:`Services` and have a look at the Service repository."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:183
+msgid "You get an overview on the Sources that are loaded in your Mapbender."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:185
+msgid "Type (f.e WMS, WMTS), Title, Description offer first information about the services."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:187
+msgid "On click on the button :menuselection:`View-Button` you get further information about the source."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:189
+msgid "With the button :menuselection:`Delete-Button` you can delete the source from your repository."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:193
+msgid "Loading Web Map Services"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:194
+msgid "You can load OGC Web Map Services (WMS) to your application."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:196
+msgid "A WMS returns an XML-file when the getCapabilities document is requested. This information is parsed by Mapbender and Mapbender gets all the necessary information about the service from this XML"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:198
+msgid "You should first check the Capabilities document in your browser before you try to load it with Mapbender"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:200
+msgid "Choose menu item :menuselection:`Services --> Add Service` or use the +-Button. Link to the WMS getCapabilities URL in the text field :menuselection:`Serviceurl`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:202
+msgid "Enter username and password if your service needs authentication."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:204
+msgid "Hit **Load** to load the Service to the repository."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:206
+msgid "After successfull registration of the service Mapbender will display an overview on the information that was provided by the service."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:212
+msgid "Here are some example WMS:"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:214
+msgid "Germany workshop demo"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:216
+msgid "http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:218
+msgid "WhereGroup OSM WMS"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:220
+msgid "http://osm-demo.wheregroup.com/service"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:222
+msgid "Omniscale OSM WMS (see also http://osm.omniscale.de/) http://osm.omniscale.net/proxy/service?"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:228
+msgid "Add Service to Application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:229
+msgid "After the successfull upload of a WMS you want to add your WMS to an application."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:231
+msgid "Choose :menuselection:`Applications --> edit-Button --> Layers --> Edit-Button`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:233
+msgid "Click on the :menuselection:`+-button` to add a layerset, which represents a collection of layers (a possible name could be main)"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:235
+msgid "Now you can add layer to the layerset"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:237
+msgid "Click on the :menuselection:`+-button` at your new layerset to add a Service."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:239
+msgid "You can change the order of the Services in your application by drag & drop."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:245
+msgid "Configure your WMS"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:246
+msgid "You can configure the WMS for your specific application. Maybe you don't want to provide all layers or you want to change the order or titles of the layer or disable the feature info or change the maxscale for a layer."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:248
+msgid "Choose :menuselection:`Applications --> edit-Button --> Layers --> edit-Button` to configure the Service Instance."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:250
+msgid "You will see a table with the layers of the Service."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:252
+msgid "You can change the order of the layers via drag & drop"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:257
+msgid "Service configuration"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:259
+msgid "format - choose the format for getMap-Requests"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:260
+msgid "infoformat - choose the format for getFeatureInfo-Requests"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:261
+msgid "exceptionformat - choose the format for exceptions"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:262
+msgid "opacity - choose opacity in percent"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:263
+msgid "visible"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:264
+msgid "basesource"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:265
+msgid "proxy - if active the service will be requested by Mapbender and not directly"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:266
+msgid "transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:267
+msgid "tiled - you can request a WMS in tiles, default is not tiled (may be a good choice if you map is very big an the WMS service does not support the width/height)"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:268
+msgid "BBOX factor"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:269
+msgid "tile buffer"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:271
+msgid "Layer configuration"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:273
+msgid "title - layer title from Service information"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:274
+msgid "active (on/off) - enable/disable a layer for this individual application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:275
+msgid "select on - selectable in geodata explorer"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:276
+msgid "select allow - layer is active when the application starts"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:277
+msgid "info on - layer provides feature info requests, info default activates the feature info functionality"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:278
+msgid "info allow"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:279
+msgid "minscale / maxscale - the scale range in which the layer should be displayed, 0 means no scale limitation"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:280
+msgid "toggle - open folder on start of the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:281
+msgid "reorder - allows to reorder the layers with drag & drop while using the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:282
+msgid "... -> opens a dialog with more information"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:283
+msgid "name"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:284
+msgid "style - if a WMS provides more than one style you can choose a different style than the default style"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:288
+msgid "Add Elements to your application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:289
+msgid "Mapbender offers a set of elements. You can add the elements to your application. You have different regions (Toolbar, Sidepane, Content, Footer) to which you can add elements."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:294
+msgid "Choose :menuselection:`Applications --> edit-Button --> Layers --> Button +` to get an overview over the elements Mapbender3 provides."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:296
+msgid "Choose an element from the list."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:298
+msgid "Notice that you have different areas in your application. Make sure to add the element to a region that makes sense."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:300
+msgid "Configure the element. Notice: When you select an element for example **map** you see that the element has a set of attributes. Each element offers individual attributes for configuration."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:302
+msgid "You can change the position of the element via drag & drop"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:304
+msgid "Have a look at your application. Open your application from :menuselection:`Applications --> Applications Overview`"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:306
+msgid "Now you should get an idea how easy it is to change a Mapbender application without changes in the code."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:311
+msgid "Examples for elements Mapbender3 offers:"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:313
+msgid "About Dialog"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:314
+msgid "Activity Indicator"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:315
+msgid "BaseSourceSwitcher"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:316
+msgid "Button"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:317
+msgid "Coordinates Display"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:318
+msgid "Copyright"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:319
+msgid "Feature Info"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:320
+msgid "GPS-Position"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:321
+msgid "HTML"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:322
+msgid "Legend"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:323
+msgid "Layertree - Table of Content"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:324
+msgid "Map"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:325
+msgid "Overview"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:326
+msgid "PrintClient"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:327
+msgid "Ruler Line/Area"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:328
+msgid "Scale Selector"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:329
+msgid "ScaleBar"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:330
+msgid "SimpleSearch"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:331
+msgid "Search Router"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:332
+msgid "SRS Selector"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:333
+msgid "Spatial Reference System Selector (SRS Selector)"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:334
+msgid "Navigation Toolbar (Zoombar)"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:335
+msgid "WMS Loader"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:336
+msgid "WMC Editor"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:337
+msgid "WMC Loader"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:338
+msgid "WMC List"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:340
+msgid "You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:344
+msgid "Try it yourself"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:346
+msgid "add a Map Element to the content of your application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:347
+msgid "add a Layertree to the content of your application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:348
+msgid "add a button that opens the Layertree to the top of your application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:349
+msgid "add the Navigation Toolbar to the content"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:350
+msgid "add a Copyright and change the copyright text"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:351
+msgid "add a SRS Selector to the footer"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:355
+msgid "User and group management"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:356
+msgid "An access to Mapbender requires authentication. Only public applications can be used by everyone."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:358
+msgid "A user has permissions to access one or a set of applications and services."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:365
+msgid "Create a user"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:367
+msgid "To create a user go to :guilabel:`New User` or click the :menuselection:`+-Button`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:369
+msgid "Choose a name and a password for your user."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:371
+msgid "Provide an email address for the user."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:373
+msgid "Save your new user."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:375
+msgid "You can provide more information about the user in the tab :menuselection:`Profile`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:382
+msgid "Create a group"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:383
+msgid "Create a group by :guilabel:`New Group`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:385
+msgid "Define a name and a description for your group."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:387
+msgid "Save your new group."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:391
+msgid "Assign users to group"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:393
+msgid "Assign a user to a group by :guilabel:`Users --> Groups`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:395
+msgid "Choose one or more users you want to add to the group at :menuselection:`Users`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:397
+msgid "Assign a user by :menuselection:`Users --> Edit-Button--> Groups` to a group."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:404
+msgid "Roles"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:405
+msgid "Mapbender3 provides different rights. They refer to the Symfony ACL System http://symfony.com/doc/2.1/cookbook/security/acl_advanced.html#built-in-permission-map"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:407
+msgid "view - Whether someone is allowed to view the object."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:408
+msgid "edit - Whether someone is allowed to make changes to the object."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:409
+msgid "delete - Whether someone is allowed to delete the object."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:410
+msgid "operator - Whether someone is allowed to perform all of the above actions."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:411
+msgid "master - Whether someone is allowed to perform all of the above actions, and in addition is allowed to grant any of the above permissions to others."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:412
+msgid "owner - Whether someone owns the object. An owner can perform any of the above actions and grant master and owner permissions."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:414
+msgid "Assign roles to a user by :menuselection:`Users --> Edit your User --> Security`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:421
+msgid "Assign an Application to a User/Group"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:422
+msgid "Edit your application by :menuselection:`Application --> Edit-Button`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:424
+msgid "Choose :menuselection:`Security`"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:426
+msgid "Set permission like view edit delete operator master owner"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:428
+msgid "Assign a user/group to the application"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:430
+msgid "Test your configuration!"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:432
+msgid "Logout from Mapbender by :menuselection:`Logout`."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:434
+msgid "Login as the new user"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:441
+msgid "Things to try"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:443
+msgid "Here are some additional challenges for you to try:"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:445
+msgid "Try to load some WMS in your application. Try to configure your WMS."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:447
+msgid "Try to create an individual application."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:451
+msgid "What Next?"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:453
+msgid "This is only the first step on the road to using Mapbender3. There is a lot more functionality you can try."
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:455
+msgid "Mapbender Project home"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:457
+msgid "http://mapbender.org"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:459
+msgid "Mapbender3 Webside"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:461
+msgid "http://mapbender3.org/"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:463
+msgid "You find tutorials at"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:465
+msgid "http://doc.mapbender3.org"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:467
+msgid "http://api.mapbender3.org"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:470
+msgid "Get to know Mapbender on"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:472
+msgid "http://projects.mapbender.osgeo.org"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:474
+msgid "Get involved in the project"
+msgstr ""
+
+#: ../../../en/quickstart/mapbender_quickstart.rst:476
+msgid "http://www.mapbender.org/Community"
+msgstr ""
+

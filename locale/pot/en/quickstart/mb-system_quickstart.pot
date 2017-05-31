@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:14
+msgid "MB-System Quickstart"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:18
+msgid "Running"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:20
+msgid "Users familiar with :doc:`GMT <../overview/gmt_overview>` and :doc:`GDAL <../overview/gdal_overview>` will be right at home with MB-System. In fact, MB-System makes heavy use of GMT for its map rendering. MB-System is a modular, command line driven suite of about 75 programs which work together to process massive (often terabytes) worth of multi-beam swath bathymetry and sidescan sonar data using automated scripts. Data files in dozens of data formats can be left co-mingled and intact on the drive and only those needed will be automatically selected, allowing for efficient processing and seamless mixing of datasets collected at different times, by different ships, in different data formats. Cartographic output and advanced 3D data cleaning software is also included."
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:33
+msgid "Open a terminal, then"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:35
+msgid "View information about a datafile: (similar to `gdalinfo`)"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:48
+msgid "Process and prepare 3D plots from the sample data files:"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:57
+msgid "Process and prepare a 2D shaded relief image:"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:68
+msgid "Documentation"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:71
+msgid "The online HTML documentation can be found at"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:71
+msgid "http://www.ldeo.columbia.edu/res/pi/MB-System/html/mbsystem_home.html"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:74
+msgid "The online HTML version of the Cookbook tutorial can be found at"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:74
+msgid "http://www.ldeo.columbia.edu/res/pi/MB-System/mb-cookbook/"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:77
+msgid "The documentation can be found on this LiveDVD at"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:77
+msgid "`/usr/share/doc/mbsystem-doc/docs/ <../../mbsystem/docs/>`_"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:80
+msgid "The PDF version of the cookbook is included on this disc at"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:80
+msgid "`/usr/local/mbsystem/mbcookbook.pdf <../../mbsystem/mbcookbook.pdf>`_"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:83
+msgid "The data used in the cookbook examples can be found on this disc at"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:83
+msgid "`/usr/local/mbsystem/examples/ <../../mbsystem/examples/>`_"
+msgstr ""
+
+#: ../../../en/quickstart/mb-system_quickstart.rst:85
+msgid "See also the `MB-System entry in the GRASS GIS wiki <http://grass.osgeo.org/wiki/MB-System>`_"
+msgstr ""
+

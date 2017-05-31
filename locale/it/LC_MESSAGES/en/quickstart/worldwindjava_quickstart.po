@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:15
+msgid "WorldWind Java SDK Quickstart"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:18
+msgid "Get Started"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:20
+msgid ""
+"WorldWind is an SDK (software development kit) that software engineers "
+"can use to build their own applications. To run a WorldWind demo "
+"application, visit the Demos page. Follow these instructions to download,"
+" run, and deploy an application using WorldWind."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:23
+msgid "Key files and folders in the WorldWind Java SDK:"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:25
+msgid "build.xml: Apache ANT build file for the WorldWind Java SDK."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:26
+msgid "src: Contains all Java source files for the WorldWind Java SDK."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:27
+msgid ""
+"lib-external/gdal: Contains the GDAL native binaries libraries that may "
+"optionally be distributed with WorldWind."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:29
+msgid ""
+"Links to important WorldWind sites that will help you get started using "
+"the WorldWind Java SDK in your application:"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:31
+msgid "WorldWind Developer's Guide: http://goworldwind.org/"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:32
+msgid "WorldWind Main Website:  http://worldwind.arc.nasa.gov/java/"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:33
+msgid "WorldWind Forum:  http://forum.worldwindcentral.com/forumdisplay.php?f=37"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:34
+msgid ""
+"WorldWind API Documentation: http://builds.worldwind.arc.nasa.gov"
+"/worldwind-releases/2.0/docs/api/index.html"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:35
+msgid "WorldWind Bug Base: http://issues.worldwind.arc.nasa.gov/jira/browse/WWJ"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:39
+msgid "Running a Basic Demo Application"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:46
+msgid "To run the basic demo:"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:42
+msgid "Open a terminal."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:43
+msgid "cd to the WorldWind release folder."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:44
+msgid "chmod +x run-demo.bash"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:45
+msgid "./run-demo.bash gov.nasa.worldwindx.examples.ApplicationTemplate"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:49
+msgid "Create and Run Your Application Using WorldWind"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:51
+msgid ""
+"Create an app by reviewing the programming examples in "
+"WorldWind/src/gov/nasa/worldwindx/examples."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:53
+msgid ""
+"Start with SimplestPossibleExample and ApplicationTemplate, then refer to"
+" the Examples page for more advanced topics."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:54
+msgid ""
+"Here are examples of running your app from the command-line, assuming "
+"your app's JAR file is MyApp.jar, and your main class is "
+"worldwinddemo.MyBasicDemo."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:57
+msgid "Run: ::"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:62
+msgid ""
+"*Note: All *.dll, *.jnilib, and *.so files in the WorldWind folder must "
+"be in the same folder as MyApp.jar.*"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:67
+msgid "Deploy an Application Using Java Web Start"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:69
+msgid "**1. Create a Java Web Start Application JNLP File**"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:71
+msgid ""
+"Modify the template JNLP file "
+"WorldWind/webstart/JavaWebStartTemplate.jnlp to fit your app."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:74
+msgid "**2. Add WorldWind Libraries to Your Application JNLP.**"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:75
+msgid ""
+"Insert the following XML extension elements in the resources block of "
+"your app's JNLP file, depending on your app's needs:"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:77
+msgid "WorldWind Core Library (required)::"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:82
+msgid ""
+"WorldWind Extensions Library (required if your app uses the "
+"gov.nasa.worldwindx package)::"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:87
+msgid ""
+"GDAL Library (optional, include if your app uses WorldWind's data import "
+"feature)::"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:93
+msgid "**3.  Prepare Your Application's JAR Files**"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:94
+msgid ""
+"JAR files used by a Java Web Start application must be signed by a "
+"recognized authority, and must specify the Permissions manifest "
+"attribute. WorldWind's JAR files have already been signed and contain the"
+" necessary manifest attributes. See Oracle's documentation on Signing JAR"
+" Files and JAR File Manfiest Attributes for Security."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:97
+msgid "**4. Deploy Your Application**"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:98
+msgid ""
+"Determine a URL to host your app at, such as http://myworldwinddemo.org/."
+" Set your JNLP file's codebase attribute to this URL, then host your JNLP"
+" file and any JAR files referenced by your JNLP at this URL. See Oracle's"
+" documentation on Rich Internet Application Deployment for more "
+"information."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:104
+msgid "Deploy an Applet Using Java Web Start"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:106
+msgid ""
+"**1. Create a Java Web Start Applet JNLP File** Modify the template JNLP "
+"file WorldWind/webstart/JavaWebStartAppletTemplate.jnlp to fit your "
+"applet."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:109
+msgid "**2. Add WorldWind Libraries to Your Applet JNLP**"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:110
+msgid ""
+"Complete your applet's JNLP file by following step #2 in the above "
+"section Deploy an Application Using Java Web Start."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:112
+msgid "**3. Prepare Your Applet's JAR Files**"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:113
+msgid ""
+"JAR files used by a Java Applet must be signed by a recognized authority,"
+" must specify the Permissions manifest attribute, and must specify the "
+"Caller-Allowable-Codebase manifest attribute in order to enable Java-to-"
+"Javascript communication. WorldWind's JAR files have already been signed "
+"and contain the necessary manifest attributes. See Oracle's documentation"
+" on Signing JAR Files and JAR File Manfiest Attributes for Security."
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:115
+msgid "**4. Publish your Applet**"
+msgstr ""
+
+#: ../../../en/quickstart/worldwindjava_quickstart.rst:116
+msgid ""
+"Add the Java Applet to an HTML document hosted at the same URL as your "
+"JNLP file using the syntax below. The HTML document defines the Applet "
+"attributes that affect its dimensions and enable Java-to-Javascript "
+"communication. The JNLP file defines the Applet's code and its "
+"dependencies. See Oracle's documentation on Rich Internet Application "
+"Deployment for more information.."
+msgstr ""
+

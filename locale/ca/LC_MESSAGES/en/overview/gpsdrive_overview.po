@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 13:32-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../en/overview/gpsdrive_overview.rst:13
+msgid "GpsDrive"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:16
+msgid "GPS Navigation Software"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:18
+msgid ""
+"`GpsDrive <http://www.gpsdrive.de>`_ is a car (bike, ship, plane, foot) "
+"navigation system. GpsDrive displays your position provided from a GPS on"
+" a zoomable map. The map file is auto-selected depending on your position"
+" and preferred map scale.  All GPS receivers which support the NMEA "
+"protocol should be usable, as well as many USB GPSs using a binary "
+"protocol known to the `Gpsd <http://gpsd.berlios.de>`_ GPS daemon and "
+"multiplexer."
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:26
+msgid "Core Features"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:33
+msgid ""
+"Download LANDSAT or OpenStreetMap data from the Web, or register your own"
+" images"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:34
+msgid ""
+"Live rendering of OpenStreetMap data stored in a PostGIS database using "
+"Mapnik"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:35
+msgid "Live rendering from NASA's Blue Marble high-resolution mosaic"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:36
+msgid "Verbal instructions using eSpeak"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:37
+msgid "Highly customizable dashboard and GUI"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:38
+msgid ""
+"GPX track and route support, a number of waypoint storage options "
+"including SQLite and GpsBabel-compatible plain text files"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:40
+msgid "Search for nearest POI waypoints within a given radius"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:41
+msgid "Route planning"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:42
+msgid "Included server to keep track of your friends' positions"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:43
+msgid "Kismet Wifi integration"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:46
+msgid "Details"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:48
+msgid "**Website:** http://www.gpsdrive.de"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:50
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:52
+msgid "**Software Version:** 2.12"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:54
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:56
+msgid "**Support:** http://gpsdrive.de/support.shtml"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:59
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../en/overview/gpsdrive_overview.rst:61
+msgid ":doc:`Quickstart documentation <../quickstart/gpsdrive_quickstart>`"
+msgstr ""
+
