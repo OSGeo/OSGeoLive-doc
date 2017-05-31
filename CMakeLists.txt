@@ -141,43 +141,6 @@ endif()
 
 message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
 
-#---------------------------------------------
-#---------------------------------------------
-#---------------------------------------------
-
-# Languages directory contents
-
-#---------------------------------------------
-#---------------------------------------------
-#---------------------------------------------
-
-#---------------------
-# Files
-#---------------------
-set(OSGeoLiveDoc_FILES
-    "contact.rst"
-    "disclaimer.rst"
-    "index.rst" 
-    "metrics.rst"
-    "sponsors.rst"
-    "welcome_message.txt"
-    "copyright.rst"
-    "download.rst"
-    "mac_installers.rst"
-    "presentation.rst"
-    "sponsors_osgeo.rst"
-    "win_installers.rst")
-
-
-#---------------------
-# Directories
-#---------------------
-set(OSGeoLiveDoc_SUBDIRS
-    "presentation"
-    "quickstart"
-    "overview"
-    "standards")
-
 
 
 #---------------------------------------------

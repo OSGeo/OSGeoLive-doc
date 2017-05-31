@@ -24,7 +24,7 @@ and a `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_ i
 Commercial Support
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

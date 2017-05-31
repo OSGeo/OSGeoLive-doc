@@ -1,16 +1,51 @@
 
 
+#---------------------
+# Files
+#---------------------
+set(OSGeoLiveDoc_FILES
+    "translators.rst"
+    "osgeo_contact.rst"
+    "contributors.rst"
+    "index.rst"
+    "contact.rst"
+    "disclaimer.rst"
+    "metrics.rst"
+    "sponsors.rst"
+    "welcome_message.txt"
+    "copyright.rst"
+    "download.rst"
+    "mac_installers.rst"
+    "presentation.rst"
+    "sponsors_osgeo.rst"
+    "win_installers.rst")
+
+
+#---------------------
+# Directories
+#---------------------
+set(OSGeoLiveDoc_SUBDIRS
+    "presentation"
+    "quickstart"
+    "overview"
+    "standards")
+
+
+
 #---------------------------------------------
 # Adding the languages directories
 #---------------------------------------------
 
-add_subdirectory(en)
+foreach (dir ${OSGeoLiveDoc_SUBDIRS})
+    message(STATUS "   Adding directory ${dir}")
+    add_subdirectory(${dir})
+endforeach()
 
-#TODO index contents depends on configuration
-configure_file("translators.rst" "translators.rst")
-configure_file("osgeo_contact.rst" "osgeo_contact.rst")
-configure_file("contributors.rst" "contributors.rst")
-configure_file("index.rst" "index.rst")
+foreach (f ${OSGeoLiveDoc_FILES})
+    message(STATUS "    Adding file ${f}")
+    configure_file(${f} ${f})
+endforeach()
+
 configure_file("conf.py.in" "conf.py" @ONLY)
 
 add_subdirectory(themes)

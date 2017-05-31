@@ -22,7 +22,7 @@ You may use attribution text similar to one of the following:
 
   |CC-By-SA-med| This document includes content from the "gvSIG Quickstart" created by Simon Cropper under the Creative Commons Attribution-ShareAlike 3.0 Unported licence, http://creativecommons.org/licenses/by-sa/3.0/ available from the OSGeo-Live project, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded on 25 July 2011. The original work was translated from English to German.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/
 
 **Concise CC-By-SA and attribution:**
@@ -33,7 +33,7 @@ You may use attribution text similar to one of the following:
 
   |CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeo-Live <http://live.osgeo.org>`_ Project Overviews by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/
 
 **Minimum (for Project Overviews), attribution only:**
