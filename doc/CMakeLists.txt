@@ -27,8 +27,10 @@ set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 option(LATEX_PAPER_SIZE
     "Set a4|letter (default=letter) paper size" "letter")
 
-option(SPHINX_OPTIONS
-    "Set Sphinx options (default are sphinx defaults)"  "")
+option(SPHINX_OPTS
+    "Set Sphinx options (default are sphinx defaults)")
+
+message(STATUS "SPHINX_OPTS=${SPHINX_OPTS}")
 
 set(LATEX_PAPER_SIZE " -D latex_paper_size=${LATEX_PAPER_SIZE}")
 
@@ -41,16 +43,16 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
     foreach (lang ${OSGeoLiveDoc_ENGLISH} ${OSGeoLiveDoc_LANGUAGES})
 
-        add_custom_target(${target}-${lang} ALL
+        add_custom_target("${target}-${lang}" ALL
             COMMENT "Building ${DOC_TARGET}/${lang} documentation with Sphinx")
 
         add_custom_command(
-            TARGET ${target}-${lang} POST_BUILD
+            TARGET "${target}-${lang}" POST_BUILD
             COMMAND ${SPHINX_EXECUTABLE}
-            -b ${target} 
 
-            # Where the conf.py is located
+            -b ${target} 
             -c "${CMAKE_CURRENT_BINARY_DIR}"
+
 
             # the location of the documentation to be build
             "${CMAKE_CURRENT_BINARY_DIR}"
@@ -81,7 +83,7 @@ if (LOCALE)
         "${SPHINX_BUILD_DIR}/gettext"
 
 
-        COMMENT "Generating pot and po files for ${OSGeoLiveDoc_LOCALE_LANG} ...")
+        COMMENT "Generating pot files for ${OSGeoLiveDoc_LOCALE_LANG} ...")
 
     add_dependencies(doc locale)
 endif()

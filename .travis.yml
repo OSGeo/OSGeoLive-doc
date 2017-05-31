@@ -42,8 +42,12 @@ install:
 script: 
   - mkdir build
   - cd build
-  - cmake  ..
+  - cmake -D HTML=ON ..
   - make html
+  - rm -rf *
+  - cmake -D LOCALE=ON ..
+  - make locale
+
 
 #after_script: 
 
