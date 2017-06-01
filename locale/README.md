@@ -53,7 +53,7 @@ tx push --source -r test_osgeolive.sponsors_osgeo
 ### Pull transtlated strings
 
 ```
-tx pull -r bakanikos-labtest_osgeolive.sponsors_osgeo -l es
+tx pull -r labtest_osgeolive.sponsors_osgeo -l es
 ```
 
 Note: if the file is skip `-f` forces the pull but basically it means:
