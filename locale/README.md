@@ -1,6 +1,15 @@
 
-
 # Locale
+
+**Warning** for administrators only
+
+
+
+- Installing the tx client: https://docs.transifex.com/client/installing-the-client
+- Introduction to the client: https://docs.transifex.com/client/introduction
+- Sphinx-intl installation: https://pypi.python.org/pypi/sphinx-intl
+- Sphinx: http://www.sphinx-doc.org/en/stable/intl.html
+
 
 To get latest pot files
 ```
@@ -19,6 +28,8 @@ list A language po files
 ls -R doc/_build/gettext/es
 ```
 
+
+
 ## Change only what is needed
 
 See the section **Which resources need change** before continuing.
@@ -36,13 +47,13 @@ cp doc/_build/locale/es/LC_MESSAGES/pgr_createVerticesTable.po ../locale/es/LC_M
 ### Push the resource to transifex
 
 ```
-tx push --source -r pgrouting.pgr_createVerticesTable
+tx push --source -r test_osgeolive.sponsors_osgeo
 ```
 
 ### Pull transtlated strings
 
 ```
-tx pull -r pgrouting.pgr_createVerticesTable -l es
+tx pull -r bakanikos-labtest_osgeolive.sponsors_osgeo -l es
 ```
 
 Note: if the file is skip `-f` forces the pull but basically it means:
@@ -118,7 +129,12 @@ diff doc/_build/gettext/VRP-category.pot ../locale/pot/VRP-category.pot
 # Push to transifex only what is needed
 
 
-References:
+## History:
 
-* https://pypi.python.org/pypi/sphinx-intl
+The following commands are given to create the translation project in the testing repository
 
+```
+tx init
+sphinx-intl update-txconfig-resources --pot-dir locale/pot  --transifex-project-name bakanikos-lab/test_osgeolive
+tx push
+```
