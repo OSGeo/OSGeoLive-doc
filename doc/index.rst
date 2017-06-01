@@ -14,7 +14,6 @@ Welcome to |osgeo-live-version|
      download
      contact
      copyright
-     disclaimer
      sponsors
      sponsors_osgeo
 
@@ -66,7 +65,6 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      standards/standards
      contact
      copyright
-     disclaimer
      download
      sponsors
      sponsors_osgeo

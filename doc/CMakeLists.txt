@@ -4,13 +4,12 @@
 # Files
 #---------------------
 set(OSGeoLiveDoc_FILES
-    "disclaimer.rst"
+    #"disclaimer.rst"
     "translators.rst"
     "osgeo_contact.rst"
     "contributors.rst"
     "index.rst"
     "contact.rst"
-    "disclaimer.rst"
     "metrics.rst"
     "sponsors.rst"
     "welcome_message.txt"
