@@ -38,7 +38,7 @@ install:
 script: 
   - mkdir build
   - cd build
-  - cmake -DHTML=ON ..
+  - cmake -DHTML=ON -DES=ON -DCA=ON ..
   - make html
   - cmake -DLOCALE=ON ..
   - make locale

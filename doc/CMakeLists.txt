@@ -97,7 +97,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             "${CMAKE_CURRENT_BINARY_DIR}"
 
             #where the documentations is written
-            "${CMAKE_CURRENT_BINARY_DIR}/${target}"
+            "${CMAKE_CURRENT_BINARY_DIR}/${target}/${lang}"
             COMMENT "Generating ${target}/${lang} documentation ...")
 
         add_dependencies("${target}" "${target}-${lang}")
