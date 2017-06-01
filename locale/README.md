@@ -38,9 +38,9 @@ See the section **Which resources need change** before continuing.
 * Copy the pot files that changed and all the corresponding po files in other languages
 
 ```
-cp doc/_build/gettext/pgr_createVerticesTable.pot ../locale/pot
-cp doc/_build/locale/en/LC_MESSAGES/pgr_createVerticesTable.po ../locale/en/LC_MESSAGES
-cp doc/_build/locale/es/LC_MESSAGES/pgr_createVerticesTable.po ../locale/es/LC_MESSAGES
+cp doc/_build/gettext/sponsors_osgeo.pot ../locale/pot
+cp doc/_build/locale/en/LC_MESSAGES/sponsors_osgeo.po ../locale/en/LC_MESSAGES
+cp doc/_build/locale/es/LC_MESSAGES/sponsors_osgeo.po ../locale/es/LC_MESSAGES
 ```
 
 
@@ -63,9 +63,10 @@ Note: if the file is skip `-f` forces the pull but basically it means:
 
 ### clean the build & build the documentation:
 
+use capital letters for the language, this builds for Spanish
 ```
 rm -rf *
-cmake  -DWITH_DOC=ON -DBUILD_HTML=ON ..
+cmake  -DBUILD_HTML=ON -DES=ON..
 ```
 
 # Which resources need change:
@@ -135,6 +136,6 @@ The following commands are given to create the translation project in the testin
 
 ```
 tx init
-sphinx-intl update-txconfig-resources --pot-dir locale/pot  --transifex-project-name bakanikos-lab/test_osgeolive
+sphinx-intl update-txconfig-resources --pot-dir locale/pot  --transifex-project-name test_osgeolive
 tx push
 ```
