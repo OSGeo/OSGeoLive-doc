@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../quickstart/marble_quickstart.rst:15
+msgid "KDE-edu Marble Quickstart"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:20
+msgid "Getting Started"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:22
+msgid ""
+"Click on the desktop icon in the \"Navigation and Maps\" folder to open "
+"Marble. You will see a window like this:"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:27
+msgid "You can:"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:29
+msgid ""
+"Scale the globe by rotating the wheel at your mouse. To move around press"
+" the left button of your mouse and move it."
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:31
+msgid "Marble has got 11 different views:"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:33
+msgid "Atlas"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:34
+msgid "OpenStreetMap"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:35
+msgid "Satellite View"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:36
+msgid "Earth at Night"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:37
+msgid "Historical Map 1689"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:38
+msgid "Moon"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:39
+msgid "Plain Map"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:40
+msgid "Precipitation (December)"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:41
+msgid "Precipitation (July)"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:42
+msgid "Temperature (December)"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:43
+msgid "Temperature (July)."
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:45
+msgid "To switch them click one of entries in \"Theme\" list in \"Map View\" tab."
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:50
+msgid "Press a label in any place to view more information about it."
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:55
+msgid ""
+"Close panels by clicking the cross at the top-right corner of the panel. "
+"To close all the panels press \"F9\" or go to \"Settings->Panels->Hide "
+"All Panels\". Also you can show/hide a panel by clicking it's title at "
+"the \"Settings->Panels\" menu."
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:60
+msgid ""
+"To find a location, enter its name into the search line on the top of "
+"\"Search\" panel. As you start typing, suggestions below the search line "
+"will appear like this:"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:65
+msgid ""
+"Use bookmarks in Marble to remember the location of something. To add a "
+"bookmark press the left button of your mouse and click \"Add bookmark\". "
+"After it a window will appear like this:"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:70
+msgid ""
+"Write the name, description and destination folder of the bookmark and "
+"click the \"Ok\" button. Then the bookmark will appear. To manage "
+"bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:76
+msgid "Things to Try"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:78
+msgid ""
+"See the `Marble documentation "
+"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ and try to "
+"use the Routing feature."
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:82
+msgid "What Next?"
+msgstr ""
+
+#: ../../../quickstart/marble_quickstart.rst:84
+msgid "See the `Marble homepage <http://marble.kde.org/>`_ for more help."
+msgstr ""
+

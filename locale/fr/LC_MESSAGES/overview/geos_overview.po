@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../overview/geos_overview.rst:19
+msgid "GEOS"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:22
+msgid "Spatial Library"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:24
+msgid ""
+"GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology "
+"Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. It "
+"includes the OpenGIS Simple Features for SQL spatial predicate functions "
+"and spatial operators, as well as specific JTS enhanced topology "
+"functions."
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:26
+msgid ""
+"GEOS is the most widely used geospatial C++ geometry library, being used "
+"by open source projects such as :doc:`PostGIS <postgis_overview>`, "
+":doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and "
+":doc:`MapServer <mapserver_overview>`, and by proprietary products "
+"including `FME <http://www.safe.com/fme/fme-technology/>`_."
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:29
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:31
+msgid ""
+"`OpenGIS Simple Features for SQL "
+"<http://www.opengeospatial.org/standards/sfs>`_  spatial predicate "
+"functions and spatial operators"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:34
+msgid "Core Features"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:36
+msgid ""
+"Geometries: Point, LineString, Polygon, MultiPoint, MultiLineString, "
+"MultiPolygon, GeometryCollection"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:37
+msgid ""
+"Predicates: Intersects, Touches, Disjoint, Crosses, Within, Contains, "
+"Overlaps, Equals, Covers"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:38
+msgid ""
+"Operations: Union, Distance, Intersection, Symmetric Difference, Convex "
+"Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:39
+msgid "Prepared geometries (pre-spatially indexed)"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:40
+msgid "STR spatial index"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:41
+msgid ""
+"OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and "
+"decoders."
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:42
+msgid "C and C++ API (C API gives long term ABI stability)"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:43
+msgid "Thread safe (using the reentrant API)"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:46
+msgid "Details"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:48
+msgid "**Website:**  http://geos.osgeo.org/"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:50
+msgid "**Licence:** LGPL"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:52
+msgid "**Software Version:** |version-geos|"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:54
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:56
+msgid "**API Interfaces:** C, C++"
+msgstr ""
+
+#: ../../../overview/geos_overview.rst:58
+msgid ""
+"**Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, "
+"http://www.osgeo.org/search_profile"
+msgstr ""
+

@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../overview/mapguide_overview.rst:19
+msgid "MapGuide Open Source"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:22
+msgid "Web Service"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:24
+msgid "`MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure."
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:26
+msgid "MapGuide includes an XML database for managing content. Maestro allows users to edit the XML database and build a website without writing a single line of code. MapGuide also supports most popular geospatial file formats, databases, and standards."
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:28
+msgid "MapGuide can be deployed on Linux or Windows, supports Apache and IIS web servers, and offers extensive PHP, .NET, Java, and JavaScript APIs for application development. MapGuide Open Source is licensed under the LGPL."
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:35
+msgid "Due to space constraints, MapGuide is currently not installed on OSGeo-Live."
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:42
+msgid "Core Features"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:44
+msgid "**Interactive Map Viewing**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:46
+msgid "Dynamic browser-based viewer"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:47
+msgid "Feature selection and properties"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:48
+msgid "Buffering, querying"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:49
+msgid "Printing and Plotting"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:51
+msgid "**Quality Cartographic Output**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:53
+msgid "Scale-dependent detail"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:54
+msgid "Rule-driven thematic stylization"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:55
+msgid "Anti-aliased image rendering"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:56
+msgid "True color support"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:58
+msgid "**Build-in Resource Database for Manageability**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:60
+msgid "Hierarchical storage of XML resource documents that define maps, layers, data connections"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:61
+msgid "Define data sources and layers once and use them in multiple maps"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:62
+msgid "Access-based security model with inheritable permissions"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:64
+msgid "**Uniform Data Access**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:66
+msgid "Exclusive use of the Feature Data Objects (FDO) API for vector and raster data"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:67
+msgid "Provides a standardized way to access a variety of data sources including SHP, SDF, Oracle, MySQL, and PostGIS."
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:69
+msgid "**Flexible Application Development**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:71
+msgid "Develop your applications in PHP, .NET, or Java"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:73
+msgid "**Extensive Server-Side APIs**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:75
+msgid "Create, query, read, and write permanent and session based XML resource documents"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:76
+msgid "Query and update feature data"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:77
+msgid "Perform coordinate reprojection"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:78
+msgid "Create, manipulate, and analyze geometry"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:79
+msgid "Manipulate runtime maps and layers"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:81
+msgid "**Fast, Scalable, Secure Server Platform**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:83
+msgid "Fully multi-threaded and takes advantage of multi-core servers"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:84
+msgid "Load balancing among servers"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:85
+msgid "Pooled database connections"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:86
+msgid "Integrated tile caching"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:88
+msgid "**Multiple Platform Support**"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:90
+msgid "Deploy on Microsoft Windows or Linux"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:91
+msgid "Serve applications with Apache or Microsoft IIS"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:92
+msgid "Browse with Microsoft Internet Explorer, Mozilla Firefox, and Safari and Chrome"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:95
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:97
+msgid "OGC Web Map Service 1.1.1"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:100
+msgid "Details"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:102
+msgid "**Website:** http://mapguide.osgeo.org/"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:104
+msgid "**Licence:** GNU Lesser General Public License (LGPL)"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:106
+msgid "**Software Version:** 2.4.0 Pre-Release"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:108
+msgid "**Supported Platforms:** Linux, Windows"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:110
+msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:114
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../overview/mapguide_overview.rst:116
+msgid ":doc:`Quickstart documentation <../quickstart/mapguide_quickstart>`"
+msgstr ""
+

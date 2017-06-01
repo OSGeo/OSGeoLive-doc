@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../overview/marble_overview.rst:19
+msgid "Marble"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:22
+msgid "Virtual globe and world atlas"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:24
+msgid "Marble is an open source KDE Education Project program similar to `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ or Google Earth. Besides choosing any number of maps to view on your globe (including `OpenStreetMaps <http://www.osm.org>`_), you are encouraged to include a KDE Marble widget in your application."
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:30
+msgid "Explore the neighborhood with Marble's rich set of city and street level maps. Search for addresses and places of interest. Marble takes care of querying various search backends and presents their results in a unified view. Calculate pedestrian, bike and motorcar routes with ease - online and offline, with an arbitrary number of via points."
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:36
+msgid "Start exploring the world. View clouds and sun shadow, follow satellites and space stations and display their orbits, all updated in real-time. Travel back in time and learn about historic views of our planet using maps from past centuries. Earth is not enough? Marble also offers maps of the moon and other planets."
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:44
+msgid "Core Features"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:51
+msgid "Virtual Globe And World Atlas"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:52
+msgid "Easy to use"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:53
+msgid "A great solution for the geography lessons"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:54
+msgid "Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:55
+msgid "Navigate globe in 3D"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:56
+msgid "3 different projections are available (3D Globe, Flat Map, Mercator)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:57
+msgid "Information layers (Weather, Real-time clouds, Day/Night View, Real-time Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:58
+msgid "Search (Online address search, Online POI search)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:59
+msgid "Positioning & Tracking (GPS and WLAN localization, Track export in KML)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:60
+msgid "Routing & Navigation (Voice navigation, Online motorcar routing, Online bike routing, Online pedestrian routing, Offline routing optional download, Turn-by-turn navigation)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:61
+msgid "Interactive KML tours (Creating, editing, viewing)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:62
+msgid "Integration with many online services (Amateur Radio Aprs, OpenCaching.com, etc.)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:63
+msgid "WMS & TMS support"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:64
+msgid "Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:65
+msgid "`OpenStreetMap <http://www.osm.org>`_ integration"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:69
+msgid "Details"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:71
+msgid "**Website:** http://marble.kde.org"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:73
+msgid "**Licence:** GNU Lesser General Public License (LGPL) version 2.1"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:75
+msgid "**Software Version:** |version-marble|"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:77
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows, Maemo 5"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:79
+msgid "**API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:81
+msgid "**Support:** http://techbase.kde.org/Projects/Marble"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:83
+msgid "**More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:87
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../overview/marble_overview.rst:89
+msgid ":doc:`Quickstart documentation <../quickstart/marble_quickstart>`"
+msgstr ""
+

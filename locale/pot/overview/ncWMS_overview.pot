@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../overview/ncWMS_overview.rst:12
+msgid "ncWMS"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:15
+msgid "Web Map Service"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:17
+msgid "ncWMS publishes multi-dimensional data (such as environmental and weather data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and efficiently extracts the map images from the very the large data files typically associated with environmental data."
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:27
+msgid "Core Features"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:29
+msgid "Fast extraction of data"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:31
+msgid "Generation of timeseries and vertical profile plots"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:33
+msgid "Ability to plot data along a transect"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:35
+msgid "Automatic recognition of vector-components and generation of vector arrows"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:37
+msgid "Support for a large range of projections (for both source data and target images)"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:39
+msgid "Support for creating animations"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:41
+msgid "Browser client included"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:43
+msgid "Support for export to Google Earth KML format"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:45
+msgid "Input formats: NetCDF, GRIB, OPeNDAP"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:47
+msgid "Output formats: PNG, JPEG, animated GIF, KML"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:50
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:52
+msgid ":doc:`../standards/wms_overview` (v1.1.1, v1.3.0)"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:54
+msgid ":doc:`../standards/kml_overview`"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:57
+msgid "Details"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:59
+msgid "**Website:** http://www.resc.rdg.ac.uk/trac/ncWMS/"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:61
+msgid "**Licence:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:63
+msgid "**Software Version:** |version-ncWMS|"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:65
+msgid "**Supported Platforms:** All Java 1.5 platforms: Windows, Linux, Mac"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:67
+msgid "**API Interfaces:** Java; WMS"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:69
+msgid "**Support:** http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/MailingLists"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:73
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../overview/ncWMS_overview.rst:75
+msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
+msgstr ""
+

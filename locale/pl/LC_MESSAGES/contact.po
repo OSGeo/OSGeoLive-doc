@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../contact.rst:2
+msgid "Contact Us"
+msgstr ""
+
+#: ../../../contact.rst:4
+msgid ""
+"OSGeo-Live development is coordinated via email and internet chat (IRC) "
+"as detailed on the `OSGeo Wiki "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_."
+msgstr ""
+
+#: ../../../contact.rst:9
+msgid "Community Support"
+msgstr ""
+
+#: ../../../contact.rst:11
+msgid ""
+"If you have any questions, comments, or run into any problems, please "
+"drop us a note on `our mailing list "
+"<http://lists.osgeo.org/mailman/listinfo/live-demo>`_."
+msgstr ""
+
+#: ../../../contact.rst:14
+msgid ""
+"Searchable archives of the mailing list are hosted by `Gmane "
+"<http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and `Nabble <http"
+"://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_."
+msgstr ""
+
+#: ../../../contact.rst:18
+msgid ""
+"IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
+"real-time assistance."
+msgstr ""
+
+#: ../../../contact.rst:21
+msgid ""
+"A wealth of information is available on our `Wiki site "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a `bug and wish "
+"tracking system <https://trac.osgeo.org/osgeo/report/10>`_ is also "
+"available."
+msgstr ""
+
+#: ../../../contact.rst:25
+msgid "Commercial Support"
+msgstr ""
+
+#: ../../../contact.rst:32
+msgid ""
+"Jirotech provide commercial support for the building of the Live DVD, as "
+"well as many of the applications packaged in it. Details at: "
+"http://jirotech.com"
+msgstr ""
+
+#: ../../../contact.rst:36
+msgid ""
+"Most packaged applications have both community and commercial support "
+"offerings for them. Refer to specific application descriptions linked "
+"from the :doc:`Contents <./overview/overview>` for details."
+msgstr ""
+
+#: ../../../contact.rst:39
+msgid ""
+"In addition, there are a large number of consultancy firms world wide who"
+" provide support for OSGeo member projects. See "
+"http://www.osgeo.org/search_profile for one that meets your needs."
+msgstr ""
+

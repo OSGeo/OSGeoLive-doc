@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../quickstart/sahana_quickstart.rst:13
+msgid "Sahana Quickstart"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:16
+msgid "Getting Started"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:18
+msgid "Sahana Eden is already installed and configured when you start OSGeo-Live. To access Sahana Eden click on the :menuselection:`Geospatial menu --> Crisis Management --> Sahana`. If you started it earlier you can simply `click here <http://127.0.0.1:8007/eden>`_. By default, you will have view-only rights to access the data. If you wish to create new records, or edit existing records, you will need to be logged in as a user - use the following credentials to get started."
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:20
+msgid "E-mail: admin"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:21
+msgid "Password: admin"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:23
+msgid "If you have entered example crowd-sourced data in Ushahidi, then you can access that information in Sahana Eden by `following this link <http://127.0.0.1:8007/eden/irs/ireport/ushahidi>`_."
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:25
+msgid "You will find it has already been configured to access the map data and map servers that are part of OSGeo-Live. Sahana Eden can utilise OpenStreetMap as an underlying map layer in the `map viewing client <http://127.0.0.1:8007/eden/gis/map_viewing_client>`_. Sahana Eden supports a wide range of OpenStreetMap services."
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:28
+msgid "Development"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:30
+msgid "Sahana Eden is always looking for more developers to join and contribute to our project. The primary development platform is the `Python <http://www.python.org/>`_ programming language and the `web2py <http://www.web2py.com/>`_ Enterprise Web Framework. We additionally are looking for contributors with skills in mapping, jquery and javascript."
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:32
+msgid "`Want to help Develop Sahana Eden? <http://eden.sahanafoundation.org/wiki/Develop>`_"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:33
+msgid "`Ticket System <http://eden.sahanafoundation.org/report/1>`_ - for reporting problems"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:36
+msgid "Further reading"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:38
+msgid "`Sahana Eden home page <http://eden.sahanafoundation.org/>`_"
+msgstr ""
+
+#: ../../../quickstart/sahana_quickstart.rst:39
+msgid "`Sahana Software Foundation home page <http://www.sahanafoundation.org/>`_"
+msgstr ""
+
