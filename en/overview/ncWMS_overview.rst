@@ -58,7 +58,7 @@ Details
 
 **Website:** https://github.com/Reading-eScience-Centre/ncwms
 
-**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/releases/download/ncwms-2.2.7/licence.txt>`_
+**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_
 
 **Software Version:** |version-ncWMS|
 
