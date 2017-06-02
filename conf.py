@@ -274,7 +274,7 @@ rst_epilog="""
 .. |version-mapslicer| replace:: 1.0.rc2
 .. |version-marble| replace:: 1.12.20
 .. |version-mb-system| replace:: 5.5.2274
-.. |version-ncWMS| replace:: 1.2
+.. |version-ncWMS| replace:: 2.2.7
 .. |version-opencpn| replace:: 4.2.0
 .. |version-openjump| replace:: 1.10.0
 .. |version-openlayers| replace:: 3.13.1
