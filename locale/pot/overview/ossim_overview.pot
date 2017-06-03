@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,111 +16,111 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../overview/ossim_overview.rst:19
+#: ../../build/doc/overview/ossim_overview.rst:19
 msgid "OSSIM"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:22
+#: ../../build/doc/overview/ossim_overview.rst:22
 msgid "Image Processing"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:24
+#: ../../build/doc/overview/ossim_overview.rst:24
 msgid "Open Source Software Image Map (OSSIM) is a high performance engine for remote sensing, image processing, geographical information system and photogrammetry."
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:26
+#: ../../build/doc/overview/ossim_overview.rst:26
 msgid "OSSIM has been funded by several US government agencies in the intelligence and defense community and the technology is currently deployed in research and operational sites. It has been actively developed since 1996."
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:28
+#: ../../build/doc/overview/ossim_overview.rst:28
 msgid "Designed as a series of high performance software libraries, it is written in C++ employing the latest techniques in object-oriented software design. Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution."
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:33
+#: ../../build/doc/overview/ossim_overview.rst:33
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:40
+#: ../../build/doc/overview/ossim_overview.rst:40
 msgid "Parallel processing capabilites with mpi libraries"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:41
+#: ../../build/doc/overview/ossim_overview.rst:41
 msgid "Rigorous sensor modeling"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:42
+#: ../../build/doc/overview/ossim_overview.rst:42
 msgid "Universal Sensor Models (RPCs)"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:43
+#: ../../build/doc/overview/ossim_overview.rst:43
 msgid "Wide range of Map Projections and Datums supported"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:44
+#: ../../build/doc/overview/ossim_overview.rst:44
 msgid "Non-destructive, parameter based image chains"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:45
+#: ../../build/doc/overview/ossim_overview.rst:45
 msgid "Native file access"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:46
+#: ../../build/doc/overview/ossim_overview.rst:46
 msgid "Precision Terrain correction and ortho-rectification"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:47
+#: ../../build/doc/overview/ossim_overview.rst:47
 msgid "Advanced Mosaicing, compositing and fusions"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:48
+#: ../../build/doc/overview/ossim_overview.rst:48
 msgid "Elevation support"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:49
+#: ../../build/doc/overview/ossim_overview.rst:49
 msgid "Vector and shapelib support"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:50
+#: ../../build/doc/overview/ossim_overview.rst:50
 msgid "Projection and resolution independent"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:51
+#: ../../build/doc/overview/ossim_overview.rst:51
 msgid "Equation editors"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:54
+#: ../../build/doc/overview/ossim_overview.rst:54
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:56
+#: ../../build/doc/overview/ossim_overview.rst:56
 msgid "**Website:** http://www.ossim.org"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:58
+#: ../../build/doc/overview/ossim_overview.rst:58
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:60
+#: ../../build/doc/overview/ossim_overview.rst:60
 msgid "**Software Version:** |version-ossim|"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:62
+#: ../../build/doc/overview/ossim_overview.rst:62
 msgid "**Supported Platforms:** Linux, Mac, Windows"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:64
+#: ../../build/doc/overview/ossim_overview.rst:64
 msgid "**API Interfaces:** C++"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:66
+#: ../../build/doc/overview/ossim_overview.rst:66
 msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:70
+#: ../../build/doc/overview/ossim_overview.rst:70
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/ossim_overview.rst:72
+#: ../../build/doc/overview/ossim_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/ossim_quickstart>`"
 msgstr ""
 

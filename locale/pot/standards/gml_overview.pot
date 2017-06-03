@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,99 +16,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../standards/gml_overview.rst:30
+#: ../../build/doc/standards/gml_overview.rst:30
 msgid "Geography Markup Language (GML)"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:35
+#: ../../build/doc/standards/gml_overview.rst:35
 msgid "GML (http://www.opengeospatial.org/standards/gml) is an XML grammar defined to express and communicate geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. Note that the concept of feature in GML is a very general one and includes not only conventional \"vector\" or discrete objects, but also coverages and some elements of sensor data. The ability to integrate all forms of geographic information is key to the utility of GML."
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:41
+#: ../../build/doc/standards/gml_overview.rst:41
 msgid "GML contains a rich set of primitives that are used to build application specific schemas or application languages. These primitives include:"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:43
+#: ../../build/doc/standards/gml_overview.rst:43
 msgid "Feature"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:44
+#: ../../build/doc/standards/gml_overview.rst:44
 msgid "Geometry"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:45
+#: ../../build/doc/standards/gml_overview.rst:45
 msgid "Coordinate Reference System"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:46
+#: ../../build/doc/standards/gml_overview.rst:46
 msgid "Topology"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:47
+#: ../../build/doc/standards/gml_overview.rst:47
 msgid "Time"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:48
+#: ../../build/doc/standards/gml_overview.rst:48
 msgid "Dynamic feature"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:49
+#: ../../build/doc/standards/gml_overview.rst:49
 msgid "Coverage (including geographic images)"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:50
+#: ../../build/doc/standards/gml_overview.rst:50
 msgid "Unit of measure"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:51
+#: ../../build/doc/standards/gml_overview.rst:51
 msgid "Directions"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:52
+#: ../../build/doc/standards/gml_overview.rst:52
 msgid "Observations"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:53
+#: ../../build/doc/standards/gml_overview.rst:53
 msgid "Map presentation styling rules"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:55
+#: ../../build/doc/standards/gml_overview.rst:55
 msgid "Understanding the use of “Feature”, “Geometry”, and “CRS” is critical in the use and development of any GML based encoding."
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:57
+#: ../../build/doc/standards/gml_overview.rst:57
 msgid "OGC work on the GML standard began in 1998. GML was first formally approved as an OGC standard in 2001. GML became an ISO standard in 2007. GML 3.2.16 is the most current revision of the joint OGC-ISO standard. Versions 3.2.2 and 4.0 are currently in progress."
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:60
+#: ../../build/doc/standards/gml_overview.rst:60
 msgid "See Also"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:65
+#: ../../build/doc/standards/gml_overview.rst:65
 msgid "CityGML"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:66
+#: ../../build/doc/standards/gml_overview.rst:66
 msgid "GeosciML"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:67
+#: ../../build/doc/standards/gml_overview.rst:67
 msgid "GML in JPEG 2000"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:68
+#: ../../build/doc/standards/gml_overview.rst:68
 msgid ":doc:`wfs_overview`"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:69
+#: ../../build/doc/standards/gml_overview.rst:69
 msgid ":doc:`kml_overview`"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:70
+#: ../../build/doc/standards/gml_overview.rst:70
 msgid ":doc:`sld_overview`"
 msgstr ""
 
-#: ../../../standards/gml_overview.rst:71
+#: ../../build/doc/standards/gml_overview.rst:71
 msgid ":doc:`fe_overview`"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,63 +16,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../quickstart/osgearth_quickstart.rst:13
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:13
 msgid "osgEarth Quickstart"
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:15
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:15
 msgid "osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:19
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:19
 msgid "This Quick Start describes how to start a 3D globe with different overlays."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:23
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:23
 msgid "Running osgearth_viewer"
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:25
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:25
 msgid "Open a console and start the osgearth viewer::"
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:30
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:30
 msgid "You should see a globe with satellite imagery."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:32
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:32
 msgid "Click to navigate; right-click or scroll wheel to zoom in and out."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:33
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:33
 msgid "Drag mouse with left+right click for tilt."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:34
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:34
 msgid "Press :kbd:`h` for help."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:35
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:35
 msgid "Hit the :kbd:`ESCAPE` key to quit."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:39
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:39
 msgid "Running osgviewer with an OpenStreetMap overlay"
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:41
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:41
 msgid "In a console, type::"
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:45
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:45
 msgid "Press :kbd:`h` for help. See also openscenegraph.org_ for more help."
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:51
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:51
 msgid "What Next?"
 msgstr ""
 
-#: ../../../quickstart/osgearth_quickstart.rst:53
+#: ../../build/doc/quickstart/osgearth_quickstart.rst:53
 msgid "To learn more about osgEarth, a starting point is the `Documentation page`_ in the Wiki."
 msgstr ""
 

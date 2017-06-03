@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,175 +16,175 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../quickstart/R_quickstart.rst:11
+#: ../../build/doc/quickstart/R_quickstart.rst:11
 msgid "R Quickstart"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:13
+#: ../../build/doc/quickstart/R_quickstart.rst:13
 msgid "R is a free software environment for statistical computing and graphics."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:15
+#: ../../build/doc/quickstart/R_quickstart.rst:15
 msgid "This Quick Start describes how to:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:17
+#: ../../build/doc/quickstart/R_quickstart.rst:17
 msgid "use R for simple arithmetic"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:18
+#: ../../build/doc/quickstart/R_quickstart.rst:18
 msgid "load some data from a shapefile and map it"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:19
+#: ../../build/doc/quickstart/R_quickstart.rst:19
 msgid "do a coordinate transformation"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:20
+#: ../../build/doc/quickstart/R_quickstart.rst:20
 msgid "plot some data points on a map"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:23
+#: ../../build/doc/quickstart/R_quickstart.rst:23
 msgid "Start R"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:25
+#: ../../build/doc/quickstart/R_quickstart.rst:25
 msgid "Either:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:27
+#: ../../build/doc/quickstart/R_quickstart.rst:27
 msgid "Choose ``R Statistics`` from the Spatial Tools section of the  menu - a terminal window appears running R."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:28
+#: ../../build/doc/quickstart/R_quickstart.rst:28
 msgid "Enter ``R`` at a command-line shell prompt. R will start in that terminal."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:30
+#: ../../build/doc/quickstart/R_quickstart.rst:30
 msgid "Don't fear the command line - it is a source of great power. Using the up and down arrows to recall commands so you can edit mistakes will help greatly. Hit CTRL-C if get stuck and you should get the prompt back."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:35
+#: ../../build/doc/quickstart/R_quickstart.rst:35
 msgid "Quit R"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:37
+#: ../../build/doc/quickstart/R_quickstart.rst:37
 msgid "Almost everything in R is a function, including the function for quitting. Type ``q()`` and hit return. If you just type ``q`` you'll see the source code for the ``q`` function."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:40
+#: ../../build/doc/quickstart/R_quickstart.rst:40
 msgid "R will ask you if you want to save your workspace as an R data image file. When you start R again from a directory with a ``.RData`` file it will restore all its data from there."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:46
+#: ../../build/doc/quickstart/R_quickstart.rst:46
 msgid "Beginning R"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:48
+#: ../../build/doc/quickstart/R_quickstart.rst:48
 msgid "R is essentially a command-line program, although graphical user interfaces are available. You type a line of code at the prompt, press return, and the R interpreter evaluates it and prints the result."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:53
+#: ../../build/doc/quickstart/R_quickstart.rst:53
 msgid "You can start with simple arithmetic"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:70
+#: ../../build/doc/quickstart/R_quickstart.rst:70
 msgid "And so on. A full range of arithmetic, trigonometric, and statistical functions are built in, and thousands more are available from packages in the `CRAN <http://cran.r-project.org/>`_ archive."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:74
+#: ../../build/doc/quickstart/R_quickstart.rst:74
 msgid "The main prompt in R is ``>``, but there is also the continuation prompt, ``+``, which appears if R expects more input to make a valid expression. You'll see this if you forget a closing bracket or parenthesis."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:87
+#: ../../build/doc/quickstart/R_quickstart.rst:87
 msgid "Building Data"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:89
+#: ../../build/doc/quickstart/R_quickstart.rst:89
 msgid "You might be wondering what the mysterious 'one' in square brackets is doing in the output. This is telling you that the result is one number. R can store things in one-dimensional vectors, two-dimensional matrices, and multi-dimensional arrays. There are many functions that can generate these things. Here's a simple sequence:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:101
+#: ../../build/doc/quickstart/R_quickstart.rst:101
 msgid "Now you can see that the ``[9]`` is telling us that 4.555 is the ninth value in the vector."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:104
+#: ../../build/doc/quickstart/R_quickstart.rst:104
 msgid "If you construct a matrix you get row and column labels:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:115
+#: ../../build/doc/quickstart/R_quickstart.rst:115
 msgid "Elements of matrices can be extracted using square brackets, with row and column indices separated by commas. Leave an index blank to get a whole row as a vector. Use a vector index to get multiple rows or columns as a smaller matrix:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:133
+#: ../../build/doc/quickstart/R_quickstart.rst:133
 msgid "Data frames are data structures that mirror the kind of structure found in an RDBMS such as Postgres or MySQL. Each row can be thought of as a record, with columns being like fields in a database. As in a database, each field must be of the same type for each record."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:138
+#: ../../build/doc/quickstart/R_quickstart.rst:138
 msgid "In many ways they work like matrices, but you can also get and set the columns by name using $-notation:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:182
+#: ../../build/doc/quickstart/R_quickstart.rst:182
 msgid "Loading Map Data"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:184
+#: ../../build/doc/quickstart/R_quickstart.rst:184
 msgid "There are many packages for spatial data manipulation and statistics. Some are included here, and some can be downloaded from CRAN."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:187
+#: ../../build/doc/quickstart/R_quickstart.rst:187
 msgid "Here we will load two shapefiles - the country boundaries and populated places from the Natural Earth data. We use two add-on packages to get the spatial functionality:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:200
+#: ../../build/doc/quickstart/R_quickstart.rst:200
 msgid "This gives us a simple map of the world:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:204
+#: ../../build/doc/quickstart/R_quickstart.rst:204
 msgid "When an OGR dataset is read into R in this way we get back an object that behaves in many ways like a data frame. We can use the ``admin`` field to subset the world data and just get the UK:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:215
+#: ../../build/doc/quickstart/R_quickstart.rst:215
 msgid "This looks a bit squashed to anyone who lives here, since we are more familiar with a coordinate system centred at our latitude. Currently the object doesn't have a coordinate system assigned to it - we can check this with some more functions:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:224
+#: ../../build/doc/quickstart/R_quickstart.rst:224
 msgid "``NA`` is a missing data marker. We need to assign a CRS to the object before we can transform it with the spTransform function from the rgdal package. We transform to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:239
+#: ../../build/doc/quickstart/R_quickstart.rst:239
 msgid "This plots the base map of the transformed data. Now we want to add some points from the populated place data set. Again we subset the points we want and transform them to Ordnance Survey Grid Reference coordinates:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:249
+#: ../../build/doc/quickstart/R_quickstart.rst:249
 msgid "We add these points to the base map, scaling their size by scaled square root of the population (because that makes a symbol with area proportional to population), set the colour to red and the plotting character to a solid blob: ::"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:257
+#: ../../build/doc/quickstart/R_quickstart.rst:257
 msgid "and our final image appears:"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:262
+#: ../../build/doc/quickstart/R_quickstart.rst:262
 msgid "Vignettes"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:264
+#: ../../build/doc/quickstart/R_quickstart.rst:264
 msgid "In the past the documentation for R packages tended to be tersely-written help pages for each function. Now package authors are encouraged to write a 'vignette' as a friendly introduction to the package. If you just run the ``vignette()`` function with no arguments you will get the list of those vignettes on your system. Try ``vignette(\"intro_sp\")`` for a slightly technical introduction to the R spatial package. The ``vignette(\"gstat\")`` gives a tutorial in the use of that package for spatial interpolation including Kriging."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:274
+#: ../../build/doc/quickstart/R_quickstart.rst:274
 msgid "Further Reading"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:276
+#: ../../build/doc/quickstart/R_quickstart.rst:276
 msgid "For general information about R, try the official `Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <http://www.r-project.org/>`_ page."
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:278
+#: ../../build/doc/quickstart/R_quickstart.rst:278
 msgid "For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <http://cran.r-project.org/web/views/Spatial.html>`_"
 msgstr ""
 
-#: ../../../quickstart/R_quickstart.rst:280
+#: ../../build/doc/quickstart/R_quickstart.rst:280
 msgid "You might also want to check out the `R-Spatial <http://r-spatial.sourceforge.net/>`_ page on sourceforge for some more links including information about the R-sig-Geo mailing list."
 msgstr ""
 

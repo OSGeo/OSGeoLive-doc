@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,55 +16,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../quickstart/internationalisation_quickstart.rst:10
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
 msgid "OSGeo-Live Internationalisation Quickstart"
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:13
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
 msgid "Switching Language"
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:15
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:15
 msgid "Many common languages are included on OSGeo-Live. To switch languages:"
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:17
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:17
 msgid "Log out"
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:18
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:18
 msgid "Select user=\"user\", password=\"user\""
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:19
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:19
 msgid "Select another language from the top panel menu."
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:20
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:20
 msgid "Press the :guilabel:`Log in` button."
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:21
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
 msgid "Repeat the process if needed or if you wish to change languages again."
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:27
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:27
 msgid "The system menus and many of the applications will now appear in the language chosen. If a specific program continues to display in English, then the program doesn't have a translation available - please consider volunteering to write a translation. Contact the program of interest directly for more information."
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:33
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:33
 msgid "For additional languages see :menuselection:`Preferences --> Language Support` from the main menu. (Requires an internet connection)."
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:37
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:37
 msgid "Keyboard Support"
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:38
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:38
 msgid "International keyboard support is installed, but you will need to configure the system for your specific keyboard. To change settings open :menuselection:`Preferences --> Keyboard Input Methods` from the main menu and click on the :guilabel:`Input Method` tab. Next click on :guilabel:`Customize active input methods` and then on the :guilabel:`Select an input method` button. Now click the :guilabel:`Add` button on the right to add an additional layout and then :guilabel:`Close` the IBus Preferences window."
 msgstr ""
 
-#: ../../../quickstart/internationalisation_quickstart.rst:47
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:47
 msgid "You can now click on the keyboard icon on the lower desktop menu bar to select the active keyboard layout."
 msgstr ""
 

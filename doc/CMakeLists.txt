@@ -71,6 +71,23 @@ message(STATUS "SPHINX_OPTS=${SPHINX_OPTS}")
 
 set(LATEX_PAPER_SIZE " -D latex_paper_size=${LATEX_PAPER_SIZE}")
 
+
+if (LOCALE)
+    add_custom_target(locale
+        COMMAND ${SPHINX_EXECUTABLE} 
+        -b gettext
+        -c "${CMAKE_CURRENT_BINARY_DIR}" 
+        "${CMAKE_CURRENT_BINARY_DIR}" 
+        "${CMAKE_SOURCE_DIR}/locale/pot" 
+
+        COMMAND sphinx-intl update -p ${CMAKE_SOURCE_DIR}/locale/pot -d ${CMAKE_SOURCE_DIR}/locale --language=${SPHINXINTL_LANGUAGE}
+
+        COMMENT "Generating POT & PO files ..."
+        #SOURCES ${PgRouting_DOC_FILES}
+        )
+endif()
+
+
 add_custom_target(doc
     COMMENT "Building documentation with Sphinx")
 
@@ -91,7 +108,6 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             -c "${CMAKE_CURRENT_BINARY_DIR}"
             -D language='${lang}'
 
-
             # the location of the documentation to be build
             "${CMAKE_CURRENT_BINARY_DIR}"
 
@@ -101,11 +117,11 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
         add_dependencies("${target}" "${target}-${lang}")
     endforeach()
-        add_dependencies(doc "${target}")
+    add_dependencies(doc "${target}")
 endforeach()
 
 
-if (LOCALE)
+if (FALSE)
     add_custom_target(locale ALL
         COMMENT "Building documentation with Sphinx")
     add_custom_command(
@@ -143,5 +159,5 @@ if (LOCALE)
         And read README.md
         ********************************")
 
-    add_dependencies(doc locale)
-endif()
+        add_dependencies(doc locale)
+    endif()

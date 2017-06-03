@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,127 +16,127 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../overview/josm_overview.rst:13
+#: ../../build/doc/overview/josm_overview.rst:13
 msgid "JOSM"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:16
+#: ../../build/doc/overview/josm_overview.rst:16
 msgid "Desktop Editor for OpenStreetMap data"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:18
+#: ../../build/doc/overview/josm_overview.rst:18
 msgid "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap (OSM) data, written in Java."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:20
+#: ../../build/doc/overview/josm_overview.rst:20
 msgid "It supports loading stand-alone GPX tracks and GPX track data as well as editing existing nodes (points), ways (lines), metadata tags (name/value information) and relations (ordered sequence of points and lines) from the OSM database. GPX tracks, are usually downloaded in advance from a GPS receiver or from other sources."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:23
+#: ../../build/doc/overview/josm_overview.rst:23
 msgid "A number of specialised plugins have been written for JOSM, which are available for download and install."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:31
+#: ../../build/doc/overview/josm_overview.rst:31
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:33
+#: ../../build/doc/overview/josm_overview.rst:33
 msgid "Common GIS Desktop Interface tools:"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:35
+#: ../../build/doc/overview/josm_overview.rst:35
 msgid "Tool bar customization, View control (zoom, pan. etc), styles, icons and layers management."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:37
+#: ../../build/doc/overview/josm_overview.rst:37
 msgid "Download and upload OSM vector data."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:39
+#: ../../build/doc/overview/josm_overview.rst:39
 msgid "Open local data:"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:41
+#: ../../build/doc/overview/josm_overview.rst:41
 msgid "NMEA-0183 files: .nmea, .nme, .nma, .log, .txt"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:42
+#: ../../build/doc/overview/josm_overview.rst:42
 msgid "OSM files: .osm, .xlm, .osmbz2, .osmbz"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:43
+#: ../../build/doc/overview/josm_overview.rst:43
 msgid "OSM change file: .osc, .osc.bz2, .osc.bz, .osc.gz"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:44
+#: ../../build/doc/overview/josm_overview.rst:44
 msgid "images (.jpg)"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:46
+#: ../../build/doc/overview/josm_overview.rst:46
 msgid "Imagery:"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:48
+#: ../../build/doc/overview/josm_overview.rst:48
 msgid "Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest Open Aerial or any other WMS sources."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:50
+#: ../../build/doc/overview/josm_overview.rst:50
 msgid "Editing Tools:"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:52
+#: ../../build/doc/overview/josm_overview.rst:52
 msgid "Nodes: merge, join, unglue, distribute, align in circle, align in line, join node to way, and more."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:53
+#: ../../build/doc/overview/josm_overview.rst:53
 msgid "Ways: split, combine, reverse, simplify, unglue ways, and more."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:54
+#: ../../build/doc/overview/josm_overview.rst:54
 msgid "Areas: join overlapping areas, create multi-polygon, and more."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:56
+#: ../../build/doc/overview/josm_overview.rst:56
 msgid "Audio mapping: survey recording management."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:58
+#: ../../build/doc/overview/josm_overview.rst:58
 msgid "Photo mapping: survey pictures management."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:60
+#: ../../build/doc/overview/josm_overview.rst:60
 msgid "Plugins: A list of specialized plugins are available for download."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:64
+#: ../../build/doc/overview/josm_overview.rst:64
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:66
+#: ../../build/doc/overview/josm_overview.rst:66
 msgid "JOSM views WMS layers, but uses the `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM database."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:70
+#: ../../build/doc/overview/josm_overview.rst:70
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:72
+#: ../../build/doc/overview/josm_overview.rst:72
 msgid "**Website:** https://josm.openstreetmap.de/"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:74
+#: ../../build/doc/overview/josm_overview.rst:74
 msgid "**Licence:** GNU General Public License (GPL) version 2. Note: JOSM plugins may use other licences."
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:76
+#: ../../build/doc/overview/josm_overview.rst:76
 msgid "**Software Version:** r11427"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:78
+#: ../../build/doc/overview/josm_overview.rst:78
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/josm_overview.rst:80
+#: ../../build/doc/overview/josm_overview.rst:80
 msgid "**API Interfaces:** Java"
 msgstr ""
 

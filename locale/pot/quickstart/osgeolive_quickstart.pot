@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,95 +16,95 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../quickstart/osgeolive_quickstart.rst:9
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "OSGeo-Live Quickstart"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:11
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
 msgid "This Quick Start describes how to start OSGeo-Live from a DVD or USB."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:14
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:14
 msgid "System Requirements"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:16
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:16
 msgid "Your computer should have at least:"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:18
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
 msgid "RAM: 1 GB."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:19
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
 msgid "CPU: 1 GHz i686 or compatible (Intel/AMD)"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:20
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
 msgid "Hard Disk:"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:22
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:22
 msgid "None required if running directly from the DVD"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:23
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
 msgid "|osgeo-live-hdspace| if you wish to install the operating system."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:25
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:25
 msgid "Mouse: a 3-button mouse is useful, especially for Mac trackpad users."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:28
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:28
 msgid "Run:"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:30
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
 msgid "Source an OSGeo-Live DVD, ISO available from: [:doc:`Download <../download>`] Put the DVD into your computer's CD drive, then reboot your computer."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:33
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid "If your computer is set to boot from CD (as is often the case) you should boot up into a Lubuntu system, with Geospatial applications installed. Otherwise you'll have to adjust the BIOS boot settings or press the boot menu button just after powering-up."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:42
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
 msgid "Sit back while the system boots up."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:48
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:51
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:51
 msgid "See Also:"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:54
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "Getting started with Lubuntu and the LXDE desktop (which is used by OSGeo-Live):"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:54
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "https://help.ubuntu.com/community/Lubuntu/Documentation and http://wiki.lxde.org"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:56
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:57
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
 msgid "`local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and `extended online help <http://help.ubuntu.com/14.04/>`_"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:58
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
 msgid ":doc:`virtualization_quickstart`"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:59
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:59
 msgid ":doc:`osgeolive_install_quickstart`"
 msgstr ""
 
-#: ../../../quickstart/osgeolive_quickstart.rst:60
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:60
 msgid ":doc:`usb_quickstart`"
 msgstr ""
 

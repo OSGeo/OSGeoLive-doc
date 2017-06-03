@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,51 +16,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../overview/netcdf_dataset_overview.rst:12
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:12
 msgid "NetCDF Data Set"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:15
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:15
 msgid "Map Data"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:17
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:17
 msgid "NetCDF (Network Common Data Form) is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. NetCDF version 4.0 and above work with the HDF5 format, designed to store and organize large amounts of numerical data."
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:19
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:19
 msgid "This sample dataset supplies annual maximum of daily high temperature, and annual maximum consecutive five-day precipitation, both historical and predicted, for the years 1850-2012 and 2006-2100 (see accompanying text files for details)."
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:21
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:21
 msgid "Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consortium), in cooperation with AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan)."
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:31
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:31
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:33
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:33
 msgid "**Website:** http://www.pacificclimate.org/"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:35
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:35
 msgid "**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:37
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:37
 msgid "**Data Version:** 2013"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:39
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:39
 msgid "**Data format:** NetCDF, HDF5"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:41
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:41
 msgid "**Spatial coordinate system:** EPSG:4326, NAD83"
 msgstr ""
 
-#: ../../../overview/netcdf_dataset_overview.rst:43
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:43
 msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
 msgstr ""
 

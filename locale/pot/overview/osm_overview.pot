@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,111 +16,111 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../overview/osm_overview.rst:13
+#: ../../build/doc/overview/osm_overview.rst:13
 msgid "OpenStreetMap"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:16
+#: ../../build/doc/overview/osm_overview.rst:16
 msgid "Tools for mapping the world"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:18
+#: ../../build/doc/overview/osm_overview.rst:18
 msgid "`OpenStreetMap <https://www.openstreetmap.org>`_ is a project aimed squarely at creating and providing free geographic data such as street maps to anyone who wants them. The project was started because most maps you think of as free actually have legal or technical restrictions on their use, holding back people from using them in creative, productive or unexpected ways."
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:25
+#: ../../build/doc/overview/osm_overview.rst:25
 msgid "A number of programs have been included: JOSM, Merkaartor, Osmosis, Osm2pgsql, and a number of small command utilities. In addition recent sample data for the FOSS4G host city and a number of JOSM plugins have been included."
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:31
+#: ../../build/doc/overview/osm_overview.rst:31
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:38
+#: ../../build/doc/overview/osm_overview.rst:38
 msgid "Global massively crowd-sourced dataset"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:40
+#: ../../build/doc/overview/osm_overview.rst:40
 msgid "A number of editors to choose from"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:42
+#: ../../build/doc/overview/osm_overview.rst:42
 msgid "A number of renderers to choose from (including custom and online)"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:44
+#: ../../build/doc/overview/osm_overview.rst:44
 msgid "Free to use"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:46
+#: ../../build/doc/overview/osm_overview.rst:46
 msgid "Widespread geo-application integration"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:50
+#: ../../build/doc/overview/osm_overview.rst:50
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:52
+#: ../../build/doc/overview/osm_overview.rst:52
 msgid "**Website:** https://www.openstreetmap.org"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:54
+#: ../../build/doc/overview/osm_overview.rst:54
 msgid "**Licences:**"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:56
+#: ../../build/doc/overview/osm_overview.rst:56
 msgid "OpenStreetMap data: https://www.openstreetmap.org/copyright"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:58
+#: ../../build/doc/overview/osm_overview.rst:58
 msgid "JOSM: GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:62
+#: ../../build/doc/overview/osm_overview.rst:62
 msgid "JOSM plugins collection: Ranging from Public Domain to GPLv3"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:64
+#: ../../build/doc/overview/osm_overview.rst:64
 msgid "Merkaartor: GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:67
+#: ../../build/doc/overview/osm_overview.rst:67
 msgid "**Software Versions:**"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:69
+#: ../../build/doc/overview/osm_overview.rst:69
 msgid "JOSM: Latest stable snapshot (svn r11427)"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:71
+#: ../../build/doc/overview/osm_overview.rst:71
 msgid "Merkaartor: 0.18.2"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:73
+#: ../../build/doc/overview/osm_overview.rst:73
 msgid "Osmosis: 0.44.1"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:75
+#: ../../build/doc/overview/osm_overview.rst:75
 msgid "osm2pgsql: 0.88.1"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:78
+#: ../../build/doc/overview/osm_overview.rst:78
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:80
+#: ../../build/doc/overview/osm_overview.rst:80
 msgid "**API Interfaces (data):** REST (via Xapi), XML"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:82
+#: ../../build/doc/overview/osm_overview.rst:82
 msgid "**Support:** https://www.openstreetmap.org/help"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:86
+#: ../../build/doc/overview/osm_overview.rst:86
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/osm_overview.rst:88
+#: ../../build/doc/overview/osm_overview.rst:88
 msgid ":doc:`Quickstart documentation <../quickstart/osm_quickstart>`"
 msgstr ""
 

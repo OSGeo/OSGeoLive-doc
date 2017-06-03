@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,259 +16,259 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../../overview/mapserver_overview.rst:20
+#: ../../build/doc/overview/mapserver_overview.rst:20
 msgid "MapServer"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:23
+#: ../../build/doc/overview/mapserver_overview.rst:23
 msgid "Web Service"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:25
+#: ../../build/doc/overview/mapserver_overview.rst:25
 msgid "MapServer is an `Open Source <http://www.opensource.org>`_ geographic data rendering engine written in C. Beyond browsing GIS data, MapServer allows you create \"geographic image maps\", that is, maps that can direct users to web content. For example, the Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more than 10,000 web pages, reports and maps via a single application. The same application serves as a \"map engine\" for other portions of the site, providing spatial context where needed."
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:27
+#: ../../build/doc/overview/mapserver_overview.rst:27
 msgid "MapServer was originally developed by the University of Minnesota (UMN) ForNet project in cooperation with NASA, and the Minnesota Department of Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a NASA sponsored project between the UMN and a consortium of land management interests."
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:29
+#: ../../build/doc/overview/mapserver_overview.rst:29
 msgid "MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors."
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:32
+#: ../../build/doc/overview/mapserver_overview.rst:32
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:39
+#: ../../build/doc/overview/mapserver_overview.rst:39
 msgid "Advanced cartographic output"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:41
+#: ../../build/doc/overview/mapserver_overview.rst:41
 msgid "Scale dependent feature drawing and application execution"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:42
+#: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Feature labeling including label collision mediation"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:43
+#: ../../build/doc/overview/mapserver_overview.rst:43
 msgid "TrueType font support for labeling and symbolization"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:44
+#: ../../build/doc/overview/mapserver_overview.rst:44
 msgid "Map element automation (scalebar, reference map, and legend)"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:45
+#: ../../build/doc/overview/mapserver_overview.rst:45
 msgid "Thematic mapping using logical or regular expression-based classes"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:46
+#: ../../build/doc/overview/mapserver_overview.rst:46
 msgid "Plugable renderer support with drivers for AGG, Cairo and others"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:47
+#: ../../build/doc/overview/mapserver_overview.rst:47
 msgid "Special provisioning for tiled output generation"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:48
+#: ../../build/doc/overview/mapserver_overview.rst:48
 msgid "Mask Layers"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:49
+#: ../../build/doc/overview/mapserver_overview.rst:49
 msgid "Precise Symbol Placement"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:50
+#: ../../build/doc/overview/mapserver_overview.rst:50
 msgid "Complex Multi Label/Symbol Symbology"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:51
+#: ../../build/doc/overview/mapserver_overview.rst:51
 msgid "Vector Fields"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:52
+#: ../../build/doc/overview/mapserver_overview.rst:52
 msgid "Label Leader Offsetting"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:53
+#: ../../build/doc/overview/mapserver_overview.rst:53
 msgid "SVG Symbology"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:54
+#: ../../build/doc/overview/mapserver_overview.rst:54
 msgid "Multiple Font Support"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:55
+#: ../../build/doc/overview/mapserver_overview.rst:55
 msgid "Dynamic Heatmaps"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:56
+#: ../../build/doc/overview/mapserver_overview.rst:56
 msgid "UTF Grid Support"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:57
+#: ../../build/doc/overview/mapserver_overview.rst:57
 msgid "Layer Compositing"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:59
+#: ../../build/doc/overview/mapserver_overview.rst:59
 msgid "Sophisticated spatial query support"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:61
+#: ../../build/doc/overview/mapserver_overview.rst:61
 msgid "Identify features by attributes, point, bounding box or geometry across one or more layers"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:62
+#: ../../build/doc/overview/mapserver_overview.rst:62
 msgid "Support for raster queries"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:63
+#: ../../build/doc/overview/mapserver_overview.rst:63
 msgid "Fully customizable, template driven output"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:64
+#: ../../build/doc/overview/mapserver_overview.rst:64
 msgid "OGR-based query output generation"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:66
+#: ../../build/doc/overview/mapserver_overview.rst:66
 msgid "Support for popular scripting and development environments"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:68
+#: ../../build/doc/overview/mapserver_overview.rst:68
 msgid "CGI/FastCGI"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:69
+#: ../../build/doc/overview/mapserver_overview.rst:69
 msgid "PHP, Python, Perl, Ruby, Java, and .NET"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:71
+#: ../../build/doc/overview/mapserver_overview.rst:71
 msgid "Cross-platform support"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:73
+#: ../../build/doc/overview/mapserver_overview.rst:73
 msgid "Linux, Windows, Mac OS X, Solaris, and more"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:75
+#: ../../build/doc/overview/mapserver_overview.rst:75
 msgid "A multitude of raster and vector data formats"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:77
+#: ../../build/doc/overview/mapserver_overview.rst:77
 msgid "Native support for ESRI shapefiles, PostGIS and Oracle Spatial"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:78
+#: ../../build/doc/overview/mapserver_overview.rst:78
 msgid "Many other formats via GDAL and OGR"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:80
+#: ../../build/doc/overview/mapserver_overview.rst:80
 msgid "Map projection support"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:82
+#: ../../build/doc/overview/mapserver_overview.rst:82
 msgid "On-the-fly map projection with 1000s of projections through the Proj.4 library"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:85
+#: ../../build/doc/overview/mapserver_overview.rst:85
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:87
+#: ../../build/doc/overview/mapserver_overview.rst:87
 msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:89
+#: ../../build/doc/overview/mapserver_overview.rst:89
 msgid ":doc:`../standards/wms_overview` (client/server)"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:90
+#: ../../build/doc/overview/mapserver_overview.rst:90
 msgid ":doc:`../standards/wfs_overview` (non-transactional, client/server)"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:91
+#: ../../build/doc/overview/mapserver_overview.rst:91
 msgid "WMC"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:92
+#: ../../build/doc/overview/mapserver_overview.rst:92
 msgid ":doc:`../standards/wcs_overview`"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:93
+#: ../../build/doc/overview/mapserver_overview.rst:93
 msgid ":doc:`../standards/fe_overview`"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:94
+#: ../../build/doc/overview/mapserver_overview.rst:94
 msgid ":doc:`../standards/sld_overview`"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:95
+#: ../../build/doc/overview/mapserver_overview.rst:95
 msgid ":doc:`../standards/gml_overview`"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:96
+#: ../../build/doc/overview/mapserver_overview.rst:96
 msgid "SOS"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:97
+#: ../../build/doc/overview/mapserver_overview.rst:97
 msgid "OM"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:99
+#: ../../build/doc/overview/mapserver_overview.rst:99
 msgid "INSPIRE View Service compliant"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:102
+#: ../../build/doc/overview/mapserver_overview.rst:102
 msgid "Demo"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:104
+#: ../../build/doc/overview/mapserver_overview.rst:104
 msgid "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:107
+#: ../../build/doc/overview/mapserver_overview.rst:107
 msgid "Documentation"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:109
+#: ../../build/doc/overview/mapserver_overview.rst:109
 msgid "`MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:112
+#: ../../build/doc/overview/mapserver_overview.rst:112
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:114
+#: ../../build/doc/overview/mapserver_overview.rst:114
 msgid "**Website:** http://www.mapserver.org/"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:116
+#: ../../build/doc/overview/mapserver_overview.rst:116
 msgid "**Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:118
+#: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "**Software Version:** |version-mapserver|"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:120
+#: ../../build/doc/overview/mapserver_overview.rst:120
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:122
+#: ../../build/doc/overview/mapserver_overview.rst:122
 msgid "**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:124
+#: ../../build/doc/overview/mapserver_overview.rst:124
 msgid "**Support:** http://mapserver.org/community/"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:127
+#: ../../build/doc/overview/mapserver_overview.rst:127
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/mapserver_overview.rst:129
+#: ../../build/doc/overview/mapserver_overview.rst:129
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ""
 
