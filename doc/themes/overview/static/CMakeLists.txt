@@ -3,12 +3,15 @@
 # needed in osgeolive.js
 #---------------------------------------------
 
-set(OSGeoLiveDoc_INSTALLED_LANGUAGES ${OSGeoLiveDoc_ENGLISH})
-foreach (lang ${OSGeoLiveDoc_LANGUAGES})
-    set(OSGeoLiveDoc_INSTALLED_LANGUAGES "${OSGeoLiveDoc_INSTALLED_LANGUAGES}, ${lang}")
+foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
+    if (NOT ${lang} MATCHES "en")
+        set(OSGeoLiveDoc_INSTALLED_LANGUAGES "${OSGeoLiveDoc_INSTALLED_LANGUAGES},")
+    endif()
+
+    set(OSGeoLiveDoc_INSTALLED_LANGUAGES "${OSGeoLiveDoc_INSTALLED_LANGUAGES} ${lang}")
 endforeach()
 
-message(STATUS "OSGeoLiveDoc_INSTALLED_LANGUAGES = ${OSGeoLiveDoc_INSTALLED_LANGUAGES}")
+message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}: OSGeoLiveDoc_INSTALLED_LANGUAGES = ${OSGeoLiveDoc_INSTALLED_LANGUAGES}")
 
 
 

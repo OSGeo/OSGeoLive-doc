@@ -55,7 +55,16 @@ option(OSGeoLiveDoc_VERBOSE_DEBUG
 
 
 #---------------------------------------------
+#---------------------------------------------
+#---------------------------------------------
+#---------------------------------------------
+
 # Kind of output
+# http://www.sphinx-doc.org/en/stable/builders.html
+
+#---------------------------------------------
+#---------------------------------------------
+#---------------------------------------------
 #---------------------------------------------
 option(ALL_DOC
     "Set ON|OFF (default=OFF) to build all documentation styles (exept LOCALE)" OFF)
@@ -64,7 +73,9 @@ option(HTML
     "Set ON|OFF (default=OFF) to build Documentation library tree as HTML" OFF)
 
 option(DIRHTML
-    "Set ON|OFF (default=OFF) to build Documentation library tree as DIRHTML" OFF)
+    "Set ON|OFF (default=OFF) to build Documentation library tree as DIRHTML
+    STATUS: the navigation does not work " OFF
+    )
 
 option(PICKLE
     "Set ON|OFF (default=OFF) to build Documentation library tree as PICKLE" OFF)
@@ -75,41 +86,54 @@ option(JSON
 option(HTMLHELP
     "Set ON|OFF (default=OFF) to build Documentation library tree as HTMLHELP page" OFF)
 
+option(DUMMY
+    "Set ON|OFF (default=OFF) to build Documentation library tree as DUMMY page" OFF)
+
 option(LATEX
     "Set ON|OFF (default=OFF) to build Documentation library tree as LATEX page" OFF)
 
-option(LATEXPDF
-    "Set ON|OFF (default=OFF) to build Documentation library tree as LATEXPDF page" OFF)
+#option(LATEXPDF
+#    "Set ON|OFF (default=OFF) to build Documentation library tree as LATEXPDF page" OFF)
 
 option(LOCALE
     "Set ON|OFF (default=OFF) to build the locale files of all languages.
     All other options are ignored
-    All supported languages are considered" OFF)
+    All supported languages are considered" OFF
+    )
 
-if (NOT LOCALE)
-    # currently tested HTML
-    # TODO foreach(opt HTML DIRHTML PICKLE JSON HTMLHELP LATEX LATEXPDF)
-    foreach(opt HTML)
-        if (${${opt}} OR ALL_DOC)
-            string(TOLOWER ${opt} val)
-            list(APPEND OSGeoLiveDoc_DOC_TARGETS ${val})
-        endif()
-    endforeach()
-endif()
+foreach(opt HTML DIRHTML PICKLE JSON HTMLHELP LATEX)
+    if (${${opt}} OR ALL_DOC)
+        string(TOLOWER ${opt} val)
+        list(APPEND OSGeoLiveDoc_DOC_TARGETS ${val})
+    endif()
+endforeach()
 
 message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 
 
 
 
+
 #---------------------------------------------
-# Language options
+#---------------------------------------------
+#---------------------------------------------
+
+# LANGUAGES SETINGS
+
+#---------------------------------------------
+#---------------------------------------------
+#---------------------------------------------
+
+#---------------------------------------------
+# Avaliable Languages
 # English is allways built
 #---------------------------------------------
-# Languages to be used
 set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "el"  "es"  "fr"  "hu"  "id"  "it"  "ja"  "ko"  "pl"  "ru"  "zh")
 set(OSGeoLiveDoc_ENGLISH "en")
 
+#---------------------------------------------
+# Language options
+#---------------------------------------------
 option(ALL_LANG
     "Set ON|OFF (default=OFF) to build all documentation supported languages
     ${OSGeoLiveDoc_SUPPORTED_LANGUAGES}" OFF)
@@ -120,17 +144,21 @@ foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
         "Set ON|OFF (default=OFF) build ${lang} Documentation" OFF)
 endforeach()
 
-if(NOT LOCALE)
-    foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
-        string(TOUPPER ${lang} opt)
-        if (${opt} OR ALL_LANG)
-            list(APPEND OSGeoLiveDoc_LANGUAGES ${lang})
-        endif()
-    endforeach()
-endif()
+#---------------------------------------------
+# Catching the language options to be build
+#---------------------------------------------
+list(APPEND OSGeoLiveDoc_BUILD_LANGUAGES  ${OSGeoLiveDoc_ENGLISH})
+foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
+    string(TOUPPER ${lang} opt)
+    if (${opt} OR ALL_LANG)
+        list(APPEND OSGeoLiveDoc_BUILD_LANGUAGES ${lang})
+    endif()
+endforeach()
 
-message(STATUS "OSGeoLiveDoc_LANGUAGES = ${OSGeoLiveDoc_LANGUAGES} ${OSGeoLiveDoc_ENGLISH}")
 
+#---------------------------------------------
+# All languages po files are to be generated
+#---------------------------------------------
 set (SPHINXINTL_LANGUAGE  ${OSGeoLiveDoc_ENGLISH})
 if(LOCALE)
     foreach(lang ${OSGeoLiveDoc_SUPPORTED_LANGUAGES})
@@ -139,9 +167,33 @@ if(LOCALE)
     set(OSGeoLiveDoc_LANGUAGES ${OSGeoLiveDoc_ENGLISH})
 endif()
 
+
+#------------------------------------------
+# Used to generate the languages bar
+#------------------------------------------
+MACRO(INSERT_INTO_MAP _KEY _VALUE)
+    SET("LangMap_${_KEY}" "${_VALUE}")
+ENDMACRO(INSERT_INTO_MAP)
+
+INSERT_INTO_MAP("ca" "Català")
+INSERT_INTO_MAP("de" "Deutsch")
+INSERT_INTO_MAP("el" "Ελληνικά")
+INSERT_INTO_MAP("en" "English")
+INSERT_INTO_MAP("es" "Español")
+INSERT_INTO_MAP("fr" "Français")
+INSERT_INTO_MAP("hu" "missing")
+INSERT_INTO_MAP("id" "Bahasa Indonesia")
+INSERT_INTO_MAP("it" "Italiano")
+INSERT_INTO_MAP("ja" "日本語")
+INSERT_INTO_MAP("ko" "한국어")
+INSERT_INTO_MAP("pl" "Polski")
+INSERT_INTO_MAP("pt" "Portugus")
+INSERT_INTO_MAP("ru" "Русский")
+INSERT_INTO_MAP("zh" "中文")
+
+
+message(STATUS "OSGeoLiveDoc_BUILD_LANGUAGES = ${OSGeoLiveDoc_BUILD_LANGUAGES}")
 message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
-
-
 
 #---------------------------------------------
 #---------------------------------------------
@@ -198,17 +250,17 @@ set(OSGeoLiveDoc_STANDARDS
     )
 
 if(FALSE)
-# Quickstart only
-set(OSGeoLiveDoc_QUICKSTART
-    ${OSGeoLiveDoc_PROJECTS}
-    "internationalisation"
-    "osgeolive_install"
-    "osgeolive"
-    "usb"
-    "virtualbox"
-    "virtualization"
-    "vmware"
-    )
+    # Quickstart only
+    set(OSGeoLiveDoc_QUICKSTART
+        ${OSGeoLiveDoc_PROJECTS}
+        "internationalisation"
+        "osgeolive_install"
+        "osgeolive"
+        "usb"
+        "virtualbox"
+        "virtualization"
+        "vmware"
+        )
 endif()
 
 configure_file("settings.py" "settings.py")

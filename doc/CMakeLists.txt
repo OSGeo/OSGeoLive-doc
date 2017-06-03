@@ -18,7 +18,8 @@ set(OSGeoLiveDoc_FILES
     "mac_installers.rst"
     "presentation.rst"
     "sponsors_osgeo.rst"
-    "win_installers.rst")
+    "win_installers.rst"
+    )
 
 
 #---------------------
@@ -30,7 +31,8 @@ set(OSGeoLiveDoc_SUBDIRS
     "presentation"
     "quickstart"
     "overview"
-    "standards")
+    "standards"
+    )
 
 
 
@@ -83,7 +85,6 @@ if (LOCALE)
         COMMAND sphinx-intl update -p ${CMAKE_SOURCE_DIR}/locale/pot -d ${CMAKE_SOURCE_DIR}/locale --language=${SPHINXINTL_LANGUAGE}
 
         COMMENT "Generating POT & PO files ..."
-        #SOURCES ${PgRouting_DOC_FILES}
         )
 endif()
 
@@ -95,13 +96,9 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
     add_custom_target(${target} ALL
         COMMENT "Building documentation with Sphinx")
 
-    foreach (lang ${OSGeoLiveDoc_ENGLISH} ${OSGeoLiveDoc_LANGUAGES})
-
-        add_custom_target("${target}-${lang}" ALL
-            COMMENT "Building ${DOC_TARGET}/${lang} documentation with Sphinx")
-
-        add_custom_command(
-            TARGET "${target}-${lang}" POST_BUILD
+    foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
+        add_custom_target(
+            "${target}-${lang}" 
             COMMAND ${SPHINX_EXECUTABLE}
 
             -b ${target}
@@ -112,52 +109,10 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             "${CMAKE_CURRENT_BINARY_DIR}"
 
             #where the documentations is written
-            "${CMAKE_CURRENT_BINARY_DIR}/${target}/${lang}"
+            "${SPHINX_BUILD_DIR}/${target}/${lang}"
             COMMENT "Generating ${target}/${lang} documentation ...")
-
         add_dependencies("${target}" "${target}-${lang}")
     endforeach()
     add_dependencies(doc "${target}")
 endforeach()
 
-
-if (FALSE)
-    add_custom_target(locale ALL
-        COMMENT "Building documentation with Sphinx")
-    add_custom_command(
-        TARGET locale POST_BUILD
-
-        COMMAND ${SPHINX_EXECUTABLE}
-        -b gettext
-        -c "${CMAKE_CURRENT_BINARY_DIR}"
-
-        # the location of the documentation to be build
-        "${CMAKE_CURRENT_BINARY_DIR}"
-
-        "${SPHINX_BUILD_DIR}/gettext/pot"
-
-        COMMAND
-        sphinx-intl update
-        -p  "${SPHINX_BUILD_DIR}/gettext/pot"
-        -d  "${SPHINX_BUILD_DIR}/gettext"
-        --language=${SPHINXINTL_LANGUAGE}
-
-
-
-        COMMENT "Generating pot files for ${OSGeoLiveDoc_LOCALE_LANG} ...")
-
-
-    message(STATUS
-        "*******************************
-        after:
-
-        make locale
-
-        POST PROCESSING
-        NOT AUTOMATICALLY DONE YET
-        GO TO root/of/repo/locale
-        And read README.md
-        ********************************")
-
-        add_dependencies(doc locale)
-    endif()
