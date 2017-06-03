@@ -40,7 +40,7 @@ script:
   - cd build
   - cmake -DLOCALE=ON -DALL_DOC=ON -DALL_LANG=ON ..
   #- make locale
-  - make doc
+  - make html
 
 
 #after_script: 
