@@ -127,8 +127,13 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 #---------------------------------------------
 # Avaliable Languages
 # English is allways built
+
+# list of sphinx languges support
+# http://www.sphinx-doc.org/en/stable/config.html#confval-language
+# TODO: figure out how to support this
+#  "el"   "hu"  "id"  "zh")
 #---------------------------------------------
-set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "el"  "es"  "fr"  "hu"  "id"  "it"  "ja"  "ko"  "pl"  "ru"  "zh")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "es"  "fr"  "it"  "ja"  "ko"  "pl"  "ru")
 set(OSGeoLiveDoc_ENGLISH "en")
 
 #---------------------------------------------
