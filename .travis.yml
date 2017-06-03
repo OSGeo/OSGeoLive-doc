@@ -38,7 +38,7 @@ install:
 script: 
   - mkdir build
   - cd build
-  - cmake -DLOCALE -DALL_DOC=ON -DALL_LANG=ON ..
+  - cmake -DLOCALE=ON -DALL_DOC=ON -DALL_LANG=ON ..
   - make locale
   - make doc
 
