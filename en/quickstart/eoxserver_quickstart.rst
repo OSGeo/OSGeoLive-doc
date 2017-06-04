@@ -1,7 +1,8 @@
 :Author: OSGeo-Live 
-:Author: Stephan Meissl, Stephan Krause
-:Reviewer: Angelos Tzotsos
-:Version: osgeo-live7.0
+:Author: Stephan Meissl
+:Author: Stephan Krause
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-eoxserver-2.png
