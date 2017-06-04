@@ -81,8 +81,8 @@ Getting Started
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2015-05-01T00:30:00.000+00:00</gml:beginPosition>
-                          <gml:endPosition>2015-05-31T23:00:00.000+00:00</gml:endPosition>
+                          <gml:beginPosition>2017-02-28T23:45:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2017-03-01T23:45:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>

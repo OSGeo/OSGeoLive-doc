@@ -37,6 +37,10 @@ Funktionalität
 * **JavaScript-Anwendung**: Der SOS beinhaltet eine JavaScript-Anwendung
   zur Darstellung von Zeitreihen-Daten. Mit dessen Hilfe können Zeitreihen ohne
   zusätzliche Software visualisiert werden.
+* **Helgoland**: Der SOS beinhaltet die Anwendung Helgoland. Diese kann für die
+  Erkundung, Analyse und Visualisierung von Sensor-Web-Daten verschiedener Themen
+  wie z.B. Hydrologie, Meterologie, Umwelt-Überwachung und Verkehrsverwaltung
+  verwendet werden.
 * **Spezifikation**: Der vorliegende 52°North SOS implementiert die aktuelle Spezifikationsversion
   (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die
   beiden Standard-Versionen die jeweils implementierten Operationen aufgelistet.

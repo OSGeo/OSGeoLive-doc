@@ -36,6 +36,9 @@ Features
 * **JavaScript Client**: The SOS contains a JavaScript application for
   displaying time series data. With its help, time series will be visualized
   without any additional software.
+* **Helgoland**: The SOS contains the Helgoland application for  the exploration,
+  analysis and visualization of sensor web data in various fields of use, e.g.
+  hydrology, meteorology, environmental monitoring, traffic management.
 * **Specifications**: The 52°North SOS implements the current specification version 2.0.0 and the
   previous version 1.0.0 (here no transactional operations). Listed below are
   implemented operations for each standard version.
