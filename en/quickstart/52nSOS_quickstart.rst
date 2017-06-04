@@ -1,6 +1,7 @@
-﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer:
-:Version: osgeo-live10.0
+﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Simon Jirka (s.jirka@52north.org)
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -36,7 +37,7 @@ Getting Started
    http://localhost:8080/52nSOS/ (see Fig. 1).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_start.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: 52°North SOS client welcome page
   :align: center
 
@@ -49,7 +50,7 @@ Getting Started
    queries.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: 52°North SOS client - test client with GetCapabilities request
   :align: center
 
@@ -103,7 +104,7 @@ Things to Try
 * Try the `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (see Fiq. 3).
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: 52°North SOS client - JavaScript client with time series data
   :align: center
 
