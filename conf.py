@@ -267,7 +267,7 @@ rst_epilog="""
 .. |version-kosmo| replace:: 3.1
 .. |version-leaflet| replace:: 0.7.3
 .. |version-liblas| replace:: 1.8.1
-.. |version-mapbender| replace:: 3.0.5.3
+.. |version-mapbender| replace:: 3.0.6.1
 .. |version-mapnik| replace:: 3.0.11
 .. |version-mapproxy| replace:: 1.9.0
 .. |version-mapserver| replace:: 7.0.4
