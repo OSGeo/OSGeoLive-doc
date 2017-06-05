@@ -45,6 +45,7 @@ You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The servic
 The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer. 
 
 .. figure:: ../../images/screenshots/800x600/mapproxy_udig.png
+  :scale: 70 %
   :alt: MapProxy example in uDig
   :align: center
   
