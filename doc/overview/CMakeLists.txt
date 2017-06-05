@@ -14,7 +14,8 @@ endforeach()
 
 set(LOCAL
     "toc.rst"
-    "overview.rst")
+    #"overview.rst"
+    )
 
 foreach (f ${LOCAL} )
     if (OSGeoLiveDoc_VERBOSE_DEBUG)
@@ -22,3 +23,22 @@ foreach (f ${LOCAL} )
     endif()
     configure_file("${f}" "${f}")
 endforeach()
+
+configure_file(build_overview.pl build_overview.pl @ONLY)
+
+if (TRUE)
+#TODO find perl
+add_custom_command(
+    OUTPUT overview.rst
+    COMMAND perl ./build_overview.pl
+    #COMMAND ${PERL_EXECUTABLE} ./build_overview.pl
+    DEPENDS 
+    ./build_overview.pl
+    ${CMAKE_SOURCE_DIR}/projects_info.txt
+    )
+
+add_custom_target(overview ALL
+    DEPENDS overview.rst
+    )
+endif()
+

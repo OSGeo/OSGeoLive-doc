@@ -211,43 +211,58 @@ message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
 #---------------------------------------------
 
 # Y = to document | name | version | q = has quickstart | o = has overview
-file(STRINGS project_versions.txt OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
+file(STRINGS projects_info.txt OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
 set (OSGeoLiveDoc_PROJECTS_VERSIONS "")
+set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
 foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
-    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\1" pdocumented ${line})
-    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\2" pname ${line})
-    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\3" pversion ${line})
-    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\4" pquick ${line})
-    string(REGEX REPLACE "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)" "\\5" poverview ${line})
+    #Skipping comments
+    string(REGEX REPLACE "^(#).*" "\\1" is_comment ${line})
+    string(STRIP ${is_comment} is_comment)
+    if (${is_comment} MATCHES "#")
+        continue()
+    endif()
 
-    string(STRIP ${pdocumented} pdocumented)
-    string(STRIP ${pname} pname)
-    string(STRIP ${pversion} pversion)
-    string(STRIP ${pquick} pquick)
-    string(STRIP ${poverview} poverview)
+    # TODO define what is usefull at this moment
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\1" wantDoc ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\2" project_name ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\3" project_version ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\4" want_quickstart ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\5" want_overview ${line})
+    #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\6" project_classification ${line})
+    #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\7" retired_on ${line})
 
+    string(STRIP ${wantDoc} wantDoc)
+    string(STRIP ${project_name} project_name)
+    string(STRIP ${project_version} project_version)
+    string(STRIP ${want_quickstart} want_quickstart)
+    string(STRIP ${want_overview} want_overview)
 
-    string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${pname}| replace:: ${pversion}\n")
-    if (NOT "${pdocumented}" MATCHES "Y") 
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "${wantDoc} \t${project_name} \t${project_version} \twant_quickstart:${want_quickstart} \twant_overview:${want_overview}")
+    endif()
+
+    string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_name}| replace:: ${project_version}\n")
+    if (NOT "${wantDoc}" MATCHES "Y") 
         if (OSGeoLiveDoc_VERBOSE_DEBUG)
-            message(STATUS "${pname} is not for documentation")
+            message(STATUS "${project_name} is not for documentation")
         endif()
         continue()
     endif()
 
-    if (OSGeoLiveDoc_VERBOSE_DEBUG)
-        message(STATUS "${pdocumented} \t${pname} \t${pversion} \t${pquick} \t${poverview}")
-    endif()
 
-    if ("${pquick}" MATCHES "q")
-        list(APPEND OSGeoLiveDoc_QUICKSTART "${pname}")
+    if ("${want_quickstart}" MATCHES "Y")
+        list(APPEND OSGeoLiveDoc_QUICKSTART "${project_name}")
     endif()
-    if ("${poverview}" MATCHES "o")
-        list(APPEND OSGeoLiveDoc_OVERVIEW "${pname}")
+    if ("${want_overview}" MATCHES "Y")
+        list(APPEND OSGeoLiveDoc_OVERVIEW "${project_name}")
     endif()
-
 endforeach()
+
+if (OSGeoLiveDoc_VERBOSE_DEBUG)
+    message(STATUS "OSGeoLiveDoc_QUICKSTART=${OSGeoLiveDoc_QUICKSTART}")
+    message(STATUS "OSGeoLiveDoc_OVERVIEW=${OSGeoLiveDoc_OVERVIEW}")
+endif()
 
 set(OSGeoLiveDoc_STANDARDS
     "csw"  "gml"  "sld"  "wcs"  "wms"
