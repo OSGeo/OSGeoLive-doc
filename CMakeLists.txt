@@ -64,14 +64,9 @@ if(NOT PERL_EXECUTABLE)
 endif(NOT PERL_EXECUTABLE)
 
 execute_process(
-    COMMAND ${PERL_EXECUTABLE} -MDatetime -e ""
+    COMMAND ${PERL_EXECUTABLE} -MDateTime -e ""
     ERROR_QUIET RESULT_VARIABLE DATETIME_STAUS
     )
-if(STATUS)
-    message(FATAL_ERROR "Could not find perl's Datetime module.")
-endif()
-
-
 
 
 #---------------------------------------------

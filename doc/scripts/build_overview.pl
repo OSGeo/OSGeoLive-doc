@@ -6,7 +6,6 @@ eval 'exec /usr/bin/perl -S $0 ${1+"$@"}'
 use strict;
 use Data::Dumper;
 use File::Find ();
-use DateTime;
 
 
 use vars qw/*name *dir *prune/;
@@ -158,12 +157,11 @@ sub write_script {
 
 
     print "sections =\n$sections" if $DEBUG;
-    my $today = DateTime->now;
     # write out the header and the commands to clean up the old extension
     print OUT <<EOF;
 
-.. OSGeo-Live overview file, created by
-   build_overview.pl on $today.
+.. OSGeo-Live overview file, created by:
+   build_overview.pl
 
 |osgeo-live-version| Contents
 ================================================================================
