@@ -160,6 +160,8 @@ a few resources to check out next:
   <https://eoxserver.readthedocs.org/en/latest/users/index.html>`_ starting from
   the `EOxServer Basics
   <https://eoxserver.readthedocs.org/en/latest/users/basics.html>`_.
+* If you are already in the OSGeo-Live environment, read the local copy of the `EOxServer Users' documentation
+  <https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_
 * Ready to use EOxServer? Then join the community on the `mailing lists 
   <https://eoxserver.readthedocs.org/en/latest/users/mailing_lists.html>`_ to 
   exchange ideas, discuss potential software improvements, and ask questions.
