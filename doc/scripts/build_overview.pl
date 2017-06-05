@@ -41,17 +41,17 @@ print "Building the overview.txt files\n" if $DEBUG;
 my $configuration = read_and_parse_configuration($projects_info_file);
 
 print "\ngenerating 'overview.rst' file\n" if $DEBUG;
-my @sections = ();
-push @sections , get_section("Desktop GIS", $configuration);
-push @sections , get_section("Browser Facing GIS", $configuration);
-push @sections , get_section("Web Services", $configuration);
-push @sections , get_section("Data Stores", $configuration);
-push @sections , get_section("Navigation and Maps", $configuration);
-push @sections , get_section("Spatial Tools", $configuration);
-push @sections , get_section("Domain Specific GIS", $configuration);
-push @sections , get_section("Data", $configuration);
-push @sections , get_section("Other software of interest (not available Live)", $configuration);
-write_script(@sections);
+my $sections;
+$sections .= get_section("Desktop GIS", $configuration);
+$sections .= get_section("Browser Facing GIS", $configuration);
+$sections .= get_section("Web Services", $configuration);
+$sections .= get_section("Data Stores", $configuration);
+$sections .= get_section("Navigation and Maps", $configuration);
+$sections .= get_section("Spatial Tools", $configuration);
+$sections .= get_section("Domain Specific GIS", $configuration);
+$sections .= get_section("Data", $configuration);
+$sections .= get_section("Other software of interest (not available Live)", $configuration);
+write_script($sections);
 exit 0;
 
 
@@ -102,14 +102,15 @@ sub read_and_parse_configuration {
 sub get_section {
     my ($section, $configuration) = @_;
 
-    my @toctree = ();
-    my @bullets = ();
-    my @contents = ();
+    my $toctree;
+    my $bullets;
+    my $contents;
 
     my $section_data = $configuration->{$section};
-    push @contents,"$section\n---------------------------------------------------------------\n\n";
-    push @toctree,".. toctree::\n";
-    push @toctree,"    :maxdepth: 1\n\n";
+    $contents .= "$section\n---------------------------------------------------------------\n\n";
+    $toctree .= ".. toctree::\n";
+    $toctree .= "    :hidden:\n\n";
+    #$toctree .= "    :maxdepth: 1\n\n";
 
     foreach my $line (@{$section_data}) {
         $line =~ s/\s*$//;
@@ -118,46 +119,45 @@ sub get_section {
 
         # Handling the overview
         if($values[4] =~ "Y") {
-            push @toctree,"    $values[1]_overview\n";
-            push @bullets,"* :doc:`$values[1]_overview` "
+            $toctree .= "    $values[1]_overview\n";
+            $bullets .= "* :doc:`$values[1]_overview` "
         }
 
         # Handling the quickstart
         if($values[3] =~ "Y") {
-            push @toctree,"    ../quickstart/$values[1]_quickstart\n";
-            push @bullets,"- [:doc:`Quickstart <../quickstart/$values[1]_quickstart>`]"
+            $toctree .= "    ../quickstart/$values[1]_quickstart\n";
+            $bullets .= "- [:doc:`Quickstart <../quickstart/$values[1]_quickstart>`]"
         }
 
         #Writting the comment
         if(defined($values[7]) && ($values[7] !~ "")) {
-            push @bullets,"- $values[7]\n";
+            $bullets .= " - $values[7]\n";
             print "found comment: $values[7]\n";
         } else {
-            push @bullets,"\n";
+            $bullets .= "\n";
             print "No comment:\n";
         }
     }
 
-    push @toctree,"\n";
-    push @bullets,"\n";
+    $toctree .= "\n";
+    $bullets .= "\n";
 
-    push @contents, @toctree;
-    push @contents, @bullets;
+    $contents .= $toctree;
+    $contents .= $bullets;
 
-    return @contents;
+    return $contents;
 }
 
 
 
 
 sub write_script {
-    my (@sections) = @_;
+    my ($sections) = @_;
     open(OUT, ">$output_file")
     || die "ERROR: failed to create '$output_file' : $!\n";
 
-    my $content .= $_ foreach @sections;
 
-    print "sections =\n@sections" if $DEBUG;
+    print "sections =\n$sections" if $DEBUG;
     my $today = DateTime->now;
     # write out the header and the commands to clean up the old extension
     print OUT <<EOF;
@@ -168,7 +168,7 @@ sub write_script {
 |osgeo-live-version| Contents
 ================================================================================
 
-$content
+$sections
 
 
 EOF

@@ -57,11 +57,15 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>
 
    .. toctree::
+     :hidden:
+
+     overview/overview
+
+   .. toctree::
      :maxdepth: 1
      :hidden:
      :glob:
 
-     overview/overview
      standards/standards
      contact
      copyright
