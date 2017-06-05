@@ -22,7 +22,7 @@ sub Usage {
 my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
 my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.txt';
-my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/overview.rst';
+my $output_file = '@CMAKE_BINARY_DIR@/doc/overview/overview.rst';
 
 
 ######################################################
@@ -141,7 +141,7 @@ sub get_section {
     push @toctree,"\n";
     push @bullets,"\n";
 
-    #push @contents, @toctree;
+    push @contents, @toctree;
     push @contents, @bullets;
 
     return @contents;
@@ -155,6 +155,8 @@ sub write_script {
     open(OUT, ">$output_file")
     || die "ERROR: failed to create '$output_file' : $!\n";
 
+    my $content .= $_ foreach @sections;
+
     print "sections =\n@sections" if $DEBUG;
     my $today = DateTime->now;
     # write out the header and the commands to clean up the old extension
@@ -166,7 +168,7 @@ sub write_script {
 |osgeo-live-version| Contents
 ================================================================================
 
-@sections
+$content
 
 
 EOF

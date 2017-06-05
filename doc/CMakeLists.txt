@@ -37,7 +37,7 @@ set(OSGeoLiveDoc_SUBDIRS
 
 
 #---------------------------------------------
-# Adding the languages directories
+# Adding the documentation subdirectories & files
 #---------------------------------------------
 
 foreach (dir ${OSGeoLiveDoc_SUBDIRS})
@@ -50,13 +50,30 @@ foreach (f ${OSGeoLiveDoc_FILES})
     configure_file(${f} ${f})
 endforeach()
 
-configure_file("conf.py.in" "conf.py" @ONLY)
-
-add_subdirectory(themes)
-add_subdirectory(static)
-
 file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 
+#---------------------------------------------
+# Adding the scripts and executing
+#---------------------------------------------
+#TODO find perl
+
+add_subdirectory(scripts)
+add_custom_command(
+    OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/overview/overview.rst"
+    COMMAND perl ./scripts/build_overview.pl
+    #COMMAND ${PERL_EXECUTABLE} ./scripts/build_overview.pl
+    DEPENDS 
+    ./scripts/build_overview.pl
+    ${CMAKE_SOURCE_DIR}/projects_info.txt
+    )
+
+
+#---------------------------------------------
+# Adding the sphinx subdirectories and files
+#---------------------------------------------
+configure_file("conf.py.in" "conf.py" @ONLY)
+add_subdirectory(themes)
+add_subdirectory(static)
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
@@ -84,6 +101,8 @@ if (LOCALE)
 
         COMMAND sphinx-intl update -p ${CMAKE_SOURCE_DIR}/locale/pot -d ${CMAKE_SOURCE_DIR}/locale --language=${SPHINXINTL_LANGUAGE}
 
+        DEPENDS overview/overview.rst
+
         COMMENT "Generating POT & PO files ..."
         )
 endif()
@@ -110,7 +129,11 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
             #where the documentations is written
             "${SPHINX_BUILD_DIR}/${target}/${lang}"
-            COMMENT "Generating ${target}/${lang} documentation ...")
+
+            DEPENDS overview/overview.rst
+
+            COMMENT "Generating ${target}/${lang} documentation ..."
+            )
         add_dependencies("${target}" "${target}-${lang}")
     endforeach()
     add_dependencies(doc "${target}")

@@ -24,9 +24,9 @@ foreach (f ${LOCAL} )
     configure_file("${f}" "${f}")
 endforeach()
 
+if (FALSE)
 configure_file(build_overview.pl build_overview.pl @ONLY)
 
-if (TRUE)
 #TODO find perl
 add_custom_command(
     OUTPUT overview.rst

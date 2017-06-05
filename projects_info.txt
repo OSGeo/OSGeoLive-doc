@@ -15,16 +15,16 @@ Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial C
 N  |  geopublisher  |  retired  |  N  |  N  |    |  6.0  |  Catalogue, retired after OSGeo-Live 6.0
 N  |  geos  |  3.6.1  |  N  |  N  |  Geospatial Libraries  |    |  C/C++ Spatial Library
 Y  |  geoserver  |  2.10.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services
-N  |  geotools  | NA   |  N  |  N  |  Geospatial Libraries  |    |  Java GIS Toolkit
+N  |  geotools  |  NA  |  N  |  N  |  Geospatial Libraries  |    |  Java GIS Toolkit
 N  |  gmt  |  retire  |  N  |  N  |  Spatial Tools  |  11.0  |  Cartographic Rendering
 N  |  gpsdrive  |  retired  |  N  |  N  |    |  9.0  |  GPS Navigation, retired after OSGeo-Live 9.0
-Y  |  gpsprune  | NA   |  Y  |  Y  |  Navigation and Maps  |    |  View, Edit and Convert GPS Tracks
+Y  |  gpsprune  |  NA  |  Y  |  Y  |  Navigation and Maps  |    |  View, Edit and Convert GPS Tracks
 Y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |  
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |  
 N  |  iris  |  retire  |  N  |  N  |  Geospatial Libraries  |  11.0  |  Meteorology and Climatology
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service
 N  |  josm  |  NA  |  N  |  N  |  NA  |    |  
-N  |  jts  | NA   |  N  |  N  |  Geospatial Libraries  |    |  Java Topology Suite
+N  |  jts  |  NA  |  N  |  N  |  Geospatial Libraries  |    |  Java Topology Suite
 N  |  jupyter  |  hide  |  N  |  N  |  NA  |    |  
 N  |  kosmo  |  retire?  |  N  |  N  |  Desktop GIS  |    |  
 Y  |  leaflet  |  1.0.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Mobile Friendly Interactive Maps
@@ -33,23 +33,23 @@ Y  |  mapbender  |  3.0.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoporta
 N  |  mapfish  |  retired  |  N  |  N  |    |  7.9  |  Web Mapping Framework, retired after OSGeo-Live 7.9
 N  |  mapguide  |  retired  |  N  |  N  |    |  5.0  |  Web Service, not included after OSGeo-Live 5.0 (to save disk space)
 N  |  mapnik  |  retire  |  N  |  N  |  Spatial Tools  |  11.0  |  Cartographic Rendering
-Y  |  mapproxy  | NA   |  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services
+Y  |  mapproxy  |  NA  |  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services
 Y  |  mapserver  |  7.0.5  |  Y  |  Y  |  Web Services  |    |  OGC Web Services
-Y  |  mapslicer  | NA   |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles
+Y  |  mapslicer  |  NA  |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles
 N  |  mapwindow  |  retired  |  N  |  N  |  Other software of interest (not available Live)  |    |  Microsoft Windows based Desktop GIS
 Y  |  marble  |  1.12.20  |  Y  |  Y  |  Navigation and Maps  |    |  Virtual Globe
 Y  |  mb-system  |  hide  |  Y  |  Y  |  Domain Specific GIS  |    |  
-N  |  metacrs  | NA   |  N  |  N  |  Geospatial Libraries  |    |  Coordinate Reference System Transformations
-Y  |  naturalearth  | NA   |  N  |  Y  |  Data  |    |  Global Data Sets
+N  |  metacrs  |  NA  |  N  |  N  |  Geospatial Libraries  |    |  Coordinate Reference System Transformations
+Y  |  naturalearth  |  NA  |  N  |  Y  |  Data  |    |  Global Data Sets
 Y  |  nc_dataset  |  NA  |  N  |  Y  |  NA  |    |  
-Y  |  ncWMS  | NA   |  Y  |  Y  |  Web Services  |    |  Web Map Service
+Y  |  ncWMS  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service
 Y  |  netcdf_dataset  |  NA  |  N  |  Y  |  Data  |    |  Time series temperature and precipitation
 Y  |  opencpn  |  NA  |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Chartplotter
 Y  |  openjump  |  1.11  |  Y  |  Y  |  Desktop GIS  |    |  
-Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |  - Browser Mapping Library
+Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser Mapping Library
 N  |  osgearth  |  hide  |  N  |  N  |  Domain Specific GIS  |    |  
 Y  |  osm  |  josm (11427)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStreetMap Tools
-Y  |  osm_dataset  | NA   |  N  |  Y  |  NA  |    |  Sample extract from OpenStreetMap
+Y  |  osm_dataset  |  NA  |  N  |  Y  |  NA  |    |  Sample extract from OpenStreetMap
 Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing
 Y  |  otb  |  6.0.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing
 Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS
