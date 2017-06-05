@@ -15,7 +15,7 @@ Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial C
 N  |  geopublisher  |  retired  |  N  |  N  |    |  6.0  |  Catalogue, retired after OSGeo-Live 6.0
 N  |  geos  |  3.6.1  |  N  |  N  |  Geospatial Libraries  |    |  C/C++ Spatial Library
 Y  |  geoserver  |  2.10.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services
-N  |  geotools  |    |  N  |  N  |  Geospatial Libraries  |    |  Java GIS Toolkit
+N  |  geotools  | NA   |  N  |  N  |  Geospatial Libraries  |    |  Java GIS Toolkit
 N  |  gmt  |  retire  |  N  |  N  |  Spatial Tools  |  11.0  |  Cartographic Rendering
 N  |  gpsdrive  |  retired  |  N  |  N  |    |  9.0  |  GPS Navigation, retired after OSGeo-Live 9.0
 Y  |  gpsprune  | NA   |  Y  |  Y  |  Navigation and Maps  |    |  View, Edit and Convert GPS Tracks
@@ -49,7 +49,7 @@ Y  |  openjump  |  1.11  |  Y  |  Y  |  Desktop GIS  |    |
 Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |  - Browser Mapping Library
 N  |  osgearth  |  hide  |  N  |  N  |  Domain Specific GIS  |    |  
 Y  |  osm  |  josm (11427)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStreetMap Tools
-Y  |  osm_dataset  |    |  N  |  Y  |  NA  |    |  Sample extract from OpenStreetMap
+Y  |  osm_dataset  | NA   |  N  |  Y  |  NA  |    |  Sample extract from OpenStreetMap
 Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing
 Y  |  otb  |  6.0.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing
 Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS
