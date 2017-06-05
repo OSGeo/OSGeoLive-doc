@@ -253,7 +253,7 @@ rst_epilog="""
 .. |version-geokettle| replace:: 2.6
 .. |version-geomajas| replace:: 2.4.0
 .. |version-geomoose| replace:: 2.9.2
-.. |version-geonetwork| replace:: 3.0.3
+.. |version-geonetwork| replace:: 3.2.1
 .. |version-geonode| replace:: 2.4.0
 .. |version-geoserver| replace:: 2.10.1
 .. |version-geos| replace:: 3.5.1
