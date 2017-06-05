@@ -60,8 +60,8 @@ file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 add_subdirectory(scripts)
 add_custom_command(
     OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/overview/overview.rst"
-    COMMAND perl ./scripts/build_overview.pl
-    #COMMAND ${PERL_EXECUTABLE} ./scripts/build_overview.pl
+    #COMMAND perl ./scripts/build_overview.pl
+    COMMAND ${PERL_EXECUTABLE} ./scripts/build_overview.pl
     DEPENDS 
     ./scripts/build_overview.pl
     ${CMAKE_SOURCE_DIR}/projects_info.txt

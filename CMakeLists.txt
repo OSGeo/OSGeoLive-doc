@@ -53,6 +53,16 @@ option(OSGeoLiveDoc_DEBUG
 option(OSGeoLiveDoc_VERBOSE_DEBUG
     "Set ON|OFF (default=OFF) to display detailed DEBUG" OFF)
 
+#---------------------------------------------
+#---------------------------------------------
+# Perl
+#---------------------------------------------
+#---------------------------------------------
+include(FindPerl)
+if(NOT PERL_EXECUTABLE)
+    message(FATAL_ERROR " Please check your Perl installation.")
+endif(NOT PERL_EXECUTABLE)
+
 
 #---------------------------------------------
 #---------------------------------------------
