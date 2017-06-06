@@ -93,7 +93,6 @@ Domain Specific GIS
 --------------------------------------------------------------------------------
 Applications targeted at a specific domain:
 
-* :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
 * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
@@ -138,5 +137,5 @@ Available from prior OSGeo-Live releases:
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, retired after OSGeo-Live 9.0
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing, retired after OSGeo-Live 9.5
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS, retired after OSGeo-Live 10.0
-
+* :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management, retired after OSGeo-Live 10.5
 

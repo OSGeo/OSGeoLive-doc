@@ -1,7 +1,9 @@
 ﻿
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer:
-:Version: osgeo-live10.0
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Daniel Nüst (d.nuest@52north.org)
+:Author: Simon Jirka (s.jirka@52north.org)
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -36,6 +38,9 @@ Features
 * **JavaScript Client**: The SOS contains a JavaScript application for
   displaying time series data. With its help, time series will be visualized
   without any additional software.
+* **Helgoland**: The SOS contains the Helgoland application for  the exploration,
+  analysis and visualization of sensor web data in various fields of use, e.g.
+  hydrology, meteorology, environmental monitoring, traffic management.
 * **Specifications**: The 52°North SOS implements the current specification version 2.0.0 and the
   previous version 1.0.0 (here no transactional operations). Listed below are
   implemented operations for each standard version.

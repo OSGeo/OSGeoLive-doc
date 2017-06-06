@@ -1,10 +1,11 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live8.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png
+.. image:: ../../images/project_logos/logo-geomoose.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
