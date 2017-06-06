@@ -281,7 +281,7 @@ rst_epilog="""
 .. |version-osgearth| replace:: 2.5.0
 .. |version-ossim| replace:: 1.8.20-3
 .. |version-otb| replace:: 6.0.0
-.. |version-pgrouting| replace:: 2.3.2
+.. |version-pgrouting| replace:: 2.4.1
 .. |version-postgis| replace:: 2.3.2
 .. |version-proj4| replace:: 4.4.9
 .. |version-pycsw| replace:: 2.0.2
