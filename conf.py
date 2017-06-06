@@ -280,7 +280,7 @@ rst_epilog="""
 .. |version-openlayers| replace:: 3.13.1
 .. |version-osgearth| replace:: 2.5.0
 .. |version-ossim| replace:: 1.8.20-3
-.. |version-otb| replace:: 5.8.0
+.. |version-otb| replace:: 6.0.0
 .. |version-pgrouting| replace:: 2.3.2
 .. |version-postgis| replace:: 2.3.2
 .. |version-proj4| replace:: 4.4.9
