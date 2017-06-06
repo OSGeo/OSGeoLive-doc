@@ -1,5 +1,7 @@
-:Author: Benjamin Pross, Kristof Lange
-:Version: osgeo-live8.0
+:Author: Benjamin Pross
+:Author: Kristof Lange
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png

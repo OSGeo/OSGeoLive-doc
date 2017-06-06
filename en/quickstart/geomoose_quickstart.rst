@@ -1,8 +1,9 @@
 :Author: Bob Basques
-:Version: GeoMoose 2.9.2
+:Version: osgeo-live11.0
+:Reviewer: Angelos Tzotsos, OSGeo
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png
+.. image:: ../../images/project_logos/logo-geomoose.png
   :width: 250px
   :height: 65px
   :alt: project logo
@@ -12,6 +13,10 @@
 ********************************************************************************
 GeoMoose Quickstart
 ********************************************************************************
+
+GeoMOOSE is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).
+
+.. contents:: Contents
 
 Getting Started
 ================================================================================
@@ -47,10 +52,10 @@ The Interfaces presented above shows:
     - A editable pull down list for a view scales to choose from or define.
 
 
-IDing a location in GeoMoose
+Identifying a location in GeoMoose
 ================================================================================
 
-You can ID a location in the interface by clicking on the "identify", ("i" in a blue circle icon) button in the top toolbar, and then clicking a point on the map to identify.
+You can identify a location in the interface by clicking on the "identify", ("i" in a blue circle icon) button in the top toolbar, and then clicking a point on the map to identify.
 
   .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot002.png
 
@@ -127,3 +132,17 @@ Other Services
 GeoMoose can also link to other on-line services such as birds eye view from BING, StreetView from Google and Geocoding from Google. Always remember to review license requirements for any external services to ensure compliance. 
 
   .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot014.png
+
+What Next?
+================================================================================
+
+This is only the first step on the road to using GeoMoose. There is
+a lot more functionality you can try.
+
+GeoMoose Project home
+
+  http://www.geomoose.org/
+
+GeoMoose Tutorial
+
+  https://docs.geomoose.org/2.9/getting_started.html

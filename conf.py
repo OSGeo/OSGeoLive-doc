@@ -243,8 +243,8 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
-.. |version-52nSOS| replace:: 4.3.9
-.. |version-52nWPS| replace:: 3.4.0
+.. |version-52nSOS| replace:: 4.4.0
+.. |version-52nWPS| replace:: 3.6.1
 .. |version-cartaro| replace:: 1.9
 .. |version-cesium| replace:: 1.18
 .. |version-deegree| replace:: 3.3.18
@@ -253,7 +253,7 @@ rst_epilog="""
 .. |version-geokettle| replace:: 2.6
 .. |version-geomajas| replace:: 2.4.0
 .. |version-geomoose| replace:: 2.9.2
-.. |version-geonetwork| replace:: 3.0.3
+.. |version-geonetwork| replace:: 3.2.1
 .. |version-geonode| replace:: 2.4.0
 .. |version-geoserver| replace:: 2.10.1
 .. |version-geos| replace:: 3.5.1
@@ -267,7 +267,7 @@ rst_epilog="""
 .. |version-kosmo| replace:: 3.1
 .. |version-leaflet| replace:: 0.7.3
 .. |version-liblas| replace:: 1.8.1
-.. |version-mapbender| replace:: 3.0.5.3
+.. |version-mapbender| replace:: 3.0.6.1
 .. |version-mapnik| replace:: 3.0.11
 .. |version-mapproxy| replace:: 1.9.0
 .. |version-mapserver| replace:: 7.0.4
