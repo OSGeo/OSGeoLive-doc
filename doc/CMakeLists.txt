@@ -10,7 +10,7 @@ set(OSGeoLiveDoc_FILES
     "contributors.rst"
     "index.rst"
     "contact.rst"
-    "metrics.rst"
+    #"metrics.rst"
     "sponsors.rst"
     "welcome_message.txt"
     "copyright.rst"
@@ -55,15 +55,18 @@ file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 #---------------------------------------------
 # Adding the scripts and executing
 #---------------------------------------------
-#TODO find perl
 
 add_subdirectory(scripts)
 add_custom_command(
     OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/overview/overview.rst"
-    #COMMAND perl ./scripts/build_overview.pl
-    COMMAND ${PERL_EXECUTABLE} ./scripts/build_overview.pl
+        "${CMAKE_CURRENT_BINARY_DIR}/metrics.rst"
+
+    COMMAND ${PERL_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_overview.pl
+    COMMAND ${PERL_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_metrics.pl
+
     DEPENDS 
-    ./scripts/build_overview.pl
+    ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_overview.pl
+    ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_metrics.pl
     ${CMAKE_SOURCE_DIR}/projects_info.txt
     )
 
@@ -101,7 +104,7 @@ if (LOCALE)
 
         COMMAND sphinx-intl update -p ${CMAKE_SOURCE_DIR}/locale/pot -d ${CMAKE_SOURCE_DIR}/locale --language=${SPHINXINTL_LANGUAGE}
 
-        DEPENDS overview/overview.rst
+        DEPENDS overview/overview.rst metrics.rst
 
         COMMENT "Generating POT & PO files ..."
         )
@@ -114,6 +117,8 @@ add_custom_target(doc
 foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
     add_custom_target(${target} ALL
         COMMENT "Building documentation with Sphinx")
+
+    configure_file("forward.html" "${SPHINX_BUILD_DIR}/${target}/index.html")
 
     foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
         add_custom_target(
@@ -130,7 +135,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             #where the documentations is written
             "${SPHINX_BUILD_DIR}/${target}/${lang}"
 
-            DEPENDS overview/overview.rst
+            DEPENDS overview/overview.rst metrics.rst
 
             COMMENT "Generating ${target}/${lang} documentation ..."
             )

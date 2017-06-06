@@ -229,7 +229,7 @@ message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
 file(STRINGS projects_info.txt OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
 set (OSGeoLiveDoc_PROJECTS_VERSIONS "")
-set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
+set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
 foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     #Skipping comments
     string(REGEX REPLACE "^(#).*" "\\1" is_comment ${line})
