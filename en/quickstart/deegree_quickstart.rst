@@ -1,4 +1,4 @@
-:Author: Johannes Wilden, Danilo Bretschneider
+:Author: Johannes Wilden, Danilo Bretschneider, Torsten Friebe
 :Version: OSGeo-Live DVD, Version 7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -11,6 +11,16 @@
 ********************************************************************************
 deegree 3 webservices quickstart 
 ********************************************************************************
+
+deegree is a Java application for serving maps (and vector data) for other clients to show.
+
+This Quick Start describes how to:
+
+  * start deegree webservices
+  * configure deegree webservices via the deegree services console
+  * use the *deegree-inspire-workspace* as a starting point
+
+.. contents:: Contents
 
 
 Project description
@@ -88,7 +98,7 @@ Included are some harmonized dutch administrative units, cadastral parcels and
 addresses.
 The WFS in this example acts as an INSPIRE Download service (direct access) and 
 outputs valid, harmonized INSPIRE GML.
-Additionally it supports multiple request types and querys.
+Additionally it supports multiple request types and queries.
 
 .. tip::
    This workspace loads harmonized INSPIRE GML from local files.
