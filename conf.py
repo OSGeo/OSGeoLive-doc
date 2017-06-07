@@ -246,7 +246,7 @@ rst_epilog="""
 .. |version-52nSOS| replace:: 4.4.0
 .. |version-52nWPS| replace:: 3.6.1
 .. |version-cartaro| replace:: 1.9
-.. |version-cesium| replace:: 1.18
+.. |version-cesium| replace:: 1.34
 .. |version-deegree| replace:: 3.3.18
 .. |version-eoxserver| replace:: 0.4.0
 .. |version-gdal| replace:: 2.1.3
@@ -265,7 +265,7 @@ rst_epilog="""
 .. |version-istsos| replace:: 2.3.0
 .. |version-jupyter| replace:: 4.1
 .. |version-kosmo| replace:: 3.1
-.. |version-leaflet| replace:: 0.7.3
+.. |version-leaflet| replace:: 1.0.3
 .. |version-liblas| replace:: 1.8.1
 .. |version-mapbender| replace:: 3.0.6.1
 .. |version-mapnik| replace:: 3.0.11
