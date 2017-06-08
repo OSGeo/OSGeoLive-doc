@@ -246,7 +246,7 @@ rst_epilog="""
 .. |version-52nSOS| replace:: 4.4.0
 .. |version-52nWPS| replace:: 3.6.1
 .. |version-cartaro| replace:: 1.9
-.. |version-cesium| replace:: 1.18
+.. |version-cesium| replace:: 1.34
 .. |version-deegree| replace:: 3.3.20
 .. |version-eoxserver| replace:: 0.4.0
 .. |version-gdal| replace:: 2.1.3
@@ -265,7 +265,7 @@ rst_epilog="""
 .. |version-istsos| replace:: 2.3.0
 .. |version-jupyter| replace:: 4.1
 .. |version-kosmo| replace:: 3.1
-.. |version-leaflet| replace:: 0.7.3
+.. |version-leaflet| replace:: 1.0.3
 .. |version-liblas| replace:: 1.8.1
 .. |version-mapbender| replace:: 3.0.6.1
 .. |version-mapnik| replace:: 3.0.11
@@ -284,11 +284,11 @@ rst_epilog="""
 .. |version-pgrouting| replace:: 2.4.1
 .. |version-postgis| replace:: 2.3.2
 .. |version-proj4| replace:: 4.4.9
-.. |version-pycsw| replace:: 2.0.2
+.. |version-pycsw| replace:: 2.0.3
 .. |version-pywps| replace:: 3.2.5
 .. |version-qgis_mapserver| replace:: 2.14.11
 .. |version-qgis| replace:: 2.14.11
-.. |version-rasdaman| replace:: 9.3.2
+.. |version-rasdaman| replace:: 9.4.1
 .. |version-R| replace:: 3.3.1
 .. |version-saga| replace:: 2.3.1
 .. |version-sahana| replace:: snapshot 1-1-2015
