@@ -20,6 +20,8 @@ The Web Coverage Processing Service (WCPS) query language is an Open Geospatial 
 coverages, such as sensor, simulation, image, and statistics data using web services. The WCPS queries are translated to rasdaman query language, rasql, and are executed
 on rasdaman. This quick start shows how to access and manipulate an example 2D coverage using WCPS language.
 
+.. contents:: Contents
+
 Running WCPS Queries
 ================================================================================
 
@@ -95,7 +97,7 @@ The WCPS query to derive NDVI from the coverage is as follows:
    :scale: 25 %
 
 
-Further Reading and Links
+What Next?
 ================================================================================
 
   * The `rasdaman tutorial <http://tutorial.rasdaman.org/rasdaman-and-ogc-ws-tutorial/>`_ provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.
