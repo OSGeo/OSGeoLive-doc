@@ -34,10 +34,13 @@ Running
   :scale: 50 %
   :alt: screenshot
   :align: center
-  
+
+OGR spatial tools
+-------------------
+
 *	Click on the map to select a feature from the :doc:`GeoServer <../overview/geoserver_overview>` WFS Server, the feature will be displayed in blue, then click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow.
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: ../../images/screenshots/1024x768/zoo-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -45,19 +48,17 @@ Running
 
 *	Now select another feature near the first you've selected then click on multiple geometries process button Union, Intersection, Symmetric Difference or Difference to get the result displayed in red on the map.
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-3.png
+.. image:: ../../images/screenshots/1024x768/zoo-demo-4.png
   :scale: 50 %
   :alt: screenshot
   :align: center
 
+
 What Next?
 ================================================================================
 
-*	You can build your own requests and send them to the ZOO Kernel from the following page:
-		http://localhost/zoo-demo/test_services.html
-
-*	You would need the capabilities of the ZOO WPS Server:
-		http://localhost/zoo/?Request=GetCapabilities&Service=WPS
+*	You can access the capabilities of the ZOO WPS Server:
+		http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS
 	
 *	For further questions you can contact the ZOO Project mailing list:
 	zoo-discuss@lists.osgeo.org
