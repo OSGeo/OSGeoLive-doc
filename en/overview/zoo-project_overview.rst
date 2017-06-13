@@ -75,7 +75,7 @@ Demo
 
 * `Demo using Services Provider based GEOS and OGR libraries <http://localhost/zoo-demo/ogr-example.html>`_
 * `Demo using Services Provider based CGAL library <http://localhost/zoo-demo/cgal.html>`_
-* `Simple html form to process your request to the ZOO Kernel <http://localhost/zoo-demo/otb-example.html>`_
+* `Demo using OTB Applications as WPS Services <http://localhost/zoo-demo/otb-example.html>`_
 
 
 Details
