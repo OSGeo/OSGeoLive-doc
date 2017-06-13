@@ -23,9 +23,9 @@ GeoMoose
 Web GIS Portal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoMOOSE is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).  It extends the functionality of MapServer and OpenLayers to provide built in services, like drill-down identify operations for viewing and organising many layers, selection operations and dataset searches.
+GeoMoose is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).  It extends the functionality of MapServer and OpenLayers to provide built in services, like drill-down identify operations for viewing and organising many layers, selection operations and dataset searches.
 
-GeoMOOSE is fast, performing well with hundreds of layers and/or services at a time.  Data from multiple custodians can be maintained with different tools and on different schedules as each map layer has it's own set of configuration files for publishing, symbols, templates as well as source data.
+GeoMoose is fast, performing well with hundreds of layers and/or services at a time.  Data from multiple custodians can be maintained with different tools and on different schedules as each map layer has it's own set of configuration files for publishing, symbols, templates as well as source data.
 
 The user interface is easily configurable, and additional services can be added through a modular architecture.
 
