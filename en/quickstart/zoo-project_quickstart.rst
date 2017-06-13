@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ZOO-Project.png
+.. image:: ../../images/project_logos/zoo-simple.png
   :scale: 100 %
   :alt: project logo
   :align: right
