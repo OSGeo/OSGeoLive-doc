@@ -26,17 +26,14 @@ This Quick Start describes how to:
 Running
 ================================================================================
 
-*	To run the ZOO Project demo from the OSGeo-Live DVD, click successively on the |osgeolive-appmenupath-geoserver| then on the "ZOO Project" links on the desktop 
-	or you will find it in the menu-items.
+*       To run the ZOO Project demo from the OSGeo-Live DVD, click on the "ZOO Project" link you will find it in the menu-items under "Geospatial" > "Web Services".
 
-*	Firefox will open the ZOO Project Spatial Tools demo.
+*       Firefox will open the ZOO Project demonstration landing page. From here, you can decide what is the demonstration you want to use.
 
-
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-1.png
+.. image:: ../../images/screenshots/1024x768/zoo-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
-  
   
 *	Click on the map to select a feature from the :doc:`GeoServer <../overview/geoserver_overview>` WFS Server, the feature will be displayed in blue, then click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow.
 
