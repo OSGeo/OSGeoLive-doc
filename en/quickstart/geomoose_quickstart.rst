@@ -14,7 +14,7 @@
 GeoMoose Quickstart
 ********************************************************************************
 
-GeoMOOSE is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).
+GeoMoose is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).
 
 .. contents:: Contents
 
@@ -29,7 +29,7 @@ GeoMoose is a GIS data portal management framework. The installed version of Geo
 
 * You will be presented with a web page displaying a demo interface of a GeoMoose instance.
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot001.png
     :align: right
     :alt: GeoMoose Screenshot
 
@@ -57,7 +57,7 @@ Identifying a location in GeoMoose
 
 You can identify a location in the interface by clicking on the "identify", ("i" in a blue circle icon) button in the top toolbar, and then clicking a point on the map to identify.
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot002.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot002.png
 
 The menu along the left side of the Map view will display a report related to the point that you clicked in the map.   This is a service in the GeoMoose Demo package that has been configured to respond to quereies for the "Parcel" layer when a point is clicked.
 
@@ -66,7 +66,7 @@ Measuring in GeoMoose
 
 GeoMoose has two measuring tools installed and activated by default. Clicking the straight ruler icon in the top toolbar, will start the linear measuring tool.  You can click as many points as you like in the map window and a trailing polyline will be drawn.  When you get to your last point, just double click to stop.  The total distance of all lines drawn will be used to generate the "Total Length" in the units of your choice in the side menu. Clicking the other ruler icon in the top toolbar, will allow you measure areas. 
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot004.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot004.png
 
 These user tools are considered services by the GeoMoose interface and can be added to via GeoMoose's MAPBOOK control file.
 
@@ -75,15 +75,15 @@ Selecting Features
 ================================================================================
 You can select features from a Point, Line, polygon, or a Box.  To start, click on the "Select Features" icon (polygon with pencil), and start drawing a selection polygon in the map. You can double click the last point to finish the drawing process.  This screenshot shows the drawing process on the map.  the left menu is displaying the input form for the criteria of the selection, in this case a Polygon against the "Parcels" layers. You also have the option to select features based on a buffer which is a "0" value by default. This is a service in the GeoMoose Demo package that has been configured to respond to quereies for the "Parcel" layer. 
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot005.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot005.png
 
 The above screenshot is showing the "PARCEL" layer for selects and also using the "Parcels" layer as the attributes to report back on.  Two different layers can be used in a double pass query, one for the selection, and one for retrieving the attributes from for reporting.  The sceenshot below takes the selection process further by adding in a buffering distance of 100ft.
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot006.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot006.png
 
 Clicking the "Go!" button in the side menu in the above screenshot will generate a report and display it in the side menu.  NOTE: The output can also be configured to be sent to a new window as well.
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot007.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot007.png
 
 The results above demonstrate the service response to the buffered query by displaying the result in the map via a selection overlay that highlights the original selection area polygon (purple), the crossing and within parcels at a 100ft buffer (orange) and the parcels crossing and within the buffered polygon (yellow).  The side menu now displays the reported results of the query process with options for outputting in other formats for mailing labels.
 
@@ -92,22 +92,22 @@ Searching
 
 You can also search for features by attribute.  To start click on the "Search Parcels" icon and enter your search parameters on the search menu then pressing the "Go!" button. The following screenshot demostrates a search of all parcel owners containing the name "frank".  
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot011a.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot011a.png
 
 Three results appear in the list and are highlighted on the map. 
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot011.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot011.png
   
 Clicking the binocular icon/parcel number in blue will zoom you to the specific parcel as illustrated in the following screenshot. 
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot012.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot012.png
 
 Layer Tools 
 ================================================================================
 
 GeoMoose lets you edit layers graphically. Setting up a layer for editing is discussed elsewhere on the GeoMoose website. The demo is setup for you to edit a sketch layer as illustrated in the following screenshot.
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot013.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot013.png
   
   
 Printing
@@ -115,15 +115,15 @@ Printing
 
 This next screenshot shows what the Print Map service looks as provided with demo for GeoMoose.  The side menu in the following view, shows the options available for printing the current mapview. Sheet size, orientation, resolution for both raster image backgrounds and for overall output are also available.
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot008.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot008.png
 
 The next menu displays the choices available for output, by default GeoMoose allows a composite Raster Image, a HTML file, or a PDF.  Clicking on a PDF output option will present you with a dialog similar to:
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot009.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot009.png
 
 The following screenshot shows an example of a PDF output in landscape mode.
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot010.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot010.png
 
 
 Other Services
@@ -131,7 +131,7 @@ Other Services
 
 GeoMoose can also link to other on-line services such as birds eye view from BING, StreetView from Google and Geocoding from Google. Always remember to review license requirements for any external services to ensure compliance. 
 
-  .. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot014.png
+  .. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot014.png
 
 What Next?
 ================================================================================
