@@ -29,7 +29,7 @@ GeoMOOSE is fast, performing well with hundreds of layers and/or services at a t
 
 The user interface is easily configurable, and additional services can be added through a modular architecture.
 
-.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: ../../images/screenshots/1024x768/geomoose-2_9-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 
