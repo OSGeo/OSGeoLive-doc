@@ -56,7 +56,14 @@ OGR spatial tools
 CGAL triangulations
 -------------------
 
-*	From the CGAL triangulations application, you simply have to press the Voronoi or Delaunay button to display on your map the result of the WPS service execution.
+*	From the CGAL triangulations application, you simply have to press the Voronoi or Delaunay button to display on your map the result of the WPS service execution, as shown bellow.
+
+.. image:: ../../images/screenshots/1024x768/zoo-demo-5.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: center
+
+
 
 OTB Applications
 -------------------
