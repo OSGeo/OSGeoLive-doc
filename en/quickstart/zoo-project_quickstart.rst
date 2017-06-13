@@ -53,6 +53,22 @@ OGR spatial tools
   :alt: screenshot
   :align: center
 
+CGAL triangulations
+-------------------
+
+*	From the CGAL triangulations application, you simply have to press the Voronoi or Delaunay button to display on your map the result of the WPS service execution.
+
+OTB Applications
+-------------------
+
+*	From the OTB application demonstration interface, you have to fill the form on the left to configure the WPS service execution. Once, you have selected the value for yoru processing, you can then press the Execute button at the bottom of the left form. In case you choose image/png as the output format, you will see the result of your processing displayed on the map. You can see bellow a sample KMeansClassification execution when selecting the image/png output format.
+
+.. image:: ../../images/screenshots/1024x768/zoo-demo-1.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: center
+
+
 
 What Next?
 ================================================================================
