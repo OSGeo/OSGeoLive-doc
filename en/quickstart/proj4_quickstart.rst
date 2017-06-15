@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Julien Moquet
-:Reviewer: Don't know
+:Reviewer: Vicky Vergara
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -16,9 +16,9 @@
   :align: right
   :target: http://www.osgeo.org/incubator/process/principles.html
 
-================================================================================
+********************************************************************************
  Proj.4 Quickstart
-================================================================================
+********************************************************************************
 
 proj.4 is a standard Unix filter function which converts geographic longitude
 and latitude coordinates into cartesian coordinates (and vice versa), and it is
