@@ -54,32 +54,43 @@ Start the VirtualBox application and click on the New button to create a new VM,
 
 Enter a name such as OSGeo-Live, and choose Linux as the "Operating system", and Ubuntu as the "Version".
 
+On Windows, if your system is 64-bit and you do not see any 64-bit versions listed in the drop down, you need to make sure that the VT-x option in the BIOS is enabled. Here are some links that might help enabling it. `32-vs-64 <https://forums.virtualbox.org/viewtopic.php?f=1&t=62339>`_, `BIOS access <https://www.laptopmag.com/articles/access-bios-windows-10>`_.
+
   .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
          :scale: 70 %
 
 In the next screen set the memory to 1024 MB (or more if your host computer has more than 4GB).
 
-  .. image:: ../../images/screenshots/800x600/vmdk_memory.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_memory.png
               :scale: 65 %
 
-Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the OSGeo-Live vmdk-file. Select this file, press Next and Create.
+Choose "Use an existing virtual hard disk file" . Now click on the button (a folder icon) to browse to where you saved the OSGeo-Live vmdk-file. Select this file, press Create. NOTE: the OSGeo-Live vmdk-file is for a 64-bit VM and will not work in a 32-bit VM.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_disk.png
                    :scale: 65 %
 
-Once the VM is created, click on the Settings button. In the "General" section, go to the Advanced tab, and click to select "Show at top of screen" for the Mini toolbar.
+Once the VM is created, click on the Settings button. 
 
-  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.jpg
+  .. image:: ../../images/screenshots/800x600/vm_created.png
+                   :scale: 65 %
+
+In the "General" section, go to the Advanced tab, and select "Bidirectional" from Shared Clipboard.
+
+  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.png
                    :scale: 65 %
 
 Go to the "Display" section and increase video memory to 32 or 64 MB.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_display.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_display.png
                    :scale: 65 %
+
+Go to the "User Interface" section and click to "Show at Top of Screen".
+
+  .. image:: ../../images/screenshots/800x600/vmdk_user_interface.png
 
 In addition, move to the "Shared Folders" section, and click the "Add folder" (green + icon on the right) to find a directory on your host computer that you wish to share inside the VM.
 
- .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.jpg
+ .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.png
                       :scale: 65 %
 
 You can select to make the shared folder read only, and auto-mounted. Once the "Folder path" and "Folder name" are defined, click OK, and again OK to finish and close the settings window.
