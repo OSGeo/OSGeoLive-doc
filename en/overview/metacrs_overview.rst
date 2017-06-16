@@ -65,11 +65,11 @@ PROJ.4
 Details
 --------------------------------------------------------------------------------
 
-  **Website:**  http://trac.osgeo.org/proj/
+  **Website:**  http://proj4.org/
   
   **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Software Version:** 4.8.0 (stable)
+  **Software Version:** 4.9.2 (stable)
   
   **Supported Platforms:** Windows, Linux, Mac
   
