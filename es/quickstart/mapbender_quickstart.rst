@@ -8,7 +8,7 @@
 
 .. _mapbender-quickstart-es:
  
-.. image:: /images/project_logos/logo-Mapbender.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -52,7 +52,7 @@ Página de Bienvenida
 
 #. Usted puede ingresar con el usuario :guilabel:`root` y la contraseña :guilabel:`root` (estos son los usuarios y contraseña por defecto que usted tendrá una vez instalado Mapbender). Por favor, cambie la contraseña del usuario root si desea ejecutar Mapbender en un ambiente de producción. Por favor, no elimine el usuario :guilabel:`root` ya que este usuario tienen acceso a las plantillas de aplicaciones de Mapbender y es usado para las actualizaciones de versiones.
   
-  .. image:: /images/screenshots/800x600/mapbender_welcome.png
+  .. image:: /images/screenshots/800x600/mapbender3_welcome.png
      :scale: 80
 
 Luego de haber ingresado satisfactoriamente será dirigido directamente a la :guilabel:`application overview`.
@@ -65,7 +65,7 @@ Después de ingresar a Mapbender, usted será direccionado a :guilabel:`applicat
 En Mapbender usted tiene aplicaciones de plantillas, que puede utilizar para crear sus propias aplicaciones.
 
 
-  .. image:: /images/screenshots/800x600/mapbender_application_overview.png
+  .. image:: /images/screenshots/800x600/mapbender3_application_overview.png
      :scale: 80
 
 Mapbender provee
