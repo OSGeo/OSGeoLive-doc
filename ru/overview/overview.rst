@@ -118,7 +118,7 @@
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - Библиотека C/C++ для работы с геоданными
-* :doc:`metacrs_overview` - Трансформации систем координат
+* :doc:`Proj.4 <proj4_overview>` - Трансформации систем координат (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - Работа с данными LiDAR
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Метеорология и климатология
 

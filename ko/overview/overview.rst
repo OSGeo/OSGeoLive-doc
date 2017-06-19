@@ -102,7 +102,7 @@ Geospatial Libraries
 
    GeoTools - Java GIS Toolkit <geotools_overview>
    GEOS - C/C++ Spatial Library <geos_overview> 
-   MetaCRS - Coordinate Reference System Transformations <metacrs_overview>
+   Proj.4 - Coordinate Reference System Transformations <proj4_overview>
    libLAS - LiDAR Data Access <liblas_overview>
 
 Other software of interest (not available Live)

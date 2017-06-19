@@ -118,7 +118,7 @@ Librerie geospaziali
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Java GIS Toolkit
 * :doc:`geos_overview` - Libreria spaziale C/C++
-* :doc:`metacrs_overview` - Trasformazioni del sistema di riferimento delle coordinate
+* :doc:`Proj.4 <proj4_overview>` - Trasformazioni del sistema di riferimento delle coordinate (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`Guida rapida <../quickstart/liblas_quickstart>`] - Accesso ai LiDAR
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Metereologia e Climatologia
 

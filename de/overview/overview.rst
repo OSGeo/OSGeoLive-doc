@@ -120,7 +120,7 @@ GIS Bibliotheken
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - C/C++ Spatial Library 
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations 
+* :doc:`Proj.4 <proj4_overview>` - Coordinate Reference System Transformations (MetaCRS) 
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorologie und Klimatologie
 

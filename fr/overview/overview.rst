@@ -117,7 +117,7 @@ Librairies géospatiales
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Boîte à outils SIG Java 
 * :doc:`geos_overview` - C/C++ Spatial Library 
-* :doc:`metacrs_overview` - Transformations du système de coordonnées de référence 
+* :doc:`Proj.4 <proj4_overview>` - Transformations du système de coordonnées de référence (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - Accès au radar Lidar    
 
 Autres logiciels d'intérêt (indisponible dans Live)

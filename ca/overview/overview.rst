@@ -116,7 +116,7 @@ Llibreries Geospacials
 * :doc:`jts_overview` - Java Topology Suite 
 * :doc:`geotools_overview` - Java GIS Toolkit  
 * :doc:`geos_overview` - C/C++ Spatial Library  
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations  
+* :doc:`Proj.4 <proj4_overview>` - Coordinate Reference System Transformations (MetaCRS)  
 * :doc:`liblas_overview` - LiDAR Data Access  
 
 Altres programaris d'interés (no instal·lats)
