@@ -22,15 +22,15 @@ Aktivierung von pgRouting in einer Datenbank
 In dieser Übung wird einen Datenbank mit Namen `city_routing` erzeugt und die Erweiterung pgRouting geladen.
 
 * Öffnen Sie ein Befehlsfenster über :menuselection:`Anwendungen --> Erweiterungen --> Terminal` und rufen Sie psql auf:
-(psql ist das Kommandozeilen Basierte Werkzeug von PostgreSQL)
+    (psql ist das Kommandozeilen Basierte Werkzeug von PostgreSQL)
 
-.. code-block:: bash
+::
 
   	psql
 
 Geben Sie die folgenden SQL Befehle ein:
 
-.. code-block:: sql
+::
 
 	CREATE DATABASE city_routing;
 	\connect city_routing;
@@ -43,11 +43,11 @@ und folgendes eingeben :code:`CREATE EXTENSION pgrouting CASCADE;`
 
 Sie können die Installation über den folgenden Befehl überprüfen:
 
-.. code-block:: sql
+::
 
 	SELECT  * FROM pgr_version();
 
-.. code-block:: bash
+::
 
 	 version |       tag       |  hash   | branch | boost
 	---------+-----------------+---------+--------+--------
@@ -63,19 +63,19 @@ Im Folgenden wird gezeigt wie osm2pgrouting Version 2.1.0+ verwendet werden kann
 
 Prüfen Sie zuerst die Version von osm2pgrouting. Sie sollte 2.1 oder höher sein.
 
-.. code-block:: bash
+::
 
 	osm2pgrouting --version
 
 Die Ausgabe zeigt:
 
-.. code-block:: bash
+::
 
 	This is osm2pgrouting Version 2.1
 
 Laden von Daten aus einer osm Datei
 
-.. code-block:: bash
+::
 
 	 cd
 	 bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
@@ -85,7 +85,7 @@ Laden von Daten aus einer osm Datei
 
 Die Ausgabe sollte etwas in der Art sein:
 
-.. code-block:: bash
+::
 
 	Opening data file: feature_city.osm
 	    Parsing data
@@ -127,13 +127,13 @@ pgRouting in Aktion
 
 * Starte ein :menuselection:`Applications --> Accessories --> Terminal` Fenster und stelle eine Verbindung mit der ``city_routing`` Datenbank her:
 
-.. code-block:: bash
+::
 
 	psql -U postgres city_routing
 
 * Über den Befehl :command:`\\d`, werden alle vorhandenen Tabellen aufgelistet:
 
-.. code-block:: sql
+::
 
 	                    List of relations
 	 Schema |           Name           |   Type   |  Owner
@@ -159,7 +159,7 @@ pgRouting in Aktion
 
 * Führe die “Dijkstra-Shortest-Path” Funktion aus, die von ungeleiteter Reise ausgeht:
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost
 		FROM pgr_dijkstra('
@@ -168,7 +168,7 @@ pgRouting in Aktion
 			100, 600, false
 		);
 
-.. code-block:: sql
+::
 
 	 seq | node | edge  |         cost
 	-----+------+-------+-----------------------
@@ -187,14 +187,14 @@ pgr_dijkstra unterstützt außerdem bigints für Knoten und Kanten, u
 nd osm2pgrouting lädt die osm_ids ebenfalls,
 so dass Sie alternativ die osm_id anstatt der automatisch generierten source- und target-Werte für Knoten nutzen können. Um die betreffenden osm_ids für unsere Knoten zu laden, wird die folgende Abfrage verwendet:
 
-.. code-block:: sql
+::
 
 	SELECT id, osm_id
 		FROM ways_vertices_pgr where id IN( 100, 600);
 
 Mit der Ausgabe:
 
-.. code-block:: bash
+::
 
 	 id  |   osm_id
 	-----+------------
@@ -205,7 +205,7 @@ Mit der Ausgabe:
 
 Um die osm_id zu verwenden, kann die Abfrage wie folgt angepasst werden:
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost
 	FROM pgr_dijkstra('
@@ -222,7 +222,7 @@ resultierenden pgr_dijkstra Abfragespalten wieder source und target heißen.
 
 Die Abfrage ergibt folgende Ausgabe:
 
-.. code-block:: sql
+::
 
 	 seq |    node    | edge  |         cost
 	-----+------------+-------+-----------------------
@@ -249,7 +249,7 @@ Funktionen mit osm_ids verwendet werden können.
 
 * Um die Geometrie der Route anzuzeigen, kann das Ergebnis der Abfrage mit der ursprünglichen Tabelle und somit den Straßengeometrien verknüpfen werden:
 
-.. code-block:: sql
+::
 
 	SELECT seq, edge, rpad(b.the_geom::text,60,' ') AS "the_geom (truncated)"
 		FROM pgr_dijkstra('
@@ -259,7 +259,7 @@ Funktionen mit osm_ids verwendet werden können.
 		) a INNER JOIN ways b ON (a.edge = b.gid) ORDER BY seq;
 
 
-.. code-block:: sql
+::
 
 	 seq | edge  |                     the_geom (truncated)
 	-----+-------+--------------------------------------------------------------
@@ -274,8 +274,8 @@ Funktionen mit osm_ids verwendet werden können.
 	(39 rows)
 
 * You can view the routes using a graphical tool
-such as :doc:`OpenJump <../overview/openjump_overview>` or
-the :doc:`QGIS <../overview/qgis_overview>` DbManager extension.
+    such as :doc:`OpenJump <../overview/openjump_overview>` or
+    the :doc:`QGIS <../overview/qgis_overview>` DbManager extension.
 
 To use the DbManager extension of QGIS open up QGIS then go to Go to ``Database -> DB Manager -> DB Manager``.
 Select the SQL Window icon and cut and paste the above pgRouting Query.
@@ -304,9 +304,7 @@ Wie geht es weiter?
 ================================================================================
 
 * **pgRouting Webseite** - Besuche die Projektseite unter http://www.pgrouting.org, um mehr über pgRouting zu erfahren.
-
 * **pgRouting Dokumentation** - Die aktuelle Dokumentation ist zu finden auf http://docs.pgrouting.org
-
 * **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: http://workshop.pgrouting.org
 * **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1
 * **QGIS pgRouting Layer Plugin** - https://plugins.qgis.org/plugins/pgRoutingLayer/ provides GUI for pgRouting functions and interacts with map so you don't have to write SQL.

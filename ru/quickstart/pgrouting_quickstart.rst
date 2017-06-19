@@ -22,13 +22,13 @@ pgRouting — это расширение, добавляющее функции
 
 * Откройте терминал :menuselection:`Applications --> Accessories --> Terminal` и подключитесь к базе данных ``pgrouting``:
 
-.. code-block:: bash
+::
 
 	psql -U user pgrouting
 
 * Команда :command:`\\d` отобразит список доступных таблиц:
 
-.. code-block:: sql
+::
 
 	                List of relations
 	 Schema |        Name         |   Type   | Owner 
@@ -52,7 +52,7 @@ pgRouting — это расширение, добавляющее функции
 
 * Выполните функцию поиска кратчайшего пути по алгоритму Дейкстры:
 
-.. code-block:: sql
+::
 
 	SELECT seq, id1 AS node, id2 AS edge, cost 
 		FROM pgr_dijkstra('
@@ -61,7 +61,7 @@ pgRouting — это расширение, добавляющее функции
 			100, 600, false, false
 		);
 
-.. code-block:: sql
+::
 
 	 seq | node | edge  |        cost         
 	-----+------+-------+---------------------
@@ -76,7 +76,7 @@ pgRouting — это расширение, добавляющее функции
 
 * Для получения итогового маршрута свяжем результат выполнения функции с геометриями дорог:
 
-.. code-block:: sql
+::
 
 	SELECT seq, id2 AS edge, rpad(b.the_geom,60,' ') AS "the_geom (truncated)" 
 		FROM pgr_dijkstra('
@@ -86,7 +86,7 @@ pgRouting — это расширение, добавляющее функции
 		) a INNER JOIN ways b ON (a.id2 = b.gid) ORDER BY seq;
 
 
-.. code-block:: sql
+::
 	
 	 seq | edge  |                     the_geom (truncated)                     
 	-----+-------+--------------------------------------------------------------
@@ -105,8 +105,6 @@ pgRouting — это расширение, добавляющее функции
 ================================================================================
 
 * **Сайт pgRouting** — чтобы узнать больше о pgRouting, посетите сайт проекта http://www.pgrouting.org.
-
 * **Документация pgRouting** — самая свежая документация доступна по адресу http://docs.pgrouting.org
-
 * **Учебное пособие pgRouting** — материалы мастер-класса `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` находятся тут: http://workshop.pgrouting.org
 
