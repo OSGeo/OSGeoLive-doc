@@ -1,0 +1,51 @@
+# ------------------------------------------------------------------------------
+# Travis CI scripts 
+# Copyright(c) pgRouting Contributors
+#
+# Main configuration
+# ------------------------------------------------------------------------------
+
+group: edge
+dist: trusty    
+
+
+# executed. So things have to be tested oe by one.
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+      # For cmake
+      - kubuntu-backports
+    packages:
+      - cmake
+      - python-sphinx
+      - graphviz
+      - texlive
+      - texlive-font-utils
+      - texlive-latex-extra
+      - ghostscript
+
+
+
+
+install:
+  - pip install git+https://github.com/sphinx-doc/sphinx@stable
+  - pip install sphinx-intl
+
+#before_script:
+
+
+script: 
+  #-mkdir build
+  #- cd build
+  #- cmake -DLOCALE=ON -DALL_DOC=ON -DALL_LANG=ON ..
+  #- cmake -DHTML=ON -@OSGeoLiveDoc_DEBUG=ON ..
+  #- make html
+  - cd OSGeoLive-doc
+  - make html
+
+
+#after_script: 
+
+#after_success:
+  # blank
