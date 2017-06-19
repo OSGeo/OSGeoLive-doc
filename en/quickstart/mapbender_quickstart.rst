@@ -1,11 +1,11 @@
 :Author: OSGeo-Live
 :Author: Astrid Emde
-:Version: osgeo-live8.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
 .. image:: ../../images/project_logos/logo-Mapbender3.png
-  :scale: 100 %
+  :scale: 70 %
   :alt: project logo
   :align: right
 
@@ -13,23 +13,7 @@
 Mapbender3 Quickstart 
 ********************************************************************************
 
-Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services. 
-
-Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. 
-
-Mapbender3 is the next version in the Mapbender series. It is rewritten from the ground up, using modern web technologies. The foundation is laid by Symfony 2, the brand-new version of the successful Symfony PHP web application framework.
-
-On the client-side expect to find OpenLayers and jQuery (UI) nicely glued together by MapQuery.
-
-With this new code base we will continue the Mapbender idea of being a Geoportal Framework:
-  * Applications can be setup, configured and styled right from within the browser
-  * Services like WMS can be managed inside a service repository and linked to applications
-  * Rights management is easy to maintain, for individual users and groups, whether you store them inside the database or in an LDAP.
-  * Search modules (SQL or Solr) can be configured
-  * Applications for digitaliszation can be setup.
-  * Mobile template can be used to provide applications for smartphones and tablets
-
-
+Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
 
 You will need nothing but a standard web browser for this quickstart.
 
@@ -45,19 +29,21 @@ This Quick Start describes how to:
 This is how a Mapbender application can look like:
 
   .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-     :scale: 80
+     :scale: 70 %
+
+
+.. contents:: Contents
 
 
 Installation
 ================================================================================
-For the installation of Mapbender3 have a look at http://doc.mapbender3.org/en/book/installation.html.
+For the installation of Mapbender3 have a look at https://doc.mapbender3.org/en/book/installation.html.
 
 
 Start Mapbender
 ================================================================================
 
 #. Choose  :menuselection:`Mapbender` from the start menu or visit http://localhost/mapbender3/app.php
-
 
 #. The application will take a few moments to start up
 
@@ -69,14 +55,14 @@ Start Mapbender in the developer mode app_dev.php
 Symfony offers a developer mode with lot of information about your application (logging, exceptions, database queries, memory usage, time and more). This mode is only available from localhost.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_app_dev.png
-     :scale: 80
+     :scale: 70 %
 
 #. Start the developer mode: http://localhost/mapbender3/app_dev.php
 
 #. Have a look at the information that is offered in the developer mode.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_symfony_profiler.png
-     :scale: 80
+     :scale: 70 %
 
 
 Welcome page
@@ -93,10 +79,9 @@ Welcome page
 #. You can login with the user that was generated on installation. It can be :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender on OSGeo-Live. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root`.).
   
   .. image:: ../../images/screenshots/800x600/mapbender3_welcome.png
-     :scale: 80
+     :scale: 70 %
 
 After successful login you are directed to the :guilabel:`Mapbender administration`.
-
 
 
 Application overview
@@ -117,7 +102,7 @@ The Application overview provides the following functionality:
 
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_overview.png
-     :scale: 80
+     :scale: 70 %
 
 
 Create an individual application
@@ -142,9 +127,9 @@ Create a new application by providing basic information about your application. 
 #. your application is set up. Now you need a WMS to be displayed in your application. This will be described in the section **WMS Management**.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_create_application.png
-     :scale: 80
+     :scale: 70 %
 
-.. tip:: Please note, that the style-, icon- and layoutconfiguration has to be done in css- and twig-files at the moment. Read more about template generation at http://doc.mapbender3.org/en/book/templates.html
+.. tip:: Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender3.org/en/book/templates.html
 
 
 Copy or rename an application
@@ -162,12 +147,12 @@ Export / Import applications and sources
 You can export applications as JSON or YAML with :menuselection:`Applications --> Export. You can chose one or more applications to export and you can also export the sources which are published in the applications.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_export.png
-     :scale: 80
+     :scale: 70 %
 
 The exportfile contains all the definitions of the application/s (sources) and can be imported via :menuselection:`Applications --> Import` in another Mapbender3 installation or in the same installation. 
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_import.png
-     :scale: 80
+     :scale: 70 %
 
 
 Management of Data Sources
@@ -206,7 +191,7 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 #. After successfull registration of the service Mapbender will display an overview on the information that was provided by the service.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_wms_load.png
-     :scale: 80
+     :scale: 70 %
 
 
 Here are some example WMS:
@@ -217,11 +202,7 @@ http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=Get
 
 WhereGroup OSM WMS
 
-http://osm-demo.wheregroup.com/service
-
-Omniscale OSM WMS (see also http://osm.omniscale.de/)
-http://osm.omniscale.net/proxy/service?
-
+https://osm-demo.wheregroup.com/service
 
 
 Add Service to Application
@@ -239,7 +220,7 @@ After the successfull upload of a WMS you want to add your WMS to an application
 #. You can change the order of the Services in your application by drag & drop.
 	
   .. image:: ../../images/screenshots/800x600/mapbender3_add_source_to_application.png
-     :scale: 80
+     :scale: 70 %
 
 Configure your WMS
 ================================================================================
@@ -252,7 +233,7 @@ You can configure the WMS for your specific application. Maybe you don't want to
 #. You can change the order of the layers via drag & drop
 
 .. image:: ../../images/screenshots/800x600/mapbender3_wms_application_settings.png
-  :scale: 80
+  :scale: 70 %
 
 Service configuration
 
@@ -289,7 +270,7 @@ Add Elements to your application
 Mapbender offers a set of elements. You can add the elements to your application. You have different regions (Toolbar, Sidepane, Content, Footer) to which you can add elements.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_add_element.png
-     :scale: 80
+     :scale: 70 %
 
 #. Choose :menuselection:`Applications --> edit-Button --> Layers --> Button +` to get an overview over the elements Mapbender3 provides.
 
@@ -306,7 +287,7 @@ Mapbender offers a set of elements. You can add the elements to your application
 Now you should get an idea how easy it is to change a Mapbender application without changes in the code. 
 
   .. image:: ../../images/screenshots/800x600/mapbender3_application_elements.png
-     :scale: 80
+     :scale: 70 %
 
 Examples for elements Mapbender3 offers:
 
@@ -337,7 +318,7 @@ Examples for elements Mapbender3 offers:
 * WMC Loader
 * WMC List 
 
-You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
+You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <https://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <https://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
 
 
 Try it yourself
@@ -375,7 +356,7 @@ Create a user
 #. You can provide more information about the user in the tab :menuselection:`Profile`.
 
 .. image:: ../../images/screenshots/800x600/mapbender3_create_user.png
-     :scale: 80 
+     :scale: 70 % 
 
 
 Create a group
@@ -397,7 +378,7 @@ Assign users to group
 #. Assign a user by :menuselection:`Users --> Edit-Button--> Groups` to a group. 
 
   .. image:: ../../images/screenshots/800x600/mapbender3_assign_user_to_group.png
-     :scale: 80
+     :scale: 70 %
  
 
 Roles
@@ -414,7 +395,7 @@ Mapbender3 provides different rights. They refer to the Symfony ACL System http:
 #. Assign roles to a user by :menuselection:`Users --> Edit your User --> Security`.
 
   .. image:: ../../images/screenshots/800x600/mapbender3_roles.png
-     :scale: 80 
+     :scale: 70 % 
 
 
 Assign an Application to a User/Group
@@ -434,7 +415,7 @@ Assign an Application to a User/Group
 #. Login as the new user
 
   .. image:: ../../images/screenshots/800x600/mapbender3_security.png
-     :scale: 80
+     :scale: 70 %
 
 
 Things to try
@@ -454,23 +435,18 @@ This is only the first step on the road to using Mapbender3. There is a lot more
 
 Mapbender Project home
 
-  http://mapbender.org
+  https://mapbender.org
 
 Mapbender3 Webside
 
-  http://mapbender3.org/
+  https://mapbender3.org/
 
 You find tutorials at
 
-  http://doc.mapbender3.org
+  https://doc.mapbender3.org
 
-  http://api.mapbender3.org
-
-
-Get to know Mapbender on 
-	
-	http://projects.mapbender.osgeo.org
+  https://api.mapbender3.org
 
 Get involved in the project
 
-	http://www.mapbender.org/Community
+	https://www.mapbender.org/Community
