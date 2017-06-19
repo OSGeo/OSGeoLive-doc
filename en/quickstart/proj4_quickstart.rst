@@ -25,12 +25,9 @@ and latitude coordinates into cartesian coordinates (and vice versa), and it is
 a C API for software developers to include coordinate transformation in their
 own software.
 
-This Quick Start describes how to:
-     
-  * Use the proj tool
-  * Use the cs2cs tool
-  * Use the geod tool
-
+.. contents:: This Quick Start describes how to use these tools :
+   :local:
+   :depth: 1
 
 proj
 ================================================================================
