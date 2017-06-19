@@ -1,8 +1,14 @@
 :Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 
 ********************************************************************************
 Leaflet Quickstart
 ********************************************************************************
+
+Leaflet is an JavaScript library for browser based, mobile-friendly, interactive maps.  It is light weight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
+
+.. contents:: Contents
 
 Running
 ================================================================================
@@ -157,6 +163,9 @@ Lets improve our example by using a popup instead of an alert:
  map.on('click', onMapClick);
 
 Try clicking on the map and you will see the coordinates in a popup. View the full example_
+
+What Next?
+================================================================================
 
 Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_.
 
