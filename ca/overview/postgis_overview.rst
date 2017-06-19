@@ -35,8 +35,8 @@
 .. Consell per a la redacció:
   Si el projecte és d'OSGeo, o està en incubació, cal incloure-hi el logo de l'organització.
   La llista de projectes d'OSGeo està en aquesta pàgina: http://www.osgeo.org/
-  .. image:: images/logos/OSGeo_incubation.png
-  .. image:: images/logos/OSGeo_project.png
+  .. image:: /images/logos/OSGeo_incubation.png
+  .. image:: /images/logos/OSGeo_project.png
 
 .. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
