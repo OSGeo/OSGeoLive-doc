@@ -3,7 +3,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-netcdf.png 
+.. image:: /images/project_logos/logo-netcdf.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -21,7 +21,7 @@ This sample dataset supplies annual maximum of daily high temperature, and annua
 Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consortium), in cooperation with AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
 
 
-.. image:: ../../images/screenshots/800x600/netcdf_annual_avg_max_temp.png
+.. image:: /images/screenshots/800x600/netcdf_annual_avg_max_temp.png
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right

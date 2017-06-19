@@ -3,12 +3,12 @@
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: логотип проекта
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Проект OSGeo
   :align: right
@@ -32,7 +32,7 @@ MapGuide включает базу данных на основе XML для у�
 MapGuide может быть развернут на Linux или Windows, поддерживает веб-серверы Apache и IIS и предоставляет обширные API
 для разработки приложений на PHP, .NET, Java и JavaScript. MapGuide Open Source распространяется под лицензией LGPL.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: скриншот
   :align: right

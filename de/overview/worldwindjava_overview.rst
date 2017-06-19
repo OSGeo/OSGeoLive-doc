@@ -4,7 +4,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logoNasaJWW.png
+.. image:: /images/project_logos/logoNasaJWW.png
   :alt: Projekt Logo
   :align: right
   :target: http://goworldwind.org/
@@ -25,7 +25,7 @@ Weltweit nutzen Organisation WorldWind um Wettermuster, Städte und Gelände,
 die Bewegungen von Flugzeugen, Fahrzeugen und Schiffen zu visulalisieren und 
 räumliche Daten zu analysieren sowie in der Lehre.
 
-.. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
+.. image:: /images/screenshots/1024x768/javaworldwind_main.png
  :scale: 50 %
  :alt: Java World Wind Example
  :align: right

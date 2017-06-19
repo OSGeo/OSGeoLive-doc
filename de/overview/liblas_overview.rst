@@ -3,7 +3,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
@@ -18,7 +18,7 @@ libLAS ist eine C/C++ Bibliothek zum Lesen und Schreiben des sehr verbreiteten `
 `LiDAR`_ Formats. Das `ASPRS LAS Format`_ ist ein sequentielles Binärformat, das zum Speichern von Daten von
 LiDAR Sensoren und von LiDAR Prozessierungssoftware für den Datenaustausch und die Archivierung verwendet wird.
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

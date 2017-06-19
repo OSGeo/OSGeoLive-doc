@@ -3,14 +3,14 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: Logo du projet
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Projet OSGeo
   :align: right
@@ -28,7 +28,7 @@ L'essentiel de Geomajas est de fournir une plateforme pour **l'intégration du c
 
 Ce qui rend Geomajas unique est son solide aspect du côté serveur. Le processus, le style, le filtre, la capture, etc. de données géospatiales arrivent toujours dans un contexte sécurisé. Tout cela fait de Geomajas une application incroyablement adaptable et performante, gardant le client un **véritable client léger**.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

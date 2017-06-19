@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
@@ -23,7 +23,7 @@ Zalety bazodanowego podejścia do trasowania:
 * Zmiany danych mogą być natychmiast odzwierciedlone w trasowaniu. Nie map potrzeby wstępnych kalkulacji.
 * Parametr "kosztu" może być dynamicznie obliczany za pomocą SQL a jego wartość może wynikać z wielu pól lub tabel.
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right

@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
@@ -20,7 +20,7 @@ popularnego formatu `LAS` `LiDAR`_. `ASPRS LAS format`_ jest binarnym formatem
 przechowywania danych pochodzących z sensorów LiDAR lub programów przetwarzających 
 dane LiDAR w celu wymiany lub archiwizacji danych.
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

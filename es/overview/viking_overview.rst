@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-viking.png
+.. image:: /images/project_logos/logo-viking.png
   :alt: project logo
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
@@ -27,7 +27,7 @@ de :doc:`OpenStreetMap <osm_dataset_overview>` y otros servidores de teselas.
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
+.. image:: /images/screenshots/1024x768/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

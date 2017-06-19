@@ -2,7 +2,7 @@
 :Version: OSGeo-Live DVD, Version 4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
    :scale: 50 
    :align: right
 
@@ -53,7 +53,7 @@ Wählen Sie gvSIG im entsprechenden Anwendungsmenü (:menuselection:`Geospatial 
    #. Klicken Sie auf den Button :guilabel:`New` (Neu) um eine Ansicht zu erstellen.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_001_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_001_.png
    :scale: 55 
 
 Die Projektion für die Ansicht festlegen
@@ -66,7 +66,7 @@ Die Projektion für die Ansicht festlegen
 #. Wählen Sie :menuselection:`View --> Properties`, um den Dialog Eigenschaften Ansicht zu öffnen
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_002_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_002_.png
    :scale: 55 
 
 Definieren Sie das Raumbezugssystem
@@ -81,7 +81,7 @@ Definieren Sie das Raumbezugssystem
 
 #. Klicken Sie auf :guilabel`OK` um zum **Projektverwalter** zurückzukehren.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_003_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_003_.png
    :scale: 55 
 
 
@@ -103,7 +103,7 @@ Bereiche der Ansicht kennenlernen
 #. Unten links ist der Übersichtsbereich zu finden, worin der Ausschnitt des Hauptfensters dargestellt wird
 #. Der rechte Bereich ist das Kartenfenster, wo die Vektor- und Rasterdaten gerendert werden
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_005_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_005_.png
    :scale: 55
 
 Die Ansicht - Raster- und Vektordaten hinzufügen
@@ -117,7 +117,7 @@ Die Ansicht - Raster- und Vektordaten hinzufügen
 #. Folgen Sie dem Verzeichnisbaum bis zum Verzeichnis ``/usr/local/share/data/natural_earth2/``
 #. Wählen Sie die Dateien, wie in der folgenden Abbildung zu sehen. 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_006_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_006_.png
    :scale: 55 
 
 .. note:: Es werden standardmäßig alle unterstützen Formate angezeigt. Es können Raster- und Vektordaten 
@@ -134,7 +134,7 @@ Eine Rasterdatei auswählen
    #. Klicken Sie auf [OK] um zum Dialog **Layer hinzufügen** zurückzukehren.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_007.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_007.png
    :scale: 55 
 
 Vektordateien auswählen
@@ -149,7 +149,7 @@ Vektordateien auswählen
    #. Klicken Sie auf den Button [OK] im Dialog **Layer hinzufügen** um zurück zur Ansicht zu gelangen.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_008.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_008.png
    :scale: 55 
 
 Die Ansicht- grundlegende Navigation
@@ -164,7 +164,7 @@ Zurück in der Hauptansicht sehen sie dass die Vektordateien nun der Rasterdatei
    #. Verwenden Sie die Maus um ein Auswahlrechteck um Südost-Australien zu zeichnen. Klicken Sie dazu in die linke obere Ecke in der die Auswahl beginnen soll, halten Sie die linke Maustaste gedrückt und ziehen Sie so die rechte untere Ecke des Rechtecks bis zur entsprechenden Position, um den gewünschten Bereich auszuwählen. Lassen sie dann die linke Maustaste los.
  
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_009.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_009.png
    :scale: 55 
 
 Feineinstellung der Navigation
@@ -176,7 +176,7 @@ Die Ansicht ändert sich automatisch um die Inhalte innerhalb des Auswahl.
    #. Passen sie Darstellung der Ansicht mittels der hervorgehobenen Werkzeuge an, so dass Victoria im Zentrum der Ansicht dargestellt wird.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_010.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_010.png
    :scale: 55 
 
 Die Ansicht - Das Erscheinungsbild von Layern ändern
@@ -190,7 +190,7 @@ Ein Polygon transparent darstellen
    #. Der Dialog **Layereigenschaften erscheint**.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_011.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_011.png
    :scale: 55 
 
 Die Darstellungssymbole für einen Vekorlayer ändern
@@ -202,7 +202,7 @@ Die Darstellungssymbole für einen Vekorlayer ändern
    #. Klicken Sie auf den Button [OK] um zum Dialog **Layereigenschaften** zurückzukehren.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_012.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_012.png
    :scale: 55 
 
 Die Beschriftung eines Vektor-Layers ändern
@@ -212,7 +212,7 @@ Die Beschriftung eines Vektor-Layers ändern
    #. Ändern Sie die Texteigenschaften so wie im Beispiel dargestellt, klicken Sie dann auf den Button [Anwenden].
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_013.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_013.png
    :scale: 55 
 
 Das Ergebnis
@@ -220,7 +220,7 @@ Das Ergebnis
    
 Beachten Sie dass dies eine sehr einfache Ansicht ist, die nur jeweils eine Punkt-, Linien- und Polygon-Vektordatei zeigt die einer Rasterdatei überlagert sind. Genau so einfach wäre es, ein Luftbild oder ein Digitales Geländemodell als Hintergrund für Vektordaten zu verwenden, oder andere Vektordaten in unterschiedlichen Formaten anzuzeigen.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_014.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_014.png
    :scale: 55 
 
 Eine Übung für Anwender - Ändern sie die Symbole und die Beschriftung der Punkt- und Linienlayer
@@ -228,7 +228,7 @@ Eine Übung für Anwender - Ändern sie die Symbole und die Beschriftung der Pun
    
 Ändern Sie Symbole, Farbe and Beschriftung für Flüsse und Städte so dass sie aussehen wie im folgenden Screenshot. Gehen Sie dazu den bisher beschriebenen Schritten entsprechend vor.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_015.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_015.png
    :scale: 55 
 
 Einfache Analyse - selektieren Sie Städte in einer Region
@@ -241,7 +241,7 @@ Die Region auswählen
    #. Drücken Sie den Button ‘Auswahl durch Klick’ in der Haupt-Werkzeugleiste.
    #. Klicken Sie in das Polygon welches den State of Victoria darstellt. Das Polygon wird gelb oder nimmt, je nach Anwendereinstellungen, eine andere Farbe an.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_016.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_016.png
    :scale: 55 
 
 Die Städte innerhalb einer Region auswählen
@@ -253,7 +253,7 @@ Die Städte innerhalb einer Region auswählen
    #. Wählen Sie den Button [Abbrechen] im Dialog **Auswahl durch Layer** um zur Ansicht zurück zu gelangen.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_017.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_017.png
    :scale: 55 
 
 Heben sie die Auswahl für das Polygon auf um das Ergebnis zu sehen
@@ -264,7 +264,7 @@ Heben sie die Auswahl für das Polygon auf um das Ergebnis zu sehen
    #. Sie sehen dass nur nur Städte innerhalb von Victoria ausgewählt sind.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_018.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_018.png
    :scale: 55 
 
 Exportieren Sie die ausgewählten Städte in eine neue Shapedatei
@@ -277,7 +277,7 @@ Exportieren Sie die ausgewählten Städte in eine neue Shapedatei
    #. Der Dialog **Layer hinzufügen** erscheint. Wählen Sie den Button [Ja] um die neue Shapedatei zur Liste der Layer hinzuzufügen.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_019.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_019.png
    :scale: 55 
 
 Nur Städte innerhalb einer Region anzeigen
@@ -288,7 +288,7 @@ Nur Städte innerhalb einer Region anzeigen
    #. Die Ansicht enthält jetzt nur Städte innerhalb des State of Victoria.
    #. Verwenden Sie das Symbol [Fenster schließen] um zum **Projektverwalter** zurück zu gelangen, damit wir eine Karte aus dieser Ansicht erstellen können.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_020.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_020.png
    :scale: 55 
    
 Wie man eine Karte erstellt
@@ -304,7 +304,7 @@ Erstellen Sie eine neue Karte und öffnen Sie diese
    #. Eine leere Karte erscheint in einem eigenen Fenster, der Name lautet Karte: ``Ohne Titel - 0``. Beachten Sie dass eine Reihe von Punkten gleichmäßig über das Kartenbild verteilt ist. Man nennt dies Gitter oder Hilfslinien und sie helfen beim Erstellen und Formatieren der Karte indem sie nahe gelegene Punkte einrasten können.
    #. Wählen Sie das Symbol [Fenster maximieren] um den ganzen Bildschirm zur Darstellung zu nutzen.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_021.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_021.png
    :scale: 55 
 
 Fügen sie eine Ansicht mit einem Gitternetz ein
@@ -321,7 +321,7 @@ Fügen sie eine Ansicht mit einem Gitternetz ein
    #. Klicken Sie auf den Button [OK] um zum Dialog **Eigenschaften Ansichtsrahmen** zurück zu gelangen, dann drücken Sie [OK] um den Dialog zu schließen und zur Karte zurückzukehren.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_022.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_022.png
    :scale: 55 
 
 Was kann man noch zur Karte hinzufügen?
@@ -333,7 +333,7 @@ Was kann man noch zur Karte hinzufügen?
    #. Wählen Sie das Symbol [Fenster schließen] um zum **Projektverwalter** zurück zu gelangen
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_023.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_023.png
    :scale: 55 
 
 Speichern Ihres Projektes oder Schließen von gvSIG
@@ -343,7 +343,7 @@ Speichern Ihres Projektes oder Schließen von gvSIG
    2. man kann Projekte schließen indem man die Option ``Datei > Schließen`` auswählt.
 
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_024.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_024.png
    :scale: 55 
 
 Was kommt als nächstes...

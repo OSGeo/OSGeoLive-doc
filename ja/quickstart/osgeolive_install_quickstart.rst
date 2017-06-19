@@ -19,37 +19,37 @@ OSGeo-Live の DVD や ISO イメージから仮想マシンにインストー�
 OSGeo-Live のインストール
 --------------------------------------------------------------------------------
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
+  .. image:: /images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
  :guilabel:`Install RELEASE` を選択してください。
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
+  .. image:: /images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
 
 パスワード "user" を入力してください。
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install1_language.png
+  .. image:: /images/screenshots/800x600/osgeolive_install1_language.png
     :scale: 70 %
 
 言語を選択します。
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install2_timezone.png
+  .. image:: /images/screenshots/800x600/osgeolive_install2_timezone.png
     :scale: 70 %
 
 タイムゾーンを選択します。
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install3_keyboard.png
+  .. image:: /images/screenshots/800x600/osgeolive_install3_keyboard.png
     :scale: 70 %
 
 キーボードを選択します。
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install4_disk.png
+  .. image:: /images/screenshots/800x600/osgeolive_install4_disk.png
     :scale: 70 %
 
 インストール先を選択します。（ここで選択したパーティーションの中身は削除されます）
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install5_username.png
+  .. image:: /images/screenshots/800x600/osgeolive_install5_username.png
     :scale: 70 %
 
 デフォルトでは以下のような設定になっています:
@@ -60,7 +60,7 @@ OSGeo-Live のインストール
    * computer name = "osgeolive" 
    * 自動ログイン有効
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
+  .. image:: /images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
  :guilabel:`Install` を押して進んでください。

@@ -4,14 +4,14 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ mappe interattive, widget estendibili e casi d'uso personalizzati. Permette di
 accedere ad un vasto range di sorgenti di dati e funzionalità attraverso un
 browser web.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

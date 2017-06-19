@@ -7,13 +7,13 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :scale: 65 %
   :alt: Project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -162,7 +162,7 @@ specified in the "*&LAYERS=...*" property having *STATUS ON* in the MapFile
 will be rendered in addition to all layers with *STATUS DEFAULT*. The 
 result looks like the following:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
 
 .. note::
@@ -227,7 +227,7 @@ to the image rendered. We simply need to add the new layer name to the
 The image rendered by MapServer looks like our previous map, but with the 
 addition of the lakes from our new layer:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
 
@@ -288,7 +288,7 @@ EXPRESSIONs defined in the CLASS objects.
 The result of this new addition should make the big lakes in our map image 
 rendered with a black outline:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note::

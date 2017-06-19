@@ -25,9 +25,9 @@
   Els logos del projecte s'emmagatzemen aquí:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   i també es pot accedir des d'aquí:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :alt: logo del projecte
   :align: right
   :target: http://postgis.refractions.net/
@@ -38,7 +38,7 @@
   .. image:: images/logos/OSGeo_incubation.png
   .. image:: images/logos/OSGeo_project.png
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: Projecte OSGeo en Incubació
   :align: right
@@ -87,7 +87,7 @@ que permeten visualitzar i manipular les dades PostGIS.
   Les captures de pantalla s'han de fer amb una resolució de pantalla de 1024x768.
   El fons d'escriptori no ha d'aparèixer degut a que pot canviar amb les versions.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

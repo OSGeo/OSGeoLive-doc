@@ -9,7 +9,7 @@
 OpenLayers Quickstart
 ********************************************************************************
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -104,7 +104,7 @@ Create a file in e.g. /home/user/ called basic-map.html , and copy the following
 
 Now try opening basic-map.html from a web browser using File->Open File. You should see the following:
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic-map.png
+.. image:: /images/screenshots/800x600/openlayers-basic-map.png
   :scale: 100 %
 
 Note:
@@ -186,7 +186,7 @@ source suitable for reading the vector format, like ``ol.source.GeoJSON``,
 
 **Ex. 5:** Constructing a GeoJSON vector layer
 
-.. image:: ../../images/screenshots/800x600/openlayers-vector.png
+.. image:: /images/screenshots/800x600/openlayers-vector.png
   :scale: 100 %
 
 Note, in the previous code we must change the ``url_to_file`` to point to a
@@ -235,7 +235,7 @@ The style is determined by a combination of fill, stroke, text  and image, which
 
 A style is represented by the ``ol.style.Style`` class which has properties to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. The next example shows the World's administrative limits dataset styled to use a green fill and stroke:
 
-.. image:: ../../images/screenshots/800x600/openlayers-styling.png
+.. image:: /images/screenshots/800x600/openlayers-styling.png
   :scale: 100 %
 
 .. code-block:: javascript

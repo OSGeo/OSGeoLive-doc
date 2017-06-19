@@ -3,7 +3,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -95,27 +95,27 @@ To pycsw υλοποιεί την οδηγία 10 (πρωτόκολο επικο�
 
 Για να εκτελέσετε την δοκιμαστική εφαρμογή, επιλέξτε από το μενού WebServices το εικονίδιο pycsw ή εναλλακτικά ανοίξτε ένα παράθυρο Firefox και πληκτρολογήστε http://localhost/pycsw/tester/index.html στη μπάρα διευθύνσεων.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_startup.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_startup.png
   :scale: 75 %
 
 Με την επιλογή από την αριστερή λίστα, μπορείτε να επιλέξετε έτοιμα ερωτήματα POST, με την μορφή XML, τα οποία μπορούν να σταλούν στο pycsw: 
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_selection.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_selection.png
   :scale: 75 %
 
 Για παράδειγμα επιλέγοντας "apiso/DescribeRecord", και πατώντας το κουμπί "Send", μια περιγραφή εγγραφής ISO Application Profile παρουσιάζεται στο δεξί παράθυρο:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
 Επιλέγοντας "GetCapabilities-SOAP" και πιέζοντας το κουμπί "Send", ένα ερώτημα SOAP αποστέλεται στον εξυπηρετητή για να δημοσιοποιήσει τις δυνατότητες της διαδικτυακής υπηρεσίας:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
 Επιπλέον μπορείτε να αναζητήσετε εγγραφές δεδομένων, με χωρικό ερώτημα προς τον εξυπηρετητή, με την επιλογή "GetRecords-filter-bbox" και αφού επεξεργαστείτε τις συντεταγμένες στο XML ερώτημα:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
 Μπορείτε να δοκιμάσετε όλες τα πιθανά ερωτήματα μέσω αυτής της δοκιμαστικής εφαρμογής. Ένας πιο αποτελεσματικός και γραφικός τρόπος για να κάνετε τέτοια ερωτήματα περιγράφεται παρακάτω σε αυτόν τον οδηγό.
@@ -140,12 +140,12 @@ Capabilities Document and Configuration
 
 Μπορείτε να συμπληρώσετε τα απαραίτητα πεδία μεταδεδομένων μέσω της εφαρμογής, προσθέτωντας πληροφορίες όπως το όνομα του ιδιοκτήτη των δεδομένων, λέξεις κλειδιά, ιστοσελίδα των δεδομένων στο διαδίκτυο, την γεωγραφική θέση κλπ. 
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 % 
 
 Μετά την συμπλήρωση των μεταδεδομένων, πραγματοποιείται πιστοποίηση των μεταδεδομένων μέσα από το κουμπί (validation) στην αρχή της σελίδας, ώστε να εκτελεστούν οι απαραίτητοι έλεγχοι σε σχέση με τη οδηγία INSPIRE. 
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_save_metadata.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_save_metadata.png
   :scale: 75 %
 
 Μετά απο επιτυχημένη πιστοποίηση των μεταδεδομένων, το αρχείο XML μπορεί να αποθηκευτεί στον τοπικό δίσκο και να παρουσιαστεί μέσω ενός επεξεργαστή κειμένου ή ενός φυλλομετρητή.
@@ -165,7 +165,7 @@ Capabilities Document and Configuration
 
 Μπορείτε να ακολουθήσετε τον ίδιο τρόπο εργασίας με το EUOSME για να δημιουργήσετε μεταδεδομένα, χωρίς να είναι απαραίτητη η σύνδεση στο διαδίκτυο.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_gimed.png
+.. image:: /images/screenshots/1024x768/pycsw_gimed.png
   :scale: 75 %
 
 Αποθήκευση Μεταδεδομένων
@@ -225,32 +225,32 @@ Capabilities Document and Configuration
 
 Εκκινήστε το QGIS από το φάκελο της επιφάνειας εργασίας "Desktop GIS" και επιλέξτε την εντολή "Manage Plugins"
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin.png
   :scale: 75 %
 
 Ενεργοποιήστε το πρόσθετο CSW από τη λίστα
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
   :scale: 75 %
 
 Επιλέξτε το κουμπί CSW από το μενού εργαλείων και εκκινήστε το πρόσθετο CSW
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
   :scale: 75 %
 
 Εισάγετε τον εξυπηρετητή pycsw επιλέγοντας το κουμπί "New" και πληκτρολογώντας  ``http://localhost/pycsw/csw.py``
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
   :scale: 75 %
 
 Μπορείτε να εισάγετε κάποιους προεπιλεγμένους εξυπηρετητές από το κουμπί "Add default servers" και να δείτε τις δυνατότητες των εξυπηρετητών από το κουμπί "Server info"
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
   :scale: 75 %
 
 Πραγματοποιήστε αναζήτηση μέσω καταλόγου, είτε πληκτρολογώντας λέξεις κλειδιά, είτε με μια γεωγραφική περιοχή
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
 Δοκιμαστική Εφαρμογή
@@ -258,7 +258,7 @@ Capabilities Document and Configuration
 
 Αναζήτηση δεδομένων μπορεί να γίνει επίσης από την δοκιμαστική εφαρμογή επιλέγοντας τα κατάλληλα ερωτήματα και εισάγωντας τις απαραίτητες παραμέτρους πχ. με τη χρήση του ερωτήματος "any text" με το αλφαριθμητικό "imagery" οδηγεί στην ανεύρεση των δεδομένων που δημιουργήθηκε προηγουμένως μέσω του  EUOSME
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_discovery.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_discovery.png
   :scale: 75 %
 
 Για πλήρη ανάλυση των δυνατοτήτων του pycsw μπορείτε να συμβουλευθείτε την επίσημη σελίδα: http://pycsw.org/documentation.html

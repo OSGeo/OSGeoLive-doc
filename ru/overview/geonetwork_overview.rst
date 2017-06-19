@@ -3,12 +3,12 @@
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: Логотип проекта
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -25,7 +25,7 @@ GeoNetwork — это приложение для управления геоп�
 функции поиска и редактирования метаданных, включает в себя интерактивный
 просмотрщик веб-карты.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.png
+.. image:: /images/screenshots/1024x768/geonetwork-overview.png
   :scale: 50 %
   :alt: Внешний вид
   :align: right

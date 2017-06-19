@@ -22,14 +22,14 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :alt: project logo
   :align: right
   :target: http://postgis.refractions.net/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -75,7 +75,7 @@ lub klientów desktopowych, czy w przeglądarce internetowej,  służących rów
   Don't include the desktop background as this changes with each release
   and will become dated.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

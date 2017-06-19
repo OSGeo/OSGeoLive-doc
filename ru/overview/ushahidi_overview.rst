@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
@@ -16,7 +16,7 @@ Ushahidi
 
 Движок `Ushahidi <http://www.ushahidi.com/>`_ представляет собой открытую платформу, которая может быть использована для сбора распределённой информации посредством SMS или электронной почты и её визуализации на карте или временной шкале. Основная цель Ushahidi - создание инструментов, упрощающих доступ к информации, повышение её прозрачности и снижение барьеров для всех желающих поделиться своими данными.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

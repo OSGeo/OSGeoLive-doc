@@ -20,37 +20,37 @@ Requisits del sistema
 Instal·lació d'OSGeo-Live
 --------------------------------------------------------------------------------
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
+  .. image:: /images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
 Escolliu :guilabel:`Install RELEASE`
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
+  .. image:: /images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
 
 Entreu el password="user"
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install1_language.png
+  .. image:: /images/screenshots/800x600/osgeolive_install1_language.png
     :scale: 70 %
 
 Escolliu l'idioma
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install2_timezone.png
+  .. image:: /images/screenshots/800x600/osgeolive_install2_timezone.png
     :scale: 70 %
 
 Escolliu la zona horària
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install3_keyboard.png
+  .. image:: /images/screenshots/800x600/osgeolive_install3_keyboard.png
     :scale: 70 %
 
 Escolliu la distribució del teclat
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install4_disk.png
+  .. image:: /images/screenshots/800x600/osgeolive_install4_disk.png
     :scale: 70 %
 
 Especifiqueu a quin disc voleu fer la instal·lació (Vigileu, això pot esborrar totes les dades d'una partició existent).
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install5_username.png
+  .. image:: /images/screenshots/800x600/osgeolive_install5_username.png
     :scale: 70 %
 
 Els valors per defecte de la configuració són:
@@ -61,7 +61,7 @@ Els valors per defecte de la configuració són:
    * Nom de la màquina = "osgeolive"
    * *Log In* automàticament
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
+  .. image:: /images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
 Sel·leccioneu :guilabel:`Install`

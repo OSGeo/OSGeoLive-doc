@@ -2,7 +2,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 50px
   :height: 50px
   :alt: project logo
@@ -20,7 +20,7 @@ Geomajas itself is an application framework allowing you to build very diverse a
 
 On this OSGeo Live DVD we have included a ready-to-use Geomajas Application. This application features a map, navigation controllers, several data layers, a ribbon toolbar with GIS tools and the Layer Tree.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

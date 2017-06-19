@@ -4,12 +4,12 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -24,7 +24,7 @@ Desktop GIS
 
 QGIS ist ein benutzerfreundliches Geographisches Informationssystem. Es eignet sich zur Darstellung, Verwaltung, Berarbeitung und zur Analyse von Geodaten. Darüberhinaus kann man mit QGIS druckfertige Karten zusammenstellen. Es besteht eine Schnittstelle zu einer Vielzahl von externen Analysemodulen wie :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox <otb_overview>` oder :doc:`GDAL/OGR <gdal_overview>`. QGIS läuft unter Linux, Unix, Mac OS X und Windows. Es unterstützt sehr viele unterschiedliche Vektor- und Rasterformate. Außerdem können viele verschiedene Datenbankentypen (z.B. PostGIS) angebunden werden.  
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

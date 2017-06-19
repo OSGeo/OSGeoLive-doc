@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
@@ -20,7 +20,7 @@ Kosmo - Desktop és una aplicació SIG d'escriptori amigable que us permet explo
 Kosmo - Desktop segueix els estàndards OGC i proporciona una excel·lent integritat topològica. 
 La seva arquitectura de complements permet que sigui fàcilment adaptat a qualsevol propòsit.
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -5,7 +5,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: /images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -27,7 +27,7 @@ GpsPrune es pot executar en Mac OSX, Windows i Linux, i està disponible en 10 i
 Característiques Principals
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

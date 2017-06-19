@@ -4,12 +4,12 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pywps.png
+.. image:: /images/project_logos/logo-pywps.png
   :alt: project logo
   :align: right
   :target: http://pywps.wald.intevation.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Project in Incubation
   :align: right
@@ -27,7 +27,7 @@ Prozesse sind in Python geschrieben und
 können in Werkzeuge wie :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <metacrs_overview>` und andere Bibliotheken mit Python Bindings integriert werden. 
 Ausgangsdaten können über WPS Requests bereitgestellt werden oder über Daten auf dem WPS Server.
 
-.. image:: ../../images/screenshots/1024x768/pywps_client.png
+.. image:: /images/screenshots/1024x768/pywps_client.png
     :scale: 50 %
     :alt: screenshot
     :align: right

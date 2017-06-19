@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-pywps.png
+.. image:: /images/project_logos/logo-pywps.png
   :alt: project logo
   :align: right
   :target: http://pywps.wald.intevation.org/
@@ -27,7 +27,7 @@ PyWPS non contiene nessun processo già predisposto (eccetto per gli esempi usat
 per i test di unità). Ogni utente deve / può creare qualsiasi processo abbia bisogno
 di interfacciare con internet.
 
-..  .. image:: ../../images/screenshots/800x600/pywps_client.png
+..  .. image:: /images/screenshots/800x600/pywps_client.png
     :scale: 50 %
     :alt: screenshot
     :align: right

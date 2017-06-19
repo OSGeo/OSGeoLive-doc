@@ -5,7 +5,7 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-cartaro.png
+.. image:: /images/project_logos/logo-cartaro.png
   :alt: project logo
   :align: right
   :target: http://cartaro.org
@@ -28,7 +28,7 @@ Cartaro jest zaprojektowane dla stron CMS, które muszą obsługiwać dane przes
 i dla organizacji chcących lekkiej infrastruktury Danych Przestrzennych (SDI) 
 przy minimalnych nakładach na konfigurację i programowanie.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

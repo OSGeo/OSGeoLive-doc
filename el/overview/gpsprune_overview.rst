@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: /images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -31,7 +31,7 @@ GpsPrune
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

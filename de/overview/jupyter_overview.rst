@@ -5,7 +5,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-jupyter.png
+.. image:: /images/project_logos/logo-jupyter.png
   :alt: project logo
   :align: right
   :target: http://jupyter.org/
@@ -41,7 +41,7 @@ machine learning und viel mehr.
 .. Cameron comment: I like the collage layout and selected examples, however
   the image scale: above should change from 100% to 70% for 1024x768 images, to fit text layout. (this image is actually 1007x725). The image should be stored in images/screenshots/1024x768. The font size in the image is too small to see the text layout (which is a really cool message to get across). I suggest resampling, probably in a 800x600 resolution, maybe limit source collage images to 3. Maybe have one screenshot as the entire background, then place other samples on top - see the geoserver screenshot.
    
-.. image:: ../../images/screenshots/800x600/jupyter-screenshot.png
+.. image:: /images/screenshots/800x600/jupyter-screenshot.png
   :scale: 70 %
   :alt: screenshot
   :align: right

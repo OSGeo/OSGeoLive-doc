@@ -3,12 +3,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: логотип проекта
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: Проект OSGeo
   :align: right
@@ -40,7 +40,7 @@ deegree
 
 deegree запустит вашу ИПД, используя ваши собственные данные и согласно вашим требованиям.
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
   :scale: 50%
   :alt: логотип проекта
   :align: right

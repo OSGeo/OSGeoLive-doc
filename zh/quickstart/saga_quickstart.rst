@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -22,7 +22,7 @@ SAGA GIS 快速入门
 
 　　启动后 SAGA 将显示三个窗口，分别是主窗口、对象属性窗口和信息窗口。对象属性窗口中的信息会根据选择对象的不同而变化。
 
-  .. image:: ../../images/screenshots/1024x768/saga_guioverview.png
+  .. image:: /images/screenshots/1024x768/saga_guioverview.png
      :scale: 80
 
 读取数据
@@ -39,7 +39,7 @@ SAGA GIS 快速入门
 
 　　使用工具栏的导航选择工具可以平移和缩放。默认选择的为缩放（zoom），左键放大，右键缩小，拖拽放大至选择区域。放大到一定程度会显示像元数值。选择平移工具（pan）可以推拽平移。另有缩小至全局视图（Zoom to Full Extent）等操作。
 
-.. image:: ../../images/screenshots/800x600/saga_fullextent.png
+.. image:: /images/screenshots/800x600/saga_fullextent.png
 
 .. tip:: 若缩放尺寸太大以致难以判断位置，点击缩小至全局视图即可。
 
@@ -56,14 +56,14 @@ SAGA GIS 快速入门
 
 　　请尝试不同的透明度与渲染方式设定。若不改变输出设置，输出数据集会被覆盖，因此输出结果将会立刻显现。
 
-.. image:: ../../images/screenshots/1024x768/saga_withhillshade.png
+.. image:: /images/screenshots/1024x768/saga_withhillshade.png
     :scale: 80
 
 3D 可视化
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 　　下面对高程数据进行三维显示。选中地图视图并点击工具栏中的 3D-View ，选中栅格系统中的原始高程数据集为高程（elevation）。点击 OK 即可。三维视图中按住鼠标左键拖拽可以旋转，右键用于缩放。工具栏中还提供了更多控制。
 
-.. image:: ../../images/screenshots/1024x768/saga_3d.png
+.. image:: /images/screenshots/1024x768/saga_3d.png
     :scale: 80
 
 创建等高线
@@ -74,7 +74,7 @@ SAGA GIS 快速入门
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 　　选择一个数据集，例如此处的等高线，在属性窗口选择历史（history）选项卡可以查看其创建和编辑的过程记录。在存储文件时，\*.hshp 和 \*.hgrd 格式的记录中也包含了这些信息。
 
-.. image:: ../../images/screenshots/1024x768/saga_contour_history.png
+.. image:: /images/screenshots/1024x768/saga_contour_history.png
     :scale: 80
 
 保存数据

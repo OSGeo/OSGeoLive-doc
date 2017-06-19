@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/security
@@ -30,7 +30,7 @@ Er agiert als Proxy für eine beliebe Anzahl von OGC Web Services, der alle Requ
 und entsprechend der definierten Regeln reagiert.
 Regeln und Benutzer sind in XML Konfigurationsdateien definiert, die über ein generelles Management Interface gepflegt werden.
 
-.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Bildschirmfoto WSS Management UI
   :align: right

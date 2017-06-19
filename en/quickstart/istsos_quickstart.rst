@@ -3,7 +3,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-istsos.png
+.. image:: /images/project_logos/logo-istsos.png
   :alt: project logo
   :align: right
   :target: http://istsos.org
@@ -69,7 +69,7 @@ Add new observations
     #. Click the Plot button and check that the data have been added (watch out at your time zone!)
 
 
-.. image:: ../../images/screenshots/1024x768/istsos_viewer.png
+.. image:: /images/screenshots/1024x768/istsos_viewer.png
   :scale: 50 %
 
 Edit data with the CALCULATOR
@@ -117,7 +117,7 @@ Let’s build a function that make the average of the data from BELLINZONA and L
 
 #. Press the enter button and check your new data with gap filled (Press Save if yyou want to permanently save the updates in the database!)
 
-.. image:: ../../images/screenshots/1024x768/istsos_calculator.png
+.. image:: /images/screenshots/1024x768/istsos_calculator.png
   :scale: 50 %
 
 

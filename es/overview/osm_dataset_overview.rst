@@ -8,7 +8,7 @@
 
 .. _osm_dataset-overview:
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: https://www.openstreetmap.org/
@@ -31,7 +31,7 @@ consecuencia de esto.
 
 La distribución OSGeo-Live incluye un extracto de los datos de OSM a nivel de ciudades, que es usado en ejemplos de otras aplicaciones.
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
   :alt: captura de pantalla de OSM 
   :align: right

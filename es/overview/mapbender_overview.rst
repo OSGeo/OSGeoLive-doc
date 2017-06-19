@@ -5,12 +5,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 90 %
   :alt: OSGeo Project
   :align: right
@@ -56,7 +56,7 @@ implementado en PHP y PostgreSQL/PostGIS.
 Mapbender da una nueva perspectiva a la gestión de las IDE al utilizar nada más
 que un navegador web estándar.
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender application
   :align: right

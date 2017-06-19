@@ -11,7 +11,7 @@
 
 .. _postgis_quickstart-es:
  
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -297,21 +297,21 @@ Inicie QGIS y elija ``Añadir capa PostGIS`` del menú Capa. Los parámetros par
 
 
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
 Obtendrá una lista de las tablas espaciales de la base de datos.
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
   :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
 
 Elija la tabla lagos y pinche ``Añadir`` (no ``Cargar`` - que guarda las consultas). Esta capa se debería cargar en QGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -334,7 +334,7 @@ Si le pide la contraseña déjela en blanco. Verá la ventana principal del gest
 
 
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
   :alt: QGIS Manager Preview
   :align: center
@@ -345,14 +345,14 @@ incluidos en uno de los complementos del paquete estadístico R.
 
 Dentro del menú ``Tabla`` elija la opción ``Importar capa/archivo``. Pinche el botón ``...`` y busque el shapefile ``sids.shp`` en el paquete ``maptools`` de R (que se encuentra en /usr/lib/R/site-library/maptools/shapes/):
 
-. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+. image:: /images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Find the shapefile
   :align: center
 
 No cambie nada más y pulse ``Aceptar``.
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
   :alt: Import a shapefile
   :align: center
@@ -363,7 +363,7 @@ A continuación cargue los datos de SIDS en el mapa usando la opción 'Añadir c
 Cambiando de orden algunas capas y coloreando un poco debería ser capaz de obtener un mapa de coropletas del recuento
 de síndromes de muerte súbita infantil en Carolina del Norte:
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
   :scale: 50 %
   :alt: SIDS data mapped
   :align: center
@@ -377,7 +377,7 @@ Conozca pgAdmin III
 Puede usar el cliente gráfico de bases de datos ``pgAdmin III`` para consultar y modificar sus bases 
 de datos no espaciales. Este es el cliente oficial de PostgreSQL, y permite que use el lenguaje SQL para manipular sus tablas de datos. Se puede encontrar y ejecutar pgAdmin III desde la carpeta de Databases en el escritorio del OSGeo Live.
 
-.. image:: ../../images/screenshots/1024x768/postgis_pgadmin_main_window.png
+.. image:: /images/screenshots/1024x768/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -387,7 +387,7 @@ Aquí, tiene a opción de crear una nueva conexión a un servidor PostgreSQL o c
 
 Tras establecerse la conexión, podrá ver el listado de bases de datos ya existentes en el sistema.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen0.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -398,7 +398,7 @@ En este momento, sólo puede visualizar las bases de datos disponibles en el sis
 Se puede ver como la cruz roja desaparece y aparece un signo "+" a la izquierda. Presionandola se desplegará un arbol mostrando el contenido de la base de datos. Navegar hasta el elemento ``schemas`` y expandirlo y tras él, el esquema ``public``. Ahora, expandiendo el elemento ``Tables``, puede ver todas las tablas contenidas en este esquema.
 
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -421,7 +421,7 @@ Además, vamos a ordenar el resultado en función de la tasa calculada. Para hac
 
 Después, debe presionar el botón con una flecha verde apuntando a la derecha (*Execute query*, ejecutar consulta).
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

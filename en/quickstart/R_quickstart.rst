@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
 
@@ -199,7 +199,7 @@ functionality:
 
 This gives us a simple map of the world:
 
-.. image:: ../../images/screenshots/1024x768/r_plot1.png
+.. image:: /images/screenshots/1024x768/r_plot1.png
 
 When an OGR dataset is read into R in this way we get back an object that
 behaves in many ways like a data frame. We can use the ``admin``
@@ -210,7 +210,7 @@ field to subset the world data and just get the UK:
 	> uk = countries[countries$admin == "United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
-.. image:: ../../images/screenshots/1024x768/r_plot2.png
+.. image:: /images/screenshots/1024x768/r_plot2.png
 
 This looks a bit squashed to anyone who lives here, since we are more familiar with
 a coordinate system centred at our latitude. Currently the object doesn't have a 
@@ -256,7 +256,7 @@ colour to red and the plotting character to a solid blob:
 
 and our final image appears:
 
-.. image:: ../../images/screenshots/1024x768/r_plot3.png
+.. image:: /images/screenshots/1024x768/r_plot3.png
 
 Vignettes
 ================================================================================

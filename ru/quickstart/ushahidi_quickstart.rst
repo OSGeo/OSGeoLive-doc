@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :scale: 100 %
   :alt: Логотип проекта
   :align: right 
@@ -23,7 +23,7 @@
    или через меню. После чего в Веб-браузере откроется страница установки.
    Сайт Ushahidi довольно прост в настройке:
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -39,7 +39,7 @@
    Сейчас задайте просто что-то вроде **"ushahidi@localhost.localdomain"**
    или **"ushahidi@example.org"** и нажмите **"Continue"**.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
    :scale: 50 %
    :alt: mapguide desktop icons
    :align: center
@@ -75,7 +75,7 @@
    сообщение о том, что установка успешно завершена и появится ссылка 'View your
    website', по которой следует перейти.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
@@ -86,7 +86,7 @@
    (справа сверху), перейти во вкладку **"Map"** и изменить провайдер 
    **"Map provider"** на OpenStreetMaps Cycling Map (для OSM не требуется API-ключ). Затем кликните на кнопке :guilabel:`SAVE SETTINGS` внизу страницы.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center

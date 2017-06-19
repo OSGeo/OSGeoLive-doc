@@ -2,7 +2,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: Логотип pgRouting
 	:align: right

@@ -4,12 +4,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :alt: projekt logo
   :align: right
   :target: http://gdal.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
@@ -35,7 +35,7 @@ motort számos alkalmazásnak ezek közé tartozik a MapServer, GRASS, QGIS és
 OpenEV. Programcsomagok is használják mint például az OSSIM, 
 Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide és ArcGIS.
 
-.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: A GDAL sok geoadat formátumot támogat
   :align: right

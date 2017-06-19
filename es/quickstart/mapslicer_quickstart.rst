@@ -7,7 +7,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapslicer.png
+.. image:: /images/project_logos/logo-mapslicer.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -30,43 +30,43 @@ Inicio de MapSlicer
 
 2. Selecciona **Tile Profile**. Elige *Google Maps Compatible (Spherical Mercator)* para una publicación web standard. Elige *Google Earth (KML SuperOverlay)* si también deseas generar un archivo kml para Google Earth. Clic en *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer1.jpg
+.. image:: /images/screenshots/1024x768/mapslicer1.jpg
     :width: 60 %
     :align: center
 
 3. Elige los **Archivos de origen de datos**. navega para seleccionar la imagen raster de la cual crear mosaicos. Tambien es posible seleccionar un color (Sin datos) que aparecerá como transparente en la imagen resultante. Clic en *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer2.jpg
+.. image:: /images/screenshots/1024x768/mapslicer2.jpg
     :width: 60 %
     :align: center
 
 4. Especifica el **Sistema de Referencia Espacial / Sistema de Coordenadas** de la imagen. Especifica el numero de id de la base de datos EPSG/ESRI. Si tienes datos por ejemplo de Reino Unido la transformación debería incluir el parametro `EPSG:27700 con TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_. Clic en *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer3.jpg
+.. image:: /images/screenshots/1024x768/mapslicer3.jpg
     :width: 60 %
     :align: center
 
 5. Especifica los detalles acerca de la **Pirámide de mosaicos**. Los parámetros normales de niveles de zoom y formato de archivo son normalmente los mejor. Clic en *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer4.jpg
+.. image:: /images/screenshots/1024x768/mapslicer4.jpg
     :width: 60 %
     :align: center
 
 6. Especifica los detalles sobre **Carpetas de destino y direcciones / URLs** para el conjunto de mosaicos. Si no los conoces, pueden ser agregados por defecto a archivos de *googlemaps.html* y *openlayers.html* después de la generación de los mosaicos. Clic en *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer5.jpg
+.. image:: /images/screenshots/1024x768/mapslicer5.jpg
     :width: 60 %
     :align: center
 
 7. Marca las  **visualizaciones que deberian ser generados**. Por defecto, son generados un archivo *googlemaps.html* y *openlayers.html*. también puedes seleccionar crear un archivo kml de superposición para Google Earth. Clic en *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer6.jpg
+.. image:: /images/screenshots/1024x768/mapslicer6.jpg
     :width: 60 %
     :align: center
 
 8. Especifica los **Detalles para generar las visualizaciones**, como el titulo, Derechos de copia, y licencia de las API. Si no los conoces, pueden ser agregados a los archivos por defecto de *googlemaps.html / openlayers.html* despues de la generación de los mosaicos. Clic en *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer7.jpg
+.. image:: /images/screenshots/1024x768/mapslicer7.jpg
     :width: 60 %
     :align: center
 
@@ -74,12 +74,12 @@ Inicio de MapSlicer
 
 10. Cuando termine, MapSlicer muestra un link al conjunto de mosaicos terminado.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer9.jpg
+.. image:: /images/screenshots/1024x768/mapslicer9.jpg
     :align: center
 
 11. Abre el archivo *openlayers.html*  en un navegador para ver el conjunto de mosaicos superpuesta en el mapa en vivo. Para publicarlo en la web, solo copia el conjunto de mosaicos entero y todos los subdirectorios a un servidor web, y edita el archivo googlemaps.html o openlayers.html como lo desees.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer10.jpg
+.. image:: /images/screenshots/1024x768/mapslicer10.jpg
     :align: center
 
 Uso de gdal2tiles para crear una base de datos MBTiles

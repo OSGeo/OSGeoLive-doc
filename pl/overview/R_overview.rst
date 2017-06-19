@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org
@@ -44,7 +44,7 @@ nową komercyjną wersją S, TIBCO Spotfire S+. Pozwala to na konwersję
 różnych wersji kodu S w celu ich uruchomienia w R bez znaczących 
 modyfikacji.
 
-.. image:: ../../images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right

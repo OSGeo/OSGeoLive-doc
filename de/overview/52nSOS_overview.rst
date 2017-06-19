@@ -3,7 +3,7 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
@@ -21,7 +21,7 @@ erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein
 Sensor kann dabei z.B. eine Wetterstation, ein Pegel an einem Fluss oder eine
 Station zur Messung der Luftqualität sein.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right

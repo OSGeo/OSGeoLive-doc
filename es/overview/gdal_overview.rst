@@ -5,12 +5,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :alt: project logo
   :align: right
   :target: http://gdal.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -35,7 +35,7 @@ para muchas aplicaciones, incluyendo MapServer, GRASS, QGIS, y OpenEV.
 También es utilizado por OSSIM, Cadcorp SIS, FME, Google Earth,
 VTP, Thuban, ILWIS, MapGuide y ArcGIS.
 
-.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supports many geodata formats
   :align: right

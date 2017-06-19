@@ -3,7 +3,7 @@
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/jts_project.png
+.. image:: /images/project_logos/jts_project.png
   :alt: project logo
   :align: right
 
@@ -22,7 +22,7 @@ JTS is used by most java based Open Source geospatial applications, and
 :doc:`geos_overview`, which is a C++ port of JTS, is used by most
 C based applications.  Additional ports are available for C# and JavaScript.
 
-.. image:: ../../images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/800x600/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right

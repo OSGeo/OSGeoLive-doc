@@ -5,7 +5,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -30,7 +30,7 @@ Imagelinker
 * Selecciona :menuselection:`ventana de imagen --> seleccionar el botón de arrastrar --> clic en la imagen -->  pulsa el botón "propagate"`
 * Verifica que puedes ver tres imágenes de satélite en escala de grises. 
 
-  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Para ver un tutorial completo puedes visitar este `artículo`_.

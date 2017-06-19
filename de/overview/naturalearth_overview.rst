@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-naturalearth.png
+.. image:: /images/project_logos/logo-naturalearth.png
   :alt: Projektlogo
   :align: right
   :target: http://www.naturalearthdata.com/
@@ -19,7 +19,7 @@ Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von K
 
 Natural Earth löst das weitverbreitete Problem von Kartographen: Das Finden von Vektordaten zum Erstellen von Karten kleinerer Maßstäbe, mit entsprechender Qualität für Publikationen und dem gewünschten Detaillierungsgrad.
 
-.. image:: ../../images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

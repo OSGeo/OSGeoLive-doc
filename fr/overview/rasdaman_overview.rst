@@ -6,12 +6,12 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: project logo
   :align: right
   :target: http://rasdaman.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
   :align: right
@@ -33,7 +33,7 @@ La technologie rasdaman est stable et mature. Elle est déployée en production 
 utilise cette technologie rasdaman sur des douzaines de téraoctets d'image aérienne. À la conférence *ACM  Principles of Database Systems*
 en 2007, l'expert en base de données raster Rona Machlin a défini rasdaman comme "la mise en œuvre plus complète d'un tel système".
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

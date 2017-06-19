@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.openstreetmap.org
@@ -30,7 +30,7 @@ città e un vasto numero di plugins per JOSM.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

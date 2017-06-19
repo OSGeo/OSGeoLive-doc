@@ -4,7 +4,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -249,21 +249,21 @@ Quantum GIS를 이용하여 지도화하는 방법을 보여드리겠습니다.
 데스크탑 메뉴에서 Quantum GIS를 실행한 후 layer 메뉴에서 ``Add PostGIS layers`` 를 선택하십시오. PostGIS에서 Natural Earth 데이터로 연결하는 변수들은 Connections drop-down 메뉴에서 이미 정의되었습니다. 새로운 서버 연결을 지정할 수 있고, 설정 내용을 저장하여 쉽게 불러올 수도 있습니다. 
 어떤 변수들이 Natural Earth에 이용되는지를 확인하고 싶으면 ``Edit`` 을 클릭하고, 계속하기를 원하면  ``Connect`` 를 클릭하십시오 :
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
 데이터 베이스의 공간적 테이블 리스트를 확인할 수 있습니다 :
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
   :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
 
 아랫 부분의 lakes를 선택하고 ``Add`` 를 클릭하면 (윗 부분의 ``Load`` 는 데이터 베이스 연결 변수입니다), QGIS로 로딩됩니다:
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -280,7 +280,7 @@ Quantum GIS를 이용하여 지도화하는 방법을 보여드리겠습니다.
 간편한 PostGIS Manager plugin을 통해서 QGIS에 셰이프 파일을 불러올 수 있습니다. 이를 위해서 Plugins 메뉴에서 ``Fetch Plugins`` 를 선택합니다. QGIS는 repository에서 최근의 plugins 리스트를 불러옵니다 (이를 위해서는 인터넷이 연결되어 있어야 합니다).
 ``PostGIS Manager`` 를 찾아 ``Install plugin`` 버튼을 클릭합니다.
 
-.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+.. image:: /images/screenshots/1024x768/postgis_getmanager.png
   :scale: 50 %
   :alt: Fetch PostGIS Manager Plugin
   :align: center
@@ -291,7 +291,7 @@ Plugin 메뉴에 manager를 시작하는 옵션을 주는 PostGIS Manager entry�
 그러면 Natural Earth 데이터 베이스로 연결이 될 것이며, 암호를 물을 경우 빈 칸으로 두십시오. 주 manager 창을 볼 것이며, 왼쪽에 데이터 베이스에서 테이블을 선택할 수 있고 오른쪽에 테이블을 찾기 위한 탭을 이용할 수 있습니다. 
 Preview 탭은 작은 지도를 보여줍니다. 여기에서 저는 제가 아는 섬의 populated places 레이어를 선택해서 확대해 보았습니다 :
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
   :alt: PostGIS Manager Preview
   :align: center
@@ -301,14 +301,14 @@ Preview 탭은 작은 지도를 보여줍니다. 여기에서 저는 제가 아�
 
 ``Data`` 메뉴에서 ``Load data from shapefile`` 을 선택하십시오. ``...`` 버튼을 클릭하고 R ``maptools`` 패키지의 ``sids.shp`` 셰이프 파일을 찾으십시오 : 
 
-.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+.. image:: /images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Find the shapefile
   :align: center
 
 디폴트 값을 그대로 쓰고 ``Load`` 를 클릭하십시오.
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
   :alt: Import a shapefile
   :align: center
@@ -317,7 +317,7 @@ PostGIS에 에러없이 셰이프 파일이 불러와져야 합니다. PostGIS �
 
 'Add PostGIS Layer'를 이용하여 지도에 SIDS 데이터를 부르십시오. 레이어를 정렬하고 색을 변화시켜서, 북캐롤라이나의 급유아사망 신드롬 수의 등치 지역도를 만들 수 있습니다 :
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
   :scale: 50 %
   :alt: SIDS data mapped
   :align: center
@@ -330,12 +330,12 @@ pgAdmin III 알기
 
 데이터 베이스를 비공간적으로 질의하고 수정하기 위해서 Databases 메뉴의 graphical database client ``pgAdmin III`` 를 이용할 수 있습니다. 이는 PostgreSQL의 공식적인 클라이언트이며, 데이터 테이블을 가공하기 위해 SQL을 이용할 수 있도록 합니다. 
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

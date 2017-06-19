@@ -5,7 +5,7 @@
 :Version: OSGeo-Live 5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -230,21 +230,21 @@ PostGIS 快速入门
 
 　　从 Desktop GIS 菜单启动 Quantum GIS 并在其 layer 菜单选择 ``Add PostGIS layers`` 。连接到 Natural Earth PostGIS 数据库的参数在 Connections 下拉菜单中有。这里可以定义和储存其它的配置。点击 ``Edit`` 可以查看具体参数。点击 ``Connect`` 连接：
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
 　　系统将显示所有空间信息表供选择：
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
   :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
 
 　　选择 lakes 湖泊表单并点击底部的 ``Add`` 添加。顶部的 ``Load`` 可以载入新的数据库连接配置。数据将被导入：
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -259,7 +259,7 @@ PostGIS 快速入门
 
 　　QGIS 中导入 shp 可以使用 PostGIS Manager 插件。在 Plugins 菜单选择 ``Fetch Plugins`` 导入最新的官方插件列表（需要网络连接）。找到 ``PostGIS Manager`` 点击 ``Install plugin`` 安装。
 
-.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+.. image:: /images/screenshots/1024x768/postgis_getmanager.png
   :scale: 50 %
   :alt: Fetch PostGIS Manager Plugin
   :align: center
@@ -268,7 +268,7 @@ PostGIS 快速入门
 
 　　该插件将连接 Natural Earth 数据库。若提示输入密码，留空即可。在开启的界面中，选择表单可以显示相应的信息。预览（Preview）选项卡可以显示地图预览。这里选择了 populated places 图层并缩放到一个小岛：
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
   :alt: PostGIS Manager Preview
   :align: center
@@ -277,14 +277,14 @@ PostGIS 快速入门
 
 　　在 ``Data`` 菜单选择 ``Load data from shapefile`` 选项。点击 ``...`` 选中 R ``maptools`` 中的 ``sids.shp`` 。
 
-.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+.. image:: /images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Find the shapefile
   :align: center
 
 　　直接点击 ``Load`` 即可：
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
   :alt: Import a shapefile
   :align: center
@@ -293,7 +293,7 @@ PostGIS 快速入门
 
 　　使用 'Add PostGIS Layer' 导入 SIDS 数据。略加调整，得到被卡洛莱娜州新生儿猝死率分布图：
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
   :scale: 50 %
   :alt: SIDS data mapped
   :align: center
@@ -304,13 +304,13 @@ pgAdmin III
 
 　　通过 Databases 菜单下的 ``pgAdmin III`` 可以进行非空间操作。该客户端是 PostgreSQL 的官方产品，使用 SQL 语句操作。
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
 
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

@@ -4,12 +4,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :alt: project logo
   :align: right
   :target: http://www.ossim.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -33,7 +33,7 @@ OSSIM
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: screenshot
   :align: right

@@ -6,7 +6,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
@@ -39,7 +39,7 @@ relacionados.
 pycsw es software de código abierto, liberado bajo la licencia MIT, y es ejecutable
 en las mayores plataformas (Windows, Linux, Mac OS X).
 
-.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

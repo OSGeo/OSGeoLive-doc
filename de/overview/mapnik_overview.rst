@@ -3,7 +3,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :alt: Projekt Logo
   :align: right
   :target: http://mapnik.org/
@@ -26,7 +26,7 @@ Internet bereitstellen. Trotzdem wird Mapnik, dank Verbesserungen im Bereich der
 Skalierbarkeit, seit kurzem auch zur Erstellung hochauflösender Landkarten in 
 Papierform verwendet.
 
-.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: /images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

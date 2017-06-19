@@ -5,12 +5,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -26,7 +26,7 @@ SIG dotat de totes les funcions
 El Sistema de Suport per a l'Anàlisi de Recursos Geogràfics, conegut com 
 GRASS, és un Sistema d'Informació Geogràfica (SIG) que proporciona poderoses funcions de processament ràster, vector i geoespacial en un sol entorn de programari integrat. GRASS inclou eines per al modelat espacial, visualització de dades ràster i vector, gestió i anàlisi de geodades i processament d'imatges aèries i de satèl·lit. També proporciona la capacitat de produïr gràfics sofisticats per a presentacions i mapes impresos. GRASS ha estat traduït a vint idiomes i suporta un gran nombre de formats de dades.
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

@@ -3,7 +3,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: логотип проекта
   :align: right
   :target: http://52north.org/wps
@@ -19,7 +19,7 @@ The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` д
 Алгоритм может быть простым, как, например, подсчёт разницы заболеваемости гриппом для разных сезонов, 
 так и сложным, как, например, глобальная модель изменения климата.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+.. image:: /images/screenshots/800x600/52nWPS_test_client.png
   :scale: 50 %
   :alt: снимок экрана
   :align: right

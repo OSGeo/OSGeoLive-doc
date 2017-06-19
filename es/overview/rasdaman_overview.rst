@@ -8,12 +8,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: project logo
   :align: right
   :target: http://rasdaman.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
   :align: right
@@ -30,7 +30,7 @@ Un driver rasdaman es parte de :doc:`GDAL <gdal_overview>` (Geospatial Data Abst
 
 La tecnología rasdaman es estable y madura, es empleada en producción desde hace más de 10 años; el Instituto Francés Nacional de Geografía emplea rasdaman con una docena de Terabytes de mapas de imágenes aéreas. En los principios del ACM de la Conferencia de Sistemas de Bases de Datos en 2007, Rona Machlin describió rasdaman como "la implementación más completa de un sistema".
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

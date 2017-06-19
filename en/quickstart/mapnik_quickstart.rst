@@ -4,7 +4,7 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right

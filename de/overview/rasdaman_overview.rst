@@ -5,12 +5,12 @@
 
 .. _rasdaman-overview:
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: project logo
   :align: right
   :target: http://www.rasdaman.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ Neben der Raster-Anfragesprache unterstützt rasdaman OGC WMS, WCS, WCPS und WPS
 
 Rasdaman hat eine Reihe internationaler Innovationspreise erhalten, darunter den renommierten European IT Prize und Geospatial Innovation Award.  Die Technologie ist stabil und ausgereift und seit mehr als 10 Jahren im operativen Einsatz. Zu den Betreibern von rasdaman-Diensten zählen Vermessungsämter und Klima-Datencenter.
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :alt: rasdaman screenshot collage
   :align: right

@@ -4,12 +4,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -26,7 +26,7 @@ Geographic Resources Analysis Support System (GRASS)는 하나의 통합된 소�
 GRASS는 공간적 모델링, 래스터와 벡터 데이터 시각화, 지리공간 데이터의 관리와 분석, 위성 및 항공 사진의 처리를 위한 툴을 포함하고 있습니다. 
 또한 정교한 프리젠테이션 그래픽과 지도를 제작할 수도 있습니다. GRASS는 현재 20개의 언어로 번역되어 수많은 데이터 형식을 지원하고 있습니다. 
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

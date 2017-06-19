@@ -4,12 +4,12 @@
 :Version: OSGeo-Live 6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -27,7 +27,7 @@ GIS 网络服务
 
 　　QGIS Server 服务器通常在 Apache 服务器环境下以 CGI/FastCGI 组件运行。
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

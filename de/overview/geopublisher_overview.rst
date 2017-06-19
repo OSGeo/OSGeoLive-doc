@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Geopublisher.png
+.. image:: /images/project_logos/logo-Geopublisher.png
   :alt: project logo
   :align: right
   :target: http://de.geopublishing.org/Geopublisher
@@ -22,7 +22,7 @@ Geopublishers Alleinstellungsmerkmale machen die Software besonders einsetzbar i
 
 Kernfunktionen
 --------------------------------------------------------------------------------
-.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: Screenshot: Geopublisher mit geöffnetem Atlas
   :align: right

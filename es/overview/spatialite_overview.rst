@@ -6,7 +6,7 @@
 
 .. _spatialite-overview-es:
 
-.. image:: ../../images/project_logos/logo-spatialite.png
+.. image:: /images/project_logos/logo-spatialite.png
   :alt: project logo
   :align: right
   :target: http://www.gaia-gis.it/gaia-sins/
@@ -24,7 +24,7 @@ SQLite is un Sistema Gestor de Bases de Datos (DBMS, por sus siglas en inglés) 
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: ../../images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

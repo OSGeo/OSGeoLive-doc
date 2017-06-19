@@ -6,7 +6,7 @@
 
 .. _osgearth-overview-pl:
 
-.. image:: ../../images/project_logos/logo-osgearth.png
+.. image:: /images/project_logos/logo-osgearth.png
   :alt: project logo
   :align: right
   :target: http://osgearth.org/
@@ -28,7 +28,7 @@ przykładów służących pomocą, aby szybko i sprawnie zacząć pracę.
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: ../../images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/screenshots/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -3,7 +3,7 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons
   :target: http://52north.org/sos
@@ -35,7 +35,7 @@ Erste Schritte
 2. Es öffnet sich ein Browser-Fenster, welches die Willkommens-Seite der
    52°North SOS-Anwendung anzeigt (siehe Abb. 1).
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_start.png
+.. image:: /images/screenshots/1024x768/52n_sos_start.png
   :scale: 100 %
   :alt: 52°North SOS-Anwendung - Willkommens-Seite
   :align: center
@@ -47,7 +47,7 @@ Erste Schritte
    Mit Hilfe der Inhalte des Capabilities-Dokuments (siehe Abb. 2) können die
    Beispielanfragen aus der Beispielliste individuell angepasst werden.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
   :alt: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
   :align: center
@@ -100,7 +100,7 @@ Ausprobieren
    Die Zugangsdaten lauten: "user" mit Passwort "user".
 * Nutzen Sie den `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (siehe Abb. 3).
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
+.. image:: /images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 100 %
   :alt: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten
   :align: center

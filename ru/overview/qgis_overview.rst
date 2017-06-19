@@ -3,12 +3,12 @@
 :Version: osgeo-live6.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: Лого проекта
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Проект OSGeo
   :align: right
@@ -29,7 +29,7 @@ Quantum GIS (QGIS) — это дружественная к пользовате
 QGIS работает в Linux, Unix, Mac OSX и Windows, поддерживает множество векторных, растровых форматов, 
 а также различные базы данных.
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: Скриншот
   :align: right

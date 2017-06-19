@@ -2,7 +2,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/security
@@ -26,7 +26,7 @@
 Η υπηρεσία 52North WSS είναι μια διαδικτυακή εφαρμογή Java που συνήθως εκτελείται σε εξυπηρετητή Apache Tomcat.
 Λειτουργεί σαν ενδιάμεσος εξυπηρετητής για έναν μεγάλο αριθμό χωρικών υπηρεσιών OGC, λαμβάνοντας όλες τις αιτήσεις και λειτουργώντας με βάση κάποια προμελετημένη πολιτική. Με αυτό τον τρόπο, οι υπάρχουσες υλοποιήσεις δεν χρειάζεται να μεταβληθούν. Οι πολιτικές και οι χρήστες ορίζονται σε ευανάγνωστο αρχείο XML και μπορεί να τροποποιηθεί από ένα γραφικό περιβάλλον. 
 
-.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
 
 Χαρακτηριστικά
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

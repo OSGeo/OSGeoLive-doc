@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :alt: udig logo
   :align: right
   :target: http://udig.refractions.net/
@@ -15,7 +15,7 @@ User-friendly Desktop Internet GIS (uDig)
 桌面 GIS 环境
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/1024x768/udig-overview.png
   :scale: 50
   :alt: udig workshop
   :align: right

@@ -6,7 +6,7 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
@@ -23,7 +23,7 @@ supports the interoperable provision of live and archived sensor observation
 data. A sensor could be a water level meter in a stream, a weather station, or
 an air quality monitoring station.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right

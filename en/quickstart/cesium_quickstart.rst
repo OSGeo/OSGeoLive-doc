@@ -18,7 +18,7 @@ Searching for locations
 =======================
 You can click on the magnifying glass and type in the location you are looking for.  In the following display, we look for India.
 
-.. image:: ../../images/screenshots/1024x768/cesium_1_SearchingLocation.png
+.. image:: /images/screenshots/1024x768/cesium_1_SearchingLocation.png
   :scale: 70 %
   :alt: Cesium Searching Location
 
@@ -26,13 +26,13 @@ Switching between 3D, 2.5D and 2D
 =================================
 You can click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected.
 
-.. image:: ../../images/screenshots/1024x768/cesium_2_2253d.png
+.. image:: /images/screenshots/1024x768/cesium_2_2253d.png
   :scale: 70 %
   :alt: Cesium switching between 3D, 2.5D and 2D
 
 Now the 2D map is selected.
 
-.. image:: ../../images/screenshots/1024x768/cesium_3_2D.png
+.. image:: /images/screenshots/1024x768/cesium_3_2D.png
   :scale: 70 %
   :alt: Cesium 2D map
 
@@ -40,7 +40,7 @@ Selecting the Image layer
 =========================
 We can click on the last icon and select the type of image service we want.  Here the Natural Earth II is selected and you can see how the map's image layer has changed.
 
-.. image:: ../../images/screenshots/1024x768/cesium_4_Layer.png
+.. image:: /images/screenshots/1024x768/cesium_4_Layer.png
   :scale: 70 %
   :alt: Cesium 2D map
 

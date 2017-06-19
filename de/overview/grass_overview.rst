@@ -5,12 +5,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -34,7 +34,7 @@ anspruchsvoller Präsentationsgrafiken und druckfertiger Karten. GRASS
 wurde bisher in mehr als 20 Sprachen übersetzt und unterstützt eine 
 Vielzahl unterschiedlichster Geodaten-Formate.
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

@@ -3,12 +3,12 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ deegree provides geospatial webservices based upon `Open Geospatial Consortium (
 * `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services
 * `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Executes geospatial processes
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
   :scale: 55 %
   :alt: TBD
   :align: right

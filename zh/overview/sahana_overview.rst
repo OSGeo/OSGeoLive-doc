@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-sahana-eden.png
+.. image:: /images/project_logos/logo-sahana-eden.png
   :alt: project logo
   :align: right
   :target: http://www.sahanafoundation.org
@@ -23,7 +23,7 @@ Sahana Eden
 
 　　Sahana 计划由斯里兰卡开源软件社区的志愿者在 2004 十二月的海啸事件之后开始设计开发的，最初用于帮助海啸的受灾区域，之后得到了斯里兰卡政府的正式应用。在瑞典国际发展局、IBM 公司、美国自然科学学会等机构的支持下，该系统经过了重新设计，被众多的政府或非政府机构采用。
 
-.. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: /images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

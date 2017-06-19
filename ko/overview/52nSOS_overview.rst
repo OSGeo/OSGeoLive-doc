@@ -3,7 +3,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/sos
@@ -17,7 +17,7 @@ Web Service
 
 The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` supports reading of live and archived data captured by in-situ and remote sensors. A sensor may be a camera on a satellite or a water level meter in a stream.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right
