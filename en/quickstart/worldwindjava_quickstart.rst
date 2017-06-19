@@ -51,7 +51,7 @@ Create and Run Your Application Using WorldWind
 Create an app by reviewing the programming examples in WorldWind/src/gov/nasa/worldwindx/examples. 
 
 | Start with SimplestPossibleExample and ApplicationTemplate, then refer to the Examples page for more advanced topics.  
-| Here are examples of running your app from the command-line, assuming your app’s JAR file is MyApp.jar, and your main class is worldwinddemo.MyBasicDemo.
+| Here are examples of running your app from the command-line, assuming your app's JAR file is MyApp.jar, and your main class is worldwinddemo.MyBasicDemo.
 
 
 Run: ::
@@ -72,7 +72,7 @@ Modify the template JNLP file WorldWind/webstart/JavaWebStartTemplate.jnlp to fi
 
 
 | **2. Add WorldWind Libraries to Your Application JNLP.**
-| Insert the following XML extension elements in the resources block of your app’s JNLP file, depending on your app’s needs:
+| Insert the following XML extension elements in the resources block of your app's JNLP file, depending on your app's needs:
 
 WorldWind Core Library (required)::
 
@@ -84,18 +84,18 @@ WorldWind Extensions Library (required if your app uses the gov.nasa.worldwindx 
 <extension name="worldwindx" href="http://worldwind.arc.nasa.gov/java/2.0.0/webstart/worldwindx.jnlp"/>
 
 
-GDAL Library (optional, include if your app uses WorldWind’s data import feature)::
+GDAL Library (optional, include if your app uses WorldWind's data import feature)::
 
 <extension name="gdal" href="http://worldwind.arc.nasa.gov/java/2.0.0/webstart/gdal.jnlp"/>
 
 
 
-| **3.  Prepare Your Application’s JAR Files**
-| JAR files used by a Java Web Start application must be signed by a recognized authority, and must specify the Permissions manifest attribute. WorldWind’s JAR files have already been signed and contain the necessary manifest attributes. See Oracle’s documentation on Signing JAR Files and JAR File Manfiest Attributes for Security.
+| **3.  Prepare Your Application's JAR Files**
+| JAR files used by a Java Web Start application must be signed by a recognized authority, and must specify the Permissions manifest attribute. WorldWind's JAR files have already been signed and contain the necessary manifest attributes. See Oracle's documentation on Signing JAR Files and JAR File Manfiest Attributes for Security.
 
 
 | **4. Deploy Your Application**
-| Determine a URL to host your app at, such as http://myworldwinddemo.org/. Set your JNLP file’s codebase attribute to this URL, then host your JNLP file and any JAR files referenced by your JNLP at this URL. See Oracle’s documentation on Rich Internet Application Deployment for more information.
+| Determine a URL to host your app at, such as http://myworldwinddemo.org/. Set your JNLP file's codebase attribute to this URL, then host your JNLP file and any JAR files referenced by your JNLP at this URL. See Oracle's documentation on Rich Internet Application Deployment for more information.
 
 
 
@@ -107,13 +107,13 @@ Deploy an Applet Using Java Web Start
 Modify the template JNLP file WorldWind/webstart/JavaWebStartAppletTemplate.jnlp to fit your applet.
 
 | **2. Add WorldWind Libraries to Your Applet JNLP**
-| Complete your applet’s JNLP file by following step #2 in the above section Deploy an Application Using Java Web Start.
+| Complete your applet's JNLP file by following step #2 in the above section Deploy an Application Using Java Web Start.
 
-| **3. Prepare Your Applet’s JAR Files**
-| JAR files used by a Java Applet must be signed by a recognized authority, must specify the Permissions manifest attribute, and must specify the Caller-Allowable-Codebase manifest attribute in order to enable Java-to-Javascript communication. WorldWind’s JAR files have already been signed and contain the necessary manifest attributes. See Oracle’s documentation on Signing JAR Files and JAR File Manfiest Attributes for Security.
+| **3. Prepare Your Applet's JAR Files**
+| JAR files used by a Java Applet must be signed by a recognized authority, must specify the Permissions manifest attribute, and must specify the Caller-Allowable-Codebase manifest attribute in order to enable Java-to-Javascript communication. WorldWind's JAR files have already been signed and contain the necessary manifest attributes. See Oracle's documentation on Signing JAR Files and JAR File Manfiest Attributes for Security.
 
 | **4. Publish your Applet**
-| Add the Java Applet to an HTML document hosted at the same URL as your JNLP file using the syntax below. The HTML document defines the Applet attributes that affect its dimensions and enable Java-to-Javascript communication. The JNLP file defines the Applet’s code and its dependencies. See Oracle’s documentation on Rich Internet Application Deployment for more information..
+| Add the Java Applet to an HTML document hosted at the same URL as your JNLP file using the syntax below. The HTML document defines the Applet attributes that affect its dimensions and enable Java-to-Javascript communication. The JNLP file defines the Applet's code and its dependencies. See Oracle's documentation on Rich Internet Application Deployment for more information..
 
 ::
 
