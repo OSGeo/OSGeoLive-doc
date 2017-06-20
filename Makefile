@@ -38,9 +38,9 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	if [ -e licenses.csv ] ; then \
-	  rm -f licenses.csv ; \
-	fi ; \
+	#if [ -e licenses.csv ] ; then \
+	#  rm -f licenses.csv ; \
+	#fi ; \
 	if [ -e index.rst ] ; then \
 	  rm -f index.rst ; \
 	fi ; \
@@ -165,7 +165,7 @@ html: fix_index sphinxbuild fix_header_links banner_links win_installer_links cs
 small: fix_index
 	rm -fr $(TMP)
 	mkdir -p $(TMP)
-	ln -s $(START_DIR)/*.css $(START_DIR)/images $(START_DIR)/*.py $(START_DIR)/index.rst $(START_DIR)/en $(START_DIR)/*.txt $(START_DIR)/*.csv $(START_DIR)/themes $(TMP)
+	ln -s $(START_DIR)/*.css $(START_DIR)/images $(START_DIR)/*.py $(START_DIR)/index.rst $(START_DIR)/osgeo_contact.rst $(START_DIR)/contributors.rst $(START_DIR)/translators.rst $(START_DIR)/en $(START_DIR)/*.txt $(START_DIR)/*.csv $(START_DIR)/themes $(TMP)
 	cd $(TMP) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	rm -fr _build
 	mv $(TMP)/_build .
