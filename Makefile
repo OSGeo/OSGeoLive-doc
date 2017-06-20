@@ -40,7 +40,7 @@ clean:
 	rm -rf $(BUILDDIR)
 	#if [ -e licenses.csv ] ; then \
 	#  rm -f licenses.csv ; \
-	#fi ; \
+	#fi ; 
 	if [ -e index.rst ] ; then \
 	  rm -f index.rst ; \
 	fi ; \
