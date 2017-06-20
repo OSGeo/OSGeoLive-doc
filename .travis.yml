@@ -41,7 +41,7 @@ script:
   #- cmake -DLOCALE=ON -DALL_DOC=ON -DALL_LANG=ON ..
   #- cmake -DHTML=ON -@OSGeoLiveDoc_DEBUG=ON ..
   #- make html
-  - make small SPHINXOPTS=" -v"
+  - make small SPHINXOPTS=" -v -v"
 
 #after_script: 
 
