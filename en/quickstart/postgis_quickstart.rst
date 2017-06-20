@@ -535,7 +535,7 @@ Here are some additional challenges for you to try:
 
 #. Try to import data with ``shp2pgsql`` on the command line to your database.
 
-#. Try to do road routing using :doc:`pgrouting_overview`.
+#. Try to do road routing using :doc:`../overview/pgrouting_overview`.
 
 
 
