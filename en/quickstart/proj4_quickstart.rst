@@ -42,7 +42,7 @@ What is proj ?
 Proj and invproj perform respective forward  and inverse  transformation  of cartographic data to
 or from cartesian data  with  a  wide  range  of selectable projection functions.
 
-Synopsis
+proj Synopsis
 --------------------------------------------------------------------------------
 ::
 
@@ -51,7 +51,7 @@ Synopsis
 
 These commands are fully describe in `proj documentation <http://proj4.org/apps/proj.html>`_ for the latest version.
 
-Example
+proj Example
 --------------------------------------------------------------------------------
 
 The following script
@@ -88,7 +88,7 @@ What is cs2cs ?
 on a set of input points.  The coordinate system transformation can include  translation  between
 projected  and geographic coordinates as well as the application of datum shifts.
 
-Synopsis
+cs2cs Synopsis
 --------------------------------------------------------------------------------
 ::
 
@@ -96,7 +96,7 @@ Synopsis
 
 These commands are fully describe in `cs2cs documentation <http://proj4.org/apps/cs2cs.html>`_ for the latest version.
 
-Example
+cs2cs Example
 --------------------------------------------------------------------------------
 
 The following script
@@ -141,7 +141,7 @@ accurate  to  round  off for `|f| < 1/50`, where f is flattening.
 ``invgeod`` may not be available on all  platforms;  in  this  case
 call geod with the -I option.
 
-Synopsis
+geod Synopsis
 --------------------------------------------------------------------------------
 ::
 
@@ -151,7 +151,7 @@ Synopsis
 
 These commands are fully describe in `proj documentation <http://proj4.org/apps/proj.html>`_ for the latest version.
 
-Example
+geod Example
 --------------------------------------------------------------------------------
 
 The following script determines the geodesic azimuths and  distance in U.S.
