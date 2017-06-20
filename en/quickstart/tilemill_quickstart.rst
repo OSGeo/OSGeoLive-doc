@@ -30,28 +30,23 @@ Create a project
 
 1. Start TileMill and click on the “New project” button on the main screen.
 
-.. image:: /images/screenshots/1024x768/tilemill_newproject.png
-   :scale: 70 %
-
-.. Writing Tip:
-  For images, use a scale of 50% from a 1024x768 display (preferred) or
-  70% from a 800x600 display.
-  Images should be stored here:
-    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
-
-2- Enter de following data in the form, and click “Add”:
-
-.. image:: /images/screenshots/1024x768/tilemill_projectinfo.png
-   :scale: 70 %
+   .. image:: /images/screenshots/1024x768/tilemill_newproject.png
+      :scale: 70 %
 
 
-**Filename:**	tilemill_quickstart
+2. Enter de following data in the form, and click “Add”:
 
-**Name:**	TileMill Quickstart OSGeo Live
+   .. image:: /images/screenshots/1024x768/tilemill_projectinfo.png
+      :scale: 70 %
 
-**Description:**	Quickstart from OSGeo Live
 
-**Default Data:**	Leave selected
+   **Filename:**	tilemill_quickstart
+   
+   **Name:**	TileMill Quickstart OSGeo Live
+
+   **Description:**	Quickstart from OSGeo Live
+
+   **Default Data:**	Leave selected
 
 
 3. Click on the new project to open it. The project contains a default layer called #countries styled with some example CartoCSS code.
@@ -63,58 +58,58 @@ We can add new layers from File, SQLite or PostGIS. Let's say we want to add lay
 
 1. As are going to add layers from PostGis data. First, we click on layer button ( |LAYER|) and press on '+ Add layer' button. In the 'Add layer' form, we first select the source data type, PostGIS:
 
-.. |LAYER| image:: /images/screenshots/1024x768/tilemill_layerbtn.png
+   .. |LAYER| image:: /images/screenshots/1024x768/tilemill_layerbtn.png
 
-.. image:: /images/screenshots/1024x768/tilemill_addpostgis.png
-   :scale: 70 %
+   .. image:: /images/screenshots/1024x768/tilemill_addpostgis.png
+      :scale: 70 %
 
 2. Add roads layer from PostGIS, given the following data, and click on 'Save & Style':
 
-**ID:**	osm_roads
+   **ID:**	osm_roads
 
-**Class:**	osmroads
+   **Class:**	osmroads
 
-**Connection:**	host=localhost port=5432 user=user password=user dbname=osm_local
+   **Connection:**	host=localhost port=5432 user=user password=user dbname=osm_local
 
-**Table or subquery:**	planet_osm_roads
+   **Table or subquery:**	planet_osm_roads
 
-**Unique key field:**	osm_id
+   **Unique key field:**	osm_id
 
-**Geometry field:**	way
+   **Geometry field:**	way
 
-**SRS:**	Select WGS84
+   **SRS:**	Select WGS84
 
 3. Add  a lines layer from PostGIS, given the following data, and click on 'Save & Style':Click on 'Save & Style':
 
-**ID:**	osm_line
+   **ID:**	osm_line
 
-**Class:**	osmline
+   **Class:**	osmline
 
-**Connection:**	host=localhost port=5432 user=user password=user dbname=osm_local
+   **Connection:**	host=localhost port=5432 user=user password=user dbname=osm_local
 
-**Table or subquery:**	planet_osm_line
+   **Table or subquery:**	planet_osm_line
 
-**Unique key field:**	osm_id
+   **Unique key field:**	osm_id
 
-**Geometry field:**	way
+   **Geometry field:**	way
 
-**SRS:**	Select WGS84
+   **SRS:**	Select WGS84
 
 4. Add  a points layer from PostGIS, given the following data, and click on 'Save & Style':
 
-**ID:**	osm_points
+   **ID:**	osm_points
 
-**Class:**	osmpoints
+   **Class:**	osmpoints
 
-**Connection:**	host=localhost port=5432 user=user password=user dbname=osm_local
+   **Connection:**	host=localhost port=5432 user=user password=user dbname=osm_local
 
-**Table or subquery:**	(select osm_id, amenity, way from planet_osm_point where amenity is not null) AS amen
+   **Table or subquery:**	(select osm_id, amenity, way from planet_osm_point where amenity is not null) AS amen
 
-**Unique key field:**	osm_id
+   **Unique key field:**	osm_id
 
-**Geometry field:**	way
+   **Geometry field:**	way
 
-**SRS:**	Select WGS84
+   **SRS:**	Select WGS84
 
 In the osm_points layer we are importing a subset of points of the table planet_osm_point table in osm_local dataset, considering only those points with not empty amenity value. 
 
@@ -214,31 +209,31 @@ Tooltips
 
 Tooltips allow you to make maps interactive with dynamic content that appears when a user hovers over or clicks on a map. They can contain HTML and are useful for revealing additional data, images, and other content.
 
-1. Open the Templates  panel by clicking on the pointer button on the bottom left ( |POINTER|
-) 
+1. Open the Templates  panel by clicking on the pointer button on the bottom left ( |POINTER|) 
 
-.. |POINTER| image:: /images/screenshots/1024x768/tilemill_pointerbtn.png
+   .. |POINTER| image:: /images/screenshots/1024x768/tilemill_pointerbtn.png
 
 2. Click on the “Teaser” tab. Teaser content appears when you hover over a feature and Full content appears when you click on a feature. You can use the Location field to define a URL to be loaded when a feature is clicked.
 
 3. Select the 'osm_point' layer to use it for interaction. TileMill only supports one interactive layer at a time.
+
 4. The data fields for the layer are displayed wrapped in curly Mustache tags. These tags will be replaced by data when you interact with the map. Locate the fields you want to use.
 
 5. Write your template using the Mustache tags. Paste the following code into the Teaser field and use the preview to make sure it looks good:
 
-::
+   ::
 
-	Type:{{{amenity}}}<br/>
-	Name:{{{name}}}
+	   Type:{{{amenity}}}<br/>
+	   Name:{{{name}}}
 
-.. image:: /images/screenshots/1024x768/tilemill_teaser_frm.png
-   :scale: 70 %
+   .. image:: /images/screenshots/1024x768/tilemill_teaser_frm.png
+      :scale: 70 %
 
 6. Click “Save” to save your settings and refresh the map. Close the panel by clicking the close button (X) or by pressing the ESC key. Move your mouse over some points to see the tooltips.
 
 
-.. image:: /images/screenshots/1024x768/tilemill_tooltip.png
-   :scale: 70 %
+   .. image:: /images/screenshots/1024x768/tilemill_tooltip.png
+      :scale: 70 %
 
 
 Legends
