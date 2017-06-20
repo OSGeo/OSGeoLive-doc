@@ -23,7 +23,7 @@ on a flat, 2 dimensional map.
 
 Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others. 
  
-Proj4 has been translated from C to :doc:`other languages <http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include:
+Proj4 has been translated from C to `other languages <http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include:
 
 * Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - used in MapGuide.
