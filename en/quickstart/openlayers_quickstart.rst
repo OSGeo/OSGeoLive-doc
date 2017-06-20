@@ -147,24 +147,24 @@ Layers can be added to the map in two ways:
 
 1. When constructing the ``ol.Map``, using the ``layers`` property:
 
-.. code-block:: javascript
+   .. code-block:: javascript
 
-  var map = new ol.Map({
-    ...
-    layers: [osm, stamen]
-    ...
-  });
+     var map = new ol.Map({
+       ...
+       layers: [osm, stamen]
+       ...
+     });
 
-**Ex. 3:** Adding layers on map initialization
+   **Ex. 3:** Adding layers on map initialization
 
 2. Adding manually with the ``map.addLayer()`` method:
 
-.. code-block:: javascript
+   .. code-block:: javascript
 
-  map.addLayer(osm);
-  map.addLayer(stamen);
+     map.addLayer(osm);
+     map.addLayer(stamen);
 
-**Ex. 4:** Adding layers manually
+   **Ex. 4:** Adding layers manually
 
 Adding vector layers
 --------------------------------------------------------------------------------
