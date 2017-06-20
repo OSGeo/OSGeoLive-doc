@@ -22,10 +22,10 @@ Getting Ushahidi Up and Running
    browser and brings you to the Installation page. A Ushahidi site is 
    pretty easy to set up
 
-.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
-  :scale: 50 %
-  :alt: ushahidi desktop icons
-  :align: center 
+   .. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
+     :scale: 50 %
+     :alt: ushahidi desktop icons
+     :align: center 
 
 2. Choose **"Basic Installation"**, **"Let's get started"**, and it will prompt 
    you for a few details. The database name is **"ushahidi"**, database user 
@@ -37,17 +37,17 @@ Getting Ushahidi Up and Running
    database and maps, and send automated reports from. For now set it to 
    something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**.
 
-.. image:: /images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
-   :scale: 50 %
-   :alt: mapguide desktop icons
-   :align: center
+   .. image:: /images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+      :scale: 50 %
+      :alt: mapguide desktop icons
+      :align: center
 
-.. note:: If Ushahidi complains about this **"Oops! We couldn't make a 
-   connection to the database server with the credentials given. Please make 
-   sure they are correct."**. This means the installer script couldn't create 
-   the database credentials. This has to be done manually before you can continue 
-   with the installation. Issue the following commands assuming you have
-   logged into the system as root:
+   .. note:: If Ushahidi complains about this **"Oops! We couldn't make a 
+      connection to the database server with the credentials given. Please make 
+      sure they are correct."**. This means the installer script couldn't create 
+      the database credentials. This has to be done manually before you can continue 
+      with the installation. Issue the following commands assuming you have
+      logged into the system as root:
 
    **"mysql -uroot -p"** -- This should prompt you for mysql server's root
    password. Enter the root password if there is one, otherwise hit the enter key.
@@ -68,10 +68,10 @@ Getting Ushahidi Up and Running
    After that is all done it should tell you that installation was
    successful and give you a link to 'View your website'.
 
-.. image:: /images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
-  :scale: 50%
-  :alt: ushahidi installer finishes
-  :align: center
+   .. image:: /images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+     :scale: 50%
+     :alt: ushahidi installer finishes
+     :align: center
 
 4. To make changes in the `administration area <http://localhost/ushahidi/admin>`_, 
    the login username and password are as you entered above, **"admin@example.org"**
@@ -82,10 +82,10 @@ Getting Ushahidi Up and Running
    necessary for OSM, as it's Open :-) ). Then click the :guilabel:`SAVE SETTINGS`
    button at the bottom of the page.
 
-.. image:: /images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
-   :scale: 50%
-   :alt: ushahidi admin login
-   :align: center
+   .. image:: /images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+      :scale: 50%
+      :alt: ushahidi admin login
+      :align: center
 
 .. 
 	As sugestion to improve the quickstart: Back-end screenshots should be included, 
