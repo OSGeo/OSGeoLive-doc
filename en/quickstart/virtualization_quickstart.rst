@@ -67,6 +67,7 @@ Continue to the next screen and choose "Use existing hard disk" . Now click on t
 
   .. image:: ../../images/screenshots/800x600/vmdk_disk.png
      :scale: 65 %
+
 ** Config tips and tweaks**
 
 Once the VM is created, click on the Settings button. In the "General" section, go to the Advanced tab, and click to select "Show at top of screen" for the Mini toolbar.

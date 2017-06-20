@@ -16,7 +16,7 @@
 ================================================================================
 
 Overview
---------
+--------------------------------------------------------------------------------
 
 EOxServer is a server for presenting big Earth Observation (EO) data 
 archives and metadata via Open Standards. It builds upon an Open Source 
@@ -44,7 +44,7 @@ information.
   :alt: EOxServer documentation
 
 Demonstration Instance
-----------------------
+--------------------------------------------------------------------------------
 
 The icon labeled `EOxServer` filed under `Web Services` launches a browser 
 showing the demonstration instance available at http://localhost/eoxserver/
@@ -54,7 +54,7 @@ showing the demonstration instance available at http://localhost/eoxserver/
   :alt: EOxServer demonstration start
 
 Web Client
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The **Web Client** link opens the integrated EOxServer client. Within this
 client you can explore the contents of the EOxServer instance. In the
@@ -114,7 +114,7 @@ This was a quick introduction to the EOxServer Web Client. Please refer to the
 information on this topic.
 
 Admin Client
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The **Admin Client** link brings you to the login page for the `Admin 
 Client`. The password for the user `admin` is `admin`.
@@ -148,7 +148,7 @@ exclude single datasets using the "delete" checkbox on the right and click on
   :alt: EOxServer demonstration admin client Dataset Series Management
 
 What Next?
-----------
+-------------------------------------------------------------------------------
 
 This is a simple demonstration, but you can do much more with EOxServer. The 
 project website contains a lot of resources to help you get started. Here’s 
@@ -160,7 +160,7 @@ a few resources to check out next:
   <https://eoxserver.readthedocs.org/en/latest/users/index.html>`_ starting from
   the `EOxServer Basics
   <https://eoxserver.readthedocs.org/en/latest/users/basics.html>`_.
-* If you are already in the OSGeo-Live environment, read the local copy of the `EOxServer Users' documentation
+* If you are already in the OSGeo-Live environment, read the local copy of the `EOxServer Users' local documentation
   <https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_
 * Ready to use EOxServer? Then join the community on the `mailing lists 
   <https://eoxserver.readthedocs.org/en/latest/users/mailing_lists.html>`_ to 

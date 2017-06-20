@@ -85,7 +85,7 @@ Creating animations
 2) Select a start and end time for the animation
 3) Choose the granularity and frame rate for the animation
 4) Click "Go". Note that the animation may take quite a while to appear.
-6) Click the "Stop animation" button (where the wizard was) to stop the animation and return the controls to normal.
+5) Click the "Stop animation" button (where the wizard was) to stop the animation and return the controls to normal.
 
 Timeseries plots
 ----------------

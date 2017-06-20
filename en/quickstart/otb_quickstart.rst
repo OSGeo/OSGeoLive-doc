@@ -83,10 +83,11 @@ The OTB *Segmentation* application allows to produce a raster segmentation
 output with different algorithms and to scale up to large raster by producing
 vector outputs that you can import in a GIS software.
 There are four segmentation methods available in the application:
-  * Mean-Shift
-  * Watershed (ITK implementation)
-  * Connected-Components
-  * Morphological profiles
+
+* Mean-Shift
+* Watershed (ITK implementation)
+* Connected-Components
+* Morphological profiles
 
 You can test the segmentation with these commands:
 
@@ -157,7 +158,7 @@ What Next?
   processing. 
   
   * `OTBSoftwareGuide.pdf <http://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
-  * `Online html version <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
+  * `Online html OTB Software Guide <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
 
 * OTB CookBook
 
@@ -167,7 +168,7 @@ What Next?
   recipes to perform usual remote sensing tasks with both tools. 
   
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
-  * `Online html version <https://www.orfeo-toolbox.org/CookBook>`_
+  * `Online html OTB CookBook <https://www.orfeo-toolbox.org/CookBook>`_
 
 * OTB Tutorials
 
