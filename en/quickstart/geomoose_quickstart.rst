@@ -39,17 +39,17 @@ The Interfaces presented above shows:
   #. A tool bar
   #. A map window with
 
-    - A navigation and zoom controls
+     - A navigation and zoom controls
 
-  4. A side menu with:
+  #. A side menu with:
 
-    - A "Jump to" location pull down list
-    - Control tabs starting with "Catalog", for displaying the layer list.  As needed, additional tabs will appear: an "Information" readout, a "Custom" output tab, and others.
+     - A "Jump to" location pull down list
+     - Control tabs starting with "Catalog", for displaying the layer list.  As needed, additional tabs will appear: an "Information" readout, a "Custom" output tab, and others.
   
-  5. A Footer bar with:
+  #. A Footer bar with:
 
-    - Multiple coordinate readouts, one each for: X,Y (local dataset coordinates), LAT/LON (Decimal) and United States National Grid (USNG)
-    - A editable pull down list for a view scales to choose from or define.
+     - Multiple coordinate readouts, one each for: X,Y (local dataset coordinates), LAT/LON (Decimal) and United States National Grid (USNG)
+     - A editable pull down list for a view scales to choose from or define.
 
 
 Identifying a location in GeoMoose
