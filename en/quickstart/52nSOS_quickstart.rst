@@ -36,12 +36,12 @@ Getting Started
 2. This will open the 52°North SOS client welcome page in firefox at
    http://localhost:8080/52nSOS/ (see Fig. 1).
 
-.. image:: /images/screenshots/1024x768/52n_sos_start.png
-  :scale: 70 %
-  :alt: 52°North SOS client welcome page
-  :align: center
+   .. image:: /images/screenshots/1024x768/52n_sos_start.png
+     :scale: 70 %
+     :alt: 52°North SOS client welcome page
+     :align: center
 
-**Fig. 1**: 52°North SOS client - welcome page.
+   **Fig. 1**: 52°North SOS client - welcome page.
 
 3. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,
    (see Fiq. 2) you can craft appropriate queries. Again, this is made easier
@@ -49,12 +49,12 @@ Getting Started
    information from the capabilities, you can adjust the available example
    queries.
 
-.. image:: /images/screenshots/1024x768/52n_sos_get_capabilities.png
-  :scale: 70 %
-  :alt: 52°North SOS client - test client with GetCapabilities request
-  :align: center
+   .. image:: /images/screenshots/1024x768/52n_sos_get_capabilities.png
+     :scale: 70 %
+     :alt: 52°North SOS client - test client with GetCapabilities request
+     :align: center
 
-**Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
+   **Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
 
 4. To get for each time series the available observation data within the time
    interval from 2017-02-28T23:45:00.000+00:00 to 2017-03-01T23:45:00.000+00:00,
