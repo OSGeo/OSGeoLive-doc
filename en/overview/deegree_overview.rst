@@ -1,6 +1,9 @@
-:Author: Johannes Wilden, Markus Schneider, Danilo Bretschneider
+:Author: Johannes Wilden
+:Author: Markus Schneider
+:Author: Danilo Bretschneider
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-deegree.png
