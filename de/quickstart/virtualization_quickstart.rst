@@ -65,28 +65,28 @@ Geben Sie einen Namen für die VM wie beispielsweise OSGeo-Live ein, und wählen
 
 Setzen Sie im nächsten Fenster den Speicher auf 1024 MB (oder mehr, wenn ihr Gastrechner über mehr als 4GB verfügt).
 
-  .. image:: /images/screenshots/800x600/vmdk_memory.jpg
-              :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_memory.png
+     :scale: 65 %
 
 Gehen Sie zum nächsten Fenster und wählen Sie "Bestehende Festplatte verwenden". Klicken Sie nun auf den Button (ein Ordnersymbol), um zu dem Speicherort der OSGeo-Live vmdk-Datei zu gelangen. Wählen Sie diese Datei aus und klicken Sie weiter und Erzeugen.
 
-  .. image:: /images/screenshots/800x600/vmdk_disk.jpg
-                   :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_disk.png
+     :scale: 65 %
 
 Sobald die VM erzeugt wurde, klicken Sie auf den Einstellungen Button. Gehen Sie im Bereich "Allgemein" zum Reiter "Erweitert" und klicken Sie "Show at top of screen" zur Anzeige der Werkzeugleiste im oberen Bereich.
 
-  .. image:: /images/screenshots/800x600/vmdk_general_advanced.jpg
-                   :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_general_advanced.png
+     :scale: 65 %
 
 Gehen Sie zu dem Bereich "Anzeige" und erhöhen Sie den Video Speicher auf 32 oder 64 MB.
 
-  .. image:: /images/screenshots/800x600/vmdk_display.jpg
-                   :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_display.png
+     :scale: 65 %
 
 Gehen Sie außerdem in den Bereich "Gemeinsame Ordner" und klicken Sie "Ordner hinzufügen" (grünes Ordnersymbol mit Plus auf der rechten Seite) und wählen Sie ein Verzeichnis auf ihrem Gastrechner aus, das Sie innerhalb der VM freigeben möchten.
 
- .. image:: /images/screenshots/800x600/vmdk_shared_folders.jpg
-                      :scale: 65 %
+ .. image:: images/screenshots/800x600/vmdk_shared_folders.png
+     :scale: 65 %
 
 Dabei können gemeinsame Ordner wahlweise nur lesend und automatisch verbunden werden. Klicken Sie ok, sobald der "Ordnerpfad" und "Ordnername" definiert wurde und nochmals OK, um die Einstellungen zu speichern und das Fenster zu schließen.
 

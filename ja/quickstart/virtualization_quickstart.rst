@@ -59,27 +59,27 @@ VirtualBox アプリケーションを起動し、新しい VM を作成する�
 
 次の画面でメモリを 1024 MB に設定します (ホストコンピュータが 4GB 以上の場合はより大きな値を設定できます)。
 
-  .. image:: /images/screenshots/800x600/vmdk_memory.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_memory.png
               :scale: 65 %
 
 続けて、次の画面で "Use existing hard disk" を選択します。フォルダアイコンのボタンをクリックし、保存した osgeo-live-vm-6.0.vmdk ファイルを選択し、Next と Create を押下します。
 
-  .. image:: /images/screenshots/800x600/vmdk_disk.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_disk.png
                    :scale: 65 %
 
 VM が作成されたら、Settings ボタンをクリックします。"General" セクションで Advanced タブを選択し、Mini toolbar で "Show at top of screen" をクリックして選択します。
 
-  .. image:: /images/screenshots/800x600/vmdk_general_advanced.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.png
                    :scale: 65 %
 
 "Display" セクションで、ビデオメモリを 32 か 64 MB に増やします。
 
-  .. image:: /images/screenshots/800x600/vmdk_display.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_display.png
                    :scale: 65 %
 
 さらに、"Shared Folders" セクションに移動し、"Add folder" (右側の緑の "+" アイコン) をクリックし、VM 内部で共有したいホストコンピュータのディレクトリを指定します。
 
- .. image:: /images/screenshots/800x600/vmdk_shared_folders.jpg
+ .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.png
                       :scale: 65 %
 
 "Folder path" と "Folder name" が決まったら、OK をクリックし、再度 OK をクリックして、設定ウィンドウを終了して閉じます。

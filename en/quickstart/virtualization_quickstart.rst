@@ -60,29 +60,29 @@ Enter a name such as OSGeo-Live, and choose Linux as the "Operating system", and
 
 In the next screen set the memory to 1024 MB (or more if your host computer has more than 4GB, like on the screenshot).
 
-  .. image:: /images/screenshots/800x600/vmdk_memory.jpg
-              :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_memory.png
+     :scale: 65 %
 
 Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the OSGeo-Live vmdk-file. Select this file, press Next and Create.
 
-  .. image:: /images/screenshots/800x600/vmdk_disk.jpg
-                   :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_disk.png
+     :scale: 65 %
 ** Config tips and tweaks**
 
 Once the VM is created, click on the Settings button. In the "General" section, go to the Advanced tab, and click to select "Show at top of screen" for the Mini toolbar.
 
-  .. image:: /images/screenshots/800x600/vmdk_general_advanced.jpg
-                   :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.png
+     :scale: 65 %
 
 Go to the "Display" section and increase video memory to 32 or 64 MB.
 
-  .. image:: /images/screenshots/800x600/vmdk_display.jpg
-                   :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_display.png
+     :scale: 65 %
 
 In addition, move to the "Shared Folders" section, and click the "Add folder" (green + icon on the right) to find a directory on your host computer that you wish to share inside the VM.
 
- .. image:: /images/screenshots/800x600/vmdk_shared_folders.jpg
-                      :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.png
+     :scale: 65 %
 
 You can select to make the shared folder read only, and auto-mounted. Once the "Folder path" and "Folder name" are defined, click OK, and again OK to finish and close the settings window.
 
@@ -111,4 +111,3 @@ See Also:
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`
  * :doc:`usb_quickstart`
-
