@@ -24,7 +24,7 @@ The libLAS 'command-line utilities' provide the bulk of
 user-facing operational software for libLAS, although the underlying libLAS 
 library is what powers them.  Below is a listing of common operations that 
 you might want to do on LAS data, and the utilities and approaches to 
-take to complete those tasks.
+take to complete those tasks. The demo data can be found in ``/home/user/data/las/``
 
 Reprojecting an LAS file
 ..............................................................................
