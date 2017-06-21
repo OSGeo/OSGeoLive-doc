@@ -23,7 +23,7 @@ To run GpsPrune on the live DVD, select the icon "GpsPrune" in the Navigation an
 .. image:: ../../images/screenshots/1024x768/gpsprune_emptywindow.png
    :scale: 55
 
-We will now load a file by using the menu command :menuselection:`File --> Open file` and selecting the file to load.  This can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-separated file if you have one.  A suitable GPX file containing a couple of tracks can be found on the disc at :file:`~/data/vector/test_trk2.gpx` so we will load this one.
+We will now load a file by using the menu command :menuselection:`File --> Open file` and selecting the file to load.  This can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-separated file if you have one.  A suitable GPX file containing a couple of tracks can be found on the disc at :file:`~/data/vector/gpx/test_trk2.gpx` so we will load this one.
 
 .. image:: ../../images/screenshots/1024x768/gpsprune_trackselect.png
 
