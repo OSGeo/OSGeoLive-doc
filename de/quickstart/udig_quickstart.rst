@@ -216,9 +216,10 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 .. note:: Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über |osgeolive-appmenupath-geoserver| einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
 
 .. tip:: 
-   Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** 
-   Wizard (:menuselection:`Layer --> Add...`) gehen oder per Drag&Drop einen WMS Hyperlinks in die Karte ziehen.
-
+   Sie können die WMS URL (z.B. `WMS 1.1.1`_) aus dem rechten Bereich der `GeoServer Startseite`_ kopieren und entweder auf der **Karte** oder aber in der **Layer**-Ansicht einfügen. Es öffnet sich ein Wizard um die zur Verfügung gestellten Layer für die **Karte** auswählen zu können. Sie können alternativ auch eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** Wizard (:menuselection:`Layer --> Add...`) gehen und da den WMS Hyperlinks verwenden.
+   
+	.. _GeoServer Startseite: http://localhost:8082/geoserver/web
+	.. _WMS 1.1.1: http://localhost:8082/geoserver/ows?service=wms&version=1.1.1&request=GetCapabilities
 #. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
 #. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
