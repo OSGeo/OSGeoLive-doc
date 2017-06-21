@@ -243,7 +243,7 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
-.. |version-52nSOS| replace:: 4.3.9
+.. |version-52nSOS| replace:: 4.4.0
 .. |version-52nWPS| replace:: 3.4.0
 .. |version-cartaro| replace:: 1.9
 .. |version-cesium| replace:: 1.18
