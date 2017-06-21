@@ -1,9 +1,14 @@
 The OSGeo Foundation
 ================================================================================
 
-The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_,
-is a not-for-profit organization whose mission is to support and promote
-the collaborative development of open geospatial technologies and data.
+*Empower everyone with open source geospatial*
+
+The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__
+is a not-for-profit organization whose mission is to foster global
+adoption of open geospatial technology by being an inclusive software
+foundation devoted to an open philosophy and participatory community
+driven development.
+
 The foundation provides financial, organizational and legal support to
 the broader open source geospatial community. It serves as an independent
 legal entity to which community members can contribute code, funding and
@@ -14,58 +19,26 @@ provides a common forum and shared infrastructure for improving
 cross-project collaboration.
 
 The foundation's projects are all freely available and useable under an
- `OSI-certified open source license. <http://www.opensource.org/licenses/>`_
+`Open Source Initiative <http://www.opensource.org/licenses/>`__
+certified open source license.
 
-This Live GIS disc and virtual-machine has been put together by members
-of the OSGeo community to showcase their favourite Free and Open Source
-(FOSS) geospatial software. We've included a number of non-OSGeo software
-packages, GIS focused and otherwise, which we hope you will find to be as
-useful as we do. The OSGeo Foundation does not recommend or guarantee any
-associated software, projects, or companies found within.
-
-`These programs are distributed in the hope that they will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
-
-
-OSGeo Supporting Sponsors
+Foundation outreach and activities
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/geocat_logo.png
-  :alt: GeoCat
-  :target: http://geocat.net/
+OSGeo is here to help:
 
+* `Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: Local and regional (and language) groups have been set up around the world to help you get the most out of open source.
+* `GeoForAll <http://www.geoforall.org>`_: Education and academic outreach is provided by the GeoForAll initiative consisting of over a hundred labs world wide. This partnership with ICA, ISPRS, UN-GIS and others is actively promoting Open Education and provides a great resource of academic material for education.
+* `OSGeo Live <http://live.osgeo.org>`__: A great distribution of open source geospatial software ready for you to try out. OSGeo live is available as either a bootable USB stick or a virtual machine.
+* `FOSS4G <http://foss4g.org>`__: Annual international gathering hosted by OSGeo as the *Free and Open Source Software for Geospatial* conference. 
+* `Events <http://www.osgeo.org/events>`__: Many regional foss4g events are planned each year, along with hands on code sprints and other activities.
 
-.. image:: ../images/logos/Boundless_Logo.png
-  :alt: Boundless
-  :target: http://boundlessgeo.com/
-
-.. image:: ../images/logos/gaia3d.png
-  :alt: Gaia3D
-  :target: http://www.gaia3d.com/
-
-.. image:: ../images/logos/astun.png
-  :alt: Astun Technology
-  :target: https://astuntechnology.com/
-
-.. image:: ../images/logos/chameleon-john-logo.png
-  :alt: ChameleonJohn
-  :target: https://www.chameleonjohn.com/
-
-.. image:: ../images/logos/apps-for-rent-logo.png
-  :alt: Apps4Rent
-  :target: http://www.apps4rent.com/
-
-.. image:: ../images/logos/DealIslands.png
-  :alt: Dealslands
-  :target: http://www.dealslands.co.uk/
-
+In addition to grass roots advocacy with local chapters and events OSGeo is pleased to work with our partners and `sponsors <http://www.osgeo.org/content/sponsorship/sponsors.html>`__ to promote open source in academia, government and industry.
 
 For more information
 --------------------------------------------------------------------------------
 
-To sponsor OSGeo or discuss sponsorship opportunities further,
-please contact:
+For more information on OSGeo and are activities please visit our website at `osgeo.org <http://osgeo.org/>`__ or contact:
 
 .. include :: ../osgeo_contact.rst
 
