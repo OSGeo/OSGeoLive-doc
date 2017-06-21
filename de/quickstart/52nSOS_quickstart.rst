@@ -1,6 +1,6 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
 :Reviewer:
-:Version: osgeo-live10.0
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png
@@ -180,11 +180,11 @@ Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl,
 
 ::
 
-  user@osgeolive:~$ sudo service tomcat7 status
-  * Tomcat servlet engine is running with pid 1234          <-- Tomcat läuft
+  user@osgeolive:~$ sudo systemctl status tomcat8.service | grep Active
+  Active: active (running) since Wed 2017-06-21 12:00:42 UTC; 42min ago   <-- Tomcat läuft
   [...]
-  * Tomcat servlet engine is not running.                   <-- Tomcat läuft nicht, starten Sie Tomcat über folgenden befehl:
-  user@osgeolive:~$ sudo service tomcat7 start
-  * Starting Tomcat servlet engine tomcat7           [ OK ] <-- Tomcat läuft nun
+  Active: inactive (dead)                                                 <-- Tomcat läuft nicht, starten Sie Tomcat über folgenden befehl:
+  user@osgeolive:~$ sudo systemctl start tomcat8.service
+  Active: active (running) since Wed 2017-06-21 12:52:42 UTC; 3s ago      <-- Tomcat läuft nun
 
 **Listing 3:** Befehle zum Abfragen des Status und zum Starten des Tomcat-Dienstes (Passwort für sudo: user).
