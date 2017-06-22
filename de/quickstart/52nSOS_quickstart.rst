@@ -22,8 +22,9 @@ Dieses Quickstart-Dokument umfasst:
     welche Operationen/Abfrageparameter unterstützt werden.
   * Beispiel-Anfrage um Messdaten des SOS abzurufen.
   * Informationen zur Datenvisualisierung in einem einfachen, mit dem SOS
-    mitgelieferten Viewer.
+    mitgelieferten Viewer "Helgoland".
   * Informationen zum Ausprobieren einer REST-Schnittstelle für Anwendungsentwickler.
+  * Einfügen von dynamisch generierten Beispieldaten.
 
 .. contents:: Inhalt
 
@@ -99,6 +100,15 @@ Ausprobieren
 * Lernen Sie den `SOS-Administrator <http://localhost:8080/52nSOS/admin/index>`_ kennen.
    Die Zugangsdaten lauten: "user" mit Passwort "user".
 * Nutzen Sie den `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (siehe Abb. 3).
+* Testen Sie wweitere Beispieldaten, in dem Sie die folgenden Schritte ausführen:
+  1. Öffen Sie im SOS-Administrator die `"database maintenance"-Seite <http://localhost:8080/52nSOS/admin/datasource>`_.
+  2. Leeren Sie die Datanbank mit dem "Clear Datasource"-Knopf" (Dadurch werden die initialen
+     Beispiel-Daten gelöscht. Sie können OSGeoLive neustarten, um Sie zurück zu bekommen.).
+  3. Fügen Sie dynamisch erzeugte Beispieldaten durch einen Klick auf den
+     "Insert sample data"-Knopf. Seien Sie informiert, dass dieser Prozess einige
+     Minuten in Anspruch nimmt.
+  4. Öffnen Sie `helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_
+     erneut und erkunden Sie die erzeugten Beispieldaten.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 100 %
@@ -107,7 +117,7 @@ Ausprobieren
 
 **Abb. 3**: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten.
 
-* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (siehe Listing 2):
+* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/>`_ (siehe Listing 2):
 
 .. code-block:: js
 
@@ -151,7 +161,16 @@ Ausprobieren
             id: "phenomena",
             label: "Phenomenon",
             description: "An organizing unit to filter resources."
-        }
+        },
+        {
+            id: "platforms",
+            label: "Platforms",
+            description: "A sensor platform where observations are made."
+        },
+        {
+            id: "geometries",
+            label: "Geometries",
+            description: "A geometry where observations are made or that was observed."
     ]
 
 **Listing 2:** Ausgabe der REST-Schnittstelle.

@@ -21,8 +21,8 @@ This Quick Start describes how to:
 
   * Query the 52°North SOS Capabilities to determine what queries it supports.
   * Query details about an Observation from the SOS.
-  * Use a lightweight visualisation tool delivered together with the SOS to
-    explore the available data.
+  * Use a lightweight visualisation tool "helgoland" delivered together with
+    the SOS to explore the available data.
   * Explore the REST API endpoint for client developers.
 
 .. contents:: Contents
@@ -101,7 +101,16 @@ Things to Try
 * Try tweaking some of these queries to get different information.
 * Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ using
    username "user" and password "user".
-* Try the `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (see Fiq. 3).
+* Try Helgoland - the `View Client <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fiq. 3).
+* Try other sample data by performing the following steps
+  1. Open the SOS administrator `database maintenance page <http://localhost:8080/52nSOS/admin/datasource>`_.
+  2. Empty the database using the "Clear Datasource" button (this will delete
+     the example data. You can restart OSGeoLive to get the data back.).
+  3. Insert dynamically generated sample data by clicking on the "Insert
+     sample data" button. Please be informed, that this operation might take
+     some minutes.
+  4. Open `helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_
+     again and explore the generated sample data.
 
 .. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 70 %
@@ -110,7 +119,7 @@ Things to Try
 
 **Fig. 3**: 52°North SOS client - JavaScript client with time series data.
 
-* Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):
+* Try the `REST API <http://localhost:8080/52nSOS/api/>`_ (see Listing 2):
 
 .. code-block:: js
 
@@ -154,6 +163,16 @@ Things to Try
             id: "phenomena",
             label: "Phenomenon",
             description: "An organizing unit to filter resources."
+        },
+        {
+            id: "platforms",
+            label: "Platforms",
+            description: "A sensor platform where observations are made."
+        },
+        {
+            id: "geometries",
+            label: "Geometries",
+            description: "A geometry where observations are made or that was observed."
         }
     ]
 
