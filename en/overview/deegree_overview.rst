@@ -1,6 +1,9 @@
-:Author: Johannes Wilden, Markus Schneider, Danilo Bretschneider
+:Author: Johannes Wilden
+:Author: Markus Schneider
+:Author: Danilo Bretschneider
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-deegree.png
@@ -22,6 +25,7 @@ Web Services
 
 deegree provides geospatial webservices based upon `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ and `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ specifications. deegree supports:
 
+* `Web Feature Services (WFS) <http://www.opengeospatial.org/standards/wfs>`_: Serves vector data from geospatial data
 * `Web Map Services (WMS) <http://www.opengeospatial.org/standards/wms>`_: Serves maps rendered from geospatial data
 * `Web Map Tile Services (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Serves pre-rendered map tiles
 * `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services

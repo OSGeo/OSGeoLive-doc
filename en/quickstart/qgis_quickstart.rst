@@ -4,7 +4,8 @@
 :Author: Zoltan Siki
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
-:Version: osgeo-live10.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -180,6 +181,11 @@ There have been many plugins written for QGIS which extend QGIS's core
 functionality. One of the more powerful is the GRASS plugin, which taps
 into the hundreds of geospatial processing modules available
 from :doc:`GRASS GIS <../overview/grass_overview>`.
+
+.. note::
+    You will need to change permissions of the grass data folder in order
+    to carry out the following steps. Please open a terminal and execute the following:
+    "sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass"
 
 #. Clear the slate with :menuselection:`Project --> New`.
 

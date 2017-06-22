@@ -1,7 +1,9 @@
 ﻿
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer:
-:Version: osgeo-live10.0
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Daniel Nüst (d.nuest@52north.org)
+:Author: Simon Jirka (s.jirka@52north.org)
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo_52North_160.png

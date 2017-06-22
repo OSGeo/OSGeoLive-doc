@@ -1,8 +1,8 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, Jirotech
-:Reviewer: Angelos Tzotsos
+:Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Nicolas Roelandt
-:Version: osgeo-live10.0
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-QGIS.png

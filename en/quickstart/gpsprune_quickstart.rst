@@ -1,5 +1,5 @@
 :Author: activityworkshop
-:Version: osgeo-live8.0
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: ../../images/project_logos/logo-gpsprune.png
@@ -23,7 +23,7 @@ To run GpsPrune on the live DVD, select the icon "GpsPrune" in the Navigation an
 .. image:: ../../images/screenshots/1024x768/gpsprune_emptywindow.png
    :scale: 55
 
-We will now load a file by using the menu command :menuselection:`File --> Open file` and selecting the file to load.  This can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-separated file if you have one.  A suitable GPX file containing a couple of tracks can be found on the disc at :file:`~/data/vector/R/test_trk2.gpx` so we will load this one.
+We will now load a file by using the menu command :menuselection:`File --> Open file` and selecting the file to load.  This can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-separated file if you have one.  A suitable GPX file containing a couple of tracks can be found on the disc at :file:`~/data/vector/gpx/test_trk2.gpx` so we will load this one.
 
 .. image:: ../../images/screenshots/1024x768/gpsprune_trackselect.png
 
@@ -53,7 +53,7 @@ Let's have a look at an alternative map source by selecting the second one, "Cyc
 
 Wikipedia
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Now let's find out some more information about where this track is.  We can do this by selecting a point, and then choosing the menu option :menuselection:`Track --> Get nearby Wikipedia articles`.  This shows a list of articles whose coordinates are nearest to the selected point.  Clicking one of these entries in the list will show more information in the box below.
+Now let's find out some more information about where this track is.  We can do this by selecting a point, and then choosing the menu option :menuselection:`Online --> Get nearby Wikipedia articles`.  This shows a list of articles whose coordinates are nearest to the selected point.  Clicking one of these entries in the list will show more information in the box below.
 
 .. image:: ../../images/screenshots/1024x768/gpsprune_wikipedialist.png
 
@@ -61,7 +61,7 @@ You can then use the button `Load` to load that point into GpsPrune, or `Show we
 
 Gpsies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finally, let's download another track from the same area.  We can use the menu command :menuselection:`Track --> Get Gpsies tracks` to search for tracks on the website gpsies.com.  Again, we get a list of matching entries, and we can select one to view the description.
+Finally, let's download another track from the same area.  We can use the menu command :menuselection:`Online --> Get Gpsies tracks` to search for tracks on the website gpsies.com.  Again, we get a list of matching entries, and we can select one to view the description.
 
 .. image:: ../../images/screenshots/1024x768/gpsprune_gpsieslist.png
 
@@ -78,9 +78,9 @@ Using GpsPrune on other systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 After trying out GpsPrune on this live DVD, you may want to use it on another system, whether it's another Linux system or Mac OSX or Windows.  Some linux distributions include GpsPrune in their normal software libraries (just search for "Prune" or "GpsPrune"), or you can just download the latest copy from the home page.
 
-It doesn't need to be installed, but it does need a java runtime to be installed, version 1.5 or higher.  You can extend GpsPrune's functionalities by installing other free software, such as *Gpsbabel*, *Gnuplot*, *Exiftool* or *Java3d*.
+It doesn't need to be installed, but it does need a java runtime to be installed, version 1.5 or higher.  You can extend GpsPrune's functionalities by installing other free software, such as *Gpsbabel*, *Gnuplot*, *Exiftool* and *Java3d*.
 
-Once you've installed GpsPrune on your permanent system, you can save your settings with the menu option :menuselection:`Settings --> Save settings`.  Then they will be remembered for the next time you run GpsPrune.  However, note that when using this live DVD, all files that you save in the regular file system are lost when you shut down the computer.
+Once you've installed GpsPrune on your permanent system, you can save your settings with the menu option :menuselection:`Settings --> Save settings`.  Then they will be remembered for the next time you run GpsPrune.  However, note that when using this live system, all files that you save in the regular file system are lost when you shut down the computer.
 
 You can also save the downloaded map tiles to disk by selecting the menu option :menuselection:`Settings --> Save maps to disk` and selecting a directory in which to save the images.  This helps to speed up the display as it doesn't have to download the images again.
 

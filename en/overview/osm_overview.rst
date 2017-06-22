@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons
 
 .. image:: ../../images/project_logos/logo-osm.png
@@ -23,7 +24,7 @@ unexpected ways.
 
 A number of programs have been included: JOSM, Merkaartor, Osmosis, Osm2pgsql,
 and a number of small command utilities. In addition recent sample data for
-the host city and a number of JOSM plugins have been included.
+the FOSS4G host city and a number of JOSM plugins have been included.
 
 
 Core Features
@@ -65,9 +66,9 @@ Details
 
 **Software Versions:**
 
-* JOSM: Latest stable snapshot (svn r10526)
+* JOSM: Latest stable snapshot (svn r11427)
 
-* Merkaartor: 1.18.2
+* Merkaartor: 0.18.2
 
 * Osmosis: 0.44.1
 

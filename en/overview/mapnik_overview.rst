@@ -1,6 +1,7 @@
 :Author: Dane Springmeyer
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live10.0draft
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: ../../images/project_logos/logo-mapnik.png

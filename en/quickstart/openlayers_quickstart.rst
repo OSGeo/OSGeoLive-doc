@@ -1,7 +1,8 @@
 :Author: Antonio Santiago
 :Author: Chris Schmidt
+:Author: Bart van den Eijnden
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live8.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -14,9 +15,9 @@ OpenLayers Quickstart
   :align: right
   :target: http://openlayers.org/
 
-This Quick Start describes some basic steps required to start working with OpenLayers3: creating a basic map, adding raster and vector layers and styling features.
+This Quick Start describes some basic steps required to start working with OpenLayers: creating a basic map, adding raster and vector layers and styling features.
 
-OpenLayers3 is a light-weight mapping library for web and mobile clients which uses modern browser technologies, such as HTML5, WebGL and CSS3.
+OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript, released under the 2-clause BSD License (also known as the FreeBSD).
 
 .. contents:: Contents
 
@@ -32,12 +33,12 @@ Before we start working with OpenLayers it helps to understand OpenLayers core c
   The *view* determines how the map is rendered. It is used to set the resolution, the center location, etc. It is like a camera through which we look at the map's content.
 
 **Layers**
- *Layers* can be added to the map in a stacked order, that is, lower layers are rendered before upper layers.  Layers can be either *raster layers* (images), or *vector layers* (points/lines/polygons).
+ *Layers* can be added to the map in a stacked order. Layers can be either *raster layers* (images), or *vector layers* (points/lines/polygons).
 
 **Source**
-  Each layer has a *source* attached, which knows how to load the layer content.
-  In the case of *vector layers*, its source read vector data
-  using a *format* class (for example GeoJSON or KML) and fill the layer
+  Each layer has a *source*, which knows how to load the layer content.
+  In the case of *vector layers*, its source reads vector data
+  using a *format* class (for example GeoJSON or KML) and provides the layer
   with a set of *features*.
 
 **Features**
@@ -50,7 +51,7 @@ A basic map
 
 In this step we will create a basic map.
 
-Create a file in say /home/user/ called basic-map.html , and copy the following into the file.
+Create a file in e.g. /home/user/ called basic-map.html , and copy the following contentinto the file.
 
 .. code-block:: html
 
@@ -62,7 +63,7 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
           <meta name="viewport" content="width=device-width">
 
           <!-- OpenLayers CSS -->
-          <link rel="stylesheet" href="http://localhost/ol3/dist/ol.css" type="text/css">
+          <link rel="stylesheet" href="http://localhost/openlayers/dist/ol.css" type="text/css">
 
           <!-- Custom styles -->
           <style>
@@ -78,20 +79,19 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
           <div id="map"></div>
 
           <!-- OpenLayers JS-->
-          <script src="http://localhost/ol3/dist/ol-debug.js" type="text/javascript"></script>
+          <script src="http://localhost/openlayers/dist/ol-debug.js" type="text/javascript"></script>
 
           <!-- App code -->
           <script>
             var map = new ol.Map({
               target: 'map',
-              renderer: 'canvas',
               layers: [
                 new ol.layer.Tile({
                   source: new ol.source.OSM()
                 })
               ],
               view: new ol.View({
-                center: ol.proj.transform([2.1833, 41.3833], 'EPSG:4326', 'EPSG:3857'),
+                center: ol.proj.fromLonLat([2.1833, 41.3833]),
                 zoom: 6
               })
             });
@@ -102,7 +102,7 @@ Create a file in say /home/user/ called basic-map.html , and copy the following 
 
 **Ex. 1**: Basic code structure
 
-Now try opening basic-map.html from a web browser. You should see the following:
+Now try opening basic-map.html from a web browser using File->Open File. You should see the following:
 
 .. image:: ../../images/screenshots/800x600/openlayers-basic-map.png
   :scale: 100 %
@@ -111,11 +111,11 @@ Note:
 
 * The code follows the best practice of loading JavaScipt code at the end of the html file.
 
-* An OpenLayers map needs to be attached to a HTML DOM element, so we have created a ``<div>`` element identified by the *map* tag.
+* An OpenLayers map needs to be attached to a HTML DOM element, so we have created a ``<div>`` element identified by the *map* id.
 
 * Maps are represented by the ``ol.Map`` class. We specify the DOM element to render the map into using the **target** property.
 
-* OpenLayers allows map rendering using three different mechanisms: Canvas, WebGL and DOM. Here we select *canvas* using the **renderer** property.
+* OpenLayers allows map rendering using two different mechanisms: Canvas and WebGL. The default renderer is *canvas*.
 
 * A map shows data contained within layers, so we have created a tiled layer, represented by the ``ol.layer.Tile`` class, that loads content from the OpenStreetMap project, using the ``ol.source.OSM`` source class.
 
@@ -125,9 +125,9 @@ Adding raster layers
 --------------------------------------------------------------------------------
 
 The most used raster layers are the tiled layers, provided by the likes of
-OpenStreetMap, MapQuest, Bing, etc. Tiled layers are represented by the
+OpenStreetMap, Stamen, Bing, etc. Tiled layers are represented by the
 ``ol.layer.Tile`` class and must use a source that knows how to load tiles from
-a given provider, like ``ol.source.OSM`` or ``ol.source.MapQuest``:
+a given provider, like ``ol.source.OSM`` or ``ol.source.Stamen``:
 
 .. code-block:: javascript
 
@@ -135,9 +135,9 @@ a given provider, like ``ol.source.OSM`` or ``ol.source.MapQuest``:
     source: new ol.source.OSM()
   });
 
-  var mq = new ol.layer.Tile({
-    source: new ol.source.MapQuest({
-      layer: 'osm'
+  var stamen = new ol.layer.Tile({
+    source: new ol.source.Stamen({
+      layer: 'watercolor'
     })
   });
 
@@ -151,7 +151,7 @@ Layers can be added to the map in two ways:
 
   var map = new ol.Map({
     ...
-    layers: [osm, mq]
+    layers: [osm, stamen]
     ...
   });
 
@@ -162,14 +162,14 @@ Layers can be added to the map in two ways:
 .. code-block:: javascript
 
   map.addLayer(osm);
-  map.addLayer(mq);
+  map.addLayer(stamen);
 
 **Ex. 4:** Adding layers manually
 
 Adding vector layers
 --------------------------------------------------------------------------------
 
-Vector layers are represented by the ``ol.layer.Vector`` and must use a
+Vector layers are represented by the ``ol.layer.Vector`` class and must use a
 source suitable for reading the vector format, like ``ol.source.GeoJSON``,
 ``ol.source.KML`` or ``ol.source.TopoJSON``.
 
@@ -191,7 +191,7 @@ source suitable for reading the vector format, like ``ol.source.GeoJSON``,
 
 Note, in the previous code we must change the ``url_to_file`` to point to a
 valid GeoJSON file placed in our server.
-Note that Javascript security will prevents sourcing of datasets from an external URL on a different domain.
+Note that Javascript security will prevent sourcing of datasets from an external URL on a different domain / port (a.k.a. same-origin policy).
 
 Features can also be created manually. In this case we need to create a geometry
 that represents the feature:
@@ -233,7 +233,7 @@ Styling features
 Features within vector layers can be styled.
 The style is determined by a combination of fill, stroke, text  and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.
 
-An style is represented by the ``ol.style.Style`` class which has properties to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. The next example shows the World's administrative limits styled to use a green fill and stroke:
+A style is represented by the ``ol.style.Style`` class which has properties to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. The next example shows the World's administrative limits dataset styled to use a green fill and stroke:
 
 .. image:: ../../images/screenshots/800x600/openlayers-styling.png
   :scale: 100 %
@@ -241,7 +241,7 @@ An style is represented by the ``ol.style.Style`` class which has properties to 
 .. code-block:: javascript
 
   var limitsLayer = new ol.layer.Vector({
-    source: new ol.source.StaticVector({
+    source: new ol.source.Vector({
       url: 'data/world_limits.json',
       format: new ol.format.TopoJSON(),
       projection: 'EPSG:3857'
@@ -272,11 +272,11 @@ We have set a ``fill`` and ``stroke``, required for lines and polygons, and an
 Working with events
 --------------------------------------------------------------------------------
 
-Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, when a feature is added to a vector layer, etc.
+Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, or when a feature is added to a vector layer, etc.
 
-Events can be easily registered on object with the ``on()`` method and unregistered with ``un()``.
+Events can be easily registered on an object with the ``on()`` method and unregistered with ``un()``.
 
-The next code registers an event on a map instance, and is notified each time the pointer is moved. Within the callback function we obtain the pointer coordinates and print in the browser console in two different projections.
+The following code registers an event on a map instance, and will be notified each time the pointer is moved. Within the callback function we obtain the pointer coordinates and print in the browser console in two different projections.
 
 .. code-block:: javascript
 
@@ -289,13 +289,13 @@ The next code registers an event on a map instance, and is notified each time th
 
 **Ex. 8:** Printing pointer position.
 
-What Next?
+What's Next?
 --------------------------------------------------------------------------------
 Sometimes the quickest way to work out how OpenLayers works is to look at examples
-and its source code. You can find more OpenLayers3 information here:
+and their source code. You can find more OpenLayers information here:
 
-* `API Docs <../../ol3/apidoc/>`_
+* `API Docs <../../openlayers/apidoc/>`_
 
-* `Examples <../../ol3/examples/>`_
+* `Examples <../../openlayers/examples/>`_
 
 * `OpenLayers.org Website <http://openlayers.org/>`_
