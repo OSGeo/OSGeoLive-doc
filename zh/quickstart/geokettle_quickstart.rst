@@ -3,7 +3,7 @@
 :Version: OSGeo-Live 5.5 Draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -28,7 +28,7 @@ GeoKettle 快速入门文档
 #. 请稍等片刻，程序将会启动。
 #. 如下图所示的对话框将会出现。输入所用数据仓库（repository）或选择“No repository”开始即可进入 GeoKettle 工作台。
 
-  .. image:: ../../images/screenshots/800x600/geokettle_welcome.png
+  .. image:: /images/screenshots/800x600/geokettle_welcome.png
     :scale: 80 %
 
 工作台
@@ -36,7 +36,7 @@ GeoKettle 快速入门文档
 
 　　工作台包含了不同的面板。见下图：
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_workbench.png
+  .. image:: /images/screenshots/1024x768/geokettle_workbench.png
     :scale: 80 %
 
 　　左侧面板显示了转换操作的各个步骤。右侧主面板用于设计个测试具体的转换操作。具体使用请见后述。
@@ -49,14 +49,14 @@ GeoKettle 快速入门文档
 
 　　下图的示例是 « intersection » 转换。工作台的两部分现在都显示了此转换配置的内容。
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_intersection_transformation.png
+  .. image:: /images/screenshots/1024x768/geokettle_intersection_transformation.png
     :scale: 80 %
 
 　　明黄色的提示栏显示了转换配置的描述以及可选参数。
 
 　　在开启转换操作之前，需要指定目标文件（shp）。请双击各个 « GIS file input » 步骤以显示如下图的配置对话框：
 
-  .. image:: ../../images/screenshots/800x600/geokettle_shapefile_input_step.png
+  .. image:: /images/screenshots/800x600/geokettle_shapefile_input_step.png
 
 .. note: 
    其它任何转换步骤也可通过双击开启设置。
@@ -74,7 +74,7 @@ GeoKettle 快速入门文档
 
 　　如下图所示，所有转换步骤都在左侧面板显示，并可展开进一步显示细节。
 
-  .. image:: ../../images/screenshots/800x600/geokettle_your_transformation.png
+  .. image:: /images/screenshots/800x600/geokettle_your_transformation.png
     :scale: 80 %
 
 　　要添加一个新的转换步骤，将所需步骤从 **Steps** 面板拖动到 **transformation** 面板。双击可调整其设置。
@@ -84,7 +84,7 @@ GeoKettle 快速入门文档
 
 　　两个步骤之间的箭头表示一个连接，即两者之间数据流。如下图所示，从 **Table Input / 表格数据输入** 到 **Add sequence / 添加序列** 表示 **Table Input** 的输出既是 **Add sequence** 的输入。其它同理。
 
-  .. image:: ../../images/screenshots/800x600/geokettle_hop.png
+  .. image:: /images/screenshots/800x600/geokettle_hop.png
     :scale: 60 %
 
 　　选择两个转换步骤，右键点击其中一个并选择 :menuselection:`New hop` 即可创建新连接。或者在选择待连接步骤时按住 :kbd:`Ctrl` 也可。
@@ -102,7 +102,7 @@ GeoKettle 快速入门文档
 
 　　如下图所示，**Step Metrics / 转换步骤参数** 选项卡会首先显示。这里包含了数据输入/输出量等信息。**Active / 活动状态** 一览显示该步骤 started/启动、running/运行、finished/完成、aborted/撤销等。**Time / 时间** 一栏显示了各个项目的运行时间，同时还有 **Speed / 平均速度** 栏显示每秒处理的记录数。
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_running_transformation.png
+  .. image:: /images/screenshots/1024x768/geokettle_running_transformation.png
     :scale: 70 %
 
 
@@ -110,7 +110,7 @@ GeoKettle 快速入门文档
 
 　　执行转换可能导致错误。错误信息显示在 **Execution Results** 面板（如下图）。错误的细节在 **Logging / 日志** 选项卡。日志包含了大量的信息用于追踪错误来源，并调整转换过程设计。
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
+  .. image:: /images/screenshots/1024x768/geokettle_transformation_fail.png
     :scale: 70 %
 
 　　为帮助查找错误，系统可以显示各个中间过程的输出。右键单击某个步骤并选择 :menuselection:`Preview` 即可。这样可以避免反复执行整个转换，而直接查看某个点的执行状态。

@@ -58,31 +58,31 @@ Inolte scaricatel il file del disco virtuale (vmdk) da `live.osgeo.org <http://l
 
 Avviate VirtualBox e cliccate sul bottone New per creare una nuova VM, e quindi Next.
 
-  .. image:: ../../images/screenshots/800x600/virtualbox.png
+  .. image:: /images/screenshots/800x600/virtualbox.png
          :scale: 50 %
 
 Inserite un nome tipo OSGeo-Live, scegliete Linux come "sistema operativo", e Ubuntu come "Versione".
 
-  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: /images/screenshots/800x600/virtualbox_select_name.png
          :scale: 70 %
 
 Nello screen successivo impostate la memoria a 1024 MB (o più se il vostro computer ha più di 4GB).
 
   .. image:: ../../images/screenshots/800x600/vmdk_memory.png
-              :scale: 65 %
+     :scale: 65 %
 
 Continuate e nella finestra successiva scegliete "Usare un esistente hard disk". Ora cliccate sul bottone
 (l'icona di una cartella) per navigare fino dove avete salvato il OSGeo-Live file vmdk. Selezionate questo
 file, premente Next e Create.
 
   .. image:: ../../images/screenshots/800x600/vmdk_disk.png
-                   :scale: 65 %
+     :scale: 65 %
 
 Quando la VM è creata, cliccate sul bottone Impostazioni. Nella sezione "Generali", spostatevi nella scheda "Avanzati",
 e cliccate su seleziona "Mostra in cima allo schermo" per il Mini toolbar.
 
   .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.png
-                   :scale: 65 %
+     :scale: 65 %
 
 Andate nella sezione "Display" e aumentate la memoria video a 32 o 64 MB.
 
@@ -93,7 +93,7 @@ Inoltre, spostatevi nella sezione "Shared Folders", e cliccate "Add folder" (ico
 per trovare la directory sul vostro pc che volete condividere con la VM.
 
  .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.png
-                      :scale: 65 %
+    :scale: 65 %
 
 Una volta che "Folder path" e "Folder name" sono definiti, cliccate OK, e di nuovo OK per finire e chiudere
 la finestra delle impostazioni.
@@ -112,8 +112,8 @@ Di seguito quello che va fatto:
 Nella finestra di VirtualBox, aprite il menu :menuselection:`Devices` e cliccate :menuselection:`Install Guest Additions`.
 Questo monterà i Guest Additions come CD drive nella vostra OSGeo Live VM.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.jpg
-                        :scale: 80 %
+  .. image:: /images/screenshots/800x600/vmdk_guest_additions.jpg
+    :scale: 80 %
 
 Quando la cartella del CD appare, aprite un terminale ed eseguite i seguenti comandi:
 

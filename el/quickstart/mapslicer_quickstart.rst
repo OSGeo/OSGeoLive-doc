@@ -4,7 +4,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapslicer.png
+.. image:: /images/project_logos/logo-mapslicer.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -29,43 +29,43 @@
 
 2. Επιλέξτε το **Tile Profile**. Επιλέξτε το *Google Maps Compatible (Spherical Mercator)* για την βασική διαδικτυακή έκδοση. Επιλέξτε *Google Earth (KML SuperOverlay)* εάν θέλετε επίσης να δημιουργήσετε ένα KML αρχείο για χρήση το Google Earth. Κλικάρετε το *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer1.jpg
+.. image:: /images/screenshots/1024x768/mapslicer1.jpg
     :width: 60 %
     :align: center
 
 3. Επιλέξτε το **Source Data Files**. Αναζητήστε να επιλέξετε την εικόνα πλέγμα που θέλετε να κάνετε να δημιουργήσετε τετράγωνα. Μπορείτε επίσης να επιλέξετε το NODATA στοιχείο που εμφανίζεται σαν διαφάνεια στην τελική εικόνα. Κλικάρετε το *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer2.jpg
+.. image:: /images/screenshots/1024x768/mapslicer2.jpg
     :width: 60 %
     :align: center
 
 4. Ορίστε το **Spatial Reference System / Coordinate System** της εικόνας. Ορίστε το νούμερο από την EPSG/ESRI βάση δεδομένων. Εάν έχετε χάρτες από την Αγγλία για παράδειγμα, ο μετασχηματισμός πρέπει να περιέχει την παράμετρο `EPSG:27700 με TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ . Κλικάρετε *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer3.jpg
+.. image:: /images/screenshots/1024x768/mapslicer3.jpg
     :width: 60 %
     :align: center
 
 5. Ορίστε τις λεπτομέρειες για το= **Tile Pyramid**. Οι επιλογές που υπάρχουν για το επίπεδο ζουμαρίσματος και τοπρότυπο του αρχείου είναι συνήθως οι καλύτερες. Κλικάρετε *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer4.jpg
+.. image:: /images/screenshots/1024x768/mapslicer4.jpg
     :width: 60 %
     :align: center
 
 6. Ορίστε τις λεπτομέρειες για το **Destination folder and Addresses / URLs** του συνόλου τετραγώνων. Εάν αυτό δεν το γνωρίζετε, τότε μπορείτε να προσθέσετε τα επιλεγμένα *googlemaps.html* και *openlayers.html* αρχεία για μετά την δημιουργία τετραγώνων. Κλικαρετε *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer5.jpg
+.. image:: /images/screenshots/1024x768/mapslicer5.jpg
     :width: 60 %
     :align: center
 
 7. Μαρκάρετε το **Viewers that should be generated**. Από μόνο του, το *googlemaps.html* και το *openlayers.html* αρχεία δημειουργούνται. Μπορείτε επίσης να επιλέξετε να δημιουργήσετε ένα KML SuperOverlay αρχείο από το Google Earth. Κλικάρετε *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer6.jpg
+.. image:: /images/screenshots/1024x768/mapslicer6.jpg
     :width: 60 %
     :align: center
 
 8. Ορίστε το **Details for generating the Viewers**, όπως τον τίτλο, την σημείωση για τα δικαιώματα, και τα API κλειδιά. Εάν δεν το γνωρίζετε αυτό, αυτά μπορούν να πρσθεθούν στα επιλεγμένα *googlemaps.html / openlayers.html* αρχεία μετά από την δημιουργία των τετραγώνων. Κλικάρετε *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer7.jpg
+.. image:: /images/screenshots/1024x768/mapslicer7.jpg
     :width: 60 %
     :align: center
 

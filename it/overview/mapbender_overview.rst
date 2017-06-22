@@ -4,12 +4,12 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 90 %
   :alt: OSGeo Project
   :align: right
@@ -30,7 +30,7 @@ Le applicazioni amministrate con Mapbender sono facili da usare, e forniscono fu
 
 Il software Mapbender si basa su Symfony2 e OpenLayers, Mapproxy e jQuery. 
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender application
   :align: right

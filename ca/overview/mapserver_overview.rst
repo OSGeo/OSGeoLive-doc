@@ -4,12 +4,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :alt: project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -31,7 +31,7 @@ MapServer ara és un projecte d'`OSGeo <http://www.osgeo.org>`_, i és mantingut
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/mapserver.png
+.. image:: /images/screenshots/1024x768/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -6,14 +6,14 @@
 
 .. _geomajas-overview-pl:
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -31,7 +31,7 @@ interaktywne mapy, zaawansowane funkcje, dostosowanych do potrzeb użytkownika.
 Pozwala na dostęp do wielu rodzajów źródeł danych i funkcjonalności przez 
 przeglądarkę internetową.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

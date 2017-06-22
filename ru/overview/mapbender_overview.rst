@@ -3,12 +3,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: /images/project_logos/logo-Mapbender.png
   :alt: Логотип
   :align: right
   :target: http://www.mapbender.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 90 %
   :alt: OSGeo Project
   :align: right
@@ -49,7 +49,7 @@ SDI-компонентами. Это инструмент для  админис
 Mapbender предоставляет полностью новую перспективу управления SDI с использованием
 только стандартного веб-браузера. 
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 70%
   :alt: Приложение Mapbender
   :align: right

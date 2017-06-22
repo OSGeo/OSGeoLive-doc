@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
 
@@ -203,7 +203,7 @@ avoir des fonctionnalités spatiales.
 
 Nous donne une simple carte du monde : 
 
-.. image:: ../../images/screenshots/1024x768/r_plot1.png
+.. image:: /images/screenshots/1024x768/r_plot1.png
 
 Quand un jeu de données OGR est lu dans R nous pouvons de cette manière récupérer
 un objet qui ressemble de plusieurs manières à un data frame. Nous pouvons
@@ -214,7 +214,7 @@ juste utiliser le champ ``ADMIN`` pour récupère seulement le royaume uni.
 	> uk = countries[countries$ADMIN=="United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
-.. image:: ../../images/screenshots/1024x768/r_plot2.png
+.. image:: /images/screenshots/1024x768/r_plot2.png
 
 Cela peut sembler un peu compliqué pour celui qui arrive ici sans être
 un peu familier avec les systèmes de coordonnées centrés sur nos latitudes. Actuellement
@@ -263,7 +263,7 @@ la couleur de contour en rouge et la forme du point en "blob solid".
 
 et au final l'image apparaît.
 
-.. image:: ../../images/screenshots/1024x768/r_plot3.png
+.. image:: /images/screenshots/1024x768/r_plot3.png
 
 Vignettes
 ================================================================================

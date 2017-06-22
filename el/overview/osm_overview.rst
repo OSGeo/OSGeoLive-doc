@@ -4,7 +4,7 @@
 :License: Creative Commons
 
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.openstreetmap.org
@@ -28,7 +28,7 @@ JOSM περιλαμβάνονται.
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

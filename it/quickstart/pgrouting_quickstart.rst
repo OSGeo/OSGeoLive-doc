@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: pgRouting logo
 	:align: right
@@ -26,13 +26,13 @@ Eseguire pgRouting
 * Aprire una finestra :menuselection:`Applications --> Accessories --> Terminal` e 
   collegarsi al database ``pgrouting``:
 
-.. code-block:: bash
+::
 
 	psql -U user pgrouting
 
 * Digitare :command:`\\d` che vi mostrerà tutte le tabelle disponibili:
 
-.. code-block:: sql
+::
 
 	                List of relations
 	 Schema |        Name         |   Type   | Owner 
@@ -55,7 +55,7 @@ Eseguire pgRouting
 
 * Eseguire la funzione per il percorso più corto Dijkstra:
 
-.. code-block:: sql
+::
 
 	SELECT seq, id1 AS node, id2 AS edge, cost 
 		FROM pgr_dijkstra('
@@ -64,7 +64,7 @@ Eseguire pgRouting
 			100, 600, false, false
 		);
 
-.. code-block:: sql
+::
 
 	 seq | node | edge  |        cost         
 	-----+------+-------+---------------------
@@ -78,7 +78,7 @@ Eseguire pgRouting
 
 * Per ottenere la geometria del percorso, collegare il risultato con le geometrie della strada:
 
-.. code-block:: sql
+::
 
 	SELECT seq, id2 AS edge, rpad(b.the_geom,60,' ') AS "the_geom (truncated)" 
 		FROM pgr_dijkstra('
@@ -87,7 +87,7 @@ Eseguire pgRouting
 			100, 600, false, false
 		) a INNER JOIN ways b ON (a.id2 = b.gid) ORDER BY seq;
 	
-.. code-block:: sql
+::
 	
 	 seq | edge  |                     the_geom (truncated)                     
 	-----+-------+--------------------------------------------------------------
@@ -106,11 +106,5 @@ E poi?
 
 * **pgRouting Website** - Visitate il sito web del progetto http://www.pgrouting.org 
   per imparare di più su pgRouting.
-
 * **Workshop Documentation** - Trova la documentazione aggiornata in http://docs.pgrouting.org
-
-.. note::
-
-	Per aggiornare all'ultima versione del tutorial, aprire una finestra del terminale, 
-	ed eseguire ``sudo apt-get update && apt-get upgrade pgrouting-workshop``
 

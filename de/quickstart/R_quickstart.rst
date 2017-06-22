@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
 
@@ -200,7 +200,7 @@ Pakete, um die notwendige Funktionalität zu bekommen:
 
 Damit stellen wir eine einfache Weltkarte dar:
 
-.. image:: ../../images/screenshots/1024x768/r_plot1.png
+.. image:: /images/screenshots/1024x768/r_plot1.png
 
 Wenn ein OGR Datensatz auf diese Weise nach R eingelesen wird, bekommen wir ein Objekt, 
 dass sich in vielerlei Hinsicht wie ein Daten Frame verhält. Wir können die Spalte 
@@ -211,7 +211,7 @@ dass sich in vielerlei Hinsicht wie ein Daten Frame verhält. Wir können die Sp
 	> uk = countries[countries$admin == "United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
-.. image:: ../../images/screenshots/1024x768/r_plot2.png
+.. image:: /images/screenshots/1024x768/r_plot2.png
 
 Das sieht für jeden, der dort lebt ein bisschen gequetscht aus, da wir mehr vertraut sind 
 mit einem Koordinatensystem, das unsere Breitengrade zentriert. An dieser Stelle wurde dem 
@@ -259,7 +259,7 @@ einen soliden blob:
 
 und unsere Ausgabekarte erscheint:
 
-.. image:: ../../images/screenshots/1024x768/r_plot3.png
+.. image:: /images/screenshots/1024x768/r_plot3.png
 
 Vignetten
 ================================================================================

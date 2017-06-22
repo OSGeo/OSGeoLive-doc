@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 50px
   :height: 50px
   :alt: project logo
@@ -21,7 +21,7 @@ Geomajas è un ambiente di sviluppo per creare applicazioni WebGIS. Quindi,quell
 che che potrete vedere in questo Live DVD è un'applicazione di esempio creata 
 usando la tecnologia Geomajas.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

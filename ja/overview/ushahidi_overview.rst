@@ -3,7 +3,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
@@ -16,7 +16,7 @@ Ushahidi
 
 「`Ushahidi <http://www.ushahidi.com/>`_」エンジンは、SMS、eメールまたはWebを介してデータの収集に誰でも貢献できるオープンソース・プラットフォームです。また、データは地図やタイムラインとして視覚化できます。Ushahidi（ウシャヒディ）の目標は、民主的な情報を生成するツールとなること、透明性を高めること、そして物語を共有するための参加障壁を下げることにあります。
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -3,7 +3,7 @@
 :Version: OSGeo-Live 5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: pgRouting logo
 	:align: right
@@ -23,13 +23,13 @@ pgRouting 快速入门
 
 * 在 :menuselection:`Applications --> Accessories --> Terminal` 终端连接 ``pgrouting`` 数据库：
 
-.. code-block:: bash
+::
 
 	psql -U user pgrouting
 
 * 输入 :command:`\\d` 命令显示数据库中的表：
 
-.. code-block:: sql
+::
 
 			      List of relations
 	 Schema |        Name         |   Type   |  Owner   
@@ -47,7 +47,7 @@ pgRouting 快速入门
 
 * 执行 Dijkstra 最短距离查询：
 
-.. code-block:: sql
+::
 
 	SELECT * FROM shortest_path('
 			SELECT gid as id, 
@@ -57,7 +57,7 @@ pgRouting 快速入门
 				FROM ways', 
 			100, 600, false, false); 
 
-.. code-block:: sql
+::
 
 	 vertex_id | edge_id |       cost    	 
 	-----------+---------+---------------------
@@ -71,12 +71,12 @@ pgRouting 快速入门
 
 * 另一种输出格式：
 
-.. code-block:: sql
+::
 
 	SELECT gid, AsText(the_geom) AS the_geom 
 		FROM dijkstra_sp('ways', 100, 600);
 	
-.. code-block:: sql
+::
 	
 	  gid   |                              the_geom      
 	--------+---------------------------------------------------------------
@@ -95,10 +95,6 @@ pgRouting 快速入门
 ================================================================================
 
 * **pgRouting 网站** - http://www.pgrouting.org 显示了更多有关该项目的信息。
-
 * **Live 讨论会专题** - 在 Live DVD 上包含了 FOSS4G 2010 pgRouting 讨论会 `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoExt"` 的介绍，文件位于 :file:`/usr/share/pgrouting/workshop/` 。
 
-.. 注：::
-
-　　运行 ``sudo apt-get update && apt-get upgrade pgrouting-workshop`` 可以将手册更新至最新版本。
 

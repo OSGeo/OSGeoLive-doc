@@ -3,7 +3,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: pgRouting ロゴ
   :align: right
   :target: http://www.pgrouting.org/
@@ -24,7 +24,7 @@ pgRouting は地理空間における経路探索や他のネットワーク解�
 
 pgRouting は GPLv2 ライセンスで提供され、個人、企業及び団体からなる、成長中のコミュニティによってサポートされています。
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 70 %
   :alt: pgRouting query in pgAdminIII
   :align: right

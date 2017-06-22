@@ -2,7 +2,7 @@
 :Версия: osgeo-live4.5draft
 :Лицензия: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-sahana-eden.png
+.. image:: /images/project_logos/logo-sahana-eden.png
   :scale: 100 %
   :alt: Логотип проекта
   :align: right

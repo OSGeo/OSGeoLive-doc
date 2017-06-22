@@ -3,7 +3,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :alt: project logo
   :align: right
   :target: http://www.orfeo-toolbox.org/
@@ -34,7 +34,7 @@ and is distributed as open source.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-mvd3-screenshot.jpg
+.. image:: /images/screenshots/1024x768/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

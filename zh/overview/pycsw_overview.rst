@@ -5,7 +5,7 @@
 :Version: OSGeo-Live 6.0
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
@@ -24,7 +24,7 @@ pycsw 元数据编录
 
 　　pycsw 是使用麻省理工（MIT）开源协议发布的软件，在包括 Windows 、Linux 和 Mac OS-X 的主流平台上均可运行。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
   :alt: pycsw Logo
   :align: right

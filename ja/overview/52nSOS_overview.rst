@@ -4,7 +4,7 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
@@ -20,7 +20,7 @@
 は、現地もしくは遠隔センサがリアルタイムに蓄積したデータの取得をサポートします。
 センサとしては人工衛星に搭載したカメラから、川の水量メーターまで様々な物を取り扱うことができます。
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right

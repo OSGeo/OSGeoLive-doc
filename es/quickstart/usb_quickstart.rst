@@ -48,12 +48,12 @@ Arranque su equipo con una distribución reciente Ubuntu/Xubuntu. Se puede hacer
 
 Inserte la unidad USB en su computadora. Si está usando un DVD entonces colóquelo en la unidad de disco.
 
-  .. image:: ../../images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Seleccione  :menuselection:`System Tools --> Startup Disk Creator`` o busque `Startup Disk Creator` desde el escritorio Unity.
 
-  .. image:: ../../images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Seleccione la imagen ISO osgeo-live u osgeo-live-mini que ha descargado.
@@ -62,7 +62,7 @@ Seleccione la unidad USB. Si tiene espacio de sobra, se puede ajustar el desliza
 
 Seleccione :guilabel:`Make Startup Disk`
 
-  .. image:: ../../images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Espere aproximadamente unos 20 minutos para que se vuelque la información

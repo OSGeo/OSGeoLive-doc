@@ -7,12 +7,12 @@
 
 .. _openlayers-overview-pl:
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -25,7 +25,7 @@ OpenLayers
 Klient GIS w przeglądarce internetowej
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/800x600/openlayers-basic.png
   :scale: 100 %
   :alt: screenshot
   :align: right

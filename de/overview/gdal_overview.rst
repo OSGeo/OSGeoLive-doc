@@ -2,12 +2,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :alt: project logo
   :align: right
   :target: http://gdal.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -25,7 +25,7 @@ Die Hilfsprogramme basieren auf einer plattformübergreifenden C++ Bibliothek, d
 
 GDAL/OGR ist die am weitesten verbreitete Bibliothek für den Zugriff auf räumliche Daten. Viele Anwendungen einschließlich MapServer, GRASS, QGIS und OpenEV nutzen überwiegend GDAL/OGR für den Datenzugriff. GDAL/OGR wird auch von OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide und ArcGIS genutzt.
 
-.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supports many geodata formats
   :align: right

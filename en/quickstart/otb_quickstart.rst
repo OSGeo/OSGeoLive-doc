@@ -3,7 +3,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -83,10 +83,11 @@ The OTB *Segmentation* application allows to produce a raster segmentation
 output with different algorithms and to scale up to large raster by producing
 vector outputs that you can import in a GIS software.
 There are four segmentation methods available in the application:
-  * Mean-Shift
-  * Watershed (ITK implementation)
-  * Connected-Components
-  * Morphological profiles
+
+* Mean-Shift
+* Watershed (ITK implementation)
+* Connected-Components
+* Morphological profiles
 
 You can test the segmentation with these commands:
 
@@ -116,7 +117,7 @@ Moreover the application can work in two different modes:
 * Vector mode: segment larger images and produces a vector file where each
         segment of the segmentation is represented by a polygon
 
-  .. image:: ../../images/screenshots/800x600/otb-meanshift-lsat7.png
+  .. image:: /images/screenshots/800x600/otb-meanshift-lsat7.png
 
 OTB includes also a framework to perform tile-wise segmentation of very large
 image with theoretical guarantees of getting identical results to those without
@@ -130,7 +131,7 @@ OTB in QGis
 
 The same set of OTB applications can also be used from the Processing -> Toolbox menu in QGis. The applications are sorted by tag.
 
-  .. image:: ../../images/screenshots/800x600/otb-processing-qgis.png
+  .. image:: /images/screenshots/800x600/otb-processing-qgis.png
 
 
 Developing with OTB
@@ -157,7 +158,7 @@ What Next?
   processing. 
   
   * `OTBSoftwareGuide.pdf <http://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
-  * `Online html version <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
+  * `Online html OTB Software Guide <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
 
 * OTB CookBook
 
@@ -167,7 +168,7 @@ What Next?
   recipes to perform usual remote sensing tasks with both tools. 
   
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
-  * `Online html version <https://www.orfeo-toolbox.org/CookBook>`_
+  * `Online html OTB CookBook <https://www.orfeo-toolbox.org/CookBook>`_
 
 * OTB Tutorials
 

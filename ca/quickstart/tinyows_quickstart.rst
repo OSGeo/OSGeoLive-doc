@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -70,7 +70,7 @@ Mostrar una capa WFS en un projecte de QGIS
 
    * Ara es mostra la capa WFS:
 
-.. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
+.. image:: /images/screenshots/800x600/tinyows_wfs_layer.png
   :scale: 80 %
 
 Editar la capa amb WFS-T

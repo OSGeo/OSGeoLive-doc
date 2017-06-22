@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
@@ -21,7 +21,7 @@ pgRouting扩展了地理空间数据库 :doc:`PostGIS <postgis_overview>`/`Postg
 * 路径搜索引擎可以瞬间反映数据变化，不需要预先计算。
 * "cost"参数通过SQL动态计算，其数值可来自多个字段或表格
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right

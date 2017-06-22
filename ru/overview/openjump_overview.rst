@@ -3,7 +3,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: project logo
   :align: right
   :target: http://www.openjump.org
@@ -24,7 +24,7 @@ OpenJUMP предоставляется в двух версиях — CORE (б
 OpenJUMP отлично подходит для редактирования векторных данных и быстрого
 прототипирования ГИС-функций. 
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

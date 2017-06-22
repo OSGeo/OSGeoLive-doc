@@ -4,7 +4,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pywps.png
+.. image:: /images/project_logos/logo-pywps.png
   :alt: Логотип проекта
   :align: right
   :target: http://pywps.wald.intevation.org/
@@ -26,7 +26,7 @@ Python-привязками. Дистрибутив PyWPS не содержит 
 пользователь может создать любой процесс, который будет взаимодействовать через
 Интернет.
 
-..  .. image:: ../../images/screenshots/800x600/pywps_client.png
+..  .. image:: /images/screenshots/800x600/pywps_client.png
     :scale: 50 %
     :alt: screenshot
     :align: right

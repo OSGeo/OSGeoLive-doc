@@ -4,7 +4,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/wps
@@ -21,7 +21,7 @@ do algorytmów przetwarzania geodanych dostpnych w Sextante, ArcGIS Server, R, G
 Algorytmy mogą być tak proste jak określenie różnicy przypadków grypy w różnych porach roku
 lub tak skomplikowane jak model globalnych zmian klimatycznych.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+.. image:: /images/screenshots/800x600/52nWPS_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right

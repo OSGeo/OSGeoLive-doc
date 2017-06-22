@@ -7,13 +7,13 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: projekt logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
@@ -35,7 +35,7 @@ könyvtár teljes újraírásával jött létre. Mindkettő a funkciók kiterjed
 halmazát kínálja, melyek lefedik mind az alapszintű, mind a haladó web térkép
 megjelenítő és GIS igényeket.
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/800x600/openlayers-basic.png
   :scale: 70 %
   :alt: képernyőkép
   :align: right

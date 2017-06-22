@@ -4,12 +4,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: Logo du projet
   :align: right
   :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: Projet OSGeo
   :align: right
@@ -36,7 +36,7 @@ Consortium <http://www.opengeospatial.org>`_ (OGC) pour les standards
 conforme au :doc:`../standards/wms_overview`. 
 GeoServer forme un des composants essentiels du web géospatial. 
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Capture d'écran de GeoServer
   :align: right

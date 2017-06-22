@@ -4,13 +4,13 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution
 
-.. image:: ../../images/project_logos/logo-pywps.png
+.. image:: /images/project_logos/logo-pywps.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://pywps.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Project in Incubation
   :align: right

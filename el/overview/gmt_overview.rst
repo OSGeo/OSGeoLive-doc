@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
@@ -25,7 +25,7 @@ GMT
 Το GMT υποστηρίζει πολλές κλασικές χαρτογραφικές προβολές με επιπλέον γραμμικές, λογαριθμικές και εκθετικές κλίμακες, και διατίθεται με υποστήριξη για δεδομένα όπως οι ακτογραμμές, τα ποτάμια και τα πολιτικά όρια.
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

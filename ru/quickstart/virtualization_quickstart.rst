@@ -49,12 +49,12 @@
 
 Запустите VirtualBox и нажмите на кнопку *Создать*, затем нажмите *Вперёд*.
 
-  .. image:: ../../images/screenshots/800x600/virtualbox.png
+  .. image:: /images/screenshots/800x600/virtualbox.png
          :scale: 50 %
 
 Введите имя, например "OSGeo-Live", выберите операционную систему Linux, версия — Ubuntu.
 
-  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: /images/screenshots/800x600/virtualbox_select_name.png
          :scale: 70 %
 
 Установите размер основной памяти 1024 MB (или больше, если у вашего компьютера более 4GB ОЗУ).
@@ -93,7 +93,7 @@
 
 В окне VirtualBox откройте меню :menuselection:`Устройства` и выберите :menuselection:`Установить Дополнения гостевой ОС`. После этого ISO-образ смонтируется в CD-привод виртуальной машины OSGeo-Live.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.jpg
+  .. image:: /images/screenshots/800x600/vmdk_guest_additions.jpg
                         :scale: 80 %
 
 После этого откройте терминал и выполните следующие команды:

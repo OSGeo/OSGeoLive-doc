@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
@@ -20,7 +20,7 @@ de sites web et de les visualiser sur une carte ou une chronologie. Le but d'Ush
 démocratiser l'information, améliorer la transparence et diminuer les barrières 
 pour les individus pour partager leurs histoires.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

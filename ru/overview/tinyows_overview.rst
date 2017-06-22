@@ -3,12 +3,12 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :alt: project logo
   :align: right
   :target: http://mapserver.org/trunk/tinyows/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -24,7 +24,7 @@ TinyOWS — это легковесный и простой в развёрты�
 с поддержкой режима редактирования (WFS-T) и интерфейсов CGI и FastCGI. Для
 хранения данных используется :doc:`PostGIS <postgis_overview>`.
 
-.. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
+.. image:: /images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

@@ -3,7 +3,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: project logo
   :align: right
   :target: http://www.openjump.org
@@ -18,7 +18,7 @@ OpenJUMP es un SIG de escritorio poderoso y fácil de usar que permite a los usua
 Tiene una versión CORE y una versión PLUS, teneiendo la última añadidos montones de complementos útiles.
 Tambíen es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: center

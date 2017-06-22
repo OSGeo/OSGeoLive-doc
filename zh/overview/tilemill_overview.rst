@@ -5,7 +5,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-tilemill.png
+.. image:: /images/project_logos/logo-tilemill.png
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -28,7 +28,7 @@ TileMill
 
 　　TileMill 常和 QuantumGIS 等桌面 GIS 一并使用以准备数据，并通过 GIMP 等图形编辑器创建图标、纹理等素材。
 
-.. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
+.. image:: /images/screenshots/1024x768/tilemill_interface2.png
   :scale: 70 %
   :alt: TilleMill user interface
   :align: right

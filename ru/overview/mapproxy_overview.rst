@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: логотип проекта
   :align: right
   :target: http://mapproxy.org/
@@ -14,7 +14,7 @@ MapProxy
 WMS прокси-сервер и сервис тайлинга
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: диаграмма MapProxy
   :align: right
 
@@ -29,7 +29,7 @@ MapProxy применяется для публикации атласа тел�
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/800x600/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

@@ -3,7 +3,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: Logo du projet
   :align: right
   :target: http://52north.org/sos
@@ -17,7 +17,7 @@ Service Web
 
 The :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` de 52°North supporte la lecture en directe et la capture de données compressées depuis des capteurs in-situ et distants. Un capteur peut aussi bien être une caméra sur un satellite qu'une échelle pour mesurer le niveau d'eau dans un courant.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 60 %
   :alt: Capture d'écran du client de test de 52°North SOS version 1.0.0
   :align: right

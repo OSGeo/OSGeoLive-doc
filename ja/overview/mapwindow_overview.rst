@@ -4,7 +4,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-MapWindow.png
+.. image:: /images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
   :align: right
   :width: 220
@@ -32,7 +32,7 @@ OSGeo-Live にインストールされている MapWindow Lite バージョン�
 インストールファイルは、 `OSGeo-Live <http://live.osgeo.org>`_ のフルバージョンのISOに含まれているほか、
 https://mapwindow4.codeplex.com/releases/view/542097 からもダウンロード可能でしょう。
    
-.. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
+.. image:: /images/screenshots/1024x768/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right

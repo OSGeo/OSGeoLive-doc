@@ -4,7 +4,7 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: /images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -40,7 +40,7 @@ OSGeo-Live contains an example of web map viewer based on the GeoExt Javascript 
 
 You should see a browser window with a web map viewer showing a world map.
    
-.. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 Alternatively, you can access the application using a browser through http://localhost/qgis_server
 

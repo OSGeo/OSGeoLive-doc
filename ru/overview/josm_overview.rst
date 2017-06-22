@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-josm.png
+.. image:: /images/project_logos/logo-josm.png
   :alt: Логотип прокекта
   :align: right
   :target: http://josm.openstreetmap.de
@@ -22,7 +22,7 @@ GPX-треки должны быть заранее загружены с GPS-п
 
 Множество специализированных плагинов, написанных для JOSM, доступны для скачивания и установки.
 
-.. image:: ../../images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
   :alt: Редактор JOSM.
   :align: right

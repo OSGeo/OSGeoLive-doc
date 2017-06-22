@@ -16,7 +16,7 @@
   We also need screen shots after each significant step.
   Once these comments have been addressed, please remove my comment.
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
@@ -41,7 +41,7 @@ off.
 
 #. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`Project --> Open` from the menu bar.
 
-     .. image:: ../../images/screenshots/1024x768/qgis_project_open.png
+     .. image:: /images/screenshots/1024x768/qgis_project_open.png
        :scale: 70 %
        :alt: Open a QGIS project
 
@@ -54,7 +54,7 @@ off.
 
    * Populated places are now displayed as many green dots:
 
-     .. image:: ../../images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/1024x768/qgis.png
         :scale: 70 %
         :alt: Map in QGIS
 
@@ -68,7 +68,7 @@ off.
    You can also zoom in and out with the mouse wheel, and pan with a
    left-click drag.
 
-     .. image:: ../../images/screenshots/1024x768/qgis_zoom_toolbar.png
+     .. image:: /images/screenshots/1024x768/qgis_zoom_toolbar.png
         :scale: 70 %
         :alt: Map in QGIS
 
@@ -78,7 +78,7 @@ Style a layer
 
 Now let's try customising the style of the map.
 
-     .. image:: ../../images/screenshots/1024x768/qgis_style_set.png
+     .. image:: /images/screenshots/1024x768/qgis_style_set.png
         :scale: 70 %
         :alt: Style setting
 
@@ -92,7 +92,7 @@ Now let's try customising the style of the map.
 
    * Notice that rivers are now rendered in your new color.
 
-     .. image:: ../../images/screenshots/1024x768/qgis_style.png
+     .. image:: /images/screenshots/1024x768/qgis_style.png
         :scale: 70
         :alt: Map in QGIS
 
@@ -106,7 +106,7 @@ Let's now create a new QGIS project and load our own data.
 #. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...` Or click on the 'Add Vector Layer' button (the one with the 'V' shape, in the red rectangle in the image).
 You can also use the keyboard shortcut 'Ctrl+Shift+V' 
 
-     .. image:: ../../images/screenshots/1024x768/qgis_add_layer.png
+     .. image:: /images/screenshots/1024x768/qgis_add_layer.png
         :scale: 70
         :alt: Add layer
 
@@ -116,7 +116,7 @@ You can also use the keyboard shortcut 'Ctrl+Shift+V'
 
    * You should see all world countries.
 
-     .. image:: ../../images/screenshots/1024x768/qgis_countries.png
+     .. image:: /images/screenshots/1024x768/qgis_countries.png
         :scale: 70
         :alt: Add layer result
 
@@ -133,7 +133,7 @@ Let's now include a layer from a Postgres database.
 
 #. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
 
-   *You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
+   * You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
 
    * Both Natural Earth and OpenStreetMap Postgis databases
      are already available; we will be using use the Natural Earth database.
@@ -145,7 +145,7 @@ click on the Public schema to deploy it:
 
   * A list of database tables will appear.
 
-   .. image:: ../../images/screenshots/800x600/qgis_postgis_connect.png
+   .. image:: /images/screenshots/800x600/qgis_postgis_connect.png
       :scale: 70 %
       :alt: Connecting to a PostGIS DB
 
@@ -170,7 +170,7 @@ click on the Public schema to deploy it:
    a blue "i") and then on the map canvas bubbles to view information about
    the individual cities.
 
-     .. image:: ../../images/screenshots/1024x768/qgis_bubble.png
+     .. image:: /images/screenshots/1024x768/qgis_bubble.png
         :scale: 70
         :alt: Scale field map
 
@@ -189,7 +189,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
 #. Clear the slate with :menuselection:`Project --> New`.
 
-   .. image:: ../../images/screenshots/800x600/qgis_plugin.png
+   .. image:: /images/screenshots/800x600/qgis_plugin.png
       :scale: 70 %
       :alt: Enable GRASS plugin
 
@@ -211,7 +211,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
    * In the PERMANENT mapset select the `elevation` map and double click to add to the map.
 
-     .. image:: ../../images/screenshots/1024x768/qgis_grass_layers.jpg
+     .. image:: /images/screenshots/1024x768/qgis_grass_layers.jpg
        :scale: 50 %
        :alt: GRASS GIS layers loaded into QGIS
 
@@ -250,7 +250,7 @@ modules and visualization tools:
 
 #. Select the output layer name (e.g. contour_lines), then click :guilabel:`Run`.
 
-   .. image:: ../../images/screenshots/1024x768/qgis_contours.jpg
+   .. image:: /images/screenshots/1024x768/qgis_contours.jpg
       :scale: 70 %
       :alt: Contour creation
 
@@ -271,7 +271,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
    * A new toolbar will open on the right side of the screen with many
      processing tools to choose from. Take some time and have a look around.
 
-   .. image:: ../../images/screenshots/1024x768/qgis_toolbox.png
+   .. image:: /images/screenshots/1024x768/qgis_toolbox.png
       :scale: 70 %
       :alt: Processing Toolbox
 
@@ -281,7 +281,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
      Additionally, switch to the "Advanced Interface" (see lower right corner
      in the screenshot) in order to see the providers:
 
-   .. image:: ../../images/screenshots/1024x768/qgis_enable_provider.png
+   .. image:: /images/screenshots/1024x768/qgis_enable_provider.png
       :scale: 70 %
       :alt: Enabling the GRASS GIS 7 provider in the Processing settings.
 
@@ -306,7 +306,7 @@ Importing OpenStreetMap data
    Processing Toolbox open you might want to close it.
 
 
-   .. image:: ../../images/screenshots/1024x768/qgis_osm_plugin.png
+   .. image:: /images/screenshots/1024x768/qgis_osm_plugin.png
      :scale: 50 %
      :alt:  The OpenStreetMap plugin
 
@@ -346,7 +346,7 @@ Importing OpenStreetMap data
    highways. You can repeat this process with new layers to render different
    road types with different widths and styles.
 
-   .. image:: ../../images/screenshots/1024x768/QGIS_spatialite_add_layer.png
+   .. image:: /images/screenshots/1024x768/QGIS_spatialite_add_layer.png
      :scale: 50 %
      :alt:  The OpenStreetMap add layer
 

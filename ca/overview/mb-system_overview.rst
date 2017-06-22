@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-mb-system.png
+.. image:: /images/project_logos/logo-mb-system.png
   :alt: project logo
   :align: right
   :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
@@ -28,7 +28,7 @@ MB-System està en desenvolupament des de 1993, amb suport actiu per part d'unes
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

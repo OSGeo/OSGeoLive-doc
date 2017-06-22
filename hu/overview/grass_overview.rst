@@ -6,12 +6,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :alt: projekt logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
@@ -36,7 +36,7 @@ optimalizálták. Alkalmas kifinomult prezentációk és nyomtatott térképek
 előállítására. A GRASS GIS-t sok nyelvre lefordították és az adatformátumok 
 óriási halmazát képes kezelni.
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: képernyőkép
    :align: right

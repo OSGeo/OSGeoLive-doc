@@ -3,7 +3,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-spatialite.png
+.. image:: /images/project_logos/logo-spatialite.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.gaia-gis.it/gaia-sins/
@@ -23,7 +23,7 @@ Die Dateien sind auch portabel; die gleiche Datenbank-Datei läuft auf Windows, 
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: ../../images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

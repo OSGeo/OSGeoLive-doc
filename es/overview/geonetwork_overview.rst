@@ -7,13 +7,13 @@
 
 .. _geonetwork-overview-es:
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: logo del proyecto
   :width: 150 px
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: Proyecto OSGeo
   :align: right
@@ -27,7 +27,7 @@ Catálogo de metadatos
 
 GeoNetwork opensource es una aplicación para gestionar catálogos de recursos georreferenciados. Proporciona funciones avanzadas de edición y búsqueda de metadatos, incorpora un visor web de mapas interctivo, y se basa en estándares abiertos.
 
-.. image:: ../../images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
+.. image:: /images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
   :alt: Geonetwork con ejemplos cargados
   :scale: 50%
   :align: right

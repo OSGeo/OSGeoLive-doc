@@ -2,7 +2,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ncWMS.png
+.. image:: /images/project_logos/logo-ncWMS.png
   :scale: 100 %
   :alt: ncWMS logo
   :align: right
@@ -24,7 +24,7 @@ Start ncWMS
 
 * After a few moments the application will start up and open a web browser at http://localhost:8080/ncWMS2/Godiva3.html
 
-.. image:: ../../images/screenshots/1024x768/ncWMS-01-start_screen.png
+.. image:: /images/screenshots/1024x768/ncWMS-01-start_screen.png
     :scale: 55 %
 
 Basic usage
@@ -52,7 +52,7 @@ Finding the data value at a point
 
 Once a variable has been displayed on the map, you can click on the map to discover the data value at that point. The data value, along with the latitude and longitude of the point you clicked, will appear in a small pop-up window at the point where you clicked.
 
-.. image:: ../../images/screenshots/1024x768/ncWMS-02-variable_view.png
+.. image:: /images/screenshots/1024x768/ncWMS-02-variable_view.png
     :scale: 55 %
 
 Changing the style of the data display
@@ -85,7 +85,7 @@ Creating animations
 2) Select a start and end time for the animation
 3) Choose the granularity and frame rate for the animation
 4) Click "Go". Note that the animation may take quite a while to appear.
-6) Click the "Stop animation" button (where the wizard was) to stop the animation and return the controls to normal.
+5) Click the "Stop animation" button (where the wizard was) to stop the animation and return the controls to normal.
 
 Timeseries plots
 ----------------
@@ -107,7 +107,7 @@ Changing the map projection
 
 The map projection is changed by selecting a new background map as above. If the background map is in a different projection then the data overlay will be automatically reprojected into the new coordinate system. Godiva3 provides the option to select a background map in north or south polar stereographic projection. There may be a delay before the map appears in the new projection.
 
-.. image:: ../../images/screenshots/1024x768/ncWMS-04-north_pole.png
+.. image:: /images/screenshots/1024x768/ncWMS-04-north_pole.png
     :scale: 55 %
 
 Saving and emailing the view

@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: Projektlogo
   :align: right
@@ -66,7 +66,7 @@ WFS Layer mit QGIS anzeigen
 
    * Der WFS Layer wird jetzt angezeigt:
 
-.. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
+.. image:: /images/screenshots/800x600/tinyows_wfs_layer.png
   :scale: 80 %
 
 Daten editieren mit WFS-T

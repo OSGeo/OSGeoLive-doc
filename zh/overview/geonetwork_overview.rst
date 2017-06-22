@@ -3,12 +3,12 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -22,7 +22,7 @@ GeoNetwork
 
 　　GeoNetwork OpenSource 是一个编目应用系统，用于管理空间信息资源。它提供了强有力的元数据编辑和检索功能、内置交互式网页地图查看组件，全部基于开放标准。
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: /images/screenshots/1024x768/geonetwork-overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

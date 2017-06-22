@@ -7,12 +7,12 @@
 
 .. _gvsig-overview-es:
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
   :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -34,7 +34,7 @@ gvSIG es conocido por:
 - estar disponible en más 20 idiomas (español, inglés, alemán, francés, italiano, ...)
 - estar disponible oficialmente para Windows y Linux (también hay distribuciones no oficiales para MacOS X)
 
-.. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

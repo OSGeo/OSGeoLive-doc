@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Geopublisher.png
+.. image:: /images/project_logos/logo-Geopublisher.png
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/Geopublisher
@@ -24,7 +24,7 @@ Geopublisher's unique features make it especially applicable in the fields of in
 
 Główne funkcje
 --------------------------------------------------------------------------------
-.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right

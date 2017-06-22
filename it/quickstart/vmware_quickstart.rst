@@ -77,11 +77,11 @@ Cliccate sul bottone easyvmx e inserite queste opzioni di configurazione nel for
         - Hardisk Drives: Disk#1 Disk Size 20GB (at least) and check SCSI
         - Sound and IO: uncheck all
 
-.. image:: ../../images/screenshots/800x600/vmware_easyvmx_form.png
+.. image:: /images/screenshots/800x600/vmware_easyvmx_form.png
         :scale: 75
 
 
-.. image:: ../../images/screenshots/800x600/vmware_easyvmx_disk.png
+.. image:: /images/screenshots/800x600/vmware_easyvmx_disk.png
         :scale: 75
 
 Cliccate sul bottone in fondo "Create Experimental Virtual Machine". Il sito creerà un file **vmx** correttamente
@@ -89,7 +89,7 @@ formattato contenente tutte le configurazioni inserite sopra. Dovrete mettere qu
 trova il file OSGeo vmdk. Nella schermata successiva, copiate tutte le linee da ``#!/usr/bin/vmplayer`` a
 ``# END OF EasyVMX! CONFIG`` e incollatele in un nuovo file denominato osgeolive-5.5.vmx. 
 
-.. image:: ../../images/screenshots/800x600/vmware_easyvmx_output.png
+.. image:: /images/screenshots/800x600/vmware_easyvmx_output.png
         :scale: 75
 
 Il prefisso del nome del file (senza l'estenzione vmx) dovrebbe combaciare con il nome del file OSGeo vmdk. Inoltre
@@ -101,9 +101,9 @@ Ora avviate VMWare Player e cliccate sul pulsante **Aprire una Macchina Virtuale
 i file, il vmdk scaricato e la file vmx appena creato. Puntate verso il vmx e la nuova macchina virtuale dovrebbe essere 
 aggiunto alla lista nella finestra del Player. Cliccare il pulsante **Play Virtual Machine** e OSGeo VM dovrebbe avviarsi.
 
-.. image:: ../../images/screenshots/800x600/vmware_open.png
+.. image:: /images/screenshots/800x600/vmware_open.png
         :scale: 90
-.. image:: ../../images/screenshots/800x600/vmware_play.png
+.. image:: /images/screenshots/800x600/vmware_play.png
         :scale: 90
 
 ================================================================================
@@ -124,7 +124,7 @@ dal vostro computer condiviso nel sistema virtuale OSGeo-Live. Supponiamo che si
 `C:\\Users\\your_name\\Downloads`. Cliccare il pulsante per navigare per trovare la directory, dategli il nome di "Downloads",
 e cliccare "Save".
 
-.. image:: ../../images/screenshots/800x600/vmware_shared.png 
+.. image:: /images/screenshots/800x600/vmware_shared.png 
         :scale: 80
 
 

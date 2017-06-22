@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-mb-system.png
+.. image:: /images/project_logos/logo-mb-system.png
   :alt: project logo
   :align: right
   :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
@@ -25,7 +25,7 @@ MB-System
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

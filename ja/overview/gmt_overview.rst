@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
   :target: https://gmt.soest.hawaii.edu
@@ -20,7 +20,7 @@ GMT は、 (x,y) および (x,y,z) のデータセット（フィルタリング
 
 GMT は、多くの一般的な地図投影法に加えて、線形、対数、パワースケーリングに対応し、海岸線や河川、政治的境界線のような対応データが付属しています。
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

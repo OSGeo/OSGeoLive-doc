@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons - logo
   :align: right
@@ -23,7 +23,7 @@ Començant
 
 2) El Firefox obrirà la pàgina d'inici del client de proves de 52°North SOS (veure Fiq. 1). Si us plau, seleccioneu la versió de l'especificació que vulgui, 1.0.0 per example:
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: captura de pantalla del client de proves de 52°North SOS - pàgina d'inici
   :align: center
@@ -32,7 +32,7 @@ Començant
 
 3) Apareix el client de proves. Es pot fer servir per enviar peticions al servei fent servir un senzill formulari. Una llista desplegable permet seleccionar d'un seguit de peticions pre-definides, que estan adaptades a la versió del servei seleccionada prèviament.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: captura de pantalla del client de proves de 52°North SOS versió 1.0.0
   :align: center
@@ -43,7 +43,7 @@ Començant
 
 5) Premeu el botó **Send button** (número [2] a Fig. 2) i la petició serà enviada al servidor de 52°North SOS. S'enviarà un arxiu XML com a resultat (veure Fig. 3), que mostra les "capacitats" (capabilities) del SOS (metadades del servei com ara paraules clau o proveïdor, operacions disponibles i filtres, dades d'observacions disponibles,...). Per a veure la resposta original del servidor, obriu la vista de la font de la resposta (source view) prement Ctrl+U.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_response.png
+.. image:: /images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
   :alt: captura de pantalla de la sortida una petició a 52°North SOS - resposta GetCapabilities codificada en XML
   :align: center
@@ -79,7 +79,7 @@ Per aprendre més sobre 52°North SOS i la comunitat de sensors web de 52°North
 
 * El desenvolupament d'aquesta versió de 52°North SOS va ser recolzat per el projecte europeu de recerca FP7 `EO2HEAVEN <http://www.eo2heaven.org/>`_ (co-finançat per la Comissió Europea amb l'acord de subvenció nº244100):
 
-.. image:: ../../images/project_logos/logo_52North_other_200px.png
+.. image:: /images/project_logos/logo_52North_other_200px.png
   :scale: 100 %
   :alt: EO2HEAVEN - Observació terrestre i modelització ambiental per a la mitigació dels riscos a la salut
   :align: center

@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -29,7 +29,7 @@ Imagelinker
 * 选择 :menuselection:`image window --> pan 图标 --> 点击影像 --> 点击 "propagate"` ；
 * 窗口中应出现三幅灰阶影像。
 
-  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
 　　更多内容请看相关 `博文`_ 。

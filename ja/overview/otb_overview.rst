@@ -3,7 +3,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :alt: project logo
   :align: right
   :target: http://www.orfeo-toolbox.org/
@@ -27,7 +27,7 @@ OTB はフランス国立宇宙研究センター (CNES) で開発されてき�
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-mvd3-screenshot.jpg
+.. image:: /images/screenshots/1024x768/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

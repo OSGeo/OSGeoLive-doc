@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gpsprune.png
+.. image:: /images/project_logos/logo-gpsprune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -27,7 +27,7 @@ Mac OSX, Windows, Linux で動作し、多くの言語に対応しています�
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

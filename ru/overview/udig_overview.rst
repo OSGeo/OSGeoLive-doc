@@ -5,7 +5,7 @@
 
 
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :alt: Логотип udig
   :align: right
   :target: http://udig.refractions.net/
@@ -16,7 +16,7 @@ uDig
 Настольная ГИС
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/1024x768/udig-overview.png
   :scale: 50
   :alt: Интерфейс udig
   :align: right

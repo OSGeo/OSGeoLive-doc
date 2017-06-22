@@ -6,7 +6,7 @@
 
 .. _osgearth-overview-es:
 
-.. image:: ../../images/project_logos/logo-osgearth.png
+.. image:: /images/project_logos/logo-osgearth.png
   :alt: project logo
   :align: right
   :target: http://osgearth.org/
@@ -29,7 +29,7 @@ ayudarán a ponerte en marcha de una manera rápida y sencilla.
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: ../../images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/screenshots/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

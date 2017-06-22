@@ -3,7 +3,7 @@
 :Version: OSGeo-Live 4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 50px
   :height: 50px
   :alt: project logo
@@ -19,7 +19,7 @@ Geomajas 快速入门文档
 
 　　Geomajas 是用于创建网络 GIS 服务的开发框架。OSGeo Live 提供了一套运用 Geomajas 技术制作的一个示例项目。
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

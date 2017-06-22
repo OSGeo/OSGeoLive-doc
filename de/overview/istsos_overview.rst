@@ -4,12 +4,12 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-istsos.png
+.. image:: /images/project_logos/logo-istsos.png
   :alt: Projekt Logo
   :align: right
   :target: http://istsos.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
@@ -24,7 +24,7 @@ Daten-Managementwerkzeug
 
 istSOS ist ein Managementwerkzeug für Sensordaten, das das Sammeln, Pflegen und Monitoren von Beobachtungen mit Hilfe der Standards des Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` ermöglicht.
 
-.. image:: ../../images/screenshots/1024x768/screenshot_istsos.png
+.. image:: /images/screenshots/1024x768/screenshot_istsos.png
   :scale: 60 %
   :alt: Datenviewer
   :align: right

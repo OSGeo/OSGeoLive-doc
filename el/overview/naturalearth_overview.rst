@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-naturalearth.png
+.. image:: /images/project_logos/logo-naturalearth.png
   :alt: project logo
   :align: right
   :target: http://www.naturalearthdata.com/
@@ -19,7 +19,7 @@ Natural Earth
 
 Το πρόγραμμα Natural Earth λύνει ένα κοινό πρόβλημα που πολλοί χαρτογράφοι αντιμετωπίζουν: Την εύρεση διανυσματικών δεδομένων για την κατασκευή ποιοτικής εκτύπωσης και μικρής κλίμακας χαρτών, στο κατάλληλο επίπεδο λεπτομέρειας για τους χάρτες που φτιάχνουν.
 
-.. image:: ../../images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right
