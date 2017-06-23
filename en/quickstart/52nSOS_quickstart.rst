@@ -103,6 +103,7 @@ Things to Try
    username "user" and password "user".
 * Try Helgoland - the `View Client <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fiq. 3).
 * Try other sample data by performing the following steps
+
   1. Open the SOS administrator `database maintenance page <http://localhost:8080/52nSOS/admin/datasource>`_.
   2. Empty the database using the "Clear Datasource" button (this will delete
      the example data. You can restart OSGeoLive to get the data back.).
