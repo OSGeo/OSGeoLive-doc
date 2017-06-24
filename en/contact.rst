@@ -19,7 +19,7 @@ associated software, projects, or companies found within.
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
 
-For additional information on the on the distribution of each program
+For additional information on the distribution of each program
 review their license as indicated on the page for each program.
 
 Community Support
