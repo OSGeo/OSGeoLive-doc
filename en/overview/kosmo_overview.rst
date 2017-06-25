@@ -3,7 +3,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
@@ -20,7 +20,7 @@ and analyse spatial data from a variety of databases, vector and raster formats.
 Kosmo - Desktop follows OGC standards and provides excellent topology integrity. 
 It's plug-in architecture enables it to be easily customised for specific purposes.
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

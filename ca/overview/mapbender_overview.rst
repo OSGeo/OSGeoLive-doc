@@ -5,12 +5,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 90 %
   :alt: OSGeo Project
   :align: right
@@ -33,7 +33,7 @@ El costat del client Mapbender es basa en Symfony2, OpenLayers, Mapproxy usant l
 
 Mapbender dóna una perspectiva totalment nova a la gestió de les IDE usant res més que un navegador web estàndard. 
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender application
   :align: right

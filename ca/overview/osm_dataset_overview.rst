@@ -5,7 +5,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.osm.org/
@@ -32,7 +32,7 @@ Fonamentalment, OSM s'enfoca en les dades i els mapes resultants són simplement
 La distribució OSGeo-Live inclou un extracte de les dades de OSM a nivell de ciutats, 
 que s'utilitza en els exemples d'altres aplicacions.
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

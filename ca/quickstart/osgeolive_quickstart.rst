@@ -34,25 +34,25 @@ Instruccions:
   Altrament, haureu d'ajustar la configuració d'inici al vostre BIOS o pressionar el botó
   de menú d'arrencada just després d'engegar la màquina.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+  .. image:: /images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
   Pitgeu :kbd:`ENTER` per anar a la pantalla següent.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
+  .. image:: /images/screenshots/800x600/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
   Sel·leccioneu :guilabel:`live - boot the Live System`
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_login.png
+  .. image:: /images/screenshots/800x600/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
   A la pàgina d'entrada, simplement pitgeu :kbd:`ENTER` o espereu el compte enrere.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+  .. image:: /images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 

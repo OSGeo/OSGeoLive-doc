@@ -37,12 +37,12 @@
 
 　　将待写入的 USB 盘插入计算机。
 
-  .. image:: ../../images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 　　选择 :menuselection:`Applications --> System --> Startup Disk Creator` 或搜索 `Startup Disk Creator` 。
 
-  .. image:: ../../images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 　　选择使用的 OSGeo Live 映象。
@@ -51,7 +51,7 @@
 
 Select :guilabel:`Make Startup Disk`
 
-  .. image:: ../../images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 　　等待写入过程完成。

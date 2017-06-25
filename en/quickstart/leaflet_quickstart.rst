@@ -70,13 +70,13 @@ In this case we will be using the tile images provided by TileStache on the live
 
 Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:
 
-.. code-block:: javascript
+::
 
  L.tileLayer('http://localhost:8012/example/{z}/{x}/{y}.png,{}).addTo(map);
 
 If you have online access you may want to use a nicer tilemap as the background:
 
-.. code-block:: javascript
+::
 
  L.tileLayer('http://{s}.tile.cloudmade.com/API-key/997/256/{z}/{x}/{y}.png', {
 			maxZoom: 18,

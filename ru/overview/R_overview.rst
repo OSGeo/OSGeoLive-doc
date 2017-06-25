@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org
@@ -44,7 +44,7 @@ R хорошо документирован (имеется в т.ч. и онл�
 S+) достигнута значительная кодовая совместимость. Это позволяет переносить
 разные версии S-кода в R без больших модификаций.  
 
-.. image:: ../../images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right

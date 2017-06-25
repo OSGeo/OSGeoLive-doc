@@ -4,7 +4,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: projekt logo
   :align: right
   :target: http://cran.r-project.org
@@ -41,7 +41,7 @@ az előd S és S-Plus kódok és a modern S kereskedelmi verziója között, TIB
 Spotfire S+. Ez lehetővé teszi, hogy S kód fusson R-ben nagyobb kód módosítások
 nélkül.
 
-.. image:: ../../images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: projekt logo
   :align: right

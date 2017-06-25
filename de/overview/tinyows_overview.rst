@@ -4,12 +4,12 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :alt: Projekt Logo
   :align: right
   :target: http://mapserver.org/tinyows/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -23,7 +23,7 @@ Web Feature Service
 
 TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender Transaktionaler Web Feature Service (WFS-T), der CGI und FastCGI Schnittstellen unterstützt und :doc:`PostGIS <postgis_overview>` für die Datenspeicherung nutzt.
 
-.. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
+.. image:: /images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

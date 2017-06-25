@@ -4,12 +4,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
   :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -26,7 +26,7 @@ GeoServer は、多彩な形式の地図とデータを Web ブラウザやデ�
 GeoServer は `Open Geospatial Consortium <http://www.opengeospatial.org>`_ (OGC) の `Web Feature Service <http://www.opengeospatial.org/standards/wfs>`_ (WFS) 、 `Web Coverage Service <http://www.opengeospatial.org/standards/wcs>`_ (WCS)、高性能なWebサーバの `Web MapService <http://www.opengeospatial.org/standards/wms>`_ (WMS) の参考実装です。GeoServer は空間情報 web の中核を担います。
 
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

@@ -2,7 +2,7 @@
 :Version: OSGeo-Live DVD, Version 7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :scale: 100 %
   :alt: логотип проекта
   :align: right

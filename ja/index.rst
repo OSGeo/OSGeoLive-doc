@@ -62,7 +62,6 @@ OSGeo-Live は `OSGeo 財団 <http://osgeo.org/>`_ のプロジェクトです�
      download
      sponsors
      sponsors_osgeo
-     presentation
      metrics
      mac_installers
      win_installers

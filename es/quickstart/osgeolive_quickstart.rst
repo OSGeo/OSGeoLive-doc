@@ -30,13 +30,13 @@ Pasos:
 
   Si el ordenador está configurado para arrancar desde el DVD (como es normalmente el caso) se iniciará un sistema operativo Lubuntu, con las aplicaciones Geospaciales instaladas. Si no, habrá que ajustar las propiedades de arranque desde el entorno BIOS o presionar el botón de menú de arranque después del encendido de la máquina.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+  .. image:: /images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
   Esperar mientras el sistema se inicia.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+  .. image:: /images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 

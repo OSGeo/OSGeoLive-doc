@@ -4,12 +4,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -26,7 +26,7 @@ Quantum GIS (QGIS) és un client SIG amigable i de codi obert amb el qual es pot
 Inclou funcions analítiques potents a través de la integració amb :doc:`GRASS <grass_overview>`.  
 Es pot emprar a Linux, Unix, Mac OSX, i Windows i suporta nombrosos formats i funcions tant per vector com per ràster com per bases de dades.
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

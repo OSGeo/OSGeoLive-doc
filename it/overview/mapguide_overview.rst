@@ -4,12 +4,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -36,7 +36,7 @@ MapGuide può essere eseguito su Linux o Windows, supporta i server web Apache e
 e offre estensione in PHP, .NET, Java, and JavaScript APIs per sviluppare le applicazioni. 
 MapGuide Open Source è rilasciato sotto licenza LGPL.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

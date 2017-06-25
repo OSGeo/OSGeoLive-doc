@@ -36,12 +36,12 @@ Booten Sie ihren Computer in einer Ubuntu/Xbuntu Distribution. Sie können dies 
 
 Schließen Sie einen USB-Stick an Ihren Rechner an.
 
-  .. image:: ../../images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Wählen Sie :menuselection:`System Tools --> Startup Disk Creator` oder suchen Sie nach `Startup Disk Creator` vom Unity-Desktop.
 
-  .. image:: ../../images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Wählen Sie das ISO-Abbild osgeo-live oder osgeo-live-mini ISO Image, das Sie zuvor heruntergeladen haben. 
@@ -50,7 +50,7 @@ Wählen Sie den USB-Stick. Sofern Sie über weiteren Platz verfügen können Sie
 
 Wählen Sie :guilabel:`Make Startup Disk`
 
-  .. image:: ../../images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Warten Sie ca. 20 Minuten, während der USB-Stick bearbeitet wird.

@@ -4,7 +4,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
@@ -15,7 +15,7 @@ MapProxy
 Servicio de teselas y Proxy WMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -32,7 +32,7 @@ Algunos ejemplos del mundo real: MapProxy es usado por el atlas de banda ancha a
 Funcionalidades de MapProxy
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/800x600/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

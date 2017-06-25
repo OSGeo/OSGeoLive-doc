@@ -6,7 +6,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
@@ -30,7 +30,7 @@ logarítmics i potencials i es distribueix amb dades auxiliars tals com línies 
 costa, rius i delimitacions polítiques.
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

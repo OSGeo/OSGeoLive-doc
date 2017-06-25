@@ -4,7 +4,7 @@
 :Copyright: 2011 by The OSGeo Foundation
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-opencpn.png
+.. image:: /images/project_logos/logo-opencpn.png
   :scale: 75 %
   :alt: project logo
   :align: right

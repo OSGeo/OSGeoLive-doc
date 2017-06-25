@@ -4,12 +4,12 @@
 
 .. _ossim-overview-pl:
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :alt: project logo
   :align: right
   :target: http://www.ossim.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -33,7 +33,7 @@ Zaimplementowanych zostało wiele narzędzi wiersza poleceń, aplikacji GUI i zi
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

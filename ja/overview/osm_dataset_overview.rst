@@ -3,7 +3,7 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: https://www.openstreetmap.org/
@@ -23,7 +23,7 @@ OSMを最も目にする光景は、 https://www.openstreetmap.org のオンラ�
 
 OSGeo-Liveのディストリビューションには、いくつかのアプリケーションで例に使用されているOSMデータの都市サイズに抽出されたデータが含まれています。
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: mdlux
 
-.. image:: ../../images/project_logos/logo-ipython.png
+.. image:: /images/project_logos/logo-ipython.png
   :scale: 100 %
   :alt: project logo
   :align: center

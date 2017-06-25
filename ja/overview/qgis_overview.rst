@@ -5,12 +5,12 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -29,7 +29,7 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
 
 
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

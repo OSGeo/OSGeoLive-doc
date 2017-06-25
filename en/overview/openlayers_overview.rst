@@ -7,13 +7,13 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ A high-performance, feature-packed library for all your mapping needs
 
 OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript, released under the 2-clause BSD License (also known as the FreeBSD).
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/800x600/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right

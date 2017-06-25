@@ -3,14 +3,14 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -24,7 +24,7 @@ Browser GIS Client
 
 The Client enables developers to create powerful web GIS applications including interactive maps, extensible widgets and custom use cases. It allows access to a wide range of data sources and functionality through a web browser.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

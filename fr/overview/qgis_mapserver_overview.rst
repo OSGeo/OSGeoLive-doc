@@ -3,12 +3,12 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: Logo du projet
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Projet OSGeo
   :align: right
@@ -24,7 +24,7 @@ QGIS Server fournit un service web cartographique (WMS) utilisant les mêmes lib
 Les cartes et les modèles d'impression créés dans QGIS peuvent être publiés comme des cartes web simplement en copiant le fichier de projet de QGIS dans le répertoire du serveur. Les cartes web résultantes ressemblent exactement à celles de l'outil bureautique.
 QGIS Server fonctionne habituellement comme un module CGI/FastCGI dans le serveur web Apache.
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: Capture d'écran
   :align: right

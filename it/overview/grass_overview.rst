@@ -7,12 +7,12 @@
 :Translator: Luca Delucchi
 
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -37,7 +37,7 @@ grossi dati geospaziali. Il software inoltre permette di produrre sofisticate
 rappresentazioni grafiche e mappe stampabili. GRASS GIS è attualmente
 tradotto in molte lingue e supporta un grande numero di formati di dati.
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

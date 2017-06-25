@@ -5,12 +5,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapfish.png
+.. image:: /images/project_logos/logo-mapfish.png
   :alt: project logo
   :align: right
   :target: http://www.mapfish.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Λογισμικό ενσωματωμένο στο OSGeo
   :align: right
@@ -36,7 +36,7 @@ MapFish παρέχει συγκεκριμένα εργαλεία για την �
 `ExtJS <http://extjs.com>`_,το :doc:`OpenLayers <openlayers_overview>`, το `GeoExt <http://www.geoext.org>`_ 
 και συγκεκριμένα εργαλεία για την διάδραση με τις υπηρεσίες (web services) του MapFish.
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
+.. image:: /images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

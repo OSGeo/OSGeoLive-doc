@@ -5,7 +5,7 @@
 
 
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :alt: Logo Udig
   :align: right
   :target: http://udig.refractions.net/
@@ -16,7 +16,7 @@ User-friendly Desktop Internet GIS (uDig)
 SIG bureautique
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/1024x768/udig-overview.png
   :scale: 50
   :alt: Workshop Udig
   :align: right

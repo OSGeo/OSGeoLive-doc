@@ -4,12 +4,12 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ QGIS en el directorio del servidorr, y ver así los mapas web exactamente como e
 escritorio. QGIS Server normalmente es ejecutado como un módulo CGI/FastCGI
 dentro de Apache Webserver.
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

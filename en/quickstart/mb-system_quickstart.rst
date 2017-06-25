@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-mb-system.png
+.. image:: /images/project_logos/logo-mb-system.png
   :scale: 30 %
   :alt: project logo
   :align: right
@@ -40,7 +40,7 @@ Open a terminal, then
   cd mbinfo
   ./mbinfo.cmd
 
-.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 35 %
   :alt: 2D shaded relief
   :align: right

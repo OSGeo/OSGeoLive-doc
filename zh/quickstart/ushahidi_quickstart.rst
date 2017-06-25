@@ -3,7 +3,7 @@
 :Translator: Zhengfan Lin
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :scale: 100 %
   :alt: project logo
   :align: right 
@@ -20,7 +20,7 @@ Ushahidi 快速入门
 
 1. 从桌面图标或菜单均可启动 Ushahidi 。Ushahidi 服务的部署很简单。
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -44,21 +44,21 @@ Ushahidi 快速入门
 
    回到 Ushahidi 界面输入涉及的信息。
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
 
 3. 完成后，系统将给出 'View your website' 访问链接。
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
  
 4. 要在 `管理面板 <http://localhost/ushahidi/admin>`_ 进行操作，输入用户名 **"admin"** 和密码 **"admin"** 。作为示例，您可以选择右上角的 **"Settings"** 设置选项，在 **"Map"** 选项卡改变 **"Map provider"** 地图提供者为 OpenStreetMaps 。由于 OSM 是公共服务，该设置无需 API key 。
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center

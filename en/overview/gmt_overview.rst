@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
   :target: https://gmt.soest.hawaii.edu
@@ -28,7 +28,7 @@ scaling, and comes with support data such as coastlines, rivers, and
 political boundaries.
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

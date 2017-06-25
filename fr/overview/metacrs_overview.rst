@@ -4,12 +4,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
+.. (no logo) .. image:: /images/project_logos/logo-GDAL.png
 ..  :alt: Logo du projet
 ..  :align: right
 ..  :target: http://trac.osgeo.org/metacrs/wiki
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: Projet OSGeo
   :align: right
@@ -21,7 +21,7 @@ MetaCRS
 Transformations de Systèmes de Référence de coordonnées (CRS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/project_logos/logo-metacrs.png
+.. image:: /images/project_logos/logo-metacrs.png
   :alt: map projection example
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki

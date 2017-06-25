@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=es
@@ -21,7 +21,7 @@ y analizar datos espaciales desde gran variedad de bases de datos, formatos vect
 Kosmo - Cliente de Escritorio cumple los estándares OGC y proporciona una excelente integridad topológica.
 Su arquitectura de extensiones permite personalizarlo fácilmente para fines específicos.
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

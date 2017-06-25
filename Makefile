@@ -38,9 +38,9 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
-	if [ -e licenses.csv ] ; then \
-	  rm -f licenses.csv ; \
-	fi ; \
+	#if [ -e licenses.csv ] ; then \
+	#  rm -f licenses.csv ; \
+	#fi ; 
 	if [ -e index.rst ] ; then \
 	  rm -f index.rst ; \
 	fi ; \
@@ -63,7 +63,7 @@ link_to_en_docs:
 	done
 	# link to english docs for the docs in head directory
 	for LANG in $(TRANSLATIONS) ; do \
-	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/presentation.rst en/copyright.rst en/metrics.rst en/mac_installers.rst en/win_installers.rst ; do \
+	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/copyright.rst en/metrics.rst en/mac_installers.rst en/win_installers.rst ; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../#"` ; \
 	    if [ ! -f $$TRANSLATED_DOC ] ; then \
@@ -91,7 +91,6 @@ fix_header_links: sphinxbuild
 	    mac_installers.html \
 	    win_installers.html \
 	    sponsors.html \
-	    presentation.html \
 	    disclaimer.html \
 	    copyright.html \
 	    overview/overview.html \
@@ -165,7 +164,7 @@ html: fix_index sphinxbuild fix_header_links banner_links win_installer_links cs
 small: fix_index
 	rm -fr $(TMP)
 	mkdir -p $(TMP)
-	ln -s $(START_DIR)/*.css $(START_DIR)/images $(START_DIR)/*.py $(START_DIR)/index.rst $(START_DIR)/en $(START_DIR)/*.txt $(START_DIR)/*.csv $(START_DIR)/themes $(TMP)
+	ln -s $(START_DIR)/*.css $(START_DIR)/images $(START_DIR)/*.py $(START_DIR)/index.rst $(START_DIR)/osgeo_contact.rst $(START_DIR)/contributors.rst $(START_DIR)/translators.rst $(START_DIR)/en $(START_DIR)/*.txt $(START_DIR)/*.csv $(START_DIR)/themes $(TMP)
 	cd $(TMP) && $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	rm -fr _build
 	mv $(TMP)/_build .
@@ -217,7 +216,7 @@ link_to_en_docs_pdf:
 	done
 	# link to english docs for the docs in head directory
 	for LANG in $(PDF_LANG) ; do \
-	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/presentation.rst en/copyright.rst en/metrics.rst en/mac_installers.rst en/win_installers.rst ; do \
+	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/copyright.rst en/metrics.rst en/mac_installers.rst en/win_installers.rst ; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../#"` ; \
 	    if [ ! -f $$TRANSLATED_DOC ] ; then \

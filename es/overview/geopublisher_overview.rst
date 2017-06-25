@@ -7,7 +7,7 @@
 
 .. _geopublisher-overview-es:
 
-.. image:: ../../images/project_logos/logo-Geopublisher.png
+.. image:: /images/project_logos/logo-Geopublisher.png
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/Geopublisher
@@ -27,7 +27,7 @@ Las características únicas de Geopublisher lo hacen especialmente indicado par
 
 Características Principales
 --------------------------------------------------------------------------------
-.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: pantallazo de Geopublisher editando un atlas
   :align: right

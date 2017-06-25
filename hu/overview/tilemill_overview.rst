@@ -5,7 +5,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-tilemill.png
+.. image:: /images/project_logos/logo-tilemill.png
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -42,7 +42,7 @@ A TileMill-t tipikusan együtt használják az adatok előkészítése során eg
 asztali GIS-sel (pl. QGIS), az ikonok és kitöltési minták létrehozása során
 pedig egy grafikus szerkesztőprogrammal (pl. Gimp).
 
-.. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
+.. image:: /images/screenshots/1024x768/tilemill_interface2.png
   :scale: 50 %
   :alt: TilleMill felhasználói interfész
   :align: right

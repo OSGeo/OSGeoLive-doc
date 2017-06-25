@@ -8,12 +8,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
   :alt: project logo
   :align: right
   :target: http://rasdaman.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
   :align: right
@@ -32,7 +32,7 @@ Rasdaman
 
 Η τεχνολογία rasdaman είναι σταθερή, ώριμη, και χρησιμοποιείται σε περιβάλλον παραγωγής για περισσότερο από 10 χρόνια. Για παράδειγμα, η Γαλλική Εθνική Γεωγραφική Υπηρεσία χρησιμοποιεί το rasdaman σε έναν ορθοφωτοχάρτη 12 Terabyte. Στο συνέδρειο ACM Principles of Database Systems το 2007, ο ειδικός σε θέματα βάσεων εικονιστικών δεδομένων Rona Machlin χαρακτήρισε το rasdaman ως "την πιο κατανοητή υλοποίηση ενός τέτοιου συστήματος".
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

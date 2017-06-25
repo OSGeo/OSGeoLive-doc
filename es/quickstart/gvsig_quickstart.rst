@@ -4,7 +4,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
    :scale: 50
    :align: right
 
@@ -65,7 +65,7 @@ alrededor de un minuto en arrancar.
    vista seleccionado por defecto.
 #. Haga clic en el botón [New] para crear una vista. La vista se abrirá automáticamente.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_001_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_001_.png
    :scale: 55
 
 
@@ -77,7 +77,7 @@ Abrir el diálogo de propiedades de la vista
 
 #. Seleccione la entrada de menú ``View > Properties``
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_002_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_002_.png
    :scale: 55
 
 Definir el Sistema de Referencia
@@ -97,7 +97,7 @@ Fíjese que ahora el código EPSG es 4326 y que las unidades de mapa han cambiad
 
 #. Seleccione [OK] para volver al gestor de proyectos.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_003_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_003_.png
    :scale: 55
 
 Conociendo las partes de una vista
@@ -112,7 +112,7 @@ Conociendo las partes de una vista
 #. La zona derecha es el área principal donde se muestran los datos geográficos
    tanto *raster* como vectorial
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_005_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_005_.png
    :scale: 55
 
 La vista - añadir datos *raster* y vectorial
@@ -132,7 +132,7 @@ Añadiendo capas a partir de ficheros
 #. Haga clic en el botón [OK] para volver al diálogo **Add layer**
 #. Haga clic en el botón [OK] para volver a la vista
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_006_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_006_.png
    :scale: 55
 
 La vista - navegación básica
@@ -147,7 +147,7 @@ Preparando la vista
 #. En caso de que la capa raster esté sobre las capas vectoriales
    será necesario desplazarla manualmente debajo de las demás.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_008_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_008_.png
    :scale: 55
 
 Zoom a una zona determinada
@@ -161,7 +161,7 @@ Zoom a una zona determinada
    esquina inferior derecha del rectángulo sobre la zona seleccionada. Suelte
    el botón izquierdo del ratón una vez ha dibujado el rectángulo deseado.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_009_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_009_.png
    :scale: 55
 
 La vista - cambiando la apariencia de las capas
@@ -176,7 +176,7 @@ Hacer un polígono transparente
 #. Seleccione la opción *Properties*
 #. El diálogo de propiedades de capa (**Layer properties**) aparecerá
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_010_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_010_.png
    :scale: 55
 
 Cambiando la simbología de una capa vectorial
@@ -198,7 +198,7 @@ Eliminando el relleno y cambiando el color del borde
 #. Haga clic en el botón [OK] para volver a la ventana de propiedades
    de la capa
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_012_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_012_.png
    :scale: 55
 
 Cambiando el etiquetado de una capa vectorial
@@ -209,7 +209,7 @@ Cambiando el etiquetado de una capa vectorial
 #. Cambie los atributos de texto a los mostrados en la figura siguiente,
    después haga clic en el botón [Accept].
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_013_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_013_.png
    :scale: 55
 
 El resultado
@@ -221,7 +221,7 @@ Es igual de sencillo cargar una fotografía aérea o un Modelo Digital del
 Terreno como fondo bajo sus datos vectoriales, o mostrar datos vectoriales
 almacenados en otros formatos diferentes.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_014_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_014_.png
    :scale: 55
 
 Ejercicio propuesto - cambiar la simbología y etiquetado de las otras capas
@@ -231,7 +231,7 @@ Siguiendo los pasos mencionados anteriormente, cambie los símbolos, colores y
 etiquetado de ríos y poblaciones para, aproximadamente, conseguir una simbología
 similar a la de la siguiente figura.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_015_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_015_.png
    :scale: 55
 
 Añadiendo un localizador (overview)
@@ -242,7 +242,7 @@ Abriendo el configurador del localizador
 
 #. Seleccione :menuselection:`View --> Locator setup`.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_016_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_016_.png
    :scale: 55
 
 Añadiendo una capa al localizador
@@ -254,7 +254,7 @@ Añadiendo una capa al localizador
 #. Haga clic en el botón :guilabel:`Open` para volver a la ventana de añadir capa.
 #. Haga clic en el botón :guilabel:`Ok` y cierre el configurador del localizador.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_017_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_017_.png
    :scale: 55
 
 El resultado
@@ -263,7 +263,7 @@ El resultado
 Ahora podemos ver fácilmente en qué parte del mundo se encuentra localizada
 nuestra vista.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_018_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_018_.png
    :scale: 55
 
 Análisis básico - seleccionar los municipios de una región
@@ -280,7 +280,7 @@ Seleccionando la región
    polígono se mostrará en amarillo o tal vez en algún otro color
    dependiendo de las preferencias de usuario de su instalación
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_019_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_019_.png
    :scale: 55
 
 Abriendo la herramienta de Selección por capa
@@ -291,7 +291,7 @@ Abriendo la herramienta de Selección por capa
 #. Seleccione ``View > Selection > Selection by layer`` para abrir el
    diálogo **Selection by layer**
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_020_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_020_.png
    :scale: 55
 
 Seleccionando los municipios contenidos en una región
@@ -305,7 +305,7 @@ Seleccionando los municipios contenidos en una región
 #. Seleccione el botón [Cancel] en el diálogo **Selection by Layer** para
    volver a la vista
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_021_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_021_.png
    :scale: 55
 
 Deseleccionar el polígono para ver qué ha ocurrido
@@ -318,7 +318,7 @@ Deseleccionar el polígono para ver qué ha ocurrido
 #. Ahora puede ver que únicamente se han seleccionado los municipios que
    están en New South Wales
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_022_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_022_.png
    :scale: 55
 
 Exportar elementos seleccionados a un *shapefile* nuevo
@@ -333,7 +333,7 @@ Seleccionando el formato de fichero de salida
    comenzar la exportación
 #. Seleccione *Shape format*
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_023_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_023_.png
    :scale: 55
 
 Seleccionando el nombre del fichero de salida
@@ -342,7 +342,7 @@ Seleccionando el nombre del fichero de salida
 #. Elija una carpeta e introduzca un nombre para el fichero de salida
 #. Haga click en el botón *Open* y luego en *Next*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_024_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_024_.png
    :scale: 55
 
 Opciones de exportación
@@ -352,7 +352,7 @@ Opciones de exportación
    del estate de New South Wales
 #. Haga clic en *Export*
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_025_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_025_.png
    :scale: 55
 
 El resultado
@@ -363,7 +363,7 @@ El resultado
    la capa original desactivándola. Solo deberían mostrarse los municipios del estado
    de New South Wales.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_026_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_026_.png
    :scale: 55
 
 Cómo crear un mapa
@@ -381,7 +381,7 @@ Crear un mapa y abrirlo
 #. Seleccione el botón de 'Maximizar ventana' para que el mapa ocupe
    toda la pantalla
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_027_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_027_.png
    :scale: 55
 
 Insertar una vista dentro del mapa
@@ -395,7 +395,7 @@ Insertar una vista dentro del mapa
 #. Seleccione la vista creada anteriormente
 #. Seleccione el botón [Accept] para salir y volver a su mapa
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_028_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_028_.png
    :scale: 55
 
 ¿Qué más puedo hacer en un mapa?
@@ -408,7 +408,7 @@ Insertar una vista dentro del mapa
    trabajos posteriores
 #. Seleccione el icono de 'Cerrar Ventana' para volver al gestor de proyectos
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_029_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_029_.png
    :scale: 55
 
 Guardando su proyecto y saliendo de gvSIG
@@ -419,7 +419,7 @@ Guardando su proyecto y saliendo de gvSIG
 #. Pueden ser cerrados o salir de los mismos usando la opción de
    menú ``File > Exit``.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_030_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_030_.png
    :scale: 55
 
 Intalar un complemento
@@ -433,7 +433,7 @@ Abriendo el administrador de complementos
 #. Elija el repositorio que se indica en la imagen.
 #. Haga clic en el botón *Next*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_031_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_031_.png
    :scale: 55
 
 Encontrar el complemento deseado
@@ -443,7 +443,7 @@ Encontrar el complemento deseado
 #. Seleccione el complemento *Formats: OpenStreetMap raster tiles support*.
 #. Haga clic en *Next*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_032_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_032_.png
    :scale: 55
 
 Finalizando la instalación
@@ -453,7 +453,7 @@ Finalizando la instalación
 #. Luego haga clic en *Next*.
 #. Finalmente haga clic en *Finish*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_033_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_033_.png
    :scale: 55
 
 Probando el nuevo complemento: añadiendo una capa OpenStreetMap
@@ -468,7 +468,7 @@ complemento, es necesario reiniciar gvSIG.
 #. Seleccione una de las capas disponibles.
 #. Haga clic en *Ok*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_036_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_036_.png
    :scale: 55
 
 El resultado
@@ -477,9 +477,9 @@ El resultado
 Una capa ha sido añadida a la vista. Haciendo zoom sobre ella podremos ver con detalle
 los datos de Open Street Map.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_037_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_037_.png
    :scale: 55
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_038_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_038_.png
    :scale: 55
 
 Cargando una capa WMTS
@@ -496,7 +496,7 @@ Seleccionando un servidor
 #. Haga clic en *Connect*.
 #. Haga clic en *Next*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_039_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_039_.png
    :scale: 55
 
 Seleccionando una de las copas disponibles
@@ -506,7 +506,7 @@ Seleccionando una de las copas disponibles
 #. Haga clic en *Add*.
 #. Haga clic en *Next*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_040_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_040_.png
    :scale: 55
 
 Seleccionado el formato de imagen y el sistema de referencia
@@ -517,7 +517,7 @@ Seleccionado el formato de imagen y el sistema de referencia
    el mismo; si no lo es debe cancelar, cambiarlo y volver a empezar).
 #. Haga clic en *Accept*.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_041_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_041_.png
    :scale: 55
 
 El resultado
@@ -525,7 +525,7 @@ El resultado
 
 Una nueva capa ha sido añadida a la vista.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_042_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_042_.png
    :scale: 55
 
 A partir de aquí...

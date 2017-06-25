@@ -4,8 +4,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
-  :scale: 70 %
+.. image:: /images/project_logos/logo-Mapbender3.png
+  :scale: 100 %
   :alt: project logo
   :align: right
 
@@ -28,17 +28,14 @@ Dieser Quickstart beschreibt, wie Sie:
 
 Eine Mapbender Anwendung kann wie folgt aussehen:
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-     :scale: 70 %
-
-
-.. contents:: Contents
+  .. image:: /images/screenshots/800x600/mapbender3_basic_application.png
+     :scale: 80
 
 
 Installation
 ================================================================================
 
-Hinweise zur Installation von Mapbender finden Sie unter https://doc.mapbender3.org/de/book/installation.html.
+Hinweise zur Installation von Mapbender finden Sie unter https://doc.mapbender3.org/en/book/installation.html.
 
 Starten Sie Mapbender
 ================================================================================
@@ -54,15 +51,15 @@ Starten Sie Mapbender im Entwicklungsmodus über app_dev.php
 ==============================================================
 Symfony bietet einen Entwicklungsmodus mit einer Reihe von Informationen über die Anwendung an (Logging, Fehlermeldungen, Datenbankabfragen, Speicherverbrauch, Zeit und mehr). Dieser Modus ist nur über localhost verfügbar.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_app_dev.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_app_dev.png
+     :scale: 80
 
 #. Start des Entwicklungsmodus: http://localhost/mapbender3/app_dev.php
 
 #. Schauen Sie sich an, welche Information im Entwicklungsmodus angezeigt werden.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_symfony_profiler.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_symfony_profiler.png
+     :scale: 80
 
 
 Die Willkommensseite
@@ -78,8 +75,8 @@ Die Willkommensseite
 
 #. Sie können sich mit dem Benutzer anmelden, der während der Installation erzeugt wurde. Er kann :guilabel:`root` heißen mit dem Kennwort :guilabel:`root` (Dies ist der Standardbenutzer/Kennwort nach der Installation von Mapbender auf der OSGeo-Live. Bitte ändern Sie das Kennwort, wenn Sie eine Produktivumgebung betreiben. Löschen Sie den Benutzer :guilabel:`root` nicht.).
   
-  .. image:: ../../images/screenshots/800x600/mapbender3_welcome.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_welcome.png
+     :scale: 80
 
 Nach erfolgreicher Anmeldung werden Sie zur :guilabel:`Mapbender Administration` weiter geleitet.
 
@@ -101,8 +98,8 @@ Die Anwendungsübersicht bietet folgende Funktionen:
  * mit dem Filtertextfeld kann nach Anwendungen gesucht werden
 
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_overview.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_overview.png
+     :scale: 80
 
 
 Erstellen Sie eine eigene Anwendung
@@ -126,8 +123,8 @@ Erstellen Sie eine neue Anwendung, indem Sie einige grundlegende Informationen e
 
 #. Ihre Anwendung wurde erstellt. Jetzt brauchen Sie Elemente (z.B. ein Kartenelement, Navigation, Legende) und Kartendienste.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_create_application.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_create_application.png
+     :scale: 80
 
 .. tip:: Beachten Sie, dass derzeit die Layout-, Icon- und Farbanpassungen in css- und twig-Dateien erfolgen. Lesen Sie dazu die Dokumentation unter https://doc.mapbender3.org/en/book/templates.html
 
@@ -146,13 +143,13 @@ Exportieren und Importieren von Anwendungen und Daten
 ================================================================================
 Sie können eine Anwendung als  JSON oder YAML über :menuselection:`Applications --> Export` exportieren. Für den Export können ein oder mehrere Anwendungen ausgewählt werden. Die Datenquellen können ebenfalls beim Export ausgegeben werden.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_export.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_export.png
+     :scale: 80
 
 Die Export-Datei beinhaltet alle Definitionen, die zum Aufbau der Anwendung (Datenquellen) erforderlich sind. Die Export-Datei kann über :menuselection:`Applications --> Import` in andere Mapbender3 Installationen oder in die gleiche Installation geladen werden.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_import.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_import.png
+     :scale: 80
 
 .. raw:: pdf
 
@@ -193,8 +190,8 @@ Ein WMS liefert ein XML, wenn das getCapabilities-Dokument angefordert wird. Die
 
 #. Nach erfolgreicher Registrierung des Dienstes zeigt Mapbender eine Übersicht der Informationen an, die der Dienst geliefert hat.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_wms_load.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_wms_load.png
+     :scale: 80
 
 
 Hier sind einige Beispiel WMS:
@@ -222,8 +219,8 @@ Nach dem erfolgreichen Hochladen eines WMS möchten Sie diesen zu einer Anwendun
 
 #. Sie können die Reihenfolge der Dienste in Ihrer Anwendung über  drag & drop ändern.
 	
-  .. image:: ../../images/screenshots/800x600/mapbender3_add_source_to_application.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_add_source_to_application.png
+     :scale: 80
 
 Konfiguration von Diensten
 ================================================================================
@@ -235,8 +232,8 @@ Sie können Dienste für Ihre Anwendung konfigurieren. Vielleicht möchten Sie n
 
 #. Sie können die Reihenfolge der Layer über drag & drop ändern.
 
-.. image:: ../../images/screenshots/800x600/mapbender3_wms_application_settings.png
-  :scale: 70 %
+.. image:: /images/screenshots/800x600/mapbender3_wms_application_settings.png
+  :scale: 80
 
 Servicekonfiguration
 
@@ -272,8 +269,8 @@ Fügen Sie Elemente zu Ihrer Anwendung hinzu
 =================================================
 Mapbender bietet eine Reihe von Elementen (Modulen) an. Ihre Anwendung verfügt wiederum über verschiedene Bereiche (Toolbar, Sidepane, Content, Footer), die Sie mit Elementen bestücken können.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_add_element.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_add_element.png
+     :scale: 80
 
 #. Wählen Sie :menuselection:`Applications --> edit-Button --> Layers --> +-Button`, um eine Übersicht über die Mapbender3-Elemente zu erhalten.
 
@@ -287,10 +284,12 @@ Mapbender bietet eine Reihe von Elementen (Modulen) an. Ihre Anwendung verfügt 
 
 #. Schauen Sie sich Ihre Anwendung an. Öffnen Sie Ihre Anwendung über :menuselection:`Applications --> Applications Overview`
 
-Sie sollten einen EInblick bekommen, wie einfach es ist die Mapbender Anwendung anzupassen, ohne den Quellcode anpassen zu müssen. 
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_elements.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_elements.png
+     :scale: 80
+
+.. NOCH NICHT IMPLEMENTIERT 
+Wenn Sie ein Element z.B. **map** auswählen, sehen Sie lediglich die Optionen für dieses Element und können es entsprechend konfigurieren.
 
 Beispiele für Elemente, die Mapbender3 anbietet:
 
@@ -359,8 +358,9 @@ Benutzer anlegen
 
 #. Weitere Angaben zum Benutzer können im Reiter :menuselection:`Profil` erfolgen.
 
-.. image:: ../../images/screenshots/800x600/mapbender3_create_user.png
-     :scale: 70 % 
+.. image:: /images/screenshots/800x600/mapbender3_create_user.png
+     :scale: 80 
+
 
 
 Gruppen anlegen
@@ -381,8 +381,8 @@ Benutzer einer Gruppe zuweisen
 
 #. Weisen Sie einen Benutzer über :menuselection:`Users --> Edit-Button--> Groups` einer Gruppe zu.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_assign_user_to_group.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_assign_user_to_group.png
+     :scale: 80
  
 
 Rechte
@@ -398,8 +398,8 @@ Mapbender3 bietet verschiedene Rechte an, die Sie vergeben können. Diese beruhe
 
 #. Weisen Sie einem Benutzer über :menuselection:`Users --> Edit your User --> Security` Rechte zu.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_roles.png
-     :scale: 70 % 
+  .. image:: /images/screenshots/800x600/mapbender3_roles.png
+     :scale: 80 
 
 
 Zuweisen einer Anwendung zu einem Benutzer/einer Gruppe
@@ -418,8 +418,8 @@ Zuweisen einer Anwendung zu einem Benutzer/einer Gruppe
 
 #. Melden Sie sich unter der neuen Benutzerbezeichnung an
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_security.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_security.png
+     :scale: 80
 
 
 Weitere Aufgaben

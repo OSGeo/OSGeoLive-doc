@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
@@ -15,7 +15,7 @@ Map Proxy
 网络地图服务及切片代理程序
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -29,7 +29,7 @@ Map Proxy
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/800x600/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

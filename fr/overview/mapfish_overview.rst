@@ -5,12 +5,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapfish.png
+.. image:: /images/project_logos/logo-mapfish.png
   :alt: Logo du projet
   :align: right
   :target: http://www.mapfish.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Projet OSGeo
   :align: right
@@ -37,7 +37,7 @@ environnement JavaScript de test et des outils pour compresser le code
 JavaScript. La boîte à outils Javascript est composée des bibliothèques `ExtJS 
 <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`  et `GeoExt <http://www.geoext.org>`_.
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
+.. image:: /images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: Capture d'écran de Mapfish
   :align: right

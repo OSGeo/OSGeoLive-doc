@@ -3,7 +3,7 @@
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: Логотип проекта
   :align: right
   :target: http://liblas.org/
@@ -19,7 +19,7 @@ libLAS — это C/C++ библиотека для чтения и запис�
 для хранения данных, поступающих от сенсоров LiDAR и программ, работающих с 
 LiDAR, а также обмена ими.
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: Сбор данных LiDAR
   :align: right
   :scale: 80 %

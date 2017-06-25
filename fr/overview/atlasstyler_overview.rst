@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-AtlasStyler.png
+.. image:: /images/project_logos/logo-AtlasStyler.png
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler
@@ -30,7 +30,7 @@ ont accès à une base de données de symboles en ligne. Les utilisateurs peuven
 créer et enregistrer des symboles dans l'éditeur de symboles et les réutiliser 
 dans d'autres classifications ou dans d'autres projets.
 
-.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: Capture d'écran AtlasStyler
   :align: right

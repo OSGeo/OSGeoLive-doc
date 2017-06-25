@@ -5,12 +5,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :alt: logo del projecte
   :align: right
   :target: http://gdal.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Projecte OSGeo
   :align: right
@@ -33,7 +33,7 @@ GDAL/OGR és la llibreria d'accés a dades geoespacials d'ús més comú.
 Per a moltes aplicacions és el motor principal d'accés a dades, incloent MapServer, GRASS, QGIS, i OpenEV.
 Altres aplicacions com: OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide i ArcGIS també la utilitzen.
 
-.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supports many geodata formats
   :align: right

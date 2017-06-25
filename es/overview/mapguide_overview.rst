@@ -4,12 +4,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -38,7 +38,7 @@ Apache como IIS, y puede ser extensible con PHP, .NET, Java, y JavaScript APIs
 para desarrollar aplicaciones personalizadas. La licencia de MapGuide Open
 Source es LGPL.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

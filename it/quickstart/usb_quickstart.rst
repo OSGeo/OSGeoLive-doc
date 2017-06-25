@@ -39,13 +39,13 @@ Scaricate osgeo-live o osgeo-live-mini nell'hard disk del vostro computer.
 
 Inserire il dispositivo USB nel vostro computer.
 
-  .. image:: ../../images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Selezionare :menuselection:`System Tools --> Startup Disk Creator`, o
 cercate `Startup Disk Creator` dal desktop di Unity.
 
-  .. image:: ../../images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Selezionare l'immagine ISO di osgeo-live o osgeo-live-mini che avete scaricato precedentemente.
@@ -56,7 +56,7 @@ Per attivare questa opzione dovrete avere un penna USB da almeno 8GB.
 
 Selezionare :guilabel:`Make Startup Disk`
 
-  .. image:: ../../images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Aspettare circa 20 minuti per la creazione del dispositivo USB.
@@ -68,11 +68,11 @@ Inserire il dispositivo USB nel vostro computer.
 
 Scaricare ed eseguire Universal USB Installer da: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_licence.png
+  .. image:: /images/screenshots/1024x768/usb_penlinux_licence.png
 
 Accettare i termini della licenza.
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_selection.png
+  .. image:: /images/screenshots/1024x768/usb_penlinux_selection.png
 
 Step 1: Distribuzione: Selezionare la distribuzione xubuntu i386 usata per
 l'immagine osgeo-live. (per OSGeo-Live 5.5, selezionare xubuntu 11.04 Desktop i386)
@@ -87,7 +87,7 @@ Step 4: Selezionare "Persistence" se volete ricordare lo stato tra le sessioni.
 
 Selezionare :guilabel:`Create`
 
-  .. image:: ../../images/screenshots/1024x768/usb_penlinux_installing.png
+  .. image:: /images/screenshots/1024x768/usb_penlinux_installing.png
 
 Aspettare circa 20 minuti per la creazione del dispositivo USB.
 
@@ -104,7 +104,7 @@ Step 4: Selezionare il file ISO di OSGeo-Live.
 
 Selezionare :guilabel:`OK`
 
-  .. image:: ../../images/screenshots/1024x768/unetbootin_live_osgeo.png
+  .. image:: /images/screenshots/1024x768/unetbootin_live_osgeo.png
 
 Impostart l'ordine di boot del BIOS:
 --------------------------------------------------------------------------------

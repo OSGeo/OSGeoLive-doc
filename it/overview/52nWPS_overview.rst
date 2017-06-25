@@ -3,7 +3,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/wps
@@ -21,7 +21,7 @@ Sextante, ArcGIS Server, R, GRASS 7, o funzioni personalizzate. Gli algoriti pos
 essere semplici come determinare la differenza in casi di influenza tra due diverse 
 stagioni, o complicato come una modello di cambiamento climatico.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right

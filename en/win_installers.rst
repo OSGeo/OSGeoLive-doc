@@ -30,10 +30,10 @@ vcredist_x86.exe is the  Runtime from Microsoft, it is required for many of the 
 * http://download.osgeo.org/livedvd/data/mapwindow/MapWindowx86Full-v48Final-installer.exe
 * http://download.osgeo.org/gvsig/gvsig-desktop/dists/2.0.0/builds/2066/gvSIG-desktop-2.0.0-2066-final-win-x86-standard.exe
 
-   .. toctree::
+..   .. toctree::
      :maxdepth: 1
      :hidden:
      :glob:
 
-     ../WindowsInstallers/index
+..     ../WindowsInstallers/index
 

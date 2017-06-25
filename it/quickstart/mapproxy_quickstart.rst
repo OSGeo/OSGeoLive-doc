@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
@@ -15,7 +15,7 @@ MapProxy è *il* coltello svizzero per tutti i servizi WMS e tile.
 Può fare caches, accelerare e transformare i dati da un esistente servizio e servire 
 ogni client GIS desktop or web.
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
@@ -49,7 +49,7 @@ La URL del servizio è: `<http://localhost:8011/service?>`_
 L'esempio di configurazione di MapProxy contiene alcuni layer che usano diversi motori di mappe
 e diversi dati. Leggete sotto per maggiori dettagli a riguardo di ogni layer. 
 
-.. figure:: ../../images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/800x600/mapproxy_udig.png
   :alt: MapProxy example in uDig
   :align: center
   

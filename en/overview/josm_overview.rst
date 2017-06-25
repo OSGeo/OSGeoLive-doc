@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-josm.png
+.. image:: /images/project_logos/logo-josm.png
   :alt: project logo
   :align: right
   :target: http://josm.openstreetmap.de
@@ -22,7 +22,7 @@ GPX tracks, are usually downloaded in advance from a GPS receiver or from other 
 
 A number of specialised plugins have been written for JOSM, which are available for download and install.
 
-.. image:: ../../images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right

@@ -4,7 +4,7 @@
 
 .. _52nWPS-quickstart-el:
  
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -26,7 +26,7 @@
   χρησιμοποιούν δεδομένα από την τοπική εγκατάσταση.
 
 
-.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+.. image:: /images/screenshots/800x600/52nWPS_test_client.png
   :scale: 70 %
   :alt: screenshot
   
@@ -34,7 +34,7 @@
 * Πατήστε το Send-Button και το 52°North WPS το οποίο θα
   δημιουργήσει μία αναπαράσταση σε μορφή xml ενός buffer πλάτους 20 γύρω από τους παιδότοπους.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+.. image:: /images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
   :scale: 70 %
   :alt: screenshot
 

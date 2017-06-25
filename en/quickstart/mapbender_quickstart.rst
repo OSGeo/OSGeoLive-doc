@@ -4,8 +4,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
-  :scale: 70 %
+.. image:: /images/project_logos/logo-Mapbender3.png
+  :scale: 100 %
   :alt: project logo
   :align: right
 
@@ -28,11 +28,8 @@ This Quick Start describes how to:
 
 This is how a Mapbender application can look like:
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
-     :scale: 70 %
-
-
-.. contents:: Contents
+  .. image:: /images/screenshots/800x600/mapbender3_basic_application.png
+     :scale: 80
 
 
 Installation
@@ -54,15 +51,15 @@ Start Mapbender in the developer mode app_dev.php
 ================================================================================
 Symfony offers a developer mode with lot of information about your application (logging, exceptions, database queries, memory usage, time and more). This mode is only available from localhost.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_app_dev.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_app_dev.png
+     :scale: 80
 
 #. Start the developer mode: http://localhost/mapbender3/app_dev.php
 
 #. Have a look at the information that is offered in the developer mode.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_symfony_profiler.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_symfony_profiler.png
+     :scale: 80
 
 
 Welcome page
@@ -78,8 +75,8 @@ Welcome page
 
 #. You can login with the user that was generated on installation. It can be :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender on OSGeo-Live. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root`.).
   
-  .. image:: ../../images/screenshots/800x600/mapbender3_welcome.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_welcome.png
+     :scale: 80
 
 After successful login you are directed to the :guilabel:`Mapbender administration`.
 
@@ -101,8 +98,8 @@ The Application overview provides the following functionality:
  * with the filter textfield you can search for applications
 
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_overview.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_overview.png
+     :scale: 80
 
 
 Create an individual application
@@ -126,8 +123,8 @@ Create a new application by providing basic information about your application. 
 
 #. your application is set up. Now you need a WMS to be displayed in your application. This will be described in the section **WMS Management**.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_create_application.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_create_application.png
+     :scale: 80
 
 .. tip:: Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender3.org/en/book/templates.html
 
@@ -144,15 +141,16 @@ You can delete an application from the menu item :menuselection:`Applications` w
 
 Export / Import applications and sources
 ================================================================================
-You can export applications as JSON or YAML with :menuselection:`Applications --> Export. You can chose one or more applications to export and you can also export the sources which are published in the applications.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_export.png
-     :scale: 70 %
+You can export applications as JSON or YAML with :menuselection:`Applications --> Export`. You can chose one or more applications to export and you can also export the sources which are published in the applications.
+
+  .. image:: /images/screenshots/800x600/mapbender3_application_export.png
+     :scale: 80
 
 The exportfile contains all the definitions of the application/s (sources) and can be imported via :menuselection:`Applications --> Import` in another Mapbender3 installation or in the same installation. 
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_import.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_import.png
+     :scale: 80
 
 
 Management of Data Sources
@@ -190,8 +188,8 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 
 #. After successfull registration of the service Mapbender will display an overview on the information that was provided by the service.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_wms_load.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_wms_load.png
+     :scale: 80
 
 
 Here are some example WMS:
@@ -219,8 +217,8 @@ After the successfull upload of a WMS you want to add your WMS to an application
 
 #. You can change the order of the Services in your application by drag & drop.
 	
-  .. image:: ../../images/screenshots/800x600/mapbender3_add_source_to_application.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_add_source_to_application.png
+     :scale: 80
 
 Configure your WMS
 ================================================================================
@@ -232,8 +230,8 @@ You can configure the WMS for your specific application. Maybe you don't want to
 
 #. You can change the order of the layers via drag & drop
 
-.. image:: ../../images/screenshots/800x600/mapbender3_wms_application_settings.png
-  :scale: 70 %
+.. image:: /images/screenshots/800x600/mapbender3_wms_application_settings.png
+  :scale: 80
 
 Service configuration
 
@@ -269,8 +267,8 @@ Add Elements to your application
 ================================================================================
 Mapbender offers a set of elements. You can add the elements to your application. You have different regions (Toolbar, Sidepane, Content, Footer) to which you can add elements.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_add_element.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_add_element.png
+     :scale: 80
 
 #. Choose :menuselection:`Applications --> edit-Button --> Layers --> Button +` to get an overview over the elements Mapbender3 provides.
 
@@ -286,8 +284,8 @@ Mapbender offers a set of elements. You can add the elements to your application
 
 Now you should get an idea how easy it is to change a Mapbender application without changes in the code. 
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_elements.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_application_elements.png
+     :scale: 80
 
 Examples for elements Mapbender3 offers:
 
@@ -355,8 +353,8 @@ Create a user
 
 #. You can provide more information about the user in the tab :menuselection:`Profile`.
 
-.. image:: ../../images/screenshots/800x600/mapbender3_create_user.png
-     :scale: 70 % 
+.. image:: /images/screenshots/800x600/mapbender3_create_user.png
+     :scale: 80 
 
 
 Create a group
@@ -377,8 +375,8 @@ Assign users to group
 
 #. Assign a user by :menuselection:`Users --> Edit-Button--> Groups` to a group. 
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_assign_user_to_group.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_assign_user_to_group.png
+     :scale: 80
  
 
 Roles
@@ -394,8 +392,8 @@ Mapbender3 provides different rights. They refer to the Symfony ACL System http:
 
 #. Assign roles to a user by :menuselection:`Users --> Edit your User --> Security`.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_roles.png
-     :scale: 70 % 
+  .. image:: /images/screenshots/800x600/mapbender3_roles.png
+     :scale: 80 
 
 
 Assign an Application to a User/Group
@@ -414,8 +412,8 @@ Assign an Application to a User/Group
 
 #. Login as the new user
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_security.png
-     :scale: 70 %
+  .. image:: /images/screenshots/800x600/mapbender3_security.png
+     :scale: 80
 
 
 Things to try

@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org
@@ -20,7 +20,7 @@ R για Χωρικά Δεδομένα
 
 Το περιβάλλον R είναι μια υλοποίηση της γλώσσας προγραμματισμού S και υπάρχει σημαντική συμβατότητα του R με την S και την S-Plus καθώς και με νέες εμπορικές υλοποιήσεις της όπως S, TIBCO Spotfire S+. Αυτή η συμβατότητα μας επιτρέπει να μετατρέψουμε διάφορες εκδόσεις της S σε R χωρίς μεγάλες διαφοροποιήσεις στον κώδικα.  
 
-.. image:: ../../images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right

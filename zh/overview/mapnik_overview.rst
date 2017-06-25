@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :alt: project logo
   :align: right
   :target: http://mapnik.org/
@@ -19,7 +19,7 @@ Mapnik
 
 　　Mapnik 通常被嵌入在 Python 应用程序中，用于在网络上发布地图。最近 Mapnik 被扩展，也用来绘制高分辨率的纸质地图。
 
-.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: /images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

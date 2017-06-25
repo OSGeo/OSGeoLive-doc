@@ -4,7 +4,7 @@
 :Version: osgeo-live 6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/jts_project.png
+.. image:: /images/project_logos/jts_project.png
   :alt: project logo
   :align: right
   :target: https://sourceforge.net/projects/jts-topo-suite/
@@ -18,7 +18,7 @@ algorithms for processing linear geometry on the 2-dimensional Cartesian plane.
 
 JTS is written in 100% pure Java and is fast enough production use.
 
-.. image:: ../../images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/800x600/jts-overview.jpg
   :scale: 60 %
   :alt: JTS Topology Suite implementation of Simple Feature for SQL Geometry
   :align: right

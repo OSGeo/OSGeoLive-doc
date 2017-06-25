@@ -4,14 +4,14 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
   :align: right
@@ -30,7 +30,7 @@ Geomajas
 
 　　关注服务器端的设计思想是 Geomajas 的独特之处。所有的数据处理、表达、过滤、缓存等过程都发生在服务器端安全的环境下，使得 Geomajas 应用非常高效且易于规模化，而客户端保持着小巧的特性。
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

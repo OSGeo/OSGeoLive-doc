@@ -115,7 +115,7 @@ Geospatial Libraries
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - C/C++ Spatial Library 
-* :doc:`metacrs_overview` - Coordinate Reference System Transformations 
+* :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology
 
@@ -128,7 +128,9 @@ Available on Microsoft Windows only:
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS
 
 Available from prior OSGeo-Live releases:
+--------------------------------------------------------------------------------
 
+* :doc:`OGC Standard descriptions <../standards/standards>` - retired after OSGeo-Live 10.5
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0 (to save disk space)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0

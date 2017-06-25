@@ -1,9 +1,10 @@
 :Author: Howard Butler
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live9.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
@@ -19,7 +20,7 @@ libLAS is a C/C++ library for reading and writing the very common `LAS`
 store data from LiDAR sensors and by LiDAR processing software for data
 interchange and archival.
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

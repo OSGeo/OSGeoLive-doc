@@ -2,11 +2,11 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Author: Daniel Nüst (d.nuest@52north.org)
 :Author: Simon Jirka (s.jirka@52north.org)
-:Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer:
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
@@ -23,7 +23,7 @@ supports the interoperable provision of live and archived sensor observation
 data. A sensor could be a water level meter in a stream, a weather station, or
 an air quality monitoring station.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right
@@ -35,9 +35,6 @@ Features
   This provides means for administration and configuration of the service
   instance, as well as sending test requests for SOS operations; appropriate
   sample requests are included.
-* **JavaScript Client**: The SOS contains a JavaScript application for
-  displaying time series data. With its help, time series will be visualized
-  without any additional software.
 * **Helgoland**: The SOS contains the Helgoland application for  the exploration,
   analysis and visualization of sensor web data in various fields of use, e.g.
   hydrology, meteorology, environmental monitoring, traffic management.
@@ -94,6 +91,9 @@ SOS Operations
 * DeleteObservation (extension for SOS 2.0): for deleting an observation.
 * InsertResultTemplate (from 2.0): for inserting a result template.
 * InsertResult (from 2.0): for inserting results.
+* InsertFeatureOfInterest for feature insertion
+* DeleteResultTemplate for the deletion of resultTemplates by identifier
+  or offering/observedProperty pairs
 
 Within these operations the following filter operators are possible where
 applicable:
@@ -122,9 +122,11 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
+**Supported Java Versions:** 7+, (bundle version: 8+)
+
 **Supported DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012
 
-**API Interfaces:** Java
+**API:** Java, HTTP + JSON/XML/SOAP/KVP
 
 **Commercial Support:** http://52north.org/
 
@@ -132,7 +134,7 @@ Details
 
 **Community Website:** http://52north.org/communities/sensorweb/
 
-**Other 52°North projects:** :doc:`WPS <./52nWPS_overview>`
+**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
 
 
 Quickstart

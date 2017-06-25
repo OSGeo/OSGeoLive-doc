@@ -6,7 +6,7 @@
 
 .. _geokettle-overview-pl:
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/
@@ -26,7 +26,7 @@ GeoKettle jest szczególnie użyteczne, kiedy potrzebne jest zautomatyzowanie ko
 
 W grupie narzędzi geoprzestrzennych Geokettle porównywalne jest z  FME, prywatnym narzędziem przestrzennym ETL. GeoKettle jest stabilny, szybki, zgodny ze standardami, z tysiącami funkcji i możliwością czytania/zapisu wielu formatów danych, usług i SZBD. GeoKettle jest używany przez różne organizacje z całego świata, włączając w to agencje rządowe, banki, itp.
 
-.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

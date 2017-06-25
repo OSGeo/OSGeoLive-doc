@@ -3,7 +3,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: Logo du projet
   :align: right
   :target: http://52north.org/wps
@@ -22,7 +22,7 @@ personnalisés. Les algorithmes peuvent être aussi simples que déterminer la
 différence dans les cas de grippe entre deux saisons ou aussi compliqués qu'un 
 modèle du changement climatique mondial.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_test_client.png
+.. image:: /images/screenshots/800x600/52nWPS_test_client.png
   :scale: 50 %
   :alt: Capture d'écran du client de test
   :align: right

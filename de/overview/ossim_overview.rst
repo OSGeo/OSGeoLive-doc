@@ -3,12 +3,12 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.ossim.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -39,7 +39,7 @@ wurden entwickelt - von denen mehrere in dem Softwarepaket enthalten sind.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: Bildschirmfoto
   :align: right

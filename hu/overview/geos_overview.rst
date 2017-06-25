@@ -5,12 +5,12 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GEOS.png
+.. image:: /images/project_logos/logo-GEOS.png
   :alt: projekt logo
   :align: right
   :target: http://geos.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Projekt
   :align: right
