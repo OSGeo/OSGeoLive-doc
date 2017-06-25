@@ -69,7 +69,6 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      download
      sponsors
      sponsors_osgeo
-     presentation
      metrics
      mac_installers
      win_installers
