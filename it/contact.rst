@@ -12,8 +12,7 @@ Supporto della comunità
 
 Per ogni domanda, commento, o per comunicare eventuali problemi, è disponibile la `nostra mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ e
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ offrono archivi con funzioni di ricerca avanzate.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ offrono archivi con funzioni di ricerca avanzate.
 
 Gli utenti IRC possono chiedere assistenza in tempo reale sui canali #osgeolive o #osgeo su Freenode.net.
 

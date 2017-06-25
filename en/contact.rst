@@ -29,8 +29,7 @@ If you have any questions, comments, or run into any problems, please drop us a
 note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Searchable archives of the mailing list are hosted by
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
 assistance.

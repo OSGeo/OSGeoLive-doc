@@ -15,8 +15,7 @@ Si usted tiene alguna pregunta, comentario o le surge algún problema, por favor
 déjenos una nota en nuestra `lista de correo <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ 
 (en inglés preferentemente).
 
-En `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ y en
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_
+En `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_
 existen archivos en los que es posible realizar búsquedas.
 
 Los usuarios de IRC tal vez prefieran entrar en los canales #osgeolive y #osgeo
