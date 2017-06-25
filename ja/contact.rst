@@ -8,8 +8,7 @@ OSGeo-Live の開発は、emailやインターネット・チャット (IRC)  �
 もし何か質問やコメント、または動作で問題があれば `私たちのメーリングリスト <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ にその内容を投稿してください 。
 
 メーリングリストの記事検索は
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ と
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ でホストされています。
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ でホストされています。
 
 IRCユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネル でのリアルタイムによる支援をお試しください。
 
