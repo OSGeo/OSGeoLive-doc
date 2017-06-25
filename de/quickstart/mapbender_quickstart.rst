@@ -4,6 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
+
 .. image:: /images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
@@ -14,21 +15,6 @@ Mapbender3 Quickstart
 ********************************************************************************
 
 Mapbender ist ein web-basiertes Geoportal Framework zum Veröffentlichen, Registrieren, Anzeigen, Navigieren und Überwachen von Diensten, mit der Möglichkeit Dienste gesichert anzubieten.
-
-Administrationsoberflächen ermöglichen es Administratoren Karten- und Datendienste zu verwalten und zu kategorisieren. Über die Administration können einzelnen Benutzern und Gruppen Zugriffe gewährt werden.
-
-Mapbender3 ist die nächste Version in der Mapbender Serie. Es wurde unter Verwendung moderner Webtechnologien komplett neu geschrieben. Die Grundlage bildet Symfony2, die brandneue Version des erfolgreichen Symfony PHP Web Application Framework.
-
-Auf der Clientseite finden Sie OpenLayers und jQuery (UI) verbunden über MapQuery.
-
-Mit dieser neuen Code-Grundlage setzen wir die Mapbender Idee eines Geoportal Frameworks fort.
-  * Anwendungen können direkt im Browser erstellt, konfiguriert und gestylt werden.
-  * Dienste wie WMS können in einem Service Repository verwaltet und mit Anwendungen verbunden werden. 
-  * Das Rechtemanagement ist sowohl für einzelne Benutzer als auch Gruppen einfach zu verwalten, egal ob sie in einer Datenbank oder über LDAP gespeichert werden.
-  * Suchen (SQL oder Solr) können konfiguriert werden.
-  * Anwendungen zur Digitalisierung können aufgebaut werden
-  * Ein Mobiles Template kann für das Erstellen von Anwendung für Smartphones und Tablets verwendet werden
-
 
 Sie brauchen nichts weiter als einen Standard Webbrowser für diesen Schnellstart.
 
@@ -50,13 +36,12 @@ Eine Mapbender Anwendung kann wie folgt aussehen:
 Installation
 ================================================================================
 
-Hinweise zur Installation von Mapbender finden Sie unter http://doc.mapbender3.org/en/book/installation.html.
+Hinweise zur Installation von Mapbender finden Sie unter https://doc.mapbender3.org/en/book/installation.html.
 
 Starten Sie Mapbender
 ================================================================================
 
 #. Wählen Sie :menuselection:`Mapbender` aus dem Startmenü oder besuchen Sie http://localhost/mapbender3/app.php
-
 
 #. Die Anwendung braucht eine kurze Zeit, um zu starten.
 
@@ -103,7 +88,6 @@ Nach der Anmeldung werden Sie zur Anwendungsübersicht (:guilabel:`Applications`
 
 Die Anwendungsübersicht bietet folgende Funktionen:
 
-
  * Titel und Beschreibung
  * Vorschaubild zur Anwendung (sofern bereitgestellt)
  * Link zur Anwendung
@@ -143,7 +127,7 @@ Erstellen Sie eine neue Anwendung, indem Sie einige grundlegende Informationen e
   .. image:: /images/screenshots/800x600/mapbender3_create_application.png
      :scale: 80
 
-.. tip:: Beachten Sie, dass derzeit die Layout-, Icon- und Farbanpassungen in css- und twig-Dateien erfolgen. Lesen Sie dazu die Dokumentation unter http://doc.mapbender3.org/en/book/templates.html
+.. tip:: Beachten Sie, dass derzeit die Layout-, Icon- und Farbanpassungen in css- und twig-Dateien erfolgen. Lesen Sie dazu die Dokumentation unter https://doc.mapbender3.org/en/book/templates.html
 
 
 Kopieren und Umbenennen einer Anwendung
@@ -219,11 +203,7 @@ http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=Get
 
 WhereGroup OSM WMS
 
-http://osm-demo.wheregroup.com/service
-
-Omniscale OSM WMS (siehe auch http://osm.omniscale.de/)
-http://osm.omniscale.net/proxy/service?
-
+https://osm-demo.wheregroup.com/service
 
 
 Fügen Sie Dienste zur Anwendung hinzu
@@ -286,7 +266,6 @@ Layerkonfiguration
 * style - wenn ein WMS mehr als einen Stil anbietet, können Sie einen anderen Stil als den default Stil wählen.
 
 
-
 Fügen Sie Elemente zu Ihrer Anwendung hinzu
 =================================================
 Mapbender bietet eine Reihe von Elementen (Modulen) an. Ihre Anwendung verfügt wiederum über verschiedene Bereiche (Toolbar, Sidepane, Content, Footer), die Sie mit Elementen bestücken können.
@@ -342,14 +321,14 @@ Beispiele für Elemente, die Mapbender3 anbietet:
 * WMC Loader
 * WMC List 
 
-Sie finden detaillierte Informationen zu jedem Element unter `MapbenderCoreBundle Element Dokumentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_ , `MapbenderWmcBundle Element Dokumentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ und `MapbenderWmsBundle Element Dokumentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
+Sie finden detaillierte Informationen zu jedem Element unter `MapbenderCoreBundle Element Dokumentation <https://doc.mapbender3.org/de/bundles/Mapbender/CoreBundle/index.html>`_ , `MapbenderWmcBundle Element Dokumentation <https://doc.mapbender3.org/de/bundles/Mapbender/WmcBundle/index.html>`_ und `MapbenderWmsBundle Element Dokumentation <https://doc.mapbender3.org/de/bundles/Mapbender/WmsBundle/index.html>`_.
 
 
 Versuchen Sie es selber
 ================================================================================
 
 * Fügen Sie ein Kartenelement (Map-Element) zum content-Bereich Ihrer Anwendung hinzu.
-* Fügen Sie ein Inhaltsverzeichnis (Layertree) zum content-Bereich Ihrer Anwendung hinzu.
+* Fügen Sie einen Ebenenbaum (Layertree) zum content-Bereich Ihrer Anwendung hinzu.
 * Fügen Sie einen Button in die Toolbar, der den Layertree öffnet.
 * Fügen Sie das Navigationselement (Navigation Toolbar) in den content-Bereich hinzu
 * Fügen Sie ein Copyright-Element hinzu und ändern Sie den Copyright-Text.
@@ -461,24 +440,20 @@ Dies waren nur die ersten Schritte mit Mapbender3. Es gibt viele weitere Funktio
 
 Mapbender Projektseite
 
-  http://mapbender.org
+  https://mapbender.org
 
 Mapbender3 Webseite
 
-  http://mapbender3.org/
+  https://mapbender3.org/
 
 Sie finden Tutorials unter
 
-  http://doc.mapbender3.org
+  https://doc.mapbender3.org
 
 Die API-Dokumentation finden Sie unter
 
-  http://api.mapbender3.org
-
-Mapbender kennenlernen unter
-	
-	http://projects.mapbender.osgeo.org
+  https://api.mapbender3.org
 
 Beteiligen Sie sich
 
-	http://www.mapbender.org/Community
+	https://www.mapbender.org/Community

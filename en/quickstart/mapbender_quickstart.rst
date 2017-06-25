@@ -1,8 +1,9 @@
 :Author: OSGeo-Live
 :Author: Astrid Emde
-:Version: osgeo-live8.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
+
 
 .. image:: /images/project_logos/logo-Mapbender3.png
   :scale: 100 %
@@ -13,23 +14,7 @@
 Mapbender3 Quickstart 
 ********************************************************************************
 
-Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services. 
-
-Management interfaces empower administrators who need to maintain and categorize map and feature services and grant access to individuals, groups and other services. 
-
-Mapbender3 is the next version in the Mapbender series. It is rewritten from the ground up, using modern web technologies. The foundation is laid by Symfony 2, the brand-new version of the successful Symfony PHP web application framework.
-
-On the client-side expect to find OpenLayers and jQuery (UI) nicely glued together by MapQuery.
-
-With this new code base we will continue the Mapbender idea of being a Geoportal Framework:
-  * Applications can be setup, configured and styled right from within the browser
-  * Services like WMS can be managed inside a service repository and linked to applications
-  * Rights management is easy to maintain, for individual users and groups, whether you store them inside the database or in an LDAP.
-  * Search modules (SQL or Solr) can be configured
-  * Applications for digitaliszation can be setup.
-  * Mobile template can be used to provide applications for smartphones and tablets
-
-
+Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
 
 You will need nothing but a standard web browser for this quickstart.
 
@@ -50,14 +35,13 @@ This is how a Mapbender application can look like:
 
 Installation
 ================================================================================
-For the installation of Mapbender3 have a look at http://doc.mapbender3.org/en/book/installation.html.
+For the installation of Mapbender3 have a look at https://doc.mapbender3.org/en/book/installation.html.
 
 
 Start Mapbender
 ================================================================================
 
 #. Choose  :menuselection:`Mapbender` from the start menu or visit http://localhost/mapbender3/app.php
-
 
 #. The application will take a few moments to start up
 
@@ -96,7 +80,6 @@ Welcome page
      :scale: 80
 
 After successful login you are directed to the :guilabel:`Mapbender administration`.
-
 
 
 Application overview
@@ -144,7 +127,7 @@ Create a new application by providing basic information about your application. 
   .. image:: /images/screenshots/800x600/mapbender3_create_application.png
      :scale: 80
 
-.. tip:: Please note, that the style-, icon- and layoutconfiguration has to be done in css- and twig-files at the moment. Read more about template generation at http://doc.mapbender3.org/en/book/templates.html
+.. tip:: Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender3.org/en/book/templates.html
 
 
 Copy or rename an application
@@ -218,11 +201,7 @@ http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=Get
 
 WhereGroup OSM WMS
 
-http://osm-demo.wheregroup.com/service
-
-Omniscale OSM WMS (see also http://osm.omniscale.de/)
-http://osm.omniscale.net/proxy/service?
-
+https://osm-demo.wheregroup.com/service
 
 
 Add Service to Application
@@ -338,7 +317,7 @@ Examples for elements Mapbender3 offers:
 * WMC Loader
 * WMC List 
 
-You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
+You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <https://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <https://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
 
 
 Try it yourself
@@ -455,23 +434,18 @@ This is only the first step on the road to using Mapbender3. There is a lot more
 
 Mapbender Project home
 
-  http://mapbender.org
+  https://mapbender.org
 
 Mapbender3 Webside
 
-  http://mapbender3.org/
+  https://mapbender3.org/
 
 You find tutorials at
 
-  http://doc.mapbender3.org
+  https://doc.mapbender3.org
 
-  http://api.mapbender3.org
-
-
-Get to know Mapbender on 
-	
-	http://projects.mapbender.osgeo.org
+  https://api.mapbender3.org
 
 Get involved in the project
 
-	http://www.mapbender.org/Community
+	https://www.mapbender.org/Community
