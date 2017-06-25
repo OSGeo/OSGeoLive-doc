@@ -43,7 +43,7 @@ For the installation of Mapbender3 have a look at https://doc.mapbender3.org/en/
 Start Mapbender
 ================================================================================
 
-#. Choose  :menuselection:`Mapbender` from the start menu or visit http://localhost/mapbender3/app.php
+#. Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from the start menu or visit http://localhost/mapbender3/app.php
 
 #. The application will take a few moments to start up
 
