@@ -263,7 +263,7 @@ rst_epilog="""
 .. |version-grass| replace:: 7.2.0
 .. |version-iris| replace:: 1.9.2
 .. |version-istsos| replace:: 2.3.1
-.. |version-jupyter| replace:: 4.1
+.. |version-jupyter| replace:: 4.2
 .. |version-kosmo| replace:: 3.1
 .. |version-leaflet| replace:: 1.0.3
 .. |version-liblas| replace:: 1.8.1
