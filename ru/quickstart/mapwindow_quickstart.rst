@@ -68,17 +68,17 @@ MapWindow может отображать различные виды геода
 
 ================================================================================  =================================================================
 ================================================================================  =================================================================
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Увеличить: либо щёлкните в нужную область, либо нарисуйте охватывающий прямоугольник. Увеличение и уменьшение также может быть сделано с помощью колеса прокрутки мыши.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomout.png         Уменьшить.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png  Масштабировать до охвата всех видимых слоёв.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomselected.png    Масштабировать для выбранных объектов целевого слоя.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomprevious.png    Перейти к списку предыдущих видов карты (охватов).
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomnext.png        Перейти к списку последующих видов карты (охватов).
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png       Перейти к охвату целевого слоя.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-pan.png             Щёлкните и перетащите карту.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-select.png          Выбор объектов целевого слоя. Для выбора нескольких объектов удерживайте клавишу Ctrl или нарисуйте охватывающий прямоугольник. См. раздел 4.2 для получения дополнительной информации по выборкам.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-measure.png         Открывает диалог для отображения информации о периметре и площади выбранных объектов из целевого слоя, или объектов, нарисованных при помощи мыши.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-identify.png        Нажмите для просмотра атрибутов объектов целевого слоя.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomin.png                 Увеличить: либо щёлкните в нужную область, либо нарисуйте охватывающий прямоугольник. Увеличение и уменьшение также может быть сделано с помощью колеса прокрутки мыши.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomout.png                Уменьшить.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png         Масштабировать до охвата всех видимых слоёв.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomselected.png           Масштабировать для выбранных объектов целевого слоя.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomprevious.png           Перейти к списку предыдущих видов карты (охватов).
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomnext.png               Перейти к списку последующих видов карты (охватов).
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png              Перейти к охвату целевого слоя.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-pan.png                    Щёлкните и перетащите карту.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-select.png                 Выбор объектов целевого слоя. Для выбора нескольких объектов удерживайте клавишу Ctrl или нарисуйте охватывающий прямоугольник. См. раздел 4.2 для получения дополнительной информации по выборкам.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-measure.png                Открывает диалог для отображения информации о периметре и площади выбранных объектов из целевого слоя, или объектов, нарисованных при помощи мыши.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-identify.png               Нажмите для просмотра атрибутов объектов целевого слоя.
 ================================================================================  =================================================================
 
 ==============================
