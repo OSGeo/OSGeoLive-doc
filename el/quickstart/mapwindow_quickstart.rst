@@ -69,16 +69,16 @@ Files\\MapWindow\\Plugins. Μερικές φορές ένα πρόσθετο ε�
 
 ================================================================================  =================================================================
 ================================================================================  =================================================================
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomin.png          Μεγέθυνση: είτε κάντε κλικ στην περιοχή ενδιαφέροντος είτε σωγαρφίστε ένα περιβάλον ορθογώνιο. Μπορείτε επίσης να χρησιμοποιήσετε το ροδάκι του ποντικιού.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomout.png         Σμίκρυνση.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png  Απεικόνιση του συνόλου της έκτασης όλων των επιπέδων.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomselected.png    Απεικόνιση της έκτασης των επιλεγμένων σχημάτων στο επίπεδο.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomprevious.png    Επιλογή προηγούμενης απεικόνισης.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomnext.png        Επιλογή επόμενης απεικόνισης.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png       Απεικόνιση της έκτασης του ενεργού επιπέδου.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-pan.png             Αλλαγή της απεικονιζόμενης επιφάνειας με κύλιση.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-select.png          Επιλογή σχημάτων από το ενεργό επίπεδο. Χρησιμοποιείστε παράλληλα το πλήκτρο Ctrl για να επιλέξετε περισσότερα του ενός ή σχηματίστε τον περιβάλλον τους ορθογώνιο.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-measure.png         Εμφανίζει ένα [παράθυρο διαλόγου με την περίμετρο και το εμβαδό των σχημάτων που έχουν επιλεγεί ή ζωγραφιστεί με το ποντίκι.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-identify.png        Εμφανίζει τα χαρακτηριστικά των σχημάτων στο επιλεγμένο επίπεδο.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomin.png                 Μεγέθυνση: είτε κάντε κλικ στην περιοχή ενδιαφέροντος είτε σωγαρφίστε ένα περιβάλον ορθογώνιο. Μπορείτε επίσης να χρησιμοποιήσετε το ροδάκι του ποντικιού.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomout.png                Σμίκρυνση.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png         Απεικόνιση του συνόλου της έκτασης όλων των επιπέδων.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomselected.png           Απεικόνιση της έκτασης των επιλεγμένων σχημάτων στο επίπεδο.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomprevious.png           Επιλογή προηγούμενης απεικόνισης.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomnext.png               Επιλογή επόμενης απεικόνισης.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png              Απεικόνιση της έκτασης του ενεργού επιπέδου.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-pan.png                    Αλλαγή της απεικονιζόμενης επιφάνειας με κύλιση.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-select.png                 Επιλογή σχημάτων από το ενεργό επίπεδο. Χρησιμοποιείστε παράλληλα το πλήκτρο Ctrl για να επιλέξετε περισσότερα του ενός ή σχηματίστε τον περιβάλλον τους ορθογώνιο.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-measure.png                Εμφανίζει ένα [παράθυρο διαλόγου με την περίμετρο και το εμβαδό των σχημάτων που έχουν επιλεγεί ή ζωγραφιστεί με το ποντίκι.
+.. image:: /images/screenshots/800x600/mapwindow-toolbar-identify.png               Εμφανίζει τα χαρακτηριστικά των σχημάτων στο επιλεγμένο επίπεδο.
 ================================================================================  =================================================================
 
