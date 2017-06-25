@@ -70,7 +70,6 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      download
      sponsors
      sponsors_osgeo
-     presentation
      metrics
      mac_installers
      win_installers
