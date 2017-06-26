@@ -131,7 +131,7 @@ Available from prior OSGeo-Live releases:
 --------------------------------------------------------------------------------
 
 * :doc:`OGC Standard descriptions <../standards/standards>` - retired after OSGeo-Live 10.5
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0 (to save disk space)
+* :doc:`mapguide_overview` - Web Service, not included after OSGeo-Live 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retired after OSGeo-Live 6.5
