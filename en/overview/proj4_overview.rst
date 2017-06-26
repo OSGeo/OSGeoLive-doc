@@ -28,7 +28,7 @@ Proj4 is written in C++. It is used in :doc:`MapServer <mapserver_overview>`, :d
  
 Proj4 has been translated from C to a number of other languages (See `The group of Proj4 projects (MetaCRS) <http://trac.osgeo.org/metacrs/wiki>`_. Some are also
 available via a command line interface.
-These sub-projects include:
+These tools include:
 * Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - used in MapGuide.
 * GeoTIFF/libgeotiff (C++).
