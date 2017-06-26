@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-cesium.png
+.. image:: /images/project_logos/logo-cesium.png
   :alt: project logo
   :align: right
   :target: http://cesiumjs.org
@@ -18,7 +18,7 @@ Cesium è una  libreria JavaScript per creare globi 3D e mappe 2D in un browser 
 senza nessun plugins. Usa WebGL per l'acceleratore hardware grafico, ed è cross-platform,
 cross-browser, e sviluppato per la visualizzazione di dati dinamici.
 
-.. image:: ../../images/screenshots/1024x768/cesiumjs_3in1.png
+.. image:: /images/screenshots/1024x768/cesiumjs_3in1.png
   :scale: 50 %
   :alt: Cesium example
   :align: right

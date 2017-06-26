@@ -3,7 +3,7 @@
 :Версия: osgeo-live5.0
 :Лицензия: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :scale: 100 %
   :alt: Логотип проекта
   :align: right

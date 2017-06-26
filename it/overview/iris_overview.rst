@@ -4,7 +4,7 @@
 :Translator: Luca Delucchi
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-iris.png
+.. image:: /images/project_logos/logo-iris.png
   :alt: Iris logo
   :align: right
   :target: http://scitools.org.uk/iris/
@@ -23,7 +23,7 @@ di visualizzazione integrate.
 Iris attualmente supporta l'accesso in lettura/scrittura per diversi formati di dati,
 incluso (CF-)netCDF, GRIB, e PP.
 
-.. image:: ../../images/screenshots/800x600/iris.jpg
+.. image:: /images/screenshots/800x600/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

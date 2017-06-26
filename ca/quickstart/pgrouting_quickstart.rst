@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: pgRouting logo
 	:align: right
@@ -22,13 +22,13 @@ Executant pgRouting
 
 * Obri una finestra de terminal :menuselection:`Applications --> Accessories --> Terminal` i estableixi una connexió a la base de dades de ``pgrouting`` :
 
-.. code-block:: bash
+::
 
 	psql -U user pgrouting
 
 * Escrigui :command:`\\d` per mostrar totes les taules disponibles:
 
-.. code-block:: sql
+::
 
 			      List of relations
 	 Schema |        Name         |   Type   |  Owner   
@@ -46,7 +46,7 @@ Executant pgRouting
 
 * Executar la funció de ruta més curta fent ús de l'algorisme de Dijkstra:
 
-.. code-block:: sql
+::
 
 	SELECT * FROM shortest_path('
 			SELECT gid as id, 
@@ -56,7 +56,7 @@ Executant pgRouting
 				FROM ways', 
 			100, 600, false, false); 
 
-.. code-block:: sql
+::
 
 	 vertex_id | edge_id |       cost    	 
 	-----------+---------+---------------------
@@ -70,12 +70,12 @@ Executant pgRouting
 
 * Proveu la següent funció per obtenir el resultat d'enrutament en un format diferent:
 
-.. code-block:: sql
+::
 
 	SELECT gid, AsText(the_geom) AS the_geom 
 		FROM dijkstra_sp('ways', 100, 600);
 	
-.. code-block:: sql
+::
 	
 	  gid   |                              the_geom      
 	--------+---------------------------------------------------------------
@@ -93,7 +93,6 @@ I ara qué?
 ================================================================================
 
 * **Lloc web de pgRouting** - Visiteu el lloc web del projecte http://www.pgrouting.org per aprendre més sobre pgRouting.
-
 * **Taller en DVD** - El taller de pgRouting del FOSS4G 2010 `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoExt"` està inclòs en aquest LiveDVD, i disponible a: :file:`/usr/share/pgrouting/workshop/`
 
 .. note::

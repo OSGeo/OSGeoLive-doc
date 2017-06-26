@@ -6,7 +6,7 @@
 
 .. _gpsdrive-overview-pl:
 
-.. image:: ../../images/project_logos/logo-gpsdrive.png
+.. image:: /images/project_logos/logo-gpsdrive.png
   :alt: project logo
   :align: right
   :target: http://www.gpsdrive.de
@@ -30,7 +30,7 @@ USB, działających na binarnych protokołach porozumiewających się z
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: /images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: screenshot
   :align: right

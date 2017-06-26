@@ -8,7 +8,7 @@
 
 .. _mapbender-quickstart-es:
  
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -52,7 +52,7 @@ Página de Bienvenida
 
 #. Usted puede ingresar con el usuario :guilabel:`root` y la contraseña :guilabel:`root` (estos son los usuarios y contraseña por defecto que usted tendrá una vez instalado Mapbender). Por favor, cambie la contraseña del usuario root si desea ejecutar Mapbender en un ambiente de producción. Por favor, no elimine el usuario :guilabel:`root` ya que este usuario tienen acceso a las plantillas de aplicaciones de Mapbender y es usado para las actualizaciones de versiones.
   
-  .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
+  .. image:: /images/screenshots/800x600/mapbender3_welcome.png
      :scale: 80
 
 Luego de haber ingresado satisfactoriamente será dirigido directamente a la :guilabel:`application overview`.
@@ -65,7 +65,7 @@ Después de ingresar a Mapbender, usted será direccionado a :guilabel:`applicat
 En Mapbender usted tiene aplicaciones de plantillas, que puede utilizar para crear sus propias aplicaciones.
 
 
-  .. image:: ../../images/screenshots/800x600/mapbender_application_overview.png
+  .. image:: /images/screenshots/800x600/mapbender3_application_overview.png
      :scale: 80
 
 Mapbender provee
@@ -96,12 +96,12 @@ Luego de la instalación de Mapbender, el usuario :guilabel:`root` tiene acceso 
 
 La siguiente imagen muestra la interfaz admin2_en. En el lado izquierdo se puede ver el menú con las opciones que esta aplicación ofrece.
 
-.. image:: ../../images/screenshots/800x600/mapbender_admin2_en.png
+.. image:: /images/screenshots/800x600/mapbender_admin2_en.png
    :scale: 80
 
 .. tip:: Para ir "atrás" o "volver" a la vista principal de aplicaciones utilice el botón |HOME| ir a casa.
 
-.. |HOME| image:: ../../images/screenshots/800x600/mapbender_home.png
+.. |HOME| image:: /images/screenshots/800x600/mapbender_home.png
    :scale: 100
 
 Aplicaciones de Mapas
@@ -115,7 +115,7 @@ Las aplicaciones de mapas contienen servicios OGC de tipo WMS, uno o más mapas,
    
    * seleccione por ejemplo de GUI, gui_digitize
      
-   .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
+   .. image:: /images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
 
 .. tip:: Si su navegador *web* soporta pestañas, usted puede abrir las aplicaciones en pestañas y fácilmente desplazarse entre ellas.
@@ -125,7 +125,7 @@ Aplicaciones que contienen WMS
 
 Usted puede crear una aplicación de contenidos que contenga su servicio OGC WMS. Tener el servicio WMS contenido o almacenado en una aplicación Mapbender no implica que sea desplegado de forma automática. Con el concepto de "contenedores" usted puede crear un sofisticado repositorio de servicios *web* de mapas.
 
-.. image:: ../../images/screenshots/800x600/mapbender_container.png
+.. image:: /images/screenshots/800x600/mapbender_container.png
    :scale: 60
 
 Crear una aplicación individual
@@ -189,7 +189,7 @@ Un WMS devuelve un archivo XML cuando se solicita el documento getCapabilities. 
    
    * WhereGroup OSM WMS: http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
  
-.. image::../../images/screenshots/800x600/mapbender_admin2_en.png
+.. image::/images/screenshots/800x600/mapbender_admin2_en.png
   :scale: 80
 
 Usted puede cargar más de un WMS en una aplicación o geoportal. Seleccione *WMS application settings* para cambiar el orden de carga de los WMS o eliminar un WMS de su aplicación. 
@@ -202,7 +202,7 @@ Configurar un WMS
 ================================================================================
 Después de cargar un servicio WMS usted puede configurarlo para su aplicación específica. Tal vez usted no desea servir todas las capas o desea cambiar el orden o títulos de la capa o desactivar la función de "información" o cambiar las escalas de visualización para una capa.
 
-.. image:: ../../images/screenshots/800x600/mapbender_wms_application_settings.png
+.. image:: /images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
 * on/off - activar/desactivar una capa para esta aplicación o geoportal
@@ -264,7 +264,7 @@ Crear un usuario
 #. Seleccione un nombre y una contraseña (name/password) para su usuario. 
 
 
-.. image:: ../../images/screenshots/800x600/mapbender_create_user.png
+.. image:: /images/screenshots/800x600/mapbender_create_user.png
    :scale: 80 
 
 
@@ -291,7 +291,7 @@ Asignar aplicaciones a usuarios/grupos
 
 #. ¿Qué sucede cuando el usuario tiene acceso a una o más de una aplicación?
 
-.. |LOGOUT| image:: ../../images/screenshots/800x600/mapbender_logout.png
+.. |LOGOUT| image:: /images/screenshots/800x600/mapbender_logout.png
    :scale: 100
 
 ********************************************************************************
@@ -327,7 +327,7 @@ Demo WFS
 http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SERVICE=WFS
 
 
-.. image:: ../../images/screenshots/800x600/mapbender_loadWFS.png
+.. image:: /images/screenshots/800x600/mapbender_loadWFS.png
      :scale: 80 
 
 Crear una configuración de tipo de fenómenos
@@ -335,7 +335,7 @@ Crear una configuración de tipo de fenómenos
 
 El siguiente paso es establecer una configuración para un tipo de fenómenos. Después de la configuración y la autorización de acceso a una aplicación, la configuración se puede utilizar en sus aplicaciones.
 
-.. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType.png
+.. image:: /images/screenshots/800x600/mapbender_configure_WFS_featureType.png
      :scale: 80 
 
 **Configuración**
@@ -364,7 +364,7 @@ El siguiente paso es establecer una configuración para un tipo de fenómenos. D
 #. su configuración tendrá un indentificador de configuración o "configuration id"
 
 
-.. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
+.. image:: /images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
      :scale: 80 
 
 Asignar una configuración de tipos de fenómenos a una aplicación
@@ -375,7 +375,7 @@ Su nueva configuración ha de ser asignada a una o mas aplicaciones. Esto se hac
 #. Seleccione una aplicación
 #. Mueva su configuración para el *GUI configuration list* ubicado a la derecha
 
-.. image:: ../../images/screenshots/800x600/mapbender_set_featureType_access.png
+.. image:: /images/screenshots/800x600/mapbender_set_featureType_access.png
      :scale: 80 
 
 
@@ -383,12 +383,12 @@ Establecer una búsqueda en un WFS
 ================================================================================
 Para hacer compatible una configuración de tipos de fenómenos en una aplicación, vaya a *admin_en_services -> Edit application elements* seleccione su aplicación y vaya hasta el elemento *gazetteerWFS*. Seleccione el elemento para editarlo haciendo clic sobre el texto o nombre del elemento, y verá en una nueva ventana que el elemento *gazetteerWFS* tiene una variable *wfsConfIdString*. Aquí usted puede listar los identificadores (ids) de sus servicios WFS (separados por coma). En el orden en que se listen serán desplegados los resultados de las búsquedas en la aplicación.
 
-.. image:: ../../images/screenshots/800x600/mapbender_wfsConfIdString.png
+.. image:: /images/screenshots/800x600/mapbender_wfsConfIdString.png
      :scale: 80 
 
 Eche un vistazo de cómo la búsqueda podría aparecer en una aplicación. En este ejemplo hay un recuadro de búsqueda de la izquierda, donde puede buscarse un "Usuario Mapbender". Usted puede realizar una búsqueda espacial y definir una región para buscar o puede hacer una consulta alfanumérica. Los resultados de la búsqueda se muestran en una tabla de resultados. Al hacer clic en uno de los elementos listados en un resultado, Mapbender hace un acercamiento a la ubicación y la información detallada del objeto es desplegada.
 
-.. image:: ../../images/screenshots/800x600/mapbender_WFS_search.png
+.. image:: /images/screenshots/800x600/mapbender_WFS_search.png
      :scale: 100
 	 
 Establecer funcionalidades de digitalización a un WFS
@@ -400,7 +400,7 @@ La forma más sencilla de disponer de una aplicación que admita la digitalizaci
 
 Ahora usted puede buscar con la búsqueda espacial que está del lado derecho, la existencia de objetos los cuales son mostrados en un recuadro de resultados. Los objetos pueden ser actualizados (mover objeto, agregar punto, modificar los atributos, cortar una línea (split), continuar una línea, fusionar polígonos (merge)...). También puede crear nuevos objetos.
 
-.. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
+.. image:: /images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80 
 
 Cosas por intentar

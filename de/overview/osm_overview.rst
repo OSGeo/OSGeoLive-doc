@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.openstreetmap.org
@@ -27,7 +27,7 @@ Einige Anwendungen wurden ausgewählt: JOSM, Merkaartor, Osmosis, Osm2pgsql sowi
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

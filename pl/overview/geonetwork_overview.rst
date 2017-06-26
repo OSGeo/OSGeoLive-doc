@@ -6,12 +6,12 @@
 
 .. _geonetwork-overview-pl:
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -30,7 +30,7 @@ metadanych oraz narzędzia do przeszukiwania, a także wbudowaną interaktywną
 przeglądarkę map. Aplikacja bazuje na otwartych standardach.
 
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: /images/screenshots/1024x768/geonetwork-overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

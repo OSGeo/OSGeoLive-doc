@@ -5,7 +5,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
@@ -21,7 +21,7 @@ El `format ASPRS LAS`_ és un format binari seqüencial que s'utilitza per emmag
 provinents directament de sensors LiDAR com les que s'han obtingut per processament de dades LiDAR 
 amb programari d'intercanvi de dades.
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

@@ -1,8 +1,10 @@
-:Author: Johannes Wilden, Danilo Bretschneider, Torsten Friebe
-:Version: OSGeo-Live DVD, Version 7.0
+:Author: Johannes Wilden
+:Author: Danilo Bretschneider
+:Author: Torsten Friebe
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :scale: 100 %
   :alt: project logo
   :align: right

@@ -5,7 +5,7 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-MapWindow.png
+.. image:: /images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
   :align: right
   :width: 220
@@ -24,7 +24,7 @@ Map Window GIS
 
 注：Map Window 需要在 Microsoft Windows 操作系统下安装和运行。在 `OSGeo-Live <http://live.osgeo.org>`_ 完整版及 `官方下载页面 <http://mapwindow4.codeplex.com/releases>`_ 可以下载其安装文件。
    
-.. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
+.. image:: /images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right

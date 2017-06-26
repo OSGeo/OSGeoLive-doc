@@ -5,7 +5,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: project logo
   :align: right
   :target: http://www.openjump.org
@@ -20,7 +20,7 @@ OpenJump és un SIG d'escriptori molt potent i fàcil d'usar que permet als usua
 editar, analitzar, combinar, guardar i visualitzar dades geogràfiques. També és una 
 excel·lent plataforma per a l'edició de dades i per a desenvolupar prototips de funcions SIG.
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-cartaro.png
+.. image:: /images/project_logos/logo-cartaro.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -37,14 +37,14 @@
 
 Όταν ανοίγετε το Cartaro βλέπετε την παραπάνω σελίδα η οποία περιέχει έναν χάρτη παράδειγμα με πρωτεύουσες.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
     :scale: 60 %
     :align: center
 
 
 * Επιλέξτε **Log in** στο άνω δεξί άκρο για να αποκτήσετε πρόσβαση στο διαχειριστικό περιβάλλον. Χρησιμοποιείστε*admin* ως όνομα χρήστη και *geoserver* ως συνθηματικό. Τώρα θα δείτε στην κορυφή την μπάρα επιλογών διαχείρισης.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_userpage.png
+.. image:: /images/screenshots/1024x768/cartaro_userpage.png
     :scale: 60 %
     :align: center
   
@@ -60,7 +60,7 @@
 * Επιλέξτε :menuselection:`Structure --> Content types` από την μπάρα επιλογών και στην συνέχεια κλικ **Add content type** 
 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_contenttypes.png
+.. image:: /images/screenshots/1024x768/cartaro_contenttypes.png
     :scale: 80 %
     :align: center
 
@@ -68,7 +68,7 @@
 * Τελειώστε με κλικ στην επιλογή **Save and add fields**
 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_new_contenttype.png
+.. image:: /images/screenshots/1024x768/cartaro_new_contenttype.png
     :scale: 80 %
     :align: center
 
@@ -76,7 +76,7 @@
 * Ολοκληρώστε με **Save**
 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_new_field.png
+.. image:: /images/screenshots/1024x768/cartaro_new_field.png
     :scale: 70 %
     :align: center
 
@@ -86,13 +86,13 @@
 .. tip::  Είναι διαθέσιμοι κι άλλοι τύποι δεδομένων. Επιλέξτε τον τύπο ο οποίος είναι καλύτερος για τις ανάγκες σας. Διαβάστε τις πληροφορίες στο ανασυόμενο παράθυρο του *Geometry type* για πρόσθετη βοήθεια.
 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_field_settings.png
+.. image:: /images/screenshots/1024x768/cartaro_field_settings.png
     :scale: 70 % 
     :align: center
 
 * Πατήστε *Save settings* για να ολοκληρώβσετε την δημιουργία πεδίων
 
-.. image:: ../../images/screenshots/1024x768/cartaro_manage_field.png
+.. image:: /images/screenshots/1024x768/cartaro_manage_field.png
     :scale: 70 % 
     :align: center
 
@@ -103,7 +103,7 @@
 
 * Επιλέξτε :menuselection:`Structure --> GeoServer` από την μπάρα επιλογών για να επισκεφτείτε την σελίδα διαμόρφωσης του GeoServer
 
-.. image:: ../../images/screenshots/1024x768/cartaro_geoserver_entry.png
+.. image:: /images/screenshots/1024x768/cartaro_geoserver_entry.png
     :scale: 70 %
     :align: center
 
@@ -117,7 +117,7 @@
 
 * Επιλέξτε :menuselection:`Styles` στην δεξιά πλευρά
 
-.. image:: ../../images/screenshots/1024x768/cartaro_geoserver_style.png
+.. image:: /images/screenshots/1024x768/cartaro_geoserver_style.png
     :scale: 70 %
     :align: center
 
@@ -146,7 +146,7 @@
     </NamedLayer>
   </StyledLayerDescriptor>
 
-.. image:: ../../images/screenshots/1024x768/cartaro_new_style.png
+.. image:: /images/screenshots/1024x768/cartaro_new_style.png
     :scale: 70 %
     :align: center
 
@@ -155,7 +155,7 @@
 * Επιλέξτε :menuselection:`Structure --> GeoServer` από την μπάρα επιλογών για να επισκεφτείτε την σελίδα διαμόρφωσης του GeoServer
 * Επιλέξτε :menuselection:`Layers` και κλικ **Add** για να προσθέσετε το δικό σας επίθεμα
 
-.. image:: ../../images/screenshots/1024x768/cartaro_geoserver_layer.png
+.. image:: /images/screenshots/1024x768/cartaro_geoserver_layer.png
     :scale: 70 %
     :align: center
 
@@ -167,7 +167,7 @@
 #. Κλείστε την διαμόρφωση επιλέγοντας **Save**
 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_new_layer.png
+.. image:: /images/screenshots/1024x768/cartaro_new_layer.png
     :scale: 90 %
     :align: center
 
@@ -182,21 +182,21 @@
 * Επιλέξτε :menuselection:`Structure --> OpenLayers` από την μπάρα επιλογών για να επισκεφτείτε την σελίδα διαμόρφωσης OpenLayers
 * Επιλέξτε :menuselection:`Maps` και δείτε το *frontmap* το οποίο είναι ο αρχικός χάρτης
 
-.. image:: ../../images/screenshots/1024x768/cartaro_openlayers_entry.png
+.. image:: /images/screenshots/1024x768/cartaro_openlayers_entry.png
     :scale: 70 %
     :align: center
 
 
 * Δείτε τον *frontmap* και επιλέξτε **Edit** στην δεξιά πλευρά
 
-.. image:: ../../images/screenshots/1024x768/cartaro_openlayers_maps.png
+.. image:: /images/screenshots/1024x768/cartaro_openlayers_maps.png
     :scale: 70 %
     :align: center
 
 * Θα εμφανιστεί η οθόνη διαμόρφωσης όπως φαίνεται εδώ. 
 * Επιλέξτε :menuselection:`Layers & Styles` στην αριστερή πλευρά και προσθέστε το επίθεμα το οποίο δημιουργήσατε.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_edit_map.png
+.. image:: /images/screenshots/1024x768/cartaro_edit_map.png
     :scale: 70 %
     :align: center
 
@@ -204,7 +204,7 @@
 * Επιλέξτε τα κουτάκια *Enabled*, *Activated* και *In Switcher* για να εμφανίζεται το νέο επίθεμα αυτόματα
 * Κλείστε την διαμόρφωση με επιλογή **Save** στο κάτω μέρος της σελίδας
 
-.. image:: ../../images/screenshots/1024x768/cartaro_edit_map2.png
+.. image:: /images/screenshots/1024x768/cartaro_edit_map2.png
     :scale: 70 %
     :align: center
 
@@ -217,7 +217,7 @@
 * Επιλέξτε **Add content** για να προσθέσετε νέο περιεχόμενο
 * Επιλέξτε τον νέο τύπο περιεχομένου 
 
-.. image:: ../../images/screenshots/1024x768/cartaro_content_overview.png
+.. image:: /images/screenshots/1024x768/cartaro_content_overview.png
     :scale: 70 %
     :align: center
 
@@ -228,7 +228,7 @@
 
 .. note:: Στο παράδειγμά μας επιτρέπεται μόνο μία γεωμετρία ανά αντικείμενο. Για περισσότερα πολύγωνα προσθέστε περισσότερα αντικείμενα.  
 
-.. image:: ../../images/screenshots/1024x768/cartaro_create_content2.png
+.. image:: /images/screenshots/1024x768/cartaro_create_content2.png
     :scale: 70 %
     :align: center
 
@@ -237,13 +237,13 @@
 
 .. tip:: Εάν δεν είστε ικανοποιημένοι με το αποτέλεσμα μπορείτε εύκολα να διορθώσετε το νέο αντικείμενο και να μεταβάλετε την γεωμετρία του
 
-.. image:: ../../images/screenshots/1024x768/cartaro_content_preview2.png
+.. image:: /images/screenshots/1024x768/cartaro_content_preview2.png
     :scale: 50 %
     :align: center
 
 Συγχαρητήρια, έχετε τελειώσει το σύντομο εγχειρίδιο εκμάθησης. Το πρώτο σας στοιχείο είναι έτοιμο. Για να προσθέσετε περισσότερα απλά εκτελέστε ξανά τα βήματα σε αυτή την παράγραφο.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontmap_new.png
+.. image:: /images/screenshots/1024x768/cartaro_frontmap_new.png
     :scale: 50 %
     :align: center
 

@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :alt: Лого проекта
   :align: right
   :target: http://www.orfeo-toolbox.org/
@@ -28,7 +28,7 @@ OTB был создан Французским Космическим Агент
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
+.. image:: /images/screenshots/800x600/otb-mapping.jpg
   :scale: 50 %
   :alt: Скриншот
   :align: right

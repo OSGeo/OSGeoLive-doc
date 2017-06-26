@@ -6,7 +6,7 @@
 
 .. _kosmo-overview-pl:
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
@@ -22,7 +22,7 @@ Kosmo - Desktop jest przyjazną dla użytkownika aplikacją desktop GIS, która 
 Kosmo - Desktop stosuje standardy OGC i zapewnia znakomitą integrację topologii. 
 Jego architektura wtyczek pozwala na łatwe dostosowanie do potrzeb klientów o różnych potrzebach. 
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -12,8 +12,7 @@ atau menemukan beberapa masalah, silahkan tinggalkan pesan pada daftar 'surat ka
 <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Arsip dari daftar pesan (milis) dapat dicari dalam
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ dan
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 Pengguna IRC bisa mencoba #osgeolive atau #osgeo sebagai saluran dalam Freenode.net
 untuk asistensi bantuan secara langsung (real-time)

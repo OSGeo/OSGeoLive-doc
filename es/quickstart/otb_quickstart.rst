@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -94,7 +94,7 @@ Además la aplicación puede funcionar en dos modos diferentes:
 * Modo ráster: permite segmentar una imagen pequeña y producir un ráster donde cada componente de la segmentación está etiquetado con un valor entero único.
 * Modo vectorial: segmenta imágenes más grandes y produce un fichero vectorial donde cada segmento de la segmentación está representado por un polígono. 
 
-  .. image:: ../../images/screenshots/800x600/otb-meanshift-lsat7.png
+  .. image:: /images/screenshots/800x600/otb-meanshift-lsat7.png
 
 OTB incluye también un marco de trabajo para desarrollar segmentación basada en teselas de imágenes muy grandes con garantías (en teoría) de obtener idénticos resultados que aquellas sin teselado llamadas LSMS_.
 
@@ -105,7 +105,7 @@ OTB en QGis
 ================================================================================
 El mismo conjunto de aplicaciones OTB se pueden usar desde el menú  Procesos -> Caja de Herramientas en QGis. Las aplicaciones están ordenadas por etiqueta.
 
-  .. image:: ../../images/screenshots/800x600/otb-processing-qgis.png
+  .. image:: /images/screenshots/800x600/otb-processing-qgis.png
 
 
 Desarrollo con OTB

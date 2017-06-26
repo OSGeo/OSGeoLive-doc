@@ -18,7 +18,7 @@
 * Όλες οι ρυθμίσεις, οι ενημερώσεις των λογισμικών και τα αποθηκευμένα αρχεία είναι μόνιμα και ασφαλή όπως σε κανονική χρήση. Έτσι:
 
  * Μπορείτε να ενημερώσετε ή/και να τροποποιήσετε κατά τις επιλογές σας το σύστημα
- * Να αποθηκεύσετε την δουλειά σας 
+ * Να αποθηκεύσετε την δουλειά σας
  * Να εγκαταστήσετε πρόσθετα λογισμικά
 
 * Μπορείτε να κρατήσετε αντίγραφο ασφαλείας όποια χρονική στιγμή επιλέξετε
@@ -49,38 +49,38 @@
 
 ΕΚτελέστε το λογισμικό VirtualBox και επιλέξτε το κουμπί New για να φτιάξετε μια νέα εικονική μηχανή. Στην συνέχεια πατήστε Next.
 
-  .. image:: ../../images/screenshots/800x600/virtualbox.png
+  .. image:: /images/screenshots/800x600/virtualbox.png
          :scale: 50 %
 
 Δώστε ως όνομα κάτι σαν OSGeo-Live, και στην συνέχεια επιλέξτε Linux ως λειτουργικό σύστημα (Operating system) και Ubuntu ως έκδοση (Version).
 
-  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: /images/screenshots/800x600/virtualbox_select_name.png
          :scale: 70 %
 
 Στην επόμενη οθόνη θέστε ως διαθέσιμη μνήμη τα 1024MB ή και περισσότερα αν ο υπολογιστής σας έχει 4GB ή περισσότερα.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_memory.jpg
+  .. image:: ../../images/screenshots/800x600/vmdk_memory.png
               :scale: 65 %
 
 Συνεχίστε στην επόμενη οθόνη και επιλέξτε "Use existing hard disk". Κάντε κλικ στο εικονίδιο πλοήγησης στον δίσκο σας και δείξτε τον αρχείο osgeo-live-vm-6.0.vmdk που αποσυμπιέσατε σε προηγούμενο βήμα. Επιλέξτε το, πατήστε Next και Create.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
-                   :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_disk.png
+     :scale: 65 %
 
 Εφόσον έχει δημιουργηθεί η εικονική μηχανή επιλέξτε τις ρυθμίσεις (Settings). Στον τομέα "General" στην καρτέλα "Advanced" επιλέξτε για την μικρή εργαλειοθήκη με ένα κλικ στο "Show at top of screen".
 
-  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.jpg
-                   :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.png
+     :scale: 65 %
 
 Στον τομέα "Display" αυξήστε την μνήμη της οθόνης από 32 σε 64MB.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_display.jpg
-                   :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_display.png
+     :scale: 65 %
 
 Επιπλέον στον τομέα "Shared Folders" προσθέστε έναν νέο υποφάκελο "Add folder" (πράσινο εικονίδιο + στα δεξιά) στον σκληρό σας δίσκο, το οποίο θα είναι κοινό μεταξύ της εικονικής μηχανής και του υπολογιστή σας.
 
- .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.jpg
-                      :scale: 65 %
+  .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.png
+     :scale: 65 %
 
 Εφόσον έχουν ορισθεί τα "Folder path" και "Folder name" πατήστε ΟΚ και ξανά ΟΚ για να κλείσετε το παράθυρο των ρυθμίσεων.
 
@@ -94,7 +94,7 @@
 Στο παράθυρο του VirtualBox ανοίξτε :menuselection:`Devices` και επιλέξτε :menuselection:`Install Guest Additions`. Αυτό θα συνδέσει το
 ISO αρχείο Guest Additions ως ένα εικονικό CD στην εικονική μηχανή του OSGeo Live.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.jpg
+  .. image:: /images/screenshots/800x600/vmdk_guest_additions.jpg
                         :scale: 80 %
 
 Εφόσον εμφανιστεί ο φάκελος του CD ανοίξτε ένα τερματικό και εκτελέστε τις ακόλουθες εντολές:
@@ -115,7 +115,7 @@ ISO αρχείο Guest Additions ως ένα εικονικό CD στην εικ
 
 Δείτε επίσης:
 --------------------------------------------------------------------------------
- * Τις βικι-σελίδες OSGeo: 
+ * Τις βικι-σελίδες OSGeo:
         `Άλλοι τρόποι να δημιουργήσετε μια εικονική μηχανή <http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_
 
  * :doc:`osgeolive_quickstart`

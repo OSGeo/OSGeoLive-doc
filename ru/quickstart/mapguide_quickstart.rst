@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :scale: 100 %
   :alt: project logo
   :align: right 
@@ -22,7 +22,7 @@
 
 .. comment: 1. Go to Desktop->Server, click icon Start MapGuide. This will start both MapGuide server and MapGuide Web server
 
-.. comment: .. image:: ../../images/screenshots/1024x768/mapguide_desktopIcons.png
+.. comment: .. image:: /images/screenshots/1024x768/mapguide_desktopIcons.png
 .. comment:   :scale: 50 %
 .. comment:   :alt: mapguide desktop icons
 .. comment:   :align: center 
@@ -35,7 +35,7 @@
 
 2. В браузере перейдите по адресу http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php для просмотра примера приложения. 
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
@@ -48,14 +48,14 @@ MapGuide Maestro
    Подключитесь к серверу http://localhost:8008/mapguide/mapagent/mapagent.fcgi,
    используя имя пользователя "Administrator" и пароль "admin".
 
-.. image:: ../../images/screenshots/1024x768/mapguide_maestroLogin.png
+.. image:: /images/screenshots/1024x768/mapguide_maestroLogin.png
   :scale: 50%
   :alt: screenshot
   :align: center
  
 2. Нажмите *Ok* для перехода в главное окно Maestro:
 
-.. image:: ../../images/screenshots/1024x768/mapguide_maestroMain.png
+.. image:: /images/screenshots/1024x768/mapguide_maestroMain.png
    :scale: 50%
    :alt: mapguide maestro main GUI
    :align: center
@@ -64,7 +64,7 @@ MapGuide Maestro
    *Samples->Sheboygan->Layers*, дважды нажмите на пункт *Buildings*, после
    чего в правой части появится редактор выбранного слоя:
 
-.. image:: ../../images/screenshots/1024x768/mapguide_maestroLayerFeatures.png
+.. image:: /images/screenshots/1024x768/mapguide_maestroLayerFeatures.png
    :scale: 50%
    :alt: mapguide maestro layer features
    :align: center
@@ -72,12 +72,12 @@ MapGuide Maestro
 4. Прокрутите вниз окно редактора, чтобы увидеть панель *Layer style*.
    Для вызова редактора стиля нажмите на ячейке ... поля *Featurestyle*:
 
-.. image:: ../../images/screenshots/1024x768/mapguide_maestroLayerStyle.png
+.. image:: /images/screenshots/1024x768/mapguide_maestroLayerStyle.png
    :scale: 50%
    :alt: mapguide maestro layer stype panel
    :align: center
 
-.. image:: ../../images/screenshots/1024x768/mapguide_maestroStyleEditor.png
+.. image:: /images/screenshots/1024x768/mapguide_maestroStyleEditor.png
    :scale: 50%
    :alt: mapguide maestro color chooser
    :align: center
@@ -86,7 +86,7 @@ MapGuide Maestro
    После чего в главном окне Maestro нажмите указанную кнопку для сохранения
    изменений: 
 
-.. image:: ../../images/screenshots/1024x768/mapguide_maestroSaveIcon.png
+.. image:: /images/screenshots/1024x768/mapguide_maestroSaveIcon.png
    :scale: 50%
    :alt: mapguide maestro Save icon 
    :align: center
@@ -99,12 +99,12 @@ MapGuide Maestro
    можно заметить, здания отрисованы зелёным цветом в соответствии с настройками,
    выполненными в Maestro.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_buildingColorBeforeChanging.png
+.. image:: /images/screenshots/1024x768/mapguide_buildingColorBeforeChanging.png
    :scale: 50%
    :alt: Building color is grey 
    :align: center
 
-.. image:: ../../images/screenshots/1024x768/mapguide_buildingColorAfterChanging.png
+.. image:: /images/screenshots/1024x768/mapguide_buildingColorAfterChanging.png
    :scale: 50%
    :alt: Building color is green 
    :align: center

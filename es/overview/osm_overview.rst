@@ -6,7 +6,7 @@
 
 .. _osm-overview-es:
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.openstreetmap.org
@@ -25,7 +25,7 @@ Se han incluido varios programas: JOSM, Merkaartor, Osmosis y Osm2pgsql, junto c
 Propiedades Fundamentales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

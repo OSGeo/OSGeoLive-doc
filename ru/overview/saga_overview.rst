@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: логотип проекта
   :align: right
   :target: http://www.saga-gis.org
@@ -28,7 +28,7 @@ SAGA разрабатывается с 2001 года, центр разрабо�
 расположен в Институте географии Гамбургского университета, также её
 развитию содействует растущее международное сообщество.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: снимок экрана
   :align: right

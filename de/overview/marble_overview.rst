@@ -3,12 +3,12 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :alt: Projekt Logo
   :align: right
   :target: http://marble.kde.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
@@ -44,7 +44,7 @@ Karten vom Mond und anderen Planeten.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/marble-history.png
+.. image:: /images/screenshots/800x600/marble-history.png
   :scale: 64 %
   :alt: Bildschirmfoto
   :align: right

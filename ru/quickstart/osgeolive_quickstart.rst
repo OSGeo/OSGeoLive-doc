@@ -35,20 +35,20 @@ http://download.osgeo.org/livedvd.
 В противном случае, измените настройки BIOS или нажмите кнопку вызова меню
 загрузки сразу после включения компьютера.
 
-   .. image:: ../../images/screenshots/800x600/osgeolive_boot_select.png
+   .. image:: /images/screenshots/800x600/osgeolive_boot_select.png
      :scale: 70 %
      :alt: выбор загрузчика
 
 Когда видите такой экран (см. выше), Вы можете нажать пробел для получения меню
 загрузки. В большинстве случаев Вам не придётся делать этого.
 
-   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+   .. image:: /images/screenshots/800x600/osgeolive_boot.png
      :scale: 70 %
      :alt: загрузчик
 
 Отдохните, пока система загружается.
 
-   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+   .. image:: /images/screenshots/800x600/osgeolive_menu.png
      :scale: 70 %
      :alt: выбор загрузчика
 

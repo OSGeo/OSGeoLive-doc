@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: Logo du projet
   :align: right
   :target: http://52north.org/security
@@ -34,7 +34,7 @@ implémentations de services existantes n'ont pas besoin d'être changées.
 Les politiques et les utilisateurs sont définis dans les fichiers de 
 configuration XML, qui sont gérés à partir d'une interface de gestion.
 
-.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Capture d'écran de l'interface de gestion WSS
   :align: right

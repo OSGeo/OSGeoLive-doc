@@ -4,12 +4,12 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :alt: project logo
   :align: right
   :target: http://mapserver.org/tinyows/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -23,7 +23,7 @@ Web Feature Service
 
 TinyOWS és un Web Feature Service Transaccional (WFS-T) d'alt rendiment, lleuger i fàcil d'implementar, usant interfícies CGI o FastCGI i que utilitza :doc:`PostGIS <postgis_overview>` per emmagatzemar dades.
 
-.. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
+.. image:: /images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitalitzant
   :align: right

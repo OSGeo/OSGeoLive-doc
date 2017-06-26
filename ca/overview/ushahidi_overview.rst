@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
@@ -17,7 +17,7 @@ Línia de temps i mapes d'incidents
 
 El programari `Ushahidi <http://www.ushahidi.com/>`_  és una plataforma lliure i oberta que permet a qualsevol recollir dades via SMS, correu electrònics o web i visualitzar-la en un mapa o en una línia de temps. L'objectiu d'Ushahidi és crear eines per democratitzar la informació, incrementant la transparència i rebaixant les barreres que permeten als individus compartir les seves històries.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

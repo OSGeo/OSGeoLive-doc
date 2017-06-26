@@ -4,12 +4,12 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -25,7 +25,7 @@ QGIS Server dostarcza usług sieciowych WMS opartych na bibliotekach pochodzący
 Ścisła integracja z programem QGIS oznacza możliwość łatwego eksportu do Internetu map stworzonych desktopowym narzędziem, poprzez skopiowanie pliku projektu QGIS do ścieżki serwera. Mapy w Internecie będą wyglądały dokładnie tak samo jak w aplikacji desktopowej.
 QGIS Server najczęściej używa się jako modył CGI/FastCGI poprzez serwer sieciowy Apache.
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

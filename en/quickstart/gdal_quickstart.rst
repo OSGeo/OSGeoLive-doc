@@ -3,7 +3,7 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :scale: 60 %
   :alt: project logo
   :align: right
@@ -181,7 +181,7 @@ the path to the file.
 Have a look at your output shapefile with QGIS and ogrinfo (you
 will learn more about ogrinfo later in this tutorial)
 
-  .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -226,7 +226,7 @@ the WGS84 geographic image to the Mercator projection:
 
 Use gdalinfo to verify the change and have a look at the image.
 
-  .. image:: ../../images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
 Here we reproject to the Ortho projection.  
@@ -236,7 +236,7 @@ Here we reproject to the Ortho projection.
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: ../../images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
 Note how the poles are clipped?  This is because the edges at the pole

@@ -2,7 +2,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: логотип проекта
   :align: right
   :target: http://mapproxy.org/
@@ -13,7 +13,7 @@
 MapProxy — "швейцарский армейский нож" для работы с WMS-сервисами и сервисами тайлирования.
 Он кэширует и трансформирует данные уже существующих картографических сервисов, а также ускоряет доступ к ним.
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: диаграмма MapProxy
   :align: center
 
@@ -41,7 +41,7 @@ MapProxy имеет гибкие возможности развёртывани
 
 Пример конфигурационного файла MapProxy содержит несколько слоёв, которые используют различные картографические движки и данные. Детальная информация о каждом слое приведена ниже.
 
-.. figure:: ../../images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/800x600/mapproxy_udig.png
   :alt: пример MapProxy в uDig
   :align: center
   

@@ -2,7 +2,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: pgRouting logo
 	:align: right
@@ -22,13 +22,13 @@ Lancer pgRouting
 
 * Ouvrir une fenêtre :menuselection:`Applications --> Accessories --> Terminal` et se connecter à la base de données ``pgrouting`` :
 
-.. code-block:: bash
+::
 
 	psql -U user pgrouting
 
 * La commande :command:`\\d` permet de lister toutes les tables disponibles :
 
-.. code-block:: sql
+::
 
 	                List of relations
 	 Schema |        Name         |   Type   | Owner 
@@ -52,7 +52,7 @@ Lancer pgRouting
 
 * Lancer la fonction de plus court chemin Dijkstra :
 
-.. code-block:: sql
+::
 
 	SELECT seq, id1 AS node, id2 AS edge, cost 
 		FROM pgr_dijkstra('
@@ -61,7 +61,7 @@ Lancer pgRouting
 			100, 600, false, false
 		);
 
-.. code-block:: sql
+::
 
 	 seq | node | edge  |        cost         
 	-----+------+-------+---------------------
@@ -76,7 +76,7 @@ Lancer pgRouting
 
 * Pour produire la géométrie de la route, relier le résultat avec les géométries routières :
 
-.. code-block:: sql
+::
 
 	SELECT seq, id2 AS edge, rpad(b.the_geom,60,' ') AS "the_geom (truncated)" 
 		FROM pgr_dijkstra('
@@ -86,7 +86,7 @@ Lancer pgRouting
 		) a INNER JOIN ways b ON (a.id2 = b.gid) ORDER BY seq;
 
 
-.. code-block:: sql
+::
 	
 	 seq | edge  |                     the_geom (truncated)                     
 	-----+-------+--------------------------------------------------------------
@@ -105,7 +105,5 @@ Et ensuite ?
 ================================================================================
 
 * **pgRouting Website** - Visitez le site web du projet http://www.pgrouting.org pour en apprendre plus sur pgRouting.
-
 * **pgRouting Documentation** - Vous trouverez toute la documentation mise à jour ici : http://docs.pgrouting.org
-
 * **pgRouting Workshop** - L'atelier `"Routage FOSS4G avec les outils pgRouting, le réseau routier d’OpenStreetMap"` est disponible ici : http://workshop.pgrouting.org

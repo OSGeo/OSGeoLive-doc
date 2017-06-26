@@ -4,13 +4,13 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -128,32 +128,32 @@ Testare l'applicazione
 Per testare pycsw, usare il launcher pycsw dal gruppo Web Services, o aprire Firefox e andate
 all'indirizzo ``http://localhost/pycsw/tester/index.html``:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_startup.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_startup.png
   :scale: 75 %
 
 Selezionando la lista drop-down a sinistra, l'utente può vedere diverse richieste POST predefinite,
 codificate come XML, che possono essere spedire a pycsw:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_selection.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_selection.png
   :scale: 75 %
 
 Per esempio, selezionando "apiso/DescribeRecord", e cliccando il pulsante "Send", una descrizione
 del ISO Application Profile record è visualizzato nel pannello di destra:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
 Selezionandog "GetCapabilities-SOAP" e cliccando il pulsante "Send", una richiesta SOAP è spedita al
 server e ritorna le capacità del servizio web:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
 Inoltre, l'utente può cercare i dati, effettuando un'interrogazione spaziale attraverso
 una bounding box, selezionando "GetRecords-filter-bbox" e modificando le coordinate nella
 richiesta XML:
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
 L'utente può andare attraverso tutte le richieste disponibili ed eseguire diverse richieste
@@ -190,14 +190,14 @@ L'utente compila i campi dei metadati obbligatori, attraverso le tabelle dell'ap
 aggiungendo informazioni come il nome del proprietario dei dati, parole chiavi, la posizione
 della risorsa del web, la posizione geografica (usando una bounding box o il nome di uno stato) etc.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 %
 
 Dopo che l'utente ha aggiunto tutte le informazioni disponibili, bisogna spingere il pulsante di
 validazione in alto della pagina, questo controllo può essere eseguito per consistenza con la
 direttiva INSPIRE.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_save_metadata.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_save_metadata.png
   :scale: 75 %
 
 Dopo una validazione andata a buon fine, il file XML può essere salvato nel disco locale e visto attraverso une editor testuale o un browser.
@@ -217,7 +217,7 @@ Per installare l'applicazione, usare i seguenti comandi da un terminale:
 
 L'utente può seguire la stessa procedura come per EUOSME per agiungere o modificate metadata, senza il bisogna di una connessione internet.
 
-.. image:: ../../images/screenshots/1024x768/pycsw_gimed.png
+.. image:: /images/screenshots/1024x768/pycsw_gimed.png
   :scale: 75 %
 
 
@@ -306,33 +306,33 @@ QGIS CSW Plugin
 
 Avviate QGIS dal gruppo Desktop GIS e andate in "Manage Plugins"
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin.png
   :scale: 75 %
 
 Attivate il plugin CSW dalla lista
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
   :scale: 75 %
 
 Quindi selezionate il bottone CSW dalla barra degli strumenti e lanciate CSW Client
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
   :scale: 75 %
 
 Aggiungetr il server pycsw premendo il bottone "New" e digitate ``http://localhost/pycsw/csw.py``
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
   :scale: 75 %
 
 L'utente può aggiungere alcuni server di default usando il bottone "Add default servers" e anche ottenere
 le capabilities del server usando il bottone "Server info"
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
   :scale: 75 %
 
 Eseguire la ricerca utilizzando il catalogo, o tramite valore stringa o con un rettangolo di selezione
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
 Scoperta dati attraverso GeoExt
@@ -353,7 +353,7 @@ usando un'installazione demo di pycsw in http://demo.pycsw.org/services/csw:
 - Cliccare l'icona "add to map" vicino l'ultimo risultato in quel set di risultati ("1 Million Scale - Airports")
 - Vedere il layer aggiunto alla mappa
 
-.. image:: ../../images/screenshots/1024x768/pycsw_client_gxp.png
+.. image:: /images/screenshots/1024x768/pycsw_client_gxp.png
   :scale: 60 %
 
 Test dell'applicazione
@@ -361,7 +361,7 @@ Test dell'applicazione
 
 Per scoprire i dati può essere anche eseguita tramite l'applicazione Tester impostando le appropriate richieste per esempio qualsiasi ricerca di testo con la stringa "imagery" scoprendo i dati XML creato in precedenza dal EUOSME
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_discovery.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_discovery.png
   :scale: 75 %
 
 Per maggiori informazioni su pycsw, guardare la `documentazione`_ sul sito di pycsw.

@@ -6,12 +6,12 @@
 
 .. _marble-overview-pl:	
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :alt: project logo
   :align: right
   :target: http://marble.kde.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project in Incubation
   :align: right
@@ -33,7 +33,7 @@ włączenia widżetu KDE Marble do Twojej aplikacji.
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/marble-history.png
+.. image:: /images/screenshots/1024x768/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

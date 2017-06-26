@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: /images/project_logos/logo-Mapbender.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -50,7 +50,7 @@ Mapbender 快速入门文档
 
 #. 以用户名 :guilabel:`root` 和密码 :guilabel:`root` 登录（该用户为 Mapbender 默认用户，请不要将其删除）；
   
-  .. image:: ../../images/screenshots/800x600/mapbender_welcome.png
+  .. image:: /images/screenshots/800x600/mapbender_welcome.png
      :scale: 80
 
 　　登录后， :guilabel:`application overview` 应用列表界面将显示。
@@ -61,7 +61,7 @@ Mapbender 快速入门文档
 ================================================================================
 　　登录后， :guilabel:`application overview` 应用列表界面将显示所有可以使用的应用。Mapbender 支持模板（template）应用用于创建新的应用。
 
-  .. image:: ../../images/screenshots/800x600/mapbender_application_overview.png
+  .. image:: /images/screenshots/800x600/mapbender_application_overview.png
      :scale: 80
 
 　　Mapbender 提供了：
@@ -88,12 +88,12 @@ Mapbender 快速入门文档
 
 　　示例截图为 admin2_en 。左侧面板显示了其各种功能。
 
-  .. image:: ../../images/screenshots/800x600/mapbender_admin2_en.png
+  .. image:: /images/screenshots/800x600/mapbender_admin2_en.png
      :scale: 80
 
 .. tip:: You get back to the application overview with the |HOME| button.
 
-  .. |HOME| image:: ../../images/screenshots/800x600/mapbender_home.png
+  .. |HOME| image:: /images/screenshots/800x600/mapbender_home.png
      :scale: 100
 
 地图服务
@@ -106,7 +106,7 @@ Mapbender 快速入门文档
    
    * 开启 gui_digitize 图形界面下的数字化示例
      
-  .. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
+  .. image:: /images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
 
 .. tip:: 在支持多标签页的浏览器中可以用不同的标签页打开不同的示例并轻松切换。
@@ -115,7 +115,7 @@ WMS 容器应用
 ================================================================================
 　　容器应用可用于包装 WMS 服务。这些服务并非用于直接显示数据，而是用于复杂条件下的服务组织。
 
-  .. image:: ../../images/screenshots/800x600/mapbender_container.png
+  .. image:: /images/screenshots/800x600/mapbender_container.png
      :scale: 60
 
 创建应用
@@ -185,7 +185,7 @@ WhereGroup OSM WMS Open Street Map 数据服务
 
 http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
  
-.. image::../../images/screenshots/800x600/mapbender_admin2_en.png
+.. image::/images/screenshots/800x600/mapbender_admin2_en.png
   :scale: 80
 
 　　在一个应用中可以载入多个 WMS 服务。选择 *WMS application settings* 调整 WMS 序列或进行删除。
@@ -198,7 +198,7 @@ http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=
 配置 WMS 服务
 ================================================================================　　在载入 WMS 后可对其进行配置。通过配置可以控制特定图层的访问，改变数据集的排序组合，屏蔽特定属性，控制缩放尺度等。
 
-.. image:: ../../images/screenshots/800x600/mapbender_wms_application_settings.png
+.. image:: /images/screenshots/800x600/mapbender_wms_application_settings.png
   :scale: 80
 
 * on/off - 开启或关闭特定图层
@@ -257,7 +257,7 @@ http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=
 
 #. 输入用户的名称和密码。
 
-.. image:: ../../images/screenshots/800x600/mapbender_create_user.png
+.. image:: /images/screenshots/800x600/mapbender_create_user.png
      :scale: 80 
 
 
@@ -281,7 +281,7 @@ http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=
 
 #. 尝试以另一个用户登录。
 
-  .. |LOGOUT| image:: ../../images/screenshots/800x600/mapbender_logout.png
+  .. |LOGOUT| image:: /images/screenshots/800x600/mapbender_logout.png
      :scale: 100
 
 ********************************************************************************
@@ -313,14 +313,14 @@ WFS 网络地理要素服务管理
 http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SERVICE=WFS
 
 
-.. image:: ../../images/screenshots/800x600/mapbender_loadWFS.png
+.. image:: /images/screenshots/800x600/mapbender_loadWFS.png
      :scale: 80 
 
 创建 WFS 要素类型配置
 ================================================================================
 　　下一步将配置一个要素类型。在一个应用完成配置和权限设定后，可以在其中使用要素类型。
 
-.. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType.png
+.. image:: /images/screenshots/800x600/mapbender_configure_WFS_featureType.png
      :scale: 80 
 
 **配置**
@@ -349,7 +349,7 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 #. 配置将会被给与一个编号（configuration id）
 
 
-.. image:: ../../images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
+.. image:: /images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
      :scale: 80 
 
 对应用执行指定配置
@@ -360,7 +360,7 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 #. 选择应用；
 #. 将所需配置应用到 *GUI configuration list* 列表。
 
-.. image:: ../../images/screenshots/800x600/mapbender_set_featureType_access.png
+.. image:: /images/screenshots/800x600/mapbender_set_featureType_access.png
      :scale: 80 
 
 
@@ -368,12 +368,12 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 ================================================================================
 　　在 *admin_en_services -> Edit application elements* 选择 *gazetteerWFS* 元素。该元素有 *wfsConfIdString* 属性。此处用于列举配置号（逗号分隔）。检索结果会依据此表的顺序显示。
 
-.. image:: ../../images/screenshots/800x600/mapbender_wfsConfIdString.png
+.. image:: /images/screenshots/800x600/mapbender_wfsConfIdString.png
      :scale: 80 
 
 　　查看检索的显示结果。本示例中，左侧面板用于检索 Mapbender 用户。检索可以基于空间范围或文本进行，并在列表中显示结果。点击一个条目，Mapbender 缩放至相应区域并显示具体信息。
 
-.. image:: ../../images/screenshots/800x600/mapbender_WFS_search.png
+.. image:: /images/screenshots/800x600/mapbender_WFS_search.png
      :scale: 100
 
 建立 WFS 数字化功能
@@ -384,7 +384,7 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 
 　　配置完成后，在界面右侧可以检索已有地理要素，并在“seach result”面板显示。对这些要素可以进行移动（move）、添加基点（add basepoint）、编辑属性（edit attributes）、线切分（split line）、线延伸（continue line）、合并多边形（merge polygons）等操作。也可以新建要素。
 
-.. image:: ../../images/screenshots/800x600/mapbender_gui_digitize.png
+.. image:: /images/screenshots/800x600/mapbender_gui_digitize.png
      :scale: 80
 
 其它练习

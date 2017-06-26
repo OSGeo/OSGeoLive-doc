@@ -3,12 +3,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: Logo du projet
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: Projet OSGeo
   :align: right
@@ -22,7 +22,7 @@ Catalogue de métadonnées
 
 GeoNetwork OpenSource est une application de cataloguage pour gérer les sources de données géoréférencées. Il fournit des fonctions puissantes pour éditer et rechercher des métadonnées, un visualisateur de carte interactif inclus, et est basé sur des standards ouverts.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: /images/screenshots/1024x768/geonetwork-overview.jpg
   :scale: 50 %
   :alt: Logo du projet
   :align: right

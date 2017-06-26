@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-AtlasStyler.png
+.. image:: /images/project_logos/logo-AtlasStyler.png
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler
@@ -19,7 +19,7 @@ AtlasStyler
 
 Τα δημιουργημένα αρχεία SLD είναι συμβατά με όλα τα προγράμματα που υποστηρίζουν το πρότυπο OGC SLD, συμπεριλαμβανομένων των :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` και άλλων. Η εφαρμογή περιλαμβάνει μια πληθώρα από παράθυρα για την απλοποίηση της δημιουργίας στύλ χαρτών. Οι χρήστες μπορούν να εφαρμόσουν γενικευμένες ταξινομήσεις βασισμένες σε μοναδικές τιμές, χρωματισμένες ποσότητες ή ίσες αποστάσεις. Επιπρόσθετα οι χρήστες έχουν πρόσβαση σε μια βάση δεδομένων συμβόλων. Οι χρήστες μπορούν να αποθηκεύσουν τα σύμβολα και τις ταξινομήσεις τους στον SymbolEditor και να ξαναχρησιμοποιήσουν τις επιλογές τους και σε άλλα έργα.
 
-.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

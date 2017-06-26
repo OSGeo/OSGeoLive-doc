@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
@@ -21,7 +21,7 @@ GMT (Generic Mapping Tools)
 　　GMT 中包含了海岸线、河流、政治界限等数据，用于支持常见的制图业务。
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

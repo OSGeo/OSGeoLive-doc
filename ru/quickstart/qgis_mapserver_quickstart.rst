@@ -3,7 +3,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: /images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: логотип проекта
   :align: right
@@ -39,7 +39,7 @@ OSGeo-Live содержит пример просмотрщика карт на 
 
 Вы должны увидеть окно браузера с веб-просмотрщиком карт, отображающим карту мира.
    
-.. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 Теперь мы изменим стиль отображения карты, используя QGIS.
 

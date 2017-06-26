@@ -4,7 +4,7 @@
 :Copyright: 2011 by The OSGeo Foundation
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-gpsdrive.png
+.. image:: /images/project_logos/logo-gpsdrive.png
   :scale: 100 %
   :alt: project logo
   :align: right

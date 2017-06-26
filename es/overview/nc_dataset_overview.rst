@@ -7,7 +7,7 @@
 
 .. _nc_dataset-overview:
 
-.. image:: ../../images/project_logos/logo-ncdataset.png 
+.. image:: /images/project_logos/logo-ncdataset.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -33,7 +33,7 @@ Los datos son proporcionados en tres niveles jerárquicos:
 
 * una pequeña cuenca en área rural con resoluciones de datos de 1m-3m (ver imagen).
 
-.. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: Captura de pantalla del conjunto de datos de Carolina del Norte
   :align: right

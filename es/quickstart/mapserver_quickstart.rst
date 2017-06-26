@@ -5,13 +5,13 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :scale: 65 %
   :alt: Project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -132,7 +132,7 @@ Abre el navegador web y coloca la siguiente dirección::
 
 ¿Qué significa lo anterior? Si lo ponemos en palabras simples, es una consulta **GetMap** de WMS `Web Map Service <http://www.opengeospatial.org/standards/wms>`_ que le dice a MapServer que "*use el siguiente mapfile para generar una capa específica como una imagen png basada en ciertos parámetros provisto por el usuario como el tamaño de la imagen, los límites geográficos, la proyección, etc.*". Todas las capas especificadas en la propiedad "*&LAYERS=...*" que tengan *STATUS ON* en el mapfile, además de todas las capas con *STATUS DEFAULT*, serán dibujadas. El resultado debería parecerse a lo siguiente:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
 
 .. note:: Todos los parámetros de la consulta pertenecen al estándar WMS, excepto "*?map=/home/user/mapserver_quickstart.map*", que es específico de MapServer.  
@@ -168,7 +168,7 @@ Usemos nuestra consulta **GetMap** anterior y agreguemos nuestra nueva capa "Lak
 
 La imagen generada por MapServer se parece a nuestro mapa anterior pero con el agreado de los lagos, provistos por nuestra nueva capa:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
 .. _mapserver-quickstart-styling-a-layer-es:
@@ -206,7 +206,7 @@ En nuestro conjunto de datos "10m_lakes", tenemos el atributo *ScaleRank*, que p
 
 El resultado de esta modificación debería hacer que los lagos grandes en nuestro mapa sean generados con un borde negro:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note:: 

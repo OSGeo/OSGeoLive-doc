@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -21,7 +21,7 @@ Para iniciar SAGA GIS desde Live DVD, haz clic en el icono SAGA en el Escritorio
 
 Al abrir SAGA por primera vez, aparecen 3 ventanas: el Espacio de Trabajo, las ventanas de propiedades de objeto y de mensajes. La información en la ventana de propiedades de objeto cambiara de acuerdo a tu selección en la ventana de Espacio de Trabajo.
 
-  .. image:: ../../images/screenshots/1024x768/saga_guioverview.png
+  .. image:: /images/screenshots/1024x768/saga_guioverview.png
      :scale: 80
 
 Abriendo Datos
@@ -39,7 +39,7 @@ Para mostrar el conjunto de datos en una vista de mapa, solo es necesario un dob
 
 Ahora usa las herramientas de navegación para hacer zoom, y desplazar la vista. La herramienta de Zoom es elegida por defecto. Un clic izquierdo en el mapa acerca la vista , un clic derecho aleja la vista. Sosteniendo presionado el botón izquierdo, arrastrando a la esquina opuesta y soltando el botón le permite acercar a un área de interés. Si acerca mucho la vista, notara que los valores de la celda son mostrados. Para desplazar la vista, seleccione la herramienta de desplazamiento y con el ratón haga clic y arrastre para mover el mapa. Observe los otros botones en la barra de herramientas: estos permiten hacer zoom, por ejemplo a la extensión completa.
 
-.. image:: ../../images/screenshots/800x600/saga_fullextent.png
+.. image:: /images/screenshots/800x600/saga_fullextent.png
 
 .. tip:: Saga acerca bastante rápido, si te pierdes navegando tus datos, haz clic en el botón Zoom a la extensión' en la barra de herramientas.
 
@@ -56,14 +56,14 @@ Cambie a la ventana de mapas del Espacio de Trabajo. Observara la entrada de su 
 
 Siéntete libre de probar otros valores de transparencia o incluso otros métodos de sombreado en el modulo Analytical Hillshading (en caso de que no cambies el parámetro de conjunto de salida, los cambios se harán en la rejilla que ya esta creada, Por lo tanto. veras los cambios en la vista de mapa inmediatamente).
 
-.. image:: ../../images/screenshots/1024x768/saga_withhillshade.png
+.. image:: /images/screenshots/1024x768/saga_withhillshade.png
     :scale: 80
 
 Visualización 3D
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 En un paso siguiente, tal vez quiera visualizar su mapa en 3D. Asegúrese de que su ventana de mapa esta seleccionada y presione el botón de Show 3D-View en la barra de herramientas. En el dialogo, seleccione el sistema de rejillas que contiene su conjunto de datos de elevación y especifique el conjunto de datos de Mt. St. Helens como el parámetro de elevación. Una vez que presione el botón de Okay, la vista 3D de su mapa se mostrara. Conserve presionada el botón izquierdo del ratón y mueva el ratón para girar e inclinar el mapa. Use el botón derecho para acercar/alejar o mover el mapa. También observe la barra de herramientas de la vista 3D: los botones cumplen las mismas funciones del ratón y algunas funcionalidades extra. Para cerrar la vista 3D seleccione la opción Close del menú de Ventana.
 
-.. image:: ../../images/screenshots/1024x768/saga_3d.png
+.. image:: /images/screenshots/1024x768/saga_3d.png
     :scale: 80
 
 Creando líneas de rasante
@@ -74,7 +74,7 @@ Revisa tu historial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Si seleccionas un conjunto de datos (ej. tus lineas de rasantes) en la pestaña de espacio de trabajo, puedes cambiar la pestaña propiedades del objeto a 'history' para volver a revisar que módulos y que opciones fueron usadas para crear el conjunto de datos. Esta información también se guarda cuando salvas tus archivos (en los archivos .hshp y .hgrd).
 
-.. image:: ../../images/screenshots/1024x768/saga_contour_history.png
+.. image:: /images/screenshots/1024x768/saga_contour_history.png
     :scale: 80
 
 Guardando datos

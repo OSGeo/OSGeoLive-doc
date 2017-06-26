@@ -4,12 +4,12 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: /images/project_logos/logo-geomoose.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project in Incubation
   :align: right
@@ -28,7 +28,7 @@ GeoMOOSE 运行高效，能够适应上百个图层和数据源同时运作的�
 
 该框架的用户界面易于调整。高度模块化的架构设计使得新功能的加入易于实现。
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
+.. image:: /images/screenshots/800x600/geomoose-screenshot-800x600.png
   :scale: 55 %
   :alt: geomoose-screenshot-800x600.png
   :align: right

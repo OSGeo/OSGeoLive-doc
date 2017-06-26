@@ -3,7 +3,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-cesium.png 
+.. image:: /images/project_logos/logo-cesium.png 
   :alt: project logo
   :align: right
   :target: http://cesiumjs.org
@@ -16,7 +16,7 @@ Cesium
 
 Cesium ist eine JavaScript Bibliothek zur Erstellung von 3D Globen und 2D Karten im Browser ohne jegliche Plugins. Cesium verwendet WebGL für Hardware beschleunigte Graphiken. Es ist plattformunabhängig, browserunabhängig und ist für die dynamische Datenvisualisierung optimiert.
 
-.. image:: ../../images/screenshots/1024x768/cesiumjs_3in1.png
+.. image:: /images/screenshots/1024x768/cesiumjs_3in1.png
   :scale: 50 %
   :alt: Cesium example
   :align: right

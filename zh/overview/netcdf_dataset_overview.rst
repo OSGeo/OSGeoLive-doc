@@ -4,7 +4,7 @@
 :Translator: Bu Kun (OSGeo ID: bukun)
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/logos/OSGeo_compass_with_text_square.png 
+.. image:: /images/logos/OSGeo_compass_with_text_square.png 
   :scale: 90 %
   :alt: project logo
   :align: right
@@ -36,7 +36,7 @@ JAMSTEC（日本海洋 - 地球科学技术代理署，神奈川县，日本）�
 
 
 
-.. image:: ../../images/screenshots/800x600/netcdf_annual_avg_max_temp.png
+.. image:: /images/screenshots/800x600/netcdf_annual_avg_max_temp.png
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right

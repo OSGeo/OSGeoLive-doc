@@ -7,7 +7,7 @@
 
 .. _naturalearth-overview-es:
 
-.. image:: ../../images/project_logos/logo-naturalearth.png
+.. image:: /images/project_logos/logo-naturalearth.png
   :alt: project logo
   :align: right
   :target: http://www.naturalearthdata.com/
@@ -23,7 +23,7 @@ Natural Earth proporciona a cartógrafos una solución lista para ser usada para
 
 Natural Earth resuelve el problema común al que se enfrentan muchos cartógrafos: la búsqueda de datos vectoriales para mapas de alta calidad a pequeña escala al nivel de detalle adecuado.
 
-.. image:: ../../images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

@@ -40,7 +40,7 @@ La interfície d'usuari d'OpenJUMP té els quatre (4) components bàsics que té
 Cadascuna de les llistes de capes i la seva vista corresponent estan contingudes de manera conjunta en un projecte.
 Cada sessió d'OpenJUMP pot contenir diversos projectes alhora. En aquesta guia d'inici ràpid, treballarem amb un únic projecte o dit d'una altra manera: amb una única finestra.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_01.png
+.. image:: /images/screenshots/1024x768/openjump_ss_01.png
    :scale: 55 
 
 Obrir un arxiu Shapefile d'ESRI 
@@ -55,7 +55,7 @@ Seleccioneu el fitxer i feu clic al botó d'obrir en al quadre de diàleg. Despr
 shapefile a la vista de Capes. També veurà un nova capa creada per aquestes dades a la llista de capes. 
 El nom de la capa coincidirà el nom del shapefile.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_02.png
+.. image:: /images/screenshots/1024x768/openjump_ss_02.png
    :scale: 55 
 
 Una altra opció més ràpida és arrossegar i deixar anar directament el shapefile a la Layer View.
@@ -72,10 +72,10 @@ i definir les escales mínima i màxima en les que les dades seran visibles.
 
 * Per tal d'accedir a aquest menú en MacOSX cal que feu clic sobre :guilabel:`Apple`
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_03.png
+.. image:: /images/screenshots/1024x768/openjump_ss_03.png
    :scale: 55 
    
-.. image:: ../../images/screenshots/1024x768/openjump_ss_04.png
+.. image:: /images/screenshots/1024x768/openjump_ss_04.png
    :scale: 55 
    
 Editar les geometries d'una capa
@@ -85,10 +85,10 @@ En la Llista de Capes, un cop seleccionada una capa feu clic amb el botó dret. 
 Seleccioneu l'opció anomenada "Editable" en el menú Editable. Això ens obrirà una nova barra d'eines sobre la visor de capes.
 Aquesta nova barra d'eines té un conjunt de botons que podem usar per editar les geometries.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_05.png
+.. image:: /images/screenshots/1024x768/openjump_ss_05.png
    :scale: 55 
    
-.. image:: ../../images/screenshots/1024x768/openjump_ss_06.png
+.. image:: /images/screenshots/1024x768/openjump_ss_06.png
    :scale: 55 
 
 
@@ -96,19 +96,19 @@ Anem a provar de fer una edició ràpida. El nostre objectiu serà seleccionar u
 Per fer això, primer farem clic sobre el botó que mostra la icona d'un ratolí sobre el menú d'edició.
 Seleccionarem una única geometria en el visor [Layer View]. Hauria de canviar a color groc i mostrar petits quadrats de color groc en cadascun dels vèrtexs de la figura.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_07.png
+.. image:: /images/screenshots/1024x768/openjump_ss_07.png
    :scale: 55 
 
 A continuació, feu clic sobre el botó que mostra una creu blava amb un quadrat groc en el mig, :guilabel:`Move Vertex Tool`
 (Si passeu el ratolí per damunt d'aquests botons tindreu una descripció de la seva funcionalitat).
 Ara, si ens situem damunt del visor de les dades, s'hauria de veure com el cursor del ratolí canvia de a una petita creu negra.
    
-.. image:: ../../images/screenshots/1024x768/openjump_ss_08.png
+.. image:: /images/screenshots/1024x768/openjump_ss_08.png
    :scale: 55 
    
 Intenteu usar-lo per tal de moure un vèrtex de la geometria seleccionada.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_09.png
+.. image:: /images/screenshots/1024x768/openjump_ss_09.png
    :scale: 55 
    
 Altres recursos per aprendre a treballar amb OpenJUMP

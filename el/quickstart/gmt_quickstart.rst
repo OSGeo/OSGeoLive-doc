@@ -4,7 +4,7 @@
 
 .. _gmt-quickstart-el:
  
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :scale: 100 %
   :alt: project logo
   :align: right

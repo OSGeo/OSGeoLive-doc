@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons - logo
   :align: right
@@ -23,7 +23,7 @@ Para Empezar
 
 2) Firefox abrirá la página de inicio del cliente de prueba de 52°North SOS (ver figura. 1). Por favor, seleccione la versión de la especificación que desea probar, 1.0.0 por ejemplo:
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: captura de pantalla de la página de inicio del cliente de prueba de 52°North SOS
   :align: center
@@ -32,7 +32,7 @@ Para Empezar
 
 3) El cliente de prueba aparece. Puede utilizarse para hacer peticiones al servicio usando un sencillo formulario. Una lista permite la selección de una petición predefinida de una colección, seleccionadas éstas a partir de la versión del servicio elegida anteriormente.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: captura de pantalla del cliente de prueba de 52°North SOS, versión 1.0.0
   :align: center
@@ -43,7 +43,7 @@ Para Empezar
   
 5) Pulse el botón **Send** (número [2] en la figura. 2) y la petición se enviará al servicio 52°North SOS. Como resultado, se devolverá un documento XML (ver figura 3), que permite consultar las capacidades del servicio SOS (metadatos del servicio como palabras clave, datos del proveedor, operaciones y filtros disponibles, datos de observaciones contenidos,...). Para ver la respuesta original accede a la vista de código fuente del navegador (Ctrl+U).
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_response.png
+.. image:: /images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
   :alt: captura de pantalla de la salida de 52°North SOS - Respuesta GetCapabilities codificada en XML
   :align: center
@@ -79,7 +79,7 @@ Los puntos de acceso más interesantes para aprender más sobre 52°North SOS o 
 
 * El desarrollo de esta versión de 52°North SOS ha sido apoyado por el proyecto de investigación europeo FP7 `EO2HEAVEN <http://www.eo2heaven.org/>`_ (cofinanciado por la Comisión Europea bajo el acuerdo de colaboración n°244100):
 
-.. image:: ../../images/project_logos/logo_52North_other_200px.png
+.. image:: /images/project_logos/logo_52North_other_200px.png
   :scale: 100 %
   :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
   :align: center

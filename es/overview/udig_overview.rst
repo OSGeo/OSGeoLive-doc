@@ -7,7 +7,7 @@
 
 .. _udig_overview-es:
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :alt: udig logo
   :align: right
   :target: http://udig.refractions.net/
@@ -18,7 +18,7 @@ User-friendly Desktop Internet GIS (uDig)
 SIG de Escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/1024x768/udig-overview.png
   :scale: 50
   :alt: udig workshop
   :align: right

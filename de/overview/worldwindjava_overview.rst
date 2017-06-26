@@ -4,7 +4,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logoNasaJWW.png
+.. image:: /images/project_logos/logoNasaJWW.png
   :alt: Projekt Logo
   :align: right
   :target: http://goworldwind.org/
@@ -25,7 +25,7 @@ Weltweit nutzen Organisation WorldWind um Wettermuster, Städte und Gelände,
 die Bewegungen von Flugzeugen, Fahrzeugen und Schiffen zu visulalisieren und 
 räumliche Daten zu analysieren sowie in der Lehre.
 
-.. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
+.. image:: /images/screenshots/1024x768/javaworldwind_main.png
  :scale: 50 %
  :alt: Java World Wind Example
  :align: right
@@ -33,14 +33,12 @@ räumliche Daten zu analysieren sowie in der Lehre.
 Kernfunktionalitäten
 --------------------------------------------------------------------------------
 
-* Hoch performante 3-dimensionale Virtueller Globus API und Software
- Development Kit (SDK)
+* Hoch performante 3-dimensionale Virtueller Globus API und Software Development Kit (SDK)
 * Fügt 3-dimensionale geographische Anzeige zu jeder Anwendung
 * Lauffähig unter Windows, Mac OS X, Linux, iOS und Android
 * Lauffähig in Webseiten in Java applets
 * Zugriff auf eine breite Kollektion von hoch aufgelösten Bilddaten und Höhenmodellen von NASA Servern
-* Anzeige von hoch aufgelösten Bilddaten, Höhenmodellen und geographischen
- Informationen von jeder open-standard konformen öffentlichen oder privaten Quelle
+* Anzeige von hoch aufgelösten Bilddaten, Höhenmodellen und geographischen Informationen von jeder open-standard konformen öffentlichen oder privaten Quelle
 * Große Kollektion von geometrischen und geographischen Daten
 * Einfach zu erweitern und zu modifizieren
 * Verwendet Java und OpenGL

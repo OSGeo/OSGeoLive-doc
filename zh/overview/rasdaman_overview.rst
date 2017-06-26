@@ -4,12 +4,12 @@
 :Version: OSGeo-Live 6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: project logo
   :align: right
   :target: http://rasdaman.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_incubation.png
   :scale: 100
   :alt: OSGeo Incubation Project
   :align: right
@@ -29,7 +29,7 @@ Rasdaman
 
 　　Rasdaman 系统成熟稳定，已有超过 10 年的应用历史。法国国家地理研究所使用该系统支持千万兆容量的航片数据库。在 2007 年 ACM Principles of Database Systems 会议上，栅格数据库系统专家 Rona Machlin 将其称为“此类系统中最完善的实例”。
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

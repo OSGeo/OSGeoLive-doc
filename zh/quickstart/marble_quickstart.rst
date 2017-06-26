@@ -4,7 +4,7 @@
 :Copyright: 2012 by The OSGeo Foundation
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :scale: 75 %
   :alt: project logo
   :align: right
