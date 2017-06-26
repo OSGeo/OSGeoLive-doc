@@ -23,8 +23,8 @@ entre différents systèmes de coordonnées de référence. Un système de coord
 
 Proj4 est écrit en C. Il est utilisé dans :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation et bien d'autres. 
  
-Proj4 a été traduit du C dans un grand nombre d'autres languages (Voir `The group of Proj4 projects (MetaCRS) <http://trac.osgeo.org/metacrs/wiki>`_). Certains sont utilisables via l'interface en ligne de commande.
-Ces sous-projects incluent 
+Proj4 a été traduit du C dans un grand nombre d'autres languages (Voir `The group of Proj4 projects (MetaCRS) <http://trac.osgeo.org/metacrs/wiki>`_). Certaines de ces traductions sont utilisables via l'interface en ligne de commande.
+Ces outils incluent 
 * Proj4js (JavaScript) - utilisé dans :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - utilisé dans MapGuide.
 * GeoTIFF/libgeotiff (C++).
