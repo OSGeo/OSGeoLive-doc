@@ -21,7 +21,7 @@ Proj.4
 Proj4 est une librairie qui fournit des outils pour transformer des points
 entre différents systèmes de coordonnées de référence. Un système de coordonnées géographique de référence permet de décrire tous les points de la Terre sous la forme d'un ensemble de coordonnées (comme la latitude, la longitude et l'élévation). Différents systèmes sont utilisés pour représenter les 3 dimensions de la Terre sur une carte plate de 2 dimensions.
 
-Proj4 est écrit en C++. Il est utilisé dans :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation et bien d'autres. 
+Proj4 est écrit en C. Il est utilisé dans :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation et bien d'autres. 
  
 Proj4 a été traduit du C dans un grand nombre d'autres languages (Voir `The group of Proj4 projects (MetaCRS) <http://trac.osgeo.org/metacrs/wiki>`_). Certains sont utilisables via l'interface en ligne de commande.
 Ces sous-projects incluent 
