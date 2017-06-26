@@ -1,6 +1,7 @@
 :Author: Simon Cropper
 :Reviewer: Jorge Sanz
 :Reviewer: Manuel Madrid
+:Reviewer: Mario Carrera
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -31,7 +32,7 @@ This quickstart describes how to...
 * Create a map with a graticule
 * Save the project and exit gvSIG
 * Install an add-on (OpenStreetMap service)
-* Load a WTMS layer
+* Load a WMTS layer
 
 .. contents:: Contents
 
@@ -40,7 +41,7 @@ This quickstart describes how to...
           bug only happens in the gvSIG distro for OSGeo-Live. It doesn't appear
           in a normal gvSIG installation.
 
-.. note:: Note for version gvSIG 2.1.0-2218: To load raster files the user must
+.. note:: Note for version gvSIG 2.3.1: To load raster files the user must
           have write permission in the folder where the file is. Otherwise the
           application will ask for a valid folder (with write permission). Since
           the "user" user doesn't have write permission in the "data" folder, it
@@ -305,7 +306,7 @@ Selecting the output file format
 --------------------------------------------------------------------------------
 
 #. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
-#. Select :menuselection:`Layer --> Export to... --> Shapefile` to start the export.
+#. Select :menuselection:`Layer --> Export to...` to start the export.
 #. Select *Shape Format*.
 #. Click on *Next*.
 
@@ -320,6 +321,12 @@ Selecting the output file name
 
 .. image:: /images/screenshots/1024x768/gvsig_qs_024_.png
    :scale: 55
+
+Reference system
+--------------------------------------------------------------------------------
+
+#. Choose the option *Original (EPSG:4326)* in order to keep the reference system of the view.
+#. Click on *Next*.
 
 Export options
 --------------------------------------------------------------------------------
@@ -344,31 +351,15 @@ The Result
 How to create a map
 ================================================================================
 
-Create a new map and open it
+Create a new map 
 --------------------------------------------------------------------------------
 
 #. Select the *Map* document type in the **Project Manager**.
 #. Click on the :guilabel:`New` button to create a map.
-#. An empty map will appear in its own window titled ``Map: Untitled - 0``.
-   Note that a series of points are placed over the page. This is called a
-   grid or guides and are used to snap elements to while formatting your
-   map.
+#. A new window is shown, where you can select the view to insert on the Map. 
+   Select the only view that you have and press *Accept*. 
 #. Select the :guilabel:`Maximise window` icon to have the map occupy the entire
    screen.
-
-.. image:: /images/screenshots/1024x768/gvsig_qs_027_.png
-   :scale: 55
-
-Insert a view inside the map
------------------------------------
-
-#. Click on the :guilabel:`Insert view` icon in the main menu
-#. Create a bounding box representing the extent of the map on the page by
-   clicking on the empty map while holding down the left-mouse-button and
-   dragging out the box, only letting go once the the area to be used is
-   complete. This opens the **Properties of view framework** dialog.
-#. Select the *view* created earlier.
-#. Select the :guilabel:`Accept` button to exit and return to your map.
 
 .. image:: /images/screenshots/1024x768/gvsig_qs_028_.png
    :scale: 55
@@ -401,8 +392,8 @@ Installing an add-on
 Opening the add-ons manager
 --------------------------------------------------------------------------------
 
-#. Select :menuselection:`Tools --> Addons manager`. After a while it will a appear the
-   *Install package* window.
+#. Select :menuselection:`Tools --> Addons manager`. After a while, the
+   *Install package* window will appear.
 #. Within the *Install package* window, select the option *Installation from URL*.
 #. Choose the repo URL shown in the picture.
 #. Click on the *Next* button.
@@ -413,12 +404,11 @@ Opening the add-ons manager
 Finding an add-on
 --------------------------------------------------------------------------------
 
-#. Type 'OpenStreetMap' in the *Fast filter* text box.
-#. Check the add-on called *Formats: OpenStreetMap raster tiles support*.
+#. At the add-ons manager we can find plugins and symbol libraries. 
+#. Type 'Forestry' in the *Fast filter* text box.
+#. Check the add-on called *Symbols: Forestry* (it's a symbol library).
 #. Click on *Next*.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_032_.png
-   :scale: 55
 
 Finishing the installation
 --------------------------------------------------------------------------------
@@ -427,18 +417,12 @@ Finishing the installation
 #. Then click on *Next*.
 #. Finally click on *Finish*.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_033_.png
-   :scale: 55
-
-Trying the new add-on: adding a OpenStreetMap layer
+Adding a OpenStreetMap layer
 --------------------------------------------------------------------------------
 
-As estated in the message we find after the installation of the add-on, a restart
-is needed.
-
-#. Coming back in gvSIG, within a new view, click on the :guilabel:`Add layer…` button.
+#. Now we are going to add OpenStreetMap cartography. Within a new view, in EPSG 3857, click on the :guilabel:`Add layer…` button.
 #. Choose the *OSM* tab.
-#. Select one of the available layers.
+#. Select 'Mapnik' from the available layers.
 #. Click on *Ok*.
 
 .. image:: /images/screenshots/1024x768/gvsig_qs_036_.png
@@ -504,7 +488,7 @@ A new layer has been added to the view.
 Where to from here...
 ================================================================================
 
-* `User manuals <http://www.gvsig.org/web/projects/gvsig-desktop/docs/user/view?set_language=en>`_
-* `Courses and tutorials <http://www.gvsig.org/web/docusr/learning/gvsig-courses-1/view?set_language=en>`_
-* `Videos <http://www.gvsig.org/web/projects/gvsig-desktop/tour/videos/view?set_language=en>`_
+* `User manuals <http://downloads.gvsig.org/download/web/en/build/html/index.html>`_
+* `Courses and tutorials <http://www.gvsig.com/en/diffusion/educational-material?p_p_id=122_INSTANCE_A9eo37KAqtxs&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=25973>`_
+* `Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23/learning-gvsig-in-30-minutes/>`_
 * `gvSIG Blog <http://blog.gvsig.org/category/languages/english/>`_
