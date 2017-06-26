@@ -36,8 +36,9 @@ proj
 Qu'est-ce que proj ?
 --------------------------------------------------------------------------------
 
-Proj and invproj perform respective forward  and inverse  transformation  of cartographic data to
-or from cartesian data  with  a  wide  range  of selectable projection functions.
+Proj et invproj effectuent respectivement une transformation des données cartographique
+et son inverse depuis ou vers des données cartésiennes au travers d'un large panel de
+projections.
 
 Résumé de proj
 --------------------------------------------------------------------------------
