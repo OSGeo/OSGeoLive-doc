@@ -9,9 +9,9 @@
   :align: right
   :target: http://zoo-project.org/
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: OSGeo Community Project
   :align: right
   :target: http://www.osgeo.org
 

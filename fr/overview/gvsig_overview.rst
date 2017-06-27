@@ -8,11 +8,11 @@
   :align: right
   :target: http://www.gvsig.org/
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Projet OSGeo
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 
 gvSIG Desktop

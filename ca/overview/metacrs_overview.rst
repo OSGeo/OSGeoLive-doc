@@ -11,7 +11,7 @@
 ..  :align: right
 ..  :target: http://trac.osgeo.org/metacrs/wiki
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right

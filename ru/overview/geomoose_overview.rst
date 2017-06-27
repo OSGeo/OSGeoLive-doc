@@ -9,11 +9,11 @@
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 
 GeoMoose

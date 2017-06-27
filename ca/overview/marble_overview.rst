@@ -9,7 +9,7 @@
   :align: right
   :target: http://marble.kde.org/
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project in Incubation
   :align: right

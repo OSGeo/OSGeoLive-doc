@@ -11,9 +11,9 @@
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
