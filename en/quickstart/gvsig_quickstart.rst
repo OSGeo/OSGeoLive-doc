@@ -31,7 +31,7 @@ This quickstart describes how to...
 * Create a map with a graticule
 * Save the project and exit gvSIG
 * Install an add-on (OpenStreetMap service)
-* Load a WTMS layer
+* Load a WMTS layer
 
 .. contents:: Contents
 
@@ -293,7 +293,7 @@ Unselect the polygon so you can see what has happened
 
 #. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the left-mouse-button.
 #. Select the 'Clear selection' icon in the main toolbar.
-#. You can now see that the only those towns within New South Wales are selected.
+#. You can now see that only those towns within New South Wales are selected.
 
 .. image:: /images/screenshots/1024x768/gvsig_qs_022_.png
    :scale: 55
@@ -351,7 +351,6 @@ Create a new map and open it
 #. Click on the :guilabel:`New` button to create a map.
 #. A new window will appear where we can select the view to add in our map. We select it and we press "Accept". 
 
-
 What else can you do to a map?
 --------------------------------------------------------------------------------
 
@@ -380,8 +379,8 @@ Installing an add-on
 Opening the add-ons manager
 --------------------------------------------------------------------------------
 
-#. Select :menuselection:`Tools --> Addons manager`. After a while it will a appear the
-   *Install package* window.
+#. Select :menuselection:`Tools --> Addons manager`. After a while the
+   *Install package* window will appear.
 #. Within the *Install package* window, select the option *Installation from URL*.
 #. Choose the repo URL shown in the picture.
 #. Click on the *Next* button.
@@ -409,13 +408,12 @@ Finishing the installation
 .. image:: /images/screenshots/1024x768/gvsig_qs_033_.png
    :scale: 55
 
-Althought the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
-
+Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
 
 Adding a WMTS layer
 ================================================================================
 
-WMTS is a evolution of WMS OGC standard based on tile management.
+WMTS is an evolution of WMS OGC standard based on tile management.
 
 Selecting a server
 --------------------------------------------------------------------------------

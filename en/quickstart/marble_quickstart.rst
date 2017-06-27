@@ -8,7 +8,7 @@
   :scale: 75 %
   :alt: project logo
   :align: right
-  :target: http://marble.kde.org/
+  :target: https://marble.kde.org/
 
 ********************************************************************************
 KDE-edu Marble Quickstart 
@@ -26,7 +26,7 @@ Getting Started
 
 You can:
 
-  #. Scale the globe by rotating the wheel at your mouse. To move around press the left button of your mouse and move it.
+  #. Scale the globe by rotating the wheel of your mouse. To move around press the left button of your mouse and move it.
 
   #. Marble has got 11 different views: 
 
@@ -52,7 +52,7 @@ You can:
   .. image:: /images/screenshots/800x600/marble-quickstart-3.png
     :scale: 70 %
 
-  #. Close panels by clicking the cross at the top-right corner of the panel. To close all the panels press "F9" or go to "Settings->Panels->Hide All Panels". Also you can show/hide a panel by clicking it's title at the "Settings->Panels" menu.
+  #. Close panels by clicking the cross at the top-right corner of the panel. To close all the panels press "F9" or go to "Settings->Panels->Hide All Panels". Also you can show/hide a panel by clicking its title at the "Settings->Panels" menu.
 
   .. image:: /images/screenshots/800x600/marble-quickstart-4.png
     :scale: 70 %
@@ -81,5 +81,5 @@ See the `Marble documentation <https://docs.kde.org/trunk5/en/kdeedu/marble/inde
 What Next?
 ================================================================================
 
-See the `Marble homepage <http://marble.kde.org/>`_ for more help.
+See the `Marble homepage <https://marble.kde.org/>`_ for more help.
 
