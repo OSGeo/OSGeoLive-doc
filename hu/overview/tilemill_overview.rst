@@ -104,8 +104,3 @@ Részletek
 
 **Támogatás:** http://www.tilemill.com
 
-
-Gyorstalpaló
---------------------------------------------------------------------------------
-    
-* :doc:`Gyorstalpaló dokumentáció <../quickstart/tilemill_quickstart>`

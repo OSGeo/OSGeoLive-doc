@@ -99,8 +99,3 @@ Details
 
 **Support:** http://www.tilemill.com
 
-
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart Dokumentation <../quickstart/tilemill_quickstart>`
