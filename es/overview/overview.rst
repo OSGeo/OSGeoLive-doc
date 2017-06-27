@@ -131,13 +131,13 @@ Disponible sólo en Microsoft Windows:
 
 Disponible en versiones previas de OSGeo-Live:
 
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Servicio Web de Mapas, retirado después de OSGeo-Live 5.0 (para ahorrar espacio de disco).
+* :doc:`mapguide_overview` - Servicio Web de Mapas, retirado después de OSGeo-Live 5.0 (para ahorrar espacio de disco).
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catálogo, retirado después de OSGeo-Live 6.0.
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor de Estilos, retirado después de OSGeo-Live 6.0.
 * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retirado después de OSGeo-Live 6.5
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Web Mapping, retirado después de OSGeo-Live 7.9.
+* :doc:`mapfish_overview` - Framework de Web Mapping, retirado después de OSGeo-Live 7.9.
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - Navegación GPS , retirado después de OSGeo-Live 9.0.
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Estilos y publicación, retirado después de OSGeo-Live 9.5.
+* :doc:`tilemill_overview` - Estilos y publicación, retirado después de OSGeo-Live 9.5.
 
 
 

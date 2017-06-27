@@ -34,7 +34,6 @@ Visualisation SIG en général, édition, et analyse dans le navigateur :
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Cartes Interactives compatibles pour Mobiles
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Client navigateur SIG
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Géo-portail
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Cartographie en ligne
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portail SIG Internet
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - CMS Géospatial
 * :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Content Management System Géospatial
@@ -85,7 +84,6 @@ Outils d'analyse spécifique :
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Rendu cartographique
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Rendu cartographique
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styliser et publier
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Création de fragments cartographiques
 * :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Traitement d'image
 * :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Traitement d'image
@@ -132,7 +130,9 @@ Disponible à partir des distributions OSGeo-Live antérieures :
 
 .. MapGuide temporairement désactivé pour libérer de l'espace disque ;
 
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Service Web, non inclus après OSGeo-Live 5.0
+* :doc:`mapfish_overview` - Framework de Cartographie en ligne
+* :doc:`mapguide_overview` - Service Web, non inclus après OSGeo-Live 5.0
+* :doc:`tilemill_overview` - Styliser et publier
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retiré après OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retiré après OSGeo-Live 6.0
 

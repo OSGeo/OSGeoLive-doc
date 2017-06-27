@@ -19,7 +19,6 @@ Browser Clients
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser GIS Client
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
 
 Crisis Management
@@ -107,7 +106,8 @@ Geospatial Libraries
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
+* :doc:`mapfish_overview` - Web Mapping Framework
+* :doc:`mapguide_overview` - Web Service
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based GIS
 
 .. MapGuide temporarily disabled to save on disc space; MapWindow is windows based (.net) and won't run on Ubuntu

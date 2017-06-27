@@ -87,7 +87,6 @@
 * :doc:`otb_overview` - [:doc:`Введение <../quickstart/otb_quickstart>`] - Обработка изображений
 * :doc:`R_overview`  - [:doc:`Введение <../quickstart/R_quickstart>`] - Математический анализ, статистика и программирование
 * :doc:`mapnik_overview` - [:doc:`Введение <../quickstart/mapnik_quickstart>`] - Картографический рендеринг
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Стилизация и публикация карт
 * :doc:`mapslicer_overview`  - [:doc:`Введение <../quickstart/mapslicer_quickstart>`] - Создание картографических тайлов 
 * :doc:`ossim_overview` - [:doc:`Введение <../quickstart/ossim_quickstart>`] - Обработка изображений
 * :doc:`geokettle_overview` - [:doc:`Введение <../quickstart/geokettle_quickstart>`] - Инструмент ETL (Extract, Transform and Load)
@@ -133,10 +132,11 @@
 
 Доступное в прошлых выпусках OSGeo-Live:
 
-* :doc:`mapguide_overview` - [:doc:`Введение <../quickstart/mapguide_quickstart>`] - Веб-сервис, не влючается в состав OSGeo-Live после версии 5.0 (для уменьшения объёма диска)
+* :doc:`tilemill_overview` - Стилизация и публикация карт
+* :doc:`mapguide_overview` - Веб-сервис, не влючается в состав OSGeo-Live после версии 5.0 (для уменьшения объёма диска)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Геокаталог, исключён после версии OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Редактор стилей, исключён после версии OSGeo-Live 6.0
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Фреймворк для веб-картографирования, исключён после версии OSGeo-Live 7.9.
+* :doc:`mapfish_overview` - Фреймворк для веб-картографирования, исключён после версии OSGeo-Live 7.9.
 
 
 Установщики для операционных систем Windows и Apple

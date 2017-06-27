@@ -39,7 +39,6 @@
 * :doc:`cesium_overview` - [:doc:`快速入门 <../quickstart/cesium_quickstart>`] - 基于浏览器的3维地球与2维地图
 * :doc:`geomajas_overview` - [:doc:`快速入门  <../quickstart/geomajas_quickstart>`] — 网页 GIS 服务
 * :doc:`mapbender_overview` - [:doc:`快速入门  <../quickstart/mapbender_quickstart>`] — 网络地图服务集成框架
-* :doc:`mapfish_overview` - [:doc:`快速入门  <../quickstart/mapfish_quickstart>`] — 网页制图服务框架
 * :doc:`geomoose_overview` - [:doc:`快速入门 <../quickstart/geomoose_quickstart>`] — 网页 GIS 服务集成
 * :doc:`cartaro_overview` - [:doc:`快速入门 <../quickstart/cartaro_quickstart>`] - 具备空间功能的内容管理系统
 * :doc:`geonode_overview` - [:doc:`快速入门  <../quickstart/geonode_quickstart>`] - 地理空间内容管理系统
@@ -91,7 +90,6 @@
 * :doc:`geokettle_overview` - [:doc:`快速入门 <../quickstart/geokettle_quickstart>`] — 空间信息数据库整合
 * :doc:`gmt_overview` - [:doc:`快速入门 <../quickstart/gmt_quickstart>`] — 地图制作
 * :doc:`mapnik_overview` - [:doc:`快速入门 <../quickstart/mapnik_quickstart>`] — 地图制作
-* :doc:`tilemill_overview` - [:doc:`快速入门 <../quickstart/tilemill_quickstart>`] - 地图渲染和发布
 * :doc:`mapslicer_overview`  - [:doc:`快速入门 <../quickstart/mapslicer_quickstart>`] — 栅格地图切片化
 * :doc:`ossim_overview` [:doc:`快速入门 <../quickstart/ossim_quickstart>`] - 影像处理
 * :doc:`otb_overview` - [:doc:`快速入门 <../quickstart/otb_quickstart>`] — 图像处理
@@ -143,7 +141,9 @@
 
 .. MapGuide 由于存储空间原因未收录
 
-* :doc:`mapguide_overview` - [:doc:`快速入门 <../quickstart/mapguide_quickstart>`] - 网络 GIS 服务。
+* :doc:`mapfish_overview` - 网页制图服务框架
+* :doc:`tilemill_overview` - 地图渲染和发布
+* :doc:`mapguide_overview` - 网络 GIS 服务。
 * :doc:`geopublisher_overview`- [:doc:`快速入门 <../quickstart/geopublisher_quickstart>`] — 空间数据编目、管理与发布
 * :doc:`atlasstyler_overview` - [:doc:`快速入门 <../quickstart/atlasstyler_quickstart>`] — 地图样式编辑器
 

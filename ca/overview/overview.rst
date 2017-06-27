@@ -37,7 +37,6 @@ Visualitzar, editar i analitzat dades GIS en un navegador web:
 * :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library 
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client 
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework 
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework 
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal 
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS 
 
@@ -84,7 +83,6 @@ Eines específiques per anàlisi:
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool 
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Cartographic Rendering 
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering 
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing 
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Create Map Tiles 
 * :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing 
 * :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing 
@@ -131,9 +129,11 @@ Disponible en versions anteriors dels releases d'OSGeo-Live:
 
 .. MapGuide temporalment desabilitat per estalviar espai en disc; 
 
-* :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, no inclós després d'OSGeo-Live 5.0 
+* :doc:`mapguide_overview` - Web Service, no inclós després d'OSGeo-Live 5.0 
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retirat després d'OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retirat després d'OSGeo-Live 6.0
+* :doc:`tilemill_overview` - Styling and Publishing 
+* :doc:`mapfish_overview` - Web Mapping Framework 
 
 Instal·ladors per Windows i Apple
 --------------------------------------------------------------------------------

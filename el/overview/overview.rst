@@ -83,7 +83,6 @@
 * :doc:`gmt_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart>`] - Χαρτογραφική Σύνθεση
 * :doc:`ossim_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ossim_quickstart>`] - Επεξεργασία Εικόνας
 * :doc:`mapnik_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart>`] - Χαρτογραφική Σύνθεση
-* :doc:`tilemill_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tilemill_quickstart>`] - Δημοσίευση Χαρτών με Στύλ
 * :doc:`mapslicer_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapslicer_quickstart>`] - Δημιουργία Τετραγωνιδίων Χαρτών
 * :doc:`otb_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/otb_quickstart>`] - Ανάλυση Εικόνας
 * :doc:`R_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/R_quickstart>`] - Στατιστικός Προγραμματισμός
@@ -120,16 +119,17 @@
 
 Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
 --------------------------------------------------------------------------------
-* :doc:`mapguide_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`] - Διαδικτυακή Υπηρεσία
 * :doc:`mapwindow_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapwindow_quickstart>`] - GIS βασισμένο στο περιβάλλον .NET των Microsoft Windows
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
 * :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
-* :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------------------
 Διατίθενται μόνο στην πλήρη έκδοση του OSGeo-Live:
 
+* :doc:`tilemill_overview` - Δημοσίευση Χαρτών με Στύλ
+* :doc:`mapguide_overview` - Διαδικτυακή Υπηρεσία
+* :doc:`mapfish_overview` - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9
 * `Προγράμματα εγκατάστασης Microsoft Windows <../../WindowsInstallers/>`_
 * `Προγράμματα εγκατάστασης Apple OSX <../../MacInstallers/>`_
 
