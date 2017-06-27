@@ -56,7 +56,7 @@ Publier des données spatiales sur Internet :
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. désactivé : * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Service Web de Sécurité
+.. désactivé : * :doc:`52nWSS_overview` - Service Web de Sécurité
 
 Bases de données
 --------------------------------------------------------------------------------

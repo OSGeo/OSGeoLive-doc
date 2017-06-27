@@ -62,7 +62,7 @@
 * :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
 
 
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`快速入门 <../quickstart/52nWSS_quickstart>`] — 网络空间数据安全管理
+.. disabled: * :doc:`52nWSS_overview` - 网络空间数据安全管理
 
 数据库
 --------------------------------------------------------------------------------

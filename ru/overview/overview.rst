@@ -58,7 +58,7 @@
 * :doc:`tinyows_overview` - [:doc:`Введение <../quickstart/tinyows_quickstart>`] - сервис WFS-T
 * :doc:`zoo-project_overview` - [:doc:`Введение <../quickstart/zoo-project_quickstart>`] - сервис WPS
 
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+.. disabled: * :doc:`52nWSS_overview` - Web Security Service
 
 Базы данных
 --------------------------------------------------------------------------------

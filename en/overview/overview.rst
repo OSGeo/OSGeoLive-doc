@@ -134,7 +134,7 @@ Available from prior OSGeo-Live releases:
 * :doc:`mapguide_overview` - Web Service, not included after OSGeo-Live 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retired after OSGeo-Live 6.5
+* :doc:`52nWSS_overview` - Web Security Service, retired after OSGeo-Live 6.5
 * :doc:`mapfish_overview` - Web Mapping Framework, retired after OSGeo-Live 7.9
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, retired after OSGeo-Live 9.0
 * :doc:`tilemill_overview` - Styling and Publishing, retired after OSGeo-Live 9.5

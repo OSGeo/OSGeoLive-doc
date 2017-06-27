@@ -72,9 +72,3 @@ Detalls
 **API Interfaces:** Java
 
 **Suport Comercial:** http://52north.org/
-
-
-Guia ràpida d'inici 
---------------------------------------------------------------------------------
-
-* :doc:`Documentació de la guia ràpida d'inici  <../quickstart/52nWSS_quickstart>`

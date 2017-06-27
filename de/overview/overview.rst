@@ -137,7 +137,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 * :doc:`mapguide_overview` - Web Service, nicht enthalten nach OSGeo-Live 5.0 (zum Sparen von Speicher)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, eingestellt nach der OSGeo-Live Version 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, eingestellt nach der OSGeo-Live Version 6.0
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, eingestellt nach OSGeo-Live 6.5
+* :doc:`52nWSS_overview` - Web Security Service, eingestellt nach OSGeo-Live 6.5
 * :doc:`mapfish_overview` - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, eingestellt nach OSGeo-Live 9.0
 * :doc:`tilemill_overview` - Kartengestaltung und Veröffentlichung, eingestellt nach OSGeo-Live 9.5

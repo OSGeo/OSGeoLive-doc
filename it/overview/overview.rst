@@ -57,7 +57,7 @@ Publicare dati spaziali su internet:
 * :doc:`tinyows_overview` - [:doc:`Guida rapida <../quickstart/tinyows_quickstart>`] - WFS-T Service
 * :doc:`zoo-project_overview` - [:doc:`Guida rapida <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`Guida rapida <../quickstart/52nWSS_quickstart>`] - Web Security Service
+.. disabled: * :doc:`52nWSS_overview` - Web Security Service
 
 Database
 --------------------------------------------------------------------------------

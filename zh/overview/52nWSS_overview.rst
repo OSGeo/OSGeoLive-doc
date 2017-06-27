@@ -69,8 +69,3 @@
 
 **商业支持:** http://52north.org/
 
-
-快速入门
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/52nWSS_quickstart>`

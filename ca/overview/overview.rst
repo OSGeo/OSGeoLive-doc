@@ -52,7 +52,6 @@ Piblicació de dades espacials en internet:
 * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catàleg de Metadades
 * :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS i serveis de tesel·les
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Servei WMS
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Servei Web de Seguretat
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servei de Processament Web
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servei de Sensor d'Observació
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servei WFS-T 
@@ -129,6 +128,7 @@ Disponible en versions anteriors dels releases d'OSGeo-Live:
 
 .. MapGuide temporalment desabilitat per estalviar espai en disc; 
 
+* :doc:`52nWSS_overview` - Servei Web de Seguretat
 * :doc:`mapguide_overview` - Web Service, no inclós després d'OSGeo-Live 5.0 
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retirat després d'OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retirat després d'OSGeo-Live 6.0

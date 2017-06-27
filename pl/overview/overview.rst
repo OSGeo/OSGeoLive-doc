@@ -55,7 +55,7 @@ Publikowanie danych przestrzennych w Internecie:
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - usługa WFS-T
 * :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+.. disabled: * :doc:`52nWSS_overview` - Web Security Service
 
 Systemy zarządzania bazami danych
 --------------------------------------------------------------------------------

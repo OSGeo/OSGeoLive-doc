@@ -71,9 +71,3 @@ Dettagli
 **Interfacce API:** Java
 
 **Supporto Commerciale:** http://52north.org/
-
-
-Guida Rapida
---------------------------------------------------------------------------------
-
-* :doc:`Documentazione introduttiva <../quickstart/52nWSS_quickstart>`
