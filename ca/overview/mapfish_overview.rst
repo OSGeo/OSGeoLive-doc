@@ -63,8 +63,3 @@ Detalls
 **Suport:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Guia d'inici ràpid
---------------------------------------------------------------------------------
-
-* :doc:`Documentació de la guia d'inici ràpid <../quickstart/mapfish_quickstart>`
-

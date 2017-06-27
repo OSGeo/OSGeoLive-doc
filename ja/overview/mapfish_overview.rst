@@ -60,9 +60,3 @@ WMS, WFS, WMC, KML, GML 等の多くの OGC 標準への対応は OpenLayers、G
 **サポート:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-クイックスタート
---------------------------------------------------------------------------------
-
-* :doc:`クイックスタート文書 <../quickstart/mapfish_quickstart>`
-
-

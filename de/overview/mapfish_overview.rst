@@ -58,7 +58,3 @@ Details
 
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart Dokumentation <../quickstart/mapfish_quickstart>`
