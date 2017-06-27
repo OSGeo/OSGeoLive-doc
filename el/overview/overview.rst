@@ -121,12 +121,12 @@
 --------------------------------------------------------------------------------
 * :doc:`mapwindow_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapwindow_quickstart>`] - GIS βασισμένο στο περιβάλλον .NET των Microsoft Windows
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
-* :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------------------
 Διατίθενται μόνο στην πλήρη έκδοση του OSGeo-Live:
 
+* :doc:`atlasstyler_overview` - Επεξεργαστής στύλ, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
 * :doc:`tilemill_overview` - Δημοσίευση Χαρτών με Στύλ
 * :doc:`mapguide_overview` - Διαδικτυακή Υπηρεσία
 * :doc:`mapfish_overview` - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9

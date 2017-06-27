@@ -56,10 +56,3 @@ Szczegóły
 
 **Wsparcie:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
-
-Wprowadzenie
---------------------------------------------------------------------------------
-
-* :doc:`Przejdź do wprowadzenia <../quickstart/atlasstyler_quickstart>`
-
-

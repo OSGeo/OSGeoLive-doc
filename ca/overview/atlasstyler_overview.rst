@@ -60,11 +60,3 @@ Detalls
 
 **Suport comercial:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
-
-
-Guia d'inici ràpid
---------------------------------------------------------------------------------
-
-* :doc:`Documentació de la guia d'inici ràpid <../quickstart/atlasstyler_quickstart>`
-
-

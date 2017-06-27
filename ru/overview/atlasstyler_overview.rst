@@ -69,8 +69,3 @@ SLD/SE.
 
 **Поддержка:** `www.wikisquare.de <http://www.wikisquare.de>`_
 
-
-Начало работы
---------------------------------------------------------------------------------
-
-* :doc:`Введение <../quickstart/atlasstyler_quickstart>`

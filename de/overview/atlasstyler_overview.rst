@@ -54,12 +54,3 @@ Details
 **API Schnittstellen:** Java, Swing, Geotools
 
 **Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
-
-
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart Dokumentation <../quickstart/atlasstyler_quickstart>`
-
-

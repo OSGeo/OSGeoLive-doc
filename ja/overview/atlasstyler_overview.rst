@@ -54,11 +54,3 @@ AtlasStyler
 
 **サポート:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
-
-
-クイックスタート
---------------------------------------------------------------------------------
-
-* :doc:`クイックスタート文書 <../quickstart/atlasstyler_quickstart>`
-
-
