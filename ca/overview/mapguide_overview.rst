@@ -113,10 +113,3 @@ Detalls
 
 **Suport Comercial:** http://www.osgeo.org/search_profile
 
-
-Guia d'inici ràpid
---------------------------------------------------------------------------------
-
-* :doc:`Documentació de la guia d'inici ràpid <../quickstart/mapguide_quickstart>`
-
-
