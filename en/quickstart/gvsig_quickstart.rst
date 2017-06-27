@@ -349,29 +349,8 @@ Create a new map and open it
 
 #. Select the *Map* document type in the **Project Manager**.
 #. Click on the :guilabel:`New` button to create a map.
-#. An empty map will appear in its own window titled ``Map: Untitled - 0``.
-   Note that a series of points are placed over the page. This is called a
-   grid or guides and are used to snap elements to while formatting your
-   map.
-#. Select the :guilabel:`Maximise window` icon to have the map occupy the entire
-   screen.
+#. A new window will appear where we can select the view to add in our map. We select it and we press "Accept". 
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_027_.png
-   :scale: 55
-
-Insert a view inside the map
------------------------------------
-
-#. Click on the :guilabel:`Insert view` icon in the main menu
-#. Create a bounding box representing the extent of the map on the page by
-   clicking on the empty map while holding down the left-mouse-button and
-   dragging out the box, only letting go once the the area to be used is
-   complete. This opens the **Properties of view framework** dialog.
-#. Select the *view* created earlier.
-#. Select the :guilabel:`Accept` button to exit and return to your map.
-
-.. image:: /images/screenshots/1024x768/gvsig_qs_028_.png
-   :scale: 55
 
 What else can you do to a map?
 --------------------------------------------------------------------------------
@@ -417,7 +396,7 @@ Finding an add-on
 #. Check the add-on called *Formats: OpenStreetMap raster tiles support*.
 #. Click on *Next*.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_032_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_032__.png
    :scale: 55
 
 Finishing the installation
@@ -430,30 +409,8 @@ Finishing the installation
 .. image:: /images/screenshots/1024x768/gvsig_qs_033_.png
    :scale: 55
 
-Trying the new add-on: adding a OpenStreetMap layer
---------------------------------------------------------------------------------
+Althought the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
 
-As estated in the message we find after the installation of the add-on, a restart
-is needed.
-
-#. Coming back in gvSIG, within a new view, click on the :guilabel:`Add layer…` button.
-#. Choose the *OSM* tab.
-#. Select one of the available layers.
-#. Click on *Ok*.
-
-.. image:: /images/screenshots/1024x768/gvsig_qs_036_.png
-   :scale: 55
-
-The result
---------------------------------------------------------------------------------
-
-A new layer has been added to the view. Just doing zoom over a region we could see
-the detailed Open Street Map data.
-
-.. image:: /images/screenshots/1024x768/gvsig_qs_037_.png
-   :scale: 55
-.. image:: /images/screenshots/1024x768/gvsig_qs_038_.png
-   :scale: 55
 
 Adding a WMTS layer
 ================================================================================
