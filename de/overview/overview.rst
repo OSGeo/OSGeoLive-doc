@@ -61,7 +61,7 @@ Veröffentlichung von Geodaten im Netz:
 * :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+.. disabled: * :doc:`52nWSS_overview` - Web Security Service
 
 Datenbanken
 --------------------------------------------------------------------------------
