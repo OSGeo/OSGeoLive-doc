@@ -1,3 +1,9 @@
+osgeolive-docs (11.0~beta1) xenial; urgency=medium
+
+  * Preparing 11.0 beta1 release
+
+   -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Tue, 27 Jun 2017 11:00:00 +0200
+
 osgeolive-docs (11.0~alpha1) xenial; urgency=medium
 
   * Preparing 11.0 alpha1 release
