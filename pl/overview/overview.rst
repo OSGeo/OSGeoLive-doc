@@ -68,7 +68,6 @@ Przechowywanie danych przestrzennych:
 
 Nawigacja i Mapy
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
 * :doc:`gpsprune_overview` - [:doc:`Wprowadzenie <../quickstart/gpsprune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
 * :doc:`marble_overview` - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - Wirtualny Glob
 * :doc:`opencpn_overview` - [:doc:`Wprowadzenie <../quickstart/opencpn_quickstart>`] - GPS do zastosowań marynistycznych
@@ -133,6 +132,7 @@ Dostępne w poprzednich wydaniach OSGeo-Live:
 * :doc:`mapguide_overview` - usługi sieciowe, niedostępny po OSGeo-Lice 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - atlasy multimedialne, niedostępny po OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - edytor stylów (SLD), niedostępny po OSGeo-Live 6.0
+* :doc:`gpsdrive_overview` - nawigacja GPS 
 
 Instalatory dla Windows i Apple
 --------------------------------------------------------------------------------

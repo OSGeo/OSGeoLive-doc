@@ -48,7 +48,6 @@ Desktop GIS
 
 Navigation and Maps
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
@@ -109,6 +108,7 @@ Other software of interest (not available Live)
 * :doc:`mapfish_overview` - Web Mapping Framework
 * :doc:`mapguide_overview` - Web Service
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based GIS
+* :doc:`gpsdrive_overview` - GPS Navigation
 
 .. MapGuide temporarily disabled to save on disc space; MapWindow is windows based (.net) and won't run on Ubuntu
 

@@ -136,7 +136,7 @@ Microsoft Windows のみで利用可能:
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
 * :doc:`52nWSS_overview` - Web Security Service、OSGeo-Live 6.5 以後未収録
 * :doc:`mapfish_overview` - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
-* :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
+* :doc:`gpsdrive_overview` - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
 * :doc:`tilemill_overview` - スタイリングとパブリッシング、OSGeo-Live 9.5 以降未収録
 
 

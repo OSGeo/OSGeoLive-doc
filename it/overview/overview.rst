@@ -70,7 +70,6 @@ Archiviare dati spaziali:
 
 Navigazione e Mappe
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`Guida rapida <../quickstart/gpsdrive_quickstart>`] - Navigatore GPS
 * :doc:`gpsprune_overview` - [:doc:`Guida rapida <../quickstart/gpsprune_quickstart>`] - Visualizza, modifica e converte tracce GPS
 * :doc:`marble_overview` - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Globo virtuale
 * :doc:`opencpn_overview` - [:doc:`Guida rapida <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
@@ -138,6 +137,7 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
 * :doc:`mapfish_overview` - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
+* :doc:`gpsdrive_overview` - Navigatore GPS
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

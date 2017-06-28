@@ -68,7 +68,6 @@
 Πλοήγηση και Χάρτες
 --------------------------------------------------------------------------------
 
-* :doc:`gpsdrive_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart>`] - Πλοήγηση GPS
 * :doc:`gpsprune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsprune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
 * :doc:`marble_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Εικονική Υδρόγειος
 * :doc:`opencpn_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart>`] - Ναυτικός Πλοηγός GPS
@@ -133,6 +132,7 @@
 * :doc:`mapfish_overview` - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9
 * `Προγράμματα εγκατάστασης Microsoft Windows <../../WindowsInstallers/>`_
 * `Προγράμματα εγκατάστασης Apple OSX <../../MacInstallers/>`_
+* :doc:`gpsdrive_overview` - Πλοήγηση GPS
 
 Στατιστικά
 --------------------------------------------------------------------------------

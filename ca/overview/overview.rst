@@ -69,7 +69,6 @@ Emmagatzemant dades espacials:
 
 Navegació i Mapes
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation 
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks 
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter 
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools 
@@ -134,6 +133,7 @@ Disponible en versions anteriors dels releases d'OSGeo-Live:
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retirat després d'OSGeo-Live 6.0
 * :doc:`tilemill_overview` - Styling and Publishing 
 * :doc:`mapfish_overview` - Web Mapping Framework 
+* :doc:`gpsdrive_overview` - GPS Navigation 
 
 Instal·ladors per Windows i Apple
 --------------------------------------------------------------------------------

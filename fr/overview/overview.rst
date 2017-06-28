@@ -69,7 +69,6 @@ Sauvegarde des données spatiales :
 
 Navigation et cartes
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
@@ -135,6 +134,7 @@ Disponible à partir des distributions OSGeo-Live antérieures :
 * :doc:`tilemill_overview` - Styliser et publier
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retiré après OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retiré après OSGeo-Live 6.0
+* :doc:`gpsdrive_overview` - GPS Navigation
 
 Installateurs Windows et Apple
 --------------------------------------------------------------------------------

@@ -76,7 +76,6 @@
 地图与导航
 --------------------------------------------------------------------------------
 
-* :doc:`gpsdrive_overview` - [:doc:`快速入门 <../quickstart/gpsdrive_quickstart>`] — GPS 导航
 * :doc:`gpsprune_overview` - [:doc:`快速入门 <../quickstart/gpsprune_quickstart>`] — GPS 航迹编辑器
 * :doc:`marble_overview` - [:doc:`快速入门 <../quickstart/marble_quickstart>`] - 虚拟地球
 * :doc:`opencpn_overview` - [:doc:`快速入门 <../quickstart/opencpn_quickstart>`] — 海图导航
@@ -146,6 +145,7 @@
 * :doc:`mapguide_overview` - 网络 GIS 服务。
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
+* :doc:`gpsdrive_overview` - GPS 导航
 
 Windows 和 Apple Mac 安装
 --------------------------------------------------------------------------------

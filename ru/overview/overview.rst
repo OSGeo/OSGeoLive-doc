@@ -70,7 +70,6 @@
 
 Навигация и карты
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`Введение <../quickstart/gpsdrive_quickstart>`] - GPS-навигация
 * :doc:`gpsprune_overview` - [:doc:`Введение <../quickstart/gpsprune_quickstart>`] - Просмотр, правка и конвертация GPS-треков
 * :doc:`marble_overview` - [:doc:`Введение <../quickstart/marble_quickstart>`] - Виртуальный глобус
 * :doc:`opencpn_overview` - [:doc:`Введение <../quickstart/opencpn_quickstart>`] - Морской GPS-картплоттер 
@@ -137,6 +136,7 @@
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Геокаталог, исключён после версии OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Редактор стилей, исключён после версии OSGeo-Live 6.0
 * :doc:`mapfish_overview` - Фреймворк для веб-картографирования, исключён после версии OSGeo-Live 7.9.
+* :doc:`gpsdrive_overview` - GPS-навигация
 
 
 Установщики для операционных систем Windows и Apple
