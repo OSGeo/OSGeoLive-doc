@@ -43,7 +43,7 @@ Hinweise zur Installation von Mapbender finden Sie unter https://doc.mapbender3.
 Starten Sie Mapbender
 ================================================================================
 
-#. Wählen Sie :menuselection:`Mapbender` aus dem Startmenü oder besuchen Sie http://localhost/mapbender3/app.php
+#. Wählen Sie :menuselection:`Geospatial --> Browser Clients --> Mapbender` aus dem Startmenü oder besuchen Sie http://localhost/mapbender3/app.php
 
 #. Die Anwendung braucht eine kurze Zeit, um zu starten.
 
