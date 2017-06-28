@@ -280,7 +280,7 @@ layers in :file:`/usr/local/share/geoserver`.
 
     * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
+    * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_
 
     * :doc:`MapBender <../overview/mapbender_overview>`
 
