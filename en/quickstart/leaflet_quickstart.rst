@@ -18,7 +18,7 @@ This will provide background tiles that will be used in this demo.
 
 View the example_
 
-.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start.html, since this demo uses tilestache on the live dvd.
+.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on the live dvd.
 
 Preparing your page
 ===================
