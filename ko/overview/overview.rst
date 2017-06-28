@@ -103,8 +103,8 @@ Geospatial Libraries
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
-* :doc:`geopublisher_overview` - Catalogue
-* :doc:`atlasstyler_overview` - Style Editor
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
+* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 * :doc:`52nWSS_overview` - Web Security Service
 * :doc:`mapfish_overview` - Web Mapping Framework
 * :doc:`mapguide_overview` - Web Service

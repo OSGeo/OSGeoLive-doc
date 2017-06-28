@@ -25,7 +25,7 @@ GeoTools
   :align: right
 
 Η GeoTools χρησιμοποιείται από έναν αριθμό προγραμμάτων στα οποία περιλαμβάνονται δικτυακές υπηρεσίες (web services), εργαλεία από την γραμμή εντολών και εφαρμογές με γραφική διεπαφή (desktop applications). Οι εφαρμογές OSGeo-Live στις οποίες περιλαμβάνεται η GeoTools: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_, :doc:`geomajas_overview`, `Geopublisher <http://en.geopublishing.org/Geopublisher>`_, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------

@@ -144,8 +144,8 @@
 * :doc:`mapfish_overview` - 网页制图服务框架
 * :doc:`tilemill_overview` - 地图渲染和发布
 * :doc:`mapguide_overview` - 网络 GIS 服务。
-* :doc:`geopublisher_overview`- 空间数据编目、管理与发布
-* :doc:`atlasstyler_overview` - 地图样式编辑器
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
+* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 
 Windows 和 Apple Mac 安装
 --------------------------------------------------------------------------------

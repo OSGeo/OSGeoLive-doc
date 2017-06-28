@@ -31,7 +31,7 @@ használ.
 A GeoTools-t számos projekt használja, többek között web szolgáltatások,
 parancssori programok és asztali alkalmazások. GeoTools-t használó OSGeo-Live
 alkalmazások:
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_, :doc:`geomajas_overview`, `Geopublisher <http://en.geopublishing.org/Geopublisher>`_, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Alapfunkciók
 --------------------------------------------------------------------------------

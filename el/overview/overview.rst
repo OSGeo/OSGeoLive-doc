@@ -126,7 +126,8 @@
 --------------------------------------------------------------------------------
 Διατίθενται μόνο στην πλήρη έκδοση του OSGeo-Live:
 
-* :doc:`atlasstyler_overview` - Επεξεργαστής στύλ, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retired after OSGeo-Live 6.0
+* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retired after OSGeo-Live 6.0
 * :doc:`tilemill_overview` - Δημοσίευση Χαρτών με Στύλ
 * :doc:`mapguide_overview` - Διαδικτυακή Υπηρεσία
 * :doc:`mapfish_overview` - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9

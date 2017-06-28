@@ -26,7 +26,7 @@ GeoTools és una llibreria Java de codi obert (LGPL) que proporciona mètodes qu
   :align: right
 
 GeoTools s'utilitza a força projectes, incloent serveis web, eines de línia de comandes i aplicacions d'escriptori. Algunes de les aplicacions d'OSGeo-Live que inclouen GeoTools són: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, i :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_, :doc:`geomajas_overview`, `Geopublisher <http://en.geopublishing.org/Geopublisher>`_, :doc:`geoserver_overview`, i :doc:`udig_overview`.
 
 Característiques principals
 --------------------------------------------------------------------------------

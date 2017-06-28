@@ -30,7 +30,7 @@ de l'Open Geospatial Consortium (OGC).
 GeoTools est utilisé par un grand nombre de projets y compris de services web, 
 des outils en ligne de commande et des applications de bureau. Les applications
 de l'OSGeo-live DVD qui embarque GeoTools sont :
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_, :doc:`geomajas_overview`, `Geopublisher <http://en.geopublishing.org/Geopublisher>`_, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Éléments centraux
 --------------------------------------------------------------------------------
