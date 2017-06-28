@@ -53,9 +53,3 @@ Web制图框架平台
 **技术支持：** http://trac.mapfish.org/trac/mapfish#Community
 
 
-快速入门
---------------------------------------------------------------------------------
-
-* :doc:`快速入门文档 <../quickstart/mapfish_quickstart>`
-
-

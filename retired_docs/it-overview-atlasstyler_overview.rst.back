@@ -64,10 +64,3 @@ Dettagli
 **Interfacce API:** Java, Swing, Geotools
 
 **Supporto:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
-
-Guida rapida
---------------------------------------------------------------------------------
-
-* :doc:`Documentazione introduttiva <../quickstart/atlasstyler_quickstart>`
-
-

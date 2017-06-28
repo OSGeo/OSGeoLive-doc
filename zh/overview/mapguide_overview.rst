@@ -108,9 +108,3 @@ MapGuide可以部署在Linux或Windows上，支持Apache和IIS服务器，提供
 **商业支持:** http://www.osgeo.org/search_profile
 
 
-快速入门
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/mapguide_quickstart>`
-
-

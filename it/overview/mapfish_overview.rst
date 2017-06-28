@@ -63,10 +63,3 @@ Dettagli
 
 **Supporto:** http://trac.mapfish.org/trac/mapfish#Community
 
-
-Guida rapida
---------------------------------------------------------------------------------
-
-* :doc:`Documentazione introduttiva <../quickstart/mapfish_quickstart>`
-
-

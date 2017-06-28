@@ -70,9 +70,3 @@ Details
 **API Schnittstellen:** Java
 
 **Kommerzieller Support:** http://52north.org/
-
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/52nWSS_quickstart>`

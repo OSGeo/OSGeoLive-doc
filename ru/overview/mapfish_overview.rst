@@ -65,9 +65,3 @@ MapFish совместим со стандартами OGC.
 **Поддержка:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Начало работы
---------------------------------------------------------------------------------
-
-* :doc:`Введение <../quickstart/mapfish_quickstart>`
-
-

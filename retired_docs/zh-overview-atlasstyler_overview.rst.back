@@ -56,10 +56,3 @@ AtlasStyler创建的SLD文件同支持OGC SLD标准规范的所有应用程序�
 **支持:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
 
-
-快速入门
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/atlasstyler_quickstart>`
-
-

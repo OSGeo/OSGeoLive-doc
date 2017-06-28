@@ -72,6 +72,10 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      metrics
      mac_installers
      win_installers
+     standards/toc
+
+..  standards/toc is added to avoid the standards/toc.rst:: WARNING: document isn't included in any toctree     
+
 
 
 

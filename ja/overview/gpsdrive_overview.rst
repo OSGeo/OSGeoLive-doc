@@ -54,11 +54,3 @@ GPS ナビソフト
 **対応プラットフォーム:** GNU/Linux, Mac OSX
 
 **サポート:** http://gpsdrive.de/support.shtml
-
-
-クイックスタート
---------------------------------------------------------------------------------
-
-* :doc:`クイックスタート文書 <../quickstart/gpsdrive_quickstart>`
-
-

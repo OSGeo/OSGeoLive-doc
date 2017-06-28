@@ -65,9 +65,3 @@ Szczegóły
 **Wsparcie:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Wprowadzenie
---------------------------------------------------------------------------------
-
-* :doc:`Przejdź do wprowadzenia <../quickstart/mapfish_quickstart>`
-
-

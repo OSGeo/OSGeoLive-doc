@@ -91,8 +91,3 @@ Design studio for Web Maps
 
 **Υποστήριξη:** http://www.tilemill.com
 
-
-Οδηγός Γρήγορης Εκκίνησης
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/tilemill_quickstart>`

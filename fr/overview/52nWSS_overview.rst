@@ -74,9 +74,3 @@ Détails
 **Interface de l'API:** Java
 
 **Support commercial:** http://52north.org/
-
-
-Guide de démarrage rapide
---------------------------------------------------------------------------------
-
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/52nWSS_quickstart>`

@@ -74,8 +74,3 @@ Szczegóły
 
 **Wsparcie komercyjne:** http://52north.org/
 
-
-Wprowadzenie
---------------------------------------------------------------------------------
-
-* :doc:`Przejdź do wprowadzenia <../quickstart/52nWSS_quickstart>`

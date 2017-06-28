@@ -65,11 +65,3 @@ Détails
 
 **Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
-
-
-Guide de démarrage rapide
---------------------------------------------------------------------------------
-
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/atlasstyler_quickstart>`
-
-

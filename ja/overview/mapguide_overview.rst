@@ -109,9 +109,3 @@ MapGuideはLinux または Windows上で動作し、Apache および IISウェ�
 **サポート:** http://www.osgeo.org/search_profile
 
 
-クイックスタート
---------------------------------------------------------------------------------
-
-* :doc:`クイックスタート文書 <../quickstart/mapguide_quickstart>`
-
-

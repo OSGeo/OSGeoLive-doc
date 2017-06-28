@@ -89,8 +89,3 @@ Dettagli
 
 **Supporto:** http://www.tilemill.com
 
-
-Guida rapida
---------------------------------------------------------------------------------
-    
-* :doc:`Documentazione introduttiva <../quickstart/tilemill_quickstart>`

@@ -34,7 +34,6 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądar
 * :doc:`leaflet_overview` - [:doc:`Wprowadzenie <../quickstart/leaflet_quickstart>`] -  Przyjazne Mobilne  Interaktywne Mapy
 * :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeglądarce internetowej
 * :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu
-* :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
 * :doc:`geomoose_overview` - [:doc:`Wprowadzenie <../quickstart/geomoose_quickstart>`] - portal Web GIS
 * :doc:`cartaro_overview` - [:doc:`Wprowadzenie <../quickstart/cartaro_quickstart>`] - Geoprzestrzenny CMS
 * :doc:`geonode_overview` - [:doc:`Wprowadzenie <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
@@ -56,7 +55,7 @@ Publikowanie danych przestrzennych w Internecie:
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - usługa WFS-T
 * :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+.. disabled: * :doc:`52nWSS_overview` - Web Security Service
 
 Systemy zarządzania bazami danych
 --------------------------------------------------------------------------------
@@ -69,7 +68,6 @@ Przechowywanie danych przestrzennych:
 
 Nawigacja i Mapy
 --------------------------------------------------------------------------------
-* :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
 * :doc:`gpsprune_overview` - [:doc:`Wprowadzenie <../quickstart/gpsprune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
 * :doc:`marble_overview` - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - Wirtualny Glob
 * :doc:`opencpn_overview` - [:doc:`Wprowadzenie <../quickstart/opencpn_quickstart>`] - GPS do zastosowań marynistycznych
@@ -83,7 +81,6 @@ Narzędzia do zaawansowanych analiz:
 * :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
 * :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
 * :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
-* :doc:`tilemill_overview` - [:doc:`Wprowadzenie <../quickstart/tilemill_quickstart>`] - stylizacja i publikacja
 * :doc:`mapslicer_overview` - [:doc:`Wprowadzenie <../quickstart/mapslicer_quickstart>`] - tworzenie kafli map
 * :doc:`ossim_overview` - [:doc:`Wprowadzenie <../quickstart/ossim_quickstart>`] - przetwarzanie zobrazowań 
 * :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
@@ -130,9 +127,12 @@ Dostępne w poprzednich wydaniach OSGeo-Live:
 
 .. MapGuide jest czasowo wyłączony w celu zaoszczędzenia przestrzeni dyskowej; MapWindow nie zadziała na Ubuntu
 
-* :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe, niedostępny po OSGeo-Lice 5.0
+* :doc:`mapfish_overview` - framework map internetowych
+* :doc:`tilemill_overview` - stylizacja i publikacja
+* :doc:`mapguide_overview` - usługi sieciowe, niedostępny po OSGeo-Lice 5.0
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - atlasy multimedialne, niedostępny po OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - edytor stylów (SLD), niedostępny po OSGeo-Live 6.0
+* :doc:`gpsdrive_overview` - nawigacja GPS 
 
 Instalatory dla Windows i Apple
 --------------------------------------------------------------------------------

@@ -110,9 +110,3 @@ Détails
 **Support commercial:** http://www.osgeo.org/search_profile
 
 
-Guide de démarrage rapide
---------------------------------------------------------------------------------
-
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/mapguide_quickstart>`
-
-

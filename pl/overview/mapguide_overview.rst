@@ -124,8 +124,3 @@ Szczegóły
 **Wsparcie komercyjne:** http://www.osgeo.org/search_profile
 
 
-Wprowadzenie
---------------------------------------------------------------------------------
-
-* :doc:`Przejdź do wprowadzenia <../quickstart/mapguide_quickstart>`
-

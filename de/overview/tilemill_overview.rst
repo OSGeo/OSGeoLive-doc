@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, Jirotech
-Translator: Astrid Emde
+:Translator: Astrid Emde
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -24,7 +24,7 @@ existierender räumlicher Datenquelle.
   If MBTiles is an Open Standard, we probably should provide a link to it.
 
 Die Webanwendungen können über Tooltips, klickbare Popups, interaktive Bilder, SVG Symbole, Texte und zahlreiche Ebenen verfügen.
- Angepasste Karten können in verschiedene Formate exportiert werden: .png, .pdf, .svg und MBTiles. 
+Angepasste Karten können in verschiedene Formate exportiert werden: .png, .pdf, .svg und MBTiles. 
 Die MBTiles Spezifikation definiert, wie Kacheln in einer einzigen Datei als SQLite Datenbank gespeichert werden.
 
 Daten können Vektordaten (CSV, Shape-Dateien, KML, GeoJSON), 
@@ -81,8 +81,8 @@ Unterstützte Standards
 --------------------------------------------------------------------------------
 
 * TileMill unterstützt keine OGC Standards wie WMS oder WFS.
- Stattdessen nutzt es z/x/y Kachel-Schemata, die auch von Google und OSM genutzt werden und
- basiert auf der MBTiles und UTFGrid Spezifikation.
+    Stattdessen nutzt es z/x/y Kachel-Schemata, die auch von Google und OSM genutzt werden und
+     basiert auf der MBTiles und UTFGrid Spezifikation.
 
 Details
 --------------------------------------------------------------------------------
@@ -99,8 +99,3 @@ Details
 
 **Support:** http://www.tilemill.com
 
-
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart Dokumentation <../quickstart/tilemill_quickstart>`

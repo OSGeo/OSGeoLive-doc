@@ -64,9 +64,3 @@ Détails
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Guide de démarrage rapide
---------------------------------------------------------------------------------
-
-* :doc:`Documentation du guide de démarrage rapide <../quickstart/mapfish_quickstart>`
-
-

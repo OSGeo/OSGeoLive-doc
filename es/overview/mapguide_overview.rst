@@ -123,7 +123,3 @@ Detalles
 **Soporte:** http://www.osgeo.org/search_profile
 
 
-Guía rápida
---------------------------------------------------------------------------------
-
-* :doc:`Guía de inicio rápido<../quickstart/mapguide_quickstart>`
