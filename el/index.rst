@@ -68,6 +68,10 @@
      download
      sponsors
      sponsors_osgeo
+     standards/toc
+
+..  standards/toc is added to avoid the standards/toc.rst:: WARNING: document isn't included in any toctree     
+
 
 Παρουσίαση
 --------------------------------------------------------------------------------
