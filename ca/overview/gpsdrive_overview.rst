@@ -56,11 +56,3 @@ Detalls
 **Sistemes operatius:** GNU/Linux, Mac OSX
 
 **Suport:** http://gpsdrive.de/support.shtml
-
-
-Guia d'inici ràpid
---------------------------------------------------------------------------------
-
-* :doc:`Guia ràpida <../quickstart/gpsdrive_quickstart>`
-
-

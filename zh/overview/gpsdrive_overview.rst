@@ -52,11 +52,3 @@ GPS 导航软件
 **支持平台：** GNU/Linux, Mac OSX
 
 **技术支持：** http://gpsdrive.de/support.shtml
-
-
-快速入门
---------------------------------------------------------------------------------
-
-* :doc:`快速入门文档  <../quickstart/gpsdrive_quickstart>`
-
-

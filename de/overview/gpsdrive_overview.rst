@@ -55,11 +55,3 @@ Details
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX
 
 **Support:** http://gpsdrive.de/support.shtml
-
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart Dokumentation <../quickstart/gpsdrive_quickstart>`
-
-
