@@ -294,7 +294,7 @@ Unselect the polygon so you can see what has happened
 
 #. Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the left-mouse-button.
 #. Select the 'Clear selection' icon in the main toolbar.
-#. You can now see that the only those towns within New South Wales are selected.
+#. You can now see that only those towns within New South Wales are selected.
 
 .. image:: /images/screenshots/1024x768/gvsig_qs_022_.png
    :scale: 55
@@ -409,6 +409,8 @@ Finding an add-on
 #. Check the add-on called *Symbols: Forestry* (it's a symbol library).
 #. Click on *Next*.
 
+.. image:: /images/screenshots/1024x768/gvsig_qs_032__.png
+   :scale: 55
 
 Finishing the installation
 --------------------------------------------------------------------------------
@@ -425,7 +427,7 @@ Adding a OpenStreetMap layer
 #. Select 'Mapnik' from the available layers.
 #. Click on *Ok*.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_036_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_036__.png
    :scale: 55
 
 The result
@@ -438,11 +440,15 @@ the detailed Open Street Map data.
    :scale: 55
 .. image:: /images/screenshots/1024x768/gvsig_qs_038_.png
    :scale: 55
+.. image:: /images/screenshots/1024x768/gvsig_qs_033_.png
+   :scale: 55
+
+Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
 
 Adding a WMTS layer
 ================================================================================
 
-WMTS is a evolution of WMS OGC standard based on tile management.
+WMTS is an evolution of WMS OGC standard based on tile management.
 
 Selecting a server
 --------------------------------------------------------------------------------

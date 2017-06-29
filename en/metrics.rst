@@ -121,7 +121,6 @@ Specific analysis tools:
   <script type="text/javascript" src="https://www.openhub.net/p/ossim/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/otb/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/R-project_/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/proj4/widgets/project_factoids_stats?format=js"></script>
 
 Domain Specific GIS
 --------------------------------------------------------------------------------
@@ -150,6 +149,19 @@ Geospatial Libraries
   <script type="text/javascript" src="https://www.openhub.net/p/liblas/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/python-iris/widgets/project_factoids_stats?format=js"></script>
 
+Coordinate Reference System Libraries 
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+  <script type="text/javascript" src="https://www.openhub.net/p/proj4/widgets/project_factoids_stats?format=js"></script>
+
+Missing:
+
+* Proj4js (JavaScript) - used in OpenLayers.
+* CS-Map (C++) - used in MapGuide.
+* GeoTIFF/libgeotiff (C++).
+* Proj4J (Java).
 
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------

@@ -30,8 +30,7 @@ Running
 ================================================================================
 
 To run SAGA GIS on the Live DVD, open the Desktop GIS group on the Desktop and
-click
-on the SAGA link.
+click on the SAGA link.
 
 When opening SAGA for the first time, you are presented with 3 subwindows: the
 Manager, the object Properties and the Messages window. The information in the
@@ -106,12 +105,12 @@ Creating a shaded relief map view
 We will enhance the map display by calculating a shaded relief map. 
 
 #. Switch to the Tools tab of the Manager window and click on the triangle left to the
-   **Terrain Analysis - Lightning, Visibility** module library: the list with the modules of
+   **Terrain Analysis - Lighting, Visibility** module library: the list with the modules of
    this library will show up. 
 #. Now select the Analytical Hillshading module and then select the Settings
    tab of the Properties window. This will show up the module parameters (also
    have a look at the Description tab, which will display more information about
-   the module and it's parameters). 
+   the module and its parameters). 
 #. Click in the right column of the Grid system
    parameter (where [not set] is displayed) and select the grid system of the Mt.
    St. Helens dataset (**30; 312x 458y; 557970x 5108130y**). 
@@ -202,7 +201,7 @@ also kept when you save your files (in .mshp and .mgrd files).
 .. image:: /images/screenshots/1024x768/saga_contour_history.png
     :scale: 80
 
-.. tip:: You can create a tool chain from you history - which allows you to
+.. tip:: You can create a tool chain from your history - which allows you to
  run a chain of modules again with fixed options. A tutorial can be found at
  https://rohanfisher.wordpress.com/saga-tool-chains/
 
@@ -220,9 +219,9 @@ Importing/Exporting data
 Under the hood SAGA can also use the GDAL library for opening different raster
 and vector formats. The easiest way is to use **File|Grid|Open** for raster
 data and **File|Shapes|Open** for vector data. For rasters among others geotiff
-is supported. Note that you an also just drag and drop files on SAGA. 
+is supported. Note that you can also just drag and drop files on SAGA. 
 More advanced options and modules are present under
-**Geoprocessing|File|Grid**. If you simply want to open  
+**Geoprocessing|File|Grid**.
 
 .. tip:: SAGA GIS grid format is supported by GDAL since version 1.7.0. Grid
  Files saved by SAGA can be opened by many other programs using GDAL. However,

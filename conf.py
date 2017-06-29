@@ -261,6 +261,7 @@ rst_epilog="""
 .. |version-gmt| replace:: 5.2.1
 .. |version-gpsprune| replace:: 18.6.0
 .. |version-grass| replace:: 7.2.0
+.. |version-ideditor| replace:: 2.2.2
 .. |version-iris| replace:: 1.9.2
 .. |version-istsos| replace:: 2.3.1
 .. |version-jupyter| replace:: 4.2
