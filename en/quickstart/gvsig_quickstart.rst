@@ -1,6 +1,7 @@
 :Author: Simon Cropper
 :Reviewer: Jorge Sanz
 :Reviewer: Manuel Madrid
+:Reviewer: Mario Carrera
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -40,7 +41,7 @@ This quickstart describes how to...
           bug only happens in the gvSIG distro for OSGeo-Live. It doesn't appear
           in a normal gvSIG installation.
 
-.. note:: Note for version gvSIG 2.1.0-2218: To load raster files the user must
+.. note:: Note for version gvSIG 2.3.1: To load raster files the user must
           have write permission in the folder where the file is. Otherwise the
           application will ask for a valid folder (with write permission). Since
           the "user" user doesn't have write permission in the "data" folder, it
@@ -305,7 +306,7 @@ Selecting the output file format
 --------------------------------------------------------------------------------
 
 #. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
-#. Select :menuselection:`Layer --> Export to... --> Shapefile` to start the export.
+#. Select :menuselection:`Layer --> Export to...` to start the export.
 #. Select *Shape Format*.
 #. Click on *Next*.
 
@@ -320,6 +321,12 @@ Selecting the output file name
 
 .. image:: /images/screenshots/1024x768/gvsig_qs_024_.png
    :scale: 55
+
+Reference system
+--------------------------------------------------------------------------------
+
+#. Choose the option *Original (EPSG:4326)* in order to keep the reference system of the view.
+#. Click on *Next*.
 
 Export options
 --------------------------------------------------------------------------------
@@ -344,12 +351,14 @@ The Result
 How to create a map
 ================================================================================
 
-Create a new map and open it
+Create a new map 
 --------------------------------------------------------------------------------
 
 #. Select the *Map* document type in the **Project Manager**.
 #. Click on the :guilabel:`New` button to create a map.
-#. A new window will appear where we can select the view to add in our map. We select it and we press "Accept". 
+#. A new window is shown, where you can select the view to insert on the Map. 
+   Select the only view that you have and press *Accept*. 
+#. The map will appear with the view selected.
 
 What else can you do to a map?
 --------------------------------------------------------------------------------
@@ -379,7 +388,7 @@ Installing an add-on
 Opening the add-ons manager
 --------------------------------------------------------------------------------
 
-#. Select :menuselection:`Tools --> Addons manager`. After a while the
+#. Select :menuselection:`Tools --> Addons manager`. After a while, the
    *Install package* window will appear.
 #. Within the *Install package* window, select the option *Installation from URL*.
 #. Choose the repo URL shown in the picture.
@@ -391,8 +400,9 @@ Opening the add-ons manager
 Finding an add-on
 --------------------------------------------------------------------------------
 
-#. Type 'OpenStreetMap' in the *Fast filter* text box.
-#. Check the add-on called *Formats: OpenStreetMap raster tiles support*.
+#. At the add-ons manager we can find plugins and symbol libraries. 
+#. Type 'Forestry' in the *Fast filter* text box.
+#. Check the add-on called *Symbols: Forestry* (it's a symbol library).
 #. Click on *Next*.
 
 .. image:: /images/screenshots/1024x768/gvsig_qs_032__.png
@@ -405,10 +415,32 @@ Finishing the installation
 #. Then click on *Next*.
 #. Finally click on *Finish*.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_033_.png
+Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
+
+
+Adding a OpenStreetMap layer
+================================================================================
+
+#. Now we are going to add OpenStreetMap cartography. Within a new view, in EPSG 3857, click on the :guilabel:`Add layer…` button.
+#. Choose the *OSM* tab.
+#. Select 'Mapnik' from the available layers.
+#. Click on *Ok*.
+
+.. image:: /images/screenshots/1024x768/gvsig_qs_036__.png
    :scale: 55
 
-Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
+The result
+--------------------------------------------------------------------------------
+
+A new layer has been added to the view. Just doing zoom over a region we could see
+the detailed Open Street Map data.
+
+.. image:: /images/screenshots/1024x768/gvsig_qs_037_.png
+   :scale: 55
+.. image:: /images/screenshots/1024x768/gvsig_qs_038_.png
+   :scale: 55
+
+
 
 Adding a WMTS layer
 ================================================================================
@@ -459,7 +491,7 @@ A new layer has been added to the view.
 Where to from here...
 ================================================================================
 
-* `User manuals <http://www.gvsig.org/web/projects/gvsig-desktop/docs/user/view?set_language=en>`_
-* `Courses and tutorials <http://www.gvsig.org/web/docusr/learning/gvsig-courses-1/view?set_language=en>`_
-* `Videos <http://www.gvsig.org/web/projects/gvsig-desktop/tour/videos/view?set_language=en>`_
+* `User manuals <http://downloads.gvsig.org/download/web/en/build/html/index.html>`_
+* `Courses and tutorials <http://www.gvsig.com/en/diffusion/educational-material?p_p_id=122_INSTANCE_A9eo37KAqtxs&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=25973>`_
+* `Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23/learning-gvsig-in-30-minutes/>`_
 * `gvSIG Blog <http://blog.gvsig.org/category/languages/english/>`_

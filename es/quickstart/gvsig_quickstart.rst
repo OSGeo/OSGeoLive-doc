@@ -443,7 +443,7 @@ Encontrar el complemento deseado
 #. Seleccione el complemento *Formats: OpenStreetMap raster tiles support*.
 #. Haga clic en *Next*.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_032_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_032__.png
    :scale: 55
 
 Finalizando la instalación
@@ -468,7 +468,7 @@ complemento, es necesario reiniciar gvSIG.
 #. Seleccione una de las capas disponibles.
 #. Haga clic en *Ok*.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_036_.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_036__.png
    :scale: 55
 
 El resultado
