@@ -9,11 +9,11 @@
   :align: right
   :target: http://geoserver.org/
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Проект OSGeo
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 GeoServer
 ================================================================================
