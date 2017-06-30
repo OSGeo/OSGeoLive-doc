@@ -16,7 +16,7 @@ http:///livedvd/docs/en/presentation/
 
 ================================================================================
 
-:Title: Lightening Overview of the best Geospatial Open Source
+:Title: Lightning Overview of the best Geospatial Open Source
 
 :Description:
 
