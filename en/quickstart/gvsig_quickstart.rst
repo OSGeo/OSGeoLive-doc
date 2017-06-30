@@ -358,11 +358,7 @@ Create a new map
 #. Click on the :guilabel:`New` button to create a map.
 #. A new window is shown, where you can select the view to insert on the Map. 
    Select the only view that you have and press *Accept*. 
-#. Select the :guilabel:`Maximise window` icon to have the map occupy the entire
-   screen.
-
-.. image:: /images/screenshots/1024x768/gvsig_qs_028_.png
-   :scale: 55
+#. The map will appear with the view selected.
 
 What else can you do to a map?
 --------------------------------------------------------------------------------
@@ -419,8 +415,11 @@ Finishing the installation
 #. Then click on *Next*.
 #. Finally click on *Finish*.
 
+Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
+
+
 Adding a OpenStreetMap layer
---------------------------------------------------------------------------------
+================================================================================
 
 #. Now we are going to add OpenStreetMap cartography. Within a new view, in EPSG 3857, click on the :guilabel:`Add layer…` button.
 #. Choose the *OSM* tab.
@@ -440,10 +439,8 @@ the detailed Open Street Map data.
    :scale: 55
 .. image:: /images/screenshots/1024x768/gvsig_qs_038_.png
    :scale: 55
-.. image:: /images/screenshots/1024x768/gvsig_qs_033_.png
-   :scale: 55
 
-Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
+
 
 Adding a WMTS layer
 ================================================================================
