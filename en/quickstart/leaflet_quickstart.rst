@@ -6,7 +6,7 @@
 Leaflet Quickstart
 ********************************************************************************
 
-Leaflet is an JavaScript library for browser based, mobile-friendly, interactive maps.  It is light weight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
+Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive maps.  It is lightweight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
 
 .. contents:: Contents
 
@@ -22,7 +22,7 @@ View the example_
 
 Preparing your page
 ===================
-Before writing any code for the map, you need to do the following prerpation steps on your page:
+Before writing any code for the map, you need to do the following preparation steps on your page:
 
 * Include Leaflet CSS files in the head section of your document
 
@@ -147,7 +147,7 @@ Every time something happens in Leaflet, e.g. user clicks on a marker or map zoo
 
 Each object has its own set of events - see documentation_ for details. The first argument of the listener function is an event object - it contains useful information about the event that happened. For example, map click event object (e in the example above) has latlng property which is a location at which the click occured.
 
-Lets improve our example by using a popup instead of an alert:
+Let's improve our example by using a popup instead of an alert:
 
 .. code-block:: javascript
 
