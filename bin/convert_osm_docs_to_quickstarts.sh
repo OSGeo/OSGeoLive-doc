@@ -2,7 +2,7 @@
 #################################################
 # 
 # Purpose: Partially convert source documentation from LearnOSM git
-# repository to OSGeo-Live git repository, keeping git history.
+# repository to OSGeoLive git repository, keeping git history.
 # Source: http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/
 #
 # Then convert from MD format to RST format
@@ -32,7 +32,7 @@ echo aaa1
 #git clone https://github.com/hotosm/learnosm.git
 
 echo aaa2
-# Move from OSM Directory to OSGeo-Live directory stucture
+# Move from OSM Directory to OSGeoLive directory stucture
 mkdir -p OSGeoLive-doc
 mkdir -p OSGeoLive-doc/OSM
 mkdir -p OSGeoLive-doc/OSM/images
@@ -44,45 +44,46 @@ mkdir -p OSGeoLive-doc/OSM/en/quickstart
 
 echo aaa3
 git mv images/beginner/id-editor* OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git rm images/beginner/id-editor*it.png images/beginner/id-editor*de.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git rm -f OSGeoLive-doc/OSM/images/screenshots/1024x768/id-editor*it.png OSGeoLive-doc/OSM/images/screenshots/1024x768/id-editor*de.png 
 
-git mv images/josm/josm-website.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/windows-installer.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm-splash-page.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_preferences.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_look-and-feel.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_open-file.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_sample-file.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_scale-bar.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_select-tool.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_draw-tool.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm-website.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/windows-installer.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm-splash-page.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_preferences.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_look-and-feel.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_open-file.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_sample-file.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_scale-bar.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_select-tool.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_draw-tool.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
 
-git mv _posts/en/1900-12-21-start-josm.md OSGeoLive-doc/en/quickstart/jsom_quickstart.rst
-git mv _posts/en/0200-12-23-id-editor.md OSGeoLive-doc/en/quickstart/ideditor_quickstart.rst
+git mv _posts/en/1900-12-21-start-josm.md OSGeoLive-doc/OSM/en/quickstart/jsom_quickstart.rst
+git mv _posts/en/0200-12-23-id-editor.md OSGeoLive-doc/OSM/en/quickstart/ideditor_quickstart.rst
 echo aaa4
 
-git commit -m"Moved OSM id-editor and JSON guides to OSGeo-Live quickstart directory stucture" .
+git commit -m"Moved OSM id-editor and JSON guides to OSGeoLive quickstart directory stucture" .
 
 echo aaa5
+
 # Convert from MD format to RST
 for file in \
-  OSGeoLive-doc/en/quickstart/jsom_quickstart.rst \
-  OSGeoLive-doc/en/quickstart/ideditor_quickstart.rst \
+  OSGeoLive-doc/OSM/en/quickstart/jsom_quickstart.rst \
+  OSGeoLive-doc/OSM/en/quickstart/ideditor_quickstart.rst \
 ; do
 
   echo aaa6
-  pandoc --from=markdown --to=rst --output=tmp {$file}
-  mv tmp ${file}
-  git commit -m"Changed from markdown to RST format" ${file}
+  pandoc --from=markdown --to=rst --output=tmp $file
+  mv tmp $file
+  git commit -m"Changed from markdown to RST format" $file
 
   echo aaa7
   # Change the location of images
-  sed -e's#/images/beginner/#/images/screenshots/1024x768/#g' ${file} > tmp
-  mv tmp ${file}
-  git commit -m"changed image path to new location" ${file}
+  sed -e's#/images/beginner/#/images/screenshots/1024x768/#g' $file > tmp
+  mv tmp $file
+  git commit -m"changed image path to new location" $file
 done
 echo aaa8
 
-# Trim OSM's git history to just the directy to be copied to OSGeo-Live
+# Trim OSM's git history to just the directy to be copied to OSGeoLive
 git filter-branch --subdirectory-filter OSGeoLive-doc -- --all
 
