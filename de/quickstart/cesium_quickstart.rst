@@ -47,10 +47,10 @@ Auswahl der Kartenebene
 
 Was kommt als Nächstes?
 ==============================
-* Es gibt Video Tutorials `unter <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
+* Es gibt Video Tutorials `auf Youtube <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
 
-* Webbasierte Tutorials `unter <http://cesiumjs.org/tutorials.html>`_.
+* Webbasierte Tutorials `auf cesiumjs.org <http://cesiumjs.org/tutorials.html>`_.
 
-* Sie können einige schnelle Anwendungen  über die Sandburg Webseite unter der folgenden Adresse entwickeln `Link <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_.
+* Sie können einige einfache Anwendungen über die cesiumjs Webseite unter der folgenden Adresse `entwickeln <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_.
 
-* Eine ausführliche Dokumentation finden Sie lokal `unter <http://localhost/cesium/>`_.
+* Eine ausführliche Dokumentation finden Sie `lokal vorinstalliert <http://localhost/cesium/>`_.

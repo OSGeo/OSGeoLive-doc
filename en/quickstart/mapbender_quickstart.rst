@@ -114,7 +114,7 @@ Create a new application by providing basic information about your application. 
 
 #. define a title and description for your application
 
-#. define an URL title which will be used in the URL to open te application. It can be the same as the title
+#. define an URL title which will be used in the URL to open the application. It can be the same as the title
 
 #. upload an image file as screenshot for the application overview
 
@@ -145,7 +145,7 @@ You can delete an application from the menu item :menuselection:`Applications` w
 Export / Import applications and sources
 ================================================================================
 
-You can export applications as JSON or YAML with :menuselection:`Applications --> Export`. You can chose one or more applications to export and you can also export the sources which are published in the applications.
+You can export applications as JSON or YAML with :menuselection:`Applications --> Export`. You can choose one or more applications to export and you can also export the sources which are published in the applications.
 
   .. image:: /images/screenshots/800x600/mapbender3_application_export.png
      :scale: 70 %
@@ -189,7 +189,7 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 
 #. Hit **Load** to load the Service to the repository.
 
-#. After successfull registration of the service Mapbender will display an overview on the information that was provided by the service.
+#. After successful registration of the service Mapbender will display an overview on the information that was provided by the service.
 
   .. image:: /images/screenshots/800x600/mapbender3_wms_load.png
      :scale: 70 %
@@ -208,7 +208,7 @@ https://osm-demo.wheregroup.com/service
 
 Add Service to Application
 ================================================================================
-After the successfull upload of a WMS you want to add your WMS to an application.
+After the successful upload of a WMS you want to add your WMS to an application.
 
 #. Choose :menuselection:`Applications --> edit-Button --> Layers --> Edit-Button`. 
 
@@ -246,7 +246,7 @@ Service configuration
 * basesource
 * proxy - if active the service will be requested by Mapbender and not directly
 * transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)
-* tiled - you can request a WMS in tiles, default is not tiled (may be a good choice if you map is very big an the WMS service does not support the width/height)
+* tiled - you can request a WMS in tiles, default is not tiled (may be a good choice if your map is very big and the WMS service does not support the width/height)
 * BBOX factor
 * tile buffer
 
