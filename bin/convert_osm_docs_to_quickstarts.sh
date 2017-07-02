@@ -34,18 +34,28 @@ echo aaa1
 echo aaa2
 # Move from OSM Directory to OSGeo-Live directory stucture
 mkdir -p OSGeoLive-doc
-mkdir -p OSGeoLive-doc/images
-mkdir -p OSGeoLive-doc/images/screenshots
-mkdir -p OSGeoLive-doc/images/screenshots/1024x768
-mkdir -p OSGeoLive-doc/en
-mkdir -p OSGeoLive-doc/en/quickstart
+mkdir -p OSGeoLive-doc/OSM
+mkdir -p OSGeoLive-doc/OSM/images
+mkdir -p OSGeoLive-doc/OSM/images/screenshots
+mkdir -p OSGeoLive-doc/OSM/images/screenshots/1024x768
+mkdir -p OSGeoLive-doc/OSM/en
+mkdir -p OSGeoLive-doc/OSM/en/quickstart
 
-git add OSGeoLive-doc
-got commit -m"Add OSGeoLive-doc directory"
 
 echo aaa3
-git mv images/beginner/id-editor* OSGeoLive-doc/images/screenshots/1024x768/
-git mv images/beginner/id-editor* OSGeoLive-doc/images/screenshots/1024x768/
+git mv images/beginner/id-editor* OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git rm images/beginner/id-editor*it.png images/beginner/id-editor*de.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+
+git mv images/josm/josm-website.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/windows-installer.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm-splash-page.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_preferences.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_look-and-feel.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_open-file.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_sample-file.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_scale-bar.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_select-tool.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm_draw-tool.png OSGeo-Live-doc/OSM/images/screenshots/1024x768/
 
 git mv _posts/en/1900-12-21-start-josm.md OSGeoLive-doc/en/quickstart/jsom_quickstart.rst
 git mv _posts/en/0200-12-23-id-editor.md OSGeoLive-doc/en/quickstart/ideditor_quickstart.rst
