@@ -78,10 +78,10 @@ Then under "Simple-web-gis-products" select "CESIUM".
 .. Cameron Comments:
   * Suggest rename Interact to Interactive
 
-Here there are a series of example using the cesium javascript library.
+Here there is a series of examples using the cesium javascript library.
 Let's click on "CesiumWidget Interact-Example", which uses the widget extension, some python libraries and cesium-js.
 
-From the toolbar on top of the notebook chose: cell->run all. If everything worked as planned you should be able to see the results at the bottom of the page.
+From the toolbar on top of the notebook choose: cell->run all. If everything worked as planned you should be able to see the results at the bottom of the page.
 
 .. image:: /images/screenshots/1024x768/jupyter5.png
    :scale: 60 %
@@ -89,7 +89,7 @@ From the toolbar on top of the notebook chose: cell->run all. If everything work
 Change code
 ================================================================================
 
-Now lets change some of the code:
+Now let's change some of the code:
 
 In the code cell ``in [8]`` we generated a python dictionary based on some keywords (location names) with empty values:
 
@@ -115,7 +115,7 @@ Try to add or replace new keywords like we did in ``In [8]``
 
     in []:  mynewplace = {'Cairns, AU':'', 'Cooktown, AU':'', 'Darvin, AU':''}
 
-and re run ``In [9] [10] [11]`` you will see the newly created dictionary is now used in the drop down menu to select the new location and zoom-to withing the Cesium globe.
+and re run ``In [9] [10] [11]`` you will see the newly created dictionary is now used in the drop down menu to select the new location and zoom-to within the Cesium globe.
 
 What Next?
 ================================================================================

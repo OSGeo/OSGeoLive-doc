@@ -26,9 +26,6 @@ General GIS viewing, editing, and analysis on the desktop:
   <script type="text/javascript" src="https://www.openhub.net/p/9819/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/saga-gis/widgets/project_factoids_stats?format=js"></script>
 
-Missing:
-
-* :doc:`overview/kosmo_overview`
 
 Browser Facing GIS
 --------------------------------------------------------------------------------
@@ -43,11 +40,6 @@ General GIS viewing, editing and analysis in the browser:
   <script type="text/javascript" src="https://www.openhub.net/p/mapbender/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geomoose/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geonode/widgets/project_factoids_stats?format=js"></script>
-  <script type='text/javascript' src='https://www.openhub.net/p/WebWorldWind/widgets/project_factoids_stats?format=js'></script>
-
-Missing:
-
-* :doc:`overview/cartaro_overview`
 
 Web Services
 --------------------------------------------------------------------------------
@@ -69,7 +61,6 @@ Publishing spatial data to the internet:
   <script type="text/javascript" src="https://www.openhub.net/p/SensorObservationService/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/tinyows/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/zoo-project/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/pyWPS/widgets/project_factoids_stats?format=js"></script>
 
 Missing:
 
@@ -96,7 +87,6 @@ Navigation and Maps
   <script type="text/javascript" src="https://www.openhub.net/p/marble/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/prune-gps/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/opencpn/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/viking/widgets/project_factoids_stats?format=js"></script>
   <script type='text/javascript' src='https://www.openhub.net/p/wwj/widgets/project_factoids_stats?format=js'></script>
 
 OpenStreetMap tools
@@ -115,7 +105,6 @@ Specific analysis tools:
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/geokettle/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/GMT/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/mapnik/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/ossim/widgets/project_factoids_stats?format=js"></script>
@@ -128,10 +117,7 @@ Applications targeted at a specific domain:
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/sahanapy/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/ushahidi/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/mb-system/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/osgearth/widgets/project_factoids_stats?format=js"></script>
 
 Missing:
 
@@ -143,30 +129,24 @@ Geospatial Libraries
 .. raw:: html
 
   <script type="text/javascript" src="https://www.openhub.net/p/gdal/widgets/project_factoids_stats?format=js"></script>
+  <script type="text/javascript" src="https://www.openhub.net/p/liblas/widgets/project_factoids_stats?format=js"></script>
+  <script type="text/javascript" src="https://www.openhub.net/p/proj4/widgets/project_factoids_stats?format=js"></script>
+
+
+.. Retired Projects
+  ------------------------------------------------------------------------------
+  * :doc:`overview/kosmo_overview`
+  * :doc:`overview/cartaro_overview`
   <script type="text/javascript" src="https://www.openhub.net/p/jts-topo-suite/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geotools/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geos/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/liblas/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/python-iris/widgets/project_factoids_stats?format=js"></script>
-
-Coordinate Reference System Libraries 
---------------------------------------------------------------------------------
-
-.. raw:: html
-
-  <script type="text/javascript" src="https://www.openhub.net/p/proj4/widgets/project_factoids_stats?format=js"></script>
-
-Missing:
-
-* Proj4js (JavaScript) - used in OpenLayers.
-* CS-Map (C++) - used in MapGuide.
-* GeoTIFF/libgeotiff (C++).
-* Proj4J (Java).
-
-Other software of interest (not available Live)
---------------------------------------------------------------------------------
-.. raw:: html
-
   <script type="text/javascript" src="https://www.openhub.net/p/mapwingis/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/mapguide/widgets/project_factoids_stats?format=js"></script>
-
+  <!--script type="text/javascript" src="https://www.openhub.net/p/geokettle/widgets/project_factoids_stats?format=js"></script-->
+  <!--script type='text/javascript' src='https://www.openhub.net/p/WebWorldWind/widgets/project_factoids_stats?format=js'></script-->
+  <script type="text/javascript" src="https://www.openhub.net/p/osgearth/widgets/project_factoids_stats?format=js"></script>
+  <script type="text/javascript" src="https://www.openhub.net/p/pyWPS/widgets/project_factoids_stats?format=js"></script>
+  <script type="text/javascript" src="https://www.openhub.net/p/sahanapy/widgets/project_factoids_stats?format=js"></script>
+  <script type="text/javascript" src="https://www.openhub.net/p/ushahidi/widgets/project_factoids_stats?format=js"></script>
+  <script type="text/javascript" src="https://www.openhub.net/p/viking/widgets/project_factoids_stats?format=js"></script>
