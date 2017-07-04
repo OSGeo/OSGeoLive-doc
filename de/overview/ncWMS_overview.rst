@@ -31,7 +31,7 @@ Kernfunktionen
 
 * Erstellung von Zeitreihen und vertikalen Profildrucken
 
-* Fähigkeit Daten entlag eines Transects zu drucken
+* Fähigkeit, Daten entlang eines Transects zu drucken
 
 * Automatische Erkennung von Vektor-Komponenten und Generierung von Vektorpfeilen
 

@@ -81,7 +81,7 @@ Certain variables, particularly biological parameters, are best displayed with a
 Creating animations
 -------------------
 
-1) Click the animation wizard button beelow the lower left corner of the map.
+1) Click the animation wizard button below the lower left corner of the map.
 2) Select a start and end time for the animation
 3) Choose the granularity and frame rate for the animation
 4) Click "Go". Note that the animation may take quite a while to appear.
