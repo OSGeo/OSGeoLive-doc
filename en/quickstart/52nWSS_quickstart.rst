@@ -21,7 +21,7 @@ This Quick Start describes how to:
 * start the WSS management interface
 * protect a local WMS instance
 * register new users
-* asign permissions to existent users
+* assign permissions to existing users
 * load protected services
 
 .. contents:: Contents
