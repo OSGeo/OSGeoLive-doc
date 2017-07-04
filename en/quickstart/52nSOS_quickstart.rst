@@ -1,5 +1,6 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Author: Simon Jirka (s.jirka@52north.org)
+:Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer:
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -14,14 +15,14 @@
 52°North SOS Quickstart
 *******************************************************************************
 
-The 52°North SOS is a web service, that allows to provide interoperable access
+The 52°North SOS is a web service, that enables to provision of interoperable access
 to (spatial) observation data and associated metadata.
 
 This Quick Start describes how to:
 
   * Query the 52°North SOS Capabilities to determine what queries it supports.
   * Query details about an Observation from the SOS.
-  * Use a lightweight visualisation tool "helgoland" delivered together with
+  * Use the lightweight visualisation tool "Helgoland" delivered with
     the SOS to explore the available data.
   * Explore the REST API endpoint for client developers.
 
@@ -56,11 +57,12 @@ Getting Started
 
    **Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
 
-4. To get for each time series the available observation data within the time
-   interval from 2017-02-28T23:45:00.000+00:00 to 2017-03-01T23:45:00.000+00:00,
-   insert the following request after selecting service "SOS" --> version
-   "2.0.0" --> binding "SOAP" --> operation "GetObservation" in the `test
-   client <http://localhost:8080/52nSOS/client>`_ in the field request:
+4. To get the available observation data within the time
+   interval from 2017-02-28T23:45:00.000+00:00 to 2017-03-01T23:45:00.000+00:00
+   for each time series, insert the following request after selecting service
+   "SOS" --> version "2.0.0" --> binding "SOAP" --> operation "GetObservation"
+   in the `test
+   client's <http://localhost:8080/52nSOS/client>`_ in the field request:
 
 .. code-block:: xml
 
@@ -101,16 +103,16 @@ Things to Try
 * Try tweaking some of these queries to get different information.
 * Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ using
    username "user" and password "user".
-* Try Helgoland - the `View Client <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fiq. 3).
-* Try other sample data by performing the following steps
+* Try Helgoland - the `Viewer Client <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fiq. 3).
+* Try other sample data by performing the following steps:
 
   1. Open the SOS administrator `database maintenance page <http://localhost:8080/52nSOS/admin/datasource>`_.
   2. Empty the database using the "Clear Datasource" button (this will delete
      the example data. You can restart OSGeoLive to get the data back.).
-  3. Insert dynamically generated sample data by clicking on the "Insert
-     sample data" button. Please be informed, that this operation might take
+  3. Insert dynamically generated sample data by clicking the "Insert
+     sample data" button. Please be informed that this operation might take
      some minutes.
-  4. Open `helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_
+  4. Open `Helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_
      again and explore the generated sample data.
 
 .. image:: /images/screenshots/1024x768/52n_sos_viewclient.png
@@ -183,7 +185,7 @@ Things to Try
 What Next?
 ================================================================================
 
-To learn more about 52°North SOS and/or the 52°North Sensor Web Community,
+To learn more about the 52°North SOS and/or the 52°North Sensor Web Community,
 potential starting points are:
 
 * 52°North :doc:`SOS overview <../overview/52nSOS_overview>`,
@@ -199,7 +201,7 @@ projects, organizations, and persons. More details can be found in the
 `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
 
 When the SOS is not available, please check if the tomcat servlet engine is
-running using the following commands:
+running. Use the following commands:
 
 ::
 
