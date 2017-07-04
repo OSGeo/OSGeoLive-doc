@@ -32,7 +32,7 @@ citizen journalists during a time of crisis. The website was used to map
 incidents of violence and peace efforts throughout the country based on
 reports submitted via the web and mobile phone. This initial deployment of
 Ushahidi had 45,000 users in Kenya, and was the catalyst for us realizing
-there was a need for a platform based on it, which could be use by others
+there was a need for a platform based on it, which could be used by others
 around the world.
 
 
@@ -46,7 +46,7 @@ Core Features
 * Ability to upload and download mass reports.
 * Ability to layer KML/KMZ files on the map.
 * Supports custom pages and tabs.
-* Site statitics and analytics.
+* Site statistics and analytics.
 * Plugin system.
 * One click upgrade.
 * Supports multiple SMS providers.
