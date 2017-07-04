@@ -24,6 +24,9 @@
 #  DEALINGS IN THE SOFTWARE.
 ###############################################################################
 
+#example execution
+# bin/fetch_file_from_external_repo_with_history.sh learnosm  _posts/en 0200-12-23-id-editor.md   1900-12-21-start-josm.md
+
 set -e
 
 function print_error {
