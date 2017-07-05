@@ -12,6 +12,12 @@
   :align: right
   :target: http://www.pgrouting.org/
 
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
+
 pgRouting
 ================================================================================
 
