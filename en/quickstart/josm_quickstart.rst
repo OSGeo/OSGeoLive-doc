@@ -65,7 +65,6 @@ Learn Basic Drawing with JOSM
 .. image:: /images/screenshots/1024x768/josm_sample-file.png
    :alt: Sample file
 
-   Sample file
 
 -  You will use these data in order to try various editing techniques.
    *You must however never upload these fictitious data to the
@@ -86,7 +85,6 @@ Basic Operations
 .. image:: /images/screenshots/1024x768/josm_scale-bar.png
    :alt: Scale bar
 
-   Scale bar
 
 -  Look at the sample map. There a few different types of objects here.
    There is a river, a forest, some buildings, several roads, and a
@@ -160,7 +158,6 @@ Drawing
 .. image:: /images/screenshots/1024x768/josm_select-tool.png
    :alt: Select tool
 
-   Select tool
 
 -  Before you draw, you need to make sure that nothing is selected.
    Click in the black space on the map, where it is empty, to make sure
@@ -170,7 +167,6 @@ Drawing
 .. image:: /images/screenshots/1024x768/josm_draw-tool.png
    :alt: Draw tool
 
-   Draw tool
 
 -  Find an empty area on the map, and double-click with your mouse. This
    will draw a single point.
@@ -192,7 +188,6 @@ Add Presets
 .. image:: /images/screenshots/1024x768/josm_select-tool.png
    :alt: Select tool
 
-   Select tool
 
 -  Select one of the objects that you drew with the Draw tool. On the
    top menu, click “Presets”. Move your mouse through the sub-menu to
