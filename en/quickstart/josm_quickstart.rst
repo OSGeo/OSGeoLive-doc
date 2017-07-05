@@ -1,9 +1,9 @@
 :Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/1900-12-21-start-josm.md
 :Source Reviewed: 2016-03-30  
-:Author: Cameron Shorter (transposed from source)
+:Author: Nick Allen
 :Version: osgeo-live10.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Reviewer: 
+:Reviewer: Cameron Shorter (transposed from source)
 
 ********************************************************************************
 JOSM Quickstart
