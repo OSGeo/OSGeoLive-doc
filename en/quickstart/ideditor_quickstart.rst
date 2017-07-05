@@ -90,7 +90,7 @@ Configuring the Background Layer
   tile provider (the default is Bing Aerial Imagery).
 
   You can add your own map tiles by clicking on **Custom**. For example,
-  if you want to **add a Field Paper**  [1]_, click **Custom** then
+  if you want to **add a Field Paper**  [1], click **Custom** then
   click on the magnifying glass (search) icon to open the following
   window:-
 
@@ -230,7 +230,6 @@ what is called a multipolygon.
   .. image:: /images/screenshots/1024x768/id-editor_create_multipolygon.png
    :alt: create multipolygon
 
-   create multipolygon
 
 When you select any of the contours of the newly created multipolygon
 you can see on the left to which multipolygons it belongs
@@ -238,7 +237,6 @@ you can see on the left to which multipolygons it belongs
   .. image:: /images/screenshots/1024x768/id-editor_part_of_multipolygon.png
    :alt: part of multipolygon
 
-   part of multipolygon
 
 Saving Your Changes
 -------------------
