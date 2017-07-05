@@ -1,4 +1,4 @@
-:Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/1900-12-21-start-josm.md
+:Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/0200-12-23-id-editor.md
 :Source Reviewed: 2016-03-30  
 :Author: Cameron Shorter (transposed from source)
 :Version: osgeo-live10.5
@@ -303,7 +303,7 @@ iD versus JOSM
 What Next?
 ----------
 
-- Try the LeanOSM documentation, from which this quickstart was derived: http://learnosm.org/en/beginner/id-editor/
+- Try the LearnOSM documentation, from which this quickstart was derived: http://learnosm.org/en/beginner/id-editor/
 
 .. |image3| image:: /images/screenshots/1024x768/id-editor_image3.png
   :height: 24px
