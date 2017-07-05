@@ -296,7 +296,7 @@ rst_epilog="""
 .. |version-spatialite| replace:: 4.3.0a
 .. |version-tinyows| replace:: 1.1.1
 .. |version-tomcat.rst| replace:: 8.0.32
-.. |version-udig| replace:: 2.0.0rc1
+.. |version-udig| replace:: 2.0.0.RC1
 .. |version-ushahidi| replace:: 2.7.4
 .. |version-viking| replace:: 1.6.0
 .. |version-worldwindjava| replace:: 2.0.0
