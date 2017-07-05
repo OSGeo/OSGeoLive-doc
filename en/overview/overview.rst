@@ -71,7 +71,7 @@ Navigation and Maps
 * :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools
 * :doc:`ideditor_overview` - [:doc:`QuickStart <../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor
-* :doc:`josm_overview` - [:doc:`QuickStart <../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor
+* :doc:`josm_overview` - [:doc:`QuickStart <../quickstart/josmeditor_quickstart>`] - OpenStreetMap Desktop Editor
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
 
 Spatial Tools
