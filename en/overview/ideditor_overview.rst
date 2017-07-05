@@ -11,10 +11,10 @@
 iD editor
 ================================================================================
 
-Browser based editor for Open Street Map
+Browser based editor for OpenStreetMap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The iD editor is the de facto, browser-based `Open Street Map <http://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary.
+The iD editor is the de facto, browser-based `OpenStreetMap <http://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary.
 
 The iD editor is a great way to edit small and easy changes that don’t require the advanced features of the more advanced :doc:`JOSM <josm_overview>` editor.
 
@@ -26,7 +26,7 @@ The iD editor is a great way to edit small and easy changes that don’t require
 Core Features
 --------------------------------------------------------------------------------
 
-* Open Street Map Editing
+* OpenStreetMap Editing
 * Fast
 * Intuitive
 * Browser Based
