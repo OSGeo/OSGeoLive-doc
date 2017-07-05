@@ -234,9 +234,8 @@ corner of that window. Alternatively you can choose delete from the
 context menu of the layer. In order to continue editing you first need
 to download real data. This will be explained in the next chapter.
 
-Summary
--------
+What Next?
+----------
 
-Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next chapter we
-will take a closer look at the process of editing the OSM map with JOSM.
+- Try the LeanOSM documentation, from which this quickstart was derived: http://learnosm.org/en/josm/start-josm/
+

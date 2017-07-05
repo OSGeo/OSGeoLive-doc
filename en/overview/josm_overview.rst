@@ -80,9 +80,9 @@ Details
 **API Interfaces:** Java
 
 
-.. Quickstart
-.. --------------------------------------------------------------------------------
-.. 
-.. * :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
+Quickstart
+--------------------------------------------------------------------------------
+ 
+* :doc:`Quickstart documentation <../quickstart/josmeditor_quickstart>`
 
 
