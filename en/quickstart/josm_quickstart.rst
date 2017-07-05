@@ -50,7 +50,7 @@ Learn Basic Drawing with JOSM
    basic ways to draw maps with JOSM. Note that this map is not real, in
    that it is not a real map of a real place, so we will not save it on
    OpenStreetMap.
--  Download the file here: `sample.osm </files/sample.osm>`__
+-  Download the file here: `sample.osm <http://learnosm.org/files/sample.osm>`__
 -  Now let’s open the sample map file in JOSM. Click the “Open” button
    in the upper left.
 
@@ -231,11 +231,13 @@ this).*
 In the Layers window on the upper right of the screen select the
 sample.osm layer. Then click on the trash can icon in the lower right
 corner of that window. Alternatively you can choose delete from the
-context menu of the layer. In order to continue editing you first need
-to download real data. This will be explained in the next chapter.
+context menu of the layer.
 
 What Next?
 ----------
 
-- Try the LeanOSM documentation, from which this quickstart was derived: http://learnosm.org/en/josm/start-josm/
-
+-  Try the LearnOSM documentation, from which this quickstart was derived: 
+   http://learnosm.org/en/josm/start-josm/
+-  In order to continue editing you first need to download real data. 
+   This is explained in the next chapter: 
+   http://learnosm.org/en/josm/more-about-josm/
