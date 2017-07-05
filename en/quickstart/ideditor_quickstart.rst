@@ -1,7 +1,7 @@
 :Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/0200-12-23-id-editor.md
 :Source Reviewed: 2016-03-30  
 :Author: Nick Allen
-:Version: osgeo-live10.5
+:Version: osgeo-live 11
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter (transposed from source)
 
