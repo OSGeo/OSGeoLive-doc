@@ -83,6 +83,6 @@ Details
 Quickstart
 --------------------------------------------------------------------------------
  
-* :doc:`Quickstart documentation <../quickstart/josmeditor_quickstart>`
+* :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
 
 
