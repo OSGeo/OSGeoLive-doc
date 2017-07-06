@@ -8,6 +8,12 @@
   :align: right
   :target: http://istsos.org
 
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100 %
+  :alt: OSGeo Projekt
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 istSOS Quickstart 
 ********************************************************************************
