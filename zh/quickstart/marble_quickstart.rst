@@ -10,6 +10,12 @@
   :align: right
   :target: http://edu.kde.org/marble/
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 KDE-edu Marble 虚拟地球 快速入门文档
 ********************************************************************************
