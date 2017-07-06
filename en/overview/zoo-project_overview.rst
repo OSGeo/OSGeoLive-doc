@@ -10,9 +10,10 @@
 
 .. image:: /images/logos/OSGeo_community.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: OSGeo Community Project
   :align: right
   :target: http://www.osgeo.org
+
 
 ZOO-Project
 ================================================================================
