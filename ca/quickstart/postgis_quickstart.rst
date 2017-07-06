@@ -11,6 +11,12 @@
   :align: right
   :target: http://postgis.org/
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 ********************************************************************************
 Guia d'inici ràpid de PostGIS

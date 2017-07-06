@@ -33,10 +33,8 @@
 .. Consejo para redactar:
    Incluya un logo de OSGeo si el proyecto es un proyecto de OSGeo o si está en incubación.
    Hay una lista de los proyectos de OSGeo en esta página: http://www.osgeo.org/
-   .. image:: /images/logos/OSGeo_community.png
-   .. image:: /images/logos/OSGeo_project.png
 
-/images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
