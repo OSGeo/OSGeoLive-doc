@@ -9,6 +9,12 @@
   :align: right
   :target: http://grass.osgeo.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 ********************************************************************************
 Начало работы с GRASS GIS
