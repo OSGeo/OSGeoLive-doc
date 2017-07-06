@@ -8,6 +8,12 @@
   :align: right
   :target: http://www.deegree.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 Начало работы с deegree 3
 ********************************************************************************
