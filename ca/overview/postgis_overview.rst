@@ -42,7 +42,7 @@
    :scale: 100 %
    :alt: Projecte OSGeo en Incubació
    :align: right
-   :target: http://www.osgeo.org/incubator/process/principles.html
+   :target: http://www.osgeo.org
 
 .. Consell per a la redacció: Nom de l'aplicació
 

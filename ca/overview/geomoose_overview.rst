@@ -14,7 +14,7 @@
   :scale: 100 %
   :alt: OSGeo Project in Incubation
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 GeoMoose

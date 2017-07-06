@@ -14,7 +14,7 @@
   :scale: 100 %
   :alt: OSGeo Community Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 ********************************************************************************
  Proj.4 Quickstart

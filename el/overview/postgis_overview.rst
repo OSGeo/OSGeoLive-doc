@@ -14,7 +14,7 @@
   :scale: 100 %
   :alt: Λογισμικό του OSGeo
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 PostGIS
