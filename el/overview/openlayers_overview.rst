@@ -12,7 +12,7 @@
 
 .. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
