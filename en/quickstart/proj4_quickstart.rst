@@ -4,11 +4,9 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. (no logo) .. image:: ../../images/project_logos/logo-mapserver-new.png
-  :scale: 65 %
-  :alt: Project logo
+.. image:: /images/project_logos/logo-proj4.png
+  :alt: project logo
   :align: right
-  :target: http://mapserver.org/
 
 .. image:: ../../images/logos/OSGeo_community.png
   :scale: 100 %

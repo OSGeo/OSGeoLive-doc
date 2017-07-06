@@ -4,14 +4,13 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. (no logo) .. image:: ../../images/project_logos/logo-proj4.png
-..  :alt: project logo
-..  :align: right
-..  :target: http://proj4.org/index.html
+.. image:: /images/project_logos/logo-proj4.png
+  :alt: project logo
+  :align: right
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: OSGeo Project
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
   :align: right
   :target: http://www.osgeo.org
 
