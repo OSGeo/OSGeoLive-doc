@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. image:: /images/project_logos/logo-Mapbender.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -29,6 +29,9 @@ Mapbender 快速入门文档
   * 创建新的用户与用户组并配置应用权限
   * 载入 WFS 网络地理要素服务
   * 配置要素类型并启动一个支持检索和数字化的 WFS 服务
+  
+  .. image:: /images/screenshots/800x600/mapbender3_basic_application.png
+     :scale: 70 %
 
 启动 Mapbender
 ================================================================================
@@ -50,8 +53,8 @@ Mapbender 快速入门文档
 
 #. 以用户名 :guilabel:`root` 和密码 :guilabel:`root` 登录（该用户为 Mapbender 默认用户，请不要将其删除）；
   
-  .. image:: /images/screenshots/800x600/mapbender_welcome.png
-     :scale: 80
+  .. image:: /images/screenshots/800x600/mapbender3_welcome.png
+     :scale: 70 %
 
 　　登录后， :guilabel:`application overview` 应用列表界面将显示。
 
@@ -61,8 +64,8 @@ Mapbender 快速入门文档
 ================================================================================
 　　登录后， :guilabel:`application overview` 应用列表界面将显示所有可以使用的应用。Mapbender 支持模板（template）应用用于创建新的应用。
 
-  .. image:: /images/screenshots/800x600/mapbender_application_overview.png
-     :scale: 80
+  .. image:: /images/screenshots/800x600/mapbender3_application_overview.png
+     :scale: 70 %
 
 　　Mapbender 提供了：
    * 管理应用
@@ -185,7 +188,7 @@ WhereGroup OSM WMS Open Street Map 数据服务
 
 http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
  
-.. image::/images/screenshots/800x600/mapbender_admin2_en.png
+.. image::/images/screenshots/800x600/mapbender3_admin2_en.png
   :scale: 80
 
 　　在一个应用中可以载入多个 WMS 服务。选择 *WMS application settings* 调整 WMS 序列或进行删除。
@@ -198,7 +201,7 @@ http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=
 配置 WMS 服务
 ================================================================================　　在载入 WMS 后可对其进行配置。通过配置可以控制特定图层的访问，改变数据集的排序组合，屏蔽特定属性，控制缩放尺度等。
 
-.. image:: /images/screenshots/800x600/mapbender_wms_application_settings.png
+.. image:: /images/screenshots/800x600/mapbender3_wms_application_settings.png
   :scale: 80
 
 * on/off - 开启或关闭特定图层
@@ -257,7 +260,7 @@ http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=
 
 #. 输入用户的名称和密码。
 
-.. image:: /images/screenshots/800x600/mapbender_create_user.png
+.. image:: /images/screenshots/800x600/mapbender3_create_user.png
      :scale: 80 
 
 
@@ -281,7 +284,7 @@ http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=
 
 #. 尝试以另一个用户登录。
 
-  .. |LOGOUT| image:: /images/screenshots/800x600/mapbender_logout.png
+  .. |LOGOUT| image:: /images/screenshots/800x600/mapbender3_logout.png
      :scale: 100
 
 ********************************************************************************
