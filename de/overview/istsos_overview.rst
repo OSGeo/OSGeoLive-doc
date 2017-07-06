@@ -11,7 +11,7 @@
 
 .. image:: /images/logos/OSGeo_community.png
   :scale: 100 %
-  :alt: OSGeo Projekt
+  :alt: OSGeo Community Project
   :align: right
   :target: http://www.osgeo.org
 
