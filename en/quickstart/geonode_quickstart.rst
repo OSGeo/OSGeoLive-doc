@@ -2,6 +2,17 @@
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+.. image:: /images/project_logos/logo-geonode.png
+  :alt: project logo
+  :align: right
+  :target: http://geonode.org
+
+.. image:: /images/logos/OSGeo_project.png
+    :scale: 100
+    :alt: OSGeo Project
+    :align: right
+    :target: http://www.osgeo.org
+
 ==================
 Geonode Quickstart
 ==================

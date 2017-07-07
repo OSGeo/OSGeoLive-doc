@@ -8,9 +8,10 @@
   :align: right
   :target: http://www.mapbender3.org
 
+
 .. image:: /images/logos/OSGeo_project.png
-  :scale: 90 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :scale: 100 %
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 

@@ -8,6 +8,12 @@
   :align: right
   :target: http://gdal.org/
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 ***************************************
  Εγχειρίδιο Γρήγορης Εκκίνησης GDAL/OGR 

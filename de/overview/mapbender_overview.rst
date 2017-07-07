@@ -10,7 +10,7 @@
   :target: http://www.mapbender3.org
 
 .. image:: /images/logos/OSGeo_project.png
-  :scale: 90 %
+  :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
   :target: http://www.osgeo.org

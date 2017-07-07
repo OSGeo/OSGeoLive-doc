@@ -3,6 +3,17 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geotools-user list
 
+.. image:: /images/project_logos/logo-deegree.png
+  :alt: project logo
+  :align: right
+  :target: http://www.deegree.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 *************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης deegree 
 *************************************

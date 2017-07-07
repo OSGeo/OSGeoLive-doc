@@ -8,6 +8,12 @@
   :alt: project logo
   :align: right
 
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 Wprowadzenie do ZOO Project 
 ********************************************************************************

@@ -10,6 +10,12 @@
   :align: right
   :target: http://www.geomajas.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 Geomajas 快速入门文档
 ********************************************************************************

@@ -10,7 +10,7 @@
 
 .. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Проект OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 

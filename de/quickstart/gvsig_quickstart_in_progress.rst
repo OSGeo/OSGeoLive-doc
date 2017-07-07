@@ -6,6 +6,12 @@
    :scale: 50 
    :align: right
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 .. EDITS REQUIRED BY THE LiveDVD TEAM
 .. B. Path to the vector and raster data needs to be updated to reflect where they are contained on the Live DVD
 

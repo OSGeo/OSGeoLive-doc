@@ -15,6 +15,12 @@ Guía de inicio rápido de OpenLayers
   :align: right
   :target: http://openlayers.org/
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 Esta Guía de Inicio Rápido describe algunos pasos básicos necesarios para empezar a trabajar con penLayers3: crear un mapa básico, añadir capas raster y vectorial y dar estilos a los elementos. 
 
 OpenLayers3 es una biblioteca de mapeo ligera para clientes web y móviles que usa tecnologías de navegadores modernos como HTML5, WebGL y CSS3.

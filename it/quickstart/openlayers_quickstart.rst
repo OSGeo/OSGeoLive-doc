@@ -16,6 +16,12 @@ Guida rapida OpenLayers
   :align: right
   :target: http://openlayers.org/
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 Questo tutorial descrive alcune passaggi base richiesti per iniziare a lavorare
 con OpenLayers3: creare una mappa base, aggiungere layer raster e vettoriali
 e stilizzare gli elementi.

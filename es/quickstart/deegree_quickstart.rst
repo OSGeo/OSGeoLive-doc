@@ -9,6 +9,12 @@
   :align: right
   :target: http://www.deegree.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 Guía de inicio rápido de los servicios web deegree 3
 ********************************************************************************

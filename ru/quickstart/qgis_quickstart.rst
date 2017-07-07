@@ -9,6 +9,12 @@
   :align: right
   :target: http://www.qgis.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 QGIS: начало работы
 ********************************************************************************
