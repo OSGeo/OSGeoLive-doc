@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-josm.png
@@ -80,9 +80,9 @@ Details
 **API Interfaces:** Java
 
 
-.. Quickstart
-.. --------------------------------------------------------------------------------
-.. 
-.. * :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
+Quickstart
+--------------------------------------------------------------------------------
+ 
+* :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
 
 
