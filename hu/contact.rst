@@ -24,7 +24,7 @@ Rengeteg információ érhető el a
 Kereskedelmi támogatás
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

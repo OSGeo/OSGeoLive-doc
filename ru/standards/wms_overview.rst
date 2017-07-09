@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
@@ -38,7 +38,7 @@ WMS (Web Map Service)
 будет одно или более изображений карты (в формате JPEG, PNG и др.), которые могут быть показаны
 в браузере или настольном приложении.
 
-.. image:: ../../images/standards/wms.jpg
+.. image:: /images/standards/wms.jpg
   :scale: 55%
   :alt: Место WMS среди стандартов OGC
 

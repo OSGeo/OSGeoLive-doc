@@ -24,7 +24,7 @@ Bisogna utilizzare un'attribuzione simile ad una delle seguenti:
 
   |CC-By-SA-med| Questo documento include contenuti del "gvSIG Quickstart" creato da Simon Cropper con licenza Creative Commons Attribution-ShareAlike 3.0 Unported, http://creativecommons.org/licenses/by-sa/3.0/deed.it disponibile all'interno del progetto OSGeo-Live, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, e scaricata il 25 Luglio 2011. Il lavoro originale è stato tradotto dall'inglese al tedesco.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/
 
 **Concise CC-By-SA and attribution:**
@@ -35,7 +35,7 @@ Bisogna utilizzare un'attribuzione simile ad una delle seguenti:
 
   |CC-By-small| © 2011 [Tuo nome]. [Derivato dalla|Incluso nella|Esteso dalla] Project Overviews `OSGeo-Live <http://live.osgeo.org>`_  grazie ai `contributori di OSGeo-Live  <http://live.osgeo.org/en/copyright.html>`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/
 
 **Minimum (for Project Overviews), attribution only:**

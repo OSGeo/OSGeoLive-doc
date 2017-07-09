@@ -24,7 +24,7 @@ OGC 基准与 OGC 参考模型
 　　最近一些年来发展的多数标准都是基于网络服务的。这些标准合成 OGC 网络服务（OGC Web Services, OWS）。下面所展示的是基本框架，包含了在各种地理空间信息处理和地理相关活动中的应用模式。
 
 
-.. figure:: ../../images/standards/publish_find_bind.jpg
+.. figure:: /images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Web services framework of OGC geoprocessing standards
 

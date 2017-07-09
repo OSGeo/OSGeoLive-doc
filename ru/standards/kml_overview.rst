@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
@@ -34,7 +34,7 @@
 
 `Стандарт OGC KML <http://www.opengeospatial.org/standards/KML>`_ — язык на основе XML, предназначенный для визуализации географической информации, включая аннотации к картам и изображениям. Визуализация географической информации состоит не только в представлении данных на поверхности земного шара, но также в контроле пользовательской навигации.
 
-.. image:: ../../images/standards/kml.jpg
+.. image:: /images/standards/kml.jpg
   :scale: 55%
   :alt: Место KML среди стандартов OGC
 

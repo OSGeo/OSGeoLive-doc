@@ -23,7 +23,7 @@ dan sebuah 'sistem pencari bug dan keinginan <https://trac.osgeo.org/osgeo/repor
 Dukungan Komersil
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

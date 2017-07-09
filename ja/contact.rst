@@ -18,7 +18,7 @@ IRCユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネ�
 商用サポート
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

@@ -25,7 +25,7 @@ En el desarrollo de aplicaciones de servicios web usando estándares OGC (y en e
 Muchos de los estándares OGC desarrollados en los últimos años son estándares para entornos de servicios web, y estos estándares son referidos colectivamente como *OGC Web Services* (OWS). La figura inferior proporciona un esquema general de arquitectura para los OGC Web Services. Este esquema identifica las clases genéricas de servicios que participan en diversas actividades de geoprocesamiento y localización.
 
 
-.. figure:: ../../images/standards/publish_find_bind.jpg
+.. figure:: /images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Web services framework of OGC geoprocessing standards
 

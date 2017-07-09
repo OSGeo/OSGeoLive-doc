@@ -3,12 +3,12 @@
 
 .. _wcs-overview-el:
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -18,7 +18,7 @@ Web Coverage Service (WCS)
 
 Το πρότυπο Web Coverage Service (WCS) του OGC® ορίζει μια πρότυπη διεπαφή και λειτουργίες που επιτρέπουν διαλειτουργική πρόσβαση σε χωρικά δεδομένα κανάβου (grid coverages). Ο όρος αυτός τυπικά περιγράφει δεδομένα όπως τηλεπισκοπικές απεικονίσεις, δορυφορικές εικόνες, ψηφιακές αεροφωτογραφίες, ψηφιακά μοντέλα εδάφους και άλλα φαινόμενα που μπορούν να αναπαρασταθούν από τιμές σε κάθε σημείο μέτρησης. (http://www.opengeospatial.org/standards/wcs)
 
-.. image:: ../../images/standards/wcs.jpg
+.. image:: /images/standards/wcs.jpg
   :scale: 55%
   :alt: WCS in Context
 

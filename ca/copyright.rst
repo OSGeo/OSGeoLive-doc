@@ -22,7 +22,7 @@ Podeu emprar un text d'atribució similar a aquest:
 
   |CC-By-SA-med| Aquest document inclou contingut de "Tutorial gvSIG" per Simon Cropper amb la llicència Creative Commons Attribution-ShareAlike 3.0 Unported, http://creativecommons.org/licenses/by-sa/3.0/ disponible al projecte OSGeo-Live, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, i descarregat el 25 de juliol de 2011. El document original va ser traduït de l'anglès a l'alemany.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/
 
 **Atribució breu amb CC-By-SA:**
@@ -33,7 +33,7 @@ Podeu emprar un text d'atribució similar a aquest:
 
   |CC-By-small| © 2011 [El vostre nom]. [Derivat de|Inclou|Extén] `tutorials d'OSGeo-Live <http://live.osgeo.org>`_ per `els col·laboradors d'OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/
 
 **Mínima (per als tutorials), només atribució:**

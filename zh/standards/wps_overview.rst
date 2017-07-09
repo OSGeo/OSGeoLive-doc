@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ Web Processing Service (WPS) 网络地理信息处理服务
 
 　　WPS 标准为网络地理信息处理服务提供了标准化的输入和输出。
 
-.. image:: ../../images/standards/wps.jpg
+.. image:: /images/standards/wps.jpg
   :scale: 55%
   :alt: WPS in Context
 

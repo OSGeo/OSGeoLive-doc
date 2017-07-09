@@ -3,12 +3,12 @@
 
 .. _sos-overview-el:
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -19,7 +19,7 @@ Sensor Observation Service (SOS)
 
 Το πρότυπο Sensor Observation Service (SOS) του OGC αφορά μια διαδικτυακή υπηρεσία δεδομένων. Το πρότυπο SOS του OGC ορίζει μια τυποποιημένη διεπαφή και λειτουργίες για πρόσβαση σε παρατηρήσεις από αισθητήρες και συστήματα αισθητήρων που ομοιογενείς για όλα τα συστήματα αισθητήρων (περιλαμβανομένων τηλεπισκοπικών, επίγειων, ακίνητων και κινητών αισθητήρων). Το πρότυπο SOS παρέχει αποτελέσματα ερωτημάτων στο πρότυπο Observation and Measurements (O&M) για τη μοντελοποίηση παρατηρήσεων από δέκτες αλλά και με τη χρήση της γλώσσας SensorML για τη μοντελοποίηση των συστημάτων αισθητήρων και δεκτών. (http://www.opengeospatial.org/standards/sos)
 
-.. image:: ../../images/standards/sos.jpg
+.. image:: /images/standards/sos.jpg
   :scale: 55%
   :alt: SOS in Context
 

@@ -3,12 +3,12 @@
 
 .. _wfs-overview-el:
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -18,7 +18,7 @@ Web Feature Service (WFS)
 
 Το πρότυπο Web Feature Service του OGC® ορίζει διαδικτυακές λειτουργίες για ανάκτηση και επεξεργασία διανυσματικών γεωγραφικών χαρακτηριστικών, όπως δρόμοι ή όρια λιμνών.  (http://www.opengeospatial.org/standards/wfs)
 
-.. image:: ../../images/standards/wfs.jpg
+.. image:: /images/standards/wfs.jpg
   :scale: 55%
   :alt: WFS in Context
 
