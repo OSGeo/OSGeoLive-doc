@@ -46,7 +46,7 @@ Details
 
 **Software Version:** |version-ideditor|
 
-**Supported Platforms:** Anything that supports a browser: Windows, Linux, Mac, Android, iOS
+**Supported Platforms:** Anything that supports a browser: Windows, GNU/Linux, Mac, Android, iOS
 
 **Support:** https://help.openstreetmap.org/
 
