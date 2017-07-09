@@ -108,15 +108,15 @@ Geospatial Libraries
 * :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 * :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
+* :doc:`geotools_overview` - Java GIS Toolkit
+* :doc:`geos_overview` - C/C++ Spatial Library
+* :doc:`jts_overview` - Java Topology Suite' ;  a LocationTech project
 
 Available from prior OSGeo-Live releases:
 --------------------------------------------------------------------------------
 
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
 * :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
-* :doc:`geotools_overview` - Java GIS Toolkit, description not included after OSGeo-Live 10.5
-* :doc:`jts_overview` - Java Topology Suite, description not included after OSGeo-Live 10.5
-* :doc:`geos_overview` - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5
