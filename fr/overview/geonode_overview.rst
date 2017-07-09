@@ -1,16 +1,17 @@
 :Author: Barbara Angerer, Angelos Tzotsos
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Translator: Nicolas Roelandt
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-geonode.jpg
-  :alt: project logo
+.. image:: /images/project_logos/logo-geonode.png
+  :alt: Logo du projet
   :align: right
   :target: http://geonode.org
 
 .. image:: /images/logos/OSGeo_project.png
     :scale: 100
-    :alt: OSGeo Project
+    :alt: logo du projet OSGeo
     :align: right
     :target: http://www.osgeo.org
 
@@ -23,7 +24,7 @@ Système de Gestion de Contenu Géospatial
 
 `GeoNode <http://geonode.org>`_ est un Système de Gestion de Contenu pour les données géospatiales qui propose la création, le partage et la collaboration de données géospatiales. Les jeux de données peuvent être téléchargés dans des formats variés, les cartes peuvent être modifiées, stylisées et rassemblées via le navigateur basé outils, cartes et méta-données peuvent être publiés et recherchés, et les révisions, classements et commentaires peuvent être capturés à partir d'utilisateurs.  
 
-GeoNode est construit sur : GeoServer, GeoExplorer, pycsw, Django, et GeoExt.
+GeoNode est construit sur : GeoServer, GeoExplorer, pycsw, Django et GeoExt.
 
 .. image:: /images/screenshots/800x600/geonode_basic_application.png
   :scale: 50%
@@ -81,7 +82,7 @@ Détails
 
 **Licence :** GNU General Public License (GPL) version 2.0
 
-**Version du logiciel :** 2.0 RC1
+**Version du logiciel :** |version-geonode|
 
 **Plateformes supportées :** Windows, Linux, Mac
 
@@ -92,4 +93,4 @@ Détails
 Guide de démarrage rapide
 --------------------------------------------------------------------------------
 
-* :doc:`Documentation de démarrage rapide <../quickstart/geonode_quickstart>`
+* :doc:`Guide de démarrage rapide <../quickstart/geonode_quickstart>`
