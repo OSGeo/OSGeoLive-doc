@@ -33,7 +33,7 @@ Interface Utilisateur de l'éditeur iD
 
   .. image:: /images/screenshots/1024x768/id-editor_image2.png
 
-1. **Panneau d'édition de propriétés:** Ce panneau montre les tags des objets sémectionnés sur la carte.
+1. **Panneau d'édition des entités (*Features*):** Ce panneau montre les tags des objets sémectionnés sur la carte.
 
    Vous pouvez ajouter ou éditer des tags à partir de ce panneau.
 
@@ -66,7 +66,7 @@ Interface Utilisateur de l'éditeur iD
    Ouvrir le menu d'aide, *Raccourci clavier* **h**
 
 4. **Panneau Information:** Ce panneau montre diverses informations, telles que l'échelle 
-et quels utilisateurs ont contributé à cette zone.
+   et quels utilisateurs ont contributé à cette zone.
 
 Configurer le fond de carte
 --------------------------------
@@ -80,11 +80,11 @@ Configurer le fond de carte
  100%, 75%, 50%, and 25% |image16|
 
   Vous pouvez aussi **changer le fond de carte** basé sur votre fournisseur de tuile désiré
- (Bing Aerial Imagery est la valeur par défaut).
+  (Bing Aerial Imagery est la valeur par défaut).
 
   Vous pouvez ajouter vos propres tuilesen cliquant sur **Custom**. Par exemple,
   si vous voulez ** ajouter un Field Paper**  [1], cliquez sur **Custom** puis
-cliquez sur la loupe (recherche) pour ouvrir la fenêtre
+  cliquez sur la loupe (recherche) pour ouvrir la fenêtre
   suivante:-
 
   |image17|
@@ -92,10 +92,10 @@ cliquez sur la loupe (recherche) pour ouvrir la fenêtre
   http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715
 
   Pour **afficher des traces GPS à partir de votre ordinateur** (au format GPX), cliquez-glissez
- le fichier GPX dans l'éditeur iD.
+  le fichier GPX dans l'éditeur iD.
 
   Pour activer ** les traces GPS OpenStreetMap** cliquez sur la case à cocher. Dans l'image
-ci-dessous, les traces GPS publiques sont montrées dans des couleurs variées, indiquant la direction du voyage.
+  ci-dessous, les traces GPS publiques sont montrées dans des couleurs variées, indiquant la direction du voyage.
 
   |osm gps traces|
  
@@ -105,42 +105,42 @@ ci-dessous, les traces GPS publiques sont montrées dans des couleurs variées, 
   |image18|
 
 -  Cliquez sur les boutons de navigation pour bouger l'image aérienne. Cliquez sur
-le bouton **reset** pour revenir à la position par défaut. |image20|
+   le bouton **reset** pour revenir à la position par défaut. |image20|
 
-Basic Editing with iD
+Edition simple avec iD
 ---------------------
 
-Adding Points
+Ajout de Points
 ~~~~~~~~~~~~~
 
-To add a new point, click on the **Point** button. |image3|
+Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
 
--  Your mouse cursor will change into plus (+) sign. Now, click on a
-   position that you know to mark a location. For example, if you know
-   that there is a hospital in your area, click on the position of the
-   hospital building.
+-  Votre curseur de souris devrait se changer en signe plus (+). Maintenant, cliquez 
+   sur une position que vous connaissez pour marquer un emplacement. Par exemple, si vous savez qu'il 
+   y a un hôpital dans votre zone, cliquez sur la position
+   du bâtiment de l'hôpital.
 
    |image21|
 
--  Notice that a new point is added. At the same time, the left panel
-   will change to show a form where you can select attributes for the
-   object. Click **Hospital Grounds** to tag the point as a hospital.
+-  Remarquez qu'un nouveau point a été ajouté. En meêm temps, le panneau gauche
+   change pour afficher un formulaire où vous pouvez sélectionner les attributs
+   pour l'objet. Cliquez sur **Hospital Grounds** pour tagger le point comme un hôpital.
 
    |image22|
 
--  You can use the forms to fill detail information about your point.
-   You can fill hospital name, address, and/or other additional
-   information. Note that each feature will have different options,
-   depending on what tag you choose from the feature panel.
--  If you make a mistake, such as a wrong location, you can move your
-   point to a new location by holding the left mouse button on your
-   point and dragging it. Or, if you want to delete your point, click
-   the left mouse button on the point, activate the context menu by
-   clicking with the right mouse button and then click the button which
-   looks like a trashcan. |image23|
+-  Vous pouvez utiliser le formulaire pour fournir des informations détaillées sur votre point.
+   Vous pouvez saisir le nom et l'adresse de votre hôpital, et/ou tout autre
+   information. Notez que chaque entité aura des options différentes,
+   selon le tag vus avez choisi depuis le panneau **Entités** (*Features*).
+-  Si vous faites une erreur, comme un mauvais placement, vous pouvez bouger votre
+   point vers un nouvel emplamceent en maintenant votre clic gauche maintenu sur le
+   point et en le faisant glisser. Ou, si vous désirez supprimer votre point, faites un clic 
+   gauche sur le point, activer le menu contextuel en
+   faisant un clic droit et ensuite cliquer sur le bouton
+   qui ressemeble à une poubelle. |image23|
 
-   A "point" created in the iD editor is actually a standalone "node"
-   with a set of "tags" on it.
+   Un "point" créé dans l'éditeur iD editor est actuellement un "noeud" (*node*) seul
+   avec un ensemble de "tags".
 
 Drawing Lines
 ~~~~~~~~~~~~~
