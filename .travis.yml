@@ -43,7 +43,9 @@ script:
   #- make html
   - make html SPHINXOPTS=" -v"
   - du -ch _build/html
+  - make clean
   - make small SPHINXOPTS=" -v"
+  - du -ch _build/html
 
 #after_script: 
 
