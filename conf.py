@@ -75,7 +75,7 @@ today_fmt = '%B %d, %Y'
 # for source files.
 exclude_patterns = [ '_build/*',
 	 'id/*',
-	 'retired_docs' ]
+	 'retired_docs/*' ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
