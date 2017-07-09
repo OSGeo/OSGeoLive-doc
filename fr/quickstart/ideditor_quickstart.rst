@@ -71,43 +71,41 @@ et quels utilisateurs ont contributé à cette zone.
 Configurer le fond de carte
 --------------------------------
 
-  Click the **Background settings** button or use the *Raccourci clavier*
+  Cliquer sur bouton **paramètres du fond de carte** ou utiliser le *raccourci clavier*
   **b**. |image14|
 
   |image15|
 
-  To change the **brightness level** click one of these boxes, the
-  levels are 100%, 75%, 50%, and 25% |image16|
+  Pour changer la **luminosité** sur une de ces cases à cocher, les niveaux sont
+ 100%, 75%, 50%, and 25% |image16|
 
-  You also can **change the background layer** based on your desired
-  tile provider (the default is Bing Aerial Imagery).
+  Vous pouvez aussi **changer le fond de carte** basé sur votre fournisseur de tuile désiré
+ (Bing Aerial Imagery est la valeur par défaut).
 
-  You can add your own map tiles by clicking on **Custom**. For example,
-  if you want to **add a Field Paper**  [1], click **Custom** then
-  click on the magnifying glass (search) icon to open the following
-  window:-
+  Vous pouvez ajouter vos propres tuilesen cliquant sur **Custom**. Par exemple,
+  si vous voulez ** ajouter un Field Paper**  [1], cliquez sur **Custom** puis
+cliquez sur la loupe (recherche) pour ouvrir la fenêtre
+  suivante:-
 
   |image17|
-  and enter your **FieldPaper snapshot URL**, which will be something
-  like this:
+  Et saisir votre **FieldPaper snapshot URL**, qui devrait être quelque chose ressemblant à ça :
   http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715
 
-  To **display GPS tracks from your computer** (GPX format), drag and
-  drop the GPX file into iD editor.
+  Pour **afficher des traces GPS à partir de votre ordinateur** (au format GPX), cliquez-glissez
+ le fichier GPX dans l'éditeur iD.
 
-  To enable **OpenStreetMap GPS traces** click on the box. In the image
-  below, public GPS traces are shown in various colors, indicating the
-  direction of travel.
+  Pour activer ** les traces GPS OpenStreetMap** cliquez sur la case à cocher. Dans l'image
+ci-dessous, les traces GPS publiques sont montrées dans des couleurs variées, indiquant la direction du voyage.
 
   |osm gps traces|
  
-  If there is `imagery offset </en/josm/aerial-imagery>`__, you can
-  **correct the imagery offset** by clicking **Fix Alignment**.
+  Si il y a un  `décalage de l'image </en/josm/aerial-imagery>`__, vous pouvez
+  **corriger le décalage de l'image** en cliquant sur **Fix Alignment**.
 
   |image18|
 
--  Click the navigation buttons to move the imagery. Click the reset
-   button to return to the default position. |image20|
+-  Cliquez sur les boutons de navigation pour bouger l'image aérienne. Cliquez sur
+le bouton **reset** pour revenir à la position par défaut. |image20|
 
 Basic Editing with iD
 ---------------------
