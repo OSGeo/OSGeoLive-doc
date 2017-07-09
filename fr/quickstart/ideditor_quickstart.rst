@@ -142,43 +142,43 @@ Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
    Un "point" créé dans l'éditeur iD editor est actuellement un "noeud" (*node*) seul
    avec un ensemble de "tags".
 
-Drawing Lines
+Dessiner des lignes
 ~~~~~~~~~~~~~
 
-To add a new line, click on the **Line** button. |image4|
+Pour ajouter une nouvelle ligne, cliquez sur le bouton **Ligne**. |image4|
 
--  Your mouse cursor will change into plus (+) sign. Find a road that
-   hasn’t been drawn on the map and trace it. Click once on a point
-   where the road segment begins, move your mouse, and click to add
-   additional points. Double-click to end the drawing process. Notice
-   the panel on the left.
+-  Votre curseur de souris devrait se changer en signe plus (+). Trouvez une route qui
+   n'est pas dessinée sur la carte et traçez-la. Cliquez une fois sur un point
+   là où le segment de route commence, bougez votre souris, et cliquez pour ajouter
+   des points additionnels. Double-cliquez pour terminer la phase de dessin. Remarquez
+   le panneau sur la gauche.
 
    |image24|
 
--  Just as with a point, select the appropriate tags for your line.
--  You can drag points from the line by clicking your left mouse button
-   on a point and dragging it.
--  You also can move the whole line by selecting it, and choosing the
-   **Move tool**. Then drag the line to a new position. |image30|
--  When you click your left mouse button on an individual point (node)
-   on the line and click on the right mouse button to activate the
-   context menu, you will see these tools:
--  Delete point from line. |image23|
--  Disconnect point from line. |image26|
--  Split a line into two lines from the point you’ve selected.
+-  Tout comme pour le point, sélectionnez les tags appropriés pour votre ligne.
+-  Vous pouvez déplacer des points de la ligne en faisant un clic gauche avec la souris
+   sur un point et en déplacant la souris en maintenant le clic gauche.
+-  Vous pouvcez aussi déplacer la ligne entièrement en la sélectionnant, et en choisissant
+   l'**outil de déplacement** (*Move Tool*). Puis en déplaçant la ligne jusqu'à une nouvelle position. |image30|
+-  Quand vous cliquez sur un point individuel (node) de la ligne avec le bouton gauche de votre souris
+   puis faites un clic droit pour afficher le menu contextuel, vous devriez voir 
+   apparaître les outils suivants:
+-  Supprimer le point de la ligne. |image23|
+-  Déconnecter le point de la ligne. |image26|
+-  Séparer la ligne en deux à partir du point sélectionné.
    |image27|
--  When you click your left mouse button on a line (but not on a point),
-   you will see these tools:
--  Delete line. |image23|
--  Create a circle from a line (only active if the line is closed)
+-  Quand vous faites un clic gauche sur une ligne (mais pas sur un point),
+   vous verrez les outils suivants:
+-  Supprimer ligne. |image23|
+-  Créer un cercle à partir de la ligne (actif uniquement si la ligne est close)
    |image29|
--  Move line |image30|
--  Form a square shape from a line (only active if the line is closed)
+-  Bouger la ligne |image30|
+-  Former un carré à partir de la ligne (actif uniquement si la ligne est close)
    |image31|
--  Reverse line direction (good for rivers & one-way streets)
+-  Inverser la direction de la ligne (bien pour les cours d'eau et les rues à sens unique)
    |image32|
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+Une "ligne" crée dans l'éditeur iD est en fait une "way" avec des "tags" dessus.
 
 .. note::
     A special note about **Deleting**: In general you should avoid
