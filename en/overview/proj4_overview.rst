@@ -16,7 +16,7 @@
 Proj.4
 ================================================================================
 
-.. image:: ../../images/project_logos/logo-metacrs.png
+.. image:: /images/project_logos/logo-metacrs.png
   :alt: project logo
   :align: right
   :target: http://proj4.org/index.html

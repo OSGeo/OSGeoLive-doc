@@ -10,7 +10,7 @@ soit. Il repose
 entièrement sur des logiciels libres, ce qui permet de le redistribuer,
 dupliquer gratuitement et de le passer à n'importe qui.
 
-.. image:: ../images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

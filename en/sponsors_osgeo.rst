@@ -1,4 +1,4 @@
-.. image:: ../images/logos/OSGeo_compass_with_text_square.png
+.. image:: /images/logos/OSGeo_compass_with_text_square.png
   :alt: OSGeo
   :target: http://www.osgeo.org
   :align: right

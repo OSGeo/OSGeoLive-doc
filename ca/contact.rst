@@ -23,7 +23,7 @@ així com `un sistema de recerca d'errors i de suggeriments <https://trac.osgeo.
 Suport comercial
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

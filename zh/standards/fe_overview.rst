@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ Filter Encoding (FE) 过滤器编码
 
 　　OGC® Filter Encoding Standard (FE) 定义了表达空间信息查询范围的 XML 语法，是查询可以根据一定的属性筛选结果。(http://www.opengeospatial.org/standards/filter)
 
-.. image:: ../../images/standards/fe.jpg
+.. image:: /images/standards/fe.jpg
   :scale: 55%
   :alt: FE in Context
 

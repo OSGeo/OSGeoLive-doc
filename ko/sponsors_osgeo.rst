@@ -18,32 +18,32 @@ OSGeo는 포함된 소프트웨어, 프로젝트 및 회사 등을 추천 및 �
 OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/geocat_logo.png
+.. image:: /images/logos/geocat_logo.png
   :alt: GeoCat
   :target: http://geocat.net/
 
 
-.. image:: ../images/logos/Boundless_Logo.png
+.. image:: /images/logos/Boundless_Logo.png
   :alt: Boundless
   :target: http://boundlessgeo.com/
 
-.. image:: ../images/logos/gaia3d.png
+.. image:: /images/logos/gaia3d.png
   :alt: Gaia3D
   :target: http://www.gaia3d.com/
 
-.. image:: ../images/logos/astun.png
+.. image:: /images/logos/astun.png
   :alt: Astun Technology
   :target: https://astuntechnology.com/
 
-.. image:: ../images/logos/chameleon-john-logo.png
+.. image:: /images/logos/chameleon-john-logo.png
   :alt: ChameleonJohn
   :target: https://www.chameleonjohn.com/
 
-.. image:: ../images/logos/apps-for-rent-logo.png
+.. image:: /images/logos/apps-for-rent-logo.png
   :alt: Apps4Rent
   :target: http://www.apps4rent.com/
 
-.. image:: ../images/logos/DealIslands.png
+.. image:: /images/logos/DealIslands.png
   :alt: Dealslands
   :target: http://www.dealslands.co.uk/
 

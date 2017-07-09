@@ -3,12 +3,12 @@
 
 .. _fe-overview-el:
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -19,7 +19,7 @@ Filter Encoding (FE)
 Το πρότυπο Filter Encoding (FE) του OGC® ορίζει την κωδικοποίηση XML για την έκφραση φίλτρων για χωρικά ερωτήματα με στόχο την επιλογή μέρους από γεωγραφικά χαρακτηριστικά με βάση συγκεκριμένες τους ιδιότητες.
 (http://www.opengeospatial.org/standards/filter)
 
-.. image:: ../../images/standards/fe.jpg
+.. image:: /images/standards/fe.jpg
   :scale: 55%
   :alt: FE in Context
 

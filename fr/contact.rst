@@ -23,7 +23,7 @@ et un `système de suivi des bugs et des demandes <https://trac.osgeo.org/osgeo/
 Support commercial
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

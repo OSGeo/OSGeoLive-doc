@@ -27,7 +27,7 @@ y también hay disponible un sistema de `gestión de peticiones y errores <https
 Soporte comercial
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

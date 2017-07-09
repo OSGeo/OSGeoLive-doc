@@ -12,15 +12,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -35,7 +35,7 @@ Web Map Service (WMS)
 
 Lo standard OGC® Web Map Service (WMS) fornisce una semplice interfaccia HTTP per la richiesta di immagini di mappa da uno o piu` database spaziali distribuiti. La risposta alla richiesta e` una o piu` immagini di mappa (restituita come JPEG, PNG, ecc.) che puo` essere visualizzata in applicazioni desktop e browser. (http://www.opengeospatial.org/standards/wms) 
 
-.. image:: ../../images/standards/wms.jpg
+.. image:: /images/standards/wms.jpg
   :scale: 55%
   :alt: WMS in Context
 

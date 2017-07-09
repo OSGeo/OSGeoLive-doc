@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
@@ -36,7 +36,7 @@ WFS (Web Feature Service)
 объектов, определяющий интерфейсы и операции, которые позволяют запрашивать и редактировать
 векторные пространственные данные, такие, как дороги или береговые линии.
 
-.. image:: ../../images/standards/wfs.jpg
+.. image:: /images/standards/wfs.jpg
   :scale: 55%
   :alt: Место WFS среди стандартов OGC
 

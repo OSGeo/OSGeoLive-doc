@@ -22,7 +22,7 @@ disponibile un `sistema di bug e wish tracking <a href="https://trac.osgeo.org/o
 Supporto commerciale
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
 

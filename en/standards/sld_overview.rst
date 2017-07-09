@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -35,7 +35,7 @@ Style Layer Descriptor (SLD)
 The OGC® Styled Layer Descriptor (SLD)
 provides constructs for the symbolization and coloring of geographic features and coverages. It is typically used to apply styles to Web Map Services, or style GML from Web Feature Services.  (http://www.opengeospatial.org/standards/sld) 
 
-.. image:: ../../images/standards/sld.jpg
+.. image:: /images/standards/sld.jpg
   :scale: 55%
   :alt: SLD in Context
 

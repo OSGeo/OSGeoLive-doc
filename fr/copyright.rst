@@ -25,7 +25,7 @@ Vous êtes susceptibles d'utiliser un texte d'attribution similaire à l'un des 
 
   |CC-By-SA-med| Ce document inclut le contenu du "guide de démarrage rapide gvSIG" créé par Simon Cropper sous la license Creative Commons Attribution 3.0 non transposé, http://creativecommons.org/licenses/by-sa/3.0/deed.fr disponible sur le projet OSGeo-Live, http://live.osgeo.org/fr/quickstart/gvsig_quickstart.html, et téléchargé le 25 Juillet 2011. Le travail original a été traduit de l'anglais au français.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/deed.fr
 
 **CC-By-SA concise avec attribution:**
@@ -38,7 +38,7 @@ Vous êtes susceptibles d'utiliser un texte d'attribution similaire à l'un des 
 
   |CC-By-small| © 2011 [Votre Nom]. [Dérivant|Incluant|Etendant] les vues d'ensemble du projet `OSGeo-Live <http://live.osgeo.org>`__ faites par `les contributeurs OSGeo-Live`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/deed.fr
 
 **Minimum (pour les vues d'ensemble du projet) avec attribution seulement:**

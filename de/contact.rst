@@ -37,7 +37,7 @@ und ein `Tracking System für Probleme und Wünsche <https://trac.osgeo.org/osge
 Kommerzieller Support
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

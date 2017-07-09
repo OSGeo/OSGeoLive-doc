@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ Style Layer Descriptor (SLD) 图层样式注记
 
 　　OGC® Styled Layer Descriptor (SLD) 为地图要素的标记样式提供指导。它常用于 Web Map Services 网络地图服务的渲染以及 GML（来自 WFS）的要素的样式处理。(http://www.opengeospatial.org/standards/sld) 
 
-.. image:: ../../images/standards/sld.jpg
+.. image:: /images/standards/sld.jpg
   :scale: 55%
   :alt: SLD in Context
 

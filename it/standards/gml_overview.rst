@@ -12,15 +12,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -35,7 +35,7 @@ Geography Markup Language (GML)
 
 GML (http://www.opengeospatial.org/standards/gml) e` una grammatica XML definita per esprimere e comunicare gli oggetti geografici (features). GML serve come linguaggio di modellazione per sistemi geografici ma anche come un formato aperto di interscambio per transazioni geografiche via Internet. Da notare che il concetto di "feature" in GML e` molto generale e comprende non solo il "vettoriale" convenzionale, ma anche le coperture e alcuni elementi di dati di sensori. La capacita` di integrare tutte le forme di informazione geografica e` la chiave dell'utilita` di GML.
 
-.. image:: ../../images/standards/gml.jpg
+.. image:: /images/standards/gml.jpg
   :scale: 55%
   :alt: GML in Context
 
