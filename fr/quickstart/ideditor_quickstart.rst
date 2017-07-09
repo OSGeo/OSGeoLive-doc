@@ -206,23 +206,23 @@ Pour ajouter un polygone, cliquez sur le bouton **Area**.
 
 Un "polygone" dans l'éditeur iD est en fait un "closed way" avec des tags dessus.
 
-Drawing Multipolygons
+Dessiner des Multipolygones
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes you have to draw a polygon which does not only have an outer
-contour but also one or more inner contours. Just think of buildings
-with inner courtyards or lakes with islands. *Do not draw all these ways
-in one line* so that the inner contours suspend from the outer contour.
-Rather draw these contours separate, attach tags to the outer contour
-only, select all contours and hit **c** in order to combine them into
-what is called a multipolygon.
+Parfois vouas avez besoin de dessiner un polygone qui n'a pas qu'un contour intérieur
+mais aussi un ou plusieurs contours intérieurs. Pensez juste aux bâtiments avec
+des cours intérieures ou aux lacs avec des îles. *Ne dessinez pas toutes ces chemins
+avec une seule ligne* de sorte que le contour intérieur reste accroché au contour externe.
+Dessinez plutôt des contours séparés, affectez les tags au contour extérieur
+seulement, selectionnez tous les contours et tapez **c** de façon à les combiner en
+ce qui est appelé un multipolygone.
 
   .. image:: /images/screenshots/1024x768/id-editor_create_multipolygon.png
    :alt: create multipolygon
 
 
-When you select any of the contours of the newly created multipolygon
-you can see on the left to which multipolygons it belongs
+Qaund vous sélectionnez n'importe lequel des contours du nouveau multipolygone,
+vous pouvez voir sur la gauche à quels multipolygones il appartient.
 
   .. image:: /images/screenshots/1024x768/id-editor_part_of_multipolygon.png
    :alt: part of multipolygon
