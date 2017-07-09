@@ -181,31 +181,30 @@ Pour ajouter une nouvelle ligne, cliquez sur le bouton **Ligne**. |image4|
 Une "ligne" crée dans l'éditeur iD est en fait une "way" avec des "tags" dessus.
 
 .. note::
-    A special note about **Deleting**: In general you should avoid
-    deleting other people's mapping if it just needs improvement. You
-    can delete your own mistakes, but you should try to *adjust* other
-    people's mapped objects if they need changes. This preserves the
-    history of the items in the OSM database and is respectful of fellow
-    mappers. If you really feel something should be deleted, consider
-    asking the original mapper or one of the OSM email lists about it
-    first.
+    Remarque spéciale à propos de la **Supression**: En général, vous devriez éviter de
+    supprimer la cartographie d'autres utilisateurs si elle demande uniquement une amélioration.
+    Vous pouvez supprimer vos propres erreurs, masi vouys devriez seulement *ajuster* les objets
+    cartographiés par d'autres si ils ont besoin de changements. Cela préserve
+    l'historique des objets dans la base de données d'OSMet est respectueux de nos camarades
+    cartographes. Si vous pensez quelque chose doit être supprimé, pensez
+    à demander au cartographe originel ou une des liste de diffusion d'OSM en premier lieu.
 
-Drawing Shapes (Polygons)
+Dessiner des formes (Polygones)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To add a new multi-sided shape, click on the **Area** button.
+Pour ajouter un polygone, cliquez sur le bouton **Area**.
 
   |image34|
 
--  Your mouse cursor will change into plus (+) sign. Try to trace a
-   building using the imagery as a guide.
--  You will notice that the color of your shape will change depending on
-   the attributes that you assign to it. |image35|
--  The tools that are available when you select a shape and activate the
-   context menu with the right mouse button are similar to those when
-   you click on a line.
+-  Votre curseur de souris devrait se changer en signe plus (+). Essayez de tracer un
+   bâtiment en utilisant l'image satellite comme un guide.
+-  Vous remarquerez que la couleur de la forme changera en fonction
+   des propriétés que vous lui assignez. |image35|
+-  Les outils disponibles quad vous sélectionnez une forme et activez le
+   menu contextuel avec le clic droit sont similaires à ceux disponibles
+   quand vous cliquez sur une ligne.
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+Un "polygone" dans l'éditeur iD est en fait un "closed way" avec des tags dessus.
 
 Drawing Multipolygons
 ~~~~~~~~~~~~~~~~~~~~~
