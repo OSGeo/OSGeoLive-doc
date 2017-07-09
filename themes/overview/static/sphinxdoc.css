@@ -254,7 +254,7 @@ div.quotebar {
 }
 
 div.topic {
-    background-color: #f8f8f8;
+    border: 0;
 }
 
 table {
