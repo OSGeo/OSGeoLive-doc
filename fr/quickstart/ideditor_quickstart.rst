@@ -228,72 +228,71 @@ vous pouvez voir sur la gauche à quels multipolygones il appartient.
    :alt: part of multipolygon
 
 
-Saving Your Changes
+Sauvegardes ses changements
 -------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the
-  **Save** button. The panel on the left will show the upload panel.
+Quand (et si) vous voulez sauvegardez vos changements sur OpenStreetMap, cliquez le
+  bouton **Save**. Le panneau gauche devrait afficher le panneau de chargement à distance.
 
   |image36|
 
--  Enter a comment about your edits and click **Save**.
+-  Saisissez un commentaire à vos changement et cliquez sur  **Save**.
 
-    If you have edited the same feature (point, way or area) at the same
-    time as another person was editing it, you will receive a warning
-    that your edits cannot be uploaded until you have resolved the
-    **conflicts** - choose whose edits to accept & upload your changes.
-    *Resolving conflicts often involves accepting the other persons
-    edits, in which case you will probably wish to return to the feature
-    in question and edit again (**this time save soon after the edit to
-    try to avoid a conflict again!**).*
+    Si vous avez édité les mêmes entités (*point*, *way* ou *area*) en même
+    qu'uen autre personne, vous recevrez un avertissement comme quoi  
+    vos changements ne peuvent charggé tant que vous n'aure pas résolu les **conflits**
+    (*conflicts*) - Choisissez les changements à accepter & et chargez vos changements.
+    * Résoudre les conflits implique souvent d'accepter les changements d'autres personnes,
+    auquel cas vous devrez probablement revenir sur l'entité
+    en question et la changer encore une fois (** cette fois en sauvegardant rapidement après le changement
+    pour éviter les conflits !**).*
 
-Additional Information and Custom Tags
+Informations additionnelles et Tags personnalisés
 --------------------------------------
 
-When you are editing an object, you will see a strip of icons at the
-bottom of the attribute panel. You can add additional information by
-clicking these icons:
+Quand vous éditez un objet, vous verrez une bande d'icônes en bas
+du panneau d'attibut. Vous pouvez ajouter des informations additionnelles en cliquant
+sur ces icônes:
 
--  Add elevation |image37|
--  Add notes |image38|
--  Add contacts / phone number |image39|
--  Add source tag |image40|
--  Add website |image41|
--  Add accessibility information |image42|
--  Add Wikipedia link |image43|
+-  Ajouter l'altimétrie |image37|
+-  Ajouter des notes |image38|
+-  Ajouter un contact / numéro de téléphone |image39|
+-  Ajouter un tag source |image40|
+-  Ajouter un site web |image41|
+-  Ajouter une information d'accessibilité |image42|
+-  Ajouter un lien Wikipedia |image43|
 
-Or, you can add custom tags by clicking **All tags**. |image44|
+Ou, vous pouvez ajouter des tags personnalisés en cliquant sur **All tags**. |image44|
 
--  This will show all the tags attached to the feature.
+- Ce affichera tous les tags attachés à l'entité.
 
    |image45|
 
--  Click the plus sign (+) to add keys and values or click the trash
-   icon to delete tags.
+-  Cliquez sur le signe (+) pour ajouter des couples clés/valeurs ou cliquez
+   sur la corbeille pour supprimer des tags.
 
 iD versus JOSM
 --------------
 
-**iD is good for...**
+**iD est suffisant...**
 
--  When you are doing simple edits
--  When you have fast Internet to load the imagery and save the edits
--  When you want to be sure to follow a consistent and simple tagging
-   scheme
--  When you are restricted from installing a program on the computer you
-   are using
+-  Quand vous faites des changements simples
+-  Quand votre connexion Internet est suffisamment rapide pour charger l'imagerie satellite et sauvegarder les changements
+-  Quand vous voulez être sûr de faire un schéma d'étiquetage cohérent et simple
+-  Quand vous ne pouvez pas installer de logiciels su l'ordinateur
+   que vous utilisez
 
-**JOSM is better...**
+**JOSM est plus efficace...**
 
--  When you are adding many buildings (See buildings_tool plugin)
--  When you are editing many polygons or lines that already exist
--  When you are on an unreliable Internet connection or offline
--  When you are using a specific tagging scheme (or custom presets)
+-  Quand vous ajoutez plusieurs bâtiments (voir le plugin buildings_tool)
+-  Quand vous éditez plusieurs polygones ou lignes déjà existants
+-  Qua	nd votre connexion Internet n'est pas fiable ou que vous êtes hors ligne
+-  Quand vous appliquez un shéma d'étiquetage particulier (ou des paramètres personnalisés)
 
-What Next?
+Ensuite ?
 ----------
 
-- Try the LearnOSM documentation, from which this quickstart was derived: http://learnosm.org/en/beginner/id-editor/
+- Essayez la documentation de LearnOSM, dont ce guide de démarrage rapide est dérivé: http://learnosm.org/en/beginner/id-editor/
 
 .. |image3| image:: /images/screenshots/1024x768/id-editor_image3.png
   :height: 24px
