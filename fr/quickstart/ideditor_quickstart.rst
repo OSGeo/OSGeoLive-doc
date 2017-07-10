@@ -16,7 +16,7 @@ L’éditeur iD est le meilleur moyen d’éditer la carte pour faire toutes les
 .. contents:: Sommaire
 
 Commencer avec l’éditeur iD
-----------------------
+-------------------------------------------
 
 - pour utiliser iD vous devez être connecté(e) à Internet.
 -  Ouvrir votre navigateur Internet et rendez-vous sur le site d’OpenStreetMap à l’adresse 
@@ -29,7 +29,7 @@ Commencer avec l’éditeur iD
   .. image:: /images/screenshots/1024x768/id-editor_image1.png
 
 Interface Utilisateur de l'éditeur iD
-------------------------
+-------------------------------------------
 
   .. image:: /images/screenshots/1024x768/id-editor_image2.png
 
@@ -77,7 +77,7 @@ Configurer le fond de carte
   |image15|
 
   Pour changer la **luminosité** sur une de ces cases à cocher, les niveaux sont
- 100%, 75%, 50%, and 25% |image16|
+  100%, 75%, 50%, and 25% |image16|
 
   Vous pouvez aussi **changer le fond de carte** basé sur votre fournisseur de tuile désiré
   (Bing Aerial Imagery est la valeur par défaut).
@@ -108,10 +108,10 @@ Configurer le fond de carte
    le bouton **reset** pour revenir à la position par défaut. |image20|
 
 Edition simple avec iD
----------------------
+-------------------------------------------
 
 Ajout de Points
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
 
@@ -143,7 +143,7 @@ Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
    avec un ensemble de "tags".
 
 Dessiner des lignes
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour ajouter une nouvelle ligne, cliquez sur le bouton **Ligne**. |image4|
 
@@ -190,7 +190,7 @@ Une "ligne" crée dans l'éditeur iD est en fait une "way" avec des "tags" dessu
     à demander au cartographe originel ou une des liste de diffusion d'OSM en premier lieu.
 
 Dessiner des formes (Polygones)
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour ajouter un polygone, cliquez sur le bouton **Area**.
 
@@ -207,7 +207,7 @@ Pour ajouter un polygone, cliquez sur le bouton **Area**.
 Un "polygone" dans l'éditeur iD est en fait un "closed way" avec des tags dessus.
 
 Dessiner des Multipolygones
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Parfois vouas avez besoin de dessiner un polygone qui n'a pas qu'un contour intérieur
 mais aussi un ou plusieurs contours intérieurs. Pensez juste aux bâtiments avec
@@ -229,7 +229,7 @@ vous pouvez voir sur la gauche à quels multipolygones il appartient.
 
 
 Sauvegardes ses changements
--------------------
+-------------------------------------------
 
 Quand (et si) vous voulez sauvegardez vos changements sur OpenStreetMap, cliquez le
   bouton **Save**. Le panneau gauche devrait afficher le panneau de chargement à distance.
@@ -248,7 +248,7 @@ Quand (et si) vous voulez sauvegardez vos changements sur OpenStreetMap, cliquez
     pour éviter les conflits !**).*
 
 Informations additionnelles et Tags personnalisés
---------------------------------------
+-------------------------------------------
 
 Quand vous éditez un objet, vous verrez une bande d'icônes en bas
 du panneau d'attibut. Vous pouvez ajouter des informations additionnelles en cliquant
