@@ -112,27 +112,27 @@ Geospatial Libraries
 * :doc:`geos_overview` - C/C++ Spatial Library
 * :doc:`jts_overview` - Java Topology Suite' ;  a LocationTech project
 
-Available from prior OSGeo-Live releases:
+Available in prior OSGeo-Live releases:
 --------------------------------------------------------------------------------
 
-* :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
 * :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
-* :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
-* :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
-* :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5
-* :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service, not included after OSGeo-Live 10.5
-* :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
-* :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`], not included after OSGeo-Live 10.5
-* :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe, not included after OSGeo-Live 10.5
-* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology, not included after OSGeo-Live 10.5
-* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
-* :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management, not included after OSGeo-Live 10.5
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS, not included after OSGeo-Live 10.0
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing, not included after OSGeo-Live 9.5
+* :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, not included after OSGeo-Live 9.0
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, not included after OSGeo-Live 7.9
-* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, not included after OSGeo-Live 6.5
-* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, not included after OSGeo-Live 6.0
-* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, not included after OSGeo-Live 6.0
+* :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`], not included after OSGeo-Live 10.5
+* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology, not included after OSGeo-Live 10.5
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
+* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, not included after OSGeo-Live 7.9
+* :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
+* :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
+* :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service, not included after OSGeo-Live 10.5
+* :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management, not included after OSGeo-Live 10.5
+* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing, not included after OSGeo-Live 9.5
+* :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5
+* :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
+* :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
+* :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe, not included after OSGeo-Live 10.5
+* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, not included after OSGeo-Live 6.5
+* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, not included after OSGeo-Live 6.0
+* `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, not included after OSGeo-Live 6.0
 
