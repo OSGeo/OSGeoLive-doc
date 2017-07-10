@@ -69,28 +69,27 @@ Apprendre les techniques de base de dessin avec JOSM
 -  Vous utiliserez ces données dans le but d'essayer différentes techniques d'édition.
    *Vous ne devez jamais charger dans la base de données ces données fictives.*
 
-Basic Operations
-~~~~~~~~~~~~~~~~
+Opérations basiques
+~~~~~~~~~~~~~~~~~~~~
 
--  To move the map left or right, up or down, hold your right mouse
-   button down, and move your mouse.
--  There are several ways to zoom in and out of the map. If you have a
-   mouse, you can use your scroll wheel to zoom in and out. If you are
-   using a laptop and don’t have a mouse, you can zoom in and out using
-   the scale bar in the upper left of the map window. Drag the bar left
-   and right by holding your left mouse down and moving the bar left or
-   right with your mouse.
+-  Pour bouger la carte vers la droite ou la gauche,le hoaut ou le bas, maintenez le bouton droit
+   de votre souris et bougez-la.
+-  Il y a plusieurs façons de zoomer et dézoomer la carte. Si vous avez une souris,
+   vous pouvez utiliser la roulette pour zoomer et dézoomer. Sur un ordinateur
+   portable et sans souris, vous pouvez faire varier le niveau de zoom en utilisant
+   la barre d'échelle en haut à gauche de la fenêtre de la carte. Déplacez la barre vers la gauche
+   et la droite en maintenant le clic gauche et déplaçant la barre vers la droite ou la gauche.
 
 .. image:: /images/screenshots/1024x768/josm_scale-bar.png
-   :alt: Scale bar
+   :alt: Barre d'échelle
 
 
--  Look at the sample map. There a few different types of objects here.
-   There is a river, a forest, some buildings, several roads, and a
-   couple of shops. To select an object, click on it with your left
-   mouse button.
+-  Regardez la carte d'exemple. Il y a plusieurs types d'objets.
+   Il y a une rivière, une forêt, quelques bâtiments, plusieurs routes et une
+   paire de magasins. Pour sélectionner un objet, cliquez dessus avec le
+   bouton gauche de la souris.
 
-Points, Lines, and Shapes
+Points, Lignes et Formes
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  As you click different objects on the sample map, notice that there
