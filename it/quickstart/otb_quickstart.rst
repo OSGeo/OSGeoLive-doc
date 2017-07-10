@@ -8,6 +8,13 @@
   :scale: 80 %
   :alt: project logo
   :align: right
+  :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guida rapida su OTB

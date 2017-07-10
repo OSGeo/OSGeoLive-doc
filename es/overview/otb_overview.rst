@@ -5,10 +5,17 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+
 .. image:: /images/project_logos/logo-otb.png
   :alt: project logo
   :align: right
   :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 OTB
 ================================================================================
