@@ -1,5 +1,5 @@
 :Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/1900-12-21-start-josm.md
-:Source Reviewed: 2016-03-30  
+:Source Reviewed: 2016-03-30
 :Author: Nick Allen
 :Version: osgeo-live 11
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -11,14 +11,14 @@ JOSM Quickstart
 
 Ce guide de démarrage rapide couvre les usages de base de l'éditeur Java d'OpenStreetMap.
 
-.. contents:: 
+.. contents::
 
 -  Quand JOSM démarre, cela devrait ressembler à cela:
 
 .. image:: /images/screenshots/1024x768/josm-splash-page.png
    :alt: écran de chargement de JOSM
 
-Préférences de JOSM 
+Préférences de JOSM
 --------------------
 
 Il y a plusieurs paraamètres que vous pouvez modifier dans JOSM. Un
@@ -72,13 +72,12 @@ Apprendre les techniques de base de dessin avec JOSM
 Opérations basiques
 ~~~~~~~~~~~~~~~~~~~~
 
--  Pour bouger la carte vers la droite ou la gauche,le hoaut ou le bas, maintenez le bouton droit
-   de votre souris et bougez-la.
--  Il y a plusieurs façons de zoomer et dézoomer la carte. Si vous avez une souris,
-   vous pouvez utiliser la roulette pour zoomer et dézoomer. Sur un ordinateur
-   portable et sans souris, vous pouvez faire varier le niveau de zoom en utilisant
-   la barre d'échelle en haut à gauche de la fenêtre de la carte. Déplacez la barre vers la gauche
-   et la droite en maintenant le clic gauche et déplaçant la barre vers la droite ou la gauche.
+-  Pour déplacer la carte de droite à gauche ou de haut en bas, utilisez le bouton
+   droit de votre souris, que vous devez laissez appuyé tout en déplaçant votre souris.
+-  Il y a plusieurs façons de zoomer ou dézoomer la carte. Si vous avez une molette
+   sur votre souris, vous pouvez l’utiliser. Sinon, vous pouvez utiliser le curseur
+   dans le coin en haut à gauche de la carte. Déplacer la barre vers la gauche ou
+   vers la droite avec votre souris pour zoomer ou dézoomer.
 
 .. image:: /images/screenshots/1024x768/josm_scale-bar.png
    :alt: Barre d'échelle
@@ -89,148 +88,144 @@ Opérations basiques
    paire de magasins. Pour sélectionner un objet, cliquez dessus avec le
    bouton gauche de la souris.
 
-Points, Lignes et Formes
+Points, lignes et polygones
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  As you click different objects on the sample map, notice that there
-   are three different types of objects on the map. There are points,
-   lines, and shapes.
--  Points are a single location, represented by symbols. On this sample
-   map, there are two points, a shoe shop and a supermarket. The shoe
-   shop is represented by a shoe symbol, and the market is represented
-   by a shopping cart.
--  There are several lines on the map as well, which represent roads. If
-   you look closely you will see that within the lines, there are points
-   as well. These points don’t have any symbols or other information
-   associated with them, but they help to define where the line is
-   located.
--  Lastly, there are numerous shapes on the sample map, representing
-   different places - a forest, a river, a park, and buildings. A shape
-   is used to represent an area, like a field or a building. A shape is
-   exactly like a line - the only difference is that the line begins at
-   the same point where it ends.
+-  En cliquant sur différents objets de la carte, vous pouvez remarquer qu'il
+   y a trois types différents d'objets sur la carte. Il y a les points,
+   lignes et les polygones.
+-  Les points sont des lieux simples, représentés par des symboles.
+   Dans notre carte d’exemple, nous avons deux points: une boutique de vêtements
+   et un marché. La boutique de vêtements est représentée par une image de maillot
+    et le marché, par un panier de courses.
+-  Il y a aussi des lignes sur la carte, qui représentent des routes. Si vous regardez
+   attentivement vous remarquerez que les lignes contiennent des points. Aucune
+   information et aucun symbole n’est associé avec ces points: leur rôle est de
+   déterminer le tracé de la ligne.
+-  Enfin, il y a différents polygones, qui représentent plusieurs lieux: une forêt,
+   une rivière, et des bâtiments. Un polygone représente généralement une aire,
+   par exemple un champ ou un bâtiment. Le polygone est en fait une ligne avec une
+   caractéristique notable: dans le cas d’un polygone, la ligne commence et finit
+   sur le même point.
 
-    It's easy to think of a map as containing these three basic types of
-    objects - points, lines, and shapes. In OpenStreetMap there is
-    special terminology which you will come to learn as you progress. In
-    OSM, points are actually called **nodes**, and lines are called
-    **ways**. A shape is called a **closed way** because it is just a
-    line that ends at the same point where it begins.
+    Il est facile de penser une carte comme contenant ces trois types d'objets
+    de base - points, linges et formes. Dans OpenStreetMap il y a
+    une terminologie spéciale que vous apprendrez en progressant. Dans
+    OSM, les points sont appelés **nodes** (noeuds), les linges sont appelées
+    **ways** (voies). Une forme est appelée **closed way** (voie fermée) car c'est
+    seulement une ligne qui se termine sur le point où elle commence.
 
--  You may notice that when you select an object, a list appears to the
-   right of the map in a window called “Properties”. These are known as
-   tags. Tags are information that is tied to a point, line or shape
-   that describes what it is. We’ll learn more about tags in a later
-   chapter. For now all you need to know is that this information helps
-   describe whether our object is a forest, a river, a building, or
-   something else.
--  Think about drawing a map by hand, and how you are also drawing
-   points, lines, and shapes. What other places are best represented by
-   points? Lines? Shapes?
+-  Vous avez peut-être remarqué la fenêtre «Attributs» qui apparaît sur la droite
+   quand vous sélectionnez un objet. Celle-ci liste ce qu’on appelle les tags.
+   Les tags sont associés un point, une ligne ou un polygone, et permettent de les
+   définir. Nous en apprendrons un peu plus sur les tags dans le chapitre 7,
+   «Édition avancée avec JOSM». Pour le moment, retenez que les tags servent à déterminer
+   si un objet est une forêt, une rivière, un bâtiment, ou autre chose.
+-  Pensez au cartes dessinées à la main, est-ce qu’on utilise pas là aussi des points,
+   des lignes et des polygones ? Quels lieux peuvent être représentés par des
+   points ? par des lignes ? par des polygones ?
 
-Changing Objects
-~~~~~~~~~~~~~~~~
+Modifier les objets
+~~~~~~~~~~~~~~~~~~~~
 
--  Select the forest on the left side of the map. Be sure to click on
-   the line around the forest, not one of the points on the line. Now
-   hold your left mouse button down and drag your mouse. You should be
-   able to move the forest to a new location on the map.
--  Click on one of the points on the line around the forest. Hold your
-   left mouse button down and drag your mouse. You should be able to
-   move the point. This is how you can change the shape of an object, or
-   move a point.
+-  Sélectionnez la forêt qui est sur la gauche de la carte. Faites bien attention
+   de cliquer sur la ligne qui entoure la forêt, et pas sur un des points qui la
+   constituent. En maintenant votre clic droit enfoncé et en déplaçant votre souris,
+   vous devriez être capable de changer la forêt de position.
+-  Cliquez maintenant sur un des points constituant le polygone de la forêt.
+   À l’aide de votre souris, en maintenant le clic gauche enfoncé, vous devriez
+   pouvoir déplacer ce point. C’est la façon de faire si vous avez besoin de
+   changer la forme d’un polygone, ou tout simplement pour changer la position d’un point.
 
-Drawing
+Tracer
 ~~~~~~~
 
--  On the left side of JOSM is a column of buttons. Many of these
-   buttons open new windows on the right side that provide more
-   information about the map. The most important buttons, however, are
-   at the top of these column. These buttons change what you can do with
-   your mouse.
--  The top buttons in this column are the ones you will use the most.
-   They are used for selecting objects and for drawing new ones.
--  Until now, you have been using the Select tool, which looks like
-   this:
+-  Tout à gauche de la fenêtre de JOSM, il y a une barre d’outils. Une partie de
+   ces boutons permettent d’ouvrir des fenêtres à droite qui affichent des informations
+   supplémentaires sur la carte. Mais les boutons qui nous intéressent pour le moment
+   sont en haut de cette barre d’outils. Ces boutons permettent de définir ce que
+   vous pouvez faire avec votre souris.
+-  Les quatre boutons du haut sont les plus importants.
+   Ils sont utilisés pour sélectionner les objets et en dessiner de nouveaux.
+-  Jusqu’à présent, vous avez utilisé l’outil de sélection, qui ressemble à
+   ceci:
 
 .. image:: /images/screenshots/1024x768/josm_select-tool.png
-   :alt: Select tool
+   :alt: Outil de sélection
 
 
--  Before you draw, you need to make sure that nothing is selected.
-   Click in the black space on the map, where it is empty, to make sure
-   nothing is selected.
--  Click on the second button, the Draw tool.
+-  Avant de commencer à tracer, assurez-vous que rien n’est sélectionné. Pour cela,
+   toujours avec l’outil de sélection, cliquez dans une zone vide de la carte.
+-  Vous pouvez maintenant cliquer sur le deuxième bouton, celui pour tracer.
 
 .. image:: /images/screenshots/1024x768/josm_draw-tool.png
-   :alt: Draw tool
+   :alt: Outil de traçage
 
 
--  Find an empty area on the map, and double-click with your mouse. This
-   will draw a single point.
--  To draw a line, single-click with your mouse. Move your mouse and
-   click again. Continue until you are happy with your line. To end the
-   line, double-click your mouse.
--  Draw a shape the same way that you draw a line, but finish the shape
-   by double-clicking on the point where you started the line.
+-  Dans une zone vide de la carte, double-cliquez avec le bouton gauche de votre
+   souris. Vous venez de créer un point.
+-  Pour tracer une ligne, faites un simple clic avec votre souris. Déplacez votre
+   souris et cliquez de nouveau. Continuez jusqu’à que vous ayez obtenu le résultat
+   souhaité. Pour finir la ligne, double-cliquez avec votre souris.
+-  Le procédé est le même pour tracer un polygone, mais vous devez finir le polygone
+   en double-cliquant sur le premier point de la ligne.
 
-Add Presets
-~~~~~~~~~~~
+Utiliser les modèles d'attributs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Now we know how to draw points, lines and shapes, but we still
-   haven’t defined what they represent. We want to be able to say that
-   our points are shops, schools, or something else, and whether our
-   shapes are fields, buildings, or something else.
--  Click on the Select tool, in the column of buttons on the left.
+-  Nous savons désormais comment tracer des points, des lignes et des polygones,
+   mais pour l’instant nous n’avons pas défini ce qu’ils représentent. Nous voulons
+   être capable de dire qu’un point est une boutique, une école, ou autre chose,
+   et de même si nos polygones sont des champs, des bâtiments, ou autre chose.
+-  Dans la barre d’outils à gauche, cliquez de nouveau sur l’outil de sélection.
 
 .. image:: /images/screenshots/1024x768/josm_select-tool.png
-   :alt: Select tool
+   :alt: Outil de sélection
 
 
--  Select one of the objects that you drew with the Draw tool. On the
-   top menu, click “Presets”. Move your mouse through the sub-menu to
-   the type of location you would like to define.
--  When you click on a preset, a form will pop up asking you for more
-   information. You do not have to fill in every field, but you may wish
-   to add some of the important fields, such as the name of the object.
--  When you are finished entering the information, click “Apply Preset”.
-   If everything went well, your point, line, or shape should change
-   colors or show a symbol. This is because you have defined what it is.
+-  Sélectionnez un des objets que vous venez de tracer. Dans le menu du haut,
+   cliquez sur «Attributs». Déplacer votre souris dans les sous-menus jusqu’à trouver
+   le type de lieu que vous souhaitez.
+-  Après avoir sélectionné un modèle d’attributs, une fenêtre devrait s’ouvrir pour
+   vous permettre d’ajouter des informations. Tous les champs ne sont pas obligatoires,
+   mais vous voudrez certainement ajouter les plus importants, par exemple le nom de votre lieu.
+-  Quand vous avez renseigné toutes les informations voulues, appuyer sur «Appliquer
+   les attributs». Si tout s’est bien passé, votre point, ligne ou polygone devrait
+   changer de couleur ou afficher un symbole. C’est parce que vous avez maintenant
+   défini de quoi il s’agit.
 
-Draw Your Own Map
------------------
+Tracer votre carte
+--------------------
 
--  Now let’s draw a map in order to practice the techniques you have
-   learned. You may wish to redraw the map that you drew on paper
-   previously.
--  Drag the map away from the sample map. Hold the right mouse button
-   and drag your mouse, until you have a nice empty area to draw on.
--  Use the Draw tool to create points, lines, and shapes. Describe what
-   your objects are by selecting from the Presets menu.
--  When you are finished, you should have your own map, similar to the
-   sample map that we opened in sample.osm.
+-  C’est le moment de tracer une carte pour mettre en pratique ce que l’on vient
+   d’apprendre. Vous pouvez par exemple tracer la carte que vous aviez dessiné précedemment.
+-  À l’aide du bouton droit de votre souris, déplacez-vous dans une zone de la carte totalement vide.
+-  Utilisez l’outil de tracé pour créer des points, des lignes et des polygones.
+   N’oubliez pas de définir les objets en utilisant le menu «Attributs».
+-  Quand vous aurez fini, vous devriez avoir une carte similaire à celle que nous
+   avons chargée avec le fichier «sample.osm».
 
-Remove the sample layer
+Supprimer la couche d'exemple
 -----------------------
 
-Once you feel comfortable with these basic editing techniques you might
-want to turn your attention to mapping real features.
+Une fois que vous êtes à l'aise avec les tehniques de tracé, you souhaitez probablement
+vous tourner vers des entités réelles.
 
-*It is very important that you first remove the layer with the sample
-data. These data are fictitious and must not be uploaded to the
-OpenStreetMap database (newer JOSM releases automatically prevent
-this).*
+*Il est très important que vous supprimiez la couches avec les données
+d'exemple. Ces données sont fictives et ne doivent pas être chargées dans
+la base de données OpenStreetMap (les versions les plus récentes de JOSM prévienne cela
+automatiquement).*
 
-In the Layers window on the upper right of the screen select the
-sample.osm layer. Then click on the trash can icon in the lower right
-corner of that window. Alternatively you can choose delete from the
-context menu of the layer.
+Dans la fenêtre Couches dans le coin en haut à droite de l'écran, sélectionnez
+la couche sample.osm. Puis cliquez sur la corbeille en bas à droite
+de cette fenêtre. Vous pouvez aussi supprimer cette couche à l'aide du
+menu contextuel.
 
-What Next?
-----------
+Et ensuite ?
+-------------
 
--  Try the LearnOSM documentation, from which this quickstart was derived: 
-   http://learnosm.org/en/josm/start-josm/
--  In order to continue editing you first need to download real data. 
-   This is explained in the next chapter: 
+-  Essayez la documentation de LearnOSM, dont ce guide est dérivé:
+   http://learnosm.org/fr/josm/start-josm/
+-  Pour pouvoir continuer à éditer vous devez préalablement télécharger des données réelles.
+   Ceci est expliqué dans le chapitre suivant:
    http://learnosm.org/en/josm/more-about-josm/
