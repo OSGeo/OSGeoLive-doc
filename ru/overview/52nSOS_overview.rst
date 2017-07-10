@@ -20,7 +20,7 @@
 с локальных и удаленных сенсоров. Сенсором может выступать камера на спутнике 
 или измеритель уровня воды в реке.
 
-.. image:: /images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: снимок экрана тестового клиента 52°North SOS версии 1.0.0
   :align: right
