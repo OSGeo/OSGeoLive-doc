@@ -247,12 +247,12 @@ rst_epilog="""
                         :alt: OSGeo Project
                         :align: bottom
                         :height: 18
-                        :target: http://www.osgeo.org
+                        :target: ../sponsors_osgeo.html
 .. |osgeocommunity| image:: /images/logos/OSGeo_compass.png
                         :alt: OSGeo Community
                         :align: middle
                         :height: 18
-                        :target: http://www.osgeo.org
+                        :target: ../sponsors_osgeo.html
 .. |version-52nSOS| replace:: 4.4.0
 .. |version-52nWPS| replace:: 3.6.1
 .. |version-cartaro| replace:: 1.9
