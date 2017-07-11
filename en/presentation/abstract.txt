@@ -4,7 +4,7 @@ The abstract, slides and script are maintained at:
 https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation
 
 The latest stable version of the slides can be viewed at:
-http:///livedvd/docs/en/presentation/
+https://live.osgeo.org/en/presentation/index.html
 
 :Author: <Your Name>, <Affiliation>
 :Author: Cameron Shorter, Jirotech
