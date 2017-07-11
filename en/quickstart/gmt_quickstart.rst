@@ -42,7 +42,7 @@ From a quick look at the DTM metadata using the GDAL command `gdalinfo`:
 
 ::
 
-  gdalinfo /home/user/grassdata/nc_spm_08_grass7/PERMANENT/cellhd/elevation
+  gdalinfo /home/user/grassdata/nc_basic_spm_grass7/PERMANENT/cellhd/elevation
 
 
 we can see the DTM is in a projected coordinate system and the data range is between 50 and 160 meters.
@@ -51,7 +51,7 @@ We can convert the DTM in a GMT Compatible netCDF file format with `gdal_transla
 
 ::
 
-  gdal_translate -of GMT /home/user/grassdata/nc_spm_08_grass7/PERMANENT/cellhd/elevation elevation.gmt
+  gdal_translate -of GMT /home/user/grassdata/nc_basic_spm_grass7/PERMANENT/cellhd/elevation elevation.gmt
 
 For our GMT example we will first transform the dataset into geographic coordinates Longitude-Latitude (EPSG:4326) using the `gdalwarp` command:
 
