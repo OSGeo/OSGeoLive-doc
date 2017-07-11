@@ -9,7 +9,7 @@
 The iD Editor
 ********************************************************************************
 
-L’éditeur iD (lancé en 2013) est le nouvel éditeur d’OpenStretMap basé sur des des technologies web. 
+L’éditeur iD (lancé en 2013) est le nouvel éditeur d’OpenStreetMap basé sur des technologies web. 
 iD est rapide et facile à utiliser, et il permet d’utiliser différentes sources de données comme de l’imagerie satellite, des coordonnées GPS et les Field Papers.
 
 L’éditeur iD est le meilleur moyen d’éditer la carte pour faire toutes les petites modifications qui ne requièrent pas toute la complexité de JOSM. Ce chapitre explique les principes d’édition avec iD.
@@ -33,7 +33,7 @@ Interface Utilisateur de l'éditeur iD
 
   .. image:: /images/screenshots/1024x768/id-editor_image2.png
 
-1. **Panneau d'édition des entités (*Features*):** Ce panneau montre les tags des objets sémectionnés sur la carte.
+1. **Panneau d'édition des entités (*Features*):** Ce panneau montre les tags des objets sélectionnés sur la carte.
 
    Vous pouvez ajouter ou éditer des tags à partir de ce panneau.
 
@@ -122,7 +122,7 @@ Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
 
    |image21|
 
--  Remarquez qu'un nouveau point a été ajouté. En meêm temps, le panneau gauche
+-  Remarquez qu'un nouveau point a été ajouté. En même temps, le panneau gauche
    change pour afficher un formulaire où vous pouvez sélectionner les attributs
    pour l'objet. Cliquez sur **Hospital Grounds** pour tagger le point comme un hôpital.
 
@@ -131,13 +131,13 @@ Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
 -  Vous pouvez utiliser le formulaire pour fournir des informations détaillées sur votre point.
    Vous pouvez saisir le nom et l'adresse de votre hôpital, et/ou tout autre
    information. Notez que chaque entité aura des options différentes,
-   selon le tag vus avez choisi depuis le panneau **Entités** (*Features*).
+   selon le tag vous avez choisi depuis le panneau **Entités** (*Features*).
 -  Si vous faites une erreur, comme un mauvais placement, vous pouvez bouger votre
-   point vers un nouvel emplamceent en maintenant votre clic gauche maintenu sur le
+   point vers un nouvel emplacement en maintenant votre clic gauche maintenu sur le
    point et en le faisant glisser. Ou, si vous désirez supprimer votre point, faites un clic 
    gauche sur le point, activer le menu contextuel en
    faisant un clic droit et ensuite cliquer sur le bouton
-   qui ressemeble à une poubelle. |image23|
+   qui ressemble à une poubelle. |image23|
 
    Un "point" créé dans l'éditeur iD editor est actuellement un "noeud" (*node*) seul
    avec un ensemble de "tags".
@@ -158,7 +158,7 @@ Pour ajouter une nouvelle ligne, cliquez sur le bouton **Ligne**. |image4|
 -  Tout comme pour le point, sélectionnez les tags appropriés pour votre ligne.
 -  Vous pouvez déplacer des points de la ligne en faisant un clic gauche avec la souris
    sur un point et en déplacant la souris en maintenant le clic gauche.
--  Vous pouvcez aussi déplacer la ligne entièrement en la sélectionnant, et en choisissant
+-  Vous pouvez aussi déplacer la ligne entièrement en la sélectionnant, et en choisissant
    l'**outil de déplacement** (*Move Tool*). Puis en déplaçant la ligne jusqu'à une nouvelle position. |image30|
 -  Quand vous cliquez sur un point individuel (node) de la ligne avec le bouton gauche de votre souris
    puis faites un clic droit pour afficher le menu contextuel, vous devriez voir 
@@ -183,9 +183,9 @@ Une "ligne" crée dans l'éditeur iD est en fait une "way" avec des "tags" dessu
 .. note::
     Remarque spéciale à propos de la **Supression**: En général, vous devriez éviter de
     supprimer la cartographie d'autres utilisateurs si elle demande uniquement une amélioration.
-    Vous pouvez supprimer vos propres erreurs, masi vouys devriez seulement *ajuster* les objets
+    Vous pouvez supprimer vos propres erreurs, mais vous devriez seulement *ajuster* les objets
     cartographiés par d'autres si ils ont besoin de changements. Cela préserve
-    l'historique des objets dans la base de données d'OSMet est respectueux de nos camarades
+    l'historique des objets dans la base de données d'OSM et respectueux de nos camarades
     cartographes. Si vous pensez quelque chose doit être supprimé, pensez
     à demander au cartographe originel ou une des liste de diffusion d'OSM en premier lieu.
 
@@ -200,7 +200,7 @@ Pour ajouter un polygone, cliquez sur le bouton **Area**.
    bâtiment en utilisant l'image satellite comme un guide.
 -  Vous remarquerez que la couleur de la forme changera en fonction
    des propriétés que vous lui assignez. |image35|
--  Les outils disponibles quad vous sélectionnez une forme et activez le
+-  Les outils disponibles quand vous sélectionnez une forme et activez le
    menu contextuel avec le clic droit sont similaires à ceux disponibles
    quand vous cliquez sur une ligne.
 
@@ -209,7 +209,7 @@ Un "polygone" dans l'éditeur iD est en fait un "closed way" avec des tags dessu
 Dessiner des Multipolygones
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Parfois vouas avez besoin de dessiner un polygone qui n'a pas qu'un contour intérieur
+Parfois vous avez besoin de dessiner un polygone qui n'a pas qu'un contour intérieur
 mais aussi un ou plusieurs contours intérieurs. Pensez juste aux bâtiments avec
 des cours intérieures ou aux lacs avec des îles. *Ne dessinez pas toutes ces chemins
 avec une seule ligne* de sorte que le contour intérieur reste accroché au contour externe.
@@ -221,7 +221,7 @@ ce qui est appelé un multipolygone.
    :alt: create multipolygon
 
 
-Qaund vous sélectionnez n'importe lequel des contours du nouveau multipolygone,
+Quand vous sélectionnez n'importe lequel des contours du nouveau multipolygone,
 vous pouvez voir sur la gauche à quels multipolygones il appartient.
 
   .. image:: /images/screenshots/1024x768/id-editor_part_of_multipolygon.png
@@ -240,8 +240,8 @@ Quand (et si) vous voulez sauvegardez vos changements sur OpenStreetMap, cliquez
 
     Si vous avez édité les mêmes entités (*point*, *way* ou *area*) en même
     qu'uen autre personne, vous recevrez un avertissement comme quoi  
-    vos changements ne peuvent charggé tant que vous n'aure pas résolu les **conflits**
-    (*conflicts*) - Choisissez les changements à accepter & et chargez vos changements.
+    vos changements ne peuvent chargé tant que vous n'aure pas résolu les **conflits**
+    (*conflicts*) - Choisissez les changements à accepter et chargez vos changements.
     * Résoudre les conflits implique souvent d'accepter les changements d'autres personnes,
     auquel cas vous devrez probablement revenir sur l'entité
     en question et la changer encore une fois (** cette fois en sauvegardant rapidement après le changement
@@ -251,7 +251,7 @@ Informations additionnelles et Tags personnalisés
 -------------------------------------------
 
 Quand vous éditez un objet, vous verrez une bande d'icônes en bas
-du panneau d'attibut. Vous pouvez ajouter des informations additionnelles en cliquant
+du panneau d'attribut. Vous pouvez ajouter des informations additionnelles en cliquant
 sur ces icônes:
 
 -  Ajouter l'altimétrie |image37|
@@ -279,15 +279,15 @@ iD versus JOSM
 -  Quand vous faites des changements simples
 -  Quand votre connexion Internet est suffisamment rapide pour charger l'imagerie satellite et sauvegarder les changements
 -  Quand vous voulez être sûr de faire un schéma d'étiquetage cohérent et simple
--  Quand vous ne pouvez pas installer de logiciels su l'ordinateur
+-  Quand vous ne pouvez pas installer de logiciels sur l'ordinateur
    que vous utilisez
 
 **JOSM est plus efficace...**
 
 -  Quand vous ajoutez plusieurs bâtiments (voir le plugin buildings_tool)
 -  Quand vous éditez plusieurs polygones ou lignes déjà existants
--  Qua	nd votre connexion Internet n'est pas fiable ou que vous êtes hors ligne
--  Quand vous appliquez un shéma d'étiquetage particulier (ou des paramètres personnalisés)
+-  Quand votre connexion Internet n'est pas fiable ou que vous êtes hors ligne
+-  Quand vous appliquez un schéma d'étiquetage particulier (ou des paramètres personnalisés)
 
 Ensuite ?
 ----------
