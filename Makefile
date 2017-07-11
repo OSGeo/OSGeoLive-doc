@@ -81,6 +81,7 @@ sphinxbuild: link_to_en_docs licenses.csv
 fix_header_links: sphinxbuild
 	# Correct relative links for the headers for the top level directory
 	rm -fr $(TMP)
+	rm -fr $(BUILDDIR)/html/_sources
 	for FILE in $(BUILDDIR)/html/*/*.html ; do \
 	  for ITEM in \
 	    contact.html \
