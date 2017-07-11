@@ -93,7 +93,8 @@ Finally we can add a colorbar with `psscale`:
   gmt psscale -DjTC+w5i/0.25i+h+o0/-1i -Rgeo_elevation.gmt -J -Celevation.cpt -I0.4 -By+lm -O >> GMT_tut_OSGeo-Live.ps
 
 
-Here the flag `-D` is used to select the position `Top Center` and size `5ix0.25` and orientation `h` of the colorbar, `-By` is used to set a label `m` for the `y axis`
+Here the flag `-D` is used to select the colorbar position `TC: Top Center`, the size `5x0.25` expressed in inches `i` the orientation by `h: horizontal`
+and the flag `-By` to set a label `m` on the `y axis`.
 
 The output ps document should look like:
 
