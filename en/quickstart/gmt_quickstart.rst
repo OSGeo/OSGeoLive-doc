@@ -1,5 +1,5 @@
 :Author: Hamish Bowman, Massimo Di Stefano
-:Version: osgeo-live11.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2017 by The OSGeo Foundation
 
