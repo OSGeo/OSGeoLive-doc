@@ -11,7 +11,7 @@
 Editeur iD 
 ================================================================================
 
-Editeur pour OpenStretMap basé sur des des technologies web
+Editeur pour OpenStreetMap basé sur des technologies web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 L’éditeur iD (lancé en 2013) est le nouvel éditeur d’ `OpenStreetMap <http://www.openstreetmap.org>`_ . iD est rapide et facile à utiliser, et il permet d’utiliser différentes sources de données comme de l’imagerie satellite, des coordonnées GPS et les Field Papers.
@@ -29,7 +29,7 @@ Core Features
 * Edition d'OpenStreetMap 
 * Rapide
 * Intuitif
-* Basé sur des des technologies web
+* Basé sur des technologies web
 
 
 Standards implémentés
@@ -40,7 +40,7 @@ Standards implémentés
 Détails
 --------------------------------------------------------------------------------
 
-**Website:** http://wiki.openstreetmap.org/wiki/FR:ID 
+**Website:** https://wiki.openstreetmap.org/wiki/FR:ID 
 
 **Licence:** `ISC <https://fr.wikipedia.org/wiki/Licence_ISC>`_
 
