@@ -245,6 +245,9 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
+.. |nologo| image:: /images/logos/nologo.png
+                        :align: bottom
+                        :height: 18
 .. |osgeoproject| image:: /images/logos/OSGeo_compass.png
                         :alt: OSGeo Project
                         :align: bottom
