@@ -40,7 +40,7 @@
 * |osgeoproject| - :doc:`geomajas_overview` - [:doc:`快速入门  <../quickstart/geomajas_quickstart>`] — 网页 GIS 服务
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`快速入门  <../quickstart/mapbender_quickstart>`] — 网络地图服务集成框架
 * :doc:`mapfish_overview` - [:doc:`快速入门  <../quickstart/mapfish_quickstart>`] — 网页制图服务框架
-* :doc:`geomoose_overview` - [:doc:`快速入门 <../quickstart/geomoose_quickstart>`] — 网页 GIS 服务集成
+* |osgeoproject| - :doc:`geomoose_overview` - [:doc:`快速入门 <../quickstart/geomoose_quickstart>`] — 网页 GIS 服务集成
 * :doc:`cartaro_overview` - [:doc:`快速入门 <../quickstart/cartaro_quickstart>`] - 具备空间功能的内容管理系统
 * :doc:`geonode_overview` - [:doc:`快速入门  <../quickstart/geonode_quickstart>`] - 地理空间内容管理系统
 

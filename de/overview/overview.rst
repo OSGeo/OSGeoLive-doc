@@ -36,7 +36,7 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 3D Globen und 2D Karten im Browser
 * |osgeoproject| - :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
-* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
+* |osgeoproject| - :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
 * :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 
 Internet Dienste

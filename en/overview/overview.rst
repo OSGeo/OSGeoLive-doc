@@ -35,7 +35,7 @@ General GIS viewing, editing and analysis in the browser:
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser
 * |osgeoproject| - :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
-* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
+* |osgeoproject| - :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
 * :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 
 Web Services
