@@ -33,7 +33,7 @@ Visualisation SIG en général, édition, et analyse dans le navigateur :
 *  :doc:`openlayers_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Librairie de Cartographie pour Navigateur
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Cartes Interactives compatibles pour Mobiles
 *  :doc:`geomajas_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Client navigateur SIG
-* :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Géo-portail
+*  :doc:`mapbender_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Géo-portail
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Cartographie en ligne
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portail SIG Internet
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - CMS Géospatial

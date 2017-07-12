@@ -33,7 +33,7 @@
 *  :doc:`openlayers_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`leaflet_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/leaflet_quickstart>`] -  Διαδραστικοί Χάρτες Φορητών Συσκευών
 *  :doc:`geomajas_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart>`] - Διαδικτυακή εφαρμογή GIS
-* :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
+*  :doc:`mapbender_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
 * :doc:`geomoose_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomoose_quickstart>`] - Διαδικτυακή πύλη GIS
 * :doc:`cartaro_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/cartaro_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
 * :doc:`geonode_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonode_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
