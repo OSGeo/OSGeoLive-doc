@@ -125,7 +125,7 @@
 
 * |osgeoproject| - :doc:`gdal_overview`  - [:doc:`快速入门 <../quickstart/gdal_quickstart>`] — 空间数据格式转换
 * :doc:`jts_overview` - Java 语言的拓扑运算
-* :doc:`geotools_overview` - Java GIS 工具箱
+* |osgeoproject| - :doc:`geotools_overview` - Java GIS 工具箱
 * :doc:`geos_overview` - C/C++ 空间操作
 * |osgeocommunity| - :doc:`proj4_overview` -  [:doc:`快速入门 <../quickstart/proj4_quickstart>`] - 坐标投影转换 (MetaCRS)
 * :doc:`liblas_overview` -  [:doc:`快速入门 <../quickstart/liblas_quickstart>`]  - LiDAR 激光立体扫描数据处理

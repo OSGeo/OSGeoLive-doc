@@ -115,7 +115,7 @@ GIS Bibliotheken
 
 * |osgeoproject| - :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 * :doc:`jts_overview` - Java Topology Suite
-* :doc:`geotools_overview` - Java GIS Toolkit 
+* |osgeoproject| - :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - C/C++ Spatial Library 
 * |osgeocommunity| - :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations (MetaCRS) 
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
