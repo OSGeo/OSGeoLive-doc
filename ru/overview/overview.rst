@@ -19,7 +19,7 @@
 ГИС общего назначения - редактирование и анализ данных:
 
 * :doc:`qgis_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/qgis_quickstart>`]
-* :doc:`grass_overview` - [:doc:`Введение <../quickstart/grass_quickstart>`]
+* :doc:`grass_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`Введение <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`Введение <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`Введение <../quickstart/kosmo_quickstart>`]
