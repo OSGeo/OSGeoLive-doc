@@ -50,7 +50,7 @@ Veröffentlichung von Geodaten im Netz:
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Katalog und Katalogdienst für das Web
 * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Katalog
-* :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy für WMS und Tile-Dienste
+* :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy für WMS und Tile-Dienste
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service

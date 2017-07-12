@@ -50,7 +50,7 @@ Publikowanie danych przestrzennych w Internecie:
 * :doc:`eoxserver_overview` - [:doc:`Wprowadzenie <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] - katalog metadanych i sieciowe usługi katalogowe
 * :doc:`pycsw_overview` - [:doc:`Wprowadzenie <../quickstart/pycsw_quickstart>`] - katalog metadanych
-* :doc:`mapproxy_overview` - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
+* :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`Wprowadzenie <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
 * :doc:`qgis_mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`52nWPS_overview` - [:doc:`Wprowadzenie <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
