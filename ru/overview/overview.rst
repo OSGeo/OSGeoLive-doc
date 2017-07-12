@@ -50,7 +50,7 @@
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Сервис WMS
 * :doc:`eoxserver_overview` - [:doc:`Введение <../quickstart/eoxserver_quickstart>`] - Сервис WCS
 * |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`Введение <../quickstart/geonetwork_quickstart>`] - Каталог метаданных
-* :doc:`pycsw_overview` - [:doc:`Введение <../quickstart/pycsw_quickstart>`] - Каталог метаданных 
+* |osgeoproject| - :doc:`pycsw_overview` - [:doc:`Введение <../quickstart/pycsw_quickstart>`] - Каталог метаданных 
 * |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`Введение <../quickstart/mapproxy_quickstart>`] - Прокси для WMS и тайловых сервисов
 * :doc:`qgis_mapserver_overview` - [:doc:`Введение <../quickstart/qgis_mapserver_quickstart>`] - сервис WMS
 * :doc:`52nWPS_overview` - [:doc:`Введение <../quickstart/52nWPS_quickstart>`] - сервис WPS

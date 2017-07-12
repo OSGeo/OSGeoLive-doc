@@ -50,7 +50,7 @@ Publicación de datos espaciales en internet:
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Servicio Web de Mapas.
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catálogo de Metadatos.
-* :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catálogo de metadatos.
+* |osgeoproject| - :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catálogo de metadatos.
 * |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS y servicios de teselas.
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Servicio WMS.
 * |osgeocommunity| - :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Servicios de Sensores de Observación (SOS).
