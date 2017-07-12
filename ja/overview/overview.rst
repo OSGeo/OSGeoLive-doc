@@ -73,7 +73,7 @@ Web サービス
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション
 * :doc:`gpsprune_overview` - [:doc:`クイックスタート <../quickstart/gpsprune_quickstart>`] - GPS トラックの閲覧、編集、変換
-* :doc:`marble_overview` - [:doc:`クイックスタート <../quickstart/marble_quickstart>`] - バーチャル地球儀
+*  :doc:`marble_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/marble_quickstart>`] - バーチャル地球儀
 * :doc:`opencpn_overview` - [:doc:`クイックスタート <../quickstart/opencpn_quickstart>`] - GPS を使った海図プロッタ
 * :doc:`osm_overview` - [:doc:`クイックスタート <../quickstart/osm_quickstart>`] - OpenStreetMap のツール
 * :doc:`viking_overview` - [:doc:`クイックスタート <../quickstart/viking_quickstart>`] - GPS データの解析、ビューワー

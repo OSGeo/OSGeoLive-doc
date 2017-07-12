@@ -79,7 +79,7 @@
 
 * :doc:`gpsdrive_overview` - [:doc:`快速入门 <../quickstart/gpsdrive_quickstart>`] — GPS 导航
 * :doc:`gpsprune_overview` - [:doc:`快速入门 <../quickstart/gpsprune_quickstart>`] — GPS 航迹编辑器
-* :doc:`marble_overview` - [:doc:`快速入门 <../quickstart/marble_quickstart>`] - 虚拟地球
+*  :doc:`marble_overview` - |osgeoproject| - [:doc:`快速入门 <../quickstart/marble_quickstart>`] - 虚拟地球
 * :doc:`opencpn_overview` - [:doc:`快速入门 <../quickstart/opencpn_quickstart>`] — 海图导航
 * :doc:`osm_overview` - [:doc:`快速入门 <../quickstart/osm_quickstart>`] — Open Street Map 相关工具
 * :doc:`viking_overview` - [:doc:`快速入门 <../quickstart/viking_quickstart>`] — GPS 数据编辑与分析
