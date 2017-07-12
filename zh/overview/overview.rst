@@ -123,7 +123,7 @@
 地理空间操作函数库
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`快速入门 <../quickstart/gdal_quickstart>`] — 空间数据格式转换
+* |osgeoproject| - :doc:`gdal_overview`  - [:doc:`快速入门 <../quickstart/gdal_quickstart>`] — 空间数据格式转换
 * :doc:`jts_overview` - Java 语言的拓扑运算
 * :doc:`geotools_overview` - Java GIS 工具箱
 * :doc:`geos_overview` - C/C++ 空间操作
