@@ -63,7 +63,7 @@ Bases de données
 --------------------------------------------------------------------------------
 Sauvegarde des données spatiales :
 
-* :doc:`postgis_overview`  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Base de données spatiales
+*  :doc:`postgis_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Base de données spatiales
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Base de données légère
 * :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - MBase de données raster multi-dimensionnelle
 *  :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Calcul d'itinéraire pour PostGIS

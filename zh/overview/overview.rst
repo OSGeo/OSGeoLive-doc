@@ -69,7 +69,7 @@
 --------------------------------------------------------------------------------
 空间数据库系统
 
-* :doc:`postgis_overview`  - [:doc:`快速入门 <../quickstart/postgis_quickstart>`] — 空间数据库
+*  :doc:`postgis_overview` - |osgeoproject|  - [:doc:`快速入门 <../quickstart/postgis_quickstart>`] — 空间数据库
 * :doc:`spatialite_overview` - [:doc:`快速入门 <../quickstart/spatialite_quickstart>`] — 轻量化数据库
 * :doc:`rasdaman_overview` - [:doc:`快速入门 <../quickstart/rasdaman_quickstart>`] — 多维栅格数据库
 *  :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`快速入门 <../quickstart/pgrouting_quickstart>`] — PostGIS 路径规划服务
