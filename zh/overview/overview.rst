@@ -60,7 +60,7 @@
 * :doc:`52nWPS_overview` - [:doc:`快速入门 <../quickstart/52nWPS_quickstart>`] — 网页空间数据处理服务
 * :doc:`52nSOS_overview` - [:doc:`快速入门 <../quickstart/52nSOS_quickstart>`] — 传感器观测数据获取
 * :doc:`tinyows_overview` - [:doc:`快速入门 <../quickstart/tinyows_quickstart>`] — 基于事务的网页空间要素服务
-* :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
+* |osgeocommunity| - :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
 
 
 .. disabled: * :doc:`52nWSS_overview` - [:doc:`快速入门 <../quickstart/52nWSS_quickstart>`] — 网络空间数据安全管理

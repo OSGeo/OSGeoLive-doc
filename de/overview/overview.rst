@@ -55,7 +55,7 @@ Veröffentlichung von Geodaten im Netz:
 * |osgeocommunity| - :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
-* :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* |osgeocommunity| - :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 * :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 

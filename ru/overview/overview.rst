@@ -56,7 +56,7 @@
 * :doc:`52nWPS_overview` - [:doc:`Введение <../quickstart/52nWPS_quickstart>`] - сервис WPS
 * :doc:`52nSOS_overview` - [:doc:`Введение <../quickstart/52nSOS_quickstart>`] - сервис SOS (Sensor Observation Service)
 * :doc:`tinyows_overview` - [:doc:`Введение <../quickstart/tinyows_quickstart>`] - сервис WFS-T
-* :doc:`zoo-project_overview` - [:doc:`Введение <../quickstart/zoo-project_quickstart>`] - сервис WPS
+* |osgeocommunity| - :doc:`zoo-project_overview` - [:doc:`Введение <../quickstart/zoo-project_quickstart>`] - сервис WPS
 
 .. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
 
