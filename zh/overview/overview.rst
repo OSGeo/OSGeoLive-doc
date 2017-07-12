@@ -22,7 +22,7 @@
 --------------------------------------------------------------------------------
 用于桌面电脑环境的 GIS 信息浏览、编辑和分析工具
 
-* :doc:`qgis_overview` - [:doc:`快速入门 <../quickstart/qgis_quickstart>`] — 桌面 GIS
+* :doc:`qgis_overview` - |osgeoproject| - [:doc:`快速入门 <../quickstart/qgis_quickstart>`] — 桌面 GIS
 * :doc:`grass_overview` - [:doc:`快速入门 <../quickstart/grass_quickstart>`] — 桌面 GIS
 * :doc:`gvsig_overview` - [:doc:`快速入门 <../quickstart/gvsig_quickstart>`] — 桌面 GIS
 * :doc:`udig_overview` - [:doc:`快速入门 <../quickstart/udig_quickstart>`] — 桌面 GIS 框架

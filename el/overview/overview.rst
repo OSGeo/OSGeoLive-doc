@@ -18,7 +18,7 @@
 --------------------------------------------------------------------------------
 Λογισμικά με δυνατότητες θέασης, επεξεργασίας και ανάλυσης δεδομένων GIS στην επιφάνεια εργασίας:
 
-* :doc:`qgis_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_quickstart>`]
+* :doc:`qgis_overview` - |osgeoproject|  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/udig_quickstart>`]
