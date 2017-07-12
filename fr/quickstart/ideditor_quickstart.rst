@@ -1,5 +1,5 @@
 :Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/0200-12-23-id-editor.md
-:Source Reviewed: 2016-03-30  
+:Source Reviewed: 2016-03-30
 :Author: Nick Allen
 :Version: osgeo-live 11
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -9,7 +9,7 @@
 The iD Editor
 ********************************************************************************
 
-L’éditeur iD (lancé en 2013) est le nouvel éditeur d’OpenStreetMap basé sur des technologies web. 
+L’éditeur iD (lancé en 2013) est le nouvel éditeur d’OpenStreetMap basé sur des technologies web.
 iD est rapide et facile à utiliser, et il permet d’utiliser différentes sources de données comme de l’imagerie satellite, des coordonnées GPS et les Field Papers.
 
 L’éditeur iD est le meilleur moyen d’éditer la carte pour faire toutes les petites modifications qui ne requièrent pas toute la complexité de JOSM. Ce chapitre explique les principes d’édition avec iD.
@@ -19,7 +19,7 @@ Commencer avec l’éditeur iD
 -------------------------------------------
 
 - pour utiliser iD vous devez être connecté(e) à Internet.
--  Ouvrir votre navigateur Internet et rendez-vous sur le site d’OpenStreetMap à l’adresse 
+-  Ouvrir votre navigateur Internet et rendez-vous sur le site d’OpenStreetMap à l’adresse
    http://www.openstreetmap.org.
 -  **Connectez-vous** en utilisant votre compte OpenStreetMap.
 -  Rendez-vous sur la zone à modifier et zoomez.
@@ -65,7 +65,7 @@ Interface Utilisateur de l'éditeur iD
 
    Ouvrir le menu d'aide, *Raccourci clavier* **h**
 
-4. **Panneau Information:** Ce panneau montre diverses informations, telles que l'échelle 
+4. **Panneau Information:** Ce panneau montre diverses informations, telles que l'échelle
    et quels utilisateurs ont contributé à cette zone.
 
 Configurer le fond de carte
@@ -82,7 +82,7 @@ Configurer le fond de carte
   Vous pouvez aussi **changer le fond de carte** basé sur votre fournisseur de tuile désiré
   (Bing Aerial Imagery est la valeur par défaut).
 
-  Vous pouvez ajouter vos propres tuilesen cliquant sur **Custom**. Par exemple,
+  Vous pouvez ajouter vos propres tuiles en cliquant sur **Custom**. Par exemple,
   si vous voulez ** ajouter un Field Paper**  [1], cliquez sur **Custom** puis
   cliquez sur la loupe (recherche) pour ouvrir la fenêtre
   suivante:-
@@ -98,7 +98,7 @@ Configurer le fond de carte
   ci-dessous, les traces GPS publiques sont montrées dans des couleurs variées, indiquant la direction du voyage.
 
   |osm gps traces|
- 
+
   Si il y a un  `décalage de l'image </en/josm/aerial-imagery>`__, vous pouvez
   **corriger le décalage de l'image** en cliquant sur **Fix Alignment**.
 
@@ -115,8 +115,8 @@ Ajout de Points
 
 Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
 
--  Votre curseur de souris devrait se changer en signe plus (+). Maintenant, cliquez 
-   sur une position que vous connaissez pour marquer un emplacement. Par exemple, si vous savez qu'il 
+-  Votre curseur de souris devrait se changer en signe plus (+). Maintenant, cliquez
+   sur une position que vous connaissez pour marquer un emplacement. Par exemple, si vous savez qu'il
    y a un hôpital dans votre zone, cliquez sur la position
    du bâtiment de l'hôpital.
 
@@ -134,7 +134,7 @@ Pour ajouter un nouveau point, cliquez sur le bouton **Point**. |image3|
    selon le tag vous avez choisi depuis le panneau **Entités** (*Features*).
 -  Si vous faites une erreur, comme un mauvais placement, vous pouvez bouger votre
    point vers un nouvel emplacement en maintenant votre clic gauche maintenu sur le
-   point et en le faisant glisser. Ou, si vous désirez supprimer votre point, faites un clic 
+   point et en le faisant glisser. Ou, si vous désirez supprimer votre point, faites un clic
    gauche sur le point, activer le menu contextuel en
    faisant un clic droit et ensuite cliquer sur le bouton
    qui ressemble à une poubelle. |image23|
@@ -161,7 +161,7 @@ Pour ajouter une nouvelle ligne, cliquez sur le bouton **Ligne**. |image4|
 -  Vous pouvez aussi déplacer la ligne entièrement en la sélectionnant, et en choisissant
    l'**outil de déplacement** (*Move Tool*). Puis en déplaçant la ligne jusqu'à une nouvelle position. |image30|
 -  Quand vous cliquez sur un point individuel (node) de la ligne avec le bouton gauche de votre souris
-   puis faites un clic droit pour afficher le menu contextuel, vous devriez voir 
+   puis faites un clic droit pour afficher le menu contextuel, vous devriez voir
    apparaître les outils suivants:
 -  Supprimer le point de la ligne. |image23|
 -  Déconnecter le point de la ligne. |image26|
@@ -185,9 +185,9 @@ Une "ligne" crée dans l'éditeur iD est en fait une "way" avec des "tags" dessu
     supprimer la cartographie d'autres utilisateurs si elle demande uniquement une amélioration.
     Vous pouvez supprimer vos propres erreurs, mais vous devriez seulement *ajuster* les objets
     cartographiés par d'autres si ils ont besoin de changements. Cela préserve
-    l'historique des objets dans la base de données d'OSM et respectueux de nos camarades
+    l'historique des objets dans la base de données d'OSM et est respectueux de nos camarades
     cartographes. Si vous pensez quelque chose doit être supprimé, pensez
-    à demander au cartographe originel ou une des liste de diffusion d'OSM en premier lieu.
+    à demander au cartographe originel ou dans une des liste de diffusion d'OSM en premier lieu.
 
 Dessiner des formes (Polygones)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -239,8 +239,8 @@ Quand (et si) vous voulez sauvegardez vos changements sur OpenStreetMap, cliquez
 -  Saisissez un commentaire à vos changement et cliquez sur  **Save**.
 
     Si vous avez édité les mêmes entités (*point*, *way* ou *area*) en même
-    qu'uen autre personne, vous recevrez un avertissement comme quoi  
-    vos changements ne peuvent chargé tant que vous n'aure pas résolu les **conflits**
+    qu'une autre personne, vous recevrez un avertissement comme quoi
+    vos changements ne peuvent chargés tant que vous n'aurez pas résolu les **conflits**
     (*conflicts*) - Choisissez les changements à accepter et chargez vos changements.
     * Résoudre les conflits implique souvent d'accepter les changements d'autres personnes,
     auquel cas vous devrez probablement revenir sur l'entité
@@ -264,7 +264,7 @@ sur ces icônes:
 
 Ou, vous pouvez ajouter des tags personnalisés en cliquant sur **All tags**. |image44|
 
-- Ce affichera tous les tags attachés à l'entité.
+- Cela affichera tous les tags attachés à l'entité.
 
    |image45|
 
@@ -364,4 +364,3 @@ Ensuite ?
 .. |image44| image:: /images/screenshots/1024x768/id-editor_image44.png
   :height: 24px
 .. |image45| image:: /images/screenshots/1024x768/id-editor_image45.png
-
