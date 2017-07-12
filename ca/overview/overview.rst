@@ -21,7 +21,7 @@ GIS d'escriptori
 --------------------------------------------------------------------------------
 Visualitzar, editar i analitzat dades GIS en escriptori:
 
-* :doc:`qgis_overview` - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
+* |osgeoproject| - :doc:`qgis_overview` - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
