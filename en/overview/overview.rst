@@ -120,7 +120,7 @@ Available in prior OSGeo-Live releases:
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, not included after OSGeo-Live 9.0
 * :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`], not included after OSGeo-Live 10.5
-* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology, not included after OSGeo-Live 10.5
+* :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology, docs not included after OSGeo-Live 10.5
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, not included after OSGeo-Live 7.9
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
