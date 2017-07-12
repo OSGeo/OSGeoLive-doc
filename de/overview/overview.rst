@@ -37,7 +37,7 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 * :doc:`geomajas_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
 * :doc:`mapbender_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
 * :doc:`geomoose_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
-* :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
+* :doc:`geonode_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 
 Internet Dienste
 --------------------------------------------------------------------------------
