@@ -110,13 +110,13 @@ Details
 
 **Licence:** LGPL
 
-**Supported Platforms:** Cross Platform Java 6
+**Supported Platforms:** Cross Platform Java 6,7,8
 
 **API Interfaces:** Java
 
 **Support:** `Communication and Support <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
-Quickstart
+GeoTools_Support
 --------------------------------------------------------------------------------
 
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_

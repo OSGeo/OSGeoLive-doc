@@ -153,26 +153,27 @@ Spatial data sets:
 Geospatial Libraries
 --------------------------------------------------------------------------------
 
-
 |osgeoproject| :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
+
+|osgeoproject| :doc:`geotools_overview` - Java GIS Toolkit
+
+|osgeoproject| :doc:`geos_overview` - C/C++ Spatial Library
 
 |osgeocommunity| :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations
 
-|nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
+|nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access
 
-Available from prior OSGeo-Live releases:
+|nologo| :doc:`jts_overview` - Java Topology Suite
+
+
+
+
+Available in prior OSGeo-Live releases:
 --------------------------------------------------------------------------------
-
 
 |nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
 
 |nologo| :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
-
-|osgeoproject| :doc:`geotools_overview` - Java GIS Toolkit, description not included after OSGeo-Live 10.5
-
-|nologo| :doc:`jts_overview` - Java Topology Suite, description not included after OSGeo-Live 10.5
-
-|osgeoproject| :doc:`geos_overview` - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
 
 |nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
 
@@ -209,4 +210,5 @@ Available from prior OSGeo-Live releases:
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, not included after OSGeo-Live 6.0
 
 |nologo| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
+
 
