@@ -18,9 +18,9 @@ Desktop GIS
 --------------------------------------------------------------------------------
 GIS generali per visualizzazione, modifiche, e analisi sul desktop:
 
-* :doc:`qgis_overview` - [:doc:`Guida rapida <../quickstart/qgis_quickstart>`]
-* :doc:`grass_overview` - [:doc:`Guida rapida <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`Guida rapida <../quickstart/gvsig_quickstart>`]
+* :doc:`qgis_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/qgis_quickstart>`]
+* :doc:`grass_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/grass_quickstart>`]
+* :doc:`gvsig_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`Guida rapida <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`Guida rapida <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`Guida rapida <../quickstart/openjump_quickstart>`]
@@ -30,32 +30,32 @@ Web GIS clients
 --------------------------------------------------------------------------------
 GIS generali per visualizzazione, modifiche, e analisi sul browser:
 
-* :doc:`openlayers_overview` - [:doc:`Guida rapida <../quickstart/openlayers_quickstart>`] - Client GIS per browser internet
+* :doc:`openlayers_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/openlayers_quickstart>`] - Client GIS per browser internet
 * :doc:`leaflet_overview` - [:doc:`Guida rapida <../quickstart/leaflet_quickstart>`] - Semplice mappa interattive mobile
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Globi 3D e mappe 2D in un browser
-* :doc:`geomajas_overview` - [:doc:`Guida rapida <../quickstart/geomajas_quickstart>`] - Client GIS per browser internet
-* :doc:`mapbender_overview` - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali
-* :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
+* :doc:`geomajas_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/geomajas_quickstart>`] - Client GIS per browser internet
+* :doc:`mapbender_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali
+* :doc:`geomoose_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
 * :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
-* :doc:`geonode_overview` - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
+* :doc:`geonode_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
 
 Servizi Web
 --------------------------------------------------------------------------------
 Publicare dati spaziali su internet:
 
-* :doc:`geoserver_overview` - [:doc:`Guida rapida <../quickstart/geoserver_quickstart>`] - Servizi Web OGC
-* :doc:`mapserver_overview` - [:doc:`Guida rapida <../quickstart/mapserver_quickstart>`] - Servizi Web OGC
-* :doc:`deegree_overview` - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`] - Servizi Web OGC
+* :doc:`geoserver_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/geoserver_quickstart>`] - Servizi Web OGC
+* :doc:`mapserver_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/mapserver_quickstart>`] - Servizi Web OGC
+* :doc:`deegree_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`] - Servizi Web OGC
 * :doc:`ncWMS_overview` - [:doc:`Guida rapida <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`Guida rapida <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
-* :doc:`geonetwork_overview` - [:doc:`Guida rapida <../quickstart/geonetwork_quickstart>`] - Catalogo per i Metadati
-* :doc:`pycsw_overview` - [:doc:`Guida rapida <../quickstart/pycsw_quickstart>`] - Catalogo per i Metadati
-* :doc:`mapproxy_overview` - [:doc:`Guida rapida <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
+* :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/geonetwork_quickstart>`] - Catalogo per i Metadati
+* :doc:`pycsw_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/pycsw_quickstart>`] - Catalogo per i Metadati
+* :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`Guida rapida <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
 * :doc:`qgis_mapserver_overview` - [:doc:`Guida rapida <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`52nWPS_overview` - [:doc:`Guida rapida <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview` - [:doc:`Guida rapida <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Guida rapida <../quickstart/tinyows_quickstart>`] - WFS-T Service
-* :doc:`zoo-project_overview` - [:doc:`Guida rapida <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* :doc:`zoo-project_overview` - |osgeocommunity| - [:doc:`Guida rapida <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
 .. disabled: * :doc:`52nWSS_overview` - [:doc:`Guida rapida <../quickstart/52nWSS_quickstart>`] - Web Security Service
 
@@ -63,16 +63,16 @@ Database
 --------------------------------------------------------------------------------
 Archiviare dati spaziali:
 
-* :doc:`postgis_overview`  - [:doc:`Guida rapida <../quickstart/postgis_quickstart>`] - Database Spaziale
+* :doc:`postgis_overview` - |osgeoproject|  - [:doc:`Guida rapida <../quickstart/postgis_quickstart>`] - Database Spaziale
 * :doc:`spatialite_overview` - [:doc:`Guida rapida <../quickstart/spatialite_quickstart>`] - Database Spaziale leggero
-* :doc:`rasdaman_overview` - [:doc:`Guida rapida <../quickstart/rasdaman_quickstart>`] - Database Multi-Dimensionale per Raster
-* :doc:`pgrouting_overview` - [:doc:`Guida rapida <../quickstart/pgrouting_quickstart>`] - Routing per PostGIS
+* :doc:`rasdaman_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/rasdaman_quickstart>`] - Database Multi-Dimensionale per Raster
+* :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`Guida rapida <../quickstart/pgrouting_quickstart>`] - Routing per PostGIS
 
 Navigazione e Mappe
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Guida rapida <../quickstart/gpsdrive_quickstart>`] - Navigatore GPS
 * :doc:`gpsprune_overview` - [:doc:`Guida rapida <../quickstart/gpsprune_quickstart>`] - Visualizza, modifica e converte tracce GPS
-* :doc:`marble_overview` - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Globo virtuale
+* :doc:`marble_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Globo virtuale
 * :doc:`opencpn_overview` - [:doc:`Guida rapida <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
 * :doc:`osm_overview` - [:doc:`Guida rapida <../quickstart/osm_quickstart>`] - Strumenti per OpenStreetMap
 * :doc:`viking_overview` - [:doc:`Guida rapida <../quickstart/viking_quickstart>`] - Visualizza e analizza dati GPS
@@ -83,12 +83,12 @@ Strumenti speficici per analisi:
 
 * :doc:`gmt_overview` - [:doc:`Guida rapida <../quickstart/gmt_quickstart>`] - Restituzione cartografica
 * :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/ipython_quickstart>`] - Mixing rich media in presentations
-* :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
+* :doc:`otb_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
 * :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Crea Map Tiles
-* :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
+* :doc:`ossim_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 
 Domain Specific GIS
@@ -114,11 +114,11 @@ Set di dati spaziali:
 Librerie geospaziali
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`Guida rapida <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
+* :doc:`gdal_overview` - |osgeoproject|  - [:doc:`Guida rapida <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
 * :doc:`jts_overview` - Java Topology Suite
-* :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`geos_overview` - Libreria spaziale C/C++
-* :doc:`proj4_overview` - [:doc:`Guida rapida <../quickstart/proj4_quickstart>`] - Trasformazioni del sistema di riferimento delle coordinate (MetaCRS)
+* :doc:`geotools_overview` - |osgeoproject| - Java GIS Toolkit
+* :doc:`geos_overview` - |osgeoproject| - Libreria spaziale C/C++
+* :doc:`proj4_overview` - |osgeocommunity| - [:doc:`Guida rapida <../quickstart/proj4_quickstart>`] - Trasformazioni del sistema di riferimento delle coordinate (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`Guida rapida <../quickstart/liblas_quickstart>`] - Accesso ai LiDAR
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Metereologia e Climatologia
 
@@ -137,7 +137,7 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 * :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0 (per salvare spazio nel disco)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
-* :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
+* :doc:`mapfish_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

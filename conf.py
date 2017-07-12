@@ -247,6 +247,16 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
+.. |osgeoproject| image:: /images/logos/OSGeo_compass.png
+                        :alt: OSGeo Project
+                        :align: bottom
+                        :height: 18
+                        :target: ../sponsors_osgeo.html
+.. |osgeocommunity| image:: /images/logos/OSGeo_compass.png
+                        :alt: OSGeo Community
+                        :align: middle
+                        :height: 18
+                        :target: ../sponsors_osgeo.html
 .. |version-52nSOS| replace:: 4.4.0
 .. |version-52nWPS| replace:: 3.6.1
 .. |version-cartaro| replace:: 1.9
