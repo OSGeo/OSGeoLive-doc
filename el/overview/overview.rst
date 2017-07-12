@@ -110,7 +110,7 @@
 Γεωχωρικές Βιβλιοθήκες
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart>`] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
+* :doc:`gdal_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart>`] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
 * :doc:`jts_overview` - Σουίτα Τοπολογίας Java
 * :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
 * :doc:`geos_overview` - Γεωχωρική βιβλιοθήκη C/C++ 

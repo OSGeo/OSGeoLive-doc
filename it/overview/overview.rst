@@ -114,7 +114,7 @@ Set di dati spaziali:
 Librerie geospaziali
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`Guida rapida <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
+* :doc:`gdal_overview` - |osgeoproject|  - [:doc:`Guida rapida <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Java GIS Toolkit
 * :doc:`geos_overview` - Libreria spaziale C/C++

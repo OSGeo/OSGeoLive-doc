@@ -113,7 +113,7 @@ Web サービス
 地理空間ライブラリ
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール
+* :doc:`gdal_overview` - |osgeoproject|  - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール
 * :doc:`jts_overview` - Java トポロジスイート
 * :doc:`geotools_overview` - Java GIS ツールキット 
 * :doc:`geos_overview` - C/C++ 空間ライブラリ
