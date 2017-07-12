@@ -87,7 +87,7 @@ Eines específiques per anàlisi:
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing 
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Create Map Tiles 
 * :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing 
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing 
+*  :doc:`otb_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing 
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistical Programming 
 
 Domini Específic de GIS
