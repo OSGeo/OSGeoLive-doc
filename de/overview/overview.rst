@@ -45,7 +45,7 @@ Veröffentlichung von Geodaten im Netz:
 
 * :doc:`geoserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`] - OGC Web Services
 * :doc:`mapserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`] - OGC Web Services
-* :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`] - OGC Web Services
+* :doc:`deegree_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/deegree_quickstart>`] - OGC Web Services
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Katalog und Katalogdienst für das Web
