@@ -50,7 +50,7 @@ Web サービス
 * :doc:`ncWMS_overview` - [:doc:`クイックスタート <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`クイックスタート <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 *  :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ
-* :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
+*  :doc:`pycsw_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
 *  :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`] - プロキシ WMS & タイルサービス
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 *  :doc:`istsos_overview` - |osgeocommunity| - [:doc:`クイックスタート <../quickstart/istsos_quickstart>`] - Sensor Observation Service

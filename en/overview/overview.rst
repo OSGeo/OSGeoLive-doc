@@ -48,7 +48,7 @@ Publishing spatial data to the internet:
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 *  :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Catalogue
-* :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Catalogue
+*  :doc:`pycsw_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Catalogue
 *  :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 *  :doc:`istsos_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
