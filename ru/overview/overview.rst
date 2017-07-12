@@ -136,7 +136,7 @@
 * :doc:`mapguide_overview` - [:doc:`Введение <../quickstart/mapguide_quickstart>`] - Веб-сервис, не влючается в состав OSGeo-Live после версии 5.0 (для уменьшения объёма диска)
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Геокаталог, исключён после версии OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Редактор стилей, исключён после версии OSGeo-Live 6.0
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Фреймворк для веб-картографирования, исключён после версии OSGeo-Live 7.9.
+* :doc:`mapfish_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Фреймворк для веб-картографирования, исключён после версии OSGeo-Live 7.9.
 
 
 Установщики для операционных систем Windows и Apple

@@ -130,7 +130,7 @@ Available from prior OSGeo-Live releases:
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS, not included after OSGeo-Live 10.0
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing, not included after OSGeo-Live 9.5
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, not included after OSGeo-Live 9.0
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, not included after OSGeo-Live 7.9
+* :doc:`mapfish_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, not included after OSGeo-Live 7.9
 * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, not included after OSGeo-Live 6.5
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, not included after OSGeo-Live 6.0
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, not included after OSGeo-Live 6.0

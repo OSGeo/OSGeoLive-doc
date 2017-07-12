@@ -124,7 +124,7 @@
 * :doc:`mapwindow_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapwindow_quickstart>`] - GIS βασισμένο στο περιβάλλον .NET των Microsoft Windows
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
 * :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
-* :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9
+* :doc:`mapfish_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------------------

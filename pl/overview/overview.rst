@@ -34,7 +34,7 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądar
 * :doc:`leaflet_overview` - [:doc:`Wprowadzenie <../quickstart/leaflet_quickstart>`] -  Przyjazne Mobilne  Interaktywne Mapy
 * :doc:`geomajas_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeglądarce internetowej
 * :doc:`mapbender_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu
-* :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
+* :doc:`mapfish_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
 * :doc:`geomoose_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/geomoose_quickstart>`] - portal Web GIS
 * :doc:`cartaro_overview` - [:doc:`Wprowadzenie <../quickstart/cartaro_quickstart>`] - Geoprzestrzenny CMS
 * :doc:`geonode_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
