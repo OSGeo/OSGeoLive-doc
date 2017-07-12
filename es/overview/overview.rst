@@ -56,7 +56,7 @@ Publicación de datos espaciales en internet:
 * :doc:`istsos_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Servicios de Sensores de Observación (SOS).
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servicios de Sensores de Observación
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servicios Web de Geoprocesamiento.
-* :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento.
+* :doc:`zoo-project_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento.
 * :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servicio WFS-T.
 
