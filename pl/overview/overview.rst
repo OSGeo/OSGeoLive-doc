@@ -37,7 +37,7 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądar
 * :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
 *  :doc:`geomoose_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/geomoose_quickstart>`] - portal Web GIS
 * :doc:`cartaro_overview` - [:doc:`Wprowadzenie <../quickstart/cartaro_quickstart>`] - Geoprzestrzenny CMS
-* :doc:`geonode_overview` - [:doc:`Wprowadzenie <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
+*  :doc:`geonode_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 
 Usługi sieciowe
 --------------------------------------------------------------------------------

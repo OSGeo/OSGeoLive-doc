@@ -38,7 +38,7 @@
 *  :doc:`mapbender_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - ジオポータルフレームワーク
 *  :doc:`geomoose_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
 * :doc:`cartaro_overview` - [:doc:`クイックスタート <../quickstart/cartaro_quickstart>`] - 地理空間 CMS
-* :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 コンテンツ管理システム
+*  :doc:`geonode_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 コンテンツ管理システム
 
 Web サービス
 --------------------------------------------------------------------------------
