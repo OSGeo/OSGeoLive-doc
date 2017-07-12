@@ -116,7 +116,7 @@ Bibliotecas geoespaciales
 * :doc:`gdal_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Herramientas de transformación de datos Geoespaciales.
 * :doc:`jts_overview` - Suite de Topología de Java.
 * :doc:`geotools_overview` - |osgeoproject| - Caja de herramientas SIG de Java.
-* :doc:`geos_overview` - Biblioteca Espacial C/C++.
+* :doc:`geos_overview` - |osgeoproject| - Biblioteca Espacial C/C++.
 * :doc:`proj4_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Transformaciones de Sistemas de Referencia de Coordenadas (MetaCRS).
 * :doc:`liblas_overview`  - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - libLAS acceso datos LIDAR.
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorología y climatología.

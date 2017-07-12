@@ -117,7 +117,7 @@
 * :doc:`gdal_overview` - |osgeoproject|  - [:doc:`Введение <../quickstart/gdal_quickstart>`] - Инструменты конвертации и обработки геоданных
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - |osgeoproject| - Java GIS Toolkit 
-* :doc:`geos_overview` - Библиотека C/C++ для работы с геоданными
+* :doc:`geos_overview` - |osgeoproject| - Библиотека C/C++ для работы с геоданными
 * :doc:`proj4_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Трансформации систем координат (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - Работа с данными LiDAR
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Метеорология и климатология
