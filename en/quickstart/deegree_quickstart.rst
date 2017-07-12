@@ -1,16 +1,34 @@
-:Author: Johannes Wilden, Danilo Bretschneider
-:Version: OSGeo-Live DVD, Version 7.0
+:Author: Johannes Wilden
+:Author: Danilo Bretschneider
+:Author: Torsten Friebe
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 deegree 3 webservices quickstart 
 ********************************************************************************
+
+deegree is a Java application for serving maps (and vector data) for other clients to show.
+
+This Quick Start describes how to:
+
+  * start deegree webservices
+  * configure deegree webservices via the deegree services console
+  * use the *deegree-inspire-workspace* as a starting point
+
+.. contents:: Contents
 
 
 Project description
@@ -88,7 +106,7 @@ Included are some harmonized dutch administrative units, cadastral parcels and
 addresses.
 The WFS in this example acts as an INSPIRE Download service (direct access) and 
 outputs valid, harmonized INSPIRE GML.
-Additionally it supports multiple request types and querys.
+Additionally it supports multiple request types and queries.
 
 .. tip::
    This workspace loads harmonized INSPIRE GML from local files.
@@ -109,7 +127,7 @@ layers. You can activate the INSPIRE layer served by the deegree WMS here.
    Zooming is possible via mouse wheel or the navigation elements on the left side.
 
 More information and step-by-step tutorials about the INSPIRE workspace can be 
-found in the deegree `documentation <http://download.deegree.org/documentation/3.3.13/html/lightly.html#example-workspace-1-inspire-network-services>`_.
+found in the deegree `documentation <http://download.deegree.org/documentation/3.3.20/html/lightly.html#example-workspace-1-inspire-network-services>`_.
 
 
 Want more?

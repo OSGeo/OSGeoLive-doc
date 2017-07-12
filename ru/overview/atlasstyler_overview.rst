@@ -1,9 +1,9 @@
 :Author: Stefan Tzeggai
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-AtlasStyler.png
+.. image:: /images/project_logos/logo-AtlasStyler.png
   :alt: логотип проекта
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler
@@ -31,7 +31,7 @@ SLD/SE.
 символами. Пользователи могут создавать и сохранять стили в редакторе
 стилей и использовать их в классификациях и других проектах.
 
-.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: снимок экрана
   :align: right

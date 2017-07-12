@@ -6,11 +6,17 @@
 
 .. Οδηγίες γρήγορου ξεκινήματος mapfish
  
-.. image:: ../../images/project_logos/logo-mapfish.png
+.. image:: /images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.mapfish.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 *************************************

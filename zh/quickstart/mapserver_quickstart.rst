@@ -4,13 +4,13 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :scale: 65 %
   :alt: Project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -130,7 +130,7 @@ MapFile 配置文件
 
 　　以上 URL 为一个 `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** 请求。MapServer 通过其中指定的 mapfile 将指定图层渲染为 PNG 图像，并且符合用户指定的参数（图像大小、地理区域范围、投影等）。在 mapfile 的 "*&LAYERS=...*" 中指定的各图层都具备 *STATUS ON* 属性，同时 *STATUS DEFAULT* 的图层也会被渲染。渲染结果如图所示。
 
-  .. image:: ../../images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
 
 .. note:: 除了 "*?map=/home/user/mapserver_quickstart.map*" 参数针对 MapServer 外，其它参数都是 WMS 标准规定的。
@@ -166,7 +166,7 @@ MapFile 配置文件
 
 　　请求的结果与上一次的相似，但添加了湖泊图层：
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
 .. _mapserver-quickstart-styling-a-layer-zh:
@@ -205,7 +205,7 @@ MapFile 配置文件
 
 　　以上改动使得渲染图像上较大的湖泊出现黑边，如图所示。
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note:: 在 `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ 可以学习更多有关属性匹配表达式的内容。

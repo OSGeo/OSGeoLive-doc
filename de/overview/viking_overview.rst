@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-viking.png
+.. image:: /images/project_logos/logo-viking.png
   :alt: Project Logo
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
@@ -22,7 +22,7 @@ Es macht Gebrauch von einem hierarchisch aufgebauten System von Ebenen, um GPS D
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
+.. image:: /images/screenshots/1024x768/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right
@@ -51,7 +51,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.4.2
+**Software Version:** |version-viking|
 
 **Unterstützte Plattformen:** GNU/Linux, MS Windows
 

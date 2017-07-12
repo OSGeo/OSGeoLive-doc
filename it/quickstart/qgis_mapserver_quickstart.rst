@@ -4,10 +4,16 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: /images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Breve introduzione all'uso di QGIS Server
@@ -41,7 +47,7 @@ utilizza QGIS Server per la restituzione della mappa.
 
 Dovreste vedere una finestra di un browser con un visualizzatore di mappe contenente una mappa del mondo.
 
-.. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 Altrimenti potete accedere all'applicazione usando un browser all'indirizzo http://localhost/qgis_server
 

@@ -1,11 +1,11 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :alt: logo udig
   :align: right
   :target: http://udig.refractions.net/
@@ -16,7 +16,7 @@ User-friendly Desktop Internet GIS (uDig)
 SIG d'escriptori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/1024x768/udig-overview.png
   :scale: 50
   :alt: udig workshop
   :align: right
@@ -49,7 +49,7 @@ Característiques Principals
 * Impressió i generació de PDF
 * Per desenvolupadors
   
-  * Construcció d'aplicacions Java usant :doc:`GeoTools <geotools_overview>`, i `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Construcció d'aplicacions Java usant :doc:`GeoTools <geotools_overview>`, i `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Plug-in industrial proporcionat per Eclipse Rich Client Platform
   * Us de **widgets** nadius
 

@@ -1,9 +1,9 @@
 :Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osgearth.png
+.. image:: /images/project_logos/logo-osgearth.png
   :alt: project logo
   :align: right
   :target: http://osgearth.org/
@@ -20,7 +20,7 @@ osgEarthはすべての種類のデータをサポートしており、立ち上
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: ../../images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/screenshots/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -69,9 +69,9 @@ osgEarthでは地形をレンダリングする以上のことができます:
 
 **ライセンス:** GNU Lesser General Public License (LGPL) 
 
-**バージョン:** 2.5.0
+**ソフトウェアバージョン:** |version-osgearth|
 
-**動作環境:** Linux, Mac, Windows
+**対応プラットフォーム:** Linux, Mac, Windows
 
 **API インターフェース:** C++
 

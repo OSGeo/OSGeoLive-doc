@@ -1,9 +1,9 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/wps
@@ -20,7 +20,7 @@ Verarbeitungsalgorithmen, die verfügbar sind in Sextante, ArcGIS Server oder au
 Dabei können die Algorithmen einfach sein wie eine Bestimmung der unterschiedlichen Einflüsse der verschiedenen Jahreszeiten
 bis hin zu komplizierten globalen Klimaänderungsmodellen.
 
-.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -64,7 +64,7 @@ Details
 
 **Lizenz:** GPL 2
 
-**Software Version:** WPS |version-52nWPS|
+**Software Version:** |version-52nWPS|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

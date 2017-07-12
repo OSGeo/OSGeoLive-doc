@@ -1,18 +1,18 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :alt: project logo
   :align: right
   :target: http://gdal.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GDAL/OGR
 ================================================================================
@@ -26,7 +26,7 @@ GDAL/OGR
 
 Σήμερα είναι η πλέον διαδεδομένη βιβλιοθήκη διαχείρισης γεωχωρικών δεδομένων. Λειτουργεί στην μηχανή πρόσβασης στα δεδομένα σε πολλά γνωστά λογισμικά όπως: MapServer, GRASS, QGIS, and OpenEV. Επίσης υποστηρίζεται από πακέτα όπως: OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
-.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: Η GDAL υποστηρίζει πολλά format 
   :align: right

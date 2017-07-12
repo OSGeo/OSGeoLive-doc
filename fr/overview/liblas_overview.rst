@@ -1,9 +1,9 @@
 :Author: Howard Butler
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: Logo du projet
   :align: right
   :target: http://liblas.org/
@@ -19,7 +19,7 @@ pour le `LiDAR`_ , `LAS`. Le `format LAS ASPRS`_ est un format séquentiel binai
 utilisé pour stocker des données de capteurs LiDAR et par les logiciels de 
 traitement de données LiDAR pour l'échange et l'archivage.
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: Acquisition LiDAR
   :align: right
   :scale: 80 %

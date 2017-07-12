@@ -1,20 +1,20 @@
-:Author: Johannes Wilden, Danilo Bretschneider
-:Reviewer: Cameron Shorter, LISAsoft
+:Author: Johannes Wilden, Markus Schneider, Danilo Bretschneider
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
-:Version: osgeo-live6.5
+:Translator: David Mateos
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
-
 
 deegree
 ================================================================================
@@ -22,86 +22,95 @@ deegree
 Servicios Web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-deegree es libre, estable, potente y fácil de usar. deegree es el conjunto más
-completo de implementaciones de estándares del Open Geospatial Consortium (OGC)
-en software libre y abierto, abarcando desde Servicios Transaccionales *Web
-Feature Service* a la visualización de datos tridimensionales a través de
-Servicios *Web Terrain*, y muchos más!
+deegree proporciona servicios web geoespaciales basados en las especificaciones `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ e `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ . En concreto soporta: 
 
-deegree es una solución para Sistemas de Información Geográfica (SIG) e
-Infraestructuras de Datos Espaciales (IDE's) basada tanto en Web, como
-escritorio. Está compuesto de un conjunto Interfaces de Aplicación (API's) Java
-y un potente mapeo objeto-relacional para esquemas espaciales simples y
-complejos. deegree también proporciona un conjunto de servicios web estándar de
-mapas, entidades (*features*) y servicios de catálogo, así como servicios de
-procesamiento y de sensores.
+* `Web Map Services (WMS) <http://www.opengeospatial.org/standards/wms>`_: Sirve mapas renderizados a partir de datos geoespaciales.
+* `Web Map Tile Services (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Sirve teselas de mapas pre-renderizadas. 
+* `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Desarrolla búsquedas de conjuntos de datos y servicios geoespaciales. 
+* `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Ejecuta procesamientos geoespaciales.
 
-deegree proporciona una IDE (Infraestructura de Datos Espaciales) funcionando
-desde el principo, utilizando sus datos y cumpliendo sus requerimientos.
-
-
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
-  :scale: 50%
-  :alt: project logo
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
+  :scale: 55 %
+  :alt: TBD
   :align: right
 
-Algunas catacterísticas de ejemplo
+Características principales
 --------------------------------------------------------------------------------
 
-* Web Map Service
+** Web Feature Service (WFS) **
 
-  * Contenidos de capas flexible
-  * Soporta y utiliza definición de estilos (SLD 1.0)
-  * Capacidad de generación de gráficos (tartas, barras, lineas) 
-  * Fuentes de datos: Todos los Servicios Web comunes OGC (WMS, WFS, WCS),
-  * PostgreSQL/PostGIS, Oracle Spatial, y sentencias SQL arbitrarias se pueden utlizar para crear contenidos de capas WMS
-  * Muy estable, incluso para grandes escalas
-  * Soporta HTTP GET, HTTP POST y peticiones de información de geometrías 
-  * Certificado de soporte OGC
+* Implementa estándares WFS 1.0.0, 1.1.0 y 2.0.0.
+* Completamente transaccional.
+* Soporta peticiones KVP, XML y SOAP.
+* Entrada y salida GML 2/3.0/3.1/3.2.
+* Supporte para peticiones GetGmlObject y XLink.
+* Alto rendimiento y excelente escalabilidad.
+* Transformación de coordenadas al vuelo.
+* Designed for rich data models from the bottom up
+* Los *Backends* soportan el mapeado fledxible de schemas de aplicación GML a modelos relacionales.
+* Cumple con el modelo geométrico ISO 19107: Geometrías complejas (e.g. curvas no-lineales).
+* Soporte de expresioens de filtrado avanzadas basadas en XPath 1.0.
+* Soporta numerosos *backends*, como PostGIS, Oracle Spatial, MS SQL Server, Shapefiles o GML.
 
-* Web Feature Service
+** Web Map Service **
 
-  * Soporta entidades simples y complejas
-  * Transformación de coordenadas al vuelo para más de 3000 sistemas de referencia de coordenadas.
-  * Soporta formatos de salida flexibles
-  * Soporta de directiva INSPIRE
+* Implementa los estándares WMS 1.1.1 y 1.3.0.
+* Soporta y utiliza definición de estilos (SLD/SE versiones 1.0.0 y 1.1.0).
+* Alto rendimiento y excelente escalabilidad.
+* Permite aplicar distintos estilos en función de la escala.
+* El soporte para SE elimina la necesidad de un montón de extensiones propietarias.
+* Configuración sencilla de HTML y otros formatos de salida para las respuestas a GetFeatureInfo.
+* Uses stream-based data access, minimal memory footprint.
+* Soporte casi completo para simbología raster tal y como está definida en SE (con algunas extensiones
+.
+* Soporte completo para TIEMPO/ELEVACIÖN y otras dimensiones tanto para entidades como para datos ráster. 
+* Supporta numerosos *backends*, como PostGIS, Oracle Spatial, MS SQL Server, Shapefiles o GML.
+* Puede renderizar modelos de datos complejos directamente.
 
-* Web Coverage Service
+**WMTS**
 
-  * Soporta peticiones HTTP GET y HTTP POST
-  * Fuentes de datos: imágenes (tif, png, jpeg, gif, bmp); GeoTIFF; ECW files; Oracle GeoRaster
-  * Alta velocidad de acceso para coberturas grandes
+* Implementa el estándar Basic WMTS 1.0.0 (KVP).
+* Alto rendimiento y excelente escalabilidad.
+* Soporta diferentes *backends*, tales como GeoTIFF, WMS remoto o file system tile image hierarchies
+* Soporta cacheado al vuelo (usando EHCache).
+* Soporta GetFeatureInfo para *backends* WMS remotos.
 
-* Catalogue Service-Web
+**CSW**
 
-  * Fuentes de datos: PostgreSQL-Database; Oracle-Database
-  * Peticiones soportadas: GetCapabilities; DescribeRecord; GetRecordById; GetRecords; Transaction - Insert, Update, Delete; Harvesting
+* Implementa el estándar CSW 2.0.2.
+* Completamente transaccional.
+* Soporta peticiones KVP, XML y SOAP.
+* Alto rendimiento y excelente escalabilidad.
+* ISO Metadata Application Profile 1.0.0.
+* Pluggable and modular dataaccess layer allows to add support for new APs and backends
+* Modular inspector architecture allows to validate records to be inserted against various criteria
+* Standard inspectors: validación de *schema*,  validity, identifier integrity, requerimientos INSPIRE.ents
+* Handles all defined queryable properties (for Dublin Core as well as ISO profile) 
+* Expresiones de filtrado complejas. 
 
-* Web Map Print Service
+**WPS**
 
-  * Soporte de diferentes formatos de impresión (HTML, PDF, PNG)
-  * Procesamiento de trabajos de larga duración
-  * Soporta peticiones asíncronas para permitir ploteos de gran escala
-  * Las peticiones se almacenan dentro de la base de datos y se podrán procesar incluso si un administrador para el WMPS o si la máquina falla
-
-* Web Perspective View Service
-
-   * Fuentes de datos: remote/local-WMS, remote/local-WFS, local-WCS, Postgres/PostGIS, Oracle Spatial
-   * Modelos de elevación que pueden ser de datos vectoriales o raster
-   * peticiones: Get3DFeatureInfo, GetView
-
+* Implementa el estándar WPS 1.0.0.
+* Soporta peticiones KVP, XML y SOAP.
+* Pluggable process provider layer
+* API fácil de usar para implementar procesos en Java. 
+* Soporta todas las variantes para parámetros de entrada/salida: literales, bbox, complejos (binarios y xml)
+* Streaming access for complex input/output parameters
+* Procesado de grandes volúmenes de datos con un consumo de memoria mínimo. 
+* Soporta storing of response documents/output parameters
+* Soporta parámetros de entrada en línea y por referencia. 
+* Soporta respuestas RawDataOutput/ResponseDocument.
+* Soporta ejecución asíncrona (with polling of process status)
 
 Estándardes implementados
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service (WMS) 1.1.0*, 1.1.1, 1.3.0*
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 (2.0 en progreso)
-* OGC Web Coverage Service (WCS) 1.0.0* (1.1.0 en progreso)
-* OGC Catalogue Service-Web (CSW) 2.0.0, 2.0.1, 2.0.2; incluyendo OGC ISOAP 1.0 y perfil INSPIRE
-* OGC Web Perspective View Service (WPVS) Draft 6
-* OGC Web Coordinate Transformation Service (WCTS) 0.4.0
-* OGC Web Processing Service (WPS) 0.4.0, 1.0.0
-* OGC Sensor Observation Service (SOS) 1.0.0
+* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 y 2.0.0.
+* OGC Web Map Service (WMS) 1.1.1 y 1.3.0.
+* OGC Web Map Tile Service (WMTS) 1.1.0.
+* OGC Catalogue Service-Web (CSW) 2.0.2.
+* OGC Web Processing Service (WPS) 1.0.0.
+* OGC GML 2.12, 3.0.1, 3.1.1 y 3.2.1.
 
 Detalles
 --------------------------------------------------------------------------------

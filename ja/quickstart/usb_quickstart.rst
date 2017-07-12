@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Alex Mandel, Cameron Shorter
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -36,12 +36,12 @@ Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by 
 
 USB flash ドライブをコンピューターに接続してください。
 
-  .. image:: ../../images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 メニューから :menuselection:`System Tools --> Startup Disk Creator` を選択するか、デスクトップから  `Startup Disk Creator` を検索してください。
 
-  .. image:: ../../images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 osgeo-live か osgeo-live-mini の ISO イメージを選択します。
@@ -50,7 +50,7 @@ USB flash ドライブを選択します。If you have extra room you might adju
 
 :guilabel:`Make Startup Disk` を選択します。
 
-  .. image:: ../../images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 20分ほど待てば USB flash ドライブが作成されます。

@@ -1,9 +1,9 @@
 :Автор: Hamish Bowman
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: Логотип проекта
   :align: right
   :target: http://www.osm.org/
@@ -23,7 +23,7 @@ OpenStreetMap — краудсорсинговая карта мира, кот�
 
 Дистрибутив OSGeo-Live содержит фрагмент данных, охватывающий один конкретный город, который используется для примеров некоторыми приложениями.
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
   :alt: Скриншот OSM
   :align: right

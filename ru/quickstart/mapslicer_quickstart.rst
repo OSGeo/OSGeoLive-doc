@@ -4,7 +4,7 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapslicer.png
+.. image:: /images/project_logos/logo-mapslicer.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -46,7 +46,7 @@
 (KML SuperOverlay)*, если вы хотите создать KML-файл для использования в
 Google Earth. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer1.jpg
+.. image:: /images/screenshots/1024x768/mapslicer1.jpg
     :width: 60 %
     :align: center
 
@@ -54,7 +54,7 @@ Google Earth. Нажмите *Continue*.
 разбить на тайлы. Здесь же можно задать цвет участков NODATA, который будет отображаться
 прозрачным в выходных тайлах. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer2.jpg
+.. image:: /images/screenshots/1024x768/mapslicer2.jpg
     :width: 60 %
     :align: center
 
@@ -65,14 +65,14 @@ Google Earth. Нажмите *Continue*.
 проекции должно включать параметр `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_.
 Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer3.jpg
+.. image:: /images/screenshots/1024x768/mapslicer3.jpg
     :width: 60 %
     :align: center
 
 5. Укажите настройки масштабных уровней **Tile Pyramid**. Настроек по умолчанию зачастую
 бывает достаточно. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer4.jpg
+.. image:: /images/screenshots/1024x768/mapslicer4.jpg
     :width: 60 %
     :align: center
 
@@ -80,7 +80,7 @@ Google Earth. Нажмите *Continue*.
 URLs** выберите выходную директорию и опционально
 URL для публикации. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer5.jpg
+.. image:: /images/screenshots/1024x768/mapslicer5.jpg
     :width: 60 %
     :align: center
 
@@ -90,7 +90,7 @@ URL для публикации. Нажмите *Continue*.
 Для создания "KML SuperOverlay" для Google Earth отметьте соответствующий пункт.
 Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer6.jpg
+.. image:: /images/screenshots/1024x768/mapslicer6.jpg
     :width: 60 %
     :align: center
 
@@ -100,7 +100,7 @@ URL для публикации. Нажмите *Continue*.
 текущем этапе, она может быть добавлена позже вручную путём редактирования
 файлов *googlemaps.html / openlayers.html*. Нажмите *Continue*.
 
-.. image:: ../../images/screenshots/1024x768/mapslicer7.jpg
+.. image:: /images/screenshots/1024x768/mapslicer7.jpg
     :width: 60 %
     :align: center
 

@@ -1,9 +1,9 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: логотип проекта 
   :align: right
   :target: http://52north.org/security
@@ -37,7 +37,7 @@ Tomcat.
 Политики и пользователи задаются в конфигурационном файле XML, управление ими
 осуществляется через общий интерфейс управления.
 
-.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Снимок экрана с интерфейсом управления WSS
   :align: right

@@ -1,9 +1,10 @@
 :Author: OSGeo-Live
 :Author: Dane Springmeyer
-:Version: osgeo-live4.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -21,12 +22,12 @@ Mapnik and its python bindings are installed and ready to be used for scripting 
 
 Creating maps in python is easy with Mapnik. Type `python` on the command line to enter a python interpreter and try this::
 
-    >>> import mapnik2, os
-    >>> m = mapnik2.Map(600,400)
+    >>> import mapnik, os
+    >>> m = mapnik.Map(600,400)
     >>> style = '/usr/local/share/mapnik/demo/population.xml'
-    >>> mapnik2.load_map(m,style)
+    >>> mapnik.load_map(m,style)
     >>> m.zoom_all()
-    >>> mapnik2.render_to_file(m,'map.png')
+    >>> mapnik.render_to_file(m,'map.png')
     >>> os.system('xdg-open map.png')
 
 
@@ -37,32 +38,26 @@ Creating maps in python is easy with Mapnik. Type `python` on the command line t
       with the Quantumnik plugin: http://plugins.qgis.org/plugins/quantumnik/
 
 
-Mapnik & OpenLayers
+Mapnik & Leaflet
 --------------------------------------------------------------------------------
 
 In addition a basic demo application is available, which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
 
-The demo uses a tileserver designed for Mapnik called "TileLite"
+The demo uses a tileserver designed for Mapnik called "TileStache"
 
-  * More information about TileLite: https://github.com/springmeyer/tilelite
+  * More information about TileStache: http://tilestache.org/
 
 To run the demo just follow these steps:
 
-  #. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileLite`
+  #. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileStache`
 
     * The server should start in a terminal window (which stays open and outputs basic debugging information).
-        
-    * If the terminal window does not open, then try to re-installing TileLite and starting the server from the command line::
-      
-        $ sudo easy_install tilelite
-        $ liteserv.py /usr/local/share/mapnik/demo/population.xml
 
+  #. Check to make sure the server is working by requesting a tile from the server at http://localhost:8012/example/0/0/0.png
 
-  #. Check to make sure the server is working by visiting the TileLite welcome page at http://localhost:8012
-
-  #. Then visit the example TileLite OpenLayers "World Population" demo application page:
+  #. Then visit the Leaflet demo application page:
     
-    * This page is at `http://localhost/mapnik/local.html <../../mapnik/local.html>`_
+    * This page is at `http://localhost/leaflet-demo.html <../../../leaflet-demo.html>`_
 
 
 What Next?

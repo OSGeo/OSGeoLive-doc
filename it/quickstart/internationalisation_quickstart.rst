@@ -21,7 +21,7 @@ Molte lingue comuni sono incluse nella OSGeo-Live. Per cambiare lingua:
    #. Premere il pulsante :guilabel:`Log in`.
    #. Ripetere il processo se necessitate o volete cambiare lingua di nuovo.
 
-   .. image:: ../../images/screenshots/800x600/osgeolive_login.png
+   .. image:: /images/screenshots/800x600/osgeolive_login.png
      :scale: 70 %
      :alt: login screen
 

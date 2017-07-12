@@ -8,7 +8,7 @@ gran quantitat d'aplicacions geoespacials de codi lliure sense haver d'instal·l
 res. Aquesta distribució està formada únicament per programari lliure, i per
 tant està permesa la seva còpia, distribució i ús sense limitacions.
 
-.. image:: ../images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: osgeo live
   :align: right
@@ -54,7 +54,6 @@ Inici ràpid
    download
    sponsors
    sponsors_osgeo
-   presentation
    metrics
    mac_installers
    win_installers

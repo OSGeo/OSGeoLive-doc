@@ -1,11 +1,11 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Product: MapWindow GIS Lite
 :Version: osgeo-live9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-MapWindow.png
+.. image:: /images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
   :align: right
   :width: 220
@@ -35,7 +35,7 @@ shapefile, o il supporto a PostGIS)
 	  full ISO di `OSGeo-Live <http://live.osgeo.org>`_ o posso essere scaricati
 	  da http://mapwindow4.codeplex.com/releases/view/542097.
 
-.. image:: ../../images/screenshots/1024x768/mapwindow_screenshot.png
+.. image:: /images/screenshots/1024x768/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right

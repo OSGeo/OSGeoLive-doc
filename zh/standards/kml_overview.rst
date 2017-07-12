@@ -9,17 +9,17 @@
 
 .. Writing Tip: 
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ KML Encoding Standard (KML) 地理注记
 
 　　OGC KML Encoding Standard 是一种用于地理信息可视化的 XML 语法。它用于注记地图和影像。这一格式可用于标注地理要素并指导用于的导航操作。(http://www.opengeospatial.org/standards/KML)
 
-.. image:: ../../images/standards/kml.jpg
+.. image:: /images/standards/kml.jpg
   :scale: 55%
   :alt: KML in Context
 

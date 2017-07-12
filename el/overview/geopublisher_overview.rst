@@ -1,9 +1,9 @@
 :Author: Stefan Tzeggai
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Geopublisher.png
+.. image:: /images/project_logos/logo-Geopublisher.png
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/Geopublisher
@@ -23,7 +23,7 @@ Geopublisher
 
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
-.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: Εικόνα επεξεργασίας Άτλαντα με τον Geopublisher
   :align: right

@@ -5,7 +5,7 @@
 
 .. _opencpn-overview-es:
 
-.. image:: ../../images/project_logos/logo-opencpn.png
+.. image:: /images/project_logos/logo-opencpn.png
   :alt: project logo
   :align: right
   :target: http://www.opencpn.org
@@ -25,7 +25,7 @@ Mientras el buque se mueve, nuevas cartas son seleccionadas y desplegadas con la
 Principales Características
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
+.. image:: /images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -1,19 +1,19 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: Logo du projet
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Projet OSGeo
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 GeoServer
 ================================================================================
@@ -36,7 +36,7 @@ Consortium <http://www.opengeospatial.org>`_ (OGC) pour les standards
 conforme au :doc:`../standards/wms_overview`. 
 GeoServer forme un des composants essentiels du web géospatial. 
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Capture d'écran de GeoServer
   :align: right
@@ -83,7 +83,7 @@ Support de nombreux standards de l'Open Geospatial Consortium  (OGC):
 Détails
 --------------------------------------------------------------------------------
 
-**Site web:** http://geoserver.org/display/GEOS/Welcome
+**Site web:** http://geoserver.org/
 
 **Licence:** Licence GNU General Public (GPL) version 2
 
@@ -93,7 +93,7 @@ Détails
 
 **Interfaces de l'API:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/display/GEOS/Commercial+Support
+**Support:** http://geoserver.org/support/
 
 Guide de démarrage rapide
 --------------------------------------------------------------------------------

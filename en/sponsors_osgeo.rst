@@ -1,87 +1,23 @@
+.. image:: /images/logos/OSGeo_compass_with_text_square.png
+  :alt: OSGeo
+  :target: http://www.osgeo.org
+  :align: right
+
 The OSGeo Foundation
 ================================================================================
 
-The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_,
-is a not-for-profit organization whose mission is to support and promote
-the collaborative development of open geospatial technologies and data.
-The foundation provides financial, organizational and legal support to
-the broader open source geospatial community. It serves as an independent
-legal entity to which community members can contribute code, funding and
-other resources, secure in the knowledge that their contributions will be
-maintained for public benefit. OSGeo also serves as an outreach and
-advocacy organization for the open source geospatial community, and
-provides a common forum and shared infrastructure for improving
-cross-project collaboration.
+*Empower everyone with open source geospatial*
 
-The foundation's projects are all freely available and useable under an
- `OSI-certified open source license. <http://www.opensource.org/licenses/>`_
+The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__
+is a not-for-profit organization whose mission is to foster global
+adoption of open geospatial technology by being an inclusive software
+foundation devoted to an open philosophy and participatory community
+driven development.
 
-This Live GIS disc and virtual-machine has been put together by members
-of the OSGeo community to showcase their favourite Free and Open Source
-(FOSS) geospatial software. We've included a number of non-OSGeo software
-packages, GIS focused and otherwise, which we hope you will find to be as
-useful as we do. The OSGeo Foundation does not recommend or guarantee any
-associated software, projects, or companies found within.
+OSGeo outreach and activities include:
 
-`These programs are distributed in the hope that they will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
-
-
-OSGeo Supporting Sponsors
---------------------------------------------------------------------------------
-
-.. image:: ../images/logos/ordnance-survey_logo.png
-  :alt: Ordnance Survey
-  :target: http://www.ordnancesurvey.co.uk
-
-
-OSGeo Associate Sponsors
---------------------------------------------------------------------------------
-
-.. image:: ../images/logos/first-base-solutions_logo.png
-  :alt: First Base Solutions
-  :target: http://www.firstbasesolutions.com
-
-.. image:: ../images/logos/astun.png
-  :alt: Astun Technology
-  :target: http://www.isharemaps.com
-
-.. image:: ../images/logos/geocat_logo.png
-  :alt: GeoCat
-  :target: http://geocat.net/
-
-.. image:: ../images/logos/lizardtech_logo_sml.png
-  :alt: LizardTech
-  :target: http://www.lizardtech.com
-
-.. image:: ../images/logos/2ndquadrant_logo.png
-  :alt: 2ndQuadrant
-  :target: http://www.2ndquadrant.com/
-
-.. image:: ../images/logos/karttakeskus.png
-  :alt: Karttakeskus
-  :target: http://www.karttakeskus.fi/
-
-.. image:: ../images/logos/borealis.jpg
-  :alt: BOREALIS
-  :target: http://www.boreal-is.com
-
-.. image:: ../images/logos/camptocamp_logo.png
-  :scale: 80 %
-  :alt: Camptocamp
-  :target: http://camptocamp.com
-
-.. image:: ../images/logos/ign_france.png
-  :alt: IGN
-  :target: http://www.ign.fr
-
-
-For more information
---------------------------------------------------------------------------------
-
-To sponsor OSGeo or discuss sponsorship opportunities further,
-please contact:
-
-.. include :: ../osgeo_contact.rst
+* `Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: Local, regional and language groups support grass roots activities.
+* `GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from around the world who work with partners to make geospatial education and opportunities accessible to all.
+* `OSGeo Live <http://live.osgeo.org>`__: A distribution of established geospatial open source software, pre-configured with sample data and quickstarts, ready to try out.
+* `FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free and Open Source Software for Geospatial*, as well as many regional and local `events <http://www.osgeo.org/events>`_.
 

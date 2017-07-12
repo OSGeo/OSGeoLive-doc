@@ -1,22 +1,28 @@
 :Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 
 ********************************************************************************
 Leaflet Quickstart
 ********************************************************************************
 
+Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive maps.  It is lightweight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
+
+.. contents:: Contents
+
 Running
 ================================================================================
 
-Prior to running this quick start you should start TileLite. On the live dvd this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileLite**.
+Prior to running this quick start you should start TileStache. On the live dvd this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileStache**.
 This will provide background tiles that will be used in this demo. 
 
 View the example_
 
-.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start.html, since this demo uses tilelite on the live dvd.
+.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on the live dvd.
 
 Preparing your page
 ===================
-Before writing any code for the map, you need to do the following prerpation steps on your page:
+Before writing any code for the map, you need to do the following preparation steps on your page:
 
 * Include Leaflet CSS files in the head section of your document
 
@@ -53,24 +59,24 @@ Let's create a map of Europe with an indication of the 2013 FOSS4G conference. F
 
 .. code-block:: javascript 
 
- var map = L.map('map').setView([45.52875, -122.6632], 5);
+ var map = L.map('map').setView([50.7035, 7.0972], 5);
 
 By default (as we didn't pass any options when creating the map instance), all mouse and touch interactions on the map are enabled, and it has zoom and attribution controls.
 
 Note that setView call also returns the map object - most Leaflet methods act like this when they don't return an explicit value, which allows convenient jQuery-like method chaining.
 
 Next we'll add a tile layer to add to our map.
-In this case we will be using the tile images provided by tilelite on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
+In this case we will be using the tile images provided by TileStache on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
 
 Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:
 
-.. code-block:: javascript
+::
 
- L.tileLayer('http://localhost:8012/{z}/{x}/{y}.png,{}).addTo(map);
+ L.tileLayer('http://localhost:8012/example/{z}/{x}/{y}.png,{}).addTo(map);
 
 If you have online access you may want to use a nicer tilemap as the background:
 
-.. code-block:: javascript
+::
 
  L.tileLayer('http://{s}.tile.cloudmade.com/API-key/997/256/{z}/{x}/{y}.png', {
 			maxZoom: 18,
@@ -89,13 +95,13 @@ Let's add a marker:
 
 .. code-block:: javascript 
 
- var marker = L.marker([45.52875, -122.6632]).addTo(map);
+ var marker = L.marker([50.7035, 7.0972]).addTo(map);
 
 Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:
 
 .. code-block:: javascript
 
- var circle = L.circle([44.056287, -123.07572], 25000, {
+ var circle = L.circle([49.70, 6.12], 25000, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
@@ -106,9 +112,9 @@ Adding a polygon is as easy:
 .. code-block:: javascript
 
  var polygon = L.polygon([
-    [46.01, -130.01],
-    [40.81, -128.76],
-    [44.15, -133.23]
+    [51.01, -1.01],
+    [45.81, 1.76],
+    [49.15, -4.23]
  ]).addTo(map);
 
 
@@ -120,7 +126,7 @@ Popups are usually used when you want to attach some information to a particular
 .. code-block:: javascript 
 
  var popup = L.popup()
-    .setLatLng([45.52875, -122.6632])
+    .setLatLng([50.7035, 7.0972])
     .setContent("I am a standalone popup.")
     .openOn(map);
 
@@ -141,7 +147,7 @@ Every time something happens in Leaflet, e.g. user clicks on a marker or map zoo
 
 Each object has its own set of events - see documentation_ for details. The first argument of the listener function is an event object - it contains useful information about the event that happened. For example, map click event object (e in the example above) has latlng property which is a location at which the click occured.
 
-Lets improve our example by using a popup instead of an alert:
+Let's improve our example by using a popup instead of an alert:
 
 .. code-block:: javascript
 
@@ -157,6 +163,9 @@ Lets improve our example by using a popup instead of an alert:
  map.on('click', onMapClick);
 
 Try clicking on the map and you will see the coordinates in a popup. View the full example_
+
+What Next?
+================================================================================
 
 Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_.
 

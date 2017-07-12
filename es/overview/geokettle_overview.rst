@@ -1,11 +1,11 @@
 :Author: Thierry Badard
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Pedro-Juan Ferrer
 :Translator: David Mateos
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/
@@ -24,7 +24,7 @@ GeoKettle resulta particularmente útil cuando se pretende pretende automatizar 
 
 En el ámbito geoespacial Geokettle puede ser comparado con FME, una herramienta de software privativo para realizar ETL con capacidades espaciales. GeoKettle es estable, rápida, cumple con los estándares, tiene cientos de funciones y lee y escribe en diversos formatos de ficheros, servicios y SGBD. GeoKettle está siendo usada por diversas organizaciones en todo el mundo, incluyendo gobiernos, bancos, aseguradoras e integradores de sistemas geoespaciales.
 
-.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -110,4 +110,4 @@ Detalles
 Guía de inicio rápido
 --------------------------------------------------------------------------------
     
-* `Guía de inicio rápido <../quickstart/geokettle_quickstart.html>`_
+* `Guía de inicio rápido <../quickstart/geokettle_quickstart>`_

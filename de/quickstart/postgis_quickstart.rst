@@ -2,9 +2,9 @@
 :Author: Astrid Emde
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
-:Version: osgeo-live9.5
+:Version: osgeo-live10.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD Cameron Review Comment:
@@ -20,11 +20,17 @@
     * Do some SQL queries on the dataset
     * Use QGis to view data from PostGIS (using the existing Natural Earth data). We should be able to keep most of the existing QGis sections
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.net
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 PostGIS Quickstart
@@ -37,7 +43,7 @@ Funktionalitäten, die die Erweiterung bereitstellt, reden.
 
 Diese Kurzeinführung beschreibt:
 
- * Das Anlegen und Abfragen einer räumlichen Datenbank von der Kommandzeile und über :doc:`Quantum GIS <../overview/qgis_overview>` als grafischen Client.
+ * Das Anlegen und Abfragen einer räumlichen Datenbank von der Kommandzeile und über :doc:`QGIS <../overview/qgis_overview>` als grafischen Client.
  * Das Datenmanagement über den grafische Datenbank-Client ``pgAdmin``.
 
 Client-Server Architektur
@@ -136,6 +142,20 @@ Fügen Sie nun die PostGIS Erweiterung hinzu:
 
  demo=# create extension postgis;
 
+ 
+Lassen Sie sich die PostGIS Version ausgeben, um sich zu vergewissern, dass PostGIS installiert wurde.
+
+::
+	
+	demo=# SELECT postgis_version();
+	
+	postgis_full_version
+	-----------------------------------------------------------
+	POSTGIS="2.2.2 r14797" GEOS="3.5.0-CAPI-1.9.0 r4090" ...
+	(1 row)
+
+	
+PostGIS erzeugt viele Funktionen, eine Tabelle und einige Sichten.
 
 Über ``\dt`` können Sie dies prüfen und die Liste der Tabellen in der Datenbank ausgeben lassen.
 Es sollte diese Ausgabe erfolgen:
@@ -149,8 +169,9 @@ Es sollte diese Ausgabe erfolgen:
    public | spatial_ref_sys  | table | user
   (1 row)
 
-Diese zwei Tabellen werden von PostGIS angelegt und verwendet. Die Tabelle ``spatial_ref_sys`` speichert 
-Informationen zu den Koordinatenreferenzsystemen. Mit Hilfe von SQL können wir einen Blick in die Tabelle werfen:
+Die Tabelle ``spatial_ref_sys`` wird von PostGIS zur Konvertierung zwischen verschiedenen Koordinatenreferenzsystemen verwendet.
+Die Tabelle ``spatial_ref_sys`` speichert Informationen zu den Koordinatenreferenzsystemen. 
+Mit Hilfe von SQL können wir einen Blick in die Tabelle werfen:
 
 ::
 
@@ -170,10 +191,40 @@ Informationen zu den Koordinatenreferenzsystemen. Mit Hilfe von SQL können wir 
    4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
   (10 rows)
 
-Die Ausgabe bestätigt, dass wir eine Datenbank mit räumlicher Erweiterung vorliegen haben. Die Tabelle 
-``geometry_columns`` ist eine Metadatentabelle und beinhaltet Informationen zu den Tabellen mit räumlicher 
-Erweiterung. Hierzu erfahren Sie mehr im nächsten Abschnitt.
+Die Ausgabe bestätigt, dass wir eine Datenbank mit räumlicher Erweiterung vorliegen haben.
 
+Zusätzlich wurden einige Sichten bei der PostGIS Aktivierung erzeugt.
+
+Über ``\dv`` können die Sichten aufgelistet werden.
+
+::
+	
+	demo=# \dv
+									List of relations
+	 Schema |       Name        | Type |  Owner
+	--------+-------------------+------+----------
+	 public | geography_columns | view | postgres
+	 public | geometry_columns  | view | postgres
+	 public | raster_columns    | view | postgres
+	 public | raster_overviews  | view | postgres
+	(4 rows)
+
+PostGIS unterstützt einige räumliche Datentypen:
+
+	`geometry` - speichert Daten als Vektoren auf einer flächen Oberfläche
+	
+	`geography` - speichert Daten als Vektoren auf einer spheroidalen Oberfläche
+	
+	`raster` - speichert Daten als n-dimensionale Matrix 
+wobei jede Position (Pixel) einen Bereich repräsentiert und jeder Kanel (Band, Dimension) über einen Wert für jede Position verfügt.
+		
+Die Sichten ``geometry_columns``, ``geography_columns`` und ``raster_columns`` geben Metadaten aus und informieren, welche Tabellen über PostGIS geometry, geography und raster Spalten verfügen.
+
+Übersichten sind Tabellen mit geringerer Auflösung für Rasterdaten. Die Sicht ``raster_overviews`` gibt die Tabellen mit Übersichten, deren Raster-Spalten und die Tabelle für die sie eine Übersicht ist aus.
+ Raster Übersichten werden Anwendungen wie QGIS genutzt, um über geringer aufgelöste Versionen
+der Rasterdaten schneller Daten anzeigen zu können.
+
+PostGIS geometry ist der erste und weiterhin bei PostGIS Anwendern populärste Datentyp. Wir werden unseren Fokus auf diesen Typ richten.
 
 
 Erzeugen einer Tabelle mit räumlicher Erweiterung - die harte Tour
@@ -270,8 +321,8 @@ gehen von einer sphärischen Erde aus.
 
 ::
 
- demo=# SELECT p1.name,p2.name,ST_Distance_Sphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
-       name       |      name       | st_distance_sphere 
+ demo=# SELECT p1.name,p2.name,ST_DistanceSphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
+       name       |      name       | st_distancesphere 
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
   East London,SA  | London, England |   9789646.96784908
@@ -289,50 +340,58 @@ Namen des Sphäroids, die große Halbachse und die inverse Abplattung angeben:
 
 ::
 
-  demo=# SELECT p1.name,p2.name,ST_Distance_Spheroid(
-          p1.the_geom,p2.the_geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
+  demo=# SELECT p1.name,p2.name,ST_DistanceSpheroid(
+          p1.geom,p2.geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
           ) 
          FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
-        name       |      name       | st_distance_spheroid 
+        name       |      name       | st_distancespheroid 
   -----------------+-----------------+----------------------
    London, Ontario | London, England |     5892413.63776489
    East London,SA  | London, England |     9756842.65711931
    East London,SA  | London, Ontario |     13884149.4140698
   (3 rows)
 
+Geben Sie den folgenden Befehl ein, um den PostgreSQL Client psql zu verlassen:
 
+::
+
+\q
+
+Sie sind nun wieder auf der Systemkonsole:
+
+::
+
+user@osgeolive:~$
 
 Mapping
 ================================================================================
 
 Um eine Karte aus Ihren PostGIS Daten zu erzeugen, brauchen Sie einen Client, der auf die Daten zugreifen kann.
-Die meisten der Open Source Desktop GIS Programme unterstützen PostGIS - wie z. B. Quantum GIS, gvSIG, uDig. 
-Wir werden unsere Karte mit Quantum GIS erzeugen.
+Die meisten der Open Source Desktop GIS Programme unterstützen PostGIS - wie z. B. QGIS, gvSIG, uDig. 
+Wir werden unsere Karte mit QGIS erzeugen.
 
-Starten Sie Quantum GIS und wählen Sie ``PostGIS-Layer hinzufügen`` aus dem Layer-Menü. Die Verbindungsparameter
+Starten Sie QGIS und wählen Sie ``PostGIS-Layer hinzufügen`` aus dem Layer-Menü. Die Verbindungsparameter
 für die Natural Earth Datensätze sind bereits in der Liste der Verbindungsauswahlliste vorkonfiguriert.
 Sie können hier weitere Verbindungen zu Servern definieren und die Einstellungen speichern, so dass diese beim 
-erneuten Aufruf wieder zur Verfügung stehen.
-
-Klicken Sie ``Edit`` (Bearbeiten), um die Verbindungsparameter anzusehen oder zu bearbeiten. Oder aber einfach 
+erneuten Aufruf wieder zur Verfügung stehen. Wählen Sie aus der Auswahl der Verbindungen Natrual Earth aus. Klicken Sie ``Edit`` (Bearbeiten), um die Verbindungsparameter anzusehen oder zu bearbeiten. Oder aber einfach 
 ``Connect`` (Verbinden) um fortzufahren:
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50%
-  :alt: Natural Earth Layer
+  :alt: Verbindung mit Natural Earth aufbauen
   :align: center
 
-Im Anschluss daran erscheint eine Liste der Datenbanktabellen mit räumlichen Informationen:
+Im Anschluss daran erscheint eine Liste der Tabellen mit räumlichen Informationen:
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png 
-   :scale: 50 % 
-   :alt: Natural Earth Layers 
-   :align: center
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
+  :scale: 50 %
+  :alt: Natural Earth Layers
+  :align: center
 
-Wählen Sie das ne_10m_lakes table (Seen) und klicken Sie ``Hinzufügen`` (nicht ``Abfrage erstellen``). 
+Wählen Sie ne_10m_lakes table (Seen) und klicken Sie ``Hinzufügen`` (nicht ``Abfrage erstellen``). 
 Die Daten sollten nun in QGIS geladen werden:
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -345,51 +404,41 @@ werden kann. Navigieren Sie in die bekannte Seengruppe von Kanada.
 Erzeugen einer Tabelle mit räumlicher Erweiterung - der einfache Weg
 ====================================================================
 
-Die meisten OSGeo Desktop GIS Tools bieten Schnittstellen zum Import von räumlichen Daten nach PostGIS, 
-beispielsweise Shape Dateien. Wir wollen wieder Quantum GIS zur Demonstration nutzen.
+Die meisten OSGeo Desktop GIS Werkzeuge bieten Schnittstellen zum Import von räumlichen Daten nach PostGIS, 
+beispielsweise Shapedateien. Wir wollen wieder QGIS zur Demonstration nutzen.
 
-Der Import von Shapedateien kann über das komfortable PostGIS Manager Plugin erfolgen. Das Plugin muss aktiviert werden. Dies 
-erfolgt über ``Erweiterungen - Python Erweiterung herunterladen...``. QGIS holt dann die aktuelle Liste der Plugins 
-aus dem Repositories (Achtung: Sie benötigen eine Internetverbindung).
-Suchen Sie nach ``PostGIS Manager``, wählen Sie das 
-Plugin aus und klicken Sie ok. 
+Der Import von Shapedateien kann über den komfortablen QGIS Database Manager erfolgen.
 
-Sie sollten den PostGIS Manager nun im Menü finden und können ihn starten.
 
-Das Plugin verwendet die vorher eingegebenen Daten zur Verbindung mit der Natural Earth Datenbank. Lassen Sie 
-das Passwort-Feld leer, falls Sie danach gefragt werden. Sie werden das Hauptfenster sehen.
+Sie finden den Manager im Menü unter ``Datenbank -> DB-Verwaltung -> DB-Verwaltung``.
 
-.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
-  :scale: 50%
-  :alt: Suche nach dem PostGIS Manager Plugin
-  :align: center
+Unter PostGIS findet sich im der Eintrag NaturalEarth. 
+Über Klick erfolgt die Verbindung zur Natural Earth Datenbank. Das Passwort kann weggelassen werden, sofern danach gefragt wird.
 
-Hat alles soweit funktioniert, sollten Sie einen Entrag vorfinden, um den PostGIS Maganger zu starten. Sie können
-ebenso auf den PostGIS Button mitdem Logo (der Elephant mit dem Globus) in der Toolbar klicken. Dies wird eine
-Verbindung zur Natural Earth Datenbank öffnen. Geben Sie kein Kennwort an, wenn dieses angefragt wird. Sie werden
-das Hauptfenster des Managers sehen. In der Voransicht werden Sie einen kleine Karte zu sehen bekommen. 
-Hier habe ich den Layer ne_10m_populated_places  Layer ausgewählt und bin zu einer Insel, die ich kenne gezoomt.
+Im Bereich public finden sich die Layer, die sich bereits in der Datenbank befinden. In dem Fenster befinden sich 
+links die Tabelle. Diese können ausgewählt werden. Über die Reiter auf der rechten Seite erhalten Sie Informationen
+über die Layer. Der Preview Reiter zeigt eine kleine Karte.
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
-  :alt: PostGIS Manager Vorschau
+  :alt: QGIS Manager Vorschau
   :align: center
 
-Nun wollen wir den PostGIS Manager zum Import von Shape in die Datenbank nutzen. Wir werden die Daten 
+Nun wollen wir DB Manager zum Import von Shape in die Datenbank nutzen. Wir werden die Daten 
 `North Carolina sudden infant death syndrome (SIDS)` nutzen, die in einem der R Statistikpakete enthalten sind.
 
-Wählen Sie über das Menü ``Data`` die Option ``Load data from shapefile``.
+Wählen Sie über das Menü ``Tabelle` die Option ``Layer/Datei importieren``.
 Klicken Sie den Button ``...`` und wählen Sie die Shapedatei ``sids.shp`` in dem R ``Maptools`` Paket 
-(dies befindet sich unter /usr/local/lib/R/site-library/) aus:
+(dies befindet sich unter /usr/lib/R/site-library/spdep/etc/shapes/) aus:
 
-.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+.. image:: /images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Auswahl der Shapedatei
   :align: center
 
 Belassen Sie die übrigen Angaben und klicken Sie ``Load``
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
   :alt: Import der Shapedatei
   :align: center
@@ -398,10 +447,9 @@ Die Shapedatei sollte ohne Fehler nach PostGIS importiert worden sein. Schließe
 gehen Sie zurück in das QGIS Hauptfenster.
 
 Laden Sie nun die SIDS Daten über 'PostGIS-Layer hinzufügen' in Ihre Karte.
-Über ein paar Anpassungen der Ebenenreihenfolge und der Farbgebung sollten Sie eine thematische Karte zu 
-SIDS in North Carolina erzeugen können;
+Über ein paar Anpassungen der Ebenenreihenfolge und der Farbgebung sollten Sie eine thematische Karte zum plötzlichen Kindstod (SIDS) in North Carolina erzeugen können;
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
   :scale: 50 %
   :alt: thematische Karte zu SIDS
   :align: center
@@ -414,7 +462,7 @@ Ihre Daten zu verwalten.  pgAdmin III verfügt außerdem über einen Plugin zum 
 ein komfortables Datenmanagement.
 Sie können pgAdmin III im Datenbank-Ordner auf dem OSGeo-Live Desktop finden und starten.
 
-.. image:: ../../images/screenshots/1024x768/postgis_pgadmin_main_window.png
+.. image:: /images/screenshots/1024x768/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -423,7 +471,7 @@ Hier haben Sie die Möglichkeit eine neue Verbindung zu einem PostgreSQl Server 
 
 Nachdem die Verbindung aufgebaut wurde, sehen Sie die Liste der Datenbanken, die bereits vorliegen.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen0.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -436,12 +484,13 @@ Das rote "X" verschwindet nun und links erscheint ein "+". Per Klick auf das "+"
 
 Navigieren Sie zu ``Schemata`` und öffnen Sie den Unterbaum. Öffnen Sie danach das Schema ``public``. Öffnen Sie anschließend ``Tabellen``. Sie sehen hier alle Tabellen dieses Schemas.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
 
   
+
 
 Ausführen von SQL Abfragen mit pgAdmin III
 ================================================================================
@@ -457,27 +506,32 @@ select name, 1000*sid74/bir74 as rate from sids order by rate;
 
 Über den grünen Pfeil wird die Abfrage ausgeführt.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
+  
 
 Weitere Aufgaben
 ================================================================================
 
 Hier sind ein paar weitere Aufgaben, die Sie lösen können.
 
-#. Testen Sie weitere räumliche Funktionen beispielsweise ``st_buffer(the_geom)``, ``st_transform(the_geom,25831)``, ``st_x(the_geom)``. Eine ausführliche Dokumentation finden Sie unter http://postgis.net/documentation/
+#. Testen Sie weitere räumliche Funktionen beispielsweise ``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)``. Eine ausführliche Dokumentation finden Sie unter http://postgis.net/documentation/
 
 #. Exportieren Sie Ihre Tabellen mit ``pgsql2shp`` in das Shape-Format
 
 #. Nutzen Sie ``ogr2ogr``, um Daten in Ihre Datenbank zu importieren/exportieren
 
+#. Importieren Sie Daten auf der Kommandozeiel mit ``shp2pgsql`` in Ihre Datenbank.
+
+#. Versuchen Sie ein Routing aufzubauen mit Hilfe von :doc:`pgrouting_overview`.
+
+
 
 Der nächste Schritt
 ===================================================================================================
 
-Dies war lediglich der erste Einstieg in PostGIS. Es gibt sehr viele weitere Funktionalitäten zu entdecken.
 
 PostGIS Projektseite
 

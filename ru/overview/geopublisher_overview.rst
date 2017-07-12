@@ -1,9 +1,9 @@
 ﻿:Author: Stefan Tzeggai
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Geopublisher.png
+.. image:: /images/project_logos/logo-Geopublisher.png
   :alt: логотип проекта
   :align: right
   :target: http://en.geopublishing.org/Geopublisher
@@ -31,7 +31,7 @@ Geopublisher предоставляет инструменты для контр
 
 Базовые функции
 --------------------------------------------------------------------------------
-.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: скриншот процесса редактирования атласа в Geopublisher
   :align: right

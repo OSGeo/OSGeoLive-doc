@@ -1,13 +1,19 @@
 :Author: Gérald Fenoy
 :Reviewer: Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ZOO-Project.png
+.. image:: /images/project_logos/logo-ZOO-Project.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 ZOO Project クイックスタート 
@@ -31,7 +37,7 @@ WPS は、空間アルゴリズムを実行する機能への Web アクセス�
 *	Firefox に ZOO Project 空間ツールデモが表示されます。
 
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-1.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -39,7 +45,7 @@ WPS は、空間アルゴリズムを実行する機能への Web アクセス�
   
 *	:doc:`GeoServer <../overview/geoserver_overview>` WFS サーバの地物を選択するために地図をクリックすると、選択された地物が青色で表示され、その後、Buffer（バッファ）、Centroid（重心）、ConvexHull（凸包） または Boundary（境界） のような単純なジオメトリ処理アイコンをクリックすると、結果が黄色で表示されます。
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -47,7 +53,7 @@ WPS は、空間アルゴリズムを実行する機能への Web アクセス�
 
 *	最初に選択した地物の近くの別の地物を選択し、複数のジオメトリ処理ボタン Union（結合）、Intersection（積集合）、Symmetric Difference（対称差） または Difference（差） をクリックすると、結果が赤色で地図上に表示されます。
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-3.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center

@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
 
@@ -193,7 +193,7 @@ Rでは一次元、二次元行列、多次元配列としてデータを保持�
 
 以上の操作を行うとシンプルな世界地図が表示されるはずです:
 
-.. image:: ../../images/screenshots/1024x768/r_plot1.png
+.. image:: /images/screenshots/1024x768/r_plot1.png
 
 このようにOGRデータセットをRに読み込むと、データフレームのように様々な方法でデータを扱うことができるようになります。
 ``admin`` フィールドを使ってイギリスのみを抽出します:
@@ -203,7 +203,7 @@ Rでは一次元、二次元行列、多次元配列としてデータを保持�
 	> uk = countries[countries$admin == "United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
-.. image:: ../../images/screenshots/1024x768/r_plot2.png
+.. image:: /images/screenshots/1024x768/r_plot2.png
 
 ここに住んでいる人にとってはちょっと変に見えるかもしれません、
 なぜなら私達はこの緯度帯を中心にした座標系のほうが見慣れているからです。
@@ -249,7 +249,7 @@ rgdal パッケージの spTransform 関数で座標系変換をする前に座�
 
 出力結果はこちらです:
 
-.. image:: ../../images/screenshots/1024x768/r_plot3.png
+.. image:: /images/screenshots/1024x768/r_plot3.png
 
 Vignettes
 ================================================================================

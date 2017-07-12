@@ -1,14 +1,14 @@
 :Author: Hamish Bowman, Sergey Popov
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :alt: логотип проекта
   :align: right
   :target: http://marble.kde.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -43,7 +43,7 @@ Google Earth. Помимо выбора любого количества кар
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/marble-history.png
+.. image:: /images/screenshots/1024x768/marble-history.png
   :scale: 50 %
   :alt: снимок экрана
   :align: right

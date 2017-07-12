@@ -1,15 +1,15 @@
 :Author: Trevor Wekel
 :Author: Dominik Helle
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ Zum Verwalten des Inhalts verfügt MapGuide über eine XML-Datenbank. Maestro er
 
 MapGuide ist unter Linux oder Windows lauffähig und unterstützt den Apache- und IIS-Webserver. Es stellt Schnittstellen in PHP, .NET, Java oder Javascript für die Entwicklung zur Verfügung. MapGuide Open Source steht unter der LGPL Lizenz.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

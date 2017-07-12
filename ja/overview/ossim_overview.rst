@@ -1,14 +1,14 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :alt: project logo
   :align: right
   :target: http://www.ossim.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -31,7 +31,7 @@ OSSIMは、諜報および防衛コミュニティにおける幾つかの米国
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: screenshot
   :align: right
@@ -56,9 +56,9 @@ OSSIMは、諜報および防衛コミュニティにおける幾つかの米国
 
 **ライセンス:** GNU General Public License (GPL) version 3
 
-**バージョン:** 1.8.20
+**ソフトウェアバージョン:** |version-ossim|
 
-**動作環境:** Linux, Mac, Windows
+**対応プラットフォーム:** Linux, Mac, Windows
 
 **API インターフェース:** C++
 

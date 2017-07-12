@@ -1,12 +1,19 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+
+.. image:: /images/project_logos/logo-otb.png
   :alt: project logo
   :align: right
   :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 OTB
 ================================================================================
@@ -34,7 +41,7 @@ and is distributed as open source.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-mvd3-screenshot.jpg
+.. image:: /images/screenshots/1024x768/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -48,7 +55,10 @@ Core Features
 * feature extraction: interest points, alignments, lines...
 * object detection
 * large scale image segmentation: region growing, mean-shift, watershed, level sets...
-* classification: K-means, Markov random fields, access to machine learning algorithms from OpenCV
+* sample selection framework for training
+* classification: both supervised and unsupervised algorithms coming from OpenCV
+  , Shark, libSVM or custom implementations (K-means, Markov random fields, SVM,
+  Random Forest, ...)
 * regression using machine learning methods from OpenCV (SVM, Random Forest, ...)
 * object-based image analysis
 * geospatial analysis
@@ -61,10 +71,9 @@ Details
 
 **Website:** http://www.orfeo-toolbox.org/
 
-**Licence:** CeCILL (CeCILL is compatible with GPL and enhanced to
-  address French law)
+**Licence:** Apache v2.0
 
-**Software Version:** 5.2.0
+**Software Version:** |version-otb|
 
 **Supported Platforms:** Linux, Mac, Windows
 

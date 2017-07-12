@@ -10,8 +10,9 @@
 
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.9
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
@@ -20,20 +21,20 @@
 
 .. Writing Tip:
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :alt: project logo
   :align: right
   :target: http://postgis.net/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 PostGIS
 ================================================================================
@@ -57,7 +58,7 @@ Spatial Database
   * Remaining paragraph or 2 in this overview section should provide a
     wider description and advantages from a user perspective.
 
-PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
+PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications.
 
 PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day.
 
@@ -73,7 +74,7 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
   Don't include the desktop background as this changes with each release
   and will become dated.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/800x600/pgadmin.png
   :scale: 70 %
   :alt: pgAdmin database manager
   :align: right
@@ -108,7 +109,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.2.1
+**Software Version:** |version-postgis|
 
 **Supported Platforms:** Windows, Linux, Mac
 

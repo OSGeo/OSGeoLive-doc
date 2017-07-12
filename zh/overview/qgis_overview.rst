@@ -1,14 +1,14 @@
 ﻿:Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -23,7 +23,7 @@ Quantum GIS (QGIS)
 
 Quantum GIS (QGIS)是一个用户界面友好、开源代码的GIS客户端程序，支持数据的可视化、管理、编辑与分析和印刷地图的制作。通过集成GRASS，支持强大的分析功能，可运行于Linux、Unix、Mac OSX和Windows系统，并支持多种矢量、栅格与数据库格式及功能。
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

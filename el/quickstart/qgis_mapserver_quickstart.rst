@@ -5,10 +5,16 @@
 
 .. _qgis_mapserver-quickstart:
  
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: /images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ***************************************************************************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης QGIS Server 
@@ -30,7 +36,7 @@
 
 Θα πρέπει να μπορείτε να δείτε έναν παγκόσμιο χάρτη σε ένα παράθυρο του περιηγητή σας.
    
-.. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 Στη συνέχεια θα αλλάξουμε το στύλ του χάρτη μέσω του λογισμικού QGIS.
 

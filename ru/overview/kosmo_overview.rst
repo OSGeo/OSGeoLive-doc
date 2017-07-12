@@ -1,9 +1,9 @@
 :Author: Sergio Baños Calvo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
@@ -23,7 +23,7 @@ Kosmo следует стандартам OGC и предоставляет от
 Архитектура приложения, основанная на плагинах, позволяет легко
 приспосабливать Kosmo к решению конкретных задач.      
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

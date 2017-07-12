@@ -1,20 +1,20 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Jorge Sanz
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png 
+.. image:: /images/project_logos/logo-geomoose.png 
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 GeoMoose
@@ -40,10 +40,9 @@ publicación, simbología, plantillas así como datos de origen.
 La interfaz de usuario es fácilmente configurable, y gracias a su arquitectura
 modular se pueden agregar servicios adicionales.
 
-.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
-
 
 Características principales
 --------------------------------------------------------------------------------
@@ -64,21 +63,20 @@ Características principales
 * Publicación de un número casi ilimitado de capas.
 * Impresión en PDF.
 
-
 Estándares implementados
 --------------------------------------------------------------------------------
-* WMS
-* WFS (client)
-* WFS-T (client)
+* WMS.
+* WFS (client).
+* WFS-T (client).
 
 Detalles
 --------------------------------------------------------------------------------
 
-**Dirección Electrónica:** http://www.geomoose.org/
+**Página web:** http://www.geomoose.org/
 
 **Licencia:** MIT based license. http://www.geomoose.org/info/license.html
 
-**Versión del Software:** 2.7.1
+**Versión del Software:** |version-geomoose|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

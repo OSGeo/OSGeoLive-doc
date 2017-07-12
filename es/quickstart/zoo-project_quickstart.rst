@@ -2,10 +2,16 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ZOO-Project.png
+.. image:: /images/project_logos/logo-ZOO-Project.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guía de inicio rápido de ZOO Project
@@ -21,7 +27,7 @@ Ejecutar la aplicación
 
 
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-1.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -30,7 +36,7 @@ Ejecutar la aplicación
 *	De click sobre el mapa para seleccionar un feature del servidor WFS de :doc:`GeoServer <../overview/geoserver_overview>`, el feature será desplegado en azul, luego de click en un proceso de geometría simple como Buffer, Centroid, ConvexHull o Boundary y el resultado será desplegado en amarillo.
 
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -39,7 +45,7 @@ Ejecutar la aplicación
 *	Ahora seleccione otro feature cercano al anterior, de click en el botón de procesar múltiples geometrías Union, Intersection, Symmetric Difference o Difference para obtener el resultado desplegado en color rojo en el mapa.
 
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-3.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center

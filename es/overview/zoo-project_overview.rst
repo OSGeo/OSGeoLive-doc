@@ -1,17 +1,17 @@
 :Author: Gérald Fenoy
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Jorge Sanz
-:Version: osgeo-live6.0
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Zoo.png
+.. image:: /images/project_logos/logo-Zoo.png
   :alt: project logo
   :align: right
   :target: http://zoo-project.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100
-  :alt: OSGeo Incubation Project
+  :alt: OSGeo Community Project
   :align: right
   :target: http://www.osgeo.org
   
@@ -31,7 +31,7 @@ módulo para Python) basado en las librerías :doc:`GEOS <geos_overview>` y :doc
 
 ZOO está compuesto de tres partes diferenciadas:
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right
@@ -64,9 +64,9 @@ momento pueden implementarse en C/C++, Fortran, Java, Python, PHP y JavaScript.
 Funcionalidades principales
 --------------------------------------------------------------------------------
 
-- Servidor WPS multi-lenguaje
-- Sencillo procedimiento de creación y despliegue de servicios *web*
-- Sencillo encadenamiento de WPS usando la ZOO API 
+- Servidor WPS multi-lenguaje.
+- Sencillo procedimiento de creación y despliegue de servicios *web*.
+- Sencillo encadenamiento de WPS usando la ZOO API.
 
 Estándares implementados
 --------------------------------------------------------------------------------
@@ -88,7 +88,7 @@ Detalles
 
 **Licencia:** MIT x/11
 
-**Versión del Software:** 1.2.0
+**Versión del Software:** |version-zoo-project|
 
 **Plataformas soportadas:** Windows, Linux, Mac
 

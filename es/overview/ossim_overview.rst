@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Aitor Freire Astray
-:Version: osgeo-live6.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :alt: project logo
   :align: right
   :target: http://www.ossim.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -33,23 +33,23 @@ Se han implementado muchas utilidades en la línea de comandos, aplicaciones GUI
 Funciones principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/ossim-imagelinker.jpg
-  :scale: 50 %
+.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+  :scale: 70 %
   :alt: screenshot
   :align: right
 
-* Capacidades de procesado en paralelo con librerías mpi
-* Sensor de modelado riguroso
-* Universal Sensor Models (RPCs)
-* Soporte de una amplia gama de Proyecciones y Datums
-* Non-destructive, parameter based image chains
-* Acceso a archivos nativos
-* Corrección de Terreno precisa y ortorectificación
-* Tratamiento avanzado de mosaicos, composición y fusiones
-* Soporte de elevaciones
-* Soporte vectorial y libreriía shape
-* Projection and resolution independent
-* Editor de ecuaciones
+* Capacidades de procesado en paralelo con librerías mpi.
+* Sensor de modelado riguroso.
+* Universal Sensor Models (RPCs).
+* Soporte de una amplia gama de Proyecciones y Datums.
+* Non-destructive, parameter based image chains.
+* Acceso a archivos nativos.
+* Corrección de Terreno precisa y ortorectificación.
+* Tratamiento avanzado de mosaicos, composición y fusiones.
+* Soporte de elevaciones.
+* Soporte vectorial y librería shape.
+* Projection and resolution independent.
+* Editor de ecuaciones.
 
 Detalles
 --------------------------------------------------------------------------------
@@ -58,7 +58,7 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 3
 
-**Versión de Software:** 1.8.6
+**Versión de Software:** |version-ossim|
 
 **Plataformas compatibles:** Linux, Mac, Windows
 
@@ -67,7 +67,7 @@ Detalles
 **Soporte Comercial:** http://www.osgeo.org/search_profile
 
 
-.. Quickstart
-.. --------------------------------------------------------------------------------
-.. 
-.. * :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`
+Quickstart
+--------------------------------------------------------------------------------
+
+* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`

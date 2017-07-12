@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png
+.. image:: /images/project_logos/logo-geomoose.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 
 ユーザインターフェースは簡単にカスタマイズでき、モジュールを用いて新たなサービスを追加していくことができます。
 
-.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 
@@ -60,7 +60,7 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 
 **ライセンス:** MIT based license. http://www.geomoose.org/info/license.html
 
-**バージョン:** 2.8.0
+**ソフトウェアバージョン:** |version-geomoose|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

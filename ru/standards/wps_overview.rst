@@ -9,17 +9,17 @@
 
 .. Writing Tip: 
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
@@ -36,7 +36,7 @@ WPS (Web Processing Service )
 описывает правила для входящих и исходящих данных (запросов и ответов на них) для
 сервисов геопроцессинга (геообработки), таких, как пересечение полигонов и др.
 
-.. image:: ../../images/standards/wps.jpg
+.. image:: /images/standards/wps.jpg
   :scale: 55%
   :alt: Место WPS среди стандартов OGC
 

@@ -3,11 +3,17 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://gdal.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -167,7 +173,7 @@ Se puede crear un shapefile que funcione como formato _raster_ de teselas (en in
 
 Se puede revisar el shapefile de salida con QGIS y ogrinfo (más adelante se aprenderá más sobre ogrinfo).    
 
-  .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -208,7 +214,7 @@ El comando gdalwarp se puede usar para reproyectar imágenes. Aquí, se reproyec
 
 Después se puede usar gdalinfo para verificar los cambios y ver las características de la imagen.
 
-  .. image:: ../../images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
 Aquí se reproyecta a proyección ortogonal.  
@@ -218,7 +224,7 @@ Aquí se reproyecta a proyección ortogonal.
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: ../../images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
 Usando QGIS para visualizarlo, se puede ver que los polos están cortados.Esto se debe a que los bordes de los polos no pueden ser reproyectados por gdalwarp ya que no lee todos los datos. Se puede forzar a gdalwarp a leer un racimo de datos alrededor de los trozos sobrantes como forma de resolver esto. Se puede leer más sobre este particular en el Tutorial *Raster* http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.

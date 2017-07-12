@@ -21,7 +21,7 @@ Anda mungkin perlu mencantumkan teks yang sama dengan salah satu dibawah ini:
 **Banyak kata, cocok untuk sebuah tesis 100 halaman:**
   |CC-By-SA-med| Dokumen ini termasuk dalam konten dari "gvSIG Quickstart" ditulis oleh Simon Cropper dibawah Lisensi Creative Commons Attribution-ShareAlike 3.0 Unported, http://creativecommons.org/licenses/by-sa/3.0/ available from the OSGeo-Live project, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, dan diunduh pada 25 Juli 2011. Pekerjaan aslinya diterjemahkan dari Bahasa Inggris ke Bahasa Jerman.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/
 
 **Ringkas CC-By-SA dan Pencantuman:**
@@ -31,7 +31,7 @@ Anda mungkin perlu mencantumkan teks yang sama dengan salah satu dibawah ini:
   **Alternatif Ringkasan CC-By dan pencantuman:**
     |CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeo-Live <http://live.osgeo.org>`_ Project Overviews by `OSGeo-Live contributors <http://live.osgeo.org/en/copyright.html>`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/
 	
 **Minimum (untuk Ikhtisar Project), Pencantuman saja:**

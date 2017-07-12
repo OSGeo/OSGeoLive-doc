@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -25,7 +25,7 @@ El servidor QGIS proporciona un Web Map Service (WMS) emprant les mateixes llibr
 Els mapes i les plantilles d'impressió creats a QGIS d'escriptori es poden publicar com mapes a la web, simplement copiant el fitxer de projecte de QGIS al directori del servidor. Els mapes web resultants tenen el mateix aspecte que a l'escriptori.
 El servidor de QGIS normalment s'executa com un mòdul CGI/FastCGI dins del servidor web Apache.
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

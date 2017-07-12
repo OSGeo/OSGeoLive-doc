@@ -1,10 +1,10 @@
 :Author: Thierry Badard 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5 (Draft)
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/
@@ -21,7 +21,7 @@ GeoKettle
 
 　　在地理空间信息软件领域，GeoKettle 类似于 Feature Manipulation Engine ，一款私有的商业性 ETL 工具。作为一款稳定，高效，兼容国际标准，拥有数百种功能，支持读写大量的数据格式、服务和数据库的 ETL 产品，GeoKettle 被全球包括政府机构、银行、保险、空间信息集成在内的众多机构选用。
 
-.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

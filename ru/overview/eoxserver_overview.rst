@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver.png
+.. image:: /images/project_logos/logo-eoxserver.png
   :alt: логотип проекта
   :align: right
   :target: http://eoxserver.org/
@@ -26,7 +26,7 @@ EOxServer — это сервер для просмотра данных дис
 * Сервисы, использующие открытые и находящиеся в свободном доступе стандарты Open Geospatial Consortium (OGC): WMS, WCS, EO-WMS, EO-WCS.
 * Удобство для пользователей: определяемые пользователем настройки, просмотр и получение данных.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: встроенный клиент EOxServer
   :align: right

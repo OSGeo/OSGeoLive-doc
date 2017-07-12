@@ -1,11 +1,11 @@
 :Author: Howard Butler
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: Nacho Uve
-:Version: osgeo-live6.5
+:Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
@@ -18,7 +18,7 @@ Acceso a datos LiDAR
 
 libLAS es una librería C/C++ para lectura y escritura en el formato común `LiDAR`_ denominado `LAS` El `formato ASPRS LAS`_ es un formato binario secuencial utilizado para almacenar datos procedentes de sensores LiDAR y de software de procesamiento de datos para intercambio y archivado.
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %
@@ -29,9 +29,9 @@ es una "nube de puntos". La "nube de puntos" se puede definir como una serie de 
 Características principales
 --------------------------------------------------------------------------------
 
-* C/C++/Python APIs para lectura, escritura y manipulación de datos LAS
-* `Utilidades de línea de comando`_ para manipulación de datos LAS basados en herramientas LAS (`LAStools`_)
-* Reproyección de coordenadas via `GDAL <http://gdal.org>`__
+* C/C++/Python APIs para lectura, escritura y manipulación de datos LAS.
+* `Utilidades de línea de comando`_ para manipulación de datos LAS basados en herramientas LAS (`LAStools`_).
+* Reproyección de coordenadas via `GDAL <http://gdal.org>`__.
 
 Detalles
 --------------------------------------------------------------------------------
@@ -40,9 +40,9 @@ Detalles
 
 **Licencia:** BSD
 
-**Versión de Software:** 1.7.0
+**Versión de Software:** |version-liblas|
 
-**Plataformas soportadas:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W <http://trac.osgeo.org/osgeo4w/>`_), y Linux
+**Plataformas soportadas:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), y Linux.
 
 **Interfaces API:** C, C++, Python
 

@@ -1,15 +1,15 @@
 :Author: Astrid Emde
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender.png
+.. image:: /images/project_logos/logo-Mapbender.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender.org
 
-.. image:: ../../images/logos/OSGeo_project.png
-  :scale: 90 %
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
@@ -31,7 +31,7 @@ The Mapbender client side is based on HTML and JavaScript using the jQuery and j
 
 Mapbender gives a whole new perspective to SDI management using nothing but a standard web browser. 
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

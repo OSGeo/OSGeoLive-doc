@@ -9,17 +9,17 @@
 
 .. Writing Tip: 
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ Web Feature Service (WFS) 网络地理要素服务
 
 　　OGC® Web Feature Service Interface Standard (WFS) 定义了一套接口用于传输矢量地理要素数据，比如道路和湖泊等(http://www.opengeospatial.org/standards/wfs)。
 
-.. image:: ../../images/standards/wfs.jpg
+.. image:: /images/standards/wfs.jpg
   :scale: 55%
   :alt: WFS in Context
 

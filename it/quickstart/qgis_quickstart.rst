@@ -4,11 +4,17 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guida rapida su QGIS 
@@ -39,7 +45,7 @@ Modificare un progetto QGIS
 
    * Il layer "Populated places" viene visualizzato:
 
-     .. image:: ../../images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
 #. Doppio click su **ne_10m_rivers_lake_centerlines** nella legenda.

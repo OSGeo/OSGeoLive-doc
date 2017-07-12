@@ -1,14 +1,20 @@
 :Author: Gérald Fenoy
 :Reviewer: Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-ZOO-Project.png
+.. image:: /images/project_logos/logo-ZOO-Project.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guida rapida su ZOO Project
@@ -35,7 +41,7 @@ Running
 * Verrà avviato Firefox sulla demo ZOO Project Spatial Tools.
 
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-1.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -46,7 +52,7 @@ Running
   processi con geometria semplice come Buffer, Centroid, ConvexHull o Boundary e il
   risultato sarà visualizzato in giallo.
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -56,7 +62,7 @@ Running
   un pulsante dei pocressi geometrie multiple come Union, Intersection, Symmetric
   Difference o Difference e otterete il risultato sulla mappa rappresentato in rosso.
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-3.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center

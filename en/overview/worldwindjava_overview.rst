@@ -1,9 +1,9 @@
 :Author: Gabriele Prestifilippo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logoNasaJWW.png
+.. image:: /images/project_logos/logoNasaJWW.png
   :alt: project logo
   :align: right
   :target: http://goworldwind.org/
@@ -20,7 +20,7 @@ Thanks to the use of Digital Elevation Models (DEM), it is possible to view topo
 
 Organizations across the world use WorldWind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth.
 
-.. image:: ../../images/screenshots/1024x768/javaworldwind_main.png
+.. image:: /images/screenshots/1024x768/javaworldwind_main.png
  :scale: 50 %
  :alt: WorldWind Java Example
  :align: right
@@ -86,7 +86,7 @@ Details
 
 **Licence:** NASA Open Source Agreement Version 1.3
 
-**Software Version:** WorldWind Java SDK 2.0
+**Software Version:** |version-worldwindjava|
 
 **Supported Platforms:** Windows, Linux, Mac, Android, iOS
 

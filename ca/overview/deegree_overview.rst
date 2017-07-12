@@ -1,15 +1,15 @@
 :Author: Johannes Wilden, Danilo Bretschneider
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: logo del projecte
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: Projecte OSGeo
   :align: right
@@ -35,7 +35,7 @@ per servir mapes, entitats (*features*) i serveis de catàleg, així com sensors
 degree proporciona una IDE preparada per usar-la amb dades pròpies i que acompleix els requeriments d'usuari.
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
   :scale: 50%
   :alt: logo del projecte
   :align: right

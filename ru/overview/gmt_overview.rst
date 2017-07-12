@@ -1,10 +1,10 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
@@ -30,7 +30,7 @@ GMT поддерживает многие общераспространённы
 В состав GMT входят, помимо самих утилит, наборы разномасштабных 
 геоданных — политические границы, береговые линии, реки.
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -1,10 +1,10 @@
 :Author: Thierry Badard 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/
@@ -34,7 +34,7 @@ funzioni e supporto per la scrittura/lettura di molti formati di file, servizi e
 GeoKettle è usato da diverse organizzazione in tutto il monto, incluso agenzia governative, 
 banche, assicurazioni e  and geospatial system integrators.
 
-.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

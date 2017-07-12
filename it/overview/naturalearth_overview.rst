@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-naturalearth.png
+.. image:: /images/project_logos/logo-naturalearth.png
   :alt: project logo
   :align: right
   :target: http://www.naturalearthdata.com/
@@ -25,7 +25,7 @@ Natural Earth risolve il problema comune affrontato da molti cartografi: trovare
 dati vettoriali per effettuare pubblicazione di qualità per mappe a piccola scale 
 al livello di dettagli appropriato per le mappa che si sta creando.
 
-.. image:: ../../images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

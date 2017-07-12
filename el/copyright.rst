@@ -21,7 +21,7 @@
 
   |CC-By-SA-med| Το κείμενο αυτό περιλαμβάνει περιεχόμενο από το Εγχειρίδιο Γρήγορης Εκκίνησης gvSIG που δημιουργήθηκε από τον Simon Cropper υπό την άδεια Creative Commons Attribution-ShareAlike 3.0 Unported, http://creativecommons.org/licenses/by-sa/3.0/ είναι διαθέσιμο από το OSGeo-Live, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, και έχει μεταφορτωθεί στις 25 July 2011. Το αρχικό κείμενο έχει μεταφραστεί από τα Αγγλικά στα Γερμανικά.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/
 
 **Συνοπτική αναφορά CC-By-SA:**
@@ -32,7 +32,7 @@
 
   |CC-By-small| © 2011 [Όνομα συγγραφέα]. [Προέκυψε από|Περιλαμβάνει|Επεκτείνει] τις Περιλήψεις του `OSGeo-Live <http://live.osgeo.org>`_ από τους `συντελεστές OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/
 
 **Σύντομη αναφορά (για τις Περιλήψεις):**

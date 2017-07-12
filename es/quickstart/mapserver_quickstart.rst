@@ -1,16 +1,17 @@
-:Author: OSGeo-Live
-:Author: Alan Boudreault, Steve Lime
+:Author: Steve Lime
+:Reviewer: Stephan Meissl
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Mauricio Miranda
-:Version: osgeo-live5.5
+:Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :scale: 65 %
   :alt: Project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -26,6 +27,7 @@ Esta guía describe cómo:
      
   * :ref:`mapserver-quickstart-configure-with-mapfile-es`
   * :ref:`mapserver-quickstart-wms-request-es`
+  * :ref:`mapserver-quickstart-cmd-es`
   * :ref:`mapserver-quickstart-add-new-layer-es`
   * :ref:`mapserver-quickstart-styling-a-layer-es`
 
@@ -102,8 +104,7 @@ Si miramos un poco más de cerca el objeto **LAYER**, veremos que contiene una s
 
 .. note:: En la `documentación <http://mapserver.org/mapfile/index.html>`_ de MapServer puedes encontrar una lista completa de los objetos y propiedades disponibles.
 
-.. _mapserver-quickstart-wms-request-es:
-
+.. _mapserver-quickstart-cmd-es:
 
 Generar una imagen de mapa con MapSerever usando la línea de comandos
 ===============================================================================
@@ -114,20 +115,24 @@ Abre un terminal (Applications/Accessories/Terminal Emulator) y escribe
 
  shp2img -m mapserver_quickstart.map -o mymap.png
 
-Si este comando corre satisfactoriamente, serás capaz de ver el mapa generado en file:///home/user/mymap.png .
+Si este comando corre satisfactoriamente, serás capaz de ver el mapa generado en file:///home/user/mymap.png.
+
+.. _mapserver-quickstart-wms-request-es:
 
 Generar una imagen de mapa con MapServer usando una consulta **GetMap** de WMS
 ==================================================================================
 
-.. note:: **¿Qué aprenderé?** Aprenderás cómo generar una imagen con capas desde un mapfile con MapServer usando una consulta de OGC WMS.
+.. note:: 
+
+**¿Qué aprenderé?** Aprenderás cómo generar una imagen con capas desde un mapfile con MapServer usando una consulta de OGC WMS.
 
 Abre el navegador web y coloca la siguiente dirección::
 
- http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 ¿Qué significa lo anterior? Si lo ponemos en palabras simples, es una consulta **GetMap** de WMS `Web Map Service <http://www.opengeospatial.org/standards/wms>`_ que le dice a MapServer que "*use el siguiente mapfile para generar una capa específica como una imagen png basada en ciertos parámetros provisto por el usuario como el tamaño de la imagen, los límites geográficos, la proyección, etc.*". Todas las capas especificadas en la propiedad "*&LAYERS=...*" que tengan *STATUS ON* en el mapfile, además de todas las capas con *STATUS DEFAULT*, serán dibujadas. El resultado debería parecerse a lo siguiente:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
 
 .. note:: Todos los parámetros de la consulta pertenecen al estándar WMS, excepto "*?map=/home/user/mapserver_quickstart.map*", que es específico de MapServer.  
@@ -137,7 +142,9 @@ Abre el navegador web y coloca la siguiente dirección::
 Agregar una nueva capa al "mapfile" para servir un archivo shape local
 ================================================================================
 
-.. note:: **¿Qué aprenderé?** Aprenderás cómo agregar una nuevo objeto capa a la definición de tu mapfile.
+.. note:: 
+
+  **¿Qué aprenderé?** Aprenderás cómo agregar una nuevo objeto capa a la definición de tu mapfile.
 
 Agregaremos ahroa una nueva capa a nuestro mapfile. Antes del último *END*, agrega la siguente configuración::
 
@@ -161,7 +168,7 @@ Usemos nuestra consulta **GetMap** anterior y agreguemos nuestra nueva capa "Lak
 
 La imagen generada por MapServer se parece a nuestro mapa anterior pero con el agreado de los lagos, provistos por nuestra nueva capa:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
 .. _mapserver-quickstart-styling-a-layer-es:
@@ -199,10 +206,12 @@ En nuestro conjunto de datos "10m_lakes", tenemos el atributo *ScaleRank*, que p
 
 El resultado de esta modificación debería hacer que los lagos grandes en nuestro mapa sean generados con un borde negro:
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
     :scale: 70 %
 
-.. note:: Aprende más acerca de los objetos `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_.
+.. note:: 
+
+Aprende más acerca de los objetos `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_.
 
 ¿Qué sigue?
 ================================================================================

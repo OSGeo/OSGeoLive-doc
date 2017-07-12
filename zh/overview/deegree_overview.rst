@@ -1,14 +1,14 @@
 ﻿:Author: Johannes Wilden, Danilo Bretschneider
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -31,7 +31,7 @@ deegree还提供一组兼容标准的Web制图、地理要素和目录服务，�
 deegree提供用户SDI，支持用户自己的数据，满足各种需求.
 
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
   :scale: 50%
   :alt: project logo
   :align: right

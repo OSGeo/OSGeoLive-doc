@@ -1,9 +1,9 @@
 :Author: Bastian Schaeffer, Kristof Lange, Benjamin Pross
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/wps
@@ -17,7 +17,7 @@ Webサービス
 
 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ はWeb から Sextant, ArcGISサーバー、独自に開発した地理空間分析アルゴリズムへのアクセスを可能にします。アルゴリズムは異なる複数の時期でのインフルエンザの違いを決定するようにシンプルであることもありますし、全球気候変動のように複雑であることもあります。
 
-.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right

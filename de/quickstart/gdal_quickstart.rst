@@ -2,11 +2,17 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://gdal.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -126,6 +132,7 @@ GeoTIFF. Über die Angabe `-of` kann ein Ausgabeformat angegeben werden. Über `
   gdal_translate -of JPEG -co QUALITY=40 HYP_50M_SR_W.tif HYP_50M_SR_W.jpg
 
 Der Parameter `-ot` kann zur Veränderung des Ausgabedatentyps verwendet werden.
+
 ::
  
    gdal_translate -ot Int16 HYP_50M_SR_W.tif HYP_50M_SR_W_Int16.tif
@@ -172,7 +179,7 @@ wird ein Polygon mit dem Umring der Rasterdatei und dem Pfad zur Rasterdatei erz
 Schauen Sie sich Ihre Ausgabe-Shapedatei mit QGIS und ogrinfo an (später werden Sie
 noch mehr über ogrinfo erfahren).
 
-  .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -218,7 +225,7 @@ Geographischen Projektion WGS84 in die Mercator Projektion umwandeln:
 
 Verwenden Sie gdalinfo, um sich die Veränderung anzuschauen. Schauen Sie sich das Bild auch mit QGIS an.
 
-  .. image:: ../../images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
 Nun projizieren wir in die Orthoprojektion.  
@@ -228,7 +235,7 @@ Nun projizieren wir in die Orthoprojektion.
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: ../../images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
 Beachten Sie, wie die Pole abgeschnitten werden. Weil die Ecken an den Polen nicht umprojiziert werden können, kann gdalwarp nicht alle Daten lesen. Als Lösung können wir gdalwarp zwingen, ein wenig zusätzliche Daten zu lesen. Zu diesem Thema erfahren Sie mehr im Raster-Tutorial http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.
@@ -260,7 +267,7 @@ Lernen Sie OGR kennen
 
 :: 
   
-  cd /home/usr/gdal_natural_earth/
+  cd /home/user/gdal_natural_earth/
 
 
 .. tip:: Schauen Sie sich die Shapedatei mit einem Desktop GIS wie QGIS an.
@@ -370,12 +377,14 @@ Lassen Sie sich eine Zusammenfassung zu Ihren Daten mit ogrinfo und `-so` ausgeb
 	tiny: Real (16.6)
 	homepart: Real (16.6)
 
+
 Wenn Sie ogrinfo ohne einen zusätzlichen Parameter aufrufen, erhalten Sie zuerst die Zusammenfassung 
 der Daten gefolgt von einer Sektion für jeden einzelnen Datensatzes.
 
 ::
 
 	ogrinfo -ro ne_10m_admin_0_countries.shp ne_10m_admin_0_countries
+
 
 Sie können die Ergebnisse von ogrinfo an grep weitergeben, um die Daten zu filtern 
 und so beispielsweise nur das Attribut admin auszugeben.

@@ -1,10 +1,10 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.osm.org/
@@ -24,7 +24,7 @@ OpenStreetMap
 
 Η διανομή OSGeo-Live περιλαμβάνει δεδομένα που έχουν εξαχθεί από το OSM για την κάλυψη της έκτασης περίπου μιας πόλης, τα οποία χρησιμοποιούνται σαν παράδειγμα σε κάποια λογισμικά που περιλαμβάνονται στη διανομή.
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

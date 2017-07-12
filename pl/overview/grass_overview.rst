@@ -5,12 +5,12 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -32,7 +32,7 @@ obrazów satelitarnych i zdjęć lotniczych. Pozwala również na tworzenie
 wyrafinowanych prezentacji graficznych oraz map. GRASS jest przetłumaczony 
 na 20 języków, a także obsługuje wiele formatów danych.
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -1,10 +1,10 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
-:Reviewer: Cameron Shorter, http://lisasoft.com
+:Reviewer: Cameron Shorter, http://jirotech.com
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-cartaro.png
+.. image:: /images/project_logos/logo-cartaro.png
   :alt: project logo
   :align: right
   :target: http://cartaro.org
@@ -18,7 +18,7 @@ Cartaro provides geospatial functionality and web services within the Drupal Con
 
 Cartaro is designed for CMS websites needing to handle geospatial data, and for organisations wanting a light-weight Spatial Data Infrastructure (SDI) with minimal configuration and programming.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right
@@ -58,7 +58,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 1.9
+**Software Version:** |version-cartaro|
 
 **Supported Platforms:** Windows, Linux, Mac
 

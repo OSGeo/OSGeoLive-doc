@@ -22,7 +22,7 @@ Puede usar un texto de reconocimiento similar a los siguientes ejemplos:
 
   |CC-By-SA-med| Este documento incluye contenido de la "Guía de Inicio Rápido de gvSIG" creada por Simon Cropper bajo la licenciaCreative Commons Attribution-ShareAlike 3.0 Unported, http://creativecommons.org/licenses/by-sa/3.0/ disponible en el proyecto OSGeo-Live, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, y descargado el 25 de Julio de 2011. El trabajo original fue traducido del inglés al español.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: http://creativecommons.org/licenses/by-sa/3.0/
 
 **Conciso CC-By-SA y reconocimiento:**
@@ -33,7 +33,7 @@ Puede usar un texto de reconocimiento similar a los siguientes ejemplos:
 
   |CC-By-small| © 2011 [Su nombre]. [Derivado de|Incluye|Extiende] resúmenes de proyectos del `OSGeo-Live <http://live.osgeo.org>`_ elaborado por `contribuidores de OSGeo-Live <http://live.osgeo.org/en/copyright.html>`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: http://creativecommons.org/licenses/by/3.0/
 
 **Mínima (para Resúmenes de proyectos) con reconocimiento sólo:**

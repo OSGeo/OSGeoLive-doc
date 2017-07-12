@@ -11,8 +11,7 @@
 пожалуйста, напишите в наш `mail-лист <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Архивы mail-листа с возможностью поиска располагаются на 
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 Пользователи IRC могут использовать каналы #osgeolive or #osgeo на Freenode.net
 для онлайн-консультаций.
@@ -23,14 +22,14 @@
 Коммерческая поддержка
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-Компания LISAsoft предоставляет коммерческую поддержку для создания Live DVD, многие 
+Компания Jirotech предоставляет коммерческую поддержку для создания Live DVD, многие 
 приложения были подготовлены с её помощью.
-Детали на сайте http://lisasoft.com
+Детали на сайте http://jirotech.com
 
 Большая часть приложений имеет как поддержку сообщества, так и предложения по их 
 коммерческой поддержке. Детали можно найти в :doc:`описаниях <./overview/overview>` 

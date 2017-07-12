@@ -1,11 +1,11 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Jorge Sanz
 :Translator: Roberto Antolín
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/security
@@ -37,7 +37,7 @@ definidas. Por lo tanto, no es necesario modificar las implementaciones
 existentes. Las políticas y usuarios se definen en ficheros de configuración
 XML, que se mantienen desde una interfaz de gestión general.
 
-.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Pantalla de la interfaz de gestión de WSS
   :align: right

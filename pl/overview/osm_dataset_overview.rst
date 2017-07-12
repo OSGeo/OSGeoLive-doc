@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.osm.org/
@@ -24,7 +24,7 @@ The heart of the project is the underlying data which is open for all to edit, v
 
 The OSGeo-Live distribution includes a city sized extract of OSM data which is used for examples by some applications.
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

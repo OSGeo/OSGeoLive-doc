@@ -9,17 +9,17 @@
 
 .. Writing Tip: 
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: Логотип OGC
   :align: right
@@ -34,7 +34,7 @@
 
 OGC-сервис данных с датчиков (SOS) — это стандарт, описывающий интерфейс к сервису, предоставляющему данные. Стандарт OGC SOS определяет стандартизированные интерфейсы и операции для доступа к результатам наблюдений с датчиков, что соответствует всем системам датчиков, включая удалённые, локальные, фиксированные и мобильные датчики. SOS предоставляет результаты запросов в стандартном формате наблюдений и измерений (O&M) для создания систем наблюдения и в соответствии со спецификацией SensorML для создания датчиков и систем датчиков. (http://www.opengeospatial.org/standards/sos)
 
-.. image:: ../../images/standards/sos.jpg
+.. image:: /images/standards/sos.jpg
   :scale: 55%
   :alt: SOS в контексте
 

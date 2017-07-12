@@ -18,7 +18,7 @@
 
 `OSGeo-Live <http://live.osgeo.org>`_ は仮想マシン `Lubuntu <http://lubuntu.net>`_ をベースとした起動可能なブータブルDVD／USBメディアです。これを利用することで、幅広く多様なオープンソースの地理空間ソフトウェアを、インストールなどの必要無しに試すことができます。OSGeo-Live は全てフリーソフトで構成されており、自由に複製、配布することができます。
 
-.. image:: ../images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right
@@ -34,8 +34,7 @@ OSGeo-Live は様々な地理空間関連の保管、配布、表示、分析、
 #. Enter ボタンを押しスタート、ログインを行う
 #. Geospatial メニューからアプリケーションを試す
 
-多くのアプリケーションは、 `Apple OSX <../MacInstallers/>`_ や  `Microsoft Windows <../WindowsInstallers/>`_
-フォルダ内のインストーラ形式でも提供されています。
+OSGeo-Live は `OSGeo 財団 <http://osgeo.org/>`_ のプロジェクトです。OSGeo 財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、及び `教育 <http://www.geoforall.org/>`_ をサポートしています。
 
 .. only:: html
 
@@ -63,7 +62,6 @@ OSGeo-Live は様々な地理空間関連の保管、配布、表示、分析、
      download
      sponsors
      sponsors_osgeo
-     presentation
      metrics
      mac_installers
      win_installers

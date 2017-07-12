@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Elena Mezzini
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -20,11 +20,17 @@
     * Do some SQL queries on the dataset
     * Use QGis to view data from PostGIS (using the existing Natural Earth data). We should be able to keep most of the existing QGis sections
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.net
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guida rapida a PostGIS
@@ -318,14 +324,14 @@ Connections. Qui si possono definire nuove connessioni server, e salvare i setta
 per richiamarle facilmente. Cliccare ``Edit`` se si vuole vedere quali sono questi parametri
 per Natural Earth, oppure cliccare solo ``Connect`` per continuare:
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
 Verrà restituita una lista delle tabelle spaziali presenti nel database:
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
   :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
@@ -334,7 +340,7 @@ Scegliere la tabella ne_10m_lakes e cliccare ``Add`` in basso (non ``Load`` in a
 - che carica i parametri di connessione al database), e dovrebbe essere caricato
 in QGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -357,7 +363,7 @@ Successivamente QGIS scaricherà la lista più recente dei plugins dal repositor
 (è necessaria una connessione internet funzionante per questo passaggio). Cercare il
 plugin ``PostGIS Manager`` e cliccare il pulsante ``Install plugin``.
 
-.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+.. image:: /images/screenshots/1024x768/postgis_getmanager.png
   :scale: 50 %
   :alt: Fetch PostGIS Manager Plugin
   :align: center
@@ -372,7 +378,7 @@ sinistra si può selezionare le tabelle dal database e usare le schede sulla des
 per avere informazioni su di esse. La scheda Preview mostra una piccola mappa. Qui è
 stato selezionato il layer ne_10m_populated_places e zoommato su una piccola isola:
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
   :alt: PostGIS Manager Preview
   :align: center
@@ -385,14 +391,14 @@ Dal menù ``Data`` scegliere l'opzione ``Load data from shapefile``.
 Cliccare il pulsante ``...`` e sfogliare fino allo shapefile ``sids.shp`` nel pacchetto
 di R ``maptools`` (situato in /usr/local/lib/R/site-library/):
 
-.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+.. image:: /images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Find the shapefile
   :align: center
 
 Lasciare tutto il resto come è e cliccare ``Load``
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
   :alt: Import a shapefile
   :align: center
@@ -404,7 +410,7 @@ Ora caricare i dati SIDS nella mappa usando l'opzione 'Add PostGIS Layer'.
 Riarrangiando e ricolorando un po' i layers, si dovrebbe essere in grado di produrre
 una mappa coropletica dei contatori della sindrome della morte improvvisa del lattante nel North Carolina:
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
   :scale: 50 %
   :alt: SIDS data mapped
   :align: center
@@ -419,7 +425,7 @@ PostgreSQL, e permette di utilizzare SQL per manipolare le tabelle dei dati.
 pgAdmin III si può trovare ed essere lanciato dalla cartella Databases, presente
 in OSGeo Live Desktop.
 
-.. image:: ../../images/screenshots/1024x768/postgis_pgadmin_main_window.png
+.. image:: /images/screenshots/1024x768/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -430,7 +436,7 @@ In questo caso, ci si connette al server predefinito ``local``.
 
 Una volta stabilita la connessione, si può vedere l'elenco dei databases già esistenti nel sistema.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen0.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -447,7 +453,7 @@ Andare al sottinsieme ``schemas``, ed espanderlo. Successivamente espandere
 lo schema ``public``. Esplorando ed espandendo le
 ``Tables``, è possibile vedere tutte le tabelle contenute in questo schema.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -467,7 +473,7 @@ select name, 1000*sid74/bir74 as rate from sids order by rate.
 
 Successivamente, cliccare il pulsante a forma di freccia verde, che punta verso destra (esegui interrogazione).
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

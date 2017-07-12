@@ -12,8 +12,7 @@ Ha bármilyen kérdése, megjegyzése van vagy probléma ütközik, jelezze nek�
 az `email listánkon <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Az email listák kereshető archivumát a
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ és
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ szervereken találja meg.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ szervereken találja meg.
 
 Az IRC felhasználók kipróbálhatják a Freenode.net-en a #osgeolive vagy a
 #osgeo csatornákat, ha a valósidejű segítségre van szükségük.
@@ -25,14 +24,14 @@ Rengeteg információ érhető el a
 Kereskedelmi támogatás
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-A LISAsoft kereskedelmi támogatást kínál a Live DVD elkészítéséhez,
+A Jirotech kereskedelmi támogatást kínál a Live DVD elkészítéséhez,
 mint ahogy a rajta található alkalmazásokhoz.
-Részletek: http://lisasoft.com
+Részletek: http://jirotech.com
 
 A csomagban található alkalmazások többségéhez mind közösségi mind kereskedelmi
 támogatás ajánlanak. Lásd az egyes alkalmazások leírását a

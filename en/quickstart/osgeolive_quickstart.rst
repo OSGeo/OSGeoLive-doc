@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -27,7 +27,7 @@ Your computer should have at least:
 Run:
 --------------------------------------------------------------------------------
 
-  Source an OSGeo-Live DVD, ISO available from: http://download.osgeo.org/livedvd 
+  Source an OSGeo-Live DVD, ISO available from: [:doc:`Download <../download>`]
   Put the DVD into your computer's CD drive, then reboot your computer.
 
   If your computer is set to boot from CD (as is often the case) you should
@@ -35,13 +35,13 @@ Run:
   Otherwise you'll have to adjust the BIOS boot settings or press the boot
   menu button just after powering-up.
 
-   .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+   .. image:: /images/screenshots/800x600/osgeolive_boot.png
      :scale: 70 %
      :alt: boot
 
   Sit back while the system boots up.
 
-   .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+   .. image:: /images/screenshots/800x600/osgeolive_menu.png
      :scale: 70 %
      :alt: boot select
 

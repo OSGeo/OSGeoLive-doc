@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-zygrib.png
+.. image:: /images/project_logos/logo-zygrib.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.zygrib.org
@@ -19,7 +19,7 @@ zyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen GRIB
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: /images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right
@@ -38,7 +38,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 3
 
-**Software Version:** 6.2.1
+**Software Version:** |version-zygrib|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 

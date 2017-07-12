@@ -1,14 +1,20 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 pycsw
 ================================================================================
@@ -25,7 +31,7 @@ El projecte està certificat com a `OGC Compliant`_, i és una `OGC Reference Im
 
 pycsw és codi obert, amb una llicència MIT, i es pot executar a la majoria de sistemes operatius (Windows, Linux, Mac OS X).
 
-.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

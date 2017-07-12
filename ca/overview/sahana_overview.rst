@@ -1,10 +1,10 @@
 :Author: Gavin Treadgold
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-sahana-eden.png
+.. image:: /images/project_logos/logo-sahana-eden.png
   :alt: project logo
   :align: right
   :target: http://www.sahanafoundation.org
@@ -23,7 +23,7 @@ Hi ha solucions disponibles per a gestionar catàstrofes, gestionar emergències
 El projecte Sahana el van començar els voluntaris de la comunitat FOSS de Sri Lanka, per ajudar els seus conciutadans afectats pel tsunami de desembre de 2004.
 El sistema el va utilitzar de forma oficial el govern de Sri Lanka, i el van alliberar de forma gratuïta i amb codi obert. Posteriorment es va reescriure com una eina genèrica de gestió de catàstrofes incubada amb el patrocini de l'agència de desenvolupament internacional de Suècia, IBM, i la US National Science Foundation i des de llavors ha estat utilitzada per part de dotzenes de governs i ONG.
 
-.. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: /images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

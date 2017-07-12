@@ -1,9 +1,9 @@
 :Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-spatialite.png
+.. image:: /images/project_logos/logo-spatialite.png
   :alt: project logo
   :align: right
   :target: http://www.gaia-gis.it/gaia-sins/
@@ -21,7 +21,7 @@ SQLite は動作が軽く、シンプルで堅牢、簡単に使える人気の�
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: ../../images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -57,9 +57,9 @@ SQLite で OGC の仕様に準拠した空間データを扱えるようにし�
 
 **ライセンス:** MPL v1.1 and GPL v3
 
-**ソフトウェアバージョン:** 4.3.0
+**ソフトウェアバージョン:** |version-spatialite|
 
-**サポートするプラットフォーム:** Linux、Mac、Windows
+**対応プラットフォーム:** Linux、Mac、Windows
 
 **API インタフェース:** C++
 

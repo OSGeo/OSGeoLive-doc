@@ -1,12 +1,18 @@
 :Author: Oliver Tonnhofer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 MapProxy
 ================================================================================
@@ -14,7 +20,7 @@ MapProxy
 Proxy WMS & tile services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -29,7 +35,7 @@ MapProxy is used for the German broadband atlas to deliver maps for thousands of
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/800x600/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

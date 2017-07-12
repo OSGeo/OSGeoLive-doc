@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Marco Curreli
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org
@@ -43,7 +43,7 @@ versioni commerciali di S, TIBCO Spotfire S+. Ciò rende possibile la
 conversione di diverse versioni del codice S per eseguirle su R senza dover
 modificare il codice principale.
 
-.. image:: ../../images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right

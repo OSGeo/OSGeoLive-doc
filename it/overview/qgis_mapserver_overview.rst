@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Pasquale Di Donato
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -30,7 +30,7 @@ del server. Le mappe web risultati appaiono esattamente come nel desktop.
 QGIS Server è usualmente eseguito come module CGI/FastCGI con il Webserver Apache.
 
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

@@ -1,9 +1,9 @@
 :Author: Howard Butler
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
@@ -18,7 +18,7 @@ libLAS は一般的な `LAS` `LiDAR`_ フォーマットを読み書きするた
 `ASPRS LAS format`_ は LiDAR センサや LiDAR 処理ソフトウェアがデータの保存、交換，アーカイブに使用している
 シーケンシャルなバイナリフォーマットです。
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %
@@ -41,7 +41,7 @@ LiDAR システムは "point cloud" データのように、センサからの�
 
 **ライセンス:** BSD
 
-**バージョン:** 1.8.0
+**ソフトウェアバージョン:** |version-liblas|
 
 **対応プラットフォーム:** Cross Platform C++ -- Mac OS X, Windows (via `OSGeo4W`_), and Linux
 

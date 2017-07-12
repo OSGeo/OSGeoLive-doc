@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-naturalearth.png
+.. image:: /images/project_logos/logo-naturalearth.png
   :alt: project logo
   :align: right
   :target: http://www.naturalearthdata.com/
@@ -20,7 +20,7 @@ Natural Earth 地图数据
 
 　　Natural Earth 为众多制图人员解决了一个常见的问题：即获得出版所需质量的数据用于制作小比例尺地图，并就所用比例尺选取合适的数据量。
 
-.. image:: ../../images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

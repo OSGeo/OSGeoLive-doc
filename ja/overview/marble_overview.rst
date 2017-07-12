@@ -1,14 +1,14 @@
 :Author: Hamish Bowman, Sergey Popov
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :alt: project logo
   :align: right
   :target: http://marble.kde.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -26,7 +26,7 @@ PC上の地球儀に `OpenStreetMaps <http://www.osm.org>`_ を含む様々な�
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/marble-history.png
+.. image:: /images/screenshots/800x600/marble-history.png
   :scale: 64 %
   :alt: screenshot
   :align: right
@@ -61,7 +61,7 @@ PC上の地球儀に `OpenStreetMaps <http://www.osm.org>`_ を含む様々な�
 
 **ライセンス:** GNU Lesser General Public License (LGPL) version 2.1
 
-**バージョン:** 1.9.2
+**ソフトウェアバージョン:** |version-marble|
 
 **対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows, Maemo 5
 

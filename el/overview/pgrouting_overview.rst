@@ -1,13 +1,19 @@
 :Author: Daniel Kastl
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 pgRouting
 ================================================================================
@@ -23,7 +29,7 @@ pgRouting
 * Οι αλλαγές στα δεδομένα μπορούν να αναπαρασταθούν άμεσα μέσω της μηχανής δρομολόγησης. Δεν χρειάζεται προϋπολογισμός.
 * Η παράμετρος "κόστους" μπορεί να υπολογιστεί δυναμικά μέσω κώδικα SQL και η τιμή της μπορεί να προκύψει από πολλές εγγραφές ή πίνακες.
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right

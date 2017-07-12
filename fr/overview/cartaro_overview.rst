@@ -1,10 +1,10 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
-:Reviewer: Cameron Shorter, http://lisasoft.com
+:Reviewer: Cameron Shorter, http://jirotech.com
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-cartaro.png
+.. image:: /images/project_logos/logo-cartaro.png
   :alt: project logo
   :align: right
   :target: http://cartaro.org
@@ -18,7 +18,7 @@ Cartaro fournit une fonctionnalité géospatiale et des services web dans le Sys
 
 Cartaro est conçu pour les sites web ayant besoin de gérer des données géospatiales, et pour les organisations voulant une Infrastructure de Données Spatiales - Spatial Data Infrastructure (SDI) - avec une configuration et une programmation minimale.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

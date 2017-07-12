@@ -1,9 +1,9 @@
 :Author: Sergio Baños Calvo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
@@ -19,7 +19,7 @@ Kosmo - Desktop ist eine benutzerfreundliche Desktop-GIS-Anwendung, die Ihnen er
 Kosmo - Desktop folgt OGC Standards und bietet eine ausgezeichnete topologische Integrität. Die Plugin-Architektur ermöglicht es, die Anwendung leicht für einen bestimmten Zweck anzupassen.
 
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right
@@ -74,7 +74,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 3
 
-**Software Version:** 3.1
+**Software Version:** |version-kosmo|
 
 **Unterstützte Plattformen:** Windows, Linux
 

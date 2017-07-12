@@ -1,10 +1,10 @@
 :Author: Howard Butler
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :alt: project logo
   :align: right
   :target: http://liblas.org/
@@ -17,7 +17,7 @@ LiDAR 激光测距数据处理
 
 　　LibLAS 是一套用于处理常见的 “LAS” `LiDAR`_ 格式数据的 C/C++ 函数库。 其 `ASPRS LAS 格式`_ 是一种 LiDAR 数据点云的序列二进制编码，可用于 LiDAR 传感器数据的存储和相应软件的交换、存档与处理。
 
-.. image:: ../../images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/800x600/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

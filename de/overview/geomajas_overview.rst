@@ -1,21 +1,21 @@
 :Author: Pieter De Graef
 :Author: Dominik Helle
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 100px
   :height: 100px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 Geomajas
 ================================================================================
@@ -29,7 +29,7 @@ Der Schwerpunkt von Geomajas ist es, eine Anwendung bereit zu stellen, die eine 
 
 Eine Besonderheit von Geomajas ist die starke serverseitge Fokussierung. Das Verarbeiten, Stylen, Filtern und Zwischenspeichern von Daten wird in einem abgesicherten Bereich durchgeführt. So sind Anwendungen, die über GeoMajas bereitgestellt werden gut skalierbar und performant.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right
@@ -61,7 +61,7 @@ Details
 
 **Lizenz:** AGPL
 
-**Software Version:** 2.4.0
+**Software Version:** |version-geomajas|
 
 **Unterstütze Plattformen:** Windows, Linux, Mac
 

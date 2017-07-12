@@ -8,7 +8,7 @@
 
 　　若对 OSGeo-Live 有任何问题、意见或建议，请在 `我们的邮件列表 <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ 上说明。
 
-　　在 `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ 和 `Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ 上可以查看以往的邮件，并能够搜索。
+　　`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ 上可以查看以往的邮件，并能够搜索。
 
 　　IRC 用户通过我们在 Freenode.net 的 #osgeolive 和 #osgeo 两个频道可以获得实时的帮助。
 
@@ -17,12 +17,12 @@
 商业性支持（英文）
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-　　LISAsoft 公司为 OSGeo-Live 及其中很多软件系统提供商业性的技术支持。详见 `LISAsoft.com <http://lisasoft.com>`_ 网站。
+　　Jirotech 公司为 OSGeo-Live 及其中很多软件系统提供商业性的技术支持。详见 `Jirotech.com <http://jirotech.com>`_ 网站。
 
 　　OSGeo-Live 所包含的大部分软件都具备社区性质和商业性质的支持服务。详见 :doc:`Contents <./overview/overview>` 页面。
 

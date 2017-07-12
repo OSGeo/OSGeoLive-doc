@@ -1,10 +1,10 @@
 :Author: darkblueb
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Bu Kun (OSGeo ID: bukun)
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-iris.png
+.. image:: /images/project_logos/logo-iris.png
   :alt: Iris project logo
   :align: right
   :target: http://scitools.org.uk/iris/
@@ -28,7 +28,7 @@ Iris是一个功能强大的Python库，用于分析和可视化气象和海洋�
 Iris支持读写许多数据格式，包括(CF-)netCDF、 GRIB、 及PP 文件。
 
 
-.. image:: ../../images/screenshots/800x600/iris.jpg
+.. image:: /images/screenshots/800x600/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

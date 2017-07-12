@@ -1,11 +1,11 @@
 :Author: Gabriele Prestifilippo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Astrid Emde
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logoNasaWWW.png
+.. image:: /images/project_logos/logoNasaWWW.png
   :alt: Projekt Logo
   :align: right
   :target: http://webworldwind.org/
@@ -23,7 +23,7 @@ Die Anwendung ist leicht zu bedienen und benötigt lediglich eine Maus mit 2 Sch
 
 Web World Wind verfügt über eine erweiterbare JavaScript Plattform, die es Web-Entwicklern ermöglicht, schnell angepasste Globen zu erzeugen und 2-dimensionale Karten zu generieren, die räumliche Daten darstellen, verändern und analysieren. Sie können Gelände und hochauflösende Bilddaten darstellen, einen Kompass einfügen, Koordinaten anzeigen und weitere Werkzeuge verwenden.
 
-.. image:: ../../images/screenshots/1024x768/webworldwind_main.png
+.. image:: /images/screenshots/1024x768/webworldwind_main.png
  :scale: 50 %
  :alt: Web World Wind Example
  :align: right

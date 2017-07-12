@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Aitor Freire Astray
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org
@@ -29,7 +29,7 @@ SAGA está en desarrollo desde 2001, y el centro de desarrollo de SAGA se
 localiza en el Instituto de Geografía de la Universidad de Hamburgo, con
 las contribuciones de una creciente comunidad mundial.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right
@@ -39,35 +39,35 @@ Funciones principales
 
 * Acceso a gran número de módulos científicos a través de la GUI o la línea de comandos
 
- * Importar/Exportar a diferentes formatos de archivo
- * Reproyección/Remuestreo de datos
- * Manipulaíón de datos vectoriales (fusión(intersección/atributos)
- * Manipulación de nubes de puntos de datos lidar
+ * Importar/Exportar a diferentes formatos de archivo.
+ * Reproyección/Remuestreo de datos.
+ * Manipulaíón de datos vectoriales (fusión(intersección/atributos).
+ * Manipulación de nubes de puntos de datos lidar.
  * Datos Raster: interpolación, análisis de costes, ...
- * Análisis de imágenes: filtros, detección de bordes, análisis de clusters, segmetación
+ * Análisis de imágenes: filtros, detección de bordes, análisis de clusters, segmetación.
  * Análisis Digital del Terreno: generación de índices geomorfométricos, canales de redes, perfiles, líneas de contorno, ...
- * Geoestadística: módulos para ajuste de variogramas y *kriging*
+ * Geoestadística: módulos para ajuste de variogramas y *kriging*.
 
-* Interfaz de usuario rápida para el manejo y visualizado de datos
+* Interfaz de usuario rápida para el manejo y visualizado de datos.
 
  * Visualización 3D
 
-* Sencilla API C++ para la creación de nuevos módulos
+* Sencilla API C++ para la creación de nuevos módulos.
 * *Scripting* mediante línea de comandos, enlaces para *Phyton*.
-* Acceso a SAGA desde el lenguaje estadístico R a través del módulo RSAGA
+* Acceso a SAGA desde el lenguaje estadístico R a través del módulo RSAGA.
 
 Detalles
 --------------------------------------------------------------------------------
 
 **Página web:** http://www.saga-gis.org
 
-**Licencia:** LGPL v2.1 (api); GPLv2 (GUI y módulos)
+**Licencia:** LGPL v2.1 (api); GPLv2 (GUI y módulos).
 
-**Version de software:** 2.1.1
+**Version de software:** |version-saga|.
 
-**Plataformas compatibles:** Windows, Linux, FreeBSD
+**Plataformas compatibles:** Windows, Linux, FreeBSD.
 
-**Interfaces API:** C++, Python, R 
+**Interfaces API:** C++, Python, R.
 
 **Soporte:** http://www.saga-gis.org
 

@@ -3,10 +3,17 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :scale: 80 %
-  :alt: Лого проекта
+  :alt: project logo
   :align: right
+  :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 OTB: начало работы
@@ -72,7 +79,7 @@ OTB: начало работы
 * В главном окне вызовите контекстное меню на элементе "Clustered Image"
   итогового набора данных "MeanShift0" и выберите "Display in viewer".
 
-  .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
+  .. image:: /images/screenshots/800x600/otb-mean_shift.jpg
      :scale: 100 %
 
 SVM-классификация в Monteverdi
@@ -89,7 +96,7 @@ SVM-классификация в Monteverdi
 * Нажмите кнопку `Display`, чтобы отобразить результат классификация всего
   изображения.
 
-  .. image:: ../../images/screenshots/800x600/otb-svm.jpg
+  .. image:: /images/screenshots/800x600/otb-svm.jpg
      :scale: 100 %
 
 С развёрнутым примером можно ознакомиться в `статье`_.

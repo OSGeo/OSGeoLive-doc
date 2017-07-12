@@ -12,8 +12,7 @@ atau menemukan beberapa masalah, silahkan tinggalkan pesan pada daftar 'surat ka
 <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Arsip dari daftar pesan (milis) dapat dicari dalam
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ dan
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 Pengguna IRC bisa mencoba #osgeolive atau #osgeo sebagai saluran dalam Freenode.net
 untuk asistensi bantuan secara langsung (real-time)
@@ -24,14 +23,14 @@ dan sebuah 'sistem pencari bug dan keinginan <https://trac.osgeo.org/osgeo/repor
 Dukungan Komersil
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft menyediakan dukungan komersil dalam membangun Live DVD, 
+Jirotech menyediakan dukungan komersil dalam membangun Live DVD, 
 serta beragam aplikasi yang termasuk sebagai paket didalamnya.
-Detil dapat dilihat di: http://lisasoft.com
+Detil dapat dilihat di: http://jirotech.com
 
 Sebagian besar paket aplikasi memiliki kedua dukungan baik komunitas dan komersil yang ditawarkan. Sebagai acuan terhadap deksripsi aplikasi
 secara spesifik dihubungkan dari :doc:`Contents <./overview/overview>` untuk detilnya.

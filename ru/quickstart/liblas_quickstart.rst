@@ -3,7 +3,7 @@
 :Версия: osgeo-live5.0
 :Лицензия: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :scale: 100 %
   :alt: Логотип проекта
   :align: right
@@ -126,7 +126,7 @@ UTM в 17-й зоне.
 .. _`LLVM`: http://llvm.org/
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
 .. _`Boost`: http://www.boost.org/
-.. _`DebianGIS`: http://wiki.debian.org/DebianGis
+.. _`DebianGIS`: https://wiki.debian.org/DebianGis
 .. _`gdal_translate`: http://www.gdal.org/gdal_translate.html
 .. _`EPSG`: http://www.epsg-registry.org/
 .. _`EPSG:4326`: http://spatialreference.org/ref/epsg/4326/

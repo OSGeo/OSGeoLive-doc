@@ -1,16 +1,17 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Roberto Antolín
 :Reviewer: Angelos Tzotsos
-:Version: osgeo-live9.5
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +29,7 @@ Incluye una potente funcionalidad de análisis mediante la integración con
 :doc:`GRASS <grass_overview>`. 
 Funciona en Linux, Unix, Mac OSX y Windows, soporta numerosas funcionalidades y formatos vectoriales, raster y bases de datos.
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -78,7 +79,7 @@ Características principales
 Implementación de estándares
 --------------------------------------------------------------------------------
 
-* Compatible con estándares OGC (WMS, WFS (Complemento))
+* Compatible con estándares OGC (WMS, WFS, ...)
 
 Detalles
 --------------------------------------------------------------------------------
@@ -87,7 +88,7 @@ Detalles
 
 **Licencia:**  GNU General Public License (GPL) version 2
 
-**Versión del software:** 2.14.0
+**Versión del software:** |version-qgis|
 
 **Plataformas soportadas:** Windows, Linux, Mac, Unix
 

@@ -1,10 +1,10 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/sos
@@ -19,7 +19,7 @@
 Η υπηρεσία :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`_ της 52°North υποστηρίζει την διαλειτουργική επισκόπηση δεδομένων από ενεργούς δέκτες ή από αποθηκευμένα αρχεία παρατηρήσεων τους. Ένας δέκτης μπορεί να μετρά το ύψος της στάθμης του νερού σε ένα ποτάμι, μπορεί να είναι ένας μετεωρολογικός σταθμός ή ένας σταθμός μέτρησης ποιότητας του αέρα. 
 
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: εικόνα της έκδοσης 1.0.0 της υπηρεσίας 52°North SOS
   :align: right

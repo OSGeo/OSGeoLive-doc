@@ -1,6 +1,6 @@
 :Author: OSGeo-Live
 :Author: Alex Mandel, Cameron Shorter
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -21,8 +21,24 @@ Requirements
  * For a 4 GB USB flash drive, use osgeo-live-mini ISO (without Windows and Mac installers), without persistence.
  * For a 8+ GB USB flash drive, use either osgeo-live-mini ISO, or osgeo-live ISO (with Windows and Mac installers). 8+ GB is recommended if you wish to support persistence.
 
+Creating bootable USB drive with ``dd`` under Linux
+--------------------------------------------------------------------------------
 
-Creating bootable USB drive from Ubuntu
+ISO images for OSGeo-Live 10.5 and later are *isohybrid* (and for amd64, also support UEFI boot). Under Linux, these images can be written directly to the block device for a USB drive with the ``dd`` command-line utility:
+
+.. code-block:: console
+
+   sudo dd if=osgeo-live-10.5-amd64.iso of=/dev/sdX bs=4M; sync
+
+* ``/dev/sdX`` is the block device for the USB drive, where ``X`` might be ``b`` or ``c``.
+* Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages identifying the USB drive when it is connected.
+* The USB drive should not be mounted.
+* ``sudo`` is not required if the command is run as ``root``.
+
+.. warning::
+   Be certain to select the correct block device as ``dd`` will overwrite it without question, even if it is your primary system drive.
+
+Creating bootable USB drive with Ubuntu Startup Disk Creator
 --------------------------------------------------------------------------------
 
 (This is the recommended process for creating a USB. It is applicable to Ubuntu and Ubuntu variants such as OSGeo-Live.)
@@ -36,12 +52,12 @@ Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by 
 
 Insert the USB flash drive into your computer.
 
-  .. image:: ../../images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Select :menuselection:`System Tools --> Startup Disk Creator`, or search for `Startup Disk Creator` from the Unity desktop.
 
-  .. image:: ../../images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Select the osgeo-live or osgeo-live-mini ISO Image that you downloaded earlier.
@@ -50,7 +66,7 @@ Select the USB flash drive. If you have extra room you might adjust the slider t
 
 Select :guilabel:`Make Startup Disk`
 
-  .. image:: ../../images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Wait 20 minutes or so for the USB flash drive to be created.

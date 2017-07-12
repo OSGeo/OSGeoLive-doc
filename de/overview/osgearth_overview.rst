@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osgearth.png
+.. image:: /images/project_logos/logo-osgearth.png
   :alt: project logo
   :align: right
   :target: http://osgearth.org/
@@ -20,7 +20,7 @@ osgEarth unterstützt eine Vielzahl an Datenquellen und wird mit zahlreichen Bei
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: ../../images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/screenshots/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -69,7 +69,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (LGPL) 
 
-**Software Version:** 2.5.0
+**Software Version:** |version-osgearth|
 
 **Unterstützte Plattformen:** Linux, Mac, Windows
 

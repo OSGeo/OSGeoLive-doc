@@ -3,7 +3,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -19,7 +19,7 @@ Jak zacząć
 
 * Pojawi się strona powitalna 52n WPS. 
 
-.. image:: ../../images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
   :scale: 100 %
   :alt: screenshot
   :align: center
@@ -28,7 +28,7 @@ Jak zacząć
 * Upewnij się, że został utuchomiony :doc:`GeoServer <../overview/geoserver_overview>`, ponieważ demonstracja wymaga danych z lokalnej instalacji GeoServera.
 
 
-.. image:: ../../images/screenshots/800x600/52n_test_client.png
+.. image:: /images/screenshots/800x600/52n_test_client.png
   :scale: 100 %
   :alt: screenshot
   :align: center
@@ -37,7 +37,7 @@ Jak zacząć
 * Przycisk Send wyśle zapytanie do 52°North WPS, który wygeneruje
   plik xml bufora wokół głównych dróg Tasmanii, o szerokości 0.05 stopni.
 
-.. image:: ../../images/screenshots/1024x768/52n_wps_response.png
+.. image:: /images/screenshots/1024x768/52n_wps_response.png
   :scale: 100 %
   :alt: screenshot
   :align: center

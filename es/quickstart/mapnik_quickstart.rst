@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
 :Author: Dane Springmeyer
 :Translator: Jorge Sanz
-:Version: osgeo-live4.0
+:Version: osgeo-live10.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -38,32 +38,26 @@ Crear mapas en python es sencillo con Mapnik. Ejecuta `python` en una línea de 
       con el plugin Quantumnik: http://bitbucket.org/springmeyer/quantumnik/
 
 
-Mapnik & OpenLayers
+Mapnik & Leaflet
 --------------------------------------------------------------------------------
 
 Además, hay disponible una aplicación de demostración, que permite usar Mapnik para servir teselas dentro de un mapa OSM usando el esquema de OSM/Google.
 
-La demo usa un servidor de teselas diseñado para Mapnik llamado "TileLite"
+La demo usa un servidor de teselas diseñado para Mapnik llamado "TileStache"  
 
-  * Más información sobre Tilelite: http://bitbucket.org/springmeyer/tilelite/
+  * Más información sobre TileStache: http://tilestache.org/
 
 Para ejecutar la demo simplemente sigue estos pasos:
 
-  #. Haz clic en :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileLite`
+  #. Haz clic en :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileStache`
 
     * El servidor debería arrancar en una ventana de terminal (que se mantiene abierta y muestra información básica de *debug*).
         
-    * Si no se abre la ventana de terminal, entonces prueba a reinstalar TileLite y ejecutar el servidor desde una línea de comandos::
-      
-        $ sudo easy_install tilelite
-        $ liteserv.py /usr/local/share/mapnik/demo/population.xml
+  #. Comprueba que el servidor está funcionando haciendo una petición de tesela al servidor enhttp://localhost:8012/example/0/0/0.png
 
-
-  #. Comprueba que el servidor está funcionando visitando la página de bienvenida de TileLite http://localhost:8012
-
-  #. Entonces puedes visitar la aplicación TileLite OpenLayers "World Population":
+  #. Entonces puedes visitar la página de demostración de Leaflet:
     
-    * La página se encuentra en `http://localhost/mapnik/local.html <../../mapnik/local.html>`_
+    * Esta página está en `http://localhost/leaflet-demo.html <../../../leaflet-demo.html>`_
 
 
 ¿Qué es lo siguiente?

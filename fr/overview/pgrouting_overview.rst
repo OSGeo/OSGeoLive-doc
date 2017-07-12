@@ -1,12 +1,18 @@
 :Author: Daniel Kastl
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 pgRouting
 ================================================================================
@@ -24,7 +30,7 @@ Les avantages de l'approche par routage de la base de données sont :
 
 pgRouting est disponible sous licence GPLv2 et est maintenu par une communauté de particuliers, d'entreprises et d'organisations.
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 70 %
   :alt: requête pgRouting dans pgAdminIII
   :align: right

@@ -1,14 +1,15 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live6.0
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :alt: project logo
   :align: right
   :target: http://mapserver.org/tinyows/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -22,7 +23,7 @@ Web Feature Service
 
 TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or FastCGI interface and using :doc:`PostGIS <postgis_overview>` for data storage.
 
-.. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
+.. image:: /images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right
@@ -52,7 +53,7 @@ Details
 
 **Licence:** MIT
 
-**Software Version:** 1.1.0
+**Software Version:** |version-tinyows|
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 

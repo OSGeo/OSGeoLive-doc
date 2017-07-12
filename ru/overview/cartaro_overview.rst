@@ -4,7 +4,7 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-cartaro.png
+.. image:: /images/project_logos/logo-cartaro.png
   :alt: Логотип проекта
   :align: right
   :target: http://cartaro.org
@@ -18,7 +18,7 @@ Cartaro предоставляет геопространственную фун
 
 Cartaro предназначен как для сайтов, нуждающихся в использовании геопространственных данных, так и для организаций, ищущих простую инфраструктуру пространственных данных с минимальным конфигурированием и программированием.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Главная страница Cartaro
   :align: right

@@ -1,14 +1,15 @@
 :Author: Alan Boudreault, Steve Lime
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :alt: project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -30,7 +31,7 @@ MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/mapserver.png
+.. image:: /images/screenshots/1024x768/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -85,7 +86,15 @@ Implemented Standards
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
-  * :doc:`../standards/wms_overview` (client/server), :doc:`../standards/wfs_overview` (non-transactional, client/server), WMC, :doc:`../standards/wcs_overview`, :doc:`../standards/fe_overview`, :doc:`../standards/sld_overview`, :doc:`../standards/gml_overview`, SOS, OM
+  * :doc:`../standards/wms_overview` (client/server)
+  * :doc:`../standards/wfs_overview` (non-transactional, client/server)
+  * WMC
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
+  * :doc:`../standards/sld_overview`
+  * :doc:`../standards/gml_overview`
+  * SOS
+  * OM
 
 * INSPIRE View Service compliant
 
@@ -97,7 +106,7 @@ Demo
 Documentation
 --------------------------------------------------------------------------------
 
-* `MapServer 7.0 Documentation <../../mapserver/doc/index.html>`_
+* `MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_
 
 Details
 --------------------------------------------------------------------------------
@@ -106,7 +115,7 @@ Details
 
 **Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 7.0.1
+**Software Version:** |version-mapserver|
 
 **Supported Platforms:** Windows, Linux, Mac
 

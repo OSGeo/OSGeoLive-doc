@@ -1,16 +1,21 @@
-:Author: OSGeo-Live 
-:Reviewer: Cameron Shorter, LISAsoft
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: David Mateos
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _otb-overview-es:
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :alt: project logo
   :align: right
   :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 OTB
 ================================================================================
@@ -35,40 +40,37 @@ del Programa de Acompañamiento ORFEO/Pleiades y se desarrolla activamente desde
 Se basa en la biblioteca de procesamiento de imágenes ITK  y se distribuye 
 como código de fuente abierta.
 
-
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg 
-  :scale: 80 %
+.. image:: /images/screenshots/1024x768/otb-mvd3-screenshot.jpg
+  :scale: 50 %
   :alt: screenshot
   :align: right
 
-* acceso a imágenes: acceso lectura/escritura optimizado  para la mayoría de los
-  formatos de imágenes de teledetección, acceso a metadatos y visualización;
-* ortorectificación usando MDE, proyección de mapas y ajuste de modelos de sensores
-* calibración
-* fusión de imágenes
-* filtrado: desenfoque, eliminación de ruido, mejoramiento
-* extracción de características: puntos de interés, alineamientos, líneas;
-* detección de objetos
-* segmentación de imágenes: crecimiento de regiones, transformación divisoria, 
-  valor umbral;
-* clasificación: K-medias, SVM, campos aleatorios de Markov;
-* análisis de imágenes basadas en objetos
-* análisis geoespacial
-* análisis de datos SAR
-* detección de cambios.
+* Acceso a imágenes: acceso lectura/escritura optimizado  para la mayoría de los
+  formatos de imágenes de teledetección, acceso a metadatos y visualización.
+* Ortorectificación usando MDE, proyección de mapas y ajuste de modelos de sensores.
+* Calibración.
+* Fusión de imágenes.
+* Filtrado: desenfoque, eliminación de ruido, mejoramiento.
+* Extracción de características: puntos de interés, alineamientos, líneas.
+* Detección de objetos.
+* Segmentación de imágenes: crecimiento de regiones, transformación divisoria, valor umbral.
+* Clasificación: K-medias, SVM, campos aleatorios de Markov.
+* Análisis de imágenes basadas en objetos.
+* Análisis geoespacial.
+* Análisis de datos SAR.
+* Detección de cambios.
 
 Detalles
 --------------------------------------------------------------------------------
 
 **Sitio Web:** http://www.orfeo-toolbox.org/
 
-**Licencia:** CeCILL (CeCILL es compactible con GPL y mejorado en orientación de 
-  la ley Francesa)
+**Licencia:** CeCILL (CeCILL es compatible con GPL y mejorado en orientación de la ley Francesa)
 
-**Versión de software:** 4.2.1
+**Versión de software:**  |version-otb|
 
 **Plataformas soportadas:** Linux, Mac, Windows
 

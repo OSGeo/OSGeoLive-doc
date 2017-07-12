@@ -1,9 +1,9 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/jts_project.png
+.. image:: /images/project_logos/jts_project.png
   :alt: project logo
   :align: right
 
@@ -16,7 +16,7 @@ JTS Topology Suite (JTS) 拓扑运算函数库
 
 　　JTS 被大量 Java 开源地理信息软件使用，并有 :doc:`geos_overview` 这一 C++ 移植版用于大量 C++ 软件。另有 C# 和 JavaScript 移植。
 
-.. image:: ../../images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/800x600/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right
@@ -50,7 +50,7 @@ JTS Topology Suite (JTS) 拓扑运算函数库
 其它信息
 --------------------------------------------------------------------------------
 
-**官方网站：** http://tsusiatsoftware.net/jts/main.html
+**官方网站：** https://sourceforge.net/projects/jts-topo-suite/
 
 **开源协议：** LGPL
 
@@ -58,5 +58,5 @@ JTS Topology Suite (JTS) 拓扑运算函数库
 
 **接口语言：** Java
 
-**技术支持：** http://tsusiatsoftware.net/jts/main.html
+**技术支持：** https://sourceforge.net/projects/jts-topo-suite/
 

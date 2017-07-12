@@ -1,16 +1,16 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Markus Neteler
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -30,7 +30,7 @@ GRASSはには空間モデル、ラスタおよびベクタデータの視覚化
 さらに、プレゼンテーション用のすばらしい画像の作成、地図の印刷も可能です。
 GRASSは現在20の言語に翻訳されており、多数のデータフォーマットに対応しています。
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
    :scale: 50 %
    :alt: スクリーンショット
    :align: right
@@ -61,7 +61,7 @@ GRASSの開発は30年近く続いており、最も歴史ある、最も巨大�
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 7.0.3
+**ソフトウェアバージョン:** |version-grass|
 
 **対応プラットフォーム:** GNU/Linux、Mac OSX、MS Windows
 

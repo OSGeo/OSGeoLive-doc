@@ -2,19 +2,19 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit
 :Author: Antonio Santiago
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Translator: David Mateos
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
-  :scale: 80 % 
+.. image:: /images/project_logos/logo-OpenLayers.png
+  :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -32,7 +32,7 @@ usa tecnologías de los navegadores modernos como HTML5, WebGL y CSS3.
 
 OpenLayers3 supone una reescritura completa de la biblioteca anterior, OpenLayers2, robusta y ampliamente implementada. Ambas ofrecen un gran conjunto de funcionalidades que cubren los requisitos básicos y avanzados de SIG y mapeo web.
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/800x600/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right
@@ -82,7 +82,7 @@ Detalles
 
 **Licencia:** Licencia BSD de 2 claúsulas (también conocida como licencia *FreeBSD*).
 
-**Versión de Software :** 3.13.1.
+**Versión de Software :** |version-openlayers|.
 
 **API Interface:** JavaScript.
 
@@ -93,5 +93,3 @@ Guía de inicio rápido
 --------------------------------------------------------------------------------
 
 * :doc:`Guia de inicio rápido <../quickstart/openlayers_quickstart>`
-
-

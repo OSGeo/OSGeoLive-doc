@@ -1,9 +1,9 @@
 :Автор: Hamish Bowman
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: Логотип проекта
   :align: right
   :target: http://www.openstreetmap.org
@@ -22,7 +22,7 @@ OpenStreetMap
 Основные возможности
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: Скриншот
   :align: right
@@ -58,7 +58,7 @@ OpenStreetMap
 
 **Версии ПО:**
 
-* JOSM: Последняя стабильная версия (svn r7347)
+* JOSM: Последняя стабильная версия (svn r11427)
 
 * Merkaartor: 1.18.1
 

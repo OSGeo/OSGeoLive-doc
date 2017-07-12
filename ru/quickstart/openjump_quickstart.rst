@@ -40,7 +40,7 @@ openjump.exe или openjump.bat. Для Linux запустите файл oj_li
 Окно проекта содержит список слоёв и Вид карты. Каждая сессия OpenJUMP может содержать множество проектов. 
 Здесь будет рассмотрена работа с одним окном.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_01.png
+.. image:: /images/screenshots/1024x768/openjump_ss_01.png
    :scale: 55 
 
 Открытие шейп-файла
@@ -52,7 +52,7 @@ openjump.exe или openjump.bat. Для Linux запустите файл oj_li
 В данном примере вы подгрузите ESRI Shapefile. Найдите файл с расширением .shp, выберите его и кликните по кнопке [Finish] в диалоговом окне. Через некоторое время вы сможете увидеть данные в Виде слоёв. 
 Вы также увидите новый слой, созданный из ваших данных, в списке слоёв. Имя слоя будет соответствовать имени шейп-файла.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_02.png
+.. image:: /images/screenshots/1024x768/openjump_ss_02.png
    :scale: 55 
 
 Другой, более быстрый способ — перетащить нужный шейп-файл прямо в Вид карты.
@@ -68,10 +68,10 @@ openjump.exe или openjump.bat. Для Linux запустите файл oj_li
 
 * Пользователи MacOS X  должны нажать кнопку :guilabel:`Apple`, чтобы попасть в это меню. 
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_03.png
+.. image:: /images/screenshots/1024x768/openjump_ss_03.png
    :scale: 55 
    
-.. image:: ../../images/screenshots/1024x768/openjump_ss_04.png
+.. image:: /images/screenshots/1024x768/openjump_ss_04.png
    :scale: 55 
 
 Редактирование геометрии слоя
@@ -81,10 +81,10 @@ openjump.exe или openjump.bat. Для Linux запустите файл oj_li
 В меню "Редактирование" поставьте флажок возле пункта меню "Editable". 
 Справа над Видом слоёв появится плавающая панель с набором кнопок, позволяющих редактировать геометрию объектов.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_05.png
+.. image:: /images/screenshots/1024x768/openjump_ss_05.png
    :scale: 55 
    
-.. image:: ../../images/screenshots/1024x768/openjump_ss_06.png
+.. image:: /images/screenshots/1024x768/openjump_ss_06.png
    :scale: 55 
 
 Давайте попробуем быстро отредактировать объект, выбрав его, а затем перестив одну из точек этого объекта.
@@ -92,19 +92,19 @@ openjump.exe или openjump.bat. Для Linux запустите файл oj_li
 Используйте её, чтобы выбирать объект в один клик в Виде слоёв.
 После этого объект будет выделен жёлтым цветом с небольшими желтыми квадратами возле каждой точки (вершины) геометрии объекта.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_07.png
+.. image:: /images/screenshots/1024x768/openjump_ss_07.png
    :scale: 55 
 
 Далее кликните по кнопке в виде прицела с желтым квадратом посередине :guilabel:`Move Vertex Tool`.
 (Проведите мышкой над кнопками, чтобы увидеть всплывающую подсказку).
 Указатель мыши сменится на небольшой прицел, когда вы будете проводить им над Видом слоя.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_08.png
+.. image:: /images/screenshots/1024x768/openjump_ss_08.png
    :scale: 55 
 
 Используя этот инструмент, попробуйте переместить вершину выбранной геометрии, кликая на ней и перетягивая её с зажатой левой клавишей мыши.
 
-.. image:: ../../images/screenshots/1024x768/openjump_ss_09.png
+.. image:: /images/screenshots/1024x768/openjump_ss_09.png
    :scale: 55 
    
 Другие источники для обучения OpenJUMP

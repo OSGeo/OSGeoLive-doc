@@ -3,11 +3,17 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-mapfish.png
+.. image:: /images/project_logos/logo-mapfish.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.mapfish.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************

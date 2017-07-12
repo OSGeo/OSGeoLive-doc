@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-viking.png
+.. image:: /images/project_logos/logo-viking.png
   :alt: project logo
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
@@ -26,7 +26,7 @@ Współpracuje z danymi OpenStreetMap oraz wieloma usługami serwującymi dane w
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
+.. image:: /images/screenshots/1024x768/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

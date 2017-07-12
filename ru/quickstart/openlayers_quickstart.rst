@@ -6,6 +6,18 @@
 Начало работы с OpenLayers
 ********************************************************************************
 
+.. image:: /images/project_logos/logo-OpenLayers.png
+  :scale: 80 %
+  :alt: project logo
+  :align: right
+  :target: http://openlayers.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 Примеры работы с OpenLayers
 --------------------------------------------------------------------------------
 Пожалуй, самым быстрым способом разобраться с тем, как работает OpenLayers,

@@ -1,19 +1,19 @@
 ﻿:Author: Ian Turton
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: логотип проекта
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Проект OSGeo
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 GeoServer
 ================================================================================
@@ -33,7 +33,7 @@ GeoServer — это эталонная реализация стандарто�
 а также высокопроизводительная сертифицированная реализация :doc:`../standards/wms_overview`. GeoServer является основным
 компонентом Geospatial Web.
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Скриншот GeoServer
   :align: right
@@ -89,7 +89,7 @@ GeoServer — это эталонная реализация стандарто�
 Подробности
 --------------------------------------------------------------------------------
 
-**Веб-сайт:** http://geoserver.org/display/GEOS/Welcome
+**Веб-сайт:** http://geoserver.org/
 
 **Лицензия:** `GPL версия 2 <http://www.gnu.org/licenses/gpl-2.0.html>`_
 
@@ -99,7 +99,7 @@ GeoServer — это эталонная реализация стандарто�
 
 **Интерфейсы API:** WMS, WFS, WCS, REST
 
-**Поддержка:** http://geoserver.org/display/GEOS/Commercial+Support
+**Поддержка:** http://geoserver.org/support/
 
 Начало работы
 --------------------------------------------------------------------------------

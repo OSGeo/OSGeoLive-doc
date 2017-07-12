@@ -1,7 +1,7 @@
 :Author: OSGeo-Live
 :Author: Cameron Shorter, Hamish Bowman
 :Translator: Luca Delucchi
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -36,13 +36,13 @@ Esecuzione:
   Altrimenti dovrete aggiustare le impostazioni di avvio all'interno del BIOS premendo il pulsante
   del menu di boot appena acceso il computer.
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_boot.png
+  .. image:: /images/screenshots/800x600/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
   Aspettate mentre il sistema si avvia
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_menu.png
+  .. image:: /images/screenshots/800x600/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 

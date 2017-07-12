@@ -1,10 +1,10 @@
 :Author: 
 :Author: Massimo Di Stefano, Brian M Hamlin
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ipnb.png
+.. image:: /images/project_logos/logo-ipnb.png
   :alt: Логотип проекта
   :align: right
   :target: http://ipython.org/notebook.html
@@ -15,7 +15,7 @@ IPython Notebook
 Встраивание разнообразных медиа-данных в презентации
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/ipython-notebook1.png
+.. image:: /images/screenshots/800x600/ipython-notebook1.png
   :scale: 100 %
   :alt: Скриншот
   :align: right

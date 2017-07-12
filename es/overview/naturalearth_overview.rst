@@ -1,12 +1,13 @@
-:Author: OSGeo Live
+:Author: OSGeo-Live
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Mauricio Pazos
 :Translator: Javi Sanchez
 :Verson: osgeo-live6.5
-:License: Creative Commons
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _naturalearth-overview-es:
 
-.. image:: ../../images/project_logos/logo-naturalearth.png
+.. image:: /images/project_logos/logo-naturalearth.png
   :alt: project logo
   :align: right
   :target: http://www.naturalearthdata.com/
@@ -22,7 +23,7 @@ Natural Earth proporciona a cartógrafos una solución lista para ser usada para
 
 Natural Earth resuelve el problema común al que se enfrentan muchos cartógrafos: la búsqueda de datos vectoriales para mapas de alta calidad a pequeña escala al nivel de detalle adecuado.
 
-.. image:: ../../images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right
@@ -57,9 +58,9 @@ Detalles
 
 **Licencia:** Ninguna, los datos son de dominio público.
 
-**Versión de los datos:** 2.0
+**Versión de los datos:** 2.0.
 
-**Formato de los datos:** SHP y TIF+TFW
+**Formato de los datos:** SHP y TIF+TFW.
 
 **Sistema de coordenadas:** WGS84.
 

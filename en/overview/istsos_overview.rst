@@ -1,18 +1,18 @@
 :Author: Massimiliano Cannata, Milan Antonovic, SUPSI
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-istsos.png
+.. image:: /images/project_logos/logo-istsos.png
   :alt: project logo
   :align: right
   :target: http://istsos.org
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100 %
-  :alt: OSGeo Project
+  :alt: OSGeo Community Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 istSOS
@@ -23,7 +23,7 @@ Data Management Tool
 
 istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` standard.
 
-.. image:: ../../images/screenshots/1024x768/screenshot_istsos.png
+.. image:: /images/screenshots/1024x768/screenshot_istsos.png
   :scale: 60 %
   :alt: data viewer
   :align: right
@@ -54,7 +54,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.3.0
+**Software Version:** |version-istsos|
 
 **Supported Platforms:** Linux, Unix, Mac, Windows
 

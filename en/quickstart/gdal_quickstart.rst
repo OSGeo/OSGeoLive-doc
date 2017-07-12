@@ -1,12 +1,19 @@
 :Author: Astrid Emde, material from Frank Warmedam's RasterTutorial
-:Version: osgeo-live6.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://gdal.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -17,7 +24,7 @@ You will need nothing but a terminal for this quickstart. If you want to
 visualize the results, you can use one of the Desktop GIS Software
 applications on OSGeo-Live like :doc:`../overview/qgis_overview`. 
 
-This Quick Start is devided in two parts GDAL (raster data) and OGR
+This Quick Start is divided into two parts: GDAL (raster data) and OGR
 (vector data). We will start with GDAL.
 
 This Quick Start describes how to:
@@ -34,6 +41,7 @@ OGR
   * get information about your data with ogrinfo 
   * use ogr2ogr to transform your data to other formats
  
+.. contents:: Contents
 
 Get to know GDAL
 ================================================================================
@@ -55,7 +63,7 @@ You will then find a NaturalEarth Raster file and a .tfw World-file at:
  ls /home/user/gdal_natural_earth/HYP_50M_SR_W.*
 
 
-.. tip:: Open the file with a Desktop GIS like QGIS. And have a look.
+.. tip:: Open the file with a Desktop GIS like QGIS, and have a look.
 
 Get information about the raster data with gdalinfo
 ================================================================================
@@ -179,26 +187,26 @@ the path to the file.
 Have a look at your output shapefile with QGIS and ogrinfo (you
 will learn more about ogrinfo later in this tutorial)
 
-  .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
 
 ::
 
-  ogrinfo ../HYP_50M_SR_W/ index
-  INFO: Open of `../HYP_50M_SR_W/'
+  ogrinfo index_natural_earth.shp index_natural_earth
+  INFO: Open of `index_natural_earth.shp'
       using driver `ESRI Shapefile' successful.
 
-  Layer name: index
+  Layer name: index_natural_earth
   Geometry: Polygon
   Feature Count: 2
   Extent: (-180.000000, -90.000000) - (180.000000, 90.000000)
   Layer SRS WKT: (unknown)
   location: String (255.0)
-  OGRFeature(index):0
+  OGRFeature(index_natural_earth):0
     location (String) = east.tif
     POLYGON ((-0.00000000001796 90.0,179.999999999964047 90.0,179.999999999964047 -89.999999999982009,-0.00000000001796 -89.999999999982009,-0.00000000001796 90.0))
 
-  OGRFeature(index):1
+  OGRFeature(index_natural_earth):1
     location (String) = west.tif
     POLYGON ((-179.999999999999972 90.0,-0.00000000001796 90.0,-0.00000000001796 -89.999999999982009,-179.999999999999972 -89.999999999982009,-179.999999999999972 90.0))
   
@@ -224,7 +232,7 @@ the WGS84 geographic image to the Mercator projection:
 
 Use gdalinfo to verify the change and have a look at the image.
 
-  .. image:: ../../images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
 Here we reproject to the Ortho projection.  
@@ -234,7 +242,7 @@ Here we reproject to the Ortho projection.
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: ../../images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
 Note how the poles are clipped?  This is because the edges at the pole
@@ -269,10 +277,10 @@ Get to know OGR
 
 :: 
   
-  cd /home/usr/gdal_natural_earth/
+  cd /home/user/gdal_natural_earth/
 
 
-.. tip:: Open the shape file with a Desktop GIS like QGIS. And have a look.
+.. tip:: Open the shape file with a Desktop GIS like QGIS, and have a look.
 
 
 Get information about the vector data with ogrinfo
@@ -447,10 +455,10 @@ GDAL Project home
 
   http://www.gdal.org
 
-All about OGR
-
-  http://gdal.org/ogr/index.html
-
-GDAL Tutorial
+GDAL Raster Tutorial
 
   http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial
+
+GDAL Workshop
+
+  http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html

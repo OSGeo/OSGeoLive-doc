@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org
@@ -42,7 +42,7 @@ well as between R and the modern commercial version of S, TIBCO
 Spotfire S+. This makes it possible to convert different
 versions of S code to run on R without major code modifications.
 
-.. image:: ../../images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -69,7 +69,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 3.2.1
+**Software Version:** |version-R|
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 

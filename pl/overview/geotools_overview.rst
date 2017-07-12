@@ -4,23 +4,23 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 GeoTools jest otwartą (LGPL) biblioteką Java, która dostarcza zgodnych ze sandardami metod do przetwarzania danych geoprzestrzennych. Używa ona struktur danych opartych o specyfikacje Open Geospatial Consortium (OGC).
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
@@ -33,7 +33,7 @@ Główne funkcje
 
 * Definition of interfaces for key spatial concepts and data structures
   
-  * Integrated Geometry support provided by `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Integrated Geometry support provided by `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Attribute and spatial filters using OGC Filter Encoding specification
   
 * A clean data access API supporting feature access, transaction support and locking between threads
@@ -59,7 +59,7 @@ Główne funkcje
 
   * Provide additional capabilities built using the spatial facilites of the core library.
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
   * Extensions provide graph and networking support (for finding the shortest path), validation, a web map server client, bindings for xml parsing and encoding and color brewer.

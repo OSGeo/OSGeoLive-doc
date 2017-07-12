@@ -1,7 +1,7 @@
 Sponsors de OSGeo-Live
 ================================================================================
 
-.. image:: ../images/logos/OSGeo_compass_with_text_square.png
+.. image:: /images/logos/OSGeo_compass_with_text_square.png
   :alt: OSGeo
   :target: http://www.osgeo.org
 
@@ -9,14 +9,14 @@ La fondation OSGeo (Open Source Geospatial) fournit l'infrastructure principale
 d'hébergement et de développement ainsi que du personnel pour le projet mais aussi
 pour beaucoup d'équipes de développement qui contribue à celui-ci.
 
-.. image:: ../images/logos/lisasoftlogo.jpg
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+.. image:: /images/logos/jirotechlogo.jpg
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft fournit des ressources et du personnel pour gérer et packager les
+Jirotech fournit des ressources et du personnel pour gérer et packager les
 logiciels pour créer le DVD OSGeo-Live.
 
-.. image:: ../images/logos/ucd_ice_logo.png
+.. image:: /images/logos/ucd_ice_logo.png
   :alt: Centre d'Informations pour l'Environnement de l'Université de Californie, Davis
   :target: http://ice.ucdavis.edu
 
@@ -24,14 +24,14 @@ Centre d'Informations pour l'Environnement de l'Université de Californie,
 Davis fournit des ressources matérielles et du support de développement pour le projet
 OSGeo-Live.
 
-.. image:: ../images/logos/ntua_logo.jpg
+.. image:: /images/logos/ntua_logo.jpg
   :scale: 40 %
   :alt: National Technical University of Athens
   :target: http://www.ntua.gr/index_en.html
 
 Le Laboratoire de Télédétection à l'Université Technique d'Athènes, fournit des ressources matérielles et un support de développement pour le projet OSGeo-Live.
 
-.. image:: ../images/logos/debiangis_mollweide.png
+.. image:: /images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
   :target: http://wiki.debian.org/DebianGis
@@ -39,12 +39,12 @@ Le Laboratoire de Télédétection à l'Université Technique d'Athènes, fourni
 Les projets DebianGIS et UbuntuGIS fournissent et vérifient la qualité de nombreux 
 paquets principaux.
 
-.. image:: ../images/logos/OSDM_stacked.png
+.. image:: /images/logos/OSDM_stacked.png
   :alt: Le bureau du gouvernement australien de gestion des données spatiales
   :target: http://www.osdm.gov.au
 
 Le bureau du gouvernement Australien de gestion des données spatiales a sponsorisé
-la relecture par LISAsoft des vues d'ensemble logicielles, pour assurer une écriture
+la relecture par Jirotech des vues d'ensemble logicielles, pour assurer une écriture
 plus consistante et pertinente de la description des projets.
 
 .. include :: sponsors_osgeo.rst

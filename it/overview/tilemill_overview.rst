@@ -1,11 +1,11 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-tilemill.png
+.. image:: /images/project_logos/logo-tilemill.png
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -30,7 +30,7 @@ Tilemill fa uso della libreria di restituzione di mappe :doc:`Mapnik <mapnik_ove
 
 Tilemill è tipicamente usato insieme con software GIS desktop (come QuantumGIS) per preparare i dati, e editor grafici (come GIMP) per creare icone, patterns e tessiture.
 
-.. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
+.. image:: /images/screenshots/1024x768/tilemill_interface2.png
   :scale: 50 %
   :alt: TilleMill user interface
   :align: right

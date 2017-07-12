@@ -1,12 +1,19 @@
 :Author: Oliver Tonnhofer
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live9.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 MapProxy
 ================================================================================
@@ -14,7 +21,7 @@ MapProxy
 Proxy WMS & tile services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -27,7 +34,7 @@ MapProxy is flexible and scales from simple to complex use-cases: from a single 
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/800x600/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %
@@ -103,7 +110,7 @@ Details
 
 **Licence:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
 
-**Software Version:** 1.8.0
+**Software Version:** |version-mapproxy|
 
 **Supported Platforms:** Linux, Mac, Windows
 

@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org
@@ -28,7 +28,7 @@ SAGA has been in development since 2001, and the centre of SAGA development is
 located in the Institute of Geography at the University of Hamburg, with
 contributions from the growing world wide community.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

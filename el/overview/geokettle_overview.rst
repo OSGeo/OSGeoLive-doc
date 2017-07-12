@@ -1,9 +1,9 @@
 :Author: Thierry Badard 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/
@@ -22,7 +22,7 @@ GeoKettle
 
 Στο χώρο των χωρικών εφαρμογών, το Geokettle συγκρίνεται με το FME, ένα κλειστό εργαλείο χωρικής διαχείρισης και ενοποίησης δεδομένων που υποστηρίζεται από την Safe Software. Το GeoKettle είναι σταθερό, γρήγορο, συμβατό με πρότυπα, με εκατοντάδες λειτουργίες για είσοδο/έξοδο σε πολλά πρότυπα αρχείων, υπηρεσιών και βάσεων δεδομένων. Το GeoKettle χρησιμοποιείται από διάφορους οργανισμούς σε όλο τον κόσμο, περιλαμβανομένων κυβερνητικών οργανισμών, τραπεζών, και εταιρειών ασφάλειας και ενσωμάτωσης γεωχωρικών πληροφοριών.
 
-.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

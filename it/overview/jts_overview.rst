@@ -1,10 +1,10 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/jts_project.png
+.. image:: /images/project_logos/jts_project.png
   :alt: project logo
   :align: right
 
@@ -24,7 +24,7 @@ JTS è utilizzata per lo più dalle applicazioni geospaziale libere basate su ja
 e :doc:`geos_overview`, che è un port C++ di JTS, è usata per lo più dalle
 applicazioni basate su C. Port addizionali sono disponibili per C# e JavaScript.
 
-.. image:: ../../images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/800x600/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right
@@ -58,7 +58,7 @@ Standards implementati
 Dettagli
 --------------------------------------------------------------------------------
 
-**Sito web:** http://tsusiatsoftware.net/jts/main.html
+**Sito web:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licenza:** LGPL
 
@@ -66,4 +66,4 @@ Dettagli
 
 **Interfacce API:** Java
 
-**Supporto:** http://tsusiatsoftware.net/jts/main.html
+**Supporto:** https://sourceforge.net/projects/jts-topo-suite/

@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org
@@ -29,7 +29,7 @@ SAGA
 τοποθετημένο στο Ινστιτούτο Γεωγραφίας στο Πανεπιστήμιο του Αμβούργου, με συνεισφορά από 
 μια μεγάλη παγκόσμια κοινότητα προγραμματιστών.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

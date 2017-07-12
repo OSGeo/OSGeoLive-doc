@@ -1,14 +1,14 @@
 ﻿:Author: Trevor Wekel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -27,7 +27,7 @@ MapGuide包括了一个XML数据库用以管理内容，支持用户使用Maestr
 
 MapGuide可以部署在Linux或Windows上，支持Apache和IIS服务器，提供众多的PHP, .NET, Java和JavaScript等API接口以支持应用程序开发。MapGuide Open Source版权是LGPL。
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

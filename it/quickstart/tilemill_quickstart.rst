@@ -5,7 +5,7 @@
 :Thanks: tutorial from Ivan Sánchez Ortega and Pedro Ferrer Matoses from Spanish OSGeo Chapter
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-tilemill.png
+.. image:: /images/project_logos/logo-tilemill.png
   :scale: 75 %
   :alt: project logo
   :align: right
@@ -33,18 +33,18 @@ Creare un progetto
 
 1. Avviare TileMill e cliccare sul bottone “New project” nella schermata principale.
 
-.. image:: ../../images/screenshots/1024x768/tilemill_newproject.png
+.. image:: /images/screenshots/1024x768/tilemill_newproject.png
    :scale: 70 %
 
 .. Writing Tip:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
 
 2- Inserire i seguenti dati nel form, e cliccare “Add”:
 
-.. image:: ../../images/screenshots/1024x768/tilemill_projectinfo.png
+.. image:: /images/screenshots/1024x768/tilemill_projectinfo.png
    :scale: 70 %
 
 
@@ -73,9 +73,9 @@ o con gli strumenti di ogni desktop GIS con la connessione PostGIS, come QGIS o 
 ( |LAYER|) e premere sul bottone '+ Add layer'. Nel form 'Add layer', per prima cosa si
 seleziona la tipologia dei dati, PostGIS:
 
-.. |LAYER| image:: ../../images/screenshots/1024x768/tilemill_layerbtn.png
+.. |LAYER| image:: /images/screenshots/1024x768/tilemill_layerbtn.png
 
-.. image:: ../../images/screenshots/1024x768/tilemill_addpostgis.png
+.. image:: /images/screenshots/1024x768/tilemill_addpostgis.png
    :scale: 70 %
 
 2. Aggiungere il layer strade da PostGIS, inseriti i seguenti dati, e cliccare su 'Save & Style':
@@ -135,9 +135,9 @@ Al fine di impostare i valori predefiniti per l'area di lavoro, si clicchi il bo
 Ora è possibile centrare l'area di lavoro, e impostare il punto centrale. È anche possibile digitare
 i valori del centro e i del perimetro direttamente nel form.
 
-.. |TOOLS| image:: ../../images/screenshots/1024x768/tilemill_confbtn.png
+.. |TOOLS| image:: /images/screenshots/1024x768/tilemill_confbtn.png
 
-.. image:: ../../images/screenshots/1024x768/tilemill_project_settings.png
+.. image:: /images/screenshots/1024x768/tilemill_project_settings.png
    :scale: 70 %
 
 Impostare lo stile dei dati
@@ -233,7 +233,7 @@ Questo è il nostro codice dopo aver cambiato alcuni i valori di alcuni stili e 
 
 
 
-.. image:: ../../images/screenshots/1024x768/tilemill_customizedview.png
+.. image:: /images/screenshots/1024x768/tilemill_customizedview.png
    :scale: 70 %
 
 Tooltips
@@ -245,7 +245,7 @@ revealing dati, immagini, e altri contenuti addizionali.
 
 1. Aprire il pannello Templates cliccando sul bottone pointer in basso a sinistra ( |POINTER| )
 
-.. |POINTER| image:: ../../images/screenshots/1024x768/tilemill_pointerbtn.png
+.. |POINTER| image:: /images/screenshots/1024x768/tilemill_pointerbtn.png
 
 2. Cliccare sul pannello “Teaser”. Il contenuto Teaser appare quando si passa con il mouse su
    un elemento e il contenuto completo appare quando si clicca su un elemento. È possibile utilizzare
@@ -264,14 +264,14 @@ revealing dati, immagini, e altri contenuti addizionali.
 	Type:{{{amenity}}}<br/>
 	Name:{{{name}}}
 
-.. image:: ../../images/screenshots/1024x768/tilemill_teaser_frm.png
+.. image:: /images/screenshots/1024x768/tilemill_teaser_frm.png
    :scale: 70 %
 
 6. Cliccare “Save” per salvare le impostazioni e ricaricare la mappa. Chiudere il pannello cliccando
    sul bottone chiudi (X) o premendo il tasto ESC. Muovere il mouse sopra alcuni punti per vedere il tooltips.
 
 
-.. image:: ../../images/screenshots/1024x768/tilemill_tooltip.png
+.. image:: /images/screenshots/1024x768/tilemill_tooltip.png
    :scale: 70 %
 
 
@@ -291,12 +291,12 @@ Aggiungere una legenda che descrive il tema della mappa.
 
 	<strong>OSGeo Live TileMill Quick Start</strong><br/>Points locate different amenities in Nottingham</br>
 
-.. image:: ../../images/screenshots/1024x768/tilemill_legend_text.png
+.. image:: /images/screenshots/1024x768/tilemill_legend_text.png
    :scale: 70 %
 
 #. Cliccare salva e chiudere il pannello. Ora vedrete la legenda nell'angolo in basso a destra della mappa.
 
-.. image:: ../../images/screenshots/1024x768/tilemill_legend.png
+.. image:: /images/screenshots/1024x768/tilemill_legend.png
    :scale: 70 %
 
 
@@ -324,7 +324,7 @@ Se si vuole esportare in MBTiles:
    Questo salverà un copia del file localmente in una directory selezionata
 
 
-.. image:: ../../images/screenshots/1024x768/tilemill_viewexports.png
+.. image:: /images/screenshots/1024x768/tilemill_viewexports.png
    :scale: 70 %
 
 È possibile ritornare alla pagina di benvenuto in qualsiasi momemto selezionando
@@ -351,7 +351,7 @@ Questo è solo il primo step sulla strada per l'utilizzo di TileMill. C'è molto
 
 * Ottenere maggiore aiuto dall'ambiente, cliccare sul bottone help (|HELP|)
 
-.. |HELP| image:: ../../images/screenshots/1024x768/tilemill_helpbtn.png
+.. |HELP| image:: /images/screenshots/1024x768/tilemill_helpbtn.png
 
 * Imparare di più sul linguaggio cartocss nella `Documentazione delle API <http://mapbox.com/carto/api/2.1.0/>`_
 

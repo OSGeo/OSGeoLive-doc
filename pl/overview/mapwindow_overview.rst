@@ -5,7 +5,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-MapWindow.png
+.. image:: /images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
   :align: right
   :width: 220
@@ -25,7 +25,7 @@ MapWindow is easy to incorporate into MS-Office based products such as MS-Excel 
 
 .. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be downloaded from http://mapwindow4.codeplex.com/releases.
    
-.. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
+.. image:: /images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right

@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-mb-system.png
+.. image:: /images/project_logos/logo-mb-system.png
   :alt: project logo
   :align: right
   :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
@@ -30,7 +30,7 @@ MB-System развивается с 1993 года с активной подде
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

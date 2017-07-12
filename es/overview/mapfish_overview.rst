@@ -1,17 +1,17 @@
 :Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Aitor Freire Astray
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapfish.png
+.. image:: /images/project_logos/logo-mapfish.png
   :alt: project logo
   :align: right
   :target: http://www.mapfish.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -37,7 +37,7 @@ entorno de pruebas para JavaScript y herramientas para comprimir el código Java
 La caja de herramientas JavaScript está compuesta por los kits de herramientas
 `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` y `GeoExt <http://www.geoext.org>`_ JavaScript.
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
+.. image:: /images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

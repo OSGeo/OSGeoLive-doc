@@ -1,16 +1,16 @@
 :Author: Trevor Wekel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas (a.munyoz.b@gmail.com)
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -29,7 +29,7 @@ MapGuide inclou suport XML per a la gestió de continguts. Permet editar la base
 
 MapGuide es pot implementar en Linux o Windows, així com en els servidors web Apache i Microsoft IIS, i es pot estendre amb PHP, .NET, Java i les APIs JavaScript per al desenvolupament d'aplicacions. La llicència de MapGuide Open Source és LGPL.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

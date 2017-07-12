@@ -1,14 +1,17 @@
-:Author: Johannes Wilden, Markus Schneider, Danilo Bretschneider
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Author: Johannes Wilden
+:Author: Markus Schneider
+:Author: Danilo Bretschneider
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -22,12 +25,13 @@ Web Services
 
 deegree provides geospatial webservices based upon `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ and `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ specifications. deegree supports:
 
+* `Web Feature Services (WFS) <http://www.opengeospatial.org/standards/wfs>`_: Serves vector data from geospatial data
 * `Web Map Services (WMS) <http://www.opengeospatial.org/standards/wms>`_: Serves maps rendered from geospatial data
 * `Web Map Tile Services (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Serves pre-rendered map tiles
 * `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services
 * `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Executes geospatial processes
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
   :scale: 55 %
   :alt: TBD
   :align: right

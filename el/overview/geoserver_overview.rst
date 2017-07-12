@@ -1,21 +1,21 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _geoserver-overview-el:
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoServer
 ================================================================================
@@ -25,7 +25,7 @@ GeoServer
 
 Ο GeoServer είναι ένας διαδικτυακός εξυπηρετητής που επιτρέπει την δημοσίευση χαρτών και χωρικών δεδομένων από πληθώρα προτύπων σε λογισμικά πελάτες όπως οι περιηγητές διαδικτύου και τα λογισμικά GIS. Τα δεδομένα δημοσιεύονται μέσω ανοιχτών διεπαφών όπως τα WMS, WFS, WCS, WPS, Tile Caching κλπ. Ο GeoServer προσφέρει μια διαδικτυακή εφαρμογή για την παραμετροποίηση των υπηρεσιών και την διασύνδεση τους με πολλές πηγές δεδομένων.
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right
@@ -78,7 +78,7 @@ GeoServer
 Λεπτομέρειες
 --------------------------------------------------------------------------------
 
-**Αρχική Ιστοσελίδα:** http://geoserver.org/display/GEOS/Welcome
+**Αρχική Ιστοσελίδα:** http://geoserver.org/
 
 **Άδεια:** GNU General Public License (GPL) version 2
 
@@ -88,7 +88,7 @@ GeoServer
 
 **Προγραμματιστικές διεπαφές:** WMS, WFS, WCS, REST
 
-**Υποστήριξη:** http://geoserver.org/display/GEOS/Commercial+Support
+**Υποστήριξη:** http://geoserver.org/support/
 
 
 

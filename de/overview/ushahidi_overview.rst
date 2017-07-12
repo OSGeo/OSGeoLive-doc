@@ -1,9 +1,9 @@
 :Author: Henry Addo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: Project Logo
   :align: right
   :target: http://www.ushahidi.com
@@ -16,7 +16,7 @@ Kartenerstellung und Zeitachse für Ereignisse
 
 `Ushahidi <http://www.ushahidi.com/>`_ ist eine freie Open Source Plattform, die es erlaubt, verteilte Daten via SMS, Email oder Internet zusammenzutragen, und diese auf einer Landkarte oder einer Zeitachse darzustellen. Unser Ziel ist es, Werkzeuge zu erstellen für die freie Verbreitung von Informationen und größere Transparenz, und es dem Einzelnen zu erleichtern, persönliche Geschichten mitzuteilen.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right
@@ -58,7 +58,7 @@ Details
 
 **Lizenz:** GNU Lesser General Public License (GPL) version 3
 
-**Software Version:** 2.7.4 (Bamako)
+**Software Version:** |version-ushahidi|
 
 **API Schnittstellen:** PHP
 

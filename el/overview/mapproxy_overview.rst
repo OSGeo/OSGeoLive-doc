@@ -1,13 +1,19 @@
 :Author: Oliver Tonnhofer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 MapProxy
 ================================================================================
@@ -22,7 +28,7 @@ MapProxy
 
 Μερικά πραγματικά παραδείγματα: Ο MapProxy χρησιμοποιείται για την Γερμανική Χαρτογραφική Υπηρεσία για να σερβίρει χάρτες σε χιλιάδες χρήστες όσο πιο γρήγορα είναι δυνατόν, καθώς επίσης χρησιμοποιείται και από την Γερμανική Υπηρεσία Χαρτογραφίας και Γεωδαισίας για να συνδυάζει υπηρεσίες WMS από τις 16 πολιτείες.
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -30,7 +36,7 @@ MapProxy
 Χαρακτηριστικά του MapProxy
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/800x600/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

@@ -1,9 +1,9 @@
 ﻿:Author: Klokan Petr Pridal
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapslicer.png
+.. image:: /images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
   :target: https://wiki.osgeo.org/wiki/MapSlicer

@@ -1,19 +1,19 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :alt: project logo
   :align: right
   :target: http://edu.kde.org/marble/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 
 Marble
@@ -31,7 +31,7 @@ Google Earth. Εκτός από τη δυνατότητα επισκόπησης
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/marble-history.png
+.. image:: /images/screenshots/1024x768/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-libLAS.png
+.. image:: /images/project_logos/logo-libLAS.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -24,7 +24,7 @@ The libLAS 'command-line utilities' provide the bulk of
 user-facing operational software for libLAS, although the underlying libLAS 
 library is what powers them.  Below is a listing of common operations that 
 you might want to do on LAS data, and the utilities and approaches to 
-take to complete those tasks.
+take to complete those tasks. The demo data can be found in :file:`/home/user/data/las/srs.las`
 
 Reprojecting an LAS file
 ..............................................................................
@@ -136,7 +136,7 @@ Output LAS file to text
 .. _`LLVM`: http://llvm.org/
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
 .. _`Boost`: http://www.boost.org/
-.. _`DebianGIS`: http://wiki.debian.org/DebianGis
+.. _`DebianGIS`: https://wiki.debian.org/DebianGis
 .. _`gdal_translate`: http://www.gdal.org/gdal_translate.html
 .. _`EPSG`: http://www.epsg-registry.org/
 .. _`EPSG:4326`: http://spatialreference.org/ref/epsg/4326/

@@ -1,9 +1,9 @@
 :Author: Gavin Treadgold
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-sahana-eden.png
+.. image:: /images/project_logos/logo-sahana-eden.png
   :alt: project logo
   :align: right
   :target: http://www.sahanafoundation.org
@@ -30,7 +30,7 @@ re-write as a generic disaster management tools was incubated with
 the sponsorship of the Swedish International Development Agency, IBM, the US National Science Foundation and it has been used by 
 dozens of Governments and NGOs since then.
 
-.. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: /images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right
@@ -63,7 +63,7 @@ Details
 
 **Licence:** MIT License
 
-**Software Version:** Latest trunk
+**Software Version:** |version-sahana|
 
 **Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows
 

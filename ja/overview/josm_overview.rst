@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-josm.png
+.. image:: /images/project_logos/logo-josm.png
   :alt: project logo
   :align: right
   :target: http://josm.openstreetmap.de
@@ -22,9 +22,7 @@ GPXトラックは、通常、GPS受信機または他のソースから事前�
 
 JOSMのために記述された特殊なプラグインのいくつかは、ダウンロードしてインストールが可能です。
 
-A number of specialised plugins have been written for JSOM, which are available for download and install.
-
-.. image:: ../../images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right
@@ -53,7 +51,7 @@ A number of specialised plugins have been written for JSOM, which are available 
 
   * ノード：マージ、結合、引き離し、分割、円の整列、線の整列、ウェイへのノードの結合、ほか。
   * ウェイ：分割、結合、簡素化、ウェイの引き離し、ほか。
-  * エリア：重複するエリアの結合、ルチポリゴンを作成、ほか。
+  * エリア：重複するエリアの結合、マルチポリゴンを作成、ほか。
 
 * 音声マッピング：調査記録の管理。
 
@@ -65,17 +63,17 @@ A number of specialised plugins have been written for JSOM, which are available 
 標準規格
 --------------------------------------------------------------------------------
 
-* JOSMはWMSレイヤーの閲覧し、 `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>` _ を使用してOSMデータベースと通信します。
+* JOSMはWMSレイヤーを閲覧し、 `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_ を使用してOSMデータベースと通信します。
 
 
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://http://josm.openstreetmap.de/
+**ウェブサイト:** https://josm.openstreetmap.de/
 
 **ライセンス:** GNU General Public License (GPL) バージョン2。ノート: JOSMプラグインは他のライセンスで利用されます。
 
-**ソフトウェアバージョン:** r7347
+**ソフトウェアバージョン:** r11427
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

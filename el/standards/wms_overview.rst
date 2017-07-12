@@ -3,12 +3,12 @@
 
 .. _wms-overview-el:
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -18,7 +18,7 @@ Web Map Service (WMS)
 
 Το πρότυπο Web Map Service του OGC παρέχει μια απλή διεπαφή προτοκόλου HTTP για την αίτηση και λήψη γεωαναφερμένων εικόνων χαρτών από μια ή περισσότερες κατανεμημένες βάσεις χωρικών δεδομένων. Η απάντηση του εξυπηρετητή στο αίτημα από τον εκάστοτε χρήστη είναι μια ή περισσότερες εικόνες (στη μορφή JPEG, PNG, κλπ) που μπορούν να απεικονιστούν εύκολα σε κάποιο περιηγητή αλλά και σε τοπικές εφαρμογές στην επιφάνεια εργασίας. (http://www.opengeospatial.org/standards/wms) 
 
-.. image:: ../../images/standards/wms.jpg
+.. image:: /images/standards/wms.jpg
   :scale: 55%
   :alt: WMS in Context
 

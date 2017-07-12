@@ -1,10 +1,10 @@
 :Author: darkblueb
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Takayuki Nuimura
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-iris.png
+.. image:: /images/project_logos/logo-iris.png
   :alt: Iris project logo
   :align: right
   :target: http://scitools.org.uk/iris/
@@ -20,7 +20,7 @@ Iris は気象や海洋データの解析及び可視化するための Python �
 
 現在のところ Iris は、(CF-)netCDF, GRIB, そして PP形式などの様々なデータ形式の読み込み/書き出しに対応しています。
 
-.. image:: ../../images/screenshots/800x600/iris.jpg
+.. image:: /images/screenshots/800x600/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %
@@ -39,9 +39,9 @@ Iris は気象や海洋データの解析及び可視化するための Python �
 
 **ライセンス:** LGPLv3
 
-**ソフトウェアバージョン:** 1.6.1
+**ソフトウェアバージョン:** |version-iris|
 
-**サポートされるプラットフォーム:** クロスプラットフォームのPython-- Mac OS X, Windows, そして Linux
+**対応プラットフォーム:** クロスプラットフォームのPython-- Mac OS X, Windows, そして Linux
 
 **API インターフェイス:** Python
 

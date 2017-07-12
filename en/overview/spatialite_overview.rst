@@ -1,9 +1,10 @@
 :Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live9.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-spatialite.png
+.. image:: /images/project_logos/logo-spatialite.png
   :alt: project logo
   :align: right
   :target: http://www.gaia-gis.it/gaia-sins/
@@ -21,7 +22,7 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: ../../images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -57,7 +58,7 @@ Details
 
 **Licence:** MPL v1.1 and GPL v3
 
-**Software Version:** 4.3.0
+**Software Version:** |version-spatialite|
 
 **Supported Platforms:** Linux, Mac, Windows
 

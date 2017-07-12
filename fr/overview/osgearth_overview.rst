@@ -1,9 +1,9 @@
 ﻿:Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osgearth.png
+.. image:: /images/project_logos/logo-osgearth.png
   :alt: project logo
   :align: right
   :target: http://osgearth.org/
@@ -20,7 +20,7 @@ osgEarth supporte tous les types de données et il est fournit avec un grand nom
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: ../../images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/screenshots/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

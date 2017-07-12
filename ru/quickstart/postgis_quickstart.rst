@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -19,11 +19,17 @@
     * Do some SQL queries on the dataset
     * Use QGis to view data from PostGIS (using the existing Natural Earth data). We should be able to keep most of the existing QGis sections
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.net
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Введение в PostGIS 
@@ -301,14 +307,14 @@ EPSG:4326.
  Natural Earth в PostGIS уже определены в выпадающем меню *Соединения*. Там же вы можете создать новое подключение к серверу и хранить настройки для быстрого доступа. Нажмите ``Edit``, если хотите увидеть, какие параметры указаны для данных Natural Earth,
  или нажмите ``Connect``, чтобы продолжить:
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50 %
   :alt: Connect to Natural Earth
   :align: center
 
 Появится список пространственных таблиц базы данных:
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
   :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
@@ -316,7 +322,7 @@ EPSG:4326.
 Выберите озёра ("Lakes") и нажмите ``Add`` внизу (не ``Load`` вверху, которая подгрузит параметры подключения базы данных),
 после чего слой откроется в QGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -337,7 +343,7 @@ EPSG:4326.
 новую версию из репозитория (для этого вам потребуется работающее интернет-соединение). 
 Найдите ``PostGIS Manager`` и нажмите кнопку ``Install plugin``.
 
-.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+.. image:: /images/screenshots/1024x768/postgis_getmanager.png
   :scale: 50 %
   :alt: Fetch PostGIS Manager Plugin
   :align: center
@@ -351,7 +357,7 @@ EPSG:4326.
 Для примера был выбран слой "Населённые пункты", карта была приближена к произвольному месту.
 
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
   :alt: PostGIS Manager Preview
   :align: center
@@ -363,14 +369,14 @@ EPSG:4326.
 Из меню ``Data`` выберите опцию ``Load data from shapefile``.  Нажмите кнопку
 ``...`` и загрузите шейп-файл ``sids.shp`` в пакет R ``maptools`` (находится здесь: /usr/local/lib/R/site-library/)::
 
-.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+.. image:: /images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Find the shapefile
   :align: center
 
 Не изменяя настроек в появившемся окне, нажмите  ``Load``:
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
   :alt: Import a shapefile
   :align: center
@@ -381,7 +387,7 @@ EPSG:4326.
 Изменив порядок слоёв и заливок, вы сможете создать фоновую картограмму (хороплет), 
 отображающую количество детей, умерших от синдрома внезапной смерти в Северной Каролине.
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
   :scale: 50 %
   :alt: SIDS data mapped
   :align: center
@@ -394,7 +400,7 @@ EPSG:4326.
 чтобы сделать запрос или изменить атрибутивную информацию в базе данных. 
 Это официальный клиент для PostgreSQL, позволяющий использовать SQL для управления таблицами данных.
 
-.. image:: ../../images/screenshots/1024x768/postgis_pgadmin_main_window.png
+.. image:: /images/screenshots/1024x768/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -406,7 +412,7 @@ EPSG:4326.
 После того, как соединение установлено, вы можете видеть список имеющихся баз
 данных.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen0.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -422,7 +428,7 @@ EPSG:4326.
 ``public``. Перемещаясь по структуре и раскрывая пункты (``Tables``), вы можете видеть все таблицы, которые содержит эта схема.
 
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -445,7 +451,7 @@ pgAdmin III имеет возможность выполнения запрос�
 После этого нажмите на зелёную кнопку со стрелкой, указывающей вправо
 («выполнить запрос»).
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

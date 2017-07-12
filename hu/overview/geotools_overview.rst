@@ -1,19 +1,19 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: projekt logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
@@ -23,7 +23,7 @@ megfelelő eljárásokat biztosít a térinformatikai adatok kezeléséhez és a
 Open Geospatial Consortium (OGC) specifikációin alapuló adatszerkezeteket 
 használ.
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: A GeoTools egy moduláris könyvtár, bővítő modulokkal további formátumokhoz
   :align: right
@@ -38,7 +38,7 @@ Alapfunkciók
 
 * Interfész definíció a kulcsfontosságú térbeli fogalmakhoz és adatstruktúrákhoz
 
-  * A `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>` által biztosított integrált geometria
+  * A `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>` által biztosított integrált geometria
   * Attribútum és térbeli szűrők az OGC Filter Encoding specifikáció felhasználásával
 
 * Egy világos adathozzáférési API az elemek eléréséhez, tranzakció támogatás és a szálak közötti zárolás
@@ -64,7 +64,7 @@ Alapfunkciók
 
   * További képességeket biztosít a mag könyvtár funkcióinak felhasználásával. 
 
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: A GeoTools könyvtárral készült bővítmény
 
   * Bővítmények biztosítják a gráf és a hálózatkezelést (lerövidebb útvonal keresés), az ellenőrzést, egy térkép szerver klienst, az xml értelmezéshez és kódoláshoz kötéseket és a színkezelést.

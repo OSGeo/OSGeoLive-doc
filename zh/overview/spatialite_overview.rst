@@ -1,9 +1,9 @@
 ﻿:Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-spatialite.png
+.. image:: /images/project_logos/logo-spatialite.png
   :alt: project logo
   :align: right
   :target: http://www.gaia-gis.it/spatialite/
@@ -23,7 +23,7 @@ SQLite是一个深受欢迎的数据库管理系统，具有简单、稳定、�
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: ../../images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

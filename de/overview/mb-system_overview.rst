@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-mb-system.png
+.. image:: /images/project_logos/logo-mb-system.png
   :alt: project logo
   :align: right
   :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
@@ -29,7 +29,7 @@ MB-System wird seit 1993 durch aktive Unterstützung einiger Forschungs- und Wis
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right
@@ -58,7 +58,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) Version 3
 
-**Software Version:** 5.4.2191
+**Software Version:** |version-mb-system|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows (mit Cygwin)
 

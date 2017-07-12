@@ -44,7 +44,7 @@ OGC и служит в качестве полезного ресурса для
 общие классы сервисов, которые принимают участие в различной деятельности по геообработке и 
 определению местоположения.
 
-.. figure:: ../../images/standards/publish_find_bind.jpg
+.. figure:: /images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Web services framework of OGC geoprocessing standards
 

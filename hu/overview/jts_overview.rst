@@ -1,10 +1,10 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/jts_project.png
+.. image:: /images/project_logos/jts_project.png
   :alt: projekt logo
   :align: right
 
@@ -25,7 +25,7 @@ használja, a :doc:`geos_overview`, mely a JTS egy C++ átírása, melyet a
 legtöbb C alapú alkalmazás használ. További átírások érhetők el C# és
 JavaScript nyelvekhez.
 
-.. image:: ../../images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/800x600/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right
@@ -59,7 +59,7 @@ Implementált szabványok
 Részletek
 --------------------------------------------------------------------------------
 
-**Honlap:** http://tsusiatsoftware.net/jts/main.html
+**Honlap:** https://sourceforge.net/projects/jts-topo-suite/
 
 **Licenc:** LGPL
 
@@ -67,4 +67,4 @@ Részletek
 
 **API Interfészek:** Java
 
-**Támogatás:** http://tsusiatsoftware.net/jts/main.html
+**Támogatás:** https://sourceforge.net/projects/jts-topo-suite/

@@ -1,14 +1,14 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: логотип проекта
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: Проект OSGeo
   :align: right
@@ -24,7 +24,7 @@ QGIS Server реализует WMS-сервис, используя те же б
 Карты и шаблоны для печати, созданные в настольной ГИС QGIS, могут быть опубликованы в веб простым копированием файла проекта в директорию сервера. В результате веб-карты выглядят так же, как и в настольном приложении.
 QGIS Server обычно работает как CGI/FastCGI модуль веб-сервера Apache.
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: снимок экрана QGIS Mapserver
   :align: right

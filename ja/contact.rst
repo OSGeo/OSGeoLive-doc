@@ -8,8 +8,7 @@ OSGeo-Live の開発は、emailやインターネット・チャット (IRC)  �
 もし何か質問やコメント、または動作で問題があれば `私たちのメーリングリスト <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ にその内容を投稿してください 。
 
 メーリングリストの記事検索は
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ と
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ でホストされています。
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ でホストされています。
 
 IRCユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネル でのリアルタイムによる支援をお試しください。
 
@@ -19,13 +18,13 @@ IRCユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネ�
 商用サポート
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft は、 Live DVD の構築と同様に、それに含まれる多くのアプリケーションに対して商用サポートを提供しています。
-詳細はこちら: http://lisasoft.com
+Jirotech は、 Live DVD の構築と同様に、それに含まれる多くのアプリケーションに対して商用サポートを提供しています。
+詳細はこちら: http://jirotech.com
 
 同包されているほとんどのアプリケーションは、コミュニティと商用サポートの両方を提供しています。その詳細については、 :doc:`Contents <./overview/overview>` からリンクされている個々のアプリケーションの説明を参照してください。
 

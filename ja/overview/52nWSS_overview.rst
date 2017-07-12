@@ -1,9 +1,9 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/security
@@ -30,7 +30,7 @@
 そのため、既に動作しているサービスに手を加える必要はありません。方針とユーザーは一般的な管理インターフェースで設定する
 XML の設定ファイルで設定を行います。
 
-.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Screenshot of WSS Management UI
   :align: right

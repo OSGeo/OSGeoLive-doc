@@ -1,25 +1,25 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 GeoTools は Open Geospatial Consortium (OGC)の標準に準拠した空間データの操作やデータ構造の利用するための標準に準拠したオープンソース(LGPL) のJavaライブラリです.
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools は追加フォーマットをプラグインでサポートできるモジュール構造ライブラリです
   :align: right
@@ -32,7 +32,7 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 
 * キー空間コンセプトへのインターフェースとデータ構造の定義
   
-  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ によって行われています
+  * 統合されたジオメトリのサポートは `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ によって行われています
   * 属性と空間条件によるフィルタリングは OGC Filter Encoding specificationを利用しています
   
 * クリーンデータアクセス API 使うと地物のアクセスやスレッド中でのロックをサポートするトランザクションを利用できます
@@ -58,7 +58,7 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 
   * コアライブラリの空間機能を使ってビルドに追加機能を提供します.
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: GeoTools ライブラリを使ってエクステンションをビルドします
 
   * エクステンションとしてグラフ,ネットワーキングサポート(最短経路検索のため), 検証, ウェッブマップサーバクライアント, xml構文解析とエンコーディング,色の調整機能等を提供できます.

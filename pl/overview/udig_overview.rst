@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :alt: udig logo
   :align: right
   :target: http://udig.refractions.net/
@@ -15,7 +15,7 @@ User-friendly Desktop Internet GIS (uDig)
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/1024x768/udig-overview.png
   :scale: 50
   :alt: udig workshop
   :align: right
@@ -48,7 +48,7 @@ Główne funkcje
 * Printing and PDF Generation
 * For Developers
   
-  * Java Application built using the :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Java Application built using the :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Industrial strength plug-in system provided by Eclipse Rich Client Platform 
   * Use of native widgets
 

@@ -1,10 +1,10 @@
 :Author: Henry Addo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Marco Curreli
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
@@ -23,7 +23,7 @@ di Ushahidi è quello di creare strumenti per democratizzare
 l'informazione, accrescere la trasparenza e ridurre gli ostacoli alla
 condivisione delle esperienze personali di singoli individui.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

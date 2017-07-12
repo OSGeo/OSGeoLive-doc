@@ -1,11 +1,11 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 : Translator: Astrid Emde
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-josm.png
+.. image:: /images/project_logos/logo-josm.png
   :alt: project logo
   :align: right
   :target: http://josm.openstreetmap.de
@@ -24,7 +24,7 @@ GPX Tracks werden in der Regel im Vorfeld über einen GPS Empfänger oder andere
 
 Es wurde einige spezialisierte Plugins für JOSM geschreiben. Diese stehen zum Download.
 
-.. image:: ../../images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right
@@ -71,11 +71,11 @@ Unterstützte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://josm.openstreetmap.de/
+**Webseite:** https://josm.openstreetmap.de/
 
 **Lizenz:** GNU General Public License (GPL) Version 2. Hinweis: JOSM Plugins könnten andere Lizenzen verwenden.
 
-**Software Version:** r7347
+**Software Version:** r11427
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

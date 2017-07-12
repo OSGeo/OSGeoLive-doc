@@ -1,10 +1,11 @@
 :Author: Johan Van de Wauw
 :Author: Vladimir Agafonkin
 :Reviewer: Cameron Shorter
-:Version: osgeo-live8.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-leaflet.png 
+.. image:: /images/project_logos/logo-leaflet.png 
   :alt: project logo
   :align: right
   :target: http://leafletjs.com
@@ -16,7 +17,7 @@ Browser/Mobile Map Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: ../../images/screenshots/1024x768/leaflet-overview.png
+.. image:: /images/screenshots/1024x768/leaflet-overview.png
   :scale: 50
   :alt: leaflet
   :align: right
@@ -97,7 +98,7 @@ Details
 
 **Licence:** BSD
 
-**Software Version:** 0.7.3
+**Software Version:** |version-leaflet|
 
 **Supported Platforms:** Windows, Mac, Linux, Android, iOS
 

@@ -1,15 +1,16 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live5.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -23,9 +24,11 @@ Web Service
 
 GeoServer is a web server that allows you to serve maps and data from
 a variety of formats to standard clients such as web browsers and desktop
-GIS programs. Data is published via standards based interfaces, such as WMS, WFS, WCS, WPS, Tile Caching and more.  GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end.
+GIS programs. Data is published via standards based interfaces, such as WMS,
+WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based
+management interface and connects to multiple data sources at the back end.
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right
@@ -38,7 +41,7 @@ Core Features
         - Shapefiles, External WFS
         - PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server
     * Raster
-        - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster
+        - GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image Mosaic, Oracle GeoRaster, NetCDF
 
 **Data is served as safe and quick images using WMS and WMTS protocols:**
     As the data is served up as an image your data is completely safe and secure. Unless they redigitise your data there is no way to steal your data.
@@ -78,17 +81,17 @@ Support of numerous Open Geospatial Consortium  (OGC) standards:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://geoserver.org/display/GEOS/Welcome
+**Website:** http://geoserver.org/
 
 **Licence:** GNU General Public License (GPL) version 2
 
 **Software Version:** |version-geoserver|
 
-**Supported Platforms:** Cross Platform Java 6 - Windows, Linux, Mac
+**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, and Mac
 
 **API Interfaces:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/display/GEOS/Commercial+Support
+**Support:** http://geoserver.org/support/
 
 Quickstart
 --------------------------------------------------------------------------------

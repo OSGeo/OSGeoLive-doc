@@ -1,19 +1,19 @@
 :Author: Frank Warmerdam
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GEOS.png
+.. image:: /images/project_logos/logo-GEOS.png
   :alt: project logo
   :align: right
   :target: http://geos.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GEOS
 ================================================================================
@@ -21,7 +21,7 @@ GEOS
 空间信息处理函数库
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-　　GEOS (Geometry Engine - Open Source) 是 `JTS 拓扑学工具箱 <http://tsusiatsoftware.net/jts/main.html>`_ 的 C++ 接口。它具备了 OpenGIS 标准的空间对象操作能力及 JTS 所提供的增强的拓扑运算功能。
+　　GEOS (Geometry Engine - Open Source) 是 `JTS 拓扑学工具箱 <https://sourceforge.net/projects/jts-topo-suite/>`_ 的 C++ 接口。它具备了 OpenGIS 标准的空间对象操作能力及 JTS 所提供的增强的拓扑运算功能。
 
 　　GEOS 是目前应用最为广泛的 C++ 地理空间集合函数库。它被用于 :doc:`PostGIS <postgis_overview>` 、:doc:`QGIS <qgis_overview>` 、:doc:`GDAL/OGR <gdal_overview>` 、:doc:`MapServer <mapserver_overview>` 等开源软件以及 `FME <http://www.safe.com/fme/fme-technology/>`_ 等私有软件。
 

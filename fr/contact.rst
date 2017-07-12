@@ -12,8 +12,7 @@ problème, merci de nous envoyer un message sur `notre liste de diffusion
 <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Des archives avec fonctionnalité de recherche de la liste de diffusion sont
-hébergées par `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ et
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+hébergées par `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 Les utilisateurs IRC peuvent essayer le chan #osgeolive ou #osgeo sur Freenode.net
 pour une assistance en ligne en temps-réel.
@@ -24,14 +23,14 @@ et un `système de suivi des bugs et des demandes <https://trac.osgeo.org/osgeo/
 Support commercial
 ================================================================================
 
-.. image:: ../images/logos/lisasoftlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
-  :alt: LISAsoft
-  :target: http://lisasoft.com
+  :alt: Jirotech
+  :target: http://jirotech.com
 
-LISAsoft fournit le support commercial pour la construction du Live DVD, ainsi
+Jirotech fournit le support commercial pour la construction du Live DVD, ainsi
 que pour de nombreuses applications qui sont packagées dedans.
-Plus de détails sur: http://lisasoft.com
+Plus de détails sur: http://jirotech.com
 
 La plupart des applications packagées ont à la fois un support communautaire et
 commercial pour elles. Référez-vous aux descriptions spécifiques aux applications

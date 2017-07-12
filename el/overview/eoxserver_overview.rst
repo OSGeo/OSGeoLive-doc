@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver-2.png
+.. image:: /images/project_logos/logo-eoxserver-2.png
   :alt: project logo
   :align: right
   :target: http://eoxserver.org/
@@ -26,7 +26,7 @@ EOxServer
   Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4, :doc:`SpatiaLite <spatialite_overview>` ή 
   :doc:`PostGIS <postgis_overview>`
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right

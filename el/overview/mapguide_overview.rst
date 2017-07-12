@@ -1,16 +1,16 @@
 :Author: Trevor Wekel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -27,7 +27,7 @@ MapGuide Open Source
 
 Το MapGuide μπορεί να εγκατασταθεί σε περιβάλλον Linux ή Windows, υποστηρίζει τους εξυπηρετητές Apache και IIS, και παρέχει εκτεταμένη υποστήριξη για τις γλώσσες PHP, .NET, Java, και JavaScript για την ανάπτυξη εφαρμογών. Το MapGuide Open Source διατίθεται υπό την άδεια LGPL.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

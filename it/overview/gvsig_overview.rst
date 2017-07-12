@@ -1,22 +1,22 @@
 :Author: Jorge Sanz
 :Author: Manuel Madrid
 :Author: Mario Carrera
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Antonio Falciano
 :Translator: Luca Delucchi
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
   :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 gvSIG Desktop
@@ -45,7 +45,7 @@ gvSIG è noto per:
 * è disponibile per i sistemi operativi Windows, Linux (esistono anche versioni
   non ufficiali per Mac OS X):
 
-.. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -1,14 +1,14 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -24,7 +24,7 @@ QGIS Server stellt einen Web Map Service (WMS) auf Basis von Bibliotheken der So
 Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-Anwendung einfach als WMS bereitgestellt werden können, indem die QGIS Projektdatei in das entsprechende Serververzeichnis kopiert werden. Dabei sieht die Karte im Internet genauso aus, wie auf dem Desktop.
 QGIS Server läuft in der Regel als CGI/FastCGI Modul innerhalb des Apache Webservers.
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -55,7 +55,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 2.14.0
+**Software Version:** |version-qgis_mapserver|
 
 **Unterstützte Plattformen:** Windows, Linux
 

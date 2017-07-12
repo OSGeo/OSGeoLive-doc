@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Jorge Arévalo
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :alt: project logo
   :align: right
   :target: http://www.tinyows.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -23,7 +23,7 @@ Web Feature Service
 
 TinyOWS es un WFS transaccional (WFS-T) de alto rendimiento, ligero y sencillo de desplegar, mediante interfaz CGI o FastCGI y usando :doc:`PostGIS <postgis_overview>` para el almacenamiento de datos.
 
-.. image:: ../../images/screenshots/800x600/tinyows_digitizing.jpg
+.. image:: /images/screenshots/800x600/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

@@ -2,9 +2,10 @@
 :Author: Astrid Emde
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
-:Version: osgeo-live9.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD Cameron Review Comment:
@@ -20,11 +21,17 @@
     * Do some SQL queries on the dataset
     * Use QGis to view data from PostGIS (using the existing Natural Earth data). We should be able to keep most of the existing QGis sections
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.net
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 PostGIS Quickstart
@@ -37,7 +44,7 @@ describing the additional spatial functionality provided by PostGIS.
 
 This Quick Start describes how to:
 
-  * Create and query a spatial database from the command line and :doc:`Quantum GIS <../overview/qgis_overview>` graphical client.
+  * Create and query a spatial database from the command line and :doc:`QGIS <../overview/qgis_overview>` graphical client.
   * Manage data from the ``pgAdmin`` client.
 
 
@@ -137,8 +144,22 @@ Next, add PostGIS extension:
 
  demo=# create extension postgis;
 
+ 
+To verify you have postgis now installed, run the following query:
 
-To check this has worked, type ``\dt`` to list the
+::
+	
+	demo=# SELECT postgis_version();
+	
+	           postgis_version
+	---------------------------------------
+	 2.3 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+	(1 row)
+
+	
+PostGIS installs many functions, a table, and several views
+
+Type ``\dt`` to list the
 tables in the database. You should see something like this:
 
 ::
@@ -150,7 +171,8 @@ tables in the database. You should see something like this:
    public | spatial_ref_sys  | table | user
   (1 row)
 
-That table is used by PostGIS. The ``spatial_ref_sys`` table stores information
+The ``spatial_ref_sys`` table is used by PostGIS for converting between different spatial reference systems. 
+The ``spatial_ref_sys`` table stores information
 on valid spatial reference systems, and we can use some SQL to have a quick look:
 
 ::
@@ -171,8 +193,43 @@ on valid spatial reference systems, and we can use some SQL to have a quick look
    4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
   (10 rows)
 
-This confirms we have a spatially-enabled database. The ``geometry_columns`` view has the 
-job of telling PostGIS which tables are spatially-enabled. This is the next step.
+This confirms we have a spatially-enabled database. 
+
+In addition to this table, you'll find several views created when you enable postgis in your database.
+
+Type ``\dv`` to list the
+views in the database. You should see something like this:
+
+::
+	
+	demo=# \dv
+									List of relations
+	 Schema |       Name        | Type |  Owner
+	--------+-------------------+------+----------
+	 public | geography_columns | view | postgres
+	 public | geometry_columns  | view | postgres
+	 public | raster_columns    | view | postgres
+	 public | raster_overviews  | view | postgres
+	(4 rows)
+
+PostGIS supports several spatial data types:
+
+	`geometry` - is a data type that stores data as vectors drawn on a flat surface
+	
+	`geography` - is a data type that stores data as vectors drawn on a spheroidal surface
+	
+	`raster` - is a data type that stores data as an n-dimensional matrix where each position (pixel) represents 
+		an area of space, and each band (dimension) has a value for each pixel space.
+		
+The ``geometry_columns``, ``geography_columns``, and ``raster_columns`` views have the 
+job of telling PostGIS which tables have PostGIS geometry, geography, and raster columns.
+
+Overviews are lower resolution tables for raster data. 
+The ``raster_overviews`` lists such tables and their raster column and the table each is an overview for.
+Raster overview tables are used by tools such as QGIS to provide lower resolution versions of raster data for faster loading.
+
+PostGIS geometry type is the first and still most popular type used by PostGIS users.
+We'll be focussing our attention on that type.
 
 
 
@@ -189,7 +246,7 @@ one for the city name, and another for the geometry column:
 
   demo=# CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );
 
-Conventionally this geometry column is called
+Conventionally this geometry column is named
 ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry
 each feature has (points, lines, polygons etc), how many dimensions
 (in this case, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
@@ -310,14 +367,14 @@ You are now back to system console:
 
 ::
 
-user@osgeolive:~$
+    user@osgeolive:~$
 
 Mapping
 ================================================================================
 
 To produce a map from PostGIS data, you need a client that can get at the data. Most 
 of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we'll
-show you how to make a map from Quantum GIS.
+show you how to make a map from QGIS.
 
 Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
 parameters for connecting to the OpenStreetMap data in PostGIS is already defined in the Connections
@@ -325,15 +382,15 @@ drop-down menu. You can define new server connections here, and store the settin
 recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
 hit ``Connect`` to continue:
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
+  :scale: 75 %
   :alt: Connect to Natural Earth
   :align: center
 
 You will now get a list of the spatial tables in the database:
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
+  :scale: 75 %
   :alt: Natural Earth Layers
   :align: center
 
@@ -341,8 +398,8 @@ Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load`` at the
 top - that loads database connection parameters), and it should be
 loaded into QGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
+  :scale: 75 %
   :alt: My First PostGIS layer
   :align: center
 
@@ -364,8 +421,8 @@ the password blank if it asks. In the public item, there is the list of the laye
 tables from the database and use the tabs on the right find out about them. The Preview tab
 will show you a little map.
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
+  :scale: 75 %
   :alt: QGIS Manager Preview
   :align: center
 
@@ -375,17 +432,17 @@ of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
-(located in /usr/lib/R/site-library/maptools/shapes/):
+(located in /usr/lib/R/site-library/spdep/etc/shapes/):
 
-.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_browsedata.png
+  :scale: 75 %
   :alt: Find the shapefile
   :align: center
 
 Leave everything else as it is and hit ``Load``
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
+  :scale: 75 %
   :alt: Import a shapefile
   :align: center
 
@@ -396,8 +453,8 @@ Now load the SIDS data into the map using the 'Add PostGIS Layer'
 option. With a bit of rearranging of the layers and some colouring, you should be able to produce
 a choropleth map of the sudden infant death syndrome counts in North Carolina:
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
+  :scale: 75 %
   :alt: SIDS data mapped
   :align: center
 
@@ -411,7 +468,7 @@ You can use the graphical database client ``pgAdmin III`` from the Databases men
 is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
 from the Databases folder, existing on the OSGeo Live Desktop.
 
-.. image:: ../../images/screenshots/1024x768/postgis_pgadmin_main_window.png
+.. image:: /images/screenshots/1024x768/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -422,8 +479,8 @@ In this case, we are going to connect to the predefined ``local`` server.
 
 After connection established, you can see the list of the databases already existing in the system.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen0.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_adminscreen0.png
+  :scale: 75 %
   :alt: pgAdmin III
   :align: center
 
@@ -440,8 +497,8 @@ Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
 ``Tables``, you can see all the tables contained within this schema.
 
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
+  :scale: 75 %
   :alt: pgAdmin III
   :align: center
 
@@ -465,8 +522,8 @@ on the text editor of the SQL Window):
 
 Afterwards, you should press the green arrow button, pointing to the right (execute query).
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
-  :scale: 50 %
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
+  :scale: 75 %
   :alt: pgAdmin III
   :align: center
   
@@ -481,6 +538,11 @@ Here are some additional challenges for you to try:
 #. Export your tables to shapefiles with ``pgsql2shp`` on the command line.
 
 #. Try ``ogr2ogr`` on the command line to import/export data to your database.
+
+#. Try to import data with ``shp2pgsql`` on the command line to your database.
+
+#. Try to do road routing using :doc:`../overview/pgrouting_overview`.
+
 
 
 What Next?

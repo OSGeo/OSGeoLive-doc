@@ -5,12 +5,12 @@
 .. _kml-overview-el:
 
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -21,7 +21,7 @@ KML Encoding Standard (KML)
 
 Το πρότυπο κωδικοποίησης KML του OGC είναι μια γλώσσα XML που επικεντρώνεται στην οπτικοποίηση γεωγραφικής πληροφορίας, συμπεριλαμβανομένων σημειώσεων πάνω στους χάρτες και τις εικόνες. Η γεωγραφική οπτικοποίηση περιλαμβάνει όχι μόνο την παρουσίαση γραφικών δεδομένων πάνω στην υδρόγειο, αλλά επίσης τον έλεγχο της πλοήγησης του χρήστη με την έννοια του που να πάει και που να κοιτάξει για ότι ψάχνει. (http://www.opengeospatial.org/standards/KML)
 
-.. image:: ../../images/standards/kml.jpg
+.. image:: /images/standards/kml.jpg
   :scale: 55%
   :alt: KML in Context
 

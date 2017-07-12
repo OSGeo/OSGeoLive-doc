@@ -1,21 +1,21 @@
 :Author: Jorge Sanz 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Reconeixement 3.0 No adaptada (CC BY 3.0)
 
 .. _gvsig-overview-ca:
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
   :target: http://www.gvsig.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 gvSIG Desktop
@@ -38,7 +38,7 @@ A gvSIG se'l coneix per:
 * està disponible en més de 20 idiomes (Espanyol, Anglès, Alemany, Francès, Italià,...).
 * estar disponible per Windows, Linux i Mac OS X.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

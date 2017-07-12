@@ -1,9 +1,9 @@
 :Автор: Hamish Bowman
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gpsdrive.png
+.. image:: /images/project_logos/logo-gpsdrive.png
   :alt: Логотип проекта
   :align: right
   :target: http://www.gpsdrive.de
@@ -20,7 +20,7 @@ GPS-навигация
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: /images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: Внешний вид
   :align: right

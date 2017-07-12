@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Margherita Di Leo
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -23,7 +23,7 @@ Catalogo per i metadati
 
 GeoNetwork OpenSource è una applicazione di catalogo per la gestione delle risorse spazialmente georiferite. Esso fornisce potenti funzioni per la modifica e la  ricerca dei metadati, un visualizzatore di mappe web interattivo integrato, e si basa su standard aperti.
 
-.. image:: ../../images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
+.. image:: /images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
   :scale: 150 px
   :alt: project logo
   :align: right

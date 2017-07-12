@@ -1,18 +1,18 @@
 :Author: OSGeo-Live
 :Author: Hamish Bowman
 :Author: Eric Lemoine
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Author: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapfish.png
+.. image:: /images/project_logos/logo-mapfish.png
   :alt: project logo
   :align: right
   :target: http://www.mapfish.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -38,7 +38,7 @@ MapFish també proporciona un conjunt complet d'eines JavaScript orientat a Apli
 un entorn de proves JavaScript, i eines per comprimir el codi JavaScript. Aquest `toolbox` JavaScript està compost 
 de les eines `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` i `GeoExt <http://www.geoext.org>`_.
 
-.. image:: ../../images/screenshots/800x600/mapfish-screenshot.jpg
+.. image:: /images/screenshots/800x600/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -4,7 +4,7 @@
 
 
 
-.. image:: ../../images/project_logos/logoNasaWWW.png
+.. image:: /images/project_logos/logoNasaWWW.png
   :alt: project logo
   :align: right
   :target: http://webworldwind.org/
@@ -19,7 +19,7 @@ ___________
 
 Web World Wind is a 3D virtual globe API for HTML5 and JavaScript. Web pages include Web World Wind to provide one or more virtual globes on that page.
 
-It’s very easy to get started using Web World Wind. There’s nothing to download. You simply include a short script in an HTML page, as in this example: ::
+It's very easy to get started using Web World Wind. There's nothing to download. You simply include a short script in an HTML page, as in this example: ::
 
  <!DOCTYPE html>
  <!-- This is a very simple example of using Web World Wind. -->
@@ -80,4 +80,4 @@ Opening: ::
 
 you will find more Examples along all the source files
 
-| Web World Wind provides much more functionality than is available in this simple example. The Examples page illustrates much of that functionality in simple examples. The Developer’s Guide describes Web World Wind’s functionality in detail. The Deployments page explains how to deploy Web World Wind at  your own web site.
+| Web World Wind provides much more functionality than is available in this simple example. The Examples page illustrates much of that functionality in simple examples. The Developer's Guide describes Web World Wind's functionality in detail. The Deployments page explains how to deploy Web World Wind at  your own web site.

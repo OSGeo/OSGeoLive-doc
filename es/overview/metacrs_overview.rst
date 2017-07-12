@@ -1,20 +1,20 @@
 :Author: OSGeo-Live
 :Author: Mike Adair
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Diego González
-:Version: osgeo-live6.5
+:Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
+.. (no logo) .. image:: /images/project_logos/logo-GDAL.png
 ..  :alt: project logo
 ..  :align: right
 ..  :target: http://trac.osgeo.org/metacrs/wiki
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 MetaCRS
 ================================================================================
@@ -22,7 +22,7 @@ MetaCRS
 Transformaciones entre sistemas de referencia de coordenadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/project_logos/logo-metacrs.png
+.. image:: /images/project_logos/logo-metacrs.png
   :alt: map projection example
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki
@@ -33,7 +33,7 @@ Las librerías MetaCRS se incluyen en otros proyectos y algunas también están 
 
 Los subproyectos que están englobados dentro de MetaCRS son:
 
-* PROJ.4 (C++) - se usa en :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGrCoordinateTransformation y varios más.
+* PROJ.4 (C++) - se usa en :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation y varios más.
 * Proj4js (JavaScript) - se usa en :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - se usa en MapGuide.
 * GeoTIFF/libgeotiff (C++).
@@ -62,7 +62,7 @@ PROJ.4
   
   **Licencia:** `Licencia de código fuente libre de estilo X/MIT <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Versión del software:** 4.7.0
+  **Versión del software:** 4.8.0
   
   **Plataformas soportadas:** Windows, Linux, Mac
   
@@ -77,26 +77,22 @@ Proj4js
   
   **Licencia:** `Licencia de código fuente libre de estilo X/MIT <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
-  **Versión del software:** 1.1.0
+  **Plataformas soportadas:** Windows, Linux, Mac.
   
-  **Plataformas soportadas:** Windows, Linux, Mac
-  
-  **Interfaces API:** JavaScript
+  **Interfaces API:** JavaScript.
   
   **Soporte:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
 CS-Map
 --------------------------------------------------------------------------------
 
-  **Sitio web:**  http://proj4js.org
+  **Sitio web:**  http://trac.osgeo.org/csmap/
   
-  **Licencia:** `custom <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
+  **Licencia:** `personalizada <http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_
+    
+  **Plataformas en las que corre:** Windows, Linux, Mac.
   
-  **Versión del software:** 13.0
-  
-  **Plataformas en las que corre:** Windows, Linux, Mac
-  
-  **Interfaces API:** C, C++
+  **Interfaces API:** C, C++.
 
   **Soporte:** http://lists.osgeo.org/mailman/listinfo/MetaCRS
 
@@ -116,13 +112,11 @@ Proj4J
 
   **Sitio web:**  http://trac.osgeo.org/proj4j/
   
-  **Licencia:** `Licencia Apache, Versión 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
+  **Licencia:** `Licencia Apache, Versión 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
   
-  **Versión del software:** 
+  **Plataformas en las que corre:** Windows, Linux, Mac.
   
-  **Plataformas en las que corre:** Windows, Linux, Mac
-  
-  **Interfaces API:** Java
+  **Interfaces API:** Java.
   
   **Soporte:** http://lists.osgeo.org/mailman/listinfo/proj4j
 

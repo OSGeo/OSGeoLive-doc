@@ -1,12 +1,20 @@
 :Author: Daniel Kastl
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live7.0
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
+
 
 pgRouting
 ================================================================================
@@ -18,13 +26,13 @@ pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://post
 
 Advantages of the database routing approach are:
 
-* Data and attributes can be modified by many clients, like :doc:`Quantum GIS <qgis_overview>` and :doc:`uDig <udig_overview>` through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
+* Data and attributes can be modified by many clients, like :doc:`QGIS <qgis_overview>` and :doc:`uDig <udig_overview>` through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.
 * Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation.
 * The "cost" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.
 
 pgRouting is available under the GPLv2 license and is supported by a growing community of individuals, businesses and organizations.
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 70 %
   :alt: pgRouting query in pgAdminIII
   :align: right
@@ -61,7 +69,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.0
+**Software Version:** |version-pgrouting|
 
 **Supported Platforms:** Linux, Windows, Mac
 

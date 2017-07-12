@@ -1,20 +1,20 @@
 :Author: OSGeo-Live
 :Author: Frank Warmerdam
 :Author: Frank Gasdorf
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GEOS.png
+.. image:: /images/project_logos/logo-GEOS.png
   :alt: project logo
   :align: right
   :target: http://geos.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GEOS
 ================================================================================
@@ -23,7 +23,7 @@ Bibliothek für räumliche Daten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GEOS (Geometry Engine - Open Source) ist eine C++ -Portierung der `JTS Topology Suite (JTS) 
-<http://tsusiatsoftware.net/jts/main.html>`_. Sie deckt dabei die OpenGIS Simple Features für 
+<https://sourceforge.net/projects/jts-topo-suite/>`_. Sie deckt dabei die OpenGIS Simple Features für 
 SQL räumliche Beziehungseigenschaften und räumlichen Operatoren, sowie spezifische durch JTS 
 verbesserte Topologie-Funktionen.
 

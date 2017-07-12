@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-viking.png
+.. image:: /images/project_logos/logo-viking.png
   :alt: Logo du projet
   :align: right
   :target: http://sourceforge.net/apps/mediawiki/viking/
@@ -25,7 +25,7 @@ Il fonctionne avec les données d'OpenStreetMap et divers serveurs tuilés en li
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/viking-0_9_8-europe.jpg
+.. image:: /images/screenshots/1024x768/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: Capture d'écran
   :align: right

@@ -4,10 +4,10 @@ The abstract, slides and script are maintained at:
 https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation
 
 The latest stable version of the slides can be viewed at:
-http:///livedvd/docs/en/presentation/
+https://live.osgeo.org/en/presentation/index.html
 
 :Author: <Your Name>, <Affiliation>
-:Author: Cameron Shorter, LISAsoft
+:Author: Cameron Shorter, Jirotech
 
 :History: This document is derived from OSGeo-Live Project Overviews,
   by OSGeo-Live authors.
@@ -16,7 +16,7 @@ http:///livedvd/docs/en/presentation/
 
 ================================================================================
 
-:Title: Lightening Overview of the best Geospatial Open Source
+:Title: Lightning Overview of the best Geospatial Open Source
 
 :Description:
 
@@ -30,5 +30,5 @@ This presentation is very useful for anyone wishing to gain a high level underst
 
 <Presenter1> is ...
 
-This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeo-Live project, and Geospatial Programs Manager at LISAsoft.
+This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeo-Live project, and Geospatial Programs Manager at Jirotech.
 

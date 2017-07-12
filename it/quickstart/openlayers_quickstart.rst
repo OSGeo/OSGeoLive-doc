@@ -1,6 +1,6 @@
 :Author: Antonio Santiago
 :Author: Chris Schmidt
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Roberta Fagandini
@@ -10,11 +10,17 @@
 Guida rapida OpenLayers
 ********************************************************************************
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 Questo tutorial descrive alcune passaggi base richiesti per iniziare a lavorare
 con OpenLayers3: creare una mappa base, aggiungere layer raster e vettoriali
@@ -118,7 +124,7 @@ copia il testo seguente nel file.
 
 Ora provate ad aprire basic-map.html da un browser web. Dovreste vedere questo:
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic-map.png
+.. image:: /images/screenshots/800x600/openlayers-basic-map.png
   :scale: 100 %
 
 Nota:
@@ -205,7 +211,7 @@ una sorgente adatta per leggere il formato vettoriale, come ``ol.source.GeoJSON`
 
 **Ex. 5:** Leggere un layer vettoriale GeoJSON
 
-.. image:: ../../images/screenshots/800x600/openlayers-vector.png
+.. image:: /images/screenshots/800x600/openlayers-vector.png
   :scale: 100 %
 
 Notare che nel precedente codice bisogna cambiare ``url_to_file`` in modo che
@@ -258,7 +264,7 @@ per impostare il ``fill``, ``stroke``, ``text`` e ``image`` da applicare.
 Il prossimo esempio mostra i limiti amministrativi del Mondo raffigurati
 utilizzando un verde per il riempiemento e il bordo:
 
-.. image:: ../../images/screenshots/800x600/openlayers-styling.png
+.. image:: /images/screenshots/800x600/openlayers-styling.png
   :scale: 100 %
 
 .. code-block:: javascript

@@ -1,10 +1,10 @@
 :Author: Gavin Treadgold
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-sahana-eden.png
+.. image:: /images/project_logos/logo-sahana-eden.png
   :alt: project logo
   :align: right
   :target: http://www.sahanafoundation.org
@@ -30,7 +30,7 @@ Sahana Eden
 (Swedish International Development Agency), της IBM, του Εθνικού Οργανισμού Επιστημών των ΗΠΑ και έχει χρησιμοποιηθεί
 από δεκάδες κυβερνήσεις και εθνικούς οργανισμούς από τότε.
 
-.. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: /images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

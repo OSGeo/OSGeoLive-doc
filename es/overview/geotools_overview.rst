@@ -1,5 +1,5 @@
  :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: David Mateos
 :Version: osgeo-live5.5
@@ -7,23 +7,23 @@
 
 .. _geotools-overview-es:
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 GeoTools es una biblioteca de software libre (LGPL) en Java que proporciona métodos que cumplen con estándares para manipular información geográfica, usando estructuras de datos basadas en las especificaciones del Open Geospatial Consortium (OGC).
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools es un a biblioteca modular que soporta plugins para formatos adicionales
   :align: right
@@ -37,7 +37,7 @@ Funcionalidades básicas
 
 * Definición de interfaces para las estructuras y conceptos espaciales clave
 
-  * Soporte integrado para geometrías proporcionado por `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Soporte integrado para geometrías proporcionado por `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Atributos y filtros espaciales usando la especificación OGC Filter Encoding
   
 * Una limpia API de acceso a datos soportando el acceso a entidades, soporte de transacciones y bloqueo entre hilos de ejecución
@@ -63,7 +63,7 @@ Funcionalidades básicas
 
   * Proporcionan funcionalidades adicionales usando las características espaciales de la biblioteca principal.
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensiones desarrolladas usando la biblioteca GeoTools
      
   * Las extensiones proporcionan soporte para grafos y redes (para encontrar rutas ópitmas), validación, un cliente de servicios de mapas, enlaces para parseo y codificación de XML y para las paletas de colores *Color Brewer*

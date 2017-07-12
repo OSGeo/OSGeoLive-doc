@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: project logo
   :align: right
   :target: http://www.openjump.org
@@ -19,7 +19,7 @@ to display, edit, analyse and conflate geographic data.
 It comes in a CORE and a PLUS edition, with the latter adding lots of useful plugins. 
 OpenJUMP is excellent for data editing and rapid prototyping of GIS functions.
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right
@@ -73,7 +73,7 @@ Details
 
 **Licence:** GPL
 
-**Software Version:** 1.9.0
+**Software Version:** |version-openjump|
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 

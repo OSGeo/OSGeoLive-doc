@@ -8,7 +8,7 @@
 
 .. _gmt-overview-pl:
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
@@ -40,7 +40,7 @@ granice państw.
 
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

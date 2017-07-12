@@ -25,7 +25,7 @@ Bei der Entwicklung von Web Service Anwendungen unter Einsatz von OGC Standards 
 Die meisten in den letzten Jahren entwickelten OGC Standards sind Standards aus dem Web Service Bereich. Diese Standards werden kollektiv als OGC Web Services (OWS) angesprochen. Die folgende Graphik stellt ein generelles Architekturschema für OGC Web Services dar. Dieses Schema zeigt die generischen Klassen der Dienste, die in diversen Geoprozessierungen und räumlichen Aktivitäten zum Einsatz kommen.
 
 
-.. figure:: ../../images/standards/publish_find_bind.jpg
+.. figure:: /images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Web Services Framework für OGC Geoprocessing Standards
 

@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
 :Author: Micha Silver
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-spatialite.png
+.. image:: /images/project_logos/logo-spatialite.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -32,12 +32,12 @@ wollen einen Blick auf die Spalten einer Tabelle werfen.
 * Starten Sie Spatialite GUI über :menuselection:`Geospatial->Databases->Spatialite GUI`
 * Klicken Sie Browse und gehen Sie in das Verzeichnis /home/user/data/spatialite/ und wählen Sie :file:`trento.sqlite`.
 
-  .. image:: ../../images/screenshots/800x600/spatialite-gui-trento.png
+  .. image:: /images/screenshots/800x600/spatialite-gui-trento.png
     :scale: 70 %
 
 * Klicken Sie mit der rechten Maustaste auf die Tabelle MunicpalHallsView und wählen Sie "Show Columns"
 
-  .. image:: ../../images/screenshots/800x600/spatialite-gui-columns.png
+  .. image:: /images/screenshots/800x600/spatialite-gui-columns.png
       :scale: 70 %
 
 * Sie sehen eine in 3 Bereiche aufgeteilte Ansicht:
@@ -66,7 +66,7 @@ wollen einen Blick auf die Spalten einer Tabelle werfen.
 
    und klicken anschließend zum Ausführen den Button "Execute SQL" auf der rechten Seite
 
-  .. image:: ../../images/screenshots/800x600/spatialite-gui-select.png
+  .. image:: /images/screenshots/800x600/spatialite-gui-select.png
       :scale: 70 %
 
 

@@ -4,7 +4,7 @@
 :Copyright: 2011 by The OSGeo Foundation
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-zygrib.png
+.. image:: /images/project_logos/logo-zygrib.png
   :scale: 150 %
   :alt: project logo
   :align: right

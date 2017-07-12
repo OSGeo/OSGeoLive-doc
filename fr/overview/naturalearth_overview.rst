@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-naturalearth.png
+.. image:: /images/project_logos/logo-naturalearth.png
   :alt: Logo du projet
   :align: right
   :target: http://www.naturalearthdata.com/
@@ -19,7 +19,7 @@ Natural Earth fournit aux cartographes une solution "sur étagère" pour créer 
 
 Natural Earth résoud le problème commun que de nombreux cartographes rencontrent: trouver des données vecteur pour faire des cartes à petite échelle pour publication avec un niveau de détail approprié aux cartes qu'ils font.
 
-.. image:: ../../images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/1024x768/naturalearth.png
   :scale: 55 %
   :alt: Capture d'écran Natural Earth
   :align: right

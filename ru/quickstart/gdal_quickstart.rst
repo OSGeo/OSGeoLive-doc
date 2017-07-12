@@ -2,11 +2,17 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://gdal.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -191,7 +197,7 @@ yoff xsize ysize). Вы также можете использовать фла�
 Посмотрим на получившийся шейп-файл в QGIS и *ogrinfo* (мы ещё рассмотрим 
 ogrinfo ниже).  
 
-  .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -237,7 +243,7 @@ ogrinfo ниже).
 Используйте *gdalinfo*, чтобы проверить изменения и посмотреть на
 свойства растра. 
 
-  .. image:: ../../images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
 Теперь перепроецируем растр в ортографическую проекцию:
@@ -247,7 +253,7 @@ ogrinfo ниже).
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: ../../images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
 Вы обратили внимание, что земные полюса "обрезаны"? Это случилось потому,

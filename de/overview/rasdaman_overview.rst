@@ -1,20 +1,14 @@
 :Author: Peter Baumann
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. _rasdaman-overview:
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: project logo
   :align: right
   :target: http://www.rasdaman.org
-
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
 
 Rasdaman
 ========
@@ -28,7 +22,7 @@ Neben der Raster-Anfragesprache unterstützt rasdaman OGC WMS, WCS, WCPS und WPS
 
 Rasdaman hat eine Reihe internationaler Innovationspreise erhalten, darunter den renommierten European IT Prize und Geospatial Innovation Award.  Die Technologie ist stabil und ausgereift und seit mehr als 10 Jahren im operativen Einsatz. Zu den Betreibern von rasdaman-Diensten zählen Vermessungsämter und Klima-Datencenter.
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :alt: rasdaman screenshot collage
   :align: right
@@ -58,7 +52,7 @@ Details
 * Clients und APIs: GNU Lesser General Public License (LGPL) version 3
 * Server-Engine: GNU General Public License (GPL) version 3
 
-**Software Version:** 9.2.0
+**Software Version:** |version-rasdaman|
 
 **Unterstützte Plattformen:** Linux, MacOS, Solaris
 

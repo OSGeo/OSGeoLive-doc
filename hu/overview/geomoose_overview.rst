@@ -1,16 +1,16 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png
+.. image:: /images/project_logos/logo-geomoose.png
   :alt: projekt logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
@@ -40,7 +40,7 @@ sablonokhoz és a forrás adatokhoz.
 A felhasználói felület könnyen testreszabható és a moduláris architektúrának
 köszönhetően további szolgáltatások adhatók hozzá.
 
-.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
   :alt: GeoMoose képernyőkép
   :align: right
 

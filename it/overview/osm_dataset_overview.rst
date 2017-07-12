@@ -1,10 +1,10 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Luca Delucchi
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.osm.org/
@@ -33,7 +33,7 @@ sui dati, le mappe ricche sono solo la conseguenza di ciò.
 La distribuzione OSGeo-Live include un estratto della dimensione di una città dei 
 dati di OSM che è usato come esempi di alcune applicazioni.
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

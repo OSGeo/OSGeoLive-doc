@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: project logo
   :align: right
   :target: http://www.openjump.org
@@ -18,7 +18,7 @@ OpenJUMP ist ein einfach zu handhabendes und leistungsstarkes DesktopGIS, das es
 zu bearbeiten, zu analysieren, zu vereinigen, zu speichern und anzuzeigen.
 Es ist außerdem sehr gut zur schnellen Entwicklung von Prototypen mit angepassten GIS Funktionen geeignet.
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right
@@ -73,7 +73,7 @@ Details
 
 **Lizenz:** GPL
 
-**Software Version:** 1.9.0
+**Software Version:** |version-openjump|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 

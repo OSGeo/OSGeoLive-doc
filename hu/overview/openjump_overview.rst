@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: projekt logo
   :align: right
   :target: http://www.openjump.org
@@ -23,7 +23,7 @@ modullal együtt.
 Az OpenJump kíválló az adatszerkesztésben és a GIS függvények prototípusának 
 gyors előállításában.
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: projekt képernyőkép
   :align: right

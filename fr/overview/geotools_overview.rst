@@ -1,18 +1,18 @@
 :Author: Jody Garnett
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
@@ -22,7 +22,7 @@ de données géospatiale et utilise une structuration de la donnée basée sur l
 de l'Open Geospatial Consortium (OGC).
 
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
@@ -37,7 +37,7 @@ de l'OSGeo-live DVD qui embarque GeoTools sont :
 
 * Définition d'interfaces pour des concepts clefs et la structuration des données
 
-  * Intègre le support de la Géométrie grâce à `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Intègre le support de la Géométrie grâce à `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * Filtre spatial et sur les attributs utilisant l'OGC Encoding specification
   
 * Un accès clair à l'API supportant l'accès au éléments, les transactions et le verrouillage entre les threads
@@ -66,7 +66,7 @@ de l'OSGeo-live DVD qui embarque GeoTools sont :
   * Permet l'ajout de possibilités de construction utilisant les possibilités des éléments 
     centraux de la librairie
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
   * Les extensions permettent de construire de graphe de réseau (pour trouver le chemin le plus court), la validation,

@@ -1,15 +1,16 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos
-:Version: osgeo-live9.5
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +29,7 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
 
 
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -87,9 +88,9 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**ソフトウェアバージョン:** 2.14.0
+**ソフトウェアバージョン:** |version-qgis|
 
-**サポートするプラットフォーム:** Windows、Linux、Mac、Unix
+**対応プラットフォーム:** Windows、Linux、Mac、Unix
 
 **コミュニティサポート:** http://qgis.org/en/site/forusers/support.html
 

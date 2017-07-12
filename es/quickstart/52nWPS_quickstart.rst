@@ -5,7 +5,7 @@
 
 .. _52nWPS-quickstart-es:
  
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -23,7 +23,7 @@ Ejecutar la aplicación
 
 * Firefox abrirá el 52WPS-TestClient (cliente de prueba).
 
-.. image:: ../../images/screenshots/800x600/52n_test_client.png
+.. image:: /images/screenshots/800x600/52n_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -31,7 +31,7 @@ Ejecutar la aplicación
 * Presione el botón enviar y la petición será transmitida al 52 North WPS, que generará
   una representación XML para un buffer alrededor de un área de estudio con un ancho de 20.
 
-.. image:: ../../images/screenshots/1024x768/52n_wps_response.png
+.. image:: /images/screenshots/1024x768/52n_wps_response.png
   :scale: 50 %
   :alt: screenshot
   :align: right

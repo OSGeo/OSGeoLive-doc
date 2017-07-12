@@ -6,12 +6,12 @@
 
 .. _mapguide-overview-pl:
 
-.. image:: ../../images/project_logos/logo-MapGuideOS.png
+.. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right
   :target: http://mapguide.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -38,7 +38,7 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
 and offers extensive PHP, .NET, Java, and JavaScript APIs for application 
 development. MapGuide Open Source is licensed under the LGPL.
 
-.. image:: ../../images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/1024x768/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

@@ -39,7 +39,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Thanks: udig-devel list
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :scale: 60 %
   :alt: project logo
   :align: right
@@ -82,14 +82,14 @@ uDig 快速入门
 #. 从桌面 |osgeolive-appmenupath-udig| 启动。
 #. 系统初始化将花费一些时间。
 
-.. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
+.. image:: /images/screenshots/800x600/udig_Quickstart1Splash.png
    :scale: 70 %
 
 .. Writing Tip:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/screenshots/1024x768/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
 
 
 　　若启动软件有任何问题，请查看 `Running uDig <http://udig.refractions.net/files/docs/latest/user/Running%20uDig.html>`_ 文档。
@@ -101,7 +101,7 @@ uDig 快速入门
 
 #. 点击箭头形的 Workbench 图标（右上角）开启主界面。
   
-  .. image:: ../../images/screenshots/800x600/udig_welcome.png
+  .. image:: /images/screenshots/800x600/udig_welcome.png
    :scale: 70 %
    
 　　在主界面菜单栏选择 :menuselection:`Help --> Welcome` 可以回到欢迎界面。
@@ -111,7 +111,7 @@ uDig 快速入门
 
 　　主界面提供了一种编辑面板（显示地图）和信息面板（显示与地图和要素有关的信息）。
 
-  .. image:: ../../images/screenshots/800x600/udig_workbench.png
+  .. image:: /images/screenshots/800x600/udig_workbench.png
    :scale: 70 %
 
 　　一个典型的 uDig 会话如下：
@@ -160,7 +160,7 @@ uDig 快速入门
 
 #. 选择 `HYP_50M_SR_W` 图层拖拽至列表底部。
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
+  .. image:: /images/screenshots/800x600/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
 .. Writing Tip:
@@ -185,30 +185,30 @@ Map
 
 #. 缩放 |ZOOM| 是默认工具。
    
-   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.png
+   .. |ZOOM| image:: /images/screenshots/800x600/udig_zoom_mode.png
    
    * 拖拽放大到指定区域
    * 右键缩小，右键推拽将控制当前视野在缩放后的范围。
 
 #. 平移 |PAN| 工具用于移动视野。
   
-   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.png
+   .. |PAN| image:: /images/screenshots/800x600/udig_pan_mode.png
 
 #. 其它工具：
 
    * 全局试图 |SHOWALL| 
 
-     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.png
+     .. |SHOWALL| image:: /images/screenshots/800x600/udig_zoom_extent_co.png
 
    * 放大 |ZOOM_IN| 和缩小 |ZOOM_OUT| 每次动作的比例可以调节。
 
-     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.png
-     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.png
+     .. |ZOOM_IN| image:: /images/screenshots/800x600/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: /images/screenshots/800x600/udig_zoom_out_co.png
 
    * 回退 |BNAV| 前进 |FNAV| 可以返回之前的设置。
 
-     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.png
-     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.png
+     .. |BNAV| image:: /images/screenshots/800x600/udig_backward_nav.png
+     .. |FNAV| image:: /images/screenshots/800x600/udig_forward_nav.png
 
 .. tip:: 按住鼠标中键可以平移，滚轮可用于缩放。
 
@@ -225,7 +225,7 @@ Map
 
 #. 点击 **Catalog** 旁边的 *Web* 更换至网络服务试图。
 
-	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
+	.. image:: /images/screenshots/800x600/udig_WebViewClick.png
 		:scale: 50 %
 
 #. 点击 link WMS\:`dm solutions`_ 连接
@@ -238,19 +238,19 @@ Map
    * Parks
    * Cities
    
-	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+	.. image:: /images/screenshots/800x600/udig_AddWMSLayers.png
 		:scale: 70 %
 
 #. 点击 :guilabel:`Finish` 添加图层
    
-	.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+	.. image:: /images/screenshots/800x600/udig_WMSMap.png
 		:scale: 70 %
 
 #. 使用 |ZOOM| 放大至一个公园（park）
 
 #. 使用 |INFO| 属性工具点击一个要素了解其属性
 
-.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.png
+.. |INFO| image:: /images/screenshots/800x600/udig_info_mode.png
 
 .. tip:: 使用 `Z` 和 `I` 可以在两个工具间快速切换。
 
@@ -271,7 +271,7 @@ Map
    
    * 标注：点击 :guilabel:`Labels` 选择 :guilabel:`enable/disable labeling` 并选中 **NAME** 字段用于标注。
 
-   .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
+   .. image:: /images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
 #. 点击 :guilabel:`Apply` 应用样式，在 **Layer** 视图中的渲染结果会更新。
@@ -282,7 +282,7 @@ Map
 
 　　若图层较多，编辑样式时可能难以看清效果。点击 :menuselection:`Map --> Mylar` 并在 *Layer* 试图关闭一些图层可能有助于编辑。再次选取 :menuselection:`Map --> Mylar` 可以关闭这一效果。
   
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
+	.. image:: /images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 .. Writing tip

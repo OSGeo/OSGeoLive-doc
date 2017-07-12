@@ -1,9 +1,9 @@
 :Author: darkblueb
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-iris.png
+.. image:: /images/project_logos/logo-iris.png
   :alt: Iris project logo
   :align: right
   :target: http://scitools.org.uk/iris/
@@ -18,7 +18,7 @@ Iris ist eine leistungsstarke Python Bibliothek für die Analyse und Visualisier
 
 Derzeit unterstützt Iris read/write Zugriff auf eine Reihe von Datenformaten inklusive (CF-)netCDF, GRIB, und PP Dateien.
 
-.. image:: ../../images/screenshots/800x600/iris.jpg
+.. image:: /images/screenshots/800x600/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %
@@ -37,7 +37,7 @@ Details
 
 **Lizenz:** LGPLv3
 
-**Software Version:** 1.9.0
+**Software Version:** |version-iris|
 
 **Unterstützte Plattformen:** Plattformunabhängiges Python-- Mac OS X, Windows und Linux
 

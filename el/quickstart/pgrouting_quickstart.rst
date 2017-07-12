@@ -2,11 +2,17 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: pgRouting logo
 	:align: right
 	:target: http://www.pgrouting.org
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 ***************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης pgRouting
@@ -22,13 +28,13 @@
 
 * Ανοίξτε ένα παράθυρο :menuselection:`Applications --> Accessories --> Terminal` και συνδεθείτε στην ``pgrouting`` βάση δεδομένων:
 
-.. code-block:: bash
+::
 
 	psql -U user pgrouting
 
 * Πληκτρολογήστε :command:`\\d` και θα δείτε όλους τους διαθέσιμους πίνακες:
 
-.. code-block:: sql
+::
 
 			      Πίνακας σχέσεων
 	 Σχήμα  |       Όνομα         |  Τύπος   | Χρήστης   
@@ -46,7 +52,7 @@
 
 * Εκτελέστε στην συνάρτηση ελάχιστης διαδρομής Dijkstra:
 
-.. code-block:: sql
+::
 
 	SELECT * FROM shortest_path('
 			SELECT gid as id, 
@@ -56,7 +62,7 @@
 				FROM ways', 
 			100, 600, false, false); 
 
-.. code-block:: sql
+::
 
 	 vertex_id | edge_id |       cost    	 
 	-----------+---------+---------------------
@@ -70,12 +76,12 @@
 
 * Δοκιμάστε την συνάρτηση μετατροπής (wrapper) ώστε να πάρετε το αποτέλεσμα σε μια άλλη μορφή:
 
-.. code-block:: sql
+::
 
 	SELECT gid, AsText(the_geom) AS the_geom 
 		FROM dijkstra_sp('ways', 100, 600);
 	
-.. code-block:: sql
+::
 	
 	  gid   |                              the_geom      
 	--------+---------------------------------------------------------------
@@ -94,9 +100,5 @@
 ==========
 
 * **pgRouting Website** - Επισκεφτείτε τον ιστοχώρο http://www.pgrouting.org για να μάθετε περισσότερα για το pgRouting.
-
 * **Workshop on DVD** - Σε αυτό το DVD περιλαμβάνονται τα αρχεία του FOSS4G 2010 pgRouting workshop `"FOSS4G routing with pgRouting tools, OpenStreetMap road data and GeoEx"`, διαθέσιμα στο: :file:`/usr/share/pgrouting/workshop/`
-
-.. note::
-	Για να εγκαταστήσετε την τελευταία έκδοση από το εγχειρίδιο εκμάθησης ανοίξτε ένα τερματικό και εκτελέστε την ακόλουθη εντολή ``sudo apt-get update && apt-get upgrade pgrouting-workshop``
 

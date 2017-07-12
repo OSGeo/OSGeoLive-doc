@@ -1,10 +1,10 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncdataset.png 
+.. image:: /images/project_logos/logo-ncdataset.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -27,7 +27,7 @@ OSGeo 美国北卡洛莱娜州教育用数据集
 
 * 一小部分水域，栅格空间分辨率 3m-1m
 
-.. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right

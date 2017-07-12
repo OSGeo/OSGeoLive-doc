@@ -1,9 +1,9 @@
 :Автор: activityworkshop
-:Проверил: Cameron Shorter, LISAsoft
+:Проверил: Cameron Shorter, Jirotech
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: /images/project_logos/logo-prune.png
   :alt: Логотип проекта
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -23,7 +23,7 @@ GpsPrune работает на Mac OS X, Windows и Linux, имеет подде
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: Внешний вид
   :align: right

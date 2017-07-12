@@ -1,15 +1,12 @@
 :Author: Henry Addo
 :Translator: Jorge Sanz
-:Version: osgeo-live4.0
+:Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. _ushahidi-overview-es:
-
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
-
 
 Ushahidi
 ================================================================================
@@ -24,11 +21,10 @@ línea de tiempo. El objetivo de Ushahidi es crear herramientas para la
 democratización de la información, aumentando la transparencia y reduciendo las
 barreras a los individuos para compartir sus historias.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
-
 
 Ushahidi, que significa ­­­"testimonio" en Swahili, fue desarrollado inicialmente
 para cartografiar informes de violencia en Kenia tras las secuelas 
@@ -44,27 +40,24 @@ producto que pudiera ser utilizada por otro alrededor de todo el mundo.
 
 Funcionalidades principales
 --------------------------------------------------------------------------------
-
 - Mapa interactivo
-- Línea de tiempo
-- Capacidad para suscribirse a informes de alertas basadas en proximidad
-- Diseño de temas basado en CSS
-- Instalación *web* en 5 minutos
-- Capacidad para cargar y descargar informes masivos
-- Capacidad para visualizar ficheros KML/KMZ sobre el mapa
-- Soporte de páginas y pestañas personalizadas
-- Estadísticas y análisis del sitio *web*
-- Sistema de complementos
-- Actualización en un clic
-- Soporte de múltiples proveedores SMS
-- Funcionalidad de informadores de confianza
-- Temas
-- Planificador
-- Caché
-- Soporte para subida de Video.
-- Soporte de *insignias* para puntuar a usuarios de la plataforma Ushahidi.
-
-
+- Línea de tiempo.
+- Capacidad para suscribirse a informes de alertas basadas en proximidad.
+- Diseño de temas basado en CSS.
+- Instalación *web* en 5 minutos.
+- Capacidad para cargar y descargar informes masivos.
+- Capacidad para visualizar ficheros KML/KMZ sobre el mapa.
+- Soporte de páginas y pestañas personalizadas.
+- Estadísticas y análisis del sitio *web*.
+- Sistema de complementos.
+- Actualización en un clic.
+- Soporte de múltiples proveedores SMS.
+- Funcionalidad de informadores de confianza.
+- Temas.
+- Planificador.
+- Caché.
+- Soporte para subida de Video..
+- Soporte de *insignias* para puntuar a usuarios de la plataforma Ushahidi..
 
 Demostración
 --------------------------------------------------------------------------------
@@ -78,13 +71,13 @@ Detalles
 
 **Licencia:** GNU General Public License (GPL) version 3
 
-**Versión del Software:** 2.7.4 (Bamako)
+**Versión del Software:**  |version-ushahidi|
 
 **Interfaces API:** PHP
 
-**Plataformas soportadas:** Linux, Mac, Windows
+**Plataformas soportadas:** Linux, Mac, Windows.
 
-**Soporte:** http://forums.ushahidi.com
+**Soporte:** https://wiki.ushahidi.com/display/forums/Ushahidi+Forums
 
 
 Guía de inicio rápido

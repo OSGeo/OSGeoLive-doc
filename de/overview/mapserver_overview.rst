@@ -1,14 +1,14 @@
 :Author: Alan Boudreault, Steve Lime
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :alt: project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -30,7 +30,7 @@ MapServer ist nun ein Projekt der `OSGeo <http://www.osgeo.org>`_ und wird von e
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/mapserver.png
+.. image:: /images/screenshots/1024x768/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -110,7 +110,7 @@ Details
 
 **Lizenz:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
 
-**Software Version:** 7.0.1
+**Software Version:** |version-mapserver|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 

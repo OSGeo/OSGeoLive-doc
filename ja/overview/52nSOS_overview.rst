@@ -1,10 +1,10 @@
 
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org), Simon Jirka (s.jirka@52north.org)
 :Reviewer: 
-:Version: osgeo-live9.0
+:Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
@@ -20,7 +20,7 @@
 は、現地もしくは遠隔センサがリアルタイムに蓄積したデータの取得をサポートします。
 センサとしては人工衛星に搭載したカメラから、川の水量メーターまで様々な物を取り扱うことができます。
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right
@@ -138,11 +138,11 @@ applicable:
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** |version-52nSOS|
+**ソフトウェアバージョン:** |version-52nSOS|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 
-**Supported DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012
+**対応DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012
 
 **API インターフェース:** Java
 

@@ -4,10 +4,16 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :scale: 80 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ***********************************
 Εγχειρίδιο Γρήγορης Εκκίνησης Ossim 
@@ -30,7 +36,7 @@ Imagelinker
 * Επιλέξτε :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Βεβαιωθείτε ότι βλέπετε τρεις μονόχρωμες δορυφορικές εικόνες. 
 
-  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Για το πλήρες εγχειρίδιο δείτε το ακόλουθο `blog article`_.

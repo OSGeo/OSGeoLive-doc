@@ -2,16 +2,22 @@
 :Author: Frank Gasdorf
 :Reviewer: Angelos Tzotsos
 :Reviewer: Cameron Shorter
-:Version: osgeo-live6.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
 
 .. |GS| replace:: GeoServer
 .. |UG| replace:: uDig 
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 GeoServer Quickstart 
@@ -26,6 +32,7 @@ This Quick Start describes how to:
   * apply color to map features using styling
   * test the layers in a simple web map
   * learn about clients that can display your maps
+  * add a layer from a NetCDF file
 
 .. contents:: Contents
   
@@ -35,7 +42,7 @@ Start |GS|
 #. Select the |osgeolive-appmenupath-geoserver| in the menu.
 #. The application will take a few moments to start up and will open a web page at http://localhost:8082/geoserver/web 
 
-.. image:: ../../images/screenshots/800x600/geoserver-login.png
+.. image:: /images/screenshots/800x600/geoserver-login.png
     :scale: 70 %
 
 First Views
@@ -43,17 +50,17 @@ First Views
 
 When you first open the |GS| page you will see the screen above, first you need to log in using the username **admin** and password **geoserver**. You will now see the *admin page*.
 
-.. image:: ../../images/screenshots/800x600/geoserver-welcome.png
+.. image:: /images/screenshots/800x600/geoserver-welcome.png
     :scale: 70 %
 
 Select the **Layer Preview** link at the top of the *Data* section in the left hand menu to see a preview of the layers that are loaded on the server. 
   
-.. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
+.. image:: /images/screenshots/800x600/geoserver-layerpreview.png
     :scale: 70 %
 
 Scroll to the bottom of the page and click on the **OpenLayers** link in the **tiger-ny** row, this will open a new window with a preview of some of the sample data. 
 
-.. image:: ../../images/screenshots/800x600/geoserver-preview.png
+.. image:: /images/screenshots/800x600/geoserver-preview.png
     :scale: 70 %
     
 You can zoom in to the map in three ways:
@@ -84,14 +91,14 @@ We need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You
 will see this page:
 
-.. image:: ../../images/screenshots/800x600/geoserver-newstore.png
+.. image:: /images/screenshots/800x600/geoserver-newstore.png
     :scale: 70 %
     :align: center
     :alt: The New Store page
 
 Select the :guilabel:`Directory of spatial files`, you will see the following: 
 
-.. image:: ../../images/screenshots/800x600/geoserver-new-vector.png
+.. image:: /images/screenshots/800x600/geoserver-new-vector.png
     :scale: 70 %
     :align: center
     :alt: Filling in the New Store page
@@ -100,7 +107,7 @@ Type in a name for the Data Store - I used *Natural Earth* and fill in
 the URL to the data set - in this case :file:`/usr/local/share/data/natural_earth2/`. 
 You can use the browse button to find the directory if your data is somewhere else. Press :guilabel:`save`.
 
-.. image:: ../../images/screenshots/800x600/geoserver-naturalearth.png
+.. image:: /images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
     :alt: The Natural Earth Datastore
@@ -108,7 +115,7 @@ You can use the browse button to find the directory if your data is somewhere el
 Press :guilabel:`publish` next to one of the layers to finish up adding
 the data. This will take you to the *Layers* page:
 
-.. image:: ../../images/screenshots/800x600/geoserver-publish.png
+.. image:: /images/screenshots/800x600/geoserver-publish.png
     :align: center
     :scale: 70 %
     :alt: The layer publishing page
@@ -158,7 +165,7 @@ add data button in the top left hand corner). I dragged the ne_10m_land
 and ne_10m_ocean tables into the map window. |UG| automatically applies
 a style (so you can see the data).
 
-.. image:: ../../images/screenshots/800x600/geoserver-udig_startup.png
+.. image:: /images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :scale: 70 %
    :alt: Default Styling in uDig
@@ -168,7 +175,7 @@ with the green land). So in the :ref:`Layer list <Layer_list>` select the style
 button (it looks like an artist's palette). 
 
 .. _Layer_list:
-.. image:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
+.. image:: /images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
    :alt: The Layer list window
@@ -180,7 +187,7 @@ increased the opacity of the fill to 100% to make the color look
 better. I picked the same blue for the border color so it would match.
 
 .. _Style_Pane:
-.. image:: ../../images/screenshots/800x600/geoserver-style-pane.png
+.. image:: /images/screenshots/800x600/geoserver-style-pane.png
    :align: center
    :scale: 70 %
    :alt: The Style Pane 
@@ -189,7 +196,7 @@ Once I was done I clicked ``OK`` and |UG| showed me the
 changes. 
 
 
-.. image:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
+.. image:: /images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :scale: 70 %
    :alt: Blue Oceans
@@ -199,14 +206,14 @@ I repeated the steps above to change the color of the land layer.
 None of the default colors seemed right to me so I went into the
 ``define custom colors`` section to create one I liked.
 
-.. image:: ../../images/screenshots/800x600/geoserver-custom-colour.png
+.. image:: /images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
    :scale: 70 %
    :alt: Defining a nicer land color
 
 This gives me a nice looking basic world map
 
-.. image:: ../../images/screenshots/800x600/geoserver-basic-world.png
+.. image:: /images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :scale: 70 %
    :alt: A basic word map
@@ -227,7 +234,7 @@ validate button the highlighted lines will give you an error but you can
 safely ignore the error (or delete those lines as they don't do anything).
 When you are ready press the :guilabel:`Submit` at the bottom of the page.
 
-.. image:: ../../images/screenshots/800x600/geoserver-add-style.png
+.. image:: /images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :scale: 70 %
    :alt: Adding a Style to GeoServer
@@ -255,7 +262,7 @@ Now click :guilabel:`Save` and go to the Layer Preview page to check that it loo
     :file:`/home/user/data/natural_earth2/HYP_50M_SR_W.tif`
     into the :guilabel:`URL` box.
 
-    .. image:: ../../images/screenshots/800x600/geoserver-raster.png
+    .. image:: /images/screenshots/800x600/geoserver-raster.png
         :align: center
         :scale: 70 %
         :alt: Adding a Raster
@@ -277,3 +284,57 @@ from |GS|. This is a list of just some of them
     * :doc:`OpenLayers <../overview/openlayers_overview>`
 
     * :doc:`MapBender <../overview/mapbender_overview>`
+
+NetCDF
+================================================================================
+
+The GeoServer NetCDF plugin allows the publication of rasters from NetCDF files.
+
+Configure a NetCDF store
+------------------------
+
+After running "Start GeoServer", login as the administrator, click on "Add stores" then "NetCDF". Enter a value for Data Source Name (this example uses "netcdf") and a NetCDF URL. You can use the URL::
+
+    file:///usr/local/lib/geoserver/doc/user/_downloads/polyphemus_20120401.nc
+
+This sample file from the GeoServer documentation is included with OSGeo Live. Press "Save", "Publish" the "O3" layer, then scroll down to the bottom of the "Data" tab and press "Save" again.
+
+    .. image:: /images/screenshots/800x600/geoserver-netcdf-store.png
+        :align: center
+        :scale: 100 %
+        :alt: Adding a NetCDF store
+
+Preview the NetCDF layer
+------------------------
+
+Select "Layer Preview" from the menu on the left, scroll down to find the "cite:O3" entry, and click on the "OpenLayers" link to show a preview of the layer. Clicking on points will cause the value of "Ozone_concentration" to be shown in a table at the bottom of the map.
+
+    .. image:: /images/screenshots/800x600/geoserver-netcdf-preview.png
+        :align: center
+        :scale: 100 %
+        :alt: OpenLayers preview of a NetCDF layer
+
+.. note::
+    This GeoServer instance has been configured with the ``NETCDF_DATA_DIR`` Java system property to allow the publication of NetCDF files in read-only directories.
+
+What Next?
+================================================================================
+
+This is only the first step on the road to using GeoServer. There is
+a lot more functionality you can try.
+
+GeoServer Project home
+
+  http://geoserver.org/
+
+GeoServer User Manual
+
+  http://docs.geoserver.org/latest/en/user/
+
+GeoServer Tutorials
+
+  http://docs.geoserver.org/latest/en/user/tutorials/index.html
+
+GeoServer Styling Workshop
+
+  http://docs.geoserver.org/latest/en/user/styling/workshop/index.html

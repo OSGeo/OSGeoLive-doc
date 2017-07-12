@@ -1,14 +1,15 @@
 :Author: Hamish Bowman, Sergey Popov
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live8.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :alt: project logo
   :align: right
   :target: http://marble.kde.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -42,7 +43,7 @@ of the moon and other planets.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/marble-history.png
+.. image:: /images/screenshots/800x600/marble-history.png
   :scale: 64 %
   :alt: screenshot
   :align: right
@@ -71,7 +72,7 @@ Details
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
-**Software Version:** 1.9.2
+**Software Version:** |version-marble|
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows, Maemo 5
 

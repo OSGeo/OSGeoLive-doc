@@ -1,10 +1,10 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
-:Reviewer: Cameron Shorter, http://lisasoft.com
+:Reviewer: Cameron Shorter, http://jirotech.com
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-cartaro.png
+.. image:: /images/project_logos/logo-cartaro.png
   :alt: project logo
   :align: right
   :target: http://cartaro.org
@@ -18,7 +18,7 @@ Cartaro
 
 To Cartaro είναι σχεδιασμένο για χρήση σε ιστοχώρους  CMS οι οποίοι χειρίζονται γεωχωρικά δεδομένα και για οργανισμούς οι οποίοι επιθυμούν μια Υποδομή Χωρικών Δεδομένων (SDI) με ελάχιστη διαμόρφωση και προγραμματισμό.  
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

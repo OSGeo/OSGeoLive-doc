@@ -5,16 +5,16 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
-  :target: http://geoserver.org/display/GEOS/Welcome
+  :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 GeoServer
 ================================================================================
@@ -39,7 +39,7 @@ oraz wysokiej wydajności i zgodnym ze standardami
 :doc:`../standards/wms_overview`. 
 GeoServer forms a core component of the Geospatial Web. 
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right
@@ -106,7 +106,7 @@ Zaimplementowane standardy
 Szczegóły
 --------------------------------------------------------------------------------
 
-**Strona internetowa:** http://geoserver.org/display/GEOS/Welcome
+**Strona internetowa:** http://geoserver.org/
 
 **Licencja:** Powszechna Licencja Publiczna GNU (GPL) wersja 2
 
@@ -116,7 +116,7 @@ Szczegóły
 
 **Interfejsy API:** WMS, WFS, WCS, REST
 
-**Wsparcie:** http://geoserver.org/display/GEOS/Commercial+Support
+**Wsparcie:** http://geoserver.org/support/
 
 Szybkie wprowadzenie
 --------------------------------------------------------------------------------

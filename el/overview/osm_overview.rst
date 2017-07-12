@@ -1,10 +1,10 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons
 
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.openstreetmap.org
@@ -28,7 +28,7 @@ JOSM περιλαμβάνονται.
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -58,7 +58,7 @@ JOSM περιλαμβάνονται.
 
 **Εκδόσεις Λογισμικού:**
 
-* JOSM: Τελευταία δοκιμαστική (svn r7347)
+* JOSM: Τελευταία δοκιμαστική (svn r11427)
 
 * Merkaartor: 1.18.1
 

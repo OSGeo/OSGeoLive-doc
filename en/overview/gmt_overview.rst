@@ -1,13 +1,13 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
-  :target: http://gmt.soest.hawaii.edu
+  :target: https://gmt.soest.hawaii.edu
 
 
 GMT
@@ -28,7 +28,7 @@ scaling, and comes with support data such as coastlines, rivers, and
 political boundaries.
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -42,17 +42,17 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://gmt.soest.hawaii.edu
+**Website:** https://gmt.soest.hawaii.edu
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 4.5.11
+**Software Version:** |version-gmt|
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
 **API Interfaces:** Command line
 
-**Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
 Quickstart

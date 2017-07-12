@@ -2,17 +2,17 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit
 :Author: Antonio Santiago
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -30,7 +30,7 @@ OpenLayers3 は Web とモバイルクライアント向けの軽量なマッピ
 OpenLayers3 は以前の堅牢で広く利用されていた OpenLayers2 ライブラリを完全に書き直したものです。
 いずれも、Web マッピングと GIS の要件を基本から応用までカバーする、広範な機能セットを提供します。
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/800x600/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right
@@ -80,7 +80,7 @@ OpenLayers3 は以前の堅牢で広く利用されていた OpenLayers2 ライ�
 
 **ライセンス:** 2-clause BSD License (aka FreeBSD License)
 
-**ソフトウェアバージョン:** 3.13.1
+**ソフトウェアバージョン:** |version-openlayers|
 
 **API インタフェース:** JavaScript
 

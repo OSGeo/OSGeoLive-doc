@@ -1,10 +1,10 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: Projekt Logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
@@ -28,7 +28,7 @@ und exponentielle Skalierung, und es unterstützt Daten wie Küstenlinien, Flüs
 und politischen Grenzen.
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right
@@ -39,21 +39,20 @@ Kernfunktionen
 * Kartographie nach wissenschaftlichen Qualitätsanforderungen. 
 * Funktionen für Rasterung und Konturierung.
 
-
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** http://gmt.soest.hawaii.edu
+**Webseite:** https://gmt.soest.hawaii.edu
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 4.5.11
+**Software Version:** |version-gmt|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 
 **API Schnittstellen:** Kommandozeile
 
-**Support:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
 Quickstart

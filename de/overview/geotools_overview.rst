@@ -4,23 +4,23 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 GeoTools ist eine Open Source Bibliothek (LGPL) basierend auf Java, mit deren Hilfe man standardkonform räumliche Daten manipulieren und die Datenstrukturen ansprechen kann, die auf Open Geospatial Consortium (OGC) Spezifikationen beruhen.
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools ist eine modulare Bibliothek, die durch Plugins für Formate erweitert werden kann
   :align: right
@@ -33,7 +33,7 @@ Kernfunktionalität
 
 * Definition von Schnittstellen für zentrale räumliche Konzepte und Datenstrukturen
   
-  * Integrierte Unterstützung von Geometrien, bereit gestellt über die `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_
+  * Integrierte Unterstützung von Geometrien, bereit gestellt über die `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_
   * attributive und räumliche Filter basierend auf der OGC Filter Encoding Spezifikation 
   
 * Eine saubere Programmierschnittstelle (Application Programming Interface - API) für den Zugriff auf räumliche Objekte (Features) und Unterstützung für Transaktionen und Sicherstellung der Sperrungen zwischen Threads
@@ -63,7 +63,7 @@ Kernfunktionalität
 
   * stellt weitere Möglichkeiten zur Erweiterung bereit, die auf die Kernbibliothek aufbauend umgesetzt worden sind
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
   * Die Erweiterungen stellen Graphen- und Netzwerkanalysen (kürzester/schnellster Weg), Validierung, einen Web Map Server (WMS) Client, Bindings für XML Parser und Kodierer sowie `Color Brewer`.

@@ -2,11 +2,11 @@
 :Author: Thierry Badard
 :Translator: Jorge Sanz
 :Reviewer: Sergio Baños Calvo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :scale: 80 %
   :alt: project logo
   :align: right
@@ -34,7 +34,7 @@ Iniciar GeoKettle
 #. Por favor espere, la aplicación tardará unos momentos en arrancar
 #. A continuación se requerirá tu atención en el siguiente diálogo. Completa la información de repositorio o simplemente haga clic en el botón "No repository" para entrar en el espacio de trabajo de GeoKettle.
 
-  .. image:: ../../images/screenshots/800x600/geokettle_welcome.png
+  .. image:: /images/screenshots/800x600/geokettle_welcome.png
     :scale: 80 %
 
 Espacio de trabajo (*Workbench*)
@@ -42,7 +42,7 @@ Espacio de trabajo (*Workbench*)
 
 Tal y como se muestra en la captura de pantalla siguiente, el espacio de trabajo es una ventana compuesta por diferentes paneles.
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_workbench.png
+  .. image:: /images/screenshots/1024x768/geokettle_workbench.png
     :scale: 80 %
 
 La parte izquierda actúa como un catálogo que contiene todos los pasos que pueden formar parte de una transformación de datos. La parte derecha del espacio de trabajo es el área donde la transformación propiamente dicha será diseñada y ejecutada/inspeccionada
@@ -56,14 +56,14 @@ Para cargar una transformación previa, seleccione :menuselection:`File --> Open
 
 La siguiente figura muestra la transformación  «intersection». Puede observar que el contenido de las dos partes principales de las que se compone el espacio de trabajo han cambiado.
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_intersection_transformation.png
+  .. image:: /images/screenshots/1024x768/geokettle_intersection_transformation.png
     :scale: 80 %
 
 Se puede ver una descripción de la transformación así como algunas directivas opcionales en la zona amarilla de anotaciones.
 
 Antes de arrancar la transformación deberá especificar qué *shapefile* se va a usar. Para hacerlo, haz doble clic en cada uno de los pasos « GIS file input » para que aparezca el siguiente diálogo.
 
-  .. image:: ../../images/screenshots/800x600/geokettle_shapefile_input_step.png
+  .. image:: /images/screenshots/800x600/geokettle_shapefile_input_step.png
 
 .. note: 
    Puedes personalizar cada uno de los pasos de la transformación haciendo doble clic en ella.
@@ -81,7 +81,7 @@ Para crear una transformación nueva selecciona :menuselection:`File --> New -->
 
 Tal y como se muestra en la figura siguiente, todos los pasos disponibles se listan por categorías en el área izquierda del espacio de trabajo. Expande cada categoría para ver los pasos disponibles.
 
-  .. image:: ../../images/screenshots/800x600/geokettle_your_transformation.png
+  .. image:: /images/screenshots/800x600/geokettle_your_transformation.png
     :scale: 80 %
 
 Para añadir un nuevo paso a la transformación, arrástralo desde el panel **Steps** al panel **Transformation**. Entonces puedes personalizar ese nuevo paso de tu transformación haciendo doble clic en él.
@@ -91,7 +91,7 @@ Para añadir un nuevo paso a la transformación, arrástralo desde el panel **St
 
 Un salto, representado como una flecha entre dos pasos, define un flujo de datos entre dos pasos. Tal y como se ve en la figura siguiente, añadiendo un salto desde **Table Input** a **Add sequence** significa que a la salida resultante de **Table Input** se enviará al paso **Add sequence** para posterior procesado, etc. 
 
-  .. image:: ../../images/screenshots/800x600/geokettle_hop.png
+  .. image:: /images/screenshots/800x600/geokettle_hop.png
     :scale: 60 %
 
 Para crear un nuevo salto, seleccione dos pasos, haga clic con el botón derecho en uno de ellos y seleccione :menuselection:`New hop`. Otra forma de hacerlo es pulsar y mantener la tecla :kbd:`Ctrl` mientras se seleccionan dos pasos. 
@@ -110,7 +110,7 @@ Cuando se ejecuta una transformación aparece un nuevo panel debajo del panel en
 
 Inicialmente se muestra la pestaña **Step Metrics** (siguiente figura). En esta pestaña se puede ver información general sobre el flujo de datos en la transformación como el número de filas leídos y escritos en las entradas y salidas de cada paso. La columna **Active** informa al usuario si el paso ha arrancado, está en marcha, ha acabado o se ha abortado, etc. En la columna **Time** se muestra el tiempo empleado desde que el paso arrancó, así como la velocidad media del paso (columna **Speed**) en filas por segundo.
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_running_transformation.png
+  .. image:: /images/screenshots/1024x768/geokettle_running_transformation.png
     :scale: 70 %
 
 
@@ -118,7 +118,7 @@ Inicialmente se muestra la pestaña **Step Metrics** (siguiente figura). En esta
 
 Tal vez la ejecución de una transformación termine con errores en el panel **Execution Results** (ver figura siguiente). Por favor, revisa el contenido de la pestaña **Logging**. En ella hay siempre mucha información útil acerca del origen y la razón del error. Modifica los parámetros del paso erróneo y reinicia la transformación.
 
-  .. image:: ../../images/screenshots/1024x768/geokettle_transformation_fail.png
+  .. image:: /images/screenshots/1024x768/geokettle_transformation_fail.png
     :scale: 70 %
 
 Para ayudarte a encontrar el origen del error, puedes previsualizar los resultados de una transformación de un paso anterior en el flujo de trabajo. Para hacerlo, haz doble clic en el paso y selecciona :menuselection:`Preview` en el menú contextual. De esta forma, puedes ver el aspecto de los datos de forma alfanumérica y espacial en este punto del proceso en el contexto de la transformación sin tener que ejecutarla por completo.

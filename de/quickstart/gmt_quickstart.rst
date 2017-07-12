@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :scale: 100 %
   :alt: Projektlogo
   :align: right
@@ -17,25 +17,14 @@ GMT Quickstart
 Im Einsatz
 ================================================================================
 
-Auf dieser LiveDVD ist die GMT Dokumentation (HTML und PDF), 
-Beispielskripte (inklusive weltweiter Küstenlinien in niedriger Auflösung) 
-sowie ein Tutorial mit zugerhörigen Datensätzen enthalten.
 
-Die Dokumentation als HTML und PDF ist unter 
+Die Dokumentation ist unter 
 
   `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,
 
 die Beispiele sind im Verzeichnis 
 
-  `/usr/share/doc/gmt-examples/examples/ <../../gmt-examples/examples/>`_ und
-
-die Daten für das Tutorial sind unter 
-
-  `/usr/share/doc/gmt-tutorial/tutorial/ <../../gmt-tutorial/tutorial/>`_
-
-abgelegt.
-
-Die Daten der Küstenlinien mit geringer Genauigkeit finden sie unter :file:`/usr/share/gmt/coast/`.
+  `/usr/share/doc/gmt/examples <../../gmt/examples/>`_,
 
 .. packages:
   gmt-doc (und -pdf)
@@ -47,26 +36,23 @@ Die Daten der Küstenlinien mit geringer Genauigkeit finden sie unter :file:`/us
 Beispiele
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es sind 30 Beispiel-Jobs vorhanden, die alle über ein Skript ausgeführt werden können:
+Es sind 30 Beispiel-Jobs vorhanden:
 
 Öffnen Sie ein Terminal und geben Sie folgendes ein:
 
 ::
 
-  cp -r /usr/share/doc/gmt-examples/examples/ gmt-examples
-  cd gmt-examples/
-  ./do_examples.sh
+  cp -R /usr/share/doc/gmt/examples gmt-examples
+  cd gmt-examples/ex20
+  ./example_20.sh
 
 Einen kleinen Augenblick wird es dauern ..
 
-Ergebnisse anzeigen: (geben Sie :kbd:`q` ein, um :command:`gv` [#gv]_ zu verlassen)
+Ergebnisse anzeigen: 
 
 ::
 
-  for PLOT in *.ps ; do
-     echo "$PLOT"
-     gv "$PLOT"
-  done
+  gv example_20.ps
 
 .. Rubric:: Fußnoten
 .. [#gv] Ghostview  http://www.gnu.org/software/gv/

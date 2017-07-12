@@ -4,7 +4,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncWMS.png
+.. image:: /images/project_logos/logo-ncWMS.png
  :alt: Projekt Logo
  :align: right
  :target: http://www.resc.rdg.ac.uk/trac/ncWMS/
@@ -17,7 +17,7 @@ Web Map Service
 
 ncWMS veröffentlicht mehrdimensionale Daten (beispielsweise Umwelt- oder Wetterdaten) als OGC konformen Web Map Service (WMS). ncWMS extrahiert die Kartenbilder schnell und effizient aus sehr großen Daten, die für Umweltdaten typisch sind.
 
-.. image:: ../../images/screenshots/1024x768/ncWMS-03-timeseries.png
+.. image:: /images/screenshots/1024x768/ncWMS-03-timeseries.png
   :scale: 60 %
   :alt: ncWMS Zeitreihe
   :align: right
@@ -31,7 +31,7 @@ Kernfunktionen
 
 * Erstellung von Zeitreihen und vertikalen Profildrucken
 
-* Fähigkeit Daten entlag eines Transects zu drucken
+* Fähigkeit, Daten entlang eines Transects zu drucken
 
 * Automatische Erkennung von Vektor-Komponenten und Generierung von Vektorpfeilen
 
@@ -63,7 +63,7 @@ Details
 
 **Lizenz:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_
 
-**Software Version:** 1.1.1
+**Software Version:** |version-ncWMS|
 
 **Unterstützte Plattformen:** Alle Java 1.5 Plattformen: Windows, Linux, Mac
 

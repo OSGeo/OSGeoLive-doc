@@ -1,9 +1,9 @@
 :Author: Henry Addo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
@@ -20,7 +20,7 @@ web and visualize it on a map or a timeline. Ushahidi's goal is to create tools 
 democratizing information, increasing transparency and lowering the barriers 
 for individuals to share their stories.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -32,7 +32,7 @@ citizen journalists during a time of crisis. The website was used to map
 incidents of violence and peace efforts throughout the country based on
 reports submitted via the web and mobile phone. This initial deployment of
 Ushahidi had 45,000 users in Kenya, and was the catalyst for us realizing
-there was a need for a platform based on it, which could be use by others
+there was a need for a platform based on it, which could be used by others
 around the world.
 
 
@@ -46,7 +46,7 @@ Core Features
 * Ability to upload and download mass reports.
 * Ability to layer KML/KMZ files on the map.
 * Supports custom pages and tabs.
-* Site statitics and analytics.
+* Site statistics and analytics.
 * Plugin system.
 * One click upgrade.
 * Supports multiple SMS providers.
@@ -69,7 +69,7 @@ Details
 
 **Licence:** GNU Lesser General Public License (GPL) version 3
 
-**Software Version:** 2.7.4 (Bamako)
+**Software Version:** |version-ushahidi|
 
 **API Interfaces:** PHP
 

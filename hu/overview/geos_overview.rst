@@ -1,20 +1,20 @@
 :Author: OSGeo-Live
 :Author: Frank Warmerdam
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GEOS.png
+.. image:: /images/project_logos/logo-GEOS.png
   :alt: projekt logo
   :align: right
   :target: http://geos.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Projekt
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GEOS
 ================================================================================
@@ -23,7 +23,7 @@ Térinformatikai könyvtár
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A GEOS (Geometry Engine - Open Source) a 
-`JAVA Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_ C++
+`JAVA Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ C++
 átírása. Tartalmazza az OpenGIS Simple Features for SQL térbeli függvényeit és
 térbeli operátorait, mint ahogy a JTS topológiai függvényeit.
 

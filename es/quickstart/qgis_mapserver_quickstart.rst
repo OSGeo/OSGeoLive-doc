@@ -6,10 +6,16 @@
 
 .. _qgis_mapserver-quickstart:
  
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: /images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guía de inicio rápido de QGIS Server
@@ -32,7 +38,7 @@ GeoExt y usando QGIS Server para representar el mapa.
 
 Debe ver una ventana del navegador con un visor web de mapas mostrando un mapa del mundo.
    
-.. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 Ahora se va a cambiar el estilo del mapa usando QGIS.
 

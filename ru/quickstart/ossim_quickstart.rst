@@ -4,10 +4,16 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :scale: 80 %
   :alt: Лого проекта
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 OSSIM: начало работы
@@ -31,7 +37,7 @@ ImageLinker
 * Затем :menuselection:`Image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Убедитесь, что вы видите 3 серых спутниковых снимка.
 
-  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Развернутое описание можно найти в `блоге`_.

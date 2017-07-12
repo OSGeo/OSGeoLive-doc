@@ -6,7 +6,7 @@
 
 .. _52nSOS-overview-pl:
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/sos
@@ -23,7 +23,7 @@ pozwala na czytanie zarówno archiwalnych, jak i danych odbieranych bezpośredni
 przez sensory zdalne bądź in-situ. Sensorem może być kamera znajdująca się 
 na satelicie lub wodomierz w strumieniu.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right

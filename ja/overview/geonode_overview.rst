@@ -1,12 +1,18 @@
 :Author: Barbara Angerer, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geonode.png
+.. image:: /images/project_logos/logo-geonode.png
   :alt: project logo
   :align: right
   :target: http://geonode.org
+
+.. image:: /images/logos/OSGeo_project.png
+    :scale: 100
+    :alt: OSGeo Project
+    :align: right
+    :target: http://www.osgeo.org
 
 
 GeoNode
@@ -19,7 +25,7 @@ GeoNode
 
 GeoNodeはGeoServer, GeoExplorer, pycsw, Django, GeoExt上に構築されています。
 
-.. image:: ../../images/screenshots/800x600/geonode_basic_application.png
+.. image:: /images/screenshots/800x600/geonode_basic_application.png
   :scale: 50%
   :alt: GeoNode application
   :align: right
@@ -75,7 +81,7 @@ GeoNodeはGeoServer, GeoExplorer, pycsw, Django, GeoExt上に構築されてい�
 
 **ライセンス:** GNU General Public License (GPL) version 2.0
 
-**ソフトウェアバージョン:** 2.4.0
+**ソフトウェアバージョン:** |version-geonode|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

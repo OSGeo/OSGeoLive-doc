@@ -1,16 +1,16 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Toshikazu Seto
 :Version: osgeo-live9.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ pycsw は、:doc:`OGC Catalogue Services for the Web (CSW) 標準<../standards/c
 
 pycswは、MITライセンス化でリリースされているオープンソースであり、主要な全てのプラットフォーム (Windows, Linux, Mac OSX) で動作します。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -86,9 +86,9 @@ OGC標準:
 
 **ライセンス:** `MIT`_
 
-**ソフトウェア・バージョン:** 1.10.3
+**ソフトウェアバージョン:** |version-pycsw|
 
-**ソフトウェア・プラットフォーム:** Windows, Linux, Mac
+**対応プラットフォーム:** Windows, Linux, Mac
 
 **API インターフェース:** Python
 

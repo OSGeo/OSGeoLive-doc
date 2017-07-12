@@ -1,9 +1,9 @@
 :Author: activityworkshop
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gpsprune.png
+.. image:: /images/project_logos/logo-gpsprune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -29,7 +29,7 @@ verschiedenen Sprachen verfügbar.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_denver_de.png
+.. image:: /images/screenshots/1024x768/prune_denver_de.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -51,7 +51,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** 17.2
+**Software Version:** |version-gpsprune|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, Windows
 

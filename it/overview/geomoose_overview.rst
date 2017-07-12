@@ -1,16 +1,16 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png
+.. image:: /images/project_logos/logo-geomoose.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -39,7 +39,7 @@ per la pubblicazione, i simboli, modelli così come i dati di origine
 L'interfaccia utente è facilmente configurabile, e servizi addizionali possono 
 essere aggiunti essendo un'architettura modulare.
 
-.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 

@@ -1,20 +1,20 @@
 :Author: Jorge Sanz
 :Author: Manuel Madrid
 :Author: Mario Carrera 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
   :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 gvSIG Desktop
@@ -32,7 +32,7 @@ gvSIG は次のような点で知られています:
 * 20ヶ国語を超える言語 (スペイン語、英語、ドイツ語、フランス語、イタリア語など)で利用可能です
 * Windws, Linux, そして Mac OS X プラットフォームで利用可能です:
 
-.. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -110,9 +110,9 @@ gvSIG は次のような点で知られています:
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** |version-gvsig|
+**ソフトウェアバージョン:** |version-gvsig|
 
-**動作環境:** Windows, Linux
+**対応プラットフォーム:** Windows, Linux
 
 **サポート:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists
 

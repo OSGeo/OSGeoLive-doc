@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org
@@ -21,7 +21,7 @@ La interfície principal de R és una consola de comandes que proporciona una ex
 
 R és una implementació del llenguatge de programació S i, per això, hi ha un alt grau de compatibilitat entre els codis de R i els de S-Plus o *legacy S* així com amb versions comercials actuals de S i TIBCO Spotfire S+. La seva compatibilitat permet convertir diferents versions de codi S perquè corrin en R sense grans modificacions del codi.
 
-.. image:: ../../images/screenshots/1024x768/r-perspective.png
+.. image:: /images/screenshots/1024x768/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right

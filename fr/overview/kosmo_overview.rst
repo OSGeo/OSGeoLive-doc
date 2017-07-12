@@ -1,9 +1,9 @@
 ﻿:Author: Sergio Baños Calvo
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: Logo du projet
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
@@ -20,7 +20,7 @@ et d'analyser les données spatiales d'une variété de bases de données, en fo
 Kosmo - Desktop respecte les standards OGC et fournit une excellente intégrité topologique. 
 C'est une architecture de plugins qui permet d'être facilement adaptés pour des besoins spécifiques.
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: Capture d'écran
   :align: right

@@ -1,11 +1,11 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: logo del projecte
   :align: right
   :target: http://www.openstreetmap.org
@@ -29,7 +29,7 @@ Així com plugins de JOSM i un conjunt de dades d'exemple de diferents ciutats.
 Característiques Principals
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -70,7 +70,7 @@ Detalls
 
 **Versions del programari:**
 
-* JOSM: Latest stable snapshot (svn r7347)
+* JOSM: Latest stable snapshot (svn r11427)
 
 * Merkaartor: 1.18.1
 

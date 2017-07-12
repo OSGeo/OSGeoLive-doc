@@ -2,17 +2,17 @@
 :Author: Alan Boudreault
 :Author: Steve Lime
 :Reviewer: Stephan Meissl
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapserver-new.png
+.. image:: /images/project_logos/logo-mapserver-new.png
   :scale: 65 %
   :alt: Project logo
   :align: right
   :target: http://mapserver.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -128,7 +128,7 @@ WMS の **GetMap** リクエストで地図画像をレンダリングする
 "*&LAYERS=...*" で指定した全てのレイヤのうち、 mapfile で *STATUS ON* のものと、 *STATUS DEFAULT* のレイヤをレンダリングします。このリクエストの結果は以下の様になります。
 
 
-  .. image:: ../../images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/800x600/mapserver_map.png
     :scale: 70 %
 
 .. note::
@@ -179,7 +179,7 @@ mapfile に新しいレイヤを追加します。mapfile にある最後の *EN
 
 MapServer でレンダリングすると、先程の結果と良く似ていますが、追加した湖のレイヤを追加した画像になります。
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes.png
     :scale: 70 %
 
 
@@ -221,7 +221,7 @@ mapfile では、レイヤオブジェクトはいくつでもクラスオブジ
 この変更を加えると、大きな湖は黒い境界線で描くようになります。
 
 
-  .. image:: ../../images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note::

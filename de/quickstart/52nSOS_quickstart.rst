@@ -1,16 +1,16 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
-:Reviewer: 
-:Version: osgeo-live9.0
+:Reviewer:
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons
   :target: http://52north.org/sos
   :align: right
 
 *******************************************************************************
-52°North SOS Quickstart 
+52°North SOS Quickstart
 *******************************************************************************
 
 Der 52°North SOS ermöglicht den Zugriff und die Bereitstellung von raumbezogenen
@@ -18,12 +18,13 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
 Dieses Quickstart-Dokument umfasst:
 
-  * Beispiel eines Capabilities-Dokumentes des 52°North SOS, um festzustellen, 
+  * Beispiel eines Capabilities-Dokumentes des 52°North SOS, um festzustellen,
     welche Operationen/Abfrageparameter unterstützt werden.
   * Beispiel-Anfrage um Messdaten des SOS abzurufen.
-  * Informationen zur Datenvisualisierung in einem einfachen, mit dem SOS 
-    mitgelieferten Viewer.
+  * Informationen zur Datenvisualisierung in einem einfachen, mit dem SOS
+    mitgelieferten Viewer "Helgoland".
   * Informationen zum Ausprobieren einer REST-Schnittstelle für Anwendungsentwickler.
+  * Einfügen von dynamisch generierten Beispieldaten.
 
 .. contents:: Inhalt
 
@@ -35,7 +36,7 @@ Erste Schritte
 2. Es öffnet sich ein Browser-Fenster, welches die Willkommens-Seite der
    52°North SOS-Anwendung anzeigt (siehe Abb. 1).
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_start.png
+.. image:: /images/screenshots/1024x768/52n_sos_start.png
   :scale: 100 %
   :alt: 52°North SOS-Anwendung - Willkommens-Seite
   :align: center
@@ -44,22 +45,22 @@ Erste Schritte
 
 3. Um eigene Anfragen an den SOS zu stellen, wird das `Capabilities-Dokument des
    52°North SOS benötigt <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_.
-   Mit Hilfe der Inhalte des Capabilities-Dokuments (siehe Abb. 2) können die 
+   Mit Hilfe der Inhalte des Capabilities-Dokuments (siehe Abb. 2) können die
    Beispielanfragen aus der Beispielliste individuell angepasst werden.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
   :alt: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
   :align: center
-  
+
 **Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage.
 
-4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von 
-   1.5.2015 00:30 bis 23:00 in der Zeitzone +0 abzufragen, muss im `Test Client 
-   <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" --> 
-   Version "2.0.0" --> Binding "SOAP" --> Operation "GetObservation" folgende 
+4. Um z.B. für jede Zeitreihe im SOS die verfügbaren Daten in dem Zeitraum von
+   28.2.2017 23:45 bis 1.3.2017 23:45 in der Zeitzone +0 abzufragen, muss im `Test Client
+   <http://localhost:8080/52nSOS/client>`_ nach Auswahl von Service "SOS" -->
+   Version "2.0.0" --> Binding "SOAP" --> Operation "GetObservation" folgende
    Abfrage im Feld "Request" stehen:
-   
+
 .. code-block:: xml
 
   <?xml version="1.0" encoding="UTF-8"?>
@@ -80,15 +81,15 @@ Erste Schritte
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2015-05-01T00:30:00.000+00:00</gml:beginPosition>
-                          <gml:endPosition>2015-05-31T23:00:00.000+00:00</gml:endPosition>
+                          <gml:beginPosition>2017-02-28T23:45:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2017-03-01T23:45:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>
           </sos:GetObservation>
       </env:Body>
   </env:Envelope>
-  
+
 **Listing 1:** Abfrage für Messdaten.
 
 Ausprobieren
@@ -99,15 +100,24 @@ Ausprobieren
 * Lernen Sie den `SOS-Administrator <http://localhost:8080/52nSOS/admin/index>`_ kennen.
    Die Zugangsdaten lauten: "user" mit Passwort "user".
 * Nutzen Sie den `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (siehe Abb. 3).
+* Testen Sie wweitere Beispieldaten, in dem Sie die folgenden Schritte ausführen:
+  1. Öffen Sie im SOS-Administrator die `"database maintenance"-Seite <http://localhost:8080/52nSOS/admin/datasource>`_.
+  2. Leeren Sie die Datanbank mit dem "Clear Datasource"-Knopf" (Dadurch werden die initialen
+     Beispiel-Daten gelöscht. Sie können OSGeoLive neustarten, um Sie zurück zu bekommen.).
+  3. Fügen Sie dynamisch erzeugte Beispieldaten durch einen Klick auf den
+     "Insert sample data"-Knopf. Seien Sie informiert, dass dieser Prozess einige
+     Minuten in Anspruch nimmt.
+  4. Öffnen Sie `helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_
+     erneut und erkunden Sie die erzeugten Beispieldaten.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
+.. image:: /images/screenshots/1024x768/52n_sos_viewclient.png
   :scale: 100 %
   :alt: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten
   :align: center
-  
+
 **Abb. 3**: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten.
 
-* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (siehe Listing 2):
+* Testen Sie die `REST API <http://localhost:8080/52nSOS/api/>`_ (siehe Listing 2):
 
 .. code-block:: js
 
@@ -151,9 +161,18 @@ Ausprobieren
             id: "phenomena",
             label: "Phenomenon",
             description: "An organizing unit to filter resources."
-        }
+        },
+        {
+            id: "platforms",
+            label: "Platforms",
+            description: "A sensor platform where observations are made."
+        },
+        {
+            id: "geometries",
+            label: "Geometries",
+            description: "A geometry where observations are made or that was observed."
     ]
-    
+
 **Listing 2:** Ausgabe der REST-Schnittstelle.
 
 
@@ -164,15 +183,15 @@ Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie ü
  folgende Wege:
 
 * 52°North `SOS-Überblick <../overview/52nSOS_overview.html>`_,
-* 52°North Sensor-Web-E-Mail-Liste: swe@52north.org, 
-* Forum der 52°North `Sensor-Web-Community <http://sensorweb.forum.52north.org/>`_, 
+* 52°North Sensor-Web-E-Mail-Liste: swe@52north.org,
+* Forum der 52°North `Sensor-Web-Community <http://sensorweb.forum.52north.org/>`_,
 * 52°North `SOS-Client <http://sensorweb.demo.52north.org/SOSclient/>`_,
-* 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, oder 
-* Website der `52°North Sensor-Web-Community 
+* 52°North `SOS-Website <http://52north.org/communities/sensorweb/sos/>`_, oder
+* Website der `52°North Sensor-Web-Community
   <http://52north.org/communities/sensorweb/>`_.
 
-Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene 
-Projekte, Organisationen und Personen unterstützt. Mehr Informationen 
+Die Entwicklung dieser Version des 52°North SOS wurde durch verschiedene
+Projekte, Organisationen und Personen unterstützt. Mehr Informationen
 finden Sie in der `52°North SOS Anwendung <http://localhost:8080/52nSOS/index>`_.
 
 Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl,
@@ -180,11 +199,11 @@ Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem Befehl,
 
 ::
 
-  user@osgeolive:~$ sudo service tomcat7 status
-  * Tomcat servlet engine is running with pid 1234          <-- Tomcat läuft
+  user@osgeolive:~$ sudo systemctl status tomcat8.service | grep Active
+  Active: active (running) since Wed 2017-06-21 12:00:42 UTC; 42min ago   <-- Tomcat läuft
   [...]
-  * Tomcat servlet engine is not running.                   <-- Tomcat läuft nicht, starten Sie Tomcat über folgenden befehl:
-  user@osgeolive:~$ sudo service tomcat7 start
-  * Starting Tomcat servlet engine tomcat7           [ OK ] <-- Tomcat läuft nun
-  
+  Active: inactive (dead)                                                 <-- Tomcat läuft nicht, starten Sie Tomcat über folgenden befehl:
+  user@osgeolive:~$ sudo systemctl start tomcat8.service
+  Active: active (running) since Wed 2017-06-21 12:52:42 UTC; 3s ago      <-- Tomcat läuft nun
+
 **Listing 3:** Befehle zum Abfragen des Status und zum Starten des Tomcat-Dienstes (Passwort für sudo: user).

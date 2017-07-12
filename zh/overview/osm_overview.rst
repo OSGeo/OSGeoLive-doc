@@ -1,10 +1,10 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right
   :target: http://www.openstreetmap.org
@@ -23,7 +23,7 @@ Open Street Map 工具组
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -57,7 +57,7 @@ Open Street Map 工具组
 
 **软件版本：**
 
-* JOSM: 最新的稳定版（SVN 版本 r7347）
+* JOSM: 最新的稳定版（SVN 版本 r11427）
 
 * Merkaartor: 1.18.1
 

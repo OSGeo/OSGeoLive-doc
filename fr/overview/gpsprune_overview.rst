@@ -1,9 +1,9 @@
 :Author: activityworkshop
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: /images/project_logos/logo-prune.png
   :alt: Logo du projet
   :align: right
   :target: http://gpsprune.activityworkshop.net/
@@ -29,7 +29,7 @@ dans plus de dix langues différentes.
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: Capture d'écran
   :align: right

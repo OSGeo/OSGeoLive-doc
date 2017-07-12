@@ -1,13 +1,13 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right
-  :target: http://gmt.soest.hawaii.edu
+  :target: https://gmt.soest.hawaii.edu
 
 
 GMT
@@ -20,7 +20,7 @@ GMT は、 (x,y) および (x,y,z) のデータセット（フィルタリング
 
 GMT は、多くの一般的な地図投影法に加えて、線形、対数、パワースケーリングに対応し、海岸線や河川、政治的境界線のような対応データが付属しています。
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -34,17 +34,17 @@ GMT は、多くの一般的な地図投影法に加えて、線形、対数、�
 詳細
 --------------------------------------------------------------------------------
 
-**ウェブサイト:** http://gmt.soest.hawaii.edu
+**ウェブサイト:** https://gmt.soest.hawaii.edu
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 4.5.11
+**ソフトウェアバージョン:** |version-gmt|
 
-**動作環境:** GNU/Linux, Mac OSX, MS Windows
+**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows
 
 **API インターフェース:** Command line
 
-**サポート:** http://gmt.soest.hawaii.edu/gmt/gmt_maillist.html
+**サポート:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
 クイックスタート

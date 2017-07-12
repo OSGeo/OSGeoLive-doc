@@ -2,9 +2,9 @@
 :Contact: epiesasha at me dot com
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 
-.. image:: ../../images/project_logos/logo-jupyter.png
+.. image:: /images/project_logos/logo-jupyter.png
   :alt: project logo
   :align: right
   :target: http://jupyter.org/
@@ -31,19 +31,19 @@ From the application launch menu in the lower left corner.
  
 * Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*
 
-.. image:: ../../images/screenshots/1024x768/jupyter1-1.png
+.. image:: /images/screenshots/1024x768/jupyter1-1.png
    :scale: 60 %
   
 A terminal window will open and a startup log will begin to scroll.
 
 * Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* 
 
-.. image:: ../../images/screenshots/1024x768/jupyter1-2.png
+.. image:: /images/screenshots/1024x768/jupyter1-2.png
    :scale: 60 %
 
 A web browser is launched showing the notebook dashboard.
 
-.. image:: ../../images/screenshots/1024x768/jupyter1-3.png
+.. image:: /images/screenshots/1024x768/jupyter1-3.png
    :scale: 60 %
 
 From the notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files.
@@ -60,36 +60,36 @@ Let's open an existing notebook. From the main page click on the directory GSOC.
 .. Cameron Comment: We are going through too many steps here to find the
   Cesium example. We should be able to select Cesium from the first TOC.
 
-.. image:: ../../images/screenshots/1024x768/jupyter2.png
+.. image:: /images/screenshots/1024x768/jupyter2.png
    :scale: 80 %
 
 Choose the Introduction notebook. 
  
-.. image:: ../../images/screenshots/1024x768/jupyter3.png
+.. image:: /images/screenshots/1024x768/jupyter3.png
    :scale: 60 %
 
 This is a simple notebook, which contains text and links, like a HTML web page.
 
 Then under "Simple-web-gis-products" select "CESIUM".
 
-.. image:: ../../images/screenshots/1024x768/jupyter4.png
+.. image:: /images/screenshots/1024x768/jupyter4.png
    :scale: 60 %
 
 .. Cameron Comments:
   * Suggest rename Interact to Interactive
 
-Here there are a series of example using the cesium javascript library.
+Here there is a series of examples using the cesium javascript library.
 Let's click on "CesiumWidget Interact-Example", which uses the widget extension, some python libraries and cesium-js.
 
-From the toolbar on top of the notebook chose: cell->run all. If everything worked as planned you should be able to see the results at the bottom of the page.
+From the toolbar on top of the notebook choose: cell->run all. If everything worked as planned you should be able to see the results at the bottom of the page.
 
-.. image:: ../../images/screenshots/1024x768/jupyter5.png
+.. image:: /images/screenshots/1024x768/jupyter5.png
    :scale: 60 %
 
 Change code
 ================================================================================
 
-Now lets change some of the code:
+Now let's change some of the code:
 
 In the code cell ``in [8]`` we generated a python dictionary based on some keywords (location names) with empty values:
 
@@ -115,7 +115,7 @@ Try to add or replace new keywords like we did in ``In [8]``
 
     in []:  mynewplace = {'Cairns, AU':'', 'Cooktown, AU':'', 'Darvin, AU':''}
 
-and re run ``In [9] [10] [11]`` you will see the newly created dictionary is now used in the drop down menu to select the new location and zoom-to withing the Cesium globe.
+and re run ``In [9] [10] [11]`` you will see the newly created dictionary is now used in the drop down menu to select the new location and zoom-to within the Cesium globe.
 
 What Next?
 ================================================================================

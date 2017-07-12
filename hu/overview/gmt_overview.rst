@@ -1,11 +1,11 @@
 :Author: Hamish Bowman
 :Author: Paul Wessel
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Zoltan Siki
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GMT.png
+.. image:: /images/project_logos/logo-GMT.png
   :alt: projekt logo
   :align: right
   :target: http://gmt.soest.hawaii.edu
@@ -29,7 +29,7 @@ hatvány skálázás állítható be és olyan adatokat tartalmaz mint a tenger
 partvonalak, a folyók és a politikai határok.
 
 
-.. image:: ../../images/screenshots/800x600/gmt-example28.png
+.. image:: /images/screenshots/800x600/gmt-example28.png
   :scale: 50 %
   :alt: képernyőkép
   :align: right

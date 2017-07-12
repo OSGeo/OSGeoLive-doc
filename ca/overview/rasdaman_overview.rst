@@ -1,11 +1,11 @@
 :Author: Peter Baumann
 :Author: Jinsongdi Yu
 :Author: Dimitar Misev
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: project logo
   :align: right
   :target: http://rasdaman.org
@@ -21,7 +21,7 @@ Les interfícies d'accés inclouen OGC WCS, WCPS, i WPS, així com API en C++ i 
 
 La tecnologia de rasdaman és estable i madura, i s'ha desplegat en entorns de producció des de fa 10 anys; l'IGN francès utilitza rasdaman en mapes d'imatges aèries de dotzenes de TB. A la conferència ACM sobre Principis de Sistemes de Bases de Dades de 2007, l'expert en bases de dades ràster Rona Machlin va descriure rasdaman com "la implementació més entenedora d'un sistema d'aquesta tipus".
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

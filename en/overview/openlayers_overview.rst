@@ -2,36 +2,33 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit
 :Author: Antonio Santiago
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live9.5
+:Author: Bart van den Eijnden
+:Reviewer: Cameron Shorter, Jirotech
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
 
-OpenLayers3
+OpenLayers
 ================================================================================
 
-Browser/Mobile Map Library And GIS Client
+A high-performance, feature-packed library for all your mapping needs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OpenLayers3 is a light-weight mapping library for web and mobile clients which users modern browser technologies, such as HTML5, WebGL and CSS3.
+OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript, released under the 2-clause BSD License (also known as the FreeBSD).
 
-OpenLayers3 is a complete rewrite the previous robust and widely deployed
-OpenLayers2 library. They both offer an extensive set of features that cover
-basic to advanced web mapping and GIS requirements.
-
-.. image:: ../../images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/800x600/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right
@@ -41,20 +38,20 @@ Core Features
 
 * Layers
 
-  * Raster: WMS/WMTS, OpenStreetMap, MapQuest, Stamen, Bing, static images, etc.
-  * Vector: WFS, KML, GeoJSON, TopoJSON, GPX, and IGC.
+  * Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, other XYZ sources, static images, etc.
+  * Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles.
   * Heatmaps.
   * Render vector layers as raster.
 
 * Controls and Interactions
 
-  * Map overview, zoom slider, zoom in/out buttons, scale line, rotation, etc.
+  * Overview map, zoom slider, zoom in/out buttons, scale line, rotate map, etc.
   * Map pan, zoom and rotation, feature selection, modification, etc.
 
 * Styling and customization
 
   * Powerful styling of features: points, lines, polygons and icons.
-  * Customize controls look and feel using CSS3.
+  * Customize controls look and feel using CSS.
 
 * Overlays
 
@@ -64,14 +61,15 @@ Core Features
 
 * Events
 
-  * Attach listener functions to react against map events.
+  * Attach listener functions to map events.
   * Create your custom controls or interactions.
 
-* Misc
+* Miscellaneous
 
   * Mobile browser support.
-  * Light weight library. Build customized packages to reduce size.
-  * Render maps using different technologies: Canvas, WebGL, DOM.
+  * Raster reprojection.
+  * Light-weight library. Build customized packages to reduce size.
+  * Render maps using different technologies: Canvas, WebGL.
   * Raster analysis (change hue/saturation).
 
 Details
@@ -81,11 +79,11 @@ Details
 
 **License:** 2-clause BSD License (aka FreeBSD License)
 
-**Software Version:** 3.13.1
+**Software Version:** |version-openlayers|
 
 **API Interface:** JavaScript
 
-**Support:** https://groups.google.com/forum/#!forum/ol3-dev
+**Support:** https://stackoverflow.com/questions/tagged/openlayers (user) and https://groups.google.com/forum/#!forum/openlayers-dev (developer)
 
 
 Quickstart

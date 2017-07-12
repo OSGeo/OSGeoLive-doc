@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: Logo du projet
   :align: right
   :target: http://www.openjump.org
@@ -20,7 +20,7 @@ Il est fourni en édition CORE ou PLUS, cette dernière version ajoutant de nomb
 plugins pratiques. 
 OpenJUMP est excellent pour l'édition de données le prototypage rapide de fonctions SIG.
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: Capture d'écran de OpenJump
   :align: right

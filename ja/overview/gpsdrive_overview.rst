@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gpsdrive.png
+.. image:: /images/project_logos/logo-gpsdrive.png
   :alt: project logo
   :align: right
   :target: http://www.gpsdrive.de
@@ -25,7 +25,7 @@ GPS ナビソフト
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: /images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -49,9 +49,9 @@ GPS ナビソフト
 
 **ライセンス:** GNU General Public License (GPL) version 2
 
-**バージョン:** 2.12
+**ソフトウェアバージョン:** 2.12
 
-**サポートするプラットフォーム:** GNU/Linux, Mac OSX
+**対応プラットフォーム:** GNU/Linux, Mac OSX
 
 **サポート:** http://gpsdrive.de/support.shtml
 

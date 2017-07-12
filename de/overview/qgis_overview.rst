@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -22,11 +22,9 @@ QGIS
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-QGIS ist ein benutzerfreundliches, quelloffenes Geographisches Informationssystem, mit dem man Geodaten visualisieren, managen, editieren und analysieren sowie druckfertige Karten erstellen kann. 
-Über eine direkte Schnittstelle zu  :doc:`GRASS <grass_overview>` stellt es umfangreiche analytische Module bereit.
-Es läuft unter Linux, Unix, Mac OS X und Windows und unterstützt eine Vielzahl an Vektor-, Raster- und Datenbankformaten sowie Funktionalitäten.
+QGIS ist ein benutzerfreundliches Geographisches Informationssystem. Es eignet sich zur Darstellung, Verwaltung, Berarbeitung und zur Analyse von Geodaten. Darüberhinaus kann man mit QGIS druckfertige Karten zusammenstellen. Es besteht eine Schnittstelle zu einer Vielzahl von externen Analysemodulen wie :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox <otb_overview>` oder :doc:`GDAL/OGR <gdal_overview>`. QGIS läuft unter Linux, Unix, Mac OS X und Windows. Es unterstützt sehr viele unterschiedliche Vektor- und Rasterformate. Außerdem können viele verschiedene Datenbankentypen (z.B. PostGIS) angebunden werden.  
 
-.. image:: ../../images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/1024x768/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -34,49 +32,49 @@ Es läuft unter Linux, Unix, Mac OS X und Windows und unterstützt eine Vielzahl
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-* Benutzerfreundliche grafische Oberfläche.
+* Benutzerfreundliche grafische Benutzeroberfläche:
 
-    * Identifizieren/Selektieren von Objekten,
-    * Editieren/anschauen/abfragen von Attributen,
-    * 'On the Fly' Projektion,
-    * Druckzusammenstellung,
-    * Objekte beschriften,
-    * Darstellung von Vektor- und Rasterlayern verändern,
-    * Ergänzung eines Gitternetz Layers mit fTools
-    * und weiteres ...
+    * Identifizierung und Auswahl von Objekten
+    * Bearbeitung, Darstellung und Abfrage von Attributen
+    * gleichzeitige Darstellung mehrerer Projektionen ('On the Fly')
+    * Druckzusammenstellung
+    * Beschriftung
+    * Darstellung von Vektor- und Rasterlayern verändern
+    * Erstellung eines Gitternetz Layers
+    * und viel mehr ...
 
-* Einfaches anzeigen zahlreicher Vektor- and Rasterformate
+* Einfaches Anzeigen zahlreicher Vektor- and Rasterformate:
 
     * Datenbank Tabellen: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, SpatiaLite
-    * zahlreiche Vektorformate, welche durch die OGR Bibliothek unterstützt werden, inklusive ESRI shapefiles, MapInfo, SDTS und GML.
-    * zahlreiche Rasterformate, welche durch die GDAL Bibliothek unterstützt werden, z.B. digitale Höhenmodelle, Luft- und Satelitenbilder.
-    * GRASS Locations und Mapsets,
-    * Online Geodaten, die als OGC-Dienste WMS, WMTS, WFS oder WCS bereitgestellt werden;
+    * alle Vektorformate die durch die OGR Bibliothek unterstützt werden (inklusive ESRI shapefiles, GeoPackage, MapInfo, SDTS und GML)
+    * alle Rasterformate die durch die GDAL Bibliothek unterstützt werden (z.B. digitale Höhenmodelle, Luft- und Satellitenbilder, ... )
+    * GRASS Locations und Mapsets
+    * Online Geodaten, die als OGC-Dienste WMS, WMTS, WFS oder WCS bereitgestellt werden
     * 2.5D Anzeige 
 
-* Erstellen, editieren und exportieren räumlicher Daten mit:
+* Erstellung, Bearbeitung und Export von räumlicher Daten mit:
 
-    * den Digitalisierwerkzeugen für GRASS und Shapefiles,
-    * dem Plugin zur Georeferenzierung von Rasterlayern,
-    * dem GPS Werkzeuge zum Im- und Export von GPX Formaten, konvertieren anderer GPS Formate nach GPX oder direktes hochladen/herunterladen von einem GPS Gerät.
+    * Digitalisierwerkzeugen für GRASS und Shapefiles,
+    * einem Plugin zur Georeferenzierung von Rasterlayern
+    * einem GPS Werkzeug zum Im- und Export von GPX Formaten, Konvertierung anderer GPS Formate nach GPX und direkte Kommunikation mit einem GPS Gerät.
 
-* Räumliche Analysen mit dem fTool Plugin für Shapefiles oder den integrierten GRASS Modulen durchführen, inklusive:
+* Räumliche Analysen für alle Datenformate:
 
-    * Kartenalgebra,
-    * Reliefanalyse,
-    * hydrologische Modellierung,
-    * Netzwerkanalyse,
-    * komfortable, durchsuchbare Funktionssammlung
-    * Grafisches Modellieruengswerkzeug zur Definition von wiederverwendbaren Funktionen zur Ausführung von Analysen
+    * Kartenalgebra (Mapalgebra)
+    * Reliefanalyse 
+    * hydrologische Modellierung
+    * Netzwerkanalyse (Routenplanung, ... )
+    * einfache, durchsuchbare Sammlung von Algorithmen (Processing Toolbox)
+    * Grafisches Modellierungswerkzeug zur Erstellung von wiederverwendbaren Funktionen 
     * und vieles mehr
 
 * Karten über das Internet bereitstellen
-* erweiterbare Plugin Architektur.
+* erweiterbare Plugin Architektur
 
 Implementierte Standards
 --------------------------------------------------------------------------------
 
-* OGC Standard kompatibel (WMS,WFS(Plugin))
+* OGC Standard kompatibel (WMS,WFS, ... )
 
 Details
 --------------------------------------------------------------------------------
@@ -85,7 +83,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 2.14.0
+**Software Version:** |version-qgis|
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 

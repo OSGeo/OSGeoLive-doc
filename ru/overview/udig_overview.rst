@@ -1,11 +1,11 @@
 ﻿:Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :alt: Логотип udig
   :align: right
   :target: http://udig.refractions.net/
@@ -16,7 +16,7 @@ uDig
 Настольная ГИС
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/1024x768/udig-overview.png
   :scale: 50
   :alt: Интерфейс udig
   :align: right
@@ -46,7 +46,7 @@ uDig — это:
 * Печать и генерация PDF.
 * Для разработчиков:
   
-  * Сборка приложений на Java, используя :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <http://tsusiatsoftware.net/jts/main.html>`_.
+  * Сборка приложений на Java, используя :doc:`GeoTools <geotools_overview>`, `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_.
   * Продвинутая система плагинов, предоставляемая платформой Eclipse.
   * Использование нативных виджетов.
 

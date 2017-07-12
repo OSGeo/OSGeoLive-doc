@@ -1,9 +1,9 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Daniel Nüst (d.nuest@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: логотип проекта
   :align: right
   :target: http://52north.org/sos
@@ -20,7 +20,7 @@
 с локальных и удаленных сенсоров. Сенсором может выступать камера на спутнике 
 или измеритель уровня воды в реке.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: снимок экрана тестового клиента 52°North SOS версии 1.0.0
   :align: right

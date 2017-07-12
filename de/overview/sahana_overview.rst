@@ -1,9 +1,9 @@
 :Author: Gavin Treadgold
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-sahana-eden.png
+.. image:: /images/project_logos/logo-sahana-eden.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.sahanafoundation.org
@@ -18,7 +18,7 @@ Sahana ist ein freies Open Source Katastrophenmanagementsystem. Es ist ein kolla
 
 Das Sahana Projekt wurde initiiert von Freiwilligen der Sri Lanka FOSS Entwicklungsgruppe, um ihren Landsleuten zu helfen, die vom Tsunami in Asien im Dezember 2004 betroffen waren. Das System wurde offiziell von der Regierung von Sri Lanka genutzt und wurde als Freie Software unter Open Source Lizenz freigegeben. Anschließend wurde es mit der finanziellen Unterstützung der schwedischen internationalen Entwicklungsbehörde, IBM und der US National Science Foundation als ein allgemein nutzbares Werkzeug zum Katastrophenmanagement umgeschrieben, und wurde seitdem von dutzenden Regierungen und nichtstaatliche Organisation verwendet.
 
-.. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: /images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: Bildschirmfoto
   :align: right
@@ -52,7 +52,7 @@ Details
 
 **Lizenz:** MIT License
 
-**Software Version:** 1.0.1
+**Software Version:** |version-sahana|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, Microsoft Windows
 

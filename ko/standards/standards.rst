@@ -24,7 +24,7 @@ OGC 기준을 이용하여 웹 서비스 어플리케이션을 개발하는 것�
 최근에 개발된 대부분의 OGC 기준들은 웹 서비스 환경을 위한 기준이며, 이러한 기준들을 통틀어 OGC Web Services (OWS)라고 칭합니다. 아래 그림은 OGC 웹 서비스의 일반적인 설계 스키마를 보여줍니다. 이 스키마는 다양한 지오프로세싱과 위치활동에 참여하는 서비스의 일반적인 그룹들을 명시하고 있습니다.
 
 
-.. figure:: ../../images/standards/publish_find_bind.jpg
+.. figure:: /images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Web services framework of OGC geoprocessing standards
 

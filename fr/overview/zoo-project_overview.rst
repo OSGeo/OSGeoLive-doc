@@ -1,18 +1,19 @@
 :Author: Gérald Fenoy
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Zoo.png
+.. image:: /images/project_logos/logo-Zoo.png
   :alt: Logo du projet
   :align: right
   :target: http://zoo-project.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100
-  :alt: Projet en incubation OSGeo
+  :alt: OSGeo Community Project
   :align: right
   :target: http://www.osgeo.org
+
 
 ZOO-Project
 ================================================================================
@@ -31,7 +32,7 @@ basés sur les bibliothèques GEOS et OGR.
 
 ZOO est composé de trois parties:
 
-.. image:: ../../images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
   :scale: 40 %
   :alt: Capture d'écran ZOO
   :align: right

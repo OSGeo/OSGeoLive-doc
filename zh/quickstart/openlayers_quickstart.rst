@@ -7,6 +7,18 @@
 OpenLayers 快速入门
 ********************************************************************************
 
+.. image:: /images/project_logos/logo-OpenLayers.png
+  :scale: 80 %
+  :alt: project logo
+  :align: right
+  :target: http://openlayers.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 OpenLayers 实例
 --------------------------------------------------------------------------------
 　　通过学习示例可以快速掌握 OpenLayers 的使用。一些示例安装在 Live `http://localhost/openlayers/examples <../../openlayers/examples>`_ 。

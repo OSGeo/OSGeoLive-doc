@@ -1,9 +1,10 @@
 :Author: Dane Springmeyer
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live9.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :alt: project logo
   :align: right
   :target: http://mapnik.org/
@@ -19,7 +20,7 @@ Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature edges
 
 Mapnik has typically been embedded in Python applications which deliver their maps over the internet although scaling improvements have meant that Mapnik has recently been getting used to create high resolution paper maps too.
 
-.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: /images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right
@@ -43,7 +44,7 @@ Details
 
 **Licence:** LGPL (GNU Lesser General Public Licence)
 
-**Software Version:** 2.3.0
+**Software Version:** |version-mapnik|
 
 **Supported Platforms:** Windows, Linux, Mac
 

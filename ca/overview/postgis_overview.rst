@@ -9,7 +9,7 @@
 
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
@@ -23,11 +23,11 @@
 
 .. Consell per a la redacció:
   Els logos del projecte s'emmagatzemen aquí:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   i també es pot accedir des d'aquí:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :alt: logo del projecte
   :align: right
   :target: http://postgis.refractions.net/
@@ -35,14 +35,12 @@
 .. Consell per a la redacció:
   Si el projecte és d'OSGeo, o està en incubació, cal incloure-hi el logo de l'organització.
   La llista de projectes d'OSGeo està en aquesta pàgina: http://www.osgeo.org/
-  .. image:: images/logos/OSGeo_incubation.png
-  .. image:: images/logos/OSGeo_project.png
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Projecte OSGeo en Incubació
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 .. Consell per a la redacció: Nom de l'aplicació
 
@@ -87,7 +85,7 @@ que permeten visualitzar i manipular les dades PostGIS.
   Les captures de pantalla s'han de fer amb una resolució de pantalla de 1024x768.
   El fons d'escriptori no ha d'aparèixer degut a que pot canviar amb les versions.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

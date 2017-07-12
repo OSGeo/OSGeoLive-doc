@@ -1,10 +1,10 @@
 :Author: Dave Register
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-opencpn.png
+.. image:: /images/project_logos/logo-opencpn.png
   :alt: project logo
   :align: right
   :target: http://www.opencpn.org
@@ -25,7 +25,7 @@ As the host vessel moves, new charts are selected and displayed at user specifie
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
+.. image:: /images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -49,7 +49,7 @@ Details
 
 **Licence:** GNU General Public License (GPL) version 2
 
-**Software Version:** 3.2.2
+**Software Version:** |version-opencpn|
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 

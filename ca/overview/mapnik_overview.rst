@@ -1,11 +1,11 @@
 :Author: Dane Springmeyer
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :alt: logotip del projecte
   :align: right
   :target: http://mapnik.org/
@@ -28,7 +28,7 @@ Mapnik s'acostuma a incrustar dintre d'aplicacions en Python que permeten la
 generació de mapes en internet, encara que les darreres millores també permeten
 la creació i la impressió de mapes amb gran resolució.
 
-.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: /images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

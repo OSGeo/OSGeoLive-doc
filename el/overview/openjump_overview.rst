@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-openjump.png
+.. image:: /images/project_logos/logo-openjump.png
   :alt: project logo
   :align: right
   :target: http://www.openjump.org
@@ -18,7 +18,7 @@ OpenJUMP GIS
 Το OpenJUMP είναι ένα λογισμικό GIS, ευκολο στη χρήση που επιτρέπει στους χρήστες του την επεξεργασία, ανάλυση, αποθήκευση και οπτικοποίηση γεωγραφικών δεδομένων.
 Είναι επιπλέον ένα εξαιρετικό περιβάλλον για την ανάπτυξη νέων αλγορίθμων σε περιβάλλον GIS.
 
-.. image:: ../../images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

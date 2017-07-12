@@ -1,11 +1,11 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 Translator: Astrid Emde
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-tilemill.png
+.. image:: /images/project_logos/logo-tilemill.png
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -38,7 +38,7 @@ TileMill wird typischerweise in Verbindung mit einem Desktop GIS (wie
 beispielsweise QGIS) für die Vorbereitung der Daten und einem Graphikprogramm
 (wie GIMP) für die Erzeugung von Symbolen, Mustern und Texten verwendet.
 
-.. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
+.. image:: /images/screenshots/1024x768/tilemill_interface2.png
   :scale: 50 %
   :alt: TilleMill Benutzeroberfläche
   :align: right

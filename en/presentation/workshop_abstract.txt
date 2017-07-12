@@ -4,17 +4,17 @@ The abstract, slides and script are maintained at:
 https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation
 
 The latest stable version of the slides can be viewed at:
-http:///livedvd/docs/en/presentation/
-
-================================================================================
+https://live.osgeo.org/en/presentation/index.html
 
 :Author: <Your Name>, <Affiliation>
-:Author: Cameron Shorter, LISAsoft
+:Author: Cameron Shorter, Jirotech
 
 :History: This document is derived from OSGeo-Live Project Overviews and
   Quickstarts, by OSGeo-Live authors.
 
 :License: Creative Commons Attribution Share Alike 3.0 Unported (CC BY-SA 3.0)
+
+================================================================================
 
 :Workshop Title: Introduction to the breadth of Geospatial Open Source
 
@@ -41,5 +41,5 @@ This presentation is very useful for anyone wishing to gain a high level underst
 
 <Presenter1> is ...
 
-This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeo-Live project, and Geospatial Programs Manager at LISAsoft.
+This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeo-Live project, and Geospatial Programs Manager at Jirotech.
 

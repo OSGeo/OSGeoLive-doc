@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver.png
+.. image:: /images/project_logos/logo-eoxserver.png
   :alt: project logo
   :align: right
   :target: https://eoxserver.readthedocs.org/
@@ -44,7 +44,7 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
     Geospatial Consortium) 標準の WMS, WCS, EO-WMS, EO-WCS に対応
   * ユーザーによる効率的な開発: ビューとダウンロードの設定作成
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right
@@ -114,9 +114,9 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
 
 **ライセンス:** `MIT-style license <https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_
 
-**バージョン:** |version-eoxserver|
+**ソフトウェアバージョン:** |version-eoxserver|
 
-**動作プラットフォーム:** Linux, Windows, Mac
+**対応プラットフォーム:** Linux, Windows, Mac
 
 **API インターフェース:** Python
 

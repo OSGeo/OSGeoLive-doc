@@ -1,9 +1,9 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncdataset.png 
+.. image:: /images/project_logos/logo-ncdataset.png 
   :alt: Projektlogo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -28,7 +28,7 @@ Zur Verfügung gestellt werden drei hierarchische Ebenen:
 
 * ein kleines, ländliches Einzugsgebiet mit einer Auflösung von 1m-3m (siehe Bild).
 
-.. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: Bildschirmfoto North Carolina Datensatz
   :align: right

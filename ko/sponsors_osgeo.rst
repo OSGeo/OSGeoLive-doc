@@ -18,64 +18,35 @@ OSGeo는 포함된 소프트웨어, 프로젝트 및 회사 등을 추천 및 �
 OSGeo Supporting Sponsors
 --------------------------------------------------------------------------------
 
-.. image:: ../images/logos/ordnance-survey_logo.png
-  :alt: Ordnance Survey
-  :target: http://www.ordnancesurvey.co.uk
-
-
-OSGeo 관련 후원사
---------------------------------------------------------------------------------
-
-.. image:: ../images/logos/geocat_logo.png
+.. image:: /images/logos/geocat_logo.png
   :alt: GeoCat
-  :align: left
   :target: http://geocat.net/
 
-.. image:: ../images/logos/astun.png
+
+.. image:: /images/logos/Boundless_Logo.png
+  :alt: Boundless
+  :target: http://boundlessgeo.com/
+
+.. image:: /images/logos/gaia3d.png
+  :alt: Gaia3D
+  :target: http://www.gaia3d.com/
+
+.. image:: /images/logos/astun.png
   :alt: Astun Technology
-  :align: center
-  :target: http://www.isharemaps.com
+  :target: https://astuntechnology.com/
 
-.. image:: ../images/logos/borealis.jpg
-  :alt: BOREALIS
-  :align: right
-  :target: http://www.boreal-is.com
+.. image:: /images/logos/chameleon-john-logo.png
+  :alt: ChameleonJohn
+  :target: https://www.chameleonjohn.com/
 
-.. image:: ../images/logos/ign_france.png
-  :alt: IGN
-  :align: left
-  :target: http://www.ign.fr
+.. image:: /images/logos/apps-for-rent-logo.png
+  :alt: Apps4Rent
+  :target: http://www.apps4rent.com/
 
-.. image:: ../images/logos/pci.jpg
-  :alt: PCI Geomatics
-  :align: center
-  :target: http://www.pcigeomatics.com
+.. image:: /images/logos/DealIslands.png
+  :alt: Dealslands
+  :target: http://www.dealslands.co.uk/
 
-.. image:: ../images/logos/camptocamp_logo.png
-  :scale: 80 %
-  :alt: Camptocamp
-  :align: right
-  :target: http://camptocamp.com
-
-.. image:: ../images/logos/lizardtech_logo_sml.png
-  :alt: LizardTech
-  :align: left
-  :target: http://www.lizardtech.com
-
-.. image:: ../images/logos/1spatial_sml.jpg
-  :alt: 1Spatial
-  :align: center
-  :target: http://www.1spatial.com
-
-.. image:: ../images/logos/first-base-solutions_logo.png
-  :alt: First Base Solutions
-  :align: right
-  :target: http://www.firstbasesolutions.com
-
-.. image:: ../images/logos/2ndquadrant_logo.png
-  :alt: 2ndQuadrant
-  :align: left
-  :target: http://www.2ndquadrant.com/
 
 자세한 사항
 --------------------------------------------------------------------------------

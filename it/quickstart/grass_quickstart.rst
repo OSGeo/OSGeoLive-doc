@@ -4,11 +4,17 @@
 :Translator: Elena Mezzini, Luca Delucchi
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -29,7 +35,7 @@ Per avviare GRASS nel Live DVD, fare click sul link di GRASS tramite il menù
 Dalla finestra "Benvenuto in GRASS" selezionare il dataset North Carolina come
 location, e "user1" come mapset, poi fare click su [*Start Grass*].
 
-.. image:: ../../images/screenshots/800x600/grass-startup.png
+.. image:: /images/screenshots/800x600/grass-startup.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -52,7 +58,7 @@ Questo avvierà GRASS con `l'interfaccia grafica utente (scritta in wxPython) <.
 Visualizzare le mappe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-layerman.png
+.. image:: /images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -78,7 +84,7 @@ Ora si dovrebbero vedere le mappe visualizzate nel display.
 Rappresentare un profilo altitudinale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-profile.png
+.. image:: /images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -108,7 +114,7 @@ riaggiustare le opzioni desiderate nella tab "Optional" (quelle di default
 vanno bene); e cliccare [*Run*]. Poi si può chiudere [*Close*] la finestra
 di dialogo del modulo *r.surf.fractal*.
 
-.. image:: ../../images/screenshots/800x600/grass-fractal.png
+.. image:: /images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -134,7 +140,7 @@ Una volta fatto, cliccare sul bottone [*Run*] e chiudere la finestra di dialogo
 Creare una mappa del rilievo ombreggiato
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
+.. image:: /images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -189,7 +195,7 @@ basso una mappa (come ad esempio la mappa del rilievo ombreggiato
 creata prima) se si desidera che venga disegnata dietro agli altri strati, e
 assicurarsi di selezionare il box per la visibilità per vederla come sfondo.
 
-.. image:: ../../images/screenshots/800x600/grass-watersheds.png
+.. image:: /images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -234,7 +240,7 @@ raster -- il meccanismo vettoriale e i moduli sono completi e sviluppati
 come i raster in ogni bit. GRASS GIS conserva un meccanismo vettoriale completamente
 topologico che permette ogni genere di analisi molto potente.
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -264,7 +270,7 @@ l'opzione "Name of color table", e selezionare dalla lista per esempio "bcyr"
 (blu-cyan-yellow-red). Potrebbe essere necessario ridisegnare la mappa per
 vedere il vettoriale colorato
 
-.. image:: ../../images/screenshots/1024x768/grass-vector-basins.png
+.. image:: /images/screenshots/1024x768/grass-vector-basins.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -315,7 +321,7 @@ per esempio i bacini alluvionali e le zone pianeggianti evidenziati nel
 Visualizzazione 3D
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/grass-nviz.png
+.. image:: /images/screenshots/1024x768/grass-nviz.png
   :scale: 50 %
   :alt: screenshot
   :align: right

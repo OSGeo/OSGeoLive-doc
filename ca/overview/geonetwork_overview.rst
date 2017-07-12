@@ -1,16 +1,16 @@
 :Author: OSGeo-Live
 :Translator: Estela Llorente
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: logo de projecte 
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: Projecte OSGeo
   :align: right
@@ -24,7 +24,7 @@ Catàleg de Metadades
 
 GeoNetwork OpenSource és un catàleg d'aplicacions per gestionar recursos georeferenciats. Aquesta eïna proveeix metadades potents, funcions d'edició i de recerca, un visor de mapa interactiu embegut, i basats en Estàndards Oberts.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: /images/screenshots/1024x768/geonetwork-overview.jpg
   :scale: 50 %
   :alt: logo del projecte. 
   :align: right

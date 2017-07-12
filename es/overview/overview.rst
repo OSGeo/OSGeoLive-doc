@@ -57,9 +57,8 @@ Publicación de datos espaciales en internet:
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servicios de Sensores de Observación
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servicios Web de Geoprocesamiento.
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento.
+* :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servicio WFS-T.
-
-.. disabled: * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Servicio Web de Seguridad.
 
 Bases de Datos
 --------------------------------------------------------------------------------
@@ -87,7 +86,6 @@ Herramientas de análisis específicos:
 * :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Procesado de imágenes.
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Programación Estadística.
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Render Cartográfico.
-* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Estilos y publicación.
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Creacion de *Map Tiles*.
 * :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Procesado de imágenes.
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Herramienta ETL (Extracción, Transformación y Carga).
@@ -119,7 +117,7 @@ Bibliotecas geoespaciales
 * :doc:`jts_overview` - Suite de Topología de Java.
 * :doc:`geotools_overview` - Caja de herramientas SIG de Java.
 * :doc:`geos_overview` - Biblioteca Espacial C/C++.
-* :doc:`metacrs_overview` - Transformaciones de Sistemas de Referencia de Coordenadas.
+* :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Transformaciones de Sistemas de Referencia de Coordenadas (MetaCRS).
 * :doc:`liblas_overview`  - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - libLAS acceso datos LIDAR.
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorología y climatología.
 
@@ -136,13 +134,10 @@ Disponible en versiones previas de OSGeo-Live:
 * :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Servicio Web de Mapas, retirado después de OSGeo-Live 5.0 (para ahorrar espacio de disco).
 * `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catálogo, retirado después de OSGeo-Live 6.0.
 * `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor de Estilos, retirado después de OSGeo-Live 6.0.
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Web Mapping, rretirado después de OSGeo-Live 7.9.
+* :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retirado después de OSGeo-Live 6.5
+* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Web Mapping, retirado después de OSGeo-Live 7.9.
 * :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - Navegación GPS , retirado después de OSGeo-Live 9.0.
+* :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Estilos y publicación, retirado después de OSGeo-Live 9.5.
 
 
-Instaladores para Windows y Apple
---------------------------------------------------------------------------------
-Incluidos en la imagen completa de OSGeo-Live:
 
-* `Instaladores Microsoft Windows <../../WindowsInstallers/>`_
-* `Instaladores Apple OSX <../../MacInstallers/>`_

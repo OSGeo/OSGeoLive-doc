@@ -1,10 +1,10 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Anna Muñoz Bollas
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org
@@ -20,7 +20,7 @@ SAGA (Sistema per Anàlisi Geocientífic Automatitzat) és un sistema d'Informac
 
 SAGA s'ha estat desenvolupant des de 2001, i el centre del desenvolupamnt de SAGA és l'Institute of Geography a la Universitat d'Hamburg, amb contribucions de la creixent comunitat mundial.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

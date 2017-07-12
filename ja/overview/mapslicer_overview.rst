@@ -1,9 +1,9 @@
 :Author: Klokan Petr Pridal, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapslicer.png
+.. image:: /images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
 ..  :target: https://wiki.osgeo.org/wiki/MapSlicer
@@ -43,7 +43,7 @@ MapSlicerはマルチプラットフォームのデスクトップアプリケ�
 
 **ソースコード:** https://github.com/geopython/mapslicer
 
-**ソフトウェアバージョン:** 1.0.rc1
+**ソフトウェアバージョン:** |version-mapslicer|
 
 **対応プラットフォーム:** Windows, Linux, Mac
 

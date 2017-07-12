@@ -6,7 +6,7 @@
 
 .. _mapnik-overview-pl:
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :alt: project logo
   :align: right
   :target: http://mapnik.org/
@@ -27,7 +27,7 @@ Zwykle Mapnik był używany w aplikacjach map internetowych opartych na pythonie
 ulepszenie skalowalności sprawiło, że Mapnik jest ostatnio używany również do redakcji 
 wysokiej rozdzielczości map papierowych.
 
-.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: /images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

@@ -1,9 +1,9 @@
 :Author: Dane Springmeyer
-:Reviewer: Cameron Shorter, LISAsoft
-:Version: osgeo-live9.5
+:Reviewer: Cameron Shorter, Jirotech
+:Version: osgeo-live10.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapnik.png
+.. image:: /images/project_logos/logo-mapnik.png
   :alt: project logo
   :align: right
   :target: http://mapnik.org/
@@ -21,7 +21,7 @@ SVG によるスケーリング可能なシンボル作成などを提供しま�
 Open Street Map のメインレイヤ描画エンジンとしてよく知られていますが、Web
 で高解像度の地図を配信するPythonアプリケーションにも多く使用されています。
 
-.. image:: ../../images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: /images/screenshots/1024x768/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right
@@ -41,9 +41,9 @@ Mapnik は Python との親和性が高い Zope3 や Django などを使った�
 
 **ライセンス:** LGPL (GNU Lesser General Public Licence)
 
-**ソフトウェアバージョン:** 2.3.0
+**ソフトウェアバージョン:** |version-mapnik|
 
-**サポートプラットフォーム:** Windows, Linux, Mac
+**対応プラットフォーム:** Windows, Linux, Mac
 
 **API インターフェース:** C++, Python
 

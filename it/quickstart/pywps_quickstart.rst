@@ -3,13 +3,13 @@
 :Version: osgeo-live8.0-draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pywps.png
+.. image:: /images/project_logos/logo-pywps.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pywps.wald.intevation.org
 
-.. image:: ../../images/logos/OSGeo_labs.png
+.. image:: /images/logos/OSGeo_labs.png
   :scale: 100
   :alt: OSGeo Labs
   :align: right

@@ -1,20 +1,20 @@
 :Author: OSGeo Live
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :alt: project logo
   :align: right
   :target: http://www.postgis.net/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: Λογισμικό του OSGeo
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 PostGIS
@@ -29,7 +29,7 @@ PostGIS
 
 Η διαχείριση της βάσης δεδομένων γίνεται μεταξύ άλλων μέσω των pgAdmin και phpPgAdmin. Η είσοδος και έξοδος δεδομένων παρέχεται από πληθώρα εργαλείων μετατροπής (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Και υπάρχουν πολλά λογισμικά GIS (desktop και διαδικτυακά) για επισκόπηση δεδομένων σε PostGIS.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/800x600/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

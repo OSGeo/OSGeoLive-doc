@@ -1,11 +1,11 @@
 :Author: Friedjoff Trautwein, http://www.geops.de
 :Author: Patric Hafner, http://www.geops.de
-:Reviewer: Cameron Shorter, http://lisasoft.com
+:Reviewer: Cameron Shorter, http://jirotech.com
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-cartaro.png
+.. image:: /images/project_logos/logo-cartaro.png
   :alt: project logo
   :align: right
   :target: http://cartaro.org
@@ -25,7 +25,7 @@ e GeoWebCache, :doc:`OpenLayers <../overview/openlayers_overview>` nel browser, 
 Cartaro è pensato per siti internet CMS con il bisogno di gestire dati geospaziali, e per organizzazioni che
 desiderano un Spatial Data Infrastructure (SDI) leggero con la configurazione e programmazione minima.
 
-.. image:: ../../images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

@@ -1,13 +1,19 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator(Zh): Zhengfan Lin (OSGeo ID: Tanner)
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :alt: project logo
   :align: right
   :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 OTB
 ================================================================================
@@ -22,7 +28,7 @@ OTB
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/800x600/otb-mapping.jpg
+.. image:: /images/screenshots/800x600/otb-mapping.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

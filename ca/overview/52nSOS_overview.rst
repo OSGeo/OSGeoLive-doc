@@ -1,10 +1,10 @@
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Anna Muñoz Bollas
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: logotip del projecte
   :align: right
   :target: http://52north.org/sos
@@ -22,7 +22,7 @@ així com les que hagin estat capturades tant per sensors in-situ com remots. El
 de tipus molt diferents, com per exemple una càmera digital en un satèl·lit o 
 bé un dispositiu per mesurar el cabdal d'un riu. 
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 100 %
   :alt: captura de pantalla d'un client SOS
   :align: right

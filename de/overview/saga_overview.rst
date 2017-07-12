@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org
@@ -23,7 +23,7 @@ Auf die Funktionalität kann über eine graphische Oberfläche, über die Komman
 SAGA wird seit 2001 entwickelt. Dabei findet der Großteil der Entwicklung am 
 Institut für Geographie an der Universität Hamburg statt und wird von einer wachsenden weltweiten Community unterstützt.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right
@@ -57,7 +57,7 @@ Details
 
 **Lizenz:** LGPL v2.1 (api); GPLv2 (GUI und Module)
 
-**Software Version:** 2.2.4
+**Software Version:** |version-saga|
 
 **Unterstützte Plattformen:** Windows, Linux, FreeBSD
 

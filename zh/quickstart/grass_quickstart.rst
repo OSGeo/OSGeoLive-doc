@@ -4,11 +4,17 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -20,7 +26,7 @@ GRASS GIS 快速入门文档
 
 　　在 Live 系统中，点击桌面上的 GRASS 图标，即可启动 GRASS GIS 。在“Welcome to GRASS”页面可以选择 Spearfish 或 simplified North Carolina (nc_basic_spm) 数据集，“user1”工程，并点击 [Start Grass] 启动。本文档中使用的示例数据集是 Spearfish 。
 
-.. image:: ../../images/screenshots/800x600/grass-startup.png
+.. image:: /images/screenshots/800x600/grass-startup.png
   :scale: 40 %
   :alt: screenshot
   :align: right
@@ -32,7 +38,7 @@ GRASS GIS 快速入门文档
 地图显示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-layerman.png
+.. image:: /images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -47,7 +53,7 @@ GRASS GIS 快速入门文档
 绘制地形剖面
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-profile.png
+.. image:: /images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -59,7 +65,7 @@ GRASS GIS 快速入门文档
 
 　　首先，在 :menuselection:`Settings --> Region --> Set region` 选择 `Set from default region` 设定默认区域，点击 [Run] ，然后使用 :menuselection:`Raster --> Generate surfaces --> Fractal surface` 创建一个基于分形算法的随机表面。在 `Optional` 可以进一步调整设置。点击 [Run] 执行。点击 [Close] 可以关闭 *r.surf.fractal* 模块的界面。
 
-.. image:: ../../images/screenshots/800x600/grass-fractal.png
+.. image:: /images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -76,7 +82,7 @@ GRASS GIS 快速入门文档
 地形阴影图
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
+.. image:: /images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -95,7 +101,7 @@ analysis --> Shaded relief` （位于菜单中部），参数面板将会显示�
 
 　　在图层列表窗口选中新生成的两个图层，右击 "elev.basins" 选择 "Change opacity level 设置透明度" ，设为 50% 左右。若有需要，鼠标拖拽可以改变图层顺序，从而将该图层至于上方。
 
-.. image:: ../../images/screenshots/800x600/grass-watersheds.png
+.. image:: /images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -112,7 +118,7 @@ grid`，点击 [Ok] 并刷新。
  
 　　以上演示均为栅格数据操作。另一方面，作为一套完善的 GIS 系统，GRASS 同样具有强大的矢量数据处理能力，具备完备的拓扑构建和分析功能。
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
   :scale: 30 %
   :alt: screenshot
   :align: right
@@ -128,7 +134,7 @@ grid`，点击 [Ok] 并刷新。
 3D 可视化
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/grass-nviz.png
+.. image:: /images/screenshots/1024x768/grass-nviz.png
   :scale: 30 %
   :alt: screenshot
   :align: right

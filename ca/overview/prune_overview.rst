@@ -1,9 +1,9 @@
 :Author: activityworkshop
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: /images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
   :target: http://activityworkshop.net/software/prune/
@@ -23,7 +23,7 @@ Prune es pot executar a sistemes Mac OSX, Windows i Linux, i està disponible en
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/1024x768/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

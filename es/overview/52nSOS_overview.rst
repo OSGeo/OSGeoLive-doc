@@ -1,11 +1,11 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)i, Daniel Nüst (d.nuest@52north.org) 
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Translator: Agustín Díez
 :Translator: Roberto Antolín
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/sos
@@ -20,7 +20,7 @@ Web Service
 El :doc:`Servicio de Observación de Sensores (SOS) <../standards/sos_overview>` 
 de 52ºNorth puede leer y guardar datos actuales o archivados de sensores remotos in-situ. Un sensor puede ser una cámara de un satélite o el medidor de caudal de un río.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 100 %
   :alt: Pantallazos de un cliente de pruebas
   :align: right

@@ -9,17 +9,17 @@
 
 .. Writing Tip: 
   Project logos are stored here:
-    https://svn.osgeo.org/osgeo/livedvd/gisvm/trunk/doc/images/project_logos/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ Web Map Service (WMS) 网络地图服务
 
 　　OGC® Web Map Service (WMS) 接口标准是一套简单的 HTTP 接口，用于从一个或多个地理信息数据库传输有地理定位的地图图像数据。其返回为 JPEG、PNG、等地图数据，可用于网页或桌面客户端显示。(http://www.opengeospatial.org/standards/wms)
 
-.. image:: ../../images/standards/wms.jpg
+.. image:: /images/standards/wms.jpg
   :scale: 55%
   :alt: WMS in Context
 

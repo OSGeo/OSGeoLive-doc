@@ -1,11 +1,11 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
-:Revisor: Cameron Shorter, LISAsoft
+:Revisor: Cameron Shorter, Jirotech
 :Translator: Javier Sánchez
 :Product: MapWindow GIS 4.8.6
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-MapWindow.png
+.. image:: /images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
   :align: right
   :width: 220
@@ -24,7 +24,7 @@ MapWindow es fácil de incorporar dentro de la familia de productos basados en M
 
 .. note:: Para poder ejecutar MapWindow se requiere Sistema Operativo Microsoft Windows. Los ficheros de instalación se incluyen en la versión ISO completa del `OSGeo-Live <http://live.osgeo.org>`_ o se pueden descargar de la dirección: http://mapwindow4.codeplex.com/releases.
    
-.. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
+.. image:: /images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right

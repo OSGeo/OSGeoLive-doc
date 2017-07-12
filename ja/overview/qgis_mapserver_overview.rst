@@ -1,14 +1,14 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -25,7 +25,7 @@ QGIS で作成した地図、印刷テンプレートをサーバにプロジェ
 こうして作ったウェブ地図はデスクトップで作成したものと全く同じになります。
 QGIS Server は Apache Webserver 上の CGI/FastCGI モジュールとして動作します。
 
-.. image:: ../../images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -55,7 +55,7 @@ QGIS Server は Apache Webserver 上の CGI/FastCGI モジュールとして動�
 
 **ライセンス:** GPL
 
-**バージョン:** 2.14.0
+**ソフトウェアバージョン:** |version-qgis_mapserver|
 
 **対応プラットフォーム:** Windows, Linux
 

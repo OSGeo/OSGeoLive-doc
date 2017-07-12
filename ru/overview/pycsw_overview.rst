@@ -1,15 +1,15 @@
 :Author: OSGeo-Live
 :Author: Tom Kralidis, Angelos Tzotsos
-:Reviewer: Cameron Shorter, LISAsoft
+:Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.5-draft
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :alt: Лого проекта
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: Проект OSGeo
   :align: right
@@ -40,7 +40,7 @@ standard<../standards/csw_overview>` на языке `Python`_. Стандарт
 pycsw имеет открытый исходный код, распространяется под лицензией MIT и работает
 на всех основных платформах (Windows, Linux, Mac OS X).
 
-.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
   :alt: Скриншот
   :align: right
