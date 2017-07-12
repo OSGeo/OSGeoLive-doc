@@ -37,7 +37,7 @@
 *  :doc:`openlayers_overview` - |osgeoproject| - [:doc:`快速入门  <../quickstart/openlayers_quickstart>`] — 网页 GIS 服务
 * :doc:`leaflet_overview` - [:doc:`快速入门 <../quickstart/leaflet_quickstart>`] -  移动设备用户友好的交互地图
 * :doc:`cesium_overview` - [:doc:`快速入门 <../quickstart/cesium_quickstart>`] - 基于浏览器的3维地球与2维地图
-* :doc:`geomajas_overview` - [:doc:`快速入门  <../quickstart/geomajas_quickstart>`] — 网页 GIS 服务
+*  :doc:`geomajas_overview` - |osgeoproject| - [:doc:`快速入门  <../quickstart/geomajas_quickstart>`] — 网页 GIS 服务
 * :doc:`mapbender_overview` - [:doc:`快速入门  <../quickstart/mapbender_quickstart>`] — 网络地图服务集成框架
 * :doc:`mapfish_overview` - [:doc:`快速入门  <../quickstart/mapfish_quickstart>`] — 网页制图服务框架
 * :doc:`geomoose_overview` - [:doc:`快速入门 <../quickstart/geomoose_quickstart>`] — 网页 GIS 服务集成

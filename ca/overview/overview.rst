@@ -35,7 +35,7 @@ Navegador d'estil GIS
 Visualitzar, editar i analitzat dades GIS en un navegador web:
 --------------------------------------------------------------------------------
 *  :doc:`openlayers_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library 
-* :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client 
+*  :doc:`geomajas_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client 
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework 
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework 
 * :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal 
