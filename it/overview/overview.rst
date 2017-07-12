@@ -20,7 +20,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul desktop:
 
 * |osgeoproject| - :doc:`qgis_overview` - [:doc:`Guida rapida <../quickstart/qgis_quickstart>`]
 * |osgeoproject| - :doc:`grass_overview` - [:doc:`Guida rapida <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`Guida rapida <../quickstart/gvsig_quickstart>`]
+* |osgeoproject| - :doc:`gvsig_overview` - [:doc:`Guida rapida <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`Guida rapida <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`Guida rapida <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`Guida rapida <../quickstart/openjump_quickstart>`]

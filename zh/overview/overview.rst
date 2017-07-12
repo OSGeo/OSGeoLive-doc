@@ -24,7 +24,7 @@
 
 * |osgeoproject| - :doc:`qgis_overview` - [:doc:`快速入门 <../quickstart/qgis_quickstart>`] — 桌面 GIS
 * |osgeoproject| - :doc:`grass_overview` - [:doc:`快速入门 <../quickstart/grass_quickstart>`] — 桌面 GIS
-* :doc:`gvsig_overview` - [:doc:`快速入门 <../quickstart/gvsig_quickstart>`] — 桌面 GIS
+* |osgeoproject| - :doc:`gvsig_overview` - [:doc:`快速入门 <../quickstart/gvsig_quickstart>`] — 桌面 GIS
 * :doc:`udig_overview` - [:doc:`快速入门 <../quickstart/udig_quickstart>`] — 桌面 GIS 框架
 * :doc:`kosmo_overview` - [:doc:`快速入门 <../quickstart/kosmo_quickstart>`] — 桌面 GIS
 * :doc:`openjump_overview` - [:doc:`快速入门 <../quickstart/openjump_quickstart>`] — 轻量化桌面 GIS

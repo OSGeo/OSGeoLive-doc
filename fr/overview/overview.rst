@@ -20,7 +20,7 @@ Visualisation SIG en général, édition, et analyse sur bureau :
 
 * |osgeoproject| - :doc:`qgis_overview` - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
 * |osgeoproject| - :doc:`grass_overview` - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
+* |osgeoproject| - :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]

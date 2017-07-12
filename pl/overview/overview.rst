@@ -20,7 +20,7 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy na desktopie:
 
 * |osgeoproject| - :doc:`qgis_overview` - [:doc:`Wprowadzenie <../quickstart/qgis_quickstart>`]
 * |osgeoproject| - :doc:`grass_overview` - [:doc:`Wprowadzenie <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`Wprowadzenie <../quickstart/gvsig_quickstart>`]
+* |osgeoproject| - :doc:`gvsig_overview` - [:doc:`Wprowadzenie <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`Wprowadzenie <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`Wprowadzenie <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`Wprowadzenie <../quickstart/openjump_quickstart>`]
