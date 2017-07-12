@@ -53,7 +53,7 @@
 * :doc:`deegree_overview` - [:doc:`快速入门 <../quickstart/deegree_quickstart>`] — 网络空间数据服务
 * :doc:`ncWMS_overview` - [:doc:`快速入门 <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`快速入门 <../quickstart/eoxserver_quickstart>`] - 网络地理信息编录服务
-* :doc:`geonetwork_overview` - [:doc:`快速入门 <../quickstart/geonetwork_quickstart>`] — 元数据编目管理
+*  :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`快速入门 <../quickstart/geonetwork_quickstart>`] — 元数据编目管理
 * :doc:`pycsw_overview` - [:doc:`快速入门 <../quickstart/pycsw_quickstart>`] — 元数据编目发布
 *  :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`快速入门 <../quickstart/mapproxy_quickstart>`] — 网页地图及切片服务代理
 * :doc:`qgis_mapserver_overview` - [:doc:`快速入门 <../quickstart/qgis_mapserver_quickstart>`] — 网页地图服务
