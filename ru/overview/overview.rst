@@ -31,7 +31,7 @@
 --------------------------------------------------------------------------------
 Приложения для веб-картографии общего назначения - редактирование и анализ данных:
 
-* :doc:`openlayers_overview` - [:doc:`Введение <../quickstart/openlayers_quickstart>`] - Браузерный ГИС-клиент
+*  :doc:`openlayers_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/openlayers_quickstart>`] - Браузерный ГИС-клиент
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Создание мобильных интерактивных карт
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Глобальные 3D-модели и веб-карты
 * :doc:`geomajas_overview` - [:doc:`Введение <../quickstart/geomajas_quickstart>`] - Браузерный ГИС-клиент
