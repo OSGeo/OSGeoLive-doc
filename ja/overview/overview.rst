@@ -53,7 +53,7 @@ Web サービス
 * :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
 * |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`] - プロキシ WMS & タイルサービス
 * :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* :doc:`istsos_overview` - [:doc:`クイックスタート <../quickstart/istsos_quickstart>`] - Sensor Observation Service
+* |osgeocommunity| - :doc:`istsos_overview` - [:doc:`クイックスタート <../quickstart/istsos_quickstart>`] - Sensor Observation Service
 * :doc:`52nSOS_overview` - [:doc:`クイックスタート <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`52nWPS_overview` - [:doc:`クイックスタート <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web Processing Service

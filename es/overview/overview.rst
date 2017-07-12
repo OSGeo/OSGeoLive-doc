@@ -53,7 +53,7 @@ Publicación de datos espaciales en internet:
 * :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catálogo de metadatos.
 * |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS y servicios de teselas.
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Servicio WMS.
-* :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Servicios de Sensores de Observación (SOS).
+* |osgeocommunity| - :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Servicios de Sensores de Observación (SOS).
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servicios de Sensores de Observación
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servicios Web de Geoprocesamiento.
 * :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento.
