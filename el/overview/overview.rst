@@ -81,7 +81,7 @@
 
 * :doc:`geokettle_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart>`] - Ενοποίηση δεδομένων
 * :doc:`gmt_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart>`] - Χαρτογραφική Σύνθεση
-* :doc:`ossim_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ossim_quickstart>`] - Επεξεργασία Εικόνας
+*  :doc:`ossim_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ossim_quickstart>`] - Επεξεργασία Εικόνας
 * :doc:`mapnik_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart>`] - Χαρτογραφική Σύνθεση
 * :doc:`tilemill_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tilemill_quickstart>`] - Δημοσίευση Χαρτών με Στύλ
 * :doc:`mapslicer_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapslicer_quickstart>`] - Δημιουργία Τετραγωνιδίων Χαρτών
