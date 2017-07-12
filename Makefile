@@ -137,6 +137,7 @@ banner_links: sphinxbuild
 
 css:
 	# Copy css file
+	mkdir -p $(BUILDDIR)/html
 	cp osgeolive.css $(BUILDDIR)/html/
 
 licenses.csv :
