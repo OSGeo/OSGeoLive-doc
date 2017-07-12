@@ -46,7 +46,7 @@ Serveis Web
 Piblicació de dades espacials en internet:
 
 *  :doc:`geoserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
+*  :doc:`mapserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catàleg de Metadades

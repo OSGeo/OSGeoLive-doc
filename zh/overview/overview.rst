@@ -49,7 +49,7 @@
 空间信息的网络发布
 
 *  :doc:`geoserver_overview` - |osgeoproject| - [:doc:`快速入门 <../quickstart/geoserver_quickstart>`] — 空间数据网络发布
-* :doc:`mapserver_overview` - [:doc:`快速入门 <../quickstart/mapserver_quickstart>`] — 空间数据图形表达和管理
+*  :doc:`mapserver_overview` - |osgeoproject| - [:doc:`快速入门 <../quickstart/mapserver_quickstart>`] — 空间数据图形表达和管理
 * :doc:`deegree_overview` - [:doc:`快速入门 <../quickstart/deegree_quickstart>`] — 网络空间数据服务
 * :doc:`ncWMS_overview` - [:doc:`快速入门 <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`快速入门 <../quickstart/eoxserver_quickstart>`] - 网络地理信息编录服务
