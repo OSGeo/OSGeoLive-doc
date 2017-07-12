@@ -98,7 +98,7 @@ Aplicacions orientades a un tema específic:
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events 
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering 
 * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping 
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe 
+* |osgeoproject| - :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe 
 * :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Weather Forecast Maps 
 
 Dades
