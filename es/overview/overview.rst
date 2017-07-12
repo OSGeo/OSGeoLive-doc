@@ -83,7 +83,7 @@ Herramientas Espaciales
 Herramientas de análisis específicos:
 
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Render Cartográfico.
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Procesado de imágenes.
+* |osgeoproject| - :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Procesado de imágenes.
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Programación Estadística.
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Render Cartográfico.
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Creacion de *Map Tiles*.

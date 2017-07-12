@@ -83,7 +83,7 @@ Web サービス
 特定解析ツール:
 
 * :doc:`gmt_overview` - [:doc:`クイックスタート <../quickstart/gmt_quickstart>`] - 地図レンダリング
-* :doc:`otb_overview` - [:doc:`クイックスタート <../quickstart/otb_quickstart>`] -画像処理
+* |osgeoproject| - :doc:`otb_overview` - [:doc:`クイックスタート <../quickstart/otb_quickstart>`] -画像処理
 * :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
 * :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
 * :doc:`mapslicer_overview`  - [:doc:`クイックスタート <../quickstart/mapslicer_quickstart>`] - 地図タイルの作成

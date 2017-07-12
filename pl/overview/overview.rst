@@ -86,7 +86,7 @@ Narzędzia do zaawansowanych analiz:
 * :doc:`tilemill_overview` - [:doc:`Wprowadzenie <../quickstart/tilemill_quickstart>`] - stylizacja i publikacja
 * :doc:`mapslicer_overview` - [:doc:`Wprowadzenie <../quickstart/mapslicer_quickstart>`] - tworzenie kafli map
 * :doc:`ossim_overview` - [:doc:`Wprowadzenie <../quickstart/ossim_quickstart>`] - przetwarzanie zobrazowań 
-* :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
+* |osgeoproject| - :doc:`otb_overview` - [:doc:`Wprowadzenie <../quickstart/otb_quickstart>`] - przetwarzanie zobrazowań
 * :doc:`R_overview` - [:doc:`Wprowadzenie <../quickstart/R_quickstart>`] - programowanie statystyczne
 
 GIS specjalizowany
