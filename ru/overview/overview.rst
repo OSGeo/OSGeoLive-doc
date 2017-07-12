@@ -18,9 +18,9 @@
 --------------------------------------------------------------------------------
 ГИС общего назначения - редактирование и анализ данных:
 
-* |osgeoproject| - :doc:`qgis_overview` - [:doc:`Введение <../quickstart/qgis_quickstart>`]
-* |osgeoproject| - :doc:`grass_overview` - [:doc:`Введение <../quickstart/grass_quickstart>`]
-* |osgeoproject| - :doc:`gvsig_overview` - [:doc:`Введение <../quickstart/gvsig_quickstart>`]
+* |osgeoproject| :doc:`qgis_overview` - [:doc:`Введение <../quickstart/qgis_quickstart>`]
+* |osgeoproject| :doc:`grass_overview` - [:doc:`Введение <../quickstart/grass_quickstart>`]
+* |osgeoproject| :doc:`gvsig_overview` - [:doc:`Введение <../quickstart/gvsig_quickstart>`]
 * |nologo| :doc:`udig_overview` - [:doc:`Введение <../quickstart/udig_quickstart>`]
 * |nologo| :doc:`kosmo_overview` - [:doc:`Введение <../quickstart/kosmo_quickstart>`]
 * |nologo| :doc:`openjump_overview` - [:doc:`Введение <../quickstart/openjump_quickstart>`]
@@ -31,48 +31,48 @@
 --------------------------------------------------------------------------------
 Приложения для веб-картографии общего назначения - редактирование и анализ данных:
 
-* |osgeoproject| - :doc:`openlayers_overview` - [:doc:`Введение <../quickstart/openlayers_quickstart>`] - Браузерный ГИС-клиент
+* |osgeoproject| :doc:`openlayers_overview` - [:doc:`Введение <../quickstart/openlayers_quickstart>`] - Браузерный ГИС-клиент
 * |nologo| :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Создание мобильных интерактивных карт
 * |nologo| :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Глобальные 3D-модели и веб-карты
-* |osgeoproject| - :doc:`geomajas_overview` - [:doc:`Введение <../quickstart/geomajas_quickstart>`] - Браузерный ГИС-клиент
-* |osgeoproject| - :doc:`mapbender_overview` - [:doc:`Введение <../quickstart/mapbender_quickstart>`] - Фреймворк для создания геопорталов
-* |osgeoproject| - :doc:`geomoose_overview` - [:doc:`Введение <../quickstart/geomoose_quickstart>`] - Веб-ГИС портал
+* |osgeoproject| :doc:`geomajas_overview` - [:doc:`Введение <../quickstart/geomajas_quickstart>`] - Браузерный ГИС-клиент
+* |osgeoproject| :doc:`mapbender_overview` - [:doc:`Введение <../quickstart/mapbender_quickstart>`] - Фреймворк для создания геопорталов
+* |osgeoproject| :doc:`geomoose_overview` - [:doc:`Введение <../quickstart/geomoose_quickstart>`] - Веб-ГИС портал
 * |nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Система управления геопространственными данными
-* |osgeoproject| - :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Система управления геопространственными данными
+* |osgeoproject| :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Система управления геопространственными данными
 
 Веб-сервисы
 --------------------------------------------------------------------------------
 Публикация геоданных в Интернете:
 
-* |osgeoproject| - :doc:`geoserver_overview` - [:doc:`Введение <../quickstart/geoserver_quickstart>`] - OGC веб-сервисы
-* |osgeoproject| - :doc:`mapserver_overview` - [:doc:`Введение <../quickstart/mapserver_quickstart>`] - OGC веб-сервисы
+* |osgeoproject| :doc:`geoserver_overview` - [:doc:`Введение <../quickstart/geoserver_quickstart>`] - OGC веб-сервисы
+* |osgeoproject| :doc:`mapserver_overview` - [:doc:`Введение <../quickstart/mapserver_quickstart>`] - OGC веб-сервисы
 * |osgeoproject| :doc:`deegree_overview` - [:doc:`Введение <../quickstart/deegree_quickstart>`] - OGC веб-сервисы
 * |nologo| :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Сервис WMS
 * |nologo| :doc:`eoxserver_overview` - [:doc:`Введение <../quickstart/eoxserver_quickstart>`] - Сервис WCS
-* |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`Введение <../quickstart/geonetwork_quickstart>`] - Каталог метаданных
-* |osgeoproject| - :doc:`pycsw_overview` - [:doc:`Введение <../quickstart/pycsw_quickstart>`] - Каталог метаданных 
-* |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`Введение <../quickstart/mapproxy_quickstart>`] - Прокси для WMS и тайловых сервисов
+* |osgeoproject| :doc:`geonetwork_overview` - [:doc:`Введение <../quickstart/geonetwork_quickstart>`] - Каталог метаданных
+* |osgeoproject| :doc:`pycsw_overview` - [:doc:`Введение <../quickstart/pycsw_quickstart>`] - Каталог метаданных 
+* |osgeocommunity| :doc:`mapproxy_overview` - [:doc:`Введение <../quickstart/mapproxy_quickstart>`] - Прокси для WMS и тайловых сервисов
 * |nologo| :doc:`qgis_mapserver_overview` - [:doc:`Введение <../quickstart/qgis_mapserver_quickstart>`] - сервис WMS
 * |nologo| :doc:`52nWPS_overview` - [:doc:`Введение <../quickstart/52nWPS_quickstart>`] - сервис WPS
 * |nologo| :doc:`52nSOS_overview` - [:doc:`Введение <../quickstart/52nSOS_quickstart>`] - сервис SOS (Sensor Observation Service)
 * |nologo| :doc:`tinyows_overview` - [:doc:`Введение <../quickstart/tinyows_quickstart>`] - сервис WFS-T
-* |osgeocommunity| - :doc:`zoo-project_overview` - [:doc:`Введение <../quickstart/zoo-project_quickstart>`] - сервис WPS
+* |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`Введение <../quickstart/zoo-project_quickstart>`] - сервис WPS
 
 .. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
 
 Базы данных
 --------------------------------------------------------------------------------
 
-* |osgeoproject| - :doc:`postgis_overview`  - [:doc:`Введение <../quickstart/postgis_quickstart>`] - Пространственная база данных
+* |osgeoproject| :doc:`postgis_overview`  - [:doc:`Введение <../quickstart/postgis_quickstart>`] - Пространственная база данных
 * |nologo| :doc:`spatialite_overview` - [:doc:`Введение <../quickstart/spatialite_quickstart>`] - Легковесная база данных
 * |osgeoproject| :doc:`rasdaman_overview` - [:doc:`Введение <../quickstart/rasdaman_quickstart>`] - Многомерная база данных для растров
-* |osgeocommunity| - :doc:`pgrouting_overview` - [:doc:`Введение <../quickstart/pgrouting_quickstart>`] - Роутинг для PostGIS
+* |osgeocommunity| :doc:`pgrouting_overview` - [:doc:`Введение <../quickstart/pgrouting_quickstart>`] - Роутинг для PostGIS
 
 Навигация и карты
 --------------------------------------------------------------------------------
 * |nologo| :doc:`gpsdrive_overview` - [:doc:`Введение <../quickstart/gpsdrive_quickstart>`] - GPS-навигация
 * |nologo| :doc:`gpsprune_overview` - [:doc:`Введение <../quickstart/gpsprune_quickstart>`] - Просмотр, правка и конвертация GPS-треков
-* |osgeoproject| - :doc:`marble_overview` - [:doc:`Введение <../quickstart/marble_quickstart>`] - Виртуальный глобус
+* |osgeoproject| :doc:`marble_overview` - [:doc:`Введение <../quickstart/marble_quickstart>`] - Виртуальный глобус
 * |nologo| :doc:`opencpn_overview` - [:doc:`Введение <../quickstart/opencpn_quickstart>`] - Морской GPS-картплоттер 
 * |nologo| :doc:`osm_overview` - [:doc:`Введение <../quickstart/osm_quickstart>`] - Инструменты для OpenStreetMap
 * |nologo| :doc:`viking_overview` - [:doc:`Введение <../quickstart/viking_quickstart>`] - Просмотр и анализ данных GPS
@@ -84,12 +84,12 @@
 
 * |nologo| :doc:`gmt_overview` - [:doc:`Введение <../quickstart/gmt_quickstart>`] - Картография и работа с геоданными
 * :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/ipython_quickstart>`] - Интерактивный анализ разнородных данных и их визуализация в Python
-* |osgeoproject| - :doc:`otb_overview` - [:doc:`Введение <../quickstart/otb_quickstart>`] - Обработка изображений
+* |osgeoproject| :doc:`otb_overview` - [:doc:`Введение <../quickstart/otb_quickstart>`] - Обработка изображений
 * |nologo| :doc:`R_overview`  - [:doc:`Введение <../quickstart/R_quickstart>`] - Математический анализ, статистика и программирование
 * |nologo| :doc:`mapnik_overview` - [:doc:`Введение <../quickstart/mapnik_quickstart>`] - Картографический рендеринг
 * |nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Стилизация и публикация карт
 * |nologo| :doc:`mapslicer_overview`  - [:doc:`Введение <../quickstart/mapslicer_quickstart>`] - Создание картографических тайлов 
-* |osgeoproject| - :doc:`ossim_overview` - [:doc:`Введение <../quickstart/ossim_quickstart>`] - Обработка изображений
+* |osgeoproject| :doc:`ossim_overview` - [:doc:`Введение <../quickstart/ossim_quickstart>`] - Обработка изображений
 * |nologo| :doc:`geokettle_overview` - [:doc:`Введение <../quickstart/geokettle_quickstart>`] - Инструмент ETL (Extract, Transform and Load)
 
 Отраслевые инструменты ГИС
@@ -114,11 +114,11 @@
 Геопространственные библиотеки
 --------------------------------------------------------------------------------
 
-* |osgeoproject| - :doc:`gdal_overview`  - [:doc:`Введение <../quickstart/gdal_quickstart>`] - Инструменты конвертации и обработки геоданных
+* |osgeoproject| :doc:`gdal_overview`  - [:doc:`Введение <../quickstart/gdal_quickstart>`] - Инструменты конвертации и обработки геоданных
 * |nologo| :doc:`jts_overview` - Java Topology Suite
-* |osgeoproject| - :doc:`geotools_overview` - Java GIS Toolkit 
-* |osgeoproject| - :doc:`geos_overview` - Библиотека C/C++ для работы с геоданными
-* |osgeocommunity| - :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Трансформации систем координат (MetaCRS)
+* |osgeoproject| :doc:`geotools_overview` - Java GIS Toolkit 
+* |osgeoproject| :doc:`geos_overview` - Библиотека C/C++ для работы с геоданными
+* |osgeocommunity| :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Трансформации систем координат (MetaCRS)
 * |nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - Работа с данными LiDAR
 * |nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Метеорология и климатология
 

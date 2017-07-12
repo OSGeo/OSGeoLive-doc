@@ -19,9 +19,9 @@
 --------------------------------------------------------------------------------
 デスクトップ上での一般的な GIS 閲覧、編集、解析:
 
-* |osgeoproject| - :doc:`qgis_overview` - [:doc:`クイックスタート <../quickstart/qgis_quickstart>`]
-* |osgeoproject| - :doc:`grass_overview` - [:doc:`クイックスタート <../quickstart/grass_quickstart>`]
-* |osgeoproject| - :doc:`gvsig_overview` - [:doc:`クイックスタート <../quickstart/gvsig_quickstart>`]
+* |osgeoproject| :doc:`qgis_overview` - [:doc:`クイックスタート <../quickstart/qgis_quickstart>`]
+* |osgeoproject| :doc:`grass_overview` - [:doc:`クイックスタート <../quickstart/grass_quickstart>`]
+* |osgeoproject| :doc:`gvsig_overview` - [:doc:`クイックスタート <../quickstart/gvsig_quickstart>`]
 * |nologo| :doc:`udig_overview` - [:doc:`クイックスタート <../quickstart/udig_quickstart>`]
 * |nologo| :doc:`kosmo_overview` - [:doc:`クイックスタート <../quickstart/kosmo_quickstart>`]
 * |nologo| :doc:`openjump_overview` - [:doc:`クイックスタート <../quickstart/openjump_quickstart>`]
@@ -31,32 +31,32 @@
 --------------------------------------------------------------------------------
 ブラウザ内での一般的な GIS 閲覧、編集、解析:
 
-* |osgeoproject| - :doc:`openlayers_overview` - [:doc:`クイックスタート <../quickstart/openlayers_quickstart>`] - ブラウザマッピングライブラリ
+* |osgeoproject| :doc:`openlayers_overview` - [:doc:`クイックスタート <../quickstart/openlayers_quickstart>`] - ブラウザマッピングライブラリ
 * |nologo| :doc:`leaflet_overview` - [:doc:`クイックスタート <../quickstart/leaflet_quickstart>`] -  モバイルフレンドリーなインタラクティブ地図
 * |nologo| :doc:`cesium_overview` - [:doc:`クイックスタート <../quickstart/cesium_quickstart>`] - ブラウザ内での3D地球儀と2D地図
-* |osgeoproject| - :doc:`geomajas_overview` - [:doc:`クイックスタート <../quickstart/geomajas_quickstart>`] -ブラウザ GIS クライアント
-* |osgeoproject| - :doc:`mapbender_overview` - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - ジオポータルフレームワーク
-* |osgeoproject| - :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
+* |osgeoproject| :doc:`geomajas_overview` - [:doc:`クイックスタート <../quickstart/geomajas_quickstart>`] -ブラウザ GIS クライアント
+* |osgeoproject| :doc:`mapbender_overview` - [:doc:`クイックスタート <../quickstart/mapbender_quickstart>`] - ジオポータルフレームワーク
+* |osgeoproject| :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
 * |nologo| :doc:`cartaro_overview` - [:doc:`クイックスタート <../quickstart/cartaro_quickstart>`] - 地理空間 CMS
-* |osgeoproject| - :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 コンテンツ管理システム
+* |osgeoproject| :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 コンテンツ管理システム
 
 Web サービス
 --------------------------------------------------------------------------------
 インターネットで地理空間データ公開:
 
-* |osgeoproject| - :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`] - OGC Web サービス
-* |osgeoproject| - :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`] - OGC Web サービス
+* |osgeoproject| :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`] - OGC Web サービス
+* |osgeoproject| :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`] - OGC Web サービス
 * |osgeoproject| :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`] - OGC Web サービス
 * |nologo| :doc:`ncWMS_overview` - [:doc:`クイックスタート <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * |nologo| :doc:`eoxserver_overview` - [:doc:`クイックスタート <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
-* |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ
-* |osgeoproject| - :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
-* |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`] - プロキシ WMS & タイルサービス
+* |osgeoproject| :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ
+* |osgeoproject| :doc:`pycsw_overview` - [:doc:`クイックスタート <../quickstart/pycsw_quickstart>`] - メタデータカタログ
+* |osgeocommunity| :doc:`mapproxy_overview` - [:doc:`クイックスタート <../quickstart/mapproxy_quickstart>`] - プロキシ WMS & タイルサービス
 * |nologo| :doc:`qgis_mapserver_overview` - [:doc:`クイックスタート <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* |osgeocommunity| - :doc:`istsos_overview` - [:doc:`クイックスタート <../quickstart/istsos_quickstart>`] - Sensor Observation Service
+* |osgeocommunity| :doc:`istsos_overview` - [:doc:`クイックスタート <../quickstart/istsos_quickstart>`] - Sensor Observation Service
 * |nologo| :doc:`52nSOS_overview` - [:doc:`クイックスタート <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * |nologo| :doc:`52nWPS_overview` - [:doc:`クイックスタート <../quickstart/52nWPS_quickstart>`] - Web Processing Service
-* |osgeocommunity| - :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+* |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 * |osgeocommunity| :doc:`pywps_overview` - [:doc:`クイックスタート <../quickstart/pywps_quickstart>`] - Web Processing Service
 * |nologo| :doc:`tinyows_overview` - [:doc:`クイックスタート <../quickstart/tinyows_quickstart>`] - WFS-T サービス
 
@@ -64,16 +64,16 @@ Web サービス
 --------------------------------------------------------------------------------
 空間データの格納:
 
-* |osgeoproject| - :doc:`postgis_overview`  - [:doc:`クイックスタート <../quickstart/postgis_quickstart>`] - 空間データベース
+* |osgeoproject| :doc:`postgis_overview`  - [:doc:`クイックスタート <../quickstart/postgis_quickstart>`] - 空間データベース
 * |nologo| :doc:`spatialite_overview` - [:doc:`クイックスタート <../quickstart/spatialite_quickstart>`] - 軽量データベース
 * |osgeoproject| :doc:`rasdaman_overview` - [:doc:`クイックスタート <../quickstart/rasdaman_quickstart>`] - 多次元ラスタデータベース
-* |osgeocommunity| - :doc:`pgrouting_overview` - [:doc:`クイックスタート <../quickstart/pgrouting_quickstart>`] - PostGISでの経路探索
+* |osgeocommunity| :doc:`pgrouting_overview` - [:doc:`クイックスタート <../quickstart/pgrouting_quickstart>`] - PostGISでの経路探索
 
 ナビゲーションと地図
 --------------------------------------------------------------------------------
 * |nologo| :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション
 * |nologo| :doc:`gpsprune_overview` - [:doc:`クイックスタート <../quickstart/gpsprune_quickstart>`] - GPS トラックの閲覧、編集、変換
-* |osgeoproject| - :doc:`marble_overview` - [:doc:`クイックスタート <../quickstart/marble_quickstart>`] - バーチャル地球儀
+* |osgeoproject| :doc:`marble_overview` - [:doc:`クイックスタート <../quickstart/marble_quickstart>`] - バーチャル地球儀
 * |nologo| :doc:`opencpn_overview` - [:doc:`クイックスタート <../quickstart/opencpn_quickstart>`] - GPS を使った海図プロッタ
 * |nologo| :doc:`osm_overview` - [:doc:`クイックスタート <../quickstart/osm_quickstart>`] - OpenStreetMap のツール
 * |nologo| :doc:`viking_overview` - [:doc:`クイックスタート <../quickstart/viking_quickstart>`] - GPS データの解析、ビューワー
@@ -83,11 +83,11 @@ Web サービス
 特定解析ツール:
 
 * |nologo| :doc:`gmt_overview` - [:doc:`クイックスタート <../quickstart/gmt_quickstart>`] - 地図レンダリング
-* |osgeoproject| - :doc:`otb_overview` - [:doc:`クイックスタート <../quickstart/otb_quickstart>`] -画像処理
+* |osgeoproject| :doc:`otb_overview` - [:doc:`クイックスタート <../quickstart/otb_quickstart>`] -画像処理
 * |nologo| :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
 * |nologo| :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
 * |nologo| :doc:`mapslicer_overview`  - [:doc:`クイックスタート <../quickstart/mapslicer_quickstart>`] - 地図タイルの作成
-* |osgeoproject| - :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
+* |osgeoproject| :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
 * |nologo| :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
 
 特定用途向け GIS
@@ -113,11 +113,11 @@ Web サービス
 地理空間ライブラリ
 --------------------------------------------------------------------------------
 
-* |osgeoproject| - :doc:`gdal_overview`  - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール
+* |osgeoproject| :doc:`gdal_overview`  - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール
 * |nologo| :doc:`jts_overview` - Java トポロジスイート
-* |osgeoproject| - :doc:`geotools_overview` - Java GIS ツールキット 
-* |osgeoproject| - :doc:`geos_overview` - C/C++ 空間ライブラリ
-* |osgeocommunity| - :doc:`proj4_overview` - [:doc:`クイックスタート <../quickstart/proj4_quickstart>`] - 座標参照系の変換 (MetaCRS)
+* |osgeoproject| :doc:`geotools_overview` - Java GIS ツールキット 
+* |osgeoproject| :doc:`geos_overview` - C/C++ 空間ライブラリ
+* |osgeocommunity| :doc:`proj4_overview` - [:doc:`クイックスタート <../quickstart/proj4_quickstart>`] - 座標参照系の変換 (MetaCRS)
 * |nologo| :doc:`liblas_overview` - [:doc:`クイックスタート <../quickstart/liblas_quickstart>`] - LiDAR データへのアクセス
 * |nologo| :doc:`iris_overview` - [:doc:`クイックスタート <../quickstart/iris_quickstart>`] - 気象学と気候学
 
