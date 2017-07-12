@@ -63,7 +63,7 @@
 Базы данных
 --------------------------------------------------------------------------------
 
-* :doc:`postgis_overview`  - [:doc:`Введение <../quickstart/postgis_quickstart>`] - Пространственная база данных
+* :doc:`postgis_overview` - |osgeoproject|  - [:doc:`Введение <../quickstart/postgis_quickstart>`] - Пространственная база данных
 * :doc:`spatialite_overview` - [:doc:`Введение <../quickstart/spatialite_quickstart>`] - Легковесная база данных
 * :doc:`rasdaman_overview` - [:doc:`Введение <../quickstart/rasdaman_quickstart>`] - Многомерная база данных для растров
 * :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`Введение <../quickstart/pgrouting_quickstart>`] - Роутинг для PostGIS
