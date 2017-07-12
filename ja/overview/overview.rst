@@ -44,7 +44,7 @@ Web サービス
 --------------------------------------------------------------------------------
 インターネットで地理空間データ公開:
 
-* :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`] - OGC Web サービス
+* :doc:`geoserver_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`] - OGC Web サービス
 * :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`] - OGC Web サービス
 * :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`] - OGC Web サービス
 * :doc:`ncWMS_overview` - [:doc:`クイックスタート <../quickstart/ncWMS_quickstart>`] - Web Map Service
