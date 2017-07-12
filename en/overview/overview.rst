@@ -120,7 +120,7 @@ Available from prior OSGeo-Live releases:
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5
-* :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service, not included after OSGeo-Live 10.5
+* :doc:`pywps_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service, not included after OSGeo-Live 10.5
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
 * :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`], not included after OSGeo-Live 10.5
 * :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe, not included after OSGeo-Live 10.5
