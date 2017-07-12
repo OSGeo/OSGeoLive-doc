@@ -38,7 +38,7 @@ Visualización, edición y análisis en el navegador:
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Geoportal .
 * |osgeoproject| - :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portal web SIG.
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] -CMS (Sistema de Gestión de Contenidos) Geoespacial.
-* :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - CMS (Sistema de Gestión de Contenidos) Geoespacial.
+* |osgeoproject| - :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - CMS (Sistema de Gestión de Contenidos) Geoespacial.
 
 Servicios Web
 --------------------------------------------------------------------------------

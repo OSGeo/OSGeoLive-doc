@@ -37,7 +37,7 @@ Visualisation SIG en général, édition, et analyse dans le navigateur :
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Cartographie en ligne
 * |osgeoproject| - :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portail SIG Internet
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - CMS Géospatial
-* :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Content Management System Géospatial
+* |osgeoproject| - :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Content Management System Géospatial
 
 Services Web
 --------------------------------------------------------------------------------

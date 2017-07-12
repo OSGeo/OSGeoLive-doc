@@ -38,7 +38,7 @@
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`Введение <../quickstart/mapbender_quickstart>`] - Фреймворк для создания геопорталов
 * |osgeoproject| - :doc:`geomoose_overview` - [:doc:`Введение <../quickstart/geomoose_quickstart>`] - Веб-ГИС портал
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Система управления геопространственными данными
-* :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Система управления геопространственными данными
+* |osgeoproject| - :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Система управления геопространственными данными
 
 Веб-сервисы
 --------------------------------------------------------------------------------

@@ -37,7 +37,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul browser:
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali
 * |osgeoproject| - :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
 * :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
-* :doc:`geonode_overview` - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
+* |osgeoproject| - :doc:`geonode_overview` - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
 
 Servizi Web
 --------------------------------------------------------------------------------

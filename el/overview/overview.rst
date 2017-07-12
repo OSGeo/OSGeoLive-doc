@@ -36,7 +36,7 @@
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης
 * |osgeoproject| - :doc:`geomoose_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomoose_quickstart>`] - Διαδικτυακή πύλη GIS
 * :doc:`cartaro_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/cartaro_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
-* :doc:`geonode_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonode_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
+* |osgeoproject| - :doc:`geonode_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonode_quickstart>`] - Γεωχωρικό Σύστημα Διαχείρισης Περιεχομένου
 
 Διαδικτυακές Υπηρεσίες
 --------------------------------------------------------------------------------
