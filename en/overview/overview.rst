@@ -21,7 +21,7 @@ General GIS viewing, editing, and analysis on the desktop:
 
 * :doc:`qgis_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
 * :doc:`grass_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
+* :doc:`gvsig_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`QuickStart <../quickstart/saga_quickstart>`]
