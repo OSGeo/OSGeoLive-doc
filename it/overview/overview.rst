@@ -88,7 +88,7 @@ Strumenti speficici per analisi:
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Crea Map Tiles
-* :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
+* :doc:`ossim_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 * :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
 
 Domain Specific GIS

@@ -93,7 +93,7 @@
 * :doc:`mapnik_overview` - [:doc:`快速入门 <../quickstart/mapnik_quickstart>`] — 地图制作
 * :doc:`tilemill_overview` - [:doc:`快速入门 <../quickstart/tilemill_quickstart>`] - 地图渲染和发布
 * :doc:`mapslicer_overview`  - [:doc:`快速入门 <../quickstart/mapslicer_quickstart>`] — 栅格地图切片化
-* :doc:`ossim_overview` [:doc:`快速入门 <../quickstart/ossim_quickstart>`] - 影像处理
+* :doc:`ossim_overview` - |osgeoproject| [:doc:`快速入门 <../quickstart/ossim_quickstart>`] - 影像处理
 * :doc:`otb_overview` - |osgeoproject| - [:doc:`快速入门 <../quickstart/otb_quickstart>`] — 图像处理
 * :doc:`R_overview`  - [:doc:`快速入门 <../quickstart/R_quickstart>`] — 空间数据统计
 * :doc:`ipython_overview`  - [:doc:`快速入门 <../quickstart/ipython_quickstart>`] — IPython交互编程环境

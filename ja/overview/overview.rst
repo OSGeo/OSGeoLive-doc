@@ -87,7 +87,7 @@ Web サービス
 * :doc:`R_overview`  - [:doc:`クイックスタート <../quickstart/R_quickstart>`] - 統計プログラミング
 * :doc:`mapnik_overview` - [:doc:`クイックスタート <../quickstart/mapnik_quickstart>`] - 地図レンダリング
 * :doc:`mapslicer_overview`  - [:doc:`クイックスタート <../quickstart/mapslicer_quickstart>`] - 地図タイルの作成
-* :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
+* :doc:`ossim_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
 * :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
 
 特定用途向け GIS
