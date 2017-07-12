@@ -133,7 +133,7 @@ Disponible en versions anteriors dels releases d'OSGeo-Live:
 
 * |nologo| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, no inclós després d'OSGeo-Live 5.0 
 * |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retirat després d'OSGeo-Live 6.0
-* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retirat després d'OSGeo-Live 6.0
+* |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retirat després d'OSGeo-Live 6.0
 
 Instal·ladors per Windows i Apple
 --------------------------------------------------------------------------------

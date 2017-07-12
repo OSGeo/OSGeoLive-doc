@@ -133,7 +133,7 @@ Disponible en versiones previas de OSGeo-Live:
 
 * |nologo| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Servicio Web de Mapas, retirado después de OSGeo-Live 5.0 (para ahorrar espacio de disco).
 * |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catálogo, retirado después de OSGeo-Live 6.0.
-* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor de Estilos, retirado después de OSGeo-Live 6.0.
+* |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor de Estilos, retirado después de OSGeo-Live 6.0.
 * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retirado después de OSGeo-Live 6.5
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Web Mapping, retirado después de OSGeo-Live 7.9.
 * |nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - Navegación GPS , retirado después de OSGeo-Live 9.0.

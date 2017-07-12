@@ -132,7 +132,7 @@ Dostępne w poprzednich wydaniach OSGeo-Live:
 
 * |nologo| :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe, niedostępny po OSGeo-Lice 5.0
 * |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - atlasy multimedialne, niedostępny po OSGeo-Live 6.0
-* `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - edytor stylów (SLD), niedostępny po OSGeo-Live 6.0
+* |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - edytor stylów (SLD), niedostępny po OSGeo-Live 6.0
 
 Instalatory dla Windows i Apple
 --------------------------------------------------------------------------------
