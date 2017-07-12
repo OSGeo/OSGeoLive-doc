@@ -72,7 +72,7 @@ Almacenamiento de datos espaciales:
 Navegación y mapas
 --------------------------------------------------------------------------------
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Ver, editar y convertir Tracks de GPS 
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Globo Virtual.
+* :doc:`marble_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Globo Virtual.
 * :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Globo Virtual de Escritorio.
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Ploteo de GPS marino 
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Herramientas OpenStreetMap.

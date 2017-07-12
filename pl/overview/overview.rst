@@ -71,7 +71,7 @@ Nawigacja i Mapy
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
 * :doc:`gpsprune_overview` - [:doc:`Wprowadzenie <../quickstart/gpsprune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
-* :doc:`marble_overview` - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - Wirtualny Glob
+* :doc:`marble_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/marble_quickstart>`] - Wirtualny Glob
 * :doc:`opencpn_overview` - [:doc:`Wprowadzenie <../quickstart/opencpn_quickstart>`] - GPS do zastosowań marynistycznych
 * :doc:`osm_overview` - [:doc:`Wprowadzenie <../quickstart/osm_quickstart>`] - narzędzia Open Street Map
 * :doc:`viking_overview` - [:doc:`Wprowadzenie <../quickstart/viking_quickstart>`] - przeglądanie i analiza danych GPS

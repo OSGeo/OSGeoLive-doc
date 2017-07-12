@@ -70,7 +70,7 @@
 
 * :doc:`gpsdrive_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart>`] - Πλοήγηση GPS
 * :doc:`gpsprune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsprune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
-* :doc:`marble_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Εικονική Υδρόγειος
+* :doc:`marble_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/marble_quickstart>`] - Εικονική Υδρόγειος
 * :doc:`opencpn_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/opencpn_quickstart>`] - Ναυτικός Πλοηγός GPS
 * :doc:`osm_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart>`] - Εργαλεία Open Street Map
 * :doc:`viking_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart>`] - Οπτικοποίηση σημείων GPS

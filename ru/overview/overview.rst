@@ -72,7 +72,7 @@
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Введение <../quickstart/gpsdrive_quickstart>`] - GPS-навигация
 * :doc:`gpsprune_overview` - [:doc:`Введение <../quickstart/gpsprune_quickstart>`] - Просмотр, правка и конвертация GPS-треков
-* :doc:`marble_overview` - [:doc:`Введение <../quickstart/marble_quickstart>`] - Виртуальный глобус
+* :doc:`marble_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/marble_quickstart>`] - Виртуальный глобус
 * :doc:`opencpn_overview` - [:doc:`Введение <../quickstart/opencpn_quickstart>`] - Морской GPS-картплоттер 
 * :doc:`osm_overview` - [:doc:`Введение <../quickstart/osm_quickstart>`] - Инструменты для OpenStreetMap
 * :doc:`viking_overview` - [:doc:`Введение <../quickstart/viking_quickstart>`] - Просмотр и анализ данных GPS

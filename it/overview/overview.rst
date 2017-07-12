@@ -72,7 +72,7 @@ Navigazione e Mappe
 --------------------------------------------------------------------------------
 * :doc:`gpsdrive_overview` - [:doc:`Guida rapida <../quickstart/gpsdrive_quickstart>`] - Navigatore GPS
 * :doc:`gpsprune_overview` - [:doc:`Guida rapida <../quickstart/gpsprune_quickstart>`] - Visualizza, modifica e converte tracce GPS
-* :doc:`marble_overview` - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Globo virtuale
+* :doc:`marble_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/marble_quickstart>`] - Globo virtuale
 * :doc:`opencpn_overview` - [:doc:`Guida rapida <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter
 * :doc:`osm_overview` - [:doc:`Guida rapida <../quickstart/osm_quickstart>`] - Strumenti per OpenStreetMap
 * :doc:`viking_overview` - [:doc:`Guida rapida <../quickstart/viking_quickstart>`] - Visualizza e analizza dati GPS

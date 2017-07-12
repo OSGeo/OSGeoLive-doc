@@ -73,7 +73,7 @@ Speicherung von räumlichen Daten:
 Navigation und Karten
 --------------------------------------------------------------------------------
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - Anzeige, Bearbeitung und Konvertierung von GPS Tracks
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
+* :doc:`marble_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 * :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe
 * :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
