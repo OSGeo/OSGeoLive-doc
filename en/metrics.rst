@@ -94,6 +94,7 @@ OpenStreetMap tools
 
 .. raw:: html
 
+  <script type='text/javascript' src='https://www.openhub.net/p/iD_OSM/widgets/project_factoids_stats?format=js'></script>
   <script type="text/javascript" src="https://www.openhub.net/p/josm/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/merkaartor/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/osmosis/widgets/project_factoids_stats?format=js"></script>

@@ -10,7 +10,7 @@ TMP           = /tmp/osgeolive_make
 #LANGUAGES     = ca de el en es hu id it fr ja ko pl ru zh
 #TRANSLATIONS  = ca de el es hu id it fr ja ko pl ru zh
 LANGUAGES     = $(shell ls -d [a-z][a-z])
-TRANSLATIONS  = $(shell echo $(LANGUAGES) | sed -e "s/en //")
+TRANSLATIONS  = $(shell echo $(LANGUAGES) | sed -e "s/en //" | sed -e "s/id //")
 PDF_LANG      = en
 START_DIR     = $(shell pwd)
 
@@ -137,6 +137,7 @@ banner_links: sphinxbuild
 
 css:
 	# Copy css file
+	mkdir -p $(BUILDDIR)/html
 	cp osgeolive.css $(BUILDDIR)/html/
 
 licenses.csv :

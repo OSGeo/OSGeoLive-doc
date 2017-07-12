@@ -1,73 +1,71 @@
 :Author: Peter Baumann
-:Author: Jinsongdi Yu
-:Author: Dimitar Misev
-:Author: Michael Owonibi
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.0
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-rasdaman.png
- :alt: project logo
+ :alt: Logo du projet 
   :align: right
-  :target: http://rasdaman.org
+  :target: http://www.rasdaman.org
 
 Rasdaman
-================================================================================
+========
 
 Base de données raster multi-dimentionelle
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Rasdaman est une base de données relationnelle standard qui fournit le stockage et propose la récupération de données raster multi-dimensionnelles (cf tableaux)
-de taille illimitée, en utilisant un langage de type SQL raster avec une très grande efficacité et une optimisation côté serveur. Les données sont stockées dans une
-Base de données PostgreSQL, pour l'intégration des informations intégrées. Le Driver de rasdaman est issu de GDAL (Geospatial Data
-Abstraction Library) pour la gestion des formats de données géospatiales, l'intégration de MapServer est disponible en version bêta.
-L'interface intègre OGC WCS, WCPS, et WPS, tout comme C++ et des API Java en plus du moteur de requtage SQL.
+Rasdaman un système de base de données de tableaux qui fournit des géoservices flexibles,
+rapides, scalables, pour des capteur spatio-temporels multi-dimensions, image, simulation, 
+et des données statistiques d'un volume illimité.  Accès ponctuel, extraction, agrégation, 
+mais aussi mélange et analytique sont disponibles grâce au langage de de requête raster  NewSQL avec 
+des optimisations côté serveur hautement efficaces.  
+La paralléisation de Cloud/cluster est accomplie d'un manière sécurisée, contrôlée par un administrateur.
 
-La technologie rasdaman est stable et mature. Elle est déployée en production depuis 10 ans; L'IGN (Istitut National de Géographie Français)
-utilise cette technologie rasdaman sur des douzaines de téraoctets d'image aérienne. À la conférence *ACM  Principles of Database Systems*
-en 2007, l'expert en base de données raster Rona Machlin a défini rasdaman comme "la mise en œuvre plus complète d'un tel système".
+En plus du language de requêtage raster, rasdaman supporte les standards OGC des service web WMS, WCS et WCPS web service standards, ainsi que des API C++ et Java. 
+Un ensemble de démonstrations interactives est disponible à cette adresse: http://standards.rasdaman.org.  Un pilote rasdaman est intégré GDAL et MapServer.
 
-.. image:: /images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.jpg
   :scale: 50 %
+  :alt: rasdaman screenshot collage
   :align: right
 
 Elements centraux
 --------------------------------------------------------------------------------
 
     * Vrai multidimentional - de 1-D à 2-D, 3-D, 4-D et suivant
-    * Puissant, flexible langage de requetage pour demander de la visualisation, classifications, convolution, agrégation, et
-      beaucoup d'autre fonction géospatiale
+    * Puissant, flexible langage de requêtage pour demander de la visualisation, classifications, convolution, agrégation, et
+      beaucoup d'autres fonctions géospatiales
     * Indexation spatiale et tuilage adaptatif pour un accès rapide aux données
-    * Tuilage en streaming pour une scalabilité et de hautes performances sur des architectures moyenne
-    * Support du multi-utilisateur garce au multiplexage serveur
-    * Totale intégration des données raster et de toutes les autres données géographiques dans la base postgreSQL
+    * Tuilage en flux pour une scalabilité de l'ordinateur portable au cluster et au cloud
+    * Support des standards raster OGC, implémentation de référence de WCS Core et WCPS
 
-Standads implémenté
+
+Standads implémentés
 --------------------------------------------------------------------------------
 
-    * OGC WCS 2.0, WCPS 1.0, WPS 1.0
+    * OGC WMS 1.3, WCS 2.0, WCPS 1.0
 
 Détails
---------------------------------------------------------------------------------
+-------
 
-**Website:** www.rasdaman.org
+**site Web :** http://www.rasdaman.org
 
 **Licence:**
 
-* clients and petascope: GNU Lesser General Public License (LGPL) version 3
-* server engine: GNU General Public License (GPL) version 3
+* clients et API: GNU Lesser General Public License (LGPL) version 3
+* moteur du serveur: GNU General Public License (GPL) version 3
 
-**Software Version:** 8.3.1
+**Version du logiciel:** |version-rasdaman|
 
-**Supported Platforms:** Linux, Mac, Solaris
+**Plate-formes supportées :** GNU/Linux, MacOS, Solaris
 
-**API Interfaces:** rasql, C++, Java; OGC-based WCS, WCPS, WCS-T, and WPS interfaces
+**API Interfaces:** rasql, C++, Java
 
-**Support:**  www.rasdaman.com
+**Support:**  http://www.rasdaman.com
 
 Quickstart
 --------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`
+* :doc:`Guide de démarrage rapide <../quickstart/rasdaman_quickstart>`
 
 

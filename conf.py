@@ -13,7 +13,7 @@
 
 import sys, os
 
-execfile('settings.py')
+exec(open("settings.py").read())
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -73,7 +73,9 @@ today_fmt = '%B %d, %Y'
 
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
-exclude_trees = ['_build']
+exclude_patterns = [ '_build/*',
+	 'id/*',
+	 'retired_docs/*' ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -174,6 +176,8 @@ html_last_updated_fmt = '%b %d, %Y'
 # Output file base name for HTML help builder.
 htmlhelp_basename = '%sdoc' % project
 
+# Don't copy sources
+html_copy_source = False
 
 # -- Options for LaTeX output --------------------------------------------------
 
@@ -243,6 +247,19 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
+.. |nologo| image:: /images/logos/nologo.png
+                        :align: bottom
+                        :height: 18
+.. |osgeoproject| image:: /images/logos/OSGeo_compass.png
+                        :alt: OSGeo Project
+                        :align: bottom
+                        :height: 18
+                        :target: ../sponsors_osgeo.html
+.. |osgeocommunity| image:: /images/logos/OSGeo_compass.png
+                        :alt: OSGeo Community
+                        :align: middle
+                        :height: 18
+                        :target: ../sponsors_osgeo.html
 .. |version-52nSOS| replace:: 4.4.0
 .. |version-52nWPS| replace:: 3.6.1
 .. |version-cartaro| replace:: 1.9

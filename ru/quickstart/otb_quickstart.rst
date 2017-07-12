@@ -5,8 +5,15 @@
 
 .. image:: /images/project_logos/logo-otb.png
   :scale: 80 %
-  :alt: Лого проекта
+  :alt: project logo
   :align: right
+  :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 OTB: начало работы
