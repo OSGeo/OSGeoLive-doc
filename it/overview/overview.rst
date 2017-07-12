@@ -45,7 +45,7 @@ Publicare dati spaziali su internet:
 
 * |osgeoproject| - :doc:`geoserver_overview` - [:doc:`Guida rapida <../quickstart/geoserver_quickstart>`] - Servizi Web OGC
 * |osgeoproject| - :doc:`mapserver_overview` - [:doc:`Guida rapida <../quickstart/mapserver_quickstart>`] - Servizi Web OGC
-* :doc:`deegree_overview` - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`] - Servizi Web OGC
+* |osgeoproject| :doc:`deegree_overview` - [:doc:`Guida rapida <../quickstart/deegree_quickstart>`] - Servizi Web OGC
 * |nologo| :doc:`ncWMS_overview` - [:doc:`Guida rapida <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * |nologo| :doc:`eoxserver_overview` - [:doc:`Guida rapida <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`Guida rapida <../quickstart/geonetwork_quickstart>`] - Catalogo per i Metadati

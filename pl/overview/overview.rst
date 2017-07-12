@@ -45,7 +45,7 @@ Publikowanie danych przestrzennych w Internecie:
 
 * |osgeoproject| - :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
 * |osgeoproject| - :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
-* :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
+* |osgeoproject| :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
 * |nologo| :doc:`ncWMS_overview` - [:doc:`Wprowadzenie <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * |nologo| :doc:`eoxserver_overview` - [:doc:`Wprowadzenie <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`Wprowadzenie <../quickstart/geonetwork_quickstart>`] - katalog metadanych i sieciowe usługi katalogowe

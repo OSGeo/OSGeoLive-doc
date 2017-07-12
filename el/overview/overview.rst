@@ -44,7 +44,7 @@
 
 * |osgeoproject| - :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
 * |osgeoproject| - :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
-* :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
+* |osgeoproject| :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
 * |nologo| :doc:`ncWMS_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * |nologo| :doc:`eoxserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geonetwork_quickstart>`] - Υπηρεσία Καταλόγου

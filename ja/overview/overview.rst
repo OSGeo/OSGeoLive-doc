@@ -46,7 +46,7 @@ Web サービス
 
 * |osgeoproject| - :doc:`geoserver_overview` - [:doc:`クイックスタート <../quickstart/geoserver_quickstart>`] - OGC Web サービス
 * |osgeoproject| - :doc:`mapserver_overview` - [:doc:`クイックスタート <../quickstart/mapserver_quickstart>`] - OGC Web サービス
-* :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`] - OGC Web サービス
+* |osgeoproject| :doc:`deegree_overview` - [:doc:`クイックスタート <../quickstart/deegree_quickstart>`] - OGC Web サービス
 * |nologo| :doc:`ncWMS_overview` - [:doc:`クイックスタート <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * |nologo| :doc:`eoxserver_overview` - [:doc:`クイックスタート <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`クイックスタート <../quickstart/geonetwork_quickstart>`] - メタデータカタログ

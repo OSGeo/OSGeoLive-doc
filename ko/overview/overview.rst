@@ -73,7 +73,7 @@ Web Services
 --------------------------------------------------------------------------------
 * |osgeoproject| - :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
 * |osgeoproject| - :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
-* :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
+* |osgeoproject| :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
 * |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Catalogue
 * |osgeoproject| - :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Catalogue
 * |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
