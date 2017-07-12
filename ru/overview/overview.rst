@@ -34,7 +34,7 @@
 * |osgeoproject| - :doc:`openlayers_overview` - [:doc:`Введение <../quickstart/openlayers_quickstart>`] - Браузерный ГИС-клиент
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Создание мобильных интерактивных карт
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Глобальные 3D-модели и веб-карты
-* :doc:`geomajas_overview` - [:doc:`Введение <../quickstart/geomajas_quickstart>`] - Браузерный ГИС-клиент
+* |osgeoproject| - :doc:`geomajas_overview` - [:doc:`Введение <../quickstart/geomajas_quickstart>`] - Браузерный ГИС-клиент
 * :doc:`mapbender_overview` - [:doc:`Введение <../quickstart/mapbender_quickstart>`] - Фреймворк для создания геопорталов
 * :doc:`geomoose_overview` - [:doc:`Введение <../quickstart/geomoose_quickstart>`] - Веб-ГИС портал
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Система управления геопространственными данными
