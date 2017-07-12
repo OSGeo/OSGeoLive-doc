@@ -114,7 +114,7 @@ Biblioteki geoprzestrzenne
 * |osgeoproject| - :doc:`gdal_overview` - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 * :doc:`jts_overview` - narzędzia topologiczne Java Topology Suite
 * |osgeoproject| - :doc:`geotools_overview` - zestaw narzędzi GIS w Javaie
-* :doc:`geos_overview` - Biblioteka przestrzenna C/C++ 
+* |osgeoproject| - :doc:`geos_overview` - Biblioteka przestrzenna C/C++ 
 * |osgeocommunity| - :doc:`proj4_overview` - [:doc:`Wprowadzenie <../quickstart/proj4_quickstart>`] - przeliczenia pomiędzy układami odniesienia (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`Wprowadzenie <../quickstart/liblas_quickstart>`] - dostęp do danych LiDAR 
 * :doc:`iris_overview` - [:doc:`Wprowadzenie <../quickstart/iris_quickstart>`] - Meteorologia i Klimatologia

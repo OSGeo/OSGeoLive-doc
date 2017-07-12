@@ -113,7 +113,7 @@
 * |osgeoproject| - :doc:`gdal_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gdal_quickstart>`] - Εργαλεία μετατροπής γεωχωρικών δεδομένων
 * :doc:`jts_overview` - Σουίτα Τοπολογίας Java
 * |osgeoproject| - :doc:`geotools_overview` - Εργαλειοθήκη Java για GIS 
-* :doc:`geos_overview` - Γεωχωρική βιβλιοθήκη C/C++ 
+* |osgeoproject| - :doc:`geos_overview` - Γεωχωρική βιβλιοθήκη C/C++ 
 * |osgeocommunity| - :doc:`proj4_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/proj4_quickstart>`] - Μετατροπές Γεωδαιτικών Συστημάτων Αναφοράς (MetaCRS) 
 * :doc:`liblas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/liblas_quickstart>`] - Πρόσβαση δεδομένων LiDAR 
 * :doc:`iris_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/iris_quickstart>`] - Μετεωρολογία και Κλιματολογία

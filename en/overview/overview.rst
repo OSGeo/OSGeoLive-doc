@@ -116,7 +116,7 @@ Available from prior OSGeo-Live releases:
 * :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
 * |osgeoproject| - :doc:`geotools_overview` - Java GIS Toolkit, description not included after OSGeo-Live 10.5
 * :doc:`jts_overview` - Java Topology Suite, description not included after OSGeo-Live 10.5
-* :doc:`geos_overview` - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
+* |osgeoproject| - :doc:`geos_overview` - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5

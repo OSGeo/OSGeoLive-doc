@@ -117,7 +117,7 @@ Librerie geospaziali
 * |osgeoproject| - :doc:`gdal_overview`  - [:doc:`Guida rapida <../quickstart/gdal_quickstart>`] - Strumenti per operazioni si dati geospaziali
 * :doc:`jts_overview` - Java Topology Suite
 * |osgeoproject| - :doc:`geotools_overview` - Java GIS Toolkit
-* :doc:`geos_overview` - Libreria spaziale C/C++
+* |osgeoproject| - :doc:`geos_overview` - Libreria spaziale C/C++
 * |osgeocommunity| - :doc:`proj4_overview` - [:doc:`Guida rapida <../quickstart/proj4_quickstart>`] - Trasformazioni del sistema di riferimento delle coordinate (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`Guida rapida <../quickstart/liblas_quickstart>`] - Accesso ai LiDAR
 * :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Metereologia e Climatologia
