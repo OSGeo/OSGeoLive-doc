@@ -43,7 +43,7 @@
 Δημοσίευση χωρικών δεδομένων στο διαδίκτυο:
 
 * |osgeoproject| - :doc:`geoserver_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
+* |osgeoproject| - :doc:`mapserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/deegree_quickstart>`]
 * :doc:`ncWMS_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/eoxserver_quickstart>`] - Web Coverage Service

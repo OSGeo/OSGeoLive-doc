@@ -44,7 +44,7 @@ Usługi sieciowe
 Publikowanie danych przestrzennych w Internecie:
 
 * |osgeoproject| - :doc:`geoserver_overview` - [:doc:`Wprowadzenie <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
+* |osgeoproject| - :doc:`mapserver_overview` - [:doc:`Wprowadzenie <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`Wprowadzenie <../quickstart/deegree_quickstart>`]
 * :doc:`ncWMS_overview` - [:doc:`Wprowadzenie <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`Wprowadzenie <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
