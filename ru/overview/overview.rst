@@ -84,7 +84,7 @@
 
 * :doc:`gmt_overview` - [:doc:`Введение <../quickstart/gmt_quickstart>`] - Картография и работа с геоданными
 * :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/ipython_quickstart>`] - Интерактивный анализ разнородных данных и их визуализация в Python
-* :doc:`otb_overview` - [:doc:`Введение <../quickstart/otb_quickstart>`] - Обработка изображений
+* :doc:`otb_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/otb_quickstart>`] - Обработка изображений
 * :doc:`R_overview`  - [:doc:`Введение <../quickstart/R_quickstart>`] - Математический анализ, статистика и программирование
 * :doc:`mapnik_overview` - [:doc:`Введение <../quickstart/mapnik_quickstart>`] - Картографический рендеринг
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Стилизация и публикация карт

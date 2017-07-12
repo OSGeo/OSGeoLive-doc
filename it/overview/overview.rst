@@ -83,7 +83,7 @@ Strumenti speficici per analisi:
 
 * :doc:`gmt_overview` - [:doc:`Guida rapida <../quickstart/gmt_quickstart>`] - Restituzione cartografica
 * :doc:`ipython_overview` - [:doc:`QuickStart <../quickstart/ipython_quickstart>`] - Mixing rich media in presentations
-* :doc:`otb_overview` - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
+* :doc:`otb_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/otb_quickstart>`] - Elaborazione di immagini
 * :doc:`R_overview`  - [:doc:`Guida rapida <../quickstart/R_quickstart>`] - Programmazione statistica
 * :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 * :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
