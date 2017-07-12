@@ -36,7 +36,7 @@
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Глобальные 3D-модели и веб-карты
 *  :doc:`geomajas_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/geomajas_quickstart>`] - Браузерный ГИС-клиент
 *  :doc:`mapbender_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/mapbender_quickstart>`] - Фреймворк для создания геопорталов
-* :doc:`geomoose_overview` - [:doc:`Введение <../quickstart/geomoose_quickstart>`] - Веб-ГИС портал
+*  :doc:`geomoose_overview` - |osgeoproject| - [:doc:`Введение <../quickstart/geomoose_quickstart>`] - Веб-ГИС портал
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Система управления геопространственными данными
 * :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Система управления геопространственными данными
 
