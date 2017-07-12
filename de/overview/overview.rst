@@ -67,7 +67,7 @@ Speicherung von räumlichen Daten:
 
 * :doc:`postgis_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Räumliche Datenbank
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Leichtgewichtige Datenbank
-* :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensionale Datenbank für Rasterdaten
+* :doc:`rasdaman_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensionale Datenbank für Rasterdaten
 * :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing für PostGIS
 
 Navigation und Karten

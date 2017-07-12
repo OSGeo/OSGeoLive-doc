@@ -62,7 +62,7 @@
 
 * :doc:`postgis_overview` - |osgeoproject|  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/postgis_quickstart>`] Χωρική Βάση Δεδομένων
 * :doc:`spatialite_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/spatialite_quickstart>`] Βάση Δεδομένων με αρχεία
-* :doc:`rasdaman_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/rasdaman_quickstart>`] - Πολυδιάστατη Βάση Πινακοποιημένων Δεδομένων
+* :doc:`rasdaman_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/rasdaman_quickstart>`] - Πολυδιάστατη Βάση Πινακοποιημένων Δεδομένων
 * :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/pgrouting_quickstart>`] - Δρομολόγηση για την PostGIS
 
 Πλοήγηση και Χάρτες

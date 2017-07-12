@@ -62,7 +62,7 @@ Storing spatial data:
 
 * :doc:`postgis_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Spatial Database
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Lightweight Database
-* :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database
+* :doc:`rasdaman_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database
 * :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS
 
 Navigation and Maps
