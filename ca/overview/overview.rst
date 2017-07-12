@@ -21,9 +21,9 @@ GIS d'escriptori
 --------------------------------------------------------------------------------
 Visualitzar, editar i analitzat dades GIS en escriptori:
 
-* :doc:`qgis_overview` - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
-* :doc:`grass_overview` - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
+*  :doc:`qgis_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
+*  :doc:`grass_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
+*  :doc:`gvsig_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
@@ -34,40 +34,40 @@ Navegador d'estil GIS
 
 Visualitzar, editar i analitzat dades GIS en un navegador web:
 --------------------------------------------------------------------------------
-* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library 
-* :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client 
-* :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework 
+*  :doc:`openlayers_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library 
+*  :doc:`geomajas_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client 
+*  :doc:`mapbender_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework 
 * :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework 
-* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal 
+*  :doc:`geomoose_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal 
 * :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS 
 
 Serveis Web
 --------------------------------------------------------------------------------
 Piblicació de dades espacials en internet:
 
-* :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
-* :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
+*  :doc:`geoserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`]
+*  :doc:`mapserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`]
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`]
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
-* :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catàleg de Metadades
-* :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catàleg de Metadades
-* :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS i serveis de tesel·les
+*  :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Catàleg de Metadades
+*  :doc:`pycsw_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Catàleg de Metadades
+*  :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS i serveis de tesel·les
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Servei WMS
 * :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Servei Web de Seguretat
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servei de Processament Web
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servei de Sensor d'Observació
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servei WFS-T 
-* :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servei de Processament Web
+*  :doc:`zoo-project_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servei de Processament Web
 
 Magatzem de dades
 --------------------------------------------------------------------------------
 Emmagatzemant dades espacials:
 
 
-* :doc:`postgis_overview`  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Spatial Database 
+*  :doc:`postgis_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Spatial Database 
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Lightweight Database 
 * :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database 
-* :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS 
+*  :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS 
 
 Navegació i Mapes
 --------------------------------------------------------------------------------
@@ -86,8 +86,8 @@ Eines específiques per anàlisi:
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering 
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing 
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Create Map Tiles 
-* :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing 
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing 
+*  :doc:`ossim_overview` - |osgeoproject| [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing 
+*  :doc:`otb_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing 
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistical Programming 
 
 Domini Específic de GIS
@@ -98,7 +98,7 @@ Aplicacions orientades a un tema específic:
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events 
 * :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering 
 * :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping 
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe 
+*  :doc:`marble_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Spinning Globe 
 * :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Weather Forecast Maps 
 
 Dades
@@ -112,11 +112,11 @@ Conjunts de dades Espacials
 Llibreries Geospacials
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools 
+*  :doc:`gdal_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools 
 * :doc:`jts_overview` - Java Topology Suite 
-* :doc:`geotools_overview` - Java GIS Toolkit  
-* :doc:`geos_overview` - C/C++ Spatial Library  
-* :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations (MetaCRS)  
+*  :doc:`geotools_overview` - |osgeoproject| - Java GIS Toolkit  
+*  :doc:`geos_overview` - |osgeoproject| - C/C++ Spatial Library  
+*  :doc:`proj4_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations (MetaCRS)  
 * :doc:`liblas_overview` - LiDAR Data Access  
 
 Altres programaris d'interés (no instal·lats)

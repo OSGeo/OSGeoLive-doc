@@ -19,9 +19,9 @@ Desktop GIS
 --------------------------------------------------------------------------------
 General GIS viewing, editing, and analysis on the desktop:
 
-* :doc:`qgis_overview` - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
-* :doc:`grass_overview` - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
-* :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
+*  :doc:`qgis_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/qgis_quickstart>`]
+*  :doc:`grass_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/grass_quickstart>`]
+*  :doc:`gvsig_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 * :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 * :doc:`saga_overview` - [:doc:`QuickStart <../quickstart/saga_quickstart>`]
@@ -30,45 +30,45 @@ Browser Facing GIS
 --------------------------------------------------------------------------------
 General GIS viewing, editing and analysis in the browser:
 
-* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library
+*  :doc:`openlayers_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Mobile Friendly Interactive Maps
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser
-* :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
-* :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
-* :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
-* :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
+*  :doc:`geomajas_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client
+*  :doc:`mapbender_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework
+*  :doc:`geomoose_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal
+*  :doc:`geonode_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 
 Web Services
 --------------------------------------------------------------------------------
 Publishing spatial data to the internet:
 
-* :doc:`geoserver_overview` - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`] - OGC Web Services
-* :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`] - OGC Web Services
+*  :doc:`geoserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`] - OGC Web Services
+*  :doc:`mapserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`] - OGC Web Services
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`] - OGC Web Services
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
-* :doc:`geonetwork_overview` - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Catalogue
-* :doc:`pycsw_overview` - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Catalogue
-* :doc:`mapproxy_overview` - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
+*  :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geonetwork_quickstart>`] - Metadata Catalogue
+*  :doc:`pycsw_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/pycsw_quickstart>`] - Metadata Catalogue
+*  :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
 * :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
-* :doc:`istsos_overview` - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
+*  :doc:`istsos_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/istsos_quickstart>`] - Sensor Observation Service
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
-* :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+*  :doc:`zoo-project_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
 Data Stores
 --------------------------------------------------------------------------------
 Storing spatial data:
 
-* :doc:`postgis_overview`  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Spatial Database
+*  :doc:`postgis_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Spatial Database
 * :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Lightweight Database
 * :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database
-* :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS
+*  :doc:`pgrouting_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS
 
 Navigation and Maps
 --------------------------------------------------------------------------------
 * :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks
-* :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
+*  :doc:`marble_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 * :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools
 * :doc:`ideditor_overview` - [:doc:`QuickStart <../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor
 * :doc:`josm_overview` - [:doc:`QuickStart <../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor
@@ -79,11 +79,11 @@ Spatial Tools
 Specific analysis tools:
 
 * :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Cartographic Rendering
-* :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing
+*  :doc:`otb_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Image Processing
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistical Programming
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Create Map Tiles
-* :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing
+*  :doc:`ossim_overview` - |osgeoproject| - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing
 
 Domain Specific GIS
 --------------------------------------------------------------------------------
@@ -105,8 +105,8 @@ Spatial data sets:
 Geospatial Libraries
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
-* :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations
+*  :doc:`gdal_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
+*  :doc:`proj4_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations
 * :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 
 Available from prior OSGeo-Live releases:
@@ -114,9 +114,9 @@ Available from prior OSGeo-Live releases:
 
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
 * :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
-* :doc:`geotools_overview` - Java GIS Toolkit, description not included after OSGeo-Live 10.5
+*  :doc:`geotools_overview` - |osgeoproject| - Java GIS Toolkit, description not included after OSGeo-Live 10.5
 * :doc:`jts_overview` - Java Topology Suite, description not included after OSGeo-Live 10.5
-* :doc:`geos_overview` - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
+*  :doc:`geos_overview` - |osgeoproject| - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
 * :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5
