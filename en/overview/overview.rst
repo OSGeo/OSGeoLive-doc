@@ -114,7 +114,7 @@ Available from prior OSGeo-Live releases:
 
 * :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
 * :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
-* :doc:`geotools_overview` - Java GIS Toolkit, description not included after OSGeo-Live 10.5
+*  :doc:`geotools_overview` - |osgeoproject| - Java GIS Toolkit, description not included after OSGeo-Live 10.5
 * :doc:`jts_overview` - Java Topology Suite, description not included after OSGeo-Live 10.5
 * :doc:`geos_overview` - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
 * :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5

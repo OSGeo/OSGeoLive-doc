@@ -115,7 +115,7 @@ Web サービス
 
 *  :doc:`gdal_overview` - |osgeoproject|  - [:doc:`クイックスタート <../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール
 * :doc:`jts_overview` - Java トポロジスイート
-* :doc:`geotools_overview` - Java GIS ツールキット 
+*  :doc:`geotools_overview` - |osgeoproject| - Java GIS ツールキット 
 * :doc:`geos_overview` - C/C++ 空間ライブラリ
 *  :doc:`proj4_overview` - |osgeocommunity| - [:doc:`クイックスタート <../quickstart/proj4_quickstart>`] - 座標参照系の変換 (MetaCRS)
 * :doc:`liblas_overview` - [:doc:`クイックスタート <../quickstart/liblas_quickstart>`] - LiDAR データへのアクセス
