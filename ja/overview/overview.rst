@@ -20,7 +20,7 @@
 デスクトップ上での一般的な GIS 閲覧、編集、解析:
 
 * |osgeoproject| - :doc:`qgis_overview` - [:doc:`クイックスタート <../quickstart/qgis_quickstart>`]
-* :doc:`grass_overview` - [:doc:`クイックスタート <../quickstart/grass_quickstart>`]
+* |osgeoproject| - :doc:`grass_overview` - [:doc:`クイックスタート <../quickstart/grass_quickstart>`]
 * :doc:`gvsig_overview` - [:doc:`クイックスタート <../quickstart/gvsig_quickstart>`]
 * :doc:`udig_overview` - [:doc:`クイックスタート <../quickstart/udig_quickstart>`]
 * :doc:`kosmo_overview` - [:doc:`クイックスタート <../quickstart/kosmo_quickstart>`]
