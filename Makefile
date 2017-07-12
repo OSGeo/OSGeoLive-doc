@@ -38,6 +38,8 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)
+	rm -rf _compressed
+
 	#if [ -e licenses.csv ] ; then \
 	#  rm -f licenses.csv ; \
 	#fi ; 
@@ -261,3 +263,11 @@ doctest:
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
+listimagestocompress:
+	./bin/listimagestocompress.sh
+
+compressimages: html
+	for i in i $(cut -d ";" -f1 tocompress.txt)
+	do
+	 pngquant -f --ext .png --quality 70-95 "$i"
+	done
