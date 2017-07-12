@@ -57,7 +57,7 @@ Piblicació de dades espacials en internet:
 * :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servei de Processament Web
 * :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servei de Sensor d'Observació
 * :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servei WFS-T 
-* :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servei de Processament Web
+*  :doc:`zoo-project_overview` - |osgeocommunity| - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servei de Processament Web
 
 Magatzem de dades
 --------------------------------------------------------------------------------

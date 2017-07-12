@@ -54,7 +54,7 @@
 * :doc:`52nWPS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * :doc:`52nSOS_overview`  - [:doc:`Γρήγορη Εκκίνηση <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * :doc:`tinyows_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tinyows_quickstart>`] - WFS-T Service
-* :doc:`zoo-project_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
+*  :doc:`zoo-project_overview` - |osgeocommunity| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
 Βάσεις Χωρικών Δεδομένων
 --------------------------------------------------------------------------------
