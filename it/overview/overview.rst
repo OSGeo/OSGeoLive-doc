@@ -49,7 +49,7 @@ Publicare dati spaziali su internet:
 * :doc:`ncWMS_overview` - [:doc:`Guida rapida <../quickstart/ncWMS_quickstart>`] - Web Map Service
 * :doc:`eoxserver_overview` - [:doc:`Guida rapida <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
 * :doc:`geonetwork_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/geonetwork_quickstart>`] - Catalogo per i Metadati
-* :doc:`pycsw_overview` - [:doc:`Guida rapida <../quickstart/pycsw_quickstart>`] - Catalogo per i Metadati
+* :doc:`pycsw_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/pycsw_quickstart>`] - Catalogo per i Metadati
 * :doc:`mapproxy_overview` - |osgeocommunity| - [:doc:`Guida rapida <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services
 * :doc:`qgis_mapserver_overview` - [:doc:`Guida rapida <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service
 * :doc:`52nWPS_overview` - [:doc:`Guida rapida <../quickstart/52nWPS_quickstart>`] - Web Processing Service
