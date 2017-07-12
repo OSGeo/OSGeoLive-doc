@@ -45,7 +45,7 @@ Servicios Web
 Publicación de datos espaciales en internet:
 
 * :doc:`geoserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/geoserver_quickstart>`] - Servicios Web OGC.
-* :doc:`mapserver_overview` - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`] - Servicios Web OGC.
+* :doc:`mapserver_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/mapserver_quickstart>`] - Servicios Web OGC.
 * :doc:`deegree_overview` - [:doc:`QuickStart <../quickstart/deegree_quickstart>`] - Servicios Web OGC.
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Servicio Web de Mapas.
 * :doc:`eoxserver_overview` - [:doc:`QuickStart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service
