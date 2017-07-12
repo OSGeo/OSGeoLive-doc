@@ -44,7 +44,7 @@
 --------------------------------------------------------------------------------
 Публикация геоданных в Интернете:
 
-* :doc:`geoserver_overview` - [:doc:`Введение <../quickstart/geoserver_quickstart>`] - OGC веб-сервисы
+* |osgeoproject| - :doc:`geoserver_overview` - [:doc:`Введение <../quickstart/geoserver_quickstart>`] - OGC веб-сервисы
 * :doc:`mapserver_overview` - [:doc:`Введение <../quickstart/mapserver_quickstart>`] - OGC веб-сервисы
 * :doc:`deegree_overview` - [:doc:`Введение <../quickstart/deegree_quickstart>`] - OGC веб-сервисы
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Сервис WMS
