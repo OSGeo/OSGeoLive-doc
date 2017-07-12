@@ -63,7 +63,7 @@ Database
 --------------------------------------------------------------------------------
 Archiviare dati spaziali:
 
-* :doc:`postgis_overview`  - [:doc:`Guida rapida <../quickstart/postgis_quickstart>`] - Database Spaziale
+* |osgeoproject| - :doc:`postgis_overview`  - [:doc:`Guida rapida <../quickstart/postgis_quickstart>`] - Database Spaziale
 * :doc:`spatialite_overview` - [:doc:`Guida rapida <../quickstart/spatialite_quickstart>`] - Database Spaziale leggero
 * :doc:`rasdaman_overview` - [:doc:`Guida rapida <../quickstart/rasdaman_quickstart>`] - Database Multi-Dimensionale per Raster
 * |osgeocommunity| - :doc:`pgrouting_overview` - [:doc:`Guida rapida <../quickstart/pgrouting_quickstart>`] - Routing per PostGIS
