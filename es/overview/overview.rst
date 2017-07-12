@@ -113,7 +113,7 @@ Conjuntos de datos espaciales:
 Bibliotecas geoespaciales
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Herramientas de transformación de datos Geoespaciales.
+*  :doc:`gdal_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Herramientas de transformación de datos Geoespaciales.
 * :doc:`jts_overview` - Suite de Topología de Java.
 * :doc:`geotools_overview` - Caja de herramientas SIG de Java.
 * :doc:`geos_overview` - Biblioteca Espacial C/C++.

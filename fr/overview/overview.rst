@@ -113,7 +113,7 @@ Jeux de données spatiales :
 Librairies géospatiales
 --------------------------------------------------------------------------------
    
-* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Outils de translation de données géospatiales
+*  :doc:`gdal_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Outils de translation de données géospatiales
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Boîte à outils SIG Java 
 * :doc:`geos_overview` - C/C++ Spatial Library 

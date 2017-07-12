@@ -113,7 +113,7 @@ Auwahl räumlicher Daten:
 GIS Bibliotheken
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
+*  :doc:`gdal_overview` - |osgeoproject|  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 * :doc:`jts_overview` - Java Topology Suite
 * :doc:`geotools_overview` - Java GIS Toolkit 
 * :doc:`geos_overview` - C/C++ Spatial Library 

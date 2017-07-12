@@ -111,7 +111,7 @@ Zestawy danych przestrzennych:
 Biblioteki geoprzestrzenne
 --------------------------------------------------------------------------------
 
-* :doc:`gdal_overview` - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
+*  :doc:`gdal_overview` - |osgeoproject| - [:doc:`Wprowadzenie <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 * :doc:`jts_overview` - narzędzia topologiczne Java Topology Suite
 * :doc:`geotools_overview` - zestaw narzędzi GIS w Javaie
 * :doc:`geos_overview` - Biblioteka przestrzenna C/C++ 
