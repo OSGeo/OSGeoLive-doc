@@ -136,7 +136,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 * |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, eingestellt nach der OSGeo-Live Version 6.0
 * |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, eingestellt nach der OSGeo-Live Version 6.0
 * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, eingestellt nach OSGeo-Live 6.5
-* :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
+* |osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
 * |nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, eingestellt nach OSGeo-Live 9.0
 * |nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Kartengestaltung und Veröffentlichung, eingestellt nach OSGeo-Live 9.5
 * |nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS

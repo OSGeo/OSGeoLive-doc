@@ -39,7 +39,7 @@
 * |nologo| :doc:`cesium_overview` - [:doc:`快速入门 <../quickstart/cesium_quickstart>`] - 基于浏览器的3维地球与2维地图
 * |osgeoproject| - :doc:`geomajas_overview` - [:doc:`快速入门  <../quickstart/geomajas_quickstart>`] — 网页 GIS 服务
 * |osgeoproject| - :doc:`mapbender_overview` - [:doc:`快速入门  <../quickstart/mapbender_quickstart>`] — 网络地图服务集成框架
-* :doc:`mapfish_overview` - [:doc:`快速入门  <../quickstart/mapfish_quickstart>`] — 网页制图服务框架
+* |osgeoproject| :doc:`mapfish_overview` - [:doc:`快速入门  <../quickstart/mapfish_quickstart>`] — 网页制图服务框架
 * |osgeoproject| - :doc:`geomoose_overview` - [:doc:`快速入门 <../quickstart/geomoose_quickstart>`] — 网页 GIS 服务集成
 * |nologo| :doc:`cartaro_overview` - [:doc:`快速入门 <../quickstart/cartaro_quickstart>`] - 具备空间功能的内容管理系统
 * |osgeoproject| - :doc:`geonode_overview` - [:doc:`快速入门  <../quickstart/geonode_quickstart>`] - 地理空间内容管理系统
