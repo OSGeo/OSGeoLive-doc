@@ -16,4 +16,4 @@ do
 	#git commit -m "Compress $j with pngquant ($a -> $b)"
 	fi
 done
-
+rm -rf _compressed
