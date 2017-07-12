@@ -87,7 +87,7 @@ Outils d'analyse spécifique :
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Rendu cartographique
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styliser et publier
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Création de fragments cartographiques
-* :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Traitement d'image
+* |osgeoproject| - :doc:`ossim_overview` [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Traitement d'image
 * |osgeoproject| - :doc:`otb_overview` - [:doc:`QuickStart <../quickstart/otb_quickstart>`] - Traitement d'image
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Programmation statistique
 

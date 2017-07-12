@@ -89,7 +89,7 @@
 * :doc:`mapnik_overview` - [:doc:`Введение <../quickstart/mapnik_quickstart>`] - Картографический рендеринг
 * :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Стилизация и публикация карт
 * :doc:`mapslicer_overview`  - [:doc:`Введение <../quickstart/mapslicer_quickstart>`] - Создание картографических тайлов 
-* :doc:`ossim_overview` - [:doc:`Введение <../quickstart/ossim_quickstart>`] - Обработка изображений
+* |osgeoproject| - :doc:`ossim_overview` - [:doc:`Введение <../quickstart/ossim_quickstart>`] - Обработка изображений
 * :doc:`geokettle_overview` - [:doc:`Введение <../quickstart/geokettle_quickstart>`] - Инструмент ETL (Extract, Transform and Load)
 
 Отраслевые инструменты ГИС

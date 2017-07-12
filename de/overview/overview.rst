@@ -88,7 +88,7 @@ Spezielle Anwendungen
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Statistische Berechnungen
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Kartographisches Rendering
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Create Map Tiles
-* :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Bildprozessierung
+* |osgeoproject| - :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Bildprozessierung
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
 
 GIS Werkzeuge

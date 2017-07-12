@@ -87,7 +87,7 @@ Herramientas de análisis específicos:
 * :doc:`R_overview`  - [:doc:`QuickStart <../quickstart/R_quickstart>`] - Programación Estadística.
 * :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Render Cartográfico.
 * :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Creacion de *Map Tiles*.
-* :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Procesado de imágenes.
+* |osgeoproject| - :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Procesado de imágenes.
 * :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Herramienta ETL (Extracción, Transformación y Carga).
 
 SIG de campos específicos
