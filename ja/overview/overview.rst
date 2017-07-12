@@ -66,7 +66,7 @@ Web サービス
 
 * |osgeoproject| - :doc:`postgis_overview`  - [:doc:`クイックスタート <../quickstart/postgis_quickstart>`] - 空間データベース
 * |nologo| :doc:`spatialite_overview` - [:doc:`クイックスタート <../quickstart/spatialite_quickstart>`] - 軽量データベース
-* :doc:`rasdaman_overview` - [:doc:`クイックスタート <../quickstart/rasdaman_quickstart>`] - 多次元ラスタデータベース
+* |osgeoproject| :doc:`rasdaman_overview` - [:doc:`クイックスタート <../quickstart/rasdaman_quickstart>`] - 多次元ラスタデータベース
 * |osgeocommunity| - :doc:`pgrouting_overview` - [:doc:`クイックスタート <../quickstart/pgrouting_quickstart>`] - PostGISでの経路探索
 
 ナビゲーションと地図

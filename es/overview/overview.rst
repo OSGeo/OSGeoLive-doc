@@ -66,7 +66,7 @@ Almacenamiento de datos espaciales:
 
 * |osgeoproject| - :doc:`postgis_overview`  - [:doc:`QuickStart <../quickstart/postgis_quickstart>`] - Base de datos espacial.
 * |nologo| :doc:`spatialite_overview` - [:doc:`QuickStart <../quickstart/spatialite_quickstart>`] - Base de Datos ligera.
-* :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Base de Datos Raster Multi-Dimensional.                                               
+* |osgeoproject| :doc:`rasdaman_overview` - [:doc:`QuickStart <../quickstart/rasdaman_quickstart>`] - Base de Datos Raster Multi-Dimensional.                                               
 * |osgeocommunity| - :doc:`pgrouting_overview` - [:doc:`QuickStart <../quickstart/pgrouting_quickstart>`] - Routing para PostGIS.
 
 Navegación y mapas
