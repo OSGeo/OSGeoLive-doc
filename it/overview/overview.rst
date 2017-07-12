@@ -34,7 +34,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul browser:
 * :doc:`leaflet_overview` - [:doc:`Guida rapida <../quickstart/leaflet_quickstart>`] - Semplice mappa interattive mobile
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Globi 3D e mappe 2D in un browser
 * :doc:`geomajas_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/geomajas_quickstart>`] - Client GIS per browser internet
-* :doc:`mapbender_overview` - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali
+* :doc:`mapbender_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/mapbender_quickstart>`] - Ambiente per geo portali
 * :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
 * :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
 * :doc:`geonode_overview` - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
