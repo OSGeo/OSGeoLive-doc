@@ -49,7 +49,7 @@
 * :doc:`deegree_overview` - [:doc:`Введение <../quickstart/deegree_quickstart>`] - OGC веб-сервисы
 * :doc:`ncWMS_overview` - [:doc:`QuickStart <../quickstart/ncWMS_quickstart>`] - Сервис WMS
 * :doc:`eoxserver_overview` - [:doc:`Введение <../quickstart/eoxserver_quickstart>`] - Сервис WCS
-* :doc:`geonetwork_overview` - [:doc:`Введение <../quickstart/geonetwork_quickstart>`] - Каталог метаданных
+* |osgeoproject| - :doc:`geonetwork_overview` - [:doc:`Введение <../quickstart/geonetwork_quickstart>`] - Каталог метаданных
 * :doc:`pycsw_overview` - [:doc:`Введение <../quickstart/pycsw_quickstart>`] - Каталог метаданных 
 * |osgeocommunity| - :doc:`mapproxy_overview` - [:doc:`Введение <../quickstart/mapproxy_quickstart>`] - Прокси для WMS и тайловых сервисов
 * :doc:`qgis_mapserver_overview` - [:doc:`Введение <../quickstart/qgis_mapserver_quickstart>`] - сервис WMS
