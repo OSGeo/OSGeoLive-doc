@@ -113,14 +113,14 @@ Available from prior OSGeo-Live releases:
 --------------------------------------------------------------------------------
 
 * |nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
-* :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
+* |nologo| :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
 * |osgeoproject| - :doc:`geotools_overview` - Java GIS Toolkit, description not included after OSGeo-Live 10.5
 * |nologo| :doc:`jts_overview` - Java Topology Suite, description not included after OSGeo-Live 10.5
 * |osgeoproject| - :doc:`geos_overview` - C/C++ Spatial Library, description not included after OSGeo-Live 10.5
 * |nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
 * |nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
 * |nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5
-* :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service, not included after OSGeo-Live 10.5
+* |osgeocommunity| :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service, not included after OSGeo-Live 10.5
 * |nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
 * |nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`], not included after OSGeo-Live 10.5
 * |nologo| :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe, not included after OSGeo-Live 10.5

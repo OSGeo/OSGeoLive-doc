@@ -56,7 +56,7 @@ Veröffentlichung von Geodaten im Netz:
 * |nologo| :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 * |nologo| :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Web Processing Service
 * |osgeocommunity| - :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-* :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
+* |osgeocommunity| :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 * |nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
 .. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
@@ -131,7 +131,7 @@ Nur unter Microsoft Windows verfügbar:
 
 Auf früheren OSGeo-Live Releases verfügbar:
 
-* :doc:`OGC Standard descriptions <../standards/standards>` - nach OSGeo-Live 10.5 eingestellt
+* |nologo| :doc:`OGC Standard descriptions <../standards/standards>` - nach OSGeo-Live 10.5 eingestellt
 * |nologo| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, nicht enthalten nach OSGeo-Live 5.0 (zum Sparen von Speicher)
 * |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, eingestellt nach der OSGeo-Live Version 6.0
 * |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, eingestellt nach der OSGeo-Live Version 6.0
