@@ -30,7 +30,7 @@ Klienci w przeglądarce internetowej
 --------------------------------------------------------------------------------
 Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądarce internetowej:
 
-* :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeglądarce internetowej
+* |osgeoproject| - :doc:`openlayers_overview` - [:doc:`Wprowadzenie <../quickstart/openlayers_quickstart>`] - klient GIS w przeglądarce internetowej
 * :doc:`leaflet_overview` - [:doc:`Wprowadzenie <../quickstart/leaflet_quickstart>`] -  Przyjazne Mobilne  Interaktywne Mapy
 * :doc:`geomajas_overview` - [:doc:`Wprowadzenie <../quickstart/geomajas_quickstart>`] - klient GIS w przeglądarce internetowej
 * :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu

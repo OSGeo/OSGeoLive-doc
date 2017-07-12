@@ -34,7 +34,7 @@
 --------------------------------------------------------------------------------
 用于浏览器环境的 GIS 信息浏览、编辑和分析工具
 
-* :doc:`openlayers_overview` - [:doc:`快速入门  <../quickstart/openlayers_quickstart>`] — 网页 GIS 服务
+* |osgeoproject| - :doc:`openlayers_overview` - [:doc:`快速入门  <../quickstart/openlayers_quickstart>`] — 网页 GIS 服务
 * :doc:`leaflet_overview` - [:doc:`快速入门 <../quickstart/leaflet_quickstart>`] -  移动设备用户友好的交互地图
 * :doc:`cesium_overview` - [:doc:`快速入门 <../quickstart/cesium_quickstart>`] - 基于浏览器的3维地球与2维地图
 * :doc:`geomajas_overview` - [:doc:`快速入门  <../quickstart/geomajas_quickstart>`] — 网页 GIS 服务

@@ -31,7 +31,7 @@ Clientes ligeros o de navegador Web
 --------------------------------------------------------------------------------
 Visualización, edición y análisis en el navegador:
 
-* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Cliente GIS de Navegador Web.
+* |osgeoproject| - :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Cliente GIS de Navegador Web.
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Mapas interactivos adaptados a móviles.
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 3Globos 3D y mapas 2D en el navegador.
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Cliente GIS de Navegador Web.
