@@ -30,7 +30,7 @@ SIG par Navigateur
 --------------------------------------------------------------------------------
 Visualisation SIG en général, édition, et analyse dans le navigateur :
 
-* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Librairie de Cartographie pour Navigateur
+* :doc:`openlayers_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Librairie de Cartographie pour Navigateur
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] -  Cartes Interactives compatibles pour Mobiles
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Client navigateur SIG
 * :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Géo-portail

@@ -30,7 +30,7 @@
 --------------------------------------------------------------------------------
 Λογισμικά με δυνατότητες θέασης, επεξεργασίας και ανάλυσης δεδομένων GIS στο διαδίκτυο:
 
-* :doc:`openlayers_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart>`] - Διαδικτυακή εφαρμογή GIS
+* :doc:`openlayers_overview` - |osgeoproject| - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openlayers_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`leaflet_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/leaflet_quickstart>`] -  Διαδραστικοί Χάρτες Φορητών Συσκευών
 * :doc:`geomajas_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geomajas_quickstart>`] - Διαδικτυακή εφαρμογή GIS
 * :doc:`mapbender_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapbender_quickstart>`] - Περιβάλλον ανάπτυξης Γεωπύλης

@@ -31,7 +31,7 @@ Browser Anwendungen
 --------------------------------------------------------------------------------
 Generelle Geodaten Anzeige, Barbeitung und Analyse über den Browser:
 
-* :doc:`openlayers_overview` - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Bibliothek
+* :doc:`openlayers_overview` - |osgeoproject| - [:doc:`QuickStart <../quickstart/openlayers_quickstart>`] - Browser Mapping Bibliothek
 * :doc:`leaflet_overview` - [:doc:`QuickStart <../quickstart/leaflet_quickstart>`] - Interactive Karten für mobile Geräte geeignet
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - 3D Globen und 2D Karten im Browser
 * :doc:`geomajas_overview` - [:doc:`QuickStart <../quickstart/geomajas_quickstart>`] - Browser GIS Client

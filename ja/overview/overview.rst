@@ -31,7 +31,7 @@
 --------------------------------------------------------------------------------
 ブラウザ内での一般的な GIS 閲覧、編集、解析:
 
-* :doc:`openlayers_overview` - [:doc:`クイックスタート <../quickstart/openlayers_quickstart>`] - ブラウザマッピングライブラリ
+* :doc:`openlayers_overview` - |osgeoproject| - [:doc:`クイックスタート <../quickstart/openlayers_quickstart>`] - ブラウザマッピングライブラリ
 * :doc:`leaflet_overview` - [:doc:`クイックスタート <../quickstart/leaflet_quickstart>`] -  モバイルフレンドリーなインタラクティブ地図
 * :doc:`cesium_overview` - [:doc:`クイックスタート <../quickstart/cesium_quickstart>`] - ブラウザ内での3D地球儀と2D地図
 * :doc:`geomajas_overview` - [:doc:`クイックスタート <../quickstart/geomajas_quickstart>`] -ブラウザ GIS クライアント

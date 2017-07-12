@@ -30,7 +30,7 @@ Web GIS clients
 --------------------------------------------------------------------------------
 GIS generali per visualizzazione, modifiche, e analisi sul browser:
 
-* :doc:`openlayers_overview` - [:doc:`Guida rapida <../quickstart/openlayers_quickstart>`] - Client GIS per browser internet
+* :doc:`openlayers_overview` - |osgeoproject| - [:doc:`Guida rapida <../quickstart/openlayers_quickstart>`] - Client GIS per browser internet
 * :doc:`leaflet_overview` - [:doc:`Guida rapida <../quickstart/leaflet_quickstart>`] - Semplice mappa interattive mobile
 * :doc:`cesium_overview` - [:doc:`QuickStart <../quickstart/cesium_quickstart>`] - Globi 3D e mappe 2D in un browser
 * :doc:`geomajas_overview` - [:doc:`Guida rapida <../quickstart/geomajas_quickstart>`] - Client GIS per browser internet
