@@ -209,6 +209,6 @@ Available in prior OSGeo-Live releases:
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, not included after OSGeo-Live 6.0
 
-|nologo| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
+|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
 
 

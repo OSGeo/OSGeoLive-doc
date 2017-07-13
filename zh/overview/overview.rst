@@ -208,7 +208,7 @@
 .. MapGuide 由于存储空间原因未收录
 
 
-|nologo| :doc:`mapguide_overview` - [:doc:`快速入门 <../quickstart/mapguide_quickstart>`] - 网络 GIS 服务。
+|osgoeproject| :doc:`mapguide_overview` - [:doc:`快速入门 <../quickstart/mapguide_quickstart>`] - 网络 GIS 服务。
 * :doc:`geopublisher_overview`- [:doc:`快速入门 <../quickstart/geopublisher_quickstart>`] — 空间数据编目、管理与发布
 * :doc:`atlasstyler_overview` - [:doc:`快速入门 <../quickstart/atlasstyler_quickstart>`] — 地图样式编辑器
 

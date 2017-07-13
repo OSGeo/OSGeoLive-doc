@@ -196,7 +196,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 
 |nologo| :doc:`OGC Standard descriptions <../standards/standards>` - nach OSGeo-Live 10.5 eingestellt
 
-|nologo| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, nicht enthalten nach OSGeo-Live 5.0 (zum Sparen von Speicher)
+|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, nicht enthalten nach OSGeo-Live 5.0 (zum Sparen von Speicher)
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, eingestellt nach der OSGeo-Live Version 6.0
 
