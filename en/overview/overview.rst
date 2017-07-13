@@ -169,7 +169,7 @@ Geospatial Libraries
 Available in prior OSGeo-Live releases:
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 10.5
+|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 8.0
 
 |nologo| :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
 
