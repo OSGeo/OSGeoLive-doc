@@ -155,7 +155,7 @@ Geospatial Libraries
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
+|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
 
 |nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based GIS
 

@@ -182,7 +182,7 @@
 Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`mapguide_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`] - Διαδικτυακή Υπηρεσία
+|osgoeproject| :doc:`mapguide_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`] - Διαδικτυακή Υπηρεσία
 
 |nologo| :doc:`mapwindow_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapwindow_quickstart>`] - GIS βασισμένο στο περιβάλλον .NET των Microsoft Windows
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
