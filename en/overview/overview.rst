@@ -132,8 +132,6 @@ Domain Specific GIS
 Applications targeted at a specific domain:
 
 
-|nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
-
 |nologo| :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Weather Forecast Maps
 
 
@@ -194,6 +192,8 @@ Available in prior OSGeo-Live releases:
 |nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
 
 |nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management, not included after OSGeo-Live 10.5
+
+|nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping, not included after OSGeo-Live 10.5
 
 |nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS, not included after OSGeo-Live 10.0
 
