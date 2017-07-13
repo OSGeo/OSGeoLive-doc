@@ -164,51 +164,48 @@ Geospatial Libraries
 |nologo| :doc:`jts_overview` - Java Topology Suite
 
 
-
-
 Available in prior OSGeo-Live releases:
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`OGC Standard descriptions <../standards/standards>`, not included after OSGeo-Live 10.5
+|nologo| `OGC Standard descriptions <https://live.osgeo.org/archive/10.5/en/standards/standards.html>`_, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
+|nologo| `Viking <https://live.osgeo.org/archive/10.5/en/overview/viking_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/viking_quickstart.html>`_] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
+|nologo| `Ushahidi <https://live.osgeo.org/archive/10.5/en/overview/ushahidi_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/ushahidi_quickstart.html>`_] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service, not included after OSGeo-Live 10.5
+|nologo| `TinyOWS <https://live.osgeo.org/archive/10.5/en/overview/tinyows_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/tinyows_quickstart.html>`_] - WFS-T Service, not included after OSGeo-Live 10.5
 
-|osgeocommunity| :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service, not included after OSGeo-Live 10.5
+|osgeocommunity| `PyWPS <https://live.osgeo.org/archive/10.5/en/overview/pywps_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/pywps_quickstart.html>`_] - Web Processing Service, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
+|nologo| `osgEarth <https://live.osgeo.org/archive/10.5/en/overview/osgearth_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/osgearth_quickstart.html>`_] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`], not included after OSGeo-Live 10.5
+|nologo| `Kosmo Desktop <https://live.osgeo.org/archive/10.5/en/overview/kosmo_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/kosmo_quickstart.html>`_], not included after OSGeo-Live 10.5
 
-|nologo| :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe, not included after OSGeo-Live 10.5
+|nologo| `WorldWind Java <https://live.osgeo.org/archive/10.5/en/overview/worldwindjava_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/worldwindjava_quickstart.html>`_] - Desktop Virtual Globe, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorology and Climatology, not included after OSGeo-Live 10.5
+|nologo| `Iris <https://live.osgeo.org/archive/10.5/en/overview/iris_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/iris_quickstart.html>`_] - Meteorology and Climatology, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
+|nologo| `GeoKettle <https://live.osgeo.org/archive/10.5/en/overview/geokettle_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/geokettle_quickstart.html>`_] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management, not included after OSGeo-Live 10.5
+|nologo| `Sahana <https://live.osgeo.org/archive/10.5/en/overview/sahana_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/sahana_quickstart.html>`_] - Disaster management, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping, not included after OSGeo-Live 10.5
+|nologo| `MB System <https://live.osgeo.org/archive/10.5/en/overview/mb-system_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/mb-system_quickstart.html>`_] - Sea Floor Mapping, not included after OSGeo-Live 10.5
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS, not included after OSGeo-Live 10.0
+|nologo| `Cartaro <https://live.osgeo.org/archive/10.0/en/overview/cartaro_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.0/en/quickstart/cartaro_quickstart.html>`_] - Geospatial CMS, not included after OSGeo-Live 10.0
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing, not included after OSGeo-Live 9.5
+|nologo| `TileMill <https://live.osgeo.org/archive/9.5/en/overview/tilemill_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/9.5/en/quickstart/tilemill_quickstart.html>`_] - Styling and Publishing, not included after OSGeo-Live 9.5
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, not included after OSGeo-Live 9.0
+|nologo| `GpsDrive <https://live.osgeo.org/archive/9.0/en/overview/gpsdrive_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/9.0/en/quickstart/gpsdrive_quickstart.html>`_] - GPS Navigation, not included after OSGeo-Live 9.0
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 8.0
+|nologo| `Map Window <https://live.osgeo.org/archive/8.0/en/overview/mapwindow_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/8.0/en/quickstart/mapwindow_quickstart>`_] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 8.0
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, not included after OSGeo-Live 7.9
+|osgeoproject| `MapFish <https://live.osgeo.org/archive/7.9/en/overview/mapfish_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/7.9/en/quickstart/mapfish_quickstart.html>`_] - Web Mapping Framework, not included after OSGeo-Live 7.9
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, not included after OSGeo-Live 6.5
+|nologo| `52NorthWSS <https://live.osgeo.org/archive/6.5/en/overview/52nWSS_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/6.5/en/quickstart/52nWSS_quickstart.html>`_] - Web Security Service, not included after OSGeo-Live 6.5
 
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, not included after OSGeo-Live 6.0
+|nologo| `Geopublisher <https://live.osgeo.org/archive/6.0/en/overview/52nWSS_overview.html>`_  - Catalogue, not included after OSGeo-Live 6.0
 
-|nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, not included after OSGeo-Live 6.0
+|nologo| `AtlasStyler <https://live.osgeo.org/archive/6.0/en/overview/52nWSS_overview.html>`_ - Style Editor, not included after OSGeo-Live 6.0
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, not included after OSGeo-Live 5.0
-
+|osgeoproject| `MapGuide <https://live.osgeo.org/archive/5.0/en/overview/mapguide_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/5.0/en/quickstart/mapguide_quickstart.html>`_] - Web Service, not included after OSGeo-Live 5.0
 
