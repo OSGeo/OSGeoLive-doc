@@ -6,6 +6,7 @@
       <meta name="description" content="An Open Source Geospatial GNU/Linux Distribution">
       <meta name="author" content="Cameron Shorter">
       <meta name="author" content="Angelos Tzotsos">
+      <meta name="author" content="Astrid Emde">
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -70,7 +71,7 @@
                   <ul>
                      <li>Established, stable, working software</li>
                      <li>Active community</li>
-<li><a href="http://live.osgeo.org/en/metrics.html">https://live.osgeo.org/en/metrics.html</a></li>
+                     <li><a href="https://live.osgeo.org/en/metrics.html">https://live.osgeo.org/en/metrics.html</a></li>
                   </ul>
                   <a class="image" target="_blank">
                   <img width="600" src="../../images/presentation/metrics.png">
@@ -108,20 +109,22 @@
                   </aside>
                   </section-->
                <section>
-                  <h2>New in 11.0?</h2>
+                  <h2>Reboot for 11.0</h2>
                     <ul>
-                        <li>Reduced scope of OSGeo-Live 11.0 release</li>
-                        <li>Only support a 64 bit distribution (32 bit will be built but not tested or officially supported)</li>
-                        <li>We will no longer provide: Windows installers, Write ups for OGC Standards, Write ups for libraries without a user interface (on a case-by-case basis)</li>
-                        <li>We retired projects from OSGeo-Live (GeoKettle, Iris, WorldWind Java, Kosmo Desktop, MapWindow GIS Lite, osgEarth, PyWPS, Sahana Eden, TinyOWS, Ushahidi, Viking)</li>
-                        <li>GeoTools, JTS Topology Suite (JTS), GEOS descriptions are not included anymore</li>
-                        <li>OGC Standard descriptions are not included anymore</li>
-                        <li>many applications updated</li>
+                      <li>Rebaselined to focus on leading applications</li>
+                      <li>Dropped:
+                        <ul>
+                          <li>Windows installers</li>
+                          <li>Overviews of OGC Standards Overviews</li>
+                          <li>Overviews of Pure Libraries</li>
+                          <li>Some applications</li>
+                        </ul>
+                      <li>Target 64 bit distribution (32 bit is built but not supported)</li>
                     </ul>
                   <br/>
-                  <a class="image" target="_blank">
+                  <!--a class="image" target="_blank">
                      <img width="600" align="right" src="../../images/screenshots/800x600/osgeolive_menu.png">
-                  </a>
+                  </a-->
                   <aside class="notes">
                     <p>In OSGeo-Live Version 11.0 no new projects were included. We updated many existing applications.</p>
                   </aside>
@@ -155,7 +158,7 @@
                   <img width="600" src="../../images/presentation/ogc.png">
                   <aside class="notes">
                      <p>Open Source applications have a reputation for excellent standards compliance. Notably, the OGC uses Open Source projects when defining reference implementations for standards.</p>
-                     <p>OSGeo-Live includes overviews of some of the key OGC standards in simple language so they can be understood by people without a technical background.</p>
+                     <!--p>OSGeo-Live includes overviews of some of the key OGC standards in simple language so they can be understood by people without a technical background.</p-->
                      <p>Building Spatial Data Infrastructures using standards, facilitates interoperability between proprietary and open source applications. It facilitates sharing data between agencies. It reduces long term costs associated with data maintenance, and it reduces long term project risk by avoiding dependence upon proprietary formats or products, thus avoiding vendor lock-in.</p>
                   </aside>
                </section>
@@ -244,12 +247,12 @@
                            <td>OpenLayers<br/><img src="../../images/project_logos/logo-OpenLayers.png"/></td>
                            <td>Leaflet<br/><img src="../../images/project_logos/logo-leaflet.png"/></td>
                            <td>Cesium<br/><img src="../../images/project_logos/logo-cesium.png"/></td>
+                           <td>GeoNode<br/><img src="../../images/project_logos/logo-geonode.png"/></td>
                         </tr>
                         <tr>
-                           <td>Geomajas<br/><img src="../../images/project_logos/logo-geomajas.png"/></td>
                            <td>Mapbender3<br/><img src="../../images/project_logos/logo-Mapbender3.png"/></td>
                            <td>GeoMoose<br/><img src="../../images/project_logos/logo-geomoose.png"/></td>
-                           <td>GeoNode<br/><img src="../../images/project_logos/logo-geonode.png"/></td>
+                           <td>Geomajas<br/><img src="../../images/project_logos/logo-geomajas.png"/></td>
                         </tr>
                      </table>
                   </small>
@@ -280,10 +283,10 @@
                   </aside>
                </section>
                <section>
-                  <h2>Geomajas - Browser GIS Client</h2>
-                  <p><img src="../../images/screenshots/1024x768/geomajas_1024x768_screen1.png" width="800" height="600" alt="" /></p>
+                  <h2>GeoNode - Geospatial CMS</h2>
+                  <p><img src="../../images/screenshots/800x600/geonode_basic_application.png" width="800" height="600" alt="" /></p>
                   <aside class="notes">
-                     <p>Geomajas provides a wide range of spatial tools in a thin browser mapping client which integrates into the powerful server-side, java- based geotools library for processing.  This means Geomajas applications can provide very powerful functionality in the browser and still be performant.</p>
+                    <p>GeoNode is a Content Management System for geospatial data which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded, maps and metadata can be edited and published, and user ratings and comments can be captured.</p>
                   </aside>
                </section>
                <section>
@@ -303,10 +306,10 @@
                   </aside>
                </section>
                <section>
-                  <h2>GeoNode - Geospatial CMS</h2>
-                  <p><img src="../../images/screenshots/800x600/geonode_basic_application.png" width="800" height="600" alt="" /></p>
+                  <h2>Geomajas - Browser GIS Client</h2>
+                  <p><img src="../../images/screenshots/1024x768/geomajas_1024x768_screen1.png" width="800" height="600" alt="" /></p>
                   <aside class="notes">
-                    <p>GeoNode is a Content Management System for geospatial data which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded, maps and metadata can be edited and published, and user ratings and comments can be captured.</p>
+                     <p>Geomajas provides a wide range of spatial tools in a thin browser mapping client which integrates into the powerful server-side, java- based geotools library for processing.  This means Geomajas applications can provide very powerful functionality in the browser and still be performant.</p>
                   </aside>
                </section>
             </section>
@@ -555,9 +558,7 @@
                   <h2>JOSM</h2>
                   <p><img src="../../images/screenshots/1024x768/josm_inteface.png" width="800" height="600" alt="" /></p>
                   <aside class="notes">
-                     <p>TJOSM is a feature rich, extensible, Java based, offline desktop editor for OpenStreetMap data.</p>
-<p>
-It supports loading stand-alone GPX tracks and GPX track data as well as editing existing nodes (points), ways (lines), metadata tags (name/value information) and relations (ordered sequence of points and lines) from the OSM database. GPX tracks, are usually downloaded in advance from a GPS receiver or from other sources.</p>
+                     <p>JOSM is a desktop OpenStreetMap editor which provides many advanced features and can also be used offline.</p>
                   </aside>
                </section>
             </section>
@@ -646,20 +647,12 @@ It supports loading stand-alone GPX tracks and GPX track data as well as editing
                   <small>
                      <table>
                         <tr>
-                           <td>MB-System<br/><img src="../../images/project_logos/logo-mb-system.png"/></td>
                            <td>zyGrib<br/><img src="../../images/project_logos/logo-zygrib.png"/></td>
                         </tr>
                      </table>
                   </small>
                   <aside class="notes">
                      In this section, we have grouped applications targeted at a specific domain.
-                  </aside>
-               </section>
-               <section>
-                  <h2>MB-System - Sea Floor <br/>Mapping</h2>
-                  <p><img src="../../images/screenshots/1024x768/mb-system_screenshot.png" width="800" height="600" alt="" /></p>
-                  <aside class="notes">
-                    <p>MB-System processes and displays bathymetry and backscatter imagery data derived from multibeam, interferometry, and sidescan sonars.</p>
                   </aside>
                </section>
                <section>
