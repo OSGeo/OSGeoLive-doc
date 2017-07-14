@@ -1,7 +1,7 @@
 :Author: Gabriele Prestifilippo
 :Translator: David Mateos
 :Version: Pre-release
-:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html/>`_ 
+:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://ti.arc.nasa.gov/opensource/nosa/>`_ 
 
 
 
