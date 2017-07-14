@@ -63,7 +63,7 @@
 
 **Веб-сайт:** http://www.grassbook.org/data_menu3rd.php
 
-**Лицензия:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Лицензия:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Версия данных:** 2008
 
