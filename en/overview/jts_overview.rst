@@ -56,7 +56,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://www.locationtech.org/proposals/jts-topology-suite
+**Website:** ttps://www.locationtech.org/projects/technology.jts
 
 **Licence:** LGPL
 
