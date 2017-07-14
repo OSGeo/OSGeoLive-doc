@@ -22,5 +22,6 @@ script:
   - make html SPHINXOPTS=" -v"
   - du -ch _build/html
   - make clean
-  - make small SPHINXOPTS=" -v"
+  - make small SPHINXOPTS=" -v" &> errors.txt
+  - if ! grep -Fq 'build succeeded, 11 warnings' errors.txt; then cat errors.txt; exit 1; fi;
   - du -ch _build/html
