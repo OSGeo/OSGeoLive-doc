@@ -138,7 +138,7 @@ Domini Específic de GIS
 Aplicacions orientades a un tema específic:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management 
+
 
 
 

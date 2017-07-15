@@ -143,7 +143,7 @@ SIG Domaine Spécifique
 Applications ciblées à un domaine spécifique :
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Gestion de crise
+
 
 
 

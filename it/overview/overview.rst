@@ -142,7 +142,7 @@ Domain Specific GIS
 Applicazioni mirate ad uno specifico campo:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`Guida rapida <../quickstart/sahana_quickstart>`] - Gestione dei disastri
+
 
 
 

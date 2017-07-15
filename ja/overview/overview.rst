@@ -142,7 +142,7 @@ Web サービス
 特定の用途向けアプリケーション:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`クイックスタート <../quickstart/sahana_quickstart>`] - 災害マネージメント
+
 
 
 

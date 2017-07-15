@@ -30,7 +30,7 @@ Browser Clients
 Crisis Management
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management
+
 
 
 

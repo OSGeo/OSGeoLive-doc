@@ -212,4 +212,4 @@ Auf früheren OSGeo-Live Releases verfügbar:
 
 |nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Katastrophenmanagement
+

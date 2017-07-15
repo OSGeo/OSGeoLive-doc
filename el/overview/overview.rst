@@ -138,7 +138,7 @@
 Λογισμικά GIS με συγκεκριμένες χρήσεις:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/sahana_quickstart>`] - Διαχείριση καταστροφών
+
 
 
 

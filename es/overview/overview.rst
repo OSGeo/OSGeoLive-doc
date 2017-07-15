@@ -142,7 +142,7 @@ SIG de campos específicos
 Aplicaciones orientadas a un campo concreto:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Gestión de desastres.
+
 
 
 

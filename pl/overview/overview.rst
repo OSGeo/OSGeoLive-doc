@@ -140,7 +140,7 @@ GIS specjalizowany
 Aplikacje specjalistyczne:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`Wprowadzenie <../quickstart/sahana_quickstart>`] - zarządzanie pomocą w czasie katastrof
+
 
 
 

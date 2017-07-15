@@ -151,7 +151,7 @@
 特定 GIS 应用领域的专业工具
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`快速入门 <../quickstart/sahana_quickstart>`] — 灾害管理
+
 
 
 
