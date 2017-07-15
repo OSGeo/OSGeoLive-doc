@@ -26,7 +26,7 @@ GIS generali visualizzazione, editing, and analisi sul desktop:
 
 Mancanti:
 
-* :doc:`overview/kosmo_overview`
+
 
 Display browser GIS
 --------------------------------------------------------------------------------

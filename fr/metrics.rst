@@ -29,7 +29,7 @@ Affichage SIG général, édition, et analyse sur le bureau :
 
 Manquant :
 
-* :doc:`overview/kosmo_overview`
+
 
 SIG par navigateur
 --------------------------------------------------------------------------------

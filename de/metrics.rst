@@ -29,7 +29,7 @@ Darstellung, Bearbeitung und Analyse von Geodaten auf Desktop-Computern:
 
 Fehlend:
 
-* :doc:`overview/kosmo_overview`
+
 
 Browser GIS Anwendungen
 --------------------------------------------------------------------------------

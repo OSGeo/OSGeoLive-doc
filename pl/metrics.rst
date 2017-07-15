@@ -27,7 +27,7 @@ GIS ogólnego zastosowania - przeglądanie, edycja, analizy na komputerze:
 
 Brakujące:
 
-* :doc:`overview/kosmo_overview`
+
 
 GIS w przeglądarce internetowej
 --------------------------------------------------------------------------------
