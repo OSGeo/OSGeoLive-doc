@@ -188,7 +188,7 @@
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
 * :doc:`atlasstyler_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/atlasstyler_quickstart>`] - Επεξεργαστής στύλ, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapfish_quickstart>`] - Περιβάλλον διαδικτυακής Χαρτογράφιας, αποσύρθηκε μετά την έκδοση OSGeo-Live 7.9
+
 
 Προγράμματα εγκατάστασης για λειτουργικά συστήματα Windows και Apple
 --------------------------------------------------------------------------------

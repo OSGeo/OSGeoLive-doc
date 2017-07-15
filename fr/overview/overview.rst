@@ -46,7 +46,7 @@ Visualisation SIG en général, édition, et analyse dans le navigateur :
 
 |osgeoproject| :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Géo-portail
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Cartographie en ligne
+
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portail SIG Internet
 

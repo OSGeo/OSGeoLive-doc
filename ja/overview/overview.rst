@@ -204,7 +204,7 @@ Microsoft Windows のみで利用可能:
 
 |nologo| :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web Security Service、OSGeo-Live 6.5 以後未収録
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
+
 
 |nologo| :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
 

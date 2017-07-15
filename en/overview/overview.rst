@@ -199,7 +199,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|osgeoproject| `MapFish <https://live.osgeo.org/archive/7.9/en/overview/mapfish_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/7.9/en/quickstart/mapfish_quickstart.html>`__] - Web Mapping Framework, not included after OSGeo-Live 7.9
+
 
 |nologo| `52NorthWSS <https://live.osgeo.org/archive/6.5/en/overview/52nWSS_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/6.5/en/quickstart/52nWSS_quickstart.html>`__] - Web Security Service, not included after OSGeo-Live 6.5
 

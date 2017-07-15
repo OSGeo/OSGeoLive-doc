@@ -203,7 +203,7 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
+
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

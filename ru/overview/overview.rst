@@ -203,7 +203,7 @@
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Редактор стилей, исключён после версии OSGeo-Live 6.0
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Фреймворк для веб-картографирования, исключён после версии OSGeo-Live 7.9.
+
 
 
 Установщики для операционных систем Windows и Apple
