@@ -84,7 +84,7 @@ Publikowanie danych przestrzennych w Internecie:
 
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-.. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+
 
 Systemy zarządzania bazami danych
 --------------------------------------------------------------------------------

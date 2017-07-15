@@ -85,7 +85,7 @@ Publier des données spatiales sur Internet :
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. désactivé : * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Service Web de Sécurité
+
 
 Bases de données
 --------------------------------------------------------------------------------

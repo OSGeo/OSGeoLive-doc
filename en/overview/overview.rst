@@ -201,11 +201,11 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `52NorthWSS <https://live.osgeo.org/archive/6.5/en/overview/52nWSS_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/6.5/en/quickstart/52nWSS_quickstart.html>`__] - Web Security Service, not included after OSGeo-Live 6.5
 
-|nologo| `Geopublisher <https://live.osgeo.org/archive/6.0/en/overview/52nWSS_overview.html>`_  - Catalogue, not included after OSGeo-Live 6.0
 
-|nologo| `AtlasStyler <https://live.osgeo.org/archive/6.0/en/overview/52nWSS_overview.html>`_ - Style Editor, not included after OSGeo-Live 6.0
+
+
+
 
 
 

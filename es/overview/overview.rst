@@ -202,7 +202,7 @@ Disponible en versiones previas de OSGeo-Live:
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor de Estilos, retirado después de OSGeo-Live 6.0.
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retirado después de OSGeo-Live 6.5
+
 
 
 

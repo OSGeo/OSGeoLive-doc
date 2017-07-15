@@ -88,7 +88,7 @@ Veröffentlichung von Geodaten im Netz:
 
 
 
-.. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+
 
 Datenbanken
 --------------------------------------------------------------------------------
@@ -202,7 +202,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, eingestellt nach der OSGeo-Live Version 6.0
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, eingestellt nach OSGeo-Live 6.5
+
 
 
 

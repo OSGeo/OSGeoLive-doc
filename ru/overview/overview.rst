@@ -86,7 +86,7 @@
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`Введение <../quickstart/zoo-project_quickstart>`] - сервис WPS
 
-.. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+
 
 Базы данных
 --------------------------------------------------------------------------------

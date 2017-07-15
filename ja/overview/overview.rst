@@ -202,7 +202,7 @@ Microsoft Windows のみで利用可能:
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web Security Service、OSGeo-Live 6.5 以後未収録
+
 
 
 
