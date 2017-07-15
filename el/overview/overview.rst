@@ -182,7 +182,7 @@
 Άλλα λογισμικά ενδιαφέροντος (μη εγκατεστημένα άμεσα)
 --------------------------------------------------------------------------------
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapguide_quickstart>`] - Διαδικτυακή Υπηρεσία
+
 
 
 * :doc:`geopublisher_overview`- [:doc:`Γρήγορη Εκκίνηση <../quickstart/geopublisher_quickstart>`] - Κατάλογος, αποσύρθηκε μετά την έκδοση OSGeo-Live 6.0

@@ -198,7 +198,7 @@ Disponibile nelle precedenti versioni di OSGeo-Live:
 .. MapGuide temporarily disabled to save on disc space;
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0 (per salvare spazio nel disco)
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0

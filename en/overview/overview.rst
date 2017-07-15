@@ -207,5 +207,5 @@ Available in prior OSGeo-Live releases:
 
 |nologo| `AtlasStyler <https://live.osgeo.org/archive/6.0/en/overview/52nWSS_overview.html>`_ - Style Editor, not included after OSGeo-Live 6.0
 
-|osgeoproject| `MapGuide <https://live.osgeo.org/archive/5.0/en/overview/mapguide_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/5.0/en/quickstart/mapguide_quickstart.html>`__] - Web Service, not included after OSGeo-Live 5.0
+
 

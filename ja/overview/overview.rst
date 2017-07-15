@@ -196,7 +196,7 @@ Microsoft Windows のみで利用可能:
 以前の OSGeo-Live リリースで利用可能:
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`] - Web サービス、OSGeo-Live 5.0 以降未収録 (ディスク容量節約のため)
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 

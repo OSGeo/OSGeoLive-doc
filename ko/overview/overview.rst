@@ -155,7 +155,7 @@ Geospatial Libraries
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service
+
 
 
 

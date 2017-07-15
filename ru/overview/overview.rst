@@ -197,7 +197,7 @@
 Доступное в прошлых выпусках OSGeo-Live:
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`Введение <../quickstart/mapguide_quickstart>`] - Веб-сервис, не влючается в состав OSGeo-Live после версии 5.0 (для уменьшения объёма диска)
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Геокаталог, исключён после версии OSGeo-Live 6.0
 

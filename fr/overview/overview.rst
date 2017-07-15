@@ -196,7 +196,7 @@ Disponible à partir des distributions OSGeo-Live antérieures :
 .. MapGuide temporairement désactivé pour libérer de l'espace disque ;
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Service Web, non inclus après OSGeo-Live 5.0
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retiré après OSGeo-Live 6.0
 

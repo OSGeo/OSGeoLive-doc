@@ -194,7 +194,7 @@ Dostępne w poprzednich wydaniach OSGeo-Live:
 .. MapGuide jest czasowo wyłączony w celu zaoszczędzenia przestrzeni dyskowej; MapWindow nie zadziała na Ubuntu
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe, niedostępny po OSGeo-Lice 5.0
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - atlasy multimedialne, niedostępny po OSGeo-Live 6.0
 

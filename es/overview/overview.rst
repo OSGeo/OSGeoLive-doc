@@ -196,7 +196,7 @@ Disponible sólo en Microsoft Windows:
 Disponible en versiones previas de OSGeo-Live:
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Servicio Web de Mapas, retirado después de OSGeo-Live 5.0 (para ahorrar espacio de disco).
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catálogo, retirado después de OSGeo-Live 6.0.
 
