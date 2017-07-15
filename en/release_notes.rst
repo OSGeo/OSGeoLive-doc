@@ -13,7 +13,7 @@ Available in prior OSGeo-Live releases
     :widths: 5, 15, 15, 10, 30
     :delim: %
 
-    |nologo| % `OGC Standard`_  %                                %   10.5 %  OGC Standards descriptions
+    |nologo| % `OGC Standards`_ %                                %   10.5 %  OGC Standards descriptions
     |nologo| % Viking_          % `QuickStart <Viking_q_>`__     %   10.5 %  GPS Data Analysis and Viewer
     |nologo| % Ushahidi_        % `QuickStart <Ushahidi_q_>`__   %   10.5 %  Mapping and Timeline for events
     |nologo| % TinyOWS_         % `QuickStart <TinyOWS_q_>`__    %   10.5 %  WFS-T Service
