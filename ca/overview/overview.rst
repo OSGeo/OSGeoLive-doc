@@ -117,7 +117,7 @@ Eines Espacials
 Eines específiques per anàlisi:
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool 
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Cartographic Rendering 
 

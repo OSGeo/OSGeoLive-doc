@@ -185,7 +185,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `GeoKettle <https://live.osgeo.org/archive/10.5/en/overview/geokettle_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/geokettle_quickstart.html>`__] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
+
 
 |nologo| `Sahana <https://live.osgeo.org/archive/10.5/en/overview/sahana_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/sahana_quickstart.html>`__] - Disaster management, not included after OSGeo-Live 10.5
 

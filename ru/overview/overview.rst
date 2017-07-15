@@ -136,7 +136,7 @@
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`Введение <../quickstart/ossim_quickstart>`] - Обработка изображений
 
-|nologo| :doc:`geokettle_overview` - [:doc:`Введение <../quickstart/geokettle_quickstart>`] - Инструмент ETL (Extract, Transform and Load)
+
 
 Отраслевые инструменты ГИС
 --------------------------------------------------------------------------------

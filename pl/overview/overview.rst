@@ -119,7 +119,7 @@ Narzędzia przestrzenne
 Narzędzia do zaawansowanych analiz:
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
 

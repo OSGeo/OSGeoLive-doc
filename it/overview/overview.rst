@@ -135,7 +135,7 @@ Strumenti speficici per analisi:
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 
-|nologo| :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
+
 
 Domain Specific GIS
 --------------------------------------------------------------------------------

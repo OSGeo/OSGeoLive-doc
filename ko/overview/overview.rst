@@ -90,7 +90,7 @@ Navigation and Maps
 Spatial Tools
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
+
 
 |osgeoproject| :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 

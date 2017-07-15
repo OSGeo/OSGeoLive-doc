@@ -117,7 +117,7 @@
 Εξειδικευμένα εργαλεία χωρικής ανάλυσης:
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/geokettle_quickstart>`] - Ενοποίηση δεδομένων
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gmt_quickstart>`] - Χαρτογραφική Σύνθεση
 

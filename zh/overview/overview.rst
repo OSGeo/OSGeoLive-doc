@@ -128,7 +128,7 @@
 空间信息分析系统
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`快速入门 <../quickstart/geokettle_quickstart>`] — 空间信息数据库整合
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`快速入门 <../quickstart/gmt_quickstart>`] — 地图制作
 

@@ -135,7 +135,7 @@ Spezielle Anwendungen
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Bildprozessierung
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
+
 
 GIS Werkzeuge
 --------------------------------------------------------------------------------

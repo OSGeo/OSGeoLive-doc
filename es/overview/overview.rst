@@ -135,7 +135,7 @@ Herramientas de análisis específicos:
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Procesado de imágenes.
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Herramienta ETL (Extracción, Transformación y Carga).
+
 
 SIG de campos específicos
 --------------------------------------------------------------------------------

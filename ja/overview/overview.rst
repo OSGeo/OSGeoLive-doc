@@ -135,7 +135,7 @@ Web サービス
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
 
-|nologo| :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
+
 
 特定用途向け GIS
 --------------------------------------------------------------------------------
