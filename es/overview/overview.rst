@@ -51,7 +51,7 @@ Visualización, edición y análisis en el navegador:
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portal web SIG.
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] -CMS (Sistema de Gestión de Contenidos) Geoespacial.
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - CMS (Sistema de Gestión de Contenidos) Geoespacial.
 

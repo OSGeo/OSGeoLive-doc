@@ -50,7 +50,7 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądar
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`Wprowadzenie <../quickstart/geomoose_quickstart>`] - portal Web GIS
 
-|nologo| :doc:`cartaro_overview` - [:doc:`Wprowadzenie <../quickstart/cartaro_quickstart>`] - Geoprzestrzenny CMS
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`Wprowadzenie <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 

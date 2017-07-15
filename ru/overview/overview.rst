@@ -51,7 +51,7 @@
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`Введение <../quickstart/geomoose_quickstart>`] - Веб-ГИС портал
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Система управления геопространственными данными
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Система управления геопространственными данными
 

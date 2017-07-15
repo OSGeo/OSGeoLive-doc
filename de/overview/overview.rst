@@ -210,6 +210,6 @@ Auf früheren OSGeo-Live Releases verfügbar:
 
 
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS
+
 
 

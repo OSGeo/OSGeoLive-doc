@@ -51,7 +51,7 @@
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
 
-|nologo| :doc:`cartaro_overview` - [:doc:`クイックスタート <../quickstart/cartaro_quickstart>`] - 地理空間 CMS
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 コンテンツ管理システム
 

@@ -191,7 +191,7 @@ Available in prior OSGeo-Live releases:
 
 |nologo| `MB System <https://live.osgeo.org/archive/10.5/en/overview/mb-system_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/mb-system_quickstart.html>`__] - Sea Floor Mapping, not included after OSGeo-Live 10.5
 
-|nologo| `Cartaro <https://live.osgeo.org/archive/10.0/en/overview/cartaro_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.0/en/quickstart/cartaro_quickstart.html>`__] - Geospatial CMS, not included after OSGeo-Live 10.0
+
 
 
 

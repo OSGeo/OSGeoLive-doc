@@ -52,7 +52,7 @@ Visualitzar, editar i analitzat dades GIS en un navegador web:
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal 
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS 
+
 
 Serveis Web
 --------------------------------------------------------------------------------

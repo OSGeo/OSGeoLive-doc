@@ -50,7 +50,7 @@ Visualisation SIG en général, édition, et analyse dans le navigateur :
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portail SIG Internet
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - CMS Géospatial
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Content Management System Géospatial
 
