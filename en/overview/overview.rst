@@ -164,14 +164,8 @@ Geospatial Libraries
 |nologo| :doc:`jts_overview` - Java Topology Suite
 
 
-Available in prior OSGeo-Live releases:
---------------------------------------------------------------------------------
-
-* :doc:`Previously available applications <prior_applications>`
-* `OGC Standard descriptions <https://live.osgeo.org/archive/10.5/en/standards/standards.html>`_
-
-
 Available in prior OSGeo-Live releases
 --------------------------------------------------------------------------------
 
-:doc:`../release_notes`
+* :doc:`../prior_applications`
+

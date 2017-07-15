@@ -65,7 +65,7 @@ link_to_en_docs:
 	done
 	# link to english docs for the docs in head directory
 	for LANG in $(TRANSLATIONS) ; do \
-	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/copyright.rst en/metrics.rst en/mac_installers.rst en/win_installers.rst en/release_notes.rst; do \
+	  for DOC in en/download.rst en/contact.rst en/index.rst en/sponsors.rst en/sponsors_osgeo.rst en/disclaimer.rst en/copyright.rst en/metrics.rst en/mac_installers.rst en/win_installers.rst en/prior_applications.rst; do \
 	    TRANSLATED_DOC=`echo $$DOC | sed -e"s/en/$$LANG/"` ; \
 	    TARGET_EN=`echo $$DOC | sed -e"s#^#../#"` ; \
 	    if [ ! -f $$TRANSLATED_DOC ] ; then \

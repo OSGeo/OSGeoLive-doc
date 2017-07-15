@@ -1,12 +1,9 @@
 
 
 
-|osgeo-live-version| Release Notes
+Previously available applications
 ================================================================================
 
-
-Available in prior OSGeo-Live releases
---------------------------------------------------------------------------------
 
 .. csv-table::
     :header:  "", "Name", "", "Last Available", "Description"
@@ -38,7 +35,7 @@ Available in prior OSGeo-Live releases
 
 
 
-.. _OGC Standard: https://live.osgeo.org/archive/10.5/en/standards/standards.html
+.. _OGC Standards: https://live.osgeo.org/archive/10.5/en/standards/standards.html
 .. _Viking: https://live.osgeo.org/archive/10.5/en/overview/viking_overview.html
 .. _Ushahidi: https://live.osgeo.org/archive/10.5/en/overview/ushahidi_overview.html
 .. _TinyOWS: https://live.osgeo.org/archive/10.5/en/overview/tinyows_overview.html
