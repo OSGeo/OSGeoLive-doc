@@ -144,7 +144,7 @@ Geospatial Libraries
 
   <script type="text/javascript" src="https://www.openhub.net/p/mapwingis/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/mapguide/widgets/project_factoids_stats?format=js"></script>
-  <!--script type="text/javascript" src="https://www.openhub.net/p/geokettle/widgets/project_factoids_stats?format=js"></script-->
+
   <!--script type='text/javascript' src='https://www.openhub.net/p/WebWorldWind/widgets/project_factoids_stats?format=js'></script-->
 
   <script type="text/javascript" src="https://www.openhub.net/p/pyWPS/widgets/project_factoids_stats?format=js"></script>

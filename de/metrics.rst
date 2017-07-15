@@ -115,7 +115,7 @@ Spezielle Analysewerkzeuge:
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/geokettle/widgets/project_factoids_stats?format=js"></script>
+
   <script type="text/javascript" src="https://www.openhub.net/p/GMT/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/mapnik/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/ossim/widgets/project_factoids_stats?format=js"></script>
