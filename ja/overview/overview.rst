@@ -182,7 +182,7 @@ Web サービス
 
 |nologo| :doc:`liblas_overview` - [:doc:`クイックスタート <../quickstart/liblas_quickstart>`] - LiDAR データへのアクセス
 
-|nologo| :doc:`iris_overview` - [:doc:`クイックスタート <../quickstart/iris_quickstart>`] - 気象学と気候学
+
 
 その他の関連ソフトウェア (Live 未収録)
 --------------------------------------------------------------------------------

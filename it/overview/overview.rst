@@ -182,7 +182,7 @@ Librerie geospaziali
 
 |nologo| :doc:`liblas_overview` - [:doc:`Guida rapida <../quickstart/liblas_quickstart>`] - Accesso ai LiDAR
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Metereologia e Climatologia
+
 
 Altri software di interesse (non disponibili nella Live)
 --------------------------------------------------------------------------------

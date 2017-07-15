@@ -179,7 +179,7 @@ Biblioteki geoprzestrzenne
 
 |nologo| :doc:`liblas_overview` - [:doc:`Wprowadzenie <../quickstart/liblas_quickstart>`] - dostęp do danych LiDAR 
 
-|nologo| :doc:`iris_overview` - [:doc:`Wprowadzenie <../quickstart/iris_quickstart>`] - Meteorologia i Klimatologia
+
 Inne programy warte zainteresowania (niedostępne Live)
 --------------------------------------------------------------------------------
 

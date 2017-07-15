@@ -180,7 +180,7 @@ GIS Bibliotheken
 
 |nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorologie und Klimatologie
+
 
 Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------

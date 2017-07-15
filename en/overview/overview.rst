@@ -183,7 +183,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `Iris <https://live.osgeo.org/archive/10.5/en/overview/iris_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/iris_quickstart.html>`__] - Meteorology and Climatology, not included after OSGeo-Live 10.5
+
 
 |nologo| `GeoKettle <https://live.osgeo.org/archive/10.5/en/overview/geokettle_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/geokettle_quickstart.html>`__] - ETL (Extract, Transform and Load) Tool, not included after OSGeo-Live 10.5
 

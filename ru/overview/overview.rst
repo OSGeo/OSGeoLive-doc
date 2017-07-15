@@ -182,7 +182,7 @@
 
 |nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - Работа с данными LiDAR
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Метеорология и климатология
+
 
 
 Другое геопространственное ПО (отсутствует на диске)

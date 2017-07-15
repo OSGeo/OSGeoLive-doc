@@ -182,7 +182,7 @@ Bibliotecas geoespaciales
 
 |nologo| :doc:`liblas_overview`  - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - libLAS acceso datos LIDAR.
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorología y climatología.
+
 
 Otros programas de interés (no instalados)
 --------------------------------------------------------------------------------
