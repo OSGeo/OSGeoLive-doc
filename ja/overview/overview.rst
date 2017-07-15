@@ -28,7 +28,7 @@
 
 |nologo| :doc:`udig_overview` - [:doc:`クイックスタート <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`クイックスタート <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`クイックスタート <../quickstart/openjump_quickstart>`]
 

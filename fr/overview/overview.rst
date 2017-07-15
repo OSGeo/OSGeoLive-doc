@@ -27,7 +27,7 @@ Visualisation SIG en général, édition, et analyse sur bureau :
 
 |nologo| :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 

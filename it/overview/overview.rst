@@ -27,7 +27,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul desktop:
 
 |nologo| :doc:`udig_overview` - [:doc:`Guida rapida <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`Guida rapida <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`Guida rapida <../quickstart/openjump_quickstart>`]
 

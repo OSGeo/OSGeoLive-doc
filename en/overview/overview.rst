@@ -179,7 +179,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `Kosmo Desktop <https://live.osgeo.org/archive/10.5/en/overview/kosmo_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/kosmo_quickstart.html>`__], not included after OSGeo-Live 10.5
+
 
 
 

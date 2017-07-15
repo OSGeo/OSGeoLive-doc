@@ -27,7 +27,7 @@
 
 |nologo| :doc:`udig_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/openjump_quickstart>`]
 

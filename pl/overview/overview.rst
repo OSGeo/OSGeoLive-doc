@@ -27,7 +27,7 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy na desktopie:
 
 |nologo| :doc:`udig_overview` - [:doc:`Wprowadzenie <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`Wprowadzenie <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`Wprowadzenie <../quickstart/openjump_quickstart>`]
 

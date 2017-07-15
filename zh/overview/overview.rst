@@ -31,7 +31,7 @@
 
 |nologo| :doc:`udig_overview` - [:doc:`快速入门 <../quickstart/udig_quickstart>`] — 桌面 GIS 框架
 
-|nologo| :doc:`kosmo_overview` - [:doc:`快速入门 <../quickstart/kosmo_quickstart>`] — 桌面 GIS
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`快速入门 <../quickstart/openjump_quickstart>`] — 轻量化桌面 GIS
 

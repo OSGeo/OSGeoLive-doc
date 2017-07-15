@@ -30,7 +30,7 @@ Visualitzar, editar i analitzat dades GIS en escriptori:
 
 |nologo| :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 

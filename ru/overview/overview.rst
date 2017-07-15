@@ -27,7 +27,7 @@
 
 |nologo| :doc:`udig_overview` - [:doc:`Введение <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`Введение <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`Введение <../quickstart/openjump_quickstart>`]
 
