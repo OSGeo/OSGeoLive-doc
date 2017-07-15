@@ -47,7 +47,7 @@ Darstellung, Bearbeitung und Analyse von Geodaten im Browser:
 
 Fehlend:
 
-* :doc:`overview/cartaro_overview`
+
 
 Web Services
 --------------------------------------------------------------------------------

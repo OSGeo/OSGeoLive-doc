@@ -46,7 +46,7 @@ GIS ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądarce inte
 
 Brakujące:
 
-* :doc:`overview/cartaro_overview`
+
 
 Usługi sieciowe
 --------------------------------------------------------------------------------

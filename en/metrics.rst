@@ -137,7 +137,7 @@ Geospatial Libraries
 .. Retired Projects
   ------------------------------------------------------------------------------
 
-  * :doc:`overview/cartaro_overview`
+
   <script type="text/javascript" src="https://www.openhub.net/p/jts-topo-suite/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geotools/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geos/widgets/project_factoids_stats?format=js"></script>

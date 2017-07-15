@@ -45,7 +45,7 @@ GIS generali visualizzazione, editing, and analisi sul browser:
 
 Mancanti:
 
-* :doc:`overview/cartaro_overview`
+
 
 Servizi Web
 --------------------------------------------------------------------------------

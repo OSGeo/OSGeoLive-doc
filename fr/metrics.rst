@@ -48,7 +48,7 @@ Affichage SIG général, édition, et analyse par le navigateur :
 
 Manquant :
 
-* :doc:`overview/cartaro_overview`
+
 
 Services Web
 --------------------------------------------------------------------------------
