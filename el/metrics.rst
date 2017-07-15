@@ -148,7 +148,7 @@
   <script type="text/javascript" src="https://www.openhub.net/p/geotools/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geos/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/liblas/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/python-iris/widgets/project_factoids_stats?format=js"></script>
+
 
 Βιβλιοθήκες Συστημάτων Αναφοράς 
 --------------------------------------------------------------------------------
