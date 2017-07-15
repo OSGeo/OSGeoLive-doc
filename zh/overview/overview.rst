@@ -87,7 +87,7 @@
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`快速入门 <../quickstart/52nSOS_quickstart>`] — 传感器观测数据获取
 
-|nologo| :doc:`tinyows_overview` - [:doc:`快速入门 <../quickstart/tinyows_quickstart>`] — 基于事务的网页空间要素服务
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
 

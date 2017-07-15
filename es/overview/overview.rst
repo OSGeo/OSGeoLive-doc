@@ -88,7 +88,7 @@ Publicación de datos espaciales en internet:
 
 |osgeocommunity| :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servicio WFS-T.
+
 
 Bases de Datos
 --------------------------------------------------------------------------------

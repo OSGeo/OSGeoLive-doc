@@ -173,7 +173,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `TinyOWS <https://live.osgeo.org/archive/10.5/en/overview/tinyows_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/tinyows_quickstart.html>`__] - WFS-T Service, not included after OSGeo-Live 10.5
+
 
 |osgeocommunity| `PyWPS <https://live.osgeo.org/archive/10.5/en/overview/pywps_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/pywps_quickstart.html>`__] - Web Processing Service, not included after OSGeo-Live 10.5
 

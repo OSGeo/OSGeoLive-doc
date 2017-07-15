@@ -82,7 +82,7 @@
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`Введение <../quickstart/52nSOS_quickstart>`] - сервис SOS (Sensor Observation Service)
 
-|nologo| :doc:`tinyows_overview` - [:doc:`Введение <../quickstart/tinyows_quickstart>`] - сервис WFS-T
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`Введение <../quickstart/zoo-project_quickstart>`] - сервис WPS
 

@@ -81,7 +81,7 @@ Publicare dati spaziali su internet:
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`Guida rapida <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`Guida rapida <../quickstart/tinyows_quickstart>`] - WFS-T Service
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`Guida rapida <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 

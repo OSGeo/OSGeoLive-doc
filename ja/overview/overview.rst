@@ -88,7 +88,7 @@ Web サービス
 
 |osgeocommunity| :doc:`pywps_overview` - [:doc:`クイックスタート <../quickstart/pywps_quickstart>`] - Web Processing Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`クイックスタート <../quickstart/tinyows_quickstart>`] - WFS-T サービス
+
 
 データストア
 --------------------------------------------------------------------------------
