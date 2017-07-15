@@ -63,7 +63,7 @@ Desktop GIS
 |nologo| :doc:`saga_overview` - [:doc:`QuickStart <../quickstart/saga_quickstart>`]
 
 |osgeoproject| :doc:`ossim_overview` - Image Processing
-* :doc:`geopublisher_overview` - [:doc:`QuickStart <../quickstart/geopublisher_quickstart>`] - Catalogue
+
 * :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Style Editor
 
 

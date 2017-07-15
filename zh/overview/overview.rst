@@ -209,7 +209,7 @@
 
 
 
-* :doc:`geopublisher_overview`- [:doc:`快速入门 <../quickstart/geopublisher_quickstart>`] — 空间数据编目、管理与发布
+
 * :doc:`atlasstyler_overview` - [:doc:`快速入门 <../quickstart/atlasstyler_quickstart>`] — 地图样式编辑器
 
 Windows 和 Apple Mac 安装
