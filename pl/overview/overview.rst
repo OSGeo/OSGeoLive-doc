@@ -144,7 +144,7 @@ Aplikacje specjalistyczne:
 
 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
 

@@ -147,7 +147,7 @@ Applications ciblées à un domaine spécifique :
 
 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Rendu de terrain 3D
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Cartographie Fonds Océanique
 

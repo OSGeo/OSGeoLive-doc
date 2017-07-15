@@ -146,7 +146,7 @@ Web サービス
 
 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`クイックスタート <../quickstart/osgearth_quickstart>`] - 3D 地形レンダリング
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`クイックスタート <../quickstart/mb-system_quickstart>`] - 海底マッピング
 

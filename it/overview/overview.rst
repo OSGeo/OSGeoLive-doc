@@ -146,7 +146,7 @@ Applicazioni mirate ad uno specifico campo:
 
 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`Guida rapida <../quickstart/osgearth_quickstart>`] - Rendering superficie 3D
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`Guida rapida <../quickstart/mb-system_quickstart>`] - Mappatura del fondo marino
 

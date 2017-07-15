@@ -146,7 +146,7 @@ Aplicaciones orientadas a un campo concreto:
 
 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Render de terreno 3D.
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Mapeo del fondo del mar.
 

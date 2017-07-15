@@ -147,7 +147,7 @@
 
 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`Введение <../quickstart/osgearth_quickstart>`] - 3D-визуализация местности
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`Введение <../quickstart/mb-system_quickstart>`] - Картографирование морского дна
 

@@ -177,7 +177,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `osgEarth <https://live.osgeo.org/archive/10.5/en/overview/osgearth_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/osgearth_quickstart.html>`__] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
+
 
 |nologo| `Kosmo Desktop <https://live.osgeo.org/archive/10.5/en/overview/kosmo_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/kosmo_quickstart.html>`__], not included after OSGeo-Live 10.5
 

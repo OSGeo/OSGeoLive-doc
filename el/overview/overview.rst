@@ -142,7 +142,7 @@
 
 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart>`] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mb-system_quickstart>`] - Χαρτογράφηση πυθμένα θάλασσας
 
