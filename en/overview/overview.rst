@@ -181,7 +181,7 @@ Available in prior OSGeo-Live releases:
 
 |nologo| `Kosmo Desktop <https://live.osgeo.org/archive/10.5/en/overview/kosmo_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/kosmo_quickstart.html>`__], not included after OSGeo-Live 10.5
 
-|nologo| `WorldWind Java <https://live.osgeo.org/archive/10.5/en/overview/worldwindjava_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/worldwindjava_quickstart.html>`__] - Desktop Virtual Globe, not included after OSGeo-Live 10.5
+
 
 |nologo| `Iris <https://live.osgeo.org/archive/10.5/en/overview/iris_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/iris_quickstart.html>`__] - Meteorology and Climatology, not included after OSGeo-Live 10.5
 

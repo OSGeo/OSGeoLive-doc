@@ -110,7 +110,7 @@ Navegación y mapas
 
 |osgeoproject| :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Globo Virtual.
 
-|nologo| :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Globo Virtual de Escritorio.
+
 
 |nologo| :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Ploteo de GPS marino 
 
