@@ -111,7 +111,7 @@
 --------------------------------------------------------------------------------
 
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`快速入门 <../quickstart/gpsdrive_quickstart>`] — GPS 导航
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`快速入门 <../quickstart/gpsprune_quickstart>`] — GPS 航迹编辑器
 

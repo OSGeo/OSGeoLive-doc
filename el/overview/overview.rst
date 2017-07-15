@@ -100,7 +100,7 @@
 --------------------------------------------------------------------------------
 
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsdrive_quickstart>`] - Πλοήγηση GPS
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/gpsprune_quickstart>`] - Οπτικοποίηση, Επεξεργασία και Μετατροπή Γραμμών Πορείας GPS
 

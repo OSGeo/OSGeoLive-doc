@@ -103,7 +103,7 @@ Archiviare dati spaziali:
 Navigazione e Mappe
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`Guida rapida <../quickstart/gpsdrive_quickstart>`] - Navigatore GPS
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`Guida rapida <../quickstart/gpsprune_quickstart>`] - Visualizza, modifica e converte tracce GPS
 

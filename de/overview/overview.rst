@@ -206,7 +206,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 
 
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, eingestellt nach OSGeo-Live 9.0
+
 
 
 

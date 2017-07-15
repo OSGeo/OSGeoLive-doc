@@ -103,7 +103,7 @@
 Навигация и карты
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`Введение <../quickstart/gpsdrive_quickstart>`] - GPS-навигация
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`Введение <../quickstart/gpsprune_quickstart>`] - Просмотр, правка и конвертация GPS-треков
 

@@ -106,7 +106,7 @@ Web サービス
 ナビゲーションと地図
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`クイックスタート <../quickstart/gpsprune_quickstart>`] - GPS トラックの閲覧、編集、変換
 
@@ -206,7 +206,7 @@ Microsoft Windows のみで利用可能:
 
 
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
+
 
 
 

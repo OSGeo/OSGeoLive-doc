@@ -195,7 +195,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `GpsDrive <https://live.osgeo.org/archive/9.0/en/overview/gpsdrive_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/9.0/en/quickstart/gpsdrive_quickstart.html>`__] - GPS Navigation, not included after OSGeo-Live 9.0
+
 
 
 
