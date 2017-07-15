@@ -135,7 +135,7 @@ OpenStreetMapツール
   <script type="text/javascript" src="https://www.openhub.net/p/sahanapy/widgets/project_factoids_stats?format=js"></script>
 
   <script type="text/javascript" src="https://www.openhub.net/p/mb-system/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/osgearth/widgets/project_factoids_stats?format=js"></script>
+
 
 Missing:
 
