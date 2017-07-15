@@ -38,7 +38,7 @@ Details
 
 **Webseite:** http://www.pacificclimate.org/
 
-**Lizenz:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Lizenz:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Daten Version:** 2013
 

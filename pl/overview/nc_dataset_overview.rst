@@ -61,7 +61,7 @@ Szczegóły
 
 **Strona internetowa:** http://www.grassbook.org/data_menu3rd.php
 
-**Licencja:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Licencja:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Wersja danych:** 2008
 
