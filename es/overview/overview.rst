@@ -208,7 +208,7 @@ Disponible en versiones previas de OSGeo-Live:
 
 |nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - Navegación GPS , retirado después de OSGeo-Live 9.0.
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Estilos y publicación, retirado después de OSGeo-Live 9.5.
+
 
 
 

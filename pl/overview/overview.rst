@@ -125,7 +125,7 @@ Narzędzia do zaawansowanych analiz:
 
 |nologo| :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
 
-|nologo| :doc:`tilemill_overview` - [:doc:`Wprowadzenie <../quickstart/tilemill_quickstart>`] - stylizacja i publikacja
+
 
 |nologo| :doc:`mapslicer_overview` - [:doc:`Wprowadzenie <../quickstart/mapslicer_quickstart>`] - tworzenie kafli map
 

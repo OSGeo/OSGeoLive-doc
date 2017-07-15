@@ -208,7 +208,7 @@ Auf früheren OSGeo-Live Releases verfügbar:
 
 |nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, eingestellt nach OSGeo-Live 9.0
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Kartengestaltung und Veröffentlichung, eingestellt nach OSGeo-Live 9.5
+
 
 |nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS
 

@@ -134,7 +134,7 @@
 
 |nologo| :doc:`mapnik_overview` - [:doc:`快速入门 <../quickstart/mapnik_quickstart>`] — 地图制作
 
-|nologo| :doc:`tilemill_overview` - [:doc:`快速入门 <../quickstart/tilemill_quickstart>`] - 地图渲染和发布
+
 
 |nologo| :doc:`mapslicer_overview`  - [:doc:`快速入门 <../quickstart/mapslicer_quickstart>`] — 栅格地图切片化
 

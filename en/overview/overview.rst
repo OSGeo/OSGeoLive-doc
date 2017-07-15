@@ -193,7 +193,7 @@ Available in prior OSGeo-Live releases:
 
 |nologo| `Cartaro <https://live.osgeo.org/archive/10.0/en/overview/cartaro_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.0/en/quickstart/cartaro_quickstart.html>`__] - Geospatial CMS, not included after OSGeo-Live 10.0
 
-|nologo| `TileMill <https://live.osgeo.org/archive/9.5/en/overview/tilemill_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/9.5/en/quickstart/tilemill_quickstart.html>`__] - Styling and Publishing, not included after OSGeo-Live 9.5
+
 
 |nologo| `GpsDrive <https://live.osgeo.org/archive/9.0/en/overview/gpsdrive_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/9.0/en/quickstart/gpsdrive_quickstart.html>`__] - GPS Navigation, not included after OSGeo-Live 9.0
 

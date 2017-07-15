@@ -208,6 +208,6 @@ Microsoft Windows のみで利用可能:
 
 |nologo| :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
 
-|nologo| :doc:`tilemill_overview` - [:doc:`クイックスタート <../quickstart/tilemill_quickstart>`] - スタイリングとパブリッシング、OSGeo-Live 9.5 以降未収録
+
 
 

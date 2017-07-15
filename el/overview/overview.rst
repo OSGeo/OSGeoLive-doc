@@ -125,7 +125,7 @@
 
 |nologo| :doc:`mapnik_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapnik_quickstart>`] - Χαρτογραφική Σύνθεση
 
-|nologo| :doc:`tilemill_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/tilemill_quickstart>`] - Δημοσίευση Χαρτών με Στύλ
+
 
 |nologo| :doc:`mapslicer_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/mapslicer_quickstart>`] - Δημιουργία Τετραγωνιδίων Χαρτών
 

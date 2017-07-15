@@ -130,7 +130,7 @@
 
 |nologo| :doc:`mapnik_overview` - [:doc:`Введение <../quickstart/mapnik_quickstart>`] - Картографический рендеринг
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Стилизация и публикация карт
+
 
 |nologo| :doc:`mapslicer_overview`  - [:doc:`Введение <../quickstart/mapslicer_quickstart>`] - Создание картографических тайлов 
 
