@@ -113,7 +113,7 @@ Navigation et cartes
 
 |nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools
 
-|nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer
+
 
 |nologo| :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Weather Forecast Maps
 

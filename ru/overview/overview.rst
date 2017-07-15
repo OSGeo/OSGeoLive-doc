@@ -113,7 +113,7 @@
 
 |nologo| :doc:`osm_overview` - [:doc:`Введение <../quickstart/osm_quickstart>`] - Инструменты для OpenStreetMap
 
-|nologo| :doc:`viking_overview` - [:doc:`Введение <../quickstart/viking_quickstart>`] - Просмотр и анализ данных GPS
+
 
 
 Геопространственные инструменты 

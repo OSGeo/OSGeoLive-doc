@@ -121,7 +121,7 @@
 
 |nologo| :doc:`osm_overview` - [:doc:`快速入门 <../quickstart/osm_quickstart>`] — Open Street Map 相关工具
 
-|nologo| :doc:`viking_overview` - [:doc:`快速入门 <../quickstart/viking_quickstart>`] — GPS 数据编辑与分析
+
 
 空间工具
 --------------------------------------------------------------------------------

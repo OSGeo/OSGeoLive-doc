@@ -116,7 +116,7 @@ Navigation und Karten
 
 |nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
 
-|nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Datenanalyse und -anzeige
+
 
 Spezielle GIS Software
 --------------------------------------------------------------------------------

@@ -169,7 +169,7 @@ Available in prior OSGeo-Live releases:
 
 |nologo| `OGC Standard descriptions <https://live.osgeo.org/archive/10.5/en/standards/standards.html>`_, not included after OSGeo-Live 10.5
 
-|nologo| `Viking <https://live.osgeo.org/archive/10.5/en/overview/viking_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/viking_quickstart.html>`__] - GPS Data Analysis and Viewer, not included after OSGeo-Live 10.5
+
 
 |nologo| `Ushahidi <https://live.osgeo.org/archive/10.5/en/overview/ushahidi_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/ushahidi_quickstart.html>`__] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
 

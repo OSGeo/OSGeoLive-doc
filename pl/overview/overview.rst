@@ -112,7 +112,7 @@ Nawigacja i Mapy
 
 |nologo| :doc:`osm_overview` - [:doc:`Wprowadzenie <../quickstart/osm_quickstart>`] - narzędzia Open Street Map
 
-|nologo| :doc:`viking_overview` - [:doc:`Wprowadzenie <../quickstart/viking_quickstart>`] - przeglądanie i analiza danych GPS
+
 
 Narzędzia przestrzenne
 --------------------------------------------------------------------------------

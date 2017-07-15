@@ -110,7 +110,7 @@
 
 |nologo| :doc:`osm_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osm_quickstart>`] - Εργαλεία Open Street Map
 
-|nologo| :doc:`viking_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/viking_quickstart>`] - Οπτικοποίηση σημείων GPS
+
 
 Χωρικά Εργαλεία
 --------------------------------------------------------------------------------

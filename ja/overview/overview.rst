@@ -116,7 +116,7 @@ Web サービス
 
 |nologo| :doc:`osm_overview` - [:doc:`クイックスタート <../quickstart/osm_quickstart>`] - OpenStreetMap のツール
 
-|nologo| :doc:`viking_overview` - [:doc:`クイックスタート <../quickstart/viking_quickstart>`] - GPS データの解析、ビューワー
+
 
 空間ツール
 --------------------------------------------------------------------------------

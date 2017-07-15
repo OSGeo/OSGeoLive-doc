@@ -113,7 +113,7 @@ Navigazione e Mappe
 
 |nologo| :doc:`osm_overview` - [:doc:`Guida rapida <../quickstart/osm_quickstart>`] - Strumenti per OpenStreetMap
 
-|nologo| :doc:`viking_overview` - [:doc:`Guida rapida <../quickstart/viking_quickstart>`] - Visualizza e analizza dati GPS
+
 
 Strumenti spaziali
 --------------------------------------------------------------------------------
