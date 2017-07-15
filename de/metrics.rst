@@ -168,5 +168,5 @@ Weitere interessante Software (nicht direkt verfügbar)
 .. raw:: html
 
   <script type="text/javascript" src="https://www.openhub.net/p/mapwingis/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/mapguide/widgets/project_factoids_stats?format=js"></script>
+
 
