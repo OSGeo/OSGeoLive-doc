@@ -140,7 +140,7 @@ Aplicacions orientades a un tema específic:
 
 |nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management 
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events 
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering 
 

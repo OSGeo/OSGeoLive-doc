@@ -144,7 +144,7 @@ Web サービス
 
 |nologo| :doc:`sahana_overview` - [:doc:`クイックスタート <../quickstart/sahana_quickstart>`] - 災害マネージメント
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`クイックスタート <../quickstart/ushahidi_quickstart>`] - イベントのためのマッピングとスケジュール管理
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`クイックスタート <../quickstart/osgearth_quickstart>`] - 3D 地形レンダリング
 

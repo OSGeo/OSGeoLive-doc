@@ -145,7 +145,7 @@ Applications ciblées à un domaine spécifique :
 
 |nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Gestion de crise
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Cartographie et Chronologie événements
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Rendu de terrain 3D
 

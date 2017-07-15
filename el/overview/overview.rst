@@ -140,7 +140,7 @@
 
 |nologo| :doc:`sahana_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/sahana_quickstart>`] - Διαχείριση καταστροφών
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/ushahidi_quickstart>`] - Χαρτοχράφηση και δημιουργία χρονοσειρών για γεγονότα
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`Γρήγορη Εκκίνηση <../quickstart/osgearth_quickstart>`] - Οπτικοποίηση εδάφους σε 3 διαστάσεις
 

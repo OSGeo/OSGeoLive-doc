@@ -171,7 +171,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|nologo| `Ushahidi <https://live.osgeo.org/archive/10.5/en/overview/ushahidi_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/ushahidi_quickstart.html>`__] - Mapping and Timeline for events, not included after OSGeo-Live 10.5
+
 
 |nologo| `TinyOWS <https://live.osgeo.org/archive/10.5/en/overview/tinyows_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/tinyows_quickstart.html>`__] - WFS-T Service, not included after OSGeo-Live 10.5
 

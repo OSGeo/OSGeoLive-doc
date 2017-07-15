@@ -144,7 +144,7 @@ Applicazioni mirate ad uno specifico campo:
 
 |nologo| :doc:`sahana_overview` - [:doc:`Guida rapida <../quickstart/sahana_quickstart>`] - Gestione dei disastri
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`Guida rapida <../quickstart/ushahidi_quickstart>`] - Mapping e Timeline per eventi
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`Guida rapida <../quickstart/osgearth_quickstart>`] - Rendering superficie 3D
 

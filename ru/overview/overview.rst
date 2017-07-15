@@ -145,7 +145,7 @@
 
 |nologo| :doc:`sahana_overview` - [:doc:`Введение <../quickstart/sahana_quickstart>`] - Кризисное управление при стихийных бедствиях
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`Введение <../quickstart/ushahidi_quickstart>`] - Картографирование и распределение событий по времени
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`Введение <../quickstart/osgearth_quickstart>`] - 3D-визуализация местности
 

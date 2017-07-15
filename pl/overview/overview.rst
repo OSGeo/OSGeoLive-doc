@@ -142,7 +142,7 @@ Aplikacje specjalistyczne:
 
 |nologo| :doc:`sahana_overview` - [:doc:`Wprowadzenie <../quickstart/sahana_quickstart>`] - zarządzanie pomocą w czasie katastrof
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`Wprowadzenie <../quickstart/ushahidi_quickstart>`] - mapy zdarzeń oraz ciągi czasowe
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
 

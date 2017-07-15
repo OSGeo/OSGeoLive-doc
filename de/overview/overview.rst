@@ -142,7 +142,7 @@ GIS Werkzeuge
 Anwendungen mit besonderem Schwerpunkt
 
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Kartendarstellung und Zeitachsen für Ereignisse
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
 

@@ -144,7 +144,7 @@ Aplicaciones orientadas a un campo concreto:
 
 |nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Gestión de desastres.
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapeo y linea de tiempo para eventos.
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Render de terreno 3D.
 

@@ -153,7 +153,7 @@
 
 |nologo| :doc:`sahana_overview` - [:doc:`快速入门 <../quickstart/sahana_quickstart>`] — 灾害管理
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`快速入门 <../quickstart/ushahidi_quickstart>`] — 
+
 
 |nologo| :doc:`osgearth_overview` - [:doc:`快速入门 <../quickstart/osgearth_quickstart>`] — 3D 地形渲染函数库
 

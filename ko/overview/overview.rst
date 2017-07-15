@@ -32,7 +32,7 @@ Crisis Management
 
 |nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events
+
 
 Databases
 --------------------------------------------------------------------------------
