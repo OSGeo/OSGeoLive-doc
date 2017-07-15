@@ -192,7 +192,7 @@
 .. MapWindow — Windows-ориентированная ГИС (.NET) и не работает в Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`Введение <../quickstart/mapwindow_quickstart>`] - ГИС для OC Windows
+
 
 Доступное в прошлых выпусках OSGeo-Live:
 

@@ -191,7 +191,7 @@ Disponible sólo en Microsoft Windows:
 .. MapWindow is windows based (.net) and won't run on Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - SIG para Microsoft Windows.
+
 
 Disponible en versiones previas de OSGeo-Live:
 

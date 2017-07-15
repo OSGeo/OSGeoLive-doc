@@ -184,7 +184,7 @@ Disponiblitat només per a Microsoft Windows:
 .. MapWindow es basa en windows (.net) i no es pot executar sobre Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS 
+
 
 Disponible en versions anteriors dels releases d'OSGeo-Live: 
 

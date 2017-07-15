@@ -189,7 +189,7 @@ Disponible sur Microsoft Windows uniquement :
 .. MapWindow est basé sur Windows (.net) et ne fonctionnera pas sur Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS
+
 
 Disponible à partir des distributions OSGeo-Live antérieures :
 

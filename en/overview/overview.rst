@@ -197,7 +197,7 @@ Available in prior OSGeo-Live releases:
 
 |nologo| `GpsDrive <https://live.osgeo.org/archive/9.0/en/overview/gpsdrive_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/9.0/en/quickstart/gpsdrive_quickstart.html>`__] - GPS Navigation, not included after OSGeo-Live 9.0
 
-|nologo| `Map Window <https://live.osgeo.org/archive/8.0/en/overview/mapwindow_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/8.0/en/quickstart/mapwindow_quickstart>`__] - Microsoft Windows based Desktop GIS, only available as a Windows installer, not included after OSGeo-Live 8.0
+
 
 |osgeoproject| `MapFish <https://live.osgeo.org/archive/7.9/en/overview/mapfish_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/7.9/en/quickstart/mapfish_quickstart.html>`__] - Web Mapping Framework, not included after OSGeo-Live 7.9
 

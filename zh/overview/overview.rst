@@ -201,7 +201,7 @@
 .. MapWindow 为 Windows 专有（.net），不能运行于 Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`快速入门 <../quickstart/mapwindow_quickstart>`] — Windows 操作系统下的 GIS 工具
+
 
 以往 OSGeo-Live 版本包含的：
 

@@ -191,7 +191,7 @@ Microsoft Windows のみで利用可能:
 .. MapWindow は Windows ベース (.net) で、Ubuntu では動作しません
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`クイックスタート <../quickstart/mapwindow_quickstart>`] - Microsoft Windows ベースのデスクトップ GIS
+
 
 以前の OSGeo-Live リリースで利用可能:
 
