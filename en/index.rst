@@ -82,8 +82,3 @@ Presentation
 
 A half hour `presentation <presentation/index.html>`_, highlighting all OSGeo-Live applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
 
-
-Release notes
---------------------------------------------------------------------------------
-
-:doc:`release_notes`

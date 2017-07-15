@@ -209,3 +209,8 @@ Available in prior OSGeo-Live releases:
 
 |osgeoproject| `MapGuide <https://live.osgeo.org/archive/5.0/en/overview/mapguide_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/5.0/en/quickstart/mapguide_quickstart.html>`__] - Web Service, not included after OSGeo-Live 5.0
 
+
+Available in prior OSGeo-Live releases
+--------------------------------------------------------------------------------
+
+:doc:`../release_notes`
