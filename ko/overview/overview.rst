@@ -64,7 +64,7 @@ Desktop GIS
 
 |osgeoproject| :doc:`ossim_overview` - Image Processing
 
-* :doc:`atlasstyler_overview` - [:doc:`QuickStart <../quickstart/atlasstyler_quickstart>`] - Style Editor
+
 
 
 

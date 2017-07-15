@@ -210,7 +210,7 @@
 
 
 
-* :doc:`atlasstyler_overview` - [:doc:`快速入门 <../quickstart/atlasstyler_quickstart>`] — 地图样式编辑器
+
 
 Windows 和 Apple Mac 安装
 --------------------------------------------------------------------------------
