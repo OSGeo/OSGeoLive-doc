@@ -59,7 +59,7 @@ Publishing spatial data to the internet:
   <script type="text/javascript" src="https://www.openhub.net/p/istsos/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/n52-wps/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/SensorObservationService/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/tinyows/widgets/project_factoids_stats?format=js"></script>
+
   <script type="text/javascript" src="https://www.openhub.net/p/zoo-project/widgets/project_factoids_stats?format=js"></script>
 
 Missing:
