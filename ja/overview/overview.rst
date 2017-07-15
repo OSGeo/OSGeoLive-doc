@@ -86,7 +86,7 @@ Web サービス
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-|osgeocommunity| :doc:`pywps_overview` - [:doc:`クイックスタート <../quickstart/pywps_quickstart>`] - Web Processing Service
+
 
 
 

@@ -175,7 +175,7 @@ Available in prior OSGeo-Live releases:
 
 
 
-|osgeocommunity| `PyWPS <https://live.osgeo.org/archive/10.5/en/overview/pywps_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/pywps_quickstart.html>`__] - Web Processing Service, not included after OSGeo-Live 10.5
+
 
 |nologo| `osgEarth <https://live.osgeo.org/archive/10.5/en/overview/osgearth_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/osgearth_quickstart.html>`__] - 3D Terrain Rendering, not included after OSGeo-Live 10.5
 

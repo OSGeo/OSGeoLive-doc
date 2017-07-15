@@ -84,7 +84,7 @@ Veröffentlichung von Geodaten im Netz:
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-|osgeocommunity| :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
+
 
 
 
