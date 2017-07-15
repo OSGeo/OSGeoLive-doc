@@ -93,7 +93,7 @@ Navigation et Cartes
 
 .. raw:: html
 
-  <!--script type="text/javascript" src="https://www.openhub.net/p/gpsdrive/widgets/project_factoids_stats?format=js"></script-->
+
   <script type="text/javascript" src="https://www.openhub.net/p/marble/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/prune-gps/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/opencpn/widgets/project_factoids_stats?format=js"></script>
