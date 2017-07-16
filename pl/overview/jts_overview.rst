@@ -32,7 +32,7 @@ Aplikacje OSGeo-Live bezpośrednio używające JTS:
 :doc:`52nWPS_overview`,
 :doc:`kosmo_overview`,
 :doc:`52nWSS_overview`,
-:doc:`atlasstyler_overview`,
+AtlasStyler,
 :doc:`geomajas_overview`,
 :doc:`saga_overview`,
 :doc:`geonetwork_overview`,

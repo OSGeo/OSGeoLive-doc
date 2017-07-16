@@ -25,7 +25,7 @@ GeoTools — это Java-библиотека с открытым исходн�
   :align: right
 
 Библиотека GeoTools используется в ряде проектов, включая веб сервисы, утилиты командной строки и настольные приложения. Приложения из состава OSGeo-Live , которые используют GeoTools, включают: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Базовые функции
 --------------------------------------------------------------------------------

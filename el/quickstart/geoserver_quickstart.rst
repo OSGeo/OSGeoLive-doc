@@ -286,7 +286,7 @@ layers in :file:`/usr/local/share/geoserver`.
 
     * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
+    * AtlasStyler
 
     * :doc:`MapBender <../overview/mapbender_overview>`
 

@@ -268,5 +268,5 @@ Hier eine kleine Auswahl:
 
     * :doc:`uDig <../overview/udig_overview>`
     * :doc:`OpenLayers <../overview/openlayers_overview>`
-    * :doc:`Atlas Styler <../overview/atlasstyler_overview>` 
+    * AtlasStyler 
     * :doc:`MapBender <../overview/mapbender_overview>`

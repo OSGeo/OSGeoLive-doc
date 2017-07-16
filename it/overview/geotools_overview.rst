@@ -30,7 +30,7 @@ specifiche del Open Geospatial Consortium (OGC).
 GeoTools è usata da un gran numero di progetti incluso servizi web, strumenti da
 linea di comando e applicazioni desktop. Le applicazio di OSGeo-Live che includono
 GeoTools: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, 
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, 
 :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, e :doc:`udig_overview`.
 
 Caratteristiche principali
