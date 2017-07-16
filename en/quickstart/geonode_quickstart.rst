@@ -149,6 +149,7 @@ The next step for you is to create a map and add the newly created layers to thi
 #. Click on the *New Layers* button and select *Add Layers*. 
 
    .. figure:: /images/screenshots/800x600/geonode_addlayerslink.png
+     :scale: 100%
 
 
 #. Now you should be able to see all the available layers. In your case, this should include the ones you've added before.
@@ -156,22 +157,26 @@ The next step for you is to create a map and add the newly created layers to thi
 #. Select some layers by clicking the first entry and Ctrl-clicking the rest. Click *Add Layers* to add them all to the map.
 
    .. figure:: /images/screenshots/800x600/geonode_addlayersselect_quickstart.png
+     :scale: 100%
 
 #. The layers will be added to the map.
 
 #. To save the map click on the *Map* button in the toolbar, and select *Save Map*.
 
    .. figure:: /images/screenshots/800x600/geonode_savemaplink.png
+     :scale: 100%
 
 
 #. Enter a title and abstract for your map.
 
    .. figure:: /images/screenshots/800x600/geonode_savemapdialog.png
+     :scale: 100%
 
 
 #. Click *Save*. Notice that the link on the top right of the page changed to reflect the map's name.
 
    .. figure:: /images/screenshots/800x600/geonode_mapname.png
+     :scale: 100%
 
 
    This link contains a permalink to your map. If you open this link in a new window, your map will appear exactly as it was saved.
@@ -186,6 +191,7 @@ Now let's finish our map.
 #. Right click on the *USA Population* layer and select *Zoom to layer extend*
 
    .. figure:: /images/screenshots/800x600/geonode_mapcomposition.png
+     :scale: 70%
 
 
 #. Make any final adjustments to the map composition as desired, including zoom and pan settings.
@@ -193,6 +199,7 @@ Now let's finish our map.
 #. Click the *Map* button in the toolbar, and then click *Publish Map*.
 
    .. figure:: /images/screenshots/800x600/geonode_publishmaplink.png
+     :scale: 100%
 
 
 #. The title and abstract as previously created should still be there. Make any adjustments as necessary, and click *Save*.
@@ -200,6 +207,7 @@ Now let's finish our map.
 #. A new dialog will appear with instructions on how to embed this map in a webpage, including a code snippet. You can adjust the parameters as necessary.
 
    .. figure:: /images/screenshots/800x600/geonode_publishmap.png
+     :scale: 100%
 
 
 Your map can now be shared!
