@@ -73,6 +73,7 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      metrics
      mac_installers
      win_installers
+     release_notes
 
 
 
@@ -80,3 +81,9 @@ Presentation
 --------------------------------------------------------------------------------
 
 A half hour `presentation <presentation/index.html>`_, highlighting all OSGeo-Live applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
+
+
+Release notes
+--------------------------------------------------------------------------------
+
+:doc:`release_notes`
