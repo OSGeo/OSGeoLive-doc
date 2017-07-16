@@ -27,7 +27,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul desktop:
 
 |nologo| :doc:`udig_overview` - [:doc:`Guida rapida <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`Guida rapida <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`Guida rapida <../quickstart/openjump_quickstart>`]
 
@@ -50,7 +50,7 @@ GIS generali per visualizzazione, modifiche, e analisi sul browser:
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`Guida rapida <../quickstart/geomoose_quickstart>`] - Portale Web GIS
 
-|nologo| :doc:`cartaro_overview` - [:doc:`Guida rapida <../quickstart/cartaro_quickstart>`] - CMS geospaziale
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`Guida rapida <../quickstart/geonode_quickstart>`] - CMS geospaziale
 
@@ -81,11 +81,11 @@ Publicare dati spaziali su internet:
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`Guida rapida <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`Guida rapida <../quickstart/tinyows_quickstart>`] - WFS-T Service
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`Guida rapida <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`Guida rapida <../quickstart/52nWSS_quickstart>`] - Web Security Service
+
 
 Database
 --------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ Archiviare dati spaziali:
 Navigazione e Mappe
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`Guida rapida <../quickstart/gpsdrive_quickstart>`] - Navigatore GPS
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`Guida rapida <../quickstart/gpsprune_quickstart>`] - Visualizza, modifica e converte tracce GPS
 
@@ -113,7 +113,7 @@ Navigazione e Mappe
 
 |nologo| :doc:`osm_overview` - [:doc:`Guida rapida <../quickstart/osm_quickstart>`] - Strumenti per OpenStreetMap
 
-|nologo| :doc:`viking_overview` - [:doc:`Guida rapida <../quickstart/viking_quickstart>`] - Visualizza e analizza dati GPS
+
 
 Strumenti spaziali
 --------------------------------------------------------------------------------
@@ -129,24 +129,24 @@ Strumenti speficici per analisi:
 
 |nologo| :doc:`mapnik_overview` - [:doc:`Guida rapida <../quickstart/mapnik_quickstart>`] - Restituzione cartografica
 
-|nologo| :doc:`tilemill_overview` - [:doc:`Guida rapida <../quickstart/tilemill_quickstart>`] - Creazione e pubblicazione
+
 
 |nologo| :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Crea Map Tiles
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`Guida rapida <../quickstart/ossim_quickstart>`] - Elaborazione di immagini
 
-|nologo| :doc:`geokettle_overview` - [:doc:`Guida rapida <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
+
 
 Domain Specific GIS
 --------------------------------------------------------------------------------
 Applicazioni mirate ad uno specifico campo:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`Guida rapida <../quickstart/sahana_quickstart>`] - Gestione dei disastri
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`Guida rapida <../quickstart/ushahidi_quickstart>`] - Mapping e Timeline per eventi
 
-|nologo| :doc:`osgearth_overview` - [:doc:`Guida rapida <../quickstart/osgearth_quickstart>`] - Rendering superficie 3D
+
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`Guida rapida <../quickstart/mb-system_quickstart>`] - Mappatura del fondo marino
 
@@ -182,7 +182,7 @@ Librerie geospaziali
 
 |nologo| :doc:`liblas_overview` - [:doc:`Guida rapida <../quickstart/liblas_quickstart>`] - Accesso ai LiDAR
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Metereologia e Climatologia
+
 
 Altri software di interesse (non disponibili nella Live)
 --------------------------------------------------------------------------------
@@ -191,19 +191,19 @@ Disponibile solo su Microsoft Windows:
 .. MapWindow is windows based (.net) and won't run on Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`Guida rapida <../quickstart/mapwindow_quickstart>`] - GIS per Microsoft Windows
+
 
 Disponibile nelle precedenti versioni di OSGeo-Live:
 
 .. MapGuide temporarily disabled to save on disc space;
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`Guida rapida <../quickstart/mapguide_quickstart>`] - Web Service, non incluso dalla 5.0 (per salvare spazio nel disco)
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
 * `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`Guida rapida <../quickstart/mapfish_quickstart>`] - Ambiente per Web Mapping, ritirato dopo OSGeo-Live 7.9
+
 
 Programmi d'installazione per Windows e Apple
 --------------------------------------------------------------------------------

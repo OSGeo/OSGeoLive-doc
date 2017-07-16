@@ -121,17 +121,18 @@ Geospatial Libraries
   <script type="text/javascript" src="https://www.openhub.net/p/geotools/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geos/widgets/project_factoids_stats?format=js"></script>
 
+
 .. Retired Projects
   ------------------------------------------------------------------------------
+
+.. raw:: html
+
   <script type="text/javascript" src="https://www.openhub.net/p/mb-system/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/merkaartor/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/osmosis/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/osm2pgsql/widgets/project_factoids_stats?format=js"></script>
   <script type='text/javascript' src='https://www.openhub.net/p/wwj/widgets/project_factoids_stats?format=js'></script> <!-- Java World Wind -->
   <script type="text/javascript" src="https://www.openhub.net/p/gpsdrive/widgets/project_factoids_stats?format=js"></script>
-  * :doc:`overview/qgis_mapserver_overview` (Incorporated in QGIS codebase)
-  * :doc:`overview/kosmo_overview`
-  * :doc:`overview/cartaro_overview`
   <script type="text/javascript" src="https://www.openhub.net/p/tinyows/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/python-iris/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/mapwingis/widgets/project_factoids_stats?format=js"></script>
@@ -143,3 +144,11 @@ Geospatial Libraries
   <script type="text/javascript" src="https://www.openhub.net/p/sahanapy/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/ushahidi/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/viking/widgets/project_factoids_stats?format=js"></script>
+
+
+Missing metrics:
+
+* QGIS Server:  (Incorporated in QGIS codebase)
+* Kosmo
+* Cartaro
+

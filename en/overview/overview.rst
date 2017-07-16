@@ -167,5 +167,49 @@ Geospatial Libraries
 Available in prior OSGeo-Live releases
 --------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 * :doc:`../prior_applications`
+=======
+|nologo| `OGC Standard descriptions <https://live.osgeo.org/archive/10.5/en/standards/standards.html>`_, not included after OSGeo-Live 10.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|nologo| `MB System <https://live.osgeo.org/archive/10.5/en/overview/mb-system_overview.html>`_ - [`QuickStart <https://live.osgeo.org/archive/10.5/en/quickstart/mb-system_quickstart.html>`__] - Sea Floor Mapping, not included after OSGeo-Live 10.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> move-retiered-around
 

@@ -59,7 +59,7 @@ OSGeo 美国北卡洛莱娜州教育用数据集
 
 **官方网站：** http://www.grassbook.org/data_menu3rd.php
 
-**版权协议：** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**版权协议：** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **采集时间：** 2008 年
 

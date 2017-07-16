@@ -28,7 +28,7 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Desktop:
 
 |nologo| :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 
@@ -84,11 +84,11 @@ Veröffentlichung von Geodaten im Netz:
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-|osgeocommunity| :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
 
-.. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+
+
+
 
 Datenbanken
 --------------------------------------------------------------------------------
@@ -110,13 +110,13 @@ Navigation und Karten
 
 |osgeoproject| :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 
-|nologo| :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Desktop Virtual Globe
+
 
 |nologo| :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
 
 |nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
 
-|nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Datenanalyse und -anzeige
+
 
 Spezielle GIS Software
 --------------------------------------------------------------------------------
@@ -135,16 +135,16 @@ Spezielle Anwendungen
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Bildprozessierung
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL Tool (Extrahieren, Transformieren und Laden)
+
 
 GIS Werkzeuge
 --------------------------------------------------------------------------------
 Anwendungen mit besonderem Schwerpunkt
 
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Kartendarstellung und Zeitachsen für Ereignisse
 
-|nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
 
@@ -180,7 +180,7 @@ GIS Bibliotheken
 
 |nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorologie und Klimatologie
+
 
 Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------
@@ -189,27 +189,27 @@ Nur unter Microsoft Windows verfügbar:
 .. MapWindow ist windowsbasierend (.net) und läuft  nicht unter Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows basiertes Desktop GIS
+
 
 Auf früheren OSGeo-Live Releases verfügbar:
 
 
 |nologo| :doc:`OGC Standard descriptions <../standards/standards>` - nach OSGeo-Live 10.5 eingestellt
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, nicht enthalten nach OSGeo-Live 5.0 (zum Sparen von Speicher)
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, eingestellt nach der OSGeo-Live Version 6.0
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, eingestellt nach der OSGeo-Live Version 6.0
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, eingestellt nach OSGeo-Live 6.5
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework, eingestellt nach OSGeo-Live 7.9
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation, eingestellt nach OSGeo-Live 9.0
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Kartengestaltung und Veröffentlichung, eingestellt nach OSGeo-Live 9.5
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Katastrophenmanagement
+
+
+
+
+
+

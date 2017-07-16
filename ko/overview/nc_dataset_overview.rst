@@ -60,7 +60,7 @@ Details
 
 **Website:** http://www.grassbook.org/data_menu3rd.php
 
-**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Data Version:** 2008
 

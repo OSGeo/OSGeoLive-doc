@@ -48,7 +48,7 @@ JAMSTEC（日本海洋 - 地球科学技术代理署，神奈川县，日本）�
 
 **网站:** http://www.pacificclimate.org/
 
-**许可:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**许可:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **数据版本:** 2013
 

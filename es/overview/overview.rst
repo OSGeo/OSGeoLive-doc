@@ -28,7 +28,7 @@ SIG de uso general. Visualización, edición y análisis de Escritorio:
 
 |nologo| :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 
@@ -51,7 +51,7 @@ Visualización, edición y análisis en el navegador:
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portal web SIG.
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] -CMS (Sistema de Gestión de Contenidos) Geoespacial.
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - CMS (Sistema de Gestión de Contenidos) Geoespacial.
 
@@ -86,9 +86,9 @@ Publicación de datos espaciales en internet:
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servicios Web de Geoprocesamiento.
 
-|osgeocommunity| :doc:`pywps_overview` - [:doc:`QuickStart <../quickstart/pywps_quickstart>`] - Web Processing Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servicio WFS-T.
+
+
 
 Bases de Datos
 --------------------------------------------------------------------------------
@@ -110,13 +110,13 @@ Navegación y mapas
 
 |osgeoproject| :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Globo Virtual.
 
-|nologo| :doc:`worldwindjava_overview` - [:doc:`QuickStart <../quickstart/worldwindjava_quickstart>`] - Globo Virtual de Escritorio.
+
 
 |nologo| :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Ploteo de GPS marino 
 
 |nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Herramientas OpenStreetMap.
 
-|nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - Análisis y visualización de datos GPS 
+
 
 Herramientas Espaciales
 --------------------------------------------------------------------------------
@@ -135,18 +135,18 @@ Herramientas de análisis específicos:
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`QuickStart <../quickstart/ossim_quickstart>`] - Procesado de imágenes.
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - Herramienta ETL (Extracción, Transformación y Carga).
+
 
 SIG de campos específicos
 --------------------------------------------------------------------------------
 Aplicaciones orientadas a un campo concreto:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Gestión de desastres.
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapeo y linea de tiempo para eventos.
 
-|nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Render de terreno 3D.
+
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Mapeo del fondo del mar.
 
@@ -182,7 +182,7 @@ Bibliotecas geoespaciales
 
 |nologo| :doc:`liblas_overview`  - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - libLAS acceso datos LIDAR.
 
-|nologo| :doc:`iris_overview` - [:doc:`QuickStart <../quickstart/iris_quickstart>`] - Meteorología y climatología.
+
 
 Otros programas de interés (no instalados)
 --------------------------------------------------------------------------------
@@ -191,24 +191,24 @@ Disponible sólo en Microsoft Windows:
 .. MapWindow is windows based (.net) and won't run on Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - SIG para Microsoft Windows.
+
 
 Disponible en versiones previas de OSGeo-Live:
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Servicio Web de Mapas, retirado después de OSGeo-Live 5.0 (para ahorrar espacio de disco).
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catálogo, retirado después de OSGeo-Live 6.0.
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor de Estilos, retirado después de OSGeo-Live 6.0.
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service, retirado después de OSGeo-Live 6.5
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Web Mapping, retirado después de OSGeo-Live 7.9.
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - Navegación GPS , retirado después de OSGeo-Live 9.0.
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Estilos y publicación, retirado después de OSGeo-Live 9.5.
+
+
+
+
 
 
 
