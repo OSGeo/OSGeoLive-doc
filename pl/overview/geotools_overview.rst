@@ -26,7 +26,7 @@ GeoTools jest otwartą (LGPL) biblioteką Java, która dostarcza zgodnych ze san
   :align: right
 
 GeoTools znajduje zastosowanie w wielu projektach, włączając usługi sieciowe, narzędzia wiersza poleceń i aplikacje desktopowe. Aplikacje OSGeo-Live, które używają GeoTools, to: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Główne funkcje
 --------------------------------------------------------------------------------

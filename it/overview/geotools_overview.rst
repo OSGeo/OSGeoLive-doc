@@ -31,7 +31,7 @@ GeoTools è usata da un gran numero di progetti incluso servizi web, strumenti d
 linea di comando e applicazioni desktop. Le applicazio di OSGeo-Live che includono
 GeoTools: 
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, 
-:doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, e :doc:`udig_overview`.
+:doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, e :doc:`udig_overview`.
 
 Caratteristiche principali
 --------------------------------------------------------------------------------

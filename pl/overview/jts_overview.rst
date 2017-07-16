@@ -36,7 +36,7 @@ Aplikacje OSGeo-Live bezpośrednio używające JTS:
 :doc:`geomajas_overview`,
 :doc:`saga_overview`,
 :doc:`geonetwork_overview`,
-:doc:`geopublisher_overview`,
+Geopublisher,
 :doc:`geoserver_overview`,
 :doc:`udig_overview`,
 :doc:`geotools_overview`,

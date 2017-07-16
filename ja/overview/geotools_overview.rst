@@ -25,7 +25,7 @@ GeoTools は Open Geospatial Consortium (OGC)の標準に準拠した空間デ�
   :align: right
 
 GeoTools はいくつものプロジェクトで利用されています,そこにはウェッブサービスやコマンドラインツール,デスクトップアプリケーションが含まれています. OSGeo-Live アプリケーションでGeotoolsを利用しているのは次のものです: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 主な特徴
 --------------------------------------------------------------------------------
