@@ -85,7 +85,7 @@ Gehen Sie zu dem Bereich "Anzeige" und erhöhen Sie den Video Speicher auf 32 od
 
 Gehen Sie außerdem in den Bereich "Gemeinsame Ordner" und klicken Sie "Ordner hinzufügen" (grünes Ordnersymbol mit Plus auf der rechten Seite) und wählen Sie ein Verzeichnis auf ihrem Gastrechner aus, das Sie innerhalb der VM freigeben möchten.
 
- .. image:: images/screenshots/800x600/vmdk_shared_folders.png
+ .. image:: /images/screenshots/800x600/vmdk_shared_folders.png
      :scale: 65 %
 
 Dabei können gemeinsame Ordner wahlweise nur lesend und automatisch verbunden werden. Klicken Sie ok, sobald der "Ordnerpfad" und "Ordnername" definiert wurde und nochmals OK, um die Einstellungen zu speichern und das Fenster zu schließen.
