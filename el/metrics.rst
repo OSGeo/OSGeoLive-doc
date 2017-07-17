@@ -29,7 +29,7 @@
 
 Δεν είναι διαθέσιμα:
 
-* :doc:`overview/kosmo_overview`
+
 
 Λογισμικά GIS διαδικτύου
 --------------------------------------------------------------------------------
@@ -48,7 +48,7 @@
 
 Δεν είναι διαθέσιμα:
 
-* :doc:`overview/cartaro_overview`
+
 
 Διαδικτυακές Υπηρεσίες
 --------------------------------------------------------------------------------
@@ -68,7 +68,7 @@
   <script type="text/javascript" src="https://www.openhub.net/p/istsos/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/n52-wps/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/SensorObservationService/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/tinyows/widgets/project_factoids_stats?format=js"></script>
+
   <script type="text/javascript" src="https://www.openhub.net/p/zoo-project/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/pyWPS/widgets/project_factoids_stats?format=js"></script>
 
@@ -93,11 +93,11 @@
 
 .. raw:: html
 
-  <!--script type="text/javascript" src="https://www.openhub.net/p/gpsdrive/widgets/project_factoids_stats?format=js"></script-->
+
   <script type="text/javascript" src="https://www.openhub.net/p/marble/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/prune-gps/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/opencpn/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/viking/widgets/project_factoids_stats?format=js"></script>
+
   <script type='text/javascript' src='https://www.openhub.net/p/wwj/widgets/project_factoids_stats?format=js'></script>
 
 Εργαλεία OpenStreetMap
@@ -116,7 +116,7 @@
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/geokettle/widgets/project_factoids_stats?format=js"></script>
+
   <script type="text/javascript" src="https://www.openhub.net/p/GMT/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/mapnik/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/ossim/widgets/project_factoids_stats?format=js"></script>
@@ -129,10 +129,10 @@
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/sahanapy/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/ushahidi/widgets/project_factoids_stats?format=js"></script>
+
+
   <script type="text/javascript" src="https://www.openhub.net/p/mb-system/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/osgearth/widgets/project_factoids_stats?format=js"></script>
+
 
 Δεν είναι διαθέσιμα:
 
@@ -148,7 +148,7 @@
   <script type="text/javascript" src="https://www.openhub.net/p/geotools/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/geos/widgets/project_factoids_stats?format=js"></script>
   <script type="text/javascript" src="https://www.openhub.net/p/liblas/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/python-iris/widgets/project_factoids_stats?format=js"></script>
+
 
 Βιβλιοθήκες Συστημάτων Αναφοράς 
 --------------------------------------------------------------------------------
@@ -169,5 +169,5 @@
 .. raw:: html
 
   <script type="text/javascript" src="https://www.openhub.net/p/mapwingis/widgets/project_factoids_stats?format=js"></script>
-  <script type="text/javascript" src="https://www.openhub.net/p/mapguide/widgets/project_factoids_stats?format=js"></script>
+
 

@@ -30,7 +30,7 @@ GeoTools es una biblioteca de software libre (LGPL) en Java que proporciona mét
 
 GeoTools es usada por multitud de proyectos incluyendo servicios web, herramientas de consola y aplicaciones de escritorio.
 Las aplicaciones de OSGeo-Live que utilizan GeoTools son:
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Funcionalidades básicas
 --------------------------------------------------------------------------------

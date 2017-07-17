@@ -27,7 +27,7 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy na desktopie:
 
 |nologo| :doc:`udig_overview` - [:doc:`Wprowadzenie <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`Wprowadzenie <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`Wprowadzenie <../quickstart/openjump_quickstart>`]
 
@@ -46,11 +46,11 @@ Narzędzia ogólnego zastosowania - przeglądanie, edycja, analizy w przeglądar
 
 |osgeoproject| :doc:`mapbender_overview` - [:doc:`Wprowadzenie <../quickstart/mapbender_quickstart>`] - framework geoportalu
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`Wprowadzenie <../quickstart/mapfish_quickstart>`] - framework map internetowych
+
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`Wprowadzenie <../quickstart/geomoose_quickstart>`] - portal Web GIS
 
-|nologo| :doc:`cartaro_overview` - [:doc:`Wprowadzenie <../quickstart/cartaro_quickstart>`] - Geoprzestrzenny CMS
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`Wprowadzenie <../quickstart/geonode_quickstart>`] - Geospatial Content Management System
 
@@ -81,10 +81,10 @@ Publikowanie danych przestrzennych w Internecie:
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`Wprowadzenie <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`Wprowadzenie <../quickstart/tinyows_quickstart>`] - usługa WFS-T
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`Wprowadzenie <../quickstart/zoo-project_quickstart>`] - Web Processing Service
-.. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Web Security Service
+
 
 Systemy zarządzania bazami danych
 --------------------------------------------------------------------------------
@@ -102,7 +102,7 @@ Przechowywanie danych przestrzennych:
 Nawigacja i Mapy
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`Wprowadzenie <../quickstart/gpsdrive_quickstart>`] - nawigacja GPS 
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`Wprowadzenie <../quickstart/gpsprune_quickstart>`] - przeglądanie, edycja i konwersja śladów GPS
 
@@ -112,20 +112,20 @@ Nawigacja i Mapy
 
 |nologo| :doc:`osm_overview` - [:doc:`Wprowadzenie <../quickstart/osm_quickstart>`] - narzędzia Open Street Map
 
-|nologo| :doc:`viking_overview` - [:doc:`Wprowadzenie <../quickstart/viking_quickstart>`] - przeglądanie i analiza danych GPS
+
 
 Narzędzia przestrzenne
 --------------------------------------------------------------------------------
 Narzędzia do zaawansowanych analiz:
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`Wprowadzenie <../quickstart/geokettle_quickstart>`] - integracja danych
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`Wprowadzenie <../quickstart/gmt_quickstart>`] - wizualizacja kartograficzna
 
 |nologo| :doc:`mapnik_overview` - [:doc:`Wprowadzenie <../quickstart/mapnik_quickstart>`] - redakcja kartograficzna
 
-|nologo| :doc:`tilemill_overview` - [:doc:`Wprowadzenie <../quickstart/tilemill_quickstart>`] - stylizacja i publikacja
+
 
 |nologo| :doc:`mapslicer_overview` - [:doc:`Wprowadzenie <../quickstart/mapslicer_quickstart>`] - tworzenie kafli map
 
@@ -140,11 +140,11 @@ GIS specjalizowany
 Aplikacje specjalistyczne:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`Wprowadzenie <../quickstart/sahana_quickstart>`] - zarządzanie pomocą w czasie katastrof
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`Wprowadzenie <../quickstart/ushahidi_quickstart>`] - mapy zdarzeń oraz ciągi czasowe
 
-|nologo| :doc:`osgearth_overview` - [:doc:`Wprowadzenie <../quickstart/osgearth_quickstart>`] - renderowanie powierzchni terenu w 3D
+
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`Wprowadzenie <../quickstart/mb-system_quickstart>`] - mapy dna morza
 
@@ -179,7 +179,7 @@ Biblioteki geoprzestrzenne
 
 |nologo| :doc:`liblas_overview` - [:doc:`Wprowadzenie <../quickstart/liblas_quickstart>`] - dostęp do danych LiDAR 
 
-|nologo| :doc:`iris_overview` - [:doc:`Wprowadzenie <../quickstart/iris_quickstart>`] - Meteorologia i Klimatologia
+
 Inne programy warte zainteresowania (niedostępne Live)
 --------------------------------------------------------------------------------
 
@@ -187,14 +187,14 @@ Dostępne tylko na microsoft windows:
 .. MapWindow bazuje na windows (.net) i nie uruchomi się na Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`Wprowadzenie <../quickstart/mapwindow_quickstart>`] - GIS na Microsoft Windows
+
 
 Dostępne w poprzednich wydaniach OSGeo-Live:
 
 .. MapGuide jest czasowo wyłączony w celu zaoszczędzenia przestrzeni dyskowej; MapWindow nie zadziała na Ubuntu
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`Wprowadzenie <../quickstart/mapguide_quickstart>`] - usługi sieciowe, niedostępny po OSGeo-Lice 5.0
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - atlasy multimedialne, niedostępny po OSGeo-Live 6.0
 

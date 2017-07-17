@@ -308,6 +308,6 @@ sirviendo desde |GS|. Esta es una lista de algunos de ellos:
 
     * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
+    * AtlasStyler
 
     * :doc:`MapBender <../overview/mapbender_overview>`

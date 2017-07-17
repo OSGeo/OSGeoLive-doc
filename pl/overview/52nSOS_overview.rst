@@ -103,7 +103,7 @@ Szczegóły
 
 **Strona internetowa społeczności:** http://52north.org/communities/sensorweb/
 
-**Inne projekty 52°North:** :doc:`WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
+**Inne projekty 52°North:** :doc:`WPS <./52nWPS_overview>` , 52nWSS
 
 Wprowadzenie
 --------------------------------------------------------------------------------

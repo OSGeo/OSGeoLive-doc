@@ -30,7 +30,7 @@ Visualitzar, editar i analitzat dades GIS en escriptori:
 
 |nologo| :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 
@@ -48,11 +48,11 @@ Visualitzar, editar i analitzat dades GIS en un navegador web:
 
 |osgeoproject| :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Geoportal Framework 
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Web Mapping Framework 
+
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Web GIS Portal 
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - Geospatial CMS 
+
 
 Serveis Web
 --------------------------------------------------------------------------------
@@ -75,13 +75,13 @@ Piblicació de dades espacials en internet:
 
 |nologo| :doc:`qgis_mapserver_overview` - [:doc:`QuickStart <../quickstart/qgis_mapserver_quickstart>`] - Servei WMS
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Servei Web de Seguretat
+
 
 |nologo| :doc:`52nWPS_overview` - [:doc:`QuickStart <../quickstart/52nWPS_quickstart>`] - Servei de Processament Web
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Servei de Sensor d'Observació
 
-|nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - Servei WFS-T 
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Servei de Processament Web
 
@@ -102,7 +102,7 @@ Emmagatzemant dades espacials:
 Navegació i Mapes
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation 
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks 
 
@@ -110,20 +110,20 @@ Navegació i Mapes
 
 |nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools 
 
-|nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer 
+
 
 Eines Espacials
 --------------------------------------------------------------------------------
 Eines específiques per anàlisi:
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool 
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Cartographic Rendering 
 
 |nologo| :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering 
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styling and Publishing 
+
 
 |nologo| :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Create Map Tiles 
 
@@ -138,11 +138,11 @@ Domini Específic de GIS
 Aplicacions orientades a un tema específic:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Disaster management 
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Mapping and Timeline for events 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - 3D Terrain Rendering 
+
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping 
 
@@ -184,14 +184,14 @@ Disponiblitat només per a Microsoft Windows:
 .. MapWindow es basa en windows (.net) i no es pot executar sobre Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS 
+
 
 Disponible en versions anteriors dels releases d'OSGeo-Live: 
 
 .. MapGuide temporalment desabilitat per estalviar espai en disc; 
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Web Service, no inclós després d'OSGeo-Live 5.0 
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retirat després d'OSGeo-Live 6.0
 

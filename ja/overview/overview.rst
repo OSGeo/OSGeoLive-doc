@@ -28,7 +28,7 @@
 
 |nologo| :doc:`udig_overview` - [:doc:`クイックスタート <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`クイックスタート <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`クイックスタート <../quickstart/openjump_quickstart>`]
 
@@ -51,7 +51,7 @@
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`クイックスタート <../quickstart/geomoose_quickstart>`] - Web GIS ポータル
 
-|nologo| :doc:`cartaro_overview` - [:doc:`クイックスタート <../quickstart/cartaro_quickstart>`] - 地理空間 CMS
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`クイックスタート <../quickstart/geonode_quickstart>`] - 地理空間 コンテンツ管理システム
 
@@ -86,9 +86,9 @@ Web サービス
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`クイックスタート <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-|osgeocommunity| :doc:`pywps_overview` - [:doc:`クイックスタート <../quickstart/pywps_quickstart>`] - Web Processing Service
 
-|nologo| :doc:`tinyows_overview` - [:doc:`クイックスタート <../quickstart/tinyows_quickstart>`] - WFS-T サービス
+
+
 
 データストア
 --------------------------------------------------------------------------------
@@ -106,7 +106,7 @@ Web サービス
 ナビゲーションと地図
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`クイックスタート <../quickstart/gpsprune_quickstart>`] - GPS トラックの閲覧、編集、変換
 
@@ -116,7 +116,7 @@ Web サービス
 
 |nologo| :doc:`osm_overview` - [:doc:`クイックスタート <../quickstart/osm_quickstart>`] - OpenStreetMap のツール
 
-|nologo| :doc:`viking_overview` - [:doc:`クイックスタート <../quickstart/viking_quickstart>`] - GPS データの解析、ビューワー
+
 
 空間ツール
 --------------------------------------------------------------------------------
@@ -135,18 +135,18 @@ Web サービス
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`クイックスタート <../quickstart/ossim_quickstart>`] - 画像処理
 
-|nologo| :doc:`geokettle_overview` - [:doc:`クイックスタート <../quickstart/geokettle_quickstart>`] - ETL (データ抽出・加工・ロード) ツール
+
 
 特定用途向け GIS
 --------------------------------------------------------------------------------
 特定の用途向けアプリケーション:
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`クイックスタート <../quickstart/sahana_quickstart>`] - 災害マネージメント
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`クイックスタート <../quickstart/ushahidi_quickstart>`] - イベントのためのマッピングとスケジュール管理
 
-|nologo| :doc:`osgearth_overview` - [:doc:`クイックスタート <../quickstart/osgearth_quickstart>`] - 3D 地形レンダリング
+
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`クイックスタート <../quickstart/mb-system_quickstart>`] - 海底マッピング
 
@@ -182,7 +182,7 @@ Web サービス
 
 |nologo| :doc:`liblas_overview` - [:doc:`クイックスタート <../quickstart/liblas_quickstart>`] - LiDAR データへのアクセス
 
-|nologo| :doc:`iris_overview` - [:doc:`クイックスタート <../quickstart/iris_quickstart>`] - 気象学と気候学
+
 
 その他の関連ソフトウェア (Live 未収録)
 --------------------------------------------------------------------------------
@@ -191,23 +191,23 @@ Microsoft Windows のみで利用可能:
 .. MapWindow は Windows ベース (.net) で、Ubuntu では動作しません
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`クイックスタート <../quickstart/mapwindow_quickstart>`] - Microsoft Windows ベースのデスクトップ GIS
+
 
 以前の OSGeo-Live リリースで利用可能:
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`クイックスタート <../quickstart/mapguide_quickstart>`] - Web サービス、OSGeo-Live 5.0 以降未収録 (ディスク容量節約のため)
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
 
 |nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
 
-|nologo| :doc:`52nWSS_overview` - [:doc:`クイックスタート <../quickstart/52nWSS_quickstart>`] - Web Security Service、OSGeo-Live 6.5 以後未収録
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`クイックスタート <../quickstart/mapfish_quickstart>`] - Web マッピングフレームワーク、OSGeo-Live 7.9 以後未収録
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`クイックスタート <../quickstart/gpsdrive_quickstart>`] - GPS ナビゲーション、OSGeo-Live 9.0 以降未収録
 
-|nologo| :doc:`tilemill_overview` - [:doc:`クイックスタート <../quickstart/tilemill_quickstart>`] - スタイリングとパブリッシング、OSGeo-Live 9.5 以降未収録
+
+
+
+
 
 

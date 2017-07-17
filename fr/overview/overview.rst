@@ -27,7 +27,7 @@ Visualisation SIG en général, édition, et analyse sur bureau :
 
 |nologo| :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
 
-|nologo| :doc:`kosmo_overview` - [:doc:`QuickStart <../quickstart/kosmo_quickstart>`]
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 
@@ -46,11 +46,11 @@ Visualisation SIG en général, édition, et analyse dans le navigateur :
 
 |osgeoproject| :doc:`mapbender_overview` - [:doc:`QuickStart <../quickstart/mapbender_quickstart>`] - Framework de Géo-portail
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`QuickStart <../quickstart/mapfish_quickstart>`] - Framework de Cartographie en ligne
+
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`QuickStart <../quickstart/geomoose_quickstart>`] - Portail SIG Internet
 
-|nologo| :doc:`cartaro_overview` - [:doc:`QuickStart <../quickstart/cartaro_quickstart>`] - CMS Géospatial
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`QuickStart <../quickstart/geonode_quickstart>`] - Content Management System Géospatial
 
@@ -81,11 +81,11 @@ Publier des données spatiales sur Internet :
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`QuickStart <../quickstart/52nSOS_quickstart>`] - Service d'Observation de Capteur
 
-|nologo| :doc:`tinyows_overview` - [:doc:`QuickStart <../quickstart/tinyows_quickstart>`] - WFS-T Service
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-.. désactivé : * |nologo| :doc:`52nWSS_overview` - [:doc:`QuickStart <../quickstart/52nWSS_quickstart>`] - Service Web de Sécurité
+
 
 Bases de données
 --------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ Sauvegarde des données spatiales :
 Navigation et cartes
 --------------------------------------------------------------------------------
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`QuickStart <../quickstart/gpsdrive_quickstart>`] - GPS Navigation
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`QuickStart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks
 
@@ -113,7 +113,7 @@ Navigation et cartes
 
 |nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools
 
-|nologo| :doc:`viking_overview` - [:doc:`QuickStart <../quickstart/viking_quickstart>`] - GPS Data Analysis and Viewer
+
 
 |nologo| :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Weather Forecast Maps
 
@@ -122,13 +122,13 @@ Outils spatiaux
 Outils d'analyse spécifique :
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`QuickStart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`QuickStart <../quickstart/gmt_quickstart>`] - Rendu cartographique
 
 |nologo| :doc:`mapnik_overview` - [:doc:`QuickStart <../quickstart/mapnik_quickstart>`] - Rendu cartographique
 
-|nologo| :doc:`tilemill_overview` - [:doc:`QuickStart <../quickstart/tilemill_quickstart>`] - Styliser et publier
+
 
 |nologo| :doc:`mapslicer_overview`  - [:doc:`QuickStart <../quickstart/mapslicer_quickstart>`] - Création de fragments cartographiques
 
@@ -143,11 +143,11 @@ SIG Domaine Spécifique
 Applications ciblées à un domaine spécifique :
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`QuickStart <../quickstart/sahana_quickstart>`] - Gestion de crise
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`QuickStart <../quickstart/ushahidi_quickstart>`] - Cartographie et Chronologie événements
 
-|nologo| :doc:`osgearth_overview` - [:doc:`QuickStart <../quickstart/osgearth_quickstart>`] - Rendu de terrain 3D
+
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Cartographie Fonds Océanique
 
@@ -189,14 +189,14 @@ Disponible sur Microsoft Windows uniquement :
 .. MapWindow est basé sur Windows (.net) et ne fonctionnera pas sur Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`QuickStart <../quickstart/mapwindow_quickstart>`] - Microsoft Windows based Desktop GIS
+
 
 Disponible à partir des distributions OSGeo-Live antérieures :
 
 .. MapGuide temporairement désactivé pour libérer de l'espace disque ;
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`QuickStart <../quickstart/mapguide_quickstart>`] - Service Web, non inclus après OSGeo-Live 5.0
+
 
 |nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retiré après OSGeo-Live 6.0
 

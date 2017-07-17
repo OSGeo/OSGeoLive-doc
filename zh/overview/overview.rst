@@ -31,7 +31,7 @@
 
 |nologo| :doc:`udig_overview` - [:doc:`快速入门 <../quickstart/udig_quickstart>`] — 桌面 GIS 框架
 
-|nologo| :doc:`kosmo_overview` - [:doc:`快速入门 <../quickstart/kosmo_quickstart>`] — 桌面 GIS
+
 
 |nologo| :doc:`openjump_overview` - [:doc:`快速入门 <../quickstart/openjump_quickstart>`] — 轻量化桌面 GIS
 
@@ -52,11 +52,11 @@
 
 |osgeoproject| :doc:`mapbender_overview` - [:doc:`快速入门  <../quickstart/mapbender_quickstart>`] — 网络地图服务集成框架
 
-|osgeoproject| :doc:`mapfish_overview` - [:doc:`快速入门  <../quickstart/mapfish_quickstart>`] — 网页制图服务框架
+
 
 |osgeoproject| :doc:`geomoose_overview` - [:doc:`快速入门 <../quickstart/geomoose_quickstart>`] — 网页 GIS 服务集成
 
-|nologo| :doc:`cartaro_overview` - [:doc:`快速入门 <../quickstart/cartaro_quickstart>`] - 具备空间功能的内容管理系统
+
 
 |osgeoproject| :doc:`geonode_overview` - [:doc:`快速入门  <../quickstart/geonode_quickstart>`] - 地理空间内容管理系统
 
@@ -87,12 +87,12 @@
 
 |nologo| :doc:`52nSOS_overview` - [:doc:`快速入门 <../quickstart/52nSOS_quickstart>`] — 传感器观测数据获取
 
-|nologo| :doc:`tinyows_overview` - [:doc:`快速入门 <../quickstart/tinyows_quickstart>`] — 基于事务的网页空间要素服务
+
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`快速入门 <../quickstart/zoo-project_quickstart>`] — 网页空间数据处理服务
 
 
-.. disabled: * |nologo| :doc:`52nWSS_overview` - [:doc:`快速入门 <../quickstart/52nWSS_quickstart>`] — 网络空间数据安全管理
+
 
 数据库
 --------------------------------------------------------------------------------
@@ -111,7 +111,7 @@
 --------------------------------------------------------------------------------
 
 
-|nologo| :doc:`gpsdrive_overview` - [:doc:`快速入门 <../quickstart/gpsdrive_quickstart>`] — GPS 导航
+
 
 |nologo| :doc:`gpsprune_overview` - [:doc:`快速入门 <../quickstart/gpsprune_quickstart>`] — GPS 航迹编辑器
 
@@ -121,20 +121,20 @@
 
 |nologo| :doc:`osm_overview` - [:doc:`快速入门 <../quickstart/osm_quickstart>`] — Open Street Map 相关工具
 
-|nologo| :doc:`viking_overview` - [:doc:`快速入门 <../quickstart/viking_quickstart>`] — GPS 数据编辑与分析
+
 
 空间工具
 --------------------------------------------------------------------------------
 空间信息分析系统
 
 
-|nologo| :doc:`geokettle_overview` - [:doc:`快速入门 <../quickstart/geokettle_quickstart>`] — 空间信息数据库整合
+
 
 |nologo| :doc:`gmt_overview` - [:doc:`快速入门 <../quickstart/gmt_quickstart>`] — 地图制作
 
 |nologo| :doc:`mapnik_overview` - [:doc:`快速入门 <../quickstart/mapnik_quickstart>`] — 地图制作
 
-|nologo| :doc:`tilemill_overview` - [:doc:`快速入门 <../quickstart/tilemill_quickstart>`] - 地图渲染和发布
+
 
 |nologo| :doc:`mapslicer_overview`  - [:doc:`快速入门 <../quickstart/mapslicer_quickstart>`] — 栅格地图切片化
 
@@ -151,11 +151,11 @@
 特定 GIS 应用领域的专业工具
 
 
-|nologo| :doc:`sahana_overview` - [:doc:`快速入门 <../quickstart/sahana_quickstart>`] — 灾害管理
 
-|nologo| :doc:`ushahidi_overview` - [:doc:`快速入门 <../quickstart/ushahidi_quickstart>`] — 
 
-|nologo| :doc:`osgearth_overview` - [:doc:`快速入门 <../quickstart/osgearth_quickstart>`] — 3D 地形渲染函数库
+
+
+
 
 |nologo| :doc:`mb-system_overview` - [:doc:`快速入门 <../quickstart/mb-system_quickstart>`] — 海底地图制作
 
@@ -192,7 +192,7 @@
 
 |nologo| :doc:`liblas_overview` -  [:doc:`快速入门 <../quickstart/liblas_quickstart>`]  - LiDAR 激光立体扫描数据处理
 
-|nologo| :doc:`iris_overview` - [:doc:`快速入门 <../quickstart/iris_quickstart>`] - 用于气象学与气候学数据处理的Python库
+
 
 其它相关软件（未包含在Live 系统）
 --------------------------------------------------------------------------------
@@ -201,16 +201,16 @@
 .. MapWindow 为 Windows 专有（.net），不能运行于 Ubuntu
 
 
-|nologo| :doc:`mapwindow_overview` - [:doc:`快速入门 <../quickstart/mapwindow_quickstart>`] — Windows 操作系统下的 GIS 工具
+
 
 以往 OSGeo-Live 版本包含的：
 
 .. MapGuide 由于存储空间原因未收录
 
 
-|osgoeproject| :doc:`mapguide_overview` - [:doc:`快速入门 <../quickstart/mapguide_quickstart>`] - 网络 GIS 服务。
-* :doc:`geopublisher_overview`- [:doc:`快速入门 <../quickstart/geopublisher_quickstart>`] — 空间数据编目、管理与发布
-* :doc:`atlasstyler_overview` - [:doc:`快速入门 <../quickstart/atlasstyler_quickstart>`] — 地图样式编辑器
+
+
+
 
 Windows 和 Apple Mac 安装
 --------------------------------------------------------------------------------
