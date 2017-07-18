@@ -68,7 +68,7 @@ Live DVDでGRASSを起動するには、
 
 PERMANENT マップセットから "`elevation.10m`" といったラスターレイヤーを加えます。
 `GIS レイヤマネージャ` ウィンドウにて
- "+" 記号のついたツールバーボタンをクリックして下さい。
+"+" 記号のついたツールバーボタンをクリックして下さい。
 そして "*表示するマップ*" リストからマップ名を選択して、
 :guilabel:`Ok` をクリックして下さい。
 
@@ -277,11 +277,11 @@ GRASSのトポロジーエンジンは多くの強力な解析を可能にして
 次にそれぞれの集水域ポリゴンに対して平均標高などの属性情報を加えます。
 ベクターメニューで :menuselection:`Update attributes --> Update area attributes from raster` を選択します。
 ベクターポリゴンとして ``basin_areas`` 、統計計算するラスターとして ``elevation`` を選択し、
- "Column prefix for new attribute columns" に ``elev`` を設定して [*Run*] をクリックします。
+"Column prefix for new attribute columns" に ``elev`` を設定して [*Run*] をクリックします。
 終了したらダイアログを閉じてください。
 `Layer List` でポリゴン名が選択されているのを確認したあと
- `Map Display` ウィンドウの左から5番目のアイコンを使うことで、
- クリックしたポリゴンの値を調べることができます。
+`Map Display` ウィンドウの左から5番目のアイコンを使うことで、
+クリックしたポリゴンの値を調べることができます。
 
 `v.colors`` モジュールを使うことでポリゴンの平均標高値から色の設定をすることができます。
 ベクターメニューで	:menuselection:`Manage colors --> Color tables` を選択します。
@@ -350,7 +350,7 @@ Pythonプログラミングに興味のある人手あれば多くの素晴ら�
 ``help(grass.core)`` と入力すれば
 GIS Pyhthonライブラリで利用可能な多くの機能のリストを見ることができます。
 コアとなるGIS機能だけでなく、
- `array` (NumPy)、 `db` (database)、 `raster`、 そして `vector` のライブラリが利用可能です。
+`array` (NumPy)、 `db` (database)、 `raster`、 そして `vector` のライブラリが利用可能です。
 GRASSのCライブラリに直接アクセスできる `Pythons CTypes` といった高度な機能も
 Python プログラマーに用意されています。
 

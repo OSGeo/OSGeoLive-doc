@@ -11,8 +11,8 @@
    :hidden:
    :glob:
 
-   *_overview
-   ../quickstart/*_quickstart
+   *
+   ../quickstart/*
 
 
 デスクトップ GIS

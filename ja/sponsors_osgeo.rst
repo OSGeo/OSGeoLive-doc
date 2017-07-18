@@ -30,7 +30,7 @@ OSGeo Supporting Sponsors
   :alt: Astun Technology
   :target: https://astuntechnology.com/
 
-.. image:: /images/logos/chameleon-john-logo.png
+.. .. image:: /images/logos/chameleon-john-logo.png
   :alt: ChameleonJohn
   :target: https://www.chameleonjohn.com/
 
@@ -38,7 +38,7 @@ OSGeo Supporting Sponsors
   :alt: Apps4Rent
   :target: http://www.apps4rent.com/
 
-.. image:: /images/logos/DealIslands.png
+.. .. image:: /images/logos/DealIslands.png
   :alt: Dealslands
   :target: http://www.dealslands.co.uk/
 
