@@ -63,9 +63,9 @@ Se puede:
 
   6. Se pueden usar marcadores en Marble  para recordar la localización de algo. Para añadir un marcador, presionar el botón derecho del ratón y hacer clic en "Add bookmark". Aparecerá una ventana como ésta:
 
-  .. image:: /images/screenshots/800x600/marble-quickstart-6.png
+   .. image:: /images/screenshots/800x600/marble-quickstart-6.png
 
-     Escribir el nombre, descripción y carpeta de destiono del marcador y hacer clic en el botón "Ok". El marcador aparecerá. Para gestionar marcadores, ir a "Bookmarks->Manage Bookmarks". 
+  7. Escribir el nombre, descripción y carpeta de destiono del marcador y hacer clic en el botón "Ok". El marcador aparecerá. Para gestionar marcadores, ir a "Bookmarks->Manage Bookmarks". 
 
   .. image:: /images/screenshots/800x600/marble-quickstart-7.png
 

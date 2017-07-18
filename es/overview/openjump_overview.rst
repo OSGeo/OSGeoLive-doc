@@ -14,66 +14,66 @@ OpenJUMP GIS
 SIG de escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-OpenJUMP es un SIG de escritorio poderoso y f·cil de usar que permite a los usuarios editar, analizar, combinar, guardar y visualizar datos geogr·ficos.
-Tiene una versiÛn CORE y una versiÛn PLUS, teneiendo la ˙ltima aÒadidos montones de complementos ˙tiles.
-TambÌen es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
+OpenJUMP es un SIG de escritorio poderoso y f√°cil de usar que permite a los usuarios editar, analizar, combinar, guardar y visualizar datos geogr√°ficos.
+Tiene una versi√≥n CORE y una versi√≥n PLUS, teneiendo la √∫ltima a√±adidos montones de complementos √∫tiles.
+Tamb√≠en es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
 
 .. image:: /images/screenshots/1024x768/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: center
 
-CaracterÌsticas Principales
+Caracter√≠sticas Principales
 --------------------------------------------------------------------------------
 
 * Formatos
 
     * lee (ficheros): GML, SHP, DXF+, , MIF*, CSV+, KML+, OSM* & TIFF,ASCII grid, JPG,PNG, JPEG2000+, MrSID*, ECW+.
     * lee (DB): PostGIS, ArcSDE*, Oracle*, MySQL*, SpatiaLite+, H2 Spatial+, MariaDB+.
-	* lee (est·ndares OGC): WKT, WMS, KML+, GeoPackage.
+	* lee (est√°ndares OGC): WKT, WMS, KML+, GeoPackage.
     * guarda en: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+.
-    * Los ficheros marcados con (*) necesitan instalar un nuevo plugin; los marcados con (+) son parte de la versiÛn PLUS.
+    * Los ficheros marcados con (*) necesitan instalar un nuevo plugin; los marcados con (+) son parte de la versi√≥n PLUS.
 
-* EditciÛn y Combinando
+* Editci√≥n y Combinando
 
-    * dibujo de puntos, lÌneas, polÌgonos, multi-geometrÌas, colecciones de geometrÌas y cÌrculos (con posibilidad de mezclarlos en una sola capa).
-    * aÒaddir, desplazar, y borranr vÈrtices.
-    * rotar, escalar, y autocompletar polÌgonos.
-    * cortar, juntar, simplificar polÌgonos y lÌneas.
+    * dibujo de puntos, l√≠neas, pol√≠gonos, multi-geometr√≠as, colecciones de geometr√≠as y c√≠rculos (con posibilidad de mezclarlos en una sola capa).
+    * a√±addir, desplazar, y borranr v√©rtices.
+    * rotar, escalar, y autocompletar pol√≠gonos.
+    * cortar, juntar, simplificar pol√≠gonos y l√≠neas.
     * ajustar, herramientas para asegurar la calidad de los datos.
 	* conversiones de coordenadas entre CRS.
 
-* (Vector) An·lisis y Consulta
+* (Vector) An√°lisis y Consulta
 
     * funciones de consulta espacial y por atributos.
-	* an·lisis: zonas de influencia, uniÛn, superposiciÛn, centroides, envolvente convexa, ...
-    * estadÌsticas: longitud, ·rea, estadÌsticas de capa, estadÌsticas de atributos, gr·ficos, ...
-	* Herramientas de ediciÛn: conversiÛn, ediciÛn de nodos, dibujar polÌgono, gr·fico en el mismo plano, limpieza de topologÌa en la versiÛn PLUS, ...
+	* an√°lisis: zonas de influencia, uni√≥n, superposici√≥n, centroides, envolvente convexa, ...
+    * estad√≠sticas: longitud, √°rea, estad√≠sticas de capa, estad√≠sticas de atributos, gr√°ficos, ...
+	* Herramientas de edici√≥n: conversi√≥n, edici√≥n de nodos, dibujar pol√≠gono, gr√°fico en el mismo plano, limpieza de topolog√≠a en la versi√≥n PLUS, ...
     * herramienas de transferencia de atributos ( transferencia 1:1 transfer, o n:1).
-    * an·lisis raster con la caja de herramientas SEXTANTE incluida en la versiÛn PLUS.
+    * an√°lisis raster con la caja de herramientas SEXTANTE incluida en la versi√≥n PLUS.
 
-* PersonalizaciÛn
+* Personalizaci√≥n
 
-    * InternacionalizaciÛn (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh).
+    * Internacionalizaci√≥n (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh).
 	* Proporciona un API, scripts via BeanShell y Java Python/Ython.
     * sistema de plugins (Java).
    
 
-Est·ndares con los que con cumple
+Est√°ndares con los que con cumple
 --------------------------------------------------------------------------------
 
 .. Writing Tip: List OGC or related standards supported.
 
-* Est·ndares OGC: ML2, SFS, WMS, KML, SLD, GeoPackage (lectura);
+* Est√°ndares OGC: ML2, SFS, WMS, KML, SLD, GeoPackage (lectura);
 
 Detalles
 --------------------------------------------------------------------------------
 
-**P·gina web:** http://www.openjump.org
+**P√°gina web:** http://www.openjump.org
 
 **Licencia:** GPL
 
-**VersiÛn del Software:** 1.9.0
+**Versi√≥n del Software:** 1.9.0
 
 **Plataformas en las que corre:** Windows, Linux, Mac, Unix
 
@@ -81,10 +81,10 @@ Detalles
 
 **Soporte comercial:** http://ojwiki.soldin.de/index.php?title=Professional_Support_Page
 
-**P·gina de descarga:** http://sourceforge.net/projects/jump-pilot/files/ 
+**P√°gina de descarga:** http://sourceforge.net/projects/jump-pilot/files/ 
 
-GuÌa de inicio r·pido
+Gu√≠a de inicio r√°pido
 --------------------------------------------------------------------------------
     
-* `GuÌa de inicio r·pido <../quickstart/openjump_quickstart.html>`_
+* `Gu√≠a de inicio r√°pido <../quickstart/openjump_quickstart.html>`_
 

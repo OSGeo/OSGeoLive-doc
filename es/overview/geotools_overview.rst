@@ -1,4 +1,4 @@
- :Author: Jody Garnett
+:Author: Jody Garnett
 :Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: David Mateos

@@ -10,12 +10,12 @@ Guía de inicio rápido de Cesium
 Este documento muestra cómo usar Cesium con 3D (Globo), 2.5D (Vista Columbus) y 2D (mapa).
 
 Arrancar Cesium
-===============
+=================================
 
 Abrir el navegador e ir a http://localhost/cesium/Apps/HelloWorld.html
 
 Búsqueda por localizaciones
-======================
+=================================
 Se puede hacer click en la lupa y escribir la localización que se está buscando. En la siguiente imagen, se está buscando la India. 
 
 .. image:: /images/screenshots/1024x768/cesium_1_SearchingLocation.png
@@ -38,7 +38,7 @@ Ahora está seleccionado el mapa 2D.
   :alt: mapa 2D de Cesium
 
 Selección de capa de imagen
-=========================
+=================================
 Se puede hacer click en el último icono y seleccionar el tipo de servicio de imágenes que se desea. En este caso, está seleccionado Natural Earth II y se puede ver como la capa de imagen ha cambiado.
 
 .. image:: /images/screenshots/1024x768/cesium_4_Layer.png
@@ -48,11 +48,11 @@ Se puede hacer click en el último icono y seleccionar el tipo de servicio de im
 .. TBD: There is room here for a couple more examples.
 
 ¿Qué más?
-==========
-* Hay disponibles video-tutoriales `aquí <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
+=================================
+* Hay disponibles `video-tutoriales <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
 
-* Tutoriales web `aquí <http://cesiumjs.org/tutorials.html>`_.
+* `Tutoriales web  <http://cesiumjs.org/tutorials.html>`_.
 
 * Se pueden desarrollar algunas aplicaciones rápidamente usando la web de Sandcastle, en este `link <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_.
 
-*`Aquí <http://localhost/cesium/>`_ hay disponible (en local) documentación más detallada.
+* `Aquí <http://localhost/cesium/>`_ hay disponible (en local) documentación más detallada.

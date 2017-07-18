@@ -83,8 +83,7 @@ por eso debe indicarle cuál es la plantilla para crear la base de datos. Llamar
 
    createdb demo
 
-.. tip:: 
-Generalmente puede acceder a la ayuda de las herramientas de línea de comandos tecleando --help 
+.. tip:: Generalmente puede acceder a la ayuda de las herramientas de línea de comandos tecleando --help 
 
 
 Si ejecuta en este momento ``psql -l`` , su base de datos ``demo`` debería aparecer en el listado.
@@ -290,7 +289,7 @@ Ahora estará de vuelta en la consola del sistema:
 
 ::
 
-user@osgeolive:~$
+    user@osgeolive:~$
 
 Generar un mapa
 ================================================================================

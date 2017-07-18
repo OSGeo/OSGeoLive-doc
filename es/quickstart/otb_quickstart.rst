@@ -72,29 +72,30 @@ Realizar segmentación
 
 La aplicación de *Segmentación* de OTB permite producir una segmentación raster usando diferentes algoritmos y 
 Hay cuatro métodos de segmentación disponibles:
-  * Mean-Shift
-  * Watershed (ITK implementation)
-  * Connected-Components
-  * Perfiles morfológicos.
+
+* Mean-Shift
+* Watershed (ITK implementation)
+* Connected-Components
+* Perfiles morfológicos.
 
 Se puede probar la segmentación con estos comandos:
 
-* Creatción de una imagen multicanal Roja-Verde-Azul-NIR
-::
+* Creación de una imagen multicanal Roja-Verde-Azul-NIR
+    ::
 
-  otbcli_ConcatenateImages -il lsat7_2002_30.tif lsat7_2002_20.tif lsat7_2002_10.tif lsat7_2002_40.tif -out ~/lsat7_rgbn.tif
+      otbcli_ConcatenateImages -il lsat7_2002_30.tif lsat7_2002_20.tif lsat7_2002_10.tif lsat7_2002_40.tif -out ~/lsat7_rgbn.tif
 
 * Aplicar segmentación
 
-::
+    ::
 
-  otbcli_Segmentation -in ~/lsat7_rgbn.tif -filter meanshift -mode raster -mode.raster.out ~/segmentation.tif
+      otbcli_Segmentation -in ~/lsat7_rgbn.tif -filter meanshift -mode raster -mode.raster.out ~/segmentation.tif
 
 * Generar colores en lugar de etiquetas
 
-::
+    ::
 
-  otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif
+      otbcli_ColorMapping -in ~/segmentation.tif -out ~/segmentation_colored.tif -method image -method.image.in ~/lsat7_rgbn.tif
 
 Además la aplicación puede funcionar en dos modos diferentes:
 
@@ -132,7 +133,7 @@ La localización OTB_DIR debería encontrarse automáticamente (normalmente en
   La principal fuente de información es la Guía de Software OTB. Esta es una guía exhaustiva que comprende cerca de 600 páginas, detallando los pasos para instalar y usar OTB. La mayoría de los temas están profusamente ilustradas con resultados de procesos reales de teledetección. 
   
   * `OTBSoftwareGuide.pdf <http://orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
-  * `Versión Online html <http://orfeo-toolbox.org/SoftwareGuide/>`_
+  * `Guía Versión Online <http://orfeo-toolbox.org/SoftwareGuide/>`_
 
 * OTB CookBook
 
@@ -149,6 +150,6 @@ La localización OTB_DIR debería encontrarse automáticamente (normalmente en
 
 * Documentación en el DVD
 
-   Consultar la detallada documentación sobre aplicaciones OTB_
+  Consultar la detallada documentación sobre aplicaciones :doc:`../quickstart/otb_quickstart`
 
 .. _aplicaciones: http://orfeo-toolbox.org/Applications/

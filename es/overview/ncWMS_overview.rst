@@ -13,7 +13,7 @@ ncWMS
 ================================================================================
 
 Servicio Web de Mapas
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ncWMS publica datos multi-dimensionales (tales como datos medioambientales y de tiempo atmosférico) como un Servicio Web de Mapas (WMS) que cumple con el estándar OGC. ncWMS extrae de forma rápida y eficiente las imágenes de los mapas a partir de los pesados archivos de datos normalmente sociados con la información ambiental.
 
@@ -25,7 +25,7 @@ ncWMS publica datos multi-dimensionales (tales como datos medioambientales y de 
 
 
 Características principales
-------------------------
+----------------------------------------------------------------------
 
 * Rápida extracción de datos.
 
@@ -48,14 +48,14 @@ Características principales
 * Formatos de salida: PNG, JPEG, GIF animado, KML
 
 Estándares implementados
--------------------------
+----------------------------------------------------------------------
 
 * :doc:`../standards/wms_overview` (v1.1.1, v1.3.0)
 
 * :doc:`../standards/kml_overview`
 
 Detalles
--------
+----------------------------------------------------------------------
 
 **Página web:** http://www.resc.rdg.ac.uk/trac/ncWMS/
 
@@ -71,7 +71,7 @@ Detalles
 
 
 Guía de inicio rápido
-----------
+----------------------------------------------------------------------
 
 * :doc:`Guía de inicio rápido <../quickstart/ncWMS_quickstart>`
 
