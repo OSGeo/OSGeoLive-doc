@@ -16,7 +16,7 @@ Starten und verwenden
 ================================================================================
 
 * Starten Sie den den 52°North WPS Service auf der OSGeo-Live DVD über 
-   |osgeolive-appmenupath-52nWPS| oder verwenden 
+  |osgeolive-appmenupath-52nWPS| oder verwenden 
   Sie diesen `Link <http://localhost:8080/52nWPS/>`_. (Ist der Service nicht erreichbar, versuchen 
   Sie den Tomcat Service zu starten. Folgen Sie dabei den einzelnen Schritten, wie es am Ende des 
   Dokumentes :doc:`SOS Quickstart<../quickstart/52nSOS_quickstart>` beschrieben ist.)

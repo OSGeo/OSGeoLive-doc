@@ -36,6 +36,7 @@ und "user1" als Mapset. Klicken Sie dann auf [*Start GRASS*].
 Dies started GRASS mit der `grafischen Benutzeroberfläche (geschrieben in wxPython) <../../grass/wxGUI.html>`_.
 
 .. tip::  Wenn Sie auf einem Netbook mit kleinem Display (800x600 Auflösung) arbeiten, 
+
 kann der Startbildschirm zu groß und der [*Start GRASS*] Knopf eventuell 
 versteckt sein. In diesem Fall sollten Sie das Fenster an einer Ecke etwas 
 größer ziehen. Oder Sie können das gesamte Fenster weiter nach oben schieben, 
@@ -154,11 +155,11 @@ wählen Sie :menuselection:`Set computational region from selected map(s)`
 aus dem Kontextmenü um die volle Ausdehnung für die Berechnung der Wassereinzugsgebiete zu erhalten.
 
 .. note:: Die wxGUI Karte Anzeige und Zoom ist unabhängig 
-und hat keinen Effekt auf die Berechnung. Prüfen Sie die Berechnungsregion über 
-:menuselection:`Settings --> Region --> Display Region`; 
-dies ist äußerst wichtig für jede Raster Grid Operation.
-Raster Karten mit verschiedenen Begrenzungen und Auflösungen werden  
-on-the-fly auf die Berechnungsregion angepasst.
+    und hat keinen Effekt auf die Berechnung. Prüfen Sie die Berechnungsregion über 
+    :menuselection:`Settings --> Region --> Display Region`; 
+    dies ist äußerst wichtig für jede Raster Grid Operation.
+    Raster Karten mit verschiedenen Begrenzungen und Auflösungen werden  
+    on-the-fly auf die Berechnungsregion angepasst.
 
 Wählen Sie nun im Menü `Raster` :menuselection:`Hydrologische Modellierung --> 
 Wassereinzugsgebiet Analyse`. Der ``r.watershed`` Dialog öffnet sich. 

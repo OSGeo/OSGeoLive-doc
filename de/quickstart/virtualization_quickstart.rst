@@ -17,9 +17,8 @@ Vorteile einer Virtuellen Maschine
 --------------------------------------------------------------------------------
 
 * Antwortzeiten einer VM sind viel schneller als die einer DVD und vergleichbar mit einer direkten Installation auf dem Gastrechner.
-
 * Alle Konfigurationsanpassungen, Softwareaktualisierungen und gespeicherte Dateien sind permanent, so wie auf einem normalen Computer.
-mputer. Daher
+    Daher
 
  * können Sie das System anpassen und aktualisieren
  * können Sie ihre Anpassungen innerhalb der VM speichern
@@ -31,7 +30,7 @@ Systemvoraussetzungen
 --------------------------------------------------------------------------------
 
 * RAM: mindestens 2 GB. Das Lubuntu System läuft gut mit 1 GB RAM, es werden mindestens ebenso viel RAM für das Gastsystem benötigt.
-So werden 2 GB für reibungslosen Einsatz benötigt.
+    So werden 2 GB für reibungslosen Einsatz benötigt.
 * Freier Festplattenspeicher: Die Virtuelle Maschinen Datei (vmdk) von:  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_  ist entpackt etwa 10 GB groß. Sie benötigt noch weiteren Speicher, um Arbeiten auf der Virtuellen Maschine zu ermöglichen. So sind 20 GB Speicher eine gute Empfehlung.
 * CPU: Jede CPU reicht aus, doch ist ein Prozessor, der "Virtualization Technology" unterstützt schneller. Sie können ihre CPU `hier <http://www.intel.com/support/processors/sb/cs-030729.htm>`_ prüfen.
 

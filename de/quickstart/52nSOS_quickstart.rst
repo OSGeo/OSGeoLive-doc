@@ -18,13 +18,13 @@ Sensordaten. Dies umfasst sowohl Messwerte als auch zugehörige Metadaten.
 
 Dieses Quickstart-Dokument umfasst:
 
-  * Beispiel eines Capabilities-Dokumentes des 52°North SOS, um festzustellen,
+* Beispiel eines Capabilities-Dokumentes des 52°North SOS, um festzustellen,
     welche Operationen/Abfrageparameter unterstützt werden.
-  * Beispiel-Anfrage um Messdaten des SOS abzurufen.
-  * Informationen zur Datenvisualisierung in einem einfachen, mit dem SOS
+* Beispiel-Anfrage um Messdaten des SOS abzurufen.
+* Informationen zur Datenvisualisierung in einem einfachen, mit dem SOS
     mitgelieferten Viewer "Helgoland".
-  * Informationen zum Ausprobieren einer REST-Schnittstelle für Anwendungsentwickler.
-  * Einfügen von dynamisch generierten Beispieldaten.
+* Informationen zum Ausprobieren einer REST-Schnittstelle für Anwendungsentwickler.
+* Einfügen von dynamisch generierten Beispieldaten.
 
 .. contents:: Inhalt
 
@@ -101,6 +101,7 @@ Ausprobieren
    Die Zugangsdaten lauten: "user" mit Passwort "user".
 * Nutzen Sie den `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (siehe Abb. 3).
 * Testen Sie wweitere Beispieldaten, in dem Sie die folgenden Schritte ausführen:
+
   1. Öffen Sie im SOS-Administrator die `"database maintenance"-Seite <http://localhost:8080/52nSOS/admin/datasource>`_.
   2. Leeren Sie die Datanbank mit dem "Clear Datasource"-Knopf" (Dadurch werden die initialen
      Beispiel-Daten gelöscht. Sie können OSGeoLive neustarten, um Sie zurück zu bekommen.).
