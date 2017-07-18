@@ -248,7 +248,7 @@ Quand (et si) vous voulez sauvegardez vos changements sur OpenStreetMap, cliquez
     pour éviter les conflits !**).*
 
 Informations additionnelles et Tags personnalisés
--------------------------------------------
+-------------------------------------------------------
 
 Quand vous éditez un objet, vous verrez une bande d'icônes en bas
 du panneau d'attribut. Vous pouvez ajouter des informations additionnelles en cliquant
