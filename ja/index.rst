@@ -65,6 +65,7 @@ OSGeo-Live は `OSGeo 財団 <http://osgeo.org/>`_ のプロジェクトです�
      metrics
      mac_installers
      win_installers
+     prior_applications
 
 プレゼンテーション
 --------------------------------------------------------------------------------

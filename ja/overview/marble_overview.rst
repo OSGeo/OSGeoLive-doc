@@ -36,12 +36,14 @@ PC上の地球儀に `OpenStreetMaps <http://www.osm.org>`_ を含む様々な�
 * A great solution for the geography lessons
 * Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps)
 * 3Dでの地球儀のナビゲート
+
 .. * マウスクリックした位置に関するウィキペディアの記事を表示
 .. * 行き先に関するウィキペディアの情報をマウスクリックで表示
 .. * 複数の選択可能な地図(惑星や月など)
 .. * 昼夜の太陽オーバーレイ
 .. * 距離計測
 .. * スペース空間からのビューおよび2Dマップビューとの切り替え
+
 * 3 different projections are available (3D Globe, Flat Map, Mercator)
 * Information layers (Weather, Real-time clouds, Day/Night View, Real-time Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)
 * Search (Online address search, Online POI search)
