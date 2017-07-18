@@ -42,7 +42,7 @@ Quick Starts
    :glob:
 
    overview/overview
-   quickstart/*quickstart
+   quickstart/*
    standards/standards
    contact
    copyright
@@ -53,6 +53,7 @@ Quick Starts
    metrics
    mac_installers
    win_installers
+   prior_applications
 
 Presentation
 --------------------------------------------------------------------------------

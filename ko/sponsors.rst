@@ -26,7 +26,7 @@ University of California, Davis의 Information Center for the Environment에서�
 
 DebianGIS와 UbuntuGIS는 다양한 주요 패키지를 제공하고 품질 보증을 하고 있습니다. 
 
-.. image:: /images/logos/OSDM_stacked.png
+.. .. image:: /images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
   :target: http://www.osdm.gov.au
 
