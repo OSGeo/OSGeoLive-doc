@@ -20,6 +20,7 @@ GeoNode
 ================================================================================
 
 .. Geospatial Content Management System
+
 地理空间内容管理系统
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -30,6 +31,7 @@ styled and aggregated through browser based tools,
 maps and metadata can be published and searched, and reviews, ratings and comments can be captured from users.
 
 .. GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt.
+
 GeoNode基于GeoServer、GeoExplorer、pycsw、Django与GeoExt构建。
 
 .. image:: /images/screenshots/800x600/geonode_basic_application.png
@@ -38,6 +40,7 @@ GeoNode基于GeoServer、GeoExplorer、pycsw、Django与GeoExt构建。
   :align: right
 
 .. Core Features
+
 核心功能
 --------------------------------------------------------------------------------
 
