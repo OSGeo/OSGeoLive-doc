@@ -37,10 +37,6 @@ provides hardware resources and development support to the OSGeo-Live project.
 The DebianGIS and UbuntuGIS projects provide and quality-assure many of
 the core packages.
 
-.. .. image:: /images/logos/OSDM_stacked.png
-  :alt: The Australian Government's Office of Spatial Data Management
-
-The Australian Government's Office of Spatial Data Management sponsored Jirotech's review of Application Overviews, to achieve consistent, quality project write ups.
 
 .. image:: /images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service

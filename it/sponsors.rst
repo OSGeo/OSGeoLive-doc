@@ -42,11 +42,6 @@ fornisce risorse hardware e supporto allo sviluppo del progetto OSGeo-Live.
 I progetti DebianGIS e UbuntuGIS forniscono e grantiscono qualità di molti dei
 pacchetti base.
 
-.. .. image:: /images/logos/OSDM_stacked.png
-  :alt: The Australian Government's Office of Spatial Data Management
-    L'uffico del Governo Australiano di Gestione dei Dati Spaziali ha sponsorizzato
-    la revisione delle Overview dei software per raggiungere consistenza e
-    qualità del testo sui progetti.
 
 .. image:: /images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service
