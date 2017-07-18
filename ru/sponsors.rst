@@ -52,8 +52,7 @@ Okeanos — греческий академический «облачный с�
   :alt:  Geolocation Technology Company
   :target: https://georepublic.info
 
-Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
-and provide support and custom development for Open Source GIS software.
+Georepublic - это компания Geolocation Technology, которая охватывает идею бесплатного программного обеспечения и обеспечивает поддержку и пользовательскую разработку для программного обеспечения GIS с открытым исходным кодом.
 
 .. include :: sponsors_osgeo.rst
 
