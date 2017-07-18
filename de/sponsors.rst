@@ -37,11 +37,6 @@ durch Hardware und Entwicklerleistungen.
 
 Das DebianGIS und UbuntuGIS Projekt stellen viele der Hauptprojekte bereit und sorgen für eine Qualitätssicherung.
 
-.. image:: /images/logos/OSDM_stacked.png
-  :alt: The Australian Government's Office of Spatial Data Management
-
-Das Australian Government's Office of Spatial Data Management unterstützte Jirotech's bei der Prüfung der Anwendungsübersichten, um einheitliche und hochwertige Beschreibngen zu erhalten.
-
 .. image:: /images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service
   :target: https://okeanos.grnet.gr
