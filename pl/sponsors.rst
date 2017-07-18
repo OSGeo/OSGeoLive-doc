@@ -42,8 +42,7 @@ Projekty DebianGIS i UbuntuGIS zapewniają oprogramowanie podstawowe.
   :alt:  Geolocation Technology Company
   :target: https://georepublic.info
 
-Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
-and provide support and custom development for Open Source GIS software.
+Georepublic jest firmą zajmującą się geolokalizacja, która obejmuje ideę Wolnego Oprogramowania oraz zapewnia wsparcie i rozwój niestandardowy dla oprogramowania Open Source GIS.
 
 
 .. include :: sponsors_osgeo.rst
