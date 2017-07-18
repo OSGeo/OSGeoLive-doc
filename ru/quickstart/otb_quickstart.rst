@@ -79,7 +79,7 @@ OTB: начало работы
 * В главном окне вызовите контекстное меню на элементе "Clustered Image"
   итогового набора данных "MeanShift0" и выберите "Display in viewer".
 
-  .. image:: /images/screenshots/800x600/otb-mean_shift.jpg
+  .. image:: /images/screenshots/800x600/otb-meanshift-lsat7.png
      :scale: 100 %
 
 SVM-классификация в Monteverdi
