@@ -122,7 +122,6 @@ Si este comando corre satisfactoriamente, serás capaz de ver el mapa generado e
 Generar una imagen de mapa con MapServer usando una consulta **GetMap** de WMS
 ==================================================================================
 
-.. note:: 
 
 **¿Qué aprenderé?** Aprenderás cómo generar una imagen con capas desde un mapfile con MapServer usando una consulta de OGC WMS.
 
@@ -142,9 +141,8 @@ Abre el navegador web y coloca la siguiente dirección::
 Agregar una nueva capa al "mapfile" para servir un archivo shape local
 ================================================================================
 
-.. note:: 
 
-  **¿Qué aprenderé?** Aprenderás cómo agregar una nuevo objeto capa a la definición de tu mapfile.
+**¿Qué aprenderé?** Aprenderás cómo agregar una nuevo objeto capa a la definición de tu mapfile.
 
 Agregaremos ahroa una nueva capa a nuestro mapfile. Antes del último *END*, agrega la siguente configuración::
 
@@ -209,9 +207,7 @@ El resultado de esta modificación debería hacer que los lagos grandes en nuest
   .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
     :scale: 70 %
 
-.. note:: 
-
-Aprende más acerca de los objetos `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_.
+.. note:: Aprende más acerca de los objetos `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_.
 
 ¿Qué sigue?
 ================================================================================

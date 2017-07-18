@@ -61,8 +61,7 @@ Características principales
 * El soporte para SE elimina la necesidad de un montón de extensiones propietarias.
 * Configuración sencilla de HTML y otros formatos de salida para las respuestas a GetFeatureInfo.
 * Uses stream-based data access, minimal memory footprint.
-* Soporte casi completo para simbología raster tal y como está definida en SE (con algunas extensiones
-.
+* Soporte casi completo para simbología raster tal y como está definida en SE (con algunas extensiones.
 * Soporte completo para TIEMPO/ELEVACIÖN y otras dimensiones tanto para entidades como para datos ráster. 
 * Supporta numerosos *backends*, como PostGIS, Oracle Spatial, MS SQL Server, Shapefiles o GML.
 * Puede renderizar modelos de datos complejos directamente.

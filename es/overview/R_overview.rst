@@ -52,7 +52,7 @@ Características principales
 --------------------------------------------------------------------------------
 
 * Completo Lenguage de programación orientado a objetos diseñado para la
-estadística y otras aplicaciones matemáticas. 
+    estadística y otras aplicaciones matemáticas. 
 * Cientos de paquetes estadísticos para el análisis espacial desarrollados por la comunidad.
 * Clases para datos espaciales.
 * Manejo de datos espaciales.

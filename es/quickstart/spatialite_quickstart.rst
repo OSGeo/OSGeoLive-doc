@@ -46,13 +46,12 @@ Empezamos por visualizar una base de datos y mirar las columnas de una tabla:
   them too.
 
 * Hacer clic en el botón :menuselection:`File->Connect existing SQLite DB`.
-* Navegar a la carpeta ``/home/user/data/spatialite`` y elegir
- :file:`trento.sqlite`.
+* Navegar a la carpeta ``/home/user/data/spatialite`` y elegir :file:`trento.sqlite`.
 
   .. image:: /images/screenshots/800x600/spatialite-gui-trento.png
     :scale: 70 %
 
-.. TBD: Cameroºn Review Comment:
+.. TBD: Cameron Review Comment:
   As above, lets keep the table consistant, to maybe MunicipalHalls
 
 * Hacer clic con el botón derecho en la tabla ``MunicpalHallsView`` y

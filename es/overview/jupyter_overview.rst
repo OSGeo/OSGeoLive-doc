@@ -10,11 +10,12 @@
   :align: center
   :target: http://jupyter.org/
 
+################################################################################
 Jupyter Notebook
-================================================================================
+################################################################################
 
 Mixing rich media in documentation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================================================================
 
 El Jupyter *Notebook*  (cuaderno Jupyter) es una aplicación web que permite crear y compartir documentos que pueden contener código, ecuaciones, visualizaciones y texto explicativo.
 
