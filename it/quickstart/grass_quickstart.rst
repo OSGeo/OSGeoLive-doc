@@ -270,7 +270,7 @@ l'opzione "Name of color table", e selezionare dalla lista per esempio "bcyr"
 (blu-cyan-yellow-red). Potrebbe essere necessario ridisegnare la mappa per
 vedere il vettoriale colorato
 
-.. image:: /images/screenshots/1024x768/grass-vector-basins.png
+.. image:: /images/screenshots/800x600/grass-vector-basins.png
   :scale: 50 %
   :alt: screenshot
   :align: right
