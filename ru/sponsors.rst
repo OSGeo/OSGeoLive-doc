@@ -39,10 +39,9 @@ Open Source Geospatial Foundation (OSGeo) предоставляет основ�
 
 .. .. image:: /images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
-
-Австралийское агенство по управлению пространственными данными 
-спонсировало оценку компании Jirotech "обзоров" ПО для достижения
-устойчивого качества документации данного проекта. 
+    Австралийское агенство по управлению пространственными данными 
+    спонсировало оценку компании Jirotech "обзоров" ПО для достижения
+    устойчивого качества документации данного проекта. 
 
 .. image:: /images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service
@@ -53,6 +52,13 @@ Okeanos — греческий академический «облачный с�
 исследовательских центров. Okeanos был создан на базе существующего надёжного ПО
 с открытым исходным кодом (например, Synnefo, Google Ganeti). Okeanos любезно предоставил
 виртуальные машины для создания образов дисков (.iso) для OSGeo-Live.
+
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
 
 .. include :: sponsors_osgeo.rst
 

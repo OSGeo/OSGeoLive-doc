@@ -42,12 +42,11 @@ fornisce risorse hardware e supporto allo sviluppo del progetto OSGeo-Live.
 I progetti DebianGIS e UbuntuGIS forniscono e grantiscono qualità di molti dei
 pacchetti base.
 
-.. image:: /images/logos/OSDM_stacked.png
+.. .. image:: /images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
-
-L'uffico del Governo Australiano di Gestione dei Dati Spaziali ha sponsorizzato
-la revisione delle Overview dei software per raggiungere consistenza e
-qualità del testo sui progetti.
+    L'uffico del Governo Australiano di Gestione dei Dati Spaziali ha sponsorizzato
+    la revisione delle Overview dei software per raggiungere consistenza e
+    qualità del testo sui progetti.
 
 .. image:: /images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service
@@ -58,6 +57,13 @@ per computer virtualizzati gratuitamente alle Università Greche e ai Centri
 di Ricerca pubblici. Okeanos è costruita su collaudati software open source
 (per esempio Synnefo, Google Ganeti). Okeanos fornisce le Macchine Virtuali
 per la creazione delle immagini iso di OSGeoLive
+
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
 
 .. include :: sponsors_osgeo.rst
 

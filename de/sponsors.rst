@@ -48,6 +48,13 @@ auf existierende bewährte Open Source Software (beispielsweise Synnefo,
 Google Ganeti) auf. Okeanos stellt freundlicherweise die Virtuellen 
 Maschinen, auf denen die OSGeoLive iso-Images gebaut werden.
 
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
+
 .. include :: sponsors_osgeo.rst
 
 Mitwirkende

@@ -48,6 +48,13 @@ quality project write ups.
 
 　　澳大利亚政府的空间信息管理处为 Jirotech 对 OSGeo-Live 的简介文档编写提供了赞助，保证了稳定和高质量的文档支持。
 
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
+
 　
 
 .. include :: sponsors_osgeo.rst

@@ -43,8 +43,7 @@ DebianGISとUbuntuGISプロジェクトは、コアパッケージの多くを�
 .. .. image:: /images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
   :target: http://www.osdm.gov.au
-
-オーストラリア政府空間データ管理事務所は、Jirotechのアプリケーション概要のレビューを支援しています。それは、一貫した質のプロジェクトをアーカイブするためです。
+    オーストラリア政府空間データ管理事務所は、Jirotechのアプリケーション概要のレビューを支援しています。それは、一貫した質のプロジェクトをアーカイブするためです。
 
 .. image:: /images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service
@@ -55,6 +54,13 @@ virtualized computing resources free of charge to the Greek Universities
 and public Research Centres. Okeanos is build on top of existing proven 
 open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly 
 providing Virtual Machines for building the OSGeoLive iso images.
+
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
 
 .. include :: sponsors_osgeo.rst
 
