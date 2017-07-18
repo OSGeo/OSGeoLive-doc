@@ -38,13 +38,6 @@ zapewnia zaspby sprzętowe i wsparcie programistyczne projektu OSGeo-Live.
 
 Projekty DebianGIS i UbuntuGIS zapewniają oprogramowanie podstawowe.
 
-.. image:: /images/logos/OSDM_stacked.png
-  :alt: The Australian Government's Office of Spatial Data Management
-  :target: http://www.osdm.gov.au
-
-The Australian Government's Office of Spatial Data Management zasponsorowało 
-firmie Jirotech opracowanie zebranych materiałów na temat oprogramowania, 
-aby powstały wysokiej jakości, jednolite opisy.
 
 .. include :: sponsors_osgeo.rst
 
