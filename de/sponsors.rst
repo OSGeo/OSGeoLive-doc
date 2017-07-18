@@ -52,8 +52,7 @@ Maschinen, auf denen die OSGeoLive iso-Images gebaut werden.
   :alt:  Geolocation Technology Company
   :target: https://georepublic.info
 
-Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
-and provide support and custom development for Open Source GIS software.
+Georepublic schätzt und fördert die Idee Freier Software, und wir unterstützen Sie bei der kundenspezifischen Entwicklung von Open Source GIS-Lösungen.
 
 .. include :: sponsors_osgeo.rst
 
