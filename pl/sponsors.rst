@@ -38,6 +38,12 @@ zapewnia zaspby sprzętowe i wsparcie programistyczne projektu OSGeo-Live.
 
 Projekty DebianGIS i UbuntuGIS zapewniają oprogramowanie podstawowe.
 
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic jest firmą zajmującą się geolokalizacja, która obejmuje ideę Wolnego Oprogramowania oraz zapewnia wsparcie i rozwój niestandardowy dla oprogramowania Open Source GIS.
+
 
 .. include :: sponsors_osgeo.rst
 

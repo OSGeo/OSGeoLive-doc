@@ -39,13 +39,13 @@ Le Laboratoire de Télédétection à l'Université Technique d'Athènes, fourni
 Les projets DebianGIS et UbuntuGIS fournissent et vérifient la qualité de nombreux 
 paquets principaux.
 
-.. .. image:: /images/logos/OSDM_stacked.png
-  :alt: Le bureau du gouvernement australien de gestion des données spatiales
-  :target: http://www.osdm.gov.au
 
-Le bureau du gouvernement Australien de gestion des données spatiales a sponsorisé
-la relecture par Jirotech des vues d'ensemble logicielles, pour assurer une écriture
-plus consistante et pertinente de la description des projets.
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
 
 .. include :: sponsors_osgeo.rst
 

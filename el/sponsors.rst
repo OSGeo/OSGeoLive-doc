@@ -36,12 +36,12 @@
 
 Τα προγράμματα DebianGIS και UbuntuGIS παρέχουν και ελέγχουν την ποιότητα πολλών βασικών πακέτων λογισμικών.
 
-.. image:: /images/logos/OSDM_stacked.png
-  :alt: Το Κυβερνητικό Γραφείο Διαχείρησης Χωρικών Δεδομένων της Αυστραλίας
-  :target: http://www.osdm.gov.au
 
-Το Κυβερνητικό Γραφείο Διαχείρησης Χωρικών Δεδομένων της Αυστραλίας ήταν χορηγός της σύνταξης των Εγχειριδίων Εφαρμογών από τη 
-Jirotech, ώστε να παραχθούν κείμενα με συνοχή και ποιότητα.
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Η Georepublic είναι μια Τεχνολογική Εταιρεία Γεωγραφίας, που αγκαλιάζει την ιδέα του Ελεύθερου Λογισμικού και παρέχει υποστήριξη και προσαρμοσμένη ανάπτυξη για το λογισμικό GIS Open Source.
 
 .. include :: sponsors_osgeo.rst
 
