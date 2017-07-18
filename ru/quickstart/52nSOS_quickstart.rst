@@ -21,9 +21,11 @@
 Данное введение описывает:
 * Как делать запросы 52°North SOS Capabilities для определения того, какие
   запросы поддерживаются
+
 * Как запрашивать подробности о наблюдениях из SOS
 * Как использовать простой инструмент для визуализации, поставляемый вместе с
   SOS, для исследований доступных данных
+
 * Как использовать конечный REST API для клиентов разработчиков.
 
 .. contents:: Contents
@@ -90,13 +92,15 @@
 * Изменять запросы для получения различной информации
 * `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_,
   используя имя пользователя "user" и пароль "user".
-* `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (см. Рис. 3).
-.. image:: /images/screenshots/1024x768/52n_sos_viewclient.png
-  :scale: 100 %
-  :alt: 52°North SOS — JavaScript-клиент для временных серий данных.
-  :align: center
 
-**Рис. 3**: 52°North SOS — JavaScript-клиент для временных серий данных.
+* `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (см. Рис. 3).
+
+    .. image:: /images/screenshots/1024x768/52n_sos_viewclient.png
+      :scale: 100 %
+      :alt: 52°North SOS — JavaScript-клиент для временных серий данных.
+      :align: center
+
+    **Рис. 3**: 52°North SOS — JavaScript-клиент для временных серий данных.
 
 * Попробуйте `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):
 
