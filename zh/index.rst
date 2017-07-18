@@ -52,8 +52,9 @@
    :glob:
 
    overview/overview
-   quickstart/*quickstart
-   standards/standards
+   overview/*
+   quickstart/*
+   standards/*
    contact
    copyright
    disclaimer
@@ -63,6 +64,8 @@
    metrics
    mac_installers
    win_installers
+   prior_applications
+
 
 简介
 --------------------------------------------------------------------------------

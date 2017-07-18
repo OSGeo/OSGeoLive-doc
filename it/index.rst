@@ -64,7 +64,7 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      overview/overview
      overview/*
      quickstart/*
-     standards/standards
+     standards/*
      contact
      copyright
      disclaimer
@@ -74,6 +74,7 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      metrics
      mac_installers
      win_installers
+     prior_applications
 
 
 

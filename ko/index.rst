@@ -44,7 +44,7 @@ Quick Starts
    overview/overview
    overview/*
    quickstart/*
-   standards/standards
+   standards/*
    contact
    copyright
    disclaimer

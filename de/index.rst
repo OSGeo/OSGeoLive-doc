@@ -49,7 +49,7 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
      overview/overview
      overview/*
      quickstart/*
-     standards/standards
+     standards/*
      contact
      copyright
      disclaimer
@@ -59,6 +59,7 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
      metrics
      mac_installers
      win_installers
+     prior_applications
 
 
 

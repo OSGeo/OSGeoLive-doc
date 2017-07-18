@@ -57,7 +57,7 @@ OSGeo-Live は `OSGeo 財団 <http://osgeo.org/>`_ のプロジェクトです�
      overview/overview
      overview/*
      quickstart/*
-     standards/standards
+     standards/*
      contact
      copyright
      disclaimer

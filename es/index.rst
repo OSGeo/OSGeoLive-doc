@@ -67,7 +67,7 @@ Guías de inicio rápido
    overview/overview
    overview/*
    quickstart/*
-   standards/standards
+   standards/*
    contact
    copyright
    disclaimer
@@ -77,6 +77,7 @@ Guías de inicio rápido
    metrics
    mac_installers
    win_installers
+   prior_applications
 
 
 

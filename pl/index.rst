@@ -67,7 +67,9 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla
      :glob:
 
      overview/overview
-     standards/standards
+     overview/*
+     quickstart/*
+     standards/*
      contact
      copyright
      disclaimer
@@ -77,6 +79,7 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla
      metrics
      mac_installers
      win_installers
+     prior_applications
 
 	 
 Prezentacja
