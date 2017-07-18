@@ -43,9 +43,9 @@ OGC SOS 1.0.0
 
 * GetCapabilities - zapytanie o opis usługi.
 * GetObservation - zapytanie o czyste dane z sensora, zakodowane 
-w Observations & Measurements (O&M).
+    w Observations & Measurements (O&M).
 * DescribeSensor - zapytanie o informacje o samym sensorze, zakodowane 
-w standardzie Sensor Model Language (SensorML).
+    w standardzie Sensor Model Language (SensorML).
 
 **Transakcyjne operacje SOS**:
 
@@ -57,7 +57,7 @@ w standardzie Sensor Model Language (SensorML).
 * GetResult - cykliczne pobieranie danych z sensora.
 * GetObservationById - pobieranie konkretnych, pojedynczych obserwacji.
 * GetFeatureOfInterest - pobieranie informacji w postacji zakodowanej 
-w GML o funkcji, która jest przedmiotem obserwacji.
+    w GML o funkcji, która jest przedmiotem obserwacji.
 * GetFeatureOfInterestTime - czasowa dostępność danych z sensora.
 
 OGC SOS 2.0.0
@@ -65,11 +65,11 @@ OGC SOS 2.0.0
 
 * GetCapabilities- zapytanie o opis usługi.
 * GetObservation - zapytanie o czyste dane z sensora, zakodowane 
-w Observations & Measurements (O&M).
+    w Observations & Measurements (O&M).
 * DescribeSensor- zapytanie o informacje o samym sensorze, zakodowane 
-w standardzie Sensor Model Language (SensorML).
+    w standardzie Sensor Model Language (SensorML).
 * GetFeatureOfInterest - zapytanie o zakodowaną w GML reprezentację 
-obiektu będącego celem obserwacji.
+    obiektu będącego celem obserwacji.
 
 Z powyższymi zapytaniami możliwe są następujące operatory filtrujące:
 
