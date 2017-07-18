@@ -165,7 +165,6 @@ result looks like the following:
   "*?map=/home/user/mapserver_quickstart.map*", which is MapServer-specific.
 
 
-.. _mapserver-quickstart-cmd-en:
 
 Render a map image with MapServer using the command line
 ========================================================
