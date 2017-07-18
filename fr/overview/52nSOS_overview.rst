@@ -43,23 +43,23 @@ Caractéristiques
   version 1.0.0 précédente (sans opération transactionnelle). 
   Les opérations implémentées pour chaque version du standard sont listées ci-dessous.
 * **INSPIRE Download Service Extension**: A partir de la version 4.2.0, une
-extension permet à SOS d'être utiliser comme service de téléchargement INSPIRE. 
-Des informations de contexte sont fournis sur `le post de blog
-  <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
-  et dans le `wiki
-  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
+    extension permet à SOS d'être utiliser comme service de téléchargement INSPIRE. 
+    Des informations de contexte sont fournis sur `le post de blog
+    <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
+    et dans le `wiki
+    <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
 * **Air Quality Data e-Reporting Extension**: A partir de la version 4.3.0, une
-extension est disponible pour fournir des flux de données sur la qualité de l'air. Les données sont compatibles E1a,
-  E1b et E2a(l'instance d'OSGeo-Live n'est toutefois pas configurée pour). 
-L'`installation et la configuration
-  <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_
-  sont documentées dans le wiki de 52°North.
+    extension est disponible pour fournir des flux de données sur la qualité de l'air. Les données sont compatibles E1a,
+    E1b et E2a(l'instance d'OSGeo-Live n'est toutefois pas configurée pour). 
+    L'`installation et la configuration
+    <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_
+    sont documentées dans le wiki de 52°North.
 * **RESTful API for Timeseries**: A compter de la version 4.1.1., une version
-packagée est disponible, qui fournit directement l'`API RESTful 
-<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_.
-  Ainsi, les séries temporelles peuvent être requêtées via RESTful avec des requêtes encodées en JSON.
-  Plus de détails sont inclus dans la documentation
-  `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
+    packagée est disponible, qui fournit directement l'`API RESTful 
+    <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_.
+    Ainsi, les séries temporelles peuvent être requêtées via RESTful avec des requêtes encodées en JSON.
+    Plus de détails sont inclus dans la documentation
+    `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
 * **Lire plus**: les `détails des fonctionnalités implémentées
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
   peuvent être trouvés sue le wiki de 52°North.

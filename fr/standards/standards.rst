@@ -36,7 +36,7 @@ Les acronymes dans la figure sont définis ci-dessous. Certains d'entre eux sont
    :maxdepth: 1
    :glob:
    
-   *_overview
+   *
 
 * Sensor Planning Service (SPS)
 * Web Terrain Service (WTS)

@@ -124,7 +124,7 @@ Qu'est-ce que geod ?
 geodesiques ("Grand cercle") pour déterminer la latitude, longitude 
 et azimuth d'un point cible à partir d'un point initial formé d'une
 latitude, longitude, azimuth et distance (sens direct) ou pour déterminer
-les azimuths avant et arrière et la distance entre les latitudes et longitudes d'un point initial et final (sens inverse). Les résultats sont arrondis tel que |f| < 1/50, où f est l'aplanissement.
+les azimuths avant et arrière et la distance entre les latitudes et longitudes d'un point initial et final (sens inverse). Les résultats sont arrondis tel que :code:`|f| < 1/50`, où f est l'aplanissement.
 
 ``invgeod`` n'est pas nécessairement disponible sur toutes les plateformes; dans ce cas, il est possible d'appeler geod avec l'option -I.
 

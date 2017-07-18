@@ -39,7 +39,7 @@ Le Laboratoire de Télédétection à l'Université Technique d'Athènes, fourni
 Les projets DebianGIS et UbuntuGIS fournissent et vérifient la qualité de nombreux 
 paquets principaux.
 
-.. image:: /images/logos/OSDM_stacked.png
+.. .. image:: /images/logos/OSDM_stacked.png
   :alt: Le bureau du gouvernement australien de gestion des données spatiales
   :target: http://www.osdm.gov.au
 

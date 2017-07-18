@@ -19,7 +19,7 @@ Ce guide de démarrage rapide couvre les usages de base de l'éditeur Java d'Ope
    :alt: écran de chargement de JOSM
 
 Préférences de JOSM
---------------------
+-----------------------------------------------------
 
 Il y a plusieurs paraamètres que vous pouvez modifier dans JOSM. Un
 paramètre que vous pouvez vouloir changer est la langue. JOSM a été
@@ -89,7 +89,7 @@ Opérations basiques
    bouton gauche de la souris.
 
 Points, lignes et polygones
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  En cliquant sur différents objets de la carte, vous pouvez remarquer qu'il
    y a trois types différents d'objets sur la carte. Il y a les points,
@@ -97,7 +97,7 @@ Points, lignes et polygones
 -  Les points sont des lieux simples, représentés par des symboles.
    Dans notre carte d’exemple, nous avons deux points: une boutique de vêtements
    et un marché. La boutique de vêtements est représentée par une image de maillot
-    et le marché, par un panier de courses.
+   et le marché, par un panier de courses.
 -  Il y a aussi des lignes sur la carte, qui représentent des routes. Si vous regardez
    attentivement vous remarquerez que les lignes contiennent des points. Aucune
    information et aucun symbole n’est associé avec ces points: leur rôle est de
@@ -206,7 +206,7 @@ Tracer votre carte
    avons chargée avec le fichier «sample.osm».
 
 Supprimer la couche d'exemple
------------------------
+-----------------------------------------------------
 
 Une fois que vous êtes à l'aise avec les tehniques de tracé, you souhaitez probablement
 vous tourner vers des entités réelles.
