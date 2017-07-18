@@ -407,7 +407,7 @@ gyűjtötték össze.
 A QGIS ismeretek bővítéséhez egy jó kiinduló pont a `Dokumentáció`_ a
 QGIS honlapon és az `Egy barátságos bevezető a QGIS-hez`_ ekönyv.
 
-A `QGIS User Guide`_ `[1]`_ szintén megtalálható az OSGeo Live lemezen.
+A `QGIS felhasználói kézikönyv`_ `[1]`_ szintén megtalálható az OSGeo Live lemezen.
 
 .. _`OSGeo-Live QGIS oktatóanyagok`: ../../qgis/
 .. _`Dokumentáció`: http://docs.qgis.org/

@@ -60,14 +60,19 @@
      :glob:
 
      overview/overview
-     quickstart/*quickstart
-     standards/standards
+     overview/*
+     quickstart/*
+     standards/*
      contact
      copyright
      disclaimer
      download
      sponsors
      sponsors_osgeo
+     metrics
+     mac_installers
+     win_installers
+     prior_applications
 
 Παρουσίαση
 --------------------------------------------------------------------------------

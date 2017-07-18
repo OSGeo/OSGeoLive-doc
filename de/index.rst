@@ -47,7 +47,9 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
      :glob:
 
      overview/overview
-     standards/standards
+     overview/*
+     quickstart/*
+     standards/*
      contact
      copyright
      disclaimer
@@ -57,6 +59,7 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
      metrics
      mac_installers
      win_installers
+     prior_applications
 
 
 

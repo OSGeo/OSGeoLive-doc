@@ -51,8 +51,9 @@ Guides de démarrage rapide
    :glob:
 
    overview/overview
-   quickstart/*quickstart
-   standards/standards
+   overview/*
+   quickstart/*
+   standards/*
    contact
    copyright
    disclaimer
@@ -62,6 +63,7 @@ Guides de démarrage rapide
    metrics
    mac_installers
    win_installers
+   prior_applications
 
 Présentation
 --------------------------------------------------------------------------------

@@ -9,13 +9,6 @@
 Continguts |osgeo-live-version|
 ================================================================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
-
-   *_overview
-   ../quickstart/*_quickstart
 
 GIS d'escriptori
 --------------------------------------------------------------------------------
@@ -179,27 +172,6 @@ Llibreries Geospacials
 
 Altres programaris d'interés (no instal·lats)
 --------------------------------------------------------------------------------
-Disponiblitat només per a Microsoft Windows:
 
-.. MapWindow es basa en windows (.net) i no es pot executar sobre Ubuntu
+* :doc:`../prior_applications`
 
-
-
-
-Disponible en versions anteriors dels releases d'OSGeo-Live: 
-
-.. MapGuide temporalment desabilitat per estalviar espai en disc; 
-
-
-
-
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retirat després d'OSGeo-Live 6.0
-
-|nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retirat després d'OSGeo-Live 6.0
-
-Instal·ladors per Windows i Apple
---------------------------------------------------------------------------------
-Inclosos en la imatge completa del OSGeo-Live:
-
-* `Instal·ladors per Microsoft Windows <../../WindowsInstallers/>`_
-* `Instal·ladors per Apple OSX <../../MacInstallers/>`_

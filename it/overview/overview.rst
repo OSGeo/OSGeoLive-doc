@@ -6,13 +6,6 @@
 |osgeo-live-version| Contents
 ================================================================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
-
-   *_overview
-   ../quickstart/*_quickstart
 
 Desktop GIS
 --------------------------------------------------------------------------------
@@ -186,33 +179,6 @@ Librerie geospaziali
 
 Altri software di interesse (non disponibili nella Live)
 --------------------------------------------------------------------------------
-Disponibile solo su Microsoft Windows:
 
-.. MapWindow is windows based (.net) and won't run on Ubuntu
+* :doc:`../prior_applications`
 
-
-
-
-Disponibile nelle precedenti versioni di OSGeo-Live:
-
-.. MapGuide temporarily disabled to save on disc space;
-
-
-
-
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_ - Catalogo, ritirato dopo OSGeo-Live 6.0
-* `Atlasstyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor per stili, ritirato dopo OSGeo-Live 6.0
-
-
-
-Programmi d'installazione per Windows e Apple
---------------------------------------------------------------------------------
-Inclusi nell'immagine completa di OSGeo-Live:
-
-* `Microsoft Windows Installers <../../WindowsInstallers/>`_
-* `Apple OSX Installers <../../MacInstallers/>`_
-
-Metrica
---------------------------------------------------------------------------------
-
-* :doc:`Metrica dei progetti <../metrics>` da Ohloh

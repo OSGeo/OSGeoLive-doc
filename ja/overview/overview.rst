@@ -6,13 +6,6 @@
 |osgeo-live-version| コンテンツ
 ================================================================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
-
-   *
-   ../quickstart/*
 
 
 デスクトップ GIS
@@ -186,28 +179,6 @@ Web サービス
 
 その他の関連ソフトウェア (Live 未収録)
 --------------------------------------------------------------------------------
-Microsoft Windows のみで利用可能:
 
-.. MapWindow は Windows ベース (.net) で、Ubuntu では動作しません
-
-
-
-
-以前の OSGeo-Live リリースで利用可能:
-
-
-
-
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - カタログ、OSGeo-Live 6.0 以後未収録
-
-|nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - スタイルエディタ、OSGeo-Live 6.0 以後未収録
-
-
-
-
-
-
-
-
-
+* :doc:`../prior_applications`
 

@@ -216,12 +216,13 @@ PostGIS unterstützt einige räumliche Datentypen:
 	`geography` - speichert Daten als Vektoren auf einer spheroidalen Oberfläche
 	
 	`raster` - speichert Daten als n-dimensionale Matrix 
+
 wobei jede Position (Pixel) einen Bereich repräsentiert und jeder Kanel (Band, Dimension) über einen Wert für jede Position verfügt.
 		
 Die Sichten ``geometry_columns``, ``geography_columns`` und ``raster_columns`` geben Metadaten aus und informieren, welche Tabellen über PostGIS geometry, geography und raster Spalten verfügen.
 
 Übersichten sind Tabellen mit geringerer Auflösung für Rasterdaten. Die Sicht ``raster_overviews`` gibt die Tabellen mit Übersichten, deren Raster-Spalten und die Tabelle für die sie eine Übersicht ist aus.
- Raster Übersichten werden Anwendungen wie QGIS genutzt, um über geringer aufgelöste Versionen
+Raster Übersichten werden Anwendungen wie QGIS genutzt, um über geringer aufgelöste Versionen
 der Rasterdaten schneller Daten anzeigen zu können.
 
 PostGIS geometry ist der erste und weiterhin bei PostGIS Anwendern populärste Datentyp. Wir werden unseren Fokus auf diesen Typ richten.
@@ -361,7 +362,7 @@ Sie sind nun wieder auf der Systemkonsole:
 
 ::
 
-user@osgeolive:~$
+    user@osgeolive:~$
 
 Mapping
 ================================================================================

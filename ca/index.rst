@@ -46,8 +46,9 @@ Inici ràpid
    :glob:
 
    overview/overview
-   quickstart/*quickstart
-   standards/standards
+   overview/*
+   quickstart/*
+   standards/*
    contact
    copyright
    disclaimer
@@ -57,6 +58,7 @@ Inici ràpid
    metrics
    mac_installers
    win_installers
+   prior_applications
 
 Presentació
 --------------------------------------------------------------------------------

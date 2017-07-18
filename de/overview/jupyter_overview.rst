@@ -25,12 +25,12 @@ können, die Live-Code, Gleichungen, Visualisierungen und erklärenden Text enth
 Jupyter Notebook verbindet damit zwei Komponenten:  
 
 * Eine Webanwendung, die browser-based, interaktives veröffentlichen 
-von notebook Dokumenten bereitstellt.
+    von notebook Dokumenten bereitstellt.
 
 * Notebook Dokumente speichern eine Repräsentation von allen sichtbaren 
-Inhalten in der Webanwendung, inklusive Eingaben und Ausgaben
-von Berechnungen, erklärenden text, Berechnungen, Code, Bilder, Videos,
-Diagramme, Karten und andere Rich Media Repräsentationen von Objekten.
+    Inhalten in der Webanwendung, inklusive Eingaben und Ausgaben
+    von Berechnungen, erklärenden text, Berechnungen, Code, Bilder, Videos,
+    Diagramme, Karten und andere Rich Media Repräsentationen von Objekten.
 
 Notebooks können mit anderen auf GitHub, Dropbox und dem `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`_ geteilt werden.
 

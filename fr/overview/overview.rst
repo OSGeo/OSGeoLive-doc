@@ -6,13 +6,6 @@
 |osgeo-live-version| Contenus
 ================================================================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
-
-   *_overview
-   ../quickstart/*_quickstart
    
 SIG sur Bureau
 --------------------------------------------------------------------------------
@@ -184,32 +177,5 @@ Librairies géospatiales
 
 Autres logiciels d'intérêt (indisponible dans Live)
 --------------------------------------------------------------------------------
-Disponible sur Microsoft Windows uniquement :
 
-.. MapWindow est basé sur Windows (.net) et ne fonctionnera pas sur Ubuntu
-
-
-
-
-Disponible à partir des distributions OSGeo-Live antérieures :
-
-.. MapGuide temporairement désactivé pour libérer de l'espace disque ;
-
-
-
-
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, retiré après OSGeo-Live 6.0
-
-|nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, retiré après OSGeo-Live 6.0
-
-Installateurs Windows et Apple
---------------------------------------------------------------------------------
-Inclus dans l'image complète OSGeo-Live :
-
-* `Microsoft Windows Installers <../../WindowsInstallers/>`_
-* `Apple OSX Installers <../../MacInstallers/>`_
-
-Métrique
---------------------------------------------------------------------------------
-
-* :doc:`Project Metrics <../metrics>` from Ohloh
+* :doc:`../prior_applications`

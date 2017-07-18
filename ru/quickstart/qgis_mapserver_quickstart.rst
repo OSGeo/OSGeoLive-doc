@@ -108,5 +108,5 @@ OSGeo-Live содержит пример просмотрщика карт на 
 
 Хорошей отправной точкой для более подробного изучения QGIS Server являются `Руководство пользователя QGIS`_ и `вики-страница QGIS Server`_.
 
-.. _`QGIS User Guide`: http://docs.qgis.org/2.4/en/docs/user_manual/working_with_ogc/ogc_server_support.html
-.. _`QGIS Server Wiki page`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial
+.. _`Руководство пользователя QGIS`: http://docs.qgis.org/2.4/en/docs/user_manual/working_with_ogc/ogc_server_support.html
+.. _`вики-страница QGIS Server`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial

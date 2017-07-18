@@ -6,13 +6,6 @@
 Contenidos |osgeo-live-version|
 ================================================================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
-
-   *_overview
-   ../quickstart/*_quickstart
 
 
 SIG  de escritorio
@@ -186,29 +179,6 @@ Bibliotecas geoespaciales
 
 Otros programas de interés (no instalados)
 --------------------------------------------------------------------------------
-Disponible sólo en Microsoft Windows:
 
-.. MapWindow is windows based (.net) and won't run on Ubuntu
-
-
-
-
-Disponible en versiones previas de OSGeo-Live:
-
-
-
-
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catálogo, retirado después de OSGeo-Live 6.0.
-
-|nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Editor de Estilos, retirado después de OSGeo-Live 6.0.
-
-
-
-
-
-
-
-
-
-
+* :doc:`../prior_applications`
 

@@ -220,6 +220,7 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
    
 	.. _GeoServer Startseite: http://localhost:8082/geoserver/web
 	.. _WMS 1.1.1: http://localhost:8082/geoserver/ows?service=wms&version=1.1.1&request=GetCapabilities
+
 #. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
 #. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.

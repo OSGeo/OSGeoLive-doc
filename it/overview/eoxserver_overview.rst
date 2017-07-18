@@ -77,7 +77,7 @@ Dettagli
 
 **Sito Web:** https://eoxserver.readthedocs.org/
 
-**Licenza:** `MIT-style license`_
+**Licenza:** `MIT-style license <https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_
 
 **Versione Software:** |version-eoxserver|
 

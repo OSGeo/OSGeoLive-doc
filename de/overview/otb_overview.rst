@@ -45,8 +45,8 @@ Kernfunktionen
   :align: right
 
 * Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten 
-Fernerkundungsrasterdatenformate 
-(inklusive Jpeg2000), Metadatenzugriff und Visualisierung
+    Fernerkundungsrasterdatenformate 
+    (inklusive Jpeg2000), Metadatenzugriff und Visualisierung
 * Orthorectification unter Verwendung von DEM und Kartenumprojektion
 * optische und SAR Kalibrierung
 * Bildfusion

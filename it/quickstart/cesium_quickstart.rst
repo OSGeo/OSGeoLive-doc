@@ -51,10 +51,10 @@ Qui Natural Earth II è selezionato e si può vedere come il layer della mappa s
 
 Ed ora?
 ==========
-* Ci sono video tutorial `qui <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
+* Ci sono video tutorial `qui <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`__.
 
-* Tutorial web sono `qui <http://cesiumjs.org/tutorials.html>`_.
+* Tutorial web sono `qui <http://cesiumjs.org/tutorials.html>`__.
 
 * È possibile sviluppare alcune applicazione semplici utilizzando il sito Sandcastle seguendo questo `link <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_.
 
-* Una documentazione più approfondita è disponibili in locale `qui <http://localhost/cesium/>`_.
+* Una documentazione più approfondita è disponibili in locale `qui <http://localhost/cesium/>`__.
