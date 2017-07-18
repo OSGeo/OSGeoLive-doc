@@ -42,6 +42,7 @@ Quick Starts
    :glob:
 
    overview/overview
+   overview/*
    quickstart/*
    standards/standards
    contact

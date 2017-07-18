@@ -62,6 +62,8 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      :glob:
 
      overview/overview
+     overview/*
+     quickstart/*
      standards/standards
      contact
      copyright

@@ -63,6 +63,8 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      :glob:
 
      overview/overview
+     overview/*
+     quickstart/*
      standards/standards
      contact
      copyright

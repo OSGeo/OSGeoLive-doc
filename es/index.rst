@@ -65,6 +65,8 @@ Guías de inicio rápido
    :glob:
 
    overview/overview
+   overview/*
+   quickstart/*
    standards/standards
    contact
    copyright

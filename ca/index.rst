@@ -46,7 +46,8 @@ Inici ràpid
    :glob:
 
    overview/overview
-   quickstart/*quickstart
+   overview/*
+   quickstart/*
    standards/standards
    contact
    copyright

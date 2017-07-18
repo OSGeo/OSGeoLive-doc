@@ -47,6 +47,8 @@ Viele Anwendungen sind auch erhältlich als ausführbare Programme für
      :glob:
 
      overview/overview
+     overview/*
+     quickstart/*
      standards/standards
      contact
      copyright

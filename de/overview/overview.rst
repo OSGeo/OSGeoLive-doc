@@ -6,13 +6,6 @@
 |osgeo-live-version| Inhaltsverzeichnis
 ================================================================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
-
-   *
-   ../quickstart/*
 
 
 Desktop GIS

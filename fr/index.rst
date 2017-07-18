@@ -51,7 +51,8 @@ Guides de démarrage rapide
    :glob:
 
    overview/overview
-   quickstart/*quickstart
+   overview/*
+   quickstart/*
    standards/standards
    contact
    copyright

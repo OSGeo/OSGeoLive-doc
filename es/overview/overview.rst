@@ -6,13 +6,6 @@
 Contenidos |osgeo-live-version|
 ================================================================================
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :glob:
-
-   *
-   ../quickstart/
 
 
 SIG  de escritorio
