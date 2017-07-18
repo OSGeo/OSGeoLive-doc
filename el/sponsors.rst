@@ -41,8 +41,7 @@
   :alt:  Geolocation Technology Company
   :target: https://georepublic.info
 
-Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
-and provide support and custom development for Open Source GIS software.
+Η Georepublic είναι μια Τεχνολογική Εταιρεία Γεωγραφίας, που αγκαλιάζει την ιδέα του Ελεύθερου Λογισμικού και παρέχει υποστήριξη και προσαρμοσμένη ανάπτυξη για το λογισμικό GIS Open Source.
 
 .. include :: sponsors_osgeo.rst
 
