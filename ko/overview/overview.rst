@@ -11,8 +11,8 @@
    :hidden:
    :glob:
 
-   *_overview
-   ../quickstart/*_quickstart
+   *
+   ../quickstart/*
 
 Browser Clients
 --------------------------------------------------------------------------------
@@ -155,13 +155,6 @@ Geospatial Libraries
 Other software of interest (not available Live)
 --------------------------------------------------------------------------------
 
+* :doc:`../prior_applications`
 
 
-
-
-.. MapGuide temporarily disabled to save on disc space; MapWindow is windows based (.net) and won't run on Ubuntu
-
-Windows and Apple Installers
---------------------------------------------------------------------------------
-* `Microsoft Windows Installers <../../WindowsInstallers/>`_
-* `Apple OSX Installers <../../MacInstallers/>`_

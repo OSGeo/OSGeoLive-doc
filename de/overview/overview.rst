@@ -11,8 +11,8 @@
    :hidden:
    :glob:
 
-   *_overview
-   ../quickstart/*_quickstart
+   *
+   ../quickstart/*
 
 
 Desktop GIS
@@ -184,32 +184,6 @@ GIS Bibliotheken
 
 Weitere interessante Software (nicht direkt verfügbar)
 --------------------------------------------------------------------------------
-Nur unter Microsoft Windows verfügbar:
 
-.. MapWindow ist windowsbasierend (.net) und läuft  nicht unter Ubuntu
-
-
-
-
-Auf früheren OSGeo-Live Releases verfügbar:
-
-
-|nologo| :doc:`OGC Standard descriptions <../standards/standards>` - nach OSGeo-Live 10.5 eingestellt
-
-
-
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - Catalogue, eingestellt nach der OSGeo-Live Version 6.0
-
-|nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - Style Editor, eingestellt nach der OSGeo-Live Version 6.0
-
-
-
-
-
-
-
-
-
-
-
+* :doc:`../prior_applications`
 

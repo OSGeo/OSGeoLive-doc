@@ -11,8 +11,8 @@ Zawartość |osgeo-live-version|
    :hidden:
    :glob:
 
-   *_overview
-   ../quickstart/*_quickstart
+   *
+   ../quickstart/*
 
 Desktop GIS
 --------------------------------------------------------------------------------
@@ -183,32 +183,5 @@ Biblioteki geoprzestrzenne
 Inne programy warte zainteresowania (niedostępne Live)
 --------------------------------------------------------------------------------
 
-Dostępne tylko na microsoft windows:
-.. MapWindow bazuje na windows (.net) i nie uruchomi się na Ubuntu
-
-
-
-
-Dostępne w poprzednich wydaniach OSGeo-Live:
-
-.. MapGuide jest czasowo wyłączony w celu zaoszczędzenia przestrzeni dyskowej; MapWindow nie zadziała na Ubuntu
-
-
-
-
-|nologo| `Geopublisher <http://en.geopublishing.org/Geopublisher>`_  - atlasy multimedialne, niedostępny po OSGeo-Live 6.0
-
-|nologo| `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ - edytor stylów (SLD), niedostępny po OSGeo-Live 6.0
-
-Instalatory dla Windows i Apple
---------------------------------------------------------------------------------
-Dołączone do pełnego obrazu OSGeo-Live:
-* `Instalatory Microsoft Windows <../../WindowsInstallers/>`_
-* `Instalatory Apple OSX <../../MacInstallers/>`_
-
-Metrics
-
---------------------------------------------------------------------------------
-
-* :doc:`Project Metrics <../metrics>` from Ohloh
+* :doc:`../prior_applications`
 
