@@ -37,7 +37,7 @@ Open Source Geospatial Foundation (OSGeo) предоставляет основ�
 Проекта DebianGIS и UbuntuGIS предоставляют основные программные 
 пакеты и обеспевают их качество.
 
-.. image:: /images/logos/OSDM_stacked.png
+.. .. image:: /images/logos/OSDM_stacked.png
   :alt: The Australian Government's Office of Spatial Data Management
 
 Австралийское агенство по управлению пространственными данными 

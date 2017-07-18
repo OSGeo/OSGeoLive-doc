@@ -64,7 +64,7 @@
    :glob:
 
    overview/overview
-   quickstart/*quickstart
+   quickstart/*
    standards/standards
    contact
    copyright
@@ -75,6 +75,7 @@
    metrics
    mac_installers
    win_installers
+   prior_applications
 
 Презентация
 --------------------------------------------------------------------------------
