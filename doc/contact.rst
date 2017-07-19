@@ -5,6 +5,23 @@ OSGeo-Live development is coordinated via email and internet chat
 (IRC) as detailed on the
 `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
+Disclaimer
+================================================================================
+
+This Live GIS disc and virtual-machine has been put together by members
+of the OSGeo community to showcase their favourite Free and Open Source
+(FOSS) geospatial software. We've included a number of non-OSGeo software
+packages, GIS focused and otherwise, which we hope you will find to be as
+useful as we do. The OSGeo Foundation does not recommend or guarantee any
+associated software, projects, or companies found within.
+
+`These programs are distributed in the hope that they will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`
+
+For additional information on the distribution of each program
+review their license as indicated on the page for each program.
+
 Community Support
 ================================================================================
 
@@ -12,8 +29,7 @@ If you have any questions, comments, or run into any problems, please drop us a
 note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Searchable archives of the mailing list are hosted by
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
 assistance.

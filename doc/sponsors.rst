@@ -14,7 +14,7 @@ and for many of the software teams which contribute to it.
   :target: http://jirotech.com
 
 Jirotech provides sustaining resources and staff toward the management
-and packaging of software onto the OSGeo-Live DVD.
+and development of the OSGeo-Live project.
 
 .. image:: /images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
@@ -40,13 +40,6 @@ provides hardware resources and development support to the OSGeo-Live project.
 The DebianGIS and UbuntuGIS projects provide and quality-assure many of
 the core packages.
 
-.. image:: /images/logos/OSDM_stacked.png
-  :alt: The Australian Government's Office of Spatial Data Management
-
-The Australian Government's Office of Spatial Data Management sponsored
-Jirotech's review of Application Overviews, to achieve consistent,
-quality project write ups.
-
 .. image:: /images/logos/okeanos-logo.jpg
   :alt: The Greek Academic cloud service
   :target: https://okeanos.grnet.gr
@@ -57,13 +50,22 @@ and public Research Centres. Okeanos is build on top of existing proven
 open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly 
 providing Virtual Machines for building the OSGeoLive iso images.
 
+
+
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
+
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
+
 .. include :: sponsors_osgeo.rst
 
 Contributors
 ================================================================================
-.. include :: contributors.rst
+.. include :: ../contributors.rst
 
 Translators
 ================================================================================
-.. include :: translators.rst
+.. include :: ../translators.rst
 
