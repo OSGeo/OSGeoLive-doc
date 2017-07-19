@@ -49,17 +49,7 @@ Sponsor che supportanto OSGeo
   :alt: Astun Technology
   :target: https://astuntechnology.com/
 
-.. image:: /images/logos/chameleon-john-logo.png
-  :alt: ChameleonJohn
-  :target: https://www.chameleonjohn.com/
 
-.. image:: /images/logos/apps-for-rent-logo.png
-  :alt: Apps4Rent
-  :target: http://www.apps4rent.com/
-
-.. image:: /images/logos/DealIslands.png
-  :alt: Dealslands
-  :target: http://www.dealslands.co.uk/
 
 Per maggiori informazioni
 --------------------------------------------------------------------------------
