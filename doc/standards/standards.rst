@@ -36,7 +36,7 @@ Acronyms in the figure are defined below. Some of these are “OGC standards” 
    :maxdepth: 1
    :glob:
    
-   *_overview
+   * 
 
 * Sensor Planning Service (SPS)
 * Web Terrain Service (WTS)
