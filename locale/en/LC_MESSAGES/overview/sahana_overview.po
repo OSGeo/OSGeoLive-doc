@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../overview/sahana_overview.rst:12
+msgid "Sahana Eden"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:15
+msgid "Disaster Management Platform"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:17
+msgid ""
+"Sahana Eden is a Family of Applications to Help You Help Others. It "
+"provides web based collaboration tools that addresses the common "
+"coordination problems faced during a disaster including finding missing "
+"people, managing aid, managing volunteers, and tracking camps effectively"
+" between Government groups, the civil society (NGOs) and the victims "
+"themselves."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:22
+msgid ""
+"Solutions are available for Disaster Management, Emergency Management, "
+"Development, Humanitarian and Environmental sectors. Free and Open Source"
+" means that it is easily Customisable and Extensible. Sahana Eden is also"
+" able to integrate with other solutions and can provide a "
+"management/ticketing interface around crowd-sourced data - such as that "
+"collected in the Ushahidi incident mapping application."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:24
+msgid ""
+"The Sahana project was initiated by volunteers in the Sri Lankan FOSS "
+"development community to help their fellow countrymen and countrywomen "
+"affected during the 2004 Asian Tsunami in December 2004. The system was "
+"officially used by the Government of Sri Lanka and the system was "
+"released as Free and Open Source software. Subsequently a re-write as a "
+"generic disaster management tools was incubated with the sponsorship of "
+"the Swedish International Development Agency, IBM, the US National "
+"Science Foundation and it has been used by dozens of Governments and NGOs"
+" since then."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:39
+msgid "Core Features"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:41
+msgid "Mapping - Situation Awareness & Geospatial Analysis."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:42
+msgid ""
+"Requests Management - Tracks requests for aid and matches them against "
+"donors who have pledged aid."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:43
+msgid ""
+"Volunteer Management - Manage volunteers by capturing their skills, "
+"availability and allocation."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:44
+msgid "Missing Persons Registry - Report and Search for Missing Persons."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:45
+msgid "Disaster Victim Identification."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:46
+msgid ""
+"Shelter Registry - Tracks the location, distibution, capacity and "
+"breakdown of victims in Shelters."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:47
+msgid ""
+"Hospital Management System - Hospitals can share information on resources"
+" & needs."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:48
+msgid ""
+"Organization Registry - \"Who is doing What & Where\". Allows relief "
+"agencies to coordinate their activities."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:49
+msgid "Ticketing - Master Message Log to process incoming reports & requests."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:50
+msgid "Messaging - Sends & Receives Alerts via Email & SMS."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:51
+msgid ""
+"Document Library - A library of digital resources, such as Photos & "
+"Office documents."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:52
+msgid "Ushahidi Integration - Able to integrate data from Ushahidi"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:55
+msgid "Demo"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:57
+msgid "`Sahana Eden demo <http://demo.eden.sahanafoundation.org/>`_"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:60
+msgid "Details"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:62
+msgid "**Website:** http://eden.sahanafoundation.org/"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:64
+msgid "**Licence:** MIT License"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:66
+msgid "**Software Version:** |version-sahana|"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:68
+msgid "**Supported Platforms:** GNU/Linux, Mac OS X, Microsoft Windows"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:70
+msgid "**API Interfaces:** Web, Python"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:72
+msgid ""
+"**Support:** `Support <http://www.sahanafoundation.org/support>`_, "
+"`Mailing lists "
+"<http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,"
+"  `Chat <http://wiki.sahanafoundation.org/doku.php/community:chat>`_."
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:75
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../overview/sahana_overview.rst:77
+msgid ":doc:`Quickstart documentation <../quickstart/sahana_quickstart>`"
+msgstr ""
+

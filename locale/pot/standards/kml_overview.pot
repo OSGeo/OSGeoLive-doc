@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/standards/kml_overview.rst:30
+msgid "KML Encoding Standard (KML)"
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:35
+msgid "The OGC KML Encoding Standard is an XML language focused on geographic visualization, including annotation of maps and images. Geographic visualization includes not only the presentation of graphical data on the globe, but also the control of the user’s navigation in the sense of where to go and where to look. (http://www.opengeospatial.org/standards/KML)"
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:41
+msgid "In 2006, Google submitted KML (formerly Keyhole Markup Language) to the OGC for consideration as a standard. KML was the first instance of a de-facto standard being submitted into the OGC standards process and as such the OGC modified our standards approval process to accommodate standards that have been developed externally from the OGC and then submitted into the OGC process. There were four objectives for this standards work:"
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:43
+msgid "That there be one international standard language for expressing geographic annotation and visualization on existing or future web-based online maps (2d) and earth browsers (3d). That KML be aligned with international best practices and standards, thereby enabling greater uptake and interoperability of earth browser implementations. That the OGC and KML community will work collaboratively to insure that the KML implementer community is properly engaged in the process and that the KML community is kept informed of progress and issues. That the OGC process will be used to insure proper life-cycle management of the KML candidate specification, including such issues as backwards compatibility."
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:48
+msgid "KML was approved as an OGC standard in 2008 because the Membership believed that having KML as an OGC standard would encourage broader implementation and greater interoperability and sharing of earth browser content and context."
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:50
+msgid "KML is complementary to most of the existing OGC specifications including key standards such as GML (Geography Markup Language), WFS (Web Feature Service) and WMS (Web Map Service). Currently, KML (v2.1) utilizes certain geometry elements derived from GML (version 2.1.2). These elements include point, line-string, linear-ring, and polygon."
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:53
+msgid "See Also"
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:58
+msgid ":doc:`gml_overview`"
+msgstr ""
+
+#: ../../build/doc/standards/kml_overview.rst:59
+msgid ":doc:`wfs_overview`"
+msgstr ""
+

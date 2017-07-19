@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/overview/tinyows_overview.rst:18
+msgid "TinyOWS"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:21
+msgid "Web Feature Service"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:23
+msgid "TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which is light weight and easy to deploy, using a CGI or FastCGI interface and using :doc:`PostGIS <postgis_overview>` for data storage."
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:30
+msgid "TinyOWS is commonly used in conjunction with :doc:`MapServer <mapserver_overview>` to provide WFS-T and fast WFS services for :doc:`QGIS <qgis_overview>` and/or :doc:`OpenLayers <openlayers_overview>` clients. It is used in production in organisations around the world, including risk adverse government agencies. TinyOWS strictly implements the WFS 1.0 and 1.1 standards, and has passed all OGC CITE units tests (~ 1000 unit tests)."
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:34
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:36
+msgid "Transactional Web Feature Service (WFS-T)"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:37
+msgid "CGI and FastCGI interface"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:38
+msgid "PostGIS data connection"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:39
+msgid "GML 2.1.2, 3.1.1 and GeoJson 1.0 output"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:40
+msgid "Configured using MapServer's configuration file, allowing a single configuration file for both applications."
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:43
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:44
+msgid "WFS 1.0 and WFS 1.1: Basic and Transactionnal profiles"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:45
+msgid "FE 1.0.0 and FE 1.1.0"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:46
+msgid "GML 2.1.2 and 3.1.1 Simple Profile (SF-0)"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:49
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:51
+msgid "**Website:** http://mapserver.org/tinyows/"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:53
+msgid "**Licence:** MIT"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:55
+msgid "**Software Version:** |version-tinyows|"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:57
+msgid "**Supported Platforms:** Linux, Unix, Mac, Windows"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:59
+msgid "**API Interfaces:** CGI/FastCGI"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:61
+msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:65
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/tinyows_overview.rst:67
+msgid ":doc:`Quickstart documentation <../quickstart/tinyows_quickstart>`"
+msgstr ""
+

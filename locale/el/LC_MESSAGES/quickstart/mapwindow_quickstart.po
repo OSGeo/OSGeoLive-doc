@@ -1,0 +1,632 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../quickstart/mapwindow_quickstart.rst:19
+msgid "1. MapWindow GIS Lite"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:26
+msgid ""
+"This is MapWindow Open Source GIS Lite, a demo of the MapWinGIS ActiveX "
+"control version 4.9.5. A similar custom GIS application can be built "
+"based on this app or on the barebone MapWinGIS control in a matter of "
+"days, using Visual Studio (Pro, Express or Community edition) or "
+"SharpDevelop. To showcase all the new features of MapWinGIS v4.9.5 this "
+"**demo** application was created."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:31
+msgid ""
+"MapWindow Lite can do some basic stuff, like opening and closing layers, "
+"show tiles, change symbology and labeling. Also new features like the new"
+" selection tool, loading data from a PostGIS database and the Shapefile "
+"Editor are added. Of course the source code is also available so you can "
+"use it to create your own application. Stability has been improved, "
+"making this version of MapWinGIS more stable and faster than ever. "
+"MapWinGIS v4.9.5 and thus MapWindow Lite use **GDAL v2.0**."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:37
+msgid ""
+"The development of this project depends on public donations. Our plans "
+"include further development of MapWinGIS core library and also releasing "
+"a new version of MapWindow desktop GIS based on it, which will be called "
+"MapWindow 5. This lite version can be considered the first version of it."
+" More info about our future plans can be found here: "
+"http://www.mapwindow.org/documentation/mapwindow5/index2.html"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:42
+msgid ""
+"MapWindow Lite is available for free download as a single ready-to-"
+"install .exe file from the MapWindow CodePlex website: "
+"https://mapwindow4.codeplex.com/releases/view/542097. MapWindow is a "
+"**native Windows** application that requires installation of the "
+"Microsoft .NET framework v4. It runs on XP, Vista, Windows 7 and Windows "
+"8 and works fine on 64-bit machines. The program is quite intuitive to "
+"use and new users will be up and running quickly. With only a couple of "
+"exceptions it provides a user experience that meets or exceeds that of "
+"ArcMap."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:49
+msgid ""
+"The MapWindow Lite desktop program that is the focus of this guide is "
+"just one part of a larger Open Source project. The core software is also "
+"available as an ActiveX component (called MapWinGIS, download it at "
+"https://mapwingis.codeplex.com/releases), allowing programmers to develop"
+" customized GIS applications. It is also possible for advanced users to "
+"modify and extend the desktop program to fit individual needs. More "
+"information on the MapWindow project and its various facets can be "
+"obtained from the MapWindow website: http://www.mapwindow.org/"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:57
+msgid "2. Getting Started"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:60
+msgid "2.1 Projects"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:61
+msgid ""
+"The project file maintains a record of the different layers, labels, "
+"colors and styles you have defined for your map. When MapWindow starts it"
+" loads the last opened project. You can also start a new project at any "
+"time by clicking the **New project** toolbar button. Any changes that you"
+" make to a project are not stored until you click the **Save project** "
+"toolbar button, or save when prompted on exit. Previous projects are "
+"accessed by clicking the **Load project** toolbar button or selecting "
+"**File** from the top menu and clicking **Load Project**. Project files "
+"carry the extension .mwprj."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:70
+msgid ""
+"Besides saving the layers and related symbology the project file stores a"
+" few additional settings such as map units, projections, and so on. Users"
+" will generally not have to make any changes to these settings so they "
+"will not be discussed here."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:76
+msgid "2.2 Plug-ins"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:77
+msgid ""
+"MapWindow Open Source GIS v4.8.8 has a plug-in architecture. This "
+"architecture is not available in this Lite version, so we will not "
+"discuss it here. With the upcoming version 5, the plug-in architecture "
+"will return but in a more modern capacity. We will use the Managed "
+"Extensibility Framework, making it more easy and flexible to create and "
+"maintain plug-ins."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:84
+msgid "2.3 Adding data layers"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:90
+msgid ""
+"The maps you produce will usually be composed of several GIS data layers."
+" These layers are added either by dragging and dropping files from "
+"Windows Explorer onto the map display window or by clicking the **Add** "
+"toolbar buttons. Each layer that is added is listed in the legend window."
+" Double clicking the layer in the legend or right-click on the layer and "
+"select **Properties** will bring up the **Layer properties** dialog which"
+" has several tabs for making changes to a layers properties. For example,"
+" to change the name displayed in the legend select the **General** tab "
+"and modify the text in the **Name** textbox. Other properties will be "
+"dealt with in subsequent sections. To remove a map layer right-click the "
+"layer and select **Remove**."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:102
+msgid ""
+"The colored icons displayed in the legend illustrate the type of data in "
+"the layers (polygon, line or point) and the current symbology. The order "
+"of the layers in the legend determines the overlay order in the map: "
+"layers that are higher in the list cover layers that are lower. If a "
+"layer seems to be missing it might be because it is completely covered by"
+" other layers. To change the order of a layer just click and drag it to "
+"where you want it to go. A small checkbox beside each legend entry allow "
+"you to turn the display of individual map layers on and off."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:110
+msgid ""
+"MapWindow will display different kinds of GIS data, including: vectors "
+"(polygons, lines, and points), rasters (rectangular grids of data) and "
+"images. Many different file formats are supported, including .shp, .asc, "
+".aux, .bgd, .bil, .dem, dt1, .hdr, .img, .jpg, .sid, .std, .tif and "
+"others. The ESRI shapefile (.shp) is the vector format used by MapWindow "
+"when generating new vector files. For grids a GeoTiff proxy image is "
+"used. In this Lite version MapWindow can also connect to a **PostGIS** "
+"GeoDatabase."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:117
+msgid ""
+"By default **Tiles** are enabled and can show tiles from a long list of "
+"providers like OpenStreetMap (default), MapQuest Aerial and Bing maps. "
+"For the latter you need a valid API key. Tiles will be warped to the "
+"projection of the map, which is determined by the first layer opened."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:124
+msgid "2.4 Projections"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:130
+msgid ""
+"A projection is a mathematical transformation used to display the "
+"3-dimensional earth onto your 2-dimensional computer screen. Different "
+"projections are available, each with its own benefits, costs, and "
+"appropriate uses. A detailed discussion of projections is beyond the "
+"scope of this guide, but a few basic points need to be covered. The main "
+"issue is that the various layers in your project all need to use the same"
+" projection if the overlays are to line up. In MapWindow, the projection "
+"of a layer is defined in a supplemental file carrying the .prj extension."
+" This is a common format for projections, also used in ArcMap and QGis. A"
+" layers projection can be viewed in the **General** tab of the **Layer "
+"Properties** dialog, which is opened by double-clicking the layer in the "
+"legend or right-click on the layer and select **Properties**."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:142
+msgid ""
+"The first map that you add to a project defines the projection for the "
+"entire project. Each subsequent layer must have the same projection or "
+"MapWindow will display a warning dialog. This dialog allows you to "
+"reproject the incoming layer, or do nothing (in which case the layers may"
+" be misaligned). Note that reprojecting a layer involves more than just "
+"changing the contents of the .prj file, there are also changes to the "
+"shape of the polygons. Therefore, it is best to reproject to a new file, "
+"rather than overwriting the old."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:149
+msgid "You can also set the map projection before you add any layers."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:153
+msgid "2.5 Basic toolbar functions"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:154
+msgid ""
+"A suite of basic map functions is accessed through a set of toolbar "
+"buttons. Their use is quite intuitive so only a brief explanation is "
+"provided here. Note that several functions require the user to first "
+"select a target layer, which is done by clicking it in the legend. You "
+"can move the toolbars (click and drag at the dotted line). Also several "
+"keyboard shortcuts are available."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:161
+msgid "Start with a blank map. Shortcut 'CTRL-N'."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:162
+msgid "Load a project. Shortcut 'CTRL-L'."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:163
+msgid "Save the current project. Shortcut 'CTRL-S'."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:164
+msgid "Save the current project under a different name."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:165
+msgid "Add a layer, all formats can be selected. Shortcut: 'CTRL-O'."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:166
+msgid ""
+"Add a vector layer, defaults to ESRI shapefile format. Other vector "
+"formats can be selected."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:167
+msgid "Add a raster layer. Image and grid formats can be selected."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:168
+msgid ""
+"Add a PostGIS layer. Fill in the connection details and select a PostGIS "
+"layer."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:169
+msgid ""
+"Creates a new shapefile layer with the extent and projection of the "
+"current map."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:170
+msgid "Removes the selected layer from the map."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:171
+msgid ""
+"Zoom in: either click the area of interest or draw a bounding box. "
+"Zooming in and out can also be done using the mouse wheel. Shortcut: 'z' "
+"key."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:172
+msgid ""
+"Zoom out. Shortcut: 'z' key, if you are already in zoom mode the 'z' key "
+"will toggle between zoom in and zoom out."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:173
+msgid "Zoom to the full extent of all visible layers. Shortcut: 'Home' key."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:174
+msgid "Zoom to the extent of the target layer."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:175
+msgid ""
+"Click and drag the map within the display window. Shortcut: 'Spacebar', "
+"after release the spacebar the previous tool is selected again."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:176
+msgid ""
+"Click to set the projection of the map, only enabled when no layers have "
+"been loaded yet."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:177
+msgid "Click to find a location, uses OpenStreetMap Nominatim."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:178
+msgid "Click to view the attributes of shapes in the target layer."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:179
+msgid ""
+"After selecting this button, click on the map to measure distances. "
+"Shortcut: 'm' key, also toggles between distance and area."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:180
+msgid ""
+"After selecting this button, click on the map to measure areas. Shortcut:"
+" 'm' key, also toggles between distance and area."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:181
+msgid ""
+"Select shapes by rectangle from the target layer. Ctrl-click to select "
+"multiple shapes, or draw a bounding box. You can also select by hand-"
+"drawn polygon."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:186
+msgid "3. Producing a Map for Export"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:189
+msgid "3.1 Defining symbology: vectors"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:190
+msgid ""
+"When you first add a layer all shapes are given the same color and "
+"outline. MapWindow can customize the symbology (color scheme, outlines, "
+"style, etc.) by using the **Layer Properties** dialog, which can be "
+"accessed by double-clicking the layer in the legend."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:196
+msgid "3.1.1 Unique values"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:202
+msgid ""
+"If your layer is made of shapes that represent distinct entities, say "
+"state names, then proceed as follows. Select the **Categories** tab of "
+"the **Layer Properties** dialog. It will be empty when you begin, "
+"indicating that no symbology has been defined."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:206
+msgid "Select **Unique values**"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:207
+msgid ""
+"Under **Fields** select the attribute you want to use for assigning "
+"different colors to shapes"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:208
+msgid ""
+"**Color scheme** is used to select the color palette for your shapes. "
+"Click the triangle to the right to select a different palette. The option"
+" button on the far right can be used to edit the palettes and define new "
+"ones."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:209
+msgid ""
+"If **Random colors** is **not** checked, colors are sequentially assigned"
+" from left to right across the entire palette."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:210
+msgid ""
+"If **Gradient** is checked a gradient from dark to light is applied to "
+"*each polygon*. This effect is really only apparent when polygons are "
+"large."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:211
+msgid "The other entries in the dialog are not used for unique values."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:212
+msgid "Click **Generate** to create the categories"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:213
+msgid "Click **Ok** to finish and close the dialog"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:217
+msgid "3.1.2 Continuous data"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:223
+msgid ""
+"If your layer contains continuous data, say the population in 1997, then "
+"you must define categories into which the shapes are assigned. Begin by "
+"opening the **Layer Properties** dialog and selecting the classification "
+"field and color scheme as described in 3.1.1 Set the number of categories"
+" you want in the **Categories** box. Then, click **Generate** and click "
+"**Ok** to complete the process."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:230
+msgid ""
+"If you wish to display the categories using a color ramp, say light red "
+"for low values grading to dark red for high values, select a smoothly "
+"grading color palette from the list of palette options. Do not check the "
+"**Set gradient** option because this refers to color gradients **within**"
+" polygons, something else entirely."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:238
+msgid "3.3 Adding labels"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:244
+msgid ""
+"Labels are added or modified by right-click on the layer and select "
+"**Labels**. When you first open this dialog the label preview window will"
+" be empty. The first step is to select the attribute that holds the label"
+" values. The available attributes are listed in the **Fields** window. "
+"Double-click on the appropriate attribute and it will show up in the "
+"**Expression** window, indicating that it has been selected. Click "
+"**Apply** and a pop-up will ask you how you want to anchor the labels."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:252
+msgid ""
+"Next, open the **Font** tab and select a font. Note that the default font"
+" may not be set, so you might not see anything until you assign the font "
+"here. Click **Apply** and the labels will appear on your map. The **Label"
+" style** dialog has many other options you can use to customize your "
+"labels, but none are mandatory. These options are fairly self-"
+"explanatory. Click **Ok** to finish."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:262
+msgid "3.5 Exporting a map"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:265
+msgid "3.5.1 Low resolution export"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:266
+msgid ""
+"Open the **map** menu and select **Snapshot**. Give the name and location"
+" of the JPEG-file to be created and the layers, including the tiles will "
+"be exported to that file. The resolution of the map is equivalent to the "
+"resolution of your computer screen. This being the case, the exported "
+"maps are ok for use in PowerPoint but not for printing. Even though the "
+"map may look ok in Microsoft Word when its up on your screen, the image "
+"quality on paper will be poor."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:276
+msgid "3.5.2 Preparing a publication-quality map"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:277
+#: ../../../quickstart/mapwindow_quickstart.rst:356
+msgid ""
+"This option is not available in this Lite version, but will be back in "
+"MapWindow Open Source GIS v5."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:281
+msgid "4. Advanced Topics"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:285
+msgid "4.1 The attribute table"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:286
+msgid ""
+"This option is not available in this Lite version, but will be back in "
+"MapWindow Open Source GIS v5. This lite version does have a simple "
+"identify tool which will show the attributes of the selected shape."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:291
+msgid "4.2 Selections"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:292
+msgid ""
+"The advanced selection option is not available in this Lite version, but "
+"will be back in MapWindow Open Source GIS v5."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:296
+msgid "4.3 Creating and editing shapefiles"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:297
+msgid ""
+"The shapefile editor is newly introduced in this Lite version. In older "
+"version  was a sepearate plug-in for MapWindow, now the editor is in "
+"MapWinGIS, the mapping engine. This makes the editor much more stable and"
+" responsive. It can also handle much larger vector data."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:301
+msgid ""
+"The editor toolbar has several buttons which will be briefly explained "
+"below:"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:305
+msgid "Start editing the shapefile."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:306
+msgid "Save your changes to the shapefile."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:307
+msgid "Draw a new shape."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:308
+msgid "Vertex editor. Add, delete or move nodes."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:309
+msgid "Merge the selected shapes."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:310
+msgid "Split the selected shape."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:311
+msgid "Move the selected shape"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:312
+msgid "Rotate the selected shape."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:313
+msgid "Erase, clip or split by polygon"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:314
+msgid "Split by polyline"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:315
+msgid "Copy the selected shape."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:316
+msgid "Cut the selected shape."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:317
+msgid "Paste a new shape."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:318
+msgid "Undo last action."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:319
+msgid "Redo last action."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:325
+msgid "4.3.1 Creating a new shapefile"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:326
+msgid ""
+"Shapefiles are created using the **Create layer** toolbar button. "
+"Clicking it brings up a dialog in which you specify the name and location"
+" for the new file. You also select which type of shape you want: point, "
+"line, or polygon. Before creating a new shapefile you should load a layer"
+" into your project to set the projection and to serve as a spatial "
+"reference when adding your new shapes. Advanced techniques for "
+"georeferencing are beyond the scope of this guide."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:333
+msgid ""
+"When a shapefile is created it is empty. To add freeform shapes use the "
+"**Add shape** toolbar button. While using the mouse each time you left-"
+"click a new vertex is added. When all the vertices have been defined, "
+"right-click the mouse and select **Finish operation** to finish. The "
+"context menu has more options, like **Undo point** to remove the last "
+"point, this can be done until all points are removed again, **Snapping** "
+"to snap the current layer, all layers or no snapping, **Highlighting** to"
+" highlight the current layer, all layers or no highlighting, **Cancel** "
+"to remove the shape you are drawing without saving it."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:344
+msgid "4.3.2 Modifying existing shapes"
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:345
+msgid ""
+"The shapefile toolbar has a **Vertex editor** button for changing the "
+"shape of existing shapes. Vertices will be visible when using the vertex "
+"editor. When your click on the shape you want to edit it becomes semi-"
+"transparent and the vertices will be clickable. When you click on a "
+"vertex (its color changes from blue to red) you can drag it to another "
+"location. When you double-click on the line a new vertex will be added. "
+"When you select a vertex and hit the delete button on your keyboard it "
+"will be deleted (after confirmation). This shapefile editor comes with an"
+" undo/redo option. Using the associated buttons on the toolbar you can "
+"undo/redo actions. The changes won't be saved to disk until save the "
+"changes using the **Save changes** button in the editor toolbar."
+msgstr ""
+
+#: ../../../quickstart/mapwindow_quickstart.rst:355
+msgid "4.4 Geoprocessing"
+msgstr ""
+

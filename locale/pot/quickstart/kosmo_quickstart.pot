@@ -1,0 +1,566 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:13
+msgid "Kosmo Desktop Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:15
+msgid "Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit and analyse spatial data from a variety of databases, vector and raster formats."
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:18
+msgid "This Quick Start describes how to:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:20
+msgid "start the application"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:21
+msgid "load layers from files, databases and OGC services"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:22
+msgid "navigate through the map"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:23
+msgid "apply your styling to the loaded layers"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:24
+msgid "load an extension"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:29
+msgid "Start Kosmo Desktop"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:31
+msgid "In order to start the application, follow the next steps:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:33
+msgid "From the start menu, select :menuselection:`Geospatial --> Desktop GIS --> Kosmo`"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:35
+msgid "The application will take a few seconds to start (a splash screen is shown while loading)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:40
+msgid "In the Welcome dialog, select the option :menuselection:`Create a new project --> With a new view` (**1**) and press the :guilabel:`Ok` button (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:45
+msgid "In the Spatial Reference System selection dialog, press the :guilabel:`...` button"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:50
+msgid "Select the option *EPSG* in the SRS type combobox (**1**), insert the text `4326` in the text field and press the :guilabel:`Search` button (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:52
+msgid "Select the SRS EPSG:4326 - WSG4 (**3**) and press the :guilabel:`Ok` button (**4**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:57
+msgid "Press the :guilabel:`Ok` button again to select the SRS loaded. The view will start with EPSG:4326 as the base projection"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:61
+msgid "You can see which projection has been selected as base for a specific view in the view window title bar, right to the view name"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:65
+msgid "Kosmo Desktop main window"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:67
+msgid "The Kosmo Desktop main window has the following sections:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:72
+msgid "Main menus"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:74
+msgid "Main toolbar"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:76
+msgid "Layer tree"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:78
+msgid "Tree that contains the categories and layers that have been loaded in the current view."
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:80
+msgid "Map"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:82
+msgid "Status bar"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:84
+msgid "Shows the application warning messages to the user."
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:86
+msgid "Current cursor coordinates"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:91
+msgid "Loading layers"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:94
+msgid "Files"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:96
+msgid "To start out, we're going to load some of the sample data included on the OSGeo-Live DVD:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:98
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:146
+msgid "Choose the option :menuselection:`View > Load Dataset...` or push the button with the green plus from the main toolbar"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:100
+msgid "In the *Format* combobox, select *Shapefile* (**1**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:102
+msgid "In the file chooser, select the file :file:`ne_10m_admin_0_countries.shp` from the directory :file:`/home/user/data/natural_earth2` (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:104
+msgid "Press the :guilabel:`Ok` button to load the selected shapefile (**3**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:109
+msgid "In the layer tree, press the visibility checkbox to make the layer visible, right clicking on the *Working* folder if needed"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:111
+msgid "Choose again the option :menuselection:`View > Load Dataset...` or push the button with the green plus from the main toolbar"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:113
+msgid "In the *Format* combobox, select *Image file* (**1**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:115
+msgid "In the file chooser, select the file :file:`HYP_50M_SR_W.tif` from the directory :file:`/home/user/data/natural_earth2/` (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:117
+msgid "Press the :guilabel:`Ok` button to load the selected image file (**3**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:122
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:171
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:206
+msgid "In the layer tree, press the visibility checkbox to make the layer visible"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:124
+msgid "You can see that the layer drawing order is from bottom to top in the layer tree: modify the layer order by dragging them in order to show them properly"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:130
+msgid "The OSGeo-Live DVD contains some file data examples in the following directories:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:132
+msgid ":file:`/home/user/data` (shapefiles and raster files)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:133
+msgid ":file:`/usr/local/share/OpenJUMP/sample_data` (shapefiles)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:135
+msgid "You can try to load more examples from those directories. Remember to select the correct format from the *Format* combobox"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:138
+msgid "It's possible to add all the images from a directory as an unique layer by selecting the parent directory in the *Load Dataset...* dialog: Kosmo Desktop will load them as a mosaic."
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:142
+msgid "Databases"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:144
+msgid "We're going to load a database table as an example:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:148
+msgid "In the *Format* combobox, select *Database* (**1**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:150
+msgid "Fill the fields host, port, database name, user name and password with the values:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:152
+msgid "Host: localhost"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:154
+msgid "Port: 5432"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:156
+msgid "Database name: natural_earth2"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:158
+msgid "User name: user"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:160
+msgid "Password: user"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:162
+msgid "Press the :guilabel:`Connect` button to load the tables present at the *natural_earth2* database (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:164
+msgid "Select the checkbox corresponding to the table *ne_10m_populated_places* (**3**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:166
+msgid "Press the :guilabel:`Ok` button to load the selected database table (**4**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:178
+msgid "OGC services"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:180
+msgid "Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeo-Live DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start GeoServer icon)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:182
+msgid "Press the :guilabel:`Load SDI Service (IDE)` button at the main toolbar to open the wizard"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:184
+msgid "In the *Select SDI service type* panel, select the option *WMS Service* (**1**) and press the :guilabel:`Next` button (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:189
+msgid "In the *Select Uniform Resource Locator (URL)*, type the URL http://localhost:8082/geoserver/ows? in the corresponding text field (**1**) and press the :guilabel:`Connect` button (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:191
+msgid "If the connection is successful, press the :guilabel:`Next` button to go to the next panel (**3**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:196
+msgid "Select the layer `North America Sample Imagery` (**1**) and press the :guilabel:`>` button (**2**) to move it to the right list. Press :guilabel:`Next` button. (**3**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:201
+msgid "Leave the default options loaded and press the :guilabel:`Finish` button (**1**) to start the layer loading"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:208
+msgid "Select the layer in the layer tree and press the :guilabel:`Zoom To Layer` button to center the map in the WMS layer view"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:210
+msgid "Reorder the layer tree by dragging the new layer and put it over the *HYP_50M_SR_W* raster layer"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:217
+msgid "Kosmo Desktop contains a set of lists of WMS servers by default, divided into locations (most of them are from Spain). If you're connected to internet, you can use them as described in the example with the local server."
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:223
+msgid "Map navigation tools"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:225
+msgid "You can control where in the world is the map using the navigation tools present at the main toolbar:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:227
+msgid "|ZOOM| Zoom In/Out"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:231
+msgid "It's the tool selected by default when you start your session"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:232
+msgid "Use the mouse left button to zoom in a fixed ammount at the clicked map point"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:233
+msgid "Use the mouse right button to zoom out a fixed amount at the clicked map point"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:234
+msgid "Press the mouse left button, move the mouse, draw a rectangle and release the button if you want to zoom to that rectangle"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:236
+msgid "|PAN| Pan"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:240
+msgid "Allows to move around the world without changing the scale"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:241
+msgid "Press the mouse left button, move the mouse and release it in order to move the map to the desired location"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:243
+msgid "|ZOOM_PREV| Zoom Previous"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:247
+msgid "Allows to zoom to the previous viewing envelope from the zoom history (if available)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:249
+msgid "|ZOOM_NEXT| Zoom Next"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:253
+msgid "Allows to zoom to the next viewing envelope from the zoom history (if available)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:255
+msgid "|ZOOM_FULL_EXTENT| Zoom To Full Extent"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:259
+msgid "Allows to change the current map envelope to include all the visible layers"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:261
+msgid "|ZOOM_TO_LAYER| Zoom To Layer"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:265
+msgid "Allows to change the current map envelope to adjust to the selected layer"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:267
+msgid "|ZOOM_TO_SELECTED_ITEMS| Zoom To Selected Items"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:271
+msgid "Allows to change the current map envelope to adjust to the selected features"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:273
+msgid "|PAN_TO_CLICK| Pan To Click"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:277
+msgid "Centers the map in the clicked map point, without changing the current scale"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:279
+msgid "|COORDINATE_LOCALIZATION| Coordinate Localization"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:283
+msgid "Centers the map in the given X - Y coordinates"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:285
+msgid "Apart from those tools, it's also available the possibility to zoom in/out by using the mouse wheel."
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:288
+msgid "If any tool/menu option is disabled, you can place the cursor over the button/option to see a tooltip where the reason is shown"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:293
+msgid "Basic Styling"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:295
+msgid "In this section we're going to style a layer by range using the country population as styling attribute:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:297
+msgid "Select the layer `ne_10m_admin_0_countries` in the layer tree"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:299
+msgid "Right click on it and select the option :menuselection:`Simbology > Change Styles...`"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:301
+msgid "Click on the tab `Colour theming`"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:303
+msgid "Activate the options *Enable colour theming* (**1**) and *by range* (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:305
+msgid "Select `pop_est` as *Attribute* (**3**), 11 as *Range count* (**4**) and RYG (Color Brewer) as *Color schema* (**5**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:307
+msgid "Press the :guilabel:`Ok` button to apply the changes (**6**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:312
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:370
+msgid "The layer will change its style to reflect the changes:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:320
+msgid "Advanced Styling"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:322
+msgid "In this section we're going to style a layer with some rules and filters, based on an attribute. The example shows how to create two rules, one for capital populated places and other for the rest of them:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:324
+msgid "Select the layer `ne_10m_populated_places` in the layer tree"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:326
+msgid "Right click on it and select the option :menuselection:`Simbology > Advanced Style Editor...`"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:328
+msgid "Select the feature type style `ne_10m_populated_places` (**1**) and press the :guilabel:`+` button (**2**) to add a new rule to it"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:333
+msgid "Select `Point symbolizer` as symbolizer type (**1**) and press the :guilabel:`Ok` button (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:338
+msgid "Select the new rule in the tree (**1**) and edit its properties: set **capital_rule** as `Name` (**2**), **Capitals** as `Title` (**3**),activate its filter (**4**) and edit it (**5**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:343
+msgid "Select **featurecla** as `Field` (**1**), **Equal to (=)** as `Operator` (**2**) and press the :guilabel:`...` button (**3**) to select an attribute value"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:348
+msgid "Select the **Admin-0 capital** value (**1**) and press the :guilabel:`Ok` button (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:353
+msgid "Press the :guilabel:`Add` button (**1**) to add the condition to the filter and the :guilabel:`Ok` button (**2**) to set the filter to the rule"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:358
+msgid "Select the capital rule point symbolizer in the tree (**1**) and edit its properties: set its `Size` to **8** (**2**), its `Well Known Mark` type as **circle** (**3**) and `Color` to light green (**4**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:363
+msgid "Select the other rule in the tree (**1**) and edit its properties: set **others_rule** as `Name` (**2**), **Others** as `Title` (**3**), mark the `Else filter` checkbox (**4**) and set its maximum scale to **25,000,000** (**5**) (it's necessary to press :guilabel:`ENTER` key after setting the value manually to set it)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:368
+msgid "Press the :guilabel:`Ok` button to apply the changes"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:375
+msgid "If you make enough zoom in to reach the given scale, both rules would be rendered:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:381
+msgid "When the map is at full layer scale only capitals are shown. If you zoom in close enough, all the populated places would be shown"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:385
+msgid "Extensions"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:387
+msgid "In this section we're going to activate the Sextante toolbox extension:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:389
+msgid "Choose the option :menuselection:`File > Extension Manager...` or push the button with the :guilabel:`Ext` label from the main toolbar"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:391
+msgid "Mark the Sextante extension checkbox (**1**) and press the :guilabel:`Ok` button (**2**)"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:396
+msgid "A new Sextante button will be available at the right of the main toolbar"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:402
+msgid "If the `Mark as default` option is selected, the extension would be loaded automatically on next application startup"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:407
+msgid "Things to Try"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:409
+msgid "Here are some additional challenges for you to try:"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:411
+msgid "Use the Advanced Style editor to create more complex styles"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:413
+msgid "Use the `Query wizard` to select those features that accomplish a given criteria"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:415
+msgid "Activate the layer editing mode and use the available tools to edit any of the vectorial layers"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:417
+msgid "Generate a set of topology rules for a layer and try to edit it"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:419
+msgid "Activate the rest of extensions that form part of the application and see the new tools that are present"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:421
+msgid "Configure the application options through the menu option :menuselection:`File > Configuration...`"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:426
+msgid "What Next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/kosmo_quickstart.rst:428
+msgid "There is a set of manuals and video-tutorials available at http://www.opengis.es/index.php?lang=en"
+msgstr ""
+

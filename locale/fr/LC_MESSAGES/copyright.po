@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../copyright.rst:2
+msgid "OSGeo-Live Copyright"
+msgstr ""
+
+#: ../../../copyright.rst:4
+msgid ""
+"OSGeo-Live is composed entirely of free software, free data and free "
+"documentation, allowing it to be freely distributed, duplicated and "
+"passed around."
+msgstr ""
+
+#: ../../../copyright.rst:6
+msgid ""
+"Project Overviews and Overview Translations, are provided under a "
+"`Creative Commons Attribution 3.0 Unported License "
+"<http://creativecommons.org/licenses/by/3.0/>`_."
+msgstr ""
+
+#: ../../../copyright.rst:7
+msgid ""
+"Quickstarts and Quickstart Translations, are provided under a `Creative "
+"Commons Attribution-ShareAlike 3.0 Unported License "
+"<http://creativecommons.org/licenses/by-sa/3.0/>`_."
+msgstr ""
+
+#: ../../../copyright.rst:8
+msgid ""
+"Documentation might also be available under other licenses, as listed "
+"below."
+msgstr ""
+
+#: ../../../copyright.rst:9
+msgid ""
+"Software on OSGeo-Live is available under various Free and Open Source "
+"licenses, as listed in the Project Overviews."
+msgstr ""
+
+#: ../../../copyright.rst:10
+msgid "Data on OSGeo-Live is available under various Open Licences."
+msgstr ""
+
+#: ../../../copyright.rst:13
+msgid "Attributing OSGeo-Live Documentation"
+msgstr ""
+
+#: ../../../copyright.rst:14
+msgid ""
+"As per the `terms of the Creative Commons license "
+"<http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
+" if you include OSGeo-Live documentation into a new document, you will "
+"need to attribute the contributors. Further, if Quickstarts are included,"
+" which are licenced under the `CC By-SA "
+"<http://creativecommons.org/licenses/by-sa/3.0/>`_ license, then the new "
+"document will also need to be licenced under the `CC By-SA "
+"<http://creativecommons.org/licenses/by-sa/3.0/>`_."
+msgstr ""
+
+#: ../../../copyright.rst:17
+msgid ""
+"Note that images are not necessarily provided under the same CC license "
+"as the text; check with the author."
+msgstr ""
+
+#: ../../../copyright.rst:19
+msgid "You may use attribution text similar to one of the following:"
+msgstr ""
+
+#: ../../../copyright.rst:21
+msgid "**Verbose, suitable for a 100 page thesis:**"
+msgstr ""
+
+#: ../../../copyright.rst:23
+msgid ""
+"|CC-By-SA-med| This document includes content from the \"gvSIG "
+"Quickstart\" created by Simon Cropper under the Creative Commons "
+"Attribution-ShareAlike 3.0 Unported licence, "
+"http://creativecommons.org/licenses/by-sa/3.0/ available from the OSGeo-"
+"Live project, http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, "
+"and downloaded on 25 July 2011. The original work was translated from "
+"English to German."
+msgstr ""
+
+#: ../../../copyright.rst:28
+msgid "**Concise CC-By-SA and attribution:**"
+msgstr ""
+
+#: ../../../copyright.rst:30
+msgid ""
+"© 2011 [Your Name] under a `CC By SA License "
+"<http://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
+"from|Includes|Extends] `OSGeo-Live <http://live.osgeo.org>`_ "
+"documentation by `OSGeo-Live contributors "
+"<http://live.osgeo.org/en/copyright.html>`_."
+msgstr ""
+
+#: ../../../copyright.rst:32
+msgid "**Alternative Concise CC-By and attribution:**"
+msgstr ""
+
+#: ../../../copyright.rst:34
+msgid ""
+"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeo-"
+"Live <http://live.osgeo.org>`_ Project Overviews by `OSGeo-Live "
+"contributors <http://live.osgeo.org/en/copyright.html>`_."
+msgstr ""
+
+#: ../../../copyright.rst:39
+msgid "**Minimum (for Project Overviews), attribution only:**"
+msgstr ""
+
+#: ../../../copyright.rst:41
+msgid ""
+"This document includes `OSGeo-Live <http://live.osgeo.org>`_ Project "
+"Overviews by `OSGeo-Live contributors "
+"<http://live.osgeo.org/en/copyright.html>`_."
+msgstr ""
+
+#: ../../../copyright.rst:44
+msgid "Documentation Contributors"
+msgstr ""
+
+#: ../../../copyright.rst:46
+msgid ""
+"The table below credits the contributors for each of the documents on "
+"OSGeo-Live."
+msgstr ""
+
+#: ../../../copyright.rst:48
+msgid "TODO add licences.csv"
+msgstr ""
+
+#: ../../../copyright.rst:54
+msgid "Disclaimer"
+msgstr ""
+
+#: ../../../copyright.rst:56
+msgid ""
+"*The contents of OSGeo-Live are provided by the copyright holders and "
+"contributors \"as is\" and any express or implied warranties, including, "
+"but not limited to, the implied warranties of the merchantability and "
+"fitness for a particular purpose are disclaimed. In no event shall the "
+"copyright owner or contributors be liable for any direct, indirect, "
+"incidental, special, exemplary, or consequential damages (including, but "
+"not limited to, procurement of substitute goods or services; loss of use,"
+" date, or profits; or business interruption) however caused and on any "
+"theory of liability, whether in contract, strict liablity, or tort "
+"(including negligence or otherwise) arising in any way out of the use of "
+"this software, even if advised of the possibility of such damage.*"
+msgstr ""
+

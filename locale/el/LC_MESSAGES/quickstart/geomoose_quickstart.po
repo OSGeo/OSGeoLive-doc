@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../quickstart/geomoose_quickstart.rst:14
+msgid "GeoMoose Quickstart"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:17
+msgid "Getting Started"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:19
+msgid ""
+"GeoMoose is a GIS data portal management framework. The installed version"
+" of GeoMoose on the Live DVD is an example configuration that displays an"
+" example set of layers."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:21
+msgid "Go to the \"Browser Clients\" folder on the desktop."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:23
+msgid ""
+"Click on the desktop icon \"Start GeoMoose\". This will launch the "
+"default browser which will navigate to the correct location "
+"automatically."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:25
+msgid ""
+"You will be presented with a web page displaying a demo interface of a "
+"GeoMoose instance."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:31
+msgid "The Interfaces presented above shows:"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:33
+msgid "A banner bar"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:34
+msgid "A tool bar"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:35
+msgid "A map window with"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:37
+msgid "A navigation and zoom controls"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:39
+msgid "A side menu with:"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:41
+msgid "A \"Jump to\" location pull down list"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:42
+msgid ""
+"Control tabs starting with \"Catalog\", for displaying the layer list.  "
+"As needed, additional tabs will appear: an \"Information\" readout, a "
+"\"Custom\" output tab, and others."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:44
+msgid "A Footer bar with:"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:46
+msgid ""
+"Multiple coordinate readouts, one each for: X,Y (local dataset "
+"coordinates), LAT/LON (Decimal) and United States National Grid (USNG)"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:47
+msgid "A editable pull down list for a view scales to choose from or define."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:51
+msgid "IDing a location in GeoMoose"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:53
+msgid ""
+"You can ID a location in the interface by clicking on the \"identify\", "
+"(\"i\" in a blue circle icon) button in the top toolbar, and then "
+"clicking a point on the map to identify."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:57
+msgid ""
+"The menu along the left side of the Map view will display a report "
+"related to the point that you clicked in the map.   This is a service in "
+"the GeoMoose Demo package that has been configured to respond to quereies"
+" for the \"Parcel\" layer when a point is clicked."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:60
+msgid "Measuring in GeoMoose"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:62
+msgid ""
+"GeoMoose has two measuring tools installed and activated by default. "
+"Clicking the straight ruler icon in the top toolbar, will start the "
+"linear measuring tool.  You can click as many points as you like in the "
+"map window and a trailing polyline will be drawn.  When you get to your "
+"last point, just double click to stop.  The total distance of all lines "
+"drawn will be used to generate the \"Total Length\" in the units of your "
+"choice in the side menu. Clicking the other ruler icon in the top "
+"toolbar, will allow you measure areas."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:66
+msgid ""
+"These user tools are considered services by the GeoMoose interface and "
+"can be added to via GeoMoose's MAPBOOK control file."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:70
+msgid "Selecting Features"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:71
+msgid ""
+"You can select features from a Point, Line, polygon, or a Box.  To start,"
+" click on the \"Select Features\" icon (polygon with pencil), and start "
+"drawing a selection polygon in the map. You can double click the last "
+"point to finish the drawing process.  This screenshot shows the drawing "
+"process on the map.  the left menu is displaying the input form for the "
+"criteria of the selection, in this case a Polygon against the \"Parcels\""
+" layers. You also have the option to select features based on a buffer "
+"which is a \"0\" value by default. This is a service in the GeoMoose Demo"
+" package that has been configured to respond to quereies for the "
+"\"Parcel\" layer."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:75
+msgid ""
+"The above screenshot is showing the \"PARCEL\" layer for selects and also"
+" using the \"Parcels\" layer as the attributes to report back on.  Two "
+"different layers can be used in a double pass query, one for the "
+"selection, and one for retrieving the attributes from for reporting.  The"
+" sceenshot below takes the selection process further by adding in a "
+"buffering distance of 100ft."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:79
+msgid ""
+"Clicking the \"Go!\" button in the side menu in the above screenshot will"
+" generate a report and display it in the side menu.  NOTE: The output can"
+" also be configured to be sent to a new window as well."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:83
+msgid ""
+"The results above demonstrate the service response to the buffered query "
+"by displaying the result in the map via a selection overlay that "
+"highlights the original selection area polygon (purple), the crossing and"
+" within parcels at a 100ft buffer (orange) and the parcels crossing and "
+"within the buffered polygon (yellow).  The side menu now displays the "
+"reported results of the query process with options for outputting in "
+"other formats for mailing labels."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:86
+msgid "Searching"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:88
+msgid ""
+"You can also search for features by attribute.  To start click on the "
+"\"Search Parcels\" icon and enter your search parameters on the search "
+"menu then pressing the \"Go!\" button. The following screenshot "
+"demostrates a search of all parcel owners containing the name \"frank\"."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:92
+msgid "Three results appear in the list and are highlighted on the map."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:96
+msgid ""
+"Clicking the binocular icon/parcel number in blue will zoom you to the "
+"specific parcel as illustrated in the following screenshot."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:101
+msgid "Layer Tools"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:103
+msgid ""
+"GeoMoose lets you edit layers graphically. Setting up a layer for editing"
+" is discussed elsewhere on the GeoMoose website. The demo is setup for "
+"you to edit a sketch layer as illustrated in the following screenshot."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:109
+msgid "Printing"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:111
+msgid ""
+"This next screenshot shows what the Print Map service looks as provided "
+"with demo for GeoMoose.  The side menu in the following view, shows the "
+"options available for printing the current mapview. Sheet size, "
+"orientation, resolution for both raster image backgrounds and for overall"
+" output are also available."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:115
+msgid ""
+"The next menu displays the choices available for output, by default "
+"GeoMoose allows a composite Raster Image, a HTML file, or a PDF.  "
+"Clicking on a PDF output option will present you with a dialog similar "
+"to:"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:119
+msgid ""
+"The following screenshot shows an example of a PDF output in landscape "
+"mode."
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:125
+msgid "Other Services"
+msgstr ""
+
+#: ../../../quickstart/geomoose_quickstart.rst:127
+msgid ""
+"GeoMoose can also link to other on-line services such as birds eye view "
+"from BING, StreetView from Google and Geocoding from Google. Always "
+"remember to review license requirements for any external services to "
+"ensure compliance."
+msgstr ""
+

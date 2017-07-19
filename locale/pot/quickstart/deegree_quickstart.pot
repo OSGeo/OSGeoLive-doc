@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:13
+msgid "deegree 3 webservices quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:17
+msgid "Project description"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:19
+msgid "*deegree* is open source software for spatial data infrastructures and the geospatial web."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:22
+msgid "Available components are:"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:24
+msgid "Web-Services: WFS, WMS, WMTS, CSW, WPS"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:26
+msgid "This quickstart describes how to:"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:28
+msgid "Start *deegree 3 webservices* on the Live DVD"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:29
+msgid "Use the *deegree 3 services console* to activate example configurations"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:30
+msgid "Find more information"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:34
+msgid "About deegree 3"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:36
+msgid "*deegree 3* is the new generation of the deegree Java framework for GIS applications and OGC-service implementations. It can be used to build web-based geospatial-data-infrastructures (GDI)."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:42
+msgid "Start deegree 3 webservices"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:44
+msgid "Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web Services --> deegree` menu. The application will take a few moments to start up."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:50
+msgid "deegree 3 services console"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:52
+msgid "When you start *deegree* for the first time, firefox should open (otherwise open it manually and point your browser to http://localhost:8033). Please wait until you can see the *deegree 3 services console*. This is a simple web-based GUI for editing the configuration files of the so-called *deegree workspace*."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:60
+msgid "deegree 3 workspaces"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:62
+msgid "*deegree 3* uses configurations conformant to all *deegree 3* based webservices. Those configurations are stored in the so called workspace."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:65
+msgid "Inside the *deegree services console* you find a section to manage the included and ready-to-use workspaces. To enter this section, click on *'workspaces'* on the left side."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:69
+msgid "You are now in the workspace management of the running *deegree* instance. You can see which workspace is currently active (only one can be active at a time) workspace, inactive locally available workspaces and offical workspaces which can be imported if you have a internet connection."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:74
+msgid "Please start the *deegree-inspire-workspace* now."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:78
+msgid "deegree 3 workspaces on OSGeo-Live GIS Disc"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:80
+msgid "*deegree-workspace-inspire*"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:82
+msgid "This workspace includes an example configuration for INSPIRE View- and Download-Services. It consists of a transactional WFS (2.0.0 and 1.1.0) for all Annex I Data Themes and a WMS (1.3.0 and 1.1.1) which serves three layers of those Annex I Data Themes. Included are some harmonized dutch administrative units, cadastral parcels and addresses. The WFS in this example acts as an INSPIRE Download service (direct access) and outputs valid, harmonized INSPIRE GML. Additionally it supports multiple request types and querys."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:94
+msgid "This workspace loads harmonized INSPIRE GML from local files. This can easily changed to PostGIS, Oracle Spatial or Microsoft SQL Server as backend."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:98
+msgid "After activating the *deegree-workspace-inspire* you can open a simple map-client by clicking on *'see layers'*. The service is configured to visualize the data and a basemap (rendered by `OpenStreetMap <http://openstreetmap.org/>`_)."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:103
+msgid "A click on the **+** on the right side opens a layer tree showing all available layers. You can activate the INSPIRE layer served by the deegree WMS here."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:107
+msgid "The map client is based on `OpenLayers <http://openlayers.org/>`_. You can pan through the map holding the left mouse button and drag the map. Zooming is possible via mouse wheel or the navigation elements on the left side."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:111
+msgid "More information and step-by-step tutorials about the INSPIRE workspace can be found in the deegree `documentation <http://download.deegree.org/documentation/3.3.18/html/lightly.html#example-workspace-1-inspire-network-services>`_."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:116
+msgid "Want more?"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:118
+msgid "This was just a short intro on the features of deegree 3. There is more information in the demo installations and on the deegree website."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:121
+msgid "deegree online demo"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:123
+msgid "Available here: http://demo.deegree.org"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:125
+msgid "deegree website"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:127
+msgid "Available here: http://www.deegree.org"
+msgstr ""
+

@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:13
+msgid "AtlasStyler Quickstart"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:16
+msgid "Manuals"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:17
+msgid ""
+"`AtlasStyler manual, German, Created for version 1.2 "
+"<../../geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:20
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:23
+msgid "AtlasStyler (Styling layers with SLD)"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:24
+msgid ""
+"`AtlasStyler Labelling tutorial, English, Created for version 1.3 "
+"<../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_EN_LabellingTutorial_091012.pdf>`_"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:25
+msgid ""
+"`AtlasStyler tutoriel d'étiquetage SLD, French, Created for version 1.3 "
+"<../../geopublishing/tutorial_AtlasStyler_Labelling/AtlasStyler_v1.3_FR_Tutoriel_etiquetage_091012.pdf>`_"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:27
+msgid ""
+"More tutorials are posted as blog entries at `http://en.geopublishing.org"
+" <http://en.geopublishing.org>`_ (you have to be online to visit this "
+"webpage)."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:30
+msgid "Running"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:33
+msgid "Getting Started"
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:35
+msgid ""
+"AtlasStyler is an end-user based application, that allows you to create "
+".SLD files for your vectordata."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:37
+msgid ""
+"The OSGeo-Live DVD uses the Lubuntu Operating system which has a "
+"temporary small problem with Java-based applications: As a solution "
+"please right-click on menu-bar (Where 'Applications' and 'Places' is "
+"listed) and select 'Customize Panel'. There check the 'Autohide' option. "
+"The menubar is now hidden unless your mouse reaches the top of the "
+"screen."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:39
+msgid ""
+"Go to :menuselection:`Geospatial --> Desktop GIS --> AtlasStyler` to "
+"start the application."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:41
+msgid ""
+"Use the import buttons to either add ESRI Shapefiles oder PostGIS "
+"datasources to your project."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:43
+msgid ""
+"To import PostGIS, the correct database settings are already preset in "
+"the dialog. Just enter the password 'user' to add the 'ne_10m_land' "
+"layer."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:45
+msgid ""
+"To import a Shapefile, choose "
+"'/home/user/data/natural_earth2/ne_10m_lakes.shp' for example."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:47
+msgid ""
+"Click the tool-icon in the layer legend and select style. The main "
+"AtlasStyler dialog will open. While you change the style, the 'automatic "
+"preview' option at the bottom will allow to see your changes on the fly. "
+"If the data is too big (or the system too slow) deactivate the 'automatic"
+" preview' checkbox."
+msgstr ""
+
+#: ../../../quickstart/atlasstyler_quickstart.rst:49
+msgid "Have fun and/or please give feedback to tzeggai@wikisquare.de"
+msgstr ""
+

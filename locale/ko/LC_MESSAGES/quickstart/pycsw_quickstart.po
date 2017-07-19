@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../../quickstart/pycsw_quickstart.rst:20
+msgid "pycsw Quickstart"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:22
+msgid ""
+"pycsw is an OGC CSW server implementation written in `Python "
+"<http://python.org>`_."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:24
+msgid ""
+"pycsw implements clause 10 (HTTP protocol binding (Catalogue Services for"
+" the Web, CSW)) of the `OpenGIS Catalogue Service Implementation "
+"Specification`_, version 2.0.2.  Initial development started in 2010 "
+"(more formally announced in `2011`_).The project is certified `OGC "
+"Compliant`_, and is an `OGC Reference Implementation`_."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:26
+msgid ""
+"pycsw allows for the publishing and discovery of geospatial metadata.  "
+"Existing repositories of geospatial metadata can be exposed via OGC:CSW "
+"2.0.2."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:28
+msgid ""
+"pycsw is `Open Source`_, released under an MIT license, and runs on all "
+"major platforms (Windows, Linux, Mac OS X)."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:30
+msgid ""
+"pycsw is installed by default on the OSGeo-Live DVD.  This QuickStart "
+"will describe how to:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:32
+msgid "perform a fresh installation of pycsw"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:33
+msgid "test pycsw installation through the tester application"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:34
+msgid ""
+"edit pycsw's Capabilities document and display this information in a "
+"browser"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:35
+msgid ""
+"create ISO 19139 XML metadata records (through INSPIRE Metadata Editor or"
+" GIMED)"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:36
+msgid "load the created XML metadata files in pycsw database"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:37
+msgid "install QGIS CSW Client plugin"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:38
+msgid "perform discovery of data through the pycsw Catalogue Service within QGIS"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:41
+msgid "Installation"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:44
+msgid "System Requirements"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:46
+msgid ""
+"pycsw is written in `Python <http://python.org>`_, and works with "
+"(tested) version 2.6 and 2.7"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:48
+msgid "pycsw requires the following supporting libraries:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:50
+msgid "`lxml`_ (version >= 2.2.3) for XML support"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:51
+msgid "`SQLAlchemy`_ (version >= 0.0.5) for database bindings"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:52
+msgid "`Shapely`_ (version >= 1.2.8) for spatial query / geometry support"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:53
+msgid "`pyproj`_ (version >= 1.8.9) for coordinate transformations"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:57
+msgid "Installing from Source"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:59
+msgid "`Download pycsw`_ the latest version or clone from `GitHub`_:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:65
+msgid ""
+"Ensure that CGI is enabled for your install directory.  For example, on "
+"Apache, if you setup pycsw in ``/srv/www/htdocs/pycsw`` (where your URL "
+"will be ``http://host/pycsw/csw.py``), add the following to "
+"``httpd.conf``:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:76
+msgid "Installing from the Python Package Index (PyPi)"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:86
+msgid "Installing on Ubuntu based distributions"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:88
+msgid ""
+"In order to install pycsw to an Ubuntu based distribution, one can run "
+"the following commands:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:97
+msgid "Installing on openSUSE"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:99
+msgid ""
+"In order to install the OBS package in openSUSE 12.3, one can run the "
+"following commands as user ``root``:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:108
+msgid ""
+"For earlier openSUSE versions change ``12.3`` with ``12.2``. For future "
+"openSUSE version use ``Factory``. Rolling version ``Tumbleweed`` is also "
+"supported. pycsw is included in the official Application::Geo repository "
+"of OpenSUSE Build Service."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:112
+#: ../../../quickstart/pycsw_quickstart.rst:319
+msgid "Tester Application"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:114
+msgid ""
+"To run the pycsw tester, use the pycsw launcher from the Web Services "
+"group, or open Firefox and navigate to "
+"``http://localhost/pycsw/tester/index.html``:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:119
+msgid ""
+"By selecting the left drop-down list, the user can see various predefined"
+" POST requests, encoded as XML, that can be sent to pycsw:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:124
+msgid ""
+"For example, by selecting \"apiso/DescribeRecord\", and pushing the "
+"\"Send\" button, a description of the ISO Application Profile record is "
+"presented on the right panel:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:129
+msgid ""
+"By selecting \"GetCapabilities-SOAP\" and pushing the \"Send\" button, a "
+"SOAP request is sent to the server to advertise their web service "
+"capabilities:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:134
+msgid ""
+"Also, the user can search for data records, performing a spatial bounding"
+" box query, by selecting \"GetRecords-filter-bbox\" and editing the "
+"coordinates in the XML request:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:139
+msgid ""
+"The user can go through all the available requests and perform various "
+"requests from this testing application."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:142
+msgid "Capabilities Document and Configuration"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:144
+msgid ""
+"The capabilities of the pycsw installation can be found at "
+"``http://localhost/pycsw/csw.py?service=CSW&version=2.0.2&request=GetCapabilities``."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:146
+msgid ""
+"To edit the web service metadata, included in the capabilities document, "
+"the user can modify the file ``/var/www/pycsw/default.cfg`` under the tag"
+" ``[metadata:main]``."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:148
+msgid ""
+"If the user wants to enable INSPIRE Discovery Service support, the "
+"metadata under the tag ``[metadata:inspire]`` has to be filled in and the"
+" ``enabled`` property has to be set to ``true``."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:150
+msgid ""
+"For full functionality and configuration options, please consult the "
+"`documentation`_ on the pycsw website."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:153
+msgid "Metadata Creation"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:156
+msgid "Using European Open Source Metadata Editor (EUOSME)"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:158
+msgid ""
+"Metadata files for a spatial dataset or a spatial web service can be "
+"created through the open source implementation of inspire directive for "
+"metadata, European Open Source Metadata Editor (EUOSME). This application"
+" can be found at ``http://inspire-geoportal.ec.europa.eu/editor/``. "
+"Source code is available at "
+"``https://joinup.ec.europa.eu/svn/euosme/trunk``"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:160
+msgid ""
+"The user fills the mandatory metadata fields going through the "
+"application tabs, adding information like the name of the data owner, "
+"keywords, resource location on the web, geographic location (using a "
+"bounding box or the name of a country) etc."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:165
+msgid ""
+"After the user has added all the information available, must push the "
+"validation button on top of the page, so that a check to be performed for"
+" consistency with the INSPIRE directive."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:170
+msgid ""
+"After a sucessful validation, the XML file can be saved to the local disk"
+" and viewed through a text editor or a browser."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:174
+msgid "Using GIMED"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:176
+msgid ""
+"`GIMED`_ is a Free Software for creating and editing INSPIRE compliant "
+"metadata XML files. To install the application, use the following "
+"commands from a terminal:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:185
+msgid ""
+"The user can follow the same workflow as in EUOSME to add and edit "
+"metadata, without the need for an internet connection."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:192
+msgid "Loading Metadata"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:195
+msgid "Metadata Repository Setup"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:197
+msgid "pycsw supports the following databases:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:199
+msgid "SQLite3"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:200
+msgid "PostgreSQL (PostGIS optional)"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:201
+msgid "MySQL"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:203
+msgid ""
+"In OSGeo-Live, a simple SQLite setup has been implemented. The database "
+"can be found in ``/var/www/pycsw/tests/suites/cite/data/records.db``"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:206
+msgid "Create new database"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:208
+msgid "In order to create a new SQLite database we need to:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:210
+msgid "Edit ``default.cfg``:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:212
+msgid "**[repository]**"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:214
+msgid ""
+"**database**: the full file path to the metadata database, in database "
+"URL format (see http://docs.sqlalchemy.org/en/latest/core/engines.html"
+"#database-urls)"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:215
+msgid "**table**: the table name for metadata records (default is ``records``)"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:217
+msgid "Setup the database:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:225
+msgid "This will create the necessary tables and values for the repository."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:227
+msgid ""
+"The database created is an `OGC SFSQL`_ compliant database, and can be "
+"used with any implementing software.  For example, to use with `OGR`_:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:239
+msgid "Importing Metadata"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:247
+msgid ""
+"This will import all ``*.xml`` records from ``/path/to/records`` into the"
+" new database and configure the repository to expose queryables as per "
+"Table 53 of OGC:CSW."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:250
+msgid "QGIS CSW Client Installation"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:252
+msgid ""
+"The HTTP request/response mechanism is not friendly enough to the end "
+"user in order to perform queries to the Catalogue Service. For this "
+"tutorial, we will use the :doc:`QGIS <../overview/qgis_overview>` `OGC "
+"Catalogue Service Client "
+"<https://sourceforge.net/apps/trac/qgiscommunitypl/wiki/qgcsw>`_ plugin."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:255
+msgid "To install the plugin in OSGeoLive:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:264
+msgid "Data Discovery"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:267
+msgid "QGIS CSW Plugin"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:269
+msgid "Start QGIS from the Desktop GIS group and go to \"Manage Plugins\""
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:274
+msgid "Enable the CSW plugin from the list"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:279
+msgid "Then select the CSW button from the toolbar and launch CSW Client"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:284
+msgid ""
+"Add the pycsw server by pressing the \"New\" button and type in "
+"``http://localhost/pycsw/csw.py``"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:289
+msgid ""
+"The user can add some default servers using the \"Add default servers\" "
+"button and also get the capabilities of the server using \"Server info\" "
+"button"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:294
+msgid ""
+"Perform search using the catalogue, either by a string value or with a "
+"bounding box"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:300
+msgid "Data Discovery through GeoExt"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:302
+msgid ""
+"Another way to use a pycsw server is through a web application, acting "
+"like a CSW client. Such functionality is available through `OpenLayers "
+"<http://openlayers.org>`_ and `GeoExt <http://www.geoext.org/>`_ "
+"Javascript libraries."
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:305
+msgid ""
+"For this tutorial we have hacked a small demonstration in GeoExt (thanks "
+"`Bart van den Eijnden <https://github.com/bartvde>`_) using a demo pycsw "
+"installation at http://demo.pycsw.org/services/csw:"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:307
+msgid "Go to http://demo.pycsw.org/viewer/index2.html"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:308
+msgid "Click icon \"find layers\""
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:309
+msgid "Enter \"airports\" (without double quotes)"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:310
+msgid "Click \"search\" or hit Enter"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:311
+msgid "See results"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:312
+msgid ""
+"Click the \"add to map\" icon beside the last result on that result set "
+"(\"1 Million Scale - Airports\")"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:313
+msgid "See layer added to map panel"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:321
+msgid ""
+"Discovery of data can be also performed through the Tester application by"
+" setting the appropriate requests eg. any text search with the string "
+"\"imagery\" leads to discovering the xml data created previously by "
+"EUOSME"
+msgstr ""
+
+#: ../../../quickstart/pycsw_quickstart.rst:326
+msgid ""
+"For more information on pycsw, please consult the `documentation`_ on the"
+" pycsw website."
+msgstr ""
+
