@@ -67,7 +67,7 @@ add_custom_command(
     DEPENDS 
     ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_overview.pl
     ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_metrics.pl
-    ${CMAKE_SOURCE_DIR}/projects_info.txt
+    ${CMAKE_SOURCE_DIR}/projects_info.csv
     )
 
 

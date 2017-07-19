@@ -34,7 +34,7 @@ add_custom_command(
     #COMMAND ${PERL_EXECUTABLE} ./build_overview.pl
     DEPENDS 
     ./build_overview.pl
-    ${CMAKE_SOURCE_DIR}/projects_info.txt
+    ${CMAKE_SOURCE_DIR}/projects_info.csv
     )
 
 add_custom_target(overview ALL

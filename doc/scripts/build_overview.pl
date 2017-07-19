@@ -20,7 +20,7 @@ sub Usage {
 
 my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
 my $version = "@OSGeoLiveDoc_VERSION@";
-my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.txt';
+my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
 my $output_file = '@CMAKE_BINARY_DIR@/doc/overview/overview.rst';
 
 

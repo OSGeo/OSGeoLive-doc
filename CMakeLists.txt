@@ -226,7 +226,7 @@ message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
 #---------------------------------------------
 
 # Y = to document | name | version | q = has quickstart | o = has overview
-file(STRINGS projects_info.txt OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
+file(STRINGS projects_info.csv OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
 set (OSGeoLiveDoc_PROJECTS_VERSIONS "")
 set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
@@ -299,5 +299,8 @@ if(FALSE)
 endif()
 
 configure_file("settings.py" "settings.py")
+configure_file("licenses.csv" "licenses.csv")
+configure_file("contributors.csv" "contributors.csv")
+configure_file("translators.csv" "translators.csv")
 
 add_subdirectory(doc)

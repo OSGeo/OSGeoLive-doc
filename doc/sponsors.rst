@@ -59,13 +59,15 @@ providing Virtual Machines for building the OSGeoLive iso images.
 Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
 and provide support and custom development for Open Source GIS software.
 
-.. include :: sponsors_osgeo.rst
+.. include:: sponsors_osgeo.rst
 
 Contributors
 ================================================================================
-.. include :: ../contributors.rst
+
+.. include:: contributors.rst
 
 Translators
 ================================================================================
-.. include :: ../translators.rst
+
+.. include:: translators.rst
 
