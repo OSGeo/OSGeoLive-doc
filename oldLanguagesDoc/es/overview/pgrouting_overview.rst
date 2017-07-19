@@ -6,12 +6,18 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: Logo de pgRouting 
   :align: right
   :target: http://www.pgrouting.org/
 
-pgRouting - Resúmen
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
+
+pgRouting
 ================================================================================
 
 Herramientas SIG.
@@ -27,7 +33,7 @@ Las ventajas del enfoque de base de datos de enrutamiento son:
 
 pgRouting está disponible bajo la licencia GPLv2 y es apoyado por una comunidad creciente de individuos, empresas y organizaciones.
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 70 %
   :alt: consulta de pgRouting en pgAdminIII
   :align: right
